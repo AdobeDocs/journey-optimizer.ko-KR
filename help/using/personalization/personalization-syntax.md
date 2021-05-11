@@ -2,7 +2,7 @@
 title: 개인화 구문
 description: 개인화 구문을 사용하는 방법 학습
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 2%
@@ -111,9 +111,9 @@ Journey Optimizer 개인화 블록에서 참조하기 전에 스키마에서 속
 3 - 활동 ID
 4 - 특정 속성을 제공합니다. 오퍼 유형에 따라 지원되는 속성을 사용할 수 있습니다. 예: `deliveryUrl` 이미지.
 
-결정 API에 대한 자세한 내용은 이 [페이지](https://experienceleague.corp.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)를 참조하십시오.
+결정 API에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)를 참조하십시오.
 
-오퍼 표현에 대한 자세한 내용은 이 [페이지](https://experienceleague.corp.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers)를 참조하십시오.
+오퍼 표현에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers)를 참조하십시오.
 
 모든 참조는 [here](personalization-validation.md)에 설명된 유효성 검사 메커니즘을 사용하여 오퍼 스키마에 대해 검증됩니다.
 
