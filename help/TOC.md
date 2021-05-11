@@ -1,0 +1,206 @@
+---
+product: experience cloud
+audience: end-user
+user-guide-title: Journey Optimizer 안내서
+user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
+type: Documentation
+solution: Journey Optimizer
+hide: true
+translation-type: tm+mt
+source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 50%
+
+---
+
+
+# [!DNL Journey Optimizer] 도움말 {#using}
+
++ [제품 설명서](ajo-home.md)
++ 시작하기{#get-started}
+   + [Journey Optimizer 소개](using/get-started.md)
+   + [빠른 시작](using/quick-start.md)
+   + [사용자 인터페이스](using/user-interface.md)
+   + [권한 관리](using/permissions.md)
+   + [알려진 문제](using/known-issues.md)
++ 메시지 {#create-messages}
+   + [메시지 시작](using/get-started-content.md)
+   + 메시지 만들기 {#create-message}
+      + [메시지 만들기](using/create-message.md)
+      + [이메일 구성](using/configure-email.md)
+      + [푸시 알림 구성](using/configure-push.md)
+   + [자산 추가 및 관리](using/assets-essentials.md)
+   + 이메일 디자이너 {#email-designer}
+      + [이메일 디자인 시작하기](using/design-emails.md)
+      + [UI에서 이메일 컨텐츠 디자인](using/create-email-content.md)
+      + [이메일 컨텐츠 가져오기 또는 코드 작성](using/existing-content.md)
+      + [이메일 디자이너 컨텐츠 구성 요소 사용](using/content-components.md)
+   + 개인화{#personalization}
+      + [시작하기](using/personalization/personalize.md)
+      + [개인화 영역](using/personalization/personalization-aeras.md)
+      + [개인화 구문](using/personalization/personalization-syntax.md)
+      + [개인화 유효성 검사](using/personalization/personalization-validation.md)
+      + 언어 템플릿 설정{#functions}
+         + [연산자](using/personalization/functions/operators.md)
+         + [집계](using/personalization/functions/aggregation.md)
+         + [배열 및 목록](using/personalization/functions/arrays-list.md)
+         + [수학](using/personalization/functions/maths.md)
+         + [지도](using/personalization/functions/maps.md)
+         + [개체](using/personalization/functions/objects.md)
+         + [문자열](using/personalization/functions/string.md)
+   + [개인화된 제안 추가](using/deliver-personalized-offers.md)
+   + {#create-message} 유효성 확인 및 게시
+      + [미리 보기 및 교정본](using/preview.md)
+      + [경고 확인](using/alerts.md)
+      + [메시지 게시](using/publish-manage-message.md)
+   + [옵트아웃 관리](using/consent.md)
++ 세그먼트{#segment}
+   + [세그먼트 정보](using/segment/about-segments.md)
+   + [세그먼트 작성](using/segment/creating-a-segment.md)
++ 여정 {#orchestrate-journeys}
+   + 여정 정보{#about-journeys}
+      + [일반 원칙](using/building-journeys/journey.md)
+      + [제한 사항](using/building-journeys/limitations.md)
+      + [여정 버전](using/building-journeys/journey-versions.md)
+      + [테스트 프로필](using/building-journeys/creating-test-profiles.md)
+   + 여정 만들기{#create-journey}
+      + [여정 시작하기](using/building-journeys/journey-gs.md)
+      + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
+      + [여정 테스트](using/building-journeys/testing-the-journey.md)
+      + [여정 게시](using/building-journeys/publishing-the-journey.md)
+      + [표준 시간대 관리](using/building-journeys/timezone-management.md)
+      + [여정 문제 해결](using/building-journeys/troubleshooting.md)
+   + 활동 {#about-journey-building}
+      + [여정 활동 정보](using/building-journeys/about-journey-activities.md)
+      + [일반 이벤트](using/building-journeys/general-events.md)
+      + [반응](using/building-journeys/reaction-events.md)
+      + [세그먼트 자격 조건](using/building-journeys/segment-qualification-events.md)
+      + [조건](using/building-journeys/condition-activity.md)
+      + [종료](using/building-journeys/end-activity.md)
+      + [대기](using/building-journeys/wait-activity.md)
+      + [세그먼트 읽기](using/building-journeys/read-segment.md)
+      + [메시지](using/building-journeys/journeys-message.md)
+      + [사용자 정의 작업](using/building-journeys/using-custom-actions.md)
+      + [점프](using/building-journeys/jump.md)
+      + [프로필 업데이트](using/building-journeys/update-profiles.md)
+   + 사용 사례 {#journey-use-cases}
+      + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
++ 추적 및 모니터링 {#reporting}
+   + [메시지 추적](using/message-tracking.md)
+   + [메시지 모니터링](using/message-monitoring.md)
+   + 라이브 보고서 {#live-report}
+      + [개요](using/reports/live-report.md)
+      + [여정 라이브 보고서](using/reports/journey-live-report.md)
+      + [이메일 라이브 보고서](using/reports/email-live-report.md)
+      + [라이브 보고서 푸시](using/reports/push-live-report.md)
+   + 글로벌 보고서 {#global-report}
+      + [개요](using/reports/global-report.md)
+      + [여정 글로벌 보고서](using/reports/journey-global-report.md)
+      + [이메일 글로벌 보고서](using/reports/email-global-report.md)
+      + [글로벌 보고서 푸시](using/reports/push-global-report.md)
+   + 여정 보고서 {#reports}
+      + [여정 보고서 만들기](using/reports/sharing-overview.md)
+      + [여정 필드](using/reports/sharing-journey-fields.md)
+      + [공통 필드](using/reports/sharing-common-fields.md)
+      + [작업 실행 필드](using/reports/sharing-execution-fields.md)
+      + [데이터 가져오기 필드](using/reports/sharing-fetch-fields.md)
+      + [ID 필드](using/reports/sharing-identity-fields.md)
+   + 전달성 {#deliverability}
+      + [전달 가능성 시작하기](using/deliverability.md)
+      + [제외 목록](using/suppression-lists.md)
++ 의사 결정 관리 {#offer-decisioniong}
+   + 의사 결정 관리 시작 {#get-started}
+      + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
+      + [사용자 인터페이스](using/offers/get-started/user-interface.md)
+      + [용어집](using/offers/get-started/glossary.md)
+   + 오퍼 만들기 및 관리 {#managing-offers-in-the-offer-library}
+      + [오퍼를 만드는 주요 단계](using/offers/offer-library/key-steps.md)
+      + [배치 만들기](using/offers/offer-library/creating-placements.md)
+      + [의사 결정 규칙 만들기](using/offers/offer-library/creating-decision-rules.md)
+      + [태그 만들기](using/offers/offer-library/creating-tags.md)
+      + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
+      + [대체 오퍼 만들기](using/offers/offer-library/creating-fallback-offers.md)
+      + [컬렉션 만들기](using/offers/offer-library/creating-collections.md)
+      + [등급 수식 만들기](using/offers/offer-library/create-ranking-formulas.md)
+   + 결정 만들기 및 관리 {#create-manage-activities}
+      + [의사 결정 만들기](using/offers/offer-activities/create-offer-activities.md)
+      + [결정 시 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
+   + 의사 결정 관리 보고서 만들기 {create-reports}
+      + [의사 결정 관리 이벤트 시작하기](using/offers/reports/get-started-events.md)
+      + [의사 결정 관리 이벤트 주요 정보](using/offers/reports/key-information.md)
+      + [이벤트 XDM 필드 액세스](using/offers/reports/xdm-fields.md)
+   + 오퍼 카탈로그 내보내기 {#export-catalog}
+      + [오퍼 카탈로그 내보내기 시작 ](using/offers/export-catalog/get-started-export.md)
+      + [내보낸 오퍼 카탈로그에 액세스](using/offers/export-catalog/access-dataset.md)
+      + [데이터 세트에 개인화된 제안](using/offers/export-catalog/export-offers.md)
+      + [데이터 세트 결정](using/offers/export-catalog/export-decisions.md)
+      + [배치 데이터 집합](using/offers/export-catalog/export-placements.md)
+      + [대체 데이터 세트](using/offers/export-catalog/export-fallback.md)
+   + API 참조 {#api-reference}
+      + [시작](using/offers/api-reference/getting-started.md)
+      + API를 사용하여 오퍼 만들기 및 관리 {#offers-api}
+         + 배치 {#placements}
+            + [배치 나열](using/offers/api-reference/offers-api/placements/placements-list.md)
+            + [배치 조회](using/offers/api-reference/offers-api/placements/lookup.md)
+            + [배치 만들기](using/offers/api-reference/offers-api/placements/create.md)
+            + [배치 업데이트](using/offers/api-reference/offers-api/placements/update.md)
+            + [배치 삭제](using/offers/api-reference/offers-api/placements/delete.md)
+         + 의사 결정 규칙 {#decision-rules}
+            + [의사 결정 규칙 나열](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
+            + [의사 결정 규칙 조회](using/offers/api-reference/offers-api/decision-rules/lookup.md)
+            + [의사 결정 규칙 만들기](using/offers/api-reference/offers-api/decision-rules/create.md)
+            + [의사 결정 규칙 업데이트](using/offers/api-reference/offers-api/decision-rules/update.md)
+            + [의사 결정 규칙 삭제](using/offers/api-reference/offers-api/decision-rules/delete.md)
+         + 태그 {#tags}
+            + [태그 나열](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [태그 조회](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [태그 만들기](using/offers/api-reference/offers-api/tags/create.md)
+            + [태그 업데이트](using/offers/api-reference/offers-api/tags/update.md)
+            + [태그 삭제](using/offers/api-reference/offers-api/tags/delete.md)
+         + 개인화된 오퍼 {#personalized-offers}
+            + [개인화된 오퍼 나열](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
+            + [개인화된 오퍼 조회](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
+            + [개인화된 오퍼 만들기](using/offers/api-reference/offers-api/personalized-offers/create.md)
+            + [개인화된 오퍼 업데이트](using/offers/api-reference/offers-api/personalized-offers/update.md)
+            + [개인화된 오퍼 삭제](using/offers/api-reference/offers-api/personalized-offers/delete.md)
+         + 컬렉션 {#collections}
+            + [컬렉션 나열](using/offers/api-reference/offers-api/collections/collections-list.md)
+            + [컬렉션 조회](using/offers/api-reference/offers-api/collections/lookup.md)
+            + [컬렉션 만들기](using/offers/api-reference/offers-api/collections/create.md)
+            + [컬렉션 업데이트](using/offers/api-reference/offers-api/collections/update.md)
+            + [컬렉션 삭제](using/offers/api-reference/offers-api/collections/delete.md)
+         + 대체 오퍼 {#fallback-offers}
+            + [대체 오퍼 나열](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
+            + [대체 오퍼 조회](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
+            + [대체 오퍼 만들기](using/offers/api-reference/offers-api/fallback-offers/create.md)
+            + [대체 오퍼 업데이트](using/offers/api-reference/offers-api/fallback-offers/update.md)
+            + [대체 오퍼 삭제](using/offers/api-reference/offers-api/fallback-offers/delete.md)
+      + API {#activities-api}를 사용하여 의사 결정 만들기 및 관리
+         + [목록 결정](using/offers/api-reference/activities-api/activities/activities-list.md)
+         + [결정 조회](using/offers/api-reference/activities-api/activities/lookup.md)
+         + [결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
+         + [결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
+         + [결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
+      + API {#offer-delivery}를 사용한 오퍼 배달
+         + [의사 결정 API](using/offers/api-reference/decisions-api/deliver-offers.md)
+         + [Adobe Experience Platform 웹 SDK](using/offers/api-reference/web-sdk.md)
++ 구성 {#configuration}
+   + [기술 설정](using/administration.md)
+   + [푸시 알림 구성](using/push-configuration.md)
+   + 이벤트 구성 {#events-journeys}
+      + [이벤트](using/event/about-events.md)
+      + 단일 이벤트 {#unitary-events} 구성
+         + [단일 이벤트 시작](using/event/about-creating.md)
+         + [ExperienceEvent 스키마](using/event/experience-event-schema.md)
+         + [Adobe Analytics 활용](using/event/about-analytics.md)
+      + [비즈니스 이벤트 구성](using/event/about-creating-business.md)
+      + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+   + 데이터 소스 구성{#data-source-journeys}
+      + [데이터 소스](using/datasource/about-data-sources.md)
+      + [데이터 소스 구성](using/datasource/configure-data-sources.md)
+      + [Adobe Experience Platform 데이터 소스](using/datasource/adobe-experience-platform-data-source.md)
+      + [외부 데이터 소스](using/datasource/external-data-sources.md)
+   + 작업 구성 {#action-journeys}
+      + [작업](using/action/action.md)
+      + [작업 구성](using/action/about-custom-action-configuration.md)
