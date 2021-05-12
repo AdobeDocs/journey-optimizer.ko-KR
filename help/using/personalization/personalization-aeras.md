@@ -2,9 +2,9 @@
 title: Journey Optimizer의 개인화 컨텍스트
 description: 개인화를 추가할 수 있는 컨텍스트 파악
 translation-type: tm+mt
-source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---
@@ -65,8 +65,8 @@ Journey Optimizer에서 제공하는 메시지 내용 및 표시는 여러 가�
 화면의 왼쪽 부분에는 개인화할 소스를 선택할 수 있는 도메인 선택기가 표시됩니다.
 
 * **프로필** :XDM( [Adobe Experience Platform Data Model) 설명서에 설명된 프로필 스키마에 연결된 모든 참조를 나열합니다](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko).
-* **세그먼트 멤버십** :Adobe Experience Platform 세그멘테이션 서비스에서 만든 모든 세그먼트를 나열합니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)에서 사용 가능한 세그멘테이션에 대한 자세한 정보
-* **오퍼** :특정 배치와 연관된 모든 오퍼를 나열합니다. 배치를 선택한 다음 오퍼를 컨텐츠에 삽입합니다. 오퍼 관리 방법에 대한 전체 문서는 [이 섹션](https://experienceleague.adobe.com/docs/customer-journey-management/using/create-messages/deliver-personalized-offers.html?lang=en#about-offer-decisioning)을 참조하십시오.
+* **세그먼트 멤버십** :Adobe Experience Platform 세그멘테이션 서비스에서 만든 모든 세그먼트를 나열합니다. 사용 가능한 세그먼테이션에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)를 참조하십시오.
+* **오퍼** :특정 배치와 연관된 모든 오퍼를 나열합니다. 배치를 선택한 다음 오퍼를 컨텐츠에 삽입합니다. 오퍼를 관리하는 방법에 대한 전체 문서는 [이 섹션](../../using/offers/get-started/starting-offer-decisioning.md)을 참조하십시오.
 
 선택 시 참조가 편집기에 추가됩니다.
 
