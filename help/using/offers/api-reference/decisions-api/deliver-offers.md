@@ -2,7 +2,7 @@
 title: 제안 전달
 description: 의사 결정 관리는 마케터가 비즈니스 논리 및 의사 결정 규칙을 사용하여 채널 및 애플리케이션 전반에 걸쳐 최종 사용자 맞춤형 제안 경험을 제작하여 제공할 수 있는 서비스 및 UI 프로그램의 집합입니다.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 이 자습서에서는 의사 결정 관리와 관련하여 API에 대한 작업 이해를 필요로 합니다. 자세한 내용은 [의사 결정 관리 API 개발자 안내서](../getting-started.md)를 참조하십시오. 또한 이 자습서를 사용하려면 고유한 배치 ID 및 결정 ID 값을 사용할 수 있어야 합니다. 이러한 값을 취득하지 않은 경우 [배치](../offers-api/placements/create.md) 만들기 및 [결정](../activities-api/activities/create.md)에 대한 자습서를 참조하십시오.
 
-![](../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
+![](../../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
 ## 머리글 수락 및 내용 유형
 
