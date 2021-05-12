@@ -2,7 +2,7 @@
 title: 오퍼를 만드는 주요 단계
 description: 오퍼를 만드는 데 필요한 주요 단계를 살펴보십시오.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 23%
@@ -26,9 +26,9 @@ ht-degree: 23%
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">배치 만들기</a></p></td>
-<td><img src="../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">의사 결정 규칙 만들기</a></p></td>
-<td><img src="../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">태그 만들기</a></p></td>
-<td><img src="../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">오퍼의 컨텐츠 및 속성 만들기</a></p></td>
-<td><img src="../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">대체 오퍼 만들기</a></p></td></tr>
+<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">배치 만들기</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">의사 결정 규칙 만들기</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">태그 만들기</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">오퍼의 컨텐츠 및 속성 만들기</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">대체 오퍼 만들기</a></p></td></tr>
 </table>
