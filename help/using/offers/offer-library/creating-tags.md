@@ -2,7 +2,7 @@
 title: 태그 만들기
 description: Adobe Experience Platform에서 오퍼를 만드는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 5%
@@ -15,11 +15,11 @@ ht-degree: 5%
 
 태그를 사용하여 오퍼를 오퍼 컬렉션으로 그룹화할 수도 있습니다. [컬렉션 만들기](../offer-library/creating-collections.md)를 참조하십시오.
 
-![](../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
+![](../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
 만든 태그 목록은 **[!UICONTROL Components]** 메뉴에서 액세스할 수 있습니다.
 
-![](../assets/tags_list.png)
+![](../../assets/tags_list.png)
 
 태그를 만들려면 다음 단계를 수행합니다.
 
@@ -27,11 +27,11 @@ ht-degree: 5%
 
 1. 태그 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
-   ![](../assets/tags_create.png)
+   ![](../../assets/tags_create.png)
 
 1. 태그가 만들어지면 목록에 표시됩니다. 속성을 표시하고 속성을 편집하거나 제외하도록 선택할 수 있습니다.
 
-   ![](../assets/tags_created.png)
+   ![](../../assets/tags_created.png)
 
 ## 자습서 비디오 {#video}
 
