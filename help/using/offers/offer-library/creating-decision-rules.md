@@ -2,7 +2,7 @@
 title: 의사 결정 규칙 만들기
 description: Adobe Experience Platform에서 의사 결정 규칙을 만드는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 12%
@@ -15,17 +15,17 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
 예를 들어 (Gender = &#39;Female&#39;) 및 (Region = &#39;Northeast&#39;)일 때만 &#39;여성용 겨울 의류 상품&#39;을 표시하도록 지정할 수 있습니다. 
 
-![](../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
+![](../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
 만든 결정 규칙 목록은 **[!UICONTROL Components]** 메뉴에서 액세스할 수 있습니다.
 
-![](../assets/decision_rules_list.png)
+![](../../assets/decision_rules_list.png)
 
 결정 규칙을 만들려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL Rules]** 탭으로 이동한 다음 **[!UICONTROL Create rule]**&#x200B;를 클릭합니다.
 
-   ![](../assets/offers_decision_rule_creation.png)
+   ![](../../assets/offers_decision_rule_creation.png)
 
 1. 규칙의 이름을 지정하고 설명을 제공한 다음 필요에 따라 규칙을 구성합니다.
 
@@ -33,7 +33,7 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
    이 예에서는 &quot;Gold&quot; 충성도 수준이 있는 고객을 대상으로 합니다.
 
-   ![](../assets/offers_decision_rule_creation_segment.png)
+   ![](../../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
 1. 규칙이 만들어지면 규칙 목록에 표시됩니다. 속성을 표시하고 이를 편집하거나 삭제할 수 있도록 선택할 수 있습니다.
 
-   ![](../assets/rule_created.png)
+   ![](../../assets/rule_created.png)
 
 ## 자습서 비디오 {#video}
 
