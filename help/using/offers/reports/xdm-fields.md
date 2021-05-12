@@ -2,7 +2,7 @@
 title: 이벤트 XDM 필드 액세스
 description: DecisioningEvents XDM 스키마에 대해 자세히 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 67%
@@ -13,13 +13,13 @@ ht-degree: 67%
 
 의사 결정 관리 이벤트가 포함된 데이터세트에서 직접 DecisionEvents XDM 스키마에 액세스할 수 있습니다.
 
-![](../assets/access-schema.png)
+![](../../assets/access-schema.png)
 
 스키마에는 의사 결정 관리에서 Adobe Experience Platform으로 정보를 보내는 데 필요한 모든 필드가 포함되어 있습니다.
 
 특정 필드에 대한 자세한 내용을 보려면 해당 필드를 선택하여 필드 속성이 있는 정보 창을 표시합니다.
 
-![](../assets/schema-fields.png)
+![](../../assets/schema-fields.png)
 
 XDM 스키마 및 필드를 사용하여 작업하는 방법에 대한 자세한 내용은 Experience 데이터 모델 설명서를 참조하십시오.
 
