@@ -2,7 +2,7 @@
 title: 시작하기
 description: 오퍼 라이브러리 API를 사용하여 의사 결정 관리 엔진을 사용하여 주요 작업을 수행하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 이 개발자 안내서에서는 [!DNL Offer Library] API 사용을 시작하는 데 도움이 되는 단계를 제공합니다. 그런 다음 이 안내서는 의사 결정 관리 엔진을 사용하여 주요 작업을 수행하기 위한 샘플 API 호출을 제공합니다.
 
-![](../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
+![](../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
 ## 전제 조건
 
