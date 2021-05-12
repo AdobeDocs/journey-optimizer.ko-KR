@@ -2,9 +2,9 @@
 title: 배치 데이터 집합
 description: 이 섹션에는 배치를 위해 내보낸 데이터 세트에 사용된 모든 필드가 나열됩니다.
 translation-type: tm+mt
-source-git-commit: d96a2b179ce652a119b6008e02b1409666f36402
+source-git-commit: 70c172e19d5900c898d4850801468a2e186e682d
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '350'
 ht-degree: 4%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 오퍼가 수정될 때마다 배치에 대해 자동으로 생성된 데이터 세트가 업데이트됩니다.
 
-![](../assets/dataset-placements.png)
+![](../../assets/dataset-placements.png)
 
 데이터 세트에서 가장 최근에 성공한 일괄 처리가 오른쪽에 표시됩니다. 데이터 세트에 대한 스키마의 계층 구조 보기가 왼쪽 창에 표시됩니다.
 
@@ -21,54 +21,74 @@ ht-degree: 4%
 >
 >[이 섹션](../export-catalog/access-dataset.md)에서 오퍼 라이브러리의 각 개체에 대해 내보낸 데이터 집합에 액세스하는 방법을 알아봅니다.
 
-배치에서는 개인화된 메시지의 위치 또는 위치를 설명합니다. 개인화 결정 시 제공되는 컨텐츠에 대한 기술적 제약 조건을 설정하는 데 사용됩니다. 또한 이 배치는 이 배치가 관련되는 경험 이벤트가 생성되면 특정 유형의 지표를 만들기 위한 요청을 나타냅니다. 예를 들어, 이 배치에서는 최종 사용자에게 표시된 이메일 내에 개인화된 클릭 가능 이미지를 쉽게 표시합니다. 배치는 https://ns.adobe.com/xdm/data/metrics/web/linkclicks지표 및 이 배치에 대한 참조가 있는 경험 이벤트에서 이미지 클릭이 보고되는 조합 경험에서 인스턴스 요청에 대해 수행할 수 있습니다.
-
 다음은 **[!UICONTROL Decision Object Repository - Placements]** 데이터 세트에 사용할 수 있는 모든 필드의 목록입니다.
+
+<!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
 ## 식별자
 
-레코드에 대한 고유 식별자입니다.
-
-유형: 문자열
+**필드:** _id 
+**제목:** 식별자 
+**설명:** 레코드에 대한 고유한 식별자입니다.
+**유형:** 문자열
 
 ## _경험
 
+**필드:** _경험 
+**유형:** 객체
+
 ### 의사 결정
+
+**필드:** 의사 결정 
+**유형:** 객체
 
 #### 배치 채널 식별자
 
-제안이 이루어진 채널. 값은 유효한 채널 URI입니다. https://ns.adobe.com/xdm/channels/channel을 참조하십시오.
-
-유형: 문자열
+**필드:** channelID 
+**제목:** 배치
+**의 채널 식별자** 설명:제안을 제안한 채널입니다. 값은 유효한 채널 URI입니다. https://ns.adobe.com/xdm/channels/channel을 참조하십시오.
+**유형:** 문자열
 
 #### 컨텐츠 구성 요소 유형
 
-각 값이 컨텐츠 구성 요소에 지정된 유형에 매핑되는 열거형 URI 세트입니다. 컨텐츠 표현의 일부 소비자는 @type 값이 컨텐츠 구성 요소의 추가 속성을 설명하는 스키마에 대한 참조일 것으로 예상하고 있습니다.
+**필드:** componentType 
+**Title:** 컨텐츠 구성 요소 유형 
+**설명:** 각 값이 컨텐츠 구성 요소에 지정된 유형에 매핑되는 열거형 URI 세트입니다. 컨텐츠 표현의 일부 소비자는 @type 값이 컨텐츠 구성 요소의 추가 속성을 설명하는 스키마에 대한 참조일 것으로 예상하고 있습니다.
+**유형:** 문자열
 
-유형: 문자열
+#### contentTypes
 
-#### MIME 미디어 유형
+**필드:** contentTypes 
+**Type:** array
 
-해당 배치에서 예상되는 구성 요소의 미디어 유형에 대한 제한입니다. 다른 이미지 형식과 같은 구성 요소 하나에 대해 두 개 이상의 미디어 유형이 있을 수 있습니다.
+* **MIME 미디어 유형**
 
-유형: 문자열
+   **제목:** MIME 미디어 유형
+   **설명:** 해당 배치에 필요한 구성 요소의 미디어 유형에 대한 제한입니다. 다른 이미지 형식과 같은 구성 요소 하나에 대해 두 개 이상의 미디어 유형이 있을 수 있습니다.
+   **유형:** 문자열
 
 #### 배치 설명
 
-동적 컨텐츠가 전체 메시지 전달에서 사용되는 방법에 대해 사람이 읽을 수 있는 의도를 전달하는 데 사용됩니다. 특정 공백이 웹 페이지의 \&quot;배너\&quot;라는 것은 공식 방법이 아닌 설명을 통해 전달되는 경우가 많습니다.
-
-유형: 문자열
+**필드:** 설명 
+**제목:** 배치 설명: 
+**설명:** 동적 컨텐츠가 전체 메시지 전달에서 사용되는 방법에 대해 사람이 읽을 수 있는 의도를 전달하는 데 사용됩니다. 특정 공백이 웹 페이지의 \&quot;배너\&quot;라는 것은 공식 방법이 아닌 설명을 통해 전달되는 경우가 많습니다.
+**유형:** 문자열
 
 #### 배치 이름
 
-인간 상호 작용에서 배치를 참조하는 지정된 이름입니다.
-
-유형: 문자열
+**필드:** 이름 
+**제목:** 배치 이름 
+**설명:** 사람 상호 작용에서 위치를 참조하는 배치에 할당된 이름입니다.
+**유형:** 문자열
 
 ## _repo
 
+**필드:** _repo 
+**유형:** 객체
+
 ### 배치 태그
 
-스냅샷을 촬영할 때 결정 옵션 객체가 있던 개정.
-
-유형: 문자열
+**필드:** 태그 
+**제목:** 배치 ETag 
+**설명:스냅샷** 을 가져올 때 의사 결정 옵션 객체가 있었던 개정입니다.
+**유형:** 문자열
