@@ -2,7 +2,7 @@
 title: 컬렉션 만들기
 description: 컬렉션을 사용하여 오퍼를 구성하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -13,11 +13,11 @@ ht-degree: 3%
 
 컬렉션을 사용하면 오퍼를 원하는 카테고리로 다시 그룹화하여 구성할 수 있습니다. 예를 들어 스포츠 관련 제안만 포함하는 &quot;스포츠&quot; 컬렉션을 만들 수 있습니다.
 
-![](../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
+![](../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
 오퍼 컬렉션 목록은 **[!UICONTROL Offers]** 메뉴에서 액세스할 수 있습니다.
 
-![](../assets/collections_list.png)
+![](../../assets/collections_list.png)
 
 두 가지 유형의 컬렉션을 만들 수 있습니다.
 
@@ -31,17 +31,17 @@ ht-degree: 3%
 
 1. 만들 컬렉션의 이름 및 유형을 지정합니다.
 
-   ![](../assets/collection_create.png)
+   ![](../../assets/collection_create.png)
 
 1. 동적 컬렉션을 만들려면 왼쪽 창에서 컬렉션에 추가할 오퍼의 태그를 선택한 다음 **[!UICONTROL Save]**&#x200B;을 클릭합니다. 선택한 태그가 포함된 모든 오퍼가 컬렉션에 저장됩니다.
 
    태그 만들기에 대한 자세한 내용은 [태그 만들기](../offer-library/creating-tags.md)를 참조하십시오.
 
-   ![](../assets/dynamic_collection.png)
+   ![](../../assets/dynamic_collection.png)
 
 1. 정적 컬렉션을 만들려면 왼쪽 창을 사용하여 오퍼 목록(상태, 태그, 날짜, 채널, 콘텐츠 유형)을 필터링한 다음 컬렉션에 추가할 오퍼를 선택합니다.
 
-   ![](../assets/static_collection.png)
+   ![](../../assets/static_collection.png)
 
    >[!NOTE]
    >
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 1. 컬렉션이 만들어지면 목록에 표시됩니다. 편집하거나 삭제할 항목을 선택할 수 있습니다.
 
-   ![](../assets/collection_created.png)
+   ![](../../assets/collection_created.png)
 
 ## 자습서 비디오 {#video}
 
