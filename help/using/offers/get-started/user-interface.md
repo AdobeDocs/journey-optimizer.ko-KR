@@ -2,7 +2,7 @@
 title: 사용자 인터페이스
 description: 오퍼 라이브러리 사용자 인터페이스에 대해 자세히 알아보십시오.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Decisions]**:제안을 전달할 의사 결정을 만들고 관리할 수 있습니다. [결정 만들기](../offer-activities/create-offer-activities.md)를 참조하십시오.
 
-![](../assets/offers_menu.png)
+![](../../assets/offers_menu.png)
 
 오퍼를 만드는 데 필요한 구성 요소를 관리하려면 **[!UICONTROL Components]** 메뉴를 사용합니다.
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Rankings]**:등급 공식을 생성 및 관리하여 지정된 배치에 대해 먼저 제시해야 하는 오퍼를 결정합니다. [등급 공식 만들기](../offer-library/create-ranking-formulas.md)를 참조하십시오.
 
-![](../assets/offer_activities.png)
+![](../../assets/offer_activities.png)
 
 ## 검색 및 필터 정보
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 **목록** 왼쪽 상단에 있는 필터 아이콘을 클릭하여 필터 검색에 액세스할 수도 있습니다. 이 매개 변수를 사용하면 다른 기준에 따라 표시된 요소를 필터링할 수 있습니다. 예를 들어 이메일 통신 채널 및 이미지 유형 컨텐츠용으로 만들어진 배치를 필터링할 수 있습니다.
 
-![](../assets/filters.png)
+![](../../assets/filters.png)
 
 ## 표시된 정보 사용자 정의
 
@@ -51,21 +51,21 @@ ht-degree: 0%
 
 사용자 정의 열은 각 사용자에 대해 저장됩니다.
 
-![](../assets/columns.png)
+![](../../assets/columns.png)
 
 ## 정보 창
 
 다른 목록에서 요소를 선택하여 정보를 검색하고 요소에 대한 기본 작업을 수행할 수 있는 정보 창을 표시합니다.
 
-![](../assets/information-pane.png)
+![](../../assets/information-pane.png)
 
 오퍼 및 결정 목록에서는 여러 요소에 대해 일괄 작업을 수행할 수도 있습니다. 이렇게 하려면 원하는 오퍼 또는 결정을 선택한 다음 정보 창에서 수행할 작업을 선택합니다.
 
-![](../assets/bulk-actions.png)
+![](../../assets/bulk-actions.png)
 
 기존 오퍼 또는 결정을 복제하여 **[!UICONTROL Draft]** 상태의 사본을 만들 수도 있습니다. 정보 창이나 오퍼 또는 결정의 세부 보기에서 수행할 수 있습니다.
 
-![](../assets/duplicate-offer.png)
+![](../../assets/duplicate-offer.png)
 
 ## 오퍼 및 결정 변경 로그 {#changes-logs}
 
@@ -73,4 +73,4 @@ ht-degree: 0%
 
 변경한 모든 내용은 이 화면과 변경 작업을 수행한 사용자의 이름이 표시됩니다.
 
-![](../assets/change-logs.png)
+![](../../assets/change-logs.png)
