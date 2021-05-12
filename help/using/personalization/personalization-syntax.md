@@ -2,7 +2,7 @@
 title: 개인화 구문
 description: 개인화 구문을 사용하는 방법 학습
 translation-type: tm+mt
-source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 2%
