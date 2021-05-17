@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![](assets/message-execution-tab-filters.png)
 
-<!--**[!UICONTROL Quick action]**-->두 번째 열을 사용하여 해당 [메시지](create-message.md)를 열고 **[!UICONTROL Live view]**&#x200B;에 있는 경우 [라이브 보고서](reports/live-report.md)에 액세스하거나 **[!UICONTROL Global view]**&#x200B;에 있는 경우 [글로벌 보고서](reports/global-report.md)에 액세스할 수 있습니다.
+두 번째 열을 사용하여 해당 [메시지](create-message.md)를 열고 **[!UICONTROL Live view]**&#x200B;에 있는 경우 [라이브 보고서](reports/live-report.md)에 액세스하거나 **[!UICONTROL Global view]**&#x200B;에 있는 경우 [글로벌 보고서](reports/global-report.md)에 액세스할 수 있습니다.
 
 ![](assets/message-execution-open-live-report.png)
 
