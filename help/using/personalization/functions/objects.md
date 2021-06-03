@@ -1,10 +1,9 @@
 ---
 title: 함수 라이브러리
 description: 함수 라이브러리
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '55'
 ht-degree: 7%
 
 ---
@@ -13,38 +12,38 @@ ht-degree: 7%
 
 ![](../../assets/do-not-localize/badge.png)
 
-## null임
+## null임{#isNull}
 
-`isNull` 함수는 개체 참조가 있는지 확인합니다.
-
-**형식**
-
-```sql
-isNull({OBJECT})
-```
-
-**예**
-
-다음 PQL 쿼리는 개인의 홈 주소가 존재하지 않는지 확인합니다.
-
-```sql
-isNull(person.homeAddress)
-```
-
-## null이 아님
-
-`isNotNull` 함수는 개체 참조가 있는지 확인합니다.
+`isNull` 함수는 개체 참조가 없는지 확인합니다.
 
 **형식**
 
 ```sql
-isNotNull({OBJECT})
+{%= isNull(object) %}
 ```
 
 **예**
 
-다음 PQL 쿼리는 개인의 홈 주소가 있는지 확인합니다.
+다음 작업은 개인의 집 주소가 존재하지 않는지 확인합니다.
 
 ```sql
-isNotNull(person.homeAddress)
+{%= isNull(person.homeAddress) %}
+```
+
+## null이 아님{#isNotNull}
+
+`isNotNull` 함수는 개체 참조가 있는지 여부를 결정합니다.
+
+**형식**
+
+```sql
+{%= isNotNull(object) %}
+```
+
+**예**
+
+다음 작업은 개인의 집 주소가 있는지 확인합니다.
+
+```sql
+{%= isNotNull(person.homeAddress) %}
 ```
