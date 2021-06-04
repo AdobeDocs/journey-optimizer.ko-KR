@@ -11,9 +11,9 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '433'
 ht-degree: 8%
 
 ---
@@ -23,10 +23,9 @@ ht-degree: 8%
 
 도메인 이름 위임은 도메인 이름의 소유자를 허용하는 메서드입니다(기술적으로DNS 영역)에서 하위 집합을 위임(기술적 의미상:하위 영역이라고 할 수 있는 DNS 영역을 다른 엔터티에 추가합니다. 기본적으로 고객이 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다.
 
-Domain Optimizer에서 사용할 하위 도메인을 위임함으로써 클라이언트는 Adobe을 사용하여 전자 메일 마케팅 전송 도메인에 대한 업계 표준 게재 기능 요구 사항을 충족하는 데 필요한 DNS 인프라를 유지 관리하고 DNS를 계속 유지 관리하고 제어할 수 있습니다
-내부 이메일 도메인.
+[!DNL Journey Optimizer]에서 사용할 하위 도메인을 위임하면 클라이언트는 Adobe을 이용하여 전자 메일 마케팅 전송 도메인에 대한 업계 표준 게재 능력 요구 사항을 충족하는 데 필요한 DNS 인프라를 유지 관리하는 동시에 내부 전자 메일 도메인에 대한 DNS를 유지 및 제어할 수 있습니다.
 
-Journey Optimizer을 사용하면 하위 도메인을 Adobe에 완전히 위임할 수 있습니다. 이렇게 하면 Adobe은 이메일 캠페인 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리하는 방식으로 메시지를 관리 서비스로 제공할 수 있습니다.
+[!DNL Journey Optimizer] 제품 인터페이스에서 직접 Adobe에 하위 도메인을 완전히 위임할 수 있습니다. 이렇게 하면 Adobe은 이메일 캠페인 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리하는 방식으로 메시지를 관리 서비스로 제공할 수 있습니다.
 
 >[!NOTE]
 >
