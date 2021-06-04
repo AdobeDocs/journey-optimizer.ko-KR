@@ -1,9 +1,9 @@
 ---
 title: 배치 데이터 세트
 description: 이 섹션에는 배치를 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다.
-source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
+source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '365'
 ht-degree: 4%
 
 ---
@@ -60,11 +60,11 @@ ht-degree: 4%
 **필드:** contentTypes 
 **유형:** 배열
 
-* **MIME 미디어 유형**
+**_experience > decisioning > contentTypes > MIME 미디어 유형**
 
-   **제목:** MIME 미디어 유형
-   **설명:**  해당 배치에 필요한 구성 요소의 미디어 유형에 대한 제한입니다. 한 구성 요소에 대해 다른 이미지 형식과 같은 두 개 이상의 미디어 유형을 사용할 수 있습니다.
-   **유형:** 문자열
+**제목:** MIME 미디어 유형 
+**설명:**  해당 배치에 필요한 구성 요소의 미디어 유형에 대한 제한입니다. 한 구성 요소에 대해 다른 이미지 형식과 같은 두 개 이상의 미디어 유형을 사용할 수 있습니다.
+**유형:** 문자열
 
 #### _experience > decisioning > 배치 설명
 
