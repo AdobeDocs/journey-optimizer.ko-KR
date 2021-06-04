@@ -6,7 +6,7 @@ user-guide-description: Journey Optimizer을 사용하여 고객에게 연결되
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: a4dd0cb3054a0f637068017fe1749a354e4d7e63
+source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 43%
@@ -193,7 +193,7 @@ ht-degree: 43%
       + [기술 설정](using/administration/administration.md)
       + [메시지 사전 설정 만들기](using/configuration/message-presets.md)
       + 푸시 알림 구성{#push-config}
-         + [푸시 알림 시작](using/push-gs.md)
+         + [푸시 구성 시작](using/push-gs.md)
          + [푸시 채널 구성](using/push-configuration.md)
       + 전자 메일 구성 {#email-config}
          + 하위 도메인 {#delegate-subdomains} 위임
