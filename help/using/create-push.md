@@ -1,7 +1,7 @@
 ---
 title: 푸시 알림 구성
 description: Journey Optimizer에서 푸시 알림을 만드는 방법을 알아봅니다
-source-git-commit: 9ea3f4eb7767f9ad4c608d9c28d9ee7ca4bb8e3b
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 10%
@@ -83,7 +83,7 @@ iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android
 
 ## 사용자 지정 데이터
 
-**[!UICONTROL Custom data]** 섹션에서는 모바일 애플리케이션 구성에 따라 페이로드에 사용자 지정 변수를 추가할 수 있습니다. Adobe Experience Platform 및 Adobe Launch에서 푸시 알림을 설정하는 방법에 대한 자세한 내용은 [이 섹션](push-configuration.md)을 참조하십시오
+**[!UICONTROL Custom data]** 섹션에서는 모바일 애플리케이션 구성에 따라 페이로드에 사용자 지정 변수를 추가할 수 있습니다. Adobe Experience Platform 및 Adobe Launch에서 푸시 알림을 설정하는 방법에 대한 자세한 내용은 [이 섹션](push-gs.md)을 참조하십시오
 
 ## 고급 옵션
 
@@ -109,7 +109,7 @@ iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [푸시 채널 구성](push-configuration.md)
+* [푸시 채널 구성](push-gs.md)
 * [새 메시지 만들기](create-message.md)
 * [여정에 메시지 추가](building-journeys/journeys-message.md)
 
