@@ -1,7 +1,7 @@
 ---
 title: 메시지 사전 설정 만들기
 description: 메시지 사전 설정을 구성하고 모니터링하는 방법을 알아봅니다
-source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
+source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -18,6 +18,7 @@ ht-degree: 0%
 > 메시지 사전 설정 구성은 여정 관리자로 제한됩니다. [자세히 알아보기](../administration/ootb-product-profiles.md#journey-administrator)
 
 
+
 메시지 사전 설정이 구성되면 **[!UICONTROL Presets]** 목록에서 메시지를 만들 때 메시지 사전 설정을 선택할 수 있습니다.
 
 ## 메시지 사전 설정 {#create-message-preset} 만들기
@@ -27,6 +28,7 @@ ht-degree: 0%
 1. **[!UICONTROL Channels]** / **[!UICONTROL Message presets]** 메뉴에 액세스한 다음 **[!UICONTROL Create Message preset]** 를 클릭합니다.
 
    ![](../assets/preset-create.png)
+
 
 1. 사전 설정에 대한 이름과 설명(선택 사항)을 입력한 다음 구성할 채널을 선택합니다.
 
@@ -80,6 +82,7 @@ ht-degree: 0%
 
    이러한 검사에는 Adobe 게재 가능성 팀이 수행하는 게재 가능성 테스트가 포함됩니다.
 
+
    * SPF 유효성 검사
    * DKIM 유효성 검사
    * MX 레코드 유효성 검사
@@ -87,6 +90,7 @@ ht-degree: 0%
    * 헬로 호스트 확인
    * IP 풀 확인
    * A/PTR 레코드, t/m/res 하위 도메인 확인
+
 
 1. 확인이 성공하면 메시지 사전 설정이 **[!UICONTROL Active]** 상태를 가져옵니다. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
