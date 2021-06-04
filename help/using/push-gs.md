@@ -1,14 +1,14 @@
 ---
 title: 푸시 구성 시작
 description: 푸시 알림 데이터 흐름 및 구성 요소 이해
-source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
-# 푸시 구성 {#get-started-push} 시작
+# 푸시 알림 구성 {#get-started-push}
 
 ![](assets/do-not-localize/badge.png)
 
@@ -68,5 +68,3 @@ Journey Optimizer Adobe으로 푸시 알림을 전송하려면 다음 단계를 
 
 ![](assets/user-flow.png)
 
-
-푸시 채널을 구성하고 [!DNL Journey Optimizer]에서 푸시 알림을 활성화하는 자세한 단계는 [이 페이지](push-configuration.md)에서 사용할 수 있습니다.
