@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e4f69cd209665e7f13a0c21e92453cd5cdce45a1
+source-git-commit: e4c5adf788b1cdf5f0ba1c4be80c387b3da26bd1
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 27%
@@ -47,13 +47,21 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 
 1. **[!UICONTROL Product profile]**&#x200B;을(를) 선택합니다. 
 
+   ![](../assets/sandbox_1.png)
+
 1. **[!UICONTROL Permissions]** 탭을 선택합니다. 
 
-1. **[!UICONTROL Sandbox access]** 기능을 선택합니다.
+1. **[!UICONTROL Sandboxes]** 기능을 선택합니다.
+
+   ![](../assets/sandbox_2.png)
 
 1. **[!UICONTROL Available Permissions Items]** 아래에서 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
 
+   ![](../assets/sandbox_3.png)
+
 1. 필요한 경우 **[!UICONTROL Included Permission Items]** 아래에서 옆에 있는 X 아이콘을 클릭하여 **[!UICONTROL Product profile]**&#x200B;에 대한 샌드박스 액세스를 제거합니다.
+
+   ![](../assets/sandbox_4.png)
 
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
