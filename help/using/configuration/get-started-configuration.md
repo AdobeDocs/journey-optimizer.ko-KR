@@ -8,7 +8,7 @@ level: Intermediate
 product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
-source-git-commit: 61de8dc27029e229a203be8a984d6fa2d4f365e0
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 
 1. **메시지 및 채널 구성**:사전 설정 정의, 이메일 및 푸시 메시지 조정 및 사용자 정의
 
-   * [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]에서 푸시 알림 설정을 정의합니다. [자세히 알아보기](../push-configuration.md)
+   * [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]에서 푸시 알림 설정을 정의합니다. [자세히 알아보기](../push-gs.md)
 
    * 이메일 및 푸시 알림 메시지에 필요한 모든 기술 매개 변수를 구성하려면 메시지 사전 설정을 만듭니다. [자세히 알아보기](message-presets.md)
 
