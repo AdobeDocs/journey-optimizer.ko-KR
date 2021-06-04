@@ -1,7 +1,7 @@
 ---
 title: 메시지 사전 설정 만들기
 description: 메시지 사전 설정을 구성하고 모니터링하는 방법을 알아봅니다
-source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    * 각 플랫폼에 사용할 모바일 애플리케이션을 선택합니다.
 
-      푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../push-configuration.md)을 참조하십시오.
+      푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../push-gs.md)을 참조하십시오.
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL Submit]** 을 클릭하여 확인합니다. 메시지 사전 설정을 초안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 
