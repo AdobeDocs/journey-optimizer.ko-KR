@@ -1,10 +1,10 @@
 ---
 title: 사용자 인터페이스
 description: Journey Optimizer 사용자 인터페이스
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+source-git-commit: 539551998d311a4860ad01b1bfe37cc2f77f8030
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 41%
+source-wordcount: '1486'
+ht-degree: 38%
 
 ---
 
@@ -94,22 +94,30 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 언어를 변경하려면 다음을 수행하십시오.
 
-* 오른쪽 상단에 있는 아바타에서 **Edit Preferences**&#x200B;를 클릭합니다.
-* 그런 다음 **Adobe 계정**&#x200B;을 클릭하여 Adobe 프로필에 액세스합니다.
-* 맨 위에 있는 **알림** 탭을 선택하고 **환경 설정**&#x200B;을 클릭합니다.
-* 기본 언어를 선택하고 **저장**&#x200B;을 클릭합니다.
+* 오른쪽 상단에 있는 아바타에서 **환경 설정**을 클릭합니다.
+   ![](assets/preferences.png)
+* 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다
+* 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 이전 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+   ![](assets/select-language.png)
 
->[!NOTE]
->
->변경 사항을 적용하려면 로그아웃한 후 다시 [!DNL Journey Optimizer]에 로그인해야 합니다.
+## 검색
 
-## 검색 및 필터링{#section_lgm_hpz_pgb}
+상단 표시줄의 중앙에 있는 Adobe Experience Cloud 검색을 사용하여 샌드박스 전체에서 자산, 여정 또는 메시지를 찾을 수 있습니다. 상위 결과를 표시할 컨텐츠 입력을 시작합니다.
 
-대부분의 목록에서 검색 막대를 사용하여 항목을 검색할 수 있습니다.
+![](assets/unified-search.png)
 
-목록 왼쪽 위의 필터 아이콘을 클릭하면 **[!UICONTROL Filters]**&#x200B;에 액세스할 수 있습니다. 필터 메뉴에서는 표시된 요소를 다른 기준에 따라 필터링할 수 있습니다. 특정 유형이나 상태의 요소, 직접 만든 요소 또는 지난 30일 동안 수정한 요소만 표시하도록 선택할 수 있습니다.
+모든 결과와 필터에 액세스하려면 **Enter**&#x200B;를 누르십시오.
 
-여정 목록에서는 **[!UICONTROL Creation filters]** 외에, 상태 및 버전에 따라 표시된 여정을 필터링할 수도 있습니다(**[!UICONTROL Status and version filters]**). 특정 이벤트, 필드 그룹 또는 작업(**[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**)을 사용하는 여정만 표시하도록 선택할 수 있습니다. **[!UICONTROL Publication filters]** 을(를) 사용하면 게시 날짜 또는 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전을 표시하도록 선택할 수 있습니다. [자세히 알아보기](building-journeys/using-the-journey-designer.md).
+![](assets/search-and-filter.png)
+
+
+## 필터 목록{#section_lgm_hpz_pgb}
+
+대부분의 목록에서 검색 막대를 사용하여 특정 항목을 검색하고 필터링 기준을 선택할 수 있습니다.
+
+목록 왼쪽 위의 필터 아이콘을 클릭하면 필터에 액세스할 수 있습니다. 필터 메뉴에서는 표시된 요소를 다른 기준에 따라 필터링할 수 있습니다. 특정 유형이나 상태의 요소, 직접 만든 요소 또는 지난 30일 동안 수정한 요소만 표시하도록 선택할 수 있습니다. 선택 사항은 컨텍스트에 따라 다릅니다.
+
+여정 목록에서 **[!UICONTROL Status and version filters]**&#x200B;의 상태 및 버전에 따라 여정을 필터링할 수 있습니다. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;에서 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수 있습니다. **[!UICONTROL Publication filters]** 을(를) 사용하면 게시 날짜 또는 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전을 표시하도록 선택할 수 있습니다. [자세히 알아보기](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -117,7 +125,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 **[!UICONTROL Last update]** 및 **[!UICONTROL Last update by]** 열을 사용하여 여정의 마지막 업데이트가 언제 발생했는지 및 누가 저장했는지 확인합니다.
 
-![](assets/journey74.png)
+![](assets/filter-journeys.png)
 
 이벤트, 데이터 소스 및 작업 구성 창에서 **[!UICONTROL Used in]** 필드에 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정 수가 표시됩니다. **[!UICONTROL View journeys]** 버튼을 클릭하여 해당 여정의 목록을 표시할 수 있습니다.
 
