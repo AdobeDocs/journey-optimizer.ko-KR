@@ -2,14 +2,14 @@
 product: experience cloud
 audience: end-user
 user-guide-title: Journey Optimizer 안내서
-user-guide-description: Journey Optimizer을 사용하여 고객에게 연결되고 상황에 맞는 개인화된 경험을 제공합니다
+user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+source-git-commit: b38f24f074671651a54cc4b5a5de9aa48809cb0a
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 44%
+source-wordcount: '635'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 44%
 # [!DNL Journey Optimizer] 도움말 {#using}
 
 + [제품 설명서](ajo-home.md)
-+ 시작하기{#get-started}
++ 시작{#get-started}
    + [Journey Optimizer 소개](using/get-started.md)
    + [빠른 시작](using/quick-start.md)
    + [사용자 인터페이스](using/user-interface.md)
@@ -33,7 +33,7 @@ ht-degree: 44%
    + 이메일 디자이너 {#email-designer}
       + [이메일 디자인 시작](using/design-emails.md)
       + [UI에서 이메일 콘텐츠 디자인](using/create-email-content.md)
-      + [이메일 콘텐츠 가져오기 또는 코드 지정](using/existing-content.md)
+      + [이메일 콘텐츠 가져오기 또는 코드 작성](using/existing-content.md)
       + [이메일 디자이너 콘텐츠 구성 요소 사용](using/content-components.md)
    + 개인화{#personalization}
       + [시작](using/personalization/personalize.md)
@@ -52,38 +52,39 @@ ht-degree: 44%
          + [개체 함수](using/personalization/functions/objects.md)
          + [문자열 함수](using/personalization/functions/string.md)
    + [개인화된 오퍼 추가](using/deliver-personalized-offers.md)
-   + {#create-message} 유효성 검사 및 게시
-      + [미리 보기 및 증명](using/preview.md)
+   + {#create-message} 유효성 확인 및 게시
+      + [미리보기 및 증명](using/preview.md)
       + [경고 확인](using/alerts.md)
       + [메시지 게시](using/publish-manage-message.md)
    + [옵트아웃 관리](using/consent.md)
 + 세그먼트{#segment}
-   + [세그먼트 기본 정보](using/segment/about-segments.md)
-   + [세그먼트 작성](using/segment/creating-a-segment.md)
+   + [세그먼트 정보](using/segment/about-segments.md)
+   + [세그먼트 빌드](using/segment/creating-a-segment.md)
 + 여정 {#orchestrate-journeys}
    + 여정 정보{#about-journeys}
       + [일반 원칙](using/building-journeys/journey.md)
       + [제한 사항](using/building-journeys/limitations.md)
       + [여정 버전](using/building-journeys/journey-versions.md)
       + [테스트 프로필](using/building-journeys/creating-test-profiles.md)
+      + [Intelligent Services와 통합](using/building-journeys/ai-services-overview.md)
    + 여정 만들기{#create-journey}
       + [여정 시작](using/building-journeys/journey-gs.md)
       + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 게시](using/building-journeys/publishing-the-journey.md)
-      + [표준 시간대 관리](using/building-journeys/timezone-management.md)
+      + [시간대 관리](using/building-journeys/timezone-management.md)
       + [여정 문제 해결](using/building-journeys/troubleshooting.md)
    + 활동 {#about-journey-building}
-      + [여정 활동 기본 정보](using/building-journeys/about-journey-activities.md)
+      + [여정 활동 정보](using/building-journeys/about-journey-activities.md)
       + [일반 이벤트](using/building-journeys/general-events.md)
       + [반응](using/building-journeys/reaction-events.md)
-      + [세그먼트 자격](using/building-journeys/segment-qualification-events.md)
+      + [세그먼트 자격 조건](using/building-journeys/segment-qualification-events.md)
       + [조건](using/building-journeys/condition-activity.md)
-      + [종료](using/building-journeys/end-activity.md)
+      + [끝](using/building-journeys/end-activity.md)
       + [대기](using/building-journeys/wait-activity.md)
       + [세그먼트 읽기](using/building-journeys/read-segment.md)
       + [메시지](using/building-journeys/journeys-message.md)
-      + [사용자 지정 작업](using/building-journeys/using-custom-actions.md)
+      + [사용자 정의 작업](using/building-journeys/using-custom-actions.md)
       + [점프](using/building-journeys/jump.md)
       + [프로필 업데이트](using/building-journeys/update-profiles.md)
    + 사용 사례 {#journey-use-cases}
@@ -109,7 +110,7 @@ ht-degree: 44%
       + [데이터 가져오기 필드](using/reports/sharing-fetch-fields.md)
       + [ID 필드](using/reports/sharing-identity-fields.md)
    + 전달성 {#deliverability}
-      + [게재 기능 시작](using/deliverability.md)
+      + [전달성 시작](using/deliverability.md)
       + [제외 목록](using/suppression-list.md)
 + 의사 결정 관리 {#offer-decisioniong}
    + 의사 결정 관리 시작 {#get-started}
@@ -125,9 +126,9 @@ ht-degree: 44%
       + [대체 오퍼 만들기](using/offers/offer-library/creating-fallback-offers.md)
       + [컬렉션 만들기](using/offers/offer-library/creating-collections.md)
       + [등급 수식 만들기](using/offers/offer-library/create-ranking-formulas.md)
-   + 결정 만들기 및 관리 {#create-manage-activities}
-      + [결정 만들기](using/offers/offer-activities/create-offer-activities.md)
-      + [결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
+   + 의사 결정 만들기 및 관리 {#create-manage-activities}
+      + [의사 결정 만들기](using/offers/offer-activities/create-offer-activities.md)
+      + [의사 결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
    + 의사 결정 관리 보고서 만들기 {create-reports}
       + [의사 결정 관리 이벤트 시작](using/offers/reports/get-started-events.md)
       + [의사 결정 관리 이벤트 주요 정보](using/offers/reports/key-information.md)
@@ -135,12 +136,12 @@ ht-degree: 44%
    + 오퍼 카탈로그 내보내기 {#export-catalog}
       + [오퍼 카탈로그 내보내기 시작 ](using/offers/export-catalog/get-started-export.md)
       + [내보낸 오퍼 카탈로그에 액세스](using/offers/export-catalog/access-dataset.md)
-      + [개인화된 오퍼 데이터 세트](using/offers/export-catalog/export-offers.md)
-      + [결정 데이터 세트](using/offers/export-catalog/export-decisions.md)
+      + [개인화된 오퍼 ](using/offers/export-catalog/export-offers.md)
+      + [의사 결정 데이터 세트](using/offers/export-catalog/export-decisions.md)
       + [배치 데이터 세트](using/offers/export-catalog/export-placements.md)
       + [대체 데이터 세트](using/offers/export-catalog/export-fallback.md)
    + API 참조 {#api-reference}
-      + [시작하기](using/offers/api-reference/getting-started.md)
+      + [시작](using/offers/api-reference/getting-started.md)
       + API를 사용하여 오퍼 만들기 및 관리 {#offers-api}
          + 배치 {#placements}
             + [배치 나열](using/offers/api-reference/offers-api/placements/placements-list.md)
@@ -178,12 +179,12 @@ ht-degree: 44%
             + [대체 오퍼 만들기](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [대체 오퍼 업데이트](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [대체 오퍼 삭제](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + API {#activities-api}를 사용하여 의사 결정을 만들고 관리합니다
-         + [결정 나열](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [결정 조회](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
-         + [결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
-         + [결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
+      + API를 사용하여 의사 만들기 및 관리 {#activities-api}
+         + [의사 결정 나열](using/offers/api-reference/activities-api/activities/activities-list.md)
+         + [의사 결정 조회](using/offers/api-reference/activities-api/activities/lookup.md)
+         + [의사 결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
+         + [의사 결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
+         + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
       + API {#offer-delivery}를 사용한 오퍼 게재
          + [의사 결정 API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform 웹 SDK](using/offers/api-reference/web-sdk.md)
@@ -208,21 +209,22 @@ ht-degree: 44%
          + [전자 메일 기본 주소 변경](using/configuration/primary-email-addresses.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
+      + [외부 시스템과 통합](using/configuration/external-systems.md)
       + 이벤트 구성 {#events-journeys}
          + [일반 원칙](using/event/about-events.md)
          + 단일 이벤트 구성 {#unitary-events}
             + [단일 이벤트 시작](using/event/about-creating.md)
-            + [ExperienceEvent 스키마](using/event/experience-event-schema.md)
+            + [ExperienceEvent 스키마 정보](using/event/experience-event-schema.md)
             + [Adobe Analytics 활용](using/event/about-analytics.md)
          + [비즈니스 이벤트 구성](using/event/about-creating-business.md)
          + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
       + 데이터 소스 구성{#data-source-journeys}
-         + [데이터 소스](using/datasource/about-data-sources.md)
+         + [데이터 소스 정보](using/datasource/about-data-sources.md)
          + [데이터 소스 구성](using/datasource/configure-data-sources.md)
          + [Adobe Experience Platform 데이터 소스](using/datasource/adobe-experience-platform-data-source.md)
          + [외부 데이터 소스](using/datasource/external-data-sources.md)
       + 작업 구성 {#action-journeys}
-         + [작업](using/action/action.md)
+         + [작업 정보](using/action/action.md)
          + [작업 구성](using/action/about-custom-action-configuration.md)
 + 액세스 제어 {#administration}
    + [액세스 제어 개요](using/administration/permissions-overview.md)
