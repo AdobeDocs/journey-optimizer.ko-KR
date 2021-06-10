@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: b38f24f074671651a54cc4b5a5de9aa48809cb0a
+source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '633'
 ht-degree: 79%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 79%
    + [Journey Optimizer 소개](using/get-started.md)
    + [빠른 시작](using/quick-start.md)
    + [사용자 인터페이스](using/user-interface.md)
-   + [권한 관리](using/permissions.md)
    + [알려진 문제](using/known-issues.md)
 + 메시지 {#create-messages}
    + [메시지 시작](using/get-started-content.md)
