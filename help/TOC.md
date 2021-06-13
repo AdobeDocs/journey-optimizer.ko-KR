@@ -1,12 +1,12 @@
 ---
-product: experience cloud
+product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
+source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 79%
@@ -125,7 +125,7 @@ ht-degree: 79%
       + [대체 오퍼 만들기](using/offers/offer-library/creating-fallback-offers.md)
       + [컬렉션 만들기](using/offers/offer-library/creating-collections.md)
       + [등급 수식 만들기](using/offers/offer-library/create-ranking-formulas.md)
-   + 의사 결정 만들기 및 관리 {#create-manage-activities}
+   + 의사 결정을 만들고 관리하기 {#create-manage-activities}
       + [의사 결정 만들기](using/offers/offer-activities/create-offer-activities.md)
       + [의사 결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
    + 의사 결정 관리 보고서 만들기 {create-reports}
@@ -134,8 +134,8 @@ ht-degree: 79%
       + [이벤트 XDM 필드 액세스](using/offers/reports/xdm-fields.md)
    + 오퍼 카탈로그 내보내기 {#export-catalog}
       + [오퍼 카탈로그 내보내기 시작 ](using/offers/export-catalog/get-started-export.md)
-      + [내보낸 오퍼 카탈로그에 액세스](using/offers/export-catalog/access-dataset.md)
-      + [개인화된 오퍼 ](using/offers/export-catalog/export-offers.md)
+      + [내보낸 오퍼 카탈로그에 액세스하기](using/offers/export-catalog/access-dataset.md)
+      + [개인화된 오퍼 데이터 세트](using/offers/export-catalog/export-offers.md)
       + [의사 결정 데이터 세트](using/offers/export-catalog/export-decisions.md)
       + [배치 데이터 세트](using/offers/export-catalog/export-placements.md)
       + [대체 데이터 세트](using/offers/export-catalog/export-fallback.md)
@@ -178,7 +178,7 @@ ht-degree: 79%
             + [대체 오퍼 만들기](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [대체 오퍼 업데이트](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [대체 오퍼 삭제](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + API를 사용하여 의사 만들기 및 관리 {#activities-api}
+      + API를 사용하여 오퍼를 만들고 관리하기 {#activities-api}
          + [의사 결정 나열](using/offers/api-reference/activities-api/activities/activities-list.md)
          + [의사 결정 조회](using/offers/api-reference/activities-api/activities/lookup.md)
          + [의사 결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
