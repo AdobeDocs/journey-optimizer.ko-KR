@@ -1,10 +1,14 @@
 ---
-title: 시작하기
+title: 시작
 description: 오퍼 라이브러리 API를 사용하여 의사 결정 관리 엔진을 사용하여 주요 작업을 수행하는 방법을 알아봅니다.
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: 오퍼
+topic: 통합
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 4%
+source-wordcount: '601'
+ht-degree: 5%
 
 ---
 
@@ -45,7 +49,7 @@ ht-degree: 4%
 
 관리자는 유사한 주체, 리소스 및 액세스 권한을 프로필로 그룹화할 수 있습니다. 이렇게 하면 관리 부담이 줄어들고 [Adobe Admin Console](https://adminconsole.adobe.com/)에서 지원됩니다. 프로필을 만들고 사용자를 조직의 Adobe Experience Platform에 할당하려면 조직의 제품 관리자여야 합니다. 한 번에 하나의 권한과 일치하는 제품 프로필을 만든 다음 해당 프로필에 사용자를 추가하면 됩니다. 프로필은 권한이 부여된 그룹 역할을 하며 해당 그룹의 모든 실제 사용자 또는 기술 사용자는 해당 권한을 상속합니다.
 
-관리자 권한이 주어지면 [Adobe Admin Console](https://adminconsole.adobe.com/)를 통해 사용자에게 권한을 부여하거나 취소할 수 있습니다. 자세한 내용은 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)를 참조하십시오.
+관리자 권한이 주어지면 [Adobe Admin Console](https://adminconsole.adobe.com/)를 통해 사용자에게 권한을 부여하거나 취소할 수 있습니다. 자세한 내용은 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko)를 참조하십시오.
 
 ### 사용자 및 통합에 액세스할 수 있는 컨테이너 나열
 
