@@ -1,10 +1,14 @@
 ---
 title: 비즈니스 이벤트 구성
 description: 비즈니스 이벤트를 만드는 방법을 알아봅니다
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: 이벤트
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 14%
+source-wordcount: '819'
+ht-degree: 15%
 
 ---
 
@@ -68,7 +72,7 @@ ht-degree: 14%
 
    이 예제에서는 제품 ID를 기반으로 조건을 작성했습니다. 즉, 시스템에서 이 조건과 일치하는 이벤트를 수신할 때마다 여정에게 전달됩니다.
 
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/journey7-business.png)
 
