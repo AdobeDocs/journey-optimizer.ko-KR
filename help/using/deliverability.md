@@ -1,9 +1,13 @@
 ---
 title: 메시지 실행 모니터링
 description: 모니터링 및 게재 기능 지침 학습
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: 전달성
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
