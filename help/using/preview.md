@@ -1,9 +1,13 @@
 ---
 title: 메시지 미리 보기 및 증명 보내기
 description: 메시지를 미리 보고 테스트하는 방법을 알아봅니다
-source-git-commit: 2ac0ae0044824beb6e455f5377bc2da4694779be
+feature: 여정
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
