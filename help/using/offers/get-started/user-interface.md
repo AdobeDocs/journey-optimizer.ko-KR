@@ -1,9 +1,13 @@
 ---
 title: 사용자 인터페이스
 description: 오퍼 라이브러리 사용자 인터페이스에 대해 자세히 알아보십시오.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '449'
+feature: 오퍼
+topic: 통합
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
