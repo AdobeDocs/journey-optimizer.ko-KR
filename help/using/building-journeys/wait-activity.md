@@ -1,10 +1,14 @@
 ---
 title: 대기 활동
 description: 대기 활동에 대해 알아보기
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: 여정
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 4%
+source-wordcount: '404'
+ht-degree: 7%
 
 ---
 
@@ -48,7 +52,7 @@ ht-degree: 4%
 
 ## 사용자 지정 대기{#custom}
 
-이 옵션을 사용하면 이벤트 또는 데이터 소스에서 온 필드를 기반으로 하는 고급 표현식을 사용하여 2020년 7월 12일 오후 5시와 같은 사용자 지정 날짜를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. [이 페이지](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)를 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html)를 참조하십시오.
+이 옵션을 사용하면 이벤트 또는 데이터 소스에서 온 필드를 기반으로 하는 고급 표현식을 사용하여 2020년 7월 12일 오후 5시와 같은 사용자 지정 날짜를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. [이 페이지](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ko)를 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html)를 참조하십시오.
 
 >[!NOTE]
 >
