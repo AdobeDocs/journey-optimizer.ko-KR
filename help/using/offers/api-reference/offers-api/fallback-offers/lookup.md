@@ -1,17 +1,20 @@
 ---
-title: 폴백 오퍼 조회
-description: 다른 오퍼에 대한 자격이 없는 경우 고객에게 대체 오퍼가 전송됩니다.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+title: 대체 오퍼 조회
+description: 다른 오퍼에 대한 자격이 없는 고객에게 대체 오퍼가 전송됩니다
+feature: 오퍼
+topic: 통합
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 3%
+source-wordcount: '160'
+ht-degree: 4%
 
 ---
 
-# 폴백 오퍼 찾기
+# 대체 오퍼 조회
 
-요청 경로에서 폴백 오퍼 `@id` 또는 폴백 오퍼의 이름을 포함하는 [!DNL Offer Library] API에 GET 요청을 함으로써 특정 폴백 오퍼를 조회할 수 있습니다.
+대체 오퍼 `@id` 또는 요청 경로에 있는 대체 오퍼의 이름을 포함하는 [!DNL Offer Library] API에 GET 요청을 하여 특정 대체 오퍼를 찾을 수 있습니다.
 
 **API 형식**
 
@@ -22,10 +25,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 폴백 오퍼가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FALLBACK_OFFER}` | 폴백 오퍼와 연관된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | 엔티티의 `@id` 속성과 일치시키는 데 사용되는 문자열입니다. 문자열이 정확히 일치합니다. 매개 변수 `id` 및 `name`은(는) 함께 사용할 수 없습니다. | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열입니다. 이 문자열은 대문자화로 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 `id` 및 `name`은(는) 함께 사용할 수 없습니다. | `F1: Web fallback` |
+| `{CONTAINER_ID}` | 대체 오퍼가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FALLBACK_OFFER}` | 대체 오퍼와 연관된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
+| `id` | 엔티티의 `@id` 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확히 일치합니다. 매개 변수 `id` 및 `name`은(는) 함께 사용할 수 없습니다. | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확히 일치하고 대문자와 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 `id` 및 `name`은(는) 함께 사용할 수 없습니다 | `F1: Web fallback` |
 
 **요청**
 
@@ -41,7 +44,7 @@ curl -X GET \
 
 **응답**
 
-성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유한 폴백 오퍼 `@id`에 대한 정보를 포함한 배치 세부 정보를 반환합니다.
+성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유한 대체 오퍼 `@id`에 대한 정보를 포함하는 배치 세부 사항을 반환합니다.
 
 ```json
 {
