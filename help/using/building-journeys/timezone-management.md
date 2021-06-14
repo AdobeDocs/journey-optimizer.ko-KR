@@ -1,14 +1,18 @@
 ---
-title: 표준 시간대 관리
+title: 시간대 관리
 description: 시간대 관리에 대해 알아보기
-source-git-commit: bcc9f5c7bdb660462ca412ed2528dab16d610418
+feature: 여정
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 2%
+source-wordcount: '262'
+ht-degree: 3%
 
 ---
 
-# 표준 시간대 관리 {#timezone_management}
+# 시간대 관리 {#timezone_management}
 
 ![](../assets/do-not-localize/badge.png)
 
