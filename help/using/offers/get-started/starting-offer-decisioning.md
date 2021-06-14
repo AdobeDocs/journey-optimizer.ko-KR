@@ -1,9 +1,13 @@
 ---
 title: 의사 결정 관리 시작
 description: 의사 결정 관리를 시작합니다. 아키텍처, 오퍼 및 의사 결정 뿐만 아니라 사용자가 수행할 수 있는 일반적인 사용 사례에 대해 자세히 알아보십시오.
-source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
-workflow-type: ht
-source-wordcount: '494'
+feature: 오퍼
+topic: 통합
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '496'
 ht-degree: 100%
 
 ---
