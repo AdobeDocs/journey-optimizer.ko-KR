@@ -1,17 +1,20 @@
 ---
 title: 컬렉션 삭제
-description: 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 하는 오퍼의 하위 세트입니다.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 오퍼의 하위 집합입니다.
+feature: 오퍼
+topic: 통합
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 7%
+source-wordcount: '154'
+ht-degree: 8%
 
 ---
 
 # 컬렉션 삭제
 
-경우에 따라 컬렉션을 제거(DELETE)해야 할 수 있습니다. 테넌트 컨테이너에서 만든 컬렉션만 삭제할 수 있습니다. 삭제하려는 컬렉션의 $id를 사용하여 [!DNL Offer Library] API에 DELETE 요청을 수행하면 됩니다.
+때때로 컬렉션을 제거(DELETE)해야 할 수도 있습니다. 테넌트 컨테이너에서 만든 컬렉션만 삭제할 수 있습니다. 이 작업은 삭제하려는 컬렉션의 $id를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행하여 수행됩니다.
 
 **API 형식**
 
@@ -39,6 +42,6 @@ curl -X DELETE \
 
 **응답**
 
-성공적인 응답은 HTTP 상태 202(콘텐츠 없음) 및 빈 본문을 반환합니다.
+성공적인 응답은 HTTP 상태 202(컨텐츠 없음) 및 빈 본문을 반환합니다.
 
-컬렉션에 대한 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 요청에 Accept 헤더를 포함해야 하지만 컬렉션이 컨테이너에서 제거되었으므로 HTTP 상태 404(찾을 수 없음)를 받아야 합니다.
+컬렉션에 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 요청에 Accept 헤더를 포함해야 하지만 컬렉션이 컨테이너에서 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 받아야 합니다.
