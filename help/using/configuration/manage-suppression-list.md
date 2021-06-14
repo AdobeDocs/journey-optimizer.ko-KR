@@ -11,10 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 4b515b497de3721794f22c6833ed1f5269110171
+feature: 애플리케이션 설정
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '608'
+ht-degree: 2%
 
 ---
 
