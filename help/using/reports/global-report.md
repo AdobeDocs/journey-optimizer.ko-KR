@@ -1,10 +1,14 @@
 ---
 title: 글로벌 보고서
 description: 글로벌 보고서에서 데이터를 사용하는 방법을 알아봅니다
-source-git-commit: c2bbc0335b5f123c1d2b0052edf1b90937011e19
+feature: 보고
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
