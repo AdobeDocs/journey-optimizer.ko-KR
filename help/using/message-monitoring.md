@@ -1,10 +1,14 @@
 ---
 title: 메시지 실행 모니터링
 description: 모니터링 지침 학습
-source-git-commit: 3f02a5debbc870915175d2802eb30ff567a3c159
+feature: 모니터링
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 0%
+source-wordcount: '499'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +52,7 @@ ht-degree: 0%
 
 ![](assets/message-execution-tab-filters.png)
 
-두 번째 열은 [메시지](create-message.md)를 열고 **[!UICONTROL Live view]**&#x200B;에 있는 경우 [라이브 보고서](reports/live-report.md)에 액세스하거나 **[!UICONTROL Global view]**&#x200B;에 있는 경우 [전역 보고서](reports/global-report.md)에 액세스할 수 있도록 합니다.
+<!--**[!UICONTROL Quick action]**-->두 번째 열은 [메시지](create-message.md)를 열고 **[!UICONTROL Live view]**&#x200B;에 있는 경우 [라이브 보고서](reports/live-report.md)에 액세스하거나 **[!UICONTROL Global view]**&#x200B;에 있는 경우 [전역 보고서](reports/global-report.md)에 액세스할 수 있도록 합니다.
 
 ![](assets/message-execution-open-live-report.png)
 
