@@ -1,21 +1,24 @@
 ---
 title: 개인화된 오퍼 만들기
-description: 맞춤화된 혜택은 자격 조건 규칙 및 제한 사항을 기반으로 맞춤형 마케팅 메시지입니다.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 개인화된 오퍼는 자격 규칙 및 제한을 기반으로 사용자 정의 가능한 마케팅 메시지입니다.
+feature: 오퍼
+topic: 통합
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 11%
+source-wordcount: '138'
+ht-degree: 12%
 
 ---
 
 # 개인화된 오퍼 만들기
 
-맞춤화된 혜택은 자격 조건 규칙 및 제한 사항을 기반으로 맞춤형 마케팅 메시지입니다.
+개인화된 오퍼는 자격 규칙 및 제한을 기반으로 사용자 정의 가능한 마케팅 메시지입니다.
 
-컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 POST 요청을 작성하여 개인화된 오퍼를 만들 수 있습니다.
+컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 POST 요청을 수행하여 개인화된 오퍼를 생성할 수 있습니다.
 
-## 머리글 수락 및 내용 유형
+## Accept 및 Content-Type 헤더
 
 다음 표는 요청 헤더의 *Content-Type* 및 *Accept* 필드를 구성하는 유효한 값을 보여 줍니다.
 
@@ -33,7 +36,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 개인화된 오퍼가 위치한 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 개인화된 오퍼가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **요청**
 
@@ -82,7 +85,7 @@ curl -X POST \
 
 **응답**
 
-성공적인 응답은 고유 인스턴스 ID 및 배치 `@id`을(를) 포함하여 새로 만든 개인화된 오퍼에 대한 정보를 반환합니다. 나중 단계에서 인스턴스 ID를 사용하여 개인화된 오퍼를 업데이트하거나 삭제할 수 있습니다.
+성공적인 응답은 해당 고유 인스턴스 ID 및 배치 `@id`을 포함하여 새로 만든 개인화된 오퍼에 대한 정보를 반환합니다. 이후 단계에서 인스턴스 ID를 사용하여 개인화된 오퍼를 업데이트하거나 삭제할 수 있습니다.
 
 ```json
 {
