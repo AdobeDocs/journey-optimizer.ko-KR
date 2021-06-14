@@ -1,10 +1,14 @@
 ---
 title: 푸시 알림 구성
 description: Journey Optimizer에서 푸시 알림을 만드는 방법을 알아봅니다
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: 개요
+topic: 콘텐츠 관리
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 10%
+source-wordcount: '1166'
+ht-degree: 11%
 
 ---
 
