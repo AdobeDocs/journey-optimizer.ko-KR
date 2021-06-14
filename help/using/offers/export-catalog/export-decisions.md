@@ -1,14 +1,18 @@
 ---
 title: 오퍼 카탈로그 내보내기 시작
 description: 이 섹션에는 결정을 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다.
-source-git-commit: 95be47fbf6944f7e6a743056b6cc29b45ae291fe
+feature: 오퍼
+topic: 통합
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1552'
 ht-degree: 3%
 
 ---
 
-# 결정 데이터 세트 {#decisions-dataset}
+# 의사 결정 데이터 세트 {#decisions-dataset}
 
 오퍼가 수정될 때마다 결정을 위해 자동 생성된 데이터 세트(이전의 활동)가 업데이트됩니다.
 
