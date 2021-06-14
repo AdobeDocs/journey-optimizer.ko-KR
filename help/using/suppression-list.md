@@ -1,9 +1,13 @@
 ---
 title: 제외 목록
 description: 억제 목록이 무엇이고, 그 목적과 그 목록에 포함된 것을 알아봅니다.
-source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+feature: 전달성
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 4%
 
 ---
