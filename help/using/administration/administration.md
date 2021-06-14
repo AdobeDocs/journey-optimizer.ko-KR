@@ -3,10 +3,14 @@ title: 기술 설정
 description: 관리 및 설정 지침 학습
 hidefromtoc: true
 hide: true
-source-git-commit: 8a94c63b4a0cba1014e9778caa24720fb975ae52
+feature: 애플리케이션 설정
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 7%
+source-wordcount: '496'
+ht-degree: 8%
 
 ---
 
