@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e954db290e69ce64a3900e4c52764858214ca439
+feature: 컨트롤 그룹
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 7%
+source-wordcount: '150'
+ht-degree: 13%
 
 ---
 
@@ -33,6 +37,6 @@ ht-degree: 7%
 
 * **[!UICONTROL Sandbox]**:인스턴스를 별도의 격리된 가상 환경으로 분할하는 가상 샌드박스 [샌드박스 사용](sandboxes.md)을 참조하십시오
 
-각 개념은 Admin Console에 액세스할 수 있는 **[!UICONTROL Product administrators]**&#x200B;에서 관리할 수 있습니다. [Adobe Admin Console에 대해 자세히 알아보십시오](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html).
+각 개념은 Admin Console에 액세스할 수 있는 **[!UICONTROL Product administrators]**&#x200B;에서 관리할 수 있습니다. [Adobe Admin Console에 대한 자세한 내용을 살펴보십시오](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html).
 
 ![](../assets/do-not-localize/permissions_2.png)
