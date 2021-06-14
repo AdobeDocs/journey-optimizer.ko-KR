@@ -1,17 +1,20 @@
 ---
-title: 결정 규칙 찾기
-description: 의사 결정 규칙은 개인화된 오퍼에 추가되고 자격을 결정하기 위해 프로필에 적용되는 제한 사항입니다.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+title: 의사 결정 규칙 조회
+description: 의사 결정 규칙은 개인화된 오퍼에 추가되고 자격을 결정하기 위해 프로필에 적용되는 제한입니다.
+feature: 오퍼
+topic: 통합
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
-# 결정 규칙 찾기
+# 의사 결정 규칙 조회
 
-결정 규칙 `@id` 또는 요청 경로에 있는 결정 규칙의 이름을 포함하는 [!DNL Offer Library] API에 GET 요청을 수행하여 특정 결정 규칙을 찾을 수 있습니다.
+결정 규칙 `@id` 또는 요청 경로에 있는 결정 규칙의 이름을 포함하는 [!DNL Offer Library] API에 GET 요청을 수행하여 특정 의사 결정 규칙을 조회할 수 있습니다.
 
 **API 형식**
 
@@ -23,9 +26,9 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 결정 규칙이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ELIGIBILITY_RULE}` | 결정 규칙과 연관된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | 엔티티의 `@id` 속성과 일치시키는 데 사용되는 문자열입니다. 문자열이 정확히 일치합니다. 매개 변수는 `id` 및 `name`을(를) 함께 사용할 수 없습니다. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열입니다. 이 문자열은 대문자화로 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 `id` 및 `name`은(는) 함께 사용할 수 없습니다. | `Sales rule` |
+| `{SCHEMA_ELIGIBILITY_RULE}` | 의사 결정 규칙과 연관된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
+| `id` | 엔티티의 `@id` 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확히 일치합니다. 매개 변수는 `id` 및 `name` 를 함께 사용할 수 없습니다. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확히 일치하고 대문자와 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 `id` 및 `name`은(는) 함께 사용할 수 없습니다 | `Sales rule` |
 
 **요청**
 
@@ -41,7 +44,7 @@ curl -X GET \
 
 **응답**
 
-성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유한 결정 규칙 `@id`에 대한 정보를 비롯하여 조회한 특정 결정 규칙의 세부 정보를 반환합니다.
+성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유한 결정 규칙 `@id`에 대한 정보를 포함하여 조회한 특정 의사 결정 규칙의 세부 정보를 반환합니다.
 
 ```json
 {
