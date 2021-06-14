@@ -2,9 +2,13 @@
 solution: Journey Orchestration
 title: 작업 정보
 description: 작업 구성 방법 알아보기
-source-git-commit: 8ae771014808f0bf87087fe3dc926bf94d94495e
+feature: 작업
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '215'
 ht-degree: 84%
 
 ---
