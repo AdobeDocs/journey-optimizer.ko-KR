@@ -1,9 +1,13 @@
 ---
 title: 옵트아웃 관리
 description: 옵트아웃 및 개인 정보 관리 방법 알아보기
-source-git-commit: 738d72e8f3ba204219086f19252220ff833369cb
+feature: 여정
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '605'
 ht-degree: 100%
 
 ---
