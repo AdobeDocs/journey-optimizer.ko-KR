@@ -3,10 +3,14 @@ title: 하위 도메인 위임
 description: 하위 도메인을 위임하는 방법 알아보기
 internal: n
 snippet: y
-source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
+feature: 애플리케이션 설정
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 26%
+source-wordcount: '388'
+ht-degree: 27%
 
 ---
 
