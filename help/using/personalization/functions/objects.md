@@ -1,10 +1,14 @@
 ---
-title: 함수 라이브러리
-description: 함수 라이브러리
-source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
+title: 객체 함수 라이브러리
+description: 객체 함수 라이브러리
+feature: 개인화
+topic: 개인화
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
 
