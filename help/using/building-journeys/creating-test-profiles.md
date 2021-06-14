@@ -1,10 +1,14 @@
 ---
 title: 테스트 프로필 만들기
 description: 테스트 프로필을 만드는 방법을 알아봅니다
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: 여정
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 1%
+source-wordcount: '949'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +22,7 @@ Adobe Experience Platform에서 테스트 프로필을 만드는 방법은 다�
 
 테스트 프로필을 만드는 것은 Adobe Experience Platform에서 일반 프로필을 만드는 것과 비슷합니다. 자세한 내용은 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)를 참조하십시오.
 
-## 전제 조건{#test-profile-prerequisites}
+## 사전 요구 사항{#test-profile-prerequisites}
 
 프로필을 만들려면 먼저 Adobe [!DNL Journey Optimizer]에서 스키마와 데이터 세트를 만들어야 합니다.
 
