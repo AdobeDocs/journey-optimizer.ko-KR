@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e4c5adf788b1cdf5f0ba1c4be80c387b3da26bd1
+feature: 컨트롤 그룹
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 27%
+source-wordcount: '327'
+ht-degree: 75%
 
 ---
 
@@ -26,10 +30,10 @@ ht-degree: 27%
 ## 샌드박스 {#using-sandbox} 사용
 
 [!DNL Journey Optimizer]에서는 인스턴스를 샌드박스라는 분리된 가상 환경으로 분할할 수 있습니다.
-샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. [샌드박스를 할당하는 방법을 알아보십시오](permissions.md#create-product-profile).
+샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. [샌드박스를 할당하는 방법을 알아봅니다](permissions.md#create-product-profile).
 
-[!DNL Journey Optimizer] 은 해당 조직에 대해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
-Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. [자세한 내용은 샌드박스 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
+[!DNL Journey Optimizer] (은)는 해당 조직을 위해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
+Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. [자세한 내용은 샌드박스 사용 안내서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko).
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.
 
@@ -55,7 +59,7 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 
    ![](../assets/sandbox_2.png)
 
-1. **[!UICONTROL Available Permissions Items]** 아래에서 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. **[!UICONTROL Available Permissions Items]** 아래에서 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스에 대한 자세한 내용을 살펴보십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko).
 
    ![](../assets/sandbox_3.png)
 
@@ -63,14 +67,14 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 
    ![](../assets/sandbox_4.png)
 
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-## 컨텐츠 {#content-access} 액세스
+## 콘텐츠 액세스 {#content-access}
 
-컨텐츠 액세스 가능성을 구성하려면 각 샌드박스에 컨텐츠 공유 폴더를 할당해야 합니다. 관리자용 [!DNL Admin Console]에 표시되는 **[!UICONTROL Storage]** 탭에서 공유 폴더를 만들고 구성할 수 있습니다. 시스템 관리자로 [!DNL Admin Console]에 액세스할 수 있는 경우 공유 폴더를 만들고 공유 폴더에 다른 액세스 수준의 대리자를 추가할 수 있습니다.
+콘텐츠 액세스 가능성을 구성하려면 각 샌드박스에 콘텐츠 공유 폴더를 할당해야 합니다. 관리자용 [!DNL Admin Console]에 표시된 **[!UICONTROL Storage]** 탭에서 공유 폴더를 만들고 구성할 수 있습니다. 시스템 관리자로서 [!DNL Admin Console]에 액세스할 수 있는 경우 공유 폴더를 만들고 다른 액세스 수준의 위임자를 공유 폴더에 추가할 수 있습니다.
 
 ![](../assets/do-not-localize/content_access.png)
 
-컨텐츠가 올바른 샌드박스와 동기화되려면 샌드박스와 동일한 구문을 따라야 합니다. 예를 들어 샌드박스가 개발 상태이면 공유 폴더의 이름은 같아야 합니다.
+내용이 올바른 샌드박스와 동기화되도록 하려면 샌드박스와 동일한 구문을 따라야 합니다. 예를 들어 샌드박스가 개발이라고 하는 경우 공유 폴더의 이름이 같아야 합니다.
 
-[공유 폴더를 관리하는 방법을 알아봅니다](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html).
+[공유 폴더 관리 방법에 대해 알아봅니다](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html).
