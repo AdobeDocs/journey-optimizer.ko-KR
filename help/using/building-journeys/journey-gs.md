@@ -1,14 +1,18 @@
 ---
 title: 여정 시작
 description: 여정 시작
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: 여정
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 7%
+source-wordcount: '1468'
+ht-degree: 8%
 
 ---
 
-# 여정{#jo-quick-start} 시작
+# 여정 시작{#jo-quick-start}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -156,7 +160,7 @@ ht-degree: 7%
 
    ![](../assets/finish_drop_down_list.png)
 
-1. **[!UICONTROL Close to new entrances]**&#x200B;을 클릭합니다. 대화 상자가 나타납니다.
+1. **[!UICONTROL Close to new entrances]**&#x200B;을(를) 클릭합니다. 대화 상자가 나타납니다.
 1. **[!UICONTROL Close to new entrances]** 을 클릭하여 확인합니다.
 
 ### 여정 중지
@@ -178,5 +182,5 @@ ht-degree: 7%
 
 ![](../assets/finish_drop_down_list.png)
 
-1. **[!UICONTROL Stop]**&#x200B;을 클릭합니다. 대화 상자가 나타납니다.
+1. **[!UICONTROL Stop]**&#x200B;을(를) 클릭합니다. 대화 상자가 나타납니다.
 1. **[!UICONTROL Stop]** 을 클릭하여 확인합니다.
