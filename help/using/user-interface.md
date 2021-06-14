@@ -1,9 +1,13 @@
 ---
 title: 사용자 인터페이스
 description: Journey Optimizer 사용자 인터페이스
-source-git-commit: 35fcbabd227f11890075955265b1178a91214607
+feature: 개요
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1119'
 ht-degree: 84%
 
 ---
