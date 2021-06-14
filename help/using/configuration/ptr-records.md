@@ -1,6 +1,6 @@
 ---
 title: PTR 레코드
-description: xxxx 방법 알아보기
+description: '"ptr-records를 관리하는 방법 알아보기"'
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -11,10 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
+feature: 애플리케이션 설정
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 0%
+source-wordcount: '166'
+ht-degree: 1%
 
 ---
 
