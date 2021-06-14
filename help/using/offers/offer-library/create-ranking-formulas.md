@@ -1,10 +1,14 @@
 ---
 title: 등급 수식 만들기
 description: Adobe Experience Platform에서 등급 공식을 만드는 방법을 알아봅니다.
-source-git-commit: ea8a3644ecef911a14ea087b03d367976f0c898d
+feature: 오퍼
+topic: 통합
+role: User
+level: Intermediate
+source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 2%
+source-wordcount: '241'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +40,7 @@ ht-degree: 2%
 
    ![](../../assets/ranking-syntax.png)
 
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다. 등급 공식이 생성되면 목록에서 선택하여 세부 정보를 얻고 편집하거나 삭제할 수 있습니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 등급 공식이 생성되면 목록에서 선택하여 세부 정보를 얻고 편집하거나 삭제할 수 있습니다.
 
    이제 배치에 적합한 오퍼의 등급을 매기는 결정에 사용할 준비가 되었습니다([결정](../offer-activities/configure-offer-selection.md)에서 오퍼 선택 구성 참조).
 
