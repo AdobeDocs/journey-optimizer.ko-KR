@@ -2,9 +2,13 @@
 solution: Journey Orchestration
 title: 사용자 지정 작업 구성
 description: 사용자 지정 작업을 구성하는 방법 알아보기
-source-git-commit: 433d750f7fde36b049bc36be2325627270c154a0
+feature: 작업
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '580'
 ht-degree: 9%
 
 ---
