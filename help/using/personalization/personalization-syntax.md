@@ -1,10 +1,14 @@
 ---
 title: 개인화 구문
 description: 개인화 구문을 사용하는 방법 알아보기
-source-git-commit: 5b7f3f58e7376b45993b6a2edc6e96f824fa2f44
+feature: 개인화
+topic: 개인화
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 4%
+source-wordcount: '561'
+ht-degree: 5%
 
 ---
 
@@ -73,7 +77,7 @@ Handlebars에서 {{expression}}에서 반환되는 값은 **HTML-escape**&#x200B
 >세그먼테이션 및 세그멘테이션 서비스에 대한 자세한 내용은 [이 섹션](../segment/about-segments.md)을 참조하십시오.
 
 
-## 제공
+## 오퍼
 
 이 네임스페이스를 사용하면 기존 오퍼 결정을 참조할 수 있습니다.
 오퍼를 참조하려면 오퍼를 정의하는 다른 정보로 경로를 선언해야 합니다.
