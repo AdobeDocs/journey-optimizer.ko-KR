@@ -1,9 +1,13 @@
 ---
 title: 프로필 업데이트
 description: 여정에서 프로필 업데이트 활동을 사용하는 방법을 알아봅니다
-source-git-commit: ce9484905b359900096858e46c05aef09efaa760
+feature: 여정
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
