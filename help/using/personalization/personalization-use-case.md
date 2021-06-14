@@ -1,10 +1,14 @@
 ---
 title: 개인화 사용 사례
 description: 개인화 사용 사례
-source-git-commit: cd1b07bbb4b247d1d8c0cc87be9e4bdad22377ed
+feature: 개인화
+topic: 개인화
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 0%
+source-wordcount: '606'
+ht-degree: 2%
 
 ---
 
