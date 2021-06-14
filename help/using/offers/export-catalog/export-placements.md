@@ -1,10 +1,14 @@
 ---
 title: 배치 데이터 세트
 description: 이 섹션에는 배치를 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다.
-source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
+feature: 오퍼
+topic: 통합
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 4%
+source-wordcount: '367'
+ht-degree: 5%
 
 ---
 
