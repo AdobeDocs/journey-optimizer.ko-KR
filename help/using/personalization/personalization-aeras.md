@@ -1,9 +1,13 @@
 ---
 title: Journey Optimizer의 개인화 컨텍스트
 description: 개인화를 추가할 수 있는 컨텍스트를 알아봅니다
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: 개인화
+topic: 개인화
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 3%
 
 ---
