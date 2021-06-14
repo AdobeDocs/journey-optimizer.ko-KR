@@ -1,6 +1,6 @@
 ---
 title: 사용자 및 제품 프로필 관리
-description: 권한 관리 방법 알아보기
+description: 권한을 관리하는 방법 알아보기
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-source-git-commit: 24e5588fc0d0a32513c0e77ce9082be697ccad3f
+feature: 컨트롤 그룹
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 13%
+source-wordcount: '730'
+ht-degree: 16%
 
 ---
 
@@ -61,7 +65,7 @@ ht-degree: 13%
 
 1. 위와 동일한 단계를 수행하여 다른 사용자를 **[!UICONTROL Product profile]**&#x200B;에 추가합니다. 그런 다음 **[!UICONTROL Save]** 을 클릭합니다.
 
-그러면  인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
+그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
 
 사용자 관리에 대한 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html)를 참조하십시오.
 
@@ -109,7 +113,7 @@ ht-degree: 13%
 
 [!DNL Journey Optimizer] 에서는 직접 만들고 권한 집합 **[!UICONTROL Product profiles]** 과 샌드박스를 사용자에게 할당할 수 있습니다. **[!UICONTROL Product profiles]**&#x200B;을 사용하면 인터페이스에서 특정 기능 또는 개체에 대한 액세스를 승인하거나 거부할 수 있습니다.
 
-샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
+샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko)를 참조하십시오.
 
 이 예에서는 **여정 읽기 전용**&#x200B;이라는 제품 프로필을 만듭니다. 여기서 여정 기능에 읽기 전용 권한을 부여합니다. 사용자는 여정에 액세스하고 볼 수만 있으며, [!DNL Journey Optimizer]에서 **[!UICONTROL Decision management]** 또는 **[!UICONTROL Messages]** 등의 다른 기능에 액세스할 수 없습니다.
 
@@ -119,7 +123,7 @@ ht-degree: 13%
 
 1. **[!UICONTROL Products]** 탭에서 **[!UICONTROL Experience Cloud - Platform powered applications]** 제품을 선택합니다.
 
-1. **[!UICONTROL New Profile]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL New Profile]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/access_control_9.png)
 
@@ -149,7 +153,7 @@ ht-degree: 13%
 
    ![](../assets/access_control_13.png)
 
-1. **[!UICONTROL Available Permissions Items]** 아래에서 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. **[!UICONTROL Available Permissions Items]** 아래에서 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스에 대한 자세한 내용을 살펴보십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko).
 
 1. 완료되었으면 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
