@@ -1,9 +1,13 @@
 ---
 title: 대체 오퍼 데이터 세트
 description: 이 섹션에는 대체 오퍼를 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다.
-source-git-commit: b6364879b2a64ba17f52020f7d27d02459a022b0
+feature: 오퍼
+topic: 통합
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 3%
 
 ---
