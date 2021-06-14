@@ -1,23 +1,26 @@
 ---
-title: 진행 단계 이벤트 공통 필드
-description: 진행 단계 이벤트 공통 필드
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+title: journeysteps 이벤트 공통 필드
+description: journeysteps 이벤트 공통 필드
+feature: 보고
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '584'
 ht-degree: 9%
 
 ---
 
-# 여러 단계 이벤트 공통 필드 {#sharing-common-fields}
+# journeysteps 이벤트 공통 필드 {#sharing-common-fields}
 
 ![](../assets/do-not-localize/badge.png)
 
-이 혼합은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
+이 mixin은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
 
-이러한 필드는 [!DNL Journey Optimizer]이(가) Adobe Experience Platform으로 보내는 일반적인 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 사용자 정의 작업 및 추가 기능에 더 구체적인 필드가 사용됩니다.
+이러한 필드는 [!DNL Journey Optimizer]이 Adobe Experience Platform에 보내는 일반적인 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 더 구체적인 필드가 사용자 지정 작업 및 데이터 보강 용도로 사용됩니다.
 
-이러한 필드 중 일부는 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다. 이벤트 크기를 제한하기 위해.
+이러한 필드 중 일부는 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다. 를 사용하여 이벤트 크기를 제한할 수 있습니다.
 
 ## 입구
 
@@ -25,25 +28,25 @@ ht-degree: 9%
 
 유형: 부울
 
-값:참/거짓
+값:true/false
 
 ## 재입구
 
-사용자가 동일한 인스턴스를 사용하여 여정을 다시 입력했는지 여부를 나타냅니다. 없으면 값이 false로 간주됩니다.
+사용자가 동일한 인스턴스가 있는 여정을 다시 입력했는지 여부를 나타냅니다. 없으면 값이 false로 간주됩니다.
 
 유형: 부울
 
-값:참/거짓
+값:true/false
 
-## instanceEnded
+## instanceEnd
 
-인스턴스가 성공적으로 끝났는지 여부를 나타냅니다.
+인스턴스가 종료되었는지(성공했는지 여부)를 나타냅니다.
 
 유형: 부울
 
 ## eventID
 
-처리 중인 이벤트 ID입니다. 이벤트가 외부 이벤트일 경우 이 값은 eventId입니다. 이벤트가 내부 이벤트일 경우 이 값은 내부 eventId(예: scheduledNotificationReceived, executedAction 등)입니다.
+처리 중인 이벤트 ID로서, 단계 처리를 위한 것입니다. 이벤트가 외부 이벤트인 경우 값은 해당 eventId입니다. 이벤트가 내부 이벤트인 경우 값은 내부 eventId(예: scheduledNotificationReceived, executedAction 등)입니다.
 
 유형: 문자열
 
@@ -80,18 +83,18 @@ ht-degree: 9%
 
 ## stepStatus
 
-단계 상태, 단계 처리가 완료되었을 때(그리고 단계 이벤트가 실행됨) 단계 상태를 나타냅니다.
+단계의 처리가 수행된(및 단계 이벤트가 실행된) 단계 상태를 나타내는 단계 상태입니다.
 
 유형: 문자열
 
 상태는 다음과 같습니다.
 
-* 종료:단계에 전환이 없고 처리가 성공적으로 종료되었습니다.
+* 종료:단계에 전환이 없으며 해당 처리가 성공적으로 종료되었습니다.
 * 오류:단계 처리에서 오류가 발생했습니다.
 * 전환:이 단계는 이벤트가 다른 단계로 전환되기를 기다리는 중입니다.
-* 제한:실행 또는 농축하는 동안 발생한 예약 오류로 인해 단계가 실패했습니다.
-* 시간 제한:실행 또는 농축하는 동안 발생한 시간 초과 오류로 인해 단계가 실패했습니다.
-* instanceTime:인스턴스가 시간 초과에 도달했으므로 단계가 처리를 중지했습니다.
+* 제한:동작 또는 데이터 보강 중에 발생한 최대 가용량 오류 발생 시 단계가 실패했습니다.
+* 시간 제한:작업이 수행되거나 데이터 보강 중에 발생한 시간 초과 오류로 인해 단계가 실패했습니다.
+* instanceTimedout:인스턴스가 시간 초과에 도달하여 단계가 처리를 중지합니다.
 
 ## journeyID
 
@@ -107,7 +110,7 @@ ht-degree: 9%
 
 ## journeyVersionName
 
-여정 버전의 이름입니다.
+여정 버전 이름입니다.
 
 유형: 문자열
 
@@ -125,19 +128,19 @@ ht-degree: 9%
 
 ## externalKey
 
-이벤트에서 추출된 외부 키를 사용하여 처리합니다.
+이벤트에서 추출된 외부 키로 처리합니다.
 
 유형: 문자열
 
 ## parentStepID
 
-인스턴스에서 현재 처리된 단계의 상위의 단계 ID입니다.
+인스턴스에서 현재 처리된 단계의 상위 단계 ID입니다.
 
 유형: 문자열
 
 ## parentStepName
 
-현재 단계의 상위 단계 이름입니다.
+현재 단계의 상위 단계의 단계 이름입니다.
 
 유형: 문자열
 
@@ -163,25 +166,25 @@ ht-degree: 9%
 
 인스턴스 단계 시작에서 처리 종료까지의 총 시간(밀리초)입니다.
 
-유형:long
+유형:장기간
 
 ## instanceType
 
-인스턴스 유형이 일괄 처리이거나 유니어일 경우 인스턴스 유형을 나타냅니다.
+인스턴스 유형이 일괄 처리이거나 단일 인스턴스인 경우 해당 유형을 나타냅니다.
 
 유형: 문자열
 
-값:일괄/균일
+값:배치/단일
 
-## recurenceIndex
+## recursionIndex
 
-여정이 일괄 처리되고 반복(첫 번째 실행에는 recurenceIndex = 1)인 경우 되풀이 인덱스입니다.
+여정이 일괄 처리이고 반복(첫 번째 실행에서 recurenceIndex = 1)인 경우 되풀이 인덱스.
 
-유형:long
+유형:장기간
 
-## isBatchToUnique
+## isBatchToUnior
 
-이 단일 인스턴스가 배치 인스턴스에서 트리거되었는지 여부를 나타냅니다.
+일괄 처리 인스턴스에서 이 단일 인스턴스가 트리거되었는지 여부를 나타냅니다.
 
 유형: 부울
 
@@ -193,12 +196,12 @@ ht-degree: 9%
 
 ## batchInstanceID
 
-일괄 처리 인스턴스 ID입니다.
+배치 인스턴스 ID입니다.
 
 유형: 문자열
 
-## batchUniqueBranchID
+## batchUniorBranchID
 
-인스턴스가 일괄 처리 인스턴스에서 트리거된 경우 단일 분기 ID가 생성됩니다.
+인스턴스가 배치 인스턴스에서 트리거된 경우 단일 분기 ID입니다.
 
 유형: 문자열
