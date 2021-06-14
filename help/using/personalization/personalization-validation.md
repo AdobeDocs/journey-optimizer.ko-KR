@@ -1,10 +1,14 @@
 ---
 title: 개인화 유효성 검사
 description: 개인화 유효성 검사 및 문제 해결 방법에 대해 자세히 알아보기
-source-git-commit: 7e20bef085d0fa6983f9ebd84f8cbc3bee2f4542
+feature: 개인화
+topic: 개인화
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '323'
+ht-degree: 2%
 
 ---
 
