@@ -1,17 +1,20 @@
 ---
 title: 결정 삭제
-description: 결정에는 오퍼의 선택을 알려주는 논리가 포함됩니다.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 결정에는 오퍼의 선택을 알리는 논리가 포함되어 있습니다.
+feature: 오퍼
+topic: 통합
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 3%
+source-wordcount: '148'
+ht-degree: 6%
 
 ---
 
-# 결정 삭제
+# 의사 결정 삭제
 
-의사 결정(이전의 오퍼 활동이라고 함)을 제거(DELETE)해야 하는 경우도 있습니다. 테넌트 컨테이너에서 만든 결정만 삭제할 수 있습니다. 삭제하려는 폴백 오퍼의 $id를 사용하여 [!DNL Offer Library] API에 DELETE 요청을 수행하여 수행됩니다.
+간혹 결정(DELETE 활동)을 제거(오퍼 활동)해야 할 수도 있습니다. 테넌트 컨테이너에서 생성하는 결정만 삭제할 수 있습니다. 이 작업은 삭제하려는 대체 오퍼의 $id를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행하여 수행됩니다.
 
 **API 형식**
 
@@ -39,6 +42,6 @@ curl -X DELETE \
 
 **응답**
 
-성공적인 응답은 HTTP 상태 202(콘텐츠 없음) 및 빈 본문을 반환합니다.
+성공적인 응답은 HTTP 상태 202(컨텐츠 없음) 및 빈 본문을 반환합니다.
 
-결정에 대한 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 요청에 Accept 헤더를 포함해야 하지만 결정은 컨테이너에서 제거되었으므로 HTTP 상태 404(찾을 수 없음)를 받아야 합니다.
+결정에 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 요청에 Accept 헤더를 포함해야 하지만 결정이 컨테이너에서 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 받아야 합니다.
