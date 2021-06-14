@@ -1,10 +1,14 @@
 ---
 title: 푸시 구성 시작
 description: 푸시 알림 데이터 흐름 및 구성 요소 이해
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: 애플리케이션 설정
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 0%
+source-wordcount: '846'
+ht-degree: 1%
 
 ---
 
