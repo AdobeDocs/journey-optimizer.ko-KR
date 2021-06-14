@@ -1,19 +1,22 @@
 ---
 title: 배치 만들기
 description: 배치는 오퍼를 표시하는 데 사용되는 컨테이너입니다.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: 오퍼
+topic: 통합
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 10%
+source-wordcount: '133'
+ht-degree: 12%
 
 ---
 
 # 배치 만들기
 
-컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 POST 요청을 작성하여 배치를 만들 수 있습니다.
+컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 POST 요청을 만들어 배치를 만들 수 있습니다.
 
-## 머리글 수락 및 내용 유형
+## Accept 및 Content-Type 헤더
 
 다음 표는 요청 헤더의 *Content-Type* 및 *Accept* 필드를 구성하는 유효한 값을 보여 줍니다.
 
@@ -54,7 +57,7 @@ curl -X POST \
 
 **응답**
 
-성공적인 응답은 고유 인스턴스 ID 및 배치 `@id`을(를) 포함하여 새로 만든 배치의 세부 사항을 반환합니다. 나중에 인스턴스 ID를 사용하여 배치를 업데이트하거나 삭제할 수 있습니다. 나중에 튜토리얼에서 고유한 배치 `@id`을 사용하여 결정, 결정 규칙 및 폴백 오퍼를 만들 수 있습니다.
+성공적인 응답은 해당 고유 인스턴스 ID 및 배치 `@id`을 포함하여 새로 생성된 배치의 세부 사항을 반환합니다. 이후 단계에서 인스턴스 ID를 사용하여 배치를 업데이트하거나 삭제할 수 있습니다. 나중에 자습서에서 고유한 배치 `@id`을 사용하여 결정, 의사 결정 규칙 및 대체 오퍼를 만들 수 있습니다.
 
 ```json
 {
