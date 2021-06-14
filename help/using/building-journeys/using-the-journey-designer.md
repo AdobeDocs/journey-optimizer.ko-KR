@@ -1,9 +1,13 @@
 ---
 title: 여정 디자인
 description: 여정 디자인 방법 알아보기
-source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
+feature: 여정
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1407'
 ht-degree: 1%
 
 ---
