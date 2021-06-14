@@ -1,17 +1,20 @@
 ---
-title: 결정 규칙 삭제
-description: 의사 결정 규칙은 개인화된 오퍼에 추가되고 자격을 결정하기 위해 프로필에 적용되는 제한 사항입니다.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+title: 의사 결정 규칙 삭제
+description: 의사 결정 규칙은 개인화된 오퍼에 추가되고 자격을 결정하기 위해 프로필에 적용되는 제한입니다.
+feature: 오퍼
+topic: 통합
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 5%
+source-wordcount: '161'
+ht-degree: 6%
 
 ---
 
 # 의사 결정 규칙 삭제
 
-의사 결정 규칙을 제거(DELETE)해야 하는 경우도 있습니다. 테넌트 컨테이너에서 만든 결정 규칙만 삭제할 수 있습니다. 삭제할 결정 규칙의 인스턴스 ID를 사용하여 [!DNL Offer Library] API에 DELETE 요청을 수행하여 이 작업을 수행합니다.
+의사 결정 규칙을 제거(DELETE)해야 하는 경우가 있습니다. 테넌트 컨테이너에서 만든 의사 결정 규칙만 삭제할 수 있습니다. 이 작업은 삭제하려는 결정 규칙의 인스턴스 ID를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행하여 수행됩니다.
 
 **API 형식**
 
@@ -23,7 +26,7 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 결정 규칙이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 업데이트할 결정 규칙의 인스턴스 ID입니다. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
+| `{INSTANCE_ID}` | 업데이트할 의사 결정 규칙의 인스턴스 ID입니다. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
 **요청**
 
@@ -39,6 +42,6 @@ curl -X DELETE \
 
 **응답**
 
-성공적인 응답은 HTTP 상태 202(콘텐츠 없음) 및 빈 본문을 반환합니다.
+성공적인 응답은 HTTP 상태 202(컨텐츠 없음) 및 빈 본문을 반환합니다.
 
-결정 규칙에 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 요청에 수락 헤더를 포함해야 하지만 결정 규칙이 컨테이너에서 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 받아야 합니다.
+의사 결정 규칙에 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 요청에 Accept 헤더를 포함해야 하지만 결정 규칙이 컨테이너에서 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 받아야 합니다.
