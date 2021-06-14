@@ -1,11 +1,14 @@
 ---
 title: journeyStep 이벤트 ID 필드
 description: journeyStep 이벤트 ID 필드
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: 보고
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 27%
+source-wordcount: '62'
+ht-degree: 30%
 
 ---
 
@@ -13,7 +16,7 @@ ht-degree: 27%
 
 ![](../assets/do-not-localize/badge.png)
 
-이 믹스는 journeyStepEvent에만 적용됩니다.이 이벤트는 여정과 관련이 있으며 프로필 ID가 있는 경우 identityMap이 없습니다.
+이 mixin은 journeyStepEvent에만 해당합니다.이 이벤트는 여정과 관련이 있으며 프로필 ID가 있는 경우 idMap이 없습니다.
 
 journeyStepEvent의 경우 ID와 관련된 필드를 추가해야 합니다.
 
