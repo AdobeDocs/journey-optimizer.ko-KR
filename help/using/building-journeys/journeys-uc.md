@@ -1,9 +1,13 @@
 ---
 title: 여정 사용 사례
 description: 여정 사용 사례
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: 여정
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '822'
 ht-degree: 2%
 
 ---
@@ -46,7 +50,7 @@ ht-degree: 2%
 
 1. 왼쪽 창에서 가운데 작업 영역으로 원하는 필드를 끌어다 놓은 다음 필요에 따라 구성합니다. 이 예제에서는 **City** 및 **생년월일** 속성 필드를 사용합니다.
 
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/add-attributes.png)
 
@@ -70,7 +74,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Namespace]** 및 **[!UICONTROL Key]**&#x200B;을(를) 정의합니다.
 
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/jo-uc2.png)
 
