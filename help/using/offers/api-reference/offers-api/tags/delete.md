@@ -1,17 +1,20 @@
 ---
 title: 태그 삭제
-description: 태그를 사용하면 오퍼를 보다 효율적으로 구성하고 정렬할 수 있습니다.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 태그를 사용하면 오퍼를 보다 잘 구성하고 정렬할 수 있습니다.
+feature: 오퍼
+topic: 통합
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 5%
+source-wordcount: '145'
+ht-degree: 6%
 
 ---
 
 # 태그 삭제
 
-경우에 따라 태그를 제거(DELETE)해야 할 수 있습니다. 테넌트 컨테이너에서 만든 태그만 삭제할 수 있습니다. 삭제하려는 태그의 $id를 사용하여 [!DNL Offer Library] API에 DELETE 요청을 수행하면 됩니다.
+경우에 따라 태그를 제거(DELETE)해야 할 수 있습니다. 테넌트 컨테이너에서 만든 태그만 삭제할 수 있습니다. 이 작업은 삭제하려는 태그의 $id를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행하여 수행됩니다.
 
 **API 형식**
 
@@ -39,6 +42,6 @@ curl -X DELETE \
 
 **응답**
 
-성공적인 응답은 HTTP 상태 202(콘텐츠 없음) 및 빈 본문을 반환합니다.
+성공적인 응답은 HTTP 상태 202(컨텐츠 없음) 및 빈 본문을 반환합니다.
 
-태그로 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 요청에 Accept 헤더를 포함해야 하지만 태그가 컨테이너에서 제거되었으므로 HTTP 상태 404(찾을 수 없음)를 받아야 합니다.
+태그에 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 요청에 Accept 헤더를 포함해야 하지만 태그가 컨테이너에서 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 받아야 합니다.
