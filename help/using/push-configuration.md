@@ -3,10 +3,14 @@ title: 푸시 알림 구성
 description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 환경을 구성하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: 애플리케이션 설정
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 0%
+source-wordcount: '627'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +51,7 @@ ht-degree: 0%
 
    ![](assets/push_product_2.png)
 
-1. **[!UICONTROL Add all]**&#x200B;을 클릭합니다. 이렇게 하면 제품 프로필에 다음 권한이 추가됩니다.
+1. **[!UICONTROL Add all]**&#x200B;을(를) 클릭합니다. 이렇게 하면 제품 프로필에 다음 권한이 추가됩니다.
    * **[!UICONTROL Approve]**
    * **[!UICONTROL Develop]**
    * **[!UICONTROL Manage Environments]**
@@ -67,7 +71,7 @@ ht-degree: 0%
 
    ![](assets/push_product_5.png)
 
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 이 **[!UICONTROL Product profile]**&#x200B;을 사용자에게 할당하려면
 
