@@ -1,11 +1,14 @@
 ---
 title: 여정 필드
 description: 여정 필드
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: 보고
+topic: 콘텐츠 관리
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 23%
+source-wordcount: '70'
+ht-degree: 30%
 
 ---
 
@@ -13,11 +16,11 @@ ht-degree: 23%
 
 ![](../assets/do-not-localize/badge.png)
 
-이 혼합은 여정 스키마에서 사용됩니다(journeyStepEvent와 관계). 여기에는 다음 필드가 포함됩니다.
+이 mixin은 여정 스키마에서 사용됩니다(journeyStepEvent와 관련됨). 여기에는 다음 필드가 포함되어 있습니다.
 
 ## journeyID
 
-주 여정 ID입니다.
+기본 여정의 ID입니다.
 
 유형: 문자열
 
@@ -33,7 +36,7 @@ ht-degree: 23%
 
 유형: 문자열
 
-## description
+## 설명
 
 여정 설명.
 
@@ -41,6 +44,6 @@ ht-degree: 23%
 
 ## version
 
-버전 - `major`.`minor`
+`major`.`minor`
 
 유형: 문자열
