@@ -1,10 +1,14 @@
 ---
 title: 메시지 사전 설정 만들기
 description: 메시지 사전 설정을 구성하고 모니터링하는 방법을 알아봅니다
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: 애플리케이션 설정
+topic: 관리
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 0%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
