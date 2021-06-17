@@ -5,7 +5,7 @@ feature: 모니터링
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # 메시지 모니터링 {#monitor-message-execution}
-
-![](assets/do-not-localize/badge.png)
 
 메시지가 성공적으로 실행, 전송 및 전달되는지 확인하기 위해 [!DNL Journey Optimizer]은(는) 현재 게시되고 트리거되는 메시지를 모니터링하는 기능을 제공합니다. **[!UICONTROL Executions]** 목록에서 여정 <!--and APIs--> 간에 메시지가 실시간으로 어떻게 수행되는지 확인할 수 있습니다.
 
@@ -52,7 +50,7 @@ ht-degree: 1%
 
 ![](assets/message-execution-tab-filters.png)
 
-두 번째 열은 [메시지](create-message.md)를 열고 **[!UICONTROL Live view]**&#x200B;에 있는 경우 [라이브 보고서](reports/live-report.md)에 액세스하거나 **[!UICONTROL Global view]**&#x200B;에 있는 경우 [전역 보고서](reports/global-report.md)에 액세스할 수 있도록 합니다.
+<!--**[!UICONTROL Quick action]**-->두 번째 열은 [메시지](create-message.md)를 열고 **[!UICONTROL Live view]**&#x200B;에 있는 경우 [라이브 보고서](reports/live-report.md)에 액세스하거나 **[!UICONTROL Global view]**&#x200B;에 있는 경우 [전역 보고서](reports/global-report.md)에 액세스할 수 있도록 합니다.
 
 ![](assets/message-execution-open-live-report.png)
 
