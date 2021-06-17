@@ -5,26 +5,29 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 84%
+source-wordcount: '1187'
+ht-degree: 63%
 
 ---
 
 # 사용자 인터페이스 {#cjm-user-interface}
 
-![](assets/do-not-localize/badge.png)
-
-이 설명서는 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 하지만 실제 사용자 인터페이스와 약간 다른 스크린샷도 있습니다.
-
-## Workspace {#cjm-workspace}
-
 [Adobe Experience Cloud](http://experience.adobe.com)에 연결되면 [!DNL Journey Optimizer]로 이동합니다.
 
 >[!NOTE]
 >
->사용자 인터페이스를 검색할 때의 주요 개념은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=kr#adobe-experience-platform-ui-guide)에서 자세히 설명되어 있습니다.
+>* 사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 일반적입니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=kr#adobe-experience-platform-ui-guide)를 참조하십시오.
+   >
+   >
+* 이 설명서는 제품 사용자 인터페이스의 최신 변경 사항을 반영하도록 자주 업데이트됩니다. 하지만 실제 사용자 인터페이스와 약간 다른 스크린샷도 있습니다.
+   >
+   > 
+* UI에서 사용할 수 있는 구성 요소 및 기능은 사용 권한 및 라이선스 패키지에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하십시오.
+
+
+## 왼쪽 탐색
 
 왼쪽의 링크를 사용하여 기능을 찾아봅니다.
 
@@ -84,9 +87,39 @@ ht-degree: 84%
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. [이 문서에서 샌드박스에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko)
 
-## 브라우저 및 언어 지원
+
+## 제품 내 사용 사례
+
+홈 페이지에서 [!DNL Adobe Journey Optimizer] 사용 사례를 활용하고 고객 여정을 생성할 몇 가지 빠른 입력을 제공합니다.
+
+![](assets/use-cases-home.png)
+
+사용 가능한 사용 사례는 다음과 같습니다.
+
+* **테스트 프로필을 만들고**, CSV 템플릿을 사용하여 테스트 프로필을 만들어 개인화된 메시지 및 여정을 테스트합니다. 이 페이지](building-journeys/creating-test-profiles.md#use-case-1)에서 이 사용 사례 [을 구현하는 방법을 알아봅니다.
+* **고객에게 생일 메시지를 보내** 고객이 생일 전에 받을 수 있도록 이메일을 자동으로 보냅니다. (준비 중)
+* **새로운 고객을** 참여하기 위해 이메일을 보내어 새로 등록한 고객을 환영하기 위해 최대 2개의 이메일을 쉽게 보낼 수 있습니다. (준비 중)
+* **가져온 고객** 목록에 푸시 메시지를 전송하여 CSV 파일에서 가져온 고객 목록으로 푸시 알림을 신속하게 전송할 수 있습니다. (준비 중)
+
+각 사용 사례에 대한 자세한 내용을 보려면 **[!UICONTROL View details]** 을 클릭하십시오.
+
+**[!UICONTROL Begin]** 단추를 클릭하여 사용 사례를 시작합니다.
+
+**[!UICONTROL View use case library]** 단추에서 실행된 사용 사례에 액세스할 수 있습니다.
+
+## 도움말 및 지원 찾기
+
+홈 페이지의 하위 섹션에서 Adobe Journey Optimizer 주요 도움말 페이지에 액세스합니다.
+
+**도움말** 아이콘을 사용하여 도움말 페이지에 액세스하고, 지원 팀에 문의하고 피드백을 공유할 수 있습니다. 검색 필드에서 도움말 문서와 비디오를 검색할 수 있습니다.
+
+![](assets/ajo-help.png)
+
+## 지원되는 브라우저
 
 Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome에서 최적으로 작동되도록 디자인되었습니다. 이전 버전 또는 기타 브라우저에서 특정 기능을 사용하는 데 문제가 있을 수 있습니다.
+
+## 언어 환경 설정
 
 사용자 인터페이스는 현재 다음 언어로 제공됩니다.
 
@@ -106,7 +139,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ## 검색
 
-상단 표시줄의 중앙에 있는 Adobe Experience Cloud 검색을 사용하여 샌드박스 전체에서 자산, 여정 또는 메시지를 찾을 수 있습니다. 상위 결과를 표시할 컨텐츠 입력을 시작합니다.
+Adobe Journey Optimizer 인터페이스에서 어디서나 상단 표시줄의 중앙에 있는 Adobe Experience Cloud 검색을 사용하여 샌드박스 전체에서 자산, 여정 또는 메시지를 찾을 수 있습니다. 상위 결과를 표시할 컨텐츠 입력을 시작합니다.
 
 ![](assets/unified-search.png)
 
@@ -138,17 +171,3 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 여러 목록에서 각 요소에 대해 기본적인 작업을 수행할 수 있습니다. 예를 들어 항목을 복제하거나 삭제할 수 있습니다.
 
 ![](assets/journey4.png)
-
-## Adobe Experience Platform 필드를 통한 검색 {#friendly-names-display}
-
-[이벤트 페이로드](event/about-creating.md#define-the-payload-fields)와 [필드 그룹 페이로드](datasource/configure-data-sources.md#define-field-groups)를 정의하고 [표현식 편집기](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ko)에서 필드를 선택할 때는 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
-
-스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 입력하면 사용자에게 친숙한 이름이 표시 이름 대신 표시됩니다. &quot;eVars&quot; 및 일반 필드로 작업할 때 특히 유용합니다. API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하십시오.
-
-![](assets/xdm-from-descriptors.png)
-
-친숙한 이름을 사용할 수 있으면 필드가 `<friendly-name>(<name>)`으로 표시됩니다. 친숙한 이름을 사용할 수 없으면 `<display-name>(<name>)`과 같이 표시 이름이 표시됩니다. 어떤 이름도 정의되어 있지 않으면 필드의 기술적 이름(`<name>`)만 표시됩니다.
-
->[!NOTE]
->
->스키마 조합에서 필드를 선택하면 친숙한 이름이 검색되지 않습니다.
