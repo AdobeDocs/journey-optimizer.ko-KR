@@ -5,16 +5,14 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 2%
+source-wordcount: '791'
+ht-degree: 1%
 
 ---
 
 # 세그먼트 자격 이벤트 {#segment-qualification}
-
-![](../assets/do-not-localize/badge.png)
 
 ## 세그먼트 자격 이벤트 정보{#about-segment-qualification}
 
@@ -31,7 +29,7 @@ ht-degree: 2%
 >선택한 세그먼트가 스트리밍되면 이 세그먼트에 속하는 개인이 여정을 실시간으로 입력할 수 있습니다. 세그먼트가 배치인 경우, 이 세그먼트에 대해 새로 자격이 있는 사람은 Adobe Experience Platform에서 여정 계산이 실행될 때 세그먼트를 잠재적으로 입력합니다.
 
 
-1. **[!UICONTROL Events]** 카테고리를 펼치고 **[!UICONTROL Segment qualification]** 활동을 캔버스에 놓습니다.
+1. **[!UICONTROL Events]** 카테고리를 펼치고 **[!UICONTROL Segment Qualification]** 활동을 캔버스에 놓습니다.
 
    ![](../assets/segment5.png)
 
@@ -67,11 +65,13 @@ ht-degree: 2%
 * 자격 타임스탬프
 * 세그먼트 id
 
-**[!UICONTROL Segment qualification]** 활동을 따르는 조건 또는 작업에서 표현식 편집기를 사용하는 경우 **[!UICONTROL SegmentQualification]** 노드에 액세스할 수 있습니다. **[!UICONTROL Last qualification time]** 과 **[!UICONTROL status]**(enter 또는 exit) 중 하나를 선택할 수 있습니다.
+**[!UICONTROL Segment Qualification]** 활동을 따르는 조건 또는 작업에서 표현식 편집기를 사용하는 경우 **[!UICONTROL SegmentQualification]** 노드에 액세스할 수 있습니다. **[!UICONTROL Last qualification time]** 과 **[!UICONTROL status]**(enter 또는 exit) 중 하나를 선택할 수 있습니다.
 
 [조건 활동](../building-journeys/condition-activity.md#about_condition)을 참조하십시오.
 
 ![](../assets/segment8.png)
+
+세그먼트 자격 이벤트를 포함하는 새 여정은 게시한 후 10분 후에 작동합니다. 이 시간 간격은 전용 서비스의 캐시 새로 고침 간격에 해당합니다. 따라서 이 여정을 사용하기 전에 10분을 기다려야 합니다.
 
 ## 모범 사례 {#best-practices-segments}
 
