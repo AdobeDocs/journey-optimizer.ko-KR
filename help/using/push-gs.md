@@ -5,27 +5,20 @@ feature: 애플리케이션 설정
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '808'
 ht-degree: 1%
 
 ---
 
-# 푸시 알림 구성 {#get-started-push}
-
-![](assets/do-not-localize/badge.png)
+# 푸시 구성 {#get-started-push} 시작
 
 푸시 알림은 모바일 앱 사용자에게 언제든지 연락할 수 있도록 해줍니다. 특히 앱을 사용하고 있지 않을 때 유용합니다. 푸시 알림은 서비스에 대한 업데이트 제공, 사용자에게 조치 요청, 사용자에게 새로운 거래를 알리는 등의 다양한 사용 사례를 달성하는 데 도움이 될 수 있습니다. 최종 사용자가 알림을 받거나 볼 수 있으려면 장치 플랫폼에는 옵트인이 필요합니다. 사용자 옵트인은 앱을 처음 설치한 후 또는 후속 세션 또는 워크플로우에서 적절하게 시작한 후 즉시 받을 수 있습니다. [!DNL Journey Optimizer] 은 푸시 알림을 지원하며 업계 선도적인 처리량 비율로 관련 알림을 전송하는 데 도움이 됩니다. 푸시 알림에는 Adobe Experience Cloud에서 보유한 데이터 통찰력을 활용하기 위해 개인화 및 여정 기반 컨텍스트가 포함될 수 있습니다.
 
 이 페이지는 [!DNL Journey Optimizer]에서 푸시 알림과 관련된 주요 서비스 및 워크플로우를 설정하고 이해하는 데 도움이 됩니다.
 
-## Adobe Journey Optimizer을 사용하여 푸시 알림 설정
-
-Journey Optimizer Adobe으로 푸시 알림을 전송하려면 다음 단계를 완료해야 합니다.
-
-1. 설명서에 따라 앱에서 [Journey Optimizer 및 Adobe Experience Platform Mobile SDK Adobe](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer)로 설정을 받으십시오.
-1. 푸시 메시지 채널에 대해 [사전 설정을 만듭니다](configuration/message-presets.md)
+[!DNL Adobe Journey Optimizer]에서 푸시 채널을 구성하는 단계는 [이 페이지](push-configuration.md)에 자세히 설명되어 있습니다.
 
 ## 푸시 알림 및 Adobe Journey Optimizer
 
@@ -34,7 +27,7 @@ Journey Optimizer Adobe으로 푸시 알림을 전송하려면 다음 단계를 
 ![](assets/push-flow.png)
 
 1. Apple의 APNs 및 Google FCM 푸시 메시지 서비스를 사용하여 브랜드 모바일 앱(Android 또는 iOS)의 등록
-1. 메시징 서비스는 푸시 알림을 통해 특정 장치를 타깃팅하는 데 Journey Optimizer Adobe이 사용할 식별자인 푸시 토큰을 생성합니다.
+1. 메시징 서비스는 푸시 알림을 통해 특정 장치를 타깃팅하는 데 사용할 식별자인 푸시 토큰을 생성합니다.
 1. 이전에 생성한 푸시 토큰은 Adobe Experience Platform에 전달되고 실시간 고객 프로필과 동기화됩니다.이 작업은 클라이언트 SDK를 쉽게 통합할 수 있도록 OOTB로 수행됩니다
 1. 푸시 메시지는 Adobe Journey Optimizer에서 작성되며, 푸시 메시지는 메시지 사전 설정에 대해 만들어집니다
 1. 푸시 메시지는 여정의 오케스트레이션 캔버스에 포함될 수 있습니다
@@ -54,7 +47,7 @@ Journey Optimizer Adobe으로 푸시 알림을 전송하려면 다음 단계를 
    * [Firebase Cloud Messaging(FCM)](https://firebase.google.com/docs/cloud-messaging)  - Android 모바일 앱으로 알림을 전송할 수 있습니다
    * [Apple APNs(푸시 알림 서비스)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html)  - iOS 모바일 앱으로 알림을 전송할 수 있습니다
 
-* **Adobe Experience Platform Mobile** SDK는 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다. SDK는 푸시 메시지별 다양한 API를 노출하는 Adobe Journey Optimizer 확장을 제공하고 푸시 토큰 등록 또는 푸시 추적 이벤트 또는 기타 사용자 지정 경험 이벤트를 Adobe Experience Platform에 전송하는 것과 같은 데이터 흐름을 활성화합니다. 또한 SDK는 다른 Adobe Experience Cloud과 타사 파트너 기능을 사용할 수 있는 다양한 기타 확장도 제공합니다.
+* **Adobe Experience Platform Mobile** SDK는 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다. SDK는 푸시 메시지별 다양한 API를 노출하는 Adobe Journey Optimizer 확장을 제공하고 푸시 토큰을 등록하거나 푸시 추적 이벤트 또는 기타 사용자 지정 경험 이벤트를 Adobe Experience Platform에 전송하는 것과 같은 데이터 흐름을 활성화합니다. 또한 SDK는 다른 Adobe Experience Cloud과 타사 파트너 기능을 사용할 수 있는 다양한 기타 확장도 제공합니다.
 
    SDK 통합에는 다음과 같은 Adobe Experience Platform [데이터 수집](https://experienceleague.adobe.com/docs/launch/using/home.html) 서비스를 설정해야 합니다.
 
@@ -64,11 +57,10 @@ Journey Optimizer Adobe으로 푸시 알림을 전송하려면 다음 단계를 
 
 * **Adobe Experience Platform 실시간 고객 프로필**  은 웹, 모바일, CRM 및 서드파티 등 여러 채널의 데이터를 결합함으로써 각 개별 고객에 대한 전체적인 보기를 포함합니다. 프로필 을 사용하면 고객 데이터를 모든 고객 상호 작용을 실행 가능하고 타임스탬프가 지정된 계정을 제공하는 통합 보기에 통합할 수 있습니다. 주어진 앱 사용자에 대한 푸시 토큰은 사용자의 프로필에 대해 레코드 데이터로 저장되는 반면, 사용자가 푸시 알림과 함께 수행하는 상호 작용은 시계열 이벤트 데이터로 추적됩니다. [Adobe Experience Platform 실시간 고객 프로필에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 
-* **[!DNL Adobe Journey Optimizer]** :위에 언급된 구성 요소와의 모바일 앱 통합이 준비되고 Adobe Experience Platform에 고객 프로필이 배치되면 Adobe Journey Optimizer에서 푸시 알림을 작성 및 오케스트레이션하여 사용자와 참여할 수 있습니다.
+* **[!DNL Adobe Journey Optimizer]** :위에 언급된 구성 요소와의 모바일 앱 통합이 준비되고 Adobe Experience Platform에 고객 프로필이 배치되면, Adobe Journey Optimizer에서 푸시 알림을 작성 및 오케스트레이션하여 사용자와 참여할 수 있습니다.
 
 ## 푸시 기술 설정 및 의사 워크플로우
 
 다음 그림은 푸시 데이터 흐름의 골격을 형성하는 구성 요소 구성과 관련된 다양한 단계인 종단 간 방법을 보여줍니다. 작업 항목은 구성을 수행하는 역할 및 구성 중인 구성 요소에 따라 분류되었습니다.
 
 ![](assets/user-flow.png)
-
