@@ -5,16 +5,14 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 2%
+source-wordcount: '489'
+ht-degree: 1%
 
 ---
 
-# 이메일 글로벌 보고서 {#email-global-report}
-
-![](../assets/do-not-localize/badge.png)
+# 전자 메일 글로벌 보고서 {#email-global-report}
 
 이메일 **[!UICONTROL Global report]**&#x200B;은(는) 특정 이메일 게재만 타겟팅합니다.
 
@@ -42,7 +40,21 @@ ht-degree: 2%
 
 * **[!UICONTROL Spam Complaint Rate]**:배달된 메시지와 비교하여 수신자가 스팸으로 표시한 이메일의 백분율입니다. 불만 사항에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability)를 참조하십시오.
 
-* **[!UICONTROL Unsubscribe Rate]**:게재된 메시지와 비교하여 고유한 구독 취소 수입니다.
+* **[!UICONTROL Unsubscribe Rate]**:게재한 메시지 수와 비교하여 고유한 구독 취소 비율입니다. 이 지표는 구독 취소 링크 클릭 수에 의존하지 않지만 수신자가 시작한 구독 취소 수를 기반으로 합니다. 이 [페이지](../consent.md)에서 구독 취소에 대해 자세히 알아보십시오.
+
+**[!UICONTROL Email - Tracking statistics]**&#x200B;에는 게재에 사용할 수 있는 수신자 활동이 포함되어 있습니다.
+
+* **[!UICONTROL Opens]**:게재에서 게재를 연 횟수입니다.
+
+* **[!UICONTROL Unique Opens]**:연 게재의 백분율입니다.
+
+* **[!UICONTROL Open Rate]**:연 총 이메일 수와 배달된 이메일 수 비교
+
+* **[!UICONTROL Clicks]**:이메일에서 콘텐츠를 클릭한 횟수입니다.
+
+* **[!UICONTROL Unique Clicks]**: 이메일의 콘텐츠를 클릭한 수신자 수입니다.
+
+* **[!UICONTROL Click through rate]**:여정과 상호 작용한 사용자의 비율입니다.
 
 **[!UICONTROL Sending Statistics]** 그래프는 게재의 성공에 대해 자세히 설명합니다.
 
@@ -51,6 +63,8 @@ ht-degree: 2%
 * **[!UICONTROL Bounces]**:총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
 
 * **[!UICONTROL Errors]**:게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
+
+![](../assets/global_report_5.png)
 
 **[!UICONTROL Bounce Reasons]** 및 **[!UICONTROL Bounce categories]** 위젯에는 다음과 같이 바운스된 메시지와 관련하여 사용할 수 있는 데이터가 포함됩니다.
 
@@ -62,27 +76,13 @@ ht-degree: 2%
 
 바운스에 대한 자세한 내용은 [억제 목록](../suppression-list.md) 페이지를 참조하십시오.
 
-![](../assets/global_report_5.png)
-
 **[!UICONTROL Error Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류를 확인할 수 있습니다.
-
-**[!UICONTROL Email - Best recipient domain]** 그래프 및 표는 수신자가 이메일을 여는 데 가장 많이 사용하는 도메인을 자세히 설명합니다.
 
 ![](../assets/global_report_6.png)
 
-**[!UICONTROL Email - Tracking statistics]** 표에는 게재에 대한 수신자 활동에 사용할 수 있는 데이터가 포함되어 있습니다.
+**[!UICONTROL Email - Top recipient domain]** 그래프 및 표는 수신자가 이메일을 여는 데 가장 많이 사용하는 도메인을 자세히 설명합니다.
 
-* **[!UICONTROL Opens]**:게재에서 게재를 연 횟수입니다.
-
-* **[!UICONTROL Unique Opens]**:게재를 연 수신자 수입니다.
-
-* **[!UICONTROL Open Rate]**:열린 메시지의 백분율입니다.
-
-* **[!UICONTROL Clicks]**:이메일에서 콘텐츠를 클릭한 횟수입니다.
-
-* **[!UICONTROL Unique Clicks]**: 이메일의 콘텐츠를 클릭한 수신자 수입니다.
-
-* **[!UICONTROL Click through rate]**:게재 클릭 비율.
+**[!UICONTROL Email - Top Url]** 그래프 및 표는 게재에서 가장 많이 방문한 URL을 자세히 설명합니다.
 
 **[!UICONTROL Open vs Click]**&#x200B;은(는) 수신자와 게재의 상호 작용을 식별합니다.
 
@@ -90,4 +90,4 @@ ht-degree: 2%
 
 * **[!UICONTROL Unique Opens]**:게재를 연 수신자 수입니다.
 
-**[!UICONTROL Email - Top Url]** 그래프 및 표는 게재에서 가장 많이 방문한 URL을 자세히 설명합니다.
+
