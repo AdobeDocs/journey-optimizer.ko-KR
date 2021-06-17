@@ -5,16 +5,14 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 8%
+source-wordcount: '1703'
+ht-degree: 7%
 
 ---
 
 # 여정 시작{#jo-quick-start}
-
-![](../assets/do-not-localize/badge.png)
 
 ## 사전 요구 사항
 
@@ -22,7 +20,7 @@ ht-degree: 8%
 
 1. **이벤트 구성**:여정이 수신될 때까지 트리거하려면 이벤트를 구성해야 합니다. 필요한 정보와 정보를 처리하는 방법을 정의합니다. **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다. [자세히 보기](../event/about-events.md).
 
-   ![](../assets/jo-event7.png)
+   ![](../assets/jo-event7bis.png)
 
 1. **세그먼트 만들기**:여정이 Adobe Experience Platform 세그먼트를 수신하여 메시지를 지정된 프로필 세트에 일괄 전송할 수도 있습니다. 이를 위해 세그먼트를 만들어야 합니다. [자세히 보기](../segment/about-segments.md).
 
@@ -42,11 +40,11 @@ ht-degree: 8%
 
 여정을 통해 메시지를 보내는 주요 단계는 다음과 같습니다.
 
-1. 여정 관리 섹션에서 **[!UICONTROL Journeys]** 을 클릭합니다. 여정 목록이 표시됩니다.
+1. 여정 관리 메뉴 섹션에서 **[!UICONTROL Journeys]** 을 클릭합니다. 여정 목록이 표시됩니다.
 
    ![](../assets/interface-journeys.png)
 
-1. **[!UICONTROL Create]** 을 클릭하여 새 여정을 만듭니다.
+1. **[!UICONTROL Create Journey]** 을 클릭하여 새 여정을 만듭니다.
 
 1. 오른쪽에 표시되는 구성 창에서 여정의 속성을 편집합니다. 자세한 내용은 이 [섹션](journey-gs.md#change-properties)을 참조하십시오.
 
@@ -82,7 +80,7 @@ ht-degree: 8%
 
 기본적으로 새 여정은 다시 입력할 수 있습니다. &quot;일회성&quot; 여정에 대한 옵션의 선택을 취소할 수 있습니다. 예를 들어, 사용자가 상점에 들어올 때 일회성 선물을 제공하려는 경우입니다. 이러한 경우 고객이 여정을 다시 입력하고 오퍼를 다시 받을 수 없도록 합니다.
 
-여정 &quot;종료&quot;가 되면 상태는 **[!UICONTROL Closed (no entrance)]**&#x200B;입니다. 여정은 새 개인이 여정에 들어가는 것을 중지합니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다.
+여정 &quot;종료&quot;가 되면 상태는 **[!UICONTROL Closed]**&#x200B;입니다. 여정은 새 개인이 여정에 들어가는 것을 중지합니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다.
 
 기본 글로벌 시간 초과 30일 이후에는 여정이 **Finished** 상태로 전환됩니다. 이 [섹션](../building-journeys/journey-gs.md#global_timeout)을 참조하십시오.
 
@@ -114,6 +112,32 @@ ht-degree: 8%
 
 시간대 관리에 대한 자세한 내용은 [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
+### 버스트 모드 {#burst}
+
+버스트 모드는 대량 볼륨에서 매우 빠른 푸시 메시지를 전송할 수 있는 유료 추가 기능입니다. 읽기 세그먼트와 간단한 푸시 메시지를 포함하는 간단한 여정에 사용됩니다. 버스트는 휴대폰에 긴급 푸시 알림을 전송하려는 경우, 예를 들어 뉴스 채널 앱을 설치한 사용자에게 최신 뉴스를 전송하려는 경우 메시지 전달 지연이 비즈니스 크리티컬 상태일 때 사용됩니다.
+
+제한 사항:
+
+* 여정은 읽기 세그먼트로 시작해야 합니다. 이벤트는 허용되지 않습니다.
+* 다음 단계는 푸시 메시지여야 합니다. 다른 활동 또는 단계가 허용되지 않습니다(선택적 종료 활동 제외).
+   * 푸시 채널만
+   * 메시지에 개인화가 허용되지 않습니다
+   * 메시지는 작아야 합니다(&lt;2KB).
+
+중요 참고:
+
+요구 사항이 가득 차지 않으면 여정에서 버스트 모드를 사용할 수 없습니다.
+
+버스트 모드를 활성화하려면 여정을 열고 오른쪽 상단의 연필 아이콘을 클릭하여 여정 속성에 액세스합니다. 그런 다음 **버스트 모드 활성화** 전환을 활성화합니다.
+
+![](../assets/burst.png)
+
+버스트 여정을 수정하고 버스트와 호환되지 않는 활동(메시지, 다른 작업, 이벤트 등)을 추가하는 경우 버스트 모드는 비활성화됩니다. 메시지가 표시됩니다.
+
+![](../assets/burst2.png)
+
+그런 다음 여정을 정상적으로 테스트하고 게시합니다. 테스트 모드 메시지는 버스트 모드를 통해 전송되지 않습니다.
+
 ## 여정 종료
 
 여정은 다음 두 가지 이유로 인해 개인에 대해 종료될 수 있습니다.
@@ -129,7 +153,7 @@ ht-degree: 8%
 * 실행이 완료된 원샷 세그먼트 기반 여정.
 * 반복 세그먼트 기반 여정이 마지막으로 발생한 후.
 
-여정을 닫으면(위의 이유 중 하나) 상태가 **[!UICONTROL Closed (no entrance)]**&#x200B;입니다. 여정은 새 개인이 여정에 들어가는 것을 중지합니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다. 기본 글로벌 시간 초과 30일 이후에는 여정이 **Finished** 상태로 전환됩니다. 이 [섹션](../building-journeys/journey-gs.md#global_timeout)을 참조하십시오.
+여정을 닫으면(위의 이유 중 하나) 상태가 **[!UICONTROL Closed]**&#x200B;입니다. 여정은 새 개인이 여정에 들어가는 것을 중지합니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다. 기본 글로벌 시간 초과 30일 이후에는 여정이 **Finished** 상태로 전환됩니다. 이 [섹션](../building-journeys/journey-gs.md#global_timeout)을 참조하십시오.
 
 여정에 있는 모든 개인의 진행 상태를 중지해야 하는 경우 중지할 수 있습니다. 여정을 중지하면 여정의 모든 개인이 시간 초과됩니다.
 
@@ -145,13 +169,13 @@ ht-degree: 8%
 
 여정을 수동으로 닫고 여정에 이미 입력한 고객이 경로를 완료할 수 있지만 새 사용자가 여정에 들어갈 수 없도록 할 수 있습니다.
 
-닫히면 여정 상태가 **[!UICONTROL Closed (no entrance)]**&#x200B;입니다. 기본 글로벌 시간 초과 30일 이후에는 여정이 **Finished** 상태로 전환됩니다. 이 [섹션](../building-journeys/journey-gs.md#global_timeout)을 참조하십시오.
+닫히면 여정 상태가 **[!UICONTROL Closed]**&#x200B;입니다. 기본 글로벌 시간 초과 30일 이후에는 여정이 **Finished** 상태로 전환됩니다. 이 [섹션](../building-journeys/journey-gs.md#global_timeout)을 참조하십시오.
 
 닫힌 여정 버전은 다시 시작하거나 삭제할 수 없습니다. 새 버전을 만들거나 복제할 수 있습니다. 완료된 여정만 삭제할 수 있습니다.
 
-마우스로 여정 목록의 여정을 가리키면서 **[!UICONTROL Close to new entrances]** 을 클릭하여 여정을 닫을 수 있습니다.
+여정 목록에서 여정을 닫으려면 여정 이름의 오른쪽에 있는 **[!UICONTROL Ellipsis]** 버튼을 클릭하고 **[!UICONTROL Close to new entrances]** 을 선택합니다.
 
-![](../assets/do-not-localize/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 다음 작업도 수행할 수 있습니다.
 
@@ -171,9 +195,9 @@ ht-degree: 8%
 
 중지되면 여정의 상태는 **[!UICONTROL Stopped]**&#x200B;입니다.
 
-마우스로 여정 목록의 여정을 가리키면 **[!UICONTROL Stop]** 을 클릭하여 여정을 중지할 수 있습니다(예를 들어, 여정이 잘못된 대상을 타깃팅하거나, 메시지를 전달해야 하는 사용자 지정 작업이 제대로 작동하지 않는 경우..).
+예를 들어, 마케터가 여정이 잘못된 대상을 타깃팅하거나 메시지를 전달해야 하는 사용자 지정 작업이 제대로 작동하지 않는다는 것을 알고 있으면 여정을 중지할 수 있습니다. 여정 목록에서 여정을 중지하려면 여정 이름의 오른쪽에 있는 **[!UICONTROL Ellipsis]** 단추를 클릭하고 **[!UICONTROL Stop]** 을 선택합니다.
 
-![](../assets/do-not-localize/journey-stop-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 다음 작업도 수행할 수 있습니다.
 
