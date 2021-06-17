@@ -6,7 +6,7 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 285942ec51859a4cea888d9974f79f52acf3aabf
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -14,8 +14,6 @@ ht-degree: 2%
 ---
 
 # 일반 이벤트 {#section_ofg_jss_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 이러한 유형의 이벤트에 대해서는 레이블과 설명만 추가할 수 있습니다. 나머지 구성은 편집할 수 없습니다. 기술 사용자가 수행했습니다. [이 페이지](../event/about-events.md)를 참조하십시오.
 
@@ -31,11 +29,11 @@ ht-degree: 2%
 
 이벤트에 대한 시간 제한을 구성하려면 다음 단계를 수행합니다.
 
-1. 이벤트 속성에서 **[!UICONTROL Enable the event timeout]** 옵션을 활성화합니다.
+1. 이벤트 속성에서 **[!UICONTROL Define the event timeout]** 옵션을 활성화합니다.
 
 1. 여정이 이벤트를 기다리는 시간을 지정합니다.
 
-1. 지정된 시간 제한 내에 이벤트를 받지 못할 때 개인을 시간 제한 경로로 보내려면 **[!UICONTROL Set the timeout path]** 옵션을 활성화합니다. 이 옵션이 활성화되지 않으면 시간 초과에 도달하면 여정이 개별 항목에 대해 종료됩니다.
+1. 지정된 시간 제한 내에 이벤트를 받지 못할 때 개인을 시간 제한 경로로 보내려면 **[!UICONTROL Set a timeout path]** 옵션을 활성화합니다. 이 옵션이 활성화되지 않으면 시간 초과에 도달하면 여정이 개별 항목에 대해 종료됩니다.
 
    ![](../assets/event-timeout.png)
 
