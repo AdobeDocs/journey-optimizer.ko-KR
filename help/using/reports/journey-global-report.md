@@ -5,16 +5,14 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 1%
+source-wordcount: '944'
+ht-degree: 0%
 
 ---
 
 # 여정 글로벌 보고서 {#journey-global-report}
-
-![](../assets/do-not-localize/badge.png)
 
 여정 글로벌 보고서는 **[!UICONTROL Global report]** 버튼을 사용하여 여정에서 직접 액세스할 수 있습니다.
 
@@ -44,23 +42,27 @@ ht-degree: 1%
 
 * **[!UICONTROL Failed individual journey]**:성공적으로 실행되지 않은 개별 여정의 총 수입니다.
 
-**[!UICONTROL Event Performance]** 및 **[!UICONTROL Top events]** 위젯을 사용하면 그래프와 테이블을 통해 성공적으로 실행된 **[!UICONTROL Events]** 중 하나를 확인할 수 있습니다.
+![](../assets/global_report_12.png)
 
-**[!UICONTROL Action Performance]** 및  **[!UICONTROL Top Actions]** 위젯 은 트리거될 때 발생한 가장 성공적인 작업 및 오류 **[!UICONTROL Actions]** 를 나타냅니다. **[!UICONTROL Top Actions]** 테이블에는 **[!UICONTROL Actions]**&#x200B;에 사용할 수 있는 다음과 같은 데이터가 포함되어 있습니다.
+**[!UICONTROL Events received by event]**, **[!UICONTROL Events by origin]** 및 **[!UICONTROL Top events]** 위젯을 사용하면 그래프와 테이블을 통해 성공적으로 실행된 **[!UICONTROL Events]** 중 하나를 확인할 수 있습니다.
+
+![](../assets/global_report_13.png)
+
+**[!UICONTROL Action Performance]**,  **[!UICONTROL Action Error Reasons]** 및  **[!UICONTROL Top Actions]** 위젯은 트리거될 때 발생한 가장 성공적인 작업 및 오류를  **[!UICONTROL Actions]** 나타냅니다.
+
+**[!UICONTROL Top Actions]** 테이블에는 **[!UICONTROL Actions]**&#x200B;에 사용할 수 있는 다음과 같은 데이터가 포함되어 있습니다.
 
 * **[!UICONTROL Actions successfully executed]**:여정에 대해  **[!UICONTROL Actions]** 성공적으로 실행된 총 횟수입니다.
 
 * **[!UICONTROL Error in action]**:에 대해 발생한 총 오류 수입니다 **[!UICONTROL Actions]**.
-
-**[!UICONTROL Error Reasons]** 그래프는 **[!UICONTROL Actions]**&#x200B;에 대해 발생한 오류 유형을 자세히 설명합니다.
-
-<!--Events by origin-->
 
 ## 전자 메일 탭 {#email-global}
 
 여정 **[!UICONTROL Global report]**&#x200B;에서 **[!UICONTROL Email]** 탭은 여정에서 전송된 이메일 게재와 관련된 기본 정보를 자세히 설명합니다.
 
 특정 전자 메일 게재에 대한 자세한 보고서는 [전자 메일 글로벌 보고서](#email-global-report) 섹션을 참조하십시오.
+
+![](../assets/global_report_14.png)
 
 **[!UICONTROL Email Sending Statistics]** 그래프는 게재의 성공에 대해 자세히 설명합니다.
 
@@ -92,6 +94,10 @@ ht-degree: 1%
 
 * **[!UICONTROL Click through rate]**:여정과 상호 작용한 사용자의 비율입니다.
 
+* **[!UICONTROL Unsubscribe]**:구독 취소 링크에 대한 클릭 수입니다.
+
+* **[!UICONTROL Spam complaints]**:메시지가 스팸 또는 정크 메일로 선언된 횟수입니다.
+
 **[!UICONTROL Sending Statistics]** 그래프에는 다음과 같이 전송된 이메일에 사용할 수 있는 데이터가 포함되어 있습니다.
 
 * **[!UICONTROL Delivered]**:보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
@@ -99,6 +105,8 @@ ht-degree: 1%
 * **[!UICONTROL Bounces]**:총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
 
 * **[!UICONTROL Errors]**:게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
+
+![](../assets/global_report_15.png)
 
 **[!UICONTROL Bounce Reasons]** 및 **[!UICONTROL Bounce categories]** 위젯에는 다음과 같이 바운스된 메시지와 관련하여 사용할 수 있는 데이터가 포함됩니다.
 
@@ -110,15 +118,19 @@ ht-degree: 1%
 
 바운스에 대한 자세한 내용은 [억제 목록](../suppression-list.md) 페이지를 참조하십시오.
 
+![](../assets/global_report_16.png)
+
 **[!UICONTROL Email - Top Url]** 그래프 및 표는 게재에서 가장 많이 방문한 URL을 자세히 설명합니다.
 
-**[!UICONTROL Email - Best recipient domain]** 그래프 및 표는 수신자가 이메일을 여는 데 가장 많이 사용하는 도메인을 자세히 설명합니다.
+**[!UICONTROL Email - Top recipient domain]** 그래프 및 표는 수신자가 이메일을 여는 데 가장 많이 사용하는 도메인을 자세히 설명합니다.
 
 ## 푸시 탭 {#push-global}
 
 여정 **[!UICONTROL Global report]**&#x200B;에서 **[!UICONTROL Push]** 탭은 여정에서 전송된 푸시 게재와 관련된 기본 정보를 자세히 설명합니다.
 
 특정 푸시 게재에 대한 자세한 보고서는 이 [푸시 글로벌 보고서](#push-global-report)를 참조하십시오.
+
+![](../assets/global_report_17.png)
 
 **[!UICONTROL Push notification - Sending statistics]** 테이블은 그래프 및 KPI를 사용하여 푸시 알림에 대한 기본 정보를 자세히 설명합니다.
 
@@ -160,6 +172,10 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
+![](../assets/global_report_18.png)
+
 **[!UICONTROL Error Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류를 확인할 수 있습니다.
+
+![](../assets/global_report_19.png)
 
 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 및 **[!UICONTROL Breakdown by platform]** 그래프 및 표는 수신자의 운영 시스템에 따라 푸시 알림의 성공을 자세히 설명합니다.
