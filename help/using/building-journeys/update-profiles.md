@@ -5,7 +5,7 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -14,9 +14,7 @@ ht-degree: 1%
 
 # 프로필 업데이트 {#update-profile}
 
-![](../assets/do-not-localize/badge.png)
-
-**[!UICONTROL Update profile]** 작업 활동을 사용하면 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다.
+**[!UICONTROL Update Profile]** 작업 활동을 사용하면 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다.
 
 ## 중요 정보
 
@@ -65,6 +63,6 @@ ht-degree: 1%
 
       ![](../assets/profileupdate3.png)
 
-이제 **업데이트 프로필**&#x200B;이 구성되었습니다.
+이제 **프로필 업데이트**&#x200B;가 구성되었습니다.
 
 ![](../assets/profileupdate1.png)
