@@ -5,7 +5,7 @@ feature: 이벤트
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 4%
@@ -13,8 +13,6 @@ ht-degree: 4%
 ---
 
 # 추가적인 이벤트 전송 단계 {#concept_xrz_n1q_y2b}
-
-![](../assets/do-not-localize/badge.png)
 
 **[!UICONTROL Streaming Ingestion APIs]**&#x200B;에 전송하고 [!DNL Journey Optimizer]에 사용할 이벤트를 구성하려면 다음 단계를 수행해야 합니다.
 
