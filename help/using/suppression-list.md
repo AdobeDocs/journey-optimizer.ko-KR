@@ -5,7 +5,7 @@ feature: 전달성
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 4%
@@ -13,8 +13,6 @@ ht-degree: 4%
 ---
 
 # 제외 목록 {#suppression-list}
-
-![](assets/do-not-localize/badge.png)
 
 이러한 연락처로 보내면 전송 신뢰도와 전송 속도가 저하될 수 있으므로 게재에서 제외하려는 이메일 주소로 제외 목록이 구성됩니다.
 
