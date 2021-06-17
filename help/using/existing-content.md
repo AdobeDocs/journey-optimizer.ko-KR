@@ -5,7 +5,7 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 10%
@@ -13,8 +13,6 @@ ht-degree: 10%
 ---
 
 # 이메일 콘텐츠 가져오기 또는 코드 작성 {#existing-content}
-
-![](assets/do-not-localize/badge.png)
 
 Journey Optimizer을 사용하면 기존 HTML 콘텐츠를 가져와서 전자 메일을 디자인할 수 있습니다. 이 컨텐츠는 기존 HTML 파일 또는 zip 폴더의 원시 HTML 코드나 컨텐츠일 수 있습니다.
 
@@ -57,7 +55,6 @@ HTML 콘텐츠를 코딩하거나 기존 콘텐츠를 가져오려면 아래 단
 1. 코드가 준비되면 **[!UICONTROL Save]** 을 클릭한 다음 메시지 작성 화면으로 돌아가 메시지를 완료합니다.
 
    ![](assets/code-editor-save.png)
-
 
 ## HTML 가져오기 {#import-html-content-from-file}
 
