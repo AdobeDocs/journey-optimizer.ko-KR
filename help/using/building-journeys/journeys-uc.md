@@ -5,18 +5,16 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
 
-# 여정 사용 사례
+# 다중 채널 메시지 보내기
 
-![](../assets/do-not-localize/badge.png)
-
-이 섹션에서는 읽기 세그먼트, 이벤트, 반응 이벤트 및 이메일/푸시 메시지를 결합하는 사용 사례를 제공합니다.
+이 섹션에서는 세그먼트 읽기, 이벤트, 반응 이벤트 및 이메일/푸시 메시지를 결합하는 사용 사례를 제공합니다.
 
 ![](../assets/jo-uc1.png)
 
@@ -44,7 +42,9 @@ ht-degree: 2%
 
 세그먼트에 대한 자세한 내용은 이 [page](../segment/about-segments.md)을 참조하십시오.
 
-1. **[!UICONTROL Segments]** 메뉴에서 **[!UICONTROL Create segment]** 를 클릭합니다.
+1. 고객 메뉴 섹션에서 **[!UICONTROL Segments]** 을 선택합니다.
+
+1. 세그먼트 목록의 오른쪽 상단에 있는 **[!UICONTROL Create segment]** 단추를 클릭합니다.
 
 1. **[!UICONTROL Segment properties]** 창에서 세그먼트 이름을 입력합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 
 이를 위해 규칙 기반 이벤트를 사용합니다. 이벤트에 대한 자세한 내용은 이 [page](../event/about-events.md)을 참조하십시오.
 
-1. 관리 섹션에서 **[!UICONTROL Configurations]** 로 이동한 다음 **[!UICONTROL Events]** 를 클릭합니다. 새 이벤트를 만들려면 **[!UICONTROL Add]**&#x200B;를 클릭합니다.
+1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]** 을 선택한 다음 **[!UICONTROL Events]** 를 클릭합니다. 새 이벤트를 만들려면 **[!UICONTROL Create event]**&#x200B;를 클릭합니다.
 
 1. 이벤트의 이름을 입력합니다.
 
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Event ID condition]** 필드에서 시스템이 여정을 트리거하는 이벤트를 식별하는 데 사용하는 조건을 정의합니다. 예를 들어 `purchaseMessage` 필드를 추가하고 다음 규칙을 정의할 수 있습니다.`purchaseMessage="thank you"`
 
-1. **[!UICONTROL Namespace]** 및 **[!UICONTROL Key]**&#x200B;을(를) 정의합니다.
+1. **[!UICONTROL Namespace]** 및 **[!UICONTROL Profile Identifier]**&#x200B;을(를) 정의합니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
