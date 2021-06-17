@@ -5,9 +5,9 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '604'
 ht-degree: 2%
 
 ---
@@ -15,15 +15,13 @@ ht-degree: 2%
 
 # 개인화 사용 사례 {#personalization-use-case}
 
-![](../assets/do-not-localize/badge.png)
-
 이 사용 사례에서는 단일 푸시 알림 메시지에서 여러 유형의 개인화를 사용하는 방법을 확인할 수 있습니다. 다음 세 가지 유형의 개인화가 사용됩니다.
 
 * **프로필**:프로필 필드를 기반으로 한 메시지 개인화
 * **오퍼 결정**:offer decisioning 변수 기반 개인화
 * **컨텍스트**:여정의 컨텍스트 데이터 기반의 개인화
 
-이 예제의 목표는 고객 주문이 업데이트될 때마다 Journey Optimizer에 이벤트를 푸시하는 것입니다. 그런 다음 주문 및 개인화된 오퍼에 대한 정보를 사용하여 고객에게 푸시 알림이 전송됩니다.
+이 예제의 목표는 고객 주문이 업데이트될 때마다 이벤트를 [!DNL Journey Optimizer]에 푸시하는 것입니다. 그런 다음 주문 및 개인화된 오퍼에 대한 정보를 사용하여 고객에게 푸시 알림이 전송됩니다.
 
 이 사용 사례에는 다음 전제 조건이 필요합니다.
 
