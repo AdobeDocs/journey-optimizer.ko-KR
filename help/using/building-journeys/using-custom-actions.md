@@ -5,7 +5,7 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 9%
@@ -13,8 +13,6 @@ ht-degree: 9%
 ---
 
 # 사용자 지정 작업 사용 {#section_f2c_hbg_nhb}
-
-![](../assets/do-not-localize/badge.png)
 
 사용자 지정 작업을 사용하는 경우 작업 구성 화면에 정의된 **[!UICONTROL URL Configuration]** 및 **[!UICONTROL Authentication]** 매개 변수가 읽기 전용으로 표시됩니다([이 페이지](../action/about-custom-action-configuration.md) 참조).
 
