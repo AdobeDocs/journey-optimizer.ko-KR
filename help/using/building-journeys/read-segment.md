@@ -5,16 +5,14 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 3%
+source-wordcount: '967'
+ht-degree: 4%
 
 ---
 
 # 여정 {#segment-trigger-activity}에서 세그먼트 사용
-
-![](../assets/do-not-localize/badge.png)
 
 ## 세그먼트 읽기 활동 {#about-segment-trigger-actvitiy} 정보
 
@@ -25,6 +23,8 @@ ht-degree: 3%
 >[!NOTE]
 >
 >1시간이 짧은 시간대에 세그먼트 기반 여정을 트리거할 수 없습니다.
+>
+>버스트 유료 추가 기능을 사용하면 읽기 세그먼트와 간단한 푸시 메시지를 포함하는 단순 여정에 대해 큰 볼륨으로 빠르게 푸시 메시지를 전송할 수 있습니다. 자세한 정보는 [이 섹션](../building-journeys/journey-gs.md#burst)을 참조하십시오
 
 ### 활동 구성 {#configuring-segment-trigger-activity}
 
