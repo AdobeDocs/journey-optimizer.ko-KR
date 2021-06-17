@@ -5,26 +5,24 @@ feature: 이벤트
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 15%
+source-wordcount: '1656'
+ht-degree: 14%
 
 ---
 
 # 단일 이벤트 구성 {#configure-an-event}
 
-![](../assets/do-not-localize/badge.png)
-
 단일 이벤트는 특정 프로필에 연결됩니다. 규칙을 기반으로 하거나 시스템에서 생성할 수 있습니다.  단일 이벤트 [이 섹션](../event/about-events.md)에 대해 자세히 알아보십시오.
 
 새 이벤트를 구성하는 첫 번째 단계는 다음과 같습니다.
 
-1. 관리 섹션에서 **[!UICONTROL Configurations]** 로 이동한 다음 **[!UICONTROL Events]** 를 클릭합니다. 그러면 이벤트 목록이 표시됩니다.
+1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]** 을 선택합니다. **[!UICONTROL Events]** 섹션에서 **[!UICONTROL Manage]** 를 클릭합니다. 그러면 이벤트 목록이 표시됩니다.
 
    ![](../assets/jo-event1.png)
 
-1. 새 이벤트를 만들려면 **[!UICONTROL Add]**&#x200B;를 클릭합니다. 그러면 화면 오른쪽에 이벤트 구성 창이 열립니다.
+1. 새 이벤트를 만들려면 **[!UICONTROL Create Event]**&#x200B;를 클릭합니다. 그러면 화면 오른쪽에 이벤트 구성 창이 열립니다.
 
    ![](../assets/jo-event2.png)
 
@@ -36,11 +34,11 @@ ht-degree: 15%
    >
    >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
 
-1. **[!UICONTROL Type]** 필드에서 **단일 이벤트**&#x200B;를 선택합니다.
+1. **[!UICONTROL Type]** 필드에서 **단일**&#x200B;을 선택합니다.
 
    ![](../assets/jo-event3bis.png)
 
-1. **[!UICONTROL Event ID type]** 필드에서 사용할 이벤트 ID 유형을 선택합니다.**규칙 기반** 또는 **시스템 생성**. [이 섹션](../event/about-events.md#event-id-type)의 이벤트 ID 유형에 대해 자세히 알아보십시오.
+1. **[!UICONTROL Event ID type]** 필드에서 사용할 이벤트 ID 유형을 선택합니다.**규칙 기반** 또는 **시스템 생성** [이 섹션](../event/about-events.md#event-id-type)의 이벤트 ID 유형에 대해 자세히 알아보십시오.
 
    ![](../assets/jo-event4.png)
 
@@ -52,22 +50,24 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >**[!UICONTROL System Generated]** 유형을 선택하면 eventID 유형 mixin이 있는 스키마만 사용할 수 있습니다. **[!UICONTROL Rule Based]** 유형을 선택하면 모든 Experience Event 스키마를 사용할 수 있습니다.
+   >**[!UICONTROL System Generated]** 유형을 선택하면 eventID 유형 필드가 있는 스키마만 사용할 수 있습니다. **[!UICONTROL Rule Based]** 유형을 선택하면 모든 Experience Event 스키마를 사용할 수 있습니다.
 
 1. 규칙 기반 이벤트의 경우 **[!UICONTROL Event ID condition]** 필드 내부를 클릭합니다. 단순 표현식 편집기를 사용하여 시스템에서 여정을 트리거할 이벤트를 식별하는 데 사용할 조건을 정의합니다.
    ![](../assets/jo-event6.png)
 
    이 예제에서는 프로필의 도시를 기반으로 조건을 작성했습니다. 즉, 시스템에서 이 조건(**[!UICONTROL City]** 필드 및 **[!UICONTROL Paris]** 값)과 일치하는 이벤트를 수신할 때마다 여정에게 전달됩니다.
 
+   >[!NOTE]
+   >
+   >**[!UICONTROL Event ID condition]**&#x200B;을(를) 정의할 때는 고급 표현식 편집기를 사용할 수 없습니다.
+
 1. 네임스페이스를 추가합니다. 이 단계는 원하는 경우에만 수행하면 되지만, 네임스페이스를 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있습니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. [이 섹션](../event/about-creating.md#select-the-namespace)을 참조하십시오.
-1. 키를 정의합니다. 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 지정합니다. 이 키는 네임스페이스를 선택하면 자동으로 설정되지만 편집할 수 있습니다. 네임스페이스에 해당하는 키는 여정에서 자동으로 선택됩니다. 예를 들어 이메일 네임스페이스를 선택하면 이메일 키가 선택됩니다. [이 섹션](../event/about-creating.md#define-the-event-key)을 참조하십시오.
+1. 프로필 식별자를 정의합니다.페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 지정합니다. 이 키는 네임스페이스를 선택하면 자동으로 설정되지만 편집할 수 있습니다. 네임스페이스에 해당하는 키는 여정에서 자동으로 선택됩니다. 예를 들어 이메일 네임스페이스를 선택하면 이메일 키가 선택됩니다. [이 섹션](../event/about-creating.md#define-the-event-key)을 참조하십시오.
 
    ![](../assets/jo-event7.png)
 
 1. 시스템 생성 이벤트의 경우 조건을 추가할 수 있습니다. 조건을 추가합니다. 조건을 추가하면 시스템은 조건을 충족하는 이벤트만 처리합니다. 조건은 이벤트에 포함된 정보를 기준으로만 추가할 수 있습니다. [이 섹션](../event/about-creating.md#add-a-condition)을 참조하십시오.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-
-   ![](../assets/journey7.png)
 
    이제 이벤트가 구성되었으며 경로에 추가할 수 있는 상태가 되었습니다. 이벤트를 수신하려면 추가 구성 단계를 수행해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
 
@@ -75,7 +75,7 @@ ht-degree: 15%
 
 페이로드 정의를 사용하면 시스템에서 여정의 이벤트에서 받게 될 정보를 선택하고 키와 어떤 사람이 이벤트에 연결되어 있는지 식별할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)를 참조하십시오.
 
-1. 목록에서 XDM 스키마를 선택하고 **[!UICONTROL Payload]** 필드 또는 **[!UICONTROL Edit]** 아이콘을 클릭합니다.
+1. 목록에서 XDM 스키마를 선택하고 **[!UICONTROL Fields]** 필드 또는 **[!UICONTROL Edit]** 아이콘을 클릭합니다.
 
    ![](../assets/journey8.png)
 
@@ -83,23 +83,19 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >XDM 스키마에 &quot;orchestration&quot; mixin을 추가해야 합니다. 이렇게 하면 스키마에 [!DNL Journey Optimizer]에서 작업하는 데 필요한 모든 정보가 포함됩니다.
+   >시스템 생성 이벤트의 경우, XDM 스키마에 &quot;orchestration&quot; 필드 그룹을 추가했는지 확인합니다. 이렇게 하면 스키마에 [!DNL Journey Optimizer]에서 작업하는 데 필요한 모든 정보가 포함됩니다.
 
    ![](../assets/journey9.png)
 
 1. 이벤트에서 받을 필드를 선택합니다. 비즈니스 사용자가 여정에서 활용할 수 있는 필드입니다. 또한 이벤트와 연결된 사람을 식별하는 데 사용할 키도 포함해야 합니다( [이 섹션](../event/about-creating.md#define-the-event-key) 참조).
 
-   ![](../assets/journey10.png)
-
    >[!NOTE]
    >
    >시스템 생성 이벤트의 경우, **[!UICONTROL eventID]** 필드가 선택한 필드 목록에 자동으로 추가되어 [!DNL Journey Optimizer] 이 이벤트를 식별할 수 있습니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [이 섹션](../event/about-creating.md#preview-the-payload)을 참조하십시오.
 
-1. 필요한 필드 선택을 완료했으면 **[!UICONTROL Save]** 을 클릭하거나 **[!UICONTROL Enter]** 키를 누릅니다.
+1. 필요한 필드 선택을 완료했으면 **[!UICONTROL Ok]** 을 클릭하거나 **[!UICONTROL Enter]** 키를 누릅니다.
 
-   ![](../assets/journey11.png)
-
-   선택한 필드 수가 **[!UICONTROL Payload]** 필드에 나타납니다.
+   선택한 필드 수가 **[!UICONTROL Fields]** 필드에 나타납니다.
 
    ![](../assets/journey12.png)
 
@@ -109,7 +105,7 @@ ht-degree: 15%
 
 미리 정의된 네임스페이스 중 하나를 사용하거나 ID 네임스페이스 서비스를 사용하여 새 ID를 만들 수 있습니다. 이 [page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)을 참조하십시오.
 
-기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Key]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. 정의된 ID가 없으면 _identityMap > id_&#x200B;를 기본 키로 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 _identityMap > id_&#x200B;를 사용하여 키가 미리 채워져 **[!UICONTROL Namespace]** 필드 아래에 있습니다.
+기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Profiler identifier]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. 정의된 ID가 없으면 _identityMap > id_&#x200B;를 기본 키로 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 _identityMap > id_&#x200B;를 사용하여 키가 미리 채워져 **[!UICONTROL Namespace]** 필드 아래에 있습니다.
 
 필드를 선택할 때 기본 ID 필드에 태그가 지정됩니다.
 
@@ -122,13 +118,13 @@ ht-degree: 15%
 
 여정 당 하나의 네임스페이스만 허용됩니다. 동일한 여정에서 여러 이벤트를 사용하는 경우 동일한 네임스페이스를 사용해야 합니다. [이 페이지](../building-journeys/journey.md)를 참조하십시오.
 
-## 이벤트 키 {#define-the-event-key} 정의
+## 프로필 식별자 {#define-the-event-key} 정의
 
 키는 이벤트 페이로드 데이터의 일부이며, 시스템에서 이벤트와 연관된 사용자를 식별할 수 있도록 하는 필드 또는 필드 조합입니다. 키는 Experience Cloud ID, CRM ID 또는 이메일 주소와 같은 것일 수 있습니다.
 
 실시간 고객 프로필 데이터베이스에 저장된 데이터를 활용하려면 [실시간 고객 프로필 서비스](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)에서 프로필 ID로 정의한 정보를 이벤트 키로 선택해야 합니다.
 
-이렇게 하면 시스템이 이벤트와 개인 프로필 간의 조정을 수행할 수 있습니다. 기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Key]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. 정의된 ID가 없으면 _identityMap > id_&#x200B;를 기본 키로 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 _identityMap > id_&#x200B;를 사용하여 키가 미리 채워져 **[!UICONTROL Namespace]** 필드 아래에 있습니다.
+이렇게 하면 시스템이 이벤트와 개인 프로필 간의 조정을 수행할 수 있습니다. 기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Profile identifier]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. 정의된 ID가 없으면 _identityMap > id_&#x200B;를 기본 키로 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 _identityMap > id_&#x200B;를 사용하여 키가 미리 채워져 **[!UICONTROL Namespace]** 필드 아래에 있습니다.
 
 필드를 선택할 때 기본 ID 필드에 태그가 지정됩니다.
 
@@ -136,7 +132,7 @@ ht-degree: 15%
 
 CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경우 수동으로 추가해야 합니다.
 
-1. **[!UICONTROL Key]** 필드 내부 또는 연필 아이콘을 클릭합니다.
+1. **[!UICONTROL Profile identifier]** 필드 내부 또는 연필 아이콘을 클릭합니다.
 
    ![](../assets/journey16.png)
 
