@@ -5,7 +5,7 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 4%
@@ -24,10 +24,10 @@ ht-degree: 4%
 
 결정을 내리기 전에 아래 구성 요소가 오퍼 라이브러리에서 만들어졌는지 확인하십시오.
 
-* [배치](../offer-library/creating-placements.md),
-* [컬렉션](../offer-library/creating-collections.md),
-* [개인화된 오퍼](../offer-library/creating-personalized-offers.md),
-* [대체 오퍼](../offer-library/creating-fallback-offers.md).
+* [배치](../offer-library/creating-placements.md)
+* [컬렉션](../offer-library/creating-collections.md)
+* [개인화된 오퍼](../offer-library/creating-personalized-offers.md)
+* [대체 오퍼](../offer-library/creating-fallback-offers.md)
 
 ## 결정 만들기 {#create-activity}
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
    ![](../../assets/activities-name.png)
 
-## 결정 추가 {#add-decisions}
+## 오퍼 추가 {#add-offers}
 
 1. 목록에서 배치를 끌어다 놓아 결정에 추가한 다음 **[!UICONTROL Add collection]** 을 클릭합니다.
 
