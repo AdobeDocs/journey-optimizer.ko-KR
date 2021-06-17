@@ -5,7 +5,7 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 2%
@@ -14,8 +14,6 @@ ht-degree: 2%
 
 
 # 템플릿 언어 및 도우미 함수 {#functionsL}
-
-![](../../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] 템플릿 언어를 사용하여 계산, 데이터 형식 또는 전환, 조건 등과 같은 데이터 작업을 수행하고 개인화 컨텍스트에서 이를 조작할 수 있습니다. [이 페이지](../personalization-syntax.md)에서 개인화 구문 지침을 배웁니다.
 
