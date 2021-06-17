@@ -5,7 +5,7 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 7%
@@ -13,8 +13,6 @@ ht-degree: 7%
 ---
 
 # 이메일 디자인 시작 {#get-started-content-design}
-
-![](assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] 을 사용하여 전자 메일 콘텐츠를 만들 때 다음 작업을 수행할 수 있습니다.
 
