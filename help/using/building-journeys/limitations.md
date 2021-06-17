@@ -5,34 +5,25 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
 # 제한 사항 {#journey-limitations}
 
-![](../assets/do-not-localize/badge.png)
-
 다음은 여정 사용과 관련된 제한 사항입니다.
-
-## 여정 목록 제한 사항
-
-* 여정 목록에서 필터, 검색 및 열 선택은 페이지를 새로 고칠 때 재설정됩니다.
 
 ## 일반 작업 제한 사항
 
 * 전송 제한이 없습니다. 
-* 오류가 발생한 경우 두 번 다시 시도가 체계적으로 수행됩니다. 받은 오류 메시지에 따라 다시 시도 횟수를 조정할 수 없습니다. 
+* 오류가 발생한 경우 세 번 다시 시도가 체계적으로 수행됩니다. 받은 오류 메시지에 따라 다시 시도 횟수를 조정할 수 없습니다. 
 * 기본 제공 **Reaction** 이벤트를 사용하면 기본 작업에 응답할 수 있습니다( 이 [page](../building-journeys/reaction-events.md) 참조). 사용자 지정 작업을 통해 전송된 메시지에 응답하려면 전용 이벤트를 구성해야 합니다. 
-* Adobe Campaign Classic 제품 통합 기능이 없습니다.
 * 두 작업을 동시에 배치할 수 없으므로 두 작업을 하나씩 추가해야 합니다.
 
 ## 메시지 작업 제한 사항
-
-* **메시지** 활동에서는 여정에서 오는 컨텍스트 데이터를 사용할 수 없습니다. 메시지 개인화는 Journey Optimizer에서 메시지를 디자인할 때 직접 수행됩니다.
 
 * 다중 채널 메시지를 추가하면 두 개의 메시지가 전송됩니다.
 
