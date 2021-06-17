@@ -15,7 +15,7 @@ feature: 애플리케이션 설정
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%
@@ -33,7 +33,7 @@ PTR 레코드를 사용하면 수신 메일 서버가 해당 IP 주소가 서버
 
 ## 하위 도메인의 PTR 레코드에 액세스
 
-Customer Journey Management에서 하위 도메인이 위임되면 PTR 레코드가 자동으로 만들어지고 이 하위 도메인과 연결됩니다. **[!UICONTROL Channels]** / **[!UICONTROL PTR records]** 메뉴에서 액세스할 수 있습니다.
+Customer Journey Management에서 하위 도메인이 위임되면 PTR 레코드가 자동으로 만들어지고 이 하위 도메인과 연결됩니다. **[!UICONTROL Channels]** `>` **[!UICONTROL PTR records]** 메뉴에서 액세스할 수 있습니다.
 
 ![](../assets/ptr-records.png)
 
