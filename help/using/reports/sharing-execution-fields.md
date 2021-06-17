@@ -5,18 +5,16 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 13%
 
 ---
 
 # journeyStep 이벤트 작업 실행 필드 {#sharing-execution-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-이 mixin은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
+이 필드 그룹은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
 
 단계에 처리할 작업이 있으면 해당 필드가 이벤트 페이로드에 추가됩니다.
 
