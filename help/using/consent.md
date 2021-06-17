@@ -5,16 +5,14 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a1ce789ad78f70bdb2a1387ffb6c60cb40b8b0bb
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '729'
+ht-degree: 85%
 
 ---
 
 # 옵트아웃 관리 {#consent}
-
-![](assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer]을(를) 사용하여 수신자의 통신 동의를 추적하고 선호도 및 구독을 관리하여 수신자가 브랜드에 참여하는 방법을 이해합니다.<!--Their preferences and subscriptions are handled through Consent management.-->
 
@@ -130,6 +128,20 @@ ht-degree: 100%
 ```
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+
+## 헤더 {#unsubscribe-email}의 링크 가입 해제
+
+수신자의 이메일 클라이언트가 이메일 헤더에 가입 해지됨 링크 표시를 지원하는 경우 [!DNL Journey Optimizer] 을(를) 사용하여 전송된 이메일에 이 링크가 자동으로 포함됩니다.
+
+예를 들어 가입 해지 링크는 Gmail에 다음과 같이 표시됩니다.
+
+![](assets/unsubscribe-email.png)
+
+이메일 클라이언트에 따라 헤더에서 가입 해지 링크를 클릭하면 다음 영향 중 하나가 발생합니다.
+
+* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started)에서 자세한 내용을 알아보십시오.
+
+* 이메일 콘텐츠에서 가입 해지 링크를 클릭하는 것과 동일한 효과가 있습니다.수신자는 옵트아웃을 확인하는 단추가 포함된 랜딩 페이지로 리디렉션됩니다. [이 섹션](#opt-out-management)에서 옵트아웃 관리에 대해 자세히 알아보십시오.
 
 ## 푸시 옵트아웃 관리 {#push-opt-out-management}
 
