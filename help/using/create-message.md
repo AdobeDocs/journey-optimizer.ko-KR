@@ -5,7 +5,7 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%
@@ -13,8 +13,6 @@ ht-degree: 4%
 ---
 
 # 메시지 만들기 {#create-message}
-
-![](assets/do-not-localize/badge.png)
 
 메시지는 왼쪽 탐색 메뉴의 **[!UICONTROL Messages]** 바로 가기에서 사용할 수 있습니다. 모든 메시지가 게시 날짜(게시된 메시지의 경우) 또는 작성 날짜(초안 메시지의 경우)별로 정렬되어 나열됩니다.
 
