@@ -6,10 +6,10 @@ user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
+source-git-commit: ae2d9b0abf35b1e340c9dbd58a448061b1a07219
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 79%
+source-wordcount: '668'
+ht-degree: 69%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 79%
    + [Journey Optimizer 소개](using/get-started.md)
    + [빠른 시작](using/quick-start.md)
    + [사용자 인터페이스](using/user-interface.md)
-   + [알려진 문제](using/known-issues.md)
 + 메시지 {#create-messages}
    + [메시지 시작](using/get-started-content.md)
    + 메시지 만들기 {#create-message}
@@ -35,8 +34,7 @@ ht-degree: 79%
       + [이메일 콘텐츠 가져오기 또는 코드 작성](using/existing-content.md)
       + [이메일 디자이너 콘텐츠 구성 요소 사용](using/content-components.md)
    + 개인화{#personalization}
-      + [시작](using/personalization/personalize.md)
-      + [개인화 영역](using/personalization/personalization-aeras.md)
+      + [시작 개인화](using/personalization/personalize.md)
       + [개인화 구문](using/personalization/personalization-syntax.md)
       + [개인화 유효성 검사](using/personalization/personalization-validation.md)
       + [개인화 사용 사례](using/personalization/personalization-use-case.md)
@@ -84,23 +82,25 @@ ht-degree: 79%
       + [세그먼트 읽기](using/building-journeys/read-segment.md)
       + [메시지](using/building-journeys/journeys-message.md)
       + [사용자 정의 작업](using/building-journeys/using-custom-actions.md)
+      + [Adobe Campaign v7/v8 작업](using/building-journeys/using-adobe-campaign-classic.md)
       + [점프](using/building-journeys/jump.md)
       + [프로필 업데이트](using/building-journeys/update-profiles.md)
    + 사용 사례 {#journey-use-cases}
       + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
+      + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
 + 추적 및 모니터링 {#reporting}
    + [메시지 추적](using/message-tracking.md)
    + [메시지 모니터링](using/message-monitoring.md)
    + 라이브 보고서 {#live-report}
-      + [개요](using/reports/live-report.md)
+      + [라이브 보고서 대시보드 액세스](using/reports/live-report.md)
       + [여정 라이브 보고서](using/reports/journey-live-report.md)
       + [이메일 라이브 보고서](using/reports/email-live-report.md)
       + [라이브 보고서 푸시](using/reports/push-live-report.md)
    + 글로벌 보고서 {#global-report}
-      + [개요](using/reports/global-report.md)
+      + [글로벌 보고서 대시보드 액세스](using/reports/global-report.md)
       + [여정 글로벌 보고서](using/reports/journey-global-report.md)
       + [이메일 글로벌 보고서](using/reports/email-global-report.md)
-      + [글로벌 보고서 푸시](using/reports/push-global-report.md)
+      + [푸시 글로벌 보고서](using/reports/push-global-report.md)
    + 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [여정 필드](using/reports/sharing-journey-fields.md)
@@ -112,19 +112,20 @@ ht-degree: 79%
       + [전달성 시작](using/deliverability.md)
       + [제외 목록](using/suppression-list.md)
 + 의사 결정 관리 {#offer-decisioniong}
-   + 의사 결정 관리 시작 {#get-started}
+   + 의사 결정 관리 {#get-started} 시작
       + [의사 결정 관리](using/offers/get-started/starting-offer-decisioning.md)
       + [사용자 인터페이스](using/offers/get-started/user-interface.md)
-      + [용어집](using/offers/get-started/glossary.md)
-   + 오퍼 만들기 및 관리 {#managing-offers-in-the-offer-library}
-      + [오퍼를 만드는 주요 단계](using/offers/offer-library/key-steps.md)
+      + [오퍼를 만들고 관리하는 주요 단계](using/offers/offer-library/key-steps.md)
+      + [사용 사례:이메일에 오퍼 삽입](using/offers/offers-e2e.md)
+   + 구성 요소 {#create-components} 만들기
       + [배치 만들기](using/offers/offer-library/creating-placements.md)
       + [의사 결정 규칙 만들기](using/offers/offer-library/creating-decision-rules.md)
       + [태그 만들기](using/offers/offer-library/creating-tags.md)
+      + [등급 수식 만들기](using/offers/offer-library/create-ranking-formulas.md)
+   + 오퍼 만들기 및 관리 {#managing-offers-in-the-offer-library}
       + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
       + [대체 오퍼 만들기](using/offers/offer-library/creating-fallback-offers.md)
       + [컬렉션 만들기](using/offers/offer-library/creating-collections.md)
-      + [등급 수식 만들기](using/offers/offer-library/create-ranking-formulas.md)
    + 의사 결정을 만들고 관리하기 {#create-manage-activities}
       + [의사 결정 만들기](using/offers/offer-activities/create-offer-activities.md)
       + [의사 결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
@@ -190,10 +191,9 @@ ht-degree: 79%
 + 구성{#get-started}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
    + 메시지 구성 {#configuration}
-      + [기술 설정](using/administration/administration.md)
-      + [메시지 사전 설정 만들기](using/configuration/message-presets.md)
-      + [푸시 채널 구성](using/push-configuration.md)
-      + [푸시 알림 구성](using/push-gs.md)
+      + 푸시 알림 구성{#push-config}
+         + [푸시 구성 시작](using/push-gs.md)
+         + [푸시 알림 채널 구성](using/push-configuration.md)
       + 전자 메일 구성 {#email-config}
          + 하위 도메인 {#delegate-subdomains} 위임
             + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
@@ -206,6 +206,7 @@ ht-degree: 79%
             + [제외 목록 관리](using/configuration/manage-suppression-list.md)
             + [다시 시도](using/configuration/retries.md)
          + [전자 메일 기본 주소 변경](using/configuration/primary-email-addresses.md)
+      + [메시지 사전 설정 만들기](using/configuration/message-presets.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
       + [외부 시스템과 통합](using/configuration/external-systems.md)
@@ -225,6 +226,7 @@ ht-degree: 79%
       + 작업 구성 {#action-journeys}
          + [작업 정보](using/action/action.md)
          + [작업 구성](using/action/about-custom-action-configuration.md)
+         + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
 + 액세스 제어 {#administration}
    + [액세스 제어 개요](using/administration/permissions-overview.md)
    + [내장 제품 프로필](using/administration/ootb-product-profiles.md)
