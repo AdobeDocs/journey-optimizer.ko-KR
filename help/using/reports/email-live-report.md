@@ -5,7 +5,7 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 2%
@@ -13,8 +13,6 @@ ht-degree: 2%
 ---
 
 # 이메일 라이브 보고서 {#email-live-report}
-
-![](../assets/do-not-localize/badge.png)
 
 이메일 **[!UICONTROL Live report]**&#x200B;은(는) 특정 이메일 게재만 타겟팅합니다.
 
