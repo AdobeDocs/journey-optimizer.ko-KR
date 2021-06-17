@@ -5,18 +5,16 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 9%
 
 ---
 
 # journeysteps 이벤트 공통 필드 {#sharing-common-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-이 mixin은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
+이 필드 그룹은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
 
 이러한 필드는 [!DNL Journey Optimizer]이 Adobe Experience Platform에 보내는 일반적인 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 더 구체적인 필드가 사용자 지정 작업 및 데이터 보강 용도로 사용됩니다.
 
