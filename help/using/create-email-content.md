@@ -5,26 +5,24 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1456'
 ht-degree: 1%
 
 ---
 
 # 사용자 인터페이스 {#create-email-content}에서 이메일 콘텐츠를 디자인합니다.
 
-![](assets/do-not-localize/badge.png)
-
 [이(가) 메시지](create-message.md)을(를) 만들었으면 전자 메일 콘텐츠 만들기를 시작할 수 있습니다.
 
-1. 새로 만든 메시지에서 **[!UICONTROL Edit content]** 섹션에서 **[!UICONTROL Email designer]** 을 선택합니다.
+1. 새로 만든 메시지에서 **[!UICONTROL Body]** 섹션에서 **[!UICONTROL Email designer]** 을 선택합니다.
 
    ![](assets/import-html_1.png)
 
 1. 이메일 디자이너 홈페이지에서 다음 옵션 중 이메일을 디자인할 방법을 선택합니다.
 
-   * 전자 메일 디자이너 기능을 사용하여 전자 메일 콘텐츠를 만들려면 **[!UICONTROL Design from scratch]** 을 선택합니다.
+   * 전자 메일 디자이너 기능을 사용하여 전자 메일 콘텐츠를 만들려면 **[!UICONTROL Design from scratch]** 을 선택합니다. [자세히 알아보기](#design-scratch)
 
    * 기본 제공 템플릿 목록에서 이메일을 만들려면 **[!UICONTROL Start from template]** 을 선택합니다. 다른 템플릿은 만들 수 없습니다.
 
@@ -34,13 +32,39 @@ ht-degree: 1%
 
    ![](assets/email_designer_25.png)
 
-## 처음부터 디자인
+## 처음부터 디자인 {#design-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="구조 구성 요소 정보"
+>abstract="구조 구성 요소는 이메일의 레이아웃을 정의합니다."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="이메일 열 정의"
+>abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 이메일 레이아웃을 쉽게 정의할 수 있습니다."
+
+이메일 디자이너를 사용하면 이메일 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하면 몇 초 이내에 이메일 모양을 디자인할 수 있습니다.
 
 이메일 디자이너를 사용하여 이메일 콘텐츠 빌드를 시작하려면 아래 단계를 수행하십시오.
 
 1. **[!UICONTROL Design from scratch]** 옵션을 선택한 후 **[!UICONTROL Structure components]** 을(를) 끌어다 놓아 전자 메일 레이아웃을 정의함으로써 전자 메일 콘텐츠 디자인을 시작합니다.
 
+   >[!NOTE]
+   >
+   >열 스택은 모든 이메일 프로그램과 호환되지 않습니다. 지원되지 않는 경우에는 열이 스택되지 않습니다.
+   >
+   >전자 메일에 배치되면 이미 내부에 컨텐츠 구성 요소나 조각을 배치하지 않은 한 구성 요소를 이동하거나 제거할 수 없습니다.
+
    ![](assets/email_designer_2.png)
+
+1. 필요한 만큼 **[!UICONTROL Structure components]**&#x200B;을 추가합니다.
+
+   **[!UICONTROL n:n column]** 구성 요소를 선택하여 선택한 열의 수를 정의합니다(3과 10 사이). 각 열의 맨 아래에서 화살표를 이동하여 각 열의 너비를 정의할 수도 있습니다.
+
+   >[!NOTE]
+   >
+   >각 열 크기는 구조 구성 요소의 전체 너비의 10% 이하일 수 없습니다. 비어 있지 않은 열은 제거할 수 없습니다.
 
 1. **[!UICONTROL Content components]** 드롭다운에서 구조 구성 요소에 필요한 만큼 **[!UICONTROL Content components]** 를 추가할 수 있습니다. [콘텐츠 구성 요소에 대해 자세히 알아보십시오](content-components.md).
 
@@ -64,6 +88,10 @@ ht-degree: 1%
 
    ![](assets/email_designer_7.png)
 
+   >[!NOTE]
+   >
+   >[이 페이지](message-tracking.md)의 링크 및 메시지 추적에 대해 자세히 알아보십시오.
+
 1. 필요한 경우 고급 메뉴에서 **[!UICONTROL Switch to code editor]**&#x200B;을 클릭하여 이메일을 더 개인화하기 위해 코드 편집기로 전환할 수 있습니다. 코드 편집기에 대한 자세한 내용은 이 [page](existing-content.md#import-raw-html-code)을 참조하십시오.
 
    >[!NOTE]
@@ -72,7 +100,9 @@ ht-degree: 1%
 
    ![](assets/email_designer_26.png)
 
-1. 전자 메일 렌더링을 확인하려면 **[!UICONTROL Preview]** 을 클릭하십시오. 데스크탑 또는 모바일 보기를 선택할 수 있습니다.
+1. 전자 메일 렌더링을 확인하려면 **[!UICONTROL Show preview]** 을 클릭하십시오. 데스크탑 또는 모바일 보기를 선택할 수 있습니다.
+
+   이메일을 미리 보는 방법에 대한 자세한 내용은 [메시지 미리 보기 및 테스트](preview.md)를 참조하십시오.
 
    ![](assets/email_designer_8.png)
 
@@ -80,42 +110,35 @@ ht-degree: 1%
 
 이제 메시지에 이메일 콘텐츠를 사용할 수 있습니다. [메시지를 보내는 방법을 알아봅니다](publish-manage-message.md).
 
-## 전자 메일 구조 {#defining-the-email-structure} 정의
+## 전자 메일 {#generate-text-version} 의 텍스트 버전을 만듭니다.
 
->[!CONTEXTUALHELP]
->id="ac_structure_components"
->title="구조 구성 요소 정보"
->abstract="구조 구성 요소는 이메일의 레이아웃을 정의합니다."
+HTML 콘텐츠를 표시할 수 없을 때 사용되는 이메일 본문의 텍스트 버전을 만드는 것이 좋습니다.
 
->[!CONTEXTUALHELP]
->id="ac_edition_columns"
->title="이메일 열 정의"
->abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 이메일 레이아웃을 쉽게 정의할 수 있습니다."
+기본적으로 이메일 디자이너는 개인화 필드를 포함하여 **[!UICONTROL Plain text]** 버전의 이메일을 만듭니다. 이 버전은 자동으로 생성되어 컨텐츠의 HTML 버전과 동기화됩니다.
 
-이메일 디자이너를 사용하면 이메일 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하면 몇 초 이내에 이메일 모양을 디자인할 수 있습니다.
+일반 텍스트 버전에 다른 콘텐츠를 사용하려면 아래 단계를 따르십시오.
 
-전자 메일 구조를 편집하려면 다음을 수행하십시오.
+1. 이메일에서 **[!UICONTROL Plain text]** 탭을 선택합니다.
 
-1. 기존 콘텐츠를 열거나 새 이메일 콘텐츠를 만듭니다.
-1. 왼쪽의 **+** 아이콘을 선택하여 **[!UICONTROL Structure components]**&#x200B;에 액세스합니다.
-1. 전자 메일 모양을 만드는 데 필요한 구조 구성 요소를 끌어다 놓습니다.
-파란색 선은 구조 구성 요소를 삭제하기 전에 정확한 위치를 구체화합니다. 위, 다른 구성 요소 사이 또는 아래에 놓을 수 있지만 내부에 놓을 수는 없습니다.
+   ![](assets/text_version_3.png)
 
-   >[!NOTE]
+1. 동기화를 사용하지 않으려면 **[!UICONTROL Sync with HTML]** 토글을 사용하십시오.
+
+   ![](assets/text_version_1.png)
+
+1. 선택 내용을 확인하려면 확인 표시를 클릭합니다.
+
+   ![](assets/text_version_2.png)
+
+1. 그런 다음 일반 텍스트 버전을 원하는 대로 편집할 수 있습니다.
+
+>[!CAUTION]
+>
+>* **[!UICONTROL Plain text]** 보기에서 변경한 내용이 HTML 보기에 반영되지 않습니다.
    >
-   >열 스택은 모든 이메일 프로그램과 호환되지 않습니다. 지원되지 않는 경우에는 열이 스택되지 않습니다.
    >
-   >전자 메일에 배치되면 이미 내부에 컨텐츠 구성 요소나 조각을 배치하지 않은 한 구성 요소를 이동하거나 제거할 수 없습니다.
+* 일반 텍스트 콘텐츠를 업데이트한 후 **[!UICONTROL Sync with HTML]** 옵션을 다시 활성화하면 변경 내용이 유실되고 HTML 버전에서 생성된 텍스트 콘텐츠로 바뀝니다.
 
-1. 하나 이상의 열로 구성된 몇 가지 구조 구성 요소를 사용할 수 있습니다.
-
-   **[!UICONTROL n:n column]** 구성 요소를 선택하여 선택한 열의 수를 정의합니다(3과 10 사이). 각 열의 맨 아래에서 화살표를 이동하여 각 열의 너비를 정의할 수도 있습니다.
-
-   >[!NOTE]
-   >
-   >각 열 크기는 구조 구성 요소의 전체 너비의 10% 이하일 수 없습니다. 비어 있지 않은 열은 제거할 수 없습니다.
-
-구조가 정의되면 컨텐츠 조각 및 구성 요소를 이메일에 추가할 수 있습니다.
 
 ## 사전 헤더 사용 {#preheader}
 
@@ -124,15 +147,33 @@ ht-degree: 1%
 >title="사전 헤더 사용"
 >abstract="사전 헤더를 사용하면 간단한 요약 텍스트를 구성하여 보다 나은 전자 메일을 추적하고 사용자 지정할 수 있습니다."
 
-사전 헤더는 이메일 클라이언트의 이메일을 볼 때 제목란을 따르는 간단한 요약 텍스트입니다. 사전 머리글은 이메일을 더 잘 추적하고 사용자 지정하는 데 도움이 될 수 있습니다.
-
-**[!UICONTROL Preheader]** 편집 상자를 선택하고 콘텐츠를 추가합니다.
-
-사전 헤더 컨텐츠에 **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** 또는 **[!UICONTROL Personalization fields]**&#x200B;를 추가할 수 있습니다.
-
 >[!NOTE]
 >
 >사전 헤더는 모든 이메일 클라이언트와 호환되지 않습니다. 지원되지 않는 경우 preheader가 표시되지 않습니다.
+
+사전 헤더는 이메일 클라이언트의 이메일을 볼 때 제목란을 따르는 간단한 요약 텍스트입니다. 사전 머리글은 이메일을 더 잘 추적하고 사용자 지정하는 데 도움이 될 수 있습니다.
+
+1. 이메일 디자이너에서 **[!UICONTROL Structure components]**&#x200B;을(를) 추가하여 이메일 디자인을 시작합니다.
+
+   ![](assets/preheader_1.png)
+
+1. **[!UICONTROL Body settings]** 오른쪽 창에서 **[!UICONTROL Preheader]** 필드 옆에 있는 **편집**&#x200B;을 클릭하여 콘텐츠를 추가합니다.
+
+   ![](assets/preheader_2.png)
+
+1. 사전 헤더를 추가합니다. **[!UICONTROL Add personalization]** 아이콘을 클릭하여 개인화할 수 있습니다.
+
+   ![](assets/preheader_3.png)
+
+1. **[!UICONTROL Edit Personalization]** 창에서 **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** 또는 **[!UICONTROL Personalization fields]**&#x200B;를 추가할 수 있습니다.
+
+1. **[!UICONTROL Validate]** 을 클릭하여 개인화 구문을 확인합니다.
+
+   ![](assets/preheader_4.png)
+
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+이제 이메일에 대해 사전 헤더가 구성되었습니다.
 
 ## 배경 설정 {#about-backgrounds}
 
@@ -172,7 +213,7 @@ ht-degree: 1%
 
    열 수준에서 배경 이미지를 설정할 수도 있지만 거의 사용되지 않습니다.
 
-### 예:세로 정렬 및 패딩 조정 {#example--adjusting-vertical-alignment-and-padding}
+## 세로 정렬 및 패딩 {#adjusting-vertical-alignment-and-padding} 조정
 
 3개의 열로 구성된 구조 구성 요소 내에서 패딩 및 세로 정렬을 조정하려고 합니다. 이렇게 하려면 아래 단계를 수행합니다:
 
@@ -220,34 +261,5 @@ ht-degree: 1%
 
 그러면 선택한 요소에 스타일이 적용됩니다. 하위 요소에 특정 스타일 속성이 정의되어 있지 않으면 상위 요소의 스타일이 상속됩니다.
 
-
-## 전자 메일 {#generate-text-version} 의 텍스트 버전을 만듭니다.
-
-HTML 콘텐츠를 표시할 수 없을 때 사용되는 이메일 본문의 텍스트 버전을 만드는 것이 좋습니다.
-
-기본적으로 이메일 디자이너는 개인화 필드를 포함하여 **[!UICONTROL Plain text]** 버전의 이메일을 만듭니다. 이 버전은 자동으로 생성되어 컨텐츠의 HTML 버전과 동기화됩니다.
-
-일반 텍스트 버전에 다른 콘텐츠를 사용하려면 아래 단계를 따르십시오.
-
-1. 이메일에서 **[!UICONTROL Plain text]** 탭을 선택합니다.
-
-1. 동기화를 사용하지 않으려면 **[!UICONTROL Sync with HTML]** 토글을 사용하십시오.
-
-   ![](assets/text_version_1.png)
-
-1. 선택 내용을 확인하려면 확인 표시를 클릭합니다.
-
-   ![](assets/text_version_2.png)
-
-1. 그런 다음 일반 텍스트 버전을 원하는 대로 편집할 수 있습니다.
-
->[!CAUTION]
->
->* **[!UICONTROL Plain text]** 보기에서 변경한 내용이 HTML 보기에 반영되지 않습니다.
-   >
-   >
-* 일반 텍스트 콘텐츠를 업데이트한 후 **[!UICONTROL Sync with HTML]** 옵션을 다시 활성화하면 변경 내용이 유실되고 HTML 버전에서 생성된 텍스트 콘텐츠로 바뀝니다.
-
->
 
 
