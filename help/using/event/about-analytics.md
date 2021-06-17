@@ -5,22 +5,20 @@ feature: 이벤트
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
 # Adobe Analytics 데이터 활용{#analytics-data}
 
-![](../assets/do-not-localize/badge.png)
+이미 플랫폼에 스트리밍 및 캡처하고 있는 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 여정을 트리거하고 고객을 위한 경험을 자동화할 수 있습니다.
 
 >[!NOTE]
 >
 >이 섹션은 Adobe Analytics 데이터를 사용해야 하는 규칙 기반 이벤트 및 고객에게만 적용됩니다.
-
-이미 플랫폼에 스트리밍 및 캡처하고 있는 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 여정을 트리거하고 고객을 위한 경험을 자동화할 수 있습니다.
 
 이를 수행하려면 Adobe Experience Platform에서 활용할 보고서 세트를 활성화해야 합니다.
 
@@ -34,4 +32,4 @@ ht-degree: 1%
 
 ![](../assets/jo-event9.png)
 
-Adobe Analytics 소스 커넥터에 대한 자세한 내용은 [설명서]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 및 [자습서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.
+[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 및 [자습서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)에서 Adobe Analytics 소스 커넥터에 대해 자세히 알아보십시오.
