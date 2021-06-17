@@ -16,7 +16,7 @@ feature: 컨트롤 그룹
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 13%
@@ -24,8 +24,6 @@ ht-degree: 13%
 ---
 
 # 사용자 관리 개요 {#permissions-overview}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] 여러 사용자에게 할당된 권한을 정의하고 관리할 수 있습니다. 권한은 제품 내 기능에 대한 액세스를 승인하거나 거부하는 권한 및 제한 세트입니다.
 
