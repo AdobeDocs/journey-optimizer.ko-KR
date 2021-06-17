@@ -5,16 +5,14 @@ feature: 데이터 소스
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 14%
 
 ---
 
 # 데이터 소스 구성 {#configure-data-source}
-
-![](../assets/do-not-localize/badge.png)
 
 데이터 소스를 구성하는 주요 단계는 다음과 같습니다.
 
@@ -22,9 +20,7 @@ ht-degree: 14%
 >
 >데이터 소스는 항상 **기술 사용자**&#x200B;가 구성해야 합니다.
 
-1. **[!UICONTROL Admin]** / **[!UICONTROL Data Sources]** 메뉴를 선택합니다.
-
-   데이터 소스 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../user-interface.md)를 참조하십시오.
+1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]** 을 선택합니다. **[!UICONTROL Data Sources]** 섹션에서 **[!UICONTROL Manage]** 를 클릭합니다. 데이터 소스 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../user-interface.md)를 참조하십시오.
 
    ![](../assets/journey18.png)
 
