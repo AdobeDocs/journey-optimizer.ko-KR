@@ -5,16 +5,14 @@ feature: 이벤트
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 6e2526bd3c80ad2bff59502c6537a3e2213f7bf7
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 53%
+source-wordcount: '775'
+ht-degree: 49%
 
 ---
 
 # 이벤트 정보{#concept_gfj_fqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -51,6 +49,8 @@ ht-degree: 53%
    >최대 가용량 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 주어진 조직(ORG)에 대해 처리할 수 있는 적격한 이벤트 수를 초당 5000개로 제한합니다. Journey Optimizer SLA에 해당합니다. 이 [페이지](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)를 참조하십시오.
 
 * **시스템 생성** 이벤트: 이러한 이벤트에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다.
+
+Journey Optimizer을 사용하려면 이벤트를 스트리밍하거나 Adobe Experience Platform으로 배치해야 합니다. 이 데이터가 반드시 실시간 프로필로 이동할 필요는 없습니다. 별도의 여정에서 세그멘테이션 또는 조회에 이벤트를 사용하려면 프로필에 데이터 세트를 활성화하는 것이 좋습니다.
 
 ## 데이터 주기 {#section_r1f_xqt_pgb}
 
