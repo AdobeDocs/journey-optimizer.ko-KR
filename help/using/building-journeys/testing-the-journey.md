@@ -5,16 +5,14 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1620'
 ht-degree: 2%
 
 ---
 
 # 여정 테스트{#testing_the_journey}
-
-![](../assets/do-not-localize/badge.png)
 
 여정을 테스트하기 전에 모든 오류를 해결해야 합니다. [이 섹션](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)을 참조하십시오.
 
@@ -61,6 +59,7 @@ ht-degree: 2%
 * 테스트 모드를 비활성화하면 이전에 테스트 모드에 들어갔거나 현재 테스트 모드에 있는 모든 사용자의 여정이 비어 있게 됩니다. 또한 보고를 지웁니다.
 * 테스트 모드를 필요한 만큼 활성화/비활성화할 수 있습니다.
 * 테스트 모드가 활성화되면 여정을 수정할 수 없습니다. 테스트 모드에서는 여정을 직접 게시할 수 있으며, 이전에 테스트 모드를 비활성화할 필요가 없습니다.
+* 분할에 도달하면 위쪽 분기가 항상 선택됩니다. 테스트에서 다른 경로를 선택하도록 하려면 분할 분기의 위치를 재구성할 수 있습니다.
 
 ## 이벤트 실행 {#firing_events}
 
