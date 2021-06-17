@@ -5,16 +5,14 @@ feature: 스키마
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
 
 # [!DNL Journey Optimizer] 이벤트에 대한 ExperienceEvent 스키마 정보
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] 이벤트는 스트리밍 수집을 통해 Adobe Experience Platform으로 전송되는 XDM 경험 이벤트입니다.
 
@@ -32,7 +30,7 @@ ht-degree: 1%
 
    ![](../assets/schema2.png)
 
-* 시스템에서 생성한 이벤트의 경우, 스키마에 Orchestration eventID mixin이 포함되어야 합니다. [!DNL Journey Optimizer] 이 필드를 사용하여 여정에 사용되는 이벤트를 식별합니다.
+* 시스템에서 생성한 이벤트의 경우, 스키마에 Orchestration eventID 필드 그룹이 포함되어야 합니다. [!DNL Journey Optimizer] 이 필드를 사용하여 여정에 사용되는 이벤트를 식별합니다.
 
    ![](../assets/schema3.png)
 
