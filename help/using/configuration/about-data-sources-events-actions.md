@@ -16,10 +16,10 @@ feature: 애플리케이션 설정
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 344bcff33895867d650f98b778cdf76c52a4b75e
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 19%
+source-wordcount: '318'
+ht-degree: 60%
 
 ---
 
@@ -42,3 +42,17 @@ ht-degree: 19%
 ## 작업
 
 Journey Optimizer 메시지 기능 기본 제공:콘텐츠를 디자인하고 메시지를 게시하기만 하면 됩니다. 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../../using/action/action.md)
+
+## Adobe Experience Platform 필드를 통한 검색 {#friendly-names-display}
+
+[이벤트 페이로드](../event/about-creating.md#define-the-payload-fields)와 [필드 그룹 페이로드](../datasource/configure-data-sources.md#define-field-groups)를 정의하고 [표현식 편집기](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ko)에서 필드를 선택할 때는 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
+
+스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 입력하면 사용자에게 친숙한 이름이 표시 이름 대신 표시됩니다. &quot;eVars&quot; 및 일반 필드로 작업할 때 특히 유용합니다. API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하십시오.
+
+![](../assets/xdm-from-descriptors.png)
+
+친숙한 이름을 사용할 수 있으면 필드가 `<friendly-name>(<name>)`으로 표시됩니다. 친숙한 이름을 사용할 수 없으면 `<display-name>(<name>)`과 같이 표시 이름이 표시됩니다. 어떤 이름도 정의되어 있지 않으면 필드의 기술적 이름(`<name>`)만 표시됩니다.
+
+>[!NOTE]
+>
+>스키마 조합에서 필드를 선택하면 친숙한 이름이 검색되지 않습니다.
