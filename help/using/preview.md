@@ -5,16 +5,14 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # 메시지 미리 보기 및 테스트{#preview-and-proof}
-
-![](assets/do-not-localize/badge.png)
 
 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. [개인화된 컨텐츠](personalization/personalize.md)를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 컨텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
 
@@ -22,7 +20,10 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다. [이 페이지](building-journeys/creating-test-profiles.md)에서 테스트 프로필을 만드는 방법을 알아봅니다.
+>메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다.
+>
+>[이 페이지](building-journeys/creating-test-profiles.md)에서 테스트 프로필을 만드는 방법을 알아봅니다.
+
 
 메시지 콘텐츠를 테스트하려면 다음을 수행해야 합니다.
 
@@ -33,13 +34,18 @@ ht-degree: 0%
 
 또한 **Litmus** 계정을 [!DNL Journey Optimizer]에 활용하여 인기 있는 이메일 클라이언트에서 **이메일 렌더링**&#x200B;을 즉시 미리 봅니다. 그런 다음 모든 받은 편지함에서 전자 메일 콘텐츠가 제대로 표시되고 제대로 작동하는지 확인할 수 있습니다. [이 섹션에서 리트머스 전자 메일 미리 보기의 잠금을 해제하는 방법을 알아봅니다](#email-rendering)
 
+>[!CAUTION]
+>
+>메시지를 미리 보거나 증명을 보낼 때 프로필 개인화 데이터만 표시됩니다. 이벤트 정보와 같은 컨텍스트 데이터를 기반으로 한 개인화는 여정 컨텍스트에서만 테스트할 수 있습니다. [이 사용 사례](personalization/personalization-use-case.md)에서 개인화를 테스트하는 방법을 알아봅니다.
+
+
 ## 테스트 프로필 선택{#select-test-profiles}
 
 정의된 타겟팅 기준과 일치하지 않는 추가 수신자를 타겟팅하려면 [테스트 프로필](building-journeys/creating-test-profiles.md)을 사용하십시오.
 
 테스트 프로필을 선택하려면 아래 단계를 수행하십시오.
 
-1. 메시지 인터페이스 또는 전자 메일 디자이너에서 **[!UICONTROL Preview]** 단추를 클릭하여 테스트 프로필 선택에 액세스합니다.
+1. 메시지 인터페이스 또는 전자 메일 디자이너에서 **[!UICONTROL Show preview]** 단추를 클릭하여 테스트 프로필 선택에 액세스합니다.
 
    ![](assets/email-preview-button.png)
 
@@ -124,6 +130,10 @@ ht-degree: 0%
    ![](assets/send-proof-view.png)
 
 메시지 콘텐츠를 수정한 후 증명을 보내야 합니다.
+
+>[!NOTE]
+>
+> 테스트 프로필로 전송된 증명의 경우 미러 페이지에 대한 링크가 활성화되지 않습니다. 최종 메시지에서만 활성화됩니다.
 
 ## 전자 메일 렌더링{#email-rendering}
 
