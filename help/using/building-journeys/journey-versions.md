@@ -5,7 +5,7 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 4%
@@ -13,8 +13,6 @@ ht-degree: 4%
 ---
 
 # 여정 버전{#concept_ldc_k55_zgb}
-
-![](../assets/do-not-localize/badge.png)
 
 여정 목록에 모든 여정 버전이 버전 번호와 함께 표시됩니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
 
