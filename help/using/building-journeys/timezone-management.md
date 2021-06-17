@@ -5,16 +5,14 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '280'
 ht-degree: 3%
 
 ---
 
 # 시간대 관리 {#timezone_management}
-
-![](../assets/do-not-localize/badge.png)
 
 여정의 [속성](../building-journeys/journey-gs.md#change-properties)에서 시간대를 정의할 수 있습니다.
 
@@ -29,11 +27,15 @@ ht-degree: 3%
 
 시간대를 선택하거나 사용자 프로필에 정의된 시간대를 사용하도록 선택할 수 있습니다.
 
+>[!NOTE]
+>
+>프로필 시간대는 **기본 설정 세부 정보** 필드 그룹에 있는 **timeZone** 필드와 함께 작동합니다.
+
 ## 고정 시간대 정의 {#fixed-timezone}
 
 시간대를 수정할 수도 있습니다. 사전 정의된 시간대를 지우고 드롭다운 목록에서 시간대를 선택합니다. 고정 시간대를 사용하는 경우 여정을 입력하는 모든 개인에게도 이 시간대가 동일합니다.
 
-이렇게 하려면 **[!UICONTROL Properties]**&#x200B;에서 시간대를 선택합니다.
+이렇게 하려면 **[!UICONTROL Journey Properties]** 창에서 시간대를 선택합니다.
 
 ![](../assets/journey72.png)
 
@@ -45,7 +47,7 @@ Adobe Experience Platform 프로필에 시간대가 정의된 경우 여정에�
 
 개별 프로필에 시간대가 포함되어 있지 않으면 검색된 시간대가 시간대 필드에 정의된 시간대가 됩니다.
 
-이렇게 하려면 **[!UICONTROL Properties]**&#x200B;에서 **[!UICONTROL Use Profile timezone in timers and conditions]**&#x200B;을(를) 선택합니다.
+이렇게 하려면 **[!UICONTROL Properties]**&#x200B;에서 **[!UICONTROL Use Profile timezone in waits and conditions]**&#x200B;을(를) 선택합니다.
 
 ![](../assets/journey73.png)
 
