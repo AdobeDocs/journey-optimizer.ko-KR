@@ -5,21 +5,19 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
 
-# 라이브 보고서 {#live-report}
+# 라이브 보고서 {#live-report} 시작
 
-![](../assets/do-not-localize/badge.png)
+내장된 대시보드에서 **[!UICONTROL Live report]**을(를) 사용하여 여정 및 메시지의 영향과 성능을 실시간으로 측정하고 시각화할 수 있습니다.
+데이터는 게재를 전송하거나 여정이 실행되는 즉시 **[!UICONTROL Live report]**&#x200B;에서 사용할 수 있습니다.
 
-**[!UICONTROL Live report]**을 사용하면 내장된 대시보드를 사용하여 여정 및 메시지 성능의 효과를 실시간으로 측정하고 시각화할 수 있습니다.
-게재 또는 여정이 실행되는 즉시 **[!UICONTROL Live report]**&#x200B;에서 게재 데이터를 사용할 수 있습니다.
-
-* 여정에서 여정 또는 게재를 타깃팅하려면 **[!UICONTROL Journeys]** 메뉴에서 여정에 액세스하고 **[!UICONTROL Live report]** 아이콘을 클릭합니다. 그런 다음 여정, 이메일 및 푸시 라이브 보고서를 찾을 수 있습니다.
+* 여정 컨텍스트에서 여정 또는 게재를 타깃팅하려면 **[!UICONTROL Journeys]** 메뉴에서 여정에 액세스하고 **[!UICONTROL Live report]** 아이콘을 클릭합니다. 그런 다음 여정, 이메일 및 푸시 라이브 보고서를 찾을 수 있습니다.
 
    ![](../assets/report_journey.png)
 
@@ -27,11 +25,11 @@ ht-degree: 2%
 
    ![](../assets/report_2.png)
 
-## 대시보드 수정 {#modify-dashboard}
+## 대시보드 사용자 지정 {#modify-dashboard}
 
 위젯의 크기 조정 또는 제거를 통해 각 보고 대시보드를 수정할 수 있습니다. 위젯을 변경하면 현재 사용자의 대시보드에만 영향을 줍니다. 다른 사용자는 자신의 대시보드 또는 기본적으로 설정된 대시보드를 보게 됩니다.
 
-1. 라이브 보고서에서 **[!UICONTROL Modify dashboard]** 을 클릭합니다.
+1. 라이브 보고서에서 **[!UICONTROL Modify]** 을 클릭합니다.
 
    ![](../assets/report_modify_1.png)
 
