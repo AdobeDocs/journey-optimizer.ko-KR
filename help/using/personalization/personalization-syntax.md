@@ -5,17 +5,15 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 74662ee07422d507889788a790547c774b65f944
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '559'
 ht-degree: 5%
 
 ---
 
 
 # 개인화 구문 {#personalization-syntax}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer]의 개인화는 Handlebars라는 템플릿 구문을 기반으로 합니다.
 Handlebars 구문에 대한 전체 설명은 [HandlebarsJS 설명서](https://handlebarsjs.com/)를 참조하십시오.
@@ -24,14 +22,12 @@ Handlebars 구문에 대한 전체 설명은 [HandlebarsJS 설명서](https://ha
 
 단순 표현식 샘플:
 
-```
-{{profile.person.name}}
-```
+`{{profile.person.name}}`
 
 위치:
 
-* **** profile은 네임스페이스입니다.
-* **person.** name은 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko).
+* `profile` 는 네임스페이스입니다.
+* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko).
 
 ## 구문 일반 규칙
 
@@ -59,15 +55,19 @@ Handlebars에서 {{expression}}에서 반환되는 값은 **HTML-escape**&#x200B
 
 **샘플 참조:**
 
-```
-{{profile.person.name.fullName}}
-{{profile.person.name.firstName}}
-{{profile.person.gender}}
-{{profile.personalEmail.address}}
-{{profile.mobilePhone.number}}
-{{profile.homeAddress.city}}
-{{profile.faxPhone.number}}
-```
+`{{profile.person.name.fullName}}`
+
+`{{profile.person.name.firstName}}`
+
+`{{profile.person.gender}}`
+
+`{{profile.personalEmail.address}}`
+
+`{{profile.mobilePhone.number}}`
+
+`{{profile.homeAddress.city}}`
+
+`{{profile.faxPhone.number}}`
 
 ## 세그먼트{#perso-segments}
 
@@ -84,20 +84,18 @@ Handlebars에서 {{expression}}에서 반환되는 값은 **HTML-escape**&#x200B
 
 이 경로는 다음 구조를 갖습니다.
 
-```
-offers.Type.[Placement Id].[Activity Id].Attribute
-```
+`offers.Type.[Placement Id].[Activity Id].Attribute`
 
 위치:
 
 * `offers` 오퍼 네임스페이스에 속하는 경로 표현식을 식별합니다
 * `Type`  오퍼 표현 유형을 결정합니다. 가능한 값은 다음과 같습니다.`image`, `html` 및 `text`
 * `Placement Id` 및 `Activity Id` 는 배치 및 활동 식별자입니다
-* `Attributes` 은 오퍼 유형에 따라 달라지는 오퍼 특정 속성입니다. 예:`deliveryUrl` 이미지
+* `Attributes` 은 오퍼 유형에 따라 달라지는 오퍼 특정 속성입니다. 예:이미지의 경우 `deliveryUrl`
 
 결정 API 및 오퍼 표현에 대한 자세한 내용은 [이 페이지](../../using/offers/api-reference/decisions-api/deliver-offers.md)를 참조하십시오
 
-모든 참조는 [이 페이지](personalization-validation.md)에 설명된 유효성 검사 메커니즘을 사용하여 오퍼 스키마에 대해 검증됩니다.
+모든 참조는 [이 페이지](personalization-validation.md)에 설명된 유효성 검사 메커니즘을 사용하여 오퍼 스키마에 대해 검증됩니다
 
 **샘플 참조:**
 
