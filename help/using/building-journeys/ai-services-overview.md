@@ -6,14 +6,14 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 44680e4421aea2c9c90a8059cf188f34eabaa869
+source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 1%
 
 ---
 
-# Intelligent Services {#ai-overview} 와 통합
+# Intelligent Services와 통합 {#ai-overview}
 
 Intelligent Services와의 통합을 통해 고객 경험 사용 사례에서 인공 지능과 머신 러닝을 활용할 수 있습니다. 이를 통해 마케팅 분석가는 데이터 과학 전문 지식 없이도 비즈니스 수준 구성을 사용하여 기업의 요구 사항에 맞는 예측을 설정할 수 있습니다.
 
