@@ -5,9 +5,9 @@ feature: 애플리케이션 설정
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,10 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
-> 메시지 사전 설정 구성은 여정 관리자로 제한됩니다. [자세히 알아보기](../administration/ootb-product-profiles.md#journey-administrator)
-
+> * 메시지 사전 설정 구성은 여정 관리자로 제한됩니다. [자세히 알아보기](../administration/ootb-product-profiles.md#journey-administrator)
+   >
+   > 
+* 메시지 사전 설정을 만들기 전에 전자 메일 및 푸시 구성 단계를 수행해야 합니다.
 
 
 메시지 사전 설정이 구성되면 **[!UICONTROL Presets]** 목록에서 메시지를 만들 때 메시지 사전 설정을 선택할 수 있습니다.
@@ -33,11 +35,9 @@ ht-degree: 1%
 
    ![](../assets/preset-create.png)
 
-
 1. 사전 설정에 대한 이름과 설명(선택 사항)을 입력한 다음 구성할 채널을 선택합니다.
 
    ![](../assets/preset-general.png)
-
 
    >[!NOTE]
    >
@@ -57,13 +57,27 @@ ht-degree: 1%
    * 사전 설정과 연결할 IP 풀을 선택합니다. [자세히 알아보기](ip-pools.md)
    * 사전 설정을 사용하여 보낸 전자 메일의 헤더 매개 변수를 입력합니다.
 
+      >[!CAUTION]
+      >
+      >**회신(전자 메일 전달)** 필드를 제외하고 전자 메일 주소 도메인은 현재 선택한 [위임된 하위 도메인](about-subdomain-delegation.md)을 사용해야 합니다.
+
+      * **[!UICONTROL Sender name]**:브랜드 이름과 같이 발신자의 이름입니다.
+
+      * **[!UICONTROL Sender email]**:통신에 사용할 이메일 주소입니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*&#x200B;인 경우 *contact@marketing.luma.com*&#x200B;을 사용할 수 있습니다.
+
+      * **[!UICONTROL Reply to (name)]**:수신자가 전자 메일 클라이언트 소프트웨어 **** 에서 재생 단추를 클릭할 때 사용할 이름입니다.
+
+      * **[!UICONTROL Reply to (email)]**:수신자가 전자 메일 클라이언트 소프트웨어에서 재생  **** 단추를 클릭할 때 사용되는 전자 메일 주소입니다. 이 주소로 전송된 이메일은 아래에 제공된 **[!UICONTROL Reply to (forward email)]** 주소로 전달됩니다. 위임된 하위 도메인에 정의된 주소(예: *reply@marketing.luma.com*)를 사용해야 합니다. 그렇지 않으면 이메일이 삭제됩니다.
+
+      * **[!UICONTROL Reply to (forward email)]**:위임된 하위 도메인 [!DNL Journey Optimizer] 에 대해 에서 받은 모든 이메일은 이 전자 메일 주소로 전달됩니다. 위임된 하위 도메인에 정의된 이메일 주소를 제외한 모든 주소를 지정할 수 있습니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*&#x200B;인 경우 *abc@marketing.luma.com*&#x200B;과 같은 주소는 사용할 수 없습니다.
+
+      * **[!UICONTROL Error email]**:이 주소에는 배달되는 며칠 후 ISP에서 생성한 모든 오류(비동기 바운스)가 수신됩니다.
+
+      ![](../assets/preset-header.png)
+
       >[!NOTE]
       >
-      > * 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-` 문자를 사용할 수도 있습니다.
-         > 
-         > 
-      * **회신 대상(전자 메일 전달)**&#x200B;을 제외하고 전자 메일 주소 도메인은 현재 선택한 하위 도메인을 사용해야 합니다.
-
+      >이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-` 문자를 사용할 수도 있습니다.
 
 
 1. **푸시 알림** 설정을 구성합니다.
@@ -86,7 +100,6 @@ ht-degree: 1%
 
    이러한 검사에는 Adobe 게재 가능성 팀이 수행하는 게재 가능성 테스트가 포함됩니다.
 
-
    * SPF 유효성 검사
    * DKIM 유효성 검사
    * MX 레코드 유효성 검사
@@ -94,7 +107,6 @@ ht-degree: 1%
    * 헬로 호스트 확인
    * IP 풀 확인
    * A/PTR 레코드, t/m/res 하위 도메인 확인
-
 
 1. 확인이 성공하면 메시지 사전 설정이 **[!UICONTROL Active]** 상태를 가져옵니다. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
