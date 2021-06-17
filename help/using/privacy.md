@@ -1,19 +1,17 @@
 ---
 title: 개인 정보
 description: 개인 정보를 관리하는 방법에 대해 알아봅니다.
-source-git-commit: f73e7ae0a5da002786778065894fab0d6a7b154d
+source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 100%
+source-wordcount: '720'
+ht-degree: 97%
 
 ---
 
 
 # 개인 정보 {#privacy}
 
-![](assets/do-not-localize/badge.png)
-
-Journey Optimizer는 개인 정보와 중요한 데이터를 포함한 많은 양의 데이터를 수집하고 처리할 수 있는 강력한 데이터 도구입니다.
+[!DNL Journey Optimizer] 는 개인 정보와 중요한 데이터를 포함한 많은 양의 데이터를 처리할 수 있는 강력한 도구입니다.
 
 * **개인 데이터**&#x200B;는 살아있는 개인을 직접 또는 간접적으로 식별할 수 있는 정보입니다.
 * **중요한 개인 데이터**&#x200B;는 노동조합 멤버십뿐 아니라 개인의 인종, 정치적 관점, 종교적 신념, 범죄 기록, 유전자 정보, 건강 정보, 성적 선호도, 생체 인식 정보 등과 관련된 정보입니다.
