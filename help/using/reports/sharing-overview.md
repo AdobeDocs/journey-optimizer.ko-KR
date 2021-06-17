@@ -5,22 +5,20 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 8%
+source-wordcount: '447'
+ht-degree: 7%
 
 ---
 
 # 여정 보고서 만들기{#design-jo-reports}
 
-![](../assets/do-not-localize/badge.png)
-
 [실시간 보고서](live-report.md) 및 내장 [전역 보고 기능](global-report.md) 외에도, [!DNL Journey Optimizer]은(는) 여정 성능 데이터를 Adobe Experience Platform에 자동으로 전송하여 분석 목적으로 다른 데이터와 결합할 수 있습니다.
 
 >[!NOTE]
 >
->이 기능은 새로 배포된 모든 인스턴스에서 기본적으로 활성화되지 않습니다. 요청 시 정품 인증을 받습니다.
+>이 기능은 여정 단계 이벤트를 위한 모든 인스턴스에서 기본적으로 활성화됩니다. 여정 프로필 단계 이벤트의 경우 활성화는 요청 시 수행됩니다. 이 기능에 대한 프로비저닝 중에 생성된 스키마 및 데이터 세트는 변경할 수 없습니다.
 
 예를 들어, 여러 개의 이메일을 보내는 여정을 설정했습니다. 이 기능을 사용하면 [!DNL Journey Optimizer] 데이터를 전환 발생 횟수, 웹 사이트에서 발생한 참여 횟수 또는 저장소에서 발생한 트랜잭션 수와 같은 다운스트림 이벤트 데이터와 결합할 수 있습니다. 여정 정보를 다른 디지털 속성에서 또는 오프라인 속성에서 Adobe Experience Platform의 데이터와 결합하여 보다 포괄적인 성능 보기를 제공할 수 있습니다.
 
