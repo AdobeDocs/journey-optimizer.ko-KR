@@ -5,16 +5,14 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '930'
 ht-degree: 10%
 
 ---
 
 # 조건 활동{#section_e2n_pft_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 네 가지 유형의 조건을 사용할 수 있습니다.
 
@@ -76,6 +74,8 @@ ht-degree: 10%
 ## 백분율 분할 {#percentage_split}
 
 이 옵션을 사용하면 대상을 임의로 분할하여 각 그룹에 대해 다른 작업을 정의할 수 있습니다. 각 경로에 대해 분할 수 및 재분할 수를 정의합니다. 시스템에서 여정의 이 활동에서 유입되는 사람 수를 예상할 수 없으므로 분할 계산은 통계적입니다. 그 결과, 분할에는 오류 마진이 매우 낮습니다. 이 함수는 Java 무작위 메커니즘을 기반으로 합니다( 이 [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html) 참조).
+
+테스트 모드에서 분할에 도달하면 위쪽 분기가 항상 선택됩니다. 테스트에서 다른 경로를 선택하도록 하려면 분할 분기의 위치를 재구성할 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오
 
 >[!NOTE]
 >
