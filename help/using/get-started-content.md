@@ -5,7 +5,7 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # 메시지 시작 {#get-sarted-contents-messages}
-
-![](assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer]을(를) 사용하여 자산 및 콘텐츠와 같은 여러 리소스를 한 곳에서 활용하고, 개인화된 푸시 알림 및 이메일 메시지를 만들고 게시합니다.
 
