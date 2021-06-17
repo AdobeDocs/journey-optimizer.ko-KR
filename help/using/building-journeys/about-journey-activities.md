@@ -5,16 +5,14 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
 # 여정 활동 정보 {#about-journey-activities}
-
-![](../assets/do-not-localize/badge.png)
 
 다양한 이벤트, 오케스트레이션 및 작업 활동을 조합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
 
@@ -24,7 +22,7 @@ ht-degree: 31%
 
 * [일반 이벤트](../building-journeys/general-events.md)
 * [반응](../building-journeys/reaction-events.md)
-* [세그먼트 자격 조건](../building-journeys/segment-qualification-events.md)
+* [세그먼트 자격](../building-journeys/segment-qualification-events.md)
 
 ![](../assets/journey43.png)
 
