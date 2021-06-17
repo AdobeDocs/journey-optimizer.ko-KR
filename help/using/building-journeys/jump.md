@@ -5,7 +5,7 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 7%
@@ -13,8 +13,6 @@ ht-degree: 7%
 ---
 
 # 여정 간 이동 {#jump}
-
-![](../assets/do-not-localize/badge.png)
 
 **[!UICONTROL Jump]** 작업 활동을 사용하면 한 여정에서 다른으로 개인 사용자를 푸시할 수 있습니다. 이 기능을 사용하면 다음 작업을 수행할 수 있습니다.
 
