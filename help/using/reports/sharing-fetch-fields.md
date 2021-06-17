@@ -5,18 +5,16 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 7%
 
 ---
 
 # journeyStep 이벤트 데이터 가져오기 필드 {#sharing-fetch-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-이 mixin은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
+이 필드 그룹은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
 
 단계 처리 중에 필드 그룹에서 N 데이터를 가져오도록 할 수 있습니다.
 
