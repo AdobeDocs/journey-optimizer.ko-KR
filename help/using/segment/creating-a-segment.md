@@ -5,7 +5,7 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 6%
@@ -13,8 +13,6 @@ ht-degree: 6%
 ---
 
 # 세그먼트 빌드 {#build-segments}
-
-![](../assets/do-not-localize/badge.png)
 
 이 예에서는 1980년 이후에 태어난 Atlanta, San Francisco 또는 Seattle에 거주하는 모든 고객을 타겟팅하는 세그먼트를 만듭니다. 이 모든 고객은 지난 7일 이내에 Luma 애플리케이션을 연 다음 애플리케이션을 연 후 2시간 내에 구매했어야 합니다.
 
