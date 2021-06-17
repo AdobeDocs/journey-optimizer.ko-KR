@@ -5,9 +5,9 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '978'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 2%
 >title="컨텐츠 구성 요소 정보"
 >abstract="콘텐츠 구성 요소는 전자 메일 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다."
 
-![](assets/do-not-localize/badge.png)
 
 이메일 콘텐츠를 처음부터 만들 때 **[!UICONTROL Content components]**을(를) 사용하면 이메일에 배치되면 사용할 수 있는 비어 있는 원시 구성 요소로 이메일을 더 개인화할 수 있습니다.
 전자 메일의 레이아웃을 정의하는 **[!UICONTROL Structure component]** 내부에 필요한 만큼 **[!UICONTROL Content components]**&#x200B;을 추가할 수 있습니다.
@@ -104,8 +103,6 @@ ht-degree: 2%
 
 1. 전자 메일에 추가할 HTML 코드를 복사하여 붙여 넣고 **[!UICONTROL Save]** 을 클릭합니다.
 
-   ![](assets/email_designer_24.png)
-
 1. 예를 들어 **[!UICONTROL Style]**, **[!UICONTROL Margin]** 및 **[!UICONTROL Border]**&#x200B;를 변경하거나 링크를 추가하여 대상자를 다른 콘텐츠로 리디렉션하여 HTML을 추가로 개인화할 수 있습니다.
 
 ## 이미지 {#image}
@@ -116,9 +113,9 @@ ht-degree: 2%
 
    ![](assets/email_designer_9.png)
 
-1. 컴퓨터에서 이미지 파일을 선택하려면 **[!UICONTROL Browse]** 를 클릭하십시오.
+1. **[!UICONTROL Browse]** 을 클릭하여 자산에서 이미지 파일을 선택합니다.
 
-   **[!UICONTROL Asset Picker]** 을 클릭하여 자산을 이메일에 추가할 수도 있습니다. 자산에 대한 자세한 내용은 이 [섹션](assets-essentials.md)을 참조하십시오.
+   [!DNL Assets Essentials]에 대한 자세한 내용은 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html)를 참조하십시오.
 
 1. 새로 추가된 구성 요소를 클릭하여 **[!UICONTROL Content Components]** 구성을 시작하고 이메일 디자이너의 오른쪽 창에서 **[!UICONTROL Components Settings]**&#x200B;에 액세스할 수 있습니다.
 
