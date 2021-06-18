@@ -5,18 +5,16 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 30%
+source-wordcount: '71'
+ht-degree: 29%
 
 ---
 
 # 여정 필드 {#sharing-journey-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-이 mixin은 여정 스키마에서 사용됩니다(journeyStepEvent와 관련됨). 여기에는 다음 필드가 포함되어 있습니다.
+이 필드 그룹은 journeyStepEvent와 관련하여 여정 스키마에서 사용됩니다. 여기에는 다음 필드가 포함되어 있습니다.
 
 ## journeyID
 
