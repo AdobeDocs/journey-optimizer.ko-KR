@@ -5,7 +5,7 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 3%
@@ -13,8 +13,6 @@ ht-degree: 3%
 ---
 
 # 반응 이벤트 {#section_dhx_gss_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 팔레트에서 사용할 수 있는 여러 이벤트 활동 중에서 내장 **[!UICONTROL Reactions]** 이벤트를 찾을 수 있습니다. 이 활동을 사용하면 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 대응할 수 있습니다. 이 정보는 Adobe Experience Platform과 공유되는 즉시 실시간으로 캡처됩니다. 푸시 알림의 경우 클릭, 전송 또는 실패한 메시지에 대응할 수 있습니다. SMS 메시지의 경우 보낸 메시지나 실패한 메시지에 대응할 수 있습니다. 이메일의 경우 클릭, 전송, 열림 또는 실패한 메시지에 대응할 수 있습니다.
 
