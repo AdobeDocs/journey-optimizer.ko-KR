@@ -5,7 +5,7 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 6%
@@ -39,9 +39,10 @@ ht-degree: 6%
    이 예제에서는 **Attributes** 및 **Events** 필드를 사용하여 세그먼트를 만들어야 합니다.
 
    * **속성**:애틀랜타, 샌프란시스코 또는 시애틀에서 1980년 이후에 태어난 프로필
-   * **이벤트**:지난 7일 이내에 Luma 애플리케이션을 연 다음, 애플리케이션을 연 후 2시간 이내에 구입한 프로필입니다.
 
       ![](../assets/add-attributes.png)
+
+   * **이벤트**:지난 7일 이내에 Luma 애플리케이션을 연 다음, 애플리케이션을 연 후 2시간 이내에 구입한 프로필입니다.
 
       ![](../assets/add-events.png)
 
