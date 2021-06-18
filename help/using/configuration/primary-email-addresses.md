@@ -15,21 +15,21 @@ feature: 애플리케이션 설정
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '119'
 ht-degree: 7%
 
 ---
 
 
-# 프로필의 기본 주소 확인
+# 기본 이메일 주소 변경
 
 프로필을 타겟팅할 때 데이터베이스에서 여러 이메일 주소(개인, 전문 이메일 주소 등)를 사용할 수 있습니다.
 
 Journey Optimizer을 사용하면 프로필 서비스에서 사용할 이메일 주소를 확인하고 몇 개의 주소를 사용할 수 있는 경우 우선 순위를 지정할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL Channels]** / **[!UICONTROL General]** 메뉴에 액세스합니다.
+1. **[!UICONTROL Channels]** `>` **[!UICONTROL General]** 메뉴에 액세스합니다.
 1. 이 화면에 표시되는 프로필의 이메일 주소를 결정하는 데 현재 기본적으로 사용되는 필드입니다. **[!UICONTROL Edit]** 을 클릭하여 변경합니다.
 
    ![](../assets/primary-address.png)
