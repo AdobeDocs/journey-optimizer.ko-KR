@@ -5,7 +5,7 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 80cd004d17dbbbe87fa5b15fc1bdc659fdc4e66f
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 7%
@@ -13,8 +13,6 @@ ht-degree: 7%
 ---
 
 # 이메일 만들기 {#configure-email}
-
-![](assets/do-not-localize/badge.png)
 
 [이(가) 메시지](create-message.md)을(를) 만들었으면 **[!UICONTROL Email]** 탭을 사용하여 전자 메일 채널의 설정과 콘텐츠를 정의합니다.
 
@@ -26,7 +24,7 @@ ht-degree: 7%
 
 이메일을 구성하는 단계는 다음과 같습니다.
 
-1. 활동에 대한 **[!UICONTROL Email subject]**. 이렇게 하려면 오른쪽의 버튼을 클릭하여 표현식 편집기를 열고 이메일 제목을 작성합니다. [이 섹션](personalization/personalization-aeras.md)에서 개인화를 추가하는 방법을 알아봅니다
+1. 활동에 대한 **[!UICONTROL Email subject]**. 이렇게 하려면 오른쪽의 버튼을 클릭하여 표현식 편집기를 열고 이메일 제목을 작성합니다. [이 섹션](personalization/personalize.md)에서 개인화를 추가하는 방법을 알아봅니다
 
 1. **[!UICONTROL Email Designer]** 버튼을 클릭하여 이메일을 디자인합니다. [이 섹션](design-emails.md)에서 이메일을 디자인하는 방법을 알아봅니다.
 
