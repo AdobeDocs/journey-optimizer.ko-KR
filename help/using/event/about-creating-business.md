@@ -5,16 +5,14 @@ feature: 이벤트
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 15%
 
 ---
 
 # 비즈니스 이벤트 구성 {#configure-a-business-event}
-
-![](../assets/do-not-localize/badge.png)
 
 단일 이벤트와 달리 비즈니스 이벤트는 특정 프로필에 연결되어 있지 않습니다. 이벤트 ID 유형은 항상 규칙을 기반으로 합니다. [이 섹션](../event/about-events.md)의 비즈니스 이벤트에 대해 자세히 알아보십시오.
 
@@ -37,11 +35,11 @@ ht-degree: 15%
 
 비즈니스 이벤트를 구성하는 첫 번째 단계는 다음과 같습니다.
 
-1. 관리 섹션에서 **[!UICONTROL Configurations]** 로 이동한 다음 **[!UICONTROL Events]** 를 클릭합니다. 그러면 이벤트 목록이 표시됩니다.
+1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]** 을 선택합니다. **[!UICONTROL Events]** 섹션에서 **[!UICONTROL Manage]** 를 클릭합니다. 그러면 이벤트 목록이 표시됩니다.
 
    ![](../assets/jo-event1.png)
 
-1. 새 이벤트를 만들려면 **[!UICONTROL Add]**&#x200B;를 클릭합니다. 그러면 화면 오른쪽에 이벤트 구성 창이 열립니다.
+1. 새 이벤트를 만들려면 **[!UICONTROL Create Event]**&#x200B;를 클릭합니다. 그러면 화면 오른쪽에 이벤트 구성 창이 열립니다.
 
    ![](../assets/jo-event2.png)
 
@@ -82,7 +80,7 @@ ht-degree: 15%
 
 페이로드 정의를 사용하면 시스템에서 여정의 이벤트에서 받게 될 정보를 선택하고 키와 어떤 사람이 이벤트에 연결되어 있는지 식별할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)를 참조하십시오.
 
-1. 목록에서 XDM 스키마를 선택하고 **[!UICONTROL Payload]** 필드 또는 **[!UICONTROL Edit]** 아이콘을 클릭합니다.
+1. 목록에서 XDM 스키마를 선택하고 **[!UICONTROL Fields]** 필드 또는 **[!UICONTROL Edit]** 아이콘을 클릭합니다.
 
    ![](../assets/journey8-business.png)
 
@@ -92,11 +90,9 @@ ht-degree: 15%
 
 1. 이벤트에서 받을 필드를 선택합니다. 비즈니스 사용자가 여정에서 활용할 수 있는 필드입니다.
 
-   ![](../assets/journey10-business.png)
-
 1. 필요한 필드 선택을 완료했으면 **[!UICONTROL Save]** 을 클릭하거나 **[!UICONTROL Enter]** 키를 누릅니다.
 
-   선택한 필드 수가 **[!UICONTROL Payload]** 필드에 나타납니다.
+   선택한 필드 수가 **[!UICONTROL Fields]** 필드에 나타납니다.
 
    ![](../assets/journey12-business.png)
 
