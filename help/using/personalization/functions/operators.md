@@ -5,7 +5,7 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 12%
@@ -13,8 +13,6 @@ ht-degree: 12%
 ---
 
 # 연산자 {#operators}
-
-![](../../assets/do-not-localize/badge.png)
 
 ## 부울 함수
 
