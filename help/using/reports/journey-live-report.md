@@ -5,16 +5,14 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
 
 # 여정 라이브 보고서 {#journey-live-report}
-
-![](../assets/do-not-localize/badge.png)
 
 여정 라이브 보고서는 **[!UICONTROL Live report]** 버튼을 사용하여 여정에서 직접 액세스할 수 있습니다.
 
@@ -64,7 +62,7 @@ ht-degree: 1%
 
 ![](../assets/report_email_1.png)
 
-**[!UICONTROL Sending Statistics]** 및 **[!UICONTROL Sending metrics by Email]** 위젯은 게재의 성공에 대해 자세히 설명합니다.
+**[!UICONTROL Email Sending Statistics]** 위젯은 메시지에 대한 기본 정보를 자세히 설명합니다.
 
 * **[!UICONTROL Delivered]**:보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
 
@@ -72,9 +70,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
-<!--Hard and bounce - by Email-->
-
-**[!UICONTROL Email summary]** 그래프는 메시지에 대한 기본 정보를 자세히 설명합니다.
+**[!UICONTROL Sending metrics by Email]** 테이블 및 **[!UICONTROL Email Summary]** 그래프는 게재의 성공에 대해 자세히 설명합니다.
 
 * **[!UICONTROL Sent]**:게재에 대한 총 전송 수입니다.
 
@@ -88,9 +84,13 @@ ht-degree: 1%
 
 * **[!UICONTROL Clicks]**:게재에서 콘텐츠를 클릭한 횟수입니다.
 
+* **[!UICONTROL Unsubscribe]**:구독 취소 링크에 대한 클릭 수입니다.
+
+* **[!UICONTROL Spam complaints]**:메시지가 스팸 또는 정크 메일로 선언된 횟수입니다.
+
 ![](../assets/report_email_2.png)
 
-**[!UICONTROL Bounce Reasons]** 및 **[!UICONTROL Bounce categories]** 위젯에는 다음과 같이 바운스된 메시지와 관련하여 사용할 수 있는 데이터가 포함됩니다.
+**[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** 및 **[!UICONTROL Hard and bounce - by Email]** 위젯에는 바운스된 메시지와 관련하여 사용할 수 있는 데이터가 포함되어 있습니다. 예:
 
 * **[!UICONTROL Hard bounce]**:잘못된 이메일 주소와 같은 총 영구 오류 수입니다. 여기에는 알 수 없는 사용자와 같이 주소가 유효하지 않다는 오류 메시지가 명시적으로 표시됩니다.
 
