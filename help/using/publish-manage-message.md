@@ -6,7 +6,7 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 4%
@@ -56,4 +56,4 @@ ht-degree: 4%
 
 새 버전이 게시되는 즉시 다음 API 호출 시 새 메시지 실행이 생성됩니다. 다음 수신 프로필은 새 버전을 받습니다.
 
-<!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version.-->
+<!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version. -->
