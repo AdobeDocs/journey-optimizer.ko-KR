@@ -5,9 +5,9 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->모든 사용자는 메시지에 액세스하고, 만들고, 편집하고, 게시할 수 있습니다. 이 섹션](../using/administration/permissions.md)에서 사용자 권한 [에 대해 자세히 알아보십시오.
+>사용자는 제품 프로필에 따라 메시지에 액세스, 만들기, 편집 및/또는 게시할 수 있습니다. 이 섹션](../using/administration/permissions.md)에서 사용자 권한 [에 대해 자세히 알아보십시오.
 
 ![](assets/messages-list.png)
 
