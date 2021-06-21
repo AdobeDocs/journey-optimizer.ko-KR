@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 69%
       + [제한 사항](using/building-journeys/limitations.md)
       + [여정 버전](using/building-journeys/journey-versions.md)
       + [테스트 프로필](using/building-journeys/creating-test-profiles.md)
-      + [Intelligent Services와 통합](using/building-journeys/ai-services-overview.md)
+      + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
    + 여정 만들기{#create-journey}
       + [여정 시작](using/building-journeys/journey-gs.md)
       + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
@@ -99,7 +99,7 @@ ht-degree: 69%
       + [글로벌 보고서 대시보드 액세스](using/reports/global-report.md)
       + [여정 글로벌 보고서](using/reports/journey-global-report.md)
       + [이메일 글로벌 보고서](using/reports/email-global-report.md)
-      + [푸시 글로벌 보고서](using/reports/push-global-report.md)
+      + [글로벌 보고서 푸시](using/reports/push-global-report.md)
    + 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [여정 필드](using/reports/sharing-journey-fields.md)
@@ -111,12 +111,12 @@ ht-degree: 69%
       + [전달성 시작](using/deliverability.md)
       + [제외 목록](using/suppression-list.md)
 + 의사 결정 관리 {#offer-decisioniong}
-   + 의사 결정 관리 {#get-started} 시작
-      + [의사 결정 관리](using/offers/get-started/starting-offer-decisioning.md)
+   + 의사 결정 관리 시작 {#get-started}
+      + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
       + [사용자 인터페이스](using/offers/get-started/user-interface.md)
       + [오퍼를 만들고 관리하는 주요 단계](using/offers/offer-library/key-steps.md)
-      + [사용 사례:이메일에 오퍼 삽입](using/offers/offers-e2e.md)
-   + 구성 요소 {#create-components} 만들기
+      + [사용 사례: 이메일에 오퍼 삽입](using/offers/offers-e2e.md)
+   + 구성 요소 만들기 {#create-components}
       + [배치 만들기](using/offers/offer-library/creating-placements.md)
       + [의사 결정 규칙 만들기](using/offers/offer-library/creating-decision-rules.md)
       + [태그 만들기](using/offers/offer-library/creating-tags.md)
@@ -184,7 +184,7 @@ ht-degree: 69%
          + [의사 결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
          + [의사 결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
          + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
-      + API {#offer-delivery}를 사용한 오퍼 게재
+      + API를 사용한 오퍼 게재 {#offer-delivery}
          + [의사 결정 API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform 웹 SDK](using/offers/api-reference/web-sdk.md)
 + 구성{#get-started}
@@ -193,18 +193,18 @@ ht-degree: 69%
       + 푸시 알림 구성{#push-config}
          + [푸시 구성 시작](using/push-gs.md)
          + [푸시 알림 채널 구성](using/push-configuration.md)
-      + 전자 메일 구성 {#email-config}
-         + 하위 도메인 {#delegate-subdomains} 위임
+      + 이메일 구성 {#email-config}
+         + 하위 도메인 위임 {#delegate-subdomains}
             + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
             + [하위 도메인 위임](using/configuration/delegate-subdomain.md)
             + [위임된 하위 도메인 액세스](using/configuration/access-subdomains.md)
             + [Google TXT 레코드 추가](using/configuration/google-txt.md)
             + [PTR 레코드 액세스](using/configuration/ptr-records.md)
          + [IP 풀 만들기](using/configuration/ip-pools.md)
-         + 전자 메일 주소 모니터링 {#monitor-reputation}
+         + 이메일 주소 모니터링 {#monitor-reputation}
             + [제외 목록 관리](using/configuration/manage-suppression-list.md)
             + [다시 시도](using/configuration/retries.md)
-         + [전자 메일 기본 주소 변경](using/configuration/primary-email-addresses.md)
+         + [이메일 기본 주소 변경](using/configuration/primary-email-addresses.md)
       + [메시지 사전 설정 만들기](using/configuration/message-presets.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
