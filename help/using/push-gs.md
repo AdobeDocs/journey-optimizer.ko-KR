@@ -2,17 +2,17 @@
 title: 푸시 구성 시작
 description: 푸시 알림 데이터 흐름 및 구성 요소 이해
 feature: 애플리케이션 설정
-topic: 관리
+topic: 푸시
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 푸시 구성 {#get-started-push} 시작
+# 푸시 구성 시작 {#get-started-push}
 
 푸시 알림은 모바일 앱 사용자에게 언제든지 연락할 수 있도록 해줍니다. 특히 앱을 사용하고 있지 않을 때 유용합니다. 푸시 알림은 서비스에 대한 업데이트 제공, 사용자에게 조치 요청, 사용자에게 새로운 거래를 알리는 등의 다양한 사용 사례를 달성하는 데 도움이 될 수 있습니다. 최종 사용자가 알림을 받거나 볼 수 있으려면 장치 플랫폼에는 옵트인이 필요합니다. 사용자 옵트인은 앱을 처음 설치한 후 또는 후속 세션 또는 워크플로우에서 적절하게 시작한 후 즉시 받을 수 있습니다. [!DNL Journey Optimizer] 은 푸시 알림을 지원하며 업계 선도적인 처리량 비율로 관련 알림을 전송하는 데 도움이 됩니다. 푸시 알림에는 Adobe Experience Cloud에서 보유한 데이터 통찰력을 활용하기 위해 개인화 및 여정 기반 컨텍스트가 포함될 수 있습니다.
 
