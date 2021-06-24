@@ -20,7 +20,7 @@ ht-degree: 52%
 
 조직에 따라 여러 유형의 사용자를 정의하고 권한에 따라 특정 기능에 대한 액세스 권한을 부여할 수 있습니다.
 
-### 사전 요구 사항 {#cjm-prerequisites}
+### 전제 조건 {#cjm-prerequisites}
 
 [!DNL Adobe Journey Optimizer] 사용을 시작하기 전에 다음을 수행해야 합니다.
 
