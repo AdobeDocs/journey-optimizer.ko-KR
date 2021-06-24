@@ -54,7 +54,7 @@ Journey Optimizer은 여러 사전 빌드된 제품 프로필 또는 사용자 �
 
 Journey Optimizer은 Adobe Experience Platform에서 변경한 대부분의 데이터 세트를 상속받습니다.
 
-따라서 개인 정보 요청(액세스 권한 및 잊혀질 권리)은 Experience Platform을 통해 관리됩니다. [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR)을 사용하여 요청을 보내고 [개인 정보 보호 요청](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=kr#request-builder)을 만들 때 제품 목록에서 **프로필** 및 **AEP 데이터 레이크**&#x200B;를 선택합니다. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
+따라서 개인 정보 요청(액세스 권한 및 잊혀질 권리)은 Experience Platform을 통해 관리됩니다. [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR)을 사용하여 요청을 보내고 [개인 정보 보호 요청](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#request-builder)을 만들 때 제품 목록에서 **프로필** 및 **AEP 데이터 레이크**&#x200B;를 선택합니다. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
 
 >[!NOTE]
 >
