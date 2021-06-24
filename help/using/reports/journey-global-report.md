@@ -5,10 +5,10 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 ![](../assets/global_report_2.png)
 
-**[!UICONTROL Journey`s performance]** 위젯을 사용하면 여정을 단계별로 타겟팅된 프로필의 경로를 볼 수 있습니다.
+**[!UICONTROL Journey Performance]** 위젯을 사용하면 여정을 단계별로 타겟팅된 프로필의 경로를 볼 수 있습니다.
 
-**[!UICONTROL Journey`s statistics]** 위젯에는 다음 KPI가 표시됩니다.
+**[!UICONTROL Journey Statistics]** 위젯에는 다음 KPI가 표시됩니다.
 
 * **[!UICONTROL Entered profiles]**:여정의 시작 이벤트에 도달한 총 개인 수입니다.
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Error in action]**:에 대해 발생한 총 오류 수입니다 **[!UICONTROL Actions]**.
 
-## 전자 메일 탭 {#email-global}
+## 이메일 탭 {#email-global}
 
 여정 **[!UICONTROL Global report]**&#x200B;에서 **[!UICONTROL Email]** 탭은 여정에서 전송된 이메일 게재와 관련된 기본 정보를 자세히 설명합니다.
 
