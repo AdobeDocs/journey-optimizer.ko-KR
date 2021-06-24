@@ -5,7 +5,7 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 4%
@@ -71,7 +71,7 @@ ht-degree: 4%
 
    ![](../../assets/activity_constraint_rule.png)
 
-## 대체 오퍼 {#add-fallback} 추가
+## 대체 오퍼 추가 {#add-fallback}
 
 오퍼 자격 규칙 및 제약 조건과 일치하지 않는 고객을 위한 마지막 수단으로 표시되는 대체 오퍼를 선택한 다음 **[!UICONTROL Next]** 를 클릭합니다.
 
