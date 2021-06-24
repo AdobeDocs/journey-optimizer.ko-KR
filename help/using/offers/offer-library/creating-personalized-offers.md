@@ -5,7 +5,7 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 ![](../../assets/offers_list.png)
 
-## 오퍼 {#create-offer} 만들기
+## 오퍼 만들기 {#create-offer}
 
 **오퍼**&#x200B;를 만들려면 다음 단계를 수행합니다.
 
@@ -98,7 +98,7 @@ ht-degree: 4%
 
    ![](../../assets/offer_rule.png)
 
-1. 사용자가 둘 이상의 오퍼에 적격인 경우, 다른 오퍼와 비교하여 오퍼의 **[!UICONTROL Priority]**&#x200B;을 정의합니다. 오퍼의 우선 순위가 가장 높을수록 오퍼의 우선 순위가 가장 높습니다.
+1. 사용자가 둘 이상의 오퍼에 적격인 경우, 다른 오퍼와 비교하여 오퍼의 **[!UICONTROL Priority]**&#x200B;을 정의합니다. 오퍼의 우선 순위가 높을수록 오퍼의 우선 순위가 더 높습니다.
 
 1. 오퍼의 **[!UICONTROL Capping]**&#x200B;을 지정합니다. 이것은 모든 사용자에 대해 오퍼가 총 표시되는 횟수를 의미합니다. 오퍼가 이 필드에 지정한 횟수만큼 모든 사용자에게 전달된 경우 해당 게재가 중지됩니다.
 
