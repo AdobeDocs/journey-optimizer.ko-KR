@@ -5,21 +5,25 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1181'
 ht-degree: 2%
 
 ---
 
 
-# 템플릿 언어 및 도우미 함수 {#functionsL}
+# 도우미 함수 라이브러리{#functionsL}
 
 [!DNL Journey Optimizer] 템플릿 언어를 사용하여 계산, 데이터 형식 또는 전환, 조건 등과 같은 데이터 작업을 수행하고 개인화 컨텍스트에서 이를 조작할 수 있습니다. [이 페이지](../personalization-syntax.md)에서 개인화 구문 지침을 배웁니다.
+
+[!DNL :arrow_forward:] [비디오에서 도우미 함수를 사용하는 방법을 알아봅니다](#video)
 
 템플릿 언어는 다음과 같이 표현식 편집기의 개인화 드롭다운 목록에서 사용할 수 있는 도우미 함수에서 활용됩니다.
 
 ![](../assets/access-helper-functions.png)
+
+
 
 [!DNL Journey Optimizer] 표현식 편집기에서 도우미 함수는 다음 세 가지 카테고리로 그룹화됩니다.[함수](#functions-helper), [도우미](#helper-helper) 및 [연산자](#operators-helper).
 
@@ -189,7 +193,7 @@ ht-degree: 2%
 </table>
 
 
-## Helpers{#helper-helper}
+## 도우미{#helper-helper}
 
 지원자는 [이 페이지](helpers.md)에 자세히 설명되어 있습니다.
 
@@ -279,3 +283,8 @@ ht-degree: 2%
     </tr>
 </table>
 
+## 방법 비디오{#video}
+
+개인화 도우미 함수를 사용하여 개인화 값을 변형하고 도우미 기능에 대한 다양한 사용 사례를 이해하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
