@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 2%
 오퍼를 만들고 관리하는 방법에 대한 자세한 내용은 [이 섹션](offers/get-started/starting-offer-decisioning.md)을 참조하십시오.
 
 오퍼를 구성하는 방법을 보여주는 **전체 종료 예**&#x200B;에 대해, 결정에서 오퍼를 사용하고 이메일에서 이 결정을 활용하려면 [이 섹션](offers/offers-e2e.md#insert-decision-in-email)을 확인하십시오.
+
+[!DNL :arrow_forward:] [이 비디오에서 오퍼를 개인화로 추가하는 방법을 알아봅니다](#video-offers)
 
 
 ## 이메일에 결정 삽입 {#insert-offers}
@@ -101,3 +103,9 @@ ht-degree: 2%
    ![](assets/deliver-offer-test-profile-male-preview.png)
 
 자세한 내용은 [이 섹션](#preview-your-messages)에서 메시지 미리 보기를 확인하는 단계에 대해 자세히 알아보십시오.
+
+## 방법 비디오{#video-offers}
+
+[!DNL Journey Optimizer]의 메시지에 offer decisioning 구성 요소를 추가하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
