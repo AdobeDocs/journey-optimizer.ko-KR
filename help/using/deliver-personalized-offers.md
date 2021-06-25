@@ -5,18 +5,16 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '507'
 ht-degree: 2%
 
 ---
 
 # 개인화된 오퍼 추가 {#deliver-personalized-offers}
 
-## 의사 결정 관리 정보 {#about-offer-decisioning}
-
-[!DNL Journey Optimizer] 을 사용하면 고객에게 제공할 최상의 오퍼를 선택하기 위해 오퍼 결정 엔진을 활용할 이메일 메시지 결정(이전에 오퍼 활동이라고 함)에 을 삽입할 수 있습니다.
+[!DNL Journey Optimizer] 이메일 메시지에서는 고객에게 제공할 최상의 오퍼를 선택하기 위해 오퍼 결정 엔진을 활용할 의사 결정(이전에 &#39;오퍼 활동&#39;이라고 함)을 삽입할 수 있습니다.
 
 예를 들어 이메일에 수신자의 충성도 수준에 따라 달라지는 특별 할인 오퍼가 표시되는 결정을 추가할 수 있습니다.
 
@@ -25,11 +23,11 @@ ht-degree: 2%
 오퍼를 구성하는 방법을 보여주는 **전체 종료 예**&#x200B;에 대해, 결정에서 오퍼를 사용하고 이메일에서 이 결정을 활용하려면 [이 섹션](offers/offers-e2e.md#insert-decision-in-email)을 확인하십시오.
 
 
-## 전자 메일 {#insert-offers}에 결정 삽입
+## 이메일에 결정 삽입 {#insert-offers}
 
 >[!CAUTION]
 >
->먼저 오퍼 결정을 정의해야 합니다. [이 섹션](offers/offer-activities/create-offer-activities.md)에서 결정을 만드는 방법을 알아봅니다.
+>시작하기 전에 [오퍼 결정](offers/offer-activities/create-offer-activities.md)을 정의해야 합니다.
 
 전자 메일 메시지에 의사 결정을 삽입하려면 아래 단계를 따르십시오.
 
@@ -60,7 +58,7 @@ ht-degree: 2%
 이제 오퍼 활동이 구성 요소에 추가됩니다.
 
 
-## 전자 메일 {#preview-offers-in-email}에서 오퍼 미리 보기
+## 이메일에서 오퍼 미리 보기 {#preview-offers-in-email}
 
 **[!UICONTROL Offers]** 섹션 또는 컨텐츠 구성 요소 화살표를 사용하여 이메일에 추가된 의사 결정의 일부인 다른 오퍼를 미리 볼 수 있습니다.
 
