@@ -5,9 +5,9 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 2%
 
 ## 유효성 검사 메커니즘
 
-표현식 편집기 화면에서 **유효성 검사** 단추를 사용하면 개인화 구문의 유효성을 검사할 수 있습니다.
+**표현식 편집기** 화면에서 **유효성 검사** 단추를 사용하여 개인화 구문을 확인합니다.
 
 >[!NOTE]
-> **추가**&#x200B;를 클릭하여 편집기 창을 닫으면 유효성 검사가 자동으로 수행됩니다.
+> 유효성 검사는 **추가** 단추를 클릭하여 편집기 창을 닫으면 자동으로 실행됩니다.
 
 
 ![](assets/perso_validation1.png)
@@ -69,7 +69,7 @@ Handlebars 식은 **{{expression}}**&#x200B;로 둘러싸여 있습니다.
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-### 오퍼와 관련된 특정 오류
+## 오퍼와 관련된 특정 오류
 
 이메일 또는 푸시 메시지의 오퍼 통합과 관련된 오류는 다음 패턴을 갖습니다.
 
