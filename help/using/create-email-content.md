@@ -5,14 +5,14 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: 587dcb4823f57132748c913410a6fc177ccf76f1
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
 
-# 사용자 인터페이스 {#create-email-content}에서 이메일 콘텐츠를 디자인합니다.
+# 사용자 인터페이스에서 이메일 콘텐츠 디자인 {#create-email-content}
 
 [이(가) 메시지](create-message.md)을(를) 만들었으면 전자 메일 콘텐츠 만들기를 시작할 수 있습니다.
 
@@ -110,7 +110,7 @@ ht-degree: 1%
 
 이제 메시지에 이메일 콘텐츠를 사용할 수 있습니다. [메시지를 보내는 방법을 알아봅니다](publish-manage-message.md).
 
-## 전자 메일 {#generate-text-version} 의 텍스트 버전을 만듭니다.
+## 이메일의 텍스트 버전 만들기 {#generate-text-version}
 
 HTML 콘텐츠를 표시할 수 없을 때 사용되는 이메일 본문의 텍스트 버전을 만드는 것이 좋습니다.
 
@@ -213,44 +213,65 @@ HTML 콘텐츠를 표시할 수 없을 때 사용되는 이메일 본문의 텍�
 
    열 수준에서 배경 이미지를 설정할 수도 있지만 거의 사용되지 않습니다.
 
-## 세로 정렬 및 패딩 {#adjusting-vertical-alignment-and-padding} 조정
+## 세로 정렬 및 패딩 조정 {#adjusting-vertical-alignment-and-padding}
 
-3개의 열로 구성된 구조 구성 요소 내에서 패딩 및 세로 정렬을 조정하려고 합니다. 이렇게 하려면 아래 단계를 수행합니다:
+이 예에서는 세 개의 열로 구성된 구조 구성 요소 내에서 패딩 및 세로 정렬을 조정합니다.
 
-1. 이메일에서 직접 또는 왼쪽 **팔레트**&#x200B;에서 사용할 수 있는 구조 트리를 사용하여 구조 구성 요소를 선택합니다.
-1. **상황별 도구 모음**&#x200B;에서 **[!UICONTROL Select a column]**&#x200B;를 클릭하고 편집할 도구 모음을 선택합니다. 구조 트리에서 선택할 수도 있습니다.
+1. 이메일에서 직접 또는 왼쪽 메뉴에서 사용할 수 있는 **[!UICONTROL Navigation tree]** 을 사용하여 구조 구성 요소를 선택합니다.
 
-   해당 열에 대한 편집 가능한 매개 변수가 오른쪽의 **[!UICONTROL Settings]** 창에 표시됩니다.
+   ![](assets/alignment_1.png)
 
-1. **[!UICONTROL Vertical alignment]** 아래에서 **[!UICONTROL Up]** 을 선택합니다.
+1. 도구 모음에서 **[!UICONTROL Select a column]** 를 클릭하고 편집할 항목을 선택합니다. 구조 트리에서 선택할 수도 있습니다.
 
-   컨텐츠 구성 요소가 열 맨 위에 표시됩니다.
+   해당 열에 대한 편집 가능한 매개 변수가 **[!UICONTROL Column settings]** 메뉴에 표시됩니다.
+
+   ![](assets/alignment_2.png)
+
+1. **[!UICONTROL Vertical alignment]** 아래에서 **[!UICONTROL Bottom]** 을 선택합니다.
+
+   컨텐츠 구성 요소가 열 아래로 이동합니다.
+
+   ![](assets/alignment_3.png)
 
 1. **[!UICONTROL Padding]** 아래에서 열 내의 위쪽 패딩을 정의합니다. 잠금 아이콘을 클릭하여 아래쪽 패딩과의 동기화를 중단합니다.
 
    해당 열에 대한 왼쪽 및 오른쪽 패딩을 정의합니다.
 
+   ![](assets/alignment_4.png)
+
 1. 다른 열의 정렬 및 패딩을 조정하려면 유사하게 진행합니다.
 
 1. 변경 내용을 저장합니다.
 
-## 링크 {#about-styling-links} 스타일 정의
+## 링크의 스타일 정의 {#about-styling-links}
 
 링크에 밑줄을 긋고 이메일 디자이너에서 해당 색상과 타겟을 선택할 수 있습니다.
 
-1. 링크가 삽입되는 구성 요소에서 링크의 레이블 텍스트를 선택합니다.
+1. 링크가 삽입되는 텍스트 **[!UICONTROL Content component]**&#x200B;에서 링크를 선택합니다.
 
-1. 구성 요소 설정에서 **[!UICONTROL Underline link]** 을 선택하여 링크의 레이블 텍스트에 밑줄을 지정합니다.
+1. **[!UICONTROL Component settings]** 메뉴에서 **[!UICONTROL Underline link]** 을 선택하여 링크의 레이블 텍스트에 밑줄을 긋습니다.
 
-1. 링크를 열 검색 컨텍스트를 선택하려면 **[!UICONTROL Target]**&#x200B;을 선택합니다.
+   ![](assets/link_1.png)
+
+1. **[!UICONTROL Target]** 드롭다운을 사용하여 대상을 리디렉션하는 방법을 선택합니다.
+
+   * **[!UICONTROL None]**:클릭한 것과 동일한 프레임에서 링크를 엽니다(기본값).
+   * **[!UICONTROL Blank]**:새 창이나 탭에서 링크를 엽니다.
+   * **[!UICONTROL Self]**:클릭한 것과 동일한 프레임에서 링크를 엽니다.
+   * **[!UICONTROL Parent]**:상위 프레임에서 링크를 엽니다.
+   * **[!UICONTROL Top]**:창의 전체 본문에 링크를 엽니다.
+
+   ![](assets/link_2.png)
 
 1. 링크의 색상을 변경하려면 **[!UICONTROL Link color]**&#x200B;을(를) 클릭합니다.
+
+   ![](assets/link_3.png)
 
 1. 필요한 색을 선택하세요.
 
 1. 변경 내용을 저장합니다.
 
-## 인라인 스타일 속성 {#adding-inline-styling-attributes} 추가
+## 인라인 스타일 속성 추가 {#adding-inline-styling-attributes}
 
 이메일 디자이너 인터페이스에서 요소를 선택하고 사이드 패널에 해당 설정을 표시하는 경우 해당 특정 요소의 인라인 속성과 해당 값을 사용자 지정할 수 있습니다.
 
