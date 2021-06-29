@@ -5,9 +5,9 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
@@ -37,11 +37,15 @@ ht-degree: 4%
 
    ![](../../assets/activities-name.png)
 
-## 오퍼 추가 {#add-offers}
+## 결정 범위 추가 {#add-decision-scopes}
 
 1. 목록에서 배치를 끌어다 놓아 결정에 추가한 다음 **[!UICONTROL Add collection]** 을 클릭합니다.
 
    ![](../../assets/activities-placement.png)
+
+   >[!NOTE]
+   >
+   >결정에서 동일한 배치를 여러 번 선택할 수 있습니다.
 
 1. 고려할 오퍼가 포함된 컬렉션을 선택한 다음 **[!UICONTROL Add]** 을 클릭합니다.
 
