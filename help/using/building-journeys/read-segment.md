@@ -5,24 +5,22 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '921'
 ht-degree: 4%
 
 ---
 
-# 여정 {#segment-trigger-activity}에서 세그먼트 사용
+# 여정에서 세그먼트 사용 {#segment-trigger-activity}
 
-## 세그먼트 읽기 활동 {#about-segment-trigger-actvitiy} 정보
+## 세그먼트 읽기 활동 정보 {#about-segment-trigger-actvitiy}
 
 세그먼트 읽기 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 입력하도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 
 세그먼트 빌드](../segment/about-segments.md) 사용 사례에서 만든 &quot;Luma 앱 열기 및 체크아웃&quot; 세그먼트의 예를 예로 들어 보겠습니다. [ 세그먼트 읽기 활동을 사용하면 이 세그먼트에 속하는 모든 개인이 여정을 입력하고 모든 여정 기능을 활용하는 개인화된 여정으로 전환하도록 할 수 있습니다.조건, 타이머, 이벤트, 작업.
 
 >[!NOTE]
->
->1시간이 짧은 시간대에 세그먼트 기반 여정을 트리거할 수 없습니다.
 >
 >버스트 유료 추가 기능을 사용하면 읽기 세그먼트와 간단한 푸시 메시지를 포함하는 단순 여정에 대해 큰 볼륨으로 빠르게 푸시 메시지를 전송할 수 있습니다. 자세한 정보는 [이 섹션](../building-journeys/journey-gs.md#burst)을 참조하십시오
 
@@ -62,7 +60,7 @@ ht-degree: 4%
 
    ![](../assets/read-segment-schedule.png)
 
-   기본적으로 세그먼트는 여정 **[!UICONTROL As soon as possible]** 을 입력합니다. 이는 여정이 게시되고 1시간이 지난 후에 의미합니다. 세그먼트를 특정 날짜/시간 또는 반복으로 여정을 입력하도록 하려면 목록에서 원하는 값을 선택합니다.
+   기본적으로 세그먼트는 여정 **[!UICONTROL As soon as possible]**&#x200B;을 입력합니다. 세그먼트를 특정 날짜/시간 또는 반복으로 여정을 입력하도록 하려면 목록에서 원하는 값을 선택합니다.
 
    >[!NOTE]
    >
@@ -93,8 +91,6 @@ ht-degree: 4%
 테스트가 성공하면 여정을 게시할 수 있습니다( [여정 게시](publishing-the-journey.md) 참조). 세그먼트에 속하는 개인은 여정의 속성 **[!UICONTROL Scheduler]** 섹션에 지정된 날짜/시간에 여정을 입력합니다.
 
 >[!NOTE]
->
->되풀이가 아닌 세그먼트 기반 여정(&quot;가능한 한 빨리 시작&quot; 또는 &quot;한 번&quot;)가 실행되면 해당 상태가 자동으로 &quot;닫힌&quot;으로 변경됩니다.
 >
 >되풀이하는 세그먼트 기반 여정의 경우, 마지막 여정이 실행되면가 자동으로 닫힙니다. 종료 날짜/시간을 지정하지 않은 경우 수동으로 여정을 닫아야 새 출입구가 종료됩니다.
 
