@@ -5,10 +5,10 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 52%
+source-wordcount: '391'
+ht-degree: 47%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 52%
 [!DNL Adobe Journey Optimizer] 사용을 시작하기 전에 다음을 수행해야 합니다.
 
 * **사용자 권한 설정**:에 로그인하고  [!DNL Adobe Journey Optimizer] 팀 구성원에게 액세스 권한을 제공합니다. [자세히 보기](../using/administration/permissions.md)
+
+* **배포[!DNL Adobe Experience Manager Assets Essentials]**:메시지의 자산 및 이미지를 관리하려면 조직 [!DNL Assets Essentials] 에 대해 배포하고 해당 Assets Essentials이 소비자 사용자 또는/및  **Assets Essentials**   **** 사용자 제품 프로필에 포함되어 있는지 확인해야 합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
 
 * **채널 구성**:전자 메일 및 푸시 알림 설정을 정의합니다. [자세히 보기](../using/configuration/get-started-configuration.md)
 
