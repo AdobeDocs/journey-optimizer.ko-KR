@@ -5,10 +5,10 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 51%
 
 ---
 
@@ -17,24 +17,132 @@ ht-degree: 100%
 ![](using/assets/do-not-localize/banner-cjm.png)
 
 
-## 시작
-
-* [Journey Optimizer란 무엇입니까?](using/get-started.md) </br> 주요 기능 및 시작 방법 살펴보기
-
-* [이메일 콘텐츠 디자인](using/design-emails.md) </br>새 이메일 디자인 또는 기존 HTML 텐츠 가져오기
-
-* [메시지 보내기](using/building-journeys/journeys-message.md) </br> 고객 여정에서 푸시 및 이메일 메시지를 추가하는 방법을 알아봅니다.
-
-* [첫 번째 여정 만들기 ](using/building-journeys/journeys-uc.md) </br>여정 빌드 및 실행 방법을 알아봅니다.
-
-* [구성 [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Journey Optimizer 구성을 위한 주요 단계 알아보기
-
-* [액세스 권한 부여 [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> 사용자에게 할당된 권한을 정의 및 관리하는 방법 알아보기 [!DNL Journey Optimizer]
-
-* [의사 결정 관리](using/offers/get-started/starting-offer-decisioning.md) </br> 오퍼를 만들고 최상의 오퍼와 경험을 고객에게 전달
-
-## 추가 리소스
-
-* [Adobe Experience Platform 안내서](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko)
-* [Adobe Experience Platform 액세스 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko)
-* [Adobe Experience Platform 개발자 리소스](https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html)
+<table style="table-layout:fixed">
+<tr>
+  <td>
+    <div><strong>시작하기</strong>
+    </div>
+    <p>
+    <em></em>
+    <p>
+    <div>
+      <a href="using/get-started.md">Journey Optimizer란 무엇입니까?</a>
+    </div>
+    <p>주요 기능 및 시작 방법 살펴보기
+    <p>
+    <div>
+      <a href="using/design-emails.md">이메일 콘텐츠 디자인</a>
+    </div>
+    <p>
+    새 이메일을 디자인하거나 기존 HTML 콘텐츠를 가져옵니다
+    <p>
+    <div>
+      <a href="using/building-journeys/journeys-message.md">메시지 보내기</a>
+    </div>
+    <p>고객 여정에서 푸시 및 이메일 메시지를 추가하는 방법을 알아봅니다
+    <p>
+    <div>
+    <a href="using/building-journeys/journeys-uc.md">첫 번째 여정 만들기</a>
+    </div>
+    <p>여정을 빌드하고 실행하는 방법을 알아봅니다
+    <p>
+    <div>
+    <a href="using/configuration/get-started-configuration.md">[!DNL Journey Optimizer] 구성</a>
+    </div>
+    <p>[!DNL Journey Optimizer] 구성 주요 단계를 배웁니다.
+    <p>
+    <div>
+    <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]에 대한 액세스 권한 부여</a>
+    </div>
+    <p>[!DNL Journey Optimizer] 사용자에게 할당된 권한을 정의 및 관리하는 방법을 알아봅니다
+    <p>
+    <div>
+    <a href="using/offers/get-started/starting-offer-decisioning.md">의사 결정 관리</a>
+    </div>
+    <p>오퍼를 만들고 고객에게 최상의 오퍼 및 경험을 제공합니다
+    <p>
+    <p>
+    <div><strong>추가 리소스</strong>
+    </div>
+    <p>
+    <p>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko">Adobe Experience Platform 설명서</a>
+    </div>
+      <div>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko">Adobe Experience Platform 액세스 개요</a>
+    </div>
+      <div>
+      <a href="https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform 개발자 리소스</a>
+    </div>
+  </td>
+   <td>
+   <div><strong>주요 리소스에 대한 직접 링크</strong>
+    </div>
+    <p>
+    <em></em>
+    <p>
+    <p>여정 관리</p>
+    <li>
+      <a href="using/building-journeys/journey-gs.md">여정</a>
+    </li>
+    <li>
+      <a href="using/create-message.md">메시지</a>
+    </li>
+    <p>
+    <p>의사 결정 관리</p>
+    <li>
+      <a href="using/offers/get-started/starting-offer-decisioning.md">제공</a>
+    </li>
+     <li>
+      <a href="using/offers/offer-library/key-steps.md">구성 요소</a>
+    </li>
+    <p>
+    <p>콘텐츠 관리</p>
+    <li>
+      <a href="using/assets-essentials.md">에셋</a>
+    </li>
+    <p>
+    <p>데이터 관리</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko">스키마</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko">데이터 세트</a>
+    </li>
+        <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=ko">쿼리</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko">모니터링</a>
+    </li>
+    <p>
+    <p>연결</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko">소스</a>
+    </li>
+    <p>
+    <p>고객</p>
+    <li>
+      <a href="using/segment/about-segments.md">세그먼트</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko">프로필</a>
+    </li>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces">ID</a>
+    </li>
+    <p>
+    <p>관리</p>
+    <li>
+      <a href="using/configuration/about-data-sources-events-actions.md">구성</a>
+    </li>
+    <li>
+      <a href="using/configuration/get-started-configuration.md">채널</a>
+    </li>
+     <li>
+      <a href="using/administration/sandboxes.md">샌드 박스</a>
+    </li>
+  </td>
+</tr>
+</table>
