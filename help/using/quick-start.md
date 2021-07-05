@@ -5,10 +5,10 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
+source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 47%
+source-wordcount: '395'
+ht-degree: 46%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 47%
 
 * **사용자 권한 설정**:에 로그인하고  [!DNL Adobe Journey Optimizer] 팀 구성원에게 액세스 권한을 제공합니다. [자세히 보기](../using/administration/permissions.md)
 
-* **배포[!DNL Adobe Experience Manager Assets Essentials]**:메시지의 자산 및 이미지를 관리하려면 조직 [!DNL Assets Essentials] 에 대해 배포하고 해당 Assets Essentials이 소비자 사용자 또는/및  **Assets Essentials**   **** 사용자 제품 프로필에 포함되어 있는지 확인해야 합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+* **배포[!DNL Adobe Experience Manager Assets Essentials]**:메시지의 자산 및 이미지를 관리하려면 조직 [!DNL Assets Essentials] 에 대해 배포하고 액세스 권한이 필요한 사용자가  [!DNL Assets Essentials]Assets Essentials 소비자 사용자 또는/ **및** Assets Essentials 사용자 제품 프로필에 포함되어  **** 있는지 확인해야 합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
 
 * **채널 구성**:전자 메일 및 푸시 알림 설정을 정의합니다. [자세히 보기](../using/configuration/get-started-configuration.md)
 
