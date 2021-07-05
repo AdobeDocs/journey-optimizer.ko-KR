@@ -5,16 +5,20 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: 51699c3bf597bc878b61438c0d0720bca317ff47
+source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 2%
+source-wordcount: '371'
+ht-degree: 3%
 
 ---
 
 #  [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
 ## [!DNL Assets Essentials] 시작  {#get-started-assets-essentials}
+
+>[!NOTE]
+>
+> [!DNL Adobe Experience Manager Assets Essentials]을(를) 사용하려면 조직에 대해 [!DNL Assets Essentials]을(를) 배포하고 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 속해 있는지 확인해야 합니다. <br> 자세한 정보는 이  [페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)를 참조하십시오.
 
 [!DNL Adobe Experience Manager Assets Essentials] 는 메시지를 채우는 데 사용할 수 있는 중앙 집중식 단일 자산 저장소를 제공합니다. **[!UICONTROL Assets]** 섹션을 통해 [!DNL Adobe Journey Optimizer]에서 직접 액세스할 수 있습니다. 이메일 콘텐츠를 디자인할 때 자산 및 폴더에 액세스할 수도 있습니다. [이메일 디자인에 대해 자세히 알아보십시오](design-emails.md).
 
@@ -44,7 +48,7 @@ ht-degree: 2%
 
    ![](assets/media_library_3.png)
 
-1. 업로드할 파일을 선택합니다. 완료되면 **[!UICONTROL Upload]** 을 클릭합니다.
+1. 업로드할 파일을 선택합니다. 완료되면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
    자산을 관리하는 방법에 대한 자세한 내용은 이 [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en)을 참조하십시오.
 
