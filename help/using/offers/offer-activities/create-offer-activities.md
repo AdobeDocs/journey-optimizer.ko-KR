@@ -5,7 +5,7 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 4%
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->결정이 생성되면 목록에서 해당 이름을 클릭하여 세부 정보에 액세스하고 **[!UICONTROL Change log]** 탭을 사용하여 모든 변경 사항을 확인할 수 있습니다([오퍼 및 결정 변경 로그](../get-started/user-interface.md#changes-log) 참조).
+>결정이 생성되면 목록에서 해당 이름을 클릭하여 세부 정보에 액세스하고 **[!UICONTROL Change log]** 탭을 사용하여 모든 변경 사항을 시각화할 수 있습니다([오퍼 및 결정 변경 로그](../get-started/user-interface.md#changes-log) 참조).
 
 ## 튜토리얼 비디오 {#video}
 
