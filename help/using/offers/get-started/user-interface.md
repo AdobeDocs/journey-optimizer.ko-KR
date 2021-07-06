@@ -5,10 +5,10 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 ## 오퍼 및 의사 결정 변경 로그 {#changes-logs}
 
-오퍼 라이브러리를 사용하면 오퍼 또는 의사 결정에 수행된 모든 변경 사항을 표시할 수 있습니다. 이렇게 하려면 목록에서 해당 이름을 클릭하여 오퍼 또는 의사 결정을 연 다음 **[!UICONTROL Change log]** 탭을 선택합니다.
+오퍼 라이브러리를 사용하면 오퍼 또는 결정에 수행된 모든 변경 사항을 시각화할 수 있습니다. 이렇게 하려면 목록에서 해당 이름을 클릭하여 오퍼 또는 의사 결정을 연 다음 **[!UICONTROL Change log]** 탭을 선택합니다.
 
 변경한 모든 내용은 이 화면과 변경 작업을 수행한 사용자의 이름이 표시됩니다.
 
