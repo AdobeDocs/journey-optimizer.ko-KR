@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '689'
 ht-degree: 97%
 
 ---
@@ -56,9 +56,12 @@ ht-degree: 97%
       + [개체 함수](using/personalization/functions/objects.md)
       + [문자열 함수](using/personalization/functions/string.md)
    + [개인화된 오퍼 추가](using/deliver-personalized-offers.md)
-+ 세그먼트{#segment}
-   + [세그먼트 정보](using/segment/about-segments.md)
-   + [세그먼트 빌드](using/segment/creating-a-segment.md)
++ 세그먼트, 프로필 및 ID{#segment}
+   + 세그먼트 {#segments}
+      + [세그먼트 정보](using/segment/about-segments.md)
+      + [세그먼트 빌드](using/segment/creating-a-segment.md)
+   + [프로필](using/get-started-profiles.md)
+   + [ID](using/get-started-identity.md)
 + 여정 {#orchestrate-journeys}
    + 여정 정보{#about-journeys}
       + [일반 원칙](using/building-journeys/journey.md)
@@ -189,6 +192,10 @@ ht-degree: 97%
       + API를 사용한 오퍼 게재 {#offer-delivery}
          + [의사 결정 API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform 웹 SDK](using/offers/api-reference/web-sdk.md)
++ 데이터 관리 {#data-management}
+   + [스키마](using/get-started-schemas.md)
+   + [데이터 세트](using/get-started-datasets.md)
+   + [쿼리](using/get-started-queries.md)
 + 구성{#get-started}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
    + 메시지 구성 {#configuration}
@@ -228,6 +235,7 @@ ht-degree: 97%
          + [작업 정보](using/action/action.md)
          + [작업 구성](using/action/about-custom-action-configuration.md)
          + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
+      + [소스](using/get-started-sources.md)
 + 액세스 제어 {#administration}
    + [액세스 제어 개요](using/administration/permissions-overview.md)
    + [내장 제품 프로필](using/administration/ootb-product-profiles.md)
