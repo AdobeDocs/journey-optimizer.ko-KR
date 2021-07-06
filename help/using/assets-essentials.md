@@ -5,10 +5,10 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 3%
+source-wordcount: '383'
+ht-degree: 2%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> [!DNL Adobe Experience Manager Assets Essentials]을(를) 사용하려면 조직에 대해 [!DNL Assets Essentials]을(를) 배포하고 [!DNL Assets Essentials]에 액세스해야 하는 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 포함되어 있는지 확인해야 합니다. <br> 자세한 정보는 이  [페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)를 참조하십시오.
+> [!DNL Adobe Experience Manager Assets Essentials]을(를) 사용하려면 조직에 대해 [!DNL Assets Essentials]을(를) 배포하고 [!DNL Assets Essentials]에 액세스해야 하는 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 포함되어 있는지 확인해야 합니다. <br> 자세한 내용은 이  [페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}를 참조하십시오.
 
 [!DNL Adobe Experience Manager Assets Essentials] 는 메시지를 채우는 데 사용할 수 있는 중앙 집중식 단일 자산 저장소를 제공합니다. **[!UICONTROL Assets]** 섹션을 통해 [!DNL Adobe Journey Optimizer]에서 직접 액세스할 수 있습니다. 이메일 콘텐츠를 디자인할 때 자산 및 폴더에 액세스할 수도 있습니다. [이메일 디자인에 대해 자세히 알아보십시오](design-emails.md).
 
-[!DNL Assets Essentials]에 대한 자세한 절차는 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html)를 참조하십시오.
+[!DNL Assets Essentials]에 대한 자세한 절차는 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}를 참조하십시오.
 
 ## 자산 업로드 및 삽입{#add-asset}
 
 [!DNL Assets Essentials]에서 파일을 업로드하려면 먼저 파일이 저장될 폴더를 찾아보거나 만들어야 합니다. 그러면 전자 메일 콘텐츠에 삽입할 수 있습니다.
 
-자산을 업로드하는 방법에 대한 자세한 내용은 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html)를 참조하십시오.
+자산을 업로드하는 방법에 대한 자세한 내용은 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}를 참조하십시오.
 
 1. [!DNL Adobe Journey Optimizer] 홈 페이지에서 **[!UICONTROL Content management]** 메뉴 아래에 있는 **[!UICONTROL Assets]** 탭을 선택하여 [!DNL Assets Essentials]에 액세스합니다.
 
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 1. 이제 자산이 업로드되면 이메일 디자이너를 통해 메시지 중 하나에 자산을 삽입할 수 있습니다.
 
-   또한 [!DNL Assets Essentials]의 **편집** 모드로 자산을 추가로 편집할 수도 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html).
+   또한 [!DNL Assets Essentials]의 **편집** 모드로 자산을 추가로 편집할 수도 있습니다. [자세한](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html) 내용{target=&quot;_blank&quot;}.
 
    ![](assets/media_library_12.png)
 
