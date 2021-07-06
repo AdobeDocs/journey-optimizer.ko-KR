@@ -5,10 +5,10 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Beginner
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 * 워크플로우 개선: 마케팅 팀은 게재 또는 캠페인을 여러 개 만드는 대신 하나의 게재를 만들어 워크플로우를 개선하고 템플릿의 여러 부분에서 오퍼에 변화를 줄 수 있습니다,
 * 캠페인 및 고객 측면에 표시될 오퍼 횟수를 제어합니다.
 
-의사 결정 관리에 대한 자세한 내용은 ![](../../assets/do-not-localize/how-to-video.png) [튜토리얼 비디오를 참조하십시오](#tutorial-videos).
+의사 결정 관리에 대한 자세한 내용은 ➡️ [이 튜토리얼 비디오](#tutorial-videos)를 시청하십시오.
 
 ## 오퍼 및 의사 결정 정보 {#offers-offer-activities}
 
@@ -98,7 +98,7 @@ ht-degree: 97%
 >
 >이러한 비디오는 Adobe Experience Platform을 기반으로 구축된 Offer Decisioning 애플리케이션 서비스에 적용되며 [!DNL Adobe Journey Optimizer]에만 국한되지 않습니다. 하지만, 이 지침에서는 [!DNL Journey Optimizer] 컨텍스트에서 의사 결정 관리를 사용하기 위한 일반적인 지침을 제공합니다.
 
-### 의사 결정 관리란 무엇입니까?{#what-is-offer-decisioning}
+### 의사 결정 관리란 무엇입니까? {#what-is-offer-decisioning}
 
 아래 비디오에서는 의사 결정 관리의 주요 기능, 아키텍처 및 사용 사례에 대해 소개합니다.
 
