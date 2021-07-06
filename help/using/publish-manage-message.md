@@ -6,22 +6,22 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
+source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 4%
 
 ---
 
-# 메시지 {#publish-manage-messages} 게시
+# 메시지 게시 {#publish-manage-messages}
 
-## 메시지 {#publish-message} 게시
+## 메시지 게시 {#publish-message}
 
 메시지가 만들어지면 이를 게시하여 실행할 수 있도록 할 수 있습니다.
 
 >[!CAUTION]
 >
->경고를 게시하기 전에 경고를 확인하고 확인합니다. [자세히 알아보기](alerts.md).
+>경고를 게시하기 전에 경고를 확인하고 확인합니다. [자세히 알아보기](alerts.md)
 
 ![](assets/publish-message.png)
 
@@ -29,7 +29,7 @@ ht-degree: 4%
 
 이제 하나 이상의 [여정](building-journeys/journey.md)에 의해 트리거될 준비가 되었습니다.
 
-## 읽기 전용 메시지 {#modify-message} 업데이트
+## 읽기 전용 메시지 업데이트 {#modify-message}
 
 게시 후 메시지는 읽기 전용 모드로 전환됩니다. 해당 메시지의 새 초안을 만들어 업데이트할 수도 있습니다.
 
