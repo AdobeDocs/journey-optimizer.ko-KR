@@ -5,7 +5,7 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 3%
@@ -84,7 +84,7 @@ ht-degree: 3%
 
    **필드:** optionSelectionType
    **제목:** 프로필 제한 유형
-   **설명:** 현재 제한조건이 설정되어 있는지 여부 및 제한조건이 표시되는 방식을 결정합니다. 필터 쿼리 또는 하나 이상의 세그먼트 멤버십을 통해 수행될 수 있습니다.
+   **설명:** 현재 제한조건이 설정되어 있는지 여부와 제한조건이 어떻게 표현되는지를 결정합니다. 필터 쿼리 또는 하나 이상의 세그먼트 멤버십을 통해 수행될 수 있습니다.
    **유형:** 문자열
    **가능한 값:**  &quot;none&quot;(기본값), &quot;directList&quot;, &quot;filter&quot;
 
@@ -135,7 +135,7 @@ ht-degree: 3%
 
    **필드:** profileConstraintType
    **제목:** 프로필 제한 유형
-   **설명:** 현재 제한조건이 설정되어 있는지 여부 및 제한조건이 표시되는 방식을 결정합니다. 규칙 또는 하나 이상의 세그먼트 멤버십을 통해 수행될 수 있습니다.
+   **설명:** 현재 제한조건이 설정되어 있는지 여부와 제한조건이 어떻게 표현되는지를 결정합니다. 규칙 또는 하나 이상의 세그먼트 멤버십을 통해 수행될 수 있습니다.
    **유형:** 문자열
    **가능한 값:**
    * &quot;none&quot;(기본값)
