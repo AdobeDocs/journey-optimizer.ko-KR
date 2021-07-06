@@ -5,10 +5,10 @@ feature: 모니터링
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 1%
+source-wordcount: '507'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 ![](assets/message-execution-tab-filters.png)
 
-두 번째 열은 [메시지](create-message.md)를 열고 **[!UICONTROL Live view]**&#x200B;에 있는 경우 [라이브 보고서](reports/live-report.md)에 액세스하거나 **[!UICONTROL Global view]**&#x200B;에 있는 경우 [전역 보고서](reports/global-report.md)에 액세스할 수 있도록 합니다.
+<!--**[!UICONTROL Quick action]**-->두 번째 열은 [메시지](create-message.md)를 열고 **[!UICONTROL Live view]**&#x200B;에 있는 경우 [라이브 보고서](reports/live-report.md)에 액세스하거나 **[!UICONTROL Global view]**&#x200B;에 있는 경우 [전역 보고서](reports/global-report.md)에 액세스할 수 있도록 합니다.
 
 ![](assets/message-execution-open-live-report.png)
 
@@ -87,6 +87,6 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:기술 오류로 인해 보낼 수 없는 메시지 수입니다.
 
-* **[!UICONTROL Spam complaints]**:수신자가 스팸으로 표시한 메시지 수입니다. [불만 사항에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
+* **[!UICONTROL Spam complaints]**:수신자가 스팸으로 표시한 메시지 수입니다. [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}의 불만 사항에 대해 자세히 알아보십시오.
 
 각 하이퍼링크를 클릭하면 해당 메시지 요약 보기가 열립니다. [메시지에 대해 자세히 알아보기](create-message.md).
