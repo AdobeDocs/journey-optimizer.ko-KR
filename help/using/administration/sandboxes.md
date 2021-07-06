@@ -1,31 +1,20 @@
 ---
 title: 샌드박스 관리
 description: 샌드박스를 관리하는 방법 알아보기
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-exl-id: null
 feature: 컨트롤 그룹
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 2c4a86f7beb10d1ce35e8fb5600a979164038e5f
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
 # 샌드박스 관리 {#sandboxes}
 
-## 샌드박스 {#using-sandbox} 사용
+## 샌드박스 사용 {#using-sandbox}
 
 [!DNL Journey Optimizer]에서는 인스턴스를 샌드박스라는 분리된 가상 환경으로 분할할 수 있습니다.
 샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. [샌드박스를 할당하는 방법을 알아봅니다](permissions.md#create-product-profile).
@@ -35,7 +24,7 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.
 
-## 샌드박스 {#assign-sandboxes} 할당
+## 샌드박스 할당 {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
