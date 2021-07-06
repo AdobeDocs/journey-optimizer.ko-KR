@@ -5,14 +5,14 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '980'
 ht-degree: 2%
 
 ---
 
-# 전자 메일 디자이너 콘텐츠 구성 요소 {#content-components} 사용
+# 이메일 디자이너 콘텐츠 구성 요소 사용 {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
@@ -115,7 +115,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Browse]** 을 클릭하여 자산에서 이미지 파일을 선택합니다.
 
-   [!DNL Assets Essentials]에 대한 자세한 내용은 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html)를 참조하십시오.
+   [!DNL Assets Essentials]에 대한 자세한 내용은 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}를 참조하십시오.
 
 1. 새로 추가된 구성 요소를 클릭하여 **[!UICONTROL Content Components]** 구성을 시작하고 이메일 디자이너의 오른쪽 창에서 **[!UICONTROL Components Settings]**&#x200B;에 액세스할 수 있습니다.
 
