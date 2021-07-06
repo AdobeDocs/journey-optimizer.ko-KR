@@ -5,7 +5,7 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Experienced
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 2%
@@ -75,7 +75,7 @@ ht-degree: 2%
         <td><a href="aggregation.md#max">최대값</a></td><td>이 함수는 배열 내에서 선택한 모든 값 중 가장 큰 값을 반환합니다</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">의 상위 집합</a></td><td>이 함수는 특정 배열(배열 A)이 다른 배열(배열 B)의 상위 집합인 경우, 즉 해당 배열 A에 배열 B의 모든 요소가 포함되어 있는 경우 종료됩니다</td>
+    <td><a href="arrays-list.md#superset">의 상위 집합</a></td><td>이 함수는 특정 배열(배열 A)이 다른 배열(배열 B)의 상위 집합인지, 즉 해당 배열 A에 배열 B의 모든 요소가 포함되어 있는지 여부를 결정합니다</td>
     </tr>
 </table>
 
