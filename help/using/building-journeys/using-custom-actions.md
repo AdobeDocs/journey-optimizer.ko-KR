@@ -5,10 +5,10 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 9%
+source-wordcount: '143'
+ht-degree: 6%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 9%
 >
 >사용자 지정 작업 매개 변수에는 컬렉션을 전달할 수 없습니다. 사용자 지정 작업에 컬렉션이 필요한 경우 작동하지 않습니다. 매개 변수에는 예상 형식(예:문자열, 십진수 등.) 이러한 예상 형식을 준수하도록 주의해야 합니다.
 
-**[!UICONTROL Action parameters]** 섹션에는 _&quot;Variable&quot;_&#x200B;로 정의된 메시지 매개 변수가 표시됩니다. 이러한 매개 변수에 대해 이 정보를 가져올 위치를 정의할 수 있습니다(예:이벤트, 데이터 소스)를 수동으로 전달하거나 고급 사용 사례를 위해 고급 표현식 편집기를 사용합니다. 고급 사용 사례는 데이터 조작 및 기타 기능 사용일 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ko)를 참조하십시오
+**[!UICONTROL Action parameters]** 섹션에는 _&quot;Variable&quot;_&#x200B;로 정의된 메시지 매개 변수가 표시됩니다. 이러한 매개 변수에 대해 이 정보를 가져올 위치를 정의할 수 있습니다(예:이벤트, 데이터 소스)를 수동으로 전달하거나 고급 사용 사례를 위해 고급 표현식 편집기를 사용합니다. 고급 사용 사례는 데이터 조작 및 기타 기능 사용일 수 있습니다. [Adobe Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오.
