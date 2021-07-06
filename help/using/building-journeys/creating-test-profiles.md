@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1328'
 ht-degree: 1%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 1%
 
 * [csv 파일](#create-test-profiles-csv)을 업로드하거나 [API 호출](#create-test-profiles-api)을 사용하여 테스트 프로필을 만들 수 있습니다. Adobe Journey Optimizer에는 이 두 메서드 외에 특정 [제품 내 사용 사례](#use-case-1)가 포함되어 있어 테스트 프로필 생성을 용이하게 합니다.
 
-* 데이터 세트에 JSON 파일을 업로드할 수도 있습니다. 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)를 참조하십시오.
+* 데이터 세트에 JSON 파일을 업로드할 수도 있습니다. 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}를 참조하십시오.
 
-테스트 프로필을 만드는 것은 Adobe Experience Platform에서 일반 프로필을 만드는 것과 비슷합니다. 자세한 내용은 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)를 참조하십시오.
+테스트 프로필을 만드는 것은 Adobe Experience Platform에서 일반 프로필을 만드는 것과 비슷합니다. 자세한 내용은 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}를 참조하십시오.
 
-## 사전 요구 사항 {#test-profile-prerequisites}
+## 전제 조건 {#test-profile-prerequisites}
 
 프로필을 만들려면 먼저 Adobe [!DNL Journey Optimizer]에서 스키마와 데이터 세트를 만들어야 합니다.
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->스키마 만들기에 대한 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites) 를 참조하십시오.
+>스키마 만들기에 대한 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target=&quot;_blank&quot;}를 참조하십시오.
 
 그런 다음 프로필을 가져올 데이터 세트&#x200B;**를 만들어야 합니다.** 다음 단계를 수행합니다.
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 데이터 집합 만들기에 대한 자세한 내용은 [카탈로그 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)를 참조하십시오.
+> 데이터 집합 만들기에 대한 자세한 내용은 [카탈로그 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target=&quot;_blank&quot;}를 참조하십시오.
 
 ## 제품 내 사용 사례{#use-case-1}
 
@@ -88,7 +88,7 @@ Adobe Journey Optimizer 홈페이지에서 테스트 프로필 제품 내 사용
 
 다음 정보가 필요합니다.
 
-1. **ID 네임스페이스**:테스트  [프로필을 ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) 고유하게 식별하는 데 사용되는 ID입니다. 예를 들어 이메일을 사용하여 테스트 프로필을 식별하는 경우 ID 네임스페이스 **이메일**&#x200B;을(를) 선택해야 합니다. 고유 식별자가 전화 번호인 경우 ID 네임스페이스 **Phone**&#x200B;을(를) 선택해야 합니다.
+1. **ID 네임스페이스**:테스트  [프로필을 ](../get-started-identity.md) 고유하게 식별하는 데 사용되는 ID입니다. 예를 들어 이메일을 사용하여 테스트 프로필을 식별하는 경우 ID 네임스페이스 **이메일**&#x200B;을(를) 선택해야 합니다. 고유 식별자가 전화 번호인 경우 ID 네임스페이스 **Phone**&#x200B;을(를) 선택해야 합니다.
 
 2. **CSV 파일**:만들 테스트 프로필 목록이 포함된 쉼표로 구분된 파일입니다. 사용 사례에는 만들 테스트 프로필 목록이 포함된 CSV 파일에 대해 사전 정의된 형식이 필요합니다. 파일의 각 행에는 다음과 같이 올바른 순서로 다음 필드가 포함되어야 합니다.
 
@@ -106,7 +106,7 @@ ID 네임스페이스를 선택하고 위의 형식을 기반으로 CSV 파일�
 >
 >테스트 프로필은 기존 프로필을 재정의할 수 있습니다. 사용 사례를 실행하기 전에 CSV에 테스트 프로필만 포함되어 있으며 이 프로필이 올바른 샌드박스에 대해 실행되었는지 확인하십시오.
 
-## 프로필을 테스트 프로필{#turning-profile-into-test}으로 변환
+## 프로필을 테스트 프로필로 변환{#turning-profile-into-test}
 
 기존 프로필을 테스트 프로필로 전환할 수 있습니다.프로필을 만들 때와 동일한 방법으로 프로필 속성을 업데이트할 수 있습니다.
 
@@ -143,7 +143,7 @@ ID 네임스페이스를 선택하고 위의 형식을 기반으로 CSV 파일�
    >
    > **[!UICONTROL Update Profile]** 활동에 대한 자세한 정보는 [이 섹션](../building-journeys/update-profiles.md)을 참조하십시오.
 
-## csv 파일{#create-test-profiles-csv}을 사용하여 테스트 프로필 만들기
+## csv 파일을 사용하여 테스트 프로필 만들기{#create-test-profiles-csv}
 
 Adobe Experience Platform에서 다른 프로필 필드가 포함된 csv 파일을 데이터 세트에 업로드하여 프로필을 만들 수 있습니다. 이것이 가장 쉬운 방법입니다.
 
@@ -171,11 +171,11 @@ Adobe Experience Platform에서 다른 프로필 필드가 포함된 csv 파일�
 테스트 프로필이 추가되었으며 이제 여정을 테스트할 때 사용할 수 있습니다. [이 섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
 >[!NOTE]
 >
-> csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials) 를 참조하십시오.
+> csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target=&quot;_blank&quot;}를 참조하십시오.
 
 ## API 호출을 사용하여 테스트 프로필 만들기{#create-test-profiles-api}
 
-API 호출을 통해 테스트 프로필을 만들 수도 있습니다. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)를 참조하십시오.
+API 호출을 통해 테스트 프로필을 만들 수도 있습니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}를 참조하십시오.
 
 프로필 테스트 세부 사항 필드 그룹을 포함하는 프로필 스키마를 사용해야 합니다. testProfile 플래그는 이 필드 그룹의 일부입니다.
 프로필을 만들 때 값을 전달해야 합니다.testProfile = true.
