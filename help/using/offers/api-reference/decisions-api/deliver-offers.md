@@ -5,7 +5,7 @@ feature: 오퍼
 topic: 통합
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 이 자습서에서는 특히 의사 결정 관리와 관련된 API를 제대로 이해해야 합니다. 자세한 내용은 [의사 결정 관리 API 개발자 안내서](../getting-started.md)를 참조하십시오. 또한 이 자습서에서는 고유한 배치 ID와 결정 ID 값을 사용할 수 있어야 합니다. 이러한 값을 얻지 못한 경우 [배치](../offers-api/placements/create.md) 만들기 및 [결정](../activities-api/activities/create.md)을 만드는 자습서를 참조하십시오.
 
-![](../../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
+➡️  [비디오에서 이 기능 살펴보기](#video)
 
 ## Accept 및 Content-Type 헤더
 
