@@ -5,9 +5,9 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '903'
 ht-degree: 4%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 4%
 
    오퍼 표시를 하나 또는 여러 Adobe Experience Platform 세그먼트의 구성원으로 제한할 수 있습니다. 이렇게 하려면 **[!UICONTROL Visitors who fall into one or multiple segments]** 옵션을 활성화한 다음 왼쪽 창에서 하나 또는 여러 개의 세그먼트를 추가하고 **[!UICONTROL And]** / **[!UICONTROL Or]** 논리 연산자를 사용하여 조합합니다.
 
-   세그먼트 작업 방법에 대한 자세한 내용은 [세분화 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) 를 참조하십시오.
+   세그먼트 작업 방법에 대한 자세한 내용은 [이 페이지](../../segment/about-segments.md)를 참조하십시오.
 
    ![](../../assets/offer-eligibility-segment.png)
 
@@ -130,7 +130,7 @@ ht-degree: 4%
 
 ![](../../assets/offer_created.png)
 
-오퍼가 만들어지면 목록에서 해당 이름을 클릭하여 세부 정보에 액세스하고 **[!UICONTROL Change log]** 탭을 사용하여 오퍼에 수행된 모든 변경 사항을 모니터링할 수 있습니다( [오퍼 및 의사 결정 변경 모니터링](../get-started/user-interface.md#monitoring-changes) 참조).
+오퍼가 만들어지면 목록에서 해당 이름을 클릭하여 세부 정보에 액세스하고 **[!UICONTROL Change log]** 탭을 사용하여 오퍼에 수행된 모든 변경 사항을 모니터링할 수 있습니다. [자세히 알아보기](../get-started/user-interface.md#monitoring-changes).
 
 ## 튜토리얼 비디오 {#video}
 
