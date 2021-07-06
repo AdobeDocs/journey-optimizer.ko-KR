@@ -5,7 +5,7 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 다른 오퍼에 대한 자격이 없는 고객에게 대체 오퍼가 전송됩니다. 대체 오퍼를 만드는 단계는 오퍼를 만들 때와 같이 하나 또는 여러 개의 표현을 만드는 데 구성됩니다.
 
-![](../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 대체 오퍼 목록은 **[!UICONTROL Offers]** 메뉴에서 액세스할 수 있습니다.
 
