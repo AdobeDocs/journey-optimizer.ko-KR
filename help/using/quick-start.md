@@ -5,10 +5,10 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 46%
+ht-degree: 42%
 
 ---
 
@@ -57,4 +57,4 @@ ht-degree: 46%
 
 * **여정 만들기**: 메시지를 전송하고 컨텍스트 기반의 데이터를 활용하며 고객을 세분화하고 여러 단계로 구성된 사용 사례를 디자인 및 실행합니다. [자세히 보기](building-journeys/journey.md)
 
-* **메시지 및 여정 모니터링**: 메시지 실행 제어, 메시지 및 여정 보고서 확인 및 전달성 지표를 후속 조치합니다. [자세히 보기](message-monitoring.md)
+* **메시지 및 여정 모니터링**:메시지 실행 제어, 확인 메시지 및 여정 보고서, 후속 게재 기능 지표. [자세히 보기](message-monitoring.md)
