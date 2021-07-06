@@ -5,10 +5,10 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 1. **조건부 링크 추가**
 
-   다음 작업에서는 &#39;www.adobe.com/academia&#39; 웹 사이트(&#39;.edu&#39; 전자 메일 주소가 있는 프로필의 경우), &#39;www.adobe.com/org&#39; 웹 사이트(&#39;.org&#39; 전자 메일 주소가 있는 프로필의 경우) 및 기타 모든 프로필에 대한 기본 URL &#39;www.adobe.com/users&#39;&#39; 링크를 추가합니다.
+   다음 작업에서는 &#39;www.adobe.com/academia&#39; 웹 사이트(전자 메일 주소가 &#39;.edu&#39;인 프로필에만 해당), &#39;.org&#39;의 전자 메일 주소가 있는 프로필에는 &#39;www.adobe.com/org&#39; 웹 사이트&#39;, 다른 모든 프로필에는 기본 URL &#39;www.adobe.com/users&#39;에 대한 링크를 추가합니다.
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
