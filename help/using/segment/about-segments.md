@@ -5,18 +5,18 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform 세그먼트 기본 정보 {#about-segments}
+# 세그먼트 시작 {#about-segments}
 
-[!DNL Journey Optimizer]  메뉴에서 직접 실시간 고객 프로필 데이터를 사용하여 Adobe Experience Platform 세그먼트를 만들고  **[!UICONTROL Segments]** 여정에 활용할 수 있습니다.
+[!DNL Journey Optimizer] 메뉴에서 직접 실시간 고객 프로필 데이터를 사용하여 Adobe Experience Platform 세그먼트를 만들고  **[!UICONTROL Segments]** 여정에 활용할 수 있습니다.
 
-세그먼테이션 서비스 자체에서도 만들 수 있습니다. 자세한 내용은 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)에서 알아보십시오.
+세그먼테이션 서비스 자체에서도 만들 수 있습니다. 자세한 내용은 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}를 참조하십시오.
 
 여정의 세그먼트를 다양한 방법으로 활용할 수 있습니다.
 
