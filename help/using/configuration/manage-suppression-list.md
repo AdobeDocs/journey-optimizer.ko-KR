@@ -15,7 +15,7 @@ feature: 애플리케이션 설정
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 ---
 
 
-# 제외 목록 {#manage-suppression-list} 관리
+# 제외 목록 관리 {#manage-suppression-list}
 
 [!DNL Journey Optimizer] 을 사용하면 다음과 같이 여정에서 전송에서 자동으로 제외된 모든 이메일 주소를 모니터링할 수 있습니다.
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 이러한 이메일 주소는 Journey Optimizer **제외 목록**&#x200B;에 자동으로 수집됩니다. 자세한 내용은 [이 섹션](../suppression-list.md)을 참조하십시오.
 
-## 제외 목록 {#access-suppression-list} 액세스
+## 제외 목록에 액세스합니다 {#access-suppression-list}
 
 제외된 이메일 주소의 세부 목록에 액세스하려면 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** 메뉴를 연 다음 **[!UICONTROL View suppression lists]** 링크를 클릭합니다.
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 <!--You can also download the list as a CSV file for analysis and reporting purpose. Won't be available.-->
 
-## 범주 및 이유 {#suppression-categories-and-reasons} 억제
+## 제외 카테고리 및 이유 {#suppression-categories-and-reasons}
 
 메시지가 이메일 주소로 배달되지 않으면 Journey Optimizer은 게재가 실패한 이유를 파악하고 제외 카테고리와 연결합니다.
 
