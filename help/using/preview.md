@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
+source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ ht-degree: 0%
 >
 >[이 페이지](building-journeys/creating-test-profiles.md)에서 테스트 프로필을 만드는 방법을 알아봅니다.
 
-
 메시지 콘텐츠를 테스트하려면 다음을 수행해야 합니다.
 
 * [테스트 프로필 선택](#select-test-profiles)
@@ -38,6 +37,7 @@ ht-degree: 0%
 >
 >메시지를 미리 보거나 증명을 보낼 때 프로필 개인화 데이터만 표시됩니다. 이벤트 정보와 같은 컨텍스트 데이터를 기반으로 한 개인화는 여정 컨텍스트에서만 테스트할 수 있습니다. [이 사용 사례](personalization/personalization-use-case.md)에서 개인화를 테스트하는 방법을 알아봅니다.
 
+![](assets/do-not-localize/how-to-video.png) [이 비디오에서 이메일을 미리 보고, 증명을 하고, 게시하는 방법을 알아봅니다](#video-preview)
 
 ## 테스트 프로필 선택{#select-test-profiles}
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 >
 > 테스트 프로필로 전송된 증명의 경우 미러 페이지에 대한 링크가 활성화되지 않습니다. 최종 메시지에서만 활성화됩니다.
 
-## 전자 메일 렌더링{#email-rendering}
+## 이메일 렌더링{#email-rendering}
 
 **Litmus** 계정을 [!DNL Journey Optimizer]에 활용하여 인기 있는 이메일 클라이언트에서 **이메일 렌더링**&#x200B;을 즉시 미리 볼 수 있습니다.
 
@@ -166,3 +166,8 @@ ht-degree: 0%
 >
 >**Litmus** 계정을 [!DNL Journey Optimizer]와 연결할 때 테스트 메시지가 Litmus에 전송된다는 것에 동의하게 됩니다.전송되면 이러한 이메일은 더 이상 Adobe에서 관리하지 않습니다. 따라서 Litmus 데이터 보존 이메일 정책은 이러한 테스트 메시지에 포함될 수 있는 개인화 데이터를 포함하여 이러한 이메일에 적용됩니다.
 
+## 방법 비디오{#video-preview}
+
+받은 편지함에서 이메일 렌더링을 테스트하고, 테스트 프로필과 비교하여 개인화된 이메일을 미리 보고, 증명을 보내고, 이메일을 게시하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
