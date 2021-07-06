@@ -1,24 +1,24 @@
 ---
-title: 개인화 사용 사례
-description: 개인화 사용 사례
+title: 개인화 사용 사례&콜론;주문 상태 알림
+description: 프로필, 오퍼 결정 및 컨텍스트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다
 feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 2%
+source-wordcount: '622'
+ht-degree: 1%
 
 ---
 
 
-# 개인화 사용 사례 {#personalization-use-case}
+# 개인화 사용 사례:주문 상태 알림 {#personalization-use-case}
 
 이 사용 사례에서는 단일 푸시 알림 메시지에서 여러 유형의 개인화를 사용하는 방법을 확인할 수 있습니다. 다음 세 가지 유형의 개인화가 사용됩니다.
 
 * **프로필**:프로필 필드를 기반으로 한 메시지 개인화
-* **오퍼 결정**:offer decisioning 변수 기반 개인화
+* **오퍼 결정**:offer decisioning 변수를 기반으로 한 개인화
 * **컨텍스트**:여정의 컨텍스트 데이터 기반의 개인화
 
 이 예제의 목표는 고객 주문이 업데이트될 때마다 이벤트를 [!DNL Journey Optimizer]에 푸시하는 것입니다. 그런 다음 주문 및 개인화된 오퍼에 대한 정보를 사용하여 고객에게 푸시 알림이 전송됩니다.
@@ -116,7 +116,7 @@ ht-degree: 2%
 
    ![](assets/perso-uc17.png)
 
-1. 테스트에 전달할 다른 값을 입력합니다. 테스트 모드는 테스트 프로필에서만 작동합니다. 프로필 식별자는 테스트 프로필에 일치해야 합니다. **보내기**&#x200B;를 클릭합니다.
+1. 테스트에 전달할 다른 값을 입력합니다. 테스트 모드는 테스트 프로필에서만 작동합니다. 프로필 식별자는 테스트 프로필에 해당해야 합니다. **보내기**&#x200B;를 클릭합니다.
 
    ![](assets/perso-uc18.png)
 
