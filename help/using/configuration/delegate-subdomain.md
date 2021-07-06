@@ -15,10 +15,10 @@ feature: 애플리케이션 설정
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 9%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 9%
 1. 위임할 하위 도메인의 이름을 지정합니다.
 
    ![](../assets/subdomain-name.png)
+
+   >[!CAUTION]
+   >
+   >marketing.company.com과 같은 유효한 하위 도메인을 입력했는지 확인합니다. 잘못된 하위 도메인을 Adobe으로 위임하는 것은 허용되지 않습니다.
 
 1. DNS 서버에 배치할 레코드 목록이 표시됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 DNS 레코드를 생성합니다.
 
