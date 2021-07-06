@@ -5,7 +5,7 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Intermediate
-source-git-commit: 74662ee07422d507889788a790547c774b65f944
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 5%
@@ -107,21 +107,21 @@ Handlebars에서 {{expression}}에서 반환되는 값은 **HTML-escape**&#x200B
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* 결정 엔진에서 나오는 오퍼의 텍스트 컨텐츠:
+* 의사 결정 엔진에서 나오는 오퍼의 텍스트 컨텐츠:
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* 결정 엔진에서 나오는 오퍼의 HTML 콘텐츠:
+* 의사 결정 엔진에서 나오는 오퍼의 HTML 콘텐츠:
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Helpers{#helpers-all}
+## 도우미{#helpers-all}
 
 Handlebars 도우미는 매개 변수 뒤에 올 수 있는 간단한 식별자입니다.
 각 매개 변수는 Handlebars 표현식입니다. 이러한 도우미는 템플릿의 모든 컨텍스트에서 액세스할 수 있습니다.
 
-이러한 블록 도우미는 도우미 이름 앞에 #으로 식별되며 같은 이름의 닫는 / 와 일치해야 합니다.
+이러한 블록 도우미는 도우미 이름 앞에 있는 # 로 식별되며 같은 이름의 닫는 / 와 일치해야 합니다.
 블록은 블록 열기({{# }})와 닫기({/}})가 있는 표현식입니다.
 
 
