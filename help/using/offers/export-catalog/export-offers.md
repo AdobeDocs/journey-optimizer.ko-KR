@@ -5,9 +5,9 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2005'
 ht-degree: 3%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 3%
       **필드:** id
       **설명:** 컨텐츠 저장소에서 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색할 때 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;이 자산을 검색할 수 있습니다.
       **유형:** 문자열
-      **예:**  &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **예:**  &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **이름**
 
@@ -143,7 +143,7 @@ ht-degree: 3%
    * **resolveURL**
 
       **필드:** resolveURL
-      **설명:** 컨텐츠 저장소에서 자산을 읽을 수 있는 선택적 고유 리소스 로케이터입니다. 이렇게 하면 클라이언트가 자산이 관리되는 위치와 호출할 API를 이해하지 않고도 자산을 쉽게 가져올 수 있습니다. 이것은 HAL 링크와 유사하지만, 의미론적 의미가 더 간단하고 더 목적적이다.
+      **설명:** 컨텐츠 저장소에서 자산을 읽을 수 있는 선택적 고유 리소스 로케이터입니다. 이렇게 하면 클라이언트가 자산이 관리되는 위치와 호출할 API를 이해하지 않고 자산을 쉽게 가져올 수 있습니다. 이것은 HAL 링크와 유사하지만, 의미론적 의미가 더 간단하고 더 목적적이다.
       **유형:** 문자열
       **예:**  &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;
 
@@ -214,7 +214,7 @@ ht-degree: 3%
 
 **필드:** profileConstraintType 
 **제목:** 프로필 제한 유형 
-**설명:** 현재 제한이 설정되어 있는지 여부 및 제한이 어떻게 표현되는지 결정합니다. 규칙 또는 하나 이상의 세그먼트 멤버십을 통해 수행될 수 있습니다.
+**설명:** 현재 제한이 설정되어 있는지 여부 및 제약 조건이 어떻게 표시되는지 결정합니다. 규칙 또는 하나 이상의 세그먼트 멤버십을 통해 수행될 수 있습니다.
 **유형:** 문자열 
 **가능한 값:**
 * &quot;none&quot;(기본값)
