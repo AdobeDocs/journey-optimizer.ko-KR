@@ -5,10 +5,10 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 5%
 
 이 개발자 가이드는 [!DNL Offer Library] API 사용을 시작하는 데 도움이 되는 단계를 제공합니다. 그러면 안내서에서는 결정 관리 엔진을 사용하여 주요 작업을 수행하기 위한 샘플 API 호출을 제공합니다.
 
-![](../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 전제 조건
 
 이 안내서에서는 Adobe Experience Platform의 다음 구성 요소를 이해하고 있어야 합니다.
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR):고객 경험 데이터를  [!DNL Experience Platform] 구성하는 표준화된 프레임워크입니다.
-   * [스키마 작성 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html):XDM 스키마의 기본 구성 요소에 대해 알아봅니다.
+   * [스키마 작성 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR):XDM 스키마의 기본 구성 요소에 대해 알아봅니다.
 * [의사 결정 관리](../../../using/offers/get-started/starting-offer-decisioning.md):일반적으로 Experience Decisioning에 사용되는 개념과 구성 요소, 특히 Offer decisioning에 대해 설명합니다. 고객 경험 중에 가장 적합한 옵션을 선택하는 데 사용되는 전략을 보여줍니다.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html):PQL은 XDM 인스턴스에서 표현식을 작성할 수 있는 강력한 언어입니다. PQL은 의사 결정 규칙을 정의하는 데 사용됩니다.
 
