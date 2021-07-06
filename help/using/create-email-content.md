@@ -5,9 +5,9 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1493'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
 
    ![](assets/email_designer_3.png)
 
-1. 각 구성 요소는 **[!UICONTROL Component settings]** 섹션으로 추가로 사용자 지정할 수 있습니다. 예를 들어 구성 요소의 패딩 또는 여백을 텍스트 스타일로 변경할 수 있습니다. [이메일 편집기에서 스타일에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html).
+1. 각 구성 요소는 **[!UICONTROL Component settings]** 섹션으로 추가로 사용자 지정할 수 있습니다. 예를 들어 구성 요소의 패딩 또는 여백을 텍스트 스타일로 변경할 수 있습니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html){target=&quot;_blank&quot;}의 이메일 편집기에서 스타일에 대해 자세히 알아보십시오.
 
    ![](assets/email_designer_4.png)
 
