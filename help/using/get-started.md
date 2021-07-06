@@ -5,10 +5,10 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: 6783aaec0d050074624b9aa8219252ebf7618088
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 21%
+source-wordcount: '688'
+ht-degree: 20%
 
 ---
 
@@ -24,6 +24,9 @@ ht-degree: 21%
 [!DNL Adobe Journey Optimizer]는 기업이 고객에게 연관성 있고 상황에 맞는 개인화된 경험을 제공할 수 있도록 해줍니다. 고객 여정은 고객과 브랜드 간의 상호 작용을 위한 전체 프로세스로서, 연락 시작부터 고객이 떠난 시점까지 진행됩니다. 브랜드에 대해 알아보고 높이고 참여를 유도하는 인지도 단계로 시작합니다. 고객은 해당 브랜드와 보다 효과적으로 상호 작용하고, 온라인 및 물리적 사이트를 방문하며, 구매, 메시지 전송 또는 게시물 검토를 수행합니다.
 
 [!DNL Adobe Journey Optimizer] 는 기본적으로 을( [!DNL Adobe Experience Platform] 를) 기반으로 구축되었으며 개인화 및 최적화를 위한 통합 실시간 고객 프로필, API 최초 오픈 프레임워크, 중앙 집중식 offer decisioning 및 AI(인공 지능) 및 시스템 학습(ML)을 결합합니다. Journey Optimizer을 사용하면 전체 고객 여정에서 규모, 속도 및 유연성과 함께 차세대 상호 작용을 지능적으로 결정할 수 있습니다. [!DNL Adobe Journey Optimizer]을 사용하면 회사는 동일한 애플리케이션 내에서 예약된 마케팅 캠페인(예: 소매점의 주별 홍보)과 개인화된 개별 커뮤니케이션(예: 충성도 앱 고객이 이전에 재고 부족 상태인 항목을 검토했을 수 있는 항목에 대한 푸시 알림)을 모두 만들고 게재할 수 있습니다.
+
+[Journey Optimizer➡️](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;} 검색(비디오)
+
 
 ## 사용 사례
 
@@ -46,6 +49,13 @@ ht-degree: 21%
 * **최신 Omnichannel Orchestration &amp; Execution**  - 1:1 고객 참여 및 마케팅 전달을 위한 고객 여정을 조화롭게 최적화하고 최적화하여 브랜드가 고객 라이프사이클에서 더 많은 가치를 제공할 수 있는 단일 캔버스입니다. [!DNL Adobe Journey Optimizer]에 디자인된 고객 여정은 브랜드가 실시간 신호에 반응하고 이러한 상호 작용을 예약된 캠페인과 연결할 수 있도록 동적 및 이벤트를 기반으로 할 수 있으므로 고객이 언제 어떤 채널을 통해 보낼 커뮤니케이션에 대해 올바른 결정을 내릴 수 있습니다.
 
 * **Intelligent Decisioning &amp; Personalization**  - 브랜드는 중앙 집중식 의사 결정을 적용하고 인공 지능 및 시스템 학습을 통합하여 고객 경험 전반에 대한 예측 통찰력을 보여줄 수 있으므로 결정을 보다 쉽게 자동화하고 경험을 규모에 맞게 최적화할 수 있습니다. offer decisioning은 [!DNL Adobe Journey Optimizer]을 통해 규모에 맞게 여러 채널에 대해 중앙 집중식 오퍼를 제공합니다.
+
+## 아키텍처
+
+[!DNL Adobe Journey Optimizer]의 기본 아키텍처, 통합 지점 및 [!DNL Journey Optimizer]의 다른 Adobe 애플리케이션과의 관계를 파악합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
+
 
 >[!NOTE]
 >
