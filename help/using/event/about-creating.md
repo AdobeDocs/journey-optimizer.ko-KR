@@ -5,10 +5,10 @@ feature: 이벤트
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 14%
+source-wordcount: '1674'
+ht-degree: 13%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 14%
 
 ## 페이로드 필드를 정의합니다 {#define-the-payload-fields}
 
-페이로드 정의를 사용하면 시스템에서 여정의 이벤트에서 받게 될 정보를 선택하고 키와 어떤 사람이 이벤트에 연결되어 있는지 식별할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)를 참조하십시오.
+페이로드 정의를 사용하면 시스템에서 여정의 이벤트에서 받게 될 정보를 선택하고 키와 어떤 사람이 이벤트에 연결되어 있는지 식별할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오.
 
 1. 목록에서 XDM 스키마를 선택하고 **[!UICONTROL Fields]** 필드 또는 **[!UICONTROL Edit]** 아이콘을 클릭합니다.
 
@@ -101,9 +101,9 @@ ht-degree: 14%
 
 ## 네임스페이스를 선택합니다 {#select-the-namespace}
 
-네임스페이스를 사용하면 이벤트와 연결된 사람을 식별하는 데 사용되는 키 유형을 정의할 수 있습니다. 구성은 선택 사항입니다. 여정에서 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)에서 오는 추가 정보를 검색하려면 필요합니다. 사용자 지정 데이터 소스를 통해 타사 시스템에서 가져온 데이터만 사용하는 경우에는 네임스페이스 정의가 필요하지 않습니다.
+네임스페이스를 사용하면 이벤트와 연결된 사람을 식별하는 데 사용되는 키 유형을 정의할 수 있습니다. 구성은 선택 사항입니다. 여정에서 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}에서 오는 추가 정보를 검색하려면 필요합니다. 사용자 지정 데이터 소스를 통해 타사 시스템에서 가져온 데이터만 사용하는 경우에는 네임스페이스 정의가 필요하지 않습니다.
 
-미리 정의된 네임스페이스 중 하나를 사용하거나 ID 네임스페이스 서비스를 사용하여 새 ID를 만들 수 있습니다. 이 [page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)을 참조하십시오.
+미리 정의된 네임스페이스 중 하나를 사용하거나 ID 네임스페이스 서비스를 사용하여 새 ID를 만들 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}를 참조하십시오.
 
 기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Profiler identifier]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. 정의된 ID가 없으면 _identityMap > id_&#x200B;를 기본 키로 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 _identityMap > id_&#x200B;를 사용하여 키가 미리 채워져 **[!UICONTROL Namespace]** 필드 아래에 있습니다.
 
@@ -122,7 +122,7 @@ ht-degree: 14%
 
 키는 이벤트 페이로드 데이터의 일부이며, 시스템에서 이벤트와 연관된 사용자를 식별할 수 있도록 하는 필드 또는 필드 조합입니다. 키는 Experience Cloud ID, CRM ID 또는 이메일 주소와 같은 것일 수 있습니다.
 
-실시간 고객 프로필 데이터베이스에 저장된 데이터를 활용하려면 [실시간 고객 프로필 서비스](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)에서 프로필 ID로 정의한 정보를 이벤트 키로 선택해야 합니다.
+실시간 고객 프로필 데이터베이스에 저장된 데이터를 활용하려면 [실시간 고객 프로필 서비스](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}에서 프로필 ID로 정의한 정보를 이벤트 키로 선택해야 합니다.
 
 이렇게 하면 시스템이 이벤트와 개인 프로필 간의 조정을 수행할 수 있습니다. 기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Profile identifier]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. 정의된 ID가 없으면 _identityMap > id_&#x200B;를 기본 키로 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 _identityMap > id_&#x200B;를 사용하여 키가 미리 채워져 **[!UICONTROL Namespace]** 필드 아래에 있습니다.
 
@@ -143,7 +143,7 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 이벤트가 수신되면 키 값을 통해 시스템에서 이벤트와 연관된 사용자를 식별할 수 있습니다. 네임스페이스에 연결된( [이 섹션](../event/about-creating.md#select-the-namespace) 참조) 키를 사용하여 Adobe Experience Platform에서 쿼리를 수행할 수 있습니다. [이 페이지](../building-journeys/about-journey-activities.md#orchestration-activities)를 참조하십시오.
 키가 여정에 있는지 확인하는 데에도 사용됩니다. 실제로, 한 사람은 동일한 여정에서 두 개의 다른 위치에 있을 수 없습니다. 따라서 시스템에서 동일한 키(예: CRMID=3224)를 동일한 여정의 다른 위치에 둘 수 없습니다.
 
-추가 조작을 수행하려면 고급 표현식 함수(**[!UICONTROL Advanced mode]**)에 액세스할 수도 있습니다. 이러한 함수를 사용하면 필드의 일부(예: 첫 번째 문자 10개)를 고려하여 형식 변경, 필드 연결 수행 등 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ko)를 참조하십시오.
+추가 조작을 수행하려면 고급 표현식 함수(**[!UICONTROL Advanced mode]**)에 액세스할 수도 있습니다. 이러한 함수를 사용하면 필드의 일부(예: 첫 번째 문자 10개)를 고려하여 형식 변경, 필드 연결 수행 등 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다. [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오.
 
 ## 조건 추가 {#add-a-condition}
 
@@ -151,7 +151,7 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 
 이벤트에 대한 조건은 이벤트 페이로드에서 전달된 데이터만 기반으로 할 수 있습니다. 이벤트 수준에서 정의된 조건은 마케터가 캔버스에서 변경할 수 없습니다. 이 이벤트를 사용할 때 이 조건을 제한하는 것이 목적입니다. 예를 들어 장바구니 값이 너무 작은 경우 장바구니 포기 이벤트를 사용하지 않도록 하려면 &quot;장바구니 값&quot; 이벤트 필드에 조건을 만들고 100달러 이상의 값을 부과할 수 있습니다.
 
-단순 표현식 편집기 또는 고급 표현식 편집기를 사용하여 이벤트에 대한 조건을 설정할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)를 참조하십시오.
+단순 표현식 편집기 또는 고급 표현식 편집기를 사용하여 이벤트에 대한 조건을 설정할 수 있습니다. [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}를 참조하십시오.
 
 예를 들어 특정 이벤트 유형의 이벤트만 처리하고 다른 유형을 무시할 조건을 정의할 수 있습니다. 또는 이벤트가 장바구니 중단이고 페이로드에 장바구니 값 필드가 포함된 경우 장바구니 값이 100달러보다 큰 경우에만 이벤트를 처리하도록 이벤트 조건을 정의할 수 있습니다.
 
