@@ -5,9 +5,9 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Intermediate
-source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '624'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 1%
 1. **컨텍스트** 범주를 선택합니다. 이 항목은 여정이 메시지에 컨텍스트 데이터를 전달한 경우에만 사용할 수 있습니다. **Journey Orchestration**&#x200B;를 클릭합니다. 다음과 같은 상황별 정보가 표시됩니다.
 
    * **이벤트**:이 카테고리는 여정에서 메시지 활동 앞에 배치된 이벤트 **** 의 모든 필드를 다시 그룹화합니다.
-   * **여정 속성**:주어진 프로필의 여정과 관련된 기술 필드(예: 여정 ID 또는 발생한 특정 오류)입니다. [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys)를 참조하십시오.
+   * **여정 속성**:주어진 프로필의 여정과 관련된 기술 필드(예: 여정 ID 또는 발생한 특정 오류)입니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys){target=&quot;_blank&quot;}를 참조하십시오.
 
    ![](assets/perso-uc10.png)
 
