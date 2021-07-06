@@ -5,7 +5,7 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 등급 수식을 만드는 방법에 대한 자세한 내용은 [이 섹션](../offer-library/create-ranking-formulas.md)을 참조하십시오.
 
-## 배치 {#assign-ranking-formula}에 등급 공식 할당
+## 배치에 등급 공식 할당 {#assign-ranking-formula}
 
 등급 공식이 만들어지면 결정에서 배치에 할당할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
 
