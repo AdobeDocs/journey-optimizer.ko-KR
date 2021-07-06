@@ -4,7 +4,7 @@ description: Adobe Journey Optimizer에서 Adobe Experience Platform 데이터 �
 feature: 데이터 세트
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 12%
@@ -15,7 +15,7 @@ ht-degree: 12%
 
 Adobe Experience Platform에 수집된 모든 데이터는 데이터 세트로 데이터 레이크 내에서 유지됩니다. 데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다. 
 
-[이 설명서](https://experienceleague-review.corp.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}에서 데이터 세트를 만드는 방법을 알아봅니다.
+[이 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}에서 데이터 세트를 만드는 방법을 알아봅니다.
 
 Adobe Experience Platform에 데이터를 추가하는 것은 프로필 작성의 기반입니다. 그러면 [!DNL Adobe Journey Optimizer]에서 프로필을 활용할 수 있습니다. 먼저 스키마를 정의하고 ETL 도구를 사용하여 데이터를 준비하고 표준화한 다음 스키마를 기반으로 데이터 세트를 만듭니다.
 
