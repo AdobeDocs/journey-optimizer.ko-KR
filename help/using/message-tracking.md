@@ -1,20 +1,20 @@
 ---
 title: 메시지 추적
-description: 보낸 메시지를 추적하는 방법 알아보기
+description: 링크를 추가하고 보낸 메시지를 추적하는 방법을 알아봅니다
 feature: 모니터링
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: e27472cc6186cf7cb25fdb93d15720fc837c58bb
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 2%
+source-wordcount: '536'
+ht-degree: 1%
 
 ---
 
-# 메시지 추적 {#tracking}
+# 링크 추가 및 메시지 추적 {#tracking}
 
-[!DNL Journey Optimizer] 을 사용하여 보낸 메시지와 수신자의 동작을 추적합니다.
+수신자의 동작을 모니터링하기 위해 [!DNL Journey Optimizer] 을 사용하여 컨텐츠에 링크를 추가하고 전송된 메시지를 추적합니다.
 
 ## 추적 활성화 {#enable-tracking}
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
    * **[!UICONTROL Unsubscription link]**:브랜드의 커뮤니케이션 수신을 취소할 링크를 삽입합니다. [이 섹션](consent.md#opt-out-management)에서 옵트아웃 관리에 대해 자세히 알아보십시오.
 
-   * **[!UICONTROL Mirror page]**:웹 브라우저에 이메일 콘텐츠를 표시할 링크를 삽입합니다.
+   * **[!UICONTROL Mirror page]**:웹 브라우저에 이메일 콘텐츠를 표시할 링크를 삽입합니다. 자세한 내용은 [이 섹션](#mirror-page)을 참조하십시오.
 
    ![](assets/message-tracking-links.png)
 
@@ -64,6 +64,28 @@ ht-degree: 2%
    * 해당 옵션을 선택하여 링크에 밑줄을 긋도록 선택할 수 있습니다.
 
    ![](assets/message-tracking-link-settings.png)
+
+## 미러 페이지에 대한 링크 {#mirror-page}
+
+미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 전자 메일의 콘텐츠와 동일합니다.
+
+이메일의 미러 페이지에 대한 링크를 추가하려면 [링크](#insert-links)를 삽입하고 링크 유형으로 **[!UICONTROL Mirror page]**&#x200B;을(를) 선택합니다.
+
+![](assets/message-tracking-mirror-page.png)
+
+미러 페이지가 자동으로 생성됩니다.
+
+>[!NOTE]
+>
+>자동 생성된 링크는 편집할 수 없습니다.
+
+전자 메일이 전송되면 수신자가 미러 페이지 링크를 클릭하면 전자 메일의 컨텐츠가 기본 웹 브라우저에 표시됩니다.
+
+>[!NOTE]
+>
+>테스트 프로필로 전송된 [증명](preview.md#send-proofs)에서 미러 페이지에 대한 링크가 활성 상태가 아닙니다. 최종 메시지에서만 활성화됩니다.
+
+미러 페이지의 보존 기간은 60일입니다. 이후 미러 페이지는 더 이상 사용할 수 없습니다.
 
 ## 추적 관리 {#manage-tracking}
 
