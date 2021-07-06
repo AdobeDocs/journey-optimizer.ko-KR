@@ -5,7 +5,7 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 15%
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 배치는 메시지 내의 올바른 위치에 올바른 오퍼 컨텐츠가 표시되도록 하는 데 도움이 됩니다. 오퍼에 컨텐츠를 추가할 때 해당 컨텐츠가 표시될 수 있는 배치를 선택하라는 메시지가 표시됩니다.
 
-![](../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 아래 예에는 서로 다른 유형의 컨텐츠(이미지, 텍스트, HTML)에 해당하는 세 개의 배치가 있습니다.
 
