@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
+source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '300'
 ht-degree: 6%
 
 ---
@@ -53,3 +53,7 @@ ht-degree: 6%
 1. 세그먼트가 준비되면 **[!UICONTROL Save]** 을 클릭합니다. Adobe Experience Platform 세그먼트 목록에 표시됩니다. 검색 창에서는 목록에서 특정 세그먼트를 검색하는 데 도움이 됩니다.
 
 이제 여정에서 세그먼트를 사용할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../segment/about-segments.md)을 참조하십시오.
+
+## 튜토리얼 비디오{#create-segment-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)
