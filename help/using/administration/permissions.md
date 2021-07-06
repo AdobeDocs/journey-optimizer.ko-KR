@@ -6,10 +6,10 @@ feature: 컨트롤 그룹
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 18%
+source-wordcount: '726'
+ht-degree: 15%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 18%
 
 [!DNL Journey Optimizer] 에서는 직접 만들고 권한 집합 **[!UICONTROL Product profiles]** 과 샌드박스를 사용자에게 할당할 수 있습니다. **[!UICONTROL Product profiles]**&#x200B;을 사용하면 인터페이스에서 특정 기능 또는 개체에 대한 액세스를 승인하거나 거부할 수 있습니다.
 
-샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko)를 참조하십시오.
+샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오.
 
 이 예에서는 **여정 읽기 전용**&#x200B;이라는 제품 프로필을 만듭니다. 여기서 여정 기능에 읽기 전용 권한을 부여합니다. 사용자는 여정에 액세스하고 볼 수만 있으며, [!DNL Journey Optimizer]에서 **[!UICONTROL Decision management]** 또는 **[!UICONTROL Messages]** 등의 다른 기능에 액세스할 수 없습니다.
 
@@ -141,7 +141,7 @@ ht-degree: 18%
 
    ![](../assets/access_control_13.png)
 
-1. **[!UICONTROL Available Permissions Items]** 아래에서 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스에 대한 자세한 내용을 살펴보십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko).
+1. **[!UICONTROL Available Permissions Items]** 아래에서 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스에 대한 자세한 내용을 살펴보십시오](sandboxes.md).
 
 1. 완료되었으면 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
