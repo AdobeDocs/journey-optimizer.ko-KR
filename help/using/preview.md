@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![](assets/previewselect-namespace.png)
 
-   이 섹션](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started)에서 Adobe Experience Platform ID 네임스페이스 [에 대해 자세히 알아보십시오.
+   이 섹션](get-started-identity.md){target=&quot;_blank&quot;}에서 Adobe Experience Platform ID 네임스페이스 [에 대해 자세히 알아보십시오.
 
    아래 예제에서는 **Email** 네임스페이스를 사용합니다.
 
