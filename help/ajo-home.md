@@ -1,14 +1,15 @@
 ---
 keywords: Journey Optimizer;홈;인기 항목
 title: Journey Orchestration 제품 설명서
+description: Adobe Journey Optimizer 제품 도움말 센터
 feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: 6a2304fc3b6262d339b7bf1f229f12ba68f1a993
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 38%
+source-wordcount: '202'
+ht-degree: 37%
 
 ---
 
@@ -111,7 +112,7 @@ ht-degree: 38%
     <p>
     <p>콘텐츠 관리</p>
     <li>
-      <a href="using/assets-essentials.md">에셋</a>
+      <a href="using/assets-essentials.md">Assets</a>
     </li>
     <p>
     <p>데이터 관리</p>
