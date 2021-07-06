@@ -5,14 +5,14 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: a6a421fc23f4564bb24061c019c9418b491e7eee
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 3%
 
 ---
 
-# 사용 사례:개인화된 오퍼를 이메일 {#configure-add-personalized-offers-email}에 사용하도록 구성합니다
+# 사용 사례:이메일에서 사용할 수 있도록 개인화된 오퍼를 구성합니다 {#configure-add-personalized-offers-email}
 
 이 섹션에서는 이전에 만든 결정에 따라 오퍼를 구성하고 이메일에 사용하는 방법을 보여주는 종단간 예를 제공합니다.
 
@@ -58,7 +58,7 @@ ht-degree: 3%
 
 ![](../assets/offers-e2e-process.png)
 
-## 구성 요소 {#define-components} 정의
+## 구성 요소 정의 {#define-components}
 
 오퍼 만들기를 시작하기 전에 오퍼에서 사용할 몇 가지 구성 요소를 정의해야 합니다.
 
@@ -131,7 +131,7 @@ ht-degree: 3%
 
    ![](../assets/offers-e2e-representations.png)
 
-1. **[!UICONTROL Offer eligiblity]** 섹션에서 **[!UICONTROL By defined decision rule]** 을 선택하고 선택한 규칙을 드래그하여 놓습니다.
+1. **[!UICONTROL Offer eligibility]** 섹션에서 **[!UICONTROL By defined decision rule]** 을 선택하고 선택한 규칙을 드래그하여 놓습니다.
 
    ![](../assets/offers-e2e-eligibility.png)
 
@@ -220,7 +220,7 @@ ht-degree: 3%
 
 결정을 만들고 구성하는 자세한 단계는 [이 섹션](../../using/offers/offer-activities/create-offer-activities.md)에 설명되어 있습니다.
 
-## 전자 메일 {#insert-decision-in-email}에 결정 삽입
+## 이메일에 결정 삽입 {#insert-decision-in-email}
 
 이제 결정을 실행했으므로 이메일 메시지에 삽입할 수 있습니다. 이렇게 하려면 아래 절차를 따르십시오.
 
