@@ -5,14 +5,14 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 51%
+source-wordcount: '196'
+ht-degree: 38%
 
 ---
 
-# Adobe Journey Optimizer 설명서 {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer]설명서 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
@@ -26,7 +26,7 @@ ht-degree: 51%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">Journey Optimizer란 무엇입니까?</a>
+      <a href="using/get-started.md">[!DNL Journey Optimizer]란 무엇입니까?</a>
     </div>
     <p>주요 기능 및 시작 방법 살펴보기
     <p>
@@ -67,6 +67,9 @@ ht-degree: 51%
     <p>
     <p>
     <div>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizer 제품 설명</a>
+    </div>
+    <div>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko">Adobe Experience Platform 설명서</a>
     </div>
       <div>
@@ -105,13 +108,13 @@ ht-degree: 51%
     <p>
     <p>데이터 관리</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko">스키마</a>
+      <a href="using/get-started-schemas.md">스키마</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko">데이터 세트</a>
+      <a href="using/get-started-datasets.md">데이터 세트</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=ko">쿼리</a>
+      <a href="using/get-started-queries.md">쿼리</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko">모니터링</a>
@@ -119,7 +122,7 @@ ht-degree: 51%
     <p>
     <p>연결</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko">소스</a>
+      <a href="using/get-started-sources.md">소스</a>
     </li>
     <p>
     <p>고객</p>
@@ -127,10 +130,10 @@ ht-degree: 51%
       <a href="using/segment/about-segments.md">세그먼트</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko">프로필</a>
+      <a href="using/get-started-profiles.md">프로필</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces">ID</a>
+      <a href="using/get-started-identity.md">ID</a>
     </li>
     <p>
     <p>관리</p>
