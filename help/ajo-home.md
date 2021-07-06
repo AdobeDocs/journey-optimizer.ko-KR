@@ -5,7 +5,7 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: 23120835969006b3c8004b8cd89c4a9ab976760a
+source-git-commit: 6a2304fc3b6262d339b7bf1f229f12ba68f1a993
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 38%
@@ -68,22 +68,22 @@ ht-degree: 38%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizer 제품 설명</a>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer 제품 설명</a>
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko">Adobe Experience Platform 설명서</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko" target="_blank">Adobe Experience Platform 설명서</a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko">Adobe Experience Platform 액세스 개요</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko" target="_blank">Adobe Experience Platform 액세스 개요</a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform 개발자 리소스</a>
+      <a href="https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform 개발자 리소스</a>
     </li>
     </div>
   </td>
@@ -125,7 +125,7 @@ ht-degree: 38%
       <a href="using/get-started-queries.md">쿼리</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko">모니터링</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko" target="_blank">모니터링</a>
     </li>
     <p>
     <p>연결</p>
