@@ -5,10 +5,10 @@ feature: 컨트롤 그룹
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: 2c4a86f7beb10d1ce35e8fb5600a979164038e5f
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 76%
+source-wordcount: '335'
+ht-degree: 69%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 76%
 샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. [샌드박스를 할당하는 방법을 알아봅니다](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] (은)는 해당 조직을 위해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
-Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. [자세한 내용은 샌드박스 사용 안내서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko).
+Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. [자세한 내용은 샌드박스 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko){target=&quot;_blank&quot;}에서 알아보십시오.
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.
 
@@ -28,7 +28,7 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 
 >[!IMPORTANT]
 >
-> 샌드박스 관리는 **[!UICONTROL Product]** 또는 **[!UICONTROL System]** 관리자만 수행할 수 있습니다. 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html)를 참조하십시오.
+> 샌드박스 관리는 **[!UICONTROL Product]** 또는 **[!UICONTROL System]** 관리자만 수행할 수 있습니다. 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}를 참조하십시오.
 
 기본 제공 또는 사용자 지정 **[!UICONTROL Product profiles]**&#x200B;에 다른 샌드박스를 할당하도록 선택할 수 있습니다.
 
@@ -46,7 +46,7 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 
    ![](../assets/sandbox_2.png)
 
-1. **[!UICONTROL Available Permissions Items]** 아래에서 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스에 대한 자세한 내용을 살펴보십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko).
+1. **[!UICONTROL Available Permissions Items]** 아래에서 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko){target=&quot;_blank&quot;}에 대해 자세히 알아보십시오.
 
    ![](../assets/sandbox_3.png)
 
@@ -64,4 +64,4 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 
 내용이 올바른 샌드박스와 동기화되도록 하려면 샌드박스와 동일한 구문을 따라야 합니다. 예를 들어 샌드박스가 개발이라고 하는 경우 공유 폴더의 이름이 같아야 합니다.
 
-[공유 폴더 관리 방법에 대해 알아봅니다](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html).
+[공유 폴더](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}를 관리하는 방법을 알아봅니다.
