@@ -5,7 +5,7 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 7%
