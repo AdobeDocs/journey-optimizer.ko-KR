@@ -5,7 +5,7 @@ feature: 이벤트
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 14%
@@ -71,7 +71,7 @@ ht-degree: 14%
 
    이제 이벤트가 구성되었으며 경로에 추가할 수 있는 상태가 되었습니다. 이벤트를 수신하려면 추가 구성 단계를 수행해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
 
-## 페이로드 필드 정의 {#define-the-payload-fields}
+## 페이로드 필드를 정의합니다 {#define-the-payload-fields}
 
 페이로드 정의를 사용하면 시스템에서 여정의 이벤트에서 받게 될 정보를 선택하고 키와 어떤 사람이 이벤트에 연결되어 있는지 식별할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)를 참조하십시오.
 
@@ -99,7 +99,7 @@ ht-degree: 14%
 
    ![](../assets/journey12.png)
 
-## 네임스페이스 {#select-the-namespace} 를 선택합니다.
+## 네임스페이스를 선택합니다 {#select-the-namespace}
 
 네임스페이스를 사용하면 이벤트와 연결된 사람을 식별하는 데 사용되는 키 유형을 정의할 수 있습니다. 구성은 선택 사항입니다. 여정에서 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)에서 오는 추가 정보를 검색하려면 필요합니다. 사용자 지정 데이터 소스를 통해 타사 시스템에서 가져온 데이터만 사용하는 경우에는 네임스페이스 정의가 필요하지 않습니다.
 
@@ -118,7 +118,7 @@ ht-degree: 14%
 
 여정 당 하나의 네임스페이스만 허용됩니다. 동일한 여정에서 여러 이벤트를 사용하는 경우 동일한 네임스페이스를 사용해야 합니다. [이 페이지](../building-journeys/journey.md)를 참조하십시오.
 
-## 프로필 식별자 {#define-the-event-key} 정의
+## 프로필 식별자 정의 {#define-the-event-key}
 
 키는 이벤트 페이로드 데이터의 일부이며, 시스템에서 이벤트와 연관된 사용자를 식별할 수 있도록 하는 필드 또는 필드 조합입니다. 키는 Experience Cloud ID, CRM ID 또는 이메일 주소와 같은 것일 수 있습니다.
 
@@ -145,7 +145,7 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 
 추가 조작을 수행하려면 고급 표현식 함수(**[!UICONTROL Advanced mode]**)에 액세스할 수도 있습니다. 이러한 함수를 사용하면 필드의 일부(예: 첫 번째 문자 10개)를 고려하여 형식 변경, 필드 연결 수행 등 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ko)를 참조하십시오.
 
-## 조건 {#add-a-condition} 추가
+## 조건 추가 {#add-a-condition}
 
 조건은 시스템에서 생성한 이벤트에만 사용할 수 있습니다. 시스템에서 이벤트 처리를 필터링할 수 있는 이벤트 조건을 정의할 수 있습니다. 조건이 true면 이벤트가 처리됩니다. 조건이 true가 아니면 이벤트가 무시됩니다.
 
@@ -157,7 +157,7 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 
 ![](../assets/journey78.png)
 
-## 페이로드 {#preview-the-payload} 미리 보기
+## 페이로드 미리 보기 {#preview-the-payload}
 
 페이로드 미리 보기를 사용하면 페이로드 정의의 유효성을 검사할 수 있습니다.
 
