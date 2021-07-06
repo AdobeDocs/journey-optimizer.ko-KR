@@ -5,10 +5,10 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 42%
+source-wordcount: '403'
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 42%
 
 * **사용자 권한 설정**:에 로그인하고  [!DNL Adobe Journey Optimizer] 팀 구성원에게 액세스 권한을 제공합니다. [자세히 보기](../using/administration/permissions.md)
 
-* **배포[!DNL Adobe Experience Manager Assets Essentials]**:메시지의 자산 및 이미지를 관리하려면 조직 [!DNL Assets Essentials] 에 대해 배포하고 액세스 권한이 필요한 사용자가  [!DNL Assets Essentials]Assets Essentials 소비자 사용자 또는/ **및** Assets Essentials 사용자 제품 프로필에 포함되어  **** 있는지 확인해야 합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+* **배포[!DNL Adobe Experience Manager Assets Essentials]**:메시지의 자산 및 이미지를 관리하려면 조직 [!DNL Assets Essentials] 에 대해 배포하고 액세스 권한이 필요한 사용자가  [!DNL Assets Essentials]Assets Essentials 소비자 사용자 또는/ **및** Assets Essentials 사용자 제품 프로필에 포함되어  **** 있는지 확인해야 합니다. [자세한](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) 내용{target=&quot;_blank&quot;}
 
 * **채널 구성**:전자 메일 및 푸시 알림 설정을 정의합니다. [자세히 보기](../using/configuration/get-started-configuration.md)
 
@@ -34,13 +34,13 @@ ht-degree: 42%
 
 * **데이터 식별과 스키마 및 데이터 세트 만들기**: 데이터를 Adobe Experience Platform으로 가져오고, ID 네임스페이스와 프로필을 사용할 수 있는 데이터 세트와 세그먼트를 만들고 프로필을 테스트합니다.
 
-   * [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko)에서 데이터 세트를 미리 보고 만드는 방법을 알아봅니다
+   * [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko){target=&quot;_blank&quot;}에서 데이터 집합을 미리 보고 만드는 방법을 알아봅니다
 
-   * [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko#manage-namespaces)에서 ID 네임스페이스를 만드는 방법을 알아봅니다
+   * [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko#manage-namespaces){target=&quot;_blank&quot;}에서 ID 네임스페이스를 만드는 방법을 알아봅니다
 
    * [이 페이지에서 테스트 프로필을 만드는 방법을 알아봅니다](../using/building-journeys/creating-test-profiles.md)
 
-   * [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko)의 데이터 처리에 대해 자세히 알아보십시오
+   * [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target=&quot;_blank&quot;}의 데이터 처리에 대해 자세히 알아보십시오
 
 
 ### 사용 플로우
