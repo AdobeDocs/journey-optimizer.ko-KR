@@ -5,7 +5,7 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 * Platform으로 보낸 업데이트 요청은 속도가 빠르지만 1초 이내에 전송되지 않습니다. 보통 몇 초 정도 걸리지만 가끔은 장담할 수 없는 경우도 있다. 따라서 예를 들어, 작업이 바로 앞에 배치된 프로필 업데이트 작업에 의해 업데이트된 &quot;필드 1&quot;을 사용하는 경우 작업에서 &quot;필드 1&quot;이 업데이트될 것으로 예상하면 안 됩니다.
 * 데이터 소스에는 필드 그룹 수준에서 캐시 기간 개념이 있습니다. 여정에서 최근에 업데이트된 프로필 필드를 활용하려는 경우 매우 짧은 캐시 기간을 정의하도록 주의하십시오.
 
-## 테스트 모드 {#using-the-test-mode} 사용
+## 테스트 모드 사용 {#using-the-test-mode}
 
 테스트 모드에서는 프로필 업데이트가 시뮬레이션되지 않습니다. 업데이트는 테스트 프로필에서 수행됩니다.
 
