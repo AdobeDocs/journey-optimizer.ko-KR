@@ -5,16 +5,16 @@ feature: 애플리케이션 설정
 topic: 푸시
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1432'
 ht-degree: 4%
 
 ---
 
 # 푸시 알림 채널 구성 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] 에서는 여정을 만들고 타겟팅된 대상자에게 메시지를 전송할 수 있습니다. [!DNL Journey Optimizer](으)로 푸시 알림을 전송하기 전에 모바일 앱과 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]에 구성 및 통합이 있는지 확인해야 합니다. Adobe 여정 최적기의 푸시 알림 데이터 흐름을 이해하려면 [이 페이지](push-gs.md)를 참조하십시오.
+[!DNL Journey Optimizer] 에서는 여정을 만들고 타겟팅된 대상자에게 메시지를 전송할 수 있습니다. [!DNL Journey Optimizer](으)로 푸시 알림을 전송하기 전에 모바일 앱과 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]에 구성 및 통합이 있는지 확인해야 합니다. [!DNL Adobe Journey Optimizer]의 푸시 알림 데이터 흐름을 이해하려면 [이 페이지](push-gs.md)를 참조하십시오.
 
 ## 시작하기 전
 
@@ -54,7 +54,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 1. 기존 **[!UICONTROL Product Profile]** 을 선택하거나 **[!UICONTROL New profile]** 버튼을 사용하여 새 하나를 만듭니다. [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui)에서 새 **[!UICONTROL New profile]**&#x200B;을 만드는 방법을 알아봅니다.
 
-1. **[!UICONTROL Permissions]** 탭에서 **[!UICONTROL Property rights]** 을 선택합니다.
+1. **[!UICONTROL Permissions]** 탭에서, **[!UICONTROL Property rights]**&#x200B;를 선택합니다.
 
    ![](assets/push_product_2.png)
 
@@ -88,7 +88,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 1. **[!UICONTROL Products]** 탭에서 **[!UICONTROL Adobe Experience Platform Launch]** 카드를 선택합니다.
 
-1. 이전에 구성한 **[!UICONTROL Product profile]** 을 선택합니다.
+1. 이전에 구성한 **[!UICONTROL Product profile]**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL Users]** 탭에서 **[!UICONTROL Add user]**&#x200B;을 클릭합니다.
 
@@ -118,7 +118,7 @@ Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모
 이렇게 하면 Adobe Experience Platform Launch에서 모바일 속성도 만들고 구성해야 합니다. 일반적으로 관리할 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. [Adobe Experience Platform Launch 설명서](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)에서 모바일 속성을 만들고 구성하는 방법을 알아봅니다.
 
 
-## 1단계:Adobe Experience Platform Launch {#push-credentials-launch}에 앱 푸시 자격 증명을 추가합니다.
+## 1단계:Adobe Experience Platform Launch에서 앱 푸시 자격 증명 추가 {#push-credentials-launch}
 
 올바른 사용자 권한을 부여한 후 이제 [!DNL Adobe Experience Platform Launch]에 모바일 애플리케이션 푸시 자격 증명을 추가해야 합니다.
 
@@ -245,7 +245,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## 3단계:이벤트 {#mobile-app-test} 를 사용하여 모바일 앱을 테스트합니다
+## 3단계:이벤트를 사용하여 모바일 앱을 테스트합니다 {#mobile-app-test}
 
 이제 Adobe Experience Platform과 Launch 모두에서 모바일 앱을 구성한 후 프로필에 푸시 알림을 보내기 전에 테스트할 수 있습니다. 이 사용 사례에서는 모바일 앱을 타깃팅할 여정을 만들고 푸시 알림을 트리거할 이벤트를 설정합니다.
 
@@ -263,7 +263,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. **[!UICONTROL Create a new field group]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL Display Name]** 및 **[!UICONTROL Description]**&#x200B;을 입력합니다. 완료되면 **[!UICONTROL Add field groups]** 을 클릭합니다. 필드 그룹을 만드는 방법에 대한 자세한 내용은 [XDM 시스템 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko) 를 참조하십시오.
+1. **[!UICONTROL Display Name]** 및 **[!UICONTROL Description]**&#x200B;을 입력합니다. 구성을 완료하면 **[!UICONTROL Add field groups]** 을(를) 클릭합니다. 필드 그룹을 만드는 방법에 대한 자세한 내용은 [XDM 시스템 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko) 를 참조하십시오.
 
 
    ![](assets/test_push_4.png)
@@ -343,7 +343,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 이벤트가 트리거되고 모바일 앱에 대한 푸시 알림을 받게 됩니다.
 
-## 4단계:푸시{#message-preset}에 대한 메시지 사전 설정을 만듭니다.
+## 4단계:푸시용 메시지 사전 설정 만들기{#message-preset}
 
 모바일 앱이 [!DNL Adobe Experience Platform Launch]에 설정되면 **[!DNL Journey Optimizer]**&#x200B;에서 푸시 알림을 전송할 수 있도록 메시지 사전 설정을 만들어야 합니다.
 
