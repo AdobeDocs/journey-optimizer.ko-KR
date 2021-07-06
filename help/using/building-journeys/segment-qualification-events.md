@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **Acquisition** 및 **Quised** 세그먼트 기여도 상태에 해당합니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세분화 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)를 참조하십시오.
+   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **Acquisition** 및 **Quised** 세그먼트 기여도 상태에 해당합니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세분화 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}를 참조하십시오.
 
 1. 네임스페이스를 선택합니다. 이벤트가 여정의 첫 번째 단계로 배치된 경우에만 필요합니다.
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 스트리밍되는 세그먼트에 세그먼트 자격을 사용할 때는 세그먼트에 대한 지속적인 평가로 인해 출입구의 최대 수를 확보할 위험이 줄어듭니다. 여전히, 세그먼트 정의로 인해 많은 수의 고객이 동시에 자격을 얻는 경우 피크도 있을 수 있습니다.
 
-스트리밍 세그멘테이션에 대한 자세한 내용은 이 [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)을 참조하십시오
+스트리밍 세그멘테이션에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api) 를 참조하십시오
 
 ### 오버로드를 방지하는 방법{#overloads-speed-segment-qualification}
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 ![](../assets/segment-error.png)
 
-여정에 사용된 데이터 소스 및 작업에 대해 최대 가용량 규칙을 설정하여 오버로드를 방지합니다(이 [section](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html) 참조). 최대 가용량 규칙은 다시 시도되지 않습니다. 다시 시도해야 하는 경우 조건 또는 작업에서 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 상자를 선택하여 여정에서 대체 경로를 사용해야 합니다.
+여정에 사용된 데이터 소스 및 작업에 대해 최대 가용량 규칙을 설정하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}를 참조하십시오. 최대 가용량 규칙은 다시 시도되지 않습니다. 다시 시도해야 하는 경우 조건 또는 작업에서 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 상자를 선택하여 여정에서 대체 경로를 사용해야 합니다.
 
 프로덕션 여정에서 세그먼트를 사용하기 전에 항상 먼저 매일 이 세그먼트에 대해 자격이 있는 개인의 볼륨을 평가하십시오. 이렇게 하려면 **[!UICONTROL Segments]** 메뉴를 선택하고 세그먼트를 연 다음 **[!UICONTROL Profiles over time]** 그래프를 볼 수 있습니다.
 
