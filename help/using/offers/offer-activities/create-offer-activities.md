@@ -5,9 +5,9 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '576'
 ht-degree: 4%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 4%
 
    왼쪽 창에서 하나 또는 여러 개의 세그먼트를 추가하고 **[!UICONTROL And]** / **[!UICONTROL Or]** 논리 연산자를 사용하여 조합한 다음 **[!UICONTROL Select]** 를 클릭하여 확인합니다.
 
-   세그먼트 작업 방법에 대한 자세한 내용은 [세분화 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) 를 참조하십시오.
+   세그먼트 작업 방법에 대한 자세한 내용은 [이 페이지](../../segment/about-segments.md)를 참조하십시오.
 
    ![](../../assets/activity_constraint_segment2.png)
 
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->결정이 생성되면 목록에서 해당 이름을 클릭하여 세부 정보에 액세스하고 **[!UICONTROL Change log]** 탭을 사용하여 모든 변경 사항을 시각화할 수 있습니다([오퍼 및 결정 변경 로그](../get-started/user-interface.md#changes-log) 참조).
+>결정이 생성되면 목록에서 해당 이름을 클릭하여 세부 정보에 액세스하고 **[!UICONTROL Change log]** 탭을 사용하여 모든 변경 사항을 시각화할 수 있습니다. [자세히 알아보기](../get-started/user-interface.md#changes-log).
 
 ## 튜토리얼 비디오 {#video}
 
