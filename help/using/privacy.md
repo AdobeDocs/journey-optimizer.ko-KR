@@ -4,7 +4,7 @@ description: 개인 정보를 관리하는 방법에 대해 알아봅니다.
 topic: 개인 정보
 role: User
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 90%
@@ -35,7 +35,7 @@ ht-degree: 90%
 
 * 요청하지 않은 메시지(&quot;스팸&quot;)를 보내지 마십시오. Adobe는 고객 생애 가치 및 충성도를 향상하기 위해 허가 마케팅의 원칙을 강력하게 믿고 있습니다. 따라서 원치 않는 메시지 발송에 Journey Optimizer를 사용하는 것을 엄격히 금하고 있습니다.
 
-Journey Optimizer은 여러 사전 빌드된 제품 프로필 또는 사용자 지정 제품 프로필을 통해 사용자에게 할당된 권한을 관리하는 기능을 제공합니다. 이를 통해 회사 내에서 다른 유형의 데이터에 액세스, 수정 또는 내보낼 수 있는 사용자를 관리할 수 있습니다. [관리 권한](../administration/permissions.md)에서 사용자 액세스 권한 관리에 대해 자세히 알아보십시오.
+Journey Optimizer은 여러 사전 빌드된 제품 프로필 또는 사용자 지정 제품 프로필을 통해 사용자에게 할당된 권한을 관리하는 기능을 제공합니다. 이를 통해 회사 내에서 다른 유형의 데이터에 액세스, 수정 또는 내보낼 수 있는 사용자를 관리할 수 있습니다. [관리 권한](administration/permissions.md)에서 사용자 액세스 권한 관리에 대해 자세히 알아보십시오.
 
 또한 Journey Optimizer을 사용하면 링크를 열고 클릭하는 방식으로 수신자의 행동과 보낸 메시지를 추적할 수 있습니다. [추적 관리에 대해 자세히 알아봅니다](message-tracking.md).
 
