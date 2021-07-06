@@ -5,7 +5,7 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 * 오퍼가 표시될 조건을 정의하는 **결정 규칙** [의사 결정 규칙 만들기](../offer-library/creating-decision-rules.md)를 참조하십시오.
 * 오퍼에 연결할 하나 또는 여러 **태그**&#x200B;를 사용하십시오. [태그 만들기](../offer-library/creating-tags.md)를 참조하십시오.
 
-![](../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 개인화된 오퍼 목록은 **[!UICONTROL Offers]** 메뉴에서 액세스할 수 있습니다.
 
