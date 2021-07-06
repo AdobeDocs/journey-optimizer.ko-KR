@@ -5,7 +5,7 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Beginner
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 11%
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 [!DNL Adobe Journey Optimizer] 개인화 기능을 살펴보고 그에 대한 데이터 및 정보를 활용하여 각 특정 수신자에게 메시지를 반영합니다. 그것은 그의 이름, 그의 관심, 그가 사는 곳, 그가 산 것 등이 될 수 있습니다.
 
-[!DNL :arrow_forward:] [이 비디오에서 메시지를 개인화하는 방법을 알아봅니다](#video-perso)
+[➡️ 이 비디오에서 메시지를 개인화하는 방법을 알아봅니다](#video-perso)
 
 [!DNL Journey Optimizer] 는  **** 중괄호로 묶은 내용을 포함하는 표현식을 만들 수 있도록 해주는 Handlebars 기반의 간단한 개인화 구문&#x200B;**{}**&#x200B;을 사용합니다. 동일한 콘텐츠 또는 필드에 제한 없이 여러 식을 추가할 수 있습니다. 자세한 내용은 [개인화 구문](personalization-syntax.md)을 참조하십시오.
 
