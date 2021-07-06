@@ -5,7 +5,7 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 6%
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 태그를 사용하여 오퍼를 함께 오퍼 컬렉션으로 그룹화할 수도 있습니다. [컬렉션 만들기](../offer-library/creating-collections.md)를 참조하십시오.
 
-![](../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 작성된 태그 목록은 **[!UICONTROL Components]** 메뉴에서 액세스할 수 있습니다.
 
