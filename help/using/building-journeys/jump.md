@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '804'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->또한 자습서 비디오 [여기](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=ko-KR)를 참조하십시오
+>또한 Journey Orchestration 자습서 비디오 [여기](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=ko-KR){target=&quot;_blank&quot;}를 참조하십시오
 
 ## 라이프사이클
 
