@@ -5,10 +5,10 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 7%
+source-wordcount: '410'
+ht-degree: 6%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 7%
 
 ## 사용자 지정 대기{#custom}
 
-이 옵션을 사용하면 이벤트 또는 데이터 소스에서 온 필드를 기반으로 하는 고급 표현식을 사용하여 2020년 7월 12일 오후 5시와 같은 사용자 지정 날짜를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. [이 페이지](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ko)를 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html)를 참조하십시오.
+이 옵션을 사용하면 이벤트 또는 데이터 소스에서 온 필드를 기반으로 하는 고급 표현식을 사용하여 2020년 7월 12일 오후 5시와 같은 사용자 지정 날짜를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html){target=&quot;_blank&quot;}를 참조하십시오.
 
 >[!NOTE]
 >
 >dateTimeOnly 표현식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예:toDateTimeOnly(@{Event.offerOpened.activity.endTime}), 2016-08-12T09:46:06Z 형식의 이벤트에 있는 필드입니다.
 >
->여정 속성에 **시간대**&#x200B;가 필요합니다. 따라서 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 가리키도록 인터페이스에서 직접 가리키는 것은 불가능합니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
+>여정 속성에 **시간대**&#x200B;가 필요합니다. 따라서 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 가리키도록 인터페이스에서 바로 가리키는 것은 불가능합니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
 ![](../assets/journey57.png)
 
