@@ -5,9 +5,9 @@ feature: 이벤트
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '825'
 ht-degree: 15%
 
 ---
@@ -76,9 +76,9 @@ ht-degree: 15%
 
    이제 이벤트가 구성되었으며 경로에 추가할 수 있는 상태가 되었습니다. 이벤트를 수신하려면 추가 구성 단계를 수행해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
 
-## 페이로드 필드 정의 {#define-the-payload-fields}
+## 페이로드 필드를 정의합니다 {#define-the-payload-fields}
 
-페이로드 정의를 사용하면 시스템에서 여정의 이벤트에서 받게 될 정보를 선택하고 키와 어떤 사람이 이벤트에 연결되어 있는지 식별할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)를 참조하십시오.
+페이로드 정의를 사용하면 시스템에서 여정의 이벤트에서 받게 될 정보를 선택하고 키와 어떤 사람이 이벤트에 연결되어 있는지 식별할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오.
 
 1. 목록에서 XDM 스키마를 선택하고 **[!UICONTROL Fields]** 필드 또는 **[!UICONTROL Edit]** 아이콘을 클릭합니다.
 
@@ -96,7 +96,7 @@ ht-degree: 15%
 
    ![](../assets/journey12-business.png)
 
-## 페이로드 {#preview-the-payload} 미리 보기
+## 페이로드 미리 보기 {#preview-the-payload}
 
 페이로드 미리 보기를 사용하면 페이로드 정의의 유효성을 검사할 수 있습니다.
 
