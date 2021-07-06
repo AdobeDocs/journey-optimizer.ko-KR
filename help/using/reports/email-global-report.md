@@ -5,14 +5,14 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
-# 전자 메일 글로벌 보고서 {#email-global-report}
+# 이메일 글로벌 보고서 {#email-global-report}
 
 이메일 **[!UICONTROL Global report]**&#x200B;은(는) 특정 이메일 게재만 타겟팅합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Click Rate]**:게재 클릭 비율.
 
-* **[!UICONTROL Spam Complaint Rate]**:배달된 메시지와 비교하여 수신자가 스팸으로 표시한 이메일의 백분율입니다. 불만 사항에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability)를 참조하십시오.
+* **[!UICONTROL Spam Complaint Rate]**:배달된 메시지와 비교하여 수신자가 스팸으로 표시한 이메일의 백분율입니다. 불만 사항에 대한 자세한 내용은 [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}를 참조하십시오.
 
 * **[!UICONTROL Unsubscribe Rate]**:게재한 메시지 수와 비교하여 고유한 구독 취소 비율입니다. 이 지표는 구독 취소 링크 클릭 수에 의존하지 않지만 수신자가 시작한 구독 취소 수를 기반으로 합니다. 이 [페이지](../consent.md)에서 구독 취소에 대해 자세히 알아보십시오.
 
