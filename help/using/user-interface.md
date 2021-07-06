@@ -5,7 +5,7 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 74%
@@ -98,7 +98,7 @@ ht-degree: 74%
 
 * **테스트 프로필을 만들고**, CSV 템플릿을 사용하여 테스트 프로필을 만들어 개인화된 메시지 및 여정을 테스트합니다. 이 페이지](building-journeys/creating-test-profiles.md#use-case-1)에서 이 사용 사례 [을 구현하는 방법을 알아봅니다.
 * **고객에게 생일 메시지를 보내** 고객이 생일 전에 받을 수 있도록 이메일을 자동으로 보냅니다. (준비 중)
-* **새로운 고객을** 참여하기 위해 이메일을 보내어 새로 등록한 고객을 환영하기 위해 최대 2개의 이메일을 쉽게 보낼 수 있습니다. (준비 중)
+* **새로운 고객에게 이메일을 보내 새로 등록한 고객을** 환영하기 위해 최대 2개의 이메일을 쉽게 보낼 수 있습니다. (준비 중)
 * **가져온 고객** 목록에 푸시 메시지를 전송하여 CSV 파일에서 가져온 고객 목록으로 푸시 알림을 신속하게 전송할 수 있습니다. (준비 중)
 
 각 사용 사례에 대한 자세한 내용을 보려면 **[!UICONTROL View details]** 을 클릭하십시오.
@@ -139,7 +139,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ## 검색
 
-Adobe Journey Optimizer 인터페이스에서 어디서나 상단 표시줄의 중앙에 있는 Adobe Experience Cloud 검색을 사용하여 샌드박스 전체에서 자산, 여정 또는 메시지를 찾을 수 있습니다. 상위 결과를 표시할 컨텐츠 입력을 시작합니다.
+Adobe Journey Optimizer 인터페이스에서 어디서나 상단 표시줄의 중앙에 있는 Adobe Experience Cloud 검색을 사용하여 샌드박스에서 자산, 여정 또는 메시지를 찾을 수 있습니다. 상위 결과를 표시할 컨텐츠 입력을 시작합니다.
 
 ![](assets/unified-search.png)
 
