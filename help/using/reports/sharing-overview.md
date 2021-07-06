@@ -5,9 +5,9 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 7%
 
 ---
@@ -58,4 +58,4 @@ Adobe Experience Platform에 전달된 XDM 필드 목록은 여기에서 자세�
 * [journeyStep 이벤트 ID 필드](../reports/sharing-identity-fields.md)
 * [여정 필드](../reports/sharing-journey-fields.md)
 
-Adobe Experience Platform에 보고하는 단계 이벤트에 대한 자세한 내용은 이 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)를 시청하십시오.
+Adobe Experience Platform에 보고하는 단계 이벤트에 대한 자세한 내용은 이 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}를 시청하십시오.
