@@ -4,10 +4,10 @@ description: Adobe Journey Optimizer에서 쿼리를 만드는 방법을 알아�
 feature: 스키마
 role: User
 level: Beginner
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -24,5 +24,5 @@ ht-degree: 2%
 
 **참조 -**
 
-* [쿼리 서비스 설명서](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
-* [쿼리 서비스 개요 비디오](https://experienceleague-review.corp.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
+* [쿼리 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target=&quot;_blank&quot;}
+* [쿼리 서비스 개요 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
