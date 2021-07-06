@@ -5,10 +5,10 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 5%
+source-wordcount: '563'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Handlebars 구문에 대한 전체 설명은 [HandlebarsJS 설명서](https://ha
 위치:
 
 * `profile` 는 네임스페이스입니다.
-* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko).
+* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [자세한](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko) 내용{target=&quot;_blank&quot;}.
 
 ## 구문 일반 규칙
 
@@ -45,7 +45,7 @@ Handlebars에서 {{expression}}에서 반환되는 값은 **HTML-escape**&#x200B
 
 ## 프로필
 
-이 네임스페이스를 사용하면 [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)에 설명된 프로필 스키마에 정의된 모든 속성을 참조할 수 있습니다.
+이 네임스페이스를 사용하면 [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}에 설명된 프로필 스키마에 정의된 모든 속성을 참조할 수 있습니다.
 
 [!DNL Journey Optimizer] 개인화 블록에서 참조되기 전에 스키마에서 속성을 정의해야 합니다.
 
