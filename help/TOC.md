@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3f0fe5079b32103aec6160f22900c14db7b0d304
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 97%
+source-wordcount: '691'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 97%
    + [개인화된 오퍼 추가](using/deliver-personalized-offers.md)
 + 세그먼트, 프로필 및 ID{#segment}
    + 세그먼트 {#segments}
-      + [세그먼트 정보](using/segment/about-segments.md)
+      + [세그먼트 시작](using/segment/about-segments.md)
       + [세그먼트 빌드](using/segment/creating-a-segment.md)
    + [프로필](using/get-started-profiles.md)
    + [ID](using/get-started-identity.md)
