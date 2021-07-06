@@ -5,7 +5,7 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 컬렉션을 사용하면 오퍼를 선택한 카테고리로 다시 그룹화하여 구성할 수 있습니다. 예를 들어, 스포츠 관련 오퍼만 포함하는 &quot;스포츠&quot; 컬렉션을 만들 수 있습니다.
 
-![](../../assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 오퍼 컬렉션 목록은 **[!UICONTROL Offers]** 메뉴에서 액세스할 수 있습니다.
 
