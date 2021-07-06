@@ -5,9 +5,9 @@ feature: 애플리케이션 설정
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 1%
 
 메시지 사전 설정이 구성되면 **[!UICONTROL Presets]** 목록에서 메시지를 만들 때 메시지 사전 설정을 선택할 수 있습니다.
 
-## 메시지 사전 설정 {#create-message-preset} 만들기
+![](../assets/do-not-localize/how-to-video.png) [이 비디오에서 이메일 사전 설정을 만들고 사용하는 방법을 알아봅니다](#video-presets)
+
+## 메시지 사전 설정 만들기 {#create-message-preset}
 
 메시지 사전 설정을 만들려면 다음 단계를 수행합니다.
 
@@ -148,3 +150,8 @@ ht-degree: 1%
    >
    >비활성화된 메시지 사전 설정은 이러한 사전 설정을 사용하여 메시지를 보내는 여정에서 문제를 방지하기 위해 삭제할 수 없습니다.
 
+## 방법 비디오{#video-presets}
+
+메시지 사전 설정을 만드는 방법, 메시지 사전 설정을 사용하는 방법, 하위 도메인을 위임하고 IP 풀을 만드는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
