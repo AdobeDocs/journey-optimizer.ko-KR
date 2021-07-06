@@ -5,9 +5,9 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Intermediate
-source-git-commit: d5060fcd70a02a24af579d5fa86c5225d417fdc4
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1016'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 3%
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      [개인 이름 데이터 유형](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html)에 대해 자세히 알아보십시오.
+      [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}의 개인 이름 데이터 유형에 대해 자세히 알아보십시오.
 
 6. **[!UICONTROL Validate]**&#x200B;를 클릭한 다음 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
@@ -98,7 +98,7 @@ ht-degree: 3%
 1. 스키마에 `productListItems` 배열이 포함된 이벤트를 만듭니다.
 2. 이 배열의 모든 필드를 이 이벤트의 페이로드 필드로 정의합니다.
 
-   [제품 목록 항목 데이터 유형](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html)에 대해 자세히 알아보십시오.
+   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}의 제품 목록 항목 데이터 유형에 대해 자세히 알아보십시오.
 
 3. 이 이벤트로 시작하는 여정을 만듭니다.
 4. 메시지를 여정에 추가합니다.
@@ -328,15 +328,15 @@ ht-degree: 3%
 
 ### Handlebars 함수
 
-[도우미](functions/helpers.md)
+* [도우미](functions/helpers.md)
 
-[문자열 함수](functions/string.md)
+* [문자열 함수](functions/string.md)
 
 ### 사용 사례
 
-[프로필 정보, 컨텍스트 및 오퍼를 사용한 개인화](personalization-use-case.md)
+* [프로필 정보, 컨텍스트 및 오퍼를 사용한 개인화](personalization-use-case.md)
 
-[의사 결정 기반 오퍼를 사용한 개인화](../offers/offers-e2e.md)
+* [의사 결정 기반 오퍼를 사용한 개인화](../offers/offers-e2e.md)
 
 ## 튜토리얼 비디오{#helper-functions-video}
 
