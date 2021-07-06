@@ -7,7 +7,7 @@ feature: 애플리케이션 설정
 topic: 관리
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 27%
@@ -35,5 +35,5 @@ ht-degree: 27%
 **자세히 알아보기**
 
 * [인터페이스에서 직접 하위 도메인](delegate-subdomain.md)을 위임하는 방법을 알아봅니다
-* [Google TXT 레코드](google-txt.md)를 하위 도메인에 추가하여 Gmail 주소로 이메일을 성공적으로 전달하는 방법을 알아봅니다
+* Gmail 주소로 이메일을 성공적으로 배달할 수 있도록 [Google TXT 레코드](google-txt.md)를 하위 도메인에 추가하는 방법을 알아봅니다
 * 하위 도메인에 대해 생성된 PTR 레코드](ptr-records.md)에 액세스하는 방법을 배워서 메일 서버를 보내 확인할 수 있도록 합니다[
