@@ -5,10 +5,10 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Beginner
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 11%
+source-wordcount: '666'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
 
 [!DNL Journey Optimizer] 는  **** 중괄호로 묶은 내용을 포함하는 표현식을 만들 수 있도록 해주는 Handlebars 기반의 간단한 개인화 구문&#x200B;**{}**&#x200B;을 사용합니다. 동일한 콘텐츠 또는 필드에 제한 없이 여러 식을 추가할 수 있습니다. 자세한 내용은 [개인화 구문](personalization-syntax.md)을 참조하십시오.
 
-개인화는 Adobe Experience Platform에 정의된 **XDM 개인 프로필** 스키마에서 관리하는 프로필 데이터를 기반으로 합니다. 자세한 내용은 [Adobe XDM(Experience Platform Data Model) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)를 참조하십시오.
+개인화는 Adobe Experience Platform에 정의된 **XDM 개인 프로필** 스키마에서 관리하는 프로필 데이터를 기반으로 합니다. 자세한 내용은 [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target=&quot;_blank&quot;}에서 알아보십시오.
 
 >[!CAUTION]
 >**XDM 개별 프로필** 스키마는 [!DNL Journey Optimizer]에서 컨텐츠를 개인화하는 데 사용할 수 있는 유일한 스키마입니다.
@@ -89,8 +89,8 @@ ht-degree: 11%
 
 화면의 왼쪽 부분에는 개인화할 소스를 선택할 수 있는 도메인 선택기가 표시됩니다. 사용 가능한 소스는 다음과 같습니다.
 
-* **프로필** :xdm( [Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)에 설명된 프로필 스키마와 연결된 모든 참조를 나열합니다.
-* **세그먼트 멤버십** :Adobe Experience Platform 세그멘테이션 서비스에서 만든 모든 세그먼트를 나열합니다. 세그먼테이션에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)를 참조하십시오.
+* **프로필** :XDM( [Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}에 설명된 프로필 스키마와 연결된 모든 참조를 나열합니다.
+* **세그먼트 멤버십** :Adobe Experience Platform 세그멘테이션 서비스에서 만든 모든 세그먼트를 나열합니다. 세그먼테이션에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en){target=&quot;_blank&quot;}를 참조하십시오.
 * **오퍼** :특정 배치에 연결된 모든 오퍼를 나열합니다. 배치를 선택한 다음 컨텐츠에 오퍼를 삽입합니다. 오퍼를 관리하는 방법에 대한 전체 설명서는 [이 섹션](../deliver-personalized-offers.md)을 참조하십시오.
 * **컨텍스트** :여정 **** 에서 메시지 활동을 사용하면 이 메뉴에서 컨텍스트 여정 필드를 사용할 수 있습니다. 자세한 내용은 [이 섹션](personalization-use-case.md)을 참조하십시오.
 * **도우미 함수** :계산, 데이터 형식 지정 또는 전환, 조건 등과 같이 데이터에 대한 작업을 수행하고 개인화 컨텍스트에서 조작하는 데 사용할 수 있는 모든 도우미 함수를 나열합니다. 자세한 내용은 [이 섹션](functions/functions.md)을 참조하십시오.
