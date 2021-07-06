@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 98%
+source-wordcount: '677'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 98%
       + [UI에서 이메일 콘텐츠 디자인](using/create-email-content.md)
       + [이메일 콘텐츠 가져오기 또는 코드 작성](using/existing-content.md)
       + [이메일 디자이너 콘텐츠 구성 요소 사용](using/content-components.md)
+   + [링크 추가 및 메시지 추적](using/message-tracking.md)
    + {#create-message} 유효성 확인 및 게시
       + [미리보기 및 증명](using/preview.md)
       + [경고 확인](using/alerts.md)
@@ -41,7 +42,9 @@ ht-degree: 98%
    + [시작 개인화](using/personalization/personalize.md)
    + [개인화 구문](using/personalization/personalization-syntax.md)
    + [개인화 유효성 검사](using/personalization/personalization-validation.md)
-   + [사용 사례:푸시 알림에 개인화 추가](using/personalization/personalization-use-case.md)
+   + 사용 사례{#personalization-use-cases}
+      + [주문 상태 알림](using/personalization/personalization-use-case.md)
+      + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
    + 도우미 함수{#functions}
       + [도우미 함수 목록](using/personalization/functions/functions.md)
       + [집계 함수](using/personalization/functions/aggregation.md)
@@ -88,7 +91,6 @@ ht-degree: 98%
       + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
       + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
 + 추적 및 모니터링 {#reporting}
-   + [메시지 추적](using/message-tracking.md)
    + [메시지 모니터링](using/message-monitoring.md)
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 대시보드 액세스](using/reports/live-report.md)
