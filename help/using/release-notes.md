@@ -2,7 +2,7 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '28'
 ht-degree: 100%
 
