@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 37%
     <p>고객 여정에서 푸시 및 이메일 메시지를 추가하는 방법을 알아봅니다
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">첫 번째 여정 만들기</a>
+    <a href="using/building-journeys/journeys-uc.md">여정 처음 만들어 보기</a>
     </div>
     <p>여정을 빌드하고 실행하는 방법을 알아봅니다
     <p>
