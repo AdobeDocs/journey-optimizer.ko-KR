@@ -7,9 +7,9 @@ product: Journey Optimizer
 solution: Journey Optimizer
 solution-title: Journey Optimizer 설명서
 source-git-commit: 34b567ff172444e32251e0d1d3878f44ea342d5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
