@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -98,9 +98,9 @@ ht-degree: 96%
 >
 >이러한 비디오는 Adobe Experience Platform을 기반으로 구축된 Offer Decisioning 애플리케이션 서비스에 적용되며 [!DNL Adobe Journey Optimizer]에만 국한되지 않습니다. 하지만, 이 지침에서는 [!DNL Journey Optimizer] 컨텍스트에서 의사 결정 관리를 사용하기 위한 일반적인 지침을 제공합니다.
 
-### 의사 결정 관리란 무엇입니까? {#what-is-offer-decisioning}
+### 의사 결정 관리란? {#what-is-offer-decisioning}
 
-아래 비디오에서는 의사 결정 관리의 주요 기능, 아키텍처 및 사용 사례에 대해 소개합니다.
+아래 비디오에서는 의사 결정 관리의 주요 기능, 아키텍처 및 사용 사례에 대한 소개를 제공합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
