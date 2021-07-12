@@ -5,10 +5,10 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 4%
+source-wordcount: '952'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 세그먼트 읽기 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 입력하도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 
-세그먼트 빌드](../segment/about-segments.md) 사용 사례에서 만든 &quot;Luma 앱 열기 및 체크아웃&quot; 세그먼트의 예를 예로 들어 보겠습니다. [ 세그먼트 읽기 활동을 사용하면 이 세그먼트에 속하는 모든 개인이 여정을 입력하고 모든 여정 기능을 활용하는 개인화된 여정으로 전환하도록 할 수 있습니다.조건, 타이머, 이벤트, 작업.
+세그먼트 빌드](../segment/about-segments.md) 사용 사례에서 만든 &quot;Luma 앱 열기 및 체크아웃&quot; 세그먼트의 예를 예로 들어 보겠습니다. [ 세그먼트 읽기 활동을 사용하면 이 세그먼트에 속하는 모든 개인이 여정을 입력하고 모든 여정 기능을 활용하는 개인화된 여정으로 전환하도록 할 수 있습니다. 조건, 타이머, 이벤트, 작업.
 
 >[!NOTE]
 >
@@ -56,6 +56,8 @@ ht-degree: 4%
    >
    >다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 여정에 들어갈 수 없습니다.
 
+1. **[!UICONTROL Throttling rate]** 필드에서 세그먼트 읽기 활동의 처리량을 정의합니다. 이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 17.000이며 500에서 17000 사이여야 합니다.
+
 1. **[!UICONTROL Read Segment]** 활동을 사용하면 세그먼트가 여정에 들어갈 시간을 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Edit journey schedule]** 링크를 클릭하여 여정의 속성에 액세스한 다음 **[!UICONTROL Scheduler type]** 필드를 구성합니다.
 
    ![](../assets/read-segment-schedule.png)
@@ -80,9 +82,9 @@ ht-degree: 4%
 
 테스트가 실행되면 **[!UICONTROL Show logs]** 버튼을 사용하여 선택한 테스트 옵션에 따라 테스트 결과를 볼 수 있습니다.
 
-* **[!UICONTROL Single profile at a time]**:테스트 로그는 단일 테스트 모드를 사용할 때와 동일한 정보를 표시합니다. 이 작업에 대한 자세한 정보는 [이 섹션](testing-the-journey.md#viewing_logs)을 참조하십시오
+* **[!UICONTROL Single profile at a time]**: 테스트 로그는 단일 테스트 모드를 사용할 때와 동일한 정보를 표시합니다. 이 작업에 대한 자세한 정보는 [이 섹션](testing-the-journey.md#viewing_logs)을 참조하십시오
 
-* **[!UICONTROL Up to 100 profiles at once]**:테스트 로그를 사용하여 Adobe Experience Platform에서 세그먼트 내보내기의 진행 상황과 여정에 입력한 모든 사람의 개별 진행 상태를 추적할 수 있습니다.
+* **[!UICONTROL Up to 100 profiles at once]**: 테스트 로그를 사용하여 Adobe Experience Platform에서 세그먼트 내보내기의 진행 상황과 여정에 입력한 모든 사람의 개별 진행 상태를 추적할 수 있습니다.
 
    한 번에 최대 100개의 프로필을 사용하여 여정을 테스트해도 시각적 흐름을 사용하여 여정에서 개인의 진행 상황을 추적할 수 없습니다.
 
@@ -110,10 +112,10 @@ ht-degree: 4%
 세그먼테이션은 다음을 기반으로 할 수 있습니다.
 
 * 데이터 소스 데이터
-* 여정 데이터의 이벤트 컨텍스트(예:한 시간 전에 받은 메시지를 누군가 클릭했습니까?
-* 예: 날짜:6월에 여정이 있을 때?
-* 시간(예:그 사람 시간대 아침 맞나요?
-* 백분율을 기반으로 여정에 흐르는 대상을 분할하는 알고리즘. 예:컨트롤 그룹을 제외하려면 90% - 10%
+* 여정 데이터의 이벤트 컨텍스트(예: 한 시간 전에 받은 메시지를 누군가 클릭했습니까?
+* 예: 날짜: 6월에 여정이 있을 때?
+* 시간(예: 그 사람 시간대 아침 맞나요?
+* 백분율을 기반으로 여정에 흐르는 대상을 분할하는 알고리즘. 예: 컨트롤 그룹을 제외하려면 90% - 10%
 
 ![](../assets/read-segment-audience1.png)
 
