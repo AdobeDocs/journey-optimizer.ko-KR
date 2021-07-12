@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * 고객 여정 내에서 외부 데이터 소스를 활용하여 외부 데이터를 실시간으로 조회할 수 있습니다. 이러한 소스는 REST API를 통해 사용할 수 있어야 하며, JSON을 지원하고, 요청 볼륨을 처리할 수 있어야 합니다.
 
-## 프로필 만들기와 동시에 시작하는 여정 {#journeys-limitation-profile-creation}
+## 여정 만들기와 동시에 시작 {#journeys-limitation-profile-creation}
 
 Adobe Experience Platform의 API 기반 프로필 만들기/업데이트와 연관된 지연이 있습니다. 지연에 대한 SLT(서비스 수준 Target)은 RPS(초당 20K 요청 수)로 요청의 95번째 백분위수에 대한 통합 프로필에 대해 수집에서 1분 미만입니다.
 
@@ -68,5 +68,4 @@ Adobe Experience Platform의 API 기반 프로필 만들기/업데이트와 연�
 
 ## 세그먼트 제한 읽기
 
-* 1시간이 짧은 시간대에 세그먼트 기반 여정을 트리거할 수 없습니다.
 * 스트리밍된 세그먼트는 항상 최신 상태이지만 배치 세그먼트는 검색 시 계산되지 않습니다. 일일 배치 평가 시간에서만 매일 평가됩니다.
