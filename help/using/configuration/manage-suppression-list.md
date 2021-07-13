@@ -13,9 +13,9 @@ internal: n
 snippet: y
 feature: 애플리케이션 설정
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -54,9 +54,9 @@ ht-degree: 2%
 
 억제 카테고리는 다음과 같습니다.
 
-* **하드**:이메일 주소가 즉시 제외 목록으로 전송됩니다.
+* **하드**: 이메일 주소가 즉시 제외 목록으로 전송됩니다.
 
-* **소프트**:소프트 오류의 경우 오류 카운터가 제한 임계값에 도달하면 제외 목록에 주소를 보냅니다. [다시 시도하는 방법에 대해 자세히 알아보기](retries.md)
+* **소프트**: 소프트 오류의 경우 오류 카운터가 제한 임계값에 도달하면 제외 목록에 주소를 보냅니다. [다시 시도하는 방법에 대해 자세히 알아보기](retries.md)
 
 * **무시됨**:
    * 유효한 전자 메일 주소에 대해 오류가 발생했지만 실패한 연결 시도 또는 임시 기술 문제 등 일시적인 것으로 알려진 경우 오류 카운터가 제한 임계값에 도달하면 전자 메일 주소가 제외 목록에 추가됩니다. [다시 시도하는 방법에 대해 자세히 알아보십시오](retries.md).
@@ -82,9 +82,9 @@ ht-degree: 2%
 | **[!UICONTROL Soft Bounce]** | 메시지가 소프트 바운스되어, ISP에서 권장하는 허용 비율을 전송할 때와 같이 이 표에 나열된 소프트 오류 이외의 다른 이유로 바운스됩니다. | 소프트 |
 | **[!UICONTROL DNS Failure]** | DNS 오류로 인해 메시지가 반송되었습니다. | 소프트 |
 | **[!UICONTROL Mailbox Full]** | 받는 사람의 사서함이 가득 차서 더 이상의 메시지를 받을 수 없어서 메시지가 반송되었습니다. | 소프트 |
-| **[!UICONTROL Too Large]** | 수신자에게 너무 커서 메시지가 반송 되었습니다. [](retries.md) 검색이 수행됩니다.메시지 크기를 편집하고 게재하기 위해 다시 삽입할 수 있습니다. | 무시됨 |
+| **[!UICONTROL Too Large]** | 수신자에게 너무 커서 메시지가 반송 되었습니다. [](retries.md) 검색이 수행됩니다. 메시지 크기를 편집하고 게재하기 위해 다시 삽입할 수 있습니다. | 무시됨 |
 | **[!UICONTROL Timeout]** | 메시지 시간이 초과되었습니다. 즉, 소프트 바운스되어 메시지 다시 시도 제한(3.5일)에 도달했습니다. | 무시됨 |
-| **[!UICONTROL Admin Failure]** | 전송 시스템 관리자가 구성한 정책에 따라 메시지가 실패했습니다.<!--For example, if emails are blackholed at the global, domain or binding level using the "blackhole" directive, this bounce code is used.--> | 무시됨 |
+| **[!UICONTROL Admin Failure]** | 전송 시스템 관리자가 구성한 정책에 따라 메시지가 실패했습니다. <!--For example, if emails are blackholed at the global, domain or binding level using the "blackhole" directive, this bounce code is used.--> | 무시됨 |
 | **[!UICONTROL Generic Bounce: No RCPT]** | 메시지에 대한 수신자를 확인할 수 없습니다. | 무시됨 |
 | **[!UICONTROL Generic Bounce]** | 메시지가 지정되지 않은 이유로 실패했습니다. | 무시됨 |
 | **[!UICONTROL Mail Block]** | 받는 사람(즉, 받는 사람 MTA)이 메시지를 차단했습니다. | 무시됨 |
