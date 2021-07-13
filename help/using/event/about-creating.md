@@ -3,9 +3,9 @@ title: 단일 이벤트 구성
 description: 단일 이벤트 구성 방법 알아보기
 feature: 이벤트
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '1674'
 ht-degree: 13%
@@ -38,13 +38,13 @@ ht-degree: 13%
 
    ![](../assets/jo-event3bis.png)
 
-1. **[!UICONTROL Event ID type]** 필드에서 사용할 이벤트 ID 유형을 선택합니다.**규칙 기반** 또는 **시스템 생성** [이 섹션](../event/about-events.md#event-id-type)의 이벤트 ID 유형에 대해 자세히 알아보십시오.
+1. **[!UICONTROL Event ID type]** 필드에서 사용할 이벤트 ID 유형을 선택합니다. **규칙 기반** 또는 **시스템 생성** [이 섹션](../event/about-events.md#event-id-type)의 이벤트 ID 유형에 대해 자세히 알아보십시오.
 
    ![](../assets/jo-event4.png)
 
 1. 이 이벤트를 사용하는 경로 수가 **[!UICONTROL Used in]** 필드에 표시됩니다. **[!UICONTROL View journeys]** 아이콘을 클릭하여 이 이벤트를 사용하는 경로 목록을 표시할 수 있습니다.
 
-1. 스키마 및 페이로드 필드를 정의합니다.여기서 여정이 수신하도록 하는 이벤트 정보(대개 페이로드)를 선택합니다. 그러면 이 정보를 경로에 사용할 수 있습니다. [이 섹션](../event/about-creating.md#define-the-payload-fields)을 참조하십시오.
+1. 스키마 및 페이로드 필드를 정의합니다. 여기서 여정이 수신하도록 하는 이벤트 정보(대개 페이로드)를 선택합니다. 그러면 이 정보를 경로에 사용할 수 있습니다. [이 섹션](../event/about-creating.md#define-the-payload-fields)을 참조하십시오.
 
    ![](../assets/jo-event5.png)
 
@@ -62,7 +62,7 @@ ht-degree: 13%
    >**[!UICONTROL Event ID condition]**&#x200B;을(를) 정의할 때는 고급 표현식 편집기를 사용할 수 없습니다.
 
 1. 네임스페이스를 추가합니다. 이 단계는 원하는 경우에만 수행하면 되지만, 네임스페이스를 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있습니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. [이 섹션](../event/about-creating.md#select-the-namespace)을 참조하십시오.
-1. 프로필 식별자를 정의합니다.페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 지정합니다. 이 키는 네임스페이스를 선택하면 자동으로 설정되지만 편집할 수 있습니다. 네임스페이스에 해당하는 키는 여정에서 자동으로 선택됩니다. 예를 들어 이메일 네임스페이스를 선택하면 이메일 키가 선택됩니다. [이 섹션](../event/about-creating.md#define-the-event-key)을 참조하십시오.
+1. 프로필 식별자를 정의합니다. 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 지정합니다. 이 키는 네임스페이스를 선택하면 자동으로 설정되지만 편집할 수 있습니다. 네임스페이스에 해당하는 키는 여정에서 자동으로 선택됩니다. 예를 들어 이메일 네임스페이스를 선택하면 이메일 키가 선택됩니다. [이 섹션](../event/about-creating.md#define-the-event-key)을 참조하십시오.
 
    ![](../assets/jo-event7.png)
 
