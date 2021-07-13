@@ -6,7 +6,7 @@ feature: 컨트롤 그룹
 topic: 관리
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 15%
@@ -39,17 +39,17 @@ ht-degree: 15%
 
 1. **[!UICONTROL Product profile]**&#x200B;을(를) 선택합니다. 
 
-   ![](../assets/access_control_2.png)
+   ![](../assets/do-not-localize/access_control_2.png)
 
 1. **[!UICONTROL Users]** 탭에서 **[!UICONTROL Add user]**&#x200B;을 클릭합니다.
 
-   ![](../assets/access_control_3.png)
+   ![](../assets/do-not-localize/access_control_3.png)
 
 1. 사용자 이름이나 이메일 주소를 입력하고 사용자를 선택합니다.
 
    사용자가 이전에 [!DNL Admin Console]에서 만들어지지 않았다면 [사용자 추가 설명서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)를 참조하십시오.
 
-   ![](../assets/access_control_4.png)
+   ![](../assets/do-not-localize/access_control_4.png)
 
 1. 위와 동일한 단계를 수행하여 다른 사용자를 **[!UICONTROL Product profile]**&#x200B;에 추가합니다. 그런 다음 **[!UICONTROL Save]** 을 클릭합니다.
 
@@ -59,7 +59,7 @@ ht-degree: 15%
 
 인스턴스에 액세스할 때 사용자에게 **[!UICONTROL Product profile]**&#x200B;에 지정된 권한에 따라 특정 보기가 표시됩니다. 사용자에게 기능에 대한 액세스 권한이 없는 경우 다음 화면이 나타납니다.
 
-![](../assets/access_control_1.png)
+![](../assets/do-not-localize/access_control_1.png)
 
 ## 기존 제품 프로필 편집 {#edit-product-profile}
 
@@ -77,23 +77,23 @@ ht-degree: 15%
 
    **[!UICONTROL Permissions]** 탭에는 **[!UICONTROL Experience Cloud - Platform powered applications]** 제품에 적용되는 기능 목록이 표시됩니다.
 
-   ![](../assets/access_control_5.png)
+   ![](../assets/do-not-localize/access_control_5.png)
 
 1. **[!UICONTROL Messages]** 기능을 선택합니다.
 
-   ![](../assets/access_control_6.png)
+   ![](../assets/do-not-localize/access_control_6.png)
 
 1. **[!UICONTROL Available Permission Items]** 목록에서 더하기(+) 아이콘을 클릭하여 **[!UICONTROL Product profile]**&#x200B;에 할당할 권한을 선택합니다.
 
    여기서는 **[!UICONTROL Publish messages]** 권한을 추가합니다.
 
-   ![](../assets/access_control_7.png)
+   ![](../assets/do-not-localize/access_control_7.png)
 
 1. 필요한 경우 **[!UICONTROL Included Permission Items]** 아래에서 옆에 있는 X 아이콘을 클릭하여 제품 프로필에서 권한을 제거합니다.
 
 1. 완료되었으면 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
-   ![](../assets/access_control_8.png)
+   ![](../assets/do-not-localize/access_control_8.png)
 
 필요한 경우 특정 권한이 있는 새 제품 프로필을 만들 수도 있습니다. 자세한 내용은 [제품 프로필 만들기](#create-product-profile)를 참조하십시오.
 
@@ -113,11 +113,11 @@ ht-degree: 15%
 
 1. **[!UICONTROL New Profile]**&#x200B;을(를) 클릭합니다.
 
-   ![](../assets/access_control_9.png)
+   ![](../assets/do-not-localize/access_control_9.png)
 
 1. 새 **[!UICONTROL product profiles]**&#x200B;에 대해 **[!UICONTROL Product Profile Name]**, **[!UICONTROL Display Name]** 및 **[!UICONTROL Description]**&#x200B;를 추가합니다.
 
-   ![](../assets/access_control_10.png)
+   ![](../assets/do-not-localize/access_control_10.png)
 
 1. 이 제품 프로필에 추가되거나 제거될 때 사용자에게 이메일로 알릴 것인지 여부를 **[!UICONTROL Notifications]** 카테고리에서 선택합니다.
 
@@ -129,17 +129,17 @@ ht-degree: 15%
 
    여기서는 **[!UICONTROL Journeys]** 기능을 선택합니다.
 
-   ![](../assets/access_control_11.png)
+   ![](../assets/do-not-localize/access_control_11.png)
 
 1. **[!UICONTROL Available Permission Items]** 목록에서 더하기(+) 아이콘을 클릭하여 **[!UICONTROL Product profile]**&#x200B;에 할당할 권한을 선택합니다.
 
    여기에서는 **[!UICONTROL View journeys]** 및 **[!UICONTROL View journeys event, data sources, actions]**&#x200B;을 선택합니다.
 
-   ![](../assets/access_control_12.png)
+   ![](../assets/do-not-localize/access_control_12.png)
 
 1. **[!UICONTROL Sandbox access]** 기능을 선택하여 **[!UICONTROL Product profile]**&#x200B;에 할당할 샌드박스를 선택합니다.
 
-   ![](../assets/access_control_13.png)
+   ![](../assets/do-not-localize/access_control_13.png)
 
 1. **[!UICONTROL Available Permissions Items]** 아래에서 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스에 대한 자세한 내용을 살펴보십시오](sandboxes.md).
 
