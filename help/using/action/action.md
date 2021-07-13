@@ -4,9 +4,9 @@ title: 작업 정보
 description: 작업 구성 방법 알아보기
 feature: 작업
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 10d8cb2002279a7ea679e2be6e9f632d0edcfbb8
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 78%
