@@ -3,9 +3,9 @@ title: Adobe Campaign v7/v8과 통합
 description: Adobe Campaign v7/v8과 통합하는 방법을 알아봅니다
 feature: 작업
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 5%
@@ -53,9 +53,9 @@ Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시
 }
 ```
 
-* **채널**:캠페인 트랜잭션 템플릿에 대해 정의된 채널
-* **eventType**:Campaign 이벤트의 내부 이름
-* **ctx**:변수에 설정된 값은 메시지에 포함된 개인화를 기반으로 합니다.
+* **채널**: 캠페인 트랜잭션 템플릿에 대해 정의된 채널
+* **eventType**: Campaign 이벤트의 내부 이름
+* **ctx**: 변수에 설정된 값은 메시지에 포함된 개인화를 기반으로 합니다.
 
 ## 작업 구성
 
