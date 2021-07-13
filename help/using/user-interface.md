@@ -5,10 +5,10 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: af60022d99c3f881b8d932682e92ed142deb75d2
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 93%
+source-wordcount: '1095'
+ht-degree: 92%
 
 ---
 
@@ -45,47 +45,47 @@ ht-degree: 93%
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
-* **[!UICONTROL Journeys]** - 고객 여정 생성, 구성 및 조정 [이 ](building-journeys/journey-gs.md#jo-build)에서 자세히 알아보기
+* **[!UICONTROL Journeys]** - 고객 여정 생성, 구성 및 조정 [자세히 알아보기](building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - 이메일 및 푸시 메시지 만들기, 디자인, 테스트 및 게시할 수 있습니다. [이 섹션](create-message.md)에서 자세히 알아보기
+* **[!UICONTROL Messages]** - 이메일 및 푸시 메시지 만들기, 디자인, 테스트 및 게시할 수 있습니다. [자세히 알아보기](create-message.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
 * **[!UICONTROL Offers]** - 이 메뉴에서 최근 소스 및 데이터 세트에 액세스합니다. 이 섹션을 사용하여 새 오퍼를 만듭니다. [자세히 알아보기](offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Components]** - 배치, 규칙 및 태그를 만듭니다. [이 섹션](offers/offer-library/key-steps.md)에서 자세히 알아보기
+* **[!UICONTROL Components]** - 배치, 규칙 및 태그를 만듭니다. [자세히 알아보기](offers/offer-library/key-steps.md)
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials]은 메시지를 채우는 데 사용할 수 있는 자산의 중앙 집중식 저장소입니다. [이 섹션](assets-essentials.md)에서 자세히 알아보기
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials]은 메시지를 채우는 데 사용할 수 있는 자산의 중앙 집중식 저장소입니다. [자세히 알아보기](assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
-* **[!UICONTROL Schemas]** - Adobe Experience Platform을 사용하여 스키마 편집기라는 인터랙티브한 시각적 캔버스에서 XDM(Experience Data Model) 스키마를 만들고 관리할 수 있습니다. [이 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko){target=&quot;_blank&quot;}
+* **[!UICONTROL Schemas]** - Adobe Experience Platform을 사용하여 스키마 편집기라는 인터랙티브한 시각적 캔버스에서 XDM(Experience Data Model) 스키마를 만들고 관리할 수 있습니다. [자세히 알아보기](get-started-schemas.md)
 
-* **[!UICONTROL Datasets]** - Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다. [이 문서에서 데이터 세트를 미리 보고 만드는 방법을 알아봅니다.](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko){target=&quot;_blank&quot;}
+* **[!UICONTROL Datasets]** - Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다. [자세히 알아보기](get-started-datasets.md)
 
-* **[!UICONTROL Queries]** - Adobe Experience Platform 쿼리 서비스를 사용하여 쿼리를 작성하여 실행하고, 이전에 실행한 쿼리를 보고, 조직 내에서 사용자가 저장한 쿼리에 액세스합니다. [이 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=ko){target=&quot;_blank&quot;}
+* **[!UICONTROL Queries]** - Adobe Experience Platform 쿼리 서비스를 사용하여 쿼리를 작성하여 실행하고, 이전에 실행한 쿼리를 보고, 조직 내에서 사용자가 저장한 쿼리에 액세스합니다. [자세히 알아보기](get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. [이 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko){target=&quot;_blank&quot;}
+* **[!UICONTROL Monitoring]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. [자세한](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko) 정보{target=&quot;_blank&quot;}
 
 **[!UICONTROL CONNECTIONS]**
 
-* **[!UICONTROL Sources]** - 이 메뉴를 사용하여 Adobe 애플리케이션, 클라우드 기반의 저장소, 데이터베이스 등 다양한 소스의 데이터를 수집할 수 있고 수신 데이터를 구조화하고 레이블을 지정하고 향상시킬 수 있습니다. [이 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko){target=&quot;_blank&quot;}
+* **[!UICONTROL Sources]** - 이 메뉴를 사용하여 Adobe 애플리케이션, 클라우드 기반의 저장소, 데이터베이스 등 다양한 소스의 데이터를 수집할 수 있고 수신 데이터를 구조화하고 레이블을 지정하고 향상시킬 수 있습니다. [자세히 알아보기](get-started-sources.md)
 
 **[!UICONTROL CUSTOMER]**
 
-* **[!UICONTROL Segments]** - Experience Platform 세그먼트 정의를 만들고 관리하며 여정에 활용할 수 있습니다. [이 페이지](segment/about-segments.md)에서 자세히 알아보기
+* **[!UICONTROL Segments]** - Experience Platform 세그먼트 정의를 만들고 관리하며 여정에 활용할 수 있습니다. [자세히 알아보기](segment/about-segments.md)
 
-* **[!UICONTROL Profiles]** - 실시간 고객 프로파일은 온라인, 오프라인, CRM 및 서드파티 데이터를 비롯한 다양한 채널의 데이터를 취합하여 각 개별 고객을 전체적으로 파악할 수 있도록 합니다. [이 문서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko){target=&quot;_blank&quot;}
+* **[!UICONTROL Profiles]** - 실시간 고객 프로파일은 온라인, 오프라인, CRM 및 서드파티 데이터를 비롯한 다양한 채널의 데이터를 취합하여 각 개별 고객을 전체적으로 파악할 수 있도록 합니다. [자세히 알아보기](get-started-profiles.md)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service는 Adobe Experience Platform 내의 ID 그래프로 알려진 것을 통해 고객의 크로스 디바이스, 크로스 채널 및 거의 실시간으로 식별하여 고객을 관리합니다. [이 문서에서 ID 네임스페이스를 만드는 방법을 알아봅니다.](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko#manage-namespaces){target=&quot;_blank&quot;}
+* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service는 Adobe Experience Platform 내의 ID 그래프로 알려진 것을 통해 고객의 크로스 디바이스, 크로스 채널 및 거의 실시간으로 식별하여 고객을 관리합니다. [자세히 알아보기](get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
 * **[!UICONTROL Journey Administration]** - 이 메뉴를 사용하여 여정에서 [사용할 이벤트](event/about-events.md), [데이터 ](datasource/about-data-sources.md) 소스 및 [](action/action.md) 작업을 구성할 수 있습니다.
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. [이 문서에서 샌드박스에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko){target=&quot;_blank&quot;}
+* **[!UICONTROL Sandboxes]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. [자세히 알아보기](administration/sandboxes.md)
 
 
 ## 제품 내 사용 사례
