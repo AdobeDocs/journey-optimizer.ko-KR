@@ -14,9 +14,9 @@ snippet: y
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: 애플리케이션 설정
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 50%
@@ -41,7 +41,7 @@ ht-degree: 50%
 
 ## 작업
 
-Journey Optimizer 메시지 기능 기본 제공:콘텐츠를 디자인하고 메시지를 게시하기만 하면 됩니다. 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../../using/action/action.md)
+Journey Optimizer 메시지 기능 기본 제공: 콘텐츠를 디자인하고 메시지를 게시하기만 하면 됩니다. 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../../using/action/action.md)
 
 ## Adobe Experience Platform 필드를 통한 검색 {#friendly-names-display}
 
