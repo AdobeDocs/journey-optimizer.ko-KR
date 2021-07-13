@@ -14,9 +14,9 @@ snippet: y
 exl-id: null
 feature: 컨트롤 그룹
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 13%
@@ -29,11 +29,11 @@ ht-degree: 13%
 
 [!DNL Journey Optimizer]의 사용자 관리는 다음 세 가지 개념을 기반으로 합니다.
 
-* **[!UICONTROL Product profile]**:사용자가 인터페이스의 특정 기능 또는 개체에 액세스할 수 있는 통합된 권리 집합입니다. [기본 제품 프로필](ootb-product-profiles.md) 섹션을 참조하십시오
+* **[!UICONTROL Product profile]**: 사용자가 인터페이스의 특정 기능 또는 개체에 액세스할 수 있는 통합된 권리 집합입니다. [기본 제품 프로필](ootb-product-profiles.md) 섹션을 참조하십시오
 
-* **[!UICONTROL Permissions]**:할당된 승인을 정의할 수 있는 통합된  **[!UICONTROL Product profile]**. 각 권한은 [!DNL Journey Optimizer]에 있는 다양한 기능 또는 개체를 나타내는 여정, 메시지 또는 오퍼 등의 기능에 따라 수집됩니다. [권한 수준](high-low-permissions.md) 섹션을 참조하십시오.
+* **[!UICONTROL Permissions]**: 할당된 승인을 정의할 수 있는 통합된  **[!UICONTROL Product profile]**. 각 권한은 [!DNL Journey Optimizer]에 있는 다양한 기능 또는 개체를 나타내는 여정, 메시지 또는 오퍼 등의 기능에 따라 수집됩니다. [권한 수준](high-low-permissions.md) 섹션을 참조하십시오.
 
-* **[!UICONTROL Sandbox]**:인스턴스를 별도의 격리된 가상 환경으로 분할하는 가상 샌드박스 [샌드박스 사용](sandboxes.md)을 참조하십시오
+* **[!UICONTROL Sandbox]**: 인스턴스를 별도의 격리된 가상 환경으로 분할하는 가상 샌드박스 [샌드박스 사용](sandboxes.md)을 참조하십시오
 
 각 개념은 Admin Console에 액세스할 수 있는 **[!UICONTROL Product administrators]**&#x200B;에서 관리할 수 있습니다. [Adobe Admin Console에 대한 자세한 내용을 살펴보십시오](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html).
 
