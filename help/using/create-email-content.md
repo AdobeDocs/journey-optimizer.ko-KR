@@ -5,9 +5,9 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1478'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
 
    ![](assets/email_designer_3.png)
 
-1. 각 구성 요소는 **[!UICONTROL Component settings]** 섹션으로 추가로 사용자 지정할 수 있습니다. 예를 들어 구성 요소의 패딩 또는 여백을 텍스트 스타일로 변경할 수 있습니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html){target=&quot;_blank&quot;}의 이메일 편집기에서 스타일에 대해 자세히 알아보십시오.
+1. 각 구성 요소는 **[!UICONTROL Component settings]** 섹션으로 추가로 사용자 지정할 수 있습니다. 예를 들어 구성 요소의 패딩 또는 여백을 텍스트 스타일로 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보십시오](#adjusting-vertical-alignment-and-padding).
 
    ![](assets/email_designer_4.png)
 
@@ -255,11 +255,11 @@ HTML 콘텐츠를 표시할 수 없을 때 사용되는 이메일 본문의 텍�
 
 1. **[!UICONTROL Target]** 드롭다운을 사용하여 대상을 리디렉션하는 방법을 선택합니다.
 
-   * **[!UICONTROL None]**:클릭한 것과 동일한 프레임에서 링크를 엽니다(기본값).
-   * **[!UICONTROL Blank]**:새 창이나 탭에서 링크를 엽니다.
-   * **[!UICONTROL Self]**:클릭한 것과 동일한 프레임에서 링크를 엽니다.
-   * **[!UICONTROL Parent]**:상위 프레임에서 링크를 엽니다.
-   * **[!UICONTROL Top]**:창의 전체 본문에 링크를 엽니다.
+   * **[!UICONTROL None]**: 클릭한 것과 동일한 프레임에서 링크를 엽니다(기본값).
+   * **[!UICONTROL Blank]**: 새 창이나 탭에서 링크를 엽니다.
+   * **[!UICONTROL Self]**: 클릭한 것과 동일한 프레임에서 링크를 엽니다.
+   * **[!UICONTROL Parent]**: 상위 프레임에서 링크를 엽니다.
+   * **[!UICONTROL Top]**: 창의 전체 본문에 링크를 엽니다.
 
    ![](assets/link_2.png)
 
