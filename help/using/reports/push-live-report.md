@@ -5,7 +5,7 @@ feature: 보고
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 2%
@@ -22,21 +22,25 @@ ht-degree: 2%
 
 푸시 **[!UICONTROL Live report]**&#x200B;은(는) 게재의 성공 및 오류를 설명하는 다른 위젯으로 나누어집니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 이에 대한 자세한 정보는 이 [섹션](live-report.md#modify-dashboard)을 참조하십시오.
 
+![](../assets/live_report_3.png)
+
 **[!UICONTROL Push notification performance]** 및  **[!UICONTROL Push notification summary]** 위젯은 그래프와 KPI를 사용하여 메시지를 기준으로 하는 기본 정보를 자세히 설명합니다.
 
-* **[!UICONTROL Sent]**:게재에 대한 총 전송 수입니다.
+* **[!UICONTROL Sent]**: 게재에 대한 총 전송 수입니다.
 
-* **[!UICONTROL Delivered]**:보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
+* **[!UICONTROL Delivered]**: 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
 
-* **[!UICONTROL Bounces]**:총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
+* **[!UICONTROL Bounces]**: 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
 
-* **[!UICONTROL Errors]**:게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
+* **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
-* **[!UICONTROL Opens]**:게재에서 메시지를 연 횟수입니다.
+* **[!UICONTROL Opens]**: 게재에서 메시지를 연 횟수입니다.
 
-* **[!UICONTROL Actions]**:전달된 푸시 알림에 대한 총 작업 수(예: 단추 클릭 또는 취소)
+* **[!UICONTROL Actions]**: 전달된 푸시 알림에 대한 총 작업 수(예: 단추 클릭 또는 취소)
 
-* **[!UICONTROL Engagements]**:이 푸시 알림에 대한 총 열기 및 작업 수(즉, 프로필이 푸시를 열었는지 또는 단추를 클릭했는지 여부)입니다.
+* **[!UICONTROL Engagements]**: 이 푸시 알림에 대한 총 열기 및 작업 수(즉, 프로필이 푸시를 열었는지 또는 단추를 클릭했는지 여부)입니다.
+
+![](../assets/live_report_4.png)
 
 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 및 **[!UICONTROL Breakdown by platform]** 그래프 및 표는 운영 시스템에 따라 푸시 알림의 성공을 자세히 설명합니다.
 
