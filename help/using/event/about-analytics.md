@@ -3,9 +3,9 @@ title: Adobe Analytics 데이터 기본 정보
 description: Adobe Analytics 데이터를 활용하는 방법 알아보기
 feature: 이벤트
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 1%
