@@ -13,12 +13,12 @@ internal: n
 snippet: y
 feature: 애플리케이션 설정
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: f4b36903b7b961dd20442acaf446e2ce99cc2b31
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -31,10 +31,10 @@ ht-degree: 3%
 
 **[!UICONTROL Status]** 열은 하위 도메인 위임 프로세스에 대한 정보를 제공합니다.
 
-* **[!UICONTROL Draft]**:하위 도메인 위임이 초안으로 저장되었습니다. 위임 프로세스를 다시 시작하려면 하위 도메인 이름을 클릭하십시오.
-* **[!UICONTROL Processing]**:하위 도메인을 사용하려면 먼저 몇 가지 구성 확인을 거쳐야 합니다.
-* **[!UICONTROL Success]**:하위 도메인이 검사를 성공적으로 통과하여 메시지를 전달하는 데 사용할 수 있습니다.
-* **[!UICONTROL Failed]**:하위 도메인 위임을 제출한 후 하나 또는 여러 번 확인하지 못했습니다.
+* **[!UICONTROL Draft]**: 하위 도메인 위임이 초안으로 저장되었습니다. 위임 프로세스를 다시 시작하려면 하위 도메인 이름을 클릭하십시오.
+* **[!UICONTROL Processing]**: 하위 도메인을 사용하려면 먼저 몇 가지 구성 확인을 거쳐야 합니다.
+* **[!UICONTROL Success]**: 하위 도메인이 검사를 성공적으로 통과하여 메시지를 전달하는 데 사용할 수 있습니다.
+* **[!UICONTROL Failed]**: 하위 도메인 위임을 제출한 후 하나 또는 여러 번 확인하지 못했습니다.
 
 하위 도메인에 대한 자세한 정보에 액세스하려면 목록에서 해당 하위 도메인을 엽니다. 다음을 수행할 수 있습니다.
 
