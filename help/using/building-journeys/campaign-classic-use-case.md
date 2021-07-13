@@ -3,12 +3,12 @@ title: Campaign v7/v8을 사용하여 메시지 보내기
 description: Campaign v7/v8을 사용하여 메시지를 보내는 방법 알아보기
 feature: 작업
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 9ca747c4f46fd7eb24dbbf12350d7bbe409b1617
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
