@@ -3,9 +3,9 @@ title: 푸시 알림 구성
 description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 환경을 구성하는 방법을 알아봅니다
 feature: 애플리케이션 설정
 topic: 푸시
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 4%
@@ -108,8 +108,8 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 아래 링크에 자세히 설명된 구현 단계를 따르십시오.
 
-* **Apple iOS**&#x200B;의 경우:[Apple 설명서](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target=&quot;_blank&quot;}에서 APNs에 앱을 등록하는 방법을 알아봅니다
-* **Google Android**&#x200B;의 경우:[Google Documentation](https://firebase.google.com/docs/cloud-messaging/android/client){target=&quot;_blank&quot;}에서 Android에서 Firebase Cloud Messaging 클라이언트 앱을 설정하는 방법을 알아봅니다
+* **Apple iOS**&#x200B;의 경우: [Apple 설명서](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target=&quot;_blank&quot;}에서 APNs에 앱을 등록하는 방법을 알아봅니다
+* **Google Android**&#x200B;의 경우: [Google Documentation](https://firebase.google.com/docs/cloud-messaging/android/client){target=&quot;_blank&quot;}에서 Android에서 Firebase Cloud Messaging 클라이언트 앱을 설정하는 방법을 알아봅니다
 
 ### 모바일 앱을 Adobe Experience Platform SDK와 통합합니다
 
@@ -118,7 +118,7 @@ Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모
 이렇게 하면 Adobe Experience Platform Launch에서 모바일 속성도 만들고 구성해야 합니다. 일반적으로 관리할 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. [Adobe Experience Platform Launch 설명서](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}에서 모바일 속성을 만들고 구성하는 방법을 알아봅니다.
 
 
-## 1단계:Adobe Experience Platform Launch에서 앱 푸시 자격 증명 추가 {#push-credentials-launch}
+## 1단계: Adobe Experience Platform Launch에서 앱 푸시 자격 증명 추가 {#push-credentials-launch}
 
 올바른 사용자 권한을 부여한 후 이제 [!DNL Adobe Experience Platform Launch]에 모바일 애플리케이션 푸시 자격 증명을 추가해야 합니다.
 
@@ -136,7 +136,7 @@ Adobe이 대신 푸시 알림을 전송하도록 승인하려면 모바일 앱 �
 
       ![](assets/add-app-config-android.png)
 
-      1. **[!UICONTROL App ID (Android package name)]** 제공:일반적으로 패키지 이름은 `build.gradle` 파일의 앱 id입니다.
+      1. **[!UICONTROL App ID (Android package name)]** 제공: 일반적으로 패키지 이름은 `build.gradle` 파일의 앱 id입니다.
 
       1. FCM 푸시 자격 증명을 끌어다 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}를 참조하십시오.
    * **iOS용**
@@ -172,7 +172,7 @@ To get the SDKs needed for push notification to work you will need the following
 Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
-## 2단계:모바일 속성에서 Adobe Journey Optimizer 확장 구성
+## 2단계: 모바일 속성에서 Adobe Journey Optimizer 확장 구성
 
 Adobe Experience Platform Mobile SDK용 **Adobe Journey Optimizer 확장**&#x200B;은 모바일 앱에 대한 푸시 알림을 활성화하고 사용자 푸시 토큰을 수집하고 Adobe Experience Platform 서비스와의 상호 작용 측정을 관리하는 데 도움이 됩니다.
 
@@ -245,7 +245,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## 3단계:이벤트를 사용하여 모바일 앱을 테스트합니다 {#mobile-app-test}
+## 3단계: 이벤트를 사용하여 모바일 앱을 테스트합니다 {#mobile-app-test}
 
 이제 Adobe Experience Platform과 Launch 모두에서 모바일 앱을 구성한 후 프로필에 푸시 알림을 보내기 전에 테스트할 수 있습니다. 이 사용 사례에서는 모바일 앱을 타깃팅할 여정을 만들고 푸시 알림을 트리거할 이벤트를 설정합니다.
 
@@ -343,7 +343,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 이벤트가 트리거되고 모바일 앱에 대한 푸시 알림을 받게 됩니다.
 
-## 4단계:푸시용 메시지 사전 설정 만들기{#message-preset}
+## 4단계: 푸시용 메시지 사전 설정 만들기{#message-preset}
 
 모바일 앱이 [!DNL Adobe Experience Platform Launch]에 설정되면 **[!DNL Journey Optimizer]**&#x200B;에서 푸시 알림을 전송할 수 있도록 메시지 사전 설정을 만들어야 합니다.
 
