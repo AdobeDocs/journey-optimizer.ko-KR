@@ -5,10 +5,10 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 >
 >메시지를 미리 보거나 증명을 보낼 때 프로필 개인화 데이터만 표시됩니다. 이벤트 정보와 같은 컨텍스트 데이터를 기반으로 한 개인화는 여정 컨텍스트에서만 테스트할 수 있습니다. [이 사용 사례](personalization/personalization-use-case.md)에서 개인화를 테스트하는 방법을 알아봅니다.
 
-![](assets/do-not-localize/how-to-video.png) [이 비디오에서 이메일을 미리 보고, 증명을 하고, 게시하는 방법을 알아봅니다](#video-preview)
+[➡️ 이 비디오에서 이메일을 미리 보고, 증명을 하고, 게시하는 방법을 알아봅니다](#video-preview)
 
 ## 테스트 프로필 선택{#select-test-profiles}
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
    ![](assets/preview-select-channel.png)
 
-1. 위에 설명된 것과 동일한 단계를 적용하여 테스트 프로필을 선택하고 컨텐츠를 미리 볼 장치 유형을 선택합니다.**[!UICONTROL iOS]** 또는 **[!UICONTROL Android]**
+1. 위에 설명된 것과 동일한 단계를 적용하여 테스트 프로필을 선택하고 컨텐츠를 미리 볼 장치 유형을 선택합니다. **[!UICONTROL iOS]** 또는 **[!UICONTROL Android]**
 
    ![](assets/preview-iOS.png)
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ## 증명 보내기{#send-proofs}
 
-증명은 메시지를 주요 대상자에게 보내기 전에 테스트하기 위한 특정 메시지입니다. 증명의 수신자는 메시지를 승인해야 합니다.렌더링, 컨텐츠, 개인화 설정, 구성
+증명은 메시지를 주요 대상자에게 보내기 전에 테스트하기 위한 특정 메시지입니다. 증명의 수신자는 메시지를 승인해야 합니다. 렌더링, 컨텐츠, 개인화 설정, 구성
 
 [테스트 프로필](#select-test-profiles)을 선택하면 증명을 보낼 수 있습니다.
 
@@ -164,10 +164,10 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**Litmus** 계정을 [!DNL Journey Optimizer]와 연결할 때 테스트 메시지가 Litmus에 전송된다는 것에 동의하게 됩니다.전송되면 이러한 이메일은 더 이상 Adobe에서 관리하지 않습니다. 따라서 Litmus 데이터 보존 이메일 정책은 이러한 테스트 메시지에 포함될 수 있는 개인화 데이터를 포함하여 이러한 이메일에 적용됩니다.
+>**Litmus** 계정을 [!DNL Journey Optimizer]와 연결할 때 테스트 메시지가 Litmus에 전송된다는 것에 동의하게 됩니다. 전송되면 이러한 이메일은 더 이상 Adobe에서 관리하지 않습니다. 따라서 Litmus 데이터 보존 이메일 정책은 이러한 테스트 메시지에 포함될 수 있는 개인화 데이터를 포함하여 이러한 이메일에 적용됩니다.
 
 ## 방법 비디오{#video-preview}
 
-받은 편지함에서 이메일 렌더링을 테스트하고, 테스트 프로필과 비교하여 개인화된 이메일을 미리 보고, 증명을 보내고, 이메일을 게시하는 방법을 알아봅니다.
+여러 받은 편지함에 걸쳐 이메일 렌더링을 테스트하고, 테스트 프로필에 따라 개인화 이메일을 미리 보고, 교정쇄를 보내고, 이메일을 게시하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
