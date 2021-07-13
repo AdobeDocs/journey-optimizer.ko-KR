@@ -3,9 +3,9 @@ title: 데이터 소스 구성
 description: 데이터 소스 구성 방법 알아보기
 feature: 데이터 소스
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 14%
