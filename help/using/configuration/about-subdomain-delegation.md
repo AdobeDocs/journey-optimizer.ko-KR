@@ -5,9 +5,9 @@ internal: n
 snippet: y
 feature: 애플리케이션 설정
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 27%
@@ -28,7 +28,7 @@ ht-degree: 27%
 
 이러한 하위 도메인을 설정하면 사용 중인 도메인과 다른 하위 도메인의 평판을 유지할 수 있습니다. 예를 들어 인터넷 서비스 공급자가 게재 가능성 불량을 이유로 &quot;marketing.mybrand.com&quot; 하위 도메인을 차단 목록에 추가하더라도 전체 &quot;mybrand.com&quot; 도메인과 &quot;info.mybrand.com&quot; 하위 도메인은 차단 목록에 추가되지 않습니다.
 
-솔루션을 구현할 때 외부에서 향하는 구성 요소에 대한 요구 사항이 있습니다.여기에는 추적할 링크 및 웹 페이지 설정, 미러 페이지 표시 등이 포함됩니다.
+솔루션을 구현할 때 외부에서 향하는 구성 요소에 대한 요구 사항이 있습니다. 여기에는 추적할 링크 및 웹 페이지 설정, 미러 페이지 표시 등이 포함됩니다.
 
 이러한 요구 사항은 Adobe과 고객이 모두 호스팅하는 구성 요소를 통해 관리되지만 전자 메일의 수신자가 볼 수 있는 URL이 포함됩니다. 기본 기술 솔루션 또는 호스팅 공급자를 나타내는 URL이 없는 것을 방지하기 위해 하위 도메인을 설정하여 전자 메일 수신자에게 이를 투명하게 할 수 있습니다.
 
