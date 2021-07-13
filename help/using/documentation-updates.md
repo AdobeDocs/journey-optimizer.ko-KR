@@ -1,10 +1,10 @@
 ---
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
-source-git-commit: 8ef68f64f8ef354bced99f0eaada78be22488920
+source-git-commit: 6c69bbb06de57c62d8894b451d9dab9b318c8ebc
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 18%
+source-wordcount: '207'
+ht-degree: 17%
 
 ---
 
@@ -15,9 +15,10 @@ ht-degree: 18%
 
 ## 2021년 7월
 
-* [!DNL Journey Optimizer] 홈 페이지 및 콘텐츠 표에 Experience Platform 서비스 설명서에 대한 직접 링크가 추가되었습니다
+* [!DNL Journey Optimizer] 홈 페이지 및 목차에 Experience Platform 서비스 설명서에 대한 직접 링크가 추가되었습니다
+* [!DNL Journey Optimizer]에서 사용할 수 있는 Experience Platform 서비스의 새 랜딩 페이지
 * 홈 페이지에 [!DNL Journey Optimizer] 제품 설명에 대한 링크가 추가되었습니다.
-* 문서 페이지에 자습서 비디오 추가
+* 여러 페이지에 자습서 비디오 추가
 * 최적화된 홈 페이지 이미지
 * &#39;메시지 추적&#39; 섹션을 &#39;링크 및 추적 메시지 추가&#39;로 이동했고, 개선했으며 이름을 변경했습니다. [자세히 보기](message-tracking.md)
 * 미러 페이지에 하위 섹션을 추가했습니다. [자세히 보기](message-tracking.md#mirror-page)
