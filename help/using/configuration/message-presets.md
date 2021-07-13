@@ -5,7 +5,7 @@ feature: 애플리케이션 설정
 topic: 관리
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 메시지 사전 설정이 구성되면 **[!UICONTROL Presets]** 목록에서 메시지를 만들 때 메시지 사전 설정을 선택할 수 있습니다.
 
-![](../assets/do-not-localize/how-to-video.png) [이 비디오에서 이메일 사전 설정을 만들고 사용하는 방법을 알아봅니다](#video-presets)
+[➡️ 이 비디오에서 이메일 사전 설정을 만들고 사용하는 방법을 알아봅니다](#video-presets)
 
 ## 메시지 사전 설정 만들기 {#create-message-preset}
 
