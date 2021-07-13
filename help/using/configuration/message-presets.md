@@ -3,9 +3,9 @@ title: 메시지 사전 설정 만들기
 description: 메시지 사전 설정을 구성하고 모니터링하는 방법을 알아봅니다
 feature: 애플리케이션 설정
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 메시지 사전 설정 만들기
 
-[!DNL Journey Optimizer]을(를) 사용하여 전자 메일 및 푸시 알림 메시지에 필요한 모든 기술 매개 변수를 정의하는 메시지 사전 설정을 설정할 수 있습니다.이메일 유형, 보낸 사람 이메일 및 이름, 모바일 앱 등.
+[!DNL Journey Optimizer]을(를) 사용하여 전자 메일 및 푸시 알림 메시지에 필요한 모든 기술 매개 변수를 정의하는 메시지 사전 설정을 설정할 수 있습니다. 이메일 유형, 보낸 사람 이메일 및 이름, 모바일 앱 등.
 
 >[!CAUTION]
 >
@@ -49,7 +49,7 @@ ht-degree: 1%
 
    ![](../assets/preset-email.png)
 
-   * 사전 설정으로 전송할 메시지 유형을 선택합니다.**Transactional** 또는 **Marketing**
+   * 사전 설정으로 전송할 메시지 유형을 선택합니다. **Transactional** 또는 **Marketing**
 
       >[!CAUTION]
       >
@@ -63,17 +63,17 @@ ht-degree: 1%
       >
       >**회신(전자 메일 전달)** 필드를 제외하고 전자 메일 주소 도메인은 현재 선택한 [위임된 하위 도메인](about-subdomain-delegation.md)을 사용해야 합니다.
 
-      * **[!UICONTROL Sender name]**:브랜드 이름과 같이 발신자의 이름입니다.
+      * **[!UICONTROL Sender name]**: 브랜드 이름과 같이 발신자의 이름입니다.
 
-      * **[!UICONTROL Sender email]**:통신에 사용할 이메일 주소입니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*&#x200B;인 경우 *contact@marketing.luma.com*&#x200B;을 사용할 수 있습니다.
+      * **[!UICONTROL Sender email]**: 통신에 사용할 이메일 주소입니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*&#x200B;인 경우 *contact@marketing.luma.com*&#x200B;을 사용할 수 있습니다.
 
-      * **[!UICONTROL Reply to (name)]**:수신자가 전자 메일 클라이언트 소프트웨어 **** 에서 재생 단추를 클릭할 때 사용할 이름입니다.
+      * **[!UICONTROL Reply to (name)]**: 수신자가 전자 메일 클라이언트 소프트웨어 **** 에서 재생 단추를 클릭할 때 사용할 이름입니다.
 
-      * **[!UICONTROL Reply to (email)]**:수신자가 전자 메일 클라이언트 소프트웨어에서 재생  **** 단추를 클릭할 때 사용되는 전자 메일 주소입니다. 이 주소로 전송된 이메일은 아래에 제공된 **[!UICONTROL Reply to (forward email)]** 주소로 전달됩니다. 위임된 하위 도메인에 정의된 주소(예: *reply@marketing.luma.com*)를 사용해야 합니다. 그렇지 않으면 이메일이 삭제됩니다.
+      * **[!UICONTROL Reply to (email)]**: 수신자가 전자 메일 클라이언트 소프트웨어에서 재생  **** 단추를 클릭할 때 사용되는 전자 메일 주소입니다. 이 주소로 전송된 이메일은 아래에 제공된 **[!UICONTROL Reply to (forward email)]** 주소로 전달됩니다. 위임된 하위 도메인에 정의된 주소(예: *reply@marketing.luma.com*)를 사용해야 합니다. 그렇지 않으면 이메일이 삭제됩니다.
 
-      * **[!UICONTROL Reply to (forward email)]**:위임된 하위 도메인 [!DNL Journey Optimizer] 에 대해 에서 받은 모든 이메일은 이 전자 메일 주소로 전달됩니다. 위임된 하위 도메인에 정의된 이메일 주소를 제외한 모든 주소를 지정할 수 있습니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*&#x200B;인 경우 *abc@marketing.luma.com*&#x200B;과 같은 주소는 사용할 수 없습니다.
+      * **[!UICONTROL Reply to (forward email)]**: 위임된 하위 도메인 [!DNL Journey Optimizer] 에 대해 에서 받은 모든 이메일은 이 전자 메일 주소로 전달됩니다. 위임된 하위 도메인에 정의된 이메일 주소를 제외한 모든 주소를 지정할 수 있습니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*&#x200B;인 경우 *abc@marketing.luma.com*&#x200B;과 같은 주소는 사용할 수 없습니다.
 
-      * **[!UICONTROL Error email]**:이 주소에는 배달되는 며칠 후 ISP에서 생성한 모든 오류(비동기 바운스)가 수신됩니다.
+      * **[!UICONTROL Error email]**: 이 주소에는 배달되는 며칠 후 ISP에서 생성한 모든 오류(비동기 바운스)가 수신됩니다.
 
       ![](../assets/preset-header.png)
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
    ![](../assets/preset-push.png)
 
-   * 하나 이상의 플랫폼을 선택하십시오.**iOS** 및/또는 **Android**
+   * 하나 이상의 플랫폼을 선택하십시오. **iOS** 및/또는 **Android**
 
    * 각 플랫폼에 사용할 모바일 애플리케이션을 선택합니다.
 
@@ -124,11 +124,11 @@ ht-degree: 1%
 
 메시지 사전 설정에는 다음 상태가 있을 수 있습니다.
 
-* **[!UICONTROL Draft]**:메시지 사전 설정이 초안으로 저장되었으며 아직 제출되지 않았습니다. 구성을 다시 시작하려면 엽니다.
-* **[!UICONTROL Processing]**:메시지 사전 설정이 제출되었으며 몇 가지 확인 단계를 수행하고 있습니다.
-* **[!UICONTROL Active]**:메시지 사전 설정이 확인되었으며 메시지를 만들기 위해 선택할 수 있습니다.
-* **[!UICONTROL Failed]**:메시지 사전 설정 확인 중에 하나 또는 여러 개의 검사가 실패했습니다.
-* **[!UICONTROL De-activated]**:메시지 사전 설정이 비활성화 되었습니다. 새 메시지를 만드는 데 사용할 수 없습니다.
+* **[!UICONTROL Draft]**: 메시지 사전 설정이 초안으로 저장되었으며 아직 제출되지 않았습니다. 구성을 다시 시작하려면 엽니다.
+* **[!UICONTROL Processing]**: 메시지 사전 설정이 제출되었으며 몇 가지 확인 단계를 수행하고 있습니다.
+* **[!UICONTROL Active]**: 메시지 사전 설정이 확인되었으며 메시지를 만들기 위해 선택할 수 있습니다.
+* **[!UICONTROL Failed]**: 메시지 사전 설정 확인 중에 하나 또는 여러 개의 검사가 실패했습니다.
+* **[!UICONTROL De-activated]**: 메시지 사전 설정이 비활성화 되었습니다. 새 메시지를 만드는 데 사용할 수 없습니다.
 
 ## 메시지 사전 설정 편집
 
