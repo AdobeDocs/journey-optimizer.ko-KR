@@ -3,9 +3,9 @@ title: 푸시 구성 시작
 description: 푸시 알림 데이터 흐름 및 구성 요소 이해
 feature: 애플리케이션 설정
 topic: 푸시
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 1. Apple의 APNs 및 Google FCM 푸시 메시지 서비스를 사용하여 브랜드 모바일 앱(Android 또는 iOS)의 등록
 1. 메시징 서비스는 푸시 알림을 통해 특정 장치를 타깃팅하는 데 [!DNL Adobe Journey Optimizer]이 사용할 식별자인 푸시 토큰을 생성합니다.
-1. 이전에 생성한 푸시 토큰은 Adobe Experience Platform에 전달되고 실시간 고객 프로필과 동기화됩니다.이 작업은 클라이언트 SDK를 쉽게 통합할 수 있도록 OOTB로 수행됩니다
+1. 이전에 생성한 푸시 토큰은 Adobe Experience Platform에 전달되고 실시간 고객 프로필과 동기화됩니다. 이 작업은 클라이언트 SDK를 쉽게 통합할 수 있도록 OOTB로 수행됩니다
 1. 푸시 메시지는 [!DNL Adobe Journey Optimizer]에서 작성되며, 푸시 메시지는 메시지 사전 설정에 대해 만들어집니다
 1. 푸시 메시지는 여정의 오케스트레이션 캔버스에 포함될 수 있습니다
 1. 여정 게시 시, 여정 조건을 기반으로 하는 고객 프로필은 푸시 알림을 받을 수 있는 자격이 있으며 푸시 메시지 페이로드는 이 단계에서 개인화됩니다
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 * **Adobe Experience Platform 실시간 고객 프로필**  은 웹, 모바일, CRM 및 서드파티 등 여러 채널의 데이터를 결합함으로써 각 개별 고객에 대한 전체적인 보기를 포함합니다. 프로필 을 사용하면 고객 데이터를 모든 고객 상호 작용을 실행 가능하고 타임스탬프가 지정된 계정을 제공하는 통합 보기에 통합할 수 있습니다. 주어진 앱 사용자에 대한 푸시 토큰은 사용자의 프로필에 대해 레코드 데이터로 저장되는 반면, 사용자가 푸시 알림과 함께 수행하는 상호 작용은 시계열 이벤트 데이터로 추적됩니다. [Adobe Experience Platform 실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}에 대해 자세히 알아보십시오.
 
-* **[!DNL Adobe Journey Optimizer]** :위에 언급된 구성 요소와의 모바일 앱 통합이 준비되고 Adobe Experience Platform에 고객 프로필이 배치되면, 푸시 알림을 작성하여 사용자 [!DNL Adobe Journey Optimizer] 와 참여하도록 구성할 수 있습니다.
+* **[!DNL Adobe Journey Optimizer]** : 위에 언급된 구성 요소와의 모바일 앱 통합이 준비되고 Adobe Experience Platform에 고객 프로필이 배치되면, 푸시 알림을 작성하여 사용자 [!DNL Adobe Journey Optimizer] 와 참여하도록 구성할 수 있습니다.
 
 ## 푸시 기술 설정 및 의사 워크플로우
 
