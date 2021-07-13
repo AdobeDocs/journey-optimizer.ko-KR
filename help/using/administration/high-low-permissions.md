@@ -14,9 +14,9 @@ snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: 컨트롤 그룹
 topic: 관리
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -30,9 +30,9 @@ ht-degree: 0%
 각 제품 프로필은 사용자가 다른 기능에 액세스할 수 있는 권한으로 구성되어 있습니다.
 두 가지 유형으로 나눌 수 있습니다.
 
-* **높은 수준의 권한**:는  **[!UICONTROL Product profile]** 및  [!DNL Admin console]처럼  **[!UICONTROL Publish journeys]** 에서 지정할 수 있는  **[!UICONTROL Manage subdomains delegation]**&#x200B;다양한 권한을 나타냅니다. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다.
+* **높은 수준의 권한**: 는  **[!UICONTROL Product profile]** 및  [!DNL Admin console]처럼  **[!UICONTROL Publish journeys]** 에서 지정할 수 있는  **[!UICONTROL Manage subdomains delegation]**&#x200B;다양한 권한을 나타냅니다. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다.
 
-* **낮은 수준 권한**:는 높은 수준 권한이 있는 다른 권한을 나타냅니다.
+* **낮은 수준 권한**: 는 높은 수준 권한이 있는 다른 권한을 나타냅니다.
 
 예를 들어 **[!UICONTROL Journey administrator]** 제품 프로필에 **[!UICONTROL Manage journeys]** 권한이 할당됩니다. 이 사용 권한을 통해 여정 관리자가 여정을 작성, 읽기 및 삭제할 수 있는 낮은 수준의 권한이 제공됩니다.
 
@@ -218,7 +218,7 @@ ht-degree: 0%
 
 ## 의사 결정 관리 기능 {#decisions-permissions}
 
-### 의사 결정 권한 관리 {#manage-decisioning}
+### 결정 권한 관리 {#manage-decisioning}
 
 **[!UICONTROL Manage decisions]** 높은 수준의 권한을 통해 사용자는 기존 **[!UICONTROL Activity entities]**&#x200B;을 새로 만들고 편집/삭제하고, 결정을 내리기 위해 해당 활동에 사용되는 개체를 관리할 수 있습니다.
 
@@ -244,7 +244,7 @@ ht-degree: 0%
    * profile.read
    * segments.read
 
-### 의사 결정 권한 보기 {#view-decisions}
+### 결정 권한 보기 {#view-decisions}
 
 **[!UICONTROL View decisions]** 높은 수준의 권한을 통해 사용자는 기존 활동 및 관련 비즈니스 개체를 사용하여 결정을 내릴 수 있습니다.
 
@@ -263,7 +263,7 @@ ht-degree: 0%
    * datasets.write
    * datasets.delete
 
-### Offers 의사 결정 권한 게시 {#publish-decisions}
+### Offers Decisioning 권한 게시 {#publish-decisions}
 
 **[!UICONTROL Publish offers decisioning]** 높은 수준의 권한을 통해 사용자는 오퍼 활동을 승인/승인하지 않을 수 있습니다.
 
@@ -285,7 +285,7 @@ ht-degree: 0%
    * datasets.read
    * profiles.read
 
-### 등급 전략 관리 권한 {#manage-decisions}
+### 순위 전략 관리 권한 {#manage-decisions}
 
 **[!UICONTROL Manage ranking strategies]** 높은 수준의 권한을 통해 사용자는 사용자 지정 메시지 보고서를 읽고, 만들고, 편집하고, 삭제할 수 있으며 작업 기능을 사용할 수 있습니다.
 
@@ -328,7 +328,7 @@ ht-degree: 0%
 * IP_pools.write
 * IP_pools.delete
 
-### 메시지 일반 설정 권한 관리 {#manage-message-settings}
+### 메시지 일반 설정 관리 권한 {#manage-message-settings}
 
 **[!UICONTROL Manage messages general settings]** 고급 권한을 사용하면 샌드박스 수준에서 전역 설정을 만들고, 편집하고, 삭제할 수 있습니다.
 
@@ -378,7 +378,7 @@ ht-degree: 0%
 * IP_pools.read
 * mobile_setting.read (Adobe Experience Platform Launch에서)
 
-### 제외 규칙 권한 관리 {#manage-suppression-rules}
+### 제외 규칙 관리 권한 {#manage-suppression-rules}
 
 **[!UICONTROL Manage suppression rules]** 높은 수준의 권한을 사용하면 사용자의 이메일 주소가 제외 목록에 추가되기 전에 바운스 수를 정의할 수 있습니다.
 
@@ -400,7 +400,7 @@ ht-degree: 0%
    * profiles.read
    * datasets.read
 
-### 내보내기 억제 목록 권한 {#export-suppression-list}
+### 제외 목록 내보내기 권한 {#export-suppression-list}
 
 **[!UICONTROL Export suppression list]** 고급 권한을 사용하면 메시지 사전 설정 및 일반 메시지 설정을 포함한 메시지 구성을 구성할 수 있습니다.
 
