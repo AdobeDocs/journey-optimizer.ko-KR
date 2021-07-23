@@ -4,10 +4,10 @@ description: 개인 정보를 관리하는 방법에 대해 알아봅니다.
 topic: 개인 정보
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 79%
+source-wordcount: '773'
+ht-degree: 78%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 79%
 
 [!DNL Journey Optimizer] 는 Adobe Experience Platform에서 수행한 대부분의 데이터 세트 변경 사항을 상속합니다.
 
-따라서 개인 정보 요청(액세스 권한 및 잊혀질 권리)은 Experience Platform을 통해 관리됩니다. [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target=&quot;_blank&quot;}를 사용하여 요청을 보내고 **프로필** 및 **AEP Data Lake**&#x200B;개인 정보 보호 요청을 만들 때 제품 목록에서 [프로필](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#request-builder){target=&quot;_blank&quot;}을 선택해야 합니다. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
+따라서 개인 정보 요청(액세스 권한 및 잊혀질 권리)은 Experience Platform을 통해 관리됩니다. [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target=&quot;_blank&quot;}를 사용하여 요청을 보내고 **프로필** 및 **AEP Data Lake**&#x200B;개인 정보 보호 요청을 만들 때 제품 목록에서 [프로필](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}을 선택해야 합니다. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
