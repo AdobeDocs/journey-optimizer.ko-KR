@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '950'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >**실현됨** 및 **기존** 세그먼트 기여도 상태가 있는 개인만 여정에 들어갑니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세분화 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}를 참조하십시오.
+   >**실현됨** 및 **기존** 세그먼트 기여도 상태가 있는 개인만 여정에 들어갑니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세분화 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}를 참조하십시오.
 
    ![](../assets/read-segment-selection.png)
 
