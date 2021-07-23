@@ -5,10 +5,10 @@ feature: 개인화
 topic: 개인화
 role: Data Engineer
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 9%
+source-wordcount: '664'
+ht-degree: 13%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 9%
 
 * `Hello {{profile.person.name.fullName}}`
 
-메시지(전자 메일 및 푸시)를 처리할 때 Journey Optimizer은 표현식을 Experience Cloud 플랫폼 데이터베이스에 포함된 데이터로 대체합니다. `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`은 &quot;Hello John Doe&quot;가 됩니다.
+메시지(전자 메일 및 푸시)를 처리할 때 Journey Optimizer은 표현식을 Experience Cloud 플랫폼 데이터베이스에 포함된 데이터로 대체합니다.  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`은 &quot;Hello John Doe&quot;가 됩니다.
 
 
 ## 개인화 컨텍스트{#personalization-areas}
@@ -50,11 +50,11 @@ ht-degree: 9%
 
 이메일 디자이너에서 콘텐츠를 개인화할 수 있습니다.
 
-* **메시지**&#x200B;에서:텍스트 블록 내부를 클릭하고 상황별 도구 모음에서 **개인화** 아이콘을 클릭한 다음 **개인화 삽입** 필드를 선택합니다. 전자 메일 디자이너 인터페이스에 대한 자세한 내용은 이 [섹션](../design-emails.md)을 참조하십시오.
+* **메시지**&#x200B;에서: 텍스트 블록 내부를 클릭하고 상황별 도구 모음에서 **개인화** 아이콘을 클릭한 다음 **개인화 삽입** 필드를 선택합니다. 전자 메일 디자이너 인터페이스에 대한 자세한 내용은 이 [섹션](../design-emails.md)을 참조하십시오.
 
    ![](assets/perso_insert.png)
 
-* **링크**&#x200B;의 경우:텍스트 블록 내의 텍스트나 이미지를 선택하고 상황별 도구 모음에서 **링크 삽입** 아이콘을 클릭합니다. 창에서 **개인화 추가** 아이콘을 클릭하여 개인화 블록을 추가할 수 있습니다.
+* **링크**&#x200B;의 경우: 텍스트 블록 내의 텍스트나 이미지를 선택하고 상황별 도구 모음에서 **링크 삽입** 아이콘을 클릭합니다. 창에서 **개인화 추가** 아이콘을 클릭하여 개인화 블록을 추가할 수 있습니다.
 
    ![](assets/perso_link.png)
 
@@ -89,11 +89,11 @@ ht-degree: 9%
 
 화면의 왼쪽 부분에는 개인화할 소스를 선택할 수 있는 도메인 선택기가 표시됩니다. 사용 가능한 소스는 다음과 같습니다.
 
-* **프로필** :XDM( [Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}에 설명된 프로필 스키마와 연결된 모든 참조를 나열합니다.
-* **세그먼트 멤버십** :Adobe Experience Platform 세그멘테이션 서비스에서 만든 모든 세그먼트를 나열합니다. 세그먼테이션에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en){target=&quot;_blank&quot;}를 참조하십시오.
-* **오퍼** :특정 배치에 연결된 모든 오퍼를 나열합니다. 배치를 선택한 다음 컨텐츠에 오퍼를 삽입합니다. 오퍼를 관리하는 방법에 대한 전체 설명서는 [이 섹션](../deliver-personalized-offers.md)을 참조하십시오.
-* **컨텍스트** :여정 **** 에서 메시지 활동을 사용하면 이 메뉴에서 컨텍스트 여정 필드를 사용할 수 있습니다. 자세한 내용은 [이 섹션](personalization-use-case.md)을 참조하십시오.
-* **도우미 함수** :계산, 데이터 형식 지정 또는 전환, 조건 등과 같이 데이터에 대한 작업을 수행하고 개인화 컨텍스트에서 조작하는 데 사용할 수 있는 모든 도우미 함수를 나열합니다. 자세한 내용은 [이 섹션](functions/functions.md)을 참조하십시오.
+* **프로필** : XDM( [Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}에 설명된 프로필 스키마와 연결된 모든 참조를 나열합니다.
+* **세그먼트 멤버십** : Adobe Experience Platform 세그멘테이션 서비스에서 만든 모든 세그먼트를 나열합니다. 세그먼테이션에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}를 참조하십시오.
+* **오퍼** : 특정 배치에 연결된 모든 오퍼를 나열합니다. 배치를 선택한 다음 컨텐츠에 오퍼를 삽입합니다. 오퍼를 관리하는 방법에 대한 전체 설명서는 [이 섹션](../deliver-personalized-offers.md)을 참조하십시오.
+* **컨텍스트** : 여정 **** 에서 메시지 활동을 사용하면 이 메뉴에서 컨텍스트 여정 필드를 사용할 수 있습니다. 자세한 내용은 [이 섹션](personalization-use-case.md)을 참조하십시오.
+* **도우미 함수** : 계산, 데이터 형식 지정 또는 전환, 조건 등과 같이 데이터에 대한 작업을 수행하고 개인화 컨텍스트에서 조작하는 데 사용할 수 있는 모든 도우미 함수를 나열합니다. 자세한 내용은 [이 섹션](functions/functions.md)을 참조하십시오.
 
 선택 시 참조가 편집기에 추가됩니다.
 
@@ -107,10 +107,10 @@ ht-degree: 9%
 
 ## 방법 비디오{#video-perso}
 
-여정에서 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
+여정에서 얻은 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-여정에서 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
+여정에서 얻은 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
