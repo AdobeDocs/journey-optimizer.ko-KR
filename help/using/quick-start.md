@@ -5,10 +5,10 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 79%
+source-wordcount: '401'
+ht-degree: 78%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 79%
 
    * [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko)에서 데이터 세트를 미리 보고 만드는 방법을 알아봅니다{target=&quot;_blank&quot;}
 
-   * [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko#manage-namespaces){target=&quot;_blank&quot;}에서 ID 네임스페이스를 만드는 방법을 알아봅니다
+   * [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target=&quot;_blank&quot;}에서 ID 네임스페이스를 만드는 방법을 알아봅니다
 
    *  [이 페이지](../using/building-journeys/creating-test-profiles.md)에서 테스트 프로필을 만드는 방법을 알아봅니다
 
