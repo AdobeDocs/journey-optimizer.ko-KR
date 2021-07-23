@@ -5,10 +5,10 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 4%
+source-wordcount: '814'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 ## 결정 만들기 {#create-activity}
 
-1. 결정 목록에 액세스한 다음 **[!UICONTROL Create activity]** 을 클릭합니다.
+1. 결정 목록에 액세스한 다음 **[!UICONTROL Create decision]** 을 클릭합니다.
 
 1. 결정 이름과 시작 날짜와 종료 날짜 및 시간을 지정하고 **[!UICONTROL Next]** 을 클릭합니다.
 
@@ -83,26 +83,67 @@ ht-degree: 4%
 
 ## 결정 검토 및 저장 {#review}
 
-모든 것이 제대로 구성되어 있고 결정이 고객에게 오퍼를 제공하는 데 사용할 준비가 된 경우 **[!UICONTROL Finish]** 을 클릭한 다음 **[!UICONTROL Save and activate]** 을 선택합니다.
+모든 것이 제대로 구성되면 결정 속성의 요약이 표시됩니다.
 
-나중에 편집하고 활성화하기 위해 결정을 초안으로 저장할 수도 있습니다.
+1. 오퍼를 고객에게 제공하는 데 사용할 준비가 되었는지 확인합니다.
+1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
+1. 그런 다음 **[!UICONTROL Save and activate]** 을 선택합니다.
 
-![](../../assets/save-activities.png)
+   ![](../../assets/save-activities.png)
+
+   나중에 편집하고 활성화하기 위해 결정을 초안으로 저장할 수도 있습니다.
 
 이 결정은 이전 단계에서 활성화했는지 여부에 따라 **[!UICONTROL Live]** 또는 **[!UICONTROL Draft]** 상태로 목록에 표시됩니다.
 
-이제 고객에게 오퍼를 전달하는 데 사용할 준비가 되었습니다. 속성을 선택하여 해당 속성을 표시하고 편집하거나 억제할 수 있습니다.
+이제 고객에게 오퍼를 전달하는 데 사용할 준비가 되었습니다.
 
-오퍼 게재에 대한 자세한 내용은 다음 섹션을 참조하십시오.
+## 의사 결정 목록 {#decision-list}
 
-* [메시지에 개인화된 오퍼 추가](../../deliver-personalized-offers.md)
-* [API를 사용하여 오퍼 게재](../api-reference/decisions-api/deliver-offers.md)
+결정 목록에서 해당 속성을 표시하는 결정을 선택할 수 있습니다. 여기에서 해당 상태를 편집하거나, 해당 상태(**초안**, **라이브**, **완료**, **보관**)를 변경하거나, 결정을 복제하거나, 삭제할 수도 있습니다.
 
-![](../../assets/activities-created.png)
+![](../../assets/decision_created.png)
 
->[!NOTE]
->
->결정이 생성되면 목록에서 해당 이름을 클릭하여 세부 정보에 액세스하고 **[!UICONTROL Change log]** 탭을 사용하여 모든 변경 사항을 시각화할 수 있습니다. [자세히 알아보기](../get-started/user-interface.md#changes-log).
+**[!UICONTROL Edit]** 단추를 선택하여 결정 편집 모드로 돌아갑니다. 결정 모드에서 결정의 [세부 정보](#create-activity), [결정 범위](#add-decision-scopes) 및 [대체 오퍼](#add-fallback)를 수정할 수 있습니다.
+
+라이브 결정을 선택하고 **[!UICONTROL Deactivate]** 을 클릭하여 결정 상태를 다시 **[!UICONTROL Draft]** 로 설정합니다.
+
+상태를 **[!UICONTROL Live]**(으)로 다시 설정하려면 이제 표시되는 **[!UICONTROL Activate]** 단추를 선택하십시오.
+
+![](../../assets/decision_activate.png)
+
+**[!UICONTROL More actions]** 단추를 사용하면 아래 설명된 작업이 활성화됩니다.
+
+![](../../assets/decision_more-actions.png)
+
+* **[!UICONTROL Complete]**: 결정 상태를 로 설정합니다.  **[!UICONTROL Complete]**&#x200B;즉, 더 이상 결정을 호출할 수 없습니다. 이 작업은 활성화된 결정에만 사용할 수 있습니다. 이 결정은 목록에서 계속 사용할 수 있지만 상태를 다시 **[!UICONTROL Draft]** 또는 **[!UICONTROL Approved]** 로 설정할 수 없습니다. 복제, 삭제 또는 보관만 가능합니다.
+
+* **[!UICONTROL Duplicate]**: 동일한 속성, 결정 범위 및 대체 오퍼로 결정을 만듭니다. 기본적으로 새 결정은 **[!UICONTROL Draft]** 상태입니다.
+
+* **[!UICONTROL Delete]**: 목록에서 결정을 제거합니다.
+
+   >[!CAUTION]
+   >
+   >결정 및 내용은 더 이상 액세스할 수 없습니다. 이 작업은 취소할 수 없습니다.
+   >
+   >다른 개체에 의사 결정을 사용하면 삭제할 수 없습니다.
+
+* **[!UICONTROL Archive]**: 결정 상태를 로 설정합니다  **[!UICONTROL Archived]**. 이 결정은 목록에서 계속 사용할 수 있지만 상태를 다시 **[!UICONTROL Draft]** 또는 **[!UICONTROL Approved]** 로 설정할 수 없습니다. 복제하거나 삭제할 수만 있습니다.
+
+해당 확인란을 선택하여 여러 의사 결정의 상태를 동시에 삭제하거나 변경할 수도 있습니다.
+
+![](../../assets/decision_multiple-selection.png)
+
+상태가 다른 여러 결정의 상태를 변경하려면 관련 상태만 변경됩니다.
+
+![](../../assets/decision_change-status.png)
+
+결정이 생성되면 목록에서 해당 이름을 클릭할 수 있습니다.
+
+![](../../assets/decision_click-name.png)
+
+이를 통해 해당 결정에 대한 자세한 정보에 액세스할 수 있습니다. **[!UICONTROL Change log]** 탭을 선택하여 결정에 수행된 모든 변경 사항](../get-started/user-interface.md#changes-log)을 모니터링합니다.[
+
+![](../../assets/decision_information.png)
 
 ## 튜토리얼 비디오 {#video}
 
