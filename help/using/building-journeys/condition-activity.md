@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '940'
 ht-degree: 10%
 
 ---
@@ -41,8 +41,8 @@ ht-degree: 10%
 
 단순 모드에서는 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 기본 영역으로 끌어다 놓습니다. 다른 요소를 결합하려면 서로 인터로크하여 다른 그룹 및/또는 그룹 수준을 만듭니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다.
 
-* 및:두 가지 기준의 교집합. 모든 기준과 일치하는 요소만 고려합니다.
-* 또는:두 가지 기준의 결합. 두 기준 중 하나 이상에 일치하는 요소를 고려합니다.
+* 및: 두 가지 기준의 교집합. 모든 기준과 일치하는 요소만 고려합니다.
+* 또는: 두 가지 기준의 결합. 두 기준 중 하나 이상에 일치하는 요소를 고려합니다.
 
 ![](../assets/journey64.png)
 
@@ -112,4 +112,4 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >**실현됨** 및 **기존** 세그먼트 기여도 상태가 있는 개인만 세그먼트의 구성원으로 간주됩니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세분화 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}를 참조하십시오.
+   >**실현됨** 및 **기존** 세그먼트 기여도 상태가 있는 개인만 세그먼트의 구성원으로 간주됩니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세분화 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}를 참조하십시오.
