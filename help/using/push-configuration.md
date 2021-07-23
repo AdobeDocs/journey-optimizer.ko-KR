@@ -5,9 +5,9 @@ feature: 애플리케이션 설정
 topic: 푸시
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1450'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 >[!CAUTION]
 >
->푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현과 관련된 가상 인력에 따라 전체 권한 세트를 단일 제품 프로필에 할당하거나 앱 개발자와 **Adobe Journey Optimizer** 관리자 간에 권한을 공유해야 할 수 있습니다. [이 설명서](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions){target=&quot;_blank&quot;}에서 **Adobe Experience Platform Launch** 권한에 대해 자세히 알아보십시오.
+>푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현과 관련된 가상 인력에 따라 전체 권한 세트를 단일 제품 프로필에 할당하거나 앱 개발자와 **Adobe Journey Optimizer** 관리자 간에 권한을 공유해야 할 수 있습니다. [이 설명서](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}에서 **Adobe Experience Platform Launch** 권한에 대해 자세히 알아보십시오.
 
 <!--ou need to your have access to perform following roles :
 
@@ -253,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-이 여정이 작동하려면 XDM 스키마를 만들어야 합니다. 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion){target=&quot;_blank&quot;}를 참조하십시오.
+이 여정이 작동하려면 XDM 스키마를 만들어야 합니다. 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target=&quot;_blank&quot;}를 참조하십시오.
 
 1. 왼쪽 메뉴에서 **[!UICONTROL Schemas]**&#x200B;으로 이동합니다.
 
