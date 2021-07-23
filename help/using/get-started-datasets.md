@@ -4,10 +4,10 @@ description: Adobe Journey Optimizer에서 Adobe Experience Platform 데이터 �
 feature: 데이터 세트
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 12%
+source-wordcount: '259'
+ht-degree: 24%
 
 ---
 
@@ -32,13 +32,13 @@ XDM 스키마에 CSV 파일을 매핑하기 위한 단계별 설명서는 [이 �
 
 ## 방법 비디오{#video-dataset}
 
-데이터 집합을 만들고, 스키마에 매핑하고, 데이터를 추가하고, 데이터가 수집되었는지 확인하는 방법을 알아봅니다.
+데이터 세트를 만들고 이를 스키마에 매핑하며, 세트에 데이터를 추가하고 데이터가 수집되었는지 확인하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 **참조 -**
 
 * [스키마, 데이터 세트 및 데이터를 수집하여 Journey Optimizer에서 테스트 프로필을 추가합니다](building-journeys/creating-test-profiles.md)
-* [스트리밍 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}
-* [데이터를 Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=en){target=&quot;_blank&quot;}에 수집
+* [스트리밍 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko){target=&quot;_blank&quot;}
+* [데이터를 Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}에 수집
 
