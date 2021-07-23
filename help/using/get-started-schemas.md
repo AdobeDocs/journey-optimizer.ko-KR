@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer에서 Adobe Experience Platform 스키마�
 feature: 스키마
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 ![](assets/schemas-home.png)
 
-[이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en){target=&quot;_blank&quot;}에서 스키마 사용자 인터페이스를 사용하는 방법을 알아봅니다
+[이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}에서 스키마 사용자 인터페이스를 사용하는 방법을 알아봅니다
 
 스키마 편집기를 사용하여 스키마를 만드는 단계별 설명서는 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko){target=&quot;_blank&quot;}에서 사용할 수 있습니다
 
