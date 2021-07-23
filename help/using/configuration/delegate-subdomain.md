@@ -15,10 +15,10 @@ feature: 애플리케이션 설정
 topic: 관리
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 10%
+source-wordcount: '472'
+ht-degree: 9%
 
 ---
 
@@ -49,7 +49,9 @@ ht-degree: 10%
 
    >[!CAUTION]
    >
-   >marketing.company.com과 같은 유효한 하위 도메인을 입력했는지 확인합니다. 잘못된 하위 도메인을 Adobe으로 위임하는 것은 허용되지 않습니다.
+   >잘못된 하위 도메인을 Adobe으로 위임하는 것은 허용되지 않습니다. marketing.yourcompany.com과 같이 조직이 소유한 유효한 하위 도메인을 입력해야 합니다.
+   >
+   >email.marketing.yourcompany.com과 같은 다중 수준 하위 도메인은 현재 지원되지 않습니다.
 
 1. DNS 서버에 배치할 레코드 목록이 표시됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 DNS 레코드를 생성합니다.
 
