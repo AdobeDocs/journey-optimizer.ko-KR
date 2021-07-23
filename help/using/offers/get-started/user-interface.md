@@ -5,10 +5,10 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 95%
+source-wordcount: '604'
+ht-degree: 71%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 95%
 오퍼 라이브러리를 사용하면 한 곳에서 배치 및 오퍼를 만들고 관리할 수 있을 뿐만 아니라, 만든 모든 의사 결정(이전의 오퍼 활동이라고 함)에 액세스할 수 있습니다.
 
 **[!UICONTROL Offers]** 메뉴를 사용하여 개인화된 오퍼와 대체 오퍼를 관리하고, 오퍼를 컬렉션에 구성하고, 의사 결정을 만들어 이를 제공합니다.
+
+* **[!UICONTROL Overview]**: 을 처음 사용하는  [!DNL Offer Decisioning]? 화면의 단계에 따라 배치, 오퍼 및 컬렉션 설정을 시작합니다. 이미 [!DNL Offer Decisioning]에 익숙하다면, 가장 최근 오퍼, 컬렉션 및 결정에 대한 개요를 알 수 있습니다. [개요](#overview)를 참조하십시오.
 
 * **[!UICONTROL Offers]**: 개인화된 대체 오퍼에 액세스하거나 새로운 오퍼를 만들 수 있습니다. [오퍼 만들기](../offer-library/creating-personalized-offers.md) 및 [대체 오퍼 만들기](../offer-library/creating-fallback-offers.md)를 참조하십시오.
 
@@ -37,6 +39,30 @@ ht-degree: 95%
 * **[!UICONTROL Rankings]**: 등급 공식을 만들고 관리하여 지정된 배치에 대해 먼저 제시해야 하는 오퍼를 결정합니다. [등급 수식 만들기](../offer-library/create-ranking-formulas.md)를 참조하십시오.
 
 ![](../../assets/offer_activities.png)
+
+## 개요 {#overview}
+
+[!DNL Offer Decisioning]을 처음 사용하는 경우 **[!UICONTROL Overview]** 탭에서는 첫 번째 오퍼 결정 작성을 시작하는 데 필요한 주요 단계를 안내합니다.
+
+![](../../assets/overview_onboarding.png)
+
+화면의 단계에 따라 배치, 오퍼 및 컬렉션 만들기를 시작합니다.
+
+이러한 첫 번째 단계를 완료하면 오퍼 결정(이전에 오퍼 활동이라고 함)을 생성하라는 메시지가 표시됩니다.
+
+![](../../assets/overview_collection-created.png)
+
+>[!NOTE]
+>
+>오퍼를 만들고 결정에서 사용하는 주요 단계는 [이 섹션](../offer-library/key-steps.md)에 나와 있습니다.
+
+[!DNL Offer Decisioning]에 더 익숙하고 하나 이상의 오퍼 결정을 이미 만든 경우에는 **[!UICONTROL Overview]** 탭에 최신 오퍼, 컬렉션 및 결정이 표시됩니다.
+
+선택한 항목의 세부 정보에 직접 액세스하려면 오퍼나 결정을 클릭합니다.
+
+오퍼, 컬렉션 또는 의사 결정 목록에 액세스하려면 **[!UICONTROL View all]** 단추를 클릭하십시오.
+
+![](../../assets/overview_view-all.png)
 
 ## 검색 및 필터 정보
 
