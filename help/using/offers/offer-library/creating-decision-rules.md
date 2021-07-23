@@ -5,10 +5,10 @@ feature: 오퍼
 topic: 통합
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 15%
+source-wordcount: '284'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
 1. 규칙 이름을 지정하고 설명을 제공한 다음 필요에 따라 규칙을 구성합니다.
 
-   이를 위해 **세그먼트 빌더** 를 사용하여 규칙 조건을 작성할 수 있습니다. [자세히 알아보기](../../segment/about-segments.md)
+   이를 위해 **세그먼트 빌더**&#x200B;를 사용하여 규칙 조건을 작성할 수 있습니다. [자세히 알아보기](../../segment/about-segments.md)
 
    이 예에서는 규칙이 &quot;Gold&quot; 충성도 수준이 있는 고객을 타깃팅합니다.
 
@@ -47,6 +47,10 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 1. 규칙이 만들어지면 규칙 목록에 표시됩니다. 속성을 선택하여 등록 정보를 표시하고 편집하거나 삭제할 수 있습니다.
 
    ![](../../assets/rule_created.png)
+
+>[!CAUTION]
+>
+>이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}를 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 활용할 수 없습니다.
 
 ## 튜토리얼 비디오 {#video}
 
