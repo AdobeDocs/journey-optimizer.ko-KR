@@ -5,9 +5,9 @@ feature: 개요
 topic: 콘텐츠 관리
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 1. 업로드할 파일을 선택합니다. 완료되면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
-   자산을 관리하는 방법에 대한 자세한 내용은 이 [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en)을 참조하십시오.
+   자산을 관리하는 방법에 대한 자세한 내용은 이 [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html)을 참조하십시오.
 
 1. 이제 자산이 업로드되면 이메일 디자이너를 통해 메시지 중 하나에 자산을 삽입할 수 있습니다.
 
