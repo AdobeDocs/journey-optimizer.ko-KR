@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 35536a6661983bc4b94336a0ffa088de3f4ca919
+source-git-commit: 1f0f4f63a31c4546f813dd803f06ae6aad234b71
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '694'
 ht-degree: 95%
 
 ---
@@ -87,6 +87,7 @@ ht-degree: 95%
       + [대기](using/building-journeys/wait-activity.md)
       + [세그먼트 읽기](using/building-journeys/read-segment.md)
       + [메시지](using/building-journeys/journeys-message.md)
+      + [메시지 테스트](using/building-journeys/journeys-message-test.md)
       + [사용자 정의 작업](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign v7/v8 작업](using/building-journeys/using-adobe-campaign-classic.md)
       + [점프](using/building-journeys/jump.md)
