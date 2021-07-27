@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
-source-git-commit: 0fb6d8f611a849696d83e0f129e6462431e5fe83
+source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '233'
 ht-degree: 24%
 
 ---
@@ -26,8 +26,25 @@ ht-degree: 24%
 <tr>
 <td>
 <p>Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이터 세트에 대한 조회 테이블로 사용하기 위해 스키마 간의 관계를 정의할 수 있습니다. 이제 Journey Optimizer은 연결된 스키마에서 가져온 데이터를 활용할 수 있습니다.</p>
-<p>이러한 필드는 단일 이벤트 구성, 여정 조건, 메시지 개인화 및 사용자 지정 작업 개인화에서 사용할 수 있습니다.
+<p>이러한 필드는 단일 이벤트 구성, 여정 조건, 메시지 개인화 및 사용자 지정 작업 개인화에서 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="event/experience-event-schema.md#leverage_schema_relationships">자세한 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>허용 목록</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 테스트 환경에서 수신자에게 원치 않는 이메일을 보내지 않도록 샌드박스 수준에서 특정 전송 안전 목록을 정의할 수 있습니다.
+</p>
+<p>자세한 내용은 <a href="allow-list.md">자세한 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
