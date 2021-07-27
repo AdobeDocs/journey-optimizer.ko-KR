@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1000'
 ht-degree: 5%
 
 ---
@@ -56,7 +56,13 @@ ht-degree: 5%
    >
    >다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 여정에 들어갈 수 없습니다.
 
-1. **[!UICONTROL Throttling rate]** 필드에서 세그먼트 읽기 활동의 처리량을 정의합니다. 이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 17.000이며 500에서 17000 사이여야 합니다.
+1. **[!UICONTROL Throttling rate]** 필드를 읽기 세그먼트 활동의 처리량 제한으로 설정합니다.
+
+   이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 초당 17,000개의 메시지입니다. 이 값은 초당 500~17,000개의 메시지로 수정할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >샌드박스당 전체 전송률 은 초당 17,000개의 메시지로 설정됩니다. 따라서 동일한 샌드박스에서 동시에 실행되는 모든 읽기 세그먼트의 전송률은 초당 최대 17,000개의 메시지를 추가합니다. 이 캡은 수정할 수 없습니다.
 
 1. **[!UICONTROL Read Segment]** 활동을 사용하면 세그먼트가 여정에 들어갈 시간을 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Edit journey schedule]** 링크를 클릭하여 여정의 속성에 액세스한 다음 **[!UICONTROL Scheduler type]** 필드를 구성합니다.
 
