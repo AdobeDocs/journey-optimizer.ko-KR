@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 1%
 * **프로필 업데이트** 작업을 사용하여 경험 이벤트(예: 구매)를 생성할 수 없습니다.
 * 다른 작업과 마찬가지로 오류 또는 시간 제한 시 대체 경로를 정의할 수 있으며 두 작업을 동시에 배치할 수 없습니다.
 * Platform으로 보낸 업데이트 요청은 속도가 빠르지만 1초 이내에 전송되지 않습니다. 보통 몇 초 정도 걸리지만 가끔은 장담할 수 없는 경우도 있다. 따라서 예를 들어, 작업이 바로 앞에 배치된 프로필 업데이트 작업에 의해 업데이트된 &quot;필드 1&quot;을 사용하는 경우 작업에서 &quot;필드 1&quot;이 업데이트될 것으로 예상하면 안 됩니다.
-* 데이터 소스에는 필드 그룹 수준에서 캐시 기간 개념이 있습니다. 여정에서 최근에 업데이트된 프로필 필드를 활용하려는 경우 매우 짧은 캐시 기간을 정의하도록 주의하십시오.
 
 ## 테스트 모드 사용 {#using-the-test-mode}
 
