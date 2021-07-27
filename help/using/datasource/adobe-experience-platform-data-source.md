@@ -5,16 +5,16 @@ feature: 데이터 소스
 topic: 관리
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 10%
+source-wordcount: '353'
+ht-degree: 11%
 
 ---
 
 # Adobe Experience Platform 데이터 소스 {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비스에 대한 연결을 정의합니다. 이 데이터 소스는 기본적으로 제공되며 사전 구성되어 있습니다. 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예를 들어 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. 실시간 고객 프로필 서비스에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}를 참조하십시오.
+Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비스에 대한 연결을 정의합니다. 이 데이터 소스는 기본적으로 제공되며 사전 구성되어 있습니다. 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예를 들어 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. 실시간 고객 프로필 서비스에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오.
 
 >[!NOTE]
 >
@@ -38,7 +38,6 @@ Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비�
 
 1. **[!UICONTROL Schema]** 드롭다운에서 스키마를 선택합니다. 이 필드에는 Adobe Experience Platform에서 사용할 수 있는 프로필 및 경험 이벤트 스키마가 나열됩니다. 스키마 만들기가 [!DNL Journey Optimizer]에서 수행되지 않습니다. Adobe Experience Platform에서 공연되었습니다.
 1. 사용할 필드를 선택합니다.
-1. 캐시 기간을 정의합니다.
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
 필드 그룹 이름에 커서를 놓으면 오른쪽에 두 개의 아이콘이 표시됩니다. 필드 그룹을 삭제하고 복제할 수 있습니다. **[!UICONTROL Delete]** 아이콘은 필드 그룹이 라이브 또는 초안 여정(**[!UICONTROL Used in]** 필드에 표시된 정보)에서 사용되지 않는 경우에만 사용할 수 있습니다.
