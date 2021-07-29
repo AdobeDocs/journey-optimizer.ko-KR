@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
-source-git-commit: cd38b6ec9be0417f5c65e37805c0e7b072d1cb96
+source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 16%
 
 ---
@@ -50,21 +50,22 @@ ht-degree: 16%
 
 ### 개선 사항
 
-* **여정**
-   * 동일한 샌드박스에서 동시에 실행되는 모든 읽기 세그먼트의 전체 전송률은 초당 17,000개의 메시지로 제한됩니다. [자세히 보기](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-   * **캐시 기간** 필드가 데이터 소스 구성 창에서 제거되었습니다. [자세히 보기](datasource/about-data-sources.md)
-   * 이제 외부 데이터 소스의 경우 초당 15개의 호출의 최대 가용량 규칙이 자동으로 정의됩니다. [자세히 보기](configuration/external-systems.md#capping)
-   * 이제 라이브 여정의 경우 여정 속성 화면에 게시 날짜와 여정을 게시한 사용자의 이름이 표시됩니다. [자세히 보기](building-journeys/journey-gs.md#change-properties)
-   * 여정 목록 화면에서 여정 유형 필터가 추가되었습니다. [자세히 보기](user-interface.md#section_lgm_hpz_pgb)
-   * **[!UICONTROL Throttling rate]** 매개 변수가 세그먼트 읽기 활동에 추가되었습니다. [자세히 보기](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+**여정**
 
-* **미리 보기 및 테스트**
-   * 이제 ID 및 네임스페이스가 **[!UICONTROL Preview]** 화면에 표시됩니다. [자세히 보기](preview.md#preview-your-messages)
-   * 이제 증명을 위한 테스트 전자 메일 수가 10개로 제한됩니다.
-   * 이제 증명에서 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](preview.md#send-proofs)
+* 동일한 샌드박스에서 동시에 실행되는 모든 읽기 세그먼트의 전체 전송률은 초당 17,000개의 메시지로 제한됩니다. [자세히 보기](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* **캐시 기간** 필드가 데이터 소스 구성 창에서 제거되었습니다. [자세히 보기](datasource/about-data-sources.md)
+* 이제 외부 데이터 소스의 경우 초당 15개의 호출의 최대 가용량 규칙이 자동으로 정의됩니다. [자세히 보기](configuration/external-systems.md#capping)
+* 이제 라이브 여정의 경우 여정 속성 화면에 게시 날짜와 여정을 게시한 사용자의 이름이 표시됩니다. [자세히 보기](building-journeys/journey-gs.md#change-properties)
+* 여정 목록 화면에서 여정 유형 필터가 추가되었습니다. [자세히 보기](user-interface.md#section_lgm_hpz_pgb)
+* **[!UICONTROL Throttling rate]** 매개 변수가 세그먼트 읽기 활동에 추가되었습니다. [자세히 보기](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-* **개인화 표현식 편집기**
-   * 도우미 드롭다운 목록의 이름이 변경되고 순서가 변경되었습니다.
+**메시지 미리 보기 및 테스트**
+* 이제 ID 및 네임스페이스가 **[!UICONTROL Preview]** 화면에 표시됩니다. [자세히 보기](preview.md#preview-your-messages)
+* 이제 증명을 위한 테스트 전자 메일 수가 10개로 제한됩니다.
+* 이제 증명에서 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](preview.md#send-proofs)
+
+**개인화 표현식 편집기**
+* 도우미 드롭다운 목록의 이름이 변경되고 순서가 변경되었습니다.
 
 ### 수정 사항
 
