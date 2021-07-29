@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
+source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '935'
 ht-degree: 3%
 
 ---
@@ -121,7 +121,13 @@ ht-degree: 3%
 
    ![](assets/send-proof-button.png)
 
-1. 증명을 받을 테스트 프로필을 선택하고 **[!UICONTROL Send proof]** 을 클릭합니다. 필요한 경우 증명의 제목란에 접두사를 추가할 수 있습니다.
+1. **[!UICONTROL Send proof]** 창에서 테스트 프로필 외에 수신자 전자 메일을 입력하고 **[!UICONTROL Add]** 을 클릭하여 본인 또는 조직의 구성원에게 증명을 보냅니다.
+
+   증명 전달을 위해 최대 10명의 수신자를 추가할 수 있습니다.
+
+   ![](assets/send-proof-button_2.png)
+
+1. 그런 다음 증명을 받을 테스트 프로필을 선택하고 **[!UICONTROL Send proof]** 을 클릭합니다. 필요한 경우 증명의 제목란에 접두사를 추가할 수 있습니다. 영숫자 문자 및 특수 문자(예: . - _ ( ) [ ]는 제목란에 접두사로 사용할 수 있습니다.
 
    ![](assets/send-proof-select.png)
 
