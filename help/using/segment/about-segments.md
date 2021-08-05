@@ -5,10 +5,10 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 2d882b8d10cc642b04705dd924fd2b129f4f78ac
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 0%
+source-wordcount: '226'
+ht-degree: 1%
 
 ---
 
@@ -27,18 +27,3 @@ ht-degree: 0%
 * **세그먼트 자격** 이벤트 활동을 사용하여 개인이 Adobe Experience Platform 세그먼트 출입구 및 종료에 따라 여정에 들어오거나 앞으로 이동하도록 하십시오. 예를 들어 모든 신규 실버 고객이 여정을 입력하고 메시지를 보내게 할 수 있습니다. 이 활동을 사용하는 방법에 대한 자세한 내용은 [이 섹션](../building-journeys/segment-qualification-events.md)을 참조하십시오.
 
 * 단순 또는 고급 표현식 편집기를 사용하여 여정에서 **복잡한 조건**&#x200B;을 작성합니다. 자세한 내용은 [이 섹션](../building-journeys/condition-activity.md#using-a-segment)을 참조하십시오.
-
-## Adobe Journey Optimizer의 평가 방법 {#evaluation-method-in-journey-optimizer}
-
-Adobe Journey Optimizer에서 대상은 다음 평가 방법 중 하나를 사용하여 세그먼트 정의에서 생성됩니다.
-
-* 스트리밍 세그멘테이션 — 세그먼트에 대한 대상 목록이 실시간으로 유지되며 새로운 데이터가 시스템으로 이동합니다.
-* 배치 세그먼테이션 — 세그먼트의 대상 목록이 지난 시간에 도착한 데이터를 기반으로 시간별로 업데이트됩니다.
-
-배치 세그먼테이션과 스트리밍 세그먼테이션 간의 결정은 세그먼트 규칙 평가의 복잡성과 비용을 기반으로, 각 세그먼트 정의에 대해 시스템에서 수행됩니다.
-
-세그먼트 목록의 **[!UICONTROL Evaluation method]** 열에서 각 세그먼트에 대한 평가 방법을 볼 수 있습니다.
-
-세그먼트를 처음 정의하면 자격이 되면 프로필이 대상에 추가됩니다.
-
-이전 데이터에서 대상자를 다시 채우는 데는 최대 24시간이 걸릴 수 있습니다. 대상이 다시 채워지면 대상이 계속 최신 상태로 유지되며 항상 타깃팅할 준비가 됩니다.
