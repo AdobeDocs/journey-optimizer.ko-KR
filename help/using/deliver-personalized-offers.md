@@ -5,9 +5,9 @@ feature: 여정
 topic: 콘텐츠 관리
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: a2aed1dbfa53aee6f5fe0aeec52773d22bc4ed29
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 오퍼를 구성하는 방법을 보여주는 **전체 종료 예**&#x200B;에 대해, 결정에서 오퍼를 사용하고 이메일에서 이 결정을 활용하려면 [이 섹션](offers/offers-e2e.md#insert-decision-in-email)을 확인하십시오.
 
-[➡️ 개인화](#video-offers)(비디오)로 오퍼를 추가하는 방법을 알아봅니다.
+[➡️ 이 비디오에서 개인화로 오퍼를 추가하는 방법을 알아봅니다](#video-offers)
 
 ## 이메일에 결정 삽입 {#insert-offers}
 
