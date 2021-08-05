@@ -15,7 +15,7 @@ feature: 애플리케이션 설정
 topic: 관리
 role: Admin
 level: Intermediate
-source-git-commit: 83d0cbdb7524f0317bd576ed7c689f9933bb658f
+source-git-commit: 661d43d3a39fcead068562dc6fb567bdc4027432
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -76,7 +76,7 @@ ht-degree: 2%
 게재 실패 이유는 다음과 같습니다.
 
 | 이유 | 설명 | 제외 카테고리 |
----------|----------|--------- |
+| --- | --- | --- |
 | **[!UICONTROL Undetermined]** | 받는 사람 도메인 MTA(메시지 전송 에이전트)로부터 받은 바운스 이유를 식별할 수 없습니다. | 무시됨 |
 | **[!UICONTROL Invalid Recipient]** | 수신자가 잘못되었거나 없습니다. | 하드 |
 | **[!UICONTROL Soft Bounce]** | 메시지가 소프트 바운스되어, ISP에서 권장하는 허용 비율을 전송할 때와 같이 이 표에 나열된 소프트 오류 이외의 다른 이유로 바운스됩니다. | 소프트 |
