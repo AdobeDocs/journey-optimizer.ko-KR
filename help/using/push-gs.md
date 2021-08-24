@@ -1,14 +1,13 @@
 ---
 title: 푸시 구성 시작
 description: 푸시 알림 데이터 흐름 및 구성 요소 이해
-feature: 애플리케이션 설정
-topic: 푸시
+feature: 애플리케이션 설정, 푸시
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -55,7 +54,7 @@ ht-degree: 2%
    * 클라이언트측 모바일 속성 만들기 및 확장 추가 SDK는 이러한 확장과 긴밀하게 통합되어 완벽한 데이터 수집 환경을 제공합니다.
    * 모바일 앱 번들 식별자 및 앱 자격 증명을 등록
 
-* **Adobe Experience Platform 실시간 고객 프로필**  은 웹, 모바일, CRM 및 서드파티 등 여러 채널의 데이터를 결합함으로써 각 개별 고객에 대한 전체적인 보기를 포함합니다. 프로필 을 사용하면 고객 데이터를 모든 고객 상호 작용을 실행 가능하고 타임스탬프가 지정된 계정을 제공하는 통합 보기에 통합할 수 있습니다. 주어진 앱 사용자에 대한 푸시 토큰은 사용자의 프로필에 대해 레코드 데이터로 저장되는 반면, 사용자가 푸시 알림과 함께 수행하는 상호 작용은 시계열 이벤트 데이터로 추적됩니다. [Adobe Experience Platform 실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}에 대해 자세히 알아보십시오.
+* **Adobe Experience Platform 실시간 고객 프로필**  은 웹, 모바일, CRM 및 서드파티 등 여러 채널의 데이터를 결합함으로써 각 개별 고객에 대한 전체적인 보기를 포함합니다. 프로필 을 사용하면 고객 데이터를 모든 고객 상호 작용을 실행 가능하고 타임스탬프가 지정된 계정을 제공하는 통합 보기에 통합할 수 있습니다. 주어진 앱 사용자에 대한 푸시 토큰은 사용자의 프로필에 대해 레코드 데이터로 저장되는 반면, 사용자가 푸시 알림과 함께 수행하는 상호 작용은 시계열 이벤트 데이터로 추적됩니다. [Adobe Experience Platform 실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko){target=&quot;_blank&quot;}에 대해 자세히 알아보십시오.
 
 * **[!DNL Adobe Journey Optimizer]** : 위에 언급된 구성 요소와의 모바일 앱 통합이 준비되고 Adobe Experience Platform에 고객 프로필이 배치되면, 푸시 알림을 작성하여 사용자 [!DNL Adobe Journey Optimizer] 와 참여하도록 구성할 수 있습니다.
 
