@@ -2,14 +2,15 @@
 product: Journey Optimizer
 title: AI 서비스 개요
 description: AI 서비스 개요
-feature: Journey Optimizer
+feature: 개요
+topic: 통합
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
