@@ -1,14 +1,13 @@
 ---
 title: 푸시 알림 구성
 description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 환경을 구성하는 방법을 알아봅니다
-feature: 애플리케이션 설정
-topic: 푸시
+feature: 애플리케이션 설정, 푸시
 role: Admin
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
