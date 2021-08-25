@@ -1,7 +1,7 @@
 ---
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
-source-git-commit: 932a95691e80267a581072b3fa0b81ad108117a3
+source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 14%
@@ -25,7 +25,7 @@ ht-degree: 14%
 * 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](allow-list.md#reporting)
 * 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 알아보기](allow-list.md#enable-allow-list)
 * 메시지 사전 설정 모니터링 섹션을 업데이트했습니다. 가능한 사전 설정 작성 실패 이유 및 이러한 오류에 대한 세부 정보를 추가했습니다. [자세히 보기](configuration/message-presets.md#monitor-message-presets)
-* 이제 메시지 사전 설정에서 이메일 다시 시도 설정을 조정할 수 있다는 사실을 반영하도록 다시 시도 기간 섹션을 업데이트 및 이름을 변경했습니다. [자세히 보기](configuration/retries.md)
+* 이제 메시지 사전 설정에서 이메일 다시 시도 설정을 조정할 수 있다는 사실을 반영하도록 다시 시도 기간 섹션을 업데이트 및 이름을 변경했습니다. [자세히 보기](configuration/retries.md#retry-duration)
 * 이메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](message-tracking.md#one-click-opt-out-link)
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
