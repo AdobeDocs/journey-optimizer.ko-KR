@@ -1,13 +1,12 @@
 ---
 title: 푸시 알림 구성
 description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 환경을 구성하는 방법을 알아봅니다
-feature: 애플리케이션 설정, 푸시
 role: Admin
 level: Intermediate
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1447'
+ht-degree: 4%
 
 ---
 
@@ -30,11 +29,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 권한 설정
 
-모바일 애플리케이션을 만들기 전에 먼저 **Adobe Experience Platform Launch**&#x200B;에 올바른 사용자 권한이 있는지 또는 있는지 확인해야 합니다. 자세한 내용은 [Adobe Experience Platform Launch 설명서](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html){target=&quot;_blank&quot;}를 참조하십시오.
+모바일 애플리케이션을 만들기 전에 먼저 **Adobe Experience Platform Launch**&#x200B;에 올바른 사용자 권한이 있는지 또는 있는지 확인해야 합니다. 자세한 내용은 [Adobe Experience Platform Launch 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}를 참조하십시오.
 
 >[!CAUTION]
 >
->푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현과 관련된 가상 인력에 따라 전체 권한 세트를 단일 제품 프로필에 할당하거나 앱 개발자와 **Adobe Journey Optimizer** 관리자 간에 권한을 공유해야 할 수 있습니다. [이 설명서](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}에서 **Adobe Experience Platform Launch** 권한에 대해 자세히 알아보십시오.
+>푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현과 관련된 가상 인력에 따라 전체 권한 세트를 단일 제품 프로필에 할당하거나 앱 개발자와 **Adobe Journey Optimizer** 관리자 간에 권한을 공유해야 할 수 있습니다. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}에서 **Adobe Experience Platform Launch** 권한에 대해 자세히 알아보십시오.
 
 <!--ou need to your have access to perform following roles :
 
