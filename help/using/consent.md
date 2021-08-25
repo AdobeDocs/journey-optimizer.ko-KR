@@ -1,14 +1,14 @@
 ---
 title: 옵트아웃 관리
 description: 옵트아웃 및 개인 정보 관리 방법 알아보기
-feature: 여정
-topic: 콘텐츠 관리
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8798d73ace981c44ef896ac6983b50a14286eb57
+source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 90%
+source-wordcount: '814'
+ht-degree: 80%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 90%
 따라서 수신자에게 보내는 모든 이메일에 항상 **구독 취소 링크**&#x200B;를 포함해야 합니다.
 * 이 링크를 클릭하면 수신자는 옵트아웃을 확인하는 버튼이 포함된 랜딩 페이지로 이동됩니다.
 * 옵트아웃 버튼을 클릭하면 이 정보로 프로필 데이터를 업데이트하기 위해 Adobe I/O가 호출됩니다. [자세히 알아보기](#consent-service-api).
+
+### 구독 취소 링크 추가 {#add-unsubscribe-link}
 
 구독 취소 링크를 추가하려면 아래 단계를 따르십시오.
 
@@ -87,7 +89,7 @@ ht-degree: 90%
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## 옵트아웃 API 호출 {#opt-out-api}
+### 옵트아웃 API 호출 {#opt-out-api}
 
 수신자가 구독 취소 링크를 클릭하여 수신 거부하는 경우 해당 프로필의 기본 설정을 업데이트하기 위해 Adobe I/O API <!--Consent service API to capture the encrypted data and-->가 호출됩니다.
 
@@ -129,6 +131,14 @@ ht-degree: 90%
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
+
+## 옵트아웃 한 번 클릭 {#one-click-opt-out}
+
+많은 고객이 보다 쉬운 가입 해지 프로세스를 찾듯이, 이메일 콘텐츠에 한 번의 클릭으로 옵트아웃 링크를 추가할 수도 있습니다. 이 링크를 사용하면 수신자가 옵트아웃을 확인해야 하는 랜딩 페이지로 리디렉션되지 않고 커뮤니케이션에서 빠르게 가입을 해지할 수 있습니다.
+
+[이 섹션](message-tracking.md#one-click-opt-out-link)에서 메시지 콘텐츠에 옵트아웃 링크를 추가하는 방법을 알아봅니다.
+
+[여정](building-journeys/journey.md)를 통해 메시지가 전송되면 수신자가 옵트아웃 링크를 클릭하면 즉시 옵트아웃됩니다.
 
 ## 헤더의 구독 취소 링크 {#unsubscribe-email}
 
