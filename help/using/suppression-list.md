@@ -1,14 +1,14 @@
 ---
 title: 제외 목록
 description: 억제 목록이 무엇이고, 그 목적과 그 목록에 포함된 것을 알아봅니다.
-feature: 전달성
-topic: 콘텐츠 관리
+feature: Deliverability
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: ea2bb0c2956781138a0c7f2d0babfd91070dd351
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 4%
+source-wordcount: '697'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 <!--It gathers spam complaints, hard bounces, and soft bounces that occur consistently.-->
 
-## 제외 목록이 왜 있습니까?{#why-suppression-list}
+## 제외 목록이 왜 있습니까? {#why-suppression-list}
 
 받은 편지함 소유자가 수신한 이메일 메시지를 제어하고 원하는 메시지만 수신하도록 하기 위해, 인터넷 서비스 공급자(ISP) 및 상용 스팸 필터는 IP 주소와 사용 도메인에 따라 전자 메일 발송자의 전체 평판을 추적하는 자체 알고리즘을 제공합니다.
 
@@ -30,15 +30,17 @@ ht-degree: 4%
 
 이메일 주소가 표시되지 않는 수신자는 메시지 배달에서 자동으로 제외됩니다. 이를 통해 게재 속도를 높일 수 있습니다. 오류율은 게재 속도에 상당한 영향을 미치기 때문입니다.
 
-## 억제 목록에 뭐가 있어요?{#what-s-on-suppression-list}
+## 억제 목록에 뭐가 있어요? {#what-s-on-suppression-list}
 
 전자 메일 주소는 다음과 같이 제외 목록에 추가됩니다.
 
 * 모든 **하드 바운스** 및 **스팸 불만**&#x200B;은(는) 한 번 발생한 후 해당 이메일 주소를 제외 목록에 자동으로 보냅니다.
 
-* **소프트** 바운스 및  **** 임시 ignorerrors는 이메일 주소를 제외 목록에 즉시 전송하지 않지만, 오류 카운터를 증가시킵니다. 그런 다음 여러 번 다시 시도되고 오류 카운터가 임계값에 도달하면 주소가 제외 목록에 추가됩니다. [다시 시도](configuration/retries.md)에 대해 자세히 알아보십시오.
+* **소프트** <!--and temporary **ignored** errors--> 바운스는 이메일 주소를 제외 목록에 즉시 전송하지 않지만, 오류 카운터를 증가시킵니다. 그런 다음 여러 [다시 시도](configuration/retries.md)가 수행되며 오류 카운터가 임계값에 도달하면 주소가 제외 목록에 추가됩니다.
 
-<!--You can also manually add an address to the suppression list. Manual category will be available when ability to manually add an address to the suppression list (via API) is released.-->
+* [**수동으로** 주소 또는 도메인](configuration/manage-suppression-list.md#add-addresses-and-domains)을 제외 목록에 추가할 수도 있습니다.
+
+[이 섹션](#delivery-failures)에서 하드 바운스 및 소프트 바운스에 대해 자세히 알아보십시오.
 
 >[!NOTE]
 >
@@ -49,17 +51,23 @@ ht-degree: 4%
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
+>[!NOTE]
+>
+>**[!UICONTROL Suppressed]** 상태가 있는 프로필은 메시지 전송 프로세스 중에 제외됩니다. 따라서 **여정 보고서**&#x200B;는 여정([세그먼트 읽기](building-journeys/read-segment.md) 및 [메시지](building-journeys/journeys-message.md) 활동)를 통해 이동한 것으로 표시되지만 **이메일 보고서**&#x200B;는 전자 메일 보내기 전에 필터링되므로 이 프로필을 **[!UICONTROL Sent]** 지표에 포함하지 않습니다.
+>
+>[라이브 보고서](reports/live-report.md) 및 [글로벌 보고서](reports/global-report.md)에 대해 자세히 알아보십시오. 모든 제외 사례에 대한 이유를 알아보려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)를 사용할 수 있습니다.
+
 ### 게재 실패 {#delivery-failures}
 
-게재가 실패할 경우 세 가지 유형의 오류가 있습니다.
+게재가 실패할 경우 두 가지 유형의 오류가 있습니다.
 
-* **하드 바운스**. 하드 바운스는 잘못된 이메일 주소(즉, 존재하지 않는 이메일 주소)를 나타냅니다. 여기에는 &#39;알 수 없는 사용자&#39;와 같이 주소가 유효하지 않다고 명시적으로 설명하는 수신 이메일 서버의 바운스 메시지가 포함됩니다.
+* **하드 바운스**. 하드 바운스는 잘못된 이메일 주소(즉, 존재하지 않는 이메일 주소)를 나타냅니다. 여기에는 주소가 유효하지 않다고 명시적으로 설명하는 수신 이메일 서버의 바운스 메시지가 포함됩니다.
 * **소프트 바운스**. 유효한 이메일 주소에 대해 발생한 임시 이메일 바운스입니다.
-* **무시됨**. 유효한 전자 메일 주소에 대해 발생했지만 실패한 연결 시도, 임시 스팸 관련 문제(전자 메일 신뢰도) 또는 일시적인 기술 문제와 같이 일시적인 것으로 알려진 전자 메일 바운스입니다.<!--does it exist in CJM?-->
+<!--* **Ignored**. This is an email bounce that occurred for a valid email address but is known to be temporary, such as a failed connection attempt, a temporary Spam-related issue (email reputation), or a temporary technical issue.-->
 
 **하드 바운스**&#x200B;는 전자 메일 주소를 제외 목록에 자동으로 추가합니다.
 
-너무 여러 번 발생하는 **소프트 바운스** 또는 **무시된** 오류도 여러 번 다시 시도한 후 이메일 주소를 제외 목록에 보냅니다. [다시 시도하는 방법에 대해 자세히 알아보기](configuration/retries.md)
+너무 여러 번 발생하는 **소프트 바운스** <!--or an **ignored** error-->도 여러 번 다시 시도한 후 이메일 주소를 제외 목록에 보냅니다. [다시 시도하는 방법에 대해 자세히 알아보기](configuration/retries.md)
 
 이러한 주소로 계속 보내는 경우, ISP에 사용자가 메일 주소 목록 유지 관리 우수 사례를 따르지 않을 수 있음을 알려 주므로, 배달율에 영향을 줄 수 있습니다.
 
