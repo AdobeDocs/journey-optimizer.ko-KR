@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
-source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
+source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '963'
 ht-degree: 11%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 11%
 <tr>
 <td>
 <p>이제 사전 설정별로 다시 시도 기간을 정의하여 더 이상 필요하지 않은 경우 다시 시도 시도가 더 이상 수행되지 않도록 할 수 있습니다. 예를 들어, 하루 동안만 유효한 링크가 포함된 암호 재설정 트랜잭션 메시지에 대해 재시도 기간을 24시간으로 설정할 수 있습니다. 다시 시도 설정은 전자 메일 채널에만 적용됩니다.</p>
-<p>자세한 내용은 <a href="configuration/retries.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="configuration/retries.md#retry-duration">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -110,7 +110,7 @@ ht-degree: 11%
 
 * **동적 헤더**  - 이제 HTTP 헤더 매개 변수로 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 타임스탬프 또는 추적 ID와 같이 여정 작업 HTTP 호출을 받는 통합 시스템에서 사용할 수 있습니다. [자세히 알아보기](action/about-custom-action-configuration.md#url-configuration)
 * **동적 URL 경로**  - 이제 사용자 지정 작업에 대한 동적 URL 경로를 설정할 수 있습니다. [자세히 알아보기](action/about-custom-action-configuration.md#url-configuration)
-* 읽기 세그먼트의 전체 전송률이 초당 17,000개에서 20,000개로 변경되었습니다. [자세히 보기](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 읽기 세그먼트의 전체 전송률이 초당 17,000개에서 20,000개로 변경되었습니다. [자세히 알아보기](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **사용자 인터페이스**
 
@@ -122,9 +122,9 @@ ht-degree: 11%
 * **배경**  - 이제 배경 이미지가 라이브 미리 보기에서 지원됩니다. [자세히 알아보기](preview.md)
 * **한 번의 클릭으로 옵트아웃 링크**  - 이메일 콘텐츠에 새로운 유형의 링크를 삽입할 수 있습니다. 옵트아웃  **링크를** 사용하면 옵트아웃을 확인하기 위해 랜딩 페이지로 리디렉션되지 않고 한 번의 클릭으로 커뮤니케이션으로부터 구독을 취소할 수 있습니다. [자세히 알아보기](message-tracking.md#one-click-opt-out-link)
 
-**개인화**
+<!--**Personalization**
 
-<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **이메일 구성**
 
