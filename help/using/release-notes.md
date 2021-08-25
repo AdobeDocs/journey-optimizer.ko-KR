@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
-source-git-commit: ff48c78cfa5c48f32073e9df1f126504e291ab5a
+source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '964'
 ht-degree: 11%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 11%
 
 **개인화**
 
-* **표현식 편집기**  - 이제 개인화를 정의할 때 폴백 값을 쉽게 추가할 수 있습니다. 프로필에 대한 개인화 필드가 비어 있으면 폴백 값이 표시됩니다. [자세히 알아보기](documentation-updates.md)
+<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **이메일 구성**
 
