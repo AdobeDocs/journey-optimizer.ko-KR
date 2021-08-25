@@ -1,14 +1,14 @@
 ---
 title: 사용자 인터페이스
 description: Journey Optimizer 사용자 인터페이스
-feature: 개요
-topic: 콘텐츠 관리
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 91%
+source-wordcount: '1457'
+ht-degree: 68%
 
 ---
 
@@ -19,12 +19,10 @@ ht-degree: 91%
 >[!NOTE]
 >
 >* 사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 공통됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}를 참조하십시오.
-   >
-   >
-* 이 설명서는 사용자 인터페이스 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 하지만 어떤 스크린샷은 실제 사용자 인터페이스와 약간 다를 수 있습니다.
-   >
-   > 
-* UI에서 사용할 수 있는 구성 요소 및 기능은 사용 권한 및 라이선스 패키지에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하십시오.
+>
+>* 이 설명서는 사용자 인터페이스 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 하지만 어떤 스크린샷은 실제 사용자 인터페이스와 약간 다를 수 있습니다.
+>
+> * UI에서 사용할 수 있는 구성 요소 및 기능은 사용 권한 및 라이선스 패키지에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하십시오.
 
 
 ## 왼쪽 탐색
@@ -87,6 +85,9 @@ ht-degree: 91%
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. [자세히 알아보기](administration/sandboxes.md)
 
+<!--
+* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
+-->
 
 ## 제품 내 사용 사례
 
@@ -96,7 +97,7 @@ ht-degree: 91%
 
 사용 가능한 사용 사례는 다음과 같습니다.
 
-* **테스트 프로필을 만들고**, CSV 템플릿을 사용하여 테스트 프로필을 만들어 개인화된 메시지 및 여정을 테스트합니다. [이 페이지](building-journeys/creating-test-profiles.md#use-case-1)에서 이 사용 사례를 구현하는 방법을 알아봅니다.
+* **테스트 프로필을 만들고**, CSV 템플릿을 사용하여 테스트 프로필을 만들어 개인화된 메시지 및 여정을 테스트합니다. 이 페이지](building-journeys/creating-test-profiles.md#use-case-1)에서 이 사용 사례 [을 구현하는 방법을 알아봅니다.
 * **고객에게 생일 메시지를 보내기** 고객의 생일을 축하하기 위해 자동으로 이메일을 보냅니다. (준비 중)
 * **새로운 고객에게 이메일을 보내 새로 등록한 고객을** 환영하기 위해 최대 2개의 이메일을 쉽게 보낼 수 있습니다. (준비 중)
 * **가져온 고객 목록에 푸시 메시지 보내기** CSV 파일에서 가져온 고객 목록에 푸시 알림을 신속하게 전송할 수 있습니다. (준비 중)
@@ -106,6 +107,139 @@ ht-degree: 91%
 **[!UICONTROL Begin]** 버튼을 클릭하여 사용 사례를 시작합니다.
 
 **[!UICONTROL View use case library]** 버튼에서 실행된 사용 사례에 액세스할 수 있습니다.
+
+## 접근성{#accessibility}
+
+Adobe Journey Optimizer의 액세스 가능성 기능은 Adobe Experience Platform에서 제공합니다.
+
+* 키보드 액세스 가능성
+* 색상 대비
+* 필수 필드 유효성 검사
+
+[Adobe Experience Platform 설명서에서 자세한](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html) 내용{target=&quot;_blank&quot;}.
+
+Adobe Journey Optimizer에서 다음과 같은 일반적인 키보드 단축키를 사용할 수 있습니다.
+
+| 작업 | 단축키 |
+| --- | --- |
+| 사용자 인터페이스 요소, 섹션 및 메뉴 그룹 간 이동 | 탭 |
+| 사용자 인터페이스 요소, 섹션 및 메뉴 그룹 간 뒤로 이동 | Shift + 탭 |
+| 섹션 내에서 이동하여 포커스를 개별 요소로 설정 | 화살표 |
+| 포커스에 있는 요소 선택 또는 지우기 | Enter 키 또는 스페이스바 |
+| 선택 취소, 패널 축소 또는 대화 상자 닫기 | Esc |
+
+[Adobe Experience Platform 설명서에서 자세한](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html) 내용{target=&quot;_blank&quot;}.
+
+Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있습니다.
+
+<table>
+  <thead>
+    <tr>
+      <th>인터페이스 요소</th>
+      <th>작업</th>
+      <th>단축키</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>여정, 작업, 데이터 소스 또는 이벤트 목록</td>
+    <td>여정, 작업, 데이터 소스 또는 이벤트 만들기</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">초안 상태의 캔버스 여정</td>
+    <td>사용 가능한 첫 번째 위치에서 맨 위에서 맨 아래로 활동을 왼쪽 팔레트에서 추가합니다</td>
+    <td>활동을 두 번 클릭합니다</td>
+  </tr>
+  <tr>
+    <td>모든 활동을 선택합니다</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td>선택한 활동을 삭제합니다</td>
+    <td>삭제 또는 백스페이스 순으로 입력한 다음 Enter 키를 눌러 삭제를 확인합니다</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
+
+다음 요소의 구성 창:
+
+<ul>
+  <li>여정의 활동</li>
+  <li>이벤트</li>
+  <li>데이터 소스</li>
+  <li>작업</li>
+</ul>
+
+</td>
+    <td>구성할 다음 필드로 이동</td>
+    <td>탭</td>
+  </tr>
+  <tr>
+    <td>변경 내용을 저장하고 구성 창을 닫습니다.</td>
+    <td>Enter 키</td>
+  </tr>
+  <tr>
+    <td>변경 내용을 취소하고 구성 창을 닫습니다.</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">테스트 모드의 여정</td>
+    <td>테스트 모드 활성화 또는 비활성화</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>이벤트 기반 여정에서 이벤트 트리거</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
+
+**[!UICONTROL Single profile at a time]** 옵션이 설정된 세그먼트 기반 여정에서 이벤트를 트리거합니다
+
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>테스트 로그 표시</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>텍스트 필드</td>
+    <td>선택한 필드에서 모든 텍스트를 선택합니다</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">팝업 창</td>
+    <td>변경 내용을 저장하거나 작업을 확인합니다</td>
+    <td>Enter 키</td>
+  </tr>
+  <tr>
+    <td>창을 닫습니다.</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>단순 표현식 편집기</td>
+    <td>필드 선택 및 추가</td>
+    <td>필드를 두 번 클릭합니다</td>
+  </tr>
+  <tr>
+    <td>XDM 필드 탐색</td>
+    <td>노드의 모든 필드를 선택합니다</td>
+    <td>상위 노드를 선택합니다</td>
+  </tr>
+  <tr>
+    <td>페이로드 미리 보기</td>
+    <td>페이로드를 선택합니다</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+</table>
 
 ## 도움말 및 지원 찾기
 
@@ -137,16 +271,17 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 이전 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
    ![](assets/select-language.png)
 
-## 검색
+## 검색{#unified-search}
 
-Adobe Journey Optimizer 인터페이스에서 어디서나 상단 표시줄의 중앙에 있는 Adobe Experience Cloud 검색을 사용하여 샌드박스에서 자산, 여정 또는 메시지를 찾을 수 있습니다. 상위 결과를 표시할 컨텐츠 입력을 시작합니다.
+Adobe Journey Optimizer 인터페이스에서 어디에서나 상단 표시줄 중앙에 있는 통합 Adobe Experience Cloud 검색 기능을 사용하여 샌드박스에서 자산, 여정, 데이터 세트, 메시지 등을 찾을 수 있습니다.
+
+상위 결과를 표시할 컨텐츠 입력을 시작합니다. 입력한 키워드에 대한 도움말 문서도 결과에 표시됩니다.
 
 ![](assets/unified-search.png)
 
-모든 결과와 필터에 액세스하려면 **Enter**&#x200B;를 누르십시오.
+모든 결과에 액세스하고 비즈니스 개체별로 필터링하려면 **Enter**&#x200B;를 누르십시오.
 
 ![](assets/search-and-filter.png)
-
 
 ## 목록 필터링{#section_lgm_hpz_pgb}
 
