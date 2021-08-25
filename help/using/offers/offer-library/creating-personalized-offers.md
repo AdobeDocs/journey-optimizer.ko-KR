@@ -1,13 +1,13 @@
 ---
 title: 개인화된 오퍼 만들기
 description: Adobe Experience Platform에서 개인화된 오퍼를 만드는 방법을 알아봅니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
+source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1158'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Offer attributes]** 섹션에서는 보고 및 분석을 위해 키 값 쌍을 오퍼와 연결할 수 있습니다.
+   >**[!UICONTROL Offer attributes]** 섹션에서는 보고 및 분석을 위해 키-값 쌍을 오퍼와 연결할 수 있습니다.
 
 ## 오퍼의 표현 구성 {#representations}
 
