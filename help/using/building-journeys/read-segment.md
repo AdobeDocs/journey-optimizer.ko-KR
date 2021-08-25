@@ -1,14 +1,14 @@
 ---
 title: 여정에서 세그먼트 사용
 description: 여정에서 세그먼트를 사용하는 방법을 알아봅니다
-feature: 여정
-topic: 콘텐츠 관리
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
+source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 5%
+source-wordcount: '997'
+ht-degree: 4%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >샌드박스당 전체 전송률 은 초당 17,000개의 메시지로 설정됩니다. 따라서 동일한 샌드박스에서 동시에 실행되는 모든 읽기 세그먼트의 전송률은 초당 최대 17,000개의 메시지를 추가합니다. 이 캡은 수정할 수 없습니다.
+   >샌드박스당 전체 전송률 은 초당 20,000개의 메시지로 설정됩니다. 따라서 동일한 샌드박스에서 동시에 실행되는 모든 읽기 세그먼트의 전송률은 초당 최대 20,000개의 메시지를 추가합니다. 이 캡은 수정할 수 없습니다.
 
 1. **[!UICONTROL Read Segment]** 활동을 사용하면 세그먼트가 여정에 들어갈 시간을 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Edit journey schedule]** 링크를 클릭하여 여정의 속성에 액세스한 다음 **[!UICONTROL Scheduler type]** 필드를 구성합니다.
 
