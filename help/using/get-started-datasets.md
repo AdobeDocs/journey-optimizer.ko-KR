@@ -1,13 +1,12 @@
 ---
 title: 데이터 세트 시작
 description: Adobe Journey Optimizer에서 Adobe Experience Platform 데이터 세트를 사용하는 방법을 알아봅니다
-feature: 데이터 세트
 role: User
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 24%
+source-wordcount: '258'
+ht-degree: 26%
 
 ---
 
@@ -27,7 +26,7 @@ Adobe Experience Platform에 데이터를 추가하는 것은 프로필 작성�
 
 [데이터 수집 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target=&quot;_blank&quot;}에서 데이터 세트 UI를 사용하는 방법을 알아봅니다.
 
-XDM 스키마에 CSV 파일을 매핑하기 위한 단계별 설명서는 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target=&quot;_blank&quot;}에서 사용할 수 있습니다
+XDM 스키마에 CSV 파일을 매핑하기 위한 단계별 설명서는 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko-KR){target=&quot;_blank&quot;}에서 사용할 수 있습니다
 
 
 ## 방법 비디오{#video-dataset}
