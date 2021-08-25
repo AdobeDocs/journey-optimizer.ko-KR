@@ -1,14 +1,14 @@
 ---
 title: 푸시 알림 구성
 description: Journey Optimizer에서 푸시 알림을 만드는 방법을 알아봅니다
-feature: 개요
-topic: 콘텐츠 관리
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 10%
+source-wordcount: '1192'
+ht-degree: 11%
 
 ---
 
@@ -62,7 +62,7 @@ Android 버전에서는 이미지 아이콘과 확장된 알림용 이미지만 
 
 푸시 콘텐츠에 단추를 추가하여 실행 가능한 알림을 만들 수 있습니다.
 
-장치 화면이 잠긴 경우 다음 단추가 표시되지 않습니다.알림의 **제목** 및 **메시지**&#x200B;만 표시됩니다. 장치의 잠금을 해제하면 수신자에게 단추가 표시됩니다.
+장치 화면이 잠긴 경우 다음 단추가 표시되지 않습니다. 알림의 **제목** 및 **메시지**&#x200B;만 표시됩니다. 장치의 잠금을 해제하면 수신자에게 단추가 표시됩니다.
 
 iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android 버전에서는 최대 3개의 버튼을 추가할 수 있습니다.
 
@@ -70,7 +70,7 @@ iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android
 >
 >iOS의 경우 **[!UICONTROL iOS category]** 필드를 사용하여 작업을 알림 카테고리와 연결합니다.
 
-**[!UICONTROL Add button]** 을 클릭하여 설정을 정의합니다.레이블 및 관련 작업입니다. 가능한 작업은 [클릭 동작](#on-click-behavior)과 동일합니다.
+**[!UICONTROL Add button]** 을 클릭하여 설정을 정의합니다. 레이블 및 관련 작업입니다. 가능한 작업은 [클릭 동작](#on-click-behavior)과 동일합니다.
 
 개인화된 단추를 미리 보려면 **[!UICONTROL Expand view]** 을 클릭하십시오.
 
@@ -80,9 +80,9 @@ iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android
 
 자동 푸시 알림(또는 백그라운드 알림)은 애플리케이션에 전달되는 숨겨진 명령입니다. 이 변수는 새로운 컨텐츠의 가용성을 애플리케이션에 알리거나 백그라운드에서 다운로드를 시작하는 데 사용됩니다.
 
-**[!UICONTROL Silent Notification]** 옵션을 선택하여 애플리케이션에 조용히 알림을 보냅니다.이 경우 알림이 애플리케이션에 직접 전송됩니다. 장치 화면에 경고가 표시되지 않습니다.
+**[!UICONTROL Silent Notification]** 옵션을 선택하여 애플리케이션에 조용히 알림을 보냅니다. 이 경우 알림이 애플리케이션에 직접 전송됩니다. 장치 화면에 경고가 표시되지 않습니다.
 
-**[!UICONTROL Custom data]** 섹션을 사용하여 키/값 쌍을 추가합니다.
+**[!UICONTROL Custom data]** 섹션을 사용하여 키-값 쌍을 추가합니다.
 
 ## 사용자 지정 데이터
 
@@ -97,7 +97,7 @@ iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android
 | **[!UICONTROL Collapsible]** (iOS / Android) | 축소 가능한 메시지는 오래된 메시지인 경우 새 메시지로 대체될 수 있는 메시지입니다. 축소 가능한 메시지의 일반적인 사용 사례는 모바일 앱에 서버의 데이터를 동기화하도록 지시하는 데 사용되는 메시지입니다. 예를 들면 최신 점수로 사용자를 업데이트하는 스포츠 앱이 됩니다. 가장 최근 메시지만 관련이 있습니다. 반면 축소 불가능한 메시지는 클라이언트 앱에 중요하며 전달해야 합니다. |
 | **[!UICONTROL Custom sound]** (iOS / Android) | 알림을 받을 때 이동 단말기에서 재생할 사운드입니다. 앱에서 사운드를 번들로 제공해야 합니다. |
 | **[!UICONTROL Badges]** (iOS / Android) | 배지는 애플리케이션 아이콘에 읽지 않은 새로운 정보의 수를 직접 표시하는 데 사용됩니다. <br/>사용자가 애플리케이션에서 새 콘텐츠를 열거나 읽으면 배지 값이 사라집니다. 디바이스에서 알림을 받으면 관련 앱에 대한 배지 값을 새로 고침하거나 추가할 수 있습니다.<br/>예를 들어 고객의 읽지 않은 문서 수를 저장하는 경우 개인화를 활용하여 각 고객에 대한 읽지 않은 고유한 문서 배지 값을 보낼 수 있습니다. 개인화에 대한 자세한 정보는 [이 섹션](personalization/personalize.md)을 참조하십시오. |
-| **[!UICONTROL Notification group]**  (iOS만 해당) | 알림 그룹을 푸시 알림에 연결합니다.<br/>iOS 12부터 알림 그룹을 사용하면 메시지 스레드 및 알림 항목을 스레드 ID로 통합할 수 있습니다. 예를 들어, 브랜드는 하나 이상의 다른 ID 아래에 더 많은 운영 유형 알림을 유지하면서 한 그룹 ID에 마케팅 알림을 보낼 수 있습니다.<br/>이를 보여주기 위해 groupID가 있을 수 있습니다.123 &quot;스웨터의 새 봄 컬렉션 확인&quot; 및 groupID:456 &quot;패키지가 전달됨&quot; 알림 그룹. 이 예에서는 모든 게재 알림이 그룹 ID 아래에 번들로 제공됩니다.456. |
+| **[!UICONTROL Notification group]**  (iOS만 해당) | 알림 그룹을 푸시 알림에 연결합니다.<br/>iOS 12부터 알림 그룹을 사용하면 메시지 스레드 및 알림 항목을 스레드 ID로 통합할 수 있습니다. 예를 들어, 브랜드는 하나 이상의 다른 ID 아래에 더 많은 운영 유형 알림을 유지하면서 한 그룹 ID에 마케팅 알림을 보낼 수 있습니다.<br/>이를 보여주기 위해 groupID가 있을 수 있습니다. 123 &quot;스웨터의 새 봄 컬렉션 확인&quot; 및 groupID: 456 &quot;패키지가 전달됨&quot; 알림 그룹. 이 예에서는 모든 게재 알림이 그룹 ID 아래에 번들로 제공됩니다. 456. |
 | **[!UICONTROL Notification channel]** (Android만 해당) | 푸시 알림에 알림 채널을 연결합니다.<br/>Android 8.0(API 레벨 26)부터 표시하려면 모든 알림을 채널에 할당해야 합니다. 자세한 내용은 [Android 개발자 설명서](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)를 참조하십시오. |
 | **[!UICONTROL Add content-availability flag]** (iOS만 해당) | 푸시 알림을 받는 즉시 앱이 깨어날 수 있도록 푸시 페이로드에서 사용 가능한 콘텐츠 플래그를 보냅니다. 즉, 앱이 페이로드 데이터에 액세스할 수 있습니다.<br/> 이는 앱이 백그라운드에서 실행 중이고 사용자 상호 작용이 필요 없는 경우(예: 푸시 알림을 누르는 경우)에도 작동합니다. 그러나 앱이 실행되고 있지 않으면 적용되지 않습니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)를 참조하십시오. |
 | **[!UICONTROL Add mutable-content flag]** (iOS만 해당) | 푸시 페이로드에서 가변 콘텐츠 플래그를 전송하고 iOS SDK에서 제공하는 알림 서비스 애플리케이션 확장에 의해 푸시 알림 콘텐츠를 수정할 수 있도록 합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)를 참조하십시오.<br/>그런 다음 모바일 앱 확장을 활용하여 에서 전송된 푸시 알림의 내용 또는 프레젠테이션을 추가로 수정할 수  [!DNL Journey Optimizer]있습니다. 예를 들어 사용자는 이 옵션을 활용하여 데이터를 해독하고, 알림의 본문 또는 제목 텍스트를 변경하고, 알림에 스레드 식별자를 추가하는 등의 작업을 수행할 수 있습니다. |
