@@ -2,14 +2,14 @@
 keywords: Journey Optimizer;홈;인기 항목
 title: Journey Orchestration 제품 설명서
 description: Adobe Journey Optimizer 제품 도움말 센터
-feature: 개요
-topic: 콘텐츠 관리
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 761241c0a09e0a3954b42688c4a0bb7f1571b716
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 39%
+source-wordcount: '208'
+ht-degree: 37%
 
 ---
 
@@ -30,6 +30,11 @@ ht-degree: 39%
       <a href="using/get-started.md">[!DNL Journey Optimizer]란 무엇입니까?</a>
     </div>
     <p>주요 기능 및 시작 방법 살펴보기
+    <p>
+    <div>
+      <a href="using/release-notes.md">릴리스 정보</a>
+    </div>
+    <p>새로운 기능, 최신 개선 사항 및 수정 사항 살펴보기
     <p>
     <div>
       <a href="using/design-emails.md">이메일 콘텐츠 디자인</a>
