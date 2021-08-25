@@ -5,9 +5,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c54e4443c0a8b6c2e427fa007adf5d800b2ba3b5
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 1%
 
 ---
@@ -94,4 +94,4 @@ ht-degree: 1%
 >
 >메시지 전송 프로세스 중에 **[!UICONTROL Suppressed]** 또는 **[!UICONTROL Not allowed]** 상태인 프로필은 제외됩니다. 따라서 **여정 보고서**&#x200B;는 여정([세그먼트 읽기](../building-journeys/read-segment.md) 및 [메시지](../building-journeys/journeys-message.md) 활동)를 통해 이동한 것으로 표시되지만 **이메일 보고서**&#x200B;는 전자 메일 보내기 전에 필터링되므로 이 프로필을 **[!UICONTROL Sent]** 지표에 포함하지 않습니다.
 >
->[제외 목록](../suppression-list.md) 및 [허용 목록](../allow-list.md)에 대해 자세히 알아보십시오. 모든 제외 사례에 대한 이유를 알아보려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)를 사용할 수 있습니다.
+>[제외 목록](../suppression-list.md) 및 [허용 목록](../allow-list.md)에 대해 자세히 알아보십시오. 모든 제외 사례에 대한 이유를 알아보려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}를 사용할 수 있습니다.
