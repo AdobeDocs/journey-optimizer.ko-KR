@@ -5,9 +5,9 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Found this link in Experience Platform documentation, but may not be the final o
 
 ## 제외 보고 {#reporting}
 
-비프로덕션 샌드박스에서 이 기능을 활성화하면 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)를 사용하여 아래에서 API를 호출할 수 있습니다.
+비프로덕션 샌드박스에서 이 기능을 활성화하면 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}를 사용하여 아래 API를 호출할 수 있습니다.
 
 수신자가 허용 목록에 없어서 전송되지 않은 **개의 전자 메일**&#x200B;을(를) 가져오려면 다음 쿼리를 사용하십시오.
 
