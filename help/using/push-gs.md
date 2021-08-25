@@ -1,13 +1,14 @@
 ---
 title: 푸시 구성 시작
 description: 푸시 알림 데이터 흐름 및 구성 요소 이해
-feature: 애플리케이션 설정, 푸시
+topic: Mobile
+feature: Push
 role: Admin
 level: Intermediate
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '794'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 * **Adobe Experience Platform Mobile** SDK는 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다. SDK는 푸시 메시지에 대한 다양한 API를 노출하는 [!DNL Adobe Journey Optimizer] 확장 프로그램을 제공하고 푸시 토큰 등록 또는 푸시 추적 이벤트 또는 기타 사용자 지정 경험 이벤트를 Adobe Experience Platform에 전송하는 것과 같은 데이터 흐름을 활성화합니다. 또한 SDK는 다른 Adobe Experience Cloud과 타사 파트너 기능을 사용할 수 있는 다양한 기타 확장도 제공합니다.
 
-   SDK 통합에는 다음과 같은 Adobe Experience Platform [데이터 수집](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR){target=&quot;_blank&quot;} 서비스를 설정해야 합니다.
+   SDK 통합에는 다음과 같은 Adobe Experience Platform [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR){target=&quot;_blank&quot;} 서비스를 설정해야 합니다.
 
    * 데이터 스트림을 만들어 데이터가 Adobe Experience Platform으로 이동하는 프로필 및 경험 이벤트 데이터 세트를 구성합니다
    * 클라이언트측 모바일 속성 만들기 및 확장 추가 SDK는 이러한 확장과 긴밀하게 통합되어 완벽한 데이터 수집 환경을 제공합니다.
