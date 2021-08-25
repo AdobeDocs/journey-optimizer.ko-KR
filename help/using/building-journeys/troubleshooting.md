@@ -1,14 +1,14 @@
 ---
 title: 여정 문제 해결
 description: 여정의 오류를 해결하는 방법 알아보기
-feature: 여정
-topic: 콘텐츠 관리
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 85%
+source-wordcount: '1040'
+ht-degree: 84%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 85%
 * 이벤트 페이로드에 이벤트 ID가 포함되어 있습니까?
 * 정확한 URL을 입력했습니까?
 * 이벤트 구성 창에서 페이로드 구조 미리 보기를 사용하여 수집 API 스트리밍 페이로드 구조를 따랐습니까? [이 페이지](../event/about-creating.md#preview-the-payload)를 참조하십시오.
-* 이벤트 헤더에 올바른 키/값 쌍을 사용했습니까?
+* 이벤트 헤더에 올바른 키-값 쌍을 사용했습니까?
 
    ```
    X-gw-ims-org-id - your ORGID
