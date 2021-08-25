@@ -1,14 +1,14 @@
 ---
 title: 이메일 라이브 보고서
 description: 이메일 라이브 보고서에서 데이터를 사용하는 방법을 알아봅니다
-feature: 보고
-topic: 콘텐츠 관리
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+source-git-commit: c54e4443c0a8b6c2e427fa007adf5d800b2ba3b5
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 2%
+source-wordcount: '395'
+ht-degree: 1%
 
 ---
 
@@ -57,3 +57,9 @@ ht-degree: 2%
 * **[!UICONTROL Soft bounce]**: 전체 받은 편지함과 같은 총 임시 오류 수입니다.
 
 * **[!UICONTROL Ignored]**: 부재 중 또는 기술 오류(예: 발신자 유형이 postmaster인 경우)와 같은 총 임시 수입니다.
+
+>[!NOTE]
+>
+>메시지 전송 프로세스 중에 **[!UICONTROL Suppressed]** 또는 **[!UICONTROL Not allowed]** 상태인 프로필은 제외됩니다. 따라서 **여정 보고서**&#x200B;는 여정([세그먼트 읽기](../building-journeys/read-segment.md) 및 [메시지](../building-journeys/journeys-message.md) 활동)를 통해 이동한 것으로 표시되지만 **이메일 보고서**&#x200B;는 전자 메일 보내기 전에 필터링되므로 이 프로필을 **[!UICONTROL Sent]** 지표에 포함하지 않습니다.
+>
+>[제외 목록](../suppression-list.md) 및 [허용 목록](../allow-list.md)에 대해 자세히 알아보십시오. 모든 제외 사례에 대한 이유를 알아보려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)를 사용할 수 있습니다.
