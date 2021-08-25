@@ -1,13 +1,13 @@
 ---
 title: 여정 이벤트에 대한 ExperienceEvent 스키마 정보
 description: 여정 이벤트에 대한 ExperienceEvent 스키마에 대해 알아봅니다
-feature: 스키마
-topic: 관리
+feature: Schemas
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e965372e3640b92f672bf03098c8e4fb487dfc7d
+source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,14 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 
 그런 다음 Journey Optimizer에서 연결된 테이블의 모든 필드를 활용할 수 있습니다.
 
-* 단일 이벤트를 구성할 때 [자세히 보기](../event/experience-event-schema.md#unitary_event_configuration)
+* 비즈니스 또는 단일 이벤트를 구성할 때 [자세히 보기](../event/experience-event-schema.md#unitary_event_configuration)
 * 여정에서 조건을 사용할 때 [자세히 보기](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * 메시지 개인화에서 [자세히 보기](../event/experience-event-schema.md#message_personalization)
 * 사용자 지정 작업 개인화에서 [자세히 보기](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### 단일 이벤트 구성{#unitary_event_configuration}
+### 이벤트 구성{#unitary_event_configuration}
 
-연결된 스키마 필드는 단일 이벤트 구성에서 사용할 수 있습니다.
+연결된 스키마 필드는 단일 및 비즈니스 이벤트 구성에서 사용할 수 있습니다.
 
 * 이벤트 구성 화면에서 이벤트 스키마 필드를 검색할 때.
 * 시스템 생성 이벤트에 대한 조건을 정의할 때.
@@ -90,7 +90,6 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 
 * 이벤트 키 공식
 * 이벤트 id 조건(규칙 기반 이벤트)
-* 비즈니스 이벤트에서(나중에 제공)
 
 단일 이벤트를 구성하는 방법에 대해 알아보려면 이 [page](../event/about-creating.md)을 참조하십시오.
 
