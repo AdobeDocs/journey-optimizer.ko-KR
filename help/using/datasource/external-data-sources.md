@@ -1,14 +1,14 @@
 ---
 title: '외부 데이터 소스 '
 description: 외부 데이터 소스를 구성하는 방법 알아보기
-feature: 데이터 소스
-topic: 관리
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
+source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 99%
+source-wordcount: '1269'
+ht-degree: 93%
 
 ---
 
@@ -114,10 +114,10 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 * endpoint: 끝점을 생성하는 데 사용할 URL
 * 끝점에 대한 HTTP 요청 메서드(GET 또는 POST)
-* header: 필요한 경우 이 호출에서 헤더로 삽입할 키/값 쌍
-* body: 메서드가 POST인 경우 호출의 본문을 설명하는 요소. bodyParams(키/값 쌍)에 정의된 제한된 본문 구조가 지원됩니다. bodyType은 호출 본문의 형식과 인코딩을 설명합니다.
-   * &#39;form&#39;: 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키/값 쌍이 그대로 일련화됩니다(예: key1=value1&amp;key2=value2&amp;...).
-   * &#39;json&#39;: 콘텐츠 유형은 application/json(charset UTF-8)이며 키/값 쌍이 json 개체 그대로 일련화됩니다(예: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;...}_).
+* 헤더: 필요한 경우 이 호출에서 헤더로 삽입할 키 값 쌍
+* body: 메서드가 POST인 경우 호출의 본문을 설명하는 요소. bodyParams(키-값 쌍)에 정의된 제한된 본문 구조가 지원됩니다. bodyType은 호출 본문의 형식과 인코딩을 설명합니다.
+   * &#39;form&#39;: 즉, 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키-값 쌍이 그대로 일련화됩니다. key1=value1&amp;key2=value2&amp;..
+   * &#39;json&#39;: 즉, 콘텐츠 유형은 application/json(charset UTF-8)이며 키-값 쌍이 json 개체 그대로 일련화됩니다. _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ..}_
 
 작업의 HTTP 요청에서 액세스 토큰을 삽입해야 하는 방식의 정의:
 
