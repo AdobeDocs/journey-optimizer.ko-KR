@@ -1,9 +1,9 @@
 ---
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
-source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
+source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1042'
 ht-degree: 11%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 11%
 </tr>
 </tbody>
 </table>
+
 <!--
 <table>
 <thead>
@@ -84,6 +85,23 @@ ht-degree: 11%
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>전송에서 제외할 주소 정의 - 제외 목록</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 사용자 인터페이스에서 CSV 파일 업로드를 통해 벌크 모드로 전자 메일 주소 및 도메인을 하나씩 제외 목록에 추가할 수 있습니다.</p>
+<p>자세한 내용은 <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">자세한 설명서</a>를 참조하세요.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 <!--
 <table>
 <thead>
@@ -129,10 +147,8 @@ ht-degree: 11%
 **이메일 구성**
 
 * **허용 목록**  - 이제 API 호출을 통해 비프로덕션 샌드박스에서 허용 목록을 활성화하고 비활성화할 수 있습니다. [자세히 알아보기](allow-list.md#enable-allow-list)
-
+* **탐색**  - [ **관리] > [채널] > [전자 메일 구성] > [일반] 메뉴** 에서 액세스할 수 있었던 억제 목록이 새  **억제** 목록 하위 메뉴로 이동되었으며, 이 하위 메뉴는 더 쉬운 액세스를 위해 모든 관련 기능을수집합니다. [자세히 알아보기](configuration/manage-suppression-list.md#access-suppression-list)
 <!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
-<!--* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)-->
-
 
 ### 수정 사항
 

@@ -15,9 +15,9 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 50c3dfe4f756e7c6e8f210dc9d3f615965c3a053
+source-git-commit: 260513cd966ab8e579fa0af0fec0376110d0b53f
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '911'
 ht-degree: 2%
 
 ---
@@ -31,30 +31,51 @@ ht-degree: 2%
 * 게재를 계속 포함하는 경우 일관되게 소프트 바운스, 그리고 이메일 평판에 부정적인 영향을 줄 수 있는 주소를 제공합니다.
 * 이메일 메시지 중 하나에 대해 일종의 스팸 불만 사항을 발행한 수신자입니다.
 
-이러한 이메일 주소는 Journey Optimizer **제외 목록**&#x200B;에 자동으로 수집됩니다. 자세한 내용은 [이 섹션](../suppression-list.md)을 참조하십시오.
+이러한 이메일 주소는 Journey Optimizer **제외 목록**&#x200B;에 자동으로 수집됩니다. [이 섹션](../suppression-list.md)의 억제 목록 개념과 사용에 대해 자세히 알아보십시오.
 
 ## 제외 목록에 액세스합니다 {#access-suppression-list}
 
-제외된 이메일 주소의 세부 목록에 액세스하려면 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** 메뉴를 연 다음 **[!UICONTROL View suppression lists]** 링크를 클릭합니다.
+제외된 전자 메일 주소의 세부 목록에 액세스하려면 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** 로 이동하여 **[!UICONTROL Suppression list]**&#x200B;을(를) 선택합니다.
 
-![](../assets/suppression-list-link.png)
+>[!CAUTION]
+>
+>제외 목록을 보고, 내보내고 관리할 수 있는 권한은 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator)로 제한됩니다. [이 섹션](../administration/permissions-overview.md)에서 [!DNL Journey Optimizer] 사용자의 액세스 권한 관리에 대해 자세히 알아보십시오.
 
-<!--To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
-You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.
+<!--![](../assets/suppression-list-link.png)
 
-![](../assets/suppression-list-access-temp.png)-->
+You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
+
+![](../assets/suppression-list-access.png)
 
 필터를 사용하여 목록을 탐색할 수 있습니다.
 
-![](../assets/suppression-list-filters-temp.png)
+<!--![](../assets/suppression-list-filters-temp.png)-->
 
-<!--![](../assets/suppression-list-filters.png)
+![](../assets/suppression-list-filters.png)
 
-You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion.
+**[!UICONTROL Suppression category]**, **[!UICONTROL Address type]** 또는 **[!UICONTROL Reason]**&#x200B;에서 필터링할 수 있습니다. 각 기준에 대해 선택한 옵션을 선택합니다. 선택하면 각 필터 또는 목록 맨 위에 표시된 모든 필터를 지울 수 있습니다.
 
 ![](../assets/suppression-list-filtering-example.png)
 
-Once selected, you can clear each filter or all filters displayed on top of the list.-->
+실수로 이메일 주소 또는 도메인을 수동으로 추가하는 경우 **[!UICONTROL Delete]** 버튼을 사용하면 해당 항목을 제거할 수 있습니다.
+
+>[!CAUTION]
+>
+>억제된 이메일 주소 또는 도메인을 제거하려면 **[!UICONTROL Delete]** 버튼을 사용하지 마십시오.
+
+![](../assets/suppression-list-delete.png)
+
+제외 목록에서 이메일 주소 또는 도메인을 삭제하면 이 주소 또는 도메인으로 다시 배달됩니다. 따라서 게재 능력과 IP 평판에 심각한 영향을 줄 수 있으므로 IP 주소 또는 전송 도메인이 차단될 수 있습니다. [이 섹션](../suppression-list.md)에서 제외 목록을 유지하는 것의 중요성에 대해 자세히 알아보십시오.
+
+>[!NOTE]
+>
+>이메일 주소 또는 도메인 삭제를 고려할 때 추가 주의가 필요합니다. 확실하지 않은 경우 게재 가능성 전문가에게 문의하십시오.
+
+**[!UICONTROL Suppression list]** 보기에서 제외 규칙을 편집할 수도 있습니다. [자세히 알아보기](retries.md)
+
+제외 목록을 CSV 파일로 내보내려면 **[!UICONTROL Download CSV]** 단추를 선택하십시오.
+
+![](../assets/suppression-list-download-csv.png)
 
 ## 제외 카테고리 및 이유 {#suppression-categories-and-reasons}
 
@@ -84,7 +105,7 @@ Once selected, you can clear each filter or all filters displayed on top of the 
 
 나열된 각 이메일 주소에 대해 **[!UICONTROL Type]**(전자 메일 또는 도메인), **[!UICONTROL Reason]** 을 제외하고 추가한 사람 및 제외 목록에 추가한 날짜/시간을 확인할 수도 있습니다.
 
-<!--![](../assets/suppression-list.png)-->
+![](../assets/suppression-list.png)
 
 게재 실패 이유는 다음과 같습니다.
 
@@ -96,10 +117,11 @@ Once selected, you can clear each filter or all filters displayed on top of the 
 | **[!UICONTROL Mailbox Full]** | 받는 사람의 사서함이 가득 차서 더 이상의 메시지를 받을 수 없어서 메시지가 반송되었습니다. | 소프트 |
 | **[!UICONTROL Relaying Denied]** | 릴레이가 허용되지 않아 수신자가 메시지를 차단했습니다. | 소프트 |
 | **[!UICONTROL Challenge-Response]** | 이 메시지는 Challenge-Response Probe입니다. | 소프트 |
+| **[!UICONTROL Spam Complaint]** | 받는 사람이 스팸으로 표시했기 때문에 메시지가 차단되었습니다. | 하드 |
 
 >[!NOTE]
 >
->구독하지 않은 사용자가 [!DNL Journey Optimizer]에서 이메일을 받지 않으므로 해당 이메일 주소를 제외 목록으로 보낼 수 없습니다. 선택 사항은 Experience Platform 수준에서 처리됩니다. [옵트아웃](../consent.md)에 대해 자세히 알아보십시오.
+>구독하지 않은 사용자가 [!DNL Journey Optimizer]에서 이메일을 받지 않으므로 해당 이메일 주소를 제외 목록으로 보낼 수 없습니다. 선택 사항은 Experience Platform 수준에서 처리됩니다. [옵트아웃에 대해 자세히 알아보기](../consent.md)
 
 <!--
 Removed from the table provided by SparkPost/Momentum:
@@ -119,82 +141,82 @@ Removed from the table provided by SparkPost/Momentum:
 | **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
 -->
 
-<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list. (not sure it's possible to subscribe through AJO or need to find reference to Experience Platform doc?)-->
+<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list.-->
 
-<!--## Manually add addresses and domains {#add-addresses-and-domains}
+## 수동으로 주소 및 도메인 추가 {#add-addresses-and-domains}
 
-When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
+메시지를 전자 메일 주소에 배달하지 못하면 이 주소가 정의된 제외 규칙 또는 바운스 수를 기반으로 하여 제외 목록에 자동으로 추가됩니다.
 
-However, you can also manually populate the [!DNL Journey Optimizer] suppression list to exclude specific email addresses and/or domains from your sending.
+그러나 전송에서 특정 이메일 주소 및/또는 도메인을 제외하도록 [!DNL Journey Optimizer] 제외 목록을 수동으로 채울 수도 있습니다.
 
-You may add email addresses or domains [one at a time](#add-one-address-or-domain), or [in bulk mode](#upload-csv-file) through a CSV file upload.
+CSV 파일 업로드를 통해 이메일 주소 또는 도메인 [을 한 번에 하나씩, 또는 대량 모드](#upload-csv-file)에서 [를 추가할 수 있습니다.](#add-one-address-or-domain)
 
-To do this, select the **[!UICONTROL Add email or domain]** button, then follow one of the methods below.
+이렇게 하려면 **[!UICONTROL Add email or domain]** 버튼을 선택한 다음 아래 방법 중 하나를 수행합니다.
 
 ![](../assets/suppression-list-add-email.png)
 
-### Add one address or domain {#add-one-address-or-domain}
+### 주소 또는 도메인 하나 추가 {#add-one-address-or-domain}
 
-1. Select the **[!UICONTROL One by one]** option.
+1. **[!UICONTROL One by one]** 옵션을 선택합니다.
 
-    ![](../assets/suppression-list-add-email-address.png)
+   ![](../assets/suppression-list-add-email-address.png)
 
-1. Choose the address type: **[!UICONTROL Email address]** or **[!UICONTROL Domain address]**.
+1. 주소 유형을 선택합니다. **[!UICONTROL Email address]** 또는 **[!UICONTROL Domain address]**
 
-1. Enter the email address or domain you want to exclude from your sending.
+1. 전송에서 제외할 이메일 주소 또는 도메인을 입력합니다.
 
-    >[!NOTE]
-    >
-    >Make sure you enter a valid email address (such as abc@company) or domain (such as abc.company.com).
+   >[!NOTE]
+   >
+   >올바른 이메일 주소(예: abc@company) 또는 도메인(예: abc.company.com)을 입력해야 합니다.
 
-1. Specify a reason if needed.
+1. 필요한 경우 이유를 지정합니다.
 
-1. Click **[!UICONTROL Submit]**.
+1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
-### Upload a CSV file {#upload-csv-file}
+### CSV 파일 업로드 {#upload-csv-file}
 
-1. Select the **[!UICONTROL Upload CSV]** option.
+1. **[!UICONTROL Upload CSV]** 옵션을 선택합니다.
 
-    ![](../assets/suppression-list-upload-csv.png)
+   ![](../assets/suppression-list-upload-csv.png)
 
-1. Download the CSV template to use, which includes the columns and format below:
+1. 아래 열과 형식을 포함하는 사용할 CSV 템플릿을 다운로드합니다.
 
-    ```
-    TYPE,VALUE,COMMENT
-    EMAIL,abc@somedomain.com,Comment
-    DOMAIN,somedomain.com,Comment
-    ```
-    You can also download this template from the **[!UICONTROL Suppression list]** main view.
+   ```
+   TYPE,VALUE,COMMENT
+   EMAIL,abc@somedomain.com,Comment
+   DOMAIN,somedomain.com,Comment
+   ```
+   이 템플릿은 **[!UICONTROL Suppression list]** 기본 보기에서 다운로드할 수도 있습니다.
 
-    >[!CAUTION]
-    >
-    >Do not change the names of the columns in the CSV template.
-    >
-    >The file size should not exceed 50 MB.
+   >[!CAUTION]
+   >
+   >CSV 템플릿의 열 이름을 변경하지 마십시오.
+   >
+   >파일 크기는 1MB를 초과할 수 없습니다.
 
-1. Fill in the CSV template with the email addresses and/or domains you want to add to the suppression list.
+1. CSV 템플릿을 제외 목록에 추가할 이메일 주소 및/또는 도메인으로 입력합니다.
 
-1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Upload file]**.
+1. 완료되면 CSV 파일을 끌어다 놓은 뒤 **[!UICONTROL Upload file]** 을 클릭합니다.
 
-    ![](../assets/suppression-list-upload-file-button.png)
+   ![](../assets/suppression-list-upload-file-button.png)
 
-1. Click **[!UICONTROL Submit]**.
+1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
-### Check recent uploads status {#recent-uploads}
+### 최근 업로드 상태 확인 {#recent-uploads}
 
-You can check the list of the latest CSV files you uploaded.
+업로드한 최신 CSV 파일 목록을 확인할 수 있습니다.
 
-To do this, from the **[!UICONTROL Suppression list]** view, click the **[!UICONTROL Recent uploads]** button.
+이렇게 하려면 **[!UICONTROL Suppression list]** 보기에서 **[!UICONTROL Recent uploads]** 버튼을 클릭합니다.
 
 ![](../assets/suppression-list-recent-uploads-button.png)
 
-The latest uploads you submitted and their corresponding statuses are displayed.
+제출한 최신 업로드와 해당 상태가 표시됩니다.
 
-If an error report is associated with a file, you can download it to check the errors encountered.
+오류 보고서가 파일과 연결되어 있으면 다운로드하여 발생한 오류를 확인할 수 있습니다.
 
 ![](../assets/suppression-list-recent-uploads-error.png)
 
-Below is an example of the type of entries you can find in the error report:
+다음은 오류 보고서에서 찾을 수 있는 항목 유형의 예입니다.
 
 ```
 type,value,comments,failureReason
@@ -206,6 +228,5 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
--->
 
 

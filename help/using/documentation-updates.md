@@ -1,9 +1,9 @@
 ---
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
-source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
+source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '455'
 ht-degree: 13%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 13%
 * 이제 메시지 사전 설정에서 이메일 다시 시도 설정을 조정할 수 있다는 사실을 반영하도록 다시 시도 기간 섹션을 업데이트 및 이름을 변경했습니다. [자세히 보기](configuration/retries.md#retry-duration)
 * 이메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](message-tracking.md#one-click-opt-out-link)
 * 하위 Adobe 위임 섹션을 업데이트하여가 수행한 유효성 검사 프로세스에 대한 자세한 정보를 추가했습니다. [자세히 보기](configuration/delegate-subdomain.md#subdomain-validation)
-
-<!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+* 이메일 주소 및 도메인을 제외 목록에 수동으로 추가하는 방법을 설명하는 섹션을 추가했습니다. [자세히 보기](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* 새 사용자 인터페이스를 반영하도록 [제외 목록](configuration/manage-suppression-list.md#access-suppression-list) 섹션 및 [다시 시도](configuration/retries.md) 섹션을 업데이트했습니다.
 
 
 ## 2021년 7월
@@ -46,7 +46,7 @@ ht-degree: 13%
 * 새로운 사용 사례: [도우미 함수를 사용하여 메시지 개인화](personalization/personalization-use-case-helper-functions.md)
 * 구체화된 세그먼트 영향을 반영하도록 세그먼트 읽기 설명서를 업데이트했습니다. [자세히 보기](building-journeys/read-segment.md)
 * 여정 제한을 업데이트했습니다. [자세히 보기](building-journeys/limitations.md)
-* 결정 시 오퍼 선택 구성 섹션을 업데이트했습니다. [자세히 보기](offers/offer-activities/configure-offer-selection.md)
+* 결정 섹션에서 오퍼 선택 구성 섹션을 업데이트했습니다. [자세히 보기](offers/offer-activities/configure-offer-selection.md)
 * 이벤트 기반 오퍼가 현재 지원되지 않는다는 경고를 추가했습니다. [자세히 보기](offers/offer-library/creating-personalized-offers.md#eligibility)
-* 의사 결정 관리 새 [!UICONTROL Overview] 탭이 설명되어 있습니다. [자세히 보기](offers/get-started/user-interface.md#overview)
+* 의사 결정 관리 새 **[!UICONTROL Overview]** 탭을 정리했습니다. [자세히 보기](offers/get-started/user-interface.md#overview)
 * 오퍼 및 결정 목록에서 사용할 수 있는 작업을 설명하는 새 섹션이 추가되었습니다. [오퍼 목록](offers/offer-library/creating-personalized-offers.md#offer-list) 및 [결정 목록](offers/offer-activities/create-offer-activities.md#decision-list).

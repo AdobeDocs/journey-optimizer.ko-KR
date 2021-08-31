@@ -12,13 +12,13 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-feature: 컨트롤 그룹
-topic: 관리
+feature: Control Groups
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 0c7ca9a87a55c04b977a29c6be446da143722e37
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -313,7 +313,9 @@ ht-degree: 0%
 
 ### PTR 레코드 보기 권한 {#view-ptr}
 
-**[!UICONTROL View PTR records]** 높은 수준의 권한을 사용하면 하위 도메인을 기반으로 구성되고 다음과 같은 낮은 수준의 권한을 포함하는 PTR 레코드를 볼 수 있습니다.
+**[!UICONTROL View PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 볼 수 있습니다.
+
+여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
 * PTR_records.read
 * subdomains_delegation.read
@@ -338,13 +340,12 @@ ht-degree: 0%
    * messages_general_settings.read
    * messages_general_settings.write
    * messages_general_settings.delete
-
 * Adobe Experience Platform 특정:
    * schemas.read
 
 ### 메시지 일반 설정 권한 보기 {#view-message-settings}
 
-**[!UICONTROL View messages general settings]** 높은 수준의 권한을 통해 사용자는 억제 규칙 또는 실행 주소와 같은 일반 설정을 볼 수 있습니다.
+**[!UICONTROL View messages general settings]** 고급 권한을 사용하면 사용자가 실행 주소와 같은 일반 설정을 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -378,19 +379,21 @@ ht-degree: 0%
 * IP_pools.read
 * mobile_setting.read (Adobe Experience Platform Launch에서)
 
-### 제외 규칙 관리 권한 {#manage-suppression-rules}
+### 억제 권한 관리 {#manage-suppression}
 
-**[!UICONTROL Manage suppression rules]** 높은 수준의 권한을 사용하면 사용자의 이메일 주소가 제외 목록에 추가되기 전에 바운스 수를 정의할 수 있습니다.
+**[!UICONTROL Manage suppression]** 높은 수준의 권한을 통해 사용자는 전자 메일 주소가 제외 목록에 추가되기 전에 바운스 수를 정의하고 제외 목록에 항목을 추가 및 삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
 * suppression_rules.read
 * suppression_rules.write
 * suppression_rules.delete
+* suppression_list.write
+* suppression_list.delete
 
 ### 제외 목록 보기 권한 {#view-suppresion-list}
 
-**[!UICONTROL View suppression list]** 고급 권한을 사용하면 메시지 사전 설정 및 일반 메시지 설정을 포함한 메시지 구성을 볼 수 있습니다.
+**[!UICONTROL View suppression list]** 높은 수준의 권한을 통해 사용자는 억제 목록 콘텐츠 및 설정을 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -402,10 +405,12 @@ ht-degree: 0%
 
 ### 제외 목록 내보내기 권한 {#export-suppression-list}
 
-**[!UICONTROL Export suppression list]** 고급 권한을 사용하면 메시지 사전 설정 및 일반 메시지 설정을 포함한 메시지 구성을 구성할 수 있습니다.
+**[!UICONTROL Export suppression list]** 높은 수준의 권한을 통해 사용자는 억제 목록을 CSV 파일로 다운로드할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
+* Journey Optimizer 특정:
+   * suppression_list.export
 * Adobe Experience Platform 특정:
    * profiles.read
    * datasets.read
