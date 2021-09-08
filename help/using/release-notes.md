@@ -2,7 +2,7 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
+source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 11%
@@ -142,7 +142,7 @@ ht-degree: 11%
 
 **개인화**
 
-* **표현식 편집기**  - 이제 개인화를 정의할 때 폴백 값을 쉽게 추가할 수 있습니다. 프로필에 대한 개인화 필드가 비어 있으면 폴백 값이 표시됩니다. [자세히 알아보기](personalization/functions/helper.md)
+* **표현식 편집기**  - 이제 개인화를 정의할 때 폴백 값을 쉽게 추가할 수 있습니다. 프로필에 대한 개인화 필드가 비어 있으면 폴백 값이 표시됩니다. [자세히 알아보기](personalization/functions/helpers.md)
 
 **이메일 구성**
 
