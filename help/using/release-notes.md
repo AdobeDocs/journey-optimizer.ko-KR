@@ -1,13 +1,13 @@
 ---
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
-source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
+exl-id: 06fa956a-b500-416e-9d42-b683c328e837
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1071'
 ht-degree: 11%
 
 ---
-
 
 # 릴리스 정보 {#release-notes}
 
@@ -140,9 +140,9 @@ ht-degree: 11%
 * **배경**  - 이제 배경 이미지가 라이브 미리 보기에서 지원됩니다. [자세히 알아보기](preview.md)
 * **한 번의 클릭으로 옵트아웃 링크**  - 이메일 콘텐츠에 새로운 유형의 링크를 삽입할 수 있습니다. 옵트아웃  **링크를** 사용하면 옵트아웃을 확인하기 위해 랜딩 페이지로 리디렉션되지 않고 한 번의 클릭으로 커뮤니케이션으로부터 구독을 취소할 수 있습니다. [자세히 알아보기](message-tracking.md#one-click-opt-out-link)
 
-<!--**Personalization**
+**개인화**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **표현식 편집기**  - 이제 개인화를 정의할 때 폴백 값을 쉽게 추가할 수 있습니다. 프로필에 대한 개인화 필드가 비어 있으면 폴백 값이 표시됩니다. [자세히 알아보기](personalization/functions/helper.md)
 
 **이메일 구성**
 
@@ -225,4 +225,3 @@ ht-degree: 11%
 * 이제 표현식 편집기 내의 오퍼 레일의 현지화가 구현되었습니다.
 * 정보 팝업에서 잘못된 간격이 수정되었습니다.
 * `background-image` 속성이 있는 내부 스타일 시트가 지원되지 않는 HTML 파일을 업로드할 때 이메일 디자이너의 문제가 해결되었습니다.
-

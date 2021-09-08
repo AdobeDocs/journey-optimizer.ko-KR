@@ -1,19 +1,31 @@
 ---
 title: 도우미
 description: 도우미
-feature: 개인화
-topic: 개인화
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 5%
+source-wordcount: '372'
+ht-degree: 4%
 
 ---
 
-
 # 도우미 {#gs-helpers}
+
+## 기본 대체 값{#default-value}
+
+특성이 비어 있거나 null인 경우 `Default Fallback Value` 도우미가 기본 폴백 값을 반환하는 데 사용됩니다. 이 메커니즘은 프로필 속성 및 여정 이벤트에 작동합니다.
+
+**구문**
+
+```sql
+Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
+```
+
+이 예에서는 이 프로필의 `firstName` 속성이 비어 있거나 null인 경우 값 `there`이 표시됩니다.
 
 ## 조건{#if-function}
 
