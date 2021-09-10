@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
+source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1278'
 ht-degree: 3%
 
 ---
@@ -44,43 +45,67 @@ ht-degree: 3%
 
 ## 오퍼의 표현 구성 {#representations}
 
-1. **[!UICONTROL Add representation]** 버튼을 사용하여 오퍼에 대해 하나 이상의 표현을 추가합니다.
+오퍼는 메시지의 다른 위치에 표시할 수 있습니다. 위쪽 배너에 이미지, 단락 텍스트, HTML 블록 등이 있습니다. 오퍼가 더 많은 표현을 보유하게 되면 더 많은 기회가 다른 배치 컨텍스트에서 오퍼를 사용할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >오퍼는 메시지의 다른 위치에 표시할 수 있습니다. 위쪽 배너에 이미지, 단락 텍스트, html 블록 등이 있습니다. 오퍼가 더 많은 표현을 보유하게 되면 더 많은 기회가 다른 배치 컨텍스트에서 오퍼를 사용할 수 있습니다.
+오퍼에 하나 이상의 표현을 추가하고 구성하려면 아래 단계를 수행하십시오.
 
-1. 각 표현에 대해 오퍼가 표시될 **[!UICONTROL Channel]** 및 **[!UICONTROL Placement]** 을 지정합니다.
+1. 첫 번째 표현에 대해 사용할 **[!UICONTROL Channel]** 을 선택하여 시작합니다.
 
    ![](../../assets/channel-placement.png)
 
-   **[!UICONTROL Browse]** 버튼을 사용하면 사용 가능한 배치를 필터링하고 채널 및/또는 컨텐츠 유형에 따라 필터링할 수 있습니다.
+   선택한 채널에 사용할 수 있는 배치만 **[!UICONTROL Placement]** 드롭다운 목록에 표시됩니다.
+
+1. 목록에서 배치를 선택하거나 **[!UICONTROL Placement]** 드롭다운 목록 옆의 버튼을 사용하여 모든 배치를 찾아봅니다.
+
+   ![](../../assets/browse-button-placements.png)
+
+   거기에서 여전히 채널 및/또는 컨텐츠 유형에 따라 배치를 필터링할 수 있습니다. 배치를 선택하고 **[!UICONTROL Select]** 을(를) 클릭합니다.
 
    ![](../../assets/browse-placements.png)
 
-1. Adobe Experience Cloud Assets 라이브러리 또는 외부 공용 위치에서 나오는 각 표현에 컨텐츠를 추가합니다.
+1. 표시에 컨텐츠를 추가합니다.
 
-   * Adobe Experience Cloud Assets 라이브러리의 콘텐츠를 추가하려면 왼쪽 창에서 표현 영역으로 드래그한 다음 **[!UICONTROL Destination link]** 필드에 컨텐츠와 연결할 URL을 지정합니다.
+   >[!NOTE]
+   >
+   >배치의 컨텐츠 유형에 해당하는 컨텐츠만 사용할 수 있습니다.
+
+   * 선택한 배치가 이미지 유형인 경우 [!DNL Adobe Experience Manager Assets Essentials]에서 제공하는 자산의 중앙 저장소인 Adobe Experience Cloud 자산 라이브러리에서 오는 컨텐츠를 추가할 수 있습니다.
 
       >[!NOTE]
       >
-      >내용은 왼쪽 패널의 자산 선택기에서만 드래그하여 놓을 수 있습니다. 배치의 컨텐츠 유형에 해당하는 컨텐츠만 사용할 수 있습니다.
+      > [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}에서 작업하려면, 조직에 대해 [!DNL Assets Essentials]를 배포하고 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 속해 있는지 확인해야 합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}에 대해 자세히 알아보십시오.
 
-      ![](../../assets/offer_drag_content.png)
+      **[!UICONTROL Asset library]** 옵션을 선택하고 **[!UICONTROL Browse]** 을 선택합니다.
 
-   * 외부 공용 위치에서 콘텐츠를 추가하려면 **[!UICONTROL Add content]** 버튼을 클릭한 다음 추가할 컨텐츠의 이름, URL 및 대상 링크를 지정합니다.
+      ![](../../assets/offer-browse-asset-library.png)
 
-      추가하는 컨텐츠가 선택한 배치의 컨텐츠 유형에 해당하는지 확인합니다.
+      자산을 탐색하여 선택한 이미지를 선택하고 **[!UICONTROL Select]** 을 클릭합니다.
 
-      ![](../../assets/offer_add_content.png)
+      ![](../../assets/offer-select-asset.png)
 
-   * 텍스트 유형 콘텐츠를 삽입할 수도 있습니다. 이렇게 하려면 **[!UICONTROL Add content]** 단추를 클릭한 다음 **[!UICONTROL Custom text]** 옵션을 선택합니다. **[!UICONTROL Text]** 필드에 오퍼에 표시할 텍스트를 입력합니다.
+   * 외부 공용 위치에서 콘텐츠를 추가하려면 **[!UICONTROL URL]** 을 선택한 다음 추가할 컨텐츠의 URL 주소를 입력합니다.
+
+      ![](../../assets/offer-content-url.png)
+
+   * 호환 배치를 선택할 때 텍스트 유형 컨텐츠를 삽입할 수도 있습니다. **[!UICONTROL Custom]** 옵션을 선택하고 오퍼에 표시할 텍스트를 입력합니다.
+
+      ![](../../assets/offer-text-content.png)
 
       >[!NOTE]
       >
       >이 옵션은 이미지 유형 배치에 사용할 수 없습니다.
 
-      ![](../../assets/offer_text_content.png)
+1. 이미지나 URL과 같은 컨텐츠를 추가할 때 **[!UICONTROL Destination link]**&#x200B;을 지정할 수 있습니다. 오퍼를 클릭하는 사용자가 해당 페이지로 이동됩니다.
+
+   ![](../../assets/offer-destination-link.png)
+
+1. 마지막으로, 사용자에게 표시할 언어를 식별하고 관리하는 데 도움이 되도록 원하는 언어를 선택합니다.
+
+1. 다른 표현을 추가하려면 **[!UICONTROL Add representation]** 버튼을 사용하고 필요한 만큼 표현을 추가합니다.
+
+   ![](../../assets/offer-add-representation.png)
+
+1. 모든 표현을 추가한 후 **[!UICONTROL Next]** 을 선택합니다.
 
 ## 자격 규칙 및 제한 추가 {#eligibility}
 

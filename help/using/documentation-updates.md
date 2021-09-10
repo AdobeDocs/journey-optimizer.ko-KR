@@ -1,13 +1,13 @@
 ---
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
-source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
+exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
+source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 13%
+source-wordcount: '472'
+ht-degree: 17%
 
 ---
-
 
 # 이 설명서의 최신 업데이트
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 * [!DNL Journey Optimizer] 8월 21일 릴리스와 함께 제공되는 모든 새로운 기능과 개선 사항이 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 의사 결정 관리 권한을 업데이트했습니다. [자세히 보기](administration/ootb-product-profiles.md)
 * 최신 UI로 이메일 디자이너 스크린샷을 업데이트했습니다.
-* 동적 URL 경로 및 동적 헤더로 사용자 지정 작업에 대한 구성 절차가 업데이트되었습니다. [자세히 보기](action/about-custom-action-configuration.md#url-configuration)
+* 동적 URL 경로 및 동적 헤더가 있는 사용자 지정 작업을 구성하는 절차를 업데이트했습니다. [자세히 보기](action/about-custom-action-configuration.md#url-configuration)
 * 액세스 가능성 기능 및 바로 가기에 대한 섹션을 추가했습니다. [자세히 보기](user-interface.md#accessibility)
 * 세그먼트 평가 방법에 대한 섹션을 추가했습니다. [자세히 보기](segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * 억제 목록, 허용 목록 및 이메일 글로벌/라이브 보고서 섹션에 억제됨 및 허용되지 않음 상태의 프로필이 전송된 이메일 보고서에서 제외되도록 지정하는 메모를 추가했습니다. [자세히 보기](reports/email-global-report.md)
@@ -30,6 +30,7 @@ ht-degree: 13%
 * 하위 Adobe 위임 섹션을 업데이트하여가 수행한 유효성 검사 프로세스에 대한 자세한 정보를 추가했습니다. [자세히 보기](configuration/delegate-subdomain.md#subdomain-validation)
 * 이메일 주소 및 도메인을 제외 목록에 수동으로 추가하는 방법을 설명하는 섹션을 추가했습니다. [자세히 보기](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * 새 사용자 인터페이스를 반영하도록 [제외 목록](configuration/manage-suppression-list.md#access-suppression-list) 섹션 및 [다시 시도](configuration/retries.md) 섹션을 업데이트했습니다.
+* 오퍼를 만들 때 표현을 추가 및 구성하는 새 흐름이 문서화되었습니다. [자세히 보기](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## 2021년 7월

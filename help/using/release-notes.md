@@ -2,9 +2,9 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
+source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1110'
 ht-degree: 11%
 
 ---
@@ -148,7 +148,10 @@ ht-degree: 11%
 
 * **허용 목록**  - 이제 API 호출을 통해 비프로덕션 샌드박스에서 허용 목록을 활성화하고 비활성화할 수 있습니다. [자세히 알아보기](allow-list.md#enable-allow-list)
 * **탐색**  - [ **관리] > [채널] > [전자 메일 구성] > [일반] 메뉴** 에서 액세스할 수 있었던 억제 목록이 새  **억제** 목록 하위 메뉴로 이동되었으며, 이 하위 메뉴는 더 쉬운 액세스를 위해 모든 관련 기능을수집합니다. [자세히 알아보기](configuration/manage-suppression-list.md#access-suppression-list)
-<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+
+**의사 결정 관리**
+
+* 오퍼를 만들 때 표현을 추가 및 구성하는 방법이 업데이트되어 사용자 경험이 향상되었습니다. 특히 이제 표현에 대한 이미지 유형 컨텐츠를 정의할 때만 자산 라이브러리가 표시됩니다. [자세히 알아보기](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### 수정 사항
 
