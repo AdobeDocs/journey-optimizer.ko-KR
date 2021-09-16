@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 68%
+source-wordcount: '1459'
+ht-degree: 66%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 68%
 >
 >* 이 설명서는 사용자 인터페이스 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 하지만 어떤 스크린샷은 실제 사용자 인터페이스와 약간 다를 수 있습니다.
 >
-> * UI에서 사용할 수 있는 구성 요소 및 기능은 사용 권한 및 라이선스 패키지에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하십시오.
+>* 사용자 인터페이스에서 사용할 수 있는 구성 요소 및 기능은 [권한](administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하십시오.
 
 
 ## 왼쪽 탐색
@@ -110,7 +111,7 @@ ht-degree: 68%
 
 ## 접근성{#accessibility}
 
-Adobe Journey Optimizer의 액세스 가능성 기능은 Adobe Experience Platform에서 제공합니다.
+[!DNL Adobe Journey Optimizer]의 액세스 가능성 기능은 Adobe Experience Platform에서 상속됩니다.
 
 * 키보드 액세스 가능성
 * 색상 대비
@@ -118,7 +119,7 @@ Adobe Journey Optimizer의 액세스 가능성 기능은 Adobe Experience Platfo
 
 [Adobe Experience Platform 설명서에서 자세한](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html) 내용{target=&quot;_blank&quot;}.
 
-Adobe Journey Optimizer에서 다음과 같은 일반적인 키보드 단축키를 사용할 수 있습니다.
+[!DNL Journey Optimizer]에서 다음과 같은 일반적인 키보드 단축키를 사용할 수 있습니다.
 
 | 작업 | 단축키 |
 | --- | --- |

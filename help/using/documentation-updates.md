@@ -2,7 +2,7 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 17%
@@ -46,7 +46,7 @@ ht-degree: 17%
 * 문서 및 화면에서 &#39;오퍼 활동&#39;을 &#39;결정&#39; 및 &#39;결정&#39; 을 &#39;결정 범위&#39;로 이름을 변경했습니다. [자세히 보기](offers/get-started/starting-offer-decisioning.md)
 * 새로운 사용 사례: [도우미 함수를 사용하여 메시지 개인화](personalization/personalization-use-case-helper-functions.md)
 * 구체화된 세그먼트 영향을 반영하도록 세그먼트 읽기 설명서를 업데이트했습니다. [자세히 보기](building-journeys/read-segment.md)
-* 여정 제한을 업데이트했습니다. [자세히 보기](building-journeys/limitations.md)
+* 여정 제한을 업데이트했습니다. [자세히 보기](limitations.md)
 * 결정 섹션에서 오퍼 선택 구성 섹션을 업데이트했습니다. [자세히 보기](offers/offer-activities/configure-offer-selection.md)
 * 이벤트 기반 오퍼가 현재 지원되지 않는다는 경고를 추가했습니다. [자세히 보기](offers/offer-library/creating-personalized-offers.md#eligibility)
 * 의사 결정 관리 새 **[!UICONTROL Overview]** 탭을 정리했습니다. [자세히 보기](offers/get-started/user-interface.md#overview)

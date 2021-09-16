@@ -1,14 +1,15 @@
 ---
 title: 여정 버전
 description: 여정 버전에 대해 알아보기
-feature: 여정
-topic: 콘텐츠 관리
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 4%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->여정 버전 제한에 대한 자세한 내용은 [이 페이지](../building-journeys/limitations.md#journey-versions-limitations)를 참조하십시오
+>여정 버전 제한에 대한 자세한 내용은 [이 페이지](../limitations.md#journey-versions-limitations)를 참조하십시오
 
 1. 라이브 여정의 최신 버전을 열고 **[!UICONTROL Create a new version]** 을 클릭한 다음 확인합니다.
 
