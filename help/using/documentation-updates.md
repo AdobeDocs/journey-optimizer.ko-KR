@@ -2,16 +2,21 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 17%
+source-wordcount: '492'
+ht-degree: 18%
 
 ---
 
 # 이 설명서의 최신 업데이트
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2021년 9월
+
+* 새 **제한 사항** 페이지를 추가했습니다. [자세히 보기](limitations.md)
+* 다른 성향에 대한 단계를 사용하여 **빠른 시작** 페이지를 개선했습니다. [자세히 보기](quick-start.md)
 
 ## 2021년 8월
 
