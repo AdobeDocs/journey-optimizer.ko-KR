@@ -5,7 +5,8 @@ feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6ff5d093bac20248106be1f4478102c29703cb1d
+exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -56,7 +57,7 @@ ht-degree: 1%
 
    ![](assets/message-tracking-links.png)
 
-1. 링크를 개인화할 수 있습니다. [이 섹션](personalization/personalization-syntax.md)에서 개인화된 URL에 대해 자세히 알아보십시오.
+1. 링크를 개인화할 수 있습니다. [이 섹션](personalization/personalization-syntax.md#perso-urls)에서 개인화된 URL에 대해 자세히 알아보십시오.
 
 1. 변경 내용을 저장합니다.
 
@@ -142,5 +143,3 @@ ht-degree: 1%
 열린 메시지 수와 클릭한 링크 수가 [실행 탭](message-monitoring.md)에 나열됩니다.
 
 개구부 및 클릭에 대한 보고는 [Email Live 보고서](reports/email-live-report.md) 및 [Email Global 보고서](reports/email-global-report.md)에서 사용할 수 있습니다.
-
-
