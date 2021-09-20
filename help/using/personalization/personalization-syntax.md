@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 395ce682c52880bc67234b254f3ff55fae07f82e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 4%
@@ -153,7 +153,7 @@ Journey Orchestration을 사용하면 개인화 필드를 메시지에 추가하
 ![](assets/perso-url.png)
 
 >[!NOTE]
->`
+>
 >표현식 편집기에서 개인화된 URL을 편집하면 보안상의 이유로 도우미 함수 및 세그먼트 멤버십이 비활성화됩니다.
 
 ** 개인화된 URL **
