@@ -1,14 +1,15 @@
 ---
 title: 푸시 알림 라이브 보고서
 description: 푸시 알림 라이브 보고서에서 데이터를 사용하는 방법을 알아봅니다
-feature: 보고
-topic: 콘텐츠 관리
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 2%
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +40,22 @@ ht-degree: 2%
 * **[!UICONTROL Actions]**: 전달된 푸시 알림에 대한 총 작업 수(예: 단추 클릭 또는 취소)
 
 * **[!UICONTROL Engagements]**: 이 푸시 알림에 대한 총 열기 및 작업 수(즉, 프로필이 푸시를 열었는지 또는 단추를 클릭했는지 여부)입니다.
+
+**[!UICONTROL Sending metrics - by push]** 테이블은 게재의 성공을 자세히 설명합니다.
+
+* **[!UICONTROL Targeted]**: 이 게재의 타겟 프로필로 자격을 얻은 사용자 프로필 수입니다.
+
+* **[!UICONTROL Excluded]**: 타겟팅된 프로필에서 제외되고 메시지를 받지 못한 사용자 프로필 수입니다.
+
+* **[!UICONTROL Sent]**: 게재에 대한 총 전송 수입니다.
+
+* **[!UICONTROL Delivered]**: 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
+
+* **[!UICONTROL Bounces]**: 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
+
+* **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
+
+* **[!UICONTROL Opens]**: 게재에서 메시지를 연 횟수입니다.
 
 ![](../assets/live_report_4.png)
 

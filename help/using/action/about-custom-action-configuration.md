@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 6907946a75904d601ca1f70c61b72fd92803db84
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '806'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 6%
 # 작업 구성 {#configure-an-action}
 
 서드파티 시스템을 사용하여 메시지를 보내거나 여정이 서드파티 시스템에 API 호출을 전송하도록 하려는 경우 여기에서 여정에 대한 연결을 구성합니다. 기술 사용자가 정의한 사용자 정의 작업은 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 범주에서 사용할 수 있습니다( [이 페이지](../building-journeys/about-journey-activities.md#action-activities) 참조). 다음은 사용자 지정 작업에 연결할 수 있는 시스템의 몇 가지 예입니다. Epsilon, Facebook, Adobe.io, Firebase 등
+
 제한 사항은 [이 페이지](../limitations.md)에 나열되어 있습니다.
+
+사용자 지정 작업을 사용하여 컬렉션을 동적으로 전달할 수 있습니다. 이 [사용 사례](../limitations.md)를 참조하십시오.
 
 사용자 지정 작업을 구성하는 데 필요한 주요 단계는 다음과 같습니다.
 
@@ -56,12 +59,14 @@ ht-degree: 6%
 
    * URL에 동적 경로가 포함된 경우 URL의 정적 부분, 즉 구성표, 호스트, 포트 및 선택적으로 경로의 정적 부분만 입력합니다.
 
-      예: `https://xxx.yyy.com:8080/somethingstatic/`
+      예: `https://xxx.yyy.com/somethingstatic/`
 
       사용자 지정 작업을 여정에 추가할 때 URL의 동적 경로를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
    >보안상의 이유로 URL에 HTTPS 체계를 사용하는 것이 좋습니다. 공개되지 않은 Adobe 주소 및 IP 주소 사용을 허용하지 않습니다.
+   >
+   >사용자 지정 작업을 정의할 때는 기본 포트만 허용됩니다. http의 경우 80, https의 경우 443.
 
 1. 호출 **[!UICONTROL Method]**&#x200B;을 선택합니다. **[!UICONTROL POST]** 또는 **[!UICONTROL PUT]**&#x200B;일 수 있습니다.
 1. **[!UICONTROL Headers]** 섹션에서 외부 서비스로 전송할 요청 메시지의 HTTP 헤더를 정의합니다.
@@ -106,3 +111,4 @@ ht-degree: 6%
 * 변수는 매개 변수의 값이 변경됨을 의미합니다. 여정에서 이 사용자 지정 작업을 사용하는 마케터는 원하는 값을 전달하거나 이 매개 변수의 값을 검색할 위치(예: 이벤트에서 또는 Adobe Experience Platform에서)를 지정할 수 있습니다. 이 경우 전환 상수/변수 오른쪽의 필드는 여정에서 이 매개 변수의 이름을 지정하는 레이블입니다.
 
 ![](../assets/customactionpayloadmessage2.png)
+

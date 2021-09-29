@@ -1,13 +1,14 @@
 ---
 title: 여정 디자인
 description: 여정 디자인 방법 알아보기
-feature: 여정
-topic: 콘텐츠 관리
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
+exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
+source-git-commit: e9da4ec95a82d53e6fcf2cb99fb6215b0c325f08
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1417'
 ht-degree: 1%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 1%
 
 ## 여정 디자인 시작
 
-**팔레트**&#x200B;는 화면 왼쪽에 있습니다. 사용 가능한 모든 활동은 몇 가지 카테고리로 분류됩니다.**[!UICONTROL Events]**, **[!UICONTROL Orchestration]** 및 **[!UICONTROL Actions]**. 해당 이름을 클릭하여 다른 카테고리를 확장/축소할 수 있습니다. 여정에서 활동을 사용하려면 팔레트에서 캔버스로 활동을 끌어서 놓습니다.
+**팔레트**&#x200B;는 화면 왼쪽에 있습니다. 사용 가능한 모든 활동은 몇 가지 카테고리로 분류됩니다. **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** 및 **[!UICONTROL Actions]**. 해당 이름을 클릭하여 다른 카테고리를 확장/축소할 수 있습니다. 여정에서 활동을 사용하려면 팔레트에서 캔버스로 활동을 끌어서 놓습니다.
 
 새 여정을 시작할 때 첫 번째 단계가 숨겨지므로 캔버스에 놓을 수 없는 요소가 표시됩니다. 이는 모든 작업, 조건 활동, 대기 및 반응과 관련되어 있습니다.
 
@@ -26,11 +27,11 @@ ht-degree: 1%
 
 왼쪽 상단 모서리의 **[!UICONTROL Filter items]** 아이콘을 사용하면 다음 필터를 표시할 수 있습니다.
 
-* **사용 가능한 항목만 표시**:팔레트에서 사용할 수 없는 요소(예: 여정에 사용되는 것과 다른 네임스페이스를 사용하는 이벤트)를 숨기거나 표시합니다. 기본적으로 사용할 수 없는 항목은 숨겨집니다. 표시할 경우 회색으로 표시됩니다.
+* **사용 가능한 항목만 표시**: 팔레트에서 사용할 수 없는 요소(예: 여정에 사용되는 것과 다른 네임스페이스를 사용하는 이벤트)를 숨기거나 표시합니다. 기본적으로 사용할 수 없는 항목은 숨겨집니다. 표시할 경우 회색으로 표시됩니다.
 
-* **최근 항목만 표시**:이 필터를 사용하면 기본 이벤트 및 작업 외에 마지막으로 사용된 이벤트 5개와 작업만 표시할 수 있습니다. 이는 각 사용자에게만 해당됩니다. 기본적으로 모든 항목이 표시됩니다.
+* **최근 항목만 표시**: 이 필터를 사용하면 기본 이벤트 및 작업 외에 마지막으로 사용된 이벤트 5개와 작업만 표시할 수 있습니다. 이는 각 사용자에게만 해당됩니다. 기본적으로 모든 항목이 표시됩니다.
 
-**[!UICONTROL Search]** 필드를 사용할 수도 있습니다.
+**[!UICONTROL Search]** 필드를 사용할 수도 있습니다. 이벤트와 작업만 필터링됩니다.
 
 **canvas**&#x200B;는 여정 디자이너의 중앙 영역입니다. 활동을 삭제하고 구성할 수 있는 이 영역에 있습니다. 캔버스에서 활동을 클릭하여 구성합니다. 오른쪽에 활동 구성 창이 열립니다.
 
@@ -42,7 +43,7 @@ ht-degree: 1%
 
 ![](../assets/journey59bis.png)
 
-여정의 상태에 따라 오른쪽 상단 모서리에서 사용할 수 있는 단추를 사용하여 여정에 대해 다른 작업을 수행할 수 있습니다.**[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. 이러한 단추는 활동을 선택하지 않을 때 나타납니다. 일부 단추는 컨텍스트에 따라 나타납니다. 테스트 모드가 활성화되면 테스트 모드 로그 단추가 나타납니다.
+여정의 상태에 따라 오른쪽 상단 모서리에서 사용할 수 있는 단추를 사용하여 여정에 대해 다른 작업을 수행할 수 있습니다. **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. 이러한 단추는 활동을 선택하지 않을 때 나타납니다. 일부 단추는 컨텍스트에 따라 나타납니다. 테스트 모드가 활성화되면 테스트 모드 로그 단추가 나타납니다.
 
 ![](../assets/journey41.png)
 
@@ -50,9 +51,9 @@ ht-degree: 1%
 
 여정을 디자인할 때 가장 먼저 질문할 질문은 프로필에서 여정에 어떻게 들어오는가 입니다. 두 가지 가능성이 있습니다.
 
-**이벤트** 시작:여정이 이벤트를 수신하도록 설정되어 있으면 개인 **** 이 실시간으로 여정을 입력합니다. 여정에 포함된 메시지는 현재 여정으로 이동하는 사람에게 전송됩니다. [이벤트에 대해 자세히 알아보기](../event/about-events.md)
+**이벤트** 시작: 여정이 이벤트를 수신하도록 설정되어 있으면 개인 **** 이 실시간으로 여정을 입력합니다. 여정에 포함된 메시지는 현재 여정으로 이동하는 사람에게 전송됩니다. [이벤트에 대해 자세히 알아보기](../event/about-events.md)
 
-**읽기 세그먼트로 시작**:Adobe Experience Platform 세그먼트를 수신 대기하도록 여정을 설정할 수 있습니다. 이 경우, 지정된 세그먼트에 속하는 모든 개인이 여정을 입력합니다. 여정에 포함된 메시지는 세그먼트에 속하는 개인에게 전송됩니다. [세그먼트 읽기에 대해 자세히 알아보십시오](read-segment.md).
+**읽기 세그먼트로 시작**: Adobe Experience Platform 세그먼트를 수신 대기하도록 여정을 설정할 수 있습니다. 이 경우, 지정된 세그먼트에 속하는 모든 개인이 여정을 입력합니다. 여정에 포함된 메시지는 세그먼트에 속하는 개인에게 전송됩니다. [세그먼트 읽기에 대해 자세히 알아보십시오](read-segment.md).
 
 ## 다음 단계 정의
 
@@ -82,7 +83,7 @@ ht-degree: 1%
 
 ## 캔버스에서 경로 사용 {#paths}
 
-몇 가지 활동(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 활동)을 사용하면 오류 또는 시간 제한이 있을 경우 대체 작업을 정의할 수 있습니다. 활동 구성 창에서 상자를 선택합니다.**[!UICONTROL Add an alternative path in case of a timeout or an error]** 활동 뒤에 다른 경로가 추가됩니다. 시간 제한 기간은 여정의 속성에 정의됩니다( [이 페이지](../building-journeys/journey-gs.md#change-properties) 참조). 예를 들어 이메일을 전송하는 데 너무 오래 걸리거나 오류가 발생한 경우 SMS를 전송하도록 결정할 수 있습니다.
+몇 가지 활동(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 활동)을 사용하면 오류 또는 시간 제한이 있을 경우 대체 작업을 정의할 수 있습니다. 활동 구성 창에서 상자를 선택합니다. **[!UICONTROL Add an alternative path in case of a timeout or an error]** 활동 뒤에 다른 경로가 추가됩니다. 시간 제한 기간은 여정의 속성에 정의됩니다( [이 페이지](../building-journeys/journey-gs.md#change-properties) 참조). 예를 들어 이메일을 전송하는 데 너무 오래 걸리거나 오류가 발생한 경우 SMS를 전송하도록 결정할 수 있습니다.
 
 ![](../assets/journey42.png)
 

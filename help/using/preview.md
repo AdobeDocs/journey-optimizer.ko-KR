@@ -1,14 +1,15 @@
 ---
 title: 메시지 미리 보기 및 증명 보내기
 description: 메시지를 미리 보고 테스트하는 방법을 알아봅니다
-feature: 여정
-topic: 콘텐츠 관리
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
+exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
+source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 3%
+source-wordcount: '932'
+ht-degree: 2%
 
 ---
 
@@ -97,7 +98,7 @@ ht-degree: 3%
 
 푸시 알림 미리 보기의 경우:
 
-1. **[!UICONTROL Preview]** 화면의 왼쪽 상단에 있는 **[!UICONTROL Channels]** 드롭다운 목록에서 **[!UICONTROL Push]** 채널로 전환합니다.
+1. **[!UICONTROL Preview]** 화면의 오른쪽 상단에 있는 **[!UICONTROL Channels]** 드롭다운 목록에서 **[!UICONTROL Push]** 채널로 전환합니다.
 
    ![](assets/preview-select-channel.png)
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
+source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1319'
 ht-degree: 3%
 
 ---
@@ -53,9 +53,14 @@ ht-degree: 3%
 
    ![](../../assets/channel-placement.png)
 
-   선택한 채널에 사용할 수 있는 배치만 **[!UICONTROL Placement]** 드롭다운 목록에 표시됩니다.
+   >[!NOTE]
+   >
+   >선택한 채널에 사용할 수 있는 배치만 **[!UICONTROL Placement]** 드롭다운 목록에 표시됩니다.
 
-1. 목록에서 배치를 선택하거나 **[!UICONTROL Placement]** 드롭다운 목록 옆의 버튼을 사용하여 모든 배치를 찾아봅니다.
+
+1. 목록에서 배치를 선택합니다.
+
+   **[!UICONTROL Placement]** 드롭다운 목록 옆의 버튼을 사용하여 모든 배치를 찾아볼 수도 있습니다.
 
    ![](../../assets/browse-button-placements.png)
 
@@ -63,37 +68,7 @@ ht-degree: 3%
 
    ![](../../assets/browse-placements.png)
 
-1. 표시에 컨텐츠를 추가합니다.
-
-   >[!NOTE]
-   >
-   >배치의 컨텐츠 유형에 해당하는 컨텐츠만 사용할 수 있습니다.
-
-   * 선택한 배치가 이미지 유형인 경우 [!DNL Adobe Experience Manager Assets Essentials]에서 제공하는 자산의 중앙 저장소인 Adobe Experience Cloud 자산 라이브러리에서 오는 컨텐츠를 추가할 수 있습니다.
-
-      >[!NOTE]
-      >
-      > [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}에서 작업하려면, 조직에 대해 [!DNL Assets Essentials]를 배포하고 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 속해 있는지 확인해야 합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}에 대해 자세히 알아보십시오.
-
-      **[!UICONTROL Asset library]** 옵션을 선택하고 **[!UICONTROL Browse]** 을 선택합니다.
-
-      ![](../../assets/offer-browse-asset-library.png)
-
-      자산을 탐색하여 선택한 이미지를 선택하고 **[!UICONTROL Select]** 을 클릭합니다.
-
-      ![](../../assets/offer-select-asset.png)
-
-   * 외부 공용 위치에서 콘텐츠를 추가하려면 **[!UICONTROL URL]** 을 선택한 다음 추가할 컨텐츠의 URL 주소를 입력합니다.
-
-      ![](../../assets/offer-content-url.png)
-
-   * 호환 배치를 선택할 때 텍스트 유형 컨텐츠를 삽입할 수도 있습니다. **[!UICONTROL Custom]** 옵션을 선택하고 오퍼에 표시할 텍스트를 입력합니다.
-
-      ![](../../assets/offer-text-content.png)
-
-      >[!NOTE]
-      >
-      >이 옵션은 이미지 유형 배치에 사용할 수 없습니다.
+1. 표시에 컨텐츠를 추가합니다. [이 섹션](#content)에서 방법을 알아봅니다.
 
 1. 이미지나 URL과 같은 컨텐츠를 추가할 때 **[!UICONTROL Destination link]**&#x200B;을 지정할 수 있습니다. 오퍼를 클릭하는 사용자가 해당 페이지로 이동됩니다.
 
@@ -107,25 +82,76 @@ ht-degree: 3%
 
 1. 모든 표현을 추가한 후 **[!UICONTROL Next]** 을 선택합니다.
 
+## 표현 내용 정의 {#content}
+
+표현에는 다른 유형의 컨텐츠를 추가할 수 있습니다.
+
+>[!NOTE]
+>
+>배치의 컨텐츠 유형에 해당하는 컨텐츠만 사용할 수 있습니다.
+
+### 이미지 추가
+
+선택한 배치가 이미지 유형인 경우 [!DNL Adobe Experience Manager Assets Essentials]에서 제공하는 자산의 중앙 저장소인 **Adobe Experience Cloud Asset** 라이브러리에서 오는 컨텐츠를 추가할 수 있습니다.
+
+>[!NOTE]
+>
+> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}에서 작업하려면, 조직에 대해 [!DNL Assets Essentials]를 배포하고 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 속해 있는지 확인해야 합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}에 대해 자세히 알아보십시오.
+
+1. **[!UICONTROL Asset library]** 옵션을 선택합니다.
+
+1. **[!UICONTROL Browse]**&#x200B;를 선택합니다.
+
+   ![](../../assets/offer-browse-asset-library.png)
+
+1. 자산을 탐색하여 선택한 이미지를 선택합니다
+
+1. **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+
+   ![](../../assets/offer-select-asset.png)
+
+### URL 추가
+
+외부 공용 위치에서 콘텐츠를 추가하려면 **[!UICONTROL URL]** 을 선택한 다음 추가할 컨텐츠의 URL 주소를 입력합니다.
+
+![](../../assets/offer-content-url.png)
+
+### 사용자 지정 텍스트 추가 {#custom-text}
+
+호환 배치를 선택할 때 텍스트 유형 컨텐츠를 삽입할 수도 있습니다.
+
+1. **[!UICONTROL Custom]** 옵션을 선택합니다.
+
+   >[!NOTE]
+   >
+   >이 옵션은 이미지 유형 배치에 사용할 수 없습니다.
+
+1. 전용 영역에서 오퍼에 표시할 텍스트를 입력합니다.
+
+   ![](../../assets/offer-text-content2.png)
+
 ## 자격 규칙 및 제한 추가 {#eligibility}
 
-자격 규칙 및 제한을 사용하면 오퍼가 표시될 조건을 정의할 수 있습니다.
+자격 규칙 및 제한을 사용하여 오퍼가 표시될 조건을 정의할 수 있습니다.
 
-1. **[!UICONTROL Offer eligibility]**&#x200B;을 구성합니다. 기본적으로 **[!UICONTROL All visitors]** 의사 결정 규칙 옵션이 선택되어 있으므로 모든 프로필에 오퍼를 제공할 수 있습니다.
+1. **[!UICONTROL Offer eligibility]**&#x200B;을 구성합니다.
 
-   오퍼 표시를 하나 또는 여러 Adobe Experience Platform 세그먼트의 구성원으로 제한할 수 있습니다. 이렇게 하려면 **[!UICONTROL Visitors who fall into one or multiple segments]** 옵션을 활성화한 다음 왼쪽 창에서 하나 또는 여러 개의 세그먼트를 추가하고 **[!UICONTROL And]** / **[!UICONTROL Or]** 논리 연산자를 사용하여 조합합니다.
+   * 기본적으로 **[!UICONTROL All visitors]** 의사 결정 규칙 옵션이 선택되어 있으므로 모든 프로필에 오퍼를 제공할 수 있습니다.
 
-   세그먼트 작업 방법에 대한 자세한 내용은 [이 페이지](../../segment/about-segments.md)를 참조하십시오.
+   * 오퍼 표시를 하나 또는 여러 Adobe Experience Platform 세그먼트의 구성원으로 제한할 수 있습니다. 이렇게 하려면 **[!UICONTROL Visitors who fall into one or multiple segments]** 옵션을 활성화한 다음 왼쪽 창에서 하나 또는 여러 개의 세그먼트를 추가하고 **[!UICONTROL And]** / **[!UICONTROL Or]** 논리 연산자를 사용하여 조합합니다.
 
-   ![](../../assets/offer-eligibility-segment.png)
+      세그먼트 작업 방법에 대한 자세한 내용은 [이 페이지](../../segment/about-segments.md)를 참조하십시오.
 
-   특정 의사 결정 규칙을 오퍼에 연결하려면 **[!UICONTROL By defined decision rule]** 을 선택한 다음 왼쪽 창에서 원하는 규칙을 **[!UICONTROL Decision rule]** 영역으로 드래그합니다. 의사 결정 규칙을 만드는 방법에 대한 자세한 내용은 [이 섹션](../offer-library/creating-decision-rules.md)을 참조하십시오.
+      ![](../../assets/offer-eligibility-segment.png)
 
-   ![](../../assets/offer_rule.png)
+   * 특정 의사 결정 규칙을 오퍼에 연결하려면 **[!UICONTROL By defined decision rule]** 을 선택한 다음 왼쪽 창에서 원하는 규칙을 **[!UICONTROL Decision rule]** 영역으로 드래그합니다. 의사 결정 규칙을 만드는 방법에 대한 자세한 내용은 [이 섹션](../offer-library/creating-decision-rules.md)을 참조하십시오.
 
-   >[!CAUTION]
-   >
-   >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}를 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 활용할 수 없습니다.
+      ![](../../assets/offer_rule.png)
+
+      >[!CAUTION]
+      >
+      >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}를 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 활용할 수 없습니다.
+   [이 섹션](../offer-activities/create-offer-activities.md#segments-vs-decision-rules)에서 세그먼트 사용과 의사 결정 규칙에 대해 자세히 알아보십시오.
 
 1. 사용자가 둘 이상의 오퍼에 적격인 경우, 다른 오퍼와 비교하여 오퍼의 **[!UICONTROL Priority]**&#x200B;을 정의합니다. 오퍼의 우선 순위가 높을수록 오퍼의 우선 순위가 더 높습니다.
 

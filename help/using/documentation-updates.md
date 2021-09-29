@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 18%
+source-wordcount: '711'
+ht-degree: 17%
 
 ---
 
@@ -15,8 +15,33 @@ ht-degree: 18%
 
 ## 2021년 9월
 
+* 다음 함수 페이지가 업데이트되었습니다. [set](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+
+* 다음 기능이 추가되었습니다. [필터](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+
+* dateOnly 날짜 유형이 표현식 편집기 설명서에 추가되었습니다. [자세히 보기](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+
+* 사용자 지정 작업 캐시 기간에 대한 세부 사항이 추가되었습니다. [자세히 보기](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* 사용자 지정 작업 기본 포트에 대한 정보가 추가되었습니다. [자세히 보기](action/about-custom-action-configuration.md#url-configuration)
+
+* 여러 비즈니스 이벤트 사용 사례에 대한 정보를 추가했습니다. [자세히 보기](event/about-creating-business.md#multiple-business-events)
+
+* 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 예를 추가했습니다. [자세히 보기](reports/query-examples.md)
+
 * 새 **제한 사항** 페이지를 추가했습니다. [자세히 보기](limitations.md)
+
 * 다른 성향에 대한 단계를 사용하여 **빠른 시작** 페이지를 개선했습니다. [자세히 보기](quick-start.md)
+
+   <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
+
+* 이제 전용 섹션에 설명된 모든 의사 결정 관리 기능이 Offer decisioning 애플리케이션 서비스를 활용하는 Adobe Experience Platform 사용자에게도 적용됩니다. [자세히 보기](offers/get-started/starting-offer-decisioning.md)
+
+* 지정된 배치에 대한 오퍼 선택을 제한하는 제한을 적용할 때 세그먼트 사용과 결정 규칙 간의 차이점을 명확하게 하기 위한 하위 섹션을 추가했습니다. [자세히 보기](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+
+* 일부 실제 사용 사례를 보여주는 특정 등급 공식 예를 추가했습니다. [자세히 보기](offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+
+* IP 풀을 편집하는 방법에 대한 하위 섹션을 추가했습니다. [자세히 보기](configuration/ip-pools.md#edit-ip-pool)
 
 ## 2021년 8월
 

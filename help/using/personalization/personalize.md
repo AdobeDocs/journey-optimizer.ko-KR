@@ -1,13 +1,14 @@
 ---
 title: Journey Optimizer에서 콘텐츠 개인화
 description: 개인화 시작
-feature: 개인화
-topic: 개인화
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
+source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '691'
 ht-degree: 13%
 
 ---
@@ -62,7 +63,6 @@ ht-degree: 13%
 
 ![](assets/perso_ee.png)
 
-
 ### 푸시 알림 개인화
 
 다음 필드에서 **푸시 알림**&#x200B;을 개인화할 수도 있습니다.
@@ -77,7 +77,13 @@ ht-degree: 13%
 
 [이 섹션](../push-gs.md)의 푸시 알림 구성에 대해 자세히 알아보십시오.
 
-## 표현식 편집기 사용
+### 오퍼 개인화 {#personalize-offers}
+
+오퍼 표현에 텍스트 유형 컨텐츠를 추가할 때 개인화 편집기에 액세스할 수도 있습니다.
+
+[이 섹션](../offers/offer-library/creating-personalized-offers.md#custom-text)에서 의사 결정 관리를 통해 컨텐츠를 관리하는 방법에 대해 자세히 알아보십시오.
+
+## 표현식 편집기 사용 {#use-expression-editor}
 
 표현식 편집기는 [!DNL Journey Optimizer]에 있는 개인화의 중심입니다.
 

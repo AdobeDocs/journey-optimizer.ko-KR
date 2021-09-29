@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 95%
+source-wordcount: '710'
+ht-degree: 94%
 
 ---
 
@@ -96,6 +96,7 @@ ht-degree: 95%
    + 사용 사례 {#journey-use-cases}
       + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
       + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
+      + [사용자 지정 작업을 사용하여 동적으로 컬렉션 전달](using/building-journeys/collections.md)
 + 추적 및 모니터링 {#reporting}
    + [메시지 모니터링](using/message-monitoring.md)
    + 라이브 보고서 {#live-report}
@@ -115,6 +116,7 @@ ht-degree: 95%
       + [작업 실행 필드](using/reports/sharing-execution-fields.md)
       + [데이터 가져오기 필드](using/reports/sharing-fetch-fields.md)
       + [ID 필드](using/reports/sharing-identity-fields.md)
+      + [쿼리의 예](using/reports/query-examples.md)
    + 전달성 {#deliverability}
       + [전달성 시작](using/deliverability.md)
       + [제외 목록](using/suppression-list.md)
@@ -130,6 +132,7 @@ ht-degree: 95%
       + [의사 결정 규칙 만들기](using/offers/offer-library/creating-decision-rules.md)
       + [태그 만들기](using/offers/offer-library/creating-tags.md)
       + [등급 수식 만들기](using/offers/offer-library/create-ranking-formulas.md)
+      + [등급 전략 만들기](using/offers/offer-library/create-ranking-strategies.md)
    + 오퍼 만들기 및 관리 {#managing-offers-in-the-offer-library}
       + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
       + [대체 오퍼 만들기](using/offers/offer-library/creating-fallback-offers.md)

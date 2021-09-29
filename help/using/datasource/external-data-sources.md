@@ -1,14 +1,15 @@
 ---
-title: '외부 데이터 소스 '
+title: 외부 데이터 소스
 description: 외부 데이터 소스를 구성하는 방법 알아보기
 feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
+source-git-commit: 54d93df232b38608d3d02e837cea82e8965559e0
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 93%
+source-wordcount: '1324'
+ht-degree: 89%
 
 ---
 
@@ -181,3 +182,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>캐시 기간은 인증 종단점에 대한 너무 많은 호출을 방지하는 데 도움이 됩니다. 인증 토큰 유지가 서비스에서 캐시되므로 지속성이 없습니다. 서비스를 다시 시작하면 깨끗한 캐시로 시작됩니다. 기본적으로 캐시 기간은 1시간입니다. 사용자 지정 작업 페이로드에서 다른 유지 기간을 지정하여 적용할 수 있습니다.

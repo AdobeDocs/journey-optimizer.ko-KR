@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 11%
+source-wordcount: '1490'
+ht-degree: 19%
 
 ---
 
@@ -13,6 +13,78 @@ ht-degree: 11%
 
 이 페이지에는 [!DNL Journey Optimizer]의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. 최신 [설명서 업데이트](documentation-updates.md)도 확인할 수 있습니다.
 
+
+
+## 2021년 9월 릴리스 {#september-2021-release}
+
+### 새로운 기능
+
+<table>
+<thead>
+<tr>
+
+<th><strong>보고 - 타깃팅된 대상에 대한 통찰력 향상</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>새 지표는 보고에서 사용할 수 있습니다. 이메일 및 푸시 메시지에 대한 타깃팅된 대상은 라이브 및 글로벌 보고서 모두에서 볼 수 있습니다.</p>
+<p>메시지 실행 목록의 새 열에는 각 메시지 실행에 대한 타겟팅된 프로필 수가 표시됩니다. </p>
+<p>자세한 내용은 <a href="message-monitoring.md">자세한 설명서</a>를 참조하세요.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
+<th><strong>사용자 지정 작업을 사용하여 동적으로 데이터 목록 전달</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 런타임 시 동적으로 채워지는 사용자 지정 작업 매개 변수에 컬렉션이나 데이터 목록을 전달할 수 있습니다. 지원되는 컬렉션은 두 가지입니다. 간단한 컬렉션 및 개체 컬렉션. 이전에 만든 사용자 지정 작업은 계속 작동합니다. </p>
+<p>컬렉션에 대한 자세한 내용은 <a href="building-journeys/collections.md">자세한 설명서</a>를 참조하십시오. </p>
+<p>필터 및 교차 함수가 고급 표현식 편집기에서 사용할 수 있는 함수 목록에 추가되었습니다. 이 기능은 컬렉션 필터링 및 비교에 대한 더 많은 가능성을 제공합니다.</p>
+<p><a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">필터</a> 및 <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a> 함수에 대한 설명서를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now personalize content added to your offers' representations using the expression editor.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+### 개선 사항
+
+**여정**
+
+* 단계 이벤트를 프로비전하는 동안 생성된 시스템 생성 스키마 및 데이터 세트가 이제 읽기 전용 모드로 되어 중요한 스키마를 실수로 수정하는 것을 방지할 수 있습니다. [자세히 알아보기](reports/sharing-overview.md)
+* 캔버스에 표시될 **Wait** 활동의 레이블을 레이블로 지정합니다. 이 레이블은 보고 및 테스트 모드 로그에서 수행할 작업을 명확하게 식별하는 데에도 사용됩니다. [자세히 알아보기](building-journeys/about-journey-activities.md#best-practices)
+* 검색을 사용하여 **이벤트** 및 **작업** 카테고리의 요소를 필터링하여 이벤트와 작업을 보다 신속하게 찾을 수 있습니다. 오케스트레이션 활동은 더 이상 필터링되지 않습니다. [자세히 알아보기](building-journeys/using-the-journey-designer.md)
+* 규칙 기반 또는 비즈니스 이벤트에서 이벤트 ID 조건을 정의할 때 이제 문자열 유형 필드에 &quot;포함&quot; 연산자를 사용할 수 있습니다. [자세히 알아보기](event/about-creating.md)
+
+**이메일 구성**
+
+* 이제 IP 풀이 메시지 사전 설정과 연결되면 편집할 수 있으므로 비동기적으로 업데이트됩니다. 각 IP 풀 업데이트 상태를 확인할 수도 있습니다. [자세히 알아보기](configuration/ip-pools.md#edit-ip-pool)
 
 ## 2021년 8월 릴리스 {#august-2021-release}
 
@@ -27,7 +99,7 @@ ht-degree: 11%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer을 사용하는 모든 고객을 위해 최적의 시간에 푸시 또는 이메일을 자동으로 전송합니다. Adobe의 AI 서비스를 기반으로 하는 전송 시간 최적화는 이메일 또는 푸시 메시지를 보내는 가장 적합한 시간을 예측하여 이메일 또는 푸시 메시지를 전송함으로써 기존의 공개 및 클릭률 기록을 기반으로 참여를 극대화할 수 있습니다.</p>
+<p>Adobe Journey Optimizer를 사용하는 모든 고객에게 최적의 시간에 푸시 또는 이메일을 자동으로 보냅니다. Adobe의 AI 서비스를 기반으로 하는 전송 시간 최적화는 이메일 또는 푸시 메시지를 보내는 가장 적합한 시간을 예측하여 이메일 또는 푸시 메시지를 전송함으로써 기존의 공개 및 클릭률 기록을 기반으로 참여를 극대화할 수 있습니다.</p>
 <p>이 기능은 현재 베타 버전이며 베타 고객에게만 제공됩니다. 베타 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의하십시오.</p>
 <p>자세한 내용은 <a href="building-journeys/journeys-message.md#send-time-optimization">자세한 설명서</a>를 참조하세요.</p>
 </td>
@@ -79,7 +151,7 @@ ht-degree: 11%
 <tbody>
 <tr>
 <td>
-<p>이제 사전 설정별로 다시 시도 기간을 정의하여 더 이상 필요하지 않은 경우 다시 시도 시도가 더 이상 수행되지 않도록 할 수 있습니다. 예를 들어, 하루 동안만 유효한 링크가 포함된 암호 재설정 트랜잭션 메시지에 대해 재시도 기간을 24시간으로 설정할 수 있습니다. 다시 시도 설정은 전자 메일 채널에만 적용됩니다.</p>
+<p>더 이상 필요하지 않을 때 다시 시도가 더 이상 수행되지 않도록 이제 각 사전 설정을 기준으로 다시 시도 기간을 정의할 수 있습니다. 예를 들어, 하루 동안만 유효한 링크가 포함된 암호 재설정 트랜잭션 메시지에 대해 재시도 기간을 24시간으로 설정할 수 있습니다. 다시 시도 설정은 전자 메일 채널에만 적용됩니다.</p>
 <p>자세한 내용은 <a href="configuration/retries.md#retry-duration">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -95,7 +167,7 @@ ht-degree: 11%
 <tbody>
 <tr>
 <td>
-<p>이제 사용자 인터페이스에서 CSV 파일 업로드를 통해 벌크 모드로 전자 메일 주소 및 도메인을 하나씩 제외 목록에 추가할 수 있습니다.</p>
+<p>이제 사용자 인터페이스에서 하나씩 또는 CSV 파일 업로드를 통해 일괄 모드로 이메일 주소와 도메인을 제외 목록에 추가할 수 있습니다.</p>
 <p>자세한 내용은 <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -126,7 +198,7 @@ ht-degree: 11%
 
 **여정**
 
-* **동적 헤더**  - 이제 HTTP 헤더 매개 변수로 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 타임스탬프 또는 추적 ID와 같이 여정 작업 HTTP 호출을 받는 통합 시스템에서 사용할 수 있습니다. [자세히 알아보기](action/about-custom-action-configuration.md#url-configuration)
+* **동적 헤더**  - 이제 HTTP 헤더 매개 변수로 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 여정 작업 HTTP 호출(예: 타임스탬프 또는 추적 ID)을 수신하는 통합 시스템에서 사용할 수 있습니다. [자세히 알아보기](action/about-custom-action-configuration.md#url-configuration)
 * **동적 URL 경로**  - 이제 사용자 지정 작업에 대한 동적 URL 경로를 설정할 수 있습니다. [자세히 알아보기](action/about-custom-action-configuration.md#url-configuration)
 * 읽기 세그먼트의 전체 전송률이 초당 17,000개에서 20,000개로 변경되었습니다. [자세히 알아보기](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
@@ -151,7 +223,7 @@ ht-degree: 11%
 
 **의사 결정 관리**
 
-* 오퍼를 만들 때 표현을 추가 및 구성하는 방법이 업데이트되어 사용자 경험이 향상되었습니다. 특히 이제 표현에 대한 이미지 유형 컨텐츠를 정의할 때만 자산 라이브러리가 표시됩니다. [자세히 알아보기](offers/offer-library/creating-personalized-offers.md#representations)
+* 오퍼를 만들 때 표를 추가 및 구성하는 방법이 업데이트되어 사용자 경험이 향상되었습니다. 특히 이제 표에 대한 이미지 유형 컨텐츠를 정의할 때만 자산 라이브러리가 표시됩니다. [자세히 알아보기](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### 수정 사항
 

@@ -1,14 +1,15 @@
 ---
 title: 의사 결정에서 오퍼 선택 구성
 description: 선택 사항을 결정으로 관리하는 방법을 알아봅니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 3db5756236b6ac05d9b95b8b051dd99dc7d5cf7e
+exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
+source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 7%
+source-wordcount: '453'
+ht-degree: 5%
 
 ---
 
@@ -17,6 +18,9 @@ ht-degree: 7%
 지정된 배치에 여러 오퍼가 적격인 경우, 결정을 구성할 때(이전에 오퍼 활동이라고 알려짐) 각 프로필에 대해 가장 적합한 오퍼를 선택하는 방법을 선택할 수 있습니다. 오퍼의 등급을 다음과 같이 지정할 수 있습니다.
 * 오퍼 우선 순위
 * 등급 공식
+* [AI 순위](#use-ranking-strategy) (일부 사용자만 일찍 액세스할 수 있음)
+
+![](../../assets/offer-rank-by.png)
 
 ## 오퍼 우선 순위 {#about-offers-priority}
 
@@ -53,3 +57,41 @@ Journey Optimizer에서는 오퍼 우선 순위 외에 **등급 공식**&#x200B;
 이제 등급 공식이 배치와 연결됩니다.
 
 이 배치에서 여러 오퍼를 표시할 수 있는 경우, 이 결정은 순위 수식의 공식을 사용하여 먼저 전달할 오퍼를 계산합니다.
+
+## AI 등급 {#use-ranking-strategy}
+
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+
+>[!CAUTION]
+>
+>현재 AI 등급을 사용하여 사용자를 선택하기만 하면 조기 액세스에서 사용할 수 있습니다.
+
+등급 전략이 만들어지면 결정(이전에 오퍼 활동이라고 함)의 배치에 할당할 수 있습니다. 이렇게 하려면 아래 단계를 수행하십시오.
+
+1. 결정을 만들거나 기존 결정을 편집합니다. [의사 결정 만들기](../offer-activities/create-offer-activities.md)를 참조하십시오.
+
+1. 오퍼가 포함될 배치를 추가합니다. [배치 만들기](../offer-library/creating-placements.md)를 참조하십시오.
+
+1. 각 배치에 대해 컬렉션을 추가합니다. [컬렉션 만들기](../offer-library/creating-collections.md)를 참조하십시오.
+
+1. 드롭다운 목록에서 **[!UICONTROL AI ranking]** 별로 오퍼의 등급을 지정하도록 선택합니다.
+
+   ![](../../assets/ranking-selection-ai-ranking.png)
+
+1. **[!UICONTROL Add ranking]**&#x200B;을(를) 클릭합니다.
+
+   ![](../../assets/ranking-selection-ai-ranking-add.png)
+
+1. 생성한 등급 전략을 선택합니다. 순위 전략의 모든 세부 사항이 표시됩니다.
+
+   ![](../../assets/ranking-selection-ai-ranking-selected.png)
+
+1. **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+
+이제 등급 전략이 배치와 연결됩니다.
+
+여러 오퍼가 적격인 경우, 훈련된 모델 시스템에서 지정된 배치에 대해 먼저 제공해야 하는 오퍼를 결정합니다.
+
+<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
+
+<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->

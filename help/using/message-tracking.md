@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 11a42e404f79f07fb092892d5ebc53f3d1a4351b
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,9 @@ ht-degree: 1%
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+   링크를 개인화할 수 있습니다. [이 섹션](personalization/personalization-syntax.md)에서 개인화된 URL에 대해 자세히 알아보십시오.
+
+1. 변경 내용을 저장합니다.
 
 메시지가 전송되면 수신자가 옵트아웃 링크를 클릭하면 즉시 옵트아웃됩니다.
 

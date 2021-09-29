@@ -1,20 +1,25 @@
 ---
 title: 사용자 인터페이스
 description: 오퍼 라이브러리 사용자 인터페이스에 대해 자세히 알아보십시오.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
+exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
+source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 71%
+source-wordcount: '635'
+ht-degree: 68%
 
 ---
 
 # 사용자 인터페이스 {#user-interface}
 
 오퍼 라이브러리를 사용하면 한 곳에서 배치 및 오퍼를 만들고 관리할 수 있을 뿐만 아니라, 만든 모든 의사 결정(이전의 오퍼 활동이라고 함)에 액세스할 수 있습니다.
+
+>[!NOTE]
+>
+>오퍼 라이브러리 또는 해당 기능 중 일부에 액세스하는 데 문제가 발생하는 경우 관리 사용자에게 필요한 권한이 부여되었는지 확인하십시오. [결정 관리에 대한 액세스 권한 부여](starting-offer-decisioning.md#granting-acess-to-decision-management)를 참조하십시오.
 
 **[!UICONTROL Offers]** 메뉴를 사용하여 개인화된 오퍼와 대체 오퍼를 관리하고, 오퍼를 컬렉션에 구성하고, 의사 결정을 만들어 이를 제공합니다.
 

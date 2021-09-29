@@ -5,9 +5,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -26,19 +27,27 @@ ht-degree: 1%
 
 **[!UICONTROL Email performance]** 및  **[!UICONTROL Email summary]** 위젯은 그래프와 KPI를 사용하여 메시지를 기준으로 하는 기본 정보를 자세히 설명합니다.
 
+* **[!UICONTROL Targeted]**: 이 게재의 타겟 프로필로 자격을 얻은 사용자 프로필 수입니다.
+
 * **[!UICONTROL Sent]**: 게재에 대한 총 전송 수입니다.
 
 * **[!UICONTROL Delivered]**: 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
-
-* **[!UICONTROL Bounces]**: 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
-
-* **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
 * **[!UICONTROL Opens]**: 게재에서 메시지를 연 횟수입니다.
 
 * **[!UICONTROL Clicks]**: 게재에서 콘텐츠를 클릭한 횟수입니다.
 
-**[!UICONTROL Sending Statistics]** 그래프는 게재의 성공에 대해 자세히 설명합니다.
+* **[!UICONTROL Bounces]**: 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
+
+* **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
+
+* **[!UICONTROL Spam complaints]**: 스팸으로 분류된 메시지 수입니다.
+
+* **[!UICONTROL Unsubscriptions]**: 구독 취소 링크에 대한 클릭 수입니다.
+
+* **[!UICONTROL Excluded]**: 타겟팅된 프로필에서 제외되고 메시지를 받지 못한 사용자 프로필 수입니다.
+
+**[!UICONTROL Sending Statistics]** 위젯은 게재의 성공을 상세하게 설명합니다.
 
 * **[!UICONTROL Delivered]**: 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
 

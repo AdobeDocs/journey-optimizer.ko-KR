@@ -1,13 +1,14 @@
 ---
 title: 메시지 실행 모니터링
 description: 모니터링 지침 학습
-feature: 모니터링
-topic: 콘텐츠 관리
+feature: Monitoring
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
+source-git-commit: fa808a6d95468c40b9fbafb4cc8cc1cd74b1d00a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 이 목록에 액세스하려면 **[!DNL Journey Optimizer]** 홈 페이지에서 **[!UICONTROL Messages]** 을 선택하고 **[!UICONTROL Executions]** 탭을 클릭하십시오.
 
-이 탭에서는 두 가지 보기를 사용할 수 있습니다.**[!UICONTROL Live view]** 및 **[!UICONTROL Global view]**
+이 탭에서는 두 가지 보기를 사용할 수 있습니다. **[!UICONTROL Live view]** 및 **[!UICONTROL Global view]**
 
 * **[!UICONTROL Live view]** 탭에서는 지난 24시간 동안 하나 이상의 [여정](building-journeys/journey.md) **에 의해 트리거된 모든 실행된 메시지의**&#x200B;실시간 개요를 제공합니다&#x200B;**.**
 
@@ -56,37 +57,37 @@ ht-degree: 0%
 
 각 메시지 실행에 대해 많은 표시기가 표시됩니다.
 
-* **[!UICONTROL Message label]**:메시지를 만들 때 정의한 메시지  [제목입니다](create-message.md). 자동으로 생성된 실행 ID는 괄호로 표시됩니다.
+* **[!UICONTROL Message label]**: 메시지를 만들 때 정의한 메시지  [제목입니다](create-message.md). 자동으로 생성된 실행 ID는 괄호로 표시됩니다.
 
    <!--**[!UICONTROL Execution ID]**: Automatically generated identifier.
   **[!UICONTROL Source]**: Name of the journey leveraging that message.-->
 
-* **[!UICONTROL Journey - Version - Action]**:메시지, 여정 버전 및 여정의 메시지를 활용하는 작업의 레이블을 활용하는 여정의 이름입니다.
+* **[!UICONTROL Journey - Version - Action]**: 메시지, 여정 버전 및 여정의 메시지를 활용하는 작업의 레이블을 활용하는 여정의 이름입니다.
 
-* **[!UICONTROL Status]**:메시지 실행 상태.  <!--List all the possible statuses? For now only Live status? The user cannot stop or cancel the execution. TBC by Fred-->
+* **[!UICONTROL Status]**: 메시지 실행 상태.  <!--List all the possible statuses? For now only Live status? The user cannot stop or cancel the execution. TBC by Fred-->
 
-* **[!UICONTROL Start date]**:여정에서 메시지가 실행된 날짜 및 시간입니다.
+* **[!UICONTROL Start date]**: 여정에서 메시지가 실행된 날짜 및 시간입니다.
 
-   <!--Targeted: Number of targeted profiles for each message execution. To come?-->
+* **[!UICONTROL Targeted]**: 각 메시지 실행에 대한 타겟팅된 프로필 수입니다.
 
-* **[!UICONTROL Excluded]**:제외 규칙으로 인해 초기 대상에서 제외된 프로필 수입니다.
+* **[!UICONTROL Excluded]**: 제외 규칙으로 인해 초기 대상에서 제외된 프로필 수입니다.
 
-* **[!UICONTROL Sent]**:전송된 메시지 수입니다.
+* **[!UICONTROL Sent]**: 전송된 메시지 수입니다.
 
-* **[!UICONTROL Delivered]**:바운스 또는 다른 배달 오류를 생성하지 않고 수신자의 사서함(전자 메일) 또는 장치(푸시)에서 성공적으로 전달된 메시지 수입니다.
+* **[!UICONTROL Delivered]**: 바운스 또는 다른 배달 오류를 생성하지 않고 수신자의 사서함(전자 메일) 또는 장치(푸시)에서 성공적으로 전달된 메시지 수입니다.
 
-* **[!UICONTROL Bounces]**:게재 오류로 인해 배달할 수 없는 메시지 수입니다. [바운스에 대해 자세히 알아보십시오](suppression-list.md).
+* **[!UICONTROL Bounces]**: 게재 오류로 인해 배달할 수 없는 메시지 수입니다. [바운스에 대해 자세히 알아보십시오](suppression-list.md).
 
-* **[!UICONTROL Opens]**:열린 메시지 수입니다.
+* **[!UICONTROL Opens]**: 열린 메시지 수입니다.
 
-* **[!UICONTROL Clicks]**:이메일에 있는 링크에 대한 클릭 수입니다.
+* **[!UICONTROL Clicks]**: 이메일에 있는 링크에 대한 클릭 수입니다.
 
    >[!NOTE]
    >
-   >푸시 알림에 대한 클릭 수가 없습니다.사용자가 푸시 알림을 클릭하면 앱이 열립니다. 이 앱은 열려 있는 것으로 간주할 수 있습니다.
+   >푸시 알림에 대한 클릭 수가 없습니다. 사용자가 푸시 알림을 클릭하면 앱이 열립니다. 이 앱은 열려 있는 것으로 간주할 수 있습니다.
 
-* **[!UICONTROL Errors]**:기술 오류로 인해 보낼 수 없는 메시지 수입니다.
+* **[!UICONTROL Errors]**: 기술 오류로 인해 보낼 수 없는 메시지 수입니다.
 
-* **[!UICONTROL Spam complaints]**:수신자가 스팸으로 표시한 메시지 수입니다. [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}의 불만 사항에 대해 자세히 알아보십시오.
+* **[!UICONTROL Spam complaints]**: 수신자가 스팸으로 표시한 메시지 수입니다. [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}의 불만 사항에 대해 자세히 알아보십시오.
 
 각 하이퍼링크를 클릭하면 해당 메시지 요약 보기가 열립니다. [메시지에 대해 자세히 알아보기](create-message.md).
