@@ -2,9 +2,9 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
+source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1526'
 ht-degree: 19%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 19%
 <tbody>
 <tr>
 <td>
-<p>새 지표는 보고에서 사용할 수 있습니다. 이메일 및 푸시 메시지에 대한 타깃팅된 대상은 라이브 및 글로벌 보고서 모두에서 볼 수 있습니다.</p>
+<p>새 지표는 보고에서 사용할 수 있습니다. 이메일 및 푸시 메시지에 대한 타깃팅됨 및 제외는 라이브 보고서와 글로벌 보고서 모두에 표시됩니다. </br> 최신 지표에 액세스하려면 각 채널 및 보고 유형에 대해 서로 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 지정에 대한 자세한 내용은 <a href="reports/live-report.md">자세한 설명서를 참조하십시오.</a></p>
 <p>메시지 실행 목록의 새 열에는 각 메시지 실행에 대한 타겟팅된 프로필 수가 표시됩니다. </p>
 <p>자세한 내용은 <a href="message-monitoring.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
