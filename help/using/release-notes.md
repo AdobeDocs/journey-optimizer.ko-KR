@@ -2,7 +2,7 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
+source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
 workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 19%
@@ -49,7 +49,7 @@ ht-degree: 19%
 <p>이제 런타임 시 동적으로 채워지는 사용자 지정 작업 매개 변수에 컬렉션이나 데이터 목록을 전달할 수 있습니다. 지원되는 컬렉션은 두 가지입니다. 간단한 컬렉션 및 개체 컬렉션. 이전에 만든 사용자 지정 작업은 계속 작동합니다. </p>
 <p>컬렉션에 대한 자세한 내용은 <a href="building-journeys/collections.md">자세한 설명서</a>를 참조하십시오. </p>
 <p>필터 및 교차 함수가 고급 표현식 편집기에서 사용할 수 있는 함수 목록에 추가되었습니다. 이 기능은 컬렉션 필터링 및 비교에 대한 더 많은 가능성을 제공합니다.</p>
-<p><a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">필터</a> 및 <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a> 함수에 대한 설명서를 참조하십시오.</p>
+<p><a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">필터</a> 및 <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a> 함수에 대한 설명서를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>

@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '689'
 ht-degree: 13%
 
 ---
 
 # 개인화 시작{#add-personalization}
 
-[!DNL Adobe Journey Optimizer] 개인화 기능을 살펴보고 그에 대한 데이터 및 정보를 활용하여 각 특정 수신자에게 메시지를 반영합니다. 그것은 그의 이름, 그의 관심, 그가 사는 곳, 그가 산 것 등이 될 수 있습니다.
+[!DNL Adobe Journey Optimizer] 개인화 기능을 살펴보고 보유하고 있는 데이터 및 정보를 활용하여 각 특정 수신자에게 메시지를 조정합니다. 그들의 이름, 관심, 그들이 사는 곳, 그들이 산 것 등이 될 수 있습니다.
 
 [➡️ 이 비디오에서 메시지를 개인화하는 방법을 알아봅니다](#video-perso)
 

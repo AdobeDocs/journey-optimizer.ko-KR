@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
+exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 80%
 
 ---
@@ -138,7 +139,7 @@ ht-degree: 80%
 
 [이 섹션](message-tracking.md#one-click-opt-out-link)에서 메시지 콘텐츠에 옵트아웃 링크를 추가하는 방법을 알아봅니다.
 
-[여정](building-journeys/journey.md)를 통해 메시지가 전송되면 수신자가 옵트아웃 링크를 클릭하면 즉시 옵트아웃됩니다.
+[여정](building-journeys/journey.md)을 통해 메시지가 전송되면 수신자가 옵트아웃 링크를 클릭하면 해당 프로필이 즉시 옵트아웃됩니다.
 
 ## 헤더의 구독 취소 링크 {#unsubscribe-email}
 
