@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
+source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 4%
 
 ---
@@ -118,7 +119,7 @@ ht-degree: 4%
 세그먼테이션은 다음을 기반으로 할 수 있습니다.
 
 * 데이터 소스 데이터
-* 여정 데이터의 이벤트 컨텍스트(예: 한 시간 전에 받은 메시지를 누군가 클릭했습니까?
+* 여정 데이터의 이벤트 컨텍스트(예: 한 시간 전에 받은 메시지를 클릭한 사람이 있습니까?
 * 예: 날짜: 6월에 여정이 있을 때?
 * 시간(예: 그 사람 시간대 아침 맞나요?
 * 백분율을 기반으로 여정에 흐르는 대상을 분할하는 알고리즘. 예: 컨트롤 그룹을 제외하려면 90% - 10%
