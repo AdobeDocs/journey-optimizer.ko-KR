@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 사용자 지정 작업을 사용하여 동적으로 컬렉션 전달
 description: Campaign v7/v8을 사용하여 메시지 보내기
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: ae357640ccb450ec60e963cddd485a6a9d4deb79
+source-git-commit: 76b260de3f27d09d6676b18ca262b74be3d32d2c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '452'
 ht-degree: 4%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 4%
 
    ![](../assets/uc-collection-4.png)
 
-배열 필드의 경우 고급 표현식 편집기를 사용하여 데이터 조작을 수행할 수도 있습니다. 다음 예제에서는 [filter](https://git.corp.adobe.com/AdobeDocs/journeys.en/blob/fvi-21.9/help/using/functions/functionfilter.md) 및 [intersect](https://git.corp.adobe.com/AdobeDocs/journeys.en/blob/fvi-21.9/help/using/functions/functiontintersect.md) 함수를 사용합니다.
+배열 필드의 경우 고급 표현식 편집기를 사용하여 데이터 조작을 수행할 수도 있습니다. 다음 예제에서는 [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html) 및 [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html) 함수를 사용합니다.
 
 ![](../assets/uc-collection-5.png)
 
