@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
+source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1328'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 3%
 오퍼를 만들기 전에 다음을 만들었는지 확인하십시오.
 
 * 오퍼가 표시될 **배치**. [배치 만들기](../offer-library/creating-placements.md) 를 참조하십시오
-* 오퍼가 표시될 조건을 정의하는 **결정 규칙** [의사 결정 규칙 만들기](../offer-library/creating-decision-rules.md)를 참조하십시오.
-* 오퍼에 연결할 하나 또는 여러 **태그**&#x200B;를 사용하십시오. [태그 만들기](../offer-library/creating-tags.md)를 참조하십시오.
+* 자격 조건을 추가하려면 오퍼가 표시될 조건을 정의하는 **결정 규칙** [의사 결정 규칙 만들기](../offer-library/creating-decision-rules.md)를 참조하십시오.
+* 오퍼에 연결할 수 있는 하나 또는 여러 **태그**&#x200B;를 사용하십시오. [태그 만들기](../offer-library/creating-tags.md)를 참조하십시오.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 ## 오퍼의 표현 구성 {#representations}
 
-오퍼는 메시지의 다른 위치에 표시할 수 있습니다. 위쪽 배너에 이미지, 단락 텍스트, HTML 블록 등이 있습니다. 오퍼가 더 많은 표현을 보유하게 되면 더 많은 기회가 다른 배치 컨텍스트에서 오퍼를 사용할 수 있습니다.
+오퍼는 메시지의 다른 위치에 표시할 수 있습니다. 위쪽 배너에 이미지, 단락 텍스트, HTML 블록 등으로 표시 오퍼가 더 많은 표현을 보유하게 되면 더 많은 기회가 다른 배치 컨텍스트에서 오퍼를 사용할 수 있습니다.
 
 오퍼에 하나 이상의 표현을 추가하고 구성하려면 아래 단계를 수행하십시오.
 
