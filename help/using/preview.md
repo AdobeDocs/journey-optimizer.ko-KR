@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
+source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '976'
 ht-degree: 2%
 
 ---
@@ -122,13 +122,19 @@ ht-degree: 2%
 
    ![](assets/send-proof-button.png)
 
-1. **[!UICONTROL Send proof]** 창에서 테스트 프로필 외에 수신자 전자 메일을 입력하고 **[!UICONTROL Add]** 을 클릭하여 본인 또는 조직의 구성원에게 증명을 보냅니다.
+1. **[!UICONTROL Send proof]** 창에서 수신자의 이메일을 입력하고 **[!UICONTROL Add]** 을 클릭하여 본인 또는 조직의 구성원에게 증명을 보냅니다.
 
    증명 전달을 위해 최대 10명의 수신자를 추가할 수 있습니다.
 
    ![](assets/send-proof-button_2.png)
 
-1. 그런 다음 증명을 받을 테스트 프로필을 선택하고 **[!UICONTROL Send proof]** 을 클릭합니다. 필요한 경우 증명의 제목란에 접두사를 추가할 수 있습니다. 영숫자 문자 및 특수 문자(예: . - _ ( ) [ ]는 제목란에 접두사로 사용할 수 있습니다.
+1. 그런 다음 메시지 콘텐츠를 개인화하는 데 사용할 **테스트 프로필**&#x200B;을 선택합니다.
+
+   증명의 각 수신자는 선택한 테스트 프로필 수만큼 메시지를 수신합니다. 예를 들어 5개의 수신자 이메일을 추가하고 10개의 테스트 프로필을 선택한 경우 50개의 증명 메시지를 받게 되며 각 수신자에게는 10개의 메시지를 받게 됩니다.
+
+1. 필요한 경우 증명의 제목란에 접두사를 추가할 수 있습니다. 영숫자 문자 및 특수 문자(예: . - _ ( ) [ ]는 제목란에 접두사로 사용할 수 있습니다.
+
+1. **[!UICONTROL Send proof]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/send-proof-select.png)
 
@@ -136,11 +142,11 @@ ht-degree: 2%
 
    ![](assets/send-proof-view.png)
 
-메시지 콘텐츠를 수정한 후 증명을 보내야 합니다.
+메시지 콘텐츠를 매번 수정한 후 증명을 보내는 것이 좋습니다.
 
 >[!NOTE]
 >
-> 테스트 프로필로 전송된 증명의 경우 미러 페이지에 대한 링크가 활성화되지 않습니다. 최종 메시지에서만 활성화됩니다.
+>테스트 프로필로 전송된 증명의 경우 미러 페이지에 대한 링크가 활성화되지 않습니다. 최종 메시지에서만 활성화됩니다.
 
 ## 이메일 렌더링{#email-rendering}
 
