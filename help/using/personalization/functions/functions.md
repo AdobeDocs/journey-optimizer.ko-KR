@@ -1,35 +1,39 @@
 ---
-title: 도우미 함수 라이브러리
+title: 도우미 함수 시작
 description: Journey Optimizer Helper 함수 라이브러리
-feature: 개인화
-topic: 개인화
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
+source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 2%
+source-wordcount: '1344'
+ht-degree: 4%
 
 ---
 
+# 도우미 함수 시작{#functionsL}
 
-# 도우미 함수 라이브러리{#functionsL}
+사용 [!DNL Journey Optimizer] 계산, 데이터 서식 또는 전환, 조건 등과 같은 데이터 작업을 수행하고, 개인화 컨텍스트에서 이를 조작할 수 있는 템플릿 언어 에서 개인화 구문 지침을 살펴보십시오. [이 페이지](../personalization-syntax.md).
 
-[!DNL Journey Optimizer] 템플릿 언어를 사용하여 계산, 데이터 형식 또는 전환, 조건 등과 같은 데이터 작업을 수행하고 개인화 컨텍스트에서 이를 조작할 수 있습니다. [이 페이지](../personalization-syntax.md)에서 개인화 구문 지침을 배웁니다.
-
-[➡️ 도우미 함수를 사용하는 방법을 알아봅니다](#video) (비디오)
+➡️ [도우미 함수를 사용하는 방법을 알아봅니다](#video) (비디오)
 
 템플릿 언어는 다음과 같이 표현식 편집기의 개인화 드롭다운 목록에서 사용할 수 있는 도우미 함수에서 활용됩니다.
 
 ![](../assets/access-helper-functions.png)
 
+에서 [!DNL Journey Optimizer] 표현식 편집기, 도우미 함수는 [함수](#functions-helper), [도우미](#helper-helper) 및 [연산자](#operators-helper).
 
+카테고리를 선택하여 하위 카테고리와 기능에 액세스합니다.
 
-[!DNL Journey Optimizer] 표현식 편집기에서 도우미 함수는 다음 세 가지 카테고리로 그룹화됩니다.[함수](#functions-helper), [도우미](#helper-helper) 및 [연산자](#operators-helper).
+하위 카테고리에 액세스하려면 `>` 아이콘. 을(를) 클릭하여 함수를 선택합니다 `+` 아이콘: 함수가 자동으로 개인화 화면에 추가됩니다.
+
+을(를) 클릭합니다. `...` 아이콘 을 클릭하여 함수의 설명을 보고 즐겨찾기에 추가합니다. [자세히 알아보기](../personalize.md#fav)
 
 ## 함수{#functions-helper}
 
-**배열 함수**
+### 배열 함수
 
 <table>
     <tr>
@@ -79,8 +83,43 @@ ht-degree: 2%
     </tr>
 </table>
 
+### 날짜 시간 함수{#date-functions}
 
-**맵 함수**
+<table>
+    <tr>
+        <td><a href="dates.md#age">연령</a></td><td>이 함수는 지정된 날짜에서 페이지를 검색합니다</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">현재 시간(밀리초)</a></td><td>이 함수는 epoch 밀리초 단위의 현재 시간을 검색합니다</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-diff">날짜 차이</a></td><td>이 함수는 일 수로 두 날짜 간의 차이를 검색합니다</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-week">요일</a></td><td>이 함수는 요일을 검색합니다</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-year">일(한 해 기준)</a></td><td>이 함수는 날짜를 검색합니다</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">날짜 형식 지정</a></td><td>이 함수는 날짜 시간 값의 형식을 지정합니다</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">설정 일</a></td><td>이 함수는 지정된 날짜 시간에 대한 월의 일을 설정합니다</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">설정 일</a></td><td>이 함수는 날짜 시간의 시간을 설정합니다</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-utc">UTC로</a></td><td>이 함수는 datetime을 UTC로 변환합니다</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#week-of-year">주(연 기준)</a></td><td>이 함수는 해당 연도의 주를 반환합니다</td>
+    </tr>
+</table>
+</table>
+
+### 맵 함수
 
 <table>
     <tr>
@@ -105,7 +144,7 @@ ht-degree: 2%
     </tr>
 </table>
 
-**문자열 함수**
+### 문자열 함수
 
 <table>
     <tr>
@@ -167,7 +206,7 @@ ht-degree: 2%
         <td><a href="string.md#regexGroup">정규 표현식 그룹</a></td><td>이 함수는 제공된 정규 표현식을 기반으로 특정 정보를 추출하는 데 사용됩니다</td>
     </tr>
     <tr>
-        <td><a href="string.md#replace">Replace</a></td><td>이 함수는 문자열의 지정된 하위 문자열을 다른 하위 문자열로 바꿉니다</td>
+        <td><a href="string.md#replace">바꾸기</a></td><td>이 함수는 문자열의 지정된 하위 문자열을 다른 하위 문자열로 바꿉니다</td>
     </tr>
     <tr>
         <td><a href="string.md#replaceAll">모두 바꾸기</a></td><td>이 함수는 "target"과 일치하는 텍스트의 모든 하위 문자열을 지정된 리터럴 "대체" 문자열로 바꿉니다</td>
@@ -195,7 +234,7 @@ ht-degree: 2%
 
 ## 도우미{#helper-helper}
 
-지원자는 [이 페이지](helpers.md)에 자세히 설명되어 있습니다.
+지원자는에 자세히 설명되어 있습니다. [이 페이지](helpers.md).
 
 
 <table>
@@ -285,6 +324,6 @@ ht-degree: 2%
 
 ## 방법 비디오{#video}
 
-개인화 도우미 함수를 사용하여 개인화 값을 변형하고 도우미 기능에 대한 다양한 사용 사례를 이해하는 방법을 알아봅니다.
+개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

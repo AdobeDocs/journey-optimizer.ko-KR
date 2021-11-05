@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 6%
@@ -16,15 +16,15 @@ ht-degree: 6%
 
 # 작업 구성 {#configure-an-action}
 
-서드파티 시스템을 사용하여 메시지를 보내거나 여정이 서드파티 시스템에 API 호출을 전송하도록 하려는 경우 여기에서 여정에 대한 연결을 구성합니다. 기술 사용자가 정의한 사용자 정의 작업은 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 범주에서 사용할 수 있습니다( [이 페이지](../building-journeys/about-journey-activities.md#action-activities) 참조). 다음은 사용자 지정 작업에 연결할 수 있는 시스템의 몇 가지 예입니다. Epsilon, Facebook, Adobe.io, Firebase 등
+서드파티 시스템을 사용하여 메시지를 보내거나 여정이 서드파티 시스템에 API 호출을 전송하도록 하려는 경우 여기에서 여정에 대한 연결을 구성합니다. 기술 사용자가 정의한 사용자 정의 작업은 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 카테고리(참조) [이 페이지](../building-journeys/about-journey-activities.md#action-activities). 다음은 사용자 지정 작업에 연결할 수 있는 시스템의 몇 가지 예입니다. Epsilon, Facebook, Adobe.io, Firebase 등
 
-제한 사항은 [이 페이지](../limitations.md)에 나열되어 있습니다.
+제한 사항은 [이 페이지](../limitations.md).
 
-사용자 지정 작업을 사용하여 컬렉션을 동적으로 전달할 수 있습니다. 이 [사용 사례](../limitations.md)를 참조하십시오.
+사용자 지정 작업을 사용하여 컬렉션을 동적으로 전달할 수 있습니다. 다음을 참조하십시오 [사용 사례](../building-journeys/collections.md).
 
 사용자 지정 작업을 구성하는 데 필요한 주요 단계는 다음과 같습니다.
 
-1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]** 을 선택합니다. **[!UICONTROL Actions]** 섹션에서 **[!UICONTROL Manage]** 를 클릭합니다. **[!UICONTROL Create Action]** 을 클릭하여 새 작업을 만듭니다. 화면 오른쪽에 작업 구성 창이 열립니다.
+1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]**. 에서  **[!UICONTROL Actions]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 클릭 **[!UICONTROL Create Action]** 새 작업을 만들려면 화면 오른쪽에 작업 구성 창이 열립니다.
 
    ![](../assets/custom2.png)
 
@@ -35,25 +35,25 @@ ht-degree: 6%
    >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
 
 1. 작업에 설명을 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
-1. 이 작업을 사용하는 여정 수가 **[!UICONTROL Used in]** 필드에 표시됩니다. **[!UICONTROL View journeys]** 단추를 클릭하여 이 작업을 사용하는 여정 목록을 표시할 수 있습니다.
-1. 다른 **[!UICONTROL URL Configuration]** 매개 변수를 정의합니다. [이 페이지](../action/about-custom-action-configuration.md#url-configuration)를 참조하십시오.
-1. **[!UICONTROL Authentication]** 섹션을 구성합니다. 이 구성은 데이터 소스와 동일합니다.  [이 섹션](../datasource/external-data-sources.md#section_wjp_nl5_nhb)을 참조하십시오.
-1. **[!UICONTROL Action parameters]**&#x200B;을(를) 정의합니다. [이 페이지](../action/about-custom-action-configuration.md#define-the-message-parameters)를 참조하십시오.
+1. 이 작업을 사용하는 여정 수는 **[!UICONTROL Used in]** 필드. 을(를) 클릭합니다. **[!UICONTROL View journeys]** 버튼을 클릭하여 이 작업을 사용하는 여정 목록을 표시합니다.
+1. 다양한 정의 **[!UICONTROL URL Configuration]** 매개 변수. [이 페이지](../action/about-custom-action-configuration.md#url-configuration)를 참조하십시오.
+1. 구성 **[!UICONTROL Authentication]** 섹션을 참조하십시오. 이 구성은 데이터 소스와 동일합니다.  [이 섹션](../datasource/external-data-sources.md#section_wjp_nl5_nhb)을 참조하십시오.
+1. 을(를) 정의합니다 **[!UICONTROL Action parameters]**. [이 페이지](../action/about-custom-action-configuration.md#define-the-message-parameters)를 참조하십시오.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    이제 사용자 지정 작업이 구성되었으며 여정에서 사용할 준비가 되었습니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)를 참조하십시오.
 
    >[!NOTE]
    >
-   >여정에서 사용자 지정 작업을 사용하면 대부분의 매개 변수가 읽기 전용입니다. **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** 필드 및 **[!UICONTROL Authentication]** 섹션만 수정할 수 있습니다.
+   >여정에서 사용자 지정 작업을 사용하면 대부분의 매개 변수가 읽기 전용입니다. 는 **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** 필드 및 **[!UICONTROL Authentication]** 섹션을 참조하십시오.
 
 ## URL 구성 {#url-configuration}
 
-사용자 지정 작업을 구성할 때 다음 **[!UICONTROL URL Configuration]** 매개 변수를 정의해야 합니다.
+사용자 지정 작업을 구성할 때 다음을 정의해야 합니다 **[!UICONTROL URL Configuration]** 매개 변수:
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. **[!UICONTROL URL]** 필드에서 외부 서비스의 URL을 지정합니다.
+1. 에서 **[!UICONTROL URL]** 필드에서 외부 서비스의 URL을 지정합니다.
 
    * URL이 정적인 경우 이 필드에 URL을 입력합니다.
 
@@ -68,22 +68,22 @@ ht-degree: 6%
    >
    >사용자 지정 작업을 정의할 때는 기본 포트만 허용됩니다. http의 경우 80, https의 경우 443.
 
-1. 호출 **[!UICONTROL Method]**&#x200B;을 선택합니다. **[!UICONTROL POST]** 또는 **[!UICONTROL PUT]**&#x200B;일 수 있습니다.
-1. **[!UICONTROL Headers]** 섹션에서 외부 서비스로 전송할 요청 메시지의 HTTP 헤더를 정의합니다.
-   1. 헤더 필드를 추가하려면 **[!UICONTROL Add a header field]** 을 클릭합니다.
+1. 호출을 선택합니다 **[!UICONTROL Method]**: 다음 중 하나일 수 있습니다 **[!UICONTROL POST]** 또는 **[!UICONTROL PUT]**.
+1. 에서 **[!UICONTROL Headers]** 섹션에서 외부 서비스로 전송할 요청 메시지의 HTTP 헤더를 정의합니다.
+   1. 헤더 필드를 추가하려면 **[!UICONTROL Add a header field]**.
    1. 헤더 필드의 키를 입력합니다.
-   1. 키-값 쌍에 대한 동적 값을 설정하려면 **[!UICONTROL Variable]** 을 선택합니다. 그렇지 않으면 **[!UICONTROL Constant]** 을 선택합니다.
+   1. 키-값 쌍에 대한 동적 값을 설정하려면 다음을 선택합니다 **[!UICONTROL Variable]**. 그렇지 않으면 을 선택합니다. **[!UICONTROL Constant]**.
 
       예를 들어 타임스탬프의 경우 동적 값을 설정할 수 있습니다.
 
-   1. **[!UICONTROL Constant]** 을 선택한 경우 상수 값을 입력합니다.
+   1. 선택한 경우 **[!UICONTROL Constant]**&#x200B;를 입력한 다음 상수 값을 입력합니다.
 
-      **[!UICONTROL Variable]** 을 선택한 경우 여정에 사용자 지정 작업을 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
+      선택한 경우 **[!UICONTROL Variable]**&#x200B;를 채울 경우 사용자 지정 작업을 여정에 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
 
       ![](../assets/journeyurlconfiguration2.png)
 
-   1. 헤더 필드를 삭제하려면 헤더 필드를 가리킨 다음 **[!UICONTROL Delete]** 아이콘을 클릭합니다.
-   **[!UICONTROL Content-Type]** 및 **[!UICONTROL Charset]** 헤더 필드는 기본적으로 설정되어 있습니다. 이러한 필드는 수정하거나 삭제할 수 없습니다.
+   1. 헤더 필드를 삭제하려면 헤더 필드를 가리킨 다음 **[!UICONTROL Delete]** 아이콘.
+   다음 **[!UICONTROL Content-Type]** 및 **[!UICONTROL Charset]** 헤더 필드는 기본적으로 설정되어 있습니다. 이러한 필드는 수정하거나 삭제할 수 없습니다.
 
    여정에 사용자 지정 작업을 추가한 후에도 여정이 초안 상태인 경우 헤더 필드를 추가할 수 있습니다. 여정이 구성 변경 사항의 영향을 받지 않도록 하려면 사용자 지정 작업을 복제하고 헤더 필드를 새 사용자 지정 작업에 추가합니다.
 
@@ -95,7 +95,7 @@ ht-degree: 6%
 
 ![](../assets/messageparameterssection.png)
 
-**[!UICONTROL Action parameters]** 섹션에서 외부 서비스로 전송할 JSON 페이로드의 예제를 붙여넣습니다.
+에서 **[!UICONTROL Action parameters]** 섹션을 통해 외부 서비스로 전송할 JSON 페이로드의 예를 붙여넣습니다.
 
 ![](../assets/customactionpayloadmessage.png)
 

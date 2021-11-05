@@ -1,18 +1,19 @@
 ---
-title: 쿼리의 예
-description: 쿼리의 예
+title: 쿼리 예제
+description: 쿼리 예제
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 83ac2513786168cb9178667e65614bafa2c7a704
+exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
+source-git-commit: e1d0afb70af4ab31db56f90c189c085ba8d1eb7c
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# 쿼리의 예{#query-examples}
+# 쿼리 예제{#query-examples}
 
 이 섹션에는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 몇 가지 예제가 나와 있습니다.
 
@@ -24,7 +25,7 @@ ht-degree: 2%
 
 _Data Lake 쿼리_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.nodeName=<'message-name'>
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
@@ -34,7 +35,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 _예_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.nodeName='Message - 100KB Email with Gateway and Kafkav2'
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
@@ -50,7 +51,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 _Data Lake 쿼리_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events
 where
 _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
@@ -59,7 +60,7 @@ _experience.journeyOrchestration.stepEvents.profileID = '<profileID correspondin
 
 _예_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events
 where
 _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d7a-a765-b2cad659fa4e' AND
@@ -70,11 +71,11 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 ### 프로필에서 특정 메시지를 보냈는지 확인
 
-**방법 1:**  메시지 이름이 여정에서 고유하지 않은 경우(여러 위치에서 사용).
+**방법 1:** 메시지 이름이 여정에서 고유하지 않은 경우(여러 위치에서 사용됨).
 
 _Data Lake 쿼리_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeID='<NodeId in the UI corresponding to the message>' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -84,7 +85,7 @@ _experience.journeyOrchestration.stepEvents.profileID = '<profileID correspondin
 
 _예_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeID='17ae65a1-02dd-439d-b54e-b56a78520eba' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -98,7 +99,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 _Data Lake 쿼리_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeName='<NodeName in the UI corresponding to the message>' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -108,7 +109,7 @@ _experience.journeyOrchestration.stepEvents.profileID = '<profileID correspondin
 
 _예_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeID='Message- 100KB Email' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -122,7 +123,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 _Data Lake 쿼리_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
 _experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
@@ -133,7 +134,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 _예_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
 _experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
@@ -148,7 +149,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 _Data Lake 쿼리_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
@@ -158,7 +159,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 _예_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
@@ -172,7 +173,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 _Data Lake 쿼리_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
@@ -182,7 +183,7 @@ ORDER BY DATE(timestamp) desc
 
 _예_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '100' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1'
@@ -198,7 +199,7 @@ ORDER BY DATE(timestamp) desc
 
 _Data Lake 쿼리_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 GROUP BY DATE(timestamp)
@@ -207,7 +208,7 @@ ORDER BY DATE(timestamp) desc
 
 _예_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '100' day)
 GROUP BY DATE(timestamp)

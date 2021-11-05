@@ -5,15 +5,14 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 94%
+source-wordcount: '756'
+ht-degree: 89%
 
 ---
 
-
-# [!DNL Journey Optimizer] 도움말 {#using}
+# Adobe Journey Optimizer 도움말 {#using}
 
 + [Journey Optimizer 설명서](ajo-home.md)
 + 새로운 기능 {#whats-new}
@@ -21,7 +20,12 @@ ht-degree: 94%
    + [최신 업데이트](using/documentation-updates.md)
 + 시작{#get-started}
    + [Journey Optimizer 소개](using/get-started.md)
-   + [빠른 시작](using/quick-start.md)
+   + 빠른 시작{#quick-start}
+      + [개요](using/quick-start.md)
+      + [마케터로 시작](using/path/marketer.md)
+      + [데이터 엔지니어 시작](using/path/data-engineer.md)
+      + [관리자로 시작하기](using/path/administrator.md)
+      + [개발자로 시작하기](using/path/developer.md)
    + [사용자 인터페이스](using/user-interface.md)
    + [제한 사항](using/limitations.md)
 + 메시지 {#create-messages}
@@ -50,10 +54,11 @@ ht-degree: 94%
       + [주문 상태 알림](using/personalization/personalization-use-case.md)
       + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
    + 도우미 함수{#functions}
-      + [도우미 함수 목록](using/personalization/functions/functions.md)
+      + [도우미 함수 시작](using/personalization/functions/functions.md)
       + [집계 함수](using/personalization/functions/aggregation.md)
       + [산술 함수](using/personalization/functions/arithmetic-functions.md)
       + [배열 및 목록 함수](using/personalization/functions/arrays-list.md)
+      + [날짜 함수](using/personalization/functions/dates.md)
       + [부울 및 비교 함수](using/personalization/functions/operators.md)
       + [도우미](using/personalization/functions/helpers.md)
       + [맵 함수](using/personalization/functions/maps.md)
@@ -97,6 +102,7 @@ ht-degree: 94%
       + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
       + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
       + [사용자 지정 작업을 사용하여 동적으로 컬렉션 전달](using/building-journeys/collections.md)
+      + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
 + 추적 및 모니터링 {#reporting}
    + [메시지 모니터링](using/message-monitoring.md)
    + 라이브 보고서 {#live-report}
@@ -111,12 +117,15 @@ ht-degree: 94%
       + [글로벌 보고서 푸시](using/reports/push-global-report.md)
    + 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
-      + [여정 필드](using/reports/sharing-journey-fields.md)
-      + [공통 필드](using/reports/sharing-common-fields.md)
-      + [작업 실행 필드](using/reports/sharing-execution-fields.md)
-      + [데이터 가져오기 필드](using/reports/sharing-fetch-fields.md)
-      + [ID 필드](using/reports/sharing-identity-fields.md)
-      + [쿼리의 예](using/reports/query-examples.md)
+      + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
+      + 이전 단계 이벤트 필드 {#legacy-step-event-fields}
+         + [기존 필드 정보](using/reports/sharing-legacy-fields.md)
+         + [여정 필드](using/reports/sharing-journey-fields.md)
+         + [공통 필드](using/reports/sharing-common-fields.md)
+         + [작업 실행 필드](using/reports/sharing-execution-fields.md)
+         + [데이터 가져오기 필드](using/reports/sharing-fetch-fields.md)
+         + [ID 필드](using/reports/sharing-identity-fields.md)
+      + [쿼리 예제](using/reports/query-examples.md)
    + 전달성 {#deliverability}
       + [전달성 시작](using/deliverability.md)
       + [제외 목록](using/suppression-list.md)
@@ -140,6 +149,7 @@ ht-degree: 94%
    + 의사 결정을 만들고 관리하기 {#create-manage-activities}
       + [의사 결정 만들기](using/offers/offer-activities/create-offer-activities.md)
       + [의사 결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
+      + [시뮬레이션 만들기](using/offers/offer-activities/simulation.md)
    + 의사 결정 관리 보고서 만들기 {#create-reports}
       + [의사 결정 관리 이벤트 시작](using/offers/reports/get-started-events.md)
       + [의사 결정 관리 이벤트 주요 정보](using/offers/reports/key-information.md)

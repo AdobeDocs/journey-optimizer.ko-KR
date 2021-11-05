@@ -6,10 +6,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
+source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 37%
+source-wordcount: '202'
+ht-degree: 40%
 
 ---
 
@@ -27,20 +28,27 @@ ht-degree: 37%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">[!DNL Journey Optimizer]란 무엇입니까?</a>
+      <a href="using/get-started.md">[!DNL Journey Optimizer] (이)란?</a>
     </div>
-    <p>주요 기능 및 시작 방법 살펴보기
+    <p>주요 기능 및 활용 사례 검색
     <p>
     <div>
       <a href="using/release-notes.md">릴리스 정보</a>
     </div>
-    <p>새로운 기능, 최신 개선 사항 및 수정 사항 살펴보기
+    <p>새로운 기능, 최신 개선 사항 및 수정 사항
+   <p>
+    <div>
+      <a href="using/quick-start.md">빠른 시작 안내서</a>
+    </div>
+    <p>
+    관리자, 데이터 엔지니어 또는 여정 실무자로 시작하는 방법 알아보기
+    <p>
     <p>
     <div>
       <a href="using/design-emails.md">이메일 콘텐츠 디자인</a>
     </div>
     <p>
-    새 이메일을 디자인하거나 기존 HTML 콘텐츠를 가져옵니다
+    새 전자 메일 디자인 또는 기존 HTML 콘텐츠 가져오기
     <p>
     <div>
       <a href="using/building-journeys/journeys-message.md">메시지 보내기</a>
@@ -53,14 +61,14 @@ ht-degree: 37%
     <p>여정을 빌드하고 실행하는 방법을 알아봅니다
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">[!DNL Journey Optimizer] 구성</a>
+    <a href="using/configuration/get-started-configuration.md">[!DNL Journey Optimizer]</a> 구성
     </div>
-    <p>[!DNL Journey Optimizer] 구성 주요 단계를 배웁니다.
+    <p>구성하는 주요 단계를 배웁니다. [!DNL Journey Optimizer]
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]에 대한 액세스 권한 부여</a>
+    <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]</a> 액세스 권한 부여
     </div>
-    <p>[!DNL Journey Optimizer] 사용자에게 할당된 권한을 정의 및 관리하는 방법을 알아봅니다
+    <p>에 할당된 권한 정의 및 관리 [!DNL Journey Optimizer] 사용자
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">의사 결정 관리</a>

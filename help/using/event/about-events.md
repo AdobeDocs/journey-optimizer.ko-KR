@@ -1,14 +1,15 @@
 ---
 title: 이벤트 정보
 description: 이벤트에 대해 알아보기
-feature: 이벤트
-topic: 관리
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
+source-git-commit: c5ec5ae03ce470a5c012fee4041d47c1856fbbc8
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 49%
+source-wordcount: '792'
+ht-degree: 52%
 
 ---
 
@@ -21,15 +22,19 @@ ht-degree: 49%
 
 이벤트 구성에서는 [!DNL Journey Optimizer]이 이벤트로 수신할 정보를 정의할 수 있습니다. 여러 이벤트를 사용할 수 있습니다(여정의 다른 단계에서). 여러 여정에서 동일한 이벤트를 사용할 수 있습니다.
 
+>[!NOTE]
+>
+>이벤트를 구성하는 방법에 대한 자세한 내용은 [튜토리얼](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+
 >[!CAUTION]
 >
->이벤트 구성은 **필수**&#x200B;이며 **기술 사용자**&#x200B;가 수행해야 합니다.
+>이벤트 구성: **필수** 및 는 **기술 사용자**.
 
 다음과 같은 두 가지 유형의 이벤트를 구성할 수 있습니다.
 
-* **** 고유 개수: 이 이벤트는 한 사람에 연결되어 있습니다. 해당 프로필은 사용자의 제품 구매, 상점 방문, 웹 사이트 종료와 같은 행동과 관련된 것입니다. 해당 사용자와 관련하여 발생하는 상황일 수도 있습니다. 사용자가 충성도 점수 10,000점을 달성하는 등의 경우를 예로 들 수 있습니다. [!DNL Journey Optimizer]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다. 단일 이벤트는 규칙 기반 또는 생성된 시스템일 수 있습니다. 단일 이벤트를 만드는 방법에 대해 알아보려면 이 [page](../event/about-creating.md)을 참조하십시오.
+* **단일** events: 이 이벤트는 한 사람에 연결되어 있습니다. 해당 프로필은 사용자의 제품 구매, 상점 방문, 웹 사이트 종료와 같은 행동과 관련된 것입니다. 해당 사용자와 관련하여 발생하는 상황일 수도 있습니다. 사용자가 충성도 점수 10,000점을 달성하는 등의 경우를 예로 들 수 있습니다. [!DNL Journey Optimizer]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다. 단일 이벤트는 규칙 기반 또는 생성된 시스템일 수 있습니다. 단일 이벤트를 만드는 방법에 대해 알아보려면 다음을 참조하십시오 [페이지](../event/about-creating.md).
 
-* **** 비즈니스 서비스: 비즈니스 이벤트는 단일 이벤트와 달리 특정 프로필에 연결되어 있지 않은 이벤트입니다. 예를 들어, 뉴스 경고, 스포츠 업데이트, 비행 변경 또는 취소, 재고 업데이트, 날씨 이벤트 등이 될 수 있습니다. 이러한 이벤트는 프로필에만 국한되지 않지만 여러 프로필에 대해 관심이 있을 수 있습니다. 사람들은 특정 뉴스 주제, 비행기에 탑승한 승객, 재고 부족 제품에 관심이 있는 쇼핑객들 등에 가입했습니다. 비즈니스 이벤트는 항상 규칙을 기반으로 합니다. 여정에 비즈니스 이벤트를 놓으면 바로 뒤에 **세그먼트 읽기** 활동을 자동으로 추가합니다. 비즈니스 이벤트를 만드는 방법에 대해 알아보려면 이 [page](../event/about-creating-business.md)을 참조하십시오.
+* **비즈니스** events: 비즈니스 이벤트는 단일 이벤트와 달리 특정 프로필에 연결되어 있지 않은 이벤트입니다. 예를 들어, 뉴스 경고, 스포츠 업데이트, 비행 변경 또는 취소, 재고 업데이트, 날씨 이벤트 등이 될 수 있습니다. 이러한 이벤트는 프로필에만 국한되지 않지만 여러 프로필에 대해 관심이 있을 수 있습니다. 사람들은 특정 뉴스 주제, 비행기에 탑승한 승객, 재고 부족 제품에 관심이 있는 쇼핑객들 등에 가입했습니다. 비즈니스 이벤트는 항상 규칙을 기반으로 합니다. 여정에 비즈니스 이벤트를 놓으면 자동으로 **세그먼트 읽기** 활동 바로 다음에 활동을 수행할 수 있습니다. 비즈니스 이벤트를 만드는 방법에 대해 알아보려면 다음을 참조하십시오 [페이지](../event/about-creating-business.md).
 
 
 >[!NOTE]
@@ -46,7 +51,7 @@ ht-degree: 49%
 
    >[!CAUTION]
    >
-   >최대 가용량 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 주어진 조직(ORG)에 대해 처리할 수 있는 적격한 이벤트 수를 초당 5000개로 제한합니다. Journey Optimizer SLA에 해당합니다. 이 [페이지](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)를 참조하십시오.
+   >최대 가용량 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 주어진 조직(ORG)에 대해 처리할 수 있는 적격한 이벤트 수를 초당 5000개로 제한합니다. Journey Optimizer SLA에 해당합니다. 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/journey-orchestration.html)를 참조하십시오.
 
 * **시스템 생성** 이벤트: 이러한 이벤트에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다.
 
@@ -56,8 +61,8 @@ Journey Optimizer을 사용하려면 이벤트를 스트리밍하거나 Adobe Ex
 
 POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 Adobe Experience Platform으로 전송됩니다. 트랜잭션 메시징 API를 통해 전송되는 이벤트의 URL 대상은 &quot;인렛&quot;입니다. 이벤트의 페이로드는 XDM 형식을 따릅니다.
 
-페이로드의 헤더에는 스트리밍 수집 API의 작동에 필요한 정보가, 본문에는 여정에 사용할 정보(예: 쇼핑을 중단한 카트의 금액)가 포함되어 있습니다. [!DNL Journey Optimizer] 스트리밍 수집에는 인증/미인증의 두 가지 모드가 있습니다. 스트리밍 수집 API에 대한 자세한 내용은 [이 링크](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하십시오.
+페이로드의 헤더에는 스트리밍 수집 API의 작동에 필요한 정보와 가 필요로 하는 정보가 포함되어 있습니다 [!DNL Journey Optimizer] 작동 및 여정에 사용할 정보(예: 본문에서 쇼핑을 중단한 카트의 금액)입니다. 스트리밍 수집에는 인증/미인증의 두 가지 모드가 있습니다. 스트리밍 수집 API에 대한 자세한 내용은 [이 링크](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하십시오.
 
 스트리밍 수집 API를 통과하여 대상에 도착한 이벤트는 파이프라인이라는 내부 서비스로 이동한 후 Adobe Experience Platform으로 이동합니다. 이벤트 스키마에 실시간 고객 프로필 서비스 플래그가 설정되어 있고, 역시 실시간 고객 프로필 태그가 설정된 데이터 세트 ID도 포함되어 있으면 이벤트는 실시간 고객 프로필 서비스로 이동합니다.
 
-시스템 생성 이벤트의 경우 파이프라인은 [!DNL Journey Optimizer] eventID([!DNL Journey Optimizer]에서 제공하며 이벤트 페이로드에 포함됨)가 들어 있는 페이로드가 포함된 이벤트를 필터링합니다. 아래 이벤트 만들기 프로세스를 참조하십시오. 규칙 기반 이벤트의 경우, 시스템은 eventID 조건을 사용하여 이벤트를 식별합니다. [!DNL Journey Optimizer]에서 이러한 이벤트를 수신하면 해당하는 경로가 트리거됩니다.
+시스템 생성 이벤트의 경우 파이프라인은 페이로드가 포함된 이벤트를 필터링합니다 [!DNL Journey Optimizer] eventIDs (에서 제공한 아래 이벤트 생성 프로세스 참조) [!DNL Journey Optimizer] 및 가 이벤트 페이로드에 포함되어 있습니다. 규칙 기반 이벤트의 경우, 시스템은 eventID 조건을 사용하여 이벤트를 식별합니다. [!DNL Journey Optimizer]에서 이러한 이벤트를 수신하면 해당하는 경로가 트리거됩니다.
