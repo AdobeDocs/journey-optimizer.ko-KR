@@ -2,9 +2,9 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cbd311f5fe648302ef589c32e9be1b0147e4d31c
+source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '1996'
 ht-degree: 16%
 
 ---
@@ -98,7 +98,8 @@ ht-degree: 16%
 **보고**
 
 * **글로벌 보기의 데이터 형식** - 이제 에서 숫자와 백분율 간을 전환할 수 있습니다 **전역 보기** 의 **실행** 탭. [자세히 알아보기](message-monitoring.md)
-* **새 지표** - 이제 새로운 지표 및 위젯을 **라이브** 및 **글로벌** 오퍼가 수신자에게 미치는 영향을 측정하는 보고서입니다. [자세히 알아보기](reports/journey-global-report.md)
+
+<!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
 
 **관리**
 
