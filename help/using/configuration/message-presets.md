@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
+source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1682'
 ht-degree: 1%
 
 ---
@@ -192,6 +192,10 @@ ht-degree: 1%
 
 변경 사항이 제출되면 메시지 사전 설정은 [사전 설정 만들기](#create-message-preset).
 
+>[!NOTE]
+>
+>를 편집할 때만 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 및/또는 **[!UICONTROL Email retry parameters]** 필드, 업데이트는 즉시 수행됩니다.
+
 다음을 포함하는 메시지 사전 설정 **[!UICONTROL Active]** 상태, 업데이트 세부 사항을 확인할 수 있습니다. 방법은 다음과 같습니다.
 
 * 을(를) 클릭합니다. **[!UICONTROL Recent update]** 활성 사전 설정 이름 옆에 표시되는 아이콘입니다.
@@ -214,13 +218,17 @@ ht-degree: 1%
 * **[!UICONTROL Success]**: 업데이트된 메시지 사전 설정이 확인되었으며 메시지를 만들기 위해 선택할 수 있습니다.
 * **[!UICONTROL Failed]**: 메시지 사전 설정 업데이트 확인 중에 하나 또는 여러 개의 검사가 실패했습니다.
 
-**처리 중**
+각 상태는 아래에 자세히 설명되어 있습니다.
 
-사전 설정이 제대로 업데이트되었는지 확인하기 위해 몇 가지 게재 기능 검사가 수행됩니다. 처리 시간이 거의 다 되었습니다 **48h-72h**&#x200B;과 같은 작업을 수행할 수 있습니다. **7-10 영업일**. 에서 유효성 검사 주기 동안 수행한 검사에 대해 자세히 알아보십시오 [이 섹션](#create-message-preset).
+### 처리 중
+
+사전 설정이 제대로 업데이트되었는지 확인하기 위해 몇 가지 게재 기능 검사가 수행됩니다.
 
 >[!NOTE]
 >
->업데이트가 진행되는 동안에는 메시지 사전 설정을 수정할 수 없습니다. 여전히 해당 이름을 클릭할 수 있지만, 모든 필드가 회색으로 표시됩니다. 업데이트가 완료될 때까지 변경 사항이 반영되지 않습니다.
+>를 편집할 때만 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 및/또는 **[!UICONTROL Email retry parameters]** 필드, 업데이트는 즉시 수행됩니다.
+
+처리 시간이 거의 다 되었습니다 **48h-72h**&#x200B;과 같은 작업을 수행할 수 있습니다. **7-10 영업일**. 에서 유효성 검사 주기 동안 수행한 검사에 대해 자세히 알아보십시오 [이 섹션](#create-message-preset).
 
 이미 활성 상태인 사전 설정을 편집하는 경우:
 
@@ -230,7 +238,11 @@ ht-degree: 1%
 
 * 유효성 검사 프로세스 중에 이 사전 설정을 사용하여 구성된 메시지는 이전 버전의 사전 설정을 계속 사용합니다.
 
-**성공**
+>[!NOTE]
+>
+>업데이트가 진행되는 동안에는 메시지 사전 설정을 수정할 수 없습니다. 여전히 해당 이름을 클릭할 수 있지만, 모든 필드가 회색으로 표시됩니다. 업데이트가 완료될 때까지 변경 사항이 반영되지 않습니다.
+
+### 성공
 
 유효성 검사 프로세스가 성공하면 이 사전 설정을 사용하는 모든 메시지에 새 버전의 사전 설정이 자동으로 사용됩니다. 그러나 다음을 기다려야 할 수 있습니다.
 * 몇 분 전에 한 가지 메세지에 의해
@@ -238,16 +250,16 @@ ht-degree: 1%
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-**실패**
+### 실패
 
 유효성 검사 프로세스가 실패하면 이전 버전의 사전 설정이 계속 사용됩니다.
 
-가능한 업데이트 오류 유형은 다음과 같습니다.
-* **인증 오류**: bearer 토큰이 잘못되었거나 인증되지 않았습니다.
-* **잘못된 수정**: 하나 이상의 허용되지 않는 필드에서 편집이 수행되었습니다.
-* **전제 조건 실패**: 일부 필드는 특정 값만 가질 수 있으며 이는 적용되지 않았습니다.
+<!--The possible update error types are as follows:
+* **Authorization error**: the bearer token is invalid or not authorized.
+* **Illegal modification**: an edit was performed on one or more non-allowed fields.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+에서 가능한 실패 이유에 대해 자세히 알아보십시오 [이 섹션](#monitor-message-presets).
 
 업데이트가 실패하면 사전 설정을 다시 편집할 수 있게 됩니다. 해당 이름을 클릭하고 수정해야 하는 설정을 업데이트할 수 있습니다.
 

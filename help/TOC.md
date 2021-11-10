@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
+source-git-commit: d575862cf7b6803e75b80ce6d1ff714ba319341b
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 89%
+source-wordcount: '758'
+ht-degree: 88%
 
 ---
 
@@ -225,7 +225,7 @@ ht-degree: 89%
             + [하위 도메인 위임](using/configuration/delegate-subdomain.md)
             + [위임된 하위 도메인 액세스](using/configuration/access-subdomains.md)
             + [Google TXT 레코드 추가](using/configuration/google-txt.md)
-            + [PTR 레코드 액세스](using/configuration/ptr-records.md)
+            + [PTR 레코드 액세스 및 편집](using/configuration/ptr-records.md)
          + [IP 풀 만들기](using/configuration/ip-pools.md)
          + 이메일 주소 모니터링 {#monitor-reputation}
             + [제외 목록 관리](using/configuration/manage-suppression-list.md)

@@ -2,7 +2,7 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
 source-wordcount: '1996'
 ht-degree: 16%
@@ -74,7 +74,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>이제 Journey Optimizer UI 전체에서 발견되는 동일한 표현식 편집기 구성 요소를 사용하여 Adobe Experience Platform 프로필 속성 및 세그먼트를 사용하여 오퍼의 콘텐츠를 개인화할 수 있습니다. </p>
-<p>자세한 내용은 <a href="offers/offer-library/creating-personalized-offers.md#content">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="offers/offer-library/creating-personalized-offers.md#custom-text">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

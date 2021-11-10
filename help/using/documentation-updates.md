@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 07382bdf4a9a7a75a5654cf81795c6c8e304360a
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 24%
+source-wordcount: '834'
+ht-degree: 23%
 
 ---
 
@@ -25,8 +25,7 @@ ht-degree: 24%
 * 에 추가된 새로운 제한 사항 **의사 결정 관리 API 개발자 안내서** 모바일에서 지원되지 않는 오퍼 제한 시 [!DNL Experience Edge] 워크플로우. [자세히 보기](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * 새로 만들기 **시뮬레이션 만들기** 섹션을 참조하십시오. [자세히 보기](offers/offer-activities/simulation.md)
 * 업데이트됨 **결정 범위 추가** 섹션을 참조하십시오. [자세히 보기](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* 업데이트됨 **표현 내용 정의** 섹션을 참조하십시오. [자세히 보기](offers/offer-library/creating-personalized-offers.md#content)
-* 오퍼의 표현에 대한 콘텐츠를 정의하고 개인화하는 방법에 대한 새 섹션을 추가했습니다. [자세히 보기](offers/offer-library/creating-personalized-offers.md#content)
+* 업데이트됨 **표현 내용 정의** 섹션(새 항목 포함) [하위 섹션](offers/offer-library/creating-personalized-offers.md#custom-text) 사용자 정의 텍스트를 정의하고 개인화하는 방법에 대해 설명합니다. [자세히 보기](offers/offer-library/creating-personalized-offers.md#content)
 
 ## 2021년 9월
 

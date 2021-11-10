@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 1e62715f35b50bba639657a1bef37aa61922c715
+source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -52,7 +52,7 @@ PTR 레코드를 수정하여 IP 주소와 연결된 하위 도메인을 편집�
    >
    >는 수정할 수 없습니다 **[!UICONTROL IP]** 및 **[!UICONTROL PTR record]** 필드.
 
-1. 클릭 **[!UICONTROL SAve]** 를 클릭하여 변경 사항을 확인합니다.
+1. 클릭 **[!UICONTROL Save]** 를 클릭하여 변경 사항을 확인합니다.
 
 An **[!UICONTROL Updating]** 목록의 PTR 레코드 이름 옆에 아이콘이 표시됩니다.
 
