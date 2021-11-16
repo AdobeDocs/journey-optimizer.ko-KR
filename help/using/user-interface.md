@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: 1eb7e547019446ea946f7475730b01368f6a15eb
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 66%
@@ -15,11 +15,11 @@ ht-degree: 66%
 
 # 사용자 인터페이스 {#cjm-user-interface}
 
-[Adobe Experience Cloud](http://experience.adobe.com)에 연결되면 [!DNL Journey Optimizer]로 이동합니다.
+연결 대상 [Adobe Experience Cloud](http://experience.adobe.com) 그리고 [!DNL Journey Optimizer].
 
-사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 공통됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}를 참조하십시오.
+사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 공통됩니다. 을(를) 참조하십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide)자세한 내용은 {target=&quot;_blank&quot;} 를 참조하십시오.
 
-사용자 인터페이스에서 사용할 수 있는 구성 요소 및 기능은 [권한](administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하십시오.
+사용자 인터페이스에서 사용할 수 있는 구성 요소 및 기능은 [권한](administration/permissions.md) 그리고 [라이선스 패키지](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하십시오.
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ ht-degree: 66%
 
 * **[!UICONTROL Queries]** - Adobe Experience Platform 쿼리 서비스를 사용하여 쿼리를 작성하여 실행하고, 이전에 실행한 쿼리를 보고, 조직 내에서 사용자가 저장한 쿼리에 액세스합니다. [자세히 알아보기](get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. [자세한](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko) 정보{target=&quot;_blank&quot;}
+* **[!UICONTROL Monitoring]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. [추가 정보](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko){target=&quot;_blank&quot;}
 
 **[!UICONTROL CONNECTIONS]**
 
@@ -98,9 +98,9 @@ ht-degree: 66%
 
 사용 가능한 사용 사례는 다음과 같습니다.
 
-* **테스트 프로필을 만들고**, CSV 템플릿을 사용하여 테스트 프로필을 만들어 개인화된 메시지 및 여정을 테스트합니다. 이 페이지](building-journeys/creating-test-profiles.md#use-case-1)에서 이 사용 사례 [을 구현하는 방법을 알아봅니다.
+* **테스트 프로필을 만들고**, CSV 템플릿을 사용하여 테스트 프로필을 만들어 개인화된 메시지 및 여정을 테스트합니다. 이 사용 사례를 구현하는 방법 알아보기 [이 페이지에서](building-journeys/creating-test-profiles.md#use-case-1).
 * **고객에게 생일 메시지를 보내기** 고객의 생일을 축하하기 위해 자동으로 이메일을 보냅니다. (준비 중)
-* **새로운 고객에게 이메일을 보내 새로 등록한 고객을** 환영하기 위해 최대 2개의 이메일을 쉽게 보낼 수 있습니다. (준비 중)
+* **신규 고객에게 이메일 전송**: 새로 등록한 고객을 환영하기 위해 최대 2개의 이메일을 쉽게 보낼 수 있습니다. (준비 중)
 * **가져온 고객 목록에 푸시 메시지 보내기** CSV 파일에서 가져온 고객 목록에 푸시 알림을 신속하게 전송할 수 있습니다. (준비 중)
 
 각 사용 사례에 대한 자세히 알아보려면 **[!UICONTROL View details]**&#x200B;를 클릭하십시오.
@@ -111,15 +111,15 @@ ht-degree: 66%
 
 ## 접근성{#accessibility}
 
-[!DNL Adobe Journey Optimizer]의 액세스 가능성 기능은 Adobe Experience Platform에서 상속됩니다.
+의 액세스 가능성 기능 [!DNL Adobe Journey Optimizer] Adobe Experience Platform에서 상속됨:
 
 * 키보드 액세스 가능성
 * 색상 대비
 * 필수 필드 유효성 검사
 
-[Adobe Experience Platform 설명서에서 자세한](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html) 내용{target=&quot;_blank&quot;}.
+[추가 정보](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)Adobe Experience Platform 설명서의 {target=&quot;_blank&quot;}.
 
-[!DNL Journey Optimizer]에서 다음과 같은 일반적인 키보드 단축키를 사용할 수 있습니다.
+에서 이러한 일반적인 키보드 단축키를 사용할 수 있습니다 [!DNL Journey Optimizer]:
 
 | 작업 | 단축키 |
 | --- | --- |
@@ -129,7 +129,7 @@ ht-degree: 66%
 | 포커스에 있는 요소 선택 또는 지우기 | Enter 키 또는 스페이스바 |
 | 선택 취소, 패널 축소 또는 대화 상자 닫기 | Esc |
 
-[Adobe Experience Platform 설명서에서 자세한](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html) 내용{target=&quot;_blank&quot;}.
+[추가 정보](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)Adobe Experience Platform 설명서의 {target=&quot;_blank&quot;}.
 
 Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있습니다.
 
@@ -195,7 +195,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   <tr>
     <td>
 
-**[!UICONTROL Single profile at a time]** 옵션이 설정된 세그먼트 기반 여정에서 이벤트를 트리거합니다
+세그먼트 기반 여정에서 **[!UICONTROL Single profile at a time]** 옵션이 켜져 있음
 
 </td>
     <td>P</td>
@@ -280,7 +280,7 @@ Adobe Journey Optimizer 인터페이스에서 어디에서나 상단 표시줄 �
 
 ![](assets/unified-search.png)
 
-모든 결과에 액세스하고 비즈니스 개체별로 필터링하려면 **Enter**&#x200B;를 누르십시오.
+누르기 **Enter 키** 모든 결과에 액세스하여 비즈니스 객체별로 필터링하려면
 
 ![](assets/search-and-filter.png)
 
@@ -290,7 +290,7 @@ Adobe Journey Optimizer 인터페이스에서 어디에서나 상단 표시줄 �
 
 목록 왼쪽 위의 필터 아이콘을 클릭하면 필터에 액세스할 수 있습니다. 필터 메뉴에서는 표시된 요소를 여러 조건에 따라 필터링할 수 있습니다. 예를 들어 특정 유형이나 상태의 요소, 직접 만든 요소 또는 지난 30일 동안 수정한 요소만 표시하도록 선택할 수 있습니다. 선택 사항은 컨텍스트에 따라 다릅니다.
 
-여정 목록에서 상태, 유형 및 버전에 따라 **[!UICONTROL Status and version filters]**&#x200B;에서 여정을 필터링할 수 있습니다. 유형은 다음과 같습니다. **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** 또는 **[!UICONTROL Burst]**. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;에서 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수 있습니다. **[!UICONTROL Publication filters]**&#x200B;에서는 발행 날짜 또는 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 경로의 최신 버전만 표시하도록 선택할 수 있습니다. [자세히 알아보기](building-journeys/using-the-journey-designer.md).
+여정 목록에서 상태, 유형 및 버전에 따라 여정을 필터링할 수 있습니다 **[!UICONTROL Status and version filters]**. 유형은 다음과 같습니다. **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** 또는 **[!UICONTROL Burst]**. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;에서 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수 있습니다. **[!UICONTROL Publication filters]**&#x200B;에서는 발행 날짜 또는 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 경로의 최신 버전만 표시하도록 선택할 수 있습니다. [자세히 알아보기](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
