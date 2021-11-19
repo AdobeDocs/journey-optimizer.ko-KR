@@ -6,22 +6,22 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 49%
+source-wordcount: '310'
+ht-degree: 56%
 
 ---
 
 # 여정 구성
 
-여정과 함께 메시지를 보내려면 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]**&#x200B;를 구성해야 합니다.
+여정과 함께 메시지를 보내려면 다음을 구성해야 합니다 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]**.
 
 ![](../assets/admin-menu.png)
 
 ## 데이터 소스
 
-데이터 소스 구성을 사용하면 시스템에 대한 연결을 정의하여 여정에 사용할 추가 정보를 검색할 수 있습니다. [자세히 알아보기](../../using/datasource/about-data-sources.md)
+데이터 소스 구성을 사용하면 시스템에 대한 연결을 정의하여 여정에서 사용할 추가 정보를 검색할 수 있습니다. [자세히 알아보기](../../using/datasource/about-data-sources.md)
 
 ## 이벤트
 
@@ -35,9 +35,9 @@ Journey Optimizer 메시지 기능 기본 제공: 콘텐츠를 디자인하고 �
 
 ## Adobe Experience Platform 필드를 통한 검색 {#friendly-names-display}
 
-[이벤트 페이로드](../event/about-creating.md#define-the-payload-fields), [필드 그룹 페이로드](../datasource/configure-data-sources.md#define-field-groups)를 정의하고 [표현식 편집기](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ko){target=&quot;_blank&quot;}에서 필드를 선택할 때 필드 이름과 함께 표시 이름이 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
+[이벤트 페이로드](../event/about-creating.md#define-the-payload-fields)와 [필드 그룹 페이로드](../datasource/configure-data-sources.md#define-field-groups)를 정의하고 [표현식 편집기](../building-journeys/expression/expressionadvanced.md)에서 필드를 선택할 때는 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
 
-스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 입력하면 사용자에게 친숙한 이름이 표시 이름 대신 표시됩니다. &quot;eVars&quot; 및 일반 필드로 작업할 때 특히 유용합니다. API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오.
+스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 입력하면 사용자에게 친숙한 이름이 표시 이름 대신 표시됩니다. &quot;eVars&quot; 및 일반 필드로 작업할 때 특히 유용합니다. API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko){target=&quot;_blank&quot;}.
 
 ![](../assets/xdm-from-descriptors.png)
 

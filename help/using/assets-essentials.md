@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
+source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -16,7 +16,6 @@ ht-degree: 1%
 #  [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
 ## [!DNL Assets Essentials] 시작 {#get-started-assets-essentials}
-
 
 [!DNL Adobe Experience Manager Assets Essentials] 는 메시지를 채우는 데 사용할 수 있는 중앙 집중식 단일 자산 저장소를 제공합니다. 다음 위치에서 직접 액세스할 수 있습니다. [!DNL Adobe Journey Optimizer] 사용 **[!UICONTROL Assets]** 섹션을 참조하십시오. 이메일 콘텐츠를 디자인할 때 자산 및 폴더에 액세스할 수도 있습니다. [이메일 디자인에 대한 자세한 정보](design-emails.md).
 

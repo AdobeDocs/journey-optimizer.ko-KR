@@ -1,0 +1,37 @@
+---
+product: adobe campaign
+title: upper
+description: 함수 상부에 대해 알아보기
+feature: Journeys
+role: Data Engineer
+level: Experienced
+source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 17%
+
+---
+
+# upper {#upper}
+
+매개 변수의 대문자 버전을 반환합니다.
+
+## 카테고리
+
+문자열
+
+## 함수 구문
+
+`upper(<parameters>)`
+
+## 서명 및 반환된 형식
+
+`upper(<string>)`
+
+문자열을 반환합니다.
+
+## 예
+
+`upper("b")`
+
+&quot;B&quot;를 반환합니다.

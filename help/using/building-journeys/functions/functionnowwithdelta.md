@@ -1,0 +1,49 @@
+---
+product: adobe campaign
+title: nowWithDelta
+description: 지금 함수 알아보기WithDelta
+feature: Journeys
+role: Data Engineer
+level: Experienced
+source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 7%
+
+---
+
+# nowWithDelta {#nowWithDelta}
+
+오프셋을 포함하는 현재 날짜/시간을 반환합니다. 시간대 ID를 지정하면 시간대 오프셋이 적용됩니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md).
+
+## 카테고리
+
+날짜
+
+## 함수 구문
+
+`nowWithDelta(<parameters>)`
+
+## 매개 변수
+
+| 매개 변수 | 설명 |
+|--- |--- |
+| 델타 | 양수 또는 음수 정수 값 |
+| 날짜 부분 | 연도, 월, 일, 시간, 분 또는 초를 문자열로 사용합니다 |
+| 시간대 id | 시간대 값의 문자열 표시. 자세한 내용은 [데이터 유형](../expression/data-types.md). 시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. |
+
+## 서명 및 반환된 유형
+
+`nowWithDelta(<delta>,<date part>`
+
+`nowWithDelta(<delta>,<date part>,"<timeZone id>")`
+
+dateTime 반환
+
+## 예시
+
+`nowWithDelta(-2, "hours")`
+
+`nowWithDelta(-2, "hours", "Europe/Paris")`
+
+정확히 2시간 전에 dateTime을 반환합니다.

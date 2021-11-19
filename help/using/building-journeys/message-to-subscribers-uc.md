@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 59ee283f50850e160e7a6506c1f0deab1976f20c
+exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
+source-git-commit: 662158884291d90b6092c0aa70f41f27535f3637
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 4%
 
       이메일 주소를 수정하려면 이전에 메시지를 게시했는지 확인해야 합니다.
 
-   1. 표현식 편집기에서 구독자의 이메일 주소를 검색할 표현식을 입력합니다. [자세한 내용](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ko){target=&quot;_blank&quot;}.
+   1. 표현식 편집기에서 구독자의 이메일 주소를 검색할 표현식을 입력합니다. [자세히 보기](expression/expressionadvanced.md).
 
       이 예는 맵 필드에 대한 참조를 포함하는 표현식을 보여줍니다.
 
@@ -49,7 +50,7 @@ ht-degree: 4%
 
       이 예제에서 구독 목록은 `daily-email`. 이메일 주소는 `subscribers` 맵: 가입 목록 맵에 연결됩니다.
 
-      자세한 내용 [필드 참조](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/field-references.html) 참조하십시오.
+      자세한 내용 [필드 참조](expression/field-references.md) 참조하십시오.
 
       ![](../assets/message-to-subscribers-uc-2.png)
 
@@ -58,7 +59,3 @@ ht-degree: 4%
    ![](../assets/message-to-subscribers-uc-3.png)
 
 1. 로 여정 종료 **[!UICONTROL End]** 활동.
-
-
-
-

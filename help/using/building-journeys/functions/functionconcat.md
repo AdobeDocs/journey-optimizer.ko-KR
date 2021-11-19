@@ -1,0 +1,50 @@
+---
+product: adobe campaign
+title: concat
+description: 함수 개념에 대해 알아보기
+feature: Journeys
+role: Data Engineer
+level: Experienced
+source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 27%
+
+---
+
+# concat {#concat}
+
+두 문자열 매개 변수 또는 문자열 목록을 연결합니다.
+
+## 카테고리
+
+문자열
+
+## 함수 구문
+
+`concat(<parameters>)`
+
+## 매개 변수
+
+| 매개 변수 | 유형 |
+|-----------|------------------|
+| 목록 | listString |
+| string | string |
+
+## 서명 및 반환된 형식
+
+`concat(<string>,<string>)`
+
+`concat(<listString>)`
+
+문자열을 반환합니다.
+
+## 예
+
+`concat("Hello","World")`
+
+&quot;HelloWorld&quot;를 반환합니다.
+
+`concat(["Hello"," ","World"])`
+
+&quot;Hello World&quot;를 반환합니다.
