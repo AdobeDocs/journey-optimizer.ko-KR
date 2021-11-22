@@ -1,14 +1,15 @@
 ---
 title: 여정 게시
 description: 여정 게시 방법 알아보기
-feature: 여정
-topic: 콘텐츠 관리
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 8%
+source-wordcount: '176'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 8%
 여정을 중지하면 영구적으로 중지됩니다. 여정에 유입되는 모든 사람은 영구적으로 정지되며, 여정은 새로운 입구를 허용하지 않을 것이다. 여정을 다시 사용해야 하는 경우 복제하고 게시해야 합니다.
 
 1. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정을 게시할 수 없습니다. [이 섹션](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)을 참조하십시오. 게시하기 전에 여정을 테스트하는 것이 좋습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오.
-1. 여정을 게시하려면 오른쪽 상단 드롭다운 메뉴에 있는 **[!UICONTROL Publish]** 옵션을 클릭합니다.
+1. 여정을 게시하려면 **[!UICONTROL Publish]** 옵션, 오른쪽 상단 드롭다운 메뉴에 있습니다.
 
    ![](../assets/journeyuc1_18.png)
 

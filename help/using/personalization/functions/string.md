@@ -1,13 +1,14 @@
 ---
 title: 문자열 함수 라이브러리
 description: 문자열 함수 라이브러리
-feature: 개인화
-topic: 개인화
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1199'
 ht-degree: 7%
 
 ---
@@ -18,9 +19,9 @@ ht-degree: 7%
 
 ## 카멜 사례 {#camelCase}
 
-`camelCase` 함수는 문자열의 각 단어의 첫 문자를 대문자로 바꿉니다.
+다음 `camelCase` 함수는 문자열의 각 단어의 첫 문자를 대문자로 바꿉니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= camelCase(string)%}
@@ -36,9 +37,9 @@ ht-degree: 7%
 
 ## Concat {#concate}
 
-`concat` 함수는 두 문자열을 하나로 결합합니다.
+다음 `concat` 함수는 두 문자열을 하나로 결합합니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= concat(string,string) %}
@@ -54,9 +55,9 @@ ht-degree: 7%
 
 ## 다음 포함 {#contains}
 
-`contains` 함수는 문자열에 지정된 하위 문자열이 포함되어 있는지 확인하는 데 사용됩니다.
+다음 `contains` 함수에서 지정된 하위 문자열을 포함하는지 여부를 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -66,7 +67,7 @@ ht-degree: 7%
 | --------- | ----------- |
 | `STRING_1` | 확인을 수행할 문자열입니다. |
 | `STRING_2` | 첫 번째 문자열 내에서 검색할 문자열입니다. |
-| `CASE_SENSITIVE` | 검사가 대/소문자를 구분하는지 여부를 판별하는 선택적 매개 변수입니다. 가능한 값:true(기본값) / false. |
+| `CASE_SENSITIVE` | 검사가 대/소문자를 구분하는지 여부를 판별하는 선택적 매개 변수입니다. 가능한 값: true(기본값) / false. |
 
 **예**
 
@@ -84,9 +85,9 @@ ht-degree: 7%
 
 ## 다음을 포함하지 않음{#doesNotContain}
 
-`doesNotContain` 함수는 문자열이 지정된 하위 문자열을 포함하지 않는지 확인하는 데 사용됩니다.
+다음 `doesNotContain` 함수에서 지정된 하위 문자열을 포함하지 않는지 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= doesNotContain(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -96,7 +97,7 @@ ht-degree: 7%
 | --------- | ----------- |
 | `STRING_1` | 확인을 수행할 문자열입니다. |
 | `STRING_2` | 첫 번째 문자열 내에서 검색할 문자열입니다. |
-| `CASE_SENSITIVE` | 검사가 대/소문자를 구분하는지 여부를 판별하는 선택적 매개 변수입니다. 가능한 값:true(기본값) / false. |
+| `CASE_SENSITIVE` | 검사가 대/소문자를 구분하는지 여부를 판별하는 선택적 매개 변수입니다. 가능한 값: true(기본값) / false. |
 
 **예**
 
@@ -109,9 +110,9 @@ ht-degree: 7%
 
 ## 다음으로 끝나지 않음{#doesNotEndWith}
 
-`doesNotEndWith` 함수는 문자열이 지정된 하위 문자열로 끝나지 않는지 확인하는 데 사용됩니다.
+다음 `doesNotEndWith` 함수는 문자열이 지정된 하위 문자열로 끝나지 않는지 여부를 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= doesNotEndWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -121,7 +122,7 @@ ht-degree: 7%
 | --------- | ----------- |
 | `{STRING_1}` | 확인을 수행할 문자열입니다. |
 | `{STRING_2}` | 첫 번째 문자열 내에서 검색할 문자열입니다. |
-| `{CASE_SENSITIVE}` | 검사가 대/소문자를 구분하는지 여부를 판별하는 선택적 매개 변수입니다. 가능한 값:true(기본값) / false. |
+| `{CASE_SENSITIVE}` | 검사가 대/소문자를 구분하는지 여부를 판별하는 선택적 매개 변수입니다. 가능한 값: true(기본값) / false. |
 
 **예**
 
@@ -133,9 +134,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 다음으로 시작하지 않음{#doesNotStartWith}
 
-`doesNotStartWith` 함수는 문자열이 지정된 하위 문자열로 시작하지 않는지 확인하는 데 사용됩니다.
+다음 `doesNotStartWith` 함수는 문자열이 지정된 하위 문자열로 시작하지 않는지 여부를 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= doesNotStartWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -145,7 +146,7 @@ doesNotEndWith(person.emailAddress,".com")
 | --------- | ----------- |
 | `{STRING_1}` | 확인을 수행할 문자열입니다. |
 | `{STRING_2}` | 첫 번째 문자열 내에서 검색할 문자열입니다. |
-| `{CASE_SENSITIVE}` | 검사가 대/소문자를 구분하는지 여부를 판별하는 선택적 매개 변수입니다. 가능한 값:true(기본값) / false. |
+| `{CASE_SENSITIVE}` | 검사가 대/소문자를 구분하는지 여부를 판별하는 선택적 매개 변수입니다. 가능한 값: true(기본값) / false. |
 
 **예**
 
@@ -157,9 +158,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 64 인코딩{#encode64}
 
-`encode64` 함수는 URL에 예를 들어 포함해야 하는 경우 개인 정보(PI)를 유지하기 위해 문자열을 인코딩하는 데 사용됩니다.
+다음 `encode64` URL에 예를 들어 포함해야 하는 경우 PI(개인 정보)를 유지하기 위한 문자열을 인코딩하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= encode64(string) %}
@@ -167,9 +168,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 다음으로 끝남{#endsWith}
 
-`endsWith` 함수는 문자열이 지정된 하위 문자열로 끝났는지 확인하는 데 사용됩니다.
+다음 `endsWith` 함수는 문자열이 지정된 하위 문자열로 끝났는지 여부를 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= endsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -179,7 +180,7 @@ doesNotEndWith(person.emailAddress,".com")
 | --------- | ----------- |
 | `{STRING_1}` | 확인을 수행할 문자열입니다. |
 | `{STRING_2}` | 첫 번째 문자열 내에서 검색할 문자열입니다. |
-| `{CASE_SENSITIVE}` | 검사가 대/소문자를 구분하는지 여부를 판별하는 선택적 매개 변수입니다. 가능한 값:true(기본값) / false. |
+| `{CASE_SENSITIVE}` | 검사가 대/소문자를 구분하는지 여부를 판별하는 선택적 매개 변수입니다. 가능한 값: true(기본값) / false. |
 
 **예**
 
@@ -192,9 +193,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 다음과 같음{#equals}
 
-`equals` 함수는 문자열을 대/소문자 구분을 사용하여 지정된 문자열과 일치하는지 확인하는 데 사용됩니다.
+다음 `equals` 함수는 문자열을 대소문자 구분을 사용하여 지정된 문자열과 일치하는지 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= equals(STRING_1, STRING_2) %}
@@ -215,9 +216,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 대/소문자 무시 같음{#equalsIgnoreCase}
 
-`equalsIgnoreCase` 함수는 문자열을 대/소문자를 구분하지 않고 지정된 문자열과 일치하는지 확인하는 데 사용됩니다.
+다음 `equalsIgnoreCase` 변수는 대/소문자를 구분하지 않고 지정된 문자열과 동일한지 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= equalsIgnoreCase(STRING_1, STRING_2) %}
@@ -238,9 +239,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 이메일 도메인 추출 {#extractEmailDomain}
 
-`extractEmailDomain` 함수는 이메일 주소의 도메인을 추출하는 데 사용됩니다.
+다음 `extractEmailDomain` 함수는 이메일 주소의 도메인을 추출하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= extractEmailDomain(string) %}
@@ -256,9 +257,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 비어 있음 {#isEmpty}
 
-`isEmpty` 함수는 문자열이 비어 있는지 확인하는 데 사용됩니다.
+다음 `isEmpty` 함수는 문자열이 비어 있는지 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= isEmpty(string) %}
@@ -274,9 +275,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 왼쪽 트림 {#leftTrim}
 
-`leftTrim` 함수는 문자열 시작 부분에서 공백을 제거하는 데 사용됩니다.
+다음 `leftTrim` 함수는 문자열 시작 부분에서 공백을 제거하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= leftTrim(string) %}
@@ -284,9 +285,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Length {#length}
 
-`length` 함수는 문자열 또는 표현식의 문자 수를 가져오는 데 사용됩니다.
+다음 `length` 함수는 문자열 또는 표현식의 문자 수를 가져오는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= length(string) %}
@@ -302,9 +303,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 좋아요{#like}
 
-`like` 함수는 문자열이 지정된 패턴과 일치하는지 확인하는 데 사용됩니다.
+다음 `like` 함수는 문자열이 지정된 패턴과 일치하는지 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= like(STRING_1, STRING_2) %}
@@ -313,7 +314,7 @@ doesNotEndWith(person.emailAddress,".com")
 | 인수 | 설명 |
 | --------- | ----------- |
 | `{STRING_1}` | 확인을 수행할 문자열입니다. |
-| `{STRING_2}` | 첫 번째 문자열에 대해 일치하는 표현식입니다. 표현식을 만드는 데 지원되는 두 가지 특수 문자가 있습니다.`%` 및 `_` <ul><li>`%` 0개 이상의 문자를 나타내는 데 사용됩니다.</li><li>`_` 는 정확히 하나의 문자를 나타내는 데 사용됩니다.</li></ul> |
+| `{STRING_2}` | 첫 번째 문자열에 대해 일치하는 표현식입니다. 표현식을 만드는 데 지원되는 두 가지 특수 문자가 있습니다. `%` 및 `_`. <ul><li>`%` 0개 이상의 문자를 나타내는 데 사용됩니다.</li><li>`_` 는 정확히 하나의 문자를 나타내는 데 사용됩니다.</li></ul> |
 
 **예**
 
@@ -325,7 +326,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 소문자{#lower}
 
-`lowerCase` 함수는 문자열을 소문자로 변환합니다.
+다음 `lowerCase` 함수는 문자열을 소문자로 변환합니다.
 
 **구문**
 
@@ -343,9 +344,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 일치{#matches}
 
-`matches` 함수는 문자열이 특정 정규 표현식과 일치하는지 확인하는 데 사용됩니다. 정규 표현식의 일치 패턴에 대한 자세한 내용은 [이 문서](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)를 참조하십시오.
+다음 `matches` 함수가 특정 정규 표현식과 일치하는지 여부를 확인하는 데 사용됩니다. 자세한 내용은 [이 문서](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) 를 참조하십시오.
 
-**형식**
+**포맷**
 
 ```sql
 {%= matches(STRING_1, STRING_2) %}
@@ -361,9 +362,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 같지 않음{#notEqualTo}
 
-`notEqualTo` 함수는 문자열이 지정된 문자열과 같지 않은지 확인하는 데 사용됩니다.
+다음 `notEqualTo` 함수는 문자열이 지정된 문자열과 같지 않은지 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= notEqualTo(STRING_1, STRING_2) %}
@@ -384,9 +385,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 정규 표현식 그룹{#regexGroup}
 
-`Group` 함수는 제공된 정규식에 따라 특정 정보를 추출하는 데 사용됩니다.
+다음 `Group` 함수는 제공된 정규 표현식을 기반으로 특정 정보를 추출하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= regexGroup(STRING, EXPRESSION, GROUP) %}
@@ -406,11 +407,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= regexGroup(emailAddress,"@(\w+)", 1) %}
 ```
 
-## Replace {#replace}
+## 바꾸기 {#replace}
 
-`replace` 함수는 문자열에서 주어진 하위 문자열을 다른 하위 문자열로 바꾸는 데 사용됩니다.
+다음 `replace` 함수는 문자열에서 주어진 하위 문자열을 다른 하위 문자열로 바꾸는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= replace(string,string,string) %}
@@ -427,9 +428,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 모두 바꾸기{#replaceAll}
 
-`replaceAll` 함수는 &quot;target&quot;과 일치하는 텍스트의 모든 하위 문자열을 지정된 리터럴 &quot;replacement&quot; 문자열로 바꾸는 데 사용됩니다. 대체는 문자열 시작 부분부터 끝 부분까지 진행됩니다. 예를 들어 문자열 &quot;aaa&quot;에서 &quot;aa&quot;를 &quot;b&quot;로 바꾸면 &quot;ab&quot;가 아니라 &quot;ba&quot;가 됩니다.
+다음 `replaceAll` 함수는 &quot;target&quot;과 일치하는 텍스트의 모든 하위 문자열을 지정된 리터럴 &quot;replacement&quot; 문자열로 바꾸는 데 사용됩니다. 대체는 문자열 시작 부분부터 끝 부분까지 진행됩니다. 예를 들어 문자열 &quot;aaa&quot;에서 &quot;aa&quot;를 &quot;b&quot;로 바꾸면 &quot;ab&quot;가 아니라 &quot;ba&quot;가 됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= replaceAll(string,string,string) %}
@@ -438,10 +439,10 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 오른쪽 트림 {#rightTrim}
 
-`rightTrim` 함수는 문자열 끝에서 공백을 제거합니다.
+다음 `rightTrim` 함수는 문자열 끝에서 공백을 제거합니다.
 
 
-**형식**
+**포맷**
 
 ```sql
 {%= rightTrim(string) %}
@@ -449,9 +450,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 분할 {#split}
 
-`split` 함수는 문자열을 지정된 문자로 분할하는 데 사용됩니다.
+다음 `split` 함수는 문자열을 지정된 문자로 분할하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= split(string,string) %}
@@ -470,9 +471,9 @@ The following function .
 
 ## 다음으로 시작{#startsWith}
 
-`startsWith` 함수는 문자열이 지정된 하위 문자열로 시작하는지 여부를 확인하는 데 사용됩니다.
+다음 `startsWith` 함수는 문자열이 지정된 하위 문자열로 시작하는지 여부를 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -494,7 +495,7 @@ The following function .
 
 ## 제목 사례{#titleCase}
 
-**titleCase** 함수는 문자열의 각 단어의 첫 글자를 대문자로 사용하는 데 사용됩니다.
+다음 **titleCase** 함수는 문자열의 각 단어의 첫 문자를 대문자로 바꾸는 데 사용됩니다.
 
 **구문**
 
@@ -512,7 +513,7 @@ The following function .
 
 ## Trim{#trim}
 
-**trim** 함수는 문자열의 시작과 끝에서 모든 공백을 제거합니다.
+다음 **trim** 함수는 문자열 시작 및 끝에서 모든 공백을 제거합니다.
 
 **구문**
 
@@ -522,7 +523,7 @@ The following function .
 
 ## 대문자{#upper}
 
-**upperCase** 함수는 문자열을 대문자로 변환합니다.
+다음 **upperCase** 함수는 문자열을 대문자로 변환합니다.
 
 **구문**
 

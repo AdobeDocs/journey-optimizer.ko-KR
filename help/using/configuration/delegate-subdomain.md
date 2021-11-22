@@ -27,7 +27,7 @@ ht-degree: 5%
 
 도메인 이름 위임은 도메인 이름의 소유자를 허용하는 메서드입니다(기술적으로 DNS 영역)에서 하위 집합을 위임(기술적 의미상: 하위 영역이라고 할 수 있는 DNS 영역을 다른 엔터티에 추가합니다. 기본적으로 고객으로서 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다.
 
-[!DNL Journey Optimizer]에서 사용할 하위 도메인을 위임하면 클라이언트는 Adobe을 이용하여 전자 메일 마케팅 전송 도메인에 대한 업계 표준 게재 능력 요구 사항을 충족하는 데 필요한 DNS 인프라를 유지 관리하는 동시에 내부 전자 메일 도메인에 대한 DNS를 유지 및 제어할 수 있습니다.
+에 사용할 하위 도메인을 위임하여 [!DNL Journey Optimizer]를 사용하는 경우 클라이언트는 Adobe을 사용하여 전자 메일 마케팅 전송 도메인에 대한 업계 표준 게재 기능 요구 사항을 충족하는 데 필요한 DNS 인프라를 유지하고 내부 전자 메일 도메인에 대한 DNS를 계속 유지 관리할 수 있습니다.
 
 [!DNL Journey Optimizer] 제품 인터페이스에서 직접 Adobe에 하위 도메인을 완전히 위임할 수 있습니다. 이렇게 하면 Adobe은 이메일 캠페인 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리하는 방식으로 메시지를 관리 서비스로 제공할 수 있습니다.
 
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 새 하위 도메인을 위임하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** 메뉴에 액세스한 다음 **[!UICONTROL Delegate subdomain]** 를 클릭합니다.
+1. 액세스 권한 **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** 메뉴를 클릭한 다음 **[!UICONTROL Delegate subdomain]**.
 
    ![](../assets/subdomain-delegate.png)
 
@@ -55,21 +55,21 @@ ht-degree: 5%
 
 1. DNS 서버에 배치할 레코드 목록이 표시됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 DNS 레코드를 생성합니다.
 
-1. 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 것이 제대로 구성된 경우 &quot;I confirm..&quot; 상자를 선택한 후 **[!UICONTROL Submit]** 을 클릭합니다.
+1. 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 것이 제대로 구성된 경우 &quot;확인...&quot; 상자를 선택한 다음 를 클릭합니다. **[!UICONTROL Submit]**.
 
    ![](../assets/subdomain-submit.png)
 
    >[!NOTE]
    >
-   >레코드를 만들고 나중에 **[!UICONTROL Save as draft]** 버튼을 사용하여 하위 도메인 구성을 제출할 수 있습니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 하위 도메인 위임을 다시 시작할 수 있습니다.
+   >레코드를 만들고 을 사용하여 나중에 하위 도메인 구성을 제출할 수 있습니다. **[!UICONTROL Save as draft]** 버튼을 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 하위 도메인 위임을 다시 시작할 수 있습니다.
 
-1. 하위 도메인 위임이 제출되면 하위 도메인이 **[!UICONTROL Processing]** 상태로 목록에 표시됩니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](access-subdomains.md)을 참조하십시오.
+1. 하위 도메인 위임이 제출되면 하위 도메인이 와 함께 목록에 표시됩니다. **[!UICONTROL Processing]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](access-subdomains.md).
 
    ![](../assets/subdomain-processing.png)
 
-   해당 하위 도메인을 사용하여 메시지를 보내려면 Adobe이 필요한 검사를 수행할 때까지 기다려야 하며, 이 작업은 최대 3시간이 걸릴 수 있습니다. 자세한 내용은 [이 섹션](#subdomain-validation)을 참조하십시오.
+   해당 하위 도메인을 사용하여 메시지를 보내려면 Adobe이 필요한 검사를 수행할 때까지 기다려야 하며, 이 작업은 최대 3시간이 걸릴 수 있습니다. 추가 정보 [이 섹션](#subdomain-validation).
 
-1. 확인이 성공하면 하위 도메인이 **[!UICONTROL Success]** 상태를 가져옵니다. 메시지를 전달하는 데 사용할 준비가 되었습니다.
+1. 확인이 성공하면 하위 도메인이 **[!UICONTROL Success]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -98,8 +98,8 @@ ht-degree: 5%
 
 1. **CDN 도메인 만들기**: 도메인이 email.example.com이면 CDN 도메인은 cdn.email.example.com이 됩니다.
 
-1. **CDN SSL 인증서** 만들기 및 첨부: Adobe은 CDN 도메인에 대한 CDN 인증서를 만들고 해당 인증서를 CDN 도메인에 첨부합니다.
+1. **CDN SSL 인증서 만들기 및 첨부**: Adobe은 CDN 도메인에 대한 CDN 인증서를 만들고 해당 인증서를 CDN 도메인에 첨부합니다.
 
 1. **전달 DNS 만들기**: 위임하는 첫 번째 하위 도메인인 경우, Adobe은 각 IP에 대해 하나씩 PTR 레코드를 만드는 데 필요한 정방향 DNS를 만듭니다.
 
-1. **PTR 레코드 만들기**: ISP가 전자 메일을 스팸으로 표시하지 않도록 하려면 역방향 DNS 레코드라고도 하는 PTR 레코드가 필요합니다. Gmail은 각 IP에 대해 PTR 레코드를 포함하는 것을 권장합니다. Adobe은 각 IP에 대해 하나씩, 첫 번째 하위 도메인을 가리키는 첫 번째 하위 도메인을 위임하는 경우에만 PTR 레코드를 만듭니다. 예를 들어 IP가 *192.1.2.1*&#x200B;이고 하위 도메인이 *email.example.com*&#x200B;인 경우 PTR 레코드는 다음과 같습니다. *192.1.2.1 PTR r1.email.example.com* 나중에 새 위임된 도메인을 가리키도록 PTR 레코드를 업데이트할 수 있습니다.
+1. **PTR 레코드 만들기**: ISP가 전자 메일을 스팸으로 표시하지 않도록 하려면 역방향 DNS 레코드라고도 하는 PTR 레코드가 필요합니다. Gmail은 각 IP에 대해 PTR 레코드를 포함하는 것을 권장합니다. Adobe은 각 IP에 대해 하나씩, 첫 번째 하위 도메인을 가리키는 첫 번째 하위 도메인을 위임하는 경우에만 PTR 레코드를 만듭니다. 예를 들어, IP가 *192.1.2.1* 하위 도메인은 *email.example.com*&#x200B;로 지정하는 경우 PTR 레코드는 다음과 같습니다. *192.1.2.1 PTR r1.email.example.com*. 나중에 새 위임된 도메인을 가리키도록 PTR 레코드를 업데이트할 수 있습니다.

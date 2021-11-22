@@ -2,13 +2,14 @@
 solution: Journey Orchestration
 title: 작업 정보
 description: 작업 구성 방법 알아보기
-feature: 작업
-topic: 관리
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 78%
 
 ---
@@ -32,10 +33,10 @@ Epsilon, Facebook, Adobe.io, Firebase 등의 서드파티 시스템을 사용하
 
 >[!CAUTION]
 >
->사용자 지정 작업의 구성은 **기술 사용자**&#x200B;가 수행해야 합니다.
+>사용자 지정 작업 구성은 **기술 사용자**.
 
 작업은 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 범주에서 사용 가능합니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)를 참조하십시오.
 
-작업 목록을 확인하거나 새 작업을 구성하려면 관리 메뉴 섹션에서 **[!UICONTROL Configurations]** 을 선택합니다. **[!UICONTROL Actions]** 섹션에서 **[!UICONTROL Manage]** 를 클릭합니다. 그러면 작업 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../user-interface.md)를 참조하십시오.
+작업 목록을 확인하거나 새 작업을 구성하려면 **[!UICONTROL Configurations]** 를 클릭합니다. 에서  **[!UICONTROL Actions]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 그러면 작업 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../user-interface.md)를 참조하십시오.
 
 ![](../assets/custom1.png)

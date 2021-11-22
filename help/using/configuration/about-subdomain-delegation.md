@@ -3,19 +3,19 @@ title: 하위 도메인 위임
 description: 하위 도메인을 위임하는 방법 알아보기
 internal: n
 snippet: y
-feature: 애플리케이션 설정
-topic: 관리
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '385'
 ht-degree: 27%
 
 ---
 
-
-# [!DNL Journey Optimizer]의 하위 도메인 위임
+# 의 하위 도메인 위임 [!DNL Journey Optimizer]
 
 이메일 캠페인용 하위 도메인을 만들면 브랜드의 다양한 트래픽 유형(예: 마케팅과 기업)을 특정 IP 풀과 특정 도메인으로 분리하여 IP 준비 프로세스를 가속화하고 전반적인 게재 능력을 향상시킬 수 있습니다. 도메인을 공유하는데 도메인을 차단하거나 차단 목록에 추가하면 회사 메일 게재에 영향을 줄 수 있습니다. 그러나 이메일 마케팅 커뮤니케이션과 관련된 도메인의 평판 문제 또는 블록은 해당 이메일 흐름에 영향을 줍니다. 기본 도메인을 발신자로 사용하거나 여러 메일 스트림에 대한 &#39;보낸 사람&#39; 주소로 사용하면 이메일 인증이 중단되어 메시지가 스팸 폴더에 저장되거나 차단될 수 있습니다.
 
@@ -34,6 +34,6 @@ ht-degree: 27%
 
 **자세히 알아보기**
 
-* [인터페이스에서 직접 하위 도메인](delegate-subdomain.md)을 위임하는 방법을 알아봅니다
-* Gmail 주소로 이메일을 성공적으로 배달할 수 있도록 [Google TXT 레코드](google-txt.md)를 하위 도메인에 추가하는 방법을 알아봅니다
-* 하위 도메인에 대해 생성된 PTR 레코드](ptr-records.md)에 액세스하는 방법을 배워서 메일 서버를 보내 확인할 수 있도록 합니다[
+* 방법 알아보기 [하위 도메인 위임](delegate-subdomain.md) 인터페이스에서 직접 액세스
+* 방법 알아보기 [Google TXT 레코드 추가](google-txt.md) Gmail 주소로 이메일을 성공적으로 게재하기 위해 하위 도메인에 추가
+* 방법 알아보기 [PTR 레코드 액세스](ptr-records.md) 하위 도메인용 생성되어 메일 서버를 보내 확인할 수 있음

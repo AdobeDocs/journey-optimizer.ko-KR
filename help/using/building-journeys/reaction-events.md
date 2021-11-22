@@ -1,35 +1,36 @@
 ---
 title: 반응 이벤트
 description: 반응 이벤트에 대해 알아보기
-feature: 여정
-topic: 콘텐츠 관리
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 3%
+source-wordcount: '353'
+ht-degree: 2%
 
 ---
 
 # 반응 이벤트 {#section_dhx_gss_dgb}
 
-팔레트에서 사용할 수 있는 여러 이벤트 활동 중에서 내장 **[!UICONTROL Reactions]** 이벤트를 찾을 수 있습니다. 이 활동을 사용하면 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 대응할 수 있습니다. 이 정보는 Adobe Experience Platform과 공유되는 즉시 실시간으로 캡처됩니다. 푸시 알림의 경우 클릭, 전송 또는 실패한 메시지에 대응할 수 있습니다. SMS 메시지의 경우 보낸 메시지나 실패한 메시지에 대응할 수 있습니다. 이메일의 경우 클릭, 전송, 열림 또는 실패한 메시지에 대응할 수 있습니다.
+팔레트에서 사용할 수 있는 여러 이벤트 활동 중에서 기본 제공된 이벤트를 찾을 수 있습니다 **[!UICONTROL Reactions]** 이벤트. 이 활동을 사용하면 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 대응할 수 있습니다. 이 정보는 Adobe Experience Platform과 공유되는 즉시 실시간으로 캡처됩니다. 푸시 알림의 경우 클릭, 전송 또는 실패한 메시지에 대응할 수 있습니다. SMS 메시지의 경우 보낸 메시지나 실패한 메시지에 대응할 수 있습니다. 이메일의 경우 클릭, 전송, 열림 또는 실패한 메시지에 대응할 수 있습니다.
 
 메시지에 반응이 없는 경우 이 메커니즘을 사용하여 작업을 수행할 수도 있습니다. 이렇게 하려면 반응 활동과 평행한 두 번째 경로를 만들고 대기 활동을 추가합니다. 대기 활동에 정의된 기간 동안 반응이 없으면 두 번째 경로가 선택됩니다. 후속 메시지와 같은 메시지를 보내도록 선택할 수 있습니다.
 
-이전에 **Message** 활동이 있는 경우에만 캔버스에서 반응 활동을 사용할 수 있습니다.
+캔버스에서 반응 활동을 사용할 수 있는 경우는 **메시지** 활동 전에 표시되어야 합니다.
 
-[작업 활동 정보](../building-journeys/about-journey-activities.md#action-activities)를 참조하십시오.
+자세한 내용은 [작업 활동](../building-journeys/about-journey-activities.md#action-activities).
 
 ![](../assets/journey45.png)
 
 다음은 반응 이벤트를 구성하는 여러 단계입니다.
 
-1. 반응에 **[!UICONTROL Label]** 를 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
+1. 추가 **[!UICONTROL Label]** 반응으로. 데이터 소스에 이벤트에 설명을 추가합니다.
 1. 드롭다운 목록에서 반응할 작업 활동을 선택합니다. 경로의 이전 단계에 배치된 작업 활동을 선택할 수 있습니다.
 1. 선택한 작업에 따라 반응할 작업을 선택합니다.
-1. 이벤트 시간 초과(40초~30일 사이)와 시간 제한 경로를 정의할 수 있습니다. 이렇게 하면 정의된 기간 내에 응답하지 않는 개인에게 두 번째 경로가 생성됩니다. 반응 이벤트를 사용하는 여정을 테스트할 때 테스트 모드 **[!UICONTROL Wait time]** 기본값 및 최소값은 40초입니다. [이 섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
+1. 이벤트 시간 초과(40초~30일 사이)와 시간 제한 경로를 정의할 수 있습니다. 이렇게 하면 정의된 기간 내에 응답하지 않는 개인에게 두 번째 경로가 생성됩니다. 반응 이벤트를 사용하는 여정을 테스트할 때 테스트 모드 **[!UICONTROL Wait time]** 기본값과 최소값은 40초입니다. [이 섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
 
 >[!NOTE]
 >

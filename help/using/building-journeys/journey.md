@@ -1,14 +1,15 @@
 ---
 title: 일반 원칙
 description: 일반 원칙
-feature: 여정
-topic: 콘텐츠 관리
+feature: Journeys
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 7%
+source-wordcount: '115'
+ht-degree: 5%
 
 ---
 
@@ -18,10 +19,10 @@ ht-degree: 7%
 
 다음 기능을 통해 제공되는 여러 단계로 구성된 고급 시나리오 설계:
 
-* 이벤트를 받을 때 트리거되는 실시간 **단일 메시지**&#x200B;를 보내거나, Adobe Experience Platform 세그먼트를 사용하여 일괄 처리&#x200B;**에서**&#x200B;를 보내십시오.
+* 실시간 보내기 **단일 메시지** 이벤트가 수신될 때 트리거되거나 **일괄적으로** Adobe Experience Platform 세그먼트 사용.
 
-* 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 사용하여 **컨텍스트 데이터**&#x200B;를 활용하십시오.
+* 활용 **컨텍스트 기반 데이터** 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 포함합니다.
 
-* 타사 시스템을 사용하여 메시지를 보내는 경우 **기본 제공 작업**&#x200B;을 사용하여 [!DNL Journey Optimizer]에 디자인된 메시지를 보내거나 **사용자 지정 작업**&#x200B;을 만듭니다.
+* 를 사용하십시오 **기본 작업** 에 디자인된 메시지를 보냅니다. [!DNL Journey Optimizer] 또는 만들기 **사용자 지정 작업** 서드파티 시스템을 사용하여 메시지를 전송하는 경우
 
-* **여정 디자이너**&#x200B;를 사용하여 여러 단계의 사용 사례를 빌드하십시오.시작 이벤트 또는 세그먼트 읽기 활동을 쉽게 끌어다 놓고 조건을 추가하고 개인화된 메시지를 보냅니다.
+* 사용 **여정 디자이너**, 여러 단계 사용 사례를 빌드합니다. 시작 이벤트 또는 세그먼트 읽기 활동을 쉽게 끌어다 놓고 조건을 추가하고 개인화된 메시지를 보냅니다.

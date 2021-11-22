@@ -19,11 +19,11 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->오퍼 라이브러리 또는 해당 기능 중 일부에 액세스하는 데 문제가 발생하는 경우 관리 사용자에게 필요한 권한이 부여되었는지 확인하십시오. [결정 관리에 대한 액세스 권한 부여](starting-offer-decisioning.md#granting-acess-to-decision-management)를 참조하십시오.
+>오퍼 라이브러리 또는 해당 기능 중 일부에 액세스하는 데 문제가 발생하는 경우 관리 사용자에게 필요한 권한이 부여되었는지 확인하십시오. 자세한 내용은 [의사 결정 관리에 대한 액세스 권한 부여](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 **[!UICONTROL Offers]** 메뉴를 사용하여 개인화된 오퍼와 대체 오퍼를 관리하고, 오퍼를 컬렉션에 구성하고, 의사 결정을 만들어 이를 제공합니다.
 
-* **[!UICONTROL Overview]**: 을 처음 사용하는  [!DNL Offer Decisioning]? 화면의 단계에 따라 배치, 오퍼 및 컬렉션 설정을 시작합니다. 이미 [!DNL Offer Decisioning]에 익숙하다면, 가장 최근 오퍼, 컬렉션 및 결정에 대한 개요를 알 수 있습니다. [개요](#overview)를 참조하십시오.
+* **[!UICONTROL Overview]**: 신규 대상 [!DNL Offer Decisioning]? 화면의 단계에 따라 배치, 오퍼 및 컬렉션 설정을 시작합니다. 에 대해 이미 알고 있는 경우 [!DNL Offer Decisioning]를 통해 최신 오퍼, 컬렉션 및 결정에 대한 개요를 알 수 있습니다. [개요](#overview)를 참조하십시오.
 
 * **[!UICONTROL Offers]**: 개인화된 대체 오퍼에 액세스하거나 새로운 오퍼를 만들 수 있습니다. [오퍼 만들기](../offer-library/creating-personalized-offers.md) 및 [대체 오퍼 만들기](../offer-library/creating-fallback-offers.md)를 참조하십시오.
 
@@ -47,7 +47,7 @@ ht-degree: 68%
 
 ## 개요 {#overview}
 
-[!DNL Offer Decisioning]을 처음 사용하는 경우 **[!UICONTROL Overview]** 탭에서는 첫 번째 오퍼 결정 작성을 시작하는 데 필요한 주요 단계를 안내합니다.
+처음 [!DNL Offer Decisioning], **[!UICONTROL Overview]** 탭에서는 첫 번째 오퍼 결정 작성을 시작하는 데 필요한 주요 단계를 안내합니다.
 
 ![](../../assets/overview_onboarding.png)
 
@@ -59,13 +59,13 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->오퍼를 만들고 결정에서 사용하는 주요 단계는 [이 섹션](../offer-library/key-steps.md)에 나와 있습니다.
+>오퍼를 만들고 결정에서 사용하는 주요 단계는 [이 섹션](../offer-library/key-steps.md).
 
-[!DNL Offer Decisioning]에 더 익숙하고 하나 이상의 오퍼 결정을 이미 만든 경우에는 **[!UICONTROL Overview]** 탭에 최신 오퍼, 컬렉션 및 결정이 표시됩니다.
+익숙할 때 [!DNL Offer Decisioning] 그리고 귀하는 적어도 하나의 오퍼 결정, 즉 **[!UICONTROL Overview]** 탭에는 최근 오퍼, 컬렉션 및 결정이 표시됩니다.
 
 선택한 항목의 세부 정보에 직접 액세스하려면 오퍼나 결정을 클릭합니다.
 
-오퍼, 컬렉션 또는 의사 결정 목록에 액세스하려면 **[!UICONTROL View all]** 단추를 클릭하십시오.
+을(를) 클릭합니다. **[!UICONTROL View all]** 오퍼, 컬렉션 또는 결정 목록에 액세스할 수 있는 단추입니다.
 
 ![](../../assets/overview_view-all.png)
 

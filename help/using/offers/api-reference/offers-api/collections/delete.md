@@ -1,20 +1,21 @@
 ---
 title: 컬렉션 삭제
 description: 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 오퍼의 하위 집합입니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 8%
+source-wordcount: '152'
+ht-degree: 7%
 
 ---
 
 # 컬렉션 삭제
 
-때때로 컬렉션을 제거(DELETE)해야 할 수도 있습니다. 테넌트 컨테이너에서 만든 컬렉션만 삭제할 수 있습니다. 이 작업은 삭제하려는 컬렉션의 $id를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행하여 수행됩니다.
+때때로 컬렉션을 제거(DELETE)해야 할 수도 있습니다. 테넌트 컨테이너에서 만든 컬렉션만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 컬렉션의 $id를 사용하는 API.
 
 **API 형식**
 

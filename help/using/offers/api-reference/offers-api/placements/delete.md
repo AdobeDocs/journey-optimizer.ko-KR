@@ -1,20 +1,21 @@
 ---
 title: 배치 삭제
 description: 배치는 오퍼를 표시하는 데 사용되는 컨테이너입니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 6%
+source-wordcount: '143'
+ht-degree: 5%
 
 ---
 
 # 배치 삭제
 
-때때로 배치를 제거(DELETE)해야 할 수도 있습니다. 테넌트 컨테이너에서 만드는 배치만 삭제할 수 있습니다. 이 작업은 삭제하려는 배치의 인스턴스 ID를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행하여 수행됩니다.
+때때로 배치를 제거(DELETE)해야 할 수도 있습니다. 테넌트 컨테이너에서 만드는 배치만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 배치의 인스턴스 ID를 사용하는 API입니다.
 
 **API 형식**
 

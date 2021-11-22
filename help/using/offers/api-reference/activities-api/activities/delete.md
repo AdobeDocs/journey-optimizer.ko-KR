@@ -1,20 +1,21 @@
 ---
 title: 결정 삭제
 description: 결정에는 오퍼의 선택을 알리는 논리가 포함되어 있습니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 6%
+source-wordcount: '146'
+ht-degree: 5%
 
 ---
 
 # 의사 결정 삭제
 
-간혹 결정(DELETE 활동)을 제거(오퍼 활동)해야 할 수도 있습니다. 테넌트 컨테이너에서 생성하는 결정만 삭제할 수 있습니다. 이 작업은 삭제하려는 대체 오퍼의 $id를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행하여 수행됩니다.
+간혹 결정(DELETE 활동)을 제거(오퍼 활동)해야 할 수도 있습니다. 테넌트 컨테이너에서 생성하는 결정만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 대체 오퍼의 $id를 사용하는 API입니다.
 
 **API 형식**
 

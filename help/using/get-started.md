@@ -1,13 +1,14 @@
 ---
 title: Journey Optimizer
 description: Journey Optimizer 시작
-feature: 개요
-topic: 콘텐츠 관리
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '685'
 ht-degree: 95%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 95%
 
 [!DNL Adobe Journey Optimizer]는 기본적으로 [!DNL Adobe Experience Platform]을 기반으로 빌드되었으며 개인화 및 최적화를 위한 통합 실시간 고객 프로필, API 우선 오픈 프레임워크, 중앙 집중식 offer Decisioning 및 AI(인공 지능) 및 ML(머신 러닝)을 결합합니다. Journey Optimizer를 사용하면 전체 고객 여정에서 규모, 속도 및 유연성과 함께 차세대 상호 작용을 지능적으로 결정할 수 있습니다. [!DNL Adobe Journey Optimizer]를 사용하면 회사는 동일한 애플리케이션 내에서 예약된 마케팅 캠페인(예: 소매점의 주별 홍보)과 개인화된 개별 커뮤니케이션(예: 충성도 앱 고객이 이전에 재고 부족 상태인 항목을 검토했을 수 있는 항목에 대한 푸시 알림)을 모두 만들고 게재할 수 있습니다.
 
-[Journey Optimizer➡️](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;} 검색(비디오)
+➡️ [Journey Optimizer 살펴보기](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;} (비디오)
 
 
 ## 사용 사례
@@ -52,7 +53,7 @@ ht-degree: 95%
 
 ## 아키텍처
 
-[!DNL Adobe Journey Optimizer]의 기본 아키텍처, 통합 지점 및 [!DNL Journey Optimizer]의 다른 Adobe 애플리케이션과의 관계를 파악합니다.
+의 기본 아키텍처 이해 [!DNL Adobe Journey Optimizer], 통합 지점 및 의 관계 [!DNL Journey Optimizer] 다른 Adobe 애플리케이션과 함께 제공됩니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
 

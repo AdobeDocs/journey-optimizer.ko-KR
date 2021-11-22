@@ -1,13 +1,14 @@
 ---
 title: 산술 함수 라이브러리
 description: 산술 함수 라이브러리
-feature: 개인화
-topic: 개인화
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 7%
 
 ---
@@ -18,9 +19,9 @@ ht-degree: 7%
 
 ## 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에{#add}
 
-`+` (추가) 함수는 두 인수 표현식의 합계를 찾는 데 사용됩니다.
+다음 `+` (추가) 함수는 두 인수 표현식의 합계를 찾는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= double + double %}
@@ -36,9 +37,9 @@ ht-degree: 7%
 
 ## 곱하기{#multiply}
 
-`*` (곱하기) 함수는 두 인수 표현식의 제품을 찾는 데 사용됩니다.
+다음 `*` (곱하기) 함수는 두 인수 표현식의 제품을 찾는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= double * double %}
@@ -54,9 +55,9 @@ ht-degree: 7%
 
 ## 빼기{#substract}
 
-`-` (빼기) 함수는 두 인수 표현식의 차이를 찾는 데 사용됩니다.
+다음 `-` (빼기) 함수는 두 인수 표현식의 차이를 찾는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= double - double %}
@@ -72,9 +73,9 @@ ht-degree: 7%
 
 ## 나누기{#divide}
 
-`/`(division) 함수는 두 인수 표현식의 따옴표를 찾는 데 사용됩니다.
+다음 `/` (division) 함수는 두 인수 표현식의 따옴표를 찾는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= double / double %}
@@ -90,9 +91,9 @@ ht-degree: 7%
 
 ## 나머지{#remainder}
 
-`%` (modulo/additional) 함수는 두 인수 표현식을 나눈 후 나머지를 찾는 데 사용됩니다.
+다음 `%` (modulo/additional) 함수는 두 인수 표현식을 나눈 후 나머지를 찾는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= double % double %}

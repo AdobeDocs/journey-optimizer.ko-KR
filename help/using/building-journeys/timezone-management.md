@@ -1,20 +1,21 @@
 ---
 title: 시간대 관리
 description: 시간대 관리에 대해 알아보기
-feature: 여정
-topic: 콘텐츠 관리
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 3%
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
 # 시간대 관리 {#timezone_management}
 
-여정의 [속성](../building-journeys/journey-gs.md#change-properties)에서 시간대를 정의할 수 있습니다.
+에서 시간대를 정의할 수 있습니다 [속성](../building-journeys/journey-gs.md#change-properties) 여정 횟수.
 
 속성에 액세스하려면 화면 오른쪽 상단에 있는 연필 아이콘을 클릭합니다.
 
@@ -29,7 +30,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->프로필 시간대는 **기본 설정 세부 정보** 필드 그룹에 있는 **timeZone** 필드와 함께 작동합니다.
+>프로필 시간대는 **timeZone** 에 있는 필드 **기본 설정 세부 정보** 필드 그룹.
 
 ## 고정 시간대 정의 {#fixed-timezone}
 
@@ -39,7 +40,7 @@ ht-degree: 3%
 
 ![](../assets/journey72.png)
 
-## 프로필을 사용하여 여정 시간대 {#timezone-from-profiles} 정의
+## 프로필을 사용하여 여정 시간대 정의 {#timezone-from-profiles}
 
 여정의 시작 이벤트에 네임스페이스가 있는 경우, 여정이 Adobe Experience Platform의 실시간 고객 프로필 서비스에 도달할 수 있는 경우 시간대는 여정에 흐르는 개별 프로필에 지정된 시간대로 미리 정의됩니다.
 
@@ -47,7 +48,7 @@ Adobe Experience Platform 프로필에 시간대가 정의된 경우 여정에�
 
 개별 프로필에 시간대가 포함되어 있지 않으면 검색된 시간대가 시간대 필드에 정의된 시간대가 됩니다.
 
-이렇게 하려면 **[!UICONTROL Properties]**&#x200B;에서 **[!UICONTROL Use Profile timezone in waits and conditions]**&#x200B;을(를) 선택합니다.
+이렇게 하려면 다음을 수행합니다. **[!UICONTROL Properties]**, check **[!UICONTROL Use Profile timezone in waits and conditions]**.
 
 ![](../assets/journey73.png)
 

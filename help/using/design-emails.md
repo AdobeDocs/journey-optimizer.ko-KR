@@ -1,28 +1,29 @@
 ---
 title: 이메일 디자인
 description: 이메일 디자인 방법 알아보기
-feature: 개요
-topic: 콘텐츠 관리
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 7%
+source-wordcount: '135'
+ht-degree: 5%
 
 ---
 
 # 이메일 디자인 시작 {#get-started-content-design}
 
-[!DNL Journey Optimizer] 을 사용하여 전자 메일 콘텐츠를 만들 때 다음 작업을 수행할 수 있습니다.
+을 사용하여 이메일 컨텐츠를 만들 때 [!DNL Journey Optimizer]를 채울 수 있습니다.
 
-* **이메일 디자이너의 인터페이스** 를 통해 이메일 디자인을 수행하고  [Adobe Experience Manager Assets Essentials](assets-essentials.md)의 이미지를 활용할 수 있습니다. 이 섹션](create-email-content.md)에서 이메일 콘텐츠를 디자인하거나 기본 제공 템플릿 [을 사용하는 방법을 알아봅니다.
+* **이메일 디자인 기초** 이메일 디자이너의 인터페이스를 통해 [Adobe Experience Manager Assets Essentials](assets-essentials.md). 이메일 콘텐츠를 디자인하거나 기본 제공 템플릿을 사용하는 방법을 알아봅니다 [이 섹션](create-email-content.md).
 
-* **원시** HTML을 이메일 디자이너에 직접 코드하거나 붙여넣습니다. 이 섹션](existing-content.md#import-raw-html-code)에서 자신의 컨텐츠 [를 코딩하는 방법을 알아봅니다.
+* **원시 HTML 코드 또는 붙여넣기** 이메일 디자이너에서 바로 액세스할 수 있습니다. 자체 콘텐츠를 코딩하는 방법을 알아봅니다 [이 섹션](existing-content.md#import-raw-html-code).
 
-* **파일 또는 .** zip 폴더에서 기존 HTML 컨텐츠를 가져옵니다. 이 섹션](existing-content.md#import-html-content-from-file)에서 전자 메일 콘텐츠 [를 가져오는 방법을 알아봅니다.
+* **기존 HTML 콘텐츠 가져오기** 파일 또는 .zip 폴더에서 사용할 수 있습니다. 이메일 콘텐츠를 가져오는 방법을 알아봅니다 [이 섹션](existing-content.md#import-html-content-from-file).
 
-이러한 기능은 메시지 만들기 화면에서 이메일 디자이너에 액세스할 때 모두 사용할 수 있습니다. [메시지 만들기에 대해 자세히 알아보십시오](create-message.md).
+이러한 기능은 메시지 만들기 화면에서 이메일 디자이너에 액세스할 때 모두 사용할 수 있습니다. [메시지 만들기에 대해 자세히 알아보기](create-message.md).
 
 ![](assets/content-editors.png)
 

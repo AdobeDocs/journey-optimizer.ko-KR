@@ -16,11 +16,11 @@ ht-degree: 7%
 
 # 의사 결정 관리에 대한 액세스 권한 부여 {#granting-acess-to-decision-management}
 
-offer decisioning 기능에 액세스하고 사용할 수 있는 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}를 사용하여 관리됩니다.
+offer decisioning 기능에 액세스하고 사용할 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
-의사 결정 관리 기능에 대한 액세스 권한을 부여하려면 **[!UICONTROL Product profile]**&#x200B;을 만들고 해당 권한을 사용자에게 할당해야 합니다. [이 섹션](../../administration/permissions.md)에서 [!DNL Journey Optimizer] 사용자 및 권한 관리에 대해 자세히 알아보십시오.
+의사 결정 관리 기능에 대한 액세스 권한을 부여하려면 **[!UICONTROL Product profile]** 사용자에게 해당 권한을 할당합니다. 관리에 대해 자세히 알아보기 [!DNL Journey Optimizer] 사용자 및 권한 [이 섹션](../../administration/permissions.md).
 
-의사 결정 관리에 대한 권한은 [이 섹션](../../administration/high-low-permissions.md#manage-decisioning)에 나열되어 있습니다.
+결정 관리에 대한 권한은 다음과 같습니다. [이 섹션](../../administration/high-low-permissions.md#manage-decisioning).
 
 <!--If you are a [!DNL Journey Optimizer] user leveraging the **Decision Management** functionality, you need to have the [Decision management permissions](../../administration/high-low-permissions.md#decisions-permissions) enabled to acces all related capabilities. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
 
@@ -30,7 +30,7 @@ Grant access to Offer Decisioning
 
 The steps below only apply to **Experience Platform users** leveraging the [!DNL Offer Decisioning] service.-->
 
-1. [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html)을 연 다음 **[!UICONTROL Adobe Experience Platform]**&#x200B;를 선택합니다.
+1. 를 엽니다. [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html)를 선택하고 을 선택합니다. **[!UICONTROL Adobe Experience Platform]**.
 
    <!--![](../../assets/offers_admin_console.png)-->
 
@@ -42,7 +42,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
    >
    >조직에 대해 설정하려는 다양한 역할에 해당하는 제품 프로필을 원하는 만큼 보유할 수 있습니다.
 
-1. 제품 프로필의 이름과 설명을 지정한 다음 **[!UICONTROL Next]** 을 클릭합니다.
+1. 제품 프로필의 이름과 설명을 지정한 다음 **[!UICONTROL Next]**.
 
    ![](../../assets/create-product-profile.png)
 
@@ -52,7 +52,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
    ![](../../assets/enable-services.png)
 
-1. **[!UICONTROL Decision Management]** 섹션에서 **+** 단추를 클릭하여 제품 프로필에 권한을 지정한 다음 **[!UICONTROL Save]** 를 클릭합니다.
+1. 에서 **[!UICONTROL Decision Management]** 섹션에서 **+** 버튼을 클릭하여 제품 프로필에 권한을 지정한 다음 **[!UICONTROL Save]**.
 
    ![](../../assets/configure-profile.png)
 
@@ -84,5 +84,5 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
 >[!NOTE]
 >
->사용자 권한을 관리하는 방법에 대한 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}를 참조하십시오.
+>사용자 권한을 관리하는 방법에 대한 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 

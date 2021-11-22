@@ -1,14 +1,15 @@
 ---
 title: Adobe Analytics 데이터 기본 정보
 description: Adobe Analytics 데이터를 활용하는 방법 알아보기
-feature: 이벤트
-topic: 관리
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '190'
+ht-degree: 8%
 
 ---
 
@@ -22,9 +23,9 @@ ht-degree: 1%
 
 이를 수행하려면 Adobe Experience Platform에서 활용할 보고서 세트를 활성화해야 합니다.
 
-1. Adobe Experience Platform의 Adobe Analytics 섹션에서 **[!UICONTROL Sources]** 을 선택하고 **[!UICONTROL Add data]** 을 선택합니다. 사용 가능한 Adobe Analytics 보고서 세트 목록이 표시됩니다.
+1. Adobe Experience Platform에서 **[!UICONTROL Sources]** 그런 다음 **[!UICONTROL Add data]** ( Adobe Analytics 섹션)을 참조하십시오. 사용 가능한 Adobe Analytics 보고서 세트 목록이 표시됩니다.
 
-1. 활성화할 보고서 세트를 선택하고 **[!UICONTROL Next]** 을 클릭한 다음 **[!UICONTROL Finish]** 를 클릭합니다.
+1. 활성화할 보고서 세트를 선택하고 **[!UICONTROL Next]** 을(를) 클릭합니다. **[!UICONTROL Finish]**.
 
 1. 소스 데이터 ID를 베타 프로그램 담당자와 공유합니다.
 
@@ -32,4 +33,4 @@ ht-degree: 1%
 
 ![](../assets/jo-event9.png)
 
-[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target=&quot;_blank&quot;} 및 [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target=&quot;_blank&quot;}에서 Adobe Analytics 소스 커넥터에 대해 자세히 알아보십시오.
+에서 Adobe Analytics 소스 커넥터에 대해 자세히 알아보십시오  [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR){target=&quot;_blank&quot;} 및 [튜토리얼](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR){target=&quot;_blank&quot;}.

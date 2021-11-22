@@ -1,13 +1,14 @@
 ---
 title: 데이터 소스 정보
 description: 데이터 소스 구성 방법 알아보기
-feature: 데이터 소스
-topic: 관리
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: d69779418d50fdc4b75cc777b27a62392d1634a0
+exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '288'
 ht-degree: 72%
 
 ---
@@ -39,4 +40,4 @@ ht-degree: 72%
 >
 >이제 데이터 소스에 대해 스키마 관계가 지원됩니다.
 
-Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}를 시청하십시오.
+Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 화면에서 확인하십시오 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}.

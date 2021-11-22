@@ -1,14 +1,15 @@
 ---
 title: 객체 함수 라이브러리
 description: 객체 함수 라이브러리
-feature: 개인화
-topic: 개인화
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -16,9 +17,9 @@ ht-degree: 10%
 
 ## null임{#isNull}
 
-`isNull` 함수는 개체 참조가 없는지 확인합니다.
+다음 `isNull` 함수는 개체 참조가 존재하지 않는지 확인합니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= isNull(object) %}
@@ -34,9 +35,9 @@ ht-degree: 10%
 
 ## null이 아님{#isNotNull}
 
-`isNotNull` 함수는 개체 참조가 있는지 여부를 결정합니다.
+다음 `isNotNull` 함수는 개체 참조가 있는지 여부를 결정합니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= isNotNull(object) %}

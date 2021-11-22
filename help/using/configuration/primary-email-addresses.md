@@ -11,17 +11,17 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: 애플리케이션 설정
-topic: 관리
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 7%
+source-wordcount: '116'
+ht-degree: 5%
 
 ---
-
 
 # 기본 이메일 주소 변경
 
@@ -29,8 +29,8 @@ ht-degree: 7%
 
 Journey Optimizer을 사용하면 프로필 서비스에서 사용할 이메일 주소를 확인하고 몇 개의 주소를 사용할 수 있는 경우 우선 순위를 지정할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL Channels]** `>` **[!UICONTROL General]** 메뉴에 액세스합니다.
-1. 이 화면에 표시되는 프로필의 이메일 주소를 결정하는 데 현재 기본적으로 사용되는 필드입니다. **[!UICONTROL Edit]** 을 클릭하여 변경합니다.
+1. 액세스 권한  **[!UICONTROL Channels]** `>` **[!UICONTROL General]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+1. 이 화면에 표시되는 프로필의 이메일 주소를 결정하는 데 현재 기본적으로 사용되는 필드입니다. 클릭 **[!UICONTROL Edit]** 변경
 
    ![](../assets/primary-address.png)
 
@@ -38,7 +38,7 @@ Journey Optimizer을 사용하면 프로필 서비스에서 사용할 이메일 
 
    ![](../assets/primary-address-edit.png)
 
-1. 사용 가능한 이메일 유형 XDM 필드 목록이 표시됩니다. 사용할 필드를 선택한 다음 **[!UICONTROL Save]** 을 클릭합니다.
+1. 사용 가능한 이메일 유형 XDM 필드 목록이 표시됩니다. 사용할 필드를 선택한 다음 를 클릭합니다 **[!UICONTROL Save]**.
 
    ![](../assets/primary-address-field.png)
 

@@ -1,13 +1,14 @@
 ---
 title: 컬렉션 만들기
 description: 컬렉션을 사용하여 오퍼를 구성하는 방법을 알아봅니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '291'
 ht-degree: 3%
 
 ---
@@ -18,27 +19,27 @@ ht-degree: 3%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-오퍼 컬렉션 목록은 **[!UICONTROL Offers]** 메뉴에서 액세스할 수 있습니다.
+오퍼 컬렉션 목록은 **[!UICONTROL Offers]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](../../assets/collections_list.png)
 
 두 가지 유형의 컬렉션을 만들 수 있습니다.
 
-* **동적** 컬렉션은 태그를 기반으로 오퍼의 컬렉션을 나타냅니다. 이러한 컬렉션은 자동으로 업데이트됩니다. 예를 들어 선택한 태그로 새 오퍼가 만들어지면 자동으로 컬렉션에 추가됩니다.
+* **동적 컬렉션** 태그를 기반으로 한 오퍼의 컬렉션입니다. 이러한 컬렉션은 자동으로 업데이트됩니다. 예를 들어 선택한 태그로 새 오퍼가 만들어지면 자동으로 컬렉션에 추가됩니다.
 
-* **정적** 컬렉션은 컬렉션에 포함할 개별 오퍼를 수동으로 선택하여 빌드된 컬렉션입니다. 컬렉션에 더 많은 오퍼를 수동으로 추가하여 컬렉션만 업데이트할 수 있습니다.
+* **정적 컬렉션** 컬렉션은 컬렉션에 포함할 개별 오퍼를 수동으로 선택하여 빌드됩니다. 컬렉션에 더 많은 오퍼를 수동으로 추가하여 컬렉션만 업데이트할 수 있습니다.
 
 컬렉션을 만들려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL Collections]** 탭으로 이동한 다음 **[!UICONTROL Create collection]** 를 클릭합니다.
+1. 로 이동합니다. **[!UICONTROL Collections]** 탭을 클릭한 다음 **[!UICONTROL Create collection]**.
 
 1. 만들 컬렉션의 이름과 유형을 지정합니다.
 
    ![](../../assets/collection_create.png)
 
-1. 동적 컬렉션을 만들려면 왼쪽 창에서 컬렉션에 추가할 오퍼의 태그를 선택한 다음 **[!UICONTROL Save]** 을 클릭합니다. 선택한 태그가 있는 모든 오퍼가 컬렉션에 저장됩니다.
+1. 동적 컬렉션을 만들려면 왼쪽 창에서 컬렉션에 추가할 오퍼의 태그를 선택한 다음 을 클릭합니다 **[!UICONTROL Save]**. 선택한 태그가 있는 모든 오퍼가 컬렉션에 저장됩니다.
 
-   태그 만들기에 대한 자세한 내용은 [태그 만들기](../offer-library/creating-tags.md)를 참조하십시오.
+   태그 만들기에 대한 자세한 내용은 [태그 만들기](../offer-library/creating-tags.md).
 
    ![](../../assets/dynamic_collection.png)
 

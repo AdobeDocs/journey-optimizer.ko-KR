@@ -11,17 +11,17 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: 애플리케이션 설정
-topic: 관리
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 27%
+source-wordcount: '165'
+ht-degree: 26%
 
 ---
-
 
 # 하위 도메인에 Google TXT 레코드 추가
 
@@ -31,13 +31,13 @@ TXT 레코드는 외부 소스에서 읽을 수 있는 도메인 관련 텍스�
 
 >[!NOTE]
 >
-> 이 작업은 하위 도메인이 **[!UICONTROL Success]** 상태를 갖는 경우에만 수행할 수 있습니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](access-subdomains.md)을 참조하십시오.
+> 이 작업은 하위 도메인에 **[!UICONTROL Success]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](access-subdomains.md).
 
-Google TXT 레코드를 하위 도메인에 추가하려면 다음 단계를 수행합니다.
+하위 도메인에 Google TXT 레코드를 추가하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** 메뉴에서 하위 도메인을 엽니다.
+1. 에서 하위 도메인을 엽니다. **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-1. Google txt 레코드 섹션에서 [G Suite 관리 도구](https://support.google.com/a/answer/183895)에 생성된 확인 코드를 입력한 다음 **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. Google txt 레코드 섹션에서 [G Suite 관리 도구](https://support.google.com/a/answer/183895)를 클릭한 다음 **[!UICONTROL Save]**.
 
    ![](../assets/subdomain-google-txt.png)
 

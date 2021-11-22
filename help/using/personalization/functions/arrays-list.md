@@ -1,13 +1,14 @@
 ---
 title: 배열 함수 라이브러리
 description: 배열 함수 라이브러리
-feature: 개인화
-topic: 개인화
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
@@ -18,9 +19,9 @@ ht-degree: 5%
 
 ## 고유{#distinct}
 
-`distinct` 함수는 중복된 값이 제거된 배열 또는 목록의 값을 가져오는 데 사용됩니다.
+다음 `distinct` 함수는 중복 값이 제거된 배열 또는 목록의 값을 가져오는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= distinct(array) %}
@@ -36,9 +37,9 @@ ht-degree: 5%
 
 ## 첫 번째 항목{#head}
 
-`head` 함수는 배열 또는 목록의 첫 번째 항목을 반환하는 데 사용됩니다.
+다음 `head` 함수는 배열 또는 목록의 첫 번째 항목을 반환하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= head({array}) %}
@@ -46,17 +47,17 @@ ht-degree: 5%
 
 **예**
 
-다음 작업은 가격이 가장 높은 상위 5개 주문 중 첫 번째 주문을 반환합니다. `topN` 함수에 대한 자세한 내용은 array](#first-n) 섹션의 [첫 번째 `n`에서 찾을 수 있습니다.
+다음 작업은 가격이 가장 높은 상위 5개 주문 중 첫 번째 주문을 반환합니다. 에 대한 추가 정보 `topN` 함수는 [첫 번째 `n` 어레이](#first-n) 섹션을 참조하십시오.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## {#first-n} 배열의 첫 번째 `n`
+## 첫 번째 `n` 어레이 {#first-n}
 
-`topN` 함수는 지정된 숫자 식을 기반으로 오름차순으로 정렬한 경우 배열의 첫 번째 `N` 항목을 반환하는 데 사용됩니다.
+다음 `topN` 함수는 `N` 지정된 숫자 식을 기반으로 오름차순으로 정렬하는 경우 배열의 항목이 표시됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= topN(array, value, amount) %}
@@ -78,9 +79,9 @@ ht-degree: 5%
 
 ## in{#in}
 
-`in` 함수는 항목이 배열 또는 목록의 구성원인지 확인하는 데 사용됩니다.
+다음 `in` 함수가 배열 또는 목록의 구성원인지 여부를 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= in(value, array) %}
@@ -96,9 +97,9 @@ ht-degree: 5%
 
 ## 포함{#includes}
 
-`includes` 함수는 배열 또는 목록에 지정된 항목이 포함되어 있는지 여부를 확인하는 데 사용됩니다.
+다음 `includes` 함수는 배열 또는 목록에 지정된 항목이 포함되어 있는지 여부를 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= includes(array,item) %}
@@ -114,9 +115,9 @@ ht-degree: 5%
 
 ## 교차{#intersects}
 
-`intersects` 함수는 두 배열 또는 목록에 하나 이상의 공통 멤버가 있는지 확인하는 데 사용됩니다.
+다음 `intersects` 두 배열이나 목록에 하나 이상의 공통 멤버가 있는지 확인하는 데 사용되는 함수입니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= intersects(array1, array2) %}
@@ -150,11 +151,11 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## 배열{#last-n}의 마지막 `n`
+## 마지막 `n` 어레이{#last-n}
 
-`bottomN` 함수는 지정된 숫자 식을 기반으로 오름차순으로 정렬하는 경우 배열의 마지막 `N` 항목을 반환하는 데 사용됩니다.
+다음 `bottomN` 함수는 `N` 지정된 숫자 식을 기반으로 오름차순으로 정렬하는 경우 배열의 항목이 표시됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= bottomN(array, value, amount) %}
@@ -177,13 +178,13 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 아님{#notin}
 
-`notIn` 함수는 항목이 배열 또는 목록의 멤버가 아닌지 확인하는 데 사용됩니다.
+다음 `notIn` 함수는 항목이 배열 또는 목록의 멤버가 아닌지 확인하는 데 사용됩니다.
 
 >[!NOTE]
 >
->`notIn` 함수 *또한*&#x200B;는 두 값이 모두 null과 동일하지 않도록 합니다. 따라서 결과는 `in` 함수의 정확한 부정은 아닙니다.
+>다음 `notIn` 함수 *또한* 두 값이 모두 null인지 확인합니다. 따라서, 그 결과는 `in` 함수 위에 있어야 합니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= notIn(value, array) %}
@@ -200,9 +201,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 하위 집합{#subset}
 
-`subsetOf` 함수는 특정 배열(배열 A)이 다른 배열(배열 B)의 하위 집합인지 확인하는 데 사용됩니다. 즉, 배열 A의 모든 요소는 배열 B의 요소입니다.
+다음 `subsetOf` 함수는 특정 배열(배열 A)이 다른 배열(배열 B)의 하위 집합인지 여부를 확인하는 데 사용됩니다. 즉, 배열 A의 모든 요소는 배열 B의 요소입니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= subsetOf(array1, array2) %}
@@ -218,9 +219,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 의 상위 집합{#superset}
 
-`supersetOf` 함수는 특정 배열(배열 A)이 다른 배열(배열 B)의 상위 집합인지 확인하는 데 사용됩니다. 즉, 해당 배열 A에 배열 B의 모든 요소가 포함됩니다.
+다음 `supersetOf` 함수는 특정 배열(배열 A)이 다른 배열(배열 B)의 상위 집합인지 여부를 확인하는 데 사용됩니다. 즉, 해당 배열 A에 배열 B의 모든 요소가 포함됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= supersetOf(array1, array2) %}
@@ -233,10 +234,3 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
 ```
-
-
-
-
-
-
-

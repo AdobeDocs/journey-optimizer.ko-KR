@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## 기본 대체 값{#default-value}
 
-특성이 비어 있거나 null인 경우 `Default Fallback Value` 도우미가 기본 폴백 값을 반환하는 데 사용됩니다. 이 메커니즘은 프로필 속성 및 여정 이벤트에 작동합니다.
+다음 `Default Fallback Value` 특성이 비어 있거나 null인 경우 도우미 를 사용하여 기본 폴백 값을 반환합니다. 이 메커니즘은 프로필 속성 및 여정 이벤트에 작동합니다.
 
 **구문**
 
@@ -25,11 +25,11 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 ```
 
-이 예에서는 이 프로필의 `firstName` 속성이 비어 있거나 null인 경우 값 `there`이 표시됩니다.
+이 예에서 값 `there` 이 표시되는 경우 `firstName` 이 프로필의 특성이 비어 있거나 null입니다.
 
 ## 조건{#if-function}
 
-`if` 도우미는 조건부 블록을 정의하는 데 사용됩니다.
+다음 `if` 도우미 를 사용하여 조건부 블록을 정의합니다.
 표현식 평가가 true를 반환하는 경우 블록이 렌더링되지 않으면 무시됩니다.
 
 **구문**
@@ -39,11 +39,11 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-`if` 도우미 다음에 `else` 문을 입력하여 동일한 조건이 false인 경우 실행할 코드 블록을 지정할 수 있습니다.
-`elseif` 문은 첫 번째 문이 false를 반환하는 경우 테스트할 새 조건을 지정합니다.
+다음을 수행합니다 `if` 도우미, `else` 동일한 조건이 false인 경우 실행할 코드 블록을 지정하는 문입니다.
+다음 `elseif` 문은 첫 번째 문이 false를 반환하는 경우 테스트할 새 조건을 지정합니다.
 
 
-**형식**
+**포맷**
 
 ```sql
 {
@@ -116,12 +116,12 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 
 >[!NOTE]
 >
->세그멘테이션 및 세그멘테이션 서비스에 대한 자세한 내용은 이 [섹션](../../segment/about-segments.md)을 참조하십시오.
+>세그멘테이션 및 세그멘테이션 서비스에 대해 자세히 알아보려면 다음 문서를 참조하십시오 [섹션](../../segment/about-segments.md).
 
 
 ## 그렇지 않은 경우{#unless}
 
-`unless` 도우미는 조건부 블록을 정의하는 데 사용됩니다. `if` 도우미 대신 표현식 평가가 false를 반환하는 경우 블록이 렌더링됩니다.
+다음 `unless` 도우미 를 사용하여 조건부 블록을 정의합니다. The에 대한 반대 `if`  helper, 표현식 평가가 false를 반환하는 경우 블록이 렌더링됩니다.
 
 **구문**
 
@@ -143,9 +143,8 @@ Some edu specific content Content
 
 ## 각{#each}
 
-`each` 도우미는 배열을 반복하는 데 사용됩니다.
-도우미 구문은 ```{{#each ArrayName}}``` YourContent {{/each}}입니다.
-블록 내의 **this** 키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다. {{@index}}을(를) 사용하여 배열 요소의 인덱스를 렌더링할 수 있습니다.
+다음 `each` 도우미 를 사용하여 배열을 반복합니다.
+도우미의 구문은 다음과 같습니다 ```{{#each ArrayName}}``` YourContent {{/each}} 키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다 **이** 블록 안쪽에서요 {{@index}}을(를) 사용하여 배열 요소의 인덱스를 렌더링할 수 있습니다.
 
 **구문**
 
@@ -177,7 +176,7 @@ Some edu specific content Content
 
 ## 사용{#with}
 
-`with` 도우미는 템플릿 부품의 평가 토큰을 변경하는 데 사용됩니다.
+다음 `with` helper는 템플릿 부품의 평가 토큰을 변경하는 데 사용됩니다.
 
 **구문**
 
@@ -187,7 +186,7 @@ Some edu specific content Content
 {{/with}}
 ```
 
-`with` 도우미는 바로 가기 변수를 정의하는 데에도 유용합니다.
+다음 `with` 도우미 를 사용하면 바로 가기 변수를 정의할 수도 있습니다.
 
 **예**
 
@@ -202,7 +201,7 @@ Some edu specific content Content
 
 ## Let{#let}
 
-`let` 함수를 사용하면 표현식을 변수로 저장하여 나중에 쿼리에서 사용할 수 있습니다.
+다음 `let` 함수를 사용하면 표현식을 변수로 저장하여 나중에 쿼리에서 사용할 수 있습니다.
 
 **구문**
 

@@ -1,14 +1,15 @@
 ---
 title: 집계 함수 라이브러리
 description: 집계 함수 라이브러리
-feature: 개인화
-topic: 개인화
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 9%
+source-wordcount: '157'
+ht-degree: 8%
 
 ---
 
@@ -18,9 +19,9 @@ ht-degree: 9%
 
 ## 카운트{#count}
 
-`count` 함수는 지정된 배열 내의 요소 수를 반환합니다.
+다음 `count` 함수는 지정된 배열 내의 요소 수를 반환합니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= count(array) %}
@@ -36,9 +37,9 @@ ht-degree: 9%
 
 ## 합계{#sum}
 
-`sum` 함수는 배열 내에서 선택한 모든 값의 합계를 반환합니다.
+다음 `sum` 함수는 배열 내에서 선택한 모든 값의 합계를 반환합니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= sum(array) %}
@@ -54,9 +55,9 @@ ht-degree: 9%
 
 ## 평균{#average}
 
-`average` 함수는 배열 내에서 선택한 모든 값의 산술 평균을 반환합니다.
+다음 `average` 함수는 배열 내에서 선택한 모든 값의 산술 평균을 반환합니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= average(array) %}
@@ -72,9 +73,9 @@ ht-degree: 9%
 
 ## 최소값{#min}
 
-`min` 함수는 배열 내에서 선택한 모든 값 중 가장 작은 값을 반환합니다.
+다음 `min` 함수는 배열 내에서 선택한 모든 값 중 가장 작은 값을 반환합니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= min(array) %}
@@ -90,9 +91,9 @@ ht-degree: 9%
 
 ## 최대값{#max}
 
-`max` 함수는 배열 내에서 선택한 모든 값 중 가장 큰 값을 반환합니다.
+다음 `max` 함수는 배열 내에서 선택한 모든 값 중 가장 큰 값을 반환합니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= max(array) %}

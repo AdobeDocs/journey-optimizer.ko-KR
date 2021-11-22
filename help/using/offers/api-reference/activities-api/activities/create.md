@@ -1,24 +1,25 @@
 ---
 title: 의사 결정 만들기
 description: 결정에는 오퍼의 선택을 알리는 논리가 포함되어 있습니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 12%
+source-wordcount: '119'
+ht-degree: 10%
 
 ---
 
 # 의사 결정 만들기
 
-컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 POST 요청을 수행하여 결정(이전에 오퍼 활동이라고 함)을 생성할 수 있습니다.
+에 POST 요청을 수행하여 결정(이전에 오퍼 활동이라고 함)을 만들 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
 
 ## Accept 및 Content-Type 헤더
 
-다음 표는 요청 헤더의 *Content-Type* 및 *Accept* 필드를 구성하는 유효한 값을 보여 줍니다.
+다음 표에서는 *컨텐츠 유형* 및 *수락* 요청 헤더의 필드:
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -68,7 +69,7 @@ curl -X POST \
 
 **응답**
 
-성공적인 응답은 해당 고유 인스턴스 ID 및 배치 `@id`을 포함하여 새로 생성된 결정에 대한 정보를 반환합니다. 이후 단계에서 인스턴스 ID를 사용하여 결정을 업데이트하거나 삭제할 수 있습니다.
+성공적인 응답은 고유한 인스턴스 ID 및 배치를 포함하여 새로 생성된 결정에 대한 정보를 반환합니다 `@id`. 이후 단계에서 인스턴스 ID를 사용하여 결정을 업데이트하거나 삭제할 수 있습니다.
 
 ```json
 {

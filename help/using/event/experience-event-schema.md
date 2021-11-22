@@ -5,26 +5,27 @@ feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
+exl-id: f19749c4-d683-4db6-bede-9360b9610eef
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# [!DNL Journey Optimizer] 이벤트에 대한 ExperienceEvent 스키마 정보
+# 용 ExperienceEvent 스키마 [!DNL Journey Optimizer] 이벤트
 
 [!DNL Journey Optimizer] 이벤트는 스트리밍 수집을 통해 Adobe Experience Platform으로 전송되는 XDM 경험 이벤트입니다.
 
-이와 같이 [!DNL Journey Optimizer]에 대한 이벤트 설정을 위한 중요한 전제 조건은 Adobe Experience Platform의 Experience Data Model(또는 XDM) 및 XDM Experience Event 스키마를 구성하는 방법과 XDM 형식 데이터를 Adobe Experience Platform으로 스트리밍하는 방법에 익숙하다는 것입니다.
+그러므로, [!DNL Journey Optimizer] Adobe Experience Platform의 Experience 데이터 모델(또는 XDM) 및 XDM 경험 이벤트 스키마를 구성하는 방법과 XDM 형식 데이터를 Adobe Experience Platform으로 스트리밍하는 방법에 대해 알고 있습니다.
 
-## [!DNL Journey Optimizer] 이벤트에 대한 스키마 요구 사항
+## 스키마 요구 사항 [!DNL Journey Optimizer] 이벤트
 
-[!DNL Journey Optimizer]에 대한 이벤트를 설정하는 첫 번째 단계는 이벤트를 나타내기 위해 정의된 XDM 스키마와 Adobe Experience Platform에서 이벤트의 인스턴스를 기록하도록 만들어진 데이터 세트가 있는지 확인하는 것입니다. 이벤트에 대한 데이터 세트가 반드시 필요한 것은 아니지만 특정 데이터 세트에 이벤트를 보내면 향후 참조 및 분석을 위해 사용자의 이벤트 내역을 유지할 수 있으므로 항상 좋은 생각입니다. 이벤트에 적절한 스키마와 데이터 세트가 아직 없는 경우 Adobe Experience Platform 웹 인터페이스에서 두 작업을 모두 수행할 수 있습니다.
+에 대한 이벤트를 설정하는 첫 번째 단계입니다 [!DNL Journey Optimizer] 이벤트를 나타내기 위해 정의된 XDM 스키마와 Adobe Experience Platform에서 이벤트의 인스턴스를 기록하도록 만들어진 데이터 세트가 있는지 확인합니다. 이벤트에 대한 데이터 세트가 반드시 필요한 것은 아니지만 특정 데이터 세트에 이벤트를 보내면 향후 참조 및 분석을 위해 사용자의 이벤트 내역을 유지할 수 있으므로 항상 좋은 생각입니다. 이벤트에 적절한 스키마와 데이터 세트가 아직 없는 경우 Adobe Experience Platform 웹 인터페이스에서 두 작업을 모두 수행할 수 있습니다.
 
 ![](../assets/schema1.png)
 
-[!DNL Journey Optimizer] 이벤트에 사용할 모든 XDM 스키마는 다음 요구 사항을 충족해야 합니다.
+에 사용될 모든 XDM 스키마 [!DNL Journey Optimizer] 이벤트는 다음 요구 사항을 충족해야 합니다.
 
 * 스키마는 XDM ExperienceEvent 클래스여야 합니다.
 
@@ -68,14 +69,14 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 
 >[!NOTE]
 >
->[Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)의 스키마 관계에 대해 자세히 알아보십시오.
+>의 스키마 관계에 대해 자세히 알아보기 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
 그런 다음 Journey Optimizer에서 연결된 테이블의 모든 필드를 활용할 수 있습니다.
 
-* 비즈니스 또는 단일 이벤트를 구성할 때 [자세히 보기](../event/experience-event-schema.md#unitary_event_configuration)
-* 여정에서 조건을 사용할 때 [자세히 보기](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* 메시지 개인화에서 [자세히 보기](../event/experience-event-schema.md#message_personalization)
-* 사용자 지정 작업 개인화에서 [자세히 보기](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* 비즈니스 또는 단일 이벤트를 구성할 때 [자세한 내용](../event/experience-event-schema.md#unitary_event_configuration)
+* 여정에서 조건을 사용할 때, [자세한 내용](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* 메시지 개인화에서, [자세한 내용](../event/experience-event-schema.md#message_personalization)
+* 사용자 지정 작업 개인화에서, [자세한 내용](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### 이벤트 구성{#unitary_event_configuration}
 
@@ -91,7 +92,7 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 * 이벤트 키 공식
 * 이벤트 id 조건(규칙 기반 이벤트)
 
-단일 이벤트를 구성하는 방법에 대해 알아보려면 이 [page](../event/about-creating.md)을 참조하십시오.
+단일 이벤트를 구성하는 방법에 대해 알아보려면 다음을 참조하십시오 [페이지](../event/about-creating.md).
 
 ### 이벤트 컨텍스트를 사용한 여정 조건{#journey_conditions_using_event_context}
 
@@ -101,7 +102,7 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 
 ![](../assets/schema12.png)
 
-여정 조건을 정의하는 방법에 대해 알아보려면 이 [page](../building-journeys/condition-activity.md)을 참조하십시오.
+여정 조건을 정의하는 방법에 대해 알아보려면 다음을 참조하십시오 [페이지](../building-journeys/condition-activity.md).
 
 ### 메시지 개인화{#message_personalization}
 
@@ -109,7 +110,7 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 
 ![](../assets/schema14.png)
 
-컨텍스트 기반 여정 정보로 메시지를 개인화하는 방법에 대해 알려면 이 [page](../personalization/personalization-use-case.md)을 참조하십시오.
+상황별 여정 정보를 사용하여 메시지를 개인화하는 방법에 대해 알려면 다음을 참조하십시오 [페이지](../personalization/personalization-use-case.md).
 
 ### 여정 이벤트 컨텍스트를 사용한 사용자 지정 작업 개인화{#custom_action_personalization_with_journey_event_context}
 
@@ -117,4 +118,4 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 
 ![](../assets/schema13.png)
 
-사용자 지정 작업을 사용하는 방법에 대한 자세한 내용은 이 [page](../building-journeys/using-custom-actions.md)을 참조하십시오.
+사용자 지정 작업을 사용하는 방법에 대해 알아보려면 다음을 참조하십시오 [페이지](../building-journeys/using-custom-actions.md).

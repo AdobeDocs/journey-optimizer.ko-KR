@@ -1,14 +1,15 @@
 ---
 title: 함수 라이브러리 매핑
 description: 함수 라이브러리 매핑
-feature: 개인화
-topic: 개인화
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
+exl-id: de6a8da2-55cf-4105-ba93-40c556732626
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 8%
+source-wordcount: '102'
+ht-degree: 6%
 
 ---
 
@@ -18,9 +19,9 @@ ht-degree: 8%
 
 ## 가져오기{#get}
 
-`get` 함수는 지정된 키에 대한 맵 값을 검색하는 데 사용됩니다.
+다음 `get` 함수는 지정된 키에 대한 맵 값을 검색하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= get(map, string) %}
@@ -28,7 +29,7 @@ ht-degree: 8%
 
 **예**
 
-다음 작업은 키 `example@example.com`에 대한 ID 맵의 값을 가져옵니다.
+다음 작업은 키에 대한 ID 맵의 값을 가져옵니다 `example@example.com`.
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
@@ -36,9 +37,9 @@ ht-degree: 8%
 
 ## 키{#keys}
 
-`keys` 함수는 지정된 맵에 대한 모든 키를 검색하는 데 사용됩니다.
+다음 `keys` 함수는 지정된 맵에 대한 모든 키를 검색하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= keys(map) %}
@@ -46,7 +47,7 @@ ht-degree: 8%
 
 **예**
 
-다음 작업은 맵 `identityMap`에 대한 모든 키를 가져옵니다.
+다음 작업은 맵의 모든 키를 가져옵니다 `identityMap`.
 
 ```sql
 {%= keys(identityMap) %}
@@ -54,9 +55,9 @@ ht-degree: 8%
 
 ## 값{#values}
 
-`values` 함수는 지정된 맵의 모든 값을 검색하는 데 사용됩니다.
+다음 `values` 함수는 지정된 맵의 모든 값을 검색하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= values(map) %}
@@ -64,7 +65,7 @@ ht-degree: 8%
 
 **예**
 
-다음 작업은 맵 `identityMap`에 대한 모든 값을 가져옵니다.
+다음 작업은 맵의 모든 값을 가져옵니다 `identityMap`.
 
 ```sql
 {%= values(identityMap) %}

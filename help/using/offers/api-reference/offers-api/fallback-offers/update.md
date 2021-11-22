@@ -1,26 +1,27 @@
 ---
 title: 대체 오퍼 업데이트
 description: 다른 오퍼에 대한 자격이 없는 고객에게 대체 오퍼가 전송됩니다
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 11%
+source-wordcount: '169'
+ht-degree: 10%
 
 ---
 
 # 대체 오퍼 업데이트
 
-[!DNL Offer Library] API에 PATCH 요청을 하여 컨테이너에서 대체 오퍼를 수정하거나 업데이트할 수 있습니다.
+에 PATCH 요청을 만들어 컨테이너에서 대체 오퍼를 수정하거나 업데이트할 수 있습니다. [!DNL Offer Library] API.
 
-사용 가능한 작업을 포함한 JSON 패치에 대한 자세한 내용은 공식 [JSON 패치 설명서](http://jsonpatch.com/)를 참조하십시오.
+사용 가능한 작업을 포함한 JSON 패치에 대한 자세한 내용은 공식 문서를 참조하십시오 [JSON 패치 설명서](http://jsonpatch.com/).
 
 ## Accept 및 Content-Type 헤더
 
-다음 표는 요청 헤더의 *Content-Type* 및 *Accept* 필드를 구성하는 유효한 값을 보여 줍니다.
+다음 표에서는 *컨텐츠 유형* 및 *수락* 요청 헤더의 필드:
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -61,13 +62,13 @@ curl -X PATCH \
 
 | 매개 변수 | 설명 |
 | --------- | ----------- |
-| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업은 다음과 같습니다.`add`, `replace` 및 `remove` |
+| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업은 다음과 같습니다. `add`, `replace`, 및 `remove`. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 
 **응답**
 
-성공적으로 응답하면 고유한 인스턴스 ID 및 대체 오퍼 `@id`를 포함하여 업데이트된 대체 오퍼의 세부 정보가 반환됩니다.
+성공적인 응답은 해당 고유 인스턴스 ID 및 대체 오퍼를 포함하여 업데이트된 대체 오퍼의 세부 정보를 반환합니다 `@id`.
 
 ```json
 {

@@ -1,14 +1,15 @@
 ---
 title: 여정 활동 정보
 description: 여정 활동에 대해 알아보기
-feature: 여정
-topic: 콘텐츠 관리
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 30%
+source-wordcount: '262'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 30%
 
 ## 이벤트 활동 {#event-activities}
 
-기술 사용자가 구성한 이벤트([이 페이지](../event/about-events.md) 참조)는 모두 화면 왼쪽에 있는 팔레트의 첫 번째 카테고리에 표시됩니다. 다음 이벤트 활동을 사용할 수 있습니다.
+기술 사용자가 구성한 이벤트(참조) [이 페이지](../event/about-events.md))은 모두 화면 왼쪽에 있는 팔레트의 첫 번째 카테고리에 표시됩니다. 다음 이벤트 활동을 사용할 수 있습니다.
 
 * [일반 이벤트](../building-journeys/general-events.md)
 * [반응](../building-journeys/reaction-events.md)
@@ -43,7 +44,7 @@ ht-degree: 30%
 
 ## 작업 활동 {#action-activities}
 
-화면 왼쪽에 있는 팔레트에서 **[!UICONTROL Events]** 및 **[!UICONTROL Orchestration]** 아래에 **[!UICONTROL Actions]** 카테고리가 있습니다. 다음 작업 활동을 사용할 수 있습니다.
+화면 왼쪽에 있는 팔레트에서 아래 **[!UICONTROL Events]** 및 **[!UICONTROL Orchestration]**&#x200B;를 찾으면 **[!UICONTROL Actions]** 카테고리. 다음 작업 활동을 사용할 수 있습니다.
 
 * [메시지](../building-journeys/journeys-message.md)
 * [사용자 정의 작업](../building-journeys/using-custom-actions.md)
@@ -53,11 +54,11 @@ ht-degree: 30%
 
 이곳에는 사용 가능한 다양한 통신 채널의 활동이 표시됩니다. 채널을 결합하여 크로스채널 시나리오를 만들 수 있습니다.
 
-사용자 지정 작업을 구성한 경우 여기에 표시됩니다( [이 페이지](../building-journeys/using-custom-actions.md) 참조).
+사용자 지정 작업을 구성한 경우 여기에 표시됩니다( [이 페이지](../building-journeys/using-custom-actions.md)).
 
 ## 모범 사례 {#best-practices}
 
-대부분의 활동을 사용하면 **[!UICONTROL Label]**&#x200B;을 정의할 수 있습니다. 그러면 캔버스에서 활동 아래에 표시되는 이름에 접미사가 추가됩니다. 이 기능은 여정에서 동일한 활동을 여러 번 사용하고 보다 쉽게 식별하려는 경우 유용합니다. 또한 오류가 발생할 경우 디버깅을 더 쉽게 수행할 수 있고 보고서를 더 쉽게 읽을 수 있도록 해줍니다. 옵션 **[!UICONTROL Description]**&#x200B;을 추가할 수도 있습니다.
+대부분의 활동을 통해 **[!UICONTROL Label]**. 그러면 캔버스에서 활동 아래에 표시되는 이름에 접미사가 추가됩니다. 이 기능은 여정에서 동일한 활동을 여러 번 사용하고 보다 쉽게 식별하려는 경우 유용합니다. 또한 오류가 발생할 경우 디버깅을 더 쉽게 수행할 수 있고 보고서를 더 쉽게 읽을 수 있도록 해줍니다. 옵션을 추가할 수도 있습니다 **[!UICONTROL Description]**.
 
 ![](../assets/journey59bis.png)
 

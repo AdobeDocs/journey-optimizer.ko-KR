@@ -2,13 +2,13 @@
 title: 마케터를 위한 Journey Optimizer 시작하기
 description: 여정 실습자는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 7%
 
 ---
-
 
 # 마케터를 위한 시작하기
 
@@ -51,4 +51,3 @@ ht-degree: 7%
    여정을 디자인하고 실행하는 방법을 알아봅니다 [이 섹션](../building-journeys/journey-gs.md)
 
 1. **메시지 및 여정 모니터링**. 메시지가 성공적으로 실행, 전송 및 전달되는지 확인하려면, [!DNL Journey Optimizer] 은 현재 게시되고 트리거된 메시지를 모니터링하는 기능을 제공합니다. 성능 모니터링 방법 알아보기 [이 섹션](../message-monitoring.md).
-

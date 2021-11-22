@@ -1,14 +1,15 @@
 ---
 title: journeyStep 이벤트 작업 실행 필드
 description: journeyStep 이벤트 작업 실행 필드
-feature: 보고
-topic: 콘텐츠 관리
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 13%
+source-wordcount: '321'
+ht-degree: 12%
 
 ---
 
@@ -46,7 +47,7 @@ ht-degree: 13%
 
 현재 작업을 실행하는 데 걸린 시간(밀리초)입니다.
 
-유형:장기간
+유형: 장기간
 
 ## actionExecutionError
 
@@ -71,7 +72,7 @@ ht-degree: 13%
 시간 초과는 다음 두 가지 경우에 발생할 수 있습니다.
 
 * 첫 번째 시도에서는 작업이 실행됩니다. 이 경우 실행이 완료되지 않았으므로 기본 오류가 없습니다
-* 다시 시도 시:이 경우 actionExecOrigError/actionExecOrigErrorCode는 재시도 전에 발생한 오류에 대해 설명합니다.
+* 다시 시도 시: 이 경우 actionExecOrigError/actionExecOrigErrorCode는 재시도 전에 발생한 오류에 대해 설명합니다.
 
 예를 들어 이메일이 전송되고 첫 번째 시도에서 HTTP 500 오류가 반환됩니다. 가져오기가 다시 시도되지만, 두 번의 시도 기간이 시간 제한을 초과합니다. 그런 다음 작업 실행에 시간 제한으로 태그가 지정됩니다. 작업 부분은 다음과 같습니다.
 
@@ -132,4 +133,4 @@ actionExecOrigError의 오류 코드입니다.
 
 단계 처리 중 스케줄러 서비스로 전송된 스케줄러 알림 요청 개수입니다.
 
-유형:장기간
+유형: 장기간

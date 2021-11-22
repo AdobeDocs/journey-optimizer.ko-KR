@@ -1,14 +1,15 @@
 ---
 title: Adobe Experience Platform 웹 SDK
 description: Adobe Experience Platform Web SDK를 사용하면 API 또는 오퍼 라이브러리를 사용하여 만든 개인화된 오퍼를 검색하고 렌더링할 수 있습니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: c3b842ff-e4f8-4fac-968c-6d23abac408e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 6%
+source-wordcount: '171'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 6%
 
 Adobe Experience Platform 웹 SDK는 의사 결정 관리를 포함하여 Adobe에서 개인화 솔루션 쿼리를 지원하므로 API 또는 오퍼 라이브러리를 사용하여 만든 개인화된 오퍼를 검색하고 렌더링할 수 있습니다.
 
-Adobe Experience Platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대한 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning){target=&quot;_blank&quot;}를 참조하십시오.
+Adobe Experience Platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대한 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning){target=&quot;_blank&quot;}.
 
 >[!NOTE]
 >

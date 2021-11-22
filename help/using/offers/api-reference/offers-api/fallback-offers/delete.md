@@ -1,20 +1,21 @@
 ---
 title: 대체 오퍼 삭제
 description: 다른 오퍼에 대한 자격이 없는 고객에게 대체 오퍼가 전송됩니다
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 9%
+source-wordcount: '153'
+ht-degree: 8%
 
 ---
 
 # 대체 오퍼 삭제
 
-경우에 따라 대체 오퍼를 제거(DELETE)해야 할 수 있습니다. 테넌트 컨테이너에서 만든 대체 오퍼만 삭제할 수 있습니다. 이 작업은 삭제하려는 대체 오퍼의 $id를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행하여 수행됩니다.
+경우에 따라 대체 오퍼를 제거(DELETE)해야 할 수 있습니다. 테넌트 컨테이너에서 만든 대체 오퍼만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 대체 오퍼의 $id를 사용하는 API입니다.
 
 **API 형식**
 

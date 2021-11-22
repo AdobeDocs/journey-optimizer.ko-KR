@@ -1,14 +1,15 @@
 ---
 title: 태그 나열
 description: 태그를 사용하면 오퍼를 보다 잘 구성하고 정렬할 수 있습니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 4%
+source-wordcount: '306'
+ht-degree: 3%
 
 ---
 
@@ -16,9 +17,9 @@ ht-degree: 4%
 
 태그를 사용하면 오퍼를 보다 잘 구성하고 정렬할 수 있습니다. 예를 들어 블랙 프라이데이 태그로 블랙 프라이데이 오퍼에 레이블을 지정할 수 있습니다. 그런 다음 오퍼 라이브러리에서 검색 기능을 사용하여 해당 태그가 있는 모든 오퍼를 쉽게 찾을 수 있습니다.
 
-태그를 사용하여 오퍼를 컬렉션으로 함께 그룹화할 수도 있습니다. 자세한 내용은 [컬렉션 만들기](../../../offer-library/creating-collections.md)의 자습서를 참조하십시오.
+태그를 사용하여 오퍼를 컬렉션으로 함께 그룹화할 수도 있습니다. 자세한 내용은 [컬렉션 만들기](../../../offer-library/creating-collections.md).
 
-[!DNL Offer Library] API에 대한 단일 GET 요청을 수행하여 컨테이너 내의 모든 태그 목록을 볼 수 있습니다.
+에 대한 단일 GET 요청을 수행하여 컨테이너 내의 모든 태그 목록을 볼 수 있습니다 [!DNL Offer Library] API.
 
 **API 형식**
 
@@ -55,10 +56,10 @@ curl -X GET \
 
 | 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `q` | 선택한 필드에서 검색할 선택적 쿼리 문자열입니다. 쿼리 문자열은 소문자여야 하며 큰따옴표로 묶어서 토큰화되지 않도록 하고 특수 문자를 이스케이프 처리할 수 있습니다. `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 문자는 특별한 의미가 있으므로 쿼리 문자열에 나타나면 백슬래시로 이스케이프해야 합니다. | 웹 사이트 JSON |
+| `q` | 선택한 필드에서 검색할 선택적 쿼리 문자열입니다. 쿼리 문자열은 소문자여야 하며 큰따옴표로 묶어서 토큰화되지 않도록 하고 특수 문자를 이스케이프 처리할 수 있습니다. 문자 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 에는 특별한 의미가 있으며 쿼리 문자열에 나타나면 백슬래시로 이스케이프해야 합니다. | 웹 사이트 JSON |
 | `qop` | q 쿼리 문자열 매개 변수의 값에 AND 또는 OR 연산자를 적용합니다. | `AND` / `OR` |
-| `field` | 검색을 다음으로 제한할 필드 선택 사항입니다. 이 매개 변수는 다음과 같이 반복할 수 있습니다.field=field1[,field=field2,..] 및 (경로 표현식은 _instance.xdm:name과 같이 점으로 구분된 경로의 형식입니다.) | `_instance.xdm:name` |
-| `orderBy` | 특정 속성별로 결과를 정렬합니다. 제목 앞에 `-`(`orderby=-title`)을 추가하면 내림차순으로 제목을 기준으로 항목이 정렬됩니다(Z-A). | `-repo:createdDate` |
+| `field` | 검색을 다음으로 제한할 필드 선택 사항입니다. 이 매개 변수는 다음과 같이 반복할 수 있습니다. field=field1[,field=field2,..] 및 (경로 표현식은 _instance.xdm:name과 같이 점으로 구분된 경로의 형식입니다.) | `_instance.xdm:name` |
+| `orderBy` | 특정 속성별로 결과를 정렬합니다. 추가 `-` 이전 제목 (`orderby=-title`)은 제목별로 항목을 내림차순으로 정렬합니다(Z-A). | `-repo:createdDate` |
 | `limit` | 반환된 태그 수를 제한합니다. | `limit=5` |
 
 **응답**

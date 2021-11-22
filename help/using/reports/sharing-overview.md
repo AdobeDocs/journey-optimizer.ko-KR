@@ -51,7 +51,7 @@ ht-degree: 2%
 
 ![](../assets/sharing3.png)
 
-Adobe Experience Platform에 전달된 XDM 필드 목록은 여기에서 자세히 설명합니다.
+Adobe Experience Platform에 전달된 XDM 필드 목록은 다음 항목에 자세히 설명되어 있습니다.
 
 * [단계 이벤트 필드 목록](../reports/sharing-field-list.md)
 * [이전 단계 이벤트 필드](../reports/sharing-legacy-fields.md)

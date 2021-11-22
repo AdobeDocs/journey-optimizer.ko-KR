@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target=&quot;_blank&quot;} 사용자가 **Offer decisioning** 응용 프로그램 서비스를 활용하는 경우 이 섹션에 설명된 모든 의사 결정 관리 기능이 적용됩니다.
+>만약 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target=&quot;_blank&quot;} 사용자가 **offer decisioning** 응용 프로그램 서비스에서는 이 섹션에 설명된 모든 의사 결정 관리 기능이 적용됩니다.
 
 의사 결정 관리 기능은 다음 두 가지 주요 구성 요소로 이루어집니다.
 
@@ -34,7 +34,7 @@ ht-degree: 87%
 * 워크플로우 개선: 마케팅 팀은 게재 또는 캠페인을 여러 개 만드는 대신 하나의 게재를 만들어 워크플로우를 개선하고 템플릿의 여러 부분에서 오퍼에 변화를 줄 수 있습니다,
 * 캠페인 및 고객 측면에 표시될 오퍼 횟수를 제어합니다.
 
-의사 결정 관리에 대한 자세한 내용은 ➡️ [이 튜토리얼 비디오](#tutorial-videos)를 시청하십시오.
+➡️ [이 튜토리얼 비디오를 시청하십시오](#tutorial-videos) 결정 관리에 대해 자세히 알아보십시오.
 
 ## 오퍼 및 의사 결정 정보 {#offers-offer-activities}
 
@@ -66,11 +66,11 @@ ht-degree: 87%
 
 ## 의사 결정 관리에 대한 액세스 권한 부여 {#granting-acess-to-decision-management}
 
-offer decisioning 기능에 액세스하고 사용할 수 있는 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}를 사용하여 관리됩니다.
+offer decisioning 기능에 액세스하고 사용할 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
-의사 결정 관리 기능에 대한 액세스 권한을 부여하려면 **[!UICONTROL Product profile]**&#x200B;을 만들고 해당 권한을 사용자에게 할당해야 합니다. [이 섹션](../../administration/permissions.md)에서 [!DNL Journey Optimizer] 사용자 및 권한 관리에 대해 자세히 알아보십시오.
+의사 결정 관리 기능에 대한 액세스 권한을 부여하려면 **[!UICONTROL Product profile]** 사용자에게 해당 권한을 할당합니다. 관리에 대해 자세히 알아보기 [!DNL Journey Optimizer] 사용자 및 권한 [이 섹션](../../administration/permissions.md).
 
-의사 결정 관리에 대한 권한은 [이 섹션](../../administration/high-low-permissions.md#decisions-permissions)에 나열되어 있습니다.
+결정 관리에 대한 권한은 다음과 같습니다. [이 섹션](../../administration/high-low-permissions.md#decisions-permissions).
 
 ## 용어집 {#glossary}
 
@@ -107,7 +107,7 @@ offer decisioning 기능에 액세스하고 사용할 수 있는 권한은 [Adob
 
 >[!NOTE]
 >
->이러한 비디오는 Adobe Experience Platform을 기반으로 구축된 Offer Decisioning 애플리케이션 서비스에 적용되며 [!DNL Adobe Journey Optimizer]에만 국한되지 않습니다. 그러나 [!DNL Journey Optimizer] 컨텍스트에서 의사 결정 관리를 사용하기 위한 일반 지침을 제공합니다.
+>이러한 비디오는 Adobe Experience Platform을 기반으로 구축된 Offer Decisioning 애플리케이션 서비스에 적용되며 [!DNL Adobe Journey Optimizer]에만 국한되지 않습니다. 그러나 다음과 같은 맥락에서 의사 결정 관리를 사용하기 위한 일반적인 지침을 제공합니다 [!DNL Journey Optimizer].
 
 ### 의사 결정 관리란? {#what-is-offer-decisioning}
 

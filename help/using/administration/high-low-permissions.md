@@ -15,7 +15,8 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b32306f9561946a6c289e5e9c7cc3243349141bc
+exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
+source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -29,17 +30,17 @@ ht-degree: 0%
 각 제품 프로필은 사용자가 다른 기능에 액세스할 수 있는 권한으로 구성되어 있습니다.
 두 가지 유형으로 나눌 수 있습니다.
 
-* **높은 수준의 권한**: 는  **[!UICONTROL Product profile]** 및  [!DNL Admin console]처럼  **[!UICONTROL Publish journeys]** 에서 지정할 수 있는  **[!UICONTROL Manage subdomains delegation]**&#x200B;다양한 권한을 나타냅니다. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다.
+* **높은 수준의 권한**: 에는 지정할 수 있는 다양한 권한을 나타냅니다 **[!UICONTROL Product profile]** 에서 [!DNL Admin console], 예 **[!UICONTROL Publish journeys]** 및 **[!UICONTROL Manage subdomains delegation]**. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다.
 
 * **낮은 수준 권한**: 는 높은 수준 권한이 있는 다른 권한을 나타냅니다.
 
-예를 들어 **[!UICONTROL Journey administrator]** 제품 프로필에 **[!UICONTROL Manage journeys]** 권한이 할당됩니다. 이 사용 권한을 통해 여정 관리자가 여정을 작성, 읽기 및 삭제할 수 있는 낮은 수준의 권한이 제공됩니다.
+예: **[!UICONTROL Journey administrator]** 제품 프로필이 할당됨 **[!UICONTROL Manage journeys]** 권한. 이 사용 권한을 통해 여정 관리자가 여정을 작성, 읽기 및 삭제할 수 있는 낮은 수준의 권한이 만들어집니다.
 
 ## 여정 기능 {#journey-capability}
 
 ### 여정 관리 권한 {#manage-journeys}
 
-**[!UICONTROL Manage journeys]** 높은 수준의 권한을 사용하면 여정 흐름을 작성하기 위해 여정 캔버스에서 사용되는 개체에 액세스할 수 있을 뿐만 아니라, 기존 여정을 새로 만들고 편집/삭제할 수 있습니다.
+다음 **[!UICONTROL Manage journeys]** 높은 수준의 권한을 통해 사용자는 여정 흐름을 작성하기 위해 여정 캔버스에서 사용되는 개체에 액세스할 수 있을 뿐만 아니라, 기존 여정을 새로 만들고 편집/삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -59,7 +60,7 @@ ht-degree: 0%
 
 ### 여정 게시 권한 {#publish-journeys}
 
-**[!UICONTROL Publish journeys]** 높은 수준의 권한을 사용하여 여정을 게시할 수 있습니다.
+다음 **[!UICONTROL Publish journeys]** 높은 수준의 권한을 통해 사용자가 여정을 게시할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -69,7 +70,7 @@ ht-degree: 0%
 
 ### 여정 보기 권한 {#view-journeys}
 
-**[!UICONTROL View journeys]** 높은 수준의 권한을 통해 사용자가 여정을 탐색하고 볼 수 있습니다.
+다음 **[!UICONTROL View journeys]** 높은 수준의 권한을 통해 사용자가 여정을 탐색하고 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -82,7 +83,7 @@ ht-degree: 0%
 
 ### 여정 이벤트, 데이터 소스 및 작업 관리 권한 {#manage-journeys-events}
 
-**[!UICONTROL Manage journeys events, data sources and actions]** 높은 수준의 권한을 사용하여 이벤트 및 데이터 구성을 구성할 수 있습니다.
+다음 **[!UICONTROL Manage journeys events, data sources and actions]** 높은 수준의 권한을 통해 사용자는 이벤트 및 데이터 구성을 구성할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -103,7 +104,7 @@ ht-degree: 0%
 
 ### 여정 이벤트, 데이터 소스 및 작업 보기 권한 {#view-journeys-event}
 
-**[!UICONTROL View journeys events, data sources and actions]** 높은 수준의 권한을 사용하면 여정 흐름에서 이벤트와 데이터를 사용할 수 있습니다.
+다음 **[!UICONTROL View journeys events, data sources and actions]** 높은 수준의 권한을 사용하면 여정 흐름에서 이벤트와 데이터를 사용할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -119,7 +120,7 @@ ht-degree: 0%
 
 ### 여정 보고서 보기 권한 {#view-journeys-report}
 
-**[!UICONTROL View journeys report]** 높은 수준의 권한을 통해 사용자는 읽기 전용 여정 보고서를 볼 수 있습니다.
+다음 **[!UICONTROL View journeys report]** 높은 수준의 권한을 통해 사용자는 읽기 전용 여정 보고서를 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -137,7 +138,7 @@ ht-degree: 0%
 
 ### 메시지 관리 권한 {#manage-messages}
 
-**[!UICONTROL Manage messages]** 높은 수준의 권한을 사용하여 메시지를 만들고 편집/삭제할 수 있습니다.
+다음 **[!UICONTROL Manage messages]** 높은 수준의 권한을 통해 사용자는 메시지를 만들고 편집/삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -153,7 +154,7 @@ ht-degree: 0%
 
 ### 메시지 미리 보기 및 테스트 권한 관리 {#mange-messages-preview}
 
-**[!UICONTROL Manage messages preview and test]** 높은 수준의 권한을 통해 사용자는 개인화된 메시지를 미리 볼 수 있습니다.
+다음 **[!UICONTROL Manage messages preview and test]** 높은 수준의 권한을 통해 사용자는 개인화된 메시지를 미리 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -175,7 +176,7 @@ ht-degree: 0%
 
 ### 메시지 게시 권한 {#publish-messages}
 
-**[!UICONTROL Publish messages]** 높은 수준의 권한을 통해 사용자가 메시지를 게시할 수 있습니다.
+다음 **[!UICONTROL Publish messages]** 높은 수준의 권한을 통해 사용자가 메시지를 게시할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -189,7 +190,7 @@ ht-degree: 0%
 
 ### 메시지 보기 권한 {#view-messages}
 
-**[!UICONTROL View messages]** 높은 수준의 권한을 통해 사용자는 메시지만 읽을 수 있습니다.
+다음 **[!UICONTROL View messages]** 높은 수준의 권한을 통해 사용자는 메시지만 읽을 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -203,7 +204,7 @@ ht-degree: 0%
 
 ### 메시지 보고서 권한 보기 {#view-message-reports}
 
-**[!UICONTROL View messages report]** 높은 수준의 권한을 통해 사용자는 읽기 전용 전자 메일 및 푸시 보고서를 사용할 수 있습니다.
+다음 **[!UICONTROL View messages report]** 높은 수준의 권한을 통해 사용자는 읽기 전용 전자 메일 및 푸시 보고서를 사용할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -219,7 +220,7 @@ ht-degree: 0%
 
 ### 결정 권한 관리 {#manage-decisioning}
 
-**[!UICONTROL Manage decisions]** 높은 수준의 권한을 통해 사용자는 기존 **[!UICONTROL Activity entities]**&#x200B;을 새로 만들고 편집/삭제하고, 결정을 내리기 위해 해당 활동에 사용되는 개체를 관리할 수 있습니다.
+다음 **[!UICONTROL Manage decisions]** 높은 수준의 권한을 통해 사용자는 기존 사용자를 새로 만들고 편집/삭제할 수 있습니다 **[!UICONTROL Activity entities]**&#x200B;뿐만 아니라 이러한 활동에서 결정을 내리는 데 사용되는 개체를 관리합니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -245,7 +246,7 @@ ht-degree: 0%
 
 ### 결정 권한 보기 {#view-decisions}
 
-**[!UICONTROL View decisions]** 높은 수준의 권한을 통해 사용자는 기존 활동 및 관련 비즈니스 개체를 사용하여 결정을 내릴 수 있습니다.
+다음 **[!UICONTROL View decisions]** 높은 수준의 권한을 통해 사용자는 기존 활동 및 관련 비즈니스 개체를 사용하여 결정을 내릴 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -264,7 +265,7 @@ ht-degree: 0%
 
 ### Offers Decisioning 권한 게시 {#publish-decisions}
 
-**[!UICONTROL Publish offers decisioning]** 높은 수준의 권한을 통해 사용자는 오퍼 활동을 승인/승인하지 않을 수 있습니다.
+다음 **[!UICONTROL Publish offers decisioning]** 높은 수준의 권한을 통해 사용자는 오퍼 활동을 승인/승인하지 않을 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -286,7 +287,7 @@ ht-degree: 0%
 
 ### 순위 전략 관리 권한 {#manage-decisions}
 
-**[!UICONTROL Manage ranking strategies]** 높은 수준의 권한을 통해 사용자는 사용자 지정 메시지 보고서를 읽고, 만들고, 편집하고, 삭제할 수 있으며 작업 기능을 사용할 수 있습니다.
+다음 **[!UICONTROL Manage ranking strategies]** 높은 수준의 권한을 통해 사용자는 사용자 지정 메시지 보고서를 읽고, 만들고, 편집하고, 삭제할 수 있으며 작업 기능을 사용할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -302,7 +303,7 @@ ht-degree: 0%
 
 ### 하위 도메인 위임 권한 관리 {#manage-subdomain}
 
-**[!UICONTROL Manage subdomains delegation]** 높은 수준의 권한을 통해 사용자는 하위 도메인 위임(IP 풀 포함)을 생성, 편집 및 삭제할 수 있습니다.
+다음 **[!UICONTROL Manage subdomains delegation]** 높은 수준의 권한을 통해 사용자는 하위 도메인 위임(IP 풀 포함)을 생성, 편집 및 삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -312,7 +313,7 @@ ht-degree: 0%
 
 ### PTR 레코드 보기 권한 {#view-ptr}
 
-**[!UICONTROL View PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 볼 수 있습니다.
+다음 **[!UICONTROL View PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -321,7 +322,7 @@ ht-degree: 0%
 
 ### IP 풀 관리 권한 {#manage-ip-pools}
 
-**[!UICONTROL Manage IP pools]** 높은 수준의 권한을 사용하면 선호도 정의를 생성, 편집 및 삭제할 수 있습니다.
+다음 **[!UICONTROL Manage IP pools]** 높은 수준 권한을 사용하면 친화성 정의를 생성, 편집 및 삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -331,7 +332,7 @@ ht-degree: 0%
 
 ### 메시지 일반 설정 관리 권한 {#manage-message-settings}
 
-**[!UICONTROL Manage messages general settings]** 고급 권한을 사용하면 샌드박스 수준에서 전역 설정을 만들고, 편집하고, 삭제할 수 있습니다.
+다음 **[!UICONTROL Manage messages general settings]** 높은 수준의 권한을 통해 사용자는 샌드박스 수준에서 전역 설정을 만들고, 편집하고, 삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -344,7 +345,7 @@ ht-degree: 0%
 
 ### 메시지 일반 설정 권한 보기 {#view-message-settings}
 
-**[!UICONTROL View messages general settings]** 고급 권한을 사용하면 사용자가 실행 주소와 같은 일반 설정을 볼 수 있습니다.
+다음 **[!UICONTROL View messages general settings]** 높은 수준의 권한을 통해 사용자는 실행 주소와 같은 메시지 일반 설정을 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -355,7 +356,7 @@ ht-degree: 0%
 
 ### 메시지 사전 설정 관리 권한 {#manage-message-presets}
 
-**[!UICONTROL Manage messages presets]** 고급 권한을 사용하면 샌드박스 수준의 채널에서 메시지 사전 설정을 생성, 편집 및 삭제할 수 있습니다.
+다음 **[!UICONTROL Manage messages presets]** 높은 수준의 권한을 사용하면 샌드박스 수준에서 채널 간에 메시지 사전 설정을 만들고, 편집하고, 삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -369,7 +370,7 @@ ht-degree: 0%
 
 ### 메시지 사전 설정 보기 권한 {#view-message-presets}
 
-**[!UICONTROL View messages presets]** 고급 권한을 사용하면 메시지를 만들 때 사용할 메시지 사전 설정을 알 수 있도록 메시지 사전 설정을 볼 수 있습니다.
+다음 **[!UICONTROL View messages presets]** 높은 수준의 권한을 사용하면 메시지를 만들 때 사용할 메시지 사전 설정을 알기 위해 메시지 사전 설정을 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -380,7 +381,7 @@ ht-degree: 0%
 
 ### 억제 권한 관리 {#manage-suppression}
 
-**[!UICONTROL Manage suppression]** 높은 수준의 권한을 통해 사용자는 전자 메일 주소가 제외 목록에 추가되기 전에 바운스 수를 정의하고 제외 목록에 항목을 추가 및 삭제할 수 있습니다.
+다음 **[!UICONTROL Manage suppression]** 높은 수준의 권한을 통해 사용자는 전자 메일 주소가 제외 목록에 추가되기 전에 바운스 수를 정의하고 제외 목록에 항목을 추가 및 삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -392,7 +393,7 @@ ht-degree: 0%
 
 ### 제외 목록 보기 권한 {#view-suppresion-list}
 
-**[!UICONTROL View suppression list]** 높은 수준의 권한을 통해 사용자는 억제 목록 콘텐츠 및 설정을 볼 수 있습니다.
+다음 **[!UICONTROL View suppression list]** 높은 수준의 권한을 통해 사용자는 억제 목록 콘텐츠 및 설정을 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -404,7 +405,7 @@ ht-degree: 0%
 
 ### 제외 목록 내보내기 권한 {#export-suppression-list}
 
-**[!UICONTROL Export suppression list]** 높은 수준의 권한을 통해 사용자는 억제 목록을 CSV 파일로 다운로드할 수 있습니다.
+다음 **[!UICONTROL Export suppression list]** 높은 수준의 권한을 통해 사용자는 억제 목록을 CSV 파일로 다운로드할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 

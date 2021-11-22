@@ -1,13 +1,14 @@
 ---
 title: journeyStep 이벤트 데이터 가져오기 필드
 description: journeyStep 이벤트 데이터 가져오기 필드
-feature: 보고
-topic: 콘텐츠 관리
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '371'
 ht-degree: 7%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 7%
 
 단계 처리 중 데이터 가져오기에 소요된 총 시간입니다.
 
-유형:장기간
+유형: 장기간
 
 ## fetchTypeInError
 
@@ -57,7 +58,7 @@ ht-degree: 7%
 시간 초과는 다음 두 가지 경우에 발생할 수 있습니다.
 
 * 첫 번째 시도에서 작업이 실행됩니다. 이 경우 실행이 완료되지 않았으므로 기본 오류가 없습니다
-* 다시 시도 시:이 경우 actionExecOrigError/actionExecOrigErrorCode는 재시도 전에 발생한 오류에 대해 설명합니다.
+* 다시 시도 시: 이 경우 actionExecOrigError/actionExecOrigErrorCode는 재시도 전에 발생한 오류에 대해 설명합니다.
 
 예를 들어 데이터를 통합 프로필 서비스에서 가져오고 있으며 첫 번째 시도에서 HTTP 500 오류가 반환됩니다. 가져오기가 다시 시도되지만, 두 번의 시도 기간이 시간 제한을 초과합니다. 그런 다음 작업 실행에 시간 제한으로 태그가 지정됩니다. 작업 부분은 다음과 같습니다.
 
@@ -74,7 +75,7 @@ ht-degree: 7%
 
 ## fetchOriginErrorCode
 
-시스템 [!DNL Journey Orchestration]에서 제공한 오류 코드가 쿼리 중입니다. 예를 들어 404, 500 등이 될 수 있습니다.
+시스템에서 제공한 오류 코드 [!DNL Journey Orchestration] 쿼리 중입니다. 예를 들어 404, 500 등이 될 수 있습니다.
 
 유형: 문자열
 
@@ -82,28 +83,28 @@ ht-degree: 7%
 
 소스 유형에 관계없이 데이터를 가져오는 횟수입니다.
 
-유형:장기간
+유형: 장기간
 
 ## fetchPlatformTotalTime
 
-Adobe Experience Platform에서 데이터를 밀리로 가져오는 데 걸린 총 시간입니다. 참고:이 시간은 엔진이 데이터 보강 서비스로 데이터 보강 이벤트를 보내고 응답을 받은 시점부터 계산됩니다.
+Adobe Experience Platform에서 데이터를 밀리로 가져오는 데 걸린 총 시간입니다. 참고: 이 시간은 엔진이 데이터 보강 서비스로 데이터 보강 이벤트를 보내고 응답을 받은 시점부터 계산됩니다.
 
-유형:장기간
+유형: 장기간
 
 ## fetchPlatformCount
 
 Adobe Experience Platform에서 데이터를 가져오는 횟수입니다.
 
-유형:장기간
+유형: 장기간
 
 ## fetchCustomTotalTime
 
-사용자 지정 데이터를 밀리로 가져오는 데 걸리는 시간입니다. 참고:이 시간은 엔진이 데이터 보강 이벤트를 데이터 보강 서비스로 보내고 응답을 받는 시점부터 계산됩니다
+사용자 지정 데이터를 밀리로 가져오는 데 걸리는 시간입니다. 참고: 이 시간은 엔진이 데이터 보강 이벤트를 데이터 보강 서비스로 보내고 응답을 받는 시점부터 계산됩니다
 
-유형:장기간
+유형: 장기간
 
 ## fetchCustomCount
 
 외부 시스템에서 사용자 지정 데이터를 가져오는 횟수입니다.
 
-유형:장기간
+유형: 장기간

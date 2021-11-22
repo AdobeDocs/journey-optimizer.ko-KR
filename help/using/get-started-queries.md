@@ -1,28 +1,29 @@
 ---
 title: Journey Optimizer에서 쿼리 시작
 description: Adobe Journey Optimizer에서 쿼리를 만드는 방법을 알아봅니다
-feature: 스키마
+feature: Schemas
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+exl-id: 6f32f068-429a-4039-bb76-d190069e7402
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 7%
+source-wordcount: '122'
+ht-degree: 12%
 
 ---
 
 # 쿼리 시작 {#queries-gs}
 
-쿼리 편집기는 Adobe Experience Platform 쿼리 서비스에서 제공하는 대화형 도구로, [!DNL Adobe Journey Optimizer] 사용자 인터페이스 내에서 고객 경험 데이터에 대한 쿼리를 작성, 유효성 검사 및 실행할 수 있습니다.
+쿼리 편집기는 Adobe Experience Platform 쿼리 서비스에서 제공하는 대화형 도구로서, 내에서 고객 경험 데이터에 대한 쿼리를 작성, 유효성 검사 및 실행할 수 있습니다 [!DNL Adobe Journey Optimizer] 사용자 인터페이스.
 
-쿼리 편집기는 분석 및 데이터 탐색을 위한 쿼리 개발을 지원하며, 개발 목적으로 대화형 쿼리를 실행할 수 있고, [데이터 세트](get-started-datasets.md)를 채울 비대화형 쿼리를 실행할 수 있습니다.
+쿼리 편집기는 분석 및 데이터 탐색을 위한 쿼리 개발을 지원하며, 대화형 쿼리를 개발용으로 실행할 수 있을 뿐만 아니라 채울 비대화형 쿼리를 실행할 수 있습니다 [데이터 세트](get-started-datasets.md).
 
 
 ![](assets/queries-home.png)
 
-[이 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}에서 쿼리 편집기를 사용하는 방법을 알아봅니다.
+에서 쿼리 편집기를 사용하는 방법을 알아봅니다. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}.
 
 **참조 -**
 
-* [쿼리 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target=&quot;_blank&quot;}
-* [쿼리 서비스 개요 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
+* [Query Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target=&quot;_blank&quot;}
+* [쿼리 서비스 개요 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ko-KR){target=&quot;_blank&quot;}

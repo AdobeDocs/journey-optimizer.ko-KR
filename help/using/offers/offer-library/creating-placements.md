@@ -1,14 +1,15 @@
 ---
 title: 배치 만들기
 description: Adobe Experience Platform에서 배치를 만드는 방법을 알아봅니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 15%
+source-wordcount: '215'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 15%
 
 ![](../../assets/offers_placement_schema.png)
 
-배치 목록은 **[!UICONTROL Components]** 메뉴에서 액세스할 수 있습니다. 필터를 사용하여 특정 채널 또는 컨텐츠에 따라 배치를 검색하는 데 도움이 됩니다.
+배치 목록은 **[!UICONTROL Components]** 메뉴 아래의 제품에서 사용할 수 있습니다. 필터를 사용하여 특정 채널 또는 컨텐츠에 따라 배치를 검색하는 데 도움이 됩니다.
 
 ![](../../assets/placements_filter.png)
 
@@ -34,14 +35,14 @@ ht-degree: 15%
 
 1. 배치 속성을 정의합니다.
 
-   * **[!UICONTROL Name]**:배치 이름입니다. 의미 있는 이름을 정의하여 쉽게 검색할 수 있도록 합니다.
-   * **[!UICONTROL Channel type]**:배치를 사용할 채널입니다.
-   * **[!UICONTROL Content type]**:배치에서 표시할 컨텐츠 유형:텍스트, HTML 또는 이미지 링크.
-   * **[!UICONTROL Description]**:배치에 대한 설명입니다(선택 사항).
+   * **[!UICONTROL Name]**: 배치 이름입니다. 의미 있는 이름을 정의하여 쉽게 검색할 수 있도록 합니다.
+   * **[!UICONTROL Channel type]**: 배치를 사용할 채널입니다.
+   * **[!UICONTROL Content type]**: 배치에서 표시할 컨텐츠 유형: 텍스트, HTML 또는 이미지 링크.
+   * **[!UICONTROL Description]**: 배치에 대한 설명입니다(선택 사항).
 
    ![](../../assets/offers_placement_creation_properties.png)
 
-1. **[!UICONTROL Save]** 을 클릭하여 확인합니다.
+1. 클릭 **[!UICONTROL Save]** 확인합니다.
 
 1. 배치가 만들어지면 배치 목록에 표시됩니다. 속성을 표시하고 편집할 수 있도록 선택할 수 있습니다.
 

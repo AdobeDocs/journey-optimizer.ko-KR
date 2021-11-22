@@ -1,20 +1,21 @@
 ---
 title: 의사 결정 규칙 삭제
 description: 의사 결정 규칙은 개인화된 오퍼에 추가되고 자격을 결정하기 위해 프로필에 적용되는 제한입니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 6%
+source-wordcount: '159'
+ht-degree: 5%
 
 ---
 
 # 의사 결정 규칙 삭제
 
-의사 결정 규칙을 제거(DELETE)해야 하는 경우가 있습니다. 테넌트 컨테이너에서 만든 의사 결정 규칙만 삭제할 수 있습니다. 이 작업은 삭제하려는 결정 규칙의 인스턴스 ID를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행하여 수행됩니다.
+의사 결정 규칙을 제거(DELETE)해야 하는 경우가 있습니다. 테넌트 컨테이너에서 만든 의사 결정 규칙만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 의사 결정 규칙의 인스턴스 ID를 사용하는 API입니다.
 
 **API 형식**
 

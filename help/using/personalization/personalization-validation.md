@@ -1,33 +1,31 @@
 ---
 title: 개인화 유효성 검사
 description: 개인화 유효성 검사 및 문제 해결 방법에 대해 자세히 알아보기
-feature: 개인화
-topic: 개인화
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 2%
+source-wordcount: '322'
+ht-degree: 1%
 
 ---
-
 
 # 개인화 유효성 검사 {#personalization-validation}
 
 ## 유효성 검사 메커니즘
 
-**표현식 편집기** 화면에서 **유효성 검사** 단추를 사용하여 개인화 구문을 확인합니다.
+에서 **표현식 편집기** 화면, **유효성 검사** 버튼을 클릭하여 개인화 구문을 확인합니다.
 
 >[!NOTE]
-> 유효성 검사는 **추가** 단추를 클릭하여 편집기 창을 닫으면 자동으로 실행됩니다.
-
+> 유효성 검사는 **추가** 단추를 클릭하여 편집기 창을 닫습니다.
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > 개인화 구문이 올바르지 않으면 표현식 편집기 창을 닫을 수 없습니다.
-
 
 ## 일반적인 오류
 
@@ -35,7 +33,7 @@ ht-degree: 2%
 
 스키마에 정의되지 않은 필드를 참조하려고 할 때.
 
-이 경우 **firstName1**&#x200B;이 프로필 스키마에 속성으로 정의되지 않았습니다.
+이 경우 **firstName1** 은 프로필 스키마에 속성으로 정의되지 않았습니다.
 
 ```
 {{profile.person.name.firstName1}}
@@ -45,7 +43,7 @@ ht-degree: 2%
 
 배열 대신 문자열을 반복하려고 할 때:
 
-이 경우 **product**&#x200B;은(는) 배열이 아닙니다.
+이 경우 **product** 배열이 아닙니다.
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -53,11 +51,11 @@ ht-degree: 2%
 {{/each}}
 ```
 
-* **handlebars 구문이 잘못되었습니다.`‘[XYZ}}’`** 발견
+* **handlebars 구문이 잘못되었습니다. 발견됨`‘[XYZ}}’`**
 
 잘못된 handlebars 구문을 사용하는 경우.
 
-Handlebars 식은 **{{expression}}**&#x200B;로 둘러싸여 있습니다.
+Handlebars 식은 로 둘러싸여 있습니다. **{{expression}}**
 
 ```
    {{[profile.person.name.firstName}}
@@ -83,12 +81,12 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
  <thead> 
   <tr> 
    <th> 오류 제목<br /> </th> 
-   <th> 유효성 검사 / 해상도 <br /> </th> 
+   <th> 유효성 검사 / 해결 <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>id placementID와 유형이 OfferPlacement인 리소스를 찾을 수 없음 <br/>
+   <td>ID placementID와 유형이 OfferPlacement인 리소스를 찾을 수 없음 <br/>
 id activityID 및 유형이 OfferActivity인 리소스를 찾을 수 없음<br/></td> 
    <td>ActivityID 및/또는 PlacementID를 사용할 수 있는지 확인합니다</td> 
   </tr> 
@@ -110,11 +108,10 @@ id activityID 및 유형이 OfferActivity인 리소스를 찾을 수 없음<br/>
   </tr>
   <tr> 
    <td>오퍼 속성 오퍼 특성이 잘못되었습니다.</td> 
-   <td>오퍼 드롭에서 참조되는 오퍼 속성이 유효한지 확인합니다. 다음은 유효한 속성입니다.<br/>
-이미지:deliveryURL, linkURL<br/>
-텍스트:content<br/>
-HTML:콘텐츠<br/></td> 
+   <td>오퍼 드롭에서 참조되는 오퍼 속성이 유효한지 확인합니다. 다음은 유효한 속성입니다. <br/>
+이미지: deliveryURL, linkURL<br/>
+텍스트: 콘텐츠<br/>
+HTML: 콘텐츠<br/></td> 
   </tr> 
  </tbody> 
 </table>
-

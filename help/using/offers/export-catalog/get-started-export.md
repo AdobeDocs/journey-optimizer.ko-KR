@@ -1,14 +1,15 @@
 ---
 title: 오퍼 카탈로그 내보내기 시작
 description: 오퍼 카탈로그를 데이터 세트로 내보내는 방법을 알아봅니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: f30abea1-b204-4470-9836-75fae916bbb1
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 15%
+source-wordcount: '131'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 15%
 
 Journey Optimizer을 사용하면 오퍼 카탈로그를 Adobe Experience Platform에 자동으로 내보낼 수 있습니다.
 
-내보내기는 오퍼 라이브러리의 각 개체에 대해 하나의 데이터 세트를 만듭니다( [내보낸 데이터 세트에 액세스](../export-catalog/access-dataset.md) 참조). 이러한 서비스에는 다음이 포함됩니다.
+내보내기는 오퍼 라이브러리의 각 개체에 대해 하나의 데이터 세트를 만듭니다(참조) [내보낸 데이터 세트에 액세스](../export-catalog/access-dataset.md)). 이러한 서비스에는 다음이 포함됩니다.
 
 * 개인화된 오퍼
 * 대체 오퍼

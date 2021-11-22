@@ -19,7 +19,7 @@ ht-degree: 4%
 
 세그먼트 읽기 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 입력하도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 
-세그먼트 빌드](../segment/about-segments.md) 사용 사례에서 만든 &quot;Luma 앱 열기 및 체크아웃&quot; 세그먼트의 예를 예로 들어 보겠습니다. [ 세그먼트 읽기 활동을 사용하면 이 세그먼트에 속하는 모든 개인이 여정을 입력하고 모든 여정 기능을 활용하는 개인화된 여정으로 전환하도록 할 수 있습니다. 조건, 타이머, 이벤트, 작업.
+에서 만든 &quot;Luma 앱 열기 및 체크아웃&quot; 세그먼트의 예를 살펴보겠습니다 [세그먼트 작성](../segment/about-segments.md) 사용 사례 세그먼트 읽기 활동을 사용하면 이 세그먼트에 속하는 모든 개인이 여정을 입력하고 모든 여정 기능을 활용하는 개인화된 여정으로 전환하도록 할 수 있습니다. 조건, 타이머, 이벤트, 작업.
 
 >[!NOTE]
 >
@@ -29,35 +29,35 @@ ht-degree: 4%
 
 세그먼트 읽기 활동을 구성하는 단계는 다음과 같습니다.
 
-1. **[!UICONTROL Orchestration]** 카테고리를 펼치고 **[!UICONTROL Read Segment]** 활동을 캔버스에 놓습니다.
+1. 을(를) 펼칩니다. **[!UICONTROL Orchestration]** 카테고리 및 삭제 **[!UICONTROL Read Segment]** 활동을 캔버스로 이동합니다.
 
    활동을 여정의 첫 번째 단계로 배치해야 합니다.
 
-1. 활동에 **[!UICONTROL Label]** 을 추가합니다(선택 사항).
+1. 추가 **[!UICONTROL Label]** 활동에 대한 방문(선택 사항).
 
-1. **[!UICONTROL Segment]** 필드에서 여정을 입력할 Adobe Experience Platform 세그먼트를 선택한 다음 **[!UICONTROL Save]** 를 클릭합니다.
+1. 에서 **[!UICONTROL Segment]** 필드에서 여정을 입력할 Adobe Experience Platform 세그먼트를 선택한 다음 **[!UICONTROL Save]**.
 
    목록에 표시된 열을 사용자 지정하고 정렬할 수 있습니다.
 
    >[!NOTE]
    >
-   >**실현됨** 및 **기존** 세그먼트 기여도 상태가 있는 개인만 여정에 들어갑니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세분화 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}를 참조하십시오.
+   >오직 **실현** 및 **기존** 세그먼트 기여도 상태에 여정이 표시됩니다. 세그먼트 평가 방법에 대한 자세한 내용은 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
    ![](../assets/read-segment-selection.png)
 
-   세그먼트가 추가되면 **[!UICONTROL Copy]** 버튼을 사용하여 해당 이름과 ID를 복사할 수 있습니다.
+   세그먼트를 추가하면 **[!UICONTROL Copy]** 버튼을 사용하면 이름과 ID를 복사할 수 있습니다.
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/read-segment-copy.png)
 
-1. **[!UICONTROL Namespace]** 필드에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보십시오](../event/about-creating.md#select-the-namespace).
+1. 에서 **[!UICONTROL Namespace]** 필드에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
    >다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 여정에 들어갈 수 없습니다.
 
-1. **[!UICONTROL Throttling rate]** 필드를 읽기 세그먼트 활동의 처리량 제한으로 설정합니다.
+1. 설정 **[!UICONTROL Throttling rate]** 필드를 세그먼트 읽기 활동의 처리량 제한에 추가합니다.
 
    이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 초당 17,000개의 메시지입니다. 이 값은 초당 500~17,000개의 메시지로 수정할 수 있습니다.
 
@@ -65,29 +65,29 @@ ht-degree: 4%
    >
    >샌드박스당 전체 전송률 은 초당 20,000개의 메시지로 설정됩니다. 따라서 동일한 샌드박스에서 동시에 실행되는 모든 읽기 세그먼트의 전송률은 초당 최대 20,000개의 메시지를 추가합니다. 이 캡은 수정할 수 없습니다.
 
-1. **[!UICONTROL Read Segment]** 활동을 사용하면 세그먼트가 여정에 들어갈 시간을 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Edit journey schedule]** 링크를 클릭하여 여정의 속성에 액세스한 다음 **[!UICONTROL Scheduler type]** 필드를 구성합니다.
+1. 다음 **[!UICONTROL Read Segment]** 활동을 통해 세그먼트가 여정을 입력할 시간을 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Edit journey schedule]** 링크를 클릭하여 여정 속성에 액세스한 다음 **[!UICONTROL Scheduler type]** 필드.
 
    ![](../assets/read-segment-schedule.png)
 
-   기본적으로 세그먼트는 여정 **[!UICONTROL As soon as possible]**&#x200B;을 입력합니다. 세그먼트를 특정 날짜/시간 또는 반복으로 여정을 입력하도록 하려면 목록에서 원하는 값을 선택합니다.
+   기본적으로 세그먼트는 여정을 입력합니다 **[!UICONTROL As soon as possible]**. 세그먼트를 특정 날짜/시간 또는 반복으로 여정을 입력하도록 하려면 목록에서 원하는 값을 선택합니다.
 
    >[!NOTE]
    >
-   >**[!UICONTROL Schedule]** 섹션은 **[!UICONTROL Read Segment]** 활동이 캔버스에 드롭된 경우에만 사용할 수 있습니다.
+   >다음 사항에 유의하십시오. **[!UICONTROL Schedule]** 섹션은 **[!UICONTROL Read Segment]** 활동이 캔버스에 삭제되었습니다.
 
    ![](../assets/read-segment-schedule-list.png)
 
 ### 여정 테스트 및 게시 {#testing-publishing}
 
-**[!UICONTROL Read Segment]** 활동을 사용하면 단일 여정에서 또는 세그먼트에 대해 자격이 있는 프로필 중에서 선택한 100개의 임의로 테스트 프로필을 테스트할 수 있습니다.
+다음 **[!UICONTROL Read Segment]** 활동을 사용하면 단일 프로필에서 또는 세그먼트에 대해 자격이 있는 프로필 중에서 선택한 100개의 임의로 여정을 테스트할 수 있습니다.
 
 이렇게 하려면 테스트 모드를 활성화한 다음 왼쪽 창에서 원하는 옵션을 선택합니다.
 
 ![](../assets/read-segment-test-mode.png)
 
-그런 다음 평소대로 테스트 모드를 구성하고 실행할 수 있습니다. [여정 ](testing-the-journey.md)를 테스트하는 방법을 알아봅니다.
+그런 다음 평소대로 테스트 모드를 구성하고 실행할 수 있습니다. [여정 테스트 방법 알아보기](testing-the-journey.md).
 
-테스트가 실행되면 **[!UICONTROL Show logs]** 버튼을 사용하여 선택한 테스트 옵션에 따라 테스트 결과를 볼 수 있습니다.
+테스트가 실행되면 **[!UICONTROL Show logs]** 버튼을 사용하면 선택한 테스트 옵션에 따라 테스트 결과를 볼 수 있습니다.
 
 * **[!UICONTROL Single profile at a time]**: 테스트 로그는 단일 테스트 모드를 사용할 때와 동일한 정보를 표시합니다. 이 작업에 대한 자세한 정보는 [이 섹션](testing-the-journey.md#viewing_logs)을 참조하십시오
 
@@ -97,7 +97,7 @@ ht-degree: 4%
 
    ![](../assets/read-segment-log.png)
 
-테스트가 성공하면 여정을 게시할 수 있습니다( [여정 게시](publishing-the-journey.md) 참조). 세그먼트에 속하는 개인은 여정의 속성 **[!UICONTROL Scheduler]** 섹션에 지정된 날짜/시간에 여정을 입력합니다.
+테스트가 성공하면 여정을 게시할 수 있습니다( [여정 게시](publishing-the-journey.md)). 세그먼트에 속하는 개인은 여정 속성에 지정된 날짜/시간에 여정을 입력합니다 **[!UICONTROL Scheduler]** 섹션을 참조하십시오.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ ht-degree: 4%
 
 ## 세그먼트 기반 여정의 대상 타깃팅
 
-세그먼트 기반 여정은 항상 **세그먼트 읽기** 활동으로 시작하여 Adobe Experience Platform 세그먼트에 속하는 개인을 검색합니다.
+세그먼트 기반 여정은 항상 **세그먼트 읽기** 활동을 사용하여 Adobe Experience Platform 세그먼트에 속하는 개인을 검색합니다.
 
 세그먼트에 속하는 대상자는 한 번 또는 정기적으로 검색됩니다.
 
@@ -114,7 +114,7 @@ ht-degree: 4%
 
 **세그먼테이션**
 
-조건을 사용하여 **조건** 활동을 사용하여 세그먼테이션을 수행할 수 있습니다. 예를 들어 VIP 사람이 특정 경로를 사용하고 VIP이 아닌 다른 경로를 취하도록 할 수 있습니다.
+조건을 사용하여 를 사용하여 세그먼테이션을 수행할 수 있습니다. **조건** 활동. 예를 들어 VIP 사람이 특정 경로를 사용하고 VIP이 아닌 다른 경로를 취하도록 할 수 있습니다.
 
 세그먼테이션은 다음을 기반으로 할 수 있습니다.
 
@@ -128,7 +128,7 @@ ht-degree: 4%
 
 **예외**
 
-세그먼테이션에 사용되는 것과 동일한 **Condition** 활동을 사용하면 모집단의 일부를 제외할 수도 있습니다. 예를 들어, VIP 대상자를 바로 뒤에 종료 단계가 있는 분기로 유입시켜 제외할 수 있습니다.
+동일 **조건** 세그멘테이션에 사용되는 활동(위 참조)도 모집단 일부를 제외할 수 있습니다. 예를 들어, VIP 대상자를 바로 뒤에 종료 단계가 있는 분기로 유입시켜 제외할 수 있습니다.
 
 이 제외는 세그먼트 검색 직후, 모집단 계산 목적 또는 여러 단계 여정을 위해 발생할 수 있습니다.
 

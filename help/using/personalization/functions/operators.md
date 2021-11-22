@@ -1,14 +1,15 @@
 ---
 title: 연산자 함수 라이브러리
 description: 연산자 함수 라이브러리
-feature: 개인화
-topic: 개인화
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 12%
+source-wordcount: '302'
+ht-degree: 11%
 
 ---
 
@@ -20,9 +21,9 @@ ht-degree: 12%
 
 ### 및{#and}
 
-`and` 함수는 논리 연결을 만드는 데 사용됩니다.
+다음 `and` 함수를 사용하여 논리 연결을 만듭니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= query1 and query2 %}
@@ -38,9 +39,9 @@ ht-degree: 12%
 
 ### 또는{#or}
 
-`or` 함수는 논리 분리를 만드는 데 사용됩니다.
+다음 `or` 함수는 논리 분리를 만드는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= query1 or query2 %}
@@ -85,9 +86,9 @@ not (homeAddress.countryISO = "CA")
 
 ### 다음과 같음{#equals}
 
-`=` (같음) 함수는 한 값이나 표현식이 다른 값이나 표현식과 같은지 여부를 확인합니다.
+다음 `=` (equals) 함수는 한 값 또는 표현식이 다른 값 또는 표현식과 같은지 여부를 확인합니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= expression = value %}
@@ -103,9 +104,9 @@ not (homeAddress.countryISO = "CA")
 
 ### 같지 않음{#notequal}
 
-`!=`(같지 않음) 함수는 한 값 또는 표현식이 **not**&#x200B;다른 값 또는 표현식과 같은지 여부를 확인합니다.
+다음 `!=` (같지 않음) 함수는 값 또는 표현식이 있는지 여부를 확인합니다 **not** 다른 값 또는 표현식과 같음.
 
-**형식**
+**포맷**
 
 ```sql
 {%= expression != value %}
@@ -121,9 +122,9 @@ not (homeAddress.countryISO = "CA")
 
 ### 보다 큼{#greaterthan}
 
-`>` (보다 큼) 함수는 첫 번째 값이 두 번째 값보다 커야 하는지 확인하는 데 사용됩니다.
+다음 `>` (보다 큼) 함수는 첫 번째 값이 두 번째 값보다 커야 하는지 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= expression1 > expression2 %}
@@ -139,9 +140,9 @@ not (homeAddress.countryISO = "CA")
 
 ### 크거나 같음{#greaterthanorequal}
 
-`>=` (크거나 같음) 함수는 첫 번째 값이 두 번째 값보다 크거나 같은지 확인하는 데 사용됩니다.
+다음 `>=` (크거나 같음) 함수는 첫 번째 값이 두 번째 값보다 크거나 같은지 확인하는 데 사용됩니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= expression1 >= expression2 %}
@@ -155,11 +156,11 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### 보다 작음{#lessthan}
+### 미만{#lessthan}
 
-`<`(보다 작음) 비교 함수를 사용하여 첫 번째 값이 두 번째 값보다 작은지 확인합니다.
+다음 `<` (보다 작음) 비교 함수를 사용하여 첫 번째 값이 두 번째 값보다 작은지 확인합니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= expression1 < expression2 %}
@@ -175,9 +176,9 @@ not (homeAddress.countryISO = "CA")
 
 ### 작거나 같음{#lessthanorequal}
 
-`<=` (작거나 같음) 비교 함수를 사용하여 첫 번째 값이 두 번째 값보다 작거나 같은지 확인합니다.
+다음 `<=` (작거나 같음) 비교 함수를 사용하여 첫 번째 값이 두 번째 값보다 작거나 같은지 확인합니다.
 
-**형식**
+**포맷**
 
 ```sql
 {%= expression1 <= expression2 %}
@@ -192,4 +193,3 @@ not (homeAddress.countryISO = "CA")
 ```
 
 **숫자를 사용하는 작업**
-

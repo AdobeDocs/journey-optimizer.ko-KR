@@ -1,14 +1,15 @@
 ---
 title: 컬렉션 조회
 description: 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 오퍼의 하위 집합입니다.
-feature: 오퍼
-topic: 통합
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 3%
+source-wordcount: '176'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 3%
 
 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 오퍼의 하위 집합입니다.
 
-`@id` 컬렉션이나 요청 경로에 있는 컬렉션의 이름을 포함하는 [!DNL Offer Library] API에 GET 요청을 하여 특정 컬렉션을 찾을 수 있습니다.
+에 GET 요청을 작성하여 특정 컬렉션을 조회할 수 있습니다 [!DNL Offer Library] 컬렉션을 포함하는 API `@id` 또는 요청 경로에 있는 컬렉션의 이름입니다.
 
 **API 형식**
 
@@ -29,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 컬렉션이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | 컬렉션과 연결된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | 엔티티의 `@id` 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확히 일치합니다. 매개 변수 `id` 및 `name`은(는) 함께 사용할 수 없습니다. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확히 일치하고 대문자와 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 `id` 및 `name`은(는) 함께 사용할 수 없습니다 | `Mobile demo` |
+| `id` | 와 일치하는 `@id` 엔티티의 속성입니다. 문자열이 정확히 일치합니다. 매개 변수 `id` 및 `name` 함께 사용할 수 없습니다. | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확히 일치하고 대문자와 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 `id` 및 `name` 함께 사용할 수 없습니다. | `Mobile demo` |
 
 **요청**
 
@@ -46,7 +47,7 @@ curl -X GET \
 
 **응답**
 
-성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유 컬렉션 `@id`에 대한 정보를 포함하는 배치 세부 사항을 반환합니다.
+성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유 컬렉션에 대한 정보를 포함한 배치 세부 사항을 반환합니다 `@id`.
 
 ```json
 {

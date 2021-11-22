@@ -2,14 +2,15 @@
 title: 메시지 게시 및 수정
 description: 메시지 게시 및 업데이트 방법 알아보기
 snippet: y
-feature: 여정
-topic: 콘텐츠 관리
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
+exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 4%
+source-wordcount: '216'
+ht-degree: 3%
 
 ---
 
@@ -25,9 +26,9 @@ ht-degree: 4%
 
 ![](assets/publish-message.png)
 
-메시지가 게시되면 **[!UICONTROL Published]** 상태가 있는 메시지 목록에 추가됩니다.
+메시지가 게시되면 메시지가 와 함께 메시지 목록에 추가됩니다. **[!UICONTROL Published]** 상태.
 
-이제 하나 이상의 [여정](building-journeys/journey.md)에 의해 트리거될 준비가 되었습니다.
+이제 하나 이상 트리거할 준비가 되었습니다 [여정](building-journeys/journey.md).
 
 ## 읽기 전용 메시지 업데이트 {#modify-message}
 
