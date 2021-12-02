@@ -2,9 +2,9 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
+source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '794'
 ht-degree: 25%
 
 ---
@@ -13,6 +13,11 @@ ht-degree: 25%
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 
+
+## 2021년 11월
+
+* 이제 여정에 사용되는 고급 표현식 편집기에 대한 전체 설명을 사용할 수 있습니다. [자세히 보기](building-journeys/expression/expressionadvanced.md)
+* 새 CNAME 하위 도메인 위임 방법입니다. [자세히 보기](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## 2021년 10월
 

@@ -4,16 +4,16 @@ description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 8384afaa0f989337b8b075006a3082cf3e7860c4
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1437'
 ht-degree: 4%
 
 ---
 
 # 푸시 알림 채널 구성 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] 에서는 여정을 만들고 타겟팅된 대상자에게 메시지를 전송할 수 있습니다. 푸시 알림을 전송하기 전에 [!DNL Journey Optimizer], 모바일 앱 및 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]. 푸시 알림 데이터 흐름을 이해하려면 다음을 수행하십시오. [!DNL Adobe Journey Optimizer] 자세한 내용은 [이 페이지](push-gs.md).
+[!DNL Journey Optimizer] 에서는 여정을 만들고 타겟팅된 대상자에게 메시지를 전송할 수 있습니다. 푸시 알림을 전송하기 전에 [!DNL Journey Optimizer]를 채울 때는 모바일 앱 및 Adobe Experience Platform의 태그에 대한 구성 및 통합이 있는지 확인해야 합니다. 푸시 알림 데이터 흐름을 이해하려면 다음을 수행하십시오. [!DNL Adobe Journey Optimizer] 자세한 내용은 [이 페이지](push-gs.md).
 
 ## 시작하기 전
 
@@ -30,11 +30,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 권한 설정
 
-모바일 애플리케이션을 만들기 전에 먼저 에서 올바른 사용자 권한을 가지고 있는지 또는 할당했는지 확인해야 합니다. **Adobe Experience Platform Launch**. 추가 정보 [Adobe Experience Platform Launch 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}.
+모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform에서 태그에 대한 올바른 사용자 권한이 있는지 또는 지정했는지 확인해야 합니다. 추가 정보 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >
->푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 개인에 따라 전체 권한 세트를 단일 제품 프로필에 할당하거나 앱 개발자와 앱 개발자 간에 권한을 공유해야 할 수 있습니다 **Adobe Journey Optimizer** 관리자 추가 정보 **Adobe Experience Platform Launch** 권한 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}.
+>푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 개인에 따라 전체 권한 세트를 단일 제품 프로필에 할당하거나 앱 개발자와 앱 개발자 간에 권한을 공유해야 할 수 있습니다 **Adobe Journey Optimizer** 관리자 추가 정보 **태그** 권한 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -103,7 +103,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 앱 구성
 
-기술 설정에는 앱 개발자와 비즈니스 관리자 간의 긴밀한 공동 작업이 포함됩니다. 푸시 알림 전송을 시작하기 전에 [!DNL Journey Optimizer], Adobe Experience Platform Launch에서 설정을 정의하고 모바일 앱을 Adobe Experience Platform Mobile SDK와 통합해야 합니다.
+기술 설정에는 앱 개발자와 비즈니스 관리자 간의 긴밀한 공동 작업이 포함됩니다. 푸시 알림 전송을 시작하기 전에 [!DNL Journey Optimizer]를 지정하는 경우에서 설정을 정의해야 합니다 [!DNL Adobe Experience Platform Data Collection] Adobe Experience Platform Mobile SDK와 모바일 앱을 통합합니다.
 
 아래 링크에 자세히 설명된 구현 단계를 따르십시오.
 
@@ -114,41 +114,48 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일용 클라이언트측 통합 API를 제공합니다. 팔로우 [Adobe Experience Platform Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/getting-started/overview)앱에서 Adobe Experience Platform Mobile SDK로 설정하려면 {target=&quot;_blank&quot;}.
 
-이렇게 하면 Adobe Experience Platform Launch에서 모바일 속성도 만들고 구성해야 합니다. 일반적으로 관리할 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법을 알아봅니다 [Adobe Experience Platform Launch 설명서](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}.
+이 작업을 완료하여에 모바일 속성도 만들고 구성해야 했습니다 [!DNL Adobe Experience Platform Data Collection]. 일반적으로 관리할 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법을 알아봅니다 [Adobe Experience Platform Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}.
 
 
-## 1단계: Adobe Experience Platform Launch에서 앱 푸시 자격 증명 추가 {#push-credentials-launch}
+## 1단계: Adobe Experience Platform 데이터 수집에 앱 푸시 자격 증명 추가 {#push-credentials-launch}
 
-이제 올바른 사용자 권한을 부여한 후에 모바일 애플리케이션 푸시 자격 증명을 추가해야 합니다. [!DNL Adobe Experience Platform Launch].
+이제 올바른 사용자 권한을 부여한 후에 모바일 애플리케이션 푸시 자격 증명을 추가해야 합니다. [!DNL Adobe Experience Platform Data Collection].
 
 Adobe이 대신 푸시 알림을 전송하도록 승인하려면 모바일 앱 푸시 자격 증명 등록이 필요합니다. 아래 절차를 참조하십시오.
 
-1. From [!DNL Adobe Experience Platform Launch], **[!UICONTROL Client Side]** 드롭다운 메뉴에서 이(가) 선택됩니다.
+1. From [!DNL Adobe Experience Platform Data Collection]에서 을(를) 선택합니다. **[!UICONTROL App Surfaces]** 왼쪽 패널의 탭.
 
-1. 을(를) 선택합니다 **[!UICONTROL App Configurations]** 왼쪽 패널의 탭을 클릭하고 **[!UICONTROL App Configuration]** 새 구성을 만들려면
+1. 클릭 **[!UICONTROL Create App Surfaces]** 새 구성을 만들려면
+
+   ![](assets/add-app-config.png)
 
 1. 을(를) 입력합니다. **[!UICONTROL Name]** 참조하십시오.
 
-1. 에서 **[!UICONTROL Messaging Service Type]** 드롭다운 메뉴에서 **[!UICONTROL Messaging service type]** 이러한 자격 증명에 사용할 수 있습니다.
+1. From **[!UICONTROL Mobile Application Configuration]**&#x200B;운영 시스템을 선택합니다.
 
-   * **Android용**
-
-      ![](assets/add-app-config-android.png)
-
-      1. 다음을 제공합니다. **[!UICONTROL App ID (Android package name)]**: 일반적으로 패키지 이름은 의 앱 id입니다 `build.gradle` 파일.
-
-      1. FCM 푸시 자격 증명을 끌어다 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}.
    * **iOS용**
 
       ![](assets/add-app-config-ios.png)
 
       1. 모바일 앱 입력 **번들 Id** 에서 **[!UICONTROL App ID (iOS Bundle ID)]** 필드. 앱 번들 ID는 **일반** 의 기본 대상 탭 **XCode**.
 
-      1. 을(를) 끌어다 놓습니다 **Apple 푸시 알림 인증 키** Apple 개발자 계정에 대해 이 키는 **인증서**, **식별자** 및 **프로필** 페이지.
+      1. 켜짐 **[!UICONTROL Push Credentials]** 단추를 클릭하여 자격 증명을 추가합니다.
+
+      1. .p8 Apple 푸시 알림 인증 키 파일을 끌어서 놓습니다. 이 키는 **인증서**, **식별자** 및 **프로필** 페이지.
 
       1. 다음을 제공합니다. **키 ID**. p8 인증 키를 만드는 동안 지정된 10자 문자열입니다. 아래에서도 찾을 수 있습니다 **키** 탭 **인증서**, **식별자** 및 **프로필** 페이지.
 
       1. 다음을 제공합니다. **팀 ID**. 멤버십 탭에서 찾을 수 있는 문자열 값입니다.
+   * **Android용**
+
+      ![](assets/add-app-config-android.png)
+
+      1. 다음을 제공합니다. **[!UICONTROL App ID (Android package name)]**: 일반적으로 패키지 이름은 의 앱 id입니다 `build.gradle` 파일.
+
+      1. 켜짐 **[!UICONTROL Push Credentials]** 단추를 클릭하여 자격 증명을 추가합니다.
+
+      1. FCM 푸시 자격 증명을 끌어다 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}.
+
 
 
 1. 클릭 **[!UICONTROL Save]** 앱 구성을 만들려면
@@ -173,7 +180,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 ## 2단계: 모바일 속성에서 Adobe Journey Optimizer 확장 구성
 
-다음 **Adobe Journey Optimizer 확장**  Adobe Experience Platform Mobile SDK용 는 모바일 앱에 대한 푸시 알림을 활성화하고 사용자 푸시 토큰을 수집하고 Adobe Experience Platform 서비스와의 상호 작용 측정을 관리하는 데 도움이 됩니다.
+다음 **Adobe Journey Optimizer 확장** Adobe Experience Platform Mobile SDK용 는 모바일 앱에 대한 푸시 알림을 활성화하고 사용자 푸시 토큰을 수집하고 Adobe Experience Platform 서비스와의 상호 작용 측정을 관리하는 데 도움이 됩니다.
 
 에서 Journey Optimizer 확장을 설정하는 방법을 알아봅니다. [Adobe Experience Platform Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}.
 
@@ -246,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## 3단계: 이벤트를 사용하여 모바일 앱을 테스트합니다 {#mobile-app-test}
 
-이제 Adobe Experience Platform과 Launch 모두에서 모바일 앱을 구성한 후 프로필에 푸시 알림을 보내기 전에 테스트할 수 있습니다. 이 사용 사례에서는 모바일 앱을 타깃팅할 여정을 만들고 푸시 알림을 트리거할 이벤트를 설정합니다.
+Adobe Experience Platform과 모두에서 모바일 앱을 구성한 후 [!DNL Adobe Experience Platform Data Collection]이제 프로필에 푸시 알림을 전송하기 전에 테스트할 수 있습니다. 이 사용 사례에서는 모바일 앱을 타깃팅할 여정을 만들고 푸시 알림을 트리거할 이벤트를 설정합니다.
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
@@ -344,7 +351,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 ## 4단계: 푸시용 메시지 사전 설정 만들기{#message-preset}
 
-모바일 앱을 설정하면에 [!DNL Adobe Experience Platform Launch]에서 푸시 알림을 전송하려면 메시지 사전 설정을 만들어야 합니다. **[!DNL Journey Optimizer]**.
+모바일 앱을에서 설정했으면 [!DNL Adobe Experience Platform Data Collection]에서 푸시 알림을 전송하려면 메시지 사전 설정을 만들어야 합니다. **[!DNL Journey Optimizer]**.
 
 에서 메시지 사전 설정을 만들고 구성하는 방법을 알아봅니다. [이 섹션](configuration/message-presets.md).
 

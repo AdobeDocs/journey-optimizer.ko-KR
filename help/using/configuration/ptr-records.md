@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
+source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ PTR 레코드를 사용하면 수신 메일 서버가 해당 IP 주소가 서버
 
 ## 하위 도메인의 PTR 레코드에 액세스
 
-Adobe Journey Optimizer에서 하위 도메인이 위임되면 PTR 레코드가 자동으로 만들어지고 이 하위 도메인과 연결됩니다. 에서 액세스할 수 있습니다. **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+한 번 [하위 도메인이 위임됨](delegate-subdomain.md) Adobe Journey Optimizer에서 이 하위 도메인과 PTR 레코드가 자동으로 만들어지고 연결됩니다. 에서 액세스할 수 있습니다. **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](../assets/ptr-records.png)
 
@@ -39,6 +39,10 @@ Adobe Journey Optimizer에서 하위 도메인이 위임되면 PTR 레코드가 
 ## PTR 레코드 편집 {#edit-ptr-record}
 
 PTR 레코드를 수정하여 IP 주소와 연결된 하위 도메인을 편집할 수 있습니다.
+
+>[!CAUTION]
+>
+>을 사용하여 Adobe에 위임한 하위 도메인과 연결된 PTR 레코드를 수정할 수 없습니다 [CNAME 메서드](delegate-subdomain.md#cname-subdomain-delegation).
 
 1. 목록에서 PTR 레코드 이름을 클릭하여 엽니다.
 

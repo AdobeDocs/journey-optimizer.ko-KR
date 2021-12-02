@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4695c88b4372a0f2a804bef268ae6f2d39eb2f0b
+source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 89%
@@ -189,6 +189,10 @@ ht-degree: 89%
       + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
       + [사용자 지정 작업을 사용하여 동적으로 컬렉션 전달](using/building-journeys/collections.md)
       + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
+
+      <!--
+    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    -->
 + 추적 및 모니터링 {#reporting}
    + [메시지 모니터링](using/message-monitoring.md)
    + 라이브 보고서 {#live-report}

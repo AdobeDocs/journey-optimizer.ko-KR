@@ -5,48 +5,46 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
+source-git-commit: 980aedcd0fb4dba161dc0041a77e0f8d06d6fe68
 workflow-type: tm+mt
-source-wordcount: '11'
-ht-degree: 0%
+source-wordcount: '257'
+ht-degree: 3%
 
 ---
 
 
-<!--
-# Use case: ramp up your deliveries
+# 사용 사례: 게재 강화
 
-If you recently moved to another email service provider, IP address, or email domain or subdomain, you need to establish your reputation as a sender. Otherwise, your deliveries might be blocked or moved to the spam folder of the recipients' mailbox. Learn how to increase your email reputation with IP warming in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
+최근 다른 이메일 서비스 공급자, IP 주소 또는 이메일 도메인 또는 하위 도메인으로 이동한 경우, 발신자로서의 평판을 설정해야 합니다. 게재가 차단되거나 수신자 사서함의 스팸 폴더로 이동될 수 있습니다. IP 온난화를 통해 이메일 평판을 높이는 방법을 알아보십시오 [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target=&quot;_blank&quot;}.
 
-To warm up your IP, you can gradually ramp up the number of your deliveries. Read more about [optimizing deliverability in Journey Optimizer](../deliverability.md).
+IP를 가열하기 위해 게재 수를 점진적으로 늘릴 수 있습니다. 자세한 내용 [Journey Optimizer에서 게재 기능 최적화](../deliverability.md).
 
-The purpose of this use case is to create a journey to ramp up your email deliveries. To configure this journey, follow these steps:
+이 사용 사례의 목적은 전자 메일 게재를 늘리기 위한 여정을 만드는 것입니다. 이 여정을 구성하려면 다음 단계를 수행합니다.
 
-1. Create a journey. [Read more](journey-gs.md).
+1. 여정 만들기. [자세히 보기](journey-gs.md).
 
-1. Add a **[!UICONTROL Condition]** activity to the journey. [Read more](condition-activity.md).
+1. 추가 **[!UICONTROL Condition]** 활동을 여정에 추가합니다. [자세히 보기](condition-activity.md).
 
-1. In the **[!UICONTROL Condition]** activity settings, set the maximum number of recipients for your delivery:
+1. 에서 **[!UICONTROL Condition]** 활동 설정에서 게재에 대한 최대 수신자 수를 설정합니다.
 
-   1. In the **[!UICONTROL Condition]** activity settings, set the **[!UICONTROL Type]** field to **[!UICONTROL Profile cap]**. [Read more](condition-activity.md#profile_cap).
+   1. 에서 **[!UICONTROL Condition]** 활동 설정, 설정 **[!UICONTROL Type]** 필드 대상 **[!UICONTROL Profile cap]**. [자세히 보기](condition-activity.md#profile_cap).
 
-   1. Set the **[!UICONTROL Limit]** field to the maximum number of recipients for this delivery.
+   1. 설정 **[!UICONTROL Limit]** 필드를 이 게재의 최대 수신자 수에 추가합니다.
 
-    ![](../assets/profile-cap-condition.png)
+   ![](../assets/profile-cap-condition.png)
 
-      You can gradually increase this limit up to the total number of your subscribers.
+   이 제한을 총 구독자 수까지 점진적으로 늘릴 수 있습니다.
 
-1. Add a **[!UICONTROL Message]** activity to the first path after the **[!UICONTROL Condition]** activity.
+1. 추가 **[!UICONTROL Message]** 활동 이후의 명목상 경로 **[!UICONTROL Condition]** 활동.
 
-    ![](../assets/ramp-up-deliveries-message.png)
+   ![](../assets/ramp-up-deliveries-message.png)
 
-    When the journey runs, the message is sent the selected recipients, up to the maximum number of recipients that you have specified. When this limit is reached, the selected recipients take the second path.
+   여정이 실행되면 입력한 프로필(지정한 최대 프로필 수)까지 메시지가 전송됩니다. 이 한도에 도달하면 입력한 프로필에서 대체 경로를 사용합니다.
 
-1. Complete the journey with the activities of your choice.
+1. 선택한 활동으로 여정을 완료합니다.
 
-After your IP has warmed up, you can remove this condition.
+IP가 따뜻해지면 이 조건을 제거할 수 있습니다.
 
--->
 
 
 
