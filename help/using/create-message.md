@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: d8c95350ac17658ce477d6aec50a9f418f4af0f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->사용자는 제품 프로필에 따라 메시지에 액세스, 만들기, 편집 및/또는 게시할 수 있습니다. 사용자 권한에 대해 자세히 알아보기 [이 섹션](../using/administration/permissions.md).
+>사용자는 제품 프로필에 따라 메시지에 액세스, 만들기, 편집 및/또는 게시할 수 있습니다. 사용자 권한에 대해 자세히 알아보기 [이 섹션](administration/permissions.md).
 
 ![](assets/messages-list.png)
 
@@ -43,15 +43,14 @@ ht-degree: 3%
 
    * 을(를) 입력합니다. **[!UICONTROL Title]** (필수) 및 **[!UICONTROL Description]**.
 
+   * 을(를) 선택합니다 **[!UICONTROL Message category]**: 마케팅 또는 트랜잭션.
+
    * 을(를) 선택합니다 **[!UICONTROL Preset]** 을 전달하는 것이 좋습니다.
 
-      사전 설정에는 브랜드에 따라 이메일 및/또는 푸시 알림을 전송하는 데 필요한 모든 매개 변수가 포함되어 있습니다. [사전 설정에 대해 자세히 알아보기](../using/configuration/message-presets.md).
+      사전 설정에는 브랜드에 따라 이메일 및/또는 푸시 알림을 전송하는 데 필요한 모든 매개 변수가 포함되어 있습니다. [사전 설정에 대해 자세히 알아보기](configuration/message-presets.md).
 
    * 해당 메시지에 사용할 채널을 선택합니다. 이메일 및/또는 푸시 알림. 메시지를 만들 수 있으려면 채널을 하나 이상 선택해야 합니다.
    언제든지 **[!UICONTROL Properties]** 메시지 인터페이스의 단추.
-
-   ![](assets/message-properties.png)
-
 
 1. 클릭 **[!UICONTROL Create]** 메시지 만들기를 확인합니다. 메시지가 메시지 목록의 **[!UICONTROL Draft]** 상태.
 

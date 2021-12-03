@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 9facba9d5dd804e51aad969ef83a964f64e63033
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 78%
+source-wordcount: '814'
+ht-degree: 77%
 
 ---
 
@@ -44,7 +44,9 @@ ht-degree: 78%
 구독 취소 링크를 추가하려면 아래 단계를 따르십시오.
 
 1. 구독 취소 랜딩 페이지를 빌드합니다.
-1. 랜딩 페이지를 원하는 서드파티 시스템에 호스팅합니다.
+
+1. 원하는 서드파티 시스템에 호스팅하십시오.
+
 1. [메시지를 ](../../help/using/create-message.md)[!DNL Journey Optimizer]에 만듭니다.
 
    <!--The link to your landing page should contain a static URL and the profile ID.-->

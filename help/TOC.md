@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 89%
+source-wordcount: '883'
+ht-degree: 87%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 89%
       + [메시지 만들기](using/create-message.md)
       + [이메일 만들기](using/create-email.md)
       + [푸시 알림 만들기](using/create-push.md)
+      + [SMS 메시지 만들기](using/create-sms.md)
    + [자산 추가 및 관리](using/assets-essentials.md)
    + 이메일 디자인 {#email-designer}
       + [이메일 디자인 시작](using/design-emails.md)
@@ -220,6 +221,12 @@ ht-degree: 89%
       + [전달성 시작](using/deliverability.md)
       + [제외 목록](using/suppression-list.md)
       + [허용 목록](using/allow-list.md)
++ 랜딩 페이지 {#landing-pages}
+   + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
+   + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
+   + [랜딩 페이지 디자인](using/landing-pages/design-lp.md)
+   + [구독 목록 만들기](using/landing-pages/subscription-list.md)
+   + [사용 사례](using/landing-pages/lp-use-cases.md)
 + 의사 결정 관리 {#offer-decisioniong}
    + 의사 결정 관리 시작 {#get-started}
       + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
@@ -321,6 +328,7 @@ ht-degree: 89%
             + [제외 목록 관리](using/configuration/manage-suppression-list.md)
             + [다시 시도](using/configuration/retries.md)
          + [이메일 기본 주소 변경](using/configuration/primary-email-addresses.md)
+      + [SMS 채널 구성](using/configuration/sms-configuration.md)
       + [메시지 사전 설정 만들기](using/configuration/message-presets.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
+source-git-commit: 7039c816c459ba8cb5dbb52daf3c8265e1e1a511
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 1%
@@ -105,6 +105,20 @@ ht-degree: 1%
    * 각 플랫폼에 사용할 모바일 애플리케이션을 선택합니다.
 
       푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../push-gs.md).
+
+<!--
+1. Configure the **SMS** settings.
+
+     ![](../assets/preset-sms.png)
+
+    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
+    
+    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+        
+      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+
+    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+-->
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL Submit]** 확인합니다. 메시지 사전 설정을 초안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 

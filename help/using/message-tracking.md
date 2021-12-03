@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
+source-git-commit: 2879f460d4be4b570e47227b32fa3f979984cbbf
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '803'
 ht-degree: 2%
 
 ---
@@ -49,6 +49,8 @@ ht-degree: 2%
 1. 만들 링크 유형을 선택합니다.
 
    * **[!UICONTROL External link]**: 외부 URL에 대한 링크를 삽입합니다.
+
+   * **[!UICONTROL Landing page]**: 랜딩 페이지에 대한 링크를 삽입합니다. [이 섹션](landing-pages/get-started-lp.md)에서 자세히 알아보기
 
    * **[!UICONTROL Unsubscription link]**: 브랜드의 커뮤니케이션 수신을 취소할 링크를 삽입합니다. [이 섹션](consent.md#opt-out-management)에서 옵트아웃 관리에 대해 자세히 알아보십시오.
 
