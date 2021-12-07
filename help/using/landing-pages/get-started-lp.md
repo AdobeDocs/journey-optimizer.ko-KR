@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
@@ -30,29 +31,26 @@ ht-degree: 1%
 
 <!--[!DNL Journey Optimizer] now allows you to:
 * Easily build landing pages to make users subscribe to your communications.
-* Set up opt-in and opt-out flows quickly and seamlessly.
+* Enable your customers to opt-in or opt-out from your communications.
 To move to RN-->
 
-[!DNL Journey Optimizer] 다음을 수행할 수 있습니다.
-
-* 활용 [!DNL Journey Optimizer] 컨텐츠 디자인 기능을 통해 반응형 랜딩 페이지를 손쉽게 구축할 수 있습니다.
-* 사용자가 서비스에 가입할 수 있도록 가입 목록을 만듭니다.
-* 고객이 통신에서 옵트인 또는 옵트아웃할 수 있도록 합니다.
-* 수신자에게 커뮤니케이션 수신을 취소할 수 있는 기능을 제공합니다.
+* 활용 [!DNL Journey Optimizer] 손쉽게 구축할 수 있는 컨텐츠 디자인 기능 **응답형 랜딩 페이지**.
+* 설정 **옵트인 및 옵트아웃 흐름** 빠르고 원활하게 수행할 수 있습니다.
+* 사용자가 다음을 수행할 수 있도록 가입 목록을 만듭니다. **서비스 구독**. [자세히 보기](lp-use-cases.md#subscription-to-a-service)
+* 수신자에게 을 제공합니다 **구독 취소 기능** 당신의 통신을 수신함. [자세히 보기](lp-use-cases.md#opt-out)
+* 보내기 **확인 이메일** 옵트인 또는 옵트아웃 시. [자세히 보기](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">랜딩 페이지 만들기</a></p></td>
 <td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">구독 목록 만들기</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">랜딩 페이지 디자인</a></p></td>
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">사용 사례</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">보고</a></p></td>
 </tr>
 </table>
 
-<!--Easily build attractive/efficient landing pages to drive the best conversion.-->
+<!--
 
-<!--**Questions**
+<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
 
-* Can you leverage **Adobe Experience Manager Assets Essentials** to enrich your landing pages' content?
-
-* Can you personalize LP ? > Enhance customers' experience by creating **personalized landing pages** based on their profile attributes.-->
+-->

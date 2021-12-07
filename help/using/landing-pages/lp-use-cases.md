@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 21%
+source-wordcount: '772'
+ht-degree: 18%
 
 ---
 
 # 랜딩 페이지 사용 사례
 
-다음은 사용 가능한 방법의 예입니다 [!DNL Journey Optimizer] 고객이 일부 또는 모든 통신 수신을 옵트인하거나 옵트아웃하도록 하는 랜딩 페이지.
+다음은 사용 가능한 방법의 몇 가지 예입니다 [!DNL Journey Optimizer] 고객이 일부 또는 모든 통신 수신을 옵트인하거나 옵트아웃하도록 하는 랜딩 페이지.
 
 <!--The main use cases are:
 * Subscription to a service
@@ -25,33 +26,65 @@ ht-degree: 21%
 
 ## 서비스 구독 {#subscription-to-a-service}
 
-수신자가 서비스를 구독하도록 하는 주요 단계는 아래에 나와 있습니다.
+가장 일반적인 사용 사례 중 하나는 고객을 [서비스 구독](subscription-list.md) (예: 뉴스레터 또는 이벤트) 를 랜딩 페이지로 이동할 수 있습니다. 주요 단계는 아래 그래프에 나와 있습니다.
 
 ![](../assets/lp_subscription-uc.png)
 
-예를 들어, 다음 달에 이벤트를 구성하고, 해당 이벤트에 관심이 있는 고객을 계속 유지하기 위해 이벤트 등록 캠페인을 시작한다고 가정합니다.
+예를 들어 다음 달에 이벤트를 구성하고 이벤트 등록 캠페인을 시작한다고 가정합니다<!--to keep your customers that are interested updated on that event-->. 이렇게 하려면 수신자가 이 이벤트에 등록할 수 있도록 랜딩 페이지에 대한 링크가 포함된 이메일을 보냅니다. 등록하는 사용자는 이 목적으로 만든 구독 목록에 추가됩니다.
 
-1. 이벤트 등록의 구독 목록을 만듭니다. 추가 정보 [구독 목록](subscription-list.md)
+### 랜딩 페이지 설정
 
-1. [랜딩 페이지 만들기](create-lp.md): 수신자가 이벤트에 등록할 수 있도록 해줍니다.
+1. 등록된 사용자를 저장할 이벤트 등록의 구독 목록을 만듭니다. 구독 목록을 만드는 방법을 알아봅니다 [여기](subscription-list.md#define-subscription-list).
 
-1. 구독 목록에 대한 링크를 포함하여 등록 랜딩 페이지를 구성하고 디자인합니다. 빌드에 대해 자세히 알아보기 [기본 랜딩 페이지](create-lp.md#configure-primary-page)
+   ![](../assets/lp_subscription-uc-list.png)
 
-1. 수신자가 등록 양식을 제출하면 표시되는 감사 인사 페이지를 만듭니다. 추가 정보 [랜딩 하위 페이지](create-lp.md#configure-subpages)
+1. [랜딩 페이지 만들기](create-lp.md) 을 클릭하여 수신자가 이벤트에 등록할 수 있도록 합니다.
 
-1. 이메일 메시지를 만듭니다. 추가 정보 [메시지 만들기](../create-message.md)
+1. 등록 구성 [기본 랜딩 페이지](create-lp.md#configure-primary-page).
 
-1. [링크 삽입](../message-tracking.md#insert-links) 메시지를 표시합니다. 선택 **[!UICONTROL Landing page]** 로서의 **[!UICONTROL Link type]** 그리고 [랜딩 페이지](create-lp.md#configure-primary-page) 등록용으로 만들 수 있습니다.
+1. 디자인 시 [랜딩 페이지 콘텐츠](design-lp.md)에서 만든 구독 목록을 선택하여 등록 확인란을 선택하는 프로필로 업데이트합니다.
+
+   ![](../assets/lp_subscription-uc-lp-list.png)
+
+1. 수신자가 등록 양식을 제출하면 사용자에게 표시될 &#39;감사 인사&#39; 페이지를 만듭니다. 랜딩 하위 페이지를 구성하는 방법 알아보기 [여기](create-lp.md#configure-subpages).
+
+   ![](../assets/lp_subscription-uc-thanks.png)
+
+1. [게시](create-lp.md#publish) 랜딩 페이지.
+
+1. [이메일 메시지 만들기](../create-message.md) 이제 해당 이벤트에 대한 등록이 열려 있음을 알려주십시오.
+
+1. [링크 삽입](../message-tracking.md#insert-links) 메시지 콘텐츠에 삽입하십시오. 선택 **[!UICONTROL Landing page]** 로서의 **[!UICONTROL Link type]** 그리고 [랜딩 페이지](create-lp.md#configure-primary-page) 등록용으로 만들 수 있습니다.
 
    ![](../assets/lp_subscription-uc-link.png)
 
 1. 콘텐츠를 저장하고 [메시지를 게시합니다](../publish-manage-message.md).
 
-1. 을(를) 통해 메시지 보내기 [여정](../building-journeys/journey.md) 이제 이벤트 및 등록 랜딩 페이지로 트래픽을 유도하기 위해 등록 알림을 사용할 수 있습니다.
+1. 을(를) 통해 메시지 보내기 [여정](../building-journeys/journey.md) 트래픽을 등록 랜딩 페이지로 유도합니다.
 
-   전자 메일이 수신되면 수신자가 랜딩 페이지에 대한 링크를 클릭하면 감사 페이지로 이동하며 구독 목록에 추가됩니다.
+   ![](../assets/lp_subscription-uc-journey.png)
 
-1. 이벤트에 등록한 수신자에게 확인 이메일을 보낼 수 있습니다. 이렇게 하려면 를 사용하여 다른 여정을 통해 보냅니다 **[!UICONTROL Segment qualification]** 이벤트를 선택하고 세그먼트로 만든 구독 목록을 선택합니다.
+   전자 메일이 수신되면 수신자가 랜딩 페이지에 대한 링크를 클릭하면 &#39;감사 인사&#39; 페이지로 이동하며 구독 목록에 추가됩니다.
+
+### 확인 이메일 보내기 {#send-confirmation-email}
+
+또한 이벤트에 등록한 수신자에게 확인 이메일을 보낼 수 있습니다. 이렇게 하려면 아래 절차를 따르십시오.
+
+1. 다른 만들기 [여정](../building-journeys/journey.md). 을(를) 클릭하여 랜딩 페이지에서 직접 수행할 수 있습니다 **[!UICONTROL Create journey]** 버튼을 클릭합니다. [여기](create-lp.md#configure-primary-page)에서 추가 정보를 확인하십시오
+
+   ![](../assets/lp_subscription-uc-create-journey.png)
+
+1. 을(를) 펼칩니다. **[!UICONTROL Events]** 카테고리 및 삭제 **[!UICONTROL Segment Qualification]** 활동을 캔버스로 이동합니다. [여기](../building-journeys/segment-qualification-events.md)에서 추가 정보를 확인하십시오
+
+1. 을(를) 클릭합니다. **[!UICONTROL Segment]** 필드를 작성하고 만든 구독 목록을 선택합니다.
+
+   ![](../assets/lp_subscription-uc-confirm-journey.png)
+
+1. 선택한 확인 이메일을 선택하고 여정을 통해 보냅니다.
+
+   ![](../assets/lp_subscription-uc-confirm-email.png)
+
+이벤트에 등록한 모든 사용자는 확인 이메일을 받게 됩니다.
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 

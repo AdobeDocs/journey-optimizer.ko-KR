@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
+source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '890'
 ht-degree: 87%
 
 ---
@@ -227,6 +227,9 @@ ht-degree: 87%
    + [랜딩 페이지 디자인](using/landing-pages/design-lp.md)
    + [구독 목록 만들기](using/landing-pages/subscription-list.md)
    + [사용 사례](using/landing-pages/lp-use-cases.md)
+   + 보고 {#lp-reporting}
+      + [랜딩 페이지 보고](using/landing-pages/lp-report.md)
+      + [구독 목록 보고](using/landing-pages/subscription-report.md)
 + 의사 결정 관리 {#offer-decisioniong}
    + 의사 결정 관리 시작 {#get-started}
       + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
