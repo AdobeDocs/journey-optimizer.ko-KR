@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 459bf9451ca86350713cf7f6d6977284b6d2eaf2
+exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
+source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # 랜딩 페이지 보고서 {#lp-report}
 
-구독 보고서에는 랜딩 페이지의 영향에 대한 세부 사항이 표시됩니다. 다음 두 가지 보고서 유형을 사용할 수 있습니다.
+랜딩 페이지 보고서에는 랜딩 페이지의 영향에 대한 세부 사항이 표시됩니다. 다음 두 가지 보고서 유형을 사용할 수 있습니다.
 
 * 다음 **[!UICONTROL Live report]** 지난 24시간 동안의 랜딩 페이지 성공을 측정하고 시각화하기 위해.
 
