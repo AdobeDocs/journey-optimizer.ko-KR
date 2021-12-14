@@ -8,10 +8,10 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 18%
+source-wordcount: '847'
+ht-degree: 14%
 
 ---
 
@@ -105,39 +105,53 @@ ht-degree: 18%
 
 ### 옵트아웃 구성 {#configure-opt-out}
 
-메시지 수신자가 랜딩 페이지를 통해 커뮤니케이션에서 가입을 해지할 수 있도록 하려면 아래 단계를 따르십시오.
+이메일 수신자가 랜딩 페이지를 통해 커뮤니케이션에서 가입을 해지할 수 있도록 하려면 아래 단계를 따르십시오.
 
-1. 빌드 [랜딩 페이지](create-lp.md). 랜딩 페이지별 사용 **[!UICONTROL Form]** 구성 요소, 정의 **[!UICONTROL Opt-out]** 확인란을 선택하고 업데이트하도록 선택합니다. **[!UICONTROL Channel (email)]**: 랜딩 페이지에서 옵트아웃 상자를 체크하는 프로필은 모든 통신에서 옵트아웃됩니다. [자세히 알아보기](design-lp.md)
+1. 랜딩 페이지를 만듭니다. [자세히 알아보기](create-lp.md)
+
+1. 기본 페이지를 정의합니다. [자세히 알아보기](create-lp.md#configure-primary-page)
+
+1. [디자인](design-lp.md) 기본 페이지 컨텐츠: 랜딩 페이지별 사용 **[!UICONTROL Form]** 구성 요소, 정의 **[!UICONTROL Opt-out]** 확인란을 선택하고 업데이트하도록 선택합니다. **[!UICONTROL Channel (email)]**: 랜딩 페이지에서 옵트아웃 상자를 체크하는 프로필은 모든 통신에서 옵트아웃됩니다.
+
+   ![](../assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. [메시지를 ](../create-message.md)[!DNL Journey Optimizer]에 만듭니다.
+1. 확인 추가 [하위 페이지](create-lp.md#configure-subpages) 양식을 제출하는 사용자에게 표시됩니다.
+
+   ![](../assets/lp_opt-out-subpage.png)
+
+   >[!NOTE]
+   >
+   >에서 하위 페이지를 참조하는지 확인합니다. **[!UICONTROL Form]** 구성 요소 **[!UICONTROL Call to action]** 기본 페이지의 섹션을 참조하십시오. [자세히 알아보기](design-lp.md)
+
+1. 페이지의 콘텐츠를 구성하고 정의했으면, [게시](create-lp.md#publish) 랜딩 페이지.
+
+   ![](../assets/lp_opt-out-publish.png)
+
+1. [이메일 메시지 만들기](../create-message.md) in [!DNL Journey Optimizer].
 
 1. 콘텐츠에서 텍스트를 선택하고 [링크 삽입](../message-tracking.md#insert-links) 상황별 도구 모음 사용. 단추에 대한 링크를 사용할 수도 있습니다.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
-1. **[!UICONTROL Link type]** 드롭다운 목록에서 **[!UICONTROL Landing page]**&#x200B;을(를) 선택합니다.
-
-1. 을(를) 선택합니다 [랜딩 페이지](create-lp.md#configure-primary-page) 옵트아웃을 위해 만든
+1. 선택 **[!UICONTROL Landing page]** 에서 **[!UICONTROL Link type]** 드롭다운 목록을 선택하고 [랜딩 페이지](create-lp.md#configure-primary-page) 옵트아웃을 위해 만든
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-
 1. 콘텐츠를 저장하고 [메시지를 게시합니다](../publish-manage-message.md).
 
-1. 을(를) 통해 메시지 보내기 [여정](../building-journeys/journey.md).
+1. 여정을 통해 메시지를 보냅니다. [자세히 알아보기](../building-journeys/journey.md).
 
-1. 메시지가 수신되면 수신자가 구독 취소 링크를 클릭하면 랜딩 페이지가 표시됩니다.
+1. 메시지가 수신되면 수신자가 이메일에서 가입 해지 링크를 클릭하면 랜딩 페이지가 표시됩니다.
 
-   <!--![](../assets/lp_opt-out-lp-example.png)-->
+   ![](../assets/lp_opt-out-submit-form.png)
 
-1. 수신자가 랜딩 페이지에서 옵트아웃 링크를 클릭하면 프로필 데이터가 업데이트되며, 다시 구독하지 않으면 브랜드로부터 커뮤니케이션을 받지 않습니다.
+1. 랜딩 페이지에서 수신자가 상자를 선택하고 양식을 제출하는 경우:
 
-   <!--The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.-->
+   * 옵트아웃 수신자는 확인 메시지 화면으로 리디렉션됩니다.
 
-   <!--![](../assets/lp_opt-out-confirmation-example.png)-->
+   * 프로필 데이터가 업데이트되며, 다시 구독하지 않으면 브랜드로부터 커뮤니케이션을 받지 않습니다.
 
 해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 

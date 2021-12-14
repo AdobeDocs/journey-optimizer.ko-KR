@@ -16,9 +16,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 1d8eabfee83d80f74c54ec8dee5ec924bc165ee7
+source-git-commit: c548852b976100935271afafd5267fd7f32a9b50
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1396'
 ht-degree: 6%
 
 ---
@@ -87,6 +87,10 @@ ht-degree: 6%
 
 하위 도메인이 의 Adobe에 위임되면 [!DNL Journey Optimizer]인 경우 PTR 레코드가 자동으로 만들어지고 이 하위 도메인과 연결됩니다. [자세히 알아보기](ptr-records.md)
 
+>[!CAUTION]
+>
+>하위 도메인의 병렬 실행은 현재 지원되지 않습니다. [!DNL Journey Optimizer]. 다른 도메인이 **[!UICONTROL Processing]** 상태, 오류 메시지가 표시됩니다.
+
 ## CNAME 하위 도메인 위임 {#cname-subdomain-delegation}
 
 도메인별 제한 정책이 있고 Adobe이 DNS를 부분적 제어만 갖도록 하려는 경우 모든 DNS 관련 활동을 사용자 측에서 수행하도록 선택할 수 있습니다.
@@ -151,19 +155,9 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따�
 
 레코드를 확인하고 인증서를 설치하면 Adobe이 CNAME 하위 도메인에 대한 PTR 레코드를 자동으로 만듭니다. [자세히 알아보기](ptr-records.md)
 
-<!--
-
-**Questions**
-
-* Upon generating DNS records (i.e. copying them into your hosting solution), Adobe verifies that these records are generated without errors on your hosting solution, but I can see in the mocks that generating the record can take up to 2 minutes only vs 3 hours to validate record when using full delegation method, such as described here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html?lang=en. Do you confirm?
-
-* One you submit the CNAME subdomain delegation, do you go through the same validation steps as for full delegation (see here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html#subdomain-validation)? In that case, can it take up to 72 hours as seen in mocks vs up to 3 hours when using full delegation method?
-
-* Is a PTR record created for each CNAME subdomain? Is it different when fully delegating subdomain?
-
-* Question on existing documentation: I can read here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html#subdomain-validation that "Adobe creates PTR records only when you delegate the first subdomain, one for each IP, all IPs pointing to the first subdomain.": Does it mean "Adobe creates PTR records only when you delegate a subdomain for the first time"? If so, I'll change this sentence as I find it a bit confusing. Otherwise please advise.
-
--->
+>[!CAUTION]
+>
+>하위 도메인의 병렬 실행은 현재 지원되지 않습니다. [!DNL Journey Optimizer]. 다른 도메인이 **[!UICONTROL Processing]** 상태, 오류 메시지가 표시됩니다.
 
 ## 하위 도메인 유효성 검사 {#subdomain-validation}
 
