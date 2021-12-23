@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 67ec0951a06bf8c7806f6c8b996cce26e3eddfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 52%
 
 조직에 따라 여러 유형의 사용자를 정의하고 권한에 따라 특정 기능에 대한 액세스 권한을 부여할 수 있습니다.
 
-시작 [!DNL Journey Optimizer]? 특정 질문에 경험이 있는 사용자입니까? 회사 인스턴스 관리자 목표를 더 빨리 달성하기 위해 자신의 길을 택하세요!
+[!DNL Journey Optimizer]를 처음 시작하나요? 구체적인 질문이 있는 숙련된 사용자이신가요? 일하시는 회사 인스턴스의 관리자이신가요? 목표를 더 빨리 달성하기 위해 자신의 길을 택하세요!
 
-단계별 지침을 통해 Adobe Journey Optimizer의 강력한 기능을 학습하고 알아보려면 프로필을 선택하십시오.
+단계별 지침을 통해 Adobe Journey Optimizer의 강력한 기능을 알아보고 확인하려면 프로필을 선택하세요.
 
 <table>
 <tr>
@@ -41,7 +41,7 @@ ht-degree: 52%
       <img alt="데이터 엔지니어" src="../using/assets/do-not-localize/user-1.png"/>
     </a>
     <div>
-    <a href="path/data-engineer.md">데이터 엔지니어</a>
+    <a href="path/data-engineer.md">데이터 엔지니어입니다</a>
      <p>프로필 가져오기, 대상자 빌드, 스키마 및 데이터 세트 만들기
     <p>
     </div>
@@ -52,7 +52,7 @@ ht-degree: 52%
        <img alt="마케터" src="../using/assets/do-not-localize/user-3.png" />
        </a>
     <div><a href="path/marketer.md">마케터입니다</a>
-     <p>메시지 디자인, 오퍼, 자산 추가 및 고객 여정 구축
+     <p>메시지 디자인, 오퍼, 자산 추가, 고객 여정 작성
     <p>
     </div>
     <br>
