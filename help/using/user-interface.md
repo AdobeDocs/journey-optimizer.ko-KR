@@ -7,19 +7,19 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1eb7e547019446ea946f7475730b01368f6a15eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1459'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 # 사용자 인터페이스 {#cjm-user-interface}
 
-연결 대상 [Adobe Experience Cloud](http://experience.adobe.com) 그리고 [!DNL Journey Optimizer].
+[Adobe Experience Cloud](http://experience.adobe.com)에 연결하여 [!DNL Journey Optimizer]를 찾습니다.
 
-사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 공통됩니다. 을(를) 참조하십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide)자세한 내용은 {target=&quot;_blank&quot;} 를 참조하십시오.
+사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 공통됩니다. 자세한 내용은 [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ko#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}를 참조하십시오.
 
-사용자 인터페이스에서 사용할 수 있는 구성 요소 및 기능은 [권한](administration/permissions.md) 그리고 [라이선스 패키지](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하십시오.
+UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하십시오.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ ht-degree: 66%
 
 * **[!UICONTROL Journeys]** - 고객 여정 생성, 구성 및 조정 [자세히 알아보기](building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - 이메일 및 푸시 메시지 만들기, 디자인, 테스트 및 게시할 수 있습니다. [자세히 알아보기](create-message.md)
+* **[!UICONTROL Messages]** - 이메일 및 푸시 메시지의 작성, 디자인, 테스트 및 게시 [자세히 알아보기](create-message.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -56,7 +56,7 @@ ht-degree: 66%
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials]은 메시지를 채우는 데 사용할 수 있는 자산의 중앙 집중식 저장소입니다. [자세히 알아보기](assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials]는 메시지를 채우는 데 사용할 수 있는 자산의 중앙 집중식 저장소입니다. [자세히 알아보기](assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
@@ -66,7 +66,7 @@ ht-degree: 66%
 
 * **[!UICONTROL Queries]** - Adobe Experience Platform 쿼리 서비스를 사용하여 쿼리를 작성하여 실행하고, 이전에 실행한 쿼리를 보고, 조직 내에서 사용자가 저장한 쿼리에 액세스합니다. [자세히 알아보기](get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. [추가 정보](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko){target=&quot;_blank&quot;}
+* **[!UICONTROL Monitoring]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko){target=&quot;_blank&quot;}
 
 **[!UICONTROL CONNECTIONS]**
 
@@ -78,7 +78,7 @@ ht-degree: 66%
 
 * **[!UICONTROL Profiles]** - 실시간 고객 프로파일은 온라인, 오프라인, CRM 및 서드파티 데이터를 비롯한 다양한 채널의 데이터를 취합하여 각 개별 고객을 전체적으로 파악할 수 있도록 합니다. [자세히 알아보기](get-started-profiles.md)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service는 Adobe Experience Platform 내의 ID 그래프로 알려진 것을 통해 고객의 크로스 디바이스, 크로스 채널 및 거의 실시간으로 식별하여 고객을 관리합니다. [자세히 알아보기](get-started-identity.md)
+* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service는 Adobe Experience Platform 내에서 ID 그래프라고 알려진 것을 통해 고객의 ID를 크로스 디바이스, 크로스 채널 및 거의 실시간으로 식별하여 관리합니다. [자세히 알아보기](get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
@@ -98,9 +98,9 @@ ht-degree: 66%
 
 사용 가능한 사용 사례는 다음과 같습니다.
 
-* **테스트 프로필을 만들고**, CSV 템플릿을 사용하여 테스트 프로필을 만들어 개인화된 메시지 및 여정을 테스트합니다. 이 사용 사례를 구현하는 방법 알아보기 [이 페이지에서](building-journeys/creating-test-profiles.md#use-case-1).
+* **테스트 프로필을 만들고**, CSV 템플릿을 사용하여 테스트 프로필을 만들어 개인화된 메시지 및 여정을 테스트합니다. [이 페이지](building-journeys/creating-test-profiles.md#use-case-1)에서 이 사용 사례를 구현하는 방법을 알아보세요.
 * **고객에게 생일 메시지를 보내기** 고객의 생일을 축하하기 위해 자동으로 이메일을 보냅니다. (준비 중)
-* **신규 고객에게 이메일 전송**: 새로 등록한 고객을 환영하기 위해 최대 2개의 이메일을 쉽게 보낼 수 있습니다. (준비 중)
+* **신규 고객 환영 이메일 보내기**&#x200B;로 새로 가입한 고객을 환영하는 이메일을 최대 두 개까지 간단히 보낼 수 있습니다. (준비 중)
 * **가져온 고객 목록에 푸시 메시지 보내기** CSV 파일에서 가져온 고객 목록에 푸시 알림을 신속하게 전송할 수 있습니다. (준비 중)
 
 각 사용 사례에 대한 자세히 알아보려면 **[!UICONTROL View details]**&#x200B;를 클릭하십시오.
@@ -111,25 +111,25 @@ ht-degree: 66%
 
 ## 접근성{#accessibility}
 
-의 액세스 가능성 기능 [!DNL Adobe Journey Optimizer] Adobe Experience Platform에서 상속됨:
+[!DNL Adobe Journey Optimizer]의 접근성 기능은 Adobe Experience Platform의 기능을 가져온 것으로 다음과 같은 기능이 제공됩니다.
 
-* 키보드 액세스 가능성
+* 키보드 접근성
 * 색상 대비
 * 필수 필드 유효성 검사
 
-[추가 정보](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)Adobe Experience Platform 설명서의 {target=&quot;_blank&quot;}.
+Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target=&quot;_blank&quot;}
 
-에서 이러한 일반적인 키보드 단축키를 사용할 수 있습니다 [!DNL Journey Optimizer]:
+[!DNL Journey Optimizer]에서는 다음과 같은 일반적 키보드 단축키를 사용할 수 있습니다.
 
 | 작업 | 단축키 |
 | --- | --- |
-| 사용자 인터페이스 요소, 섹션 및 메뉴 그룹 간 이동 | 탭 |
-| 사용자 인터페이스 요소, 섹션 및 메뉴 그룹 간 뒤로 이동 | Shift + 탭 |
+| 사용자 인터페이스 요소, 섹션, 메뉴 그룹 간 이동 | 탭 |
+| 사용자 인터페이스 요소, 섹션, 메뉴 그룹 간에 뒤로 이동 | Shift + Tab |
 | 섹션 내에서 이동하여 포커스를 개별 요소로 설정 | 화살표 |
-| 포커스에 있는 요소 선택 또는 지우기 | Enter 키 또는 스페이스바 |
+| 포커스에 있는 요소 선택 또는 지우기 | Enter 또는 스페이스바 |
 | 선택 취소, 패널 축소 또는 대화 상자 닫기 | Esc |
 
-[추가 정보](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)Adobe Experience Platform 설명서의 {target=&quot;_blank&quot;}.
+Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ko){target=&quot;_blank&quot;}
 
 Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있습니다.
 
@@ -142,22 +142,22 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
     </tr>
   </thead>
   <tr>
-    <td>여정, 작업, 데이터 소스 또는 이벤트 목록</td>
+    <td>여정, 작업, 데이터 소스 또는 이벤트의 목록</td>
     <td>여정, 작업, 데이터 소스 또는 이벤트 만들기</td>
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">초안 상태의 캔버스 여정</td>
-    <td>사용 가능한 첫 번째 위치에서 맨 위에서 맨 아래로 활동을 왼쪽 팔레트에서 추가합니다</td>
-    <td>활동을 두 번 클릭합니다</td>
+    <td rowspan="3">초안 상태의 여정 캔버스</td>
+    <td>왼쪽 팔레트의 사용 가능한 첫 번째 위치에 활동 추가(위에서 아래로)</td>
+    <td>활동 두 번 클릭</td>
   </tr>
   <tr>
-    <td>모든 활동을 선택합니다</td>
+    <td>모든 활동 선택</td>
     <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
   <tr>
-    <td>선택한 활동을 삭제합니다</td>
-    <td>삭제 또는 백스페이스 순으로 입력한 다음 Enter 키를 눌러 삭제를 확인합니다</td>
+    <td>선택한 활동 삭제</td>
+    <td>[삭제]를 선택하거나 백스페이스를 누른 다음 Enter 키로 삭제 확인</td>
   </tr>
   <tr>
   <td rowspan="3">
@@ -176,15 +176,15 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
     <td>탭</td>
   </tr>
   <tr>
-    <td>변경 내용을 저장하고 구성 창을 닫습니다.</td>
-    <td>Enter 키</td>
+    <td>변경 내용을 저장하고 구성 창 닫기</td>
+    <td>Enter</td>
   </tr>
   <tr>
-    <td>변경 내용을 취소하고 구성 창을 닫습니다.</td>
+    <td>변경 내용을 취소하고 구성 창 닫기</td>
     <td>Esc</td>
   </tr>
   <tr>
-    <td rowspan="4">테스트 모드의 여정</td>
+    <td rowspan="4">테스트 모드 여정</td>
     <td>테스트 모드 활성화 또는 비활성화</td>
     <td>T</td>
   </tr>
@@ -195,7 +195,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   <tr>
     <td>
 
-세그먼트 기반 여정에서 **[!UICONTROL Single profile at a time]** 옵션이 켜져 있음
+**[!UICONTROL Single profile at a time]** 옵션이 켜진 세그먼트 기반 여정에서 이벤트 트리거
 
 </td>
     <td>P</td>
@@ -213,31 +213,31 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
 -->
   <tr>
     <td>텍스트 필드</td>
-    <td>선택한 필드에서 모든 텍스트를 선택합니다</td>
+    <td>선택한 필드의 모든 텍스트 선택</td>
     <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">팝업 창</td>
-    <td>변경 내용을 저장하거나 작업을 확인합니다</td>
-    <td>Enter 키</td>
+    <td>변경 내용을 저장하거나 작업 확인</td>
+    <td>Enter</td>
   </tr>
   <tr>
-    <td>창을 닫습니다.</td>
+    <td>창 닫기</td>
     <td>Esc</td>
   </tr>
   <tr>
     <td>단순 표현식 편집기</td>
     <td>필드 선택 및 추가</td>
-    <td>필드를 두 번 클릭합니다</td>
+    <td>필드 두 번 클릭</td>
   </tr>
   <tr>
-    <td>XDM 필드 탐색</td>
-    <td>노드의 모든 필드를 선택합니다</td>
-    <td>상위 노드를 선택합니다</td>
+    <td>XDM 필드 검색</td>
+    <td>노드의 모든 필드 선택</td>
+    <td>상위 노드 선택</td>
   </tr>
   <tr>
     <td>페이로드 미리 보기</td>
-    <td>페이로드를 선택합니다</td>
+    <td>페이로드 선택</td>
     <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
 </table>
@@ -274,13 +274,13 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ## 검색{#unified-search}
 
-Adobe Journey Optimizer 인터페이스에서 어디에서나 상단 표시줄 중앙에 있는 통합 Adobe Experience Cloud 검색 기능을 사용하여 샌드박스에서 자산, 여정, 데이터 세트, 메시지 등을 찾을 수 있습니다.
+Adobe Journey Optimizer 인터페이스의 모든 곳에서 상단 표시줄의 중앙에 있는 Adobe Experience Cloud 검색을 사용하여 샌드박스 전반의 자산, 여정 또는 메시지를 찾을 수 있습니다.
 
 상위 결과를 표시할 컨텐츠 입력을 시작합니다. 입력한 키워드에 대한 도움말 문서도 결과에 표시됩니다.
 
 ![](assets/unified-search.png)
 
-누르기 **Enter 키** 모든 결과에 액세스하여 비즈니스 객체별로 필터링하려면
+모든 결과에 액세스하여 비즈니스 객체별로 필터링하려면 **Enter 키**&#x200B;를 누릅니다.
 
 ![](assets/search-and-filter.png)
 
@@ -290,7 +290,7 @@ Adobe Journey Optimizer 인터페이스에서 어디에서나 상단 표시줄 �
 
 목록 왼쪽 위의 필터 아이콘을 클릭하면 필터에 액세스할 수 있습니다. 필터 메뉴에서는 표시된 요소를 여러 조건에 따라 필터링할 수 있습니다. 예를 들어 특정 유형이나 상태의 요소, 직접 만든 요소 또는 지난 30일 동안 수정한 요소만 표시하도록 선택할 수 있습니다. 선택 사항은 컨텍스트에 따라 다릅니다.
 
-여정 목록에서 상태, 유형 및 버전에 따라 여정을 필터링할 수 있습니다 **[!UICONTROL Status and version filters]**. 유형은 다음과 같습니다. **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** 또는 **[!UICONTROL Burst]**. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;에서 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수 있습니다. **[!UICONTROL Publication filters]**&#x200B;에서는 발행 날짜 또는 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 경로의 최신 버전만 표시하도록 선택할 수 있습니다. [자세히 알아보기](building-journeys/using-the-journey-designer.md).
+여정 목록의 **[!UICONTROL Status and version filters]**&#x200B;에서 상태, 유형 및 버전에 따라 여정을 필터링할 수 있습니다. 유형은 다음과 같습니다. **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** 또는 **[!UICONTROL Burst]**. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;에서 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수 있습니다. **[!UICONTROL Publication filters]**&#x200B;에서는 발행 날짜 또는 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 경로의 최신 버전만 표시하도록 선택할 수 있습니다. [자세히 알아보기](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
