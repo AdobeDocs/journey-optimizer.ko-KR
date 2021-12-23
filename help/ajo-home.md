@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 40%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">[!DNL Journey Optimizer] (이)란?</a>
+      <a href="using/get-started.md">[!DNL Journey Optimizer]란?</a>
     </div>
-    <p>주요 기능 및 활용 사례 검색
+    <p>주요 기능 및 사용 사례 살펴보기
     <p>
     <div>
       <a href="using/release-notes.md">릴리스 정보</a>
     </div>
-    <p>새로운 기능, 최신 개선 사항 및 수정 사항
+    <p>새로운 기능, 최신 개선 사항 및 문제 해결
    <p>
     <div>
       <a href="using/quick-start.md">빠른 시작 안내서</a>
@@ -48,32 +48,32 @@ ht-degree: 40%
       <a href="using/design-emails.md">이메일 콘텐츠 디자인</a>
     </div>
     <p>
-    새 전자 메일 디자인 또는 기존 HTML 콘텐츠 가져오기
+    새 이메일 디자인 또는 기존 HTML 콘텐츠 가져오기
     <p>
     <div>
       <a href="using/building-journeys/journeys-message.md">메시지 보내기</a>
     </div>
-    <p>고객 여정에서 푸시 및 이메일 메시지를 추가하는 방법을 알아봅니다
+    <p>고객 여정에 푸시 및 이메일 메시지를 추가하는 방법 알아보기
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">여정 처음 만들어 보기</a>
     </div>
-    <p>여정을 빌드하고 실행하는 방법을 알아봅니다
+    <p>고객 여정 작성 및 실행 방법 알아보기
     <p>
     <div>
     <a href="using/configuration/get-started-configuration.md">[!DNL Journey Optimizer]</a> 구성
     </div>
-    <p>구성하는 주요 단계를 배웁니다. [!DNL Journey Optimizer]
+    <p>[!DNL Journey Optimizer]를 구성하는 주요 단계를 알아봅니다.
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]</a> 액세스 권한 부여
     </div>
-    <p>에 할당된 권한 정의 및 관리 [!DNL Journey Optimizer] 사용자
+    <p>[!DNL Journey Optimizer] 사용자에게 할당된 권한 정의 및 관리
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">의사 결정 관리</a>
     </div>
-    <p>오퍼를 만들고 고객에게 최상의 오퍼 및 경험을 제공합니다
+    <p>오퍼를 만들고 최상의 오퍼와 경험을 게재하여 고객에게 전달
     <p>
     <p>
     <div><strong>추가 리소스</strong>
@@ -82,7 +82,7 @@ ht-degree: 40%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer 제품 설명</a>
+      <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer 제품 설명</a>
     </li>
     </div>
     <div>
@@ -102,7 +102,7 @@ ht-degree: 40%
     </div>
   </td>
    <td>
-   <div><strong>주요 리소스에 대한 직접 링크</strong>
+   <div><strong>주요 리소스로 직접 가는 링크</strong>
     </div>
     <p>
     <em></em>
@@ -117,7 +117,7 @@ ht-degree: 40%
     <p>
     <p>의사 결정 관리</p>
     <li>
-      <a href="using/offers/get-started/starting-offer-decisioning.md">제공</a>
+      <a href="using/offers/get-started/starting-offer-decisioning.md">오퍼</a>
     </li>
      <li>
       <a href="using/offers/offer-library/key-steps.md">구성 요소</a>
@@ -125,7 +125,7 @@ ht-degree: 40%
     <p>
     <p>콘텐츠 관리</p>
     <li>
-      <a href="using/assets-essentials.md">Assets</a>
+      <a href="using/assets-essentials.md">자산</a>
     </li>
     <p>
     <p>데이터 관리</p>
@@ -155,7 +155,7 @@ ht-degree: 40%
       <a href="using/get-started-profiles.md">프로필</a>
     </li>
     <li>
-      <a href="using/get-started-identity.md">ID</a>
+      <a href="using/get-started-identity.md">신원</a>
     </li>
     <p>
     <p>관리</p>
@@ -166,7 +166,7 @@ ht-degree: 40%
       <a href="using/configuration/get-started-configuration.md">채널</a>
     </li>
      <li>
-      <a href="using/administration/sandboxes.md">샌드 박스</a>
+      <a href="using/administration/sandboxes.md">샌드박스</a>
     </li>
   </td>
 </tr>
