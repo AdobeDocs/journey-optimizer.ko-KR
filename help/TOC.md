@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 87%
    + [Journey Optimizer 소개](using/get-started.md)
    + 빠른 시작{#quick-start}
       + [개요](using/quick-start.md)
-      + [마케터로 시작](using/path/marketer.md)
-      + [데이터 엔지니어 시작](using/path/data-engineer.md)
+      + [마케터로 시작하기](using/path/marketer.md)
+      + [데이터 엔지니어로 시작하기](using/path/data-engineer.md)
       + [관리자로 시작하기](using/path/administrator.md)
       + [개발자로 시작하기](using/path/developer.md)
    + [사용자 인터페이스](using/user-interface.md)
@@ -66,12 +66,12 @@ ht-degree: 87%
       + [개체 함수](using/personalization/functions/objects.md)
       + [문자열 함수](using/personalization/functions/string.md)
    + [개인화된 오퍼 추가](using/deliver-personalized-offers.md)
-+ 세그먼트, 프로필 및 ID{#segment}
++ 세그먼트, 프로필, 신원{#segment}
    + 세그먼트 {#segments}
       + [세그먼트 시작](using/segment/about-segments.md)
-      + [세그먼트 빌드](using/segment/creating-a-segment.md)
+      + [세그먼트 작성](using/segment/creating-a-segment.md)
    + [프로필](using/get-started-profiles.md)
-   + [ID](using/get-started-identity.md)
+   + [신원](using/get-started-identity.md)
 + 여정 {#orchestrate-journeys}
    + 여정 정보{#about-journeys}
       + [일반 원칙](using/building-journeys/journey.md)
@@ -188,11 +188,12 @@ ht-degree: 87%
    + 사용 사례 {#journey-use-cases}
       + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
       + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
-      + [사용자 지정 작업을 사용하여 동적으로 컬렉션 전달](using/building-journeys/collections.md)
+      + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
       + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
+
       <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    -->
 + 추적 및 모니터링 {#reporting}
    + [메시지 모니터링](using/message-monitoring.md)
    + 라이브 보고서 {#live-report}
@@ -208,8 +209,8 @@ ht-degree: 87%
    + 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
-      + 이전 단계 이벤트 필드 {#legacy-step-event-fields}
-         + [기존 필드 정보](using/reports/sharing-legacy-fields.md)
+      + 레거시 단계 이벤트 필드 {#legacy-step-event-fields}
+         + [레거시 필드 정보](using/reports/sharing-legacy-fields.md)
          + [여정 필드](using/reports/sharing-journey-fields.md)
          + [공통 필드](using/reports/sharing-common-fields.md)
          + [작업 실행 필드](using/reports/sharing-execution-fields.md)
