@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 77%
 * 이러한 규정을 준수하지 않으면 브랜드에 대한 규제 법률 리스크가 발생합니다.
 * 이메일은 원하지 않는 커뮤니케이션을 수신자에게 보내지 않도록 함으로써 메시지를 스팸으로 표시하고 명성을 손상시킬 수 있습니다.
 
-개인 정보 관리 및 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
+개인 정보 관리에 대한 자세한 내용 및 해당 규정은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target=&quot;_blank&quot;}를 참조하세요.
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -32,7 +32,7 @@ ht-degree: 77%
 
 ## 옵트아웃 관리 {#opt-out-management}
 
-수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하는 것은 법적 요구사항입니다. 에서 해당 법률에 대해 자세히 알아보십시오 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}.
+수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하는 것은 법적 요구사항입니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko#regulations){target=&quot;_blank&quot;}에서 해당 법률에 대해 자세히 알아보세요.
 
 따라서 수신자에게 보내는 모든 이메일에 항상 **구독 취소 링크**&#x200B;를 포함해야 합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 77%
 
 1. 구독 취소 랜딩 페이지를 빌드합니다.
 
-1. 원하는 서드파티 시스템에 호스팅하십시오.
+1. 원하는 서드파티 시스템에 호스팅합니다.
 
 1. [메시지를 ](../../help/using/create-message.md)[!DNL Journey Optimizer]에 만듭니다.
 
@@ -59,7 +59,7 @@ ht-degree: 77%
 
    ![](assets/opt-out-link-type.png)
 
-1. 에서 **[!UICONTROL Link]** 필드를 만들어 랜딩 페이지에 링크를 붙여넣습니다.
+1. **[!UICONTROL Link]** 필드에 랜딩 페이지 링크를 붙여 넣습니다.
 
    ![](assets/opt-out-link-url.png)
 
@@ -85,7 +85,7 @@ ht-degree: 77%
 
    따라서 이 사용자는 다시 구독하지 않으면 브랜드에서 보내는 커뮤니케이션을 받지 않습니다.
 
-해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -99,7 +99,7 @@ ht-degree: 77%
 
 이 Adobe I/O POST 호출은 다음과 같습니다.
 
-끝점: platform.adobe.io/journey/imp/consent/preferences
+엔드포인트: platform.adobe.io/journey/imp/consent/preferences
 <!--This is the new AEP specific AEP for consent instead of the AJO consent API that was previously used: cjm.adobe.io/imp/consent/preferences-->
 
 쿼리 매개 변수:
@@ -139,13 +139,13 @@ ht-degree: 77%
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
 
-## 옵트아웃 한 번 클릭 {#one-click-opt-out}
+## 원클릭 옵트아웃 {#one-click-opt-out}
 
-많은 고객이 보다 쉬운 가입 해지 프로세스를 찾듯이, 이메일 콘텐츠에 한 번의 클릭으로 옵트아웃 링크를 추가할 수도 있습니다. 이 링크를 사용하면 수신자가 옵트아웃을 확인해야 하는 랜딩 페이지로 리디렉션되지 않고 커뮤니케이션에서 빠르게 가입을 해지할 수 있습니다.
+많은 고객이 보다 쉬운 구독 취소 프로세스를 원하는 만큼, 이메일 콘텐츠에 한 번의 클릭으로 옵트아웃할 수 있는 링크를 추가할 수도 있습니다. 이 링크를 사용하면 수신자가 랜딩 페이지로 리디렉션되어 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있습니다.
 
-에서 메시지 콘텐츠에 옵트아웃 링크를 추가하는 방법을 배웁니다. [이 섹션](message-tracking.md#one-click-opt-out-link).
+[이 섹션](message-tracking.md#one-click-opt-out-link)에서 메시지 콘텐츠에 옵트아웃 링크를 추가하는 방법을 알아보세요.
 
-메시지를 [여정](building-journeys/journey.md)수신자가 옵트아웃 링크를 클릭하면 수신자의 프로필이 즉시 옵트아웃됩니다.
+[여정](building-journeys/journey.md)을 통해 메시지를 보낸 이후 수신자가 옵트아웃 링크를 클릭하면 수신자의 프로필이 즉시 옵트아웃됩니다.
 
 ## 헤더의 구독 취소 링크 {#unsubscribe-email}
 
@@ -157,7 +157,7 @@ ht-degree: 77%
 
 이메일 클라이언트에 따라 헤더에서 구독 취소 링크를 클릭하면 다음 영향 중 하나가 발생합니다.
 
-* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
 
 * 이메일 콘텐츠에서 구독 취소 링크를 클릭하는 것과 동일한 효과가 있습니다. 수신자는 옵트아웃을 확인하는 버튼이 포함된 랜딩 페이지로 리디렉션됩니다. [이 섹션](#opt-out-management)에서 옵트아웃 관리에 대해 자세히 알아보십시오.
 
