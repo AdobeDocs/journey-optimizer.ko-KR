@@ -190,10 +190,9 @@ ht-degree: 100%
       + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
       + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
       + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
-
       <!--
-    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-    -->
+      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+      -->
 + 추적 및 모니터링 {#reporting}
    + [메시지 모니터링](using/message-monitoring.md)
    + 라이브 보고서 {#live-report}
