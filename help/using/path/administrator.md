@@ -3,10 +3,10 @@ title: 시스템 관리자용 Journey Optimizer 시작하기
 description: 시스템 관리자는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
+source-git-commit: 168579f8f560756282cb8ae8cb82a10e1227af02
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 3%
+source-wordcount: '705'
+ht-degree: 2%
 
 ---
 
@@ -32,8 +32,10 @@ ht-degree: 3%
 
 1. **권한 설정** 제품 프로필의 경우 **샌드박스**&#x200B;를 채울 수 있고 다른 제품 프로필에 할당할 수 있으므로 팀 구성원에게 액세스 권한을 제공합니다. 이 단계는 [Admin Console](https://adminconsole.adobe.com/){_blank}. 권한은 사용자에게 할당된 승인을 정의할 수 있는 통합된 권리입니다 **[!UICONTROL Product profile]**. 각 권한은 여정, 메시지 또는 오퍼와 같은 기능에 수집되며, 이 기능은 의 다양한 기능 또는 개체를 나타냅니다 [!DNL Journey Optimizer]. 자세한 내용은 [권한 수준](../administration/high-low-permissions.md) 섹션을 참조하십시오.
 
+또한 Assets Essentials 액세스 권한이 필요한 사용자를 **Assets Essentials 소비자 사용자** 또는/and **Assets Essentials 사용자** 제품 프로필. [Assets Essentials 설명서에서 자세한 내용](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
-또한 다음을 수행해야 합니다 **배포[!DNL Adobe Experience Manager Assets Essentials]** 메시지에서 자산 및 이미지를 관리하려면: 액세스 권한이 필요한 사용자 [!DNL Assets Essentials] 는 **Assets Essentials 소비자 사용자** 또는/and **Assets Essentials 사용자** 제품 프로필. [Assets Essentials 설명서에서 자세한 내용](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+>[!NOTE]
+>2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 를 배포해야 합니다 [!DNL Adobe Experience Manager Assets Essentials] 사용할 수 있습니다. 자세한 내용은 [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} 섹션.
 
 액세스 시 [!DNL Journey Optimizer] 처음으로 프로덕션 샌드박스를 프로비저닝하고 계약에 따라 특정 수의 IP를 할당하게 됩니다.
 

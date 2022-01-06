@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
+source-git-commit: 168579f8f560756282cb8ae8cb82a10e1227af02
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '366'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 1%
 
 [!DNL Adobe Experience Manager Assets Essentials] 는 메시지를 채우는 데 사용할 수 있는 중앙 집중식 단일 자산 저장소를 제공합니다. 다음 위치에서 직접 액세스할 수 있습니다. [!DNL Adobe Journey Optimizer] 사용 **[!UICONTROL Assets]** 섹션을 참조하십시오. 이메일 콘텐츠를 디자인할 때 자산 및 폴더에 액세스할 수도 있습니다. [이메일 디자인에 대한 자세한 정보](design-emails.md).
 
->[!NOTE]
->
-> 을 사용하여 작업하려면 [!DNL Adobe Experience Manager Assets Essentials]를 배포 [!DNL Assets Essentials] 조직에 대해 액세스 권한이 필요한 사용자를 [!DNL Assets Essentials]는 의 일부입니다 **Assets Essentials 소비자 사용자** 또는/and **Assets Essentials 사용자** 제품 프로필. <br> 자세한 내용은 다음을 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+사용하기 전 [!DNL Adobe Experience Manager Assets Essentials]를 채울 때는 사용자를 **Assets Essentials 소비자 사용자** 또는/and **Assets Essentials 사용자** 제품 프로필. [Assets Essentials 설명서에서 자세한 내용](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
-자세한 절차 [!DNL Assets Essentials]를 참조하려면 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
+>[!NOTE]
+>2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 를 배포해야 합니다 [!DNL Adobe Experience Manager Assets Essentials] 사용할 수 있습니다. 자세한 내용은 [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} 섹션.
 
 ## 자산 업로드 및 삽입{#add-asset}
 
@@ -55,7 +54,7 @@ ht-degree: 1%
 
 1. 이제 자산이 업로드되면 이메일 디자이너를 통해 메시지 중 하나에 자산을 삽입할 수 있습니다.
 
-   자산을 **편집** 모드 [!DNL Assets Essentials]. [추가 정보](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
+   자산을 **편집** 모드 [!DNL Assets Essentials]. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
 
    ![](assets/media_library_12.png)
 
