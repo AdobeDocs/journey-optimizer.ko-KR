@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 89%
@@ -185,4 +185,4 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 >[!NOTE]
 >
->캐시 기간은 인증 종단점에 대한 너무 많은 호출을 방지하는 데 도움이 됩니다. 인증 토큰 유지가 서비스에서 캐시되므로 지속성이 없습니다. 서비스를 다시 시작하면 깨끗한 캐시로 시작됩니다. 기본적으로 캐시 기간은 1시간입니다. 사용자 지정 작업 페이로드에서 다른 유지 기간을 지정하여 적용할 수 있습니다.
+>캐시 기간은 인증 종단점에 대한 너무 많은 호출을 방지하는 데 도움이 됩니다. 인증 토큰 유지가 서비스에서 캐시되므로 지속성이 없습니다. 서비스를 다시 시작하면 깨끗한 캐시로 시작됩니다. 기본적으로 캐시 기간은 1시간입니다. 사용자 지정 인증 페이로드에서 다른 유지 기간을 지정하여 적용할 수 있습니다.
