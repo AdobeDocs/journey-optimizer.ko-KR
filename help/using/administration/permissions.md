@@ -6,7 +6,7 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 14%
@@ -103,7 +103,7 @@ ht-degree: 14%
 
 샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko){target=&quot;_blank&quot;}.
 
-이 예에서는 이름이 인 제품 프로필을 만듭니다 **여정 읽기 전용** 여기서 여정 기능에 읽기 전용 권한을 부여합니다. 사용자는 여정에 액세스하고 볼 수만 있으며, 와 같은 다른 기능에 액세스할 수 없습니다 **[!UICONTROL Decision management]** 또는 **[!UICONTROL Messages]** in [!DNL Journey Optimizer].
+이 예에서는 이름이 인 제품 프로필을 만듭니다 **여정 읽기 전용** 여기서 여정 기능에 읽기 전용 권한을 부여합니다. 사용자는 여정에 액세스하고 볼 수만 있으며, 와 같은 다른 기능에 액세스할 수 없습니다 **[!DNL  Decision management]** 또는 **[!DNL Messages]** in [!DNL Journey Optimizer].
 
 Adobe의 **여정 읽기 전용** **[!UICONTROL product profiles]**:
 
@@ -125,7 +125,7 @@ Adobe의 **여정 읽기 전용** **[!UICONTROL product profiles]**:
 
 1. 사용자가 다른 기능에 액세스할 수 있는 권한을 추가하려면 **[!UICONTROL Permissions]** 탭.
 
-1. 과 같은 다양한 기능 중에서 선택합니다. **[!UICONTROL Messages]**, **[!UICONTROL Segments]** 또는 **[!UICONTROL Decision management]** 사용 가능 [!DNL Journey Optimizer] 왼쪽 메뉴에 나열됩니다.
+1. 과 같은 다양한 기능 중에서 선택합니다. **[!DNL Messages]**, **[!DNL Segments]** 또는 **[!DNL Decision management]** 사용 가능 [!DNL Journey Optimizer] 왼쪽 메뉴에 나열됩니다.
 
    여기에서 을(를) 선택합니다 **[!UICONTROL Journeys]** 기능.
 
@@ -133,7 +133,7 @@ Adobe의 **여정 읽기 전용** **[!UICONTROL product profiles]**:
 
 1. 에서 **[!UICONTROL Available Permission Items]** 목록에 지정할 권한을 선택합니다 **[!UICONTROL Product profile]** 더하기(+) 아이콘을 클릭합니다.
 
-   여기에서 선택합니다 **[!UICONTROL View journeys]** 및 **[!UICONTROL View journeys event, data sources, actions]**.
+   여기에서 선택합니다 **[!DNL View journeys]** 및 **[!DNL View journeys event, data sources, actions]**.
 
    ![](../assets/do-not-localize/access_control_12.png)
 

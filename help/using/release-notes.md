@@ -2,16 +2,99 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
-workflow-type: ht
-source-wordcount: '2074'
-ht-degree: 100%
+source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
+workflow-type: tm+mt
+source-wordcount: '2379'
+ht-degree: 88%
 
 ---
 
 # 릴리스 정보 {#release-notes}
 
-이 페이지에는 [!DNL Journey Optimizer]의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. [최신 설명서 업데이트](documentation-updates.md)도 확인하실 수 있습니다.
+이 페이지에는 [!DNL Journey Optimizer]의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. 또한 [최신 설명서 업데이트](documentation-updates.md) 페이지를 참조하십시오.
+
+## 2022년 1월 릴리스
+
+### 새로운 기능
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 - 프로필 상한 조건으로 IP 램프 업 최적화</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>구성 시 <strong>조건</strong> 이제 여정에서 활동 캡을 정의할 수 있습니다. 이 새 조건 유형을 사용하면 여정 경로에 대해 최대 프로필 수를 설정할 수 있습니다. 이 한도에 도달하면 입력한 프로필에서 대체 경로를 사용합니다. 이를 통해 게재 볼륨을 높일 수 있습니다(IP 램프 업). 예를 들어 실행을 분할하여 도메인에서 게재를 램프 할 수 있습니다. 2일 등 1일에 1000개의 메시지를 보냅니다.</p>
+<p>자세한 내용은 <a href="building-journeys/condition-activity.md#profile_cap">세부 설명서</a> 및 관련 <a href="building-journeys/ramp-up-deliveries-uc.md">샘플 사용 사례</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<!--th><strong>Journeys - Leverage segment entrances and exits in Read segment</strong><br/></th-->
+<th><strong>여정 - 세그먼트 읽기 개선 사항</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<!--p>You can now configure the <strong>Read Segment</strong> activity to target only the individuals who entered or exited the selected segment during a specific lookback period. For example, you can decide to only retrieve all the customers who entered the VIP segment since yesterday. Only the new VIP customers will be targeted. The customers who were already part of the segment before yesterday will be excluded.</p-->
+<p>다음 <strong>증분 읽기</strong> 반복에 옵션이 추가되었습니다. <strong>세그먼트 읽기</strong> 활동. 이 옵션을 사용하면 여정의 마지막 실행 이후 세그먼트에 입력한 개인만 타겟팅할 수 있습니다. 첫 번째 실행은 항상 모든 세그먼트 구성원을 타깃팅합니다.</p>
+<p>자세한 내용은 <a href="building-journeys/read-segment.md#configuring-segment-trigger-activity">자세한 설명서</a>를 참조하세요.
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항
+
+<!--
+**Performances**
+* The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.  
+-->
+
+**여정**
+
+* 이제 Journey Optimizer 단계 이벤트를 의 다른 데이터 세트에 연결할 수 있습니다 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko). 다음 **profileID** 기본 제공 여정 단계 이벤트 스키마의 필드가 이제 id 필드로 정의됩니다. [자세히 알아보기](reports/sharing-overview.md#integration-cja)
+
+<!--
+* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week now switch back to the **Draft** status.
+-->
+
+**Offer Decisioning**
+
+<!--* When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations. [Learn more](offers/offer-activities/simulation.md#define-simulation-settings)-->
+
+* 게시된 메시지에서 직접 또는 간접적으로 참조되는 오퍼, 대체 오퍼, 오퍼 컬렉션 또는 오퍼 결정을 업데이트하면 이제 다시 게시할 필요 없이 업데이트가 해당 메시지에 자동으로 반영됩니다. [자세히 알아보기](offers/offers-e2e.md#insert-decision-in-email)
+
+**관리**
+
+* 이제 관리자는 CNAME이 하위 도메인을 설정하여 PTR 레코드를 편집할 수 있습니다. [자세히 알아보기](configuration/ptr-records.md#edit-ptr-subdomains-cname)
+
+**개인화**
+
+* **즐겨찾기에 추가** - 개인화 작업 시 효율성을 개선하기 위해 즐겨찾기 저장 개념을 도입했습니다. 즐겨찾기 메뉴에 다른 속성을 추가하면 가장 자주 사용하는 항목에 빠르게 액세스할 수 있습니다. [자세히 알아보기](personalization/personalize.md#fav)
+
+<!--
+
+**Reporting**
+
+* New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients.
+* Deliveries can now be filtered depending on their status:
+
+    * From the Message Execution list, you can now exclude proofs from your deliveries' list.
+    * From your Live/Global reports, you can choose to exclude journey test events.
+
+    [Learn more](message-monitoring.md)
+
+* From your reports, you can now see if the [Send-Time Optimization](building-journeys/journeys-message.md#send-time-optimization) option has been activated for a given delivery.
+
+-->
 
 ## 2021년 11월 릴리스
 
@@ -32,7 +115,6 @@ ht-degree: 100%
 </tbody>
 </table>
 
-
 ## 2021년 10월 릴리스 {#oct-2021-release}
 
 <!--table>
@@ -51,22 +133,7 @@ ht-degree: 100%
 </tbody>
 </table-->
 
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Journeys - Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### 새로운 기능
 
 <table>
 <thead>
@@ -109,7 +176,6 @@ ht-degree: 100%
 
 * **표현식 편집기** - 이제 고급 사용자는 여정 지도 작업에 함수를 사용할 수 있습니다. 이 기능은 구독 목록에 활용할 수 있습니다. 예를 들어 이제 세그먼트의 구독 목록에서 이메일 주소를 가져올 수 있습니다. [이 샘플에서 자세히 알아보기](building-journeys/message-to-subscribers-uc.md)
 
-   <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
 * **모니터링** - 실시간 여정 및 테스트 모드에 대한 단계 이벤트를 개선했습니다. 프로필 내보내기 작업과 관련하여 [새 필드](reports/sharing-field-list.md#serviceevents)를 추가했습니다. 더 나은 사용자 경험을 위해 단계 이벤트 필드를 이제 다른 카테고리로 정리합니다. 이전 단계 이벤트 필드는 [stepEvents](reports/sharing-legacy-fields.md) 카테고리에서 계속 사용할 수 있습니다.
 * **접근성** - 여정의 접근성을 개선했습니다.
 * **컬렉션** - 이제 하위 개체가 포함된 개체 배열이 지원됩니다. [자세히 보기](building-journeys/collections.md)
@@ -129,6 +195,7 @@ ht-degree: 100%
 **개인화**
 
 * **날짜 형식에 대한 새 도우미 함수** - 이제 날짜 문자열을 표시하는 방식을 지정할 수 있습니다. [자세히 알아보기](personalization/functions/dates.md#format-date)
+
 
 **의사 결정 관리**
 

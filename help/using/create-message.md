@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: d8c95350ac17658ce477d6aec50a9f418f4af0f2
+source-git-commit: 3f545c68264164aeb40eec55631d50fa5c0bec4f
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 3%
@@ -66,7 +66,6 @@ ht-degree: 3%
    >[!NOTE]
    >   
    >표현식 편집기를 사용하여 프로필의 데이터를 사용하여 메시지를 개인화할 수 있습니다. 개인화에 대한 자세한 내용은 [이 섹션](personalization/personalize.md).
-
 
 1. 왼쪽의 미리 보기 섹션을 사용하여 메시지 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. 이 작업에 대한 자세한 정보는 [이 섹션](preview.md)을 참조하십시오.
 

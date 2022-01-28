@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 1ba8d8cd6b95d7a0dfa50096f1a1f64909fe8d17
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,6 @@ HTML 콘텐츠를 표시할 수 없을 때 사용되는 이메일 본문의 텍�
 >id="ac_edition_backgroundimage"
 >title="배경 설정"
 >abstract="전자 메일 디자이너를 사용하면 콘텐츠의 배경색 또는 배경 이미지를 개인화할 수 있습니다.배경 이미지는 모든 전자 메일 클라이언트에서 지원되지 않습니다."
->additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="추가 정보"
 
 이메일 디자이너를 사용하여 배경을 설정하는 방법은 다음과 같습니다.
 

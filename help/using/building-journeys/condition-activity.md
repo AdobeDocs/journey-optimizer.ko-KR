@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 10%
+source-wordcount: '1167'
+ht-degree: 8%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 10%
 * [시간 조건](#time_condition)
 * [백분율 분할](#percentage_split)
 * [날짜 조건](#date_condition)
-<!--
-* [Profile cap](#profile_cap)
--->
+* [프로필 상한](#profile_cap)
 
 ![](../assets/journey49.png)
 
@@ -99,21 +97,26 @@ ht-degree: 10%
 
 ![](../assets/journey53.png)
 
-<!--
-## Profile cap {#profile_cap}
+## 프로필 상한 {#profile_cap}
 
-Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
+이 조건 유형을 사용하여 여정 경로에 대한 최대 프로필 수를 설정합니다. 이 한도에 도달하면 입력한 프로필에서 대체 경로를 사용합니다. 이렇게 하면 여정이 정의된 제한을 초과하지 않습니다.
 
-You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
+이 조건 유형을 사용하여 게재 볼륨을 높일 수 있습니다. 다음 보기 [사용 사례](ramp-up-deliveries-uc.md).
 
-The default cap is 1000. You can set an integer value from 1 to 20,000.
+기본 캡은 1000입니다.
 
-The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
+카운터는 선택한 여정 버전에만 적용됩니다. 카운터는 한 달 후에 0으로 재설정됩니다. 재설정 후 입력한 프로필은 카운터 제한에 도달할 때까지 명목상 경로를 다시 사용합니다.
 
-The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
+대체 경로를 여정 캔버스에서 명목상 패스 위로 이동하더라도 명목상 경로는 항상 대체 경로보다 우선합니다.
+
+라이브 여정의 경우 제한에 도달하기 위해 고려해야 할 임계값은 다음과 같습니다.
+
+* 캡이 10000보다 큰 경우 삽입할 고유 프로필 수는 캡의 최소 1.3배여야 합니다.
+* 10000 아래의 캡의 경우, 삽입할 개별 프로필 수는 1000개 및 캡을 포함해야 합니다.
+
+프로필 캡은 테스트 모드에서 고려되지 않습니다.
 
 ![](../assets/profile-cap-condition.png)
--->
 
 ## 조건에서 세그먼트 사용 {#using-a-segment}
 

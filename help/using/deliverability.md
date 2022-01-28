@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 4d5e4f4295997083eb257290043b014acdcd971a
+source-git-commit: 99bbe96fb4e6e001c4eaba38ff445afb847670eb
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 1%
+source-wordcount: '654'
+ht-degree: 0%
 
 ---
 
@@ -78,10 +78,8 @@ Spammers are also known to replace text with images to stop offending text from 
 
 [이메일 콘텐츠 디자인에 대한 자세한 정보](design-emails.md).
 
-<!--
-## Establish your reputation as a sender
+## 발신자로서의 평판 확인
 
-If you recently moved to another email service provider, IP address, or email domain or subdomain, you need to establish your reputation as a sender. Otherwise, your deliveries might be blocked or moved to the spam folder of the recipients' mailbox.
+최근 다른 이메일 서비스 공급자, IP 주소 또는 이메일 도메인 또는 하위 도메인으로 이동한 경우, 발신자로서의 평판을 설정해야 합니다. 게재가 차단되거나 수신자 사서함의 스팸 폴더로 이동될 수 있습니다.
 
-To warm up your IP, you can gradually ramp up the number of your deliveries. See this [use case](building-journeys/ramp-up-deliveries-uc.md).
--->
+IP를 가열하기 위해 게재 수를 점진적으로 늘릴 수 있습니다. 다음 보기 [사용 사례](building-journeys/ramp-up-deliveries-uc.md).

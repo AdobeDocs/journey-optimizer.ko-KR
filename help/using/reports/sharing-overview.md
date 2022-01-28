@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 2731f3fef651f4d75e2d1e19199a6cd8050b3475
+source-git-commit: 4e3239a073f23505c79e98943d1f8bf6b7a8d363
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 2%
+source-wordcount: '558'
+ht-degree: 4%
 
 ---
 
@@ -54,6 +54,15 @@ ht-degree: 2%
 Adobe Experience Platform에 전달된 XDM 필드 목록은 다음 항목에 자세히 설명되어 있습니다.
 
 * [단계 이벤트 필드 목록](../reports/sharing-field-list.md)
-* [이전 단계 이벤트 필드](../reports/sharing-legacy-fields.md)
+* [레거시 단계 이벤트 필드](../reports/sharing-legacy-fields.md)
 
 Adobe Experience Platform에 보고하는 단계 이벤트에 대한 자세한 내용은 이 비디오에서 확인하십시오 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}.
+
+## 고객 여정 Analytics와의 통합{#integration-cja}
+
+Journey Optimizer 단계 이벤트는 의 다른 데이터 세트에 연결할 수 있습니다 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko). 다음은 일반적인 워크플로우입니다.
+
+* Customer Journey Analytics 수집은 &quot;여정 단계 이벤트&quot; 데이터 세트를 설정합니다.
+* 다음 **profileID** 연결된 &quot;Journey Orchestration에 대한 여정 단계 이벤트 스키마&quot;의 필드는 ID 필드로 정의됩니다. 그런 다음 Customer Journey Analytics에서 이 데이터 세트를 개인 기반 식별자와 동일한 값을 갖는 다른 데이터 세트에 연결할 수 있습니다.
+* 채널 간 여정 분석을 위해 Customer Journey Analytics에서 이 데이터 세트를 사용하려면 이 데이터 세트를 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+

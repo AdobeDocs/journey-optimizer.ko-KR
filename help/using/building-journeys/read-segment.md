@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
+source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1036'
 ht-degree: 4%
 
 ---
@@ -77,6 +77,27 @@ ht-degree: 4%
 
    ![](../assets/read-segment-schedule-list.png)
 
+   다음 **증분 읽기** 옵션을 사용하면 여정을 마지막으로 실행한 이후 세그먼트에 입력한 개인만 타겟팅할 수 있습니다. 첫 번째 실행은 항상 모든 세그먼트 구성원을 타깃팅합니다. 이 옵션은 반복에만 사용할 수 있습니다 **세그먼트 읽기** 활동.
+
+<!--
+
+### Segment filters {#segment-filters}
+
+[!CONTEXTUALHELP]
+>id="jo_segment_filters"
+>title="About segment filters"
+>abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+
+You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
+
+To activate this mode, click the **Segment Filters** toggle. Two fields are displayed:
+
+**Segment membership**: choose whether you want to listen to segment entrances or exits. 
+
+**Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
+
+-->
+
 ### 여정 테스트 및 게시 {#testing-publishing}
 
 다음 **[!UICONTROL Read Segment]** 활동을 사용하면 단일 프로필에서 또는 세그먼트에 대해 자격이 있는 프로필 중에서 선택한 100개의 임의로 여정을 테스트할 수 있습니다.
@@ -102,7 +123,6 @@ ht-degree: 4%
 >[!NOTE]
 >
 >되풀이하는 세그먼트 기반 여정의 경우, 마지막 여정이 실행되면가 자동으로 닫힙니다. 종료 날짜/시간을 지정하지 않은 경우 수동으로 여정을 닫아야 새 출입구가 종료됩니다.
-
 
 ## 세그먼트 기반 여정의 대상 타깃팅
 

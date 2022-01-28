@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: ht
-source-wordcount: '890'
-ht-degree: 100%
+source-git-commit: ae60bf08a4f358b99e803f3fd17f9218acda9062
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 99%
 
 ---
 
@@ -66,12 +66,12 @@ ht-degree: 100%
       + [개체 함수](using/personalization/functions/objects.md)
       + [문자열 함수](using/personalization/functions/string.md)
    + [개인화된 오퍼 추가](using/deliver-personalized-offers.md)
-+ 세그먼트, 프로필, 신원{#segment}
++ 세그먼트, 프로필 및 ID{#segment}
    + 세그먼트 {#segments}
       + [세그먼트 시작](using/segment/about-segments.md)
       + [세그먼트 작성](using/segment/creating-a-segment.md)
    + [프로필](using/get-started-profiles.md)
-   + [신원](using/get-started-identity.md)
+   + [ID](using/get-started-identity.md)
 + 여정 {#orchestrate-journeys}
    + 여정 정보{#about-journeys}
       + [일반 원칙](using/building-journeys/journey.md)
@@ -190,9 +190,7 @@ ht-degree: 100%
       + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
       + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
       + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
-      <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+      + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
 + 추적 및 모니터링 {#reporting}
    + [메시지 모니터링](using/message-monitoring.md)
    + 라이브 보고서 {#live-report}

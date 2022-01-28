@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+source-git-commit: 74d6235042c7a94462cb4838186ca5d785d0764e
+workflow-type: tm+mt
+source-wordcount: '864'
+ht-degree: 92%
 
 ---
 
@@ -13,11 +13,18 @@ ht-degree: 100%
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 
+## 2022년 1월
+
+* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2009년 1월 22일 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+
+* offer decisioning AI 등급 섹션이 자동 최적화 모델에 대한 보다 자세한 설명과 함께 업데이트되었습니다. [자세히 보기](offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
+* 등급 전략을 사용할 때 이벤트 유형을 보낼 수 있어야 하는 스키마 요구 사항에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
 ## 2021년 11월
 
 * 이제 여정에 사용되는 고급 표현식 편집기에 대한 전체 설명이 제공됩니다. [자세히 보기](building-journeys/expression/expressionadvanced.md)
-* 새 CNAME 하위 도메인 위임 방법 [자세히 보기](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* CNAME 하위 도메인 위임 방법에 대한 새로운 섹션을 추가했습니다. [자세히 보기](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## 2021년 10월
 

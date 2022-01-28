@@ -5,10 +5,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e4125d3e1f0c382c1f2ca13ad080aba830c5df46
+exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
+source-git-commit: 3f545c68264164aeb40eec55631d50fa5c0bec4f
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 2%
+source-wordcount: '360'
+ht-degree: 4%
 
 ---
 
@@ -87,8 +88,6 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있도록 메시지 사�
 1. 확인이 성공하면 메시지 사전 설정이 **[!UICONTROL Active]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
    ![](../assets/preset-active.png)
-
-푸시 알림 및 이메일에 대한 메시지 사전 설정을 구성하는 방법에 대해 알아보려면 [이 섹션](message-presets.md).
 
 이제 Journey Optimizer에서 SMS 메시지를 보낼 준비가 되었습니다.
 

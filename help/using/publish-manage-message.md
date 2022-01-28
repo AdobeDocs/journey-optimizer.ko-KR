@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: ca4c2d916a2ebde643656b4573e34d6bb64053fa
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 3%
 메시지가 게시되면 메시지가 와 함께 메시지 목록에 추가됩니다. **[!UICONTROL Published]** 상태.
 
 이제 하나 이상 트리거할 준비가 되었습니다 [여정](building-journeys/journey.md).
+
+>[!NOTE]
+>
+>게시된 메시지에서 직접 또는 간접적으로 참조되는 오퍼, 대체 오퍼, 오퍼 컬렉션 또는 오퍼 결정을 업데이트하면 이제 다시 게시할 필요 없이 업데이트가 해당 메시지에 자동으로 반영됩니다. [오퍼에 대해 자세히 알아보기](offers/get-started/starting-offer-decisioning.md)
 
 ## 읽기 전용 메시지 업데이트 {#modify-message}
 

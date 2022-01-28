@@ -1,15 +1,15 @@
 ---
 title: 이메일에서 개인화된 오퍼 사용
-description: 오퍼를 구성하고 이메일에서 사용하는 데 필요한 모든 단계를 보여주는 종단 간 예제를 살펴봅니다.
+description: 오퍼를 구성하고 이메일에서 사용하는 데 필요한 모든 단계를 보여 주는 전체적인 예제를 살펴보십시오.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
+source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 4%
+source-wordcount: '1343'
+ht-degree: 5%
 
 ---
 
@@ -258,6 +258,10 @@ ht-degree: 4%
 를 사용하십시오 **[!UICONTROL Offers]** 섹션 또는 컨텐츠 구성 요소 화살표(오른쪽 및 왼쪽 화살표)를 사용하여 데이터를 찾습니다. 고객 프로필과 함께 결정의 일부인 다른 오퍼를 표시할 수도 있습니다. 추가 정보 [이 섹션](../../using/deliver-personalized-offers.md#preview-offers-in-email).
 
 변경 사항을 저장한 후 메시지가 게시되면 여정의 일부로 메시지를 보낼 때 관련 프로필에 오퍼를 표시할 수 있습니다.
+
+>[!NOTE]
+>
+>오퍼와 대체 오퍼, 오퍼 컬렉션 또는 오퍼가 업데이트되는 경우, 오퍼가 [게시됨](../../using/publish-manage-message.md) 메시지가 표시되면 이제 업데이트를 다시 게시하지 않고도 해당 메시지에 업데이트가 자동으로 반영됩니다.
 
 **관련 항목:**
 

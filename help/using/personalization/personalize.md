@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
+source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 13%
+source-wordcount: '757'
+ht-degree: 11%
 
 ---
 
@@ -114,6 +114,24 @@ ht-degree: 13%
 다음 예에서는 표현식 편집기를 사용하여 오늘이 생일인 프로필을 선택한 다음 이 날에 해당하는 특정 오퍼를 삽입하여 사용자 지정을 완료할 수 있습니다.
 
 ![](assets/perso_ee2.png)
+
+### 즐겨찾기에 추가{#fav}
+
+즐겨찾기 메뉴에 다른 속성을 추가하면 가장 자주 사용하는 항목에 빠르게 액세스할 수 있습니다. 즐겨찾기에 속성을 추가하려면 타원 메뉴를 클릭하고 **[!UICONTROL Add to favorites]**.
+
+![](assets/favorite-option.png)
+
+즐겨찾기로 설정한 항목에 액세스하려면 **[!UICONTROL Favorites]** 메뉴 옵션을 클릭합니다.
+
+![](assets/favorite-menu.png)
+
+이 목록에서 현재 표현식에 개인화 개체를 빠르게 추가할 수 있습니다.
+
+![](assets/favorite-list.png)
+
+즐겨찾기 목록에 항목이 더 이상 표시되지 않게 하려면 즐겨찾기에서 제거할 수 있습니다.
+
+![](assets/favorite-remove.png)
 
 ## 방법 비디오{#video-perso}
 

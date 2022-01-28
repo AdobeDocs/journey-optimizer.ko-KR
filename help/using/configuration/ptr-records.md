@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
+source-git-commit: cbb9aa1df7efd60407f4538edf519d96780c4961
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -40,25 +40,52 @@ PTR 레코드를 사용하면 수신 메일 서버가 해당 IP 주소가 서버
 
 PTR 레코드를 수정하여 IP 주소와 연결된 하위 도메인을 편집할 수 있습니다.
 
->[!CAUTION]
+>[!NOTE]
 >
->을 사용하여 Adobe에 위임한 하위 도메인과 연결된 PTR 레코드를 수정할 수 없습니다 [CNAME 메서드](delegate-subdomain.md#cname-subdomain-delegation).
+>는 수정할 수 없습니다 **[!UICONTROL IP]** 및 **[!UICONTROL PTR record]** 필드.
+
+### 완전히 위임된 하위 도메인
+
+하위 도메인으로 PTR 레코드를 편집하려면 [완전히 위임됨](delegate-subdomain.md#full-subdomain-delegation) Adobe을 수행하려면 아래 단계를 따르십시오.
 
 1. 목록에서 PTR 레코드 이름을 클릭하여 엽니다.
 
    ![](../assets/ptr-record-select.png)
 
-1. 원하는 대로 하위 도메인을 편집합니다.
+1. 하위 도메인 선택 [완전히 위임됨](delegate-subdomain.md#full-subdomain-delegation) Adobe을 클릭합니다.
 
    ![](../assets/ptr-record-subdomain.png)
 
+1. 클릭 **[!UICONTROL Save]** 를 클릭하여 변경 사항을 확인합니다.
+
+### CNAME 방법을 사용하여 위임된 하위 도메인 {#edit-ptr-subdomains-cname}
+
+을 사용하여 Adobe에 위임되는 하위 도메인으로 PTR 레코드를 편집하려면 [CNAME 메서드](delegate-subdomain.md#cname-subdomain-delegation)를 채우기 위해 아래의 단계를 수행하십시오.
+
+1. 목록에서 PTR 레코드 이름을 클릭하여 엽니다.
+
+   ![](../assets/ptr-record-select-cname.png)
+
+1. 을 사용하여 Adobe에 위임한 하위 도메인을 선택합니다. [CNAME 메서드](delegate-subdomain.md#cname-subdomain-delegation) 참조하십시오.
+
+   ![](../assets/ptr-record-subdomain-cname.png)
+
+1. 호스팅 플랫폼에서 새 정방향 DNS 레코드를 만들어야 합니다. 이렇게 하려면 Adobe에서 생성한 레코드를 복사합니다. 완료되면 &quot;확인...&quot; 상자를 선택합니다.
+
+   ![](../assets/ptr-record-subdomain-confirm.png)
+
    >[!NOTE]
    >
-   >는 수정할 수 없습니다 **[!UICONTROL IP]** 및 **[!UICONTROL PTR record]** 필드.
+   >이 메시지가 나타나면: &quot;먼저 앞으로 DNS를 만든 후 다시 시도하세요.&quot;는 아래 단계를 따르십시오.
+   >   * 전달 DNS 레코드가 성공적으로 만들어졌는지 DNS 공급자를 확인합니다.
+   >   * DNS의 레코드는 즉시 동기화되지 않을 수 있습니다. 잠시 기다렸다가 다시 시도하십시오.
+
 
 1. 클릭 **[!UICONTROL Save]** 를 클릭하여 변경 사항을 확인합니다.
 
-An **[!UICONTROL Updating]** 목록의 PTR 레코드 이름 옆에 아이콘이 표시됩니다.
+## PTR 레코드 업데이트 세부 정보 확인
+
+A **[!UICONTROL Processing]** 목록의 PTR 레코드 이름 옆에 아이콘이 표시됩니다.
 
 ![](../assets/ptr-record-updating.png)
 
@@ -70,13 +97,13 @@ PTR 레코드 업데이트 정보를 확인하려면 **[!UICONTROL Updating]** �
 
 ![](../assets/ptr-record-updates.png)
 
-## 상태 업데이트
+## PTR 레코드 업데이트 상태
 
 PTR 레코드 업데이트에는 다음 상태가 있을 수 있습니다.
 
-* **[!UICONTROL Processing]**: PTR 레코드 업데이트가 제출되었으며 확인 프로세스를 진행 중입니다.
-* **[!UICONTROL Success]**: 업데이트된 PTR 레코드가 확인되었으며 새 하위 도메인이 IP 주소와 연결됩니다.
-* **[!UICONTROL Failed]**: PTR 레코드 업데이트 확인 중에 하나 또는 여러 개의 검사가 실패했습니다.
+* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: PTR 레코드 업데이트가 제출되었으며 확인 프로세스를 진행 중입니다.
+* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: 업데이트된 PTR 레코드가 확인되었으며 새 하위 도메인이 IP 주소와 연결됩니다.
+* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: PTR 레코드 업데이트 확인 중에 하나 또는 여러 개의 검사가 실패했습니다.
 
 ### 처리 중
 
