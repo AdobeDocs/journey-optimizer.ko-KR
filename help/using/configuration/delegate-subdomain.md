@@ -16,14 +16,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c548852b976100935271afafd5267fd7f32a9b50
+source-git-commit: af1c05cb51601ae92cc643353fa706b3771a8160
 workflow-type: tm+mt
-source-wordcount: '1396'
-ht-degree: 6%
+source-wordcount: '1429'
+ht-degree: 10%
 
 ---
 
 # 하위 도메인 위임
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomainname"
+>title="하위 도메인 위임 기본 정보"
+>abstract="Journey Optimizer을 사용하면 하위 도메인을 Adobe에 완전히 위임할 수 있습니다. Adobe은 DNS의 모든 측면을 제어하고 유지 관리하여 메시지를 관리 서비스로 제공할 수 있습니다."
+
 
 도메인 이름 위임은 도메인 이름의 소유자를 허용하는 메서드입니다(기술적으로 DNS 영역)에서 하위 집합을 위임(기술적 의미상: 하위 영역이라고 할 수 있는 DNS 영역을 다른 엔터티에 추가합니다. 기본적으로 고객으로서 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다.
 
@@ -95,7 +101,7 @@ ht-degree: 6%
 
 도메인별 제한 정책이 있고 Adobe이 DNS를 부분적 제어만 갖도록 하려는 경우 모든 DNS 관련 활동을 사용자 측에서 수행하도록 선택할 수 있습니다.
 
-CNAME 하위 도메인을 위임하면 하위 도메인을 만들고 CNAME을 사용하여 Adobe 특정 레코드를 가리키도록 설정할 수 있습니다. 이 구성을 사용하면 전자 메일 전송, 렌더링 및 추적 환경을 설정하기 위해 사용자와 Adobe은 DNS 유지 관리를 공동으로 수행합니다.
+CNAME 하위 도메인을 위임하면 하위 도메인을 만들고 CNAME을 사용하여 Adobe 특정 레코드를 가리키도록 설정할 수 있습니다. 이 구성을 사용하면 사용자와 Adobe가 이메일을 보내고 렌더링 및 추적하기 위한 환경을 설정하기 위한 DNS 유지 관리를 공동으로 수행합니다.
 
 >[!CAUTION]
 >
