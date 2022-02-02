@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
+source-git-commit: bd4a66d4d0c280c83b37241ccba53843b9442509
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 11%
+source-wordcount: '211'
+ht-degree: 38%
 
 ---
 
@@ -33,105 +33,6 @@ ht-degree: 11%
 * `Hello {{profile.person.name.fullName}}`
 
 메시지(전자 메일 및 푸시)를 처리할 때 Journey Optimizer은 표현식을 Experience Cloud 플랫폼 데이터베이스에 포함된 데이터로 대체합니다.  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` 은 &quot;Hello John Doe&quot;가 됩니다.
-
-
-## 개인화 컨텍스트{#personalization-areas}
-
-에서 전달하는 메시지 내용 및 표시 [!DNL Journey Optimizer] 은 여러 가지 방법으로 개인화할 수 있습니다.
-
-편집기 아이콘이 있는 모든 필드에서 개인화 편집기(표현식 편집기라고도 함)를 열고 개인화를 정의할 수 있습니다.
-
-![](assets/perso_icon.png)
-
-### 이메일 개인화
-
-이메일을 만들 때 **[!UICONTROL Subject line]** 메시지의 필드입니다.
-
-![](assets/perso_subject.png)
-
-이메일 디자이너에서 콘텐츠를 개인화할 수 있습니다.
-
-* 에서 **메시지**: 텍스트 블록 내부를 클릭하고 **개인화** 상황별 도구 모음의 아이콘을 선택하고 을(를) 선택합니다 **개인화 삽입** 필드. 이메일 디자이너 인터페이스에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../design-emails.md).
-
-   ![](assets/perso_insert.png)
-
-* 대상 **링크**: 텍스트 블록 내의 텍스트 또는 이미지를 선택하고 **링크 삽입** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다. 창에서 **개인화 추가** 아이콘.
-
-   ![](assets/perso_link.png)
-
-두 경우 모두 개인화 편집기에 액세스합니다.
-
-![](assets/perso_ee.png)
-
-### 푸시 알림 개인화
-
-또한 **푸시 알림** 다음 필드에서 다음을 수행합니다.
-
-* **Title**
-* **본문**
-* **사용자 정의 사운드**
-* **배지**
-* **사용자 지정 데이터**
-
-![](assets/perso_push.png)
-
-의 푸시 알림 구성에 대해 자세히 알아보십시오 [이 섹션](../push-gs.md).
-
-### 오퍼 개인화 {#personalize-offers}
-
-오퍼 표현에 텍스트 유형 컨텐츠를 추가할 때 개인화 편집기에 액세스할 수도 있습니다.
-
-의 의사 결정 관리를 통해 컨텐츠를 관리하는 방법에 대해 자세히 알아보십시오 [이 섹션](../offers/offer-library/creating-personalized-offers.md#custom-text).
-
-## 표현식 편집기 사용 {#use-expression-editor}
-
-표현식 편집기는 의 개인화의 핵심입니다 [!DNL Journey Optimizer].
-
-이메일, 푸시 및 오퍼와 같은 개인화를 정의해야 하는 모든 컨텍스트에서 이 아이콘이 제공됩니다.
-
-표현식 편집기 인터페이스에서 모든 데이터를 선택, 정렬, 사용자 지정 및 확인하여 컨텐츠에 대한 사용자 지정 개인화를 만듭니다.
-
-![](assets/perso_ee1.png)
-
-화면의 왼쪽 부분에는 개인화할 소스를 선택할 수 있는 도메인 선택기가 표시됩니다.
-
-![](assets/perso_ee3.png)
-
-사용 가능한 소스는 다음과 같습니다.
-
-* **[!UICONTROL Profile attributes]** : 에 설명된 프로필 스키마와 연결된 모든 참조를 나열합니다. [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
-* **[!UICONTROL Segment memberships]** : Adobe Experience Platform 세그멘테이션 서비스에서 만든 모든 세그먼트를 나열합니다. 세그먼테이션에 대한 자세한 내용을 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
-* **[!UICONTROL Offer decisions]** : 특정 배치에 연결된 모든 오퍼를 나열합니다. 배치를 선택한 다음 컨텐츠에 오퍼를 삽입합니다. 오퍼를 관리하는 방법에 대한 전체 설명서는 [이 섹션](../deliver-personalized-offers.md).
-* **[!UICONTROL Contextual attributes]** : http 화이트보드 **메시지** 여정에서 을 사용하는 경우 이 메뉴를 통해 컨텍스트 여정 필드를 사용할 수 있습니다. 추가 정보 [이 섹션](personalization-use-case.md).
-* **[!UICONTROL Helper functions]** : 계산, 데이터 형식 지정 또는 전환, 조건 등과 같이 데이터에 대한 작업을 수행하고 개인화 컨텍스트에서 조작하는 데 사용할 수 있는 모든 도우미 함수를 나열합니다. 추가 정보 [이 섹션](functions/functions.md).
-
-선택 시 참조가 편집기에 추가됩니다.
-
->[!NOTE]
->
->&quot;+&quot; 아이콘 옆에 있는 정보 아이콘을 사용하면 각 변수에 대한 자세한 정보를 제공하는 도구 설명이 열립니다.
-
-다음 예에서는 표현식 편집기를 사용하여 오늘이 생일인 프로필을 선택한 다음 이 날에 해당하는 특정 오퍼를 삽입하여 사용자 지정을 완료할 수 있습니다.
-
-![](assets/perso_ee2.png)
-
-### 즐겨찾기에 추가{#fav}
-
-즐겨찾기 메뉴에 다른 속성을 추가하면 가장 자주 사용하는 항목에 빠르게 액세스할 수 있습니다. 즐겨찾기에 속성을 추가하려면 타원 메뉴를 클릭하고 **[!UICONTROL Add to favorites]**.
-
-![](assets/favorite-option.png)
-
-즐겨찾기로 설정한 항목에 액세스하려면 **[!UICONTROL Favorites]** 메뉴 옵션을 클릭합니다.
-
-![](assets/favorite-menu.png)
-
-이 목록에서 현재 표현식에 개인화 개체를 빠르게 추가할 수 있습니다.
-
-![](assets/favorite-list.png)
-
-즐겨찾기 목록에 항목이 더 이상 표시되지 않게 하려면 즐겨찾기에서 제거할 수 있습니다.
-
-![](assets/favorite-remove.png)
 
 ## 방법 비디오{#video-perso}
 

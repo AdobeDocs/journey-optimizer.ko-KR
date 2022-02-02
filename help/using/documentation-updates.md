@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 74d6235042c7a94462cb4838186ca5d785d0764e
+source-git-commit: 01a18d6a54775eb2cd0bfda5080e4007b80727de
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 92%
+source-wordcount: '878'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 92%
 * offer decisioning AI 등급 섹션이 자동 최적화 모델에 대한 보다 자세한 설명과 함께 업데이트되었습니다. [자세히 보기](offers/offer-library/create-ranking-strategies.md#auto-optimization)
 
 * 등급 전략을 사용할 때 이벤트 유형을 보낼 수 있어야 하는 스키마 요구 사항에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](offers/offer-library/create-ranking-strategies.md#schema-requirements)
+
+* 관련 섹션 [!DNL Journey Optimizer] 개인화 기능이 재구성되어 더 나은 가독성을 갖습니다. [자세히 보기](personalization/personalize.md)
 
 ## 2021년 11월
 
