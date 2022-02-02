@@ -16,7 +16,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: af1c05cb51601ae92cc643353fa706b3771a8160
+source-git-commit: 6e5bdf6a23621b7f645283dc6486d485bd8ee8cf
 workflow-type: tm+mt
 source-wordcount: '1429'
 ht-degree: 10%
@@ -29,7 +29,6 @@ ht-degree: 10%
 >id="ajo_admin_subdomainname"
 >title="하위 도메인 위임 기본 정보"
 >abstract="Journey Optimizer을 사용하면 하위 도메인을 Adobe에 완전히 위임할 수 있습니다. Adobe은 DNS의 모든 측면을 제어하고 유지 관리하여 메시지를 관리 서비스로 제공할 수 있습니다."
-
 
 도메인 이름 위임은 도메인 이름의 소유자를 허용하는 메서드입니다(기술적으로 DNS 영역)에서 하위 집합을 위임(기술적 의미상: 하위 영역이라고 할 수 있는 DNS 영역을 다른 엔터티에 추가합니다. 기본적으로 고객으로서 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다.
 
