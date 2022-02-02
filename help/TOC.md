@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 01573675c28972f863e3516577d8a06b403de312
+source-git-commit: 8ecf4f1af725a34e94bb5407f9e0369841c33206
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 97%
@@ -51,12 +51,12 @@ ht-degree: 97%
 + 개인화{#personalization}
    + [시작 개인화](using/personalization/personalize.md)
    + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
-   + 표현식 편집기 작업 {#expression-editor}
-      + [표현식 편집기](using/personalization/personalization-build-expressions.md)
-      + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
-      + [개인화 유효성 검사](using/personalization/personalization-validation.md)
    + 표현식 작성 {#build-expressions}
       + [개인화 구문](using/personalization/personalization-syntax.md)
+      + 표현식 편집기 작업 {#expression-editor}
+         + [표현식 편집기](using/personalization/personalization-build-expressions.md)
+         + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
+         + [개인화 유효성 검사](using/personalization/personalization-validation.md)
       + 도우미 함수{#functions}
          + [도우미 함수 시작](using/personalization/functions/functions.md)
          + [집계 함수](using/personalization/functions/aggregation.md)
