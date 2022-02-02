@@ -5,11 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: aad1fa2ca9c845e6362df69aaa9debf6c2dc5c80
+source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -24,10 +23,10 @@ Handlebars 구문에 대한 전체 설명은 다음을 참조하십시오 [Handl
 
 `{{profile.person.name}}`
 
-다음의 경우:
+여기에서
 
 * `profile` 는 네임스페이스입니다.
-* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [추가 정보](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target=&quot;_blank&quot;}.
+* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target=&quot;_blank&quot;}.
 
 ## 구문 일반 규칙
 
@@ -85,7 +84,7 @@ Handlebars에서 {{expression}}에서 반환되는 값은 다음과 같습니다
 
 `offers.Type.[Placement Id].[Activity Id].Attribute`
 
-다음의 경우:
+여기에서
 
 * `offers` 오퍼 네임스페이스에 속하는 경로 표현식을 식별합니다
 * `Type`  오퍼 표현 유형을 결정합니다. 가능한 값은 다음과 같습니다. `image`, `html` 및 `text`
