@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8ecf4f1af725a34e94bb5407f9e0369841c33206
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 97%
@@ -28,7 +28,7 @@ ht-degree: 97%
       + [개발자로 시작하기](using/path/developer.md)
    + [사용자 인터페이스](using/user-interface.md)
    + [제한 사항](using/limitations.md)
-+ 메시지 {#create-messages}
++ 메시지 {#messages}
    + [메시지 시작](using/get-started-content.md)
    + 메시지 만들기 {#create-message}
       + [메시지 만들기](using/create-message.md)
@@ -43,7 +43,7 @@ ht-degree: 97%
       + [이메일 콘텐츠 가져오기 또는 코드 작성](using/existing-content.md)
       + [이메일 디자이너 콘텐츠 구성 요소 사용](using/content-components.md)
    + [링크 추가 및 메시지 추적](using/message-tracking.md)
-   + {#create-message} 유효성 확인 및 게시
+   + {#validate} 유효성 확인 및 게시
       + [미리보기 및 증명](using/preview.md)
       + [경고 확인](using/alerts.md)
       + [메시지 게시](using/publish-manage-message.md)
@@ -233,7 +233,7 @@ ht-degree: 97%
       + [랜딩 페이지 보고](using/landing-pages/lp-report.md)
       + [구독 목록 보고](using/landing-pages/subscription-report.md)
 + 의사 결정 관리 {#offer-decisioniong}
-   + 의사 결정 관리 시작 {#get-started}
+   + 의사 결정 관리 시작 {#get-started-decision}
       + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
       + [사용자 인터페이스](using/offers/get-started/user-interface.md)
       + [오퍼를 만들고 관리하는 주요 단계](using/offers/offer-library/key-steps.md)
@@ -315,13 +315,13 @@ ht-degree: 97%
    + [스키마](using/get-started-schemas.md)
    + [데이터 세트](using/get-started-datasets.md)
    + [쿼리](using/get-started-queries.md)
-+ 구성{#get-started}
++ 구성{#configuration}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
-   + 메시지 구성 {#configuration}
+   + 메시지 구성 {#configuration-message}
       + 푸시 알림 구성{#push-config}
          + [푸시 구성 시작](using/push-gs.md)
          + [푸시 알림 채널 구성](using/push-configuration.md)
-      + 이메일 구성 {#email-config}
+      + 이메일 구성 {#email-configuration}
          + 하위 도메인 위임 {#delegate-subdomains}
             + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
             + [하위 도메인 위임](using/configuration/delegate-subdomain.md)
@@ -356,7 +356,7 @@ ht-degree: 97%
          + [작업 구성](using/action/about-custom-action-configuration.md)
          + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
    + [소스](using/get-started-sources.md)
-+ 액세스 제어 {#administration}
++ 액세스 제어 {#access-control}
    + [액세스 제어 개요](using/administration/permissions-overview.md)
    + [내장 제품 프로필](using/administration/ootb-product-profiles.md)
    + [사용자 및 제품 프로필 관리](using/administration/permissions.md)

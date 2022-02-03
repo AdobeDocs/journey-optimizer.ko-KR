@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 56%
 
 ---
 
-# 여정 구성
+# 여정 구성 {#configure-journeys}
 
 여정과 함께 메시지를 보내려면 다음을 구성해야 합니다 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]**.
 

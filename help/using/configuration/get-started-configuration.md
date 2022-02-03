@@ -9,7 +9,7 @@ solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -17,7 +17,7 @@ ht-degree: 9%
 ---
 
 
-# 시작하기 [!DNL Journey Optimizer] 구성
+# 시작하기 [!DNL Journey Optimizer] 구성 {#start-optimizer-configuration}
 
 액세스 시 [!DNL Journey Optimizer] 처음으로 프로덕션 샌드박스를 프로비저닝하고 계약에 따라 특정 수의 IP를 할당하게 됩니다.
 

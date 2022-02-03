@@ -16,14 +16,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 1d7f661dc0a89e4754a76ecf2cdce1e43a5275ec
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 29%
 
 ---
 
-# 하위 도메인에 Google TXT 레코드 추가
+# 하위 도메인에 Google TXT 레코드 추가 {#google-txt-record}
 
 TXT 레코드는 외부 소스에서 읽을 수 있는 도메인 관련 텍스트 정보를 제공하는 데 사용되는 DNS 레코드 유형입니다.
 

@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7039c816c459ba8cb5dbb52daf3c8265e1e1a511
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 1%
 
 ---
 
-# 메시지 사전 설정 만들기
+# 메시지 사전 설정 만들기 {#message-presets-creation}
 
 사용 [!DNL Journey Optimizer], 전자 메일 및 푸시 알림 메시지에 필요한 모든 기술 매개 변수를 정의하는 메시지 사전 설정을 설정할 수 있습니다. 이메일 유형, 보낸 사람 이메일 및 이름, 모바일 앱 등.
 

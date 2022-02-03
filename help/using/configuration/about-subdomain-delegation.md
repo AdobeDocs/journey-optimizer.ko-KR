@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 34%
 
 ---
 
-# 의 하위 도메인 위임 [!DNL Journey Optimizer]
+# 의 하위 도메인 위임 [!DNL Journey Optimizer] {#subdomain-delegation}
 
 이메일 캠페인용 하위 도메인을 만들면 브랜드의 다양한 트래픽 유형(예: 마케팅과 기업)을 특정 IP 풀과 특정 도메인으로 분리하여 IP 준비 프로세스를 가속화하고 전반적인 게재 능력을 향상시킬 수 있습니다. 도메인을 공유하는데 도메인을 차단하거나 차단 목록에 추가하면 회사 메일 게재에 영향을 줄 수 있습니다. 그러나 이메일 마케팅 커뮤니케이션과 관련된 도메인의 평판 문제 또는 블록은 해당 이메일 흐름에 영향을 줍니다. 기본 도메인을 발신자로 사용하거나 여러 메일 스트림에 대한 &#39;보낸 사람&#39; 주소로 사용하면 이메일 인증이 중단되어 메시지가 스팸 폴더에 저장되거나 차단될 수 있습니다.
 
