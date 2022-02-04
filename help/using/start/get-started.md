@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 92443ac4bf1fadbbba5a910219e86ca8a5d16161
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -71,3 +71,4 @@ ht-degree: 100%
 * [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md)
 * [라이브 보고서](../reports/live-report.md)
 * [Journey Optimizer FAQ](../assets/do-not-localize/AJO-FAQ.pdf) (PDF)
+* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
