@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 4%
@@ -119,7 +119,7 @@ ht-degree: 4%
 </table>
 </table>
 
-### 맵 함수
+### 맵 함수 {#map-functions}
 
 <table>
     <tr>
@@ -144,7 +144,7 @@ ht-degree: 4%
     </tr>
 </table>
 
-### 문자열 함수
+### 문자열 함수 {#string-functions}
 
 <table>
     <tr>
@@ -280,7 +280,7 @@ ht-degree: 4%
 </table>
 
 
-### 부울 함수
+### 부울 함수 {#boolean-functions}
 
 부울 함수는 다른 요소에서 부울 논리를 수행하는 데 사용됩니다.
 
@@ -300,7 +300,7 @@ ht-degree: 4%
 </table>
 
 
-### 비교 함수
+### 비교 함수 {#comparison-functions}
 
 비교 함수는 다른 표현식과 값 간을 비교하고 그에 따라 true 또는 false를 반환하는 데 사용됩니다.
 

@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 2%
 
 ---
 
-# Campaign v7/v8을 사용하여 메시지 보내기 {#campaign-classic-use-case}
+# 사용 사례: campaign v7/v8을 사용하여 메시지 보내기 {#campaign-classic-use-case}
 
 이 사용 사례에서는 Adobe Campaign Classic v7 및 Adobe Campaign v8과의 통합을 사용하여 이메일을 전송하는 데 필요한 모든 단계를 설명합니다.
 

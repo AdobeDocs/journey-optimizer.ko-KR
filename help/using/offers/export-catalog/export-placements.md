@@ -1,12 +1,12 @@
 ---
 title: 배치 데이터 세트
-description: 이 섹션에는 배치를 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다.
+description: 이 섹션에는 배치를 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 5%
@@ -29,14 +29,14 @@ ht-degree: 5%
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
-## 식별자
+## 식별자 {#identifier}
 
 **필드:** _id
 **제목:** 식별자
 **설명:** 레코드의 고유 식별자입니다.
 **유형:** 문자열
 
-## _경험
+## _경험 {#experience}
 
 **필드:** _experience
 **유형:** 개체
@@ -85,7 +85,7 @@ ht-degree: 5%
 **설명:** 인간 상호 작용에서 배치를 참조할 수 있도록 지정된 이름입니다.
 **유형:** 문자열
 
-## _repo
+## _repo {#repo}
 
 **필드:** _repo
 **유형:** 개체

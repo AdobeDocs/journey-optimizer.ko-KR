@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 3%
 
 ---
 
-# 태그 나열
+# 태그 나열 {#list-tags}
 
 태그를 사용하면 오퍼를 보다 잘 구성하고 정렬할 수 있습니다. 예를 들어 블랙 프라이데이 태그로 블랙 프라이데이 오퍼에 레이블을 지정할 수 있습니다. 그런 다음 오퍼 라이브러리에서 검색 기능을 사용하여 해당 태그가 있는 모든 오퍼를 쉽게 찾을 수 있습니다.
 
@@ -46,11 +46,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## 쿼리 매개 변수 사용
+## 쿼리 매개 변수 사용 {#using-query-parameters}
 
 리소스를 나열할 때 쿼리 매개 변수를 사용하여 결과를 페이지 및 필터링할 수 있습니다.
 
-### 페이징
+### 페이징 {#paging}
 
 페이징의 가장 일반적인 쿼리 매개 변수는 다음과 같습니다.
 

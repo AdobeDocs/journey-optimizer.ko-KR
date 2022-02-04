@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 17%
@@ -21,7 +21,7 @@ ht-degree: 17%
 >
 >데이터 소스는 항상 **기술 사용자**&#x200B;가 구성해야 합니다.
 
-1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]**. 에서  **[!UICONTROL Data Sources]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 데이터 소스 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../user-interface.md)를 참조하십시오.
+1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]**. 에서  **[!UICONTROL Data Sources]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 데이터 소스 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../start/user-interface.md)를 참조하십시오.
 
    ![](../assets/journey18.png)
 

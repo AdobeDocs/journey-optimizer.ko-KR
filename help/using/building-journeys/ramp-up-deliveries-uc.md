@@ -5,19 +5,19 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 980aedcd0fb4dba161dc0041a77e0f8d06d6fe68
+exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
 
 ---
 
-
-# 사용 사례: 게재 강화
+# 사용 사례: 게재 강화{#use-case-ramp-up-your-deliveries}
 
 최근 다른 이메일 서비스 공급자, IP 주소 또는 이메일 도메인 또는 하위 도메인으로 이동한 경우, 발신자로서의 평판을 설정해야 합니다. 게재가 차단되거나 수신자 사서함의 스팸 폴더로 이동될 수 있습니다. IP 온난화를 통해 이메일 평판을 높이는 방법을 알아보십시오 [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target=&quot;_blank&quot;}.
 
-IP를 가열하기 위해 게재 수를 점진적으로 늘릴 수 있습니다. 자세한 내용 [Journey Optimizer에서 게재 기능 최적화](../deliverability.md).
+IP를 가열하기 위해 게재 수를 점진적으로 늘릴 수 있습니다. 자세한 내용 [Journey Optimizer에서 게재 기능 최적화](../messages/deliverability.md).
 
 이 사용 사례의 목적은 전자 메일 게재를 늘리기 위한 여정을 만드는 것입니다. 이 여정을 구성하려면 다음 단계를 수행합니다.
 
@@ -44,8 +44,3 @@ IP를 가열하기 위해 게재 수를 점진적으로 늘릴 수 있습니다.
 1. 선택한 활동으로 여정을 완료합니다.
 
 IP가 따뜻해지면 이 조건을 제거할 수 있습니다.
-
-
-
-
-

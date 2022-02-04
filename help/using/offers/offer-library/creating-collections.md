@@ -1,19 +1,19 @@
 ---
 title: 컬렉션 만들기
-description: 컬렉션을 사용하여 오퍼를 구성하는 방법을 알아봅니다.
+description: 컬렉션을 사용하여 오퍼를 구성하는 방법을 알아봅니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
 
 ---
 
-# 컬렉션 만들기 {#creating-collections}
+# 컬렉션 만들기 {#create-collections}
 
 컬렉션을 사용하면 오퍼를 선택한 카테고리로 다시 그룹화하여 구성할 수 있습니다. 예를 들어, 스포츠 관련 오퍼만 포함하는 &quot;스포츠&quot; 컬렉션을 만들 수 있습니다.
 

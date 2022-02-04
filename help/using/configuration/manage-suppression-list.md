@@ -1,22 +1,12 @@
 ---
 title: 제외 목록 관리
 description: Journey Optimizer 제외 목록에 액세스하고 관리하는 방법을 알아봅니다
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 2%
@@ -31,7 +21,7 @@ ht-degree: 2%
 * 게재를 계속 포함하는 경우 일관되게 소프트 바운스, 그리고 이메일 평판에 부정적인 영향을 줄 수 있는 주소를 제공합니다.
 * 이메일 메시지 중 하나에 대해 일종의 스팸 불만 사항을 발행한 수신자입니다.
 
-이러한 이메일 주소는 Journey Optimizer에 자동으로 수집됩니다 **제외 목록**. 에서 억제 목록 개념 및 사용에 대해 자세히 알아보십시오 [이 섹션](../suppression-list.md).
+이러한 이메일 주소는 Journey Optimizer에 자동으로 수집됩니다 **제외 목록**. 에서 억제 목록 개념 및 사용에 대해 자세히 알아보십시오 [이 섹션](../messages/suppression-list.md).
 
 ## 제외 목록에 액세스합니다 {#access-suppression-list}
 
@@ -41,15 +31,9 @@ ht-degree: 2%
 >
 >제외 목록을 보고, 내보내고 관리할 수 있는 권한은 다음으로 제한됩니다 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator). 관리에 대해 자세히 알아보기 [!DNL Journey Optimizer] 사용자 액세스 권한 [이 섹션](../administration/permissions-overview.md).
 
-<!--![](../assets/suppression-list-link.png)
-
-You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
-
 ![](../assets/suppression-list-access.png)
 
 필터를 사용하여 목록을 탐색할 수 있습니다.
-
-<!--![](../assets/suppression-list-filters-temp.png)-->
 
 ![](../assets/suppression-list-filters.png)
 
@@ -65,7 +49,7 @@ You can also display the suppression list content using the **[!UICONTROL View s
 
 ![](../assets/suppression-list-delete.png)
 
-제외 목록에서 이메일 주소 또는 도메인을 삭제하면 이 주소 또는 도메인으로 다시 배달됩니다. 따라서 게재 능력과 IP 평판에 심각한 영향을 줄 수 있으므로 IP 주소 또는 전송 도메인이 차단될 수 있습니다. 에서 제외 목록 유지 관리의 중요도에 대해 자세히 알아보십시오. [이 섹션](../suppression-list.md).
+제외 목록에서 이메일 주소 또는 도메인을 삭제하면 이 주소 또는 도메인으로 다시 배달됩니다. 따라서 게재 능력과 IP 평판에 심각한 영향을 줄 수 있으므로 IP 주소 또는 전송 도메인이 차단될 수 있습니다. 에서 제외 목록 유지 관리의 중요도에 대해 자세히 알아보십시오. [이 섹션](../messages/suppression-list.md).
 
 >[!NOTE]
 >
@@ -91,17 +75,11 @@ You can also display the suppression list content using the **[!UICONTROL View s
 
 * **소프트**: 소프트 오류의 경우 오류 카운터가 제한 임계값에 도달하면 제외 목록에 주소를 보냅니다. [다시 시도하는 방법에 대해 자세히 알아보기](retries.md)
 
-   <!--
-    **Ignored**:
-    * When the error occurred for a valid email address but is known to be temporary, such as a failed connection attempt or a temporary technical issue, the email address is added to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md).
-    * When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is immediately sent to the suppression list.
-    -->
-
 * **수동**: 이메일 주소 또는 도메인을 수동으로 제외 목록에 추가할 수도 있습니다. [자세히 알아보기](#add-addresses-and-domains)
 
 >[!NOTE]
 >
->에서 소프트 바운스 및 하드 바운스에 대해 자세히 알아보십시오 [게재 실패 유형](../suppression-list.md#delivery-failures) 섹션을 참조하십시오.
+>에서 소프트 바운스 및 하드 바운스에 대해 자세히 알아보십시오 [게재 실패 유형](../messages/suppression-list.md#delivery-failures) 섹션을 참조하십시오.
 
 나열된 각 이메일 주소에 대해 다음을 확인할 수도 있습니다 **[!UICONTROL Type]** (이메일 또는 도메인), **[!UICONTROL Reason]** 제외하기 위해 추가한 사람과 제외 목록에 추가한 날짜/시간입니다.
 
@@ -121,27 +99,7 @@ You can also display the suppression list content using the **[!UICONTROL View s
 
 >[!NOTE]
 >
->구독하지 않은 사용자가 보낸 이메일을 받지 않습니다. [!DNL Journey Optimizer]따라서 해당 이메일 주소를 제외 목록으로 보낼 수 없습니다. 선택 사항은 Experience Platform 수준에서 처리됩니다. [옵트아웃에 대해 자세히 알아보기](../consent.md)
-
-<!--
-Removed from the table provided by SparkPost/Momentum:
-| **[!UICONTROL Undetermined]** | The bounce reason received from the recipient domain Message Transfer Agent (MTA) could not be identified. | Ignored |
-| **[!UICONTROL Too Large]** | The message bounced because it was too large for the recipient. [Retries](retries.md) will be performed: you can edit the message size and re-inject it for delivery. | Ignored |
-| **[!UICONTROL Timeout]** | The message timed out, meaning it soft bounced and reached the message retry limit (3.5 days). | Ignored |
-| **[!UICONTROL Admin Failure]** | The message was failed according to the policies configured by the sending system administrator. ///For example, if emails are blackholed at the global, domain or binding level using the "blackhole" directive, this bounce code is used. | Ignored |
-| **[!UICONTROL Generic Bounce: No RCPT]** | No recipient could be determined for the message. | Ignored |
-| **[!UICONTROL Generic Bounce]** | The message failed for unspecified reasons. | Ignored |
-| **[!UICONTROL Mail Block]** | The message was blocked by the receiver (i.e. recipient MTA). | Ignored |
-| **[!UICONTROL Spam Block]** | The message was blocked by the receiver as coming from a known spam source. It could be a sending IP block for example. | Ignored |
-| **[!UICONTROL Spam Content]** | The message content was blocked by the receiver (recipient MTA) as spam. | Ignored |
-| **[!UICONTROL Prohibited Attachment]** | The message was blocked by the receiver because it contained an attachment. | Ignored |
-| **[!UICONTROL Auto-Reply]** | The message is an auto-reply/vacation mail. | Ignored |
-| **[!UICONTROL Transient Failure]** | Message transmission has been temporarily delayed. | Ignored |
-| **[!UICONTROL Subscribe]** | The message is a subscribe request. | Ignored |
-| **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
--->
-
-<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list.-->
+>구독하지 않은 사용자가 보낸 이메일을 받지 않습니다. [!DNL Journey Optimizer]따라서 해당 이메일 주소를 제외 목록으로 보낼 수 없습니다. 선택 사항은 Experience Platform 수준에서 처리됩니다. [옵트아웃에 대해 자세히 알아보기](../messages/consent.md)
 
 ## 수동으로 주소 및 도메인 추가 {#add-addresses-and-domains}
 

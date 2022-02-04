@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 >
 >현재 랜딩 페이지를 사용하면 사용자를 선택하기 위해 얼리 액세스에서 사용할 수 있습니다. 이 기능을 활용하려면 Adobe 계정 담당자에게 문의하십시오.
 
-## 랜딩 페이지에 액세스
+## 랜딩 페이지에 액세스 {#access-landing-pages}
 
 랜딩 페이지 목록에 액세스하려면 다음을 선택합니다 **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** 왼쪽 메뉴에서 를 클릭합니다.
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 ![](../assets/lp_access-list-filter.png)
 
-## 랜딩 페이지 만들기
+## 랜딩 페이지 만들기 {#create-landing-page}
 
 랜딩 페이지를 만드는 단계는 다음과 같습니다.
 
@@ -61,7 +61,7 @@ ht-degree: 3%
 
    ![](../assets/lp_add-subpage.png)
 
-구성 및 디자인 후 [기본 페이지](#configure-primary-page), 및 [하위 페이지](#configure-subpages) 있는 경우 다음을 수행할 수 있습니다. [테스트](#test) 및 [게시](#publish) 랜딩 페이지.
+구성 및 디자인 후 [기본 페이지](#configure-primary-page), 및 [하위 페이지](#configure-subpages) 있는 경우 다음을 수행할 수 있습니다. [테스트](#test-landing-page) 및 [게시](#publish-landing-page) 랜딩 페이지.
 
 ## 기본 페이지 구성 {#configure-primary-page}
 
@@ -121,7 +121,7 @@ ht-degree: 3%
 
 ![](../assets/lp_subpage-settings.png)
 
-## 랜딩 페이지 테스트 {#test}
+## 랜딩 페이지 테스트 {#test-landing-page}
 
 랜딩 페이지 설정 및 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 볼 수 있습니다. 삽입한 경우 [개인화된 콘텐츠](../personalization/personalize.md)를 입력하면 테스트 프로필 데이터를 활용하여 이 콘텐츠가 랜딩 페이지에 어떻게 표시되는지 확인할 수 있습니다.
 
@@ -141,7 +141,7 @@ ht-degree: 3%
 
    ![](../assets/lp_test-profiles.png)
 
-   테스트 프로필을 선택하는 단계는 메시지를 테스트할 때와 동일합니다. 자세한 내용은 [이 섹션](../preview.md#select-test-profiles).
+   테스트 프로필을 선택하는 단계는 메시지를 테스트할 때와 동일합니다. 자세한 내용은 [이 섹션](../messages/preview.md#select-test-profiles).
 
 1. 을(를) 선택합니다 **[!UICONTROL Preview]** 탭을 클릭하고 **[!UICONTROL Open preview]** 랜딩 페이지를 테스트하려면 다음을 수행하십시오.
 
@@ -153,7 +153,7 @@ ht-degree: 3%
 
 1. 다른 테스트 프로필을 선택하여 랜딩 페이지의 각 변형에 대한 렌더링을 미리 봅니다.
 
-## 경고 확인 {#alerts}
+## 경고 확인 {#check-alerts}
 
 랜딩 페이지를 만드는 동안 경고에서는 게시하기 전에 중요한 작업을 수행해야 할 때 알려줍니다.
 
@@ -192,7 +192,7 @@ ht-degree: 3%
 > To be able to publish your message, you need to resolve all **error** alerts.
 -->
 
-## 랜딩 페이지 게시 {#publish}
+## 랜딩 페이지 게시 {#publish-landing-page}
 
 랜딩 페이지가 준비되면 게시하여 메시지에 사용할 수 있도록 만들 수 있습니다.
 
@@ -200,11 +200,11 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->경고를 게시하기 전에 경고를 확인하고 확인합니다. [자세히 알아보기](#alerts)
+>경고를 게시하기 전에 경고를 확인하고 확인합니다. [자세히 알아보기](#check-alerts)
 
 랜딩 페이지가 게시되면 과 함께 랜딩 페이지 목록에 추가됩니다. **[!UICONTROL Published]** 상태.
 
-이제 라이브로 사용 가능하며, [!DNL Journey Optimizer] [메시지](../create-message.md) 그것은 [여정](../building-journeys/journey.md).
+이제 라이브로 사용 가능하며, [!DNL Journey Optimizer] [메시지](../messages/create-message.md) 그것은 [여정](../building-journeys/journey.md).
 
 >[!NOTE]
 >

@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 9%
 
 ---
 
-# 컬렉션 만들기
+# 컬렉션 만들기 {#create-collection}
 
 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 오퍼의 하위 집합입니다.
 
 에 POST 요청을 만들어 컬렉션을 만들 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
 
-## Accept 및 Content-Type 헤더
+## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
 다음 표에서는 *컨텐츠 유형* 및 *수락* 요청 헤더의 필드:
 

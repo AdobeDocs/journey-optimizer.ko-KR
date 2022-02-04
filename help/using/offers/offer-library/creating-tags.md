@@ -1,19 +1,19 @@
 ---
 title: 태그 만들기
-description: Adobe Experience Platform에서 오퍼를 만드는 방법을 알아봅니다.
+description: 오퍼용 태그를 만드는 방법을 알아봅니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
 
-# 태그 만들기 {#creating-tags}
+# 태그 만들기 {#create-tags}
 
 오퍼에 태그를 연결하면 세그먼트를 쉽게 구성할 수 있습니다. 예를 들어 블랙 프라이데이 태그로 블랙 프라이데이 오퍼에 레이블을 지정할 수 있습니다. 그런 다음 오퍼 라이브러리에서 검색 기능을 사용하여 해당 태그가 있는 모든 오퍼를 쉽게 찾을 수 있습니다.
 

@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 11%
 
 ---
 
-# 배치 나열
+# 배치 나열 {#list-placements}
 
 배치는 오퍼를 표시하는 데 사용되는 컨테이너입니다. 배치는 메시지 내의 올바른 위치에 올바른 오퍼 컨텐츠가 표시되도록 하는 데 도움이 됩니다. 오퍼에 컨텐츠를 추가할 때 해당 컨텐츠가 표시될 수 있는 배치를 선택하라는 메시지가 표시됩니다.
 
@@ -32,11 +32,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `SCHEMA_PLACEMENT}` | 배치와 연관된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `{QUERY_PARAMS}` | 결과를 기준으로 필터링할 선택적 쿼리 매개 변수입니다. | `limit=2` |
 
-## 쿼리 매개 변수 사용
+## 쿼리 매개 변수 사용 {#using-query-parameters}
 
 리소스를 나열할 때 쿼리 매개 변수를 사용하여 결과를 페이지 및 필터링할 수 있습니다.
 
-### 페이징
+### 페이징 {#paging}
 
 페이징의 가장 일반적인 쿼리 매개 변수는 다음과 같습니다.
 

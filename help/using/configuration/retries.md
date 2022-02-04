@@ -1,22 +1,12 @@
 ---
 title: 다시 시도
 description: 주소를 제외 목록으로 보내기 전에 다시 시도하는 방법을 알아봅니다
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -29,7 +19,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->의 오류 유형에 대해 자세히 알아보십시오 [게재 실패 유형](../suppression-list.md#delivery-failures) 섹션을 참조하십시오.
+>의 오류 유형에 대해 자세히 알아보십시오 [게재 실패 유형](../messages/suppression-list.md#delivery-failures) 섹션을 참조하십시오.
 
 기본 구성에서 오류 임계값은 5로 설정됩니다.
 
@@ -55,11 +45,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >10보다 큰 값을 지정하면 ISP의 IP 조절 또는 차단 목록에 추가와 함께 전송 가능한 신뢰도 문제가 발생할 수 있습니다. [게재 능력에 대해 자세히 알아보기](../deliverability.md)
-
-<!--![](../assets/retries-edition.png)-->
-
-<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
+   >10보다 큰 값을 지정하면 ISP의 IP 조절 또는 차단 목록에 추가와 함께 전송 가능한 신뢰도 문제가 발생할 수 있습니다. [게재 능력에 대해 자세히 알아보기](../messages/deliverability.md)
 
 ## 다시 시도 기간 {#retry-duration}
 
@@ -77,6 +63,3 @@ ht-degree: 2%
 
 에서 메시지 사전 설정을 만들 때 이메일 다시 시도 매개 변수를 조정하는 방법을 알아봅니다. [이 섹션](message-presets.md#create-message-preset).
 
-<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
-
-<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

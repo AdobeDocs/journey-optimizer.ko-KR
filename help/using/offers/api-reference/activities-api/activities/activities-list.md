@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 4%
 
 ---
 
-# 의사 결정 나열
+# 의사 결정 나열 {#list-decisions}
 
 결정(이전에 오퍼 활동이라고 함)에는 오퍼의 선택을 알리는 로직이 포함되어 있습니다.
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## 쿼리 매개 변수 사용
+## 쿼리 매개 변수 사용 {#using-query-parameters}
 
 리소스를 나열할 때 쿼리 매개 변수를 사용하여 결과를 페이지 및 필터링할 수 있습니다.
 
-### 페이징
+### 페이징 {#paging}
 
 페이징의 가장 일반적인 쿼리 매개 변수는 다음과 같습니다.
 

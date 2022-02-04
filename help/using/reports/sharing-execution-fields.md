@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 12%
@@ -19,37 +19,37 @@ ht-degree: 12%
 
 단계에 처리할 작업이 있으면 해당 필드가 이벤트 페이로드에 추가됩니다.
 
-## actionID
+## actionID {#actionid-field}
 
 실행 중인 작업의 ID입니다.
 
 유형: 문자열
 
-## actionName
+## actionName {#actionname-field}
 
 작업의 이름입니다. 설정된 이름이 없으면 stepName이 사용됩니다.
 
 유형: 문자열
 
-## actionType
+## actionType {#actionType-field}
 
 작업의 유형입니다.
 
 유형: 문자열
 
-## actionParameterized
+## actionParameterized {#actionparameterized-field}
 
 작업이 매개 변수화되는지 여부를 나타냅니다.
 
 유형: 부울
 
-## actionExecutionTime
+## actionExecutionTime {#actionexecutiontime-field}
 
 현재 작업을 실행하는 데 걸린 시간(밀리초)입니다.
 
 유형: 장기간
 
-## actionExecutionError
+## actionExecutionError {#actionexecutionerror-field}
 
 작업이 호출될 때 발생하는 오류 유형입니다.
 
@@ -61,13 +61,13 @@ ht-degree: 12%
 * timeout
 * 라는 오류가 표시됩니다
 
-## actionExecutionErrorCode
+## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 작업 실행 오류에 대한 코드입니다. 오류에 HTTP 코드와 같은 코드가 있을 경우 표시됩니다.
 
 유형: 문자열
 
-## actionExecutionOriginError
+## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
 시간 초과는 다음 두 가지 경우에 발생할 수 있습니다.
 
@@ -89,13 +89,13 @@ ht-degree: 12%
 
 유형: 문자열
 
-## actionExecutionOriginCode
+## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 actionExecOrigError의 오류 코드입니다.
 
 유형: 문자열
 
-## actionBusinessType
+## actionBusinessType {#actionbusinesstype-field}
 
 작업 유형을 나타냅니다.
 
@@ -111,25 +111,25 @@ actionExecOrigError의 오류 코드입니다.
 
 유형: 문자열
 
-## deliveryJobID
+## deliveryJobID {#deliveryjobid-field}
 
 이 섹션에서는 배치 여정에 대한 게재 작업 ID에 대해 설명합니다.
 
 유형: 문자열
 
-## batchDeliveryID
+## batchDeliveryID {#batchdeliveryid-field}
 
 이 섹션에서는 배치 여정에 대한 게재 ID에 대해 설명합니다.
 
 유형: 문자열
 
-## fromSegmentTrigger
+## fromSegmentTrigger {#fromsegmenttrigger-field}
 
 대상 세그먼트에서 배치 여정이 트리거되는지 여부를 설명합니다.
 
 유형: 부울
 
-## actionSchedulerCount
+## actionSchedulerCount {#actionschedulercount-field}
 
 단계 처리 중 스케줄러 서비스로 전송된 스케줄러 알림 요청 개수입니다.
 

@@ -1,25 +1,15 @@
 ---
-title: 일반 메시지 설정
-description: 이메일 주소를 설정하는 방법 알아보기
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
+title: '기본 이메일 주소 변경 '
+description: 프로필 서비스에서 사용할 이메일 주소를 결정하는 방법을 알아봅니다.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 5%
+source-wordcount: '125'
+ht-degree: 4%
 
 ---
 

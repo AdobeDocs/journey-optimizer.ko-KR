@@ -1,19 +1,19 @@
 ---
 title: 의사 결정 규칙 만들기
-description: Adobe Experience Platform에서 의사 결정 규칙을 만드는 방법을 알아봅니다.
+description: 오퍼를 표시할 수 있는 오퍼를 정의하는 의사 결정 규칙을 만드는 방법을 알아봅니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '286'
 ht-degree: 12%
 
 ---
 
-# 의사 결정 규칙 만들기 {#creating-decision-rules}
+# 의사 결정 규칙 만들기 {#create-decision-rules}
 
 Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 오퍼 의사 결정 규칙을 만들 수 있습니다. 의사 결정 규칙은 오퍼를 표시할 수 있는 대상을 결정합니다.
 

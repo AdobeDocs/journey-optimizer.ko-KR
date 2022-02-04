@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 0c0d241008318fa5d1c63d99f00bb434f6645d22
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 10%
 
 ---
 
-# 의사 결정 만들기
+# 의사 결정 만들기 {#create-decision}
 
 에 POST 요청을 수행하여 결정(이전에 오퍼 활동이라고 함)을 만들 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
 
-## Accept 및 Content-Type 헤더
+## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
 다음 표에서는 *컨텐츠 유형* 및 *수락* 요청 헤더의 필드:
 

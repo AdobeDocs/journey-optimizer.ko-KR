@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 5%
 
 ---
 
-# 태그 삭제
+# 태그 삭제 {#delete-tag}
 
 경우에 따라 태그를 제거(DELETE)해야 할 수 있습니다. 테넌트 컨테이너에서 만든 태그만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 태그의 $id를 사용하는 API입니다.
 

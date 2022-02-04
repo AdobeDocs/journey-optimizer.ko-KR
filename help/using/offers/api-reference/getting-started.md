@@ -6,20 +6,20 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 6%
 
 ---
 
-# 의사 결정 관리 API 개발자 안내서
+# 의사 결정 관리 API 개발자 안내서 {#decision-management-api-developer-guide}
 
 이 개발자 가이드는 를 사용하는 데 도움이 되는 단계를 제공합니다. [!DNL Offer Library] API. 그러면 안내서에서는 결정 관리 엔진을 사용하여 주요 작업을 수행하기 위한 샘플 API 호출을 제공합니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-## 전제 조건
+## 전제 조건 {#prerequisites}
 
 이 안내서에서는 Adobe Experience Platform의 다음 구성 요소를 이해하고 있어야 합니다.
 
@@ -28,11 +28,11 @@ ht-degree: 6%
 * [의사 결정 관리](../../../using/offers/get-started/starting-offer-decisioning.md): 일반적으로 Experience Decisioning에 사용되는 개념과 구성 요소, 특히 Offer decisioning에 대해 설명합니다. 고객 경험 중에 가장 적합한 옵션을 선택하는 데 사용되는 전략을 보여줍니다.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: PQL은 XDM 인스턴스에서 표현식을 작성할 수 있는 강력한 언어입니다. PQL은 의사 결정 규칙을 정의하는 데 사용됩니다.
 
-## 샘플 API 호출 읽기
+## 샘플 API 호출 읽기 {#reading-sample-api-calls}
 
 이 안내서에서는 요청의 형식을 지정하는 방법을 보여주는 예제 API 호출을 제공합니다. 여기에는 경로, 필수 헤더 및 올바른 형식의 요청 페이로드가 포함됩니다. API 응답으로 반환되는 샘플 JSON도 제공됩니다. 샘플 API 호출에 대한 설명서에 사용된 규칙에 대한 자세한 내용은 [예제 API 호출을 읽는 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request)의 {target=&quot;_blank&quot;} [!DNL Experience Platform] 문제 해결 가이드.
 
-## 필수 헤더에 대한 값을 수집합니다
+## 필수 헤더에 대한 값을 수집합니다 {#gather-values-for-required-headers}
 
 을 호출하려면 [!DNL Platform] API를 먼저 완료해야 합니다. [인증 자습서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}. 인증 자습서를 완료하면 모든 히트에 필요한 각 헤더에 대한 값이 제공됩니다 [!DNL Experience Platform] 아래에 표시된 대로 API 호출:
 
@@ -44,7 +44,7 @@ ht-degree: 6%
 
 * `Content-Type: application/json`
 
-## 컨테이너에 대한 액세스 관리
+## 컨테이너에 대한 액세스 관리 {#manage-access-to-container}
 
 용기는 서로 다른 관심사를 구분하기 위한 격리장치이다. 컨테이너 ID는 모든 저장소 API의 첫 번째 경로 요소입니다. 모든 의사 결정 개체는 컨테이너 내에 있습니다.
 
@@ -52,7 +52,7 @@ ht-degree: 6%
 
 지정된 관리자 권한이 있는 경우 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. 자세한 내용은 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko){target=&quot;_blank&quot;}.
 
-### 사용자 및 통합에 액세스할 수 있는 컨테이너 나열
+### 사용자 및 통합에 액세스할 수 있는 컨테이너 나열 {#list-containers-accessible-to-users-and-integrations}
 
 **API 형식**
 
@@ -124,7 +124,7 @@ curl -X GET \
 }
 ```
 
-## 다음 단계
+## 다음 단계 {#next-steps}
 
 이 문서는 [!DNL Offer Library] 컨테이너 ID 획득을 포함한 API. 이제 이 개발자 가이드에 제공된 샘플 호출을 진행하여 지침을 따라 수행할 수 있습니다.
 

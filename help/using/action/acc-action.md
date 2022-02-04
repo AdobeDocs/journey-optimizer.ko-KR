@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 4%
@@ -23,7 +23,7 @@ Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로�
 
 구성된 각 작업에 대해 여정 디자이너 팔레트에서 작업 활동을 사용할 수 있습니다. 다음을 참조하십시오 [섹션](../building-journeys/using-adobe-campaign-classic.md).
 
-## 중요 정보
+## 중요 정보 {#important-notes}
 
 * 메시지 제한이 없습니다. 현재 Campaign SLA를 기반으로 하여 시간당 50,000개로 전송할 수 있는 메시지 수를 제한합니다. 이러한 이유로 Journey Optimizer은 단일 사용 사례(세그먼트가 아닌 개별 이벤트)에서만 사용해야 합니다.
 
@@ -35,7 +35,7 @@ Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로�
 
 * 세그먼트 자격 이벤트에서 캠페인 작업을 사용할 수 없습니다.
 
-## 전제 조건
+## 전제 조건 {#prerequisites}
 
 Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. 자세한 내용은 [Adobe Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
 
@@ -58,7 +58,7 @@ Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시
 * **eventType**: Campaign 이벤트의 내부 이름
 * **ctx**: 변수에 설정된 값은 메시지에 포함된 개인화를 기반으로 합니다.
 
-## 작업 구성
+## 작업 구성 {#configure-action}
 
 Journey Optimizer에서는 트랜잭션 메시지당 하나의 작업을 구성해야 합니다. 다음 단계를 수행합니다.
 

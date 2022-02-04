@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: eecf878334b22f82d75fdf7b7240475d695414d7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 5%
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 고급 표현식 편집기 구문 {#syntax}
 
-## 괄호 및 식 우선 순위{#section_edf_fks_bgb}
+## 괄호 및 식 우선 순위{#parentheses-and-expression-priority}
 
 괄호를 사용하여 복잡한 표현식을 더 읽기 쉽게 만들 수 있습니다. _(&lt;expression>)_ 은 _&lt;expression>_. 괄호를 사용하여 평가 순서 및 연관성을 정의할 수도 있습니다.
 
@@ -28,7 +28,7 @@ ht-degree: 5%
 | `4 + 2 * 10` | <ul><li>&#39;*&#39;의 우선 순위는 &#39;+&#39;보다 높습니다. 2 * 10 평가 → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>괄호가 우선 순위를 변경합니다. (4 + 2) 평가됨 → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## 대/소문자 구분{#section_lrb_xh5_dgb}
+## 대/소문자 구분{#case-sensitivity}
 
 대/소문자 구분 규칙은 다음과 같습니다.
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 * 모든 함수 이름은 대/소문자를 구분합니다. 예, _inSegment()_ 은 유효하지만 함수는 _INSEGMENT()_ 은 아닙니다.
 * 필드 참조 및 상수 값은 대/소문자를 구분합니다. 이 구성 요소는 언어의 기본 요소가 아니며(연산자 및 함수가 아니라) 최종 사용자가 작성합니다.
 
-## 반환된 표현식 유형{#section_gyc_435_53b}
+## 반환된 표현식 유형{#returned-expression-type}
 
 사용 컨텍스트에 따라 표현식 편집기가 다른 값을 반환할 수 있습니다.
 

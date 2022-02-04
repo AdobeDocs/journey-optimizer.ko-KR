@@ -1,13 +1,12 @@
 ---
-product: experience platform
-solution: Experience Platform
 title: Offer Decisioning에 대한 액세스 권한 부여
-description: Adobe Admin Console을 통해 Offer Decisioning 서비스에 대한 사용자의 권한을 관리하는 방법을 알아봅니다.
-feature: Collections
+description: Adobe Admin Console을 통해 Offer Decisioning 서비스에 대한 사용자의 권한을 관리하는 방법을 알아봅니다
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2a2fece9-1ad5-498e-b0ee-5bb0b73a2cd5
-source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 7%

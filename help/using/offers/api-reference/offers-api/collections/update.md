@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 7%
 
 ---
 
-# 컬렉션 업데이트
+# 컬렉션 업데이트 {#update-collection}
 
 에 PATCH 요청을 만들어 컬렉션을 수정하거나 업데이트할 수 있습니다 [!DNL Offer Library] API
 
 사용 가능한 작업을 포함한 JSON 패치에 대한 자세한 내용은 공식 문서를 참조하십시오 [JSON 패치 설명서](http://jsonpatch.com/).
 
-## Accept 및 Content-Type 헤더
+## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
 다음 표에서는 *컨텐츠 유형* 및 *수락* 요청 헤더의 필드:
 

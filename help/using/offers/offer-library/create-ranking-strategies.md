@@ -2,21 +2,21 @@
 product: experience platform
 solution: Experience Platform
 title: 등급 전략 만들기
-description: Adobe Experience Platform에서 등급 전략을 만드는 방법을 알아봅니다.
+description: AI 모델을 만들어 오퍼의 등급을 지정하는 방법을 알아봅니다
 feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: e01aacc63f0d395aed70bf9c332db19b322380f0
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '936'
 ht-degree: 3%
 
 ---
 
 # AI 등급 {#ai-rankings}
 
-## AI 등급 시작
+## AI 등급 시작 {#get-started-with-ai-rankings}
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use an trained model system that ranks offers to display for a given profile.
 
@@ -127,7 +127,6 @@ ht-degree: 3%
 
    >[!NOTE]
    >필드 그룹은 이전에 mixin이라고 불렀습니다.
-
 
 1. 이름을 입력하고 스키마를 저장합니다.<!--How do you edit the fields in this new schema? Examples?-->
 

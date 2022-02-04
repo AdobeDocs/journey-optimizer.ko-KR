@@ -1,19 +1,19 @@
 ---
 title: 개인화된 오퍼 만들기
-description: Adobe Experience Platform에서 개인화된 오퍼를 만드는 방법을 알아봅니다.
+description: 오퍼를 만들고, 구성하고, 관리하는 방법을 알아봅니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1347'
 ht-degree: 3%
 
 ---
 
-# 개인화된 오퍼 만들기 {#creating-personalized-offers}
+# 개인화된 오퍼 만들기 {#create-personalized-offers}
 
 오퍼를 만들기 전에 다음을 만들었는지 확인하십시오.
 
@@ -90,7 +90,7 @@ ht-degree: 3%
 >
 >배치의 컨텐츠 유형에 해당하는 컨텐츠만 사용할 수 있습니다.
 
-### 이미지 추가
+### 이미지 추가 {#images}
 
 선택한 배치가 이미지 유형인 경우 **Adobe Experience Cloud 자산** 라이브러리, 에서 제공하는 자산의 중앙 저장소 [!DNL Adobe Experience Manager Assets Essentials].
 
@@ -110,7 +110,7 @@ ht-degree: 3%
 
    ![](../../assets/offer-select-asset.png)
 
-### URL 추가
+### URL 추가 {#urls}
 
 외부 공용 위치에서 콘텐츠를 추가하려면 **[!UICONTROL URL]**&#x200B;을 입력한 다음 추가할 컨텐츠의 URL 주소를 입력합니다.
 

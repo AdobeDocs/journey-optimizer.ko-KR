@@ -8,16 +8,16 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 구독 목록 {#create-subscription-list}
 
-## 구독 목록이란 무엇입니까?
+## 구독 목록이란 무엇입니까? {#subscription-list-definition}
 
 구독 서비스는 특정 제목/이벤트/관심사 등에서 커뮤니케이션 수신을 선택한 고객에게 제공되는 마케팅 상품 및 서비스를 의미합니다. 계속. in [!DNL Journey Optimizer]로 설정되면 이러한 옵트인 고객이 구독 목록에 수집됩니다.
 

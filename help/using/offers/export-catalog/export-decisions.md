@@ -1,12 +1,12 @@
 ---
 title: 오퍼 카탈로그 내보내기 시작
-description: 이 섹션에는 결정을 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다.
+description: 이 섹션에는 결정을 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 3%
@@ -29,14 +29,14 @@ ht-degree: 3%
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
-## 식별자
+## 식별자 {#identifier}
 
 **필드:** _id
 **제목:** 식별자
 **설명:** 레코드의 고유 식별자입니다.
 **유형:** 문자열
 
-## _경험
+## _경험 {#experience}
 
 **필드:** _experience
 **유형:** 개체
@@ -254,7 +254,7 @@ ht-degree: 3%
 **설명:** 결정(이전의 활동)의 시작 날짜 및 종료 시간입니다. 이 속성은 http://schema.org/Action에 정의된 schema.org의 &#39;startTime&#39; 속성의 의미 체계를 갖습니다.
 **유형:** 문자열
 
-## _repo
+## _repo {#repo}
 
 **필드:** _repo
 **유형:** 개체

@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e36b81fd3cdfa0cc6efe1a85316fcb4f5a9c9764
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%
@@ -27,24 +27,24 @@ ht-degree: 100%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">[!DNL Journey Optimizer]란?</a>
+      <a href="using/start/get-started.md">[!DNL Journey Optimizer]란?</a>
     </div>
     <p>주요 기능 및 사용 사례 살펴보기
     <p>
     <div>
-      <a href="using/release-notes.md">릴리스 정보</a>
+      <a href="using/rn/release-notes.md">릴리스 정보</a>
     </div>
     <p>새로운 기능, 최신 개선 사항 및 문제 해결
    <p>
     <div>
-      <a href="using/quick-start.md">빠른 시작 안내서</a>
+      <a href="using/start/quick-start.md">빠른 시작 안내서</a>
     </div>
     <p>
     관리자, 데이터 엔지니어 또는 여정 실무자로 시작하는 방법 알아보기
     <p>
     <p>
     <div>
-      <a href="using/design-emails.md">이메일 콘텐츠 디자인</a>
+      <a href="using/messages/design-emails.md">이메일 콘텐츠 디자인</a>
     </div>
     <p>
     새 이메일 디자인 또는 기존 HTML 콘텐츠 가져오기
@@ -111,7 +111,7 @@ ht-degree: 100%
       <a href="using/building-journeys/journey-gs.md">여정</a>
     </li>
     <li>
-      <a href="using/create-message.md">메시지</a>
+      <a href="using/messages/create-message.md">메시지</a>
     </li>
     <p>
     <p>의사 결정 관리</p>
@@ -124,18 +124,18 @@ ht-degree: 100%
     <p>
     <p>콘텐츠 관리</p>
     <li>
-      <a href="using/assets-essentials.md">자산</a>
+      <a href="using/messages/assets-essentials.md">자산</a>
     </li>
     <p>
     <p>데이터 관리</p>
     <li>
-      <a href="using/get-started-schemas.md">스키마</a>
+      <a href="using/start/get-started-schemas.md">스키마</a>
     </li>
      <li>
-      <a href="using/get-started-datasets.md">데이터 세트</a>
+      <a href="using/start/get-started-datasets.md">데이터 세트</a>
     </li>
         <li>
-      <a href="using/get-started-queries.md">쿼리</a>
+      <a href="using/start/get-started-queries.md">쿼리</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko" target="_blank">모니터링</a>
@@ -143,7 +143,7 @@ ht-degree: 100%
     <p>
     <p>연결</p>
     <li>
-      <a href="using/get-started-sources.md">소스</a>
+      <a href="using/start/get-started-sources.md">소스</a>
     </li>
     <p>
     <p>고객</p>
@@ -151,10 +151,10 @@ ht-degree: 100%
       <a href="using/segment/about-segments.md">세그먼트</a>
     </li>
      <li>
-      <a href="using/get-started-profiles.md">프로필</a>
+      <a href="using/start/get-started-profiles.md">프로필</a>
     </li>
     <li>
-      <a href="using/get-started-identity.md">신원</a>
+      <a href="using/start/get-started-identity.md">신원</a>
     </li>
     <p>
     <p>관리</p>

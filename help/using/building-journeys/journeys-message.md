@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: dc05d88773dc148dc0e5387953f49c4d03b1888f
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# 여정에 메시지 추가
+# 여정에 메시지 추가{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] 메시지 기능이 내장되어 있으므로 컨텐츠를 디자인하고 메시지를 게시하기만 하면 됩니다. [이 섹션](../get-started-content.md)을 참조하십시오. 그런 다음 Journey Optimizer을 사용하여 디자인된 푸시 또는 이메일 메시지를 여정에 추가하면 됩니다.
+[!DNL Journey Optimizer] 메시지 기능이 내장되어 있으므로 컨텐츠를 디자인하고 메시지를 게시하기만 하면 됩니다. [이 섹션](../messages/get-started-content.md)을 참조하십시오. 그런 다음 Journey Optimizer을 사용하여 디자인된 푸시 또는 이메일 메시지를 여정에 추가하면 됩니다.
 
 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. 자세한 내용 [섹션](../action/action.md).
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 ## 전자 메일 매개 변수 및 푸시 매개 변수
 
-다음 **[!UICONTROL Email parameters]** 및 **[!UICONTROL Push parameters]** 섹션에는 읽기 전용 필드가 표시됩니다. 일반적으로 메시지를 만들 때 이 구성을 수행합니다. [이 섹션](../get-started-content.md)을 참조하십시오.
+다음 **[!UICONTROL Email parameters]** 및 **[!UICONTROL Push parameters]** 섹션에는 읽기 전용 필드가 표시됩니다. 일반적으로 메시지를 만들 때 이 구성을 수행합니다. [이 섹션](../messages/get-started-content.md)을 참조하십시오.
 
 ![](../assets/jo-message4.png)
 
@@ -69,7 +69,7 @@ Adobe의 AI 서비스를 기반으로 하는 Adobe Journey Optimizer의 전송 �
 
 >[!NOTE]
 >
->이 기능은 현재 베타 버전이며 베타 고객에게만 제공됩니다. 베타 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의하십시오.
+>이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.
 
 Send-Time Optimization 모델은 Adobe Journey Optimizer 데이터를 수집하여 사용자 수준의 열기(이메일 및 푸시)를 확인하고 (이메일용) 비율을 확인하여 고객이 언제 메시지를 가장 많이 이용할 수 있는지 결정합니다. 전송 시간 최적화를 사용하려면 올바른 권장 사항을 제공하기 위해 최소 1개월의 메시지 추적 데이터가 필요합니다. 각 사용자에 대해 다음 점수를 사용하여 최적의 시간을 자동으로 선택합니다.
 

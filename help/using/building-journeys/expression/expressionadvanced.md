@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 88%
 
 ---
 
-# 고급 표현식 편집기 정보 {#concept_uyj_trt_52b}
+# 고급 표현식 편집기 정보 {#about-the-advanced-expression-editor}
 
 고급 표현식 편집기를 사용하여 인터페이스의 다양한 화면에서 고급 표현식을 작성합니다. 예를 들어 여정을 구성 및 사용하고 데이터 소스 조건을 정의할 때 표현식을 작성할 수 있습니다.
 특정 데이터 조작이 필요한 작업 매개 변수를 정의해야 할 때마다 고급 표현식 편집기를 사용할 수도 있습니다. 이벤트로부터 얻은 데이터 또는 데이터 소스에서 검색된 추가 정보를 활용할 수 있습니다. 여정에서는 상황에 맞는 이벤트 필드 목록이 표시되며, 이 목록은 여정에 추가된 이벤트에 따라 달라집니다.
@@ -38,7 +38,7 @@ _고급 표현식 편집기 인터페이스_
 >
 >작업 매개 변수는 필드를 선택하여 정의하거나 고급 표현식 편집기를 통해 정의할 수 있으며, 표현식에 따라 특정 데이터 형식을 반환합니다.
 
-## 고급 표현식 편집기 액세스 {#section_fdz_4nj_cjb}
+## 고급 표현식 편집기 액세스 {#accessing-the-advanced-expression-editor}
 
 다양한 방법으로 고급 표현식 편집기에 액세스할 수 있습니다.
 
@@ -49,7 +49,7 @@ _고급 표현식 편집기 인터페이스_
 * 사용자 지정 타이머를 만들 때 고급 편집기가 바로 나타납니다.
 * 작업 매개 변수를 매핑할 때 **[!UICONTROL Advanced mode]**&#x200B;를 클릭합니다.
 
-## 인터페이스 살펴보기{#section_otq_tnj_cjb}
+## 인터페이스 살펴보기{#discovering-the-interface}
 
 이 화면에서 표현식을 직접 작성할 수 있습니다.
 

@@ -1,19 +1,19 @@
 ---
 title: 의사 결정 관리 시작
-description: 의사 결정 관리를 시작합니다. 아키텍처, 오퍼 및 의사 결정 뿐만 아니라 사용자가 수행할 수 있는 일반적인 사용 사례에 대해 자세히 알아보십시오.
+description: 의사 결정 관리를 시작합니다. 아키텍처, 오퍼 및 의사 결정 뿐만 아니라 사용자가 수행할 수 있는 일반적인 사용 사례에 대해 자세히 알아보십시오
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 87%
 
 ---
 
-# 의사 결정 관리 정보 {#about-offer-decision}
+# 의사 결정 관리 정보 {#about-decision-management}
 
 [!DNL Journey Optimizer]을(를) 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 오퍼 및 경험을 제공하십시오. 디자인한 후에는 개인화된 오퍼를 통해 대상을 타기팅하십시오.
 
@@ -36,7 +36,7 @@ ht-degree: 87%
 
 ➡️ [이 튜토리얼 비디오를 시청하십시오](#tutorial-videos) 결정 관리에 대해 자세히 알아보십시오.
 
-## 오퍼 및 의사 결정 정보 {#offers-offer-activities}
+## 오퍼 및 의사 결정 정보 {#about-offers-and-decisions}
 
 **오퍼**&#x200B;는 고객에게 제공되는 조건을 정의하는 콘텐츠, 자격 조건 규칙 및 제약 조건으로 구성됩니다.
 
@@ -48,7 +48,7 @@ ht-degree: 87%
 
 의사 결정은 게재 대상에 따라 제공할 최상의 오퍼를 선택하기 위해 오퍼 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
 
-## 일반적인 사용 사례
+## 일반적인 사용 사례 {#common-use-cases}
 
 의사 결정 관리 기능과 Adobe Experience Platform의 통합을 통해 고객의 참여도와 전환율을 높이는 데 도움이 되는 다양한 사용 사례를 다룰 수 있습니다.
 

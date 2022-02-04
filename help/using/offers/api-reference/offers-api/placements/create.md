@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 10%
 
 ---
 
-# 배치 만들기
+# 배치 만들기 {#create-placement}
 
 에 POST 요청을 만들어 배치를 생성할 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
 
-## Accept 및 Content-Type 헤더
+## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
 다음 표에서는 *컨텐츠 유형* 및 *수락* 요청 헤더의 필드:
 

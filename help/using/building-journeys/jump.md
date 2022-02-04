@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 6%
 
 ---
 
-# 여정 간 이동 {#jump}
+# 한 여정에서 다른 페이지로 이동 {#jump}
 
 다음 **[!UICONTROL Jump]** 작업 활동을 사용하면 한 여정에서 다른로 개인을 푸시할 수 있습니다. 이 기능을 사용하면 다음 작업을 수행할 수 있습니다.
 

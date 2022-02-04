@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 4e3239a073f23505c79e98943d1f8bf6b7a8d363
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 4%
 
 ---
 
-# 여정 보고서 만들기{#design-jo-reports}
+# 여정 보고서 만들기 {#design-jo-reports}
 
 추가 [실시간 보고서](live-report.md) 및 내장 [글로벌 보고 기능](global-report.md), [!DNL Journey Optimizer] 은 여정 성능 데이터를 Adobe Experience Platform에 자동으로 전송할 수 있으므로 분석 목적으로 다른 데이터와 결합할 수 있습니다.
 
@@ -58,7 +58,7 @@ Adobe Experience Platform에 전달된 XDM 필드 목록은 다음 항목에 자
 
 Adobe Experience Platform에 보고하는 단계 이벤트에 대한 자세한 내용은 이 비디오에서 확인하십시오 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}.
 
-## 고객 여정 Analytics와의 통합{#integration-cja}
+## 고객 여정 Analytics와의 통합 {#integration-cja}
 
 Journey Optimizer 단계 이벤트는 의 다른 데이터 세트에 연결할 수 있습니다 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko). 다음은 일반적인 워크플로우입니다.
 

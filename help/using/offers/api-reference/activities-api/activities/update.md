@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 8%
 
 ---
 
-# 의사 결정 업데이트
+# 의사 결정 업데이트 {#update-decision}
 
 에 PATCH 요청을 수행하여 컨테이너의 결정을 수정하거나 업데이트할 수 있습니다 [!DNL Offer Library] API.
 
 사용 가능한 작업을 포함한 JSON 패치에 대한 자세한 내용은 공식 문서를 참조하십시오 [JSON 패치 설명서](http://jsonpatch.com/).
 
-## Accept 및 Content-Type 헤더
+## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
 다음 표에서는 *컨텐츠 유형* 및 *수락* 요청 헤더의 필드:
 

@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 7%
 
 ---
 
-# 컬렉션 삭제
+# 컬렉션 삭제 {#delete-collection}
 
 때때로 컬렉션을 제거(DELETE)해야 할 수도 있습니다. 테넌트 컨테이너에서 만든 컬렉션만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 컬렉션의 $id를 사용하는 API.
 

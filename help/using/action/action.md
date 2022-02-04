@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 78%
@@ -23,7 +23,7 @@ ht-degree: 78%
 
 작업은 푸시 알림, 이메일, SMS 또는 회사에서 사용하는 기타 디지털 참여 방법 등의 개인화된 실시간 경험을 고객에게 제공하는 데 사용되는 연결입니다.
 
-[!DNL Journey Optimizer] 에는 기본 제공 메시지 기능이 포함되어 있습니다. [이 섹션](../get-started-content.md)을 참조하십시오.
+[!DNL Journey Optimizer] 에는 기본 제공 메시지 기능이 포함되어 있습니다. [이 섹션](../messages/get-started-content.md)을 참조하십시오.
 
 Adobe Campaign v7 또는 v8이 있는 경우 요청 시 통합을 사용할 수 있습니다. [이 페이지](../action/acc-action.md)를 참조하십시오.
 
@@ -37,6 +37,6 @@ Epsilon, Facebook, Adobe.io, Firebase 등의 서드파티 시스템을 사용하
 
 작업은 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 범주에서 사용 가능합니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)를 참조하십시오.
 
-작업 목록을 확인하거나 새 작업을 구성하려면 **[!UICONTROL Configurations]** 를 클릭합니다. 에서  **[!UICONTROL Actions]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 그러면 작업 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../user-interface.md)를 참조하십시오.
+작업 목록을 확인하거나 새 작업을 구성하려면 **[!UICONTROL Configurations]** 를 클릭합니다. 에서  **[!UICONTROL Actions]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 그러면 작업 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../start/user-interface.md)를 참조하십시오.
 
 ![](../assets/custom1.png)

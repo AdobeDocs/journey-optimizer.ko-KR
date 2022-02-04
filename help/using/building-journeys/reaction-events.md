@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 2%
 
 ---
 
-# 반응 이벤트 {#section_dhx_gss_dgb}
+# 반응 이벤트 {#reaction-events}
 
 팔레트에서 사용할 수 있는 여러 이벤트 활동 중에서 기본 제공된 이벤트를 찾을 수 있습니다 **[!UICONTROL Reactions]** 이벤트. 이 활동을 사용하면 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 대응할 수 있습니다. 이 정보는 Adobe Experience Platform과 공유되는 즉시 실시간으로 캡처됩니다. 푸시 알림의 경우 클릭, 전송 또는 실패한 메시지에 대응할 수 있습니다. SMS 메시지의 경우 보낸 메시지나 실패한 메시지에 대응할 수 있습니다. 이메일의 경우 클릭, 전송, 열림 또는 실패한 메시지에 대응할 수 있습니다.
 

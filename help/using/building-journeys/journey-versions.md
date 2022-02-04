@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
 
 ---
 
-# 여정 버전{#concept_ldc_k55_zgb}
+# 여정 버전{#journey-versions}
 
 여정 목록에 모든 여정 버전이 버전 번호와 함께 표시됩니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->여정 버전 제한에 대한 자세한 내용은 [이 페이지](../limitations.md#journey-versions-limitations)
+>여정 버전 제한에 대한 자세한 내용은 [이 페이지](../start/limitations.md#journey-versions-limitations)
 
 1. 라이브 여정의 최신 버전을 열고 **[!UICONTROL Create a new version]** 확인
 

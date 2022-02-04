@@ -1,12 +1,12 @@
 ---
 title: 대체 오퍼 데이터 세트
-description: 이 섹션에는 대체 오퍼를 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다.
+description: 이 섹션에는 대체 오퍼를 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 3%
@@ -27,14 +27,14 @@ ht-degree: 3%
 
 다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL Decision Object Repository - Fallback Offers]** 데이터 세트.
 
-## 식별자
+## 식별자 {#identifier}
 
 **필드:** _id
 **제목:** 식별자
 **설명:** 레코드의 고유 식별자입니다.
 **유형:** 문자열
 
-## _경험
+## _경험 {#experience}
 
 **필드:** _experience
 **유형:** 개체
@@ -80,7 +80,7 @@ ht-degree: 3%
    **유형:** 개체
    **필수 여부:** &quot;format&quot;
 
-   * **포맷**
+   * **형식**
 
       **필드:** 포맷
       **제목:** 형식
@@ -179,7 +179,7 @@ ht-degree: 3%
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **필드:** _repo
 **유형:** 개체

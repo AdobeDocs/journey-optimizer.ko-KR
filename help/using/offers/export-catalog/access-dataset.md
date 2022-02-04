@@ -1,12 +1,12 @@
 ---
 title: 내보낸 오퍼 카탈로그에 액세스하기
-description: 내보낸 후 Adobe Experience Platform에서 오퍼 카탈로그에 액세스하는 방법을 알아봅니다.
+description: 오퍼 카탈로그를 내보낸 후 Adobe Experience Platform에서 오퍼 카탈로그에 액세스하는 방법을 알아봅니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 10%
@@ -27,4 +27,4 @@ ht-degree: 10%
 
 ![](../../assets/dataset-preview.png)
 
-데이터 세트를 찾고 사용하는 방법에 대한 자세한 내용은 [이 페이지](../../get-started-datasets.md).
+데이터 세트를 찾고 사용하는 방법에 대한 자세한 내용은 [이 페이지](../../start/get-started-datasets.md).

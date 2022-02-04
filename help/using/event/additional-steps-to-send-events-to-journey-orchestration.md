@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 5%
 
 ---
 
-# 이벤트를 보내는 추가적인 단계 {#concept_xrz_n1q_y2b}
+# 이벤트를 보내는 추가적인 단계 {#additional-steps-to-send-events}
 
 보낼 이벤트를 구성하려면 **[!UICONTROL Streaming Ingestion APIs]** 및에 사용 [!DNL Journey Optimizer]를 채울 때는 다음 단계를 수행해야 합니다.
 

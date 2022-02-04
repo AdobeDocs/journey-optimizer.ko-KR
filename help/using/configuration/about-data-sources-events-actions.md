@@ -1,14 +1,14 @@
 ---
-title: 관리 및 설정
-description: 관리 및 설정 지침 학습
+title: 여정 구성
+description: 데이터 소스, 이벤트 및 작업을 구성하는 방법을 알아봅니다.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '313'
 ht-degree: 56%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 56%
 
 ![](../assets/admin-menu.png)
 
-## 데이터 소스
+## 데이터 소스 {#data-sources}
 
 데이터 소스 구성을 사용하면 시스템에 대한 연결을 정의하여 여정에서 사용할 추가 정보를 검색할 수 있습니다. [자세히 알아보기](../../using/datasource/about-data-sources.md)
 
-## 이벤트
+## 이벤트 {#events}
 
 이벤트를 사용하면 여정으로 유입되는 개인에게 실시간으로 메시지를 보낼 때까지 여정을 트리거할 수 있습니다.
 
 이벤트 구성에서는 여정에 필요한 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe Experience 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다. [자세히 알아보기](../../using/event/about-events.md)
 
-## 작업
+## 작업 {#actions}
 
 Journey Optimizer 메시지 기능 기본 제공: 콘텐츠를 디자인하고 메시지를 게시하기만 하면 됩니다. 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../../using/action/action.md)
 

@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: c5ec5ae03ce470a5c012fee4041d47c1856fbbc8
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 52%
 
 ---
 
-# 이벤트 정보{#concept_gfj_fqt_52b}
+# 이벤트 정보{#about-events}
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -57,7 +57,7 @@ ht-degree: 52%
 
 Journey Optimizer을 사용하려면 이벤트를 스트리밍하거나 Adobe Experience Platform으로 배치해야 합니다. 이 데이터가 반드시 실시간 프로필로 이동할 필요는 없습니다. 별도의 여정에서 세그멘테이션 또는 조회에 이벤트를 사용하려면 프로필에 데이터 세트를 활성화하는 것이 좋습니다.
 
-## 데이터 주기 {#section_r1f_xqt_pgb}
+## 데이터 주기 {#data-cycle}
 
 POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 Adobe Experience Platform으로 전송됩니다. 트랜잭션 메시징 API를 통해 전송되는 이벤트의 URL 대상은 &quot;인렛&quot;입니다. 이벤트의 페이로드는 XDM 형식을 따릅니다.
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: aef6ac3f153e5d42f9557afef1e9f1b310d3fa12
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ignored]**: 부재 중 또는 기술 오류(예: 발신자 유형이 postmaster인 경우)와 같은 총 임시 수입니다.
 
-바운스에 대한 자세한 내용은 [제외 목록](../suppression-list.md) 페이지.
+바운스에 대한 자세한 내용은 [제외 목록](../messages/suppression-list.md) 페이지.
 
 ![](../assets/global_report_16.png)
 

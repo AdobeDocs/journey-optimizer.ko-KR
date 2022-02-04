@@ -1,19 +1,19 @@
 ---
 title: 배치 만들기
-description: Adobe Experience Platform에서 배치를 만드는 방법을 알아봅니다.
+description: 오퍼에 대한 배치를 만드는 방법을 알아봅니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '214'
 ht-degree: 14%
 
 ---
 
-# 배치 만들기 {#creating-placements}
+# 배치 만들기 {#create-placements}
 
 배치는 메시지 내의 올바른 위치에 올바른 오퍼 컨텐츠가 표시되도록 하는 데 도움이 됩니다. 오퍼에 컨텐츠를 추가할 때 해당 컨텐츠가 표시될 수 있는 배치를 선택하라는 메시지가 표시됩니다.
 

@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 8%
 
 ---
 
-# 대체 오퍼 삭제
+# 대체 오퍼 삭제 {#delete-fallback-offer}
 
 경우에 따라 대체 오퍼를 제거(DELETE)해야 할 수 있습니다. 테넌트 컨테이너에서 만든 대체 오퍼만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 대체 오퍼의 $id를 사용하는 API입니다.
 

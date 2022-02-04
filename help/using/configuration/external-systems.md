@@ -1,12 +1,11 @@
 ---
 product: adobe campaign
-solution: Journey Optimizer
 title: 외부 시스템과 Journey Optimizer 통합
 description: Journey Optimizer을 외부 시스템과 통합할 때 모범 사례를 알아봅니다
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 1%

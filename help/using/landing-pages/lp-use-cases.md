@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 18%
@@ -32,7 +32,7 @@ ht-degree: 18%
 
 예를 들어 다음 달에 이벤트를 구성하고 이벤트 등록 캠페인을 시작한다고 가정합니다<!--to keep your customers that are interested updated on that event-->. 이렇게 하려면 수신자가 이 이벤트에 등록할 수 있도록 랜딩 페이지에 대한 링크가 포함된 이메일을 보냅니다. 등록하는 사용자는 이 목적으로 만든 구독 목록에 추가됩니다.
 
-### 랜딩 페이지 설정
+### 랜딩 페이지 설정 {#set-up-lp}
 
 1. 등록된 사용자를 저장할 이벤트 등록의 구독 목록을 만듭니다. 구독 목록을 만드는 방법을 알아봅니다 [여기](subscription-list.md#define-subscription-list).
 
@@ -52,13 +52,13 @@ ht-degree: 18%
 
 1. [게시](create-lp.md#publish) 랜딩 페이지.
 
-1. [이메일 메시지 만들기](../create-message.md) 이제 해당 이벤트에 대한 등록이 열려 있음을 알려주십시오.
+1. [이메일 메시지 만들기](../messages/create-message.md) 이제 해당 이벤트에 대한 등록이 열려 있음을 알려주십시오.
 
-1. [링크 삽입](../message-tracking.md#insert-links) 메시지 콘텐츠에 삽입하십시오. 선택 **[!UICONTROL Landing page]** 로서의 **[!UICONTROL Link type]** 그리고 [랜딩 페이지](create-lp.md#configure-primary-page) 등록용으로 만들 수 있습니다.
+1. [링크 삽입](../messages/message-tracking.md#insert-links) 메시지 콘텐츠에 삽입하십시오. 선택 **[!UICONTROL Landing page]** 로서의 **[!UICONTROL Link type]** 그리고 [랜딩 페이지](create-lp.md#configure-primary-page) 등록용으로 만들 수 있습니다.
 
    ![](../assets/lp_subscription-uc-link.png)
 
-1. 콘텐츠를 저장하고 [메시지를 게시합니다](../publish-manage-message.md).
+1. 콘텐츠를 저장하고 [메시지를 게시합니다](../messages/publish-manage-message.md).
 
 1. 을(를) 통해 메시지 보내기 [여정](../building-journeys/journey.md) 트래픽을 등록 랜딩 페이지로 유도합니다.
 
@@ -92,7 +92,7 @@ ht-degree: 18%
 
 수신자가 통신에서 구독을 해지하도록 하려면 옵트아웃 랜딩 페이지에 대한 링크를 전자 메일에 포함할 수 있습니다.
 
-수신자의 동의 관리 및 수신자가 [이 섹션](../consent.md).
+수신자의 동의 관리 및 수신자가 [이 섹션](../messages/consent.md).
 
 ### 옵트아웃 관리 {#opt-out-management}
 
@@ -129,9 +129,9 @@ ht-degree: 18%
 
    ![](../assets/lp_opt-out-publish.png)
 
-1. [이메일 메시지 만들기](../create-message.md) in [!DNL Journey Optimizer].
+1. [이메일 메시지 만들기](../messages/create-message.md) in [!DNL Journey Optimizer].
 
-1. 콘텐츠에서 텍스트를 선택하고 [링크 삽입](../message-tracking.md#insert-links) 상황별 도구 모음 사용. 단추에 대한 링크를 사용할 수도 있습니다.
+1. 콘텐츠에서 텍스트를 선택하고 [링크 삽입](../messages/message-tracking.md#insert-links) 상황별 도구 모음 사용. 단추에 대한 링크를 사용할 수도 있습니다.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
@@ -139,7 +139,7 @@ ht-degree: 18%
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. 콘텐츠를 저장하고 [메시지를 게시합니다](../publish-manage-message.md).
+1. 콘텐츠를 저장하고 [메시지를 게시합니다](../messages/publish-manage-message.md).
 
 1. 여정을 통해 메시지를 보냅니다. [자세히 알아보기](../building-journeys/journey.md).
 
@@ -167,9 +167,9 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../message-tracking.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/message-tracking.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
 -->

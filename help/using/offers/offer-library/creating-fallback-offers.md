@@ -1,19 +1,18 @@
 ---
 title: 대체 오퍼 만들기
-description: Adobe Experience Platform에서 오퍼를 만드는 방법을 알아봅니다.
-feature: Offers
+description: 오퍼에 대한 자격이 없는 고객을 위해 표시할 대체 오퍼를 만드는 방법을 알아봅니다
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '289'
 ht-degree: 3%
 
 ---
 
-# 대체 오퍼 만들기 {#creating-fallback-offers}
+# 대체 오퍼 만들기 {#create-fallback-offers}
 
 다른 오퍼에 대한 자격이 없는 고객에게 대체 오퍼가 전송됩니다. 대체 오퍼를 만드는 단계는 오퍼를 만들 때와 같이 하나 또는 여러 개의 표현을 만드는 데 구성됩니다.
 

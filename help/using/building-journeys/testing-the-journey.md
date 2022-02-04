@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 여정 테스트{#testing_the_journey}
 
-여정을 테스트하기 전에 모든 오류를 해결해야 합니다. [이 섹션](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)을 참조하십시오.
+여정을 테스트하기 전에 모든 오류를 해결해야 합니다. [이 섹션](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)을 참조하십시오.
 
 테스트 프로필을 사용하여 게시 전에 여정을 테스트할 수 있습니다. 이를 통해 개인이 게시하기 전에 여정에서 어떻게 이동하는지 분석하고 문제를 해결할 수 있습니다.
 
@@ -23,13 +23,13 @@ ht-degree: 2%
 
 테스트 모드를 사용하려면 다음 단계를 수행합니다.
 
-1. 여정을 테스트하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정 테스트를 실행할 수 없습니다. [이 섹션](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)을 참조하십시오. 오류가 있으면 경고 기호가 표시됩니다.
+1. 여정을 테스트하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정 테스트를 실행할 수 없습니다. [이 섹션](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)을 참조하십시오. 오류가 있으면 경고 기호가 표시됩니다.
 
-1. 테스트 모드를 활성화하려면 **[!UICONTROL Test]** 오른쪽 상단 모서리에 있는 전환.
+1. To activate the test mode, click on the **[!UICONTROL Test]** toggle, located in the top right corner.
 
    ![](../assets/journeytest1.png)
 
-1. 를 사용하십시오 **[!UICONTROL Wait time]** 매개 변수를 사용하여 각 대기 활동 및 이벤트 시간 제한이 테스트 모드에서 지속되는 시간을 정의합니다. 기본 시간은 대기 및 이벤트 시간 초과에 대한 10초입니다. 이렇게 하면 테스트 결과가 빠르게 확인됩니다. 이 매개 변수는 여정에서 하나 이상의 대기 활동을 삭제한 경우에만 나타납니다.
+1. 를 사용하십시오 **[!UICONTROL Wait time]** 매개 변수를 사용하여 각 대기 활동 및 이벤트 시간 제한이 테스트 모드에서 지속되는 시간을 정의합니다. 기본 시간은 대기 및 이벤트 시간 초과에 대한 10초입니다. 이렇게 하면 테스트 결과가 빠르게 확인됩니다. This parameter only appears if you have dropped one or more wait activities in your journey.
 
    ![](../assets/journeytest_wait.png)
 
@@ -121,9 +121,9 @@ Adobe Experience Platform에서 테스트 프로필로 플래그가 지정된 �
 현재 여정 내에 있는 개인의 수(기술적으로 인스턴스라고 함)가 표시됩니다. 다음은 각 개인에게 표시되는 유용한 정보입니다.
 
 * _Id_: 여정에서 개인의 내부 ID입니다. 디버깅 용도로 사용할 수 있습니다.
-* _currentstep_: 개인이 여정에서 있는 단계입니다. 보다 쉽게 식별할 수 있도록 활동에 레이블을 추가하는 것이 좋습니다.
+* _currentstep_: 개인이 여정에서 있는 단계입니다. We recommend adding labels to your activities to identify them more easily.
 * _currentstep_ > 단계: 개인의 여정 상태(실행 중, 완료, 오류 또는 시간 초과)입니다. 자세한 내용은 아래 내용을 참조하십시오.
-* _currentstep_ > _extraInfo_: 오류 및 기타 상황별 정보에 대한 설명입니다.
+* _currentstep_ > _extraInfo_: description of the error and other contextual information.
 * _currentstep_ > _fetchErrors_: 이 단계 동안 발생한 데이터 가져오기 오류에 대한 정보입니다.
 * _externalKeys_: 이벤트에 정의된 키 수식의 값입니다.
 * _enhancedData_: 여정이 데이터 소스를 사용하는 경우 여정이 검색한 데이터입니다.

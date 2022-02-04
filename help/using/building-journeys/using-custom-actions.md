@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 6%
 
 ---
 
-# 사용자 지정 작업 사용 {#section_f2c_hbg_nhb}
+# 사용자 지정 작업 사용 {#use-custom-actions}
 
 활동 구성 창에는 사용자 지정 작업에 대해 구성된 URL 구성 매개 변수와 인증 매개 변수가 표시됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md).
 

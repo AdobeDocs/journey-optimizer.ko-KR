@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 > * 메시지 사전 설정 구성은 여정 관리자로 제한됩니다. [자세히 알아보기](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * 전자 메일 구성을 수행하고 [푸시 구성](../push-configuration.md) 메시지 사전 설정을 만들기 전 단계.
+> * 전자 메일 구성을 수행하고 [푸시 구성](../messages/push-configuration.md) 메시지 사전 설정을 만들기 전 단계.
 
 
 메시지 사전 설정이 구성되면, **[!UICONTROL Presets]** 목록.
@@ -62,23 +62,18 @@ ht-degree: 1%
       >
       >이메일 주소는 현재 선택한 주소를 사용해야 합니다 [위임된 하위 도메인](about-subdomain-delegation.md).
 
-      <!--CAUTION: Except for the **Reply to (forward email)** field-->
-
       * **[!UICONTROL Sender name]**: 브랜드 이름과 같은 발신자의 이름입니다.
 
       * **[!UICONTROL Sender email]**: 통신에 사용할 이메일 주소입니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*, 다음 사용 가능 *contact@marketing.luma.com*.
 
       * **[!UICONTROL Reply to (name)]**: 수신자가 **회신** 버튼을 클릭합니다.
 
-      * **[!UICONTROL Reply to (email)]**: 수신자가 **회신** 버튼을 클릭합니다. <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->위임된 하위 도메인에 정의된 주소를 사용해야 합니다(예: *reply@marketing.luma.com*). 그렇지 않으면 이메일이 삭제됩니다.
+      * **[!UICONTROL Reply to (email)]**: 수신자가 **회신** 버튼을 클릭합니다. 위임된 하위 도메인에 정의된 주소를 사용해야 합니다(예: *reply@marketing.luma.com*). 그렇지 않으면 이메일이 삭제됩니다.
 
       * **[!UICONTROL Error email]**: 이 주소에는 배달되는 며칠 후 ISP에서 생성한 모든 오류(비동기 바운스)가 수신됩니다.
-
-      <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
-
       >[!NOTE]
       >
-      >2021년 10월 릴리스부터 의 정방향 이메일 주소를 더 이상 정의할 수 없습니다 [!DNL Journey Optimizer] 사용자 인터페이스. 모든 전자 메일을 받는 데 필요한 경우 [!DNL Journey Optimizer] 특정 이메일 주소로 전달될 위임된 하위 도메인은 [Adobe 고객 지원 지원 팀](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}. <!--move to Deprecated features section when created?-->
+      >2021년 10월 릴리스부터 의 정방향 이메일 주소를 더 이상 정의할 수 없습니다 [!DNL Journey Optimizer] 사용자 인터페이스. 모든 전자 메일을 받는 데 필요한 경우 [!DNL Journey Optimizer] 특정 이메일 주소로 전달될 위임된 하위 도메인은 [Adobe 고객 지원 지원 팀](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
       ![](../assets/preset-header.png)
 
@@ -104,7 +99,7 @@ ht-degree: 1%
 
    * 각 플랫폼에 사용할 모바일 애플리케이션을 선택합니다.
 
-      푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../push-gs.md).
+      푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../messages/push-gs.md).
 
 <!--
 1. Configure the **SMS** settings.
@@ -143,8 +138,6 @@ ht-degree: 1%
    >검사가 실패하면 의 가능한 실패 이유에 대해 자세히 알아보십시오 [이 섹션](#monitor-message-presets).
 
 1. 확인이 성공하면 메시지 사전 설정이 **[!UICONTROL Active]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
-
-   <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
@@ -220,7 +213,7 @@ ht-degree: 1%
 
    ![](../assets/preset-view-update-details.png)
 
-설정 **[!UICONTROL Recent update]** 화면에서 업데이트 상태 등의 정보를 볼 수 있습니다.<!--the approximate remaining time before completion (if validation is in progress)--> 요청된 변경 사항 목록
+설정 **[!UICONTROL Recent update]** 화면에서 업데이트 상태 및 요청한 변경 사항 목록 등의 정보를 볼 수 있습니다.
 
 ![](../assets/preset-recent-update-screen.png)
 
@@ -256,22 +249,15 @@ ht-degree: 1%
 >
 >업데이트가 진행되는 동안에는 메시지 사전 설정을 수정할 수 없습니다. 여전히 해당 이름을 클릭할 수 있지만, 모든 필드가 회색으로 표시됩니다. 업데이트가 완료될 때까지 변경 사항이 반영되지 않습니다.
 
-### 성공
+### 성공 {#success}
 
 유효성 검사 프로세스가 성공하면 이 사전 설정을 사용하는 모든 메시지에 새 버전의 사전 설정이 자동으로 사용됩니다. 그러나 다음을 기다려야 할 수 있습니다.
 * 몇 분 전에 한 가지 메세지에 의해
 * 사전 설정에 대한 다음 일괄 처리가 배치 메시지에서 유효할 때까지.
 
-<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
-
-### 실패
+### 실패 {#failed}
 
 유효성 검사 프로세스가 실패하면 이전 버전의 사전 설정이 계속 사용됩니다.
-
-<!--The possible update error types are as follows:
-* **Authorization error**: the bearer token is invalid or not authorized.
-* **Illegal modification**: an edit was performed on one or more non-allowed fields.
-* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
 에서 가능한 실패 이유에 대해 자세히 알아보십시오 [이 섹션](#monitor-message-presets).
 
@@ -300,18 +286,6 @@ ht-degree: 1%
 비활성화된 메시지 사전 설정은 직접 편집할 수 없습니다. 그러나 복제하고 복사본을 편집하여 새 메시지를 만드는 데 사용할 새 버전을 만들 수 있습니다. 다시 활성화할 수도 있으며, 업데이트가 성공적으로 편집될 때까지 기다립니다.
 
 ![](../assets/preset-activate.png)
-
-<!--1. Access the message presets list.
-
-1. Deactivate the message preset that you want to edit.
-
-1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
-
-    ![](../assets/preset-duplicated.png)
-
-1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
-
-1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## 방법 비디오{#video-presets}
 

@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '837'
 ht-degree: 2%
 
 ---
 
-# 다중 채널 메시지 보내기
+# 사용 사례: 다중 채널 메시지 보내기{#send-multi-channel-messages}
 
 이 섹션에서는 세그먼트 읽기, 이벤트, 반응 이벤트 및 이메일/푸시 메시지를 결합하는 사용 사례를 제공합니다.
 

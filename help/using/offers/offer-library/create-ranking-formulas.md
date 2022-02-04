@@ -1,14 +1,14 @@
 ---
 title: 등급 수식 만들기
-description: Adobe Experience Platform에서 등급 공식을 만드는 방법을 알아봅니다.
+description: 오퍼의 등급을 지정하는 수식을 만드는 방법을 알아봅니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 58dffe64b1ca8a81728ae7043ec276917d3b9616
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---

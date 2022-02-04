@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 4%
 
 ---
 
-# 대체 오퍼 나열
+# 대체 오퍼 나열 {#list-fallback-offers}
 
 다른 오퍼에 대한 자격이 없는 고객에게 대체 오퍼가 전송됩니다. 대체 오퍼를 만드는 단계는 오퍼를 만들 때와 같이 하나 또는 여러 개의 표현을 만드는 데 구성됩니다.
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## 쿼리 매개 변수 사용
+## 쿼리 매개 변수 사용 {#using-query-parameters}
 
 리소스를 나열할 때 쿼리 매개 변수를 사용하여 결과를 페이지 및 필터링할 수 있습니다.
 
-### 페이징
+### 페이징 {#paging}
 
 페이징의 가장 일반적인 쿼리 매개 변수는 다음과 같습니다.
 

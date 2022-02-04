@@ -1,19 +1,19 @@
 ---
 title: 오퍼를 만드는 주요 단계
-description: 오퍼를 만드는 데 필요한 주요 단계를 살펴보십시오.
+description: 오퍼를 만드는 데 필요한 주요 단계를 살펴보십시오
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 13%
 
 ---
 
-# 오퍼를 만들고 관리하는 주요 단계 {#key-steps}
+# 오퍼를 만들고 관리하는 주요 단계 {#key-steps-to-manage-offers}
 
 오퍼를 만들고, 구성하고, 관리하고, 오퍼를 의사 결정에 사용하는 주요 단계는 아래에 나와 있습니다.
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 오퍼를 구성하고, 의사 결정에서 이러한 오퍼를 사용하고, 이메일에서 이 결정을 활용하는 방법을 보여주는 전체 종단간 예제는 다음 단계를 참조하십시오 [이 페이지](../offers-e2e.md).
 
-## 구성 요소 만들기
+## 구성 요소 만들기 {#create-components}
 
 오퍼 만들기를 시작하기 전에 오퍼에서 사용할 몇 가지 구성 요소를 정의해야 합니다.
 
@@ -41,7 +41,7 @@ ht-degree: 13%
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../offer-library/create-ranking-formulas.md">등급 수식 만들기</a></p></td>
 </table>
 
-## 오퍼 만들기 및 관리
+## 오퍼 만들기 및 관리 {#create-and-manage-offers}
 
 1. **오퍼 만들기**, 컨텐츠 및 속성을 구성합니다.
 
@@ -56,7 +56,7 @@ ht-degree: 13%
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">컬렉션 만들기</a></p></td></tr>
 </table>
 
-## 결정 만들기 및 구성
+## 결정 만들기 및 구성 {#create-and-configure-decisions}
 
 1. **결정 만들기** 배치와 개인화된 오퍼 및 대체 오퍼를 결합합니다. 이 조합은 특정 프로필에 가장 적합한 오퍼를 찾기 위해 Offer decisioning 엔진에서 사용합니다.
 

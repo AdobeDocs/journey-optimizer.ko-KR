@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 12%
@@ -25,7 +25,7 @@ ht-degree: 12%
 >
 >비즈니스 이벤트 사용 사례를 볼 수도 있습니다 [튜토리얼](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
-## 중요 정보
+## 중요 정보 {#important-notes}
 
 * 시계열 스키마만 사용할 수 있습니다. 경험 이벤트, 의사 결정 이벤트 및 여정 단계 이벤트 스키마를 사용할 수 없습니다. 이벤트 스키마에는 기본 ID가 포함되어야 합니다. 다음 필드를 필요에 따라 설정해야 합니다. `_id` 및 `timestamp`
 * 비즈니스 이벤트는 여정의 첫 번째 단계로만 삭제할 수 있습니다.
@@ -36,7 +36,7 @@ ht-degree: 12%
 * 비즈니스 이벤트를 테스트할 때 테스트 여정에 입력할 이벤트 매개 변수와 테스트 프로필의 식별자를 전달해야 합니다. 또한 비즈니스 이벤트 기반 여정을 테스트할 때 단일 프로필 시작만 트리거할 수 있습니다. [이 섹션](../building-journeys/testing-the-journey.md#test-business)을 참조하십시오. 테스트 모드에서는 사용할 수 있는 &quot;코드 보기&quot; 모드가 없습니다.
 * 새로운 비즈니스 이벤트가 도착하면 현재 여정에 있는 개인에게는 어떻게 됩니까? 이는 새 반복이 발생할 때 개인이 여전히 되풀이되는 여정에 있을 때와 같은 방식으로 동작합니다. 그들의 길은 끝났다. 따라서 마케터는 빈번한 비즈니스 이벤트를 예상하는 경우 너무 긴 여정을 만들지 않도록 주의해야 합니다.
 
-## 여러 비즈니스 이벤트
+## 여러 비즈니스 이벤트 {#multiple-business-events}
 
 다음은 여러 비즈니스 이벤트가 연속적으로 수신될 때 적용되는 몇 가지 중요한 정보입니다.
 
@@ -48,7 +48,7 @@ ht-degree: 12%
 
 촬영 중인 비즈니스 이벤트의 경우, 지정된 여정에 대해 첫 번째 이벤트 작업에서 푸시한 데이터는 1시간 기간 동안 재사용됩니다. 예약된 여정의 경우 가드레일이 없습니다. 의 세그먼트에 대해 자세히 알아보십시오 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## 비즈니스 이벤트 시작
+## 비즈니스 이벤트 시작 {#gs-business-events}
 
 비즈니스 이벤트를 구성하는 첫 번째 단계는 다음과 같습니다.
 

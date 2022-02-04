@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 5%
 
 ---
 
-# 데이터 유형 {#concept_gp3_rj5_dgb}
+# 데이터 유형 {#data-types}
 
 기본적으로 상수에는 항상 데이터 유형이 포함됩니다. 리터럴 표현식에서 값만 지정합니다. 데이터 유형은 값(예: 문자열, 정수, 십진수 등)에서 추론할 수 있습니다. 날짜 시간과 같은 특정 경우에는 표현에만 전용 함수를 사용합니다.
 

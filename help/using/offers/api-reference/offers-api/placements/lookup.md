@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
 
 ---
 
-# 배치 조회
+# 배치 조회 {#look-up-placement}
 
 에 GET 요청을 만들어 특정 배치를 조회할 수 있습니다 [!DNL Offer Library] 배치를 포함하는 API `@id` 또는 요청 경로에 있는 배치 이름입니다.
 

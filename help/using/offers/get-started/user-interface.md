@@ -1,12 +1,12 @@
 ---
 title: 사용자 인터페이스
-description: 오퍼 라이브러리 사용자 인터페이스에 대해 자세히 알아보십시오.
+description: 오퍼 라이브러리 사용자 인터페이스에 대해 자세히 알아보십시오
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 68%
@@ -69,7 +69,7 @@ ht-degree: 68%
 
 ![](../../assets/overview_view-all.png)
 
-## 검색 및 필터 정보
+## 검색 및 필터 정보 {#search-and-filter-information}
 
 특정 항목을 찾으려면 **검색 막대**&#x200B;를 사용합니다.
 
@@ -77,7 +77,7 @@ ht-degree: 68%
 
 ![](../../assets/filters.png)
 
-## 표시된 정보 사용자 지정
+## 표시된 정보 사용자 지정 {#customize-displayed-information}
 
 의사 결정 관리 메뉴의 목록은 목록 오른쪽 상단의 구성 단추를 사용하여 개인화할 수 있습니다.
 
@@ -87,7 +87,7 @@ ht-degree: 68%
 
 ![](../../assets/columns.png)
 
-## 정보 창
+## 정보 창 {#information-pane}
 
 다른 목록에서 요소를 선택하여 정보를 검색하고 요소에 대한 기본 작업을 수행할 수 있는 정보 창을 표시합니다.
 

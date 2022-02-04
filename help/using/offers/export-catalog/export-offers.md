@@ -1,12 +1,12 @@
 ---
 title: 개인화된 오퍼 데이터 세트
-description: 이 섹션에는 오퍼용으로 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다.
+description: 이 섹션에는 오퍼용으로 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 3%
@@ -29,14 +29,14 @@ ht-degree: 3%
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## 식별자
+## 식별자 {#identifier}
 
 **필드:** _id
 **제목:** 식별자
 **설명:** 레코드의 고유 식별자입니다.
 **유형:** 문자열
 
-## _경험
+## _경험 {#experience}
 
 **필드:** _experience
 **유형:** 개체
@@ -101,7 +101,7 @@ ht-degree: 3%
    **유형:** 개체
    **필수 여부:** &quot;format&quot;
 
-   * **포맷**
+   * **형식**
 
       **필드:** 포맷
       **제목:** 형식
@@ -314,7 +314,7 @@ ht-degree: 3%
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **필드:** _repo
 **유형:** 개체

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: e1d0afb70af4ab31db56f90c189c085ba8d1eb7c
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 4%
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 이 섹션에는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 몇 가지 예제가 나와 있습니다.
 
-## 메시지/작업 오류
+## 메시지/작업 오류 {#message-action-errors}
 
-### 여정에서 발생한 각 오류 목록
+### 여정에서 발생한 각 오류 목록 {#error-list-journey}
 
 이 쿼리를 사용하면 메시지/작업을 실행하는 동안 여정에서 발생한 각 오류를 나열할 수 있습니다.
 
@@ -45,9 +45,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 이 쿼리는 여정에서 작업을 실행하는 동안 발생한 모든 다른 오류를 발생한 횟수와 함께 반환합니다.
 
-## 프로필 기반 쿼리
+## 프로필 기반 쿼리 {#profile-based-queries}
 
-### 프로필이 특정 여정을 입력했는지 확인
+### 프로필이 특정 여정을 입력했는지 확인 {#profile-entered-journey}
 
 _Data Lake 쿼리_
 
@@ -69,7 +69,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 결과는 0보다 커야 합니다. 이 쿼리는 프로필이 여정을 입력한 정확한 횟수를 반환합니다.
 
-### 프로필에서 특정 메시지를 보냈는지 확인
+### 프로필에서 특정 메시지를 보냈는지 확인 {#profile-specific-message}
 
 **방법 1:** 메시지 이름이 여정에서 고유하지 않은 경우(여러 위치에서 사용됨).
 
@@ -119,7 +119,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 쿼리는 선택한 프로필에 대해 호출된 수와 함께 모든 메시지 목록을 반환합니다.
 
-## 지난 30일 동안 프로필에서 받은 모든 메시지 찾기
+## 지난 30일 동안 프로필에서 받은 모든 메시지 찾기 {#message-received-30-days}
 
 _Data Lake 쿼리_
 
@@ -145,7 +145,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 쿼리는 선택한 프로필에 대해 호출된 수와 함께 모든 메시지 목록을 반환합니다.
 
-### 지난 30일 동안 프로필이 입력한 모든 여정 찾기
+### 지난 30일 동안 프로필이 입력한 모든 여정 찾기 {#profile-entered-30-days}
 
 _Data Lake 쿼리_
 
@@ -169,7 +169,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 쿼리는 쿼리된 여정이 입력한 횟수와 함께 모든 여정 이름 목록을 반환합니다.
 
-### 매일 여정에 대해 자격이 있는 프로필 수
+### 매일 여정에 대해 자격이 있는 프로필 수 {#profile-qualified}
 
 _Data Lake 쿼리_
 
@@ -193,9 +193,9 @@ ORDER BY DATE(timestamp) desc
 
 쿼리는 정의된 기간 동안 매일 여정에 입력한 프로필 수를 다시 반환합니다. 여러 ID를 통해 입력한 프로필은 두 번 카운트됩니다. 다시 여정을 사용하도록 설정하면 다른 날에 다시 입력한 경우 프로필 수가 다른 날에 복제될 수 있습니다.
 
-## 여정 기반 쿼리
+## 여정 기반 쿼리 {#journey-based-queries}
 
-### 일별 활성 여정 수
+### 일별 활성 여정 수 {#daily-active-journeys}
 
 _Data Lake 쿼리_
 

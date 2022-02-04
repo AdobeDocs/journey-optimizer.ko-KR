@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 13%
 * 프로필 필드
 * 서비스 이벤트 필드
 
-## debugInfo
+## debugInfo {#debuginfo-field}
 
 | 필드 이름 | 유형 | 설명 |
 |---|---|------------|
 | requestId | 문자열 | Journey Orchestration이 요청의 흐름을 추적하는 데 사용하는 요청 ID입니다. |
 
-## 여정
+## 여정 {#journey-field}
 
 이 필드 그룹은 journeyStepEvent와 관련하여 여정 스키마에서 사용됩니다. 여기에는 다음 필드가 포함되어 있습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 13%
 | 설명 | 문자열 | 여정 설명 |
 | version | 문자열 | 버전, 다음으로 표시됨 `major`.`minor` |
 
-## 프로필
+## 프로필 {#profile-field}
 
 이 필드 그룹은 journeyStepEvent에만 사용됩니다. 이 이벤트는 여정과 관련이 있으며 프로필 ID가 있는 경우 idMap이 없습니다.
 
@@ -51,7 +51,7 @@ journeyStepEvent의 경우 ID와 관련된 필드를 추가해야 합니다.
 | ID | 문자열 | 프로필 식별자는 여정에서 전송/사용되는 프로필을 식별합니다. 예: foo@adobe.com |
 | namespace | 문자열 | 이 필드는 여정에 사용된 프로필에서 참조하는 네임스페이스에 대해 설명합니다. 예: 이메일, ECID |
 
-## serviceEvents
+## serviceEvents {#servicevents-field}
 
 이 mixin에는 프로필 내보내기 작업에 해당하는 모든 필드가 포함됩니다.
 
@@ -66,6 +66,6 @@ journeyStepEvent의 경우 ID와 관련된 필드를 추가해야 합니다.
 | eventType | 문자열 | 정보 이벤트의 오류 이벤트인지 여부를 나타내는 이벤트 유형입니다. 정보, 오류 |
 | eventCode | 문자열 | 해당 eventType의 이유를 나타내는 오류 코드 |
 
-## stepEvents
+## stepEvents {#stepevents-field}
 
 이 카테고리에는 원래 단계 이벤트 필드가 포함되어 있습니다. 다음을 참조하십시오 [섹션](../reports/sharing-legacy-fields.md).

@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c3b842ff-e4f8-4fac-968c-6d23abac408e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 5%
 
 ---
 
-# Adobe Experience Platform 웹 SDK
+# Adobe Experience Platform 웹 SDK {#aep-web-sdk}
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview){target=&quot;_blank&quot;}는 Adobe Experience Cloud 고객이 Adobe Experience Platform Edge 네트워크를 통해 Experience Cloud의 다양한 서비스와 상호 작용할 수 있는 클라이언트측 JavaScript 라이브러리입니다.
 

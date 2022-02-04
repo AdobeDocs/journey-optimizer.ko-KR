@@ -1,25 +1,15 @@
 ---
-title: 하위 도메인 위임
-description: 하위 도메인을 위임하는 방법 알아보기
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
+title: 하위 도메인에 Google TXT 레코드 추가
+description: 하위 도메인에 Google TXT 레코드를 추가하는 방법을 알아봅니다
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 29%
+source-wordcount: '173'
+ht-degree: 26%
 
 ---
 

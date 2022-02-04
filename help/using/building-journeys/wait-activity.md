@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 4%
 
 ---
 
-# 대기 활동{#section_rlm_nft_dgb}
+# 대기 활동{#wait-activity}
 
 경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL Wait]** 활동. 이를 통해 다음 활동이 실행될 순간을 정의할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다.
 

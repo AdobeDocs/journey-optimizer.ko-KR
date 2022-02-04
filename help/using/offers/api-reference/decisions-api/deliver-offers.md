@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 2%
 
 ---
 
-# 결정 API를 사용하여 오퍼 제공
+# 결정 API를 사용하여 오퍼 제공 {#deliver-offers-using-decisions-api}
 
 의사 결정 관리를 사용하면 비즈니스 로직 및 의사 결정 규칙을 사용하여 채널 및 애플리케이션에서 최종 사용자 맞춤형 오퍼 경험을 만들고 전달할 수 있습니다. 오퍼는 오퍼를 볼 수 있는 사용자를 지정하는 규칙과 연관된 규칙이 있을 수 있는 마케팅 메시지입니다.
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ➡️  [비디오에서 이 기능 살펴보기](#video)
 
-## Accept 및 Content-Type 헤더
+## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
 다음 표에서는 *컨텐츠 유형* 및 *수락* 요청 헤더의 필드:
 
@@ -109,7 +109,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | 고유한 결정 식별자입니다. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 반환할 오퍼 수입니다. 최대 수는 30개입니다. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | 이 개체에는 의사 결정을 요청한 프로필에 대한 정보가 들어 있습니다. API 요청의 경우 여기에 하나의 프로필이 포함됩니다. |
-| `xdm:profiles.xdm:identityMap` | 이 개체에는 ID의 네임스페이스 통합 코드를 기반으로 하는 최종 사용자 ID 세트가 들어 있습니다. ID 맵은 각 네임스페이스의 ID를 두 개 이상 보유할 수 있습니다. 네임스페이스에 대한 자세한 내용은 [이 페이지](../../../get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | 이 개체에는 ID의 네임스페이스 통합 코드를 기반으로 하는 최종 사용자 ID 세트가 들어 있습니다. ID 맵은 각 네임스페이스의 ID를 두 개 이상 보유할 수 있습니다. 네임스페이스에 대한 자세한 내용은 [이 페이지](../../../start/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | 프로필 결정 요청을 고유하게 식별하는 데 사용할 수 있는 클라이언트가 생성한 ID입니다. 이 ID는 응답에서 다시 반복되며 결정 결과에 영향을 주지 않습니다. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | 이 개체는 중복 제거 규칙의 제어 구조입니다. 특정 차원에 대해 동일한 옵션을 제안할 수 있는지 여부를 나타내는 일련의 플래그로 구성됩니다. True로 설정된 플래그는 중복을 사용할 수 있으며 플래그로 표시된 카테고리에서 제거해서는 안 됩니다. false로 설정된 플래그는 의사 결정 엔진이 차원 전체에서 동일한 제안을 하지 않고 대신 하위 결정 중 하나에 대해 다음 우수 옵션을 선택해야 함을 의미합니다. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | true로 설정하면 여러 결정에서 동일한 옵션을 지정할 수 있습니다. | `"xdm:acrossActivities": true` |
@@ -203,6 +203,6 @@ curl -X POST \
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 
-## 다음 단계
+## 다음 단계 {#next-steps}
 
 이 API 안내서를 따르면 [!DNL Decisions] API. 자세한 내용은 [의사 결정 관리 개요](../../../offers/get-started/starting-offer-decisioning.md).

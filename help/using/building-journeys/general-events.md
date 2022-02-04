@@ -7,14 +7,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 3c21d797c85c2dabbec77f109b160fbd77170da5
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
 
 ---
 
-# 일반 이벤트 {#section_ofg_jss_dgb}
+# 일반 이벤트 {#general-events}
 
 이러한 유형의 이벤트에 대해서는 레이블과 설명만 추가할 수 있습니다. 나머지 구성은 편집할 수 없습니다. 기술 사용자가 수행했습니다. [이 페이지](../event/about-events.md)를 참조하십시오.
 

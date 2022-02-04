@@ -1,15 +1,15 @@
 ---
-title: 개인화 구문
+title: 개인화 컨텍스트
 description: '콘텐츠 및 메시지 표시를 개인화할 수 있는 방법에 대해 자세히 알아보십시오. '
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ![](assets/perso_icon.png)
 
-## 이메일 개인화
+## 이메일 개인화 {#personalize-emails}
 
 이메일을 만들 때 **[!UICONTROL Subject line]** 메시지의 필드입니다.
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 이메일 디자이너에서 콘텐츠를 개인화할 수 있습니다.
 
-* 에서 **메시지**: 텍스트 블록 내부를 클릭하고 **개인화** 상황별 도구 모음의 아이콘을 선택하고 을(를) 선택합니다 **개인화 삽입** 필드. 이메일 디자이너 인터페이스에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../design-emails.md).
+* 에서 **메시지**: 텍스트 블록 내부를 클릭하고 **개인화** 상황별 도구 모음의 아이콘을 선택하고 을(를) 선택합니다 **개인화 삽입** 필드. 이메일 디자이너 인터페이스에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../messages/design-emails.md).
 
    ![](assets/perso_insert.png)
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 ![](assets/perso_ee.png)
 
-## 푸시 알림 개인화
+## 푸시 알림 개인화 {#personalize-push}
 
 또한 **푸시 알림** 다음 필드에서 다음을 수행합니다.
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 ![](assets/perso_push.png)
 
-의 푸시 알림 구성에 대해 자세히 알아보십시오 [이 섹션](../push-gs.md).
+의 푸시 알림 구성에 대해 자세히 알아보십시오 [이 섹션](../messages/push-gs.md).
 
 ## 오퍼 개인화 {#personalize-offers}
 

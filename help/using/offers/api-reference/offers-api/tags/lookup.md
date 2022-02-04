@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 3%
 
 ---
 
-# 태그 조회
+# 태그 조회 {#look-up-tag}
 
 에 GET 요청을 수행하여 특정 태그를 찾을 수 있습니다 [!DNL Offer Library] 태그를 포함하는 API `@id` 또는 요청 경로에 있는 태그의 이름입니다.
 

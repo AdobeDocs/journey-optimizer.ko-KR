@@ -1,19 +1,19 @@
 ---
 title: 의사 결정에서 오퍼 선택 구성
-description: 선택 사항을 결정으로 관리하는 방법을 알아봅니다.
+description: 선택 사항을 결정짓는 오퍼 관리 방법을 알아봅니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 5%
 
 ---
 
-# 의사 결정에서 오퍼 선택 구성 {#offers-selection-in-activities}
+# 의사 결정에서 오퍼 선택 구성 {#offers-selection-in-decisions}
 
 지정된 배치에 여러 오퍼가 적격인 경우, 결정을 구성할 때(이전에 오퍼 활동이라고 알려짐) 각 프로필에 대해 가장 적합한 오퍼를 선택하는 방법을 선택할 수 있습니다. 오퍼의 등급을 다음과 같이 지정할 수 있습니다.
 * 오퍼 우선 순위
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ![](../../assets/offer-rank-by.png)
 
-## 오퍼 우선 순위 {#about-offers-priority}
+## 오퍼 우선 순위 {#offer-priority}
 
 기본적으로 몇 개의 오퍼가 결정(이전에 오퍼 활동이라고 함)에서 주어진 배치에 참가할 수 있는 경우 오퍼가 가장 높은 오퍼입니다 **우선순위** 은 고객에게 먼저 전달됩니다.
 
@@ -86,6 +86,3 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 공식**. 오
 
 여러 오퍼가 적격인 경우, 훈련된 모델 시스템에서 지정된 배치에 대해 먼저 제공해야 하는 오퍼를 결정합니다.
 
-<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
-
-<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->

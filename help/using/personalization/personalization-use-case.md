@@ -1,12 +1,12 @@
 ---
 title: 개인화 사용 사례 및 콜론; 주문 상태 알림
-description: 프로필, 오퍼 결정 및 컨텍스트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다
+description: 프로필, 오퍼 결정 및 컨텍스트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 이 사용 사례에는 다음 전제 조건이 필요합니다.
 
-* 푸시 알림 메시지를 게시하지 않고 만들고 디자인합니다. 다음을 참조하십시오 [섹션](../create-message.md).
+* 푸시 알림 메시지를 게시하지 않고 만들고 디자인합니다. 다음을 참조하십시오 [섹션](../messages/create-message.md).
 * 주문 번호, 상태 및 품목 이름을 포함하는 주문 이벤트를 구성합니다. 다음을 참조하십시오 [섹션](../event/about-events.md).
 * 결정을 만듭니다(이전에 &#39;오퍼 활동&#39;이라고 함). 이 내용을 참조하십시오 [섹션](../offers/offer-activities/create-offer-activities.md).
 
-## 1단계 - 프로필에 개인화 추가
+## 1단계 - 프로필에 개인화 추가 {#add-perso}
 
 1. 을(를) 클릭합니다. **[!UICONTROL Message]** 메뉴를 선택하고 메시지를 선택합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
    >
    >메시지를 초안으로 둡니다. 아직 게시하지 마십시오.
 
-## 2단계 - 여정 만들기
+## 2단계 - 여정 만들기 {#create-journey}
 
 1. 을(를) 클릭합니다. **[!UICONTROL Journeys]** 메뉴를 보고 새 여정을 만듭니다.
 
@@ -69,7 +69,7 @@ ht-degree: 0%
    >
    >경고 아이콘과 함께 메시지가 나타납니다. 메시지가 아직 게시되지 않았기 때문입니다.
 
-## 3단계 - 컨텍스트 기반 데이터에 개인화 추가
+## 3단계 - 컨텍스트 기반 데이터에 개인화 추가 {#add-perso-contextual-data}
 
 1. 에서 **메시지** 활동을 클릭하고 **메시지 열기** 아이콘. 메시지가 새 탭에서 열립니다.
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc16.png)
 
-## 4단계 - 여정 테스트 및 게시
+## 4단계 - 여정 테스트 및 게시 {#test-publish}
 
 1. 여정을 다시 엽니다. 여정이 이미 열려 있다면 페이지를 새로 고치십시오. 메시지가 게시되었으므로 여정에 오류가 없음을 확인할 수 있습니다. 을(를) 클릭합니다. **테스트** 단추를 클릭한 다음 **이벤트 트리거**.
 

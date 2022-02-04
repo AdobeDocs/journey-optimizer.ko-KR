@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 2%
 
 ---
 
-# 의사 결정 규칙 조회
+# 의사 결정 규칙 조회 {#lookup-decision-rule}
 
 에 GET 요청을 수행하여 특정 의사 결정 규칙을 조회할 수 있습니다 [!DNL Offer Library] 결정 규칙을 포함하는 API `@id` 또는 요청 경로에 있는 의사 결정 규칙의 이름입니다.
 

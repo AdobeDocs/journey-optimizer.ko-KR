@@ -1,14 +1,14 @@
 ---
 title: 개인화 사용 사례 및 콜론; 장바구니 포기 이메일
-description: 도우미 기능을 사용하여 메시지를 개인화하는 방법을 알아봅니다.
+description: 사용 사례를 통해 이메일 메시지 본문을 개인화하는 방법을 알아봅니다.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1019'
 ht-degree: 3%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 3%
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 시작하기 전에 다음 요소를 구성하는 방법을 알고 있어야 합니다.
-* 이메일 메시지. [자세히 알아보기](../create-message.md)
-* 이메일 본문. [자세히 알아보기](../create-email-content.md).
+* 이메일 메시지. [자세히 알아보기](../messages/create-message.md)
+* 이메일 본문. [자세히 알아보기](../messages/create-email-content.md).
 * 단일 이벤트. [자세히 알아보기](../event/about-events.md).
 * 이벤트로 시작하는 여정. [자세히 알아보기](../building-journeys/using-the-journey-designer.md).
 
@@ -324,15 +324,15 @@ ht-degree: 3%
 1. 오류가 없는지 확인한 다음 여정을 게시합니다.
 
 
-## 관련 항목
+## 관련 항목 {#related-topics}
 
-### Handlebars 함수
+### Handlebars 함수 {#handlebars}
 
 * [도우미](functions/helpers.md)
 
 * [문자열 함수](functions/string.md)
 
-### 사용 사례
+### 사용 사례 {#use-case}
 
 * [프로필 정보, 컨텍스트 및 오퍼를 사용한 개인화](personalization-use-case.md)
 

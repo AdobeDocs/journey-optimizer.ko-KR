@@ -8,10 +8,10 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 0%
 
 여기에서 다음을 수행할 수 있습니다.
 
-* **처음부터 랜딩 페이지 디자인** 컨텐츠 디자이너의 인터페이스를 통해 [Adobe Experience Manager Assets Essentials](../assets-essentials.md). 콘텐츠를 디자인하거나 기본 제공 템플릿을 사용하는 방법을 알아봅니다 [이 섹션](../create-email-content.md).
+* **처음부터 랜딩 페이지 디자인** 컨텐츠 디자이너의 인터페이스를 통해 [Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). 콘텐츠를 디자인하거나 기본 제공 템플릿을 사용하는 방법을 알아봅니다 [이 섹션](../messages/create-email-content.md).
 
-* **원시 HTML 코드 또는 붙여넣기** 에서 바로 콘텐츠를 디자인할 수 있습니다. 자체 콘텐츠를 코딩하는 방법을 알아봅니다 [이 섹션](../existing-content.md#import-raw-html-code).
+* **원시 HTML 코드 또는 붙여넣기** 에서 바로 콘텐츠를 디자인할 수 있습니다. 자체 콘텐츠를 코딩하는 방법을 알아봅니다 [이 섹션](../messages/existing-content.md#import-raw-html-code).
 
-* **기존 HTML 콘텐츠 가져오기** 파일 또는 .zip 폴더에서 사용할 수 있습니다. 콘텐츠를 가져오는 방법 알아보기 [이 섹션](../existing-content.md#import-html-content-from-file).
+* **기존 HTML 콘텐츠 가져오기** 파일 또는 .zip 폴더에서 사용할 수 있습니다. 콘텐츠를 가져오는 방법 알아보기 [이 섹션](../messages/existing-content.md#import-html-content-from-file).
 
 >[!NOTE]
 >
->랜딩 페이지 콘텐츠 디자이너는 대부분 이메일 디자이너와 유사합니다. 추가 정보 [콘텐츠 디자인 [!DNL Journey Optimizer]](../design-emails.md).
+>랜딩 페이지 콘텐츠 디자이너는 대부분 이메일 디자이너와 유사합니다. 추가 정보 [콘텐츠 디자인 [!DNL Journey Optimizer]](../messages/design-emails.md).
 
 ## 랜딩 페이지별 콘텐츠 정의 {#define-lp-specific-content}
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
    ![](../assets/lp_designer-form-style-buttons.png)
 
-   마우스로 가리키면 단추 레이블 색상과 같은 일부 설정을 **[!UICONTROL Preview]** 버튼을 클릭합니다. 랜딩 페이지 테스트에 대해 자세히 알아보기 [여기](create-lp.md#test).
+   마우스로 가리키면 단추 레이블 색상과 같은 일부 설정을 **[!UICONTROL Preview]** 버튼을 클릭합니다. 랜딩 페이지 테스트에 대해 자세히 알아보기 [여기](create-lp.md#test-landing-page).
 
    ![](../assets/lp_designer-form-style-buttons-preview.png)
 

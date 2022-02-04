@@ -1,12 +1,12 @@
 ---
 title: 개인화 유효성 검사
-description: 개인화 유효성 검사 및 문제 해결 방법에 대해 자세히 알아보기
+description: 개인화 유효성 검사 및 문제 해결 방법에 대해 자세히 알아보십시오.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 개인화 유효성 검사 {#personalization-validation}
 
-## 유효성 검사 메커니즘
+## 유효성 검사 메커니즘 {#validation-mechanisms}
 
 에서 **표현식 편집기** 화면, **유효성 검사** 버튼을 클릭하여 개인화 구문을 확인합니다.
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 > 개인화 구문이 올바르지 않으면 표현식 편집기 창을 닫을 수 없습니다.
 
-## 일반적인 오류
+## 일반적인 오류 {#common-errors}
 
 * **경로 &quot;XYZ&quot;를 찾을 수 없습니다.**
 
@@ -67,7 +67,7 @@ Handlebars 식은 로 둘러싸여 있습니다. **{{expression}}**
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-## 오퍼와 관련된 특정 오류
+## 오퍼와 관련된 특정 오류 {#specific-errors}
 
 이메일 또는 푸시 메시지의 오퍼 통합과 관련된 오류는 다음 패턴을 갖습니다.
 

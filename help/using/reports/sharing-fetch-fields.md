@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 7%
@@ -19,13 +19,13 @@ ht-degree: 7%
 
 단계 처리 중에 필드 그룹에서 N 데이터를 가져오도록 할 수 있습니다.
 
-## fetchTotalTime
+## fetchTotalTime {#fetchtotaltime-field}
 
 단계 처리 중 데이터 가져오기에 소요된 총 시간입니다.
 
 유형: 장기간
 
-## fetchTypeInError
+## fetchTypeInError {#fetchtypeinerror-field}
 
 오류 가져오기가 Adobe Experience Platform 또는 사용자 지정 데이터 소스에 있는지 정의합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 * aep
 * 사용자 지정
 
-## fetchError
+## fetchError {#fetcherror-field}
 
 데이터 가져오기가 처리될 때 발생하는 오류 유형입니다.
 
@@ -47,13 +47,13 @@ ht-degree: 7%
 * 시간 초과
 * 라는 오류가 표시됩니다
 
-## fetchErrorCode
+## fetchErrorCode {#fetcherrorcode-field}
 
 가져오기 오류 코드. 오류에 HTTP 코드와 같은 코드가 있을 경우 표시됩니다. 예를 들어 actionExecError가 http인 경우 코드 404는 HTTP 404 오류를 나타냅니다.
 
 유형: 문자열
 
-## fetchOriginError
+## fetchOriginError {#fetchoriginerror-field}
 
 시간 초과는 다음 두 가지 경우에 발생할 수 있습니다.
 
@@ -73,37 +73,37 @@ ht-degree: 7%
 
 유형: 문자열
 
-## fetchOriginErrorCode
+## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
 시스템에서 제공한 오류 코드 [!DNL Journey Orchestration] 쿼리 중입니다. 예를 들어 404, 500 등이 될 수 있습니다.
 
 유형: 문자열
 
-## fetchCount
+## fetchCount {#fetchcount-field}
 
 소스 유형에 관계없이 데이터를 가져오는 횟수입니다.
 
 유형: 장기간
 
-## fetchPlatformTotalTime
+## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
 Adobe Experience Platform에서 데이터를 밀리로 가져오는 데 걸린 총 시간입니다. 참고: 이 시간은 엔진이 데이터 보강 서비스로 데이터 보강 이벤트를 보내고 응답을 받은 시점부터 계산됩니다.
 
 유형: 장기간
 
-## fetchPlatformCount
+## fetchPlatformCount {#fetchplatformcount-field}
 
 Adobe Experience Platform에서 데이터를 가져오는 횟수입니다.
 
 유형: 장기간
 
-## fetchCustomTotalTime
+## fetchCustomTotalTime {#fetchcustomtotaltime-field}
 
 사용자 지정 데이터를 밀리로 가져오는 데 걸리는 시간입니다. 참고: 이 시간은 엔진이 데이터 보강 이벤트를 데이터 보강 서비스로 보내고 응답을 받는 시점부터 계산됩니다
 
 유형: 장기간
 
-## fetchCustomCount
+## fetchCustomCount {#fetchcustomcount-field}
 
 외부 시스템에서 사용자 지정 데이터를 가져오는 횟수입니다.
 
