@@ -33,4 +33,4 @@ ht-degree: 8%
 
 ![](../assets/jo-event9.png)
 
-에서 Adobe Analytics 소스 커넥터에 대해 자세히 알아보십시오  [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR){target=&quot;_blank&quot;} 및 [튜토리얼](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR){target=&quot;_blank&quot;}.
+에서 Adobe Analytics 소스 커넥터에 대해 자세히 알아보십시오  [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR){target=&quot;_blank&quot;} 및 [튜토리얼](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target=&quot;_blank&quot;}.

@@ -43,7 +43,7 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 다음 `elseif` 문은 첫 번째 문이 false를 반환하는 경우 테스트할 새 조건을 지정합니다.
 
 
-**포맷**
+**형식**
 
 ```sql
 {

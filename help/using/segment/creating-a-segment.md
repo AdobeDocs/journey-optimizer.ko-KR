@@ -13,7 +13,7 @@ ht-degree: 5%
 
 ---
 
-# 세그먼트 빌드 {#build-segments}
+# 세그먼트 작성 {#build-segments}
 
 이 예에서는 1980년 이후에 태어난 Atlanta, San Francisco 또는 Seattle에 거주하는 모든 고객을 타겟팅하는 세그먼트를 만듭니다. 이 모든 고객은 지난 7일 이내에 Luma 애플리케이션을 연 다음 애플리케이션을 연 후 2시간 내에 구매했어야 합니다.
 

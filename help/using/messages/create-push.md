@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 53bcfbd4d9e88f605f4c299a35a4ec8cd5c08568
+source-git-commit: f70ec99dc982fc0dd417262ac553bc1be294d56f
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1388'
 ht-degree: 9%
 
 ---
@@ -36,6 +36,11 @@ ht-degree: 9%
 장치 미리 보기 섹션을 사용하여 iOS 및 Android 장치에서 푸시 알림이 표시되는 방식을 시각화합니다.
 
 ## 클릭 동작 {#on-click-behavior}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-onclick"
+>title="클릭 동작 기본 정보"
+>abstract="수신자가 푸시 알림의 본문을 클릭할 때의 동작을 선택합니다."
 
 사용자가 푸시 알림의 본문을 클릭할 때의 동작을 선택할 수 있습니다.
 

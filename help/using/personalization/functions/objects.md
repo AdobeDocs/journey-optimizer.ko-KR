@@ -19,7 +19,7 @@ ht-degree: 7%
 
 다음 `isNull` 함수는 개체 참조가 존재하지 않는지 확인합니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= isNull(object) %}
@@ -37,7 +37,7 @@ ht-degree: 7%
 
 다음 `isNotNull` 함수는 개체 참조가 있는지 여부를 결정합니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= isNotNull(object) %}

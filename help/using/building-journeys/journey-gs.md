@@ -17,7 +17,7 @@ ht-degree: 7%
 
 ## 사전 요구 사항
 
-In order to send messages with journeys, the following configuration is required:
+여정과 함께 메시지를 전송하려면 다음 구성이 필요합니다.
 
 1. **이벤트 구성**: 여정이 수신될 때까지 트리거하려면 이벤트를 구성해야 합니다. 필요한 정보와 정보를 처리하는 방법을 정의합니다. **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다. [자세히 보기](../event/about-events.md).
 
@@ -31,7 +31,7 @@ In order to send messages with journeys, the following configuration is required
 
    ![](../assets/jo-datasource.png)
 
-1. **작업 구성**: Journey Optimizer 메시지 기능이 내장되어 있으므로 컨텐츠를 디자인하고 메시지를 게시하기만 하면 됩니다. [이 섹션](../messages/get-started-content.md)을 참조하십시오. 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. Learn more in this [section](../action/action.md). **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다.
+1. **작업 구성**: Journey Optimizer 메시지 기능이 내장되어 있으므로 컨텐츠를 디자인하고 메시지를 게시하기만 하면 됩니다. [이 섹션](../messages/get-started-content.md)을 참조하십시오. 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. 자세한 내용 [섹션](../action/action.md). **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다.
 
    ![](../assets/create-content-push.png)
 
@@ -41,7 +41,7 @@ In order to send messages with journeys, the following configuration is required
 
 여정을 통해 메시지를 보내는 주요 단계는 다음과 같습니다.
 
-1. 여정 관리 메뉴 섹션에서 **[!UICONTROL Journeys]**. The list of journeys is displayed.
+1. 여정 관리 메뉴 섹션에서 **[!UICONTROL Journeys]**. 여정 목록이 표시됩니다.
 
    ![](../assets/interface-journeys.png)
 
@@ -89,11 +89,11 @@ In order to send messages with journeys, the following configuration is required
 
 ### 여정 활동의 시간 제한 및 오류 {#timeout_and_error}
 
-When editing an action or condition activity, you can define an alternative path in case of error or timeout. If the processing of the activity interrogating a third-party system exceeds the timeout duration defined in the journey&#39;s properties (**[!UICONTROL Timeout and  error]** field), the second path will be chosen to perform a potential fallback action.
+작업 또는 조건 활동을 편집할 때 오류 또는 시간 제한 시 대체 경로를 정의할 수 있습니다. 서드파티 시스템을 심문하는 활동이 여정 속성에 정의된 시간 초과 기간을 초과하는 경우(**[!UICONTROL Timeout and  error]** 필드), 잠재적인 대체 작업을 수행하도록 두 번째 경로가 선택됩니다.
 
-Authorized values are between 1 and 30 seconds.
+허용된 값은 1초에서 30초 사이입니다.
 
-매우 짧은 을 정의하는 것이 좋습니다 **[!UICONTROL Timeout and error]** 여정이 시간에 민감한 경우 값(예: 몇 초 이상 작업을 지연할 수 없으므로 여기에 응답합니다. If your journey is less time sensitive, you can use a longer value to give more time to the system called to send a valid response.
+매우 짧은 을 정의하는 것이 좋습니다 **[!UICONTROL Timeout and error]** 여정이 시간에 민감한 경우 값(예: 몇 초 이상 작업을 지연할 수 없으므로 여기에 응답합니다. 여정에 시간이 덜 민감한 경우, 더 긴 값을 사용하여 유효한 응답을 보내기 위해 라는 시스템에 더 많은 시간을 줄 수 있습니다.
 
 여정은 글로벌 시간 초과도 사용합니다. 자세한 내용은 [다음 섹션](#global_timeout).
 
@@ -135,13 +135,13 @@ Authorized values are between 1 and 30 seconds.
 
 ![](../assets/burst.png)
 
-Burst mode will be deactivated if you modify a burst journey and add an activity that is not compliant with burst (message, any other action, an event etc.). A message will be displayed.
+버스트 여정을 수정하고 버스트와 호환되지 않는 활동(메시지, 다른 작업, 이벤트 등)을 추가하는 경우 버스트 모드는 비활성화됩니다. 메시지가 표시됩니다.
 
 ![](../assets/burst2.png)
 
-그런 다음 여정을 정상적으로 테스트하고 게시합니다. Test mode messages are not sent via the burst mode.
+그런 다음 여정을 정상적으로 테스트하고 게시합니다. 테스트 모드 메시지는 버스트 모드를 통해 전송되지 않습니다.
 
-## Ending a journey
+## 여정 종료
 
 여정은 다음 두 가지 이유로 인해 개인에 대해 종료될 수 있습니다.
 

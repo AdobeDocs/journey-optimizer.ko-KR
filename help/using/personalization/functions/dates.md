@@ -21,7 +21,7 @@ ht-degree: 6%
 
 다음 `age` 함수는 지정된 날짜에서 페이지를 검색하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
  {%= age(date) %}
@@ -41,7 +41,7 @@ The following operation gets the value of the identity map for the key `example@
 
 다음 `currentTimeInMillis` 함수는 epoch 밀리초 단위의 현재 시간을 검색하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= currentTimeInMillis() %}
@@ -61,7 +61,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 다음 `dateDiff` 함수는 일 수로 두 날짜 간의 차이를 검색하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= dateDiff(datetime,datetime) %}
@@ -82,7 +82,7 @@ The following operation gets all the values for the map `identityMap`.
 
 다음 `dayOfWeek` 함수는 요일을 검색하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= dayOfWeek(datetime) %}
@@ -102,7 +102,7 @@ The following operation gets all the values for the map `identityMap`.
 
 다음 `dayOfYear` 함수는 날짜를 검색하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= dayOfYear(datetime) %}
@@ -122,7 +122,7 @@ The following operation gets all the values for the map `identityMap`.
 
 다음 `formatDate` 함수는 날짜 시간 값의 형식을 지정하는 데 사용됩니다. 형식은 유효한 Java DateTimeFormat 패턴이어야 합니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= formatDate(date, format) %}
@@ -148,7 +148,7 @@ The following operation gets all the values for the map `identityMap`.
 
 다음 `setDays` 함수는 지정된 날짜 시간에 대한 월의 일을 설정하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= setDays(date, day) %}
@@ -168,7 +168,7 @@ The following operation gets all the values for the map `identityMap`.
 
 다음 `setHours` 함수는 날짜-시간의 시간을 설정하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= setHours(date, hour) %}
@@ -190,7 +190,7 @@ The following operation gets all the values for the map `identityMap`.
 다음 `toUTC` 함수에서 datetime을 UTC로 변환하는 데 사용됩니다.
 
 
-**포맷**
+**형식**
 
 ```sql
 {%= toUTC(datetime) %}
@@ -211,7 +211,7 @@ The following operation gets all the values for the map `identityMap`.
 
 다음 `weekOfYear` 함수는 요일을 검색하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= weekOfYear(datetime) %}

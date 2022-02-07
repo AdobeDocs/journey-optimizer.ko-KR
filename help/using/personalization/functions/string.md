@@ -21,7 +21,7 @@ ht-degree: 7%
 
 다음 `camelCase` 함수는 문자열의 각 단어의 첫 문자를 대문자로 바꿉니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= camelCase(string)%}
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 다음 `concat` 함수는 두 문자열을 하나로 결합합니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= concat(string,string) %}
@@ -57,7 +57,7 @@ ht-degree: 7%
 
 다음 `contains` 함수에서 지정된 하위 문자열을 포함하는지 여부를 확인하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -87,7 +87,7 @@ ht-degree: 7%
 
 다음 `doesNotContain` 함수에서 지정된 하위 문자열을 포함하지 않는지 확인하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= doesNotContain(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -112,7 +112,7 @@ ht-degree: 7%
 
 다음 `doesNotEndWith` 함수는 문자열이 지정된 하위 문자열로 끝나지 않는지 여부를 확인하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= doesNotEndWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -136,7 +136,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `doesNotStartWith` 함수는 문자열이 지정된 하위 문자열로 시작하지 않는지 여부를 확인하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= doesNotStartWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -160,7 +160,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `encode64` URL에 예를 들어 포함해야 하는 경우 PI(개인 정보)를 유지하기 위한 문자열을 인코딩하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= encode64(string) %}
@@ -170,7 +170,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `endsWith` 함수는 문자열이 지정된 하위 문자열로 끝났는지 여부를 확인하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= endsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -195,7 +195,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `equals` 함수는 문자열을 대소문자 구분을 사용하여 지정된 문자열과 일치하는지 확인하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= equals(STRING_1, STRING_2) %}
@@ -218,7 +218,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `equalsIgnoreCase` 변수는 대/소문자를 구분하지 않고 지정된 문자열과 동일한지 확인하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= equalsIgnoreCase(STRING_1, STRING_2) %}
@@ -241,7 +241,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `extractEmailDomain` 함수는 이메일 주소의 도메인을 추출하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= extractEmailDomain(string) %}
@@ -259,7 +259,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `isEmpty` 함수는 문자열이 비어 있는지 확인하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= isEmpty(string) %}
@@ -277,7 +277,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `leftTrim` 함수는 문자열 시작 부분에서 공백을 제거하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= leftTrim(string) %}
@@ -287,7 +287,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `length` 함수는 문자열 또는 표현식의 문자 수를 가져오는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= length(string) %}
@@ -305,7 +305,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `like` 함수는 문자열이 지정된 패턴과 일치하는지 확인하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= like(STRING_1, STRING_2) %}
@@ -346,7 +346,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `matches` 함수가 특정 정규 표현식과 일치하는지 여부를 확인하는 데 사용됩니다. 자세한 내용은 [이 문서](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) 를 참조하십시오.
 
-**포맷**
+**형식**
 
 ```sql
 {%= matches(STRING_1, STRING_2) %}
@@ -364,7 +364,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `notEqualTo` 함수는 문자열이 지정된 문자열과 같지 않은지 확인하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= notEqualTo(STRING_1, STRING_2) %}
@@ -387,7 +387,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `Group` 함수는 제공된 정규 표현식을 기반으로 특정 정보를 추출하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= regexGroup(STRING, EXPRESSION, GROUP) %}
@@ -411,7 +411,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `replace` 함수는 문자열에서 주어진 하위 문자열을 다른 하위 문자열로 바꾸는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= replace(string,string,string) %}
@@ -430,7 +430,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `replaceAll` 함수는 &quot;target&quot;과 일치하는 텍스트의 모든 하위 문자열을 지정된 리터럴 &quot;replacement&quot; 문자열로 바꾸는 데 사용됩니다. 대체는 문자열 시작 부분부터 끝 부분까지 진행됩니다. 예를 들어 문자열 &quot;aaa&quot;에서 &quot;aa&quot;를 &quot;b&quot;로 바꾸면 &quot;ab&quot;가 아니라 &quot;ba&quot;가 됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= replaceAll(string,string,string) %}
@@ -442,7 +442,7 @@ doesNotEndWith(person.emailAddress,".com")
 다음 `rightTrim` 함수는 문자열 끝에서 공백을 제거합니다.
 
 
-**포맷**
+**형식**
 
 ```sql
 {%= rightTrim(string) %}
@@ -452,7 +452,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `split` 함수는 문자열을 지정된 문자로 분할하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= split(string,string) %}
@@ -473,7 +473,7 @@ The following function .
 
 다음 `startsWith` 함수는 문자열이 지정된 하위 문자열로 시작하는지 여부를 확인하는 데 사용됩니다.
 
-**포맷**
+**형식**
 
 ```sql
 {%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
