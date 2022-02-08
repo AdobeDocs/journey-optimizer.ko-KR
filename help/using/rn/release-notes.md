@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1316d7564a26db3e5be30a1b35e97e4fd15decd1
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 100%
+source-wordcount: '2416'
+ht-degree: 98%
 
 ---
 
@@ -56,10 +56,11 @@ ht-degree: 100%
 
 * 이제 Journey Optimizer 단계 이벤트를 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko)의 다른 데이터 세트에 연결할 수 있습니다. 기본 제공 여정 단계 이벤트 스키마의 **profileID** 필드가 이제 ID 필드로 정의됩니다. [자세히 알아보기](../reports/sharing-overview.md#integration-cja)
 
-
 **Offer Decisioning**
 
 * 게시된 메시지에서 직접 또는 간접적으로 참조되는 오퍼, 대체 오퍼, 오퍼 컬렉션 또는 오퍼 결정을 업데이트하면 이제 다시 게시할 필요 없이 업데이트가 해당 메시지에 자동으로 반영됩니다. [자세히 알아보기](../offers/offers-e2e.md#insert-decision-in-email)
+
+* 주어진 테스트 프로필에 대해 제공될 오퍼를 시뮬레이션할 때 이제 기본 시뮬레이션 설정을 수정하고 문제 해결 용도로 사용할 수 있는 시뮬레이션에 해당하는 코드를 볼 수 있습니다. [자세히 알아보기](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **관리**
 

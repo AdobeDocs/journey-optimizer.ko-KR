@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1433'
 ht-degree: 10%
 
 ---
@@ -24,15 +24,15 @@ ht-degree: 10%
 
 에 사용할 하위 도메인을 위임하여 [!DNL Journey Optimizer]를 사용하는 경우 클라이언트는 Adobe을 사용하여 전자 메일 마케팅 전송 도메인에 대한 업계 표준 게재 기능 요구 사항을 충족하는 데 필요한 DNS 인프라를 유지하고 내부 전자 메일 도메인에 대한 DNS를 계속 유지 관리할 수 있습니다.
 
-## 전체 하위 도메인 위임 {#full-subdomain-delegation}
-
-[!DNL Journey Optimizer] 제품 인터페이스에서 직접 Adobe에 하위 도메인을 완전히 위임할 수 있습니다. 이렇게 하면 Adobe은 이메일 캠페인 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리하는 방식으로 메시지를 관리 서비스로 제공할 수 있습니다.
-
 >[!NOTE]
 >
 >기본적으로 [!DNL Journey Optimizer] 사용권 계약을 사용하면 최대 10개의 하위 도메인을 위임할 수 있습니다. 이 제한을 늘리려면 Adobe 담당자에게 문의하십시오.
 
-새 하위 도메인을 위임하려면 아래 단계를 따르십시오.
+## 전체 하위 도메인 위임 {#full-subdomain-delegation}
+
+[!DNL Journey Optimizer] 제품 인터페이스에서 직접 Adobe에 하위 도메인을 완전히 위임할 수 있습니다. 이렇게 하면 Adobe은 이메일 캠페인 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리하는 방식으로 메시지를 관리 서비스로 제공할 수 있습니다.
+
+새 하위 도메인을 Adobe에 완전히 위임하려면 아래 단계를 수행하십시오.
 
 1. 액세스 권한 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 메뉴를 클릭한 다음 **[!UICONTROL Set up subdomain]**.
 

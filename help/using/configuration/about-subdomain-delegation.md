@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: e5ebf038565329fdaa7b01a12042c2c4bba79f37
+source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 33%
@@ -48,7 +48,7 @@ ht-degree: 33%
 
 * **Adobe에 전체 하위 도메인 위임** (권장): 하위 도메인이 Adobe에 완전히 위임됩니다. Adobe은 메시지 전달, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리할 수 있습니다. [전체 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#full-subdomain-delegation)
 
-* **CNAME 사용**: 하위 도메인을 만들고 CNAME을 사용하여 Adobe 관련 레코드를 가리키도록 설정합니다. 이 설정을 사용하면 사용자와 Adobe 모두 DNS 유지 관리를 수행해야 합니다. [CNAME 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#cname-subdomain-delegation)
+* **CNAME 사용**: 하위 도메인을 만들고 CNAME을 사용하여 Adobe 관련 레코드를 가리키도록 설정합니다. 이 설정을 사용하면 사용자와 Adobe이 DNS 유지 관리를 공동으로 수행합니다. [CNAME 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#cname-subdomain-delegation)
 
 아래 표에는 이러한 두 가지 방법의 작동 방식과 각 방법을 사용하는 경우의 작업량이 간략하게 요약되어 있습니다.
 
