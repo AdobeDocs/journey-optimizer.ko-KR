@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 3%
+source-wordcount: '1491'
+ht-degree: 5%
 
 ---
 
@@ -28,6 +28,12 @@ ht-degree: 3%
 ![](../../assets/offers_list.png)
 
 ## 오퍼 만들기 {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="오퍼 속성 기본 정보"
+>abstract="오퍼 속성을 사용하여 보고 및 분석을 위해 키 값 쌍을 오퍼와 연결할 수 있습니다."
+>additional-url="https://video.tv.adobe.com/v/329375" text="데모 비디오 시청"
 
 을(를) 만들려면 **오퍼**&#x200B;다음 단계를 수행합니다.
 
@@ -141,6 +147,30 @@ ht-degree: 3%
    >전용 **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** 및 **[!UICONTROL Helper functions]** 결정 관리에 소스를 사용할 수 있습니다.
 
 ## 자격 규칙 및 제한 추가 {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="오퍼 제한 기본 정보"
+>abstract="제한 조건을 사용하여 오퍼의 우선 순위가 지정되고 다른 오퍼와 비교하여 사용자에게 표시되는 방법을 지정할 수 있습니다."
+>additional-url="https://video.tv.adobe.com/v/329375" text="데모 비디오 시청"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="오퍼 자격 기본 정보"
+>abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
+>additional-url="https://video.tv.adobe.com/v/329373" text="데모 비디오 시청"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="오퍼 우선 순위 정보"
+>abstract="이 필드에서 오퍼에 대한 우선순위 설정을 지정할 수 있습니다. 우선 순위는 자격, 날짜 및 최대 가용량과 같은 모든 제한 사항을 충족하는 오퍼의 등급을 매기는 데 사용되는 숫자입니다."
+>additional-url="https://video.tv.adobe.com/v/329375" text="데모 비디오 시청"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="오퍼 최대 가용량 기본 정보"
+>abstract="이 필드에서는 모든 사용자에게 오퍼를 표시할 수 있는 횟수를 지정할 수 있습니다."
+>additional-url="https://video.tv.adobe.com/v/329375" text="데모 비디오 시청"
 
 자격 규칙 및 제한을 사용하여 오퍼가 표시될 조건을 정의할 수 있습니다.
 
