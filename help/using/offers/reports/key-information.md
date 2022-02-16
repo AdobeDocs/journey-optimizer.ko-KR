@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 90%
+source-wordcount: '128'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 * **[!UICONTROL Fallback]**:개인화된 오퍼를 선택하지 않은 경우, 대체 오퍼의 이름 및 ID
 * **[!UICONTROL Placement]**: 오퍼를 게재하는 데 사용되는 배치의 이름, ID 및 채널,
 * **[!UICONTROL Selections]**: 프로필에 대해 선택한 오퍼의 이름 및 ID,
-* **[!UICONTROL Activity]**: 의사 결정(이전 이름: 오퍼 활동)의 이름 및 ID.
+* **[!UICONTROL Activity]**: 결정 이름 및 ID입니다.
 
 또한 **[!UICONTROL identityMap]** 및 **[!UICONTROL Timestamp]** 필드를 활용하여 프로필의 정보와 오퍼가 게재된 시간을 검색할 수도 있습니다.
 

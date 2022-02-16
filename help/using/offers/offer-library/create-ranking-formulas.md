@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 등급 공식은 **PQL 구문** 및 은 프로필 속성, 컨텍스트 데이터 및 오퍼 속성을 활용할 수 있습니다. PQL 구문 사용 방법에 대한 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
-등급 공식이 만들어지면 결정(이전에 오퍼 활동이라고 함)의 배치에 할당할 수 있습니다. 자세한 내용은 [결정에서 오퍼 선택 구성](../offer-activities/configure-offer-selection.md).
+등급 공식이 만들어지면 결정에서 배치에 할당할 수 있습니다. 자세한 내용은 [결정에서 오퍼 선택 구성](../offer-activities/configure-offer-selection.md).
 
 ## 등급 공식 만들기 {#create-ranking-formula}
 

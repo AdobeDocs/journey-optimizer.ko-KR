@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 97%
+source-wordcount: '919'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,11 @@ ht-degree: 97%
 
 * 관련 섹션 [!DNL Journey Optimizer] 개인화 기능이 재구성되어 더 나은 가독성을 갖습니다. [자세히 보기](../personalization/personalize.md)
 
+* 메시지 사전 설정 만들기 섹션을 몇 개의 섹션으로 나누어서 명확성을 개선했습니다. [자세히 보기](../configuration/message-presets.md#create-message-preset)
+
+* 옵트아웃 관리 섹션이 명확하고 약간 재구성되었습니다. [자세히 보기](../messages/consent.md#opt-out-management)
+
+* 링크 삽입 섹션에 최근 사용자 인터페이스 변경 사항을 반영하여 업데이트했습니다. [자세히 보기](../messages/message-tracking.md#insert-links)
 
 ## 2021년 11월 {#november-2021}
 
@@ -87,7 +92,7 @@ ht-degree: 97%
 * 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 보기](../messages/allow-list.md#enable-allow-list)
 * 메시지 사전 설정 모니터링 섹션을 업데이트했습니다. 가능한 사전 설정 작성 실패 이유 및 이러한 오류에 대한 세부 정보를 추가했습니다. [자세히 보기](../configuration/message-presets.md#monitor-message-presets)
 * 이제 메시지 사전 설정에서 이메일 다시 시도 설정을 조정할 수 있다는 사실을 반영하도록 다시 시도 기간 섹션을 업데이트하고 이름을 변경했습니다. [자세히 보기](../configuration/retries.md#retry-duration)
-* 이메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../messages/message-tracking.md#one-click-opt-out-link)
+* 이메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../messages/consent.md#one-click-opt-out-link)
 * 하위 도메인 위임 섹션을 업데이트하여 Adobe가 수행한 유효성 검사 프로세스에 대한 자세한 정보를 추가했습니다. [자세히 보기](../configuration/delegate-subdomain.md#subdomain-validation)
 * 이메일 주소 및 도메인을 제외 목록에 수동으로 추가하는 방법을 설명하는 섹션을 추가했습니다. [자세히 보기](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * [제외 목록 액세스](../configuration/manage-suppression-list.md#access-suppression-list) 섹션 및 [다시 시도](../configuration/retries.md) 섹션을 업데이트하여 새 사용자 인터페이스를 반영했습니다.

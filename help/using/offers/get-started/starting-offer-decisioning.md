@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 87%
+source-wordcount: '908'
+ht-degree: 85%
 
 ---
 
@@ -80,7 +80,7 @@ offer decisioning 기능에 액세스하고 사용할 권한은 [Adobe Admin Con
 
 * **컬렉션**: 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 하는 오퍼의 하위 집합입니다.
 
-* **의사 결정**(이전의 오퍼 활동함): 의사 결정에는 오퍼의 선택을 알려주는 논리가 포함됩니다.
+* **결정**: 결정에는 오퍼의 선택을 알리는 논리가 포함되어 있습니다.
 
 * **의사 결정 규칙**: 의사 결정 규칙은 개인화된 오퍼에 추가되고 자격을 결정하기 위해 프로필에 적용되는 제약 조건입니다.
 

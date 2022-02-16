@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ id activityID 및 유형이 OfferActivity인 리소스를 찾을 수 없음<br/>
    <td>이미지 오퍼(결정 및 배치 쌍과 연결된 모든 개인화된 및 폴백)에는 공개 URL이 채워져야 합니다(deliveryURL은 비워 둘 수 없음).</td> 
   </tr> 
   <tr> 
-   <td>결정(이전에 오퍼 활동이라고 함)에는 비프로필 속성이 포함되어 있습니다.</td> 
+   <td>이 결정에는 비프로필 속성이 포함됩니다.</td> 
    <td>오퍼 모델 사용에는 프로필 속성만 포함되어야 합니다.</td> 
   </tr> 
   <tr> 

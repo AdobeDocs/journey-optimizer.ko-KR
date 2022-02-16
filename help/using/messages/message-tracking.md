@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fc6ec2c916f6fbf3d6c6728b5a50ae7e54d9b42f
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
+source-wordcount: '577'
+ht-degree: 3%
 
 ---
 
@@ -52,11 +52,13 @@ ht-degree: 2%
 
    * **[!UICONTROL Landing page]**: 랜딩 페이지에 대한 링크를 삽입합니다. [이 섹션](../landing-pages/get-started-lp.md)에서 자세히 알아보기
 
-   * **[!UICONTROL Unsubscription link]**: 브랜드의 커뮤니케이션 수신을 취소할 링크를 삽입합니다. [이 섹션](consent.md#opt-out-management)에서 옵트아웃 관리에 대해 자세히 알아보십시오.
+   * **[!UICONTROL One click Opt-out]**: 옵트아웃을 확인하지 않고 사용자가 커뮤니케이션에서 빠르게 가입을 해지할 수 있는 링크를 삽입합니다. 추가 정보 [이 섹션](consent.md#one-click-opt-out).
+
+   * **[!UICONTROL External Opt-in/Subscription]**: 브랜드로부터 받는 커뮤니케이션을 수락하려면 링크를 삽입합니다.
+
+   * **[!UICONTROL External Opt-out/Unsubscription]**: 브랜드의 커뮤니케이션 수신을 취소할 링크를 삽입합니다. [이 섹션](consent.md#opt-out-management)에서 옵트아웃 관리에 대해 자세히 알아보십시오.
 
    * **[!UICONTROL Mirror page]**: 웹 브라우저에 이메일 콘텐츠를 표시할 링크를 삽입합니다. 추가 정보 [이 섹션](#mirror-page).
-
-   * **[!UICONTROL Opt-out]**: 옵트아웃을 확인하지 않고 사용자가 커뮤니케이션에서 빠르게 가입을 해지할 수 있는 링크를 삽입합니다. 추가 정보 [이 섹션](#one-click-opt-out-link).
 
    ![](assets/message-tracking-links.png)
 
@@ -66,7 +68,7 @@ ht-degree: 2%
 
 1. 링크가 만들어지더라도 **[!UICONTROL Component settings]** 오른쪽 창입니다.
 
-   * 연필 아이콘을 클릭하여 링크를 편집합니다.
+   * 링크를 편집하고 유형을 변경할 수 있습니다.
    * 해당 옵션을 선택하여 링크에 밑줄을 긋도록 선택할 수 있습니다.
 
    ![](assets/message-tracking-link-settings.png)
@@ -93,34 +95,6 @@ ht-degree: 2%
 
 미러 페이지의 보존 기간은 60일입니다. 이후 미러 페이지는 더 이상 사용할 수 없습니다.
 
-## 옵트아웃 링크를 한 번 클릭 {#one-click-opt-out-link}
-
-수신자가 브랜드로부터 커뮤니케이션 수신을 신속히 해지할 수 있도록 하려면 1번의 클릭으로 이메일 콘텐츠에 옵트아웃 링크를 삽입할 수 있습니다. 이 용량을 사용하면 사용자가 선택을 확인해야 하는 랜딩 페이지로 리디렉션되지 않고 가입 해지 프로세스를 가속화합니다.
-
-이메일에 옵트아웃 링크를 추가하려면 아래 단계를 따르십시오.
-
-1. [링크 삽입](#insert-links) 을(를) 선택합니다. **[!UICONTROL Opt-out]** 를 링크 유형으로 사용할 수 있습니다.
-
-   ![](assets/message-tracking-opt-out.png)
-
-1. 옵트아웃을 적용할 방법을 선택합니다. 채널, id 또는 구독 수준에서
-
-   ![](assets/message-tracking-opt-out-level.png)
-
-   * **[!UICONTROL Channel]**: 옵트아웃은 현재 채널의 프로필 대상(즉, 이메일 주소)에 전송된 향후 메시지에 적용됩니다. 여러 대상이 프로필과 연결되어 있는 경우 옵트아웃은 해당 채널에 대한 프로필의 모든 타겟(즉, 이메일 주소)에 적용됩니다.
-   * **[!UICONTROL Identity]**: 옵트아웃은 현재 메시지에 사용하는 특정 대상(즉, 이메일 주소)에 전송된 향후 메시지에 적용됩니다.
-   * **[!UICONTROL Subscription]**: 옵트아웃은 특정 구독 목록과 연결된 향후 메시지에 적용됩니다. 이 옵션은 현재 메시지가 구독 목록과 연결된 경우에만 선택할 수 있습니다.
-
-1. 사용자가 가입 해지되면 리디렉션될 랜딩 페이지의 URL을 입력합니다. 이 페이지는 옵트아웃이 성공했는지 확인하기 위한 것입니다.
-
-   ![](assets/message-tracking-opt-out-confirmation.png)
-
-   링크를 개인화할 수 있습니다. 의 개인화된 URL에 대해 자세히 알아보십시오 [이 섹션](../personalization/personalization-syntax.md).
-
-1. 변경 내용을 저장합니다.
-
-메시지가 전송되면 수신자가 옵트아웃 링크를 클릭하면 즉시 옵트아웃됩니다.
-
 ## 추적 관리 {#manage-tracking}
 
 다음 [이메일 디자이너](create-email-content.md) 각 링크에 대한 추적 유형 편집과 같이 추적된 URL을 관리할 수 있습니다.
@@ -134,7 +108,6 @@ ht-degree: 2%
    ![](assets/message-tracking-edit-links.png)
 
 1. 을 수정할 수 있습니다 **[!UICONTROL Tracking Type]** 필요한 경우:
-
 
    ![](assets/message-tracking-edit-a-link.png)
 

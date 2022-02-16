@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: bdb7b6373cb9f5a64a74a8503f46adb3fd226f77
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 9%
+source-wordcount: '179'
+ht-degree: 8%
 
 ---
 
@@ -104,4 +104,4 @@ curl -X POST \
 
 ## 제한 사항 {#limitations}
 
-일부 오퍼 제약 조건은 현재 모바일에서 지원되지 않습니다 [!DNL Experience Edge] 워크플로우(예: `Capping`. 다음 `Capping` 필드 값은 모든 사용자에게 오퍼를 제공할 수 있는 횟수를 지정합니다. 자세한 내용은 [오퍼 자격 규칙 및 제한 설명서](../../../offer-library/creating-personalized-offers.md).
+오퍼 표현 및 일부 오퍼 제약 조건은 현재 모바일에서 지원되지 않습니다 [!DNL Experience Edge] 워크플로우(예: `Capping`. 다음 `Capping` 필드 값은 모든 사용자에게 오퍼를 제공할 수 있는 횟수를 지정합니다. 자세한 내용은 [오퍼 자격 규칙 및 제한 설명서](../../../offer-library/creating-personalized-offers.md).

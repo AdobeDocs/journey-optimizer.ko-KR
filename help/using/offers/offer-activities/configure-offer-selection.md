@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '463'
 ht-degree: 5%
 
 ---
 
 # 의사 결정에서 오퍼 선택 구성 {#offers-selection-in-decisions}
 
-지정된 배치에 여러 오퍼가 적격인 경우, 결정을 구성할 때(이전에 오퍼 활동이라고 알려짐) 각 프로필에 대해 가장 적합한 오퍼를 선택하는 방법을 선택할 수 있습니다. 오퍼의 등급을 다음과 같이 지정할 수 있습니다.
+지정된 배치에 여러 오퍼가 적합한 경우 결정을 구성할 때 각 프로필에 대해 가장 적합한 오퍼를 선택하는 방법을 선택할 수 있습니다. 오퍼의 등급을 다음과 같이 지정할 수 있습니다.
 * 오퍼 우선 순위
 * 등급 공식
 * [AI 순위](#use-ranking-strategy) (일부 사용자에게만 얼리 액세스 시)
@@ -24,7 +24,7 @@ ht-degree: 5%
 
 ## 오퍼 우선 순위 {#offer-priority}
 
-기본적으로 몇 개의 오퍼가 결정(이전에 오퍼 활동이라고 함)에서 주어진 배치에 참가할 수 있는 경우 오퍼가 가장 높은 오퍼입니다 **우선순위** 은 고객에게 먼저 전달됩니다.
+기본적으로 여러 오퍼가 결정에서 주어진 배치에 적격인 경우 오퍼가 가장 높은 오퍼입니다 **우선순위** 은 고객에게 먼저 전달됩니다.
 
 ![](../../assets/offer-priority.png)
 
@@ -38,7 +38,7 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 공식**. 오
 
 에서 등급 공식을 만드는 방법을 알아봅니다 [이 섹션](../offer-library/create-ranking-formulas.md).
 
-등급 공식이 만들어지면 결정(이전에 오퍼 활동이라고 함)의 배치에 할당할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
+등급 공식이 만들어지면 결정에서 배치에 할당할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
 
 1. 결정을 만들거나 기존 결정을 편집합니다. [의사 결정 만들기](../offer-activities/create-offer-activities.md)를 참조하십시오.
 
@@ -60,13 +60,15 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 공식**. 오
 
 ## AI 등급 {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+
+등급 전략을 선택하여 주어진 프로필에 대해 표시할 오퍼의 등급을 자동으로 지정하는 숙련된 모델 시스템을 사용할 수도 있습니다. 에서 등급 전략을 만드는 방법을 알아봅니다. [이 섹션](../offer-library/create-ranking-strategies.md).
 
 >[!CAUTION]
 >
 >현재 AI 등급을 사용하여 사용자를 선택하기만 하면 조기 액세스에서 사용할 수 있습니다.
 
-등급 전략이 만들어지면 결정(이전에 오퍼 활동이라고 함)의 배치에 할당할 수 있습니다. 이렇게 하려면 아래 단계를 수행하십시오.
+등급 전략이 만들어지면 결정에서 배치에 할당할 수 있습니다. 이렇게 하려면 아래 단계를 수행하십시오.
 
 1. 결정을 만들거나 기존 결정을 편집합니다. [의사 결정 만들기](../offer-activities/create-offer-activities.md)를 참조하십시오.
 

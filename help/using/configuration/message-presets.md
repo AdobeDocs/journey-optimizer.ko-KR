@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
+source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 1%
+source-wordcount: '1694'
+ht-degree: 2%
 
 ---
 
@@ -44,76 +44,11 @@ ht-degree: 1%
    >
    > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
 
-1. 구성 **이메일** 설정.
+1. 구성 **이메일** 설정. [자세히 알아보기](#configure-email-settings)
 
-   ![](../assets/preset-email.png)
+1. 구성 **푸시 알림** 설정. [자세히 알아보기](#configure-push-settings)
 
-   * 사전 설정으로 전송할 메시지 유형을 선택합니다. **트랜잭션** 또는 **마케팅**
-
-      >[!CAUTION]
-      >
-      > **트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필로 메시지를 보낼 수 있습니다. 이러한 메시지는 암호 재설정, 주문 상태, 게재 알림 등과 같은 특정 컨텍스트에서만 보낼 수 있습니다.
-
-   * 이메일을 보내는 데 사용할 하위 도메인을 선택합니다. [자세히 알아보기](about-subdomain-delegation.md)
-   * 사전 설정과 연결할 IP 풀을 선택합니다. [자세히 알아보기](ip-pools.md)
-   * 해당 사전 설정을 사용하여 보낸 전자 메일의 헤더 매개 변수를 입력합니다.
-
-      >[!CAUTION]
-      >
-      >이메일 주소는 현재 선택한 주소를 사용해야 합니다 [위임된 하위 도메인](about-subdomain-delegation.md).
-
-      * **[!UICONTROL Sender name]**: 브랜드 이름과 같은 발신자의 이름입니다.
-
-      * **[!UICONTROL Sender email]**: 통신에 사용할 이메일 주소입니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*, 다음 사용 가능 *contact@marketing.luma.com*.
-
-      * **[!UICONTROL Reply to (name)]**: 수신자가 **회신** 버튼을 클릭합니다.
-
-      * **[!UICONTROL Reply to (email)]**: 수신자가 **회신** 버튼을 클릭합니다. 위임된 하위 도메인에 정의된 주소를 사용해야 합니다(예: *reply@marketing.luma.com*). 그렇지 않으면 이메일이 삭제됩니다.
-
-      * **[!UICONTROL Error email]**: 이 주소에는 배달되는 며칠 후 ISP에서 생성한 모든 오류(비동기 바운스)가 수신됩니다.
-      >[!NOTE]
-      >
-      >2021년 10월 릴리스부터 의 정방향 이메일 주소를 더 이상 정의할 수 없습니다 [!DNL Journey Optimizer] 사용자 인터페이스. 모든 전자 메일을 받는 데 필요한 경우 [!DNL Journey Optimizer] 특정 이메일 주소로 전달될 위임된 하위 도메인은 [Adobe 고객 지원 지원 팀](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
-
-      ![](../assets/preset-header.png)
-
-      >[!NOTE]
-      >
-      >이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
-
-   * 구성 **전자 메일 다시 시도 매개 변수**. 기본적으로 [재시도 기간](retries.md#retry-duration) 은 84시간으로 설정되어 있지만 이 설정을 필요에 더 잘 맞게 조정할 수 있습니다.
-
-      ![](../assets/preset-retry-paramaters.png)
-
-      다음 범위 내에 정수 값(시간 또는 분 단위)을 입력해야 합니다.
-      * 마케팅 이메일 유형의 경우 최소 재시도 기간은 6시간입니다.
-      * 트랜잭션 이메일 유형의 경우 최소 다시 시도 기간은 10분입니다.
-      * 두 이메일 유형의 경우 최대 다시 시도 기간은 84시간(또는 5040분)입니다.
-
-
-1. 구성 **푸시 알림** 설정.
-
-   ![](../assets/preset-push.png)
-
-   * 하나 이상의 플랫폼을 선택하십시오. **iOS** 및/또는 **Android**
-
-   * 각 플랫폼에 사용할 모바일 애플리케이션을 선택합니다.
-
-      푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../messages/push-gs.md).
-
-<!--
-1. Configure the **SMS** settings.
-
-     ![](../assets/preset-sms.png)
-
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
-    
-    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
+   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL Submit]** 확인합니다. 메시지 사전 설정을 초안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 
@@ -140,6 +75,78 @@ ht-degree: 1%
 1. 확인이 성공하면 메시지 사전 설정이 **[!UICONTROL Active]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
    ![](../assets/preset-active.png)
+
+## 전자 메일 설정 구성 {#configure-email-settings}
+
+![](../assets/preset-email.png)
+
+1. 사전 설정으로 전송할 메시지 유형을 선택합니다. **트랜잭션** 또는 **마케팅**.
+
+   >[!CAUTION]
+   >
+   > **트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필로 메시지를 보낼 수 있습니다. 이러한 메시지는 암호 재설정, 주문 상태, 게재 알림 등과 같은 특정 컨텍스트에서만 보낼 수 있습니다.
+
+1. 이메일을 보내는 데 사용할 하위 도메인을 선택합니다. [자세히 알아보기](about-subdomain-delegation.md)
+
+1. 사전 설정과 연결할 IP 풀을 선택합니다. [자세히 알아보기](ip-pools.md)
+
+1. 해당 사전 설정을 사용하여 보낸 전자 메일의 헤더 매개 변수를 입력합니다.
+
+   >[!CAUTION]
+   >
+   >이메일 주소는 현재 선택한 주소를 사용해야 합니다 [위임된 하위 도메인](about-subdomain-delegation.md).
+
+   * **[!UICONTROL Sender name]**: 브랜드 이름과 같은 발신자의 이름입니다.
+
+   * **[!UICONTROL Sender email]**: 통신에 사용할 이메일 주소입니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*, 다음 사용 가능 *contact@marketing.luma.com*.
+
+   * **[!UICONTROL Reply to (name)]**: 수신자가 **회신** 버튼을 클릭합니다.
+
+   * **[!UICONTROL Reply to (email)]**: 수신자가 **회신** 버튼을 클릭합니다. 위임된 하위 도메인에 정의된 주소를 사용해야 합니다(예: *reply@marketing.luma.com*). 그렇지 않으면 이메일이 삭제됩니다.
+
+   * **[!UICONTROL Error email]**: 이 주소에는 배달되는 며칠 후 ISP에서 생성한 모든 오류(비동기 바운스)가 수신됩니다.
+   >[!NOTE]
+   >
+   >2021년 10월 릴리스부터 의 정방향 이메일 주소를 더 이상 정의할 수 없습니다 [!DNL Journey Optimizer] 사용자 인터페이스. 모든 전자 메일을 받는 데 필요한 경우 [!DNL Journey Optimizer] 특정 이메일 주소로 전달될 위임된 하위 도메인은 [Adobe 고객 지원 지원 팀](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+
+   ![](../assets/preset-header.png)
+
+   >[!NOTE]
+   >
+   >이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
+
+1. 구성 **전자 메일 다시 시도 매개 변수**. 기본적으로 [재시도 기간](retries.md#retry-duration) 은 84시간으로 설정되어 있지만 이 설정을 필요에 더 잘 맞게 조정할 수 있습니다.
+
+   ![](../assets/preset-retry-paramaters.png)
+
+   다음 범위 내에 정수 값(시간 또는 분 단위)을 입력해야 합니다.
+   * 마케팅 이메일 유형의 경우 최소 재시도 기간은 6시간입니다.
+   * 트랜잭션 이메일 유형의 경우 최소 다시 시도 기간은 10분입니다.
+   * 두 이메일 유형의 경우 최대 다시 시도 기간은 84시간(또는 5040분)입니다.
+
+## 푸시 설정 구성 {#configure-push-settings}
+
+1. 하나 이상의 플랫폼을 선택하십시오. **iOS** 및/또는 **Android**.
+
+1. 각 플랫폼에 사용할 모바일 애플리케이션을 선택합니다.
+
+![](../assets/preset-push.png)
+
+푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../messages/push-gs.md).
+
+<!--
+## Configure SMS settings {#configure-sms-settings}
+
+1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
+
+    ![](../assets/preset-sms.png)
+    
+1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+        
+    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+
+1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+-->
 
 ## 메시지 사전 설정 모니터링 {#monitor-message-presets}
 

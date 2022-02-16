@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 3e22c572ba05f1d084c87e550c80f521e39d7520
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 3%
@@ -46,8 +46,8 @@ ht-degree: 3%
 >id="ac_preview_testprofiles"
 >title="메시지 미리 보기 및 테스트"
 >abstract="메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="이메일 렌더링"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="미리 보기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/validate/preview.html?lang=en#email-rendering" text="이메일 렌더링"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/validate/preview.html?lang=en#preview-your-messages" text="미리 보기"
 
 사용 [테스트 프로필](../building-journeys/creating-test-profiles.md) 정의한 타겟팅 기준과 일치하지 않는 추가 수신자를 타겟팅합니다.
 

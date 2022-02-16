@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '251'
 ht-degree: 4%
 
 ---
 
 # 의사 결정 나열 {#list-decisions}
 
-결정(이전에 오퍼 활동이라고 함)에는 오퍼의 선택을 알리는 로직이 포함되어 있습니다.
+결정에는 오퍼의 선택을 알리는 논리가 포함되어 있습니다.
 
 에 대한 단일 GET 요청을 수행하여 컨테이너 내의 모든 결정 목록을 볼 수 있습니다 [!DNL Offer Library] API.
 
