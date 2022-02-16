@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 * 등급 전략을 사용할 때 이벤트 유형을 보낼 수 있어야 하는 스키마 요구 사항에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
-* 관련 섹션 [!DNL Journey Optimizer] 개인화 기능이 재구성되어 더 나은 가독성을 갖습니다. [자세히 보기](../personalization/personalize.md)
+* 가독성 개선을 위해 [!DNL Journey Optimizer] 개인화 기능 관련 섹션을 재구성했습니다. [자세히 보기](../personalization/personalize.md)
 
 * 메시지 사전 설정 만들기 섹션을 몇 개의 섹션으로 나누어서 명확성을 개선했습니다. [자세히 보기](../configuration/message-presets.md#create-message-preset)
 
@@ -109,7 +109,7 @@ ht-degree: 93%
 * 홈페이지 이미지를 최적화했습니다.
 * &#39;메시지 추적&#39; 섹션을 &#39;링크 및 추적 메시지 추가&#39;로 옮겨서 개선했으며 이름을 변경했습니다. [자세히 보기](../messages/message-tracking.md)
 * 미러 페이지에 하위 섹션을 추가했습니다. [자세히 보기](../messages/message-tracking.md#mirror-page)
-* 문서 및 화면에서 &#39;오퍼 활동&#39;을 &#39;결정&#39; 및 &#39;결정&#39; 을 &#39;결정 범위&#39;로 이름을 변경했습니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
+* 문서 및 화면에서 &#39;오퍼 활동&#39;의 이름을 &#39;결정&#39;으로, &#39;결정&#39;의 이름을 &#39;결정 범위&#39;로 변경했습니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
 * 새로운 사용 사례: [도우미 함수를 사용한 메시지 개인화](../personalization/personalization-use-case-helper-functions.md)
 * 구체화된 세그먼트 영향을 반영하도록 세그먼트 읽기 설명서를 업데이트했습니다. [자세히 보기](../building-journeys/read-segment.md)
 * 여정 제한을 업데이트했습니다. [자세히 보기](../start/limitations.md)

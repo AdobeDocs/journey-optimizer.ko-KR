@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '2416'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 * 게시된 메시지에서 직접 또는 간접적으로 참조되는 오퍼, 대체 오퍼, 오퍼 컬렉션 또는 오퍼 결정을 업데이트하면 이제 다시 게시할 필요 없이 업데이트가 해당 메시지에 자동으로 반영됩니다. [자세히 알아보기](../offers/offers-e2e.md#insert-decision-in-email)
 
-* 주어진 테스트 프로필에 대해 제공될 오퍼를 시뮬레이션할 때 이제 기본 시뮬레이션 설정을 수정하고 문제 해결 용도로 사용할 수 있는 시뮬레이션에 해당하는 코드를 볼 수 있습니다. [자세히 알아보기](../offers/offer-activities/simulation.md#define-simulation-settings)
+* 이제 주어진 테스트 프로필에 게재할 오퍼 시뮬레이션 시 기본 시뮬레이션 설정을 수정하고 시뮬레이션에 해당하는 코드를 볼 수 있습니다. 코드는 문제 해결용으로 사용할 수 있습니다. [자세히 알아보기](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **관리**
 

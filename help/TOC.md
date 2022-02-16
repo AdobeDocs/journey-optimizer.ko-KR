@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9db2ec80a23add5d5d01affaf1a7e7772952d487
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 98%
    + 표현식 작성 {#build-expressions}
       + [개인화 구문](using/personalization/personalization-syntax.md)
       + 표현식 편집기 작업 {#expression-editor}
-         + [표현식 편집기](using/personalization/personalization-build-expressions.md)
+         + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
          + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
          + [개인화 유효성 검사](using/personalization/personalization-validation.md)
       + 도우미 함수{#functions}

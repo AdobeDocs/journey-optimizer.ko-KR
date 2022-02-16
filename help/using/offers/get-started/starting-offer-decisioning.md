@@ -1,6 +1,6 @@
 ---
 title: 의사 결정 관리 시작
-description: 의사 결정 관리를 시작합니다. 아키텍처, 오퍼 및 의사 결정 뿐만 아니라 사용자가 수행할 수 있는 일반적인 사용 사례에 대해 자세히 알아보십시오
+description: 의사 결정 관리를 시작합니다. 아키텍처, 오퍼, 의사 결정과, 의사 결정 관리를 통해 수행할 수 있는 널리 쓰이는 사용 사례에 대해 자세히 알아봅니다.
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->만약 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target=&quot;_blank&quot;} 사용자가 **offer decisioning** 응용 프로그램 서비스에서는 이 섹션에 설명된 모든 의사 결정 관리 기능이 적용됩니다.
+>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target=&quot;_blank&quot;} 사용자가 **Offer Decisioning** 애플리케이션 서비스를 활용하면 이 섹션에서 설명하는 [의사 결정 관리] 기능을 모두 사용할 수 있습니다.
 
 의사 결정 관리 기능은 다음 두 가지 주요 구성 요소로 이루어집니다.
 
@@ -34,7 +34,7 @@ ht-degree: 85%
 * 워크플로우 개선: 마케팅 팀은 게재 또는 캠페인을 여러 개 만드는 대신 하나의 게재를 만들어 워크플로우를 개선하고 템플릿의 여러 부분에서 오퍼에 변화를 줄 수 있습니다,
 * 캠페인 및 고객 측면에 표시될 오퍼 횟수를 제어합니다.
 
-➡️ [이 튜토리얼 비디오를 시청하십시오](#tutorial-videos) 결정 관리에 대해 자세히 알아보십시오.
+➡️ [의사 결정 관리]에 대한 자세한 내용은 [튜토리얼 비디오를 참조](#tutorial-videos)하세요.
 
 ## 오퍼 및 의사 결정 정보 {#about-offers-and-decisions}
 
@@ -64,13 +64,13 @@ ht-degree: 85%
 
    ![](../../assets/do-not-localize/call-center.png)
 
-## 의사 결정 관리에 대한 액세스 권한 부여 {#granting-acess-to-decision-management}
+## 의사 결정 관리 액세스 권한 부여 {#granting-acess-to-decision-management}
 
-offer decisioning 기능에 액세스하고 사용할 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+offer decisioning 기능의 액세스 및 사용 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}을 통해 관리할 수 있습니다.
 
-의사 결정 관리 기능에 대한 액세스 권한을 부여하려면 **[!UICONTROL Product profile]** 사용자에게 해당 권한을 할당합니다. 관리에 대해 자세히 알아보기 [!DNL Journey Optimizer] 사용자 및 권한 [이 섹션](../../administration/permissions.md).
+[의사 결정 관리] 기능에 대한 액세스 권한을 부여하려면 **[!UICONTROL Product profile]**&#x200B;을 만들고 사용자에게 해당 권한을 할당합니다. [!DNL Journey Optimizer]의 사용자 및 권한 관리에 대한 자세한 정보는 [이 섹션](../../administration/permissions.md)을 참조하세요.
 
-결정 관리에 대한 권한은 다음과 같습니다. [이 섹션](../../administration/high-low-permissions.md#decisions-permissions).
+[의사 결정 관리]에 대한 권한 목록은 [이 섹션](../../administration/high-low-permissions.md#decisions-permissions)에서 확인할 수 있습니다.
 
 ## 용어집 {#glossary}
 
@@ -107,7 +107,7 @@ offer decisioning 기능에 액세스하고 사용할 권한은 [Adobe Admin Con
 
 >[!NOTE]
 >
->이러한 비디오는 Adobe Experience Platform을 기반으로 구축된 Offer Decisioning 애플리케이션 서비스에 적용되며 [!DNL Adobe Journey Optimizer]에만 국한되지 않습니다. 그러나 다음과 같은 맥락에서 의사 결정 관리를 사용하기 위한 일반적인 지침을 제공합니다 [!DNL Journey Optimizer].
+>이러한 비디오는 Adobe Experience Platform을 기반으로 구축된 Offer Decisioning 애플리케이션 서비스에 적용되며 [!DNL Adobe Journey Optimizer]에만 국한되지 않습니다. 하지만, 이 지침에서는 [!DNL Journey Optimizer]를 사용하는 맥락에서 [의사 결정 관리]를 사용하기 위한 일반적인 지침을 제공합니다.
 
 ### 의사 결정 관리란? {#what-is-offer-decisioning}
 
