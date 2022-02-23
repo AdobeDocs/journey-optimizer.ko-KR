@@ -1,26 +1,35 @@
 ---
 solution: Journey Orchestration
-title: 사용자 지정 작업 구성 정보
+title: 사용자 지정 작업 구성
 description: 사용자 지정 작업을 구성하는 방법 알아보기
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: a101ee8cd7b57ee951d0ef2d5fd366757cb0a014
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '863'
 ht-degree: 6%
 
 ---
 
-# 작업 구성 {#configure-an-action}
+# 사용자 지정 작업 구성 {#configure-an-action}
 
-서드파티 시스템을 사용하여 메시지를 보내거나 여정이 서드파티 시스템에 API 호출을 전송하도록 하려는 경우 여기에서 여정에 대한 연결을 구성합니다. 기술 사용자가 정의한 사용자 정의 작업은 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 카테고리(참조) [이 페이지](../building-journeys/about-journey-activities.md#action-activities). 다음은 사용자 지정 작업에 연결할 수 있는 시스템의 몇 가지 예입니다. Epsilon, Slack, Adobe.io, Firebase 등
+서드파티 시스템을 사용하여 메시지를 보내거나 여정이 서드파티 시스템에 API 호출을 전송하도록 하려면 사용자 지정 작업을 사용하여 여정에 대한 연결을 구성하십시오. 예를 들어 사용자 지정 작업으로 다음 시스템에 연결할 수 있습니다. Epsilon, Slack, Adobe.io, Firebase 등
 
-제한 사항은 [이 페이지](../start/limitations.md).
+사용자 지정 작업은 기술 사용자가 정의하며 마케터가 사용할 수 있는 추가 작업입니다. 구성되면 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 카테고리. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)에서 자세히 알아보십시오.
 
-사용자 지정 작업을 사용하여 컬렉션을 동적으로 전달할 수 있습니다. 다음을 참조하십시오 [사용 사례](../building-journeys/collections.md).
+## 제한 사항{#custom-actions-limitations}
+
+사용자 지정 작업은 다음과 같은 몇 가지 제한 사항이 있습니다. [이 페이지](../start/limitations.md).
+
+사용자 지정 작업 매개 변수에서는 간단한 컬렉션과 객체 컬렉션을 전달할 수 있습니다. 의 컬렉션 제한 사항에 대해 자세히 알아보십시오 [이 페이지](../building-journeys/collections.md#limitations).
+
+사용자 지정 작업 매개 변수에는 예상 형식(예: 문자열, 십진수 등.) 이러한 예상 형식을 준수하도록 주의해야 합니다. 자세한 내용 [사용 사례](../building-journeys/collections.md).
+
+
+## 구성 단계 {#configuration-steps}
 
 사용자 지정 작업을 구성하는 데 필요한 주요 단계는 다음과 같습니다.
 

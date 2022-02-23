@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
+source-git-commit: c9f260444e1cd20e66421a87dd62c5ae7209ee06
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 5%
@@ -59,7 +59,7 @@ ht-degree: 5%
 
 1. 설정 **[!UICONTROL Throttling rate]** 필드를 세그먼트 읽기 활동의 처리량 제한에 추가합니다.
 
-   이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 초당 17,000개의 메시지입니다. 이 값은 초당 500~17,000개의 메시지로 수정할 수 있습니다.
+   이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 초당 20,000개의 메시지입니다. 이 값은 초당 500~20,000개의 메시지에서 수정할 수 있습니다.
 
    >[!NOTE]
    >

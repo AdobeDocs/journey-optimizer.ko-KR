@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >여러 여정에서 메시지가 사용된 경우, 각 실행에 대해 여정 당 하나의 행이 표시됩니다.
 
-기본적으로 메시지는 가장 최근 실행 날짜부터 표시됩니다. 을(를) 클릭합니다. **[!UICONTROL Filters]** 아이콘을 사용하여 채널, 시작 날짜 및/또는 종료 날짜에 따라 메시지를 검색할 수 있습니다.
+기본적으로 메시지는 가장 최근 실행 날짜부터 표시됩니다. 을(를) 클릭합니다. **[!UICONTROL Filters]** 아이콘을 사용하여 채널, 시작 날짜 및/또는 종료 날짜에 따라 메시지를 검색할 수 있습니다. 또한 테스트 이벤트를 **실행 목록**.
 
 ![](assets/message-execution-tab-filters.png)
 

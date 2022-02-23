@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 16%
+source-wordcount: '105'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 16%
 | 매개 변수 | 유형 |
 |-----------|--------------|
 | 기본 | string |
-| target | string |
+| target | 문자열(RegExp) |
 | 교체 | string |
 
 ## 서명 및 반환된 형식
@@ -41,8 +41,10 @@ ht-degree: 16%
 
 문자열을 반환합니다.
 
-## 예
+## 예{#example}
 
 `replaceAll("Hello World", "l", "x")`
 
 &quot;Hexxo Worxd&quot;를 반환합니다.
+
+target 매개 변수는 RegExp이므로 바꿀 문자열에 따라 일부 문자를 이스케이프 처리해야 할 수 있습니다. 의 예를 참조하십시오. [이 페이지](../functions/functionreplace.md#example_2).

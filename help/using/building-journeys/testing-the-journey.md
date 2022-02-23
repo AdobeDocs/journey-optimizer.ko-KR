@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: cae74818e60abc97cd8eb5ccd3f4337af591f488
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1625'
 ht-degree: 2%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 2%
 * 테스트 모드를 필요한 만큼 활성화/비활성화할 수 있습니다.
 * 테스트 모드가 활성화되면 여정을 수정할 수 없습니다. 테스트 모드에서는 여정을 직접 게시할 수 있으며, 이전에 테스트 모드를 비활성화할 필요가 없습니다.
 * 분할에 도달하면 위쪽 분기가 항상 선택됩니다. 테스트에서 다른 경로를 선택하도록 하려면 분할 분기의 위치를 재구성할 수 있습니다.
+* 성능을 최적화하고 오래된 리소스 사용을 방지하기 위해, 1주일 동안 트리거되지 않은 테스트 모드의 모든 여정은 다시 초안 상태로 전환됩니다.
 
 ## 이벤트 실행 {#firing_events}
 

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: a51b19413d2b4894adfaa8249ee4f5d404ac7123
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 13%
+source-wordcount: '1443'
+ht-degree: 14%
 
 ---
 
@@ -67,7 +67,6 @@ ht-degree: 13%
 
    ![](../assets/jo-event7.png)
 
-1. 시스템 생성 이벤트의 경우 조건을 추가할 수 있습니다. 조건을 추가합니다. 조건을 추가하면 시스템은 조건을 충족하는 이벤트만 처리합니다. 조건은 이벤트에 포함된 정보를 기준으로만 추가할 수 있습니다. [이 섹션](../event/about-creating.md#add-a-condition)을 참조하십시오.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    이제 이벤트가 구성되었으며 경로에 추가할 수 있는 상태가 되었습니다. 이벤트를 수신하려면 추가 구성 단계를 수행해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
@@ -145,18 +144,6 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 키가 여정에 있는지 확인하는 데에도 사용됩니다. 실제로, 한 사람은 동일한 여정에서 두 개의 다른 위치에 있을 수 없습니다. 따라서 시스템에서 동일한 키(예: CRMID=3224)를 동일한 여정의 다른 위치에 둘 수 없습니다.
 
 고급 표현식 함수(**[!UICONTROL Advanced mode]**) 추가 조작을 수행하려면 다음을 수행합니다. 이러한 함수를 사용하면 필드의 일부(예: 첫 번째 문자 10개)를 고려하여 형식 변경, 필드 연결 수행 등 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다. 자세한 내용은 [Journey Orchestration 설명서](../building-journeys/expression/expressionadvanced.md).
-
-## 조건 추가 {#add-a-condition}
-
-조건은 시스템에서 생성한 이벤트에만 사용할 수 있습니다. 시스템에서 이벤트 처리를 필터링할 수 있는 이벤트 조건을 정의할 수 있습니다. 조건이 true면 이벤트가 처리됩니다. 조건이 true가 아니면 이벤트가 무시됩니다.
-
-이벤트에 대한 조건은 이벤트 페이로드에서 전달된 데이터만 기반으로 할 수 있습니다. 이벤트 수준에서 정의된 조건은 마케터가 캔버스에서 변경할 수 없습니다. 이 이벤트를 사용할 때 이 조건을 제한하는 것이 목적입니다. 예를 들어 장바구니 값이 너무 작은 경우 장바구니 포기 이벤트를 사용하지 않도록 하려면 &quot;장바구니 값&quot; 이벤트 필드에 조건을 만들고 100달러 이상의 값을 부과할 수 있습니다.
-
-단순 표현식 편집기 또는 고급 표현식 편집기를 사용하여 이벤트에 대한 조건을 설정할 수 있습니다. 자세한 내용은 [Journey Orchestration 설명서](../building-journeys/expression/expressionadvanced.md).
-
-예를 들어 특정 이벤트 유형의 이벤트만 처리하고 다른 유형을 무시할 조건을 정의할 수 있습니다. 또는 이벤트가 장바구니 중단이고 페이로드에 장바구니 값 필드가 포함된 경우 장바구니 값이 100달러보다 큰 경우에만 이벤트를 처리하도록 이벤트 조건을 정의할 수 있습니다.
-
-![](../assets/journey78.png)
 
 ## 페이로드 미리 보기 {#preview-the-payload}
 

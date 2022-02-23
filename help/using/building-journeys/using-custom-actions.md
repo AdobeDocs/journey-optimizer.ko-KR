@@ -1,35 +1,29 @@
 ---
 title: 사용자 지정 작업 사용
 description: 사용자 지정 작업 사용 방법 알아보기
-feature: Journeys
+feature: Actions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 6%
+ht-degree: 19%
 
 ---
 
 # 사용자 지정 작업 사용 {#use-custom-actions}
 
-활동 구성 창에는 사용자 지정 작업에 대해 구성된 URL 구성 매개 변수와 인증 매개 변수가 표시됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md).
-
->[!NOTE]
->
->사용자 지정 작업 매개 변수에는 단순 컬렉션을 전달할 수 없습니다. 더 복잡한 컬렉션 필드(개체 배열)는 지원되지 않습니다.  매개 변수에는 예상 형식(예: 문자열, 십진수 등.) 이러한 예상 형식을 준수하도록 주의해야 합니다.
+사용자 지정 작업에서는 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다. JSON 형식 페이로드를 사용하여 REST API를 통해 호출할 수 있는 모든 공급자의 어떤 서비스로든 작업을 구성할 수 있습니다.
 
 ## URL 구성
+
+의 구성 창 **사용자 지정 작업** 활동은 사용자 지정 작업에 대해 구성된 URL 구성 매개 변수와 인증 매개 변수를 보여줍니다. 여정에서 URL의 정적 부분을 설정할 수 없지만 사용자 지정 작업의 전역 구성에서는 설정할 수 없습니다. [자세히 알아보기](../action/about-custom-action-configuration.md).
 
 ### 동적 경로
 
 URL에 동적 경로가 포함된 경우에는 경로에 **[!UICONTROL Path]** 필드.
-
->[!NOTE]
->
->여정에서 URL의 정적 부분을 설정할 수 없지만 사용자 지정 작업의 전역 구성에서는 설정할 수 없습니다. [자세히 알아보기](../action/about-custom-action-configuration.md).
 
 필드와 일반 텍스트 문자열을 연결하려면 고급 표현식 편집기에서 String 함수 또는 Plus 기호(+)를 사용하십시오. 일반 텍스트 문자열을 작은따옴표(&#39;)로 묶거나 큰따옴표(&quot;)로 묶습니다. [자세히 알아보기](expression/expressionadvanced.md).
 
