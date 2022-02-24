@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c4b79ad4291d6206fbbbe831ea10b76b431389f
+source-git-commit: 97d5a5c3432d531fc11a212b9067323b93fc93bb
 workflow-type: tm+mt
-source-wordcount: '2611'
-ht-degree: 93%
+source-wordcount: '2642'
+ht-degree: 92%
 
 ---
 
@@ -35,21 +35,21 @@ ht-degree: 93%
 </tbody>
 </table-->
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Expression Personalization Library</strong><br/></th>
+<th><strong>표현식 개인화 라이브러리</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer now provides a library where you can access predefined personalization expressions. These expressions are configured by Admin users.</p>
-<!--p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-case.md">sample use case</a>.</p>
+<p>이제 Journey Optimizer에서 사전 정의된 개인화 표현식에 액세스할 수 있는 라이브러리를 제공합니다. 이러한 표현식은 관리자 사용자가 구성합니다.</p>
+<p>자세한 내용은 <a href="../personalization/personalization-library.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <!--table>

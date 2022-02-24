@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -58,8 +58,8 @@ ht-degree: 3%
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. 에서 **[!UICONTROL Edit HTML]** 창에서 `upperCase` 문자열 함수:
-   1. 목록에서 **[!UICONTROL Helper functions]**.
-   1. 검색 필드를 사용하여 &quot;대문자&quot;를 찾습니다.
+   1. 왼쪽 메뉴에서 **[!UICONTROL Helper functions]**.
+   1. 검색 필드를 사용하여 &quot;상위 사례&quot;를 찾습니다.
    1. 검색 결과에서 을(를) 추가합니다. `upperCase` 함수 위에 있어야 합니다. 이렇게 하려면 옆에 있는 더하기(+) 기호를 클릭합니다 `{%= upperCase(string) %}: string`.
 
       표현식 편집기에 다음 표현식이 표시됩니다.
@@ -72,8 +72,8 @@ ht-degree: 3%
 
 1. 표현식에서 &quot;string&quot; 자리 표시자를 제거합니다.
 1. 이름 토큰 추가:
-   1. 목록에서 **[!UICONTROL Profile]**.
-   1. 선택 **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. 왼쪽 메뉴에서 **[!UICONTROL Profile attributes]**.
+   1. 선택 **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    1. 추가 **[!UICONTROL First name]** 토큰으로 바꿉니다.
 
       표현식 편집기에 다음 표현식이 표시됩니다.
@@ -84,7 +84,7 @@ ht-degree: 3%
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      개인 이름 데이터 유형에 대해 자세히 알아보기 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
+      의 개인 이름 데이터 유형에 대해 자세히 알아보십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 1. **[!UICONTROL Validate]**&#x200B;를 클릭한 다음 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
@@ -126,7 +126,7 @@ ht-degree: 3%
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. 에서 **[!UICONTROL Edit HTML]** 창에서 `each` 도우미:
-   1. 목록에서 **[!UICONTROL Helper functions]**.
+   1. 왼쪽 메뉴에서 **[!UICONTROL Helper functions]**.
    1. 검색 필드를 사용하여 &quot;각&quot;을 찾습니다.
    1. 검색 결과에서 을(를) 추가합니다. `each` 도우미.
 
@@ -141,9 +141,9 @@ ht-degree: 3%
 1. 추가 `productListItems` 배열에 있는 값:
 
    1. 표현식에서 &quot;someArray&quot; 자리 표시자를 제거합니다.
-   1. 목록에서 **[!UICONTROL Context]**.
+   1. 왼쪽 메뉴에서 **[!UICONTROL Contextual attributes]**.
 
-      다음 **[!UICONTROL Context]** 옵션이 메시지에 전달되어야 여정 컨텍스트를 사용할 수 있습니다.
+      **[!UICONTROL Contextual attributes]** 여정 컨텍스트이 메시지에 전달된 후에만 사용할 수 있습니다.
 
    1. 선택 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** 다음 **[!UICONTROL productListItems]** 노드 아래에 있어야 합니다.
 
@@ -218,7 +218,7 @@ ht-degree: 3%
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. 에서 **[!UICONTROL Edit HTML]** 창에서 `if` 도우미:
-   1. 목록에서 **[!UICONTROL Helper functions]**.
+   1. 왼쪽 메뉴에서 **[!UICONTROL Helper functions]**.
    1. 검색 필드를 사용하여 &quot;if&quot;를 찾습니다.
    1. 검색 결과에서 을(를) 추가합니다. `if` 도우미.
 
@@ -248,7 +248,7 @@ ht-degree: 3%
 
 1. 조건에 제품 이름 토큰을 추가합니다.
    1. 표현식에서 &quot;condition1&quot; 자리 표시자를 제거합니다.
-   1. 목록에서 **[!UICONTROL Context]**.
+   1. 왼쪽 메뉴에서 **[!UICONTROL Contextual attributes]**.
    1. 선택 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** 다음 **[!UICONTROL productListItems]** 노드 아래에 있어야 합니다.
 
       이 예제에서는 *event_name* 은 이벤트 이름을 나타냅니다.
