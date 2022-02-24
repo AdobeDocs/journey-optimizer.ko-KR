@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 894876a79d118ff65738089ecfc89b3cbdcd8d82
+source-git-commit: 7565af5c8497caa4fc34e0cf399e1c5180982891
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 1%
@@ -100,7 +100,7 @@ ht-degree: 1%
 
 ### 하위 도메인 및 IP 풀 {#subdomains-and-ip-pools}
 
-에서 **하위 도메인 및 IP PPOL 세부 정보** 섹션:
+에서 **하위 도메인 및 IP 풀 세부 정보** 섹션:
 
 1. 이메일을 보내는 데 사용할 하위 도메인을 선택합니다. [자세히 알아보기](about-subdomain-delegation.md)
 
