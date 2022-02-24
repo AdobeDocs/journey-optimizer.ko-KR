@@ -1,12 +1,12 @@
 ---
 title: 샌드박스 관리
 description: 샌드박스를 관리하는 방법 알아보기
-feature: Control Groups
+feature: Sandboxes
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 7d466d87c337053b32489df6dedbfd4c350230bb
+source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 66%
@@ -21,7 +21,7 @@ ht-degree: 66%
 샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. [샌드박스를 할당하는 방법을 알아봅니다](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] (은)는 해당 조직을 위해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
-Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. [자세한 내용은 샌드박스 사용 안내서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko){target=&quot;_blank&quot;}.
+Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. [자세한 내용은 샌드박스 사용 안내서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;}.
 
 조직 이름 옆에 있는 화면의 오른쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.
 
