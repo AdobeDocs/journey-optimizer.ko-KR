@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,3 +60,10 @@ ht-degree: 1%
 오퍼 표현에 텍스트 유형 컨텐츠를 추가할 때 개인화 편집기에 액세스할 수도 있습니다.
 
 의 의사 결정 관리를 통해 컨텐츠를 관리하는 방법에 대해 자세히 알아보십시오 [이 섹션](../offers/offer-library/creating-personalized-offers.md#custom-text).
+
+## 개인화된 URL{#personalize-urls}
+
+메시지 콘텐츠에서 개인화를 사용하여 링크를 만들 수 있습니다. 예를 들어, 새 고객을 위해 웹 사이트의 특정 페이지에 링크를 추가합니다.
+
+개인화 기능을 사용하여에 개인화된 URL을 삽입하는 방법을 알아봅니다. [이 섹션](personalization-syntax.md#perso-urls).
+
