@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
+source-git-commit: 904fd645cba550fdb65821292293bf7d838c66f6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '280'
+ht-degree: 16%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ## 개인화된 URL{#personalize-urls}
 
-메시지 콘텐츠에서 개인화를 사용하여 링크를 만들 수 있습니다. 예를 들어, 새 고객을 위해 웹 사이트의 특정 페이지에 링크를 추가합니다.
+개인화된 URL은 프로필 속성에 따라 수신자를 웹사이트의 특정 페이지 또는 개인화된 마이크로사이트로 이동합니다. Adobe Journey Optimizer에서 메시지 콘텐츠의 URL에 개인화를 추가할 수 있습니다. URL 개인화는 텍스트 및 이미지에 적용할 수 있으며, 프로필 데이터 또는 컨텍스트 데이터를 사용합니다.
 
-개인화 기능을 사용하여에 개인화된 URL을 삽입하는 방법을 알아봅니다. [이 섹션](personalization-syntax.md#perso-urls).
+에 개인화된 URL을 삽입하는 방법을 알아봅니다. [이 섹션](personalization-syntax.md#perso-urls).
 
