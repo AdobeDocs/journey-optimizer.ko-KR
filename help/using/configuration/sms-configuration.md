@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 4%
@@ -53,11 +53,11 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있도록 메시지 사�
 
 1. 액세스 권한 **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** 메뉴를 클릭한 다음 **[!UICONTROL Create Message preset]**.
 
-   ![](../assets/preset-create.png)
+   ![](assets/preset-create.png)
 
 1. 사전 설정의 이름과 설명(선택 사항)을 입력한 다음 SMS 채널을 선택합니다.
 
-   ![](../assets/sms_preset.png)
+   ![](assets/sms_preset.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있도록 메시지 사�
 
 1. 구성 **SMS** 설정.
 
-   ![](../assets/preset-sms.png)
+   ![](assets/preset-sms.png)
 
    * 을(를) 선택합니다 **[!UICONTROL SMS Type]** 사전 설정으로 전송됩니다. **[!UICONTROL Transactional]** 또는 **[!UICONTROL Marketing]**.
 
@@ -77,7 +77,7 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있도록 메시지 사�
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL Submit]** 확인합니다. 메시지 사전 설정을 초안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 
-   ![](../assets/sms_preset_2.png)
+   ![](assets/sms_preset_2.png)
 
 1. 메시지 사전 설정이 만들어지면 와 함께 목록에 표시됩니다 **[!UICONTROL Processing]** 상태.
 
@@ -87,7 +87,7 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있도록 메시지 사�
 
 1. 확인이 성공하면 메시지 사전 설정이 **[!UICONTROL Active]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
-   ![](../assets/preset-active.png)
+   ![](assets/preset-active.png)
 
 이제 Journey Optimizer에서 SMS 메시지를 보낼 준비가 되었습니다.
 
