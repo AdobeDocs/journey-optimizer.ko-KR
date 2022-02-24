@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
+source-git-commit: 7bae4fbd42b7cf944622b7a42e843681f3e75d2b
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 2%
+source-wordcount: '1868'
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,11 @@ ht-degree: 2%
 
 ## 전자 메일 설정 구성 {#configure-email-settings}
 
+이메일 설정은 메시지 사전 설정 구성의 전용 섹션에 정의됩니다.
+
 ![](../assets/preset-email.png)
+
+메시지 사전 설정에 연결된 이메일 설정을 정의하려면 아래 단계를 수행합니다.
 
 1. 사전 설정으로 전송할 메시지 유형을 선택합니다. **트랜잭션** 또는 **마케팅**.
 
@@ -90,7 +94,31 @@ ht-degree: 2%
 
 1. 사전 설정과 연결할 IP 풀을 선택합니다. [자세히 알아보기](ip-pools.md)
 
-1. 해당 사전 설정을 사용하여 보낸 전자 메일의 헤더 매개 변수를 입력합니다.
+1. 사용자가 링크를 클릭한 위치와 이유를 식별하기 위해,  **[!UICONTROL URL tracking configuration (web analytics)]** 섹션을 참조하십시오.
+
+   정의한 매개 변수에 따라 UTM 코드가 메시지 콘텐츠에 포함된 URL 끝에 적용됩니다. 그런 다음 Adobe Analytics과 같은 웹 분석 도구에서 결과를 비교할 수 있습니다. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+
+   ![](../assets/preset-url-tracking.png)
+
+   >[!NOTE]
+   >
+   >최대 10개의 추적 매개 변수를 추가할 수 있습니다.
+
+   에서 원하는 텍스트를 직접 입력할 수 있습니다 **[!UICONTROL Name]** 및 **[!UICONTROL Value]** 필드.
+
+   다음 객체로 이동하여 미리 정의된 값 목록에서 선택할 수도 있습니다.
+
+   * 여정 속성: 소스 ID, 소스 이름, 소스 버전 ID
+   * 메시지 속성: 작업 ID, 작업 이름
+   * Offer decisioning 속성: 오퍼 ID, 오퍼 이름
+
+   >[!CAUTION]
+   >
+   >필요한 폴더를 찾아 UTM 값으로 사용할 프로필 속성을 선택합니다.
+
+   ![](../assets/preset-url-tracking-source.png)
+
+1. 을(를) 입력합니다. **[!UICONTROL Header parameters]** 해당 사전 설정을 사용하여 보낸 이메일에 대해 입니다.
 
    >[!CAUTION]
    >
@@ -107,13 +135,13 @@ ht-degree: 2%
    * **[!UICONTROL Error email]**: 이 주소에는 배달되는 며칠 후 ISP에서 생성한 모든 오류(비동기 바운스)가 수신됩니다.
    >[!NOTE]
    >
-   >2021년 10월 릴리스부터 의 정방향 이메일 주소를 더 이상 정의할 수 없습니다 [!DNL Journey Optimizer] 사용자 인터페이스. 모든 전자 메일을 받는 데 필요한 경우 [!DNL Journey Optimizer] 특정 이메일 주소로 전달될 위임된 하위 도메인은 [Adobe 고객 지원 지원 팀](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+   >에서 정방향 이메일 주소를 정의할 수 없습니다 [!DNL Journey Optimizer] 사용자 인터페이스. 모든 전자 메일을 받는 데 필요한 경우 [!DNL Journey Optimizer] 특정 이메일 주소로 전달될 위임된 하위 도메인은 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    ![](../assets/preset-header.png)
 
    >[!NOTE]
    >
-   >이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
+   >이름은 문자(A-Z)로 시작해야 하며 영숫자만 사용할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
 
 1. 구성 **전자 메일 다시 시도 매개 변수**. 기본적으로 [재시도 기간](retries.md#retry-duration) 은 84시간으로 설정되어 있지만 이 설정을 필요에 더 잘 맞게 조정할 수 있습니다.
 
@@ -125,6 +153,10 @@ ht-degree: 2%
    * 두 이메일 유형의 경우 최대 다시 시도 기간은 84시간(또는 5040분)입니다.
 
 ## 푸시 설정 구성 {#configure-push-settings}
+
+푸시 설정은 메시지 사전 설정 구성의 전용 섹션에 정의되어 있습니다.
+
+메시지 사전 설정에 연결된 푸시 설정을 정의하려면 아래 단계를 수행합니다.
 
 1. 하나 이상의 플랫폼을 선택하십시오. **iOS** 및/또는 **Android**.
 
@@ -154,7 +186,7 @@ ht-degree: 2%
 
 ![](../assets/preset-filters.png)
 
-메시지 사전 설정에는 다음 상태가 있을 수 있습니다.
+메시지 사전 설정을 만들면 다음 상태가 있을 수 있습니다.
 
 * **[!UICONTROL Draft]**: 메시지 사전 설정이 초안으로 저장되었으며 아직 제출되지 않았습니다. 구성을 다시 시작하려면 엽니다.
 * **[!UICONTROL Processing]**: 메시지 사전 설정이 제출되었으며 몇 가지 확인 단계를 수행하고 있습니다.
@@ -164,7 +196,7 @@ ht-degree: 2%
 
 메시지 사전 설정을 만들지 못한 경우 가능한 각 실패 이유에 대한 세부 사항이 아래에 설명되어 있습니다.
 
-이러한 오류 중 하나가 발생하면 [Adobe 고객 지원 지원 팀](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)지원을 받으려면 {target=&quot;_blank&quot;}.
+이러한 오류 중 하나가 발생하면 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)지원을 받으려면 {target=&quot;_blank&quot;}.
 
 * **SPF 유효성 검사 실패**: SPF(Sender Policy Framework)는 지정된 하위 도메인에서 전자 메일을 보낼 수 있는 인증된 IP를 지정할 수 있는 전자 메일 인증 프로토콜입니다. SPF 유효성 검사 실패가 SPF 레코드의 IP 주소가 사서함 공급자에게 전자 메일을 보내는 데 사용되는 IP 주소와 일치하지 않음을 의미합니다.
 
