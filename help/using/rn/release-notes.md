@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2643'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 **여정**
 
 * 성능을 최적화하기 위해 1주일 동안 트리거되지 않은 테스트 모드의 모든 여정이 이제 초안 상태로 다시 전환합니다. [자세히 보기](../building-journeys/testing-the-journey.md#important_notes)
-* Journey Optimizer과 Adobe Campaign Classic 간의 통합은 성능을 개선하기 위해 최적화되었습니다. 최대 가용량 기본 구성이 4000 호출/5분으로 변경되었습니다.	[자세히 보기](../action/acc-action.md#important-notes)
+* Journey Optimizer과 Adobe Campaign Classic 간 통합이 성능을 개선하기 위해 최적화되었습니다. 최대 가능한 기본 구성이 4,000회 호출/5분으로 변경되었습니다.	[자세히 보기](../action/acc-action.md#important-notes)
 
 **보고**
 
@@ -100,7 +100,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
    * 이제 메시지 실행 목록에서 증명을 게재 목록에서 제외할 수 있습니다.
    * 라이브/전역 보고서에서 테스트 이벤트를 제외하도록 선택할 수 있습니다.
 
-* 이제 전송 시간 최적화 데이터에 대한 보고서에 액세스할 수 있습니다. 메시지를 즉시 보낸 사람 수 및 1시간 최적화, 2시간 최적화 등을 통해 메시지를 보낸 사람 수
+* 이제 메시지를 즉시 보낸 사람 수 및 1시간 최적화, 2시간 최적화 등을 통해 메시지를 보낸 사람 수 등 전송 시간 최적화 데이터에 대한 보고서에 액세스할 수 있습니다.
 
 <!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
