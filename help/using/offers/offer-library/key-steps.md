@@ -1,12 +1,12 @@
 ---
 title: 오퍼를 만드는 주요 단계
-description: 오퍼를 만드는 데 필요한 주요 단계를 살펴보십시오
+description: 오퍼를 만드는 데 필요한 주요 단계를 살펴보십시오.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 13%
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 오퍼를 만들고, 구성하고, 관리하고, 오퍼를 의사 결정에 사용하는 주요 단계는 아래에 나와 있습니다.
 
-![](../../assets/offer-create-manage-process.png)
+![](../assets/offer-create-manage-process.png)
 
 오퍼를 구성하고, 의사 결정에서 이러한 오퍼를 사용하고, 이메일에서 이 결정을 활용하는 방법을 보여주는 전체 종단간 예제는 다음 단계를 참조하십시오 [이 페이지](../offers-e2e.md).
 

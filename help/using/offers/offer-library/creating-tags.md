@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 5%
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 작성된 태그 목록은 **[!UICONTROL Components]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-![](../../assets/tags_list.png)
+![](../assets/tags_list.png)
 
 태그를 만들려면 다음 단계를 수행하십시오.
 
@@ -31,11 +31,11 @@ ht-degree: 5%
 
 1. 태그의 이름을 지정한 다음 **[!UICONTROL Save]**.
 
-   ![](../../assets/tags_create.png)
+   ![](../assets/tags_create.png)
 
 1. 태그가 만들어지면 목록에 표시됩니다. 속성을 선택하여 해당 속성을 표시하고 편집하거나 억제할 수 있습니다.
 
-   ![](../../assets/tags_created.png)
+   ![](../assets/tags_created.png)
 
 ## 튜토리얼 비디오 {#video}
 

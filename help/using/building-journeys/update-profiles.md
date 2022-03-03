@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 1. 에서 **작업** 팔레트의 섹션에서 **프로필 업데이트** 활동을 캔버스로 이동합니다.
 
-   ![](../assets/profileupdate0.png)
+   ![](assets/profileupdate0.png)
 
 1. 목록에서 스키마를 선택합니다.
 
 1. 클릭 **필드** 을(를) 클릭하여 업데이트할 필드를 선택합니다. 필드를 하나만 선택할 수 있습니다.
 
-   ![](../assets/profileupdate2.png)
+   ![](assets/profileupdate2.png)
 
 1. 목록에서 데이터 세트를 선택합니다.
 
@@ -58,12 +58,12 @@ ht-degree: 0%
 
    * 단순 표현식 편집기를 사용하여 데이터 소스 또는 수신 이벤트에서 필드를 선택할 수 있습니다.
 
-      ![](../assets/profileupdate4.png)
+      ![](assets/profileupdate4.png)
 
    * 특정 값을 정의하거나 고급 함수를 활용하려면 **고급 모드**.
 
-      ![](../assets/profileupdate3.png)
+      ![](assets/profileupdate3.png)
 
 다음 **프로필 업데이트** 이제 가 구성되었습니다.
 
-![](../assets/profileupdate1.png)
+![](assets/profileupdate1.png)

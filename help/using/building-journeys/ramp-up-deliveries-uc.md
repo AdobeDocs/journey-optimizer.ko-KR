@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
@@ -31,13 +31,13 @@ IP를 가열하기 위해 게재 수를 점진적으로 늘릴 수 있습니다.
 
    1. 설정 **[!UICONTROL Limit]** 필드를 이 게재의 최대 수신자 수에 추가합니다.
 
-   ![](../assets/profile-cap-condition.png)
+   ![](assets/profile-cap-condition.png)
 
    이 제한을 총 구독자 수까지 점진적으로 늘릴 수 있습니다.
 
 1. 추가 **[!UICONTROL Message]** 활동 이후의 명목상 경로 **[!UICONTROL Condition]** 활동.
 
-   ![](../assets/ramp-up-deliveries-message.png)
+   ![](assets/ramp-up-deliveries-message.png)
 
    여정이 실행되면 입력한 프로필(지정한 최대 프로필 수)까지 메시지가 전송됩니다. 이 한도에 도달하면 입력한 프로필에서 대체 경로를 사용합니다.
 

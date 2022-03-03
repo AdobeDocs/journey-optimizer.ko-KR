@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 12%
@@ -54,15 +54,15 @@ ht-degree: 12%
 
 1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]**. 에서  **[!UICONTROL Events]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 그러면 이벤트 목록이 표시됩니다.
 
-   ![](../assets/jo-event1.png)
+   ![](assets/jo-event1.png)
 
 1. 새 이벤트를 만들려면 **[!UICONTROL Create Event]**&#x200B;를 클릭합니다. 그러면 화면 오른쪽에 이벤트 구성 창이 열립니다.
 
-   ![](../assets/jo-event2.png)
+   ![](assets/jo-event2.png)
 
 1. 이벤트의 이름을 입력합니다. 설명을 추가할 수도 있습니다.
 
-   ![](../assets/jo-event3-business.png)
+   ![](assets/jo-event3-business.png)
 
    >[!NOTE]
    >
@@ -70,20 +70,20 @@ ht-degree: 12%
 
 1. 에서 **[!UICONTROL Type]** 필드, 선택 **비즈니스**.
 
-   ![](../assets/jo-event3bis-business.png)
+   ![](assets/jo-event3bis-business.png)
 
 1. 이 이벤트를 사용하는 경로 수가 **[!UICONTROL Used in]** 필드에 표시됩니다. **[!UICONTROL View journeys]** 아이콘을 클릭하여 이 이벤트를 사용하는 경로 목록을 표시할 수 있습니다.
 
 1. 스키마 및 페이로드 필드를 정의합니다. 여기서 여정이 수신하도록 하는 이벤트 정보(대개 페이로드)를 선택합니다. 그러면 이 정보를 경로에 사용할 수 있습니다. [이 섹션](../event/about-creating-business.md#define-the-payload-fields)을 참조하십시오.
 
-   ![](../assets/jo-event5-business.png)
+   ![](assets/jo-event5-business.png)
 
    시계열 스키마만 사용할 수 있습니다. 경험 이벤트, 의사 결정 이벤트 및 여정 단계 이벤트 스키마를 사용할 수 없습니다. 이벤트 스키마에는 기본 ID가 포함되어야 합니다. 다음 필드를 필요에 따라 설정해야 합니다. `_id` 및 `timestamp`
 
-   ![](../assets/test-profiles-4.png)
+   ![](assets/test-profiles-4.png)
 
 1. 의 내부를 클릭합니다. **[!UICONTROL Event ID condition]** 필드. 단순 표현식 편집기를 사용하여 시스템에서 여정을 트리거할 이벤트를 식별하는 데 사용할 조건을 정의합니다.
-   ![](../assets/jo-event6-business.png)
+   ![](assets/jo-event6-business.png)
 
    이 예제에서는 제품 ID를 기반으로 조건을 작성했습니다. 즉, 시스템에서 이 조건과 일치하는 이벤트를 수신할 때마다 여정에게 전달됩니다.
 
@@ -93,7 +93,7 @@ ht-degree: 12%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![](../assets/journey7-business.png)
+   ![](assets/journey7-business.png)
 
    이제 이벤트가 구성되었으며 경로에 추가할 수 있는 상태가 되었습니다. 이벤트를 수신하려면 추가 구성 단계를 수행해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
 
@@ -103,11 +103,11 @@ ht-degree: 12%
 
 1. 목록에서 XDM 스키마를 선택하고 를 클릭합니다. **[!UICONTROL Fields]** 필드 또는 **[!UICONTROL Edit]** 아이콘.
 
-   ![](../assets/journey8-business.png)
+   ![](assets/journey8-business.png)
 
    스키마에 정의된 모든 필드가 표시됩니다. 필드 목록은 스키마마다 다릅니다. 특정 필드를 검색하거나 필터를 사용하여 모든 노드와 필드를 표시하거나 선택한 필드만 표시할 수 있습니다. 스키마 정의에 따라 일부 필드는 필수 필드이며 미리 선택되어 있을 수 있습니다. 선택 취소할 수 없습니다. 여정이 이벤트를 제대로 수신하기 위해 필수 필드인 모든 필드는 기본적으로 선택됩니다.
 
-   ![](../assets/journey9-business.png)
+   ![](assets/journey9-business.png)
 
    >[!NOTE]
    >
@@ -119,7 +119,7 @@ ht-degree: 12%
 
    선택한 필드 수가 **[!UICONTROL Fields]** 필드.
 
-   ![](../assets/journey12-business.png)
+   ![](assets/journey12-business.png)
 
 ## 페이로드 미리 보기 {#preview-the-payload}
 
@@ -127,11 +127,11 @@ ht-degree: 12%
 
 1. 을(를) 클릭합니다. **[!UICONTROL View Payload]** 아이콘을 클릭하여 시스템에 필요한 페이로드를 미리 봅니다.
 
-   ![](../assets/journey13-business.png)
+   ![](assets/journey13-business.png)
 
    선택한 필드가 표시되었음을 알 수 있습니다.
 
-   ![](../assets/journey14-business.png)
+   ![](assets/journey14-business.png)
 
 1. 미리 보기를 선택하여 페이로드 정의의 유효성을 확인합니다.
 

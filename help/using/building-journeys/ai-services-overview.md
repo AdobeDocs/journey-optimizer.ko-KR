@@ -5,7 +5,7 @@ description: AI 서비스 개요
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 1%
@@ -26,5 +26,5 @@ ht-degree: 1%
 
 따라서 Journey Optimizer 조건(최상의 결정을 위해), 작업 또는 세그먼트 작성에서 다른 프로필 속성으로 사용할 수 있습니다.
 
-![](../assets/customer-ai.png)
+![](assets/customer-ai.png)
 

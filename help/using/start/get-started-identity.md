@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 9%
@@ -20,7 +20,7 @@ ID는 엔티티에 고유한 데이터(일반적으로 개별 개인)입니다. 
 
 in [!DNL Adobe Journey Optimizer], **ID** 여러 장치와 채널에서 소비자를 연결하는 결과, [id 그래프](#id-graph). 연결된 ID 그래프는 모든 비즈니스 터치포인트에서 상호 작용을 기반으로 경험을 개인화하는 데 사용됩니다.
 
-![](../assets/identities-home.png)
+![](assets/identities-home.png)
 
 추가 정보 **ID 서비스** in [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko){target=&quot;_blank&quot;}.
 

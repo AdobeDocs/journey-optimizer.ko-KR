@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 4%
@@ -27,7 +27,7 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
 
 1. 액세스 권한 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL API Credentials]** 메뉴를 클릭한 다음 **[!UICONTROL Create API credential]**.
 
-   ![](../assets/sms_4.png)
+   ![](assets/sms_4.png)
 
 1. Sinch를 로 선택합니다. **[!UICONTROL SMS vendor]**.
 
@@ -39,7 +39,7 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
    >
    > Sinch에는 특별한 API 자격 증명이 필요합니다. 을(를) 찾으려면 **[!UICONTROL Service ID]** 및 **[!UICONTROL API Token]**, Sinch 계정에서 SMS > API 메뉴에 액세스,
 
-   ![](../assets/sms_5.png)
+   ![](assets/sms_5.png)
 
 1. 클릭 **[!UICONTROL Submit]** api 자격 증명 구성을 완료했을 때.
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 1%
@@ -29,23 +29,23 @@ ht-degree: 1%
 
 1. 액세스 권한 **[!UICONTROL Components]** 메뉴를 선택한 다음 **[!UICONTROL Rankings]** 탭. 이전에 만든 등급 목록이 표시됩니다.
 
-   ![](../../assets/rankings-list.png)
+   ![](../assets/rankings-list.png)
 
 1. 클릭 **[!UICONTROL Create ranking]** 새 등급 공식을 생성합니다.
 
-   ![](../../assets/ranking-create-formula.png)
+   ![](../assets/ranking-create-formula.png)
 
 1. 순위 공식 이름, 설명 및 공식을 지정합니다.
 
    이 예에서는 실제 날씨가 더운 경우 &quot;핫&quot; 속성을 사용하여 모든 오퍼의 우선 순위를 늘리려고 합니다. 이렇게 하려면 **contextData.weather=hot** 이 의사결정 호출에서 전달되었습니다.
 
-   ![](../../assets/ranking-syntax.png)
+   ![](../assets/ranking-syntax.png)
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 등급 공식이 생성되면 목록에서 선택하여 세부 정보를 얻고 편집하거나 삭제할 수 있습니다.
 
    이제 배치에 적합한 오퍼의 등급을 매기는 결정에 사용할 준비가 되었습니다( 참조) [결정에서 오퍼 선택 구성](../offer-activities/configure-offer-selection.md)).
 
-   ![](../../assets/ranking-formula-created.png)
+   ![](../assets/ranking-formula-created.png)
 
 ## 등급 공식 예 {#ranking-formula-examples}
 
@@ -155,7 +155,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 더 좋은 방법은 점수를 프로필의 배열에 저장하는 것입니다. 다음 예는 간단한 순위 공식만 사용하여 다양한 성향 점수에서 작동합니다. 예상은 일련의 점수가 있는 프로필 스키마가 있다는 것입니다. 이 예에서 인스턴스 테넌트는 *_salesvelocity* 및 프로필 스키마에는 다음이 포함되어 있습니다.
 
-![](../../assets/ranking-example-schema.png)
+![](../assets/ranking-example-schema.png)
 
 이 경우 다음과 같은 프로필의 경우:
 
@@ -179,7 +179,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 오퍼에는 다음에 대한 속성이 포함됩니다 *성향 유형* 점수의 카테고리와 일치하는 항목:
 
-![](../../assets/ranking-example-propensityType.png)
+![](../assets/ranking-example-propensityType.png)
 
 그런 다음 순위 수식에서 각 오퍼의 우선순위를 고객과 동일하게 설정할 수 있습니다 *성향 점수* 저걸 *성향 유형*. 점수를 찾을 수 없으면 오퍼에 설정된 정적 우선 순위를 사용하십시오.
 

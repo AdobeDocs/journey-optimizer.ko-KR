@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 6%
@@ -70,16 +70,16 @@ ht-degree: 6%
 
 1. 디자인 **원본 여정**.
 
-   ![](../assets/jump1.png)
+   ![](assets/jump1.png)
 
 1. 여정의 어느 단계에서든 **[!UICONTROL Jump]** 활동, 보낸 사람 **[!UICONTROL ACTIONS]** 카테고리. 레이블 및 설명을 추가합니다.
 
-   ![](../assets/jump2.png)
+   ![](assets/jump2.png)
 
 1. 의 내부를 클릭합니다. **Target 여정** 필드.
 이 목록에는 초안, 라이브 또는 테스트 모드에 있는 모든 여정 버전이 표시됩니다. 다른 네임스페이스를 사용하거나 **세그먼트 자격** 이벤트를 사용할 수 없습니다. 루프 패턴을 만드는 Target 여정 도 필터링됩니다.
 
-   ![](../assets/jump3.png)
+   ![](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -88,12 +88,12 @@ ht-degree: 6%
 1. 이동할 대상 여정을 선택합니다.
 다음 **첫 번째 이벤트** 필드는 target 여정의 첫 번째 이벤트 이름으로 미리 채워집니다. 타겟 여정에 여러 이벤트가 포함되는 경우, **[!UICONTROL Jump]** 는 첫 번째 이벤트에서만 허용됩니다.
 
-   ![](../assets/jump4.png)
+   ![](assets/jump4.png)
 
 1. 다음 **작업 매개 변수** 섹션에는 target 이벤트의 모든 필드가 표시됩니다. 다른 작업 유형과 동일한 방식으로 각 필드를 원본 이벤트 또는 데이터 소스의 필드에 매핑합니다. 이 정보는 런타임 시 target 여정에 전달됩니다.
 1. 다음 활동을 추가하여 원본 여정을 완료합니다.
 
-   ![](../assets/jump5.png)
+   ![](assets/jump5.png)
 
 
    >[!NOTE]
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 다음의 경우 **[!UICONTROL Jump]** 활동은 여정, **[!UICONTROL Jump]** 시작 아이콘은 대상 여정 시작 부분에 자동으로 추가됩니다. 이렇게 하면 여정이 외부에서 트리거될 수 있지만 내부적으로 **[!UICONTROL Jump]** 활동.
 
-![](../assets/jump7.png)
+![](assets/jump7.png)
 
 ## 문제 해결
 
@@ -113,4 +113,4 @@ ht-degree: 6%
 * 대상 여정이 초안, 닫힘 또는 중지됨
 * 대상 여정의 첫 번째 이벤트가 변경되고 매핑이 끊어진 경우
 
-![](../assets/jump6.png)
+![](assets/jump6.png)

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 4%
@@ -39,9 +39,9 @@ ht-degree: 4%
 * 에 대한 여정 단계 이벤트 스키마 [!DNL Journey Orchestration] - 여정 메타데이터에 연결된 여정 단계 이벤트입니다.
 * 여정 필드가 있는 여정 스키마 [!DNL Journey Orchestration] - 여정을 설명하는 여정 메타데이터.
 
-![](../assets/sharing1.png)
+![](assets/sharing1.png)
 
-![](../assets/sharing2.png)
+![](assets/sharing2.png)
 
 다음 데이터 세트가 전달됩니다.
 
@@ -49,7 +49,7 @@ ht-degree: 4%
 * 여정 단계 이벤트
 * 여정
 
-![](../assets/sharing3.png)
+![](assets/sharing3.png)
 
 Adobe Experience Platform에 전달된 XDM 필드 목록은 다음 항목에 자세히 설명되어 있습니다.
 

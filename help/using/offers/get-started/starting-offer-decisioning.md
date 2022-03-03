@@ -6,8 +6,8 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
-workflow-type: ht
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * **중앙 집중식 오퍼 라이브러리**&#x200B;는 오퍼를 구성하는 여러 요소를 만들고 관리하고, 규칙과 제약 조건을 정의하는 인터페이스입니다.
 * **오퍼 의사 결정 엔진**&#x200B;은 오퍼 라이브러리, Adobe Experience Platform 데이터, 실시간 고객 프로필을 활용하여 오퍼가 제공될 올바른 시간, 고객 및 채널을 선택합니다.
 
-![](../../assets/architecture.png)
+![](../assets/architecture.png)
 
 이점은 다음과 같습니다.
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 오퍼를 만들고 게시할 여러 콘텐츠에 자격 조건 규칙 및 제약 조건을 연결할 수 있는 중앙 오퍼 카탈로그를 제공하는 **오퍼 라이브러리**&#x200B;를 사용하여 만듭니다([오퍼 라이브러리 사용자 인터페이스 참조](../get-started/user-interface.md)).
 
-![](../../assets/offer_structure.png)
+![](../assets/offer_structure.png)
 
 오퍼 라이브러리가 오퍼로 보강되면 오퍼를 **의사 결정**(이전의 &#39;오퍼 활동&#39;)에 통합할 수 있습니다.
 
@@ -54,11 +54,11 @@ ht-degree: 100%
 
 * Adobe Experience Platform의 데이터를 기반으로 방문자의 관심 사항과 일치하는 오퍼를 웹 사이트에 표시합니다.
 
-   ![](../../assets/website.png)
+   ![](../assets/website.png)
 
 * 고객이 매장 근처에 있는 경우, 고객의 특성(충성도 수준, 성별, 이전 구매...)에 따라 사용 가능한 오퍼를 알려 주는 푸시 알림을 보냅니다.
 
-   ![](../../assets/push_sample.png)
+   ![](../assets/push_sample.png)
 
 * 또한 의사 결정을 사용하면 지원 팀에 문의할 때 고객의 경험을 향상시킬 수 있습니다. 의사 결정 관리 API를 사용하면 고객이 상환한 정보와 다음 최적 오퍼에 대한 정보를 콜 센터 상담원의 포털 정보에 표시하도록 할 수 있습니다.
 

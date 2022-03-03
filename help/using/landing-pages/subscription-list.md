@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 3%
@@ -37,23 +37,23 @@ ht-degree: 3%
 
 1. 가입 목록에 액세스하려면 다음을 선택합니다 **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
 
-   ![](../assets/lp_subscription-lists.png)
+   ![](assets/lp_subscription-lists.png)
 
 1. **[!UICONTROL Create subscription list]** 버튼을 선택합니다.
 
-   ![](../assets/lp_create-subscription-list.png)
+   ![](assets/lp_create-subscription-list.png)
 
 1. 이름과 설명을 추가합니다. 이러한 필드는 필수입니다.
 
 1. 시작 날짜 및 종료 날짜를 정의할 수 있습니다.
 
-   ![](../assets/lp_subscription-list-dates.png)
+   ![](assets/lp_subscription-list-dates.png)
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 생성된 모든 구독 목록이 목록에 표시됩니다. 생성 날짜 또는 수정 날짜 및 상태에 따라 필터링할 수 있습니다.
 
-![](../assets/lp_subscription-filters.png)
+![](assets/lp_subscription-filters.png)
 
 가능한 상태는 다음과 같습니다.
 

@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: ht
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 왼쪽의 링크를 사용하여 기능을 찾아봅니다.
 
-![](../assets/ajo-home.png)
+![](assets/ajo-home.png)
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 홈페이지에서 [!DNL Adobe Journey Optimizer] 사용 사례를 활용하고 고객 여정을 만들기 위한 몇 가지 빠른 입력을 제공합니다.
 
-![](../assets/use-cases-home.png)
+![](assets/use-cases-home.png)
 
 사용 가능한 사용 사례는 다음과 같습니다.
 
@@ -219,7 +219,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   <tr>
     <td rowspan="2">팝업 창</td>
     <td>변경 내용을 저장하거나 작업 확인</td>
-    <td>Enter</td>
+    <td>Enter 키</td>
   </tr>
   <tr>
     <td>창 닫기</td>
@@ -248,7 +248,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
 
 **도움말** 아이콘을 사용하여 도움말 페이지에 액세스하고, 지원 팀에 문의하고 피드백을 공유할 수 있습니다. 검색 필드에서 도움말 문서와 비디오를 검색할 수 있습니다.
 
-![](../assets/ajo-help.png)
+![](assets/ajo-help.png)
 
 ## 지원되는 브라우저 {#browsers}
 
@@ -267,10 +267,10 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 언어를 변경하는 방법:
 
 * 오른쪽 상단의 아바타에서 **환경 설정**을 클릭합니다.
-   ![](../assets/preferences.png)
+   ![](assets/preferences.png)
 * 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
 * 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 이전 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
-   ![](../assets/select-language.png)
+   ![](assets/select-language.png)
 
 ## 검색{#unified-search}
 
@@ -278,11 +278,11 @@ Adobe Journey Optimizer 인터페이스의 모든 곳에서 상단 표시줄의 
 
 상위 결과를 표시할 컨텐츠 입력을 시작합니다. 입력한 키워드에 대한 도움말 문서도 결과에 표시됩니다.
 
-![](../assets/unified-search.png)
+![](assets/unified-search.png)
 
 모든 결과에 액세스하여 비즈니스 객체별로 필터링하려면 **Enter 키**&#x200B;를 누릅니다.
 
-![](../assets/search-and-filter.png)
+![](assets/search-and-filter.png)
 
 ## 목록 필터링{#filter-lists}
 
@@ -298,12 +298,12 @@ Adobe Journey Optimizer 인터페이스의 모든 곳에서 상단 표시줄의 
 
 **[!UICONTROL Last update]** 및 **[!UICONTROL Last update by]** 열을 사용하여 여정의 마지막 업데이트 및 저장한 사용자를 확인합니다.
 
-![](../assets/filter-journeys.png)
+![](assets/filter-journeys.png)
 
 이벤트, 데이터 소스 및 작업 구성 창에서 **[!UICONTROL Used in]** 필드를 적용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 경로 수가 표시됩니다. **[!UICONTROL View journeys]** 버튼을 클릭하여 해당 여정의 목록을 표시할 수 있습니다.
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 여러 목록에서 각 요소에 대해 기본적인 작업을 수행할 수 있습니다. 예를 들어 항목을 복제하거나 삭제할 수 있습니다.
 
-![](../assets/journey4.png)
+![](assets/journey4.png)

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 * 여정 컨텍스트에서 여정 또는 게재를 타깃팅하려면 **[!UICONTROL Journeys]** 메뉴에서 여정에 액세스하여 **[!UICONTROL Live report]** 아이콘. 그런 다음 여정, 이메일 및 푸시 라이브 보고서를 찾을 수 있습니다.
 
-   ![](../assets/report_journey.png)
+   ![](assets/report_journey.png)
 
 * 특정 게재를 타깃팅하려면 **[!UICONTROL Live view]** 의 **[!UICONTROL Executions]** 메시지의 탭을 선택합니다. **[!UICONTROL Live Report]** 선택한 게재의 고급 메뉴에서 을 클릭합니다.
 
-   ![](../assets/report_2.png)
+   ![](assets/report_2.png)
 
 ## 대시보드 사용자 지정 {#modify-dashboard}
 
@@ -32,19 +32,19 @@ ht-degree: 0%
 
 1. 전환 표시줄을 사용하여 보고서에서 테스트 이벤트를 제외하려는 경우 선택합니다. 테스트 이벤트에 대한 자세한 내용은 [이 페이지](../building-journeys/testing-the-journey.md).
 
-   ![](../assets/report_modify_6.png)
+   ![](assets/report_modify_6.png)
 
 1. 위젯의 크기를 조정하거나 제거하려면 **[!UICONTROL Modify]**.
 
-   ![](../assets/report_modify_7.png)
+   ![](assets/report_modify_7.png)
 
 1. 오른쪽 아래 모서리를 드래그하여 위젯 크기를 조정합니다.
 
-   ![](../assets/report_modify_8.png)
+   ![](assets/report_modify_8.png)
 
 1. 클릭 **[!UICONTROL Remove]** 위젯을 제거하려면 필요하지 않습니다.
 
-   ![](../assets/report_modify_9.png)
+   ![](assets/report_modify_9.png)
 
 1. 위젯의 표시 순서와 크기에 만족하면 을(를) 클릭합니다 **[!UICONTROL Save]**.
 

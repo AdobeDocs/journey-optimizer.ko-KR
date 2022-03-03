@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: f5a42c69-0384-442b-acf6-b3149be8b0da
-source-git-commit: 1a2c87866404201ea4693ed58efe302b83db9efa
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 보고서에 액세스하려면 **라이브** 또는 **[!UICONTROL Global report]** 선택한 구독 목록의 고급 메뉴에서 를 클릭합니다.
 
-![](../assets/subscription_report_6.png)
+![](assets/subscription_report_6.png)
 
 ## 구독 라이브 보고서 {#subscription-live}
 
-![](../assets/subscription_report_3.png)
+![](assets/subscription_report_3.png)
 
 다음 **[!UICONTROL Subscription performance]** KPI 및 **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** 표에서는 방문자가 랜딩 페이지와의 참여를 기준으로 하는 기본 정보를 자세히 설명합니다. 테이블 및 KPI에는 다음과 같이 랜딩 페이지와 관련하여 사용할 수 있는 데이터가 포함되어 있습니다.
 
@@ -39,13 +39,13 @@ ht-degree: 0%
 
 다음 **[!UICONTROL Subscription performance]** 그래프는 지난 24시간 동안의 가입 변화를 보여줍니다.
 
-![](../assets/subscription_report_4.png)
+![](assets/subscription_report_4.png)
 
 다음 **구독 - 분류** 및 **가입 해지됨 - 분류** 그래프는 메시지, 랜딩 페이지 및 채널에 따라 지난 24시간 동안 구독하거나 구독을 취소한 총 사용자 수를 나타냅니다.
 
 ## 구독 글로벌 보고서 {#subscription-global}
 
-![](../assets/subscription_report_1.png)
+![](assets/subscription_report_1.png)
 
 다음 **[!UICONTROL Subscription performance]** KPI 및 **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** 표에서는 방문자가 랜딩 페이지와의 참여를 기준으로 하는 기본 정보를 자세히 설명합니다. 테이블 및 KPI에는 다음과 같이 랜딩 페이지와 관련하여 사용할 수 있는 데이터가 포함되어 있습니다.
 
@@ -55,6 +55,6 @@ ht-degree: 0%
 
 다음 **[!UICONTROL Subscription performance]** 그래프는 관련 기간 동안의 가입의 진화를 보여줍니다.
 
-![](../assets/subscription_report_2.png)
+![](assets/subscription_report_2.png)
 
 다음 **구독 - 분류** 및 **가입 해지됨 - 분류** 메시지, 랜딩 페이지 및 채널에 따라 선택한 기간 동안 구독했거나 구독을 취소한 총 사용자 수를 나타냅니다.

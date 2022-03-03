@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 14%
@@ -21,17 +21,17 @@ ht-degree: 14%
 
 아래 예에는 서로 다른 유형의 컨텐츠(이미지, 텍스트, HTML)에 해당하는 세 개의 배치가 있습니다.
 
-![](../../assets/offers_placement_schema.png)
+![](../assets/offers_placement_schema.png)
 
 배치 목록은 **[!UICONTROL Components]** 메뉴 아래의 제품에서 사용할 수 있습니다. 필터를 사용하여 특정 채널 또는 컨텐츠에 따라 배치를 검색하는 데 도움이 됩니다.
 
-![](../../assets/placements_filter.png)
+![](../assets/placements_filter.png)
 
 배치를 만들려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL Create placement]**&#x200B;을(를) 클릭합니다.
 
-   ![](../../assets/offers_placement_creation.png)
+   ![](../assets/offers_placement_creation.png)
 
 1. 배치 속성을 정의합니다.
 
@@ -40,13 +40,13 @@ ht-degree: 14%
    * **[!UICONTROL Content type]**: 배치에서 표시할 컨텐츠 유형: 텍스트, HTML 또는 이미지 링크.
    * **[!UICONTROL Description]**: 배치에 대한 설명입니다(선택 사항).
 
-   ![](../../assets/offers_placement_creation_properties.png)
+   ![](../assets/offers_placement_creation_properties.png)
 
 1. 클릭 **[!UICONTROL Save]** 확인합니다.
 
 1. 배치가 만들어지면 배치 목록에 표시됩니다. 속성을 표시하고 편집할 수 있도록 선택할 수 있습니다.
 
-   ![](../../assets/placement_created.png)
+   ![](../assets/placement_created.png)
 
 ## 튜토리얼 비디오 {#video}
 

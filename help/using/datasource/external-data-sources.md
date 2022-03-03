@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 89%
@@ -32,11 +32,11 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 1. 새 외부 데이터 소스를 만들려면 데이터 소스 목록에서 **[!UICONTROL Create Data Source]**&#x200B;를 클릭합니다.
 
-   ![](../assets/journey25.png)
+   ![](assets/journey25.png)
 
    화면 오른쪽에 데이터 소스 구성 창이 열립니다.
 
-   ![](../assets/journey26.png)
+   ![](assets/journey26.png)
 
 1. 데이터 소스의 이름을 입력합니다.
 
@@ -51,7 +51,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
    >
    >보안상 HTTPS를 사용하는 것이 좋습니다. 또한 공개적으로 제공되지 않는 Adobe 주소 및 IP 주소는 사용할 수 없습니다.
 
-   ![](../assets/journey27.png)
+   ![](assets/journey27.png)
 
 1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]**, **[!UICONTROL API key]** 중에서 선택할 수 있습니다. 사용자 지정 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오. 이 예제에서는 다음 옵션을 선택합니다.
 
@@ -60,7 +60,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
    * **[!UICONTROL Value]**: &quot;1234&quot;(API 키의 값)
    * **[!UICONTROL Location]**: &quot;쿼리 매개 변수&quot;(API 키가 URL에 포함됨)
 
-   ![](../assets/journey28.png)
+   ![](assets/journey28.png)
 
 1. **[!UICONTROL Add a New Field Group]**&#x200B;를 클릭하여 각 API 매개 변수용 새 필드 그룹을 추가합니다. 필드 그룹 이름에는 공백이나 특수 문자를 사용하지 마십시오. 이 예제에서는 각 매개 변수 세트(city, long/lat)용으로 하나씩 두 개의 필드 그룹을 만들어야 합니다.
 
@@ -81,7 +81,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
    {"id":{"param":"identifier"}}
    ```
 
-![](../assets/journey29.png)
+![](assets/journey29.png)
 
 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -98,11 +98,11 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 사용자 지정 인증을 구성할 때는 아래 버튼을 클릭하여 사용자 지정 인증 페이로드가 올바르게 구성되어 있는지 확인할 수 있습니다.
 
-![](../assets/journey29-bis.png)
+![](assets/journey29-bis.png)
 
 테스트가 정상적으로 완료되면 버튼이 녹색으로 바뀝니다.
 
-![](../assets/journey29-ter.png)
+![](assets/journey29-ter.png)
 
 이 인증을 사용할 때는 작업이 다음의 두 단계로 실행됩니다.
 

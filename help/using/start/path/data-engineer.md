@@ -3,7 +3,7 @@ title: 데이터 엔지니어를 위한 Journey Optimizer 시작하기
 description: 데이터 엔지니어는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 8%
@@ -38,7 +38,7 @@ ID 네임스페이스 및 프로필에 대해 활성화된 데이터 세트를 �
 
 또한 여정에서 메시지를 보낼 수 있으려면 다음을 구성해야 합니다 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]**. 추가 정보 [이 섹션](../../configuration/about-data-sources-events-actions.md).
 
-![](../../assets/admin-menu.png)
+![](../assets/admin-menu.png)
 
 * 다음 **데이터 소스** 구성을 사용하면 시스템에 대한 연결을 정의하여 여정에서 사용할 추가 정보를 검색할 수 있습니다. 데이터 소스에 대해 자세히 알아보기 [이 섹션](../../datasource/about-data-sources.md).
 

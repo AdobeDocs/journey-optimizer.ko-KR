@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: b4a356583b555451c8d42d1043691b5ff841851b
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 4%
@@ -39,13 +39,13 @@ ht-degree: 4%
 
 다음 활동을 실행하기 전 대기 기간을 선택합니다.
 
-![](../assets/journey55.png)
+![](assets/journey55.png)
 
 ## 고정 날짜 대기{#fixed_date}
 
 다음 활동을 실행할 날짜를 선택합니다.
 
-![](../assets/journey56.png)
+![](assets/journey56.png)
 
 ## 사용자 지정 대기{#custom}
 
@@ -57,7 +57,7 @@ ht-degree: 4%
 >
 >다음 **시간대** 는 여정 속성에 필요합니다. 따라서 2016-08-12T09과 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 가리키는 인터페이스에서는 사용할 수 없습니다:46:06.982-05. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
-![](../assets/journey57.png)
+![](assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
@@ -77,4 +77,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)-->
+![](assets/journey57bis.png)-->

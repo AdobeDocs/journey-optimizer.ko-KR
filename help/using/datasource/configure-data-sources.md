@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 17%
@@ -23,11 +23,11 @@ ht-degree: 17%
 
 1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]**. 에서  **[!UICONTROL Data Sources]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 데이터 소스 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../start/user-interface.md)를 참조하십시오.
 
-   ![](../assets/journey18.png)
+   ![](assets/journey18.png)
 
 1. 기본 제공 데이터 소스에 필드 그룹을 추가하거나([이 페이지](../datasource/adobe-experience-platform-data-source.md) 참조) 새 외부 데이터 소스([이 페이지](../datasource/external-data-sources.md) 참조) 및 관련 필드 그룹([이 페이지](../datasource/configure-data-sources.md#define-field-groups) 참조)을 만들 수 있습니다.
 
-   ![](../assets/journey23.png)
+   ![](assets/journey23.png)
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -51,7 +51,7 @@ ht-degree: 17%
 >
 >필드 그룹에 필드가 없으면 표현식 편집기에 표시되지 않습니다.
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 ## 필드 그룹 라이프사이클 {#field-group-lifecycle}
 

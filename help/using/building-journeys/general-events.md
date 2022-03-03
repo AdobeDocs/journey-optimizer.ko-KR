@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 이러한 유형의 이벤트에 대해서는 레이블과 설명만 추가할 수 있습니다. 나머지 구성은 편집할 수 없습니다. 기술 사용자가 수행했습니다. [이 페이지](../event/about-events.md)를 참조하십시오.
 
-![](../assets/general-events.png)
+![](assets/general-events.png)
 
 비즈니스 이벤트를 삭제하면 자동으로 **세그먼트 읽기** 활동. 비즈니스 이벤트에 대한 자세한 내용은 [이 섹션](../event/about-events.md)
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 1. 지정된 시간 제한 내에 이벤트를 받지 못할 때 개인을 시간 제한 경로로 보내려면 **[!UICONTROL Set a timeout path]** 선택 사항입니다. 이 옵션이 활성화되지 않으면 시간 초과에 도달하면 여정이 개별 항목에 대해 종료됩니다.
 
-   ![](../assets/event-timeout.png)
+   ![](assets/event-timeout.png)
 
 이 예에서 여정은 고객에게 첫 번째 환영 푸시를 보냅니다. 그런 다음 고객이 다음 날 내에 레스토랑에 입장하는 경우에만 식사 할인 푸시를 보냅니다. 따라서 1일 시간 초과로 레스토랑 이벤트를 구성했습니다.
 
@@ -47,4 +47,4 @@ ht-degree: 1%
 
 시간 제한은 다음에 위치한 모든 이벤트에 적용됩니다 **[!UICONTROL Wait]** 활동. 지정된 시간 초과 전에 이벤트가 수신되지 않으면 개인은 하나의 시간 제한 경로로 이동되거나 여정을 종료합니다.
 
-![](../assets/event-timeout-group.png)
+![](assets/event-timeout-group.png)

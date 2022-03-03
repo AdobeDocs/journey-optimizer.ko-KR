@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 19%
@@ -38,7 +38,7 @@ URL에 동적 경로가 포함된 경우에는 경로에 **[!UICONTROL Path]** �
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
-![](../assets/journey-custom-action-url.png)
+![](assets/journey-custom-action-url.png)
 
 ### 헤더
 
@@ -49,7 +49,7 @@ URL에 동적 경로가 포함된 경우에는 경로에 **[!UICONTROL Path]** �
 1. 여정에서 사용자 지정 작업을 선택합니다.
 1. 구성 창에서 페이지의 헤더 필드 옆에 있는 연필 아이콘을 클릭합니다 **[!UICONTROL URL Configuration]** 섹션을 참조하십시오.
 
-   ![](../assets/journey-dynamicheaderfield.png)
+   ![](assets/journey-dynamicheaderfield.png)
 
 1. 필드를 선택하고 을(를) 클릭합니다 **[!UICONTROL OK]**.
 

@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 8%
@@ -20,7 +20,7 @@ ht-degree: 8%
 >
 >조직이 [!DNL Adobe Journey Optimizer] 및 에는 아직 활성 프로필 데이터 세트 또는 병합 정책이 만들어지지 않았습니다. **프로필** 대시보드가 표시되지 않습니다. 대신, **개요** 실시간 고객 프로필을 시작하는 데 도움이 되는 Adobe Experience Platform 설명서 링크가 탭에 표시됩니다.
 
-![](../assets/profiles-home.png)
+![](assets/profiles-home.png)
 
 에 액세스하고 작업하는 방법을 배우려면 **프로필 대시보드** 대시보드에 표시되는 지표에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko){target=&quot;_blank&quot;}.
 

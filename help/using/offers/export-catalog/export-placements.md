@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 오퍼가 수정될 때마다 배치에 대해 자동 생성된 데이터 세트가 업데이트됩니다.
 
-![](../../assets/dataset-placements.png)
+![](../assets/dataset-placements.png)
 
 데이터 집합에 있는 가장 최근 성공한 일괄 처리가 오른쪽에 표시됩니다. 데이터 집합에 대한 스키마의 계층 구조 보기가 왼쪽 창에 표시됩니다.
 

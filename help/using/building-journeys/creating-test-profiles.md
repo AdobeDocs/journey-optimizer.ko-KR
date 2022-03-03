@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 3%
@@ -34,13 +34,13 @@ ht-degree: 3%
 먼저 다음을 수행해야 합니다 **스키마 만들기**. 다음 단계를 수행합니다.
 
 1. 데이터 관리 메뉴 섹션에서 **[!UICONTROL Schemas]**.
-   ![](../assets/test-profiles-0.png)
+   ![](assets/test-profiles-0.png)
 1. 클릭 **[!UICONTROL Create schema]**&#x200B;오른쪽 상단에서 스키마 유형을 선택합니다. 예를 들면 다음과 같습니다 **XDM 개별 프로필**.
-   ![](../assets/test-profiles-1.png)
+   ![](assets/test-profiles-1.png)
 1. 적절한 필드 그룹을 선택합니다. 를 추가해야 합니다. **프로필 테스트 세부 사항** 필드 그룹.
-   ![](../assets/test-profiles-1-ter.png)
+   ![](assets/test-profiles-1-ter.png)
 완료되면 을(를) 클릭합니다. **[!UICONTROL Add field groups]**: 필드 그룹 목록이 스키마 개요 화면에 표시됩니다.
-   ![](../assets/test-profiles-2.png)
+   ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
@@ -50,11 +50,11 @@ ht-degree: 3%
 
 
 1. 필드 목록에서 기본 ID로 정의할 필드를 클릭합니다.
-   ![](../assets/test-profiles-3.png)
+   ![](assets/test-profiles-3.png)
 1. 에서 **[!UICONTROL Field properties]** 오른쪽 창에서 **[!UICONTROL Identity]** 및 **[!UICONTROL Primary Identity]** 옵션을 선택하고 네임스페이스를 선택합니다. 기본 ID를 이메일 주소로 지정하려면 **[!UICONTROL Email]** 네임스페이스. **[!UICONTROL Apply]**을(를) 클릭합니다.
-   ![](../assets/test-profiles-4bis.png)
+   ![](assets/test-profiles-4bis.png)
 1. 스키마를 선택하고 를 활성화합니다 **[!UICONTROL Profile]** 옵션 **[!UICONTROL Schema properties]** 창
-   ![](../assets/test-profiles-5.png)
+   ![](assets/test-profiles-5.png)
 1. **저장**&#x200B;을 클릭합니다.
 
 >[!NOTE]
@@ -64,15 +64,15 @@ ht-degree: 3%
 그러면 다음 작업을 수행해야 합니다 **데이터 세트 만들기** 가져올 프로필 다음 단계를 수행합니다.
 
 1. 찾아보기 **[!UICONTROL Datasets]**&#x200B;를 클릭한 다음 **[!UICONTROL Create dataset]**.
-   ![](../assets/test-profiles-6.png)
+   ![](assets/test-profiles-6.png)
 1. 선택 **[!UICONTROL Create dataset from schema]**.
-   ![](../assets/test-profiles-7.png)
+   ![](assets/test-profiles-7.png)
 1. 앞에서 만든 스키마를 선택하고 **[!UICONTROL Next]**.
-   ![](../assets/test-profiles-8.png)
+   ![](assets/test-profiles-8.png)
 1. 이름을 선택한 다음 **[!UICONTROL Finish]**.
-   ![](../assets/test-profiles-9.png)
+   ![](assets/test-profiles-9.png)
 1. 를 활성화합니다 **[!UICONTROL Profile]** 선택 사항입니다.
-   ![](../assets/test-profiles-10.png)
+   ![](assets/test-profiles-10.png)
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ht-degree: 3%
 
 Adobe Journey Optimizer 홈페이지에서 테스트 프로필 제품 내 사용 사례를 활용할 수 있습니다. 이 사용 사례를 사용하면 게시하기 전에 여정을 테스트하는 데 사용되는 테스트 프로필을 쉽게 만들 수 있습니다.
 
-![](../assets/use-cases-home.png)
+![](assets/use-cases-home.png)
 
 **[!UICONTROL Begin]** 버튼을 클릭하여 사용 사례를 시작합니다.
 
@@ -119,11 +119,11 @@ ID 네임스페이스를 선택하고 위의 형식을 기반으로 CSV 파일�
 > 업데이트되므로 **testProfile** 필드 선택한 프로필에는 이 필드가 포함되어야 합니다. 관련 스키마에는 **프로필 테스트 세부 사항** 필드 그룹. [이 섹션](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)을 참조하십시오.
 
 1. 찾아보기 **세그먼트**, 그런 다음 **세그먼트 만들기**를 입력합니다.
-   ![](../assets/test-profiles-22.png)
+   ![](assets/test-profiles-22.png)
 1. 세그먼트의 이름을 정의하고 세그먼트를 만듭니다. 원하는 프로필을 타겟팅할 필드와 값을 선택합니다.
-   ![](../assets/test-profiles-23.png)
+   ![](assets/test-profiles-23.png)
 1. 클릭 **저장** 및 를 사용하여 프로필이 세그먼트의 타겟팅되는지 확인합니다.
-   ![](../assets/test-profiles-24.png)
+   ![](assets/test-profiles-24.png)
 
    >[!NOTE]
    >
@@ -131,13 +131,13 @@ ID 네임스페이스를 선택하고 위의 형식을 기반으로 CSV 파일�
 
 1. 이제 새 여정을 만들고 **[!UICONTROL Read Segment]** 오케스트레이션 활동.
 1. 앞에서 만든 세그먼트와 프로필에서 사용하는 네임스페이스를 선택합니다.
-   ![](../assets/test-profiles-25.png)
+   ![](assets/test-profiles-25.png)
 1. 추가 **[!UICONTROL Update Profile]** 작업 활동.
 1. 스키마를 선택하고 **testProfiles** 필드, 데이터 세트 및 값을 **True**. 이 작업을 수행하려면 다음을 수행하십시오. **[!UICONTROL VALUE]** 필드에서 **펜** 오른쪽에 있는 아이콘을 선택합니다. **[!UICONTROL Advanced mode]** 을 입력합니다. **true**.
-   ![](../assets/test-profiles-26.png)
+   ![](assets/test-profiles-26.png)
 1. 추가 **종료** 활동 후 클릭 **[!UICONTROL Publish]**.
 1. 에서 **[!UICONTROL Segments]** 섹션에서 프로필이 올바르게 업데이트되었는지 확인합니다.
-   ![](../assets/test-profiles-28.png)
+   ![](assets/test-profiles-28.png)
 
    >[!NOTE]
    >
@@ -149,24 +149,24 @@ Adobe Experience Platform에서 다른 프로필 필드가 포함된 csv 파일�
 
 1. 스프레드시트 소프트웨어를 사용하여 간단한 csv 파일을 만듭니다.
 1. 필요한 필드마다 열을 하나씩 추가합니다. 기본 ID 필드(&quot;personID&quot; 위의 예에서 )와 &quot;testProfile&quot; 필드를 &quot;true&quot;로 설정해야 합니다.
-   ![](../assets/test-profiles-11.png)
+   ![](assets/test-profiles-11.png)
 1. 프로필당 한 줄을 추가하고 각 필드의 값을 입력합니다.
-   ![](../assets/test-profiles-12.png)
+   ![](assets/test-profiles-12.png)
 1. 스프레드시트를 csv 파일로 저장합니다. 쉼표가 구분 기호로 사용되는지 확인하십시오.
 1. Adobe Experience Platform 찾아보기 **워크플로우**.
-   ![](../assets/test-profiles-14.png)
+   ![](assets/test-profiles-14.png)
 1. 선택 **XDM 스키마에 CSV 매핑**&#x200B;를 클릭한 다음 **Launch**.
-   ![](../assets/test-profiles-16.png)
+   ![](assets/test-profiles-16.png)
 1. 프로필을 가져올 데이터 세트를 선택합니다. **다음**을 클릭합니다.
-   ![](../assets/test-profiles-17.png)
+   ![](assets/test-profiles-17.png)
 1. 클릭 **파일 선택** csv 파일을 선택합니다. 파일을 업로드하면 **다음**.
-   ![](../assets/test-profiles-18.png)
+   ![](assets/test-profiles-18.png)
 1. 소스 csv 필드를 스키마 필드에 매핑한 다음 를 클릭합니다 **완료**.
-   ![](../assets/test-profiles-19.png)
+   ![](assets/test-profiles-19.png)
 1. 데이터 가져오기가 시작됩니다. 상태가 **처리 중** to **성공**. 클릭 **데이터 세트 미리 보기**를 입력합니다.
-   ![](../assets/test-profiles-20.png)
+   ![](assets/test-profiles-20.png)
 1. 테스트 프로필이 올바르게 추가되었는지 확인합니다.
-   ![](../assets/test-profiles-21.png)
+   ![](assets/test-profiles-21.png)
 
 테스트 프로필이 추가되었으며 이제 여정을 테스트할 때 사용할 수 있습니다. [이 섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
 >[!NOTE]

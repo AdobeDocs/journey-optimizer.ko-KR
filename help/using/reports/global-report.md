@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -31,23 +31,23 @@ ht-degree: 0%
 
 1. 글로벌 보고서에서 특정 데이터를 타깃팅할 시작 및 종료 시간을 선택합니다.
 
-   ![](../assets/report_modify_1.png)
+   ![](assets/report_modify_1.png)
 
 1. 전환 표시줄을 사용하여 보고서에서 테스트 이벤트를 제외하려는 경우 선택합니다. 테스트 이벤트에 대한 자세한 내용은 [이 페이지](../building-journeys/testing-the-journey.md).
 
-   ![](../assets/report_modify_2.png)
+   ![](assets/report_modify_2.png)
 
 1. 클릭 **[!UICONTROL Modify]** 대시보드 사용자 지정을 시작하려면 다음을 수행하십시오.
 
-   ![](../assets/report_modify_3.png)
+   ![](assets/report_modify_3.png)
 
 1. 오른쪽 아래 모서리를 드래그하여 위젯 크기를 조정합니다.
 
-   ![](../assets/report_modify_4.png)
+   ![](assets/report_modify_4.png)
 
 1. 클릭 **[!UICONTROL Remove]** 위젯을 제거하려면 필요하지 않습니다.
 
-   ![](../assets/report_modify_5.png)
+   ![](assets/report_modify_5.png)
 
 1. 위젯의 표시 순서와 크기에 만족하면 을(를) 클릭합니다 **[!UICONTROL Save]**.
 

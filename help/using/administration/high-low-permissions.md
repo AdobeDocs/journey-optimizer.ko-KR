@@ -5,7 +5,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: b1c4fb836d34cc6263f804c7a0f700571281b31a
+source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 권한 수준 {#high-low-permissions}
 
-![](../assets/do-not-localize/permissions.png)
+![](assets/do-not-localize/permissions.png)
 
 각 제품 프로필은 사용자가 다른 기능에 액세스할 수 있는 권한으로 구성되어 있습니다.
 두 가지 유형으로 나눌 수 있습니다.

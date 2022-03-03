@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 2%
@@ -32,21 +32,21 @@ Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십�
 
 1. 아래 **관리** > **플랫폼** > **열거형**&#x200B;에서 을(를) 선택합니다. **이벤트 유형** (eventType) 열거형입니다. 새 이벤트 유형(이 예제에서는 &quot;여정-event&quot;)을 만듭니다. 나중에 JSON 파일을 작성할 때 이벤트 유형의 내부 이름을 사용해야 합니다.
 
-   ![](../assets/accintegration-uc-1.png)
+   ![](assets/accintegration-uc-1.png)
 
 1. 생성을 유효하게 하려면 인스턴스 연결을 끊고 인스턴스에 다시 연결합니다.
 
 1. 아래 **메시지 센터** > **트랜잭션 메시지 템플릿**&#x200B;이전에 만든 이벤트 유형을 기반으로 하여 새 이메일 템플릿을 만듭니다.
 
-   ![](../assets/accintegration-uc-2.png)
+   ![](assets/accintegration-uc-2.png)
 
 1. 템플릿을 디자인합니다. 이 예에서는 프로필의 이름과 주문 번호에 개인화를 사용합니다. 이름은 Adobe Experience Platform 데이터 소스에 있고 주문 번호는 Journey Optimizer 이벤트의 필드입니다. Campaign에서 올바른 필드 이름을 사용해야 합니다.
 
-   ![](../assets/accintegration-uc-3.png)
+   ![](assets/accintegration-uc-3.png)
 
 1. 트랜잭션 템플릿을 게시합니다.
 
-   ![](../assets/accintegration-uc-4.png)
+   ![](assets/accintegration-uc-4.png)
 
 1. 이제 템플릿에 해당하는 JSON 페이로드를 작성해야 합니다.
 
@@ -70,30 +70,30 @@ Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십�
 
 1. 먼저 이벤트를 만들어야 합니다. purchaseOrderNumber 필드를 포함해야 합니다.
 
-   ![](../assets/accintegration-uc-5.png)
+   ![](assets/accintegration-uc-5.png)
 
 1. 그런 다음 Journey Optimizer에서 Campaign 템플릿에 해당하는 작업을 만들어야 합니다. 에서 **작업 유형** 드롭다운에서 을 선택합니다. **Adobe Campaign Classic**.
 
-   ![](../assets/accintegration-uc-6.png)
+   ![](assets/accintegration-uc-6.png)
 
 1. 을(를) 클릭합니다. **페이로드 필드** 및 이전에 만든 JSON을 붙여 넣습니다.
 
-   ![](../assets/accintegration-uc-7.png)
+   ![](assets/accintegration-uc-7.png)
 
 1. 이메일 주소와 두 개의 개인화 필드에 대해 **상수** to **변수**.
 
-   ![](../assets/accintegration-uc-8.png)
+   ![](assets/accintegration-uc-8.png)
 
 1. 이제 새 여정을 만들고 이전에 만든 이벤트로 시작합니다.
 
-   ![](../assets/accintegration-uc-9.png)
+   ![](assets/accintegration-uc-9.png)
 
 1. 작업을 추가하고 각 필드를 Journey Optimizer의 올바른 필드에 매핑합니다.
 
-   ![](../assets/accintegration-uc-10.png)
+   ![](assets/accintegration-uc-10.png)
 
 1. 추가 **종료** 활동을 수행하고 여정을 테스트합니다.
 
-   ![](../assets/accintegration-uc-11.png)
+   ![](assets/accintegration-uc-11.png)
 
 1. 이제 여정을 게시할 수 있습니다.

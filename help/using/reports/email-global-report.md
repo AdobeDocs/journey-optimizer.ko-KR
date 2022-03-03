@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 에서 **[!UICONTROL Executions]** 의 탭 **[!UICONTROL Messages]** 메뉴, 선택 **[!UICONTROL Global view]** 그런 다음 선택한 게재의 고급 메뉴에서 을(를) 선택합니다 **[!UICONTROL Global report]**.
 
-![](../assets/global_report_3.png)
+![](assets/global_report_3.png)
 
 이메일 **[!UICONTROL Global report]** 은 게재의 성공 및 오류를 설명하는 다른 위젯으로 구분됩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 정보는 다음을 참조하십시오 [섹션](global-report.md#modify-dashboard).
 
-![](../assets/global_report_4.png)
+![](assets/global_report_4.png)
 
 **[!UICONTROL Email performance]** kpi를 사용하여 메시지에 대한 기본 정보를 자세히 설명합니다.
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
-![](../assets/global_report_5.png)
+![](assets/global_report_5.png)
 
 다음 **[!UICONTROL Bounce Reasons]** 및 **[!UICONTROL Bounce categories]** 위젯에는 다음과 같이 바운스된 메시지와 관련하여 사용할 수 있는 데이터가 포함되어 있습니다.
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 다음 **[!UICONTROL Error Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류를 확인할 수 있습니다.
 
-![](../assets/global_report_6.png)
+![](assets/global_report_6.png)
 
 다음 **[!UICONTROL Email - Top recipient domain]** 전자 메일을 여는 데 받는 사람이 가장 많이 사용하는 도메인을 그래프 및 표 세부 사항입니다.
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 * **[!UICONTROL Unique Opens]**: 게재를 연 수신자 수입니다.
 
 <!--
-![](../assets/global_report_20.png)
+![](assets/global_report_20.png)
 
 >[!NOTE]
 >

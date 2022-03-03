@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 1bca78723ec8ff93f48b9afa360868c2b9bac670
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 3%
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 1. 액세스 권한 **[!UICONTROL Components]** 메뉴를 선택한 다음 **[!UICONTROL AI rankings]** 탭.
 
-   ![](../../assets/ai-ranking-list.png)
+   ![](../assets/ai-ranking-list.png)
 
    지금까지 생성된 모든 순위 전략들이 나열됩니다.
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 1. 다음 필드를 채웁니다.
 
-   ![](../../assets/ai-ranking-fields.png)
+   ![](../assets/ai-ranking-fields.png)
 
    * **[!UICONTROL Name]**: 입력해야 하는 고유한 이름입니다.
 
@@ -84,7 +84,7 @@ ht-degree: 3%
 
    * **[!UICONTROL Dataset ID]**: 전환의 경우 드롭다운 목록에서 이벤트를 선택하여 이벤트를 수집할 데이터 세트를 제공해야 합니다. 에서 이러한 데이터 세트를 만드는 방법을 알아봅니다 [이 섹션](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
-   ![](../../assets/ai-ranking-dataset-id.png)
+   ![](../assets/ai-ranking-dataset-id.png)
 
    >[!CAUTION]
    >
@@ -92,7 +92,7 @@ ht-degree: 3%
 
 1. 등급 전략을 저장하고 활성화합니다.
 
-   ![](../../assets/ai-ranking-save-activate.png)
+   ![](../assets/ai-ranking-save-activate.png)
 
 이제 배치에 적합한 오퍼의 등급을 매기는 결정에 사용할 준비가 되었습니다. 추가 정보 [이 섹션](../offer-activities/configure-offer-selection.md#use-ranking-strategy).<!--TBC?-->
 
@@ -102,11 +102,11 @@ ht-degree: 3%
 
 1. 에서 **[!UICONTROL Data Management]** 메뉴, 선택 **[!UICONTROL Schema]**&#x200B;로 이동합니다. **[!UICONTROL Browse]** 탭을 클릭하고 **[!UICONTROL Create schema]**.
 
-   ![](../../assets/ai-ranking-create-schema.png)
+   ![](../assets/ai-ranking-create-schema.png)
 
 1. 선택 **[!UICONTROL XDM ExperienceEvent]**.
 
-   ![](../../assets/ai-ranking-xdm-event.png)
+   ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 1. 에서 **[!UICONTROL Search]** 필드를 입력하고 &quot;제안 상호 작용&quot;을 입력하고 을 선택합니다 **[!UICONTROL Experience Event - Proposition Interactions]** 필드 그룹.
 
-   ![](../../assets/ai-ranking-proposition-interactions.png)
+   ![](../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
@@ -123,7 +123,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL Add field groups]**&#x200B;을(를) 클릭합니다.
 
-   ![](../../assets/ai-ranking-add-field-group.png)
+   ![](../assets/ai-ranking-add-field-group.png)
 
    >[!NOTE]
    >필드 그룹은 이전에 mixin이라고 불렀습니다.
@@ -138,21 +138,21 @@ ht-degree: 3%
 
 1. 에서 **[!UICONTROL Data Management]** 메뉴, 선택 **[!UICONTROL Datasets]**&#x200B;로 이동합니다. **[!UICONTROL Browse]** 탭을 클릭하고 **[!UICONTROL Create dataset]**.
 
-   ![](../../assets/ai-ranking-create-dataset.png)
+   ![](../assets/ai-ranking-create-dataset.png)
 
 1. **[!UICONTROL Create dataset from schema]**&#x200B;를 선택합니다.
 
-   ![](../../assets/ai-ranking-create-dataset-from-schema.png)
+   ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
 1. 목록에서 방금 만든 스키마를 선택합니다.
 
-   ![](../../assets/ai-ranking-dataset-select-schema.png)
+   ![](../assets/ai-ranking-dataset-select-schema.png)
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
 1. 에서 데이터 세트에 대한 고유한 이름을 제공합니다 **[!UICONTROL Name]** 필드를 입력하고 **[!UICONTROL Finish]**.
 
-   ![](../../assets/ai-ranking-dataset-name.png)
+   ![](../assets/ai-ranking-dataset-name.png)
 
 이제 데이터 세트를 선택하여 이벤트 데이터를 수집할 준비가 되었습니다. [등급 전략 생성](#create-ranking-strategy).
 

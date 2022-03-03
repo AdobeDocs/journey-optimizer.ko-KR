@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 9%
@@ -23,7 +23,7 @@ ht-degree: 9%
 * [날짜 조건](#date_condition)
 * [프로필 상한](#profile_cap)
 
-![](../assets/journey49.png)
+![](assets/journey49.png)
 
 ## 조건 활동 정보 {#about_condition}
 
@@ -31,13 +31,13 @@ ht-degree: 9%
 
 클릭 **[!UICONTROL Add a path]** 여러 조건을 정의하려면 각 조건에 대해 활동 뒤에 캔버스에 새 경로가 추가됩니다.
 
-![](../assets/journey47.png)
+![](assets/journey47.png)
 
 여정 디자인은 기능에 영향을 줍니다. 조건 후에 여러 경로가 정의되면 첫 번째 적합한 경로만 실행됩니다. 즉, 경로의 우선 순위를 서로 위 또는 아래에 배치하여 변경할 수 있습니다.
 
 예를 들어 첫 번째 경로의 조건 &quot;The person is a VIP&quot; 및 두 번째 경로의 조건 &quot;The person is a male&quot;을 예로 들어 보겠습니다. 두 조건을 모두 충족하는 사람(VIP인 남성)이 이 단계를 통과하면 첫 번째 경로가 &quot;위&quot;이므로 이 사람이 두 번째 경로에도 자격이 있어도 첫 번째 경로가 선택됩니다. 이 우선 순위를 변경하려면 활동을 다른 세로 순서로 이동합니다.
 
-![](../assets/journey48.png)
+![](assets/journey48.png)
 
 정의한 조건에 적합하지 않은 대상에 대해 다음을 확인하여 다른 경로를 만들 수 있습니다 **[!UICONTROL Show path for other cases than the one(s) above]**. 이 옵션은 분할 조건에서는 사용할 수 없습니다. 자세한 내용은 [백분율 분할](#percentage_split).
 
@@ -46,7 +46,7 @@ ht-degree: 9%
 * 및: 두 가지 기준의 교집합. 모든 기준과 일치하는 요소만 고려합니다.
 * 또는: 두 가지 기준의 결합. 두 기준 중 하나 이상에 일치하는 요소를 고려합니다.
 
-![](../assets/journey64.png)
+![](assets/journey64.png)
 
 를 사용 중이라면 [Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;} 세그먼트를 만들어 여정 조건에서 활용할 수 있습니다. 을(를) 참조하십시오. [조건에서 세그먼트 사용](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -63,7 +63,7 @@ ht-degree: 9%
 
 데이터 소스의 필드 또는 이전에 여정에 배치된 이벤트를 기반으로 조건을 정의할 수 있습니다. 표현식 편집기를 사용하는 방법에 대해 알아보려면 [Adobe Journey Orchestration 설명서](expression/expressionadvanced.md). 고급 표현식 편집기를 사용하면 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하는 더 고급 조건을 설정할 수 있습니다. [이 페이지](../datasource/external-data-sources.md)를 참조하십시오.
 
-![](../assets/journey50.png)
+![](assets/journey50.png)
 
 ## 시간 조건{#time_condition}
 
@@ -73,7 +73,7 @@ ht-degree: 9%
 >
 >시간대는 더 이상 조건에 한정되지 않으며 이제 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
-![](../assets/journey51.png)
+![](assets/journey51.png)
 
 ## 백분율 분할 {#percentage_split}
 
@@ -85,7 +85,7 @@ ht-degree: 9%
 >
 >백분율 분할 조건에 경로를 추가할 버튼이 없습니다. 경로 수는 분할의 수에 따라 달라집니다. 분할 조건에서는 다른 사례에 대한 경로를 추가할 수 없으므로 이 경로를 추가할 수 없습니다. 사람들은 항상 갈려 가는 길 중 하나를 택할 것이다.
 
-![](../assets/journey52.png)
+![](assets/journey52.png)
 
 ## 날짜 조건 {#date_condition}
 
@@ -95,7 +95,7 @@ ht-degree: 9%
 >
 >시간대는 더 이상 조건에 한정되지 않으며 이제 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
-![](../assets/journey53.png)
+![](assets/journey53.png)
 
 ## 프로필 상한 {#profile_cap}
 
@@ -116,7 +116,7 @@ ht-degree: 9%
 
 프로필 캡은 테스트 모드에서 고려되지 않습니다.
 
-![](../assets/profile-cap-condition.png)
+![](assets/profile-cap-condition.png)
 
 ## 조건에서 세그먼트 사용 {#using-a-segment}
 
@@ -125,15 +125,15 @@ ht-degree: 9%
 여정 조건에서 세그먼트를 사용하려면 다음 단계를 수행합니다.
 
 1. 여정을 열고 **[!UICONTROL Condition]** 활동을 선택하고 을(를) 선택합니다 **데이터 소스 조건**.
-   ![](../assets/journey47.png)
+   ![](assets/journey47.png)
 
 1. 클릭 **[!UICONTROL Add a path]** 필요한 각 추가 경로에 대해 을 참조하십시오. 각 경로에 대해 **[!UICONTROL Expression]** 필드.
 
-   ![](../assets/segment3.png)
+   ![](assets/segment3.png)
 
 1. 왼쪽에서 펼칩니다 **[!UICONTROL Segments]** 노드 아래에 있어야 합니다. 조건에 사용할 세그먼트를 드래그하여 놓습니다. 기본적으로 세그먼트의 조건은 true입니다.
 
-   ![](../assets/segment4.png)
+   ![](assets/segment4.png)
 
    >[!NOTE]
    >

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 에서 **[!UICONTROL Executions]** 의 탭 **[!UICONTROL Messages]** 메뉴, 선택 **[!UICONTROL Live view]** 그런 다음 선택한 게재의 고급 메뉴에서 을(를) 선택합니다 **[!UICONTROL Live report]**.
 
-![](../assets/live_report.png)
+![](assets/live_report.png)
 
 이메일 **[!UICONTROL Live report]** 은 게재의 성공 및 오류를 설명하는 다른 위젯으로 구분됩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 정보는 다음을 참조하십시오 [섹션](live-report.md#modify-dashboard).
 
-![](../assets/live_report_5.png)
+![](assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** 및 **[!UICONTROL Email summary]** 위젯은 그래프 및 KPI를 사용하여 메시지에 대한 기본 정보를 자세히 설명합니다.
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
-![](../assets/live_report_6.png)
+![](assets/live_report_6.png)
 
 다음 **[!UICONTROL Error Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류를 확인할 수 있습니다.
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 * **[!UICONTROL Ignored]**: 부재 중 또는 기술 오류(예: 발신자 유형이 postmaster인 경우)와 같은 총 임시 수입니다.
 
 <!--
-![](../assets/live_report_8.png)
+![](assets/live_report_8.png)
 
 >[!NOTE]
 >

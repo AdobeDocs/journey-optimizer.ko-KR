@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
+source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 11%
@@ -27,4 +27,4 @@ ht-degree: 11%
 
 각 개념은 **[!UICONTROL Product administrators]** admin console에 액세스할 수 있습니다. [Adobe Admin Console에 대한 자세한 내용을 살펴보십시오](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html).
 
-![](../assets/do-not-localize/permissions_2.png)
+![](assets/do-not-localize/permissions_2.png)

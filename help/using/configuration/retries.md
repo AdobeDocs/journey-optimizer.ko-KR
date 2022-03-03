@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -35,11 +35,11 @@ ht-degree: 2%
 
 1. **[!UICONTROL Edit suppression rules]** 버튼을 선택합니다.
 
-   ![](../assets/suppression-list-edit-retries.png)
+   ![](assets/suppression-list-edit-retries.png)
 
 1. 필요에 따라 허용된 연속 소프트 바운스 수를 편집합니다.
 
-   ![](../assets/suppression-list-edit-soft-bounces.png)
+   ![](assets/suppression-list-edit-soft-bounces.png)
 
    1에서 20 사이의 정수 값을 입력해야 합니다. 즉, 최소 다시 시도 횟수는 1이고 최대 수는 20입니다.
 

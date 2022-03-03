@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a101ee8cd7b57ee951d0ef2d5fd366757cb0a014
+source-git-commit: 7c00fcf72ba001005b8e4ac548b789f37f9039a3
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 6%
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]**. 에서  **[!UICONTROL Actions]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 클릭 **[!UICONTROL Create Action]** 새 작업을 만들려면 화면 오른쪽에 작업 구성 창이 열립니다.
 
-   ![](../assets/custom2.png)
+   ![](assets/custom2.png)
 
 1. 작업의 이름을 입력합니다.
 
@@ -60,7 +60,7 @@ ht-degree: 6%
 
 사용자 지정 작업을 구성할 때 다음을 정의해야 합니다 **[!UICONTROL URL Configuration]** 매개 변수:
 
-![](../assets/journeyurlconfiguration.png)
+![](assets/journeyurlconfiguration.png)
 
 1. 에서 **[!UICONTROL URL]** 필드에서 외부 서비스의 URL을 지정합니다.
 
@@ -89,7 +89,7 @@ ht-degree: 6%
 
       선택한 경우 **[!UICONTROL Variable]**&#x200B;를 채울 경우 사용자 지정 작업을 여정에 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
 
-      ![](../assets/journeyurlconfiguration2.png)
+      ![](assets/journeyurlconfiguration2.png)
 
    1. 헤더 필드를 삭제하려면 헤더 필드를 가리킨 다음 **[!UICONTROL Delete]** 아이콘.
    다음 **[!UICONTROL Content-Type]** 및 **[!UICONTROL Charset]** 헤더 필드는 기본적으로 설정되어 있습니다. 이러한 필드는 수정하거나 삭제할 수 없습니다.
@@ -102,11 +102,11 @@ ht-degree: 6%
 
 ## 작업 매개 변수 정의 {#define-the-message-parameters}
 
-![](../assets/messageparameterssection.png)
+![](assets/messageparameterssection.png)
 
 에서 **[!UICONTROL Action parameters]** 섹션을 통해 외부 서비스로 전송할 JSON 페이로드의 예를 붙여넣습니다.
 
-![](../assets/customactionpayloadmessage.png)
+![](assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
@@ -119,5 +119,5 @@ ht-degree: 6%
 * 상수는 매개 변수의 값이 기술 성향에 의해 작업 구성 창에 정의되어 있음을 의미합니다. 값은 여정 간에 항상 동일합니다. 여정에서 사용자 지정 작업을 사용할 때에는 변경사항이 발생하지 않으며 마케터가 표시되지 않습니다. 예를 들어 서드파티 시스템에서 기대하는 ID일 수 있습니다. 이 경우 전환 상수/변수 오른쪽에 있는 필드가 전달된 값입니다.
 * 변수는 매개 변수의 값이 변경됨을 의미합니다. 여정에서 이 사용자 지정 작업을 사용하는 마케터는 원하는 값을 전달하거나 이 매개 변수의 값을 검색할 위치(예: 이벤트에서 또는 Adobe Experience Platform에서)를 지정할 수 있습니다. 이 경우 전환 상수/변수 오른쪽에 있는 필드는 이 매개 변수의 이름을 지정하기 위해 여정에 표시되는 레이블 마케터입니다.
 
-![](../assets/customactionpayloadmessage2.png)
+![](assets/customactionpayloadmessage2.png)
 

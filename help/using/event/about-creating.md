@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: a51b19413d2b4894adfaa8249ee4f5d404ac7123
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 14%
@@ -21,15 +21,15 @@ ht-degree: 14%
 
 1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]**. 에서  **[!UICONTROL Events]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 그러면 이벤트 목록이 표시됩니다.
 
-   ![](../assets/jo-event1.png)
+   ![](assets/jo-event1.png)
 
 1. 새 이벤트를 만들려면 **[!UICONTROL Create Event]**&#x200B;를 클릭합니다. 그러면 화면 오른쪽에 이벤트 구성 창이 열립니다.
 
-   ![](../assets/jo-event2.png)
+   ![](assets/jo-event2.png)
 
 1. 이벤트의 이름을 입력합니다. 설명을 추가할 수도 있습니다.
 
-   ![](../assets/jo-event3.png)
+   ![](assets/jo-event3.png)
 
    >[!NOTE]
    >
@@ -37,24 +37,24 @@ ht-degree: 14%
 
 1. 에서 **[!UICONTROL Type]** 필드, 선택 **단일**.
 
-   ![](../assets/jo-event3bis.png)
+   ![](assets/jo-event3bis.png)
 
 1. 에서 **[!UICONTROL Event ID type]** 필드에서 사용할 이벤트 ID 유형을 선택합니다. **규칙 기반** 또는 **시스템 생성**. 의 이벤트 ID 유형에 대해 자세히 알아보십시오 [이 섹션](../event/about-events.md#event-id-type).
 
-   ![](../assets/jo-event4.png)
+   ![](assets/jo-event4.png)
 
 1. 이 이벤트를 사용하는 경로 수가 **[!UICONTROL Used in]** 필드에 표시됩니다. **[!UICONTROL View journeys]** 아이콘을 클릭하여 이 이벤트를 사용하는 경로 목록을 표시할 수 있습니다.
 
 1. 스키마 및 페이로드 필드를 정의합니다. 여기서 여정이 수신하도록 하는 이벤트 정보(대개 페이로드)를 선택합니다. 그러면 이 정보를 경로에 사용할 수 있습니다. [이 섹션](../event/about-creating.md#define-the-payload-fields)을 참조하십시오.
 
-   ![](../assets/jo-event5.png)
+   ![](assets/jo-event5.png)
 
    >[!NOTE]
    >
    >을(를) 선택하는 경우 **[!UICONTROL System Generated]** type으로 eventID 유형 필드가 있는 스키마만 사용할 수 있습니다. 을(를) 선택하는 경우 **[!UICONTROL Rule Based]** type, 모든 Experience Event 스키마를 사용할 수 있습니다.
 
 1. 규칙 기반 이벤트의 경우, **[!UICONTROL Event ID condition]** 필드. 단순 표현식 편집기를 사용하여 시스템에서 여정을 트리거할 이벤트를 식별하는 데 사용할 조건을 정의합니다.
-   ![](../assets/jo-event6.png)
+   ![](assets/jo-event6.png)
 
    이 예제에서는 프로필의 도시를 기반으로 조건을 작성했습니다. 즉, 시스템이 이 조건(**[!UICONTROL City]** 필드 및 **[!UICONTROL Paris]** 값), 여정에게 전달됩니다.
 
@@ -65,7 +65,7 @@ ht-degree: 14%
 1. 네임스페이스를 추가합니다. 이 단계는 원하는 경우에만 수행하면 되지만, 네임스페이스를 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있습니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. [이 섹션](../event/about-creating.md#select-the-namespace)을 참조하십시오.
 1. 프로필 식별자를 정의합니다. 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 지정합니다. 이 키는 네임스페이스를 선택하면 자동으로 설정되지만 편집할 수 있습니다. 네임스페이스에 해당하는 키는 여정에서 자동으로 선택됩니다. 예를 들어 이메일 네임스페이스를 선택하면 이메일 키가 선택됩니다. [이 섹션](../event/about-creating.md#define-the-event-key)을 참조하십시오.
 
-   ![](../assets/jo-event7.png)
+   ![](assets/jo-event7.png)
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -77,7 +77,7 @@ ht-degree: 14%
 
 1. 목록에서 XDM 스키마를 선택하고 를 클릭합니다. **[!UICONTROL Fields]** 필드 또는 **[!UICONTROL Edit]** 아이콘.
 
-   ![](../assets/journey8.png)
+   ![](assets/journey8.png)
 
    스키마에 정의된 모든 필드가 표시됩니다. 필드 목록은 스키마마다 다릅니다. 특정 필드를 검색하거나 필터를 사용하여 모든 노드와 필드를 표시하거나 선택한 필드만 표시할 수 있습니다. 스키마 정의에 따라 일부 필드는 필수 필드이며 미리 선택되어 있을 수 있습니다. 선택 취소할 수 없습니다. 여정이 이벤트를 제대로 수신하기 위해 필수 필드인 모든 필드는 기본적으로 선택됩니다.
 
@@ -85,7 +85,7 @@ ht-degree: 14%
    >
    >시스템 생성 이벤트의 경우, XDM 스키마에 &quot;orchestration&quot; 필드 그룹을 추가했는지 확인합니다. 이렇게 하면 스키마에 작업에 필요한 모든 정보가 포함됩니다 [!DNL Journey Optimizer].
 
-   ![](../assets/journey9.png)
+   ![](assets/journey9.png)
 
 1. 이벤트에서 받을 필드를 선택합니다. 비즈니스 사용자가 여정에서 활용할 수 있는 필드입니다. 또한 이벤트와 연관된 사용자를 식별하는 데 사용할 키도 포함해야 합니다( 참조). [이 섹션](../event/about-creating.md#define-the-event-key)).
 
@@ -97,7 +97,7 @@ ht-degree: 14%
 
    선택한 필드 수가 **[!UICONTROL Fields]** 필드.
 
-   ![](../assets/journey12.png)
+   ![](assets/journey12.png)
 
 ## 네임스페이스를 선택합니다 {#select-the-namespace}
 
@@ -109,12 +109,12 @@ ht-degree: 14%
 
 필드를 선택할 때 기본 ID 필드에 태그가 지정됩니다.
 
-![](../assets/primary-identity.png)
+![](assets/primary-identity.png)
 
 
 드롭다운 목록에서 네임스페이스를 선택합니다.
 
-![](../assets/journey17.png)
+![](assets/journey17.png)
 
 여정 당 하나의 네임스페이스만 허용됩니다. 동일한 여정에서 여러 이벤트를 사용하는 경우 동일한 네임스페이스를 사용해야 합니다. [이 페이지](../building-journeys/journey.md)를 참조하십시오.
 
@@ -128,17 +128,17 @@ ht-degree: 14%
 
 필드를 선택할 때 기본 ID 필드에 태그가 지정됩니다.
 
-![](../assets/primary-identity.png)
+![](assets/primary-identity.png)
 
 CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경우 수동으로 추가해야 합니다.
 
 1. 의 내부를 클릭합니다. **[!UICONTROL Profile identifier]** 필드 또는 연필 아이콘에 있을 때 사용할 수 있습니다.
 
-   ![](../assets/journey16.png)
+   ![](assets/journey16.png)
 
 1. 페이로드 필드 목록에서 키로 선택한 필드를 선택합니다. 고급 표현식 편집기로 전환하여 더 복잡한 키(예: 이벤트의 두 필드 연결)를 만들 수도 있습니다. 이 섹션에서 아래를 참조하십시오.
 
-   ![](../assets/journey20.png)
+   ![](assets/journey20.png)
 
 이벤트가 수신되면 키 값을 통해 시스템에서 이벤트와 연관된 사용자를 식별할 수 있습니다. 네임스페이스에 연결됨( [이 섹션](../event/about-creating.md#select-the-namespace)) 키를 사용하여 Adobe Experience Platform에 대한 쿼리를 수행할 수 있습니다. [이 페이지](../building-journeys/about-journey-activities.md#orchestration-activities)를 참조하십시오.
 키가 여정에 있는지 확인하는 데에도 사용됩니다. 실제로, 한 사람은 동일한 여정에서 두 개의 다른 위치에 있을 수 없습니다. 따라서 시스템에서 동일한 키(예: CRMID=3224)를 동일한 여정의 다른 위치에 둘 수 없습니다.
@@ -155,11 +155,11 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 
 1. 을(를) 클릭합니다. **[!UICONTROL View Payload]** 아이콘을 클릭하여 시스템에 필요한 페이로드를 미리 봅니다.
 
-   ![](../assets/journey13.png)
+   ![](assets/journey13.png)
 
    선택한 필드가 표시되었음을 알 수 있습니다.
 
-   ![](../assets/journey14.png)
+   ![](assets/journey14.png)
 
 1. 미리 보기를 선택하여 페이로드 정의의 유효성을 확인합니다.
 

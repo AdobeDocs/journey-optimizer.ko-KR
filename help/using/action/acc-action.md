@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 7324b5dd448b770990aad485fa2b13bc131cbcb1
+source-git-commit: 51c63b196b11905289c3c0c450c1976eb551bbc8
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 4%
@@ -69,4 +69,4 @@ Journey Optimizer에서는 트랜잭션 메시지당 하나의 작업을 구성�
 1. 여정 캔버스에 매핑할지 여부에 따라 다른 필드를 정적 또는 변수로 조정합니다. 전자 메일 주소 및 개인화 필드(ctx)에 대한 채널 매개 변수와 같은 특정 필드는 여정 컨텍스트에서 매핑을 위한 변수로 정의할 수 있습니다.
 1. **저장**&#x200B;을 클릭합니다.
 
-![](../assets/accintegration1.png)
+![](assets/accintegration1.png)

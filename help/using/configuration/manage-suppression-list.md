@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 2%
@@ -31,15 +31,15 @@ ht-degree: 2%
 >
 >제외 목록을 보고, 내보내고 관리할 수 있는 권한은 다음으로 제한됩니다 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator). 관리에 대해 자세히 알아보기 [!DNL Journey Optimizer] 사용자 액세스 권한 [이 섹션](../administration/permissions-overview.md).
 
-![](../assets/suppression-list-access.png)
+![](assets/suppression-list-access.png)
 
 필터를 사용하여 목록을 탐색할 수 있습니다.
 
-![](../assets/suppression-list-filters.png)
+![](assets/suppression-list-filters.png)
 
 을(를) **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, 또는 **[!UICONTROL Reason]**. 각 기준에 대해 선택한 옵션을 선택합니다. 선택하면 각 필터 또는 목록 맨 위에 표시된 모든 필터를 지울 수 있습니다.
 
-![](../assets/suppression-list-filtering-example.png)
+![](assets/suppression-list-filtering-example.png)
 
 실수로 이메일 주소 또는 도메인을 수동으로 추가하는 경우 **[!UICONTROL Delete]** 버튼을 사용하면 해당 항목을 제거할 수 있습니다.
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 >
 >사용 안 함 **[!UICONTROL Delete]** 표시되지 않습니다.
 
-![](../assets/suppression-list-delete.png)
+![](assets/suppression-list-delete.png)
 
 제외 목록에서 이메일 주소 또는 도메인을 삭제하면 이 주소 또는 도메인으로 다시 배달됩니다. 따라서 게재 능력과 IP 평판에 심각한 영향을 줄 수 있으므로 IP 주소 또는 전송 도메인이 차단될 수 있습니다. 에서 제외 목록 유지 관리의 중요도에 대해 자세히 알아보십시오. [이 섹션](../messages/suppression-list.md).
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 제외 목록을 CSV 파일로 내보내려면 **[!UICONTROL Download CSV]** 버튼을 클릭합니다.
 
-![](../assets/suppression-list-download-csv.png)
+![](assets/suppression-list-download-csv.png)
 
 ## 제외 카테고리 및 이유 {#suppression-categories-and-reasons}
 
@@ -83,7 +83,7 @@ ht-degree: 2%
 
 나열된 각 이메일 주소에 대해 다음을 확인할 수도 있습니다 **[!UICONTROL Type]** (이메일 또는 도메인), **[!UICONTROL Reason]** 제외하기 위해 추가한 사람과 제외 목록에 추가한 날짜/시간입니다.
 
-![](../assets/suppression-list.png)
+![](assets/suppression-list.png)
 
 게재 실패 이유는 다음과 같습니다.
 
@@ -111,13 +111,13 @@ ht-degree: 2%
 
 이렇게 하려면 **[!UICONTROL Add email or domain]** 버튼을 클릭한 다음 아래 방법 중 하나를 수행합니다.
 
-![](../assets/suppression-list-add-email.png)
+![](assets/suppression-list-add-email.png)
 
 ### 주소 또는 도메인 하나 추가 {#add-one-address-or-domain}
 
 1. **[!UICONTROL One by one]** 옵션을 선택합니다.
 
-   ![](../assets/suppression-list-add-email-address.png)
+   ![](assets/suppression-list-add-email-address.png)
 
 1. 주소 유형을 선택합니다. **[!UICONTROL Email address]** 또는 **[!UICONTROL Domain address]**.
 
@@ -135,7 +135,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Upload CSV]** 옵션을 선택합니다.
 
-   ![](../assets/suppression-list-upload-csv.png)
+   ![](assets/suppression-list-upload-csv.png)
 
 1. 아래 열과 형식을 포함하는 사용할 CSV 템플릿을 다운로드합니다.
 
@@ -156,7 +156,7 @@ ht-degree: 2%
 
 1. 완료되면 CSV 파일을 끌어다 놓은 다음 를 클릭합니다 **[!UICONTROL Upload file]**.
 
-   ![](../assets/suppression-list-upload-file-button.png)
+   ![](assets/suppression-list-upload-file-button.png)
 
 1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
@@ -166,13 +166,13 @@ ht-degree: 2%
 
 이렇게 하려면 **[!UICONTROL Suppression list]** 보기를 클릭하고 **[!UICONTROL Recent uploads]** 버튼을 클릭합니다.
 
-![](../assets/suppression-list-recent-uploads-button.png)
+![](assets/suppression-list-recent-uploads-button.png)
 
 제출한 최신 업로드와 해당 상태가 표시됩니다.
 
 오류 보고서가 파일과 연결되어 있으면 다운로드하여 발생한 오류를 확인할 수 있습니다.
 
-![](../assets/suppression-list-recent-uploads-error.png)
+![](assets/suppression-list-recent-uploads-error.png)
 
 다음은 오류 보고서에서 찾을 수 있는 항목 유형의 예입니다.
 

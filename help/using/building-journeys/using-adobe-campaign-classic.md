@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 6%
@@ -27,4 +27,4 @@ Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로�
 1. 에서 **작업** 팔레트의 섹션에서 Campaign 작업을 선택하여 여정에 추가합니다.
 1. 에서 **작업 매개 변수**, 메시지 페이로드에서 예상되는 모든 필드가 표시됩니다. 이벤트 또는 데이터 소스에서 사용할 필드에 이러한 각 필드를 매핑해야 합니다. 이는 사용자 지정 작업과 유사합니다. 다음을 참조하십시오 [섹션](../building-journeys/using-custom-actions.md).
 
-![](../assets/accintegration2.png)
+![](assets/accintegration2.png)

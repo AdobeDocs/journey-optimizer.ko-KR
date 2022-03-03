@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 7%
@@ -21,19 +21,19 @@ ht-degree: 7%
 
 1. **이벤트 구성**: 여정이 수신될 때까지 트리거하려면 이벤트를 구성해야 합니다. 필요한 정보와 정보를 처리하는 방법을 정의합니다. **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다. [자세히 보기](../event/about-events.md).
 
-   ![](../assets/jo-event7bis.png)
+   ![](assets/jo-event7bis.png)
 
 1. **세그먼트 만들기**: 여정이 Adobe Experience Platform 세그먼트를 수신하여 메시지를 지정된 프로필 세트에 일괄 전송할 수도 있습니다. 이를 위해 세그먼트를 만들어야 합니다. [자세히 보기](../segment/about-segments.md).
 
-   ![](../assets/segment2.png)
+   ![](assets/segment2.png)
 
 1. **데이터 소스 구성**: 여정에 사용할 조건 등의 추가 정보를 검색하는 시스템에 대한 연결을 정의할 수 있습니다. 기본 제공 Adobe Experience Platform 데이터 소스도 프로비저닝 시에 구성됩니다. 여정 내 이벤트의 데이터만 활용하는 경우에는 이 단계를 수행할 필요가 없습니다. **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다. [자세히 보기](../datasource/about-data-sources.md)
 
-   ![](../assets/jo-datasource.png)
+   ![](assets/jo-datasource.png)
 
 1. **작업 구성**: Journey Optimizer 메시지 기능이 내장되어 있으므로 컨텐츠를 디자인하고 메시지를 게시하기만 하면 됩니다. [이 섹션](../messages/get-started-content.md)을 참조하십시오. 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. 자세한 내용 [섹션](../action/action.md). **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다.
 
-   ![](../assets/create-content-push.png)
+   ![](assets/create-content-push.png)
 
 ## 여정 구축{#jo-build}
 
@@ -43,17 +43,17 @@ ht-degree: 7%
 
 1. 여정 관리 메뉴 섹션에서 **[!UICONTROL Journeys]**. 여정 목록이 표시됩니다.
 
-   ![](../assets/interface-journeys.png)
+   ![](assets/interface-journeys.png)
 
 1. 클릭 **[!UICONTROL Create Journey]** 새 여정을 만들려면
 
 1. 오른쪽에 표시되는 구성 창에서 여정의 속성을 편집합니다. 자세한 내용 [섹션](journey-gs.md#change-properties).
 
-   ![](../assets/jo-properties.png)
+   ![](assets/jo-properties.png)
 
 1. 먼저 이벤트 또는 **세그먼트 읽기** 활동을 팔레트에서 캔버스로 가져옵니다. 여정 디자인에 대한 자세한 내용은 [이 섹션](using-the-journey-designer.md).
 
-   ![](../assets/read-segment.png)
+   ![](assets/read-segment.png)
 
 1. 개인이 수행할 다음 단계를 끌어서 놓습니다. 예를 들어 조건 뒤에 메시지를 추가할 수 있습니다. 활동에 대한 자세한 내용은 [이 섹션](using-the-journey-designer.md).
 
@@ -61,11 +61,11 @@ ht-degree: 7%
 
 1. 여정을 게시하여 활성화합니다. 자세한 내용 [섹션](publishing-the-journey.md).
 
-   ![](../assets/jo-journeyuc2_32bis.png)
+   ![](assets/jo-journeyuc2_32bis.png)
 
 1. 전용 보고 도구를 사용하여 여정을 모니터링하여 여정의 효과를 측정합니다. 자세한 내용 [섹션](../reports/live-report.md).
 
-   ![](../assets/jo-dynamic_report_journey_12.png)
+   ![](assets/jo-dynamic_report_journey_12.png)
 
 ## 속성 변경 {#change-properties}
 
@@ -77,7 +77,7 @@ ht-degree: 7%
 
 다음 **기술 세부 정보 복사** 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정에 대한 기술 정보를 복사할 수 있습니다. 다음 정보가 복사됩니다. JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
-![](../assets/journey32.png)
+![](assets/journey32.png)
 
 ### 입구{#entrance}
 
@@ -133,11 +133,11 @@ ht-degree: 7%
 
 버스트 모드를 활성화하려면 여정을 열고 오른쪽 상단의 연필 아이콘을 클릭하여 여정 속성에 액세스합니다. 그런 다음 를 활성화합니다 **버스트 모드 활성화** 토글.
 
-![](../assets/burst.png)
+![](assets/burst.png)
 
 버스트 여정을 수정하고 버스트와 호환되지 않는 활동(메시지, 다른 작업, 이벤트 등)을 추가하는 경우 버스트 모드는 비활성화됩니다. 메시지가 표시됩니다.
 
-![](../assets/burst2.png)
+![](assets/burst2.png)
 
 그런 다음 여정을 정상적으로 테스트하고 게시합니다. 테스트 모드 메시지는 버스트 모드를 통해 전송되지 않습니다.
 
@@ -178,14 +178,14 @@ ht-degree: 7%
 
 여정 목록에서 여정을 닫으려면 **[!UICONTROL Ellipsis]** 여정 이름의 오른쪽에 있는 버튼을 선택하고 **[!UICONTROL Close to new entrances]**.
 
-![](../assets/journey-finish-quick-action.png)
+![](assets/journey-finish-quick-action.png)
 
 다음 작업도 수행할 수 있습니다.
 
 1. 에서 **[!UICONTROL Journeys]** 목록에서 닫을 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
 
-   ![](../assets/finish_drop_down_list.png)
+   ![](assets/finish_drop_down_list.png)
 
 1. **[!UICONTROL Close to new entrances]**&#x200B;을(를) 클릭합니다. 대화 상자가 나타납니다.
 1. 클릭 **[!UICONTROL Close to new entrances]** 확인합니다.
@@ -200,14 +200,14 @@ ht-degree: 7%
 
 예를 들어, 마케터가 여정이 잘못된 대상을 타깃팅하거나 메시지를 전달해야 하는 사용자 지정 작업이 제대로 작동하지 않는다는 것을 알고 있으면 여정을 중지할 수 있습니다. 여정 목록에서 여정을 중지하려면 **[!UICONTROL Ellipsis]** 여정 이름의 오른쪽에 있는 버튼을 선택하고 **[!UICONTROL Stop]**.
 
-![](../assets/journey-finish-quick-action.png)
+![](assets/journey-finish-quick-action.png)
 
 다음 작업도 수행할 수 있습니다.
 
 1. 에서 **[!UICONTROL Journeys]** 목록에서 중지할 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
 
-![](../assets/finish_drop_down_list.png)
+![](assets/finish_drop_down_list.png)
 
 1. **[!UICONTROL Stop]**&#x200B;을(를) 클릭합니다. 대화 상자가 나타납니다.
 1. 클릭 **[!UICONTROL Stop]** 확인합니다.
