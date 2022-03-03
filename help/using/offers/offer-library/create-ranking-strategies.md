@@ -7,46 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 3%
+source-wordcount: '620'
+ht-degree: 5%
 
 ---
 
-# AI 등급 {#ai-rankings}
-
-## AI 등급 시작 {#get-started-with-ai-rankings}
-
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use a trained model system that ranks offers to display for a given profile.
-
->[!CAUTION]
->
->현재 AI 등급을 사용하여 사용자를 선택하기만 하면 조기 액세스에서 사용할 수 있습니다.
-
-이 기능을 사용하면 다른 기능을 만들 수 있습니다 **순위 전략** 비즈니스 목표를 기반으로 구축 의사 결정(이전의 오퍼 활동)에 이러한 다양한 목표 기반 전략을 사용하여, 다양한 등급 전략이 목표에 미치는 영향을 이해하는 데 도움이 됩니다.
-
-예를 들어 이메일 채널에 대한 등급 전략과 푸시 채널에 대한 등급 전략을 선택할 수 있습니다. 각 채널에 대해, 훈련된 모델 시스템은 여러 데이터 포인트를 활용하여 오퍼의 우선 순위 점수나 오퍼를 고려하지 않고 지정된 배치에 대해 먼저 제공해야 하는 오퍼를 결정합니다 [등급 공식](create-ranking-formulas.md).
-
-<!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
-
-등급 전략이 만들어지면 결정에서 배치에 할당합니다. 추가 정보 [결정에서 오퍼 선택 구성](../offer-activities/configure-offer-selection.md).
-
-### 자동 최적화 모델 {#auto-optimization}
-
-현재 [!DNL Journey Optimizer] AI 등급에 대해 지원되는 모델 유형은 **자동 최적화**.
-
-자동 최적화 모델은 사용자가 설정한 주요 성과 지표(KPI)를 기반으로, 반품을 극대화하는 오퍼를 제공하는 것을 목표로 합니다. <!--These KPIs could be in the form of conversion rates, revenue, etc.-->이때 자동 최적화는 오퍼를 타겟으로 전환하여 오퍼 클릭 최적화에 중점을 둡니다.
-
->[!NOTE]
->
->자동 최적화 모델은 상황별 또는 사용자 프로필 데이터를 사용하지 않습니다. 오퍼의 전역 성능을 기반으로 결과를 최적화합니다.
-
-자동 최적화를 통해 해결해야 할 과제는 탐구적 학습과 그 학습의 착취 간의 균형을 맞추는 것입니다. 이 원칙은 다음과 같습니다 **&quot;다중 무장 강도&quot; 접근**.
-
-이 문제를 해결하기 위해 자동 최적화 모델은 **톰슨 샘플링** 예상 보상을 극대화하기 위한 옵션을 식별할 수 있는 방법입니다. 다시 말하면, 톰슨 샘플링은 다무장 산적 문제에 대한 탐구적 착취 딜레마를 해결하기 위한 일종의 강화 학습 기술이다.
-
-또한 Thompson 샘플링 방법은 &quot;콜드 스타트&quot; 문제와 같은 문제를 처리할 수 있습니다. 즉, 새로운 오퍼가 캠페인에 도입되었을 때, 이 방법에서 교육할 수 있는 이력이 없습니다.
+# AI 모델 만들기 {#ai-rankings}
 
 ## 등급 전략 만들기 {#create-ranking-strategy}
 
@@ -66,7 +34,7 @@ ht-degree: 3%
 
    * **[!UICONTROL Name]**: 입력해야 하는 고유한 이름입니다.
 
-   * **[!UICONTROL Model type]**: 현재 지원되는 모델 유형은 **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
+   * **[!UICONTROL Model type]**: 현재 [!DNL Journey Optimizer] 유일하게 지원되는 모델 유형은 다음과 같습니다. **[!UICONTROL Auto-optimization]**. [자세히 알아보기](ai-ranking.md#auto-optimization)
 
    * **[!UICONTROL Optimization metric]**:
 
