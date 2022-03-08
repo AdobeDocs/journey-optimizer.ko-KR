@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc9.png)
 
-1. 을(를) 선택합니다 **상황별 특성** 메뉴 아래의 제품에서 사용할 수 있습니다. 컨텍스트 속성은 여정이 메시지에 컨텍스트 데이터를 전달한 경우에만 사용할 수 있습니다. 클릭 **Journey Orchestration**. 다음과 같은 상황별 정보가 표시됩니다.
+1. 을(를) 선택합니다 **컨텍스트** 카테고리. 이 항목은 여정이 메시지에 컨텍스트 데이터를 전달한 경우에만 사용할 수 있습니다. 클릭 **Journey Orchestration**. 다음과 같은 상황별 정보가 표시됩니다.
 
    * **이벤트**: 이 카테고리는 **메시지** 활동 을 만들 수 있습니다.
    * **여정 속성**: 주어진 프로필의 여정과 관련된 기술 필드(예: 여정 ID 또는 발생한 특정 오류)입니다. 추가 정보 [Journey Orchestration 설명서](../building-journeys/expression/journey-properties.md).
@@ -94,11 +94,11 @@ ht-degree: 0%
 
    ![](assets/perso-uc12.png)
 
-1. **에서 메시지를 입력하고 삽입 을 클릭합니다.**[!UICONTROL Contextual attributes]** 메뉴, 주문 품목 이름 및 주문 진행 상태
+1. 에서 메시지를 입력하고 삽입 을 클릭합니다. **컨텍스트** 범주, 주문 품목 이름 및 주문 진행.
 
    ![](assets/perso-uc13.png)
 
-1. 왼쪽 메뉴에서 **오퍼 결정** offer decisioning 변수를 삽입하려면 다음을 수행하십시오. 배치를 선택하고 을(를) 클릭합니다. **+** 결정 옆에 있는 아이콘(이전에 &#39;오퍼 활동&#39;이라고 함)을 본문에 추가합니다.
+1. 드롭다운에서 을(를) 선택합니다 **오퍼 결정** offer decisioning 변수를 삽입하려면 다음을 수행하십시오. 배치를 선택하고 을(를) 클릭합니다. **+** 결정 옆에 있는 아이콘(이전에 &#39;오퍼 활동&#39;이라고 함)을 본문에 추가합니다.
 
    ![](assets/perso-uc14.png)
 
