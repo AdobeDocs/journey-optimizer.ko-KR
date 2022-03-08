@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 이 섹션에서는 세그먼트 읽기, 이벤트, 반응 이벤트 및 이메일/푸시 메시지를 결합하는 사용 사례를 제공합니다.
 
-![](assets/jo-uc1.png)
+![](../assets/jo-uc1.png)
 
 ## 사용 사례에 대한 설명
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/add-attributes.png)
+   ![](../assets/add-attributes.png)
 
 이제 세그먼트가 만들어져서 여정에서 사용할 준비가 되었습니다. 사용 **세그먼트 읽기** 활동을 통해 세그먼트에 속하는 모든 개인이 여정을 입력하도록 할 수 있습니다.
 
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/jo-uc2.png)
+   ![](../assets/jo-uc2.png)
 
 이제 이벤트가 구성되었으며 여정에서 사용할 준비가 되었습니다. 해당 이벤트 활동을 사용하여 고객이 구매할 때마다 작업을 트리거할 수 있습니다.
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 * 푸시 &quot;감사합니다&quot; 메시지
 * 이메일 후속 메시지
 
-![](assets/jo-uc3.png)
+![](../assets/jo-uc3.png)
 
 다음을 참조하십시오 [섹션](../segment/about-segments.md) 이러한 메시지를 디자인하고 게시하는 방법을 배웁니다.
 
@@ -97,11 +97,11 @@ ht-degree: 2%
 
 1. 여정 시작 **세그먼트 읽기** 활동. 이전에 만든 세그먼트를 선택합니다. 세그먼트에 속하는 모든 개인이 여정에 들어갑니다.
 
-   ![](assets/jo-uc4.png)
+   ![](../assets/jo-uc4.png)
 
 1. 삭제 **메시지** 활동을 선택하고 푸시 및 이메일 첫 번째 메시지를 선택합니다. 이 메시지는 여정의 모든 개인에게 전송됩니다.
 
-   ![](assets/jo-uc5.png)
+   ![](../assets/jo-uc5.png)
 
 1. 메시지 활동에 커서를 놓고 &quot;+&quot; 기호를 클릭하여 새 경로를 만듭니다.
 
