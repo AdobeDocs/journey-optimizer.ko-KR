@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 1%
@@ -19,37 +19,37 @@ ht-degree: 1%
 
 **등급 공식** 오퍼의 우선 순위 점수를 고려하지 않고, 주어진 배치에 대해 먼저 제공해야 하는 오퍼를 결정하는 규칙을 정의할 수 있습니다.
 
-등급 공식은 **PQL 구문** 및 은 프로필 속성, 컨텍스트 데이터 및 오퍼 속성을 활용할 수 있습니다. PQL 구문 사용 방법에 대한 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
+Ranking formulas are expressed in **PQL syntax** and can leverage profile attributes, context data and offer attributes. PQL 구문 사용 방법에 대한 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
 등급 공식이 만들어지면 결정에서 배치에 할당할 수 있습니다. 자세한 내용은 [결정에서 오퍼 선택 구성](../offer-activities/configure-offer-selection.md).
 
 ## 등급 공식 만들기 {#create-ranking-formula}
 
-등급 공식을 만들려면 아래 단계를 수행하십시오.
+To create a ranking formula, follow the steps below:
 
 1. 액세스 권한 **[!UICONTROL Components]** 메뉴를 선택한 다음 **[!UICONTROL Rankings]** 탭. 이전에 만든 등급 목록이 표시됩니다.
 
-   ![](../assets/rankings-list.png)
+   ![](../../assets/rankings-list.png)
 
 1. 클릭 **[!UICONTROL Create ranking]** 새 등급 공식을 생성합니다.
 
-   ![](../assets/ranking-create-formula.png)
+   ![](../../assets/ranking-create-formula.png)
 
 1. 순위 공식 이름, 설명 및 공식을 지정합니다.
 
    이 예에서는 실제 날씨가 더운 경우 &quot;핫&quot; 속성을 사용하여 모든 오퍼의 우선 순위를 늘리려고 합니다. 이렇게 하려면 **contextData.weather=hot** 이 의사결정 호출에서 전달되었습니다.
 
-   ![](../assets/ranking-syntax.png)
+   ![](../../assets/ranking-syntax.png)
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 등급 공식이 생성되면 목록에서 선택하여 세부 정보를 얻고 편집하거나 삭제할 수 있습니다.
 
-   이제 배치에 적합한 오퍼의 등급을 매기는 결정에 사용할 준비가 되었습니다( 참조) [결정에서 오퍼 선택 구성](../offer-activities/configure-offer-selection.md)).
+   It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
 
-   ![](../assets/ranking-formula-created.png)
+   ![](../../assets/ranking-formula-created.png)
 
 ## 등급 공식 예 {#ranking-formula-examples}
 
-필요에 따라 여러 가지 등급 공식을 생성할 수 있습니다. 다음은 몇 가지 예입니다.
+You can create many different ranking formulas according to your needs. 다음은 몇 가지 예입니다.
 
 <!--
 Boost by offer ID
@@ -83,7 +83,7 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 ```
 -->
 
-### 프로필 속성을 기반으로 특정 오퍼 속성으로 오퍼 부스트
+### Boost offers with certain offer attribute based on profile attribute
 
 프로필이 해당 도시에 거주하는 경우, 해당 도시의 모든 오퍼에 대한 우선 순위를 두 배로 늘리십시오.
 
@@ -103,9 +103,9 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### 컨텍스트 데이터를 기반으로 특정 오퍼 속성으로 오퍼 부스트
 
-의사 결정 호출에서 전달되는 컨텍스트 데이터를 기반으로 특정 오퍼를 증폭합니다. 예를 들어 `contextData.weather=hot` 가 decisioning 호출에서 전달됨과 함께 모든 오퍼의 우선 순위입니다. `attribute=hot` 를 활성화해야 합니다.
+Boost certain offers based on the context data being passed in the decisioning call. For example, if the `contextData.weather=hot` is passed in the decisioning call, the priority of all offers with `attribute=hot` must be boosted.
 
-**등급 공식:**
+**Ranking formula:**
 
 ```
 if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
@@ -114,7 +114,7 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 
 의사 결정 API를 사용할 때 컨텍스트 데이터가 아래 예와 같이 요청 본문의 프로필 요소에 추가됩니다.
 
-**요청 본문의 코드 조각:**
+**Snippet from request body:**
 
 ```
 "xdm:profiles": [
@@ -137,7 +137,7 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
  }],
 ```
 
-### 제공되는 제품을 구매하려는 고객을 기반으로 오퍼를 늘립니다
+### Boost offers based on the customers propensity to purchase the product being offered
 
 의 인스턴스가 두 개 있는 경우 *CustomerAI* 구매 성향 계산 *travelInsurance* 및 *extra수하물* 항공사의 경우, 다음 등급 공식은 해당 제품을 구매하는 고객 성향 점수가 90보다 높은 경우 보험 또는 수하물 관련 오퍼의 우선순위(50포인트)를 높입니다.
 
@@ -155,7 +155,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 더 좋은 방법은 점수를 프로필의 배열에 저장하는 것입니다. 다음 예는 간단한 순위 공식만 사용하여 다양한 성향 점수에서 작동합니다. 예상은 일련의 점수가 있는 프로필 스키마가 있다는 것입니다. 이 예에서 인스턴스 테넌트는 *_salesvelocity* 및 프로필 스키마에는 다음이 포함되어 있습니다.
 
-![](../assets/ranking-example-schema.png)
+![](../../assets/ranking-example-schema.png)
 
 이 경우 다음과 같은 프로필의 경우:
 
@@ -177,11 +177,11 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 }
 ```
 
-오퍼에는 다음에 대한 속성이 포함됩니다 *성향 유형* 점수의 카테고리와 일치하는 항목:
+The offers would contain an attribute for *propensityType* which matches the category from the scores:
 
-![](../assets/ranking-example-propensityType.png)
+![](../../assets/ranking-example-propensityType.png)
 
-그런 다음 순위 수식에서 각 오퍼의 우선순위를 고객과 동일하게 설정할 수 있습니다 *성향 점수* 저걸 *성향 유형*. 점수를 찾을 수 없으면 오퍼에 설정된 정적 우선 순위를 사용하십시오.
+그런 다음 순위 수식에서 각 오퍼의 우선순위를 고객과 동일하게 설정할 수 있습니다 *성향 점수* 저걸 *성향 유형*. If no score is found, use the static priority set on the offer:
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
