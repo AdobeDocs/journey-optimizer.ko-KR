@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 4%
@@ -39,9 +39,9 @@ ht-degree: 4%
 * 에 대한 여정 단계 이벤트 스키마 [!DNL Journey Orchestration] - 여정 메타데이터에 연결된 여정 단계 이벤트입니다.
 * 여정 필드가 있는 여정 스키마 [!DNL Journey Orchestration] - 여정을 설명하는 여정 메타데이터.
 
-![](assets/sharing1.png)
+![](../assets/sharing1.png)
 
-![](assets/sharing2.png)
+![](../assets/sharing2.png)
 
 다음 데이터 세트가 전달됩니다.
 
@@ -49,7 +49,7 @@ ht-degree: 4%
 * 여정 단계 이벤트
 * 여정
 
-![](assets/sharing3.png)
+![](../assets/sharing3.png)
 
 Adobe Experience Platform에 전달된 XDM 필드 목록은 다음 항목에 자세히 설명되어 있습니다.
 
@@ -58,7 +58,7 @@ Adobe Experience Platform에 전달된 XDM 필드 목록은 다음 항목에 자
 
 Adobe Experience Platform에 보고하는 단계 이벤트에 대한 자세한 내용은 이 비디오에서 확인하십시오 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}.
 
-## Customer Journey Analytics과 통합 {#integration-cja}
+## 고객 여정 Analytics와의 통합 {#integration-cja}
 
 Journey Optimizer 단계 이벤트는 의 다른 데이터 세트에 연결할 수 있습니다 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko). 다음은 일반적인 워크플로우입니다.
 
