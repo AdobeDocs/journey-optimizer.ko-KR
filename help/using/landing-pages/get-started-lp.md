@@ -5,34 +5,19 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 9%
+source-wordcount: '149'
+ht-degree: 11%
 
 ---
 
 # 랜딩 페이지 시작 {#get-sarted-lp}
 
->[!CAUTION]
->
->현재 랜딩 페이지를 사용하면 사용자를 선택하기 위해 얼리 액세스에서 사용할 수 있습니다. 이 기능을 활용하려면 Adobe 계정 담당자에게 문의하십시오.
-
 랜딩 페이지는 이메일, 웹 사이트, 광고 또는 기타 디지털 위치에서 클릭스루한 후 사용자에게 안내되는 독립형 웹 페이지입니다.
 
-<!--The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.-->
-
 [!DNL Journey Optimizer] 랜딩 페이지를 만들고 디자인하여 사용자가 커뮤니케이션 수신을 옵트인하거나 옵트아웃할 수 있는 온라인 양식으로 전송하거나 뉴스레터와 같은 특정 서비스에 가입할 수 있습니다.
-
-<!--Landing pages are online forms that are used by marketers to capture information on audiences, offer subscriptions to a service, display data and grow your database. These can also be used for acquiring or updating existing profiles.-->
-
-<!--[!DNL Journey Optimizer] now allows you to:
-* Easily build landing pages to make users subscribe to your communications.
-* Enable your customers to opt-in or opt-out from your communications.
-To move to RN-->
 
 * 활용 [!DNL Journey Optimizer] 손쉽게 구축할 수 있는 컨텐츠 디자인 기능 **응답형 랜딩 페이지**.
 * 설정 **옵트인 및 옵트아웃 흐름** 빠르고 원활하게 수행할 수 있습니다.
