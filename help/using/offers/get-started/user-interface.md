@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 68%
@@ -31,7 +31,7 @@ ht-degree: 68%
 
 * **[!UICONTROL Decisions]**: 오퍼를 게재할 의사 결정을 만들고 관리합니다. [의사 결정 만들기](../offer-activities/create-offer-activities.md)를 참조하십시오.
 
-![](../assets/offers_menu.png)
+![](../../assets/offers_menu.png)
 
 오퍼를 만드는 데 필요한 구성 요소를 관리하려면 **[!UICONTROL Components]** 메뉴를 사용합니다.
 
@@ -43,19 +43,19 @@ ht-degree: 68%
 
 * **[!UICONTROL Rankings]**: 등급 공식을 만들고 관리하여 지정된 배치에 대해 먼저 제시해야 하는 오퍼를 결정합니다. [등급 수식 만들기](../offer-library/create-ranking-formulas.md)를 참조하십시오.
 
-![](../assets/offer_activities.png)
+![](../../assets/offer_activities.png)
 
 ## 개요 {#overview}
 
 처음 [!DNL Offer Decisioning], **[!UICONTROL Overview]** 탭에서는 첫 번째 오퍼 결정 작성을 시작하는 데 필요한 주요 단계를 안내합니다.
 
-![](../assets/overview_onboarding.png)
+![](../../assets/overview_onboarding.png)
 
 화면의 단계에 따라 배치, 오퍼 및 컬렉션 만들기를 시작합니다.
 
 이러한 첫 번째 단계를 완료하면 오퍼 결정(이전에 오퍼 활동이라고 함)을 생성하라는 메시지가 표시됩니다.
 
-![](../assets/overview_collection-created.png)
+![](../../assets/overview_collection-created.png)
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ ht-degree: 68%
 
 을(를) 클릭합니다. **[!UICONTROL View all]** 오퍼, 컬렉션 또는 결정 목록에 액세스할 수 있는 단추입니다.
 
-![](../assets/overview_view-all.png)
+![](../../assets/overview_view-all.png)
 
 ## 검색 및 필터 정보 {#search-and-filter-information}
 
@@ -75,7 +75,7 @@ ht-degree: 68%
 
 목록 왼쪽 위의 필터 아이콘을 클릭하면 **필터**&#x200B;에 액세스할 수 있습니다. 필터 메뉴에서는 표시된 요소를 다양한 조건에 따라 필터링할 수 있습니다. 예를 들어 이메일 통신 채널 및 이미지 유형 콘텐츠용으로 만들어진 배치를 필터링할 수 있습니다.
 
-![](../assets/filters.png)
+![](../../assets/filters.png)
 
 ## 표시된 정보 사용자 지정 {#customize-displayed-information}
 
@@ -85,21 +85,21 @@ ht-degree: 68%
 
 사용자 지정 열은 각 사용자에 대해 저장됩니다.
 
-![](../assets/columns.png)
+![](../../assets/columns.png)
 
 ## 정보 창 {#information-pane}
 
 다른 목록에서 요소를 선택하여 정보를 검색하고 요소에 대한 기본 작업을 수행할 수 있는 정보 창을 표시합니다.
 
-![](../assets/information-pane.png)
+![](../../assets/information-pane.png)
 
 이제 오퍼 및 의사 결정 목록을 사용하여 여러 요소에 대량 작업을 수행할 수 있습니다. 이렇게 하려면 원하는 오퍼 또는 의사 결정을 선택한 다음 정보 창에서 수행할 작업을 선택합니다.
 
-![](../assets/bulk-actions.png)
+![](../../assets/bulk-actions.png)
 
 기존 오퍼 또는 의사 결정을 복제하여 **[!UICONTROL Draft]** 상태의 사본을 만들 수도 있습니다. 정보 창이나 오퍼 또는 의사 결정의 세부 보기에서 수행할 수 있습니다.
 
-![](../assets/duplicate-offer.png)
+![](../../assets/duplicate-offer.png)
 
 ## 오퍼 및 의사 결정 변경 로그 {#changes-logs}
 
@@ -107,4 +107,4 @@ ht-degree: 68%
 
 변경한 모든 내용은 이 화면과 변경 작업을 수행한 사용자의 이름이 표시됩니다.
 
-![](../assets/change-logs.png)
+![](../../assets/change-logs.png)
