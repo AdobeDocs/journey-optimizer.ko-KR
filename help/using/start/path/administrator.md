@@ -3,7 +3,7 @@ title: 시스템 관리자용 Journey Optimizer 시작하기
 description: 시스템 관리자는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
