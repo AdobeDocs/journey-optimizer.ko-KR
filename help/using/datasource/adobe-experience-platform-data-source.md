@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 11%
@@ -31,11 +31,11 @@ Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비�
 
    화면 오른쪽에 데이터 소스 구성 창이 열립니다.
 
-   ![](assets/journey23.png)
+   ![](../assets/journey23.png)
 
 1. 클릭 **[!UICONTROL Add a New Field Group]** 검색할 일련의 새 필드를 정의합니다. [이 페이지](../datasource/configure-data-sources.md#define-field-groups)를 참조하십시오.
 
-   ![](assets/journey24.png)
+   ![](../assets/journey24.png)
 
 1. 에서 스키마 선택 **[!UICONTROL Schema]** 드롭다운. 이 필드에는 Adobe Experience Platform에서 사용할 수 있는 프로필 및 경험 이벤트 스키마가 나열됩니다. 스키마 만들기는 다음에서 수행되지 않습니다 [!DNL Journey Optimizer]. Adobe Experience Platform에서 공연되었습니다.
 1. 사용할 필드를 선택합니다.
