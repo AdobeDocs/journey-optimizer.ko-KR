@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '2643'
-ht-degree: 99%
+source-wordcount: '2416'
+ht-degree: 100%
 
 ---
 
@@ -13,100 +13,6 @@ ht-degree: 99%
 
 이 페이지에는 [!DNL Journey Optimizer]의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. 또한 자세한 변경 사항은 [최신 설명서 업데이트](documentation-updates.md) 페이지를 참조하십시오.
 
-
-
-## 2022년 2월 릴리스 {#feb-2022-release}
-
-### 새로운 기능
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Subscription Landing Pages</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create and design landing pages in Journey Optimizer, and direct your users to online forms where they can opt-in or opt-out from receiving your communications, or subscribe to a specific service such as a newsletter.</p>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-cases.md">sample use case</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>새 개인화 표현식 라이브러리</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer에서 사전 정의된 개인화 표현식에 액세스할 수 있는 라이브러리를 제공합니다. 이러한 표현식은 관리자 사용자가 구성합니다.</p>
-<p>자세한 내용은 <a href="../personalization/personalization-library.md">자세한 설명서</a>를 참조하세요.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>API Developer Site and Suppression API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
-Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
-<p>With this API, you can control your outgoing messages using suppression and allow lists.
-The suppression list helps you with honoring the ISPs’ feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
-<p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>UTM 추적 매개 변수를 사용하여 메시지를 추적하는 정보 전달</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer 메시지 콘텐츠에서 링크에 UTM 매개 변수를 추가할 수 있습니다. 이 링크를 통해 해당 링크에 대한 추가 데이터를 제공할 수 있으며, 사용자가 링크를 클릭한 위치와 이유를 파악할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../configuration/message-presets.md#configure-email-settings">자세한 설명서</a>를 참조하세요.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-### 개선 사항
-
-**여정**
-
-* 성능을 최적화하기 위해 1주일 동안 트리거되지 않은 테스트 모드의 모든 여정이 이제 초안 상태로 다시 전환합니다. [자세히 보기](../building-journeys/testing-the-journey.md#important_notes)
-* Journey Optimizer과 Adobe Campaign Classic 간 통합이 성능을 개선하기 위해 최적화되었습니다. 최대 가능한 기본 구성이 4,000회 호출/5분으로 변경되었습니다.	[자세히 보기](../action/acc-action.md#important-notes)
-
-**보고**
-
-* 이제 상태에 따라 게재를 필터링할 수 있습니다.
-   * 이제 메시지 실행 목록에서 증명을 게재 목록에서 제외할 수 있습니다.
-   * 라이브/전역 보고서에서 테스트 이벤트를 제외하도록 선택할 수 있습니다.
-
-* 이제 메시지를 즉시 보낸 사람 수 및 1시간 최적화, 2시간 최적화 등을 통해 메시지를 보낸 사람 수 등 전송 시간 최적화 데이터에 대한 보고서에 액세스할 수 있습니다.
-
-<!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
-
-**의사 결정 관리**
-
-* 이제 등급 및 AI 등급이 단일 탭으로 그룹화됩니다.
 
 ## 2022년 1월 릴리스 {#january-2022-release}
 
