@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 자세한 내용은 [작업 활동](../building-journeys/about-journey-activities.md#action-activities).
 
-![](assets/journey45.png)
+![](../assets/journey45.png)
 
 다음은 반응 이벤트를 구성하는 여러 단계입니다.
 
