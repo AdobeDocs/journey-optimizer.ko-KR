@@ -5,16 +5,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
 
 # 권한 수준 {#high-low-permissions}
 
-![](assets/do-not-localize/permissions.png)
+![](../assets/do-not-localize/permissions.png)
 
 각 제품 프로필은 사용자가 다른 기능에 액세스할 수 있는 권한으로 구성되어 있습니다.
 두 가지 유형으로 나눌 수 있습니다.
@@ -417,13 +417,16 @@ ht-degree: 0%
    * profiles.read
    * datasets.read
 
-## Journey Optimizer 라이브러리 기능 {library-permissions}
+### [!DNL Manage landing page settings] 권한 {#manage-landing-page-settings}
 
-### 라이브러리 항목 관리 {#library-items}
-
-다음 **[!DNL Manage Library Items]** 높은 수준의 권한을 통해 사용자는 [!DNL Journey Optimizer] 라이브러리.
+다음 **[!DNL Manage landing page settings]** 높은 수준의 권한을 통해 사용자는 랜딩 페이지 하위 도메인 및 사전 설정 설정을 읽고, 만들고, 편집할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* library_item.create
-* ibrary_item.delete
+* Journey Optimizer 특정:
+   * landing_page_subdomain.read
+   * landing_page_subdomain.write
+   * landing_page_subdomain.delete
+   * landing_page_preset.read
+   * landing_page_preset.write
+   * landing_page_preset.delete
