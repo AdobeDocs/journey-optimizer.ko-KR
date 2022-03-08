@@ -6,16 +6,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '482'
 ht-degree: 3%
 
 ---
 
 # 메시지 만들기 {#create-message}
-
-## 메시지 액세스 {#access-messages}
 
 메시지는 **[!UICONTROL Messages]** 바로 가기를 클릭합니다. 모든 메시지가 게시 날짜(게시된 메시지의 경우) 또는 작성 날짜(초안 메시지의 경우)별로 정렬되어 나열됩니다.
 
@@ -25,23 +23,13 @@ ht-degree: 3%
 
 ![](assets/messages-list.png)
 
-* 를 사용하십시오 **[!UICONTROL Show recents]** 지난 5일 동안 액세스한 메시지에 직접 링크를 추가하려면 을 전환합니다.
+를 사용하십시오 **[!UICONTROL Show recents]** 지난 5일 동안 액세스한 메시지에 직접 링크를 추가하려면 을 전환합니다.
 
-   ![](assets/show-recent-messages.png)
+![](assets/show-recent-messages.png)
 
-* 필터 아이콘을 사용하여 게시되는 초안, 게시 또는 메시지만 표시할 수 있습니다. 다음과 같이 메시지 레이블을 검색할 수도 있습니다.
+필터 아이콘을 사용하여 게시되는 초안, 게시 또는 메시지만 표시할 수 있습니다. 다음과 같이 메시지 레이블을 검색할 수도 있습니다.
 
-   ![](assets/filter-messages.png)
-
-* 사용하지 않은 메시지를 보관하여 빠른 작업 메뉴에서 전용 아이콘을 사용하여 메시지 목록을 지울 수 있습니다.
-
-   ![](assets/archive-message.png)
-
-   필터 아이콘을 사용하여 아카이브된 모든 메시지를 표시하고 **[!UICONTROL Unarchive]** 아이콘 - 보관된 메시지 목록에서 항목을 제거합니다.
-
-   >[!NOTE]
-   >
-   >보관된 메시지는 열 수 없습니다. 먼저 보관 해제를 해야 합니다.
+![](assets/filter-messages.png)
 
 ## 새 메시지 만들기 {#create-new-message}
 
@@ -89,25 +77,18 @@ ht-degree: 3%
 
 ## 메시지 복제 {#duplicate-message}
 
-기존 메시지에서 메시지를 만들려면 아래 단계를 수행하십시오.
+기존 메시지에서 메시지를 만들려면 **[!UICONTROL Duplicate]** 메시지 인터페이스의 단추. 모든 설정 및 구성이 새 메시지에 복사됩니다
 
-1. 복사할 메시지를 엽니다.
+![](assets/message-duplicate.png)
 
-1. 를 사용하십시오 **[!UICONTROL Duplicate]** 메시지 인터페이스의 단추.
+중복을 확인하기 전에 메시지 이름을 변경할 수 있습니다.
 
-   ![](assets/message-duplicate.png)
+![](assets/message-duplicate-confirm.png)
 
-   모든 설정 및 구성이 새 메시지에 복사됩니다.
+새 메시지가 만들어지면 창 하단에 확인 메시지가 표시됩니다.
 
-1. 중복을 확인하기 전에 메시지 이름을 변경할 수 있습니다.
-
-   ![](assets/message-duplicate-confirm.png)
-
-1. 새 메시지가 만들어지면 창 하단에 확인 메시지가 표시됩니다.
-
-빠른 작업 메뉴에서 전용 아이콘을 사용하여 메시지 목록에서 메시지를 복제할 수도 있습니다.
+전용 아이콘을 사용하여 메시지 목록에서 메시지를 복제할 수도 있습니다.
 
 ![](assets/message-duplicate-from-list.png)
 
 동일한 확인 프로세스가 적용됩니다.
-
