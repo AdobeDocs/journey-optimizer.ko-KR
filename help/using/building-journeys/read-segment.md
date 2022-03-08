@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 5%
@@ -43,13 +43,13 @@ ht-degree: 5%
    >
    >오직 **실현** 및 **기존** 세그먼트 기여도 상태에 여정이 표시됩니다. 세그먼트 평가 방법에 대한 자세한 내용은 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
-   ![](assets/read-segment-selection.png)
+   ![](../assets/read-segment-selection.png)
 
    세그먼트를 추가하면 **[!UICONTROL Copy]** 버튼을 사용하면 이름과 ID를 복사할 수 있습니다.
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/read-segment-copy.png)
+   ![](../assets/read-segment-copy.png)
 
 1. 에서 **[!UICONTROL Namespace]** 필드에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
@@ -59,7 +59,7 @@ ht-degree: 5%
 
 1. 설정 **[!UICONTROL Throttling rate]** 필드를 세그먼트 읽기 활동의 처리량 제한에 추가합니다.
 
-   이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 초당 20,000개의 메시지입니다. 이 값은 초당 500~20,000개의 메시지에서 수정할 수 있습니다.
+   이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 초당 17,000개의 메시지입니다. 이 값은 초당 500~17,000개의 메시지로 수정할 수 있습니다.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ ht-degree: 5%
 
 1. 다음 **[!UICONTROL Read Segment]** 활동을 통해 세그먼트가 여정을 입력할 시간을 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Edit journey schedule]** 링크를 클릭하여 여정 속성에 액세스한 다음 **[!UICONTROL Scheduler type]** 필드.
 
-   ![](assets/read-segment-schedule.png)
+   ![](../assets/read-segment-schedule.png)
 
    기본적으로 세그먼트는 여정을 입력합니다 **[!UICONTROL As soon as possible]**. 세그먼트를 특정 날짜/시간 또는 반복으로 여정을 입력하도록 하려면 목록에서 원하는 값을 선택합니다.
 
@@ -75,7 +75,7 @@ ht-degree: 5%
    >
    >다음 사항에 유의하십시오. **[!UICONTROL Schedule]** 섹션은 **[!UICONTROL Read Segment]** 활동이 캔버스에 삭제되었습니다.
 
-   ![](assets/read-segment-schedule-list.png)
+   ![](../assets/read-segment-schedule-list.png)
 
    다음 **증분 읽기** 옵션을 사용하면 여정을 마지막으로 실행한 이후 세그먼트에 입력한 개인만 타겟팅할 수 있습니다. 첫 번째 실행은 항상 모든 세그먼트 구성원을 타깃팅합니다. 이 옵션은 반복에만 사용할 수 있습니다 **세그먼트 읽기** 활동.
 
@@ -104,7 +104,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 이렇게 하려면 테스트 모드를 활성화한 다음 왼쪽 창에서 원하는 옵션을 선택합니다.
 
-![](assets/read-segment-test-mode.png)
+![](../assets/read-segment-test-mode.png)
 
 그런 다음 평소대로 테스트 모드를 구성하고 실행할 수 있습니다. [여정 테스트 방법 알아보기](testing-the-journey.md).
 
@@ -116,7 +116,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
    한 번에 최대 100개의 프로필을 사용하여 여정을 테스트해도 시각적 흐름을 사용하여 여정에서 개인의 진행 상황을 추적할 수 없습니다.
 
-   ![](assets/read-segment-log.png)
+   ![](../assets/read-segment-log.png)
 
 테스트가 성공하면 여정을 게시할 수 있습니다( [여정 게시](publishing-the-journey.md)). 세그먼트에 속하는 개인은 여정 속성에 지정된 날짜/시간에 여정을 입력합니다 **[!UICONTROL Scheduler]** 섹션을 참조하십시오.
 
@@ -144,7 +144,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * 시간(예: 그 사람 시간대 아침 맞나요?
 * 백분율을 기반으로 여정에 흐르는 대상을 분할하는 알고리즘. 예: 컨트롤 그룹을 제외하려면 90% - 10%
 
-![](assets/read-segment-audience1.png)
+![](../assets/read-segment-audience1.png)
 
 **예외**
 
@@ -152,7 +152,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 이 제외는 세그먼트 검색 직후, 모집단 계산 목적 또는 여러 단계 여정을 위해 발생할 수 있습니다.
 
-![](assets/read-segment-audience2.png)
+![](../assets/read-segment-audience2.png)
 
 **합집합**
 
@@ -164,4 +164,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 결합 후에는 세그먼테이션 또는 제외를 수행하여 대상을 다시 분할할 수 있습니다.
 
-![](assets/read-segment-audience3.png)
+![](../assets/read-segment-audience3.png)
