@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 에서 **[!UICONTROL Executions]** 의 탭 **[!UICONTROL Messages]** 메뉴, 선택 **[!UICONTROL Global view]** 그런 다음 선택한 게재의 고급 메뉴에서 을(를) 선택합니다 **[!UICONTROL Global report]**.
 
-![](assets/global_report_11.png)
+![](../assets/global_report_11.png)
 
 푸시 **[!UICONTROL Global report]** 은 게재의 성공 및 오류를 설명하는 다른 위젯으로 구분됩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 정보는 다음을 참조하십시오 [섹션](global-report.md#modify-dashboard).
 
-![](assets/push_global_report.png)
+![](../assets/push_global_report.png)
 
 다음 **[!UICONTROL Push notification performance]** 위젯은 KPI를 사용하여 푸시 알림과 관련된 기본 정보를 자세히 설명합니다.
 
@@ -51,6 +51,6 @@ ht-degree: 1%
 
 다음 **[!UICONTROL Error Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류를 확인할 수 있습니다.
 
-![](assets/push_global_report_2.png)
+![](../assets/push_global_report_2.png)
 
 다음 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 및 **[!UICONTROL Breakdown by platform]** 그래프 및 표는 수신자의 운영 시스템에 따라 푸시 알림의 성공을 자세히 설명합니다.
