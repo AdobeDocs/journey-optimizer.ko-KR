@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: dcadbbcf8b2cd8422a189b8d02f222f32dd12c54
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '921'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,15 @@ ht-degree: 98%
       + [경고 확인](using/messages/alerts.md)
       + [메시지 게시](using/messages/publish-manage-message.md)
    + [동의 관리](using/messages/consent.md)
++ 랜딩 페이지 {#landing-pages}
+   + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
+   + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
+   + [랜딩 페이지 디자인](using/landing-pages/design-lp.md)
+   + [구독 목록 만들기](using/landing-pages/subscription-list.md)
+   + [사용 사례](using/landing-pages/lp-use-cases.md)
+   + 보고 {#lp-reporting}
+      + [랜딩 페이지 보고](using/landing-pages/lp-report.md)
+      + [구독 목록 보고](using/landing-pages/subscription-report.md)
 + 개인화{#personalization}
    + [시작 개인화](using/personalization/personalize.md)
    + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
@@ -56,7 +65,6 @@ ht-degree: 98%
       + 표현식 편집기 작업 {#expression-editor}
          + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
          + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
-         + [저장된 표현식을 사용한 작업](using/personalization/personalization-library.md)
          + [개인화 유효성 검사](using/personalization/personalization-validation.md)
       + 도우미 함수{#functions}
          + [도우미 함수 시작](using/personalization/functions/functions.md)
@@ -224,15 +232,6 @@ ht-degree: 98%
       + [전달성 시작](using/messages/deliverability.md)
       + [제외 목록](using/messages/suppression-list.md)
       + [허용 목록](using/messages/allow-list.md)
-+ 랜딩 페이지 {#landing-pages}
-   + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
-   + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
-   + [랜딩 페이지 디자인](using/landing-pages/design-lp.md)
-   + [구독 목록 만들기](using/landing-pages/subscription-list.md)
-   + [사용 사례](using/landing-pages/lp-use-cases.md)
-   + 보고 {#lp-reporting}
-      + [랜딩 페이지 보고](using/landing-pages/lp-report.md)
-      + [구독 목록 보고](using/landing-pages/subscription-report.md)
 + 의사 결정 관리 {#offer-decisioniong}
    + 의사 결정 관리 시작 {#get-started-decision}
       + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
@@ -338,6 +337,7 @@ ht-degree: 98%
          + [이메일 기본 주소 변경](using/configuration/primary-email-addresses.md)
       + [SMS 채널 구성](using/configuration/sms-configuration.md)
       + [메시지 사전 설정 만들기](using/configuration/message-presets.md)
+   + [랜딩 페이지 구성](using/configuration/lp-configuration.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
       + [외부 시스템과 통합](using/configuration/external-systems.md)
