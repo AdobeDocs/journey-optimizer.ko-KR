@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -29,7 +29,7 @@ IP 풀을 생성하려면 다음 단계를 수행합니다.
 
 1. 액세스 권한 **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** 메뉴를 클릭한 다음 **[!UICONTROL Create IP Pool]**.
 
-   ![](assets/ip-pool-create.png)
+   ![](../assets/ip-pool-create.png)
 
 1. IP 풀의 이름과 설명(선택 사항)을 제공합니다.
 
@@ -39,7 +39,7 @@ IP 풀을 생성하려면 다음 단계를 수행합니다.
 
 1. 드롭다운 목록에서 풀에 포함할 IP 주소를 선택한 다음 를 클릭합니다 **[!UICONTROL Submit]**.
 
-   ![](assets/ip-pool-config.png)
+   ![](../assets/ip-pool-config.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ IP 풀을 생성하려면 다음 단계를 수행합니다.
 
 이제 IP 풀이 생성되고 목록에 표시됩니다. 속성을 선택하여 해당 속성에 액세스하고 관련 메시지 사전 설정을 표시할 수 있습니다. 메시지 사전 설정을 IP 풀과 연결하는 방법에 대한 자세한 내용은 [이 섹션](message-presets.md)).
 
-![](assets/ip-pool-created.png)
+![](../assets/ip-pool-created.png)
 
 ## IP 풀 편집 {#edit-ip-pool}
 
@@ -55,11 +55,11 @@ IP 풀을 편집하려면
 
 1. 목록에서 IP 풀 이름을 클릭하여 엽니다.
 
-   ![](assets/ip-pool-list.png)
+   ![](../assets/ip-pool-list.png)
 
 1. 원하는 대로 속성을 편집합니다. 설명을 수정하고 IP 주소를 추가하거나 제거할 수 있습니다.
 
-   ![](assets/ip-pool-edit.png)
+   ![](../assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
@@ -78,7 +78,7 @@ IP 풀을 편집하려면
 
 IP 풀 업데이트 상태를 확인하려면 **[!UICONTROL More actions]** 단추를 누르고 선택합니다. **[!UICONTROL Recent updates]**.
 
-![](assets/ip-pool-recent-update.png)
+![](../assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >
