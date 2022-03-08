@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 여정을 검색하면 애플리케이션이 처음 열리는 목록 맨 위에 최신 버전이 나타납니다. 그런 다음 원하는 정렬을 정의할 수 있으며 응용 프로그램에서 해당 정렬을 사용자 기본 설정으로 유지합니다. 여정 버전이 캔버스 위의 여정 편집 인터페이스 맨 위에 표시됩니다.
 
-![](assets/journeyversions1.png)
+![](../assets/journeyversions1.png)
 
 라이브 여정으로 수정해야 하는 경우, 여정의 새 버전을 만들어야 합니다.
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 1. 라이브 여정의 최신 버전을 열고 **[!UICONTROL Create a new version]** 확인
 
-   ![](assets/journeyversions2.png)
+   ![](../assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 1. 수정한 후 **[!UICONTROL Publish]** 확인
 
-   ![](assets/journeyversions3.png)
+   ![](../assets/journeyversions3.png)
 
 여정이 게시되는 순간부터 개인은 최신 버전의 여정으로 이동하기 시작합니다. 이미 이전 버전을 입력한 사람은 여정을 완료할 때까지 안에 있습니다. 나중에 동일한 여정을 다시 입력하면 최신 버전으로 전환됩니다.
 
