@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 6%
@@ -24,6 +24,6 @@ ht-degree: 6%
 1. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정을 게시할 수 없습니다. [이 섹션](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)을 참조하십시오. 게시하기 전에 여정을 테스트하는 것이 좋습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오.
 1. 여정을 게시하려면 **[!UICONTROL Publish]** 옵션, 오른쪽 상단 드롭다운 메뉴에 있습니다.
 
-   ![](assets/journeyuc1_18.png)
+   ![](../assets/journeyuc1_18.png)
 
 여정이 게시되면 읽기 전용 모드로 전환됩니다.
