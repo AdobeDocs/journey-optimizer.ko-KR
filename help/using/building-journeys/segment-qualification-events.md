@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 을(를) 펼칩니다. **[!UICONTROL Events]** 카테고리 및 삭제 **[!UICONTROL Segment Qualification]** 활동을 캔버스로 이동합니다.
 
-   ![](assets/segment5.png)
+   ![](../assets/segment5.png)
 
 1. 추가 **[!UICONTROL Label]** 추적했습니다. 데이터 소스에 이벤트에 설명을 추가합니다.
 
@@ -42,13 +42,13 @@ ht-degree: 0%
    >
    >목록에 표시된 열을 사용자 지정하고 정렬할 수 있습니다.
 
-   ![](assets/segment6.png)
+   ![](../assets/segment6.png)
 
    세그먼트를 추가하면 **[!UICONTROL Copy]** 버튼을 사용하면 이름과 ID를 복사할 수 있습니다.
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![](../assets/segment-copy.png)
 
 1. 에서 **[!UICONTROL Behaviour]** 필드, 세그먼트 출입구, 종료 또는 둘 다 수신 여부를 선택합니다.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 네임스페이스를 선택합니다. 이벤트가 여정의 첫 번째 단계로 배치된 경우에만 필요합니다.
 
-   ![](assets/segment7.png)
+   ![](../assets/segment7.png)
 
 페이로드에는 조건 및 작업에서 사용할 수 있는 다음 컨텍스트 정보가 포함되어 있습니다.
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 자세한 내용은 [조건 활동](../building-journeys/condition-activity.md#about_condition).
 
-![](assets/segment8.png)
+![](../assets/segment8.png)
 
 세그먼트 자격 이벤트를 포함하는 새 여정은 게시한 후 10분 후에 작동합니다. 이 시간 간격은 전용 서비스의 캐시 새로 고침 간격에 해당합니다. 따라서 이 여정을 사용하기 전에 10분을 기다려야 합니다.
 
@@ -98,10 +98,10 @@ ht-degree: 0%
 
 에서 를 사용하지 않음 **[!UICONTROL Segment Qualification]** 활동, 배치 세그먼트가 생성된 직후 첫 번째 계산 최고점을 피합니다. 계산되지 않은 세그먼트를 사용하려는 경우 여정 캔버스에 노란색 경고가 표시됩니다.
 
-![](assets/segment-error.png)
+![](../assets/segment-error.png)
 
 여정에 사용된 데이터 소스 및 작업에 대해 최대 가용량 규칙을 설정하여 오버로드를 방지합니다. 추가 정보 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. 최대 가용량 규칙은 다시 시도되지 않습니다. 다시 시도해야 하는 경우 상자를 선택하여 여정에서 대체 경로를 사용해야 합니다 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 를 클릭하거나 탭합니다.
 
 프로덕션 여정에서 세그먼트를 사용하기 전에 항상 먼저 매일 이 세그먼트에 대해 자격이 있는 개인의 볼륨을 평가하십시오. 이를 위해 다음을 확인할 수 있습니다 **[!UICONTROL Segments]** 메뉴를 열고 세그먼트를 열고 **[!UICONTROL Profiles over time]** 그래프.
 
-![](assets/segment-overload.png)
+![](../assets/segment-overload.png)
