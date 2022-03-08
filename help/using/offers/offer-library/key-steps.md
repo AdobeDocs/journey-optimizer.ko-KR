@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 13%
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 오퍼를 만들고, 구성하고, 관리하고, 오퍼를 의사 결정에 사용하는 주요 단계는 아래에 나와 있습니다.
 
-![](../assets/offer-create-manage-process.png)
+![](../../assets/offer-create-manage-process.png)
 
 오퍼를 구성하고, 의사 결정에서 이러한 오퍼를 사용하고, 이메일에서 이 결정을 활용하는 방법을 보여주는 전체 종단간 예제는 다음 단계를 참조하십시오 [이 페이지](../offers-e2e.md).
 
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 오퍼 만들기를 시작하기 전에 오퍼에서 사용할 몇 가지 구성 요소를 정의해야 합니다.
 
-1. **배치 만들기**: 오퍼를 표시하는 데 사용할 컨테이너입니다. 예를 들어 이미지 형식의 오퍼에만 사용할 배치를 만들고 메시지 상단에 배치할 수 있습니다.
+1. **배치 만들기**: 오퍼를 표시하는 데 사용할 컨테이너입니다. You can, for example, create a placement that will be dedicated to offers in the image format only, and situated to the top of your messages.
 
 1. **의사 결정 규칙 만들기** 은 오퍼가 표시될 조건을 지정합니다.
 
@@ -43,11 +43,11 @@ ht-degree: 13%
 
 ## 오퍼 만들기 및 관리 {#create-and-manage-offers}
 
-1. **오퍼 만들기**, 컨텐츠 및 속성을 구성합니다.
+1. **Create offers**, and configure their content and properties.
 
 1. **대체 오퍼 만들기**: 고객이 선택한 오퍼에 적합하지 않을 경우 표시할 마지막 수단이 되는 오퍼입니다.
 
-1. **컬렉션 만들기** 만든 개인화된 오퍼를 포함하고 결정에 사용합니다.
+1. **Create a collection** to include the personalized offers you created and use them in a decision.
 
 <table>
 <tr>
@@ -58,11 +58,11 @@ ht-degree: 13%
 
 ## 결정 만들기 및 구성 {#create-and-configure-decisions}
 
-1. **결정 만들기** 배치와 개인화된 오퍼 및 대체 오퍼를 결합합니다. 이 조합은 특정 프로필에 가장 적합한 오퍼를 찾기 위해 Offer decisioning 엔진에서 사용합니다.
+1. **결정 만들기** 배치와 개인화된 오퍼 및 대체 오퍼를 결합합니다. This combination will be used by the Offer Decisioning engine to find the best offer for a specific profile.
 
-1. **결정 구성**. 이렇게 하려면 배치를 선택하고 각 배치에 대해 컬렉션과 폴백을 선택합니다.
+1. **Configure the decision**. 이렇게 하려면 배치를 선택하고 각 배치에 대해 컬렉션과 폴백을 선택합니다.
 
-1. 필요한 경우 다음을 수행할 수 있습니다 **등급 공식 할당** 결정을 구성할 때 배치로 이동합니다.
+1. If needed, you can **assign a ranking formula** to a placement when configuring the decision.
 
 <table>
 <tr>
