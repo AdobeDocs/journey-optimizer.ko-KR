@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 5%
@@ -25,7 +25,7 @@ ht-degree: 5%
 
 개인화된 오퍼 목록은 **[!UICONTROL Offers]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-![](../assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 ## 오퍼 만들기 {#create-offer}
 
@@ -39,11 +39,11 @@ ht-degree: 5%
 
 1. 클릭 **[!UICONTROL Create offer]**&#x200B;를 선택하고 을 선택합니다. **[!UICONTROL Personalized offer]**.
 
-   ![](../assets/create_offer.png)
+   ![](../../assets/create_offer.png)
 
 1. 오퍼의 이름과 시작 및 종료 날짜 및 시간을 지정합니다. 하나 또는 여러 개의 기존 태그를 오퍼에 연결할 수도 있으므로 오퍼 라이브러리를 보다 쉽게 검색하고 구성할 수 있습니다.
 
-   ![](../assets/offer_details.png)
+   ![](../../assets/offer_details.png)
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ ht-degree: 5%
 
 1. 첫 번째 표현에 대해 다음을 선택하여 시작합니다 **[!UICONTROL Channel]** 사용됩니다.
 
-   ![](../assets/channel-placement.png)
+   ![](../../assets/channel-placement.png)
 
    >[!NOTE]
    >
@@ -68,23 +68,23 @@ ht-degree: 5%
 
    또한 **[!UICONTROL Placement]** 모든 배치를 탐색하는 드롭다운 목록입니다.
 
-   ![](../assets/browse-button-placements.png)
+   ![](../../assets/browse-button-placements.png)
 
    거기에서 여전히 채널 및/또는 컨텐츠 유형에 따라 배치를 필터링할 수 있습니다. 배치를 선택하고 를 클릭합니다 **[!UICONTROL Select]**.
 
-   ![](../assets/browse-placements.png)
+   ![](../../assets/browse-placements.png)
 
 1. 표시에 컨텐츠를 추가합니다. 방법 알아보기 [이 섹션](#content).
 
 1. 이미지나 URL과 같은 컨텐츠를 추가할 때 **[!UICONTROL Destination link]**: 오퍼를 클릭하는 사용자가 해당 페이지로 이동됩니다.
 
-   ![](../assets/offer-destination-link.png)
+   ![](../../assets/offer-destination-link.png)
 
 1. 마지막으로, 사용자에게 표시할 언어를 식별하고 관리하는 데 도움이 되도록 원하는 언어를 선택합니다.
 
 1. 다른 표현을 추가하려면 **[!UICONTROL Add representation]** 버튼을 클릭하고 필요한 만큼 표현을 추가합니다.
 
-   ![](../assets/offer-add-representation.png)
+   ![](../../assets/offer-add-representation.png)
 
 1. 모든 표현을 추가한 후 **[!UICONTROL Next]**.
 
@@ -108,19 +108,19 @@ ht-degree: 5%
 
 1. **[!UICONTROL Browse]**&#x200B;를 선택합니다.
 
-   ![](../assets/offer-browse-asset-library.png)
+   ![](../../assets/offer-browse-asset-library.png)
 
 1. 자산을 탐색하여 선택한 이미지를 선택합니다
 
 1. **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
 
-   ![](../assets/offer-select-asset.png)
+   ![](../../assets/offer-select-asset.png)
 
 ### URL 추가 {#urls}
 
 외부 공용 위치에서 콘텐츠를 추가하려면 **[!UICONTROL URL]**&#x200B;을 입력한 다음 추가할 컨텐츠의 URL 주소를 입력합니다.
 
-![](../assets/offer-content-url.png)
+![](../../assets/offer-content-url.png)
 
 ### 사용자 지정 텍스트 추가 {#custom-text}
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 
 1. 을(를) 선택합니다 **[!UICONTROL Custom]** 옵션을 선택하고 **[!UICONTROL Add content]**.
 
-   ![](../assets/offer-add-content.png)
+   ![](../../assets/offer-add-content.png)
 
    >[!NOTE]
    >
@@ -136,11 +136,11 @@ ht-degree: 5%
 
 1. 오퍼에 표시할 텍스트를 입력합니다.
 
-   ![](../assets/offer-text-content.png)
+   ![](../../assets/offer-text-content.png)
 
    표현식 편집기를 사용하여 콘텐츠를 개인화할 수 있습니다. 추가 정보 [개인화](../../personalization/personalize.md#use-expression-editor).
 
-   ![](../assets/offer-personalization.png)
+   ![](../../assets/offer-personalization.png)
 
    >[!NOTE]
    >
@@ -182,11 +182,11 @@ ht-degree: 5%
 
       세그먼트 작업 방법에 대한 자세한 내용은 [이 페이지](../../segment/about-segments.md).
 
-      ![](../assets/offer-eligibility-segment.png)
+      ![](../../assets/offer-eligibility-segment.png)
 
    * 특정 의사 결정 규칙을 오퍼에 연결하려면 을(를) 선택합니다 **[!UICONTROL By defined decision rule]**&#x200B;을 클릭한 다음 왼쪽 창에서 원하는 규칙을 **[!UICONTROL Decision rule]** 영역. 의사 결정 규칙을 만드는 방법에 대한 자세한 내용은 [이 섹션](../offer-library/creating-decision-rules.md).
 
-      ![](../assets/offer_rule.png)
+      ![](../../assets/offer_rule.png)
 
       >[!CAUTION]
       >
@@ -203,7 +203,7 @@ ht-degree: 5%
    >
    >이메일 게재가 삭제되거나 준비가 다시 수행된 경우 오퍼에 대한 최대 가용량 값이 자동으로 업데이트됩니다.
 
-   ![](../assets/offer_capping.png)
+   ![](../../assets/offer_capping.png)
 
    위의 예에서
 
@@ -221,7 +221,7 @@ ht-degree: 5%
 
 1. **[!UICONTROL Save and approve]**&#x200B;를 선택합니다.
 
-   ![](../assets/offer_review.png)
+   ![](../../assets/offer_review.png)
 
    나중에 편집하고 승인하기 위해 오퍼를 초안으로 저장할 수도 있습니다.
 
@@ -229,13 +229,13 @@ ht-degree: 5%
 
 이제 사용자에게 전달할 준비가 되었습니다.
 
-![](../assets/offer_created.png)
+![](../../assets/offer_created.png)
 
 ## 오퍼 목록 {#offer-list}
 
 오퍼 목록에서 해당 속성을 표시할 오퍼를 선택할 수 있습니다. 편집, 상태 변경(**초안**, **승인됨**, **보관됨**), 오퍼를 복제하거나, 삭제합니다.
 
-![](../assets/offer_created.png)
+![](../../assets/offer_created.png)
 
 을(를) 선택합니다 **[!UICONTROL Edit]** 버튼을 클릭하여 오퍼를 수정할 수 있는 오퍼 편집 모드로 돌아갑니다. [세부 정보](#create-offer), [표현](#representations)를 편집할 수 있습니다 [자격 규칙 및 제한](#eligibility).
 
@@ -243,11 +243,11 @@ ht-degree: 5%
 
 상태를 다시 설정하려면 **[!UICONTROL Approved]**&#x200B;에서 이제 표시되는 해당 버튼을 선택합니다.
 
-![](../assets/offer_approve.png)
+![](../../assets/offer_approve.png)
 
 다음 **[!UICONTROL More actions]** 버튼을 사용하면 아래 설명된 작업을 사용할 수 있습니다.
 
-![](../assets/offer_more-actions.png)
+![](../../assets/offer_more-actions.png)
 
 * **[!UICONTROL Duplicate]**: 등록 정보, 표현, 자격 규칙 및 제약 조건이 동일한 오퍼를 생성합니다. 기본적으로 새 오퍼에는 **[!UICONTROL Draft]** 상태.
 * **[!UICONTROL Delete]**: 목록에서 오퍼를 제거합니다.
@@ -262,19 +262,19 @@ ht-degree: 5%
 
 해당 확인란을 선택하여 여러 오퍼의 상태를 동시에 삭제하거나 변경할 수도 있습니다.
 
-![](../assets/offer_multiple-selection.png)
+![](../../assets/offer_multiple-selection.png)
 
 상태가 다른 여러 오퍼의 상태를 변경하려면 관련 상태만 변경됩니다.
 
-![](../assets/offer_change-status.png)
+![](../../assets/offer_change-status.png)
 
 오퍼가 만들어지면 목록에서 해당 이름을 클릭할 수 있습니다.
 
-![](../assets/offer_click-name.png)
+![](../../assets/offer_click-name.png)
 
 이렇게 하면 해당 오퍼에 대한 세부 정보에 액세스할 수 있습니다. 을(를) 선택합니다 **[!UICONTROL Change log]** 탭 대상 [모든 변경 사항 모니터링](../get-started/user-interface.md#monitoring-changes) 그것은 그 제의에 대한 것입니다.
 
-![](../assets/offer_information.png)
+![](../../assets/offer_information.png)
 
 ## 튜토리얼 비디오 {#video}
 
