@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 12%
@@ -19,7 +19,7 @@ ht-degree: 12%
 쿼리 편집기는 분석 및 데이터 탐색을 위한 쿼리 개발을 지원하며, 대화형 쿼리를 개발용으로 실행할 수 있을 뿐만 아니라 채울 비대화형 쿼리를 실행할 수 있습니다 [데이터 세트](get-started-datasets.md).
 
 
-![](assets/queries-home.png)
+![](../assets/queries-home.png)
 
 에서 쿼리 편집기를 사용하는 방법을 알아봅니다. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}.
 
