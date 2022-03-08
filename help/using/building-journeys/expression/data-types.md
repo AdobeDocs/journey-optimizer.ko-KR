@@ -1,0 +1,339 @@
+---
+product: adobe campaign
+title: 데이터 유형
+description: 고급 표현식의 데이터 유형에 대해 알아봅니다
+feature: Journeys
+role: Data Engineer
+level: Experienced
+exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 5%
+
+---
+
+# 데이터 유형 {#data-types}
+
+기본적으로 상수에는 항상 데이터 유형이 포함됩니다. 리터럴 표현식에서 값만 지정합니다. 데이터 유형은 값(예: 문자열, 정수, 십진수 등)에서 추론할 수 있습니다. 날짜 시간과 같은 특정 경우에는 표현에만 전용 함수를 사용합니다.
+
+아래 섹션에서는 다양한 데이터 유형 표현식과 표현식에 대한 정보를 제공합니다.
+
+## string {#string}
+
+**설명**
+
+공통 문자 시퀀스입니다. 사용 가능한 메모리의 양과 같은 환경에서 나오는 암시적 크기를 제외하고 특정 크기가 없습니다.
+
+JSON 형식: 문자열
+
+직렬화 형식: UTF-8
+
+**리터럴 표현**
+
+```json
+"<value>"
+```
+
+```json
+'<value>'
+```
+
+**예**
+
+```json
+"hello world"
+```
+
+```json
+'hello world'
+```
+
+## 정수 {#integer}
+
+**설명**
+
+-2^63에서 2^63-1까지의 정수 값입니다.
+
+JSON 형식: 숫자
+
+**리터럴 표현**
+
+```json
+<integer value>
+```
+
+**예**
+
+```json
+42
+```
+
+## 십진수 {#decimal}
+
+**설명**
+
+십진수. 부동 소수점 값을 나타냅니다.
+
+* 더블 타입(2-2^-52)x2^1023 중 가장 큰 양의 유한 값
+* 2-1022 유형의 가장 작은 양의 정규 값
+* 더블 유형의 최소양수 0값, 2p-1074
+
+JSON 형식: 숫자
+
+직렬화 형식: &#39;&#39; 사용 를 소수점 구분 기호로 사용합니다.
+
+**리터럴 표현**
+
+```json
+<integer value>.<integer value>
+```
+
+**예**
+
+```json
+3.14
+```
+
+## 부울 {#boolean}
+
+**설명**
+
+소문자로 쓴 부울 값: true 또는 false
+
+JSON 형식: 부울
+
+**리터럴 표현**
+
+```json
+true
+```
+
+```json
+false
+```
+
+**예**
+
+```json
+true
+```
+
+## dateOnly {#date-only}
+
+**설명**
+
+일(년 기준)로 본 시간대가 없는 날짜만 나타냅니다.
+
+생일에 사용되는 날짜의 설명입니다.
+
+JSON 형식: 문자열.
+
+형식은 다음과 같습니다. YYYY-MM-DD(ISO-8601), 예: &quot;2021-03-11&quot;.
+
+toDateOnly 함수에 캡슐화할 수 있습니다.
+
+DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 알아보기](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+
+**리터럴 표현**
+
+```json
+date("<dateOnly in ISO-8601 format>")  
+```
+
+**예**
+
+```json
+date("2021-02-19")
+```
+
+## dateTimeOnly {#date-time-only}
+
+**설명**
+
+연 달 1일 시간(분) 밀리초 단위로 표시된 시간대가 없는 날짜 시간을 나타냅니다.
+
+JSON 형식: 문자열.
+
+시간대를 저장하거나 나타내지는 않습니다. 대신, 그것은 벽시계처럼 현지 시간과 결합되어 생일에 사용되는 그 날짜의 설명입니다.
+
+오프셋 또는 시간대 등의 추가 정보 없이 타임라인에서 인스턴스를 나타낼 수 없습니다.
+
+toDateTimeOnly 함수에 캡슐화할 수 있습니다.
+
+직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식입니다.
+
+DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+
+**리터럴 표현**
+
+```json
+date("<dateTimeOnly in ISO-8601 format>")  
+```
+
+**예**
+
+```json
+date("2021-02-19T00.00.000")
+date("2021-02-19T00.00")
+```
+
+## dateTime {#date-time}
+
+**설명**
+
+시간대도 고려하는 날짜 시간 상수. UTC의 오프셋과 함께 날짜 시간을 나타냅니다.
+
+오프셋의 추가 정보를 사용하여 적시에 인스턴스로 볼 수 있습니다. 세계 어느 곳에서 특정 순간을 표현하는 방법이다.
+
+JSON 형식: 문자열.
+
+toDateTime 함수에 캡슐화할 수 있습니다.
+
+직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식입니다.
+
+DateTimeFormatter ISO_OFFSET_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+
+epoch 값을 전달하는 정수를 전달할 수도 있습니다. [자세히 보기](https://www.epochconverter.com)
+
+시간대는 오프셋이나 시간대 코드로 지정할 수 있습니다(예: 유럽/파리, Z - UTC).
+
+**리터럴 표현**
+
+```json
+toDateTime("<dateTime in ISO-8601 format>")
+```
+
+```json
+date("<dateTime in ISO-8601 format>")
+```
+
+```json
+toDateTime(<integer value of an epoch in milliseconds>)
+```
+
+**예**
+
+```json
+date("2021-02-19T00.00.000Z")
+```
+
+```json
+toDateTime("1977-04-22T06:00:00Z")
+```
+
+```json
+toDateTime("2011-12-03T15:15:30Z")
+```
+
+```json
+toDateTime("2011-12-03T15:15:30.123Z")
+```
+
+```json
+toDateTime("2011-12-03T15:15:30.123+02:00")
+```
+
+```json
+toDateTime("2011-12-03T15:15:30.123-00:20")
+```
+
+```json
+toDateTime(1560762190189)
+```
+
+## 기간 {#duration}
+
+**설명**
+
+시간 기반 시간(예: &#39;34.5초&#39;)을 나타냅니다. 수량 또는 시간을 밀리초 단위로 모델링합니다.
+
+지원되는 임시 단위는 다음과 같습니다. 밀리초, 초, 분, 시간, 일(하루가 24시간)입니다. 연도 및 달은 고정된 시간이 아니므로 지원되지 않습니다.
+
+JSON 형식: 문자열.
+
+toDuration 함수에 캡슐화되어야 합니다.
+
+직렬화 형식: 표준 시간대 ID를 deserialize하려면 java 함수 java.time을 사용합니다.
+
+Duration.parse: 허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하며, 일 수는 정확히 24시간으로 간주됩니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+
+**리터럴 표현**
+
+```json
+toDuration("<duration in ISO-8601 format>")
+```
+
+```json
+toDuration(<duration in milliseconds>)
+```
+
+**예**
+
+```json
+toDuration("PT5S") -- parses as 5 seconds
+```
+
+```json
+toDuration(500) -- parses as 500ms
+```
+
+```json
+toDuration("PT20.345S") -- parses as "20.345 seconds"
+```
+
+```json
+toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)
+```
+
+```json
+toDuration("PT10H")  -- parses as "10 hours" (where an hour is 3600 seconds)
+```
+
+```json
+toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)
+```
+
+```json
+toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"
+```
+
+```json
+toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"
+```
+
+```json
+toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
+```
+
+```json
+toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
+```
+
+## 목록에 있는 참조 페이지를 나타냅니다 {#list}
+
+**설명**
+
+대괄호를 구분 기호로 사용하여 쉼표로 구분된 표현식 목록.
+
+다형성 기능은 지원되지 않으므로 목록에 포함된 모든 표현식의 형식이 같아야 합니다.
+
+**리터럴 표현**
+
+```json
+[<expression>, <expression>, ... ]
+```
+
+**예**
+
+```json
+["value1","value2"]
+```
+
+```json
+[3,5]
+```
+
+```json
+[toDuration(500),toDuration(800)]
+```
