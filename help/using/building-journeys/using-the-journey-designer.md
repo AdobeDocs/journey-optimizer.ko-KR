@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 새 여정을 시작할 때 첫 번째 단계가 숨겨지므로 캔버스에 놓을 수 없는 요소가 표시됩니다. 이는 모든 작업, 조건 활동, 대기 및 반응과 관련되어 있습니다.
 
-![](assets/journey38.png)
+![](../assets/journey38.png)
 
 다음 **[!UICONTROL Filter items]** 왼쪽 상단 모서리의 아이콘을 사용하여 다음 필터를 표시할 수 있습니다.
 
@@ -35,17 +35,17 @@ ht-degree: 1%
 
 다음 **캔버스** 는 여정 디자이너의 중앙 영역입니다. 활동을 삭제하고 구성할 수 있는 이 영역에 있습니다. 캔버스에서 활동을 클릭하여 구성합니다. 오른쪽에 활동 구성 창이 열립니다.
 
-![](assets/journey39.png)
+![](../assets/journey39.png)
 
 다음 **활동 구성 창** 팔레트에서 활동을 클릭하면 표시됩니다. 필수 필드를 입력합니다. 을(를) 클릭합니다. **[!UICONTROL Delete]** 아이콘을 클릭하여 활동을 삭제합니다. 클릭 **[!UICONTROL Cancel]** 수정 사항을 취소하려면 **[!UICONTROL Ok]** 확인합니다. 활동을 삭제하려면 활동 하나(또는 여러 개)를 선택하고 백스페이스 키를 누를 수도 있습니다. Esc 키를 누르면 활동 구성 창이 닫힙니다.
 
 기본적으로 읽기 전용 필드는 숨겨집니다. 읽기 전용 필드를 표시하려면 **읽기 전용 필드 표시** 활동 구성 창의 왼쪽 위에 있는 아이콘. 이 설정은 모든 여정의 모든 활동에 적용됩니다.
 
-![](assets/journey59bis.png)
+![](../assets/journey59bis.png)
 
 여정의 상태에 따라 오른쪽 상단 모서리에서 사용할 수 있는 단추를 사용하여 여정에 대해 다른 작업을 수행할 수 있습니다. **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. 이러한 단추는 활동을 선택하지 않을 때 나타납니다. 일부 단추는 컨텍스트에 따라 나타납니다. 테스트 모드가 활성화되면 테스트 모드 로그 단추가 나타납니다.
 
-![](assets/journey41.png)
+![](../assets/journey41.png)
 
 ## 여정 시작
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 여러 활동(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 활동)을 사용하면 오류 또는 시간 제한이 있을 경우 대체 작업을 정의할 수 있습니다. 활동 구성 창에서 상자를 선택합니다. **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 활동 뒤에 다른 경로가 추가됩니다. 시간 제한 기간은 여정 속성에 정의됩니다( [이 페이지](../building-journeys/journey-gs.md#change-properties) 관리자 예를 들어 이메일을 전송하는 데 너무 오래 걸리거나 오류가 발생한 경우 SMS를 전송하도록 결정할 수 있습니다.
 
-![](assets/journey42.png)
+![](../assets/journey42.png)
 
 다양한 활동(이벤트, 작업, 대기)을 통해 뒤에 여러 경로를 추가할 수 있습니다. 이렇게 하려면 활동에 커서를 놓고 &quot;+&quot; 기호를 클릭합니다. 이벤트 및 대기 활동만 동시에 설정할 수 있습니다. 여러 이벤트가 동시에 설정되면 선택한 경로가 첫 번째 이벤트 중 하나가 됩니다.
 
@@ -93,11 +93,11 @@ ht-degree: 1%
 
 패스를 삭제하려면 해당 패스 위에 커서를 놓고 **[!UICONTROL Delete path]** 아이콘.
 
-![](assets/journey42ter.png)
+![](../assets/journey42ter.png)
 
 캔버스에서 두 활동의 연결이 끊기면 경고가 표시됩니다. 경고 아이콘 위에 커서를 놓으면 오류 메시지가 표시됩니다. 문제를 해결하려면 연결이 끊긴 활동을 이동하고 이전 활동에 연결하기만 하면 됩니다.
 
-![](assets/canvas-disconnected.png)
+![](../assets/canvas-disconnected.png)
 
 ## 활동 복사 및 붙여넣기 {#copy-paste}
 
@@ -116,9 +116,9 @@ ht-degree: 1%
 
 1. 여정을 엽니다.
 1. 를 클릭하는 동안 마우스를 이동하여 복사할 활동을 선택합니다. 또한 **Ctrl/Command** 키. 사용 **Ctrl/Command + A** 모든 활동을 선택하려면 다음을 수행하십시오.
-   ![](assets/copy-paste1.png)
+   ![](../assets/copy-paste1.png)
 1. 누르기 **Ctrl/Command + C**.
 활동을 하나만 복사하려는 경우 해당 활동을 클릭하고 **복사** 활동 구성 창의 왼쪽 위에 있는 아이콘.
-   ![](assets/copy-paste2.png)
+   ![](../assets/copy-paste2.png)
 1. 여정에서 **Ctrl/Command + V** 기존 노드에 연결하지 않고 활동을 붙여넣습니다. 붙여넣은 활동은 같은 순서로 배치됩니다. 붙여넣은 후에는 활동이 선택된 상태로 유지되므로 쉽게 이동할 수 있습니다. 또한 빈 자리 표시자에 커서를 놓고 를 누를 수도 있습니다 **Ctrl/Command + V**. 붙여넣은 활동은 노드에 연결됩니다.
-   ![](assets/copy-paste3.png)
+   ![](../assets/copy-paste3.png)
