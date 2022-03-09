@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '1001'
+ht-degree: 96%
 
 ---
 
@@ -14,26 +14,30 @@ ht-degree: 100%
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 
 
+## 2022년 3월 {#march-2022}
+
+* AI 모델 시작에 대한 새 페이지가 **Offer decisioning** 섹션에 대한 자세한 설명을 포함한 섹션을 참조하십시오 [자동 최적화 모델](../offers/offer-library/ai-ranking.md#auto-optimization), 사용하는 알고리즘 및 더 많은 기술 세부 사항. [자세히 보기](../offers/offer-library/ai-ranking.md)
+
+## 2022년 2월 {#feb-2022}
+
+* [!DNL Journey Optimizer]2022년 2월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 다음 [replace](../building-journeys/functions/functionreplace.md#example_2) 및 [replaceAll](../building-journeys/functions/functionreplaceall.md#example) 함수 설명서 페이지가 target 매개변수에 대한 추가 정보 및 예를 포함하여 업데이트되었습니다.
+* 모범 사례가 [연산자](../building-journeys/expression/operators.md#important-notes) 페이지에 추가되었습니다.
+
 ## 2022년 1월 {#january-2022}
 
 * 2022년 1월 릴리스의 [!DNL Journey Optimizer]모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-
-* Offer Decisioning AI 등급 섹션이 자동 최적화 모델에 대한 보다 자세한 설명과 함께 업데이트되었습니다. [자세히 보기](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
-
+* **Offer Decisioning AI 등급** 섹션이 자동 최적화 모델에 대한 보다 자세한 설명과 함께 업데이트되었습니다. [자세히 보기](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
 * 등급 전략을 사용할 때 이벤트 유형을 보낼 수 있어야 하는 스키마 요구 사항에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
-
 * 가독성 개선을 위해 [!DNL Journey Optimizer] 개인화 기능 관련 섹션을 재구성했습니다. [자세히 보기](../personalization/personalize.md)
-
-* 다음 메시지 사전 설정 만들기 섹션을 몇 개의 섹션으로 나누어서 명확성을 개선했습니다. [자세히 보기](../configuration/message-presets.md#create-message-preset)
-
-* 다음 옵트아웃 관리 섹션이 명확해지고 약간 재구성되었습니다. [자세히 보기](../messages/consent.md#opt-out-management)
-
-* 다음 링크 삽입 섹션이 업데이트되어 최근 사용자 인터페이스 변경 사항을 반영하였습니다. [자세히 보기](../messages/message-tracking.md#insert-links)
+* 다음 **메시지 사전 설정 만들기** 섹션을 몇 개의 섹션으로 나누어서 명확성을 개선했습니다. [자세히 보기](../configuration/message-presets.md#create-message-preset)
+* 다음 **옵트아웃 관리** 섹션이 명확해지고 약간 재구성되었습니다. [자세히 보기](../messages/consent.md#opt-out-management)
+* 다음 **링크 삽입** 섹션이 업데이트되어 최근 사용자 인터페이스 변경 사항을 반영하였습니다. [자세히 보기](../messages/message-tracking.md#insert-links)
 
 ## 2021년 11월 {#november-2021}
 
-* 이제 여정에 사용되는 고급 표현식 편집기에 대한 전체 설명이 제공됩니다. [자세히 보기](../building-journeys/expression/expressionadvanced.md)
-* CNAME 하위 도메인 위임 방법에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* 이제 여정에 사용되는 **고급 표현식 편집기**&#x200B;에 대한 전체 설명이 제공됩니다. [자세히 보기](../building-journeys/expression/expressionadvanced.md)
+* **CNAME 하위 도메인 위임 방법**&#x200B;에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 
 ## 2021년 10월 {#october-2021}
