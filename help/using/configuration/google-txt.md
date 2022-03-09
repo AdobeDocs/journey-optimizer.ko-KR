@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 26%
@@ -29,6 +29,6 @@ Gmail 주소로 이메일이 배달되고 성공적으로 배달되도록 하려
 
 1. 에서 **[!UICONTROL Google txt record]** 섹션에서 생성된 확인 코드를 입력합니다. [Google 작업 공간](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->를 클릭한 다음 **[!UICONTROL Save]**.
 
-   ![](../assets/subdomain-google-txt.png)
+   ![](assets/subdomain-google-txt.png)
 
 1. 추가한 TXT 레코드는 Google에서 확인해야 합니다. 이렇게 하려면 로 이동합니다. [Google 작업 공간](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->그런 다음 확인 단계를 시작합니다.
