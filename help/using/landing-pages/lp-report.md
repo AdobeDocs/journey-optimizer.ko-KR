@@ -5,8 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+hidefromtoc: true
+hide: true
 exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
-source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -23,11 +25,11 @@ ht-degree: 0%
 
 보고서에 액세스하려면 **라이브** 또는 **[!UICONTROL Global report]** 선택한 랜딩 페이지의 고급 메뉴에서 을 클릭합니다.
 
-![](../assets/landing_page_report_1.png)
+![](assets/landing_page_report_1.png)
 
 ## 랜딩 페이지 라이브 보고서 {#lp-live}
 
-![](../assets/landing_page_report_2.png)
+![](assets/landing_page_report_2.png)
 
 다음 **[!UICONTROL Landing page performance]** 위젯은 KPI를 통해 지난 24시간 동안 메시지에 대한 주요 정보를 자세히 설명합니다.
 
@@ -51,7 +53,7 @@ ht-degree: 0%
 
 다음 **[!UICONTROL Other sources]** 위젯은 여정 대신 외부 소스에서 랜딩 페이지에 대한 방문 횟수를 나타냅니다.
 
-![](../assets/landing_page_report_3.png)
+![](assets/landing_page_report_3.png)
 
 다음 **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** 그래프는 보낸 메시지에 따라 지난 24시간 동안 랜딩 페이지와 성공적으로 상호 작용한 총 방문 횟수 및 사람을 나타냅니다.
 
@@ -59,7 +61,7 @@ ht-degree: 0%
 
 ## 랜딩 페이지 글로벌 보고서 {#lp-global}
 
-![](../assets/landing_page_report_4.png)
+![](assets/landing_page_report_4.png)
 
 다음 **[!UICONTROL Number of visits]** 및 **[!UICONTROL Number of visits over time]** 위젯을 사용하면 다음 지표를 사용하여 그래프 및 KPI를 통해 선택한 기간 동안 랜딩 페이지의 영향을 볼 수 있습니다.
 
@@ -73,7 +75,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Bounce rate]**: 총 방문 수와 관련하여 랜딩 페이지와 상호 작용하지 않고 구독 작업을 완료하지 않은 사람 수입니다.
 
-![](../assets/landing_page_report_5.png)
+![](assets/landing_page_report_5.png)
 
 다음 **[!UICONTROL Visit sources]** 위젯은 방문자가 랜딩 페이지에 액세스하는 방식을 나타냅니다.
 
@@ -93,7 +95,7 @@ ht-degree: 0%
 
 다음 **[!UICONTROL Other sources]** 위젯은 여정 대신 외부 소스에서 랜딩 페이지에 대한 방문 횟수를 나타냅니다.
 
-![](../assets/landing_page_report_6.png)
+![](assets/landing_page_report_6.png)
 
 다음 **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** 그래프는 보낸 메시지에 따라 해당 기간 동안 랜딩 페이지와 성공적으로 상호 작용한 방문자의 총 수를 나타냅니다.
 
