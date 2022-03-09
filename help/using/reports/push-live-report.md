@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 에서 **[!UICONTROL Executions]** 의 탭 **[!UICONTROL Messages]** 메뉴, 선택 **[!UICONTROL Live view]** 그런 다음 선택한 게재의 고급 메뉴에서 을(를) 선택합니다 **[!UICONTROL Live report]**.
 
-![](../assets/live_report_2.png)
+![](assets/live_report_2.png)
 
 푸시 **[!UICONTROL Live report]** 은 게재의 성공 및 오류를 설명하는 다른 위젯으로 구분됩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 정보는 다음을 참조하십시오 [섹션](live-report.md#modify-dashboard).
 
-![](../assets/live_report_3.png)
+![](assets/live_report_3.png)
 
 **[!UICONTROL Push notification performance]** 및 **[!UICONTROL Push notification summary]** 위젯은 그래프 및 KPI를 사용하여 메시지에 대한 기본 정보를 자세히 설명합니다.
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Opens]**: 게재에서 메시지를 연 횟수입니다.
 
-![](../assets/live_report_4.png)
+![](assets/live_report_4.png)
 
 다음 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 및 **[!UICONTROL Breakdown by platform]** 그래프 및 표는 운영 시스템에 따라 푸시 알림의 성공을 자세히 설명합니다.
 
