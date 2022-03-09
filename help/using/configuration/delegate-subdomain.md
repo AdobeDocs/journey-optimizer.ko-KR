@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 10%
@@ -36,15 +36,15 @@ ht-degree: 10%
 
 1. 액세스 권한 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 메뉴를 클릭한 다음 **[!UICONTROL Set up subdomain]**.
 
-   ![](../assets/subdomain-delegate.png)
+   ![](assets/subdomain-delegate.png)
 
 1. 선택 **[!UICONTROL Fully delegated]** 에서 **[!UICONTROL Set up method]** 섹션을 참조하십시오.
 
-   ![](../assets/subdomain-method-full.png)
+   ![](assets/subdomain-method-full.png)
 
 1. 위임할 하위 도메인의 이름을 지정합니다.
 
-   ![](../assets/subdomain-name.png)
+   ![](assets/subdomain-name.png)
 
    >[!CAUTION]
    >
@@ -56,7 +56,7 @@ ht-degree: 10%
 
 1. 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 것이 제대로 구성된 경우 &quot;확인...&quot; 상자를 선택한 다음 를 클릭합니다. **[!UICONTROL Submit]**.
 
-   ![](../assets/subdomain-submit.png)
+   ![](assets/subdomain-submit.png)
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ ht-degree: 10%
 
 1. 전체 하위 도메인 위임이 제출되면 하위 도메인이 와 함께 목록에 표시됩니다. **[!UICONTROL Processing]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](access-subdomains.md).
 
-   ![](../assets/subdomain-processing.png)
+   ![](assets/subdomain-processing.png)
 
    해당 하위 도메인을 사용하여 메시지를 보내려면 Adobe이 필요한 검사를 수행할 때까지 기다려야 하며, 이 작업은 최대 3시간이 걸릴 수 있습니다. 추가 정보 [이 섹션](#subdomain-validation).
 
@@ -96,13 +96,13 @@ CNAME 하위 도메인을 위임하면 하위 도메인을 만들고 CNAME을 �
 >
 >조직의 정책이 전체 하위 도메인 위임 방법을 제한하는 경우 이 방법을 사용하는 것이 좋습니다. 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지 관리하고 관리해야 합니다. Adobe은 CNAME 방법을 통해 구성된 하위 도메인에 대한 DNS의 변경, 유지 관리 또는 관리를 지원할 수 없습니다.
 
-CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 수행하십시오.
+CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따르십시오.
 
 1. 액세스 권한 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 메뉴를 클릭한 다음 **[!UICONTROL Set up subdomain]**.
 
 1. 을(를) 선택합니다 **[!UICONTROL CNAME set up]** 메서드를 사용합니다.
 
-   ![](../assets/subdomain-method-cname.png)
+   ![](assets/subdomain-method-cname.png)
 
 1. 위임할 하위 도메인의 이름을 지정합니다.
 
@@ -116,7 +116,7 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 수�
 
 1. 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 것이 제대로 구성된 경우 &quot;확인...&quot; 상자를 선택합니다.
 
-   ![](../assets/subdomain-create-dns-confirm.png)
+   ![](assets/subdomain-create-dns-confirm.png)
 
    >[!NOTE]
    >
@@ -130,7 +130,7 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 수�
 
 1. Adobe은 SSL CDN URL 유효성 검사 레코드를 생성합니다. 이 유효성 검사 레코드를 호스팅 플랫폼에 복사합니다. 호스팅 솔루션에서 이 레코드를 올바르게 만든 경우, &quot;확인...&quot; 상자를 선택한 다음 를 클릭합니다. **[!UICONTROL Submit]**.
 
-   ![](../assets/subdomain-cdn-url-validation.png)
+   ![](assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >
