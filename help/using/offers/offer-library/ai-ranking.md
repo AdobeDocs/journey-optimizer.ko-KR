@@ -6,7 +6,8 @@ description: 오퍼의 등급을 매길 수 있는 AI 모델에 대해 알아봅
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
+source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 0%
@@ -116,4 +117,3 @@ AI 모델이 만들어지면 결정에서 배치에 지정합니다. 추가 정�
 예를 들어, 순위 지정 서비스에서 사용되는 TS(Thompson Sampling) 전략의 성과를 측정하고 KPI가 전환율(CVR)인 경우 기준 전략에 대한 TS 전략의 &quot;상승도&quot;는 다음과 같이 정의됩니다.
 
 ![](../assets/ai-ranking-lift.png)
-
