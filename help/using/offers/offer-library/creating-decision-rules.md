@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 12%
@@ -23,13 +23,13 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
 만든 의사 결정 규칙 목록은 **[!UICONTROL Components]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-![](../../assets/decision_rules_list.png)
+![](../assets/decision_rules_list.png)
 
 의사 결정 규칙을 만들려면 다음 단계를 수행합니다.
 
 1. 로 이동합니다. **[!UICONTROL Rules]** 탭을 클릭한 다음 **[!UICONTROL Create rule]**.
 
-   ![](../../assets/offers_decision_rule_creation.png)
+   ![](../assets/offers_decision_rule_creation.png)
 
 1. 규칙에 이름을 지정하고 설명을 제공한 다음 필요에 따라 규칙을 구성합니다.
 
@@ -37,7 +37,7 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
    이 예에서는 규칙이 &quot;Gold&quot; 충성도 수준이 있는 고객을 타깃팅합니다.
 
-   ![](../../assets/offers_decision_rule_creation_segment.png)
+   ![](../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
 1. 규칙이 만들어지면 규칙 목록에 표시됩니다. 속성을 선택하여 등록 정보를 표시하고 편집하거나 삭제할 수 있습니다.
 
-   ![](../../assets/rule_created.png)
+   ![](../assets/rule_created.png)
 
 >[!CAUTION]
 >
