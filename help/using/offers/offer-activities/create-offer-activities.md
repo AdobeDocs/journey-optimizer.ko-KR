@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 결정 목록은 **[!UICONTROL Offers]** 메뉴 > **[!UICONTROL Decisions]** 탭. 필터를 사용하여 상태 또는 시작 날짜와 종료 날짜에 따라 결정을 검색할 수 있습니다.
 
-![](../../assets/activities-list.png)
+![](../assets/activities-list.png)
 
 결정을 내리기 전에 아래 구성 요소가 오퍼 라이브러리에서 만들어졌는지 확인하십시오.
 
@@ -38,17 +38,17 @@ ht-degree: 1%
 
 1. 필요한 경우 시작 및 종료 날짜 및 시간을 정의한 다음 를 클릭합니다. **[!UICONTROL Next]**.
 
-   ![](../../assets/activities-name.png)
+   ![](../assets/activities-name.png)
 
 ## 결정 범위 정의 {#add-decision-scopes}
 
 1. 드롭다운 목록에서 배치를 선택합니다. 결정에서 첫 번째 결정 범위에 추가됩니다.
 
-   ![](../../assets/activities-placement.png)
+   ![](../assets/activities-placement.png)
 
 1. 클릭 **[!UICONTROL Add]** 를 눌러 이 배치에 대한 평가 기준을 선택합니다.
 
-   ![](../../assets/activities-evaluation-criteria.png)
+   ![](../assets/activities-evaluation-criteria.png)
 
    각 기준은 자격 제한과 연관된 오퍼 컬렉션과 배치에 표시할 오퍼를 결정하는 순위 메서드에 구성됩니다.
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 1. 고려할 오퍼가 포함된 오퍼 컬렉션을 선택한 다음 **[!UICONTROL Add]**.
 
-   ![](../../assets/activities-collection.png)
+   ![](../assets/activities-collection.png)
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ ht-degree: 1%
 
    선택한 컬렉션이 기준에 추가됩니다.
 
-   ![](../../assets/activities-collection-added.png)
+   ![](../assets/activities-collection-added.png)
 
 1. 를 사용하십시오 **[!UICONTROL Eligibility]** 이 배치에 대한 오퍼 선택을 제한하는 필드입니다.
 
@@ -74,23 +74,23 @@ ht-degree: 1%
 
    * 오퍼의 선택을 Experience Platform 세그먼트의 멤버로 제한하려면 **[!UICONTROL Segments]**&#x200B;를 클릭한 다음 **[!UICONTROL Add segments]**.
 
-      ![](../../assets/activity_constraint_segment.png)
+      ![](../assets/activity_constraint_segment.png)
 
       왼쪽 창에서 하나 또는 여러 개의 세그먼트를 추가하고 을(를) 사용하여 결합합니다 **[!UICONTROL And]** / **[!UICONTROL Or]** 논리 연산자입니다.
 
-      ![](../../assets/activity_constraint_segment2.png)
+      ![](../assets/activity_constraint_segment2.png)
 
       에서 세그먼트 작업 방법 알아보기 [이 섹션](../../segment/about-segments.md).
 
    * 결정 규칙에 선택 제약 조건을 추가하려면 **[!UICONTROL Decision rule]** 옵션을 선택하고 선택한 규칙을 선택합니다.
 
-      ![](../../assets/activity_constraint_rule.png)
+      ![](../assets/activity_constraint_rule.png)
 
       에서 의사 결정 규칙을 만드는 방법을 알아봅니다. [이 섹션](../offer-library/creating-decision-rules.md).
 
 1. 각 프로필에 대해 가장 적합한 오퍼를 선택하는 데 사용할 등급 방법을 정의합니다.
 
-   ![](../../assets/activity_ranking-method.png)
+   ![](../assets/activity_ranking-method.png)
 
    * 기본적으로 이 배치에 여러 오퍼가 적합한 경우 우선 순위가 가장 높은 오퍼가 고객에게 전달됩니다.
 
@@ -98,25 +98,25 @@ ht-degree: 1%
 
 1. 클릭 **[!UICONTROL Add]** 를 클릭하여 동일한 배치에 대한 더 많은 기준을 정의합니다.
 
-   ![](../../assets/activity_add-collection.png)
+   ![](../assets/activity_add-collection.png)
 
 1. 여러 기준을 추가하면 해당 기준이 특정 순서로 평가됩니다. 시퀀스에 추가된 첫 번째 컬렉션은 먼저 평가됩니다.
 
    기본 시퀀스를 변경하려면 컬렉션을 끌어다 놓아 원하는 대로 순서를 변경할 수 있습니다.
 
-   ![](../../assets/activity_reorder-collections.png)
+   ![](../assets/activity_reorder-collections.png)
 
 1. 여러 기준을 동시에 평가할 수도 있습니다. 이렇게 하려면 컬렉션을 다른 컬렉션 위에 끌어다 놓습니다.
 
-   ![](../../assets/activity_move-collection.png)
+   ![](../assets/activity_move-collection.png)
 
    모두 평행선이어서 평가를 동시에 받게 된다.
 
-   ![](../../assets/activity_same-rank-collections.png)
+   ![](../assets/activity_same-rank-collections.png)
 
 1. 이 결정의 일부로 오퍼에 대한 다른 배치를 추가하려면 **[!UICONTROL New scope]** 버튼을 클릭합니다. 각 결정 범위에 대해 위의 단계를 반복합니다.
 
-   ![](../../assets/activity_new-scope.png)
+   ![](../assets/activity_new-scope.png)
 
 ### 세그먼트와 의사 결정 규칙 사용 {#segments-vs-decision-rules}
 
@@ -144,7 +144,7 @@ ht-degree: 1%
 
 이렇게 하려면 결정에서 정의된 배치에 대해 사용 가능한 대체 오퍼 목록에서 선택한 다음 을 클릭합니다 **[!UICONTROL Next]**.
 
-![](../../assets/add-fallback-offer.png)
+![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
@@ -156,16 +156,16 @@ ht-degree: 1%
 
 1. 오퍼를 고객에게 제공하는 데 이 결정을 사용할 준비가 되었는지 확인합니다. 모든 결정 범위 및 여기에 포함된 대체 오퍼가 표시됩니다.
 
-   ![](../../assets/review-decision.png)
+   ![](../assets/review-decision.png)
 
    각 배치를 확장하거나 축소할 수 있습니다. 각 배치에 대해 사용 가능한 오퍼, 자격 및 등급 세부 사항을 미리 볼 수도 있습니다.
 
-   ![](../../assets/review-decision-details.png)
+   ![](../assets/review-decision-details.png)
 
 1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Save and activate]**&#x200B;를 선택합니다.
 
-   ![](../../assets/save-activities.png)
+   ![](../assets/save-activities.png)
 
    나중에 편집하고 활성화하기 위해 결정을 초안으로 저장할 수도 있습니다.
 
@@ -177,7 +177,7 @@ ht-degree: 1%
 
 결정 목록에서 해당 속성을 표시하는 결정을 선택할 수 있습니다. 여기에서 편집할 수도 있습니다.**초안**, **라이브**, **완료**, **보관됨**), 결정을 복제하거나, 삭제합니다.
 
-![](../../assets/decision_created.png)
+![](../assets/decision_created.png)
 
 을(를) 선택합니다 **[!UICONTROL Edit]** 버튼을 클릭하여 결정 편집 모드로 돌아갑니다. 여기서 결정 모드를 수정할 수 있습니다 [세부 정보](#create-activity), [결정 범위](#add-decision-scopes) 및 [대체 오퍼](#add-fallback).
 
@@ -185,11 +185,11 @@ ht-degree: 1%
 
 상태를 다시 설정하려면 **[!UICONTROL Live]**&#x200B;에서 을(를) 선택합니다. **[!UICONTROL Activate]** 이제 표시되는 단추입니다.
 
-![](../../assets/decision_activate.png)
+![](../assets/decision_activate.png)
 
 다음 **[!UICONTROL More actions]** 버튼을 사용하면 아래 설명된 작업을 사용할 수 있습니다.
 
-![](../../assets/decision_more-actions.png)
+![](../assets/decision_more-actions.png)
 
 * **[!UICONTROL Complete]**: 결정 상태를 로 설정합니다. **[!UICONTROL Complete]**&#x200B;즉, 이 결정을 더 이상 호출할 수 없게 되었습니다. 이 작업은 활성화된 결정에만 사용할 수 있습니다. 결정은 목록에서 계속 사용할 수 있지만 상태를 다시 로 설정할 수는 없습니다 **[!UICONTROL Draft]** 또는 **[!UICONTROL Approved]**. 복제, 삭제 또는 보관만 가능합니다.
 
@@ -207,19 +207,19 @@ ht-degree: 1%
 
 해당 확인란을 선택하여 여러 의사 결정의 상태를 동시에 삭제하거나 변경할 수도 있습니다.
 
-![](../../assets/decision_multiple-selection.png)
+![](../assets/decision_multiple-selection.png)
 
 상태가 다른 여러 결정의 상태를 변경하려면 관련 상태만 변경됩니다.
 
-![](../../assets/decision_change-status.png)
+![](../assets/decision_change-status.png)
 
 결정이 생성되면 목록에서 해당 이름을 클릭할 수 있습니다.
 
-![](../../assets/decision_click-name.png)
+![](../assets/decision_click-name.png)
 
 이를 통해 해당 결정에 대한 자세한 정보에 액세스할 수 있습니다. 을(를) 선택합니다 **[!UICONTROL Change log]** 탭 대상 [모든 변경 사항 모니터링](../get-started/user-interface.md#changes-log) 그것은 그 결정에 의해 이루어졌습니다.
 
-![](../../assets/decision_information.png)
+![](../assets/decision_information.png)
 
 ## 튜토리얼 비디오 {#video}
 
