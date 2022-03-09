@@ -3,9 +3,9 @@ title: 랜딩 페이지 구성
 description: Journey Optimizer에서 랜딩 페이지를 만들고 사용하도록 환경을 구성하는 방법을 알아봅니다
 role: Admin
 level: Intermediate
-source-git-commit: 5f12e39ce182ce9d8a3338bcb53001668c7d6d03
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '810'
 ht-degree: 2%
 
 ---
@@ -132,6 +132,10 @@ When [랜딩 페이지 만들기](../landing-pages/create-lp.md#create-a-lp)를 
 ### 랜딩 페이지 사전 설정 만들기 {#lp-create-preset}
 
 랜딩 페이지 사전 설정을 만들려면 아래 단계를 수행하십시오.
+
+>[!NOTE]
+>
+>사전 설정을 만들려면 이전에 하나 이상의 랜딩 페이지 하위 도메인을 구성했는지 확인하십시오. [방법 알아보기](#lp-subdomains)
 
 1. 액세스 권한 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 메뉴를 선택한 다음 **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
 
