@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 여정 라이브 보고서는 **[!UICONTROL Live report]** 버튼을 클릭합니다.
 
-![](../assets/report_1.png)
+![](assets/report_1.png)
 
 여정 **[!UICONTROL Live report]** 페이지는 다음 탭에 표시됩니다.
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 여정에서 **[!UICONTROL Live report]**, **[!UICONTROL Journey]** 탭에서는 여정에 대해 가장 중요한 추적 데이터에 대한 명확한 보기를 제공합니다.
 
-![](../assets/report_journey_2.png)
+![](assets/report_journey_2.png)
 
 **[!UICONTROL Journey Performance]** 여정을 단계별로 타겟팅된 프로필의 경로를 확인할 수 있습니다.
 
@@ -43,11 +43,11 @@ ht-degree: 1%
 
 * **[!UICONTROL Failed individual journeys]**: 성공적으로 실행되지 않은 개별 여정의 총 수입니다.
 
-![](../assets/report_journey_3.png)
+![](assets/report_journey_3.png)
 
 다음 **[!UICONTROL Event executed over the last 24 hours]** 및 **[!UICONTROL Events]** 위젯을 사용하면 요약 번호, 그래프 및 표를 통해 성공적으로 실행된 이벤트 중 하나를 확인할 수 있습니다.
 
-![](../assets/report_journey_4.png)
+![](assets/report_journey_4.png)
 
 다음 **[!UICONTROL Action executed over the last 24 hours]** 및 **[!UICONTROL Actions executed and errors]** 위젯은 작업이 트리거될 때 발생한 가장 성공적인 작업 및 오류를 나타냅니다. 작업 그래프, 표 및 요약 번호에는 다음과 같은 작업에 사용할 수 있는 데이터가 포함되어 있습니다.
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 * **[!UICONTROL Error in actions]**: 작업에 대해 발생한 총 오류 수입니다.
 
 <!--
-![](../assets/live_report_7.png)
+![](assets/live_report_7.png)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 특정 이메일 게재에 대한 자세한 내용은 [이메일 라이브 보고서](email-live-report.md) 섹션을 참조하십시오.
 
-![](../assets/report_email_1.png)
+![](assets/report_email_1.png)
 
 다음 **[!UICONTROL Email Sending Statistics]** 위젯은 메시지에 대한 주요 정보를 자세히 설명합니다.
 
@@ -105,7 +105,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 * **[!UICONTROL Spam complaints]**: 메시지가 스팸 또는 정크 메일로 선언된 횟수입니다.
 
-![](../assets/report_email_2.png)
+![](assets/report_email_2.png)
 
 다음 **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** 및 **[!UICONTROL Hard and bounce - by Email]** 위젯에는 다음과 같이 바운스된 메시지와 관련하여 사용할 수 있는 데이터가 포함되어 있습니다.
 
@@ -123,7 +123,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 특정 푸시 게재에 대한 자세한 내용은 [라이브 보고서 푸시](push-live-report.md) 섹션을 참조하십시오.
 
-![](../assets/report_push_1.png)
+![](assets/report_push_1.png)
 
 **[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** 및 **[!UICONTROL Sending metrics - by Push]** 위젯은 메시지에 대한 기본 정보를 자세히 설명합니다.
 
@@ -143,7 +143,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 다음 **[!UICONTROL Error Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류를 확인할 수 있습니다.
 
-![](../assets/report_push_2.png)
+![](assets/report_push_2.png)
 
 다음 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 및 **[!UICONTROL Breakdown by platform]** 그래프 및 표는 운영 시스템에 따라 푸시 알림의 성공을 자세히 설명합니다.
 
