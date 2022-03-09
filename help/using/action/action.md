@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 78%
@@ -39,4 +39,4 @@ Epsilon, Facebook, Adobe.io, Firebase 등의 서드파티 시스템을 사용하
 
 작업 목록을 확인하거나 새 작업을 구성하려면 **[!UICONTROL Configurations]** 를 클릭합니다. 에서  **[!UICONTROL Actions]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 그러면 작업 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../start/user-interface.md)를 참조하십시오.
 
-![](../assets/custom1.png)
+![](assets/custom1.png)
