@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 9%
@@ -36,15 +36,15 @@ ht-degree: 9%
 
 1. **하위 도메인 위임**: Journey Optimizer에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 하위 도메인을 위임하는 것입니다. [자세히 알아보기](about-subdomain-delegation.md)
 
-   ![](../assets/subdomain.png)
+   ![](assets/subdomain.png)
 
 1. **IP 풀 만들기**: 인스턴스로 제공된 IP 주소를 그룹화하여 이메일 게재 능력과 평판을 향상시킵니다. [자세히 알아보기](ip-pools.md)
 
-   ![](../assets/ip-pool.png)
+   ![](assets/ip-pool.png)
 
 1. **여정 구성**: 여정을 빌드하려면 다음을 구성해야 합니다 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]**. [자세히 알아보기](about-data-sources-events-actions.md)
 
-   ![](../assets/admin-menu.png)
+   ![](assets/admin-menu.png)
 
    * 다음 **데이터 소스** 구성을 사용하면 시스템에 대한 연결을 정의하여 여정에서 사용할 추가 정보를 검색할 수 있습니다. 데이터 소스에 대해 자세히 알아보십시오 [섹션](../datasource/about-data-sources.md)
 
