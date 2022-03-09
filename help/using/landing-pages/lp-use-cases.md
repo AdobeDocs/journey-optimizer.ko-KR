@@ -5,24 +5,17 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 20%
+source-wordcount: '900'
+ht-degree: 19%
 
 ---
 
 # 랜딩 페이지 사용 사례 {#lp-use-cases}
 
 다음은 사용 가능한 방법의 몇 가지 예입니다 [!DNL Journey Optimizer] 고객이 일부 또는 모든 통신 수신을 옵트인하거나 옵트아웃하도록 하는 랜딩 페이지.
-
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
 
 ## 서비스 구독 {#subscription-to-a-service}
 
@@ -39,6 +32,8 @@ ht-degree: 20%
    ![](assets/lp_subscription-uc-list.png)
 
 1. [랜딩 페이지 만들기](create-lp.md) 을 클릭하여 수신자가 이벤트에 등록할 수 있도록 합니다.
+
+   ![](assets/lp_create-lp-details.png)
 
 1. 등록 구성 [기본 랜딩 페이지](create-lp.md#configure-primary-page).
 
@@ -57,6 +52,10 @@ ht-degree: 20%
 1. [링크 삽입](../messages/message-tracking.md#insert-links) 메시지 콘텐츠에 삽입하십시오. 선택 **[!UICONTROL Landing page]** 로서의 **[!UICONTROL Link type]** 그리고 [랜딩 페이지](create-lp.md#configure-primary-page) 등록용으로 만들 수 있습니다.
 
    ![](assets/lp_subscription-uc-link.png)
+
+   >[!NOTE]
+   >
+   >메시지를 게시하려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인합니다. 만료 날짜를 업데이트하는 방법 알아보기 [이 섹션](create-lp.md#configure-primary-page).
 
 1. 콘텐츠를 저장하고 [메시지를 게시합니다](../messages/publish-manage-message.md).
 
@@ -115,7 +114,7 @@ ht-degree: 20%
 
    ![](assets/lp_opt-out-primary-lp.png)
 
-   <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+   <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. 확인 추가 [하위 페이지](create-lp.md#configure-subpages) 양식을 제출하는 사용자에게 표시됩니다.
 
@@ -138,6 +137,10 @@ ht-degree: 20%
 1. 선택 **[!UICONTROL Landing page]** 에서 **[!UICONTROL Link type]** 드롭다운 목록을 선택하고 [랜딩 페이지](create-lp.md#configure-primary-page) 옵트아웃을 위해 만든
 
    ![](assets/lp_opt-out-landing-page.png)
+
+   >[!NOTE]
+   >
+   >메시지를 게시하려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인합니다. 만료 날짜를 업데이트하는 방법 알아보기 [이 섹션](create-lp.md#configure-primary-page).
 
 1. 콘텐츠를 저장하고 [메시지를 게시합니다](../messages/publish-manage-message.md).
 
