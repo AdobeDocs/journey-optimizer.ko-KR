@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
 workflow-type: tm+mt
-source-wordcount: '2643'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 99%
 
 ### 새로운 기능
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Subscription Landing Pages</strong><br/></th>
+<th><strong>구독 랜딩 페이지</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create and design landing pages in Journey Optimizer, and direct your users to online forms where they can opt-in or opt-out from receiving your communications, or subscribe to a specific service such as a newsletter.</p>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-cases.md">sample use case</a>.</p>
+<p>이제 Journey Optimizer에서 랜딩 페이지를 만들고 디자인하고, 사용자에게 커뮤니케이션 수신을 옵트인 또는 옵트아웃할 수 있는 온라인 양식으로 전송하거나 뉴스레터와 같은 특정 서비스에 가입할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../landing-pages/create-lp.md">세부 설명서</a> 및 관련 <a href="../landing-pages/lp-use-cases.md">샘플 사용 사례</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
