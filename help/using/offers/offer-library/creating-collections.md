@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 오퍼 컬렉션 목록은 **[!UICONTROL Offers]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-![](../../assets/collections_list.png)
+![](../assets/collections_list.png)
 
 두 가지 유형의 컬렉션을 만들 수 있습니다.
 
@@ -35,17 +35,17 @@ ht-degree: 3%
 
 1. 만들 컬렉션의 이름과 유형을 지정합니다.
 
-   ![](../../assets/collection_create.png)
+   ![](../assets/collection_create.png)
 
 1. 동적 컬렉션을 만들려면 왼쪽 창에서 컬렉션에 추가할 오퍼의 태그를 선택한 다음 을 클릭합니다 **[!UICONTROL Save]**. 선택한 태그가 있는 모든 오퍼가 컬렉션에 저장됩니다.
 
    태그 만들기에 대한 자세한 내용은 [태그 만들기](../offer-library/creating-tags.md).
 
-   ![](../../assets/dynamic_collection.png)
+   ![](../assets/dynamic_collection.png)
 
 1. 정적 컬렉션을 만들려면 왼쪽 창을 사용하여 오퍼 목록(상태, 태그, 날짜, 채널, 컨텐츠 유형)을 필터링한 컬렉션에 추가할 오퍼를 선택합니다.
 
-   ![](../../assets/static_collection.png)
+   ![](../assets/static_collection.png)
 
    >[!NOTE]
    >
@@ -53,7 +53,7 @@ ht-degree: 3%
 
 1. 컬렉션이 만들어지면 목록에 표시됩니다. 편집하거나 삭제할 수 있습니다.
 
-   ![](../../assets/collection_created.png)
+   ![](../assets/collection_created.png)
 
 ## 튜토리얼 비디오 {#video}
 
