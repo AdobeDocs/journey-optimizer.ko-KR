@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 오퍼가 수정될 때마다 개인화된 컨텐츠 오퍼에 대해 자동 생성된 데이터 세트가 업데이트됩니다.
 
-![](../../assets/dataset-offers.png)
+![](../assets/dataset-offers.png)
 
 데이터 집합에 있는 가장 최근 성공한 일괄 처리가 오른쪽에 표시됩니다. 데이터 집합에 대한 스키마의 계층 구조 보기가 왼쪽 창에 표시됩니다.
 
