@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '89'
 ht-degree: 26%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 26%
 
 ![](assets/favorite-option.png)
 
-즐겨찾기로 설정한 항목에 액세스하려면 **[!UICONTROL Favorites]** 메뉴 옵션을 클릭합니다.
-
-![](assets/favorite-menu.png)
+즐겨찾는 항목에 액세스하려면 **[!UICONTROL Favorites]** 메뉴 아래의 왼쪽 창에 표시됩니다.
 
 이 목록에서 현재 표현식에 개인화 개체를 빠르게 추가할 수 있습니다.
 
