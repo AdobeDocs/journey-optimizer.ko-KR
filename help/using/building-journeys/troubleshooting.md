@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 81%
@@ -23,11 +23,11 @@ ht-degree: 81%
 
 캔버스에서 활동 자체에 경고 기호가 표시되면서 오류가 나타납니다. 커서를 느낌표 위에 놓으면 오류 메시지가 표시됩니다. 활동을 클릭하면 오류가 발생한 줄이 경고와 함께 표시됩니다. 예를 들어 필수 필드가 비어 있으면 오류가 표시됩니다.
 
-![](../assets/journey63.png)
+![](assets/journey63.png)
 
 예를 들어 캔버스에서 두 활동이 끊어져 있으면 경고가 표시됩니다.
 
-![](../assets/canvas-disconnected.png)
+![](assets/canvas-disconnected.png)
 
 **[!UICONTROL Test]** 토글 및 **[!UICONTROL Publish]** 버튼 옆에 경고 기호가 표시될 수 있습니다. 이 경고 표시는 시스템에서 감지된 오류를 표시하며 테스트 모드가 활성화되거나 여정이 게시되는 것을 방지합니다. 대부분의 경우 시스템에서 감지된 오류는 활동에서 확인할 수 있는 오류와 연결되어 있지만, 때로는 다른 문제와 연결되어 있습니다. 그럴 경우에는 오류를 표시하고 오류 설명을 통해 문제를 파악할 수 있습니다. 문제를 파악할 수 없는 경우 세부 정보를 복사하여 관리자나 지원 팀에 보낼 수 있습니다. 테스트를 차단하는 오류와 게시를 차단하는 오류는 비슷합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 81%
 
 **[!UICONTROL Test]** 토글 및 **[!UICONTROL Publish]** 버튼 옆의 기호에 두 가지 색상이 표시될 수 있습니다. 오류의 경우 기호가 빨간색으로 표시됩니다. 경고의 경우 주황색으로 표시됩니다.
 
-![](../assets/journey75.png)
+![](assets/journey75.png)
 
 여정에서 전체적으로 발생하는 오류와 경고가 목록에 먼저 나타납니다. 특정 활동과 관련된 오류와 경고는 그 뒤에 활동 순서별로 또는 여정 내 등장 순서별로 왼쪽에서 오른쪽으로 나열됩니다. **[!UICONTROL Copy details]** 버튼은 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정 관련 기술 정보를 복사합니다.
 
