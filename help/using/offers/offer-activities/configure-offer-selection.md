@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 5%
@@ -20,13 +20,13 @@ ht-degree: 5%
 * 등급 공식
 * [AI 순위](#use-ranking-strategy) (일부 사용자에게만 얼리 액세스 시)
 
-![](../../assets/offer-rank-by.png)
+![](../assets/offer-rank-by.png)
 
 ## 오퍼 우선 순위 {#offer-priority}
 
 기본적으로 여러 오퍼가 결정에서 주어진 배치에 적격인 경우 오퍼가 가장 높은 오퍼입니다 **우선순위** 은 고객에게 먼저 전달됩니다.
 
-![](../../assets/offer-priority.png)
+![](../assets/offer-priority.png)
 
 오퍼를 만들 때 오퍼의 우선순위 점수가 지정됩니다. 에서 개인화된 오퍼를 만드는 방법을 알아봅니다 [이 섹션](../offer-library/creating-personalized-offers.md).
 
@@ -48,11 +48,11 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 공식**. 오
 
 1. 선택 **[!UICONTROL Ranking formula]** 를 순위 지정 메서드로 설정한 다음 **[!UICONTROL Add ranking]**.
 
-   ![](../../assets/offer-activity-ranking.png)
+   ![](../assets/offer-activity-ranking.png)
 
 1. 원하는 등급 공식을 선택하고 을 클릭합니다 **[!UICONTROL Select]**.
 
-   ![](../../assets/ranking-selection.png)
+   ![](../assets/ranking-selection.png)
 
 이제 등급 공식이 배치와 연결됩니다.
 
@@ -78,11 +78,11 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 공식**. 오
 
 1. 오퍼의 등급을 매기도록 선택합니다 **[!UICONTROL AI ranking]** 드롭다운 목록에서 **[!UICONTROL Add ranking]**.
 
-   ![](../../assets/ranking-selection-ai-ranking.png)
+   ![](../assets/ranking-selection-ai-ranking.png)
 
 1. 생성한 등급 전략을 선택합니다. 순위 전략의 모든 세부 사항이 표시됩니다.
 
-   ![](../../assets/ranking-selection-ai-ranking-selected.png)
+   ![](../assets/ranking-selection-ai-ranking-selected.png)
 
 1. **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다. 이제 등급 전략이 배치와 연결됩니다.
 
