@@ -3,7 +3,7 @@ title: 마케터를 위한 Journey Optimizer 시작하기
 description: 여정 실습자는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 7%
@@ -22,17 +22,17 @@ ht-degree: 7%
 
 1. **메시지 만들기**. Journey Optimizer에서 이메일 및 푸시 알림을 만드는 방법을 알아봅니다 [이 페이지에서](../../messages/create-message.md).
 
-   ![](../../assets/email_designer_7.png)
+   ![](../assets/email_designer_7.png)
 
 1. **개인화 추가**. Journey Optimizer 개인화 기능을 활용하여 메시지를 대상에 맞게 조정하십시오. 개인화에 대해 자세히 알아보기 [이 섹션](../../personalization/personalize.md).
 
-   ![](../../personalization/assets/perso_ee2.png)
+   ![](../assets/perso_ee2.png)
 
 1. **자산 만들기 및 관리**. [!DNL Adobe Experience Manager Assets Essentials] 는 메시지를 채우는 데 사용할 수 있는 중앙 집중식 단일 자산 저장소를 제공합니다. 추가 정보 [이 섹션](../../messages/assets-essentials.md).
 
 1. **오퍼 추가**. [!DNL Journey Optimizer]을(를) 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 오퍼 및 경험을 제공하십시오. 디자인한 후에는 개인화된 오퍼를 통해 대상을 타기팅하십시오. Decisioning 관리에 대해 자세히 알아보기 [이 섹션](../../offers/get-started/starting-offer-decisioning.md).
 
-   ![](../../assets/offers-e2e-offers-displayed.png)
+   ![](../assets/offers-e2e-offers-displayed.png)
 
 1. **메시지 테스트 및 유효성 검사**. 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. 삽입한 경우 [개인화된 콘텐츠](../../personalization/personalize.md)를 입력하면 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다. 또한 **리트머스** 계정 [!DNL Journey Optimizer] 즉시 미리 보려면 **전자 메일 렌더링** 인기 있는 이메일 클라이언트에서 그런 다음 모든 받은 편지함에서 전자 메일 콘텐츠가 제대로 표시되고 제대로 작동하는지 확인할 수 있습니다. 메시지 테스트 및 유효성 검사 방법을 알아봅니다 [이 섹션](../../messages/preview.md).
 
@@ -46,7 +46,7 @@ ht-degree: 7%
 
    * 사용 **여정 디자이너**, 여러 단계 사용 사례를 빌드합니다. 시작 이벤트 또는 세그먼트 읽기 활동을 쉽게 끌어다 놓고 조건을 추가하고 개인화된 메시지를 보냅니다.
 
-   ![](../../assets/copy-paste3.png)
+   ![](../assets/copy-paste3.png)
 
    여정을 디자인하고 실행하는 방법을 알아봅니다 [이 섹션](../../building-journeys/journey-gs.md)
 
