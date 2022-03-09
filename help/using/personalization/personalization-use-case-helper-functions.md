@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -42,24 +42,24 @@ ht-degree: 3%
 ## 1단계: 이메일 만들기{#configure-email}
 
 1. 이메일 메시지를 만들거나 수정한 다음 를 클릭합니다. **[!UICONTROL Email Designer]**.
-   ![](../assets/personalization-uc-helpers-1.png)
+   ![](assets/personalization-uc-helpers-1.png)
 
 1. 전자 메일 디자이너 홈 페이지의 왼쪽 팔레트에서 3개의 구조 구성 요소를 메시지 본문에 끌어다 놓습니다.
 
 1. 각 새 구조 구성 요소에 HTML 컨텐츠 구성 요소를 끌어다 놓습니다.
 
-   ![](../assets/personalization-uc-helpers-2.png)
+   ![](assets/personalization-uc-helpers-2.png)
 
 ## 2단계: 고객의 이름을 대문자로 삽입합니다. {#uppercase-function}
 
 1. 이메일 디자이너 홈페이지에서 고객의 이름을 추가할 HTML 구성 요소를 클릭합니다.
 1. 상황별 도구 모음에서 **[!UICONTROL Show the source code]**.
 
-   ![](../assets/personalization-uc-helpers-3.png)
+   ![](assets/personalization-uc-helpers-3.png)
 
 1. 에서 **[!UICONTROL Edit HTML]** 창에서 `upperCase` 문자열 함수:
-   1. 목록에서 **[!UICONTROL Helper functions]**.
-   1. 검색 필드를 사용하여 &quot;대문자&quot;를 찾습니다.
+   1. 왼쪽 메뉴에서 **[!UICONTROL Helper functions]**.
+   1. 검색 필드를 사용하여 &quot;상위 사례&quot;를 찾습니다.
    1. 검색 결과에서 을(를) 추가합니다. `upperCase` 함수 위에 있어야 합니다. 이렇게 하려면 옆에 있는 더하기(+) 기호를 클릭합니다 `{%= upperCase(string) %}: string`.
 
       표현식 편집기에 다음 표현식이 표시됩니다.
@@ -68,12 +68,12 @@ ht-degree: 3%
       {%= upperCase(string) %}
       ```
 
-      ![](../assets/personalization-uc-helpers-4.png)
+      ![](assets/personalization-uc-helpers-4.png)
 
 1. 표현식에서 &quot;string&quot; 자리 표시자를 제거합니다.
 1. 이름 토큰 추가:
-   1. 목록에서 **[!UICONTROL Profile]**.
-   1. 선택 **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. 왼쪽 메뉴에서 **[!UICONTROL Profile attributes]**.
+   1. 선택 **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    1. 추가 **[!UICONTROL First name]** 토큰으로 바꿉니다.
 
       표현식 편집기에 다음 표현식이 표시됩니다.
@@ -82,13 +82,13 @@ ht-degree: 3%
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![](../assets/personalization-uc-helpers-5.png)
+      ![](assets/personalization-uc-helpers-5.png)
 
-      개인 이름 데이터 유형에 대해 자세히 알아보기 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
+      의 개인 이름 데이터 유형에 대해 자세히 알아보십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 1. **[!UICONTROL Validate]**&#x200B;를 클릭한 다음 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
-   ![](../assets/personalization-uc-helpers-6.png)
+   ![](assets/personalization-uc-helpers-6.png)
 1. 메시지를 저장합니다.
 
 ## 3단계: 초기 이벤트 및 관련 여정 만들기 {#create-context}
@@ -106,27 +106,27 @@ ht-degree: 3%
 
    메시지를 아직 게시하지 않았으므로 여정을 테스트하거나 게시할 수 없습니다.
 
-   ![](../assets/personalization-uc-helpers-7.png)
+   ![](assets/personalization-uc-helpers-7.png)
 
 1. **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
    메시지에 여정 컨텍스트이 전달되었음을 알리는 메시지가 표시됩니다.
 
-   ![](../assets/personalization-uc-helpers-8.png)
+   ![](assets/personalization-uc-helpers-8.png)
 
 ## 4단계: 장바구니에서 항목 목록을 삽입합니다. {#each-helper}
 
 1. 메시지를 다시 엽니다.
 
-   ![](../assets/personalization-uc-helpers-18.png)
+   ![](assets/personalization-uc-helpers-18.png)
 
 1. 이메일 디자이너 홈페이지에서 장바구니 콘텐츠를 나열할 HTML 구성 요소를 클릭합니다.
 1. 상황별 도구 모음에서 **[!UICONTROL Show the source code]**.
 
-   ![](../assets/personalization-uc-helpers-3.png)
+   ![](assets/personalization-uc-helpers-3.png)
 
 1. 에서 **[!UICONTROL Edit HTML]** 창에서 `each` 도우미:
-   1. 목록에서 **[!UICONTROL Helper functions]**.
+   1. 왼쪽 메뉴에서 **[!UICONTROL Helper functions]**.
    1. 검색 필드를 사용하여 &quot;각&quot;을 찾습니다.
    1. 검색 결과에서 을(를) 추가합니다. `each` 도우미.
 
@@ -136,14 +136,14 @@ ht-degree: 3%
       {{#each someArray as |variable|}} {{/each}}
       ```
 
-      ![](../assets/personalization-uc-helpers-9.png)
+      ![](assets/personalization-uc-helpers-9.png)
 
 1. 추가 `productListItems` 배열에 있는 값:
 
    1. 표현식에서 &quot;someArray&quot; 자리 표시자를 제거합니다.
-   1. 목록에서 **[!UICONTROL Context]**.
+   1. 왼쪽 메뉴에서 **[!UICONTROL Contextual attributes]**.
 
-      다음 **[!UICONTROL Context]** 옵션이 메시지에 전달되어야 여정 컨텍스트를 사용할 수 있습니다.
+      **[!UICONTROL Contextual attributes]** 여정 컨텍스트이 메시지에 전달된 후에만 사용할 수 있습니다.
 
    1. 선택 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** 다음 **[!UICONTROL productListItems]** 노드 아래에 있어야 합니다.
 
@@ -158,7 +158,7 @@ ht-degree: 3%
       ```
       이 예제에서는 *event_ID* 은 이벤트의 ID를 나타냅니다.
 
-      ![](../assets/personalization-uc-helpers-10.png)
+      ![](assets/personalization-uc-helpers-10.png)
 
    1. 표현식을 수정합니다.
       1. &quot;.product&quot; 문자열을 제거합니다.
@@ -208,17 +208,17 @@ ht-degree: 3%
    {{/each}}
    ```
 1. **[!UICONTROL Validate]**&#x200B;를 클릭한 다음 **[!UICONTROL Save]**을 클릭합니다.
-   ![](../assets/personalization-uc-helpers-11.png)
+   ![](assets/personalization-uc-helpers-11.png)
 
 ## 5단계: 제품별 메모 삽입 {#if-helper}
 
 1. 전자 메일 디자이너 홈페이지에서 메모를 삽입할 HTML 구성 요소를 클릭합니다.
 1. 상황별 도구 모음에서 **[!UICONTROL Show the source code]**.
 
-   ![](../assets/personalization-uc-helpers-3.png)
+   ![](assets/personalization-uc-helpers-3.png)
 
 1. 에서 **[!UICONTROL Edit HTML]** 창에서 `if` 도우미:
-   1. 목록에서 **[!UICONTROL Helper functions]**.
+   1. 왼쪽 메뉴에서 **[!UICONTROL Helper functions]**.
    1. 검색 필드를 사용하여 &quot;if&quot;를 찾습니다.
    1. 검색 결과에서 을(를) 추가합니다. `if` 도우미.
 
@@ -230,7 +230,7 @@ ht-degree: 3%
          {%else%} default_render
       {%/if%}
       ```
-      ![](../assets/personalization-uc-helpers-12.png)
+      ![](assets/personalization-uc-helpers-12.png)
 
 1. 표현식에서 이 조건을 제거합니다.
 
@@ -248,7 +248,7 @@ ht-degree: 3%
 
 1. 조건에 제품 이름 토큰을 추가합니다.
    1. 표현식에서 &quot;condition1&quot; 자리 표시자를 제거합니다.
-   1. 목록에서 **[!UICONTROL Context]**.
+   1. 왼쪽 메뉴에서 **[!UICONTROL Contextual attributes]**.
    1. 선택 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** 다음 **[!UICONTROL productListItems]** 노드 아래에 있어야 합니다.
 
       이 예제에서는 *event_name* 은 이벤트 이름을 나타냅니다.
@@ -263,7 +263,7 @@ ht-degree: 3%
          {%else%} default_render
       {%/if%}
       ```
-      ![](../assets/personalization-uc-helpers-13.png)
+      ![](assets/personalization-uc-helpers-13.png)
 
 1. 표현식을 수정합니다.
    1. 표현식 편집기에서 뒤에 제품 이름을 지정합니다. `name` 토큰.
@@ -296,7 +296,7 @@ ht-degree: 3%
    1. 표현식에서 &quot;default_render&quot; 자리 표시자를 제거합니다.
 1. **[!UICONTROL Validate]**&#x200B;를 클릭한 다음 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
-   ![](../assets/personalization-uc-helpers-14.png)
+   ![](assets/personalization-uc-helpers-14.png)
 
 1. 메시지를 저장하고 게시합니다.
 
@@ -307,19 +307,19 @@ ht-degree: 3%
 
    메시지를 게시한 후에만 테스트 모드를 설정할 수 있습니다.
 
-   ![](../assets/personalization-uc-helpers-15.png)
+   ![](assets/personalization-uc-helpers-15.png)
 
 1. 에서 **[!UICONTROL Event configuration]** 창을 열고 입력 값을 입력한 다음 **[!UICONTROL Send]**.
 
    테스트 모드는 테스트 프로필에서만 작동합니다.
 
-   ![](../assets/personalization-uc-helpers-16.png)
+   ![](assets/personalization-uc-helpers-16.png)
 
    테스트 프로필의 주소로 이메일이 전송됩니다.
 
    Juno Jacket에 대한 메모가 이 제품이 장바구니에 있으므로 이 이메일에 포함됩니다.
 
-   ![](../assets/personalization-uc-helpers-17.png)
+   ![](assets/personalization-uc-helpers-17.png)
 
 1. 오류가 없는지 확인한 다음 여정을 게시합니다.
 
