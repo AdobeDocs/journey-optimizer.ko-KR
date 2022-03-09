@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
-source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 15%
+source-wordcount: '146'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 15%
 | 매개 변수 | 유형 |
 |-----------|--------------|
 | 기본 | string |
-| target | string |
+| target | 문자열(RegExp) |
 | 교체 | string |
 
 ## 서명 및 반환된 형식
@@ -41,8 +41,28 @@ ht-degree: 15%
 
 문자열을 반환합니다.
 
-## 예
+## 예제 1
 
 `replace("Hello World", "l", "x")`
 
 &quot;Hexlo World&quot;를 반환합니다.
+
+## 예제 2 {#example_2}
+
+target 매개 변수는 RegExp이므로 바꿀 문자열에 따라 일부 문자를 이스케이프 처리해야 할 수 있습니다. 다음은 한 예입니다.
+
+* 평가할 문자열: `|OFFER_A|OFFER_B`
+* 프로필 속성으로 제공 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
+* 바꿀 문자열: `|OFFER_A`
+* 다음으로 대체된 문자열: `''`
+* 을(를) 추가해야 합니다 `\\` 이전 `|` 문자.
+
+표현식은 다음과 같습니다.
+
+`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
+
+반환된 문자열은 다음과 같습니다. `|OFFER_B`
+
+지정된 속성에서 대체할 문자열을 작성할 수도 있습니다.
+
+`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`
