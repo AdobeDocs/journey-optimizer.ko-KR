@@ -5,21 +5,15 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '955'
+ht-degree: 2%
 
 ---
 
 # 랜딩 페이지 만들기 및 게시 {#create-lp}
-
->[!CAUTION]
->
->현재 랜딩 페이지를 사용하면 사용자를 선택하기 위해 얼리 액세스에서 사용할 수 있습니다. 이 기능을 활용하려면 Adobe 계정 담당자에게 문의하십시오.
 
 ## 랜딩 페이지에 액세스 {#access-landing-pages}
 
@@ -30,6 +24,22 @@ ht-degree: 3%
 다음 **[!UICONTROL Landing Pages]** 목록에는 생성된 모든 항목이 표시됩니다. 상태 또는 수정 날짜에 따라 필터링할 수 있습니다.
 
 ![](assets/lp_access-list-filter.png)
+
+이 목록에서 [랜딩 페이지 보고서](lp-report.md) 게시된 항목에 대해 설명합니다.
+
+랜딩 페이지를 삭제, 복제 및 게시 취소할 수도 있습니다.
+
+>[!CAUTION]
+>
+>게시되지 않은 메시지에서 참조되는 랜딩 페이지의 게시를 취소하는 경우 랜딩 페이지가 다시 게시될 때까지 메시지를 게시할 수 없습니다. 메시지가 이미 게시되어 있으면 랜딩 페이지에 대한 링크가 끊기고 오류 페이지가 표시됩니다.
+
+랜딩 페이지 옆에 있는 세 점을 클릭하여 원하는 작업을 선택합니다.
+
+![](assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>게시된 랜딩 페이지는 삭제할 수 없습니다. 삭제하려면 먼저 게시를 취소해야 합니다.
 
 ## 랜딩 페이지 만들기 {#create-landing-page}
 
@@ -43,13 +53,9 @@ ht-degree: 3%
 
    ![](assets/lp_create-lp-details.png)
 
-1. 사전 설정을 선택합니다.
+1. 사전 설정을 선택합니다. 에서 랜딩 페이지 사전 설정을 만드는 방법을 알아봅니다. [이 섹션](../configuration/lp-configuration.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
-
-   >[!NOTE]
-   >
-   >랜딩 페이지 사전 설정을 정의하려면 Adobe 계정 담당자 또는 [Adobe 고객 지원 지원 팀](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
@@ -75,7 +81,7 @@ ht-degree: 3%
 
    ![](assets/lp_open-designer.png)
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에는 도메인 위임을 수행해야 합니다. 미리 채워져 있으며 사용자 인터페이스를 통해 편집할 수 없습니다. 설정하려면 Adobe 계정 담당자 또는 [Adobe 고객 지원 지원 팀](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 알아보기](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -113,7 +119,7 @@ ht-degree: 3%
 
 1. 콘텐츠 디자이너를 사용하여 페이지의 콘텐츠를 편집합니다. 랜딩 페이지 컨텐츠를 정의하는 방법을 알아봅니다 [여기](design-lp.md).
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에는 도메인 위임을 수행해야 합니다. 미리 채워져 있으며 사용자 인터페이스를 통해 편집할 수 없습니다. 설정하려면 Adobe 계정 담당자 또는 [Adobe 고객 지원 지원 팀](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에는 도메인 위임을 수행해야 합니다. 미리 채워져 있으며 사용자 인터페이스를 통해 편집할 수 없습니다. 설정하려면 Adobe 계정 담당자 또는 [Adobe 고객 지원 지원 팀](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
