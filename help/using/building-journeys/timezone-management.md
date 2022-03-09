@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 이렇게 하려면 **[!UICONTROL Journey Properties]** 창에서 시간대를 선택합니다.
 
-![](../assets/journey72.png)
+![](assets/journey72.png)
 
 ## 프로필을 사용하여 여정 시간대 정의 {#timezone-from-profiles}
 
@@ -50,7 +50,7 @@ Adobe Experience Platform 프로필에 시간대가 정의된 경우 여정에�
 
 이렇게 하려면 다음을 수행합니다. **[!UICONTROL Properties]**, check **[!UICONTROL Use Profile timezone in waits and conditions]**.
 
-![](../assets/journey73.png)
+![](assets/journey73.png)
 
 ## 표현식에서 시간대 사용 {#timezone-in-expressions}
 
