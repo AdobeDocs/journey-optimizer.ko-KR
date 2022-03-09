@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 이 기능에 액세스하려면 **[!UICONTROL Simulation]** 탭에서 **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-![](../../assets/offers_simulation-tab.png)
+![](../assets/offers_simulation-tab.png)
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL Manage profile]**&#x200B;을(를) 클릭합니다.
 
-   ![](../../assets/offers_simulation-manage-profile.png)
+   ![](../assets/offers_simulation-manage-profile.png)
 
 1. 테스트 프로필을 식별하는 데 사용할 ID 네임스페이스를 선택합니다. 이 예제에서는 **이메일** 네임스페이스.
 
@@ -51,15 +51,15 @@ ht-degree: 1%
 
 1. ID 값을 입력하고 를 클릭합니다. **[!UICONTROL View]** 사용 가능한 프로필을 나열하려면 다음을 수행하십시오.
 
-   ![](../../assets/offers_simulation-add-profile.png)
+   ![](../assets/offers_simulation-add-profile.png)
 
 1. 다른 프로필 데이터를 테스트하려는 경우 다른 프로필을 추가하고 선택 항목을 저장합니다.
 
-   ![](../../assets/offers_simulation-save-profiles.png)
+   ![](../assets/offers_simulation-save-profiles.png)
 
 1. 추가한 모든 프로필은 아래의 드롭다운 목록에 나열됩니다 **[!UICONTROL Test profile]**. 저장된 테스트 프로필 간을 전환하여 선택한 각 프로필에 대한 결과를 표시할 수 있습니다.
 
-   ![](../../assets/offers_simulation-saved-profiles.png)
+   ![](../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
@@ -75,11 +75,11 @@ ht-degree: 1%
 
 1. **[!UICONTROL Add decision scope]**&#x200B;를 선택합니다.
 
-   ![](../../assets/offers_simulation-add-decision.png)
+   ![](../assets/offers_simulation-add-decision.png)
 
 1. 목록에서 배치를 선택합니다.
 
-   ![](../../assets/offers_simulation-add-decision-scope.png)
+   ![](../assets/offers_simulation-add-decision-scope.png)
 
 1. 사용 가능한 결정이 표시됩니다.
 
@@ -88,13 +88,13 @@ ht-degree: 1%
 
    원하는 결정을 선택하고 을(를) 클릭합니다 **[!UICONTROL Add]**.
 
-   ![](../../assets/offers_simulation-add-decision-scope-add.png)
+   ![](../assets/offers_simulation-add-decision-scope-add.png)
 
 1. 방금 정의한 결정 범위가 기본 작업 공간에 표시됩니다.
 
    요청하려는 오퍼 수를 조정할 수 있습니다. 예를 들어 2를 선택하면 이 결정 범위에 대해 가장 적합한 2개의 오퍼가 표시됩니다.
 
-   ![](../../assets/offers_simulation-request-offer.png)
+   ![](../assets/offers_simulation-request-offer.png)
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ ht-degree: 1%
 
 1. 위의 단계를 반복하여 필요한 만큼 결정을 추가합니다.
 
-   ![](../../assets/offers_simulation-add-more-decisions.png)
+   ![](../assets/offers_simulation-add-more-decisions.png)
 
    >[!NOTE]
    >
@@ -114,11 +114,11 @@ ht-degree: 1%
 
 1. **[!UICONTROL Settings]**&#x200B;을(를) 클릭합니다.
 
-   ![](../../assets/offers_simulation-settings.png)
+   ![](../assets/offers_simulation-settings.png)
 
 1. 에서 **[!UICONTROL Deduplication]** 섹션에서 결정 및/또는 배치 간에 중복 오퍼를 허용하도록 선택할 수 있습니다. 즉, 여러 결정/배치에서 동일한 오퍼를 할당할 수 있습니다.
 
-   ![](../../assets/offers_simulation-settings-deduplication.png)
+   ![](../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 1. 에서 **[!UICONTROL Response format]** 섹션에서 코드 보기에 메타데이터를 포함하도록 선택할 수 있습니다. 해당 옵션을 선택하고 선택한 메타데이터를 선택합니다. 선택 시 요청 및 응답 페이로드에 표시됩니다 **[!UICONTROL View code]**. 자세한 내용은 [시뮬레이션 결과 보기](#simulation-results) 섹션을 참조하십시오.
 
-   ![](../../assets/offers_simulation-settings-response-format.png)
+   ![](../assets/offers_simulation-settings-response-format.png)
 
    >[!NOTE]
    >
@@ -158,13 +158,13 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 1. **[!UICONTROL View results]**&#x200B;을(를) 클릭합니다.
 
-   ![](../../assets/offers_simulation-view-results.png)
+   ![](../assets/offers_simulation-view-results.png)
 
 1. 사용 가능한 최상의 오퍼는 각 결정에 대해 선택한 프로필에 따라 표시됩니다.
 
    세부 사항을 표시할 오퍼를 선택합니다.
 
-   ![](../../assets/offers_simulation-offer-details.png)
+   ![](../assets/offers_simulation-offer-details.png)
 
 1. 클릭 **[!UICONTROL View code]** 요청 및 응답 페이로드를 표시합니다. [자세히 알아보기](#view-code)
 
@@ -180,19 +180,19 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 1. 를 사용하십시오 **[!UICONTROL View code]** 버튼을 클릭하여 요청 및 응답 페이로드를 표시합니다.
 
-   ![](../../assets/offers_simulation-view-code.png)
+   ![](../assets/offers_simulation-view-code.png)
 
    코드 보기에는 현재 사용자에 대한 개발자 정보가 표시됩니다. 기본적으로 **[!UICONTROL Response payload]** 이 표시됩니다.
 
-   ![](../../assets/offers_simulation-request-payload.png)
+   ![](../assets/offers_simulation-request-payload.png)
 
 1. 클릭 **[!UICONTROL Response payload]** 또는 **[!UICONTROL Request payload]** 두 탭 간을 탐색하려면
 
-   ![](../../assets/offers_simulation-response-payload.png)
+   ![](../assets/offers_simulation-response-payload.png)
 
 1. 요청 페이로드를 [!DNL Journey Optimizer] - 예를 들어 문제 해결 목적으로 다음을 사용하여 복사합니다. **[!UICONTROL Copy to clipboard]** 코드 보기의 맨 위에 있는 단추입니다.
 
-   ![](../../assets/offers_simulation-copy-payload.png)
+   ![](../assets/offers_simulation-copy-payload.png)
 
    <!--You cannot copy the response payload. ACTUALLY YES YOU CAN > to confirm with PM/dev? -->
 
