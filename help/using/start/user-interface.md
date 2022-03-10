@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
-source-wordcount: '1464'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -219,7 +219,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   <tr>
     <td rowspan="2">팝업 창</td>
     <td>변경 내용을 저장하거나 작업 확인</td>
-    <td>Enter 키</td>
+    <td>Enter</td>
   </tr>
   <tr>
     <td>창 닫기</td>
