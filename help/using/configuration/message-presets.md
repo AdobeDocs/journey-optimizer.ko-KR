@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 653a5483fbdeb7a0b78dadc55ec71663e3ff0247
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 1%
@@ -110,7 +110,7 @@ ht-degree: 1%
 
 사용자가 링크를 클릭한 위치와 이유를 식별하기 위해,  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** 섹션을 참조하십시오.
 
-정의한 매개 변수에 따라 UTM 코드가 메시지 콘텐츠에 포함된 URL 끝에 적용됩니다. 그런 다음 Adobe Analytics과 같은 웹 분석 도구에서 결과를 비교할 수 있습니다. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+정의한 매개 변수에 따라 UTM 코드가 메시지 콘텐츠에 포함된 URL 끝에 적용됩니다. 그런 다음 Google Analytics과 같은 웹 분석 도구에서 결과를 비교할 수 있습니다. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
 ![](assets/preset-url-tracking.png)
 
