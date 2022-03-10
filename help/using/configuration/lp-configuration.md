@@ -3,9 +3,10 @@ title: 랜딩 페이지 구성
 description: Journey Optimizer에서 랜딩 페이지를 만들고 사용하도록 환경을 구성하는 방법을 알아봅니다
 role: Admin
 level: Intermediate
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '804'
 ht-degree: 2%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 2%
 >title="랜딩 페이지 하위 도메인 설정"
 >abstract="하위 도메인을 선택하려면 이전에 하나 이상의 랜딩 페이지 하위 도메인을 구성했는지 확인합니다."
 
-다음을 수행할 수 있습니다. [랜딩 페이지 사전 설정 만들기](#lp-create-preset)를 채울 경우 랜딩 페이지에 사용할 하위 도메인을 설정해야 합니다.
+다음을 수행할 수 있습니다. [랜딩 페이지 사전 설정 만들기](#lp-create-preset): 랜딩 페이지에 사용할 하위 도메인을 설정해야 합니다.
 
 이미 Adobe에 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다. 하위 도메인을 에서 도메인으로 위임하는 방법에 대해 자세히 알아보십시오 [이 섹션](delegate-subdomain.md).
 
@@ -113,7 +114,7 @@ ht-degree: 2%
 
 ## 랜딩 페이지 사전 설정 정의 {#lp-define-preset}
 
-When [랜딩 페이지 만들기](../landing-pages/create-lp.md#create-a-lp)를 채울 수 있도록 랜딩 페이지를 만들고 이를 통해 활용할 수 있도록 랜딩 페이지 사전 설정을 선택해야 합니다 **[!DNL Journey Optimizer]**.
+When [랜딩 페이지 만들기](../landing-pages/create-lp.md#create-a-lp)을(를) 통해 랜딩 페이지를 작성하고 활용할 수 있으려면 랜딩 페이지 사전 설정을 선택해야 합니다 **[!DNL Journey Optimizer]**.
 
 ### 랜딩 페이지 사전 설정에 액세스 {#lp-presets}
 
