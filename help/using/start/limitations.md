@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80de53e62da5fc3b0543ee09327e11edd277b234
+source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 3%
 * 하나만 **양식** 구성 요소는 단일 기본 페이지에서 사용할 수 있습니다.
 * 다음 **양식** 구성 요소는 하위 페이지에서 사용할 수 없습니다.
 * 랜딩 페이지에 사전 헤더를 추가할 수 없습니다.
-
-<!--You cannot select the **Code your own** option when designing a landing primary page.-->
+* 을(를) 선택할 수 없습니다 **직접 코드 작성** 랜딩 기본 페이지를 디자인할 때 선택합니다.
 
 ## 여정 제한 사항 {#limitations-journeys}
 
