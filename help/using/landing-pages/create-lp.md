@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '920'
 ht-degree: 2%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 2%
 
 1. 콘텐츠 디자이너를 사용하여 페이지의 콘텐츠를 편집합니다. 랜딩 페이지 컨텐츠를 정의하는 방법을 알아봅니다 [여기](design-lp.md).
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에는 도메인 위임을 수행해야 합니다. 미리 채워져 있으며 사용자 인터페이스를 통해 편집할 수 없습니다. 설정하려면 Adobe 계정 담당자 또는 [Adobe 고객 지원 지원 팀](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 알아보기](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -161,7 +161,7 @@ ht-degree: 2%
 
 ## 경고 확인 {#check-alerts}
 
-랜딩 페이지를 만드는 동안 경고에서는 게시하기 전에 중요한 작업을 수행해야 할 때 알려줍니다.
+랜딩 페이지를 만드는 동안 경고를 사용하면 게시하기 전에 중요한 작업을 수행해야 할 때 표시됩니다.
 
 경고는 아래와 같이 화면 오른쪽 상단에 표시됩니다.
 
@@ -181,7 +181,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
-> 모든 문제를 해결해야 합니다. **오류** 게시하기 전에 경고를 표시합니다.
+> 모든 문제를 해결해야 합니다 **오류** 게시하기 전에 경고를 표시합니다.
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -195,7 +195,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
-> To be able to publish your message, you need to resolve all **error** alerts.
+> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## 랜딩 페이지 게시 {#publish-landing-page}
