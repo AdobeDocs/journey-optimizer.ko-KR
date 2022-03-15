@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 52%
+source-wordcount: '820'
+ht-degree: 56%
 
 ---
 
@@ -21,10 +21,6 @@ ht-degree: 52%
 >abstract="특정 사용자에게 연결되는 이벤트는 해당 사용자의 제품 구매, 상점 방문, 웹 사이트 종료와 같은 행동과 관련된 항목일 수도 있고 해당 사용자와 관련하여 발생하는 상황일 수도 있습니다. 사용자가 충성도 점수 10,000점을 달성하는 등의 경우를 예로 들 수 있습니다. [!DNL Journey Optimizer]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다."
 
 이벤트 구성에서는 [!DNL Journey Optimizer]이 이벤트로 수신할 정보를 정의할 수 있습니다. 여러 여정(여정의 다른 단계에서)를 사용할 수 있으며, 여러 이벤트에서 동일한 이벤트를 사용할 수 있습니다.
-
->[!NOTE]
->
->이벤트를 구성하는 방법에 대한 자세한 내용은 [튜토리얼](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
 >[!CAUTION]
 >
@@ -40,6 +36,8 @@ ht-degree: 52%
 >[!NOTE]
 >
 >초안 또는 라이브 여정에서 사용되는 이벤트를 편집할 때는 이름, 설명 또는 페이로드 필드만 변경할 수 있습니다. 여정 손상 방지를 위해 초안 또는 라이브 여정 편집은 엄격히 제한됩니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 이벤트 ID 유형{#event-id-type}
 
@@ -66,3 +64,13 @@ POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 A
 스트리밍 수집 API를 통과하여 대상에 도착한 이벤트는 파이프라인이라는 내부 서비스로 이동한 후 Adobe Experience Platform으로 이동합니다. 이벤트 스키마에 실시간 고객 프로필 서비스 플래그가 설정되어 있고, 역시 실시간 고객 프로필 태그가 설정된 데이터 세트 ID도 포함되어 있으면 이벤트는 실시간 고객 프로필 서비스로 이동합니다.
 
 시스템 생성 이벤트의 경우 파이프라인은 페이로드가 포함된 이벤트를 필터링합니다 [!DNL Journey Optimizer] eventIDs (에서 제공한 아래 이벤트 생성 프로세스 참조) [!DNL Journey Optimizer] 및 가 이벤트 페이로드에 포함되어 있습니다. 규칙 기반 이벤트의 경우, 시스템은 eventID 조건을 사용하여 이벤트를 식별합니다. [!DNL Journey Optimizer]에서 이러한 이벤트를 수신하면 해당하는 경로가 트리거됩니다.
+
+## 방법 비디오 {#video}
+
+이벤트를 구성하고 이벤트에 대한 스트리밍 끝점 및 페이로드를 지정하는 방법에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+
+비즈니스 이벤트의 사용 사례를 이해합니다. 비즈니스 이벤트를 사용하여 여정을 작성하는 방법과 상황에 따라 적합한 모범 사례를 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
