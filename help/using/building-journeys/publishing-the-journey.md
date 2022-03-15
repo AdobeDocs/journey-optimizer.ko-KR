@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 6%
+source-wordcount: '189'
+ht-degree: 8%
 
 ---
 
 # 여정 게시{#publishing-the-journey}
 
 여정의 유효성을 테스트한 후 게시할 수 있습니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 게시된 여정을 수정해야 하는 경우, 여정의 새 버전을 만들어야 합니다. [이 페이지](../building-journeys/journey-versions.md)를 참조하십시오. 여정이 읽기 전용인 경우 활동 레이블 및 설명, 여정 이름 및 여정 설명만 수정할 수 있습니다.
 
@@ -27,3 +29,9 @@ ht-degree: 6%
    ![](assets/journeyuc1_18.png)
 
 여정이 게시되면 읽기 전용 모드로 전환됩니다.
+
+## 방법 비디오 {#video}
+
+여정 게시 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334238?quality=12)
