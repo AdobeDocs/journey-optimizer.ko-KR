@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 6%
+source-wordcount: '617'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 이 개발자 가이드는 를 사용하는 데 도움이 되는 단계를 제공합니다. [!DNL Offer Library] API. 그러면 안내서에서는 결정 관리 엔진을 사용하여 주요 작업을 수행하기 위한 샘플 API 호출을 제공합니다.
 
-➡️ [비디오에서 이 기능 살펴보기](#video)
+➡️ [이 비디오에서 결정 관리의 구성 요소에 대해 자세히 알아보십시오](#video)
 
 ## 전제 조건 {#prerequisites}
 
@@ -128,12 +128,12 @@ curl -X GET \
 
 이 문서는 [!DNL Offer Library] 컨테이너 ID 획득을 포함한 API. 이제 이 개발자 가이드에 제공된 샘플 호출을 진행하여 지침을 따라 수행할 수 있습니다.
 
-## 튜토리얼 비디오 {#video}
+## 방법 비디오 {#video}
 
 다음 비디오는 의사 결정 관리의 구성 요소를 이해할 수 있도록 하기 위한 것입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
 
 >[!NOTE]
 >
 >이 비디오는 Adobe Experience Platform을 기반으로 하는 Offer decisioning 애플리케이션 서비스에 적용됩니다. 그러나 Journey Optimizer 컨텍스트에서 오퍼를 사용하는 일반적인 지침을 제공합니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
