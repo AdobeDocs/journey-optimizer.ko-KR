@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer에서 Adobe Experience Platform 데이터 �
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '261'
 ht-degree: 26%
 
 ---
@@ -19,7 +19,7 @@ Adobe Experience Platform에 수집된 모든 데이터는 데이터 세트로 �
 
 Adobe Experience Platform에 데이터를 추가하는 것은 프로필 작성의 기반입니다. 그러면 에서 프로필을 활용할 수 있습니다 [!DNL Adobe Journey Optimizer]. 먼저 스키마를 정의하고 ETL 도구를 사용하여 데이터를 준비하고 표준화한 다음 스키마를 기반으로 데이터 세트를 만듭니다.
 
-➡️ [데이터 세트를 만들고 구성하는 방법을 알아봅니다](#video-dataset) (비디오)
+➡️ [이 비디오에서 데이터 세트를 만들고 구성하는 방법을 알아봅니다](#video-dataset)
 
 다음 **데이터 세트** 작업 영역 [!DNL Adobe Journey Optimizer] 사용자 인터페이스를 통해 데이터를 탐색하고 데이터 세트를 만들 수 있습니다.
 
