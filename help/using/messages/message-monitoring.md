@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 1%
 
 ---
 
 # 메시지 모니터링 {#monitor-message-execution}
 
 메시지가 성공적으로 실행, 전송 및 전달되는지 확인하려면, [!DNL Journey Optimizer] 은 현재 게시되고 트리거된 메시지를 모니터링하는 기능을 제공합니다. 여정 간에 메시지가 어떻게 작동하는지 확인할 수 있습니다 <!--and APIs--> 실시간으로 **[!UICONTROL Executions]** 목록.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 이 목록에 액세스하려면 **[!DNL Journey Optimizer]** 홈 페이지, 선택 **[!UICONTROL Messages]**&#x200B;를 클릭하고 를 클릭한 다음 **[!UICONTROL Executions]** 탭.
 
@@ -93,3 +95,9 @@ in **전역 보기** 데이터만 숫자, 백분율 또는 둘 다로 표시할 
 ![](assets/message-execution-data-format.png)
 
 각 하이퍼링크를 클릭하면 해당 메시지 요약 보기가 열립니다. [메시지에 대해 자세히 알아보기](create-message.md).
+
+## 방법 비디오 {#video}
+
+라이브 및 글로벌 보고서, 여정 및 메시지 관련 보고서에 액세스하고 분석하는 방법, 보고서 대시보드를 수정하는 방법에 대해 자세히 알아보십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334108?quality=12)
