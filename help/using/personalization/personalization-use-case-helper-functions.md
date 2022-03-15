@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1040'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 3%
 * 다음 `if` helper를 사용하여 관련 제품이 장바구니에 있는 경우 제품별 메모를 삽입합니다. [자세히 알아보기](functions/helpers.md#if-function).
 
 <!-- **Context**: personalization based on contextual data from the journey -->
+
+➡️ [이 비디오에서 도우미 기능을 사용하는 방법을 알아봅니다](#video)
 
 시작하기 전에 다음 요소를 구성하는 방법을 알고 있어야 합니다.
 * 이메일 메시지. [자세히 알아보기](../messages/create-message.md)
@@ -338,6 +340,8 @@ ht-degree: 3%
 
 * [의사 결정 기반 오퍼를 사용한 개인화](../offers/offers-e2e.md)
 
-## 튜토리얼 비디오{#helper-functions-video}
+## 방법 비디오{#video}
+
+도우미 함수를 사용하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
