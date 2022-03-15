@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 1%
+source-wordcount: '1247'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 결정(이전에 오퍼 활동이라고 함)은 게재 대상에 따라 게재할 최상의 오퍼를 선택하기 위해 오퍼 결정 엔진을 활용하는 오퍼용 컨테이너입니다.
 
-➡️ [비디오에서 이 기능 살펴보기](#video)
+➡️ [이 비디오에서 오퍼 활동을 만드는 방법을 알아봅니다](#video)
 
 결정 목록은 **[!UICONTROL Offers]** 메뉴 > **[!UICONTROL Decisions]** 탭. 필터를 사용하여 상태 또는 시작 날짜와 종료 날짜에 따라 결정을 검색할 수 있습니다.
 
@@ -221,10 +221,12 @@ ht-degree: 1%
 
 ![](../assets/decision_information.png)
 
-## 튜토리얼 비디오 {#video}
+## 방법 비디오{#video}
+
+Offer Decisioning에서 오퍼 활동을 만드는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 >[!NOTE]
 >
 >이 비디오는 Adobe Experience Platform을 기반으로 하는 Offer decisioning 애플리케이션 서비스에 적용됩니다. 그러나 Journey Optimizer 컨텍스트에서 오퍼를 사용하는 일반적인 지침을 제공합니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
