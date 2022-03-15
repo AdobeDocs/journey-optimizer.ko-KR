@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '908'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 * 워크플로우 개선: 마케팅 팀은 게재 또는 캠페인을 여러 개 만드는 대신 하나의 게재를 만들어 워크플로우를 개선하고 템플릿의 여러 부분에서 오퍼에 변화를 줄 수 있습니다,
 * 캠페인 및 고객 측면에 표시될 오퍼 횟수를 제어합니다.
 
-➡️ [의사 결정 관리]에 대한 자세한 내용은 [튜토리얼 비디오를 참조](#tutorial-videos)하세요.
+➡️ [이 비디오에서 의사 결정 관리에 대해 자세히 알아보십시오](#video)
 
 ## 오퍼 및 의사 결정 정보 {#about-offers-and-decisions}
 
@@ -102,8 +102,7 @@ offer decisioning 기능의 액세스 및 사용 권한은 [Adobe Admin Console]
 
 * **표시**: 표시란 오퍼를 표시하는 데 사용되는 위치 또는 언어와 같은 채널에서 사용하는 정보입니다.
 
-
-## 튜토리얼 비디오 {#tutorial-videos}
+## 방법 비디오{#video}
 
 >[!NOTE]
 >
@@ -120,3 +119,5 @@ offer decisioning 기능의 액세스 및 사용 권한은 [Adobe Admin Console]
 아래 비디오에서는 의사 결정 관리를 사용하여 오퍼를 정의 및 관리하고 실시간 고객 데이터를 활용하는 방법을 보여 줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+
+
