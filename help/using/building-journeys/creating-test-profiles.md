@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1334'
 ht-degree: 3%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 3%
 기존 데이터 세트에 json 파일을 업로드할 수도 있습니다. 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}.
 
 테스트 프로필을 만드는 것은 Adobe Experience Platform에서 일반 프로필을 만드는 것과 비슷합니다. 자세한 내용은 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target=&quot;_blank&quot;}.
+
+➡️ [이 비디오에서 테스트 프로필을 만드는 방법을 알아봅니다](#video)
 
 ## 전제 조건 {#test-profile-prerequisites}
 
@@ -227,3 +229,8 @@ curl -X POST \
 }
 }'
 ```
+## 방법 비디오 {#video}
+
+테스트 프로필을 만드는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
