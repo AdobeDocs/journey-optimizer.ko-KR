@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '314'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 5%
 # 세그먼트 작성 {#build-segments}
 
 이 예에서는 1980년 이후에 태어난 Atlanta, San Francisco 또는 Seattle에 거주하는 모든 고객을 타겟팅하는 세그먼트를 만듭니다. 이 모든 고객은 지난 7일 이내에 Luma 애플리케이션을 연 다음 애플리케이션을 연 후 2시간 내에 구매했어야 합니다.
+
+➡️ [이 비디오에서 세그먼트를 만드는 방법을 알아봅니다](#video-segment)
 
 1. 액세스 권한 **[!UICONTROL Segments]** 메뉴를 클릭한 다음 **[!UICONTROL Create segment]** 버튼을 클릭합니다.
 
@@ -55,6 +57,8 @@ ht-degree: 5%
 
 이제 여정에서 세그먼트를 사용할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../segment/about-segments.md)을 참조하십시오.
 
-## 튜토리얼 비디오{#create-segment-video}
+## 방법 비디오{#video-segment}
+
+세그먼트를 만드는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)
