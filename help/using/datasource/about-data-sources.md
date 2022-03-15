@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 72%
+source-wordcount: '312'
+ht-degree: 74%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 72%
 * [사용자 지정 대기 정의](../building-journeys/wait-activity.md#custom)
 * [시간대 정의](../building-journeys/timezone-management.md)
 
+➡️ [비디오에서 이 기능 살펴보기](#video)
+
 여정이 이벤트 페이로드에서 전송되는 로컬 데이터만 활용하는 경우에는 이 구성을 수행하지 않아도 됩니다. 예를 들어 여정에 이벤트, 그리고 해당 이벤트의 데이터만 사용하는 메시지 활동이 차례로 포함되어 있으면 데이터 소스를 구성할 필요가 없습니다.
 
 데이터 소스에는 다음의 두 가지 유형이 있습니다.
@@ -41,3 +43,10 @@ ht-degree: 72%
 >이제 데이터 소스에 대해 스키마 관계가 지원됩니다.
 
 Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 화면에서 확인하십시오 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}.
+
+## 방법 비디오 {#video}
+
+데이터 소스의 정의를 이해하고 Experience Platform 및 외부 데이터 소스를 구성하는 방법에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
+
