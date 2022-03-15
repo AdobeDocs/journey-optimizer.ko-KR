@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 9%
+source-wordcount: '366'
+ht-degree: 16%
 
 ---
 
 # 이메일 콘텐츠 가져오기 또는 코드 작성 {#existing-content}
 
 Journey Optimizer을 사용하면 기존 HTML 콘텐츠를 가져와서 전자 메일을 디자인할 수 있습니다. 이 컨텐츠는 기존 HTML 파일 또는 zip 폴더의 원시 HTML 코드나 컨텐츠일 수 있습니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 HTML 콘텐츠를 코딩하거나 기존 콘텐츠를 가져오려면 아래 단계를 수행하십시오.
 
@@ -79,3 +81,9 @@ HTML 컨텐츠가 포함된 파일을 가져오려면 아래 단계를 수행하
 1. HTML 컨텐츠가 업로드되면 이메일 디자이너 기능을 활용하여 이메일을 편집하고 미리 볼 수 있습니다. [이 섹션에서 자세한 내용을 살펴보십시오](create-email-content.md).
 
    ![](assets/html-imported.png)
+
+## 방법 비디오 {#video}
+
+기존 HTML 콘텐츠를 가져오고, 디자인을 수정하고, 미러 페이지와 구독 취소 링크를 추가하고, 콘텐츠를 코딩하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
