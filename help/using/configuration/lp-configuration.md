@@ -4,9 +4,9 @@ description: Journey Optimizer에서 랜딩 페이지를 만들고 사용하도�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8c7239aa399f5e172762c9d93d9c03832501adb0
+source-git-commit: 2cee54221871979bb1ae2c8b7990debe1c80ce67
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="랜딩 페이지 하위 도메인 설정"
->abstract="하위 도메인을 선택하려면 이전에 하나 이상의 랜딩 페이지 하위 도메인을 구성했는지 확인합니다."
+>title="랜딩 페이지 사전 설정 만들기"
+>abstract="랜딩 페이지 사전 설정을 만들려면, 이전에 랜딩 페이지에서 선택할 하나 이상의 랜딩 페이지 하위 도메인을 구성했는지 확인하십시오 **하위 도메인 이름** 목록."
 
 다음을 수행할 수 있습니다. [랜딩 페이지 사전 설정 만들기](#lp-create-preset): 랜딩 페이지에 사용할 하위 도메인을 설정해야 합니다.
 
