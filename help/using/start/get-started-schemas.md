@@ -5,9 +5,9 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '322'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 스키마는 Experience Platform에서 데이터를 설명하는 표준 방법으로서, 스키마를 따르는 모든 데이터를 충돌 없이 조직 간에 재사용하거나 여러 조직 간에 공유하도록 허용합니다.
 
-➡️ [스키마 만들기 및 구성 방법 알아보기](#video-schema) (비디오)
+➡️ [이 비디오에서 스키마를 만들고 구성하는 방법을 알아보십시오](#video-schema) (비디오)
 
 스키마는 데이터의 구조와 형식을 나타내고 유효성을 검사하는 규칙 세트입니다. 높은 수준에서 스키마는 실제 개체(예: 사람)에 대한 추상적인 정의를 제공하고, 해당 개체의 각 인스턴스(이름, 성, 생일 등)에 어떤 데이터를 포함해야 하는지 설명합니다.
 
