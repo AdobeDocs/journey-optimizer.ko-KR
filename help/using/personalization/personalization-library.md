@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,19 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] 은 관리자 사용자가 추가한 이전에 저장한 개인화 표현식에 액세스할 수 있는 라이브러리를 제공합니다.
 
-1. 저장된 표현식에 액세스하려면 **[!UICONTROL Library]** 왼쪽 창에 있는 단추. 이 목록에는 관리자 사용자가 저장한 모든 표현식이 표시됩니다( [라이브러리에 표현식 저장](#save-expressions)).
+➡️ [이 비디오에서 저장된 표현식을 사용하여 작업하는 방법을 알아봅니다](#video-preview)
 
-   >[!NOTE]
-   >
-   >정보 단추를 사용하여 저장된 표현식의 내용에 대한 자세한 정보를 얻을 수 있습니다. 라이브러리 항목을 관리할 수 있는 적절한 권한이 있으면 정보 단추가 타원 메뉴에 나타납니다.
+저장된 표현식에 액세스하려면 **[!UICONTROL Library]** 왼쪽 창에 있는 단추. 이 목록에는 관리자 사용자가 저장한 모든 표현식이 표시됩니다( [라이브러리에 표현식 저장](#save-expressions)).
 
-   ![](assets/library-list.png)
+    >[!NOTE]
+    >
+    >정보 단추를 사용하여 저장된 표현식의 내용에 대한 자세한 정보를 볼 수 있습니다. 라이브러리 항목을 관리할 수 있는 적절한 권한이 있으면 정보 단추가 타원 메뉴에 나타납니다.
+    
+    ![](assets/library-list.png)
 
-1. 표현식을 편집기에 삽입하려면 + 를 클릭합니다. 그런 다음 개인화 컨텐츠를 평소대로 사용자 지정하고 유효성을 검사할 수 있습니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
+표현식을 편집기에 삽입하려면 + 를 클릭합니다. 그런 다음 개인화 컨텐츠를 평소대로 사용자 지정하고 유효성을 검사할 수 있습니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
-   ![](assets/library-add.png)
+    ![](assets/library-add.png)
 
 ## 라이브러리에 표현식을 저장합니다 {#save-expressions}
 
@@ -68,3 +70,10 @@ ht-degree: 0%
 기존 표현식을 편집하려면 편집기에 추가한 다음 필요에 따라 수정합니다. 클릭 **[!UICONTROL Add to library]** 구문의 유효성을 검사하고 표현식을 저장하려면
 
 표현식을 삭제하려면 타원 버튼을 클릭한 다음 **[!UICONTROL Delete]**.
+
+## 방법 비디오{#video}
+
+메시지에 저장된 개인화 라이브러리 항목을 사용하는 방법과 개인화 라이브러리 항목을 만들고 관리하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
+
