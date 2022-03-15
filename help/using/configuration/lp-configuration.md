@@ -4,7 +4,7 @@ description: Journey Optimizer에서 랜딩 페이지를 만들고 사용하도�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 8c7239aa399f5e172762c9d93d9c03832501adb0
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 ## 랜딩 페이지 하위 도메인 구성 {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_configure_subdomain"
+>id="ajo_admin_config_lp_subdomain"
 >title="랜딩 페이지 하위 도메인 설정"
 >abstract="하위 도메인을 선택하려면 이전에 하나 이상의 랜딩 페이지 하위 도메인을 구성했는지 확인합니다."
 
