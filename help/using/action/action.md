@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 78%
+source-wordcount: '248'
+ht-degree: 76%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 78%
 >abstract="여기서 메시지를 전송할 시스템에 대한 연결을 정의합니다. 그러면 여기서 정의한 작업을 여정 왼쪽 팔레트의 [작업] 범주에서 사용할 수 있습니다. "
 
 작업은 푸시 알림, 이메일, SMS 또는 회사에서 사용하는 기타 디지털 참여 방법 등의 개인화된 실시간 경험을 고객에게 제공하는 데 사용되는 연결입니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 [!DNL Journey Optimizer] 에는 기본 제공 메시지 기능이 포함되어 있습니다. [이 섹션](../messages/get-started-content.md)을 참조하십시오.
 
@@ -40,3 +42,9 @@ Epsilon, Facebook, Adobe.io, Firebase 등의 서드파티 시스템을 사용하
 작업 목록을 확인하거나 새 작업을 구성하려면 **[!UICONTROL Configurations]** 를 클릭합니다. 에서  **[!UICONTROL Actions]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 그러면 작업 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../start/user-interface.md)를 참조하십시오.
 
 ![](assets/custom1.png)
+
+## 방법 비디오 {#video}
+
+사용자 지정 작업을 구성하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334257?quality=12)
