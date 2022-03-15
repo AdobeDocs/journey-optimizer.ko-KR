@@ -5,7 +5,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 3%
@@ -52,10 +52,10 @@ ht-degree: 3%
 
    ![](../assets/fallback_created.png)
 
-## 튜토리얼 비디오 {#video}
+## 방법 비디오 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
 >[!NOTE]
 >
 >이 비디오는 Adobe Experience Platform을 기반으로 하는 Offer decisioning 애플리케이션 서비스에 적용됩니다. 그러나 Journey Optimizer 컨텍스트에서 오퍼를 사용하는 일반적인 지침을 제공합니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
