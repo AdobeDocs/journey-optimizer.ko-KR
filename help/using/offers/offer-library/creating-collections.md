@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 95c6b69aa881a691b96a073dd89bb448c9a25283
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '310'
+ht-degree: 2%
 
 ---
 
 # 컬렉션 만들기 {#create-collections}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_collection"
+>title="오퍼 컬렉션 기본 정보"
+>abstract="오퍼 컬렉션을 사용하면 오퍼를 선택한 카테고리로 다시 그룹화하여 오퍼를 구성할 수 있습니다.
 
 컬렉션을 사용하면 오퍼를 선택한 카테고리로 다시 그룹화하여 구성할 수 있습니다. 예를 들어, 스포츠 관련 오퍼만 포함하는 &quot;스포츠&quot; 컬렉션을 만들 수 있습니다.
 
