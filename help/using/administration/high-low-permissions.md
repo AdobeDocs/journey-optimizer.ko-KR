@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 2a27c19766c84d8c65e8b21ba381754758d60cae
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -275,9 +275,9 @@ ht-degree: 0%
    * datasets.read
    * profiles.read
 
-### [!DNL Manage ranking strategies] 권한 {#manage-decisions}
+### [!DNL Manage ranking strategies] 권한 {#manage-ranking-strategies}
 
-다음 **[!DNL Manage ranking strategies]** 높은 수준의 권한을 통해 사용자는 사용자 지정 메시지 보고서를 읽고, 만들고, 편집하고, 삭제할 수 있으며 작업 기능을 사용할 수 있습니다.
+다음 **[!DNL Manage ranking strategies]** 높은 수준의 권한을 통해 사용자가 등급 전략을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
