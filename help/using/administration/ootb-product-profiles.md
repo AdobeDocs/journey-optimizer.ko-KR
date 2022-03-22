@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '736'
 ht-degree: 10%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 10%
 | 기능 | 권한| |-|-| |여정| <ul><li> **[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제합니다.</li><li>**[!DNL Publish journeys]**: 여정 게시.</li><li>**[!DNL Manage journeys events, data sources and actions]**: 이벤트, 소스 또는 작업을 읽기, 만들기, 편집 및 삭제합니다.</li><li>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</li></ul>|
 |메시지|<ul><li> **[!DNL Manage messages]**: 메시지 미리 보기를 읽고, 만들고, 편집하고, 테스트/증명을 보냅니다.</li><li>**[!DNL Manage messages preview and test]**: 메시지를 게시합니다.</li><li>**[!DNL Publish messages]**: 메시지 미리 보기를 읽고, 만들고, 편집하고, 테스트/증명을 보냅니다.</li><li>**[!DNL View messages report]**: 메시지 보고서 읽기 및 편집</li></ul>|
 |관리|<ul><li>**[!DNL Manage subdomains delegation]**: 하위 도메인 위임을 읽기, 만들기, 편집 및 삭제합니다.</li><li>**[!DNL Manage IP pools]**: ip 풀을 읽기, 생성, 편집 및 삭제합니다.</li><li>**[!DNL Manage PTR records]**: PTR 레코드를 읽고 편집합니다.</li><li>**[!DNL View PTR records]**: PTR 레코드에 대한 읽기 전용 액세스 권한입니다.</li><li> **[!DNL Manage messages general settings]**: 메시지 일반 설정을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage messages presets]**: 컨텐츠 브랜딩을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.</li><li>**[!DNL Manage suppression rules]**: 제어 규칙 읽기, 만들기, 편집 및 삭제에 액세스합니다.</li><li>**[!DNL View suppression list]**: 로컬 제외 목록을 읽고 내보냅니다.</li><li>**[!DNL Manage alerts]**: 여정, 메시지 및 권한에 대한 경고를 활성화/비활성화합니다.</li></ul>|
-|의사 결정 관리|<ul><li>**[!DNL Manage decisions]**: 결정을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 정의 메시지 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용하십시오.</li></ul>|
+|의사 결정 관리|<ul><li>**[!DNL Manage decisions]**: 결정을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.</li><li>**[!DNL Manage ranking strategies]**: 순위 전략 읽기, 생성, 편집 및 삭제</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: 샌드박스에 대한 액세스 권한을 부여합니다.</li><li>**[!DNL Manage segments]**: 세그먼트 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제합니다.</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read Identity namespace]**: id 네임스페이스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽고, 만들고, 편집하고, 삭제합니다.</li></ul>| |Journey Optimizer 라이브러리|<ul><li>**[!DNL Manage Library Items]**: 에서 저장된 표현식 추가 및 삭제 [!DNL Journey Optimizer] 라이브러리.</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
