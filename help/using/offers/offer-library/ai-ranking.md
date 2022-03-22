@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AI 모델 시작 {#get-started-with-ai-rankings}
 
-지정된 프로필에 대해 표시할 오퍼에 등급을 지정하는 숙련된 모델 시스템을 사용할 수 있습니다.
+[!DNL Journey Optimizer] 지정된 프로필에 대해 표시할 오퍼에 등급을 지정하는 숙련된 모델 시스템을 사용할 수 있습니다.
 
 >[!CAUTION]
 >
@@ -27,8 +27,6 @@ ht-degree: 0%
 이 기능을 사용하면 다른 기능을 만들 수 있습니다 **AI 모델** 비즈니스 목표를 기반으로 구축 이러한 다양한 목표 기반 전략을 의사 결정에 사용하면 숙련된 모델 시스템을 통해 다양한 AI 모델이 목표에 미치는 영향을 파악할 수 있습니다.
 
 예를 들어 이메일 채널에 대한 AI 모델과 푸시 채널에 대한 다른 모델을 선택할 수 있습니다. 각 채널에 대해, 훈련된 모델 시스템은 여러 데이터 포인트를 활용하여 오퍼의 우선 순위 점수나 오퍼를 고려하지 않고 지정된 배치에 대해 먼저 제공해야 하는 오퍼를 결정합니다 [등급 공식](create-ranking-formulas.md).
-
-AI 모델이 만들어지면 결정에서 배치에 지정합니다. 추가 정보 [결정에서 오퍼 선택 구성](../offer-activities/configure-offer-selection.md).
 
 >[!NOTE]
 >
