@@ -7,18 +7,28 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '693'
 ht-degree: 5%
 
 ---
 
 # AI 모델 만들기 {#ai-rankings}
 
+[!DNL Journey Optimizer] 다음을 수행할 수 있습니다. **AI 모델** 비즈니스 목표에 따라 오퍼의 등급을 매깁니다.
+
+>[!CAUTION]
+>
+>AI 모델을 만들거나, 편집하거나, 삭제하려면 **등급 전략 관리** 권한. [자세히 알아보기](../../administration/high-low-permissions.md#manage-ranking-strategies)
+>
+>현재 AI 모델은 초기 액세스 시 사용자만 선택할 수 있도록 제공됩니다.
+
+AI 모델이 만들어지면 결정에서 배치에 지정합니다. 추가 정보 [결정에서 오퍼 선택 구성](../offer-activities/configure-offer-selection.md).
+
 ## 등급 전략 만들기 {#create-ranking-strategy}
 
-등급 전략을 만들려면 아래 단계를 수행하십시오.
+순위 전략으로서 AI 모델을 만들려면 아래 단계를 수행하십시오.
 
 1. 액세스 권한 **[!UICONTROL Components]** 메뉴를 선택한 다음 **[!UICONTROL AI rankings]** 탭.
 
