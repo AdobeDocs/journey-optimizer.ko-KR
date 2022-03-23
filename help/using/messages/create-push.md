@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1403'
 ht-degree: 9%
 
 ---
 
 # 푸시 알림 만들기 {#create-push-notification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_push"
+>title="푸시 메시지 작성"
+>abstract="푸시 메시지를 추가하고 표현식 편집기를 사용하여 개인화를 시작합니다."
+
 
 푸시 알림은 모바일 앱 사용자에게 언제든지 연락할 수 있도록 해줍니다. 특히 앱을 사용하고 있지 않을 때 유용합니다. 푸시 알림은 서비스에 대한 업데이트 제공, 사용자에게 조치 요청, 사용자에게 새로운 거래를 알리는 등의 다양한 사용 사례를 달성하는 데 도움이 될 수 있습니다. 최종 사용자가 알림을 받거나 볼 수 있으려면 장치 플랫폼에 옵트인이 필요합니다. 사용자 옵트인은 앱을 처음 설치한 후 바로 수신되거나, 후속 세션 또는 워크플로우에서 적절하게 수신될 수 있습니다.
 
