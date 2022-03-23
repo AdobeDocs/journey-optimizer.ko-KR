@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 4%
+source-wordcount: '151'
+ht-degree: 3%
 
 ---
 
 # 이메일 만들기 {#configure-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_email"
+>title="이메일 만들기"
+>abstract="간단한 3단계로 이메일 매개 변수를 정의할 수 있습니다."
 
 일단 [메시지를 만들었습니다.](create-message.md)를 사용하려면 **[!UICONTROL Email]** 탭하여 전자 메일 채널의 설정 및 콘텐츠를 정의합니다.
 
