@@ -3,9 +3,9 @@ title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2697'
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 랜딩 페이지를 만들고 디자인하고, 사용자에게 커뮤니케이션 수신을 옵트인 또는 옵트아웃할 수 있는 온라인 양식으로 전송하거나 뉴스레터와 같은 특정 서비스에 가입할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../landing-pages/create-lp.md">세부 설명서</a> 및 관련 <a href="../landing-pages/lp-use-cases.md">샘플 사용 사례</a>를 참조하십시오.</p>
+<p>이제 Journey Optimizer에서 랜딩 페이지를 만들고 디자인하고, 커뮤니케이션 수신을 옵트인 또는 옵트아웃하거나 뉴스레터 등 특정 서비스를 구독하기 위한 온라인 양식으로 사용자를 보낼 수 있습니다.</p>
+<p>자세한 내용은 <a href="../landing-pages/create-lp.md">세부 설명서</a> 및 관련 <a href="../landing-pages/lp-use-cases.md">샘플 사용 사례</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -38,14 +38,14 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>새 개인화 표현식 라이브러리</strong><br/></th>
+<th><strong>새로운 개인화 표현식 라이브러리</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 사전 정의된 개인화 표현식에 액세스할 수 있는 라이브러리를 제공합니다. 이러한 표현식은 관리자 사용자가 구성합니다.</p>
-<p>자세한 내용은 <a href="../personalization/personalization-library.md">자세한 설명서</a>를 참조하세요.</p>
+<p>이제 Journey Optimizer에서는 사전 정의된 개인화 표현식에 액세스할 수 있는 라이브러리를 제공합니다. 이 표현식은 [관리자]인 사용자가 구성합니다.</p>
+<p>자세한 내용은 <a href="../personalization/personalization-library.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
