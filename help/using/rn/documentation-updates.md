@@ -3,9 +3,9 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1001'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ## 2022년 3월 {#march-2022}
 
-* AI 모델 시작에 대한 새 페이지가 **Offer decisioning** 섹션에 대한 자세한 설명을 포함한 섹션을 참조하십시오 [자동 최적화 모델](../offers/offer-library/ai-ranking.md#auto-optimization), 사용하는 알고리즘 및 더 많은 기술 세부 사항. [자세히 보기](../offers/offer-library/ai-ranking.md)
+* AI 모델을 시작하는 방법에 대한 새 페이지를 **Offer Decisioning** 섹션에 추가했습니다. AI 모델이 사용하는 알고리즘인 [자동 최적화 모델](../offers/offer-library/ai-ranking.md#auto-optimization)에 대한 자세한 설명과 보다 기술적인 세부 정보도 제공합니다. [자세히 보기](../offers/offer-library/ai-ranking.md)
 
 ## 2022년 2월 {#feb-2022}
 
