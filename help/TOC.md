@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 98%
       + 표현식 편집기 작업 {#expression-editor}
          + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
          + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
-         + [저장된 표현식을 사용한 작업](using/personalization/personalization-library.md)
+         + [저장된 표현식으로 작업하기](using/personalization/personalization-library.md)
          + [개인화 유효성 검사](using/personalization/personalization-validation.md)
       + 도우미 함수{#functions}
          + [도우미 함수 시작](using/personalization/functions/functions.md)
@@ -245,7 +245,7 @@ ht-degree: 98%
       + [태그 만들기](using/offers/offer-library/creating-tags.md)
       + [등급 수식 만들기](using/offers/offer-library/create-ranking-formulas.md)
       + AI 등급 모델 만들기 {#create-ai-ranking-models}
-         + [AI 모델](using/offers/offer-library/ai-ranking.md)
+         + [AI 모델 정보](using/offers/offer-library/ai-ranking.md)
          + [AI 모델 만들기](using/offers/offer-library/create-ranking-strategies.md)
    + 오퍼 만들기 및 관리 {#managing-offers-in-the-offer-library}
       + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
