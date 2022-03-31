@@ -1,5 +1,5 @@
 ---
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: 사용자 지정 작업 구성
 description: 사용자 지정 작업을 구성하는 방법 알아보기
 feature: Actions
@@ -7,14 +7,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '915'
 ht-degree: 6%
 
 ---
 
 # 사용자 지정 작업 구성 {#configure-an-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_configuration"
+>title="사용자 정의 작업"
+>abstract="서드파티 시스템을 사용하여 메시지를 보내거나 여정이 서드파티 시스템에 API 호출을 전송하도록 하려면 사용자 지정 작업을 사용하여 여정에 대한 연결을 구성하십시오. 예를 들어 사용자 지정 작업으로 다음 시스템에 연결할 수 있습니다. Epsilon, Slack, Adobe.io, Firebase 등"
 
 서드파티 시스템을 사용하여 메시지를 보내거나 여정이 서드파티 시스템에 API 호출을 전송하도록 하려면 사용자 지정 작업을 사용하여 여정에 대한 연결을 구성하십시오. 예를 들어 사용자 지정 작업으로 다음 시스템에 연결할 수 있습니다. Epsilon, Slack, Adobe.io, Firebase 등
 
