@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 * **[!UICONTROL Journeys]** - 고객 여정 생성, 구성 및 조정 [자세히 알아보기](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - 이메일 및 푸시 메시지의 작성, 디자인, 테스트 및 게시 [자세히 알아보기](../messages/create-message.md)
+* **[!UICONTROL Messages]** - 이메일 및 푸시 메시지의 작성, 디자인, 테스트 및 게시 [자세히 알아보기](../messages/get-started-content.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -56,7 +56,7 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials]는 메시지를 채우는 데 사용할 수 있는 자산의 중앙 집중식 저장소입니다. [자세히 알아보기](../messages/assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials]는 메시지를 채우는 데 사용할 수 있는 자산의 중앙 집중식 저장소입니다. [자세히 알아보기](../design/assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
@@ -76,9 +76,9 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 * **[!UICONTROL Segments]** - Experience Platform 세그먼트 정의를 만들고 관리하며 여정에 활용할 수 있습니다. [자세히 알아보기](../segment/about-segments.md)
 
-* **[!UICONTROL Profiles]** - 실시간 고객 프로파일은 온라인, 오프라인, CRM 및 서드파티 데이터를 비롯한 다양한 채널의 데이터를 취합하여 각 개별 고객을 전체적으로 파악할 수 있도록 합니다. [자세히 알아보기](get-started-profiles.md)
+* **[!UICONTROL Profiles]** - 실시간 고객 프로파일은 온라인, 오프라인, CRM 및 서드파티 데이터를 비롯한 다양한 채널의 데이터를 취합하여 각 개별 고객을 전체적으로 파악할 수 있도록 합니다. [자세히 알아보기](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service는 Adobe Experience Platform 내에서 ID 그래프라고 알려진 것을 통해 고객의 ID를 크로스 디바이스, 크로스 채널 및 거의 실시간으로 식별하여 관리합니다. [자세히 알아보기](get-started-identity.md)
+* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service는 Adobe Experience Platform 내에서 ID 그래프라고 알려진 것을 통해 고객의 ID를 크로스 디바이스, 크로스 채널 및 거의 실시간으로 식별하여 관리합니다. [자세히 알아보기](../segment/get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
@@ -98,7 +98,7 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 사용 가능한 사용 사례는 다음과 같습니다.
 
-* **테스트 프로필을 만들고**, CSV 템플릿을 사용하여 테스트 프로필을 만들어 개인화된 메시지 및 여정을 테스트합니다. [이 페이지](../building-journeys/creating-test-profiles.md#use-case-1)에서 이 사용 사례를 구현하는 방법을 알아보세요.
+* **테스트 프로필을 만들고**, CSV 템플릿을 사용하여 테스트 프로필을 만들어 개인화된 메시지 및 여정을 테스트합니다. [이 페이지](../segment/creating-test-profiles.md#use-case-1)에서 이 사용 사례를 구현하는 방법을 알아보세요.
 * **고객에게 생일 메시지를 보내기** 고객의 생일을 축하하기 위해 자동으로 이메일을 보냅니다. (준비 중)
 * **신규 고객 환영 이메일 보내기**&#x200B;로 새로 가입한 고객을 환영하는 이메일을 최대 두 개까지 간단히 보낼 수 있습니다. (준비 중)
 * **가져온 고객 목록에 푸시 메시지 보내기** CSV 파일에서 가져온 고객 목록에 푸시 알림을 신속하게 전송할 수 있습니다. (준비 중)
@@ -219,7 +219,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   <tr>
     <td rowspan="2">팝업 창</td>
     <td>변경 내용을 저장하거나 작업 확인</td>
-    <td>Enter</td>
+    <td>Enter 키</td>
   </tr>
   <tr>
     <td>창 닫기</td>
