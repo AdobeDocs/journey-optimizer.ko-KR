@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '1001'
-ht-degree: 100%
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '1072'
+ht-degree: 94%
 
 ---
 
@@ -13,10 +13,13 @@ ht-degree: 100%
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 
-
 ## 2022년 3월 {#march-2022}
 
+* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2022년 3월 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * AI 모델을 시작하는 방법에 대한 새 페이지를 **Offer Decisioning** 섹션에 추가했습니다. AI 모델이 사용하는 알고리즘인 [자동 최적화 모델](../offers/offer-library/ai-ranking.md#auto-optimization)에 대한 자세한 설명과 보다 기술적인 세부 정보도 제공합니다. [자세히 보기](../offers/offer-library/ai-ranking.md)
+* 테스트 프로필 만들기 페이지를  **세그먼트, 프로필 및 ID** 섹션을 참조하십시오. [자세히 보기](../segment/creating-test-profiles.md)
+* 표현식 편집기에서 표현식을 기본값으로 추가하는 방법에 대한 예를 추가했습니다. [자세히 보기](../building-journeys/expression/field-references.md#default-value)
+* 다음 **기본 이메일 주소 변경** 사용자 인터페이스 변경 사항을 반영하여 섹션이 업데이트되었습니다. [자세히 보기](../configuration/primary-email-addresses.md)
 
 ## 2022년 2월 {#feb-2022}
 
@@ -32,7 +35,7 @@ ht-degree: 100%
 * 가독성 개선을 위해 [!DNL Journey Optimizer] 개인화 기능 관련 섹션을 재구성했습니다. [자세히 보기](../personalization/personalize.md)
 * 다음 **메시지 사전 설정 만들기** 섹션을 몇 개의 섹션으로 나누어서 명확성을 개선했습니다. [자세히 보기](../configuration/message-presets.md#create-message-preset)
 * 다음 **옵트아웃 관리** 섹션이 명확해지고 약간 재구성되었습니다. [자세히 보기](../messages/consent.md#opt-out-management)
-* 다음 **링크 삽입** 섹션이 업데이트되어 최근 사용자 인터페이스 변경 사항을 반영하였습니다. [자세히 보기](../messages/message-tracking.md#insert-links)
+* 다음 **링크 삽입** 섹션이 업데이트되어 최근 사용자 인터페이스 변경 사항을 반영하였습니다. [자세히 보기](../design/message-tracking.md#insert-links)
 
 ## 2021년 11월 {#november-2021}
 
@@ -92,8 +95,8 @@ ht-degree: 100%
 * 액세스 가능성 기능 및 바로 가기에 대한 섹션을 추가했습니다. [자세히 보기](../start/user-interface.md#accessibility)
 * 세그먼트 평가 방법에 대한 섹션을 추가했습니다. [자세히 보기](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * 억제 목록, 허용 목록 및 이메일 글로벌/라이브 보고서 섹션에 억제됨 및 허용되지 않음 상태의 프로필이 전송된 이메일 보고서에서 제외되도록 지정하는 메모를 추가했습니다. [자세히 보기](../reports/email-global-report.md)
-* 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../messages/allow-list.md#reporting)
-* 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 보기](../messages/allow-list.md#enable-allow-list)
+* 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../reports/allow-list.md#reporting)
+* 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 보기](../reports/allow-list.md#enable-allow-list)
 * 메시지 사전 설정 모니터링 섹션을 업데이트했습니다. 가능한 사전 설정 작성 실패 이유 및 이러한 오류에 대한 세부 정보를 추가했습니다. [자세히 보기](../configuration/message-presets.md#monitor-message-presets)
 * 이제 메시지 사전 설정에서 이메일 다시 시도 설정을 조정할 수 있다는 사실을 반영하도록 다시 시도 기간 섹션을 업데이트하고 이름을 변경했습니다. [자세히 보기](../configuration/retries.md#retry-duration)
 * 이메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../messages/consent.md#one-click-opt-out-link)
@@ -111,8 +114,8 @@ ht-degree: 100%
 * 홈페이지의 [!DNL Journey Optimizer] 제품 설명에 링크를 추가했습니다.
 * 여러 페이지에 자습서 비디오를 추가했습니다.
 * 홈페이지 이미지를 최적화했습니다.
-* &#39;메시지 추적&#39; 섹션을 &#39;링크 및 추적 메시지 추가&#39;로 옮겨서 개선했으며 이름을 변경했습니다. [자세히 보기](../messages/message-tracking.md)
-* 미러 페이지에 하위 섹션을 추가했습니다. [자세히 보기](../messages/message-tracking.md#mirror-page)
+* &#39;메시지 추적&#39; 섹션을 &#39;링크 및 추적 메시지 추가&#39;로 옮겨서 개선했으며 이름을 변경했습니다. [자세히 보기](../design/message-tracking.md)
+* 미러 페이지에 하위 섹션을 추가했습니다. [자세히 보기](../design/message-tracking.md#mirror-page)
 * 문서 및 화면에서 &#39;오퍼 활동&#39;의 이름을 &#39;결정&#39;으로, &#39;결정&#39;의 이름을 &#39;결정 범위&#39;로 변경했습니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
 * 새로운 사용 사례: [도우미 함수를 사용한 메시지 개인화](../personalization/personalization-use-case-helper-functions.md)
 * 구체화된 세그먼트 영향을 반영하도록 세그먼트 읽기 설명서를 업데이트했습니다. [자세히 보기](../building-journeys/read-segment.md)
