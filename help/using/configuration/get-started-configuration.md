@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 9%
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 1. **메시지 및 채널 구성**: 사전 설정 정의, 이메일 및 푸시 메시지 조정 및 사용자 정의
 
-   * 두 위치에서 푸시 알림 설정 정의 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]. [자세히 알아보기](../messages/push-gs.md)
+   * 두 위치에서 푸시 알림 설정 정의 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]. [자세히 알아보기](../configuration/push-gs.md)
 
    * 이메일 및 푸시 알림 메시지에 필요한 모든 기술 매개 변수를 구성하려면 메시지 사전 설정을 만듭니다. [자세히 알아보기](message-presets.md)
 
@@ -31,7 +31,7 @@ ht-degree: 9%
    * 전자 메일 주소를 제외 목록으로 보내기 전에 다시 시도를 수행하는 일 수를 관리합니다. [자세히 알아보기](manage-suppression-list.md)
 
    <!--
-    * Understand push notification flow. [Learn more](../messages/push-gs.md)
+    * Understand push notification flow. [Learn more](../configuration/push-gs.md)
     -->
 
 1. **하위 도메인 위임**: Journey Optimizer에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 하위 도메인을 위임하는 것입니다. [자세히 알아보기](about-subdomain-delegation.md)
