@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1271'
 ht-degree: 9%
 
 ---
 
 # 조건 활동{#condition-activity}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_condition"
+>title="조건 활동"
+>abstract="이 활동을 사용하면 여정에서 개인이 이동하는 방식을 정의할 수 있습니다. 여러 경로는 다양한 기준에 따라 만들어집니다. 시간이 초과되거나 오류가 발생하는 경우 대체 경로를 만들 수도 있습니다."
 
 다음과 같은 유형의 조건을 사용할 수 있습니다.
 
@@ -26,6 +31,11 @@ ht-degree: 9%
 ![](assets/journey49.png)
 
 ## 조건 활동 정보 {#about_condition}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_expression_simple"
+>title="단순 표현식 편집기"
+>abstract="단순 표현식 편집기 모드에서는 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 기본 영역으로 끌어다 놓습니다. 다른 요소를 결합하려면 서로 인터로크하여 다른 그룹 및/또는 그룹 수준을 만듭니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다."
 
 여정에서 여러 조건을 사용할 때 각 조건에 대한 레이블을 정의하여 보다 쉽게 식별할 수 있습니다.
 
@@ -53,15 +63,17 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->단순 편집기를 사용하여 시계열(예: 구매 목록, 메시지 클릭 과거)에 대한 쿼리를 수행할 수 없습니다. 이를 위해서는 고급 편집기를 사용해야 합니다. 자세한 내용은 [Adobe Journey Orchestration 설명서](expression/expressionadvanced.md).
+>단순 편집기를 사용하여 시계열(예: 구매 목록, 메시지 클릭 과거)에 대한 쿼리를 수행할 수 없습니다. 이를 위해서는 고급 편집기를 사용해야 합니다. [이 페이지](expression/expressionadvanced.md)를 참조하십시오.
 
 작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 상자를 선택하는 것입니다 . [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 
-단순 편집기에서 여정 속성 카테고리가 이벤트 및 데이터 소스 카테고리 아래에 있습니다. 이 카테고리에는 해당 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다. 자세한 내용은 [Adobe Journey Orchestration 설명서](expression/journey-properties.md)
+단순 편집기에서 여정 속성 카테고리가 이벤트 및 데이터 소스 카테고리 아래에 있습니다. 이 카테고리에는 해당 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다. [자세히 알아보기](expression/journey-properties.md)
 
 ## 데이터 소스 조건 {#data_source_condition}
 
-데이터 소스의 필드 또는 이전에 여정에 배치된 이벤트를 기반으로 조건을 정의할 수 있습니다. 표현식 편집기를 사용하는 방법에 대해 알아보려면 [Adobe Journey Orchestration 설명서](expression/expressionadvanced.md). 고급 표현식 편집기를 사용하면 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하는 더 고급 조건을 설정할 수 있습니다. [이 페이지](../datasource/external-data-sources.md)를 참조하십시오.
+데이터 소스의 필드 또는 이전에 여정에 배치된 이벤트를 기반으로 조건을 정의할 수 있습니다. 에서 표현식 편집기를 사용하는 방법을 알아봅니다. [이 섹션](expression/expressionadvanced.md).
+
+고급 표현식 편집기를 사용하면 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하는 더 고급 조건을 설정할 수 있습니다. [자세히 알아보기](../datasource/external-data-sources.md).
 
 ![](assets/journey50.png)
 
@@ -112,7 +124,7 @@ ht-degree: 9%
 라이브 여정의 경우 제한에 도달하기 위해 고려해야 할 임계값은 다음과 같습니다.
 
 * 캡이 10000보다 큰 경우 삽입할 고유 프로필 수는 캡의 최소 1.3배여야 합니다.
-* 10000 아래의 캡의 경우, 삽입할 개별 프로필 수는 1000개 및 캡을 포함해야 합니다.
+* 10000 아래의 캡의 경우, 삽입할 개별 프로필 수는 1000과 캡이어야 합니다.
 
 프로필 캡은 테스트 모드에서 고려되지 않습니다.
 
