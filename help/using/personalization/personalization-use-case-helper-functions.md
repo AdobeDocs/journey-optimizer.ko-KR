@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 3%
@@ -28,8 +28,8 @@ ht-degree: 3%
 ➡️ [이 비디오에서 도우미 기능을 사용하는 방법을 알아봅니다](#video)
 
 시작하기 전에 다음 요소를 구성하는 방법을 알고 있어야 합니다.
-* 이메일 메시지. [자세히 알아보기](../messages/create-message.md)
-* 이메일 본문. [자세히 알아보기](../messages/create-email-content.md).
+* 이메일 메시지. [자세히 알아보기](../messages/get-started-content.md)
+* 이메일 본문. [자세히 알아보기](../design/create-email-content.md).
 * 단일 이벤트. [자세히 알아보기](../event/about-events.md).
 * 이벤트로 시작하는 여정. [자세히 알아보기](../building-journeys/using-the-journey-designer.md).
 
@@ -147,7 +147,7 @@ ht-degree: 3%
 
       **[!UICONTROL Contextual attributes]** 여정 컨텍스트이 메시지에 전달된 후에만 사용할 수 있습니다.
 
-   1. 선택 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** 다음 **[!UICONTROL productListItems]** 노드 아래에 있어야 합니다.
+   1. 선택 **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** 다음 **[!UICONTROL productListItems]** 노드 아래에 있어야 합니다.
 
       이 예제에서는 *event_name* 은 이벤트 이름을 나타냅니다.
 
