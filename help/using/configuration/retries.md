@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->의 오류 유형에 대해 자세히 알아보십시오 [게재 실패 유형](../messages/suppression-list.md#delivery-failures) 섹션을 참조하십시오.
+>의 오류 유형에 대해 자세히 알아보십시오 [게재 실패 유형](../reports/suppression-list.md#delivery-failures) 섹션을 참조하십시오.
 
 기본 구성에서 오류 임계값은 5로 설정됩니다.
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >10보다 큰 값을 지정하면 ISP의 IP 조절 또는 차단 목록에 추가와 함께 전송 가능한 신뢰도 문제가 발생할 수 있습니다. [게재 능력에 대해 자세히 알아보기](../messages/deliverability.md)
+   >10보다 큰 값을 지정하면 ISP의 IP 조절 또는 차단 목록에 추가와 함께 전송 가능한 신뢰도 문제가 발생할 수 있습니다. [게재 능력에 대해 자세히 알아보기](../reports/deliverability.md)
 
 ## 다시 시도 기간 {#retry-duration}
 
