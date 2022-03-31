@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ignored]**: 부재 중 또는 기술 오류(예: 발신자 유형이 postmaster인 경우)와 같은 총 임시 수입니다.
 
-바운스에 대한 자세한 내용은 [제외 목록](../messages/suppression-list.md) 페이지.
+바운스에 대한 자세한 내용은 [제외 목록](../reports/suppression-list.md) 페이지.
 
 ![](assets/global_report_22.png)
 
@@ -212,6 +212,8 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 
 * **[!UICONTROL Engagement Rate]**: 이 푸시 알림에 대한 열기 및 작업의 비율(즉, 프로필이 푸시를 열었는지 또는 단추를 클릭했는지 여부)입니다.
 
+![](assets/global_report_24.png)
+
 다음 **[!UICONTROL Push notification summary]** 그래프에는 다음과 같이 전송된 푸시 알림에 사용할 수 있는 데이터가 포함되어 있습니다.
 
 * **[!UICONTROL Opens]**: 게재에서 메시지를 연 횟수입니다.
@@ -242,6 +244,8 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 ![](assets/global_report_18.png)
 
 다음 **[!UICONTROL Error Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류를 확인할 수 있습니다.
+
+다음 **[!UICONTROL Excluded reasons]** 그래프와 테이블에는 타겟팅된 프로필에서 제외된 사용자 프로필이 메시지를 받지 못한 다양한 이유가 표시됩니다.
 
 ![](assets/global_report_19.png)
 
