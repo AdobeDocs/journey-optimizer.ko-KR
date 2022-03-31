@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 11%
@@ -39,7 +39,7 @@ ht-degree: 11%
 
 **참조 -**
 
-* [스키마, 데이터 세트 및 데이터를 수집하여 Journey Optimizer에서 테스트 프로필을 추가합니다](../building-journeys/creating-test-profiles.md)
+* [스키마, 데이터 세트 및 데이터를 수집하여 Journey Optimizer에서 테스트 프로필을 추가합니다](../segment/creating-test-profiles.md)
 * [XDM 시스템 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target=&quot;_blank&quot;}
 * [데이터 모델링 우수 사례](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target=&quot;_blank&quot;}
 * [스키마 레지스트리 API를 사용하여 스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target=&quot;_blank&quot;}
