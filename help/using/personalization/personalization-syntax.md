@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 10%
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # 개인화 구문 {#personalization-syntax}
 
-의 개인화 [!DNL Journey Optimizer] 은 Handlebars라는 템플릿 구문을 기반으로 합니다.
+Personalization의 [!DNL Journey Optimizer] 은 Handlebars라는 템플릿 구문을 기반으로 합니다.
 Handlebars 구문에 대한 전체 설명은 다음을 참조하십시오 [HandlebarsJS 설명서](https://handlebarsjs.com/).
 
 템플릿과 입력 개체를 사용하여 HTML 또는 기타 텍스트 형식을 생성합니다. Handlebars 템플릿은 포함된 Handlebars 표현식이 있는 일반 텍스트와 같습니다.
@@ -149,7 +149,7 @@ Handlebars 도우미는 매개 변수 뒤에 올 수 있는 간단한 식별자�
 
 Journey Optimizer에서는 개인화 필드를 메시지에 추가하여 하나 또는 여러 개의 URL을 개인화할 수 있습니다. URL을 개인화하려면 아래 단계를 수행하십시오.
 
-1. 메시지 콘텐츠에 링크를 만듭니다. [자세히 알아보기](../messages/message-tracking.md#insert-links)
+1. 메시지 콘텐츠에 링크를 만듭니다. [자세히 알아보기](../design/message-tracking.md#insert-links)
 1. 개인화 아이콘에서 속성을 선택합니다. 개인화 아이콘은 다음 유형의 링크에만 사용할 수 있습니다. **외부 링크**, **구독 취소 링크** 및 **옵트아웃**.
 
 ![](assets/perso-url.png)
