@@ -13,12 +13,12 @@ ht-degree: 0%
 
 ---
 
-# Update Profile {#update-profile}
+# 프로필 업데이트 {#update-profile}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="프로필 활동 업데이트"
->abstract="The Update Profile action activity allows you to update an existing Adobe Experience Platform profile with information coming from the event, a datasource or using a specific value."
+>abstract="프로필 업데이트 작업 활동을 사용하면 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다."
 
 다음 **[!UICONTROL Update Profile]** 작업 활동을 통해 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다.
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![](assets/profileupdate2.png)
 
-1. Select a dataset from the list.
+1. 목록에서 데이터 세트를 선택합니다.
 
    >[!NOTE]
    >
