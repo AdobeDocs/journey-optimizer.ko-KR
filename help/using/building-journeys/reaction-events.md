@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '424'
 ht-degree: 2%
 
 ---
 
 # 반응 이벤트 {#reaction-events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_reaction"
+>title="반응 이벤트"
+>abstract="이 활동을 사용하면 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 대응할 수 있습니다. 이 정보는 Adobe Experience Platform과 공유되는 즉시 실시간으로 캡처됩니다. 푸시 알림의 경우 클릭, 전송 또는 실패한 메시지에 대응할 수 있습니다. SMS 메시지의 경우 보낸 메시지나 실패한 메시지에 대응할 수 있습니다. 이메일의 경우 클릭, 전송, 열림 또는 실패한 메시지에 대응할 수 있습니다."
 
 팔레트에서 사용할 수 있는 여러 이벤트 활동 중에서 기본 제공된 이벤트를 찾을 수 있습니다 **[!UICONTROL Reactions]** 이벤트. 이 활동을 사용하면 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 대응할 수 있습니다. 이 정보는 Adobe Experience Platform과 공유되는 즉시 실시간으로 캡처됩니다. 푸시 알림의 경우 클릭, 전송 또는 실패한 메시지에 대응할 수 있습니다. SMS 메시지의 경우 보낸 메시지나 실패한 메시지에 대응할 수 있습니다. 이메일의 경우 클릭, 전송, 열림 또는 실패한 메시지에 대응할 수 있습니다.
 
