@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 12%
+source-wordcount: '1116'
+ht-degree: 11%
 
 ---
 
 # 비즈니스 이벤트 구성 {#configure-a-business-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business"
+>title="비즈니스 이벤트"
+>abstract="이벤트 구성에서는 Journey Optimizer이 이벤트로 수신할 정보를 정의할 수 있습니다. 여러 여정(여정의 다른 단계에서)를 사용할 수 있으며, 여러 이벤트에서 동일한 이벤트를 사용할 수 있습니다. 단일 이벤트와 달리 비즈니스 이벤트는 특정 프로필에 연결되어 있지 않습니다. 이벤트 ID 유형은 항상 규칙을 기반으로 합니다."
 
 단일 이벤트와 달리 비즈니스 이벤트는 특정 프로필에 연결되어 있지 않습니다. 이벤트 ID 유형은 항상 규칙을 기반으로 합니다. 비즈니스 이벤트에 대한 자세한 내용 [이 섹션](../event/about-events.md).
 
@@ -23,11 +28,12 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->비즈니스 이벤트 사용 사례를 볼 수도 있습니다 [튜토리얼](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>비즈니스 이벤트 사용 사례를 볼 수도 있습니다 [튜토리얼](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). 프로필에 대해 스키마를 활성화할 필요가 없습니다.
 
 ## 중요 정보 {#important-notes}
 
-* 시계열 스키마만 사용할 수 있습니다. 경험 이벤트, 의사 결정 이벤트 및 여정 단계 이벤트 스키마를 사용할 수 없습니다. 이벤트 스키마에는 기본 ID가 포함되어야 합니다. 다음 필드를 필요에 따라 설정해야 합니다. `_id` 및 `timestamp`
+* 시계열 스키마만 사용할 수 있습니다. 경험 이벤트, 의사 결정 이벤트 및 여정 단계 이벤트 스키마를 사용할 수 없습니다.
+* 이벤트 스키마에는 비사용자 기반 기본 ID가 포함되어야 합니다. 이벤트를 정의할 때는 다음 필드를 선택해야 합니다. `_id` 및 `timestamp`
 * 비즈니스 이벤트는 여정의 첫 번째 단계로만 삭제할 수 있습니다.
 * 비즈니스 이벤트를 여정의 첫 번째 단계로 놓을 때 여정의 스케줄러 유형은 &quot;비즈니스 이벤트&quot;가 됩니다.
 * 비즈니스 이벤트 후에 세그먼트 읽기 활동만 삭제할 수 있습니다. 다음 단계로 자동으로 추가됩니다.
@@ -78,7 +84,7 @@ ht-degree: 12%
 
    ![](assets/jo-event5-business.png)
 
-   시계열 스키마만 사용할 수 있습니다. 경험 이벤트, 의사 결정 이벤트 및 여정 단계 이벤트 스키마를 사용할 수 없습니다. 이벤트 스키마에는 기본 ID가 포함되어야 합니다. 다음 필드를 필요에 따라 설정해야 합니다. `_id` 및 `timestamp`
+   시계열 스키마만 사용할 수 있습니다. 경험 이벤트, 의사 결정 이벤트 및 여정 단계 이벤트 스키마를 사용할 수 없습니다. 이벤트 스키마에는 비사용자 기반 기본 ID가 포함되어야 합니다. 이벤트를 정의할 때는 다음 필드를 선택해야 합니다. `_id` 및 `timestamp`
 
    ![](assets/test-profiles-4.png)
 
