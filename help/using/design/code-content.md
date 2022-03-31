@@ -1,0 +1,45 @@
+---
+title: 고유한 이메일 콘텐츠 코드 지정
+description: 고유한 이메일 콘텐츠를 코딩하는 방법을 알아봅니다
+feature: Overview
+topic: Content Management
+role: User
+level: Intermediate
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 13%
+
+---
+
+# 고유한 컨텐츠 코드 지정 {#code-content}
+
+를 사용하십시오 **[!UICONTROL Code your own]** 원시 HTML 및/또는 이메일 콘텐츠를 코딩하는 모드 이 방법에는 HTML 기술이 필요합니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
+
+>[!CAUTION]
+>
+> 이미지 원본 [Adobe Experience Manager Assets Essentials](assets-essentials.md) 이 메서드를 사용할 때는 참조할 수 없습니다. HTML 코드에서 참조되는 이미지는 공용 위치에 저장해야 합니다.
+
+1. 이메일 디자이너 홈페이지에서 **[!UICONTROL Code your own]**.
+
+   ![](assets/code-your-own.png)
+
+1. 원시 HTML 코드를 입력하거나 붙여넣습니다.
+
+1. 왼쪽 창을 사용하여 활용 [!DNL Journey Optimizer] 개인화 기능. 이 작업에 대한 자세한 정보는 [이 섹션](../personalization/personalize.md)을 참조하십시오.
+
+   ![](assets/code-editor.png)
+
+1. 이메일 디자이너를 열어 새 디자인에서 전자 메일을 시작하려면 **[!UICONTROL Change your design]** 옵션 메뉴에서 을 클릭합니다.
+
+   ![](assets/code-editor-change-design.png)
+
+1. 을(를) 클릭합니다. **[!UICONTROL Preview]** 테스트 프로필을 사용하여 메시지 디자인 및 개인화를 확인하는 단추입니다. 이 작업에 대한 자세한 정보는 [이 섹션](preview.md)을 참조하십시오.
+
+   ![](assets/code-editor-preview.png)
+
+1. 코드가 준비되면 **[!UICONTROL Save]** 그런 다음 메시지 만들기 화면으로 돌아가서 메시지를 완료합니다.
+
+   ![](assets/code-editor-save.png)
