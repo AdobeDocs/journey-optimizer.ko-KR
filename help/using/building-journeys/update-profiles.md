@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
-# 프로필 업데이트 {#update-profile}
+# Update Profile {#update-profile}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_update_profiles"
+>title="프로필 활동 업데이트"
+>abstract="The Update Profile action activity allows you to update an existing Adobe Experience Platform profile with information coming from the event, a datasource or using a specific value."
 
 다음 **[!UICONTROL Update Profile]** 작업 활동을 통해 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다.
 
@@ -32,7 +37,7 @@ ht-degree: 0%
 
 테스트 프로필만 테스트 모드에서 여정을 입력할 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 전환할 수 있습니다. Adobe Experience Platform에서 csv 파일 가져오기 또는 API 호출을 통해 프로필 속성을 업데이트할 수 있습니다. 간단한 방법은 **프로필 업데이트** 작업 활동을 수행하고 테스트 프로필 부울 필드를 false에서 true로 변경합니다.
 
-기존 프로필을 테스트 프로필로 변환하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오 [섹션](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
+기존 프로필을 테스트 프로필로 변환하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오 [섹션](../segment/creating-test-profiles.md#create-test-profiles-csv).
 
 ## 프로필 업데이트 사용
 
@@ -48,7 +53,7 @@ ht-degree: 0%
 
    ![](assets/profileupdate2.png)
 
-1. 목록에서 데이터 세트를 선택합니다.
+1. Select a dataset from the list.
 
    >[!NOTE]
    >
