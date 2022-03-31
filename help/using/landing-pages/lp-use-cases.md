@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 17%
@@ -47,9 +47,9 @@ ht-degree: 17%
 
 1. [게시](create-lp.md#publish) 랜딩 페이지.
 
-1. [이메일 메시지 만들기](../messages/create-message.md) 이제 해당 이벤트에 대한 등록이 열려 있음을 알려주십시오.
+1. [이메일 메시지 만들기](../messages/get-started-content.md) 이제 해당 이벤트에 대한 등록이 열려 있음을 알려주십시오.
 
-1. [링크 삽입](../messages/message-tracking.md#insert-links) 메시지 콘텐츠에 삽입하십시오. 선택 **[!UICONTROL Landing page]** 로서의 **[!UICONTROL Link type]** 그리고 [랜딩 페이지](create-lp.md#configure-primary-page) 등록용으로 만들 수 있습니다.
+1. [링크 삽입](../design/message-tracking.md#insert-links) 메시지 콘텐츠에 삽입하십시오. 선택 **[!UICONTROL Landing page]** 로서의 **[!UICONTROL Link type]** 그리고 [랜딩 페이지](create-lp.md#configure-primary-page) 등록용으로 만들 수 있습니다.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ ht-degree: 17%
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [이메일 메시지 만들기](../messages/create-message.md) in [!DNL Journey Optimizer].
+1. [이메일 메시지 만들기](../messages/get-started-content.md) in [!DNL Journey Optimizer].
 
-1. 콘텐츠에서 텍스트를 선택하고 상황별 도구 모음을 사용하여 [링크를 삽입합니다. ](../messages/message-tracking.md#insert-links) 단추에 대한 링크를 사용할 수도 있습니다.
+1. 콘텐츠에서 텍스트를 선택하고 상황별 도구 모음을 사용하여 [링크를 삽입합니다. ](../design/message-tracking.md#insert-links) 단추에 대한 링크를 사용할 수도 있습니다.
 
    ![](assets/lp_opt-out-insert-link.png)
 
@@ -174,5 +174,5 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-header)
 -->
