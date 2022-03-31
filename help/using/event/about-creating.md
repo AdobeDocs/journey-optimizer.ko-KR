@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 14%
+source-wordcount: '1493'
+ht-degree: 13%
 
 ---
 
 # 단일 이벤트 구성 {#configure-an-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_unitary"
+>title="단일 이벤트"
+>abstract="이벤트 구성에서는 Journey Optimizer이 이벤트로 수신할 정보를 정의할 수 있습니다. 여러 여정(여정의 다른 단계에서)를 사용할 수 있으며, 여러 이벤트에서 동일한 이벤트를 사용할 수 있습니다. 단일 이벤트는 특정 프로필에 연결됩니다. 규칙을 기반으로 하거나 시스템에서 생성할 수 있습니다."
 
 단일 이벤트는 특정 프로필에 연결됩니다. 규칙을 기반으로 하거나 시스템에서 생성할 수 있습니다.  단일 이벤트에 대한 자세한 내용 [이 섹션](../event/about-events.md).
 
