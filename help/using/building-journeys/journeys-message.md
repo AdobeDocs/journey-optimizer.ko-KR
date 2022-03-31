@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 6%
+source-wordcount: '826'
+ht-degree: 5%
 
 ---
 
 # 여정에 메시지 추가{#add-a-message-in-a-journey}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_message"
+>title="메시지 활동"
+>abstract="메시지 활동을 통해 푸시 또는 이메일 메시지를 보낼 수 있습니다. Journey Optimizer 메시지 기능이 내장되어 있습니다. 메시지는 Journey Optimizer의 메시지 메뉴에 디자인되고 게시됩니다."
 
 [!DNL Journey Optimizer] 메시지 기능이 내장되어 있으므로 컨텐츠를 디자인하고 메시지를 게시하기만 하면 됩니다. [이 섹션](../messages/get-started-content.md)을 참조하십시오. 그런 다음 Journey Optimizer을 사용하여 디자인된 푸시 또는 이메일 메시지를 여정에 추가하면 됩니다.
 
