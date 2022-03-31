@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,17 @@ ht-degree: 0%
 
    ![](assets/report_2.png)
 
+* 에서 전환하려면 **[!UICONTROL Live report]** 변환 후 **[!UICONTROL Global report]** 게재의 경우 을(를) 클릭합니다. **[!UICONTROL Global view]** 탭 전환기에서 을 클릭합니다.
+
+   ![](assets/report_3.png)
+
 ## 대시보드 사용자 지정 {#modify-dashboard}
 
 위젯의 크기 조정 또는 제거를 통해 각 보고 대시보드를 수정할 수 있습니다. 위젯을 변경하면 현재 사용자의 대시보드에만 영향을 줍니다. 다른 사용자는 자신의 대시보드 또는 기본적으로 설정된 대시보드를 보게 됩니다.
 
 1. 전환 표시줄을 사용하여 보고서에서 테스트 이벤트를 제외하려는 경우 선택합니다. 테스트 이벤트에 대한 자세한 내용은 [이 페이지](../building-journeys/testing-the-journey.md).
+
+   다음 사항에 유의하십시오. **[!UICONTROL Exclude test events]** 옵션은 여정 보고서에만 사용할 수 있습니다.
 
    ![](assets/report_modify_6.png)
 
