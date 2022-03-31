@@ -6,16 +6,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 0%
+source-wordcount: '828'
+ht-degree: 1%
 
 ---
 
 # 세그먼트 자격 이벤트 {#segment-qualification}
 
 ## 세그먼트 자격 이벤트 정보{#about-segment-qualification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification"
+>title="세그먼트 자격 이벤트"
+>abstract="이 활동을 통해 여정은 Adobe Experience Platform 세그먼트의 프로필의 처음과 끝에서 의견을 수렴하여 개인 사용자가 여정에 들어오거나 이동할 수 있습니다."
 
 이 활동을 통해 여정은 Adobe Experience Platform 세그먼트의 프로필의 처음과 끝에서 의견을 수렴하여 개인 사용자가 여정에 들어오거나 이동할 수 있습니다. 세그먼트 만들기에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../segment/about-segments.md).
 
