@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
-workflow-type: ht
-source-wordcount: '925'
-ht-degree: 100%
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '966'
+ht-degree: 93%
 
 ---
 
@@ -30,33 +30,38 @@ ht-degree: 100%
    + [제한 사항](using/start/limitations.md)
 + 메시지 {#messages}
    + [메시지 시작](using/messages/get-started-content.md)
-   + 메시지 만들기 {#create-message}
-      + [메시지 만들기](using/messages/create-message.md)
-      + [이메일 만들기](using/messages/create-email.md)
-      + [푸시 알림 만들기](using/messages/create-push.md)
-      + [SMS 메시지 만들기](using/messages/create-sms.md)
-   + [자산 추가 및 관리](using/messages/assets-essentials.md)
-   + [개인화된 오퍼 추가](using/messages/deliver-personalized-offers.md)
-   + 이메일 디자인 {#email-designer}
-      + [이메일 디자인 시작](using/messages/design-emails.md)
-      + [UI에서 이메일 콘텐츠 디자인](using/messages/create-email-content.md)
-      + [이메일 콘텐츠 가져오기 또는 코드 작성](using/messages/existing-content.md)
-      + [이메일 디자이너 콘텐츠 구성 요소 사용](using/messages/content-components.md)
-   + [링크 추가 및 메시지 추적](using/messages/message-tracking.md)
+   + [이메일 만들기](using/messages/create-email.md)
+   + [푸시 알림 만들기](using/messages/create-push.md)
+   + [SMS 메시지 만들기](using/messages/create-sms.md)
    + {#validate} 유효성 확인 및 게시
-      + [미리보기 및 증명](using/messages/preview.md)
       + [경고 확인](using/messages/alerts.md)
       + [메시지 게시](using/messages/publish-manage-message.md)
    + [동의 관리](using/messages/consent.md)
++ 콘텐츠 디자인 {#design}
+   + [이메일 디자인 시작](using/design/design-emails.md)
+   + [처음부터 시작 ](using/design/create-email-content.md)
+   + [이메일 콘텐츠 가져오기](using/design/existing-content.md)
+   + [고유한 컨텐츠 코드 지정](using/design/code-content.md)
+   + 컨텐츠 디자인 {#design-content}
+      + [콘텐츠 구성 요소 사용](using/design/content-components.md)
+      + [배경 설정](using/design/backgrounds.md)
+      + [세로 정렬 및 패딩 조정](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [링크의 스타일 정의](using/design/styling-links.md)
+      + [인라인 스타일 속성 추가](using/design/adding-inline-styling-attributes.md)
+   + 이메일 설정 {#design-email}
+      + [텍스트 버전 생성](using/design/text-version-email.md)
+      + [사전 헤더 추가](using/design/preheader.md)
+   + 자산 추가 및 관리 {#manage-asset}
+      + [Assets Essentials 작업](using/design/assets-essentials.md)
+   + [개인화된 오퍼 추가](using/design/deliver-personalized-offers.md)
+   + [링크 추가 및 메시지 추적](using/design/message-tracking.md)
+   + [미리보기 및 증명](using/design/preview.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
    + [랜딩 페이지 디자인](using/landing-pages/design-lp.md)
    + [구독 목록 만들기](using/landing-pages/subscription-list.md)
    + [사용 사례](using/landing-pages/lp-use-cases.md)
-   + 보고 {#lp-reporting}
-      + [랜딩 페이지 보고](using/landing-pages/lp-report.md)
-      + [구독 목록 보고](using/landing-pages/subscription-report.md)
 + 개인화{#personalization}
    + [시작 개인화](using/personalization/personalize.md)
    + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
@@ -85,13 +90,14 @@ ht-degree: 100%
    + 세그먼트 {#segments}
       + [세그먼트 시작](using/segment/about-segments.md)
       + [세그먼트 작성](using/segment/creating-a-segment.md)
-   + [프로필](using/start/get-started-profiles.md)
-   + [ID](using/start/get-started-identity.md)
+   + [프로필] {#profiles}
+      + [프로필 시작](using/segment/get-started-profiles.md)
+      + [테스트 프로필 만들기](using/segment/creating-test-profiles.md)
+   + [ID](using/segment/get-started-identity.md)
 + 여정 {#orchestrate-journeys}
    + 여정 정보{#about-journeys}
       + [일반 원칙](using/building-journeys/journey.md)
       + [여정 버전](using/building-journeys/journey-versions.md)
-      + [테스트 프로필 만들기](using/building-journeys/creating-test-profiles.md)
       + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
    + 여정 만들기{#create-journey}
       + [여정 시작](using/building-journeys/journey-gs.md)
@@ -207,17 +213,21 @@ ht-degree: 100%
       + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
       + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
 + 추적 및 모니터링 {#reporting}
-   + [메시지 모니터링](using/messages/message-monitoring.md)
+   + [메시지 모니터링](using/reports/message-monitoring.md)
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 대시보드 액세스](using/reports/live-report.md)
       + [여정 라이브 보고서](using/reports/journey-live-report.md)
       + [이메일 라이브 보고서](using/reports/email-live-report.md)
       + [라이브 보고서 푸시](using/reports/push-live-report.md)
+      + [랜딩 페이지 라이브 보고서](using/reports/lp-report-live.md)
+      + [구독 목록 라이브 보고서](using/reports/subscription-report-live.md)
    + 글로벌 보고서 {#global-report}
       + [글로벌 보고서 대시보드 액세스](using/reports/global-report.md)
       + [여정 글로벌 보고서](using/reports/journey-global-report.md)
       + [이메일 글로벌 보고서](using/reports/email-global-report.md)
       + [글로벌 보고서 푸시](using/reports/push-global-report.md)
+      + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)
+      + [구독 목록 전역 보고서](using/reports/subscription-report-global.md)
    + 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
@@ -230,9 +240,9 @@ ht-degree: 100%
          + [ID 필드](using/reports/sharing-identity-fields.md)
       + [쿼리 예제](using/reports/query-examples.md)
    + 전달성 {#deliverability}
-      + [전달성 시작](using/messages/deliverability.md)
-      + [제외 목록](using/messages/suppression-list.md)
-      + [허용 목록](using/messages/allow-list.md)
+      + [전달성 시작](using/reports/deliverability.md)
+      + [제외 목록](using/reports/suppression-list.md)
+      + [허용 목록](using/reports/allow-list.md)
 + 의사 결정 관리 {#offer-decisioniong}
    + 의사 결정 관리 시작 {#get-started-decision}
       + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
@@ -313,6 +323,7 @@ ht-degree: 100%
          + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
       + API를 사용한 오퍼 게재 {#offer-delivery}
          + [의사 결정 API](using/offers/api-reference/decisions-api/deliver-offers.md)
+         + [Batch Decisioning API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
          + [Adobe Experience Platform 웹 SDK](using/offers/api-reference/web-sdk.md)
 + 데이터 관리 {#data-management}
    + [스키마](using/start/get-started-schemas.md)
@@ -322,8 +333,8 @@ ht-degree: 100%
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
    + 메시지 구성 {#configuration-message}
       + 푸시 알림 구성{#push-config}
-         + [푸시 구성 시작](using/messages/push-gs.md)
-         + [푸시 알림 채널 구성](using/messages/push-configuration.md)
+         + [푸시 구성 시작](using/configuration/push-gs.md)
+         + [푸시 알림 채널 구성](using/configuration/push-configuration.md)
       + 이메일 구성 {#email-configuration}
          + 하위 도메인 위임 {#delegate-subdomains}
             + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
@@ -338,6 +349,7 @@ ht-degree: 100%
          + [이메일 기본 주소 변경](using/configuration/primary-email-addresses.md)
       + [SMS 채널 구성](using/configuration/sms-configuration.md)
       + [메시지 사전 설정 만들기](using/configuration/message-presets.md)
+      + [빈도 규칙 구성](using/configuration/frequency-rules.md)
    + [랜딩 페이지 구성](using/configuration/lp-configuration.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
