@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,15 @@ ht-degree: 0%
 
 * 여정 컨텍스트에서 여정 또는 게재를 타깃팅하려면 **[!UICONTROL Journeys]** 메뉴에서 여정에 액세스하여 **[!UICONTROL Global report]** 아이콘. 그런 다음 여정, 이메일 및 푸시를 찾을 수 있습니다 **[!UICONTROL Global report]**.
 
+   ![](assets/report_6.png)
+
 * 특정 게재를 타깃팅하려면 **[!UICONTROL Global view]** 의 **[!UICONTROL Executions]** 메시지의 탭을 선택합니다. **[!UICONTROL Global Report]** 선택한 게재의 고급 메뉴에서 을 클릭합니다.
+
+   ![](assets/report_4.png)
+
+* 에서 전환하려면 **[!UICONTROL Global report]** 변환 후 **[!UICONTROL Live report]** 게재의 경우 을(를) 클릭합니다. **[!UICONTROL Live view]** 탭 전환기에서 을 클릭합니다.
+
+   ![](assets/report_5.png)
 
 ## 대시보드 사용자 지정 {#modify-dashboard}
 
@@ -34,6 +42,8 @@ ht-degree: 0%
    ![](assets/report_modify_1.png)
 
 1. 전환 표시줄을 사용하여 보고서에서 테스트 이벤트를 제외하려는 경우 선택합니다. 테스트 이벤트에 대한 자세한 내용은 [이 페이지](../building-journeys/testing-the-journey.md).
+
+   다음 사항에 유의하십시오. **[!UICONTROL Exclude test events]** 옵션은 여정 보고서에만 사용할 수 있습니다.
 
    ![](assets/report_modify_2.png)
 
