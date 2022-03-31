@@ -3,7 +3,7 @@ title: 시스템 관리자용 Journey Optimizer 시작하기
 description: 시스템 관리자는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 로서의 **시스템 관리자**: **제품 프로필 이해 및 권한 할당** 샌드박스 관리 및 채널 구성용. 또한 샌드박스를 설정하고 사용 가능한 제품 프로필에 대해 관리해야 합니다. 그런 다음 팀 구성원을 제품 프로필에 할당할 수 있습니다.
 
-이러한 기능은 **[!UICONTROL Product administrators]** admin console에 액세스할 수 있습니다. [Adobe Admin Console에 대해 자세히 알아보기](https://helpx.adobe.com/kr/enterprise/admin-guide.html){target=&quot;_blank&quot;}.
+이러한 기능은 **[!UICONTROL Product administrators]** admin console에 액세스할 수 있습니다. [Adobe Admin Console에 대해 자세히 알아보기](https://helpx.adobe.com/enterprise/admin-guide.html){target=&quot;_blank&quot;}.
 
 다음 페이지에서 액세스 관리에 대해 알아봅니다.
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 1. **메시지 및 채널 구성**: 사전 설정 정의, 이메일 및 푸시 메시지 설정 조정 및 사용자 정의
 
-   * 정의 **푸시 알림 설정** 둘 다 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]. [자세히 알아보기](../../messages/push-gs.md)
+   * 정의 **푸시 알림 설정** 둘 다 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]. [자세히 알아보기](../../configuration/push-gs.md)
 
    * 만들기 **메시지 사전 설정** 전자 메일 및 푸시 알림 메시지에 필요한 모든 기술 매개 변수를 구성하려면 다음을 수행하십시오. [자세히 알아보기](../../configuration/message-presets.md)
 
@@ -64,8 +64,8 @@ ht-degree: 2%
 
 1. **억제 및 허용 목록 관리**: 억제 및 허용 목록을 통해 게재 능력 개선
 
-   * A [제외 목록](../../messages/suppression-list.md) 은(는) 이러한 연락처로 보내면 전송 신뢰도와 전송 속도가 저하될 수 있으므로 게재에서 제외할 이메일 주소로 구성됩니다. 잘못된 주소, 일관된 소프트 바운스(소프트 바운스)를 갖는 주소, 이메일 평판에 부정적인 영향을 줄 수 있는 수신자 등 여정에서 전송하지 않고 자동으로 제외된 모든 이메일 주소를 모니터링할 수 있으며, 이메일 메시지 중 하나에 대해 어떤 종류의 스팸 불만 사항을 제기하는 수신자도 모니터링할 수 있습니다. 관리 방법 알아보기 [제외 목록](../../configuration/manage-suppression-list.md) 및 [다시 시도](../../configuration/retries.md).
+   * A [제외 목록](../../reports/suppression-list.md) 은(는) 이러한 연락처로 보내면 전송 신뢰도와 전송 속도가 저하될 수 있으므로 게재에서 제외할 이메일 주소로 구성됩니다. 잘못된 주소, 일관된 소프트 바운스(소프트 바운스)를 갖는 주소, 이메일 평판에 부정적인 영향을 줄 수 있는 수신자 등 여정에서 전송하지 않고 자동으로 제외된 모든 이메일 주소를 모니터링할 수 있으며, 이메일 메시지 중 하나에 대해 어떤 종류의 스팸 불만 사항을 제기하는 수신자도 모니터링할 수 있습니다. 관리 방법 알아보기 [제외 목록](../../configuration/manage-suppression-list.md) 및 [다시 시도](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
 
-   * 다음 [허용 목록](../../messages/allow-list.md) 특정 샌드박스에서 보내는 이메일을 받을 수 있는 권한이 있는 유일한 수신자 또는 도메인이 되는 개별 이메일 주소 또는 도메인을 지정할 수 있도록 해줍니다. 따라서 테스트 환경에 있을 때 실수로 실제 고객 주소로 이메일을 보내지 않을 수 있습니다. 방법 알아보기 [허용 목록 활성화](../../messages/allow-list.md).
-   의 게재 기능 관리에 대해 자세히 알아보십시오 [!DNL Adobe Journey Optimizer] [이 페이지에서](../../messages/deliverability.md).
+   * 다음 [허용 목록](../../reports/allow-list.md) 특정 샌드박스에서 보내는 이메일을 받을 수 있는 권한이 있는 유일한 수신자 또는 도메인이 되는 개별 이메일 주소 또는 도메인을 지정할 수 있도록 해줍니다. 따라서 테스트 환경에 있을 때 실수로 실제 고객 주소로 이메일을 보내지 않을 수 있습니다. 방법 알아보기 [허용 목록 활성화](../../reports/allow-list.md).
+   의 게재 기능 관리에 대해 자세히 알아보십시오 [!DNL Adobe Journey Optimizer] [이 페이지에서](../../reports/deliverability.md).
