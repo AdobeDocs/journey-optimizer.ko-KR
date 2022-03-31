@@ -1,19 +1,19 @@
 ---
-title: 저장된 표현식을 사용한 작업
+title: 저장된 표현식으로 작업하기
 description: 에서 저장된 표현식을 사용하여 작업하는 방법을 알아봅니다 [!DNL Journey Optimizer] 라이브러리.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
+source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
-# 저장된 표현식을 사용한 작업 {#expression-library}
+# 저장된 표현식으로 작업하기 {#expression-library}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
@@ -59,8 +59,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 라이브러리에 최대 40개의 표현식을 저장합니다.
->
 >* 식은 200KB를 초과할 수 없습니다.
 >
 >* 저장된 표현식은 생성 날짜별로 정렬됩니다. 최근에 추가한 표현식이 목록에 먼저 표시됩니다.
@@ -73,7 +71,7 @@ ht-degree: 0%
 
 ## 방법 비디오{#video}
 
-메시지에 저장된 개인화 라이브러리 항목을 사용하는 방법과 개인화 라이브러리 항목을 만들고 관리하는 방법을 알아봅니다.
+저장한 개인화 라이브러리 항목을 메시지에 사용하는 방법과 개인화 라이브러리 항목을 만들고 관리하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
 
