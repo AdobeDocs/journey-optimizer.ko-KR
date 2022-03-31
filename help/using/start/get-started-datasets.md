@@ -4,7 +4,7 @@ description: Adobe Journey Optimizer에서 Adobe Experience Platform 데이터 �
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -38,6 +38,6 @@ XDM 스키마에 CSV 파일 매핑하기 위한 단계별 설명서는 [이 설�
 
 **참조 -**
 
-* [스키마, 데이터 세트 및 데이터를 수집하여 Journey Optimizer에서 테스트 프로필을 추가합니다](../building-journeys/creating-test-profiles.md)
+* [스키마, 데이터 세트 및 데이터를 수집하여 Journey Optimizer에서 테스트 프로필을 추가합니다](../segment/creating-test-profiles.md)
 * [스트리밍 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko){target=&quot;_blank&quot;}
 * [Adobe Experience Platform에 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
