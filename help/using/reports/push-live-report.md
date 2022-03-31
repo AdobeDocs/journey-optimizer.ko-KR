@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,13 @@ ht-degree: 0%
 
 * **[!UICONTROL Opens]**: 게재에서 메시지를 연 횟수입니다.
 
+![](assets/live_report_9.png)
+
+다음 **[!UICONTROL Error Reasons]** 및 **[!UICONTROL Exclude Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류와 제외를 확인할 수 있습니다.
+
+다음 **[!UICONTROL Sending statistics - Failed]** 위젯을 사용하면 발생한 오류 및 반송 수를 확인할 수 있습니다.
+
 ![](assets/live_report_4.png)
 
 다음 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 및 **[!UICONTROL Breakdown by platform]** 그래프 및 표는 운영 시스템에 따라 푸시 알림의 성공을 자세히 설명합니다.
 
-다음 **[!UICONTROL Sending statistics - Failed]** 위젯을 사용하면 발생한 오류 및 바운스 수를 확인할 수 있습니다.
-
-다음 **[!UICONTROL Error Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류를 확인할 수 있습니다.
