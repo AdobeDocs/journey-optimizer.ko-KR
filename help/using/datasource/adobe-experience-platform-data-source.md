@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 11%
+source-wordcount: '420'
+ht-degree: 10%
 
 ---
 
 # Adobe Experience Platform 데이터 소스 {#adobe-experience-platform-data-source}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_data_source_built_in"
+>title="Adobe Experience Platform 데이터 소스"
+>abstract="Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비스에 대한 연결을 정의합니다. 이 데이터 소스는 기본적으로 제공되며 사전 구성되어 있습니다. 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예를 들어 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다."
 
 Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비스에 대한 연결을 정의합니다. 이 데이터 소스는 기본적으로 제공되며 사전 구성되어 있습니다. 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예를 들어 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. 실시간 고객 프로필 서비스에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target=&quot;_blank&quot;}.
 
