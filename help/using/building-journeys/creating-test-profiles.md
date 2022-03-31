@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 테스트 프로필 만들기 {#create-test-profiles}
 
-테스트 프로필은 [테스트 모드](../building-journeys/testing-the-journey.md) 여정 및 [컨텐츠 미리 보기 및 테스트](../messages/preview.md).
+테스트 프로필은 [테스트 모드](../building-journeys/testing-the-journey.md) 여정 및 [컨텐츠 미리 보기 및 테스트](../design/preview.md).
 
 테스트 프로필을 만드는 방법에는 여러 가지가 있습니다. 이 페이지 세부 정보에서 다음을 찾을 수 있습니다.
 
@@ -92,7 +92,7 @@ Adobe Journey Optimizer 홈페이지에서 테스트 프로필 제품 내 사용
 
 다음 정보가 필요합니다.
 
-1. **ID 네임스페이스**: 다음 [id 네임스페이스](../start/get-started-identity.md) 테스트 프로필을 고유하게 식별하는 데 사용됩니다. 예를 들어 이메일을 사용하여 테스트 프로필을 식별하는 경우 ID 네임스페이스 **이메일** 을 선택해야 합니다. 고유 식별자가 전화 번호인 경우 ID 네임스페이스가 됩니다 **전화** 을 선택해야 합니다.
+1. **ID 네임스페이스**: 다음 [id 네임스페이스](../segment/get-started-identity.md) 테스트 프로필을 고유하게 식별하는 데 사용됩니다. 예를 들어 이메일을 사용하여 테스트 프로필을 식별하는 경우 ID 네임스페이스 **이메일** 을 선택해야 합니다. 고유 식별자가 전화 번호인 경우 ID 네임스페이스가 됩니다 **전화** 을 선택해야 합니다.
 
 2. **CSV 파일**: 만들 테스트 프로필 목록이 포함된 쉼표로 구분된 파일입니다. 사용 사례에는 만들 테스트 프로필 목록이 포함된 CSV 파일에 대해 사전 정의된 형식이 필요합니다. 파일의 각 행에는 다음과 같이 올바른 순서로 다음 필드가 포함되어야 합니다.
 
@@ -120,7 +120,7 @@ ID 네임스페이스를 선택하고 위의 형식을 기반으로 CSV 파일�
 
 >[!NOTE]
 >
-> 업데이트되므로 **testProfile** 필드 선택한 프로필에는 이 필드가 포함되어야 합니다. 관련 스키마에는 **프로필 테스트 세부 사항** 필드 그룹. [이 섹션](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)을 참조하십시오.
+> 업데이트되므로 **testProfile** 필드 선택한 프로필에는 이 필드가 포함되어야 합니다. 관련 스키마에는 **프로필 테스트 세부 사항** 필드 그룹. [이 섹션](../segment/creating-test-profiles.md#test-profiles-prerequisites)을 참조하십시오.
 
 1. 찾아보기 **세그먼트**, 그런 다음 **세그먼트 만들기**를 입력합니다.
    ![](assets/test-profiles-22.png)
