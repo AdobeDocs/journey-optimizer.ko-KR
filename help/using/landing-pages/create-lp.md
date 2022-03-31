@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '926'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ![](assets/lp_access-list-filter.png)
 
-이 목록에서 [랜딩 페이지 보고서](lp-report.md) 게시된 항목에 대해 설명합니다.
+이 목록에서 [랜딩 페이지 라이브 보고서](../reports/lp-report-live.md) 또는 [랜딩 페이지 글로벌 보고서](../reports/lp-report-global.md) 게시된 항목에 대해 설명합니다.
 
 랜딩 페이지를 삭제, 복제 및 게시 취소할 수도 있습니다.
 
@@ -133,7 +133,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../building-journeys/creating-test-profiles.md).
+>메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../segment/creating-test-profiles.md).
 
 1. 랜딩 페이지 인터페이스에서 **[!UICONTROL Preview & test]** 테스트 프로필 선택에 액세스하는 단추입니다.
 
@@ -147,7 +147,7 @@ ht-degree: 2%
 
    ![](assets/lp_test-profiles.png)
 
-   테스트 프로필을 선택하는 단계는 메시지를 테스트할 때와 동일합니다. 자세한 내용은 [이 섹션](../messages/preview.md#select-test-profiles).
+   테스트 프로필을 선택하는 단계는 메시지를 테스트할 때와 동일합니다. 자세한 내용은 [이 섹션](../design/preview.md#select-test-profiles).
 
 1. 을(를) 선택합니다 **[!UICONTROL Preview]** 탭을 클릭하고 **[!UICONTROL Open preview]** 랜딩 페이지를 테스트하려면 다음을 수행하십시오.
 
@@ -210,9 +210,9 @@ ht-degree: 2%
 
 랜딩 페이지가 게시되면 과 함께 랜딩 페이지 목록에 추가됩니다. **[!UICONTROL Published]** 상태.
 
-이제 라이브로 사용 가능하며, [!DNL Journey Optimizer] [메시지](../messages/create-message.md) 그것은 [여정](../building-journeys/journey.md).
+이제 라이브로 사용 가능하며, [!DNL Journey Optimizer] [메시지](../messages/get-started-content.md) 그것은 [여정](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->특정 보고서를 통해 랜딩 페이지의 영향을 모니터링할 수 있습니다. [자세히 알아보기](lp-report.md)
+>특정 보고서를 통해 랜딩 페이지의 영향을 모니터링할 수 있습니다. [자세히 알아보기](../reports/lp-report-live.md)
 
