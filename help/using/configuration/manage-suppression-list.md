@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 * 게재를 계속 포함하는 경우 일관되게 소프트 바운스, 그리고 이메일 평판에 부정적인 영향을 줄 수 있는 주소를 제공합니다.
 * 이메일 메시지 중 하나에 대해 일종의 스팸 불만 사항을 발행한 수신자입니다.
 
-이러한 이메일 주소는 Journey Optimizer에 자동으로 수집됩니다 **제외 목록**. 에서 억제 목록 개념 및 사용에 대해 자세히 알아보십시오 [이 섹션](../messages/suppression-list.md).
+이러한 이메일 주소는 Journey Optimizer에 자동으로 수집됩니다 **제외 목록**. 에서 억제 목록 개념 및 사용에 대해 자세히 알아보십시오 [이 섹션](../reports/suppression-list.md).
 
 ## 제외 목록에 액세스합니다 {#access-suppression-list}
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 ![](assets/suppression-list-delete.png)
 
-제외 목록에서 이메일 주소 또는 도메인을 삭제하면 이 주소 또는 도메인으로 다시 배달됩니다. 따라서 게재 능력과 IP 평판에 심각한 영향을 줄 수 있으므로 IP 주소 또는 전송 도메인이 차단될 수 있습니다. 에서 제외 목록 유지 관리의 중요도에 대해 자세히 알아보십시오. [이 섹션](../messages/suppression-list.md).
+제외 목록에서 이메일 주소 또는 도메인을 삭제하면 이 주소 또는 도메인으로 다시 배달됩니다. 따라서 게재 능력과 IP 평판에 심각한 영향을 줄 수 있으므로 IP 주소 또는 전송 도메인이 차단될 수 있습니다. 에서 제외 목록 유지 관리의 중요도에 대해 자세히 알아보십시오. [이 섹션](../reports/suppression-list.md).
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->에서 소프트 바운스 및 하드 바운스에 대해 자세히 알아보십시오 [게재 실패 유형](../messages/suppression-list.md#delivery-failures) 섹션을 참조하십시오.
+>에서 소프트 바운스 및 하드 바운스에 대해 자세히 알아보십시오 [게재 실패 유형](../reports/suppression-list.md#delivery-failures) 섹션을 참조하십시오.
 
 나열된 각 이메일 주소에 대해 다음을 확인할 수도 있습니다 **[!UICONTROL Type]** (이메일 또는 도메인), **[!UICONTROL Reason]** 제외하기 위해 추가한 사람과 제외 목록에 추가한 날짜/시간입니다.
 
