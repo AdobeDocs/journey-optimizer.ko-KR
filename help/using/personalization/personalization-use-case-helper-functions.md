@@ -336,7 +336,7 @@ ht-degree: 3%
 
 ### 사용 사례 {#use-case}
 
-* [프로필 정보, 컨텍스트 및 오퍼를 사용한 개인화](personalization-use-case.md)
+* [프로필 정보, 컨텍스트 및 오퍼가 포함된 Personalization](personalization-use-case.md)
 
 * [의사 결정 기반 오퍼를 사용한 개인화](../offers/offers-e2e.md)
 
