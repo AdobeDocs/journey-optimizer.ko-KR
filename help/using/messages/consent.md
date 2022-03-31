@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1225'
+ht-degree: 82%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 100%
 
 1. 원하는 서드파티 시스템에 호스팅합니다.
 
-1. [!DNL Journey Optimizer]에 [메시지를 작성합니다](create-message.md).
+1. [!DNL Journey Optimizer]에 [메시지를 작성합니다](get-started-content.md).
 
-1. 콘텐츠에서 텍스트를 선택하고 상황별 도구 모음을 사용하여 [링크를 삽입합니다](message-tracking.md#insert-links).
+1. 콘텐츠에서 텍스트를 선택하고 상황별 도구 모음을 사용하여 [링크를 삽입합니다](../design/message-tracking.md#insert-links).
 
    ![](assets/opt-out-insert-link.png)
 
@@ -141,7 +141,7 @@ ht-degree: 100%
 
 이메일에 옵트아웃 링크를 추가하려면 아래 단계를 따르십시오.
 
-1. [링크를 삽입하고](message-tracking.md#insert-links) 링크 유형으로 **[!UICONTROL One click Opt-out]**&#x200B;을(를) 선택합니다.
+1. [링크를 삽입하고](../design/message-tracking.md#insert-links) 링크 유형으로 **[!UICONTROL One click Opt-out]**&#x200B;을(를) 선택합니다.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -155,6 +155,10 @@ ht-degree: 100%
 
 1. 사용자가 가입 해지되면 리디렉션될 랜딩 페이지의 URL을 입력합니다. 이 페이지는 옵트아웃이 성공했는지 확인하기 위한 것입니다.
 
+   >[!NOTE]
+   >
+   >를 활성화한 경우 **목록 가입 해지** 옵션: 메시지 사전 설정 수준의 이 URL은 사용자가 이메일 헤더에서 가입 해지 링크를 클릭할 때도 사용됩니다. [자세히 알아보기](#unsubscribe-header)
+
    ![](assets/message-tracking-opt-out-confirmation.png)
 
    링크를 개인화할 수 있습니다. [이 섹션](../personalization/personalization-syntax.md)에서 URL 개인화에 대해 자세히 알아보십시오.
@@ -163,19 +167,41 @@ ht-degree: 100%
 
 [여정](../building-journeys/journey.md)을 통해 메시지를 보낸 이후 수신자가 옵트아웃 링크를 클릭하면 수신자의 프로필이 즉시 옵트아웃됩니다.
 
-### 메시지 헤더의 구독 취소 링크 {#unsubscribe-email}
+### 메시지 헤더의 구독 취소 링크 {#unsubscribe-header}
 
-수신자의 이메일 클라이언트가 이메일 헤더에 구독 취소 링크 표시를 지원하는 경우 [!DNL Journey Optimizer]를 사용하여 전송된 이메일에 이 링크가 자동으로 포함됩니다.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_unsubscribe"
+>title="이메일 헤더에 구독 취소 링크 추가"
+>abstract="목록 가입 해지 를 활성화하여 이메일 헤더에 가입 해지 링크를 추가합니다. 구독 취소 URL을 설정하려면 원클릭 옵트아웃 링크를 이메일 메시지 콘텐츠에 삽입합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="원클릭 옵트아웃"
+
+만약 [목록 가입 해지 옵션](../configuration/message-presets.md#list-unsubscribe) 메시지 사전 설정 수준에서 활성화되고 [!DNL Journey Optimizer] 이메일 헤더에 구독 취소 링크가 포함됩니다.
 
 예를 들어 구독 취소 링크는 Gmail에서 다음과 같이 표시됩니다.
 
-![](assets/unsubscribe-email.png)
+![](assets/unsubscribe-header.png)
 
-이메일 클라이언트에 따라 헤더에서 구독 취소 링크를 클릭하면 다음 영향 중 하나가 발생합니다.
+>[!NOTE]
+>
+>이메일 헤더에 가입 해지 링크를 표시하려면 수신자의 이메일 클라이언트가 이 기능을 지원해야 합니다.
+
+가입 해지 주소가 기본값입니다 **[!UICONTROL Mailto (unsubscribe)]** 해당 메시지 사전 설정에 표시되는 주소입니다. [자세히 알아보기](../configuration/message-presets.md#list-unsubscribe).
+
+개인화된 구독 취소 URL을 설정하려면 전자 메일 메시지 콘텐츠에 원클릭 옵트아웃 링크를 삽입하고 원하는 URL을 입력합니다. [자세히 알아보기](#one-click-opt-out)
+
+이메일 클라이언트에 따라 헤더에서 가입 해지 링크를 클릭하면 다음과 같은 영향을 받을 수 있습니다.
+
+* 가입 해지 요청이 가입 해지 주소로 전송됩니다.
+
+* 수신자는 메시지에 옵트아웃 링크를 추가할 때 지정한 랜딩 페이지 URL로 이동됩니다.
+
+   >[!NOTE]
+   >
+   >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 표시되지 않습니다.
 
 * 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
 
-* 이메일 콘텐츠에서 구독 취소 링크를 클릭하는 것과 동일한 효과가 있습니다. 수신자는 옵트아웃을 확인하는 버튼이 포함된 랜딩 페이지로 리디렉션됩니다. [이 섹션](#opt-out-management)에서 옵트아웃 관리에 대해 자세히 알아보십시오.
+<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## 푸시 옵트아웃 관리 {#push-opt-out-management}
 
