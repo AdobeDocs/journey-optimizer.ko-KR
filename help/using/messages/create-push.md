@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 9%
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 [!DNL Journey Optimizer] 은 푸시 알림을 지원하며 업계 선도적인 처리량 비율로 관련 알림을 전송하는 데 도움이 됩니다. 푸시 알림에는 Adobe Experience Cloud을 통해 브랜드의 데이터 통찰력을 활용하기 위해 개인화 및 여정 기반 컨텍스트가 포함될 수 있습니다.
 
-일단 [메시지를 만들었습니다.](create-message.md)를 클릭하고 **[!UICONTROL Push Notification]** 탭하여 푸시 알림의 설정 및 컨텐츠를 정의합니다.
+일단 [메시지를 만들었습니다.](get-started-content.md)를 클릭하고 **[!UICONTROL Push Notification]** 탭하여 푸시 알림의 설정 및 컨텐츠를 정의합니다.
 
 ![](assets/create-content-push.png)
 
@@ -68,7 +68,7 @@ Android 버전에서는 이미지 아이콘과 확장된 알림용 이미지만 
 
 * 를 사용하십시오 **[!UICONTROL Add media]** 버튼을 클릭하여 자산을 선택합니다. **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-   사용 방법 알아보기 **[!DNL Adobe Experience Manager Assets Essentials]** in [이 페이지](assets-essentials.md).
+   사용 방법 알아보기 **[!DNL Adobe Experience Manager Assets Essentials]** in [이 페이지](../design/assets-essentials.md).
 
 * 또는 미디어 URL을 **[!UICONTROL Add media]** 필드. 이 경우 URL에 개인화를 추가할 수 있습니다.
 
@@ -102,7 +102,7 @@ iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android
 
 ## 사용자 지정 데이터
 
-에서 **[!UICONTROL Custom data]** 섹션에서 모바일 애플리케이션 구성에 따라 페이로드에 사용자 지정 변수를 추가할 수 있습니다. Adobe Experience Platform 및 Launch에서 푸시 알림을 설정하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](push-gs.md)
+에서 **[!UICONTROL Custom data]** 섹션에서 모바일 애플리케이션 구성에 따라 페이로드에 사용자 지정 변수를 추가할 수 있습니다. Adobe Experience Platform 및 Launch에서 푸시 알림을 설정하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../configuration/push-gs.md)
 
 ## 고급 옵션 {#advanced-options-push}
 
@@ -127,6 +127,6 @@ iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [푸시 채널 구성](push-gs.md)
-* [새 메시지 만들기](create-message.md)
+* [푸시 채널 구성](../configuration/push-gs.md)
+* [새 메시지 만들기](get-started-content.md)
 * [여정에 메시지 추가](../building-journeys/journeys-message.md)
