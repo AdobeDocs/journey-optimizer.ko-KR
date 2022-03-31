@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '719'
 ht-degree: 1%
 
 ---
@@ -115,7 +115,11 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 * **[!UICONTROL Ignored]**: 부재 중 또는 기술 오류(예: 발신자 유형이 postmaster인 경우)와 같은 총 임시 수입니다.
 
-다음 **[!UICONTROL Error Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류를 확인할 수 있습니다.
+![](assets/report_email_3.png)
+
+다음 **[!UICONTROL Error Reasons]** 및 **[!UICONTROL Exclude Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류와 제외를 확인할 수 있습니다.
+
+다음 **[!UICONTROL Email - Top recipient domain]** 전자 메일을 여는 데 받는 사람이 가장 많이 사용하는 도메인을 그래프 및 표 세부 사항입니다.
 
 ## 푸시 탭 {#push-live}
 
@@ -141,10 +145,12 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 * **[!UICONTROL Engagements]**: 이 푸시 알림에 대한 총 열기 및 작업 수(즉, 프로필이 푸시를 열었는지 또는 단추를 클릭했는지 여부)입니다.
 
-다음 **[!UICONTROL Error Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류를 확인할 수 있습니다.
+![](assets/report_push_3.png)
+
+다음 **[!UICONTROL Error Reasons]** 및 **[!UICONTROL Exclude Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류와 제외를 확인할 수 있습니다.
+
+다음 **[!UICONTROL Sending statistics - Failed]** 위젯을 사용하면 발생한 오류 및 반송 수를 확인할 수 있습니다.
 
 ![](assets/report_push_2.png)
 
 다음 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 및 **[!UICONTROL Breakdown by platform]** 그래프 및 표는 운영 시스템에 따라 푸시 알림의 성공을 자세히 설명합니다.
-
-다음 **[!UICONTROL Sending statistics - Failed]** 위젯을 사용하면 발생한 오류 및 바운스 수를 확인할 수 있습니다.
