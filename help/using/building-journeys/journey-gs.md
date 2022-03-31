@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1752'
 ht-degree: 7%
 
 ---
@@ -68,6 +68,11 @@ ht-degree: 7%
    ![](assets/jo-dynamic_report_journey_12.png)
 
 ## 속성 변경 {#change-properties}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties"
+>title="여정 속성"
+>abstract="관리자는 여정 이름을 변경하고, 설명을 추가하고, 다시 시작하고, 시작 날짜와 종료 날짜를 선택하고, 시간 초과와 오류 지속 시간을 정의할 수 있습니다."
 
 오른쪽 상단에 있는 연필 아이콘을 클릭하여 여정 속성에 액세스합니다.
 
