@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 61d716fcc1394a32ca7cb9b4c13d28b073135592
+source-git-commit: 296c17048f0d3dbabd210b0522d061028d5890dc
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 1%
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 테스트 프로필 선택 {#select-test-profiles}
 
-먼저 시뮬레이션에 사용할 테스트 프로필을 선택해야 합니다. 의 테스트 프로필에 대해 자세히 알아보십시오 [이 페이지](../../building-journeys/creating-test-profiles.md).
+먼저 시뮬레이션에 사용할 테스트 프로필을 선택해야 합니다. 의 테스트 프로필에 대해 자세히 알아보십시오 [이 페이지](../../segment/creating-test-profiles.md).
 
 1. **[!UICONTROL Manage profile]**&#x200B;을(를) 클릭합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보십시오 [이 섹션](../../start/get-started-identity.md){target=&quot;_blank&quot;}.
+   >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보십시오 [이 섹션](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
 
 1. ID 값을 입력하고 를 클릭합니다. **[!UICONTROL View]** 사용 가능한 프로필을 나열하려면 다음을 수행하십시오.
 
