@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 5%
@@ -225,11 +225,11 @@ ht-degree: 5%
 
 이제 결정을 실행했으므로 이메일 메시지에 삽입할 수 있습니다. 이렇게 하려면 아래 절차를 따르십시오.
 
-1. 이메일을 만든 다음 [이메일 디자이너](../../using/messages/design-emails.md) 콘텐츠를 구성하려면 다음을 수행하십시오.
+1. 이메일을 만든 다음 [이메일 디자이너](../../using/design/design-emails.md) 콘텐츠를 구성하려면 다음을 수행하십시오.
 
 1. 왼쪽 팔레트에서 구조 구성 요소를 추가합니다.
 
-1. 추가 **[!UICONTROL Offer decision]** 컨텐츠 구성 요소입니다. 에서 콘텐츠 구성 요소를 사용하는 방법을 알아봅니다. [이 섹션](../../using/messages/content-components.md).
+1. 추가 **[!UICONTROL Offer decision]** 컨텐츠 구성 요소입니다. 에서 콘텐츠 구성 요소를 사용하는 방법을 알아봅니다. [이 섹션](../../using/design/content-components.md).
 
    ![](assets/offers-e2e-decision-component.png)
 
@@ -255,7 +255,7 @@ ht-degree: 5%
 
 ![](assets/offers-e2e-offers-displayed.png)
 
-를 사용하십시오 **[!UICONTROL Offers]** 섹션 또는 컨텐츠 구성 요소 화살표(오른쪽 및 왼쪽 화살표)를 사용하여 데이터를 찾습니다. 고객 프로필과 함께 결정의 일부인 다른 오퍼를 표시할 수도 있습니다. 추가 정보 [이 섹션](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
+를 사용하십시오 **[!UICONTROL Offers]** 섹션 또는 컨텐츠 구성 요소 화살표(오른쪽 및 왼쪽 화살표)를 사용하여 데이터를 찾습니다. 고객 프로필과 함께 결정의 일부인 다른 오퍼를 표시할 수도 있습니다. 추가 정보 [이 섹션](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
 
 변경 사항을 저장한 후 메시지가 게시되면 여정의 일부로 메시지를 보낼 때 관련 프로필에 오퍼를 표시할 수 있습니다.
 
@@ -265,7 +265,7 @@ ht-degree: 5%
 
 **관련 항목:**
 
-* 에서 메시지 미리 보기를 확인하는 방법을 알아봅니다. [이 섹션](../../using/messages/preview.md#preview-your-messages).
+* 에서 메시지 미리 보기를 확인하는 방법을 알아봅니다. [이 섹션](../../using/design/preview.md#preview-your-messages).
 
 * 에서 메시지를 게시하는 방법 알아보기 [이 섹션](../../using/messages/publish-manage-message.md).
 
