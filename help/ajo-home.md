@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
     <p>
     <p>
     <div>
-      <a href="using/messages/design-emails.md">이메일 콘텐츠 디자인</a>
+      <a href="using/design/design-emails.md">이메일 콘텐츠 디자인</a>
     </div>
     <p>
     새 이메일 디자인 또는 기존 HTML 콘텐츠 가져오기
@@ -116,7 +116,7 @@ ht-degree: 100%
       <a href="using/building-journeys/journey-gs.md">여정</a>
     </li>
     <li>
-      <a href="using/messages/create-message.md">메시지</a>
+      <a href="using/messages/get-started-content.md">메시지</a>
     </li>
     <p>
     <p>의사 결정 관리</p>
@@ -129,7 +129,7 @@ ht-degree: 100%
     <p>
     <p>콘텐츠 관리</p>
     <li>
-      <a href="using/messages/assets-essentials.md">자산</a>
+      <a href="using/design/assets-essentials.md">자산</a>
     </li>
     <p>
     <p>데이터 관리</p>
@@ -156,10 +156,10 @@ ht-degree: 100%
       <a href="using/segment/about-segments.md">세그먼트</a>
     </li>
      <li>
-      <a href="using/start/get-started-profiles.md">프로필</a>
+      <a href="using/segment/get-started-profiles.md">프로필</a>
     </li>
     <li>
-      <a href="using/start/get-started-identity.md">신원</a>
+      <a href="using/segment/get-started-identity.md">신원</a>
     </li>
     <p>
     <p>관리</p>
