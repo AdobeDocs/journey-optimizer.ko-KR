@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 653a5483fbdeb7a0b78dadc55ec71663e3ff0247
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '2067'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 > * 메시지 사전 설정 구성은 여정 관리자로 제한됩니다. [자세히 알아보기](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * 전자 메일 구성을 수행하고 [푸시 구성](../messages/push-configuration.md) 메시지 사전 설정을 만들기 전 단계.
+> * 전자 메일 구성을 수행하고 [푸시 구성](../configuration/push-configuration.md) 메시지 사전 설정을 만들기 전 단계.
 
 
 메시지 사전 설정이 구성되면, **[!UICONTROL Presets]** 목록.
@@ -106,11 +106,47 @@ ht-degree: 1%
 
 1. 사전 설정과 연결할 IP 풀을 선택합니다. [자세히 알아보기](ip-pools.md)
 
+### 목록 가입 해지 {#list-unsubscribe}
+
+On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTROL Enable List-Unsubscribe]** 옵션이 표시됩니다.
+
+![](assets/preset-list-unsubscribe.png)
+
+이 옵션은 기본적으로 활성화되어 있습니다.
+
+이 기능을 활성화한 상태로 두면 가입 해지 링크가 다음과 같이 이메일 헤더에 자동으로 포함됩니다.
+
+![](assets/preset-list-unsubscribe-header.png)
+
+이 옵션을 비활성화하면 이메일 헤더에 가입 해지 링크가 표시되지 않습니다.
+
+가입 해지 링크는 다음 두 가지 요소로 구성됩니다.
+
+* An **이메일 주소 가입**: 모든 구독 취소 요청을 전송하는 입니다.
+
+   in [!DNL Journey Optimizer], 가입 해지 이메일 주소가 기본값입니다 **[!UICONTROL Mailto (unsubscribe)]** 메시지 사전 설정에 표시되는 주소 [선택한 하위 도메인](#subdomains-and-ip-pools).
+
+   ![](assets/preset-list-unsubscribe-mailto.png)
+
+* 다음 **구독 취소 URL**: 사용자가 가입 해지되면 리디렉션되는 랜딩 페이지의 URL입니다.
+
+   를 추가할 경우 [옵트아웃 링크 1회 클릭](../messages/consent.md#one-click-opt-out) 이 사전 설정을 사용하여 만든 메시지에 대해 가입 해지 URL은 한 번의 클릭으로 옵트아웃 링크에 대해 정의된 URL입니다.
+
+   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+   >[!NOTE]
+   >
+   >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 사용자에게 표시되지 않습니다.
+
+에서 메시지에 헤더 가입 해지 링크를 추가하는 방법에 대해 자세히 알아보십시오 [이 섹션](../messages/consent.md#unsubscribe-header).
+
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
+
 ### URL 추적{#url-tracking}
 
 사용자가 링크를 클릭한 위치와 이유를 식별하기 위해,  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** 섹션을 참조하십시오.
 
-정의한 매개 변수에 따라 UTM 코드가 메시지 콘텐츠에 포함된 URL 끝에 적용됩니다. 그런 다음 Google Analytics과 같은 웹 분석 도구에서 결과를 비교할 수 있습니다. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+정의한 매개 변수에 따라 UTM 코드가 메시지 콘텐츠에 포함된 URL 끝에 적용됩니다. 그런 다음 Google Analytics과 같은 웹 분석 도구에서 결과를 비교할 수 있습니다.
 
 ![](assets/preset-url-tracking.png)
 
@@ -130,9 +166,11 @@ UTM 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Val
 
 ### 헤더 매개 변수{#email-header}
 
-에서 **[!UICONTROL HEADER PARAMETERS]** 섹션에서 해당 사전 설정을 사용하여 보낸 메시지에 연결된 이메일 주소를 입력합니다. 이러한 이메일 주소는 현재 선택한 주소를 사용해야 합니다 [위임된 하위 도메인](about-subdomain-delegation.md).
+에서 **[!UICONTROL HEADER PARAMETERS]** 섹션에서 해당 사전 설정을 사용하여 보낸 메시지 유형과 연관된 발신자 이름과 이메일 주소를 입력합니다.
 
-다음 이메일 주소를 구성해야 합니다
+>[!CAUTION]
+>
+>이메일 주소는 현재 선택한 주소를 사용해야 합니다 [위임된 하위 도메인](about-subdomain-delegation.md).
 
 * **[!UICONTROL Sender name]**: 브랜드 이름과 같은 발신자의 이름입니다.
 
@@ -143,7 +181,6 @@ UTM 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Val
 * **[!UICONTROL Reply to (email)]**: 수신자가 **회신** 버튼을 클릭합니다. 위임된 하위 도메인에 정의된 주소를 사용해야 합니다(예: *reply@marketing.luma.com*). 그렇지 않으면 이메일이 삭제됩니다.
 
 * **[!UICONTROL Error email]**: 이 주소에는 배달되는 며칠 후 ISP에서 생성한 모든 오류(비동기 바운스)가 수신됩니다.
-
 
 ![](assets/preset-header.png)
 
@@ -177,7 +214,7 @@ UTM 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Val
 
 ![](assets/preset-push.png)
 
-푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../messages/push-gs.md).
+푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../configuration/push-gs.md).
 
 <!--
 ## Configure SMS settings {#configure-sms-settings}
