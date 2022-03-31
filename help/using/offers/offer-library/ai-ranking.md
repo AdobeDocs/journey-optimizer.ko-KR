@@ -1,7 +1,7 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: AI 모델
+title: AI 모델 정보
 description: 오퍼의 등급을 매길 수 있는 AI 모델에 대해 알아봅니다
 feature: Ranking Formulas
 role: User
