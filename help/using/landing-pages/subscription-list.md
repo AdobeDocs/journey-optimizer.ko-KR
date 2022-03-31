@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 3%
@@ -65,4 +65,4 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->특정 보고서를 통해 구독 목록이 미치는 영향을 모니터링할 수 있습니다. [자세히 알아보기](subscription-report.md)
+>특정 보고서를 통해 구독 목록이 미치는 영향을 모니터링할 수 있습니다. [자세히 알아보기](../reports/subscription-report-live.md)
