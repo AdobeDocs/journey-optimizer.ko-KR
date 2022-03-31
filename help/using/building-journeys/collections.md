@@ -1,10 +1,9 @@
 ---
-product: adobe campaign
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: 사용자 지정 작업으로 컬렉션을 동적으로 보내기
 description: Campaign v7/v8을 사용하여 메시지 보내기
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 5%
