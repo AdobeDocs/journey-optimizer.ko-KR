@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 6%
+source-wordcount: '839'
+ht-degree: 5%
 
 ---
 
 # 한 여정에서 다른 페이지로 이동 {#jump}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_jump"
+>title="점프 활동"
+>abstract="이동 작업 활동을 사용하면 한 여정에서 다른 페이지로 개별 사용자를 푸시할 수 있습니다. 이 기능을 사용하면 매우 복잡한 여정의 디자인을 단순화하고 공통 및 재사용 가능한 여정 패턴을 기반으로 여정을 빌드할 수 있습니다."
 
 다음 **[!UICONTROL Jump]** 작업 활동을 사용하면 한 여정에서 다른로 개인을 푸시할 수 있습니다. 이 기능을 사용하면 다음 작업을 수행할 수 있습니다.
 
