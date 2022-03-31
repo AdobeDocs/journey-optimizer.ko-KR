@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: ht
-source-wordcount: '2697'
-ht-degree: 100%
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '2821'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +13,28 @@ ht-degree: 100%
 
 이 페이지에는 [!DNL Journey Optimizer]의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. 또한 자세한 변경 사항은 [최신 설명서 업데이트](documentation-updates.md) 페이지를 참조하십시오.
 
+## 2022년 3월 릴리스 {#march-2022-release}
 
+### 개선 사항
+
+**여정**
+
+* 통합 프로필 스키마에 불필요한 필드가 없도록 하기 위해 기본적으로 프로필에 대해 여정 단계 이벤트 스키마가 더 이상 활성화되지 않습니다. 필요한 경우 활성화할 수 있습니다. [자세히 알아보기](../reports/sharing-overview.md)
+* 이제 내보내기 작업과 관련된 새 단계 이벤트를 Journey Optimizer에서 Adobe Experience Platform으로 보냅니다. 쿼리의 예가 설명서에 추가되었습니다. [자세히 알아보기](../reports/query-examples.md)
+
+**의사 결정 관리**
+
+<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대한 offer decisioning 기능을 사용할 수 있습니다. 세그먼트에 있는 각 프로필에 대한 오퍼 컨텐츠는 사용자 지정 배치 워크플로우에 사용할 수 있는 AEP 데이터 세트에 배치됩니다. [자세히 알아보기](../offers/api-reference/batch-api/deliver-offers-batch.md)
+
+<!--**Administration**
+
+* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
+* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+
+**개인화**
+
+* 이제 라이브러리에 40개 이상의 개인화 표현식을 저장할 수 있습니다. [자세히 알아보기](../personalization/personalization-library.md)
 
 ## 2022년 2월 릴리스 {#feb-2022-release}
 
@@ -236,7 +257,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **보고**
 
-* **글로벌 보기의 데이터 형식** - 이제 **글로벌 보기**(**실행** 탭 내)에서 숫자와 백분율 간을 전환할 수 있습니다. [자세히 알아보기](../messages/message-monitoring.md)
+* **글로벌 보기의 데이터 형식** - 이제 **글로벌 보기**(**실행** 탭 내)에서 숫자와 백분율 간을 전환할 수 있습니다. [자세히 알아보기](../reports/message-monitoring.md)
 
 
 **관리**
@@ -276,7 +297,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <td>
 <p>보고에서 새 지표를 사용할 수 있습니다. 이메일 및 푸시 메시지에 대한 [타겟팅] 및 [제외]가 실시간 보고서와 글로벌 보고서 모두에 표시됩니다. </br> 최신 지표에 액세스하려면 각 채널 및 보고 유형에 대해 서로 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 지정에 대한 자세한 내용은 <a href="../reports/live-report.md">자세한 설명서</a>를 참조하세요.</p>
 <p>각 메시지 실행에 대해 타겟팅한 프로필 수가 표시되는 열이 메시지 실행 목록에 새로 생겼습니다. </p>
-<p>자세한 내용은 <a href="../messages/message-monitoring.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../reports/message-monitoring.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -419,7 +440,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **콘텐츠 디자인**
 
-* **배경** - 이제 배경 이미지가 실시간 미리 보기에서 지원됩니다. [자세히 알아보기](../messages/preview.md)
+* **배경** - 이제 배경 이미지가 실시간 미리 보기에서 지원됩니다. [자세히 알아보기](../design/preview.md)
 * **원클릭 옵트아웃 링크** - 이메일 콘텐츠에 새로운 유형의 링크를 삽입할 수 있습니다. **옵트아웃** 링크를 사용하면 옵트아웃을 확인하기 위해 랜딩 페이지로 리디렉션되지 않고 한 번의 클릭으로 커뮤니케이션 구독을 취소할 수 있습니다. [자세히 알아보기](../messages/consent.md#one-click-opt-out-link)
 
 **개인화**
@@ -428,7 +449,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **이메일 구성**
 
-* **허용 목록** - 이제 API 호출을 통해 비프로덕션 샌드박스에서 허용 목록을 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](../messages/allow-list.md#enable-allow-list)
+* **허용 목록** - 이제 API 호출을 통해 비프로덕션 샌드박스에서 허용 목록을 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](../reports/allow-list.md#enable-allow-list)
 * **탐색** - **관리 > 채널 > 이메일 구성 > 일반** 메뉴 아래에서 액세스할 수 있었던 제외 목록이 이제 새로운 **제외 목록** 하위 메뉴로 옮겨졌습니다. 해당 하위 메뉴 아래에 모든 관련 기능을 모아 두어 보다 쉽게 액세스할 수 있습니다. [자세히 알아보기](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **의사 결정 관리**
@@ -475,7 +496,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>이제 테스트 목적으로 안전한 환경을 갖도록 샌드박스 수준에서 특정 전송 안전 목록을 정의할 수 있습니다. 실수가 발생할 수 있는 비프로덕션 인스턴스에서 허용 목록을 사용하면 고객에게 원치 않는 메시지를 보낼 위험이 없습니다. 이 기능은 제외 API를 통해 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../messages/allow-list.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../reports/allow-list.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -494,9 +515,9 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **메시지 미리 보기 및 테스트**
 
-* 이제 신원과 네임스페이스가 **[!UICONTROL Preview]** 화면에 표시됩니다. [자세히 보기](../messages/preview.md#preview-your-messages)
+* 이제 신원과 네임스페이스가 **[!UICONTROL Preview]** 화면에 표시됩니다. [자세히 보기](../design/preview.md#preview-your-messages)
 * 이제 교정용 테스트 이메일 수가 10개로 제한됩니다.
-* 교정을 보낼 때 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](../messages/preview.md#send-proofs)
+* 교정을 보낼 때 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](../design/preview.md#send-proofs)
 
 **개인화 표현식 편집기**
 
