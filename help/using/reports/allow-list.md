@@ -6,30 +6,36 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 6%
+source-wordcount: '556'
+ht-degree: 1%
 
 ---
 
 # 허용 목록 {#allow-list}
 
-에서 특정 전송 안전 목록을 정의할 수 있습니다 [샌드박스](../administration/sandboxes.md) 레벨, 테스트 목적으로 안전한 환경 실수가 발생할 수 있는 비프로덕션 인스턴스에서 허용 목록을 사용하면 고객에게 원치 않는 메시지를 보낼 위험이 없습니다.
+에서 특정 전송 안전 목록을 정의할 수 있습니다 [샌드박스](../administration/sandboxes.md) 레벨, 테스트 목적으로 안전한 환경
+
+예를 들어 허용 목록이 실수가 발생할 수 있는 비프로덕션 인스턴스에서 원치 않는 메시지를 고객에게 보낼 위험이 없습니다.
+
+>[!NOTE]
+>
+>이 기능은 이제 프로덕션 및 비프로덕션 샌드박스에서 사용할 수 있습니다.
 
 허용 목록을 사용하면 특정 샌드박스에서 보내는 이메일을 받을 수 있는 권한이 있는 유일한 수신자 또는 도메인이 되는 개별 이메일 주소 또는 도메인을 지정할 수 있습니다. 따라서 테스트 환경에 있을 때 실수로 실제 고객 주소로 이메일을 보내지 않을 수 있습니다.
 
 >[!CAUTION]
 >
->이 기능은 다음과 같습니다 **not** 프로덕션 샌드박스에서 사용할 수 있습니다. 이메일 채널에만 적용됩니다.
+>이 기능은 이메일 채널에만 적용됩니다.
 
 ## 허용 목록 활성화 {#enable-allow-list}
 
-<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.-->
+<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.
 
-<!--You can update the allowed list before or after enabling the feature. To do so, you need to update the general settings using the corresponding API end point in the Message Presets Service.?-->
+You can update the allowed list before or after enabling the feature.-->
 
-비프로덕션 샌드박스에서 허용 목록을 활성화하려면 아래 단계를 수행하십시오.
+허용 목록을 활성화하려면 아래 단계를 수행하십시오.
 
 1. **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** 메뉴에 액세스합니다.
 
