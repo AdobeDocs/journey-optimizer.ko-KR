@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 76%
+source-wordcount: '1228'
+ht-degree: 75%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 76%
 
 #### 옵트아웃에 대한 API 호출 구현 {#opt-out-api}
 
-수신자가 랜딩 페이지에서 선택한 항목을 제출할 때 옵트아웃하도록 하려면 **구독 API 호출** through [Adobe 개발자](developer.adobe.com) 해당 프로필의 환경 설정을 업데이트하려면
+수신자가 랜딩 페이지에서 선택한 항목을 제출할 때 옵트아웃하도록 하려면 **구독 API 호출** through [Adobe 개발자](https://developer.adobe.com){target=&quot;_blank&quot;} 를 사용하여 해당 프로필의 환경 설정을 업데이트합니다.
 
 이 POST 호출은 다음과 같습니다.
 
@@ -109,7 +109,7 @@ ht-degree: 76%
 }
 ```
 
-[!DNL Journey Optimizer] 에서는 다음 매개 변수를 사용하여 [Adobe 개발자](developer.adobe.com) API 호출.
+[!DNL Journey Optimizer] 에서는 다음 매개 변수를 사용하여 [Adobe 개발자](https://developer.adobe.com){target=&quot;_blank&quot;} API 호출.
 
 #### 구독 취소 링크가 있는 메시지 보내기 {#send-message-unsubscribe-link}
 
