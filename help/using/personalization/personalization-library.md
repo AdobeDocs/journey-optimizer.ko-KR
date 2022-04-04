@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
+source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '345'
 ht-degree: 8%
 
 ---
@@ -26,15 +26,15 @@ ht-degree: 8%
 
 저장된 표현식에 액세스하려면 **[!UICONTROL Library]** 왼쪽 창에 있는 단추. 이 목록에는 관리자 사용자가 저장한 모든 표현식이 표시됩니다( [라이브러리에 표현식 저장](#save-expressions)).
 
-    >[!NOTE]
-    >
-    >정보 단추를 사용하여 저장된 표현식의 내용에 대한 자세한 정보를 볼 수 있습니다. 라이브러리 항목을 관리할 수 있는 적절한 권한이 있으면 정보 단추가 타원 메뉴에 나타납니다.
-    
-    ![](assets/library-list.png)
+>[!NOTE]
+>
+>정보 단추를 사용하여 저장된 표현식의 내용에 대한 자세한 정보를 얻을 수 있습니다. 라이브러리 항목을 관리할 수 있는 적절한 권한이 있으면 정보 단추가 타원 메뉴에 나타납니다.
+
+![](assets/library-list.png)
 
 표현식을 편집기에 삽입하려면 + 를 클릭합니다. 그런 다음 개인화 컨텐츠를 평소대로 사용자 지정하고 유효성을 검사할 수 있습니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
-    ![](assets/library-add.png)
+![](assets/library-add.png)
 
 ## 라이브러리에 표현식을 저장합니다 {#save-expressions}
 
