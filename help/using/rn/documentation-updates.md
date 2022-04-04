@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c0c57150be1c9031728daddf1e0a320853bc545c
+source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 95%
+source-wordcount: '1095'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 95%
 * AI 모델을 시작하는 방법에 대한 새 페이지를 **Offer Decisioning** 섹션에 추가했습니다. AI 모델이 사용하는 알고리즘인 [자동 최적화 모델](../offers/offer-library/ai-ranking.md#auto-optimization)에 대한 자세한 설명과 보다 기술적인 세부 정보도 제공합니다. [자세히 보기](../offers/offer-library/ai-ranking.md)
 * 테스트 프로필 만들기 페이지를  **세그먼트, 프로필 및 ID** 섹션을 참조하십시오. [자세히 보기](../segment/creating-test-profiles.md)
 * 표현식 편집기에서 표현식을 기본값으로 추가하는 방법에 대한 예를 추가했습니다. [자세히 보기](../building-journeys/expression/field-references.md#default-value)
+* 다음 **개인화된 오퍼 만들기** 가독성을 향상시키기 위해 섹션이 재구성되었습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md)
+* 오퍼의 시작 및/또는 종료 날짜를 변경하면 이 오퍼의 빈도 제한 시 발생할 수 있는 영향을 설명하는 새 섹션이 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping-change-date)
 <!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
 
 ## 2022년 2월 {#feb-2022}
