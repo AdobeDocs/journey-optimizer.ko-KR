@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: c0c57150be1c9031728daddf1e0a320853bc545c
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 94%
+source-wordcount: '1054'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 * AI 모델을 시작하는 방법에 대한 새 페이지를 **Offer Decisioning** 섹션에 추가했습니다. AI 모델이 사용하는 알고리즘인 [자동 최적화 모델](../offers/offer-library/ai-ranking.md#auto-optimization)에 대한 자세한 설명과 보다 기술적인 세부 정보도 제공합니다. [자세히 보기](../offers/offer-library/ai-ranking.md)
 * 테스트 프로필 만들기 페이지를  **세그먼트, 프로필 및 ID** 섹션을 참조하십시오. [자세히 보기](../segment/creating-test-profiles.md)
 * 표현식 편집기에서 표현식을 기본값으로 추가하는 방법에 대한 예를 추가했습니다. [자세히 보기](../building-journeys/expression/field-references.md#default-value)
-* 다음 **기본 이메일 주소 변경** 사용자 인터페이스 변경 사항을 반영하여 섹션이 업데이트되었습니다. [자세히 보기](../configuration/primary-email-addresses.md)
+<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
 
 ## 2022년 2월 {#feb-2022}
 
