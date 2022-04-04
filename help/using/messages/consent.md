@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1226'
 ht-degree: 82%
 
 ---
@@ -191,7 +191,7 @@ ht-degree: 82%
 
 이메일 클라이언트에 따라 헤더에서 가입 해지 링크를 클릭하면 다음과 같은 영향을 받을 수 있습니다.
 
-* 가입 해지 요청이 가입 해지 주소로 전송됩니다.
+* 가입 해지 요청이 기본 가입 해지 주소로 전송됩니다.
 
 * 수신자는 메시지에 옵트아웃 링크를 추가할 때 지정한 랜딩 페이지 URL로 이동됩니다.
 
@@ -200,8 +200,6 @@ ht-degree: 82%
    >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 표시되지 않습니다.
 
 * 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
-
-<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## 푸시 옵트아웃 관리 {#push-opt-out-management}
 
