@@ -2,16 +2,19 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '2821'
-ht-degree: 96%
+source-wordcount: '2912'
+ht-degree: 93%
 
 ---
 
 # 릴리스 정보 {#release-notes}
 
 이 페이지에는 [!DNL Journey Optimizer]의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. 또한 자세한 변경 사항은 [최신 설명서 업데이트](documentation-updates.md) 페이지를 참조하십시오.
+
+![뉴스레터](../assets/do-not-localize/nl-icon.png) 에 등록 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html)오늘 {target=&quot;_blank&quot;}에서 최신 제품 업데이트, 흥미로운 스토리, 사용 사례, 팁 등을 분기마다 받은 편지함으로 직접 배달됩니다.
+
 
 ## 2022년 3월 릴리스 {#march-2022-release}
 
@@ -27,10 +30,10 @@ ht-degree: 96%
 <!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
 * Batch Decisioning API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대한 offer decisioning 기능을 사용할 수 있습니다. 세그먼트에 있는 각 프로필에 대한 오퍼 컨텐츠는 사용자 지정 배치 워크플로우에 사용할 수 있는 AEP 데이터 세트에 배치됩니다. [자세히 알아보기](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
-<!--**Administration**
+**관리**
 
-* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
-* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+* 이제 메시지 사전 설정 수준의 이메일 헤더에서 구독 취소 링크를 활성화/비활성화하고 메시지 수준에서 사용자 지정 구독 취소 URL을 설정할 수 있습니다. [자세히 알아보기](../configuration/message-presets.md#list-unsubscribe)
+* 이제 다음을 통해 허용 목록을 활성화 및 비활성화할 수 있습니다 [!DNL Journey Optimizer] 프로덕션 및 비프로덕션 샌드박스의 인터페이스. [자세히 알아보기](../reports/allow-list.md#enable-allow-list)
 
 **개인화**
 
