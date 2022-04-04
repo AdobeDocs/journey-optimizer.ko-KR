@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '253'
 ht-degree: 65%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 65%
 
 Adobe Campaign v7 또는 v8이 있는 경우 요청 시 통합을 사용할 수 있습니다. [이 페이지](../action/acc-action.md)를 참조하십시오.
 
-Epsilon, Facebook 등의 서드파티 시스템을 사용하여 메시지를 전송하는 경우 [Adobe 개발자](developer.adobe.com), Firebase 등을 통해 사용자 지정 작업을 추가하고 구성해야 합니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
+Epsilon, Facebook 등의 서드파티 시스템을 사용하여 메시지를 전송하는 경우 [Adobe 개발자](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase 등은 사용자 지정 작업을 추가하고 구성해야 합니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
 
 사용자 지정 작업에서는 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다. JSON 형식 페이로드를 사용하여 REST API를 통해 호출할 수 있는 모든 공급자의 어떤 서비스로든 작업을 구성할 수 있습니다.
 
