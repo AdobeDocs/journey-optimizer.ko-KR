@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 5%
+source-wordcount: '624'
+ht-degree: 4%
 
 ---
 
@@ -33,7 +33,6 @@ ht-degree: 5%
 >id="od_offer_attributes"
 >title="오퍼 속성 기본 정보"
 >abstract="오퍼 속성을 사용하여 보고 및 분석을 위해 키 값 쌍을 오퍼와 연결할 수 있습니다."
->additional-url="https://video.tv.adobe.com/v/329375" text="데모 비디오 시청"
 
 을(를) 만들려면 **오퍼**&#x200B;다음 단계를 수행합니다.
 
@@ -41,175 +40,27 @@ ht-degree: 5%
 
    ![](../assets/create_offer.png)
 
-1. 오퍼의 이름과 시작 및 종료 날짜 및 시간을 지정합니다. 하나 또는 여러 개의 기존 태그를 오퍼에 연결할 수도 있으므로 오퍼 라이브러리를 보다 쉽게 검색하고 구성할 수 있습니다.
+1. 오퍼의 이름과 시작 및 종료 날짜 및 시간을 지정합니다. 이 날짜 외에도 Decisioning 엔진에서 오퍼를 선택하지 않습니다.
 
    ![](../assets/offer_details.png)
 
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >다음 **[!UICONTROL Offer attributes]** 섹션에서 보고 및 분석 목적으로 키-값 쌍을 오퍼와 연결할 수 있습니다.
+   >시작/종료 날짜를 업데이트하면 최대 가용성에 영향을 줄 수 있습니다. [자세히 알아보기](add-constraints.md#capping-change-date)
 
-## 오퍼의 표현 구성 {#representations}
+1. 하나 또는 여러 개의 기존 항목을 연결할 수도 있습니다 **[!UICONTROL tags]** 오퍼 라이브러리를 보다 쉽게 검색하고 구성할 수 있도록 오퍼에 매핑합니다. [자세히 알아보기](creating-tags.md).
 
-오퍼는 메시지의 다른 위치에 표시할 수 있습니다. 위쪽 배너에 이미지, 단락 텍스트, HTML 블록 등으로 표시 오퍼가 더 많은 표현을 보유하게 되면 더 많은 기회가 다른 배치 컨텍스트에서 오퍼를 사용할 수 있습니다.
+1. 다음 **[!UICONTROL Offer attributes]** 섹션에서 보고 및 분석 목적으로 키-값 쌍을 오퍼와 연결할 수 있습니다.
 
-오퍼에 하나 이상의 표현을 추가하고 구성하려면 아래 단계를 수행하십시오.
-
-1. 첫 번째 표현에 대해 다음을 선택하여 시작합니다 **[!UICONTROL Channel]** 사용됩니다.
+1. 표현을 추가하여 오퍼가 메시지에 표시되는 위치를 정의합니다. [자세히 알아보기](add-representations.md)
 
    ![](../assets/channel-placement.png)
 
-   >[!NOTE]
-   >
-   >선택한 채널에 대해 사용 가능한 배치만 **[!UICONTROL Placement]** 드롭다운 목록.
+1. 표시할 오퍼에 대한 조건을 설정하려면 제약조건을 추가하십시오. [자세히 알아보기](add-constraints.md)
 
+   ![](../assets/offer-constraints-example.png)
 
-1. 목록에서 배치를 선택합니다.
-
-   또한 **[!UICONTROL Placement]** 모든 배치를 탐색하는 드롭다운 목록입니다.
-
-   ![](../assets/browse-button-placements.png)
-
-   거기에서 여전히 채널 및/또는 컨텐츠 유형에 따라 배치를 필터링할 수 있습니다. 배치를 선택하고 를 클릭합니다 **[!UICONTROL Select]**.
-
-   ![](../assets/browse-placements.png)
-
-1. 표시에 컨텐츠를 추가합니다. 방법 알아보기 [이 섹션](#content).
-
-1. 이미지나 URL과 같은 컨텐츠를 추가할 때 **[!UICONTROL Destination link]**: 오퍼를 클릭하는 사용자가 해당 페이지로 이동됩니다.
-
-   ![](../assets/offer-destination-link.png)
-
-1. 마지막으로, 사용자에게 표시할 언어를 식별하고 관리하는 데 도움이 되도록 원하는 언어를 선택합니다.
-
-1. 다른 표현을 추가하려면 **[!UICONTROL Add representation]** 버튼을 클릭하고 필요한 만큼 표현을 추가합니다.
-
-   ![](../assets/offer-add-representation.png)
-
-1. 모든 표현을 추가한 후 **[!UICONTROL Next]**.
-
-## 표현 내용 정의 {#content}
-
-표현에는 다른 유형의 컨텐츠를 추가할 수 있습니다.
-
->[!NOTE]
->
->배치의 컨텐츠 유형에 해당하는 컨텐츠만 사용할 수 있습니다.
-
-### 이미지 추가 {#images}
-
-선택한 배치가 이미지 유형인 경우 **Adobe Experience Cloud 자산** 라이브러리, 에서 제공하는 자산의 중앙 저장소 [!DNL Adobe Experience Manager Assets Essentials].
-
->[!NOTE]
->
-> 을 사용하여 작업하려면 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}, 배포해야 합니다. [!DNL Assets Essentials] 조직의 경우 사용자가 **Assets Essentials 소비자 사용자** 또는/and **Assets Essentials 사용자** 제품 프로필. 추가 정보 [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
-
-1. **[!UICONTROL Asset library]** 옵션을 선택합니다.
-
-1. **[!UICONTROL Browse]**&#x200B;를 선택합니다.
-
-   ![](../assets/offer-browse-asset-library.png)
-
-1. 자산을 탐색하여 선택한 이미지를 선택합니다
-
-1. **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
-
-   ![](../assets/offer-select-asset.png)
-
-### URL 추가 {#urls}
-
-외부 공용 위치에서 콘텐츠를 추가하려면 **[!UICONTROL URL]**&#x200B;을 입력한 다음 추가할 컨텐츠의 URL 주소를 입력합니다.
-
-![](../assets/offer-content-url.png)
-
-### 사용자 지정 텍스트 추가 {#custom-text}
-
-호환 배치를 선택할 때 텍스트 유형 컨텐츠를 삽입할 수도 있습니다.
-
-1. 을(를) 선택합니다 **[!UICONTROL Custom]** 옵션을 선택하고 **[!UICONTROL Add content]**.
-
-   ![](../assets/offer-add-content.png)
-
-   >[!NOTE]
-   >
-   >이 옵션은 이미지 유형 배치에 사용할 수 없습니다.
-
-1. 오퍼에 표시할 텍스트를 입력합니다.
-
-   ![](../assets/offer-text-content.png)
-
-   표현식 편집기를 사용하여 콘텐츠를 개인화할 수 있습니다. 추가 정보 [개인화](../../personalization/personalize.md#use-expression-editor).
-
-   ![](../assets/offer-personalization.png)
-
-   >[!NOTE]
-   >
-   >전용 **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** 및 **[!UICONTROL Helper functions]** 결정 관리에 소스를 사용할 수 있습니다.
-
-## 자격 규칙 및 제한 추가 {#eligibility}
-
->[!CONTEXTUALHELP]
->id="od_offer_constraints"
->title="오퍼 제한 기본 정보"
->abstract="제한 조건을 사용하여 오퍼의 우선 순위가 지정되고 다른 오퍼와 비교하여 사용자에게 표시되는 방법을 지정할 수 있습니다."
->additional-url="https://video.tv.adobe.com/v/329375" text="데모 비디오 시청"
-
->[!CONTEXTUALHELP]
->id="od_offer_eligibility"
->title="오퍼 자격 기본 정보"
->abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
->additional-url="https://video.tv.adobe.com/v/329373" text="데모 비디오 시청"
-
->[!CONTEXTUALHELP]
->id="od_offer_priority"
->title="오퍼 우선 순위 정보"
->abstract="이 필드에서 오퍼에 대한 우선순위 설정을 지정할 수 있습니다. 우선 순위는 자격, 날짜 및 최대 가용량과 같은 모든 제한 사항을 충족하는 오퍼의 등급을 매기는 데 사용되는 숫자입니다."
->additional-url="https://video.tv.adobe.com/v/329375" text="데모 비디오 시청"
-
->[!CONTEXTUALHELP]
->id="od_offer_globalcap"
->title="오퍼 최대 가용량 기본 정보"
->abstract="이 필드에서는 모든 사용자에게 오퍼를 표시할 수 있는 횟수를 지정할 수 있습니다."
->additional-url="https://video.tv.adobe.com/v/329375" text="데모 비디오 시청"
-
-자격 규칙 및 제한을 사용하여 오퍼가 표시될 조건을 정의할 수 있습니다.
-
-1. 구성 **[!UICONTROL Offer eligibility]**.
-
-   * 기본적으로 **[!UICONTROL All visitors]** 결정 규칙 옵션이 선택되어 있으므로 모든 프로필에 오퍼를 제공할 수 있습니다.
-
-   * 오퍼 표시를 하나 또는 여러 Adobe Experience Platform 세그먼트의 구성원으로 제한할 수 있습니다. 이렇게 하려면 를 활성화합니다 **[!UICONTROL Visitors who fall into one or multiple segments]** 옵션을 선택한 다음 왼쪽 창에서 한 개 또는 여러 개의 세그먼트를 추가하고 을(를) 사용하여 결합합니다 **[!UICONTROL And]** / **[!UICONTROL Or]** 논리 연산자입니다.
-
-      세그먼트 작업 방법에 대한 자세한 내용은 [이 페이지](../../segment/about-segments.md).
-
-      ![](../assets/offer-eligibility-segment.png)
-
-   * 특정 의사 결정 규칙을 오퍼에 연결하려면 을(를) 선택합니다 **[!UICONTROL By defined decision rule]**&#x200B;을 클릭한 다음 왼쪽 창에서 원하는 규칙을 **[!UICONTROL Decision rule]** 영역. 의사 결정 규칙을 만드는 방법에 대한 자세한 내용은 [이 섹션](../offer-library/creating-decision-rules.md).
-
-      ![](../assets/offer_rule.png)
-
-      >[!CAUTION]
-      >
-      >이벤트 기반 오퍼는에서 현재 지원되지 않습니다 [!DNL Journey Optimizer]. 을 기반으로 의사 결정 규칙을 생성하는 경우 [이벤트](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;} 오퍼에서는 활용할 수 없습니다.
-   세그먼트 사용과 의사 결정 규칙 사용에 대한 자세한 내용은 [이 섹션](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
-
-1. 을(를) 정의합니다 **[!UICONTROL Priority]** 두 개 이상의 오퍼에 대해 사용자가 자격이 있는 경우 다른 오퍼와 비교한 것입니다. 오퍼의 우선 순위가 높을수록 오퍼의 우선 순위가 더 높습니다.
-
-1. 오퍼를 지정합니다 **[!UICONTROL Capping]**: 모든 사용자에게 오퍼가 총 표시되는 횟수를 의미합니다. 오퍼가 이 필드에 지정한 횟수만큼 모든 사용자에게 전달된 경우 해당 게재가 중지됩니다.
-
-   >[!NOTE]
-   >
-   >오퍼를 제안하는 횟수는 이메일 준비 시 계산됩니다. 예를 들어, 많은 수의 오퍼가 포함된 이메일을 준비하는 경우 해당 숫자는 이메일 전송 여부와 관계없이 최대 상한에 포함됩니다.
-   >
-   >이메일 게재가 삭제되거나 준비가 다시 수행된 경우 오퍼에 대한 최대 가용량 값이 자동으로 업데이트됩니다.
-
-   ![](../assets/offer_capping.png)
-
-   위의 예에서
-
-   * 오퍼의 우선순위는 &quot;50&quot;으로 설정됩니다. 즉, 오퍼는 1과 49 사이의 우선 순위를 가진 오퍼 앞에, 그리고 51 이상의 우선 순위가 있는 오퍼 후에 표시됩니다.
-   * 오퍼는 &quot;골드 충성도 고객&quot; 의사 결정 규칙에만 해당하는 사용자에 대해서만 고려됩니다.
-   * 오퍼는 사용자당 한 번만 표시됩니다.
+1. 오퍼를 검토하고 저장합니다. [자세히 알아보기](#review)
 
 ## 오퍼 검토 {#review}
 
@@ -231,7 +82,7 @@ ht-degree: 5%
 
 ![](../assets/offer_created.png)
 
-## 오퍼 목록 {#offer-list}
+## 오퍼 관리 {#offer-list}
 
 오퍼 목록에서 해당 속성을 표시할 오퍼를 선택할 수 있습니다. 편집, 상태 변경(**초안**, **승인됨**, **보관됨**), 오퍼를 복제하거나, 삭제합니다.
 
