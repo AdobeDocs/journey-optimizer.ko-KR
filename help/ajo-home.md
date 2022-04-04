@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 4812a9191eb16d622e5c9250b30096ca124d5781
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 68%
 
 ---
 
@@ -175,3 +175,16 @@ ht-degree: 100%
   </td>
 </tr>
 </table>
+
+
+
+![뉴스레터](using/assets/do-not-localize/nl-icon.png) 에 등록 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html)오늘 {target=&quot;_blank&quot;}!
+
+분기마다 받은 편지함에 바로 최신 제품 업데이트, 흥미로운 사례, 사용 사례, 팁 등을 받을 수 있습니다.
+
+각 Newsletter에서
+* 최근에 릴리스된 기능을 포함한 제품 뉴스 및 업데이트
+* 최근 웨비나에 대한 이벤트 및 웨비나 및 녹음/녹화 초대
+* Adobe Journey Optimizer Experience League 커뮤니티의 주요 토론
+* 다른 Adobe Journey Optimizer 고객의 사례 연구 및 사용 사례
+* 비즈니스 성공을 이끄는 뛰어난 고객 경험을 제공하는 데 도움이 되는 팁과 트릭
