@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer을 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 전달
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ecd793299284ed744a8b65c6518dd4c906496f90
+source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 93%
+source-wordcount: '972'
+ht-degree: 92%
 
 ---
 
@@ -258,7 +258,10 @@ ht-degree: 93%
          + [AI 모델 정보](using/offers/offer-library/ai-ranking.md)
          + [AI 모델 만들기](using/offers/offer-library/create-ranking-strategies.md)
    + 오퍼 만들기 및 관리 {#managing-offers-in-the-offer-library}
-      + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
+      + 오퍼 구성 {#configure-offers}
+         + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
+         + [표현 추가](using/offers/offer-library/add-representations.md)
+         + [제한 추가](using/offers/offer-library/add-constraints.md)
       + [대체 오퍼 만들기](using/offers/offer-library/creating-fallback-offers.md)
       + [컬렉션 만들기](using/offers/offer-library/creating-collections.md)
    + 의사 결정을 만들고 관리하기 {#create-manage-activities}
