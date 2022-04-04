@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 82%
+source-wordcount: '1220'
+ht-degree: 76%
 
 ---
 
@@ -71,9 +71,9 @@ ht-degree: 82%
 
 #### 옵트아웃에 대한 API 호출 구현 {#opt-out-api}
 
-수신자가 랜딩 페이지에서 선택한 항목을 제출할 때 옵트아웃하도록 하려면 Adobe I/O을 통해 **구독 API 호출**&#x200B;을 구현하여 해당 프로필의 환경 설정을 업데이트합니다.
+수신자가 랜딩 페이지에서 선택한 항목을 제출할 때 옵트아웃하도록 하려면 **구독 API 호출** through [Adobe 개발자](developer.adobe.com) 해당 프로필의 환경 설정을 업데이트하려면
 
-이 Adobe I/O POST 호출은 다음과 같습니다.
+이 POST 호출은 다음과 같습니다.
 
 엔드포인트: platform.adobe.io/journey/imp/consent/preferences
 
@@ -109,7 +109,7 @@ ht-degree: 82%
 }
 ```
 
-[!DNL Journey Optimizer]은(는) 이러한 매개 변수를 사용하여 Adobe I/O 호출을 통해 해당 프로필의 선택을 업데이트합니다.
+[!DNL Journey Optimizer] 에서는 다음 매개 변수를 사용하여 [Adobe 개발자](developer.adobe.com) API 호출.
 
 #### 구독 취소 링크가 있는 메시지 보내기 {#send-message-unsubscribe-link}
 
@@ -121,7 +121,7 @@ ht-degree: 82%
 
    ![](assets/opt-out-lp-example.png)
 
-1. 수신자가 양식을 제출하는 경우(여기서는 랜딩 페이지의 **구독 취소** 버튼을 누르는 경우), 프로필 데이터는 [Adobe I/O 호출](#opt-out-api)을 통해 업데이트됩니다.
+1. 수신자가 양식을 제출하는 경우(여기서는 **구독 취소** 랜딩 페이지의 경우), 프로필 데이터는 [API 호출](#opt-out-api).
 
 1. 옵트아웃 수신자는 옵트아웃에 성공했음을 나타내는 확인 메시지 화면으로 리디렉션됩니다.
 
