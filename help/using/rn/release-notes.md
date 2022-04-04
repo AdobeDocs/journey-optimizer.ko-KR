@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
-source-wordcount: '2912'
-ht-degree: 93%
+source-wordcount: '2938'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 **의사 결정 관리**
 
-<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* 이제 오퍼 캡핑이 모든 사용자 간에 적용되는지, 아니면 하나의 특정 프로필, 모든 배치 또는 배치마다 적용되는지를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 * Batch Decisioning API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대한 offer decisioning 기능을 사용할 수 있습니다. 세그먼트에 있는 각 프로필에 대한 오퍼 컨텐츠는 사용자 지정 배치 워크플로우에 사용할 수 있는 AEP 데이터 세트에 배치됩니다. [자세히 알아보기](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **관리**
