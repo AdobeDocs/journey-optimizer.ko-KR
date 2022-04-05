@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 16%
@@ -26,7 +26,7 @@ ht-degree: 16%
 
 | 필드 이름 | 유형 | 설명 |
 |---|---|------------|
-| requestId | 문자열 | Journey Orchestration이 요청의 흐름을 추적하는 데 사용하는 요청 ID입니다. |
+| requestId | 문자열 | Journey Optimizer에서 요청 흐름을 추적하는 데 사용하는 요청 ID입니다. |
 
 ## 여정 {#journey-field}
 
