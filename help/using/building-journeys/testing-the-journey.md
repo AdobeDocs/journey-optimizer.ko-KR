@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2ab1010ac97ef2116984fcd6985374aed3d6f9f6
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1524'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 ## 중요 정보 {#important_notes}
 
-* 테스트한 여정에 이벤트를 실행하기 위한 인터페이스가 제공되지만, Postman과 같은 타사 시스템에서 이벤트를 전송할 수도 있습니다.
+* 테스트를 거친 여정에 이벤트를 실행하는 인터페이스가 제공되지만 Postman과 같은 타사 시스템에서 이벤트를 전송할 수도 있습니다.
 * 실시간 고객 프로필 서비스에서 &quot;테스트 프로필&quot;로 플래그가 지정된 개인만 테스트된 여정을 입력할 수 있습니다. 다음을 참조하십시오 [섹션](../segment/creating-test-profiles.md).
 * 테스트 모드는 네임스페이스를 사용하는 초안 여정에서만 사용할 수 있습니다. 테스트 모드는 여정을 입력하는 사람이 테스트 프로필인지 여부를 확인해야 하므로 Adobe Experience Platform에 연결할 수 있어야 합니다.
 * 테스트 세션 중에 여정을 입력할 수 있는 최대 테스트 프로필 수는 100개입니다.
@@ -156,12 +156,3 @@ Adobe Experience Platform에서 테스트 프로필로 플래그가 지정된 �
 
 테스트 모드에서는 경험 이벤트가 자동으로 만들어지고 Adobe Experience Platform으로 전송됩니다. 이 경험 이벤트의 소스 이름은 &quot;Journey Orchestration 테스트 이벤트&quot;입니다.
 
-<!--
-In the case of multiple events triggered from multiple journeys
-
-There is a scenario when there are multiple events sent from multiple journeys that will have different Schemas. Can n schema map to 1 dataset? If not, then we will have multiple datasets required.
--->
-
-대상 데이터 세트가 경험 이벤트에 포함되지 않은 경우 이러한 데이터 세트에 대한 자동 생성 및 이름 지정이 수행됩니다. 그래서 우리는 오늘 &quot;Voymanager를 위해 자동으로 생성된 데이터 세트&quot;를 보게 됩니다.
-
-소스 이름을 지정하면 자동으로 생성됩니다. 여러 이벤트가 있는 경우 를 연결하고 &quot;Journey Orchestration 테스트 이벤트 - 스키마 이름&quot;으로 지정해야 합니다. 이렇게 하면 자동으로 &quot;Journey Orchestration 테스트 이벤트에 대해 자동으로 생성된 데이터 세트 - 스키마 이름&quot;으로 바뀝니다.
