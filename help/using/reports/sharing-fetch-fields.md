@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 7%
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
-시스템에서 제공한 오류 코드 [!DNL Journey Orchestration] 쿼리 중입니다. 예를 들어 404, 500 등이 될 수 있습니다.
+시스템에서 제공한 오류 코드 [!DNL Journey Optimizer] 쿼리 중입니다. 예를 들어 404, 500 등이 될 수 있습니다.
 
 유형: 문자열
 
