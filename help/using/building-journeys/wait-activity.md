@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '415'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 4%
 
 ## 사용자 지정 대기{#custom}
 
-이 옵션을 사용하면 이벤트 또는 데이터 소스에서 온 필드를 기반으로 하는 고급 표현식을 사용하여 2020년 7월 12일 오후 5시와 같은 사용자 지정 날짜를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. 자세한 내용은 [Journey Orchestration 설명서](expression/expressionadvanced.md). dateTimeOnly 형식에 대한 자세한 내용은 [Journey Orchestration 설명서](expression/data-types.md).
+이 옵션을 사용하면 이벤트 또는 데이터 소스에서 온 필드를 기반으로 하는 고급 표현식을 사용하여 2020년 7월 12일 오후 5시와 같은 사용자 지정 날짜를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. 다음을 참조하십시오 [페이지](expression/expressionadvanced.md). dateTimeOnly 형식에 대한 자세한 내용은 다음을 참조하십시오 [페이지](expression/data-types.md).
 
 >[!NOTE]
 >
