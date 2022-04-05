@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc12.png)
 
-1. **에서 메시지를 입력하고 삽입 을 클릭합니다.**[!UICONTROL Contextual attributes]** 메뉴, 주문 품목 이름 및 주문 진행 상태
+1. 에서 메시지를 입력하고 삽입 을 클릭합니다. **[!UICONTROL Contextual attributes]** 메뉴, 주문 품목 이름 및 주문 진행 상태
 
    ![](assets/perso-uc13.png)
 
