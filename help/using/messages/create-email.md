@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '182'
 ht-degree: 3%
 
 ---
@@ -35,3 +35,7 @@ ht-degree: 3%
 1. 을(를) 클릭합니다. **[!UICONTROL Email Designer]** 단추를 클릭하여 이메일을 디자인합니다. 에서 이메일을 디자인하는 방법 알아보기 [이 섹션](../design/design-emails.md).
 
 1. 링크 열기 및/또는 클릭을 통해 수신자의 동작을 추적하려면 **[!UICONTROL Open Tracking for email]** 및 **[!UICONTROL Click Tracking for email]** 옵션이 활성화됩니다. 에서 추적에 대해 자세히 알아보십시오 [이 섹션](../design/message-tracking.md).
+
+>[!NOTE]
+>
+>마케팅 유형 이메일 메시지에는 [옵트아웃 링크](consent.md#opt-out-management): 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [메시지 사전 설정 수준](../configuration/message-presets.md#email-type) 그리고 [메시지 만들기](get-started-content.md#create-new-message).
