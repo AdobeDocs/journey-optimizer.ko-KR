@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2098'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
-> * 메시지 사전 설정 구성은 여정 관리자로 제한됩니다. [자세히 알아보기](../administration/ootb-product-profiles.md#journey-administrator)
+> * 메시지 사전 설정 구성은 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator). 메시지 사전 설정을 만들고, 편집하고, 삭제하려면 다음을 수행해야 합니다 [메시지 사전 설정 관리](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * 전자 메일 구성을 수행하고 [푸시 구성](../configuration/push-configuration.md) 메시지 사전 설정을 만들기 전 단계.
+> * 다음을 수행해야 합니다. [이메일 구성](#configure-email-settings) 및 [푸시 구성](../configuration/push-configuration.md) 메시지 사전 설정을 만들기 전 단계.
 
 
 메시지 사전 설정이 구성되면, **[!UICONTROL Presets]** 목록.
@@ -84,14 +84,15 @@ ht-degree: 1%
 
 아래 설명된 대로 설정을 구성합니다.
 
-
 ### 이메일 유형{#email-type}
 
 에서 **이메일 유형** 섹션에서 사전 설정으로 전송할 메시지 유형을 선택합니다. **마케팅** 또는 **트랜잭션**.
 
-선택 **마케팅** 프로모션 메시지의 경우: 이러한 메시지에는 사용자의 동의가 필요합니다.
+* 선택 **마케팅** 프로모션 메시지의 경우: 이러한 메시지에는 사용자의 동의가 필요합니다.
 
-선택 **트랜잭션** 주문 확인, 암호 재설정 알림 또는 배달 정보와 같은 비상업적인 메시지의 경우,
+* 선택 **트랜잭션** 주문 확인, 암호 재설정 알림 또는 배달 정보와 같은 비상업적인 메시지의 경우,
+
+When [메시지 만들기](../messages/get-started-content.md#create-new-message), 선택한 카테고리 및 채널에 대해 유효한 메시지 사전 설정을 선택해야 합니다.
 
 >[!CAUTION]
 >
