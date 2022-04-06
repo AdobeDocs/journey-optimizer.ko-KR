@@ -3,16 +3,14 @@ title: 시스템 관리자용 Journey Optimizer 시작하기
 description: 시스템 관리자는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 2%
 
 ---
 
 # 시스템 관리자용 시작하기 {#get-started-sys-admins}
-
-![administrator](assets/do-not-localize/user-2.png)
 
 사용을 시작하기 전 [!DNL Adobe Journey Optimizer]를 채울 때는 몇 가지 단계를 수행해야 합니다.  다음 단계를 수행하여 [데이터 엔지니어](data-engineer.md) 및 [여정 연습](marketer.md) 작업 시작 [!DNL Adobe Journey Optimizer].
 
