@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,11 @@ ht-degree: 1%
 
 ## 테스트 프로필 선택 {#select-test-profiles}
 
-먼저 시뮬레이션에 사용할 테스트 프로필을 선택해야 합니다. 의 테스트 프로필에 대해 자세히 알아보십시오 [이 섹션](../../segment/creating-test-profiles.md).
+먼저 시뮬레이션에 사용할 테스트 프로필을 선택해야 합니다.
+
+>[!CAUTION]
+>
+>메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../../segment/creating-test-profiles.md).
 
 1. **[!UICONTROL Manage profile]**&#x200B;을(를) 클릭합니다.
 
