@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 75%
+source-wordcount: '1259'
+ht-degree: 74%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 75%
 
 * 이 링크를 클릭하면 수신자는 옵트아웃을 확인하는 버튼이 포함된 랜딩 페이지로 이동합니다.
 * 선택을 확인하면 프로필의 데이터가 이 정보로 업데이트됩니다.
+
+>[!NOTE]
+>
+>마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 하며, 이것은 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [메시지 사전 설정 수준](../configuration/message-presets.md#email-type) 그리고 [메시지 만들기](get-started-content.md#create-new-message).
 
 ### 외부 옵트아웃 {#opt-out-external-lp}
 
