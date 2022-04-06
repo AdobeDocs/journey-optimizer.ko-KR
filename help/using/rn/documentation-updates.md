@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 92%
+source-wordcount: '1113'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 * 표현식 편집기에서 표현식을 기본값으로 추가하는 방법에 대한 예를 추가했습니다. [자세히 보기](../building-journeys/expression/field-references.md#default-value)
 * 다음 **개인화된 오퍼 만들기** 가독성을 향상시키기 위해 섹션이 재구성되었습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md)
 * 오퍼의 시작 및/또는 종료 날짜를 변경하면 이 오퍼의 빈도 제한 시 발생할 수 있는 영향을 설명하는 새 섹션이 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping-change-date)
-<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
+* 다음 **기본 이메일 주소 변경** 사용자 인터페이스 변경 사항을 반영하여 섹션이 업데이트되었습니다. [자세히 보기](../configuration/primary-email-addresses.md)
 
 ## 2022년 2월 {#feb-2022}
 
