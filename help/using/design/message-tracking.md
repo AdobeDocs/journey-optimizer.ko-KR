@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '608'
 ht-degree: 5%
 
 ---
@@ -72,6 +72,10 @@ ht-degree: 5%
    * 해당 옵션을 선택하여 링크에 밑줄을 긋도록 선택할 수 있습니다.
 
    ![](assets/message-tracking-link-settings.png)
+
+>[!NOTE]
+>
+>마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../messages/consent.md#opt-out-management): 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [메시지 사전 설정 수준](../configuration/message-presets.md#email-type) 그리고 [메시지 만들기](../messages/get-started-content.md#create-new-message).
 
 ## 미러 페이지에 대한 링크 {#mirror-page}
 
