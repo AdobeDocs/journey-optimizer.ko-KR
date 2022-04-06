@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '185'
 ht-degree: 6%
 
 ---
@@ -36,4 +36,11 @@ ht-degree: 6%
 >[!NOTE]
 >
 >아래쪽 영역에 있는 템플릿은 정적이며 편집할 수 없습니다. 이러한 템플릿은 일러스트레이션 용도로만 사용할 수 있습니다.
-한번 드시면 [메시지 작성](../messages/get-started-content.md)을(를) 통해 이메일 콘텐츠 만들기를 시작할 수 있습니다.
+>
+>한번 드시면 [메시지 작성](../messages/get-started-content.md)을(를) 통해 이메일 콘텐츠 만들기를 시작할 수 있습니다.
+
+## 방법 비디오 {#video}
+
+메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
