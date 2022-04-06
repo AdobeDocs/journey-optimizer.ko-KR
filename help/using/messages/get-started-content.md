@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 16%
+source-wordcount: '647'
+ht-degree: 15%
 
 ---
 
@@ -67,11 +67,15 @@ ht-degree: 16%
 
    * 을(를) 선택합니다 **[!UICONTROL Message category]**: 마케팅 또는 트랜잭션.
 
+   * 해당 메시지에 사용할 채널을 선택합니다. 이메일 및/또는 푸시 알림. 메시지를 만들 수 있으려면 채널을 하나 이상 선택해야 합니다.
+
    * 을(를) 선택합니다 **[!UICONTROL Preset]** 을 전달하는 것이 좋습니다.
 
       사전 설정에는 브랜드에 따라 이메일 및/또는 푸시 알림을 전송하는 데 필요한 모든 매개 변수가 포함되어 있습니다. [사전 설정에 대해 자세히 알아보기](../configuration/message-presets.md).
+   >[!CAUTION]
+   >
+   >선택한 카테고리 및 채널에 대해 유효한 메시지 사전 설정을 선택해야 합니다.
 
-   * 해당 메시지에 사용할 채널을 선택합니다. 이메일 및/또는 푸시 알림. 메시지를 만들 수 있으려면 채널을 하나 이상 선택해야 합니다.
    언제든지 **[!UICONTROL Properties]** 메시지 인터페이스의 단추.
 
 1. 클릭 **[!UICONTROL Create]** 메시지 만들기를 확인합니다. 메시지가 메시지 목록의 **[!UICONTROL Draft]** 상태.
