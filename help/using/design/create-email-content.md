@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,3 @@ ht-degree: 0%
 1. 전자 메일이 준비되면 **[!UICONTROL Save & Close]**.
 
 이제 메시지에 이메일 콘텐츠를 사용할 수 있습니다. [메시지 보내기 방법 알아보기](../messages/publish-manage-message.md).
-
-## 방법 비디오 {#video}
-
-메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
