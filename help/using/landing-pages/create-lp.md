@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,10 @@ ht-degree: 2%
    >랜딩 페이지 URL은 고유해야 합니다.
 
    ![](assets/lp_access-url.png)
+
+   >[!NOTE]
+   >
+   >게시된 경우에도 이 URL을 웹 브라우저에 복사하여 붙여 넣으면 랜딩 페이지에 액세스할 수 없습니다. 대신 에 설명된 대로 미리 보기 기능을 사용하여 테스트할 수 있습니다. [이 섹션](#test-landing-page).
 
 1. 페이지에 대한 만료 날짜를 정의할 수 있습니다. 이 경우 페이지 만료 시 작업을 선택해야 합니다.
 
@@ -175,7 +179,7 @@ ht-degree: 2%
 
 * **경고** 권장 사항 및 우수 사례를 참조하십시오. <!--For example, a message will display if -->
 
-* **오류** 메시지가 해결되지 않는 한 게시하지 못하도록 합니다. 예를 들어 기본 페이지 URL이 누락된 경우 경고가 표시됩니다.
+* **오류** 랜딩 페이지가 확인되지 않는 한 게시하지 못하도록 합니다. 예를 들어 기본 페이지 URL이 누락된 경우 경고가 표시됩니다.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
