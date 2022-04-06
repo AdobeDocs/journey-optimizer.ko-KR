@@ -3,16 +3,14 @@ title: 마케터를 위한 Journey Optimizer 시작하기
 description: 여정 실습자는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 7%
 
 ---
 
 # 마케터를 위한 시작하기 {#get-started-marketers}
-
-![마케터](assets/do-not-localize/user-3.png)
 
 로서의 **마케터** 또는 **여정 연습**, 귀하는 메시지, 오퍼 및 여정을 생성할 책임이 있습니다. 작업을 시작할 수 있습니다 [!DNL Adobe Journey Optimizer] 한 번 [시스템 관리자](administrator.md) 그리고 [데이터 엔지니어](data-engineer.md) 환경에 액세스하고 준비할 수 있습니다.
 
