@@ -3,16 +3,14 @@ title: 데이터 엔지니어를 위한 Journey Optimizer 시작하기
 description: 데이터 엔지니어는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 8%
 
 ---
 
 # 데이터 엔지니어 시작 {#data-engineer}
-
-![데이터 엔지니어](assets/do-not-localize/user-1.png)
 
 로서의 **Adobe Journey Optimizer 데이터 엔지니어**, 고객 프로필 데이터를 준비하고 유지 관리하여 [!DNL Journey Optimizer]를 스키마에서 고객 및 비즈니스 데이터를 모델링하고 데이터를 수집하기 위한 소스 커넥터를 구성합니다. 작업을 시작할 수 있습니다 [!DNL Adobe Journey Optimizer] 한 번 [시스템 관리자](administrator.md) 환경에 액세스하고 준비할 수 있습니다.
 
