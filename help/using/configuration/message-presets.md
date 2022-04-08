@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2110'
 ht-degree: 1%
 
 ---
@@ -85,6 +85,11 @@ ht-degree: 1%
 아래 설명된 대로 설정을 구성합니다.
 
 ### 이메일 유형{#email-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="이메일 유형"
+>abstract="완료하기"
 
 에서 **이메일 유형** 섹션에서 사전 설정으로 전송할 메시지 유형을 선택합니다. **마케팅** 또는 **트랜잭션**.
 
@@ -189,6 +194,11 @@ UTM 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Val
 >주소는 문자(A-Z)로 시작해야 하며 영숫자만 사용할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
 
 ### 전자 메일 다시 시도 매개 변수{#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="이메일 다시 시도 기간"
+>abstract="완료하기"
 
 을 구성할 수 있습니다 **전자 메일 다시 시도 매개 변수**.
 
