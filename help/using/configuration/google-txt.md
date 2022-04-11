@@ -6,18 +6,23 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d568480005d9b4aad5982c26184a5add0be6c83a
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 26%
+source-wordcount: '205'
+ht-degree: 21%
 
 ---
 
 # 하위 도메인에 Google TXT 레코드 추가 {#google-txt-record}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_google"
+>title="Google TXT 레코드"
+>abstract="Gmail 주소로 이메일을 성공적으로 게재하기 위해 하위 도메인에 특수 Google 사이트 확인 TXT 레코드를 확인용으로 추가할 수 있습니다."
+
 TXT 레코드는 외부 소스에서 읽을 수 있는 도메인 관련 텍스트 정보를 제공하는 데 사용되는 DNS 레코드 유형입니다.
 
-Gmail 주소로 이메일이 배달되고 성공적으로 배달되도록 하려면, [!DNL Journey Optimizer] 에서는 하위 도메인에 특수 Google 사이트 확인 TXT 레코드를 추가하여 확인하는지 확인할 수 있습니다.
+Gmail 주소로 이메일을 게재하는 것을 최적화하기 위해 [!DNL Journey Optimizer] 에서는 하위 도메인에 특수 Google 사이트 확인 TXT 레코드를 추가하여 확인되었는지 확인할 수 있습니다.
 
 >[!CAUTION]
 >
