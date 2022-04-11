@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
 source-wordcount: '2938'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 이 페이지에는 [!DNL Journey Optimizer]의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. 또한 자세한 변경 사항은 [최신 설명서 업데이트](documentation-updates.md) 페이지를 참조하십시오.
 
-![뉴스레터](../assets/do-not-localize/nl-icon.png) 에 등록 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html)오늘 {target=&quot;_blank&quot;}에서 최신 제품 업데이트, 흥미로운 스토리, 사용 사례, 팁 등을 분기마다 받은 편지함으로 직접 배달됩니다.
+![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}에 등록하시면 분기마다 최신 제품 업데이트, 흥미로운 사례, 사용 사례, 팁 등을 받은 편지함에 바로 받을 수 있습니다.
 
 
 ## 2022년 3월 릴리스 {#march-2022-release}
@@ -22,22 +22,22 @@ ht-degree: 92%
 
 **여정**
 
-* 통합 프로필 스키마에 불필요한 필드가 없도록 하기 위해 기본적으로 프로필에 대해 여정 단계 이벤트 스키마가 더 이상 활성화되지 않습니다. 필요한 경우 활성화할 수 있습니다. [자세히 알아보기](../reports/sharing-overview.md)
-* 이제 내보내기 작업과 관련된 새 단계 이벤트를 Journey Optimizer에서 Adobe Experience Platform으로 보냅니다. 쿼리의 예가 설명서에 추가되었습니다. [자세히 알아보기](../reports/query-examples.md)
+* 통합 프로필 스키마에 불필요한 필드가 없도록 하기 위해, 여정 단계 이벤트 스키마는 이제 프로필에서 기본적으로 사용하도록 설정되지 않습니다. 필요한 경우 활성화할 수 있습니다. [자세히 알아보기](../reports/sharing-overview.md)
+* 내보내기 작업 관련 새로운 단계 이벤트는 이제 Journey Optimizer에서 Adobe Experience Platform으로 보내집니다. 쿼리 예시를 설명서에 추가했습니다. [자세히 알아보기](../reports/query-examples.md)
 
 **의사 결정 관리**
 
 * 이제 오퍼 캡핑이 모든 사용자 간에 적용되는지, 아니면 하나의 특정 프로필, 모든 배치 또는 배치마다 적용되는지를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
-* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대한 offer decisioning 기능을 사용할 수 있습니다. 세그먼트에 있는 각 프로필에 대한 오퍼 컨텐츠는 사용자 지정 배치 워크플로우에 사용할 수 있는 AEP 데이터 세트에 배치됩니다. [자세히 알아보기](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대해 Offer Decisioning 기능을 사용할 수 있습니다. 세그먼트에 있는 각 프로필에 대한 오퍼 콘텐츠는 사용자 정의 일괄 처리 워크플로우에 사용할 수 있도록 AEP 데이터 세트에 배치됩니다. [자세히 알아보기](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **관리**
 
-* 이제 메시지 사전 설정 수준의 이메일 헤더에서 구독 취소 링크를 활성화/비활성화하고 메시지 수준에서 사용자 지정 구독 취소 URL을 설정할 수 있습니다. [자세히 알아보기](../configuration/message-presets.md#list-unsubscribe)
-* 이제 다음을 통해 허용 목록을 활성화 및 비활성화할 수 있습니다 [!DNL Journey Optimizer] 프로덕션 및 비프로덕션 샌드박스의 인터페이스. [자세히 알아보기](../reports/allow-list.md#enable-allow-list)
+* 이제 메시지 사전 설정 수준에서 이메일 헤더의 구독 취소 링크를 활성화/비활성화하고 메시지 수준에서 사용자 정의 구독 취소 URL을 설정할 수 있습니다. [자세히 알아보기](../configuration/message-presets.md#list-unsubscribe)
+* 프로덕션 및 비프로덕션 샌드박스에서 [!DNL Journey Optimizer] 인터페이스를 통해 허용 목록을 활성화하고 비활성화할 수 있습니다. [자세히 알아보기](../reports/allow-list.md#enable-allow-list)
 
 **개인화**
 
-* 이제 라이브러리에 40개 이상의 개인화 표현식을 저장할 수 있습니다. [자세히 알아보기](../personalization/personalization-library.md)
+* 이제 라이브러리에 개인화 표현식을 40개 넘게 저장할 수 있습니다. [자세히 알아보기](../personalization/personalization-library.md)
 
 ## 2022년 2월 릴리스 {#feb-2022-release}
 
