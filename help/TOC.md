@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -41,10 +41,10 @@ ht-degree: 92%
    + [이메일 디자인 시작](using/design/design-emails.md)
    + [처음부터 시작 ](using/design/create-email-content.md)
    + [이메일 콘텐츠 가져오기](using/design/existing-content.md)
-   + [고유한 컨텐츠 코드 지정](using/design/code-content.md)
-   + 컨텐츠 디자인 {#design-content}
+   + [나만의 콘텐츠 코딩](using/design/code-content.md)
+   + 콘텐츠 디자인 {#design-content}
       + [콘텐츠 구성 요소 사용](using/design/content-components.md)
-      + [배경 설정](using/design/backgrounds.md)
+      + [백그라운드 설정](using/design/backgrounds.md)
       + [세로 정렬 및 패딩 조정](using/design/adjusting-vertical-alignment-and-padding.md)
       + [링크의 스타일 정의](using/design/styling-links.md)
       + [인라인 스타일 속성 추가](using/design/adding-inline-styling-attributes.md)
@@ -219,15 +219,15 @@ ht-degree: 92%
       + [여정 라이브 보고서](using/reports/journey-live-report.md)
       + [이메일 라이브 보고서](using/reports/email-live-report.md)
       + [라이브 보고서 푸시](using/reports/push-live-report.md)
-      + [랜딩 페이지 라이브 보고서](using/reports/lp-report-live.md)
-      + [구독 목록 라이브 보고서](using/reports/subscription-report-live.md)
+      + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
+      + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
    + 글로벌 보고서 {#global-report}
       + [글로벌 보고서 대시보드 액세스](using/reports/global-report.md)
       + [여정 글로벌 보고서](using/reports/journey-global-report.md)
       + [이메일 글로벌 보고서](using/reports/email-global-report.md)
       + [글로벌 보고서 푸시](using/reports/push-global-report.md)
       + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)
-      + [구독 목록 전역 보고서](using/reports/subscription-report-global.md)
+      + [구독 목록 글로벌 보고서](using/reports/subscription-report-global.md)
    + 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
