@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '907'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
 * 워크플로우 개선: 마케팅 팀은 게재 또는 캠페인을 여러 개 만드는 대신 하나의 게재를 만들어 워크플로우를 개선하고 템플릿의 여러 부분에서 오퍼에 변화를 줄 수 있습니다,
 * 캠페인 및 고객 측면에 표시될 오퍼 횟수를 제어합니다.
 
-➡️ [이 비디오에서 의사 결정 관리에 대해 자세히 알아보십시오](#video)
+➡️ [이 비디오에서 의사 결정 관리에 대해 자세히 알아보세요.](#video)
 
 ## 오퍼 및 의사 결정 정보 {#about-offers-and-decisions}
 
