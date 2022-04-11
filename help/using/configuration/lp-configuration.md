@@ -4,9 +4,9 @@ description: Journey Optimizer에서 랜딩 페이지를 만들고 사용하도�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '879'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,13 @@ ht-degree: 2%
 >id="ajo_admin_config_lp_subdomain"
 >title="랜딩 페이지 사전 설정 만들기"
 >abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 하나 이상의 랜딩 페이지 하위 도메인을 이전에 구성했는지 확인하십시오."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_lp"
+>title="랜딩 페이지 하위 도메인 위임"
+>abstract="랜딩 페이지 사전 설정을 만들려면 이 하위 도메인이 필요하므로 랜딩 페이지에 사용할 하위 도메인을 구성해야 합니다. 이미 새 하위 도메인을 Adobe 또는 구성하는 데 위임된 하위 도메인을 사용할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 다음을 수행할 수 있습니다. [랜딩 페이지 사전 설정 만들기](#lp-create-preset): 랜딩 페이지에 사용할 하위 도메인을 설정해야 합니다.
 
