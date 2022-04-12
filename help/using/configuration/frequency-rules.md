@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 2%
+source-wordcount: '762'
+ht-degree: 1%
 
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 2%
 
 규칙은 **[!UICONTROL Administration]** > **[!UICONTROL Rules]** 메뉴 아래의 제품에서 사용할 수 있습니다. 모든 규칙이 수정 날짜별로 정렬되어 나열됩니다.
 
-![](assets/message-rules-access.png)
+>[!NOTE]
+>
+>메시지 빈도 규칙에 액세스, 만들기, 편집 또는 삭제하려면 [빈도 규칙 관리](../administration/high-low-permissions.md#manage-frequency-rules) 권한.
 
-<!--To access, create, edit or delete message frequency rules, you must have the message configuration permission. [Learn more](../administration/high-low-permissions.md#administration-permissions)-->
+![](assets/message-rules-access.png)
 
 필터 아이콘을 사용하여 카테고리, 상태 및/또는 채널을 필터링합니다. 메시지 레이블에서도 검색할 수 있습니다.
 
@@ -134,6 +136,10 @@ ht-degree: 2%
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 에서 게재에서 제외된 프로필 수를 볼 수 있습니다 [라이브 및 전역 보기](../reports/message-monitoring.md), 및에서 [이메일 라이브 보고서](../reports/email-live-report.md): 게재에서 제외된 사용자에 대한 가능한 이유로 빈도 규칙이 나열됩니다.
+
+>[!NOTE]
+>
+>여러 규칙이 동일한 채널에 적용할 수 있지만 하위 캡에 도달하면 프로필이 다음 게재에서 제외됩니다.
 
 ## 예: 여러 규칙 결합 {#frequency-rule-example}
 
