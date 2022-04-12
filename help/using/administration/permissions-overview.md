@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '190'
 ht-degree: 16%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 [!DNL Journey Optimizer] 여러 사용자에게 할당된 권한을 정의하고 관리할 수 있습니다. 권한은 제품 내 기능에 대한 액세스를 승인하거나 거부하는 권한 및 제한 세트입니다.
 
-➡️ [이 비디오에서 Adobe Journey Optimizer의 액세스 제어 시스템에 대해 자세히 알아보십시오](#video)
+➡️ [이 비디오에서 Adobe Journey Optimizer의 액세스 제어에 대해 자세히 알아보십시오](#video)
 
 의 사용자 관리 [!DNL Journey Optimizer] 는 다음 세 가지 개념을 기반으로 합니다.
 
@@ -33,6 +33,6 @@ ht-degree: 16%
 
 ## 방법 비디오{#video}
 
-Adobe Journey Optimizer의 액세스 제어 시스템과 8개의 사용자 지정 제품 프로필에 대해 자세히 알아보십시오. 제품 프로필 및 권한을 관리하는 방법과 사용자를 추가하고 관리하는 방법을 알아봅니다.
+Adobe Journey Optimizer의 액세스 제어 시스템 및 사용자 지정 제품 프로필에 대해 자세히 알아보십시오. 제품 프로필 및 권한을 관리하는 방법과 사용자를 추가하고 관리하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
