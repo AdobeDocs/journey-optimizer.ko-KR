@@ -6,18 +6,23 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '492'
 ht-degree: 1%
 
 ---
 
 # IP 풀 만들기 {#create-ip-pools}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_pool"
+>title="IP 풀 설정"
+>abstract="전자 메일 게재 능력을 향상시키기 위해 IP 풀을 만들어 하위 도메인의 IP 주소를 함께 그룹화할 수 있습니다."
+
 ## IP 풀 기본 정보 {#about-ip-pools}
 
-Journey Optimizer을 사용하여 하위 도메인의 IP 주소를 함께 그룹화하는 IP 풀을 만들 수 있습니다.
+사용 [!DNL Journey Optimizer]를 설정하는 경우 하위 도메인의 IP 주소를 함께 그룹화하는 IP 풀을 만들 수 있습니다.
 
 이메일 게재 기능을 위해서는 IP 풀을 만드는 것이 좋습니다. 이렇게 하면 하위 도메인의 평판을 다른 하위 도메인에 영향을 주지 않을 수 있습니다.
 
