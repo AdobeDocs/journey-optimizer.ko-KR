@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 5%
+source-wordcount: '1342'
+ht-degree: 6%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 5%
 
 이제 오퍼를 만들고 구성할 수 있습니다. 이 예에서는 각 특정 프로필에 따라 표시할 4개의 오퍼를 만듭니다.
 
-1. 오퍼 만들기. 추가 정보 [이 섹션](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
+1. 오퍼 만들기. 자세한 내용은 [이 섹션](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)을 참조하십시오.
 
 1. 이 오퍼에서 세 개의 표현을 만듭니다. 각 표현은 이전에 생성한 배치와 자산의 조합이어야 합니다.
 
@@ -195,7 +195,7 @@ ht-degree: 5%
 
 오퍼 결정을 만들고 구성하려면 아래 주요 단계를 수행하십시오.
 
-1. 의사 결정 만들기. 추가 정보 [이 섹션](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
+1. 의사 결정 만들기. 자세한 내용은 [이 섹션](../../using/offers/offer-activities/create-offer-activities.md#create-activity)을 참조하십시오.
 
 1. 을(를) 선택합니다 *웹 - 이미지*, *이메일 - 이미지* 및 *비디지털 - 텍스트* 배치.
 
@@ -255,7 +255,7 @@ ht-degree: 5%
 
 ![](assets/offers-e2e-offers-displayed.png)
 
-를 사용하십시오 **[!UICONTROL Offers]** 섹션 또는 컨텐츠 구성 요소 화살표(오른쪽 및 왼쪽 화살표)를 사용하여 데이터를 찾습니다. 고객 프로필과 함께 결정의 일부인 다른 오퍼를 표시할 수도 있습니다. 추가 정보 [이 섹션](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
+를 사용하십시오 **[!UICONTROL Offers]** 섹션 또는 컨텐츠 구성 요소 화살표(오른쪽 및 왼쪽 화살표)를 사용하여 데이터를 찾습니다. 고객 프로필과 함께 결정의 일부인 다른 오퍼를 표시할 수도 있습니다. 자세한 내용은 [이 섹션](../../using/design/deliver-personalized-offers.md#preview-offers-in-email)을 참조하십시오.
 
 변경 사항을 저장한 후 메시지가 게시되면 여정의 일부로 메시지를 보낼 때 관련 프로필에 오퍼를 표시할 수 있습니다.
 
