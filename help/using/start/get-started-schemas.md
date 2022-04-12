@@ -5,9 +5,9 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 11%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 11%
 
 에서 스키마를 구축하는 방법 알아보기 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR){target=&quot;_blank&quot;}
 
-다음 **스키마** 작업 영역 [!DNL Adobe Journey Optimizer] 사용자 인터페이스를 사용하면 스키마, 클래스, 스키마 필드 그룹 및 데이터 유형을 비롯한 XDM(Experience Data Model) 리소스를 관리할 수 있습니다. Adobe에서 제공하는 핵심 리소스를 보고 탐색할 수 있으며 조직을 위한 사용자 지정 리소스 및 스키마를 생성할 수 있습니다.
+다음 **스키마** 작업 공간 [!DNL Adobe Journey Optimizer] 사용자 인터페이스를 사용하면 스키마, 클래스, 스키마 필드 그룹 및 데이터 유형을 비롯한 XDM(Experience Data Model) 리소스를 관리할 수 있습니다. Adobe에서 제공하는 핵심 리소스를 보고 탐색할 수 있으며 조직을 위한 사용자 지정 리소스 및 스키마를 생성할 수 있습니다.
 
 ![](assets/schemas-home.png)
 
