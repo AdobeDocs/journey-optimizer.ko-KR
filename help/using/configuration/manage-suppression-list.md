@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 819e54313e3ec15b9c215455e25d9ff4fc60fb0b
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '992'
 ht-degree: 2%
 
 ---
@@ -103,6 +103,11 @@ ht-degree: 2%
 
 ## 수동으로 주소 및 도메인 추가 {#add-addresses-and-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="제외 목록에 이메일/도메인 추가"
+>abstract="전송에서 특정 이메일 주소 및/또는 도메인을 제외하도록 Journey Optimizer 제외 목록을 수동으로 채울 수 있습니다."
+
 메시지를 전자 메일 주소에 배달하지 못하면 이 주소가 정의된 제외 규칙 또는 바운스 수를 기반으로 하여 제외 목록에 자동으로 추가됩니다.
 
 그러나 수동으로 [!DNL Journey Optimizer] 전송에서 특정 이메일 주소 및/또는 도메인을 제외하는 제외 목록입니다.
@@ -114,6 +119,11 @@ ht-degree: 2%
 ![](assets/suppression-list-add-email.png)
 
 ### 주소 또는 도메인 하나 추가 {#add-one-address-or-domain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_address"
+>title="한 항목을 제외 목록에 추가합니다"
+>abstract="이메일 주소 및/또는 도메인을 하나씩 추가하여 제외 목록을 채울 수 있습니다."
 
 1. **[!UICONTROL One by one]** 옵션을 선택합니다.
 
@@ -132,6 +142,11 @@ ht-degree: 2%
 1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
 ### CSV 파일 업로드 {#upload-csv-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_csv"
+>title="CSV를 업로드하여 제외 목록에 항목 추가"
+>abstract="제외할 이메일 주소/도메인으로 채워진 CSV 파일을 업로드하여 제외 목록을 채울 수 있습니다."
 
 1. **[!UICONTROL Upload CSV]** 옵션을 선택합니다.
 
