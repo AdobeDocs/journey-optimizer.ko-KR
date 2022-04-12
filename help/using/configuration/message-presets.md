@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2266'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
-> * 메시지 사전 설정 구성은 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator). 메시지 사전 설정을 만들고, 편집하고, 삭제하려면 다음을 수행해야 합니다 [메시지 사전 설정 관리](../administration/high-low-permissions.md#manage-message-presets).
+> * 메시지 사전 설정을 만들고, 편집하고, 삭제하려면 다음을 수행해야 합니다 [메시지 사전 설정 관리](../administration/high-low-permissions.md#manage-message-presets).
 >
 > * 다음을 수행해야 합니다. [이메일 구성](#configure-email-settings) 및 [푸시 구성](../configuration/push-configuration.md) 메시지 사전 설정을 만들기 전 단계.
 
@@ -29,6 +29,11 @@ ht-degree: 1%
 ➡️ [이 비디오에서 이메일 사전 설정을 만들고 사용하는 방법을 알아봅니다](#video-presets)
 
 ## 메시지 사전 설정 만들기 {#create-message-preset}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets"
+>title="메시지 사전 설정 세부 사항 및 설정"
+>abstract="메시지 사전 설정을 설정하면 적용되는 채널을 선택하고, 메시지에 필요한 이메일 유형, 사용할 하위 도메인, 발신자 이름, 모바일 앱 등과 같은 모든 기술 매개 변수를 정의할 수 있습니다."
 
 메시지 사전 설정을 만들려면 다음 단계를 수행합니다.
 
@@ -97,11 +102,11 @@ ht-degree: 1%
 
 * 선택 **트랜잭션** 주문 확인, 암호 재설정 알림 또는 배달 정보와 같은 비상업적인 메시지의 경우,
 
-When [메시지 만들기](../messages/get-started-content.md#create-new-message), 선택한 카테고리 및 채널에 대해 유효한 메시지 사전 설정을 선택해야 합니다.
-
 >[!CAUTION]
 >
 >**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필로 메시지를 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
+
+When [메시지 만들기](../messages/get-started-content.md#create-new-message): 메시지에 대해 선택한 카테고리와 일치하는 유효한 메시지 사전 설정을 선택해야 합니다.
 
 ### 하위 도메인 및 IP 풀 {#subdomains-and-ip-pools}
 
@@ -110,6 +115,10 @@ When [메시지 만들기](../messages/get-started-content.md#create-new-message
 1. 이메일을 보내는 데 사용할 하위 도메인을 선택합니다. [자세히 알아보기](about-subdomain-delegation.md)
 
 1. 사전 설정과 연결할 IP 풀을 선택합니다. [자세히 알아보기](ip-pools.md)
+
+>[!NOTE]
+>
+>비프로덕션 환경의 경우 Adobe은 기본 테스트 하위 도메인을 만들거나 공유 전송 IP 풀에 대한 액세스 권한을 부여하지 않습니다. 다음을 수행해야 합니다. [고유한 하위 도메인 위임](delegate-subdomain.md) 및 조직에 할당된 풀의 IP를 사용합니다.
 
 ### 목록 가입 해지 {#list-unsubscribe}
 
@@ -212,6 +221,8 @@ UTM 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Val
 * 마케팅 이메일의 경우 최소 재시도 기간은 6시간입니다.
 * 트랜잭션 전자 메일의 경우 최소 재시도 기간은 10분입니다.
 * 두 이메일 유형의 경우 최대 다시 시도 기간은 84시간(또는 5040분)입니다.
+
+에서 다시 시도하는 방법에 대해 자세히 알아보기 [이 섹션](retries.md).
 
 ## 푸시 설정 구성 {#configure-push-settings}
 
