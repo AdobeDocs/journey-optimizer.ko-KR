@@ -4,9 +4,9 @@ description: Journey Optimizer에서 랜딩 페이지를 만들고 사용하도�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
@@ -78,6 +78,11 @@ ht-degree: 2%
 1. 확인이 성공하면 하위 도메인이 **[!UICONTROL Success]** 상태. 랜딩 페이지 사전 설정을 만드는 데 사용할 준비가 되었습니다.
 
 ### 새 하위 도메인 구성 {#lp-configure-new-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_lp_subdomain_dns"
+>title="일치하는 DNS 레코드 생성"
+>abstract="새 랜딩 페이지 하위 도메인을 구성하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사하여 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. 이 확인이 성공하면 하위 도메인을 사용하여 랜딩 페이지 사전 설정을 만들 준비가 되었습니다."
 
 새 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 
