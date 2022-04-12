@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1607'
 ht-degree: 10%
 
 ---
@@ -17,20 +17,28 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
->title="하위 도메인 위임 기본 정보"
->abstract="Journey Optimizer을 사용하면 하위 도메인을 Adobe에 완전히 위임할 수 있습니다. Adobe은 DNS의 모든 측면을 제어하고 유지 관리하여 메시지를 관리 서비스로 제공할 수 있습니다."
+>title="하위 도메인 위임"
+>abstract="Journey Optimizer을 사용하면 하위 도메인을 Adobe에 위임할 수 있습니다. 하위 도메인을 Adobe에 완전히 위임하거나, CNAME을 사용하여 Adobe 특정 레코드를 가리키도록 하위 도메인을 만들 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="하위 도메인 구성 메서드"
 
-도메인 이름 위임은 도메인 이름의 소유자를 허용하는 메서드입니다(기술적으로 DNS 영역)에서 하위 집합을 위임(기술적 의미상: 하위 영역이라고 할 수 있는 DNS 영역을 다른 엔터티에 추가합니다. 기본적으로 고객으로서 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다.
-
-에 사용할 하위 도메인을 위임하여 [!DNL Journey Optimizer]를 사용하는 경우 클라이언트는 Adobe을 사용하여 전자 메일 마케팅 전송 도메인에 대한 업계 표준 게재 기능 요구 사항을 충족하는 데 필요한 DNS 인프라를 유지하고 내부 전자 메일 도메인에 대한 DNS를 계속 유지 관리할 수 있습니다.
+도메인 이름 위임은 도메인 이름의 소유자를 허용하는 메서드입니다(기술적으로 DNS 영역)에서 하위 집합을 위임(기술적 의미상: 하위 영역이라고 할 수 있는 DNS 영역을 다른 엔터티에 추가합니다. 기본적으로 고객으로서 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다. 추가 정보 [하위 도메인 위임](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
 >기본적으로 [!DNL Journey Optimizer] 사용권 계약을 사용하면 최대 10개의 하위 도메인을 위임할 수 있습니다. 이 제한을 늘리려면 Adobe 담당자에게 문의하십시오.
 
+하위 도메인을 완전히 위임하거나 CNAME을 사용하여 Adobe 특정 레코드를 가리키도록 하위 도메인을 만들 수 있습니다. 두 가지 차이점에 대해 자세히 알아보기 [하위 도메인 구성 메서드](about-subdomain-delegation.md#subdomain-delegation-methods).
+
 ## 전체 하위 도메인 위임 {#full-subdomain-delegation}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_dns"
+>title="일치하는 DNS 레코드 생성"
+>abstract="새 하위 도메인을 Adobe에 완전히 위임하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사하여 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 성공하면 하위 도메인을 사용하여 메시지를 전달할 수 있습니다."
+
 [!DNL Journey Optimizer] 제품 인터페이스에서 직접 Adobe에 하위 도메인을 완전히 위임할 수 있습니다. 이렇게 하면 Adobe은 이메일 캠페인 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리하는 방식으로 메시지를 관리 서비스로 제공할 수 있습니다.
+
+내부 이메일 도메인에 대한 DNS를 계속 유지 관리하고 제어하면서 이메일 마케팅 전송 도메인의 업계 표준 게재 기능 요구 사항을 충족하는 데 필요한 DNS 인프라를 유지 관리하기 위해 Adobe을 사용할 수 있습니다.
 
 새 하위 도메인을 Adobe에 완전히 위임하려면 아래 단계를 수행하십시오.
 
@@ -66,7 +74,7 @@ ht-degree: 10%
 
    ![](assets/subdomain-processing.png)
 
-   해당 하위 도메인을 사용하여 메시지를 보내려면 Adobe이 필요한 검사를 수행할 때까지 기다려야 하며, 이 작업은 최대 3시간이 걸릴 수 있습니다. 추가 정보 [이 섹션](#subdomain-validation).
+   해당 하위 도메인을 사용하여 메시지를 보내려면 Adobe이 필요한 검사를 수행할 때까지 기다려야 하며, 이 작업은 최대 3시간이 걸릴 수 있습니다. 자세한 내용은 [이 섹션](#subdomain-validation)을 참조하십시오.
 
    >[!NOTE]
    >
@@ -87,6 +95,11 @@ ht-degree: 10%
 >하위 도메인의 병렬 실행은 현재 지원되지 않습니다. [!DNL Journey Optimizer]. 다른 도메인이 **[!UICONTROL Processing]** 상태, 오류 메시지가 표시됩니다.
 
 ## CNAME 하위 도메인 위임 {#cname-subdomain-delegation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_dns_cname"
+>title="일치하는 DNS 및 유효성 검사 레코드 생성"
+>abstract="CNAME을 사용하여 하위 도메인을 위임하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보 및 SSL CDN URL 유효성 검사 레코드를 호스팅 플랫폼에 복사하여 붙여넣어야 합니다. 확인이 성공하면 하위 도메인을 사용하여 메시지를 전달할 수 있습니다."
 
 도메인별 제한 정책이 있고 Adobe이 DNS를 부분적 제어만 갖도록 하려는 경우 모든 DNS 관련 활동을 사용자 측에서 수행하도록 선택할 수 있습니다.
 
@@ -140,7 +153,7 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따�
 
 1. CNAME 하위 도메인 위임이 제출되면 하위 도메인이 와 함께 목록에 표시됩니다. **[!UICONTROL Processing]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](access-subdomains.md).
 
-   해당 하위 도메인을 사용하여 메시지를 보내려면 Adobe이 필요한 검사를 수행할 때까지 기다려야 합니다. 이 경우 일반적으로 2~3시간이 소요됩니다. 추가 정보 [이 섹션](#subdomain-validation).
+   해당 하위 도메인을 사용하여 메시지를 보내려면 Adobe이 필요한 검사를 수행할 때까지 기다려야 합니다. 이 경우 일반적으로 2~3시간이 소요됩니다. 자세한 내용은 [이 섹션](#subdomain-validation)을 참조하십시오.
 
 1. 확인이 성공하면<!--i.e Adobe validates the record you created and installs it-->로 지정하는 경우 하위 도메인이 **[!UICONTROL Success]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
