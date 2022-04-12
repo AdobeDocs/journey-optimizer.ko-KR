@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5071de634c9dbb13908d3190fe1157831c372c7d
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 7%
+source-wordcount: '166'
+ht-degree: 6%
 
 ---
 
 # 기본 이메일 주소 변경 {#change-primary-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_execution_address"
+>title="사용할 주소 정의"
+>abstract="데이터베이스에서 여러 주소(개인, 전문가 등)를 사용할 수 있는 경우 발송에 우선 순위를 둘 이메일 주소를 선택할 수 있습니다."
 
 프로필을 타겟팅할 때 데이터베이스에서 여러 이메일 주소(개인, 전문 이메일 주소 등)를 사용할 수 있습니다.
 
