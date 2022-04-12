@@ -6,20 +6,25 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # PTR 레코드 {#ptr-records}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record"
+>title="하위 도메인의 PTR 레코드"
+>abstract="PTR(포인터 레코드)는 수신 메일 서버가 보낸 사람의 IP 주소를 확인하는 데 도움이 되는 IP 주소에 연결된 도메인 이름을 제공하는 DNS 레코드의 유형입니다."
+
 ## PTR 레코드 정보 {#about-ptr-records}
 
 PTR(포인터 레코드)는 IP 주소에 연결된 도메인 이름을 제공하는 DNS(Domain Name System) 레코드의 유형입니다.
 
-PTR 레코드를 사용하면 수신 메일 서버가 해당 IP 주소가 서버가 연결하는 이름과 일치하는지 확인하여 전송 메일 서버의 진위를 확인할 수 있습니다.
+PTR 레코드를 통해 수신 메일 서버는 해당 IP 주소가 서버가 연결하는 이름에 해당하는지 여부를 확인하여 전송 메일 서버의 진위를 확인할 수 있습니다.
 
 ## 하위 도메인의 PTR 레코드에 액세스 {#access-ptr-records}
 
@@ -38,6 +43,10 @@ PTR 레코드를 사용하면 수신 메일 서버가 해당 IP 주소가 서버
 ## PTR 레코드 편집 {#edit-ptr-record}
 
 PTR 레코드를 수정하여 IP 주소와 연결된 하위 도메인을 편집할 수 있습니다.
+
+>[!CAUTION]
+>
+>PTR 레코드를 편집할 때 추가 주의가 필요합니다. 확실하지 않은 경우 게재 가능성 전문가에게 문의하십시오.<!--why?-->
 
 >[!NOTE]
 >
