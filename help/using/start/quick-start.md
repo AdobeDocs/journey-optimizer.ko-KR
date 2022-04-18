@@ -1,15 +1,15 @@
 ---
 title: 빠른 시작
-description: Journey Optimizer 빠른 시작
+description: 마케터, 관리자 또는 데이터 엔지니어링 담당자는 단계별 지침을 통해 Adobe Journey Optimizer의 강력한 기능을 배우고 발견할 수 있습니다
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 92%
+source-wordcount: '182'
+ht-degree: 82%
 
 ---
 
