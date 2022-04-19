@@ -2,10 +2,10 @@
 product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer 안내서
-user-guide-description: Journey Optimizer을 사용하여 고객에게 연결되고 상황에 맞는 개인화된 경험을 제공하고 전달할 수 있습니다
+user-guide-description: Journey Optimizer을 사용하여 고객에게 연결되고 상황에 맞는 개인화된 경험을 구축하고 전달할 수 있습니다
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 97%
