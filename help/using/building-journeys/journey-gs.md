@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 7%
+source-wordcount: '1793'
+ht-degree: 6%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 7%
    ![](assets/create-content-push.png)
 
 ## 여정 구축{#jo-build}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="여정 빌드"
+>abstract="이 화면에는 이전에 만든 여정 목록이 표시됩니다. 여정을 열거나 &quot;여정 만들기&quot;를 클릭하고 다른 이벤트, 오케스트레이션 및 작업 활동을 결합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다."
 
 이 단계는 **비즈니스 사용자**. 여기에서 여정을 만듭니다. 다양한 이벤트, 오케스트레이션 및 작업 활동을 조합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
 
