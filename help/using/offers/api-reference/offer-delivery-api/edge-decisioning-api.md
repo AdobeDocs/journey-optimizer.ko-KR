@@ -5,7 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: acd91848e24d5ca5340f6d0e22fca8b88523aed3
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 2%
@@ -94,14 +94,15 @@ offer decisioning에 대한 SDK를 구성하려면 아래 두 단계 중 하나�
 
 옵션 2에서 다음 JavaScript 코드 조각을 포함합니다. 사전 빌드된 독립형 버전 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 에서 `<head>` 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
-```javascript
+```
+javascript
     <script>
         !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
         []).push(o),n[o]=function(){var u=arguments;return new Promise(
         function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
         (window,["alloy"]);
     </script>
-    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script> 
+    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
 ```
 
 SDK 구성(edgeConfigId 및 orgId)을 설정하려면 Adobe 계정 내에서 두 ID가 필요합니다. edgeConfigId는 사전 요구 사항에 구성해야 하는 데이터 스트림 ID와 동일합니다.
@@ -110,7 +111,8 @@ edgeConfigID/데이터 스트림 ID를 찾으려면 데이터 수집으로 이�
 
 이 페이지의 지침에 따라 JavaScript에서 SDK를 구성합니다. 구성 함수에서 항상 edgeConfigId 및 orgId를 사용합니다. 이 설명서에서는 구성에 대해 어떤 선택적 매개 변수가 있는지 설명합니다. 최종 구성은 다음과 같이 표시될 수 있습니다.
 
-```javascript
+```
+javascript
     alloy("configure", {
         "edgeConfigId": "12345678-0ABC-DEF-GHIJ-KLMNOPQRSTUV",                            
         "orgId":"ABCDEFGHIJKLMNOPQRSTUVW@AdobeOrg",
@@ -131,7 +133,8 @@ edgeConfigID/데이터 스트림 ID를 찾으려면 데이터 수집으로 이�
 
 **예**:
 
-```javascript
+```
+javascript
     alloy("sendEvent", {
         "decisionScopes": 
         [
@@ -142,7 +145,8 @@ edgeConfigID/데이터 스트림 ID를 찾으려면 데이터 수집으로 이�
 
 응답을 처리하는 방법에 대한 예는 다음을 참조하십시오.
 
-```javascript
+```
+javascript
     alloy("sendEvent", {
         "decisionScopes": [
         "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
@@ -164,7 +168,8 @@ edgeConfigID/데이터 스트림 ID를 찾으려면 데이터 수집으로 이�
 
 이 예에서 반환할 JSON은 다음과 같습니다.
 
-```json
+```
+json
 {
    "name":"ABC Test",
    "description":"This is a test offer", 
@@ -175,7 +180,8 @@ edgeConfigID/데이터 스트림 ID를 찾으려면 데이터 수집으로 이�
 
 응답 개체를 처리하고 필요한 데이터를 구문 분석합니다. 여러 결정 범위를 한 번에 보낼 수 있으므로 `sendEvent` 를 호출합니다. 응답이 약간 다르게 보일 수 있습니다.
 
-```json
+```
+json
     {
         "id": "abrxgl843d913",
         "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
@@ -199,7 +205,8 @@ edgeConfigID/데이터 스트림 ID를 찾으려면 데이터 수집으로 이�
 }
 ```
 
-```json
+```
+json
 {
     "propositions": [
     {
@@ -230,7 +237,8 @@ edgeConfigID/데이터 스트림 ID를 찾으려면 데이터 수집으로 이�
 
 JS 변수를 설정하려면 다음을 수행하십시오.
 
-```javascript
+```
+javascript
 const offer = JSON.parse(result['decisions'][0]['items'][0]['data']['content']);
 
 let offerURL = offer['link'];
