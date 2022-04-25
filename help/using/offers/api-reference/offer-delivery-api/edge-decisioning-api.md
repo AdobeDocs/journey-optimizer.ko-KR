@@ -5,9 +5,9 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: acd91848e24d5ca5340f6d0e22fca8b88523aed3
+source-git-commit: ecd7b3095bf825742cad44e20d68bb3c787bcb6b
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1049'
 ht-degree: 2%
 
 ---
@@ -42,11 +42,11 @@ SDK는 이러한 라이브러리를 결합하지 않았으며 처음부터 새�
 
 1. 조직에 SDK를 사용할 수 있는 적절한 권한이 있고 권한이 올바르게 구성되었는지 확인합니다.
 
-<!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
+   <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-2. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) ( Adobe Experience Cloud에서 계정의 데이터 수집 탭 내).
+1. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) ( Adobe Experience Cloud에서 계정의 데이터 수집 탭 내).
 
-3. SDK를 설치합니다. 다음과 같은 여러 가지 방법으로 데이터를 수집할 수 있습니다 [SDK 페이지 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 이 페이지는 각 서로 다른 구현 방법으로 계속 진행됩니다.
+1. SDK를 설치합니다. 다음과 같은 여러 가지 방법으로 데이터를 수집할 수 있습니다 [SDK 페이지 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 이 페이지는 각 서로 다른 구현 방법으로 계속 진행됩니다.
 
 SDK를 사용하려면 [스키마](../../../start/get-started-schemas.md) 그리고 [데이터 스트림](../../../start/get-started-datasets.md) 정의됩니다.
 
@@ -64,21 +64,21 @@ offer decisioning에 대한 SDK를 구성하려면 아래 두 단계 중 하나�
 
 1. [태그 속성 만들기](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en)
 
-2. [포함 코드 추가](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [포함 코드 추가](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-3. &quot;데이터 스트림&quot; 드롭다운에서 구성을 선택하여 생성한 데이터 스트림으로 Platform Web SDK 확장을 설치하고 구성합니다. 다음 문서를 참조하십시오. [확장](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. &quot;데이터 스트림&quot; 드롭다운에서 구성을 선택하여 생성한 데이터 스트림으로 Platform Web SDK 확장을 설치하고 구성합니다. 다음 문서를 참조하십시오. [확장](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
    ![Adobe Experience Platform 웹 SDK](../../assets/installed-catalog-web-sdk.png)
 
    ![확장 구성](../../assets/configure-sdk-extension.png)
 
-4. 필요한 만들기 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). 최소한으로, Platform 웹 SDK ID 맵과 Platform 웹 SDK XDM 개체 데이터 요소를 만들어야 합니다.
+1. 필요한 만들기 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). 최소한으로, Platform 웹 SDK ID 맵과 Platform 웹 SDK XDM 개체 데이터 요소를 만들어야 합니다.
 
    ![ID 맵](../../assets/sdk-identity-map.png)
 
    ![XDM 개체](../../assets/xdm-object.png)
 
-5. 만들기 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
+1. 만들기 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
 
    나. Platform Web SDK 이벤트 보내기 작업을 추가하고 해당 작업의 구성에 관련 decisionscopes를 추가합니다
 
@@ -86,7 +86,7 @@ offer decisioning에 대한 SDK를 구성하려면 아래 두 단계 중 하나�
 
    ![오퍼 요청](../../assets/rule-request-offer.png)
 
-6. [만들기 및 게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 구성한 모든 관련 규칙, 데이터 요소 및 확장이 포함된 라이브러리
+1. [만들기 및 게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 구성한 모든 관련 규칙, 데이터 요소 및 확장이 포함된 라이브러리
 
 ## 옵션 2 - 사전 빌드된 독립형 버전을 사용하여 수동으로 구현
 
@@ -125,7 +125,7 @@ javascript
     });
 ```
 
-디버깅에 사용할 Debugger Chrome 확장을 설치합니다. 여기에서 찾을 수 있습니다. https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob
+디버깅에 사용할 Debugger Chrome 확장을 설치합니다. 여기에서 찾을 수 있습니다. <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
 
 다음으로, 디버거 내에서 계정에 로그인합니다. 그런 다음 로그로 이동하여 올바른 작업 공간에 연결되어 있는지 확인합니다. 이제 오퍼에서 결정 범위의 base64 인코딩 버전을 복사합니다.
 
