@@ -2,13 +2,13 @@
 product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer 안내서
-user-guide-description: Journey Optimizer을 사용하여 고객에게 연결되고 상황에 맞는 개인화된 경험을 구축하고 전달할 수 있습니다
+user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 97%
+source-wordcount: '980'
+ht-degree: 98%
 
 ---
 
@@ -325,9 +325,10 @@ ht-degree: 97%
          + [의사 결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
          + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
       + API를 사용한 오퍼 게재 {#offer-delivery}
-         + [의사 결정 API](using/offers/api-reference/decisions-api/deliver-offers.md)
-         + [Batch Decisioning API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
-         + [Adobe Experience Platform 웹 SDK](using/offers/api-reference/web-sdk.md)
+         + [Decisioning 및 Edge Decisioning API 정보](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+         + [의사 결정 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+         + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+         + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 데이터 관리 {#data-management}
    + [스키마](using/start/get-started-schemas.md)
    + [데이터 세트](using/start/get-started-datasets.md)

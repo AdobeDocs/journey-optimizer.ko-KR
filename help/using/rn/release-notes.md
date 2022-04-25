@@ -2,7 +2,7 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad0e4572c855d8842215d2f9d42e47aac53b82d1
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '2969'
 ht-degree: 98%
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 이 페이지에는 [!DNL Journey Optimizer]의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. 또한 자세한 변경 사항은 [최신 설명서 업데이트](documentation-updates.md) 페이지를 참조하십시오.
 
-[!DNL Adobe Journey Optimizer] 기본적으로 [!DNL Adobe Experience Platform] 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 에서 이러한 변경 사항에 대해 자세히 알아보십시오 [Adobe Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target=&quot;_blank&quot;}.
+[!DNL Adobe Journey Optimizer] 기본적으로 [!DNL Adobe Experience Platform] 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 에서 이러한 변경 사항에 대해 자세히 알아보십시오 [Adobe Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target=&quot;_blank&quot;}.
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}에 등록하시면 분기마다 최신 제품 업데이트, 흥미로운 사례, 사용 사례, 팁 등을 받은 편지함에 바로 받을 수 있습니다.
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 **의사 결정 관리**
 
 * 이제 오퍼 캡핑이 모든 사용자 간에 적용되는지, 아니면 하나의 특정 프로필, 모든 배치 또는 배치마다 적용되는지를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
-* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대해 Offer Decisioning 기능을 사용할 수 있습니다. 세그먼트에 있는 각 프로필에 대한 오퍼 콘텐츠는 사용자 정의 일괄 처리 워크플로우에 사용할 수 있도록 AEP 데이터 세트에 배치됩니다. [자세히 알아보기](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대해 Offer Decisioning 기능을 사용할 수 있습니다. 세그먼트에 있는 각 프로필에 대한 오퍼 콘텐츠는 사용자 정의 일괄 처리 워크플로우에 사용할 수 있도록 AEP 데이터 세트에 배치됩니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **관리**
 

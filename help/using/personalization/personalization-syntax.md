@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 10%
 
 ---
 
 # 개인화 구문 {#personalization-syntax}
 
-의 개인화 [!DNL Journey Optimizer] 은 Handlebars라는 템플릿 구문을 기반으로 합니다.
+Personalization의 [!DNL Journey Optimizer] 은 Handlebars라는 템플릿 구문을 기반으로 합니다.
 Handlebars 구문에 대한 전체 설명은 다음을 참조하십시오 [HandlebarsJS 설명서](https://handlebarsjs.com/).
 
 템플릿과 입력 개체를 사용하여 HTML 또는 기타 텍스트 형식을 생성합니다. Handlebars 템플릿은 포함된 Handlebars 표현식이 있는 일반 텍스트와 같습니다.
@@ -41,7 +41,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 단어 **true**, **false**, **null** 및 **정의되지 않음** 경로 식의 첫 부분에서만 허용됩니다.
 
-Handlebars에서 {{expression}}에서 반환되는 값은 다음과 같습니다 **HTML 이스케이프 처리**. 표현식에 가 포함되어 있는 경우 `&`를 반환하면 반환된 HTML 이스케이프 처리된 출력이 `&amp;`. Handlebars가 값을 이스케이프 처리하지 않도록 하려면 &quot;트리플 스태시&quot;를 사용합니다.
+Handlebars에서 {{expression}} is **HTML 이스케이프 처리**. 표현식에 가 포함되어 있는 경우 `&`를 반환하면 반환된 HTML 이스케이프 처리된 출력이 `&amp;`. Handlebars가 값을 이스케이프 처리하지 않도록 하려면 &quot;트리플 스태시&quot;를 사용합니다.
 
 ## 프로필
 
@@ -92,7 +92,7 @@ Handlebars에서 {{expression}}에서 반환되는 값은 다음과 같습니다
 * `Placement Id` 및 `Activity Id` 배치 및 활동 식별자
 * `Attributes` 은 오퍼 유형에 따라 달라지는 오퍼 특정 속성입니다. 예: `deliveryUrl` 이미지
 
-결정 API 및 오퍼 표현에 대한 자세한 내용은 [이 페이지](../../using/offers/api-reference/decisions-api/deliver-offers.md)
+결정 API 및 오퍼 표현에 대한 자세한 내용은 [이 페이지](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 모든 참조는 [이 페이지](personalization-validation.md)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 기능은 [!DNL Decisions] API. 추가 정보 [결정 API를 사용하여 오퍼 제공](../api-reference/decisions-api/deliver-offers.md).
+>이 기능은 [!DNL Decisioning] API. 추가 정보 [Decisioning API를 사용하여 오퍼 게재](../api-reference/offer-delivery-api/decisioning-api.md).
 
 이 기능에 액세스하려면 **[!UICONTROL Simulation]** 탭에서 **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >기본적으로 모든 중복 제거 플래그가 시뮬레이션에 사용됩니다. 이는 의사 결정 엔진이 중복을 허용하므로 여러 의사 결정/배치 간에 동일한 제안을 만들 수 있음을 의미합니다. 추가 정보 [!DNL Decisions] 의 API 요청 속성 [이 섹션](../api-reference/decisions-api/deliver-offers.md).
+   >기본적으로 모든 중복 제거 플래그가 시뮬레이션에 사용됩니다. 이는 의사 결정 엔진이 중복을 허용하므로 여러 의사 결정/배치 간에 동일한 제안을 만들 수 있음을 의미합니다. 추가 정보 [!DNL Decisioning] 의 API 요청 속성 [이 섹션](../api-reference/offer-delivery-api/decisioning-api.md).
 
 1. 에서 **[!UICONTROL Response format]** 섹션에서 코드 보기에 메타데이터를 포함하도록 선택할 수 있습니다. 해당 옵션을 선택하고 선택한 메타데이터를 선택합니다. 선택 시 요청 및 응답 페이로드에 표시됩니다 **[!UICONTROL View code]**. 자세한 내용은 [시뮬레이션 결과 보기](#simulation-results) 섹션을 참조하십시오.
 

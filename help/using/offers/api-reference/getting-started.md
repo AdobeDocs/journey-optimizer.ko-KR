@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 5%
+source-wordcount: '668'
+ht-degree: 4%
 
 ---
 
@@ -127,6 +127,10 @@ curl -X GET \
 ## 다음 단계 {#next-steps}
 
 이 문서는 [!DNL Offer Library] 컨테이너 ID 획득을 포함한 API. 이제 이 개발자 가이드에 제공된 샘플 호출을 진행하여 지침을 따라 수행할 수 있습니다.
+
+>[!NOTE]
+>
+> Adobe Journey Optimizer의 인앱 메시지 채널은 offer decisioning 개체를 사용합니다. 조직에서 인앱 메시징 채널을 사용하는 경우 개체의 API 목록 요청에 인앱 메시징 서비스에서 만든 개체가 포함되며 offer decisioning 사용 사례에 대해 무시될 수 있습니다. 인앱 메시지에 대해 생성된 개체에는 `createdBy = “Mobile_Sheliak”`.
 
 ## 방법 비디오 {#video}
 
