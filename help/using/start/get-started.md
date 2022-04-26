@@ -1,15 +1,15 @@
 ---
 title: Journey Optimizer
-description: Adobe Journey Optimizer 주요 기능 및 활용 사례 살펴보기
+description: Adobe Journey Optimizer 주요 기능 및 사용 사례 살펴보기
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
 
 [!DNL Adobe Journey Optimizer]는 기업이 고객에게 연관성 있고 상황에 맞는 개인화된 경험을 제공할 수 있도록 해줍니다. 고객 여정은 고객과 브랜드 간의 상호 작용을 위한 전체 프로세스로서, 연락 시작부터 고객이 떠난 시점까지 진행됩니다. 브랜드에 대해 알아보고 높이고 참여를 유도하는 인지도 단계로 시작합니다. 고객은 해당 브랜드와 보다 효과적으로 상호 작용하고, 온라인 및 물리적 사이트를 방문하며, 구매, 메시지 전송 또는 게시물 검토를 수행합니다.
 
-[!DNL Adobe Journey Optimizer] 기본적으로 [!DNL Adobe Experience Platform] 및 은(는) 통합 실시간 고객 프로필, API 최초 오픈 프레임워크, 중앙 집중식 offer decisioning 및 AI(인공 지능) 및 개인화 및 최적화를 위한 기계 학습(ML)을 결합합니다. Journey Optimizer를 사용하면 전체 고객 여정에서 규모, 속도 및 유연성과 함께 차세대 상호 작용을 지능적으로 결정할 수 있습니다. [!DNL Adobe Journey Optimizer]를 사용하면 회사는 동일한 애플리케이션 내에서 예약된 마케팅 캠페인(예: 소매점의 주별 홍보)과 개인화된 개별 커뮤니케이션(예: 충성도 앱 고객이 이전에 재고 부족 상태인 항목을 검토했을 수 있는 항목에 대한 푸시 알림)을 모두 만들고 게재할 수 있습니다.
+[!DNL Adobe Journey Optimizer]은(는) 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 개인화 및 최적화를 위한 통합 실시간 고객 프로필, API 우선 오픈 프레임워크, 중앙 집중식 Offer Decisioning 및 AI(인공 지능) 및 ML(머신 러닝)을 결합합니다. Journey Optimizer를 사용하면 전체 고객 여정에서 규모, 속도 및 유연성과 함께 차세대 상호 작용을 지능적으로 결정할 수 있습니다. [!DNL Adobe Journey Optimizer]를 사용하면 회사는 동일한 애플리케이션 내에서 예약된 마케팅 캠페인(예: 소매점의 주별 홍보)과 개인화된 개별 커뮤니케이션(예: 충성도 앱 고객이 이전에 재고 부족 상태인 항목을 검토했을 수 있는 항목에 대한 푸시 알림)을 모두 만들고 게재할 수 있습니다.
 
 ➡️ [Journey Optimizer 살펴보기](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ko){target=&quot;_blank&quot;}(비디오)
 
