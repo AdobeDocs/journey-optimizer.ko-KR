@@ -1,15 +1,15 @@
 ---
 title: 빠른 시작
-description: 마케터, 관리자 또는 데이터 엔지니어는 단계별 지침을 통해 Adobe Journey Optimizer의 강력한 기능을 학습하고 살펴봅니다
+description: 마케터, 관리자 또는 데이터 엔지니어를 위한 단계별 지침을 통해 Adobe Journey Optimizer의 강력한 기능을 살펴보십시오.
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 82%
 
 단계별 지침을 통해 Adobe Journey Optimizer의 강력한 기능을 알아보고 확인하려면 프로필을 선택하세요.
 
-* 나는 **관리자**
+* **관리자**&#x200B;입니다
 
    환경 준비, 액세스 권한 부여, 설정 구성. [자세히 알아보기](path/administrator.md)
 
-* 나는 **데이터 엔지니어**
+* **데이터 엔지니어**&#x200B;입니다
 
    프로필 가져오기, 대상자 빌드, 스키마 및 데이터 세트 만들기. [자세히 알아보기](path/data-engineer.md)
 
-* 나는 **마케터**
+* **마케터**&#x200B;입니다
 
    메시지 디자인, 오퍼, 자산 추가, 고객 여정 작성. [자세히 알아보기](path/marketer.md)
