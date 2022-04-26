@@ -2,7 +2,7 @@
 product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer 안내서
-user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞는 개인화된 경험 구축 및 제공
+user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
@@ -260,7 +260,7 @@ ht-degree: 98%
    + 오퍼 만들기 및 관리 {#managing-offers-in-the-offer-library}
       + 오퍼 구성 {#configure-offers}
          + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
-         + [표현 추가](using/offers/offer-library/add-representations.md)
+         + [표시 추가](using/offers/offer-library/add-representations.md)
          + [제한 추가](using/offers/offer-library/add-constraints.md)
       + [대체 오퍼 만들기](using/offers/offer-library/creating-fallback-offers.md)
       + [컬렉션 만들기](using/offers/offer-library/creating-collections.md)
