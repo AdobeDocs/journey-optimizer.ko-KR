@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 하며, 이것은 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [메시지 사전 설정 수준](../configuration/message-presets.md#email-type) 그리고 [메시지 만들기](get-started-content.md#create-new-message).
+>마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)는 [메시지 사전 설정 수준](../configuration/message-presets.md#email-type)에 정의되어 있으며 [메시지를 만들 때](get-started-content.md#create-new-message) 정의됩니다.
 
 ### 외부 옵트아웃 {#opt-out-external-lp}
 
@@ -75,7 +75,7 @@ ht-degree: 91%
 
 #### 옵트아웃에 대한 API 호출 구현 {#opt-out-api}
 
-수신자가 랜딩 페이지에서 선택한 항목을 제출할 때 옵트아웃하도록 하려면 **구독 API 호출** through [Adobe 개발자](https://developer.adobe.com){target=&quot;_blank&quot;} 를 사용하여 해당 프로필의 환경 설정을 업데이트합니다.
+수신자가 랜딩 페이지에서 선택한 항목을 제출할 때 옵트아웃하도록 하려면 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}를 통해 **구독 API 호출**&#x200B;을 구현하여 해당 프로필의 기본 설정을 업데이트해야 합니다.
 
 이 POST 호출은 다음과 같습니다.
 
@@ -113,7 +113,7 @@ ht-degree: 91%
 }
 ```
 
-[!DNL Journey Optimizer] 에서는 다음 매개 변수를 사용하여 [Adobe 개발자](https://developer.adobe.com){target=&quot;_blank&quot;} API 호출.
+[!DNL Journey Optimizer]은(는) 이러한 매개 변수를 사용하여 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API 호출을 통해 해당 프로필의 선택을 업데이트합니다.
 
 #### 구독 취소 링크가 있는 메시지 보내기 {#send-message-unsubscribe-link}
 
@@ -125,7 +125,7 @@ ht-degree: 91%
 
    ![](assets/opt-out-lp-example.png)
 
-1. 수신자가 양식을 제출하는 경우(여기서는 **구독 취소** 랜딩 페이지의 경우), 프로필 데이터는 [API 호출](#opt-out-api).
+1. 수신자가 양식을 제출하는 경우(여기에서는 랜딩 페이지의 **구독 취소** 버튼을 누르는 경우), 프로필 데이터는 [API 호출](#opt-out-api)을 통해 업데이트됩니다.
 
 1. 옵트아웃 수신자는 옵트아웃에 성공했음을 나타내는 확인 메시지 화면으로 리디렉션됩니다.
 
@@ -203,7 +203,7 @@ ht-degree: 91%
    >
    >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 표시되지 않습니다.
 
-* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
+* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
 
 ## 푸시 옵트아웃 관리 {#push-opt-out-management}
 
