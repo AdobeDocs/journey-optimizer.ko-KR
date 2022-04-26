@@ -1,15 +1,15 @@
 ---
 title: 의사 결정 관리 시작
-description: Adobe Journey Optimizer을 통해 고객에게 최적의 오퍼를 적시에 전송하는 방법을 살펴볼 수 있습니다
+description: Adobe Journey Optimizer를 통해 고객에게 적합한 오퍼를 적시에 보낼 수 있는 방법 알아보기
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '944'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 [!DNL Journey Optimizer]을(를) 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 오퍼 및 경험을 제공하십시오. 디자인한 후에는 개인화된 오퍼를 통해 대상을 타기팅하십시오.
 
-offer decisioning을 사용하면 마케팅 오퍼의 중앙 라이브러리와 Adobe Experience Platform에서 만든 풍부한 실시간 프로필에 규칙과 제한을 적용하여 고객에게 적시에 적절한 오퍼를 제공하는 의사 결정 엔진을 통해 개인화를 쉽게 수행할 수 있습니다.
+Offer Decisioning을 사용하면 마케팅 오퍼의 중앙 라이브러리와 Adobe Experience Platform에서 만든 풍부한 실시간 프로필에 규칙과 제한을 적용하여 고객에게 적시에 적절한 오퍼를 제공하는 의사 결정 엔진을 통해 쉽게 개인화할 수 있습니다.
 
 의사 결정 관리 기능은 다음 두 가지 주요 구성 요소로 이루어집니다.
 
