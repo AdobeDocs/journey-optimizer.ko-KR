@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1636'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,11 @@ ht-degree: 10%
 >
 >기본적으로 [!DNL Journey Optimizer] 사용권 계약을 사용하면 최대 10개의 하위 도메인을 위임할 수 있습니다. 이 제한을 늘리려면 Adobe 담당자에게 문의하십시오.
 
-하위 도메인을 완전히 위임하거나 CNAME을 사용하여 Adobe 특정 레코드를 가리키도록 하위 도메인을 만들 수 있습니다. 두 가지 차이점에 대해 자세히 알아보기 [하위 도메인 구성 메서드](about-subdomain-delegation.md#subdomain-delegation-methods).
+하위 도메인을 완전히 위임하거나 CNAME을 사용하여 Adobe 특정 레코드를 가리키도록 하위 도메인을 만들 수 있습니다.
+
+>[!CAUTION]
+>
+>권장 방법은 전체 하위 도메인 위임입니다. 두 가지 차이점에 대해 자세히 알아보기 [하위 도메인 구성 메서드](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## 전체 하위 도메인 위임 {#full-subdomain-delegation}
 

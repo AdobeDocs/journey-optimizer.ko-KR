@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '404'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 3%
 # 관리 [!DNL Adobe Stock] 이미지 {#stock}
 
 ## [!DNL Adobe Stock] 시작 {#get-started-stock}
+
+>[!IMPORTANT]
+>
+> 의 사용 [!DNL Adobe Stock] 통합은 현재 사용자를 선택하기만 해도 조기 액세스에서 사용할 수 있습니다. 이 기능을 활용하려면 Adobe 계정 담당자에게 문의하십시오.
 
 [!DNL Adobe Stock] 고품질로 큐레이팅된 로열티가 없는 수백만 장의 사진, 비디오, 일러스트레이션 및 벡터 그래픽에 액세스할 수 있습니다. 신용 팩을 구매하여 자산을 라이선스를 부여하거나 필요한 자산에 대해 하나의 Standard 또는 Extended 라이선스만 구매하도록 선택할 수 있습니다. Adobe Stock에서는 자산을 무료로 수집할 수도 있습니다.
 
