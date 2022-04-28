@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 33%
+source-wordcount: '714'
+ht-degree: 30%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 33%
 
 이러한 요구 사항은 Adobe과 고객이 모두 호스팅하는 구성 요소를 통해 관리되지만 전자 메일의 수신자가 볼 수 있는 URL이 포함됩니다. 기본 기술 솔루션 또는 호스팅 공급자를 나타내는 URL이 없는 것을 방지하기 위해 하위 도메인을 설정하여 전자 메일 수신자에게 이를 투명하게 할 수 있습니다.
 
-**자세히 알아보기**
+**자세히 보기**
 
 * 방법 알아보기 [하위 도메인 위임](delegate-subdomain.md) 인터페이스에서 직접 액세스
 * 방법 알아보기 [Google TXT 레코드 추가](google-txt.md) Gmail 주소로 이메일을 성공적으로 게재하기 위해 하위 도메인에 추가
@@ -49,6 +49,12 @@ ht-degree: 33%
 * **Adobe에 전체 하위 도메인 위임** (권장): 하위 도메인이 Adobe에 완전히 위임됩니다. Adobe은 메시지 전달, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리할 수 있습니다. [전체 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#full-subdomain-delegation)
 
 * **CNAME 사용**: 하위 도메인을 만들고 CNAME을 사용하여 Adobe 관련 레코드를 가리키도록 설정합니다. 이 설정을 사용하면 사용자와 Adobe이 DNS 유지 관리를 공동으로 수행합니다. [CNAME 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#cname-subdomain-delegation)
+
+>[!CAUTION]
+>
+>전체 하위 도메인 위임이 기본 방법입니다.
+>
+>조직의 정책이 전체 하위 도메인 위임 방법을 제한하는 경우 CNAME 방법이 권장됩니다. 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지 관리하고 관리해야 합니다. Adobe은 CNAME 방법을 통해 구성된 하위 도메인에 대한 DNS의 변경, 유지 관리 또는 관리를 지원할 수 없습니다.
 
 아래 표에는 이러한 두 가지 방법의 작동 방식과 각 방법을 사용하는 경우의 작업량이 간략하게 요약되어 있습니다.
 

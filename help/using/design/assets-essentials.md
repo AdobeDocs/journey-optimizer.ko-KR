@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 3%
@@ -67,9 +67,16 @@ ht-degree: 3%
 1. 이메일 콘텐츠에서 자산을 끌어다 놓습니다.
 
    ![](assets/media_library_6.png)
+<!--
+1. After adding your asset to your email, use the **[!UICONTROL Find similar Stock photos]** option to locate Stock photos that match the content, color, and composition of your image. [Learn more about Adobe Stock](stock.md).
+
+    Note that this option is available for licensed/unlicensed Stock images and images from your Assets folder. 
+
+    ![](assets/media_library_14.png)
+-->
 
 1. 외부 링크 추가 또는 를 사용하여 텍스트 추가와 같이 자산을 추가로 사용자 지정할 수 있습니다 **[!UICONTROL Components settings]**. [구성 요소 설정에 대해 자세히 알아보기](content-components.md)
 
    ![](assets/media_library_13.png)
 
-메시지를 만들고 개인화하면 게시하여 실행할 수 있도록 할 수 있습니다. [자세히 알아보기](../messages/publish-manage-message.md)
+메시지를 만들고 개인화하면 게시하여 실행할 수 있도록 할 수 있습니다. [자세히 보기](../messages/publish-manage-message.md)

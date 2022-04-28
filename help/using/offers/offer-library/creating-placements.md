@@ -1,15 +1,15 @@
 ---
 title: 배치 만들기
-description: Learn how to create placements for your offers
+description: 오퍼에 대한 배치를 만드는 방법을 알아봅니다
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 13%
+source-wordcount: '233'
+ht-degree: 15%
 
 ---
 
@@ -18,47 +18,44 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
 >title="배치"
->abstract="A placement is a container that is used to showcase offers. It helps ensure that the right offer content shows up in the right location within your message. Placements are created from the &quot;Components&quot; menu."
+>abstract="배치는 오퍼를 표시하는 데 사용되는 컨테이너입니다. 이렇게 하면 메시지 내의 올바른 위치에 올바른 오퍼 콘텐츠가 표시되도록 할 수 있습니다. 배치는 &quot;구성 요소&quot; 메뉴에서 만들어집니다."
 
-A placement helps ensure that the right offer content shows up in the right location within your message. 오퍼에 컨텐츠를 추가할 때 해당 컨텐츠가 표시될 수 있는 배치를 선택하라는 메시지가 표시됩니다.
+배치는 메시지 내의 올바른 위치에 올바른 오퍼 컨텐츠가 표시되도록 하는 데 도움이 됩니다. 오퍼에 컨텐츠를 추가할 때 해당 컨텐츠가 표시될 수 있는 배치를 선택하라는 메시지가 표시됩니다.
 
-[](#video)
+➡️ [이 비디오에서 배치를 만드는 방법을 알아봅니다](#video)
 
-In the example below, there are three placements, corresponding to different types of content (image, text, HTML).
+아래 예에는 서로 다른 유형의 컨텐츠(이미지, 텍스트, HTML)에 해당하는 세 개의 배치가 있습니다.
 
 ![](../assets/offers_placement_schema.png)
 
-**[!UICONTROL Components]** Filters are available to help you retrieve placements according to a specific channel or content.
+배치 목록은 **[!UICONTROL Components]** 메뉴 아래의 제품에서 사용할 수 있습니다. 필터를 사용하여 특정 채널 또는 컨텐츠에 따라 배치를 검색하는 데 도움이 됩니다.
 
 ![](../assets/placements_filter.png)
 
-To create a placement, follow these steps:
+배치를 만들려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL Create placement]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/offers_placement_creation.png)
 
-1. Define the placement&#39;s properties:
+1. 배치 속성을 정의합니다.
 
-   * **[!UICONTROL Name]** Make sure to define a meaningful name to retrieve it more easily.
-   * **[!UICONTROL Channel type]**
-   * **[!UICONTROL Content type]**
-   * **[!UICONTROL Description]**
+   * **[!UICONTROL Name]**: 배치 이름입니다. 의미 있는 이름을 정의하여 쉽게 검색할 수 있도록 합니다.
+   * **[!UICONTROL Channel type]**: 배치를 사용할 채널입니다.
+   * **[!UICONTROL Content type]**: 배치에서 표시할 컨텐츠 유형: 텍스트, HTML 또는 이미지 링크.
+   * **[!UICONTROL Description]**: 배치에 대한 설명입니다(선택 사항).
 
    ![](../assets/offers_placement_creation_properties.png)
 
-1. **[!UICONTROL Save]**
+1. 클릭 **[!UICONTROL Save]** 확인합니다.
 
-1. Once the placement is created, it displays in the placements list. You can select it to display its properties and edit it.
+1. 배치가 만들어지면 배치 목록에 표시됩니다. 속성을 표시하고 편집할 수 있도록 선택할 수 있습니다.
 
    ![](../assets/placement_created.png)
 
-## How-to video{#video}
+## 방법 비디오{#video}
 
 Offer Decisioning에서 배치를 만드는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 
->[!NOTE]
->
->This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.

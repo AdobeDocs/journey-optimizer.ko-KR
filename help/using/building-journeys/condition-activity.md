@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 9%
@@ -67,7 +67,7 @@ ht-degree: 9%
 
 작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 상자를 선택하는 것입니다 . [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 
-단순 편집기에서 여정 속성 카테고리가 이벤트 및 데이터 소스 카테고리 아래에 있습니다. 이 카테고리에는 해당 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다. [자세히 알아보기](expression/journey-properties.md)
+단순 편집기에서 여정 속성 카테고리가 이벤트 및 데이터 소스 카테고리 아래에 있습니다. 이 카테고리에는 해당 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다. [자세히 보기](expression/journey-properties.md)
 
 ## 데이터 소스 조건 {#data_source_condition}
 
@@ -79,7 +79,7 @@ ht-degree: 9%
 
 ## 시간 조건{#time_condition}
 
-이렇게 하면 요일 및/또는 요일에 따라 다른 작업을 수행할 수 있습니다. 예를 들어, 주중에는 낮에 SMS 메시지를 보내고, 주중에는 밤에 이메일을 보내도록 결정할 수 있습니다.
+이렇게 하면 요일 및/또는 요일에 따라 다른 작업을 수행할 수 있습니다. 예를 들어, 주중에는 낮 동안 푸시 알림을 전송하고, 평일 밤에는 이메일을 전송하도록 결정할 수 있습니다.
 
 >[!NOTE]
 >

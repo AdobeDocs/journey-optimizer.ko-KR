@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '528'
+ht-degree: 2%
 
 ---
 
@@ -50,7 +50,7 @@ IP 풀을 생성하려면 다음 단계를 수행합니다.
    >
    >인스턴스와 함께 제공된 모든 IP 주소를 목록에서 사용할 수 있습니다.
 
-이제 IP 풀이 생성되고 목록에 표시됩니다. 속성을 선택하여 해당 속성에 액세스하고 관련 메시지 사전 설정을 표시할 수 있습니다. 메시지 사전 설정을 IP 풀과 연결하는 방법에 대한 자세한 내용은 [이 섹션](message-presets.md)).
+이제 IP 풀이 생성되고 목록에 표시됩니다. 속성을 선택하여 해당 속성에 액세스하고 관련 메시지 사전 설정을 표시할 수 있습니다. 메시지 사전 설정을 IP 풀과 연결하는 방법에 대한 자세한 내용은 [이 섹션](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -80,6 +80,10 @@ IP 풀을 편집하려면
 
 * IP 풀이 **not** 메시지 사전 설정에서 선택된 경우 업데이트가 즉시(으)로 표시됩니다.**[!UICONTROL Success]** 상태).
 * IP 풀이 **is** 메시지 사전 설정에서 을 선택하면 최대 7~10일(영업일 기준)이 소요될 수 있습니다&#x200B;**[!UICONTROL Processing]** 상태).
+
+>[!NOTE]
+>
+>When [메시지 사전 설정 만들기](message-presets.md#create-message-preset)( 버전( )에 있는 IP 풀을 선택하는 경우&#x200B;**[!UICONTROL Processing]** 상태) 및 을(를) 해당 사전 설정에 대해 선택한 하위 도메인과 연결한 적이 없으므로 사전 설정을 만들 수 없습니다. [자세히 보기](message-presets.md#subdomains-and-ip-pools)
 
 IP 풀 업데이트 상태를 확인하려면 **[!UICONTROL More actions]** 단추를 누르고 선택합니다. **[!UICONTROL Recent updates]**.
 

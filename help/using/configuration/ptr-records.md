@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -93,11 +93,15 @@ PTR 레코드를 수정하여 IP 주소와 연결된 하위 도메인을 편집�
 
 ## PTR 레코드 업데이트 세부 정보 확인 {#check-ptr-record-update}
 
-A **[!UICONTROL Processing]** 목록의 PTR 레코드 이름 옆에 아이콘이 표시됩니다.
+PTR 레코드 편집을 확인한 후에는 **[!UICONTROL Processing]** 목록의 PTR 레코드 이름 옆에 아이콘이 표시됩니다.
 
 ![](assets/ptr-record-updating.png)
 
-PTR 레코드 업데이트 정보를 확인하려면 **[!UICONTROL Updating]** 또는 **[!UICONTROL Recent updates]** 아이콘.
+>[!NOTE]
+>
+>다음 [업데이트 처리](#processing) 최대 몇 시간 정도 걸릴 수 있습니다.
+
+PTR 레코드 업데이트 세부 정보를 확인하려면 옆에 있는 아이콘을 클릭합니다. 의 다른 아이콘과 연결된 상태에 대해 자세히 알아보십시오 [이 섹션](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -115,7 +119,7 @@ PTR 레코드 업데이트에는 다음 상태가 있을 수 있습니다.
 
 ### 처리 중 {#processing}
 
-IP 주소와 연결할 새 하위 도메인이 유효한지 확인하기 위해 몇 가지 게재 기능 검사가 수행됩니다. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
+IP 주소와 연결할 새 하위 도메인이 유효한지 확인하기 위해 몇 가지 게재 기능 검사가 수행됩니다. 이 작업은 최대 몇 시간이 걸릴 수 있습니다.
 
 >[!NOTE]
 >

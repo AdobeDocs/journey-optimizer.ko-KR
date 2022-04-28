@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 81718cdba5c8537179d37e82c3d6ed897ebbd7ff
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 2%
 # 쿼리 예제{#query-examples}
 
 이 섹션에는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 몇 가지 예제가 나와 있습니다.
+
+쿼리에 사용되는 필드에 해당 스키마의 관련 값이 있는지 확인하십시오.
 
 ## 메시지/작업 오류 {#message-action-errors}
 

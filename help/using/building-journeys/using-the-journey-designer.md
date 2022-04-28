@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 1%
+source-wordcount: '1456'
+ht-degree: 3%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 ## 캔버스에서 경로 사용 {#paths}
 
-여러 활동(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 활동)을 사용하면 오류 또는 시간 제한이 있을 경우 대체 작업을 정의할 수 있습니다. 활동 구성 창에서 상자를 선택합니다. **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 활동 뒤에 다른 경로가 추가됩니다. 시간 제한 기간은 여정 속성에 정의됩니다( [이 페이지](../building-journeys/journey-gs.md#change-properties) 관리자 예를 들어 이메일을 전송하는 데 너무 오래 걸리거나 오류가 발생한 경우 SMS를 전송하도록 결정할 수 있습니다.
+여러 활동(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 활동)을 사용하면 오류 또는 시간 제한이 있을 경우 대체 작업을 정의할 수 있습니다. 활동 구성 창에서 상자를 선택합니다. **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 활동 뒤에 다른 경로가 추가됩니다. 시간 제한 기간은 여정 속성에 정의됩니다( [이 페이지](../building-journeys/journey-gs.md#change-properties) 관리자 예를 들어 이메일을 전송하는 데 너무 오래 걸리거나 오류가 있는 경우 푸시 알림을 전송하도록 결정할 수 있습니다.
 
 ![](assets/journey42.png)
 

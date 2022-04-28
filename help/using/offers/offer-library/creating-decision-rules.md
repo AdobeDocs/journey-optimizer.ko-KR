@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 12%
+source-wordcount: '258'
+ht-degree: 13%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
 1. 규칙에 이름을 지정하고 설명을 제공한 다음 필요에 따라 규칙을 구성합니다.
 
-   이렇게 하려면 **세그먼트 빌더** 는 규칙 조건을 작성하는 데 도움이 될 수 있습니다. [자세히 알아보기](../../segment/about-segments.md)
+   이렇게 하려면 **세그먼트 빌더** 는 규칙 조건을 작성하는 데 도움이 될 수 있습니다. [자세히 보기](../../segment/about-segments.md)
 
    이 예에서는 규칙이 &quot;Gold&quot; 충성도 수준이 있는 고객을 타깃팅합니다.
 
@@ -54,9 +54,5 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 >이벤트 기반 오퍼는에서 현재 지원되지 않습니다 [!DNL Journey Optimizer]. 을 기반으로 의사 결정 규칙을 생성하는 경우 [이벤트](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;} 오퍼에서는 활용할 수 없습니다.
 
 ## 튜토리얼 비디오 {#video}
-
->[!NOTE]
->
->이 비디오는 Adobe Experience Platform을 기반으로 하는 Offer decisioning 애플리케이션 서비스에 적용됩니다. 그러나 Journey Optimizer 컨텍스트에서 오퍼를 사용하는 일반적인 지침을 제공합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

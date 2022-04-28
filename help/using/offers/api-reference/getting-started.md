@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 4%
+source-wordcount: '640'
+ht-degree: 5%
 
 ---
 
@@ -138,6 +138,3 @@ curl -X GET \
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
 
->[!NOTE]
->
->이 비디오는 Adobe Experience Platform을 기반으로 하는 Offer decisioning 애플리케이션 서비스에 적용됩니다. 그러나 Journey Optimizer 컨텍스트에서 오퍼를 사용하는 일반적인 지침을 제공합니다.

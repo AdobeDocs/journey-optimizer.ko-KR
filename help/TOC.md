@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 98%
+source-wordcount: '993'
+ht-degree: 97%
 
 ---
 
@@ -53,6 +53,7 @@ ht-degree: 98%
       + [사전 헤더 추가](using/design/preheader.md)
    + 자산 추가 및 관리 {#manage-asset}
       + [Assets Essentials 작업](using/design/assets-essentials.md)
+      + [Adobe Stock 작업](using/design/stock.md)
    + [개인화된 오퍼 추가](using/design/deliver-personalized-offers.md)
    + [링크 추가 및 메시지 추적](using/design/message-tracking.md)
    + [미리보기 및 증명](using/design/preview.md)
@@ -117,6 +118,7 @@ ht-degree: 98%
       + [세그먼트 읽기](using/building-journeys/read-segment.md)
       + [메시지](using/building-journeys/journeys-message.md)
       + [사용자 정의 작업](using/building-journeys/using-custom-actions.md)
+      + [Adobe Campaign Standard 작업](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 작업](using/building-journeys/using-adobe-campaign-classic.md)
       + [점프](using/building-journeys/jump.md)
       + [프로필 업데이트](using/building-journeys/update-profiles.md)
@@ -324,7 +326,7 @@ ht-degree: 98%
          + [의사 결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
          + [의사 결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
          + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
-      + API를 사용한 오퍼 게재 {#offer-delivery}
+      + API를 사용한 오퍼 게재 {#offer-delivery-api}
          + [Decisioning 및 Edge Decisioning API 정보](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
          + [의사 결정 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
@@ -374,6 +376,7 @@ ht-degree: 98%
       + 작업 구성 {#action-journeys}
          + [작업 정보](using/action/action.md)
          + [작업 구성](using/action/about-custom-action-configuration.md)
+         + [Adobe Campaign Standard과 통합](using/action/acs-action.md)
          + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
          + [동의](using/action/consent.md)
    + [소스](using/start/get-started-sources.md)

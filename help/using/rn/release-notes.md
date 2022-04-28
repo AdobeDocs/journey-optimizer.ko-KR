@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2969'
-ht-degree: 100%
+source-wordcount: '3200'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,59 @@ ht-degree: 100%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}에 등록하시면 분기마다 최신 제품 업데이트, 흥미로운 사례, 사용 사례, 팁 등을 받은 편지함에 바로 받을 수 있습니다.
 
+
+## 2022년 4월 릴리스 {#april-2022-release}
+
+### 새로운 기능
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Campaign Standard과 통합</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Campaign Standard 고객은 Journey Optimizer을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다. Journey Optimizer에 Campaign Standard 트랜잭션 메시지 기능을 활용하려면 새로운 내장된 작업을 사용하십시오.</p>
+<p>자세한 내용은 <a href="../action/acs-action.md">자세한 설명서</a>를 참조하세요.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 개선 사항
+
+**랜딩 페이지**
+
+* **옵트인/옵트아웃 확인란에 대한 새 옵션** - 이제 구독 랜딩 페이지에 옵트인/옵트아웃에 대한 단일 확인란을 삽입할 수 있습니다. 동의(옵트인)를 위해 상자를 선택하고 선택을 취소하여 동의(옵트아웃)를 제거해야 합니다. [자세히 보기](../landing-pages/design-lp.md#define-lp-specific-content)
+
+* **랜딩 페이지 필드 미리 채우기** - 이제 사용자에게 랜딩 페이지 필드를 프로필 정보로 미리 채울 수 있는 기능을 제공할 수 있습니다. [자세히 알아보기](../landing-pages/create-lp.md#configure-primary-page)
+
+**의사 결정 관리**
+
+* **Edge의 의사 결정 API** - Edge Decisioning API는 Offer decisioning에서 관리되는 개인화된 오퍼를 제공하고 렌더링할 수 있습니다. UI(Offer decisioning 사용자 인터페이스) 또는 API를 사용하여 오퍼 및 기타 관련 개체를 만들 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+
+**관리**
+
+* **PTR 제출 기간** - PTR 편집 유효 기간이 몇 시간 남았습니다. [자세히 보기](../configuration/ptr-records.md#processing)
+
+**이메일 디자인**
+
+* **새 이메일 템플릿** 이제 Journey Optimizer에서 이메일 콘텐츠를 디자인할 수 있습니다.
+
+**사용자 인터페이스**
+
+* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. 사용 가능한 경우 &quot;i&quot; 아이콘을 클릭하여 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
+
+<!--
+### Fixes
+
+* Fixed an issue which caused tracking reports not to be available as the `JourneyActionId` was not properly populated. PLATIR-19854, CJM-26006
+* Fixed an error on business events which could block the journey publication. CJM-25931
+* Fixed an issue which could prevent images in Email Designer templates from being displayed. PLATIR-18176, CJM-25008
+-->
 
 ## 2022년 3월 릴리스 {#march-2022-release}
 

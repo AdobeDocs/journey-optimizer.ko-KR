@@ -2,16 +2,26 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: ht
-source-wordcount: '1113'
-ht-degree: 100%
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+workflow-type: tm+mt
+source-wordcount: '1254'
+ht-degree: 89%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2022년 4월 {#april-2022}
+
+* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2022년 4월 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 다음 **반응** 이벤트 설명서 페이지가 업데이트되었습니다. [자세히 보기](../building-journeys/reaction-events.md)
+* 의사 결정 관리 기능에 대한 비디오가 Journey Optimizer 사용자 인터페이스를 반영하도록 업데이트되었습니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
+* 다음 **데이터 세트 시작** 데이터 세트에 액세스하고 데이터 세트를 만드는 방법을 자세히 설명하도록 섹션이 개선되었습니다. [자세히 보기](../start/get-started-datasets.md)
+* 도움말 안내서 및 제품 릴리스 정보에 대한 링크가 **Adobe Journey Optimizer 설명서** 홈 페이지. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer.html)
+* 다음 **메시지 사전 설정 만들기** 섹션이 이제 선택한 IP 풀이 편집 중인 동안 사전 설정 생성을 계속할 수 없음을 지정합니다(**[!UICONTROL Processing]** 상태) 및 을 선택한 하위 도메인과 연결한 적이 없습니다. [자세히 보기](../configuration/message-presets.md#subdomains-and-ip-pools)
+* 메시지 사전 설정 **URL 추적** 사용자 인터페이스의 부분 변경 사항을 반영하도록 섹션이 업데이트되었습니다. [자세히 보기](../configuration/message-presets.md#url-tracking)
 
 ## 2022년 3월 {#march-2022}
 

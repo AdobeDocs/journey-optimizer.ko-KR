@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2406'
 ht-degree: 1%
 
 ---
@@ -49,15 +49,21 @@ ht-degree: 1%
    >
    > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
 
-1. 구성 **이메일** 설정. [자세히 알아보기](#configure-email-settings)
+1. 구성 **이메일** 설정. [자세히 보기](#configure-email-settings)
 
-1. 구성 **푸시 알림** 설정. [자세히 알아보기](#configure-push-settings)
+1. 구성 **푸시 알림** 설정. [자세히 보기](#configure-push-settings)
 
    <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL Submit]** 확인합니다. 메시지 사전 설정을 초안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 
    ![](assets/preset-submit.png)
+
+   >[!NOTE]
+   >
+   >선택한 IP 풀이 아래에 있는 동안에는 사전 설정을 만들 수 없습니다 [에디션](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 상태) 및 을 선택한 하위 도메인과 연결한 적이 없습니다. [자세히 보기](#subdomains-and-ip-pools)
+   >
+   >사전 설정을 초안으로 저장하고 IP 풀이 **[!UICONTROL Success]** 상태: 사전 설정 생성을 재개합니다.
 
 1. 메시지 사전 설정이 만들어지면 와 함께 목록에 표시됩니다 **[!UICONTROL Processing]** 상태.
 
@@ -112,9 +118,13 @@ When [메시지 만들기](../messages/get-started-content.md#create-new-message
 
 에서 **하위 도메인 및 IP 풀 세부 정보** 섹션:
 
-1. 이메일을 보내는 데 사용할 하위 도메인을 선택합니다. [자세히 알아보기](about-subdomain-delegation.md)
+1. 이메일을 보내는 데 사용할 하위 도메인을 선택합니다. [자세히 보기](about-subdomain-delegation.md)
 
-1. 사전 설정과 연결할 IP 풀을 선택합니다. [자세히 알아보기](ip-pools.md)
+1. 사전 설정과 연결할 IP 풀을 선택합니다. [자세히 보기](ip-pools.md)
+
+![](assets/preset-subdomain-ip-pool.png)
+
+선택한 IP 풀이 아래에 있는 동안에는 사전 설정을 만들 수 없습니다 [에디션](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 상태) 및 을 선택한 하위 도메인과 연결한 적이 없습니다. 그렇지 않으면 가장 오래된 버전의 IP 풀/하위 도메인 연결이 계속 사용됩니다. 이 경우 사전 설정을 초안으로 저장하고 IP 풀에 **[!UICONTROL Success]** 상태.
 
 >[!NOTE]
 >
@@ -155,28 +165,6 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 에서 메시지에 헤더 가입 해지 링크를 추가하는 방법에 대해 자세히 알아보십시오 [이 섹션](../messages/consent.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
-
-### URL 추적{#url-tracking}
-
-사용자가 링크를 클릭한 위치와 이유를 식별하기 위해,  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** 섹션을 참조하십시오.
-
-정의한 매개 변수에 따라 UTM 코드가 메시지 콘텐츠에 포함된 URL 끝에 적용됩니다. 그런 다음 Google Analytics과 같은 웹 분석 도구에서 결과를 비교할 수 있습니다.
-
-![](assets/preset-url-tracking.png)
-
-기본적으로 3개의 UTM 매개 변수를 사용할 수 있습니다. 최대 10개의 추적 매개 변수를 추가할 수 있습니다. UTM 매개 변수를 추가하려면 **[!UICONTROL Add new UTM param]** 버튼을 클릭합니다.
-
-UTM 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Value]** 필드를 선택하거나 다음 객체로 이동하여 미리 정의된 값 목록에서 선택합니다.
-
-* 여정 속성: 소스 ID, 소스 이름, 소스 버전 ID
-* 메시지 속성: 작업 ID, 작업 이름
-* Offer decisioning 속성: 오퍼 ID, 오퍼 이름
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->폴더를 선택하지 마십시오: 필요한 폴더를 찾아 UTM 값으로 사용할 프로필 속성을 선택해야 합니다.
 
 ### 헤더 매개 변수{#email-header}
 
@@ -223,6 +211,35 @@ UTM 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Val
 * 두 이메일 유형의 경우 최대 다시 시도 기간은 84시간(또는 5040분)입니다.
 
 에서 다시 시도하는 방법에 대해 자세히 알아보기 [이 섹션](retries.md).
+
+### URL 추적{#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="UTM 매개 변수"
+>abstract="이 섹션을 사용하여 추적 매개 변수를 이메일 콘텐츠에 있는 캠페인 URL에 자동으로 추가합니다."
+
+사용자가 링크를 클릭한 위치와 이유를 식별하기 위해 필요에 따라  **[!UICONTROL URL Tracking Parameters]** 섹션을 참조하십시오.
+
+정의한 매개 변수에 따라 UTM 코드가 메시지 콘텐츠에 포함된 URL 끝에 적용됩니다. 그런 다음 Google Analytics과 같은 웹 분석 도구에서 결과를 비교할 수 있습니다.
+
+![](assets/preset-url-tracking.png)
+
+기본적으로 3개의 UTM 매개 변수를 사용할 수 있습니다. 최대 10개의 추적 매개 변수를 추가할 수 있습니다. UTM 매개 변수를 추가하려면 **[!UICONTROL Add new parameter]** 버튼을 클릭합니다.
+
+UTM 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Value]** 필드를 선택하거나 다음 객체로 이동하여 미리 정의된 값 목록에서 선택합니다.
+
+* 여정 속성: **소스 ID**, **소스 이름**, **소스 버전 ID**
+* 메시지 속성: **작업 ID**, **작업 이름**
+* Offer decisioning 속성: **오퍼 ID**, **오퍼 이름**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>폴더를 선택하지 마십시오: 필요한 폴더를 찾아 UTM 값으로 사용할 프로필 속성을 선택해야 합니다.
+
+텍스트 값을 입력하고 사전 정의된 값을 선택할 수 있습니다. 각 **[!UICONTROL Value]** 필드에는 총 255자가 포함될 수 있습니다.
 
 ## 푸시 설정 구성 {#configure-push-settings}
 

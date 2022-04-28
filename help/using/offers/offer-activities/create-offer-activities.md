@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1219'
 ht-degree: 2%
 
 ---
@@ -227,6 +227,4 @@ Offer Decisioning에서 오퍼 활동을 만드는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
->[!NOTE]
->
->이 비디오는 Adobe Experience Platform을 기반으로 하는 Offer decisioning 애플리케이션 서비스에 적용됩니다. 그러나 Journey Optimizer 컨텍스트에서 오퍼를 사용하는 일반적인 지침을 제공합니다.
+

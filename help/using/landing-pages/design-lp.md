@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,19 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >로 전환 **[!UICONTROL Form style]** 언제든지 탭하여 양식 구성 요소 컨텐츠의 스타일을 편집할 수 있습니다. [자세히 알아보기](#define-lp-styles)
+   >로 전환 **[!UICONTROL Form style]** 언제든지 탭하여 양식 구성 요소 컨텐츠의 스타일을 편집할 수 있습니다. [자세히 보기](#define-lp-styles)
 
 1. 에서 **[!UICONTROL Checkbox 1]** 섹션에서 이 확인란에 해당하는 레이블을 편집할 수 있습니다.
 
 1. 이 확인란을 사용하여 사용자를 옵트아웃할지 여부를 정의합니다. 그들은 통신을 받는 것에 동의합니까, 아니면 더 이상 연락하지 않도록 요청합니까?
 
    ![](assets/lp_designer-form-update.png)
+
+   아래 세 가지 옵션 중에서 선택합니다.
+
+   * **[!UICONTROL Opt in if checked]**: 동의(옵트인)를 하려면 상자를 선택해야 합니다.
+   * **[!UICONTROL Opt out if checked]**: 사용자는 동의(옵트아웃)를 제거하려면 상자를 선택해야 합니다.
+   * **[!UICONTROL Opt in if checked, opt out if unchecked]**: 이 옵션을 사용하면 옵트인/옵트아웃에 대한 단일 확인란을 삽입할 수 있습니다. 동의(옵트인)를 위해 상자를 선택하고 선택을 취소하여 동의(옵트아웃)를 제거해야 합니다.
 
 1. 다음 세 옵션 중에서 업데이트할 항목을 선택합니다.
 

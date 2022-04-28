@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1047'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 1%
 
    ![](assets/lp_open-designer.png)
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 알아보기](../configuration/lp-configuration.md#lp-subdomains)
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 의 일부로 설정해야 합니다 [사전 설정](../configuration/lp-configuration.md#lp-create-preset) 선택하셨습니다. [자세히 보기](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -92,6 +92,16 @@ ht-degree: 1%
    >[!NOTE]
    >
    >게시된 경우에도 이 URL을 웹 브라우저에 복사하여 붙여 넣으면 랜딩 페이지에 액세스할 수 없습니다. 대신 에 설명된 대로 미리 보기 기능을 사용하여 테스트할 수 있습니다. [이 섹션](#test-landing-page).
+
+1. 랜딩 페이지에서 이미 사용 가능한 양식 데이터를 미리 로드하려면 를 선택합니다. **[!UICONTROL Pre-fill form fields with profile information]**.
+
+   ![](assets/lp_prefill-form-fields.png)
+
+   이 옵션을 활성화하면 프로필이 이미 옵트인/아웃을 선택했거나 이미 구독 목록에 추가된 경우 랜딩 페이지를 표시할 때 해당 선택 사항이 반영됩니다.
+
+   예를 들어, 프로필에서 향후 이벤트에 대한 통신을 수신하도록 선택한 경우 해당 확인란은 다음에 랜딩 페이지가 해당 프로필에 표시될 때 이미 선택됩니다.
+
+   ![](assets/lp_prefill-form-ex.png)
 
 1. 페이지에 대한 만료 날짜를 정의할 수 있습니다. 이 경우 페이지 만료 시 작업을 선택해야 합니다.
 
@@ -123,7 +133,7 @@ ht-degree: 1%
 
 1. 콘텐츠 디자이너를 사용하여 페이지의 콘텐츠를 편집합니다. 랜딩 페이지 컨텐츠를 정의하는 방법을 알아봅니다 [여기](design-lp.md).
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 알아보기](../configuration/lp-configuration.md#lp-subdomains)
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 보기](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -210,7 +220,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->경고를 게시하기 전에 경고를 확인하고 확인합니다. [자세히 알아보기](#check-alerts)
+>경고를 게시하기 전에 경고를 확인하고 확인합니다. [자세히 보기](#check-alerts)
 
 랜딩 페이지가 게시되면 과 함께 랜딩 페이지 목록에 추가됩니다. **[!UICONTROL Published]** 상태.
 
@@ -218,5 +228,5 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->특정 보고서를 통해 랜딩 페이지의 영향을 모니터링할 수 있습니다. [자세히 알아보기](../reports/lp-report-live.md)
+>특정 보고서를 통해 랜딩 페이지의 영향을 모니터링할 수 있습니다. [자세히 보기](../reports/lp-report-live.md)
 

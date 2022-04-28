@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1628'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="하위 도메인 위임"
->abstract="Journey Optimizer을 사용하면 하위 도메인을 Adobe에 위임할 수 있습니다. 하위 도메인을 Adobe에 완전히 위임하거나, CNAME을 사용하여 Adobe 특정 레코드를 가리키도록 하위 도메인을 만들 수 있습니다."
+>abstract="Journey Optimizer을 사용하면 하위 도메인을 Adobe에 위임할 수 있습니다. 하위 도메인을 Adobe에 완전히 위임할 수 있습니다. 이 방법은 권장되는 방법입니다. CNAME을 사용하여 Adobe 특정 레코드를 가리키도록 하위 도메인을 만들 수도 있지만, 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지 관리하고 관리해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="하위 도메인 구성 메서드"
 
 도메인 이름 위임은 도메인 이름의 소유자를 허용하는 메서드입니다(기술적으로 DNS 영역)에서 하위 집합을 위임(기술적 의미상: 하위 영역이라고 할 수 있는 DNS 영역을 다른 엔터티에 추가합니다. 기본적으로 고객으로서 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다. 추가 정보 [하위 도메인 위임](about-subdomain-delegation.md)
@@ -88,7 +88,7 @@ ht-degree: 10%
 
    <!-- later on, users will be notified in Pulse -->
 
-하위 도메인이 의 Adobe에 위임되면 [!DNL Journey Optimizer]인 경우 PTR 레코드가 자동으로 만들어지고 이 하위 도메인과 연결됩니다. [자세히 알아보기](ptr-records.md)
+하위 도메인이 의 Adobe에 위임되면 [!DNL Journey Optimizer]인 경우 PTR 레코드가 자동으로 만들어지고 이 하위 도메인과 연결됩니다. [자세히 보기](ptr-records.md)
 
 >[!CAUTION]
 >
@@ -161,7 +161,7 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따�
    >
    >하위 도메인은 로 표시됩니다 **[!UICONTROL Failed]** 호스팅 솔루션에 대한 유효성 검사 레코드를 만들지 못한 경우.
 
-레코드를 확인하고 인증서를 설치하면 Adobe이 CNAME 하위 도메인에 대한 PTR 레코드를 자동으로 만듭니다. [자세히 알아보기](ptr-records.md)
+레코드를 확인하고 인증서를 설치하면 Adobe이 CNAME 하위 도메인에 대한 PTR 레코드를 자동으로 만듭니다. [자세히 보기](ptr-records.md)
 
 >[!CAUTION]
 >
