@@ -2,9 +2,9 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 4402e8f98d732f7c11460c1ea1ce9e2de141b587
 workflow-type: tm+mt
-source-wordcount: '3200'
+source-wordcount: '3192'
 ht-degree: 93%
 
 ---
@@ -19,25 +19,6 @@ ht-degree: 93%
 
 
 ## 2022년 4월 릴리스 {#april-2022-release}
-
-### 새로운 기능
-
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Campaign Standard과 통합</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Adobe Campaign Standard 고객은 Journey Optimizer을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다. Journey Optimizer에 Campaign Standard 트랜잭션 메시지 기능을 활용하려면 새로운 내장된 작업을 사용하십시오.</p>
-<p>자세한 내용은 <a href="../action/acs-action.md">자세한 설명서</a>를 참조하세요.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### 개선 사항
 
@@ -62,6 +43,11 @@ ht-degree: 93%
 **사용자 인터페이스**
 
 * **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. 사용 가능한 경우 &quot;i&quot; 아이콘을 클릭하여 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
+
+**Adobe Campaign Standard과 통합**
+
+이제 Adobe Campaign Standard 고객은 Journey Optimizer을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다. Journey Optimizer에 Campaign Standard 트랜잭션 메시지 기능을 활용하려면 새로운 내장된 작업을 사용하십시오.
+[자세히 보기](../action/acs-action.md)
 
 <!--
 ### Fixes
