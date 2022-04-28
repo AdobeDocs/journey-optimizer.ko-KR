@@ -2,7 +2,7 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 150b724c94f656d8846f98acd774a87eef1c29d8
+source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
 workflow-type: tm+mt
 source-wordcount: '3192'
 ht-degree: 93%
@@ -38,7 +38,7 @@ ht-degree: 93%
 
 **이메일 디자인**
 
-* **새 이메일 템플릿** 이제 Journey Optimizer에서 이메일 콘텐츠를 디자인할 수 있습니다.
+* **20개의 새로운 이메일 템플릿** 이제 Journey Optimizer에서 이메일 콘텐츠를 디자인할 수 있습니다.
 
 **사용자 인터페이스**
 
