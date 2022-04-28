@@ -2,7 +2,7 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4402e8f98d732f7c11460c1ea1ce9e2de141b587
+source-git-commit: 150b724c94f656d8846f98acd774a87eef1c29d8
 workflow-type: tm+mt
 source-wordcount: '3192'
 ht-degree: 93%
@@ -46,8 +46,7 @@ ht-degree: 93%
 
 **Adobe Campaign Standard과 통합**
 
-이제 Adobe Campaign Standard 고객은 Journey Optimizer을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다. Journey Optimizer에 Campaign Standard 트랜잭션 메시지 기능을 활용하려면 새로운 내장된 작업을 사용하십시오.
-[자세히 보기](../action/acs-action.md)
+이제 Adobe Campaign Standard 고객은 Journey Optimizer을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다. Journey Optimizer에 Campaign Standard 트랜잭션 메시지 기능을 활용하려면 새로운 내장된 작업을 사용하십시오.  [자세히 보기](../action/acs-action.md)
 
 <!--
 ### Fixes
