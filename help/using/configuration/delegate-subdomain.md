@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
+source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 10%
+source-wordcount: '1637'
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->권장 방법은 전체 하위 도메인 위임입니다. 두 가지 차이점에 대해 자세히 알아보기 [하위 도메인 구성 메서드](about-subdomain-delegation.md#subdomain-delegation-methods).
+>전체 하위 도메인을 위임하는 것이 좋습니다. 두 가지 차이점에 대해 자세히 알아보기 [하위 도메인 구성 메서드](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## 전체 하위 도메인 위임 {#full-subdomain-delegation}
 
@@ -111,7 +111,7 @@ CNAME 하위 도메인을 위임하면 하위 도메인을 만들고 CNAME을 �
 
 >[!CAUTION]
 >
->조직의 정책이 전체 하위 도메인 위임 방법을 제한하는 경우 이 방법을 사용하는 것이 좋습니다. 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지 관리하고 관리해야 합니다. Adobe은 CNAME 방법을 통해 구성된 하위 도메인에 대한 DNS의 변경, 유지 관리 또는 관리를 지원할 수 없습니다.
+>조직의 정책이 전체 하위 도메인 위임 방법을 제한하는 경우 CNAME 방법을 사용하는 것이 좋습니다. 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지 관리하고 관리해야 합니다. Adobe은 CNAME 방법을 통해 구성된 하위 도메인에 대한 DNS의 변경, 유지 관리 또는 관리를 지원할 수 없습니다.
 
 ➡️ [이 비디오에서 Adobe 관련 레코드를 가리키도록 CNAME을 사용하여 하위 도메인을 만드는 방법을 알아봅니다](#video)
 
