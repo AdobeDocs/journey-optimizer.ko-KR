@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: a473ffa25871cdf0e5acb48c6902f883bd8f74a2
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 ![](assets/journey72.png)
 
-## 프로필을 사용하여 여정 시간대 정의 {#timezone-from-profiles}
+## 프로필을 사용하여 여정 시간대를 정의합니다 {#timezone-from-profiles}
 
 여정의 시작 이벤트에 네임스페이스가 있는 경우, 여정이 Adobe Experience Platform의 실시간 고객 프로필 서비스에 도달할 수 있는 경우 시간대는 여정에 흐르는 개별 프로필에 지정된 시간대로 미리 정의됩니다.
 

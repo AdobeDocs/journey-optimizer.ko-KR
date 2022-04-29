@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1457'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 여정 인터페이스를 사용하면 팔레트의 활동을 캔버스로 쉽게 드래그하여 놓을 수 있습니다. 활동을 두 번 클릭하여 사용 가능한 다음 단계에서 캔버스에 추가할 수도 있습니다. 각 활동에는 특정 역할과 위치가 있습니다. 활동이 시퀀싱됩니다. 활동이 끝나면 플로우는 계속 진행되며 다음 활동을 처리하는 등 다양한 작업을 수행합니다.
 
-## 여정 디자인 시작
+## 여정 디자인 시작 {#gs-journey-design}
 
 다음 **팔레트** 화면 왼쪽에 있습니다. 사용 가능한 모든 활동은 몇 가지 카테고리로 분류됩니다. **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** 및 **[!UICONTROL Actions]**. 해당 이름을 클릭하여 다른 카테고리를 확장/축소할 수 있습니다. 여정에서 활동을 사용하려면 팔레트에서 캔버스로 활동을 끌어서 놓습니다.
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 ![](assets/journey41.png)
 
-## 여정 시작
+## 여정 시작 {#start-your-journey}
 
 여정을 디자인할 때 가장 먼저 질문할 질문은 프로필에서 여정에 어떻게 들어오는가 입니다. 두 가지 가능성이 있습니다.
 
@@ -60,7 +60,7 @@ ht-degree: 3%
 
 **세그먼트 읽기 시작**: Adobe Experience Platform 세그먼트를 수신 대기하도록 여정을 설정할 수 있습니다. 이 경우, 지정된 세그먼트에 속하는 모든 개인이 여정을 입력합니다. 여정에 포함된 메시지는 세그먼트에 속하는 개인에게 전송됩니다. [세그먼트 읽기에 대한 자세한 정보](read-segment.md).
 
-## 다음 단계 정의
+## 다음 단계 정의{#define-next-steps}
 
 첫 번째 이벤트 또는 세그먼트 읽기 후에 다른 활동을 결합하여 여러 단계의 크로스 채널 시나리오를 작성할 수 있습니다. 팔레트에서 필요한 단계를 선택합니다.
 
@@ -86,9 +86,11 @@ ht-degree: 3%
 
 또한 서드파티 시스템과 함께 메시지를 전송하도록 구성한 사용자 지정 작업도 확인할 수 있습니다. 자세한 내용 [섹션](about-journey-activities.md#action-activities).
 
-## 캔버스에서 경로 사용 {#paths}
+## 대체 경로 추가{#paths}
 
-여러 활동(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 활동)을 사용하면 오류 또는 시간 제한이 있을 경우 대체 작업을 정의할 수 있습니다. 활동 구성 창에서 상자를 선택합니다. **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 활동 뒤에 다른 경로가 추가됩니다. 시간 제한 기간은 여정 속성에 정의됩니다( [이 페이지](../building-journeys/journey-gs.md#change-properties) 관리자 예를 들어 이메일을 전송하는 데 너무 오래 걸리거나 오류가 있는 경우 푸시 알림을 전송하도록 결정할 수 있습니다.
+다음 여정 활동에 대한 오류 또는 시간 제한이 있을 경우 대체 작업을 정의할 수 있습니다. **[!UICONTROL Condition]** 및 **[!UICONTROL Action]**.
+
+활동에 대한 대체 작업을 추가하려면 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 활동 속성에 있는 상자: 활동 뒤에 다른 경로가 추가됩니다. 시간 제한 기간은 관리자 사용자가 [여정 속성](../building-journeys/journey-gs.md#change-properties). 예를 들어 이메일을 전송하는 데 너무 오래 걸리거나 오류가 있는 경우 푸시 알림을 전송하도록 결정할 수 있습니다.
 
 ![](assets/journey42.png)
 
