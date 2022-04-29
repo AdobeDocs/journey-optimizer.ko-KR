@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: a473ffa25871cdf0e5acb48c6902f883bd8f74a2
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 에서 시간대를 정의할 수 있습니다 [속성](../building-journeys/journey-gs.md#change-properties) 여정 횟수.
 
-속성에 액세스하려면 화면 오른쪽 상단에 있는 연필 아이콘을 클릭합니다.
+여정 속성에 액세스하려면 화면 오른쪽 상단에 있는 연필 아이콘을 클릭합니다.
 
 이 시간대는 다음과 같은 시간 요소를 포함하는 여정의 모든 활동에 사용됩니다.
 
