@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
@@ -43,7 +44,7 @@ Edge Decisioning API 요청을 사용하여 컨텍스트 데이터를 전달할 
 
 >[!NOTE]
 >
->컨텍스트 데이터를 저장하려면 전용 XDM 스키마를 구성해야 합니다. ( XDM 문서에 대한+ 링크)
+>컨텍스트 데이터를 저장하려면 전용 XDM 스키마를 구성해야 합니다.
 
 ## Decisioning API 기능 {#decisioning}
 

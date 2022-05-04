@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -19,6 +20,10 @@ ht-degree: 0%
 1. 콘텐츠에서 요소를 선택합니다.
 1. 사이드 패널에서 **[!UICONTROL Styles Inline]** 설정.
 
+   ![](assets/styles_1.png)
+
 1. 기존 속성의 값을 수정하거나 **+** 버튼을 클릭합니다. CSS를 준수하는 모든 속성과 값을 추가할 수 있습니다.
+
+   ![](assets/styles_2.png)
 
 그러면 선택한 요소에 스타일이 적용됩니다. 하위 요소에 특정 스타일 속성이 정의되어 있지 않으면 상위 요소의 스타일이 상속됩니다.
