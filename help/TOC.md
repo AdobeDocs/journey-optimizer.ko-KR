@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -328,7 +328,7 @@ ht-degree: 97%
          + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
       + API를 사용한 오퍼 게재 {#offer-delivery-api}
          + [Decisioning 및 Edge Decisioning API 정보](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
-         + [의사 결정 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+         + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 데이터 관리 {#data-management}
@@ -376,7 +376,7 @@ ht-degree: 97%
       + 작업 구성 {#action-journeys}
          + [작업 정보](using/action/action.md)
          + [작업 구성](using/action/about-custom-action-configuration.md)
-         + [Adobe Campaign Standard과 통합](using/action/acs-action.md)
+         + [Adobe Campaign Standard 통합](using/action/acs-action.md)
          + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
          + [동의](using/action/consent.md)
    + [소스](using/start/get-started-sources.md)
