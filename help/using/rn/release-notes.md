@@ -3,9 +3,9 @@ title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3192'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,29 +24,29 @@ ht-degree: 93%
 
 **랜딩 페이지**
 
-* **옵트인/옵트아웃 확인란에 대한 새 옵션** - 이제 구독 랜딩 페이지에 옵트인/옵트아웃에 대한 단일 확인란을 삽입할 수 있습니다. 동의(옵트인)를 위해 상자를 선택하고 선택을 취소하여 동의(옵트아웃)를 제거해야 합니다. [자세히 보기](../landing-pages/design-lp.md#define-lp-specific-content)
+* **새로운 옵트인/옵트아웃 확인란 옵션** - 이제 옵트인/옵트아웃에 대한 단일 확인란을 구독 랜딩 페이지에 삽입할 수 있습니다. 사용자는 동의(옵트인)하려면 이 확인란을 선택하고 동의를 제거(옵트아웃)하려면 선택을 해제해야 합니다. [자세히 보기](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **랜딩 페이지 필드 미리 채우기** - 이제 사용자에게 랜딩 페이지 필드를 프로필 정보로 미리 채울 수 있는 기능을 제공할 수 있습니다. [자세히 알아보기](../landing-pages/create-lp.md#configure-primary-page)
+* **랜딩 페이지 필드 미리 채우기** - 이제 사용자에게 랜딩 페이지 필드를 프로필 정보로 미리 채우는 기능을 제공할 수 있습니다. [자세히 알아보기](../landing-pages/create-lp.md#configure-primary-page)
 
 **의사 결정 관리**
 
-* **Edge의 의사 결정 API** - Edge Decisioning API는 Offer decisioning에서 관리되는 개인화된 오퍼를 제공하고 렌더링할 수 있습니다. UI(Offer decisioning 사용자 인터페이스) 또는 API를 사용하여 오퍼 및 기타 관련 개체를 만들 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Edge용 Decisioning API** - Edge Decisioning API는 Offer Decisioning에서 관리하는 개인화된 오퍼를 제공하고 렌더링할 수 있습니다. Offer Decisioning UI(사용자 인터페이스) 또는 API를 사용하여 오퍼 및 기타 관련 개체를 만들 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **관리**
 
-* **PTR 제출 기간** - PTR 편집 유효 기간이 몇 시간 남았습니다. [자세히 보기](../configuration/ptr-records.md#processing)
+* **PTR 제출 기간** - PTR 편집 유효 기간이 몇 시간 수준으로 변경되었습니다. [자세히 보기](../configuration/ptr-records.md#processing)
 
 **이메일 디자인**
 
-* **20개의 새로운 이메일 템플릿** 이제 Journey Optimizer에서 이메일 콘텐츠를 디자인할 수 있습니다.
+* 이제 Journey Optimizer에서 **20개의 새로운 이메일 템플릿**&#x200B;으로 이메일 콘텐츠를 디자인할 수 있습니다.
 
 **사용자 인터페이스**
 
-* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. 사용 가능한 경우 &quot;i&quot; 아이콘을 클릭하여 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
+* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. &quot;i&quot; 아이콘을 클릭할 수 있는 경우, 클릭하면 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
 
-**Adobe Campaign Standard과 통합**
+**Adobe Campaign Standard 통합**
 
-이제 Adobe Campaign Standard 고객은 Journey Optimizer을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다. Journey Optimizer에 Campaign Standard 트랜잭션 메시지 기능을 활용하려면 새로운 내장된 작업을 사용하십시오.  [자세히 보기](../action/acs-action.md)
+이제 Adobe Campaign Standard 고객이 Journey Optimizer를 사용하여 이메일, 푸시 알림, SMS를 보낼 수 있습니다. 새로운 기본 제공 작업으로 Journey Optimizer에 Campaign Standard의 트랜잭션 메시지 기능을 활용하세요.  [자세히 보기](../action/acs-action.md)
 
 <!--
 ### Fixes
