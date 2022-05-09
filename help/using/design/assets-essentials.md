@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: ccc78d8d4276c33164adc4cc0ba46486c2093955
+source-git-commit: 97bb3497d3cdab53511610da600d0e646572ed77
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 4%
+source-wordcount: '476'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 을 사용하여 마케팅 및 크리에이티브 워크플로우를 함께 통합 [!DNL Adobe Experience Manager Assets Essentials]. 기본적으로 [!DNL Adobe Journey Optimizer], 액세스 [!DNL Assets Essentials] 디지털 자산을 저장, 관리, 검색 및 배포하기 위해 메시지를 채우는 데 사용할 수 있는 중앙 집중식 단일 자산 저장소를 제공합니다.
 
-[!DNL Adobe Experience Manager Assets Essentials] 은 경험 전달을 위해 크리에이티브 시스템과 미티브한 디지털 자산을 확장하는 공동 및 중앙 집중식 자산 작업 공간입니다. 승인된 프로덕션 자산을 쉽게 구성, 태그 지정 및 찾아 팀 간에 브랜드 일관성을 유지할 수 있습니다. 직관적인 사용자 경험을 통해 Adobe 크리에이티브 및 Experience Cloud 앱 내의 공유 자산에 즉시 액세스할 수 있습니다.
+[!DNL Adobe Experience Manager Assets Essentials] 는 크리에이티브 시스템을 확장하고 경험 전달을 위해 디지털 자산을 통합하는 공동 및 중앙 집중식 자산 작업 공간입니다. 승인된 프로덕션 자산을 쉽게 구성, 태그 지정 및 찾아 팀 간에 브랜드 일관성을 유지할 수 있습니다. 직관적인 사용자 경험을 통해 [!DNL Assets Essentials] 즉시 Adobe 크리에이티브 및 Experience Cloud 앱에서 자산을 공유할 수 있습니다.
 
 추가 정보 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
-[!DNL Adobe Experience Manager Assets Essentials] 는 [!DNL Adobe Journey Optimizer] 사용 **[!UICONTROL Assets]** 섹션을 참조하십시오. 필요할 때 자산 및 폴더에 액세스할 수도 있습니다 [이메일 콘텐츠 디자인](design-emails.md).
+[!DNL Adobe Experience Manager Assets Essentials] 는 [!DNL Adobe Journey Optimizer] 왼쪽 메뉴 사용 **[!UICONTROL Assets]** 섹션을 참조하십시오. 필요할 때 자산 및 폴더에 액세스할 수도 있습니다 [이메일 콘텐츠 디자인](design-emails.md).
 
 ## 전제 조건{#assets-prerequisites}
 
