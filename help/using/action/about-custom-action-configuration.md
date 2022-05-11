@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '944'
 ht-degree: 6%
 
 ---
@@ -83,6 +83,11 @@ ht-degree: 6%
    >사용자 지정 작업을 정의할 때는 기본 포트만 허용됩니다. http의 경우 80, https의 경우 443.
 
 1. 호출을 선택합니다 **[!UICONTROL Method]**: 다음 중 하나일 수 있습니다 **[!UICONTROL POST]** 또는 **[!UICONTROL PUT]**.
+
+   >[!NOTE]
+   >
+   > 다음 **DELETE** 메서드가 지원되지 않습니다. 기존 리소스를 업데이트해야 하는 경우 **PUT** 메서드를 사용합니다.
+
 1. 에서 **[!UICONTROL Headers]** 섹션에서 외부 서비스로 전송할 요청 메시지의 HTTP 헤더를 정의합니다.
    1. 헤더 필드를 추가하려면 **[!UICONTROL Add a header field]**.
    1. 헤더 필드의 키를 입력합니다.
@@ -103,7 +108,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >헤더는 필드 구문 분석 규칙에 따라 유효성이 검사됩니다. [자세히 알아보기](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >헤더는 필드 구문 분석 규칙에 따라 유효성이 검사됩니다. 추가 정보 [이 설명서](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## 작업 매개 변수 정의 {#define-the-message-parameters}
 

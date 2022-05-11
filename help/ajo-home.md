@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4812a9191eb16d622e5c9250b30096ca124d5781
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 68%
+source-wordcount: '336'
+ht-degree: 98%
 
 ---
 
@@ -118,6 +118,9 @@ ht-degree: 68%
     <li>
       <a href="using/messages/get-started-content.md">메시지</a>
     </li>
+    <li>
+      <a href="using/landing-pages/get-started-lp.md">랜딩 페이지</a>
+    </li>
     <p>
     <p>의사 결정 관리</p>
     <li>
@@ -155,12 +158,24 @@ ht-degree: 68%
     <li>
       <a href="using/segment/about-segments.md">세그먼트</a>
     </li>
-     <li>
+    </li>
+    <li>
+      <a href="using/landing-pages/subscription-list.md">구독 목록</a>
+    </li>     
+    <li>
       <a href="using/segment/get-started-profiles.md">프로필</a>
     </li>
     <li>
       <a href="using/segment/get-started-identity.md">신원</a>
     </li>
+    <p>개인 정보 보호</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko" target="_blank">정책</a>
+    </li>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko"target="_blank">요청</a>
+    </li>
+    <p>
     <p>
     <p>관리</p>
     <li>
@@ -177,14 +192,13 @@ ht-degree: 68%
 </table>
 
 
+![뉴스레터](using/assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}에 등록하세요!
 
-![뉴스레터](using/assets/do-not-localize/nl-icon.png) 에 등록 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html)오늘 {target=&quot;_blank&quot;}!
+분기마다 최신 제품 업데이트, 흥미로운 사례, 사용 사례, 팁 등을 받은 편지함에 바로 받을 수 있습니다.
 
-분기마다 받은 편지함에 바로 최신 제품 업데이트, 흥미로운 사례, 사용 사례, 팁 등을 받을 수 있습니다.
-
-각 Newsletter에서
-* 최근에 릴리스된 기능을 포함한 제품 뉴스 및 업데이트
-* 최근 웨비나에 대한 이벤트 및 웨비나 및 녹음/녹화 초대
+각 뉴스레터에는 다음과 같은 내용이 포함됩니다.
+* 최근 릴리스 기능 등 제품 뉴스와 업데이트
+* 이벤트 및 웨비나 초대 및 최근 웨비나 녹화본
 * Adobe Journey Optimizer Experience League 커뮤니티의 주요 토론
 * 다른 Adobe Journey Optimizer 고객의 사례 연구 및 사용 사례
-* 비즈니스 성공을 이끄는 뛰어난 고객 경험을 제공하는 데 도움이 되는 팁과 트릭
+* 비즈니스 성공을 이끄는 뛰어난 고객 경험을 제공하는 데 도움이 되는 팁과 요령

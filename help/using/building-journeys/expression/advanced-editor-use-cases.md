@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -145,4 +145,4 @@ substr(
 
 설명: 이 예에서는 을 사용합니다 `substr` 및 `lastIndexOf` 모바일 앱 실행 이벤트와 함께 전달된 CRM ID를 포함하는 중괄호를 제거하는 함수입니다.
 
-고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=ko-KR).

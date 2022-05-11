@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '821'
 ht-degree: 5%
 
 ---
@@ -28,10 +28,6 @@ ht-degree: 5%
 원본 여정에서 **[!UICONTROL Jump]** 활동을 선택하고 target 여정을 선택합니다. 개인이 **[!UICONTROL Jump]** 단계에서 내부 이벤트가 target 여정의 첫 번째 이벤트로 전송됩니다. 만약 **[!UICONTROL Jump]** 작업이 성공하면 개인이 여정에서 계속 진행합니다. 동작은 다른 작업과 유사합니다.
 
 대상 여정에서, 에 의해 내부적으로 트리거되는 첫 번째 이벤트입니다 **[!UICONTROL Jump]** 활동은 여정에서 개별 흐름을 만듭니다.
-
->[!NOTE]
->
->튜토리얼 비디오 를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=ko-KR){target=&quot;_blank&quot;}
 
 ## 라이프사이클
 

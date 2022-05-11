@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '479'
 ht-degree: 5%
 
 ---
@@ -53,8 +53,6 @@ Adobe Experience Platform에 전달된 XDM 필드 목록은 다음 항목에 자
 
 * [단계 이벤트 필드 목록](../reports/sharing-field-list.md)
 * [레거시 단계 이벤트 필드](../reports/sharing-legacy-fields.md)
-
-Adobe Experience Platform에 보고하는 단계 이벤트에 대한 자세한 내용은 이 비디오에서 확인하십시오 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}.
 
 ## Customer Journey Analytics과 통합 {#integration-cja}
 

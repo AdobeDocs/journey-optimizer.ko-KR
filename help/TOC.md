@@ -5,8 +5,8 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: ht
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 100%
 
@@ -367,7 +367,7 @@ ht-degree: 100%
             + [ExperienceEvent 스키마 정보](using/event/experience-event-schema.md)
             + [Adobe Analytics 활용](using/event/about-analytics.md)
          + [비즈니스 이벤트 구성](using/event/about-creating-business.md)
-         + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+         + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey.md)
       + 데이터 소스 구성{#data-source-journeys}
          + [데이터 소스 정보](using/datasource/about-data-sources.md)
          + [데이터 소스 구성](using/datasource/configure-data-sources.md)

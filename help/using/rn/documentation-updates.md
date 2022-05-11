@@ -2,16 +2,26 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: ht
-source-wordcount: '1254'
-ht-degree: 100%
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+workflow-type: tm+mt
+source-wordcount: '1326'
+ht-degree: 95%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+
+## 2022년 5월 {#may-2022}
+
+* 이제 이메일 디자인 섹션에 컨텐츠를 시작할 수 있는 새로운 기본 제공 템플릿이 설명되어 있습니다. 관련 스크린샷이 업데이트되었습니다. [자세히 보기](../design/design-emails.md)
+* 주요 리소스에 대한 링크가 Journey Optimizer 설명서 홈 페이지에서 업데이트되었습니다.
+* 랜딩 페이지 및 구독 보고에 대한 스크린샷이 업데이트되었습니다. [자세히 보기](../reports/live-report.md)
+* 사용자 지정 작업에서 Delete 메서드가 지원되지 않는다는 내용의 메모가 추가되었습니다. [자세히 보기](../action/about-custom-action-configuration.md)
+* 방법 비디오에 대한 링크가 업데이트되었습니다.
+
 
 ## 2022년 4월 {#april-2022}
 

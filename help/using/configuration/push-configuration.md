@@ -4,9 +4,9 @@ description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1434'
 ht-degree: 4%
 
 ---
@@ -253,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## 3단계: 이벤트를 사용하여 모바일 앱을 테스트합니다 {#mobile-app-test}
 
-Adobe Experience Platform과 모두에서 모바일 앱을 구성한 후 [!DNL Adobe Experience Platform Data Collection]이제 프로필에 푸시 알림을 전송하기 전에 테스트할 수 있습니다. 이 사용 사례에서는 모바일 앱을 타깃팅할 여정을 만들고 푸시 알림을 트리거할 이벤트를 설정합니다.
+Adobe Experience Platform과 모두에서 모바일 앱을 구성한 후 [!DNL Adobe Experience Platform Data Collection]이제 프로필에 푸시 알림을 전송하기 전에 테스트할 수 있습니다. 이 사용 사례에서는 모바일 앱을 타깃팅하는 여정을 만들고 푸시 알림을 트리거하는 이벤트를 설정합니다.
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
@@ -307,7 +307,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_7b.png)
 
-1. 클릭 **[!UICONTROL Edit]** 에서 **[!UICONTROL Event ID condition]** 필드. 이전에 추가한 필드를 끌어다 놓아 여정을 트리거할 이벤트를 식별하는 데 시스템에서 사용할 조건을 정의합니다.
+1. 클릭 **[!UICONTROL Edit]** 에서 **[!UICONTROL Event ID condition]** 필드. 이전에 추가한 필드를 끌어다 놓아 여정을 트리거하는 이벤트를 식별하는 데 시스템에서 사용할 조건을 정의합니다.
 
    ![](assets/test_push_8.png)
 

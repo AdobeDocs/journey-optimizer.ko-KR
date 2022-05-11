@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 11%
+source-wordcount: '1103'
+ht-degree: 10%
 
 ---
 
@@ -80,15 +80,16 @@ ht-degree: 11%
 
 1. 이 이벤트를 사용하는 경로 수가 **[!UICONTROL Used in]** 필드에 표시됩니다. **[!UICONTROL View journeys]** 아이콘을 클릭하여 이 이벤트를 사용하는 경로 목록을 표시할 수 있습니다.
 
-1. 스키마 및 페이로드 필드를 정의합니다. 여기서 여정이 수신하도록 하는 이벤트 정보(대개 페이로드)를 선택합니다. 그러면 이 정보를 경로에 사용할 수 있습니다. [이 섹션](../event/about-creating-business.md#define-the-payload-fields)을 참조하십시오.
+1. 스키마 및 페이로드 필드를 정의합니다. 여기에서 여정이 수신하도록 할 이벤트 정보(또는 페이로드)를 선택합니다. 이 정보는 나중에 여정에서 사용하게 됩니다. [이 섹션](../event/about-creating-business.md#define-the-payload-fields)을 참조하십시오.
 
    ![](assets/jo-event5-business.png)
 
-   시계열 스키마만 사용할 수 있습니다. 경험 이벤트, 의사 결정 이벤트 및 여정 단계 이벤트 스키마를 사용할 수 없습니다. 이벤트 스키마에는 비사용자 기반 기본 ID가 포함되어야 합니다. 이벤트를 정의할 때는 다음 필드를 선택해야 합니다. `_id` 및 `timestamp`
+   시계열 스키마만 사용할 수 있습니다. `Experience Events`, `Decision Events` 및 `Journey Step Events` 스키마를 사용할 수 없습니다. 이벤트 스키마에는 비사용자 기반 기본 ID가 포함되어야 합니다. 이벤트를 정의할 때는 다음 필드를 선택해야 합니다. `_id` 및 `timestamp`
 
    ![](assets/test-profiles-4.png)
 
-1. 의 내부를 클릭합니다. **[!UICONTROL Event ID condition]** 필드. 단순 표현식 편집기를 사용하여 시스템에서 여정을 트리거할 이벤트를 식별하는 데 사용할 조건을 정의합니다.
+1. 의 내부를 클릭합니다. **[!UICONTROL Event ID condition]** 필드. 단순 표현식 편집기를 사용하여 시스템에서 여정을 트리거하는 이벤트를 식별하는 데 사용하는 조건을 정의합니다.
+
    ![](assets/jo-event6-business.png)
 
    이 예제에서는 제품 ID를 기반으로 조건을 작성했습니다. 즉, 시스템에서 이 조건과 일치하는 이벤트를 수신할 때마다 여정에게 전달됩니다.
@@ -101,7 +102,7 @@ ht-degree: 11%
 
    ![](assets/journey7-business.png)
 
-   이제 이벤트가 구성되었으며 경로에 추가할 수 있는 상태가 되었습니다. 이벤트를 수신하려면 추가 구성 단계를 수행해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
+   이제 이벤트가 구성되었으며 경로에 추가할 수 있는 상태가 되었습니다. 이벤트를 수신하려면 추가 구성 단계를 수행해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey.md)에서 자세히 알아보십시오.
 
 ## 페이로드 필드를 정의합니다 {#define-the-payload-fields}
 
@@ -123,13 +124,13 @@ ht-degree: 11%
 
 1. 필요한 필드 선택을 완료했으면 을 클릭합니다 **[!UICONTROL Save]** 또는 **[!UICONTROL Enter]**.
 
-   선택한 필드 수가 **[!UICONTROL Fields]** 필드.
+   선택한 필드 수가 **[!UICONTROL Fields]**.
 
    ![](assets/journey12-business.png)
 
 ## 페이로드 미리 보기 {#preview-the-payload}
 
-페이로드 미리 보기를 사용하면 페이로드 정의의 유효성을 검사할 수 있습니다.
+페이로드 미리 보기를 사용하여 페이로드 정의의 유효성을 검사합니다.
 
 1. 을(를) 클릭합니다. **[!UICONTROL View Payload]** 아이콘을 클릭하여 시스템에 필요한 페이로드를 미리 봅니다.
 
@@ -141,4 +142,4 @@ ht-degree: 11%
 
 1. 미리 보기를 선택하여 페이로드 정의의 유효성을 확인합니다.
 
-1. 그런 다음 이벤트 전송을 담당하는 사람과 페이로드 미리 보기를 공유할 수 있습니다. 이 페이로드는 푸시 이벤트 설정을 디자인하는 데 도움이 될 수 있습니다 [!DNL Journey Optimizer]. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
+1. 그런 다음 이벤트 전송을 담당하는 사람과 페이로드 미리 보기를 공유할 수 있습니다. 이 페이로드는 푸시 이벤트 설정을 디자인하는 데 도움이 될 수 있습니다 [!DNL Journey Optimizer]. [이 페이지](../event/additional-steps-to-send-events-to-journey.md)를 참조하십시오.

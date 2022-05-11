@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 54%
+source-wordcount: '829'
+ht-degree: 51%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 54%
 
    >[!CAUTION]
    >
-   >최대 가용량 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 주어진 조직(ORG)에 대해 처리할 수 있는 적격한 이벤트 수를 초당 5000개로 제한합니다. Journey Optimizer SLA에 해당합니다. 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/journey-orchestration.html)를 참조하십시오.
+   >최대 가용량 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 주어진 조직에 대해 처리할 수 있는 적격한 이벤트 수를 초당 5000개로 제한합니다. Journey Optimizer SLA에 해당합니다. Journey Optimizer 라이선스 및 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html).
 
 * **시스템 생성** 이벤트: 이러한 이벤트에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다.
 

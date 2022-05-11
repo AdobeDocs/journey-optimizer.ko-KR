@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -20,24 +20,16 @@ ht-degree: 0%
 >title="프로필 활동 업데이트"
 >abstract="프로필 업데이트 작업 활동을 사용하면 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다."
 
-다음 **[!UICONTROL Update Profile]** 작업 활동을 통해 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다.
+를 사용하십시오 **[!UICONTROL Update Profile]** 작업 활동을 통해 이벤트, 데이터 소스 또는 특정 값으로 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다.
 
-## 중요 정보
+## 추천 항목
 
 * 다음 **프로필 업데이트** 작업은 네임스페이스가 있는 이벤트로 시작하는 여정에서만 사용할 수 있습니다.
 * 작업은 기존 필드만 업데이트하며 새 프로필 필드를 만들지 않습니다.
 * 를 사용할 수 없습니다 **프로필 업데이트** 구매 등의 경험 이벤트를 생성하는 작업입니다.
 * 다른 작업과 마찬가지로 오류 또는 시간 제한 시 대체 경로를 정의할 수 있으며 두 작업을 동시에 배치할 수 없습니다.
-* Platform으로 보낸 업데이트 요청은 속도가 빠르지만 1초 이내에 전송되지 않습니다. 보통 몇 초 정도 걸리지만 가끔은 장담할 수 없는 경우도 있다. 따라서 예를 들어, 작업이 바로 앞에 배치된 프로필 업데이트 작업에 의해 업데이트된 &quot;필드 1&quot;을 사용하는 경우 작업에서 &quot;필드 1&quot;이 업데이트될 것으로 예상하면 안 됩니다.
+* Adobe Experience Platform에 전송된 업데이트 요청은 즉시/1초 내에 있습니다. 보통 몇 초 정도 걸리지만 가끔은 장담할 수 없는 경우도 있다. 따라서, 예를 들어 작업에서 **프로필 업데이트** 바로 전에 배치된 작업은 작업에서 &quot;필드 1&quot;이 업데이트되기를 기대하면 안 됩니다.
 * 다음 **프로필 업데이트** 활동은 열거형으로 정의된 XDM 필드를 지원하지 않습니다.
-
-## 테스트 모드 사용 {#using-the-test-mode}
-
-테스트 모드에서는 프로필 업데이트가 시뮬레이션되지 않습니다. 업데이트는 테스트 프로필에서 수행됩니다.
-
-테스트 프로필만 테스트 모드에서 여정을 입력할 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 전환할 수 있습니다. Adobe Experience Platform에서 csv 파일 가져오기 또는 API 호출을 통해 프로필 속성을 업데이트할 수 있습니다. 간단한 방법은 **프로필 업데이트** 작업 활동을 수행하고 테스트 프로필 부울 필드를 false에서 true로 변경합니다.
-
-기존 프로필을 테스트 프로필로 변환하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오 [섹션](../segment/creating-test-profiles.md#create-test-profiles-csv).
 
 ## 프로필 업데이트 사용
 
@@ -72,3 +64,12 @@ ht-degree: 0%
 다음 **프로필 업데이트** 이제 가 구성되었습니다.
 
 ![](assets/profileupdate1.png)
+
+
+## 테스트 모드 사용 {#using-the-test-mode}
+
+테스트 모드에서는 프로필 업데이트가 시뮬레이션되지 않습니다. 업데이트는 테스트 프로필에서 수행됩니다.
+
+테스트 프로필만 테스트 모드에서 여정을 입력할 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 전환할 수 있습니다. Adobe Experience Platform에서 csv 파일 가져오기 또는 API 호출을 통해 프로필 속성을 업데이트할 수 있습니다. 간단한 방법은 **프로필 업데이트** 작업 활동을 수행하고 테스트 프로필 부울 필드를 false에서 true로 변경합니다.
+
+기존 프로필을 테스트 프로필로 변환하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오 [섹션](../segment/creating-test-profiles.md#create-test-profiles-csv).
