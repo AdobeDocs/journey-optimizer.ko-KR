@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 94c2e889b38608aa173b62edb498eba7756e68e6
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 29%
+source-wordcount: '336'
+ht-degree: 28%
 
 ---
 
@@ -61,7 +61,3 @@ URL에 동적 경로가 포함된 경우에는 경로에 **[!UICONTROL Path]** �
 ## 작업 매개 변수
 
 에서 **[!UICONTROL Action parameters]** 섹션에, _&quot;변수&quot;_. 이러한 매개 변수에 대해 이 정보를 가져올 위치를 정의할 수 있습니다(예: 이벤트, 데이터 소스)를 수동으로 전달하거나 고급 사용 사례를 위해 고급 표현식 편집기를 사용합니다. 고급 사용 사례는 데이터 조작 및 기타 기능 사용일 수 있습니다. 다음을 참조하십시오 [페이지](expression/expressionadvanced.md).
-
-**관련 항목**
-
-[작업 구성](../action/about-custom-action-configuration.md)
