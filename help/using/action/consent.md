@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6958b03907bdc2e57e336efe27d7528cc60f86f2
+source-git-commit: d826ad21e821235d61db499d25abf1a96ab0bec9
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 0%
@@ -57,7 +57,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="필요한 마케팅 작업 정의"
->abstract="필요한 마케팅 작업을 사용하면 사용자 지정 작업과 관련된 마케팅 작업을 정의할 수 있습니다. 예를 들어 해당 사용자 지정 작업을 사용하여 이메일을 보내는 경우 &quot;이메일 타겟팅&quot;을 선택할 수 있습니다. 여정에서 사용하면 해당 마케팅 작업과 관련된 모든 동의 정책이 검색 및 활용됩니다. 캔버스에서 수정할 수 없습니다."
+>abstract="필요한 마케팅 작업을 사용하면 사용자 지정 작업과 관련된 마케팅 작업을 정의할 수 있습니다. 예를 들어 해당 사용자 지정 작업을 사용하여 이메일을 보내는 경우 이메일 타겟팅을 선택할 수 있습니다. 여정에서 사용하면 해당 마케팅 작업과 관련된 모든 동의 정책이 검색 및 활용됩니다. 캔버스에서 수정할 수 없습니다."
 
 사용자 지정 작업을 구성할 때 동의 관리에 두 개의 필드를 사용할 수 있습니다.
 
