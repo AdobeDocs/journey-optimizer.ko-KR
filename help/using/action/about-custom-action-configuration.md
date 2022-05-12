@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bb582374f69e5c4113e22c7caed1a23d2c9ac231
+source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 4%
+source-wordcount: '944'
+ht-degree: 6%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 4%
 
 사용자 지정 작업 매개 변수에는 예상 형식(예: 문자열, 십진수 등.) 이러한 예상 형식을 준수하도록 주의해야 합니다. 자세한 내용 [사용 사례](../building-journeys/collections.md).
 
+
 ## 구성 단계 {#configuration-steps}
 
 사용자 지정 작업을 구성하는 데 필요한 주요 단계는 다음과 같습니다.
@@ -49,12 +50,9 @@ ht-degree: 4%
 
 1. 작업에 설명을 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
 1. 이 작업을 사용하는 여정 수는 **[!UICONTROL Used in]** 필드. 을(를) 클릭합니다. **[!UICONTROL View journeys]** 버튼을 클릭하여 이 작업을 사용하는 여정 목록을 표시합니다.
-1. 이 사용자 지정 작업과 관련된 채널을 선택합니다. **이메일**, **SMS**, 또는 **푸시 알림**. 선택한 채널에 대한 기본 마케팅 작업이 있는 필수 마케팅 작업 필드를 미리 채웁니다. 선택하는 경우 **기타**&#x200B;로 설정되면 마케팅 작업이 정의되지 않습니다.
-1. 이 사용자 지정 작업에 동의 규칙을 적용하려면 해당 규칙을 선택합니다 **필수 마케팅 작업**. [이 섹션](../action/about-custom-action-configuration.md#consent-management)을 참조하십시오.
-1. 다양한 정의 **[!UICONTROL URL Configuration]** 매개 변수. [이 섹션](../action/about-custom-action-configuration.md#url-configuration)을 참조하십시오.
+1. 다양한 정의 **[!UICONTROL URL Configuration]** 매개 변수. [이 페이지](../action/about-custom-action-configuration.md#url-configuration)를 참조하십시오.
 1. 구성 **[!UICONTROL Authentication]** 섹션을 참조하십시오. 이 구성은 데이터 소스와 동일합니다.  [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오.
-1. 을(를) 정의합니다 **[!UICONTROL Action parameters]**. [이 섹션](../action/about-custom-action-configuration.md#define-the-message-parameters)을 참조하십시오.
-1. 
+1. 을(를) 정의합니다 **[!UICONTROL Action parameters]**. [이 페이지](../action/about-custom-action-configuration.md#define-the-message-parameters)를 참조하십시오.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    이제 사용자 지정 작업이 구성되었으며 여정에서 사용할 준비가 되었습니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)를 참조하십시오.
@@ -132,37 +130,3 @@ ht-degree: 4%
 * 변수는 매개 변수의 값이 변경됨을 의미합니다. 여정에서 이 사용자 지정 작업을 사용하는 마케터는 원하는 값을 전달하거나 이 매개 변수의 값을 검색할 위치(예: 이벤트에서 또는 Adobe Experience Platform에서)를 지정할 수 있습니다. 이 경우 전환 상수/변수 오른쪽에 있는 필드는 이 매개 변수의 이름을 지정하기 위해 여정에 표시되는 레이블 마케터입니다.
 
 ![](assets/customactionpayloadmessage2.png)
-
-## 동의 관리 {#consent-management}
-
-이제 고객은 개인 정보 보호와 관련된 동의 정책을 정의하여 실행 중에 나가는 데이터를 제어할 수 있습니다. 동의 정책은 프로필 속성에 대한 표현식으로 작동하며, 규칙을 설정하여 지정된 프로필에 대해 작업을 실행할 수 있는지 여부를 정의합니다.
-
-사용자 정의 동작, 메시지 전달 encore에 대한 동의 응답 입력 텔형 de complication ou utilization de tel type de donnée champs dans profile qui vont tiker ce consent consent consent coté AEP nuvelles de type policy auj governance policy를 입력합니다. 이메일 타깃팅을 일시 면제합니다. 연관 레이블(C4/C5) 은 마케팅 작업을 나타냅니다. Quand tu 정의 대상, 마케팅 해제 작업을 입력합니다. 이전 SFTP crune dest qui va exporter des données 는 sftp, tu flague sftp avec une 마케팅 활동을 수행합니다. Egelement 개념 삭제 마케팅 작업 라지아웃에는 사용자 지정 작업, 이메일/SMS/푸시 마케팅 작업이 표시됩니다. 사용자 지정.
-
-레이블: quand tu def 데이터 세트(outil stocker tes données), Onlet 데이터 그룹, pr chque attributes, tu peux 정의 le type de label은 cet 속성을 연관시킵니다. 국가 코드 레이블 C3/C4. 레이블 ootb, tu peux en def d&#39;autres en fonction 베신.
-
-
-
-— Jira 댓글—
-
-의사가 사용자 지정 작업의 &quot;의도&quot;를 설명하는 방법으로 &quot;추가 마케팅 작업&quot;을 설명합니다(예: 제 맞춤형 활동은 운동 소통, 뉴스레터, 피트니스 커뮤니케이션 등에 관한 것입니다.
-
-첫 번째 릴리스에 대한 동의 범위를 설명합니다.
-
-- 사용자 지정 작업의 개인화에 사용된 마케팅 작업 및 속성을 고려합니다
-- 세그먼트가 트리거된 여정(읽기 세그먼트로 시작)의 경우 해당 세그먼트의 기준으로 사용된 속성을 고려합니다
-- 여정 읽기 또는 사용자 지정 작업 이외의 활동에 사용된 모든 활동은 고려되지 않습니다
-- 여정을 시작하는 데 사용되는 경우에도 세그먼트 자격이 고려되지 않습니다
-
-사용자 지정 작업에서 동의 정책에 의해 제외된 프로필은 여전히 여정(메시지 및 제외 목록 포함)을 통과합니다
-
-예상 지연을 설명하는 미리 알림: https://wiki.corp.adobe.com/display/DMSArchitecture/Consent+Latency
-+ 1h에서 6h로 AJO 지연 수정
-
-문서화해야 하는 두 가지 유형의 지연:
-
-- Carolina Infante에서 사용자 지연, 이것을 보면서 우리가 무엇을 말할 수 있을지 확실하지 않습니다.
-
-&quot;UPS 투영/내보내기&quot;가 필요하거나 필요없는지 확인하고 프로필 수준에서 &quot;contentTo&quot; 필드를 업데이트하는지(런타임 시 이 필드를 사용하는지 확인) 확인할 수 있습니까? 이런 경우 최대 48시간이 걸린다고 가정해야 하는데 그렇지 않다면 &quot;수집 지연 + 수집 지연&quot;에 대해서만 말하는 것입니다(따라서 섭취 중에 스파이크나 중단이 있는 경우 몇 초에서 몇 시간 최악 상태가 되거나 고객이 사용자로부터 업데이트를 수집하는 데 시간이 오래 걸리는 경우).
-
-- 동의 정책 지연을 말하며, 라이브 여정은 6시간마다 동의 정책을 가져오므로 &quot;최대 6시간&quot;이라고 합니다. Carolina Infante : 필터 지연의 영향을 받는지 알고 있습니까?
