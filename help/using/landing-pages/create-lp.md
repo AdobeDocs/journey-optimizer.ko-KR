@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 1%
@@ -53,7 +53,7 @@ ht-degree: 1%
 
    ![](assets/lp_create-lp-details.png)
 
-1. 사전 설정을 선택합니다. 에서 랜딩 페이지 사전 설정을 만드는 방법을 알아봅니다. [이 섹션](../configuration/lp-configuration.md#lp-create-preset).
+1. 사전 설정을 선택합니다. 에서 랜딩 페이지 사전 설정을 만드는 방법을 알아봅니다. [이 섹션](../configuration/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
    ![](assets/lp_open-designer.png)
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 의 일부로 설정해야 합니다 [사전 설정](../configuration/lp-configuration.md#lp-create-preset) 선택하셨습니다. [자세히 보기](../configuration/lp-configuration.md#lp-subdomains)
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 의 일부로 설정해야 합니다 [사전 설정](../configuration/lp-presets.md#lp-create-preset) 선택하셨습니다. [자세히 보기](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ ht-degree: 1%
 
 1. 콘텐츠 디자이너를 사용하여 페이지의 콘텐츠를 편집합니다. 랜딩 페이지 컨텐츠를 정의하는 방법을 알아봅니다 [여기](design-lp.md).
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 보기](../configuration/lp-configuration.md#lp-subdomains)
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 보기](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >

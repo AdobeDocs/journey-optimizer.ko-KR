@@ -1,0 +1,173 @@
+---
+title: 전자 메일 설정 구성
+description: 메시지 사전 설정 수준에서 이메일 설정을 구성하는 방법을 알아봅니다
+feature: Application Settings
+topic: Administration
+role: Admin
+level: Intermediate
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 1%
+
+---
+
+# 전자 메일 설정 구성 {#email-settings}
+
+메시지 사전 설정 구성의 전용 섹션에서 전자 메일 설정을 정의합니다. 에서 메시지 사전 설정을 만드는 방법을 알아봅니다. [이 섹션](message-presets.md).
+
+![](assets/preset-email.png)
+
+## 이메일 유형 {#email-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="이메일 카테고리 정의"
+>abstract="이 사전 설정을 사용할 때 전송할 메시지 유형을 선택합니다. 사용자 동의가 필요한 프로모션 메시지의 마케팅 또는 비상업용 메시지의 경우 트랜잭션용으로 특정 컨텍스트에서 가입 해지된 프로필에도 전송될 수 있습니다."
+
+에서 **이메일 유형** 섹션에서 사전 설정으로 전송할 메시지 유형을 선택합니다. **마케팅** 또는 **트랜잭션**.
+
+* 선택 **마케팅** 프로모션 메시지의 경우: 이러한 메시지에는 사용자의 동의가 필요합니다.
+
+* 선택 **트랜잭션** 주문 확인, 암호 재설정 알림 또는 배달 정보와 같은 비상업적인 메시지의 경우,
+
+>[!CAUTION]
+>
+>**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필로 메시지를 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
+
+When [메시지 만들기](../messages/get-started-content.md#create-new-message): 메시지에 대해 선택한 카테고리와 일치하는 유효한 메시지 사전 설정을 선택해야 합니다.
+
+## 하위 도메인 및 IP 풀 {#subdomains-and-ip-pools}
+
+에서 **하위 도메인 및 IP 풀 세부 정보** 섹션:
+
+1. 이메일을 보내는 데 사용할 하위 도메인을 선택합니다. [자세히 보기](about-subdomain-delegation.md)
+
+1. 사전 설정과 연결할 IP 풀을 선택합니다. [자세히 보기](ip-pools.md)
+
+![](assets/preset-subdomain-ip-pool.png)
+
+선택한 IP 풀이 아래에 있는 동안에는 사전 설정을 만들 수 없습니다 [에디션](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 상태) 및 을 선택한 하위 도메인과 연결한 적이 없습니다. 그렇지 않으면 가장 오래된 버전의 IP 풀/하위 도메인 연결이 계속 사용됩니다. 이 경우 사전 설정을 초안으로 저장하고 IP 풀에 **[!UICONTROL Success]** 상태.
+
+>[!NOTE]
+>
+>비프로덕션 환경의 경우 Adobe은 기본 테스트 하위 도메인을 만들거나 공유 전송 IP 풀에 대한 액세스 권한을 부여하지 않습니다. 다음을 수행해야 합니다. [고유한 하위 도메인 위임](delegate-subdomain.md) 및 조직에 할당된 풀의 IP를 사용합니다.
+
+## 목록 가입 해지 {#list-unsubscribe}
+
+On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTROL Enable List-Unsubscribe]** 옵션이 표시됩니다.
+
+![](assets/preset-list-unsubscribe.png)
+
+이 옵션은 기본적으로 활성화되어 있습니다.
+
+이 기능을 활성화한 상태로 두면 가입 해지 링크가 다음과 같이 이메일 헤더에 자동으로 포함됩니다.
+
+![](assets/preset-list-unsubscribe-header.png)
+
+이 옵션을 비활성화하면 이메일 헤더에 가입 해지 링크가 표시되지 않습니다.
+
+가입 해지 링크는 다음 두 가지 요소로 구성됩니다.
+
+* An **이메일 주소 가입**: 모든 구독 취소 요청을 전송하는 입니다.
+
+   in [!DNL Journey Optimizer], 가입 해지 이메일 주소가 기본값입니다 **[!UICONTROL Mailto (unsubscribe)]** 메시지 사전 설정에 표시되는 주소 [선택한 하위 도메인](#subdomains-and-ip-pools).
+
+   ![](assets/preset-list-unsubscribe-mailto.png)
+
+* 다음 **구독 취소 URL**: 사용자가 가입 해지되면 리디렉션되는 랜딩 페이지의 URL입니다.
+
+   를 추가할 경우 [옵트아웃 링크 1회 클릭](../messages/consent.md#one-click-opt-out) 이 사전 설정을 사용하여 만든 메시지에 대해 가입 해지 URL은 한 번의 클릭으로 옵트아웃 링크에 대해 정의된 URL입니다.
+
+   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+   >[!NOTE]
+   >
+   >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 사용자에게 표시되지 않습니다.
+
+에서 메시지에 헤더 가입 해지 링크를 추가하는 방법에 대해 자세히 알아보십시오 [이 섹션](../messages/consent.md#unsubscribe-header).
+
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
+
+## 헤더 매개 변수{#email-header}
+
+에서 **[!UICONTROL HEADER PARAMETERS]** 섹션에서 해당 사전 설정을 사용하여 보낸 메시지 유형과 연관된 발신자 이름과 이메일 주소를 입력합니다.
+
+>[!CAUTION]
+>
+>이메일 주소는 현재 선택한 주소를 사용해야 합니다 [위임된 하위 도메인](about-subdomain-delegation.md).
+
+* **[!UICONTROL Sender name]**: 브랜드 이름과 같은 발신자의 이름입니다.
+
+* **[!UICONTROL Sender email]**: 통신에 사용할 이메일 주소입니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*, 다음 사용 가능 *contact@marketing.luma.com*.
+
+* **[!UICONTROL Reply to (name)]**: 수신자가 **회신** 버튼을 클릭합니다.
+
+* **[!UICONTROL Reply to (email)]**: 수신자가 **회신** 버튼을 클릭합니다. 위임된 하위 도메인에 정의된 주소를 사용해야 합니다(예: *reply@marketing.luma.com*). 그렇지 않으면 이메일이 삭제됩니다.
+
+* **[!UICONTROL Error email]**: 이 주소에는 배달되는 며칠 후 ISP에서 생성한 모든 오류(비동기 바운스)가 수신됩니다.
+
+![](assets/preset-header.png)
+
+>[!NOTE]
+>
+>주소는 문자(A-Z)로 시작해야 하며 영숫자만 사용할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
+
+## 전자 메일 다시 시도 매개 변수 {#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="다시 시도 기간 조정"
+>abstract="임시 소프트 바운스 오류로 인해 이메일 메시지가 실패하면 3.5일(84시간) 동안 다시 시도가 수행됩니다. 이 기본 다시 시도 기간을 조정하여 사용자의 요구 사항에 맞게 조정할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="다시 시도 기본 정보"
+
+을 구성할 수 있습니다 **전자 메일 다시 시도 매개 변수**.
+
+![](assets/preset-retry-parameters.png)
+
+기본적으로 [재시도 기간](retries.md#retry-duration) 은 84시간으로 설정되어 있지만 이 설정을 필요에 더 잘 맞게 조정할 수 있습니다.
+
+다음 범위 내에 정수 값(시간 또는 분 단위)을 입력해야 합니다.
+
+* 마케팅 이메일의 경우 최소 재시도 기간은 6시간입니다.
+* 트랜잭션 전자 메일의 경우 최소 재시도 기간은 10분입니다.
+* 두 이메일 유형의 경우 최대 다시 시도 기간은 84시간(또는 5040분)입니다.
+
+에서 다시 시도하는 방법에 대해 자세히 알아보기 [이 섹션](retries.md).
+
+## URL 추적 {#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="URL 추적 매개 변수"
+>abstract="이 섹션을 사용하여 추적 매개 변수를 이메일 콘텐츠에 있는 캠페인 URL에 자동으로 추가합니다."
+
+다음을 사용할 수 있습니다 **[!UICONTROL URL Tracking Parameters]** 를 사용하여 여러 채널에서 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 선택 사항입니다.
+
+이 섹션에 정의된 매개 변수가 이메일 메시지 콘텐츠에 포함된 URL의 끝에 추가됩니다. 그런 다음 Adobe Analytics 또는 Google Analytics과 같은 웹 분석 도구에서 이러한 매개 변수를 캡처하고 다양한 성능 보고서를 만들 수 있습니다.
+
+![](assets/preset-url-tracking.png)
+
+메시지 사전 설정을 만들 때 예로서 세 개의 URL 추적 매개 변수가 자동으로 채워집니다. 이러한 매개 변수를 편집하고 **[!UICONTROL Add new parameter]** 버튼을 클릭합니다.
+
+URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Value]** 필드를 선택하거나 다음 객체로 이동하여 미리 정의된 값 목록에서 선택합니다.
+
+* 여정 속성: **소스 ID**, **소스 이름**, **소스 버전 ID**
+* 메시지 속성: **작업 ID**, **작업 이름**
+* Offer decisioning 속성: **오퍼 ID**, **오퍼 이름**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>폴더를 선택하지 마십시오: 필요한 폴더를 찾아 추적 매개 변수 값으로 사용할 프로필 속성을 선택해야 합니다.
+
+다음은 Adobe Analytics 및 Google Analytics 호환 URL의 예입니다.
+
+* Adobe Analytics 호환 URL: www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_이미지_{{context.system.source.name}}
+
+* Google Analytics 호환 URL: www.YourLandingURL.com?utm_medium=email&amp;utm_source=AJO&amp;utm_campaign={{context.system.source.id}&amp;utm_content=image
+
+>[!NOTE]
+>
+>텍스트 값을 입력하고 사전 정의된 값을 선택할 수 있습니다. 각 **[!UICONTROL Value]** 필드에는 총 255자가 포함될 수 있습니다.

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 97%
 
 ---
 
@@ -346,17 +346,22 @@ ht-degree: 100%
             + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
             + [하위 도메인 위임](using/configuration/delegate-subdomain.md)
             + [위임된 하위 도메인 액세스](using/configuration/access-subdomains.md)
+         + 하위 도메인 관련 작업 관리 {#subdomain-related-actions}
             + [Google TXT 레코드 추가](using/configuration/google-txt.md)
             + [PTR 레코드 액세스 및 편집](using/configuration/ptr-records.md)
-         + [IP 풀 만들기](using/configuration/ip-pools.md)
+            + [IP 풀 만들기](using/configuration/ip-pools.md)
          + 이메일 주소 모니터링 {#monitor-reputation}
             + [제외 목록 관리](using/configuration/manage-suppression-list.md)
             + [다시 시도](using/configuration/retries.md)
-         + [이메일 기본 주소 변경](using/configuration/primary-email-addresses.md)
       + [SMS 채널 구성](using/configuration/sms-configuration.md)
-      + [메시지 사전 설정 만들기](using/configuration/message-presets.md)
+      + 메시지 사전 설정 설정 {#set-up-message-presets}
+         + [메시지 사전 설정 만들기](using/configuration/message-presets.md)
+         + [전자 메일 설정 구성](using/configuration/email-settings.md)
+      + [실행 주소 관리](using/configuration/primary-email-addresses.md)
       + [빈도 규칙 구성](using/configuration/frequency-rules.md)
-   + [랜딩 페이지 구성](using/configuration/lp-configuration.md)
+   + 랜딩 페이지 구성 {#lp-configuration}
+      + [랜딩 페이지 하위 도메인 구성](using/configuration/lp-subdomains.md)
+      + [랜딩 페이지 사전 설정 정의](using/configuration/lp-presets.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
       + [외부 시스템과 통합](using/configuration/external-systems.md)

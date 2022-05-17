@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 95%
+source-wordcount: '1355'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 95%
 * 랜딩 페이지 및 구독 보고에 대한 스크린샷이 업데이트되었습니다. [자세히 보기](../reports/live-report.md)
 * 사용자 지정 작업에서 Delete 메서드가 지원되지 않는다는 내용의 메모가 추가되었습니다. [자세히 보기](../action/about-custom-action-configuration.md)
 * 방법 비디오에 대한 링크가 업데이트되었습니다.
-
+* 다음 [이메일 구성](../configuration/about-subdomain-delegation.md), [메시지 사전 설정](../configuration/message-presets.md) 및 [랜딩 페이지 구성](../configuration/lp-subdomains.md) 가독성을 향상시키기 위해 섹션이 재구성되었습니다.
+* 다음 **URL 추적** 섹션이 업데이트되었으며 예와 함께 개선되었습니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
 
 ## 2022년 4월 {#april-2022}
 
