@@ -4,10 +4,10 @@ description: Journey Optimizer에서 랜딩 페이지를 만들고 사용하도�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 When [랜딩 페이지 만들기](../landing-pages/create-lp.md#create-a-lp)을(를) 통해 랜딩 페이지를 작성하고 활용할 수 있으려면 랜딩 페이지 사전 설정을 선택해야 합니다 **[!DNL Journey Optimizer]**.
 
-## 랜딩 페이지 사전 설정에 액세스 {#lp-presets}
+## 랜딩 페이지 사전 설정에 액세스 {#access-lp-presets}
 
 랜딩 페이지 사전 설정에 액세스하려면 아래 단계를 따르십시오.
 

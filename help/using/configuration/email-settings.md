@@ -5,9 +5,9 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '984'
 ht-degree: 1%
 
 ---
@@ -164,9 +164,9 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONT
 
 다음은 Adobe Analytics 및 Google Analytics 호환 URL의 예입니다.
 
-* Adobe Analytics 호환 URL: www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_이미지_{{context.system.source.name}}
+* Adobe Analytics 호환 URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
-* Google Analytics 호환 URL: www.YourLandingURL.com?utm_medium=email&amp;utm_source=AJO&amp;utm_campaign={{context.system.source.id}&amp;utm_content=image
+* Google Analytics 호환 URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
 >[!NOTE]
 >
