@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
 workflow-type: tm+mt
 source-wordcount: '1409'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 89%
 
 * 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 5월 22일 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 관련 새 쿼리 예 [세그먼트 자격](../reports/query-examples.md#segment-qualification-queries) 및 [events](../reports/query-examples.md#event-based-queries) 이 추가되었습니다.
-* 이제 이메일 디자인 섹션에 컨텐츠를 시작할 수 있는 새로운 기본 제공 템플릿이 설명되어 있습니다. 관련 스크린샷이 업데이트되었습니다. [자세히 보기](../design/design-emails.md)
-* 주요 리소스에 대한 링크가 Journey Optimizer 설명서 홈 페이지에서 업데이트되었습니다.
+* 이제 이메일 디자인 섹션에 콘텐츠를 시작할 수 있는 새로운 기본 제공 템플릿이 설명되어 있습니다. 관련 스크린샷이 업데이트되었습니다. [자세히 보기](../design/design-emails.md)
+* 주요 리소스에 대한 링크가 Journey Optimizer 설명서 홈페이지에 업데이트되었습니다.
 * 랜딩 페이지 및 구독 보고에 대한 스크린샷이 업데이트되었습니다. [자세히 보기](../reports/live-report.md)
 * 사용자 지정 작업에서 Delete 메서드가 지원되지 않는다는 내용의 메모가 추가되었습니다. [자세히 보기](../action/about-custom-action-configuration.md)
 * 방법 비디오에 대한 링크가 업데이트되었습니다.
