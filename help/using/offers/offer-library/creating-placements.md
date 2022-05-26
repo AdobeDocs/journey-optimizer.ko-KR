@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 15%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 15%
 
    * **[!UICONTROL Name]**: 배치 이름입니다. 의미 있는 이름을 정의하여 쉽게 검색할 수 있도록 합니다.
    * **[!UICONTROL Channel type]**: 배치를 사용할 채널입니다.
-   * **[!UICONTROL Content type]**: 배치에서 표시할 컨텐츠 유형: 텍스트, HTML 또는 이미지 링크.
+   * **[!UICONTROL Content type]**: 배치에서 표시할 컨텐츠 유형: 텍스트, HTML, 이미지 링크 또는 JSON입니다.
    * **[!UICONTROL Description]**: 배치에 대한 설명입니다(선택 사항).
 
    ![](../assets/offers_placement_creation_properties.png)

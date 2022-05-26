@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '865'
 ht-degree: 1%
 
 ---
@@ -25,21 +25,25 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->메시지 빈도 규칙은 옵트아웃 관리와는 다릅니다. 옵트아웃 관리에서는 사용자가 브랜드로부터 커뮤니케이션 수신을 취소할 수 있습니다. [자세히 알아보기](../messages/consent.md#opt-out-management)
+>메시지 빈도 규칙은 옵트아웃 관리와는 다릅니다. 옵트아웃 관리에서는 사용자가 브랜드로부터 커뮤니케이션 수신을 취소할 수 있습니다. [자세히 보기](../messages/consent.md#opt-out-management)
 
 ## 액세스 규칙 {#access-rules}
 
 규칙은 **[!UICONTROL Administration]** > **[!UICONTROL Rules]** 메뉴 아래의 제품에서 사용할 수 있습니다. 모든 규칙이 수정 날짜별로 정렬되어 나열됩니다.
 
->[!NOTE]
->
->메시지 빈도 규칙에 액세스, 만들기, 편집 또는 삭제하려면 [빈도 규칙 관리](../administration/high-low-permissions.md#manage-frequency-rules) 권한.
-
-![](assets/message-rules-access.png)
-
 필터 아이콘을 사용하여 카테고리, 상태 및/또는 채널을 필터링합니다. 메시지 레이블에서도 검색할 수 있습니다.
 
 ![](assets/message-rules-filter.png)
+
+### 권한{#permissions-frequency-rules}
+
+메시지 빈도 규칙에 액세스, 만들기, 편집 또는 삭제하려면 **[!UICONTROL Manage frequency rules]** 권한.
+
+을 사용하는 사용자 **[!UICONTROL View frequency rules]** 권한은 규칙을 볼 수 있지만 수정하거나 삭제할 수는 없습니다.
+
+![](assets/message-rules-access.png)
+
+사용 권한에 대해 자세히 알아보기 [이 섹션](../administration/high-low-permissions.md).
 
 ## 규칙 만들기 {#create-new-rule}
 
@@ -93,7 +97,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->규칙을 적용하려면 메시지 또는 여정을 수정하거나 다시 게시할 필요가 없습니다.
+>규칙을 완전히 활성화하는 데 최대 10분이 걸릴 수 있습니다. 규칙을 적용하려면 메시지 또는 여정을 수정하거나 다시 게시할 필요가 없습니다.
 
 메시지 빈도 규칙을 비활성화하려면 규칙 옆에 있는 줄임표를 클릭하고 을 선택합니다 **[!UICONTROL Deactivate]**.
 
@@ -109,7 +113,7 @@ ht-degree: 1%
 
 메시지에 빈도 규칙을 적용하려면 아래 단계를 따르십시오.
 
-1. 메시지 만들기. [자세히 알아보기](../messages/get-started-content.md#create-new-message)
+1. 메시지 만들기. [자세히 보기](../messages/get-started-content.md#create-new-message)
 
 1. 에 대해 정의한 카테고리를 선택합니다 [만든 규칙](#create-new-rule).
 
@@ -132,6 +136,10 @@ ht-degree: 1%
 1. [디자인](../design/design-emails.md) 및 [게시](../messages/publish-manage-message.md) 메시지를 표시합니다.
 
 선택한 카테고리 및 채널과 일치하는 모든 빈도 규칙이 이 메시지에 자동으로 적용됩니다.
+
+>[!NOTE]
+>
+>메시지 <!--that do not have any selected category or messages -->선택한 카테고리가 있는 위치 **[!UICONTROL Transactional]** 은 빈도 규칙에 대해 평가되지 않습니다.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -161,7 +169,7 @@ ht-degree: 1%
 
 1. 저장 및 [활성화](#activate-rule) 규칙.
 
-1. 메시지 만들기. [자세히 알아보기](../messages/get-started-content.md#create-new-message)
+1. 메시지 만들기. [자세히 보기](../messages/get-started-content.md#create-new-message)
 
 1. 을(를) 선택합니다 **[!UICONTROL Marketing]** 카테고리.
 
@@ -178,3 +186,7 @@ ht-degree: 1%
 이 시나리오에서는 개별 프로필이 다음과 같습니다.
 * 은 매월 최대 12개의 마케팅 메시지를 받을 수 있습니다.
 * 그러나 4개의 푸시 알림을 수신하면 마케팅 푸시 알림에서 제외됩니다.
+
+>[!NOTE]
+>
+>빈도 규칙을 테스트할 때 새로 만든 [테스트 프로필](../segment/creating-test-profiles.md)프로필의 빈도 상한에 도달하면 다음 달까지 카운터를 재설정할 수 없기 때문입니다. 규칙을 비활성화하면 캡처한 프로필에서 메시지를 받을 수 있지만 카운터 증분은 제거하거나 삭제하지 않습니다.

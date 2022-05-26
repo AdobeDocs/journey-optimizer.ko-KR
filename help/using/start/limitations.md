@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
+source-git-commit: 4510b3f5992abc17bead7db240279f33efb3febb
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '623'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 3%
 ## 메시지의 제한 사항 {#limitations-messages}
 
 * 전자 메일에 첨부 파일을 추가할 수 없습니다 [!DNL Journey Optimizer].
-* 이메일 BCC는에서 지원되지 않습니다 [!DNL Journey Optimizer].
 * 같은 전송 도메인을 사용하여 메시지를 보낼 수 없습니다 [!DNL Adobe Journey Optimizer] 및 [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage] 예.
 
 ## 랜딩 페이지의 제한 사항 {#limitations-lp}

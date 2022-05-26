@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 18%
+source-wordcount: '131'
+ht-degree: 9%
 
 ---
 
 # sort {#sort}
 
-값 목록을 자연어 순서로 정렬합니다. 첫 번째 인수는 값 목록이고, 두 번째 인수는 정렬이 오름차순(true) 또는 내림차순(false)인지 여부를 나타내는 부울 값입니다.
+값이나 개체 목록을 자연어 순서로 정렬합니다.
 
 ## 카테고리
 
@@ -27,17 +27,11 @@ ht-degree: 18%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
-|-----------|------------------|
-| 목록 | listString |
-| 목록 | listBoolean |
-| 목록 | listInteger |
-| 목록 | listDecimal |
-| 목록 | listDuration |
-| 목록 | listDateTime |
-| 목록 | listDateTimeOnly |
-| 목록 | listDateOnly |
-| 부울 | 부울 |
+| 매개 변수 | 유형 | 설명 |
+|-----------|------------------|------------------|
+| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 정렬할 목록입니다. listObject의 경우 필드 참조여야 합니다. |
+| keyAttributeName | string | 이 매개 변수는 listObject에만 사용됩니다. 지정된 목록의 개체에 있는 속성 이름이 정렬 키로 사용됩니다. |
+| sortingOrder | 부울 | 오름차순(true) 또는 내림차순(false) |
 
 ## 서명 및 반환된 형식
 
@@ -69,6 +63,10 @@ datetime 목록을 반환합니다.
 
 부울 목록을 반환합니다.
 
+`sort(<listObject>,<string>,<boolean>)`
+
+개체 목록을 반환합니다.
+
 ## 예
 
 `sort(["A", "C", "B"], true)`
@@ -78,3 +76,4 @@ datetime 목록을 반환합니다.
 `sort([1, 3, 2], false)`
 
 반환 `[3, 2, 1]`.
+

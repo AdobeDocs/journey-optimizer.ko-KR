@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
-workflow-type: ht
-source-wordcount: '651'
-ht-degree: 100%
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 96%
 
 ---
 
@@ -69,9 +69,15 @@ ht-degree: 100%
 
    * 해당 메시지에 사용할 채널을 선택합니다. 이메일 및/또는 푸시 알림을 선택할 수 있습니다. 메시지를 만들려면 채널을 하나 이상 선택해야 합니다.
 
+   <!--
+   >[!NOTE]
+   >
+   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
+   -->
+
    * 메시지에 사용할 **[!UICONTROL Preset]**&#x200B;을 선택합니다.
 
-      사전 설정에는 브랜드에 따라 이메일 및/또는 푸시 알림을 보내는 데 필요한 모든 매개 변수가 포함되어 있습니다. [사전 설정에 대해 자세히 알아보세요](../configuration/message-presets.md).
+      사전 설정에는 브랜드에 따라 이메일 및/또는 푸시 알림을 보내는 데 필요한 모든 매개 변수가 포함되어 있습니다. 추가 정보 [사전 설정](../configuration/message-presets.md).
    >[!CAUTION]
    >
    >선택한 카테고리 및 채널에 대해 유효한 메시지 사전 설정을 선택해야 합니다.
@@ -83,6 +89,10 @@ ht-degree: 100%
    선택한 각 채널마다 탭을 하나씩 사용할 수 있습니다. 이 탭을 사용하여 각 채널에 대한 콘텐츠를 구성합니다. 탭을 선택하고 오른쪽에 있는 **[!UICONTROL Delete channel]** 버튼을 클릭하면 탭을 제거할 수 있습니다.
 
    ![](assets/create-messages-content.png)
+
+   >[!NOTE]
+   >
+   >를 활성화한 경우 **[!UICONTROL BCC email]** 사전 설정에서 옵션을 선택하면 보낸 사람 이메일 아래에 숨은 참조 이메일 주소가 표시됩니다. [자세히 보기](../configuration/email-settings.md#bcc-email)
 
    이제 메시지 콘텐츠를 만들고 설정을 조정할 수 있습니다. 이메일 및 푸시 알림 구성에 대한 자세한 내용은 다음 섹션에서 확인할 수 있습니다.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## 메시지/작업 오류 {#message-action-errors}
 
-### 여정에서 발생한 각 오류 목록 {#error-list-journey}
+**여정에서 발생한 각 오류 목록**
 
 이 쿼리를 사용하면 메시지/작업을 실행하는 동안 여정에서 발생한 각 오류를 나열할 수 있습니다.
 
@@ -49,7 +49,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 ## 프로필 기반 쿼리 {#profile-based-queries}
 
-### 프로필이 특정 여정을 입력했는지 확인 {#profile-entered-journey}
+**프로필이 특정 여정을 입력했는지 확인**
 
 _Data Lake 쿼리_
 
@@ -71,9 +71,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 결과는 0보다 커야 합니다. 이 쿼리는 프로필이 여정을 입력한 정확한 횟수를 반환합니다.
 
-### 프로필에서 특정 메시지를 보냈는지 확인 {#profile-specific-message}
+**프로필에서 특정 메시지를 보냈는지 확인**
 
-**방법 1:** 메시지 이름이 여정에서 고유하지 않은 경우(여러 위치에서 사용됨).
+방법 1: 메시지 이름이 여정에서 고유하지 않은 경우(여러 위치에서 사용됨).
 
 _Data Lake 쿼리_
 
@@ -97,7 +97,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 결과는 0보다 커야 합니다. 이 쿼리는 메시지 작업이 여정 측에서 성공적으로 실행되었는지 여부만 알려줍니다.
 
-**방법 2:** 메시지 이름이 여정에서 고유한 경우.
+방법 2: 메시지 이름이 여정에서 고유한 경우.
 
 _Data Lake 쿼리_
 
@@ -121,7 +121,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 쿼리는 선택한 프로필에 대해 호출된 수와 함께 모든 메시지 목록을 반환합니다.
 
-## 지난 30일 동안 프로필에서 받은 모든 메시지 찾기 {#message-received-30-days}
+**지난 30일 동안 프로필에서 받은 모든 메시지 찾기**
 
 _Data Lake 쿼리_
 
@@ -147,7 +147,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 쿼리는 선택한 프로필에 대해 호출된 수와 함께 모든 메시지 목록을 반환합니다.
 
-### 지난 30일 동안 프로필이 입력한 모든 여정 찾기 {#profile-entered-30-days}
+**지난 30일 동안 프로필이 입력한 모든 여정 찾기**
 
 _Data Lake 쿼리_
 
@@ -171,7 +171,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 쿼리는 쿼리된 여정이 입력한 횟수와 함께 모든 여정 이름 목록을 반환합니다.
 
-### 매일 여정에 대해 자격이 있는 프로필 수 {#profile-qualified}
+**매일 여정에 대해 자격이 있는 프로필 수**
 
 _Data Lake 쿼리_
 
@@ -197,7 +197,7 @@ ORDER BY DATE(timestamp) desc
 
 ## 세그먼트 읽기와 관련된 쿼리 {#read-segment-queries}
 
-### 세그먼트 내보내기 작업을 완료하는 데 걸린 시간
+**세그먼트 내보내기 작업을 완료하는 데 걸린 시간**
 
 _Data Lake 쿼리_
 
@@ -229,7 +229,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 쿼리는 세그먼트 내보내기 작업이 큐에 있는 시간과 마지막으로 종료한 시간 사이의 시간 차이(분)를 반환합니다.
 
-### 중복되었기 때문에 여정에서 삭제한 프로필 수입니다
+**중복되었기 때문에 여정에서 삭제한 프로필 수입니다**
 
 _Data Lake 쿼리_
 
@@ -251,7 +251,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 쿼리는 중복되었기 때문에 여정이 삭제한 모든 프로필 Id를 반환합니다.
 
-### 네임스페이스가 잘못되어 여정에서 삭제한 프로필 수입니다
+**네임스페이스가 잘못되어 여정에서 삭제한 프로필 수입니다**
 
 _Data Lake 쿼리_
 
@@ -273,7 +273,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 쿼리에 잘못된 네임스페이스가 있거나 해당 네임스페이스에 대한 ID가 없으므로 여정이 삭제한 모든 프로필 ID가 반환됩니다.
 
-### ID 맵이 없어서 여정이 삭제한 프로필 수입니다
+**ID 맵이 없어서 여정이 삭제한 프로필 수입니다**
 
 _Data Lake 쿼리_
 
@@ -295,7 +295,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 ID 맵이 누락되어 여정에서 삭제한 모든 프로필 ID를 쿼리로 반환합니다.
 
-### 여정이 테스트 노드에 있고 프로필이 테스트 프로필이 아니므로 여정이 삭제한 프로필 수입니다
+**여정이 테스트 노드에 있고 프로필이 테스트 프로필이 아니므로 여정이 삭제한 프로필 수입니다**
 
 _Data Lake 쿼리_
 
@@ -317,7 +317,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 내보내기 작업이 테스트 모드에서 실행되었지만 프로필에 testProfile 속성이 true로 설정되지 않았기 때문에 쿼리는 여정에서 삭제한 모든 프로필 Id를 반환합니다.
 
-### 내부 오류로 인해 여정에서 삭제한 프로필 수입니다
+**내부 오류로 인해 여정에서 삭제한 프로필 수입니다**
 
 _Data Lake 쿼리_
 
@@ -339,7 +339,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 쿼리는 일부 내부 오류로 인해 여정이 삭제한 모든 프로필 ID를 반환합니다.
 
-### 주어진 여정 버전에 대한 세그먼트 읽기 개요
+**주어진 여정 버전에 대한 세그먼트 읽기 개요**
 
 _Data Lake 쿼리_
 
@@ -377,7 +377,7 @@ WHERE
 * 여정 버전이 예약에 도달하지 않았습니다.
 * 여정 버전에서 오케스트레이터를 호출하여 내보내기 작업을 트리거해야 하는 경우 업그레이드 플로우에서 문제가 발생했습니다. 여정 배포, 비즈니스 이벤트 또는 스케줄러와의 문제에 대한 문제.
 
-### 주어진 여정 버전에 대한 세그먼트 읽기 오류 가져오기
+**주어진 여정 버전에 대한 세그먼트 읽기 오류 가져오기**
 
 _Data Lake 쿼리_
 
@@ -403,7 +403,7 @@ WHERE
     )
 ```
 
-### 내보내기 작업 처리 상태 가져오기
+**내보내기 작업 처리 상태 가져오기**
 
 _Data Lake 쿼리_
 
@@ -432,7 +432,7 @@ WHERE
 * 주제 또는 내보내기 작업을 만드는 동안 오류가 발생했습니다.
 * 내보내기 작업이 아직 실행 중입니다.
 
-### 각 내보내기 작업에 대한 작업 지표 삭제 및 내보내기를 포함하여 내보낸 프로필에 대한 지표를 가져옵니다
+**각 내보내기 작업에 대한 작업 지표 삭제 및 내보내기를 포함하여 내보낸 프로필에 대한 지표를 가져옵니다**
 
 _Data Lake 쿼리_
 
@@ -492,7 +492,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-### 모든 내보내기 작업에서 집계된 지표(세그먼트 내보내기 작업 및 삭제)를 가져옵니다.
+**모든 내보내기 작업에서 집계된 지표(세그먼트 내보내기 작업 및 삭제)를 가져옵니다.**
 
 _Data Lake 쿼리_
 
@@ -557,31 +557,59 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 ## 세그먼트 자격 관련 쿼리 {#segment-qualification-queries}
 
-### 구성된 세그먼트와 다른 세그먼트 구현으로 인해 삭제된 프로필
+**구성된 세그먼트와 다른 세그먼트 구현으로 인해 삭제된 프로필**
 
 _Data Lake 쿼리_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = '<journey-version id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 _예_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94cdf1c4159d' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 이 쿼리는 잘못된 세그먼트 구현으로 인해 여정 버전에서 삭제된 모든 프로필 Id를 반환합니다.
 
+**특정 프로필에 대한 다른 이유로 삭제된 세그먼트 자격 이벤트**
+
+_Data Lake 쿼리_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = '<profile-id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_예_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+이 쿼리는 프로필에 대한 다른 이유로 인해 삭제된 모든 이벤트(외부 이벤트/세그먼트 자격 이벤트)를 반환합니다.
+
 ## 이벤트 기반 쿼리 {#event-based-queries}
 
-### 여정에 대한 비즈니스 이벤트가 수신되었는지 확인
+**여정에 대한 비즈니스 이벤트가 수신되었는지 확인**
 
 _Data Lake 쿼리_
 
@@ -607,9 +635,101 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
+**관련 여정이 없으므로 프로필의 외부 이벤트가 삭제되었는지 확인**
+
+_Data Lake 쿼리_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+_예_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+**다른 이유로 프로필의 외부 이벤트가 삭제되었는지 확인**
+
+_Data Lake 쿼리_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='<profileID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_예_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+**stateMachine에서 errorCode로 삭제한 모든 이벤트의 수를 확인합니다.**
+
+_Data Lake 쿼리_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+_예_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+**다시 입력이 허용되지 않았으므로 모든 무시된 이벤트를 확인하십시오**
+
+_Data Lake 쿼리_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
+_예_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
 ## 일반적인 여정 기반 쿼리 {#journey-based-queries}
 
-### 일별 활성 여정 수 {#daily-active-journeys}
+**일별 활성 여정 수**
 
 _Data Lake 쿼리_
 
@@ -633,7 +753,7 @@ ORDER BY DATE(timestamp) desc
 
 ## 여정 인스턴스에 대한 쿼리 {#journey-instances-queries}
 
-### 특정 시간에 특정 상태의 프로필 수
+**특정 시간에 특정 상태의 프로필 수**
 
 _Data Lake 쿼리_
 
@@ -781,7 +901,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### 특정 기간 동안 여정을 종료한 프로필 수
+**특정 기간 동안 여정을 종료한 프로필 수**
 
 _Data Lake 쿼리_
 
@@ -819,7 +939,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### 노드/상태로 특정 기간 동안 여정을 종료한 프로필 수
+**노드/상태로 특정 기간 동안 여정을 종료한 프로필 수**
 
 _Data Lake 쿼리_
 

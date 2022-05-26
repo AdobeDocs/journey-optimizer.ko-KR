@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1237'
 ht-degree: 7%
 
 ---
@@ -360,6 +360,26 @@ doesNotEndWith(person.emailAddress,".com")
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
+## 마스크(#mask)
+
+다음 `Mask` 함수는 문자열의 일부를 &quot;X&quot; 문자로 바꾸는 데 사용됩니다.
+
+**형식**
+
+```sql
+{%= mask(string,integer,integer) %}
+```
+
+**예**
+
+다음 쿼리는 첫 번째 및 마지막 2자를 제외하고 &quot;123456789&quot; 문자열을 &quot;X&quot; 문자로 바꿉니다.
+
+```sql
+{%= mask("123456789",1,2) %}
+```
+
+쿼리가 반환됩니다 `1XXXXXX89`.
+
 ## 같지 않음{#notEqualTo}
 
 다음 `notEqualTo` 함수는 문자열이 지정된 문자열과 같지 않은지 확인하는 데 사용됩니다.
@@ -511,7 +531,7 @@ The following function .
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## Trim{#trim}
+## 트리밍{#trim}
 
 다음 **trim** 함수는 문자열 시작 및 끝에서 모든 공백을 제거합니다.
 

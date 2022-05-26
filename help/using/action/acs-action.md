@@ -1,18 +1,19 @@
 ---
-title: Adobe Campaign Standard과 통합
+title: Adobe Campaign Standard 통합
 description: Adobe Campaign Standard과 통합하는 방법을 알아봅니다
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
+source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Adobe Campaign Standard과 통합 {#using_adobe_campaign_standard}
+# Adobe Campaign Standard 통합 {#using_adobe_campaign_standard}
 
 Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다.
 

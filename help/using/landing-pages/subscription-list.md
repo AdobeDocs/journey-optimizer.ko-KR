@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '371'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,13 @@ ht-degree: 3%
 
    ![](assets/lp_create-subscription-list.png)
 
-1. 이름과 설명을 추가합니다. 이러한 필드는 필수입니다.
+1. 제목과 설명을 추가합니다. 이러한 필드는 필수입니다.
+
+   ![](assets/lp_subscription-list-name.png)
+
+   >[!CAUTION]
+   >
+   >현재 간격을 사용하거나, **[!UICONTROL Title]** 필드.
 
 1. 시작 날짜 및 종료 날짜를 정의할 수 있습니다.
 
@@ -59,10 +65,10 @@ ht-degree: 3%
 * **[!UICONTROL Live]**: 오늘이 구독 목록 시작 날짜와 종료 날짜 사이에 포함되거나, 종료/시작 날짜를 정의하지 않은 경우, 구독 목록이 항상 라이브됩니다.
 * **[!UICONTROL Expired]**: 종료 날짜가 전달되어 구독 목록이 더 이상 유효하지 않습니다. 구독한 프로필은 이 구독 목록과 관련된 더 이상 통신을 받지 않습니다.
 
-구독 목록이 만들어지면 랜딩 페이지에서 사용할 수 있습니다. 랜딩 페이지 양식을 통해 옵트인하는 프로필이 목록에 추가됩니다. [자세히 알아보기](design-lp.md)
+구독 목록이 만들어지면 랜딩 페이지에서 사용할 수 있습니다. 랜딩 페이지 양식을 통해 옵트인하는 프로필이 목록에 추가됩니다. [자세히 보기](design-lp.md)
 
 또한 다음과 같은 경우 구독 목록을 세그먼트로 사용할 수도 있습니다 [빌드 여정](../building-journeys/journey-gs.md#jo-build) 개인화 추가
 
 >[!NOTE]
 >
->특정 보고서를 통해 구독 목록이 미치는 영향을 모니터링할 수 있습니다. [자세히 알아보기](../reports/subscription-report-live.md)
+>특정 보고서를 통해 구독 목록이 미치는 영향을 모니터링할 수 있습니다. [자세히 보기](../reports/subscription-report-live.md)

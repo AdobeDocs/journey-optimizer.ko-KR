@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 97%
+source-wordcount: '1040'
+ht-degree: 92%
 
 ---
 
@@ -16,16 +16,19 @@ ht-degree: 97%
 
 + [Journey Optimizer 설명서](ajo-home.md)
 + 새로운 기능 {#whats-new}
-   + [릴리스 정보](using/rn/release-notes.md)
-   + [최신 업데이트](using/rn/documentation-updates.md)
+   + [최신 릴리스 노트](using/rn/release-notes.md)
+   + 이전 릴리스 정보 {#previous-rn-new}
+      + [2022 릴리스 노트](using/rn/release-notes-2022.md)
+      + [2021 릴리스 노트](using/rn/release-notes-2021.md)
+   + [설명서 업데이트](using/rn/documentation-updates.md)
 + 시작{#get-started}
    + [Journey Optimizer 소개](using/start/get-started.md)
    + 빠른 시작{#quick-start}
       + [개요](using/start/quick-start.md)
-      + [마케터로 시작하기](using/start/path/marketer.md)
-      + [데이터 엔지니어로 시작하기](using/start/path/data-engineer.md)
-      + [관리자로 시작하기](using/start/path/administrator.md)
-      + [개발자로 시작하기](using/start/path/developer.md)
+      + [마케터로 시작](using/start/path/marketer.md)
+      + [데이터 엔지니어 시작](using/start/path/data-engineer.md)
+      + [관리자로 시작](using/start/path/administrator.md)
+      + [개발자로 시작](using/start/path/developer.md)
    + [사용자 인터페이스](using/start/user-interface.md)
    + [제한 사항](using/start/limitations.md)
 + 메시지 {#messages}
@@ -60,7 +63,11 @@ ht-degree: 97%
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
-   + [랜딩 페이지 디자인](using/landing-pages/design-lp.md)
+   + 콘텐츠 디자인 {#landing-pages-design}
+      + [랜딩 페이지 디자인 기본 정보](using/landing-pages/design-lp.md)
+      + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
+      + [템플릿 만들기](using/landing-pages/lp-templates.md)
+      + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
    + [구독 목록 만들기](using/landing-pages/subscription-list.md)
    + [사용 사례](using/landing-pages/lp-use-cases.md)
 + 개인화{#personalization}
@@ -179,6 +186,7 @@ ht-degree: 97%
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
+            + [제한](using/building-journeys/functions/functionlimit.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + 수학 {#math}
@@ -245,6 +253,7 @@ ht-degree: 97%
       + [전달성 시작](using/reports/deliverability.md)
       + [제외 목록](using/reports/suppression-list.md)
       + [허용 목록](using/reports/allow-list.md)
+   + [Journey Optimizer 리소스에 대한 작업 감사](using/reports/audit-logs.md)
 + 의사 결정 관리 {#offer-decisioniong}
    + 의사 결정 관리 시작 {#get-started-decision}
       + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
@@ -391,3 +400,5 @@ ht-degree: 97%
    + [사용자 및 제품 프로필 관리](using/administration/permissions.md)
    + [권한 수준](using/administration/high-low-permissions.md)
    + [샌드박스 관리](using/administration/sandboxes.md)
+   + [속성 기반 액세스 제어](using/administration/attribute-based-access.md)
+

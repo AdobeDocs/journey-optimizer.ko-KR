@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
 >title="하위 도메인의 PTR 레코드"
->abstract="PTR(포인터 레코드)는 수신 메일 서버가 보낸 사람의 IP 주소를 확인하는 데 도움이 되는 IP 주소에 연결된 도메인 이름을 제공하는 DNS 레코드의 유형입니다."
+>abstract="PTR(포인터 레코드)는 수신 메일 서버가 보낸 사람의 IP 주소를 확인하는 데 도움이 되는 IP 주소에 연결된 도메인 이름을 제공하는 DNS 레코드의 유형입니다. 게재 기능 전문가와 적절한 고려 사항 및 토론 후에 PTR 레코드만 편집합니다."
 
 ## PTR 레코드 정보 {#about-ptr-records}
 
