@@ -2,9 +2,9 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1409'
 ht-degree: 89%
 
 ---
@@ -13,13 +13,10 @@ ht-degree: 89%
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 
-## 2022년 6월 {#june-2022}
-
-* 관련 새 쿼리 예 [세그먼트 자격](../reports/query-examples.md#segment-qualification-queries) 및 [events](../reports/query-examples.md#event-based-queries) 이(가) 추가됨
-
 ## 2022년 5월 {#may-2022}
 
 * 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 5월 22일 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 관련 새 쿼리 예 [세그먼트 자격](../reports/query-examples.md#segment-qualification-queries) 및 [events](../reports/query-examples.md#event-based-queries) 이 추가되었습니다.
 * 이제 이메일 디자인 섹션에 컨텐츠를 시작할 수 있는 새로운 기본 제공 템플릿이 설명되어 있습니다. 관련 스크린샷이 업데이트되었습니다. [자세히 보기](../design/design-emails.md)
 * 주요 리소스에 대한 링크가 Journey Optimizer 설명서 홈 페이지에서 업데이트되었습니다.
 * 랜딩 페이지 및 구독 보고에 대한 스크린샷이 업데이트되었습니다. [자세히 보기](../reports/live-report.md)
