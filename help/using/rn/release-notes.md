@@ -2,9 +2,9 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 34%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 34%
 <tbody>
 <tr>
 <td>
+<p>가용 날짜: <strong>5월 31일</strong></p>
 <p>이제 이메일 BCC(숨은 참조) 기능을 사용하여 Adobe Journey Optimizer에서 보낸 이메일을 저장할 수 있습니다. 전자 메일 사전 설정에서 이 옵션을 활성화하여 전송된 모든 전자 메일이 BCC 주소로 블라인드(bcc)로 복사됩니다.</p>
 <img src="assets/bcc-rn.gif"/>
 <p>자세한 내용은 <a href="../configuration/email-settings.md#bcc-email">세부 설명서</a>를 참조하세요.</p>

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
+source-git-commit: c48d083445d4e4c7cdbed1a61cee13ed3fcfcc8b
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2166'
 ht-degree: 2%
 
 ---
@@ -138,6 +138,10 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 에서 보낸 이메일의 동일한 복사본(또는 블라인드 탄소 사본)을 보낼 수 있습니다 [!DNL Journey Optimizer] BCC 받은 편지함으로 이동합니다. 이 선택적 기능을 사용하면 규정 준수 및/또는 아카이브를 위해 사용자에게 보내는 이메일 통신 사본을 유지할 수 있습니다. 게재 수신자에게는 보이지 않습니다.
 
+>[!CAUTION]
+>
+>이 기능은 시작할 때 사용할 수 있습니다 **5월 31일**.
+
 ### 숨은 참조 이메일 활성화 {#enable-bcc}
 
 를 사용하려면 **[!UICONTROL BCC email]** 옵션을 선택한 경우 전용 필드에 원하는 이메일 주소를 입력합니다. 위임된 하위 도메인에 정의된 이메일 주소를 제외하고 올바른 형식으로 외부 주소를 지정할 수 있습니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*&#x200B;과 같은 모든 주소 *abc@marketing.luma.com* 는 금지됩니다.
@@ -145,6 +149,8 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 >[!NOTE]
 >
 >숨은 참조 이메일 주소는 하나만 정의할 수 있습니다. 숨은 참조 주소에 현재 사전 설정을 사용하여 전송되는 모든 이메일을 저장할 수신 용량이 충분한지 확인합니다.
+>
+>추가 권장 사항은 [이 섹션](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
@@ -168,19 +174,22 @@ BCC 이메일 주소 설정이 즉시 저장되고 사전 설정된 수준에서
 >
 >선택할 BCC 설정에 대한 메시지나 여정을 다시 게시할 필요가 없습니다.
 
-### Recommendations 및 제한 사항 {#recommendations-limitations}
+### Recommendations 및 제한 사항 {#bcc-recommendations-limitations}
 
-* BCC 이메일 주소가 올바르게 설정되었는지 확인합니다. 이 경우 클라이언트의 개인 식별 정보(PII)가 원치 않는 주소로 전송될 수 있습니다.
+* 개인 정보 보호 규정을 준수하려면 PII(보안 개인 식별 정보)를 저장할 수 있는 보관 시스템에서 BCC 이메일을 처리해야 합니다.
 
-* 개인 정보 보호를 위해 BCC 이메일은 PII(보안 개인 식별 정보)를 저장할 수 있는 보관 시스템에 의해 처리되어야 합니다.
+* 메시지에는 PII(개인 식별 정보)와 같은 중요 또는 개인 데이터가 포함될 수 있으므로 BCC 주소가 올바른지 확인하고 메시지에 대한 액세스를 보호합니다.
 
-* 이 기능은 수신자에게 배달하기 전에 BCC 이메일 주소로 게재될 수 있으므로 원래 게재에는 BCC 메시지가 전송될 수 있지만 BCC 메시지는 전송될 수 있습니다 [바운스](../reports/suppression-list.md#delivery-failures).
+* 숨은 참조를 위해 사용되는 받은 편지함은 공간 및 게재에 대해 제대로 관리되어야 합니다. 받은 편지함이 바운스를 반환하는 경우 일부 이메일이 수신되지 않을 수 있으므로 보관되지 않습니다.
+
+* 메시지는 대상 수신자가 되기 전에 BCC 전자 메일 주소로 배달될 수 있습니다. 원본 메시지가 전송되었을 수도 있지만 숨은 참조 메시지도 보낼 수 있습니다 [바운스](../reports/suppression-list.md#delivery-failures).
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* BCC 주소로 전송된 이메일을 열고 클릭스루하는 경우 전송 분석에서 총 열기 및 클릭 수를 고려하여 계산되지 않을 수 있습니다 [보고서](../reports/message-monitoring.md). 마찬가지로 받은 편지함에 BCC 전자 메일 랜딩을 스팸으로 표시하면 이메일이 받은 편지함의 스팸 폴더에 랜딩될 수 있습니다.
+* BCC 주소로 전송된 이메일은 전송 분석에서 총 열기 및 클릭 수를 고려하여 열지 않거나 클릭스루하지 마십시오. 이로 인해 일부 계산 오류가 발생할 수 있습니다. [보고서](../reports/message-monitoring.md).
 
-* 숨은 참조를 위해 사용되는 받은 편지함은 공간 및 게재에 대해 제대로 관리되어야 합니다. 받은 편지함이 바운스를 반환하는 경우 일부 이메일이 수신되지 않을 수 있으므로 보관되지 않습니다.
+* 이 주소로 전송된 다른 모든 이메일에 영향을 주므로 BCC 받은 편지함에서 메시지를 스팸으로 표시하지 마십시오.
+
 
 >[!CAUTION]
 >
