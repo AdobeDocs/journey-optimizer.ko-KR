@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 90%
 
 ---
 
@@ -264,10 +264,16 @@ ht-degree: 92%
       + [배치 만들기](using/offers/offer-library/creating-placements.md)
       + [의사 결정 규칙 만들기](using/offers/offer-library/creating-decision-rules.md)
       + [태그 만들기](using/offers/offer-library/creating-tags.md)
-      + [등급 수식 만들기](using/offers/offer-library/create-ranking-formulas.md)
-      + AI 등급 모델 만들기 {#create-ai-ranking-models}
-         + [AI 모델 정보](using/offers/offer-library/ai-ranking.md)
-         + [AI 모델 만들기](using/offers/offer-library/create-ranking-strategies.md)
+   + 등급 만들기 {#rankings}
+      + [등급 시작](using/offers/ranking/get-started-rankings.md)
+      + [등급 공식](using/offers/ranking/create-ranking-formulas.md)
+      + AI 모델 {#ai-models}
+         + [AI 모델 정보](using/offers/ranking/ai-models.md)
+         + [자동 최적화 모델](using/offers/ranking/auto-optimization-model.md)
+         + AI 모델 만들기 {#configure-ai-model}
+            + [이벤트를 수집할 데이터 세트 만들기](using/offers/ranking/create-dataset.md)
+            + [AI 모델 만들기](using/offers/ranking/create-ranking-strategies.md)
+            + [이벤트 캡처 구성](using/offers/ranking/schema-requirement.md)
    + 오퍼 만들기 및 관리 {#managing-offers-in-the-offer-library}
       + 오퍼 구성 {#configure-offers}
          + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)

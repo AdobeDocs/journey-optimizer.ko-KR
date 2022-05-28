@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 68%
@@ -41,7 +41,7 @@ ht-degree: 68%
 
 * **[!UICONTROL Rules]**: 오퍼가 표시되는 조건을 관리합니다. [의사 결정 규칙 만들기](../offer-library/creating-decision-rules.md)를 참조하십시오.
 
-* **[!UICONTROL Rankings]**: 등급 공식을 만들고 관리하여 지정된 배치에 대해 먼저 제시해야 하는 오퍼를 결정합니다. [등급 수식 만들기](../offer-library/create-ranking-formulas.md)를 참조하십시오.
+* **[!UICONTROL Rankings]**: 등급 공식을 만들고 관리하여 지정된 배치에 대해 먼저 제시해야 하는 오퍼를 결정합니다. [등급 수식 만들기](../ranking/create-ranking-formulas.md)를 참조하십시오.
 
 ![](../assets/offer_activities.png)
 

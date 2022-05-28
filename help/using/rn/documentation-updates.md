@@ -2,7 +2,7 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 94%
@@ -39,7 +39,7 @@ ht-degree: 94%
 ## 2022년 3월 {#march-2022}
 
 * [!DNL Journey Optimizer] 2022년 3월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
-* AI 모델을 시작하는 방법에 대한 새 페이지를 **Offer Decisioning** 섹션에 추가했습니다. AI 모델이 사용하는 알고리즘인 [자동 최적화 모델](../offers/offer-library/ai-ranking.md#auto-optimization)에 대한 자세한 설명과 보다 기술적인 세부 정보도 제공합니다. [자세히 보기](../offers/offer-library/ai-ranking.md)
+* AI 모델을 시작하는 방법에 대한 새 페이지를 **Offer Decisioning** 섹션에 추가했습니다. AI 모델이 사용하는 알고리즘인 [자동 최적화 모델](../offers/ranking/auto-optimization-model.md)에 대한 자세한 설명과 보다 기술적인 세부 정보도 제공합니다. [자세히 보기](../offers/ranking/ai-models.md)
 * 테스트 프로필 만들기 페이지를 **세그먼트, 프로필, 신원** 섹션으로 옮겼습니다. [자세히 보기](../segment/creating-test-profiles.md)
 * 표현식 편집기에서 표현식을 기본값으로 추가하는 방법에 대한 예를 추가했습니다. [자세히 보기](../building-journeys/expression/field-references.md#default-value)
 * 읽기 쉽도록 **개인화된 오퍼 만들기** 섹션을 재구성했습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md)
@@ -55,8 +55,8 @@ ht-degree: 94%
 ## 2022년 1월 {#january-2022}
 
 * 2022년 1월 릴리스의 [!DNL Journey Optimizer]모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* **Offer Decisioning AI 등급** 섹션이 자동 최적화 모델에 대한 보다 자세한 설명과 함께 업데이트되었습니다. [자세히 보기](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
-* 등급 전략을 사용할 때 이벤트 유형을 보낼 수 있어야 하는 스키마 요구 사항에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+* **Offer Decisioning AI 등급** 섹션이 자동 최적화 모델에 대한 보다 자세한 설명과 함께 업데이트되었습니다. [자세히 보기](../offers/ranking/auto-optimization-model.md)
+* 등급 전략을 사용할 때 이벤트 유형을 보낼 수 있어야 하는 스키마 요구 사항에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../offers/ranking/schema-requirement.md)
 * 가독성 개선을 위해 [!DNL Journey Optimizer] 개인화 기능 관련 섹션을 재구성했습니다. [자세히 보기](../personalization/personalize.md)
 * 다음 **메시지 사전 설정 만들기** 섹션을 몇 개의 섹션으로 나누어서 명확성을 개선했습니다. [자세히 보기](../configuration/message-presets.md#create-message-preset)
 * 다음 **옵트아웃 관리** 섹션이 명확해지고 약간 재구성되었습니다. [자세히 보기](../messages/consent.md#opt-out-management)
@@ -106,7 +106,7 @@ ht-degree: 94%
 
 * 지정된 배치에 대한 오퍼 선택을 통제하는 제한을 적용할 때 세그먼트 사용과 결정 규칙 간의 차이점을 명확하게 하기 위한 하위 섹션을 추가했습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
-* 일부 실제 사용 사례를 보여주는 특정 등급 공식의 예를 추가했습니다. [자세히 보기](../offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+* 일부 실제 사용 사례를 보여주는 특정 등급 공식의 예를 추가했습니다. [자세히 보기](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 * IP 풀을 편집하는 방법에 대한 하위 섹션을 추가했습니다. [자세히 보기](../configuration/ip-pools.md#edit-ip-pool)
 

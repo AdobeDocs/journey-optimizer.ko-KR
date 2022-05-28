@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 5%
+source-wordcount: '441'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 5%
 지정된 배치에 여러 오퍼가 적합한 경우 결정을 구성할 때 각 프로필에 대해 가장 적합한 오퍼를 선택하는 방법을 선택할 수 있습니다. 오퍼의 등급을 다음과 같이 지정할 수 있습니다.
 * 오퍼 우선 순위
 * 등급 공식
-* [AI 순위](#use-ranking-strategy) (일부 사용자에게만 얼리 액세스 시)
+* [AI 등급](#use-ranking-strategy)
 
 ![](../assets/offer-rank-by.png)
 
@@ -36,7 +36,7 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 공식**. 오
 
 예를 들어, 종료 날짜가 지금부터 24시간 미만인 모든 오퍼의 우선순위를 늘리거나, 프로필의 관심 영역이 &quot;실행 중&quot;인 경우 &quot;실행 중&quot; 카테고리의 오퍼를 늘릴 수 있습니다.
 
-에서 등급 공식을 만드는 방법을 알아봅니다 [이 섹션](../offer-library/create-ranking-formulas.md).
+에서 등급 공식을 만드는 방법을 알아봅니다 [이 섹션](../ranking/create-ranking-formulas.md).
 
 등급 공식이 만들어지면 결정에서 배치에 할당할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
 
@@ -62,11 +62,7 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 공식**. 오
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-등급 전략을 선택하여 주어진 프로필에 대해 표시할 오퍼의 등급을 자동으로 지정하는 숙련된 모델 시스템을 사용할 수도 있습니다. 에서 등급 전략을 만드는 방법을 알아봅니다. [이 섹션](../offer-library/create-ranking-strategies.md).
-
->[!CAUTION]
->
->현재 AI 등급을 사용하여 사용자를 선택하기만 하면 조기 액세스에서 사용할 수 있습니다.
+등급 전략을 선택하여 주어진 프로필에 대해 표시할 오퍼의 등급을 자동으로 지정하는 숙련된 모델 시스템을 사용할 수도 있습니다. 에서 등급 전략을 만드는 방법을 알아봅니다. [이 섹션](../ranking/create-ranking-strategies.md).
 
 등급 전략이 만들어지면 결정에서 배치에 할당할 수 있습니다. 이렇게 하려면 아래 단계를 수행하십시오.
 

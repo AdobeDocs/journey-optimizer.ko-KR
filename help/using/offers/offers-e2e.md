@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 6%
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 1. 주어진 배치에 대해 먼저 제공해야 하는 오퍼를 결정하는 규칙을 정의하려는 경우(오퍼의 우선순위 점수를 고려하지 않고) 오퍼를 생성할 수 있습니다 **등급 공식**.
 
-   등급 공식을 만드는 자세한 단계는 [이 섹션](../../using/offers/offer-library/create-ranking-formulas.md#create-ranking-formula).
+   등급 공식을 만드는 자세한 단계는 [이 섹션](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
 
    >[!NOTE]
    >
