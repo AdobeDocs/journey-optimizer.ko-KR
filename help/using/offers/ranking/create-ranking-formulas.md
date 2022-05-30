@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -139,21 +139,9 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 
 ### 제공되는 제품을 구매하려는 고객을 기반으로 오퍼를 늘립니다
 
-의 인스턴스가 두 개 있는 경우 *CustomerAI* 구매 성향 계산 *travelInsurance* 및 *extra수하물* 항공사의 경우, 다음 등급 공식은 해당 제품을 구매하는 고객 성향 점수가 90보다 높은 경우 보험 또는 수하물 관련 오퍼의 우선순위(50포인트)를 높입니다.
+고객 성향 점수를 기반으로 오퍼에 대한 점수를 높일 수 있습니다.
 
-하지만, *CustomerAI* 인스턴스는 통합 프로필 스키마 내에 자체 개체를 만들며, 오퍼 성향 유형에 따라 점수를 동적으로 선택할 수 없습니다. 따라서, `if` 먼저 오퍼 성향 유형을 확인한 다음, 적절한 프로필 필드에서 점수를 추출하는 구문입니다.
-
-**등급 공식:**
-
-```
-if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
-    (
-        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
-    )
-)
-```
-
-더 좋은 방법은 점수를 프로필의 배열에 저장하는 것입니다. 다음 예는 간단한 순위 공식만 사용하여 다양한 성향 점수에서 작동합니다. 예상은 일련의 점수가 있는 프로필 스키마가 있다는 것입니다. 이 예에서 인스턴스 테넌트는 *_salesvelocity* 및 프로필 스키마에는 다음이 포함되어 있습니다.
+이 예에서 인스턴스 테넌트는 *_salesvelocity* 그리고 프로필 스키마에는 배열에 저장된 점수 범위가 포함됩니다.
 
 ![](../assets/ranking-example-schema.png)
 
