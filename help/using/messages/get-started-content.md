@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 96%
+source-wordcount: '651'
+ht-degree: 99%
 
 ---
 
@@ -90,9 +90,11 @@ ht-degree: 96%
 
    ![](assets/create-messages-content.png)
 
+   <!--
    >[!NOTE]
    >
-   >를 활성화한 경우 **[!UICONTROL BCC email]** 사전 설정에서 옵션을 선택하면 보낸 사람 이메일 아래에 숨은 참조 이메일 주소가 표시됩니다. [자세히 보기](../configuration/email-settings.md#bcc-email)
+   >If you enabled the **[!UICONTROL BCC email]** option in the preset, the BCC email address will display under the sender email. [Learn more](../configuration/email-settings.md#bcc-email)
+   -->
 
    이제 메시지 콘텐츠를 만들고 설정을 조정할 수 있습니다. 이메일 및 푸시 알림 구성에 대한 자세한 내용은 다음 섹션에서 확인할 수 있습니다.
 

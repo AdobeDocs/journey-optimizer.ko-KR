@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
+source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 33%
+source-wordcount: '372'
+ht-degree: 36%
 
 ---
 
@@ -39,23 +39,23 @@ ht-degree: 33%
 </table-->
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>이메일 BCC</strong><br/></th>
+<th><strong>Email BCC</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>가용 날짜: <strong>5월 31일</strong></p>
-<p>이제 이메일 BCC(숨은 참조) 기능을 사용하여 Adobe Journey Optimizer에서 보낸 이메일을 저장할 수 있습니다. 전자 메일 사전 설정에서 이 옵션을 활성화하여 전송된 모든 전자 메일이 BCC 주소로 블라인드(bcc)로 복사됩니다.</p>
+<p>Availability date: <strong>May, 31</strong></p>
+<p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
 <img src="assets/bcc-rn.gif"/>
-<p>자세한 내용은 <a href="../configuration/email-settings.md#bcc-email">세부 설명서</a>를 참조하세요.</p>
+<p>For more information, refer to the <a href="../configuration/email-settings.md#bcc-email">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
