@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
+source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 36%
+source-wordcount: '400'
+ht-degree: 35%
 
 ---
 
@@ -21,22 +21,22 @@ ht-degree: 36%
 
 ### 새로운 기능
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Message Frequency Rules</strong><br/></th>
+<th><strong>메시지 빈도 규칙</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now set cross-channel business rules that will automatically exclude over-solicited profiles from messages and actions.</p>
+<p>이제 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 크로스 채널 비즈니스 규칙을 설정할 수 있습니다.</p>
 <img src="assets/frequency-rn.gif"/>
-<p>For more information, refer to the <a href="../configuration/frequency-rules.md">detailed documentation</a>.</p>
+<p>자세한 내용은 <a href="../configuration/frequency-rules.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <!--table>

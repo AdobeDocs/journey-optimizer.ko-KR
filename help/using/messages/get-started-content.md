@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
+source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 99%
+source-wordcount: '676'
+ht-degree: 95%
 
 ---
 
@@ -68,12 +68,9 @@ ht-degree: 99%
    * **[!UICONTROL Message category]**&#x200B;를 마케팅 또는 트랜잭션 중에서 선택합니다.
 
    * 해당 메시지에 사용할 채널을 선택합니다. 이메일 및/또는 푸시 알림을 선택할 수 있습니다. 메시지를 만들려면 채널을 하나 이상 선택해야 합니다.
-
-   <!--
    >[!NOTE]
    >
-   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
-   -->
+   >을(를) 클릭합니다. **[!UICONTROL Frequency rule]** 링크를 클릭하여 선택한 카테고리 및 채널에 적용할 빈도 규칙을 봅니다. 추가 정보 [빈도 규칙](../configuration/frequency-rules.md).
 
    * 메시지에 사용할 **[!UICONTROL Preset]**&#x200B;을 선택합니다.
 
