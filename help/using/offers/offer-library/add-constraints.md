@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1575'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
+>title="오퍼 제한 기본 정보"
+>abstract="제한 조건을 사용하여 오퍼의 우선 순위가 지정되고 다른 오퍼와 비교하여 사용자에게 표시되는 방법을 지정할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_constraints"
 >title="오퍼 제한 기본 정보"
 >abstract="제한 조건을 사용하여 오퍼의 우선 순위가 지정되고 다른 오퍼와 비교하여 사용자에게 표시되는 방법을 지정할 수 있습니다."
 
@@ -32,7 +37,7 @@ ht-degree: 3%
 
 제한 조건을 사용하면 오퍼가 표시될 조건을 정의할 수 있습니다.
 
-1. 구성 **[!UICONTROL Offer eligibility]**. [자세히 알아보기](#eligibility)
+1. 구성 **[!UICONTROL Offer eligibility]**. [자세히 보기](#eligibility)
 
    ![](../assets/offer-eligibility.png)
 
@@ -40,7 +45,7 @@ ht-degree: 3%
 
    ![](../assets/offer-priority.png)
 
-1. 오퍼를 지정합니다 **[!UICONTROL Capping]**: 오퍼가 표시되는 횟수를 의미합니다. [자세히 알아보기](#capping)
+1. 오퍼를 지정합니다 **[!UICONTROL Capping]**: 오퍼가 표시되는 횟수를 의미합니다. [자세히 보기](#capping)
 
    ![](../assets/offer-capping.png)
 
