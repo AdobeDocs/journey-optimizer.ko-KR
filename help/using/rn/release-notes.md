@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 35%
+source-wordcount: '465'
+ht-degree: 31%
 
 ---
 
@@ -122,11 +122,11 @@ ht-degree: 35%
 * **기본 페이지로 돌아갑니다** - 이제 동일한 랜딩 페이지 내의 하위 페이지에서 기본 페이지에 링크를 추가할 수 있습니다.
 * **사용자 지정 JavaScript 지원** - 이제 사용자 지정 JavaScript를 랜딩 페이지 콘텐츠에 추가하여 고급 스타일을 수행하거나 사용자 지정 동작을 랜딩 페이지에 추가할 수 있습니다.	[자세히 보기](../landing-pages/lp-custom-js.md)
 
-<!--**Decision management**
-
-* **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the AEM repository into the offer representation content.-->
-
 **여정**
 
 * **세그먼트 읽기** - 이제 일회성 읽기 세그먼트 여정이 여정 실행 후 30일 후에 완료됨 상태로 이동합니다. 예약된 읽기 세그먼트의 경우 마지막 항목이 실행된 후 30일이 경과합니다. [자세히 보기](../building-journeys/read-segment.md)
 * **표현식 편집기** - [제한](../building-journeys/functions/functionlimit.md) 목록 항목 수를 제한할 수 있도록 함수가 추가되었습니다. 다음 [sort](../building-journeys/functions/functionsort.md) 이제 함수 를 사용하여 목록 개체를 정렬할 수 있습니다. listObject에 대한 지원도 추가되었습니다 [불변](../building-journeys/functions/functiondistinct.md) 및 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 함수 위에 있어야 합니다.
+
+**관리**
+
+**라이선스 사용 대시보드 업데이트** - 이제 Adobe Experience Platform UI에서 사용할 수 있는 라이선스 사용 대시보드는 **라이센스** 평균 프로필 품질. Journey Optimizer 고객의 경우 이 지표 표시에 감소가 표시되는데, 이것은 귀하의 라이센스를 받은 사용이 이제 올바로 보고됨을 의미합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}

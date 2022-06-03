@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1361'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 4%
 
 하위 카테고리에 액세스하려면 `>` 아이콘. 을(를) 클릭하여 함수를 선택합니다 `+` 아이콘: 함수가 자동으로 개인화 화면에 추가됩니다.
 
-을(를) 클릭합니다. `...` 아이콘 을 클릭하여 함수의 설명을 보고 즐겨찾기에 추가합니다. [자세히 알아보기](../personalize.md#fav)
+을(를) 클릭합니다. `...` 아이콘 을 클릭하여 함수의 설명을 보고 즐겨찾기에 추가합니다. [자세히 보기](../personalize.md#fav)
 
 ## 함수{#functions-helper}
 
@@ -200,6 +200,9 @@ ht-degree: 4%
         <td><a href="string.md#matches">일치</a></td><td>이 함수는 문자열이 특정 정규 표현식과 일치하는지 확인하는 데 사용됩니다</td>
     </tr>
     <tr>
+        <td><a href="string.md#mask">마스크</a></td><td>이 함수는 문자열의 일부를 "X" 문자로 바꾸는 데 사용됩니다.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#notEqualTo">다음과 같지 않음</a></td><td>이 함수는 문자열이 지정된 문자열과 같지 않은지 확인하는 데 사용됩니다</td>
     </tr>
     <tr>
@@ -224,7 +227,7 @@ ht-degree: 4%
         <td><a href="string.md#titleCase">제목 사례</a></td><td>이 함수는 문자열의 각 단어의 첫 글자를 대문자로 사용하는 데 사용됩니다</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">Trim</a></td><td>이 함수는 문자열 시작 부분과 끝에서 공백을 제거합니다</td>
+        <td><a href="string.md#trim">트리밍</a></td><td>이 함수는 문자열 시작 부분과 끝에서 공백을 제거합니다</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">대문자</a></td><td>이 함수는 문자열을 대문자로 변환</td>

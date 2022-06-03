@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 2%
+source-wordcount: '1105'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 2%
 * 이메일 메시지 중 하나에 대해 일종의 스팸 불만 사항을 발행한 수신자입니다.
 
 이러한 이메일 주소는 Journey Optimizer에 자동으로 수집됩니다 **제외 목록**. 에서 억제 목록 개념 및 사용에 대해 자세히 알아보십시오 [이 섹션](../reports/suppression-list.md).
+
+다음을 수행할 수도 있습니다 [**수동** 주소 또는 도메인 추가](#add-addresses-and-domains) 제외 목록에 추가합니다.
+
+>[!NOTE]
+>
+>0분에서 60분 정도 걸립니다 [!DNL Journey Optimizer] 보내는 이메일의 숨겨진 주소를 고려합니다.
 
 ## 제외 목록에 액세스합니다 {#access-suppression-list}
 
@@ -55,7 +61,7 @@ ht-degree: 2%
 >
 >이메일 주소 또는 도메인 삭제를 고려할 때 추가 주의가 필요합니다. 확실하지 않은 경우 게재 가능성 전문가에게 문의하십시오.
 
-에서 **[!UICONTROL Suppression list]** 보기, 억제 규칙을 편집할 수도 있습니다. [자세히 알아보기](retries.md)
+에서 **[!UICONTROL Suppression list]** 보기, 억제 규칙을 편집할 수도 있습니다. [자세히 보기](retries.md)
 
 제외 목록을 CSV 파일로 내보내려면 **[!UICONTROL Download CSV]** 버튼을 클릭합니다.
 
@@ -75,7 +81,7 @@ ht-degree: 2%
 
 * **소프트**: 소프트 오류의 경우 오류 카운터가 제한 임계값에 도달하면 제외 목록에 주소를 보냅니다. [다시 시도하는 방법에 대해 자세히 알아보기](retries.md)
 
-* **수동**: 이메일 주소 또는 도메인을 수동으로 제외 목록에 추가할 수도 있습니다. [자세히 알아보기](#add-addresses-and-domains)
+* **수동**: 이메일 주소 또는 도메인을 수동으로 제외 목록에 추가할 수도 있습니다. [자세히 보기](#add-addresses-and-domains)
 
 >[!NOTE]
 >
@@ -105,7 +111,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="제외 목록에 이메일/도메인 추가"
+>title="제외 목록에 전자 메일 또는 도메인 추가"
 >abstract="전송에서 특정 이메일 주소 및/또는 도메인을 제외하도록 Journey Optimizer 제외 목록을 수동으로 채울 수 있습니다."
 
 메시지를 전자 메일 주소에 배달하지 못하면 이 주소가 정의된 제외 규칙 또는 바운스 수를 기반으로 하여 제외 목록에 자동으로 추가됩니다.
@@ -139,6 +145,10 @@ ht-degree: 2%
 
 1. 필요한 경우 이유를 지정합니다.
 
+   >[!NOTE]
+   >
+   >32~126 사이의 ASCII 문자만 사용할 수 있습니다. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
+
 1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
 ### CSV 파일 업로드 {#upload-csv-file}
@@ -159,6 +169,9 @@ ht-degree: 2%
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
+   >[!NOTE]
+   >
+   >[주석] 열의 경우 32와 126 사이의 ASCII 문자만 허용됩니다. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
 
    이 템플릿은 **[!UICONTROL Suppression list]** 기본 보기.
 
@@ -175,6 +188,10 @@ ht-degree: 2%
    ![](assets/suppression-list-upload-file-button.png)
 
 1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
+
+>[!NOTE]
+>
+>업로드가 완료되면 인터페이스에서 해당 상태를 확인하여 성공적으로 업로드되었는지 확인하십시오. [방법 알아보기](#recent-uploads)
 
 ### 최근 업로드 상태 확인 {#recent-uploads}
 

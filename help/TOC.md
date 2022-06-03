@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9f7339069a9ccfbe3fa2bf8bf8e06fe90bd0d407
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 90%
@@ -30,7 +30,7 @@ ht-degree: 90%
       + [관리자로 시작](using/start/path/administrator.md)
       + [개발자로 시작](using/start/path/developer.md)
    + [사용자 인터페이스](using/start/user-interface.md)
-   + [제한 사항](using/start/limitations.md)
+   + [가드레일](using/start/guardrails.md)
 + 메시지 {#messages}
    + [메시지 시작](using/messages/get-started-content.md)
    + [이메일 만들기](using/messages/create-email.md)

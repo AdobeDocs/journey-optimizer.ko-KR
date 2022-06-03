@@ -2,7 +2,7 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 94%
@@ -98,7 +98,7 @@ ht-degree: 94%
 
 * 데이터 레이크의 여정 단계 이벤트 쿼리에 대해 많이 쓰이는 사례를 추가했습니다. [자세히 보기](../reports/query-examples.md)
 
-* 새 **제한 사항** 페이지를 추가했습니다. [자세히 보기](../start/limitations.md)
+* 새 **제한 사항** 페이지를 추가했습니다. [자세히 보기](../start/guardrails.md)
 
 * 다양한 성향에 대한 여러 단계를 넣어서 **빠른 시작** 페이지를 개선했습니다. [자세히 보기](../start/quick-start.md)
 
@@ -144,7 +144,7 @@ ht-degree: 94%
 * 문서 및 화면에서 &#39;오퍼 활동&#39;의 이름을 &#39;결정&#39;으로, &#39;결정&#39;의 이름을 &#39;결정 범위&#39;로 변경했습니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
 * 새로운 사용 사례: [도우미 함수를 사용한 메시지 개인화](../personalization/personalization-use-case-helper-functions.md)
 * 구체화된 세그먼트 영향을 반영하도록 세그먼트 읽기 설명서를 업데이트했습니다. [자세히 보기](../building-journeys/read-segment.md)
-* 여정 제한을 업데이트했습니다. [자세히 보기](../start/limitations.md)
+* 여정 제한을 업데이트했습니다. [자세히 보기](../start/guardrails.md)
 * 결정 섹션의 오퍼 선택 구성을 업데이트했습니다. [자세히 보기](../offers/offer-activities/configure-offer-selection.md)
 * 이벤트 기반 오퍼는 현재 지원하지 않는다는 경고를 추가했습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * 의사 결정 관리의 새로운 **[!UICONTROL Overview]** 탭에 대한 설명서를 작성했습니다. [자세히 보기](../offers/get-started/user-interface.md#overview)
