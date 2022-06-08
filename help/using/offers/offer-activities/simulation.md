@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
@@ -41,11 +41,17 @@ ht-degree: 1%
 
 ## 테스트 프로필 선택 {#select-test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation_test_profile"
+>title="테스트 프로필 추가"
+>abstract="ID 네임스페이스와 해당 ID 값을 선택하여 테스트 프로필을 추가할 수 있습니다. 시뮬레이션에 사용할 수 있도록 테스트 프로필을 이미 사용할 수 있어야 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="테스트 프로필 만들기"
+
 먼저 시뮬레이션에 사용할 테스트 프로필을 선택해야 합니다.
 
 >[!CAUTION]
 >
->메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../../segment/creating-test-profiles.md).
+>사용자에게 전달될 오퍼를 시뮬레이션하려면 사용 가능한 테스트 프로필이 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../../segment/creating-test-profiles.md).
 
 1. **[!UICONTROL Manage profile]**&#x200B;을(를) 클릭합니다.
 
@@ -174,7 +180,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-offer-details.png)
 
-1. 클릭 **[!UICONTROL View code]** 요청 및 응답 페이로드를 표시합니다. [자세히 알아보기](#view-code)
+1. 클릭 **[!UICONTROL View code]** 요청 및 응답 페이로드를 표시합니다. [자세히 보기](#view-code)
 
 1. 목록에서 다른 프로필을 선택하여 다른 테스트 프로필에 대한 오퍼 결정 결과를 표시합니다.
 
