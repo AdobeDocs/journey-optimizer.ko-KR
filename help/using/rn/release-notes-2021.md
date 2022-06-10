@@ -1,16 +1,17 @@
 ---
-title: 이전 릴리스 노트(2021)
-description: Journey Optimizer 2021 릴리스 노트
-source-git-commit: 4626237ce629dcaec8d20c89db3cb8b517671502
-workflow-type: tm+mt
+title: 이전 릴리스 정보(2021)
+description: Journey Optimizer 릴리스 정보
+exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+workflow-type: ht
 source-wordcount: '2070'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 2021년 릴리스 정보 {#release-notes-2021}
 
-이 페이지에는 [!DNL Journey Optimizer] 2021년에 릴리스되었습니다.
+이 페이지에서는 2021년에 릴리스된 [!DNL Journey Optimizer]의 기능과 개선 사항 목록을 확인할 수 있습니다.
 
 
 ## 2021년 11월 릴리스 {#november-2021-release}
