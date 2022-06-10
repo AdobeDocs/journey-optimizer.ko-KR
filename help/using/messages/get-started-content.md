@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -70,11 +70,11 @@ ht-degree: 95%
    * 해당 메시지에 사용할 채널을 선택합니다. 이메일 및/또는 푸시 알림을 선택할 수 있습니다. 메시지를 만들려면 채널을 하나 이상 선택해야 합니다.
    >[!NOTE]
    >
-   >을(를) 클릭합니다. **[!UICONTROL Frequency rule]** 링크를 클릭하여 선택한 카테고리 및 채널에 적용할 빈도 규칙을 봅니다. 추가 정보 [빈도 규칙](../configuration/frequency-rules.md).
+   >**[!UICONTROL Frequency rule]** 링크를 클릭하여 선택한 카테고리 및 채널에 적용할 빈도 규칙을 볼 수 있습니다. [빈도 규칙](../configuration/frequency-rules.md)에 관해 자세히 알아보십시오.
 
    * 메시지에 사용할 **[!UICONTROL Preset]**&#x200B;을 선택합니다.
 
-      사전 설정에는 브랜드에 따라 이메일 및/또는 푸시 알림을 보내는 데 필요한 모든 매개 변수가 포함되어 있습니다. 추가 정보 [사전 설정](../configuration/message-presets.md).
+      사전 설정에는 브랜드에 따라 이메일 및/또는 푸시 알림을 보내는 데 필요한 모든 매개 변수가 포함되어 있습니다. [사전 설정](../configuration/message-presets.md)에 관해 자세히 알아보십시오.
    >[!CAUTION]
    >
    >선택한 카테고리 및 채널에 대해 유효한 메시지 사전 설정을 선택해야 합니다.
