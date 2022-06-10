@@ -3,9 +3,9 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1409'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 94%
 
 ## 2022년 5월 {#may-2022}
 
-* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 5월 22일 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 관련 새 쿼리 예 [세그먼트 자격](../reports/query-examples.md#segment-qualification-queries) 및 [events](../reports/query-examples.md#event-based-queries) 이 추가되었습니다.
+* [!DNL Journey Optimizer] 2022년 5월 릴리스의 모든 새로운 기능 및 개선 사항에 대한 자세한 설명은 설명서에서 확인할 수 있습니다. [자세히 보기](release-notes.md)
+* [세그먼트 자격](../reports/query-examples.md#segment-qualification-queries) 및 [이벤트](../reports/query-examples.md#event-based-queries)와 관련된 새 쿼리 예시가 추가되었습니다.
 * 이제 이메일 디자인 섹션에 콘텐츠를 시작할 수 있는 새로운 기본 제공 템플릿이 설명되어 있습니다. 관련 스크린샷이 업데이트되었습니다. [자세히 보기](../design/design-emails.md)
 * 주요 리소스에 대한 링크가 Journey Optimizer 설명서 홈페이지에 업데이트되었습니다.
 * 랜딩 페이지 및 구독 보고에 대한 스크린샷이 업데이트되었습니다. [자세히 보기](../reports/live-report.md)
 * 사용자 지정 작업에서 Delete 메서드가 지원되지 않는다는 내용의 메모가 추가되었습니다. [자세히 보기](../action/about-custom-action-configuration.md)
 * 방법 비디오에 대한 링크가 업데이트되었습니다.
-* 다음 [이메일 구성](../configuration/about-subdomain-delegation.md), [메시지 사전 설정](../configuration/message-presets.md) 및 [랜딩 페이지 구성](../configuration/lp-subdomains.md) 가독성을 향상시키기 위해 섹션이 재구성되었습니다.
-* 다음 **URL 추적** 섹션이 업데이트되었으며 예와 함께 개선되었습니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
+* 가독성을 개선하기 위해 [이메일 구성](../configuration/about-subdomain-delegation.md), [메시지 사전 설정](../configuration/message-presets.md), [랜딩 페이지 구성](../configuration/lp-subdomains.md) 섹션이 재구성되었습니다.
+* 다음 **URL 추적** 섹션이 업데이트되었으며 예시와 함께 개선되었습니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
 * 전자 메일 주소 설정 관련 새로운 하위 섹션이 추가되었습니다. 사용자 인터페이스를 통해 수행할 수 없습니다. [자세히 보기](../configuration/email-settings.md#forward-email)
 
 ## 2022년 4월 {#april-2022}
