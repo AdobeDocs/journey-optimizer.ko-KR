@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 31%
+source-wordcount: '445'
+ht-degree: 32%
 
 ---
 
@@ -129,4 +129,4 @@ ht-degree: 31%
 
 **관리**
 
-**라이선스 사용 대시보드 업데이트** - 이제 Adobe Experience Platform UI에서 사용할 수 있는 라이선스 사용 대시보드는 **라이센스** 평균 프로필 품질. Journey Optimizer 고객의 경우 이 지표 표시에 감소가 표시되는데, 이것은 귀하의 라이센스를 받은 사용이 이제 올바로 보고됨을 의미합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}
+* **라이선스 사용 대시보드 업데이트** - 사용 가능한 라이센스 사용량 대시보드 [!DNL Adobe Journey Optimizer] 이제 사용자 인터페이스에 의 정확한 값이 반영됩니다 **라이센스** 평균 프로필 품질. 이 지표 표시에 감소가 표시되는데, 이것은 이제 라이선스 제한이 올바로 보고됨을 의미합니다. [자세히 보기](../start/licence-usage.md)

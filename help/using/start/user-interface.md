@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: ht
-source-wordcount: '1464'
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+workflow-type: tm+mt
+source-wordcount: '1462'
 ht-degree: 100%
 
 ---
@@ -82,7 +82,7 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 **[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Journey Administration]** - 이 메뉴를 사용하여 여정에서 사용할 [이벤트]../event/about-events.md), [데이터 소스](../datasource/about-data-sources.md), [작업](../action/action.md)을 구성할 수 있습니다.
+* **[!UICONTROL Journey Administration]** - 이 메뉴를 사용하여 여정에서 [사용할 이벤트](../event/about-events.md), [데이터 ](../datasource/about-data-sources.md) 소스 및 [](../action/action.md) 작업을 구성할 수 있습니다.
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. [자세히 알아보기](../administration/sandboxes.md)
 
@@ -219,7 +219,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   <tr>
     <td rowspan="2">팝업 창</td>
     <td>변경 내용을 저장하거나 작업 확인</td>
-    <td>Enter</td>
+    <td>Enter 키</td>
   </tr>
   <tr>
     <td>창 닫기</td>

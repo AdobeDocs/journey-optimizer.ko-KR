@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1686'
 ht-degree: 7%
 
 ---
@@ -255,9 +255,86 @@ doesNotEndWith(person.emailAddress,".com")
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## URL 호스트 가져오기 {#get-url-host}
+
+다음 `getUrlHost` 함수는 URL의 호스트 이름을 검색하는 데 사용됩니다.
+
+**형식**
+
+```sql
+{%= getUrlHost(string) %}: string
+```
+
+**예**
+
+```sql
+{%= getUrlHost("http://www.myurl.com/contact") %}
+```
+
+&quot;www.myurl.com&quot;을 반환합니다.
+
+## Url 경로 가져오기 {#get-url-path}
+
+다음 `getUrlPath` 함수는 URL의 도메인 이름 뒤에 있는 경로를 검색하는 데 사용됩니다.
+
+**형식**
+
+```sql
+{%= getUrlPath(string) %}: string
+```
+
+**예**
+
+```sql
+{%= getUrlPath("http://www.myurl.com/contact.html") %}
+```
+
+&quot;/contact.html&quot;을 반환합니다.
+
+## Url 프로토콜 가져오기 {#get-url-protocol}
+
+다음 `getUrlProtocol` 함수는 URL의 프로토콜을 검색하는 데 사용됩니다.
+
+**형식**
+
+```sql
+{%= getUrlProtocol(string) %}: string
+```
+
+**예**
+
+```sql
+{%= getUrlProtocol("http://www.myurl.com/contact.html") %}
+```
+
+&quot;http&quot;를 반환합니다.
+
+## 인덱스 {#index-of}
+
+다음 `indexOf` 함수는 두 번째 매개 변수의 첫 번째 발생 위치(첫 번째 인수에서)를 반환하는 데 사용됩니다. 일치하는 항목이 없으면 -1을 반환합니다.
+
+**형식**
+
+```sql
+{%= indexOf(STRING_1, STRING_2) %}: integer
+```
+
+| 인수 | 설명 |
+| --------- | ----------- |
+| `{STRING_1}` | 확인을 수행할 문자열입니다. |
+| `{STRING_2}` | 첫 번째 매개 변수에서 검색할 문자열 |
+
+**예**
+
+```sql
+{%= indexOf("hello world","world" ) %}
+```
+
+6 반환.
+
 ## 비어 있음 {#isEmpty}
 
-다음 `isEmpty` 함수는 문자열이 비어 있는지 확인하는 데 사용됩니다.
+다음 `isEmpty` 함수가 비어 있는지 확인하는 데 이 함수가 사용됩니다.
 
 **형식**
 
@@ -272,6 +349,47 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
+
+## 비어 있지 않음 {#is-not-empty}
+
+다음 `isNotEmpty` 함수는 문자열이 비어 있지 않은지 확인하는 데 사용됩니다.
+
+**형식**
+
+```sql
+{= isNotEmpty(string) %}: boolean
+```
+
+**예**
+
+프로필의 휴대폰 번호가 비어 있지 않으면 다음 함수는 &#39;true&#39;를 반환합니다. 그렇지 않으면 &#39;false&#39;를 반환합니다.
+
+```sql
+{%= isNotEmpty(profile.mobilePhone.number) %}
+```
+
+## 의 마지막 인덱스 {#last-index-of}
+
+다음 `lastIndexOf` 함수는 두 번째 매개 변수의 마지막 발생 위치(첫 번째 인수에서)를 반환하는 데 사용됩니다. 일치하는 항목이 없으면 -1을 반환합니다.
+
+**형식**
+
+```sql
+{= lastIndexOf(STRING_1, STRING_2) %}: integer
+```
+
+| 인수 | 설명 |
+| --------- | ----------- |
+| `{STRING_1}` | 확인을 수행할 문자열입니다. |
+| `{STRING_2}` | 첫 번째 매개 변수에서 검색할 문자열 |
+
+**예**
+
+```sql
+{%= lastIndexOf("hello world","o" ) %}
+```
+
+7을 반환합니다.
 
 ## 왼쪽 트림 {#leftTrim}
 
@@ -380,6 +498,24 @@ doesNotEndWith(person.emailAddress,".com")
 
 쿼리가 반환됩니다 `1XXXXXX89`.
 
+## MD5 {#md5}
+
+다음 `md5` 함수는 문자열의 md5 해시를 계산하고 반환하는 데 사용됩니다.
+
+**형식**
+
+```sql
+{%= md5(string) %}: string
+```
+
+**예**
+
+```sql
+{%= md5("hello world") %}
+```
+
+&quot;5eb63bbbe01eeed093cb22bb8f5acdc3&quot;를 반환합니다.
+
 ## 같지 않음{#notEqualTo}
 
 다음 `notEqualTo` 함수는 문자열이 지정된 문자열과 같지 않은지 확인하는 데 사용됩니다.
@@ -401,6 +537,29 @@ doesNotEndWith(person.emailAddress,".com")
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
+```
+
+## 대/소문자를 구분하지 않음 {#not-equal-with-ignore-case}
+
+다음 `notEqualWithIgnoreCase` 대소문자를 무시하고 두 문자열을 비교하는 데 사용됩니다.
+
+**형식**
+
+```sql
+{= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
+```
+
+| 인수 | 설명 |
+| --------- | ----------- |
+| `{STRING_1}` | 확인을 수행할 문자열입니다. |
+| `{STRING_2}` | 첫 번째 문자열과 비교할 문자열입니다. |
+
+**예**
+
+다음 쿼리는 대소문자 구분을 포함하지 않고 개인의 이름이 &quot;john&quot;이 아닌지 여부를 결정합니다.
+
+```sql
+{%= notEqualTo(profile.person.name,"john") %}
 ```
 
 ## 정규 표현식 그룹{#regexGroup}
@@ -434,17 +593,22 @@ doesNotEndWith(person.emailAddress,".com")
 **형식**
 
 ```sql
-{%= replace(string,string,string) %}
+{%= replace(STRING_1,STRING_2,STRING_3) %}:string
 ```
+
+| 인수 | 설명 |
+| --------- | ----------- |
+| `{STRING_1}` | 하위 문자열을 바꿔야 하는 문자열입니다. |
+| `{STRING_2}` | 바꿀 하위 문자열입니다. |
+| `{STRING_3}` | 대체 하위 문자열입니다. |
 
 **예**
 
-다음 함수 .
-
 ```sql
-
+{%= replace("Hello John, here is your monthly newsletter!","John","Mark") %}
 ```
 
+&quot;Hello Mark, 여기 월별 뉴스레터가 있습니다!&quot;를 반환합니다.
 
 ## 모두 바꾸기{#replaceAll}
 
@@ -456,11 +620,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= replaceAll(string,string,string) %}
 ```
 
-
 ## 오른쪽 트림 {#rightTrim}
 
 다음 `rightTrim` 함수는 문자열 끝에서 공백을 제거합니다.
-
 
 **형식**
 
@@ -477,17 +639,6 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= split(string,string) %}
 ```
-
-<!--
-**Example**
-
-The following function .
-
-```sql
-
-```
-
--->
 
 ## 다음으로 시작{#startsWith}
 
@@ -513,6 +664,35 @@ The following function .
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## 문자열을 정수로 {#string-to-integer}
+
+다음 `string_to_integer` 함수는 문자열 값을 정수 값으로 변환하는 데 사용됩니다.
+
+**형식**
+
+```sql
+{= string_to_integer(string) %}: int
+```
+
+## 문자열-숫자 {#string-to-number}
+
+다음 `stringToNumber` 함수는 문자열을 숫자로 변환하는 데 사용됩니다. 잘못된 입력에 대해 출력과 동일한 문자열을 반환합니다.
+
+**형식**
+
+```sql
+{%= stringToNumber(string) %}: double
+```
+
+## 하위 문자열 {#sub-string}
+
+다음 `Count string` 함수는 시작 인덱스와 종료 인덱스 사이에 문자열 식의 하위 문자열을 반환하는 데 사용됩니다.
+**형식**
+
+```sql
+{= substr(string, integer, integer) %}: string
+```
+
 ## 제목 사례{#titleCase}
 
 다음 **titleCase** 함수는 문자열의 각 단어의 첫 문자를 대문자로 바꾸는 데 사용됩니다.
@@ -529,6 +709,36 @@ The following function .
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
+```
+
+## 대상 부울로 {#to-bool}
+
+다음 `toBool` 함수는 인수 값을 유형에 따라 부울 값으로 변환하는 데 사용됩니다.
+
+**형식**
+
+```sql
+{= toBool(string) %}: boolean
+```
+
+## 종료 날짜 시간 {#to-date-time}
+
+다음 `toDateTime` 함수는 문자열을 날짜로 변환하는 데 사용됩니다. 잘못된 입력에 대한 출력으로 epoch 날짜를 반환합니다.
+
+**형식**
+
+```sql
+{%= toDateTime(string, string) %}: date-time
+```
+
+## 종료 시간만 {#to-date-time-only}
+
+다음 `toDateTimeOnly` 함수는 인수 값을 날짜 시간 전용 값으로 변환하는 데 사용됩니다. 잘못된 입력에 대한 출력으로 epoch 날짜를 반환합니다.
+
+**형식**
+
+```sql
+{%= toDateTimeOnly(string) %}: date-time
 ```
 
 ## 트리밍{#trim}
@@ -557,4 +767,24 @@ The following function .
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}
+```
+
+## url 디코딩 {#url-decode}
+
+다음 `urlDecode` 함수는 url 인코딩 문자열을 디코딩하는 데 사용됩니다.
+
+**형식**
+
+```sql
+{%= urlDecode(string) %}: string
+```
+
+## Url 인코딩 {#url-encode}
+
+다음 `Count only null` 함수를 사용하여 문자열을 인코딩합니다.
+
+**형식**
+
+```sql
+{%= urlEncode(string) %}: string
 ```

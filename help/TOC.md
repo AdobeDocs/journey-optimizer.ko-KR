@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8db51560c5733afac64785d1ef07cbd9558a0bbe
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 90%
+source-wordcount: '1064'
+ht-degree: 89%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 90%
          + [집계 함수](using/personalization/functions/aggregation.md)
          + [산술 함수](using/personalization/functions/arithmetic-functions.md)
          + [배열 및 목록 함수](using/personalization/functions/arrays-list.md)
-         + [날짜 함수](using/personalization/functions/dates.md)
+         + [날짜 시간 함수](using/personalization/functions/dates.md)
          + [부울 및 비교 함수](using/personalization/functions/operators.md)
          + [도우미](using/personalization/functions/helpers.md)
          + [맵 함수](using/personalization/functions/maps.md)
@@ -103,6 +103,7 @@ ht-degree: 90%
       + [프로필 시작](using/segment/get-started-profiles.md)
       + [테스트 프로필 만들기](using/segment/creating-test-profiles.md)
    + [ID](using/segment/get-started-identity.md)
+   + [라이선스 사용 대시보드](using/start/licence-usage.md)
 + 여정 {#orchestrate-journeys}
    + 여정 정보{#about-journeys}
       + [일반 원칙](using/building-journeys/journey.md)

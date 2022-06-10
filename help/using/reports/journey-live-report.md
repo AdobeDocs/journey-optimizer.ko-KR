@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -54,22 +54,6 @@ ht-degree: 1%
 * **[!UICONTROL Actions executed]**: 여정에 대해 성공적으로 실행된 총 작업 수입니다.
 
 * **[!UICONTROL Error in actions]**: 작업에 대해 발생한 총 오류 수입니다.
-
-<!--
-![](assets/live_report_7.png)
-
->[!NOTE]
->
->The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
-
-The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
-
-* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
-
-* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
-
-* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
--->
 
 ## 이메일 탭 {#email-live}
 
@@ -120,6 +104,20 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 다음 **[!UICONTROL Error Reasons]** 및 **[!UICONTROL Exclude Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류와 제외를 확인할 수 있습니다.
 
 다음 **[!UICONTROL Email - Top recipient domain]** 전자 메일을 여는 데 받는 사람이 가장 많이 사용하는 도메인을 그래프 및 표 세부 사항입니다.
+
+![](assets/live_report_7.png)
+
+>[!NOTE]
+>
+>오퍼 위젯 및 지표는 이메일에 결정을 삽입한 경우에만 사용할 수 있습니다. 의사 결정 관리에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../offers/get-started/starting-offer-decisioning.md).
+
+다음 **[!UICONTROL Offers statistic]** 및 **[!UICONTROL Offers statistics]** 시간 경과에 따라 위젯은 오퍼의 성공과 타깃팅된 대상에 미치는 영향을 측정합니다. KPI를 사용하여 메시지에 대한 주요 정보를 자세히 설명합니다.
+
+* **[!UICONTROL Offer sent]**: 오퍼에 대한 총 전송 수입니다.
+
+* **[!UICONTROL Offer impression]**: 게재에서 오퍼를 연 횟수입니다.
+
+* **[!UICONTROL Offer clicks]**: 게재에서 오퍼를 클릭한 횟수입니다.
 
 ## 푸시 탭 {#push-live}
 

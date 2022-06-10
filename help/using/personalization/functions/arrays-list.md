@@ -6,16 +6,51 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 5%
+source-wordcount: '561'
+ht-degree: 6%
 
 ---
 
 # 배열 및 목록 함수 {#arrays}
 
 이러한 함수를 사용하여 배열, 목록 및 문자열과 보다 쉽게 상호 작용할 수 있습니다.
+
+## null만 계산 {#count-only-null}
+
+다음 `countOnlyNull` 함수는 목록의 null 값 수를 계산하는 데 사용됩니다.
+
+**형식**
+
+```sql
+{%= countOnlyNull(array) %}
+```
+
+**예**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+3 반환.
+
+## Null로 계산 {#count-with-null}
+
+다음 `countWithNull` 함수는 null 값을 포함하는 목록의 모든 요소를 계산하는 데 사용됩니다.
+
+**형식**
+
+```sql
+{%= countWithNull(array) %}
+```
+
+**예**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+
+6 반환.
 
 ## 고유{#distinct}
 
@@ -34,6 +69,23 @@ ht-degree: 5%
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+## Null이 있는 고유 개수 {#distinct-count-with-null}
+
+다음 `distinctCountWithNull` 함수는 null 값을 포함하는 목록의 다른 값 수를 계산하는 데 사용됩니다.
+
+**형식**
+
+```sql
+{%= distinctCountWithNull(array) %}
+```
+
+**예**
+
+```sql
+{%= distinctCountWithNull([10,2,10,null]) %}
+```
+
+3 반환.
 
 ## 첫 번째 항목{#head}
 
@@ -42,7 +94,7 @@ ht-degree: 5%
 **형식**
 
 ```sql
-{%= head({array}) %}
+{%= head(array) %}
 ```
 
 **예**
@@ -174,7 +226,6 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```sql
 {%= bottomN(orders,price, 5) %}
 ```
-
 
 ## 아님{#notin}
 
