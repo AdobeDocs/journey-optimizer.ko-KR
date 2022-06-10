@@ -1,18 +1,19 @@
 ---
 title: 2022년 릴리스 정보
-description: Journey Optimizer 2022 릴리스 노트
-source-git-commit: 4626237ce629dcaec8d20c89db3cb8b517671502
-workflow-type: tm+mt
+description: Journey Optimizer 릴리스 정보
+exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 2022년 릴리스 정보 {#release-notes-2022}
 
-이 페이지에는 [!DNL Journey Optimizer] 2022년에 릴리스되었습니다.
+이 페이지에서는 2022년에 릴리스된 [!DNL Journey Optimizer]의 기능 및 개선 사항 목록을 확인할 수 있습니다.
 
-최신 릴리스 노트를 사용할 수 있습니다 [이 페이지에서](release-notes.md).
+[이 페이지](release-notes.md)에서 최신 릴리스 노트를 사용할 수 있습니다.
 
 ## 2022년 4월 릴리스 {#april-2022-release}
 
