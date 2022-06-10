@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -16,20 +16,20 @@ ht-degree: 89%
 
 + [Journey Optimizer 설명서](ajo-home.md)
 + 새로운 기능 {#whats-new}
-   + [최신 릴리스 노트](using/rn/release-notes.md)
+   + [최신 릴리스 정보](using/rn/release-notes.md)
    + 이전 릴리스 정보 {#previous-rn-new}
-      + [2022 릴리스 노트](using/rn/release-notes-2022.md)
-      + [2021 릴리스 노트](using/rn/release-notes-2021.md)
+      + [2022년 릴리스 정보](using/rn/release-notes-2022.md)
+      + [2021년 릴리스 정보](using/rn/release-notes-2021.md)
    + [설명서 업데이트](using/rn/documentation-updates.md)
    + [메시지 마이그레이션](using/rn/inline-messages.md)
 + 시작{#get-started}
    + [Journey Optimizer 소개](using/start/get-started.md)
    + 빠른 시작{#quick-start}
       + [개요](using/start/quick-start.md)
-      + [마케터로 시작](using/start/path/marketer.md)
-      + [데이터 엔지니어 시작](using/start/path/data-engineer.md)
-      + [관리자로 시작](using/start/path/administrator.md)
-      + [개발자로 시작](using/start/path/developer.md)
+      + [마케터로 시작하기](using/start/path/marketer.md)
+      + [데이터 엔지니어로 시작하기](using/start/path/data-engineer.md)
+      + [관리자로 시작하기](using/start/path/administrator.md)
+      + [개발자로 시작하기](using/start/path/developer.md)
    + [사용자 인터페이스](using/start/user-interface.md)
    + [가드레일](using/start/guardrails.md)
 + 메시지 {#messages}
@@ -65,7 +65,7 @@ ht-degree: 89%
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
    + 콘텐츠 디자인 {#landing-pages-design}
-      + [랜딩 페이지 디자인 기본 정보](using/landing-pages/design-lp.md)
+      + [랜딩 페이지 디자인 정보](using/landing-pages/design-lp.md)
       + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
       + [템플릿 만들기](using/landing-pages/lp-templates.md)
       + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
@@ -187,7 +187,7 @@ ht-degree: 89%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [제한](using/building-journeys/functions/functionlimit.md)
+            + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
@@ -266,7 +266,7 @@ ht-degree: 89%
       + [배치 만들기](using/offers/offer-library/creating-placements.md)
       + [의사 결정 규칙 만들기](using/offers/offer-library/creating-decision-rules.md)
       + [태그 만들기](using/offers/offer-library/creating-tags.md)
-   + 등급 만들기 {#rankings}
+   + {#rankings} 등급 만들기
       + [등급 시작](using/offers/ranking/get-started-rankings.md)
       + [등급 공식](using/offers/ranking/create-ranking-formulas.md)
       + AI 모델 {#ai-models}
@@ -373,7 +373,7 @@ ht-degree: 89%
       + [SMS 채널 구성](using/configuration/sms-configuration.md)
       + 메시지 사전 설정 설정 {#set-up-message-presets}
          + [메시지 사전 설정 만들기](using/configuration/message-presets.md)
-         + [전자 메일 설정 구성](using/configuration/email-settings.md)
+         + [이메일 설정 구성](using/configuration/email-settings.md)
       + [실행 주소 관리](using/configuration/primary-email-addresses.md)
       + [빈도 규칙 구성](using/configuration/frequency-rules.md)
    + 랜딩 페이지 구성 {#lp-configuration}
