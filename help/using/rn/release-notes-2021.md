@@ -2,9 +2,9 @@
 title: 이전 릴리스 정보(2021)
 description: Journey Optimizer 릴리스 정보
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '2070'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -278,7 +278,7 @@ ht-degree: 100%
 
 **이메일 구성**
 
-* **허용 목록** - 이제 API 호출을 통해 비프로덕션 샌드박스에서 허용 목록을 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](../reports/allow-list.md#enable-allow-list)
+* **허용 목록** - 이제 API 호출을 통해 비프로덕션 샌드박스에서 허용 목록을 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](../configuration/allow-list.md#enable-allow-list)
 * **탐색** - **관리 > 채널 > 이메일 구성 > 일반** 메뉴 아래에서 액세스할 수 있었던 제외 목록이 이제 새로운 **제외 목록** 하위 메뉴로 옮겨졌습니다. 해당 하위 메뉴 아래에 모든 관련 기능을 모아 두어 보다 쉽게 액세스할 수 있습니다. [자세히 알아보기](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **의사 결정 관리**
@@ -325,7 +325,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 테스트 목적으로 안전한 환경을 갖도록 샌드박스 수준에서 특정 전송 안전 목록을 정의할 수 있습니다. 실수가 발생할 수 있는 비프로덕션 인스턴스에서 허용 목록을 사용하면 고객에게 원치 않는 메시지를 보낼 위험이 없습니다. 이 기능은 제외 API를 통해 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../reports/allow-list.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../configuration/allow-list.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
