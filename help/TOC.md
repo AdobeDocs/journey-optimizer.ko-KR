@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1067'
 ht-degree: 98%
 
 ---
@@ -374,6 +374,7 @@ ht-degree: 98%
       + 메시지 사전 설정 설정 {#set-up-message-presets}
          + [메시지 사전 설정 만들기](using/configuration/message-presets.md)
          + [이메일 설정 구성](using/configuration/email-settings.md)
+         + [숨은 참조 이메일 사용](using/configuration/bcc-email.md)
       + [실행 주소 관리](using/configuration/primary-email-addresses.md)
       + [빈도 규칙 구성](using/configuration/frequency-rules.md)
    + 랜딩 페이지 구성 {#lp-configuration}
