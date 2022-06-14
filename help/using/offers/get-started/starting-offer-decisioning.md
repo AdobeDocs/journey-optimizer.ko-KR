@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '944'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ Offer Decisioning을 사용하면 마케팅 오퍼의 중앙 라이브러리와 
 
 ![](../assets/offer_structure.png)
 
-오퍼 라이브러리가 오퍼로 보강되면 오퍼를 **의사 결정**(이전의 &#39;오퍼 활동&#39;)에 통합할 수 있습니다.
+오퍼를 추가하여 풍부한 오퍼 라이브러리를 형성한 뒤에는 오퍼를 **의사 결정**&#x200B;에 통합할 수 있습니다.
 
 의사 결정은 게재 대상에 따라 제공할 최상의 오퍼를 선택하기 위해 오퍼 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
 
