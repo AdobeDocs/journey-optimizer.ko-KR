@@ -2,9 +2,9 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '1409'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -120,8 +120,8 @@ ht-degree: 100%
 * 액세스 가능성 기능 및 바로 가기에 대한 섹션을 추가했습니다. [자세히 보기](../start/user-interface.md#accessibility)
 * 세그먼트 평가 방법에 대한 섹션을 추가했습니다. [자세히 보기](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * 억제 목록, 허용 목록 및 이메일 글로벌/라이브 보고서 섹션에 억제됨 및 허용되지 않음 상태의 프로필이 전송된 이메일 보고서에서 제외되도록 지정하는 메모를 추가했습니다. [자세히 보기](../reports/email-global-report.md)
-* 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../reports/allow-list.md#reporting)
-* 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 보기](../reports/allow-list.md#enable-allow-list)
+* 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../configuration/allow-list.md#reporting)
+* 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
 * 메시지 사전 설정 모니터링 섹션을 업데이트했습니다. 가능한 사전 설정 작성 실패 이유 및 이러한 오류에 대한 세부 정보를 추가했습니다. [자세히 보기](../configuration/message-presets.md#monitor-message-presets)
 * 이제 메시지 사전 설정에서 이메일 다시 시도 설정을 조정할 수 있다는 사실을 반영하도록 다시 시도 기간 섹션을 업데이트하고 이름을 변경했습니다. [자세히 보기](../configuration/retries.md#retry-duration)
 * 이메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../messages/consent.md#one-click-opt-out-link)
