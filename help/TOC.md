@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 99%
+source-wordcount: '1064'
+ht-degree: 98%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 99%
       + [프로필 시작](using/segment/get-started-profiles.md)
       + [테스트 프로필 만들기](using/segment/creating-test-profiles.md)
    + [ID](using/segment/get-started-identity.md)
-   + [라이선스 사용](using/segment/licence-usage.md)
+   + [라이선스 사용](using/segment/license-usage.md)
 + 여정 {#orchestrate-journeys}
    + 여정 정보{#about-journeys}
       + [일반 원칙](using/building-journeys/journey.md)
@@ -253,8 +253,7 @@ ht-degree: 99%
       + [쿼리 예제](using/reports/query-examples.md)
    + 전달성 {#deliverability}
       + [전달성 시작](using/reports/deliverability.md)
-      + [제외 목록](using/reports/suppression-list.md)
-      + [허용 목록](using/reports/allow-list.md)
+      + [제외 목록 정보](using/reports/suppression-list.md)
    + [Journey Optimizer 리소스에 대한 작업 감사](using/reports/audit-logs.md)
 + 의사 결정 관리 {#offer-decisioniong}
    + 의사 결정 관리 시작 {#get-started-decision}
@@ -368,8 +367,9 @@ ht-degree: 99%
             + [PTR 레코드 액세스 및 편집](using/configuration/ptr-records.md)
             + [IP 풀 만들기](using/configuration/ip-pools.md)
          + 이메일 주소 모니터링 {#monitor-reputation}
-            + [제외 목록 관리](using/configuration/manage-suppression-list.md)
+            + [제외 목록](using/configuration/manage-suppression-list.md)
             + [다시 시도](using/configuration/retries.md)
+            + [허용 목록](using/configuration/allow-list.md)
       + [SMS 채널 구성](using/configuration/sms-configuration.md)
       + 메시지 사전 설정 설정 {#set-up-message-presets}
          + [메시지 사전 설정 만들기](using/configuration/message-presets.md)

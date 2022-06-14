@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >32~126 사이의 ASCII 문자만 사용할 수 있습니다. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
+   >32-126 사이의 모든 ASCII 문자는 **[!UICONTROL Reason]** 필드. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
 
 1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
@@ -171,7 +171,7 @@ ht-degree: 1%
    ```
    >[!NOTE]
    >
-   >[주석] 열의 경우 32와 126 사이의 ASCII 문자만 허용됩니다. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
+   >32-126 사이의 모든 ASCII 문자는 **댓글** 열. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
 
    이 템플릿은 **[!UICONTROL Suppression list]** 기본 보기.
 

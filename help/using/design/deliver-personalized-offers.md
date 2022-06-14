@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '585'
 ht-degree: 1%
 
 ---
 
 # 개인화된 오퍼 추가 {#deliver-personalized-offers}
 
-in [!DNL Journey Optimizer] 이메일 메시지를 통해 고객에게 전달할 최상의 오퍼를 선택하기 위해 오퍼 결정 엔진을 활용할 의사 결정(이전에 &#39;오퍼 활동&#39;이라고 함)을 삽입할 수 있습니다.
+in [!DNL Journey Optimizer] 이메일 메시지를 통해 고객에게 제공할 최상의 오퍼를 선택하기 위해 오퍼 결정 엔진을 활용하는 결정을 삽입할 수 있습니다.
 
 예를 들어 이메일에 수신자의 충성도 수준에 따라 달라지는 특별 할인 오퍼가 표시되는 결정을 추가할 수 있습니다.
 
@@ -49,7 +49,7 @@ in [!DNL Journey Optimizer] 이메일 메시지를 통해 고객에게 전달할
 
    [배치](../offers/offer-library/creating-placements.md) 오퍼를 표시하는 데 사용되는 컨테이너입니다. 이 예에서는 &quot;이메일 상단 이미지&quot; 배치를 사용합니다. 이 배치는 메시지 상단에 있는 이미지 유형 오퍼를 표시하기 위해 오퍼 라이브러리에 생성되었습니다.
 
-1. 컨텐츠 구성 요소에서 사용할 오퍼 활동을 선택한 다음, **[!UICONTROL Add]**.
+1. 선택한 배치와 일치하는 결정. 콘텐츠 구성 요소에서 사용할 결정을 선택한 다음 **[!UICONTROL Add]**.
 
    >[!NOTE]
    >
@@ -59,6 +59,11 @@ in [!DNL Journey Optimizer] 이메일 메시지를 통해 고객에게 전달할
 
 이제 오퍼 활동이 구성 요소에 추가됩니다.
 
+변경 사항을 저장한 후 메시지가 게시되면 여정의 일부로 메시지를 보낼 때 관련 프로필에 오퍼를 표시할 수 있습니다.
+
+>[!NOTE]
+>
+>게시된 메시지에서 직접 또는 간접적으로 참조되는 오퍼, 대체 오퍼, 오퍼 컬렉션 또는 오퍼 결정을 업데이트하면 다시 게시할 필요 없이 업데이트가 해당 메시지에 자동으로 반영됩니다.
 
 ## 이메일에서 오퍼 미리 보기 {#preview-offers-in-email}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
-workflow-type: ht
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 >[!NOTE]
 >
->사용 가능한 기능은 사용 권한 및 라이선스 계약에 따라 달라질 수 있습니다.
+>사용 가능한 기능은 사용 권한 및 사용권 계약에 따라 달라질 수 있습니다.
 
 왼쪽 탐색에 있는 서비스 및 기능의 전체 목록 및 관련 문서에 대한 링크를 아래에서 확인할 수 있습니다.
 
@@ -219,7 +219,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   <tr>
     <td rowspan="2">팝업 창</td>
     <td>변경 내용을 저장하거나 작업 확인</td>
-    <td>Enter</td>
+    <td>Enter 키</td>
   </tr>
   <tr>
     <td>창 닫기</td>

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1061'
 ht-degree: 6%
 
 ---
@@ -223,56 +223,6 @@ ht-degree: 6%
 
 ## 이메일에 결정 삽입 {#insert-decision-in-email}
 
-이제 결정을 실행했으므로 이메일 메시지에 삽입할 수 있습니다. 이렇게 하려면 아래 절차를 따르십시오.
-
-1. 이메일을 만든 다음 [이메일 디자이너](../../using/design/design-emails.md) 콘텐츠를 구성하려면 다음을 수행하십시오.
-
-1. 왼쪽 팔레트에서 구조 구성 요소를 추가합니다.
-
-1. 추가 **[!UICONTROL Offer decision]** 컨텐츠 구성 요소입니다. 에서 콘텐츠 구성 요소를 사용하는 방법을 알아봅니다. [이 섹션](../../using/design/content-components.md).
-
-   ![](assets/offers-e2e-decision-component.png)
-
-1. 패턴을 선택합니다. 오른쪽 팔레트에서 **[!UICONTROL Select offer decision]** 결정을 추가하려면
-
-   ![](assets/offers-e2e-select-offer-decision.png)
-
-1. 에서 표시할 오퍼에 해당하는 배치를 선택합니다 **[!UICONTROL Placements]** 드롭다운 목록.
-
-   이 경우 이 예제의 일부로 이전에 만든 배치에서는 **이메일 - 이미지** 배치는 이메일에서 결정을 사용할 때 사용할 수 있습니다. 추가 정보 [배치 만들기](../../using/offers/offer-library/creating-placements.md).
-
-   ![](assets/offers-e2e-select-placement-in-decision.png)
-
-1. 일치하는 결정 **이메일 - 이미지** 배치가 표시됩니다. 콘텐츠 구성 요소에서 사용할 결정을 선택한 다음 **[!UICONTROL Add]**.
-
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
-
-   >[!NOTE]
-   >
-   >선택한 배치와 호환되는 결정만 목록에 표시됩니다.
-
-이제 이메일 디자이너에서 개인화된 모든 오퍼와 대체 오퍼를 시각화할 수 있습니다.
+이제 결정을 실행했으므로 이메일 메시지에 삽입할 수 있습니다. 이렇게 하려면 에 자세히 나와 있는 단계를 수행합니다. [이 페이지](../../using/design/deliver-personalized-offers.md).
 
 ![](assets/offers-e2e-offers-displayed.png)
-
-를 사용하십시오 **[!UICONTROL Offers]** 섹션 또는 컨텐츠 구성 요소 화살표(오른쪽 및 왼쪽 화살표)를 사용하여 데이터를 찾습니다. 고객 프로필과 함께 결정의 일부인 다른 오퍼를 표시할 수도 있습니다. 자세한 내용은 [이 섹션](../../using/design/deliver-personalized-offers.md#preview-offers-in-email)을 참조하십시오.
-
-변경 사항을 저장한 후 메시지가 게시되면 여정의 일부로 메시지를 보낼 때 관련 프로필에 오퍼를 표시할 수 있습니다.
-
->[!NOTE]
->
->오퍼와 대체 오퍼, 오퍼 컬렉션 또는 오퍼가 업데이트되는 경우, 오퍼가 [게시됨](../../using/messages/publish-manage-message.md) 메시지가 표시되면 이제 업데이트를 다시 게시하지 않고도 해당 메시지에 업데이트가 자동으로 반영됩니다.
-
-**관련 항목:**
-
-* 에서 메시지 미리 보기를 확인하는 방법을 알아봅니다. [이 섹션](../../using/design/preview.md#preview-your-messages).
-
-* 에서 메시지를 게시하는 방법 알아보기 [이 섹션](../../using/messages/publish-manage-message.md).
-
-* 에서 하나 이상의 여정에 의해 메시지가 트리거되는 방법을 알아봅니다 [이 섹션](../building-journeys/journey.md).
-
-<!--
-* Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
--->
-
-

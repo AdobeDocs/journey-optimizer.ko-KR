@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * 푸시 알림 메시지를 게시하지 않고 만들고 디자인합니다. 다음을 참조하십시오 [섹션](../messages/get-started-content.md).
 * 주문 번호, 상태 및 품목 이름을 포함하는 주문 이벤트를 구성합니다. 다음을 참조하십시오 [섹션](../event/about-events.md).
-* 결정을 만듭니다(이전에 &#39;오퍼 활동&#39;이라고 함). 이 내용을 참조하십시오 [섹션](../offers/offer-activities/create-offer-activities.md).
+* 결정을 만들려면 다음을 참조하십시오 [섹션](../offers/offer-activities/create-offer-activities.md).
 
 ## 1단계 - 프로필에 개인화 추가 {#add-perso}
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc13.png)
 
-1. 왼쪽 메뉴에서 **오퍼 결정** offer decisioning 변수를 삽입하려면 다음을 수행하십시오. 배치를 선택하고 을(를) 클릭합니다. **+** 결정 옆에 있는 아이콘(이전에 &#39;오퍼 활동&#39;이라고 함)을 본문에 추가합니다.
+1. 왼쪽 메뉴에서 **오퍼 결정** offer decisioning 변수를 삽입하려면 다음을 수행하십시오. 배치를 선택하고 을(를) 클릭합니다. **+** 아이콘 옆에 있는 를 클릭하여 본문을 추가합니다.
 
    ![](assets/perso-uc14.png)
 

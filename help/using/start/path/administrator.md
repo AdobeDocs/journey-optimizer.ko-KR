@@ -3,7 +3,7 @@ title: 시스템 관리자용 Journey Optimizer 시작하기
 description: 시스템 관리자는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 로서의 **시스템 관리자**: **제품 프로필 이해 및 권한 할당** 샌드박스 관리 및 채널 구성용. 또한 샌드박스를 설정하고 사용 가능한 제품 프로필에 대해 관리해야 합니다. 그런 다음 팀 구성원을 제품 프로필에 할당할 수 있습니다.
 
-이러한 기능은 **[!UICONTROL Product administrators]** admin console에 액세스할 수 있습니다. [Adobe Admin Console에 대해 자세히 알아보기](https://helpx.adobe.com/enterprise/admin-guide.html){target=&quot;_blank&quot;}.
+이러한 기능은 **[!UICONTROL Product administrators]** admin console에 액세스할 수 있습니다. [Adobe Admin Console에 대해 자세히 알아보기](https://helpx.adobe.com/kr/enterprise/admin-guide.html){target=&quot;_blank&quot;}.
 
 다음 페이지에서 액세스 관리에 대해 알아봅니다.
 
@@ -46,17 +46,17 @@ ht-degree: 2%
 
 1. **메시지 및 채널 구성**: 사전 설정 정의, 이메일 및 푸시 메시지 설정 조정 및 사용자 정의
 
-   * 정의 **푸시 알림 설정** 둘 다 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]. [자세히 알아보기](../../configuration/push-gs.md)
+   * 정의 **푸시 알림 설정** 둘 다 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]. [자세히 보기](../../configuration/push-gs.md)
 
-   * 만들기 **메시지 사전 설정** 전자 메일 및 푸시 알림 메시지에 필요한 모든 기술 매개 변수를 구성하려면 다음을 수행하십시오. [자세히 알아보기](../../configuration/message-presets.md)
+   * 만들기 **메시지 사전 설정** 전자 메일 및 푸시 알림 메시지에 필요한 모든 기술 매개 변수를 구성하려면 다음을 수행하십시오. [자세히 보기](../../configuration/message-presets.md)
 
-   * 해당 기간(일 수)을 관리합니다 **다시 시도** 전자 메일 주소를 제외 목록으로 보내기 전에 수행됩니다. [자세히 알아보기](../../configuration/manage-suppression-list.md)
+   * 해당 기간(일 수)을 관리합니다 **다시 시도** 전자 메일 주소를 제외 목록으로 보내기 전에 수행됩니다. [자세히 보기](../../configuration/manage-suppression-list.md)
 
-1. **하위 도메인 위임**: Journey Optimizer에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 하위 도메인을 위임하는 것입니다. [자세히 알아보기](../../configuration/about-subdomain-delegation.md)
+1. **하위 도메인 위임**: Journey Optimizer에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 하위 도메인을 위임하는 것입니다. [자세히 보기](../../configuration/about-subdomain-delegation.md)
 
    ![](../assets/subdomain.png)
 
-1. **IP 풀 만들기**: 인스턴스로 제공된 IP 주소를 그룹화하여 이메일 게재 능력과 평판을 향상시킵니다. [자세히 알아보기](../../configuration/ip-pools.md)
+1. **IP 풀 만들기**: 인스턴스로 제공된 IP 주소를 그룹화하여 이메일 게재 능력과 평판을 향상시킵니다. [자세히 보기](../../configuration/ip-pools.md)
 
    ![](../assets/ip-pool.png)
 
@@ -65,5 +65,5 @@ ht-degree: 2%
    * A [제외 목록](../../reports/suppression-list.md) 은(는) 이러한 연락처로 보내면 전송 신뢰도와 전송 속도가 저하될 수 있으므로 게재에서 제외할 이메일 주소로 구성됩니다. 잘못된 주소, 일관된 소프트 바운스(소프트 바운스)를 갖는 주소, 이메일 평판에 부정적인 영향을 줄 수 있는 수신자 등 여정에서 전송하지 않고 자동으로 제외된 모든 이메일 주소를 모니터링할 수 있으며, 이메일 메시지 중 하나에 대해 어떤 종류의 스팸 불만 사항을 제기하는 수신자도 모니터링할 수 있습니다. 관리 방법 알아보기 [제외 목록](../../configuration/manage-suppression-list.md) 및 [다시 시도](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
 
-   * 다음 [허용 목록](../../reports/allow-list.md) 특정 샌드박스에서 보내는 이메일을 받을 수 있는 권한이 있는 유일한 수신자 또는 도메인이 되는 개별 이메일 주소 또는 도메인을 지정할 수 있도록 해줍니다. 따라서 테스트 환경에 있을 때 실수로 실제 고객 주소로 이메일을 보내지 않을 수 있습니다. 방법 알아보기 [허용 목록 활성화](../../reports/allow-list.md).
+   * 다음 [허용 목록](../../configuration/allow-list.md) 특정 샌드박스에서 보내는 이메일을 받을 수 있는 권한이 있는 유일한 수신자 또는 도메인이 되는 개별 이메일 주소 또는 도메인을 지정할 수 있도록 해줍니다. 따라서 테스트 환경에 있을 때 실수로 실제 고객 주소로 이메일을 보내지 않을 수 있습니다. 방법 알아보기 [허용 목록 활성화](../../configuration/allow-list.md).
    의 게재 기능 관리에 대해 자세히 알아보십시오 [!DNL Adobe Journey Optimizer] [이 페이지에서](../../reports/deliverability.md).

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '972'
 ht-degree: 2%
 
 ---
@@ -179,9 +179,9 @@ ht-degree: 2%
 
 ## 오퍼 결정 {#offer-decision}
 
-를 사용하십시오 **[!UICONTROL Offer decision]** 의사 결정(이전에 오퍼 활동이라고 함)을 메시지에 삽입하는 구성 요소입니다. 의사 결정 관리 를 활용하여 고객에게 제공할 최상의 오퍼를 선택할 수 있습니다.
+를 사용하십시오 **[!UICONTROL Offer decision]** 메시지에 의사 결정을 삽입하는 구성 요소입니다. 의사 결정 관리 를 활용하여 고객에게 제공할 최상의 오퍼를 선택할 수 있습니다.
 
 관련 항목:
 
-* [의사 결정 관리를 시작합니다](../offers/get-started/starting-offer-decisioning.md).
+* [의사 결정 관리 시작](../offers/get-started/starting-offer-decisioning.md).
 * [메시지에 개인화된 오퍼 추가](deliver-personalized-offers.md).

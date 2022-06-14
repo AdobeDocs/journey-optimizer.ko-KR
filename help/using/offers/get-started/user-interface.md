@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 68%
+source-wordcount: '625'
+ht-degree: 64%
 
 ---
 
 # 사용자 인터페이스 {#user-interface}
 
-오퍼 라이브러리를 사용하면 한 곳에서 배치 및 오퍼를 만들고 관리할 수 있을 뿐만 아니라, 만든 모든 의사 결정(이전의 오퍼 활동이라고 함)에 액세스할 수 있습니다.
+오퍼 라이브러리를 사용하면 한 위치에서 배치 및 오퍼를 만들고 관리할 수 있을 뿐만 아니라 만들어진 모든 결정에 액세스할 수 있습니다.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 68%
 
 화면의 단계에 따라 배치, 오퍼 및 컬렉션 만들기를 시작합니다.
 
-이러한 첫 번째 단계를 완료하면 오퍼 결정(이전에 오퍼 활동이라고 함)을 생성하라는 메시지가 표시됩니다.
+이러한 첫 번째 단계를 완료하면 오퍼 결정을 만들라는 메시지가 표시됩니다.
 
 ![](../assets/overview_collection-created.png)
 

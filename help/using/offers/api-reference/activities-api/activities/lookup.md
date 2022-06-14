@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '152'
 ht-degree: 3%
 
 ---
 
 # 결정 조회 {#look-up-decision}
 
-에 GET 요청을 수행하여 특정 결정(이전에 오퍼 활동이라고 함)을 조회할 수 있습니다 [!DNL Offer Library] 결정을 포함하는 API `@id` 또는 요청 경로에 있는 결정 이름입니다.
+에 GET 요청을 작성하여 특정 결정을 찾을 수 있습니다 [!DNL Offer Library] 결정을 포함하는 API `@id` 또는 요청 경로에 있는 결정 이름입니다.
 
 **API 형식**
 

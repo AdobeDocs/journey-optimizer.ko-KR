@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1214'
 ht-degree: 2%
 
 ---
 
 # 의사 결정 만들기 {#create-offer-activities}
 
-결정(이전에 오퍼 활동이라고 함)은 게재 대상에 따라 게재할 최상의 오퍼를 선택하기 위해 오퍼 결정 엔진을 활용하는 오퍼용 컨테이너입니다.
+결정 사항은 게재 대상에 따라 게재할 최상의 오퍼를 선택하기 위해 오퍼 결정 엔진을 활용할 오퍼의 컨테이너입니다.
 
 ➡️ [이 비디오에서 오퍼 활동을 만드는 방법을 알아봅니다](#video)
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 14%
+source-wordcount: '126'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ Journey Optimizer을 사용하면 오퍼 카탈로그를 Adobe Experience Platfo
 * 개인화된 오퍼
 * 대체 오퍼
 * 배치
-* 결정(이전에 오퍼 활동이라고 함)
+* 결정
 
 이러한 개체 중 하나를 오퍼 라이브러리에서 수정할 때마다 데이터 세트를 업데이트하기 위해 새 내보내기 작업이 자동으로 실행됩니다.
 
