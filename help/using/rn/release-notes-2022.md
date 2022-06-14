@@ -2,9 +2,9 @@
 title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '1069'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 100%
 **관리**
 
 * 이제 메시지 사전 설정 수준에서 이메일 헤더의 구독 취소 링크를 활성화/비활성화하고 메시지 수준에서 사용자 정의 구독 취소 URL을 설정할 수 있습니다. [자세히 알아보기](../configuration/message-presets.md#list-unsubscribe)
-* 프로덕션 및 비프로덕션 샌드박스에서 [!DNL Journey Optimizer] 인터페이스를 통해 허용 목록을 활성화하고 비활성화할 수 있습니다. [자세히 알아보기](../reports/allow-list.md#enable-allow-list)
+* 프로덕션 및 비프로덕션 샌드박스에서 [!DNL Journey Optimizer] 인터페이스를 통해 허용 목록을 활성화하고 비활성화할 수 있습니다. [자세히 알아보기](../configuration/allow-list.md#enable-allow-list)
 
 **개인화**
 
