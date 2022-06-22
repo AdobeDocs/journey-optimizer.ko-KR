@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer에서 Adobe Experience Platform 데이터 �
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a196df7318e0c87afb5a5ee4498eaf20eab137ad
+source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '622'
 ht-degree: 8%
 
 ---
@@ -70,6 +70,8 @@ Adobe Experience Platform에 수집된 모든 데이터는 데이터 세트로 �
 에서 데이터 집합 만들기에 대해 자세히 알아보십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
 
 에서 데이터 세트 UI를 사용하는 방법을 알아봅니다 [데이터 수집 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target=&quot;_blank&quot;}.
+
+쿼리 예가 포함된 사용 사례 목록을 사용할 수 있습니다 [여기](../start/datasets-query-examples.md).
 
 **참조 -**
 

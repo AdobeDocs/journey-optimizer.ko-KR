@@ -8,9 +8,10 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 7a5f7ea85075821f0788bd9a58d9994afd058c61
+exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -38,6 +39,8 @@ Journey Optimizer에서 동의는 사용자 지정 작업에서 활용할 수 �
 
 * 세그먼트 읽기: 검색된 세그먼트가 고려됩니다.
 * 사용자 지정 작업: 동의 관리는 사용되는 속성([작업 매개 변수](../action/about-custom-action-configuration.md#define-the-message-parameters))뿐만 아니라 정의된 마케팅 작업(필수 마케팅 작업 및 추가 마케팅 작업)도 포함합니다.
+
+동의는 마케팅 작업(필수 또는 추가)이 사용자 지정 작업 수준에서 설정된 경우에만 적용됩니다.
 
 여정에서 사용되는 다른 모든 활동은 고려되지 않습니다. 여정 자격을 사용하여 세그먼트를 시작하는 경우 세그먼트가 고려되지 않습니다.
 

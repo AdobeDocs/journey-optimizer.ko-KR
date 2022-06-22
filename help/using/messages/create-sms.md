@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 12%
+source-wordcount: '220'
+ht-degree: 15%
 
 ---
 
@@ -22,10 +20,9 @@ ht-degree: 12%
 >title="SMS 만들기"
 >abstract="텍스트 메시지를 추가하고 표현식 편집기를 사용하여 개인화를 시작합니다."
 
-
->[!CAUTION]
+>[!NOTE]
 >
-> 현재 SMS 채널을 사용하는 것은 초기 액세스 시 사용자만 선택할 수 있습니다. 이 기능을 활용하려면 Adobe 계정 담당자에게 문의하십시오.
+>규정에서는 SMS 수신자가 옵트인 및 옵트아웃 키워드로 회신할 수 있어야 합니다. Adobe Journey Optimizer은 다음 키워드를 자동으로 처리합니다. 시작, 중지 및 중지.
 
 일단 [메시지를 만들었습니다.](get-started-content.md)를 사용하려면 **[!UICONTROL SMS]** 탭을 클릭하여 SMS 채널의 설정 및 콘텐츠를 정의합니다.
 
@@ -56,5 +53,6 @@ SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 **관련 항목**
 
 * [SMS 채널 구성](../configuration/sms-configuration.md)
+* [SMS 보고서](../reports/journey-global-report.md#sms-global)
 * [새 메시지 만들기](get-started-content.md)
 * [여정에 메시지 추가](../building-journeys/journeys-message.md)

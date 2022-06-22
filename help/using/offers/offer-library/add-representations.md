@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: b07075c225136ab17a0c3b106f89503d95abb581
+source-git-commit: 3513f5415ebbac1be889ba390877611ad5a71030
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 을 사용하여 작업하려면 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}, 배포해야 합니다. [!DNL Assets Essentials] 조직의 경우 사용자가 **Assets Essentials 소비자 사용자** 또는/and **Assets Essentials 사용자** 제품 프로필. 추가 정보 [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+> 을 사용하여 작업하려면 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}, 배포해야 합니다. [!DNL Assets Essentials] 조직의 경우 사용자가 **Assets Essentials 소비자 사용자** 또는/and **Assets Essentials 사용자** 제품 프로필. 추가 정보 [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}.
 
 1. **[!UICONTROL Asset library]** 옵션을 선택합니다.
 
@@ -85,6 +85,16 @@ ht-degree: 1%
 1. **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/offer-select-asset.png)
+
+### HTML 또는 JSON 파일 추가 {#html-json}
+
+선택한 배치가 HTML 유형인 경우, [Adobe Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}).
+
+예를 들어에서 HTML 이메일 템플릿을 만들었습니다 [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;} 및 해당 파일을 오퍼 콘텐츠에 사용하려는 경우 새 파일을 만드는 대신 템플릿을 **자산 라이브러리** 을 재사용할 수 있도록 하는 것입니다.
+
+표현에서 컨텐츠를 재사용하려면 **자산 라이브러리** 에 설명된 대로 [이 섹션](#images) 원하는 HTML 또는 JSON 파일을 선택합니다.
+
+![](../assets/offer-browse-asset-library-json.png)
 
 ### URL 추가 {#urls}
 
@@ -115,3 +125,4 @@ ht-degree: 1%
    >[!NOTE]
    >
    >전용 **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** 및 **[!UICONTROL Helper functions]** 결정 관리에 소스를 사용할 수 있습니다.
+

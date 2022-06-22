@@ -5,11 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
+exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
+source-git-commit: f2426b8696983b22dd2c80296e2c9dfc2426c439
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
@@ -17,10 +16,6 @@ ht-degree: 3%
 # 관리 [!DNL Adobe Stock] 이미지 {#stock}
 
 ## [!DNL Adobe Stock] 시작 {#get-started-stock}
-
->[!IMPORTANT]
->
-> 의 사용 [!DNL Adobe Stock] 통합은 현재 사용자를 선택하기만 해도 조기 액세스에서 사용할 수 있습니다. 이 기능을 활용하려면 Adobe 계정 담당자에게 문의하십시오.
 
 [!DNL Adobe Stock] 고품질로 큐레이팅된 로열티가 없는 수백만 장의 사진, 비디오, 일러스트레이션 및 벡터 그래픽에 액세스할 수 있습니다. 신용 팩을 구매하여 자산을 라이선스를 부여하거나 필요한 자산에 대해 하나의 Standard 또는 Extended 라이선스만 구매하도록 선택할 수 있습니다. Adobe Stock에서는 자산을 무료로 수집할 수도 있습니다.
 
@@ -30,6 +25,10 @@ ht-degree: 3%
 [이메일 디자인에 대한 자세한 정보](design-emails.md).
 
 ## 삽입 및 가져오기 [!DNL Adobe Stock] 이미지 {#add-stock-image}
+
+>[!NOTE]
+>
+> 다음 **[!UICONTROL Find Adobe Stock photos]** 옵션은 AEM Assets Essentials 제품 프로필에 액세스할 수 있는 사용자만 사용할 수 있습니다. 자세한 내용은 [자산 필수 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials).
 
 이메일을 편집하고 개인화한 후에는 [!DNL Adobe Stock] 템플릿을 사용하려면 다음을 수행하십시오.
 
@@ -54,7 +53,8 @@ ht-degree: 3%
 
 1. 에서 [!DNL Adobe Stock] 웹 사이트에서 이미지를 다운로드하고 워터마크를 제거하려면 자산을 구매해야 합니다.
 
-   이 구매는 Adobe Stock 플랜 또는 구독에 따라 다릅니다. 자세한 정보는 이 [페이지](https://stock.adobe.com/plans)를 참조하십시오.
+   이 구매는 Adobe Stock 플랜 또는 구독에 따라 다릅니다. Adobe Stock 계정이 여러 개 있는 경우 마지막으로 사용한 주식 ID로 리디렉션됩니다. 이 경우, 자산에 라이선스를 부여하기 전에 올바른 계정에 로그인했는지 확인하십시오.
+자세한 정보는 이 [페이지](https://stock.adobe.com/plans)를 참조하십시오.
 
    >[!WARNING]
    > 라이센스가 없는 이미지가 포함된 이메일이 전송되면 이미지에는 워터마크가 있는 라이센스가 없는 양식이 유지됩니다.

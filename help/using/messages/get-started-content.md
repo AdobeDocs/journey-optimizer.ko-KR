@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
    * **[!UICONTROL Message category]**&#x200B;를 마케팅 또는 트랜잭션 중에서 선택합니다.
 
-   * 해당 메시지에 사용할 채널을 선택합니다. 이메일 및/또는 푸시 알림을 선택할 수 있습니다. 메시지를 만들려면 채널을 하나 이상 선택해야 합니다.
+   * 해당 메시지에 사용할 채널을 선택합니다. 이메일, 푸시 알림 및/또는 SMS 메시지를 만들려면 채널을 하나 이상 선택해야 합니다.
    >[!NOTE]
    >
    >**[!UICONTROL Frequency rule]** 링크를 클릭하여 선택한 카테고리 및 채널에 적용할 빈도 규칙을 볼 수 있습니다. [빈도 규칙](../configuration/frequency-rules.md)에 관해 자세히 알아보십시오.
@@ -97,6 +97,7 @@ ht-degree: 100%
 
    * [이메일 만들기](create-email.md)
    * [푸시 알림 만들기](create-push.md)
+   * [SMS 메시지 만들기](create-sms.md)
 
    >[!NOTE]
    >   

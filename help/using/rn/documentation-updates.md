@@ -2,16 +2,30 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 100%
+source-wordcount: '1553'
+ht-degree: 92%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+
+## 2022년 6월 {#june-2022}
+
+* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2022년 6월 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 데이터 사용 정책에 대한 새로운 섹션을 설명서에 추가했습니다. [자세히 보기](../privacy/policies.md)
+* 개인 정보 보호 요청에 대한 새 섹션이 설명서에 추가되었습니다. [자세히 보기](../privacy/requests.md)
+* 리소스에 대한 감사 로그에 대한 새 섹션이 설명서에 추가되었습니다. [자세히 보기](../privacy/audit-logs.md)
+* Adobe Experience Cloud Asset Library에서 오퍼 표현에 있는 HTML 또는 JSON 콘텐츠를 추가하는 방법에 대한 새 섹션이 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/add-representations.md#html-json)
+* 여정 라이프사이클에 새 페이지를 추가했습니다. [자세히 보기](../building-journeys/journey-end.md)
+* 대기 활동 페이지를 업데이트했습니다. [자세히 보기](../building-journeys/wait-activity.md)
+* 쿼리 예와 함께 Adobe Journey Optimizer 데이터 세트 목록을 추가했습니다. [자세히 보기](../start/datasets-query-examples.md)
+* 허용 목록 페이지가 구성 섹션으로 이동되었습니다. [자세히 보기](../configuration/allow-list.md)
+* 제외 목록 페이지가 업데이트되었습니다. [자세히 보기](../configuration/manage-suppression-list.md)
 
 ## 2022년 5월 {#may-2022}
 

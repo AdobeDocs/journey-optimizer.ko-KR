@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
 ➡️ [이 비디오에서 도우미 기능을 사용하는 방법을 알아봅니다](#video)
 
 시작하기 전에 다음 요소를 구성하는 방법을 알고 있어야 합니다.
-* 이메일 메시지. [자세히 알아보기](../messages/get-started-content.md)
+* 이메일 메시지. [자세히 보기](../messages/get-started-content.md)
 * 이메일 본문. [자세히 알아보기](../design/create-email-content.md).
 * 단일 이벤트. [자세히 알아보기](../event/about-events.md).
 * 이벤트로 시작하는 여정. [자세히 알아보기](../building-journeys/using-the-journey-designer.md).
@@ -104,7 +104,6 @@ ht-degree: 3%
 
 1. 이 이벤트로 시작하는 여정을 만듭니다.
 1. 메시지를 여정에 추가합니다.
-1. 종료 활동으로 여정을 종료합니다.
 
    메시지를 아직 게시하지 않았으므로 여정을 테스트하거나 게시할 수 없습니다.
 
@@ -336,7 +335,7 @@ ht-degree: 3%
 
 ### 사용 사례 {#use-case}
 
-* [프로필 정보, 컨텍스트 및 오퍼가 포함된 Personalization](personalization-use-case.md)
+* [프로필 정보, 컨텍스트 및 오퍼를 사용한 개인화](personalization-use-case.md)
 
 * [의사 결정 기반 오퍼를 사용한 개인화](../offers/offers-e2e.md)
 

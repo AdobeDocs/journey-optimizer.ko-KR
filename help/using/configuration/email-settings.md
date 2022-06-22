@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 1%
+source-wordcount: '1192'
+ht-degree: 2%
 
 ---
 
@@ -163,10 +163,15 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="URL 추적 매개 변수"
->abstract="이 섹션을 사용하여 추적 매개 변수를 이메일 콘텐츠에 있는 캠페인 URL에 자동으로 추가합니다."
+>title="URL 추적 매개 변수 정의"
+>abstract="이 섹션을 사용하여 추적 매개 변수를 이메일 콘텐츠에 있는 URL에 자동으로 추가합니다. 이 기능은 선택 사항입니다."
 
-다음을 사용할 수 있습니다 **[!UICONTROL URL Tracking Parameters]** 를 사용하여 여러 채널에서 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 선택 사항입니다.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_url_preview"
+>title="미리 보기 URL 추적 매개 변수"
+>abstract="추적 매개 변수가 전자 메일 콘텐츠에 있는 URL에 추가되는 방법을 검토하십시오."
+
+다음을 사용할 수 있습니다 **[!UICONTROL URL tracking parameters]** 를 사용하여 여러 채널에서 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 선택 사항입니다.
 
 이 섹션에 정의된 매개 변수가 이메일 메시지 콘텐츠에 포함된 URL의 끝에 추가됩니다. 그런 다음 Adobe Analytics 또는 Google Analytics과 같은 웹 분석 도구에서 이러한 매개 변수를 캡처하고 다양한 성능 보고서를 만들 수 있습니다.
 
@@ -174,8 +179,9 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 메시지 사전 설정을 만들 때 예로서 세 개의 URL 추적 매개 변수가 자동으로 채워집니다. 이러한 매개 변수를 편집하고 **[!UICONTROL Add new parameter]** 버튼을 클릭합니다.
 
-URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Value]** 필드를 선택하거나 다음 객체로 이동하여 미리 정의된 값 목록에서 선택합니다.
+URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Value]** 필드.
 
+다음 객체로 이동하여 미리 정의된 값 목록에서 선택할 수도 있습니다.
 * 여정 속성: **소스 ID**, **소스 이름**, **소스 버전 ID**
 * 작업 속성: **작업 ID**, **작업 이름**
 * Offer decisioning 속성: **오퍼 ID**, **오퍼 이름**
@@ -186,6 +192,10 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONT
 >
 >폴더를 선택하지 마십시오: 필요한 폴더를 찾아 추적 매개 변수 값으로 사용할 프로필 속성을 선택해야 합니다.
 
+<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+
+You can drag and drop the parameters to reorder them.-->
+
 다음은 Adobe Analytics 및 Google Analytics 호환 URL의 예입니다.
 
 * Adobe Analytics 호환 URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
@@ -195,3 +205,7 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONT
 >[!NOTE]
 >
 >텍스트 값을 입력하고 사전 정의된 값을 선택할 수 있습니다. 각 **[!UICONTROL Value]** 필드에는 총 255자가 포함될 수 있습니다.
+
+결과 추적 URL을 동적으로 미리 볼 수 있습니다. 매개 변수를 추가, 편집 또는 제거할 때마다 미리 보기가 자동으로 업데이트됩니다.
+
+![](assets/preset-url-tracking-preview.png)

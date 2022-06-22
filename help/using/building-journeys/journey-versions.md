@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
+source-wordcount: '289'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 2%
 여정을 검색하면 애플리케이션이 처음 열리는 목록 맨 위에 최신 버전이 나타납니다. 그런 다음 원하는 정렬을 정의할 수 있으며 응용 프로그램에서 해당 정렬을 사용자 기본 설정으로 유지합니다. 여정 버전이 캔버스 위의 여정 편집 인터페이스 맨 위에 표시됩니다.
 
 ![](assets/journeyversions1.png)
+
+>[!NOTE]
+>
+>대부분의 경우 프로필이 동일한 여정에 동시에 여러 번 있을 수 없습니다. 다시 여정을 사용하도록 설정하면 프로필이 여정을 다시 입력할 수 있지만, 해당의 이전 인스턴스를 완전히 종료할 때까지 이를 수행할 수 없습니다. [자세히 보기](../building-journeys/journey-end.md)
 
 라이브 여정으로 수정해야 하는 경우, 여정의 새 버전을 만들어야 합니다.
 

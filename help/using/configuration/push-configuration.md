@@ -4,9 +4,9 @@ description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 4%
 
 ---
@@ -334,8 +334,6 @@ You can use a test mobile app for this use case. For more on this, refer to this
 1. 에서 **[!UICONTROL Actions]** 드롭다운, 끌어서 놓기 **[!UICONTROL Message]** 활동을 여정에 추가합니다.
 
 1. 앞에서 만든 메시지를 선택합니다. 푸시 알림을 만드는 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../messages/get-started-content.md).
-
-1. 끌어서 놓기 **[!UICONTROL End]** 활동을 여정에 추가합니다.
 
 1. 을(를) 클릭합니다. **[!UICONTROL Test]** 푸시 알림 테스트를 시작하려면 토글 을 클릭하고 **[!UICONTROL Trigger an event]**.
 

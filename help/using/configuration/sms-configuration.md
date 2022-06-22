@@ -3,21 +3,15 @@ title: SMS 구성
 description: Journey Optimizer을 사용하여 SMS 메시지를 보내도록 환경을 구성하는 방법을 알아봅니다
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '350'
 ht-degree: 4%
 
 ---
 
 # SMS 채널 구성 {#sms-configuration}
-
->[!CAUTION]
->
-> 현재 SMS 채널을 사용하는 것은 초기 액세스 시 사용자만 선택할 수 있습니다. 이 기능을 활용하려면 Adobe 계정 담당자에게 문의하십시오.
 
 [!DNL Journey Optimizer] 에서는 여정을 만들고 타겟팅된 대상자에게 메시지를 전송할 수 있습니다.
 
@@ -29,15 +23,14 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
 
    ![](assets/sms_4.png)
 
-1. Sinch를 로 선택합니다. **[!UICONTROL SMS vendor]**.
+1. 을(를) 선택합니다 **[!UICONTROL SMS vendor]**:
+
+   * [!DNL Sinch] 질문에 답합니다. 을(를) 찾으려면 **[!UICONTROL Service ID]** 및 **[!UICONTROL API Token]**, Sinch 계정에서 SMS > API 메뉴에 액세스합니다.
+   * [!DNL Twilio] 질문에 답합니다. 을(를) 찾으려면 **[!UICONTROL Service ID]** 및 **[!UICONTROL API Token]**&#x200B;콘솔 대시보드 페이지의 계정 정보 창에 액세스합니다.
 
 1. 을(를) 입력합니다. **[!UICONTROL Name]** API 자격 증명의 경우.
 
 1. 을(를) 입력합니다. **[!UICONTROL Service ID]** 및 **[!UICONTROL API Token]**.
-
-   >[!NOTE]
-   >
-   > Sinch에는 특별한 API 자격 증명이 필요합니다. 을(를) 찾으려면 **[!UICONTROL Service ID]** 및 **[!UICONTROL API Token]**, Sinch 계정에서 SMS > API 메뉴에 액세스,
 
    ![](assets/sms_5.png)
 
@@ -74,6 +67,8 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있도록 메시지 사�
       SMS 메시지를 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](sms-configuration.md).
 
    * 을(를) 입력합니다. **[!UICONTROL Sender number]** 커뮤니케이션에 &#x200B; 사용하려고 합니다.
+
+   * 을(를) 선택합니다 **[!UICONTROL SMS Execution Field]** 을(를) 선택하려면 **[!UICONTROL Profile attribute]** 프로필의 전화 번호와 연관됩니다.
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL Submit]** 확인합니다. 메시지 사전 설정을 초안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 

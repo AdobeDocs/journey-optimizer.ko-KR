@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '722'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 2%
 * 오류가 발생한 경우 세 번 다시 시도가 체계적으로 수행됩니다. 받은 오류 메시지에 따라 다시 시도 횟수를 조정할 수 없습니다.
 * 기본 제공 **반응** 이벤트를 사용하면 기본 작업에 대응할 수 있습니다. 자세한 내용은[ 이 페이지](../building-journeys/reaction-events.md)를 참조하세요. 사용자 지정 작업을 통해 전송된 메시지에 응답하려면 전용 이벤트를 구성해야 합니다.
 * 두 작업을 동시에 배치할 수 없으므로 두 작업을 하나씩 추가해야 합니다.
+* 오늘날 여정에는 한 프로필이 동시에 여러 번 표시되지 않는 기술적인 제한이 있습니다. 프로필은 여정(설정에 따라)를 다시 입력할 수 있지만 해당 여정의 이전 인스턴스를 완전히 종료한 후에는 해당 프로필을 수행할 수 없습니다.
+* 대부분의 경우 프로필이 동일한 여정에 동시에 여러 번 있을 수 없습니다. 다시 여정을 사용하도록 설정하면 프로필이 여정을 다시 입력할 수 있지만, 해당의 이전 인스턴스를 완전히 종료할 때까지 이를 수행할 수 없습니다. [자세히 보기](../building-journeys/journey-end.md)
 
 ### 메시지 작업 {#message-action}
 

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 2%
+source-wordcount: '394'
+ht-degree: 3%
 
 ---
 
@@ -92,7 +92,7 @@ Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십�
 
    ![](assets/accintegration-uc-10.png)
 
-1. 추가 **종료** 활동을 수행하고 여정을 테스트합니다.
+1. 여정 테스트.
 
    ![](assets/accintegration-uc-11.png)
 

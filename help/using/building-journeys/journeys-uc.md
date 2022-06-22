@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -120,8 +120,6 @@ ht-degree: 2%
 1. 세 경로를 이전에 만든 구매 이벤트에 연결합니다. 이벤트는 개인이 구매할 때 트리거됩니다.
 
 1. 이벤트 다음에 **메시지** 활동을 수행하고 이메일 &quot;감사합니다&quot; 메시지를 선택합니다.
-
-1. 추가 **종료** 활동.
 
 ## 여정 테스트 및 게시
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1329'
 ht-degree: 3%
 
 ---
@@ -139,7 +139,7 @@ ID 네임스페이스를 선택하고 위의 형식을 기반으로 CSV 파일�
 1. 추가 **[!UICONTROL Update Profile]** 작업 활동.
 1. 스키마를 선택하고 **testProfiles** 필드, 데이터 세트 및 값을 **True**. 이 작업을 수행하려면 다음을 수행하십시오. **[!UICONTROL VALUE]** 필드에서 **펜** 오른쪽에 있는 아이콘을 선택합니다. **[!UICONTROL Advanced mode]** 을 입력합니다. **true**.
    ![](assets/test-profiles-26.png)
-1. 추가 **종료** 활동 후 클릭 **[!UICONTROL Publish]**.
+1. **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
 1. 에서 **[!UICONTROL Segments]** 섹션에서 프로필이 올바르게 업데이트되었는지 확인합니다.
    ![](assets/test-profiles-28.png)
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 98%
+source-wordcount: '1104'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,13 @@ ht-degree: 98%
       + [개발자로 시작하기](using/start/path/developer.md)
    + [사용자 인터페이스](using/start/user-interface.md)
    + [가드레일](using/start/guardrails.md)
++ 캠페인 {#campaigns}
+   + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
+   + [캠페인 만들기](using/campaigns/create-campaign.md)
+   + [캠페인 수정 또는 중지](using/campaigns/modify-stop-campaign.md)
+   + 보고서 {#reports}
+      + [Campaign 라이브 보고서](using/campaigns/campaign-live-report.md)
+      + [Campaign 글로벌 보고서](using/campaigns/campaign-global-report.md)
 + 메시지 {#messages}
    + [메시지 시작](using/messages/get-started-content.md)
    + [이메일 만들기](using/messages/create-email.md)
@@ -107,6 +114,7 @@ ht-degree: 98%
 + 여정 {#orchestrate-journeys}
    + 여정 정보{#about-journeys}
       + [일반 원칙](using/building-journeys/journey.md)
+      + [여정 라이프사이클](using/building-journeys/journey-end.md)
       + [여정 버전](using/building-journeys/journey-versions.md)
       + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
    + 여정 만들기{#create-journey}
@@ -115,6 +123,7 @@ ht-degree: 98%
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 게시](using/building-journeys/publishing-the-journey.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
+      + [여정 복사](using/building-journeys/copy-to-sandbox.md)
       + [여정 문제 해결](using/building-journeys/troubleshooting.md)
    + 활동 {#about-journey-building}
       + [여정 활동 정보](using/building-journeys/about-journey-activities.md)
@@ -254,7 +263,6 @@ ht-degree: 98%
    + 전달성 {#deliverability}
       + [전달성 시작](using/reports/deliverability.md)
       + [제외 목록 정보](using/reports/suppression-list.md)
-   + [Journey Optimizer 리소스에 대한 작업 감사](using/reports/audit-logs.md)
 + 의사 결정 관리 {#offer-decisioniong}
    + 의사 결정 관리 시작 {#get-started-decision}
       + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
@@ -349,7 +357,9 @@ ht-degree: 98%
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 데이터 관리 {#data-management}
    + [스키마](using/start/get-started-schemas.md)
-   + [데이터 세트](using/start/get-started-datasets.md)
+   + 데이터 세트 {#datasets}
+      + [데이터 세트 시작](using/start/get-started-datasets.md)
+      + [쿼리 예](using/start/datasets-query-examples.md)
    + [쿼리](using/start/get-started-queries.md)
 + 구성{#configuration}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
@@ -410,4 +420,7 @@ ht-degree: 98%
    + [권한 수준](using/administration/high-low-permissions.md)
    + [샌드박스 관리](using/administration/sandboxes.md)
    + [속성 기반 액세스 제어](using/administration/attribute-based-access.md)
-
++ 개인정보 보호 {#privacy}
+   + [데이터 사용 정책](using/privacy/policies.md)
+   + [개인 정보 보호 요청](using/privacy/requests.md)
+   + [Journey Optimizer 리소스에 대한 작업 감사](using/privacy/audit-logs.md)

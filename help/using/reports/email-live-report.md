@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '481'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 1%
 
 * **[!UICONTROL Sent]**: 게재에 대한 총 전송 수입니다.
 
-* **[!UICONTROL Delivered]**: 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
+* **[!UICONTROL Delivered]**: 성공적으로 보낸 메시지 수입니다.
 
 * **[!UICONTROL Opens]**: 게재에서 메시지를 연 횟수입니다.
 
 * **[!UICONTROL Clicks]**: 게재에서 콘텐츠를 클릭한 횟수입니다.
 
-* **[!UICONTROL Bounces]**: 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
+* **[!UICONTROL Bounces]**: 게재 및 자동 반환 처리 중에 누적되는 총 오류 수입니다.
 
 * **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
@@ -49,9 +49,9 @@ ht-degree: 1%
 
 다음 **[!UICONTROL Sending Statistics]** 위젯은 게재의 성공을 세부적으로 설명합니다.
 
-* **[!UICONTROL Delivered]**: 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
+* **[!UICONTROL Delivered]**: 성공적으로 보낸 메시지 수입니다.
 
-* **[!UICONTROL Bounces]**: 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
+* **[!UICONTROL Bounces]**: 게재 및 자동 반환 처리 중에 누적되는 총 오류 수입니다.
 
 * **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 

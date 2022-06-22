@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 1%
 
 다음 **[!UICONTROL Email Sending Statistics]** 위젯은 메시지에 대한 주요 정보를 자세히 설명합니다.
 
-* **[!UICONTROL Delivered]**: 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
+* **[!UICONTROL Delivered]**: 성공적으로 보낸 메시지 수입니다.
 
-* **[!UICONTROL Bounces]**: 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
+* **[!UICONTROL Bounces]**: 게재 및 자동 반환 처리 중에 누적되는 총 오류 수입니다.
 
 * **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
@@ -75,9 +75,9 @@ ht-degree: 1%
 
 * **[!UICONTROL Sent]**: 게재에 대한 총 전송 수입니다.
 
-* **[!UICONTROL Delivered]**: 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
+* **[!UICONTROL Delivered]**: 성공적으로 보낸 메시지 수입니다.
 
-* **[!UICONTROL Bounces]**: 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
+* **[!UICONTROL Bounces]**: 게재 및 자동 반환 처리 중에 누적되는 총 오류 수입니다.
 
 * **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
@@ -131,9 +131,9 @@ ht-degree: 1%
 
 * **[!UICONTROL Sent]**: 게재에 대한 총 전송 수입니다.
 
-* **[!UICONTROL Delivered]**: 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
+* **[!UICONTROL Delivered]**: 성공적으로 보낸 메시지 수입니다.
 
-* **[!UICONTROL Bounces]**: 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
+* **[!UICONTROL Bounces]**: 게재 및 자동 반환 처리 중에 누적되는 총 오류 수입니다.
 
 * **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
@@ -152,3 +152,33 @@ ht-degree: 1%
 ![](assets/report_push_2.png)
 
 다음 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 및 **[!UICONTROL Breakdown by platform]** 그래프 및 표는 운영 시스템에 따라 푸시 알림의 성공을 자세히 설명합니다.
+
+## SMS 탭 {#sms-live}
+
+다음 **[!UICONTROL SMS - Sending statistics]** 표는 게재의 성공에 대해 자세히 설명합니다.
+
+* **[!UICONTROL Targeted]**: 이 게재의 타겟 프로필로 자격을 얻은 사용자 프로필 수입니다.
+
+* **[!UICONTROL Excluded]**: 타겟팅된 프로필에서 제외되고 메시지를 받지 못한 사용자 프로필 수입니다.
+
+* **[!UICONTROL Sent]**: 게재에 대한 총 전송 수입니다.
+
+* **[!UICONTROL Delivered]**: 성공적으로 보낸 메시지 수입니다.
+
+* **[!UICONTROL Opens]**: 게재에서 메시지를 연 횟수입니다.
+
+* **[!UICONTROL Clicks]**: 게재에서 콘텐츠를 클릭한 횟수입니다.
+
+* **[!UICONTROL Bounces]**: 게재 및 자동 반환 처리 중에 누적되는 총 오류 수입니다.
+
+* **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
+
+다음 **[!UICONTROL SMS Summary]** 그래프는 게재 성공에 대해 자세히 설명합니다.
+
+* **[!UICONTROL Delivered]**: 성공적으로 보낸 메시지 수입니다.
+
+* **[!UICONTROL Bounces]**: 게재 및 자동 반환 처리 중에 누적되는 총 오류 수입니다.
+
+* **[!UICONTROL Errors]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
+
+다음 **[!UICONTROL Exclude Reasons]** 그래프 및 표를 사용하면 게재 중에 발생한 오류와 제외를 확인할 수 있습니다.
