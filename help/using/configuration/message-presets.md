@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 1%
+source-wordcount: '1495'
+ht-degree: 2%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 1. 구성 **푸시 알림** 설정. [자세히 보기](#configure-push-settings)
 
-   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
+1. 구성 **SMS** 설정. [자세히 보기](sms-configuration.md)
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL Submit]** 확인합니다. 메시지 사전 설정을 초안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 
    ![](assets/preset-active.png)
 
-## 전자 메일 설정 구성 {#configure-email-settings}
+## 이메일 설정 구성 {#configure-email-settings}
 
 이메일 설정은 메시지 사전 설정 구성의 전용 섹션에 정의됩니다.
 
