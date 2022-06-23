@@ -4,7 +4,7 @@ description: Journey Optimizer을 사용하여 SMS 메시지를 보내도록 환
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
@@ -70,7 +70,7 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있도록 메시지 사�
 
    * 을(를) 선택합니다 **[!UICONTROL SMS configuration]** 사전 설정과 연결
 
-      SMS 메시지를 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](sms-configuration.md).
+      SMS 메시지를 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#create-api).
 
    * 을(를) 입력합니다. **[!UICONTROL Sender number]** 커뮤니케이션에 &#x200B; 사용하려고 합니다.
 
