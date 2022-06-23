@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 52cc27108ed4d99511ef612c0bd81d3435d1f45b
+source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 42%
+source-wordcount: '352'
+ht-degree: 36%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 42%
 <table>
 <thead>
 <tr>
-<th><strong>사용자에게 SMS 보내기</strong><br/></th>
+<th><strong>사용자에게 SMS 보내기(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -34,7 +34,8 @@ ht-degree: 42%
 <p></p>
 <p>이제 과의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다 <b>Sinch</b> 또는 <b>트왈리오</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>자세한 내용은 <a href="../messages/create-sms.md">세부 설명서</a>를 참조하세요.</p>
+<p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
+<p>여기에서 SMS를 만들고 보내는 방법을 알아봅니다 <a href="../messages/create-sms.md">세부 설명서</a>.</p>
 </td>
 </tr>
 </tbody>

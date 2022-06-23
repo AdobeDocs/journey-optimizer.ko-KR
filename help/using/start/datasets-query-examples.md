@@ -5,9 +5,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
+source-git-commit: 5a6e18e6ff236d25bd5f81b42430be2998208321
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 [메시지 피드백 이벤트 데이터 세트](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [푸시 추적 경험 이벤트 데이터 세트](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [여정 단계 이벤트](../start/datasets-query-examples.md#journey-step-event)
-[Offer Decisioning 이벤트 데이터 세트](../start/datasets-query-examples.md#ode-decisionevents)
+[offer decisioning 이벤트 데이터 세트](../start/datasets-query-examples.md#ode-decisionevents)
 [동의 서비스 데이터 세트](../start/datasets-query-examples.md#consent-service-dataset)
 [숨은 참조 피드백 이벤트 데이터 세트](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -198,7 +198,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Offer Decisioning 이벤트 데이터 세트{#ode-decisionevents}
+## offer decisioning 이벤트 데이터 세트{#ode-decisionevents}
 
 _인터페이스의 이름: ODE DecisionEvents(시스템 데이터 세트)_
 

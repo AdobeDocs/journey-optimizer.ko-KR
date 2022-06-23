@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 067453ee3c19c7f269b4b1791ead8b5421adf95b
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 15%
+source-wordcount: '262'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->규정에서는 SMS 수신자가 옵트인 및 옵트아웃 키워드로 회신할 수 있어야 합니다. Adobe Journey Optimizer은 다음 키워드를 자동으로 처리합니다. 시작, 중지 및 중지.
+>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 일단 [메시지를 만들었습니다.](get-started-content.md)를 사용하려면 **[!UICONTROL SMS]** 탭을 클릭하여 SMS 채널의 설정 및 콘텐츠를 정의합니다.
 
@@ -49,6 +49,10 @@ SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 1. 메시지가 준비되면 게시하여 을 사용하여 실행할 수 있도록 할 수 있습니다. **[!UICONTROL Publish]** 버튼을 클릭합니다. 이 작업을 수행하면 여정에서 다음 실행에 사용될 메시지의 새 버전이 게시됩니다.
 
 이제 여정에서 SMS 메시지를 사용할 수 있습니다. [여정 만들기 방법 알아보기](../building-journeys/journey-gs.md).
+
+## 옵트인 및 옵트아웃{#sms-opt-in-out}
+
+SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. Adobe Journey Optimizer은 업계 표준 및 규정에 따라 수신 메시지에서 다음 키워드를 자동으로 처리합니다. 시작, 중지, 중지. 이러한 키워드는 SMS 공급자로부터 자동 표준 응답을 트리거합니다.
 
 **관련 항목**
 
