@@ -4,7 +4,7 @@ description: Journey Optimizer을 사용하여 SMS 메시지를 보내도록 환
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
+source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 [!DNL Journey Optimizer] 에서는 여정을 만들고 타겟팅된 대상자에게 메시지를 전송할 수 있습니다.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
