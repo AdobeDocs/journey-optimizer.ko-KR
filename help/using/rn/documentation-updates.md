@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
+source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 92%
+source-wordcount: '1568'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 92%
 * 쿼리 예와 함께 Adobe Journey Optimizer 데이터 세트 목록을 추가했습니다. [자세히 보기](../start/datasets-query-examples.md)
 * 허용 목록 페이지가 구성 섹션으로 이동되었습니다. [자세히 보기](../configuration/allow-list.md)
 * 제외 목록 페이지가 업데이트되었습니다. [자세히 보기](../configuration/manage-suppression-list.md)
+* 결정 관리에 대한 보호 및 정적 제한에 대한 링크가 추가되었습니다. [자세히 보기](../start/guardrails.md)
+
 
 ## 2022년 5월 {#may-2022}
 
