@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
