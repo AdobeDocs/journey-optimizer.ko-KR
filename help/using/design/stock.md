@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c5230359d91416f16f51899e5a86b3926fb721f6
+source-git-commit: d172be602766a22c51018376d81de363c0ffe54b
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 1. 자산을 저장할 폴더를 선택합니다. 자세한 내용은 [!DNL Assets Essentials], 다음을 참조하십시오 [페이지](assets-essentials.md#get-started-assets-essentials).
 
-### 관련 항목{#stock-related-topics}
+## 관련 항목{#stock-related-topics}
 
 * [Journey Optimizer의 이메일 디자인](design-emails.md)
 * [전자 메일 디자인을 위한 구성 요소 설정](content-components.md)
