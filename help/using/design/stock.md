@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: fb56b69a74aa8c727bf75f1c7988ece845f43b5f
+source-git-commit: c5230359d91416f16f51899e5a86b3926fb721f6
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -48,6 +48,28 @@ ht-degree: 1%
    선택한 이미지에 라이센스가 없는 경우 [라이센스 받기](#license-stock-image).
 
 
+## 유사한 사진 찾기 {#similar-stock-image}
+
+전자 메일 콘텐츠의 기존 이미지를 [!DNL Adobe Stock]. 이 옵션은 모든 이미지에 사용할 수 있습니다. Assets 폴더에서 라이선스가 부여된/라이센스가 없는 Stock 이미지 및 이미지.
+
+유사한 사진을 찾아보려면 아래 단계를 수행하십시오.
+
+1. 바꿀 이미지를 선택합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Find similar Stock photos]** 에 자산을 표시하는 단추 [!DNL Adobe Stock] 이미지의 컨텐츠, 색상 및 컴포지션과 일치하는 항목을 찾습니다.
+
+   ![](assets/stock-similar.png)
+
+1. 선택한 이미지를 선택하고 을(를) 클릭합니다 **[!UICONTROL Save]**.
+
+   ![](assets/stock-similar-results.png)
+
+   선택한 이미지에 라이센스가 없는 경우 [라이센스 받기](#license-stock-image).
+
+1. 필요한 경우 **[!UICONTROL Components settings]** 메뉴 아래의 제품에서 사용할 수 있습니다. [구성 요소 설정에 대해 자세히 알아보기](content-components.md)
+
+메시지를 만들고 개인화하면 게시하여 실행할 수 있도록 할 수 있습니다. [자세히 보기](../messages/publish-manage-message.md)
+
+
 ## 다음에서 라이센스 받기 [!DNL Adobe Stock] {#license-stock-image}
 
 이미지가 이미 라이선스가 있는 경우 ![](assets/stock_10.png) 아이콘. 그렇지 않은 경우 라이센스를 부여해야 합니다.
@@ -76,28 +98,6 @@ ht-degree: 1%
    ![](assets/stock_6.png)
 
 1. 자산을 저장할 폴더를 선택합니다. 자세한 내용은 [!DNL Assets Essentials], 다음을 참조하십시오 [페이지](assets-essentials.md#get-started-assets-essentials).
-
-## 유사한 사진 찾기 {#similar-stock-image}
-
-전자 메일 콘텐츠의 기존 이미지를 [!DNL Adobe Stock]. 이 옵션은 모든 이미지에 사용할 수 있습니다. Assets 폴더에서 라이선스가 부여된/라이센스가 없는 Stock 이미지 및 이미지.
-
-유사한 사진을 찾아보려면 아래 단계를 수행하십시오.
-
-1. 바꿀 이미지를 선택합니다.
-1. 을(를) 클릭합니다. **[!UICONTROL Find similar Stock photos]** 에 자산을 표시하는 단추 [!DNL Adobe Stock] 이미지의 컨텐츠, 색상 및 컴포지션과 일치하는 항목을 찾습니다.
-
-   ![](assets/stock-similar.png)
-
-1. 선택한 이미지를 선택하고 을(를) 클릭합니다 **[!UICONTROL Save]**.
-
-   ![](assets/stock-similar-results.png)
-
-   선택한 이미지에 라이센스가 없는 경우 [라이센스 받기](#license-stock-image).
-
-1. 필요한 경우 **[!UICONTROL Components settings]** 메뉴 아래의 제품에서 사용할 수 있습니다. [구성 요소 설정에 대해 자세히 알아보기](content-components.md)
-
-메시지를 만들고 개인화하면 게시하여 실행할 수 있도록 할 수 있습니다. [자세히 보기](../messages/publish-manage-message.md)
-
 
 ### 관련 항목{#stock-related-topics}
 
