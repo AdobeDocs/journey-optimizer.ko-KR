@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d953fc78ffdc5c84823a903e0b4032b45f45bfcd
+source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}에서는 고품질로 큐레이팅된 로열티가 없는 수백만 장의 사진, 비디오, 일러스트레이션 및 벡터 그래픽에 액세스할 수 있습니다. 신용 팩을 구매하여 자산을 라이선스를 부여하거나 필요한 자산에 대해 하나의 Standard 또는 Extended 라이선스만 구매하도록 선택할 수 있습니다. Adobe Stock에서는 자산을 무료로 수집할 수도 있습니다.
 
-사용 [!DNL Adobe Journey Optimizer]에서 직접 이메일에 이미지를 업로드할 수 있습니다. [!DNL Adobe Stock] 를 사용하여 Assets 폴더에 추가합니다 **[!UICONTROL Find Adobe Stock photos]** 선택 사항입니다. 또한 **[!UICONTROL Find Similar Image]** 선택 사항은 게재에 사용되는 자산의 콘텐츠, 색상 및 컴포지션과 일치하는 이미지를 찾는 데 도움이 됩니다.
+사용 [!DNL Adobe Journey Optimizer]에서 직접 이메일에 이미지를 업로드할 수 있습니다. [!DNL Adobe Stock] 를 사용하여 Assets 폴더에 추가합니다 **[!UICONTROL Find Adobe Stock photos]** 선택 사항입니다. 또한 **[!UICONTROL Find Similar Stock photos]** 선택 사항은 게재에 사용되는 자산의 콘텐츠, 색상 및 컴포지션과 일치하는 이미지를 찾는 데 도움이 됩니다.
 
 ## 권한{#stock-permissions}
 
