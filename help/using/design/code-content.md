@@ -5,16 +5,17 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 13%
+source-wordcount: '158'
+ht-degree: 15%
 
 ---
 
-# 고유한 컨텐츠 코드 지정 {#code-content}
+# 나만의 콘텐츠 코딩 {#code-content}
 
-를 사용하십시오 **[!UICONTROL Code your own]** 원시 HTML 및/또는 이메일 콘텐츠를 코딩하는 모드 이 방법에는 HTML 기술이 필요합니다.
+를 사용하십시오 **[!UICONTROL Code your own]** 원시 HTML을 가져오거나 전자 메일 콘텐츠를 코딩하는 모드 이 방법에는 HTML 기술이 필요합니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
