@@ -4,7 +4,7 @@ description: Journey Optimizer을 사용하여 랜딩 페이지 하위 도메인
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 1%
@@ -59,7 +59,7 @@ ht-degree: 1%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   동일한 상위 도메인의 여러 위임된 하위 도메인은 사용할 수 없습니다. 예를 들어 marketing1.yourcompany.com이 랜딩 페이지에 대해 Adobe에 이미 위임된 경우에는 marketing2.yourcompany.com을 사용할 수 없습니다. 그러나 다중 수준 하위 도메인은 랜딩 페이지에 대해 지원되므로 &#39;email.marketing1.yourcompany.com&#39;을 사용할 수 있습니다.
+   동일한 상위 도메인의 여러 위임된 하위 도메인은 사용할 수 없습니다. 예를 들어 &#39;marketing1.yourcompany.com&#39;이 랜딩 페이지의 Adobe에 이미 위임된 경우에는 &#39;marketing2.yourcompany.com&#39;을 사용할 수 없습니다. 그러나 다중 수준 하위 도메인은 랜딩 페이지에 대해 지원되므로 &#39;email.marketing1.yourcompany.com&#39;을 사용할 수 있습니다.
 
    <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
 
