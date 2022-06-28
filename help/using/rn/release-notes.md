@@ -2,9 +2,9 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '369'
 ht-degree: 35%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>가용 날짜: <b>6월 27일</b></p>
-<p></p>
 <p>이제 과의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다 <b>Sinch</b> 또는 <b>트왈리오</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
 <p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
@@ -51,8 +49,6 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>가용 날짜: <b>6월 27일</b></p>
-<p></p>
 <p>Adobe Stock 및 Adobe Journey Optimizer 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선스 및 저장할 수 있습니다. </br> 새로운 <b>유사한 스톡 사진 찾기</b> 또한, 이미지의 내용, 색상 및 컴포지션과 일치하는 스톡 사진을 찾을 수 있습니다. </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
 <p>자세한 내용은 <a href="../design/stock.md">세부 설명서</a>를 참조하세요.</p>

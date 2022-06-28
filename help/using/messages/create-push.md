@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1423'
 ht-degree: 9%
 
 ---
@@ -93,6 +93,11 @@ iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android
 ![](assets/push_buttons.png)
 
 ## 자동 알림 보내기 {#silent-notification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_push_silent_notification"
+>title="자동 알림 기본 정보"
+>abstract="사용자를 방해하지 않고 알림을 보내면 알림 센터나 알림 표시줄에 알림이 표시되지 않습니다."
 
 자동 푸시 알림(또는 백그라운드 알림)은 애플리케이션에 전달되는 숨겨진 명령입니다. 이 변수는 새로운 컨텐츠의 가용성을 애플리케이션에 알리거나 백그라운드에서 다운로드를 시작하는 데 사용됩니다.
 
