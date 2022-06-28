@@ -5,9 +5,10 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 4f6d018d5e5d127e5eb26b2d1b59dc0a248db45b
+exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1088'
 ht-degree: 3%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="숨은 참조 이메일 주소 정의"
->abstract="보낸 전자 메일의 사본을 BCC 받은 편지함으로 보내어 유지할 수 있습니다. 보내는 모든 전자 메일이 이 BCC 주소로 블라인드(blind)되도록 선택한 전자 메일 주소를 입력합니다. 이 기능은 선택 사항입니다."
+>abstract="보낸 전자 메일의 사본을 BCC 받은 편지함으로 보내어 유지할 수 있습니다. 보내는 모든 전자 메일이 이 BCC 주소로 블라인드(blind)되도록 선택한 전자 메일 주소를 입력합니다. BCC 주소 도메인은 Adobe에 위임된 하위 도메인과 동일하지 않아야 합니다. 이 기능은 선택 사항입니다."
 
 에서 보낸 이메일의 동일한 복사본(또는 블라인드 탄소 사본)을 보낼 수 있습니다 [!DNL Journey Optimizer] BCC 받은 편지함으로 이동합니다. 이 선택적 기능을 사용하면 규정 준수 및/또는 아카이브를 위해 사용자에게 보내는 이메일 통신 사본을 유지할 수 있습니다. 게재 수신자에게는 보이지 않습니다.
 
 ## 숨은 참조 이메일 활성화 {#enable-bcc}
 
-를 사용하려면 **[!UICONTROL BCC email]** 옵션을 선택한 경우 전용 필드에 원하는 이메일 주소를 입력합니다. 위임된 하위 도메인에 정의된 이메일 주소를 제외하고 올바른 형식으로 외부 주소를 지정할 수 있습니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*&#x200B;과 같은 모든 주소 *abc@marketing.luma.com* 는 금지됩니다.
+를 사용하려면 **[!UICONTROL BCC email]** 옵션을 선택한 경우 전용 필드에 원하는 이메일 주소를 입력합니다. Adobe에 위임된 하위 도메인에 정의된 이메일 주소를 제외하고 올바른 형식으로 외부 주소를 지정할 수 있습니다. 예를 들어 *marketing.luma.com* Adobe 하위 도메인, 다음과 같은 주소 *abc@marketing.luma.com* 는 금지됩니다.
 
 >[!NOTE]
 >

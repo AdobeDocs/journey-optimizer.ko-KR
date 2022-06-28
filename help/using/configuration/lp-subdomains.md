@@ -3,10 +3,11 @@ title: 랜딩 페이지 하위 도메인 구성
 description: Journey Optimizer을 사용하여 랜딩 페이지 하위 도메인을 구성하는 방법 알아보기
 role: Admin
 level: Intermediate
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 0%
+source-wordcount: '687'
+ht-degree: 1%
 
 ---
 
@@ -58,6 +59,10 @@ ht-degree: 0%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
+   동일한 상위 도메인의 여러 위임된 하위 도메인은 사용할 수 없습니다. 예를 들어 marketing1.yourcompany.com이 랜딩 페이지에 대해 Adobe에 이미 위임된 경우에는 marketing2.yourcompany.com을 사용할 수 없습니다. 그러나 다중 수준 하위 도메인은 랜딩 페이지에 대해 지원되므로 &#39;email.marketing1.yourcompany.com&#39;을 사용할 수 있습니다.
+
+   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+
    >[!CAUTION]
    >
    >을 사용하여 Adobe에 위임된 도메인을 선택하는 경우 [CNAME 메서드](delegate-subdomain.md#cname-subdomain-delegation)를 채울 때는 호스팅 플랫폼에 DNS 레코드를 만들어야 합니다. DNS 레코드를 생성하기 위해 프로세스는 새 랜딩 페이지 하위 도메인을 구성할 때와 동일합니다. 방법 알아보기 [이 섹션](#lp-configure-new-subdomain).
@@ -99,7 +104,11 @@ ht-degree: 0%
 
    잘못된 하위 도메인을 Adobe으로 위임하는 것은 허용되지 않습니다. marketing.yourcompany.com과 같이 조직이 소유한 유효한 하위 도메인을 입력해야 합니다.
 
-   &#39;email.marketing.yourcompany.com&#39;과 같은 다중 수준 하위 도메인은 현재 지원되지 않습니다.
+   >[!NOTE]
+   >
+   >랜딩 페이지의 경우 다중 수준 하위 도메인이 지원됩니다. 예를 들어 &#39;email.marketing.yourcompany.com&#39;을 사용할 수 있습니다.
+
+   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. DNS 서버에 배치할 레코드가 표시됩니다. 이 레코드를 복사하거나 CSV 파일을 다운로드한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 DNS 레코드를 생성합니다.
 
