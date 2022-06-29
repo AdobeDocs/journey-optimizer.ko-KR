@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 35%
+source-wordcount: '447'
+ht-degree: 31%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 35%
 <td>
 <p>이제 이메일 BCC(숨은 참조) 기능을 사용하여 Adobe Journey Optimizer에서 보낸 이메일을 저장할 수 있습니다. 전자 메일 사전 설정에서 이 옵션을 활성화하여 전송된 모든 전자 메일이 BCC 주소로 블라인드(bcc)로 복사됩니다.</p>
 <img src="assets/do-not-localize/bcc-rn.gif"/>
-<p>자세한 내용은 <a href="../configuration/bcc-email.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../configuration/bcc-email.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -92,22 +92,21 @@ ht-degree: 35%
 </tbody>
 </table>-->
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Copy objects between sandboxes</strong><br/></th>
+<th><strong>샌드박스 간 개체 복사</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now re-create the experiences from a Journey Optimizer sandbox to another, for example from a non-production sandbox to a production sandbox. This new capability copies an entire Journey, including any objects the Journey depends on to run correctly, from one environment to another. In addition to Journeys, you can also copy other components, such as Offers, Messages, Schemas, Datasets, Data Sources, Events, and Actions.</p>
-<p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>이제 Journey Optimizer 샌드박스에서 다른 샌드박스로(예: 비프로덕션 샌드박스에서 프로덕션 샌드박스로) 경험을 다시 만들 수 있습니다. 이 새 기능은 여정이 올바르게 실행하기 위해 사용하는 개체를 비롯하여 전체 여정을 한 환경에서 다른 환경으로 복사합니다. 여정 외에도 오퍼, 메시지, 스키마, 데이터 세트, 데이터 소스, 이벤트 및 작업과 같은 다른 구성 요소를 복사할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../building-journeys/copy-to-sandbox.md">자세한 설명서</a>를 참조하세요.
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <!--table>
 <thead>
