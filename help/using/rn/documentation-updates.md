@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 90%
+source-wordcount: '1606'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 90%
 * 허용 목록 페이지가 구성 섹션으로 이동되었습니다. [자세히 보기](../configuration/allow-list.md)
 * 제외 목록 페이지가 32-126 사이의 모든 ASCII 문자가 제외 필드에 대해 허용된다는 사실을 포함하여 일부 정보를 명확하게 하도록 업데이트되었습니다. [자세히 보기](../configuration/manage-suppression-list.md)
 * 결정 관리에 대한 보호 및 정적 제한에 대한 링크가 추가되었습니다. [자세히 보기](../start/guardrails.md)
+* 이제 모든 고객이 전송 시간 최적화를 사용할 수 있습니다. 베타 언급이 제거되었습니다. [자세히 보기](../building-journeys/journeys-message.md#send-time-optimization)
+
 
 
 ## 2022년 5월 {#may-2022}

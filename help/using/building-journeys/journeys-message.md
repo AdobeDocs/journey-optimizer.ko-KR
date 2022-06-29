@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
+source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 5%
+source-wordcount: '804'
+ht-degree: 3%
 
 ---
 
@@ -71,10 +71,6 @@ ht-degree: 5%
 >abstract="Adobe의 AI 서비스를 기반으로 하는 Adobe Journey Optimizer의 전송 시간 최적화 기능은 이메일 또는 푸시 메시지를 보내는 최적의 시간을 예측하여 과거의 공개 및 클릭 비율에 따라 참여를 극대화할 수 있습니다."
 
 Adobe의 AI 서비스를 기반으로 하는 Adobe Journey Optimizer의 전송 시간 최적화 기능은 이메일 또는 푸시 메시지를 보내는 최적의 시간을 예측하여 과거의 공개 및 클릭 비율에 따라 참여를 극대화할 수 있습니다. Adobe의 기계 학습 모델을 사용하여 각 사용자가 메시지의 오픈과 클릭률을 높일 수 있도록 개인화된 전송 시간을 예약할 수 있습니다.
-
->[!AVAILABILITY]
->
->이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.
 
 Send-Time Optimization 모델은 Adobe Journey Optimizer 데이터를 수집하여 사용자 수준의 열기(이메일 및 푸시)를 확인하고 (이메일용) 비율을 확인하여 고객이 언제 메시지를 가장 많이 이용할 수 있는지 결정합니다. 전송 시간 최적화를 사용하려면 올바른 권장 사항을 제공하기 위해 최소 1개월의 메시지 추적 데이터가 필요합니다. 각 사용자에 대해 다음 점수를 사용하여 최적의 시간을 자동으로 선택합니다.
 
