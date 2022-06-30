@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,11 @@ ht-degree: 2%
 
 작업이 순서대로 실행되도록 디자인된 여정과 달리, 캠페인은 즉시 또는 지정된 일정에 따라 작업을 동시에 실행합니다. 예를 들어 프로모션, 참여 캠페인, 공지, 법적 고지 사항 또는 정책 업데이트를 제공하는 데 사용할 수 있습니다.
 
-<!--Additionally, campaigns' content experiment feature allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.-->
-
-캠페인 관리 방법 알아보기 &lt;!>—and content experiments&lt;>:
+캠페인 사용 방법 알아보기:
 * [캠페인 만들기](create-campaign.md)
 * [캠페인 수정 또는 중지](modify-stop-campaign.md)
-<!--* [Create a content experiment](content-experiment.md)-->
+* [Campaign 라이브 보고서](campaign-live-report.md)
+* [Campaign 글로벌 보고서](campaign-global-report.md)
 
 ## 캠페인 액세스 {#access}
 
