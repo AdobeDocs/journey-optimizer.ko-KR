@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '681'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 97%
 
    * **[!UICONTROL Message category]**&#x200B;를 마케팅 또는 트랜잭션 중에서 선택합니다.
 
-   * 해당 메시지에 사용할 채널을 선택합니다. 이메일, 푸시 알림 및/또는 SMS 메시지를 만들려면 채널을 하나 이상 선택해야 합니다.
+   * 해당 메시지에 사용할 채널(이메일, 푸시 알림 및/또는 SMS)을 선택합니다. 메시지를 만들려면 채널을 하나 이상 선택해야 합니다.
    >[!NOTE]
    >
    >**[!UICONTROL Frequency rule]** 링크를 클릭하여 선택한 카테고리 및 채널에 적용할 빈도 규칙을 볼 수 있습니다. [빈도 규칙](../configuration/frequency-rules.md)에 관해 자세히 알아보십시오.
