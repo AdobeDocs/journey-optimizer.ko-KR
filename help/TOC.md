@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 96%
    + [캠페인 만들기](using/campaigns/create-campaign.md)
    + [캠페인 수정 또는 중지](using/campaigns/modify-stop-campaign.md)
    + 보고서 {#reports}
-      + [Campaign 라이브 보고서](using/campaigns/campaign-live-report.md)
-      + [Campaign 글로벌 보고서](using/campaigns/campaign-global-report.md)
+      + [캠페인 라이브 보고서](using/campaigns/campaign-live-report.md)
+      + [캠페인 글로벌 보고서](using/campaigns/campaign-global-report.md)
 + 메시지 {#messages}
    + [메시지 시작](using/messages/get-started-content.md)
    + [이메일 만들기](using/messages/create-email.md)
@@ -124,7 +124,7 @@ ht-degree: 96%
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 게시](using/building-journeys/publishing-the-journey.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
-      + [다른 샌드박스에 여정 복사](using/building-journeys/copy-to-sandbox.md)
+      + [여정 복사 다른 샌드박스](using/building-journeys/copy-to-sandbox.md)
       + [여정 문제 해결](using/building-journeys/troubleshooting.md)
    + 활동 {#about-journey-building}
       + [여정 활동 정보](using/building-journeys/about-journey-activities.md)
@@ -359,7 +359,7 @@ ht-degree: 96%
 + 데이터 관리 {#data-management}
    + [스키마](using/start/get-started-schemas.md)
    + 데이터 세트 {#datasets}
-      + [데이터 세트 시작](using/start/get-started-datasets.md)
+      + [데이트 세트 시작](using/start/get-started-datasets.md)
       + [쿼리 예](using/start/datasets-query-examples.md)
    + [쿼리](using/start/get-started-queries.md)
 + 구성{#configuration}
