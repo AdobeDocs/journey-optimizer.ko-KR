@@ -3,9 +3,9 @@ title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: bfd12553c653a4d4caccc969cb51b1416c64ba65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 96%
 
 **관리**
 
-* **라이선스 사용 대시보드 업데이트** - 사용 가능한 라이센스 사용량 대시보드 [!DNL Adobe Journey Optimizer] 이제 사용자 인터페이스에 의 정확한 값이 반영됩니다 **라이센스** 평균 프로필 품질. 이 지표 표시에 감소가 표시되는데, 이것은 이제 라이선스 제한이 올바로 보고됨을 의미합니다. [자세히 보기](../segment/license-usage.md)
+* **라이선스 사용 대시보드 업데이트** - 이제 사용자 인터페이스에서 [!DNL Adobe Journey Optimizer]사용할 수 있는 라이선스 사용 대시보드가 **라이선스** 평균 프로필 풍부성의 정확한 값을 반영합니다. 이 지표 표시에 감소가 표시되는데, 이것은 이제 라이선스 제한이 올바로 보고됨을 의미합니다. [자세히 보기](../segment/license-usage.md)
 
 
 ## 2022년 4월 릴리스 {#april-2022-release}
