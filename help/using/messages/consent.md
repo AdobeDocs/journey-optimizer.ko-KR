@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1314'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -203,7 +203,7 @@ ht-degree: 95%
    >
    >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 표시되지 않습니다.
 
-* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
+* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
 
 ## 푸시 옵트아웃 관리 {#push-opt-out-management}
 
@@ -214,6 +214,6 @@ ht-degree: 95%
 ## SMS 옵트아웃 관리 {#sms-opt-out-management}
 
 업계 표준 및 규정에 따라 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다.
-Adobe Journey Optimizer은 수신 메시지에서 다음 키워드를 자동으로 처리합니다. 시작, 중지, 중지. 이러한 키워드는 SMS 공급자로부터 자동 표준 응답을 트리거합니다.
+Adobe Journey Optimizer은 수신 메시지에서 시작, 중지, 중지 키워드를 자동으로 처리합니다. 이러한 키워드는 SMS 공급자로부터 자동 표준 응답을 트리거합니다.
 
-SMS 옵트아웃에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../messages/create-sms.md#opt-in-and-opt-out).
+SMS 옵트아웃에 대한 자세한 내용은 이 [페이지](../messages/create-sms.md#opt-in-and-opt-out)를 참조하십시오.
