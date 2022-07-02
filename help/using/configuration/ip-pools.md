@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: b29ab43f56b64d5bf972a45036c639454b650099
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '526'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ IP 풀을 편집하려면
 업데이트는 다음에 연결되는 IP 풀에 따라 즉시 또는 비동기식으로 적용됩니다 [메시지 사전 설정](message-presets.md) 또는 다음 아님:
 
 * IP 풀이 **not** 메시지 사전 설정에서 선택된 경우 업데이트가 즉시(으)로 표시됩니다.**[!UICONTROL Success]** 상태).
-* IP 풀이 **is** 메시지 사전 설정에서 을 선택하면 최대 7~10일(영업일 기준)이 소요될 수 있습니다&#x200B;**[!UICONTROL Processing]** 상태).
+* IP 풀이 **is** 메시지 사전 설정에서 을 선택하면 최대 3시간이 걸릴 수 있습니다(**[!UICONTROL Processing]** 상태).
 
 >[!NOTE]
 >

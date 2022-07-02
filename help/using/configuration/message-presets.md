@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 492acb7c7474964bb27cd562db5cd4cb2ed42784
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1483'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 2%
 
 1. 메시지 사전 설정이 만들어지면 와 함께 목록에 표시됩니다 **[!UICONTROL Processing]** 상태.
 
-   이 단계에서는 구성이 올바른지 확인하기 위해 몇 가지 확인이 수행됩니다. 처리 시간이 거의 다 되었습니다 **48h-72h**&#x200B;과 같은 작업을 수행할 수 있습니다. **7-10 영업일**.
+   이 단계에서는 구성이 올바른지 확인하기 위해 몇 가지 확인이 수행됩니다. 처리 시간은 최대 시간이 소요될 수 있습니다 **3시간**.
 
    이러한 검사에는 Adobe 팀이 수행하는 구성 및 기술 테스트가 포함됩니다.
 
@@ -217,7 +217,7 @@ ht-degree: 2%
 >
 >를 편집할 때만 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 및/또는 **[!UICONTROL Email retry parameters]** 필드, 업데이트는 즉시 수행됩니다.
 
-처리 시간이 거의 다 되었습니다 **48h-72h**&#x200B;과 같은 작업을 수행할 수 있습니다. **7-10 영업일**. 에서 유효성 검사 주기 동안 수행한 검사에 대해 자세히 알아보십시오 [이 섹션](#create-message-preset).
+처리 시간은 최대 시간이 소요될 수 있습니다 **3시간**. 에서 유효성 검사 주기 동안 수행한 검사에 대해 자세히 알아보십시오 [이 섹션](#create-message-preset).
 
 이미 활성 상태인 사전 설정을 편집하는 경우:
 

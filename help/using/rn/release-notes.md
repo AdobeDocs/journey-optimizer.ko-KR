@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
+source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 84%
+source-wordcount: '486'
+ht-degree: 78%
 
 ---
 
@@ -148,6 +148,10 @@ ht-degree: 84%
 <!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
 
 * **미리 보기 추적 URL 매개 변수** - 메시지 사전 설정을 구성할 때 URL 추적 매개 변수를 정의하는 경우 결과 추적 URL의 동적 미리 보기가 표시됩니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
+
+* **메시지 사전 설정 작성** - 이제 메시지 사전 설정을 만들 때 처리 시간은 최대 3시간만 소요될 수 있습니다. [자세히 보기](../configuration/message-presets.md#create-message-preset)
+
+* **IP 풀 에디션** - 이제 IP 풀 업데이트 처리 시간은 최대 3시간만 소요될 수 있습니다. [자세히 보기](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
