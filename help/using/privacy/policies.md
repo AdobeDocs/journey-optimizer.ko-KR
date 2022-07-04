@@ -24,5 +24,5 @@ Adobe Experience Platform **데이터 거버넌스 서비스**&#x200B;를 사용
 데이터 거버넌스 프레임워크, 그리고 레이블 및 정책으로 작동하는 방법에 대한 자세한 내용은 Adobe Experience Platform 설명서를 참조하십시오.
 
 * [데이터 거버넌스 서비스 개요](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko)
-* [데이터 사용 레이블 개요](ohttps://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko)
+* [데이터 사용 레이블 개요](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko)
 * [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko)
