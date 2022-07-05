@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 6%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 1%
 >[!NOTE]
 >
 >메시지 빈도 규칙은 옵트아웃 관리와는 다릅니다. 옵트아웃 관리에서는 사용자가 브랜드로부터 커뮤니케이션 수신을 취소할 수 있습니다. [자세히 보기](../messages/consent.md#opt-out-management)
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 액세스 규칙 {#access-rules}
 
@@ -125,7 +127,7 @@ ht-degree: 1%
 
    ![](assets/message-rules-msg-channels.png)
 
-1. 을(를) 클릭합니다. **[!UICONTROL Frequency rule]** 링크를 클릭하여 선택한 카테고리 및 채널에 적용할 빈도 규칙을 봅니다.
+1. **[!UICONTROL Frequency rule]** 링크를 클릭하여 선택한 카테고리 및 채널에 적용할 빈도 규칙을 볼 수 있습니다.
 
    ![](assets/message-rules-msg-link.png)
 
@@ -177,7 +179,7 @@ ht-degree: 1%
 
    ![](assets/message-rules-ex-channels.png)
 
-1. 을(를) 클릭합니다. **[!UICONTROL Frequency rule]** 링크를 클릭하여 선택한 카테고리 및 채널에 적용할 빈도 규칙을 봅니다.
+1. **[!UICONTROL Frequency rule]** 링크를 클릭하여 선택한 카테고리 및 채널에 적용할 빈도 규칙을 볼 수 있습니다.
 
 1. [디자인](../design/design-emails.md) 및 [게시](../messages/publish-manage-message.md) 메시지를 표시합니다.
 
@@ -188,3 +190,9 @@ ht-degree: 1%
 >[!NOTE]
 >
 >빈도 규칙을 테스트할 때 새로 만든 [테스트 프로필](../segment/creating-test-profiles.md)프로필의 빈도 상한에 도달하면 다음 달까지 카운터를 재설정할 수 없기 때문입니다. 규칙을 비활성화하면 캡처한 프로필에서 메시지를 받을 수 있지만 카운터 증분은 제거하거나 삭제하지 않습니다.
+
+## 방법 비디오 {#video}
+
+빈도 규칙을 만들고, 활성화하고, 테스트하고, 보고하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

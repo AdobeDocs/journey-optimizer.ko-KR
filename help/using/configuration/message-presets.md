@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 2%
+source-wordcount: '1476'
+ht-degree: 1%
 
 ---
 
@@ -49,11 +49,25 @@ ht-degree: 2%
    >
    > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
 
-1. 구성 **이메일** 설정. [자세히 보기](#configure-email-settings)
+1. 을(를) 선택한 경우 **[!UICONTROL Email]** 채널에서 다음에 설명된 대로 설정을 구성합니다. [이 섹션](email-settings.md).
 
-1. 구성 **푸시 알림** 설정. [자세히 보기](#configure-push-settings)
+   ![](assets/preset-email.png)
 
-1. 구성 **SMS** 설정. [자세히 보기](sms-configuration.md)
+1. 을(를) 선택한 경우 **[!UICONTROL Push Notification]** 채널에서 하나 이상의 플랫폼(**iOS** 및/또는 **Android**)을 클릭하고 각 플랫폼에 사용할 모바일 애플리케이션을 선택합니다.
+
+   ![](assets/preset-push.png)
+
+   >[!NOTE]
+   >
+   >푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](push-gs.md).
+
+1. 을(를) 선택한 경우 **[!UICONTROL SMS]** 채널에서 다음에 설명된 대로 설정을 구성합니다. [이 섹션](sms-configuration.md#message-preset-sms).
+
+   ![](assets/preset-sms.png)
+
+   >[!NOTE]
+   >
+   >SMS 메시지를 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](sms-configuration.md).
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL Submit]** 확인합니다. 메시지 사전 설정을 초안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 
@@ -86,42 +100,6 @@ ht-degree: 2%
 1. 확인이 성공하면 메시지 사전 설정이 **[!UICONTROL Active]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
    ![](assets/preset-active.png)
-
-## 이메일 설정 구성 {#configure-email-settings}
-
-이메일 설정은 메시지 사전 설정 구성의 전용 섹션에 정의됩니다.
-
-![](assets/preset-email.png)
-
-에 설명된 대로 설정을 구성합니다. [이 섹션](email-settings.md).
-
-## 푸시 설정 구성 {#configure-push-settings}
-
-푸시 설정은 메시지 사전 설정 구성의 전용 섹션에 정의되어 있습니다.
-
-메시지 사전 설정에 연결된 푸시 설정을 정의하려면 아래 단계를 수행합니다.
-
-1. 하나 이상의 플랫폼을 선택하십시오. **iOS** 및/또는 **Android**.
-
-1. 각 플랫폼에 사용할 모바일 애플리케이션을 선택합니다.
-
-![](assets/preset-push.png)
-
-푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../configuration/push-gs.md).
-
-<!--
-## Configure SMS settings {#configure-sms-settings}
-
-1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
-
-    ![](assets/preset-sms.png)
-    
-1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
 
 ## 메시지 사전 설정 모니터링 {#monitor-message-presets}
 
@@ -185,6 +163,8 @@ ht-degree: 2%
 >
 >를 편집할 때만 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 및/또는 **[!UICONTROL Email retry parameters]** 필드, 업데이트는 즉시 수행됩니다.
 
+### 업데이트 세부 사항 {#update-details}
+
 다음을 포함하는 메시지 사전 설정 **[!UICONTROL Active]** 상태, 업데이트 세부 사항을 확인할 수 있습니다. 방법은 다음과 같습니다.
 
 * 을(를) 클릭합니다. **[!UICONTROL Recent update]** 활성 사전 설정 이름 옆에 표시되는 아이콘입니다.
@@ -209,7 +189,7 @@ ht-degree: 2%
 
 각 상태는 아래에 자세히 설명되어 있습니다.
 
-### 처리 중
+#### 처리 중
 
 사전 설정이 제대로 업데이트되었는지 확인하기 위해 몇 가지 게재 기능 검사가 수행됩니다.
 
@@ -231,13 +211,13 @@ ht-degree: 2%
 >
 >업데이트가 진행되는 동안에는 메시지 사전 설정을 수정할 수 없습니다. 여전히 해당 이름을 클릭할 수 있지만, 모든 필드가 회색으로 표시됩니다. 업데이트가 완료될 때까지 변경 사항이 반영되지 않습니다.
 
-### 성공 {#success}
+#### 성공 {#success}
 
 유효성 검사 프로세스가 성공하면 이 사전 설정을 사용하는 모든 메시지에 새 버전의 사전 설정이 자동으로 사용됩니다. 그러나 다음을 기다려야 할 수 있습니다.
 * 몇 분 전에 한 가지 메세지에 의해
 * 사전 설정에 대한 다음 일괄 처리가 배치 메시지에서 유효할 때까지.
 
-### 실패 {#failed}
+#### 실패 {#failed}
 
 유효성 검사 프로세스가 실패하면 이전 버전의 사전 설정이 계속 사용됩니다.
 

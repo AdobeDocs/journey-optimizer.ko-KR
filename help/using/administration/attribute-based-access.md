@@ -7,10 +7,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f00d503ef5ea38b35b7f56821a9f523dca9fbb94
+exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->속성 기반 액세스 제어 사용은 현재 조기 액세스에서 사용자만 선택할 수 있습니다. 이 기능을 활용하려면 Adobe 계정 담당자에게 문의하십시오.
+>속성 기반 액세스 제어 사용은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 이 기능을 활용하려면 Adobe 계정 담당자에게 문의하십시오.
 
 ABAC(속성 기반 액세스 제어)를 사용하면 특정 팀 또는 사용자 그룹의 데이터 액세스를 관리하기 위한 권한을 정의할 수 있습니다. 이 소프트웨어의 목적은 개인 데이터를 추가로 보호할 수 있도록 권한이 없는 사용자로부터 중요한 디지털 자산을 보호하는 것입니다.
 
@@ -45,7 +46,7 @@ Adobe Journey Optimizer에서 ABAC를 사용하면 데이터를 보호하고 XDM
 
 다음을 추가할 수도 있습니다  **[!UICONTROL Label]** to  **[!UICONTROL Schema]**,  **[!UICONTROL Datasets]** 및  **[!UICONTROL Segments]**.
 
-1. 만들기 **[!UICONTROL Schema]**. 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en).
+1. 만들기 **[!UICONTROL Schema]**. 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR).
 
    ![](assets/label_1.png)
 
@@ -159,4 +160,3 @@ C2 객체에 레이블을 지정할 수 없는 여정 Y가 이 필드나 이 제
 * 사용자 Y가 여정 또는 메시지를 테스트할 수 없습니다.
 
 * 사용자 Y가 여정 또는 메시지를 게시할 수 없습니다.
-

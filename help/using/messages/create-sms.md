@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 9%
+source-wordcount: '420'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
 ![](assets/sms_1.png)
 
@@ -68,6 +68,16 @@ SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 모든 마케팅 메시지의 경우 SMS에는 수신자가 쉽게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 가입 해지되면 향후 마케팅 메시지 대상자에서 프로필이 자동으로 제거됩니다. 트랜잭션 메시지에 구독 취소 링크를 추가하는 것은 필수가 아닙니다.
 
 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. Adobe Journey Optimizer은 업계 표준 및 규정에 따라 수신 메시지에서 다음 키워드를 자동으로 처리합니다. 시작, 중지, 중지. 이러한 키워드는 SMS 공급자로부터 자동 표준 응답을 트리거합니다.
+
+SMS에 대한 기본 인바운드 키워드 지원(시작, 중지 및 중지)이 작동하는 방식에 대한 자세한 내용은 다음 비디오를 참조하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
+## 방법 비디오
+
+고객 여정에 SMS 메시지를 구성, 작성 및 포함하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
 
 **관련 항목**
 

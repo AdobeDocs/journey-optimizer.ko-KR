@@ -4,9 +4,9 @@ description: Journey Optimizer을 사용하여 랜딩 페이지 하위 도메인
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -59,9 +59,7 @@ ht-degree: 1%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   동일한 상위 도메인의 여러 위임된 하위 도메인은 사용할 수 없습니다. 예를 들어 &#39;marketing1.yourcompany.com&#39;이 랜딩 페이지의 Adobe에 이미 위임된 경우에는 &#39;marketing2.yourcompany.com&#39;을 사용할 수 없습니다. 그러나 다중 수준 하위 도메인은 랜딩 페이지에 대해 지원되므로 &#39;email.marketing1.yourcompany.com&#39;을 사용할 수 있습니다.
-
-   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+   동일한 상위 도메인의 여러 위임된 하위 도메인은 사용할 수 없습니다. 예를 들어 &#39;marketing1.yourcompany.com&#39;이 랜딩 페이지의 Adobe에 이미 위임된 경우에는 &#39;marketing2.yourcompany.com&#39;을 사용할 수 없습니다. 그러나 랜딩 페이지에 대해 지원되는 다중 수준 하위 도메인은 &#39;marketing1.yourcompany.com&#39;의 하위 도메인(예: &#39;email.marketing1.yourcompany.com&#39;)이나 다른 상위 도메인을 사용하여 진행할 수 있습니다.
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ ht-degree: 1%
    >[!NOTE]
    >
    >랜딩 페이지의 경우 다중 수준 하위 도메인이 지원됩니다. 예를 들어 &#39;email.marketing.yourcompany.com&#39;을 사용할 수 있습니다.
-
-   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. DNS 서버에 배치할 레코드가 표시됩니다. 이 레코드를 복사하거나 CSV 파일을 다운로드한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 DNS 레코드를 생성합니다.
 
