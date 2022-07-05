@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 492acb7c7474964bb27cd562db5cd4cb2ed42784
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1498'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 2%
 
 1. 메시지 사전 설정이 만들어지면 와 함께 목록에 표시됩니다 **[!UICONTROL Processing]** 상태.
 
-   이 단계에서는 구성이 올바른지 확인하기 위해 몇 가지 확인이 수행됩니다. 처리 시간은 최대 시간이 소요될 수 있습니다 **3시간**.
+   이 단계에서는 구성이 올바른지 확인하기 위해 몇 가지 확인이 수행됩니다. 처리 시간이 거의 다 되었습니다 **48h-72h**&#x200B;과 같은 작업을 수행할 수 있습니다. **7-10 영업일**.
 
    이러한 검사에는 Adobe 팀이 수행하는 구성 및 기술 테스트가 포함됩니다.
 
@@ -179,7 +179,7 @@ ht-degree: 2%
    >
    >메시지 사전 설정을 초안으로 저장하고 나중에 업데이트를 다시 시작할 수도 있습니다.
 
-변경 사항이 제출되면 메시지 사전 설정은 [사전 설정 만들기](#create-message-preset).
+변경 사항이 제출되면 메시지 사전 설정은 [사전 설정 만들기](#create-message-preset). 편집 처리 시간은 최대 시간이 소요될 수 있습니다 **3시간**.
 
 >[!NOTE]
 >
