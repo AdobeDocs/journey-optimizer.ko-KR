@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 1b181ae4330f0efe209944980344c6726e8d595c
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 15%
+source-wordcount: '234'
+ht-degree: 16%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 15%
 
 1. **[!UICONTROL Create placement]**&#x200B;을(를) 클릭합니다.
 
-   !![](../assets/offers_placement_creation.png)
+   ![](../assets/offers_placement_creation.png)
 
 1. 배치 속성을 정의합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 15%
 
    ![](../assets/offers_placement_creation_properties.png)
 
-1. 클릭 **[!UICONTROL Save]** 확인합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 확인합니다.
 
 1. 배치가 만들어지면 배치 목록에 표시됩니다. 속성을 표시하고 편집할 수 있도록 선택할 수 있습니다.
 
