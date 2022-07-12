@@ -2,7 +2,7 @@
 title: 여정 인라인 작성으로 마이그레이션
 description: 메시지 마이그레이션 방법 알아보기
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 0%
@@ -114,8 +114,8 @@ GA(7월 25일)에 이 새 사용자 흐름은 모든 새 여정에 적용됩니�
 
 마이그레이션은 몇 번의 반복을 통해 야간에 각 지역에 대해 발생합니다. 다음은 마이그레이션 타임라인입니다.
 
-* 2002년 7월 25일: GA - 첫 번째 반복
-* 2002년 8월 1일: 두 번째 반복
+* 2022년 7월 25일: GA - 첫 번째 반복
+* 2022년 8월 1일: 두 번째 반복
 * 2022년 9월 5일: 세 번째 반복
 * 2022년 9월 6일: 사용 중단
 
