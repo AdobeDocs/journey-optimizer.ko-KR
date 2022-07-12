@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b1210a562f809d368e251a6652aed9a920436804
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 3%
+source-wordcount: '204'
+ht-degree: 15%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 3%
 캠페인의 새 버전을 수정하고 만들려면 다음 단계를 수행합니다.
 
 1. 캠페인을 연 다음 **[!UICONTROL Modify campaign]** 버튼을 클릭합니다.
-
-   ![](assets/create-campaign-edit.png)
 
 1. 캠페인의 새 버전이 만들어집니다. 를 클릭하여 라이브 버전을 확인할 수 있습니다 **[!UICONTROL Open live version]**.
 
@@ -41,8 +39,6 @@ ht-degree: 3%
    >
    >초안을 활성화하면 캠페인의 라이브 버전이 대체됩니다.
 
-   ![](assets/create-campaign-activate-draft.png)
-
 ## 캠페인 중지 {#stop}
 
 캠페인을 중지하려면 캠페인을 연 다음 **[!UICONTROL Stop campaign]** 버튼을 클릭합니다.
@@ -52,3 +48,11 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >캠페인을 중지한 후에는 읽기 전용 모드에서만 사용할 수 있습니다. 다시 활성화하거나 새 캠페인을 만드는 데 사용할 수 없습니다.
+
+## 추가 리소스
+
+* [캠페인 시작](get-started-with-campaigns.md)
+* [캠페인 만들기](create-campaign.md)
+* [API로 트리거된 캠페인 만들기](api-triggered-campaigns.md)
+* [캠페인 라이브 보고서](campaign-live-report.md)
+* [캠페인 글로벌 보고서](campaign-global-report.md)

@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 3%
+source-wordcount: '724'
+ht-degree: 5%
 
 ---
 
@@ -33,20 +33,22 @@ ht-degree: 3%
 
    ![](assets/create-campaign.png)
 
-<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+1. 에서 **[!UICONTROL Properties]** 섹션에서 캠페인을 실행할 시기를 지정합니다.
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date,
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. In this case, profiles to be targeted and triggers for actions need to be set via the API call.-->
+   * **[!UICONTROL Scheduled]**: 캠페인을 즉시 또는 지정된 날짜에 실행합니다. 예약된 캠페인은 **마케팅** 메시지 입력.
+   * **[!UICONTROL API-triggered]**: api 호출을 사용하여 캠페인을 실행합니다. API로 트리거된 캠페인은 **트랜잭션** 메시지, 즉 개인이 수행한 작업에 따라 전송된 메시지: 암호 재설정, 카드 포기 등 [API를 사용하여 캠페인을 트리거하는 방법을 알아봅니다](api-triggered-campaigns.md)
 
-1. 에서 **[!UICONTROL Actions]** 섹션에서 메시지를 보내는 데 사용할 채널과 메시지 표면(즉, 메시지 사전 설정)을 선택합니다.
+1. 에서 **[!UICONTROL Actions]** 섹션에서 메시지를 보내는 데 사용할 채널과 메시지 표면(즉, 메시지 사전 설정)을 선택한 다음 을 클릭합니다 **[!UICONTROL Create]**.
 
    ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >캠페인 유형(마케팅 또는 트랜잭션)과 호환되는 메시지 표면만 드롭다운 목록에 나열됩니다.
 
 1. 캠페인의 제목과 설명을 지정합니다.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
-
-   ![](assets/create-campaign-properties.png)
 
 1. 에서 **[!UICONTROL Actions]** 섹션에서 캠페인과 함께 전송할 메시지를 구성합니다.
 
@@ -60,13 +62,11 @@ ht-degree: 3%
 
       캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](campaign-global-report.md)
 
-      ![](assets/create-campaign-action-properties.png)
-
 1. 타겟팅할 대상을 정의합니다. 이렇게 하려면 **[!UICONTROL Select audience]** 사용 가능한 Adobe Experience Platform 세그먼트 목록을 표시하는 단추. [세그먼트에 대해 자세히 알아보기](../segment/about-segments.md)
 
-   ![](assets/create-campaign-audience.png)
-
-   <!--By default, the targeted audience for in-app messages includes all the users of the selected mobile application.-->
+   >[!NOTE]
+   >
+   >API로 트리거되는 캠페인의 경우 API 호출을 통해 대상을 설정해야 합니다. [자세히 보기](api-triggered-campaigns.md)
 
    에서 **[!UICONTROL Identity namespace]** 필드에서 선택한 세그먼트에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
 
@@ -74,18 +74,19 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타겟팅되지 않습니다. <!--info vue dans section journeys, read segment-->
+   >다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타겟팅되지 않습니다.
 
-   <!--If you are creating a campaign to send an in-app message, you can choose how and when the message will be shown to the audience using existing mobile app triggers.-->
-   <!-- where are triggers configured?-->
+1. 캠페인의 시작 및 종료 날짜를 구성합니다. 기본적으로 캠페인은 수동으로 활성화되면 시작되고, 메시지가 한 번 전송되면 종료되도록 구성됩니다.
 
-1. 캠페인의 시작 및 종료 날짜를 구성합니다.
+1. 또한 캠페인에 구성된 작업 실행 빈도를 지정할 수 있습니다.
 
-   기본적으로 캠페인은 수동으로 활성화되면 시작되고, 메시지가 한 번 전송되면 종료되도록 구성됩니다.
-
-1. 또한 캠페인에 구성된 작업을 실행할 빈도를 구성할 수 있습니다.
+   >[!NOTE]
+   >
+   >API로 트리거되는 캠페인의 경우 API를 통해 작업이 트리거되므로 특정 날짜 및 시간에 반복을 사용하여 예약할 수 없습니다. 하지만 시작 및 종료 날짜는 창 이후에 API 호출이 수행되면 오류가 발생하는지 확인하는 데 관련이 있습니다.
 
    ![](assets/create-campaign-schedule.png)
+
+1. API로 트리거되는 캠페인을 만드는 경우 **[!UICONTROL cURL request]** 섹션에서 을(를) 검색할 수 있습니다 **[!UICONTROL Campaign ID]** api 호출에 를 사용하도록 설정하는 중입니다. [자세히 보기](api-triggered-campaigns.md)
 
 캠페인이 준비되면 검토하고 게시할 수 있습니다( [캠페인 검토 및 활성화](#review-activate)).
 
@@ -124,3 +125,11 @@ ht-degree: 3%
    >[!IMPORTANT]
    >
    >캠페인에서 생성된 메시지는 [!DNL Journey Optimizer] campaign 기능을 사용할 수 있습니다. 만든 후에 캠페인에서만 액세스할 수 있고, 에는 표시되지 않습니다. **[!UICONTROL Messages]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+
+## 추가 리소스
+
+* [캠페인 시작](get-started-with-campaigns.md)
+* [API로 트리거된 캠페인 만들기](api-triggered-campaigns.md)
+* [캠페인 수정 또는 중지](modify-stop-campaign.md)
+* [캠페인 라이브 보고서](campaign-live-report.md)
+* [캠페인 글로벌 보고서](campaign-global-report.md)

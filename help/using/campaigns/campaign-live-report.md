@@ -1,5 +1,5 @@
 ---
-title: Campaign 라이브 보고서
+title: 캠페인 라이브 보고서
 description: Campaign 라이브 보고서에서 데이터를 사용하는 방법을 알아봅니다
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 43a076632d2f2195ce0293f741dfbc28d4eea24a
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 0%
+source-wordcount: '618'
+ht-degree: 4%
 
 ---
 
-# Campaign 라이브 보고서 {#campaign-live-report}
+# 캠페인 라이브 보고서 {#campaign-live-report}
 
 캠페인 라이브 보고서는 **[!UICONTROL Live view]** 버튼을 클릭합니다.
 
@@ -110,3 +110,11 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 다음 **[!UICONTROL Sending statistics - Failed]** 위젯을 사용하면 발생한 오류 및 반송 수를 확인할 수 있습니다.
 
 다음 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 및 **[!UICONTROL Breakdown by platform]** 그래프 및 표는 운영 시스템에 따라 푸시 알림의 성공을 자세히 설명합니다.
+
+## 추가 리소스
+
+* [캠페인 시작](get-started-with-campaigns.md)
+* [캠페인 만들기](create-campaign.md)
+* [API로 트리거된 캠페인 만들기](api-triggered-campaigns.md)
+* [캠페인 수정 또는 중지](modify-stop-campaign.md)
+* [캠페인 글로벌 보고서](campaign-global-report.md)

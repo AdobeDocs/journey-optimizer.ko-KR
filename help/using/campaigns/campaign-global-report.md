@@ -1,5 +1,5 @@
 ---
-title: Campaign 글로벌 보고서
+title: 캠페인 글로벌 보고서
 description: campaign 글로벌 보고서에서 데이터를 사용하는 방법을 알아봅니다
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: cc20ecf0a019cecb8a4ae9420c5dbdcb28443c91
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 0%
+source-wordcount: '1245'
+ht-degree: 2%
 
 ---
 
-# Campaign 글로벌 보고서 {#campaign-global-report}
+# 캠페인 글로벌 보고서 {#campaign-global-report}
 
 Campaign 글로벌 보고서는 **[!UICONTROL Global view]** 버튼을 클릭합니다.
 
@@ -205,3 +205,11 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 다음 **[!UICONTROL Excluded reasons]** 그래프와 테이블에는 타겟팅된 프로필에서 제외된 사용자 프로필이 메시지를 받지 못한 다양한 이유가 표시됩니다.
 
 다음 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 및 **[!UICONTROL Breakdown by platform]** 그래프 및 표는 수신자의 운영 시스템에 따라 푸시 알림의 성공을 자세히 설명합니다.
+
+## 추가 리소스
+
+* [캠페인 시작](get-started-with-campaigns.md)
+* [캠페인 만들기](create-campaign.md)
+* [API로 트리거된 캠페인 만들기](api-triggered-campaigns.md)
+* [캠페인 수정 또는 중지](modify-stop-campaign.md)
+* [캠페인 라이브 보고서](campaign-live-report.md)

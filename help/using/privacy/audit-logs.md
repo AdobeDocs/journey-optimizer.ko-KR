@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 771828da23ab0656fc5726845305fe6949620545
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Journey Optimizer를 사용하면 시스템에서 여정, 메시지, 랜딩 페�
 | AJO 하위 도메인 | 만들기 / 삭제 / 업데이트 |
 | AJO 제외 목록 | CSV 만들기 / 삭제 / 다운로드 |
 | 필드 그룹 | 만들기 / 삭제 / 업데이트 |
-| 여정 | 만들기 / 삭제 / 업데이트 / 중지 / 게시 |
+| 여정 | 만들기 / 삭제 / 중지 / 게시 |
 | 여정 사용자 지정 작업 | 만들기 / 삭제 / 업데이트 |
 | 여정 데이터 소스 | 만들기 / 삭제 / 업데이트 |
 | 여정 이벤트 | 만들기 / 삭제 / 업데이트 |
