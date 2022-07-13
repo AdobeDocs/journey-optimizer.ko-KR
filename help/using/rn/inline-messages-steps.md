@@ -1,9 +1,9 @@
 ---
 title: 인라인 작성으로 마이그레이션하는 단계
 description: 여정 인라인 작성으로 마이그레이션하는 단계
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1048'
 ht-degree: 1%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # 인라인 작성 마이그레이션 단계{#migration-steps}
 
-Adobe Journey Optimizer에서 메시지를 작성하는 새 프로세스는 다음과 같습니다 [페이지](../rn/inline-messages.md). 여정 자동 전환이 수행됩니다. 몇 가지 단계로 여러분의 도움이 필요합니다.
+Adobe Journey Optimizer에서 컨텐츠를 작성하는 새 프로세스는 다음과 같습니다 [페이지](../rn/inline-messages.md). 여정 자동 전환이 수행됩니다. 몇 가지 단계로 여러분의 도움이 필요합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344699)
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer에서 메시지를 작성하는 새 프로세스는 다�
 1. 마이그레이션에서 만든 모든 새 버전을 나열합니다. [자세히 보기](../rn/inline-messages-steps.md#migration-step-2-2)
 1. 하나씩 테스트하고 게시합니다. [자세히 보기](../rn/inline-messages-steps.md#migration-step-2-3)
 1. 모든 라이브 버전을 나열합니다. [자세히 보기](../rn/inline-messages-steps.md#migration-step-2-4)
-1. 초안 버전 마이그레이션 시 오류를 확인합니다. [자세히 보기](../rn/inline-messages-steps.md#migration-step-2-5)
+1. 마이그레이션된 초안 버전에서 오류가 있는지 확인합니다. [자세히 보기](../rn/inline-messages-steps.md#migration-step-2-5)
 
 **[두 번째 반복 후](../rn/inline-messages-steps.md#migration-step-3)**
 
@@ -53,18 +53,18 @@ Adobe Journey Optimizer에서 메시지를 작성하는 새 프로세스는 다�
 
 +++이러한 여정을 찾는 방법
 
-이러한 여정을 찾으려면 **여정** 메뉴를 사용하여 &quot;Status = Live&quot; 및 &quot;Type = Read segment&quot;에서 목록을 필터링합니다. 또한 가장 이른 날짜부터 최신 &quot;게시된&quot; 날짜까지 시간순으로 정렬할 수도 있습니다.
+이러한 여정을 찾으려면 **여정** 메뉴를 사용하여 &quot;Status = Live&quot; 및 &quot;Type = Read segment&quot;에서 목록을 필터링합니다. 또한 여정을 가장 이른 날짜부터 최신 &quot;게시된&quot; 날짜까지 시간순으로 정렬할 수도 있습니다.
 
 ![](assets/inline-migration-steps1.png)
 
 위에서 아래로 엽니다.
 
 * 여정에 메시지가 있는지 확인합니다.
-* 반복적인 여정이 아닌지 확인합니다. 임시 항목이 아닙니다. 여러분은 아마 그들을 라이브로 유지하고 싶어할 거예요. 예를 들어, 임시 여정이 아닌 재귀적 사용자입니다.
+* 반복적인 여정이 아닌지 확인합니다. 임시 항목이 아닙니다. 여러분은 아마 그들을 계속 살고 싶어할 거예요. 예를 들어, 임시 여정이 아닌 재귀적 사용자입니다.
 
    ![](assets/inline-migration-steps2.png)
 
-* 대기 또는 이벤트 리스너를 해당 여정에서 사용한 경우 프로필이 여전히 내부에 있을 수 있습니다. 여정 실행 날짜를 보고 대기 또는 이벤트 리스너에 정의한 시간/일을 추가하여 프로필이 남아 있지 않은 실제 날짜를 추론합니다. 해당 날짜가 지난 경우 여정을 중지할 수 있습니다. 그렇지 않으면 여정 실행 날짜로부터 30일 후에 이 여정이 자동으로 &quot;완료됨&quot; 상태로 이동됩니다.
+* 대기 또는 이벤트 리스너를 해당 여정에서 사용한 경우 프로필이 여전히 내부에 있을 수 있습니다. 여정 실행 날짜를 보고 대기 또는 이벤트 리스너에 정의한 시간/일을 추가하여 프로필이 남아 있지 않은 실제 날짜를 추론합니다. 해당 날짜가 지난 경우 여정을 중지할 수 있습니다. 그렇지 않으면 여정 실행 날짜로부터 30일 후에 이 여정이 자동으로 &quot;완료됨&quot; 상태로 이동합니다.
 
 +++
 
@@ -74,15 +74,13 @@ Adobe Journey Optimizer에서 메시지를 작성하는 새 프로세스는 다�
 
 * 최신 버전이 아닌 라이브 여정이 있는 경우, 즉 초안에서 다른 여정 버전을 만들었다면, 게시하거나 삭제하십시오.
 
-* 메시지가 여정에 사용되지 않고 유지하려는 경우 템플릿으로 저장합니다. 사용 중단 시까지 계속 액세스할 수 있습니다.
+* 메시지가 여정에 사용되지 않고 유지하려는 경우 템플릿으로 저장합니다. 다음을 참조하십시오 [페이지](../design/email-templates.md#save-as-template). 사용 중단 시까지 계속 액세스할 수 있습니다.
 
 ## 마이그레이션 첫 번째 반복 후(7월 25일){#migration-step-2}
 
 마이그레이션은 다음 두 단계로 시퀀싱됩니다. 작업 항목이 필요한 자동화된 단계(7월 25일부터 7월 26일까지)와 수동 단계(7월 26일부터 시작)입니다.
 
-자동화된 단계에 대해서는 다음을 참조하십시오 [페이지](../rn/inline-messages.md#process).
-
-수동 단계의 경우 다음 작업을 수행합니다 **프로덕션 샌드박스**:
+자동화된 단계에 대해서는 다음을 참조하십시오 [페이지](../rn/inline-messages.md#process). 수동 단계의 경우 다음 작업을 수행합니다 **프로덕션 샌드박스**:
 
 <!--
 _On non-production sandboxes:_
@@ -108,7 +106,9 @@ _On the production sandbox:_
 
 ### 1. 마이그레이션된 라이브 여정에 대한 오류를 확인합니다{#migration-step-2-1}
 
-상태 보고서에서 자동으로 마이그레이션된 라이브 여정에 대한 오류를 확인합니다.
+상태 보고서([자세히 알아보기](../rn/inline-messages.md#status). 을(를) 클릭합니다. **상태 확인** 위쪽 배너에 있는 단추.
+
+![](assets/inline-migration-steps3.png)
 
 &quot;ERROR_NEW_VERSION_CREATION&quot;을 찾습니다.
 
@@ -117,6 +117,8 @@ _On the production sandbox:_
 * 오류가 없으면 마이그레이션이 필요한 모든 라이브 여정 버전이 처리되었으며 새 마이그레이션된 초안 버전이 자동으로 생성되었음을 의미합니다.
 
 * 오류가 표시되면 &quot;errorMessage&quot;를 검색하고 로그에서 오류 메시지를 확인할 수 있습니다. 다중 채널 메시지는 마이그레이션되지 않습니다. 다른 여정을 만들어야 합니다.
+
+   ![](assets/inline-migration-steps5.png)
 
 * 다른 오류는 CSM 또는 Adobe 담당자에게 문의하여 지침을 받으십시오.
 
@@ -132,7 +134,7 @@ _On the production sandbox:_
 
 이제 인라인 채널 작업이 포함된 여정의 초안 버전을 테스트합니다.
 
-새 여정 버전을 게시합니다. 이전 라이브 버전이 &quot;닫힌&quot; 상태로 이동합니다.
+새 여정 버전을 게시합니다. 그런 다음 이전 라이브 버전이 &quot;닫힌&quot; 상태로 이동합니다.
 
 ### 4. 모든 라이브 버전 나열{#migration-step-2-4}
 
@@ -140,9 +142,9 @@ _On the production sandbox:_
 
 ![](assets/inline-migration-steps8.png)
 
-### 5. 초안 버전 마이그레이션 시 오류를 확인합니다.{#migration-step-2-5}
+### 5. 마이그레이션된 초안 버전에 대한 오류를 확인합니다 {#migration-step-2-5}
 
-을(를) 클릭합니다. **상태 확인** 위쪽 배너에 있는 버튼을 클릭하고 자동 마이그레이션 중에 오류가 없으며 마이그레이션할 필요가 없는지 확인합니다. 오류가 있는 모든 여정(메시지 포함)는 9월 5일(모든 샌드박스)이후 사용되지 않습니다.
+을(를) 클릭합니다. **상태 확인** 위쪽 배너의 단추([자세히 알아보기](../rn/inline-messages.md#status) 및 가 자동 마이그레이션 중에 오류가 없으며 마이그레이션해야 할 사항이 아직 없는지 확인합니다. 오류가 있는 모든 여정(메시지 포함)는 9월 5일(모든 샌드박스)이후 사용되지 않습니다.
 
 ![](assets/inline-migration-steps11.png)
 
@@ -154,11 +156,11 @@ _On the production sandbox:_
 
 * 오류가 있으면 &quot;errorMessage&quot;를 검색하여 오류를 찾습니다. 다중 채널 메시지 마이그레이션이 지원되지 않으므로 다음 오류가 발생할 수 있습니다. &quot;다중 채널 메시지 마이그레이션은 지원되지 않습니다.&quot; 이 여정을 다시 만들어야 합니다.
 
-![](assets/inline-migration-steps6.png)
+![](assets/inline-migration-steps5.png)
 
 ## 두 번째 반복 후(8월 1일){#migration-step-3}
 
-두 번째 반복은 8월 1일부터 8월 2일 사이의 야간에 수행됩니다.
+두 번째 반복은 8월 1일부터 8월 2일 사이의 야간 시간에 수행됩니다.
 
 <!--
 _On non-production sandboxes:_
@@ -179,7 +181,11 @@ Click the **Check status** button in the top banner and check that all journeys 
 
 ### 2. 이전 버전 중지{#migration-step-3-2}
 
-최신 여정 버전을 게시하지 않은 경우( 참조) [섹션](../rn/inline-messages-steps.md#migration-step-2-3))를 사용할 수 있습니다. **이전 버전을 중지하지 않으면 이전 버전을 잃게 됩니다** 및 관련 보고.
+최신 여정 버전을 게시하지 않은 경우( 참조) [섹션](../rn/inline-messages-steps.md#migration-step-2-3))을 지정할 수 있습니다. 반복 2(8월 1일) 전에 새 버전을 게시합니다.
+
+>[!NOTE]
+>
+>이전 버전을 중지하지 않으면 이전 버전과 관련 보고가 손실됩니다.
 
 ## 세 번째 및 마지막 반복 전(9월 5일){#migration-step-4}
 
