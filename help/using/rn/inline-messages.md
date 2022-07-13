@@ -2,9 +2,9 @@
 title: 여정 인라인 작성으로 마이그레이션
 description: 메시지 마이그레이션 방법 알아보기
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3146071854a02650c6f1632839e3dcd913a46676
+source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="상황 파악"
->abstract="2022년 7월 25일부터 메시지는 여정에서 직접 작성됩니다. 환경을 마이그레이션하고 있습니다. 마이그레이션 후 추가 작업이 필요합니다."
+>abstract="2022년 7월 25일부터 메시지는 여정에서 직접 작성됩니다. 환경을 마이그레이션하고 있습니다. 현재 여정 내에서 메시지를 사용하는 경우 마이그레이션 후 추가 작업이 필요합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="마이그레이션 단계"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="메시지 마이그레이션 방법 알아보기"
->abstract="2022년 7월 25일부터 메시지는 여정에서 직접 작성됩니다. 이제 기존 메시지가 새 모델로 마이그레이션되었습니다. 이제 여정 전문가의 경우 추가 작업이 필요합니다."
+>abstract="2022년 7월 25일부터 메시지는 여정에서 직접 작성됩니다. 이제 기존 메시지가 새 모델로 마이그레이션되었습니다. 이제 여정 전문가가 메시지를 사용하는 여정에 대해 추가 작업이 필요합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="마이그레이션 단계"
 
 >[!CONTEXTUALHELP]
