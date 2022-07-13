@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 97%
+source-wordcount: '1651'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 * 제외 목록 페이지가 32-126 사이의 모든 ASCII 문자가 제외 필드에 허용된다는 사실 등 일부 정보를 명확하게 하도록 업데이트되었습니다. [자세히 보기](../configuration/manage-suppression-list.md)
 * 결정 관리에 대한 보호 및 정적 제한에 대한 링크가 추가되었습니다. [자세히 보기](../start/guardrails.md)
 * 이제 모든 고객이 전송 시간 최적화를 사용할 수 있습니다. 베타 언급이 제거되었습니다. [자세히 보기](../building-journeys/journeys-message.md#send-time-optimization)
-
+* Batch Decisioning API가 개인화된 오퍼 전달을 위해 사용 가능한 API 목록에 추가되었습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022년 5월 {#may-2022}
 
@@ -169,3 +169,4 @@ ht-degree: 97%
 * 이벤트 기반 오퍼는 현재 지원하지 않는다는 경고를 추가했습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * 의사 결정 관리의 새로운 **[!UICONTROL Overview]** 탭에 대한 설명서를 작성했습니다. [자세히 보기](../offers/get-started/user-interface.md#overview)
 * 오퍼 및 결정 목록에서 사용할 수 있는 작업을 설명하는 새 섹션으로 [오퍼 목록](../offers/offer-library/creating-personalized-offers.md#offer-list) 및 [의사 결정 목록](../offers/offer-activities/create-offer-activities.md#decision-list)을 추가했습니다.
+

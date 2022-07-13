@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -354,8 +354,8 @@ ht-degree: 98%
          + [의사 결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
          + [의사 결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
          + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
-      + API를 사용한 오퍼 게재 {#offer-delivery-api}
-         + [Decisioning 및 Edge Decisioning API 정보](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+      + API를 사용하여 오퍼 게재 {#offer-delivery-api}
+         + [오퍼 배달 API 시작](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
