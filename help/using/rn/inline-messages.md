@@ -2,9 +2,9 @@
 title: 여정 인라인 작성으로 마이그레이션
 description: 메시지 마이그레이션 방법 알아보기
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
+source-git-commit: d27bcae95f1890292eb8f2eae8b2e72c3ad501e3
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -16,25 +16,25 @@ ht-degree: 0%
 >id="ajo_messages_migration_before"
 >title="새 인라인 작성 메시지에 대해 자세히 알아보기"
 >abstract="2022년 7월 25일부터 메시지는 여정에서 직접 작성됩니다. 기존 메시지는 자동으로 새 모델로 마이그레이션됩니다. 마이그레이션 후 추가 작업이 필요합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="마이그레이션 단계"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="마이그레이션 단계"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="상황 파악"
 >abstract="2022년 7월 25일부터 메시지는 여정에서 직접 작성됩니다. 환경을 마이그레이션하고 있습니다. 마이그레이션 후 추가 작업이 필요합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="마이그레이션 단계"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="마이그레이션 단계"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="메시지 마이그레이션 방법 알아보기"
 >abstract="2022년 7월 25일부터 메시지는 여정에서 직접 작성됩니다. 이제 기존 메시지가 새 모델로 마이그레이션되었습니다. 이제 여정 전문가의 경우 추가 작업이 필요합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="마이그레이션 단계"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="마이그레이션 단계"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="메시지 마이그레이션 방법 알아보기"
 >abstract="2022년 7월 25일부터 메시지 메뉴가 사라지고 여정에서 바로 메시지가 작성됩니다. 여정에서 기존 메시지를 다시 사용하려면 템플릿을 템플릿으로 저장해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="메시지를 템플릿으로 저장"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template?lang=en" text="메시지를 템플릿으로 저장"
 
 Adobe Journey Optimizer은 Journey Optimizer 채널(이메일, 푸시, SMS)용 컨텐츠를 작성하는 방법을 개선하는 새로운 기능을 출시했습니다. 이제 Journey Optimizer의 경우 여정에서 직접 메시지를 만들고 작성할 수 있습니다.
 
