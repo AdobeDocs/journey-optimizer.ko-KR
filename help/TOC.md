@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 97%
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 게시](using/building-journeys/publishing-the-journey.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
-      + [여정 복사 다른 샌드박스](using/building-journeys/copy-to-sandbox.md)
+      + [여정 복사 다른 샌드박스로](using/building-journeys/copy-to-sandbox.md)
       + [여정 문제 해결](using/building-journeys/troubleshooting.md)
    + 활동 {#about-journey-building}
       + [여정 활동 정보](using/building-journeys/about-journey-activities.md)

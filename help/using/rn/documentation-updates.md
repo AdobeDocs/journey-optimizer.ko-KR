@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 ## 2022년 7월 {#july-2022}
 
-* 다음 **메시지 사전 설정 만들기** 섹션을 보다 명확하게 수정하고 SMS 채널을 구성하는 방법을 설명하는 페이지 링크를 업데이트했습니다. [자세히 보기](../configuration/message-presets.md#create-message-preset)
+* **메시지 사전 설정 만들기** 섹션을 명료하게 보이도록 업데이트하고 SMS 채널을 구성하는 방법을 설명하는 페이지 링크를 추가했습니다. [자세히 보기](../configuration/message-presets.md#create-message-preset)
 
 ## 2022년 6월 {#june-2022}
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 * 허용 목록 페이지가 구성 섹션으로 이동되었습니다. [자세히 보기](../configuration/allow-list.md)
 * 제외 목록 페이지가 32-126 사이의 모든 ASCII 문자가 제외 필드에 허용된다는 사실 등 일부 정보를 명확하게 하도록 업데이트되었습니다. [자세히 보기](../configuration/manage-suppression-list.md)
 * 결정 관리에 대한 보호 및 정적 제한에 대한 링크가 추가되었습니다. [자세히 보기](../start/guardrails.md)
-* 이제 모든 고객이 전송 시간 최적화를 사용할 수 있습니다. 베타 언급이 제거되었습니다. [자세히 보기](../building-journeys/journeys-message.md#send-time-optimization)
+* 이제 모든 고객이 전송 시간 최적화를 사용할 수 있습니다. 베타 표시를 제거했습니다. [자세히 보기](../building-journeys/journeys-message.md#send-time-optimization)
 * Batch Decisioning API가 개인화된 오퍼 전달을 위해 사용 가능한 API 목록에 추가되었습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022년 5월 {#may-2022}
@@ -43,7 +43,7 @@ ht-degree: 96%
 * 사용자 지정 작업에서 Delete 메서드가 지원되지 않는다는 내용의 메모가 추가되었습니다. [자세히 보기](../action/about-custom-action-configuration.md)
 * 방법 비디오에 대한 링크가 업데이트되었습니다.
 * 가독성을 개선하기 위해 [이메일 구성](../configuration/about-subdomain-delegation.md), [메시지 사전 설정](../configuration/message-presets.md), [랜딩 페이지 구성](../configuration/lp-subdomains.md) 섹션이 재구성되었습니다.
-* 다음 URL 추적 섹션이 업데이트되었으며 예시와 함께 개선되었습니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
+* URL 추적 섹션에 예시를 추가하여 업데이트 및 개선하였습니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
 * 전자 메일 주소 설정 관련 새로운 하위 섹션이 추가되었습니다. 사용자 인터페이스를 통해 수행할 수 없습니다. [자세히 보기](../configuration/email-settings.md#forward-email)
 
 ## 2022년 4월 {#april-2022}
