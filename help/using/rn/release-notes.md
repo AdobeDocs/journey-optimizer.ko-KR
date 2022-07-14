@@ -3,9 +3,9 @@ title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer 샌드박스에서 다른 샌드박스로(예: 비프로덕션 샌드박스에서 프로덕션 샌드박스로) 경험을 다시 만들 수 있습니다. 이 새 기능은 여정이 올바르게 실행하기 위해 사용하는 개체를 비롯하여 전체 여정을 한 환경에서 다른 환경으로 복사합니다. 여정 외에도 오퍼, 메시지, 스키마, 데이터 세트, 데이터 소스, 이벤트 및 작업과 같은 다른 구성 요소를 복사할 수 있습니다.</p>
+<p>이제 Journey Optimizer 샌드박스에서 다른 샌드박스(예: 비프로덕션 샌드박스에서 프로덕션 샌드박스로)로 경험을 다시 만들 수 있습니다. 이 새 기능은 여정이 올바르게 실행하기 위해 사용하는 개체 등 전체 여정을 특정 환경에서 다른 환경으로 복사합니다. 여정 외에도 오퍼, 메시지, 스키마, 데이터 세트, 데이터 소스, 이벤트, 작업과 같은 다른 구성 요소를 복사할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../building-journeys/copy-to-sandbox.md">자세한 설명서</a>를 참조하세요.
 </td>
 </tr>
@@ -149,9 +149,9 @@ ht-degree: 78%
 
 * **미리 보기 추적 URL 매개 변수** - 메시지 사전 설정을 구성할 때 URL 추적 매개 변수를 정의하는 경우 결과 추적 URL의 동적 미리 보기가 표시됩니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
 
-* **메시지 사전 설정 편집** - 이제 메시지 사전 설정을 업데이트할 때 처리 시간은 최대 3시간만 소요될 수 있습니다. [자세히 보기](../configuration/message-presets.md#edit-message-preset)
+* **메시지 사전 설정 에디션** - 메시지 사전 설정을 업데이트할 때 드는 최대 처리 시간이 3시간으로 단축되었습니다. [자세히 보기](../configuration/message-presets.md#edit-message-preset)
 
-* **IP 풀 에디션** - 이제 IP 풀을 업데이트할 때 처리 시간은 최대 3시간만 소요될 수 있습니다. [자세히 보기](../configuration/ip-pools.md#edit-ip-pool)
+* **IP 풀 에디션** - IP 풀을 업데이트할 때 드는 최대 처리 시간이 최대 3시간으로 단축되었습니다. [자세히 보기](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
