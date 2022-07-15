@@ -3,9 +3,9 @@ title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
-workflow-type: ht
-source-wordcount: '487'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
