@@ -3,9 +3,9 @@ title: 시스템 관리자용 Journey Optimizer 시작하기
 description: 시스템 관리자는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
@@ -37,18 +37,18 @@ ht-degree: 3%
 
 액세스 시 [!DNL Journey Optimizer] 처음으로 프로덕션 샌드박스를 프로비저닝하고 계약에 따라 특정 수의 IP를 할당하게 됩니다.
 
-여정을 만들고 메시지를 보내려면 **관리** 메뉴 아래의 제품에서 사용할 수 있습니다. 찾아보기 **[!UICONTROL Channels]** 메뉴와 메시지 및 서피스(즉, 사전 설정)를 구성할 수 있습니다.
+여정을 만들고 메시지를 보내려면 **관리** 메뉴 아래의 제품에서 사용할 수 있습니다. 찾아보기 **[!UICONTROL Channels]** 메시지 및 채널 서피스(즉, 메시지 사전 설정)를 구성할 수 있습니다.
 
 >[!NOTE]
 >로서의 **시스템 관리자**&#x200B;가 표시되지 않으면 **[!UICONTROL Channels]** 메뉴 [!DNL Journey Optimizer]에서 권한을 업데이트합니다. [Admin Console](https://adminconsole.adobe.com/){_blank}. 에서 제품 프로필을 업데이트하는 방법을 알아봅니다 [이 페이지](../../administration/permissions.md#edit-product-profile).
 
 아래 나열된 단계를 수행합니다.
 
-1. **메시지 및 채널 구성**: 서피스 정의, 이메일 및 푸시 메시지 설정 조정 및 사용자 정의
+1. **메시지 및 채널 구성**: 표면 정의, 이메일, sms 및 푸시 메시지 설정 조정 및 사용자 정의
 
    * 정의 **푸시 알림 설정** 둘 다 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]. [자세히 보기](../../configuration/push-gs.md)
 
-   * 만들기 **채널 서피스** (즉, 메시지 사전 설정) 전자 메일 및 푸시 알림 메시지에 필요한 모든 기술 매개 변수를 구성합니다. [자세히 보기](../../configuration/message-presets.md)
+   * 만들기 **채널 서피스** (즉, 메시지 사전 설정) 전자 메일, sms 및 푸시 알림에 필요한 모든 기술 매개 변수를 구성합니다. [자세히 보기](../../configuration/message-presets.md)
 
    * 구성 **SMS 채널** sms에 필요한 모든 기술 매개 변수를 구성하려면 [자세히 보기](../../configuration/sms-configuration.md)
 
