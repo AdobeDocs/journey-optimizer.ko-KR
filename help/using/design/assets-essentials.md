@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '457'
 ht-degree: 3%
 
 ---
@@ -87,4 +87,3 @@ ht-degree: 3%
 
    ![](assets/media_library_13.png)
 
-메시지를 만들고 개인화하면 게시하여 실행할 수 있도록 할 수 있습니다. [자세히 보기](../messages/publish-manage-message.md)

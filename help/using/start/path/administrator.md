@@ -3,9 +3,9 @@ title: 시스템 관리자용 Journey Optimizer 시작하기
 description: 시스템 관리자는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '722'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 1. **제품 프로필 이해**. 제품 프로필은 사용자가 인터페이스의 특정 기능 또는 개체에 액세스할 수 있도록 하는 통합된 권리 집합입니다. 자세한 내용은 [기본 제품 프로필](../../administration/ootb-product-profiles.md) 섹션을 참조하십시오.
 
-1. **권한 설정** 제품 프로필의 경우 **샌드박스**&#x200B;를 채울 수 있고 다른 제품 프로필에 할당할 수 있으므로 팀 구성원에게 액세스 권한을 제공합니다. 이 단계는 [Admin Console](https://adminconsole.adobe.com/){_blank}. 권한은 사용자에게 할당된 승인을 정의할 수 있는 통합된 권리입니다 **[!UICONTROL Product profile]**. 각 권한은 여정, 메시지 또는 오퍼와 같은 기능에 수집되며, 이 기능은 의 다양한 기능 또는 개체를 나타냅니다 [!DNL Journey Optimizer]. 자세한 내용은 [권한 수준](../../administration/high-low-permissions.md) 섹션을 참조하십시오.
+1. **권한 설정** 제품 프로필의 경우 **샌드박스**&#x200B;를 채울 수 있고 다른 제품 프로필에 할당할 수 있으므로 팀 구성원에게 액세스 권한을 제공합니다. 이 단계는 [Admin Console](https://adminconsole.adobe.com/){_blank}. 권한은 사용자에게 할당된 승인을 정의할 수 있는 통합된 권리입니다 **[!UICONTROL Product profile]**. 각 권한은 여정 또는 오퍼와 같은 기능에 수집되며, 이 기능은 의 다양한 기능 또는 개체를 나타냅니다 [!DNL Journey Optimizer]. 자세한 내용은 [권한 수준](../../administration/high-low-permissions.md) 섹션을 참조하십시오.
 
 또한 Assets Essentials 액세스 권한이 필요한 사용자를 **Assets Essentials 소비자 사용자** 또는/and **Assets Essentials 사용자** 제품 프로필. [Assets Essentials 설명서에서 자세한 내용](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
@@ -37,18 +37,18 @@ ht-degree: 3%
 
 액세스 시 [!DNL Journey Optimizer] 처음으로 프로덕션 샌드박스를 프로비저닝하고 계약에 따라 특정 수의 IP를 할당하게 됩니다.
 
-여정을 만들고 메시지를 보내려면 **관리** 메뉴 아래의 제품에서 사용할 수 있습니다. 찾아보기 **[!UICONTROL Channels]** 메뉴를 사용하여 이메일 메시지 및 사전 설정을 구성할 수 있습니다.
+여정을 만들고 메시지를 보내려면 **관리** 메뉴 아래의 제품에서 사용할 수 있습니다. 찾아보기 **[!UICONTROL Channels]** 메뉴와 메시지 및 서피스(즉, 사전 설정)를 구성할 수 있습니다.
 
 >[!NOTE]
 >로서의 **시스템 관리자**&#x200B;가 표시되지 않으면 **[!UICONTROL Channels]** 메뉴 [!DNL Journey Optimizer]에서 권한을 업데이트합니다. [Admin Console](https://adminconsole.adobe.com/){_blank}. 에서 제품 프로필을 업데이트하는 방법을 알아봅니다 [이 페이지](../../administration/permissions.md#edit-product-profile).
 
 아래 나열된 단계를 수행합니다.
 
-1. **메시지 및 채널 구성**: 사전 설정 정의, 이메일 및 푸시 메시지 설정 조정 및 사용자 정의
+1. **메시지 및 채널 구성**: 서피스 정의, 이메일 및 푸시 메시지 설정 조정 및 사용자 정의
 
    * 정의 **푸시 알림 설정** 둘 다 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]. [자세히 보기](../../configuration/push-gs.md)
 
-   * 만들기 **메시지 사전 설정** 전자 메일 및 푸시 알림 메시지에 필요한 모든 기술 매개 변수를 구성하려면 다음을 수행하십시오. [자세히 보기](../../configuration/message-presets.md)
+   * 만들기 **채널 서피스** (즉, 메시지 사전 설정) 전자 메일 및 푸시 알림 메시지에 필요한 모든 기술 매개 변수를 구성합니다. [자세히 보기](../../configuration/message-presets.md)
 
    * 구성 **SMS 채널** sms에 필요한 모든 기술 매개 변수를 구성하려면 [자세히 보기](../../configuration/sms-configuration.md)
 

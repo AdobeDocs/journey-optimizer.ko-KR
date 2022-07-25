@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 98%
+source-wordcount: '1106'
+ht-degree: 96%
 
 ---
 
@@ -47,10 +47,9 @@ ht-degree: 98%
    + [이메일 만들기](using/messages/create-email.md)
    + [푸시 알림 만들기](using/messages/create-push.md)
    + [SMS 메시지 만들기](using/messages/create-sms.md)
-   + {#validate} 유효성 확인 및 게시
-      + [경고 확인](using/messages/alerts.md)
-      + [메시지 게시](using/messages/publish-manage-message.md)
+   + [경고 확인](using/messages/alerts.md)
    + [동의 관리](using/messages/consent.md)
+   + [전송 시간 최적화](using/messages/send-time-optimization.md)
 + 콘텐츠 디자인 {#design}
    + [이메일 디자인 시작](using/design/design-emails.md)
    + [처음부터 시작 ](using/design/create-email-content.md)
@@ -88,7 +87,7 @@ ht-degree: 98%
    + 표현식 작성 {#build-expressions}
       + [개인화 구문](using/personalization/personalization-syntax.md)
       + 표현식 편집기 작업 {#expression-editor}
-         + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
+         + [표현식 편집기](using/personalization/personalization-build-expressions.md)
          + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
          + [저장된 표현식으로 작업하기](using/personalization/personalization-library.md)
          + [개인화 유효성 검사](using/personalization/personalization-validation.md)
@@ -138,7 +137,7 @@ ht-degree: 98%
       + [끝](using/building-journeys/end-activity.md)
       + [대기](using/building-journeys/wait-activity.md)
       + [세그먼트 읽기](using/building-journeys/read-segment.md)
-      + [메시지](using/building-journeys/journeys-message.md)
+      + [이메일, SMS, 푸시](using/building-journeys/journeys-message.md)
       + [사용자 정의 작업](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 작업](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 작업](using/building-journeys/using-adobe-campaign-classic.md)
@@ -238,19 +237,14 @@ ht-degree: 98%
       + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
       + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
 + 추적 및 모니터링 {#reporting}
-   + [메시지 모니터링](using/reports/message-monitoring.md)
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 대시보드 액세스](using/reports/live-report.md)
       + [여정 라이브 보고서](using/reports/journey-live-report.md)
-      + [이메일 라이브 보고서](using/reports/email-live-report.md)
-      + [라이브 보고서 푸시](using/reports/push-live-report.md)
       + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
       + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
    + 글로벌 보고서 {#global-report}
       + [글로벌 보고서 대시보드 액세스](using/reports/global-report.md)
       + [여정 글로벌 보고서](using/reports/journey-global-report.md)
-      + [이메일 글로벌 보고서](using/reports/email-global-report.md)
-      + [글로벌 보고서 푸시](using/reports/push-global-report.md)
       + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)
       + [구독 목록 글로벌 보고서](using/reports/subscription-report-global.md)
    + 여정 보고서 {#reports}
@@ -385,8 +379,8 @@ ht-degree: 98%
             + [다시 시도](using/configuration/retries.md)
             + [허용 목록](using/configuration/allow-list.md)
       + [SMS 채널 구성](using/configuration/sms-configuration.md)
-      + 메시지 사전 설정 설정 {#set-up-message-presets}
-         + [메시지 사전 설정 만들기](using/configuration/message-presets.md)
+      + 채널 서피스 설정 {#set-up-message-presets}
+         + [채널 서피스 생성](using/configuration/message-presets.md)
          + [이메일 설정 구성](using/configuration/email-settings.md)
          + [숨은 참조 이메일 사용](using/configuration/bcc-email.md)
       + [실행 주소 관리](using/configuration/primary-email-addresses.md)

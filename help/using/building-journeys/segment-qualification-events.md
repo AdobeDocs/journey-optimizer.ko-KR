@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 ### 오버로드를 방지하는 방법{#overloads-speed-segment-qualification}
 
-다음은 여정(데이터 소스, 사용자 지정 작업, **메시지** 활동).
+다음은 여정(데이터 소스, 사용자 지정 작업, 채널 작업 활동)에서 활용되는 시스템을 오버로드하지 않도록 하는 데 도움이 되는 몇 가지 우수 사례입니다.
 
 에서 를 사용하지 않음 **[!UICONTROL Segment Qualification]** 활동, 배치 세그먼트가 생성된 직후 첫 번째 계산 최고점을 피합니다. 계산되지 않은 세그먼트를 사용하려는 경우 여정 캔버스에 노란색 경고가 표시됩니다.
 

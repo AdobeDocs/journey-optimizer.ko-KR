@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 5%
+source-wordcount: '586'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ## 추적 활성화 {#enable-tracking}
 
-이메일 메시지 수준에서 을(를) 확인하여 추적을 활성화할 수 있습니다 **[!UICONTROL Open Tracking for email]** 및/또는 **[!UICONTROL Click Tracking for email]** 옵션 [메시지 만들기](../messages/get-started-content.md).
+이메일 메시지 수준에서 을(를) 확인하여 추적을 활성화할 수 있습니다 **[!UICONTROL Email opens]** 및/또는 **[!UICONTROL Click on email]** 옵션 [메시지 만들기](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ ht-degree: 5%
 
 이를 통해 수신자의 동작을 추적할 수 있습니다.
 
-* **[!UICONTROL Open Tracking for email]**: 열린 메시지.
-* **[!UICONTROL Click Tracking for email]**: 이메일의 링크에 대한 클릭 수.
+* **[!UICONTROL Email opens]**: 열린 메시지.
+* **[!UICONTROL Click on email]**: 이메일의 링크에 대한 클릭 수.
 
 ## 링크 삽입 {#insert-links}
 
@@ -52,13 +52,13 @@ ht-degree: 5%
 
    * **[!UICONTROL Landing page]**: 랜딩 페이지에 대한 링크를 삽입합니다. [이 섹션](../landing-pages/get-started-lp.md)에서 자세히 알아보기
 
-   * **[!UICONTROL One click Opt-out]**: 옵트아웃을 확인하지 않고 사용자가 커뮤니케이션에서 빠르게 가입을 해지할 수 있는 링크를 삽입합니다. 추가 정보 [이 섹션](../messages/consent.md#one-click-opt-out).
+   * **[!UICONTROL One click Opt-out]**: 옵트아웃을 확인하지 않고 사용자가 커뮤니케이션에서 빠르게 가입을 해지할 수 있는 링크를 삽입합니다. 자세한 내용은 [이 섹션](../messages/consent.md#one-click-opt-out)을 참조하십시오.
 
    * **[!UICONTROL External Opt-in/Subscription]**: 브랜드로부터 받는 커뮤니케이션을 수락하려면 링크를 삽입합니다.
 
    * **[!UICONTROL External Opt-out/Unsubscription]**: 브랜드의 커뮤니케이션 수신을 취소할 링크를 삽입합니다. [이 섹션](../messages/consent.md#opt-out-management)에서 옵트아웃 관리에 대해 자세히 알아보십시오.
 
-   * **[!UICONTROL Mirror page]**: 웹 브라우저에 이메일 콘텐츠를 표시할 링크를 삽입합니다. 추가 정보 [이 섹션](#mirror-page).
+   * **[!UICONTROL Mirror page]**: 웹 브라우저에 이메일 콘텐츠를 표시할 링크를 삽입합니다. 자세한 내용은 [이 섹션](#mirror-page)을 참조하십시오.
 
    ![](assets/message-tracking-links.png)
 
@@ -75,7 +75,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../messages/consent.md#opt-out-management): 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [메시지 사전 설정 수준](../configuration/message-presets.md#email-type) 그리고 [메시지 만들기](../messages/get-started-content.md#create-new-message).
+>마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../messages/consent.md#opt-out-management): 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [채널 표면](../configuration/message-presets.md#email-type) (즉, 메시지 사전 설정) 수준 및 [메시지 만들기](../messages/get-started-content.md#create-new-message).
 
 ## 미러 페이지에 대한 링크 {#mirror-page}
 
@@ -122,6 +122,4 @@ ht-degree: 5%
    * **[!UICONTROL Mirror page]**: 이 URL이 미러 페이지 URL인 것으로 간주합니다.
    * **[!UICONTROL Never]**: 이 URL의 추적을 활성화하지 않습니다. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-열린 메시지 수와 클릭한 링크 수는 [실행 탭](../reports/message-monitoring.md).
-
-시작 및 클릭에 대한 보고는 [이메일 라이브 보고서](../reports/email-live-report.md) 그리고 [이메일 글로벌 보고서](../reports/email-global-report.md).
+시작 및 클릭에 대한 보고는 [라이브 보고서](../reports/live-report.md) 그리고 [글로벌 보고서](../reports/global-report.md).

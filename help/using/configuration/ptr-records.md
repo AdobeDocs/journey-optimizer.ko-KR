@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -28,7 +28,7 @@ PTR 레코드를 통해 수신 메일 서버는 해당 IP 주소가 서버가 �
 
 ## 하위 도메인의 PTR 레코드에 액세스 {#access-ptr-records}
 
-한 번 [하위 도메인이 위임됨](delegate-subdomain.md) Adobe Journey Optimizer에서 이 하위 도메인과 PTR 레코드가 자동으로 만들어지고 연결됩니다. 에서 액세스할 수 있습니다. **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+한 번 [하위 도메인이 위임됨](delegate-subdomain.md) Adobe Journey Optimizer에서 이 하위 도메인과 PTR 레코드가 자동으로 만들어지고 연결됩니다. 에서 액세스할 수 있습니다. **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](assets/ptr-records.png)
 

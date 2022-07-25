@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 위임된 하위 도메인 액세스 {#access-delegated-subdomains}
 
-위임된 모든 하위 도메인은 **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** 메뉴 아래의 제품에서 사용할 수 있습니다. 필터를 사용하여 목록을 세분화할 수 있습니다(위임 날짜, 사용자 또는 상태).
+위임된 모든 하위 도메인은 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 메뉴 아래의 제품에서 사용할 수 있습니다. 필터를 사용하여 목록을 세분화할 수 있습니다(위임 날짜, 사용자 또는 상태).
 
 ![](assets/subdomain-list.png)
 

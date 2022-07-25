@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 29%
+source-wordcount: '264'
+ht-degree: 28%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 29%
 
 화면 왼쪽에 있는 팔레트에서 아래 **[!UICONTROL Events]** 및 **[!UICONTROL Orchestration]**&#x200B;를 찾으면 **[!UICONTROL Actions]** 카테고리. 다음 작업 활동을 사용할 수 있습니다.
 
-* [메시지](../building-journeys/journeys-message.md)
+* [이메일, SMS, 푸시](../building-journeys/journeys-message.md)
 * [사용자 정의 작업](../building-journeys/using-custom-actions.md)
 * [점프](../building-journeys/jump.md)
 

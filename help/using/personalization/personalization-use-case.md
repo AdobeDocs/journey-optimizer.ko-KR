@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -25,15 +25,24 @@ ht-degree: 1%
 
 이 사용 사례에는 다음 전제 조건이 필요합니다.
 
-* 푸시 알림 메시지를 게시하지 않고 만들고 디자인합니다. 다음을 참조하십시오 [섹션](../messages/get-started-content.md).
 * 주문 번호, 상태 및 품목 이름을 포함하는 주문 이벤트를 구성합니다. 다음을 참조하십시오 [섹션](../event/about-events.md).
 * 결정을 만들려면 다음을 참조하십시오 [섹션](../offers/offer-activities/create-offer-activities.md).
 
-## 1단계 - 프로필에 개인화 추가 {#add-perso}
+## 1단계 - 여정 만들기 {#create-journey}
 
-1. 을(를) 클릭합니다. **[!UICONTROL Message]** 메뉴를 선택하고 메시지를 선택합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Journeys]** 메뉴를 보고 새 여정을 만듭니다.
 
-   ![](assets/perso-uc.png)
+   ![](assets/perso-uc4.png)
+
+1. 시작 이벤트 및 **푸시** 작업 활동.
+
+   ![](assets/perso-uc5.png)
+
+1. 푸시 알림 메시지를 구성하고 디자인합니다. 다음을 참조하십시오 [섹션](../messages/get-started-content.md).
+
+## 2단계 - 프로필에 개인화 추가 {#add-perso}
+
+1. 에서 **푸시** 활동, 클릭 **컨텐츠 편집**.
 
 1. 을(를) 클릭합니다. **제목** 필드.
 
@@ -43,45 +52,15 @@ ht-degree: 1%
 
    ![](assets/perso-uc3.png)
 
-   >[!NOTE]
-   >
-   >메시지를 초안으로 둡니다. 아직 게시하지 마십시오.
-
-## 2단계 - 여정 만들기 {#create-journey}
-
-1. 을(를) 클릭합니다. **[!UICONTROL Journeys]** 메뉴를 보고 새 여정을 만듭니다.
-
-   ![](assets/perso-uc4.png)
-
-1. 시작 이벤트 및 **메시지** 활동.
-
-   ![](assets/perso-uc5.png)
-
-1. 에서 **메시지** 활동에서 이전에 만든 메시지를 선택합니다. 클릭 **확인**.
-
-   ![](assets/perso-uc6.png)
-
-   시작 이벤트 데이터와 여정 속성이 메시지에 전달되었음을 알리는 메시지가 표시됩니다.
-
-   ![](assets/perso-uc7.png)
-
-   >[!NOTE]
-   >
-   >경고 아이콘과 함께 메시지가 나타납니다. 메시지가 아직 게시되지 않았기 때문입니다.
-
 ## 3단계 - 컨텍스트 기반 데이터에 개인화 추가 {#add-perso-contextual-data}
 
-1. 에서 **메시지** 활동을 클릭하고 **메시지 열기** 아이콘. 메시지가 새 탭에서 열립니다.
-
-   ![](assets/perso-uc8.png)
-
-1. 을(를) 클릭합니다. **제목** 필드.
+1. 에서 **푸시** 활동, 클릭 **컨텐츠 편집** 을 클릭하고 **제목** 필드.
 
    ![](assets/perso-uc9.png)
 
 1. 을(를) 선택합니다 **상황별 특성** 메뉴 아래의 제품에서 사용할 수 있습니다. 컨텍스트 속성은 여정이 메시지에 컨텍스트 데이터를 전달한 경우에만 사용할 수 있습니다. 클릭 **Journey Orchestration**. 다음과 같은 상황별 정보가 표시됩니다.
 
-   * **이벤트**: 이 카테고리는 **메시지** 활동 을 만들 수 있습니다.
+   * **이벤트**: 이 카테고리는 여정에서 채널 작업 활동 전에 배치된 이벤트의 모든 필드를 다시 그룹화합니다.
    * **여정 속성**: 주어진 프로필의 여정과 관련된 기술 필드(예: 여정 ID 또는 발생한 특정 오류)입니다. 추가 정보 [Journey Orchestration 설명서](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
@@ -106,13 +85,9 @@ ht-degree: 1%
 
    ![](assets/perso-uc15.png)
 
-1. 이제 메시지를 게시합니다.
-
-   ![](assets/perso-uc16.png)
-
 ## 4단계 - 여정 테스트 및 게시 {#test-publish}
 
-1. 여정을 다시 엽니다. 여정이 이미 열려 있다면 페이지를 새로 고치십시오. 메시지가 게시되었으므로 여정에 오류가 없음을 확인할 수 있습니다. 을(를) 클릭합니다. **테스트** 단추를 클릭한 다음 **이벤트 트리거**.
+1. 을(를) 클릭합니다. **테스트** 단추를 클릭한 다음 **이벤트 트리거**.
 
    ![](assets/perso-uc17.png)
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 3%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 3%
 
 **작업**
 
-여기에서 **메시지** 활동: [!DNL Journey Optimizer]. [메시지 활동에 대해 자세히 알아보기](journeys-message.md)
+여기에 디자인된 메시지를 포함할 수 있는 채널 작업 활동이 있습니다. [!DNL Journey Optimizer]. [채널 작업 활동에 대해 자세히 알아보십시오](journeys-message.md)
 
 또한 서드파티 시스템과 함께 메시지를 전송하도록 구성한 사용자 지정 작업도 확인할 수 있습니다. 자세한 내용 [섹션](about-journey-activities.md#action-activities).
 

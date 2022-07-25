@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ ISP에는 보통 받은 메시지를 스팸으로 보고하는 잘 알려진 방
 다음 **[!UICONTROL Executions]** 메시지 목록의 탭에서는 일련의 실시간 지표를 통해 게재의 성과를 확인할 수 있습니다. 다른 항목 중에서 이 탭에 다음이 표시됩니다.
 * 실행, 전송 및 전달된 메시지 수입니다.
 * 열린 메시지 수와 클릭한 메시지/링크 수입니다.
-
-[메시지 실행 모니터링에 대해 자세히 알아보기](message-monitoring.md).
 
 ## 메시지 콘텐츠 조정 {#adapt-message-content}
 

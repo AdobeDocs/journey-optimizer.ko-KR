@@ -6,9 +6,9 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '722'
 ht-degree: 14%
 
 ---
@@ -57,15 +57,15 @@ ht-degree: 14%
 
 사용자 관리에 대한 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
-인스턴스에 액세스할 때 사용자에게는 **[!UICONTROL Product profile]**. 사용자에게 기능에 대한 액세스 권한이 없는 경우 다음 화면이 나타납니다.
+인스턴스에 액세스할 때 사용자에게는 **[!UICONTROL Product profile]**. 사용자에게 기능에 대한 액세스 권한이 없는 경우 다음 메시지가 나타납니다.
 
-![](assets/do-not-localize/access_control_1.png)
+`You don't have permission to access this feature. Permission needed: XX.`
 
 ## 기존 제품 프로필 편집 {#edit-product-profile}
 
 기본 제공 또는 사용자 지정 **[!UICONTROL Product profiles]**&#x200B;언제든지 권한을 추가하거나 삭제할 수 있습니다.
 
-이 예제에서는 **[!UICONTROL Permissions]** 관련 **[!UICONTROL Message]** 여정 뷰어에 할당된 사용자를 위한 기능 **[!UICONTROL Product profile]**. 그러면 사용자가 메시지를 게시할 수 있습니다.
+이 예제에서는 **[!UICONTROL Permissions]** 관련 **[!UICONTROL Journeys]** 여정 뷰어에 할당된 사용자를 위한 기능 **[!UICONTROL Product profile]**. 그러면 사용자가 여정을 게시할 수 있습니다.
 
 기본 제공 또는 사용자 지정을 수정하는 경우 **[!UICONTROL Product profile]**&#x200B;로 설정되면 지정된 모든 사용자에게 영향을 줍니다 **[!UICONTROL Product profile]**.
 
@@ -79,21 +79,17 @@ ht-degree: 14%
 
    ![](assets/do-not-localize/access_control_5.png)
 
-1. 을(를) 선택합니다 **[!UICONTROL Messages]** 기능.
+1. 을(를) 선택합니다 **[!UICONTROL Journeys]** 기능.
 
    ![](assets/do-not-localize/access_control_6.png)
 
 1. 에서 **[!UICONTROL Available Permission Items]** 목록에 지정할 권한을 선택합니다 **[!UICONTROL Product profile]** 더하기(+) 아이콘을 클릭합니다.
 
-   여기에서는 **[!UICONTROL Publish messages]** 권한.
-
-   ![](assets/do-not-localize/access_control_7.png)
+   여기에서는 **[!UICONTROL Publish Journeys]** 권한.
 
 1. 필요한 경우 **[!UICONTROL Included Permission Items]** 아래에서 옆에 있는 X 아이콘을 클릭하여 제품 프로필에서 권한을 제거합니다.
 
 1. 완료되었으면 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
-
-   ![](assets/do-not-localize/access_control_8.png)
 
 필요한 경우 특정 권한이 있는 새 제품 프로필을 만들 수도 있습니다. 자세한 내용은 [제품 프로필 만들기](#create-product-profile).
 
@@ -103,7 +99,7 @@ ht-degree: 14%
 
 샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko-KR){target=&quot;_blank&quot;}.
 
-이 예에서는 이름이 인 제품 프로필을 만듭니다 **여정 읽기 전용** 여기서 여정 기능에 읽기 전용 권한을 부여합니다. 사용자는 여정에 액세스하고 볼 수만 있으며, 와 같은 다른 기능에 액세스할 수 없습니다 **[!DNL  Decision management]** 또는 **[!DNL Messages]** in [!DNL Journey Optimizer].
+이 예에서는 이름이 인 제품 프로필을 만듭니다 **여정 읽기 전용** 여기서 여정 기능에 읽기 전용 권한을 부여합니다. 사용자는 여정에 액세스하고 볼 수만 있으며, 와 같은 다른 기능에 액세스할 수 없습니다 **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 
 Adobe의 **여정 읽기 전용** **[!UICONTROL product profiles]**:
 
@@ -125,7 +121,7 @@ Adobe의 **여정 읽기 전용** **[!UICONTROL product profiles]**:
 
 1. 사용자가 다른 기능에 액세스할 수 있는 권한을 추가하려면 **[!UICONTROL Permissions]** 탭.
 
-1. 과 같은 다양한 기능 중에서 선택합니다. **[!DNL Messages]**, **[!DNL Segments]** 또는 **[!DNL Decision management]** 사용 가능 [!DNL Journey Optimizer] 왼쪽 메뉴에 나열됩니다.
+1. 과 같은 다양한 기능 중에서 선택합니다. **[!DNL Journeys]**, **[!DNL Segments]** 또는 **[!DNL Decision management]** 사용 가능 [!DNL Journey Optimizer] 왼쪽 메뉴에 나열됩니다.
 
    여기에서 을(를) 선택합니다 **[!UICONTROL Journeys]** 기능.
 

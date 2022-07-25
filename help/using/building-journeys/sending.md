@@ -1,10 +1,10 @@
 ---
 title: 여정 실행 시작
 description: 여정을 시작하고 메시지를 보내는 방법을 알아봅니다
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 3%
+source-wordcount: '274'
+ht-degree: 4%
 
 ---
 
@@ -34,13 +34,9 @@ ht-degree: 3%
 
 ## 메시지 보내기 {#send-messages}
 
-메시지에 정의된 컨텐츠가 있고 게시되면 을(를) 통해 보낼 준비가 되었습니다. [여정](journey.md).
+메시지에 정의된 콘텐츠가 있으면 [여정](journey.md).
 
->[!NOTE]
->
->초안 모드에 있는 메시지를 여정에 추가할 수 있지만, 여정을 게시하기 전에 메시지가 게시되었는지 확인할 수 있습니다.
-
-메시지가 전송되면 여러 표시기를 통해 실행을 모니터링할 수 있습니다. [메시지 실행 모니터링에 대해 자세히 알아보기](../message-monitoring.md).
+메시지가 전송되면 여러 표시기를 통해 실행을 모니터링할 수 있습니다. [보고에 대해 자세히 알아보기](../global-report.md).
 
 ## 메시지 예약 {#schedule-messages}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 6%
+source-wordcount: '1096'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 >title="세그먼트 활동 읽기"
 >abstract="세그먼트 읽기 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 입력하도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다."
 
-세그먼트 읽기 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 입력하도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
+를 사용하십시오 **세그먼트 읽기** 활동을 통해 세그먼트의 모든 개인이 여정을 입력하도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 
 에서 만든 &quot;Luma 앱 열기 및 체크아웃&quot; 세그먼트의 예를 살펴보겠습니다 [세그먼트 작성](../segment/about-segments.md) 사용 사례 세그먼트 읽기 활동을 사용하면 이 세그먼트에 속하는 모든 개인이 여정을 입력하고 모든 여정 기능을 활용하는 개인화된 여정으로 전환하도록 할 수 있습니다. 조건, 타이머, 이벤트, 작업.
 
@@ -105,7 +105,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->일회성 읽기 세그먼트 여정이 여정 실행 후 30일 후에 완료됨 상태로 이동합니다. 예약된 읽기 세그먼트의 경우 마지막 항목이 실행된 후 30일이 경과합니다.
+>일회성 읽기 세그먼트 여정이 여정 실행 후 30일 후에 완료됨 상태로 이동합니다. 예약된 읽기 세그먼트의 경우 마지막 항목이 실행된 후 30일이 경과한 시점입니다.
 
 ### 여정 테스트 및 게시 {#testing-publishing}
 

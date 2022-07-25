@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1082'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->게시되지 않은 메시지에서 참조되는 랜딩 페이지의 게시를 취소하는 경우 랜딩 페이지가 다시 게시될 때까지 메시지를 게시할 수 없습니다. 메시지가 이미 게시되어 있으면 랜딩 페이지에 대한 링크가 끊기고 오류 페이지가 표시됩니다.
+>게시되지 않은 메시지에서 참조되는 랜딩 페이지의 게시를 취소하면 랜딩 페이지에 대한 링크가 끊기고 오류 페이지가 표시됩니다.
 
 랜딩 페이지 옆에 있는 세 점을 클릭하여 원하는 작업을 선택합니다.
 

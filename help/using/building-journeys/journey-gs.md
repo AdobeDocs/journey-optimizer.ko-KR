@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 8%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 8%
 
    ![](assets/jo-datasource.png)
 
-1. **작업 구성**: Journey Optimizer 메시지 기능이 내장되어 있으므로 컨텐츠를 디자인하고 메시지를 게시하기만 하면 됩니다. [이 섹션](../messages/get-started-content.md)을 참조하십시오. 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. 자세한 내용 [섹션](../action/action.md). **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다.
+1. **작업 구성**: 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. 자세한 내용 [섹션](../action/action.md). **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다. Journey Optimizer 기본 제공 메시지 기능을 사용하는 경우 여정에 채널 작업을 추가하고 컨텐츠를 디자인하기만 하면 됩니다. [이 섹션](../messages/get-started-content.md)을 참조하십시오.
 
-   ![](assets/create-content-push.png)
+   ![](assets/custom2.png)
 
 ## 여정 빌드{#jo-build}
 
@@ -60,7 +60,7 @@ ht-degree: 8%
 
    ![](assets/read-segment.png)
 
-1. 개인이 수행할 다음 단계를 끌어서 놓습니다. 예를 들어 조건 뒤에 메시지를 추가할 수 있습니다. 활동에 대한 자세한 내용은 [이 섹션](using-the-journey-designer.md).
+1. 개인이 수행할 다음 단계를 끌어서 놓습니다. 예를 들어 조건 뒤에 채널 작업을 추가할 수 있습니다. 활동에 대한 자세한 내용은 [이 섹션](using-the-journey-designer.md).
 
 1. 테스트 프로필을 사용하여 여정을 테스트합니다. 자세한 내용 [섹션](testing-the-journey.md)
 

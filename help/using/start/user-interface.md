@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 99%
+source-wordcount: '1456'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 ## 왼쪽 탐색 {#left-nav}
 
-왼쪽의 링크를 사용하여 기능을 찾아봅니다.
+왼쪽의 링크를 탐색하여 액세스합니다 [!DNL Journey Optimizer] 기능.
 
 ![](assets/ajo-home.png)
 
@@ -36,17 +36,17 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 >
 >사용 가능한 기능은 사용 권한 및 사용권 계약에 따라 달라질 수 있습니다.
 
-왼쪽 탐색에 있는 서비스 및 기능의 전체 목록 및 관련 문서에 대한 링크를 아래에서 확인할 수 있습니다.
+아래에는 왼쪽 탐색에서 사용할 수 있는 서비스 및 기능 전체 목록과 관련 도움말 페이지 링크가 있습니다.
 
 **홈**
 
-[!DNL Journey Optimizer] 홈 페이지에는 시작할 주요 링크와 리소스가 포함되어 있습니다. **[!UICONTROL Recents]** 목록은 최근에 만들었거나 업데이트된 메시지, 이벤트 및 여정에 대한 단축키를 제공합니다. 이 목록에는 작성 및 수정 날짜와 상태가 표시됩니다.
+[!DNL Journey Optimizer] 홈 페이지에는 시작할 주요 링크와 리소스가 포함되어 있습니다. 다음 **[!UICONTROL Recents]** 목록에서는 최근에 만든 이벤트 및 여정에 대한 바로 가기를 제공합니다. 이 목록에는 작성 및 수정 날짜와 상태가 표시됩니다.
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
 * **[!UICONTROL Journeys]** - 고객 여정 생성, 구성 및 조정 [자세히 알아보기](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - 이메일 및 푸시 메시지의 작성, 디자인, 테스트 및 게시 [자세히 알아보기](../messages/get-started-content.md)
+* **[!UICONTROL Landing pages]** - 랜딩 페이지 만들기, 디자인, 테스트 및 게시. [자세히 알아보기](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -127,7 +127,7 @@ Adobe Experience Platform 설명서에서 [자세히 알아보기](https://exper
 | 사용자 인터페이스 요소, 섹션, 메뉴 그룹 간에 뒤로 이동 | Shift + Tab |
 | 섹션 내에서 이동하여 포커스를 개별 요소로 설정 | 화살표 |
 | 포커스에 있는 요소 선택 또는 지우기 | Enter 또는 스페이스바 |
-| 선택 취소, 패널 축소 또는 대화 상자 닫기 | Esc |
+| 선택 취소, 창 축소 또는 대화 상자 닫기 | Esc |
 
 Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ko){target=&quot;_blank&quot;}
 
@@ -274,7 +274,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ## 검색{#unified-search}
 
-Adobe Journey Optimizer 인터페이스의 모든 곳에서 상단 표시줄의 중앙에 있는 Adobe Experience Cloud 검색을 사용하여 샌드박스 전반의 자산, 여정 또는 메시지를 찾을 수 있습니다.
+Adobe Journey Optimizer 인터페이스에서 어디에서나 상단 표시줄 중앙에 있는 통합 Adobe Experience Cloud 검색 기능을 사용하여 샌드박스에서 자산, 여정, 데이터 세트 등을 찾을 수 있습니다.
 
 상위 결과를 표시할 컨텐츠 입력을 시작합니다. 입력한 키워드에 대한 도움말 문서도 결과에 표시됩니다.
 
@@ -304,6 +304,6 @@ Adobe Journey Optimizer 인터페이스의 모든 곳에서 상단 표시줄의 
 
 ![](assets/journey3bis.png)
 
-여러 목록에서 각 요소에 대해 기본적인 작업을 수행할 수 있습니다. 예를 들어 항목을 복제하거나 삭제할 수 있습니다.
+목록에서 각 요소에 대해 기본적인 작업을 수행할 수 있습니다. 예를 들어 항목을 복제하거나 삭제할 수 있습니다.
 
 ![](assets/journey4.png)

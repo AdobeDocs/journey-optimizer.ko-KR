@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: d0d914156eaa7fe54a513ee7b4e870edbc76c846
+exl-id: 57bdeadc-5801-4036-a272-c622634d5281
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -107,7 +108,5 @@ While authoring a journey, an "end node" is displayed at the end of each path. T
 
 1. 에서 **[!UICONTROL Journeys]** 목록에서 중지할 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
-
-![](assets/finish_drop_down_list.png)
-
+   ![](assets/finish_drop_down_list.png)
 1. 클릭 **[!UICONTROL Stop]**, 그리고 대화 상자에서 확인합니다.

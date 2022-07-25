@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 다음 기능을 통해 제공되는 여러 단계로 구성된 고급 시나리오 설계:
 
-* 실시간 보내기 **단일 메시지** 이벤트가 수신될 때 트리거되거나 **일괄적으로** Adobe Experience Platform 세그먼트 사용.
+* 실시간 보내기 **단일 제공** 이벤트가 수신될 때 트리거되거나 **일괄적으로** Adobe Experience Platform 세그먼트 사용.
 
 * 활용 **컨텍스트 기반 데이터** 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 포함합니다.
 

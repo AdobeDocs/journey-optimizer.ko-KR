@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '552'
+ht-degree: 88%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 0%
 [!DNL Adobe Journey Optimizer]은(는) 기본적으로 [!DNL Adobe Experience Platform] 기반으로 구축되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. [Adobe Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target=&quot;_blank&quot;}에서 이러한 변경 사항에 대해 자세히 알아보십시오.
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}에 등록하시면 분기마다 최신 제품 업데이트, 흥미로운 사례, 사용 사례, 팁 등을 받은 편지함에 바로 받을 수 있습니다.
+
+>[!CAUTION]
+>
+>7월 25일, Adobe Journey Optimizer은 [새로운 기능](../rn/inline-messages.md) Journey Optimizer 채널에 대한 컨텐츠를 작성하는 방법(이메일, 푸시, SMS)이 개선되었습니다. Journey Optimizer의 전문의로서 [만들기 및 작성](../messages/get-started-content.md) 여정에서 직접 메시지를 전송할 수 있습니다. 여정 자동 전환이 수행됩니다. 몇 가지 단계로 여러분의 도움이 필요합니다. 추가 정보 [필수 단계](../rn/inline-messages-steps.md).
 
 ## 2022년 6월 릴리스 {#june-2022-release}
 
@@ -117,7 +121,7 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
@@ -153,7 +157,7 @@ ht-degree: 0%
 
 * **IP 풀 에디션** - IP 풀을 업데이트할 때 드는 최대 처리 시간이 최대 3시간으로 단축되었습니다. [자세히 보기](../configuration/ip-pools.md#edit-ip-pool)
 
-<!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+<!--* **Personalize tracking URL parameters** - You can now use the Expression editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
 <!--
 **Reporting**

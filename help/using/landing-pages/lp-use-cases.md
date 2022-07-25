@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 17%
+source-wordcount: '888'
+ht-degree: 16%
 
 ---
 
@@ -47,7 +47,11 @@ ht-degree: 17%
 
 1. [게시](create-lp.md#publish) 랜딩 페이지.
 
-1. [이메일 메시지 만들기](../messages/get-started-content.md) 이제 해당 이벤트에 대한 등록이 열려 있음을 알려주십시오.
+1. 다음 [여정](../building-journeys/journey.md), 추가 **이메일** 활동을 통해 트래픽을 등록 랜딩 페이지로 유도할 수 있습니다.
+
+   ![](assets/lp_subscription-uc-journey.png)
+
+1. [이메일 디자인](../messages/get-started-content.md) 이제 해당 이벤트에 대한 등록이 열려 있음을 알려주십시오.
 
 1. [링크 삽입](../design/message-tracking.md#insert-links) 메시지 콘텐츠에 삽입하십시오. 선택 **[!UICONTROL Landing page]** 로서의 **[!UICONTROL Link type]** 그리고 [랜딩 페이지](create-lp.md#configure-primary-page) 등록용으로 만들 수 있습니다.
 
@@ -55,13 +59,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >메시지를 게시하려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인합니다. 만료 날짜를 업데이트하는 방법 알아보기 [이 섹션](create-lp.md#configure-primary-page).
-
-1. 콘텐츠를 저장하고 [메시지를 게시합니다](../messages/publish-manage-message.md).
-
-1. 을(를) 통해 메시지 보내기 [여정](../building-journeys/journey.md) 트래픽을 등록 랜딩 페이지로 유도합니다.
-
-   ![](assets/lp_subscription-uc-journey.png)
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 만료 날짜를 업데이트하는 방법 알아보기 [이 섹션](create-lp.md#configure-primary-page).
 
    전자 메일이 수신되면 수신자가 랜딩 페이지에 대한 링크를 클릭하면 &#39;감사 인사&#39; 페이지로 이동하며 구독 목록에 추가됩니다.
 
@@ -79,7 +77,7 @@ ht-degree: 17%
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. 선택한 확인 이메일을 선택하고 여정을 통해 보냅니다.
+1. 선택한 확인 이메일을 추가하고 여정을 통해 보냅니다.
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -106,9 +104,9 @@ ht-degree: 17%
 
 이메일 수신자가 랜딩 페이지를 통해 커뮤니케이션에서 가입을 해지할 수 있도록 하려면 아래 단계를 따르십시오.
 
-1. 랜딩 페이지를 만듭니다. [자세히 알아보기](create-lp.md)
+1. 랜딩 페이지를 만듭니다. [자세히 보기](create-lp.md)
 
-1. 기본 페이지를 정의합니다. [자세히 알아보기](create-lp.md#configure-primary-page)
+1. 기본 페이지를 정의합니다. [자세히 보기](create-lp.md#configure-primary-page)
 
 1. [디자인](design-lp.md) 기본 페이지 컨텐츠: 랜딩 페이지별 사용 **[!UICONTROL Form]** 구성 요소, 정의 **[!UICONTROL Opt-out]** 확인란을 선택하고 업데이트하도록 선택합니다. **[!UICONTROL Channel (email)]**: 랜딩 페이지에서 옵트아웃 상자를 체크하는 프로필은 모든 통신에서 옵트아웃됩니다.
 
@@ -122,13 +120,13 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >기본 페이지의 **[!UICONTROL Call to action]** 섹션 **[!UICONTROL Form]** 구성 요소. [자세히 알아보기](design-lp.md)
+   >기본 페이지의 **[!UICONTROL Call to action]** 섹션 **[!UICONTROL Form]** 구성 요소. [자세히 보기](design-lp.md)
 
 1. 페이지의 콘텐츠를 구성하고 정의했으면, [게시](create-lp.md#publish) 랜딩 페이지.
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [이메일 메시지 만들기](../messages/get-started-content.md) in [!DNL Journey Optimizer].
+1. [이메일 메시지 만들기](../messages/get-started-content.md) 여정에 있을 때 사용됩니다.
 
 1. 콘텐츠에서 텍스트를 선택하고 상황별 도구 모음을 사용하여 [링크를 삽입합니다. ](../design/message-tracking.md#insert-links) 단추에 대한 링크를 사용할 수도 있습니다.
 
@@ -140,11 +138,9 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >메시지를 게시하려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인합니다. 만료 날짜를 업데이트하는 방법 알아보기 [이 섹션](create-lp.md#configure-primary-page).
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 만료 날짜를 업데이트하는 방법 알아보기 [이 섹션](create-lp.md#configure-primary-page).
 
-1. 콘텐츠를 저장하고 [메시지를 게시합니다](../messages/publish-manage-message.md).
-
-1. 여정을 통해 메시지를 보냅니다. [자세히 알아보기](../building-journeys/journey.md).
+1. 여정을 게시하고 실행합니다. [자세히 알아보기](../building-journeys/journey.md).
 
 1. 메시지가 수신되면 수신자가 이메일에서 가입 해지 링크를 클릭하면 랜딩 페이지가 표시됩니다.
 

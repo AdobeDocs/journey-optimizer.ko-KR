@@ -3,13 +3,13 @@ title: API를 사용하여 캠페인 트리거
 description: 을 사용하여 캠페인을 트리거하는 방법 알아보기 [!DNL Journey Optimizer] API
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 3%
 
 ---
-
 
 # API를 사용하여 캠페인 트리거 {#trigger-campaigns}
 
@@ -33,7 +33,7 @@ API로 트리거된 캠페인을 만들려면 다음 단계를 수행합니다.
 
 1. 를 사용하여 새 캠페인 만들기 **[!UICONTROL API-triggered]** 유형.
 
-1. 메시지를 보내는 데 사용할 채널과 메시지 서피스를 선택한 다음 **[!UICONTROL Create]**.
+1. 메시지를 보내는 데 사용할 채널과 채널 표면을 선택한 다음 를 클릭합니다 **[!UICONTROL Create]**.
 
    ![](assets/api-triggered-type.png)
 

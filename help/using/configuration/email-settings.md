@@ -1,21 +1,21 @@
 ---
 title: 이메일 설정 구성
-description: 메시지 사전 설정 수준에서 이메일 설정을 구성하는 방법을 알아봅니다
+description: 채널 표면 수준에서 이메일 설정을 구성하는 방법을 알아봅니다
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1198'
 ht-degree: 2%
 
 ---
 
 # 이메일 설정 구성 {#email-settings}
 
-메시지 사전 설정 구성의 전용 섹션에서 전자 메일 설정을 정의합니다. 에서 메시지 사전 설정을 만드는 방법을 알아봅니다. [이 섹션](message-presets.md).
+채널 서피스(즉, 메시지 사전 설정) 구성의 전용 섹션에서 전자 메일 설정을 정의합니다. 에서 서피스를 만드는 방법을 알아봅니다 [이 섹션](message-presets.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,19 +24,19 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="이메일 카테고리 정의"
->abstract="이 사전 설정을 사용할 때 전송할 메시지 유형을 선택합니다. 사용자 동의가 필요한 프로모션 메시지의 마케팅 또는 비상업용 메시지의 경우 트랜잭션용으로 특정 컨텍스트에서 가입 해지된 프로필에도 전송될 수 있습니다."
+>abstract="이 채널 표면을 사용할 때 전송할 이메일 유형을 선택합니다. 사용자 동의가 필요한 프로모션 이메일에 대한 마케팅 또는 비상업적 이메일에 대한 트랜잭션은 특정 컨텍스트에서 가입 해지된 프로필에도 전송될 수 있습니다."
 
-에서 **이메일 유형** 섹션에서 사전 설정으로 전송할 메시지 유형을 선택합니다. **마케팅** 또는 **트랜잭션**.
+에서 **이메일 유형** 섹션에서 채널 서피스와 함께 전송할 메시지 유형을 선택합니다. **마케팅** 또는 **트랜잭션**.
 
-* 선택 **마케팅** 프로모션 메시지의 경우: 이러한 메시지에는 사용자의 동의가 필요합니다.
+* 선택 **마케팅** 프로모션 이메일의 경우: 이러한 메시지에는 사용자의 동의가 필요합니다.
 
-* 선택 **트랜잭션** 주문 확인, 암호 재설정 알림 또는 배달 정보와 같은 비상업적인 메시지의 경우,
+* 선택 **트랜잭션** 주문 확인, 암호 재설정 알림 또는 배달 정보와 같은 비상업적인 이메일의 경우,
 
 >[!CAUTION]
 >
->**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필로 메시지를 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
+>**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필에게 이메일을 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
 
-When [메시지 만들기](../messages/get-started-content.md#create-new-message): 메시지에 대해 선택한 카테고리와 일치하는 유효한 메시지 사전 설정을 선택해야 합니다.
+When [메시지 만들기](../messages/get-started-content.md#create-new-message)이메일에 대해 선택한 카테고리와 일치하는 유효한 채널 서피스를 선택해야 합니다.
 
 ## 하위 도메인 및 IP 풀 {#subdomains-and-ip-pools}
 
@@ -44,11 +44,11 @@ When [메시지 만들기](../messages/get-started-content.md#create-new-message
 
 1. 이메일을 보내는 데 사용할 하위 도메인을 선택합니다. [자세히 보기](about-subdomain-delegation.md)
 
-1. 사전 설정과 연결할 IP 풀을 선택합니다. [자세히 보기](ip-pools.md)
+1. 서피스와 연결할 IP 풀을 선택합니다. [자세히 보기](ip-pools.md)
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-선택한 IP 풀이 아래에 있는 동안에는 사전 설정을 만들 수 없습니다 [에디션](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 상태) 및 을 선택한 하위 도메인과 연결한 적이 없습니다. 그렇지 않으면 가장 오래된 버전의 IP 풀/하위 도메인 연결이 계속 사용됩니다. 이 경우 사전 설정을 초안으로 저장하고 IP 풀에 **[!UICONTROL Success]** 상태.
+선택한 IP 풀이 아래에 있는 동안에는 서피스 생성을 계속할 수 없습니다 [에디션](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 상태) 및 을 선택한 하위 도메인과 연결한 적이 없습니다. 그렇지 않으면 가장 오래된 버전의 IP 풀/하위 도메인 연결이 계속 사용됩니다. 이 경우 서피스를 초안으로 저장하고 IP 풀에 가 있으면 다시 시도하십시오 **[!UICONTROL Success]** 상태.
 
 >[!NOTE]
 >
@@ -72,13 +72,13 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 * An **이메일 주소 가입**: 모든 구독 취소 요청을 전송하는 입니다.
 
-   in [!DNL Journey Optimizer], 가입 해지 이메일 주소가 기본값입니다 **[!UICONTROL Mailto (unsubscribe)]** 메시지 사전 설정에 표시되는 주소 [선택한 하위 도메인](#subdomains-and-ip-pools).
+   in [!DNL Journey Optimizer], 가입 해지 이메일 주소가 기본값입니다 **[!UICONTROL Mailto (unsubscribe)]** 채널 서피스에 표시되는 주소, 즉 [선택한 하위 도메인](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
 * 다음 **구독 취소 URL**: 사용자가 가입 해지되면 리디렉션되는 랜딩 페이지의 URL입니다.
 
-   를 추가할 경우 [옵트아웃 링크 1회 클릭](../messages/consent.md#one-click-opt-out) 이 사전 설정을 사용하여 만든 메시지에 대해 가입 해지 URL은 한 번의 클릭으로 옵트아웃 링크에 대해 정의된 URL입니다.
+   를 추가할 경우 [옵트아웃 링크 1회 클릭](../messages/consent.md#one-click-opt-out) 이 서피스를 사용하여 생성된 메시지의 경우 가입 해지 URL은 한 번의 클릭으로 옵트아웃 링크에 대해 정의된 URL입니다.
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -92,7 +92,7 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 ## 헤더 매개 변수{#email-header}
 
-에서 **[!UICONTROL HEADER PARAMETERS]** 섹션에서 해당 사전 설정을 사용하여 보낸 메시지 유형과 연관된 발신자 이름과 이메일 주소를 입력합니다.
+에서 **[!UICONTROL HEADER PARAMETERS]** 섹션에서 해당 표면을 사용하여 보낸 이메일 유형과 연관된 발신자 이름과 이메일 주소를 입력합니다.
 
 >[!CAUTION]
 >
@@ -120,12 +120,12 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 * 원하는 이메일 주소입니다. 전자 메일 주소 전달 도메인은 Adobe에 위임된 하위 도메인과 일치하지 않습니다.
 * 샌드박스 이름입니다.
-* 전자 메일 주소를 사용할 사전 설정된 이름입니다.
-* 현재 **[!UICONTROL Reply to (email)]** 미리 설정된 수준에서 설정된 주소입니다.
+* 앞으로 전자 메일 주소가 사용될 표면 이름입니다.
+* 현재 **[!UICONTROL Reply to (email)]** 채널 서피스 레벨에서 설정된 주소.
 
 >[!NOTE]
 >
->하위 도메인당 한 개의 순방향 이메일 주소만 있을 수 있습니다. 따라서 여러 사전 설정에서 동일한 하위 도메인을 사용하는 경우 모든 사전 설정에 동일한 순방향 이메일 주소를 사용해야 합니다.
+>하위 도메인당 한 개의 순방향 이메일 주소만 있을 수 있습니다. 따라서 여러 서피스에서 동일한 하위 도메인을 사용하는 경우 모든 서피스에 동일한 순방향 이메일 주소를 사용해야 합니다.
 
 전자 메일 전송 주소는 Adobe이 설정합니다. 3~4일 걸릴 수 있습니다.
 
@@ -133,7 +133,7 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 에서 보낸 이메일의 동일한 사본(또는 빈 사본)을 보낼 수 있습니다 [!DNL Journey Optimizer] 를 BCC 받은 편지함으로 배달되며 이 받은 편지함은 규정 준수 또는 보관 목적으로 저장됩니다.
 
-이렇게 하려면 **[!UICONTROL BCC email]** 사전 설정 수준에서 선택적 기능입니다. [자세히 보기](bcc-email.md)
+이렇게 하려면 **[!UICONTROL BCC EMAIL]** 채널 서피스 레벨의 선택적 피쳐 [자세히 보기](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -142,7 +142,7 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="다시 시도 기간 조정"
->abstract="임시 소프트 바운스 오류로 인해 이메일 메시지가 실패하면 3.5일(84시간) 동안 다시 시도가 수행됩니다. 이 기본 다시 시도 기간을 조정하여 사용자의 요구 사항에 맞게 조정할 수 있습니다."
+>abstract="임시 소프트 바운스 오류로 인해 이메일 게재가 실패할 경우 3.5일(84시간) 동안 다시 시도가 수행됩니다. 이 기본 다시 시도 기간을 조정하여 사용자의 요구 사항에 맞게 조정할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="다시 시도 기본 정보"
 
 을 구성할 수 있습니다 **전자 메일 다시 시도 매개 변수**.
@@ -171,13 +171,13 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 >title="미리 보기 URL 추적 매개 변수"
 >abstract="추적 매개 변수가 전자 메일 콘텐츠에 있는 URL에 추가되는 방법을 검토하십시오."
 
-다음을 사용할 수 있습니다 **[!UICONTROL URL tracking parameters]** 를 사용하여 여러 채널에서 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 선택 사항입니다.
+다음을 사용할 수 있습니다 **[!UICONTROL URL TRACKING PARAMETERS]** 를 사용하여 여러 채널에서 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 선택 사항입니다.
 
 이 섹션에 정의된 매개 변수가 이메일 메시지 콘텐츠에 포함된 URL의 끝에 추가됩니다. 그런 다음 Adobe Analytics 또는 Google Analytics과 같은 웹 분석 도구에서 이러한 매개 변수를 캡처하고 다양한 성능 보고서를 만들 수 있습니다.
 
 ![](assets/preset-url-tracking.png)
 
-메시지 사전 설정을 만들 때 예로서 세 개의 URL 추적 매개 변수가 자동으로 채워집니다. 이러한 매개 변수를 편집하고 **[!UICONTROL Add new parameter]** 버튼을 클릭합니다.
+채널 서피스를 생성할 때 세 개의 URL 추적 매개 변수가 예로서 자동으로 채워집니다. 이러한 매개 변수를 편집하고 **[!UICONTROL Add new parameter]** 버튼을 클릭합니다.
 
 URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Value]** 필드.
 
@@ -192,7 +192,7 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONT
 >
 >폴더를 선택하지 마십시오: 필요한 폴더를 찾아 추적 매개 변수 값으로 사용할 프로필 속성을 선택해야 합니다.
 
-<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
 
 You can drag and drop the parameters to reorder them.-->
 

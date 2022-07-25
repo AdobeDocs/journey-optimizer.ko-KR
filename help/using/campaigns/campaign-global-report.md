@@ -7,9 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1213'
 ht-degree: 2%
 
 ---
@@ -49,8 +50,6 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 ## 이메일 탭 {#email-global}
 
 캠페인에서 **[!UICONTROL Global report]**, **[!UICONTROL Email]** 탭 은 Campaign에서 전송된 이메일 게재와 관련된 주요 정보를 자세히 설명합니다.
-
-특정 이메일 게재에 대한 자세한 내용은 [이메일 글로벌 보고서](../reports/email-global-report.md) 섹션을 참조하십시오.
 
 다음 **[!UICONTROL Email Sending Statistics]** 그래프는 게재 성공에 대해 자세히 설명합니다.
 
@@ -122,7 +121,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 >[!NOTE]
 >
->다음 **[!UICONTROL Optimized vs non optimized]** 및 **[!UICONTROL Send time optimization]**  위젯은 전송에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journeys-message.md#send-time-optimization).
+>다음 **[!UICONTROL Optimized vs non optimized]** 및 **[!UICONTROL Send time optimization]**  위젯은 전송에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 [이 페이지](../messages/send-time-optimization.md).
 
 다음 **[!UICONTROL Optimized vs non optimized]** 그래프는 메시지가 최적화되었는지 여부에 따라 메시지에 대한 기본 정보를 자세히 설명합니다.
 
@@ -138,8 +137,6 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 ## 푸시 탭 {#push-global}
 
 캠페인에서 **[!UICONTROL Global report]**, **[!UICONTROL Push]** 탭 은 campaign에서 전송된 푸시 게재와 관련된 기본 정보를 자세히 설명합니다.
-
-특정 푸시 게재에 대한 자세한 보고서는 다음을 참조하십시오. [푸시 글로벌 보고서](../reports/push-global-report.md).
 
 다음 **[!UICONTROL Push notification - Sending statistics]** 표는 그래프 및 KPI를 사용하여 푸시 알림에 대한 기본 정보를 자세히 설명합니다.
 
@@ -187,7 +184,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 >[!NOTE]
 >
->다음 **[!UICONTROL Optimized vs non optimized]** 및 **[!UICONTROL Send time optimization]**  위젯은 전송에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journeys-message.md#send-time-optimization).
+>다음 **[!UICONTROL Optimized vs non optimized]** 및 **[!UICONTROL Send time optimization]**  위젯은 전송에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 [이 페이지](../messages/send-time-optimization.md).
 
 다음 **[!UICONTROL Optimized vs non optimized]** 그래프는 메시지가 최적화되었는지 여부에 따라 메시지에 대한 기본 정보를 자세히 설명합니다.
 

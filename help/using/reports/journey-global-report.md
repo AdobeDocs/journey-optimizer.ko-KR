@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
@@ -62,11 +62,11 @@ ht-degree: 0%
 
 여정에서 **[!UICONTROL Global report]**, **[!UICONTROL Email]** 탭에서는 여정에서 전송된 이메일 게재와 관련된 주요 정보를 자세히 설명합니다.
 
-특정 이메일 게재에 대한 자세한 내용은 [이메일 글로벌 보고서](#email-global-report) 섹션을 참조하십시오.
-
 ![](assets/global_report_14.png)
 
 다음 **[!UICONTROL Email Sending Statistics]** 그래프는 게재 성공에 대해 자세히 설명합니다.
+
+* **[!UICONTROL Targeted]**: 이메일 또는 SMS 보내기 등의 작업을 위해 Adobe Journey Orchestration이 타겟팅한 프로필 수입니다.
 
 * **[!UICONTROL Sent]**: 게재에 대한 총 전송 수입니다.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Unique Opens]**: 연 게재의 백분율입니다.
 
-* **[!UICONTROL Open Rate]**: 연 총 이메일 수와 배달된 이메일 수 비교
+* **[!UICONTROL Unique Open Rate]**: 연 총 이메일 수와 배달된 이메일 수 비교
 
 * **[!UICONTROL Clicks]**: 이메일에서 콘텐츠를 클릭한 횟수입니다.
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->다음 **[!UICONTROL Optimized vs non optimized]** 및 **[!UICONTROL Send time optimization]**  위젯은 전송에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journeys-message.md#send-time-optimization).
+>다음 **[!UICONTROL Optimized vs non optimized]** 및 **[!UICONTROL Send time optimization]**  위젯은 전송에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 [이 페이지](../messages/send-time-optimization.md).
 
 다음 **[!UICONTROL Optimized vs non optimized]** 그래프는 메시지가 최적화되었는지 여부에 따라 메시지에 대한 기본 정보를 자세히 설명합니다.
 
@@ -179,11 +179,11 @@ ht-degree: 0%
 
 여정에서 **[!UICONTROL Global report]**, **[!UICONTROL Push]** 탭에서 여정에 전송된 푸시 게재와 관련된 기본 정보를 자세히 설명합니다.
 
-특정 푸시 게재에 대한 자세한 보고서는 다음을 참조하십시오. [푸시 글로벌 보고서](#push-global-report).
-
 ![](assets/global_report_17.png)
 
 다음 **[!UICONTROL Push notification - Sending statistics]** 표는 그래프 및 KPI를 사용하여 푸시 알림에 대한 기본 정보를 자세히 설명합니다.
+
+* **[!UICONTROL Targeted]**: 이메일 또는 SMS 보내기 등의 작업을 위해 Adobe Journey Orchestration이 타겟팅한 프로필 수입니다.
 
 * **[!UICONTROL Sent]**: 게재에 대한 총 전송 수입니다.
 
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->다음 **[!UICONTROL Optimized vs non optimized]** 및 **[!UICONTROL Send time optimization]**  위젯은 전송에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journeys-message.md#send-time-optimization).
+>다음 **[!UICONTROL Optimized vs non optimized]** 및 **[!UICONTROL Send time optimization]**  위젯은 전송에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 [이 페이지](../messages/send-time-optimization.md).
 
 다음 **[!UICONTROL Optimized vs non optimized]** 그래프는 메시지가 최적화되었는지 여부에 따라 메시지에 대한 기본 정보를 자세히 설명합니다.
 

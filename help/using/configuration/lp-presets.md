@@ -4,10 +4,10 @@ description: Journey Optimizer에서 랜딩 페이지를 만들고 사용하도�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '300'
+ht-degree: 7%
 
 ---
 
@@ -74,10 +74,10 @@ When [랜딩 페이지 만들기](../landing-pages/create-lp.md#create-a-lp)을(
    ![](assets/lp-preset-active-temp.png)
 
 이제 준비가 되었습니다. [랜딩 페이지 만들기](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
-
+<!--
 >[!NOTE]
 >
->에서 푸시 알림 및 이메일에 대한 메시지 사전 설정을 만드는 방법을 알아봅니다. [이 섹션](message-presets.md).
+>Learn how to create channel surfaces for push notifications and emails in [this section](message-presets.md).-->
 
 **관련 항목**:
 

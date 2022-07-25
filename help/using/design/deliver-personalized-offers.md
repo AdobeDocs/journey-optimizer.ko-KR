@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
 
 # 개인화된 오퍼 추가 {#deliver-personalized-offers}
 
-in [!DNL Journey Optimizer] 이메일 메시지를 통해 고객에게 제공할 최상의 오퍼를 선택하기 위해 오퍼 결정 엔진을 활용하는 결정을 삽입할 수 있습니다.
+in [!DNL Journey Optimizer] 이메일에서, 고객에게 제공할 최상의 오퍼를 선택하기 위해 오퍼 결정 엔진을 활용하는 결정을 삽입할 수 있습니다.
 
 예를 들어 이메일에 수신자의 충성도 수준에 따라 달라지는 특별 할인 오퍼가 표시되는 결정을 추가할 수 있습니다.
 
@@ -59,11 +59,11 @@ in [!DNL Journey Optimizer] 이메일 메시지를 통해 고객에게 제공할
 
 이제 오퍼 활동이 구성 요소에 추가됩니다.
 
-변경 사항을 저장한 후 메시지가 게시되면 여정의 일부로 메시지를 보낼 때 관련 프로필에 오퍼를 표시할 수 있습니다.
+변경 사항을 저장한 후 여정의 일부로 메시지를 전송할 때 관련 프로필에 오퍼를 표시할 수 있습니다.
 
 >[!NOTE]
 >
->게시된 메시지에서 직접 또는 간접적으로 참조되는 오퍼, 대체 오퍼, 오퍼 컬렉션 또는 오퍼 결정을 업데이트하면 다시 게시할 필요 없이 업데이트가 해당 메시지에 자동으로 반영됩니다.
+>메시지에서 직접 또는 간접적으로 참조되는 오퍼, 대체 오퍼, 오퍼 컬렉션 또는 오퍼 결정을 업데이트하면 업데이트가 해당 메시지에 자동으로 반영됩니다.
 
 ## 이메일에서 오퍼 미리 보기 {#preview-offers-in-email}
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -65,10 +65,7 @@ ht-degree: 1%
 
    선택한 이미지에 라이센스가 없는 경우 [라이센스 받기](#license-stock-image).
 
-1. 필요한 경우 **[!UICONTROL Components settings]** 메뉴 아래의 제품에서 사용할 수 있습니다. [구성 요소 설정에 대해 자세히 알아보기](content-components.md)
-
-메시지를 만들고 개인화하면 게시하여 실행할 수 있도록 할 수 있습니다. [자세히 보기](../messages/publish-manage-message.md)
-
+1. 필요한 경우 **[!UICONTROL Components settings]** 메뉴 아래의 제품에서 사용할 수 있습니다. [구성 요소 설정에 대해 자세히 알아보기](content-components.md).
 
 ## 다음에서 라이센스 받기 [!DNL Adobe Stock] {#license-stock-image}
 

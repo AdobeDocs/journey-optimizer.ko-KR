@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '256'
 ht-degree: 5%
 
 ---
@@ -24,14 +24,12 @@ ht-degree: 5%
 이 여정을 구성하려면 다음 단계를 수행합니다.
 
 1. 다음으로 시작하는 여정 만들기 **[!UICONTROL Read]** 활동. [자세히 보기](journey-gs.md).
-1. 추가 **[!UICONTROL Message]** 활동을 여정에 이메일과 함께 보냅니다. [자세히 보기](journeys-message.md).
-1. 에서 **[!UICONTROL Email parameters]** 섹션 **[!UICONTROL Message]** 활동 설정에서 기본 이메일 주소(`PersonalEmail.adress`) 목록 구독자의 이메일 주소가 있는 경우:
+1. 추가 **[!UICONTROL Email]** 작업 활동을 여정에 추가합니다. [자세히 보기](journeys-message.md).
+1. 에서 **[!UICONTROL Email parameters]** 섹션 **[!UICONTROL Email]** 활동 설정에서 기본 이메일 주소(`PersonalEmail.adress`) 목록 구독자의 이메일 주소가 있는 경우:
 
    1. 을(를) 클릭합니다. **[!UICONTROL Enable parameter override]** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다. **[!UICONTROL Address]** 필드를 클릭한 다음 **[!UICONTROL Edit]** 아이콘.
 
       ![](assets/message-to-subscribers-uc-1.png)
-
-      이메일 주소를 수정하려면 이전에 메시지를 게시했는지 확인해야 합니다.
 
    1. 표현식 편집기에서 구독자의 이메일 주소를 검색할 표현식을 입력합니다. [자세히 보기](expression/expressionadvanced.md).
 
@@ -55,4 +53,3 @@ ht-degree: 5%
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. 에서 **[!UICONTROL Add an expression]** 대화 상자 **[!UICONTROL Ok]**.
-   ![](assets/message-to-subscribers-uc-3.png)

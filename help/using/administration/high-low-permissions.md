@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -123,88 +123,6 @@ ht-degree: 0%
    * queries.read
    * queries.write
    * queries.delete
-
-## 메시지 기능 {#message-capability}
-
-### [!DNL Manage messages] 권한 {#manage-messages}
-
-다음 **[!DNL Manage messages]** 높은 수준의 권한을 통해 사용자는 메시지를 만들고 편집/삭제할 수 있습니다.
-
-여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-
-* Journey Optimizer 특정:
-   * messages.write
-   * messages.read
-   * messages.delete
-   * messages_presets.read
-
-* Adobe Experience Platform 특정:
-   * segments.read
-   * schemas.read
-
-### [!DNL Manage messages preview and test] 권한 {#mange-messages-preview}
-
-다음 **[!DNL Manage messages preview and test]** 높은 수준의 권한을 통해 사용자는 개인화된 메시지를 미리 볼 수 있습니다.
-
-여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-
-* Journey Optimizer 특정:
-   * messages.publish
-   * messages_preview_and_test.write
-   * messages.publish
-
-* Adobe Experience Platform 특정:
-   * profiles.read
-   * profiles.write
-   * schemas.read
-   * datasets.write
-   * datasets.read
-   * identity_namespace.read
-   * segments.read
-   * queries.write
-   * merge_policies.read
-
-### [!DNL Publish messages] 권한 {#publish-messages}
-
-다음 **[!DNL Publish messages]** 높은 수준의 권한을 통해 사용자가 메시지를 게시할 수 있습니다.
-
-여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-
-* Journey Optimizer 특정:
-   * messages.publish
-
-* Adobe Experience Platform 특정:
-   * profiles.read
-   * schemas.read
-   * datasets.read
-
-### [!DNL View messages] 권한 {#view-messages}
-
-다음 **[!DNL View messages]** 높은 수준의 권한을 통해 사용자는 메시지만 읽을 수 있습니다.
-
-여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-
-* Journey Optimizer 특정:
-   * messages.read
-   * messages_presets.read
-
-* Adobe Experience Platform 특정:
-   * schemas.read
-   * segments.read
-
-### [!DNL View messages report] 권한 {#view-message-reports}
-
-다음 **[!DNL View messages report]** 높은 수준의 권한을 통해 사용자는 읽기 전용 전자 메일 및 푸시 보고서를 사용할 수 있습니다.
-
-여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-
-* Journey Optimizer 특정:
-   * messages_report.read
-   * datasets.read
-   * queries.read
-   * queries.write
-   * queries.delete
-   * journey.read
 
 ## 의사 결정 관리 기능 {#decisions-permissions}
 
@@ -330,33 +248,34 @@ ht-degree: 0%
 * IP_pools.write
 * IP_pools.delete
 
-### [!DNL Manage messages general settings] 권한 {#manage-message-settings}
+<!--
+### [!DNL Manage messages general settings] permission {#manage-message-settings}
 
-다음 **[!DNL Manage messages general settings]** 높은 수준의 권한을 통해 사용자는 샌드박스 수준에서 전역 설정을 만들고, 편집하고, 삭제할 수 있습니다.
+The **[!DNL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
 
-여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
+It includes the following low-level permissions: 
 
-* Journey Optimizer 특정:
-   * messages_general_settings.read
-   * messages_general_settings.write
-   * messages_general_settings.delete
-* Adobe Experience Platform 특정:
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+  * messages_general_settings.write
+  * messages_general_settings.delete
+* Adobe Experience Platform specific:
+  * schemas.read
 
-### [!DNL View messages general settings] 권한 {#view-message-settings}
+### [!DNL View messages general settings] permission {#view-message-settings}
 
-다음 **[!DNL View messages general settings]** 높은 수준의 권한을 통해 사용자는 실행 주소와 같은 메시지 일반 설정을 볼 수 있습니다.
+The **[!DNL View messages general settings]** high-level permission allows users to view messages general settings such as the execution address.
 
-여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
+It includes the following low-level permissions:
 
-* Journey Optimizer 특정:
-   * messages_general_settings.read
-* Adobe Experience Platform 특정:
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+* Adobe Experience Platform specific: 
+  * schemas.read
+-->
+### [!DNL Manage channel surface] 권한 {#manage-channel-surface}
 
-### [!DNL Manage messages presets] 권한 {#manage-message-presets}
-
-다음 **[!DNL Manage messages presets]** 높은 수준의 권한을 사용하면 샌드박스 수준에서 채널 간에 메시지 사전 설정을 만들고, 편집하고, 삭제할 수 있습니다.
+다음 **[!DNL Manage channel surface]** 높은 수준의 권한을 통해 샌드박스 수준에서 채널 간에 채널 서피스를 생성, 편집 및 삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -368,9 +287,9 @@ ht-degree: 0%
    * IP_pools.read
    * mobile_setting.read (Adobe Experience Platform Launch에서)
 
-### [!DNL View messages presets] 권한 {#view-message-presets}
+### [!DNL View channel surface] 권한 {#view-channel-surface}
 
-다음 **[!DNL View messages presets]** 높은 수준의 권한을 사용하면 메시지를 만들 때 사용할 메시지 사전 설정을 알기 위해 메시지 사전 설정을 볼 수 있습니다.
+다음 **[!DNL View channel surface]** 높은 수준의 권한을 통해 사용자는 사용할 채널 서피스를 알기 위해 채널 서피스를 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 

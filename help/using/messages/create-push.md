@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1543'
 ht-degree: 9%
 
 ---
@@ -25,11 +25,16 @@ ht-degree: 9%
 
 [!DNL Journey Optimizer] 은 푸시 알림을 지원하며 업계 선도적인 처리량 비율로 관련 알림을 전송하는 데 도움이 됩니다. 푸시 알림에는 Adobe Experience Cloud을 통해 브랜드의 데이터 통찰력을 활용하기 위해 개인화 및 여정 기반 컨텍스트가 포함될 수 있습니다.
 
-일단 [메시지를 만들었습니다.](get-started-content.md)를 클릭하고 **[!UICONTROL Push Notification]** 탭하여 푸시 알림의 설정 및 컨텐츠를 정의합니다.
+일단 [푸시 추가](get-started-content.md) 활동을 여정에 설정하고 정의된 기본 설정을 사용하려면 **[!UICONTROL Actions: Push]** 푸시 알림용 컨텐츠를 만들 오른쪽 창.
+
+![](assets/add-a-push.png)
+
+
+전용 탭을 사용하여 의 푸시 알림 설정을 정의합니다 **iOS** 및 **Android** 운영 체제.
 
 ![](assets/create-content-push.png)
 
-전용 탭을 사용하여 의 푸시 알림 설정을 정의합니다 **iOS** 및 **Android** 운영 체제.
+푸시 알림을 처음 만드는 경우 푸시 채널이 구성되었는지 확인하십시오. [자세히 알아보기](../configuration/push-gs.md).
 
 >[!NOTE]
 >
@@ -37,7 +42,7 @@ ht-degree: 9%
 
 ## 제목 및 본문 {#push-title-body}
 
-메시지를 작성하려면 **[!UICONTROL Title]** 및 **[!UICONTROL Body]** 필드. 표현식 편집기를 사용하여 컨텐츠 및 개인화 데이터를 정의합니다. 의 표현식 편집기에서 개인화에 대해 자세히 알아보십시오 [이 섹션](../personalization/personalize.md)
+메시지를 작성하려면 **[!UICONTROL Title]** 및 **[!UICONTROL Body]** 필드. 표현식 편집기를 사용하여 콘텐츠 및 개인화 데이터를 정의합니다. 의 표현식 편집기에서 개인화에 대해 자세히 알아보십시오 [이 섹션](../personalization/personalize.md)
 
 장치 미리 보기 섹션을 사용하여 iOS 및 Android 장치에서 푸시 알림이 표시되는 방식을 시각화합니다.
 
@@ -52,7 +57,7 @@ ht-degree: 9%
 
 ![](assets/title-body-push.png)
 
-* 앱을 열려면 **[!UICONTROL Open app]** 선택 사항입니다. 알림과 연결된 앱이 메시지에 정의됩니다 **[!UICONTROL Preset]**. [추가 정보](../configuration/message-presets.md) 메시지 사전 설정 기본 정보.
+* 앱을 열려면 **[!UICONTROL Open app]** 선택 사항입니다. 알림과 연결된 앱은 [채널 표면](../configuration/message-presets.md) (즉, 메시지 사전 설정).
 * 사용자를 앱 내의 특정 콘텐츠로 리디렉션하려면 **[!UICONTROL Deeplink]** 선택 사항입니다.  특정 컨텐츠는 특정 보기, 페이지의 특정 섹션 또는 특정 탭일 수 있습니다. 옵션을 선택하면 관련 필드에 딥 링크를 입력합니다.
 * 사용자를 외부 URL로 리디렉션하려면 **[!UICONTROL Web URL]** 선택 사항입니다. 옵션을 선택하면 관련 필드에 URL을 입력합니다.
 
@@ -125,6 +130,17 @@ iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android
 | **[!UICONTROL Notification visibility]** (Android만 해당) | 푸시 알림의 가시성을 정의합니다. <br/><b>비공개</b> 는 모든 잠금 화면에 알림을 표시하지만 보안 잠금 화면에 민감하거나 개인 정보를 숨깁니다. <br/><b>공용</b> 은 모든 잠금 화면에 알림 전체를 표시합니다. <br/><b>비밀</b> 에서는 보안 잠금 화면에 알림의 일부를 표시하지 않습니다. <br/>자세한 내용은 [Android 개발자 설명서](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Notification priority]** (Android만 해당) | 푸시 알림의 중요도를 낮음에서 최대값으로 정의합니다. 이를 통해 푸시 알림이 전달될 때 &quot;영향&quot;이 발생하는 방식을 결정합니다. 자세한 내용은 [Android 개발자 설명서](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Delivery priority]** (Android만 해당) | 푸시 알림에 대해 높은 우선 순위 또는 일반적인 우선 순위를 설정합니다. 메시지 우선 순위에 대한 자세한 내용은 [Google 개발자 설명서](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)를 참조하십시오. |
+
+
+## 푸시 알림 유효성 검사{#push-preview}
+
+메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. 삽입한 경우 [개인화된 콘텐츠](../personalization/personalize.md)테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
+
+모바일 장치에서 푸시 알림이 표시되는 방식을 시각화하려면 **[!UICONTROL Simulate content]** 탭. 에서 콘텐츠 시뮬레이션에 대해 자세히 알아보기 [이 섹션](../design/preview.md).
+
+편집기의 상단 섹션에서도 경고를 확인해야 합니다.  일부 경고는 간단한 경고이지만 일부 사용자는 메시지를 사용하지 못하도록 할 수 있습니다. 자세한 내용은 [이 섹션](alerts.md)을 참조하십시오.
+
+![](assets/push-alert-button.png)
 
 **관련 항목**
 

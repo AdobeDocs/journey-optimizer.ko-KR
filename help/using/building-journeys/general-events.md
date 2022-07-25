@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '427'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="일반 이벤트"
->abstract="이러한 유형의 이벤트에 대해서는 레이블과 설명만 추가할 수 있습니다. 나머지 구성은 편집할 수 없습니다. 기술 사용자가 수행했습니다."
+>abstract="이벤트를 사용하면 여정으로 유입되는 개인에게 실시간으로 메시지를 보낼 때까지 여정을 트리거할 수 있습니다. 이러한 유형의 이벤트에 대해서는 레이블과 설명만 추가할 수 있습니다. 이벤트 구성은 데이터 엔지니어가 수행하므로 편집할 수 없습니다."
+
+이벤트를 사용하면 여정으로 유입되는 개인에게 실시간으로 메시지를 보낼 때까지 여정을 트리거할 수 있습니다.
 
 이러한 유형의 이벤트에 대해서는 레이블과 설명만 추가할 수 있습니다. 나머지 구성은 편집할 수 없습니다. 기술 사용자가 수행했습니다. [이 페이지](../event/about-events.md)를 참조하십시오.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '402'
 ht-degree: 15%
 
 ---
@@ -20,14 +20,15 @@ ht-degree: 15%
 >title="SMS 만들기"
 >abstract="텍스트 메시지를 추가하고 표현식 편집기를 사용하여 개인화를 시작합니다."
 
-일단 [메시지를 만들었습니다.](get-started-content.md)를 사용하려면 **[!UICONTROL SMS]** 탭하여 SMS 메시지의 설정 및 콘텐츠를 정의할 수 있습니다.
+사용 [!DNL Journey Optimizer] 을 눌러 모바일 장치에서 고객에게 텍스트 메시지를 보냅니다. SMS 편집기에서 텍스트 형식으로 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다.
 
+일단 [sms를 추가했습니다.](get-started-content.md) 여정의 활동 및 정의된 기본 설정은 **[!UICONTROL Actions: SMS]** 오른쪽 창에서 SMS 메시지의 콘텐츠를 작성합니다.
 
 >[!AVAILABILITY]
 >
 >SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
-![](assets/sms_1.png)
+![](assets/sms-edit-content.png)
 
 SMS 메시지를 처음 만드는 경우 SMS 채널이 구성되었는지 확인하십시오. [자세히 알아보기](../configuration/sms-configuration.md).
 
@@ -35,33 +36,27 @@ SMS 메시지를 처음 만드는 경우 SMS 채널이 구성되었는지 확인
 
 SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL Add text message]** 필드 를 클릭하여 표현식 편집기를 엽니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Message]** 필드 를 클릭하여 표현식 편집기를 엽니다.
 
-   ![](assets/sms_3.png)
+   ![](assets/sms-content.png)
 
-1. 표현식 편집기를 사용하여 컨텐츠를 정의합니다. 어떤 특성이든 사용하여 프로필 이름 또는 도시와 같은 콘텐츠를 개인화할 수 있습니다. 의 표현식 편집기에서 개인화에 대해 자세히 알아보십시오 [이 섹션](../personalization/personalize.md)
+1. 표현식 편집기를 사용하여 컨텐츠를 정의합니다. 어떤 특성이든 사용하여 프로필 이름 또는 도시와 같은 콘텐츠를 개인화할 수 있습니다. 의 표현식 편집기에서 개인화에 대해 자세히 알아보십시오 [이 섹션](../personalization/personalize.md).
 
-   >[!NOTE]
-   >
-   > SMS 메시지에는 공백 및 줄 바꿈을 포함하여 최대 160자를 사용할 수 있습니다.
+1. 클릭 **[!UICONTROL Save]** 미리 보기에서 메시지를 확인합니다.
 
-   ![](assets/sms_2.png)
+   ![](assets/sms-content-preview.png)
 
-1. 클릭 **[!UICONTROL Save]** 메시지가 준비되면
 
 ## SMS의 유효성 검사{#sms-preview}
 
 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. 삽입한 경우 [개인화된 콘텐츠](../personalization/personalize.md)테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
 
-모바일 장치에서 SMS 메시지가 표시되는 방식을 시각화하려면, **[!UICONTROL Preview]** 탭.
+모바일 장치에서 SMS 메시지가 표시되는 방식을 시각화하려면, **[!UICONTROL Simulate content]** 탭. 에서 콘텐츠 시뮬레이션에 대해 자세히 알아보기 [이 섹션](../design/preview.md).
 
-이 작업에 대한 자세한 정보는 [이 섹션](../design/preview.md)을 참조하십시오.
+편집기의 상단 섹션에서도 경고를 확인해야 합니다.  일부 경고는 간단한 경고이지만 일부 사용자는 메시지를 사용하지 못하도록 할 수 있습니다. 자세한 내용은 [이 섹션](alerts.md)을 참조하십시오.
 
-## SMS 게시 {#sms-publish}
+![](assets/sms-alert-button.png)
 
-메시지가 준비되면 게시하여 을 사용하여 실행할 수 있도록 할 수 있습니다. **[!UICONTROL Publish]** 버튼을 클릭합니다. 이 작업은 여정에서 다음 실행에 사용될 메시지의 새 버전을 게시합니다.
-
-이제 여정에서 SMS 메시지를 사용할 수 있습니다. [여정 만들기 방법 알아보기](../building-journeys/journey-gs.md).
 
 ## 옵트인 및 옵트아웃{#sms-opt-in-out}
 
@@ -73,12 +68,13 @@ SMS에 대한 기본 인바운드 키워드 지원(시작, 중지 및 중지)이
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
-## 방법 비디오
+<!--
+## How-to video
 
-고객 여정에 SMS 메시지를 구성, 작성 및 포함하는 방법을 알아봅니다.
+Learn how to configure, author, and include SMS messaging into your customer journeys.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
-
+-->
 **관련 항목**
 
 * [SMS 채널 구성](../configuration/sms-configuration.md)

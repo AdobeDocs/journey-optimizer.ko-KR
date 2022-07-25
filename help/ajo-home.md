@@ -7,16 +7,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: fe9ae9b7068a883dac61f3b9c9a4aead2ccfb5c7
-workflow-type: ht
-source-wordcount: '336'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 83%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] 설명서 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
+
+>[!CAUTION]
+>
+>7월 25일, Adobe Journey Optimizer은 [새로운 기능](using/rn/inline-messages.md) Journey Optimizer 채널에 대한 컨텐츠를 작성하는 방법(이메일, 푸시, SMS)이 개선되었습니다. Journey Optimizer의 전문의로서 [만들기 및 작성](using/messages/get-started-content.md) 여정에서 직접 메시지를 전송할 수 있습니다. 여정 자동 전환이 수행됩니다. 몇 가지 단계로 여러분의 도움이 필요합니다. 추가 정보 [필수 단계](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +54,7 @@ ht-degree: 100%
     새 이메일 디자인 또는 기존 HTML 콘텐츠 가져오기
     <p>
     <div>
-      <a href="using/building-journeys/journeys-message.md">메시지 보내기</a>
+      <a href="using/messages/get-started-content.md">메시지 보내기</a>
     </div>
     <p>고객 여정에 푸시 및 이메일 메시지를 추가하는 방법 알아보기
     <p>
@@ -114,9 +118,6 @@ ht-degree: 100%
     <p>여정 관리</p>
     <li>
       <a href="using/building-journeys/journey-gs.md">여정</a>
-    </li>
-    <li>
-      <a href="using/messages/get-started-content.md">메시지</a>
     </li>
     <li>
       <a href="using/landing-pages/get-started-lp.md">랜딩 페이지</a>

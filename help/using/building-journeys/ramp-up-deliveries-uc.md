@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '258'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ IP를 가열하기 위해 게재 수를 점진적으로 늘릴 수 있습니다.
 
    이 제한을 총 구독자 수까지 점진적으로 늘릴 수 있습니다.
 
-1. 추가 **[!UICONTROL Message]** 활동 이후의 명목상 경로 **[!UICONTROL Condition]** 활동.
+1. 추가 **[!UICONTROL Email]** 명목상 경로에 대한 작업 활동 후 **[!UICONTROL Condition]** 활동.
 
    ![](assets/ramp-up-deliveries-message.png)
 

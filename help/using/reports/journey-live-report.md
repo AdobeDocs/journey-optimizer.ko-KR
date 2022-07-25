@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '864'
 ht-degree: 1%
 
 ---
 
 # 여정 라이브 보고서 {#journey-live-report}
 
-여정 라이브 보고서는 **[!UICONTROL Live report]** 버튼을 클릭합니다.
+여정 라이브 보고서는 **[!UICONTROL View report]** 버튼을 클릭합니다.
 
-![](assets/report_1.png)
+![](assets/report_journey.png)
 
 여정 **[!UICONTROL Live report]** 페이지는 다음 탭에 표시됩니다.
 
@@ -44,8 +44,6 @@ ht-degree: 1%
 
 * **[!UICONTROL Failed individual journeys]**: 성공적으로 실행되지 않은 개별 여정의 총 수입니다.
 
-![](assets/report_journey_3.png)
-
 다음 **[!UICONTROL Event executed over the last 24 hours]** 및 **[!UICONTROL Events]** 위젯을 사용하면 요약 번호, 그래프 및 표를 통해 성공적으로 실행된 이벤트 중 하나를 확인할 수 있습니다.
 
 ![](assets/report_journey_4.png)
@@ -59,8 +57,6 @@ ht-degree: 1%
 ## 이메일 탭 {#email-live}
 
 여정에서 **[!UICONTROL Live report]**, **[!UICONTROL Email]** 탭에서는 여정에서 전송된 이메일 게재와 관련된 주요 정보를 자세히 설명합니다.
-
-특정 이메일 게재에 대한 자세한 내용은 [이메일 라이브 보고서](email-live-report.md) 섹션을 참조하십시오.
 
 ![](assets/report_email_1.png)
 
@@ -123,8 +119,6 @@ ht-degree: 1%
 ## 푸시 탭 {#push-live}
 
 여정에서 **[!UICONTROL Live report]**, **[!UICONTROL Push]** 탭에서 여정에 전송된 푸시 게재와 관련된 기본 정보를 자세히 설명합니다.
-
-특정 푸시 게재에 대한 자세한 내용은 [라이브 보고서 푸시](push-live-report.md) 섹션을 참조하십시오.
 
 ![](assets/report_push_1.png)
 

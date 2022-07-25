@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1049'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 >
 >메시지를 미리 보거나 증명을 보낼 때 프로필 개인화 데이터만 표시됩니다. 이벤트 정보와 같은 컨텍스트 데이터를 기반으로 한 개인화는 여정 컨텍스트에서만 테스트할 수 있습니다. 에서 개인화를 테스트하는 방법을 알아봅니다. [이 사용 사례](../personalization/personalization-use-case.md).
 
-➡️ [이 비디오에서 이메일을 미리 보고, 증명을 하고, 게시하는 방법을 알아봅니다](#video-preview)
+➡️ [이 비디오에서 이메일을 미리 보고 증명을 하는 방법을 배웁니다](#video-preview)
 
 ## 테스트 프로필 선택{#select-test-profiles}
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 
 테스트 프로필을 선택하려면 아래 단계를 수행하십시오.
 
-1. 메시지 인터페이스 또는 이메일 디자이너에서 **[!UICONTROL Show preview]** 테스트 프로필 선택에 액세스하는 단추입니다.
+1. 메시지 인터페이스 또는 이메일 디자이너에서 **[!UICONTROL Simulate Content]** 테스트 프로필 선택에 액세스하는 단추입니다.
 
    ![](assets/email-preview-button.png)
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
    ![](assets/preview-email-namespace.png)
 
-1. 테스트 프로필을 식별할 값을 입력하고 **[!UICONTROL Find test profile]**.
+1. 테스트 프로필을 식별할 값을 입력하고 **[!UICONTROL Add profile]**.
 
    ![](assets/preview-identity-value.png)
 
@@ -83,7 +83,11 @@ ht-degree: 3%
 
 한 번 [테스트 프로필](#select-test-profiles) 이 옵션을 선택하면 메시지를 미리 보고 콘텐츠를 확인할 수 있습니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL Preview]** 탭을 클릭하여 메시지를 테스트합니다.
+### 이메일 미리 보기{#preview-email}
+
+이메일 콘텐츠를 미리 보려면 아래 단계를 수행하십시오.
+
+1. 을(를) 클릭합니다. **[!UICONTROL Simulate content]** 이메일 콘텐츠 위에 있는 단추.
 
 1. 테스트 프로필을 선택합니다. 열에서 사용할 수 있는 값을 확인할 수 있습니다. 데이터를 검색하려면 오른쪽/왼쪽 화살표를 사용합니다.
 
@@ -103,11 +107,15 @@ ht-degree: 3%
 
 1. 다른 테스트 프로필을 선택하여 메시지의 각 변형에 대한 이메일 렌더링을 미리 봅니다.
 
-푸시 알림 미리 보기의 경우:
+### 푸시 미리 보기{#preview-push}
 
-1. 로 전환 **[!UICONTROL Push]** 채널에서 **[!UICONTROL Channels]** 오른쪽 상단의 드롭다운 목록 **[!UICONTROL Preview]** 화면.
+푸시 알림 콘텐츠를 미리 보려면 아래 단계를 수행하십시오.
 
-   ![](assets/preview-select-channel.png)
+1. 을(를) 클릭합니다. **[!UICONTROL Simulate content]** 푸시 콘텐츠 위에 있는 단추.
+
+1. 테스트 프로필을 선택합니다. 열에서 사용할 수 있는 값을 확인할 수 있습니다. 데이터를 검색하려면 오른쪽/왼쪽 화살표를 사용합니다.
+
+1. 로 전환 **[!UICONTROL Push]** 메시지를 표시합니다.
 
 1. 위에 설명된 것과 동일한 단계를 적용하여 테스트 프로필을 선택하고 컨텐츠를 미리 볼 장치 유형을 선택합니다. **[!UICONTROL iOS]** 또는 **[!UICONTROL Android]**.
 
@@ -188,6 +196,6 @@ ht-degree: 3%
 
 ## 방법 비디오{#video-preview}
 
-여러 받은 편지함에 걸쳐 이메일 렌더링을 테스트하고, 테스트 프로필에 따라 개인화 이메일을 미리 보고, 교정쇄를 보내고, 이메일을 게시하는 방법을 알아봅니다.
+받은 편지함에서 이메일 렌더링을 테스트하고, 테스트 프로필과 비교하여 개인화된 이메일을 미리 보고 증명을 보내는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

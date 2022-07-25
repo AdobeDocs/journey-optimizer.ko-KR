@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -93,4 +93,3 @@ ht-degree: 0%
 
 1. 전자 메일이 준비되면 **[!UICONTROL Save & Close]**.
 
-이제 메시지에 이메일 콘텐츠를 사용할 수 있습니다. [메시지 보내기 방법 알아보기](../messages/publish-manage-message.md).

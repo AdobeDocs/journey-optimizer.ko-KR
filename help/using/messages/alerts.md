@@ -6,22 +6,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 3%
 
 ---
 
-# 메시지에 대한 경고 확인 {#publish-manage-messages}
+# 메시지에 대한 경고 확인 {#messages-alerts}
 
-## 게시 전 확인 {#message-alerting}
+## 보내기 전 확인 {#message-alerting}
 
-메시지를 만드는 동안 메시지를 게시하기 전에 중요한 작업을 수행해야 할 때 경고 메시지가 표시됩니다.
+메시지를 디자인할 때 주요 설정이 누락되면 인터페이스에 경고가 표시됩니다.
 
-경고는 아래와 같이 화면 오른쪽 상단에 표시됩니다.
+메시지 콘텐츠를 편집할 때 화면 오른쪽 상단에 경고가 표시됩니다.
 
-![](assets/message-alerts.png)
+![](assets/alerts-details.png)
 
 >[!NOTE]
 >
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 * **경고** 권장 사항 및 우수 사례를 참조하십시오. 예를 들어 옵트아웃 링크가 누락된 경우 메시지가 표시됩니다.
 
-* **오류** 메시지가 해결되지 않는 한 게시하지 못하도록 합니다. 예를 들어 제목 줄이 누락되었다는 메시지가 표시됩니다.
+* **오류** 확인되지 않는 한 여정을 테스트하거나 활성화하지 않도록 합니다. 예를 들어 제목 줄이 누락되었다는 메시지가 표시됩니다.
 
 가능한 모든 경고 및 오류가 자세히 표시됩니다 [아래](#alerts-and-warnings).
 
 >[!CAUTION]
 >
-> 모든 문제를 해결해야 합니다. **오류** 게시하기 전에 경고를 표시합니다.
+> 모든 문제를 해결해야 합니다. **오류** 는 메시지를 사용하여 여정을 테스트하거나 활성화하기 전에 경고합니다.
 
 ## 경고 및 오류 목록 {#alerts-and-warnings}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 하며, 이것은 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [메시지 사전 설정 수준](../configuration/message-presets.md#email-type) 그리고 [메시지 만들기](get-started-content.md#create-new-message).
+   >마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [채널 표면](../configuration/message-presets.md#email-type) (즉, 메시지 사전 설정) 수준 및 [메시지 만들기](get-started-content.md#create-new-message).
 
 * **[!UICONTROL Text version of HTML is empty]**: HTML 콘텐츠를 표시할 수 없을 때 사용되므로 이메일 본문의 텍스트 버전을 정의하는 것을 잊지 마십시오. 에서 텍스트 버전을 만드는 방법을 알아봅니다. [이 섹션](../design/text-version-email.md).
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 * **[!UICONTROL The email version of the message is empty]**: 이 오류는 이메일 컨텐츠가 구성되지 않은 경우 표시됩니다. 에서 이메일 콘텐츠를 디자인하는 방법 알아보기 [이 섹션](../design/design-emails.md).
 
-* **[!UICONTROL Preset doesn’t exist]**: 선택한 사전 설정이 메시지를 만든 후 삭제되면 메시지를 게시할 수 없습니다. 이 오류가 발생하면 메시지에서 다른 사전 설정을 선택합니다 **[!UICONTROL Properties]**. 브랜딩에 대해 자세히 알아보기 [이 섹션](../configuration/about-subdomain-delegation.md).
+* **[!UICONTROL Surface doesn’t exist]**: 메시지 생성 후 선택한 서피스가 삭제되면 메시지를 사용할 수 없습니다. 이 오류가 발생하면 메시지에서 다른 서피스를 선택합니다 **[!UICONTROL Properties]**. 의 채널 표면에 대해 자세히 알아보기 [이 섹션](../configuration/message-presets.md).
 
 * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: 푸시 알림 크기는 4KB를 초과할 수 없습니다. 이 제한을 준수하려면 이미지나 이모지의 사용을 줄이십시오. 에서 푸시 알림 콘텐츠를 관리하는 방법을 알아봅니다 [이 섹션](create-push.md).
 
 >[!CAUTION]
 >
-> 메시지를 게시하려면 모두 해결해야 합니다 **오류** 경고.
+> 메시지를 사용하려면 모두 해결해야 합니다 **오류** 경고.
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->

@@ -4,9 +4,9 @@ description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1427'
 ht-degree: 4%
 
 ---
@@ -75,7 +75,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    * **[!UICONTROL Manage App Configurations]**
    * **[!UICONTROL Manage Properties]**
 
-   이러한 권한은 모바일 앱 개발자가 푸시 자격 증명을 설정하려면에서 설정하는 데 필요합니다 **Adobe Experience Launch** 푸시 알림 사전 설정을 **Adobe Journey Optimizer**.
+   이러한 권한은 모바일 앱 개발자가 푸시 자격 증명을 설정하려면에서 설정하는 데 필요합니다 **Adobe Experience Launch** 푸시 알림 채널 서피스(즉, 메시지 사전 설정)를 **Adobe Journey Optimizer**.
 
    ![](assets/push_product_5.png)
 
@@ -125,7 +125,7 @@ Adobe이 대신 푸시 알림을 전송하도록 승인하려면 모바일 앱 �
 
 1. From [!DNL Adobe Experience Platform Data Collection]에서 을(를) 선택합니다. **[!UICONTROL App Surfaces]** 왼쪽 패널의 탭.
 
-1. 클릭 **[!UICONTROL Create App Surfaces]** 새 구성을 만들려면
+1. 클릭 **[!UICONTROL Create App Surface]** 새 구성을 만들려면
 
    ![](assets/add-app-config.png)
 
@@ -331,9 +331,9 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_11.png)
 
-1. 에서 **[!UICONTROL Actions]** 드롭다운, 끌어서 놓기 **[!UICONTROL Message]** 활동을 여정에 추가합니다.
+1. 에서 **[!UICONTROL Actions]** 드롭다운, 끌어서 놓기 **[!UICONTROL Push]** 활동을 여정에 추가합니다.
 
-1. 앞에서 만든 메시지를 선택합니다. 푸시 알림을 만드는 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../messages/get-started-content.md).
+1. 푸시 알림을 구성합니다. 푸시 알림을 만드는 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../messages/get-started-content.md).
 
 1. 을(를) 클릭합니다. **[!UICONTROL Test]** 푸시 알림 테스트를 시작하려면 토글 을 클릭하고 **[!UICONTROL Trigger an event]**.
 
@@ -347,13 +347,13 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 이벤트가 트리거되고 모바일 앱에 대한 푸시 알림을 받게 됩니다.
 
-## 4단계: 푸시용 메시지 사전 설정 만들기{#message-preset}
+## 4단계: 푸시용 채널 서피스 만들기{#message-preset}
 
-모바일 앱을에서 설정했으면 [!DNL Adobe Experience Platform Data Collection]에서 푸시 알림을 전송하려면 메시지 사전 설정을 만들어야 합니다. **[!DNL Journey Optimizer]**.
+모바일 앱을에서 설정했으면 [!DNL Adobe Experience Platform Data Collection]에서 푸시 알림을 전송할 수 있는 서피스를 만들어야 합니다. **[!DNL Journey Optimizer]**.
 
-에서 메시지 사전 설정을 만들고 구성하는 방법을 알아봅니다. [이 섹션](../configuration/message-presets.md).
+에서 채널 표면을 만들고 구성하는 방법을 알아봅니다 [이 섹션](../configuration/message-presets.md).
 
 이제 Journey Optimizer에서 푸시 알림을 전송할 준비가 되었습니다.
 
 * 에서 푸시 메시지를 만드는 방법을 알아봅니다 [이 페이지](../messages/create-push.md).
-* 의 여정에 메시지를 추가하는 방법을 알아봅니다. [이 섹션](../building-journeys/journeys-message.md).
+* 에서 여정에 메시지를 추가하는 방법을 알아봅니다. [이 섹션](../building-journeys/journeys-message.md).

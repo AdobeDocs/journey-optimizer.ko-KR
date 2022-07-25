@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,11 @@ ht-degree: 0%
 를 사용하십시오 **[!UICONTROL Live report]** 기본 제공 대시보드에서 여정 및 메시지의 영향과 성과를 실시간으로 측정하고 시각화할 수 있습니다.
 데이터는 **[!UICONTROL Live report]** 게재가 전송되거나 여정이 실행되는 즉시.
 
-* 여정 컨텍스트에서 여정 또는 게재를 타깃팅하려면 **[!UICONTROL Journeys]** 메뉴에서 여정에 액세스하여 **[!UICONTROL Live report]** 아이콘. 그런 다음 여정, 이메일 및 푸시 라이브 보고서를 찾을 수 있습니다.
+* 여정 컨텍스트에서 여정 또는 게재를 타깃팅하려면 **[!UICONTROL Journeys]** 메뉴에서 여정에 액세스하여 **[!UICONTROL View report]** 버튼을 클릭합니다. 그런 다음 여정, 이메일, SMS 및 푸시 라이브 보고서를 찾을 수 있습니다.
 
    ![](assets/report_journey.png)
 
-* 특정 게재를 타깃팅하려면 **[!UICONTROL Live view]** 의 **[!UICONTROL Executions]** 메시지의 탭을 선택합니다. **[!UICONTROL Live Report]** 선택한 게재의 고급 메뉴에서 을 클릭합니다.
-
-   ![](assets/report_2.png)
-
-* 에서 전환하려면 **[!UICONTROL Live report]** 변환 후 **[!UICONTROL Global report]** 게재의 경우 을(를) 클릭합니다. **[!UICONTROL Global view]** 탭 전환기에서 을 클릭합니다.
+* 에서 전환하려면 **[!UICONTROL Live report]** 변환 후 **[!UICONTROL Live report]** 게재의 경우 을(를) 클릭합니다. **[!UICONTROL Live view]** 탭 전환기에서 을 클릭합니다.
 
    ![](assets/report_3.png)
 

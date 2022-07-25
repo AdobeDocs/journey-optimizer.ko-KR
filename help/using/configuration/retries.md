@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 기본적으로 다시 시도는에 대해 수행됩니다 **3.5일** 또는 **84시간**) 메시지를 전자 메일 큐에 추가한 시간으로부터
 
-그러나 더 이상 필요하지 않은 경우 다시 시도를 수행하지 않도록 하려면 을 만들거나 편집할 때 필요에 따라 이 설정을 변경할 수 있습니다 [메시지 사전 설정](message-presets.md) 이메일 채널에 적용.
+그러나 더 이상 필요하지 않은 경우 다시 시도를 수행하지 않도록 하려면 을 만들거나 편집할 때 필요에 따라 이 설정을 변경할 수 있습니다 [채널 표면](message-presets.md) (즉, 메시지 사전 설정)이 이메일 채널에 적용되는 것입니다.
 
 예를 들어, 암호 재설정과 관련된 트랜잭션 전자 메일에 대해 다시 시도 기간을 24시간으로 설정하고 하루 동안만 유효한 링크를 포함할 수 있습니다. 마찬가지로, 자정 판매에 대해 다시 시도 기간을 6시간으로 정의할 수 있습니다.
 
@@ -61,5 +61,5 @@ ht-degree: 2%
 >
 >다시 시도 기간은 84시간을 초과할 수 없습니다. 최소 다시 시도 기간은 마케팅 이메일의 경우 6시간, 트랜잭션 이메일의 경우 10분입니다.
 
-에서 메시지 사전 설정을 만들 때 이메일 다시 시도 매개 변수를 조정하는 방법을 알아봅니다. [이 섹션](message-presets.md#create-message-preset).
+에서 채널 표면을 만들 때 이메일 다시 시도 매개 변수를 조정하는 방법을 알아봅니다. [이 섹션](message-presets.md#create-message-preset).
 

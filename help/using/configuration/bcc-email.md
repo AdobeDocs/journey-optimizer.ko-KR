@@ -1,14 +1,14 @@
 ---
 title: 숨은 참조 이메일 사용
-description: 메시지 사전 설정 수준에서 숨은 참조 이메일을 구성하는 방법을 알아봅니다
+description: 채널 표면 수준에서 숨은 참조 이메일을 구성하는 방법을 알아봅니다
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
@@ -24,23 +24,23 @@ ht-degree: 3%
 
 ## 숨은 참조 이메일 활성화 {#enable-bcc}
 
-를 사용하려면 **[!UICONTROL BCC email]** 옵션을 선택한 경우 전용 필드에 원하는 이메일 주소를 입력합니다. Adobe에 위임된 하위 도메인에 정의된 이메일 주소를 제외하고 올바른 형식으로 외부 주소를 지정할 수 있습니다. 예를 들어 *marketing.luma.com* Adobe 하위 도메인, 다음과 같은 주소 *abc@marketing.luma.com* 는 금지됩니다.
+를 사용하려면 **[!UICONTROL BCC email]** 옵션을 선택한 경우, [채널 표면](message-presets.md) (즉, 메시지 사전 설정). Adobe에 위임된 하위 도메인에 정의된 이메일 주소를 제외하고 올바른 형식으로 외부 주소를 지정할 수 있습니다. 예를 들어 *marketing.luma.com* Adobe 하위 도메인, 다음과 같은 주소 *abc@marketing.luma.com* 는 금지됩니다.
 
 >[!NOTE]
 >
->숨은 참조 이메일 주소는 하나만 정의할 수 있습니다. 숨은 참조 주소에 현재 사전 설정을 사용하여 전송되는 모든 이메일을 저장할 수신 용량이 충분한지 확인합니다.
+>숨은 참조 이메일 주소는 하나만 정의할 수 있습니다. 숨은 참조 주소에 현재 채널 표면을 사용하여 전송되는 모든 이메일을 저장할 수신 용량이 충분한지 확인합니다.
 >
 >추가 권장 사항은 [이 섹션](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
-이 사전 설정을 사용하는 모든 이메일 메시지는 입력한 BCC 이메일 주소로 블라인드에 복사됩니다. 여기에서 외부 시스템을 사용하여 처리 및 보관할 수 있습니다.
+이 면을 사용하는 모든 이메일 메시지는 입력한 BCC 이메일 주소에 블라인드 복사됩니다. 여기에서 외부 시스템을 사용하여 처리 및 보관할 수 있습니다.
 
 >[!CAUTION]
 >
->BCC 기능 사용량은 라이선스를 받은 메시지 수에 따라 계산됩니다. 따라서 보관하려는 중요한 통신에 사용되는 사전 설정에서만 활성화합니다. 라이선스가 부여된 볼륨이 있는지 계약을 확인합니다.
+>BCC 기능 사용량은 라이선스를 받은 메시지 수에 따라 계산됩니다. 따라서 아카이브하려는 중요한 통신에 사용되는 표면에서만 활성화합니다. 라이선스가 부여된 볼륨이 있는지 계약을 확인합니다.
 
-BCC 이메일 주소 설정이 즉시 저장되고 사전 설정된 수준에서 처리됩니다. 다음 경우에 [새 메시지 만들기](../messages/get-started-content.md#create-new-message) 이 사전 설정을 사용하면 숨은 참조 이메일 주소가 자동으로 표시됩니다.
+BCC 이메일 주소 설정이 즉시 저장되고 표면 수준에서 처리됩니다. 다음 경우에 [새 메시지 만들기](../messages/get-started-content.md#create-new-message) 이 경우 숨은 참조 이메일 주소가 자동으로 표시됩니다.
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -52,7 +52,7 @@ BCC 이메일 주소 설정이 즉시 저장되고 사전 설정된 수준에서
 
 >[!NOTE]
 >
->선택할 BCC 설정에 대한 메시지나 여정을 다시 게시할 필요가 없습니다.
+>BCC 설정을 선택할 수 있도록 여정을 다시 게시할 필요가 없습니다.
 
 ## Recommendations 및 제한 사항 {#bcc-recommendations-limitations}
 
@@ -66,7 +66,7 @@ BCC 이메일 주소 설정이 즉시 저장되고 사전 설정된 수준에서
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* BCC 주소로 전송된 이메일은 전송 분석에서 총 열기 및 클릭 수를 고려하여 열지 않거나 클릭스루하지 마십시오. 이로 인해 일부 계산 오류가 발생할 수 있습니다. [보고서](../reports/message-monitoring.md).
+* BCC 주소로 전송된 이메일은 전송 분석에서 총 열기 및 클릭 수를 고려하여 열지 않거나 클릭스루하지 마십시오. 이로 인해 일부 계산 오류가 발생할 수 있습니다. [보고서](../reports/global-report.md).
 
 * 이 주소로 전송된 다른 모든 이메일에 영향을 주므로 BCC 받은 편지함에서 메시지를 스팸으로 표시하지 마십시오.
 

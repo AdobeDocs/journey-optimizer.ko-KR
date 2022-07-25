@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '913'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ Adobe Journey Optimizer에서 ABAC를 사용하면 데이터를 보호하고 XDM
 **[!UICONTROL Roles]** 는 조직 내에서 동일한 권한, 레이블 및 샌드박스를 공유하는 사용자 집합입니다. 에 속하는 각 사용자 **[!UICONTROL Role]** 는 제품에 포함된 Adobe 앱 및 서비스를 통해 권한을 받습니다.
 직접 만들 수도 있습니다 **[!UICONTROL Roles]** 인터페이스에서 특정 기능 또는 개체에 대한 사용자의 액세스를 세밀하게 조정하려면
 
-이제 선택한 사용자에게 **국적** 필드에 C2라는 레이블이 지정됩니다. 이를 위해서는 새로운 기능이 필요합니다 **[!UICONTROL Role]** 특정 사용자 세트를 사용하여 사용자가 Marketing Cloud ID 클라이언트측 또는 서버측을 위해 **국적** 의 세부 사항 **[!UICONTROL Message]** 또는 **[!UICONTROL Journey]**.
+이제 선택한 사용자에게 **국적** 필드에 C2라는 레이블이 지정됩니다. 이를 위해서는 새로운 기능이 필요합니다 **[!UICONTROL Role]** 특정 사용자 세트를 사용하여 사용자가 Marketing Cloud ID 클라이언트측 또는 서버측을 위해 **국적** 의 세부 사항 **[!UICONTROL Journey]**.
 
 1. 에서 [!DNL Permissions] product, select **[!UICONTROL Role]** 왼쪽 창 메뉴에서 **[!UICONTROL Create role]**. 다음을 추가할 수도 있습니다 **[!UICONTROL Label]** 기본 제공 역할 을 참조하십시오.
 

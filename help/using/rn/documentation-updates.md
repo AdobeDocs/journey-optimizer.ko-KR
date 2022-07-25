@@ -2,7 +2,7 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 98%
@@ -30,7 +30,7 @@ ht-degree: 98%
 * 허용 목록 페이지가 구성 섹션으로 이동되었습니다. [자세히 보기](../configuration/allow-list.md)
 * 제외 목록 페이지가 32-126 사이의 모든 ASCII 문자가 제외 필드에 허용된다는 사실 등 일부 정보를 명확하게 하도록 업데이트되었습니다. [자세히 보기](../configuration/manage-suppression-list.md)
 * 결정 관리에 대한 보호 및 정적 제한에 대한 링크가 추가되었습니다. [자세히 보기](../start/guardrails.md)
-* 이제 모든 고객이 전송 시간 최적화를 사용할 수 있습니다. 베타 표시를 제거했습니다. [자세히 보기](../building-journeys/journeys-message.md#send-time-optimization)
+* 이제 모든 고객이 전송 시간 최적화를 사용할 수 있습니다. 베타 표시를 제거했습니다. [자세히 보기](../messages/send-time-optimization.md)
 * Batch Decisioning API가 개인화된 오퍼 전달을 위해 사용 가능한 API 목록에 추가되었습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022년 5월 {#may-2022}
@@ -139,7 +139,7 @@ ht-degree: 98%
 * 동적 URL 경로 및 동적 헤더가 있는 사용자 지정 작업을 구성하는 절차를 업데이트했습니다. [자세히 보기](../action/about-custom-action-configuration.md#url-configuration)
 * 액세스 가능성 기능 및 바로 가기에 대한 섹션을 추가했습니다. [자세히 보기](../start/user-interface.md#accessibility)
 * 세그먼트 평가 방법에 대한 섹션을 추가했습니다. [자세히 보기](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
-* 억제 목록, 허용 목록 및 이메일 글로벌/라이브 보고서 섹션에 억제됨 및 허용되지 않음 상태의 프로필이 전송된 이메일 보고서에서 제외되도록 지정하는 메모를 추가했습니다. [자세히 보기](../reports/email-global-report.md)
+* 억제 목록, 허용 목록 및 이메일 글로벌/라이브 보고서 섹션에 억제됨 및 허용되지 않음 상태의 프로필이 전송된 이메일 보고서에서 제외되도록 지정하는 메모를 추가했습니다. [자세히 보기](../reports/global-report.md)
 * 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../configuration/allow-list.md#reporting)
 * 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
 * 메시지 사전 설정 모니터링 섹션을 업데이트했습니다. 가능한 사전 설정 작성 실패 이유 및 이러한 오류에 대한 세부 정보를 추가했습니다. [자세히 보기](../configuration/message-presets.md#monitor-message-presets)

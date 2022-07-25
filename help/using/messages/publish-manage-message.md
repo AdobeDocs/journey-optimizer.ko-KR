@@ -5,8 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+hide: true
+hidefromtoc: true
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 17%
@@ -21,7 +23,7 @@ ht-degree: 17%
 
 >[!CAUTION]
 >
->경고를 게시하기 전에 경고를 확인하고 확인합니다. [자세히 알아보기](alerts.md)
+>경고를 게시하기 전에 경고를 확인하고 확인합니다. [자세히 보기](alerts.md)
 
 ![](assets/publish-message.png)
 

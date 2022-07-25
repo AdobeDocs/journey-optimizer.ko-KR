@@ -7,21 +7,21 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '699'
 ht-degree: 5%
 
 ---
-
 
 # 캠페인 만들기 {#create-campaign}
 
 >[!NOTE]
 >
->새 캠페인을 만들기 전에 메시지 사전 설정과 Adobe Experience Platform 세그먼트를 사용할 수 있는지 확인하십시오. 자세한 내용은 다음 섹션을 참조하십시오.
+>새 캠페인을 만들기 전에 표면 채널(즉, 메시지 사전 설정)과 Adobe Experience Platform 세그먼트를 사용할 준비가 되었는지 확인하십시오. 자세한 내용은 다음 섹션을 참조하십시오.
 >
->* [메시지 사전 설정 만들기](../configuration/message-presets.md)
+>* [채널 서피스 생성](../configuration/message-presets.md)
 >* [세그먼트 시작](../segment/about-segments.md)
 
 
@@ -38,13 +38,13 @@ ht-degree: 5%
    * **[!UICONTROL Scheduled]**: 캠페인을 즉시 또는 지정된 날짜에 실행합니다. 예약된 캠페인은 **마케팅** 메시지 입력.
    * **[!UICONTROL API-triggered]**: api 호출을 사용하여 캠페인을 실행합니다. API로 트리거된 캠페인은 **트랜잭션** 메시지, 즉 개인이 수행한 작업에 따라 전송된 메시지: 암호 재설정, 카드 포기 등 [API를 사용하여 캠페인을 트리거하는 방법을 알아봅니다](api-triggered-campaigns.md)
 
-1. 에서 **[!UICONTROL Actions]** 섹션에서 메시지를 보내는 데 사용할 채널과 메시지 표면(즉, 메시지 사전 설정)을 선택한 다음 을 클릭합니다 **[!UICONTROL Create]**.
+1. 에서 **[!UICONTROL Actions]** 섹션에서 메시지를 보내는 데 사용할 채널과 채널 표면을 선택한 다음 **[!UICONTROL Create]**.
 
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >캠페인 유형(마케팅 또는 트랜잭션)과 호환되는 메시지 표면만 드롭다운 목록에 나열됩니다.
+   >캠페인 유형(마케팅 또는 트랜잭션)과 호환되는 채널 표면만 드롭다운 목록에 나열됩니다.
 
 1. 캠페인의 제목과 설명을 지정합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 5%
 
 1. 에서 **[!UICONTROL Actions]** 섹션에서 캠페인과 함께 전송할 메시지를 구성합니다.
 
-   1. 을(를) 클릭합니다. **[!UICONTROL Edit content]** 버튼을 클릭한 다음 메시지를 구성하고 디자인합니다. [메시지 구성 방법 알아보기](../messages/get-started-content.md).
+   1. 을(를) 클릭합니다. **[!UICONTROL Edit content]** 버튼을 클릭한 다음 메시지 콘텐츠를 구성하고 디자인합니다. [메시지에 대해 자세히 알아보기](../messages/get-started-content.md).
 
       콘텐츠가 준비되면 화살표를 클릭하여 캠페인 만들기 화면으로 돌아갑니다.
 
@@ -121,10 +121,6 @@ ht-degree: 5%
    전용 보고서에서 **[!UICONTROL Reports]** 버튼을 클릭합니다. [자세히 보기](campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
-
-   >[!IMPORTANT]
-   >
-   >캠페인에서 생성된 메시지는 [!DNL Journey Optimizer] campaign 기능을 사용할 수 있습니다. 만든 후에 캠페인에서만 액세스할 수 있고, 에는 표시되지 않습니다. **[!UICONTROL Messages]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ## 추가 리소스
 

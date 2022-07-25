@@ -7,20 +7,20 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '303'
 ht-degree: 8%
 
 ---
-
 
 # 캠페인 시작 {#get-started-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="캠페인"
->abstract="Campaign을 사용하면 여러 채널에서 특정 세그먼트에 일회성 콘텐츠를 제공할 수 있습니다. 새 캠페인을 만들기 전에 메시지 사전 설정과 Adobe Experience Platform 세그먼트를 사용할 수 있는지 확인하십시오."
+>abstract="Campaign을 사용하면 여러 채널에서 특정 세그먼트에 일회성 콘텐츠를 제공할 수 있습니다. 새 캠페인을 만들기 전에 채널 표면(즉, 메시지 사전 설정)과 Adobe Experience Platform 세그먼트를 사용할 준비가 되었는지 확인하십시오."
 
 ## 캠페인 기본 정보 {#about}
 

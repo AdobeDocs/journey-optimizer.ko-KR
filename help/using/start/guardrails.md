@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 2%
+source-wordcount: '730'
+ht-degree: 4%
 
 ---
 
-# 보호 및 제한 사항 {#limitations}
+# 보호 기능 및 제한 사항 {#limitations}
 
 자격, 제품 제한 및 성능 보호 기능은 [Adobe Journey Optimizer 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
 
-사용 시 다음과 같은 추가 보호 및 제한 사항이 있습니다 [!DNL Adobe Journey Optimizer].
+[!DNL Adobe Journey Optimizer] 사용 시 다음과 같은 추가 보호 기능 및 제한 사항이 있습니다.
 
 ## 메시지 보호 기능 {#message-guardrails}
 
@@ -47,10 +47,6 @@ ht-degree: 2%
 * 두 작업을 동시에 배치할 수 없으므로 두 작업을 하나씩 추가해야 합니다.
 * 오늘날 여정에는 한 프로필이 동시에 여러 번 표시되지 않는 기술적인 제한이 있습니다. 프로필은 여정(설정에 따라)를 다시 입력할 수 있지만 해당 여정의 이전 인스턴스를 완전히 종료한 후에는 해당 프로필을 수행할 수 없습니다.
 * 대부분의 경우 프로필이 동일한 여정에 동시에 여러 번 있을 수 없습니다. 다시 여정을 사용하도록 설정하면 프로필이 여정을 다시 입력할 수 있지만, 해당의 이전 인스턴스를 완전히 종료할 때까지 이를 수행할 수 없습니다. [자세히 보기](../building-journeys/journey-end.md)
-
-### 메시지 작업 {#message-action-g}
-
-* 다중 채널 메시지를 추가하면 두 개의 메시지가 전송됩니다.
 
 ### 여정 버전 {#journey-versions-g}
 

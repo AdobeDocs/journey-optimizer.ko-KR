@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 3%
+source-wordcount: '243'
+ht-degree: 11%
 
 ---
 
@@ -20,22 +20,39 @@ ht-degree: 3%
 >title="이메일 만들기"
 >abstract="간단한 3단계로 이메일 매개 변수를 정의할 수 있습니다."
 
-일단 [메시지를 만들었습니다.](get-started-content.md)를 사용하려면 **[!UICONTROL Email]** 탭하여 전자 메일 채널의 설정 및 콘텐츠를 정의합니다.
 
-![](assets/emails-configuration.png)
+일단 [이메일 추가](get-started-content.md) 여정 내 <!--or a campaign--> 기본 설정을 정의하고 정의할 수 있습니다. 에서는 이메일을 구성하고 해당 콘텐츠를 정의할 수 있습니다.
+
+## 이메일 콘텐츠 정의{#email-content}
+
+을(를) 클릭합니다. **[!UICONTROL Edit content]** 단추를 클릭하여 이메일을 디자인합니다.
+
+![](assets/email-edit-content.png)
+
+사용 [!DNL Journey Optimizer] 이메일 디자이너 [이메일 디자인 기초](../design/create-email-content.md). 기존 컨텐츠가 있는 경우 다음을 수행할 수 있습니다 [전자 메일 디자이너에서 가져오기](../design/existing-content.md), 또는 [고유한 컨텐츠 코드 지정](../design/code-content.md) in [!DNL Journey Optimizer].
+
+[!DNL Journey Optimizer] 는 [기본 제공 템플릿](../design/email-templates.md) 시작할 수 있도록 모든 이메일을 템플릿으로 저장할 수도 있습니다.
+
+의 이메일 디자인에 대해 자세히 알아보십시오 [이 섹션](../design/design-emails.md).
+
+사용 [!DNL Journey Optimizer] 표현식 편집기를 사용하여 프로필의 데이터로 메시지를 개인화할 수 있습니다. 개인화에 대한 자세한 내용은 [이 섹션](../personalization/personalize.md)을 참조하세요.
+
+## 이메일 추적{#email-tracking}
+
+링크 열기 및/또는 클릭을 통해 수신자의 동작을 추적하려면 다음 옵션을 활성화합니다. **[!UICONTROL Email opens]** 및 **[!UICONTROL Click on email]**. 에서 추적에 대해 자세히 알아보십시오 [이 섹션](../design/message-tracking.md).
+
+
+## 이메일 콘텐츠 유효성 검사{#email-content-validate}
+
+왼쪽의 미리 보기 섹션을 사용하여 전자 메일 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../design/preview.md)을 참조하십시오.
+
+![](assets/messages-simple-preview.png)
+
+
+편집기의 상단 섹션에서도 경고를 확인해야 합니다.  일부 경고는 간단한 경고이지만 일부 사용자는 메시지를 사용하지 못하도록 할 수 있습니다. 자세한 내용은 [이 섹션](alerts.md)을 참조하십시오.
+
 
 >[!NOTE]
 >
->다음 **[!UICONTROL From email]** 및 **[!UICONTROL From name]** 읽기 전용이며 **[!UICONTROL Preset]** 선택 [메시지 만들기](get-started-content.md).
+>다음 **[!UICONTROL From email]** 및 **[!UICONTROL From name]** 에 의해 결정됩니다 **[!UICONTROL Surface]** 선택 [메시지 만들기](get-started-content.md).
 
-이메일을 구성하는 단계는 다음과 같습니다.
-
-1. 에서 전자 메일 제목을 지정합니다. **[!UICONTROL Subject line]** 필드. 이렇게 하려면 오른쪽의 버튼을 클릭하여 표현식 편집기를 열고 이메일 제목을 작성합니다. 에서 개인화를 추가하는 방법을 알아봅니다. [이 섹션](../personalization/personalize.md)
-
-1. 을(를) 클릭합니다. **[!UICONTROL Email Designer]** 단추를 클릭하여 이메일을 디자인합니다. 에서 이메일을 디자인하는 방법 알아보기 [이 섹션](../design/design-emails.md).
-
-1. 링크 열기 및/또는 클릭을 통해 수신자의 동작을 추적하려면 **[!UICONTROL Open Tracking for email]** 및 **[!UICONTROL Click Tracking for email]** 옵션이 활성화됩니다. 에서 추적에 대해 자세히 알아보십시오 [이 섹션](../design/message-tracking.md).
-
->[!NOTE]
->
->마케팅 유형 이메일 메시지에는 [옵트아웃 링크](consent.md#opt-out-management): 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [메시지 사전 설정 수준](../configuration/message-presets.md#email-type) 그리고 [메시지 만들기](get-started-content.md#create-new-message).

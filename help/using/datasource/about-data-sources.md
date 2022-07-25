@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '314'
 ht-degree: 73%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 73%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-여정이 이벤트 페이로드에서 전송되는 로컬 데이터만 활용하는 경우에는 이 구성을 수행하지 않아도 됩니다. 예를 들어 여정에 이벤트, 그리고 해당 이벤트의 데이터만 사용하는 메시지 활동이 차례로 포함되어 있으면 데이터 소스를 구성할 필요가 없습니다.
+여정이 이벤트 페이로드에서 전송되는 로컬 데이터만 활용하는 경우에는 이 구성을 수행하지 않아도 됩니다. 예를 들어 여정에 이벤트, 그리고 해당 이벤트의 데이터만 사용하는 채널 작업 활동이 차례로 포함되어 있으면 데이터 소스를 구성할 필요가 없습니다.
 
 데이터 소스에는 다음의 두 가지 유형이 있습니다.
 

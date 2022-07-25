@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '189'
 ht-degree: 16%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 16%
 
 * **[!UICONTROL Product profile]**: 사용자가 인터페이스의 특정 기능 또는 개체에 액세스할 수 있는 통합된 권리 집합입니다. 자세한 내용은 [기본 제품 프로필](ootb-product-profiles.md) 섹션
 
-* **[!UICONTROL Permissions]**: 할당된 승인을 정의할 수 있는 통합된 권한 **[!UICONTROL Product profile]**. 각 권한은 여정, 메시지 또는 오퍼와 같은 기능에 수집되며, 이 기능은 의 다양한 기능 또는 개체를 나타냅니다 [!DNL Journey Optimizer]. 자세한 내용은 [권한 수준](high-low-permissions.md) 섹션을 참조하십시오.
+* **[!UICONTROL Permissions]**: 할당된 승인을 정의할 수 있는 통합된 권한 **[!UICONTROL Product profile]**. 각 권한은 여정 또는 오퍼와 같은 기능에 수집되며, 이 기능은 의 다양한 기능 또는 개체를 나타냅니다 [!DNL Journey Optimizer]. 자세한 내용은 [권한 수준](high-low-permissions.md) 섹션을 참조하십시오.
 
 * **[!UICONTROL Sandbox]**: 인스턴스를 별도의 격리된 가상 환경으로 분할하는 가상 샌드박스 자세한 내용은 [샌드박스 사용](sandboxes.md)
 

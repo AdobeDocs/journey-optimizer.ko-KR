@@ -7,9 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '586'
 ht-degree: 4%
 
 ---
@@ -42,8 +43,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 ## 이메일 탭 {#email-live}
 
 캠페인에서 **[!UICONTROL Live report]**, **[!UICONTROL Email]** 탭 은 campaign에서 전송된 이메일 게재와 관련된 주요 정보를 자세히 설명합니다.
-
-특정 이메일 게재에 대한 자세한 내용은 [이메일 라이브 보고서](../reports/email-live-report.md) 섹션을 참조하십시오.
 
 다음 **[!UICONTROL Email Sending Statistics]** 위젯은 메시지에 대한 주요 정보를 자세히 설명합니다.
 
@@ -86,8 +85,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 ## 푸시 탭 {#push-live}
 
 캠페인에서 **[!UICONTROL Live report]**, **[!UICONTROL Push]** 탭 은 campaign에서 전송된 푸시 게재와 관련된 기본 정보를 자세히 설명합니다.
-
-특정 푸시 게재에 대한 자세한 내용은 [라이브 보고서 푸시](../reports/push-live-report.md) 섹션을 참조하십시오.
 
 **[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** 및 **[!UICONTROL Sending metrics - by Push]** 위젯은 메시지에 대한 기본 정보를 자세히 설명합니다.
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 6%
+source-wordcount: '827'
+ht-degree: 3%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->규칙을 완전히 활성화하는 데 최대 10분이 걸릴 수 있습니다. 규칙을 적용하려면 메시지 또는 여정을 수정하거나 다시 게시할 필요가 없습니다.
+>규칙을 완전히 활성화하는 데 최대 10분이 걸릴 수 있습니다. 규칙을 적용하려면 메시지를 수정하거나 여정을 다시 게시할 필요가 없습니다.
 
 메시지 빈도 규칙을 비활성화하려면 규칙 옆에 있는 줄임표를 클릭하고 을 선택합니다 **[!UICONTROL Deactivate]**.
 
@@ -113,37 +113,26 @@ ht-degree: 6%
 
 메시지에 빈도 규칙을 적용하려면 아래 단계를 따르십시오.
 
-1. 메시지 만들기. [자세히 보기](../messages/get-started-content.md#create-new-message)
+1. [메시지 만들기](../messages/get-started-content.md#create-new-message) 규칙에 대해 정의한 채널 중 하나를 선택하여 규칙 세트를 단순화합니다.
 
 1. 에 대해 정의한 카테고리를 선택합니다 [만든 규칙](#create-new-rule).
 
-   ![](assets/message-rules-msg-properties.png)
+   ![](assets/inline-message-category.png)
 
    >[!NOTE]
    >
    >현재 **[!UICONTROL Marketing]** 카테고리는 메시지 빈도 규칙에 사용할 수 있습니다.
 
-1. 메시지에 대해 선택한 채널을 선택합니다.
+   <!--
+   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
 
-   ![](assets/message-rules-msg-channels.png)
+1. 선택한 카테고리 및 채널과 일치하는 모든 빈도 규칙이 이 메시지에 자동으로 적용됩니다.
 
-1. **[!UICONTROL Frequency rule]** 링크를 클릭하여 선택한 카테고리 및 채널에 적용할 빈도 규칙을 볼 수 있습니다.
+   >[!NOTE]
+   >
+   >선택한 카테고리가 있는 메시지 **[!UICONTROL Transactional]** 은 빈도 규칙에 대해 평가되지 않습니다.
 
-   ![](assets/message-rules-msg-link.png)
-
-   일치하는 메시지 빈도 규칙을 표시하는 새 탭이 열립니다.
-
-1. [디자인](../design/design-emails.md) 및 [게시](../messages/publish-manage-message.md) 메시지를 표시합니다.
-
-선택한 카테고리 및 채널과 일치하는 모든 빈도 규칙이 이 메시지에 자동으로 적용됩니다.
-
->[!NOTE]
->
->메시지 <!--that do not have any selected category or messages -->선택한 카테고리가 있는 위치 **[!UICONTROL Transactional]** 은 빈도 규칙에 대해 평가되지 않습니다.
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
-
-에서 게재에서 제외된 프로필 수를 볼 수 있습니다 [라이브 및 전역 보기](../reports/message-monitoring.md), 및에서 [이메일 라이브 보고서](../reports/email-live-report.md): 게재에서 제외된 사용자에 대한 가능한 이유로 빈도 규칙이 나열됩니다.
+1. 에서 게재에서 제외된 프로필 수를 볼 수 있습니다 [글로벌 보고서](../reports/global-report.md), 및에서 [라이브 보고서](../reports/live-report.md): 게재에서 제외된 사용자에 대한 가능한 이유로 빈도 규칙이 나열됩니다.
 
 >[!NOTE]
 >
@@ -155,7 +144,7 @@ ht-degree: 6%
 
 1. [규칙 만들기](#create-new-rule) called *전체 마케팅 최대 가용량*:
 
-   * 모든 채널(이메일, 푸시)을 선택합니다.
+   * 이메일 및 푸시 채널을 선택합니다.
    * 최대 가용량을 12로 설정합니다.
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -169,19 +158,9 @@ ht-degree: 6%
 
 1. 저장 및 [활성화](#activate-rule) 규칙.
 
-1. 메시지 만들기. [자세히 보기](../messages/get-started-content.md#create-new-message)
+1. 이메일을 만들고 **[!UICONTROL Marketing]** 해당 메시지의 카테고리입니다. [자세히 보기](../messages/get-started-content.md#create-new-message)
 
-1. 을(를) 선택합니다 **[!UICONTROL Marketing]** 카테고리.
-
-   ![](assets/message-rules-ex-category-maktg.png)
-
-1. 을(를) 선택합니다 **[!UICONTROL Email]** 및 **[!UICONTROL Push Notification]** 채널입니다.
-
-   ![](assets/message-rules-ex-channels.png)
-
-1. **[!UICONTROL Frequency rule]** 링크를 클릭하여 선택한 카테고리 및 채널에 적용할 빈도 규칙을 볼 수 있습니다.
-
-1. [디자인](../design/design-emails.md) 및 [게시](../messages/publish-manage-message.md) 메시지를 표시합니다.
+1. 푸시 알림을 만들고 **[!UICONTROL Marketing]** 해당 메시지의 카테고리입니다. [자세히 보기](../messages/get-started-content.md#create-new-message)
 
 이 시나리오에서는 개별 프로필이 다음과 같습니다.
 * 은 매월 최대 12개의 마케팅 메시지를 받을 수 있습니다.
@@ -189,7 +168,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->빈도 규칙을 테스트할 때 새로 만든 [테스트 프로필](../segment/creating-test-profiles.md)프로필의 빈도 상한에 도달하면 다음 달까지 카운터를 재설정할 수 없기 때문입니다. 규칙을 비활성화하면 캡처한 프로필에서 메시지를 받을 수 있지만 카운터 증분은 제거하거나 삭제하지 않습니다.
+>빈도 규칙을 테스트할 때는 새로 만든 [테스트 프로필](../segment/creating-test-profiles.md)프로필의 빈도 상한에 도달하면 다음 달까지 카운터를 재설정할 수 없기 때문입니다. 규칙을 비활성화하면 캡처한 프로필에서 메시지를 받을 수 있지만 카운터 증분은 제거하거나 삭제하지 않습니다.
 
 ## 방법 비디오 {#video}
 
