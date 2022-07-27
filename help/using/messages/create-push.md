@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 9%
@@ -57,7 +57,7 @@ ht-degree: 9%
 
 ![](assets/title-body-push.png)
 
-* 앱을 열려면 **[!UICONTROL Open app]** 선택 사항입니다. 알림과 연결된 앱은 [채널 표면](../configuration/message-presets.md) (즉, 메시지 사전 설정).
+* 앱을 열려면 **[!UICONTROL Open app]** 선택 사항입니다. 알림과 연결된 앱은 [채널 표면](../configuration/channel-surfaces.md) (즉, 메시지 사전 설정).
 * 사용자를 앱 내의 특정 콘텐츠로 리디렉션하려면 **[!UICONTROL Deeplink]** 선택 사항입니다.  특정 컨텐츠는 특정 보기, 페이지의 특정 섹션 또는 특정 탭일 수 있습니다. 옵션을 선택하면 관련 필드에 딥 링크를 입력합니다.
 * 사용자를 외부 URL로 리디렉션하려면 **[!UICONTROL Web URL]** 선택 사항입니다. 옵션을 선택하면 관련 필드에 URL을 입력합니다.
 

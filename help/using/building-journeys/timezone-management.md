@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '280'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,10 @@ ht-degree: 2%
 * [시간 조건](../building-journeys/condition-activity.md#time_condition)
 * [날짜 조건](../building-journeys/condition-activity.md#date_condition)
 * [사용자 지정 대기](../building-journeys/wait-activity.md#custom)
-* [고정 날짜 대기](../building-journeys/wait-activity.md#fixed_date)
+
+<!--
+* [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
+-->
 
 시간대를 선택하거나 사용자 프로필에 정의된 시간대를 사용하도록 선택할 수 있습니다.
 
@@ -42,13 +45,9 @@ ht-degree: 2%
 
 ## 프로필을 사용하여 여정 시간대를 정의합니다 {#timezone-from-profiles}
 
-여정의 시작 이벤트에 네임스페이스가 있는 경우, 여정이 Adobe Experience Platform의 실시간 고객 프로필 서비스에 도달할 수 있는 경우 시간대는 여정에 흐르는 개별 프로필에 지정된 시간대로 미리 정의됩니다.
+여정의 시작 이벤트에 네임스페이스가 있는 경우, 즉 여정이 Adobe Experience Platform의 실시간 고객 프로필 서비스에 도달할 수 있는 경우에는 프로필 수준에서 정의된 시간대를 사용할 수 있습니다. 이렇게 하려면 다음을 수행합니다. **속성**, check **대기 및 조건에서 프로필 시간대 사용**. 이 옵션은 기본적으로 선택되어 있지 않습니다.
 
-Adobe Experience Platform 프로필에 시간대가 정의된 경우 여정에서 검색할 수 있습니다.
-
-개별 프로필에 시간대가 포함되어 있지 않으면 검색된 시간대가 시간대 필드에 정의된 시간대가 됩니다.
-
-이렇게 하려면 다음을 수행합니다. **[!UICONTROL Properties]**, check **[!UICONTROL Use Profile timezone in waits and conditions]**.
+여정에 대해 시간대가 정의된 경우 해당 시간대를 검색하여 사용합니다. 표시되지 않으면 사용된 시간대가 시간대 필드에 정의된 시간대가 됩니다.
 
 ![](assets/journey73.png)
 

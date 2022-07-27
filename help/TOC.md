@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1108'
 ht-degree: 96%
 
 ---
@@ -261,7 +261,7 @@ ht-degree: 96%
    + 전달성 {#deliverability}
       + [전달성 시작](using/reports/deliverability.md)
       + [제외 목록 정보](using/reports/suppression-list.md)
-+ 의사 결정 관리 {#offer-decisioniong}
++ 의사 결정 관리 {#offer-decisioning}
    + 의사 결정 관리 시작 {#get-started-decision}
       + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
       + [사용자 인터페이스](using/offers/get-started/user-interface.md)
@@ -292,6 +292,7 @@ ht-degree: 96%
       + [의사 결정 만들기](using/offers/offer-activities/create-offer-activities.md)
       + [의사 결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
       + [시뮬레이션 만들기](using/offers/offer-activities/simulation.md)
+   + [일괄 결정](using/offers/batch-delivery.md)
    + 의사 결정 관리 보고서 만들기 {#create-reports}
       + [의사 결정 관리 이벤트 시작](using/offers/reports/get-started-events.md)
       + [의사 결정 관리 이벤트 주요 정보](using/offers/reports/key-information.md)
@@ -379,8 +380,8 @@ ht-degree: 96%
             + [다시 시도](using/configuration/retries.md)
             + [허용 목록](using/configuration/allow-list.md)
       + [SMS 채널 구성](using/configuration/sms-configuration.md)
-      + 채널 서피스 설정 {#set-up-message-presets}
-         + [채널 서피스 생성](using/configuration/message-presets.md)
+      + 채널 서피스 설정 {#set-up-channels}
+         + [채널 서피스 생성](using/configuration/channel-surfaces.md)
          + [이메일 설정 구성](using/configuration/email-settings.md)
          + [숨은 참조 이메일 사용](using/configuration/bcc-email.md)
       + [실행 주소 관리](using/configuration/primary-email-addresses.md)

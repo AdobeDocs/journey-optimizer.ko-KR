@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 88%
+source-wordcount: '497'
+ht-degree: 28%
 
 ---
 
@@ -17,27 +17,22 @@ ht-degree: 88%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}에 등록하시면 분기마다 최신 제품 업데이트, 흥미로운 사례, 사용 사례, 팁 등을 받은 편지함에 바로 받을 수 있습니다.
 
->[!CAUTION]
->
->7월 25일, Adobe Journey Optimizer은 [새로운 기능](../rn/inline-messages.md) Journey Optimizer 채널에 대한 컨텐츠를 작성하는 방법(이메일, 푸시, SMS)이 개선되었습니다. Journey Optimizer의 전문의로서 [만들기 및 작성](../messages/get-started-content.md) 여정에서 직접 메시지를 전송할 수 있습니다. 여정 자동 전환이 수행됩니다. 몇 가지 단계로 여러분의 도움이 필요합니다. 추가 정보 [필수 단계](../rn/inline-messages-steps.md).
-
-## 2022년 6월 릴리스 {#june-2022-release}
+## 2022년 7월 릴리스 {#july-2022-release}
 
 ### 새로운 기능
 
 <table>
 <thead>
 <tr>
-<th><strong>사용자에게 SMS 보내기(제한된 가용성)</strong><br/></th>
+<th><strong>새로운 인라인 메시징 흐름</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 <b>Sinch</b> 또는 <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
-<img src="assets/do-not-localize/SMS.gif"/>
-<p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.</p>
-<p>이 <a href="../messages/create-sms.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
+<p>Journey Optimizer은 여정에서 메시지를 작성할 수 있는 새로운 흐름을 제공합니다. 인라인 메시징을 사용하면 사용자에게 상당한 시간을 절약하고 Journey Optimizer에서 이메일, 푸시 알림 또는 SMS를 만들고 전달하는 워크플로우 프로세스를 간소화할 수 있습니다. 메시지를 별도의 단계로 제거하고 대신 여정 캔버스에서 작업의 일부로 인라인 편집할 수 있도록 함으로써, 사용자는 더 적은 수의 단추를 클릭하고 더 적은 화면으로 이동하여 컨텐츠를 디자인하고 편집해야 합니다.</p>
+<img src="assets/do-not-localize/inline.gif"/>
+<p>자세한 내용은 <a href="../messages/get-started-content.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -47,15 +42,15 @@ ht-degree: 88%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Stock 통합을 통해 더 효과적인 이미지 찾기</strong><br/></th>
+<th><strong>속성 기반 액세스 제어(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Stock 및 Adobe Journey Optimizer 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선싱 및 저장할 수 있습니다. </br> 새로운 <b>유사한 스톡 사진 찾기</b> 옵션으로도 이미지의 내용, 색상 및 컴포지션과 일치하는 스톡 사진을 찾을 수 있습니다. </p>
-<img src="assets/do-not-localize/stock-rn.gif"/>
-<p>자세한 내용은 <a href="../design/stock.md">세부 설명서</a>를 참조하세요.</p>
+<p>이제 조직 또는 데이터 사용 범위를 정의하는 레이블을 사용하여 스키마 필드를 식별할 수 있습니다. 관리자는 권한 인터페이스를 사용하여 XDM 스키마 필드에 적용되는 액세스 정책을 정의하고 사용자 또는 사용자 그룹(내부, 외부 또는 타사 사용자)에 부여된 액세스를 더 잘 관리하며 특정 데이터 유형(즉, 중요한 개인 데이터/SPD)에 대한 액세스를 관리할 수 있습니다.</p>
+<p>속성 기반 액세스 제어 사용은 현재 선택한 사용자로만 제한되며 향후 릴리스의 모든 환경에 배포됩니다.</p>
+<p>자세한 내용은 <a href="../administration/attribute-based-access.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -64,24 +59,25 @@ ht-degree: 88%
 <table>
 <thead>
 <tr>
-<th><strong>모든 이메일에서 이메일 BCC 사용</strong><br/></th>
+<th><strong>일괄 결정 작업</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 이메일 BCC(숨은 참조) 기능을 사용하여 Adobe Journey Optimizer에서 보낸 이메일을 저장할 수 있습니다. 이메일 사전 설정에서 이 옵션을 활성화하여 전송된 모든 이메일이 BCC 주소로 블라인드(bcc)로 복사됩니다.</p>
-<img src="assets/do-not-localize/bcc-rn.gif"/>
-<p>자세한 내용은 <a href="../configuration/bcc-email.md">세부 설명서</a>를 참조하세요.</p>
+<p>이제 사용자 인터페이스에서 배치 의사 결정 작업을 실행할 수 있으므로 배치 api 작업을 실행하는 개발자가 필요하지 않으며 마케팅 관련 시간을 줄일 수 있습니다. 이 새 인터페이스를 사용하면 작업을 만들고 현재/과거 작업을 관리할 수 있습니다.</p>
+<img src="assets/do-not-localize/batch.gif"/>
+<p>자세한 내용은 <a href="../offers/batch-delivery.md">세부 설명서를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
-<th><strong>Automatically use the best performing offer in your decisions</strong><br/></th>
+<th><strong>Automatically use the best performing offer in your decisions (limited availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -90,77 +86,35 @@ ht-degree: 88%
 <p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>샌드박스 간 개체 복사</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer 샌드박스에서 다른 샌드박스(예: 비프로덕션 샌드박스에서 프로덕션 샌드박스로)로 경험을 다시 만들 수 있습니다. 이 새 기능은 여정이 올바르게 실행하기 위해 사용하는 개체 등 전체 여정을 특정 환경에서 다른 환경으로 복사합니다. 여정 외에도 오퍼, 메시지, 스키마, 데이터 세트, 데이터 소스, 이벤트, 작업과 같은 다른 구성 요소를 복사할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../building-journeys/copy-to-sandbox.md">자세한 설명서</a>를 참조하세요.
+<p>For more information, refer to the detailed documentation.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic Expression Builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table-->
-
+-->
 
 ### 개선 사항
-
-**의사 결정 관리**
-
-* **HTML 및 JSON 파일 지원** - 이제 Adobe Experience Cloud 자산 라이브러리의 외부 HTML 및 JSON 파일을 오퍼 표시 컨텐츠로 끌어다 놓을 수 있습니다. [자세히 보기](../offers/offer-library/add-representations.md#html-json)
-
-
-**이메일**
-
-* **템플릿으로 저장** - 이제 이메일 콘텐츠를 템플릿으로 저장하고 다른 메시지를 만들 때 다시 사용할 수 있습니다. [자세히 알아보기](../design/email-templates.md)
 
 <!--
 **Journeys**
 
 * **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
-
 -->
+
+**메시지**
+
+* 이제 메시지 사전 설정이 **채널 서피스**. [자세히 알아보기](../configuration/channel-surfaces.md)
 
 **관리**
 
-<!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
+* **PTR 레코드 편집** - 이제 PTR 레코드를 업데이트할 때 처리 시간은 최대 3시간만 소요됩니다. [자세히 보기](../configuration/ptr-records.md#processing)
 
-* **미리 보기 추적 URL 매개 변수** - 메시지 사전 설정을 구성할 때 URL 추적 매개 변수를 정의하는 경우 결과 추적 URL의 동적 미리 보기가 표시됩니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
+* **허용 목록 UI** - 이제 Journey Optimizer 사용자 인터페이스를 사용하여 허용 목록에 새 이메일 주소 또는 도메인을 추가할 수 있습니다. [자세히 보기](../configuration/allow-list.md)
 
-* **메시지 사전 설정 에디션** - 메시지 사전 설정을 업데이트할 때 드는 최대 처리 시간이 3시간으로 단축되었습니다. [자세히 보기](../configuration/message-presets.md#edit-message-preset)
+* **허용 목록 논리 업데이트** - 이제 목록이 비어 있더라도 기능이 활성화되는 즉시 허용 목록 논리가 적용됩니다. [자세히 보기](../configuration/allow-list.md#logic)
 
-* **IP 풀 에디션** - IP 풀을 업데이트할 때 드는 최대 처리 시간이 최대 3시간으로 단축되었습니다. [자세히 보기](../configuration/ip-pools.md#edit-ip-pool)
+* **URL 추적 매개 변수** - 이제 표현식 편집기를 사용하여 전자 메일 표면(즉, 메시지 사전 설정)에서 URL 추적 매개 변수를 구성할 수 있습니다. [자세히 알아보기](../configuration/email-settings.md#url-tracking)
 
-<!--* **Personalize tracking URL parameters** - You can now use the Expression editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+**Offer Decisioning**
 
-<!--
-**Reporting**
-
-* **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.
--->
+* **대상 크기** - 이제 의사 결정 규칙을 만들거나, 세그먼트 또는 규칙을 선택하여 오퍼 자격 설정을 하거나, 세그먼트 또는 규칙을 의사 결정 범위에 추가할 때 사용자 인터페이스에 새 대상 크기 예상 구성 요소가 표시됩니다.

@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 98%
+source-wordcount: '1731'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,13 @@ ht-degree: 98%
 
 ## 2022년 7월 {#july-2022}
 
-* **메시지 사전 설정 만들기** 섹션을 명료하게 보이도록 업데이트하고 SMS 채널을 구성하는 방법을 설명하는 페이지 링크를 추가했습니다. [자세히 보기](../configuration/message-presets.md#create-message-preset)
+* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2022년 7월 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 다음 **채널 서피스 설정** 섹션을 보다 명확하게 수정하고 SMS 채널을 구성하는 방법을 설명하는 페이지 링크를 업데이트했습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
+* 여정 속성에서 **프로필 시간대** 이제 옵션이 기본적으로 비활성화됩니다. [자세히 보기](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 에서 **대기** 활동, **고정 날짜** 옵션을 더 이상 사용할 수 없습니다. [자세히 보기](../building-journeys/wait-activity.md)
+* 에 대한 추가 정보를 추가했습니다. **증분 읽기** 옵션 **세그먼트 읽기** 활동. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 에 권장 사항이 추가되었습니다 **프로필 상한** 조건 유형. [자세히 보기](../building-journeys/condition-activity.md#profile_cap)
+* 비즈니스 이벤트에 대한 제한을 추가했습니다. [자세히 보기](../start/guardrails.md#events-g)
 
 ## 2022년 6월 {#june-2022}
 
@@ -42,7 +48,7 @@ ht-degree: 98%
 * 랜딩 페이지 및 구독 보고에 대한 스크린샷이 업데이트되었습니다. [자세히 보기](../reports/live-report.md)
 * 사용자 지정 작업에서 Delete 메서드가 지원되지 않는다는 내용의 메모가 추가되었습니다. [자세히 보기](../action/about-custom-action-configuration.md)
 * 방법 비디오에 대한 링크가 업데이트되었습니다.
-* 가독성을 개선하기 위해 [이메일 구성](../configuration/about-subdomain-delegation.md), [메시지 사전 설정](../configuration/message-presets.md), [랜딩 페이지 구성](../configuration/lp-subdomains.md) 섹션이 재구성되었습니다.
+* 가독성을 개선하기 위해 [이메일 구성](../configuration/about-subdomain-delegation.md), [메시지 사전 설정](../configuration/channel-surfaces.md), [랜딩 페이지 구성](../configuration/lp-subdomains.md) 섹션이 재구성되었습니다.
 * URL 추적 섹션에 예시를 추가하여 업데이트 및 개선하였습니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
 * 전자 메일 주소 설정 관련 새로운 하위 섹션이 추가되었습니다. 사용자 인터페이스를 통해 수행할 수 없습니다. [자세히 보기](../configuration/email-settings.md#forward-email)
 
@@ -53,8 +59,8 @@ ht-degree: 98%
 * 의사 결정 관리 기능에 대한 비디오에 Journey Optimizer 사용자 인터페이스를 반영하여 업데이트했습니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
 * **데이터 세트 시작** 섹션을 개선하여 데이터 세트에 액세스하고 데이터 세트를 만드는 방법을 자세히 설명합니다. [자세히 보기](../start/get-started-datasets.md)
 * 도움말 안내서 및 제품 릴리스 정보에 대한 링크를 **Adobe Journey Optimizer 설명서** 홈 페이지에 추가했습니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko)
-* **메시지 사전 설정 만들기** 섹션에서 이제 선택한 IP 풀이 편집 중이고(**[!UICONTROL Processing]** 상태) 선택한 하위 도메인과 연결된 적이 없을 때는 사전 설정 만들기를 진행할 수 없다는 점을 명확히 설명합니다. [자세히 보기](../configuration/message-presets.md#subdomains-and-ip-pools)
-* 메시지 사전 설정 **URL 추적** 섹션에 사용자 인터페이스의 부분적 변경 사항을 반영하여 업데이트했습니다. [자세히 보기](../configuration/message-presets.md#url-tracking)
+* **메시지 사전 설정 만들기** 섹션에서 이제 선택한 IP 풀이 편집 중이고(**[!UICONTROL Processing]** 상태) 선택한 하위 도메인과 연결된 적이 없을 때는 사전 설정 만들기를 진행할 수 없다는 점을 명확히 설명합니다. [자세히 보기](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* 메시지 사전 설정 **URL 추적** 섹션에 사용자 인터페이스의 부분적 변경 사항을 반영하여 업데이트했습니다. [자세히 보기](../configuration/channel-surfaces.md#url-tracking)
 
 ## 2022년 3월 {#march-2022}
 
@@ -78,7 +84,7 @@ ht-degree: 98%
 * **Offer Decisioning AI 등급** 섹션이 자동 최적화 모델에 대한 보다 자세한 설명과 함께 업데이트되었습니다. [자세히 보기](../offers/ranking/auto-optimization-model.md)
 * 등급 전략을 사용할 때 이벤트 유형을 보낼 수 있어야 하는 스키마 요구 사항에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../offers/ranking/schema-requirement.md)
 * 가독성 개선을 위해 [!DNL Journey Optimizer] 개인화 기능 관련 섹션을 재구성했습니다. [자세히 보기](../personalization/personalize.md)
-* 다음 **메시지 사전 설정 만들기** 섹션을 몇 개의 섹션으로 나누어서 명확성을 개선했습니다. [자세히 보기](../configuration/message-presets.md#create-message-preset)
+* 다음 **메시지 사전 설정 만들기** 섹션을 몇 개의 섹션으로 나누어서 명확성을 개선했습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
 * 다음 **옵트아웃 관리** 섹션이 명확해지고 약간 재구성되었습니다. [자세히 보기](../messages/consent.md#opt-out-management)
 * 다음 **링크 삽입** 섹션이 업데이트되어 최근 사용자 인터페이스 변경 사항을 반영하였습니다. [자세히 보기](../design/message-tracking.md#insert-links)
 
@@ -93,14 +99,13 @@ ht-degree: 98%
 * [!DNL Journey Optimizer] 2021년 10월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * **날짜 시간 함수** 목록을 추가하였습니다. [자세히 보기](../personalization/functions/dates.md)
 * 새 **사용자 성향별 시작 섹션**. 나만의 방식으로 목표를 더 빨리 달성하세요! [자세히 보기](../start/quick-start.md)
-* 새 **메시지 사전 설정 편집** 섹션. [자세히 보기](../configuration/message-presets.md#edit-message-preset)
+* 새 **메시지 사전 설정 편집** 섹션. [자세히 보기](../configuration/channel-surfaces.md#edit-channel-surface)
 * 새 **PTR 레코드 편집** 섹션. [자세히 보기](../configuration/ptr-records.md#edit-ptr-record)
-* 새 **메시지 사전 설정 비활성화** 섹션. [자세히 보기](../configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* 새 **메시지 사전 설정 비활성화** 섹션. [자세히 보기](../configuration/channel-surfaces.md#edit-channel-surface#deactivate-a-surface)
 * 모바일 [!DNL Experience Edge] 워크플로우에서 지원되지 않는 오퍼 제한에 대한 **의사 결정 관리 API 개발자 안내서**&#x200B;에 새 제한 사항을 추가했습니다. [자세히 보기](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * 새 **시뮬레이션 만들기** 섹션. [자세히 보기](../offers/offer-activities/simulation.md)
 * **결정 범위 추가** 섹션을 업데이트했습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * 사용자 정의 텍스트를 정의하고 개인화하는 방법에 대한 새 [하위 섹션](../offers/offer-library/creating-personalized-offers.md#custom-text)을 포함하여 **표현 내용 정의** 섹션을 업데이트했습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md#content)
-
 
 ## 2021년 9월 {#september-2021}
 
@@ -142,7 +147,7 @@ ht-degree: 98%
 * 억제 목록, 허용 목록 및 이메일 글로벌/라이브 보고서 섹션에 억제됨 및 허용되지 않음 상태의 프로필이 전송된 이메일 보고서에서 제외되도록 지정하는 메모를 추가했습니다. [자세히 보기](../reports/global-report.md)
 * 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../configuration/allow-list.md#reporting)
 * 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
-* 메시지 사전 설정 모니터링 섹션을 업데이트했습니다. 가능한 사전 설정 작성 실패 이유 및 이러한 오류에 대한 세부 정보를 추가했습니다. [자세히 보기](../configuration/message-presets.md#monitor-message-presets)
+* 메시지 사전 설정 모니터링 섹션을 업데이트했습니다. 가능한 사전 설정 작성 실패 이유 및 이러한 오류에 대한 세부 정보를 추가했습니다. [자세히 보기](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * 이제 메시지 사전 설정에서 이메일 다시 시도 설정을 조정할 수 있다는 사실을 반영하도록 다시 시도 기간 섹션을 업데이트하고 이름을 변경했습니다. [자세히 보기](../configuration/retries.md#retry-duration)
 * 이메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../messages/consent.md#one-click-opt-out-link)
 * 하위 도메인 위임 섹션을 업데이트하여 Adobe가 수행한 유효성 검사 프로세스에 대한 자세한 정보를 추가했습니다. [자세히 보기](../configuration/delegate-subdomain.md#subdomain-validation)

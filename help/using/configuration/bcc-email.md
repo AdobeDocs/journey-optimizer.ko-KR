@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## 숨은 참조 이메일 활성화 {#enable-bcc}
 
-를 사용하려면 **[!UICONTROL BCC email]** 옵션을 선택한 경우, [채널 표면](message-presets.md) (즉, 메시지 사전 설정). Adobe에 위임된 하위 도메인에 정의된 이메일 주소를 제외하고 올바른 형식으로 외부 주소를 지정할 수 있습니다. 예를 들어 *marketing.luma.com* Adobe 하위 도메인, 다음과 같은 주소 *abc@marketing.luma.com* 는 금지됩니다.
+를 사용하려면 **[!UICONTROL BCC email]** 옵션을 선택한 경우, [채널 표면](channel-surfaces.md) (즉, 메시지 사전 설정). Adobe에 위임된 하위 도메인에 정의된 이메일 주소를 제외하고 올바른 형식으로 외부 주소를 지정할 수 있습니다. 예를 들어 *marketing.luma.com* Adobe 하위 도메인, 다음과 같은 주소 *abc@marketing.luma.com* 는 금지됩니다.
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 1. 를 사용하십시오 **[!UICONTROL Eligibility]** 이 배치에 대한 오퍼 선택을 제한하는 필드입니다.
 
-   이 제약 조건은 **의사 결정 규칙**&#x200B;또는 하나 또는 여러 개 **Adobe Experience Platform 세그먼트**. 둘 다 에 자세히 설명되어 있습니다. [이 섹션](#segments-vs-decision-rules).
+   이 제약 조건은 **의사 결정 규칙**&#x200B;또는 하나 또는 여러 개 **Adobe Experience Platform 세그먼트**. 둘 다 에 자세히 설명되어 있습니다. [이 섹션](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
    * 오퍼의 선택을 Experience Platform 세그먼트의 멤버로 제한하려면 **[!UICONTROL Segments]**&#x200B;를 클릭한 다음 **[!UICONTROL Add segments]**.
 
@@ -87,6 +87,10 @@ ht-degree: 2%
       ![](../assets/activity_constraint_rule.png)
 
       에서 의사 결정 규칙을 만드는 방법을 알아봅니다. [이 섹션](../offer-library/creating-decision-rules.md).
+
+      >[!NOTE]
+      >
+      >세그먼트나 결정 규칙을 선택하면 예상 자격을 갖춘 프로필에 대한 정보가 표시됩니다. 클릭 **[!UICONTROL Refresh]** 를 눌러 데이터를 업데이트합니다.
 
 1. 각 프로필에 대해 가장 적합한 오퍼를 선택하는 데 사용할 등급 방법을 정의합니다.
 
@@ -117,26 +121,6 @@ ht-degree: 2%
 1. 이 결정의 일부로 오퍼에 대한 다른 배치를 추가하려면 **[!UICONTROL New scope]** 버튼을 클릭합니다. 각 결정 범위에 대해 위의 단계를 반복합니다.
 
    ![](../assets/activity_new-scope.png)
-
-### 세그먼트와 의사 결정 규칙 사용 {#segments-vs-decision-rules}
-
-<!--to move to create-offers?-->
-
-제한을 적용하려면 하나 또는 여러 오퍼의 구성원으로 오퍼 선택을 제한할 수 있습니다 **Adobe Experience Platform 세그먼트**&#x200B;또는 **의사 결정 규칙**, 두 솔루션은 서로 다른 용도에 해당합니다.
-
-기본적으로 세그먼트의 출력은 프로필 목록이지만, 의사 결정 규칙은 의사 결정 프로세스 동안 단일 프로필에 대해 주문형 실행되는 함수입니다. 그 두 사용법의 차이는 아래에 자세히 나와 있다.
-
-* **세그먼트**
-
-   반면 세그먼트는 프로필 속성 및 경험 이벤트를 기반으로 특정 논리를 일치하는 Adobe Experience Platform 프로필 그룹입니다. 그러나 오퍼 관리 는 세그먼트를 다시 계산하지 않으므로 오퍼를 표시할 때 최신 상태가 아닐 수 있습니다.
-
-   의 세그먼트에 대해 자세히 알아보기 [이 섹션](../../segment/about-segments.md).
-
-* **의사 결정 규칙**
-
-   반면, 의사 결정 규칙은 Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 하며 오퍼를 표시할 수 있는 사용자를 결정합니다. 오퍼나 지정된 배치에 대한 결정에서 선택하면, 규칙이 결정될 때마다 실행되어 각 프로필은 최신 오퍼와 최상의 오퍼를 얻을 수 있습니다.
-
-   의 의사 결정 규칙에 대해 자세히 알아보십시오 [이 섹션](../offer-library/creating-decision-rules.md).
 
 ## 대체 오퍼 추가 {#add-fallback}
 

@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 11%
@@ -22,7 +22,7 @@ ht-degree: 11%
 
 1. **메시지 및 채널 구성**: 채널 서피스 정의, 메시지 조정 및 사용자 정의
 
-   * 채널 서피스를 만들어 메시지를 전달하는 데 필요한 모든 기술 매개 변수를 구성합니다. [자세히 보기](message-presets.md)
+   * 채널 서피스를 만들어 메시지를 전달하는 데 필요한 모든 기술 매개 변수를 구성합니다. [자세히 보기](channel-surfaces.md)
 
    * Adobe Experience Platform에서 여러 주소를 사용할 수 있는 경우 수신자의 우선 순위에 사용할 이메일 주소를 결정합니다. [자세히 보기](primary-email-addresses.md)
 

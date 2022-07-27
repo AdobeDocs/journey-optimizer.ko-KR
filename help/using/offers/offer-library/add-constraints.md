@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 3%
+source-wordcount: '1600'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="우선 순위"
+>title="우선 순위 설정"
 >abstract="우선 순위는 사용자가 두 개 이상의 오퍼를 자격이 있는 경우 다른 오퍼와 비교하여 오퍼의 우선순위를 정의하는 데 도움이 됩니다. 오퍼의 우선 순위가 높을수록 오퍼의 우선 순위가 더 높습니다."
 
 제한 조건을 사용하면 오퍼가 표시될 조건을 정의할 수 있습니다.
@@ -40,6 +40,10 @@ ht-degree: 3%
 1. 구성 **[!UICONTROL Offer eligibility]**. [자세히 보기](#eligibility)
 
    ![](../assets/offer-eligibility.png)
+
+   >[!NOTE]
+   >
+   >세그먼트나 결정 규칙을 선택하면 예상 자격을 갖춘 프로필에 대한 정보가 표시됩니다. 클릭 **[!UICONTROL Refresh]** 를 눌러 데이터를 업데이트합니다.
 
 1. 을(를) 정의합니다 **[!UICONTROL Priority]** 두 개 이상의 오퍼에 대해 사용자가 자격이 있는 경우 다른 오퍼와 비교한 것입니다. 오퍼의 우선 순위가 높을수록 오퍼의 우선 순위가 더 높습니다.
 
@@ -63,8 +67,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="자격"
->abstract="오퍼 자격 을 사용하면 세그먼트나 결정 규칙을 사용하여 정의한 특정 프로필로 오퍼를 제한할 수 있습니다."
+>title="자격 정의"
+>abstract="기본적으로 모든 프로필에는 오퍼를 표시할 수 있지만 세그먼트나 결정 규칙을 사용하여 오퍼를 특정 프로필로 제한할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -114,7 +118,7 @@ ht-degree: 3%
 
    의 의사 결정 규칙에 대해 자세히 알아보십시오 [이 섹션](creating-decision-rules.md).
 
-## 빈도 제한 {#capping}
+## 최대 가용량 {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -123,8 +127,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="최대 가용량"
->abstract="최대 가용량은 오퍼를 표시할 수 있는 최대 횟수를 정의하는 제한으로 사용됩니다."
+>title="최대 가용량 사용"
+>abstract="과도한 요청을 방지하려면 최대 제안 횟수를 정의하는 캡핑 을 사용하십시오."
 
 최대 가용량은 오퍼를 표시할 수 있는 최대 횟수를 정의하는 제한으로 사용됩니다.
 
@@ -178,7 +182,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="날짜 변경은 최대 가용량에 영향을 줄 수 있습니다"
+>title="날짜 변경은 최대 가용성에 영향을 줄 수 있습니다"
 >abstract="최대 가용량이 이 오퍼에 적용되는 경우, 시작 또는 종료 날짜를 변경할 때 영향을 받을 수 있습니다."
 
 오퍼의 날짜를 변경할 때 다음 조건이 충족되는 경우 캡핑에 영향을 줄 수 있으므로 주의깊게 진행해야 합니다.
@@ -191,7 +195,7 @@ ht-degree: 3%
 >
 >에서 오퍼의 날짜를 정의하는 방법을 알아봅니다. [이 섹션](creating-personalized-offers.md#create-offer).
 
-프로필당 빈도 캐핑 은 각 프로필의 최대 가용량 카운트를 저장합니다. 승인된 오퍼의 시작 및 종료 날짜를 변경할 때 일부 프로필에 대한 최대 가용량 카운트는 아래에 설명된 다른 시나리오에 따라 영향을 받을 수 있습니다.
+프로필당 최대 가용량 은 각 프로필의 최대 가용량 카운트를 저장합니다. 승인된 오퍼의 시작 및 종료 날짜를 변경할 때 일부 프로필에 대한 최대 가용량 카운트는 아래에 설명된 다른 시나리오에 따라 영향을 받을 수 있습니다.
 
 ![](../assets/offer-capping-change-date.png)
 

@@ -5,12 +5,10 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '991'
 ht-degree: 2%
 
 ---
@@ -25,15 +23,64 @@ ABAC(속성 기반 액세스 제어)를 사용하면 특정 팀 또는 사용자
 
 Adobe Journey Optimizer에서 ABAC를 사용하면 데이터를 보호하고 XDM(Experience Data Model) 스키마, 프로필 속성 및 세그먼트를 포함한 특정 필드 요소에 대한 특정 액세스 권한을 부여할 수 있습니다.
 
-<!--For a more detailed list of the terminology used with ABAC, refer to Adobe Experience Platform documentation.-->
+ABAC에서 사용되는 용어에 대한 자세한 목록은 다음을 참조하십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
 이 예제에서는 레이블을 **국적** 권한이 없는 사용자가 스키마 필드를 사용하지 못하도록 제한합니다. 이를 수행하려면 다음 단계를 수행해야 합니다.
 
+1. 새 만들기  **[!UICONTROL Role]** 그리고 해당  **[!UICONTROL Label]** 사용자가 스키마 필드에 액세스하여 사용할 수 있도록 합니다.
+
 1. 할당  **[!UICONTROL Label]** 변환 후 **국적** Adobe Experience Platform의 스키마 필드.
 
-2. 새 만들기  **[!UICONTROL Role]** 그리고 해당  **[!UICONTROL Label]** 사용자가 스키마 필드에 액세스하여 사용할 수 있도록 합니다.
+1. 를 사용하십시오  **[!UICONTROL Schema field]** Adobe Journey Optimizer.
 
-3. 를 사용하십시오  **[!UICONTROL Schema field]** Adobe Journey Optimizer.
+참고 사항 **[!UICONTROL Roles]**, **[!UICONTROL Policies]** 및 **[!UICONTROL Products]** 속성 기반 액세스 제어 API로 액세스할 수도 있습니다. 자세한 내용은 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
+
+## 역할 만들기 및 레이블 지정 {#assign-role}
+
+>[!IMPORTANT]
+>
+>역할에 대한 권한을 관리하려면 먼저 정책을 만들어야 합니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
+
+**[!UICONTROL Roles]** 는 조직 내에서 동일한 권한, 레이블 및 샌드박스를 공유하는 사용자 집합입니다. 에 속하는 각 사용자 **[!UICONTROL Role]** 는 제품에 포함된 Adobe 앱 및 서비스를 통해 권한을 받습니다.
+직접 만들 수도 있습니다 **[!UICONTROL Roles]** 인터페이스에서 특정 기능 또는 개체에 대한 사용자의 액세스를 세밀하게 조정하려면
+
+이제 선택한 사용자에게 **국적** 필드에 C2라는 레이블이 지정됩니다. 이를 위해서는 새로운 기능이 필요합니다 **[!UICONTROL Role]** 특정 사용자 세트를 사용하여 사용자가 Marketing Cloud ID 클라이언트측 또는 서버측을 위해 **국적** 의 세부 사항 **[!UICONTROL Journey]**.
+
+1. 에서 [!DNL Permissions] product, select **[!UICONTROL Role]** 왼쪽 창 메뉴에서 **[!UICONTROL Create role]**. 다음을 추가할 수도 있습니다 **[!UICONTROL Label]** 기본 제공 역할 을 참조하십시오.
+
+   ![](assets/role_1.png)
+
+1. 추가 **[!UICONTROL Name]** 및 **[!UICONTROL Description]** 새 **[!UICONTROL Role]**&#x200B;에는 다음이 포함되어 있습니다. 제한된 역할 인구 통계학.
+
+1. 드롭다운에서 을(를) 선택합니다. **[!UICONTROL Sandbox]**.
+
+   ![](assets/role_2.png)
+
+1. 에서 **[!UICONTROL Resources]** 메뉴 아래의 **[!UICONTROL Adobe Experience Platform]** 를 눌러 다른 기능을 엽니다. 여기서는 **[!UICONTROL Journeys]**.
+
+   ![](assets/role_3.png)
+
+1. 드롭다운에서 을(를) 선택합니다. **[!UICONTROL Permissions]** 다음과 같이 선택한 피쳐에 연결됩니다. **[!UICONTROL View journeys]** 또는 **[!UICONTROL Publish journeys]**.
+
+   ![](assets/role_6.png)
+
+1. 새로 만든 파일을 저장한 후 **[!UICONTROL Role]**&#x200B;를 클릭합니다. **[!UICONTROL Properties]** 역할에 대한 액세스를 추가로 구성합니다.
+
+   ![](assets/role_7.png)
+
+1. **[!UICONTROL Users]** 탭에서 **[!UICONTROL Add users]**&#x200B;을 클릭합니다.
+
+   ![](assets/role_8.png)
+
+1. **[!UICONTROL Labels]** 탭에서, **[!UICONTROL Add label]**&#x200B;를 선택합니다.
+
+   ![](assets/role_9.png)
+
+1. 을(를) 선택합니다 **[!UICONTROL Labels]** 역할에 을 추가하고 **[!UICONTROL Save]**. 이 예에서는 사용자가 이전에 제한된 스키마의 필드에 액세스할 수 있도록 레이블 C2를 부여합니다.
+
+   ![](assets/role_4.png)
+
+의 사용자 **제한된 역할 인구 통계** 이제 역할은 C2에서 레이블이 지정된 객체에 액세스할 수 있습니다.
 
 ## Adobe Experience Platform에서 개체에 레이블 지정 {#assign-label}
 
@@ -69,49 +116,6 @@ Adobe Journey Optimizer에서 ABAC를 사용하면 데이터를 보호하고 XDM
 
 ![](assets/label_5.png)
 
-## 역할 만들기 및 레이블 지정 {#assign-role}
-
-**[!UICONTROL Roles]** 는 조직 내에서 동일한 권한, 레이블 및 샌드박스를 공유하는 사용자 집합입니다. 에 속하는 각 사용자 **[!UICONTROL Role]** 는 제품에 포함된 Adobe 앱 및 서비스를 통해 권한을 받습니다.
-직접 만들 수도 있습니다 **[!UICONTROL Roles]** 인터페이스에서 특정 기능 또는 개체에 대한 사용자의 액세스를 세밀하게 조정하려면
-
-이제 선택한 사용자에게 **국적** 필드에 C2라는 레이블이 지정됩니다. 이를 위해서는 새로운 기능이 필요합니다 **[!UICONTROL Role]** 특정 사용자 세트를 사용하여 사용자가 Marketing Cloud ID 클라이언트측 또는 서버측을 위해 **국적** 의 세부 사항 **[!UICONTROL Journey]**.
-
-1. 에서 [!DNL Permissions] product, select **[!UICONTROL Role]** 왼쪽 창 메뉴에서 **[!UICONTROL Create role]**. 다음을 추가할 수도 있습니다 **[!UICONTROL Label]** 기본 제공 역할 을 참조하십시오.
-
-   ![](assets/role_1.png)
-
-1. 추가 **[!UICONTROL Name]** 및 **[!UICONTROL Description]** 새 **[!UICONTROL Role]**&#x200B;에는 다음이 포함되어 있습니다. 제한된 역할 인구 통계학.
-
-1. 드롭다운에서 을(를) 선택합니다. **[!UICONTROL Sandbox]**.
-
-   ![](assets/role_2.png)
-
-1. 에서 **[!UICONTROL Resources]** 메뉴 아래의 **[!UICONTROL Adobe Experience Platform]** 를 눌러 다른 기능을 엽니다. 여기서는 **[!UICONTROL Messages]**.
-
-   ![](assets/role_3.png)
-
-1. 드롭다운에서 을(를) 선택합니다. **[!UICONTROL Permissions]** 다음과 같이 선택한 피쳐에 연결됩니다. **[!UICONTROL View messages]** 또는 **[!UICONTROL Publish journeys]**.
-
-   ![](assets/role_6.png)
-
-1. 새로 만든 파일을 저장한 후 **[!UICONTROL Role]**&#x200B;를 클릭합니다. **[!UICONTROL Properties]** 역할에 대한 액세스를 추가로 구성합니다.
-
-   ![](assets/role_7.png)
-
-1. **[!UICONTROL Users]** 탭에서 **[!UICONTROL Add users]**&#x200B;을 클릭합니다.
-
-   ![](assets/role_8.png)
-
-1. **[!UICONTROL Labels]** 탭에서, **[!UICONTROL Add label]**&#x200B;를 선택합니다.
-
-   ![](assets/role_9.png)
-
-1. 을(를) 선택합니다 **[!UICONTROL Labels]** 역할에 을 추가하고 **[!UICONTROL Save]**. 이 예에서는 사용자가 이전에 제한된 스키마의 필드에 액세스할 수 있도록 레이블 C2를 부여합니다.
-
-   ![](assets/role_4.png)
-
-의 사용자 **제한된 역할 인구 통계** 이제 역할은 C2에서 레이블이 지정된 객체에 액세스할 수 있습니다.
-
 ## Adobe Journey Optimizer에서 레이블이 지정된 객체에 액세스 {#attribute-access-ajo}
 
 레이블 지정 후 **국적** 이제 새 스키마와 새 역할의 필드 이름과 새로운 역할을 통해 Adobe Journey Optimizer에서 이러한 제한 사항이 미치는 영향을 확인할 수 있습니다.
@@ -133,7 +137,7 @@ Adobe Journey Optimizer에서 ABAC를 사용하면 데이터를 보호하고 XDM
 
    ![](assets/journey_4.png)
 
-1. 그런 다음 특정 국적을 가진 사용자에게 메시지를 보낼 여정을 만듭니다. 추가 **[!UICONTROL Event]** 그러면 **[!UICONTROL Condition]**.
+1. 그런 다음 특정 국적을 가진 사용자에게 이메일을 보낼 여정을 만듭니다. 추가 **[!UICONTROL Event]** 그러면 **[!UICONTROL Condition]**.
 
    ![](assets/journey_5.png)
 
@@ -145,11 +149,11 @@ Adobe Journey Optimizer에서 ABAC를 사용하면 데이터를 보호하고 XDM
 
    ![](assets/journey_7.png)
 
-1. 필요에 따라 여정을 개인화하고 여기에서 **[!UICONTROL Message]** 작업.
+1. 필요에 따라 여정을 개인화하고 여기에서 **[!UICONTROL Email]** 작업.
 
    ![](assets/journey_8.png)
 
-C2 객체에 레이블을 지정할 수 없는 여정 Y가 이 필드나 이 제한된 필드의 메시지에 액세스해야 하는 경우:
+C2 개체에 레이블을 지정할 수 없는 여정 Y가 이 제한된 필드로 이 객체에 액세스해야 하는 경우:
 
 * 사용자 Y는 제한된 필드 이름이 표시되지 않으므로 사용할 수 없습니다.
 
@@ -157,6 +161,6 @@ C2 객체에 레이블을 지정할 수 없는 여정 Y가 이 필드나 이 제
 
 * 사용자 Y는 표현식을 삭제할 수 있습니다.
 
-* 사용자 Y가 여정 또는 메시지를 테스트할 수 없습니다.
+* 사용자 Y가 여정을 테스트할 수 없습니다.
 
-* 사용자 Y가 여정 또는 메시지를 게시할 수 없습니다.
+* 사용자 Y가 여정을 게시할 수 없습니다.

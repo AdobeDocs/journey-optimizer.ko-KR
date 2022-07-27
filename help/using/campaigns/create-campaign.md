@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 5%
@@ -21,7 +21,7 @@ ht-degree: 5%
 >
 >새 캠페인을 만들기 전에 표면 채널(즉, 메시지 사전 설정)과 Adobe Experience Platform 세그먼트를 사용할 준비가 되었는지 확인하십시오. 자세한 내용은 다음 섹션을 참조하십시오.
 >
->* [채널 서피스 생성](../configuration/message-presets.md)
+>* [채널 서피스 생성](../configuration/channel-surfaces.md)
 >* [세그먼트 시작](../segment/about-segments.md)
 
 

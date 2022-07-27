@@ -5,7 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -36,8 +37,7 @@ Send-Time Optimization 모델은 Adobe Journey Optimizer 데이터를 수집하�
 
 >[!CAUTION]
 >
->* 이 기능은 버스트 모드와 호환되지 않습니다.
-
+>이 기능은 버스트 모드와 호환되지 않습니다.
 
 ### 전송 시간 최적화 활성화{#activate-send-time-optimization}
 

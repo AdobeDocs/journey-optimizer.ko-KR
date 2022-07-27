@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1117'
 ht-degree: 10%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 10%
 * 비즈니스 이벤트가 트리거되면 세그먼트를 15분에서 최대 1시간까지 내보내는 시간이 지연됩니다.
 * 비즈니스 이벤트를 테스트할 때 테스트 여정에 입력할 이벤트 매개 변수와 테스트 프로필의 식별자를 전달해야 합니다. 또한 비즈니스 이벤트 기반 여정을 테스트할 때 단일 프로필 시작만 트리거할 수 있습니다. [이 섹션](../building-journeys/testing-the-journey.md#test-business)을 참조하십시오. 테스트 모드에서는 사용할 수 있는 &quot;코드 보기&quot; 모드가 없습니다.
 * 새로운 비즈니스 이벤트가 도착하면 현재 여정에 있는 개인에게는 어떻게 됩니까? 이는 새 반복이 발생할 때 개인이 여전히 되풀이되는 여정에 있을 때와 같은 방식으로 동작합니다. 그들의 길은 끝났다. 따라서 마케터는 빈번한 비즈니스 이벤트를 예상하는 경우 너무 긴 여정을 만들지 않도록 주의해야 합니다.
+* 비즈니스 이벤트는 단일 이벤트 또는 세그먼트 자격 활동과 함께 사용할 수 없습니다.
 
 ## 여러 비즈니스 이벤트 {#multiple-business-events}
 
@@ -106,7 +107,7 @@ ht-degree: 10%
 
 ## 페이로드 필드를 정의합니다 {#define-the-payload-fields}
 
-페이로드 정의를 사용하면 시스템에서 여정의 이벤트에서 받게 될 정보를 선택하고 키와 어떤 사람이 이벤트에 연결되어 있는지 식별할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target=&quot;_blank&quot;}.
+페이로드 정의를 사용하면 시스템에서 여정의 이벤트에서 받게 될 정보를 선택하고 키와 어떤 사람이 이벤트에 연결되어 있는지 식별할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
 
 1. 목록에서 XDM 스키마를 선택하고 를 클릭합니다. **[!UICONTROL Fields]** 필드 또는 **[!UICONTROL Edit]** 아이콘.
 

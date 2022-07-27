@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 91%
@@ -41,7 +41,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [채널 표면](../configuration/message-presets.md#email-type) (즉, 메시지 사전 설정) 수준 및 [메시지 만들기](get-started-content.md#create-new-message).
+>마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [채널 표면](../configuration/channel-surfaces.md#email-type) (즉, 메시지 사전 설정) 수준 및 [메시지 만들기](get-started-content.md#create-new-message).
 
 ### 외부 옵트아웃 {#opt-out-external-lp}
 
@@ -177,7 +177,7 @@ ht-degree: 91%
 >abstract="[목록 구독 취소]를 활성화하여 이메일 헤더에 구독 취소 링크를 추가합니다. 구독 취소 URL을 설정하려면 전자 메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=ko#one-click-opt-out" text="원클릭 옵트아웃"
 
-만약 [목록 가입 해지 옵션](../configuration/message-presets.md#list-unsubscribe) 은 채널 표면 수준에서 활성화되며 과 함께 전송되는 해당 이메일입니다. [!DNL Journey Optimizer] 이메일 헤더에 구독 취소 링크가 포함됩니다.
+만약 [목록 가입 해지 옵션](../configuration/channel-surfaces.md#list-unsubscribe) 은 채널 표면 수준에서 활성화되며 과 함께 전송되는 해당 이메일입니다. [!DNL Journey Optimizer] 이메일 헤더에 구독 취소 링크가 포함됩니다.
 
 예를 들어 구독 취소 링크는 Gmail에서 다음과 같이 표시됩니다.
 
@@ -187,7 +187,7 @@ ht-degree: 91%
 >
 >이메일 헤더에 구독 취소 링크를 표시하려면 수신자의 이메일 클라이언트가 이 기능을 지원해야 합니다.
 
-가입 해지 주소가 기본값입니다 **[!UICONTROL Mailto (unsubscribe)]** 해당 채널 표면에 표시되는 주소입니다. [자세히 알아보기](../configuration/message-presets.md#list-unsubscribe).
+가입 해지 주소가 기본값입니다 **[!UICONTROL Mailto (unsubscribe)]** 해당 채널 표면에 표시되는 주소입니다. [자세히 알아보기](../configuration/channel-surfaces.md#list-unsubscribe).
 
 개인화된 구독 취소 URL을 설정하려면 이메일 메시지 콘텐츠에 원클릭 옵트아웃 링크를 삽입하고 원하는 URL을 입력합니다. [자세히 알아보기](#one-click-opt-out)
 

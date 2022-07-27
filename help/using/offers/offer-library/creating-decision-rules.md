@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '288'
 ht-degree: 13%
 
 ---
@@ -35,15 +35,19 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
    이렇게 하려면 **세그먼트 빌더** 는 규칙 조건을 작성하는 데 도움이 될 수 있습니다. [자세히 보기](../../segment/about-segments.md)
 
-   이 예에서는 규칙이 &quot;Gold&quot; 충성도 수준이 있는 고객을 타깃팅합니다.
+   <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
    ![](../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
-   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더에서는 와 함께 사용되는 세그먼트 빌더와 비교하여 몇 가지 특성을 제공합니다 **[!UICONTROL Audience Destinations]** 서비스. 예: **[!UICONTROL Segments]** 탭을 사용할 수 없습니다. 하지만 세그먼트 빌더 설명서에 설명된 전역 프로세스는 오퍼 결정 규칙을 작성하는 데 여전히 유효합니다.
+   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더에서는 와 함께 사용되는 세그먼트 빌더와 비교하여 몇 가지 특성을 제공합니다 **[!UICONTROL Audience Destinations]** 서비스. 예: **[!UICONTROL Segments]** 탭을 사용할 수 없습니다. 그러나 글로벌 프로세스는 [세그먼트 빌더](../../segment/about-segments.md) 설명서는 오퍼 결정 규칙을 작성하는 데 여전히 유효합니다. 자세한 내용은 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
-1. 클릭 **[!UICONTROL Save]** 확인합니다.
+1. 작업 공간에서 새 필드를 추가 및 구성하는 동안 **[!UICONTROL Segment properties]** 창에는 세그먼트에 속하는 예상 프로필에 대한 정보가 표시됩니다. 클릭 **[!UICONTROL Refresh estimate]** 를 눌러 데이터를 업데이트합니다.
+
+   ![](../assets/offers_decision_rule_creation_estimate.png)
+
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 확인합니다.
 
 1. 규칙이 만들어지면 규칙 목록에 표시됩니다. 속성을 선택하여 등록 정보를 표시하고 편집하거나 삭제할 수 있습니다.
 

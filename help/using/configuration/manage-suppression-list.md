@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 1%
@@ -141,7 +141,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >올바른 이메일 주소(예: abc@company) 또는 도메인(예: abc.company.com)을 입력해야 합니다.
+   >올바른 이메일 주소(예: abc@company.com) 또는 도메인(예: abc.company.com)을 입력해야 합니다.
 
 1. 필요한 경우 이유를 지정합니다.
 

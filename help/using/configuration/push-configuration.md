@@ -4,7 +4,7 @@ description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 4%
@@ -351,7 +351,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 모바일 앱을에서 설정했으면 [!DNL Adobe Experience Platform Data Collection]에서 푸시 알림을 전송할 수 있는 서피스를 만들어야 합니다. **[!DNL Journey Optimizer]**.
 
-에서 채널 표면을 만들고 구성하는 방법을 알아봅니다 [이 섹션](../configuration/message-presets.md).
+에서 채널 표면을 만들고 구성하는 방법을 알아봅니다 [이 섹션](../configuration/channel-surfaces.md).
 
 이제 Journey Optimizer에서 푸시 알림을 전송할 준비가 되었습니다.
 

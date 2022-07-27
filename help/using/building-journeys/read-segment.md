@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 8%
+source-wordcount: '1140'
+ht-degree: 7%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 8%
 
    ![](assets/read-segment-schedule-list.png)
 
-   다음 **증분 읽기** 옵션을 사용하면 여정을 마지막으로 실행한 이후 세그먼트에 입력한 개인만 타겟팅할 수 있습니다. 첫 번째 실행은 항상 모든 세그먼트 구성원을 타깃팅합니다. 이 옵션은 반복에만 사용할 수 있습니다 **세그먼트 읽기** 활동.
+   **증분 읽기** 옵션: 반복 여정 시 **세그먼트 읽기** 은 처음으로 실행되며, 세그먼트의 모든 프로필은 여정을 입력합니다. 그 다음 발생 시 이미 여정 내에 있었던 경우에도 모든 프로필이 다시에 들어갑니다. 여정에 있는 프로필의 이전 인스턴스가 중지되고 새 인스턴스가 생성됩니다. 다음 **증분 읽기** 옵션을 사용하면 첫 번째 발생 후 여정 마지막 실행 이후 세그먼트에 입력한 개인을 타깃팅할 수 있습니다.
 
 <!--
 

@@ -2,7 +2,7 @@
 title: 이전 릴리스 정보(2021)
 description: Journey Optimizer 릴리스 정보
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '2067'
 ht-degree: 97%
@@ -91,7 +91,7 @@ ht-degree: 97%
 
 **관리**
 
-* **메시지 사전 설정 편집** - 이제 메시지 사전 설정을 편집하고 업데이트 상태를 모니터링할 수 있습니다. [자세히 알아보기](../configuration/message-presets.md#edit-message-preset)
+* **메시지 사전 설정 편집** - 이제 메시지 사전 설정을 편집하고 업데이트 상태를 모니터링할 수 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md#edit-channel-surface)
 * **PTR 레코드 편집** - 이제 PTR 레코드를 편집하고 업데이트 상태를 모니터링할 수 있습니다. [자세히 알아보기](../configuration/ptr-records.md#edit-ptr-record)
 
 **개인화**

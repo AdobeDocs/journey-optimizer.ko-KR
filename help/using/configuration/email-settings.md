@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1173'
 ht-degree: 2%
 
 ---
 
 # 이메일 설정 구성 {#email-settings}
 
-채널 서피스(즉, 메시지 사전 설정) 구성의 전용 섹션에서 전자 메일 설정을 정의합니다. 에서 서피스를 만드는 방법을 알아봅니다 [이 섹션](message-presets.md).
+채널 서피스(즉, 메시지 사전 설정) 구성의 전용 섹션에서 전자 메일 설정을 정의합니다. 에서 서피스를 만드는 방법을 알아봅니다 [이 섹션](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,9 +24,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="이메일 카테고리 정의"
->abstract="이 채널 표면을 사용할 때 전송할 이메일 유형을 선택합니다. 사용자 동의가 필요한 프로모션 이메일에 대한 마케팅 또는 비상업적 이메일에 대한 트랜잭션은 특정 컨텍스트에서 가입 해지된 프로필에도 전송될 수 있습니다."
+>abstract="이 서피스를 사용할 때 전송할 메시지 유형을 선택합니다. 사용자 동의가 필요한 프로모션 메시지의 마케팅 또는 비상업용 메시지의 경우 트랜잭션용으로 특정 컨텍스트에서 가입 해지된 프로필에도 전송될 수 있습니다."
 
-에서 **이메일 유형** 섹션에서 채널 서피스와 함께 전송할 메시지 유형을 선택합니다. **마케팅** 또는 **트랜잭션**.
+에서 **이메일 유형** 섹션에서 서피스와 함께 전송할 메시지 유형을 선택합니다. **마케팅** 또는 **트랜잭션**.
 
 * 선택 **마케팅** 프로모션 이메일의 경우: 이러한 메시지에는 사용자의 동의가 필요합니다.
 
@@ -181,20 +181,22 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Value]** 필드.
 
-다음 객체로 이동하여 미리 정의된 값 목록에서 선택할 수도 있습니다.
-* 여정 속성: **소스 ID**, **소스 이름**, **소스 버전 ID**
-* 작업 속성: **작업 ID**, **작업 이름**
-* Offer decisioning 속성: **오퍼 ID**, **오퍼 이름**
+<!--You can also choose from a list of predefined values by navigating to the following objects:
+* Journey attributes: **Source id**, **Source name**, **Source version id**
+* Action attributes: **Action id**, **Action name**
+* Offer decisioning attributes: **Offer id**, **Offer name**
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->폴더를 선택하지 마십시오: 필요한 폴더를 찾아 추적 매개 변수 값으로 사용할 프로필 속성을 선택해야 합니다.
+>Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+각 항목을 편집할 수도 있습니다 **[!UICONTROL Value]** 필드를 사용하여 [표현식 편집기](../personalization/personalization-build-expressions.md). 편집 아이콘을 클릭하여 표현식 편집기를 엽니다. 여기에서 원하는 컨텍스트 속성을 선택하거나 텍스트를 직접 편집할 수 있습니다.
 
-You can drag and drop the parameters to reorder them.-->
+![](assets/preset-url-tracking-editor.png)
+
+<!--You can drag and drop the parameters to reorder them.-->
 
 다음은 Adobe Analytics 및 Google Analytics 호환 URL의 예입니다.
 
@@ -204,7 +206,7 @@ You can drag and drop the parameters to reorder them.-->
 
 >[!NOTE]
 >
->텍스트 값을 입력하고 사전 정의된 값을 선택할 수 있습니다. 각 **[!UICONTROL Value]** 필드에는 총 255자가 포함될 수 있습니다.
+>표현식 편집기에서 입력 텍스트 값과 컨텍스트 속성을 결합할 수 있습니다. 각 **[!UICONTROL Value]** 필드에는 총 255자가 포함될 수 있습니다.
 
 결과 추적 URL을 동적으로 미리 볼 수 있습니다. 매개 변수를 추가, 편집 또는 제거할 때마다 미리 보기가 자동으로 업데이트됩니다.
 

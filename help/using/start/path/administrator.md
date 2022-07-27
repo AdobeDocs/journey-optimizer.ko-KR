@@ -3,7 +3,7 @@ title: 시스템 관리자용 Journey Optimizer 시작하기
 description: 시스템 관리자는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 3%
@@ -48,7 +48,7 @@ ht-degree: 3%
 
    * 정의 **푸시 알림 설정** 둘 다 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]. [자세히 보기](../../configuration/push-gs.md)
 
-   * 만들기 **채널 서피스** (즉, 메시지 사전 설정) 전자 메일, sms 및 푸시 알림에 필요한 모든 기술 매개 변수를 구성합니다. [자세히 보기](../../configuration/message-presets.md)
+   * 만들기 **채널 서피스** (즉, 메시지 사전 설정) 전자 메일, sms 및 푸시 알림에 필요한 모든 기술 매개 변수를 구성합니다. [자세히 보기](../../configuration/channel-surfaces.md)
 
    * 구성 **SMS 채널** sms에 필요한 모든 기술 매개 변수를 구성하려면 [자세히 보기](../../configuration/sms-configuration.md)
 

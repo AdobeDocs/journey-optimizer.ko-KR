@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
    ![](assets/content_experiment_1.png)
 
-1. 선택 **[!UICONTROL Email]** 그러면 **[!UICONTROL Surface]** 이 게재에 을 사용하려고 합니다. 자세한 내용은 [채널 서피스](../configuration/message-presets.md) 페이지.
+1. 선택 **[!UICONTROL Email]** 그러면 **[!UICONTROL Surface]** 이 게재에 을 사용하려고 합니다. 자세한 내용은 [채널 서피스](../configuration/channel-surfaces.md) 페이지.
 
    ![](assets/content_experiment_2.png)
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 6%
@@ -61,7 +61,7 @@ ht-degree: 6%
 
 1. 메시지를 선택합니다 **[!UICONTROL Category]**: 선택 **마케팅** 상업적 메시지 또는 **트랜잭션** 주문 확인, 암호 재설정 알림 또는 배달 정보와 같은 비상업적인 메시지의 경우.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >정의한 경우 [빈도 규칙](../configuration/frequency-rules.md) 특정 채널 및 카테고리의 경우 해당 채널 및 카테고리를 선택하면 메시지에 자동으로 적용됩니다. 현재 **[!UICONTROL Marketing]** 카테고리는 빈도 규칙에 사용할 수 있습니다.
 
@@ -73,7 +73,7 @@ ht-degree: 6%
 
 1. 채널 선택 **[!UICONTROL Surface]** (즉, 메시지 사전 설정)을 사용하여 메시지를 보낼 수 있습니다.
 
-   서피스는 [시스템 관리자](../start/path/administrator.md). 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [자세히 알아보기](../configuration/message-presets.md).
+   서피스는 [시스템 관리자](../start/path/administrator.md). 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md).
 
    >[!CAUTION]
    >
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 ![](assets/show-read-only.png)
 
-고급 매개 변수는 메시지 창 하단에 표시됩니다. 이러한 매개 변수는 [시스템 관리자](../start/path/administrator.md) 에서 [채널 표면](../configuration/message-presets.md) (즉, 메시지 사전 설정)이 메시지와 연결되어 있습니다.
+고급 매개 변수는 메시지 창 하단에 표시됩니다. 이러한 매개 변수는 [시스템 관리자](../start/path/administrator.md) 에서 [채널 표면](../configuration/channel-surfaces.md) (즉, 메시지 사전 설정)이 메시지와 연결되어 있습니다.
 
 푸시 알림의 경우 다음 매개 변수를 표시할 수 있습니다. 토큰, AppID, AppPlatform.
 
@@ -155,7 +155,7 @@ ht-degree: 6%
 >
 >이메일의 경우 기존 메시지를 템플릿에 전환할 수도 있습니다. [자세히 알아보기](../design/email-templates.md).
 
-## 메시지 삭제
+## 메시지 삭제{#delete-message}
 
 메시지를 삭제하려면 채널 작업 활동 창의 맨 위에 있는 휴지통 아이콘을 사용하십시오.
 

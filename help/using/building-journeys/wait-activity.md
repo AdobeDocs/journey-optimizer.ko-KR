@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '322'
 ht-degree: 5%
 
 ---
@@ -18,15 +18,17 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="대기 활동"
->abstract="경로에서 다음 활동을 실행하기 전에 기다리려면 대기 활동을 사용할 수 있습니다. 이를 통해 다음 활동이 실행될 순간을 정의할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다. 기간, 고정 날짜 및 사용자 지정."
+>abstract="경로에서 다음 활동을 실행하기 전에 기다리려면 대기 활동을 사용할 수 있습니다. 이를 통해 다음 활동이 실행될 순간을 정의할 수 있습니다. 다음 두 가지 옵션을 사용할 수 있습니다. 기간 및 사용자 지정."
 
 경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL Wait]** 활동. 이를 통해 다음 활동이 실행될 순간을 정의할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다.
 
 * [기간](#duration)
-* [고정 날짜](#fixed_date)
 * [사용자 지정](#custom)
 
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+<!--
+* [Email send time optimization](#email_send_time_optimization)
+* [Fixed date](#fixed_date) 
+-->
 
 ## 대기 활동 정보{#about_wait}
 
@@ -40,11 +42,14 @@ ht-degree: 5%
 
 ![](assets/journey55.png)
 
-## 고정 날짜 대기{#fixed_date}
+<!--
+## Fixed date wait{#fixed_date}
 
-다음 활동을 실행할 날짜를 선택합니다.
+Select the date for the execution of the next activity.
 
 ![](assets/journey56.png)
+
+-->
 
 ## 사용자 지정 대기{#custom}
 

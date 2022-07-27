@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '744'
 ht-degree: 4%
 
 ---
@@ -67,6 +67,7 @@ ht-degree: 4%
 ### 이벤트 {#events-g}
 
 * 시스템에서 생성한 이벤트의 경우, 고유한 오케스트레이션 ID를 얻으려면 먼저 Journey Optimizer 내에서 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 구성해야 합니다. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가해야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다.
+* 비즈니스 이벤트는 단일 이벤트 또는 세그먼트 자격 활동과 함께 사용할 수 없습니다.
 
 ### 데이터 소스 {#data-sources-g}
 

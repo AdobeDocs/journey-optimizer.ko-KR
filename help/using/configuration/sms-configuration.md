@@ -4,7 +4,7 @@ description: Journey Optimizer을 사용하여 SMS 메시지를 보내도록 환
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 8%
@@ -84,7 +84,7 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
 
    >[!NOTE]
    >
-   >검사가 실패하면 의 가능한 실패 이유에 대해 자세히 알아보십시오 [이 섹션](#monitor-message-presets).
+   >검사가 실패하면 의 가능한 실패 이유에 대해 자세히 알아보십시오 [이 섹션](#monitor-channel-surfaces).
 
 1. 확인이 성공하면 채널 서피스가 **[!UICONTROL Active]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '751'
 ht-degree: 3%
 
 ---
@@ -32,19 +32,20 @@ ht-degree: 3%
 
 <!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting segments.) -->
 
+>[!NOTE]
+>
+>Journey Optimizer 인터페이스를 사용하여 배치 의사결정을 수행할 수도 있습니다. 자세한 내용은 [이 섹션](../../batch-delivery.md)에서는 batch decisioning을 사용할 때 고려할 글로벌 사전 요구 사항 및 제한 사항에 대한 정보를 제공합니다.
+
+* **데이터 세트당 실행 중인 일괄 처리 작업 수**: 데이터 세트당 한 번에 최대 5개의 배치 작업을 실행할 수 있습니다. 출력 데이터 세트가 동일한 다른 일괄 처리 요청이 큐에 추가됩니다. 이전 작업 실행이 완료되면 처리할 대기 중인 작업이 선택됩니다.
+* **빈도 제한**: 하루에 한 번 발생하는 프로필 스냅샷에서 일괄 처리가 실행됩니다. 다음 [!DNL Batch Decisioning] API는 빈도를 제한하고 항상 최신 스냅샷의 프로필을 로드합니다.
+
 ## 시작하기 {#getting-started}
 
 이 API를 사용하기 전에 다음 전제 조건 단계를 완료했는지 확인하십시오.
 
 ### 결정 준비 {#prepare-decision}
 
-하나 이상의 결정을 준비하려면 아래 절차를 따르십시오.
-
-* 결정 결과를 내보내려면 &quot;ODE DecisionEvents&quot; 스키마를 사용하여 데이터 집합을 만듭니다.
-
-* 평가된 다음 업데이트해야 하는 Platform 세그먼트를 만듭니다. 자세한 내용은 [세분화 설명서](http://www.adobe.com/go/segmentation-overview-en) 세그먼트 멤버십 평가를 업데이트하는 방법에 대해 자세히 알아보십시오.
-
-* Adobe Journey Optimizer에서 결정 ID와 배치 ID로 구성된 결정 범위가 있는 결정을 만듭니다. 자세한 내용은 [결정 범위 정의 섹션](../../offer-activities/create-offer-activities.md) 추가 정보를 얻기 위한 의사 결정에 대한 안내서를 참조하십시오.
+하나 이상의 결정을 준비하려면 데이터 세트, 세그먼트 및 결정을 만들었는지 확인합니다. 이러한 전제 조건은 [이 섹션](../../batch-delivery.md).
 
 ### API 요구 사항 {#api-requirements}
 
@@ -58,6 +59,10 @@ ht-degree: 3%
 ## 배치 프로세스 시작 {#start-a-batch-process}
 
 작업 로드를 배치 프로세스 결정에 시작하려면 `/workloads/decisions` 엔드포인트.
+
+>[!NOTE]
+>
+>배치 작업의 처리 시간에 대한 자세한 내용은 [이 섹션](../../batch-delivery.md).
 
 **API 형식**
 
@@ -178,33 +183,6 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | `ode:createDate` | 의사 결정 작업 로드 요청을 만든 시간입니다. | `1648076994405` |
 | `ode:status` | 작업 로드 상태는 &quot;QUEUED&quot;로 시작되고 &quot;PROCESSING&quot;, &quot;INGESTING&quot;, &quot;COMPLETED&quot; 또는 &quot;ERROR&quot;로 변경됩니다. | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | 상태가 &quot;PROCESSING&quot; 또는 &quot;INGESTING&quot;인 경우 sparkJobId 및 batchID와 같은 자세한 정보가 표시됩니다. 상태가 &quot;오류&quot;인 경우 오류 세부 정보가 표시됩니다. |  |
-
-## 서비스 수준 {#service-levels}
-
-모든 배치 결정에 대한 종료 시간은 작업 로드를 생성하는 시점부터 출력 데이터 세트에 결정 결과를 사용할 수 있는 시간까지 지속 시간입니다. POST 요청 페이로드의 세그먼트 크기는 종단 간 배치 결정 시간에 영향을 주는 주요 요소입니다. 자격이 있는 오퍼에 전역 빈도 제한이 활성화된 경우 배치 결정을 내리는 데 추가 시간이 소요됩니다. 다음은 적절한 오퍼에 대한 빈도 캡처가 있는 경우와 없는 경우 각각의 세그먼트 크기에 대한 종단 간 처리 시간의 근사치입니다.
-
-적합한 오퍼에 대해 빈도 제한이 활성화된 경우:
-
-| 세그먼트 크기 | 종단 간 처리 시간 |
-|--------------|----------------------------|
-| 10,000개 이하 | 7분 |
-| 백만 프로필 이하 | 30분 |
-| 1,500만 개 이하 | 50분 |
-
-적합한 오퍼에 대한 빈도 제한 없음:
-
-| 세그먼트 크기 | 종단 간 처리 시간 |
-|--------------|----------------------------|
-| 10,000개 이하 | 6분 |
-| 백만 프로필 이하 | 8분 |
-| 1,500만 개 이하 | 16분 |
-
-## 제한 사항 {#limitations}
-
-를 사용할 때 [!DNL Batch Decisioning] API를 사용하려면 다음 제한 사항을 염두에 두십시오.
-
-* **데이터 세트당 실행 중인 일괄 처리 작업 수**: 데이터 세트당 한 번에 최대 5개의 배치 작업을 실행할 수 있습니다. 출력 데이터 세트가 동일한 다른 일괄 처리 요청이 큐에 추가됩니다. 이전 작업 실행이 완료되면 처리할 대기 중인 작업이 선택됩니다.
-* **빈도 제한**: 하루에 한 번 발생하는 프로필 스냅샷에서 일괄 처리가 실행됩니다. 다음 [!DNL Batch Decisioning] API는 빈도를 제한하고 항상 최신 스냅샷의 프로필을 로드합니다.
 
 ## 다음 단계 {#next-steps}
 

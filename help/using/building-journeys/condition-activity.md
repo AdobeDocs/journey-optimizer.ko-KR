@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 9%
+source-wordcount: '1329'
+ht-degree: 8%
 
 ---
 
@@ -112,6 +112,10 @@ ht-degree: 9%
 ## 프로필 상한 {#profile_cap}
 
 이 조건 유형을 사용하여 여정 경로에 대한 최대 프로필 수를 설정합니다. 이 한도에 도달하면 입력한 프로필에서 대체 경로를 사용합니다. 이렇게 하면 여정이 정의된 제한을 초과하지 않습니다.
+
+    >[!NOTE]
+    >
+    >높은 값 프로필 캡을 정의하는 것이 좋습니다. 모집단 수가 정확한 상한 번호에 도달하는 정확도와 가능성은 모자가 증가할수록 증가합니다. 작은 숫자(예: 최대 50개)의 경우 프로필이 대체 경로를 사용하기 전에 제한에 도달하지 못할 수 있으므로 숫자가 항상 일치하지 않습니다.
 
 이 조건 유형을 사용하여 게재 볼륨을 높일 수 있습니다. 다음 보기 [사용 사례](ramp-up-deliveries-uc.md).
 
