@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 28%
+source-wordcount: '569'
+ht-degree: 26%
 
 ---
 
@@ -73,25 +73,23 @@ ht-degree: 28%
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Automatically use the best performing offer in your decisions (limited availability)</strong><br/></th>
+<th><strong>의사 결정 시 가장 성과가 좋은 오퍼를 자동으로 사용(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
-<p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
+<p>이제 의사 결정 관리에서 개인화된 최적화 모델 시스템을 사용할 수 있습니다. 이 새로운 유형의 모델을 사용하면 세그먼트와 오퍼 성과를 기반으로 오퍼를 최적화하고 개인화할 수 있습니다.</p>
+<p>개인화된 최적화 AI 모델의 사용은 현재 선택한 사용자로만 제한되며 향후 릴리스의 모든 환경에 배포됩니다.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the detailed documentation.</p>
+<p>자세한 내용은 <a href="../offers/ranking/personalized-optimization-model.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 ### 개선 사항
 

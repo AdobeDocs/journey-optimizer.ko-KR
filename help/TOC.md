@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 96%
+source-wordcount: '1114'
+ht-degree: 95%
 
 ---
 
@@ -276,7 +276,9 @@ ht-degree: 96%
       + [등급 공식](using/offers/ranking/create-ranking-formulas.md)
       + AI 모델 {#ai-models}
          + [AI 모델 정보](using/offers/ranking/ai-models.md)
-         + [자동 최적화 모델](using/offers/ranking/auto-optimization-model.md)
+         + AI 모델 유형 {#ai-model-types}
+            + [자동 최적화 모델](using/offers/ranking/auto-optimization-model.md)
+            + [개인화된 최적화 모델](using/offers/ranking/personalized-optimization-model.md)
          + AI 모델 만들기 {#configure-ai-model}
             + [이벤트를 수집할 데이터 세트 만들기](using/offers/ranking/create-dataset.md)
             + [AI 모델 만들기](using/offers/ranking/create-ranking-strategies.md)

@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '310'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,15 @@ ht-degree: 3%
 
 ## AI 모델 유형 {#ai-model-types}
 
-지금은 [!DNL Journey Optimizer]** 하나의 AI 모델을 제공합니다. **자동 최적화**&#x200B;은 과거 오퍼 성능을 기반으로 오퍼를 최적화합니다. 이 유형의 AI 모델은 [이 섹션](auto-optimization-model.md).
+에서는 두 가지 유형의 AI 모델을 사용할 수 있습니다 [!DNL Journey Optimizer]:
+
+* **자동 최적화 모델** 비즈니스 클라이언트가 설정한 반환(KPI)을 극대화하는 오퍼를 제공하는 것을 목표로 합니다. 이러한 KPI는 전환율, 매출 등의 유형일 수 있습니다. 이때 자동 최적화는 오퍼를 Adobe Target으로 전환하여 오퍼 클릭 최적화에 중점을 둡니다. 자동 최적화는 오퍼의 &quot;전역&quot; 성능을 기반으로 개인화되지 않고 최적화합니다. [자세히 보기](auto-optimization-model.md)
+
+* **개인화 모델** 을(를) 통해 비즈니스 목표를 정의하고 고객 데이터를 활용하여 비즈니스 중심 모델을 교육하여 개인화된 오퍼를 제공하고 KPI를 극대화할 수 있습니다. [자세히 보기](personalized-optimization-model.md)
+
+>[!CAUTION]
+>
+>현재 개인화된 최적화 모델을 사용하면 사용자를 선택하기만 하면 조기 액세스에서 사용할 수 있습니다.
 
 ## AI 모델 만들기 {#create-ai-model}
 
