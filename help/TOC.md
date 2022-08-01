@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1113'
 ht-degree: 95%
 
 ---
@@ -134,7 +134,6 @@ ht-degree: 95%
       + [반응](using/building-journeys/reaction-events.md)
       + [세그먼트 자격 조건](using/building-journeys/segment-qualification-events.md)
       + [조건](using/building-journeys/condition-activity.md)
-      + [끝](using/building-journeys/end-activity.md)
       + [대기](using/building-journeys/wait-activity.md)
       + [세그먼트 읽기](using/building-journeys/read-segment.md)
       + [이메일, SMS, 푸시](using/building-journeys/journeys-message.md)

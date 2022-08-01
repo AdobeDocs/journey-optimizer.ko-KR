@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '263'
 ht-degree: 28%
 
 ---
@@ -36,7 +36,6 @@ ht-degree: 28%
 화면 왼쪽에 있는 팔레트에서 다음 오케스트레이션 활동을 사용할 수 있습니다.
 
 * [조건](../building-journeys/condition-activity.md)
-* [끝](../building-journeys/end-activity.md)
 * [대기](../building-journeys/wait-activity.md)
 * [세그먼트 읽기](../building-journeys/read-segment.md)
 

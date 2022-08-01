@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 26%
+source-wordcount: '625'
+ht-degree: 24%
 
 ---
 
@@ -93,11 +93,9 @@ ht-degree: 26%
 
 ### 개선 사항
 
-<!--
-**Journeys**
+**여정**
 
-* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
--->
+* **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 끝 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 사용자의 작업 없이 고객이 여정에서 드롭한 위치를 더 잘 보고할 수 있습니다. [자세히 보기](../building-journeys/journey-end.md)
 
 **메시지**
 
