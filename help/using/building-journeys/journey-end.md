@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 3%
+source-wordcount: '765'
+ht-degree: 2%
 
 ---
 
@@ -51,21 +51,21 @@ ht-degree: 3%
 >
 >닫힘 또는 정지된 여정은 다시 시작할 수 없습니다.
 
-<!--
+### 여정 끝 태그{#end-tag}
 
-### Journey end tag{#end-tag}
-
-While authoring a journey, an "end node" is displayed at the end of each path. This node cannot be added by a user, cannot be removed and only its label can be changed. It marks the end of each path of the journey. If the journey has several paths, we recommend that you add a label to each end to make reports easier to read. See [this page](../reports/live-report.md).
+여정을 작성하는 동안 각 경로의 끝에 &quot;끝 탭&quot;이 표시됩니다. 이 노드는 사용자가 추가할 수 없으며 제거할 수 없으며 해당 레이블만 변경할 수 있습니다. 여정의 각 경로의 끝을 표시합니다. 여정에 여러 경로가 있는 경우 보고서를 쉽게 읽을 수 있도록 각 끝에 레이블을 추가하는 것이 좋습니다. [이 페이지](../reports/live-report.md)를 참조하십시오.
 
 ![](assets/journey-end.png)
 
--->
+<!--
 
-### 종료 활동{#journey-end-activity}
+### End activity{#journey-end-activity}
 
-다음 **[!UICONTROL End]** 활동을 통해 여정의 각 경로의 끝을 표시할 수 있습니다. 필수는 아니지만 시각적 명확성을 위해 권장됩니다. [이 페이지](../building-journeys/end-activity.md)를 참조하십시오
+The **[!UICONTROL End]** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity. See [this page](../building-journeys/end-activity.md)
 
 ![](assets/journey54.png)
+
+-->
 
 ### 여정 닫기{#close-journey}
 
