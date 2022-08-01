@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
+source-git-commit: d740b9efdba164f548fb07d6d9a96fc2c2796eff
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 2%
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 ### 여정 끝 태그{#end-tag}
 
-여정을 작성하는 동안 각 경로의 끝에 &quot;끝 탭&quot;이 표시됩니다. 이 노드는 사용자가 추가할 수 없으며 제거할 수 없으며 해당 레이블만 변경할 수 있습니다. 여정의 각 경로의 끝을 표시합니다. 여정에 여러 경로가 있는 경우 보고서를 쉽게 읽을 수 있도록 각 끝에 레이블을 추가하는 것이 좋습니다. [이 페이지](../reports/live-report.md)를 참조하십시오.
+여정을 작성하는 동안 각 경로의 끝에 &quot;끝 태그&quot;가 표시됩니다. 이 노드는 사용자가 추가할 수 없으며 제거할 수 없으며 해당 레이블만 변경할 수 있습니다. 여정의 각 경로의 끝을 표시합니다. 여정에 여러 경로가 있는 경우 보고서를 쉽게 읽을 수 있도록 각 끝에 레이블을 추가하는 것이 좋습니다. [이 페이지](../reports/live-report.md)를 참조하십시오.
 
 ![](assets/journey-end.png)
 
