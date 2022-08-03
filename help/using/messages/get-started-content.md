@@ -1,6 +1,6 @@
 ---
 title: 메시지 시작
-description: Journey Optimizer에서 개인화된 메시지를 만들고 전달하는 방법을 알아봅니다
+description: Journey Optimizer에서 개인 맞춤화된 메시지를 만들고 게제하는 방법 알아보기
 feature: Overview
 topic: Content Management
 role: User
@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
