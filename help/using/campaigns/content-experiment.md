@@ -5,14 +5,20 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+hide: true
+hidefromtoc: true
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 0%
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
 # 컨텐츠 실험 만들기 {#content-experiment}
+
+>[!AVAILABILITY]
+>
+>컨텐츠 실험 기능은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
 컨텐츠 실험 기능을 사용하면 여러 전달 처리를 정의할 수 있습니다. 관심 대상은 관심 지표에 대해 가장 잘 수행하는 대상을 결정하기 위해 각 처리에 무작위로 할당됩니다. 이메일의 콘텐츠, 제목 또는 발신자를 변경하도록 선택할 수 있습니다.
 
@@ -121,4 +127,12 @@ ht-degree: 0%
 1. 캠페인이 올바르게 구성되었는지 확인하고 를 클릭합니다. **[!UICONTROL Activate]** 실행
 
    ![](assets/content_experiment_14.png)
+
+## 실험 보고서 {#experimentation-report}
+
+![](assets/experimentation_report_3.png)
+
+캠페인에서 **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** 탭에서는 각 변형의 수행 방식과 테스트 중에 가장 적합한 수행자가 있는지 여부에 대한 기본 정보를 자세히 설명합니다.
+
+이 보고서에 대한 자세한 내용은 [Campaign 글로벌 보고서](../campaigns/content-experiment.md#experimentation-report) 페이지.
 

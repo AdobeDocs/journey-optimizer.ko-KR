@@ -1,6 +1,6 @@
 ---
-title: 캠페인 글로벌 보고서
-description: campaign 글로벌 보고서에서 데이터를 사용하는 방법을 알아봅니다
+title: Campaign 글로벌 보고서
+description: Campaign 글로벌 보고서에서 데이터를 사용하는 방법을 알아봅니다
 feature: Reporting
 topic: Content Management
 role: User
@@ -8,14 +8,14 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1542'
 ht-degree: 2%
 
 ---
 
-# 캠페인 글로벌 보고서 {#campaign-global-report}
+# Campaign 글로벌 보고서 {#campaign-global-report}
 
 Campaign 글로벌 보고서는 **[!UICONTROL Global view]** 버튼을 클릭합니다.
 
@@ -41,11 +41,53 @@ Campaign 글로벌 보고서는 **[!UICONTROL Global view]** 버튼을 클릭합
 
 * **[!UICONTROL Actions failed in %]**: 작업이 전달된 총 고유 시간과 비교하여 여정에서 작업이 실패한 총 고유 횟수입니다.
 
-<!--
-### Experimentation tab (#experimentation-global)
+### 목표(#objectives-global)
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
--->
+>[!AVAILABILITY]
+>
+>컨텐츠 실험 기능은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+
+![](assets/performance_report.gif)
+
+다음 **[!UICONTROL Objectives]** 캠페인 보고서의 탭을 사용하면 하나의 특정 지표를 타깃팅하여 게재 보고서를 더 잘 세밀하게 조정할 수 있습니다.
+
+다음 **[!UICONTROL Objectives]** 나열됨 **[!UICONTROL Datasets]** 추가 정보를 검색할 수 있도록 시스템에 대한 연결을 정의합니다. 기본 제공 목록 **[!UICONTROL Objectives]** 을(를) 사용할 수 있지만, 새 항목을 추가하여 자신의 ID를 추가할 수 있습니다 **[!UICONTROL Dataset]**. 자세한 절차는 이 설명서를 참조하십시오.
+
+타깃팅할 목표를 선택한 후 두 목표를 설정합니다 **[!UICONTROL Performance overview]** 및 **[!UICONTROL Campaign objective]** 위젯은 게재 성능에 대한 자세한 요약을 제공합니다.
+
+사용 **[!UICONTROL Campaign objective]** 위젯을 사용하면 주요 목표를 다른 지표와 비교하도록 선택할 수도 있습니다.
+
+필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 다음을 참조하십시오 [섹션](../reports/global-report.md#modify-dashboard).
+
+### 실험(#experimentation-global)
+
+>[!AVAILABILITY]
+>
+>컨텐츠 실험 기능은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+
+![](assets/experimentation_report_3.png)
+
+캠페인에서 **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** 탭에서는 각 변형의 수행 방식과 가장 적합한 수행자가 있는 경우의 기본 정보에 대해 자세히 설명합니다.
+
+가장 뛰어난 수행자를 정의하는 데 시간이 걸릴 수 있으며 이 아이콘은 이 아이콘으로 표시됩니다 ![](assets/experimentation_report_1.png).
+
+다음 **[!UICONTROL Experiment result]** 위젯은 각 변형의 성능을 자세히 설명합니다. 기준 요소 중 하나를 선택한 다음 **[!UICONTROL Baseline]** 드롭다운. 가장 좋은 치료는 별 아이콘으로 표시됩니다.
+
+이 표에는 다음 지표가 나와 있습니다.
+
+* **[!UICONTROL Profiles]**: 이 처리를 타겟팅한 프로필 수입니다.
+
+* **[!UICONTROL Unique outbound clicks]**: 아웃바운드 채널 간 총 클릭 수.
+
+* **[!UICONTROL Count per profile]**: 실험 목표 지표의 합계 값을 프로필 수로 나눈 값입니다.
+
+* **[!UICONTROL Confidence interval]**: 기준 요소와 가장 성과가 좋은 처리 간의 성능 차이율. [자세히 알아보기](../campaigns/experiment-calculations.md#confidence-intervals).
+
+* **[!UICONTROL Average lift]**: 기준선에 대해 지정된 처리의 전환율 비율 개선. [자세히 보기](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Confidence]**: 주어진 치료가 기본 치료와 동일하다는 증거. [자세히 보기](../campaigns/experiment-calculations.md#understand-confidence)
+
+이러한 결과에 대해 자세히 알아보고 해석하는 방법은 다음을 참조하십시오 [이 페이지](../campaigns/get-started-experiment.md#interpret-results).
 
 ## 이메일 탭 {#email-global}
 
@@ -73,7 +115,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 * **[!UICONTROL Excluded]**: Adobe Journey Optimizer에서 제외된 프로필 수입니다.
 
-다음 **[!UICONTROL Email - Tracking statistics]** 게재에 대해 수신자 활동에 사용할 수 있는 데이터를 포함합니다.
+다음 **[!UICONTROL Email - Tracking statistics]** 위젯에는 게재를 위해 수신자 활동에 사용할 수 있는 데이터가 포함되어 있습니다.
 
 * **[!UICONTROL Opens]**: 게재에서 게재를 연 횟수입니다.
 
