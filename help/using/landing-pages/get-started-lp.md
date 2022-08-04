@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 11%
+source-wordcount: '198'
+ht-degree: 8%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 11%
 랜딩 페이지는 이메일, 웹 사이트, 광고 또는 기타 디지털 위치에서 클릭스루한 후 사용자에게 안내되는 독립형 웹 페이지입니다.
 
 [!DNL Journey Optimizer] 랜딩 페이지를 만들고 디자인하여 사용자가 커뮤니케이션 수신을 옵트인하거나 옵트아웃할 수 있는 온라인 양식으로 전송하거나 뉴스레터와 같은 특정 서비스에 가입할 수 있습니다.
+
+➡️ [이 비디오에서 구독 구성 및 랜딩 페이지 만들기에 대한 자세한 내용을 살펴보십시오](#video)
 
 * 활용 [!DNL Journey Optimizer] 손쉽게 구축할 수 있는 컨텐츠 디자인 기능 **응답형 랜딩 페이지**.
 * 설정 **옵트인 및 옵트아웃 흐름** 빠르고 원활하게 수행할 수 있습니다.
@@ -34,8 +36,8 @@ ht-degree: 11%
 </tr>
 </table>
 
-<!--
+## 방법 비디오{#video}
 
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
+아래 비디오에서는 구독 목록을 만들고, 랜딩 페이지를 설정하여 서비스에서 구독 또는 구독 취소를 제공하고, 메시지에 구독 취소 옵션을 통합하고, 관련 여정을 구성하는 방법을 보여줍니다.
 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

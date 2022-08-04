@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '633'
+ht-degree: 24%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 * **허용 목록 논리 업데이트** - 이제 목록이 비어 있더라도 기능이 활성화되는 즉시 허용 목록 논리가 적용됩니다. [자세히 보기](../configuration/allow-list.md#logic)
 
-* **URL 추적 매개 변수** - 이제 표현식 편집기를 사용하여 전자 메일 표면(즉, 메시지 사전 설정)에서 URL 추적 매개 변수를 구성할 수 있습니다. [자세히 알아보기](../configuration/email-settings.md#url-tracking)
+* **URL 추적 매개 변수** - 이제 표현식 편집기를 사용하여 전자 메일 표면(예: 사전 설정)에서 URL 추적 매개 변수를 구성할 수 있습니다. [자세히 알아보기](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 

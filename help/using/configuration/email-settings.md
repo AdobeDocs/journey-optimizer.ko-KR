@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -192,9 +192,13 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONT
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-각 항목을 편집할 수도 있습니다 **[!UICONTROL Value]** 필드를 사용하여 [표현식 편집기](../personalization/personalization-build-expressions.md). 편집 아이콘을 클릭하여 표현식 편집기를 엽니다. 여기에서 원하는 컨텍스트 속성을 선택하거나 텍스트를 직접 편집할 수 있습니다.
+각 항목을 편집할 수도 있습니다 **[!UICONTROL Value]** 필드를 사용하여 [표현식 편집기](../personalization/personalization-build-expressions.md). 편집 아이콘을 클릭하여 편집기를 엽니다. 여기에서 원하는 컨텍스트 속성을 선택하거나 텍스트를 직접 편집할 수 있습니다.
 
 ![](assets/preset-url-tracking-editor.png)
+
+>[!NOTE]
+>
+>표현식 편집기에서 입력 텍스트 값과 컨텍스트 속성을 결합할 수 있습니다. 각 **[!UICONTROL Value]** 필드에는 총 255자가 포함될 수 있습니다.
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -203,10 +207,6 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONT
 * Adobe Analytics 호환 URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
 * Google Analytics 호환 URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
-
->[!NOTE]
->
->표현식 편집기에서 입력 텍스트 값과 컨텍스트 속성을 결합할 수 있습니다. 각 **[!UICONTROL Value]** 필드에는 총 255자가 포함될 수 있습니다.
 
 결과 추적 URL을 동적으로 미리 볼 수 있습니다. 매개 변수를 추가, 편집 또는 제거할 때마다 미리 보기가 자동으로 업데이트됩니다.
 

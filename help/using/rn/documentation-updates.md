@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 93%
+source-wordcount: '1772'
+ht-degree: 91%
 
 ---
 
@@ -13,11 +13,17 @@ ht-degree: 93%
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 
+## 2022년 8월 {#august-2022}
+
+* 새 인라인 메시징 흐름을 반영하도록 빈도 규칙 섹션이 업데이트되었습니다. [자세히 보기](../configuration/frequency-rules.md#apply-frequency-rule)
+* 구독을 구성하고 랜딩 페이지를 만드는 방법을 보여주는 비디오가 이제 랜딩 페이지 시작 섹션에서 참조됩니다. [자세히 보기](../landing-pages/get-started-lp.md#video)
+
 ## 2022년 7월 {#july-2022}
 
 * 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2022년 7월 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 다음 **채널 서피스 설정** 섹션을 보다 명확하게 수정하고 SMS 채널을 구성하는 방법을 설명하는 페이지 링크를 업데이트했습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
 * 여정 속성에서 **프로필 시간대** 이제 옵션이 기본적으로 비활성화됩니다. [자세히 보기](../building-journeys/timezone-management.md#timezone-from-profiles)
+
 * 에서 **대기** 활동, **고정 날짜** 옵션을 더 이상 사용할 수 없습니다. [자세히 보기](../building-journeys/wait-activity.md)
 * 에 대한 추가 정보를 추가했습니다. **증분 읽기** 옵션 **세그먼트 읽기** 활동. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * 에 권장 사항이 추가되었습니다 **프로필 상한** 조건 유형. [자세히 보기](../building-journeys/condition-activity.md#profile_cap)

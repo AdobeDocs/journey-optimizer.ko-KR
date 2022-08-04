@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 2%
 
 ---
@@ -88,9 +88,9 @@ ht-degree: 2%
 
       에서 의사 결정 규칙을 만드는 방법을 알아봅니다. [이 섹션](../offer-library/creating-decision-rules.md).
 
-      >[!NOTE]
-      >
-      >세그먼트나 결정 규칙을 선택하면 예상 자격을 갖춘 프로필에 대한 정보가 표시됩니다. 클릭 **[!UICONTROL Refresh]** 를 눌러 데이터를 업데이트합니다.
+1. 세그먼트나 결정 규칙을 선택하면 예상 자격을 갖춘 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL Refresh]** 를 눌러 데이터를 업데이트합니다.
+
+   ![](../assets/activity_constraint-estimate.png)
 
 1. 각 프로필에 대해 가장 적합한 오퍼를 선택하는 데 사용할 등급 방법을 정의합니다.
 
@@ -142,7 +142,7 @@ ht-degree: 2%
 
    ![](../assets/review-decision.png)
 
-   각 배치를 확장하거나 축소할 수 있습니다. 각 배치에 대해 사용 가능한 오퍼, 자격 및 등급 세부 사항을 미리 볼 수도 있습니다.
+1. 각 배치를 확장하거나 축소할 수 있습니다. 각 배치에 대해 사용 가능한 오퍼, 자격 및 등급 세부 사항을 미리 볼 수 있습니다. 예상 자격을 갖춘 프로필에 대한 정보를 표시할 수도 있습니다. 클릭 **[!UICONTROL Refresh]** 를 눌러 데이터를 업데이트합니다.
 
    ![](../assets/review-decision-details.png)
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 4%
+source-wordcount: '648'
+ht-degree: 3%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 4%
 
 1. 표시할 오퍼에 대한 조건을 설정하려면 제약조건을 추가하십시오. [자세히 보기](add-constraints.md)
 
+   >[!NOTE]
+   >
+   >세그먼트나 결정 규칙을 선택하면 예상 자격을 갖춘 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL Refresh]** 를 눌러 데이터를 업데이트합니다.
+
    ![](../assets/offer-constraints-example.png)
 
 1. 오퍼를 검토하고 저장합니다. [자세히 보기](#review)
@@ -72,6 +76,10 @@ ht-degree: 4%
 자격 규칙 및 제한이 정의되면 오퍼 속성 요약이 표시됩니다.
 
 1. 모든 것이 제대로 구성되어 있는지 확인하십시오.
+
+1. 예상 자격을 갖춘 프로필에 대한 정보를 표시할 수 있습니다. 클릭 **[!UICONTROL Refresh]** 를 눌러 데이터를 업데이트합니다.
+
+   ![](../assets/offer-summary-estimate.png)
 
 1. 사용자에게 오퍼를 제공할 준비가 되면 **[!UICONTROL Finish]**.
 

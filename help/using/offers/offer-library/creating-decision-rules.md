@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 13%
 
 ---
@@ -49,7 +49,7 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 확인합니다.
 
-1. 규칙이 만들어지면 규칙 목록에 표시됩니다. 속성을 선택하여 등록 정보를 표시하고 편집하거나 삭제할 수 있습니다.
+1. 규칙이 만들어지면 **[!UICONTROL Rules]** 목록. 속성을 표시하도록 선택하고, 편집하거나 삭제할 수 있습니다.
 
    ![](../assets/rule_created.png)
 

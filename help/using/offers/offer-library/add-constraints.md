@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1601'
 ht-degree: 2%
 
 ---
@@ -40,10 +40,6 @@ ht-degree: 2%
 1. 구성 **[!UICONTROL Offer eligibility]**. [자세히 보기](#eligibility)
 
    ![](../assets/offer-eligibility.png)
-
-   >[!NOTE]
-   >
-   >세그먼트나 결정 규칙을 선택하면 예상 자격을 갖춘 프로필에 대한 정보가 표시됩니다. 클릭 **[!UICONTROL Refresh]** 를 눌러 데이터를 업데이트합니다.
 
 1. 을(를) 정의합니다 **[!UICONTROL Priority]** 두 개 이상의 오퍼에 대해 사용자가 자격이 있는 경우 다른 오퍼와 비교한 것입니다. 오퍼의 우선 순위가 높을수록 오퍼의 우선 순위가 더 높습니다.
 
@@ -99,6 +95,10 @@ ht-degree: 2%
    >[!CAUTION]
    >
    >이벤트 기반 오퍼는에서 현재 지원되지 않습니다 [!DNL Journey Optimizer]. 을 기반으로 의사 결정 규칙을 생성하는 경우 [이벤트](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;} 오퍼에서는 활용할 수 없습니다.
+
+세그먼트나 결정 규칙을 선택하면 예상 자격을 갖춘 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL Refresh]** 를 눌러 데이터를 업데이트합니다.
+
+![](../assets/offer-eligibility-segment-estimate.png)
 
 ### 세그먼트와 의사 결정 규칙 사용 {#segments-vs-decision-rules}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 5%
+source-wordcount: '827'
+ht-degree: 3%
 
 ---
 
@@ -128,19 +128,11 @@ ht-degree: 5%
 
 1. 선택한 카테고리 및 채널과 일치하는 모든 빈도 규칙이 이 메시지에 자동으로 적용됩니다.
 
-1. **[!UICONTROL Frequency rule]** 링크를 클릭하여 선택한 카테고리 및 채널에 적용할 빈도 규칙을 볼 수 있습니다.
+   >[!NOTE]
+   >
+   >메시지 <!--that do not have any selected category or messages -->선택한 카테고리가 있는 위치 **[!UICONTROL Transactional]** 은 빈도 규칙에 대해 평가되지 않습니다.
 
-   ![](assets/message-rules-msg-link.png)
-
-   일치하는 메시지 빈도 규칙을 표시하는 새 탭이 열립니다.
-
-선택한 카테고리 및 채널과 일치하는 모든 빈도 규칙이 이 메시지에 자동으로 적용됩니다.
-
->[!NOTE]
->
->메시지 <!--that do not have any selected category or messages -->선택한 카테고리가 있는 위치 **[!UICONTROL Transactional]** 은 빈도 규칙에 대해 평가되지 않습니다.
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 1. 에서 게재에서 제외된 프로필 수를 볼 수 있습니다 [글로벌 보고서](../reports/global-report.md), 및에서 [라이브 보고서](../reports/live-report.md): 게재에서 제외된 사용자에 대한 가능한 이유로 빈도 규칙이 나열됩니다.
 
