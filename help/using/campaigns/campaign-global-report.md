@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1540'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ Campaign 글로벌 보고서는 **[!UICONTROL Global view]** 버튼을 클릭합
 
 * **[!UICONTROL Actions failed in %]**: 작업이 전달된 총 고유 시간과 비교하여 여정에서 작업이 실패한 총 고유 횟수입니다.
 
-### 목표(#objectives-global)
+### 목표 {#objectives-global}
 
 >[!AVAILABILITY]
 >
@@ -59,7 +59,7 @@ Campaign 글로벌 보고서는 **[!UICONTROL Global view]** 버튼을 클릭합
 
 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 다음을 참조하십시오 [섹션](../reports/global-report.md#modify-dashboard).
 
-### 실험(#experimentation-global)
+### 실험 {#experimentation-global}
 
 >[!AVAILABILITY]
 >
