@@ -9,7 +9,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 3%
+ht-degree: 24%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 3%
 
 여정에 메시지를 추가하려면 아래 단계를 따르십시오.
 
-1. 여정 시작 [이벤트](general-events.md) 또는 [세그먼트 읽기](read-segment.md) 활동.
+1. [이벤트](general-events.md) 또는 [세그먼트 읽기](read-segment.md) 활동으로 여정을 시작하십시오.
 
-1. 에서 **작업** 팔레트의 섹션에서 **이메일**, **SMS** 또는 **푸시** 활동을 캔버스로 이동합니다.
+1. 팔레트의 **작업** 섹션에서 **이메일**, **SMS** 또는 **푸시** 활동을 캔버스로 드래그하여 놓습니다.
 
    ![](../messages/assets/add-a-message.png)
 

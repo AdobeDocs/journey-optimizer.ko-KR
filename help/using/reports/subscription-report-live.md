@@ -5,7 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -35,4 +36,3 @@ ht-degree: 0%
 ![](assets/subscription_report_4.png)
 
 다음 **구독 - 분류** 및 **가입 해지됨 - 분류** 그래프는 메시지, 랜딩 페이지 및 채널에 따라 지난 24시간 동안 구독하거나 구독을 취소한 총 사용자 수를 나타냅니다.
-

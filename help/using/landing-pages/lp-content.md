@@ -5,7 +5,8 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -122,4 +123,3 @@ ht-degree: 2%
 1. 를 확장합니다. **[!UICONTROL Form error]** 문제가 발생할 경우 표시되는 오류 메시지 표시를 조정하는 섹션을 추가했습니다. 해당 옵션을 선택하여 양식의 오류 텍스트를 미리 봅니다.
 
    ![](assets/lp_designer-form-error-preview.png)
-

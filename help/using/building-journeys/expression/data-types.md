@@ -133,7 +133,7 @@ JSON 형식: 문자열.
 
 toDateOnly 함수에 캡슐화할 수 있습니다.
 
-DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 알아보기](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 보기](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
 **리터럴 표현**
 
@@ -163,7 +163,7 @@ toDateTimeOnly 함수에 캡슐화할 수 있습니다.
 
 직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식입니다.
 
-DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **리터럴 표현**
 
@@ -192,7 +192,7 @@ toDateTime 함수에 캡슐화할 수 있습니다.
 
 직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식입니다.
 
-DateTimeFormatter ISO_OFFSET_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+DateTimeFormatter ISO_OFFSET_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
 epoch 값을 전달하는 정수를 전달할 수도 있습니다. [자세히 보기](https://www.epochconverter.com)
 
@@ -256,7 +256,7 @@ toDuration 함수에 캡슐화되어야 합니다.
 
 직렬화 형식: 표준 시간대 ID를 deserialize하려면 java 함수 java.time을 사용합니다.
 
-Duration.parse: 허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하며, 일 수는 정확히 24시간으로 간주됩니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse: 허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하며, 일 수는 정확히 24시간으로 간주됩니다. [자세히 보기](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **리터럴 표현**
 

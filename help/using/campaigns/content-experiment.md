@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
+source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 1%
@@ -135,4 +136,3 @@ ht-degree: 1%
 캠페인에서 **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** 탭에서는 각 변형의 수행 방식과 테스트 중에 가장 적합한 수행자가 있는지 여부에 대한 기본 정보를 자세히 설명합니다.
 
 이 보고서에 대한 자세한 내용은 [Campaign 글로벌 보고서](../campaigns/content-experiment.md#experimentation-report) 페이지.
-

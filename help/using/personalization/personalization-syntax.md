@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 10%
 
 ---
 
 # 개인화 구문 {#personalization-syntax}
 
-Personalization의 [!DNL Journey Optimizer] 은 Handlebars라는 템플릿 구문을 기반으로 합니다.
+의 개인화 [!DNL Journey Optimizer] 은 Handlebars라는 템플릿 구문을 기반으로 합니다.
 Handlebars 구문에 대한 전체 설명은 다음을 참조하십시오 [HandlebarsJS 설명서](https://handlebarsjs.com/).
 
 템플릿과 입력 개체를 사용하여 HTML 또는 기타 텍스트 형식을 생성합니다. Handlebars 템플릿은 포함된 Handlebars 표현식이 있는 일반 텍스트와 같습니다.
@@ -27,7 +27,7 @@ Handlebars 구문에 대한 전체 설명은 다음을 참조하십시오 [Handl
 여기에서
 
 * `profile` 는 네임스페이스입니다.
-* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target=&quot;_blank&quot;}.
+* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
 
 ## 구문 일반 규칙 {#general-rules}
 
@@ -121,7 +121,7 @@ Handlebars 도우미는 매개 변수 뒤에 올 수 있는 간단한 식별자�
 각 매개 변수는 Handlebars 표현식입니다. 이러한 도우미는 템플릿의 모든 컨텍스트에서 액세스할 수 있습니다.
 
 이러한 블록 도우미는 도우미 이름 앞에 있는 # 로 식별되며 같은 이름의 닫는 / 와 일치해야 합니다.
-블록은 블록이 열려 있는 표현식입니다({{# }}) 및 닫기({{/}}).
+블록은 블록 열기({{# }}) and closing ({{/}}).
 
 
 >[!NOTE]
@@ -149,7 +149,7 @@ Handlebars 도우미는 매개 변수 뒤에 올 수 있는 간단한 식별자�
 
 Journey Optimizer에서는 개인화 필드를 메시지에 추가하여 하나 또는 여러 개의 URL을 개인화할 수 있습니다. URL을 개인화하려면 아래 단계를 수행하십시오.
 
-1. 메시지 콘텐츠에 링크를 만듭니다. [자세히 알아보기](../design/message-tracking.md#insert-links)
+1. 메시지 콘텐츠에 링크를 만듭니다. [자세히 보기](../design/message-tracking.md#insert-links)
 1. 개인화 아이콘에서 속성을 선택합니다. 개인화 아이콘은 다음 유형의 링크에만 사용할 수 있습니다. **외부 링크**, **구독 취소 링크** 및 **옵트아웃**.
 
 ![](assets/perso-url.png)

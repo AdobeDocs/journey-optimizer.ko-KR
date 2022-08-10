@@ -1,17 +1,17 @@
 ---
 title: 인라인 작성으로 마이그레이션하는 단계
 description: 여정 인라인 작성으로 마이그레이션하는 단계
-source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
+exl-id: 8412a0bd-674c-4d6a-aa5b-443655d2943a
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-
 # 인라인 작성 마이그레이션 단계{#migration-steps}
 
-Adobe Journey Optimizer에서 컨텐츠를 작성하는 새 프로세스는 다음과 같습니다 [페이지](../rn/inline-messages.md). 여정 자동 전환이 수행됩니다. 몇 가지 단계로 여러분의 도움이 필요합니다.
+Adobe Journey Optimizer에서 컨텐츠를 작성하는 새 프로세스는 다음과 같습니다 [페이지](../rn/inline-messages.md). 여정 자동 전환이 수행됩니다. 몇 가지 단계에서 여러분의 도움이 필요합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344699)
 
@@ -190,4 +190,3 @@ Click the **Check status** button in the top banner and check that all journeys 
 ## 세 번째 및 마지막 반복 전(9월 5일){#migration-step-4}
 
 8월 1일과 9월 5일 사이에 모든 항목이 마이그레이션되었으며 아직 메시지를 사용하는 여정이 남아 있지 않은지 확인해야 합니다. 그렇지 않으면 9월 5일에 더 이상 사용되지 않습니다.
-

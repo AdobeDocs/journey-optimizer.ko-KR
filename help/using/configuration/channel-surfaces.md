@@ -1,5 +1,5 @@
 ---
-title: 채널 서피스 설정
+title: 채널 표면 설정
 description: 채널 표면을 구성하고 모니터링하는 방법을 알아봅니다
 feature: Application Settings
 topic: Administration
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ---
 
-# 채널 서피스 설정 {#set-up-channel-surfaces}
+# 채널 표면 설정 {#set-up-channel-surfaces}
 
 사용 [!DNL Journey Optimizer]를 설정하고 메시지에 필요한 모든 기술 매개 변수를 정의하는 채널 서피스(즉, 메시지 사전 설정)를 설정할 수 있습니다. 이메일 유형, 보낸 사람 이메일 및 이름, 모바일 앱 등.
 

@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 
 >[!CAUTION]
 >
->7월 25일, Adobe Journey Optimizer은 [새로운 기능](using/rn/inline-messages.md) Journey Optimizer 채널에 대한 컨텐츠를 작성하는 방법(이메일, 푸시, SMS)이 개선되었습니다. Journey Optimizer의 전문의로서 [만들기 및 작성](using/messages/get-started-content.md) 여정에서 직접 메시지를 전송할 수 있습니다. 여정 자동 전환이 수행됩니다. 몇 가지 단계로 여러분의 도움이 필요합니다. 추가 정보 [필수 단계](using/rn/inline-messages-steps.md).
+>7월 25일, Adobe Journey Optimizer은 Journey Optimizer 채널에 대한 콘텐츠를 작성하는 방법(이메일, 푸시, SMS)을 개선하는 [새로운 기능](using/rn/inline-messages.md)을 출시합니다. Journey Optimizer의 전문가로서 이제 여정에서 바로 메시지를 [만들고 작성](using/messages/get-started-content.md)할 수 있습니다. 여정 자동 전환이 수행됩니다. 몇 가지 단계에서 여러분의 도움이 필요합니다. [필수 단계](using/rn/inline-messages-steps.md) 자세히 알아보기.
 
 <table style="table-layout:fixed">
 <tr>
@@ -56,7 +56,7 @@ ht-degree: 80%
     <div>
       <a href="using/messages/get-started-content.md">메시지 보내기</a>
     </div>
-    <p>고객 여정에 푸시, SMS 및 이메일 메시지를 추가하는 방법을 알아봅니다
+    <p>고객 여정에 푸시, SMS 및 이메일 메시지를 추가하는 방법 알아보기
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">여정 처음 만들어 보기</a>

@@ -1,5 +1,5 @@
 ---
-title: 오퍼 배달 API 시작
+title: 오퍼 게재 API 시작
 description: 개인화된 오퍼를 전달하는 데 사용할 수 있는 API에 대해 자세히 알아보십시오.
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# 오퍼 배달 API 시작 {#about-decisioning-apis}
+# 오퍼 게재 API 시작 {#about-decisioning-apis}
 
 다음 중 하나를 사용하여 오퍼를 제공할 수 있습니다 **의사결정** 또는 **Edge Decisioning** API. 또한 **Batch Decisioning** API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 오퍼를 전달할 수 있습니다. 세그먼트의 각 프로필에 대한 오퍼 콘텐츠는 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
 

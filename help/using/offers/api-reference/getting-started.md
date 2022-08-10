@@ -23,8 +23,8 @@ ht-degree: 5%
 
 이 안내서에서는 Adobe Experience Platform의 다음 구성 요소를 이해하고 있어야 합니다.
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target=&quot;_blank&quot;}: 표준화된 프레임워크 [!DNL Experience Platform] 고객 경험 데이터를 구성합니다.
-   * [스키마 작성 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR){target=&quot;_blank&quot;}: XDM 스키마의 기본 구성 요소에 대해 알아봅니다.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}: 표준화된 프레임워크 [!DNL Experience Platform] 고객 경험 데이터를 구성합니다.
+   * [스키마 작성 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR-KR){target=&quot;_blank&quot;}: XDM 스키마의 기본 구성 요소에 대해 알아봅니다.
 * [의사 결정 관리](../../../using/offers/get-started/starting-offer-decisioning.md): 일반적으로 Experience Decisioning에 사용되는 개념과 구성 요소, 특히 Offer decisioning에 대해 설명합니다. 고객 경험 중에 가장 적합한 옵션을 선택하는 데 사용되는 전략을 보여줍니다.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: PQL은 XDM 인스턴스에서 표현식을 작성할 수 있는 강력한 언어입니다. PQL은 의사 결정 규칙을 정의하는 데 사용됩니다.
 

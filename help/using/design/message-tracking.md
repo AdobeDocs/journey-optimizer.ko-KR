@@ -9,7 +9,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../messages/consent.md#opt-out-management): 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [채널 표면](../configuration/channel-surfaces.md#email-type) (즉, 메시지 사전 설정) 수준 및 [메시지 만들기](../messages/get-started-content.md#create-new-message).
+>마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../messages/consent.md#opt-out-management): 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)는 [채널 표면](../configuration/channel-surfaces.md#email-type)(예: 메시지 사전 설정) 수준에서 [메시지를 만들 때](../messages/get-started-content.md#create-new-message) 정의됩니다.
 
 ## 미러 페이지에 대한 링크 {#mirror-page}
 

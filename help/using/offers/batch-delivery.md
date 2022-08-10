@@ -1,15 +1,15 @@
 ---
-title: 일괄 결정
+title: 일괄 의사 결정
 description: 주어진 Adobe Experience Platform 세그먼트의 모든 프로필에 오퍼 결정을 제공하는 방법을 알아봅니다.
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
+source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-
-# 일괄 결정 {#deliver}
+# 일괄 의사 결정 {#deliver}
 
 ## 배치 의사 결정 시작 {#start}
 

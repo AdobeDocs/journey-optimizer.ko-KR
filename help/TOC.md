@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 94%
    + 표현식 작성 {#build-expressions}
       + [개인화 구문](using/personalization/personalization-syntax.md)
       + 표현식 편집기 작업 {#expression-editor}
-         + [표현식 편집기](using/personalization/personalization-build-expressions.md)
+         + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
          + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
          + [저장된 표현식으로 작업하기](using/personalization/personalization-library.md)
          + [개인화 유효성 검사](using/personalization/personalization-validation.md)
@@ -297,7 +297,7 @@ ht-degree: 94%
       + [의사 결정 만들기](using/offers/offer-activities/create-offer-activities.md)
       + [의사 결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
       + [시뮬레이션 만들기](using/offers/offer-activities/simulation.md)
-   + [일괄 결정](using/offers/batch-delivery.md)
+   + [일괄 의사 결정](using/offers/batch-delivery.md)
    + 의사 결정 관리 보고서 만들기 {#create-reports}
       + [의사 결정 관리 이벤트 시작](using/offers/reports/get-started-events.md)
       + [의사 결정 관리 이벤트 주요 정보](using/offers/reports/key-information.md)
@@ -355,7 +355,7 @@ ht-degree: 94%
          + [의사 결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
          + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
       + API를 사용하여 오퍼 게재 {#offer-delivery-api}
-         + [오퍼 배달 API 시작](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+         + [오퍼 게재 API 시작](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
@@ -385,8 +385,8 @@ ht-degree: 94%
             + [다시 시도](using/configuration/retries.md)
             + [허용 목록](using/configuration/allow-list.md)
       + [SMS 채널 구성](using/configuration/sms-configuration.md)
-      + 채널 서피스 설정 {#set-up-channels}
-         + [채널 서피스 생성](using/configuration/channel-surfaces.md)
+      + 채널 표면 설정 {#set-up-channels}
+         + [채널 표면 생성](using/configuration/channel-surfaces.md)
          + [이메일 설정 구성](using/configuration/email-settings.md)
          + [숨은 참조 이메일 사용](using/configuration/bcc-email.md)
       + [실행 주소 관리](using/configuration/primary-email-addresses.md)

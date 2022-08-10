@@ -9,7 +9,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 * 를 사용하십시오 **세그먼트 자격** 이벤트 활동을 통해 개인이 Adobe Experience Platform 세그먼트 출입구 및 종료에 따라 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다. 예를 들어 모든 신규 실버 고객이 여정을 입력하고 메시지를 보내게 할 수 있습니다. 이 활동을 사용하는 방법에 대한 자세한 내용은 [이 섹션](../building-journeys/segment-qualification-events.md).
 
-* 빌드 **복잡한 조건** ( 단순 또는 고급 표현식 편집기를 사용하여 여정에서)을 참조하십시오. 추가 정보 [이 섹션](../building-journeys/condition-activity.md#using-a-segment).
+* 빌드 **복잡한 조건** ( 단순 또는 고급 표현식 편집기를 사용하여 여정에서)을 참조하십시오. 자세한 내용은 [이 섹션](../building-journeys/condition-activity.md#using-a-segment)을 참조하십시오.
 
 ## Adobe Journey Optimizer의 평가 방법 {#evaluation-method-in-journey-optimizer}
 

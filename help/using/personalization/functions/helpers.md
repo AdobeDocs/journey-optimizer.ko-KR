@@ -8,7 +8,7 @@ level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
@@ -144,7 +144,8 @@ Some edu specific content Content
 ## 각{#each}
 
 다음 `each` 도우미 를 사용하여 배열을 반복합니다.
-도우미의 구문은 다음과 같습니다 ```{{#each ArrayName}}``` YourContent {{/each}} 키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다 **이** 블록 안쪽에서요 {{@index}}을(를) 사용하여 배열 요소의 인덱스를 렌더링할 수 있습니다.
+도우미의 구문은 다음과 같습니다 ```{{#each ArrayName}}``` 사용자 컨텐츠 {{/each}}
+키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다 **이** 블록 안쪽에서요 배열 요소의 인덱스는 {{@index}}.
 
 **구문**
 

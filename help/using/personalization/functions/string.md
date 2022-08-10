@@ -401,7 +401,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= leftTrim(string) %}
 ```
 
-## Length {#length}
+## 길이 {#length}
 
 다음 `length` 함수는 문자열 또는 표현식의 문자 수를 가져오는 데 사용됩니다.
 

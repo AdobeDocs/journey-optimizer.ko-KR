@@ -238,7 +238,7 @@ ht-degree: 3%
         <td><a href="string.md#leftTrim">왼쪽 트림</a></td><td>이 함수는 문자열 시작 부분에서 공백을 제거합니다</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">Length</a></td><td>이 함수는 문자열 또는 표현식의 문자 수를 가져오는 데 사용됩니다</td>
+        <td><a href="string.md#length">길이</a></td><td>이 함수는 문자열 또는 표현식의 문자 수를 가져오는 데 사용됩니다</td>
     </tr>
     <tr>
         <td><a href="string.md#like">좋아요</a></td><td>이 함수는 문자열이 지정된 패턴과 일치하는지 확인하는 데 사용됩니다</td>

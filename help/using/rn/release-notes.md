@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 24%
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 24%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer은 여정에서 메시지를 작성할 수 있는 새로운 흐름을 제공합니다. 인라인 메시징을 사용하면 사용자에게 상당한 시간을 절약하고 Journey Optimizer에서 이메일, 푸시 알림 또는 SMS를 만들고 전달하는 워크플로우 프로세스를 간소화할 수 있습니다. 메시지를 별도의 단계로 제거하고 대신 여정 캔버스에서 작업의 일부로 인라인 편집할 수 있도록 함으로써, 사용자는 더 적은 수의 단추를 클릭하고 더 적은 화면으로 이동하여 컨텐츠를 디자인하고 편집해야 합니다.</p>
+<p>Journey Optimizer는 여정에서 메시지를 작성할 수 있는 새로운 흐름을 제공합니다. 인라인 메시징을 사용하면 사용자가 상당한 시간을 절약하고 Journey Optimizer에서 이메일, 푸시 알림 또는 SMS를 만들고 전달하는 워크플로우 프로세스를 간소화할 수 있습니다. 메시지를 별도의 단계로 제거하고 대신 여정 캔버스에서 작업의 일부로 편집할 수 있는 인라인으로 만들어 사용자는 버튼을 더 적게 클릭하고 화면을 더 적게 탐색하여 콘텐츠를 디자인하고 편집해야 합니다.</p>
 <img src="assets/do-not-localize/inline.gif"/>
 <p>자세한 내용은 <a href="../messages/get-started-content.md">세부 설명서</a>를 참조하세요.</p>
 </td>
@@ -59,13 +59,13 @@ ht-degree: 24%
 <table>
 <thead>
 <tr>
-<th><strong>일괄 결정 작업</strong><br/></th>
+<th><strong>일괄 의사 결정 작업</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 사용자 인터페이스에서 배치 의사 결정 작업을 실행할 수 있으므로 배치 api 작업을 실행하는 개발자가 필요하지 않으며 마케팅 관련 시간을 줄일 수 있습니다. 이 새 인터페이스를 사용하면 작업을 만들고 현재/과거 작업을 관리할 수 있습니다.</p>
+<p>이제 사용자 인터페이스에서 일괄 의사 결정 작업을 실행할 수 있으므로 일괄 API 작업을 실행하는 개발자가 필요하지 않으며 마케팅 관련 시간을 줄일 수 있습니다. 이 새 인터페이스를 사용하면 작업을 만들고 현재/과거 작업을 관리할 수 있습니다.</p>
 <img src="assets/do-not-localize/batch.gif"/>
 <p>자세한 내용은 <a href="../offers/batch-delivery.md">세부 설명서를 참조하세요.</p>
 </td>
@@ -99,15 +99,15 @@ ht-degree: 24%
 
 **메시지**
 
-* 이제 메시지 사전 설정이 **채널 서피스**. [자세히 알아보기](../configuration/channel-surfaces.md)
+* 이제 메시지 사전 설정은 **채널 표면**&#x200B;입니다. [자세히 알아보기](../configuration/channel-surfaces.md)
 
 **관리**
 
-* **PTR 레코드 편집** - 이제 PTR 레코드를 업데이트할 때 처리 시간은 최대 3시간만 소요됩니다. [자세히 보기](../configuration/ptr-records.md#processing)
+* **PTR 기록 편집** - 이제 PTR 기록을 업데이트할 때 처리 시간은 최대 3시간만 소요됩니다. [자세히 보기](../configuration/ptr-records.md#processing)
 
 * **허용 목록 UI** - 이제 Journey Optimizer 사용자 인터페이스를 사용하여 허용 목록에 새 이메일 주소 또는 도메인을 추가할 수 있습니다. [자세히 보기](../configuration/allow-list.md)
 
-* **허용 목록 논리 업데이트** - 이제 목록이 비어 있더라도 기능이 활성화되는 즉시 허용 목록 논리가 적용됩니다. [자세히 보기](../configuration/allow-list.md#logic)
+* **허용 목록 로직 업데이트** - 이제 목록이 비어 있더라도 기능이 활성화되는 즉시 허용 목록 로직이 적용됩니다. [자세히 보기](../configuration/allow-list.md#logic)
 
 * **URL 추적 매개 변수** - 이제 표현식 편집기를 사용하여 전자 메일 표면(예: 사전 설정)에서 URL 추적 매개 변수를 구성할 수 있습니다. [자세히 알아보기](../configuration/email-settings.md#url-tracking)
 

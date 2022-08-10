@@ -5,7 +5,7 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >abstract="2022년 7월 25일부터 메시지 메뉴가 사라지고 여정에서 바로 메시지가 작성됩니다. 여정에서 기존 메시지를 다시 사용하려면 템플릿을 템플릿으로 저장해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="메시지를 템플릿으로 저장"
 
-Adobe Journey Optimizer은 Journey Optimizer 채널(이메일, 푸시, SMS)용 컨텐츠를 작성하는 방법을 개선하는 새로운 기능을 출시했습니다. 이제 Journey Optimizer의 경우 여정에서 직접 메시지를 만들고 작성할 수 있습니다.
+Adobe Journey Optimizer은 Journey Optimizer 채널(이메일, 푸시, SMS)용 컨텐츠를 작성하는 방법을 개선하는 새로운 기능을 출시했습니다. Journey Optimizer의 전문가로서 이제 여정에서 바로 메시지를 만들고 작성할 수 있습니다.
 
 이 기능을 사용하려면 메시지를 사용하는 기존 여정을 마이그레이션해야 합니다. 이 페이지에서는 이 변경에 필요한 정보와 필요한 단계를 확인할 수 있습니다.
 
@@ -65,7 +65,7 @@ Here are the main changes in the interface:
 
    ![](assets/inline-migration-timeline.png)
 
-* **필수 작업**: 여정 자동 전환이 수행됩니다. 몇 가지 단계로 여러분의 도움이 필요합니다. 이 단원에서 필요한 단계에 대해 자세히 알아보십시오 [페이지](../rn/inline-messages-steps.md).
+* **필수 작업**: 여정 자동 전환이 수행됩니다. 몇 가지 단계에서 여러분의 도움이 필요합니다. 이 단원에서 필요한 단계에 대해 자세히 알아보십시오 [페이지](../rn/inline-messages-steps.md).
 
 * **사용 중단**: 9월 6일 이후에는 기존 메시지를 계속 사용하는 모든 여정이 중지되며 나중에 삭제됩니다.
 
@@ -108,7 +108,7 @@ GA(7월 25일)에 이 새 사용자 흐름은 모든 새 여정에 적용됩니�
 
 ## 마이그레이션 타임라인{#iterations}
 
-를 사용하여 기존 여정을 전환하려면 마이그레이션이 필요합니다. **메시지** 인라인 작성 작업을 사용하여 여정에 추가할 수 있습니다. 여정 자동 전환이 수행됩니다. 몇 가지 단계로 여러분의 도움이 필요합니다.
+를 사용하여 기존 여정을 전환하려면 마이그레이션이 필요합니다. **메시지** 인라인 작성 작업을 사용하여 여정에 추가할 수 있습니다. 여정 자동 전환이 수행됩니다. 몇 가지 단계에서 여러분의 도움이 필요합니다.
 
 마이그레이션은 몇 번의 반복을 통해 야간에 각 지역에 대해 발생합니다. 다음은 마이그레이션 타임라인입니다.
 

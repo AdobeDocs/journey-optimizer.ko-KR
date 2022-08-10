@@ -32,7 +32,7 @@ ht-degree: 8%
 
 ![](assets/library-list.png)
 
-표현식을 편집기에 삽입하려면 + 를 클릭합니다. 그런 다음 개인화 컨텐츠를 평소대로 사용자 지정하고 유효성을 검사할 수 있습니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
+표현식을 편집기에 삽입하려면 + 를 클릭합니다. 그런 다음 개인화 컨텐츠를 평소대로 사용자 지정하고 유효성을 검사할 수 있습니다. [자세히 보기](../personalization/personalization-build-expressions.md)
 
 ![](assets/library-add.png)
 

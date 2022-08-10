@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '1772'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 91%
 
 ## 2022년 7월 {#july-2022}
 
-* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2022년 7월 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 다음 **채널 서피스 설정** 섹션을 보다 명확하게 수정하고 SMS 채널을 구성하는 방법을 설명하는 페이지 링크를 업데이트했습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
-* 여정 속성에서 **프로필 시간대** 이제 옵션이 기본적으로 비활성화됩니다. [자세히 보기](../building-journeys/timezone-management.md#timezone-from-profiles)
+* [!DNL Journey Optimizer] 2022년 7월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* **채널 표면 설정** 섹션을 명료하게 보이도록 업데이트하고 SMS 채널을 구성하는 방법을 설명하는 페이지 링크를 추가했습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
+* 여정 속성에서 **프로필 시간대** 옵션이 이제 기본적으로 비활성화됩니다. [자세히 보기](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-* 에서 **대기** 활동, **고정 날짜** 옵션을 더 이상 사용할 수 없습니다. [자세히 보기](../building-journeys/wait-activity.md)
-* 에 대한 추가 정보를 추가했습니다. **증분 읽기** 옵션 **세그먼트 읽기** 활동. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* 에 권장 사항이 추가되었습니다 **프로필 상한** 조건 유형. [자세히 보기](../building-journeys/condition-activity.md#profile_cap)
+* **대기** 활동에서, **고정 날짜** 옵션을 더 이상 사용할 수 없습니다. [자세히 보기](../building-journeys/wait-activity.md)
+* **세그먼트 읽기** 활동의 **증분 읽기** 옵션에 대한 정보를 추가했습니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* **프로필 상한** 조건 유형에 권장 사항이 추가되었습니다. [자세히 보기](../building-journeys/condition-activity.md#profile_cap)
 * 비즈니스 이벤트에 대한 제한을 추가했습니다. [자세히 보기](../start/guardrails.md#events-g)
 
 ## 2022년 6월 {#june-2022}
@@ -43,7 +43,7 @@ ht-degree: 91%
 * 제외 목록 페이지가 32-126 사이의 모든 ASCII 문자가 제외 필드에 허용된다는 사실 등 일부 정보를 명확하게 하도록 업데이트되었습니다. [자세히 보기](../configuration/manage-suppression-list.md)
 * 결정 관리에 대한 보호 및 정적 제한에 대한 링크가 추가되었습니다. [자세히 보기](../start/guardrails.md)
 * 이제 모든 고객이 전송 시간 최적화를 사용할 수 있습니다. 베타 표시를 제거했습니다. [자세히 보기](../messages/send-time-optimization.md)
-* Batch Decisioning API가 개인화된 오퍼 전달을 위해 사용 가능한 API 목록에 추가되었습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+* 일괄 의사 결정 API가 개인화된 오퍼 게재를 위해 사용 가능한 API 목록에 추가되었습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022년 5월 {#may-2022}
 
