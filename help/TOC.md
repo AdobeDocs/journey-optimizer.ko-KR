@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+source-git-commit: 7c801e7a63d3e5c899549fa0c0dd5d48f9fbc245
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1129'
 ht-degree: 98%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 98%
    + 보고서 {#reports}
       + [캠페인 라이브 보고서](using/campaigns/campaign-live-report.md)
       + [캠페인 글로벌 보고서](using/campaigns/campaign-global-report.md)
+      + [보고 구성](using/campaigns/reporting-configuration.md)
 + 메시지 {#messages}
    + [메시지 시작](using/messages/get-started-content.md)
    + [이메일 만들기](using/messages/create-email.md)
