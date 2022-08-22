@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
+source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 2%
@@ -51,7 +51,7 @@ Campaign 글로벌 보고서는 **[!UICONTROL Global view]** 버튼을 클릭합
 
 다음 **[!UICONTROL Objectives]** 캠페인 보고서의 탭을 사용하면 하나의 특정 지표를 타깃팅하여 게재 보고서를 더 잘 세밀하게 조정할 수 있습니다.
 
-다음 **[!UICONTROL Objectives]** 나열됨 **[!UICONTROL Datasets]** 추가 정보를 검색할 수 있도록 시스템에 대한 연결을 정의합니다. 기본 제공 목록 **[!UICONTROL Objectives]** 을(를) 사용할 수 있지만, 새 항목을 추가하여 자신의 ID를 추가할 수 있습니다 **[!UICONTROL Dataset]**. 자세한 절차는 이 설명서를 참조하십시오.
+다음 **[!UICONTROL Objectives]** 나열됨 **[!UICONTROL Datasets]** 추가 정보를 검색할 수 있도록 시스템에 대한 연결을 정의합니다. 기본 제공 목록 **[!UICONTROL Objectives]** 을(를) 사용할 수 있지만, 새 항목을 추가하여 자신의 ID를 추가할 수 있습니다 **[!UICONTROL Dataset]**. 자세한 절차는 다음을 참조하십시오 [섹션](reporting-configuration.md).
 
 타깃팅할 목표를 선택한 후 두 목표를 설정합니다 **[!UICONTROL Performance overview]** 및 **[!UICONTROL Campaign objective]** 위젯은 게재 성능에 대한 자세한 요약을 제공합니다.
 
