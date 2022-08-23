@@ -4,10 +4,10 @@ description: Journey Optimizer을 사용하여 SMS 메시지를 보내도록 환
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 8%
+source-wordcount: '481'
+ht-degree: 7%
 
 ---
 
@@ -22,6 +22,11 @@ SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 
 >SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
 ## 새 API 자격 증명 만들기 {#create-api}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="SMS 공급업체 구성"
+>abstract="공급업체 를 선택하고 SMS API 자격 증명을 입력합니다."
 
 Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단계를 수행합니다.
 
@@ -45,6 +50,12 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
 API 자격 증명을 만들고 구성한 후 이제 SMS 메시지에 대한 채널 표면(즉, 메시지 사전 설정)을 만들어야 합니다.
 
 ## SMS 메시지의 채널 표면 만들기 {#message-preset-sms}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_sms_type"
+>title="SMS 카테고리를 정의합니다"
+>abstract="이 서피스를 사용할 때 전송할 SMS 메시지 유형을 선택합니다. 사용자 동의가 필요한 프로모션 SMS 메시지 마케팅 또는 비상업적 SMS 메시지를 위한 트랜잭션용으로 특정 컨텍스트에서 가입 해지된 프로필에도 보낼 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="마케팅 SMS 메시지의 옵트아웃"
 
 SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 만들어야 합니다 **[!DNL Journey Optimizer]**.
 
