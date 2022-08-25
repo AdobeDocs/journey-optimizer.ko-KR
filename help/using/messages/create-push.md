@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1595'
 ht-degree: 9%
 
 ---
@@ -25,10 +25,15 @@ ht-degree: 9%
 
 [!DNL Journey Optimizer] 은 푸시 알림을 지원하며 업계 선도적인 처리량 비율로 관련 알림을 전송하는 데 도움이 됩니다. 푸시 알림에는 Adobe Experience Cloud을 통해 브랜드의 데이터 통찰력을 활용하기 위해 개인화 및 여정 기반 컨텍스트가 포함될 수 있습니다.
 
-일단 [푸시 추가](get-started-content.md) 활동을 여정에 설정하고 정의된 기본 설정을 사용하려면 **[!UICONTROL Actions: Push]** 푸시 알림용 컨텐츠를 만들 오른쪽 창.
+푸시 알림을 만들 수 있습니다.
 
-![](assets/add-a-push.png)
+* 다음 **여정**: 여정에서 푸시 활동을 추가하고 기본 설정을 정의하면, **[!UICONTROL Actions: Push]** 오른쪽 창에서 푸시 알림에 대한 컨텐츠를 작성합니다.
 
+   여정 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journey-gs.md).
+
+* 다음 **캠페인**: 캠페인을 만든 후 푸시 알림을 작업으로 선택하고 기본 설정을 정의합니다.
+
+   캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../campaigns/create-campaign.md#configure).
 
 전용 탭을 사용하여 의 푸시 알림 설정을 정의합니다 **iOS** 및 **Android** 운영 체제.
 

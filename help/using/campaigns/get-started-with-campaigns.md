@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 8%
+source-wordcount: '307'
+ht-degree: 3%
 
 ---
 
@@ -24,19 +22,18 @@ ht-degree: 8%
 
 ## 캠페인 기본 정보 {#about}
 
+>[!IMPORTANT]
+>
+>이 기능은 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 뷰어와 같은 Campaign 관련 제품 프로필에 액세스할 수 있는 사용자만 사용할 수 있습니다. 제품 프로필을 할당하는 방법에 대한 자세한 내용은 [이 페이지](../administration/permissions.md).
+
 캠페인을 사용하면 여러 채널을 사용하여 특정 세그먼트에 일회성 콘텐츠를 제공할 수 있습니다. 작업이 순서대로 실행되도록 디자인된 여정과 달리, 캠페인은 즉시 또는 지정된 일정에 따라 작업을 동시에 실행합니다.
 
-두 가지 유형의 캠페인을 만들 수 있습니다.
+이를 통해 홍보 오퍼, 참여 캠페인, 공지, 법적 고지 사항 또는 정책 업데이트와 같은 마케팅 사용 사례를 위한 간단한 임시 배치 커뮤니케이션을 전송할 수 있습니다.
 
-* **예약된 캠페인** 홍보 오퍼, 참여 캠페인, 공지, 법적 고지 사항 또는 정책 업데이트와 같은 마케팅 사용 사례에 대해 간단한 임시 배치 커뮤니케이션을 허용합니다.
-* **API 트리거 캠페인** 페이로드의 프로필 속성 및 컨텍스트 데이터를 사용하여 개인화를 수행해야 하는 경우 REST API(암호 재설정, 카드 중단 등)를 사용하여 간단한 트랜잭션/운영 메시지를 사용할 수 있습니다.
+<!--You can create two types of campaigns:
 
-캠페인 사용 방법 알아보기:
-* [캠페인 만들기](create-campaign.md)
-* [API로 트리거된 캠페인 만들기](api-triggered-campaigns.md)
-* [캠페인 수정 또는 중지](modify-stop-campaign.md)
-* [캠페인 라이브 보고서](campaign-live-report.md)
-* [캠페인 글로벌 보고서](campaign-global-report.md)
+* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## 캠페인 액세스 {#access}
 
@@ -55,7 +52,7 @@ ht-degree: 8%
 * **[!UICONTROL Live]**: 캠페인이 활성화되었습니다.
 * **[!UICONTROL Scheduled]**: 캠페인이 특정 시작 날짜에 활성화되도록 구성되었습니다.
 * **[!UICONTROL Stopped]**: 캠페인이 수동으로 중지되었습니다. 더 이상 활성화하거나 재사용할 수 없습니다( [캠페인 중지](modify-stop-campaign.md#stop))
-* **[!UICONTROL Completed]**: 캠페인이 완료되었습니다.
+* **[!UICONTROL Completed]**: 캠페인이 완료되었습니다. 이 상태는 캠페인이 활성화되면 3일 후 자동으로 지정되거나, 반복 실행이 있는 경우 캠페인의 종료 날짜에 할당됩니다.
 * **[!UICONTROL Archived]**: 캠페인이 보관되었습니다.
 
 >[!NOTE]

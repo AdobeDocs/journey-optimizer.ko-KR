@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 98%
+source-wordcount: '1124'
+ht-degree: 97%
 
 ---
 
@@ -37,16 +37,13 @@ ht-degree: 98%
 + 캠페인 {#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)
-   + [캠페인 수정 또는 중지](using/campaigns/modify-stop-campaign.md)
+   + [라이브 캠페인 관리](using/campaigns/modify-stop-campaign.md)
    + 컨텐츠 실험 {#content-experiment}
       + [컨텐츠 실험 시작](using/campaigns/get-started-experiment.md)
       + [컨텐츠 실험 만들기](using/campaigns/content-experiment.md)
       + [통계 계산 이해](using/campaigns/experiment-calculations.md)
-   + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
-   + 보고서 {#reports}
-      + [캠페인 라이브 보고서](using/campaigns/campaign-live-report.md)
-      + [캠페인 글로벌 보고서](using/campaigns/campaign-global-report.md)
       + [보고 구성](using/campaigns/reporting-configuration.md)
+   + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
 + 메시지 {#messages}
    + [메시지 시작](using/messages/get-started-content.md)
    + [이메일 만들기](using/messages/create-email.md)
@@ -244,11 +241,13 @@ ht-degree: 98%
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 대시보드 액세스](using/reports/live-report.md)
       + [여정 라이브 보고서](using/reports/journey-live-report.md)
+      + [Campaign Live 보고서](using/reports/campaign-live-report.md)
       + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
       + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
    + 글로벌 보고서 {#global-report}
       + [글로벌 보고서 대시보드 액세스](using/reports/global-report.md)
       + [여정 글로벌 보고서](using/reports/journey-global-report.md)
+      + [Campaign 글로벌 보고서](using/reports/campaign-global-report.md)
       + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)
       + [구독 목록 글로벌 보고서](using/reports/subscription-report-global.md)
    + 여정 보고서 {#reports}

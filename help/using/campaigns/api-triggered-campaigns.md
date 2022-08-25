@@ -4,10 +4,10 @@ description: 을 사용하여 캠페인을 트리거하는 방법 알아보기 [
 hide: true
 hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 4%
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 4%
 >[!NOTE]
 >
 >대화형 메시지 실행 API는 현재 베타 버전이며 예고 없이 자주 업데이트될 수 있습니다.
-
 
 사용 [!DNL Journey Optimizer]를 사용하여 사용자 트리거를 기반으로 캠페인을 만든 다음 외부 시스템에서 캠페인을 호출할 수 있습니다. [대화형 메시지 실행 REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 이를 통해 암호 재설정, OTP 토큰 등과 같은 다양한 운영 및 트랜잭션 메시지 요구 사항을 처리할 수 있습니다.
 
@@ -92,11 +91,3 @@ API로 트리거된 캠페인을 실행하려면 먼저 해당 ID를 검색하�
 >[!NOTE]
 >
 >경우에 따라 시스템에 없는 프로필에 트랜잭션 메시지를 보내야 할 수 있습니다. 예를 들어 알 수 없는 사용자가 웹 사이트에 로그인하려고 하는 경우. 이 경우 해당 프로필은 의 Adobe Experience Platform에 자동으로 생성됩니다. **AJO 대화형 메시징 프로필 데이터 세트** 데이터 세트.
-
-## 추가 리소스
-
-* [캠페인 시작](get-started-with-campaigns.md)
-* [캠페인 만들기](create-campaign.md)
-* [캠페인 수정 또는 중지](modify-stop-campaign.md)
-* [캠페인 라이브 보고서](campaign-live-report.md)
-* [캠페인 글로벌 보고서](campaign-global-report.md)

@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '878'
+ht-degree: 3%
 
 ---
 
@@ -129,10 +129,52 @@ ht-degree: 1%
 
    ![](assets/content_experiment_14.png)
 
-## 실험 보고서 {#experimentation-report}
+실험 및 캠페인을 구성한 후 캠페인 보고서를 통해 게재의 성공을 따를 수 있습니다.
+
+## 목표 보고서 {#objectives-global}
+
+>[!AVAILABILITY]
+>
+>컨텐츠 실험 기능은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+
+![](assets/performance_report.gif)
+
+다음 **[!UICONTROL Objectives]** 캠페인 보고서의 탭을 사용하면 하나의 특정 지표를 타깃팅하여 게재 보고서를 더 잘 세밀하게 조정할 수 있습니다.
+
+다음 **[!UICONTROL Objectives]** 나열됨 **[!UICONTROL Datasets]** 추가 정보를 검색할 수 있도록 시스템에 대한 연결을 정의합니다. 기본 제공 목록 **[!UICONTROL Objectives]** 을(를) 사용할 수 있지만, 새 항목을 추가하여 자신의 ID를 추가할 수 있습니다 **[!UICONTROL Dataset]**. 자세한 절차는 다음을 참조하십시오 [섹션](reporting-configuration.md).
+
+타깃팅할 목표를 선택한 후 두 목표를 설정합니다 **[!UICONTROL Performance overview]** 및 **[!UICONTROL Campaign objective]** 위젯은 게재 성능에 대한 자세한 요약을 제공합니다.
+
+사용 **[!UICONTROL Campaign objective]** 위젯을 사용하면 주요 목표를 다른 지표와 비교하도록 선택할 수도 있습니다.
+
+필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 다음을 참조하십시오 [섹션](../reports/global-report.md#modify-dashboard).
+
+## 실험 보고서 {#experimentation-global}
+
+>[!AVAILABILITY]
+>
+>컨텐츠 실험 기능은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
 ![](assets/experimentation_report_3.png)
 
-캠페인에서 **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** 탭에서는 각 변형의 수행 방식과 테스트 중에 가장 적합한 수행자가 있는지 여부에 대한 기본 정보를 자세히 설명합니다.
+캠페인에서 **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** 탭에서는 각 변형의 수행 방식과 가장 적합한 수행자가 있는 경우의 기본 정보에 대해 자세히 설명합니다.
 
-이 보고서에 대한 자세한 내용은 [Campaign 글로벌 보고서](../campaigns/content-experiment.md#experimentation-report) 페이지.
+가장 뛰어난 수행자를 정의하는 데 시간이 걸릴 수 있으며 이 아이콘은 이 아이콘으로 표시됩니다 ![](assets/experimentation_report_1.png).
+
+다음 **[!UICONTROL Experiment result]** 위젯은 각 변형의 성능을 자세히 설명합니다. 기준 요소 중 하나를 선택한 다음 **[!UICONTROL Baseline]** 드롭다운. 가장 좋은 치료는 별 아이콘으로 표시됩니다.
+
+이 표에는 다음 지표가 나와 있습니다.
+
+* **[!UICONTROL Profiles]**: 이 처리를 타겟팅한 프로필 수입니다.
+
+* **[!UICONTROL Unique outbound clicks]**: 아웃바운드 채널 간 총 클릭 수.
+
+* **[!UICONTROL Count per profile]**: 실험 목표 지표의 합계 값을 프로필 수로 나눈 값입니다.
+
+* **[!UICONTROL Confidence interval]**: 기준 요소와 가장 성과가 좋은 처리 간의 성능 차이율. [자세히 알아보기](../campaigns/experiment-calculations.md#confidence-intervals).
+
+* **[!UICONTROL Average lift]**: 기준선에 대해 지정된 처리의 전환율 비율 개선. [자세히 보기](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Confidence]**: 주어진 치료가 기본 치료와 동일하다는 증거. [자세히 보기](../campaigns/experiment-calculations.md#understand-confidence)
+
+이러한 결과에 대해 자세히 알아보고 해석하는 방법은 다음을 참조하십시오 [이 페이지](../campaigns/get-started-experiment.md#interpret-results).

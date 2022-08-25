@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 11%
+source-wordcount: '282'
+ht-degree: 9%
 
 ---
 
@@ -20,27 +20,33 @@ ht-degree: 11%
 >title="이메일 만들기"
 >abstract="간단한 3단계로 이메일 매개 변수를 정의할 수 있습니다."
 
+이메일을 만들 수 있습니다.
 
-일단 [이메일 추가](get-started-content.md) 여정 내 <!--or a campaign--> 기본 설정을 정의하고 정의할 수 있습니다. 에서는 이메일을 구성하고 해당 콘텐츠를 정의할 수 있습니다.
+* 다음 **여정**: 여정에 이메일 활동을 추가하고 기본 설정을 정의하면, **[!UICONTROL Actions: Email]** 오른쪽 창에서 푸시 알림에 대한 컨텐츠를 작성합니다.
+
+   여정 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journey-gs.md).
+
+   ![](assets/email-edit-content.png)
+
+* 다음 **캠페인**: 캠페인을 만든 후 전자 메일을 작업으로 선택하고 기본 설정을 정의합니다.
+
+   캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../campaigns/create-campaign.md#configure).
+
+   ![](assets/email_campaign.png)
 
 ## 이메일 콘텐츠 정의{#email-content}
 
-을(를) 클릭합니다. **[!UICONTROL Edit content]** 단추를 클릭하여 이메일을 디자인합니다.
-
-![](assets/email-edit-content.png)
-
 사용 [!DNL Journey Optimizer] 이메일 디자이너 [이메일 디자인 기초](../design/create-email-content.md). 기존 컨텐츠가 있는 경우 다음을 수행할 수 있습니다 [전자 메일 디자이너에서 가져오기](../design/existing-content.md), 또는 [고유한 컨텐츠 코드 지정](../design/code-content.md) in [!DNL Journey Optimizer].
 
-[!DNL Journey Optimizer] 는 [기본 제공 템플릿](../design/email-templates.md) 시작할 수 있도록 모든 이메일을 템플릿으로 저장할 수도 있습니다.
-
-의 이메일 디자인에 대해 자세히 알아보십시오 [이 섹션](../design/design-emails.md).
+[!DNL Journey Optimizer] 는 [기본 제공 템플릿](../design/email-templates.md) 시작하는 것을 돕기 위해 모든 이메일을 템플릿으로 저장할 수도 있습니다.
 
 사용 [!DNL Journey Optimizer] 표현식 편집기를 사용하여 프로필의 데이터로 메시지를 개인화할 수 있습니다. 개인화에 대한 자세한 내용은 [이 섹션](../personalization/personalize.md)을 참조하세요.
 
 ## 이메일 추적{#email-tracking}
 
-링크 열기 및/또는 클릭을 통해 수신자의 동작을 추적하려면 다음 옵션을 활성화합니다. **[!UICONTROL Email opens]** 및 **[!UICONTROL Click on email]**. 에서 추적에 대해 자세히 알아보십시오 [이 섹션](../design/message-tracking.md).
+링크 열기 및/또는 클릭을 통해 수신자의 동작을 추적하려면 다음 옵션을 활성화합니다. **[!UICONTROL Email opens]** 및 **[!UICONTROL Click on email]**.
 
+에서 추적에 대해 자세히 알아보십시오 [이 섹션](../design/message-tracking.md).
 
 ## 이메일 콘텐츠 유효성 검사{#email-content-validate}
 

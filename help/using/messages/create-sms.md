@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: ad09f4ec728e95da23f862e0e59fe827c71f0024
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 10%
+source-wordcount: '461'
+ht-degree: 9%
 
 ---
 
@@ -22,9 +22,15 @@ ht-degree: 10%
 
 사용 [!DNL Journey Optimizer] 을 눌러 모바일 장치에서 고객에게 텍스트 메시지를 보냅니다. SMS 편집기에서 텍스트 형식으로 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다.
 
-일단 [sms를 추가했습니다.](get-started-content.md) 여정의 활동 및 정의된 기본 설정은 **[!UICONTROL Actions: SMS]** 오른쪽 창에서 SMS 메시지의 콘텐츠를 작성합니다.
+SMS 게재를 만들 수 있습니다.
 
-![](assets/sms-edit-content.png)
+* 다음 **여정**: 여정에 SMS 활동을 추가하고 기본 설정을 정의하면, **[!UICONTROL Actions: SMS]** 오른쪽 창에서 SMS 메시지의 콘텐츠를 작성합니다.
+
+   여정 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journey-gs.md).
+
+* 다음 **캠페인**: 캠페인을 만든 후 SMS를 작업으로 선택하고 기본 설정을 정의합니다.
+
+   캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../campaigns/create-campaign.md#configure).
 
 SMS 메시지를 처음 만드는 경우 SMS 채널이 구성되었는지 확인하십시오. [자세히 알아보기](../configuration/sms-configuration.md).
 

@@ -7,7 +7,8 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
+exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 4%
@@ -94,7 +95,7 @@ ht-degree: 4%
    >
    >이벤트 유형이 아닌 데이터 세트를 선택한 경우 진행할 수 없습니다.
 
-이제 게재 보고서를 작성할 때 이 데이터 세트의 데이터를 사용하여 추가 사용자 지정 정보를 검색하고 보고서를 보다 세밀하게 조정할 수 있습니다. [자세히 보기](campaign-global-report.md#objectives-global)
+이제 게재 보고서를 작성할 때 이 데이터 세트의 데이터를 사용하여 추가 사용자 지정 정보를 검색하고 보고서를 보다 세밀하게 조정할 수 있습니다. [자세히 보기](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
