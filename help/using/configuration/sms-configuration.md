@@ -4,10 +4,10 @@ description: Journey Optimizer을 사용하여 SMS 메시지를 보내도록 환
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
+source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 7%
+source-wordcount: '606'
+ht-degree: 2%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 7%
 
 SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 합니다. [공급자 설정 통합](#create-api) Journey Optimizer 및 [sms 서피스 만들기](#message-preset-sms) (즉, SMS 사전 설정). 이러한 단계는 [Adobe Journey Optimizer 시스템 관리자](../start/path/administrator.md).
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+>Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 별도로 SMS 서비스를 제공하는 Sinch, Twilio 등 타사 공급자와 통합됩니다.  SMS를 구성하기 전에 Adobe Journey Optimizer과 해당 SMS 공급자 간의 연결을 설정할 수 있는 API 토큰 및 서비스 ID를 수신하려면 이러한 SMS 공급자 중 하나와 계정을 만들어야 합니다. SMS 서비스 사용은 해당 SMS 공급자의 추가 약관을 따릅니다. Sinch 및 Twilio는 Adobe Journey Optimizer 사용자가 통합을 통해 사용할 수 있는 타사 제품이므로 SMS 서비스와 관련된 문제 또는 문의 사항은 Sinch 또는 Twilio 사용자가 해당 SMS 공급자에게 문의하여 도움을 받아야 합니다. Adobe은 제어하지 않으며 타사 제품에 대한 책임이 없습니다.
 
 ## 새 API 자격 증명 만들기 {#create-api}
 
@@ -27,6 +27,11 @@ SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 
 >id="ajo_admin_sms_api"
 >title="SMS 공급업체 구성"
 >abstract="공급업체 를 선택하고 SMS API 자격 증명을 입력합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_configuration"
+>title="SMS 공급업체 구성"
+>abstract="SMS 공급업체용으로 구성된 API 자격 증명을 선택합니다."
 
 Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단계를 수행합니다.
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad09f4ec728e95da23f862e0e59fe827c71f0024
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 15%
+source-wordcount: '410'
+ht-degree: 10%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 15%
 사용 [!DNL Journey Optimizer] 을 눌러 모바일 장치에서 고객에게 텍스트 메시지를 보냅니다. SMS 편집기에서 텍스트 형식으로 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다.
 
 일단 [sms를 추가했습니다.](get-started-content.md) 여정의 활동 및 정의된 기본 설정은 **[!UICONTROL Actions: SMS]** 오른쪽 창에서 SMS 메시지의 콘텐츠를 작성합니다.
-
->[!AVAILABILITY]
->
->SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
 ![](assets/sms-edit-content.png)
 
@@ -46,8 +42,11 @@ SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 
    ![](assets/sms-content-preview.png)
 
-
 ## SMS의 유효성 검사{#sms-preview}
+
+>[!NOTE]
+>
+> 보다 나은 게재 능력을 위해 항상 공급자가 지원하는 형식으로 전화 번호를 사용해야 합니다. 예를 들어, Twilio 및 Sinch는 E.164 형식의 전화 번호만 지원합니다.
 
 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. 삽입한 경우 [개인화된 콘텐츠](../personalization/personalize.md)테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
 

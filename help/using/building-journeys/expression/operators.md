@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '453'
 ht-degree: 7%
 
 ---
@@ -121,7 +121,7 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 예:
 
 ```json
-@ is not null
+@{BarBeacon.location} is not null
 ```
 
 ### null이
@@ -154,7 +154,9 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 <expression1> == <expression2>
 ```
 
-둘 다 &lt;expression1> 및 &lt;expression2> 에는 동일한 데이터 유형이 있어야 합니다. 결과는 부울입니다.
+>[!NOTE]
+>
+>대상 &lt;expression1> 및 &lt;expression2> 데이터 형식 컨트롤이 없습니다.
 
 예:
 
@@ -174,7 +176,10 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 <expression1> != <expression2>
 ```
 
-둘 다 &lt;expression1> 및 &lt;expression2> 에는 동일한 데이터 유형이 있어야 합니다. 결과는 부울입니다.
+>[!NOTE]
+대상 &lt;expression1> 및 &lt;expression2> 데이터 형식 컨트롤이 없습니다.
+
+결과는 부울입니다.
 
 예:
 

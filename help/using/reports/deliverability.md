@@ -1,19 +1,19 @@
 ---
-title: 메시지 실행 모니터링
-description: 모니터링 및 게재 기능 지침 학습
+title: 전달성 시작
+description: 게재 가능성 지침 학습
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 0%
+source-wordcount: '649'
+ht-degree: 2%
 
 ---
 
-# 게재 기능 관리 {#manage-deliverability}
+# 전달성 시작 {#manage-deliverability}
 
 게재 기능은 수신자의 받은 편지함에 도달하는 게재의 성공을 측정하는 것입니다.
 

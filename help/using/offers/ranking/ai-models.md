@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 4%
@@ -30,9 +30,9 @@ ht-degree: 4%
 
 * **개인화 모델** 을(를) 통해 비즈니스 목표를 정의하고 고객 데이터를 활용하여 비즈니스 중심 모델을 교육하여 개인화된 오퍼를 제공하고 KPI를 극대화할 수 있습니다. [자세히 보기](personalized-optimization-model.md)
 
->[!CAUTION]
->
->현재 개인화된 최적화 모델을 사용하면 사용자를 선택하기만 하면 조기 액세스에서 사용할 수 있습니다.
+   >[!CAUTION]
+   >
+   >현재 개인화된 최적화 모델을 사용하면 사용자를 선택하기만 하면 조기 액세스에서 사용할 수 있습니다.
 
 ## AI 모델 만들기 {#create-ai-model}
 

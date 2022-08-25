@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 13%
+source-wordcount: '317'
+ht-degree: 12%
 
 ---
 
@@ -46,6 +46,10 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 1. 작업 공간에서 새 필드를 추가 및 구성하는 동안 **[!UICONTROL Segment properties]** 창에는 세그먼트에 속하는 예상 프로필에 대한 정보가 표시됩니다. 클릭 **[!UICONTROL Refresh estimate]** 를 눌러 데이터를 업데이트합니다.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
+
+   >[!NOTE]
+   >
+   >규칙 매개 변수에 컨텍스트 데이터 등의 프로필에 없는 데이터가 포함된 경우 프로필 예측을 사용할 수 없습니다. 예를 들어 현재 날씨가 ≥80도여야 하는 자격 규칙입니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 확인합니다.
 

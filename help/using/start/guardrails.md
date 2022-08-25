@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '807'
 ht-degree: 4%
 
 ---
@@ -88,3 +88,4 @@ Adobe Experience Platform의 API 기반 프로필 만들기/업데이트와 연�
 ### 세그먼트 읽기 {#read-segment-g}
 
 * 스트리밍된 세그먼트는 항상 최신 상태이지만 배치 세그먼트는 검색 시 계산되지 않습니다. 일일 배치 평가 시간에서만 매일 평가됩니다.
+* 세그먼트 읽기 활동을 사용하는 여정의 경우 동시에 시작할 수 있는 최대 여정 수가 있습니다. 다시 시도는 시스템에 의해 수행되지만, 5~10분 간격으로 시간 경과에 따라 여정을 분산하여 5개 이상([세그먼트 읽기]가 있거나 &quot;가능한 한 빨리&quot; 시작됨)이 있는 경우를 피하십시오.

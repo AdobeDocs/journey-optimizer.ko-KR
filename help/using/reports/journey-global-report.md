@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d431673dd55b41b8d2de21ec82fa4b15baa13a0f
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1664'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,13 @@ ht-degree: 0%
 * **[!UICONTROL Actions successfully executed]**: 총 개수 **[!UICONTROL Actions]** 여정에 대해 성공적으로 실행되었습니다.
 
 * **[!UICONTROL Error in action]**: 에 대해 발생한 총 오류 수 **[!UICONTROL Actions]**.
+
+![](assets/global_report_25.png)
+
+다음 **[!UICONTROL Consent policies]** 표 및 그래프는 사용자 지정 작업에서 각 정책에서 제외된 프로필 수를 표시합니다.
+사용자 지정 작업에 대한 자세한 내용은 [자세한 설명서](../action/about-custom-action-configuration.md).
+
+이러한 위젯이 여정 보고서에 표시되려면 대시보드를 재설정해야 합니다. 이렇게 하려면 을(를) 클릭합니다. **[!UICONTROL Modify]** 그런 다음 **[!UICONTROL Reset]** 를 클릭합니다.
 
 ## 이메일 탭 {#email-global}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 7%
+source-wordcount: '1203'
+ht-degree: 6%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 7%
 에서 만든 &quot;Luma 앱 열기 및 체크아웃&quot; 세그먼트의 예를 살펴보겠습니다 [세그먼트 작성](../segment/about-segments.md) 사용 사례 세그먼트 읽기 활동을 사용하면 이 세그먼트에 속하는 모든 개인이 여정을 입력하고 모든 여정 기능을 활용하는 개인화된 여정으로 전환하도록 할 수 있습니다. 조건, 타이머, 이벤트, 작업.
 
 >[!NOTE]
+>
+>세그먼트 읽기 활동을 사용하는 여정의 경우 동시에 시작할 수 있는 최대 여정 수가 있습니다. 다시 시도는 시스템에 의해 수행되지만, 5~10분 간격으로 시간 경과에 따라 여정을 분산하여 5개 이상([세그먼트 읽기]가 있거나 &quot;가능한 한 빨리&quot; 시작됨)이 있는 경우를 피하십시오.
 >
 >버스트 유료 추가 기능을 사용하면 읽기 세그먼트와 간단한 푸시 메시지를 포함하는 단순 여정에 대해 큰 볼륨으로 빠르게 푸시 메시지를 전송할 수 있습니다. 자세한 정보는 [이 섹션](../building-journeys/journey-gs.md#burst)을 참조하십시오
 
