@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
+source-git-commit: 8d8586a6c70b6fc01dbd1c2a8833079f422c93f7
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '373'
 ht-degree: 4%
 
 ---
@@ -22,10 +22,6 @@ ht-degree: 4%
 
 ## 캠페인 기본 정보 {#about}
 
->[!IMPORTANT]
->
->이 기능은 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 뷰어와 같은 Campaign 관련 제품 프로필에 액세스할 수 있는 사용자만 사용할 수 있습니다. 제품 프로필을 할당하는 방법에 대한 자세한 내용은 [이 페이지](../administration/permissions.md).
-
 캠페인을 사용하면 여러 채널을 사용하여 특정 세그먼트에 일회성 콘텐츠를 제공할 수 있습니다. 작업이 순서대로 실행되도록 디자인된 여정과 달리, 캠페인은 즉시 또는 지정된 일정에 따라 작업을 동시에 실행합니다.
 
 이를 통해 홍보 오퍼, 참여 캠페인, 공지, 법적 고지 사항 또는 정책 업데이트와 같은 마케팅 사용 사례를 위한 간단한 임시 배치 커뮤니케이션을 전송할 수 있습니다.
@@ -36,6 +32,28 @@ ht-degree: 4%
 
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
+
+## 전제 조건 {#campaign-prerequisites}
+
+Campaign은 Campaign 관련 액세스 권한이 있는 사용자만 사용할 수 있습니다 **[!UICONTROL Product profile]** 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 뷰어와 같은.
+
+해당 **[!UICONTROL Product profile]** 사용자에게:
+
+1. 에서 [!DNL Admin console]에서 을(를) 선택합니다. [!DNL Adobe Experience Platform] 제품.
+
+1. 에서 **[!UICONTROL Product profile]** 탭에서 기본 제공 Campaign 관련 항목 중 하나를 선택합니다 **[!UICONTROL Product profile]**: 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 또는 캠페인 뷰어.
+
+   Campaign에 대한 자세한 정보 **[!UICONTROL Product profiles]** 및 **[!UICONTROL Permissions]**, 다음을 참조하십시오 [페이지](../administration/ootb-product-profiles.md).
+
+   ![](assets/do-not-localize/admin_1.png)
+
+1. 클릭 **[!UICONTROL Add user]** 사용자에게 할당하려면 **[!UICONTROL Product profile]**.
+
+   ![](assets/do-not-localize/admin_2.png)
+
+1. 사용자 이름, 그룹 또는 이메일 주소를 입력하고 **[!UICONTROL Save]**.
+
+이제 사용자가 **[!UICONTROL Campaigns]**.
 
 ## 캠페인 액세스 {#access}
 
