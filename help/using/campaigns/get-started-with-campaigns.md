@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: b73d4495a231a40d833f4fee4dc094b808d659bd
+source-git-commit: bbcafe364ca13501972b3d8e1150aa2f51ba88a0
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 4%
+source-wordcount: '486'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 >title="캠페인"
 >abstract="다양한 채널에서 특정 세그먼트에 일회성 콘텐츠를 전달하는 캠페인을 만듭니다. 캠페인을 만들기 전에 채널 표면(즉, 메시지 사전 설정)과 Adobe Experience Platform 세그먼트를 사용할 수 있는지 확인하십시오."
 
-Journey Optimizer 캠페인을 사용하여 다양한 채널을 사용하여 특정 세그먼트에 일회성 콘텐츠를 전달할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행되도록 디자인됩니다. 캠페인을 사용하면 작업이 동시에 즉시 또는 지정된 스케줄에 따라 수행됩니다.
+Journey Optimizer 캠페인을 사용하여 다양한 채널을 사용하여 특정 세그먼트에 일회성 콘텐츠를 전달할 수 있습니다. 여정을 사용할 때 작업이 순서대로 실행됩니다. 캠페인을 사용하면 작업이 동시에 즉시 또는 지정된 스케줄에 따라 수행됩니다.
 
 홍보 오퍼, 참여 캠페인, 공지, 법적 고지 사항 또는 정책 업데이트와 같은 마케팅 사용 사례를 위한 간단한 임시 배치 커뮤니케이션을 전송할 캠페인을 만듭니다.
 
@@ -43,9 +43,9 @@ Journey Optimizer에서 첫 번째 캠페인을 만들기 전에 다음 사전 �
 
    해당 **[!UICONTROL Product profile]** 사용자에게:
 
-   1. 에서 [!DNL Admin console]에서 을(를) 선택합니다. [!DNL Adobe Experience Platform] 제품.
+   1. From [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}, [!DNL Adobe Experience Platform] 제품.
 
-   1. 에서 **[!UICONTROL Product profile]** 탭에서 기본 제공 Campaign 관련 항목 중 하나를 선택합니다 **[!UICONTROL Product profile]**: 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 또는 캠페인 뷰어.
+   1. 다음 위치로 이동합니다. **[!UICONTROL Product profile]** 탭에서 기본 제공 캠페인 관련 항목 중 하나를 선택합니다 **[!UICONTROL Product profile]**: 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 또는 캠페인 뷰어.
 
       Journey Optimizer 캠페인에 대한 자세한 정보 **[!UICONTROL Product profiles]** 및 **[!UICONTROL Permissions]**, [이 페이지 참조](../administration/ootb-product-profiles.md).
 
@@ -61,7 +61,7 @@ Journey Optimizer에서 첫 번째 캠페인을 만들기 전에 다음 사전 �
 +++
 
 1. **대상이 필요합니다.**. 캠페인을 만들기 전에 대상 세그먼트를 사용할 수 있어야 합니다. 대상 만들기에 대해 자세히 알아보기 [이 페이지에서](../segment/about-segments.md).
-1. **채널 서피스가 필요합니다**. 채널을 선택하려면 해당 채널 서피스(즉, 사전 설정)를 만들고 사용할 수 있어야 합니다. 채널 표면에 대해 자세히 알아보기 [이 페이지에서](../configuration/channel-surfaces.md)
+1. **채널 서피스가 필요합니다**. 채널을 선택하려면 해당 채널 서피스(즉, 사전 설정)를 만들고 사용할 수 있어야 합니다. 채널 표면에 대해 자세히 알아보기 [이 페이지에서](../configuration/channel-surfaces.md).
 
 ## 캠페인 액세스 {#access}
 
@@ -79,13 +79,13 @@ Journey Optimizer에서 첫 번째 캠페인을 만들기 전에 다음 사전 �
 * **[!UICONTROL Activating]**: 캠페인이 활성화되고 있습니다.
 * **[!UICONTROL Live]**: 캠페인이 활성화되었습니다.
 * **[!UICONTROL Scheduled]**: 캠페인이 특정 시작 날짜에 활성화되도록 구성되었습니다.
-* **[!UICONTROL Stopped]**: 캠페인이 수동으로 중지되었습니다. 더 이상 활성화하거나 재사용할 수 없습니다( [캠페인 중지](modify-stop-campaign.md#stop))
+* **[!UICONTROL Stopped]**: 캠페인이 수동으로 중지되었습니다. 더 이상 활성화하거나 재사용할 수 없습니다. [자세히 보기](modify-stop-campaign.md#stop)
 * **[!UICONTROL Completed]**: 캠페인이 완료되었습니다. 이 상태는 캠페인이 활성화되면 3일 후 자동으로 지정되거나, 반복 실행이 있는 경우 캠페인의 종료 날짜에 할당됩니다.
 * **[!UICONTROL Archived]**: 캠페인이 보관되었습니다.
 
 >[!NOTE]
 >
->다음 옆에 있는 &quot;초안 버전 열기&quot; 아이콘 **[!UICONTROL Live]** 또는 **[!UICONTROL Scheduled]** 상태는 캠페인의 새 버전이 만들어지고 아직 활성화되지 않았음을 나타냅니다( 참조) [캠페인 수정](modify-stop-campaign.md#modify)).
+>다음 옆에 있는 &quot;초안 버전 열기&quot; 아이콘 **[!UICONTROL Live]** 또는 **[!UICONTROL Scheduled]** 상태는 캠페인의 새 버전이 만들어지고 아직 활성화되지 않았음을 나타냅니다. [자세히 알아보기](modify-stop-campaign.md#modify).
 
 ## 방법 비디오 {#video}
 
