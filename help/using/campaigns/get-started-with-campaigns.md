@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d747cc9a4d065ea9110cb8065c113326959e2a41
+source-git-commit: b73d4495a231a40d833f4fee4dc094b808d659bd
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 4%
@@ -35,32 +35,33 @@ Journey Optimizer 캠페인을 사용하여 다양한 채널을 사용하여 특
 
 Journey Optimizer에서 첫 번째 캠페인을 만들기 전에 다음 사전 요구 사항을 확인하십시오.
 
-1. **적절한 권한이 필요합니다**. 캠페인은 캠페인 관련 액세스 권한이 있는 사용자만 사용할 수 있습니다 **[!UICONTROL Product profile]** 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 뷰어와 같은. 캠페인에 액세스할 수 없는 경우 권한을 확장해야 합니다. 액세스 권한이 있는 경우 [Adobe Admin Console](https://adminconsole.adobe.com/)조직에 대해 {target=&quot;_blank&quot;}에서 아래 단계를 수행하십시오. 없는 경우 Journey Optimizer 관리자에게 문의하십시오.
+1. **적절한 권한이 필요합니다**. 캠페인은 캠페인 관련 액세스 권한이 있는 사용자만 사용할 수 있습니다 **[!UICONTROL Product profile]** 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 뷰어와 같은.
 
-+++캠페인 권한을 할당하는 방법 알아보기
+   캠페인에 액세스할 수 없는 경우 권한을 확장해야 합니다. 액세스 권한이 있는 경우 [Adobe Admin Console](https://adminconsole.adobe.com/)조직에 대해 {target=&quot;_blank&quot;}에서 아래 단계를 수행하십시오. 없는 경우 Journey Optimizer 관리자에게 문의하십시오.
 
-해당 **[!UICONTROL Product profile]** 사용자에게:
+   +++캠페인 권한을 할당하는 방법 알아보기
 
-1. 에서 [!DNL Admin console]에서 을(를) 선택합니다. [!DNL Adobe Experience Platform] 제품.
+   해당 **[!UICONTROL Product profile]** 사용자에게:
 
-1. 에서 **[!UICONTROL Product profile]** 탭에서 기본 제공 Campaign 관련 항목 중 하나를 선택합니다 **[!UICONTROL Product profile]**: 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 또는 캠페인 뷰어.
+   1. 에서 [!DNL Admin console]에서 을(를) 선택합니다. [!DNL Adobe Experience Platform] 제품.
 
-   Journey Optimizer 캠페인에 대한 자세한 정보 **[!UICONTROL Product profiles]** 및 **[!UICONTROL Permissions]**, [이 페이지 참조](../administration/ootb-product-profiles.md).
+   1. 에서 **[!UICONTROL Product profile]** 탭에서 기본 제공 Campaign 관련 항목 중 하나를 선택합니다 **[!UICONTROL Product profile]**: 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 또는 캠페인 뷰어.
 
-   ![](assets/do-not-localize/admin_1.png)
+      Journey Optimizer 캠페인에 대한 자세한 정보 **[!UICONTROL Product profiles]** 및 **[!UICONTROL Permissions]**, [이 페이지 참조](../administration/ootb-product-profiles.md).
 
-1. 클릭 **[!UICONTROL Add user]** 사용자에게 할당하려면 **[!UICONTROL Product profile]**.
+      ![](assets/do-not-localize/admin_1.png)
 
-   ![](assets/do-not-localize/admin_2.png)
+   1. 클릭 **[!UICONTROL Add user]** 사용자에게 할당하려면 **[!UICONTROL Product profile]**.
 
-1. 사용자 이름, 그룹 또는 이메일 주소를 입력하고 **[!UICONTROL Save]**.
+      ![](assets/do-not-localize/admin_2.png)
 
-이제 사용자가 **[!UICONTROL Campaigns]**.
+   1. 사용자 이름, 그룹 또는 이메일 주소를 입력하고 **[!UICONTROL Save]**.
+   이제 사용자가 **[!UICONTROL Campaigns]**.
 
 +++
 
 1. **대상이 필요합니다.**. 캠페인을 만들기 전에 대상 세그먼트를 사용할 수 있어야 합니다. 대상 만들기에 대해 자세히 알아보기 [이 페이지에서](../segment/about-segments.md).
-1. **채널 서피스가 필요합니다**. 채널을 선택하려면 해당 채널 서피스를 만들고 사용할 수 있어야 합니다. 채널 서피스(즉, 사전 설정)에 대해 자세히 알아보십시오 [이 페이지에서](../configuration/channel-surfaces.md)
+1. **채널 서피스가 필요합니다**. 채널을 선택하려면 해당 채널 서피스(즉, 사전 설정)를 만들고 사용할 수 있어야 합니다. 채널 표면에 대해 자세히 알아보기 [이 페이지에서](../configuration/channel-surfaces.md)
 
 ## 캠페인 액세스 {#access}
 
