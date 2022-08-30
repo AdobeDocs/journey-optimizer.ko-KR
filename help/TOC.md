@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8b2796fd5a133fe1a11b79927be0919ccae65ddb
+source-git-commit: 5b8a895f628a71291684c8a17d8d7a2cf947fb2f
 workflow-type: tm+mt
 source-wordcount: '1130'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -34,17 +34,17 @@ ht-degree: 97%
       + [개발자로 시작하기](using/start/path/developer.md)
    + [사용자 인터페이스](using/start/user-interface.md)
    + [가드레일](using/start/guardrails.md)
-+ 캠페인 {#campaigns}
++ 캠페인{#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)
    + [라이브 캠페인 관리](using/campaigns/modify-stop-campaign.md)
-   + 컨텐츠 실험 {#content-experiment}
-      + [컨텐츠 실험 시작](using/campaigns/get-started-experiment.md)
-      + [컨텐츠 실험 만들기](using/campaigns/content-experiment.md)
+   + 콘텐츠 실험 {#content-experiment}
+      + [콘텐츠 실험 시작](using/campaigns/get-started-experiment.md)
+      + [콘텐츠 실험 만들기](using/campaigns/content-experiment.md)
       + [통계 계산 이해](using/campaigns/experiment-calculations.md)
       + [보고 구성](using/campaigns/reporting-configuration.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
-+ 여정 {#orchestrate-journeys}
++ 여정{#orchestrate-journeys}
    + 여정 정보{#about-journeys}
       + [일반 원칙](using/building-journeys/journey.md)
       + [여정 라이프사이클](using/building-journeys/journey-end.md)
