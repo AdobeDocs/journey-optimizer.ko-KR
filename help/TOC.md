@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1130'
 ht-degree: 97%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 97%
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
 + 메시지 {#messages}
    + [메시지 시작](using/messages/get-started-content.md)
+   + [메시지 여정 추가](using/messages/messages-in-journeys.md)
+   + [메시지 캠페인 추가](using/messages/messages-in-campaigns.md)
    + [이메일 만들기](using/messages/create-email.md)
    + [푸시 알림 만들기](using/messages/create-push.md)
    + [SMS 메시지 만들기](using/messages/create-sms.md)

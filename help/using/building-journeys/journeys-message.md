@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 24%
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 # 이메일, SMS, 푸시{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] 에는 기본 제공 메시지 기능이 포함되어 있습니다. 여정에 푸시, SMS 또는 이메일 메시지 활동 및 [설정 및 콘텐츠 정의](../messages/get-started-content.md). 그런 다음 여정 컨텍스트에서 실행되어 전송됩니다
+[!DNL Journey Optimizer] 에는 기본 제공 메시지 기능이 포함되어 있습니다. 여정에 푸시, SMS 또는 이메일 메시지 활동 및 [설정 및 콘텐츠 정의](../messages/messages-in-journeys.md). 그런 다음 여정 컨텍스트에서 실행됩니다.
 
 특정 작업을 설정하여 메시지를 보낼 수도 있습니다.
 

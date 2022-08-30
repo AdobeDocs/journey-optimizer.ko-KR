@@ -6,16 +6,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 6%
+source-wordcount: '246'
+ht-degree: 20%
 
 ---
 
 # 이메일 디자인 시작 {#get-started-content-design}
 
+에서 기존 콘텐츠를 가져올 수 있습니다 [!DNL Journey Optimizer] 또는 콘텐츠 디자인 기능을 활용할 수 있습니다.
+
+* 사용 [!DNL Journey Optimizer] **이메일 디자인 기능** 반응형 이메일을 디자인하거나 가져오기 위해 [자세히 보기](../design/create-email-content.md)
+
+* **Adobe Experience Manager Assets Essentials**&#x200B;를 활용하여 이메일을 보강하고 에셋 데이터베이스를 빌드하고 관리합니다. [자세히 보기](../design/assets-essentials.md)
+
+* **Adobe Stock 사진**&#x200B;을 찾아 콘텐츠를 빌드하고 이메일 디자인을 개선합니다. [자세히 보기](../design/stock.md)
+
+* 프로필 속성을 기반으로 개인화된 메시지를 만들어 고객의 경험을 개선합니다. [자세히 보기](../personalization/personalize.md)
+
 ➡️ [비디오에서 이 기능 살펴보기](#video)
+
+한번 드시면 [메시지 작성](../messages/get-started-content.md)을(를) 통해 이메일 콘텐츠 만들기를 시작할 수 있습니다.
 
 1. 새로 만든 메시지에서 을(를) 선택합니다 **[!UICONTROL Email designer]** 에서 **[!UICONTROL Body]** 섹션을 참조하십시오.
 
@@ -35,11 +47,6 @@ ht-degree: 6%
 
 이러한 기능은 메시지 만들기 화면에서 이메일 디자이너에 액세스할 때 모두 사용할 수 있습니다. [메시지 만들기에 대해 자세히 알아보기](../messages/get-started-content.md).
 
->[!NOTE]
->
->아래쪽 영역에 있는 템플릿은 정적이며 편집할 수 없습니다. 이러한 템플릿은 일러스트레이션 용도로만 사용할 수 있습니다.
->
->한번 드시면 [메시지 작성](../messages/get-started-content.md)을(를) 통해 이메일 콘텐츠 만들기를 시작할 수 있습니다.
 
 ## 방법 비디오 {#video}
 

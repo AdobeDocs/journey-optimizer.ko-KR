@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4b9de36d951308425e54924908b7b80b83c94e51
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 94%
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->2022년 7월, Adobe Journey Optimizer은 [새로운 기능](using/rn/inline-messages.md) Journey Optimizer 채널에 대한 컨텐츠를 작성하는 방법(이메일, 푸시, SMS)이 개선되었습니다. Journey Optimizer의 전문가로서 이제 여정에서 바로 메시지를 [만들고 작성](using/messages/get-started-content.md)할 수 있습니다. 여정 자동 전환이 수행됩니다. 몇 가지 단계에서 여러분의 도움이 필요합니다. [필수 단계](using/rn/inline-messages-steps.md) 자세히 알아보기.
+>2022년 7월, Adobe Journey Optimizer은 [새로운 기능](using/rn/inline-messages.md) Journey Optimizer 채널에 대한 컨텐츠를 작성하는 방법(이메일, 푸시, SMS)이 개선되었습니다. Journey Optimizer의 전문가로서 이제 여정에서 바로 메시지를 [만들고 작성](using/messages/messages-in-journeys.md)할 수 있습니다. 여정 자동 전환이 수행됩니다. 몇 가지 단계에서 여러분의 도움이 필요합니다. [필수 단계](using/rn/inline-messages-steps.md) 자세히 알아보기.
 
 <table style="table-layout:fixed">
 <tr>

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 3%
@@ -40,7 +40,7 @@ ht-degree: 3%
 >
 >BCC 기능 사용량은 라이선스를 받은 메시지 수에 따라 계산됩니다. 따라서 아카이브하려는 중요한 통신에 사용되는 표면에서만 활성화합니다. 라이선스가 부여된 볼륨이 있는지 계약을 확인합니다.
 
-BCC 이메일 주소 설정이 즉시 저장되고 표면 수준에서 처리됩니다. 다음 경우에 [새 메시지 만들기](../messages/get-started-content.md#create-new-message) 이 경우 숨은 참조 이메일 주소가 자동으로 표시됩니다.
+BCC 이메일 주소 설정이 즉시 저장되고 표면 수준에서 처리됩니다. 다음 경우에 [새 메시지 만들기](../messages/get-started-content.md) 이 경우 숨은 참조 이메일 주소가 자동으로 표시됩니다.
 
 ![](assets/preset-bcc-in-msg.png)
 

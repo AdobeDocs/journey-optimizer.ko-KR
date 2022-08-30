@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -36,7 +36,7 @@ ht-degree: 2%
 >
 >**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필에게 이메일을 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
 
-When [메시지 만들기](../messages/get-started-content.md#create-new-message)이메일에 대해 선택한 카테고리와 일치하는 유효한 채널 서피스를 선택해야 합니다.
+When [메시지 만들기](../messages/get-started-content.md)이메일에 대해 선택한 카테고리와 일치하는 유효한 채널 서피스를 선택해야 합니다.
 
 ## 하위 도메인 및 IP 풀 {#subdomains-and-ip-pools}
 

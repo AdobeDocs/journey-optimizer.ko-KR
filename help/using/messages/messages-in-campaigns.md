@@ -1,0 +1,101 @@
+---
+title: 캠페인에서 메시지 추가
+description: 캠페인에서 메시지를 추가하는 방법 알아보기
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
+source-git-commit: 87f9a4661b64cf24a8cd62bb9c70d5f1c9fcaddf
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 79%
+
+---
+
+
+# 캠페인에서 메시지 추가{#messages-in- campaigns}
+
+캠페인에서 채널을 선택하여 대상자에게 전송할 메시지를 디자인하고 개인화합니다. 캠페인에 이메일, SMS 또는 푸시를 추가하면 즉시 전송하거나 메시지를 예약할 수 있습니다.
+
+>[!NOTE]
+>트리거된 메시지를 보낼 여정을 만들 수도 있습니다. 추가 정보 [이 섹션](messages-in-journeys.md).
+
+캠페인에서 메시지를 추가하고 구성하는 방법을 배웁니다 [이 섹션](../campaigns/create-campaign.md)
+
+다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
+
+* [이메일 만들기](create-email.md)
+* [푸시 알림 만들기](create-push.md)
+* [SMS 메시지 만들기](create-sms.md)
+
+## 전송 시간 최적화 활성화{#sto-in-journeys}
+
+이메일 및 푸시 알림의 경우 **[!UICONTROL Send-time optimization]**&#x200B;을(를) 활성화할 수 있습니다.
+
+**[!UICONTROL Send-time optimization]**&#x200B;을(를) 사용하여 각 사용자에 대해 개인화된 전송 시간을 예약하여 메시지 열람률과 클릭률을 높일 수 있습니다. [자세히 알아보기](../messages/send-time-optimization.md).
+
+## 고급 매개 변수{#adv-settings}
+
+고급 매개 변수는 기본적으로 읽기 전용이며 숨겨집니다.
+
+고급 매개 변수에 액세스하려면 메시지 창 상단의 **[!UICONTROL Show read-only fields]** 아이콘을 클릭합니다.
+
+![](assets/show-read-only.png)
+
+고급 매개 변수는 메시지 창 하단에 표시됩니다. 이러한 매개 변수는 [시스템 관리자](../start/path/administrator.md)에 의해 메시지와 연관된 [채널 표면](../configuration/channel-surfaces.md)(즉, 메시지 사전 설정)에서 정의됩니다.
+
+푸시 알림의 경우 Token, AppID, AppPlatform 매개 변수를 표시할 수 있습니다.
+
+![](assets/push-adv-parameters.png)
+
+이메일의 경우 기본 이메일 주소를 표시할 수 있습니다.
+
+특정 사용을 위해 특정 컨텍스트에서 이러한 값을 무시할 수 있습니다. 값을 강제 적용하려면 필드의 오른쪽에 있는 **매개 변수 무시 활성화** 아이콘을 클릭합니다. 이 옵션은 다음과 같은 경우에 유용합니다.
+
+* 이메일을 테스트하면 이메일 주소를 추가할 수 있습니다. 여정을 게시하면 이메일이 사용자에게 전송됩니다.
+* 목록의 구독자 이메일 주소를 참조하십시오. [사용 사례](../building-journeys/message-to-subscribers-uc.md)를 자세히 알아보십시오.
+
+고급 설정을 숨기려면 동일한 아이콘을 클릭합니다.
+
+## 메시지 찾아보기{#browse-message}
+
+여정에서 여러 메시지를 사용하는 경우 **컨텐츠 편집** 화면에서 메시지를 전환할 수 있습니다.
+
+![](assets/inline-messages-multi-content.png)
+
+그 다음 단일 보기에서 [경고를 확인](alerts.md)하고 각 콘텐츠를 [시뮬레이션](../design/preview.md)할 수 있습니다.
+
+## 메시지 복제 {#duplicate-message}
+
+여정 캔버스에서 기존 메시지를 복사할 수 있습니다.
+
+이렇게 하려면 아래 단계를 수행합니다.
+
+1. 복사할 메시지를 엽니다.
+
+1. **[!UICONTROL Action]** 창에서 **[!UICONTROL Copy]** 버튼을 사용합니다.
+
+   ![](assets/message-duplicate.png)
+
+1. **crtl+V** 키를 눌러 메시지를 붙여넣습니다.
+
+   메시지가 여정 캔버스에 추가됩니다. 모든 설정 및 구성이 새 메시지에 복사됩니다.
+
+   ![](assets/message-duplicated.png)
+
+1. 초기 메시지를 복사본과 구분할 수 있도록 메시지의 이름을 변경합니다. 예를 들어 메시지를 편집할 때 다음과 같이 바꿉니다.
+
+   ![](assets/multi-message.png)
+
+
+>[!NOTE]
+>
+>이메일의 경우 기존 메시지를 템플릿에 전환할 수도 있습니다. [자세히 알아보기](../design/email-templates.md).
+
+## 메시지 삭제{#delete-message}
+
+메시지를 삭제하려면 채널 작업 활동 창 상단의 휴지통 아이콘을 사용합니다.
+
+![](assets/delete-message.png)
+
+**[!UICONTROL Confirm]** 버튼을 사용하여 확인합니다.
