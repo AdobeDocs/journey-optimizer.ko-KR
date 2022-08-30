@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b8a895f628a71291684c8a17d8d7a2cf947fb2f
+source-git-commit: 14b0928821e0c1815869711a0bb68a09beb1b7e4
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 98%
@@ -44,7 +44,81 @@ ht-degree: 98%
       + [통계 계산 이해](using/campaigns/experiment-calculations.md)
       + [보고 구성](using/campaigns/reporting-configuration.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
-+ 여정{#orchestrate-journeys}
++ 메시지 {#messages}
+   + [메시지 시작](using/messages/get-started-content.md)
+   + [메시지 여정 추가](using/messages/messages-in-journeys.md)
+   + [메시지 캠페인 추가](using/messages/messages-in-campaigns.md)
+   + [이메일 만들기](using/messages/create-email.md)
+   + [푸시 알림 만들기](using/messages/create-push.md)
+   + [SMS 메시지 만들기](using/messages/create-sms.md)
+   + [경고 확인](using/messages/alerts.md)
+   + [동의 관리](using/messages/consent.md)
+   + [전송 시간 최적화](using/messages/send-time-optimization.md)
++ 콘텐츠 디자인 {#design}
+   + [이메일 디자인 시작](using/design/design-emails.md)
+   + [처음부터 시작 ](using/design/create-email-content.md)
+   + [이메일 콘텐츠 가져오기](using/design/existing-content.md)
+   + [나만의 콘텐츠 코딩](using/design/code-content.md)
+   + [템플릿 작업](using/design/email-templates.md)
+   + 콘텐츠 디자인 {#design-content}
+      + [콘텐츠 구성 요소 사용](using/design/content-components.md)
+      + [백그라운드 설정](using/design/backgrounds.md)
+      + [세로 정렬 및 패딩 조정](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [링크의 스타일 정의](using/design/styling-links.md)
+      + [인라인 스타일 속성 추가](using/design/adding-inline-styling-attributes.md)
+   + 이메일 설정 {#design-email}
+      + [텍스트 버전 생성](using/design/text-version-email.md)
+      + [사전 헤더 추가](using/design/preheader.md)
+   + 자산 추가 및 관리 {#manage-asset}
+      + [Assets Essentials 작업](using/design/assets-essentials.md)
+      + [Adobe Stock 작업](using/design/stock.md)
+   + [개인화된 오퍼 추가](using/design/deliver-personalized-offers.md)
+   + [링크 추가 및 메시지 추적](using/design/message-tracking.md)
+   + [미리보기 및 증명](using/design/preview.md)
++ 랜딩 페이지 {#landing-pages}
+   + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
+   + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
+   + 콘텐츠 디자인 {#landing-pages-design}
+      + [랜딩 페이지 디자인 정보](using/landing-pages/design-lp.md)
+      + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
+      + [템플릿 만들기](using/landing-pages/lp-templates.md)
+      + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
+   + [구독 목록 만들기](using/landing-pages/subscription-list.md)
+   + [사용 사례](using/landing-pages/lp-use-cases.md)
++ 개인화{#personalization}
+   + [시작 개인화](using/personalization/personalize.md)
+   + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
+   + 표현식 작성 {#build-expressions}
+      + [개인화 구문](using/personalization/personalization-syntax.md)
+      + 표현식 편집기 작업 {#expression-editor}
+         + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
+         + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
+         + [저장된 표현식으로 작업하기](using/personalization/personalization-library.md)
+         + [개인화 유효성 검사](using/personalization/personalization-validation.md)
+      + 도우미 함수{#functions}
+         + [도우미 함수 시작](using/personalization/functions/functions.md)
+         + [집계 함수](using/personalization/functions/aggregation.md)
+         + [산술 함수](using/personalization/functions/arithmetic-functions.md)
+         + [배열 및 목록 함수](using/personalization/functions/arrays-list.md)
+         + [날짜 시간 함수](using/personalization/functions/dates.md)
+         + [부울 및 비교 함수](using/personalization/functions/operators.md)
+         + [도우미](using/personalization/functions/helpers.md)
+         + [맵 함수](using/personalization/functions/maps.md)
+         + [개체 함수](using/personalization/functions/objects.md)
+         + [문자열 함수](using/personalization/functions/string.md)
+   + 사용 사례{#personalization-use-cases}
+      + [주문 상태 알림](using/personalization/personalization-use-case.md)
+      + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
++ 세그먼트, 프로필, 신원{#segment}
+   + 세그먼트 {#segments}
+      + [세그먼트 시작](using/segment/about-segments.md)
+      + [세그먼트 작성](using/segment/creating-a-segment.md)
+   + 프로필{#profiles}
+      + [프로필 시작](using/segment/get-started-profiles.md)
+      + [테스트 프로필 만들기](using/segment/creating-test-profiles.md)
+   + [ID](using/segment/get-started-identity.md)
+   + [라이선스 사용](using/segment/license-usage.md)
++ 여정 {#orchestrate-journeys}
    + 여정 정보{#about-journeys}
       + [일반 원칙](using/building-journeys/journey.md)
       + [여정 라이프사이클](using/building-journeys/journey-end.md)
@@ -165,80 +239,6 @@ ht-degree: 98%
       + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
       + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
       + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
-+ 메시지 {#messages}
-   + [메시지 시작](using/messages/get-started-content.md)
-   + [메시지 여정 추가](using/messages/messages-in-journeys.md)
-   + [메시지 캠페인 추가](using/messages/messages-in-campaigns.md)
-   + [이메일 만들기](using/messages/create-email.md)
-   + [푸시 알림 만들기](using/messages/create-push.md)
-   + [SMS 메시지 만들기](using/messages/create-sms.md)
-   + [경고 확인](using/messages/alerts.md)
-   + [동의 관리](using/messages/consent.md)
-   + [전송 시간 최적화](using/messages/send-time-optimization.md)
-+ 콘텐츠 디자인 {#design}
-   + [이메일 디자인 시작](using/design/design-emails.md)
-   + [처음부터 시작 ](using/design/create-email-content.md)
-   + [이메일 콘텐츠 가져오기](using/design/existing-content.md)
-   + [나만의 콘텐츠 코딩](using/design/code-content.md)
-   + [템플릿 작업](using/design/email-templates.md)
-   + 콘텐츠 디자인 {#design-content}
-      + [콘텐츠 구성 요소 사용](using/design/content-components.md)
-      + [백그라운드 설정](using/design/backgrounds.md)
-      + [세로 정렬 및 패딩 조정](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [링크의 스타일 정의](using/design/styling-links.md)
-      + [인라인 스타일 속성 추가](using/design/adding-inline-styling-attributes.md)
-   + 이메일 설정 {#design-email}
-      + [텍스트 버전 생성](using/design/text-version-email.md)
-      + [사전 헤더 추가](using/design/preheader.md)
-   + 자산 추가 및 관리 {#manage-asset}
-      + [Assets Essentials 작업](using/design/assets-essentials.md)
-      + [Adobe Stock 작업](using/design/stock.md)
-   + [개인화된 오퍼 추가](using/design/deliver-personalized-offers.md)
-   + [링크 추가 및 메시지 추적](using/design/message-tracking.md)
-   + [미리보기 및 증명](using/design/preview.md)
-+ 랜딩 페이지 {#landing-pages}
-   + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
-   + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
-   + 콘텐츠 디자인 {#landing-pages-design}
-      + [랜딩 페이지 디자인 정보](using/landing-pages/design-lp.md)
-      + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
-      + [템플릿 만들기](using/landing-pages/lp-templates.md)
-      + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
-   + [구독 목록 만들기](using/landing-pages/subscription-list.md)
-   + [사용 사례](using/landing-pages/lp-use-cases.md)
-+ 개인화{#personalization}
-   + [시작 개인화](using/personalization/personalize.md)
-   + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
-   + 표현식 작성 {#build-expressions}
-      + [개인화 구문](using/personalization/personalization-syntax.md)
-      + 표현식 편집기 작업 {#expression-editor}
-         + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
-         + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
-         + [저장된 표현식으로 작업하기](using/personalization/personalization-library.md)
-         + [개인화 유효성 검사](using/personalization/personalization-validation.md)
-      + 도우미 함수{#functions}
-         + [도우미 함수 시작](using/personalization/functions/functions.md)
-         + [집계 함수](using/personalization/functions/aggregation.md)
-         + [산술 함수](using/personalization/functions/arithmetic-functions.md)
-         + [배열 및 목록 함수](using/personalization/functions/arrays-list.md)
-         + [날짜 시간 함수](using/personalization/functions/dates.md)
-         + [부울 및 비교 함수](using/personalization/functions/operators.md)
-         + [도우미](using/personalization/functions/helpers.md)
-         + [맵 함수](using/personalization/functions/maps.md)
-         + [개체 함수](using/personalization/functions/objects.md)
-         + [문자열 함수](using/personalization/functions/string.md)
-   + 사용 사례{#personalization-use-cases}
-      + [주문 상태 알림](using/personalization/personalization-use-case.md)
-      + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
-+ 세그먼트, 프로필, 신원{#segment}
-   + 세그먼트 {#segments}
-      + [세그먼트 시작](using/segment/about-segments.md)
-      + [세그먼트 작성](using/segment/creating-a-segment.md)
-   + 프로필{#profiles}
-      + [프로필 시작](using/segment/get-started-profiles.md)
-      + [테스트 프로필 만들기](using/segment/creating-test-profiles.md)
-   + [ID](using/segment/get-started-identity.md)
-   + [라이선스 사용](using/segment/license-usage.md)
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 대시보드 액세스](using/reports/live-report.md)
