@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >지원되는 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;} 중 하나 이상을 포함해야 하는 이벤트 유형 데이터 세트만 선택할 수 있습니다(**experienceevent-web**, **experienceevent-application**, **experienceevent-commerce**). 해당 기준과 일치하지 않는 데이터 세트를 선택하면 변경 사항을 저장할 수 없습니다.
+   >지원되는 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target=&quot;_blank&quot;} 중 하나 이상을 포함해야 하는 이벤트 유형 데이터 세트만 선택할 수 있습니다(**experienceevent-web**, **experienceevent-application**, **experienceevent-commerce**). 해당 기준과 일치하지 않는 데이터 세트를 선택하면 변경 사항을 저장할 수 없습니다.
 
    ![](assets/reporting-config-datasets.png)
 
