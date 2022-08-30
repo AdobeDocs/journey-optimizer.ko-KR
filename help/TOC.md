@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 14b0928821e0c1815869711a0bb68a09beb1b7e4
+source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1132'
 ht-degree: 98%
 
 ---
@@ -385,6 +385,7 @@ ht-degree: 98%
          + 이메일 주소 모니터링 {#monitor-reputation}
             + [제외 목록](using/configuration/manage-suppression-list.md)
             + [다시 시도](using/configuration/retries.md)
+            + [허용 목록](using/configuration/allow-list-temp.md)
             + [허용 목록](using/configuration/allow-list.md)
       + [SMS 채널 구성](using/configuration/sms-configuration.md)
       + 채널 표면 설정 {#set-up-channels}

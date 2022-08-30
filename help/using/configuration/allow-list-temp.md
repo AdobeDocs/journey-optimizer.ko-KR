@@ -5,13 +5,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 3%
+source-wordcount: '589'
+ht-degree: 2%
 
 ---
 
@@ -35,19 +33,9 @@ ht-degree: 3%
 
 허용되는 이메일 주소 및 도메인의 세부 목록에 액세스하려면 다음 위치로 이동하십시오. **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, 을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL Allowed list]**.
 
-![](assets/allow-list-access.png)
-
 >[!CAUTION]
 >
 >허용 목록 보기, 내보내기 및 관리를 위한 권한은 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator). 관리에 대해 자세히 알아보기 [!DNL Journey Optimizer] 사용자 액세스 권한 [이 섹션](../administration/permissions-overview.md).
-
-허용 목록을 CSV 파일로 내보내려면 **[!UICONTROL Download CSV]** 버튼을 클릭합니다.
-
-를 사용하십시오 **[!UICONTROL Delete]** 단추를 클릭하여 항목을 영구적으로 제거합니다.
-
-이메일 주소 또는 도메인을 검색하고 **[!UICONTROL Address type]**. 선택한 후에는 목록 위에 표시된 필터를 지울 수 있습니다.
-
-![](assets/allowed-list-filtering-example.png)
 
 ## 허용 목록 활성화 {#enable-allow-list}
 
@@ -55,13 +43,9 @@ ht-degree: 3%
 
 1. **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** 메뉴에 액세스합니다.
 
-1. **[!UICONTROL Enable/Disable allowed list]**&#x200B;을(를) 클릭합니다.
-
-   ![](assets/allow-list-edit.png)
+1. **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Enable allowed list]**&#x200B;를 선택합니다.
-
-   ![](assets/allow-list-enable.png)
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 허용 목록이 활성화되어 있습니다.
 
@@ -73,48 +57,11 @@ ht-degree: 3%
 
 ## 허용 목록에 엔티티 추가 {#add-entities}
 
-특정 샌드박스의 허용 목록에 새 이메일 주소 또는 도메인을 추가하려면 다음 중 하나를 수행할 수 있습니다 [수동으로 목록 채우기](#manually-populate-list), 또는 [API 호출](#api-call-allowed-list).
+특정 샌드박스의 허용 목록에 새 이메일 주소 또는 도메인을 추가하려면 [API 호출](#api-call-allowed-list).
 
 >[!NOTE]
 >
 >허용 목록은 최대 1,000개의 항목을 포함할 수 있습니다.
-
-### 수동으로 허용 목록 채우기 {#manually-populate-list}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_allowed_list_add"
->title="허용 목록에 주소 또는 도메인 추가"
->abstract="새 이메일 주소 또는 도메인을 하나씩 선택하여 허용 목록에 수동으로 추가할 수 있습니다."
-
-수동으로 [!DNL Journey Optimizer] 사용자 인터페이스를 통해 이메일 주소 또는 도메인을 추가하여 허용 목록.
-
->[!NOTE]
->
->한 번에 하나의 이메일 주소나 도메인만 추가할 수 있습니다.
-
-이렇게 하려면 아래 단계를 수행합니다.
-
-1. **[!UICONTROL Add email or domain]** 버튼을 선택합니다.
-
-   ![](assets/allowed-list-add-email.png)
-
-1. 주소 유형을 선택합니다. **[!UICONTROL Email address]** 또는 **[!UICONTROL Domain address]**.
-
-1. 전자 메일을 보낼 전자 메일 주소 또는 도메인을 입력합니다.
-
-   >[!NOTE]
-   >
-   >올바른 이메일 주소(예: abc@company.com) 또는 도메인(예: abc.company.com)을 입력해야 합니다.
-
-1. 필요한 경우 이유를 지정합니다.
-
-   ![](assets/allowed-list-add-email-address.png)
-
-   >[!NOTE]
-   >
-   >32-126 사이의 모든 ASCII 문자는 **[!UICONTROL Reason]** 필드. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
-
-1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
 ### API 호출을 사용하여 엔티티 추가 {#api-call-allowed-list}
 
