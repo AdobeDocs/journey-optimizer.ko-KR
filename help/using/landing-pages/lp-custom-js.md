@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 2%
@@ -66,7 +66,7 @@ function init(lpRuntime){
 | 이름 | 설명 |
 |--- |--- |
 | addBeforeSubmitHook | 양식을 제출하기 전에 호출할 사용자 지정 후크입니다. 제출을 계속하려면 true를 반환하고, 실행을 차단하려면 false를 반환합니다. |
-| addBeforeSubmitHook | 양식 제출 실패 시 호출할 사용자 지정 후크입니다. |
+| addOnFailureHook | 양식 제출 실패 시 호출할 사용자 지정 후크입니다. |
 | addOnSuccessHook | 양식 제출 시 호출할 사용자 지정 후크입니다. |
 
 **예:**

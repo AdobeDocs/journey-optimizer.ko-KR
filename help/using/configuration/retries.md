@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '449'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,14 @@ ht-degree: 2%
 * 다른 게재가 있고 최소 24시간 간격으로 두 개의 오류가 발생하는 경우 오류 카운터가 각 오류 시 증가하며 다섯 번째 시도에서는 주소도 억제됩니다.
 
 다시 시도하여 게재가 성공하면 주소의 오류 카운터는 다시 초기화됩니다.
+
+## 다시 시도 임계값 편집 {#edit-retry-threshold}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_bounces"
+>title="오류 수 임계값 업데이트"
+>abstract="기본값이 사용자 요구에 맞지 않는 경우 허용된 연속 소프트 바운스 수를 수정할 수 있습니다. 다시 시도 카운터가 특정 전자 메일 주소의 오류 임계값에 도달하면 이 주소가 제외 목록에 추가됩니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="지원 목록 이해"
 
 기본값 5가 사용자의 요구 사항에 맞지 않는 경우 아래 단계에 따라 오류 임계값을 수정할 수 있습니다.
 

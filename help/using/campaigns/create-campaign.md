@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 87f9a4661b64cf24a8cd62bb9c70d5f1c9fcaddf
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 13%
+source-wordcount: '700'
+ht-degree: 11%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 13%
 >* [세그먼트 시작](../segment/about-segments.md)
 
 
-캠페인을 만드는 단계는 다음과 같습니다.
+## 첫 번째 캠페인 만들기 {#create}
 
 1. 액세스 권한 **[!UICONTROL Campaigns]** 메뉴를 클릭한 다음 **[!UICONTROL Create campaign]**.
 
-   ![](assets/create-campaign.png)
-
    >[!NOTE]
    >
-   >기존 라이브 캠페인을 복제하여 새 라이브 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
+   >기존 라이브 캠페인을 복제하여 새 라이브 캠페인을 만들 수도 있습니다. [자세히 보기](modify-stop-campaign.md#duplicate)
+
+   ![](assets/create-campaign.png)
 
 <!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
@@ -40,13 +40,15 @@ ht-degree: 13%
 
 1. 에서 **[!UICONTROL Actions]** 섹션에서 메시지를 보내는 데 사용할 채널과 채널 표면을 선택한 다음 **[!UICONTROL Create]**.
 
-   ![](assets/create-campaign-action.png)
-
    표면은 [시스템 관리자](../start/path/administrator.md)에 의해 정의된 구성입니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md).
+
+   ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >캠페인 유형(마케팅 또는 트랜잭션)과 호환되는 채널 표면만 드롭다운 목록에 나열됩니다.
+   >마케팅 캠페인 유형과 호환되는 채널 표면만 드롭다운 목록에 나열됩니다.
+
+<!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
 1. 캠페인의 제목과 설명을 지정합니다.
 
@@ -62,6 +64,7 @@ ht-degree: 13%
       * [푸시 알림 만들기](../messages/create-push.md)
       * [SMS 메시지 만들기](../messages/create-sms.md)
    1. 컨텐츠가 정의되면 **[!UICONTROL Simulate content]** 테스트 프로필로 컨텐츠를 미리 보고 테스트할 수 있습니다. [자세히 알아보기](../design/preview.md).
+
    1. 화살표를 클릭하여 캠페인 만들기 화면으로 돌아갑니다.
 
       ![](assets/create-campaign-design.png)
@@ -83,17 +86,11 @@ ht-degree: 13%
    >
    >다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타겟팅되지 않습니다.
 
-1. 시작 및 종료 날짜 필드에서 캠페인의 일정을 구성합니다. 기본적으로 캠페인은 수동으로 활성화되면 시작되며, 메시지가 한 번 전송되면 바로 종료됩니다.
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-1. 또한 캠페인에 구성된 작업 실행 빈도를 지정할 수 있습니다.
+1. 특정 날짜 또는 반복 빈도로 캠페인을 실행하려면 를 구성합니다 **[!UICONTROL Schedule]** 섹션을 참조하십시오. [캠페인을 예약하는 방법 알아보기](#schedule)
 
-   <!-- NOTE For API-triggered campaigns, scheduling at a specific date and time with recurrence is not available as action is triggered via API. However, start and end date are relevant to ensure that, if an API call is made prior of after the window, then those get errored.-->
-
-   ![](assets/create-campaign-schedule.png)
-
-<!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
-
-캠페인이 준비되면 검토하고 게시할 수 있습니다. [자세히 알아보기](#review-activate);
+캠페인이 준비되면 검토하고 게시할 수 있습니다. [자세히 보기](#review-activate)
 
 ## 캠페인 검토 및 활성화 {#review-activate}
 
@@ -128,3 +125,13 @@ ht-degree: 13%
    전용 보고서에서 **[!UICONTROL Reports]** 버튼을 클릭합니다. [자세히 보기](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
+
+## 캠페인 예약 {#schedule}
+
+기본적으로 캠페인은 수동으로 활성화되면 시작되고 메시지가 한 번 전송되면 종료됩니다.
+
+캠페인의 메시지를 보낼 빈도를 정의할 수 있습니다. 이렇게 하려면 **[!UICONTROL Action triggers]** 캠페인 만들기 화면의 옵션 을 사용하여 캠페인을 매일, 주별 또는 월별 중 어떤 것으로 실행해야 하는지를 지정합니다.
+
+활성화 직후 캠페인을 실행하지 않으려면 를 사용하여 메시지를 보낼 날짜와 시간을 지정할 수 있습니다 **[!UICONTROL Campaign start]** 선택 사항입니다. 다음  **[!UICONTROL Campaign end]** 옵션을 사용하면 반복 캠페인의 실행을 중지할 시기를 지정할 수 있습니다.
+
+![](assets/create-campaign-schedule.png)

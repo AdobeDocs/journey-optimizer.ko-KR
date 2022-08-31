@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 98%
+source-wordcount: '1825'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 98%
 * 구독을 구성하고 랜딩 페이지를 만드는 방법을 보여주는 비디오가 이제 랜딩 페이지 시작 섹션에서 참조됩니다. [자세히 보기](../landing-pages/get-started-lp.md#video)
 * 세그먼트 읽기 활동을 사용하는 여정에 대한 제한이 추가되었습니다. [자세히 보기](../building-journeys/read-segment.md)
 * 표현식 편집기 연산자 페이지가 개선되었습니다. [자세히 보기](../building-journeys/expression/operators.md)
+* 캠페인을 예약하는 방법에 대한 섹션을 추가했습니다. [자세히 보기](../campaigns/create-campaign.md)
 
 ## 2022년 7월 {#july-2022}
 

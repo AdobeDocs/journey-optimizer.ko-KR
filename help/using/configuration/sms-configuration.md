@@ -4,9 +4,9 @@ description: Journey Optimizer을 사용하여 SMS 메시지를 보내도록 환
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '608'
 ht-degree: 2%
 
 ---
@@ -25,12 +25,12 @@ SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="SMS 공급업체 구성"
+>title="SMS 공급업체 구성을 선택합니다"
 >abstract="공급업체 를 선택하고 SMS API 자격 증명을 입력합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="SMS 공급업체 구성"
+>title="SMS 공급업체 구성을 선택합니다"
 >abstract="SMS 공급업체용으로 구성된 API 자격 증명을 선택합니다."
 
 Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단계를 수행합니다.

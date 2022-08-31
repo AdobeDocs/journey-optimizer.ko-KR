@@ -1,5 +1,5 @@
 ---
-title: 컨텐츠 실험 만들기
+title: 콘텐츠 실험 만들기
 description: 캠페인에서 컨텐츠 실험을 만드는 방법을 알아봅니다
 feature: Overview
 topic: Content Management
@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 3%
+source-wordcount: '899'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,11 @@ ht-degree: 3%
 >
 >컨텐츠 실험 기능은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
-컨텐츠 실험 기능을 사용하면 여러 전달 처리를 정의할 수 있습니다. 관심 대상은 관심 지표에 대해 가장 잘 수행하는 대상을 결정하기 위해 각 처리에 무작위로 할당됩니다. 이메일의 콘텐츠, 제목 또는 발신자를 변경하도록 선택할 수 있습니다.
+>[!NOTE]
+>
+>컨텐츠 실험을 사용하기 전에 사용자 지정 데이터 세트에 대해 보고 구성이 설정되어 있는지 확인하십시오. 자세한 내용은 [이 섹션](reporting-configuration.md)을 참조하십시오.
+
+컨텐츠 실험 기능을 사용하면 여러 게재 처리를 정의할 수 있습니다. 관심 대상은 관심 지표에 대해 가장 잘 수행하는 대상을 결정하기 위해 각 처리에 무작위로 할당됩니다. 이메일의 콘텐츠, 제목 또는 발신자를 변경하도록 선택할 수 있습니다.
 
 아래 예에서는 게재 대상이 두 그룹으로 분할되어, 각각 타겟팅된 모집단의 45%를 나타내고, 10%의 상위 그룹은 게재를 받지 않습니다.
 
