@@ -1,21 +1,21 @@
 ---
-title: 컨텐츠 실험 시작
+title: 콘텐츠 실험 시작
 description: 의 콘텐츠 실험에 대해 자세히 알아보십시오 [!DNL Journey Optimizer]
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 0%
+source-wordcount: '1494'
+ht-degree: 1%
 
 ---
 
-# 컨텐츠 실험 시작 {#get-started-experiment}
+# 콘텐츠 실험 시작 {#get-started-experiment}
 
 >[!AVAILABILITY]
 >
@@ -61,7 +61,7 @@ Experiments를 실행할 때는 특정 모범 사례를 따르는 것이 중요�
 +++적합한 대상 크기로 테스트를 실행하거나 장기간 동안 실행합니다
 
 테스트를 더 오래 실행하면 목표 지표에서 치료 간 더 작은 차이를 감지할 수 있습니다. 하지만 목표 지표의 기준선 값이 작은 경우 더 큰 샘플 크기가 필요합니다.
-테스트에 포함되어야 하는 사용자 수는 감지하려는 효과 크기, 목표 지표의 분산 또는 확산과 잘못된 양수 및 잘못된 음수 오류에 대한 허용치에 따라 달라집니다. 클래식 실험에서는 [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR) 테스트를 실행해야 하는 시간을 결정합니다.
+테스트에 포함되어야 하는 사용자 수는 감지하려는 효과 크기, 목표 지표의 분산 또는 확산과 잘못된 양수 및 잘못된 음수 오류에 대한 허용치에 따라 달라집니다. 클래식 실험에서는 [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR){_blank} 을 입력하여 테스트를 실행해야 하는 시간을 결정합니다.
 +++
 
 +++통계적 불확실성 이해

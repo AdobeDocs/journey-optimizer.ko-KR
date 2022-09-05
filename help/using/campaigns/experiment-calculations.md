@@ -1,17 +1,17 @@
 ---
-title: 실험용으로 사용되는 통계 계산
+title: Adobe Journey Optimizer 실험에서 사용하는 통계 계산
 description: 실험 실행 시 사용되는 통계 계산에 대해 자세히 알아보기
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 1%
+source-wordcount: '897'
+ht-degree: 0%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->컨텐츠 실험 기능은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+>다음 **컨텐츠 실험** 기능은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
-이 문서에서는 Adobe Journey Optimizer에서 Experiment를 실행할 때 사용되는 통계 계산에 대해 설명합니다. 실험에서는 고급 통계 방법을 사용하여 계산합니다 **신뢰도 시퀀스** 및 **신뢰도**- 필요한 동안 실험을 실행하고 결과를 지속적으로 모니터링할 수 있습니다.
+이 문서에서는 Adobe Journey Optimizer에서 Experiment를 실행할 때 사용되는 통계 계산에 대해 설명합니다.
+
+실험에서는 고급 통계 방법을 사용하여 계산합니다 **신뢰도 시퀀스** 및 **신뢰도**- 필요한 동안 실험을 실행하고 결과를 지속적으로 모니터링할 수 있습니다.
 
 이 문서에서는 실험 작동 방식을 설명하고 Adobe의 직관적인 소개를 제공합니다 **언제든지 유효한 신뢰 시퀀스**.
 
@@ -68,4 +70,4 @@ A **신뢰도 시퀀스** 는 의 순차적 아날로그 **신뢰도 구간**&#x
 
 이때 가장 성과가 좋은 처리(전환율 또는 프로필 정규화 지표 값 기반)는 보고서 화면의 맨 위에서 강조 표시되고 테이블 형식 보고서에 별표로 표시됩니다. 기준선과 함께 95% 이상의 신뢰도를 갖는 치료만 이 결정에서 고려됩니다.
 
-두 개 이상의 치료법이 있을 경우, Bonferroni 수정 링크를 사용하여 여러 비교 문제를 수정하고 가족 단위 오류 비율을 제어합니다. 이 시나리오에서는 신뢰도가 95%보다 크고 신뢰 구간이 겹치는 여러 치료가 있을 수도 있습니다. 이 경우 Adobe은 전환율이 가장 높은 지표(또는 프로필 정규화된 지표 값)를 가장 좋은 수행자로 선언합니다.
+두 개 이상의 치료법이 있을 경우, Bonferroni 수정 링크를 사용하여 여러 비교 문제를 수정하고 가족 단위 오류 비율을 제어합니다. 이 시나리오에서는 신뢰도가 95%보다 크고 신뢰 구간이 겹치는 여러 치료가 있을 수도 있습니다. 이 경우 Adobe Journey Optimizer은 전환율이 가장 높은 지표(또는 프로필 정규화된 지표 값)를 가장 좋은 수행자로 선언합니다.

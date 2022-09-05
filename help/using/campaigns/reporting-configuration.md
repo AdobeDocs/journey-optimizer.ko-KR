@@ -1,5 +1,5 @@
 ---
-title: 보고 구성
+title: 실험을 위한 Journey Optimizer 보고 구성
 description: 보고 데이터 소스를 설정하는 방법 알아보기
 feature: Data Sources
 topic: Administration
@@ -8,14 +8,14 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 43%
+source-wordcount: '704'
+ht-degree: 42%
 
 ---
 
-# 보고 구성 {#reporting-configuration}
+# 실험 보고 구성 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
