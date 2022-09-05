@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
+source-git-commit: 6068060e66f75a7727f4a0fdae580c11542fa13b
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 4%
@@ -101,7 +101,7 @@ Journey Optimizer 컨텐츠 실험을 사용하여 여러 전달 처리를 정�
 
 치료법이 개인화되면 컨텐츠 실험 구성을 시작할 수 있습니다.
 
-## 컨텐츠 실험 구성 {#configure-experiment}
+## 콘텐츠 실험 구성 {#configure-experiment}
 
 1. 두 게재가 모두 개인화된 경우, **[!UICONTROL Edit content]** 창, 선택 **[!UICONTROL Configure content experiment]**.
 
