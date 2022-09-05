@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: 7476c50f82c0fdd63f282b3ee2dc3756862f598c
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -43,7 +43,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 Handlebars에서 {{expression}} is **HTML 이스케이프 처리**. 표현식에 가 포함되어 있는 경우 `&`를 반환하면 반환된 HTML 이스케이프 처리된 출력이 `&amp;`. Handlebars가 값을 이스케이프 처리하지 않도록 하려면 &quot;트리플 스태시&quot;를 사용합니다.
 
-리터럴 함수 인수와 관련하여 템플릿 언어 파서는 이스케이프 처리되지 않은 단일 백슬래시(&#39;\&#39;) 기호를 지원하지 않습니다. 이 문자는 추가 백슬래시(&#39;\&#39;) 기호를 사용하여 이스케이프해야 합니다. 예 :
+리터럴 함수 인수와 관련하여 템플릿 언어 파서는 이스케이프 처리되지 않은 단일 백슬래시(`\`) 기호를 포함합니다. 이 문자는 추가 백슬래시(`\`) 기호를 포함합니다. 예 :
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
