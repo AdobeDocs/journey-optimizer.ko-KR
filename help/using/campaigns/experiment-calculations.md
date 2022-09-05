@@ -1,14 +1,14 @@
 ---
 title: Adobe Journey Optimizer 실험에서 사용하는 통계 계산
 description: 실험 실행 시 사용되는 통계 계산에 대해 자세히 알아보기
-feature: Content Management, A/B Testing
+feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 14a428a0f8b17d9f29d9dfff18c5e9bb7eb77b97
+source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 0%
