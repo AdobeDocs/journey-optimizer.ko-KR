@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: b0f8d97feb7a7f650395d3b91e26d2f837a274a9
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 7%
@@ -583,7 +583,7 @@ doesNotEndWith(person.emailAddress,".com")
 다음 쿼리는 이메일 주소에서 도메인 이름을 추출하는 데 사용됩니다.
 
 ```sql
-{%= regexGroup(emailAddress,"@(\w+)", 1) %}
+{%= regexGroup(emailAddress,"@(\\w+)", 1) %}
 ```
 
 ## 바꾸기 {#replace}

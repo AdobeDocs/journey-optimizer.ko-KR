@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 10%
+source-wordcount: '730'
+ht-degree: 9%
 
 ---
 
@@ -42,6 +42,10 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 단어 **true**, **false**, **null** 및 **정의되지 않음** 경로 식의 첫 부분에서만 허용됩니다.
 
 Handlebars에서 {{expression}} is **HTML 이스케이프 처리**. 표현식에 가 포함되어 있는 경우 `&`를 반환하면 반환된 HTML 이스케이프 처리된 출력이 `&amp;`. Handlebars가 값을 이스케이프 처리하지 않도록 하려면 &quot;트리플 스태시&quot;를 사용합니다.
+
+리터럴 함수 인수와 관련하여 템플릿 언어 파서는 이스케이프 처리되지 않은 단일 백슬래시(&#39;\&#39;) 기호를 지원하지 않습니다. 이 문자는 추가 백슬래시(&#39;\&#39;) 기호를 사용하여 이스케이프해야 합니다. 예 :
+
+`{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
 ## 프로필
 

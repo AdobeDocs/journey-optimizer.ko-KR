@@ -2,10 +2,10 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1825'
-ht-degree: 97%
+source-wordcount: '1871'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 97%
 * 세그먼트 읽기 활동을 사용하는 여정에 대한 제한이 추가되었습니다. [자세히 보기](../building-journeys/read-segment.md)
 * 표현식 편집기 연산자 페이지가 개선되었습니다. [자세히 보기](../building-journeys/expression/operators.md)
 * 캠페인을 예약하는 방법에 대한 섹션을 추가했습니다. [자세히 보기](../campaigns/create-campaign.md)
+* 표현식 편집기의 일반 구문 규칙 섹션에 리터럴 함수에서 이스케이프되는 백슬래시 심볼에 대한 새로운 규칙을 고려하여 업데이트했습니다. 기존 게시된 메시지는 이 변경의 영향을 받지 않습니다. 새 메시지나 초안 메시지만 업데이트해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#general-rules)
 
 ## 2022년 7월 {#july-2022}
 
