@@ -2,10 +2,10 @@
 title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 5aae2f685969460329f241720b0faf9c681fa668
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 95%
 
 **여정**
 
-* **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 끝 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 고객이 여정에서 드롭된 위치를 여정 전문가의 작업 없이 더 잘 보고할 수 있습니다. 자세한 내용은 [설명서](../building-journeys/journey-end.md) 및 [기능 비디오](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 종료 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 고객이 여정에서 드롭된 위치를 여정 전문가의 작업 없이 더 잘 보고할 수 있습니다. 자세한 내용은 [설명서](../building-journeys/journey-end.md) 및 [기능 비디오](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}를 참조하세요.
 
 
 * 다음 **프로필 시간대** 이제 여정 속성에서 옵션이 기본적으로 선택되어 있지 않습니다. [자세히 보기](../building-journeys/timezone-management.md#timezone-from-profiles)
@@ -109,9 +109,9 @@ ht-degree: 95%
 
 * **허용 목록 로직 업데이트** - 이제 목록이 비어 있더라도 기능이 활성화되는 즉시 허용 목록 로직이 적용됩니다. [자세히 보기](../configuration/allow-list.md#logic)
 
-* **URL 추적 매개 변수** - 이제 표현식 편집기를 사용하여 전자 메일 표면(예: 사전 설정)에서 URL 추적 매개 변수를 구성할 수 있습니다. [자세히 알아보기](../configuration/email-settings.md#url-tracking)
+* **URL 추적 매개 변수** - 이제 표현식 편집기를 사용하여 이메일 표면(즉, 사전 설정)에서 URL 추적 매개 변수를 구성할 수 있습니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
 
-**Offer Decisioning**
+**의사 결정 관리**
 
 * **대상 크기** - 이제 의사 결정 규칙을 만들거나, 세그먼트 또는 규칙을 선택하여 오퍼 자격 설정을 하거나, 세그먼트 또는 규칙을 의사 결정 범위에 추가할 때 사용자 인터페이스에 새 대상 크기 예상 구성 요소가 표시됩니다.
 
@@ -340,7 +340,7 @@ ht-degree: 95%
 
 **의사 결정 관리**
 
-* **Edge용 Decisioning API** - Edge Decisioning API는 Offer Decisioning에서 관리하는 개인화된 오퍼를 제공하고 렌더링할 수 있습니다. Offer Decisioning UI(사용자 인터페이스) 또는 API를 사용하여 오퍼 및 기타 관련 개체를 만들 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Edge의 의사 결정 API** - Edge Decisioning API는 의사 결정 관리에서 관리되는 개인화된 오퍼를 제공하고 렌더링할 수 있습니다. 의사 결정 관리 사용자 인터페이스(UI) 또는 API를 사용하여 오퍼 및 기타 관련 개체를 만들 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **관리**
 
@@ -378,7 +378,7 @@ ht-degree: 95%
 **의사 결정 관리**
 
 * 이제 오퍼 한도 설정이 모든 사용자 간에 적용되는지, 아니면 하나의 특정 프로필, 모든 배치 또는 배치마다 적용되는지를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
-* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대해 Offer Decisioning 기능을 사용할 수 있습니다. 세그먼트에 있는 각 프로필에 대한 오퍼 콘텐츠는 사용자 정의 일괄 처리 워크플로우에 사용할 수 있도록 AEP 데이터 세트에 배치됩니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대한 의사 결정 관리 기능을 사용할 수 있습니다. 세그먼트에 있는 각 프로필에 대한 오퍼 콘텐츠는 사용자 정의 일괄 처리 워크플로우에 사용할 수 있도록 AEP 데이터 세트에 배치됩니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **관리**
 
@@ -476,7 +476,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * 이제 메시지를 즉시 보낸 사람 수 및 1시간 최적화, 2시간 최적화 등을 통해 메시지를 보낸 사람 수 등 전송 시간 최적화 데이터에 대한 보고서에 액세스할 수 있습니다.
 
-<!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
+<!--* decision management reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
 **의사 결정 관리**
 
@@ -524,7 +524,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * 이제 Journey Optimizer 단계 이벤트를 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko)의 다른 데이터 세트에 연결할 수 있습니다. 기본 제공 여정 단계 이벤트 스키마의 **profileID** 필드가 이제 ID 필드로 정의됩니다. [자세히 알아보기](../reports/sharing-overview.md#integration-cja)
 
-**offer decisioning**
+**의사 결정 관리**
 
 * 게시된 메시지에서 직접 또는 간접적으로 참조되는 오퍼, 대체 오퍼, 오퍼 컬렉션 또는 오퍼 결정을 업데이트하면 이제 다시 게시할 필요 없이 업데이트가 해당 메시지에 자동으로 반영됩니다. [자세히 알아보기](../offers/offers-e2e.md#insert-decision-in-email)
 

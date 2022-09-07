@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '750'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # 을 사용하여 오퍼 게재 [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-다음 [!DNL Batch Decisioning] API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 offer decisioning 기능을 사용할 수 있습니다. 세그먼트의 각 프로필에 대한 오퍼 콘텐츠는 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
+다음 [!DNL Batch Decisioning] API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대해 의사 결정 기능을 사용할 수 있습니다. 세그먼트의 각 프로필에 대한 오퍼 콘텐츠는 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
 
 사용 [!DNL Batch Decisioning] API를 사용하면 데이터 세트를 결정 범위에 대한 Adobe Experience Platform 세그먼트의 모든 프로필에 대한 최상의 오퍼로 채울 수 있습니다. 예를 들어, 조직이 [!DNL Batch Decisioning] 따라서 메시지 게재 공급업체에 오퍼를 보낼 수 있습니다. 그런 다음 이러한 오퍼는 동일한 사용자 세그먼트에 대한 배치 메시지 전달을 위해 전송되는 콘텐츠로 사용됩니다.
 
@@ -128,7 +128,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | 속성 | 설명 | 예 |
 | -------- | ----------- | ------- |
-| `@id` | 단일 작업 로드를 식별하는 Offer decisioning에 의해 생성된 UUID입니다. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `@id` | 단일 작업 로드를 식별하는 의사 결정 관리로 생성된 UUID입니다. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | 조직 ID입니다. | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | 컨테이너 ID입니다. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 의사 결정 작업 로드 요청을 만든 시간입니다. | `1648078924834` |
@@ -148,7 +148,7 @@ GET  {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions/{WORKLOAD_ID}
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/ode` |
 | `{CONTAINER_ID}` | 결정이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{WORKLOAD_ID}` | 단일 작업 로드를 식별하는 Offer decisioning에 의해 생성된 UUID입니다. | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
+| `{WORKLOAD_ID}` | 단일 작업 로드를 식별하는 의사 결정 관리로 생성된 UUID입니다. | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
 
 **요청**
 
@@ -177,7 +177,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 | 속성 | 설명 | 예 |
 | -------- | ----------- | ------- |
-| `@id` | 단일 작업 로드를 식별하는 Offer decisioning에 의해 생성된 UUID입니다. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `@id` | 단일 작업 로드를 식별하는 의사 결정 관리로 생성된 UUID입니다. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | 조직 ID | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | 컨테이너 ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 의사 결정 작업 로드 요청을 만든 시간입니다. | `1648076994405` |

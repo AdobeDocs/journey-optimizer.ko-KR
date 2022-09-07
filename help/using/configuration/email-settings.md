@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1153'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ When [메시지 만들기](../messages/get-started-content.md)이메일에 대�
 
 ## 하위 도메인 및 IP 풀 {#subdomains-and-ip-pools}
 
-에서 **하위 도메인 및 IP 풀 세부 정보** 섹션:
+에서 **하위 도메인 및 IP 풀** 섹션:
 
 1. 이메일을 보내는 데 사용할 하위 도메인을 선택합니다. [자세히 보기](about-subdomain-delegation.md)
 
@@ -92,7 +92,7 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 ## 헤더 매개 변수{#email-header}
 
-에서 **[!UICONTROL HEADER PARAMETERS]** 섹션에서 해당 표면을 사용하여 보낸 이메일 유형과 연관된 발신자 이름과 이메일 주소를 입력합니다.
+에서 **[!UICONTROL Header parameters]** 섹션에서 해당 표면을 사용하여 보낸 이메일 유형과 연관된 발신자 이름과 이메일 주소를 입력합니다.
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 에서 보낸 이메일의 동일한 사본(또는 빈 사본)을 보낼 수 있습니다 [!DNL Journey Optimizer] 를 BCC 받은 편지함으로 배달되며 이 받은 편지함은 규정 준수 또는 보관 목적으로 저장됩니다.
 
-이렇게 하려면 **[!UICONTROL BCC EMAIL]** 채널 서피스 레벨의 선택적 피쳐 [자세히 보기](bcc-email.md)
+이렇게 하려면 **[!UICONTROL BCC email]** 채널 서피스 레벨의 선택적 피쳐 [자세히 보기](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -171,13 +171,15 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 >title="미리 보기 URL 추적 매개 변수"
 >abstract="추적 매개 변수가 전자 메일 콘텐츠에 있는 URL에 추가되는 방법을 검토하십시오."
 
-다음을 사용할 수 있습니다 **[!UICONTROL URL TRACKING PARAMETERS]** 를 사용하여 여러 채널에서 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 선택 사항입니다.
+다음을 사용할 수 있습니다 **[!UICONTROL URL tracking parameters]** 를 사용하여 여러 채널에서 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 선택 사항입니다.
 
 이 섹션에 정의된 매개 변수가 이메일 메시지 콘텐츠에 포함된 URL의 끝에 추가됩니다. 그런 다음 Adobe Analytics 또는 Google Analytics과 같은 웹 분석 도구에서 이러한 매개 변수를 캡처하고 다양한 성능 보고서를 만들 수 있습니다.
 
-![](assets/preset-url-tracking.png)
+<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-채널 서피스를 생성할 때 세 개의 URL 추적 매개 변수가 예로서 자동으로 채워집니다. 이러한 매개 변수를 편집하고 **[!UICONTROL Add new parameter]** 버튼을 클릭합니다.
+를 사용하여 최대 10개의 추적 매개 변수를 추가할 수 있습니다 **[!UICONTROL Add new parameter]** 버튼을 클릭합니다.
+
+![](assets/preset-url-tracking.png)
 
 URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Value]** 필드.
 

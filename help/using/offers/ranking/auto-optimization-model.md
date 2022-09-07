@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 제한 사항 {#limitations}
 
-offer decisioning에 자동 최적화 모델을 사용하면 아래 제한 사항이 적용됩니다.
+의사 결정 관리에 자동 최적화 모델을 사용하는 경우에는 아래 제한 사항이 적용됩니다.
 
 * 자동 최적화 모델은 Batch Decisioning API에서 작동하지 않습니다.
 * 모델을 만드는 데 필요한 피드백을 경험 이벤트로 보내야 합니다. 자동으로 전달해서는 안 됩니다 [!DNL Journey Optimizer] 채널입니다.

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1060'
 ht-degree: 6%
 
 ---
@@ -191,7 +191,7 @@ ht-degree: 6%
 
 이제 방금 만든 개인화된 오퍼 및 대체 오퍼와 배치를 결합할 결정을 만들어야 합니다.
 
-이 조합은 특정 프로필에 가장 적합한 오퍼를 찾기 위해 Offer decisioning 엔진에서 사용합니다. 이 예에서는 각 오퍼에 할당한 우선 순위 및 결정 규칙을 기반으로 합니다.
+이 조합은 결정 엔진이 특정 프로필에 대한 최상의 오퍼를 찾기 위해 사용합니다. 이 예에서는 각 오퍼에 할당한 우선 순위 및 결정 규칙을 기반으로 합니다.
 
 오퍼 결정을 만들고 구성하려면 아래 주요 단계를 수행하십시오.
 

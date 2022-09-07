@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1107'
 ht-degree: 1%
 
 ---
@@ -183,11 +183,9 @@ ht-degree: 1%
 
 1. CSV 템플릿을 제외 목록에 추가할 이메일 주소 및/또는 도메인으로 입력합니다.
 
-1. 완료되면 CSV 파일을 끌어다 놓은 다음 를 클릭합니다 **[!UICONTROL Upload file]**.
+1. 완료되면 CSV 파일을 끌어다 놓은 다음 를 클릭합니다 **[!UICONTROL Submit]**.
 
-   ![](assets/suppression-list-upload-file-button.png)
-
-1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
+   ![](assets/suppression-list-upload-csv-submit.png)
 
 >[!NOTE]
 >

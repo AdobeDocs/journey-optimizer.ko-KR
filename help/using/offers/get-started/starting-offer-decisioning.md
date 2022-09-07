@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '937'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer]을(를) 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 오퍼 및 경험을 제공하십시오. 디자인한 후에는 개인화된 오퍼를 통해 대상을 타기팅하십시오.
 
-Offer Decisioning을 사용하면 마케팅 오퍼의 중앙 라이브러리와 Adobe Experience Platform에서 만든 풍부한 실시간 프로필에 규칙과 제한을 적용하여 고객에게 적시에 적절한 오퍼를 제공하는 의사 결정 엔진을 통해 쉽게 개인화할 수 있습니다.
+의사 결정 관리를 사용하면 마케팅 오퍼의 중앙 라이브러리 및 Adobe Experience Platform에서 만든 풍부한 실시간 프로필에 규칙과 제한을 적용하여 고객에게 적합한 오퍼를 적시에 보낼 수 있도록 하는 의사 결정 엔진을 통해 개인화를 쉽게 수행할 수 있습니다.
 
 의사 결정 관리 기능은 다음 두 가지 주요 구성 요소로 이루어집니다.
 
@@ -69,7 +69,7 @@ Offer Decisioning을 사용하면 마케팅 오퍼의 중앙 라이브러리와 
 
 ## 의사 결정 관리 액세스 권한 부여 {#granting-acess-to-decision-management}
 
-offer decisioning 기능의 액세스 및 사용 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}을 통해 관리할 수 있습니다.
+의사 결정 기능에 액세스하고 사용할 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
 [의사 결정 관리] 기능에 대한 액세스 권한을 부여하려면 **[!UICONTROL Product profile]**&#x200B;을 만들고 사용자에게 해당 권한을 할당합니다. [!DNL Journey Optimizer]의 사용자 및 권한 관리에 대한 자세한 정보는 [이 섹션](../../administration/permissions.md)을 참조하세요.
 

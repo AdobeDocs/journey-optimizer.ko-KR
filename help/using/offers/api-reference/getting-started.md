@@ -1,21 +1,21 @@
 ---
 title: 시작하기
-description: 오퍼 라이브러리 API를 사용하여 의사 결정 관리 엔진을 사용하여 주요 작업을 수행하는 방법을 알아봅니다.
+description: Offer Library API를 사용하여 의사 결정 엔진을 사용하여 주요 작업을 수행하는 방법을 알아봅니다.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 5%
 
 ---
 
 # 의사 결정 관리 API 개발자 안내서 {#decision-management-api-developer-guide}
 
-이 개발자 가이드는 를 사용하는 데 도움이 되는 단계를 제공합니다. [!DNL Offer Library] API. 그러면 안내서에서는 결정 관리 엔진을 사용하여 주요 작업을 수행하기 위한 샘플 API 호출을 제공합니다.
+이 개발자 가이드는 를 사용하는 데 도움이 되는 단계를 제공합니다. [!DNL Offer Library] API. 그런 다음 이 안내서에서는 의사 결정 엔진을 사용하여 키 작업을 수행하기 위한 샘플 API 호출을 제공합니다.
 
 ➡️ [이 비디오에서 결정 관리의 구성 요소에 대해 자세히 알아보십시오](#video)
 
@@ -25,7 +25,7 @@ ht-degree: 5%
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}: 표준화된 프레임워크 [!DNL Experience Platform] 고객 경험 데이터를 구성합니다.
    * [스키마 작성 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR-KR){target=&quot;_blank&quot;}: XDM 스키마의 기본 구성 요소에 대해 알아봅니다.
-* [의사 결정 관리](../../../using/offers/get-started/starting-offer-decisioning.md): 일반적으로 Experience Decisioning에 사용되는 개념과 구성 요소, 특히 Offer decisioning에 대해 설명합니다. 고객 경험 중에 가장 적합한 옵션을 선택하는 데 사용되는 전략을 보여줍니다.
+* [의사 결정 관리](../../../using/offers/get-started/starting-offer-decisioning.md): 일반적으로 Experience Decisioning에 사용되는 개념과 구성 요소, 특히 의사 결정 관리에 대해 설명합니다. 고객 경험 중에 가장 적합한 옵션을 선택하는 데 사용되는 전략을 보여줍니다.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: PQL은 XDM 인스턴스에서 표현식을 작성할 수 있는 강력한 언어입니다. PQL은 의사 결정 규칙을 정의하는 데 사용됩니다.
 
 ## 샘플 API 호출 읽기 {#reading-sample-api-calls}
@@ -130,7 +130,7 @@ curl -X GET \
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer의 인앱 메시지 채널은 offer decisioning 개체를 사용합니다. 조직에서 인앱 메시징 채널을 사용하는 경우 개체의 API 목록 요청에 인앱 메시징 서비스에서 만든 개체가 포함되며 offer decisioning 사용 사례에 대해 무시될 수 있습니다. 인앱 메시지에 대해 생성된 개체에는 `createdBy = “Mobile_Sheliak”`.
+> Adobe Journey Optimizer의 인앱 메시지 채널은 의사 결정 관리 개체를 사용합니다. 조직에서 인앱 메시징 채널을 사용하는 경우 개체의 API 목록 요청에 인앱 메시징 서비스에서 만든 개체가 포함되며 의사 결정 관리 사용 사례에 대해 무시될 수 있습니다. 인앱 메시지에 대해 생성된 개체에는 `createdBy = “Mobile_Sheliak”`.
 
 ## 방법 비디오 {#video}
 

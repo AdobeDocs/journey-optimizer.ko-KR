@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: bfed2a150c1c1568e666d16753b032b203749033
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 | 기능 유형 | 모델에 기능을 추가하는 방법 |
 |--------------|----------------------------|
-| offer decisioning 개체(placementID, activityID, decisionScopeID) | AEP로 전송된 Offer decisioning 피드백 경험 이벤트의 일부 |
+| 의사 결정 개체(placementID, activityID, decisionScopeID) | AEP로 전송된 의사 결정 관리 피드백 경험 이벤트의 일부 |
 | 세그먼트 | 등급 AI 모델을 만들 때 0-50개의 세그먼트를 기능으로 추가할 수 있습니다 |
-| 컨텍스트 데이터 | AEP로 전송된 Offer decisioning 피드백 경험 이벤트의 일부. 스키마에 추가할 수 있는 컨텍스트 데이터: 상거래 세부 사항, 채널 세부 사항, 애플리케이션 세부 사항, 웹 세부 사항, 환경 세부 사항, 장치 세부 사항, placeContext |
+| 컨텍스트 데이터 | AEP로 전송된 의사 결정 피드백 경험 이벤트의 일부. 스키마에 추가할 수 있는 컨텍스트 데이터: 상거래 세부 사항, 채널 세부 사항, 애플리케이션 세부 사항, 웹 세부 사항, 환경 세부 사항, 장치 세부 사항, placeContext |
 
 이 모델에는 다음 두 단계가 있습니다.
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -111,7 +111,7 @@ in [!DNL Journey Optimizer] 이메일에서, 고객에게 제공할 최상의 �
 
 ## 방법 비디오{#video-offers}
 
-의 메시지에 offer decisioning 구성 요소를 추가하는 방법을 알아봅니다. [!DNL Journey Optimizer].
+의 메시지에 의사 결정 관리 구성 요소를 추가하는 방법을 알아봅니다. [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
 

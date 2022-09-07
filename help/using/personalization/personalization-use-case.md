@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 이 사용 사례에서는 단일 푸시 알림 메시지에서 여러 유형의 개인화를 사용하는 방법을 확인할 수 있습니다. 다음 세 가지 유형의 개인화가 사용됩니다.
 
 * **프로필**: 프로필 필드를 기반으로 한 메시지 개인화
-* **오퍼 결정**: offer decisioning 변수를 기반으로 한 개인화
+* **오퍼 결정**: 의사 결정 관리 변수를 기반으로 한 개인화
 * **컨텍스트**: 여정의 컨텍스트 데이터 기반의 개인화
 
 이 예제의 목표는 이벤트를 [!DNL Journey Optimizer] 고객 주문이 업데이트될 때마다 그런 다음 주문 및 개인화된 오퍼에 대한 정보를 사용하여 고객에게 푸시 알림이 전송됩니다.
@@ -77,7 +77,7 @@ ht-degree: 1%
 
    ![](assets/perso-uc13.png)
 
-1. 왼쪽 메뉴에서 **오퍼 결정** offer decisioning 변수를 삽입하려면 다음을 수행하십시오. 배치를 선택하고 을(를) 클릭합니다. **+** 아이콘 옆에 있는 를 클릭하여 본문을 추가합니다.
+1. 왼쪽 메뉴에서 **오퍼 결정** 의사결정 변수를 삽입하려면 다음을 수행하십시오. 배치를 선택하고 을(를) 클릭합니다. **+** 아이콘 옆에 있는 를 클릭하여 본문을 추가합니다.
 
    ![](assets/perso-uc14.png)
 

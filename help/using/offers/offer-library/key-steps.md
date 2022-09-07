@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '341'
 ht-degree: 13%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 13%
 
 ## 결정 만들기 및 구성 {#create-and-configure-decisions}
 
-1. **결정 만들기** 배치와 개인화된 오퍼 및 대체 오퍼를 결합합니다. 이 조합은 특정 프로필에 가장 적합한 오퍼를 찾기 위해 Offer decisioning 엔진에서 사용합니다.
+1. **결정 만들기** 배치와 개인화된 오퍼 및 대체 오퍼를 결합합니다. 이 조합은 결정 엔진이 특정 프로필에 대한 최상의 오퍼를 찾는 데 사용됩니다.
 
 1. **결정 구성**. 이렇게 하려면 배치를 선택하고 각 배치에 대해 컬렉션과 폴백을 선택합니다.
 

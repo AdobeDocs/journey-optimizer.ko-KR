@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 2%
@@ -21,9 +21,9 @@ ht-degree: 2%
 
 Experience Platform 웹 SDK는 의사 결정 관리를 포함하여 Adobe에서 개인화 솔루션 쿼리를 지원하므로 API 또는 오퍼 라이브러리를 사용하여 만든 개인화된 오퍼를 검색하고 렌더링할 수 있습니다. 자세한 지침은 [오퍼 만들기](../../get-started/starting-offer-decisioning.md).
 
-를 사용하여 Offer decisioning을 구현하는 방법에는 두 가지가 있습니다 [Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 한 가지 방법은 개발자를 위한 것이고 웹 사이트와 프로그래밍에 대한 지식이 필요합니다. 다른 방법은 Adobe Experience Platform 사용자 인터페이스를 사용하여 HTML 페이지의 헤더에서 작은 스크립트만 참조하도록 하는 오퍼를 설정하는 것입니다.
+을 사용하여 의사 결정 관리를 구현하는 방법에는 두 가지가 있습니다 [Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 한 가지 방법은 개발자를 위한 것이고 웹 사이트와 프로그래밍에 대한 지식이 필요합니다. 다른 방법은 Adobe Experience Platform 사용자 인터페이스를 사용하여 HTML 페이지의 헤더에서 작은 스크립트만 참조하도록 하는 오퍼를 설정하는 것입니다.
 
-다음 문서를 참조하십시오. [offer decisioning](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대한 자세한 정보.
+다음 문서를 참조하십시오. [의사 결정 관리](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대한 자세한 정보.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ SDK를 사용하려면 [스키마](../../../start/get-started-schemas.md) 그리
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
 
-offer decisioning에 대한 SDK를 구성하려면 아래 두 단계 중 하나를 수행하십시오.
+의사 결정 관리를 위해 SDK를 구성하려면 아래 두 단계 중 하나를 수행하십시오.
 
 ## 옵션 1 - Launch를 사용하여 태그 확장 및 구현 설치
 
@@ -90,7 +90,7 @@ offer decisioning에 대한 SDK를 구성하려면 아래 두 단계 중 하나�
 
 ## 옵션 2 - 사전 빌드된 독립형 버전을 사용하여 수동으로 구현
 
-다음은 웹 SDK의 사전 설치된 독립형 설치를 사용하여 Offer decisioning을 사용하는 데 필요한 단계입니다. 이 안내서에서는 이 작업이 SDK를 처음 구현하는 것이라며, 따라서 모든 단계를 사용자에게 적용할 수 없을 수 있습니다. 이 안내서에서는 일부 개발 경험도 가정합니다.
+다음은 웹 SDK의 사전 설치된 독립 실행형 설치를 사용하여 의사 결정 관리를 사용하는 데 필요한 단계입니다. 이 안내서에서는 이 작업이 SDK를 처음 구현하는 것이라며, 따라서 모든 단계를 사용자에게 적용할 수 없을 수 있습니다. 이 안내서에서는 일부 개발 경험도 가정합니다.
 
 옵션 2에서 다음 JavaScript 코드 조각을 포함합니다. 사전 빌드된 독립형 버전 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 에서 `<head>` 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 

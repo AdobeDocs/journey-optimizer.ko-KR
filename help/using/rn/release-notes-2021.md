@@ -2,10 +2,10 @@
 title: 이전 릴리스 정보(2021)
 description: Journey Optimizer 릴리스 정보
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2067'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer UI에서 주어진 배치에 대해 테스트 프로필에 게재할 오퍼를 시뮬레이션할 수 있습니다. 이를 통해 자격 제한 및 등급 알고리즘 등 의사 결정 논리를 프로덕션에 적용하기 전에 쉽게 확인할 수 있습니다. 이 기능을 통해 기술 전문가 및 비전문가 사용자가 오퍼 의사 결정을 신속하게 테스트하고 잠재적 문제를 해결할 수 있습니다.</p>
+<p>이제 Journey Optimizer UI에서 주어진 배치에 대해 테스트 프로필에 게재할 오퍼를 시뮬레이션할 수 있습니다. 이를 통해 자격 제한 및 등급 알고리즘 등 의사 결정 논리를 프로덕션에 적용하기 전에 쉽게 확인할 수 있습니다. 이 기능을 통해 기술 및 기술 전문가가 아닌 사용자는 의사 결정 관리를 신속하게 테스트하고 잠재적인 문제를 해결할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../offers/offer-activities/simulation.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>

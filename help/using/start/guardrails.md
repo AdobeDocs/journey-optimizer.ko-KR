@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '806'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 ## 의사 결정 관리 보호 기능 {#offer-guardrails}
 
-의사 결정 관리에 대한 성능 보호 및 정적 제한은 [Adobe Offer decisioning 앱 서비스 제품 설명 페이지](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+의사 결정에 대한 성능 보호 및 정적 제한은 [Adobe Offer decisioning 앱 서비스 제품 설명 페이지](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
 
 
 ## 랜딩 페이지는 가드레일을 보장합니다 {#lp-guardrails}

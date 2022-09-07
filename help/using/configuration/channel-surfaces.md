@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 1%
@@ -153,8 +153,6 @@ ht-degree: 1%
 
 1. 클릭 **[!UICONTROL Submit]** 를 클릭하여 변경 사항을 확인합니다.
 
-   ![](assets/preset-confirm-update.png)
-
    >[!NOTE]
    >
    >채널 서피스를 구안으로 저장하고 나중에 업데이트를 다시 시작할 수도 있습니다.
@@ -177,7 +175,7 @@ ht-degree: 1%
 
 설정 **[!UICONTROL Recent update]** 화면에서 업데이트 상태 및 요청한 변경 사항 목록 등의 정보를 볼 수 있습니다.
 
-![](assets/preset-recent-update-screen.png)
+<!--![](assets/preset-recent-update-screen.png)-->
 
 ### 상태 업데이트 {#update-statuses}
 

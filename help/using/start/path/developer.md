@@ -5,9 +5,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ ht-degree: 0%
 
 여러 작업을 **[!DNL Adobe Journey Optimizer]API**.
 
-을 사용하는 데 도움이 되는 절차 [!DNL Offer Library] API가 자세히 설명되어 있습니다 [이 섹션](../../offers/api-reference/getting-started.md). 이 안내서에서는 결정 관리 엔진을 사용하여 주요 작업을 수행하기 위한 샘플 API 호출을 제공합니다.
+을 사용하는 데 도움이 되는 절차 [!DNL Offer Library] API가 자세히 설명되어 있습니다 [이 섹션](../../offers/api-reference/getting-started.md). 이 안내서에서는 의사 결정 엔진을 사용하여 키 작업을 수행하기 위한 샘플 API 호출을 제공합니다.
