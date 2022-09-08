@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '952'
 ht-degree: 3%
 
 ---
@@ -149,6 +149,11 @@ ht-degree: 3%
 에서 API 호출을 작성하는 방법에 대해 자세히 알아보십시오 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target=&quot;_blank&quot;} 참조 설명서입니다.
 
 ## 허용 목록 논리 {#logic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_logic"
+>title="허용 목록 관리"
+>abstract="허용 목록이 활성화되면 허용 목록에 포함된 수신자만 이 샌드박스에서 이메일 메시지를 수신하게 됩니다."
 
 허용 목록이 [활성](#enable-allow-list), 다음 논리가 적용됩니다.
 
