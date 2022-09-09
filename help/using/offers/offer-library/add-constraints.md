@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1772'
 ht-degree: 2%
 
 ---
@@ -72,6 +72,11 @@ ht-degree: 2%
 >abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
 >additional-url="https://video.tv.adobe.com/v/329373" text="데모 비디오 시청"
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_total_profile_estimate"
+>title="총 프로필 예상"
+>abstract="세그먼트나 결정 규칙을 선택하면 예상 자격을 갖춘 프로필에 대한 정보를 볼 수 있습니다."
+
 다음 **[!UICONTROL Offer eligibility]** 섹션에서 세그먼트나 결정 규칙을 사용하여 정의하는 특정 프로필로 오퍼를 제한할 수 있습니다.
 
 >[!NOTE]
@@ -134,6 +139,11 @@ ht-degree: 2%
 >title="최대 가용량 사용"
 >abstract="과도한 요청을 방지하려면 최대 제안 횟수를 정의하는 캡핑 을 사용하십시오."
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="최대 가용량 빈도 설정"
+>abstract="오퍼 최대 가용량 카운터를 일별, 주별 또는 월별 기준으로 재설정하도록 선택할 수 있습니다."
+
 최대 가용량은 오퍼를 표시할 수 있는 최대 횟수를 정의하는 제한으로 사용됩니다.
 
 사용자가 특정 오퍼를 얻는 횟수를 제한하면 과도한 요청을 방지하여 최상의 오퍼로 각 터치포인트를 최적화할 수 있습니다.
@@ -160,6 +170,16 @@ ht-degree: 2%
 
       예를 들어 &#39;Platinum Credit&#39; 오퍼가 있는 은행인 경우 이 오퍼가 프로필당 5번 이상 표시되는 것을 원치 않습니다. 실제로, 사용자는 사용자가 오퍼를 5번 보았고 오퍼에 대해 행동하지 않았다면 다음 최상의 오퍼에 대해 행동할 가능성이 더 높다고 믿고 있습니다.
 
+1. 설정 **[!UICONTROL Frequency]** 최대 가용량 카운트가 재설정되는 빈도를 정의합니다. 이렇게 하려면 계산 기간(일별, 주별 또는 월별)을 정의하고 선택한 일/주/개월 수를 입력합니다.
+
+   ![](../assets/offer-capping-frequency.png)
+
+   >[!NOTE]
+   >
+   >재설정은 정의한 날 또는 해당되는 경우 주/월의 첫 날에 오전 12시 UTC에 수행됩니다. 주 시작일은 일요일입니다.
+
+   예를 들어, 최대 가용량 카운트를 2주마다 재설정하려면 다음을 선택합니다 **[!UICONTROL Weekly]** 에서 **[!UICONTROL Repeat]** 드롭다운 목록 및 유형 **2개** 두 번째 필드에서 참조할 수 있습니다. 재설정은 2주 일요일 오후 12시 UTC에 수행됩니다.
+
 1. 여러 항목을 정의한 경우 [표현](#representations) 오퍼에 대해 최대 가용량 적용 여부를 지정합니다 **[!UICONTROL Across all placements]** 또는 **[!UICONTROL For each placement]**.
 
    ![](../assets/offer-capping-placement.png)
@@ -172,7 +192,7 @@ ht-degree: 2%
 
       예를 들어 오퍼에 가 **이메일** 배치 및 **웹** 배치, 캐핑 위치 설정 **각 배치마다 프로필당 2개**&#x200B;를 지정하는 경우 각 프로필은 이메일 배치에 대해 최대 2회, 웹 배치에 대해서는 2회까지 오퍼를 수신할 수 있습니다.
 
-1. 저장 및 승인되면, 오퍼가 사용자가 정의한 기준에 따라 이 필드에 지정한 횟수를 표시한 경우 해당 배달이 중지됩니다.
+1. 저장 및 승인되면, 정의한 기준 및 기간에 따라 오퍼가 이 필드에서 지정한 횟수를 제시하면 해당 게재가 중지됩니다.
 
 오퍼를 제안하는 횟수는 이메일 준비 시 계산됩니다. 예를 들어, 많은 수의 오퍼가 포함된 이메일을 준비하는 경우 해당 숫자는 이메일 전송 여부와 관계없이 최대 상한에 포함됩니다.
 
