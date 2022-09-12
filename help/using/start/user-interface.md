@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d21ab858913844d655a2b23d22b562b62eb7743c
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 100%
+source-wordcount: '1502'
+ht-degree: 97%
 
 ---
 
@@ -86,9 +86,8 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. [자세히 알아보기](../administration/sandboxes.md)
 
-<!--
-* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
--->
+* **[!UICONTROL Alerts]** - 사용자 인터페이스를 사용하면 Adobe Experience Platform Observability Insights에서 공개한 지표를 기반으로 받은 경고 내역을 볼 수 있습니다. 또한 UI에서 사용 가능한 경고 규칙을 보고, 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target=&quot;_blank&quot;}
+
 
 ## 제품 내 사용 사례 {#in-product-uc}
 
