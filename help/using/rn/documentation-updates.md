@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
 source-wordcount: '1871'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 95%
 
 ## 2022년 8월 {#august-2022}
 
-* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2028년 8월 22일 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer] 2022년 8월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
 * 새 인라인 메시징 흐름을 반영하도록 빈도 규칙 섹션이 업데이트되었습니다. [자세히 보기](../configuration/frequency-rules.md#apply-frequency-rule)
 * 구독을 구성하고 랜딩 페이지를 만드는 방법을 보여주는 비디오가 이제 랜딩 페이지 시작 섹션에서 참조됩니다. [자세히 보기](../landing-pages/get-started-lp.md#video)
-* 세그먼트 읽기 활동을 사용하는 여정에 대한 제한이 추가되었습니다. [자세히 보기](../building-journeys/read-segment.md)
+* [세그먼트 읽기] 활동을 사용하는 여정에 대한 제한 사항을 추가했습니다. [자세히 보기](../building-journeys/read-segment.md)
 * 표현식 편집기 연산자 페이지가 개선되었습니다. [자세히 보기](../building-journeys/expression/operators.md)
 * 캠페인을 예약하는 방법에 대한 섹션을 추가했습니다. [자세히 보기](../campaigns/create-campaign.md)
 * 표현식 편집기의 일반 구문 규칙 섹션에 리터럴 함수에서 이스케이프되는 백슬래시 심볼에 대한 새로운 규칙을 고려하여 업데이트했습니다. 기존 게시된 메시지는 이 변경의 영향을 받지 않습니다. 새 메시지나 초안 메시지만 업데이트해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#general-rules)

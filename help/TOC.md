@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
 + 캠페인{#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)
-   + [라이브 캠페인 관리](using/campaigns/modify-stop-campaign.md)
+   + [실시간 캠페인 관리](using/campaigns/modify-stop-campaign.md)
    + 콘텐츠 실험 {#content-experiment}
       + [콘텐츠 실험 시작](using/campaigns/get-started-experiment.md)
       + [콘텐츠 실험 만들기](using/campaigns/content-experiment.md)
@@ -244,13 +244,13 @@ ht-degree: 97%
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 대시보드 액세스](using/reports/live-report.md)
       + [여정 라이브 보고서](using/reports/journey-live-report.md)
-      + [Campaign Live 보고서](using/reports/campaign-live-report.md)
+      + [캠페인 실시간 보고서](using/reports/campaign-live-report.md)
       + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
       + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
    + 글로벌 보고서 {#global-report}
       + [글로벌 보고서 대시보드 액세스](using/reports/global-report.md)
       + [여정 글로벌 보고서](using/reports/journey-global-report.md)
-      + [Campaign 글로벌 보고서](using/reports/campaign-global-report.md)
+      + [캠페인 글로벌 보고서](using/reports/campaign-global-report.md)
       + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)
       + [구독 목록 글로벌 보고서](using/reports/subscription-report-global.md)
    + 여정 보고서 {#reports}
@@ -266,7 +266,7 @@ ht-degree: 97%
       + [쿼리 예제](using/reports/query-examples.md)
    + 전달성 {#deliverability}
       + [전달성 시작](using/reports/deliverability.md)
-      + [제외 목록 이해](using/reports/suppression-list.md)
+      + [제외 목록 이해하기](using/reports/suppression-list.md)
 + 의사 결정 관리 {#offer-decisioning}
    + 의사 결정 관리 시작 {#get-started-decision}
       + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
