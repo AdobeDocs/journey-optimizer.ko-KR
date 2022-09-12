@@ -3,9 +3,9 @@ title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4576fbc4f75951e0576787b7631e164a87fdb83d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 50%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer에서 캠페인 만들기 및 관리</strong><br/></th>
+<th><strong>Journey Optimizer에서 캠페인 만들고 관리하기</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 캠페인을 사용하여 다양한 채널을 사용하여 특정 세그먼트에 일회성 콘텐츠를 전달할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행되도록 디자인됩니다. 캠페인을 사용하면 작업이 동시에 즉시 또는 지정된 스케줄에 따라 수행됩니다. </p>
+<p>Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 세그먼트에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행되도록 디자인됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>에서 캠페인을 만드는 방법을 알아봅니다 <a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/346680">기능 비디오</a>.
+<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/346680">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
 </td>
 </tr>
 </tbody>
@@ -41,7 +41,7 @@ ht-degree: 50%
 <table>
 <thead>
 <tr>
-<th><strong>사용자에게 SMS 보내기(일반 가용성)</strong><br/></th>
+<th><strong>사용자에게 SMS 보내기(일반적인 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -78,9 +78,9 @@ ht-degree: 50%
 
 **보고**
 
-* 이제 여정 글로벌 보고서에서 동의 정책 테이블 및 그래프를 사용할 수 있습니다. 이러한 위젯을 사용하면 사용자 지정 작업의 정책에서 제외된 프로필을 추적할 수 있습니다. [자세히 보기](../reports/journey-global-report.md#journey-global)
+* 이제 [여정] 글로벌 보고서에서 동의 정책 테이블 및 그래프를 사용할 수 있습니다. 이 위젯을 사용하여 사용자 정의 작업의 정책에서 제외된 프로필을 추적할 수 있습니다. [자세히 보기](../reports/journey-global-report.md#journey-global)
 
-   최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 지정에 대한 자세한 내용은 [자세한 설명서](../reports/global-report.md).
+   최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/global-report.md)를 참조하세요.
 
 **관리**
 
