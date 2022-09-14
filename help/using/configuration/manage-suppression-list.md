@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
@@ -112,12 +112,15 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
 >title="제외 목록에 전자 메일 또는 도메인 추가"
->abstract="전송에서 특정 이메일 주소 및/또는 도메인을 제외하도록 Journey Optimizer 제외 목록을 수동으로 채울 수 있습니다."
+>abstract="전송에서 특정 이메일 주소 및/또는 도메인을 제외하려면 Journey Optimizer 제외 목록을 수동으로 채울 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="제외 목록에 전자 메일 또는 도메인 추가"
->abstract="Journey Optimizer 제외 목록을 채우기 위해 수동으로 이메일 주소 또는 도메인(한 번에 하나씩 또는 CSV 파일 업로드를 통해 일괄 모드)을 추가할 수 있습니다. 이러한 특정 이메일 주소 및/또는 도메인은 전송에서 제외됩니다."
+>abstract="전송에서 특정 이메일 주소 및/또는 도메인을 제외하도록 Journey Optimizer 제외 목록을 수동으로 채울 수 있습니다."
+
+<!--New contextual help content for September release:
+To populate the Journey Optimizer suppression list, you can manually add email addresses or domains - one at a time, or in bulk mode through a CSV file upload. These specific email addresses and/or domains will be excluded from your sending.-->
 
 메시지를 전자 메일 주소에 배달하지 못하면 이 주소가 정의된 제외 규칙 또는 바운스 수를 기반으로 하여 제외 목록에 자동으로 추가됩니다.
 
