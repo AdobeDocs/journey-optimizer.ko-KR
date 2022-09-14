@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1212'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 제외 목록에 액세스합니다 {#access-suppression-list}
 
-제외된 이메일 주소의 세부 목록에 액세스하려면 다음 위치로 이동하십시오. **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, 을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL Suppression list]**.
+제외된 이메일 주소의 세부 목록에 액세스하려면 다음 위치로 이동하십시오. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 이메일 구성]**, 을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL 제외 목록]**.
 
 >[!CAUTION]
 >
@@ -43,15 +43,15 @@ ht-degree: 1%
 
 ![](assets/suppression-list-filters.png)
 
-을(를) **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, 또는 **[!UICONTROL Reason]**. 각 기준에 대해 선택한 옵션을 선택합니다. 선택하면 각 필터 또는 목록 맨 위에 표시된 모든 필터를 지울 수 있습니다.
+을(를) **[!UICONTROL 제외 카테고리]**, **[!UICONTROL 주소 유형]**, 또는 **[!UICONTROL 이유]**. 각 기준에 대해 선택한 옵션을 선택합니다. 선택하면 각 필터 또는 목록 맨 위에 표시된 모든 필터를 지울 수 있습니다.
 
 ![](assets/suppression-list-filtering-example.png)
 
-실수로 이메일 주소 또는 도메인을 수동으로 추가하는 경우 **[!UICONTROL Delete]** 버튼을 사용하면 해당 항목을 제거할 수 있습니다.
+실수로 이메일 주소 또는 도메인을 수동으로 추가하는 경우 **[!UICONTROL 삭제]** 버튼을 사용하면 해당 항목을 제거할 수 있습니다.
 
 >[!CAUTION]
 >
->사용 안 함 **[!UICONTROL Delete]** 표시되지 않습니다.
+>사용 안 함 **[!UICONTROL 삭제]** 표시되지 않습니다.
 
 ![](assets/suppression-list-delete.png)
 
@@ -61,15 +61,15 @@ ht-degree: 1%
 >
 >이메일 주소 또는 도메인 삭제를 고려할 때 추가 주의가 필요합니다. 확실하지 않은 경우 게재 가능성 전문가에게 문의하십시오.
 
-에서 **[!UICONTROL Suppression list]** 보기, 억제 규칙을 편집할 수도 있습니다. [자세히 보기](retries.md)
+에서 **[!UICONTROL 제외 목록]** 보기, 억제 규칙을 편집할 수도 있습니다. [자세히 보기](retries.md)
 
-제외 목록을 CSV 파일로 내보내려면 **[!UICONTROL Download CSV]** 버튼을 클릭합니다.
+제외 목록을 CSV 파일로 내보내려면 **[!UICONTROL CSV 다운로드]** 버튼을 클릭합니다.
 
 ![](assets/suppression-list-download-csv.png)
 
 ## 제외 카테고리 및 이유 {#suppression-categories-and-reasons}
 
-메시지가 이메일 주소로 배달되지 않으면 [!DNL Journey Optimizer] 게재가 실패한 이유를 확인하고 **[!UICONTROL Suppression category]**.
+메시지가 이메일 주소로 배달되지 않으면 [!DNL Journey Optimizer] 게재가 실패한 이유를 확인하고 **[!UICONTROL 제외 카테고리]**.
 
 억제 카테고리는 다음과 같습니다.
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 >
 >에서 소프트 바운스 및 하드 바운스에 대해 자세히 알아보십시오 [게재 실패 유형](../reports/suppression-list.md#delivery-failures) 섹션을 참조하십시오.
 
-나열된 각 이메일 주소에 대해 다음을 확인할 수도 있습니다 **[!UICONTROL Type]** (이메일 또는 도메인), **[!UICONTROL Reason]** 제외하기 위해 추가한 사람과 제외 목록에 추가한 날짜/시간입니다.
+나열된 각 이메일 주소에 대해 다음을 확인할 수도 있습니다 **[!UICONTROL 유형]** (이메일 또는 도메인), **[!UICONTROL 이유]** 제외하기 위해 추가한 사람과 제외 목록에 추가한 날짜/시간입니다.
 
 ![](assets/suppression-list.png)
 
@@ -95,13 +95,13 @@ ht-degree: 1%
 
 | 이유 | 설명 | 제외 카테고리 |
 | --- | --- | --- |
-| **[!UICONTROL Invalid Recipient]** | 수신자가 잘못되었거나 없습니다. | 하드 |
-| **[!UICONTROL Soft Bounce]** | 메시지가 소프트 바운스되어, ISP에서 권장하는 허용 비율을 전송할 때와 같이 이 표에 나열된 소프트 오류 이외의 다른 이유로 바운스됩니다. | 소프트 |
-| **[!UICONTROL DNS Failure]** | DNS 오류로 인해 메시지가 반송되었습니다. | 소프트 |
-| **[!UICONTROL Mailbox Full]** | 받는 사람의 사서함이 가득 차서 더 이상의 메시지를 받을 수 없어서 메시지가 반송되었습니다. | 소프트 |
-| **[!UICONTROL Relaying Denied]** | 릴레이가 허용되지 않아 수신자가 메시지를 차단했습니다. | 소프트 |
+| **[!UICONTROL 잘못된 받는 사람]** | 수신자가 잘못되었거나 없습니다. | 하드 |
+| **[!UICONTROL 소프트 바운스]** | 메시지가 소프트 바운스되어, ISP에서 권장하는 허용 비율을 전송할 때와 같이 이 표에 나열된 소프트 오류 이외의 다른 이유로 바운스됩니다. | 소프트 |
+| **[!UICONTROL DNS 실패]** | DNS 오류로 인해 메시지가 반송되었습니다. | 소프트 |
+| **[!UICONTROL 사서함 가득 참]** | 받는 사람의 사서함이 가득 차서 더 이상의 메시지를 받을 수 없어서 메시지가 반송되었습니다. | 소프트 |
+| **[!UICONTROL 연결 거부]** | 릴레이가 허용되지 않아 수신자가 메시지를 차단했습니다. | 소프트 |
 | **[!UICONTROL Challenge-Response]** | 이 메시지는 Challenge-Response Probe입니다. | 소프트 |
-| **[!UICONTROL Spam Complaint]** | 받는 사람이 스팸으로 표시했기 때문에 메시지가 차단되었습니다. | 하드 |
+| **[!UICONTROL 스팸 불만]** | 받는 사람이 스팸으로 표시했기 때문에 메시지가 차단되었습니다. | 하드 |
 
 >[!NOTE]
 >
@@ -110,9 +110,14 @@ ht-degree: 1%
 ## 수동으로 주소 및 도메인 추가 {#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_suppression_list"
+>id="ajo_admin_suppression_list_header"
 >title="제외 목록에 전자 메일 또는 도메인 추가"
 >abstract="전송에서 특정 이메일 주소 및/또는 도메인을 제외하도록 Journey Optimizer 제외 목록을 수동으로 채울 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="제외 목록에 전자 메일 또는 도메인 추가"
+>abstract="Journey Optimizer 제외 목록을 채우기 위해 수동으로 이메일 주소 또는 도메인(한 번에 하나씩 또는 CSV 파일 업로드를 통해 일괄 모드)을 추가할 수 있습니다. 이러한 특정 이메일 주소 및/또는 도메인은 전송에서 제외됩니다."
 
 메시지를 전자 메일 주소에 배달하지 못하면 이 주소가 정의된 제외 규칙 또는 바운스 수를 기반으로 하여 제외 목록에 자동으로 추가됩니다.
 
@@ -120,7 +125,7 @@ ht-degree: 1%
 
 이메일 주소 또는 도메인을 추가할 수 있습니다 [한 번에 하나씩](#add-one-address-or-domain), 또는 [일괄 모드에서](#upload-csv-file) 를 사용하십시오.
 
-이렇게 하려면 **[!UICONTROL Add email or domain]** 버튼을 클릭한 다음 아래 방법 중 하나를 수행합니다.
+이렇게 하려면 **[!UICONTROL 이메일 또는 도메인 추가]** 버튼을 클릭한 다음 아래 방법 중 하나를 수행합니다.
 
 ![](assets/suppression-list-add-email.png)
 
@@ -131,11 +136,11 @@ ht-degree: 1%
 >title="한 항목을 제외 목록에 추가합니다"
 >abstract="이메일 주소 및/또는 도메인을 하나씩 추가하여 제외 목록을 채울 수 있습니다."
 
-1. **[!UICONTROL One by one]** 옵션을 선택합니다.
+1. 을(를) 선택합니다 **[!UICONTROL 하나씩]** 선택 사항입니다.
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. 주소 유형을 선택합니다. **[!UICONTROL Email address]** 또는 **[!UICONTROL Domain address]**.
+1. 주소 유형을 선택합니다. **[!UICONTROL 이메일 주소]** 또는 **[!UICONTROL 도메인 주소]**.
 
 1. 전송에서 제외할 이메일 주소 또는 도메인을 입력합니다.
 
@@ -147,9 +152,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >32-126 사이의 모든 ASCII 문자는 **[!UICONTROL Reason]** 필드. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
+   >32-126 사이의 모든 ASCII 문자는 **[!UICONTROL 이유]** 필드. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
 
-1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 제출을 클릭합니다]**.
 
 ### CSV 파일 업로드 {#upload-csv-file}
 
@@ -158,7 +163,7 @@ ht-degree: 1%
 >title="CSV를 업로드하여 제외 목록에 항목 추가"
 >abstract="제외할 이메일 주소/도메인으로 채워진 CSV 파일을 업로드하여 제외 목록을 채울 수 있습니다."
 
-1. **[!UICONTROL Upload CSV]** 옵션을 선택합니다.
+1. 을(를) 선택합니다 **[!UICONTROL CSV 업로드]** 선택 사항입니다.
 
    ![](assets/suppression-list-upload-csv.png)
 
@@ -173,7 +178,7 @@ ht-degree: 1%
    >
    >32-126 사이의 모든 ASCII 문자는 **댓글** 열. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
 
-   이 템플릿은 **[!UICONTROL Suppression list]** 기본 보기.
+   이 템플릿은 **[!UICONTROL 제외 목록]** 기본 보기.
 
    >[!CAUTION]
    >
@@ -183,7 +188,7 @@ ht-degree: 1%
 
 1. CSV 템플릿을 제외 목록에 추가할 이메일 주소 및/또는 도메인으로 입력합니다.
 
-1. 완료되면 CSV 파일을 끌어다 놓은 다음 를 클릭합니다 **[!UICONTROL Submit]**.
+1. 완료되면 CSV 파일을 끌어다 놓은 다음 를 클릭합니다 **[!UICONTROL 제출]**.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
@@ -195,7 +200,7 @@ ht-degree: 1%
 
 업로드한 최신 CSV 파일 목록을 확인할 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL Suppression list]** 보기를 클릭하고 **[!UICONTROL Recent uploads]** 버튼을 클릭합니다.
+이렇게 하려면 **[!UICONTROL 제외 목록]** 보기를 클릭하고 **[!UICONTROL 최근 업로드]** 버튼을 클릭합니다.
 
 ![](assets/suppression-list-recent-uploads-button.png)
 

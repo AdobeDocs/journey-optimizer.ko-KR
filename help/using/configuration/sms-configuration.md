@@ -4,9 +4,9 @@ description: Journey Optimizer을 사용하여 SMS 메시지를 보내도록 환
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -24,9 +24,15 @@ SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 
 ## 새 API 자격 증명 만들기 {#create-api}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_sms_api"
->title="SMS 공급업체 구성을 선택합니다"
+>id="ajo_admin_sms_api_header"
+>title="Journey Optimizer을 사용하여 SMS 공급업체 구성"
 >abstract="공급업체 를 선택하고 SMS API 자격 증명을 입력합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="Journey Optimizer을 사용하여 SMS 공급업체 구성"
+>abstract="SMS를 전송하기 전에 공급자 설정을 Journey Optimizer과 통합해야 합니다. 완료되면 SMS 표면을 만들어야 합니다. 이러한 단계는 Adobe Journey Optimizer 시스템 관리자가 수행해야 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="SMS 채널 서피스 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
@@ -35,22 +41,22 @@ SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 
 
 Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단계를 수행합니다.
 
-1. 액세스 권한 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL API Credentials]** 메뉴를 클릭한 다음 **[!UICONTROL Create API credential]**.
+1. 액세스 권한 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL API 자격 증명]** 메뉴를 클릭한 다음 **[!UICONTROL API 자격 증명 만들기]**.
 
    ![](assets/sms_4.png)
 
-1. 을(를) 선택합니다 **[!UICONTROL SMS vendor]**:
+1. 을(를) 선택합니다 **[!UICONTROL SMS 공급업체]**:
 
-   * [!DNL Sinch] 질문에 답합니다. 을(를) 찾으려면 **[!UICONTROL Service ID]** 및 **[!UICONTROL API Token]**, Sinch 계정에서 SMS > API 메뉴에 액세스합니다.
-   * [!DNL Twilio] 질문에 답합니다. 을(를) 찾으려면 **[!UICONTROL Service ID]** 및 **[!UICONTROL API Token]**&#x200B;콘솔 대시보드 페이지의 계정 정보 창에 액세스합니다.
+   * [!DNL Sinch] 질문에 답합니다. 을(를) 찾으려면 **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**, Sinch 계정에서 SMS > API 메뉴에 액세스합니다.
+   * [!DNL Twilio] 질문에 답합니다. 을(를) 찾으려면 **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**&#x200B;콘솔 대시보드 페이지의 계정 정보 창에 액세스합니다.
 
-1. 을(를) 입력합니다. **[!UICONTROL Name]** API 자격 증명의 경우.
+1. 을(를) 입력합니다. **[!UICONTROL 이름]** API 자격 증명의 경우.
 
-1. 을(를) 입력합니다. **[!UICONTROL Service ID]** 및 **[!UICONTROL API Token]**.
+1. 을(를) 입력합니다. **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**.
 
    ![](assets/sms_5.png)
 
-1. 클릭 **[!UICONTROL Submit]** api 자격 증명 구성을 완료했을 때.
+1. 클릭 **[!UICONTROL 제출]** api 자격 증명 구성을 완료했을 때.
 
 API 자격 증명을 만들고 구성한 후 이제 SMS 메시지에 대한 채널 표면(즉, 메시지 사전 설정)을 만들어야 합니다.
 
@@ -66,7 +72,7 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
 
 채널 서피스를 생성하려면 다음 단계를 수행합니다.
 
-1. 액세스 권한 **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** 메뉴를 클릭한 다음 **[!UICONTROL Create channel surface]**.
+1. 액세스 권한 **[!UICONTROL 채널]** > **[!UICONTROL 브랜딩]** > **[!UICONTROL 채널 서피스]** 메뉴를 클릭한 다음 **[!UICONTROL 채널 서피스 생성]**.
 
    ![](assets/preset-create.png)
 
@@ -82,27 +88,27 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
 
    ![](assets/preset-sms.png)
 
-   * 을(를) 선택합니다 **[!UICONTROL SMS Type]** 서피스와 함께 전송됩니다. **[!UICONTROL Transactional]** 또는 **[!UICONTROL Marketing]**.
+   * 을(를) 선택합니다 **[!UICONTROL SMS 유형]** 서피스와 함께 전송됩니다. **[!UICONTROL 트랜잭션]** 또는 **[!UICONTROL 마케팅]**.
 
-   * 을(를) 선택합니다 **[!UICONTROL SMS configuration]** 서피스와 연관되도록 합니다.
+   * 을(를) 선택합니다 **[!UICONTROL SMS 구성]** 서피스와 연관되도록 합니다.
 
       SMS 메시지를 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#create-api).
 
-   * 을(를) 입력합니다. **[!UICONTROL Sender number]** 커뮤니케이션에 &#x200B; 사용하려고 합니다.
+   * 을(를) 입력합니다. **[!UICONTROL 발신자 번호]** 커뮤니케이션에 &#x200B; 사용하려고 합니다.
 
-   * 을(를) 선택합니다 **[!UICONTROL SMS Execution Field]** 을(를) 선택하려면 **[!UICONTROL Profile attribute]** 프로필의 전화 번호와 연관됩니다.
+   * 을(를) 선택합니다 **[!UICONTROL SMS 실행 필드]** 을(를) 선택하려면 **[!UICONTROL 프로필 속성]** 프로필의 전화 번호와 연관됩니다.
 
-1. 모든 매개 변수가 구성되면 **[!UICONTROL Submit]** 확인합니다. 채널 서피스를 구안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
+1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]** 확인합니다. 채널 서피스를 구안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 
    ![](assets/sms_preset_2.png)
 
-1. 채널 서피스가 생성되면 목록에 과 함께 표시됩니다. **[!UICONTROL Processing]** 상태.
+1. 채널 서피스가 생성되면 목록에 과 함께 표시됩니다. **[!UICONTROL 처리 중]** 상태.
 
    >[!NOTE]
    >
    >검사가 실패하면 의 가능한 실패 이유에 대해 자세히 알아보십시오 [이 섹션](#monitor-channel-surfaces).
 
-1. 확인이 성공하면 채널 서피스가 **[!UICONTROL Active]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
+1. 확인이 성공하면 채널 서피스가 **[!UICONTROL 활성]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
    ![](assets/preset-active.png)
 
