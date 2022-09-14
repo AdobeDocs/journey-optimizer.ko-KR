@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '1519'
 ht-degree: 1%
 
 ---
@@ -42,139 +42,139 @@ ht-degree: 1%
 >title="채널 서피스 설정"
 >abstract="채널 표면을 설정할 때 적용되는 채널을 선택하고, 이메일 유형, 발신자 이름, 모바일 앱, SMS 구성 등과 같이 메시지에 필요한 모든 기술 매개 변수를 정의합니다."
 
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.
+<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
 
-To create a channel surface, follow these steps:
+채널 서피스를 생성하려면 다음 단계를 수행합니다.
 
-1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** menu, then click **[!UICONTROL Create channel surface]**.
+1. 액세스 권한 **[!UICONTROL 채널]** > **[!UICONTROL 브랜딩]** > **[!UICONTROL 채널 서피스]** 메뉴를 클릭한 다음 **[!UICONTROL 채널 서피스 생성]**.
 
-    ![](assets/preset-create.png)
+   ![](assets/preset-create.png)
 
-1. Enter a name and a description (optional) for the surface, then select the channel(s) to configure.
+1. 서피스의 이름과 설명(선택 사항)을 입력한 다음 구성할 채널을 선택합니다.
 
-    ![](assets/preset-general.png)
+   ![](assets/preset-general.png)
 
-    >[!NOTE]
-    >
-    > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
+   >[!NOTE]
+   >
+   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
 
-1. If you selected the **[!UICONTROL Email]** channel, configure your settings as described in [this section](email-settings.md).
+1. 을(를) 선택한 경우 **[!UICONTROL 이메일]** 채널에서 다음에 설명된 대로 설정을 구성합니다. [이 섹션](email-settings.md).
 
-    ![](assets/preset-email.png)
+   ![](assets/preset-email.png)
 
-1. For the **[!UICONTROL Push Notification]** channel, select at least one platform  -  **iOS** and/or **Android** -, and the mobile applications to use for each platform.
+1. 대상 **[!UICONTROL 푸시 알림]** 채널, 하나 이상의 플랫폼 선택 -  **iOS** 및/또는 **Android** - 및 각 플랫폼에 사용할 모바일 애플리케이션입니다.
 
-    ![](assets/preset-push.png)
-        
-    >[!NOTE]
-    >
-    >For more on how to configure your environment to send push notifications, refer to [this section](push-gs.md).
+   ![](assets/preset-push.png)
 
-1. For the **[!UICONTROL SMS]** channel, define your settings as detailed in [this section](sms-configuration.md#message-preset-sms).
+   >[!NOTE]
+   >
+   >푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](push-gs.md).
 
-    ![](assets/preset-sms.png)
+1. 대상 **[!UICONTROL SMS]** 채널에서 설정을 세부 사항에 따라 정의합니다. [이 섹션](sms-configuration.md#message-preset-sms).
 
-    >[!NOTE]
-    >
-    >For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+   ![](assets/preset-sms.png)
 
-1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the channel surface as draft and resume its configuration later on.
+   >[!NOTE]
+   >
+   >SMS 메시지를 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](sms-configuration.md).
 
-    ![](assets/preset-submit.png)
+1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]** 확인합니다. 채널 서피스를 구안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 
-    >[!NOTE]
-    >
-    >You cannot proceed with surface creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status), and has never been associated with the selected subdomain. [Learn more](#subdomains-and-ip-pools)
-    >
-    >Save the surface as draft and wait until the IP pool has the **[!UICONTROL Success]** status to resume surface creation.
-    
-1. Once the channel surface has been created, it displays in the list with the **[!UICONTROL Processing]** status.
+   ![](assets/preset-submit.png)
 
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
+   >[!NOTE]
+   >
+   >선택한 IP 풀이 아래에 있는 동안에는 서피스 생성을 계속할 수 없습니다 [에디션](ip-pools.md#edit-ip-pool) (**[!UICONTROL 처리 중]** 상태)로 설정되고, 선택된 하위 도메인과 연결되어 있지 않습니다. [자세히 보기](#subdomains-and-ip-pools)
+   >
+   >서피스를 초안으로 저장하고 IP 풀이 **[!UICONTROL 성공]** 서피스 생성을 재개할 상태
 
-    These checks include configuration and technical tests that are performed by the Adobe team:
+1. 채널 서피스가 생성되면 목록에 과 함께 표시됩니다. **[!UICONTROL 처리 중]** 상태.
 
-    * SPF validation
-    * DKIM validation
-    * MX record validation
-    * Check IPs denylisting
-    * Helo host check
-    * IP pool verification
-    * A/PTR record, t/m/res subdomain verification
+   이 단계에서는 구성이 올바른지 확인하기 위해 몇 가지 확인이 수행됩니다. 처리 시간이 거의 다 되었습니다 **48h-72h**&#x200B;과 같은 작업을 수행할 수 있습니다. **7-10 영업일**.
 
-    >[!NOTE]
-    >
-    >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-channel-surfaces).  
+   이러한 검사에는 Adobe 팀이 수행하는 구성 및 기술 테스트가 포함됩니다.
 
-1. Once the checks are successful, the channel surface gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
+   * SPF 유효성 검사
+   * DKIM 유효성 검사
+   * MX 레코드 유효성 검사
+   * IP 차단 목록에 추가 확인
+   * 헬로 호스트 확인
+   * IP 풀 확인
+   * A/PTR 레코드, t/m/res 하위 도메인 확인
 
-    ![](assets/preset-active.png)
+   >[!NOTE]
+   >
+   >검사가 실패하면 의 가능한 실패 이유에 대해 자세히 알아보십시오 [이 섹션](#monitor-channel-surfaces).
 
-## Monitor channel surfaces {#monitor-channel-surfaces}
+1. 확인이 성공하면 채널 서피스가 **[!UICONTROL 활성]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
-All your channel surfaces display in the **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** menu. Filters are available to help you browse through the list (channel, user, status).
+   ![](assets/preset-active.png)
+
+## 채널 서피스 모니터링 {#monitor-channel-surfaces}
+
+모든 채널 서피스가 **[!UICONTROL 채널]** > **[!UICONTROL 채널 서피스]** 메뉴 아래의 제품에서 사용할 수 있습니다. 필터를 사용하여 목록(채널, 사용자, 상태)을 탐색할 수 있습니다.
 
 ![](assets/preset-filters.png)
 
-Once created, channel surfaces can have the following statuses:
+만들어진 채널 서피스는 다음과 같은 상태를 가질 수 있습니다.
 
-* **[!UICONTROL Draft]**: The channel surface has been saved as a draft and has not been submitted yet. Open it to resume the configuration.
-* **[!UICONTROL Processing]**: The channel surface has been submitted and is going through several verifications steps.
-* **[!UICONTROL Active]**: The channel surface has been verified and can be selected to create messages.
-* **[!UICONTROL Failed]**: One or several checks have failed during the channel surface verification.
-* **[!UICONTROL Deactivated]**: The channel surface is deactivated. It cannot be used to create new messages.
+* **[!UICONTROL 초안]**: 채널 서피스가 초안으로 저장되었으며 아직 제출되지 않았습니다. 구성을 다시 시작하려면 엽니다.
+* **[!UICONTROL 처리 중]**: 채널 서피스가 제출되었으며 몇 가지 확인 단계를 수행하고 있습니다.
+* **[!UICONTROL 활성]**: 채널 표면을 확인했으며 메시지를 만들기 위해 선택할 수 있습니다.
+* **[!UICONTROL 실패]**: 채널 서피스 확인 중에 하나 또는 여러 개의 검사가 실패했습니다.
+* **[!UICONTROL 비활성화됨]**: 채널 서피스가 비활성화되었습니다. 새 메시지를 만드는 데 사용할 수 없습니다.
 
-In case a channel surface creation fails, the details on each possible failure reason are described below.
+채널 서피스 생성이 실패하는 경우 가능한 각 실패 이유에 대한 세부 사항이 아래에 설명되어 있습니다.
 
-If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to get assistance.
+이러한 오류 중 하나가 발생하면 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)지원을 받으려면 {target=&quot;_blank&quot;}.
 
-* **SPF validation failed**: SPF (Sender Policy Framework) is an email authentication protocol that allows to specify authorized IPs that can send emails from a given subdomain. SPF validation failure means that the IP addresses in the SPF record do not match the IP addresses used for sending emails to the mailbox providers. 
+* **SPF 유효성 검사 실패**: SPF(Sender Policy Framework)는 지정된 하위 도메인에서 전자 메일을 보낼 수 있는 인증된 IP를 지정할 수 있는 전자 메일 인증 프로토콜입니다. SPF 유효성 검사 실패가 SPF 레코드의 IP 주소가 사서함 공급자에게 전자 메일을 보내는 데 사용되는 IP 주소와 일치하지 않음을 의미합니다.
 
-* **DKIM validation failed**: DKIM (DomainKeys Identified Mail) allows the recipient server to verify that the received message was sent by the genuine sender of the associated domain and that the content of the original message was not altered on its way. DKIM validation failure means that the receiving mail servers are unable to verify the authenticity of the message content and its association with the sending domain.:
+* **DKIM 유효성 검사 실패**: DKIM(DomainKeys Identified Mail)을 사용하면 수신자 서버가 수신한 메시지가 연관된 도메인의 실제 발신자에 의해 전송되었고 원래 메시지의 컨텐츠가 도중에 변경되지 않았는지 확인할 수 있습니다. DKIM 유효성 검사 오류는 수신 메일 서버가 메시지 컨텐츠의 진위 여부 및 전송 도메인과의 연결을 확인할 수 없음을 의미합니다.
 
-* **MX record validation failed**: MX (Mail eXchange) record validation failure means that the mail servers responsible for accepting inbound emails on behalf of a given subdomain are not correctly configured.
+* **MX 레코드 유효성 검사 실패**: MX(Mail eXchange) 레코드 유효성 검사 실패 는 주어진 하위 도메인을 대신하여 인바운드 전자 메일을 수락하는 메일 서버가 올바르게 구성되지 않음을 의미합니다.
 
-* **Deliverability configurations failed**: Deliverability configurations failure can happen due to any of the following reasons:
-    * Blocklisting of the allocated IPs
-    * Invalid `helo` name
-    * Emails being sent from IPs other than the ones specified in the IP pool of the corresponding surface
-    * Unable to deliver emails to inboxes of major ISPs like Gmail and Yahoo
+* **게재 기능 구성이 실패했습니다.**: 다음 이유 중 하나로 인해 게재 기능 구성 오류가 발생할 수 있습니다.
+   * 할당된 IP의 차단 목록에 추가
+   * 유효하지 않습니다 `helo` 이름
+   * 해당 서피스의 IP 풀에 지정된 이메일이 아닌 IP에서 전송되는 이메일
+   * Gmail 및 Yahoo와 같은 주요 ISP의 받은 편지함으로 이메일을 전달할 수 없습니다
 
-## Edit a channel surface {#edit-channel-surface}
+## 채널 서피스 편집 {#edit-channel-surface}
 
-To edit a channel surface, follow the steps below.
-
->[!NOTE]
->
->You cannot edit the **[!UICONTROL Push notification settings]**. If a channel surface is only configured for the Push notification channel, it is not editable.
-
-1. From the list, click a channel surface name to open it.
-
-    ![](assets/preset-name.png)
-
-1. Edit its properties as desired.
-
-    >[!NOTE]
-    >
-    >If a channel surface has the **[!UICONTROL Active]** status, the **[!UICONTROL Name]**, **[!UICONTROL Select channel]** and **[!UICONTROL Subdomain]** fields are greyed out and cannot be edited.
-
-1. Click **[!UICONTROL Submit]** to confirm your changes.
-
-    >[!NOTE]
-    >
-    >You can also save the channel surface as draft and resume update later on.
-
-Once the changes are submitted, the channel surface will go through a validation cycle similar to the one in place when [creating a channel surface](#create-channel-surface). The edition processing time can take up to **3 hours**.
+채널 서피스를 편집하려면 아래 단계를 따르십시오.
 
 >[!NOTE]
 >
->If you only edit the **[!UICONTROL Description]**, **[!UICONTROL Email type]** and/or **[!UICONTROL Email retry parameters]** fields, the update is instantaneous.
+>는 편집할 수 없습니다 **[!UICONTROL 푸시 알림 설정]**. 채널 서피스가 푸시 알림 채널에 대해서만 구성된 경우 편집할 수 없습니다.
 
-### Update details {#update-details}
+1. 목록에서 채널 서피스 이름을 클릭하여 엽니다.
 
-For channel surfaces that have the **[!UICONTROL Active]** status, you can check the details of the update. To do so:
+   ![](assets/preset-name.png)
 
-Click the **[!UICONTROL Recent update]** icon that is displayed next to the active surface name.
+1. 원하는 대로 속성을 편집합니다.
+
+   >[!NOTE]
+   >
+   >채널 서피스에 **[!UICONTROL 활성]** 상태, **[!UICONTROL 이름]**, **[!UICONTROL 채널 선택]** 및 **[!UICONTROL 하위 도메인]** 필드가 회색으로 표시되어 편집할 수 없습니다.
+
+1. 클릭 **[!UICONTROL 제출]** 를 클릭하여 변경 사항을 확인합니다.
+
+   >[!NOTE]
+   >
+   >채널 서피스를 구안으로 저장하고 나중에 업데이트를 다시 시작할 수도 있습니다.
+
+변경 사항이 제출되면 채널 서피스는 다음과 유사한 유효성 검사 주기를 거칩니다. [채널 서피스 생성](#create-channel-surface). 편집 처리 시간은 최대 시간이 소요될 수 있습니다 **3시간**.
+
+>[!NOTE]
+>
+>를 편집할 때만 **[!UICONTROL 설명]**, **[!UICONTROL 이메일 유형]** 및/또는 **[!UICONTROL 전자 메일 다시 시도 매개 변수]** 필드, 업데이트는 즉시 수행됩니다.
+
+### 업데이트 세부 사항 {#update-details}
+
+가 있는 채널 서피스의 경우 **[!UICONTROL 활성]** 상태, 업데이트 세부 사항을 확인할 수 있습니다. 방법은 다음과 같습니다.
+
+을(를) 클릭합니다. **[!UICONTROL 최근 업데이트]** 활성 서피스 이름 옆에 표시되는 아이콘입니다.
 
 ![](assets/preset-recent-update-icon.png)
 
