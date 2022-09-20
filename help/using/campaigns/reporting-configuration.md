@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
+source-git-commit: 16c156d715a6b39652191909ca88f90e7f971706
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 42%
+source-wordcount: '727'
+ht-degree: 29%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 42%
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
-보고 데이터 소스 구성에서는 **[!UICONTROL Objectives]** 캠페인 보고서의 탭. [자세히 보기](content-experiment.md#objectives-global)
+보고 데이터 소스 구성에서는 **[!UICONTROL 목표]** 캠페인 보고서의 탭. [자세히 보기](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ ht-degree: 42%
 
 ## 각 필드 그룹에 해당하는 목표 {#objective-list}
 
-아래 표는 페이지에 추가될 지표를 보여줍니다. **[!UICONTROL Objectives]** 각 필드 그룹에 대한 캠페인 보고서의 탭.
+아래 표는 페이지에 추가될 지표를 보여줍니다. **[!UICONTROL 목표]** 각 필드 그룹에 대한 캠페인 보고서의 탭.
 
 | 필드 그룹 | 목표 |
 |--- |--- |
@@ -78,21 +78,21 @@ ht-degree: 42%
 
 ## 데이터 세트 추가 {#add-datasets}
 
-1. **[!UICONTROL ADMINISTRATION]** 메뉴에서 **[!UICONTROL Configurations]**&#x200B;을(를) 선택합니다. **[!UICONTROL Reporting]** 섹션에서 **[!UICONTROL Manage]**&#x200B;을(를) 클릭합니다.
+1. 에서 **[!UICONTROL 관리]** 메뉴, 선택 **[!UICONTROL 구성]**. 에서  **[!UICONTROL 보고]** 섹션을 클릭합니다. **[!UICONTROL 관리]**.
 
    ![](assets/reporting-config-menu.png)
 
    이미 추가된 데이터 세트 목록이 표시됩니다.
 
-1. **[!UICONTROL Dataset]** 탭에서 **[!UICONTROL Add dataset]**&#x200B;을(를) 클릭합니다.
+1. 에서 **[!UICONTROL 데이터 집합]** 탭, **[!UICONTROL 데이터 세트 추가]**.
 
    ![](assets/reporting-config-add.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL System dataset]** 탭을 선택하는 경우 시스템에서 만든 데이터 세트만 표시됩니다. 다른 데이터 세트를 추가할 수 없습니다.
+   >을(를) 선택하는 경우 **[!UICONTROL 시스템 데이터 세트]** 탭에는 시스템에서 만든 데이터 세트만 표시됩니다. 다른 데이터 세트를 추가할 수 없습니다.
 
-1. **[!UICONTROL Dataset]** 드롭다운 목록에서 보고서에 사용할 데이터 세트를 선택합니다.
+1. 에서 **[!UICONTROL 데이터 집합]** 드롭다운 목록에서 보고서에 사용할 데이터 세트를 선택합니다.
 
    >[!CAUTION]
    >
@@ -102,7 +102,7 @@ ht-degree: 42%
 
    [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko){target=&quot;_blank&quot;}에서 데이터 세트에 대한 자세한 내용을 알아보세요.
 
-1. **[!UICONTROL Profile ID]** 드롭다운 목록에서 보고서에서 각 프로필을 식별하는 데 사용할 데이터 세트 필드 속성을 선택합니다.
+1. 에서 **[!UICONTROL 프로필 ID]** 드롭다운 목록에서 보고서에서 각 프로필을 식별하는 데 사용할 데이터 세트 필드 속성을 선택합니다.
 
    ![](assets/reporting-config-profile-id.png)
 
@@ -110,7 +110,7 @@ ht-degree: 42%
    >
    >보고에 사용할 수 있는 ID만 표시됩니다.
 
-1. **[!UICONTROL Use Primary ID namespace]** 옵션은 기본적으로 활성화되어 있습니다. 선택된 **[!UICONTROL Profile ID]**&#x200B;이(가) **[!UICONTROL Identity Map]**&#x200B;인 경우 이 옵션을 비활성화하고 표시되는 드롭다운 목록에서 다른 네임스페이스를 선택할 수 있습니다.
+1. 다음 **[!UICONTROL 기본 ID 네임스페이스 사용]** 옵션이 기본적으로 활성화되어 있습니다. 선택한 경우 **[!UICONTROL 프로필 ID]** is **[!UICONTROL ID 맵]**&#x200B;을 눌러 이 옵션을 비활성화하고 표시되는 드롭다운 목록에서 다른 네임스페이스를 선택할 수 있습니다.
 
    ![](assets/reporting-config-namespace.png)
 
@@ -122,7 +122,7 @@ ht-degree: 42%
    >
    >이벤트 유형이 아닌 데이터 세트를 선택한 경우 진행할 수 없습니다.
 
-이제 캠페인 보고서를 작성할 때 추가한 데이터 세트에 사용된 필드 그룹에 해당하는 지표를 볼 수 있습니다. 로 이동합니다. **[!UICONTROL Objectives]** 탭을 선택하고 선택한 지표를 선택하여 보고서를 더 잘 세밀하게 조정합니다. [자세히 보기](content-experiment.md#objectives-global)
+이제 캠페인 보고서를 작성할 때 추가한 데이터 세트에 사용된 필드 그룹에 해당하는 지표를 볼 수 있습니다. 로 이동합니다. **[!UICONTROL 목표]** 탭을 선택하고 선택한 지표를 선택하여 보고서를 더 잘 세밀하게 조정합니다. [자세히 보기](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
