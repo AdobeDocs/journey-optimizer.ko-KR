@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
+source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 1%
    * 할당된 IP의 차단 목록에 추가
    * 유효하지 않습니다 `helo` 이름
    * 해당 서피스의 IP 풀에 지정된 이메일이 아닌 IP에서 전송되는 이메일
-   * Gmail 및 Yahoo와 같은 주요 ISP의 받은 편지함으로 이메일을 전달할 수 없습니다
+   * 주요 ISP의 받은 편지함으로 이메일을 전달할 수 없습니다.
 
 ## 채널 서피스 편집 {#edit-channel-surface}
 

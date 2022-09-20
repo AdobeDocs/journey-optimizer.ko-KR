@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -177,11 +177,6 @@ To populate the Journey Optimizer suppression list, you can manually add email a
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
-   >[!NOTE]
-   >
-   >32-126 사이의 모든 ASCII 문자는 **댓글** 열. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
-
-   이 템플릿은 **[!UICONTROL 제외 목록]** 기본 보기.
 
    >[!CAUTION]
    >
@@ -190,6 +185,10 @@ To populate the Journey Optimizer suppression list, you can manually add email a
    >파일 크기는 1MB를 초과할 수 없습니다.
 
 1. CSV 템플릿을 제외 목록에 추가할 이메일 주소 및/또는 도메인으로 입력합니다.
+
+   >[!NOTE]
+   >
+   >32-126 사이의 모든 ASCII 문자는 **댓글** 열. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
 
 1. 완료되면 CSV 파일을 끌어다 놓은 다음 를 클릭합니다 **[!UICONTROL 제출]**.
 
