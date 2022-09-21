@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
-workflow-type: tm+mt
-source-wordcount: '1311'
+workflow-type: ht
+source-wordcount: '1331'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)는 [채널 표면](../configuration/channel-surfaces.md#email-type)(예: 메시지 사전 설정) 수준에서 [메시지를 만들 때](get-started-content.md#create-new-message) 정의됩니다.
+>마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 카테고리(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 표면](../configuration/channel-surfaces.md#email-type)(예: 메시지 사전 설정) 수준에서 [메시지를 만들 때](get-started-content.md#create-new-message) 정의됩니다.
 
 ### 외부 옵트아웃 {#opt-out-external-lp}
 
@@ -61,15 +61,15 @@ ht-degree: 100%
 
    ![](assets/opt-out-insert-link.png)
 
-1. **[!UICONTROL Link type]** 드롭다운 목록에서 **[!UICONTROL External Opt-out/Unsubscription]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 링크 유형]** 드롭다운 목록에서 **[!UICONTROL 외부 옵트아웃/구독 취소]**&#x200B;를 선택합니다.
 
    ![](assets/opt-out-link-type.png)
 
-1. **[!UICONTROL Link]** 필드에 서드 파티 랜딩 페이지 링크를 붙여넣습니다.
+1. **[!UICONTROL 링크]** 필드에 타사 랜딩 페이지 링크를 붙여넣습니다.
 
    ![](assets/opt-out-link-url.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 #### 옵트아웃에 대한 API 호출 구현 {#opt-out-api}
 
@@ -135,7 +135,7 @@ ht-degree: 100%
 
    ![](assets/opt-out-profile-choice.png)
 
-   **[!UICONTROL Attributes]** 탭에서 **[!UICONTROL choice]**&#x200B;에 대한 값이 **[!UICONTROL no]**&#x200B;로 변경되었음을 확인할 수 있습니다.
+   **[!UICONTROL 속성]** 탭에서 **[!UICONTROL 선택]** 값이 **[!UICONTROL 아니요]**&#x200B;로 변경되었음을 확인할 수 있습니다.
 
 ### 원클릭 옵트아웃 {#one-click-opt-out}
 
@@ -143,7 +143,7 @@ ht-degree: 100%
 
 이메일에 옵트아웃 링크를 추가하려면 아래 단계를 따르십시오.
 
-1. [링크를 삽입하고](../design/message-tracking.md#insert-links) 링크 유형으로 **[!UICONTROL One click Opt-out]**&#x200B;을(를) 선택합니다.
+1. [링크를 삽입](../design/message-tracking.md#insert-links)하고 **[!UICONTROL 원클릭 옵트아웃]**&#x200B;을 선택합니다.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -151,9 +151,9 @@ ht-degree: 100%
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL Channel]**: 옵트아웃은 현재 채널의 프로필 대상(즉, 이메일 주소)에 전송된 향후 메시지에 적용됩니다. 여러 대상이 프로필과 연결되어 있는 경우 옵트아웃은 해당 채널에 대한 프로필의 모든 타겟(즉, 이메일 주소)에 적용됩니다.
-   * **[!UICONTROL Identity]**: 옵트아웃은 현재 메시지에 사용하는 특정 대상(즉, 이메일 주소)에 전송된 향후 메시지에 적용됩니다.
-   * **[!UICONTROL Subscription]**: 옵트아웃은 특정 구독 목록과 연결된 향후 메시지에 적용됩니다. 이 옵션은 현재 메시지가 구독 목록과 연결된 경우에만 선택할 수 있습니다.
+   * **[!UICONTROL 채널]**: 옵트아웃은 현재 채널의 프로필 대상(즉, 이메일 주소)으로 전송된 이후 메시지에 적용됩니다. 여러 대상이 프로필과 연결되어 있는 경우 옵트아웃은 해당 채널에 대한 프로필의 모든 타겟(즉, 이메일 주소)에 적용됩니다.
+   * **[!UICONTROL ID]**: 옵트아웃은 현재 메시지에 사용 중인 특정 대상(즉, 이메일 주소)에 전송된 이후 메시지에 적용됩니다.
+   * **[!UICONTROL 구독]**: 옵트아웃은 특정 구독 목록과 연관된 이후 메시지에 적용됩니다. 이 옵션은 현재 메시지가 구독 목록과 연결된 경우에만 선택할 수 있습니다.
 
 1. 사용자가 가입 해지되면 리디렉션될 랜딩 페이지의 URL을 입력합니다. 이 페이지는 옵트아웃이 성공했는지 확인하기 위한 것입니다.
 
@@ -187,7 +187,7 @@ ht-degree: 100%
 >
 >이메일 헤더에 구독 취소 링크를 표시하려면 수신자의 이메일 클라이언트가 이 기능을 지원해야 합니다.
 
-구독 취소 주소는 해당 채널 표면에 표시되는 기본 **[!UICONTROL Mailto (unsubscribe)]** 주소입니다. [자세히 알아보기](../configuration/channel-surfaces.md#list-unsubscribe).
+구독 취소 주소는 해당 채널 표면에 표시되는 기본 **[!UICONTROL Mailto(구독 취소)]** 주소입니다. [자세히 알아보기](../configuration/channel-surfaces.md#list-unsubscribe).
 
 개인화된 구독 취소 URL을 설정하려면 이메일 메시지 콘텐츠에 원클릭 옵트아웃 링크를 삽입하고 원하는 URL을 입력합니다. [자세히 알아보기](#one-click-opt-out)
 
@@ -201,7 +201,7 @@ ht-degree: 100%
    >
    >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 표시되지 않습니다.
 
-* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
+* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
 
 ## 푸시 옵트아웃 관리 {#push-opt-out-management}
 
