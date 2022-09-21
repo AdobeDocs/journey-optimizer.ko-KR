@@ -3,9 +3,9 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
-workflow-type: tm+mt
-source-wordcount: '1871'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1873'
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 97%
 * 새 인라인 메시징 흐름을 반영하도록 빈도 규칙 섹션이 업데이트되었습니다. [자세히 보기](../configuration/frequency-rules.md#apply-frequency-rule)
 * 구독을 구성하고 랜딩 페이지를 만드는 방법을 보여주는 비디오가 이제 랜딩 페이지 시작 섹션에서 참조됩니다. [자세히 보기](../landing-pages/get-started-lp.md#video)
 * [세그먼트 읽기] 활동을 사용하는 여정에 대한 제한 사항을 추가했습니다. [자세히 보기](../building-journeys/read-segment.md)
-* 표현식 편집기 연산자 페이지가 개선되었습니다. [자세히 보기](../building-journeys/expression/operators.md)
+* 표현식 편집기 연산자 페이지를 개선했습니다. [자세히 보기](../building-journeys/expression/operators.md)
 * 캠페인을 예약하는 방법에 대한 섹션을 추가했습니다. [자세히 보기](../campaigns/create-campaign.md)
-* 표현식 편집기의 일반 구문 규칙 섹션에 리터럴 함수에서 이스케이프되는 백슬래시 심볼에 대한 새로운 규칙을 고려하여 업데이트했습니다. 기존 게시된 메시지는 이 변경의 영향을 받지 않습니다. 새 메시지나 초안 메시지만 업데이트해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#general-rules)
+* 표현식 편집기의 일반 구문 규칙 섹션에 리터럴 함수에서 이스케이프되는 백슬래시 기호에 대한 새로운 규칙을 고려하여 업데이트되었습니다. 기존 게시된 메시지는 이 변경의 영향을 받지 않습니다. 새 메시지 또는 초안 메시지만 업데이트해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#general-rules)
 
 ## 2022년 7월 {#july-2022}
 
@@ -69,7 +69,7 @@ ht-degree: 97%
 * 의사 결정 관리 기능에 대한 비디오에 Journey Optimizer 사용자 인터페이스를 반영하여 업데이트했습니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
 * **데이터 세트 시작** 섹션을 개선하여 데이터 세트에 액세스하고 데이터 세트를 만드는 방법을 자세히 설명합니다. [자세히 보기](../start/get-started-datasets.md)
 * 도움말 안내서 및 제품 릴리스 정보에 대한 링크를 **Adobe Journey Optimizer 설명서** 홈 페이지에 추가했습니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko)
-* **메시지 사전 설정 만들기** 섹션에서 이제 선택한 IP 풀이 편집 중이고(**[!UICONTROL Processing]** 상태) 선택한 하위 도메인과 연결된 적이 없을 때는 사전 설정 만들기를 진행할 수 없다는 점을 명확히 설명합니다. [자세히 보기](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* **메시지 사전 설정 만들기** 섹션에서 이제 선택한 IP 풀이 편집 중이고(**[!UICONTROL 처리]** 상태) 선택한 하위 도메인과 연결된 적이 없을 때는 사전 설정 만들기를 진행할 수 없다는 점을 명확히 설명합니다. [자세히 보기](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * 메시지 사전 설정 **URL 추적** 섹션에 사용자 인터페이스의 부분적 변경 사항을 반영하여 업데이트했습니다. [자세히 보기](../configuration/channel-surfaces.md#url-tracking)
 
 ## 2022년 3월 {#march-2022}
@@ -182,6 +182,6 @@ ht-degree: 97%
 * 여정 제한을 업데이트했습니다. [자세히 보기](../start/guardrails.md)
 * 결정 섹션의 오퍼 선택 구성을 업데이트했습니다. [자세히 보기](../offers/offer-activities/configure-offer-selection.md)
 * 이벤트 기반 오퍼는 현재 지원하지 않는다는 경고를 추가했습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md#eligibility)
-* 의사 결정 관리의 새로운 **[!UICONTROL Overview]** 탭에 대한 설명서를 작성했습니다. [자세히 보기](../offers/get-started/user-interface.md#overview)
+* 의사 결정 관리의 새로운 **[!UICONTROL 개요]** 탭에 대한 설명서를 작성했습니다. [자세히 보기](../offers/get-started/user-interface.md#overview)
 * 오퍼 및 결정 목록에서 사용할 수 있는 작업을 설명하는 새 섹션으로 [오퍼 목록](../offers/offer-library/creating-personalized-offers.md#offer-list) 및 [의사 결정 목록](../offers/offer-activities/create-offer-activities.md#decision-list)을 추가했습니다.
 
