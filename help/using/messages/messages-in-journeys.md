@@ -7,7 +7,7 @@ role: User
 level: Beginner
 source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
 workflow-type: ht
-source-wordcount: '727'
+source-wordcount: '741'
 ht-degree: 100%
 
 ---
@@ -42,11 +42,11 @@ ht-degree: 100%
 
 1. 레이블과 설명을 입력합니다.
 
-1. 메시지를 선택합니다&#x200B;**[!UICONTROL Category]**. 상업용 메시지에 대한 **마케팅** 또는 주문 확인, 암호 재설정 알림 또는 게재 정보와 같은 비상업적인 메시지에 대한 **트랜잭션**&#x200B;을 선택합니다.
+1. 메시지 **[!UICONTROL 카테고리]**&#x200B;를 선택합니다: 상업용 메시지에 대한 **마케팅** 또는 주문 확인, 암호 재설정 알림이나 게재 정보와 같은 비상업적인 메시지에 대한 **트랜잭션**&#x200B;을 선택합니다.
 
    >[!CAUTION]
    >
-   >특정 채널 및 카테고리의 [빈도 규칙](../configuration/frequency-rules.md)을 정의한 경우 해당 채널 및 카테고리를 선택하면 메시지에 자동으로 적용됩니다. 현재 **[!UICONTROL Marketing]** 카테고리만 빈도 규칙에 사용할 수 있습니다.
+   >특정 채널 및 카테고리의 [빈도 규칙](../configuration/frequency-rules.md)을 정의한 경우 해당 채널 및 카테고리를 선택하면 메시지에 자동으로 적용됩니다. 현재 **[!UICONTROL 마케팅]** 카테고리만 빈도 규칙에 사용할 수 있습니다.
 
    ![](assets/inline-message-category.png)
 
@@ -54,7 +54,7 @@ ht-degree: 100%
    >
    >마케팅 유형 메시지에는 [옵트아웃 링크](../messages/consent.md#opt-out-management)가 포함되어야 합니다. 트랜잭션 메시지는 마케팅 커뮤니케이션의 구독을 취소한 프로필에 전송될 수 있으므로 이러한 메시지에는 필요하지 않습니다.
 
-1. 사용할 채널을 선택&#x200B;**[!UICONTROL Surface]**(즉, 메시지 사전 설정)하여 메시지를 보낼 수 있습니다.
+1. 메시지를 보내는 데 사용할 채널 **[!UICONTROL 표면]**(즉, 메시지 사전 설정)을 선택합니다.
 
    표면은 [시스템 관리자](../start/path/administrator.md)에 의해 정의된 구성입니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md).
 
@@ -62,7 +62,7 @@ ht-degree: 100%
    >
    >선택한 메시지 카테고리 및 채널에 대해 유효한 채널 표면을 선택해야 합니다.
 
-   언제든지 메시지 인터페이스의 **[!UICONTROL Properties]** 버튼을 사용하여 메시지의 레이블, 설명, 표면에 액세스하고 이를 수정할 수 있습니다.
+   언제든지 메시지 인터페이스의 **[!UICONTROL 속성]** 버튼을 사용하여 메시지의 레이블, 설명, 표면에 액세스하고 이를 수정할 수 있습니다.
 
 1. 메시지 템플릿을 만듭니다.
 
@@ -74,15 +74,15 @@ ht-degree: 100%
 
 ## 전송 시간 최적화 활성화{#sto-in-journeys}
 
-이메일 및 푸시 알림의 경우 **[!UICONTROL Send-time optimization]**&#x200B;을(를) 활성화할 수 있습니다.
+이메일 및 푸시 알림의 경우 **[!UICONTROL 전송 시간 최적화]**&#x200B;를 활성화할 수 있습니다.
 
-**[!UICONTROL Send-time optimization]**&#x200B;을(를) 사용하여 각 사용자에 대해 개인화된 전송 시간을 예약하여 메시지 열람률과 클릭률을 높일 수 있습니다. [자세히 알아보기](../messages/send-time-optimization.md).
+**[!UICONTROL 전송 시간 최적화]**&#x200B;를 사용하여 각 사용자에 대해 개인화된 전송 시간을 예약하여 메시지 열람률과 클릭률을 높일 수 있습니다. [자세히 알아보기](../messages/send-time-optimization.md).
 
 ## 고급 매개 변수{#adv-settings}
 
 고급 매개 변수는 기본적으로 읽기 전용이며 숨겨집니다.
 
-고급 매개 변수에 액세스하려면 메시지 창 상단의 **[!UICONTROL Show read-only fields]** 아이콘을 클릭합니다.
+고급 매개 변수에 액세스하려면 메시지 창 상단의 **[!UICONTROL 읽기 전용 필드 표시]** 아이콘을 클릭합니다.
 
 ![](assets/show-read-only.png)
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 1. 복사할 메시지를 엽니다.
 
-1. **[!UICONTROL Action]** 창에서 **[!UICONTROL Copy]** 버튼을 사용합니다.
+1. **[!UICONTROL 작업]** 창에서 **[!UICONTROL 복사]** 버튼을 사용합니다.
 
    ![](assets/message-duplicate.png)
 
@@ -142,4 +142,4 @@ ht-degree: 100%
 
 ![](assets/delete-message.png)
 
-**[!UICONTROL Confirm]** 버튼을 사용하여 확인합니다.
+**[!UICONTROL 확인]** 버튼을 사용하여 확인합니다.
