@@ -3,9 +3,9 @@ title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -340,7 +340,7 @@ ht-degree: 97%
 
 **의사 결정 관리**
 
-* **Edge의 의사 결정 API** - Edge Decisioning API는 의사 결정 관리에서 관리되는 개인화된 오퍼를 제공하고 렌더링할 수 있습니다. 의사 결정 관리 사용자 인터페이스(UI) 또는 API를 사용하여 오퍼 및 기타 관련 개체를 만들 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Edge의 Decisioning API** - Edge Decisioning API는 Offer Decisioning에서 관리하는 개인화된 오퍼를 제공하고 렌더링할 수 있습니다. 의사 결정 관리 UI(사용자 인터페이스) 또는 API를 사용하여 오퍼 및 기타 관련 개체를 만들 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **관리**
 
@@ -378,7 +378,7 @@ ht-degree: 97%
 **의사 결정 관리**
 
 * 이제 오퍼 한도 설정이 모든 사용자 간에 적용되는지, 아니면 하나의 특정 프로필, 모든 배치 또는 배치마다 적용되는지를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
-* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대한 의사 결정 관리 기능을 사용할 수 있습니다. 세그먼트에 있는 각 프로필에 대한 오퍼 콘텐츠는 사용자 정의 일괄 처리 워크플로우에 사용할 수 있도록 AEP 데이터 세트에 배치됩니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대해 의사 결정 관리 기능을 사용할 수 있습니다. 세그먼트에 있는 각 프로필에 대한 오퍼 콘텐츠는 사용자 정의 일괄 처리 워크플로우에 사용할 수 있도록 AEP 데이터 세트에 배치됩니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **관리**
 
