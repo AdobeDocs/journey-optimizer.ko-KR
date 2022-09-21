@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 98%
+source-wordcount: '1151'
+ht-degree: 97%
 
 ---
 
@@ -246,13 +246,13 @@ ht-degree: 98%
       + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
-      + [라이브 보고서 대시보드 액세스](using/reports/live-report.md)
+      + [라이브 보고서 시작](using/reports/live-report.md)
       + [여정 라이브 보고서](using/reports/journey-live-report.md)
       + [캠페인 실시간 보고서](using/reports/campaign-live-report.md)
       + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
       + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
    + 글로벌 보고서 {#global-report}
-      + [글로벌 보고서 대시보드 액세스](using/reports/global-report.md)
+      + [글로벌 보고서 시작](using/reports/global-report.md)
       + [여정 글로벌 보고서](using/reports/journey-global-report.md)
       + [캠페인 글로벌 보고서](using/reports/campaign-global-report.md)
       + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)
