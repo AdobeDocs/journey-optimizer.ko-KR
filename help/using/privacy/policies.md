@@ -5,20 +5,14 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: cdd5f963e11874d15591dad80712ca2d2ee8026f
+source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 97%
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
 # 데이터 사용 정책 {#Policies}
-
->[!CONTEXTUALHELP]
->id="ajo_olac_manage_access"
->title="로컬 관리 액세스"
->abstract="TBC"
-
 
 Adobe Experience Platform **데이터 거버넌스 서비스**&#x200B;를 사용하면 레이블, 마케팅 작업 및 정책으로 데이터 사용을 제한할 수 있습니다.
 
