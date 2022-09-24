@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 1%
+source-wordcount: '1241'
+ht-degree: 2%
 
 ---
 
@@ -150,25 +150,21 @@ ht-degree: 1%
 >id="ac_edition_video_email"
 >title="비디오 설정"
 >abstract="이 구성 요소를 사용하여 이메일에 비디오를 삽입합니다. 모든 이메일 클라이언트는 비디오가 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="추가 정보"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_landing_page"
 >title="비디오 설정"
 >abstract="이 구성 요소를 사용하여 랜딩 페이지에 비디오를 삽입합니다. 일부 메시지 클라이언트에서는 비디오가 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="추가 정보"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_fragment"
 >title="비디오 설정"
 >abstract="이 구성 요소를 사용하여 조각에 비디오를 삽입합니다. 일부 메시지 클라이언트에서는 비디오가 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="추가 정보"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_template"
 >title="비디오 설정"
 >abstract="이 구성 요소를 사용하여 템플릿에 비디오를 삽입합니다. 일부 메시지 클라이언트에서는 비디오가 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="추가 정보"
 
 를 사용하십시오 **[!UICONTROL 비디오]** URL 링크를 통해 이메일에 비디오를 삽입하는 구성 요소입니다.
 
