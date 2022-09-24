@@ -5,7 +5,7 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: 8b9f2a51b758583cc23f3d21c79235825b26ca0c
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
@@ -13,6 +13,7 @@ ht-degree: 100%
 ---
 
 # 데이터 사용 정책 {#Policies}
+
 
 Adobe Experience Platform **데이터 거버넌스 서비스**&#x200B;를 사용하면 레이블, 마케팅 작업 및 정책으로 데이터 사용을 제한할 수 있습니다.
 
