@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '592'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="IP 풀 설정"
->abstract="전자 메일 게재 능력을 향상시키기 위해 IP 풀을 만들어 하위 도메인의 IP 주소를 함께 그룹화할 수 있습니다."
+>abstract="Journey Optimizer을 사용하여 하위 도메인의 IP 주소를 함께 그룹화하는 IP 풀을 만들 수 있습니다. 이렇게 하면 하위 도메인의 평판을 다른 하위 도메인에 영향을 주지 않으므로 이메일 게재 기능이 크게 향상될 수 있습니다."
 
 ## IP 풀 기본 정보 {#about-ip-pools}
 

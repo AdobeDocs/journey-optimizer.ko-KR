@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1213'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,11 @@ ht-degree: 0%
 >0분에서 60분 정도 걸립니다 [!DNL Journey Optimizer] 보내는 이메일의 숨겨진 주소를 고려합니다.
 
 ## 제외 목록에 액세스합니다 {#access-suppression-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_download"
+>title="목록을 CSV 파일로 내보내기"
+>abstract="제외 목록을 다운로드하려면 새 파일을 생성하여 현재 목록을 내보내거나 이전에 생성한 파일을 다운로드할 수 있습니다."
 
 제외된 이메일 주소의 세부 목록에 액세스하려면 다음 위치로 이동하십시오. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 이메일 구성]**, 을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL 제외 목록]**.
 
