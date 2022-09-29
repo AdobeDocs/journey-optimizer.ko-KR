@@ -2,7 +2,7 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
+source-git-commit: d3895b0d6a73c1618f417d28e971c5b3c9b89b4e
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 19%
@@ -198,7 +198,7 @@ ht-degree: 19%
 
 ### 기타 변경 사항{#sept-2022-other}
 
-* 여정 버스트 모드가 Campaign Rapid 게재 모드로 대체되었습니다. 추가 정보
+* 여정 버스트 모드가 Campaign Rapid 게재 모드로 대체되었습니다. [자세히 보기](../campaigns/create-campaign.md#rapid-delivery})
 * 성능을 향상시키기 위해 읽기 세그먼트, 세그먼트 자격 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 더 이상 경험 이벤트 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. [자세히 보기](../start/guardrails.md#expression-editor)
 * 예약된 읽기 세그먼트 여정에 대한 1시간 제한이 제거되었습니다. 이제 이러한 여정을 지연 없이 실행할 수 있습니다.
 
