@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 50f6b965b50b1ffe4dab9102657d43888cb6d5ea
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1031'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="허용 목록 관리"
->abstract="허용 목록이 활성화되면 허용 목록에 포함된 수신자만 이 샌드박스에서 이메일 메시지를 수신하게 됩니다."
+>abstract="허용 목록이 활성화되면 허용 목록에 포함된 수신자만 이 샌드박스에서 이메일 메시지를 수신하게 됩니다. 비활성화되면 모든 수신자는 이메일을 수신하게 됩니다."
 
 허용 목록이 [활성](#enable-allow-list), 다음 논리가 적용됩니다.
 

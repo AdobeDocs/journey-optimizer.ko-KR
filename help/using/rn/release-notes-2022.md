@@ -2,16 +2,84 @@
 title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: ht
-source-wordcount: '2337'
-ht-degree: 100%
+source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
+workflow-type: tm+mt
+source-wordcount: '2519'
+ht-degree: 98%
 
 ---
 
 # 2022년 릴리스 정보 {#release-notes-2022}
 
 이 페이지에서는 2022년에 릴리스된 [!DNL Journey Optimizer]의 기능 및 개선 사항 목록을 확인할 수 있습니다.
+
+## 2022년 8월 릴리스 {#aug-2022-release}
+
+### 새로운 기능
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer에서 캠페인 만들고 관리하기</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 세그먼트에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행되도록 디자인됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다. </p>
+<img src="assets/do-not-localize/campaigns.gif"/>
+<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/346680">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>사용자에게 SMS 보내기(일반적인 가용성)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 <b>Sinch</b> 또는 <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>이 <a href="../messages/create-sms.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>New Dynamic Expression Builder</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
+<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### 개선 사항
+
+**보고**
+
+* 이제 [여정] 글로벌 보고서에서 동의 정책 테이블 및 그래프를 사용할 수 있습니다. 이 위젯을 사용하여 사용자 정의 작업의 정책에서 제외된 프로필을 추적할 수 있습니다. [자세히 보기](../reports/journey-global-report.md#journey-global)
+
+   최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/global-report.md)를 참조하세요.
+
+**관리**
+
+* 이제 SMS 채널에 사용할 기본 전화 번호를 업데이트할 수 있습니다. [자세히 보기](../configuration/primary-email-addresses.md)
 
 
 ## 2022년 7월 릴리스 {#july-2022-release}
@@ -167,7 +235,7 @@ ht-degree: 100%
 <td>
 <p>이제 이메일 BCC(숨은 참조) 기능을 사용하여 Adobe Journey Optimizer에서 보낸 이메일을 저장할 수 있습니다. 이메일 사전 설정에서 이 옵션을 활성화하여 전송된 모든 이메일이 BCC 주소로 블라인드(bcc)로 복사됩니다.</p>
 <!--img src="assets/do-not-localize/bcc-rn.gif"/-->
-<p>자세한 내용은 <a href="../configuration/bcc-email.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../configuration/archiving-support.md#bcc-email">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -316,7 +384,7 @@ ht-degree: 100%
 * **양식이 없는 랜딩 페이지** - 이제 양식을 포함하지 않고 방문자의 작업이 필요 없는 랜딩 페이지를 만들어 게시할 수 있습니다.
 * **랜딩 페이지 템플릿** - 이제 랜딩 페이지를 템플릿으로 저장하고 다른 랜딩 페이지를 만들 때 다시 사용할 수 있습니다. [자세히 보기](../landing-pages/lp-templates.md)
 * **기본 페이지로 돌아가기** - 이제 동일한 랜딩 페이지 내의 하위 페이지에서 기본 페이지에 링크를 추가할 수 있습니다.
-* **사용자 지정 JavaScript 지원** - 이제 사용자 지정 JavaScript를 랜딩 페이지 콘텐츠에 추가하여 고급 스타일을 수행하거나 사용자 지정 동작을 랜딩 페이지에 추가할 수 있습니다.	[자세히 보기](../landing-pages/lp-custom-js.md)
+* **사용자 지정 JavaScript 지원** - 이제 사용자 지정 JavaScript를 랜딩 페이지 콘텐츠에 추가하여 고급 스타일을 수행하거나 사용자 지정 동작을 랜딩 페이지에 추가할 수 있습니다.    [자세히 보기](../landing-pages/lp-custom-js.md)
 
 **여정**
 
@@ -438,7 +506,7 @@ ht-degree: 100%
 <p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
-The suppression list helps you with honoring the ISPs’ feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
+The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
 <p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
@@ -466,7 +534,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 **여정**
 
 * 성능을 최적화하기 위해 1주일 동안 트리거되지 않은 테스트 모드의 모든 여정이 이제 초안 상태로 다시 전환합니다. [자세히 보기](../building-journeys/testing-the-journey.md#important_notes)
-* Journey Optimizer과 Adobe Campaign Classic 간 통합이 성능을 개선하기 위해 최적화되었습니다. 최대 가능한 기본 구성이 4,000회 호출/5분으로 변경되었습니다.	[자세히 보기](../action/acc-action.md#important-notes)
+* Journey Optimizer과 Adobe Campaign Classic 간 통합이 성능을 개선하기 위해 최적화되었습니다. 최대 가능한 기본 구성이 4,000회 호출/5분으로 변경되었습니다.    [자세히 보기](../action/acc-action.md#important-notes)
 
 **보고**
 
@@ -522,7 +590,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **여정**
 
-* 이제 Journey Optimizer 단계 이벤트를 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko)의 다른 데이터 세트에 연결할 수 있습니다. 기본 제공 여정 단계 이벤트 스키마의 **profileID** 필드가 이제 ID 필드로 정의됩니다. [자세히 보기](../reports/sharing-overview.md#integration-cja)
+* 이제 Journey Optimizer 단계 이벤트를 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko)의 다른 데이터 세트에 연결할 수 있습니다. 기본 제공 여정 단계 이벤트 스키마의 **profileID** 필드가 이제 ID 필드로 정의됩니다. [자세히 알아보기](../reports/sharing-overview.md#integration-cja)
 
 **의사 결정 관리**
 

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 51%
+source-wordcount: '905'
+ht-degree: 47%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 51%
 >[!NOTE]
 >
 >초안 또는 라이브 여정에서 사용되는 이벤트를 편집할 때는 이름, 설명 또는 페이로드 필드만 변경할 수 있습니다. 여정 손상 방지를 위해 초안 또는 라이브 여정 편집은 엄격히 제한됩니다.
+
+단일 여정(이벤트 또는 세그먼트 자격부터 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되지 않도록 하는 보호 기능이 포함되어 있습니다. 프로필 다시 시작은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어, 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03(동일한 이벤트나 동일한 여정을 트리거하는 다른 이벤트이든)에 도달하면 해당 이벤트가 이 프로필에 대해 다시 시작되지 않습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 

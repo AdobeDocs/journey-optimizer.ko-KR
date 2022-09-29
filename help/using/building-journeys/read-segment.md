@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 6%
+source-wordcount: '1323'
+ht-degree: 5%
 
 ---
 
@@ -30,19 +30,19 @@ ht-degree: 6%
 >
 >세그먼트 읽기 활동을 사용하는 여정의 경우 동시에 시작할 수 있는 최대 여정 수가 있습니다. 다시 시도는 시스템에 의해 수행되지만, 5~10분 간격으로 시간 경과에 따라 여정을 분산하여 5개 이상([세그먼트 읽기]가 있거나 &quot;가능한 한 빨리&quot; 시작됨)이 있는 경우를 피하십시오.
 >
->버스트 유료 추가 기능을 사용하면 읽기 세그먼트와 간단한 푸시 메시지를 포함하는 단순 여정에 대해 큰 볼륨으로 빠르게 푸시 메시지를 전송할 수 있습니다. 자세한 정보는 [이 섹션](../building-journeys/journey-gs.md#burst)을 참조하십시오
+>여정 읽기 세그먼트, 세그먼트 자격 또는 비즈니스 이벤트 활동으로 시작하는 경험 이벤트 필드 그룹은 사용할 수 없습니다.
 
 ### 활동 구성 {#configuring-segment-trigger-activity}
 
 세그먼트 읽기 활동을 구성하는 단계는 다음과 같습니다.
 
-1. 을(를) 펼칩니다. **[!UICONTROL Orchestration]** 카테고리 및 삭제 **[!UICONTROL Read Segment]** 활동을 캔버스로 이동합니다.
+1. 을(를) 펼칩니다. **[!UICONTROL 오케스트레이션]** 카테고리 및 삭제 **[!UICONTROL 세그먼트 읽기]** 활동을 캔버스로 이동합니다.
 
    활동을 여정의 첫 번째 단계로 배치해야 합니다.
 
-1. 추가 **[!UICONTROL Label]** 활동에 대한 방문(선택 사항).
+1. 추가 **[!UICONTROL 레이블]** 활동에 대한 방문(선택 사항).
 
-1. 에서 **[!UICONTROL Segment]** 필드에서 여정을 입력할 Adobe Experience Platform 세그먼트를 선택한 다음 **[!UICONTROL Save]**.
+1. 에서 **[!UICONTROL 세그먼트]** 필드에서 여정을 입력할 Adobe Experience Platform 세그먼트를 선택한 다음 **[!UICONTROL 저장]**.
 
    목록에 표시된 열을 사용자 지정하고 정렬할 수 있습니다.
 
@@ -52,19 +52,19 @@ ht-degree: 6%
 
    ![](assets/read-segment-selection.png)
 
-   세그먼트를 추가하면 **[!UICONTROL Copy]** 버튼을 사용하면 이름과 ID를 복사할 수 있습니다.
+   세그먼트를 추가하면 **[!UICONTROL 복사]** 버튼을 사용하면 이름과 ID를 복사할 수 있습니다.
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
 
-1. 에서 **[!UICONTROL Namespace]** 필드에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
+1. 에서 **[!UICONTROL 네임스페이스]** 필드에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
    >다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 여정에 들어갈 수 없습니다.
 
-1. 설정 **[!UICONTROL Throttling rate]** 필드를 세그먼트 읽기 활동의 처리량 제한에 추가합니다.
+1. 설정 **[!UICONTROL 전송률 조절]** 필드를 세그먼트 읽기 활동의 처리량 제한에 추가합니다.
 
    이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 초당 20,000개의 메시지입니다. 이 값은 초당 500~20,000개의 메시지에서 수정할 수 있습니다.
 
@@ -72,15 +72,15 @@ ht-degree: 6%
    >
    >샌드박스당 전체 전송률 은 초당 20,000개의 메시지로 설정됩니다. 따라서 동일한 샌드박스에서 동시에 실행되는 모든 읽기 세그먼트의 전송률은 초당 최대 20,000개의 메시지를 추가합니다. 이 캡은 수정할 수 없습니다.
 
-1. 다음 **[!UICONTROL Read Segment]** 활동을 통해 세그먼트가 여정을 입력할 시간을 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Edit journey schedule]** 링크를 클릭하여 여정 속성에 액세스한 다음 **[!UICONTROL Scheduler type]** 필드.
+1. 다음 **[!UICONTROL 세그먼트 읽기]** 활동을 통해 세그먼트가 여정을 입력할 시간을 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL 여정 예약 편집]** 링크를 클릭하여 여정 속성에 액세스한 다음 **[!UICONTROL 스케줄러 유형]** 필드.
 
    ![](assets/read-segment-schedule.png)
 
-   기본적으로 세그먼트는 여정을 입력합니다 **[!UICONTROL As soon as possible]**. 세그먼트를 특정 날짜/시간 또는 반복으로 여정을 입력하도록 하려면 목록에서 원하는 값을 선택합니다.
+   기본적으로 세그먼트는 여정을 입력합니다 **[!UICONTROL 가능한 한 빨리]**. 세그먼트를 특정 날짜/시간 또는 반복으로 여정을 입력하도록 하려면 목록에서 원하는 값을 선택합니다.
 
    >[!NOTE]
    >
-   >다음 사항에 유의하십시오. **[!UICONTROL Schedule]** 섹션은 **[!UICONTROL Read Segment]** 활동이 캔버스에 삭제되었습니다.
+   >다음 사항에 유의하십시오. **[!UICONTROL 예약]** 섹션은 **[!UICONTROL 세그먼트 읽기]** 활동이 캔버스에 삭제되었습니다.
 
    ![](assets/read-segment-schedule-list.png)
 
@@ -108,10 +108,12 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >일회성 읽기 세그먼트 여정이 여정 실행 후 30일 후에 완료됨 상태로 이동합니다. 예약된 읽기 세그먼트의 경우 마지막 항목이 실행된 후 30일이 경과한 시점입니다.
+>
+>이러한 여정의 수명이 다음 실행에서 종료되므로 반복 읽기 세그먼트 여정에서 대기 활동을 사용하는 동안 주의해야 합니다. 즉, 여정이 매일 실행되는 경우 오늘 시작된 여정 인스턴스는 내일 실행 전까지 유지됩니다. 예를 들어 해당 여정에서 2일 기다림을 추가한 경우가 다음 실행 대상인지 여부에 관계없이 다음 여정 실행(즉, 그 다음 날)에서 항상 프로필이 이동됩니다. 프로필은 2일 동안 해당 여정에 머무를 수 없습니다.
 
 ### 여정 테스트 및 게시 {#testing-publishing}
 
-다음 **[!UICONTROL Read Segment]** 활동을 사용하면 단일 프로필에서 또는 세그먼트에 대해 자격이 있는 프로필 중에서 선택한 100개의 임의로 여정을 테스트할 수 있습니다.
+다음 **[!UICONTROL 세그먼트 읽기]** 활동을 사용하면 단일 프로필에서 또는 세그먼트에 대해 자격이 있는 프로필 중에서 선택한 100개의 임의로 여정을 테스트할 수 있습니다.
 
 이렇게 하려면 테스트 모드를 활성화한 다음 왼쪽 창에서 원하는 옵션을 선택합니다.
 
@@ -119,17 +121,17 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 그런 다음 평소대로 테스트 모드를 구성하고 실행할 수 있습니다. [여정 테스트 방법 알아보기](testing-the-journey.md).
 
-테스트가 실행되면 **[!UICONTROL Show logs]** 버튼을 사용하면 선택한 테스트 옵션에 따라 테스트 결과를 볼 수 있습니다.
+테스트가 실행되면 **[!UICONTROL 로그 표시]** 버튼을 사용하면 선택한 테스트 옵션에 따라 테스트 결과를 볼 수 있습니다.
 
-* **[!UICONTROL Single profile at a time]**: 테스트 로그는 단일 테스트 모드를 사용할 때와 동일한 정보를 표시합니다. 이 작업에 대한 자세한 정보는 [이 섹션](testing-the-journey.md#viewing_logs)을 참조하십시오
+* **[!UICONTROL 한 번에 하나의 프로필]**: 테스트 로그는 단일 테스트 모드를 사용할 때와 동일한 정보를 표시합니다. 이 작업에 대한 자세한 정보는 [이 섹션](testing-the-journey.md#viewing_logs)을 참조하십시오
 
-* **[!UICONTROL Up to 100 profiles at once]**: 테스트 로그를 사용하여 Adobe Experience Platform에서 세그먼트 내보내기의 진행 상황과 여정에 입력한 모든 사람의 개별 진행 상태를 추적할 수 있습니다.
+* **[!UICONTROL 한 번에 최대 100개의 프로필]**: 테스트 로그를 사용하여 Adobe Experience Platform에서 세그먼트 내보내기의 진행 상황과 여정에 입력한 모든 사람의 개별 진행 상태를 추적할 수 있습니다.
 
    한 번에 최대 100개의 프로필을 사용하여 여정을 테스트해도 시각적 흐름을 사용하여 여정에서 개인의 진행 상황을 추적할 수 없습니다.
 
    ![](assets/read-segment-log.png)
 
-테스트가 성공하면 여정을 게시할 수 있습니다( [여정 게시](publishing-the-journey.md)). 세그먼트에 속하는 개인은 여정 속성에 지정된 날짜/시간에 여정을 입력합니다 **[!UICONTROL Scheduler]** 섹션을 참조하십시오.
+테스트가 성공하면 여정을 게시할 수 있습니다( [여정 게시](publishing-the-journey.md)). 세그먼트에 속하는 개인은 여정 속성에 지정된 날짜/시간에 여정을 입력합니다 **[!UICONTROL 스케줄러]** 섹션을 참조하십시오.
 
 >[!NOTE]
 >

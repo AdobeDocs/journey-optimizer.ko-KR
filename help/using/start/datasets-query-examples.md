@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 3012d5492205e99f4d6c22d4cc07ddef696e6f1f
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 0%
 [의사 결정 이벤트 데이터 세트](../start/datasets-query-examples.md#ode-decisionevents)
 [동의 서비스 데이터 세트](../start/datasets-query-examples.md#consent-service-dataset)
 [숨은 참조 피드백 이벤트 데이터 세트](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
+[엔티티 데이터 세트](../start/datasets-query-examples.md#entity-dataset)
 
 ## 이메일 추적 경험 이벤트 데이터 세트{#email-tracking-experience-event-dataset}
 
@@ -300,4 +301,63 @@ WHERE
             mfe._experience.customerJourneyManagement.messageExecution.messageExecutionID  = '<message-execution-id>' AND 
             mfe._experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.category = 'async' AND 
             mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus
+```
+
+## 엔티티 데이터 세트{#entity-dataset}
+
+_인터페이스의 이름: ajo_entity_dataset(시스템 데이터 세트)_
+
+최종 사용자에게 전송된 메시지의 엔티티 메타데이터를 저장할 데이터 집합입니다.
+
+관련 스키마는 AJO 엔티티 스키마입니다.
+
+이 데이터 세트를 사용하면 주요 마케터에게 친숙한 메타데이터를 사용하여 다양한 데이터 세트를 보강할 수 있습니다. messageID 속성은 메시지 피드백 데이터 세트 및 경험 이벤트 추적 데이터 세트와 같은 다양한 데이터 세트를 연결하여 프로필 수준에서 추적으로 메시지 게재의 세부 사항을 가져오는 데 도움이 됩니다.
+
+다음 쿼리는 주어진 캠페인에 대해 연결된 메시지 템플릿을 가져오는 데 도움이 됩니다.
+
+```sql
+SELECT
+  AE._experience.customerJourneyManagement.entities.channelDetails.template
+from
+  ajo_entity_dataset AE
+    WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
+```
+
+다음 쿼리는 모든 피드백 이벤트와 연관된 여정 세부 사항 및 이메일 제목을 가져오는 데 도움이 됩니다.
+
+```sql
+SELECT 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionName, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionID, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyVersionID, 
+  AE._experience.customerJourneyManagement.entities.channelDetails.email.subject 
+from 
+  ajo_entity_dataset AE 
+  INNER JOIN cjm_message_feedback_event_dataset MF ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
+WHERE 
+  AE._experience.customerJourneyManagement.entities.channelDetails.channel._id = 'https://ns.adobe.com/xdm/channels/email' 
+  AND MF._experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' 
+  AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
+```
+
+여정 단계 이벤트, 메시지 피드백 및 추적 데이터 세트를 결합하여 특정 프로필에 대한 통계를 가져올 수 있습니다.
+
+```sql
+SELECT 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionName, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionID, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyVersionID, 
+  AE._experience.customerJourneyManagement.entities.channelDetails.email.subject,
+    JE._EXPERIENCE.JOURNEYORCHESTRATION.STEPEVENTS.PROFILEID,
+    JE._EXPERIENCE.JOURNEYORCHESTRATION.STEPEVENTS.NODENAME
+from 
+  ajo_entity_dataset AE 
+  INNER JOIN cjm_message_feedback_event_dataset MF 
+    ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
+    INNER JOIN journey_step_events JE
+    ON AE._experience.customerJourneyManagement.entities.journey.journeyActionID = JE._experience.journeyOrchestration.stepEvents.actionID
+WHERE 
+  AE._experience.customerJourneyManagement.entities.channelDetails.channel._id = 'https://ns.adobe.com/xdm/channels/email' 
+  AND MF._experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' 
+  AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```

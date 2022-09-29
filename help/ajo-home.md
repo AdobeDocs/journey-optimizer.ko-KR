@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
-workflow-type: ht
-source-wordcount: '400'
+source-git-commit: 8ca0d2bbd01451de613d8ae985e10a711fcc6316
+workflow-type: tm+mt
+source-wordcount: '336'
 ht-degree: 100%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 100%
 # Adobe [!DNL Journey Optimizer] 설명서 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
-
->[!CAUTION]
->
->2022년 7월에 Adobe Journey Optimizer는 [새로운 기능](using/rn/inline-messages.md)을 릴리스하여 Journey Optimizer 채널(이메일, 푸시, SMS)에 사용할 콘텐츠를 작성하는 방식을 개선했습니다. Journey Optimizer의 전문가로서 이제 여정에서 바로 메시지를 [만들고 작성](using/messages/messages-in-journeys.md)할 수 있습니다. 여정 자동 전환이 수행됩니다. 몇 가지 단계에서 여러분의 도움이 필요합니다. [필수 단계](using/rn/inline-messages-steps.md) 자세히 알아보기.
 
 <table style="table-layout:fixed">
 <tr>

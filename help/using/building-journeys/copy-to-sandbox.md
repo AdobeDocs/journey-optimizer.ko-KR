@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 >title="종속 개체"
 >abstract="여정에서 사용되는 관련 객체 목록입니다. 이 목록에는 이름, 개체 유형 및 내부 Journey Optimizer ID가 표시됩니다."
 
-Journey Optimizer을 사용하면 한 샌드박스에서 다른 샌드박스로 전체 여정을 복사할 수 있습니다. 예를 들어 스테이지 샌드박스 환경에서 프로덕션 샌드박스에 여정을 복사할 수 있습니다. Journey Optimizer은 여정 자체 외에 여정이 종속하는 대부분의 개체도 복사합니다. 세그먼트, 서피스(예: 사전 설정), 스키마, 이벤트 및 작업 자세한 내용은 [제한 사항](../building-journeys/copy-to-sandbox.md#limitations)
+Journey Optimizer을 사용하면 한 샌드박스에서 다른 샌드박스로 전체 여정을 복사할 수 있습니다. 예를 들어 스테이지 샌드박스 환경에서 프로덕션 샌드박스에 여정을 복사할 수 있습니다. Journey Optimizer은 여정 자체 외에 여정이 종속하는 대부분의 개체도 복사합니다. 세그먼트, 서피스(예: 사전 설정), 스키마, 이벤트 및 작업 복사된 개체에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../building-journeys/copy-to-sandbox.md#limitations).
 
 >[!CAUTION]
 >
@@ -45,7 +45,7 @@ Journey Optimizer을 사용하면 한 샌드박스에서 다른 샌드박스로 
 
 여정을 다른 샌드박스에 복사하려면 다음 단계를 수행합니다.
 
-1. 여정 관리 메뉴 섹션에서 **[!UICONTROL Journeys]**. 여정 목록이 표시됩니다.
+1. 여정 관리 메뉴 섹션에서 **[!UICONTROL 여정]**. 여정 목록이 표시됩니다.
 
 2. 복사할 여정을 검색하고 **추가 작업** 아이콘(여정 이름 옆에 있는 세 점)을 클릭하고 **샌드박스에 복사**.
 
