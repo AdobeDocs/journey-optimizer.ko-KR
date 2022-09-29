@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 8a8950dbbda9a0a3aa498e304e41294ad343d0be
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1188'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ When [메시지 만들기](../messages/get-started-content.md)이메일에 대�
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-선택한 IP 풀이 아래에 있는 동안에는 서피스 생성을 계속할 수 없습니다 [에디션](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 상태) 및 을 선택한 하위 도메인과 연결한 적이 없습니다. 그렇지 않으면 가장 오래된 버전의 IP 풀/하위 도메인 연결이 계속 사용됩니다. 이 경우 서피스를 초안으로 저장하고 IP 풀에 가 있으면 다시 시도하십시오 **[!UICONTROL Success]** 상태.
+선택한 IP 풀이 아래에 있는 동안에는 서피스 생성을 계속할 수 없습니다 [에디션](ip-pools.md#edit-ip-pool) (**[!UICONTROL 처리 중]** 상태) 및 을 선택한 하위 도메인과 연결한 적이 없습니다. 그렇지 않으면 가장 오래된 버전의 IP 풀/하위 도메인 연결이 계속 사용됩니다. 이 경우 서피스를 초안으로 저장하고 IP 풀에 가 있으면 다시 시도하십시오 **[!UICONTROL 성공]** 상태.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ When [메시지 만들기](../messages/get-started-content.md)이메일에 대�
 
 ## 목록 가입 해지 {#list-unsubscribe}
 
-On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTROL Enable List-Unsubscribe]** 옵션이 표시됩니다.
+On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTROL 목록 가입 해지 활성화]** 옵션이 표시됩니다.
 
 ![](assets/preset-list-unsubscribe.png)
 
@@ -72,7 +72,7 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 * An **이메일 주소 가입**: 모든 구독 취소 요청을 전송하는 입니다.
 
-   in [!DNL Journey Optimizer], 가입 해지 이메일 주소가 기본값입니다 **[!UICONTROL Mailto (unsubscribe)]** 채널 서피스에 표시되는 주소, 즉 [선택한 하위 도메인](#subdomains-and-ip-pools).
+   in [!DNL Journey Optimizer], 가입 해지 이메일 주소가 기본값입니다 **[!UICONTROL Mailto(구독 취소)]** 채널 서피스에 표시되는 주소, 즉 [선택한 하위 도메인](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
@@ -92,21 +92,21 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 ## 헤더 매개 변수{#email-header}
 
-에서 **[!UICONTROL Header parameters]** 섹션에서 해당 표면을 사용하여 보낸 이메일 유형과 연관된 발신자 이름과 이메일 주소를 입력합니다.
+에서 **[!UICONTROL 헤더 매개 변수]** 섹션에서 해당 표면을 사용하여 보낸 이메일 유형과 연관된 발신자 이름과 이메일 주소를 입력합니다.
 
 >[!CAUTION]
 >
 >이메일 주소는 현재 선택한 주소를 사용해야 합니다 [위임된 하위 도메인](about-subdomain-delegation.md).
 
-* **[!UICONTROL Sender name]**: 브랜드 이름과 같은 발신자의 이름입니다.
+* **[!UICONTROL 발신자 이름]**: 브랜드 이름과 같은 발신자의 이름입니다.
 
-* **[!UICONTROL Sender email]**: 통신에 사용할 이메일 주소입니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*, 다음 사용 가능 *contact@marketing.luma.com*.
+* **[!UICONTROL 보낸 사람 이메일]**: 통신에 사용할 이메일 주소입니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*, 다음 사용 가능 *contact@marketing.luma.com*.
 
-* **[!UICONTROL Reply to (name)]**: 수신자가 **회신** 버튼을 클릭합니다.
+* **[!UICONTROL 회신 대상(이름)]**: 수신자가 **회신** 버튼을 클릭합니다.
 
-* **[!UICONTROL Reply to (email)]**: 수신자가 **회신** 버튼을 클릭합니다. 위임된 하위 도메인에 정의된 주소를 사용해야 합니다(예: *reply@marketing.luma.com*). 그렇지 않으면 이메일이 삭제됩니다.
+* **[!UICONTROL 회신 대상(이메일)]**: 수신자가 **회신** 버튼을 클릭합니다. 위임된 하위 도메인에 정의된 주소를 사용해야 합니다(예: *reply@marketing.luma.com*). 그렇지 않으면 이메일이 삭제됩니다.
 
-* **[!UICONTROL Error email]**: 이 주소에는 배달되는 며칠 후 ISP에서 생성한 모든 오류(비동기 바운스)가 수신됩니다.
+* **[!UICONTROL 오류 이메일]**: 이 주소에는 배달되는 며칠 후 ISP에서 생성한 모든 오류(비동기 바운스)가 수신됩니다.
 
 ![](assets/preset-header.png)
 
@@ -121,7 +121,7 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 * 원하는 이메일 주소입니다. 전자 메일 주소 전달 도메인은 Adobe에 위임된 하위 도메인과 일치하지 않습니다.
 * 샌드박스 이름입니다.
 * 앞으로 전자 메일 주소가 사용될 표면 이름입니다.
-* 현재 **[!UICONTROL Reply to (email)]** 채널 서피스 레벨에서 설정된 주소.
+* 현재 **[!UICONTROL 회신 대상(이메일)]** 채널 서피스 레벨에서 설정된 주소.
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 에서 보낸 이메일의 동일한 사본(또는 빈 사본)을 보낼 수 있습니다 [!DNL Journey Optimizer] 를 BCC 받은 편지함으로 배달되며 이 받은 편지함은 규정 준수 또는 보관 목적으로 저장됩니다.
 
-이렇게 하려면 **[!UICONTROL BCC email]** 채널 서피스 레벨의 선택적 피쳐 [자세히 보기](bcc-email.md)
+이렇게 하려면 **[!UICONTROL 숨은 참조 이메일]** 채널 서피스 레벨의 선택적 피쳐 [자세히 보기](archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
@@ -171,17 +171,17 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 >title="미리 보기 URL 추적 매개 변수"
 >abstract="추적 매개 변수가 전자 메일 콘텐츠에 있는 URL에 추가되는 방법을 검토하십시오."
 
-다음을 사용할 수 있습니다 **[!UICONTROL URL tracking parameters]** 를 사용하여 여러 채널에서 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 선택 사항입니다.
+다음을 사용할 수 있습니다 **[!UICONTROL URL 추적 매개 변수]** 를 사용하여 여러 채널에서 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 선택 사항입니다.
 
 이 섹션에 정의된 매개 변수가 이메일 메시지 콘텐츠에 포함된 URL의 끝에 추가됩니다. 그런 다음 Adobe Analytics 또는 Google Analytics과 같은 웹 분석 도구에서 이러한 매개 변수를 캡처하고 다양한 성능 보고서를 만들 수 있습니다.
 
 <!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-를 사용하여 최대 10개의 추적 매개 변수를 추가할 수 있습니다 **[!UICONTROL Add new parameter]** 버튼을 클릭합니다.
+를 사용하여 최대 10개의 추적 매개 변수를 추가할 수 있습니다 **[!UICONTROL 새 매개 변수 추가]** 버튼을 클릭합니다.
 
 ![](assets/preset-url-tracking.png)
 
-URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONTROL Value]** 필드.
+URL 추적 매개 변수를 구성하려면 **[!UICONTROL 이름]** 및 **[!UICONTROL 값]** 필드.
 
 <!--You can also choose from a list of predefined values by navigating to the following objects:
 * Journey attributes: **Source id**, **Source name**, **Source version id**
@@ -194,13 +194,13 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL Name]** 및 **[!UICONT
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-각 항목을 편집할 수도 있습니다 **[!UICONTROL Value]** 필드를 사용하여 [표현식 편집기](../personalization/personalization-build-expressions.md). 편집 아이콘을 클릭하여 편집기를 엽니다. 여기에서 원하는 컨텍스트 속성을 선택하거나 텍스트를 직접 편집할 수 있습니다.
+각 항목을 편집할 수도 있습니다 **[!UICONTROL 값]** 필드를 사용하여 [표현식 편집기](../personalization/personalization-build-expressions.md). 편집 아이콘을 클릭하여 편집기를 엽니다. 여기에서 원하는 컨텍스트 속성을 선택하거나 텍스트를 직접 편집할 수 있습니다.
 
 ![](assets/preset-url-tracking-editor.png)
 
 >[!NOTE]
 >
->표현식 편집기에서 입력 텍스트 값과 컨텍스트 속성을 결합할 수 있습니다. 각 **[!UICONTROL Value]** 필드에는 총 255자가 포함될 수 있습니다.
+>표현식 편집기에서 입력 텍스트 값과 컨텍스트 속성을 결합할 수 있습니다. 각 **[!UICONTROL 값]** 필드에는 총 255자가 포함될 수 있습니다.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

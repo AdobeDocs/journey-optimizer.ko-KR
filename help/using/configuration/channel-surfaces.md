@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
+source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1571'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 > * 다음을 수행해야 합니다 [이메일 구성](#configure-email-settings), [푸시 구성](../configuration/push-configuration.md) 및 [SMS 구성](../configuration/sms-configuration.md) 채널 서피스를 생성하기 전 단계.
 
 
-여정에서 메시지를 생성할 때 채널 서피스를 구성할 수 있습니다.
+여정 또는 캠페인에서 메시지를 만들 때 채널 서피스를 구성하고 나면 선택할 수 있습니다.
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -35,14 +35,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="채널 서피스 설정"
->abstract="채널 표면을 설정할 때 적용되는 채널을 선택하고, 이메일 유형, 하위 도메인, 발신자 이름, 모바일 앱, SMS 구성 등과 같이 메시지에 필요한 모든 기술 매개 변수를 정의합니다."
+>abstract="채널 표면을 설정할 때 적용되는 채널을 선택하고 이메일 유형, 발신자 이름, 모바일 앱, SMS 구성 등과 같이 전송에 필요한 모든 기술 매개 변수를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="채널 서피스 설정"
->abstract="채널 표면을 설정할 때 적용되는 채널을 선택하고, 이메일 유형, 발신자 이름, 모바일 앱, SMS 구성 등과 같이 메시지에 필요한 모든 기술 매개 변수를 정의합니다."
-
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
+>abstract="여정 또는 캠페인의 이메일과 같은 작업을 만들려면 먼저 메시지에 필요한 모든 기술 설정을 정의하는 채널 표면을 만들어야 합니다. 채널 서피스를 생성, 편집 및 삭제하려면 채널 서피스 관리 권한이 있어야 합니다."
 
 채널 서피스를 생성하려면 다음 단계를 수행합니다.
 
@@ -90,7 +88,10 @@ ht-degree: 1%
 
 1. 채널 서피스가 생성되면 목록에 과 함께 표시됩니다. **[!UICONTROL 처리 중]** 상태.
 
-   이 단계에서는 구성이 올바른지 확인하기 위해 몇 가지 확인이 수행됩니다. 처리 시간이 거의 다 되었습니다 **48h-72h**&#x200B;과 같은 작업을 수행할 수 있습니다. **7-10 영업일**.
+   이 단계에서는 구성이 올바른지 확인하기 위해 몇 가지 확인이 수행됩니다. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+
+   >[!NOTE]
+   >지정된 하위 도메인에 대한 첫 번째 채널 서피스를 생성할 때 처리 시간이 걸릴 수 있습니다 **10분~10일**. 선택한 하위 도메인이 다른 서피스에서 이미 사용된 경우 최대 3시간만 걸립니다.
 
    이러한 검사에는 Adobe 팀이 수행하는 구성 및 기술 테스트가 포함됩니다.
 
@@ -101,6 +102,7 @@ ht-degree: 1%
    * 헬로 호스트 확인
    * IP 풀 확인
    * A/PTR 레코드, t/m/res 하위 도메인 확인
+   * FBL 등록(이 확인은 지정된 하위 도메인에 대해 이메일 면을 처음 만들 때만 수행됩니다.)
 
    >[!NOTE]
    >

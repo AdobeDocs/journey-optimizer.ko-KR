@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
@@ -33,15 +33,17 @@ ht-degree: 1%
 >Adobe Experience Platform 세그먼트는 하루에 한 번(**배치** 세그먼트) 또는 실시간(**스트리밍** 세그먼트(Adobe Experience Platform의 빈도가 높은 대상 선택 사항 사용)
 >
 >선택한 세그먼트가 스트리밍되면 이 세그먼트에 속하는 개인이 여정을 실시간으로 입력할 수 있습니다. 세그먼트가 배치인 경우, 이 세그먼트에 대해 새로 자격이 있는 사람은 Adobe Experience Platform에서 여정 계산이 실행될 때 세그먼트를 잠재적으로 입력합니다.
+>
+>여정 읽기 세그먼트, 세그먼트 자격 또는 비즈니스 이벤트 활동으로 시작하는 경험 이벤트 필드 그룹은 사용할 수 없습니다.
 
 
-1. 을(를) 펼칩니다. **[!UICONTROL Events]** 카테고리 및 삭제 **[!UICONTROL Segment Qualification]** 활동을 캔버스로 이동합니다.
+1. 을(를) 펼칩니다. **[!UICONTROL 이벤트]** 카테고리 및 삭제 **[!UICONTROL 세그먼트 자격]** 활동을 캔버스로 이동합니다.
 
    ![](assets/segment5.png)
 
-1. 추가 **[!UICONTROL Label]** 추적했습니다. 데이터 소스에 이벤트에 설명을 추가합니다.
+1. 추가 **[!UICONTROL 레이블]** 추적했습니다. 데이터 소스에 이벤트에 설명을 추가합니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL Segment]** 필드를 선택하고 활용할 세그먼트를 선택합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL 세그먼트]** 필드를 선택하고 활용할 세그먼트를 선택합니다.
 
    >[!NOTE]
    >
@@ -49,17 +51,17 @@ ht-degree: 1%
 
    ![](assets/segment6.png)
 
-   세그먼트를 추가하면 **[!UICONTROL Copy]** 버튼을 사용하면 이름과 ID를 복사할 수 있습니다.
+   세그먼트를 추가하면 **[!UICONTROL 복사]** 버튼을 사용하면 이름과 ID를 복사할 수 있습니다.
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
-1. 에서 **[!UICONTROL Behaviour]** 필드, 세그먼트 출입구, 종료 또는 둘 다 수신 여부를 선택합니다.
+1. 에서 **[!UICONTROL 비헤이비어]** 필드, 세그먼트 출입구, 종료 또는 둘 다 수신 여부를 선택합니다.
 
    >[!NOTE]
    >
-   >참고 사항 **[!UICONTROL Enter]** 및 **[!UICONTROL Exit]** 에 해당합니다 **실현** 및 **종료됨** Adobe Experience Platform의 세그먼트 기여도 상태. 세그먼트 평가 방법에 대한 자세한 내용은 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >참고 사항 **[!UICONTROL Enter 키]** 및 **[!UICONTROL 종료]** 에 해당합니다 **실현** 및 **종료됨** Adobe Experience Platform의 세그먼트 기여도 상태. 세그먼트 평가 방법에 대한 자세한 내용은 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. 네임스페이스를 선택합니다. 이벤트가 여정의 첫 번째 단계로 배치된 경우에만 필요합니다.
 
@@ -71,7 +73,7 @@ ht-degree: 1%
 * 자격 타임스탬프
 * 세그먼트 id
 
-다음 조건 또는 작업에서 표현식 편집기를 사용할 때 **[!UICONTROL Segment Qualification]** 활동, 액세스 권한 **[!UICONTROL SegmentQualification]** 노드 아래에 있어야 합니다. 다음 중 하나를 선택할 수 있습니다 **[!UICONTROL Last qualification time]** 그리고 **[!UICONTROL status]** (시작 또는 종료).
+다음 조건 또는 작업에서 표현식 편집기를 사용할 때 **[!UICONTROL 세그먼트 자격]** 활동, 액세스 권한 **[!UICONTROL 세그먼트 자격]** 노드 아래에 있어야 합니다. 다음 중 하나를 선택할 수 있습니다 **[!UICONTROL 마지막 자격 시간]** 그리고 **[!UICONTROL 상태]** (시작 또는 종료).
 
 자세한 내용은 [조건 활동](../building-journeys/condition-activity.md#about_condition).
 
@@ -81,7 +83,7 @@ ht-degree: 1%
 
 ## 모범 사례 {#best-practices-segments}
 
-다음 **[!UICONTROL Segment Qualification]** 활동을 통해 Adobe Experience Platform 세그먼트에서 자격을 얻거나 자격이 없는 개인의 여정에 바로 입장할 수 있습니다.
+다음 **[!UICONTROL 세그먼트 자격]** 활동을 통해 Adobe Experience Platform 세그먼트에서 자격을 얻거나 자격이 없는 개인의 여정에 바로 입장할 수 있습니다.
 
 이 정보의 수신 속도가 빠르다. 측정된 횟수는 초당 수신된 10,000개의 이벤트 속도를 보여줍니다. 그 결과, 여러분은 얼마나 많은 입구가 일어날 수 있는지, 어떻게 그것을 피할 수 있는지 그리고 어떻게 여정을 준비시킬 수 있는지 이해할 수 있어야 합니다.
 
@@ -101,12 +103,12 @@ ht-degree: 1%
 
 다음은 여정(데이터 소스, 사용자 지정 작업, 채널 작업 활동)에서 활용되는 시스템을 오버로드하지 않도록 하는 데 도움이 되는 몇 가지 우수 사례입니다.
 
-에서 를 사용하지 않음 **[!UICONTROL Segment Qualification]** 활동, 배치 세그먼트가 생성된 직후 첫 번째 계산 최고점을 피합니다. 계산되지 않은 세그먼트를 사용하려는 경우 여정 캔버스에 노란색 경고가 표시됩니다.
+에서 를 사용하지 않음 **[!UICONTROL 세그먼트 자격]** 활동, 배치 세그먼트가 생성된 직후 첫 번째 계산 최고점을 피합니다. 계산되지 않은 세그먼트를 사용하려는 경우 여정 캔버스에 노란색 경고가 표시됩니다.
 
 ![](assets/segment-error.png)
 
-여정에 사용된 데이터 소스 및 작업에 대해 최대 가용량 규칙을 설정하여 오버로드를 방지합니다. 추가 정보 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. 최대 가용량 규칙은 다시 시도되지 않습니다. 다시 시도해야 하는 경우 상자를 선택하여 여정에서 대체 경로를 사용해야 합니다 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 를 클릭하거나 탭합니다.
+여정에 사용된 데이터 소스 및 작업에 대해 최대 가용량 규칙을 설정하여 오버로드를 방지합니다. 추가 정보 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. 최대 가용량 규칙은 다시 시도되지 않습니다. 다시 시도해야 하는 경우 상자를 선택하여 여정에서 대체 경로를 사용해야 합니다 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로 추가]** 를 클릭하거나 탭합니다.
 
-프로덕션 여정에서 세그먼트를 사용하기 전에 항상 먼저 매일 이 세그먼트에 대해 자격이 있는 개인의 볼륨을 평가하십시오. 이를 위해 다음을 확인할 수 있습니다 **[!UICONTROL Segments]** 메뉴를 열고 세그먼트를 열고 **[!UICONTROL Profiles over time]** 그래프.
+프로덕션 여정에서 세그먼트를 사용하기 전에 항상 먼저 매일 이 세그먼트에 대해 자격이 있는 개인의 볼륨을 평가하십시오. 이를 위해 다음을 확인할 수 있습니다 **[!UICONTROL 세그먼트]** 메뉴를 열고 세그먼트를 열고 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프.
 
 ![](assets/segment-overload.png)

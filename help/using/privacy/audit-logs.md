@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 2f89b3a2e067d269a6316ae26d280924a530fe51
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 97%
 
 ---
 
@@ -34,6 +34,7 @@ Journey Optimizer를 사용하면 시스템에서 여정, 메시지, 랜딩 페�
 
 | 리소스 | 작업 |
 |-----------|------------------|
+| AJO 캠페인 | 만들기 / 삭제 / 업데이트 / 활성화 / 중지 |
 | AJO 채널 일반 설정 | 만들기 / 삭제 / 업데이트 |
 | AJO IP 풀 | 만들기 / 삭제 / 업데이트 |
 | AJO 랜딩 페이지 | 만들기 / 삭제 / 업데이트 / 게시 / 게시 취소 |
@@ -41,7 +42,7 @@ Journey Optimizer를 사용하면 시스템에서 여정, 메시지, 랜딩 페�
 | AJO 랜딩 페이지 사전 설정 | 만들기 / 삭제 / 업데이트 |
 | AJO 랜딩 페이지 하위 도메인 | 만들기 / 삭제 / 업데이트 |
 | AJO 메시지 | 만들기 / 삭제 / 업데이트 / 게시 |
-| AJO 채널 표면 | 만들기 / 삭제 / 업데이트 |
+| AJO 메시지 사전 설정 | 만들기 / 삭제 / 업데이트 |
 | AJO PTR 레코드 | 만들기 / 삭제 / 업데이트 |
 | AJO 저장된 표현식 템플릿 | 만들기 / 삭제 / 업데이트 |
 | AJO SMS API 자격 증명 | 만들기 / 삭제 / 업데이트 |

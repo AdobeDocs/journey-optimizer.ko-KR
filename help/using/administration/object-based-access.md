@@ -5,12 +5,10 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 4%
+source-wordcount: '438'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +18,10 @@ ht-degree: 4%
 >id="ajo_olac_manage_access"
 >title="객체 수준 액세스 제어"
 >abstract="액세스할 수 없는 레이블을 적용하면 이 객체에 대한 액세스가 취소됩니다."
+
+>[!IMPORTANT]
+>
+>객체 수준 액세스 제어 사용은 현재 선택한 고객에게만 제한되며 향후 릴리스의 모든 환경에 배포됩니다.
 
 OLAC(객체 수준 액세스 제어)를 사용하면 다양한 객체에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다.
 
@@ -86,6 +88,7 @@ Adobe Journey Optimizer에서 OLAC를 사용하면 데이터를 보호하고 특
 1. 클릭 **[!UICONTROL 저장]** 레이블 제한을 적용하려면
 
 이 객체에 액세스하려면 사용자가 **[!UICONTROL 레이블]** 포함됨 **[!UICONTROL 역할]**.
+예를 들어 C1 레이블이 있는 사용자는 C1에 대해 레이블이 지정되거나 레이블이 지정되지 않은 객체에만 액세스할 수 있습니다.
 
 할당 방법에 대한 자세한 내용 **[!UICONTROL 레이블]** 변환 후 **[!UICONTROL 역할]**&#x200B;를 참조하려면 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
 

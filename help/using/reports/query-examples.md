@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
+source-git-commit: e75f26d7112627d63977cafa8a7fbf602c5a3eb1
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1339'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,90 @@ ht-degree: 2%
 이 섹션에는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 몇 가지 예제가 나와 있습니다.
 
 쿼리에 사용되는 필드에 해당 스키마의 관련 값이 있는지 확인하십시오.
+
+**ID, instanceid 및 profileid 간의 차이점은 무엇입니까?**
+
+* id: 모든 단계 이벤트 항목에 대해 고유합니다. 서로 다른 두 단계 이벤트에는 동일한 ID가 있을 수 없습니다.
+* instanceId: instanceID는 여정 실행 내의 프로필에 연결된 모든 단계 이벤트에 대해 동일합니다. 프로필이 여정을 다시 입력하면 다른 instanceId가 사용됩니다. 이 새 instanceId는 다시 입력된 인스턴스의 모든 단계 이벤트(처음부터 끝까지)에 대해 동일합니다.
+* profileID: 여정 네임스페이스에 해당하는 프로필의 ID입니다.
+
+## 기본 사용 사례/일반적인 쿼리 {#common-queries}
+
+**특정 기간에 여정에 입력한 프로필 수**
+
+이 쿼리는 주어진 기간 동안 주어진 여정에 입력된 개별 프로필 수를 제공합니다.
+
+_Data Lake 쿼리_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+AND _experience.journeyOrchestration.stepEvents.nodeType='start'
+AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**특정 시간 동안 특정 여정의 각 노드에서 발생한 오류 수**
+
+_Data Lake 쿼리_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode  not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
+**특정 기간 동안 특정 여정에서 폐기된 이벤트 수**
+
+_Data Lake 쿼리_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**특정 여정의 특정 프로필에 있는 특정 프로필은 어떻게 됩니까?**
+
+_Data Lake 쿼리_
+
+이 쿼리는 지정된 시간 동안 시간 순서대로 주어진 프로필 및 여정에 대한 모든 단계 이벤트 및 서비스 이벤트를 반환합니다.
+
+```sql
+SELECT
+timestamp,
+_experience.journeyOrchestration.stepEvents.journeyVersionID,
+_experience.journeyOrchestration.stepEvents.profileID,
+_experience.journeyOrchestration.stepEvents.nodeName,
+_experience.journeyOrchestration.stepEvents.journeyNodeProcessed,
+_experience.journeyOrchestration.serviceType,
+to_json(_experience.journeyOrchestration.profile),
+to_json(_experience.journeyOrchestration.serviceEvents)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (
+    _experience.journeyOrchestration.stepEvents.profileID='<profileID>'
+    OR _experience.journeyOrchestration.profile.ID='<profileID>'
+  );
+ORDER BY timestamp;
+```
+
 
 ## 메시지/작업 오류 {#message-action-errors}
 

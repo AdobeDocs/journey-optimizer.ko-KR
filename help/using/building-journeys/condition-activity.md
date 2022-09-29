@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 9eebc64476b1fb7c1d0300cf66b0377dfbf0754f
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 8%
+source-wordcount: '1440'
+ht-degree: 7%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 8%
 
 여정에서 여러 조건을 사용할 때 각 조건에 대한 레이블을 정의하여 보다 쉽게 식별할 수 있습니다.
 
-클릭 **[!UICONTROL Add a path]** 여러 조건을 정의하려면 각 조건에 대해 활동 뒤에 캔버스에 새 경로가 추가됩니다.
+클릭 **[!UICONTROL 경로 추가]** 여러 조건을 정의하려면 각 조건에 대해 활동 뒤에 캔버스에 새 경로가 추가됩니다.
 
 ![](assets/journey47.png)
 
@@ -49,7 +49,7 @@ ht-degree: 8%
 
 ![](assets/journey48.png)
 
-정의한 조건에 적합하지 않은 대상에 대해 다음을 확인하여 다른 경로를 만들 수 있습니다 **[!UICONTROL Show path for other cases than the one(s) above]**. 이 옵션은 분할 조건에서는 사용할 수 없습니다. 자세한 내용은 [백분율 분할](#percentage_split).
+정의한 조건에 적합하지 않은 대상에 대해 다음을 확인하여 다른 경로를 만들 수 있습니다 **[!UICONTROL 위의 경로를 제외한 다른 사례에 대한 경로 표시]**. 이 옵션은 분할 조건에서는 사용할 수 없습니다. 자세한 내용은 [백분율 분할](#percentage_split).
 
 단순 모드에서는 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 기본 영역으로 끌어다 놓습니다. 다른 요소를 결합하려면 서로 인터로크하여 다른 그룹 및/또는 그룹 수준을 만듭니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다.
 
@@ -65,7 +65,7 @@ ht-degree: 8%
 >
 >단순 편집기를 사용하여 시계열(예: 구매 목록, 메시지 클릭 과거)에 대한 쿼리를 수행할 수 없습니다. 이를 위해서는 고급 편집기를 사용해야 합니다. [이 페이지](expression/expressionadvanced.md)를 참조하십시오.
 
-작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 상자를 선택하는 것입니다 . [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
+작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 상자를 선택하는 것입니다 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로 추가]**. [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 
 단순 편집기에서 여정 속성 카테고리가 이벤트 및 데이터 소스 카테고리 아래에 있습니다. 이 카테고리에는 해당 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다. [자세히 보기](expression/journey-properties.md)
 
@@ -83,9 +83,15 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->시간대는 더 이상 조건에 한정되지 않으며 이제 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
+>시간대는 조건에 한정되지 않고 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
 ![](assets/journey51.png)
+
+다음 세 가지 시간 필터링 옵션을 사용할 수 있습니다.
+
+* 시간: 을(를) 사용하면 하루 중 시간을 기반으로 조건을 설정할 수 있습니다. 그런 다음 시작 및 종료 시간을 정의합니다. 개인 사용자는 정의된 시간 범위 동안에만 경로를 입력합니다.
+* 요일: 요일을 기준으로 조건을 설정할 수 있도록 해줍니다. 그런 다음 개인 사용자가 경로를 입력할 날짜를 선택합니다.
+* 요일 및 시간: 이 옵션은 처음 두 옵션을 결합합니다.
 
 ## 백분율 분할 {#percentage_split}
 
@@ -140,14 +146,14 @@ ht-degree: 8%
 
 여정 조건에서 세그먼트를 사용하려면 다음 단계를 수행합니다.
 
-1. 여정을 열고 **[!UICONTROL Condition]** 활동을 선택하고 을(를) 선택합니다 **데이터 소스 조건**.
+1. 여정을 열고 **[!UICONTROL 조건]** 활동을 선택하고 을(를) 선택합니다 **데이터 소스 조건**.
    ![](assets/journey47.png)
 
-1. 클릭 **[!UICONTROL Add a path]** 필요한 각 추가 경로에 대해 을 참조하십시오. 각 경로에 대해 **[!UICONTROL Expression]** 필드.
+1. 클릭 **[!UICONTROL 경로 추가]** 필요한 각 추가 경로에 대해 을 참조하십시오. 각 경로에 대해 **[!UICONTROL 표현식]** 필드.
 
    ![](assets/segment3.png)
 
-1. 왼쪽에서 펼칩니다 **[!UICONTROL Segments]** 노드 아래에 있어야 합니다. 조건에 사용할 세그먼트를 드래그하여 놓습니다. 기본적으로 세그먼트의 조건은 true입니다.
+1. 왼쪽에서 펼칩니다 **[!UICONTROL 세그먼트]** 노드 아래에 있어야 합니다. 조건에 사용할 세그먼트를 드래그하여 놓습니다. 기본적으로 세그먼트의 조건은 true입니다.
 
    ![](assets/segment4.png)
 

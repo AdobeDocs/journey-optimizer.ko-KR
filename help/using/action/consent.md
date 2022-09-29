@@ -6,17 +6,15 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 0%
+source-wordcount: '899'
+ht-degree: 1%
 
 ---
 
-# 동의 관리(베타) {#consent-management}
+# 동의 관리 {#consent-management}
 
 Adobe Experience Platform을 사용하면 고객의 동의 환경 설정을 준수하도록 마케팅 정책을 쉽게 채택하고 적용할 수 있습니다. 동의 정책은 Adobe Experience Platform에 정의됩니다. 을(를) 참조하십시오. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
@@ -24,7 +22,7 @@ Journey Optimizer에서는 이러한 동의 정책을 사용자 지정 작업에
 
 >[!NOTE]
 >
->이 기능은 비공개 베타로 출시됩니다. 모든 Journey Optimizer 고객이 이용할 수 있는 것은 아닙니다.
+>동의 정책은 현재 Healthcare Shield 추가 기능 서비스를 구입한 조직에만 사용할 수 있습니다.
 
 Journey Optimizer에서 동의는 몇 가지 수준에서 정의됩니다.
 
@@ -39,8 +37,8 @@ Journey Optimizer에서 동의는 사용자 지정 작업에서 활용할 수 �
 
 * 세그먼트 읽기: 검색된 세그먼트가 고려됩니다.
 * 사용자 지정 작업: 동의 관리는 사용되는 속성([작업 매개 변수](../action/about-custom-action-configuration.md#define-the-message-parameters))뿐만 아니라 정의된 마케팅 작업(필수 마케팅 작업 및 추가 마케팅 작업)도 포함합니다.
-
-동의는 마케팅 작업(필수 또는 추가)이 사용자 지정 작업 수준에서 설정된 경우에만 적용됩니다.
+* 기본 결합 스키마를 사용하는 필드 그룹에 속하는 속성은 지원되지 않습니다. 이러한 속성은 인터페이스에서 숨겨집니다. 다른 스키마를 사용하여 다른 필드 그룹을 만들어야 합니다.
+* 동의 정책은 마케팅 작업(필수 또는 추가)이 사용자 지정 작업 수준에서 설정된 경우에만 적용됩니다.
 
 여정에서 사용되는 다른 모든 활동은 고려되지 않습니다. 여정 자격을 사용하여 세그먼트를 시작하는 경우 세그먼트가 고려되지 않습니다.
 

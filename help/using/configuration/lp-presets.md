@@ -4,9 +4,9 @@ description: Journey Optimizer에서 랜딩 페이지를 만들고 사용하도�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 8bc6b3a5b8836b547e9c697f9420532fdea4acbc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '342'
 ht-degree: 5%
 
 ---
@@ -70,9 +70,9 @@ When [랜딩 페이지 만들기](../landing-pages/create-lp.md#create-a-lp)을(
 
    예를 들어 랜딩 페이지 URL이 &#39;pages.mail.luma.com&#39;이고 추적 URL이 &#39;data.mail.luma.com&#39;인 경우 추적 하위 도메인으로 사용할 &#39;pages.mail.luma.com&#39;을 선택할 수 있습니다.
 
-1. 클릭 **[!UICONTROL 제출]** 랜딩 페이지 사전 설정 생성을 확인하려면. 사전 설정을 초안으로 저장하고 나중에 해당 구성을 다시 시작할 수도 있습니다.
+1. 클릭 **[!UICONTROL 제출]** 랜딩 페이지 사전 설정 생성을 확인하려면. <!--You can also save the preset as draft and resume its configuration later on.-->
 
-   ![](assets/lp_preset-subdomain-settings-submit.png)
+   <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
 1. 랜딩 페이지 사전 설정이 만들어지면 와 함께 목록에 표시됩니다 **[!UICONTROL 활성]** 상태. 랜딩 페이지에 사용할 준비가 되었습니다.
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: d6ff34a36abcf2b2233079aeddb5a5f0919f2590
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 97%
+source-wordcount: '1153'
+ht-degree: 96%
 
 ---
 
@@ -21,9 +21,6 @@ ht-degree: 97%
       + [2022년 릴리스 정보](using/rn/release-notes-2022.md)
       + [2021년 릴리스 정보](using/rn/release-notes-2021.md)
    + [설명서 업데이트](using/rn/documentation-updates.md)
-   + 새로운 인라인 작성 기능 {#inline-authoring}
-      + [마이그레이션 개요](using/rn/inline-messages.md)
-      + [마이그레이션 단계](using/rn/inline-messages-steps.md)
 + 시작{#get-started}
    + [Journey Optimizer 소개](using/start/get-started.md)
    + 빠른 시작{#quick-start}
@@ -37,6 +34,7 @@ ht-degree: 97%
 + 캠페인{#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)
+   + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
    + [실시간 캠페인 관리](using/campaigns/modify-stop-campaign.md)
    + 콘텐츠 실험 {#content-experiment}
       + [콘텐츠 실험 시작](using/campaigns/get-started-experiment.md)
@@ -271,6 +269,7 @@ ht-degree: 97%
    + 전달성 {#deliverability}
       + [전달성 시작](using/reports/deliverability.md)
       + [제외 목록 이해하기](using/reports/suppression-list.md)
+   + [경고](using/reports/alerts.md)
 + 의사 결정 관리 {#offer-decisioning}
    + 의사 결정 관리 시작 {#get-started-decision}
       + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
@@ -395,7 +394,7 @@ ht-degree: 97%
       + 채널 표면 설정 {#set-up-channels}
          + [채널 표면 생성](using/configuration/channel-surfaces.md)
          + [이메일 설정 구성](using/configuration/email-settings.md)
-         + [숨은 참조 이메일 사용](using/configuration/bcc-email.md)
+      + [아카이빙 지원](using/configuration/archiving-support.md)
       + [실행 주소 관리](using/configuration/primary-email-addresses.md)
       + [빈도 규칙 구성](using/configuration/frequency-rules.md)
    + 랜딩 페이지 구성 {#lp-configuration}
@@ -422,7 +421,6 @@ ht-degree: 97%
          + [작업 구성](using/action/about-custom-action-configuration.md)
          + [Adobe Campaign Standard 통합](using/action/acs-action.md)
          + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
-         + [동의](using/action/consent.md)
    + [소스](using/start/get-started-sources.md)
 + 액세스 제어 {#access-control}
    + [액세스 제어 개요](using/administration/permissions-overview.md)
@@ -435,4 +433,6 @@ ht-degree: 97%
 + 개인정보 보호 {#privacy}
    + [데이터 사용 정책](using/privacy/policies.md)
    + [개인 정보 보호 요청](using/privacy/requests.md)
-   + [Journey Optimizer 리소스에 대한 작업 감사](using/privacy/audit-logs.md)
+   + [리소스에 대한 작업 감사](using/privacy/audit-logs.md)
+   + [동의](using/action/consent.md)
+   + [데이터 거버넌스](using/action/action-privacy.md)

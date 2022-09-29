@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
+source-git-commit: 8ca0d2bbd01451de613d8ae985e10a711fcc6316
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1115'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 ## 메시지와 관련된 권한 기본 정보{#message-permissions}
 
-Adobe Journey Optimizer은 여정 또는 캠페인에서 직접 메시지를 만들고 작성할 수 있는 새로운 인라인 작성 기능을 릴리스했습니다. 이 새로운 기능에 대한 자세한 내용은 [이 페이지 참조](../rn/inline-messages.md).
+Adobe Journey Optimizer은 여정 또는 캠페인에서 직접 메시지를 만들고 작성할 수 있는 새로운 인라인 작성 기능을 릴리스했습니다.
 
 이 기능은 다음과 같이 권한에 영향을 줍니다.
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer은 여정 또는 캠페인에서 직접 메시지를 만
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
-다음 **[!DNL Campaign Manager]** 제품 프로필을 사용하면 사용자가 만들고 편집할 수 있습니다 **[!UICONTROL Campaigns]** 및 **[!UICONTROL Campaigns]** 게시할 수 없습니다.
+다음 **[!DNL Campaign Manager]** 제품 프로필을 사용하면 사용자가 만들고 편집할 수 있습니다 **[!UICONTROL 캠페인]** 및 **[!UICONTROL 캠페인]** 게시할 수 없습니다.
 
 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer은 여정 또는 캠페인에서 직접 메시지를 만
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
 
-다음 **[!DNL Campaign Viewer]** 제품 프로필에서는 읽기 전용 액세스 권한을 갖습니다 **[!UICONTROL Campaigns]** 및 **[!UICONTROL Decision management]** 기능.
+다음 **[!DNL Campaign Viewer]** 제품 프로필에서는 읽기 전용 액세스 권한을 갖습니다 **[!UICONTROL 캠페인]** 및 **[!UICONTROL 의사 결정 관리]** 기능.
 
 이 제품 프로필에 할당된 사용자는 편집하거나 게시할 수 없습니다.
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer은 여정 또는 캠페인에서 직접 메시지를 만
 
 ## [!DNL Journey Manager] {#journey-manager}
 
-다음 **[!DNL Journey Manager]** 제품 프로필을 사용하면 사용자가 만들고 편집할 수 있습니다 **[!UICONTROL Journeys]** 및 **[!UICONTROL Journeys]** 게시할 수 없습니다.
+다음 **[!DNL Journey Manager]** 제품 프로필을 사용하면 사용자가 만들고 편집할 수 있습니다 **[!UICONTROL 여정]** 및 **[!UICONTROL 여정]** 게시할 수 없습니다.
 
 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
 
@@ -111,7 +111,7 @@ Adobe Journey Optimizer은 여정 또는 캠페인에서 직접 메시지를 만
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 
-다음 **[!DNL Journey viewer]** 제품 프로필에서는 읽기 전용 액세스 권한을 갖습니다 **[!UICONTROL Journeys]** 및 **[!UICONTROL Decision management]** 기능.
+다음 **[!DNL Journey viewer]** 제품 프로필에서는 읽기 전용 액세스 권한을 갖습니다 **[!UICONTROL 여정]** 및 **[!UICONTROL 의사 결정 관리]** 기능.
 
 이 제품 프로필에 할당된 사용자는 편집하거나 게시할 수 없습니다.
 
@@ -122,7 +122,7 @@ Adobe Journey Optimizer은 여정 또는 캠페인에서 직접 메시지를 만
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-다음 **[!DNL Decisioning manager]** 제품 프로필은 **[!UICONTROL Decision management]** 메뉴 아래의 제품에서 사용할 수 있습니다. 이 제품 프로필에 할당된 사용자는 결정을 관리, 보기 및 게시할 수만 있습니다.
+다음 **[!DNL Decisioning manager]** 제품 프로필은 **[!UICONTROL 의사 결정 관리]** 메뉴 아래의 제품에서 사용할 수 있습니다. 이 제품 프로필에 할당된 사용자는 결정을 관리, 보기 및 게시할 수만 있습니다.
 
 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: d740b9efdba164f548fb07d6d9a96fc2c2796eff
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '861'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,9 @@ ht-degree: 2%
 읽기 세그먼트로 시작하는 비즈니스 이벤트 여정:
 
 이 여정은 비즈니스 이벤트의 수신을 기반으로 하며, 프로필이 예상 세그먼트에 자격을 갖는 경우 수신한 각 비즈니스 이벤트에 대한 여정을 입력합니다. 즉, 이 프로필은 동일한 여정에서 동시에 여러 번, 다른 비즈니스 이벤트의 컨텍스트에서 여러 번 있을 수 있습니다.
+
+단일 여정(이벤트 또는 세그먼트 자격부터 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되지 않도록 하는 보호 기능이 포함되어 있습니다. 프로필 다시 시작은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어, 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03(동일한 이벤트나 동일한 여정을 트리거하는 다른 이벤트이든)에 도달하면 해당 이벤트가 이 프로필에 대해 다시 시작되지 않습니다.
+
 
 ## 여정 종료{#journey-ending}
 
@@ -71,26 +74,26 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 다음 이유로 인해 여정을 닫을 수 있습니다.
 
-* 여정은 를 통해 수동으로 닫힙니다 **[!UICONTROL Close to new entrances]** 버튼을 클릭합니다.
+* 여정은 를 통해 수동으로 닫힙니다 **[!UICONTROL 새 출입구 가까이]** 버튼을 클릭합니다.
 * 실행이 완료된 원샷 세그먼트 기반 여정.
 * 반복 세그먼트 기반 여정이 마지막으로 발생한 이후.
 
-여정을 수동으로 닫으면 이미 여정에 로그인한 고객이 경로를 완료할 수 있지만, 새 사용자는 여정에 들어갈 수 없습니다. 여정을 닫으면(위의 이유 중 하나) 상태가 됩니다 **[!UICONTROL Closed]**. 여정은 새 개인이 여정에 들어갈 수 있도록 하는 것을 중지합니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료할 수 있습니다. 기본 글로벌 시간 초과 30일 이후에는 여정이 **완료됨** 상태. 다음 보기 [섹션](../building-journeys/journey-gs.md#global_timeout).
+여정을 수동으로 닫으면 이미 여정에 로그인한 고객이 경로를 완료할 수 있지만, 새 사용자는 여정에 들어갈 수 없습니다. 여정을 닫으면(위의 이유 중 하나) 상태가 됩니다 **[!UICONTROL 닫힘]**. 여정은 새 개인이 여정에 들어갈 수 있도록 하는 것을 중지합니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료할 수 있습니다. 기본 글로벌 시간 초과 30일 이후에는 여정이 **완료됨** 상태. 다음 보기 [섹션](../building-journeys/journey-gs.md#global_timeout).
 
 닫힌 여정 버전은 다시 시작하거나 삭제할 수 없습니다. 새 버전을 만들거나 복제할 수 있습니다. 완료된 여정만 삭제할 수 있습니다.
 
-여정 목록에서 여정을 닫으려면 **[!UICONTROL Ellipsis]** 여정 이름의 오른쪽에 있는 버튼을 선택하고 **[!UICONTROL Close to new entrances]**.
+여정 목록에서 여정을 닫으려면 **[!UICONTROL 줄임표]** 여정 이름의 오른쪽에 있는 버튼을 선택하고 **[!UICONTROL 새 출입구 가까이]**.
 
 ![](assets/journey-finish-quick-action.png)
 
 다음 작업도 수행할 수 있습니다.
 
-1. 에서 **[!UICONTROL Journeys]** 목록에서 닫을 여정을 클릭합니다.
+1. 에서 **[!UICONTROL 여정]** 목록에서 닫을 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
 
    ![](assets/finish_drop_down_list.png)
 
-1. 클릭 **[!UICONTROL Close to new entrances]**, 그리고 대화 상자에서 확인합니다.
+1. 클릭 **[!UICONTROL 새 출입구 가까이]**, 그리고 대화 상자에서 확인합니다.
 
 ### 여정 중지{#stop-journey}
 
@@ -98,15 +101,15 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 중지된 여정 버전을 다시 시작할 수 없습니다.
 
-중지되면 여정 상태가 **[!UICONTROL Stopped]**.
+중지되면 여정 상태가 **[!UICONTROL 중지됨]**.
 
-예를 들어, 마케터가 여정이 잘못된 대상을 타깃팅하거나 메시지를 전달해야 하는 사용자 지정 작업이 제대로 작동하지 않는다는 것을 알고 있으면 여정을 중지할 수 있습니다. 여정 목록에서 여정을 중지하려면 **[!UICONTROL Ellipsis]** 여정 이름의 오른쪽에 있는 버튼을 선택하고 **[!UICONTROL Stop]**.
+예를 들어, 마케터가 여정이 잘못된 대상을 타깃팅하거나 메시지를 전달해야 하는 사용자 지정 작업이 제대로 작동하지 않는다는 것을 알고 있으면 여정을 중지할 수 있습니다. 여정 목록에서 여정을 중지하려면 **[!UICONTROL 줄임표]** 여정 이름의 오른쪽에 있는 버튼을 선택하고 **[!UICONTROL 정지]**.
 
 ![](assets/journey-finish-quick-action.png)
 
 다음 작업도 수행할 수 있습니다.
 
-1. 에서 **[!UICONTROL Journeys]** 목록에서 중지할 여정을 클릭합니다.
+1. 에서 **[!UICONTROL 여정]** 목록에서 중지할 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
    ![](assets/finish_drop_down_list.png)
-1. 클릭 **[!UICONTROL Stop]**, 그리고 대화 상자에서 확인합니다.
+1. 클릭 **[!UICONTROL 정지]**, 그리고 대화 상자에서 확인합니다.

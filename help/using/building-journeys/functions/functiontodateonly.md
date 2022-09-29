@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 21%
+source-wordcount: '96'
+ht-degree: 9%
 
 ---
 
 # toDateOnly{#toDateOnly}
 
-인수 값을 날짜 전용 값으로 변환합니다.
+인수를 dateOnly 형식 값으로 변환합니다. 데이터 유형에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../expression/data-types.md).
 
 ## 카테고리
 
@@ -29,19 +29,33 @@ ht-degree: 21%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| ISO-8601 또는 &quot;YYYY-MM-DD&quot; 형식(XDM 날짜 형식)의 날짜 | string |
-| 날짜 | 날짜 |
+| 날짜를 &quot;YYYY-MM-DD&quot;(XDM 형식)로 나타내는 문자열 표현입니다. 또한 ISO-8601 형식을 지원합니다. 전용 **전체 날짜** 부품이 고려됩니다(참조: [RFC 3339, 섹션 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
+| 날짜 시간 | dateTime |
+| 시간대 없는 날짜 시간 | dateTimeOnly |
+| epoch의 정수 값(밀리초) | 정수 |
 
 ## 서명 및 반환된 형식
 
-`toDateOnly(<date>)`
+`toDateOnly(<dateTime>)`
+
+`toDateOnly(<dateTimeOnly>)`
 
 `toDateOnly(<string>)`
 
-시간대를 고려하지 않고 날짜/시간을 반환합니다.
+`toDateOnly(<integer>, <integer>, <integer>)`
+
+dateOnly 유형 값을 반환합니다.
 
 ## 예시
 
 `toDateOnly("2016-08-18")`
 
-2016-08-18을 나타내는 dateOnly 개체를 반환합니다.
+`toDateOnly("2016-08-18T00:00:00.000Z")`
+
+`toDateOnly("2016-08-18T00:00:00")`
+
+모두 2016-08-18을 나타내는 dateOnly 개체를 반환합니다.
+
+`toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
+
+dateOnly를 반환합니다.
