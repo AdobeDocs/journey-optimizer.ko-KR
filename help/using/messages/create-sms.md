@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 9%
+source-wordcount: '468'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 9%
 
 SMS 게재를 만들 수 있습니다.
 
-* 다음 **여정**: 여정에 SMS 활동을 추가하고 기본 설정을 정의하면, **[!UICONTROL Actions: SMS]** 오른쪽 창에서 SMS 메시지의 콘텐츠를 작성합니다.
+* 다음 **여정**: 여정에 SMS 활동을 추가하고 기본 설정을 정의하면, **[!UICONTROL 작업: SMS]** 오른쪽 창에서 SMS 메시지의 콘텐츠를 작성합니다.
 
    여정 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journey-gs.md).
 
@@ -38,13 +38,13 @@ SMS 메시지를 처음 만드는 경우 SMS 채널이 구성되었는지 확인
 
 SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL Message]** 필드 를 클릭하여 표현식 편집기를 엽니다.
+1. 을(를) 클릭합니다. **[!UICONTROL 메시지]** 필드 를 클릭하여 표현식 편집기를 엽니다.
 
    ![](assets/sms-content.png)
 
-1. 표현식 편집기를 사용하여 컨텐츠를 정의합니다. 어떤 특성이든 사용하여 프로필 이름 또는 도시와 같은 콘텐츠를 개인화할 수 있습니다. 의 표현식 편집기에서 개인화에 대해 자세히 알아보십시오 [이 섹션](../personalization/personalize.md).
+1. 표현식 편집기를 사용하여 컨텐츠를 정의하고 동적 컨텐츠를 추가합니다. 프로필 이름 또는 구/군/시 등의 속성을 사용할 수 있습니다. 추가 정보 [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md) 를 입력합니다.
 
-1. 클릭 **[!UICONTROL Save]** 미리 보기에서 메시지를 확인합니다.
+1. 클릭 **[!UICONTROL 저장]** 미리 보기에서 메시지를 확인합니다.
 
    ![](assets/sms-content-preview.png)
 
@@ -56,7 +56,7 @@ SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 
 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. 삽입한 경우 [개인화된 콘텐츠](../personalization/personalize.md)테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
 
-모바일 장치에서 SMS 메시지가 표시되는 방식을 시각화하려면, **[!UICONTROL Simulate content]** 탭. 에서 콘텐츠 시뮬레이션에 대해 자세히 알아보기 [이 섹션](../design/preview.md).
+모바일 장치에서 SMS 메시지가 표시되는 방식을 시각화하려면, **[!UICONTROL 컨텐츠 시뮬레이션]** 탭. 에서 콘텐츠 시뮬레이션에 대해 자세히 알아보기 [이 섹션](../design/preview.md).
 
 편집기의 상단 섹션에서도 경고를 확인해야 합니다.  일부 경고는 간단한 경고이지만 일부 사용자는 메시지를 사용하지 못하도록 할 수 있습니다. 자세한 내용은 [이 섹션](alerts.md)을 참조하십시오.
 

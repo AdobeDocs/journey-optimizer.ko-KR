@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1043'
+ht-degree: 18%
 
 ---
 
@@ -21,26 +21,23 @@ ht-degree: 0%
 
 ### 새로운 기능{#sept-2022-features}
 
-
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Dynamic content & new conditional rule builder</strong><br/></th>
+<th><strong>다이내믹 콘텐츠 및 새로운 조건부 규칙 빌더</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p> 
-<p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
+<p>이제 조건부 규칙에 따라 메시지 콘텐츠를 조정할 수 있는 동적 콘텐츠를 만들 수 있습니다.</p> 
+<p>조건부 규칙은 표현식 편집기 내에서 시각적 규칙 빌더를 사용하여 작성되며, 이 빌더를 저장하여 여정 및 캠페인 간에 다시 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+<p>자세한 내용은 <a href="../personalization/get-started-dynamic-content.md">세부 설명서</a>를 참조하세요.
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>

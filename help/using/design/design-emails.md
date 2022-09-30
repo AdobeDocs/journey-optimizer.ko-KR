@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 20%
+source-wordcount: '256'
+ht-degree: 18%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 20%
 
 * **Adobe Stock 사진**&#x200B;을 찾아 콘텐츠를 빌드하고 이메일 디자인을 개선합니다. [자세히 보기](../design/stock.md)
 
-* 프로필 속성을 기반으로 개인화된 메시지를 만들어 고객의 경험을 개선합니다. [자세히 보기](../personalization/personalize.md)
+* 프로필 속성을 기반으로 개인화되고 다이내믹 메시지를 만들어 고객의 경험을 개선합니다. 추가 정보 [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md).
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
 한번 드시면 [메시지 작성](../messages/get-started-content.md)을(를) 통해 이메일 콘텐츠 만들기를 시작할 수 있습니다.
 
-1. 새로 만든 메시지에서 을(를) 선택합니다 **[!UICONTROL Email designer]** 에서 **[!UICONTROL Body]** 섹션을 참조하십시오.
+1. 새로 만든 메시지에서 을(를) 선택합니다 **[!UICONTROL 이메일 디자이너]** 에서 **[!UICONTROL 본문]** 섹션을 참조하십시오.
 
    ![](assets/import-html_1.png)
 

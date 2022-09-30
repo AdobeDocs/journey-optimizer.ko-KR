@@ -3,9 +3,9 @@ title: 마케터를 위한 Journey Optimizer 시작하기
 description: 여정 실습자는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '453'
 ht-degree: 7%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 7%
 
 1. **세그먼트 만들기**. Journey Optimizer에서 바로 대상 세그먼트를 만들 수 있습니다 **세그먼트** 메뉴를 보고 여정에 활용할 수 있습니다.  세그먼트에 대해 자세히 알아보기 [이 페이지에서](../../segment/about-segments.md). 세그먼트를 만드는 방법 살펴보기 [이 샘플](../../segment/creating-a-segment.md).
 
-1. **개인화 추가**. Journey Optimizer 개인화 기능을 활용하여 메시지를 대상에 맞게 조정하십시오. 개인화에 대해 자세히 알아보기 [이 섹션](../../personalization/personalize.md).
+1. **개인화 및 동적 콘텐츠 추가**. Journey Optimizer 개인화 및 동적 콘텐츠 기능을 활용하여 메시지를 대상에 맞게 조정하십시오. 추가 정보 [개인화](../../personalization/personalize.md) 및 [다이내믹 콘텐츠](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 
-1. **자산 만들기 및 관리**. [!DNL Adobe Experience Manager Assets Essentials] 는 메시지를 채우는 데 사용할 수 있는 중앙 집중식 단일 자산 저장소를 제공합니다. 추가 정보 [이 섹션](../../design/assets-essentials.md).
+1. **자산 만들기 및 관리**. [!DNL Adobe Experience Manager Assets Essentials] 는 메시지를 채우는 데 사용할 수 있는 중앙 집중식 단일 자산 저장소를 제공합니다. 자세한 내용은 [이 섹션](../../design/assets-essentials.md)을 참조하세요.
 
 1. **오퍼 추가**. [!DNL Journey Optimizer]을(를) 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 오퍼 및 경험을 제공하십시오. 디자인한 후에는 개인화된 오퍼를 통해 대상을 타기팅하십시오. Decisioning 관리에 대해 자세히 알아보기 [이 섹션](../../offers/get-started/starting-offer-decisioning.md).
 

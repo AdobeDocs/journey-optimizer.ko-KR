@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 2%
+source-wordcount: '1246'
+ht-degree: 1%
 
 ---
 
@@ -89,8 +89,7 @@ ht-degree: 2%
    * **[!UICONTROL 복제]**: 텍스트 구성 요소의 사본을 추가합니다.
    * **[!UICONTROL 삭제]**: 이메일에서 선택한 텍스트 구성 요소를 삭제합니다.
    * **[!UICONTROL 개인화 추가]**: 프로필 데이터의 콘텐츠를 사용자 지정하려면 개인화 필드를 추가합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md).
-
-1. 더 나은 사용자 경험을 위해 개인화 필드를 추가하여 대상자를 타깃팅할 수 있습니다. 자세한 정보는 이 [섹션](../personalization/personalize.md)을 참조하십시오.
+   * **[!UICONTROL 조건부 콘텐츠 활성화]**: 조건부 컨텐츠를 추가하여 구성 요소의 컨텐츠를 타깃팅된 프로필에 적용합니다. [다이내믹 컨텐츠에 대해 자세히 알아보기](../personalization/get-started-dynamic-content.md).
 
 1. 조정 **[!UICONTROL 텍스트 색상]**, **[!UICONTROL 글꼴 패밀리]** 및 **[!UICONTROL 크기]** 에서 **[!UICONTROL 구성 요소 설정]**.
 
@@ -208,7 +207,7 @@ ht-degree: 2%
 
 ## 오퍼 결정 {#offer-decision}
 
-를 사용하십시오 **[!UICONTROL 오퍼 결정]** 메시지에 의사 결정을 삽입하는 구성 요소입니다. 의사 결정 관리 를 활용하여 고객에게 제공할 최상의 오퍼를 선택할 수 있습니다.
+를 사용하십시오 **[!UICONTROL 오퍼 결정]** 의사 결정(이전에 오퍼 활동이라고 함)을 메시지에 삽입하는 구성 요소입니다. 의사 결정 관리 를 활용하여 고객에게 제공할 최상의 오퍼를 선택할 수 있습니다.
 
 관련 항목:
 

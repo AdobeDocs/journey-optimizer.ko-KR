@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 9%
+source-wordcount: '314'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 이메일을 만들 수 있습니다.
 
-* 다음 **여정**: 여정에 이메일 활동을 추가하고 기본 설정을 정의하면, **[!UICONTROL Actions: Email]** 오른쪽 창에서 푸시 알림에 대한 컨텐츠를 작성합니다.
+* 다음 **여정**: 여정에 이메일 활동을 추가하고 기본 설정을 정의하면, **[!UICONTROL 작업: 이메일]** 오른쪽 창에서 푸시 알림에 대한 컨텐츠를 작성합니다.
 
    여정 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journey-gs.md).
 
@@ -42,9 +42,11 @@ ht-degree: 9%
 
 사용 [!DNL Journey Optimizer] 표현식 편집기를 사용하여 프로필의 데이터로 메시지를 개인화할 수 있습니다. 개인화에 대한 자세한 내용은 [이 섹션](../personalization/personalize.md)을 참조하세요.
 
+다음을 활용하여 메시지 콘텐츠를 타겟팅된 프로필에 조정 [!DNL Journey Optimizer] 동적 콘텐츠 기능. [동적 콘텐츠 시작](../personalization/get-started-dynamic-content.md)
+
 ## 이메일 추적{#email-tracking}
 
-링크 열기 및/또는 클릭을 통해 수신자의 동작을 추적하려면 다음 옵션을 활성화합니다. **[!UICONTROL Email opens]** 및 **[!UICONTROL Click on email]**.
+링크 열기 및/또는 클릭을 통해 수신자의 동작을 추적하려면 다음 옵션을 활성화합니다. **[!UICONTROL 이메일 열기]** 및 **[!UICONTROL 이메일을 클릭합니다.]**.
 
 에서 추적에 대해 자세히 알아보십시오 [이 섹션](../design/message-tracking.md).
 
@@ -60,5 +62,5 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->다음 **[!UICONTROL From email]** 및 **[!UICONTROL From name]** 에 의해 결정됩니다 **[!UICONTROL Surface]** 선택 [메시지 만들기](get-started-content.md).
+>다음 **[!UICONTROL 이메일에서]** 및 **[!UICONTROL 이름]** 에 의해 결정됩니다 **[!UICONTROL 서피스]** 선택 [메시지 만들기](get-started-content.md).
 

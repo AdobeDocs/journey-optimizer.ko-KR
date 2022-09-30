@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,10 @@ ht-degree: 0%
 1. 프로필 데이터의 콘텐츠를 사용자 지정하려면 개인화 필드를 추가합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
+
+1. 동적 콘텐츠를 추가하여 조건부 규칙을 기반으로 타겟팅된 프로필에 콘텐츠를 조정합니다. [동적 콘텐츠 시작](../personalization/get-started-dynamic-content.md).
+
+   ![](assets/email_designer_dynamic-content.png)
 
 1. 에서 **[!UICONTROL 링크]** 왼쪽 창에서 추적할 컨텐츠의 모든 URL 목록을 확인합니다. 수정 가능 **[!UICONTROL 추적 유형]**, **[!UICONTROL 레이블]** 및 **[!UICONTROL 태그]** 필요한 경우
 
