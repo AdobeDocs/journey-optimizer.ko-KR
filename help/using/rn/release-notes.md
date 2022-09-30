@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 056ff0d4532126e22884d73e92fb2e7d3a2319b9
+source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 19%
+source-wordcount: '986'
+ht-degree: 18%
 
 ---
 
@@ -176,9 +176,10 @@ ht-degree: 19%
 
 * 이제 허용 목록을 활성화하거나 비활성화할 때 각 작업의 영향을 자세히 설명하는 새 경고가 표시됩니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
 * 채널 서피스 생성, IP 풀 생성, 제외 목록 및 허용 목록 관리 및 SMS 채널 구성을 위한 사용자 인터페이스가 업데이트되었습니다.
-<!--* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. Learn more
-* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.
-* The user interface for creating landing page presets and landing page subdomains has been improved. Learn more -->
+* 이제 주어진 하위 도메인에 대한 첫 번째 채널 서피스를 생성할 때 처리 시간은 10분에서 10일, 해당 하위 도메인을 사용하는 후속 서피스에 대해 최대 3시간까지 소요됩니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
+
+<!--* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.-->
+* 랜딩 페이지 사전 설정 및 랜딩 페이지 하위 도메인을 만들기 위한 사용자 인터페이스를 업데이트했습니다. [자세히 보기](../configuration/lp-subdomains.md)
 
 **감사 제어**
 
@@ -192,7 +193,7 @@ ht-degree: 19%
 
 * 이제 동일한 랜딩 페이지 내에서 다른 페이지에서 가져온 컨텍스트 데이터를 사용할 수 있습니다. 예를 들어, 기본 랜딩 페이지의 구독 목록에 확인란을 연결하는 경우, &quot;감사합니다&quot; 하위 페이지에서 해당 구독 목록을 사용할 수 있습니다. [자세히 보기](../landing-pages/lp-content.md#use-primary-page-context)
 
-* 이제 기본 페이지를 구성할 때 랜딩 페이지가 제출될 때 정보를 저장할 수 있도록 추가 데이터를 만들 수 있습니다. [자세히 보기](../landing-pages/lp-content.md#use-additional-data)
+<!--* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)-->
 
 <!--* You can now use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.-->
 
