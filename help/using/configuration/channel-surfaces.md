@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 1%
    이 단계에서는 구성이 올바른지 확인하기 위해 몇 가지 확인이 수행됩니다. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   >지정된 하위 도메인에 대한 첫 번째 채널 서피스를 생성할 때 처리 시간이 걸릴 수 있습니다 **10분~10일**. 선택한 하위 도메인이 다른 서피스에서 이미 사용된 경우 최대 3시간만 걸립니다.
+   >주어진 하위 도메인에 대한 첫 번째 이메일 면을 만들 때 처리 시간이 걸릴 수 있습니다 **10분~10일**. 선택한 하위 도메인이 다른 이메일 면에서 이미 사용된 경우 최대 3시간만 소요됩니다.
 
    이러한 검사에는 Adobe 팀이 수행하는 구성 및 기술 테스트가 포함됩니다.
 

@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: bb1a9b35ce93f9b0ba635a89e781856f19b7d655
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%
@@ -115,7 +115,6 @@ ht-degree: 9%
 신속한 게재는 휴대폰에 긴급 푸시 경고를 전송하려는 경우, 메시지 게재 지연이 비즈니스 크리티컬 상태일 때 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 최신 뉴스를 보냅니다.
 
 빠른 전달 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html).
-
 
 ### 전제 조건 {#prerequisites}
 
