@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
+source-git-commit: 75f29dacf54d29172039ac0a098ecafe467ad35d
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1215'
 ht-degree: 3%
 
 ---
@@ -166,42 +166,41 @@ ht-degree: 3%
 >
 >사용자가 두 개의 확인란을 선택하면 두 텍스트가 표시됩니다.
 
-<!--
-## Use landing page additional data {#use-additional-data}
 
-When [configuring the primary page](create-lp.md#configure-primary-page), you can create additional data to enable storing information when the landing page is being submitted.
+## 랜딩 페이지 추가 데이터 사용 {#use-additional-data}
+
+When [기본 페이지 구성](create-lp.md#configure-primary-page)를 채울 수 있는 추가 데이터를 만들어 랜딩 페이지가 제출될 때 정보를 저장할 수 있습니다.
 
 >[!NOTE]
 >
->This data may not be visible to users who visit the page.
+>이 데이터는 페이지를 방문하는 사용자에게 표시되지 않을 수 있습니다.
 
-If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
+해당 값으로 하나 이상의 키를 정의한 경우 [기본 페이지 구성](create-lp.md#configure-primary-page)를 사용하여 기본 페이지 및 하위 페이지의 컨텐츠에서 이러한 키를 활용할 수 있습니다. [표현식 편집기](../personalization/personalization-build-expressions.md).
 
-///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
+<!--When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 
-For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).///
+For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).-->
 
-To leverage these keys in a landing page, follow the steps below:
+랜딩 페이지에서 이러한 키를 활용하려면 아래 단계를 수행하십시오.
 
-1. When configuring the primary page, define a key and its corresponding value in the **[!UICONTROL Additional data]** section. [Learn more](create-lp.md#configure-primary-page)
+1. 기본 페이지를 구성할 때 **[!UICONTROL 추가 데이터]** 섹션을 참조하십시오. [자세히 보기](create-lp.md#configure-primary-page)
 
-    ![](assets/lp_create-lp-additional-data.png)
+   ![](assets/lp_create-lp-additional-data.png)
 
-1. When editing your primary page with the designer, place the pointer of your mouse where you want to insert your key and select **[!UICONTROL Add personalization]** from the contextual toolbar.
+1. 디자이너를 사용하여 기본 페이지를 편집할 때 키를 삽입할 마우스 포인터를 놓고 선택합니다 **[!UICONTROL 개인화 추가]** 상황별 도구 모음
 
-    ![](assets/lp_designer-context-add-perso.png)
+   ![](assets/lp_designer-context-add-perso.png)
 
-1. In the **[!UICONTROL Edit Personalization]** window, select **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Additional Context]**.
+1. 에서 **[!UICONTROL 개인화 편집]** 창, 선택 **[!UICONTROL 상황별 특성]** > **[!UICONTROL 랜딩 페이지]** > **[!UICONTROL 추가 컨텍스트]**.
 
-    ![](assets/lp_designer-contextual-attributes.png)
+   ![](assets/lp_designer-contextual-attributes.png)
 
-1. All the keys that you created when configuring the primary page are listed. Select the key of your choice using the + icon.
+1. 기본 페이지를 구성할 때 만든 모든 키가 나열됩니다. + 아이콘을 사용하여 선택한 키를 선택합니다.
 
-    ![](assets/lp_designer-context-select-key.png)
+   ![](assets/lp_designer-context-select-key.png)
 
-1. Save your changes and repeat the steps above as many times as needed.
+1. 변경 사항을 저장하고 필요에 따라 위의 단계를 여러 번 반복합니다.
 
-    ![](assets/lp_designer-context-keys-inserted.png)
+   ![](assets/lp_designer-context-keys-inserted.png)
 
-    You can see that the personalization item corresponding to your key is now displayed everywhere you inserted it.
--->
+   이제 키에 해당하는 개인화 항목이 삽입된 모든 위치에 표시됩니다.

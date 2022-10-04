@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: d6ff34a36abcf2b2233079aeddb5a5f0919f2590
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 95%
+source-wordcount: '1153'
+ht-degree: 96%
 
 ---
 
@@ -84,35 +84,34 @@ ht-degree: 95%
       + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
    + [구독 목록 만들기](using/landing-pages/subscription-list.md)
    + [사용 사례](using/landing-pages/lp-use-cases.md)
-+ 개인화 및 다이내믹 콘텐츠 {#personalized-dynamic-content}
-   + 개인화 {#personalization}
-      + [개인화 시작](using/personalization/personalize.md)
-      + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
-      + 표현식 작성 {#build-expressions}
-         + [개인화 구문](using/personalization/personalization-syntax.md)
-         + 표현식 편집기 작업 {#expression-editor}
-            + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
-            + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
-            + [저장된 표현식으로 작업하기](using/personalization/personalization-library.md)
-            + [개인화 유효성 검사](using/personalization/personalization-validation.md)
-         + 도우미 함수{#functions}
-            + [도우미 함수 시작](using/personalization/functions/functions.md)
-            + [집계 함수](using/personalization/functions/aggregation.md)
-            + [산술 함수](using/personalization/functions/arithmetic-functions.md)
-            + [배열 및 목록 함수](using/personalization/functions/arrays-list.md)
-            + [날짜 함수](using/personalization/functions/dates.md)
-            + [부울 및 비교 함수](using/personalization/functions/operators.md)
-            + [도우미](using/personalization/functions/helpers.md)
-            + [맵 함수](using/personalization/functions/maps.md)
-            + [개체 함수](using/personalization/functions/objects.md)
-            + [문자열 함수](using/personalization/functions/string.md)
-      + 사용 사례{#personalization-use-cases}
-         + [주문 상태 알림](using/personalization/personalization-use-case.md)
-         + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
++ 개인화{#personalization}
+   + [시작 개인화](using/personalization/personalize.md)
+   + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
+   + 표현식 작성 {#build-expressions}
+      + [개인화 구문](using/personalization/personalization-syntax.md)
+      + 표현식 편집기 작업 {#expression-editor}
+         + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
+         + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
+         + [저장된 표현식으로 작업하기](using/personalization/personalization-library.md)
+         + [개인화 유효성 검사](using/personalization/personalization-validation.md)
+      + 도우미 함수{#functions}
+         + [도우미 함수 시작](using/personalization/functions/functions.md)
+         + [집계 함수](using/personalization/functions/aggregation.md)
+         + [산술 함수](using/personalization/functions/arithmetic-functions.md)
+         + [배열 및 목록 함수](using/personalization/functions/arrays-list.md)
+         + [날짜 시간 함수](using/personalization/functions/dates.md)
+         + [부울 및 비교 함수](using/personalization/functions/operators.md)
+         + [도우미](using/personalization/functions/helpers.md)
+         + [맵 함수](using/personalization/functions/maps.md)
+         + [개체 함수](using/personalization/functions/objects.md)
+         + [문자열 함수](using/personalization/functions/string.md)
+   + 사용 사례{#personalization-use-cases}
+      + [주문 상태 알림](using/personalization/personalization-use-case.md)
+      + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
    + 다이내믹 콘텐츠 {#dynamic}
       + [동적 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
-      + [조건부 규칙 만들기](using/personalization/create-conditions.md)
-      + [동적 콘텐츠 만들기](using/personalization/dynamic-content.md)
+      + [조건 만들기](using/personalization/create-conditions.md)
+      + [조건부 콘텐츠 작성](using/personalization/dynamic-content.md)
 + 세그먼트, 프로필, 신원{#segment}
    + 세그먼트 {#segments}
       + [세그먼트 시작](using/segment/about-segments.md)
@@ -271,7 +270,6 @@ ht-degree: 95%
       + [전달성 시작](using/reports/deliverability.md)
       + [제외 목록 이해하기](using/reports/suppression-list.md)
    + [경고](using/reports/alerts.md)
-   + [Customer Journey Analytics 작업](using/reports/cja-ajo.md)
 + 의사 결정 관리 {#offer-decisioning}
    + 의사 결정 관리 시작 {#get-started-decision}
       + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)

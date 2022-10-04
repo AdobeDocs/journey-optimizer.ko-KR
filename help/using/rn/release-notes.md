@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 18%
+source-wordcount: '961'
+ht-degree: 19%
 
 ---
 
@@ -21,23 +21,26 @@ ht-degree: 18%
 
 ### 새로운 기능{#sept-2022-features}
 
+
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>다이내믹 콘텐츠 및 새로운 조건부 규칙 빌더</strong><br/></th>
+<th><strong>Dynamic content & new conditional rule builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 조건부 규칙에 따라 메시지 콘텐츠를 조정할 수 있는 동적 콘텐츠를 만들 수 있습니다.</p> 
-<p>조건부 규칙은 표현식 편집기 내에서 시각적 규칙 빌더를 사용하여 작성되며, 이 빌더를 저장하여 여정 및 캠페인 간에 다시 사용할 수 있습니다.</p>
+<p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p> 
+<p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>자세한 내용은 <a href="../personalization/get-started-dynamic-content.md">세부 설명서</a>를 참조하세요.
+<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -173,10 +176,9 @@ ht-degree: 18%
 
 * 이제 허용 목록을 활성화하거나 비활성화할 때 각 작업의 영향을 자세히 설명하는 새 경고가 표시됩니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
 * 채널 서피스 생성, IP 풀 생성, 제외 목록 및 허용 목록 관리 및 SMS 채널 구성을 위한 사용자 인터페이스가 업데이트되었습니다.
-* 이제 주어진 하위 도메인에 대한 첫 번째 채널 서피스를 생성할 때 처리 시간은 10분에서 10일, 해당 하위 도메인을 사용하는 후속 서피스에 대해 최대 3시간까지 소요됩니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
-
-<!--* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.-->
-* 랜딩 페이지 사전 설정 및 랜딩 페이지 하위 도메인을 만들기 위한 사용자 인터페이스를 업데이트했습니다. [자세히 보기](../configuration/lp-subdomains.md)
+<!--* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. Learn more
+* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.
+* The user interface for creating landing page presets and landing page subdomains has been improved. Learn more -->
 
 **감사 제어**
 
@@ -190,13 +192,13 @@ ht-degree: 18%
 
 * 이제 동일한 랜딩 페이지 내에서 다른 페이지에서 가져온 컨텍스트 데이터를 사용할 수 있습니다. 예를 들어, 기본 랜딩 페이지의 구독 목록에 확인란을 연결하는 경우, &quot;감사합니다&quot; 하위 페이지에서 해당 구독 목록을 사용할 수 있습니다. [자세히 보기](../landing-pages/lp-content.md#use-primary-page-context)
 
-<!--* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)-->
+* 이제 기본 페이지를 구성할 때 랜딩 페이지가 제출될 때 정보를 저장할 수 있도록 추가 데이터를 만들 수 있습니다. [자세히 보기](../landing-pages/lp-content.md#use-additional-data)
 
 <!--* You can now use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.-->
 
 ### 기타 변경 사항{#sept-2022-other}
 
-* 여정 버스트 모드가 Campaign Rapid 게재 모드로 대체되었습니다. [자세히 보기](../campaigns/create-campaign.md#rapid-delivery)
+* 여정 버스트 모드가 Campaign Rapid 게재 모드로 대체되었습니다. 추가 정보
 * 성능을 향상시키기 위해 읽기 세그먼트, 세그먼트 자격 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 더 이상 경험 이벤트 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. [자세히 보기](../start/guardrails.md#expression-editor)
 * 예약된 읽기 세그먼트 여정에 대한 1시간 제한이 제거되었습니다. 이제 이러한 여정을 지연 없이 실행할 수 있습니다.
 

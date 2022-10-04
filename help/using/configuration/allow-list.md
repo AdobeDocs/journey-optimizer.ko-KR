@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 50f6b965b50b1ffe4dab9102657d43888cb6d5ea
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1031'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 1. 액세스 권한  **[!UICONTROL 채널]** > **[!UICONTROL 이메일 구성]** > **[!UICONTROL 허용 목록]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-1. 전환 단추를 선택합니다.
+1. 클릭 **[!UICONTROL 비활성화됨]**.
 
    ![](assets/allow-list-edit.png)
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 1. 액세스 권한  **[!UICONTROL 채널]** > **[!UICONTROL 이메일 구성]** > **[!UICONTROL 허용 목록]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-1. 전환 단추를 선택합니다.
+1. 클릭 **[!UICONTROL 활성]**.
 
    ![](assets/allow-list-edit-active.png)
 
