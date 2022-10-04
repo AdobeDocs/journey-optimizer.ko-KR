@@ -6,20 +6,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '344'
 ht-degree: 5%
 
 ---
 
 # 세그먼트 작성 {#build-segments}
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_create_rule"
+>title="규칙 만들기"
+>abstract="빌드 규칙 만들기 방법을 사용하면 Adobe Experience Platform 세그멘테이션 서비스를 사용하여 새 세그먼트 정의를 만들 수 있습니다."
+
 이 예에서는 1980년 이후에 태어난 Atlanta, San Francisco 또는 Seattle에 거주하는 모든 고객을 타겟팅하는 세그먼트를 만듭니다. 이 모든 고객은 지난 7일 이내에 Luma 애플리케이션을 연 다음 애플리케이션을 연 후 2시간 내에 구매했어야 합니다.
 
 ➡️ [이 비디오에서 세그먼트를 만드는 방법을 알아봅니다](#video-segment)
 
-1. 액세스 권한 **[!UICONTROL Segments]** 메뉴를 클릭한 다음 **[!UICONTROL Create segment]** 버튼을 클릭합니다.
+1. 액세스 권한 **[!UICONTROL 세그먼트]** 메뉴를 클릭한 다음 **[!UICONTROL 세그먼트 만들기]** 버튼을 클릭합니다.
 
    ![](assets/create-segment.png)
 
@@ -27,7 +32,7 @@ ht-degree: 5%
 
    ![](assets/segment-builder.png)
 
-1. 에서 **[!UICONTROL Segment properties]** 창에서 세그먼트의 이름과 설명(선택 사항)을 제공합니다.
+1. 에서 **[!UICONTROL 세그먼트 속성]** 창에서 세그먼트의 이름과 설명(선택 사항)을 제공합니다.
 
    ![](assets/segment-properties.png)
 
@@ -49,11 +54,11 @@ ht-degree: 5%
 
       ![](assets/add-events.png)
 
-1. 작업 공간에서 새 필드를 추가 및 구성하는 동안 **[!UICONTROL Segment Properties]** 창은 세그먼트에 속하는 예상 프로필에 대한 정보로 자동 업데이트됩니다.
+1. 작업 공간에서 새 필드를 추가 및 구성하는 동안 **[!UICONTROL 세그먼트 속성]** 창은 세그먼트에 속하는 예상 프로필에 대한 정보로 자동 업데이트됩니다.
 
    ![](assets/segment-estimate.png)
 
-1. 세그먼트를 준비했으면 을 클릭합니다 **[!UICONTROL Save]**. Adobe Experience Platform 세그먼트 목록에 표시됩니다. 검색 창에서는 목록에서 특정 세그먼트를 검색하는 데 도움이 됩니다.
+1. 세그먼트를 준비했으면 을 클릭합니다 **[!UICONTROL 저장]**. Adobe Experience Platform 세그먼트 목록에 표시됩니다. 검색 창에서는 목록에서 특정 세그먼트를 검색하는 데 도움이 됩니다.
 
 이제 여정에서 세그먼트를 사용할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../segment/about-segments.md)을 참조하십시오.
 
