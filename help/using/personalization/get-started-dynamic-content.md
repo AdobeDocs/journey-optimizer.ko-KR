@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 3205b992a1dd6774d3ef89533d9ae6af9ff50ba3
+source-git-commit: e98bde090129ad1c32662719911ec6a3e68f69d6
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -28,3 +28,9 @@ ht-degree: 0%
 
 * [조건부 규칙 사용 방법 알아보기](create-conditions.md)
 * [다이내믹 컨텐츠를 만드는 방법 알아보기](dynamic-content.md)
+
+## 방법 비디오 {#video}
+
+조건 규칙 빌더를 사용하여 동적 콘텐츠를 만드는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
