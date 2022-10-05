@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
+source-git-commit: b6f61a7a3ad1aaab90119c3a3a69254e55733271
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 0%
@@ -113,7 +113,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="프로필 제한 추가"
->abstract="이 옵션을 켜서 컴포지션에 포함할 최대 프로필 수를 지정합니다.
+>abstract="이 옵션을 켜서 컴포지션에 포함할 최대 프로필 수를 지정합니다."
 
 다음 **[!UICONTROL 등급]** 활동을 통해 특정 속성에 따라 프로필의 등급을 매기고 구성에 포함할 수 있습니다. 예를 들어 충성도 포인트가 가장 많은 50개의 프로필을 포함할 수 있습니다.
 
