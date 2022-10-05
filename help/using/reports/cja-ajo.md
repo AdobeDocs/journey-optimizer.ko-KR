@@ -5,16 +5,17 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: bf4857f63b44d557304ef05e490fe6659f0ad888
+source-git-commit: ce0906afb8561c586cb080c4a49c58fb5bfac6a9
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 9%
+source-wordcount: '337'
+ht-degree: 7%
 
 ---
 
 # [!DNL Customer Journey Analytics]로 작업  {#cja-ajo}
 
 ![](assets/cja.png)
+[!DNL Journey Optimizer] 통합 [!DNL Customer Journey Analytics] 는 데이터의 자동화된 보고서 분배 및 사용자 지정 시각화를 통해 모든 여정을 전체적으로 볼 수 있도록 합니다.
 
 여정을 만든 후 [!DNL Journey Optimizer], 고객 데이터를에 가져올 수 있습니다. [!DNL Customer Journey Analytics] 보고서를 시작하고 고객이 여정과 상호 작용이 미치는 영향을 이해하기 위해 노력합니다.
 
@@ -23,6 +24,11 @@ ht-degree: 9%
 사용하기 전 [!DNL Customer Journey Analytics] 여정의 경우 먼저 이 통합을 구성해야 합니다.
 
 1. [연결 만들기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR) in [!DNL Customer Journey Analytics] 사용 **[!UICONTROL 데이터 집합]** Platform으로 보내려고 합니다.
+
+   다음 [!DNL Journey Optimizer] 구성할 수 있습니다.
+   * [여정 단계 이벤트](../start/datasets-query-examples.md#journey-step-event): 여정에 들어오는 사람과 받는 거리를 볼 수 있습니다.
+   * [메시지 피드백/추적 데이터 세트](../start/datasets-query-examples.md#message-feedback-event-dataset): 을(를) 통해 전송된 메시지에 대한 게재 정보를 볼 수 있도록 해줍니다 [!DNL Journey Optimizer].
+   * [엔티티 및 여정 데이터 세트](../start/datasets-query-examples.md#entity-dataset): 친숙한 이름을 검색하고 보고에 사용할 수 있습니다.
 
 1. [데이터 보기 만들기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 를 입력하여 보고서에 사용할 차원 및 지표를 구성할 수 있습니다.
 
