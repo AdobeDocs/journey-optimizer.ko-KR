@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f439e4387139b3136c46d25ecb43f304e29b0f17
+source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,11 @@ ht-degree: 0%
 >title="등급 활동"
 >abstract="등급 활동을 사용하면 특정 속성에 따라 프로필의 등급을 매기고 컴포지션에 포함할 수 있습니다. 예를 들어 충성도 포인트가 가장 많은 50개의 프로필을 포함합니다."
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="프로필 제한 추가"
+>abstract="이 옵션을 켜서 컴포지션에 포함할 최대 프로필 수를 지정합니다.
+
 다음 **[!UICONTROL 등급]** 활동을 통해 특정 속성에 따라 프로필의 등급을 매기고 구성에 포함할 수 있습니다. 예를 들어 충성도 포인트가 가장 많은 50개의 프로필을 포함할 수 있습니다.
 
 1. 조회할 속성을 선택하고 등급 순서(오름차순 또는 내림차순)를 지정합니다.
@@ -126,7 +131,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="컨트롤 그룹 대상"
+>title="컨트롤 그룹"
 >abstract="컨트롤 그룹을 사용하여 프로필의 일부를 격리합니다. 이를 통해 마케팅 활동의 영향을 측정하고 나머지 모집단 행동과의 비교를 수행할 수 있습니다."
 
 >[!CONTEXTUALHELP]
@@ -138,6 +143,11 @@ ht-degree: 0%
 >id="ajo_ao_split_type"
 >title="분할 유형"
 >abstract="백분율 분할 유형을 사용하여 프로필을 여러 경로로 임의로 분할합니다. 속성 분할 유형을 사용하면 특정 속성에 따라 프로필을 분할할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="기타 프로필"
+>abstract="다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만들려면 이 옵션을 켜십시오."
 
 다음 **[!UICONTROL 분할]** 활동을 통해 컴포지션을 여러 경로로 나눌 수 있습니다.
 
