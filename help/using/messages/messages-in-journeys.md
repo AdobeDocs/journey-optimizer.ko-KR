@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
-workflow-type: ht
+source-git-commit: ed1ae405367a0b0f37e61ceb81fc1f1d1b907ea7
+workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 100%
 >title="채널 표면"
 >abstract="채널 표면은 캠페인이나 여정을 통해 작업을 성공적으로 전달할 수 있는 모든 설정이 있는 해당 채널의 인스턴스입니다. 시스템 관리자가 정의합니다."
 
-여정에서 채널 작업을 사용하여 대상자에게 보낼 메시지를 디자인하고 개인화합니다. 여정에 이메일, SMS 또는 푸시 작업을 추가하면 트리거 전송이 만들어집니다. 연락 대상자가 해당 채널 작업에 도달하면 Adobe Journey Optimizer가 자동으로 메시지를 보냅니다.
+여정에서 채널 작업을 사용하여 대상자에게 보낼 메시지를 디자인하고 개인화합니다. 여정 캔버스에 이메일, SMS 또는 푸시 작업을 추가하면 트리거된 전송을 만듭니다. 연락 대상자가 해당 채널 작업에 도달하면 Adobe Journey Optimizer가 자동으로 메시지를 보냅니다.
 
 
 >[!NOTE]
 >캠페인을 만들어 예약 메시지를 보낼 수도 있습니다. 자세한 내용은 [이 섹션](../campaigns/get-started-with-campaigns.md)을 참조하세요.
 
 
-여정에 메시지를 추가하려면 여정 캔버스에 푸시, SMS 또는 이메일 활동을 추가합니다.
+여정에 메시지를 추가하려면 여정 캔버스에서 푸시, SMS 또는 이메일 활동을 추가합니다.
 
 1. [이벤트](../building-journeys/general-events.md) 또는 [세그먼트 읽기](../building-journeys/read-segment.md) 활동으로 여정을 시작하십시오.
 
