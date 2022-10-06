@@ -2,9 +2,9 @@
 title: API를 사용하여 캠페인 트리거
 description: 을 사용하여 캠페인을 트리거하는 방법 알아보기 [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 9fbfeef292e4b71396680573007e062b525b24c9
+source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '800'
 ht-degree: 1%
 
 ---
@@ -88,11 +88,15 @@ API로 트리거된 캠페인을 실행하려면 먼저 해당 ID를 검색하�
 
 ## 캠페인 실행 시 프로필 만들기 {#profile-creation}
 
-경우에 따라 시스템에 없는 프로필에 트랜잭션 메시지를 보내야 할 수 있습니다. 예를 들어 알 수 없는 사용자가 웹 사이트에 로그인하려고 하는 경우.
+경우에 따라 시스템에 없는 프로필에 트랜잭션 메시지를 보내야 할 수 있습니다. 예를 들어 알 수 없는 사용자가 웹 사이트에서 암호를 재설정하려고 하는 경우
 
 데이터베이스에 프로필이 없으면 Journey Optimizer에서 캠페인을 실행할 때 메시지를 이 프로필에 보낼 수 있도록 프로필을 자동으로 만들 수 있습니다.
 
-이렇게 하려면 **[!UCONTROL 새 프로필 만들기]** 옵션 **[!UICONTROL Audience]** 섹션을 참조하십시오.
+>[!IMPORTANT]
+>
+>이 기능은 **매우 작은 볼륨 프로필 작성** 대량 트랜잭션 전송 사용 사례에서 다수의 프로필이 이미 플랫폼에 있습니다.
+
+캠페인 실행 시 프로필 만들기를 활성화하려면 **[!UICONTROL 새 프로필 만들기]** 옵션 **[!UICONTROL Audience]** 섹션을 참조하십시오.
 
 ![](assets/api-triggered-create-profile.png)
 
