@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 94%
          + [주문 상태 알림](using/personalization/personalization-use-case.md)
          + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
    + 다이내믹 콘텐츠 {#dynamic}
-      + [동적 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
+      + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [동적 콘텐츠 만들기](using/personalization/dynamic-content.md)
 + 세그먼트, 프로필, 신원{#segment}
@@ -401,7 +401,7 @@ ht-degree: 94%
       + 채널 표면 설정 {#set-up-channels}
          + [채널 표면 생성](using/configuration/channel-surfaces.md)
          + [이메일 설정 구성](using/configuration/email-settings.md)
-      + [아카이빙 지원](using/configuration/archiving-support.md)
+      + [아카이브 지원](using/configuration/archiving-support.md)
       + [실행 주소 관리](using/configuration/primary-email-addresses.md)
       + [빈도 규칙 구성](using/configuration/frequency-rules.md)
    + 랜딩 페이지 구성 {#lp-configuration}
