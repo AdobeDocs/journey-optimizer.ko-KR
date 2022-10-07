@@ -3,9 +3,9 @@ title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2519'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>이제 의사 결정 관리에서 개인화된 최적화 모델 시스템을 사용할 수 있습니다. 이 새로운 유형의 모델을 사용하면 세그먼트와 오퍼 성과를 기반으로 오퍼를 최적화하고 개인화할 수 있습니다.</p>
+<p>이제 의사 결정 관리에 개인화된 최적화 모델 시스템을 사용할 수 있습니다. 이 새로운 유형의 모델을 사용하면 세그먼트와 오퍼 성과를 기반으로 오퍼를 최적화하고 개인화할 수 있습니다.</p>
 <p>개인화된 최적화 AI 모델의 사용은 현재 선택한 사용자로만 제한되며 향후 릴리스의 모든 환경에 배포됩니다.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>자세한 내용은 <a href="../offers/ranking/personalized-optimization-model.md">자세한 설명서</a>를 참조하세요.</p>
