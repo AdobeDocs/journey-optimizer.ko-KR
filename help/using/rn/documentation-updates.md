@@ -3,9 +3,9 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2002'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 94%
 
 ## 2022년 9월 {#september-2022}
 
-* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 9월 22일 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 되풀이하는 읽기 세그먼트 여정에서 대기 활동 사용과 관련된 우수 사례를 추가했습니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* 새 단계 이벤트 쿼리 예와 ID, instanceid 및 profileid 간의 차이에 대한 정보가 추가되었습니다. [자세히 보기](../reports/query-examples.md).
-* 와 관련된 페이지를 업데이트했습니다. [toDateOnly](../building-journeys/functions/functiontodateonly.md) 및 [toString](../building-journeys/functions/functiontostring.md) 함수 위에 있어야 합니다.
-* 시간 조건 매개 변수에 대한 세부 사항이 추가되었습니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
+* [!DNL Journey Optimizer] 2022년 9월 릴리스의 모든 새로운 기능 및 개선 사항에 대한 자세한 설명은 설명서에서 확인할 수 있습니다. [자세히 보기](release-notes.md)
+* 반복 읽기 세그먼트 여정에서 대기 활동 사용과 관련된 모범 사례를 추가했습니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 새로운 단계 이벤트 쿼리와 관련된 예시와 ID, instanceID 및 profileID 간의 차이에 대한 정보를 추가했습니다. [자세히 보기](../reports/query-examples.md).
+* [toDateOnly](../building-journeys/functions/functiontodateonly.md) 및 [toString](../building-journeys/functions/functiontostring.md) 함수와 관련된 페이지를 업데이트했습니다.
+* 시간 조건 매개 변수에 대한 세부 사항을 추가했습니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
 * 기본 제공 데이터 세트에 대한 정보를 추가했습니다. [자세히 보기](../start/get-started-datasets.md#access-datasets)
-* 개선된 가독성을 위해 글로벌 보고서 및 라이브 보고서 섹션이 재구성되었습니다. [자세히 보기](../reports/global-report.md)
-* Adobe Journey Optimizer에서 사용할 수 있는 모든 보고 지표 목록이 추가되었습니다.
+* 글로벌 보고서 및 라이브 보고서 섹션이 가독성 향상을 위해 재구성되었습니다. [자세히 보기](../reports/global-report.md)
+* Adobe Journey Optimizer에서 사용할 수 있는 모든 보고 지표 목록을 추가했습니다.
    [자세히 보기](../reports/global-report.md#email-and-sms-metrics)
-* BCC 이메일 섹션을 새로운 보관 지원 페이지로 이동했습니다. [자세히 보기](../configuration/archiving-support.md)
+* BCC 이메일 섹션이 새 아카이브 지원 페이지로 이동되었습니다. [자세히 보기](../configuration/archiving-support.md)
 
 ## 2022년 8월 {#august-2022}
 
