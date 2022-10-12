@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: ht
-source-wordcount: '702'
-ht-degree: 100%
+source-git-commit: 22672ba22713bcc354d5cc4acdba68995d47a685
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 97%
 
 ---
 
@@ -53,9 +53,9 @@ ht-degree: 100%
 
 ## 아키텍처 {#architecture}
 
-[!DNL Adobe Journey Optimizer]의 기본 아키텍처, 통합 지점, [!DNL Journey Optimizer]와 다른 Adobe 애플리케이션의 관계를 파악합니다.
+의 기본 아키텍처 이해 [!DNL Adobe Journey Optimizer], 통합 지점 및 그 간의 관계 [!DNL Journey Optimizer] 및 [!DNL Experience Platform]로 나열된 상태로 남아 있는 문제를 해결했습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
+![](assets/ajo-architecture.png)
 
 
 >[!NOTE]
