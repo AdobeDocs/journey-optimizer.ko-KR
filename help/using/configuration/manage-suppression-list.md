@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3c830d6e5ee577b0cfa0064550d1429754fbb366
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -122,7 +122,7 @@ When downloading the CSV file, you can choose to either:
 
 >[!NOTE]
 >
->구독하지 않은 사용자가 보낸 이메일을 받지 않습니다. [!DNL Journey Optimizer]따라서 해당 이메일 주소를 제외 목록으로 보낼 수 없습니다. 선택 사항은 Experience Platform 수준에서 처리됩니다. [옵트아웃에 대해 자세히 알아보기](../messages/consent.md)
+>구독하지 않은 사용자가 보낸 이메일을 받지 않습니다. [!DNL Journey Optimizer]따라서 해당 이메일 주소를 제외 목록으로 보낼 수 없습니다. 선택 사항은 Experience Platform 수준에서 처리됩니다. [옵트아웃에 대해 자세히 알아보기](../privacy/opt-out.md)
 
 ## 수동으로 주소 및 도메인 추가 {#add-addresses-and-domains}
 

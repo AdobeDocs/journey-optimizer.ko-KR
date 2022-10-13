@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 13a2bbcb0fb9bfb60e79bc3444d2a1b9f0b37627
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 16%
@@ -89,7 +89,7 @@ ht-degree: 16%
 
 수신자가 통신에서 구독을 해지하도록 하려면 옵트아웃 랜딩 페이지에 대한 링크를 전자 메일에 포함할 수 있습니다.
 
-수신자의 동의 관리 및 수신자가 [이 섹션](../messages/consent.md).
+수신자의 동의 관리 및 수신자가 [이 섹션](../privacy/opt-out.md).
 
 ### 옵트아웃 관리 {#opt-out-management}
 
@@ -166,11 +166,11 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/consent.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-header)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../privacy/opt-out.md#unsubscribe-header)
 
 ////////
 

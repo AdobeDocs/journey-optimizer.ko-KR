@@ -2,10 +2,10 @@
 title: 이전 릴리스 정보(2021)
 description: Journey Optimizer 릴리스 정보
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '2067'
-ht-degree: 96%
+source-wordcount: '2070'
+ht-degree: 95%
 
 ---
 
@@ -270,7 +270,7 @@ ht-degree: 96%
 **콘텐츠 디자인**
 
 * **배경** - 이제 배경 이미지가 실시간 미리 보기에서 지원됩니다. [자세히 알아보기](../design/preview.md)
-* **원클릭 옵트아웃 링크** - 이메일 콘텐츠에 새로운 유형의 링크를 삽입할 수 있습니다. **옵트아웃** 링크를 사용하면 옵트아웃을 확인하기 위해 랜딩 페이지로 리디렉션되지 않고 한 번의 클릭으로 커뮤니케이션 구독을 취소할 수 있습니다. [자세히 알아보기](../messages/consent.md#one-click-opt-out-link)
+* **원클릭 옵트아웃 링크** - 이메일 콘텐츠에 새로운 유형의 링크를 삽입할 수 있습니다. **옵트아웃** 링크를 사용하면 옵트아웃을 확인하기 위해 랜딩 페이지로 리디렉션되지 않고 한 번의 클릭으로 커뮤니케이션 구독을 취소할 수 있습니다. [자세히 알아보기](../privacy/opt-out.md#one-click-opt-out-link)
 
 **개인화**
 
@@ -340,11 +340,11 @@ ht-degree: 96%
 * 이제 외부 데이터 소스의 경우 초당 최대 15회 호출할 수 있는 가용량 규칙이 자동으로 정의됩니다. [자세히 보기](../configuration/external-systems.md#capping)
 * 이제 실시간 여정의 여정 속성 화면에 게시 날짜와 여정을 게시한 사용자의 이름이 표시됩니다. [자세히 보기](../building-journeys/journey-gs.md#change-properties)
 * 여정 목록 화면에 여정 유형 필터를 추가했습니다. [자세히 보기](../start/user-interface.md#filter-lists)
-* 세그먼트 읽기 활동에 **[!UICONTROL Throttling rate]** 매개 변수를 추가했습니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 다음 **[!UICONTROL 전송률 조절]** 세그먼트 읽기 활동에 매개 변수가 추가되었습니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **미리 보기 및 테스트**
 
-* 이제 신원과 네임스페이스가 **[!UICONTROL Preview]** 화면에 표시됩니다. [자세히 보기](../design/preview.md#preview-your-messages)
+* 이제 ID와 네임스페이스가 **[!UICONTROL 미리 보기]** 화면. [자세히 보기](../design/preview.md#preview-your-messages)
 * 이제 교정용 테스트 이메일 수가 10개로 제한됩니다.
 * 교정을 보낼 때 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](../design/preview.md#send-proofs)
 

@@ -2,16 +2,20 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
-workflow-type: ht
-source-wordcount: '2002'
-ht-degree: 100%
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2022년 10월 {#october-2022}
+
+* 옵트아웃 관리 및 동의 정책에 대한 정보가 새 섹션으로 재구성되었습니다. [자세히 보기](../privacy/opt-out.md)
 
 ## 2022년 9월 {#september-2022}
 
@@ -108,7 +112,7 @@ ht-degree: 100%
 * 등급 전략을 사용할 때 이벤트 유형을 보낼 수 있어야 하는 스키마 요구 사항에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../offers/ranking/schema-requirement.md)
 * 가독성 개선을 위해 [!DNL Journey Optimizer] 개인화 기능 관련 섹션을 재구성했습니다. [자세히 보기](../personalization/personalize.md)
 * 다음 **메시지 사전 설정 만들기** 섹션을 몇 개의 섹션으로 나누어서 명확성을 개선했습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
-* 다음 **옵트아웃 관리** 섹션이 명확해지고 약간 재구성되었습니다. [자세히 보기](../messages/consent.md#opt-out-management)
+* 다음 **옵트아웃 관리** 섹션이 명확해지고 약간 재구성되었습니다. [자세히 보기](../privacy/opt-out.md#opt-out-management)
 * 다음 **링크 삽입** 섹션이 업데이트되어 최근 사용자 인터페이스 변경 사항을 반영하였습니다. [자세히 보기](../design/message-tracking.md#insert-links)
 
 ## 2021년 11월 {#november-2021}
@@ -172,7 +176,7 @@ ht-degree: 100%
 * 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
 * 메시지 사전 설정 모니터링 섹션을 업데이트했습니다. 가능한 사전 설정 작성 실패 이유 및 이러한 오류에 대한 세부 정보를 추가했습니다. [자세히 보기](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * 이제 메시지 사전 설정에서 이메일 다시 시도 설정을 조정할 수 있다는 사실을 반영하도록 다시 시도 기간 섹션을 업데이트하고 이름을 변경했습니다. [자세히 보기](../configuration/retries.md#retry-duration)
-* 이메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../messages/consent.md#one-click-opt-out-link)
+* 이메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../privacy/opt-out.md#one-click-opt-out-link)
 * 하위 도메인 위임 섹션을 업데이트하여 Adobe가 수행한 유효성 검사 프로세스에 대한 자세한 정보를 추가했습니다. [자세히 보기](../configuration/delegate-subdomain.md#subdomain-validation)
 * 이메일 주소 및 도메인을 제외 목록에 수동으로 추가하는 방법을 설명하는 섹션을 추가했습니다. [자세히 보기](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * [제외 목록 액세스](../configuration/manage-suppression-list.md#access-suppression-list) 섹션 및 [다시 시도](../configuration/retries.md) 섹션을 업데이트하여 새 사용자 인터페이스를 반영했습니다.

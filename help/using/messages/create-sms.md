@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 8%
+source-wordcount: '401'
+ht-degree: 7%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 8%
 >abstract="텍스트 메시지를 추가하고 표현식 편집기를 사용하여 개인화를 시작합니다."
 
 사용 [!DNL Journey Optimizer] 을 눌러 모바일 장치에서 고객에게 텍스트 메시지를 보냅니다. SMS 편집기에서 텍스트 형식으로 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다.
+
+>[!NOTE]
+>
+>업계 표준 및 규정에 따라 모든 SMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이를 위해 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. [옵트아웃을 관리하는 방법 알아보기](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 SMS 게재를 만들 수 있습니다.
 
@@ -61,17 +65,6 @@ SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 편집기의 상단 섹션에서도 경고를 확인해야 합니다.  일부 경고는 간단한 경고이지만 일부 사용자는 메시지를 사용하지 못하도록 할 수 있습니다. 자세한 내용은 [이 섹션](alerts.md)을 참조하십시오.
 
 ![](assets/sms-alert-button.png)
-
-
-## 옵트인 및 옵트아웃{#sms-opt-in-out}
-
-모든 마케팅 메시지의 경우 SMS에는 수신자가 쉽게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 가입 해지되면 향후 마케팅 메시지 대상자에서 프로필이 자동으로 제거됩니다. 트랜잭션 메시지에 구독 취소 링크를 추가하는 것은 필수가 아닙니다.
-
-SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. Adobe Journey Optimizer은 업계 표준 및 규정에 따라 수신 메시지에서 다음 키워드를 자동으로 처리합니다. 시작, 중지, 중지. 이러한 키워드는 SMS 공급자로부터 자동 표준 응답을 트리거합니다.
-
-SMS에 대한 기본 인바운드 키워드 지원(시작, 중지 및 중지)이 작동하는 방식에 대한 자세한 내용은 다음 비디오를 참조하십시오.
-
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
 <!--
 ## How-to video

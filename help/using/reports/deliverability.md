@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '650'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 불만률 감소 {#reduce-complaint-rate}
 
-ISP에는 보통 받은 메시지를 스팸으로 보고하는 잘 알려진 방법이 있습니다. 이렇게 하면 신뢰할 수 없는 출처를 식별할 수 있습니다. 옵트아웃 요청을 빠르게 준수하고 따라서 신뢰할 수 있는 발신자임을 나타냄에 따라 불만율을 줄일 수 있습니다. [옵트아웃 관리에 대해 자세히 알아보기](../messages/consent.md#opt-out-management).
+ISP에는 보통 받은 메시지를 스팸으로 보고하는 잘 알려진 방법이 있습니다. 이렇게 하면 신뢰할 수 없는 출처를 식별할 수 있습니다. 옵트아웃 요청을 빠르게 준수하고 따라서 신뢰할 수 있는 발신자임을 나타냄에 따라 불만율을 줄일 수 있습니다. [옵트아웃 관리에 대해 자세히 알아보기](../privacy/opt-out.md#opt-out-management).
 
 일반적으로, 예를 들어 이메일 주소나 이름과 같은 필드를 작성할 것을 요구하여 옵트아웃하려는 수신자의 방해가 되지 않도록 하십시오. 구독 취소 랜딩 페이지에는 하나의 유효성 검사 단추만 있어야 합니다.
 
@@ -51,7 +51,7 @@ ISP에는 보통 받은 메시지를 스팸으로 보고하는 잘 알려진 방
 
 에서 제공하는 기능 사용 [!DNL Journey Optimizer] 게재 능력을 모니터링합니다.
 
-다음 **[!UICONTROL Executions]** 메시지 목록의 탭에서는 일련의 실시간 지표를 통해 게재의 성과를 확인할 수 있습니다. 다른 항목 중에서 이 탭에 다음이 표시됩니다.
+다음 **[!UICONTROL 실행]** 메시지 목록의 탭에서는 일련의 실시간 지표를 통해 게재의 성과를 확인할 수 있습니다. 다른 항목 중에서 이 탭에 다음이 표시됩니다.
 * 실행, 전송 및 전달된 메시지 수입니다.
 * 열린 메시지 수와 클릭한 메시지/링크 수입니다.
 

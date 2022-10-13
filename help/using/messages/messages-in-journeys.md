@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 92%
@@ -50,7 +50,7 @@ ht-degree: 92%
    >
    >* 특정 채널 및 카테고리의 [빈도 규칙](../configuration/frequency-rules.md)을 정의한 경우 해당 채널 및 카테고리를 선택하면 메시지에 자동으로 적용됩니다. 현재 **[!UICONTROL 마케팅]** 카테고리만 빈도 규칙에 사용할 수 있습니다.
    >
-   >* 마케팅 메시지에는 [옵트아웃 링크](../messages/consent.md#opt-out-management). 트랜잭션 메시지는 마케팅 커뮤니케이션의 구독을 취소한 프로필에 전송될 수 있으므로 이러한 메시지에는 필요하지 않습니다.
+   >* 마케팅 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-management). 트랜잭션 메시지는 마케팅 커뮤니케이션의 구독을 취소한 프로필에 전송될 수 있으므로 이러한 메시지에는 필요하지 않습니다.
 
 
 1. 메시지를 보내는 데 사용할 채널 **[!UICONTROL 표면]**(즉, 메시지 사전 설정)을 선택합니다.
