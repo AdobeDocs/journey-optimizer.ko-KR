@@ -5,9 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 6b77133cb0b0e8d91cc9012d5b338628846c08b3
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '853'
 ht-degree: 9%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="신속한 전달 모드"
->abstract="빠른 게재 모드는 30M 프로필 미만의 대상에게 개인화되지 않은 메시지를 빠르게 보낼 수 있는 Journey Optimizer 추가 기능입니다."
+>abstract="빠른 전달 모드에서는 푸시 채널에서 30M 이하의 대상 크기로 고속 메시지를 전송할 수 있습니다."
 
 이전에 여정에서 버스트 모드라고 했던 빠른 전달 모드는 [!DNL Journey Optimizer] 캠페인을 통해 대용량 볼륨으로 푸시 메시지를 매우 빠르게 전송할 수 있는 추가 기능입니다.
 
