@@ -2,9 +2,9 @@
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2005'
 ht-degree: 99%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 99%
 ## 2022년 6월 {#june-2022}
 
 * [!DNL Journey Optimizer] 2022년 6월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 데이터 사용 정책에 대한 새로운 섹션이 설명서에 추가되었습니다. [자세히 보기](../privacy/policies.md)
 * 개인 정보 보호 요청에 대한 새 섹션이 설명서에 추가되었습니다. [자세히 보기](../privacy/requests.md)
 * 리소스에 대한 감사 로그의 새 섹션이 설명서에 추가되었습니다. [자세히 보기](../privacy/audit-logs.md)
 * Adobe Experience Cloud Asset 라이브러리에서 오퍼 표현에 있는 HTML 또는 JSON 콘텐츠를 추가하는 방법에 대한 새 섹션이 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/add-representations.md#html-json)
