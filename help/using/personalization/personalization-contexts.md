@@ -1,14 +1,16 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 개인화 컨텍스트
-description: '콘텐츠 및 메시지 표시를 개인화할 수 있는 방법에 대해 자세히 알아보십시오. '
+description: 콘텐츠 및 메시지 표시를 개인화할 수 있는 방법에 대해 자세히 알아보십시오.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '283'
 ht-degree: 15%
 
 ---
@@ -23,7 +25,7 @@ ht-degree: 15%
 
 ## 이메일 개인화 {#personalize-emails}
 
-이메일을 만들 때 **[!UICONTROL Subject line]** 메시지의 필드입니다.
+이메일을 만들 때 **[!UICONTROL 제목 줄]** 메시지의 필드입니다.
 
 ![](assets/perso_subject.png)
 

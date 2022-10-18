@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer 보호 및 제한 사항
 description: Journey Optimizer 보호 기능에 대해 자세히 알아보십시오
 feature: Journeys
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 3%

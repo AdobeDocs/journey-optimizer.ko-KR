@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 인라인 스타일 속성 추가
 description: 인라인 스타일 속성을 추가하는 방법을 알아봅니다
 feature: Overview
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '114'
 ht-degree: 7%
 
 ---
@@ -18,7 +20,7 @@ ht-degree: 7%
 이메일 디자이너 인터페이스에서 요소를 선택하고 사이드 패널에 해당 설정을 표시하는 경우 해당 특정 요소의 인라인 속성과 해당 값을 사용자 지정할 수 있습니다.
 
 1. 콘텐츠에서 요소를 선택합니다.
-1. 사이드 패널에서 **[!UICONTROL Styles Inline]** 설정.
+1. 사이드 패널에서 **[!UICONTROL 스타일 인라인]** 설정.
 
    ![](assets/styles_1.png)
 

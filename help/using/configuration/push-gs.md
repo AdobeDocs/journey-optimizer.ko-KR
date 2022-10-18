@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 푸시 구성 시작
 description: 푸시 알림 데이터 흐름 및 구성 요소 이해
 topic: Mobile
@@ -6,7 +8,7 @@ feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 6%

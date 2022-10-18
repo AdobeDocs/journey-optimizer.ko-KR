@@ -1,13 +1,15 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 푸시 알림 구성
 description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 환경을 구성하는 방법을 알아봅니다
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 4%
+source-wordcount: '1555'
+ht-degree: 3%
 
 ---
 
@@ -47,53 +49,53 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 1. 액세스 권한 **[!DNL Admin Console]**.
 
-1. 에서 **[!UICONTROL Products]** 탭에서 을 선택합니다 **[!UICONTROL Adobe Experience Platform Launch]** 카드.
+1. 에서 **[!UICONTROL 제품]** 탭에서 을 선택합니다 **[!UICONTROL Adobe Experience Platform Launch]** 카드.
 
    ![](assets/push_product_1.png)
 
-1. 기존 항목 선택 **[!UICONTROL Product Profile]** 또는 **[!UICONTROL New profile]** 버튼을 클릭합니다. 새로 만드는 방법 알아보기 **[!UICONTROL New profile]** 에서 [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target=&quot;_blank&quot;}.
+1. 기존 항목 선택 **[!UICONTROL 제품 프로필]** 또는 **[!UICONTROL 새 프로필]** 버튼을 클릭합니다. 새로 만드는 방법 알아보기 **[!UICONTROL 새 프로필]** 에서 [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target=&quot;_blank&quot;}.
 
-1. **[!UICONTROL Permissions]** 탭에서, **[!UICONTROL Property rights]**&#x200B;를 선택합니다.
+1. 에서 **[!UICONTROL 권한]** 탭, 선택 **[!UICONTROL 속성 권한]**.
 
    ![](assets/push_product_2.png)
 
-1. **[!UICONTROL Add all]**&#x200B;을(를) 클릭합니다. 이렇게 하면 제품 프로필에 다음 권한이 추가됩니다.
-   * **[!UICONTROL Approve]**
-   * **[!UICONTROL Develop]**
-   * **[!UICONTROL Manage Environments]**
-   * **[!UICONTROL Manage Extensions]**
-   * **[!UICONTROL Publish]**
+1. 클릭 **[!UICONTROL 모두 추가]**. 이렇게 하면 제품 프로필에 다음 권한이 추가됩니다.
+   * **[!UICONTROL 승인]**
+   * **[!UICONTROL 개발]**
+   * **[!UICONTROL 환경 관리]**
+   * **[!UICONTROL 확장 관리]**
+   * **[!UICONTROL 게시]**
 
    이러한 권한은 Adobe Experience Platform Mobile SDK에서 Adobe Journey Optimizer 확장을 설치 및 게시하고 앱 속성을 게시하는 데 필요합니다.
 
-1. 그런 다음 **[!UICONTROL Company rights]** 왼쪽 메뉴에 있습니다.
+1. 그런 다음 **[!UICONTROL 회사 권한]** 왼쪽 메뉴에 있습니다.
 
    ![](assets/push_product_4.png)
 
 1. 다음 권한을 추가합니다.
 
-   * **[!UICONTROL Manage App Configurations]**
-   * **[!UICONTROL Manage Properties]**
+   * **[!UICONTROL 앱 구성 관리]**
+   * **[!UICONTROL 속성 관리]**
 
    이러한 권한은 모바일 앱 개발자가 푸시 자격 증명을 설정하려면에서 설정하는 데 필요합니다 **Adobe Experience Launch** 푸시 알림 채널 서피스(즉, 메시지 사전 설정)를 **Adobe Journey Optimizer**.
 
    ![](assets/push_product_5.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-이를 할당하려면 **[!UICONTROL Product profile]** 사용자에게 알려면 아래 단계를 수행하십시오.
+이를 할당하려면 **[!UICONTROL 제품 프로필]** 사용자에게 알려면 아래 단계를 수행하십시오.
 
 1. 액세스 권한 **[!DNL Admin Console]**.
 
-1. 에서 **[!UICONTROL Products]** 탭에서 을 선택합니다 **[!UICONTROL Adobe Experience Platform Launch]** 카드.
+1. 에서 **[!UICONTROL 제품]** 탭에서 을 선택합니다 **[!UICONTROL Adobe Experience Platform Launch]** 카드.
 
-1. 이전에 구성한 **[!UICONTROL Product profile]**&#x200B;를 선택합니다.
+1. 이전에 구성한 을 선택합니다 **[!UICONTROL 제품 프로필]**.
 
-1. **[!UICONTROL Users]** 탭에서 **[!UICONTROL Add user]**&#x200B;을 클릭합니다.
+1. 에서 **[!UICONTROL 사용자]** 탭, **[!UICONTROL 사용자 추가]**.
 
    ![](assets/push_product_6.png)
 
-1. 사용자 이름이나 이메일 주소를 입력하고 사용자를 선택합니다. 그런 다음 **[!UICONTROL Save]**.
+1. 사용자 이름이나 이메일 주소를 입력하고 사용자를 선택합니다. 그런 다음 **[!UICONTROL 저장]**.
 
    >[!NOTE]
    >
@@ -123,23 +125,23 @@ Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모
 
 Adobe이 대신 푸시 알림을 전송하도록 승인하려면 모바일 앱 푸시 자격 증명 등록이 필요합니다. 아래 절차를 참조하십시오.
 
-1. From [!DNL Adobe Experience Platform Data Collection]에서 을(를) 선택합니다. **[!UICONTROL App Surfaces]** 왼쪽 패널의 탭.
+1. From [!DNL Adobe Experience Platform Data Collection]에서 을(를) 선택합니다. **[!UICONTROL 앱 서피스]** 왼쪽 패널의 탭.
 
-1. 클릭 **[!UICONTROL Create App Surface]** 새 구성을 만들려면
+1. 클릭 **[!UICONTROL 앱 서피스 만들기]** 새 구성을 만들려면
 
    ![](assets/add-app-config.png)
 
-1. 을(를) 입력합니다. **[!UICONTROL Name]** 참조하십시오.
+1. 을(를) 입력합니다. **[!UICONTROL 이름]** 참조하십시오.
 
-1. From **[!UICONTROL Mobile Application Configuration]**&#x200B;운영 시스템을 선택합니다.
+1. From **[!UICONTROL 모바일 애플리케이션 구성]**&#x200B;운영 시스템을 선택합니다.
 
    * **iOS용**
 
       ![](assets/add-app-config-ios.png)
 
-      1. 모바일 앱 입력 **번들 Id** 에서 **[!UICONTROL App ID (iOS Bundle ID)]** 필드. 앱 번들 ID는 **일반** 의 기본 대상 탭 **XCode**.
+      1. 모바일 앱 입력 **번들 Id** 에서 **[!UICONTROL 앱 ID(iOS 번들 ID)]** 필드. 앱 번들 ID는 **일반** 의 기본 대상 탭 **XCode**.
 
-      1. 켜짐 **[!UICONTROL Push Credentials]** 단추를 클릭하여 자격 증명을 추가합니다.
+      1. 켜짐 **[!UICONTROL 푸시 자격 증명]** 단추를 클릭하여 자격 증명을 추가합니다.
 
       1. .p8 Apple 푸시 알림 인증 키 파일을 끌어서 놓습니다. 이 키는 **인증서**, **식별자** 및 **프로필** 페이지.
 
@@ -150,15 +152,15 @@ Adobe이 대신 푸시 알림을 전송하도록 승인하려면 모바일 앱 �
 
       ![](assets/add-app-config-android.png)
 
-      1. 다음을 제공합니다. **[!UICONTROL App ID (Android package name)]**: 일반적으로 패키지 이름은 의 앱 id입니다 `build.gradle` 파일.
+      1. 다음을 제공합니다. **[!UICONTROL 앱 ID(Android 패키지 이름)]**: 일반적으로 패키지 이름은 의 앱 id입니다 `build.gradle` 파일.
 
-      1. 켜짐 **[!UICONTROL Push Credentials]** 단추를 클릭하여 자격 증명을 추가합니다.
+      1. 켜짐 **[!UICONTROL 푸시 자격 증명]** 단추를 클릭하여 자격 증명을 추가합니다.
 
       1. FCM 푸시 자격 증명을 끌어다 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}.
 
 
 
-1. 클릭 **[!UICONTROL Save]** 앱 구성을 만들려면
+1. 클릭 **[!UICONTROL 저장]** 앱 구성을 만들려면
 
 <!--
 ## Step 2: Set up a mobile property in Adobe Experience Platform Launch {#launch-property}
@@ -261,45 +263,45 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 이 여정이 작동하려면 XDM 스키마를 만들어야 합니다. 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target=&quot;_blank&quot;}.
 
-1. 왼쪽 메뉴에서 **[!UICONTROL Schemas]**.
+1. 왼쪽 메뉴에서 **[!UICONTROL 스키마]**.
 
-1. 클릭 **[!UICONTROL Create schema]** 을(를) 선택합니다. **[!UICONTROL XDM ExperienceEvent]**.
+1. 클릭 **[!UICONTROL 스키마 만들기]** 을(를) 선택합니다. **[!UICONTROL XDM ExperienceEvent]**.
 
    ![](assets/test_push_2.png)
 
-1. **[!UICONTROL Create a new field group]**&#x200B;를 선택합니다.
+1. 선택 **[!UICONTROL 새 필드 그룹 만들기]**.
 
-1. 을(를) 입력합니다. **[!UICONTROL Display Name]** 그리고 **[!UICONTROL Description]**. 구성을 완료하면 **[!UICONTROL Add field groups]** 을(를) 클릭합니다. 필드 그룹을 만드는 방법에 대한 자세한 내용은 [XDM 시스템 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko){target=&quot;_blank&quot;}.
+1. 을(를) 입력합니다. **[!UICONTROL 표시 이름]** 그리고 **[!UICONTROL 설명]**. 클릭 **[!UICONTROL 필드 그룹 추가]** 완료 시. 필드 그룹을 만드는 방법에 대한 자세한 내용은 [XDM 시스템 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko){target=&quot;_blank&quot;}.
 
 
    ![](assets/test_push_4.png)
 
-1. 왼쪽에서 스키마를 선택합니다. 오른쪽 창에서 스키마 이름과 설명을 입력합니다. 다음 기간 동안 이 스키마 활성화 **[!UICONTROL Profile]**.
+1. 왼쪽에서 스키마를 선택합니다. 오른쪽 창에서 스키마 이름과 설명을 입력합니다. 다음 기간 동안 이 스키마 활성화 **[!UICONTROL 프로필]**.
 
    ![](assets/test_push_4b.png)
 
 
-1. 왼쪽에서 필드 그룹을 선택한 다음 + 아이콘을 클릭하여 새 필드를 만듭니다. 에서 **[!UICONTROL Field groups properties]**, 오른쪽에서 **[!UICONTROL Field name]**, **[!UICONTROL Display name]** 을(를) 선택합니다. **[!UICONTROL String]** 로서의 **[!UICONTROL Type]**.
+1. 왼쪽에서 필드 그룹을 선택한 다음 + 아이콘을 클릭하여 새 필드를 만듭니다. 에서 **[!UICONTROL 필드 그룹 속성]**, 오른쪽에서 **[!UICONTROL 필드 이름]**, **[!UICONTROL 표시 이름]** 을(를) 선택합니다. **[!UICONTROL 문자열]** 로서의 **[!UICONTROL 유형]**.
 
    ![](assets/test_push_5.png)
 
-1. 확인 **[!UICONTROL Required]** 을(를) 클릭합니다. **[!UICONTROL Apply]**.
+1. 확인 **[!UICONTROL 필수 여부]** 을(를) 클릭합니다. **[!UICONTROL 적용]**.
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 이제 스키마가 만들어지고 이벤트에서 사용할 수 있습니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이제 스키마가 만들어지고 이벤트에서 사용할 수 있습니다.
 
 그런 다음 이벤트를 설정해야 합니다.
 
-1. 홈 페이지의 왼쪽 메뉴에서 [관리]에서 **[!UICONTROL Configurations]**. 클릭 **[!UICONTROL Manage]** 에서 **[!UICONTROL Events]** 섹션을 클릭하여 새 이벤트를 만듭니다.
+1. 홈 페이지의 왼쪽 메뉴에서 [관리]에서 **[!UICONTROL 구성]**. 클릭 **[!UICONTROL 관리]** 에서 **[!UICONTROL 이벤트]** 섹션을 클릭하여 새 이벤트를 만듭니다.
 
-1. 클릭 **[!UICONTROL Create Event]**&#x200B;이벤트 구성 창이 화면 오른쪽에 열립니다.
+1. 클릭 **[!UICONTROL 이벤트 만들기]**&#x200B;이벤트 구성 창이 화면 오른쪽에 열립니다.
 
    ![](assets/test_push_6.png)
 
 1. 이벤트의 이름을 입력합니다. 설명을 추가할 수도 있습니다.
 
-1. **[!UICONTROL Event ID type]** 필드에서 **[!UICONTROL Rule Based]**&#x200B;을(를) 선택합니다.
+1. 에서 **[!UICONTROL 이벤트 ID 유형]** 필드, 선택 **[!UICONTROL 규칙 기반]**.
 
-1. 에서 **[!UICONTROL Parameters]**&#x200B;앞에서 만든 스키마를 선택합니다.
+1. 에서 **[!UICONTROL 매개 변수]**&#x200B;앞에서 만든 스키마를 선택합니다.
 
    ![](assets/test_push_7.png)
 
@@ -307,7 +309,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_7b.png)
 
-1. 클릭 **[!UICONTROL Edit]** 에서 **[!UICONTROL Event ID condition]** 필드. 이전에 추가한 필드를 끌어다 놓아 여정을 트리거하는 이벤트를 식별하는 데 시스템에서 사용할 조건을 정의합니다.
+1. 클릭 **[!UICONTROL 편집]** 에서 **[!UICONTROL 이벤트 ID 조건]** 필드. 이전에 추가한 필드를 끌어다 놓아 여정을 트리거하는 이벤트를 식별하는 데 시스템에서 사용할 조건을 정의합니다.
 
    ![](assets/test_push_8.png)
 
@@ -315,35 +317,35 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_9.png)
 
-1. 선택 **[!UICONTROL ECID]** 로서의 **[!UICONTROL Namespace]**.
+1. 선택 **[!UICONTROL ECID]** 로서의 **[!UICONTROL 네임스페이스]**.
 
-1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 클릭 **[!UICONTROL 확인]** 그런 다음 **[!UICONTROL 저장]**.
 
 이제 이벤트가 생성되어 이제 여정에서 사용할 수 있습니다.
 
-1. 왼쪽 메뉴에서 **[!UICONTROL Journeys]**.
+1. 왼쪽 메뉴에서 **[!UICONTROL 여정]**.
 
-1. 클릭 **[!UICONTROL Create Journey]** 새 여정을 만들려면
+1. 클릭 **[!UICONTROL 여정 만들기]** 새 여정을 만들려면
 
 1. 오른쪽에 표시되는 구성 창에서 여정의 속성을 편집합니다. 자세한 내용 [섹션](../building-journeys/journey-gs.md#change-properties).
 
-1. 먼저 의 이전 단계에서 만든 이벤트를 끌어서 놓습니다 **[!UICONTROL Events]** 드롭다운.
+1. 먼저 의 이전 단계에서 만든 이벤트를 끌어서 놓습니다 **[!UICONTROL 이벤트]** 드롭다운.
 
    ![](assets/test_push_11.png)
 
-1. 에서 **[!UICONTROL Actions]** 드롭다운, 끌어서 놓기 **[!UICONTROL Push]** 활동을 여정에 추가합니다.
+1. 에서 **[!UICONTROL 작업]** 드롭다운, 끌어서 놓기 **[!UICONTROL 푸시]** 활동을 여정에 추가합니다.
 
 1. 푸시 알림을 구성합니다. 푸시 알림을 만드는 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../messages/get-started-content.md).
 
-1. 을(를) 클릭합니다. **[!UICONTROL Test]** 푸시 알림 테스트를 시작하려면 토글 을 클릭하고 **[!UICONTROL Trigger an event]**.
+1. 을(를) 클릭합니다. **[!UICONTROL 테스트]** 푸시 알림 테스트를 시작하려면 토글 을 클릭하고 **[!UICONTROL 이벤트 트리거]**.
 
    ![](assets/test_push_12.png)
 
-1. 에 ECID를 입력합니다. **[!UICONTROL Key]** 필드 입력 **주문 확인** 두 번째 필드에서 참조할 수 있습니다.
+1. 에 ECID를 입력합니다. **[!UICONTROL 키]** 필드 입력 **주문 확인** 두 번째 필드에서 참조할 수 있습니다.
 
    ![](assets/test_push_13.png)
 
-1. **[!UICONTROL Send]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 보내기]**&#x200B;를 클릭합니다.
 
 이벤트가 트리거되고 모바일 앱에 대한 푸시 알림을 받게 됩니다.
 

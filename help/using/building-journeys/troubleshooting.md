@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 여정 문제 해결
 description: 여정의 오류를 해결하는 방법 알아보기
 feature: Journeys
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 81%
+source-wordcount: '1027'
+ht-degree: 74%
 
 ---
 
@@ -29,17 +31,17 @@ ht-degree: 81%
 
 ![](assets/canvas-disconnected.png)
 
-**[!UICONTROL Test]** 토글 및 **[!UICONTROL Publish]** 버튼 옆에 경고 기호가 표시될 수 있습니다. 이 경고 표시는 시스템에서 감지된 오류를 표시하며 테스트 모드가 활성화되거나 여정이 게시되는 것을 방지합니다. 대부분의 경우 시스템에서 감지된 오류는 활동에서 확인할 수 있는 오류와 연결되어 있지만, 때로는 다른 문제와 연결되어 있습니다. 그럴 경우에는 오류를 표시하고 오류 설명을 통해 문제를 파악할 수 있습니다. 문제를 파악할 수 없는 경우 세부 정보를 복사하여 관리자나 지원 팀에 보낼 수 있습니다. 테스트를 차단하는 오류와 게시를 차단하는 오류는 비슷합니다.
+다음 **[!UICONTROL 테스트]** 토글 및 **[!UICONTROL 게시]** 버튼을 클릭하면 경고 기호가 표시될 수 있습니다. 이 경고 표시는 시스템에서 감지된 오류를 표시하며 테스트 모드가 활성화되거나 여정이 게시되는 것을 방지합니다. 대부분의 경우 시스템에서 감지된 오류는 활동에서 확인할 수 있는 오류와 연결되어 있지만, 때로는 다른 문제와 연결되어 있습니다. 그럴 경우에는 오류를 표시하고 오류 설명을 통해 문제를 파악할 수 있습니다. 문제를 파악할 수 없는 경우 세부 정보를 복사하여 관리자나 지원 팀에 보낼 수 있습니다. 테스트를 차단하는 오류와 게시를 차단하는 오류는 비슷합니다.
 
 시스템에서는 오류와 경고의 두 가지 문제를 감지합니다. 오류는 게시 및 테스트 활성화를 차단합니다. 경고는 테스트 활성화 또는 게시를 차단하지 않는 잠재적인 문제를 나타냅니다. 문제에 대한 설명 그리고 ERR_XXX_XXX 유형의 문제 로그 ID가 표시됩니다. 이 정보는 기술 지원 팀에서 문제를 파악하는 데 도움이 됩니다.
 
-**[!UICONTROL Test]** 토글 및 **[!UICONTROL Publish]** 버튼 옆의 기호에 두 가지 색상이 표시될 수 있습니다. 오류의 경우 기호가 빨간색으로 표시됩니다. 경고의 경우 주황색으로 표시됩니다.
+다음 옆의 기호에 두 가지 색상이 표시될 수 있습니다 **[!UICONTROL 테스트]** 토글 및 **[!UICONTROL 게시]** 버튼을 클릭합니다. 오류의 경우 기호가 빨간색으로 표시됩니다. 경고의 경우 주황색으로 표시됩니다.
 
 ![](assets/journey75.png)
 
-여정에서 전체적으로 발생하는 오류와 경고가 목록에 먼저 나타납니다. 특정 활동과 관련된 오류와 경고는 그 뒤에 활동 순서별로 또는 여정 내 등장 순서별로 왼쪽에서 오른쪽으로 나열됩니다. **[!UICONTROL Copy details]** 버튼은 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정 관련 기술 정보를 복사합니다.
+여정에서 전체적으로 발생하는 오류와 경고가 목록에 먼저 나타납니다. 특정 활동과 관련된 오류와 경고는 그 뒤에 활동 순서별로 또는 여정 내 등장 순서별로 왼쪽에서 오른쪽으로 나열됩니다. 다음 **[!UICONTROL 세부 정보 복사]** 버튼은 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정에 대한 기술 정보를 복사합니다.
 
-작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 상자를 선택하는 것입니다 . [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
+작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 상자를 선택하는 것입니다 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로 추가]**. [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 
 ## 이벤트가 제대로 전송되었는지 확인{#checking-that-events-are-properly-sent}
 

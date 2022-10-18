@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 메시지 미리 보기 및 증명 보내기
 description: 메시지를 미리 보고 테스트하는 방법을 알아봅니다
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -53,11 +55,11 @@ ht-degree: 0%
 
 테스트 프로필을 선택하려면 아래 단계를 수행하십시오.
 
-1. 메시지 인터페이스 또는 이메일 디자이너에서 **[!UICONTROL Simulate Content]** 테스트 프로필 선택에 액세스하는 단추입니다.
+1. 메시지 인터페이스 또는 이메일 디자이너에서 **[!UICONTROL 컨텐츠 시뮬레이션]** 테스트 프로필 선택에 액세스하는 단추입니다.
 
    ![](assets/email-preview-button.png)
 
-1. 을(를) 클릭하여 테스트 프로필을 식별하는 데 사용할 네임스페이스를 선택합니다 **[!UICONTROL Identity namespace]** 선택 아이콘.
+1. 을(를) 클릭하여 테스트 프로필을 식별하는 데 사용할 네임스페이스를 선택합니다 **[!UICONTROL ID 네임스페이스]** 선택 아이콘.
 
    ![](assets/previewselect-namespace.png)
 
@@ -65,11 +67,11 @@ ht-degree: 0%
 
    아래 예에서는 **이메일** 네임스페이스.
 
-1. 검색 필드를 사용하여 네임스페이스를 찾아 선택하고 을(를) 클릭합니다 **[!UICONTROL Select]**
+1. 검색 필드를 사용하여 네임스페이스를 찾아 선택하고 을(를) 클릭합니다 **[!UICONTROL 선택]**
 
    ![](assets/preview-email-namespace.png)
 
-1. 테스트 프로필을 식별할 값을 입력하고 **[!UICONTROL Add profile]**.
+1. 테스트 프로필을 식별할 값을 입력하고 **[!UICONTROL 프로필 추가]**.
 
    ![](assets/preview-identity-value.png)
 
@@ -87,13 +89,13 @@ ht-degree: 0%
 
 이메일 콘텐츠를 미리 보려면 아래 단계를 수행하십시오.
 
-1. 을(를) 클릭합니다. **[!UICONTROL Simulate content]** 이메일 콘텐츠 위에 있는 단추.
+1. 을(를) 클릭합니다. **[!UICONTROL 컨텐츠 시뮬레이션]** 이메일 콘텐츠 위에 있는 단추.
 
 1. 테스트 프로필을 선택합니다. 열에서 사용할 수 있는 값을 확인할 수 있습니다. 데이터를 검색하려면 오른쪽/왼쪽 화살표를 사용합니다.
 
    ![](assets/preview-tab-select-profile.png)
 
-1. 을(를) 클릭합니다. **[!UICONTROL Select data]** 아이콘 위로 클릭하여 열을 추가하거나 제거합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL 데이터 선택]** 아이콘 위로 클릭하여 열을 추가하거나 제거합니다.
 
    ![](assets/preview-select-data.png)
 
@@ -111,11 +113,11 @@ ht-degree: 0%
 
 푸시 알림 콘텐츠를 미리 보려면 아래 단계를 수행하십시오.
 
-1. 을(를) 클릭합니다. **[!UICONTROL Simulate content]** 푸시 콘텐츠 위에 있는 단추.
+1. 을(를) 클릭합니다. **[!UICONTROL 컨텐츠 시뮬레이션]** 푸시 콘텐츠 위에 있는 단추.
 
 1. 테스트 프로필을 선택합니다. 열에서 사용할 수 있는 값을 확인할 수 있습니다. 데이터를 검색하려면 오른쪽/왼쪽 화살표를 사용합니다.
 
-1. 로 전환 **[!UICONTROL Push]** 메시지를 표시합니다.
+1. 로 전환 **[!UICONTROL 푸시]** 메시지를 표시합니다.
 
 1. 위에 설명된 것과 동일한 단계를 적용하여 테스트 프로필을 선택하고 컨텐츠를 미리 볼 장치 유형을 선택합니다. **[!UICONTROL iOS]** 또는 **[!UICONTROL Android]**.
 
@@ -133,11 +135,11 @@ ht-degree: 0%
 
 한 번 [테스트 프로필](#select-test-profiles) 을(를) 선택하면 증명을 보낼 수 있습니다.
 
-1. 에서 **[!UICONTROL Preview]** 화면에서 **[!UICONTROL Send proof]** 버튼을 클릭합니다.
+1. 에서 **[!UICONTROL 미리 보기]** 화면에서 **[!UICONTROL 증명 보내기]** 버튼을 클릭합니다.
 
    ![](assets/send-proof-button.png)
 
-1. 에서 **[!UICONTROL Send proof]** 창을 열고 수신자 전자 메일을 입력하고 **[!UICONTROL Add]** 본인 또는 조직의 구성원에게 증명을 전송하기 위해
+1. 에서 **[!UICONTROL 증명 보내기]** 창을 열고 수신자 전자 메일을 입력하고 **[!UICONTROL 추가]** 본인 또는 조직의 구성원에게 증명을 전송하기 위해
 
    증명 전달을 위해 최대 10명의 수신자를 추가할 수 있습니다.
 
@@ -149,11 +151,11 @@ ht-degree: 0%
 
 1. 필요한 경우 증명의 제목란에 접두사를 추가할 수 있습니다. 영숫자 문자 및 특수 문자(예: . - _ ( ) 만 사용할 수 있습니다. [ ]는 제목란에 접두사로 사용할 수 있습니다.
 
-1. **[!UICONTROL Send proof]**&#x200B;을(를) 클릭합니다.
+1. 클릭 **[!UICONTROL 증명 보내기]**.
 
    ![](assets/send-proof-select.png)
 
-1. 다시  **[!UICONTROL Preview]** 화면에서  **[!UICONTROL View proofs]** 상태를 확인하는 단추입니다.
+1. 다시  **[!UICONTROL 미리 보기]** 화면에서  **[!UICONTROL 증명 보기]** 상태를 확인하는 단추입니다.
 
    ![](assets/send-proof-view.png)
 
@@ -174,7 +176,7 @@ ht-degree: 0%
 
 그런 다음 아래 단계를 수행합니다.
 
-1. 이메일 디자이너에서 **[!UICONTROL Preview]** 버튼을 클릭하고 **[!UICONTROL Email rendering]** 탭.
+1. 이메일 디자이너에서 **[!UICONTROL 미리 보기]** 버튼을 클릭하고 **[!UICONTROL 전자 메일 렌더링]** 탭.
 
 1. 클릭 **리트머스 계정 연결** 오른쪽 상단입니다.
 

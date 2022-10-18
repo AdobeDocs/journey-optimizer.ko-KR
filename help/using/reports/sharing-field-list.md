@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 단계 이벤트 필드 목록
 description: 단계 이벤트 필드 목록
 feature: Reporting
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 16%
@@ -38,7 +40,7 @@ ht-degree: 16%
 | VersionID | 문자열 | 여정 버전의 ID입니다. 이 ID는 여정의 ID를 나타냅니다 |
 | 이름 | 문자열 | 여정 이름 |
 | 설명 | 문자열 | 여정 설명 |
-| version | 문자열 | 버전, 다음으로 표시됨 `major`.`minor` |
+| 버전 | 문자열 | 버전, 다음으로 표시됨 `major`.`minor` |
 
 ## 프로필 {#profile-field}
 

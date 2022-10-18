@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 여정 버전
 description: 여정 버전에 대해 알아보기
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '294'
 ht-degree: 3%
 
 ---
@@ -31,7 +33,7 @@ ht-degree: 3%
 >
 >여정 버전에 대한 자세한 내용은 보호 및 제한 사항을 참조하십시오 [이 페이지](../start/guardrails.md#journey-versions-limitations)
 
-1. 라이브 여정의 최신 버전을 열고 **[!UICONTROL Create a new version]** 확인
+1. 라이브 여정의 최신 버전을 열고 **[!UICONTROL 새 버전 만들기]** 확인
 
    ![](assets/journeyversions2.png)
 
@@ -39,7 +41,7 @@ ht-degree: 3%
    >
    >최신 버전의 여정에서는 새 버전만 만들 수 있습니다.
 
-1. 수정한 후 **[!UICONTROL Publish]** 확인
+1. 수정한 후 **[!UICONTROL 게시]** 확인
 
    ![](assets/journeyversions3.png)
 

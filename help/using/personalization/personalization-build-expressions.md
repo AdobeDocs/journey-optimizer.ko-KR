@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 표현식 편집기 정보
 description: 표현식 편집기를 사용하는 방법을 알아봅니다.
 feature: Personalization
@@ -6,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '350'
 ht-degree: 9%
 
 ---
@@ -32,11 +34,11 @@ ht-degree: 9%
 
 사용 가능한 소스는 다음과 같습니다.
 
-* **[!UICONTROL Profile attributes]** : 에 설명된 프로필 스키마와 연결된 모든 참조를 나열합니다. [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
-* **[!UICONTROL Segment memberships]** : Adobe Experience Platform 세그멘테이션 서비스에서 만든 모든 세그먼트를 나열합니다. 세그먼테이션에 대한 자세한 내용을 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
-* **[!UICONTROL Offer decisions]** : 특정 배치에 연결된 모든 오퍼를 나열합니다. 배치를 선택한 다음 컨텐츠에 오퍼를 삽입합니다. 오퍼를 관리하는 방법에 대한 전체 설명서는 [이 섹션](../design/deliver-personalized-offers.md).
-* **[!UICONTROL Contextual attributes]** : 여정에서 채널 작업 활동(이메일, 푸시, SMS)을 사용하는 경우, 이 메뉴를 통해 컨텍스트 여정 필드를 사용할 수 있습니다. 자세한 내용은 [이 섹션](personalization-use-case.md)을 참조하십시오.
-* **[!UICONTROL Helper functions]** : 계산, 데이터 형식 지정 또는 전환, 조건 등과 같이 데이터에 대한 작업을 수행하고 개인화 컨텍스트에서 조작하는 데 사용할 수 있는 모든 도우미 함수를 나열합니다. 자세한 내용은 [이 섹션](functions/functions.md)을 참조하십시오.
+* **[!UICONTROL 프로필 속성]** : 에 설명된 프로필 스키마와 연결된 모든 참조를 나열합니다. [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
+* **[!UICONTROL 세그먼트 멤버십]** : Adobe Experience Platform 세그멘테이션 서비스에서 만든 모든 세그먼트를 나열합니다. 세그먼테이션에 대한 자세한 내용을 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
+* **[!UICONTROL 오퍼 결정]** : 특정 배치에 연결된 모든 오퍼를 나열합니다. 배치를 선택한 다음 컨텐츠에 오퍼를 삽입합니다. 오퍼를 관리하는 방법에 대한 전체 설명서는 [이 섹션](../design/deliver-personalized-offers.md).
+* **[!UICONTROL 상황별 특성]** : 여정에서 채널 작업 활동(이메일, 푸시, SMS)을 사용하는 경우, 이 메뉴를 통해 컨텍스트 여정 필드를 사용할 수 있습니다. 자세한 내용은 [이 섹션](personalization-use-case.md)을 참조하십시오.
+* **[!UICONTROL 도우미 함수]** : 계산, 데이터 형식 지정 또는 전환, 조건 등과 같이 데이터에 대한 작업을 수행하고 개인화 컨텍스트에서 조작하는 데 사용할 수 있는 모든 도우미 함수를 나열합니다. 자세한 내용은 [이 섹션](functions/functions.md)을 참조하십시오.
 
 + 단추를 클릭하여 속성에 편집기를 추가합니다.
 

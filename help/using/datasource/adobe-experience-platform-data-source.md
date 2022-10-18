@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Adobe Experience Platform 데이터 소스
 description: Adobe Experience Platform 데이터 소스를 구성하는 방법 알아보기
 feature: Data Sources
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '430'
 ht-degree: 10%
 
 ---
@@ -38,12 +40,12 @@ Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비�
 
    ![](assets/journey23.png)
 
-1. 클릭 **[!UICONTROL Add a New Field Group]** 검색할 일련의 새 필드를 정의합니다. [이 페이지](../datasource/configure-data-sources.md#define-field-groups)를 참조하십시오.
+1. 클릭 **[!UICONTROL 새 필드 그룹 추가]** 검색할 일련의 새 필드를 정의합니다. [이 페이지](../datasource/configure-data-sources.md#define-field-groups)를 참조하십시오.
 
    ![](assets/journey24.png)
 
-1. 에서 스키마 선택 **[!UICONTROL Schema]** 드롭다운. 이 필드에는 Adobe Experience Platform에서 사용할 수 있는 프로필 및 경험 이벤트 스키마가 나열됩니다. 스키마 만들기는 다음에서 수행되지 않습니다 [!DNL Journey Optimizer]. Adobe Experience Platform에서 공연되었습니다.
+1. 에서 스키마 선택 **[!UICONTROL 스키마]** 드롭다운. 이 필드에는 Adobe Experience Platform에서 사용할 수 있는 프로필 및 경험 이벤트 스키마가 나열됩니다. 스키마 만들기는 다음에서 수행되지 않습니다 [!DNL Journey Optimizer]. Adobe Experience Platform에서 공연되었습니다.
 1. 사용할 필드를 선택합니다.
-1. 클릭 **[!UICONTROL Save]**.
+1. 클릭 **[!UICONTROL 저장]**.
 
-필드 그룹 이름에 커서를 놓으면 오른쪽에 두 개의 아이콘이 표시됩니다. 필드 그룹을 삭제하고 복제할 수 있습니다. 다음 사항에 유의하십시오. **[!UICONTROL Delete]** 아이콘 은 필드 그룹이 라이브 또는 초안 여정에서 사용되지 않는 경우에만 사용할 수 있습니다(정보에 표시) **[!UICONTROL Used in]** 필드)만 로드하는 것입니다.
+필드 그룹 이름에 커서를 놓으면 오른쪽에 두 개의 아이콘이 표시됩니다. 필드 그룹을 삭제하고 복제할 수 있습니다. 다음 사항에 유의하십시오. **[!UICONTROL 삭제]** 아이콘 은 필드 그룹이 라이브 또는 초안 여정에서 사용되지 않는 경우에만 사용할 수 있습니다(정보에 표시) **[!UICONTROL 에 사용됨]** 필드)만 로드하는 것입니다.

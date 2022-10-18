@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 프로필 업데이트
 description: 여정에서 프로필 업데이트 활동을 사용하는 방법을 알아봅니다
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -20,9 +22,9 @@ ht-degree: 0%
 >title="프로필 활동 업데이트"
 >abstract="프로필 업데이트 작업 활동을 사용하면 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다."
 
-를 사용하십시오 **[!UICONTROL Update Profile]** 작업 활동을 통해 이벤트, 데이터 소스 또는 특정 값으로 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다.
+를 사용하십시오 **[!UICONTROL 프로필 업데이트]** 작업 활동을 통해 이벤트, 데이터 소스 또는 특정 값으로 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다.
 
-## 추천 항목
+## 권장 사항
 
 * 다음 **프로필 업데이트** 작업은 네임스페이스가 있는 이벤트로 시작하는 여정에서만 사용할 수 있습니다.
 * 작업은 기존 필드만 업데이트하며 새 프로필 필드를 만들지 않습니다.

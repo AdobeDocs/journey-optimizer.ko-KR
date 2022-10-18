@@ -1,19 +1,21 @@
 ---
-title: 동적 콘텐츠 시작
+solution: Journey Optimizer
+product: journey optimizer
+title: 다이내믹 콘텐츠 시작
 description: 다이내믹 컨텐츠에 대해 자세히 알아보기
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: e98bde090129ad1c32662719911ec6a3e68f69d6
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# 동적 콘텐츠 시작 {#start-dynamic-content}
+# 다이내믹 콘텐츠 시작 {#start-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"

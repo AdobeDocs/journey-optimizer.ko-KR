@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 저장된 표현식으로 작업하기
 description: 에서 저장된 표현식을 사용하여 작업하는 방법을 알아봅니다 [!DNL Journey Optimizer] 라이브러리.
 feature: Personalization
@@ -6,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '354'
 ht-degree: 8%
 
 ---
@@ -24,7 +26,7 @@ ht-degree: 8%
 
 ➡️ [이 비디오에서 저장된 표현식을 사용하여 작업하는 방법을 알아봅니다](#video-preview)
 
-저장된 표현식에 액세스하려면 **[!UICONTROL Library]** 왼쪽 창에 있는 단추. 이 목록에는 관리자 사용자가 저장한 모든 표현식이 표시됩니다( [라이브러리에 표현식 저장](#save-expressions)).
+저장된 표현식에 액세스하려면 **[!UICONTROL 라이브러리]** 왼쪽 창에 있는 단추. 이 목록에는 관리자 사용자가 저장한 모든 표현식이 표시됩니다( [라이브러리에 표현식 저장](#save-expressions)).
 
 >[!NOTE]
 >
@@ -42,7 +44,7 @@ ht-degree: 8%
 
 표현식을 라이브러리에 저장하려면 다음 단계를 수행합니다.
 
-1. 편집기 인터페이스에서 표현식을 작성한 다음 **[!UICONTROL Add to library]**.
+1. 편집기 인터페이스에서 표현식을 작성한 다음 **[!UICONTROL 라이브러리에 추가]**.
 
    >[!NOTE]
    >
@@ -50,7 +52,7 @@ ht-degree: 8%
 
    ![](assets/library-save.png)
 
-1. 오른쪽 창에서 사용자가 쉽게 찾을 수 있도록 표현식의 제목과 설명을 입력한 다음 을 클릭합니다 **[!UICONTROL Add]**.
+1. 오른쪽 창에서 사용자가 쉽게 찾을 수 있도록 표현식의 제목과 설명을 입력한 다음 을 클릭합니다 **[!UICONTROL 추가]**.
 
    ![](assets/add-expression.png)
 
@@ -65,9 +67,9 @@ ht-degree: 8%
 
 
 
-기존 표현식을 편집하려면 편집기에 추가한 다음 필요에 따라 수정합니다. 클릭 **[!UICONTROL Add to library]** 구문의 유효성을 검사하고 표현식을 저장하려면
+기존 표현식을 편집하려면 편집기에 추가한 다음 필요에 따라 수정합니다. 클릭 **[!UICONTROL 라이브러리에 추가]** 구문의 유효성을 검사하고 표현식을 저장하려면
 
-표현식을 삭제하려면 타원 버튼을 클릭한 다음 **[!UICONTROL Delete]**.
+표현식을 삭제하려면 타원 버튼을 클릭한 다음 **[!UICONTROL 삭제]**.
 
 ## 방법 비디오{#video}
 

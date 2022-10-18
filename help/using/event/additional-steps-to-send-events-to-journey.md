@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 여정에 이벤트를 전송하는 추가 단계
 description: 여정에 이벤트를 전송하는 추가 단계를 배웁니다.
 feature: Events
@@ -6,19 +8,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 03a5741e4f79f6a551eed64364e3a9d36e6473dc
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '297'
 ht-degree: 5%
 
 ---
 
 # 이벤트를 보내는 추가적인 단계 {#additional-steps-to-send-events}
 
-보낼 이벤트를 구성하려면 **[!UICONTROL Streaming Ingestion APIs]** 및에 사용 [!DNL Journey Optimizer]를 채울 때는 다음 단계를 수행해야 합니다.
+보낼 이벤트를 구성하려면 **[!UICONTROL 스트리밍 수집 API]** 및에 사용 [!DNL Journey Optimizer]를 채울 때는 다음 단계를 수행해야 합니다.
 
 1. Adobe Experience Platform API에서 인렛 URL을 가져옵니다. 추가 정보 [스트리밍 수집 API 개요](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko){target=&quot;_blank&quot;}.
-1. 의 페이로드 미리 보기에서 페이로드를 복사합니다. **[!UICONTROL Event]** 메뉴 아래의 제품에서 사용할 수 있습니다. [이 페이지](../event/about-creating.md#define-the-payload-fields)에서 자세히 알아보십시오.
+1. 의 페이로드 미리 보기에서 페이로드를 복사합니다. **[!UICONTROL 이벤트]** 메뉴 아래의 제품에서 사용할 수 있습니다. [이 페이지](../event/about-creating.md#define-the-payload-fields)에서 자세히 알아보십시오.
 
 그런 다음 복사한 페이로드를 사용하여 이벤트를 스트리밍 수집 API로 푸시하는 데이터 시스템을 구성해야 합니다.
 

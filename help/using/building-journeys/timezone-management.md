@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 시간대 관리
 description: 시간대 관리에 대해 알아보기
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -39,7 +41,7 @@ ht-degree: 2%
 
 시간대를 수정할 수도 있습니다. 사전 정의된 시간대를 지우고 드롭다운 목록에서 시간대를 선택합니다. 고정 시간대를 사용하는 경우 여정을 입력하는 모든 개인에게도 이 시간대가 동일합니다.
 
-이렇게 하려면 **[!UICONTROL Journey Properties]** 창에서 시간대를 선택합니다.
+이렇게 하려면 **[!UICONTROL 여정 속성]** 창에서 시간대를 선택합니다.
 
 ![](assets/journey72.png)
 

@@ -1,13 +1,15 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 권한 수준
 description: 높은 권한 및 낮은 수준에 대해 알아보기
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -19,7 +21,7 @@ ht-degree: 0%
 각 제품 프로필은 사용자가 다른 기능에 액세스할 수 있는 권한으로 구성되어 있습니다.
 두 가지 유형으로 나눌 수 있습니다.
 
-* **높은 수준의 권한**: 에는 지정할 수 있는 다양한 권한을 나타냅니다 **[!UICONTROL Product profile]** 에서 [!DNL Admin console], 예 **[!DNL Publish journeys]** 및 **[!DNL Manage subdomains delegation]**. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다.
+* **높은 수준의 권한**: 에는 지정할 수 있는 다양한 권한을 나타냅니다 **[!UICONTROL 제품 프로필]** 에서 [!DNL Admin console], 예 **[!DNL Publish journeys]** 및 **[!DNL Manage subdomains delegation]**. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다.
 
 * **낮은 수준 권한**: 는 높은 수준 권한이 있는 다른 권한을 나타냅니다.
 

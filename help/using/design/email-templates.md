@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 이메일 템플릿 작업
 description: 이메일 콘텐츠를 템플릿으로 저장하고 Journey Optimizer에서 다시 사용하는 방법을 알아봅니다
 feature: Overview
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 5%

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 이메일 콘텐츠 가져오기
 description: 이메일 콘텐츠를 가져오는 방법을 알아봅니다
 feature: Overview
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 22%
 
 ---
@@ -26,7 +28,7 @@ Journey Optimizer을 사용하면 기존 HTML 콘텐츠를 가져와서 전자 �
 
 HTML 컨텐츠가 포함된 파일을 가져오려면 아래 단계를 수행하십시오.
 
-1. 이메일 디자이너 홈페이지에서 **[!UICONTROL Import HTML]**.
+1. 이메일 디자이너 홈페이지에서 **[!UICONTROL 가져오기 HTML]**.
 
    ![](assets/import-html_2.png)
 

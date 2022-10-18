@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 실험을 위한 Journey Optimizer 보고 구성
 description: 보고 데이터 소스를 설정하는 방법 알아보기
 feature: Data Sources
@@ -8,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 16c156d715a6b39652191909ca88f90e7f971706
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '727'
+ht-degree: 29%
 
 ---
 

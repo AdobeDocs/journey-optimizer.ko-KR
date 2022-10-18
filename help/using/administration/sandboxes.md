@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 샌드박스 관리
 description: 샌드박스를 관리하는 방법 알아보기
 feature: Sandboxes
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 64%
+source-wordcount: '390'
+ht-degree: 53%
 
 ---
 
@@ -33,37 +35,37 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 
 >[!IMPORTANT]
 >
-> 샌드박스 관리는 **[!UICONTROL Product]** 또는 **[!UICONTROL System]** 관리자 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}.
+> 샌드박스 관리는 **[!UICONTROL 제품]** 또는 **[!UICONTROL 시스템]** 관리자 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}.
 
-기본 제공 또는 사용자 지정에 다른 샌드박스를 할당하도록 선택할 수 있습니다 **[!UICONTROL Product profiles]**.
+기본 제공 또는 사용자 지정에 다른 샌드박스를 할당하도록 선택할 수 있습니다 **[!UICONTROL 제품 프로필]**.
 
 샌드박스를 할당하려면
 
-1. 에서 [!DNL Admin Console]: **[!UICONTROL Products]** 탭에서 을 선택합니다 **[!UICONTROL Adobe Experience Platform Apps]** 제품.
+1. 에서 [!DNL Admin Console]: **[!UICONTROL 제품]** 탭에서 을 선택합니다 **[!UICONTROL Adobe Experience Platform 앱]** 제품.
 
-1. **[!UICONTROL Product profile]**&#x200B;을(를) 선택합니다. 
+1. 선택 **[!UICONTROL 제품 프로필]**.
 
    ![](assets/sandbox_1.png)
 
-1. **[!UICONTROL Permissions]** 탭을 선택합니다. 
+1. 을(를) 선택합니다 **[!UICONTROL 권한]** 탭.
 
-1. 을(를) 선택합니다 **[!UICONTROL Sandboxes]** 기능.
+1. 을(를) 선택합니다 **[!UICONTROL 샌드박스]** 기능.
 
    ![](assets/sandbox_2.png)
 
-1. **[!UICONTROL Available Permissions Items]** 아래에서 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko){target=&quot;_blank&quot;}.
+1. 아래 **[!UICONTROL 사용 가능한 권한 항목]**&#x200B;를 클릭하고 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko){target=&quot;_blank&quot;}.
 
    ![](assets/sandbox_3.png)
 
-1. 필요한 경우 아래의 **[!UICONTROL Included Permission Items]**&#x200B;아래에 있는 샌드박스를 제거하려면 옆에 X 아이콘을 클릭하십시오 **[!UICONTROL Product profile]**.
+1. 필요한 경우 아래의 **[!UICONTROL 포함된 권한 항목]**&#x200B;아래에 있는 샌드박스를 제거하려면 옆에 X 아이콘을 클릭하십시오 **[!UICONTROL 제품 프로필]**.
 
    ![](assets/sandbox_4.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 콘텐츠 액세스 {#content-access}
 
-콘텐츠 액세스 가능성을 구성하려면 각 샌드박스에 콘텐츠 공유 폴더를 할당해야 합니다. 관리자용 [!DNL Admin Console]에 표시된 **[!UICONTROL Storage]** 탭에서 공유 폴더를 만들고 구성할 수 있습니다. 시스템 관리자로서 [!DNL Admin Console]에 액세스할 수 있는 경우 공유 폴더를 만들고 다른 액세스 수준의 위임자를 공유 폴더에 추가할 수 있습니다.
+콘텐츠 액세스 가능성을 구성하려면 각 샌드박스에 콘텐츠 공유 폴더를 할당해야 합니다. 에서 공유 폴더를 만들고 구성할 수 있습니다 **[!UICONTROL 스토리지]** 탭에 표시됨 [!DNL Admin Console] 관리자용. 시스템 관리자로서 [!DNL Admin Console]에 액세스할 수 있는 경우 공유 폴더를 만들고 다른 액세스 수준의 위임자를 공유 폴더에 추가할 수 있습니다.
 
 ![](assets/do-not-localize/content_access.png)
 

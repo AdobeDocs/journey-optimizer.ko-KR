@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 캠페인 만들기
 description: 에서 캠페인을 만드는 방법을 알아봅니다 [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6b77133cb0b0e8d91cc9012d5b338628846c08b3
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 9%

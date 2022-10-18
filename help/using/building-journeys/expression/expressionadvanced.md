@@ -1,15 +1,16 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: 고급 표현식 편집기
 description: 고급 표현식을 작성하는 방법에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 83%
+source-wordcount: '605'
+ht-degree: 69%
 
 ---
 
@@ -35,7 +36,7 @@ _고급 표현식 편집기 인터페이스_
 * 사용자 지정 [대기 활동](../wait-activity.md#custom) 정의
 * 작업 매개 변수 매핑 정의
 
-가능한 경우 **[!UICONTROL Advanced mode]** / **[!UICONTROL Simple mode]** 버튼을 사용하여 두 모드 간을 전환할 수 있습니다. 단순 모드는 [여기](../condition-activity.md#about_condition)에 설명되어 있습니다.
+가능한 경우 **[!UICONTROL 고급 모드]** / **[!UICONTROL 단순 모드]** 버튼을 클릭합니다. 단순 모드는 [여기](../condition-activity.md#about_condition)에 설명되어 있습니다.
 
 >[!NOTE]
 >
@@ -47,12 +48,12 @@ _고급 표현식 편집기 인터페이스_
 
 다양한 방법으로 고급 표현식 편집기에 액세스할 수 있습니다.
 
-* 데이터 소스 조건을 만들 때 **[!UICONTROL Advanced mode]** 아이콘을 클릭하여 고급 편집기에 액세스할 수 있습니다.
+* 데이터 소스 조건을 만들 때 아이콘을 클릭하여 고급 편집기에 액세스할 수 있습니다 **[!UICONTROL 고급 모드]**.
 
    ![](../assets/journeyuc2_33.png)
 
 * 사용자 지정 타이머를 만들 때 고급 편집기가 바로 나타납니다.
-* 작업 매개 변수를 매핑할 때 **[!UICONTROL Advanced mode]**&#x200B;를 클릭합니다.
+* 작업 매개 변수를 매핑할 때 를 클릭합니다 **[!UICONTROL 고급 모드]**.
 
 ## 인터페이스 살펴보기{#discovering-the-interface}
 
@@ -62,11 +63,11 @@ _고급 표현식 편집기 인터페이스_
 
 화면 왼쪽에 사용 가능한 필드와 함수가 표시됩니다.
 
-* **[!UICONTROL Events]**: 인바운드 이벤트에서 받은 필드 중 하나를 선택합니다. 상황에 맞는 이벤트 필드 목록이 표시되며, 이 목록은 여정에 추가된 이벤트에 따라 달라집니다. [자세히 보기](../../event/about-events.md)
-* **[!UICONTROL Segments]**: 만약 **[!UICONTROL Segment qualification]** 이벤트에서 표현식에 사용할 세그먼트를 선택합니다. [자세히 보기](../condition-activity.md#using-a-segment)
-* **[!UICONTROL Data Sources]**: 데이터 소스의 필드 그룹에서 사용 가능한 필드 목록 중에서 선택합니다. [자세히 보기](../../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**: 이 섹션은 지정된 프로필의 여정과 관련된 기술 필드를 다시 그룹화합니다. [자세히 보기](journey-properties.md)
-* **[!UICONTROL Functions]**: 복잡한 필터링을 수행할 수 있는 기본 함수 목록 중에서 선택합니다. 함수는 카테고리별로 구성됩니다. [자세히 보기](functions.md)
+* **[!UICONTROL 이벤트]**: 인바운드 이벤트에서 받은 필드 중 하나를 선택합니다. 상황에 맞는 이벤트 필드 목록이 표시되며, 이 목록은 여정에 추가된 이벤트에 따라 달라집니다. [자세히 보기](../../event/about-events.md)
+* **[!UICONTROL 세그먼트]**: 만약 **[!UICONTROL 세그먼트 자격]** 이벤트에서 표현식에 사용할 세그먼트를 선택합니다. [자세히 보기](../condition-activity.md#using-a-segment)
+* **[!UICONTROL 데이터 소스]**: 데이터 소스의 필드 그룹에서 사용 가능한 필드 목록 중에서 선택합니다. [자세히 보기](../../datasource/about-data-sources.md)
+* **[!UICONTROL 여정 속성]**: 이 섹션은 지정된 프로필의 여정과 관련된 기술 필드를 다시 그룹화합니다. [자세히 보기](journey-properties.md)
+* **[!UICONTROL 함수]**: 복잡한 필터링을 수행할 수 있는 기본 함수 목록 중에서 선택합니다. 함수는 카테고리별로 구성됩니다. [자세히 보기](functions.md)
 
 ![](../assets/journey65.png)
 

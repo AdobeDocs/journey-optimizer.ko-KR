@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 단일 이벤트 구성
 description: 단일 이벤트 구성 방법 알아보기
 feature: Events
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 13%
+source-wordcount: '1527'
+ht-degree: 11%
 
 ---
 
@@ -24,11 +26,11 @@ ht-degree: 13%
 
 새 이벤트를 구성하는 첫 번째 단계는 다음과 같습니다.
 
-1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]**. 에서  **[!UICONTROL Events]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 그러면 이벤트 목록이 표시됩니다.
+1. 관리 메뉴 섹션에서 **[!UICONTROL 구성]**. 에서  **[!UICONTROL 이벤트]** 섹션을 클릭합니다. **[!UICONTROL 관리]**. 그러면 이벤트 목록이 표시됩니다.
 
    ![](assets/jo-event1.png)
 
-1. 새 이벤트를 만들려면 **[!UICONTROL Create Event]**&#x200B;를 클릭합니다. 그러면 화면 오른쪽에 이벤트 구성 창이 열립니다.
+1. 클릭 **[!UICONTROL 이벤트 만들기]** 새 이벤트를 만들려면 그러면 화면 오른쪽에 이벤트 구성 창이 열립니다.
 
    ![](assets/jo-event2.png)
 
@@ -40,15 +42,15 @@ ht-degree: 13%
    >
    >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
 
-1. 에서 **[!UICONTROL Type]** 필드, 선택 **단일**.
+1. 에서 **[!UICONTROL 유형]** 필드, 선택 **단일**.
 
    ![](assets/jo-event3bis.png)
 
-1. 에서 **[!UICONTROL Event ID type]** 필드에서 사용할 이벤트 ID 유형을 선택합니다. **규칙 기반** 또는 **시스템 생성**. 의 이벤트 ID 유형에 대해 자세히 알아보십시오 [이 섹션](../event/about-events.md#event-id-type).
+1. 에서 **[!UICONTROL 이벤트 ID 유형]** 필드에서 사용할 이벤트 ID 유형을 선택합니다. **규칙 기반** 또는 **시스템 생성**. 의 이벤트 ID 유형에 대해 자세히 알아보십시오 [이 섹션](../event/about-events.md#event-id-type).
 
    ![](assets/jo-event4.png)
 
-1. 이 이벤트를 사용하는 경로 수가 **[!UICONTROL Used in]** 필드에 표시됩니다. **[!UICONTROL View journeys]** 아이콘을 클릭하여 이 이벤트를 사용하는 경로 목록을 표시할 수 있습니다.
+1. 이 이벤트를 사용하는 여정 수는 **[!UICONTROL 에 사용됨]** 필드. 을(를) 클릭합니다. **[!UICONTROL 여정 보기]** 아이콘을 클릭하여 이 이벤트를 사용하는 여정 목록을 표시합니다.
 
 1. 스키마 및 페이로드 필드를 정의합니다. 여기서 여정이 수신하도록 하는 이벤트 정보(대개 페이로드)를 선택합니다. 그러면 이 정보를 경로에 사용할 수 있습니다. [이 섹션](../event/about-creating.md#define-the-payload-fields)을 참조하십시오.
 
@@ -56,23 +58,23 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >을(를) 선택하는 경우 **[!UICONTROL System Generated]** type으로 eventID 유형 필드가 있는 스키마만 사용할 수 있습니다. 을(를) 선택하는 경우 **[!UICONTROL Rule Based]** type, 모든 Experience Event 스키마를 사용할 수 있습니다.
+   >을(를) 선택하는 경우 **[!UICONTROL 시스템 생성]** type으로 eventID 유형 필드가 있는 스키마만 사용할 수 있습니다. 을(를) 선택하는 경우 **[!UICONTROL 규칙 기반]** type, 모든 Experience Event 스키마를 사용할 수 있습니다.
 
-1. 규칙 기반 이벤트의 경우, **[!UICONTROL Event ID condition]** 필드. 단순 표현식 편집기를 사용하여 시스템에서 여정을 트리거할 이벤트를 식별하는 데 사용할 조건을 정의합니다.
+1. 규칙 기반 이벤트의 경우, **[!UICONTROL 이벤트 ID 조건]** 필드. 단순 표현식 편집기를 사용하여 시스템에서 여정을 트리거할 이벤트를 식별하는 데 사용할 조건을 정의합니다.
    ![](assets/jo-event6.png)
 
-   이 예제에서는 프로필의 도시를 기반으로 조건을 작성했습니다. 즉, 시스템이 이 조건(**[!UICONTROL City]** 필드 및 **[!UICONTROL Paris]** 값), 여정에게 전달됩니다.
+   이 예제에서는 프로필의 도시를 기반으로 조건을 작성했습니다. 즉, 시스템이 이 조건(**[!UICONTROL 구/군/시]** 필드 및 **[!UICONTROL 파리]** 값), 여정에게 전달됩니다.
 
    >[!NOTE]
    >
-   >고급 표현식 편집기는 **[!UICONTROL Event ID condition]**. 단순 표현식 편집기에서 모든 연산자를 사용할 수 있는 것은 아니며, 데이터 유형에 따라 달라집니다. 예를 들어 문자열 유형 필드의 경우 &quot;contains&quot; 또는 &quot;equal to&quot;를 사용할 수 있습니다.
+   >고급 표현식 편집기는 **[!UICONTROL 이벤트 ID 조건]**. 단순 표현식 편집기에서 모든 연산자를 사용할 수 있는 것은 아니며, 데이터 유형에 따라 달라집니다. 예를 들어 문자열 유형 필드의 경우 &quot;contains&quot; 또는 &quot;equal to&quot;를 사용할 수 있습니다.
 
 1. 네임스페이스를 추가합니다. 이 단계는 원하는 경우에만 수행하면 되지만, 네임스페이스를 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있습니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. [이 섹션](../event/about-creating.md#select-the-namespace)을 참조하십시오.
 1. 프로필 식별자를 정의합니다. 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 지정합니다. 이 키는 네임스페이스를 선택하면 자동으로 설정되지만 편집할 수 있습니다. 네임스페이스에 해당하는 키는 여정에서 자동으로 선택됩니다. 예를 들어 이메일 네임스페이스를 선택하면 이메일 키가 선택됩니다. [이 섹션](../event/about-creating.md#define-the-event-key)을 참조하십시오.
 
    ![](assets/jo-event7.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    이제 이벤트가 구성되었으며 경로에 추가할 수 있는 상태가 되었습니다. 이벤트를 수신하려면 추가 구성 단계를 수행해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey.md)를 참조하십시오.
 
@@ -80,7 +82,7 @@ ht-degree: 13%
 
 페이로드 정의를 사용하면 시스템에서 여정의 이벤트에서 받게 될 정보를 선택하고 키와 어떤 사람이 이벤트에 연결되어 있는지 식별할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
 
-1. 목록에서 XDM 스키마를 선택하고 를 클릭합니다. **[!UICONTROL Fields]** 필드 또는 **[!UICONTROL Edit]** 아이콘.
+1. 목록에서 XDM 스키마를 선택하고 를 클릭합니다. **[!UICONTROL 필드]** 필드 또는 **[!UICONTROL 편집]** 아이콘.
 
    ![](assets/journey8.png)
 
@@ -98,9 +100,9 @@ ht-degree: 13%
    >
    >시스템 생성 이벤트의 경우, **[!UICONTROL eventID]** 필드를 선택한 필드 목록에 자동으로 추가하여 [!DNL Journey Optimizer] 이벤트를 식별할 수 있습니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [이 섹션](../event/about-creating.md#preview-the-payload)을 참조하십시오.
 
-1. 필요한 필드 선택을 완료했으면 을 클릭합니다 **[!UICONTROL Ok]** 또는 **[!UICONTROL Enter]**.
+1. 필요한 필드 선택을 완료했으면 을 클릭합니다 **[!UICONTROL 확인]** 또는 **[!UICONTROL Enter 키]**.
 
-   선택한 필드 수가 **[!UICONTROL Fields]** 필드.
+   선택한 필드 수가 **[!UICONTROL 필드]** 필드.
 
    ![](assets/journey12.png)
 
@@ -110,7 +112,7 @@ ht-degree: 13%
 
 미리 정의된 네임스페이스 중 하나를 사용하거나 ID 네임스페이스 서비스를 사용하여 새 ID를 만들 수 있습니다. 을(를) 참조하십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko){target=&quot;_blank&quot;}.
 
-기본 ID가 있는 스키마를 선택하는 경우, **[!UICONTROL Profiler identifier]** 및 **[!UICONTROL Namespace]** 필드는 미리 입력되어 있습니다. 정의된 ID가 없으면 _identityMap > ID_ 를 기본 키로 사용합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 키가 **[!UICONTROL Namespace]** 필드) _identityMap > ID_.
+기본 ID가 있는 스키마를 선택하는 경우, **[!UICONTROL 프로파일러 식별자]** 및 **[!UICONTROL 네임스페이스]** 필드는 미리 입력되어 있습니다. 정의된 ID가 없으면 _identityMap > ID_ 를 기본 키로 사용합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 키가 **[!UICONTROL 네임스페이스]** 필드) _identityMap > ID_.
 
 필드를 선택할 때 기본 ID 필드에 태그가 지정됩니다.
 
@@ -129,7 +131,7 @@ ht-degree: 13%
 
 Adobe 실시간 고객 프로필 데이터베이스에 저장된 데이터를 사용하려면 이벤트 키가 [실시간 고객 프로필 서비스](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
-프로필 식별자를 사용하면 시스템에서 이벤트와 개별 프로필 간의 조정을 수행할 수 있습니다. 기본 ID가 있는 스키마를 선택하는 경우, **[!UICONTROL Profile identifier]** 및 **[!UICONTROL Namespace]** 필드는 미리 입력되어 있습니다. 정의된 ID가 없으면 _identityMap > ID_ 는 기본 키입니다. 그런 다음 네임스페이스를 선택해야 하며 키를 사용하여 자동으로 미리 채워집니다. _identityMap > ID_.
+프로필 식별자를 사용하면 시스템에서 이벤트와 개별 프로필 간의 조정을 수행할 수 있습니다. 기본 ID가 있는 스키마를 선택하는 경우, **[!UICONTROL 프로필 식별자]** 및 **[!UICONTROL 네임스페이스]** 필드는 미리 입력되어 있습니다. 정의된 ID가 없으면 _identityMap > ID_ 는 기본 키입니다. 그런 다음 네임스페이스를 선택해야 하며 키를 사용하여 자동으로 미리 채워집니다. _identityMap > ID_.
 
 필드를 선택할 때 기본 ID 필드에 태그가 지정됩니다.
 
@@ -137,7 +139,7 @@ Adobe 실시간 고객 프로필 데이터베이스에 저장된 데이터를 �
 
 CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경우, 아래에 설명된 대로 수동으로 추가해야 합니다.
 
-1. 의 내부를 클릭합니다. **[!UICONTROL Profile identifier]** 필드 또는 연필 아이콘 위에 놓을 수 있습니다.
+1. 의 내부를 클릭합니다. **[!UICONTROL 프로필 식별자]** 필드 또는 연필 아이콘 위에 놓을 수 있습니다.
 
    ![](assets/journey16.png)
 
@@ -148,7 +150,7 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 이벤트가 수신되면 키 값을 통해 시스템에서 이벤트와 연관된 사용자를 식별할 수 있습니다. 네임스페이스에 연결됨( [이 섹션](../event/about-creating.md#select-the-namespace)) 키를 사용하여 Adobe Experience Platform에 대한 쿼리를 수행할 수 있습니다. [이 페이지](../building-journeys/about-journey-activities.md#orchestration-activities)를 참조하십시오.
 키가 여정에 있는지 확인하는 데에도 사용됩니다. 실제로, 한 사람은 동일한 여정에서 두 개의 다른 위치에 있을 수 없습니다. 따라서 시스템에서 동일한 키(예: CRMID=3224)를 동일한 여정의 다른 위치에 둘 수 없습니다.
 
-고급 표현식 함수(**[!UICONTROL Advanced mode]**) 추가 조작을 수행하려면 다음을 수행합니다. 이러한 함수를 사용하면 필드의 일부(예: 첫 번째 문자 10개)를 고려하여 형식 변경, 필드 연결 수행 등 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다. 이 [페이지](../building-journeys/expression/expressionadvanced.md)를 참조하십시오.
+고급 표현식 함수(**[!UICONTROL 고급 모드]**) 추가 조작을 수행하려면 다음을 수행합니다. 이러한 함수를 사용하면 필드의 일부(예: 첫 번째 문자 10개)를 고려하여 형식 변경, 필드 연결 수행 등 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다. 이 [페이지](../building-journeys/expression/expressionadvanced.md)를 참조하십시오.
 
 ## 페이로드 미리 보기 {#preview-the-payload}
 
@@ -158,7 +160,7 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 >
 >시스템 생성 이벤트의 경우, 이벤트를 만들 때 페이로드 미리 보기를 보기 전에 이벤트를 저장하고 다시 엽니다. 이 단계는 페이로드에서 이벤트 ID를 생성하는 데 필요합니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL View Payload]** 아이콘을 클릭하여 시스템에 필요한 페이로드를 미리 봅니다.
+1. 을(를) 클릭합니다. **[!UICONTROL 페이로드 보기]** 아이콘을 클릭하여 시스템에 필요한 페이로드를 미리 봅니다.
 
    ![](assets/journey13.png)
 

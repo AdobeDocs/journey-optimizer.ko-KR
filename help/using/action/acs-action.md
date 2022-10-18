@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Adobe Campaign Standard 통합
 description: Adobe Campaign Standard과 통합하는 방법을 알아봅니다
 feature: Actions
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '426'
 ht-degree: 5%
 
 ---
@@ -35,7 +37,7 @@ Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지
 
 구성하는 단계는 다음과 같습니다.
 
-1. 선택 **[!UICONTROL Configurations]** 를 클릭합니다. 에서  **[!UICONTROL Actions]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 그러면 작업 목록이 표시됩니다.
+1. 선택 **[!UICONTROL 구성]** 를 클릭합니다. 에서  **[!UICONTROL 작업]** 섹션을 클릭합니다. **[!UICONTROL 관리]**. 그러면 작업 목록이 표시됩니다.
 
 1. 기본 제공 선택 **[!UICONTROL AdobeCampaignStandard]** 작업. 화면 오른쪽에 작업 구성 창이 열립니다.
 
@@ -43,7 +45,7 @@ Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지
 
 1. Adobe Campaign Standard 인스턴스 URL을 복사하여 **[!UICONTROL URL]** 필드.
 
-1. 을(를) 클릭합니다. **[!UICONTROL Test the instance URL]** 를 눌러 인스턴스의 유효성을 테스트합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL 인스턴스 URL 테스트]** 를 눌러 인스턴스의 유효성을 테스트합니다.
 
    >[!NOTE]
    >
@@ -55,7 +57,7 @@ Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지
    >
    >이 Adobe Campaign Standard 인스턴스에 연결된 ORG는 Journey Optimizer의 ORG와 동일합니다.
 
-여정을 디자인할 때 **[!UICONTROL Action]** 범주: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** 자세한 내용은 [Adobe Campaign 작업 사용](../building-journeys/using-adobe-campaign-standard.md)).
+여정을 디자인할 때 **[!UICONTROL 작업]** 범주: **[!UICONTROL 이메일]**, **[!UICONTROL 푸시]**, **[!UICONTROL SMS]** 자세한 내용은 [Adobe Campaign 작업 사용](../building-journeys/using-adobe-campaign-standard.md)).
 
 ![](assets/journey58.png)
 

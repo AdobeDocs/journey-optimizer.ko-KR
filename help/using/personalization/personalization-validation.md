@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 개인화 유효성 검사
 description: 개인화 유효성 검사 및 문제 해결 방법에 대해 자세히 알아보십시오.
 feature: Personalization
@@ -6,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 1%

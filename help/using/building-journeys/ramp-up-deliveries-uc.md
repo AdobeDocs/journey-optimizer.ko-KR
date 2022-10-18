@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 게재 램프 업
 description: 게재 속도를 높이는 방법을 알아봅니다
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '267'
 ht-degree: 3%
 
 ---
@@ -23,19 +25,19 @@ IP를 가열하기 위해 게재 수를 점진적으로 늘릴 수 있습니다.
 
 1. 여정 만들기. [자세히 보기](journey-gs.md).
 
-1. 추가 **[!UICONTROL Condition]** 활동을 여정에 추가합니다. [자세히 보기](condition-activity.md).
+1. 추가 **[!UICONTROL 조건]** 활동을 여정에 추가합니다. [자세히 보기](condition-activity.md).
 
-1. 에서 **[!UICONTROL Condition]** 활동 설정에서 게재에 대한 최대 수신자 수를 설정합니다.
+1. 에서 **[!UICONTROL 조건]** 활동 설정에서 게재에 대한 최대 수신자 수를 설정합니다.
 
-   1. 에서 **[!UICONTROL Condition]** 활동 설정, 설정 **[!UICONTROL Type]** 필드 대상 **[!UICONTROL Profile cap]**. [자세히 보기](condition-activity.md#profile_cap).
+   1. 에서 **[!UICONTROL 조건]** 활동 설정, 설정 **[!UICONTROL 유형]** 필드 대상 **[!UICONTROL 프로필 상한]**. [자세히 보기](condition-activity.md#profile_cap).
 
-   1. 설정 **[!UICONTROL Limit]** 필드를 이 게재의 최대 수신자 수에 추가합니다.
+   1. 설정 **[!UICONTROL 제한]** 필드를 이 게재의 최대 수신자 수에 추가합니다.
 
    ![](assets/profile-cap-condition.png)
 
    이 제한을 총 구독자 수까지 점진적으로 늘릴 수 있습니다.
 
-1. 추가 **[!UICONTROL Email]** 명목상 경로에 대한 작업 활동 후 **[!UICONTROL Condition]** 활동.
+1. 추가 **[!UICONTROL 이메일]** 명목상 경로에 대한 작업 활동 후 **[!UICONTROL 조건]** 활동.
 
    ![](assets/ramp-up-deliveries-message.png)
 

@@ -1,19 +1,21 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer의 아카이빙 지원
-description: 채널 표면 수준에서 숨은 참조 이메일을 구성하는 방법을 알아봅니다
+description: 메시지 아카이브 방법 알아보기
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 38b8b0634ac0b1e59d848a5a661e3905abaec358
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1305'
 ht-degree: 3%
 
 ---
 
-# 아카이빙 지원 {#archiving-support}
+# 아카이브 지원 {#archiving-support}
 
 ## 메시지 아카이브 방법 {#about-archiving}
 

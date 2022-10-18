@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 여정 사용 사례
 description: 여정 사용 사례
 feature: Journeys
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 2%
+source-wordcount: '860'
+ht-degree: 1%
 
 ---
 
@@ -42,15 +44,15 @@ ht-degree: 2%
 
 세그먼트에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../segment/about-segments.md).
 
-1. 고객 메뉴 섹션에서 **[!UICONTROL Segments]**.
+1. 고객 메뉴 섹션에서 **[!UICONTROL 세그먼트]**.
 
-1. 을(를) 클릭합니다. **[!UICONTROL Create segment]** 세그먼트 목록의 오른쪽 상단에 있는 버튼입니다.
+1. 을(를) 클릭합니다. **[!UICONTROL 세그먼트 만들기]** 세그먼트 목록의 오른쪽 상단에 있는 버튼입니다.
 
-1. 에서 **[!UICONTROL Segment properties]** 창에서 세그먼트 이름을 입력합니다.
+1. 에서 **[!UICONTROL 세그먼트 속성]** 창에서 세그먼트 이름을 입력합니다.
 
 1. 왼쪽 창에서 가운데 작업 영역으로 원하는 필드를 끌어다 놓은 다음 필요에 따라 구성합니다. 이 예제에서는 **구/군/시** 및 **출생 연도** 속성 필드.
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![](assets/add-attributes.png)
 
@@ -62,19 +64,19 @@ ht-degree: 2%
 
 이를 위해 규칙 기반 이벤트를 사용합니다. 이벤트에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../event/about-events.md).
 
-1. 관리 메뉴 섹션에서 **[!UICONTROL Configurations]**&#x200B;를 클릭한 다음 **[!UICONTROL Events]**. 새 이벤트를 만들려면 **[!UICONTROL Create event]**&#x200B;를 클릭합니다.
+1. 관리 메뉴 섹션에서 **[!UICONTROL 구성]**&#x200B;를 클릭한 다음 **[!UICONTROL 이벤트]**. 클릭 **[!UICONTROL 이벤트 만들기]** 새 이벤트를 만들려면
 
 1. 이벤트의 이름을 입력합니다.
 
-1. **[!UICONTROL Event ID type]** 필드에서 **[!UICONTROL Rule Based]**&#x200B;을(를) 선택합니다.
+1. 에서 **[!UICONTROL 이벤트 ID 유형]** 필드, 선택 **[!UICONTROL 규칙 기반]**.
 
-1. 을(를) 정의합니다 **[!UICONTROL Schema]** 및 페이로드 **[!UICONTROL Fields]**. 구매한 제품, 구매 날짜 및 구매 ID와 같은 여러 필드를 사용할 수 있습니다.
+1. 을(를) 정의합니다 **[!UICONTROL 스키마]** 및 페이로드 **[!UICONTROL 필드]**. 구매한 제품, 구매 날짜 및 구매 ID와 같은 여러 필드를 사용할 수 있습니다.
 
-1. 에서 **[!UICONTROL Event ID condition]** 필드에서 여정을 트리거하는 이벤트를 식별하는 데 시스템에서 사용하는 조건을 정의합니다. 예를 들어 `purchaseMessage` 필드를 작성하고 다음 규칙을 정의합니다. `purchaseMessage="thank you"`
+1. 에서 **[!UICONTROL 이벤트 ID 조건]** 필드에서 여정을 트리거하는 이벤트를 식별하는 데 시스템에서 사용하는 조건을 정의합니다. 예를 들어 `purchaseMessage` 필드를 작성하고 다음 규칙을 정의합니다. `purchaseMessage="thank you"`
 
-1. 을(를) 정의합니다 **[!UICONTROL Namespace]** 및 **[!UICONTROL Profile Identifier]**.
+1. 을(를) 정의합니다 **[!UICONTROL 네임스페이스]** 및 **[!UICONTROL 프로필 식별자]**.
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![](assets/jo-uc2.png)
 

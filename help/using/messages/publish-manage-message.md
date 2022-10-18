@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 메시지 게시 및 수정
 description: 메시지 게시 및 업데이트 방법 알아보기
 feature: Journeys
@@ -8,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 17%
+source-wordcount: '261'
+ht-degree: 16%
 
 ---
 
@@ -27,7 +29,7 @@ ht-degree: 17%
 
 ![](assets/publish-message.png)
 
-메시지가 게시되면 메시지가 와 함께 메시지 목록에 추가됩니다. **[!UICONTROL Published]** 상태.
+메시지가 게시되면 메시지가 와 함께 메시지 목록에 추가됩니다. **[!UICONTROL 게시됨]** 상태.
 
 이제 하나 이상 트리거할 준비가 되었습니다 [여정](../building-journeys/journey.md).
 
@@ -49,7 +51,7 @@ ht-degree: 17%
 
 1. 메시지 목록에서 메시지를 선택하여 엽니다.
 
-1. **[!UICONTROL Modify]**&#x200B;을(를) 클릭합니다.
+1. 클릭 **[!UICONTROL 수정]**.
 
    ![](assets/message-modify.png)
 
@@ -58,7 +60,7 @@ ht-degree: 17%
    ![](assets/message-modify-v2.png)
 
 1. 컨텐츠를 편집하거나 원하는 대로 설정을 변경합니다.
-1. **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다. 이 작업은 다음 실행에 사용될 메시지의 새 버전을 게시합니다.
+1. 클릭 **[!UICONTROL 게시]**. 이 작업은 다음 실행에 사용될 메시지의 새 버전을 게시합니다.
 
 새 버전이 게시되는 즉시 다음 API 호출 시 새 메시지 실행이 생성됩니다. 다음 수신 프로필은 새 버전을 받습니다.
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 대상자 액세스 및 관리
 description: 대상에 액세스하고 관리하는 방법을 알아봅니다
 feature: Journeys
@@ -7,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 1%

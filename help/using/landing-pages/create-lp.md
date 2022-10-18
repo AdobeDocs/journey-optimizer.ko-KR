@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 랜딩 페이지 만들기
 description: Journey Optimizer에서 랜딩 페이지를 구성하고 게시하는 방법을 알아봅니다
 feature: Landing Pages
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 2%

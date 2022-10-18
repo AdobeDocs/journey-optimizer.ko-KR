@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 하위 도메인 위임
 description: 하위 도메인을 위임하는 방법을 알아봅니다.
 feature: Application Settings
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1706'
 ht-degree: 9%
 
 ---
@@ -47,11 +49,11 @@ ht-degree: 9%
 
 새 하위 도메인을 Adobe에 완전히 위임하려면 아래 단계를 수행하십시오.
 
-1. 액세스 권한 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 메뉴를 클릭한 다음 **[!UICONTROL Set up subdomain]**.
+1. 액세스 권한 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 하위 도메인]** 메뉴를 클릭한 다음 **[!UICONTROL 하위 도메인 설정]**.
 
    ![](assets/subdomain-delegate.png)
 
-1. 선택 **[!UICONTROL Fully delegated]** 에서 **[!UICONTROL Set up method]** 섹션을 참조하십시오.
+1. 선택 **[!UICONTROL 완전히 위임됨]** 에서 **[!UICONTROL 메서드 설정]** 섹션을 참조하십시오.
 
    ![](assets/subdomain-method-full.png)
 
@@ -67,15 +69,15 @@ ht-degree: 9%
 
 1. DNS 서버에 배치할 레코드 목록이 표시됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 DNS 레코드를 생성합니다.
 
-1. 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 것이 제대로 구성된 경우 &quot;확인...&quot; 상자를 선택한 다음 를 클릭합니다. **[!UICONTROL Submit]**.
+1. 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 것이 제대로 구성된 경우 &quot;확인...&quot; 상자를 선택한 다음 를 클릭합니다. **[!UICONTROL 제출]**.
 
    ![](assets/subdomain-submit.png)
 
    >[!NOTE]
    >
-   >레코드를 만들고 을 사용하여 나중에 하위 도메인 구성을 제출할 수 있습니다. **[!UICONTROL Save as draft]** 버튼을 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 하위 도메인 위임을 다시 시작할 수 있습니다.
+   >레코드를 만들고 을 사용하여 나중에 하위 도메인 구성을 제출할 수 있습니다. **[!UICONTROL 초안으로 저장]** 버튼을 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 하위 도메인 위임을 다시 시작할 수 있습니다.
 
-1. 전체 하위 도메인 위임이 제출되면 하위 도메인이 와 함께 목록에 표시됩니다. **[!UICONTROL Processing]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](access-subdomains.md).
+1. 전체 하위 도메인 위임이 제출되면 하위 도메인이 와 함께 목록에 표시됩니다. **[!UICONTROL 처리 중]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](access-subdomains.md).
 
    ![](assets/subdomain-processing.png)
 
@@ -85,11 +87,11 @@ ht-degree: 9%
    >
    >누락된 레코드(즉, 호스팅 솔루션에서 아직 생성되지 않은 레코드가 나열됩니다.
 
-1. 확인이 성공하면 하위 도메인이 **[!UICONTROL Success]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
+1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
    >[!NOTE]
    >
-   >하위 도메인은 로 표시됩니다 **[!UICONTROL Failed]** 호스팅 솔루션에 대한 유효성 검사 레코드를 만들지 못한 경우.
+   >하위 도메인은 로 표시됩니다 **[!UICONTROL 실패]** 호스팅 솔루션에 대한 유효성 검사 레코드를 만들지 못한 경우.
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -97,7 +99,7 @@ ht-degree: 9%
 
 >[!CAUTION]
 >
->하위 도메인의 병렬 실행은 현재 지원되지 않습니다. [!DNL Journey Optimizer]. 다른 도메인이 **[!UICONTROL Processing]** 상태, 오류 메시지가 표시됩니다.
+>하위 도메인의 병렬 실행은 현재 지원되지 않습니다. [!DNL Journey Optimizer]. 다른 도메인이 **[!UICONTROL 처리 중]** 상태, 오류 메시지가 표시됩니다.
 
 ## CNAME 하위 도메인 위임 {#cname-subdomain-delegation}
 
@@ -118,9 +120,9 @@ CNAME 하위 도메인을 위임하면 하위 도메인을 만들고 CNAME을 �
 
 CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따르십시오.
 
-1. 액세스 권한 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 메뉴를 클릭한 다음 **[!UICONTROL Set up subdomain]**.
+1. 액세스 권한 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 하위 도메인]** 메뉴를 클릭한 다음 **[!UICONTROL 하위 도메인 설정]**.
 
-1. 을(를) 선택합니다 **[!UICONTROL CNAME set up]** 메서드를 사용합니다.
+1. 을(를) 선택합니다 **[!UICONTROL CNAME 설정]** 메서드를 사용합니다.
 
    ![](assets/subdomain-method-cname.png)
 
@@ -140,7 +142,7 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따�
 
    >[!NOTE]
    >
-   >을 사용하여 나중에 레코드를 만들 수 있습니다 **[!UICONTROL Save as draft]** 버튼을 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 이 단계에서 하위 도메인 위임을 다시 시작할 수 있습니다.
+   >을 사용하여 나중에 레코드를 만들 수 있습니다 **[!UICONTROL 초안으로 저장]** 버튼을 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 이 단계에서 하위 도메인 위임을 다시 시작할 수 있습니다.
 
 1. Adobe이 이러한 레코드가 호스팅 솔루션에 대한 오류 없이 생성되는지 확인할 때까지 기다립니다. 이 프로세스는 최대 2분이 걸릴 수 있습니다.
 
@@ -148,29 +150,29 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따�
    >
    >누락된 레코드(즉, 호스팅 솔루션에서 아직 생성되지 않은 레코드가 나열됩니다.
 
-1. Adobe은 SSL CDN URL 유효성 검사 레코드를 생성합니다. 이 유효성 검사 레코드를 호스팅 플랫폼에 복사합니다. 호스팅 솔루션에서 이 레코드를 올바르게 만든 경우, &quot;확인...&quot; 상자를 선택한 다음 를 클릭합니다. **[!UICONTROL Submit]**.
+1. Adobe은 SSL CDN URL 유효성 검사 레코드를 생성합니다. 이 유효성 검사 레코드를 호스팅 플랫폼에 복사합니다. 호스팅 솔루션에서 이 레코드를 올바르게 만든 경우, &quot;확인...&quot; 상자를 선택한 다음 를 클릭합니다. **[!UICONTROL 제출]**.
 
    ![](assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >
-   >유효성 검사 레코드를 만들고 나중에 를 사용하여 하위 도메인 구성을 제출할 수도 있습니다. **[!UICONTROL Save as draft]** 버튼을 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 하위 도메인 위임을 다시 시작할 수 있습니다.
+   >유효성 검사 레코드를 만들고 나중에 를 사용하여 하위 도메인 구성을 제출할 수도 있습니다. **[!UICONTROL 초안으로 저장]** 버튼을 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 하위 도메인 위임을 다시 시작할 수 있습니다.
 
-1. CNAME 하위 도메인 위임이 제출되면 하위 도메인이 와 함께 목록에 표시됩니다. **[!UICONTROL Processing]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](access-subdomains.md).
+1. CNAME 하위 도메인 위임이 제출되면 하위 도메인이 와 함께 목록에 표시됩니다. **[!UICONTROL 처리 중]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](access-subdomains.md).
 
    해당 하위 도메인을 사용하여 메시지를 보내려면 Adobe이 필요한 검사를 수행할 때까지 기다려야 합니다. 이 경우 일반적으로 2~3시간이 소요됩니다. 자세한 내용은 [이 섹션](#subdomain-validation)을 참조하십시오.
 
-1. 확인이 성공하면<!--i.e Adobe validates the record you created and installs it-->로 지정하는 경우 하위 도메인이 **[!UICONTROL Success]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
+1. 확인이 성공하면<!--i.e Adobe validates the record you created and installs it-->로 지정하는 경우 하위 도메인이 **[!UICONTROL 성공]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
    >[!NOTE]
    >
-   >하위 도메인은 로 표시됩니다 **[!UICONTROL Failed]** 호스팅 솔루션에 대한 유효성 검사 레코드를 만들지 못한 경우.
+   >하위 도메인은 로 표시됩니다 **[!UICONTROL 실패]** 호스팅 솔루션에 대한 유효성 검사 레코드를 만들지 못한 경우.
 
 레코드를 확인하고 인증서를 설치하면 Adobe이 CNAME 하위 도메인에 대한 PTR 레코드를 자동으로 만듭니다. [자세히 보기](ptr-records.md)
 
 >[!CAUTION]
 >
->하위 도메인의 병렬 실행은 현재 지원되지 않습니다. [!DNL Journey Optimizer]. 다른 도메인이 **[!UICONTROL Processing]** 상태, 오류 메시지가 표시됩니다.
+>하위 도메인의 병렬 실행은 현재 지원되지 않습니다. [!DNL Journey Optimizer]. 다른 도메인이 **[!UICONTROL 처리 중]** 상태, 오류 메시지가 표시됩니다.
 
 ## 하위 도메인 유효성 검사 {#subdomain-validation}
 

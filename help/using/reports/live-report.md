@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 라이브 보고서
 description: 라이브 보고서에서 데이터를 사용하는 방법을 알아봅니다
 feature: Reporting
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 4%
@@ -186,7 +188,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
    <td> 전체 받은 편지함과 같은 총 임시 오류 수입니다.<br/> </td> 
 </tr>
   <tr> 
-   <td> 스팸 불만<br/> </td> 
+   <td> 스팸 불만 사항<br/> </td> 
    <td> 메시지가 스팸 또는 정크 메일로 선언된 횟수입니다.<br/> </td> 
 </tr>
   <tr> 

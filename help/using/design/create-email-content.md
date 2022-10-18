@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 feature: Overview
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -101,7 +103,7 @@ ht-degree: 0%
 
    ![](assets/email_designer_6.png)
 
-1. 동적 콘텐츠를 추가하여 조건부 규칙을 기반으로 타겟팅된 프로필에 콘텐츠를 조정합니다. [동적 콘텐츠 시작](../personalization/get-started-dynamic-content.md).
+1. 동적 콘텐츠를 추가하여 조건부 규칙을 기반으로 타겟팅된 프로필에 콘텐츠를 조정합니다. [다이내믹 콘텐츠 시작](../personalization/get-started-dynamic-content.md).
 
    ![](assets/email_designer_dynamic-content.png)
 

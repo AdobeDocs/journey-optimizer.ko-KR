@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 다시 시도
 description: 주소를 제외 목록으로 보내기 전에 다시 시도하는 방법을 알아봅니다
 feature: Application Settings
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: '454'
+ht-degree: 1%
 
 ---
 
@@ -39,9 +41,9 @@ ht-degree: 2%
 
 기본값 5가 사용자의 요구 사항에 맞지 않는 경우 아래 단계에 따라 오류 임계값을 수정할 수 있습니다.
 
-1. **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**(으)로 이동합니다. 
+1. 이동 **[!UICONTROL 채널]** > **[!UICONTROL 이메일 구성]** > **[!UICONTROL 제외 목록]**.
 
-1. **[!UICONTROL Edit suppression rules]** 버튼을 선택합니다.
+1. 을(를) 선택합니다 **[!UICONTROL 제외 규칙 편집]** 버튼을 클릭합니다.
 
    ![](assets/suppression-list-edit-retries.png)
 

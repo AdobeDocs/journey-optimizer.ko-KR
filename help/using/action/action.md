@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: 작업 정보
 description: 작업 구성 방법 알아보기
 feature: Actions
@@ -7,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 65%
+source-wordcount: '256'
+ht-degree: 58%
 
 ---
 
@@ -37,9 +38,9 @@ Epsilon, Facebook 등의 서드파티 시스템을 사용하여 메시지를 전
 >
 >사용자 지정 작업 구성은 **기술 사용자**.
 
-작업은 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 범주에서 사용 가능합니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)를 참조하십시오.
+작업은 여정 왼쪽 팔레트의 **[!UICONTROL 작업]** 카테고리. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)를 참조하십시오.
 
-작업 목록을 확인하거나 새 작업을 구성하려면 **[!UICONTROL Configurations]** 를 클릭합니다. 에서  **[!UICONTROL Actions]** 섹션을 클릭합니다. **[!UICONTROL Manage]**. 그러면 작업 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../start/user-interface.md)를 참조하십시오.
+작업 목록을 확인하거나 새 작업을 구성하려면 **[!UICONTROL 구성]** 를 클릭합니다. 에서  **[!UICONTROL 작업]** 섹션을 클릭합니다. **[!UICONTROL 관리]**. 그러면 작업 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../start/user-interface.md)를 참조하십시오.
 
 ![](assets/custom1.png)
 

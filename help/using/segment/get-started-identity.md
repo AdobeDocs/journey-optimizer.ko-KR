@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer에서 ID 시작
 description: Adobe Journey Optimizer에서 ID를 관리하는 방법 알아보기
 feature: Profiles
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: 7d628ecd7c54455847c2cfb48bf59ff3f602c51f
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 9%
@@ -28,7 +30,7 @@ in [!DNL Adobe Journey Optimizer], **ID** 여러 장치와 채널에서 소비�
 
 **** ID 네임스페이스는 ID 서비스의 구성 요소이며 ID가 연관되는 컨텍스트의 지표 역할을 합니다. 예를 들어 다음 값 을 구분합니다 `name@email.com` 이메일 주소 또는 `443522` 을 숫자 CRM ID로 사용하십시오. ID 네임스페이스로 작업하려면 관련된 다양한 Adobe Experience Platform 서비스를 이해해야 합니다. 네임스페이스로 작업을 시작하기 전에 다음 서비스에 대한 설명서를 검토하십시오.
 
-추가 정보 **ID 네임스페이스** in [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko-KR){target=&quot;_blank&quot;}.
+추가 정보 **ID 네임스페이스** in [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko){target=&quot;_blank&quot;}.
 
 ## ID 그래프{#id-graph}
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 랜딩 페이지 사용 사례
 description: Journey Optimizer에서 랜딩 페이지를 사용하는 가장 일반적인 사용 사례를 알아봅니다
 feature: Landing Pages
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 16%

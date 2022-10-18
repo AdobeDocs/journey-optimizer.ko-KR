@@ -1,12 +1,14 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 데이터 엔지니어를 위한 Journey Optimizer 시작하기
 description: 데이터 엔지니어는 Journey Optimizer을 사용하여 작업하는 방법에 대해 자세히 알아봅니다
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 8%
+source-wordcount: '580'
+ht-degree: 9%
 
 ---
 
@@ -34,7 +36,7 @@ ID 네임스페이스 및 프로필에 대해 활성화된 데이터 세트를 �
 1. **테스트 프로필 만들기**. 테스트 프로필은 [테스트 모드](../../building-journeys/testing-the-journey.md) 여정 및 [메시지 미리 보기 및 테스트](../../design/preview.md) 보내기 전. 테스트 프로필을 만드는 단계는 자세히 설명되어 있습니다 [이 페이지에서](../../segment/creating-test-profiles.md).
 
 
-또한 여정에서 메시지를 보낼 수 있으려면 다음을 구성해야 합니다 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]**. 추가 정보 [이 섹션](../../configuration/about-data-sources-events-actions.md).
+또한 여정에서 메시지를 보낼 수 있으려면 다음을 구성해야 합니다 **[!UICONTROL 데이터 소스]**, **[!UICONTROL 이벤트]** 및 **[!UICONTROL 작업]**. 자세한 내용은 [이 섹션](../../configuration/about-data-sources-events-actions.md)을 참조하세요.
 
 ![](../assets/admin-menu.png)
 

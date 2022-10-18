@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 다른 산독에 여정 복사
 description: 여정을 다른 산독에 복사하는 방법 알아보기
 feature: Journeys
@@ -6,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 다른 샌드박스에 여정 복사 {#copy-to-sandbox}
+# 다른 샌드박스로 여정 복사 {#copy-to-sandbox}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="다른 샌드박스에 여정 복사"
+>title="다른 샌드박스로 여정 복사"
 >abstract="Journey Optimizer을 사용하면 한 샌드박스에서 다른 샌드박스로 전체 여정을 복사할 수 있습니다. 예를 들어 스테이지 샌드박스 환경에서 프로덕션 샌드박스에 여정을 복사할 수 있습니다. 여정 자체 외에 Journey Optimizer은 여정이 종속하는 대부분의 개체도 복사합니다."
 
 >[!CONTEXTUALHELP]

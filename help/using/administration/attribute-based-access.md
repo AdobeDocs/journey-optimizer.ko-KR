@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 속성 기반 액세스 제어
 description: 속성 기반 액세스 제어 정보
 feature: Access Management
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->속성 기반 액세스 제어 사용은 현재 선택한 고객에게만 제한되며, 향후 릴리스의 모든 환경에 배포됩니다.
+>속성 기반 액세스 제어 사용은 현재 선택한 고객으로 제한되며 향후 릴리스의 모든 환경에 배포될 예정입니다.
 
 ABAC(속성 기반 액세스 제어)를 사용하면 특정 팀 또는 사용자 그룹의 데이터 액세스를 관리하기 위한 권한을 정의할 수 있습니다. 이 소프트웨어의 목적은 개인 데이터를 추가로 보호할 수 있도록 권한이 없는 사용자로부터 중요한 디지털 자산을 보호하는 것입니다.
 

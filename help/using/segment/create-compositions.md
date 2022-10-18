@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 컴포지션 워크플로우 만들기
 description: 기존 대상자를 결합 및 배열하기 위한 컴포지션 워크플로우를 만드는 방법을 알아봅니다.
 feature: Journeys
@@ -7,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%

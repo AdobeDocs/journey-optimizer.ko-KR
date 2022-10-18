@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 랜딩 페이지 디자인
 description: Journey Optimizer에서 랜딩 페이지의 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: Landing Pages
@@ -6,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 61fcf519ca2ce241e292a86707e5ce987835a07c
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '155'
 ht-degree: 3%
 
 ---
 
 # 랜딩 페이지 콘텐츠 디자인 {#design-lp}
 
-랜딩 컨텐츠를 만들려면 [기본 페이지](create-lp.md#configure-primary-page) 또는 [하위 페이지](create-lp.md#configure-subpages)를 클릭하고 마우스를 페이지 컨텐츠 위에 올린 다음 를 클릭합니다 **[!UICONTROL Open Designer]**. 오른쪽 팔레트에서 해당 버튼을 클릭할 수도 있습니다.
+랜딩 컨텐츠를 만들려면 [기본 페이지](create-lp.md#configure-primary-page) 또는 [하위 페이지](create-lp.md#configure-subpages)를 클릭하고 마우스를 페이지 컨텐츠 위에 올린 다음 를 클릭합니다 **[!UICONTROL 디자이너 열기]**. 오른쪽 팔레트에서 해당 버튼을 클릭할 수도 있습니다.
 
 ![](assets/lp_open-designer.png)
 

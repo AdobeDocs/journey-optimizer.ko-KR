@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 이메일 만들기
 description: Journey Optimizer에서 이메일을 만드는 방법을 알아봅니다
 feature: Overview
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 8%
 
 사용 [!DNL Journey Optimizer] 표현식 편집기를 사용하여 프로필의 데이터로 메시지를 개인화할 수 있습니다. 개인화에 대한 자세한 내용은 [이 섹션](../personalization/personalize.md)을 참조하세요.
 
-다음을 활용하여 메시지 콘텐츠를 타겟팅된 프로필에 조정 [!DNL Journey Optimizer] 동적 콘텐츠 기능. [동적 콘텐츠 시작](../personalization/get-started-dynamic-content.md)
+다음을 활용하여 메시지 콘텐츠를 타겟팅된 프로필에 조정 [!DNL Journey Optimizer] 동적 콘텐츠 기능. [다이내믹 콘텐츠 시작](../personalization/get-started-dynamic-content.md)
 
 ## 이메일 추적{#email-tracking}
 

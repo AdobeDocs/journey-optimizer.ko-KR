@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer에서 프로필 시작하기
 description: Adobe Journey Optimizer에서 프로필을 만들고 관리하는 방법을 알아봅니다
 feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 7d628ecd7c54455847c2cfb48bf59ff3f602c51f
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 8%

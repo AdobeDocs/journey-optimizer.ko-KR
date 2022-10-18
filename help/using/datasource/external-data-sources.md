@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 외부 데이터 소스
 description: 외부 데이터 소스를 구성하는 방법 알아보기
 feature: Data Sources
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 90%
+source-wordcount: '1406'
+ht-degree: 74%
 
 ---
 
@@ -35,7 +37,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 새 외부 데이터 소스를 만들고 구성하는 주요 단계는 다음과 같습니다.
 
-1. 새 외부 데이터 소스를 만들려면 데이터 소스 목록에서 **[!UICONTROL Create Data Source]**&#x200B;를 클릭합니다.
+1. 데이터 소스 목록에서 **[!UICONTROL 데이터 소스 만들기]** 새 외부 데이터 소스를 만들려면
 
    ![](assets/journey25.png)
 
@@ -58,28 +60,28 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
    ![](assets/journey27.png)
 
-1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]**, **[!UICONTROL API key]** 중에서 선택할 수 있습니다. 사용자 지정 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오. 이 예제에서는 다음 옵션을 선택합니다.
+1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL 인증 없음]**, **[!UICONTROL 기본]**, **[!UICONTROL 사용자 지정]** 또는 **[!UICONTROL API 키]**. 사용자 지정 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오. 이 예제에서는 다음 옵션을 선택합니다.
 
-   * **[!UICONTROL Type]**: &quot;API 키&quot;
-   * **[!UICONTROL Name]**: &quot;appid&quot;(API 키 매개 변수 이름)
-   * **[!UICONTROL Value]**: &quot;1234&quot;(API 키의 값)
-   * **[!UICONTROL Location]**: &quot;쿼리 매개 변수&quot;(API 키가 URL에 포함됨)
+   * **[!UICONTROL 유형]**: &quot;API 키&quot;
+   * **[!UICONTROL 이름]**: &quot;appid&quot;(API 키 매개 변수 이름)
+   * **[!UICONTROL 값]**: &quot;1234&quot;(API 키의 값)
+   * **[!UICONTROL 위치]**: &quot;쿼리 매개 변수&quot;(API 키가 URL에 포함됨)
 
    ![](assets/journey28.png)
 
-1. **[!UICONTROL Add a New Field Group]**&#x200B;를 클릭하여 각 API 매개 변수용 새 필드 그룹을 추가합니다. 필드 그룹 이름에는 공백이나 특수 문자를 사용하지 마십시오. 이 예제에서는 각 매개 변수 세트(city, long/lat)용으로 하나씩 두 개의 필드 그룹을 만들어야 합니다.
+1. 를 클릭하여 각 API 매개 변수 세트에 대한 새 필드 그룹을 추가합니다 **[!UICONTROL 새 필드 그룹 추가]**. 필드 그룹 이름에는 공백이나 특수 문자를 사용하지 마십시오. 이 예제에서는 각 매개 변수 세트(city, long/lat)용으로 하나씩 두 개의 필드 그룹을 만들어야 합니다.
 
 &quot;long/lat&quot; 매개 변수 세트의 경우 다음 정보를 사용하여 필드 그룹을 만듭니다.
 
-* **[!UICONTROL Used in]**: 필드 그룹을 사용하는 여정 수를 표시합니다. **[!UICONTROL View journeys]** 아이콘을 클릭하여 이 필드 그룹을 사용하는 여정 목록을 표시할 수 있습니다.
-* **[!UICONTROL Method]**: POST 또는 GET 메서드를 선택합니다. 여기서는 GET 메서드를 선택합니다.
-* **[!UICONTROL Dynamic Values]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [자세히 보기](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL Response Payload]**: **[!UICONTROL Payload]** 필드 안을 클릭하여 호출에서 반환된 페이로드의 예제를 붙여넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 현재 전달된 페이로드를 변경하려는 경우 **[!UICONTROL Paste a new payload]**&#x200B;를 클릭하면 됩니다.
-* **[!UICONTROL Sent Payload]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
+* **[!UICONTROL 에 사용됨]**: 필드 그룹을 사용하는 여정 수를 표시합니다. 을(를) 클릭합니다. **[!UICONTROL 여정 보기]** 아이콘을 클릭하여 이 필드 그룹을 사용하는 여정 목록을 표시합니다.
+* **[!UICONTROL 메서드]**: POST 또는 GET 방법을 선택합니다. 여기서는 GET 메서드를 선택합니다.
+* **[!UICONTROL 동적 값]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [자세히 보기](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL 응답 페이로드]**: 내부 클릭 **[!UICONTROL 페이로드]** 필드에 붙여넣기를 통해 반환된 페이로드의 예제를 붙여넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 을 클릭하여 **[!UICONTROL 새 페이로드 붙여넣기]** 현재 전달된 페이로드를 변경하려는 경우
+* **[!UICONTROL 보낸 페이로드]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
 
-매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL Dynamic Values]** 필드에 매개 변수를 입력하면 호출 끝에 매개 변수가 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
+매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL 동적 값]** 필드가 추가되면 호출 끝에 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
 
-* 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL Dynamic Values]** 필드에 포함합니다. 아래 예제에서는 매개 변수가 &quot;identifier&quot;입니다.
+* 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL 동적 값]** 필드(아래 예: &quot;identifier&quot;)
 * 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
 
    ```
@@ -88,7 +90,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 ![](assets/journey29.png)
 
-**[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+**[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 이제 데이터 소스가 구성되었으며 여정에서 사용할 수 있는 상태가 되었습니다. 예를 들어 조건이나 이메일 개인화 등에 데이터 소스를 사용할 수 있습니다. 가령 기온이 섭씨 30도를 넘으면 특정 메시지를 보내도록 지정할 수 있습니다.
 

@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: 사용자 지정 작업으로 컬렉션을 동적으로 보내기
 description: Campaign v7/v8을 사용하여 메시지 보내기
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '430'
 ht-degree: 5%
 
 ---
@@ -100,7 +101,7 @@ ht-degree: 5%
 
 1. 사용자 지정 작업을 만듭니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
 
-1. 에서 **[!UICONTROL Action parameters]** 섹션에 JSON 예를 붙여넣습니다. 표시되는 구조는 정적입니다. 페이로드를 붙여넣을 때 모든 필드가 상수로 정의됩니다.
+1. 에서 **[!UICONTROL 작업 매개 변수]** 섹션에 JSON 예를 붙여넣습니다. 표시되는 구조는 정적입니다. 페이로드를 붙여넣을 때 모든 필드가 상수로 정의됩니다.
 
    ![](assets/uc-collection-1.png)
 
@@ -122,7 +123,7 @@ ht-degree: 5%
 
 1. 여정을 만들고 만든 사용자 지정 작업을 추가합니다. [이 페이지](../building-journeys/using-custom-actions.md)를 참조하십시오.
 
-1. 에서 **[!UICONTROL Action parameters]** 섹션에서 고급 표현식 편집기를 사용하여 배열 매개 변수(&quot;products&quot;)를 정의합니다.
+1. 에서 **[!UICONTROL 작업 매개 변수]** 섹션에서 고급 표현식 편집기를 사용하여 배열 매개 변수(&quot;products&quot;)를 정의합니다.
 
    ![](assets/uc-collection-3.png)
 

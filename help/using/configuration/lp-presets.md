@@ -1,10 +1,12 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 랜딩 페이지 사전 설정 정의
 description: Journey Optimizer에서 랜딩 페이지를 만들고 사용하도록 환경을 구성하는 방법을 알아봅니다
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8bc6b3a5b8836b547e9c697f9420532fdea4acbc
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 5%
@@ -64,7 +66,7 @@ When [랜딩 페이지 만들기](../landing-pages/create-lp.md#create-a-lp)을(
 
    선택한 하위 도메인에 해당하는 설정이 표시됩니다.
 
-1. 랜딩 페이지 하위 도메인을 추적 URL로 선택하려면 을(를) 선택합니다 **[!UICONTROL 랜딩 페이지 하위 도메인과 동일]** 선택 사항입니다. [추적에 대해 자세히 알아보기](../design/message-tracking.md)
+1. 추적 URL에 대한 랜딩 페이지 하위 도메인을 선택하려면 **[!UICONTROL 랜딩 페이지 하위 도메인과 동일]** 선택 사항입니다. [추적에 대해 자세히 알아보기](../design/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

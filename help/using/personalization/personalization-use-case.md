@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 개인화 사용 사례 및 콜론; 주문 상태 알림
 description: 프로필, 오퍼 결정 및 컨텍스트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
 feature: Personalization
@@ -6,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
@@ -30,7 +32,7 @@ ht-degree: 1%
 
 ## 1단계 - 여정 만들기 {#create-journey}
 
-1. 을(를) 클릭합니다. **[!UICONTROL Journeys]** 메뉴를 보고 새 여정을 만듭니다.
+1. 을(를) 클릭합니다. **[!UICONTROL 여정]** 메뉴를 보고 새 여정을 만듭니다.
 
    ![](assets/perso-uc4.png)
 
@@ -73,7 +75,7 @@ ht-degree: 1%
 
    ![](assets/perso-uc12.png)
 
-1. 에서 메시지를 입력하고 삽입 을 클릭합니다. **[!UICONTROL Contextual attributes]** 메뉴, 주문 품목 이름 및 주문 진행 상태
+1. 에서 메시지를 입력하고 삽입 을 클릭합니다. **[!UICONTROL 상황별 특성]** 메뉴, 주문 품목 이름 및 주문 진행 상태
 
    ![](assets/perso-uc13.png)
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 대기 활동
 description: 대기 활동에 대해 알아보기
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '327'
 ht-degree: 5%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 5%
 >title="대기 활동"
 >abstract="경로에서 다음 활동을 실행하기 전에 기다리려면 대기 활동을 사용할 수 있습니다. 이를 통해 다음 활동이 실행될 순간을 정의할 수 있습니다. 다음 두 가지 옵션을 사용할 수 있습니다. 기간 및 사용자 지정."
 
-경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL Wait]** 활동. 이를 통해 다음 활동이 실행될 순간을 정의할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다.
+경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL 대기]** 활동. 이를 통해 다음 활동이 실행될 순간을 정의할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다.
 
 * [기간](#duration)
 * [사용자 지정](#custom)
@@ -32,7 +34,7 @@ ht-degree: 5%
 
 ## 대기 활동 정보{#about_wait}
 
-최대 대기 기간은 30일입니다. 테스트 모드에서 **[!UICONTROL Wait time in test]** 매개 변수를 사용하면 각 대기 활동이 지속되는 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과가 빠르게 확인됩니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오
+최대 대기 기간은 30일입니다. 테스트 모드에서 **[!UICONTROL 테스트 대기 시간]** 매개 변수를 사용하면 각 대기 활동이 지속되는 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과가 빠르게 확인됩니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오
 
 여정에서 여러 대기 활동을 사용할 때는 글로벌 여정 시간 제한이 30일이므로 주의하십시오. 즉, 프로필이 입력된 후 최대 30일 후에 항상 여정에서 제외됩니다.
 

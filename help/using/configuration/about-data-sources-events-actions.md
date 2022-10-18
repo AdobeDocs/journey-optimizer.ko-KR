@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 여정 구성
 description: 데이터 소스, 이벤트 및 작업을 구성하는 방법을 알아봅니다.
 feature: Application Settings
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 44%
+source-wordcount: '406'
+ht-degree: 43%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 44%
 >title="여정 구성"
 >abstract="여정과 함께 메시지를 보내려면 데이터 소스, 이벤트 및 작업을 구성해야 합니다. 데이터 소스를 사용하면 여정에서 사용할 조건 등의 추가 정보를 검색할 시스템에 대한 연결을 정의할 수 있습니다. 이벤트를 사용하면 이벤트가 수신되면 여정을 트리거할 수 있습니다. 사용자 지정 작업을 사용하면 서드파티 시스템에 연결하여 메시지를 보낼 수 있습니다. Journey Optimizer 기본 제공 메시지 기능을 사용하는 경우 작업을 구성할 필요가 없습니다."
 
-여정과 함께 메시지를 보내려면 다음을 구성해야 합니다 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]**.
+여정과 함께 메시지를 보내려면 다음을 구성해야 합니다 **[!UICONTROL 데이터 소스]**, **[!UICONTROL 이벤트]** 및 **[!UICONTROL 작업]**.
 
 ![](assets/admin-menu.png)
 

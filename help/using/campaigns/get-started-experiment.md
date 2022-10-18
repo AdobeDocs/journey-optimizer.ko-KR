@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 콘텐츠 실험 시작
 description: 의 콘텐츠 실험에 대해 자세히 알아보십시오 [!DNL Journey Optimizer]
 feature: A/B Testing
@@ -8,10 +10,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1943'
+ht-degree: 1%
 
 ---
 

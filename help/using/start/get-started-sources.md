@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer에서 Sources 커넥터 시작하기
 description: Adobe Journey Optimizer에서 외부 소스에서 데이터를 수집하는 방법을 알아봅니다
 feature: Schemas
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 5%

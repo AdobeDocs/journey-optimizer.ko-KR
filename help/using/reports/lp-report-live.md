@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 랜딩 페이지 라이브 보고서
 description: 랜딩 페이지 라이브 보고서에서 데이터를 사용하는 방법을 알아봅니다
 feature: Journeys
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%

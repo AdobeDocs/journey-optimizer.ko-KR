@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 여정 단계 공유 개요
 description: 여정 단계 공유 개요
 feature: Reporting
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 5%
 
 ---
@@ -29,7 +31,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->실시간 프로필 서비스에 대해 데이터 세트를 설정할 수 없습니다. 다음 사항을 확인하십시오 **[!UICONTROL Profile]** 토글이 꺼져 있습니다.
+>실시간 프로필 서비스에 대해 데이터 세트를 설정할 수 없습니다. 다음 사항을 확인하십시오 **[!UICONTROL 프로필]** 토글이 꺼져 있습니다.
 
 [!DNL Journey Optimizer] 스트리밍 방식으로 데이터가 발생하는 대로 데이터를 전송합니다. 쿼리 서비스를 사용하여 이 데이터를 쿼리할 수 있습니다. Customer Journey Analytics 또는 기타 BI 도구에 연결하여 이러한 단계와 관련된 데이터를 볼 수 있습니다.
 

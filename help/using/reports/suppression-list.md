@@ -1,14 +1,16 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 제외 목록
-description: 억제 목록이 무엇이고, 그 목적과 그 목록에 포함된 것을 알아봅니다.
+description: 제외 목록을 사용하는 방법을 알아봅니다.
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '765'
 ht-degree: 3%
 
 ---

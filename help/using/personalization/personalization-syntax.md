@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 개인화 구문
 description: 개인화 구문을 사용하는 방법을 알아봅니다.
 feature: Personalization
@@ -6,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 7476c50f82c0fdd63f282b3ee2dc3756862f598c
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -27,7 +29,7 @@ Handlebars 구문에 대한 전체 설명은 다음을 참조하십시오 [Handl
 여기에서
 
 * `profile` 는 네임스페이스입니다.
-* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
+* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
 
 ## 구문 일반 규칙 {#general-rules}
 
