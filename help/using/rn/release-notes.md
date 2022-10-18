@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 95%
+source-wordcount: '1101'
+ht-degree: 90%
 
 ---
 
@@ -16,6 +16,15 @@ ht-degree: 95%
 [!DNL Adobe Journey Optimizer]은(는) 기본적으로 [!DNL Adobe Experience Platform] 기반으로 구축되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. [Adobe Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target=&quot;_blank&quot;}에서 이러한 변경 사항에 대해 자세히 알아보십시오.
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}에 등록하시면 분기마다 최신 제품 업데이트, 흥미로운 사례, 사용 사례, 팁 등을 받은 편지함에 바로 받을 수 있습니다.
+
+
+## 2022년 10월 {#oct-2022-release}
+
+### 개선 사항{#oct-2022-improvements}
+
+**여정**
+
+* 다음 **되풀이 시 강제 재진입** 반복 세그먼트 예약 매개 변수에 옵션이 추가되었습니다. 이 옵션을 사용하면 여정에 있는 모든 프로필을 다음 실행 시 자동으로 종료하도록 할 수 있습니다. 옵션이 비활성화되면 프로필이 다른 여정에 다시 입장하려면 먼저를 완료해야 합니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 ## 2022년 9월 릴리스{#sept-2022-release}
 
