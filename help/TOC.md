@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
+source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1188'
 ht-degree: 96%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 96%
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 게시](using/building-journeys/publishing-the-journey.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
-      + [여정 복사 다른 샌드박스로](using/building-journeys/copy-to-sandbox.md)
+      + [다른 샌드박스로 여정 복사](using/building-journeys/copy-to-sandbox.md)
       + [여정 문제 해결](using/building-journeys/troubleshooting.md)
    + 활동 {#about-journey-building}
       + [여정 활동 정보](using/building-journeys/about-journey-activities.md)
@@ -398,6 +398,7 @@ ht-degree: 96%
             + [다시 시도](using/configuration/retries.md)
             + [허용 목록](using/configuration/allow-list.md)
       + [SMS 채널 구성](using/configuration/sms-configuration.md)
+      + [DM 구성](using/configuration/direct-mail-configuration.md)
       + 채널 표면 설정 {#set-up-channels}
          + [채널 표면 생성](using/configuration/channel-surfaces.md)
          + [이메일 설정 구성](using/configuration/email-settings.md)
