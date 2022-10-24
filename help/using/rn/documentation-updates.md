@@ -4,10 +4,10 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '2005'
-ht-degree: 99%
+source-wordcount: '2054'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,9 @@ ht-degree: 99%
 
 ## 2022년 10월 {#october-2022}
 
+* 외부 데이터 소스 및 사용자 지정 작업을 사용하여 처리량을 제한하는 방법에 대한 여정 사용 사례를 추가했습니다. [자세히 보기](../building-journeys/limit-throughput.md)
+* 여정 사용 사례 섹션이 다음 두 가지 카테고리로 재구성되었습니다. [비즈니스 사용 사례](../building-journeys/journeys-uc.md) 및 [기술 사용 사례](../building-journeys/collections.md).
+* 다음 **엔티티 데이터 세트** 섹션을 더 자세히 업데이트했습니다. [자세히 보기](../start/datasets-query-examples.md#entity-dataset)
 * 옵트아웃 관리 및 동의 정책에 대한 정보가 새 섹션으로 재구성되었습니다. [자세히 보기](../privacy/opt-out.md)
 
 ## 2022년 9월 {#september-2022}

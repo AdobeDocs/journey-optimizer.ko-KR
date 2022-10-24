@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 96%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -243,11 +243,14 @@ ht-degree: 96%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + 사용 사례 {#journey-use-cases}
-      + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
-      + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
-      + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
-      + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
-      + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
+      + 비즈니스 사용 사례 {#business-use-cases}
+         + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
+         + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
+         + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
+      + 기술 사용 사례 {#technical-use-cases}
+         + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
+         + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [외부 데이터 소스 및 사용자 지정 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)
