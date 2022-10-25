@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 95%
+source-wordcount: '1222'
+ht-degree: 94%
 
 ---
 
@@ -53,6 +53,12 @@ ht-degree: 95%
    + [DM 만들기](using/messages/create-direct-mail.md)
    + [경고 확인](using/messages/alerts.md)
    + [전송 시간 최적화](using/messages/send-time-optimization.md)
++ 웹 채널{#web}
+   + [웹 채널 시작](using/web/get-started-web.md)
+   + [웹 경험 만들기](using/web/create-web.md)
+   + [웹 페이지 작성](using/web/author-web.md)
+   + [Visual Editing Helper 확장 기능](using/web/visual-editing-helper.md)
+   + [웹 보고](using/web/web-report.md)
 + 콘텐츠 디자인 {#design}
    + [이메일 디자인 시작](using/design/design-emails.md)
    + [처음부터 시작 ](using/design/create-email-content.md)
