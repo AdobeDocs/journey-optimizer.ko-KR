@@ -7,9 +7,9 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ Adobe Experience Platform의 경고에 대해 자세히 알아보기 [설명서]
 
 ![](assets/alerts1.png)
 
-이러한 예기치 않은 동작이 발생하면 인터페이스 오른쪽 상단 모서리에 있는 이메일 및 인앱 알림을 통해 경고 가입자에게 경고 알림이 전송됩니다.
+이러한 예기치 않은 동작이 발생하면 인터페이스 오른쪽 상단 모서리에 있는 이메일을 통해 경고 가입자에게 경고 알림이 전송됩니다.
 
 ![](assets/alerts2.png)
 

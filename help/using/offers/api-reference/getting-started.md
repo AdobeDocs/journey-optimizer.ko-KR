@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '587'
 ht-degree: 5%
 
 ---
@@ -127,10 +127,11 @@ curl -X GET \
 ## 다음 단계 {#next-steps}
 
 이 문서는 [!DNL Offer Library] 컨테이너 ID 획득을 포함한 API. 이제 이 개발자 가이드에 제공된 샘플 호출을 진행하여 지침을 따라 수행할 수 있습니다.
-
+<!--
 >[!NOTE]
 >
-> Adobe Journey Optimizer의 인앱 메시지 채널은 의사 결정 관리 개체를 사용합니다. 조직에서 인앱 메시징 채널을 사용하는 경우 개체의 API 목록 요청에 인앱 메시징 서비스에서 만든 개체가 포함되며 의사 결정 관리 사용 사례에 대해 무시될 수 있습니다. 인앱 메시지에 대해 생성된 개체에는 `createdBy = “Mobile_Sheliak”`.
+> The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = “Mobile_Sheliak”`.
+-->
 
 ## 방법 비디오 {#video}
 
