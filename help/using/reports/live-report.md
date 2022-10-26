@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '1011'
 ht-degree: 4%
 
 ---
@@ -228,25 +228,13 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
   <td>바운스<br/> </td> 
    <td>랜딩 페이지와 상호 작용하지 않고 구독 작업을 완료하지 않은 사람 수입니다.<br/> </td> 
 </tr>
- <tr> 
-   <td>바운스 비율<br/> </td> 
-   <td>랜딩 페이지와 상호 작용하지 않고 구독 작업을 완료하지 않은 사람 수입니다.<br/> </td> 
-</tr>
  <tr>
   <tr> 
    <td>클릭 수<br/> </td> 
    <td>랜딩 페이지에서 콘텐츠를 클릭한 횟수입니다.<br/> </td> 
 </tr>
- <tr> 
-   <td>클릭률<br/> </td> 
-   <td>랜딩 페이지에서 클릭하는 비율입니다.<br/> </td>
-</tr>
 <tr>
 <td>전환<br/> </td> 
-   <td>랜딩 페이지와 상호 작용한 사용자(예: 양식 구독) 수입니다.<br/> </td> 
-</tr>
-<tr>
-   <td>전환율<br/> </td> 
    <td>랜딩 페이지와 상호 작용한 사용자(예: 양식 구독) 수입니다.<br/> </td> 
 </tr>
  <tr> 
@@ -272,3 +260,77 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
  </tbody> 
 </table>
 
+### 푸시 알림 지표 {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 지표<br/> </th> 
+   <th> 정의<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>작업<br/> </td> 
+   <td> 전달된 푸시 알림에 대한 총 작업 수(예: 단추 클릭 또는 취소)<br/> </td> 
+</tr>
+  <tr> 
+   <td>바운스<br/> </td> 
+   <td> 게재 및 자동 반환 처리 중에 누적되는 총 오류 수입니다.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 게재됨<br/> </td> 
+   <td> 성공적으로 보낸 메시지 수입니다.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>참여 횟수<br/> </td> 
+   <td> 이 푸시 알림에 대한 총 열기 및 작업 수(즉, 프로필이 푸시를 열었는지 또는 단추를 클릭했는지 여부)입니다.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 오류<br/> </td> 
+   <td> 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.<br/> </td> 
+</tr>
+  <tr> 
+   <td> 제외<br/> </td> 
+   <td> Adobe Journey Optimizer에서 제외된 프로필 수입니다.<br/> </td> 
+</tr>
+  <tr> 
+   <td> 열림<br/> </td> 
+   <td> 장치에 배달되고 사용자가 클릭했던 총 푸시 알림 수로 인해 앱이 열립니다. 알림이 무시되면 푸시 열기가 트리거되지 않는다는 점을 제외하고 푸시 클릭과 유사합니다.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 보냄<br/> </td> 
+   <td> 게재에 대한 총 전송 수입니다.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 타깃팅됨<br/> </td> 
+   <td> 게재 분석 중에 처리된 총 푸시 메시지 수입니다.<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->
