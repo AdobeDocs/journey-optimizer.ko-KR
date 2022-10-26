@@ -4,7 +4,7 @@ product: journey optimizer
 title: API를 사용하여 캠페인 트리거
 description: 을 사용하여 캠페인을 트리거하는 방법 알아보기 [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 3%
@@ -76,6 +76,7 @@ API로 트리거되는 캠페인을 사용하여 API 페이로드에서 추가 �
 >[!IMPORTANT]
 >
 >다음 `context.system` 구문은 Adobe 내부 사용으로만 제한되며 컨텍스트 속성을 전달하는 데 사용해서는 안 됩니다.
+
 현재는 왼쪽 레일 메뉴에서 사용할 수 있는 상황별 속성이 없습니다. 에서는 확인이 수행되지 않고 속성을 개인화 표현식에 직접 입력해야 합니다. [!DNL Journey Optimizer].
 
 ## 캠페인 실행 {#execute}

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '989'
 ht-degree: 2%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 2%
 
 1. 조회할 속성을 선택하고 등급 순서(오름차순 또는 내림차순)를 지정합니다.
 
-   >[참고]
+   >[!NOTE]
    >
    >다음 데이터 유형을 사용하는 속성을 선택할 수 있습니다. 정수, 숫자, 단락 <!--(other?)-->
 

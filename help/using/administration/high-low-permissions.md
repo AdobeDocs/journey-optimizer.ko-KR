@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 0%
@@ -275,6 +275,7 @@ It includes the following low-level permissions:
 * Adobe Experience Platform specific: 
   * schemas.read
 -->
+
 ### [!DNL Manage channel surface] 권한 {#manage-channel-surface}
 
 다음 **[!DNL Manage channel surface]** 높은 수준의 권한을 통해 샌드박스 수준에서 채널 간에 채널 서피스를 생성, 편집 및 삭제할 수 있습니다.

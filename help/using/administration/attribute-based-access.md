@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 3%
@@ -127,7 +127,7 @@ ABAC에서 사용되는 용어에 대한 자세한 목록은 다음을 참조하
 
    ![](assets/journey_1.png)
 
-1. 새 추가 **[!UICONTROL 필드 그룹]** 새로 만든 **[!UICONTROL 스키마]** 기본 제공 **[!UICONTROL 데이터 소스]**. 새 외부 파일을 만들 수도 있습니다 **[!UICONTROLD데이터 소스]** 및 관련 **[!UICONTROL 필드 그룹]**.
+1. 새 추가 **[!UICONTROL 필드 그룹]** 새로 만든 **[!UICONTROL 스키마]** 기본 제공 **[!UICONTROL 데이터 소스]**. 새 외부 파일을 만들 수도 있습니다 **[!UICONTROL 데이터 소스]** 및 관련 **[!UICONTROL 필드 그룹]**.
 
    ![](assets/journey_2.png)
 

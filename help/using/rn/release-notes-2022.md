@@ -4,7 +4,7 @@ product: journey optimizer
 title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '2519'
 ht-degree: 100%
@@ -525,7 +525,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>이제 Journey Optimizer 메시지 콘텐츠에서 링크에 UTM 매개 변수를 추가할 수 있습니다. 이 링크를 통해 해당 링크에 대한 추가 데이터를 제공할 수 있으며, 사용자가 링크를 클릭한 위치와 이유를 파악할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../configuration/channel-surfaces.md#configure-email-settings">자세한 설명서</a>를 참조하세요.</p-->
+<p>자세한 내용은 <a href="../configuration/channel-surfaces.md#configure-email-settings">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

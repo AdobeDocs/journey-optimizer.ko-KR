@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 3%
@@ -231,6 +231,7 @@ curl -X POST \
 }
 }'
 ```
+
 ## 방법 비디오 {#video}
 
 테스트 프로필을 만드는 방법을 알아봅니다.

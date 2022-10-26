@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: fe6fedfd3fb0a8b083f7b047e2879ef6510b041b
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 8%
@@ -30,6 +30,7 @@ DM 메시지는 예약된 캠페인 컨텍스트에서만 만들 수 있습니�
 >[!IMPORTANT]
 >
 >DM 메시지를 보내기 전에 다음을 구성했는지 확인합니다.
+>
 >* A [파일 라우팅 구성](../configuration/direct-mail-configuration.md#file-routing-configuration) 추출 파일을 업로드하고 저장할 서버를 지정합니다.
 >* A [DM 메시지 표면](../configuration/direct-mail-configuration.md#direct-mail-surface) 파일 라우팅 구성을 참조합니다.
 

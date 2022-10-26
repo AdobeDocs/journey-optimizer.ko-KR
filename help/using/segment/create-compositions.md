@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '352'
 ht-degree: 6%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 6%
 
    ![](assets/audiences-publish.png)
 
-1. 컴포지션이 준비되면 [**!UICONTROL 게시]** 단추를 클릭하여 컴포지션을 게시하고 결과 대상을 Adobe Experience Platform에 저장합니다.
+1. 컴포지션이 준비되면 **[!UICONTROL 게시]** 단추를 클릭하여 컴포지션을 게시하고 결과 대상을 Adobe Experience Platform에 저장합니다.
 
    게시 중에 오류가 발생하면 문제를 해결하는 방법에 대한 정보가 포함된 경고가 표시됩니다.
 

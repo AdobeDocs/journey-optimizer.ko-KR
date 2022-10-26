@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 직관적인 시각적 인터페이스를 통해 이 기능을 사용하면 최종 사용자 캠페인을 실험, 최적화 및 개인화하기 위해 웹 속성을 쉽게 수정할 수 있습니다.
 
-<!-->
-➡️ [이 비디오에서 웹 채널에 대해 자세히 알아보십시오](#video)
-—>
+<!--
+[Learn more on web channel in this video](#video)
+-->
 
 <table>
 <tr>
@@ -42,10 +42,10 @@ ht-degree: 0%
 </tr>
 </table>
 
-<!-->
-## 방법 비디오{#video}
+<!--
+## How-to video{#video}
 
-아래 비디오에서는 다음 방법을 보여줍니다.
+The video below shows how to 
 
 >[!VIDEO]()
 -->

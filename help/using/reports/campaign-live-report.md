@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 3%
@@ -44,6 +44,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
 
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
 -->
+
 ## 이메일 탭 {#email-live}
 
 캠페인에서 **[!UICONTROL 라이브 보고서]**, **[!UICONTROL 이메일]** 탭 은 campaign에서 전송된 이메일 게재와 관련된 주요 정보를 자세히 설명합니다.
