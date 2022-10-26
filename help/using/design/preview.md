@@ -11,7 +11,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 그러면 다음을 수행할 수 있습니다 [증명 보내기](#send-proofs) 테스트 프로필로 이동합니다.
 
-또한 **리트머스** 계정 [!DNL Journey Optimizer] 즉시 미리 보려면 **전자 메일 렌더링** 인기 있는 이메일 클라이언트에서 그런 다음 모든 받은 편지함에서 전자 메일 콘텐츠가 제대로 표시되고 제대로 작동하는지 확인할 수 있습니다. 에서 리트머스 전자 메일 미리 보기의 잠금을 해제하는 방법을 알아봅니다. [이 섹션](#email-rendering)
+또한 **Litmus** 계정을 [!DNL Journey Optimizer]에 활용하면 인기 있는 이메일 클라이언트에서 **이메일 렌더링**&#x200B;을 즉시 미리 볼 수 있습니다. 그런 다음 모든 받은 편지함에서 이메일 콘텐츠가 제대로 표시되고 제대로 작동하는지 확인할 수 있습니다. 에서 리트머스 전자 메일 미리 보기의 잠금을 해제하는 방법을 알아봅니다. [이 섹션](#email-rendering)
 
 >[!CAUTION]
 >

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2008'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 >
 >에서 오퍼 라이브러리의 각 개체에 대해 내보낸 데이터 세트에 액세스하는 방법을 알아봅니다 [이 섹션](../export-catalog/access-dataset.md).
 
-다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL Decision Object Repository - Personalized Offers]** 데이터 세트.
+다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL 의사 결정 개체 저장소 - 개인화된 오퍼]** 데이터 세트.
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 

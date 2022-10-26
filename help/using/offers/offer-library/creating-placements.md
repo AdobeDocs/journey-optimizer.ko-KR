@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 13%
+source-wordcount: '244'
+ht-degree: 11%
 
 ---
 
@@ -28,26 +28,26 @@ ht-degree: 13%
 
 ![](../assets/offers_placement_schema.png)
 
-배치 목록은 **[!UICONTROL Components]** 메뉴 아래의 제품에서 사용할 수 있습니다. 필터를 사용하여 특정 채널 또는 컨텐츠에 따라 배치를 검색하는 데 도움이 됩니다.
+배치 목록은 **[!UICONTROL 구성 요소]** 메뉴 아래의 제품에서 사용할 수 있습니다. 필터를 사용하여 특정 채널 또는 컨텐츠에 따라 배치를 검색하는 데 도움이 됩니다.
 
 ![](../assets/placements_filter.png)
 
 배치를 만들려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL Create placement]**&#x200B;을(를) 클릭합니다.
+1. 클릭 **[!UICONTROL 배치 만들기]**.
 
    ![](../assets/offers_placement_creation.png)
 
 1. 배치 속성을 정의합니다.
 
-   * **[!UICONTROL Name]**: 배치 이름입니다. 의미 있는 이름을 정의하여 쉽게 검색할 수 있도록 합니다.
-   * **[!UICONTROL Channel type]**: 배치를 사용할 채널입니다.
-   * **[!UICONTROL Content type]**: 배치에서 표시할 컨텐츠 유형: 텍스트, HTML, 이미지 링크 또는 JSON입니다.
-   * **[!UICONTROL Description]**: 배치에 대한 설명입니다(선택 사항).
+   * **[!UICONTROL 이름]**: 배치 이름입니다. 의미 있는 이름을 정의하여 쉽게 검색할 수 있도록 합니다.
+   * **[!UICONTROL 채널 유형]**: 배치를 사용할 채널입니다.
+   * **[!UICONTROL 컨텐츠 유형]**: 배치에서 표시할 컨텐츠 유형: 텍스트, HTML, 이미지 링크 또는 JSON입니다.
+   * **[!UICONTROL 설명]**: 배치에 대한 설명입니다(선택 사항).
 
    ![](../assets/offers_placement_creation_properties.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 확인합니다.
+1. 클릭 **[!UICONTROL 저장]** 확인합니다.
 
 1. 배치가 만들어지면 배치 목록에 표시됩니다. 속성을 표시하고 편집할 수 있도록 선택할 수 있습니다.
 

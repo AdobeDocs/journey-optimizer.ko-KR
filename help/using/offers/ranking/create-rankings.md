@@ -1,5 +1,5 @@
 ---
-title: ' 등급 만들기'
+title: 등급 만들기
 description: 등급을 만드는 방법을 알아봅니다
 feature: Offers
 topic: Integrations

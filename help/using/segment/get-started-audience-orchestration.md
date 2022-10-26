@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 대상 구성 시작
+title: 대상자 구성 시작
 description: 대상 구성에 대해 자세히 알아보기
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# 대상 구성 시작 {#get-start-audience-composition}
+# 대상자 구성 시작 {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"

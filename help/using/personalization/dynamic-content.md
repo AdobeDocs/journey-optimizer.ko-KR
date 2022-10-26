@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 동적 콘텐츠 만들기
+title: 다이내믹 콘텐츠 만들기
 description: 메시지에 동적 기능을 추가하는 방법을 알아봅니다.
 feature: Personalization
 topic: Personalization
@@ -10,12 +10,12 @@ level: Intermediate
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 동적 콘텐츠 만들기 {#dynamic-content}
+# 다이내믹 콘텐츠 만들기 {#dynamic-content}
 
 Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 규칙을 활용하여 메시지에 동적 콘텐츠를 추가할 수 있습니다.
 

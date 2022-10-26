@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 90%
 <tbody>
 <tr>
 <td>
-<p>이제 조건부 규칙에 따라 메시지 콘텐츠를 조정할 수 있는 동적 콘텐츠를 만들 수 있습니다.</p> 
+<p>이제 조건부 규칙에 따라 메시지 콘텐츠를 조정할 수 있는 다이내믹 콘텐츠를 만들 수 있습니다.</p> 
 <p>조건부 규칙은 표현식 편집기 내에서 시각적 규칙 빌더를 사용하여 작성되며, 이 빌더를 저장하여 여정 및 캠페인 간에 다시 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
 <p>자세한 내용은 <a href="../personalization/get-started-dynamic-content.md">세부 설명서</a>를 참조하세요.

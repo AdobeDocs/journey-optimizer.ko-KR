@@ -11,7 +11,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 18%
 
 * **Adobe Stock 사진**&#x200B;을 찾아 콘텐츠를 빌드하고 이메일 디자인을 개선합니다. [자세히 보기](../design/stock.md)
 
-* 프로필 속성을 기반으로 개인화되고 다이내믹 메시지를 만들어 고객의 경험을 개선합니다. 추가 정보 [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md).
+* 프로필 속성을 기반으로 개인화되고 다이내믹 메시지를 만들어 고객의 경험을 개선합니다. [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)에 대해 자세히 알아보십시오.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1550'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 >
 >에서 오퍼 라이브러리의 각 개체에 대해 내보낸 데이터 세트에 액세스하는 방법을 알아봅니다 [이 섹션](../export-catalog/access-dataset.md).
 
-다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL Decision Object Repository - Decisions]** 데이터 세트(이전에는 결정 객체 저장소 - 활동이라고 함)
+다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL 결정 객체 저장소 - 결정]** 데이터 세트(이전에는 결정 객체 저장소 - 활동이라고 함)
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 

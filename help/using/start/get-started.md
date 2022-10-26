@@ -11,7 +11,7 @@ exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 97%
 
 ## 아키텍처 {#architecture}
 
-의 기본 아키텍처 이해 [!DNL Adobe Journey Optimizer], 통합 지점 및 그 간의 관계 [!DNL Journey Optimizer] 및 [!DNL Experience Platform]로 나열된 상태로 남아 있는 문제를 해결했습니다.
+아래 다이어그램에서 [!DNL Adobe Journey Optimizer]의 기본 아키텍처, 통합 지점, [!DNL Journey Optimizer]와(과) [!DNL Experience Platform] 사이의 관계를 이해합니다.
 
 ![](assets/ajo-architecture.png)
 

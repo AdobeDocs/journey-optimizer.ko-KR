@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '451'
 ht-degree: 6%
 
 ---
@@ -46,11 +46,11 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 공식**. 오
 
 1. 각 배치에 대해 컬렉션을 추가합니다. 자세한 내용은 [컬렉션 만들기](../offer-library/creating-collections.md).
 
-1. 선택 **[!UICONTROL Ranking formula]** 를 순위 지정 메서드로 설정한 다음 **[!UICONTROL Add ranking]**.
+1. 선택 **[!UICONTROL 등급 공식]** 를 순위 지정 메서드로 설정한 다음 **[!UICONTROL 등급 추가]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. 원하는 등급 공식을 선택하고 을 클릭합니다 **[!UICONTROL Select]**.
+1. 원하는 등급 공식을 선택하고 을 클릭합니다 **[!UICONTROL 선택]**.
 
    ![](../assets/ranking-selection.png)
 
@@ -72,7 +72,7 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 공식**. 오
 
 1. 각 배치에 대해 컬렉션을 추가합니다. 자세한 내용은 [컬렉션 만들기](../offer-library/creating-collections.md).
 
-1. 오퍼의 등급을 매기도록 선택합니다 **[!UICONTROL AI ranking]** 드롭다운 목록에서 **[!UICONTROL Add ranking]**.
+1. 오퍼의 등급을 매기도록 선택합니다 **[!UICONTROL AI 순위]** 드롭다운 목록에서 **[!UICONTROL 등급 추가]**.
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
@@ -80,7 +80,7 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 공식**. 오
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다. 이제 등급 전략이 배치와 연결됩니다.
+1. **[!UICONTROL 선택]**&#x200B;을 클릭합니다. 이제 등급 전략이 배치와 연결됩니다.
 
 여러 오퍼가 적격인 경우, 훈련된 모델 시스템에서 지정된 배치에 대해 먼저 제공해야 하는 오퍼를 결정합니다.
 

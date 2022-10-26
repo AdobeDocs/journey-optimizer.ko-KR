@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 94%
    + 다이내믹 콘텐츠 {#dynamic}
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
-      + [동적 콘텐츠 만들기](using/personalization/dynamic-content.md)
+      + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
 + 세그먼트, 프로필, 신원{#segment}
    + 세그먼트 {#segments}
       + [세그먼트 시작](using/segment/about-segments.md)
@@ -127,8 +127,8 @@ ht-degree: 94%
       + [프로필 시작](using/segment/get-started-profiles.md)
       + [테스트 프로필 만들기](using/segment/creating-test-profiles.md)
    + [ID](using/segment/get-started-identity.md)
-   + 대상자 작성 {#audience-orchestration}
-      + [대상 구성 시작](using/segment/get-started-audience-orchestration.md)
+   + 대상자 구성 {#audience-orchestration}
+      + [대상자 구성 시작](using/segment/get-started-audience-orchestration.md)
       + [컴포지션 워크플로우 만들기](using/segment/create-compositions.md)
       + [컴포지션 캔버스 작업](using/segment/composition-canvas.md)
       + [대상자 액세스 및 관리](using/segment/access-audiences.md)

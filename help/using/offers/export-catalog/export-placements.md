@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '369'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 5%
 >
 >에서 오퍼 라이브러리의 각 개체에 대해 내보낸 데이터 세트에 액세스하는 방법을 알아봅니다 [이 섹션](../export-catalog/access-dataset.md).
 
-다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL Decision Object Repository - Placements]** 데이터 세트.
+다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL 결정 객체 저장소 - 배치]** 데이터 세트.
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 

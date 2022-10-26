@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 1%
 
 등급 공식을 만들려면 아래 단계를 수행하십시오.
 
-1. 액세스 권한 **[!UICONTROL Components]** 메뉴를 선택한 다음 **[!UICONTROL Rankings]** 탭. 이전에 만든 등급 목록이 표시됩니다.
+1. 액세스 권한 **[!UICONTROL 구성 요소]** 메뉴를 선택한 다음 **[!UICONTROL 순위]** 탭. 이전에 만든 등급 목록이 표시됩니다.
 
    ![](../assets/rankings-list.png)
 
-1. 클릭 **[!UICONTROL Create ranking]** 새 등급 공식을 생성합니다.
+1. 클릭 **[!UICONTROL 등급 만들기]** 새 등급 공식을 생성합니다.
 
    ![](../assets/ranking-create-formula.png)
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
    ![](../assets/ranking-syntax.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 등급 공식이 생성되면 목록에서 선택하여 세부 정보를 얻고 편집하거나 삭제할 수 있습니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 등급 공식이 생성되면 목록에서 선택하여 세부 정보를 얻고 편집하거나 삭제할 수 있습니다.
 
    이제 배치에 적합한 오퍼의 등급을 매기는 결정에 사용할 준비가 되었습니다( 참조) [결정에서 오퍼 선택 구성](../offer-activities/configure-offer-selection.md)).
 

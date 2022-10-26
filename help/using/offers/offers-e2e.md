@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1085'
 ht-degree: 6%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 6%
 
 오퍼 만들기를 시작하기 전에 오퍼에서 사용할 몇 가지 구성 요소를 정의해야 합니다.
 
-아래에 있습니다 **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
+아래에 있습니다 **[!UICONTROL 의사 결정 관리]** > **[!UICONTROL 구성 요소 메뉴]**.
 
 1. 만들기 시작 **배치** 을 참조하십시오.
 
@@ -83,7 +83,7 @@ ht-degree: 6%
 
    의사 결정 규칙은 Adobe Experience Platform의 프로필에 최상의 오퍼를 제공합니다.
 
-   를 사용하여 두 개의 간단한 규칙을 구성합니다 **[!UICONTROL XDM Individual Profile > Person > Gender]** attribute:
+   를 사용하여 두 개의 간단한 규칙을 구성합니다 **[!UICONTROL XDM 개별 프로필 > 개인 > 성별]** attribute:
 
    * *여성 고객*
    * *남성 고객*
@@ -132,13 +132,13 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-representations.png)
 
-1. 에서 **[!UICONTROL Offer eligibility]** 섹션, **[!UICONTROL By defined decision rule]** 원하는 규칙을 드래그하여 놓습니다.
+1. 에서 **[!UICONTROL 오퍼 자격]** 섹션, **[!UICONTROL 정의된 의사 결정 규칙에 의해]** 원하는 규칙을 드래그하여 놓습니다.
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. 을(를) 입력합니다. **[!UICONTROL Priority]**. 이 예에서 를 추가합니다. *25년*.
+1. 을(를) 입력합니다. **[!UICONTROL 우선순위]**. 이 예에서 를 추가합니다. *25년*.
 
-1. 오퍼를 검토한 다음 **[!UICONTROL Save and approve]**.
+1. 오퍼를 검토한 다음 **[!UICONTROL 저장 및 승인]**.
 
    ![](assets/offers-e2e-review.png)
 
@@ -167,7 +167,7 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 대체 오퍼를 검토하고 **[!UICONTROL Save and approve]**.
+1. 대체 오퍼를 검토하고 **[!UICONTROL 저장 및 승인]**.
 
 ![](assets/offers-e2e-fallback.png)
 
@@ -213,7 +213,7 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. 결정을 검토하고 **[!UICONTROL Save and approve]**.
+1. 결정을 검토하고 **[!UICONTROL 저장 및 승인]**.
 
    ![](assets/offers-e2e-review-decision.png)
 

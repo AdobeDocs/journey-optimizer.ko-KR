@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 >
 >에서 오퍼 라이브러리의 각 개체에 대해 내보낸 데이터 세트에 액세스하는 방법을 알아봅니다 [이 섹션](../export-catalog/access-dataset.md).
 
-다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL Decision Object Repository - Fallback Offers]** 데이터 세트.
+다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL 결정 객체 저장소 - 대체 오퍼]** 데이터 세트.
 
 ## 식별자 {#identifier}
 

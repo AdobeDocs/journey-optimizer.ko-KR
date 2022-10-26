@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 64%
+source-wordcount: '642'
+ht-degree: 40%
 
 ---
 
@@ -21,33 +21,33 @@ ht-degree: 64%
 >
 >오퍼 라이브러리 또는 해당 기능 중 일부에 액세스하는 데 문제가 발생하는 경우 관리 사용자에게 필요한 권한이 부여되었는지 확인하십시오. 자세한 내용은 [의사 결정 관리에 대한 액세스 권한 부여](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
-**[!UICONTROL Offers]** 메뉴를 사용하여 개인화된 오퍼와 대체 오퍼를 관리하고, 오퍼를 컬렉션에 구성하고, 의사 결정을 만들어 이를 제공합니다.
+를 사용하십시오  **[!UICONTROL 오퍼]** 메뉴를 사용하여 개인화된 오퍼와 대체 오퍼를 관리하고, 컬렉션으로 구성하고, 결정을 내려 배달합니다.
 
-* **[!UICONTROL Overview]**: 신규 대상 [!DNL decision management]? 화면의 단계에 따라 배치, 오퍼 및 컬렉션 설정을 시작합니다. 에 대해 이미 알고 있는 경우 [!DNL decision management]를 통해 최신 오퍼, 컬렉션 및 결정에 대한 개요를 알 수 있습니다. [개요](#overview)를 참조하십시오.
+* **[!UICONTROL 개요]**: 신규 대상 [!DNL decision management]? 화면의 단계에 따라 배치, 오퍼 및 컬렉션 설정을 시작합니다. 에 대해 이미 알고 있는 경우 [!DNL decision management]를 통해 최신 오퍼, 컬렉션 및 결정에 대한 개요를 알 수 있습니다. [개요](#overview)를 참조하십시오.
 
-* **[!UICONTROL Offers]**: 개인화된 대체 오퍼에 액세스하거나 새로운 오퍼를 만들 수 있습니다. [오퍼 만들기](../offer-library/creating-personalized-offers.md) 및 [대체 오퍼 만들기](../offer-library/creating-fallback-offers.md)를 참조하십시오.
+* **[!UICONTROL 오퍼]**: 개인화된 오퍼 및 대체 오퍼에 액세스하거나 새 오퍼를 만듭니다. [오퍼 만들기](../offer-library/creating-personalized-offers.md) 및 [대체 오퍼 만들기](../offer-library/creating-fallback-offers.md)를 참조하십시오.
 
-* **[!UICONTROL Collections]**: 정적 및 동적 오퍼 컬렉션을 만들고 관리합니다. [오퍼 컬렉션 정보](../offer-library/creating-collections.md)를 참조하십시오.
+* **[!UICONTROL 컬렉션]**: 정적 및 동적 오퍼 컬렉션을 만들고 관리합니다. [오퍼 컬렉션 정보](../offer-library/creating-collections.md)를 참조하십시오.
 
-* **[!UICONTROL Decisions]**: 오퍼를 게재할 의사 결정을 만들고 관리합니다. [의사 결정 만들기](../offer-activities/create-offer-activities.md)를 참조하십시오.
+* **[!UICONTROL 결정]**: 오퍼를 전달하는 결정을 만들고 관리합니다. [의사 결정 만들기](../offer-activities/create-offer-activities.md)를 참조하십시오.
 
 ![](../assets/offers_menu.png)
 
-오퍼를 만드는 데 필요한 구성 요소를 관리하려면 **[!UICONTROL Components]** 메뉴를 사용합니다.
+를 사용하십시오  **[!UICONTROL 구성 요소]** 메뉴를 사용하여 오퍼를 생성하는 데 필요한 구성 요소를 관리할 수 있습니다.
 
-* **[!UICONTROL Placements]**: 오퍼가 표시될 배치를 만들고 관리합니다. [배치 만들기](../offer-library/creating-placements.md)를 참조하십시오.
+* **[!UICONTROL 배치]**: 오퍼가 표시될 배치를 만들고 관리합니다. [배치 만들기](../offer-library/creating-placements.md)를 참조하십시오.
 
-* **[!UICONTROL Tags]**: 태그를 만들고 관리하여 오퍼를 구성하고 필터링합니다. [태그 만들기](../offer-library/creating-tags.md)를 참조하십시오.
+* **[!UICONTROL 태그]**: 태그를 만들고 관리하여 오퍼를 구성하고 필터링합니다. [태그 만들기](../offer-library/creating-tags.md)를 참조하십시오.
 
-* **[!UICONTROL Rules]**: 오퍼가 표시되는 조건을 관리합니다. [의사 결정 규칙 만들기](../offer-library/creating-decision-rules.md)를 참조하십시오.
+* **[!UICONTROL 규칙]**: 오퍼가 표시되는 조건을 관리합니다. [의사 결정 규칙 만들기](../offer-library/creating-decision-rules.md)를 참조하십시오.
 
-* **[!UICONTROL Rankings]**: 등급 공식을 만들고 관리하여 지정된 배치에 대해 먼저 제시해야 하는 오퍼를 결정합니다. [등급 수식 만들기](../ranking/create-ranking-formulas.md)를 참조하십시오.
+* **[!UICONTROL 순위]**: 지정된 배치에 대해 먼저 제공해야 하는 오퍼를 결정하려면 등급 공식을 만들고 관리합니다. [등급 수식 만들기](../ranking/create-ranking-formulas.md)를 참조하십시오.
 
 ![](../assets/offer_activities.png)
 
 ## 개요 {#overview}
 
-처음 [!DNL decision management], **[!UICONTROL Overview]** 탭에서는 첫 번째 오퍼 결정 작성을 시작하는 데 필요한 주요 단계를 안내합니다.
+처음 [!DNL decision management], **[!UICONTROL 개요]** 탭에서는 첫 번째 오퍼 결정 작성을 시작하는 데 필요한 주요 단계를 안내합니다.
 
 ![](../assets/overview_onboarding.png)
 
@@ -61,11 +61,11 @@ ht-degree: 64%
 >
 >오퍼를 만들고 결정에서 사용하는 주요 단계는 [이 섹션](../offer-library/key-steps.md).
 
-익숙할 때 [!DNL decision management] 그리고 귀하는 적어도 하나의 오퍼 결정, 즉 **[!UICONTROL Overview]** 탭에는 최근 오퍼, 컬렉션 및 결정이 표시됩니다.
+익숙할 때 [!DNL decision management] 그리고 귀하는 적어도 하나의 오퍼 결정, 즉 **[!UICONTROL 개요]** 탭에는 최근 오퍼, 컬렉션 및 결정이 표시됩니다.
 
 선택한 항목의 세부 정보에 직접 액세스하려면 오퍼나 결정을 클릭합니다.
 
-을(를) 클릭합니다. **[!UICONTROL View all]** 오퍼, 컬렉션 또는 결정 목록에 액세스할 수 있는 단추입니다.
+을(를) 클릭합니다. **[!UICONTROL 모두 보기]** 오퍼, 컬렉션 또는 결정 목록에 액세스할 수 있는 단추입니다.
 
 ![](../assets/overview_view-all.png)
 
@@ -97,13 +97,13 @@ ht-degree: 64%
 
 ![](../assets/bulk-actions.png)
 
-기존 오퍼 또는 의사 결정을 복제하여 **[!UICONTROL Draft]** 상태의 사본을 만들 수도 있습니다. 정보 창이나 오퍼 또는 의사 결정의 세부 보기에서 수행할 수 있습니다.
+를 사용하여 복사본을 만들기 위해 기존 오퍼 또는 결정을 복제할 수도 있습니다. **[!UICONTROL 초안]** 상태. 정보 창이나 오퍼 또는 의사 결정의 세부 보기에서 수행할 수 있습니다.
 
 ![](../assets/duplicate-offer.png)
 
 ## 오퍼 및 의사 결정 변경 로그 {#changes-logs}
 
-오퍼 라이브러리를 사용하면 오퍼 또는 결정에 수행된 모든 변경 사항을 시각화할 수 있습니다. 이렇게 하려면 목록에서 해당 이름을 클릭하여 오퍼 또는 의사 결정을 연 다음 **[!UICONTROL Change log]** 탭을 선택합니다.
+오퍼 라이브러리를 사용하면 오퍼 또는 결정에 수행된 모든 변경 사항을 시각화할 수 있습니다. 이렇게 하려면 목록에서 해당 이름을 클릭하여 오퍼 또는 결정을 연 다음, **[!UICONTROL 변경 로그]** 탭.
 
 변경한 모든 내용은 이 화면과 변경 작업을 수행한 사용자의 이름이 표시됩니다.
 

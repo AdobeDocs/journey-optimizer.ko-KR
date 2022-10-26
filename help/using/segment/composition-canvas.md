@@ -12,7 +12,7 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -181,6 +181,6 @@ Adobe Experience Platform에 저장될 결과 대상을 구성합니다.
 
 추가 정보:
 
-* [대상 구성 시작](get-started-audience-orchestration.md)
+* [대상자 구성 시작](get-started-audience-orchestration.md)
 * [컴포지션 워크플로우 만들기](create-compositions.md)
 * [대상자 액세스 및 관리](access-audiences.md)
