@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
+source-git-commit: 1f6b29d781abc17e238e4a3e051dc61d250b37a0
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '823'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ DM 메시지를 보내려면 파일을 만들어 서버에 업로드해야 합�
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. 선택한 경우 **[!UICONTROL Amazon S3]**&#x200B;로 지정하는 경우 dm 파일을 내보내고 업로드할 AWS 지역을 선택할 수 있습니다.
+1. 선택한 경우 **[!UICONTROL Amazon S3]**&#x200B;에서 DM 파일을 내보내고 업로드할 AWS 지역을 선택합니다.
 
    ![](assets/file-routing-config-aws-region.png)
 
