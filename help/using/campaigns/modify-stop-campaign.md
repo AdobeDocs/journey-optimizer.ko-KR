@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 3%
+source-wordcount: '308'
+ht-degree: 2%
 
 ---
 
-# 실시간 캠페인 관리 {#modify-stop-campaign}
+# 캠페인 관리 {#modify-stop-campaign}
 
 캠페인이 활성화되면 언제든지 수정하거나 중지할 수 있습니다. 이러한 작업은 반복 실행이 있는 캠페인에만 사용할 수 있습니다.
 
-또한 라이브 캠페인(한 번 또는 반복 실행으로 실행)을 복제하여 새 캠페인을 만들 수도 있습니다.
+또한 라이브 캠페인을 복제(한 번 또는 반복 실행)하여 새 캠페인을 만들고, 완료되었거나 중지된 캠페인을 보관할 수 있습니다.
 
 ## 반복 캠페인 수정 {#modify}
 
@@ -58,3 +58,13 @@ ht-degree: 3%
 라이브 캠페인을 복제하여 새 캠페인을 만들 수 있습니다. 이렇게 하려면 캠페인을 연 다음 **[!UICONTROL 복제]**.
 
 ![](assets/create-campaign-duplicate.png)
+
+## 캠페인 보관 {#archive}
+
+시간이 지나면서 캠페인 목록이 지속적으로 증가하고 결과적으로 완료 및 중지된 캠페인을 검색하는 것이 더 어렵습니다.
+
+이를 방지하기 위해 더 이상 필요하지 않은 완료 및 중지된 캠페인을 보관할 수 있습니다. 이렇게 하려면 타원 버튼을 클릭한 다음 을 선택합니다 **[!UICONTROL 아카이브]**.
+
+![](assets/create-campaign-archive.png)
+
+그런 다음 목록의 전용 필터를 사용하여 보관된 캠페인을 검색할 수 있습니다. [캠페인에 액세스하는 방법 알아보기](get-started-with-campaigns.md#access)

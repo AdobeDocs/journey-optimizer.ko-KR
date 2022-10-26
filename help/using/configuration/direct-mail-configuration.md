@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: f64a6571609c69262670ac45a88cda0112aea5fa
+source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
@@ -27,12 +27,12 @@ DM 메시지를 보내려면 파일을 만들어 서버에 업로드해야 합�
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="파일 라우팅 구성의 설정을 정의합니다"
->abstract="DM 공급자가 사용할 파일을 내보내고 업로드할 위치를 정의해야 합니다."
+>abstract="DM 메시지를 만들 때 필요한 모든 프로필 정보가 포함된 파일을 생성합니다. DM 공급자가 해당 파일에 액세스하여 DM 전달에 사용할 수 있도록 이 파일을 내보내고 서버에 업로드해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="파일 라우팅 구성의 설정을 정의합니다"
->abstract="DM 메시지를 만들 때 필요한 모든 프로필 정보가 포함된 파일을 생성합니다. DM 공급자가 해당 파일에 액세스하여 DM 전달에 사용할 수 있도록 이 파일을 내보내고 서버에 업로드해야 합니다."
+>abstract="DM 공급자가 사용할 파일을 내보내고 업로드할 위치를 정의해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
@@ -42,12 +42,12 @@ DM 메시지를 보내려면 파일을 만들어 서버에 업로드해야 합�
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="파일 라우팅의 서버 유형을 선택합니다"
->abstract="DM 파일을 업로드하고 저장하는 데 사용할 서버를 선택합니다."
+>abstract="DM 파일을 업로드하고 저장하는 데 사용할 서버를 선택합니다. 현재 Amazon S3 및 SFTP만 지원됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="AWS 지역 선택"
->abstract="DM 파일을 업로드하고 저장하는 데 사용할 서버를 선택합니다. 현재 Amazon S3 및 SFTP만 지원됩니다."
+>abstract="DM 파일을 내보내고 업로드할 지역을 선택합니다. 최적의 사용을 위해 클라우드 인프라를 호스팅할 가장 가까운 영역을 선택하는 것이 좋습니다."
 
 1. 액세스 권한 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 파일 라우팅 구성]** > **[!UICONTROL 파일 라우팅]** 메뉴를 클릭한 다음 **[!UICONTROL 라우팅 구성 만들기]**.
 
@@ -55,7 +55,7 @@ DM 메시지를 보내려면 파일을 만들어 서버에 업로드해야 합�
 
 1. 구성 이름을 설정합니다.
 
-1. 구성을 선택합니다 **[!UICONTROL 유형]**, 즉 DM 파일을 업로드하고 저장하는 데 사용할 서버입니다.<!--why is it Type and not Server or Server type? asked to PM-->
+1. 구성을 선택합니다 **[!UICONTROL 서버 유형]**, 즉 DM 파일을 업로드하고 저장하는 데 사용할 서버입니다.
 
    ![](assets/file-routing-config-type.png)
 
@@ -65,9 +65,7 @@ DM 메시지를 보내려면 파일을 만들어 서버에 업로드해야 합�
 
    DM 메시지를 만들 때 필요한 모든 프로필 정보가 포함된 파일을 생성합니다. DM 공급자가 해당 파일에 액세스하여 DM 전달에 사용할 수 있도록 이 파일을 내보내고 서버에 업로드해야 합니다.
 
-1. 서버 주소, 액세스 키 등과 같이 선택한 구성 유형에 해당하는 세부 정보 및 자격 증명을 입력합니다. <!--need to detail more?-->
-
-   <!--![](assets/file-routing-config-aws-details.png)-->
+1. 서버 주소, 액세스 키 등과 같이 선택한 구성 유형에 해당하는 세부 정보 및 자격 증명을 입력합니다.
 
    ![](assets/file-routing-config-sftp-details.png)
 
@@ -90,12 +88,13 @@ DM 메시지를 보내려면 파일을 만들어 서버에 업로드해야 합�
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="DM 설정 정의"
->abstract="DM 표면에는 DM의 프로필 데이터가 포함된 파일의 형식과 관련된 설정이 포함됩니다. 정렬 구성을 정의하고, 중복 행을 제거하고, 레코드를 여러 파일로 분할하고, 파일 라우팅 구성을 선택할 수 있습니다."
+>abstract="DM 표면에는 DM의 프로필 데이터가 포함된 파일의 형식과 관련된 설정이 포함됩니다. 파일 라우팅 구성을 선택하여 파일을 내보낼 위치도 정의해야 합니다."
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
->title="정렬 순서 정의"
->abstract="이 옵션을 선택하면 정렬은 프로필 ID를 기준으로 오름차순 또는 내림차순으로 정렬됩니다. 선택을 취소하면 여정 또는 캠페인 내에서 DM 메시지를 만들 때 정의된 정렬 구성입니다."
+>title="Define the sort order"
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -128,7 +127,7 @@ DM 메시지를 보내려면 파일을 만들어 서버에 업로드해야 합�
    >
    >1과 20만 레코드 사이의 숫자를 설정할 수 있습니다. 즉, 각 파일에는 1개 이상의 행과 20만 개의 행을 포함할 수 없습니다.
 
-1. 마지막으로 [파일 라우팅 구성](#file-routing-configuration) 만든 것들 중에서. DM 공급자가 사용할 파일을 내보내고 업로드할 위치를 정의합니다.
+1. 마지막으로 **[!UICONTROL 파일 라우팅 구성]** 만든 것들 중에서. DM 공급자가 사용할 파일을 내보내고 업로드할 위치를 정의합니다.
 
    >[!CAUTION]
    >

@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 95%
+source-wordcount: '1112'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 95%
 **여정**
 
 * 다음 **되풀이 시 강제 재진입** 반복 세그먼트 예약 매개 변수에 옵션이 추가되었습니다. 이 옵션을 사용하면 여정에 있는 모든 프로필을 다음 실행 시 자동으로 종료하도록 할 수 있습니다. 옵션이 비활성화되면 프로필이 다른 여정에 다시 입장하려면 먼저를 완료해야 합니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**캠페인**
+
+* 이제 완료되고 중지된 캠페인을 보관할 수 있습니다. [자세히 보기](../campaigns/modify-stop-campaign.md#archive)
 
 ## 2022년 9월 릴리스{#sept-2022-release}
 
