@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 4%
@@ -306,7 +306,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
 </table>
 -->
 
-### 푸시 알림 지표 {#push-notification-metrics}
+### 푸시 알림 지표
 
 <table> 
  <thead> 
@@ -433,7 +433,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
  </tbody> 
 </table>
 
-### 푸시 알림 지표 {#push-notification-metrics}
+### 푸시 알림 지표
 
 <table> 
  <thead> 
