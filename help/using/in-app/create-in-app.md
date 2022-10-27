@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 5%
+source-wordcount: '604'
+ht-degree: 3%
 
 ---
 
@@ -43,9 +43,18 @@ ht-degree: 5%
 
 1. 인앱 메시지가 활성 상태일 때 트리거의 빈도를 선택합니다.
 
-   * **[!UICONTROL 항상 표시]**
-   * **[!UICONTROL 한 번 표시]**
-   * **[!UICONTROL 클릭스루할 때까지 표시]**
+   * **[!UICONTROL 항상 표시]**: 이벤트에서 선택된 경우 항상 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
+   * **[!UICONTROL 한 번 표시]**: 이벤트에서 처음 선택된 경우에만 이 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
+   * **[!UICONTROL 클릭스루할 때까지 표시]**: 이벤트에서 선택된 경우 이 메시지 표시 **[!UICONTROL 모바일 앱 트리거]** 드롭다운은 SDK에서 &quot;클릭됨&quot; 작업과 함께 상호 작용 이벤트를 전송할 때까지 발생합니다.
+
+1. 에서 **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 메시지를 트리거할 이벤트 및 기준을 선택합니다.
+
+   1. 왼쪽 드롭다운에서 메시지를 트리거하는 데 필요한 이벤트를 선택합니다.
+   1. 오른쪽 드롭다운에서 선택한 이벤트에 필요한 유효성 검사를 선택합니다.
+   1. 을(를) 클릭합니다. **[!UICONTROL 추가]** 트리거에서 여러 이벤트 또는 기준을 고려하려면 버튼을 클릭합니다. 그런 다음 위의 단계를 반복합니다.
+   1. 이벤트의 연결 방식을 선택합니다(예: ). **[!UICONTROL 및]** 원한다면 **둘 다** 메시지를 표시하고 표시하기 위해 true로 트리거합니다. **[!UICONTROL 또는]** 메시지를 표시하려면 **둘 중 하나** 트리거의 값이 true입니다.
+
+   ![](assets/in_app_create_3.png)
 
 1. 메시지를 트리거하는 이벤트를 **[!UICONTROL 모바일 앱 트리거]**
 드롭다운.
