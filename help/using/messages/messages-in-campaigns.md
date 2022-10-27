@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
+source-git-commit: 0b91aa647b2f12bf6864af008406fff845488b94
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# 캠페인에 메시지 추가하기{#messages-in-campaigns}
+# 캠페인에 메시지 추가하기
 
 캠페인에서 채널을 선택하여 대상자에게 보낼 메시지를 디자인하고 개인화합니다. 캠페인에 이메일, SMS 또는 푸시를 추가하면 즉시 보내거나 메시지를 예약할 수 있습니다.
 
