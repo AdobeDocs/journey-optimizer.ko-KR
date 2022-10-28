@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 8%
+source-wordcount: '478'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
 
 DM은 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.
 
-DM을 만들 때 Journey Optimizer에서는 타겟팅된 모든 프로필과 선택한 데이터(예를 들어 우편 주소, 프로필 속성)가 포함된 파일을 생성합니다. 그러면 이 파일을 DM 공급자에게 보내어 실제 전송을 처리하도록 할 수 있습니다.
+DM을 만들 때 Journey Optimizer에서는 타겟팅된 모든 프로필과 선택한 데이터(예를 들어 우편 주소, 프로필 속성)가 포함된 파일을 생성합니다. 그러면 DM 공급자가 해당 파일을 검색하고 실제 전송을 처리합니다.
 
 DM 메시지는 예약된 캠페인 컨텍스트에서만 만들 수 있습니다. API로 트리거된 캠페인이나 여정에서 사용할 수 없습니다.
 
@@ -31,15 +31,15 @@ DM 메시지는 예약된 캠페인 컨텍스트에서만 만들 수 있습니�
 >
 >DM 메시지를 보내기 전에 다음을 구성했는지 확인합니다.
 >
->* A [파일 라우팅 구성](../configuration/direct-mail-configuration.md#file-routing-configuration) 추출 파일을 업로드하고 저장할 서버를 지정합니다.
->* A [DM 메시지 표면](../configuration/direct-mail-configuration.md#direct-mail-surface) 파일 라우팅 구성을 참조합니다.
+>1. A [파일 라우팅 구성](../configuration/direct-mail-configuration.md#file-routing-configuration) 추출 파일을 업로드하고 저장할 서버를 지정합니다.
+>1. A [DM 메시지 표면](../configuration/direct-mail-configuration.md#direct-mail-surface) 파일 라우팅 구성을 참조합니다.
 
 
 ## DM 메시지 만들기 {#create}
 
 DM 메시지를 만들고 전송하는 단계는 다음과 같습니다.
 
-1. 예약된 새 캠페인을 만들고, **[!UICONTROL DM]** 를 작업으로 사용하고 사용할 메시지 서피스를 선택합니다.
+1. 예약된 새 캠페인을 만들고, **[!UICONTROL DM]** 를 작업으로 사용하고 사용할 채널 서피스를 선택합니다. [DM 표면을 만드는 방법을 알아봅니다](../configuration/direct-mail-configuration.md#direct-mail-surface)
 
    ![](assets/direct-mail-campaign.png)
 
