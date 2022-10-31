@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1293'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->제외 목록은 샌드박스 수준에서 작동합니다.
+>제외 목록은 샌드박스 수준에서 관리됩니다.
 
 이러한 이메일 주소는 Journey Optimizer에 자동으로 수집됩니다 **제외 목록**. 에서 억제 목록 개념 및 사용에 대해 자세히 알아보십시오 [이 섹션](../reports/suppression-list.md).
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >다운로드 시간은 파일 크기에 따라 다릅니다. 즉, 제외 목록에 있는 이메일 주소 수입니다.
+   >다운로드 시간은 파일 크기에 따라 다릅니다. 즉, 제외 목록에 있는 주소 수입니다.
    >
    >지정된 샌드박스에 대해 한 번에 하나의 다운로드 요청을 처리할 수 있습니다.
 
