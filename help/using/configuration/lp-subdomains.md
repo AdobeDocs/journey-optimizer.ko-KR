@@ -6,9 +6,9 @@ description: Journey Optimizer을 사용하여 랜딩 페이지 하위 도메인
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,12 @@ ht-degree: 1%
 다음을 수행할 수 있습니다. [랜딩 페이지 사전 설정 만들기](lp-presets.md): 랜딩 페이지에 사용할 하위 도메인을 설정해야 합니다.
 
 이미 Adobe에 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다. 하위 도메인을 에서 도메인으로 위임하는 방법에 대해 자세히 알아보십시오 [이 섹션](delegate-subdomain.md).
+
+>[!CAUTION]
+>
+>랜딩 페이지 하위 도메인 구성은 모든 환경에서 일반적입니다. 따라서 랜딩 페이지 하위 도메인을 수정하면 프로덕션 샌드박스도 영향을 받습니다.
+
+대문자는 하위 도메인에서 사용할 수 없습니다
 
 ## 기존 하위 도메인 사용 {#lp-use-existing-subdomain}
 
@@ -63,6 +69,8 @@ ht-degree: 1%
    >[!NOTE]
    >
    >이미 랜딩 페이지 하위 도메인으로 사용되는 하위 도메인은 선택할 수 없습니다.
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
    ![](assets/lp_prefix-and-subdomain.png)
 
@@ -106,6 +114,8 @@ ht-degree: 1%
    >[!CAUTION]
    >
    >기존 랜딩 페이지 하위 도메인은 사용할 수 없습니다.
+   >
+   >하위 도메인은 대문자로 사용할 수 없습니다.
 
    잘못된 하위 도메인을 Adobe으로 위임하는 것은 허용되지 않습니다. marketing.yourcompany.com과 같이 조직이 소유한 유효한 하위 도메인을 입력해야 합니다.
 

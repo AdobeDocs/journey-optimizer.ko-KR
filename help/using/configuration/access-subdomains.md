@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '192'
 ht-degree: 4%
 
 ---
@@ -28,10 +28,17 @@ ht-degree: 4%
 * **[!UICONTROL 성공]**: 하위 도메인이 검사를 성공적으로 통과하여 메시지를 전달하는 데 사용할 수 있습니다.
 * **[!UICONTROL 실패]**: 하위 도메인 위임을 제출한 후 하나 또는 여러 번 확인하지 못했습니다.
 
-하위 도메인에 대한 자세한 정보에 액세스하려면 목록에서 해당 하위 도메인을 엽니다. 다음을 수행할 수 있습니다.
+을 사용하여 하위 도메인에 대한 세부 정보에 액세스하려면 **[!UICONTROL 성공]** 상태, 목록에서 엽니다.
+
+![](assets/subdomain-delegated.png)
+
+다음을 수행할 수 있습니다.
 
 * 위임 프로세스 중에 구성된 하위 도메인 이름(읽기 전용)과 생성된 URL(리소스, 미러 페이지, 추적 URL)을 검색합니다.
 
 * Google 사이트 확인 TXT 레코드를 하위 도메인에 추가하여 확인되었는지 확인합니다( 참조). [하위 도메인에 Google TXT 레코드 추가](google-txt.md)).
 
-![](assets/subdomain-delegated.png)
+
+>[!CAUTION]
+>
+>하위 도메인 구성은 모든 환경에서 일반적입니다. 따라서 하위 도메인을 수정하면 프로덕션 샌드박스도 영향을 받습니다.

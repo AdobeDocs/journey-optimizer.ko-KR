@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 고급 매개 변수는 기본적으로 읽기 전용이며 숨겨집니다.
 
-고급 매개 변수에 액세스하려면 메시지 창 상단의 **[!UICONTROL 읽기 전용 필드 표시]** 아이콘을 클릭합니다.
+고급 매개 변수에 액세스하려면 메시지 창 상단의 **[!UICONTROL 읽기 전용 필드 표시]** 아이콘을 클릭합니다. 고급 설정을 숨기려면 동일한 아이콘을 클릭합니다.
 
 ![](assets/show-read-only.png)
 
@@ -93,14 +93,20 @@ ht-degree: 100%
 
 ![](assets/push-adv-parameters.png)
 
-이메일의 경우 기본 이메일 주소를 표시할 수 있습니다.
+이메일의 경우 [기본 이메일 주소](../configuration/primary-email-addresses.md).
 
-특정 사용을 위해 특정 컨텍스트에서 이러한 값을 무시할 수 있습니다. 값을 강제 적용하려면 필드의 오른쪽에 있는 **매개 변수 무시 활성화** 아이콘을 클릭합니다. 이 옵션은 다음과 같은 경우에 유용합니다.
+특정 컨텍스트에서는 특정 사용을 위해 이러한 값을 무시할 수 있습니다. 값을 강제 적용하려면 필드의 오른쪽에 있는 **[!UICONTROL 매개 변수 무시 활성화]** 아이콘을 클릭합니다.
 
-* 이메일을 테스트하면 이메일 주소를 추가할 수 있습니다. 여정을 게시하면 이메일이 사용자에게 전송됩니다.
+![](assets/email-adv-parameters.png)
+
+이 옵션은 다음과 같은 경우에 유용합니다.
+
+* 이메일을 테스트합니다. 이메일 주소를 추가할 수 있습니다. 여정을 게시하면 이메일이 사용자에게 전송됩니다.
 * 목록의 구독자 이메일 주소를 참조하십시오. [사용 사례](../building-journeys/message-to-subscribers-uc.md)를 자세히 알아보십시오.
 
-고급 설정을 숨기려면 동일한 아이콘을 클릭합니다.
+>[!NOTE]
+>
+>이메일 주소 무시는 특정 사용 사례에만 사용해야 합니다. 대부분의 경우 **[!UICONTROL 실행 필드]** 는 사용해야 하는 것입니다. [자세히 보기](../configuration/primary-email-addresses.md)
 
 ## 메시지 찾아보기{#browse-message}
 

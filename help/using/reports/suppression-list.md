@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '770'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 이러한 연락처로 보내면 전송 신뢰도와 전송 속도가 저하될 수 있으므로 게재에서 제외하려는 이메일 주소로 제외 목록이 구성됩니다.
 
-다음 [!DNL Journey Optimizer] 제외 목록은 자체 환경 수준에서 관리됩니다.
+다음 [!DNL Journey Optimizer] 제외 목록은 지정된 샌드박스에 대해 고유한 환경 수준에서 관리됩니다.
 
 여기에는 샌드박스 ID와 연결된 조직 ID를 의미하는 단일 클라이언트 환경의 모든 메일링 간에 표시되지 않는 이메일 주소와 도메인이 수집됩니다.
 

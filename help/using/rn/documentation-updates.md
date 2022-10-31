@@ -4,10 +4,10 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '2054'
-ht-degree: 97%
+source-wordcount: '2128'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 97%
 * 여정 사용 사례 섹션이 다음 두 가지 카테고리로 재구성되었습니다. [비즈니스 사용 사례](../building-journeys/journeys-uc.md) 및 [기술 사용 사례](../building-journeys/collections.md).
 * 다음 **엔티티 데이터 세트** 섹션을 더 자세히 업데이트했습니다. [자세히 보기](../start/datasets-query-examples.md#entity-dataset)
 * 옵트아웃 관리 및 동의 정책에 대한 정보가 새 섹션으로 재구성되었습니다. [자세히 보기](../privacy/opt-out.md)
+* 여정 메시지의 고급 매개 변수에 대한 섹션을 더 명확하게 수정했으며 이제 전자 메일 주소 무시를 특정 사용 사례에 대해서만 사용해야 한다고 지정합니다. 대부분의 경우 **실행 필드** 는 사용해야 하는 것입니다. [자세히 보기](../messages/messages-in-journeys.md#adv-settings)
+* 에 메모를 추가했습니다. **랜딩 페이지 하위 도메인 구성** 랜딩 페이지 하위 도메인에서 대문자를 사용할 수 없도록 하는 섹션을 참조하십시오. [자세히 보기](../configuration/lp-subdomains.md)
 
 ## 2022년 9월 {#september-2022}
 

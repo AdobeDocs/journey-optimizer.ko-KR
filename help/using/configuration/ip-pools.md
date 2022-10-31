@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="IP 풀 설정"
->abstract="전자 메일 게재 능력을 향상시키기 위해 IP 풀을 만들어 하위 도메인의 IP 주소를 함께 그룹화할 수 있습니다."
+>abstract="IP 풀은 하위 도메인의 IP 주소를 수집하여 전자 메일 게재 기능을 개선합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
@@ -34,6 +34,10 @@ ht-degree: 1%
 이메일 게재 기능을 위해서는 IP 풀을 만드는 것이 좋습니다. 이렇게 하면 하위 도메인의 평판을 다른 하위 도메인에 영향을 주지 않을 수 있습니다.
 
 예를 들어, 마케팅 메시지를 위한 IP 풀과 트랜잭션 메시지를 위한 IP 풀이 있는 것이 좋습니다. 이 방법으로 마케팅 메시지 중 하나가 제대로 수행되지 않고 고객이 스팸으로 선언할 경우 이는 트랜잭션 메시지(구매 확인, 암호 복구 메시지 등)를 계속 수신할 이 고객에게 보내는 트랜잭션 메시지에 영향을 주지 않습니다.
+
+>[!CAUTION]
+>
+>IP 풀 구성은 모든 환경에 공통입니다. 따라서 모든 IP 풀 생성 또는 에디션은 프로덕션 샌드박스에도 영향을 줍니다.
 
 ## IP 풀 만들기 {#create-ip-pool}
 
@@ -63,7 +67,7 @@ IP 풀을 생성하려면 다음 단계를 수행합니다.
 
 ## IP 풀 편집 {#edit-ip-pool}
 
-IP 풀을 편집하려면
+IP 풀을 편집하려면 아래 단계를 따르십시오.
 
 1. 목록에서 IP 풀 이름을 클릭하여 엽니다.
 

@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,9 @@ PTR 레코드를 수정하여 IP 주소와 연결된 하위 도메인을 편집�
 
 >[!CAUTION]
 >
->PTR 레코드를 편집할 때 추가 주의가 필요합니다. 확실하지 않은 경우 게재 가능성 전문가에게 문의하십시오.<!--why?-->
-
->[!NOTE]
+>PTR 레코드는 모든 환경에서 일반적입니다. 따라서 PTR 레코드를 수정하면 프로덕션 샌드박스도 영향을 받습니다.
 >
->는 수정할 수 없습니다 **[!UICONTROL IP]** 및 **[!UICONTROL PTR 레코드]** 필드.
+>PTR 레코드를 편집할 때 추가 주의가 필요합니다. 확실하지 않은 경우 게재 가능성 전문가에게 문의하십시오.
 
 ### 완전히 위임된 하위 도메인 {#fully-delegated-subdomains}
 
@@ -67,6 +65,10 @@ PTR 레코드를 수정하여 IP 주소와 연결된 하위 도메인을 편집�
    ![](assets/ptr-record-subdomain.png)
 
 1. 클릭 **[!UICONTROL 저장]** 를 클릭하여 변경 사항을 확인합니다.
+
+>[!NOTE]
+>
+>는 수정할 수 없습니다 **[!UICONTROL IP]** 및 **[!UICONTROL PTR 레코드]** 필드.
 
 ### CNAME 방법을 사용하여 위임된 하위 도메인 {#edit-ptr-subdomains-cname}
 
@@ -92,6 +94,10 @@ PTR 레코드를 수정하여 IP 주소와 연결된 하위 도메인을 편집�
 
 
 1. 클릭 **[!UICONTROL 저장]** 를 클릭하여 변경 사항을 확인합니다.
+
+>[!NOTE]
+>
+>는 수정할 수 없습니다 **[!UICONTROL IP]** 및 **[!UICONTROL PTR 레코드]** 필드.
 
 ## PTR 레코드 업데이트 세부 정보 확인 {#check-ptr-record-update}
 

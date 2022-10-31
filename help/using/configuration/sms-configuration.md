@@ -6,9 +6,9 @@ description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ API 자격 증명을 만들고 구성한 후 이제 SMS 메시지에 대한 채�
 >id="ajo_admin_surface_sms_type"
 >title="SMS 카테고리를 정의합니다"
 >abstract="이 서피스를 사용할 때 전송할 SMS 메시지 유형을 선택합니다. 사용자 동의가 필요한 프로모션 SMS 메시지 마케팅 또는 비상업적 SMS 메시지를 위한 트랜잭션용으로 특정 컨텍스트에서 가입 해지된 프로필에도 보낼 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="마케팅 SMS 메시지의 옵트아웃"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="마케팅 SMS 메시지의 옵트아웃"
 
 SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 만들어야 합니다 **[!DNL Journey Optimizer]**.
 

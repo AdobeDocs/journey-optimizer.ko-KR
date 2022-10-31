@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1725'
 ht-degree: 9%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 9%
 >[!CAUTION]
 >
 >전체 하위 도메인을 위임하는 것이 좋습니다. 두 가지 차이점에 대해 자세히 알아보기 [하위 도메인 구성 메서드](about-subdomain-delegation.md#subdomain-delegation-methods).
+>
+>하위 도메인 구성은 모든 환경에서 일반적입니다. 따라서 하위 도메인을 수정하면 프로덕션 샌드박스도 영향을 받습니다.
 
 ## 전체 하위 도메인 위임 {#full-subdomain-delegation}
 
@@ -67,6 +69,8 @@ ht-degree: 9%
    >
    >email.marketing.yourcompany.com과 같은 다중 수준 하위 도메인은 현재 지원되지 않습니다.
 
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+
 1. DNS 서버에 배치할 레코드 목록이 표시됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 DNS 레코드를 생성합니다.
 
 1. 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 것이 제대로 구성된 경우 &quot;확인...&quot; 상자를 선택한 다음 를 클릭합니다. **[!UICONTROL 제출]**.
@@ -92,8 +96,6 @@ ht-degree: 9%
    >[!NOTE]
    >
    >하위 도메인은 로 표시됩니다 **[!UICONTROL 실패]** 호스팅 솔루션에 대한 유효성 검사 레코드를 만들지 못한 경우.
-
-   <!-- later on, users will be notified in Pulse -->
 
 하위 도메인이 의 Adobe에 위임되면 [!DNL Journey Optimizer]인 경우 PTR 레코드가 자동으로 만들어지고 이 하위 도메인과 연결됩니다. [자세히 보기](ptr-records.md)
 
@@ -133,6 +135,8 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따�
    >잘못된 하위 도메인을 Adobe으로 위임하는 것은 허용되지 않습니다. marketing.yourcompany.com과 같이 조직이 소유한 유효한 하위 도메인을 입력해야 합니다.
    >
    >email.marketing.yourcompany.com과 같은 다중 수준 하위 도메인은 현재 지원되지 않습니다.
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. DNS 서버에 배치할 레코드 목록이 표시됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 DNS 레코드를 생성합니다.
 
