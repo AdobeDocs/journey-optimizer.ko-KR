@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '250'
 ht-degree: 9%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 9%
 
 대상 작성을 통해 다음을 만들 수 있습니다 **워크플로우 구성**&#x200B;기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 제외..)을 활용하여 새 대상을 만들 수 있습니다.
 
-완료되면 **결과 대상** 기존 대상과 함께 Adobe Experience Platform에 백업됩니다.<!--, and can be **leveraged in campaigns** to target customers.-->
+완료되면 **결과 대상** 는 기존 대상과 함께 Adobe Experience Platform에 백업되며, **캠페인에서** 대상 고객
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->현재 작성 워크플로우로 인한 대상은 Journey Optimizer으로 타깃팅할 수 없습니다. Adobe Experience Platform 대상에서 타깃팅할 수 없습니다.
+>구성 워크플로우로 인한 대상은 Journey Optimizer 캠페인으로만 타겟팅할 수 있습니다. 여정에서 사용할 수 없습니다.
 
 ## 대상 구성에 액세스 {#access}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 14%
+source-wordcount: '146'
+ht-degree: 15%
 
 ---
 
@@ -20,10 +20,6 @@ ht-degree: 14%
 # 대상자 액세스 및 관리 {#access-manage-audiences}
 
 대상은 **[!UICONTROL 대상]** 탭에서 다음을 수행합니다. **[!UICONTROL 세그먼트]** 메뉴 아래의 제품에서 사용할 수 있습니다.
-
->[!IMPORTANT]
->
->현재 작성 워크플로우로 인한 대상은 Journey Optimizer으로 타깃팅할 수 없습니다.
 
 이 탭에는 Adobe Experience Platform에 저장된 모든 대상이 나열됩니다. 대상 구성을 사용하여 만든 대상은 **[!UICONTROL 대상 구성]** 원본
 

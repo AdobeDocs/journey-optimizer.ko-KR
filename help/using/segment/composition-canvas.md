@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1040'
 ht-degree: 2%
 
 ---
@@ -28,24 +28,28 @@ ht-degree: 2%
 
 ## 시작 대상 선택 {#starting-audience}
 
->[!CONTEXTUALHELP]
->id="ajo_ao_merge_types"
->title="병합 유형"
->abstract="선택한 대상의 프로필을 병합하는 방법을 지정합니다."
-
 컴포지션을 만드는 첫 번째 단계는 컴포지션의 기반으로 하나 이상의 기존 대상자를 선택하는 것입니다.
 
-을(를) 선택합니다 **[!UICONTROL Audience]** 활동을 클릭한 다음 **[!UICONTROL 대상 추가]** 그런 다음 한 명 이상의 대상을 선택합니다.
+1. 을(를) 선택합니다 **[!UICONTROL Audience]** 그런 다음 활동에 대한 레이블을 제공합니다.
+
+1. 타겟팅할 대상 선택:
+
+   * 을(를) 클릭합니다. **[!UICONTROL 대상 추가]** 단추를 클릭하여 기존 대상자를 하나 이상 선택합니다.
+   * 을(를) 클릭합니다. **[!UICONTROL 빌드 규칙]** 단추를 사용하여 새 세그먼트 정의 만들기 [세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+
+   ![](assets/audiences-choose-audience.png)
+
+1. 여러 대상을 선택한 경우 이러한 대상의 프로필을 병합하는 방법을 지정합니다.
+
+* **[!UICONTROL 결합]**: 선택한 대상의 모든 프로필 포함,
+* **[!UICONTROL 교차]**: 선택한 모든 대상에 공통되는 프로필 포함,
+* **[!UICONTROL 겹치기 제외]**: 대상자 중 하나에만 속하는 프로필을 포함합니다. 두 개 이상의 대상에 속하는 프로필은 포함되지 않습니다.
 
 이 예에서는 금 및 은 대상에 속하는 모든 프로필을 타겟팅하려고 합니다.
 
 ![](assets/audiences-starting-audience.png)
 
-여러 대상을 선택하는 경우, 이러한 대상의 프로필을 병합하는 방법을 지정합니다.
-
-* **[!UICONTROL 결합]**: 선택한 대상의 모든 프로필 포함,
-* **[!UICONTROL 교차]**: 선택한 모든 대상에 공통되는 프로필 포함,
-* **[!UICONTROL 겹치기 제외]**: 대상자 중 하나에만 속하는 프로필을 포함합니다. 두 개 이상의 대상에 속하는 프로필은 포함되지 않습니다.
+대상을 선택하면 활동 하단에 예상 프로필 수가 표시됩니다.
 
 ## 활동 추가 {#action-activities}
 
@@ -74,6 +78,11 @@ ht-degree: 2%
 >id="ajo_ao_audience"
 >title="대상 활동"
 >abstract="대상 활동을 사용하면 구성에 기존 대상자에 속하는 추가 프로필을 포함할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="병합 유형"
+>abstract="선택한 대상의 프로필을 병합하는 방법을 지정합니다."
 
 다음 **[!UICONTROL Audience]** 활동을 사용하면 구성에 기존 대상자에 속하는 추가 프로필을 포함할 수 있습니다.
 

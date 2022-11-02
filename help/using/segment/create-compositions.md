@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 6%
+source-wordcount: '365'
+ht-degree: 7%
 
 ---
 
@@ -39,13 +39,11 @@ ht-degree: 6%
    * **[!UICONTROL 저장]**: 컴포지션의 마지막 단계입니다. 이 활동을 사용하면 워크플로우의 결과를 새 대상에 저장할 수 있습니다.
    컴포지션 워크플로우 캔버스에서 활동을 구성하는 방법에 대한 자세한 내용은 [컴포지션 캔버스 작업](composition-canvas.md).
 
-1. 을(를) 선택합니다 **[!UICONTROL Audience]** 활동을 선택한 다음 컴포지션의 레이블을 지정합니다.
+1. 컴포지션 속성을 열어 제목과 설명을 지정합니다.
 
-   >[!IMPORTANT]
-   >
-   >다음 **[!UICONTROL Audience]** 활동 레이블은 컴포지션의 레이블입니다. 목록에서 컴포지션을 보다 쉽게 검색할 수 있도록 의미 있는 이름을 제공해야 합니다.
+   속성에 제목이 정의되지 않으면 컴포지션 레이블이 시작 중 하나가 됩니다 **[!UICONTROL Audience]** 활동.
 
-   ![](assets/audiences-new-composition.png)
+   ![](assets/audiences-properties.png)
 
 1. 필요한 만큼 활동을 추가하여 구성을 구성합니다 **[!UICONTROL Audience]** 및 **[!UICONTROL 저장]** 활동. [컴포지션 캔버스 작업 방법 알아보기](composition-canvas.md)
 
@@ -57,7 +55,7 @@ ht-degree: 6%
 
    ![](assets/audiences-alerts.png)
 
-1. 컴포지션이 게시되었습니다. 결과 대상이 Adobe Experience Platform에 저장됩니다. <!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
+1. 컴포지션이 게시되었습니다. 결과 대상은 Adobe Experience Platform에 저장되며 Journey Optimizer 캠페인에서 타겟팅될 준비가 되었습니다. [캠페인 시작](../campaigns/get-started-with-campaigns.md)
 
 ## 컴포지션 액세스 {#access}
 
@@ -69,7 +67,7 @@ ht-degree: 6%
 만든 모든 컴포지션은 **[!UICONTROL 컴포지션]** 탭. 여기에는 다음과 같은 여러 상태가 있을 수 있습니다.
 
 * **[!UICONTROL 초안]**: 컴포지션이 진행 중이며 게시되지 않았습니다.
-* **[!UICONTROL 게시됨]**: 컴포지션이 게시되어 결과 대상이 저장되었습니다. <!-- and are available for use.-->
+* **[!UICONTROL 게시됨]**: 컴포지션이 게시되어 결과 대상이 저장되었으며 사용할 수 있습니다.
 * **[!UICONTROL 보관됨]**: 컴포지션이 보관되었습니다.
 
 ![](assets/audiences-compositions.png)

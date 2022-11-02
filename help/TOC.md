@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1246'
 ht-degree: 95%
 
 ---
@@ -31,114 +31,6 @@ ht-degree: 95%
       + [개발자로 시작하기](using/start/path/developer.md)
    + [사용자 인터페이스](using/start/user-interface.md)
    + [가드레일](using/start/guardrails.md)
-+ 캠페인{#campaigns}
-   + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
-   + [캠페인 만들기](using/campaigns/create-campaign.md)
-   + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
-   + [실시간 캠페인 관리](using/campaigns/modify-stop-campaign.md)
-   + 콘텐츠 실험 {#content-experiment}
-      + [콘텐츠 실험 시작](using/campaigns/get-started-experiment.md)
-      + [콘텐츠 실험 만들기](using/campaigns/content-experiment.md)
-      + [통계 계산 이해](using/campaigns/experiment-calculations.md)
-      + [실험 보고서 구성](using/campaigns/reporting-configuration.md)
-   + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
-+ 메시지 {#messages}
-   + 메시지 시작{#get-started-msg}
-      + [개요](using/messages/get-started-content.md)
-      + [여정에 메시지 추가하기](using/messages/messages-in-journeys.md)
-      + [캠페인에 메시지 추가하기](using/messages/messages-in-campaigns.md)
-   + [이메일 만들기](using/messages/create-email.md)
-   + [푸시 알림 만들기](using/messages/create-push.md)
-   + [SMS 메시지 만들기](using/messages/create-sms.md)
-   + [DM 만들기](using/messages/create-direct-mail.md)
-   + [경고 확인](using/messages/alerts.md)
-   + [전송 시간 최적화](using/messages/send-time-optimization.md)
-+ 웹 채널{#web}
-   + [웹 채널 시작](using/web/get-started-web.md)
-   + [웹 경험 만들기](using/web/create-web.md)
-   + [웹 페이지 작성](using/web/author-web.md)
-   + [Visual Editing Helper 확장 기능](using/web/visual-editing-helper.md)
-   + [웹 보고](using/web/web-report.md)
-+ 인앱 채널{#in-app}
-   + [인앱 채널 시작](using/in-app/get-started-in-app.md)
-   + [인앱 채널 구성](using/in-app/inapp-configuration.md)
-   + [인앱 메시지 만들기](using/in-app/create-in-app.md)
-   + [인앱 콘텐츠 디자인](using/in-app/design-in-app.md)
-   + [인앱 보고서](using/in-app/inapp-report.md)
-+ 콘텐츠 디자인 {#design}
-   + [이메일 디자인 시작](using/design/design-emails.md)
-   + [처음부터 시작 ](using/design/create-email-content.md)
-   + [이메일 콘텐츠 가져오기](using/design/existing-content.md)
-   + [나만의 콘텐츠 코딩](using/design/code-content.md)
-   + [템플릿 작업](using/design/email-templates.md)
-   + 콘텐츠 디자인 {#design-content}
-      + [콘텐츠 구성 요소 사용](using/design/content-components.md)
-      + [백그라운드 설정](using/design/backgrounds.md)
-      + [세로 정렬 및 패딩 조정](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [링크의 스타일 정의](using/design/styling-links.md)
-      + [인라인 스타일 속성 추가](using/design/adding-inline-styling-attributes.md)
-   + 이메일 설정 {#design-email}
-      + [텍스트 버전 생성](using/design/text-version-email.md)
-      + [사전 헤더 추가](using/design/preheader.md)
-   + 자산 추가 및 관리 {#manage-asset}
-      + [Assets Essentials 작업](using/design/assets-essentials.md)
-      + [Adobe Stock 작업](using/design/stock.md)
-   + [개인화된 오퍼 추가](using/design/deliver-personalized-offers.md)
-   + [링크 추가 및 메시지 추적](using/design/message-tracking.md)
-   + [미리보기 및 증명](using/design/preview.md)
-+ 랜딩 페이지 {#landing-pages}
-   + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
-   + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
-   + 콘텐츠 디자인 {#landing-pages-design}
-      + [랜딩 페이지 디자인 정보](using/landing-pages/design-lp.md)
-      + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
-      + [템플릿 만들기](using/landing-pages/lp-templates.md)
-      + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
-   + [구독 목록 만들기](using/landing-pages/subscription-list.md)
-   + [사용 사례](using/landing-pages/lp-use-cases.md)
-+ 개인화 및 다이내믹 콘텐츠 {#personalized-dynamic-content}
-   + 개인화 {#personalization}
-      + [개인화 시작](using/personalization/personalize.md)
-      + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
-      + 표현식 작성 {#build-expressions}
-         + [개인화 구문](using/personalization/personalization-syntax.md)
-         + 표현식 편집기 작업 {#expression-editor}
-            + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
-            + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
-            + [저장된 표현식으로 작업하기](using/personalization/personalization-library.md)
-            + [개인화 유효성 검사](using/personalization/personalization-validation.md)
-         + 도우미 함수{#functions}
-            + [도우미 함수 시작](using/personalization/functions/functions.md)
-            + [집계 함수](using/personalization/functions/aggregation.md)
-            + [산술 함수](using/personalization/functions/arithmetic-functions.md)
-            + [배열 및 목록 함수](using/personalization/functions/arrays-list.md)
-            + [날짜 함수](using/personalization/functions/dates.md)
-            + [부울 및 비교 함수](using/personalization/functions/operators.md)
-            + [도우미](using/personalization/functions/helpers.md)
-            + [맵 함수](using/personalization/functions/maps.md)
-            + [개체 함수](using/personalization/functions/objects.md)
-            + [문자열 함수](using/personalization/functions/string.md)
-      + 사용 사례{#personalization-use-cases}
-         + [주문 상태 알림](using/personalization/personalization-use-case.md)
-         + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
-   + 다이내믹 콘텐츠 {#dynamic}
-      + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
-      + [조건부 규칙 만들기](using/personalization/create-conditions.md)
-      + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
-+ 세그먼트, 프로필, 신원{#segment}
-   + 세그먼트 {#segments}
-      + [세그먼트 시작](using/segment/about-segments.md)
-      + [세그먼트 작성](using/segment/creating-a-segment.md)
-   + 프로필{#profiles}
-      + [프로필 시작](using/segment/get-started-profiles.md)
-      + [테스트 프로필 만들기](using/segment/creating-test-profiles.md)
-   + [ID](using/segment/get-started-identity.md)
-   + 대상자 구성 {#audience-orchestration}
-      + [대상자 구성 시작](using/segment/get-started-audience-orchestration.md)
-      + [컴포지션 워크플로우 만들기](using/segment/create-compositions.md)
-      + [컴포지션 캔버스 작업](using/segment/composition-canvas.md)
-      + [대상자 액세스 및 관리](using/segment/access-audiences.md)
-   + [라이선스 사용](using/segment/license-usage.md)
 + 여정 {#orchestrate-journeys}
    + 여정 정보{#about-journeys}
       + [일반 원칙](using/building-journeys/journey.md)
@@ -255,6 +147,114 @@ ht-degree: 95%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + 사용 사례 {#journey-use-cases}
++ 캠페인{#campaigns}
+   + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
+   + [캠페인 만들기](using/campaigns/create-campaign.md)
+   + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
+   + [실시간 캠페인 관리](using/campaigns/modify-stop-campaign.md)
+   + 콘텐츠 실험 {#content-experiment}
+      + [콘텐츠 실험 시작](using/campaigns/get-started-experiment.md)
+      + [콘텐츠 실험 만들기](using/campaigns/content-experiment.md)
+      + [통계 계산 이해](using/campaigns/experiment-calculations.md)
+      + [실험 보고서 구성](using/campaigns/reporting-configuration.md)
+   + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
++ 메시지 {#messages}
+   + 메시지 시작{#get-started-msg}
+      + [개요](using/messages/get-started-content.md)
+      + [여정에 메시지 추가하기](using/messages/messages-in-journeys.md)
+      + [캠페인에 메시지 추가하기](using/messages/messages-in-campaigns.md)
+   + [이메일 만들기](using/messages/create-email.md)
+   + [푸시 알림 만들기](using/messages/create-push.md)
+   + [SMS 메시지 만들기](using/messages/create-sms.md)
+   + [DM 만들기](using/messages/create-direct-mail.md)
+   + [경고 확인](using/messages/alerts.md)
+   + [전송 시간 최적화](using/messages/send-time-optimization.md)
++ 웹 채널{#web}
+   + [웹 채널 시작](using/web/get-started-web.md)
+   + [웹 경험 만들기](using/web/create-web.md)
+   + [웹 페이지 작성](using/web/author-web.md)
+   + [Visual Editing Helper 확장 기능](using/web/visual-editing-helper.md)
+   + [웹 보고](using/web/web-report.md)
++ 인앱 채널{#in-app}
+   + [인앱 채널 시작](using/in-app/get-started-in-app.md)
+   + [인앱 채널 구성](using/in-app/inapp-configuration.md)
+   + [인앱 메시지 만들기](using/in-app/create-in-app.md)
+   + [인앱 콘텐츠 디자인](using/in-app/design-in-app.md)
+   + [인앱 보고서](using/in-app/inapp-report.md)
++ 콘텐츠 디자인 {#design}
+   + [이메일 디자인 시작](using/design/design-emails.md)
+   + [처음부터 시작 ](using/design/create-email-content.md)
+   + [이메일 콘텐츠 가져오기](using/design/existing-content.md)
+   + [나만의 콘텐츠 코딩](using/design/code-content.md)
+   + [템플릿 작업](using/design/email-templates.md)
+   + 콘텐츠 디자인 {#design-content}
+      + [콘텐츠 구성 요소 사용](using/design/content-components.md)
+      + [백그라운드 설정](using/design/backgrounds.md)
+      + [세로 정렬 및 패딩 조정](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [링크의 스타일 정의](using/design/styling-links.md)
+      + [인라인 스타일 속성 추가](using/design/adding-inline-styling-attributes.md)
+   + 이메일 설정 {#design-email}
+      + [텍스트 버전 생성](using/design/text-version-email.md)
+      + [사전 헤더 추가](using/design/preheader.md)
+   + 자산 추가 및 관리 {#manage-asset}
+      + [Assets Essentials 작업](using/design/assets-essentials.md)
+      + [Adobe Stock 작업](using/design/stock.md)
+   + [개인화된 오퍼 추가](using/design/deliver-personalized-offers.md)
+   + [링크 추가 및 메시지 추적](using/design/message-tracking.md)
+   + [미리보기 및 증명](using/design/preview.md)
++ 랜딩 페이지 {#landing-pages}
+   + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
+   + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
+   + 콘텐츠 디자인 {#landing-pages-design}
+      + [랜딩 페이지 디자인 정보](using/landing-pages/design-lp.md)
+      + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
+      + [템플릿 만들기](using/landing-pages/lp-templates.md)
+      + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
+   + [구독 목록 만들기](using/landing-pages/subscription-list.md)
+   + [사용 사례](using/landing-pages/lp-use-cases.md)
++ 개인화 및 다이내믹 콘텐츠 {#personalized-dynamic-content}
+   + 개인화 {#personalization}
+      + [개인화 시작](using/personalization/personalize.md)
+      + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
+      + 표현식 작성 {#build-expressions}
+         + [개인화 구문](using/personalization/personalization-syntax.md)
+         + 표현식 편집기 작업 {#expression-editor}
+            + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
+            + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
+            + [저장된 표현식으로 작업하기](using/personalization/personalization-library.md)
+            + [개인화 유효성 검사](using/personalization/personalization-validation.md)
+         + 도우미 함수{#functions}
+            + [도우미 함수 시작](using/personalization/functions/functions.md)
+            + [집계 함수](using/personalization/functions/aggregation.md)
+            + [산술 함수](using/personalization/functions/arithmetic-functions.md)
+            + [배열 및 목록 함수](using/personalization/functions/arrays-list.md)
+            + [날짜 함수](using/personalization/functions/dates.md)
+            + [부울 및 비교 함수](using/personalization/functions/operators.md)
+            + [도우미](using/personalization/functions/helpers.md)
+            + [맵 함수](using/personalization/functions/maps.md)
+            + [개체 함수](using/personalization/functions/objects.md)
+            + [문자열 함수](using/personalization/functions/string.md)
+      + 사용 사례{#personalization-use-cases}
+         + [주문 상태 알림](using/personalization/personalization-use-case.md)
+         + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
+   + 다이내믹 콘텐츠 {#dynamic}
+      + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
+      + [조건부 규칙 만들기](using/personalization/create-conditions.md)
+      + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
++ 세그먼트, 프로필, 신원{#segment}
+   + 세그먼트 {#segments}
+      + [세그먼트 시작](using/segment/about-segments.md)
+      + [세그먼트 작성](using/segment/creating-a-segment.md)
+   + 프로필{#profiles}
+      + [프로필 시작](using/segment/get-started-profiles.md)
+      + [테스트 프로필 만들기](using/segment/creating-test-profiles.md)
+   + [ID](using/segment/get-started-identity.md)
+   + [라이선스 사용](using/segment/license-usage.md)
+   + 대상자 구성 {#audience-orchestration}
+      + [대상자 구성 시작](using/segment/get-started-audience-orchestration.md)
+      + [컴포지션 워크플로우 만들기](using/segment/create-compositions.md)
+      + [컴포지션 캔버스 작업](using/segment/composition-canvas.md)
+      + [대상자 액세스 및 관리](using/segment/access-audiences.md)
       + 비즈니스 사용 사례 {#business-use-cases}
          + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
          + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
@@ -454,6 +454,7 @@ ht-degree: 95%
    + [속성 기반 액세스 제어](using/administration/attribute-based-access.md)
    + [객체 수준 액세스 제어](using/administration/object-based-access.md)
 + 개인정보 보호 {#privacy}
+   + [개인 정보 보호 시작](using/privacy/get-started-privacy.md)
    + [개인 정보 보호 요청](using/privacy/requests.md)
    + [리소스에 대한 작업 감사](using/privacy/audit-logs.md)
    + 동의 관리 {#consent}
