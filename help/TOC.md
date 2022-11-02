@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 95%
+source-wordcount: '1253'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,10 @@ ht-degree: 95%
       + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 게시](using/building-journeys/publishing-the-journey.md)
+   + 여정 관리{#mannage-journey}
+      + [여정 종료](using/building-journeys/end-journey.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
+      + [프로필 항목 관리](using/building-journeys/entry-management.md)
       + [다른 샌드박스로 여정 복사](using/building-journeys/copy-to-sandbox.md)
       + [여정 문제 해결](using/building-journeys/troubleshooting.md)
       + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
@@ -144,6 +147,14 @@ ht-degree: 95%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + 사용 사례 {#journey-use-cases}
+      + 비즈니스 사용 사례 {#business-use-cases}
+         + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
+         + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
+         + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
+      + 기술 사용 사례 {#technical-use-cases}
+         + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
+         + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [외부 데이터 소스 및 사용자 지정 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
 + 캠페인{#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)
@@ -252,14 +263,6 @@ ht-degree: 95%
       + [컴포지션 워크플로우 만들기](using/segment/create-compositions.md)
       + [컴포지션 캔버스 작업](using/segment/composition-canvas.md)
       + [대상자 액세스 및 관리](using/segment/access-audiences.md)
-      + 비즈니스 사용 사례 {#business-use-cases}
-         + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
-         + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
-         + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
-      + 기술 사용 사례 {#technical-use-cases}
-         + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
-         + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [외부 데이터 소스 및 사용자 지정 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)
