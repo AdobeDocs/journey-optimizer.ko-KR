@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 95%
 
 ---
@@ -32,19 +32,19 @@ ht-degree: 95%
    + [사용자 인터페이스](using/start/user-interface.md)
    + [가드레일](using/start/guardrails.md)
 + 여정 {#orchestrate-journeys}
-   + 여정 정보{#about-journeys}
+   + 여정 시작{#about-journeys}
       + [일반 원칙](using/building-journeys/journey.md)
       + [여정 라이프사이클](using/building-journeys/journey-end.md)
       + [여정 버전](using/building-journeys/journey-versions.md)
-      + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
    + 여정 만들기{#create-journey}
-      + [여정 시작](using/building-journeys/journey-gs.md)
+      + [첫 여정 만들어 보기](using/building-journeys/journey-gs.md)
       + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 게시](using/building-journeys/publishing-the-journey.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
       + [다른 샌드박스로 여정 복사](using/building-journeys/copy-to-sandbox.md)
       + [여정 문제 해결](using/building-journeys/troubleshooting.md)
+      + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
    + 활동 {#about-journey-building}
       + [여정 활동 정보](using/building-journeys/about-journey-activities.md)
       + [일반 이벤트](using/building-journeys/general-events.md)
