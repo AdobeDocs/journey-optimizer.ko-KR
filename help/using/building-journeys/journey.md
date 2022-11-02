@@ -7,7 +7,7 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d8fb8759fcd688deec56cb7247ddf082e6d6766d
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 여정 시작{#jo-general-principle}
 
-사용 [!DNL Journey Optimizer] 이벤트나 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다.
+사용 [!DNL Journey Optimizer] 이벤트나 데이터 소스에 저장된 상황별 데이터를 사용하여 실시간 오케스트레이션 사용 사례를 빌드하려면 다음을 수행하십시오.
 
 다음 기능을 통해 제공되는 여러 단계로 구성된 고급 시나리오 설계:
 
@@ -74,7 +74,7 @@ Adobe Journey Optimizer에는 마케터가 일대일 고객 참여와 마케팅 
 
 >[!NOTE]
 >
->대부분의 경우 프로필이 동일한 여정에 동시에 여러 번 있을 수 없습니다. 다시 여정을 사용하도록 설정하면 프로필이 여정을 다시 입력할 수 있지만, 해당의 이전 인스턴스를 완전히 종료할 때까지 이를 수행할 수 없습니다. [자세히 보기](end-journey.md).
+>일반적으로 프로필은 동일한 여정에 동시에 여러 번 있을 수 없습니다. 다시 여정을 사용하도록 설정하면 프로필이 여정을 다시 입력할 수 있지만, 해당의 이전 인스턴스를 완전히 종료할 때까지 이를 수행할 수 없습니다. [자세히 보기](end-journey.md).
 
 라이브 여정으로 수정해야 하는 경우, 여정의 새 버전을 만드십시오.
 
