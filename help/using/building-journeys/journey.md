@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 19%
+source-wordcount: '573'
+ht-degree: 18%
 
 ---
 
@@ -32,27 +32,38 @@ ht-degree: 19%
 
 ## 여정 만들기 단계{#steps-journey}
 
-Adobe Journey Optimizer에는 마케터가 일대일 고객 참여와 마케팅 활동을 조화롭게 처리할 수 있는 옴니채널 오케스트레이션 캔버스가 포함되어 있습니다. 사용자 인터페이스를 사용하면 팔레트의 활동을 캔버스로 끌어다 놓아 여정을 작성할 수 있습니다. 활동을 두 번 클릭하여 캔버스에서 추가할 수도 있습니다.
+Adobe Journey Optimizer을 사용하여 단일 캔버스에서 개인화된 여정을 디자인 및 오케스트레이션할 수 있습니다.
+
+Adobe Journey Optimizer에는 마케터가 일대일 고객 참여와 마케팅 활동을 조화롭게 처리할 수 있는 옴니채널 오케스트레이션 캔버스가 포함되어 있습니다. 사용자 인터페이스를 사용하면 팔레트의 활동을 캔버스로 끌어다 놓아 여정을 작성할 수 있습니다.
+
+![](assets/interface-journeys.png)
 
 에서 첫 번째 여정을 시작하고 만드는 방법을 알아봅니다 [이 페이지](journey-gs.md).
 
-여정 디자이너를 사용하고 활동을 결합하여 강력한 옴니채널 여정을 오케스트레이션하는 방법을 알아보십시오 [이 섹션](using-the-journey-designer.md).
+옴니채널 여정 디자이너는 타겟팅된 대상들로 여러 단계 여정을 구축하고, 실시간 고객 또는 비즈니스 상호 작용을 기반으로 업데이트를 수행하고, 직관적인 드래그하여 놓기 인터페이스를 사용하여 옴니채널 메시지를 만들 수 있습니다.
 
-데이터 엔지니어는 의 데이터 소스, 이벤트 및 작업을 포함하여 여정을 구성하는 방법을 알아봅니다 [이 섹션](../configuration/about-data-sources-events-actions.md).
+![](assets/journey38.png)
+
+자세한 내용 [이 섹션](using-the-journey-designer.md).
+
+데이터 엔지니어는 데이터 소스, 이벤트 및 작업을 비롯한 여정 구성 단계를 자세히 설명합니다. [이 섹션](../configuration/about-data-sources-events-actions.md).
 
 
 ## 사용 사례{#uc-journey}
 
-다음과 같은 종단 간 사용 사례를 살펴보고
-* 비즈니스 사용 사례
-   * [다중 채널 메시지 보내기](journeys-uc.md)
-   * [Campaign v7/v8을 사용하여 메시지 보내기](campaign-classic-use-case.md)
-   * [구독자에게 메시지 보내기](message-to-subscribers-uc.md)
+다음의 종단 간 사용 사례에서 여정을 빌드하는 방법을 알아봅니다.
 
-* 기술 사용 사례
-   * [사용자 지정 작업으로 컬렉션을 동적으로 보내기](collections.md)
-   * [게재 램프 업](ramp-up-deliveries-uc.md)
-   * [외부 데이터 소스 및 사용자 지정 작업으로 처리량 제한](limit-throughput.md)
+비즈니스 사용 사례:
+
+* [다중 채널 메시지 보내기](journeys-uc.md)
+* [Campaign v7/v8을 사용하여 메시지 보내기](campaign-classic-use-case.md)
+* [구독자에게 메시지 보내기](message-to-subscribers-uc.md)
+
+기술 사용 사례:
+
+* [사용자 지정 작업으로 컬렉션을 동적으로 보내기](collections.md)
+* [게재 램프 업](ramp-up-deliveries-uc.md)
+* [외부 데이터 소스 및 사용자 지정 작업으로 처리량 제한](limit-throughput.md)
 
 ## 여정 버전{#journey-versions}
 
