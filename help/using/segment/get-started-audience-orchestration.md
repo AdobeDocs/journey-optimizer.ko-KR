@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 9%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 9%
 
 대상 작성을 통해 다음을 만들 수 있습니다 **워크플로우 구성**&#x200B;기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 제외..)을 활용하여 새 대상을 만들 수 있습니다.
 
-완료되면 **결과 대상** 는 기존 대상과 함께 Adobe Experience Platform에 백업되며, **캠페인에서** 대상 고객
+완료되면 **결과 대상** 는 기존 대상과 함께 Adobe Experience Platform에 백업되며, **캠페인에서** 대상 고객 [캠페인 사용 방법 알아보기](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 

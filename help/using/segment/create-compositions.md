@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 7%
+source-wordcount: '367'
+ht-degree: 5%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 
    ![](assets/audiences-alerts.png)
 
-1. 컴포지션이 게시되었습니다. 결과 대상은 Adobe Experience Platform에 저장되며 Journey Optimizer 캠페인에서 타겟팅될 준비가 되었습니다. [캠페인 시작](../campaigns/get-started-with-campaigns.md)
+1. 컴포지션이 게시되었습니다. 결과 대상은 Adobe Experience Platform에 저장되며 Journey Optimizer 캠페인에서 타겟팅될 준비가 되었습니다. [캠페인 사용 방법 알아보기](../campaigns/get-started-with-campaigns.md)
 
 ## 컴포지션 액세스 {#access}
 

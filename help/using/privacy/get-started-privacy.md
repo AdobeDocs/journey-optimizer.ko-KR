@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer 및 Adobe Experience Platform의 개인 정
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +24,9 @@ Adobe Experience Platform 및 Journey Optimizer은 개인 정보 관리를 확�
 
 * **사용자 작업 감사**: 감사 로그를 활용하여 시스템에서 사용자가 수행한 작업을 식별하고 문제를 해결하며 비즈니스 규정 및 기업 데이터 관리 정책을 준수하는 데 도움이 됩니다. [자세히 보기](audit-logs.md)
 
-* **동의 추적 및 관리**:
+* **동의 추적 및 관리**: 커뮤니케이션에 대한 고객의 동의를 추적하고 고객의 환경 설정 및 구독을 관리합니다. [자세히 보기](opt-out.md)
 
-   커뮤니케이션에 대한 고객의 동의를 추적하고 고객의 환경 설정 및 구독을 관리합니다. [자세히 보기](opt-out.md)
-
-   고객의 환경 설정을 준수하기 위해 Adobe Experience Platform 동의 정책을 정의하고 사용자 지정 작업에 적용합니다. [자세히 보기](../action/consent.md)
+* **동의 정책 적용**: 고객의 환경 설정을 준수하기 위해 Adobe Experience Platform 동의 정책을 정의하고 사용자 지정 작업에 적용합니다. [자세히 보기](../action/consent.md)
 
 * **거버넌스 정책 적용**: Adobe Experience Platform 거버넌스 정책을 활용하여 사용자 지정 작업을 통해 중요한 필드를 타사 시스템으로 내보낼 수 있습니다. [자세히 보기](../action/action-privacy.md)
 
@@ -37,7 +35,7 @@ Adobe Experience Platform 및 Journey Optimizer은 개인 정보 관리를 확�
 <td><img src="../assets/do-not-localize/icon-privacy-request.svg" width="60px"><p><a href="requests.md">데이터 요청 관리</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="audit-logs.md">사용자 작업 감사</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-optout.svg" width="60px"><p><a href="opt-out.md">동의 추적 및 관리</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">동의 추적 및 관리</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">동의 정책 적용</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../action/action-privacy.md">거버넌스 정책 적용</a></p></td>
 </tr>
 </table>
