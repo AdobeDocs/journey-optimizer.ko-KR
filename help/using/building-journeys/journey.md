@@ -1,14 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 일반 원칙
-description: 일반 원칙
+title: 여정 시작
+description: 여정 시작
 feature: Journeys
-topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
+source-git-commit: d8fb8759fcd688deec56cb7247ddf082e6d6766d
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 일반 원칙{#jo-general-principle}
+# 여정 시작{#jo-general-principle}
 
 사용 [!DNL Journey Optimizer] 이벤트나 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다.
 
@@ -32,7 +31,7 @@ ht-degree: 0%
 
 ## 여정 만들기 단계{#steps-journey}
 
-Adobe Journey Optimizer을 사용하여 단일 캔버스에서 개인화된 여정을 디자인 및 오케스트레이션할 수 있습니다.
+Adobe Journey Optimizer을 사용하여 단일 캔버스에서 개인화된 여정을 디자인하고 오케스트레이션할 수 있습니다.
 
 Adobe Journey Optimizer에는 마케터가 일대일 고객 참여와 마케팅 활동을 조화롭게 처리할 수 있는 옴니채널 오케스트레이션 캔버스가 포함되어 있습니다. 사용자 인터페이스를 사용하면 팔레트의 활동을 캔버스로 끌어다 놓아 여정을 작성할 수 있습니다.
 
