@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 992f1ee215cc7f14d7f29a0bd592838fead2568c
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 9%
@@ -62,7 +62,7 @@ ht-degree: 9%
 
 그런 다음 본인이 다시 입장할 수 있는 경우 여정을 다시 입력할 수 있습니다. [이 페이지](../building-journeys/journey-gs.md#change-properties)를 참조하십시오
 
-라이브 여정을 종료하려면 라이브를 닫는 것이 좋습니다. 여정에 신규 고객이 도착한 것은 봉쇄될 것이다. 여정에 이미 입력한 고객은 끝까지 경험할 수 있습니다. [이 섹션](../building-journeys/.md#close-journey)을 참조하십시오
+라이브 여정을 종료하려면 라이브를 닫는 것이 좋습니다. 여정에 신규 고객이 도착한 것은 봉쇄될 것이다. 여정에 이미 입력한 고객은 끝까지 경험할 수 있습니다. [이 섹션](../building-journeys/journey.md#close-journey)을 참조하십시오
 
 여정이 긴급하고 모든 처리가 여정에서 즉시 종료되어야 하는 경우에만를 중지할 수 있습니다. 이미 여정에 입장한 사람은 모두 진행 중입니다. [이 섹션](../building-journeys/journey.md#stop-journey)을 참조하십시오
 
