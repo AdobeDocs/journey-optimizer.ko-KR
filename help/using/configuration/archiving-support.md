@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 3%
@@ -156,7 +156,7 @@ GDPR과 같은 규정에서는 데이터 주체가 언제든지 동의를 수정
    
    >[!NOTE]
    >
-   >를 가져오려면 `<journey version id>`매개 변수에서 해당 [여정 버전](../building-journeys/journey-versions.md) 에서 **[!UICONTROL 여정 관리]** > **[!UICONTROL 여정]** 메뉴 아래의 제품에서 사용할 수 있습니다. 여정 버전 ID는 웹 브라우저에 표시되는 URL의 끝에 표시됩니다.
+   >를 가져오려면 `<journey version id>`매개 변수에서 해당 [여정 버전](../building-journeys/journey.md#journey-versions) 에서 **[!UICONTROL 여정 관리]** > **[!UICONTROL 여정]** 메뉴 아래의 제품에서 사용할 수 있습니다. 여정 버전 ID는 웹 브라우저에 표시되는 URL의 끝에 표시됩니다.
    >
    >![](assets/preset-bcc-action-id.png)
 

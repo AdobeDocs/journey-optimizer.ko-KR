@@ -1,24 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-description: 여정 활동에 대해 알아보기
+title: 여정 활동 시작
+description: 여정 활동 시작
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 22%
+source-wordcount: '428'
+ht-degree: 14%
 
 ---
 
-# 여정 활동 정보 {#about-journey-activities}
+# 여정 활동 시작 {#about-journey-activities}
 
 다양한 이벤트, 오케스트레이션 및 작업 활동을 조합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
 
 ## 이벤트 활동 {#event-activities}
+
+이벤트는 온라인 구매와 같이 개인화된 여정을 트리거하는 것입니다. 한 사람이 여정에 들어서면, 그들은 개인으로서 이동하며, 두 개인이 같은 속도로 혹은 같은 경로로 이동하지 않습니다. 이벤트로 여정을 시작하면 이벤트가 수신되면 여정이 트리거됩니다. 여정의 각 사용자는 여정에 정의된 다음 단계를 개별적으로 따릅니다.
 
 기술 사용자가 구성한 이벤트(참조) [이 페이지](../event/about-events.md))은 모두 화면 왼쪽에 있는 팔레트의 첫 번째 카테고리에 표시됩니다. 다음 이벤트 활동을 사용할 수 있습니다.
 
@@ -34,6 +37,8 @@ ht-degree: 22%
 
 ## 오케스트레이션 활동 {#orchestration-activities}
 
+오케스트레이션 활동은 여정에서 다음 단계를 결정하는 데 도움이 되는 다른 조건입니다. 개인이 개설 지원 사례를 가지고 있거나, 현재 위치에서 예측, 구매를 완료했거나, 충성도 점수 10,000에 도달했을 수 있습니다.
+
 화면 왼쪽에 있는 팔레트에서 다음 오케스트레이션 활동을 사용할 수 있습니다.
 
 * [조건](../building-journeys/condition-activity.md)
@@ -43,6 +48,8 @@ ht-degree: 22%
 ![](assets/journey49.png)
 
 ## 작업 활동 {#action-activities}
+
+작업은 메시지 전송과 같은 일부 유형의 트리거로 인해 발생할 수 있는 작업입니다. 고객이 경험하는 여정 부분입니다.
 
 화면 왼쪽에 있는 팔레트에서 아래 **[!UICONTROL 이벤트]** 및 **[!UICONTROL 오케스트레이션]**&#x200B;를 찾으면 **[!UICONTROL 작업]** 카테고리. 다음 작업 활동을 사용할 수 있습니다.
 
@@ -54,7 +61,7 @@ ht-degree: 22%
 
 이곳에는 사용 가능한 다양한 통신 채널의 활동이 표시됩니다. 채널을 결합하여 크로스채널 시나리오를 만들 수 있습니다.
 
-사용자 지정 작업을 구성한 경우 여기에 표시됩니다( [이 페이지](../building-journeys/using-custom-actions.md)).
+사용자 지정 작업을 구성한 경우 여기에 표시됩니다. [자세히 보기](../building-journeys/using-custom-actions.md)).
 
 ## 모범 사례 {#best-practices}
 

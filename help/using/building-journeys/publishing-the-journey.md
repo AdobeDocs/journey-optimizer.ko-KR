@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 8%
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-게시된 여정을 수정해야 하는 경우, 여정의 새 버전을 만들어야 합니다. [이 페이지](../building-journeys/journey-versions.md)를 참조하십시오. 여정이 읽기 전용인 경우 활동 레이블 및 설명, 여정 이름 및 여정 설명만 수정할 수 있습니다.
+게시된 여정을 수정해야 하는 경우, 여정의 새 버전을 만들어야 합니다. [이 페이지](../building-journeys/journey.md)를 참조하십시오. 여정이 읽기 전용인 경우 활동 레이블 및 설명, 여정 이름 및 여정 설명만 수정할 수 있습니다.
 
 여정을 중지하면 영구적으로 중지됩니다. 여정에 유입되는 모든 사람은 영구적으로 정지되며, 여정은 새로운 입구를 허용하지 않을 것이다. 여정을 다시 사용해야 하는 경우 복제하고 게시해야 합니다.
 

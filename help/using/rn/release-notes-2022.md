@@ -4,8 +4,8 @@ product: journey optimizer
 title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: ht
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 100%
 
@@ -347,7 +347,7 @@ ht-degree: 100%
 
 **여정**
 
-* **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 종료 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 고객이 여정에서 드롭된 위치를 여정 전문가의 작업 없이 더 잘 보고할 수 있습니다. 자세한 내용은 [설명서](../building-journeys/journey-end.md) 및 [기능 비디오](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}를 참조하세요.
+* **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 종료 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 고객이 여정에서 드롭된 위치를 여정 전문가의 작업 없이 더 잘 보고할 수 있습니다. 자세한 내용은 [설명서](../building-journeys/journey.md#journey-ending) 및 [기능 비디오](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}를 참조하세요.
 
 
 * 이제 여정 속성에서 **프로필 시간대** 옵션이 기본적으로 선택되지 않습니다. [자세히 보기](../building-journeys/timezone-management.md#timezone-from-profiles)
