@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '856'
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 3%
 * 오류가 발생한 경우 세 번 다시 시도가 체계적으로 수행됩니다. 받은 오류 메시지에 따라 다시 시도 횟수를 조정할 수 없습니다.
 * 기본 제공 **반응** 이벤트를 사용하면 기본 작업에 대응할 수 있습니다. [이 페이지](../building-journeys/reaction-events.md)에서 자세히 알아보십시오. 사용자 지정 작업을 통해 전송된 메시지에 응답하려면 전용 이벤트를 구성해야 합니다.
 * 두 작업을 동시에 배치할 수 없으므로 두 작업을 하나씩 추가해야 합니다.
-* 대부분의 경우 프로필이 동일한 여정에 동시에 여러 번 있을 수 없습니다. 다시 여정을 사용하도록 설정하면 프로필이 여정을 다시 입력할 수 있지만, 해당의 이전 인스턴스를 완전히 종료할 때까지 이를 수행할 수 없습니다. [자세히 보기](../building-journeys/end-journey.md)
+* 일반적으로 프로필은 동일한 여정에 동시에 여러 번 있을 수 없습니다. 다시 여정을 사용하도록 설정하면 프로필이 여정을 다시 입력할 수 있지만, 해당의 이전 인스턴스를 완전히 종료할 때까지 이를 수행할 수 없습니다. [자세히 보기](../building-journeys/end-journey.md)
 
 ### 여정 버전 {#journey-versions-g}
 

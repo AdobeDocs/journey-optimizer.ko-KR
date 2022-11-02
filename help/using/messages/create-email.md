@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 10%
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 사용 [!DNL Journey Optimizer] 표현식 편집기를 사용하여 프로필의 데이터로 메시지를 개인화할 수 있습니다. 개인화에 대한 자세한 내용은 [이 섹션](../personalization/personalize.md)을 참조하세요.
 
-다음을 활용하여 메시지 콘텐츠를 타겟팅된 프로필에 조정 [!DNL Journey Optimizer] 동적 콘텐츠 기능. [다이내믹 콘텐츠 시작](../personalization/get-started-dynamic-content.md)
+을 사용하여 메시지 콘텐츠를 타겟팅된 프로필에 조정 [!DNL Journey Optimizer] 동적 콘텐츠 기능. [다이내믹 콘텐츠 시작](../personalization/get-started-dynamic-content.md)
 
 ## 이메일 추적{#email-tracking}
 

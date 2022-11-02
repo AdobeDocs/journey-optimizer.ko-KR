@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 이메일 디자이너를 사용하여 배경을 설정하는 방법은 다음과 같습니다.
 
 1. 디자인에 필요한 경우 이메일 본문에 배경색을 적용합니다.
-1. 대부분의 경우 열 수준에서 배경색을 설정합니다.
+1. 일반적으로 열 수준에서 배경색을 설정합니다.
 1. 관리하기가 어려우므로 이미지 또는 텍스트 구성 요소에 배경색을 사용하지 마십시오.
 
 다음은 사용할 수 있는 배경 설정입니다.
