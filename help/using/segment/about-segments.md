@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 1a2a5ed846319e7387589284e954d4c759b6b25e
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '388'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 Adobe Journey Optimizer에서 대상은 다음 평가 방법 중 하나를 사용하여 세그먼트 정의에서 생성됩니다.
 
 * 스트리밍 세그먼테이션 - 새로운 데이터가 시스템으로 이동하는 동안 세그먼트의 대상 목록이 실시간으로 최신 상태로 유지됩니다.
-* 배치 세그먼테이션 - 세그먼트의 대상 목록이 지난 시간에 도착한 데이터를 기반으로 시간별로 업데이트됩니다.
+* 배치 세그먼테이션 - 세그먼트의 대상 목록이 24시간 간격으로 평가됩니다. 그러나 기존 세그먼트의 경우 증분 세그먼테이션은 최대 1시간 동안 세그먼트를 새로 유지합니다.
 
 배치 세그먼테이션과 스트리밍 세그먼테이션 간의 결정은 세그먼트 규칙 평가의 복잡성과 비용을 기반으로, 각 세그먼트 정의에 대해 시스템에서 수행됩니다.
 
