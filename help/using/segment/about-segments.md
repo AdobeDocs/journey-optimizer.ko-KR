@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: df16e6be53629ef529b765c9e36a293234244867
+source-git-commit: bfd262db2fd12afbb7df6c73c68b29d18a1abf98
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 2%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 2%
 
 * 빌드 **복잡한 조건** ( 단순 또는 고급 표현식 편집기를 사용하여 여정에서)을 참조하십시오. 자세한 내용은 [이 섹션](../building-journeys/condition-activity.md#using-a-segment)을 참조하십시오.
 
-## Adobe Journey Optimizer의 평가 방법 {#evaluation-method-in-journey-optimizer}
+## 대상 평가 방법{#evaluation-method-in-journey-optimizer}
 
 Adobe Journey Optimizer에서 대상은 다음 평가 방법 중 하나를 사용하여 세그먼트 정의에서 생성됩니다.
 
 * 스트리밍 세그먼테이션 - 새로운 데이터가 시스템으로 이동하는 동안 세그먼트의 대상 목록이 실시간으로 최신 상태로 유지됩니다. 스트리밍 세그먼테이션은 사용자 활동에 대한 응답으로 세그먼트를 업데이트하는 지속적인 데이터 선택 프로세스입니다. 세그먼트가 만들어지고 저장되면, 세그먼트 정의가 Journey Optimizer에 들어오는 데이터에 대해 적용됩니다. 세그먼트 추가 및 제거는 정기적으로 처리되므로 타겟 대상이 적절하도록 합니다.
 
-* 배치 세그먼테이션 - 세그먼트의 대상 목록이 24시간 간격으로 평가됩니다. 일괄 처리 세그먼테이션은 지속적인 데이터 선택 프로세스의 대안으로서, 세그먼트 정의를 통해 모든 프로필 데이터를 한 번에 이동하여 해당 대상을 생성합니다. 세그먼트가 만들어지면 저장되고 저장되므로 사용할 수 있도록 내보낼 수 있습니다.
+* 배치 세그먼테이션 - 세그먼트의 대상 목록이 24시간 간격으로 평가됩니다. 일괄 처리 세그먼테이션은 진행 중인 데이터 선택 프로세스의 대안으로서, 세그먼트 정의를 통해 모든 프로필 데이터를 한 번에 이동하여 해당 대상을 생성합니다. 세그먼트가 만들어지면 저장되고 저장되므로 사용할 수 있도록 내보낼 수 있습니다.
 
 배치 세그먼테이션과 스트리밍 세그먼테이션 간의 결정은 세그먼트 규칙 평가의 복잡성과 비용을 기반으로, 각 세그먼트 정의에 대해 시스템에서 수행됩니다.
 
