@@ -84,7 +84,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >선택한 IP 풀이 아래에 있는 동안에는 서피스 생성을 계속할 수 없습니다 [에디션](ip-pools.md#edit-ip-pool) (**[!UICONTROL 처리 중]** 상태)로 설정되고, 선택된 하위 도메인과 연결되어 있지 않습니다. [자세히 보기](#subdomains-and-ip-pools)
+   >선택한 IP 풀이 아래에 있는 동안에는 서피스 생성을 계속할 수 없습니다 [에디션](ip-pools.md#edit-ip-pool) (**[!UICONTROL 처리 중]** 상태)로 설정되고, 선택된 하위 도메인과 연결되어 있지 않습니다. [자세히 알아보기](#subdomains-and-ip-pools)
    >
    >서피스를 초안으로 저장하고 IP 풀이 **[!UICONTROL 성공]** 서피스 생성을 재개할 상태
 
