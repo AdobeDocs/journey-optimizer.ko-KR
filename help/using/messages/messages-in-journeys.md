@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -93,20 +93,20 @@ ht-degree: 89%
 
 ![](assets/push-adv-parameters.png)
 
-이메일의 경우 [기본 이메일 주소](../configuration/primary-email-addresses.md).
+이메일의 경우 [기본 이메일 주소](../configuration/primary-email-addresses.md)를 표시할 수 있습니다.
 
-특정 컨텍스트에서는 특정 사용을 위해 이러한 값을 무시할 수 있습니다. 값을 강제 적용하려면 필드의 오른쪽에 있는 **[!UICONTROL 매개 변수 무시 활성화]** 아이콘을 클릭합니다.
+특정 컨텍스트에서 특정 용도로 이러한 값을 재정의할 수 있습니다. 값을 강제 적용하려면 필드의 오른쪽에 있는 **[!UICONTROL 매개 변수 무시 활성화]** 아이콘을 클릭합니다.
 
 ![](assets/email-adv-parameters.png)
 
 이 옵션은 다음과 같은 경우에 유용합니다.
 
-* 이메일을 테스트합니다. 이메일 주소를 추가할 수 있습니다. 여정을 게시하면 이메일이 사용자에게 전송됩니다.
+* 이메일을 테스트합니다. 이메일 주소를 추가할 수 있습니다. 여정을 게시하면 이메일이 전송됩니다.
 * 목록의 구독자 이메일 주소를 참조하십시오. [사용 사례](../building-journeys/message-to-subscribers-uc.md)를 자세히 알아보십시오.
 
 >[!NOTE]
 >
->이메일 주소 무시는 특정 사용 사례에만 사용해야 합니다. 대부분의 경우 **[!UICONTROL 실행 필드]** 는 사용해야 하는 것입니다. [자세히 보기](../configuration/primary-email-addresses.md)
+>이메일 주소 재정의는 특정 사용 사례에만 사용해야 합니다. 대부분의 경우 **[!UICONTROL 실행 필드]**&#x200B;에 기본 주소로 정의된 값을 사용해야 하므로 이메일 주소를 변경할 필요가 없습니다. [자세히 알아보기](../configuration/primary-email-addresses.md)
 
 ## 메시지 찾아보기{#browse-message}
 
