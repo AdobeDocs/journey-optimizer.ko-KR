@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 > * 채널 서피스를 생성, 편집 및 삭제하려면 [채널 서피스 관리](../administration/high-low-permissions.md#manage-channel-surface) 권한.
 >
-> * 다음을 수행해야 합니다 [이메일 구성](#configure-email-settings), [푸시 구성](../configuration/push-configuration.md) 및 [SMS 구성](../configuration/sms-configuration.md) 채널 서피스를 생성하기 전 단계.
+> * 다음을 수행해야 합니다 [이메일 구성](email-settings.md), [푸시 구성](../configuration/push-configuration.md) 및 [SMS 구성](../configuration/sms-configuration.md) 채널 서피스를 생성하기 전 단계.
 
 
 여정 또는 캠페인에서 메시지를 만들 때 채널 서피스를 구성하고 나면 선택할 수 있습니다.

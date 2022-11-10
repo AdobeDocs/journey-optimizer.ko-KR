@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1235'
 ht-degree: 3%
 
 ---
@@ -64,15 +64,7 @@ BCC 이메일 주소 설정이 즉시 저장되고 표면 수준에서 처리됩
 
 ![](assets/preset-bcc-in-msg.png)
 
-그러나 아래 논리에 따라 BCC 주소가 통신을 전송하도록 선택됩니다.
-
-* 배치 및 버스트 여정의 경우 BCC 설정이 만들어지기 전에 이미 시작된 일괄 처리 또는 버스트 실행에는 적용되지 않습니다. 변경 사항은 다음 되풀이 또는 새 실행 시 선택됩니다.
-
-* 트랜잭션 메시지의 경우 변경 사항이 다음 커뮤니케이션에 대해 즉시 선택됩니다(최대 1분 지연).
-
->[!NOTE]
->
->BCC 설정을 선택할 수 있도록 여정을 다시 게시할 필요가 없습니다.
+그러나 설명된 논리에 따라 숨은 참조 주소가 통신을 전송하도록 선택됩니다 [여기](email-settings.md).
 
 ### Recommendations 및 제한 사항 {#bcc-recommendations-limitations}
 

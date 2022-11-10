@@ -8,10 +8,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 27%
+source-wordcount: '322'
+ht-degree: 28%
 
 ---
 
@@ -58,6 +58,6 @@ ht-degree: 27%
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-여정에서 얻은 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
+메시지에 프로필 기반 개인화를 추가하는 방법과 세그먼트 멤버십을 개인화 블록의 사전 조건으로 사용하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
