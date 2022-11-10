@@ -177,7 +177,7 @@ ht-degree: 77%
 >id="ajo_admin_preset_unsubscribe"
 >title="이메일 헤더에 구독 취소 링크 추가"
 >abstract="[목록 구독 취소]를 활성화하여 이메일 헤더에 구독 취소 링크를 추가합니다. 구독 취소 URL을 설정하려면 원클릭 옵트아웃 링크를 이메일 콘텐츠에 삽입합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="원클릭 옵트아웃"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko#one-click-opt-out" text="원클릭 옵트아웃"
 
 채널 표면 수준에서 [목록 구독 취소 옵션](../configuration/channel-surfaces.md#list-unsubscribe)을 사용하도록 설정한 경우 [!DNL Journey Optimizer](으)로 보낸 해당 이메일의 헤더에 구독 취소 링크가 포함됩니다.
 

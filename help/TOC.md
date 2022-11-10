@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -147,14 +147,14 @@ ht-degree: 94%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + 사용 사례 {#journey-use-cases}
-      + 비즈니스 사용 사례 {#business-use-cases}
+      + 비즈니스 사용 사례 {#business-use-cases} 
          + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
          + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
          + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
-      + 기술 사용 사례 {#technical-use-cases}
+      + 기술 사용 사례 {#technical-use-cases} 
          + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
          + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [외부 데이터 소스 및 사용자 지정 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
+         + [외부 데이터 원본 및 사용자 지정 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
 + 캠페인{#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)
@@ -178,17 +178,17 @@ ht-degree: 94%
    + [경고 확인](using/messages/alerts.md)
    + [전송 시간 최적화](using/messages/send-time-optimization.md)
 + 웹 채널{#web}
-   + [웹 채널 시작](using/web/get-started-web.md)
-   + [웹 경험 만들기](using/web/create-web.md)
-   + [웹 페이지 작성](using/web/author-web.md)
+   + [웹 채널 시작하기](using/web/get-started-web.md)
+   + [웹 경험 만들기 ](using/web/create-web.md)
+   + [웹 페이지 작성 ](using/web/author-web.md)
    + [Visual Editing Helper 확장 기능](using/web/visual-editing-helper.md)
-   + [웹 보고](using/web/web-report.md)
+   + [웹 보고 ](using/web/web-report.md)
 + 인앱 채널{#in-app}
-   + [인앱 채널 시작](using/in-app/get-started-in-app.md)
+   + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
    + [인앱 채널 구성](using/in-app/inapp-configuration.md)
-   + [인앱 메시지 만들기](using/in-app/create-in-app.md)
-   + [인앱 콘텐츠 디자인](using/in-app/design-in-app.md)
-   + [인앱 보고서](using/in-app/inapp-report.md)
+   + [인앱 메시지 만들기 ](using/in-app/create-in-app.md)
+   + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
+   + [인앱 보고서 ](using/in-app/inapp-report.md)
 + 콘텐츠 디자인 {#design}
    + [이메일 디자인 시작](using/design/design-emails.md)
    + [처음부터 시작 ](using/design/create-email-content.md)
@@ -413,7 +413,7 @@ ht-degree: 94%
             + [다시 시도](using/configuration/retries.md)
             + [허용 목록](using/configuration/allow-list.md)
       + [SMS 채널 구성](using/configuration/sms-configuration.md)
-      + [DM 구성](using/configuration/direct-mail-configuration.md)
+      + [다이렉트 메일 구성](using/configuration/direct-mail-configuration.md)
       + 채널 표면 설정 {#set-up-channels}
          + [채널 표면 생성](using/configuration/channel-surfaces.md)
          + [이메일 설정 구성](using/configuration/email-settings.md)
