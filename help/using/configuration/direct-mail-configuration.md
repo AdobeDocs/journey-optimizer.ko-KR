@@ -7,9 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
+exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
+source-git-commit: dbb668b219b8d2ccea4d340c019918d6a6e387bb
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -119,7 +120,7 @@ DM을 [!DNL Journey Optimizer]을(를) 만들려면 메일 공급자가 사용�
 
 DM 서피스에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 구성도 포함되어야 합니다.
 
-1. 채널 서피스를 생성합니다. [자세히 보기](channel-surfaces.md)
+1. 채널 서피스를 생성합니다. [자세히 알아보기](channel-surfaces.md)
 
 1. 을(를) 선택합니다 **[!UICONTROL DM]** 채널.
 
@@ -129,28 +130,41 @@ DM 서피스에는 DM 파일을 내보낼 서버를 정의하는 파일 라우�
 
    ![](assets/surface-direct-mail-settings.png)
 
+   <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
+
 1. 파일 형식을 선택합니다. **[!UICONTROL CSV]** 또는 **[!UICONTROL 텍스트 구분]**.
 
-1. 에서 **[!UICONTROL 삽입]** 섹션에서 중복 행을 자동으로 제거하도록 선택할 수 있습니다.
-
-1. 프로필 데이터가 포함된 각 파일에 대한 최대 레코드 수(예: 행)를 정의합니다. 지정한 임계값에 도달하면 나머지 레코드에 대한 다른 파일이 만들어집니다.
-
-   ![](assets/surface-direct-mail-split.png)
-
-   예를 들어 파일에 100,000개의 레코드가 있고 임계값 제한이 60,000으로 설정되어 있으면 레코드가 두 개의 파일로 분할됩니다. 첫 번째 파일에는 60,000개의 행이 포함되며 두 번째 파일에는 나머지 40,000개의 행이 포함됩니다.
-
-   >[!NOTE]
-   >
-   >1과 20만 레코드 사이의 숫자를 설정할 수 있습니다. 즉, 각 파일에는 1개 이상의 행과 20만 개의 행을 포함할 수 없습니다.
-
-1. 마지막으로 **[!UICONTROL 파일 라우팅 구성]** 만든 것들 중에서. DM 공급자가 사용할 파일을 내보낼 위치를 정의합니다.
+1. 을(를) 선택합니다 **[!UICONTROL 파일 라우팅 구성]** 만든 것들 중에서. DM 공급자가 사용할 파일을 내보낼 위치를 정의합니다.
 
    >[!CAUTION]
    >
-   >파일 라우팅 옵션을 구성하지 않은 경우 DM 서피스를 생성할 수 없습니다. [자세히 보기](#file-routing-configuration)
+   >파일 라우팅 옵션을 구성하지 않은 경우 DM 서피스를 생성할 수 없습니다. [자세히 알아보기](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png)
+
+   <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
 1. DM 표면을 제출합니다.
 
 이제 다음을 수행할 수 있습니다 [dm 메시지 만들기](../messages/create-direct-mail.md) 캠페인 내부. 캠페인이 시작되면 타겟팅된 대상 데이터가 포함된 파일을 정의한 서버로 자동으로 내보냅니다. 그러면 DM 공급자가 해당 파일을 검색하고 DM 게재를 계속 진행할 수 있습니다.
+
+>[!NOTE]
+>
+>중복 행은 자동으로 제거됩니다.
+>
+>프로필 데이터가 포함된 각 파일에 대한 최대 레코드(예: 행) 수가 너무 많으면 나머지 레코드에 대해 다른 파일이 자동으로 생성됩니다.
+
+<!--
+    In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
+
+    Define the maximum number of records (i.e. rows) for each file containing profile data. After the specified threshold is reached, another file will be created for the remaining records.
+
+    ![](assets/surface-direct-mail-split.png)
+
+    For example, if there are 100,000 records in the file and the threshold limit is set to 60,000, the records will be split into two files. The first file will contain 60,000 rows, and the second file will contain the remaining 40,000 rows.
+
+    >[!NOTE]
+    >
+    >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
+
+-->

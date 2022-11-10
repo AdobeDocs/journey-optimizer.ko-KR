@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1505'
 ht-degree: 2%
 
 ---
@@ -51,6 +51,12 @@ ht-degree: 2%
 >abstract="랜딩 페이지를 만들려면 사전 설정을 선택한 다음, 기본 페이지와 하위 페이지를 구성한 다음 게시하기 전에 최종적으로 페이지를 테스트해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="랜딩 페이지 게시"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_management_labels"
+>title="랜딩 페이지에 레이블 지정"
+>abstract="중요한 디지털 자산을 보호하기 위해 레이블을 사용하여 랜딩 페이지에 대한 데이터 액세스를 관리하기 위한 권한을 정의할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="랜딩 페이지 사전 설정 만들기"
 
 랜딩 페이지를 만드는 단계는 다음과 같습니다.
 
@@ -107,7 +113,7 @@ ht-degree: 2%
 
    ![](assets/lp_open-designer.png)
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 의 일부로 설정해야 합니다 [사전 설정](../configuration/lp-presets.md#lp-create-preset) 선택하셨습니다. [자세히 보기](../configuration/lp-subdomains.md)
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 의 일부로 설정해야 합니다 [사전 설정](../configuration/lp-presets.md#lp-create-preset) 선택하셨습니다. [자세히 알아보기](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -178,7 +184,7 @@ ht-degree: 2%
    >
    >동일한 랜딩 페이지의 하위 페이지에서 기본 페이지에 대한 링크를 삽입할 수 있습니다. 예를 들어, 실수로 가입하고 싶은 사용자를 리디렉션하려면 확인 하위 페이지의 링크를 구독 기본 페이지에 추가할 수 있습니다. 에 링크를 삽입하는 방법을 알아봅니다. [이 섹션](../design/message-tracking.md#insert-links).
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 보기](../configuration/lp-subdomains.md)
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 알아보기](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -265,7 +271,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->경고를 게시하기 전에 경고를 확인하고 확인합니다. [자세히 보기](#check-alerts)
+>경고를 게시하기 전에 경고를 확인하고 확인합니다. [자세히 알아보기](#check-alerts)
 
 랜딩 페이지가 게시되면 과 함께 랜딩 페이지 목록에 추가됩니다. **[!UICONTROL 게시됨]** 상태.
 
@@ -273,5 +279,5 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->특정 보고서를 통해 랜딩 페이지의 영향을 모니터링할 수 있습니다. [자세히 보기](../reports/lp-report-live.md)
+>특정 보고서를 통해 랜딩 페이지의 영향을 모니터링할 수 있습니다. [자세히 알아보기](../reports/lp-report-live.md)
 
