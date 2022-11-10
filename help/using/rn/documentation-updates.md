@@ -5,9 +5,9 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2128'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 94%
 
 ## 2022년 10월 {#october-2022}
 
-* 외부 데이터 소스 및 사용자 지정 작업을 사용하여 처리량을 제한하는 방법에 대한 여정 사용 사례를 추가했습니다. [자세히 보기](../building-journeys/limit-throughput.md)
-* 여정 사용 사례 섹션이 다음 두 가지 카테고리로 재구성되었습니다. [비즈니스 사용 사례](../building-journeys/journeys-uc.md) 및 [기술 사용 사례](../building-journeys/collections.md).
-* 다음 **엔티티 데이터 세트** 섹션을 더 자세히 업데이트했습니다. [자세히 보기](../start/datasets-query-examples.md#entity-dataset)
+* 외부 데이터 원본 및 사용자 지정 작업을 사용하여 처리량을 제한하는 방법에 대한 여정 사용 사례를 추가했습니다. [자세히 알아보기](../building-journeys/limit-throughput.md)
+* 여정 사용 사례 섹션은 [비즈니스 사용 사례](../building-journeys/journeys-uc.md) 및 [기술적 사용 사례](../building-journeys/collections.md)의 두 가지 범주로 재구성되었습니다.
+* 다음 **엔티티 데이터 세트** 섹션을 더 자세한 내용으로 업데이트했습니다. [자세히 알아보기](../start/datasets-query-examples.md#entity-dataset)
 * 옵트아웃 관리 및 동의 정책에 대한 정보가 새 섹션으로 재구성되었습니다. [자세히 보기](../privacy/opt-out.md)
-* 여정 메시지의 고급 매개 변수에 대한 섹션을 더 명확하게 수정했으며 이제 전자 메일 주소 무시를 특정 사용 사례에 대해서만 사용해야 한다고 지정합니다. 대부분의 경우 **실행 필드** 는 사용해야 하는 것입니다. [자세히 보기](../messages/messages-in-journeys.md#adv-settings)
-* 에 메모를 추가했습니다. **랜딩 페이지 하위 도메인 구성** 랜딩 페이지 하위 도메인에서 대문자를 사용할 수 없도록 하는 섹션을 참조하십시오. [자세히 보기](../configuration/lp-subdomains.md)
+* 여정 메시지의 고급 매개변수에 대한 섹션이 명확해졌으며 이제 이메일 주소 재정의는 특정 사용 사례에만 사용해야 한다고 지정합니다. 대부분의 경우 **실행 필드**&#x200B;에서 기본 주소로 정의된 값을 사용해야 합니다. [자세히 알아보기](../messages/messages-in-journeys.md#adv-settings)
+* **랜딩 페이지 하위 도메인 구성** 섹션에 랜딩 페이지 하위 도메인에 대문자가 허용되지 않는다는 메모를 추가했습니다. [자세히 보기](../configuration/lp-subdomains.md)
 
 ## 2022년 9월 {#september-2022}
 
