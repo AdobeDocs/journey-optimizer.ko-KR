@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # 시스템 관리자용 시작하기 {#get-started-sys-admins}
 
-[!DNL Adobe Journey Optimizer]을(를) 시작하기 전에 환경을 준비하는 데 필요한 몇 가지 단계가 있습니다.  [데이터 엔지니어](data-engineer.md) 및 [여정 실무자](marketer.md)가 [!DNL Adobe Journey Optimizer](으)로 작업할 수 있도록 다음 단계를 수행해야 합니다.
+[!DNL Adobe Journey Optimizer]을(를) 시작하기 전에 환경을 준비하는 데 필요한 몇 가지 단계가 있습니다.  [데이터 엔지니어](data-engineer.md) 및 [여정 실무자](marketer.md)가 [!DNL Adobe Journey Optimizer] (으)로 작업할 수 있도록 다음 단계를 수행해야 합니다.
 
 
 **시스템 관리자**&#x200B;는 샌드박스 관리 및 채널 구성을 위해 **제품 프로필을 이해하고 권한을 할당**&#x200B;해야 합니다. 또한 사용 가능한 제품 프로필에 대해 샌드박스를 설정하고 관리해야 합니다. 그러면 팀원을 제품 프로필에 할당할 수 있습니다.
