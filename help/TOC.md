@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
+source-git-commit: 56b0726c0d8db3025d3ba3ef2b863fec7f03c726
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 98%
@@ -257,12 +257,12 @@ ht-degree: 98%
       + [프로필 시작](using/segment/get-started-profiles.md)
       + [테스트 프로필 만들기](using/segment/creating-test-profiles.md)
    + [ID](using/segment/get-started-identity.md)
-   + [라이선스 사용](using/segment/license-usage.md)
    + 대상자 구성 {#audience-orchestration}
       + [대상자 구성 시작](using/segment/get-started-audience-orchestration.md)
       + [컴포지션 워크플로우 만들기](using/segment/create-compositions.md)
       + [컴포지션 캔버스 작업](using/segment/composition-canvas.md)
       + [대상자 액세스 및 관리](using/segment/access-audiences.md)
+   + [라이선스 사용](using/segment/license-usage.md)
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)
