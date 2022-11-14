@@ -7,9 +7,10 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 6%
 
 ---
@@ -29,7 +30,7 @@ Adobe Experience Platform의 경고에 대해 자세히 알아보기 [설명서]
 
 ![](assets/alerts2.png)
 
-When [플랫폼 UI에서 경고 규칙 보기](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)각 규칙에 개별적으로 가입할 수 있습니다. 경고 구독 시 [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)그러나 경고 규칙은 다른 구독 패키지로 구성되어 있습니다. 세그먼트 읽기 경고에 해당하는 I/O 이벤트 구독 이름은 다음과 같습니다. &quot;여정 읽기 세그먼트 읽기 지연, 오류 및 오류&quot;
+When [Adobe Experience Platform UI에서 경고 규칙 보기](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)각 규칙에 개별적으로 가입할 수 있습니다. 경고 구독 시 [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)그러나 경고 규칙은 다른 구독 패키지로 구성되어 있습니다. 세그먼트 읽기 경고에 해당하는 I/O 이벤트 구독 이름은 다음과 같습니다. &quot;여정 읽기 세그먼트 읽기 지연, 오류 및 오류&quot;
 
 >[!WARNING]
 >

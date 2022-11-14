@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 25%
 
 ---
 
@@ -55,14 +55,14 @@ Adobe Journey Optimizer에는 마케터가 일대일 고객 참여와 마케팅 
 비즈니스 사용 사례:
 
 * [다중 채널 메시지 보내기](journeys-uc.md)
-* [Campaign v7/v8을 사용하여 메시지 보내기](campaign-classic-use-case.md)
+* [Campaign v7/v8을 사용하여 메시지 보내기](ajo-ac.md)
 * [구독자에게 메시지 보내기](message-to-subscribers-uc.md)
 
 기술 사용 사례:
 
 * [사용자 지정 작업으로 컬렉션을 동적으로 보내기](collections.md)
 * [게재 램프 업](ramp-up-deliveries-uc.md)
-* [외부 데이터 소스 및 사용자 지정 작업으로 처리량 제한](limit-throughput.md)
+* [외부 데이터 원본 및 사용자 지정 작업으로 처리량 제한](limit-throughput.md)
 
 ## 여정 버전{#journey-versions}
 
@@ -74,7 +74,7 @@ Adobe Journey Optimizer에는 마케터가 일대일 고객 참여와 마케팅 
 
 >[!NOTE]
 >
->일반적으로 프로필은 동일한 여정에 동시에 여러 번 있을 수 없습니다. 다시 여정을 사용하도록 설정하면 프로필이 여정을 다시 입력할 수 있지만, 해당의 이전 인스턴스를 완전히 종료할 때까지 이를 수행할 수 없습니다. [자세히 보기](end-journey.md).
+>일반적으로 프로필은 동일한 여정에 동시에 여러 번 있을 수 없습니다. 재입력이 활성화된 경우 프로필은 여정에 다시 입력할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 다시 입력할 수 없습니다. [자세히 보기](end-journey.md).
 
 라이브 여정으로 수정해야 하는 경우, 여정의 새 버전을 만드십시오.
 

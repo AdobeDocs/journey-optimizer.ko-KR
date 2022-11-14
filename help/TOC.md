@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c92587670a56adf6811fcad49873a8ef0c5b7e84
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 98%
+source-wordcount: '1264'
+ht-degree: 97%
 
 ---
 
@@ -150,7 +150,7 @@ ht-degree: 98%
    + 사용 사례 {#journey-use-cases}
       + 비즈니스 사용 사례 {#business-use-cases} 
          + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
-         + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/campaign-classic-use-case.md)
+         + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/ajo-ac.md)
          + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
       + 기술 사용 사례 {#technical-use-cases} 
          + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
@@ -389,11 +389,12 @@ ht-degree: 98%
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 데이터 관리 {#data-management}
-   + [스키마](using/start/get-started-schemas.md)
-   + 데이터 세트 {#datasets}
-      + [데이트 세트 시작](using/start/get-started-datasets.md)
-      + [쿼리 예](using/start/datasets-query-examples.md)
-   + [쿼리](using/start/get-started-queries.md)
+   + [데이터 관리 시작](using/data/gs-data.md)
+   + [스키마 작업](using/data/get-started-schemas.md)
+   + Journey Optimizer 데이터 세트 {#datasets}
+      + [데이트 세트 시작](using/data/get-started-datasets.md)
+      + [쿼리 예](using/data/datasets-query-examples.md)
+   + [쿼리](using/data/get-started-queries.md)
 + 구성{#configuration}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
    + 메시지 구성 {#configuration-message}

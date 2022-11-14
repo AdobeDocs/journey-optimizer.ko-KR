@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 5%
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다.
 
-여기에는 종단 간 사용 사례가 나와 있습니다 [섹션](../building-journeys/campaign-classic-use-case.md).
+여기에는 종단 간 사용 사례가 나와 있습니다 [섹션](../building-journeys/ajo-ac.md).
 
 구성된 각 작업에 대해 여정 디자이너 팔레트에서 작업 활동을 사용할 수 있습니다. 다음을 참조하십시오 [섹션](../building-journeys/using-adobe-campaign-classic.md).
 

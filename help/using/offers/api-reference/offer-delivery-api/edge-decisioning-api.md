@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1056'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Experience Platform 웹 SDK는 의사 결정 관리를 포함하여 Adobe에서 
 
 을 사용하여 의사 결정 관리를 구현하는 방법에는 두 가지가 있습니다 [Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 한 가지 방법은 개발자를 위한 것이고 웹 사이트와 프로그래밍에 대한 지식이 필요합니다. 다른 방법은 Adobe Experience Platform 사용자 인터페이스를 사용하여 HTML 페이지의 헤더에서 작은 스크립트만 참조하도록 하는 오퍼를 설정하는 것입니다.
 
-다음 문서를 참조하십시오. [의사 결정 관리](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대한 자세한 정보.
+다음 문서를 참조하십시오. [의사 결정 관리](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) Adobe Experience Platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대한 자세한 정보.
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ SDK를 사용하려면 [스키마](../../../start/get-started-schemas.md) 그리
 
 1. [포함 코드 추가](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-1. &quot;데이터 스트림&quot; 드롭다운에서 구성을 선택하여 생성한 데이터 스트림으로 Platform Web SDK 확장을 설치하고 구성합니다. 다음 문서를 참조하십시오. [확장](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. &quot;데이터 스트림&quot; 드롭다운에서 구성을 선택하여 만든 데이터 스트림으로 Adobe Experience Platform Web SDK 확장을 설치하고 구성합니다. 다음 문서를 참조하십시오. [확장](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
    ![Adobe Experience Platform 웹 SDK](../../assets/installed-catalog-web-sdk.png)
 

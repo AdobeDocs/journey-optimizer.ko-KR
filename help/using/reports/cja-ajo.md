@@ -7,9 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '338'
 ht-degree: 8%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 8%
 
 사용하기 전 [!DNL Customer Journey Analytics] 여정의 경우 먼저 이 통합을 구성해야 합니다.
 
-1. [연결 만들기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR) in [!DNL Customer Journey Analytics] 사용 **[!UICONTROL 데이터 집합]** Platform으로 보내려고 합니다.
+1. [연결 만들기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR) in [!DNL Customer Journey Analytics] 사용 **[!UICONTROL 데이터 집합]** Adobe Experience Platform으로 보내려고 합니다.
 
    다음 [!DNL Journey Optimizer] 구성할 수 있습니다.
    * [여정 단계 이벤트](../start/datasets-query-examples.md#journey-step-event): 여정에 들어오는 사람과 받는 거리를 볼 수 있습니다.
@@ -34,7 +35,7 @@ ht-degree: 8%
 
 1. [데이터 보기 만들기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 를 입력하여 보고서에 사용할 차원 및 지표를 구성할 수 있습니다.
 
-   Journey Optimizer 관련 지표를 만들어 여정 데이터를 더 잘 반영하도록 할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
+   Journey Optimizer 관련 지표를 만들어 여정 데이터를 더 잘 반영하도록 할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
 
 
 사용 [!DNL Journey Optimizer] with [!DNL Customer Journey Analytics] 으로 인해 보고 데이터에 다음과 같은 불일치가 발생할 수 있습니다.

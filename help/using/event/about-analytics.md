@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 8%
 
 ---
 
 # Adobe Analytics 데이터 활용{#analytics-data}
 
-이미 플랫폼에 스트리밍 및 캡처하고 있는 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 여정을 트리거하고 고객을 위한 경험을 자동화할 수 있습니다.
+이미 Adobe Experience Platform으로 캡처 및 스트리밍하고 있는 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 여정을 트리거하고 고객을 위한 경험을 자동화할 수 있습니다.
 
 >[!NOTE]
 >

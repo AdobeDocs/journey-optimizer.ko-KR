@@ -8,20 +8,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 17%
+source-wordcount: '566'
+ht-degree: 15%
 
 ---
 
 # 데이터 소스 구성 {#configure-data-source}
 
-데이터 소스를 구성하는 주요 단계는 다음과 같습니다.
 
 >[!NOTE]
 >
 >데이터 소스는 항상 **기술 사용자**&#x200B;가 구성해야 합니다.
+
+데이터 소스를 구성하려면 아래 단계를 수행하십시오.
 
 1. 관리 메뉴 섹션에서 **[!UICONTROL 구성]**. 에서  **[!UICONTROL 데이터 소스]** 섹션을 클릭합니다. **[!UICONTROL 관리]**. 데이터 소스 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../start/user-interface.md)를 참조하십시오.
 

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 6%
@@ -23,7 +23,7 @@ Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로�
 
 이를 수행하려면 전용 작업을 구성해야 합니다. 다음을 참조하십시오 [섹션](../action/acc-action.md).
 
-여기에는 종단 간 사용 사례가 나와 있습니다 [섹션](../building-journeys/campaign-classic-use-case.md).
+여기에는 종단 간 사용 사례가 나와 있습니다 [섹션](../building-journeys/ajo-ac.md).
 
 1. 이벤트를 시작으로 여정을 디자인합니다. 다음 보기 [섹션](../building-journeys/journey.md).
 1. 에서 **작업** 팔레트의 섹션에서 Campaign 작업을 선택하여 여정에 추가합니다.

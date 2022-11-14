@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 74%
+source-wordcount: '1417'
+ht-degree: 73%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 74%
 >abstract="외부 데이터 소스를 사용하면 서드파티 시스템에 대한 연결을 정의할 수 있습니다. 호텔 예약 시스템을 사용하여 특정인의 객실 투숙 여부를 확인하는 경우를 예로 들 수 있습니다. 기본 제공 Adobe Experience Platform 데이터 소스와는 달리 외부 데이터 소스는 필요한 수만큼 만들 수 있습니다."
 
 외부 데이터 소스를 사용하면 서드파티 시스템에 대한 연결을 정의할 수 있습니다. 호텔 예약 시스템을 사용하여 특정인의 객실 투숙 여부를 확인하는 경우를 예로 들 수 있습니다. 기본 제공 Adobe Experience Platform 데이터 소스와는 달리 외부 데이터 소스는 필요한 수만큼 만들 수 있습니다.
+
+>[!NOTE]
+>
+>외부 시스템을 사용할 때의 보호 기능은 [이 페이지](../configuration/external-systems.md).
 
 POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다. 그리고 API 키와 기본/사용자 지정 인증 모드가 지원됩니다.
 
@@ -75,7 +79,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 * **[!UICONTROL 에 사용됨]**: 필드 그룹을 사용하는 여정 수를 표시합니다. 을(를) 클릭합니다. **[!UICONTROL 여정 보기]** 아이콘을 클릭하여 이 필드 그룹을 사용하는 여정 목록을 표시합니다.
 * **[!UICONTROL 메서드]**: POST 또는 GET 방법을 선택합니다. 여기서는 GET 메서드를 선택합니다.
-* **[!UICONTROL 동적 값]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [자세히 보기](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL 동적 값]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [자세히 알아보기](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL 응답 페이로드]**: 내부 클릭 **[!UICONTROL 페이로드]** 필드에 붙여넣기를 통해 반환된 페이로드의 예제를 붙여넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 을 클릭하여 **[!UICONTROL 새 페이로드 붙여넣기]** 현재 전달된 페이로드를 변경하려는 경우
 * **[!UICONTROL 보낸 페이로드]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
 
