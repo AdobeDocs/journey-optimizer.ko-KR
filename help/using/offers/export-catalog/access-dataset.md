@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 10%
@@ -27,4 +27,4 @@ ht-degree: 10%
 
 ![](../assets/dataset-preview.png)
 
-데이터 세트를 찾고 사용하는 방법에 대한 자세한 내용은 [이 페이지](../../start/get-started-datasets.md).
+데이터 세트를 찾고 사용하는 방법에 대한 자세한 내용은 [이 페이지](../../data/get-started-datasets.md).

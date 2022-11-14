@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 100%
 
@@ -62,11 +62,11 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 **[!UICONTROL 데이터 관리]**
 
-* **[!UICONTROL 스키마]** - Adobe Experience Platform을 사용하여 스키마 편집기라는 인터랙티브한 시각적 캔버스에서 XDM(경험 데이터 모델) 스키마를 만들고 관리할 수 있습니다. [자세히 보기](get-started-schemas.md)
+* **[!UICONTROL 스키마]** - Adobe Experience Platform을 사용하여 스키마 편집기라는 인터랙티브한 시각적 캔버스에서 XDM(경험 데이터 모델) 스키마를 만들고 관리할 수 있습니다. [자세히 보기](../data/get-started-schemas.md)
 
-* **[!UICONTROL 데이터 세트]** - Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다. [자세히 알아보기](get-started-datasets.md)
+* **[!UICONTROL 데이터 세트]** - Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다. [자세히 알아보기](../data/get-started-datasets.md)
 
-* **[!UICONTROL 쿼리]** - Adobe Experience Platform 쿼리 서비스를 사용하여 쿼리를 작성하여 실행하고, 이전에 실행한 쿼리를 보고, 조직 내에서 사용자가 저장한 쿼리에 액세스합니다. [자세히 보기](get-started-queries.md)
+* **[!UICONTROL 쿼리]** - Adobe Experience Platform 쿼리 서비스를 사용하여 쿼리를 작성하여 실행하고, 이전에 실행한 쿼리를 보고, 조직 내에서 사용자가 저장한 쿼리에 액세스합니다. [자세히 보기](../data/get-started-queries.md)
 
 * **[!UICONTROL 모니터링]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko){target=&quot;_blank&quot;}
 
@@ -220,7 +220,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   <tr>
     <td rowspan="2">팝업 창</td>
     <td>변경 내용을 저장하거나 작업 확인</td>
-    <td>Enter</td>
+    <td>Enter 키</td>
   </tr>
   <tr>
     <td>창 닫기</td>
