@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 2%
@@ -48,7 +48,7 @@ SDK는 이러한 라이브러리를 결합하지 않았으며 처음부터 새�
 
 1. SDK를 설치합니다. 다음과 같은 여러 가지 방법으로 데이터를 수집할 수 있습니다 [SDK 페이지 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 이 페이지는 각 서로 다른 구현 방법으로 계속 진행됩니다.
 
-SDK를 사용하려면 [스키마](../../../data/get-started-schemas.md) 그리고 [데이터 스트림](../../../start/get-started-datasets.md) 정의됩니다.
+SDK를 사용하려면 [스키마](../../../data/get-started-schemas.md) 그리고 [데이터 스트림](../../../data/get-started-datasets.md) 정의됩니다.
 
 <!-- ****TODO - Configure schema**** -->
 

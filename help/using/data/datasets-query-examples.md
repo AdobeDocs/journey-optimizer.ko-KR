@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 이 페이지에서는 Adobe Journey Optimizer 데이터 세트 및 관련 사용 사례 목록을 확인할 수 있습니다.
 
-[이메일 추적 경험 이벤트 데이터 세트](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[메시지 피드백 이벤트 데이터 세트](../data/datasets-query-examples.md#message-feedback-event-dataset)
-[푸시 추적 경험 이벤트 데이터 세트](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[여정 단계 이벤트](../data/datasets-query-examples.md#journey-step-event)
-[의사 결정 이벤트 데이터 세트](../data/datasets-query-examples.md#ode-decisionevents)
-[동의 서비스 데이터 세트](../data/datasets-query-examples.md#consent-service-dataset)
-[숨은 참조 피드백 이벤트 데이터 세트](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
-[엔티티 데이터 세트](../data/datasets-query-examples.md#entity-dataset)
+[이메일 추적 경험 이벤트 데이터 세트](#email-tracking-experience-event-dataset)
+[메시지 피드백 이벤트 데이터 세트](#message-feedback-event-dataset)
+[푸시 추적 경험 이벤트 데이터 세트](#push-tracking-experience-event-dataset)
+[여정 단계 이벤트](#journey-step-event)
+[의사 결정 이벤트 데이터 세트](#ode-decisionevents)
+[동의 서비스 데이터 세트](#consent-service-dataset)
+[숨은 참조 피드백 이벤트 데이터 세트](#bcc-feedback-event-dataset)
+[엔티티 데이터 세트](#entity-dataset)
 
 ## 이메일 추적 경험 이벤트 데이터 세트{#email-tracking-experience-event-dataset}
 
