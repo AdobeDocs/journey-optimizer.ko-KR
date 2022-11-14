@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 3%
@@ -23,7 +23,7 @@ HIPAA와 같은 규정에서는 [!DNL Journey Optimizer] 는 개인에게 전송
 
 * 이메일 채널의 경우 [!DNL Journey Optimizer] 는 기본 제공 BCC 이메일 기능을 제공합니다. [자세히 알아보기](#bcc-email)
 
-* 또한 모든 채널의 경우 **엔티티 데이터 세트**: 개인화되지 않은 메시지 템플릿에 대한 세부 정보를 포함합니다. 이 필드로 데이터 세트를 내보내어 다음과 같은 메타데이터를 저장합니다. 보낸 사람과 시기 개인화된 데이터는 내보내지지 않고 템플릿(메시지의 형식 및 구조)만 고려합니다. [자세히 알아보기](../start/datasets-query-examples.md#entity-dataset)
+* 또한 모든 채널의 경우 **엔티티 데이터 세트**: 개인화되지 않은 메시지 템플릿에 대한 세부 정보를 포함합니다. 이 필드로 데이터 세트를 내보내어 다음과 같은 메타데이터를 저장합니다. 보낸 사람과 시기 개인화된 데이터는 내보내지지 않고 템플릿(메시지의 형식 및 구조)만 고려합니다. [자세히 알아보기](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
@@ -119,11 +119,11 @@ GDPR과 같은 규정에서는 데이터 주체가 언제든지 동의를 수정
 
 숨은 참조를 통한 보고는 여정 및 메시지 보고서에서 사용할 수 없습니다. 하지만 정보는 **[!UICONTROL AJO BCC 피드백 이벤트 데이터 세트]**. 이 데이터 세트에 대한 쿼리를 실행하여 디버깅 목적에 유용한 정보를 찾을 수 있습니다.
 
-사용자 인터페이스를 통해 이 데이터 세트에 액세스할 수 있습니다. 선택 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 세트]** > **[!UICONTROL 찾아보기]** 그리고 **[!UICONTROL 시스템 데이터 세트 표시]** 필터에서 전환하여 시스템에서 생성한 데이터 세트를 표시합니다. 의 데이터 세트에 액세스하는 방법에 대해 자세히 알아보십시오 [이 섹션](../start/get-started-datasets.md#access-datasets).
+사용자 인터페이스를 통해 이 데이터 세트에 액세스할 수 있습니다. 선택 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 세트]** > **[!UICONTROL 찾아보기]** 그리고 **[!UICONTROL 시스템 데이터 세트 표시]** 필터에서 전환하여 시스템에서 생성한 데이터 세트를 표시합니다. 의 데이터 세트에 액세스하는 방법에 대해 자세히 알아보십시오 [이 섹션](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-이 데이터 세트에 대해 쿼리를 실행하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}. 액세스하려면 다음을 선택합니다 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 쿼리]** 을(를) 클릭합니다. **[!UICONTROL 쿼리 만들기]**. [자세히 알아보기](../start/get-started-queries.md)
+이 데이터 세트에 대해 쿼리를 실행하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}. 액세스하려면 다음을 선택합니다 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 쿼리]** 을(를) 클릭합니다. **[!UICONTROL 쿼리 만들기]**. [자세히 알아보기](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 

@@ -4,10 +4,10 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2128'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * 외부 데이터 원본 및 사용자 지정 작업을 사용하여 처리량을 제한하는 방법에 대한 여정 사용 사례를 추가했습니다. [자세히 알아보기](../building-journeys/limit-throughput.md)
 * 여정 사용 사례 섹션은 [비즈니스 사용 사례](../building-journeys/journeys-uc.md) 및 [기술적 사용 사례](../building-journeys/collections.md)의 두 가지 범주로 재구성되었습니다.
-* 다음 **엔티티 데이터 세트** 섹션을 더 자세한 내용으로 업데이트했습니다. [자세히 알아보기](../start/datasets-query-examples.md#entity-dataset)
+* 다음 **엔티티 데이터 세트** 섹션을 더 자세한 내용으로 업데이트했습니다. [자세히 알아보기](../data/datasets-query-examples.md#entity-dataset)
 * 옵트아웃 관리 및 동의 정책에 대한 정보가 새 섹션으로 재구성되었습니다. [자세히 보기](../privacy/opt-out.md)
 * 여정 메시지의 고급 매개변수에 대한 섹션이 명확해졌으며 이제 이메일 주소 재정의는 특정 사용 사례에만 사용해야 한다고 지정합니다. 대부분의 경우 **실행 필드**&#x200B;에서 기본 주소로 정의된 값을 사용해야 합니다. [자세히 알아보기](../messages/messages-in-journeys.md#adv-settings)
 * **랜딩 페이지 하위 도메인 구성** 섹션에 랜딩 페이지 하위 도메인에 대문자가 허용되지 않는다는 메모를 추가했습니다. [자세히 보기](../configuration/lp-subdomains.md)
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 새로운 단계 이벤트 쿼리와 관련된 예시와 ID, instanceID 및 profileID 간의 차이에 대한 정보를 추가했습니다. [자세히 보기](../reports/query-examples.md).
 * [toDateOnly](../building-journeys/functions/functiontodateonly.md) 및 [toString](../building-journeys/functions/functiontostring.md) 함수와 관련된 페이지를 업데이트했습니다.
 * 시간 조건 매개 변수에 대한 세부 사항을 추가했습니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
-* 기본 제공 데이터 세트에 대한 정보를 추가했습니다. [자세히 보기](../start/get-started-datasets.md#access-datasets)
+* 기본 제공 데이터 세트에 대한 정보를 추가했습니다. [자세히 보기](../data/get-started-datasets.md#access-datasets)
 * 글로벌 보고서 및 라이브 보고서 섹션이 가독성 향상을 위해 재구성되었습니다. [자세히 보기](../reports/global-report.md)
 * Adobe Journey Optimizer에서 사용할 수 있는 모든 보고 지표 목록을 추가했습니다.
    [자세히 보기](../reports/global-report.md#email-and-sms-metrics)
@@ -65,7 +65,7 @@ ht-degree: 0%
 * Adobe Experience Cloud Asset 라이브러리에서 오퍼 표현에 있는 HTML 또는 JSON 콘텐츠를 추가하는 방법에 대한 새 섹션이 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/add-representations.md#html-json)
 * 여정 라이프사이클에 대한 새 페이지이 추가되었습니다. [자세히 보기](../building-journeys/journey.md#journey-versions)
 * 대기 활동 페이지를 업데이트했습니다. [자세히 보기](../building-journeys/wait-activity.md)
-* 쿼리 예와 함께 Adobe Journey Optimizer 데이터 세트 목록을 추가했습니다. [자세히 보기](../start/datasets-query-examples.md)
+* 쿼리 예와 함께 Adobe Journey Optimizer 데이터 세트 목록을 추가했습니다. [자세히 보기](../data/datasets-query-examples.md)
 * 허용 목록 페이지가 구성 섹션으로 이동되었습니다. [자세히 보기](../configuration/allow-list.md)
 * 제외 목록 페이지가 32-126 사이의 모든 ASCII 문자가 제외 필드에 허용된다는 사실 등 일부 정보를 명확하게 하도록 업데이트되었습니다. [자세히 보기](../configuration/manage-suppression-list.md)
 * 결정 관리에 대한 보호 및 정적 제한에 대한 링크가 추가되었습니다. [자세히 보기](../start/guardrails.md)
@@ -90,7 +90,7 @@ ht-degree: 0%
 * 해당 설명서에서 [!DNL Journey Optimizer] 2022년 4월 릴리스의 모든 새로운 기능 및 개선 사항을 자세히 설명합니다. [자세히 보기](release-notes.md)
 * 다음 **반응** 이벤트 설명서 페이지를 업데이트했습니다. [자세히 보기](../building-journeys/reaction-events.md)
 * 의사 결정 관리 기능에 대한 비디오에 Journey Optimizer 사용자 인터페이스를 반영하여 업데이트했습니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
-* **데이터 세트 시작** 섹션을 개선하여 데이터 세트에 액세스하고 데이터 세트를 만드는 방법을 자세히 설명합니다. [자세히 보기](../start/get-started-datasets.md)
+* **데이터 세트 시작** 섹션을 개선하여 데이터 세트에 액세스하고 데이터 세트를 만드는 방법을 자세히 설명합니다. [자세히 보기](../data/get-started-datasets.md)
 * 도움말 안내서 및 제품 릴리스 정보에 대한 링크를 **Adobe Journey Optimizer 설명서** 홈 페이지에 추가했습니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko)
 * **메시지 사전 설정 만들기** 섹션에서 이제 선택한 IP 풀이 편집 중이고(**[!UICONTROL 처리]** 상태) 선택한 하위 도메인과 연결된 적이 없을 때는 사전 설정 만들기를 진행할 수 없다는 점을 명확히 설명합니다. [자세히 보기](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * 메시지 사전 설정 **URL 추적** 섹션에 사용자 인터페이스의 부분적 변경 사항을 반영하여 업데이트했습니다. [자세히 보기](../configuration/channel-surfaces.md#url-tracking)

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 8%
@@ -29,9 +29,9 @@ ht-degree: 8%
 1. [연결 만들기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko-KR) in [!DNL Customer Journey Analytics] 사용 **[!UICONTROL 데이터 집합]** Adobe Experience Platform으로 보내려고 합니다.
 
    다음 [!DNL Journey Optimizer] 구성할 수 있습니다.
-   * [여정 단계 이벤트](../start/datasets-query-examples.md#journey-step-event): 여정에 들어오는 사람과 받는 거리를 볼 수 있습니다.
-   * [메시지 피드백/추적 데이터 세트](../start/datasets-query-examples.md#message-feedback-event-dataset): 을(를) 통해 전송된 메시지에 대한 게재 정보를 볼 수 있도록 해줍니다 [!DNL Journey Optimizer].
-   * [엔티티 및 여정 데이터 세트](../start/datasets-query-examples.md#entity-dataset): 친숙한 이름을 검색하고 보고에 사용할 수 있습니다.
+   * [여정 단계 이벤트](../data/datasets-query-examples.md#journey-step-event): 여정에 들어오는 사람과 받는 거리를 볼 수 있습니다.
+   * [메시지 피드백/추적 데이터 세트](../data/datasets-query-examples.md#message-feedback-event-dataset): 을(를) 통해 전송된 메시지에 대한 게재 정보를 볼 수 있도록 해줍니다 [!DNL Journey Optimizer].
+   * [엔티티 및 여정 데이터 세트](../data/datasets-query-examples.md#entity-dataset): 친숙한 이름을 검색하고 보고에 사용할 수 있습니다.
 
 1. [데이터 보기 만들기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 를 입력하여 보고서에 사용할 차원 및 지표를 구성할 수 있습니다.
 
