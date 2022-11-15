@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 10%
+source-wordcount: '422'
+ht-degree: 9%
 
 ---
 
@@ -20,17 +20,19 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform 데이터 소스"
->abstract="Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비스에 대한 연결을 정의합니다. 이 데이터 소스는 기본적으로 제공되며 사전 구성되어 있습니다. 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예를 들어 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다."
+>abstract="Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필에 대한 연결을 정의합니다. 이 데이터 소스는 기본 제공 및 사전 구성되어 있으므로 삭제할 수 없습니다. 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다."
 
-Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비스에 대한 연결을 정의합니다. 이 데이터 소스는 기본적으로 제공되며 사전 구성되어 있습니다. 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예를 들어 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. 실시간 고객 프로필 서비스에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target=&quot;_blank&quot;}.
+Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필에 대한 연결을 정의합니다. 이 데이터 소스는 기본 제공 및 사전 구성되어 있으므로 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예를 들어 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. 실시간 고객 프로필 Adobe에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target=&quot;_blank&quot;}.
+
+
+실시간 고객 프로필 서비스에 연결할 수 있도록 하려면 키를 사용하여 개인을 식별하고 키를 컨텍스트에 맞는 네임스페이스를 사용해야 합니다. 따라서 여정이 키 및 네임스페이스가 포함된 이벤트로 시작하는 경우에만 이 데이터 소스를 사용할 수 있습니다. [자세히 알아보기](../building-journeys/journey.md).
+
+&quot;ProfileFieldGroup&quot;이라는 사전 구성된 필드 그룹을 편집하고, 새 필드 그룹을 추가하고, 초안 또는 라이브 여정에서 사용되지 않는 필드 그룹을 제거할 수 있습니다. [자세히 알아보기](../datasource/configure-data-sources.md#define-field-groups).
+
 
 >[!NOTE]
 >
 >1년 전에 만든 1,000개의 최신 경험 이벤트를 검색할 수 있습니다.
-
-실시간 고객 프로필 서비스에 연결할 수 있도록 하려면 키를 사용하여 개인을 식별하고 키를 컨텍스트에 맞는 네임스페이스를 사용해야 합니다. 따라서 여정이 키 및 네임스페이스가 포함된 이벤트로 시작하는 경우에만 이 데이터 소스를 사용할 수 있습니다. [이 페이지](../building-journeys/journey.md)를 참조하십시오.
-
-&quot;ProfileFieldGroup&quot;이라는 사전 구성된 필드 그룹을 편집하고, 새 필드 그룹을 추가하고, 초안 또는 라이브 여정에서 사용되지 않는 필드 그룹을 제거할 수 있습니다. [이 페이지](../datasource/configure-data-sources.md#define-field-groups)를 참조하십시오.
 
 필드 그룹을 기본 데이터 소스에 추가하는 주요 단계는 다음과 같습니다.
 
@@ -40,7 +42,7 @@ Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비�
 
    ![](assets/journey23.png)
 
-1. 클릭 **[!UICONTROL 새 필드 그룹 추가]** 검색할 일련의 새 필드를 정의합니다. [이 페이지](../datasource/configure-data-sources.md#define-field-groups)를 참조하십시오.
+1. 클릭 **[!UICONTROL 새 필드 그룹 추가]** 검색할 일련의 새 필드를 정의합니다. [자세히 알아보기](../datasource/configure-data-sources.md#define-field-groups).
 
    ![](assets/journey24.png)
 

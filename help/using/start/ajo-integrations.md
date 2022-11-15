@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 6c322a979ec4918228162799453b144765d69b28
+source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '517'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ Journey Optimizer에서 여정을 만든 후 고객 데이터를 Customer Journe
 
 추가 정보 [Journey Optimizer + Analytics](../event/about-analytics.md).
 
-## 기계 학습{#integration-intelligent-service}
+## Adobe Intelligent Services{#integration-intelligent-service}
 
 Adobe Intelligent Services와의 통합을 통해 고객 경험 사용 사례에서 인공 지능과 머신 러닝을 활용할 수 있습니다. 이를 통해 마케팅 분석가는 데이터 과학 전문 지식 없이도 비즈니스 수준 구성을 사용하여 기업의 요구 사항에 맞는 예측을 설정할 수 있습니다. [자세히 알아보기](../building-journeys/ai-services-overview.md).
 
