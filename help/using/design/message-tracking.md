@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 10%
+source-wordcount: '677'
+ht-degree: 9%
 
 ---
 
@@ -89,9 +89,9 @@ ht-degree: 10%
 
 미러 페이지가 자동으로 생성됩니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->자동 생성된 링크는 편집할 수 없습니다.
+>미러 페이지 링크는 자동으로 생성되므로 편집할 수 없습니다. 여기에는 원본 이메일을 렌더링하는 데 필요한 암호화된 개인화된 데이터가 모두 포함됩니다. 따라서 값이 큰 개인화된 속성을 사용하면 긴 미러 페이지 URL이 생성되므로 링크가 최대 URL 길이를 갖는 웹 브라우저에서 작동하지 않을 수 있습니다.
 
 전자 메일이 전송되면 수신자가 미러 페이지 링크를 클릭하면 전자 메일의 컨텐츠가 기본 웹 브라우저에 표시됩니다.
 
