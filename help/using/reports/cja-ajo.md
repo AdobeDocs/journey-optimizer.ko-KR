@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 8%
@@ -17,8 +17,10 @@ ht-degree: 8%
 
 # [!DNL Customer Journey Analytics]로 작업  {#cja-ajo}
 
-![](assets/cja.png)
+
 [!DNL Journey Optimizer] 통합 [!DNL Customer Journey Analytics] 는 데이터의 자동화된 보고서 분배 및 사용자 지정 시각화를 통해 모든 여정을 전체적으로 볼 수 있도록 합니다.
+
+![](assets/cja.png)
 
 여정을 만든 후 [!DNL Journey Optimizer], 고객 데이터를에 가져올 수 있습니다. [!DNL Customer Journey Analytics] 보고서를 시작하고 고객이 여정과 상호 작용이 미치는 영향을 이해하기 위해 노력합니다.
 
