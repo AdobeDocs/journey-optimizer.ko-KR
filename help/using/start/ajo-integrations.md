@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
+source-git-commit: 12ae84646e69870564406066e102c540ac920df7
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 5%
+source-wordcount: '529'
+ht-degree: 6%
 
 ---
 
@@ -22,8 +22,7 @@ Adobe Journey Optimizer을 사용하면 이 데이터를 쉽게 관리, 유지 �
 
 >[!NOTE]
 >
-> Adobe Experience Platform을 기반으로 구축된 Adobe Journey Optimizer은 기본적으로 [Adobe 실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target=&quot;_blank&quot;}. 이 기본 제공 데이터 소스는 사전 구성되어 있으며 실시간 고객 프로필에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정을 입력한 사람이 클라이언트인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다.
-
+> Adobe Experience Platform을 기반으로 구축된 Adobe Journey Optimizer은 기본적으로 [Adobe 실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target=&quot;_blank&quot;}. 이 기본 제공 데이터 소스는 사전 구성되어 있으며 실시간 고객 프로필에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정을 입력한 사람이 클라이언트인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. [자세히 알아보기](../datasource/adobe-experience-platform-data-source.md).
 
 ## 보고{#integration-reporting}
 
@@ -45,7 +44,7 @@ Journey Optimizer에서 여정을 만든 후 고객 데이터를 Customer Journe
 
 ## 기계 학습{#integration-intelligent-service}
 
-Adobe Intelligent Services와의 통합을 통해 고객 경험 사용 사례에서 인공 지능과 머신 러닝을 활용할 수 있습니다. 이를 통해 마케팅 분석가는 데이터 과학 전문 지식 없이도 비즈니스 수준 구성을 사용하여 기업의 요구 사항에 맞는 예측을 설정할 수 있습니다.
+Adobe Intelligent Services와의 통합을 통해 고객 경험 사용 사례에서 인공 지능과 머신 러닝을 활용할 수 있습니다. 이를 통해 마케팅 분석가는 데이터 과학 전문 지식 없이도 비즈니스 수준 구성을 사용하여 기업의 요구 사항에 맞는 예측을 설정할 수 있습니다. [자세히 알아보기](../building-journeys/ai-services-overview.md).
 
 ## 메시지 보내기 {#integration-messages}
 
