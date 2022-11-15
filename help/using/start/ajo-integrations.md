@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 34d768502bfb2ce792beae8b1257fdddefc55ed7
+source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '525'
 ht-degree: 5%
 
 ---
@@ -71,6 +71,6 @@ Adobe Campaign Standard과 통합하여 여정에서 메시지를 보내도록 �
 
 ## 외부 시스템{#integration-external-systems}
 
-Journey Optimizer에서는 사용자 지정 데이터 소스 및 사용자 지정 작업을 통해 외부 시스템에 대한 연결을 구성할 수 있습니다. 예를 들어 외부 예약 시스템에서 가져온 데이터로 여정을 보강하거나 Epsilon 또는 Facebook과 같은 타사 시스템을 사용하여 메시지를 전송할 수 있습니다.
+Journey Optimizer에서는 사용자 지정 데이터 소스 및 사용자 지정 작업을 통해 외부 시스템에 대한 연결을 구성할 수 있습니다. 예를 들어 외부 예약 시스템에서 가져온 데이터로 여정을 보강할 수 있습니다.
 
 에서 외부 데이터 소스를 사용하여 타사 시스템에 대한 연결을 정의하는 방법을 알아봅니다. [이 섹션](../datasource/external-data-sources.md).
