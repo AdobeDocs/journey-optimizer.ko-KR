@@ -7,20 +7,21 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
+source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 2%
+source-wordcount: '916'
+ht-degree: 3%
 
 ---
 
-# 웹 페이지 작성 {#author-web}
+# 웹 페이지 작성  {#author-web}
 
 >[!AVAILABILITY]
 >
 >웹 채널 기능은 현재 베타로 사용되어 사용자만 선택할 수 있습니다.
 
-in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper chrome 브라우저 확장 프로그램에서 지원합니다. [자세히 보기](visual-editing-helper.md)
+in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper chrome 브라우저 확장 프로그램에서 지원합니다. [자세히 알아보기](visual-editing-helper.md)
 
 에서 웹 페이지에 액세스하여 작성할 수 있도록 하려면 [!DNL Journey Optimizer] 사용자 인터페이스에 나열된 사전 요구 사항을 따르십시오. [이 섹션](create-web.md#prerequesites).
 
@@ -28,7 +29,11 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 캠페인에서 웹 작업을 만들면 웹 디자이너를 사용하여 콘텐츠를 편집할 수 있습니다. 이렇게 하려면 아래 절차를 따르십시오.
 
-1. 에서 **[!UICONTROL 작업]** 캠페인의 탭에서 을 선택합니다. **[!UICONTROL 컨텐츠 편집]** 웹 캠페인 작성을 시작하려면 다음을 수행하십시오. [자세히 보기](create-web.md#configure-web-campaign)
+>[!CAUTION]
+>
+>에서 액세스 [!DNL Journey Optimizer]를 설정하는 경우 웹 페이지는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target=&quot;_blank&quot;}.
+
+1. 에서 **[!UICONTROL 작업]** 캠페인의 탭에서 을 선택합니다. **[!UICONTROL 컨텐츠 편집]** 웹 캠페인 작성을 시작하려면 다음을 수행하십시오.
 
 1. 페이지 일치 규칙을 만든 경우 이 규칙과 일치하는 URL을 입력해야 합니다. 규칙과 일치하는 모든 페이지에 변경 사항이 적용됩니다.
 
@@ -42,9 +47,9 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
    >[!CAUTION]
    >
-   >액세스하려면 웹 페이지를 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target=&quot;_blank&quot;}.
+   >웹 페이지에는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
 
-1. 클릭 **[!UICONTROL 웹 디자이너 열기]** 편집 [자세히 보기](author-web.md)
+1. 클릭 **[!UICONTROL 웹 디자이너 열기]** 편집 [자세히 알아보기](author-web.md)
 
    ![](assets/web-open-designer.png)
 
@@ -73,8 +78,8 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
    * [구분선](../design/content-components.md#divider)
    * [HTML](../design/content-components.md#HTML)
    * [이미지](../design/content-components.md#image)
-   * 제목 - 이 구성 요소를 사용하는 것은 **[!UICONTROL 텍스트]** 이메일 디자이너의 구성 요소입니다. [자세히 보기](../design/content-components.md#text)
-   * 단락 - 이 구성 요소를 사용하는 것은 **[!UICONTROL 텍스트]** 이메일 디자이너의 구성 요소입니다. [자세히 보기](../design/content-components.md#text)
+   * 제목 - 이 구성 요소를 사용하는 것은 **[!UICONTROL 텍스트]** 이메일 디자이너의 구성 요소입니다. [자세히 알아보기](../design/content-components.md#text)
+   * 단락 - 이 구성 요소를 사용하는 것은 **[!UICONTROL 텍스트]** 이메일 디자이너의 구성 요소입니다. [자세히 알아보기](../design/content-components.md#text)
    * 링크 - 에서 링크 스타일을 정의하는 방법을 알아봅니다. [이 섹션](../design/styling-links.md)
    * [오퍼 결정](../design/deliver-personalized-offers.md)
 
@@ -150,7 +155,7 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 ## 개인화 및 오퍼 추가
 
-개인화를 추가하려면 컨테이너를 선택하고 표시되는 상황별 메뉴 표시줄에서 개인화 아이콘을 선택합니다. 표현식 편집기를 사용하여 변경 사항을 추가합니다. [자세히 보기](../personalization/personalization-build-expressions.md)
+개인화를 추가하려면 컨테이너를 선택하고 표시되는 상황별 메뉴 표시줄에서 개인화 아이콘을 선택합니다. 표현식 편집기를 사용하여 변경 사항을 추가합니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
