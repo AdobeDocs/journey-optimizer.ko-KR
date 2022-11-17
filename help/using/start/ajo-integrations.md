@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
+source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,12 +24,11 @@ Adobe Journey Optimizer을 사용하면 이 데이터를 쉽게 관리, 유지 �
 >
 > Adobe Experience Platform을 기반으로 구축된 Adobe Journey Optimizer은 기본적으로 [Adobe 실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target=&quot;_blank&quot;}. 이 기본 제공 데이터 소스는 사전 구성되어 있으며 실시간 고객 프로필에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정을 입력한 사람이 클라이언트인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. [자세히 알아보기](../datasource/adobe-experience-platform-data-source.md).
 
-
 ## Adobe Customer Journey Analytics{#integration-cja}
 
 Journey Optimizer에서 생성된 데이터를 내보내 Customer Journey Analytics에서 고급 분석을 수행할 수 있습니다.
 
-Journey Optimizer과 Customer Journey Analytics 통합은 자동화된 보고서 분배 및 데이터에 대한 사용자 지정 시각화를 통해 모든 여정을 전체적으로 볼 수 있도록 합니다.
+Journey Optimizer과 Customer Journey Analytics 통합은 자동화된 보고서 분배 및 데이터에 대한 사용자 지정 시각화를 통해 모든 여정, 캠페인 및 오퍼에 대한 포괄적인 보기를 제공합니다.
 
 Journey Optimizer에서 여정을 만든 후 고객 데이터를 Customer Journey Analytics으로 가져와서 보고서를 시작하고 고객이 여정과 상호 작용한 모든 결과의 영향을 이해할 수 있습니다.
 
@@ -37,13 +36,13 @@ Journey Optimizer에서 여정을 만든 후 고객 데이터를 Customer Journe
 
 ## Adobe Analytics{#integration-aa}
 
-이미 Adobe Experience Platform으로 캡처 및 스트리밍하고 있는 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 여정을 트리거하고 고객을 위한 경험을 자동화할 수 있습니다.
+이미 Adobe Experience Platform으로 캡처 및 스트리밍하고 있는 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 실시간 여정을 트리거하고 고객을 위한 경험을 자동화할 수 있습니다.
 
 추가 정보 [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
 
-Adobe Intelligent Services와의 통합을 통해 고객 경험 사용 사례에서 인공 지능과 머신 러닝을 활용할 수 있습니다. 이를 통해 마케팅 분석가는 데이터 과학 전문 지식 없이도 비즈니스 수준 구성을 사용하여 기업의 요구 사항에 맞는 예측을 설정할 수 있습니다. [자세히 알아보기](../building-journeys/ai-services-overview.md).
+Adobe Intelligent Services와의 통합을 통해 고객 경험 사용 사례에서 인공 지능과 머신 러닝을 활용할 수 있습니다. 이를 통해 마케팅 분석가는 데이터 과학 전문 지식 없이도 비즈니스 수준 구성을 사용하여 기업의 요구 사항에 맞는 예측을 설정할 수 있습니다. 예를 들어, Adobe Intelligent Services를 사용하면 브랜드가 Adobe Experience Platform에서 프로필 속성으로 사용할 수 있고 여정을 개인화하는 데 사용할 수 있는 이탈 또는 전환 기계 학습 기반 점수를 만들 수 있습니다. [자세히 알아보기](../building-journeys/ai-services-overview.md).
 
 
 ## Adobe Campaign{#integration-ac}
@@ -64,7 +63,7 @@ Adobe Campaign Standard과 통합하여 여정에서 메시지를 보내도록 �
 
 추가 정보 [사용자 지정 작업](../action/about-custom-action-configuration.md).
 
-## 외부 시스템{#integration-external-systems}
+## 외부 데이터 소스{#integration-external-systems}
 
 Journey Optimizer에서는 사용자 지정 데이터 소스 및 사용자 지정 작업을 통해 외부 시스템에 대한 연결을 구성할 수 있습니다. 예를 들어 외부 예약 시스템에서 가져온 데이터로 여정을 보강할 수 있습니다.
 
