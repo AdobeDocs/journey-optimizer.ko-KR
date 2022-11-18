@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 2%
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 * 단일 이벤트. [자세히 알아보기](../event/about-events.md).
 * 이벤트로 시작하는 여정. [자세히 알아보기](../building-journeys/using-the-journey-designer.md).
-* 여정의 이메일 메시지. [자세히 보기](../messages/get-started-content.md)
+* 여정의 이메일 메시지. [자세히 알아보기](../messages/get-started-content.md)
 * 이메일 본문. [자세히 알아보기](../design/create-email-content.md).
 
 다음 단계를 수행합니다.
@@ -62,6 +62,7 @@ ht-degree: 2%
 ## 2단계: 이메일 만들기{#configure-email}
 
 1. 에서 **이메일** 활동, 클릭 **[!UICONTROL 컨텐츠 편집]**&#x200B;를 클릭한 다음 **[!UICONTROL 이메일 디자이너]**.
+
    ![](assets/personalization-uc-helpers-1.png)
 
 1. 전자 메일 디자이너 홈 페이지의 왼쪽 팔레트에서 3개의 구조 구성 요소를 메시지 본문에 끌어다 놓습니다.
@@ -109,6 +110,7 @@ ht-degree: 2%
 1. 클릭 **[!UICONTROL 유효성 검사]**&#x200B;를 클릭한 다음 **[!UICONTROL 저장]**.
 
    ![](assets/personalization-uc-helpers-6.png)
+
 1. 메시지를 저장합니다.
 
 ## 4단계: 장바구니에서 항목 목록을 삽입합니다. {#each-helper}
@@ -164,6 +166,8 @@ ht-degree: 2%
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
+
+
 1. 열기 `{{#each}}` 태그와 닫기 `{/each}}` 태그:
 
    ```html
@@ -184,6 +188,7 @@ ht-degree: 2%
    1. 이전 검색 결과에서 을(를) 추가합니다. **[!UICONTROL 이름]** 토큰으로 바꿉니다.
 
    다음 단계를 두 번 반복합니다.
+
    * 자리 표시자 &quot;#quantity&quot;을 **[!UICONTROL 수량]** 토큰.
    * 자리 표시자 &quot;#priceTotal&quot;을 **[!UICONTROL 총 가격]** 토큰.
 
@@ -202,7 +207,9 @@ ht-degree: 2%
       </table>
    {{/each}}
    ```
+
 1. 클릭 **[!UICONTROL 유효성 검사]**&#x200B;를 클릭한 다음 **[!UICONTROL 저장]**.
+
    ![](assets/personalization-uc-helpers-11.png)
 
 ## 5단계: 제품별 메모 삽입 {#if-helper}
@@ -225,6 +232,7 @@ ht-degree: 2%
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-12.png)
 
 1. 표현식에서 이 조건을 제거합니다.
@@ -258,6 +266,7 @@ ht-degree: 2%
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-13.png)
 
 1. 표현식을 수정합니다.
@@ -288,6 +297,7 @@ ht-degree: 2%
          {%else%} default_render
       {%/if%}
       ```
+
    1. 표현식에서 &quot;default_render&quot; 자리 표시자를 제거합니다.
 1. 클릭 **[!UICONTROL 유효성 검사]**&#x200B;를 클릭한 다음 **[!UICONTROL 저장]**.
 

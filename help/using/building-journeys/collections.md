@@ -4,7 +4,7 @@ product: journey optimizer
 title: 사용자 지정 작업으로 컬렉션을 동적으로 보내기
 description: Campaign v7/v8을 사용하여 메시지 보내기
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 5%
@@ -67,6 +67,7 @@ ht-degree: 5%
     ]
    }
    ```
+
 * 테스트 모드를 사용하여 컬렉션을 테스트하려면 코드 보기 모드를 사용해야 합니다. 현재 비즈니스 이벤트에 대해 코드 보기 모드가 지원되지 않습니다. 단일 요소가 있는 컬렉션만 보낼 수 있습니다.
 
 ## 일반 절차 {#general-procedure}
