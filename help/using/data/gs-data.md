@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Journey Optimizer의 데이터 유연성을 사용하여 데이터 보존, 보�
 
 * **제거 및 아카이빙 메커니즘**: Journey Optimizer에서 데이터 및 아카이브 제거를 자유롭게 정의하고 자동화하여 데이터 보존 정책을 자동화할 수 있습니다. 서로 다른 데이터 엔티티에 대해 서로 다른 에이징 전략을 정의할 수 있습니다. 오래된 데이터를 삭제하거나 보관하기 전에 자동으로 내보내도록 내보내기 메커니즘을 정의할 수도 있습니다.
 
-   Adobe Experience Platform UI의 데이터 위생 작업 공간을 사용하면 소비자 ID 삭제 및 데이터 세트 만료 예약 등 다양한 데이터 위생 작업을 만들고 모니터링할 수 있습니다. 추가 정보 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
+   Adobe Experience Platform UI의 데이터 위생 작업 공간을 사용하면 소비자 ID 삭제 및 데이터 세트 만료 예약 등 다양한 데이터 위생 작업을 만들고 모니터링할 수 있습니다. 이 작업 공간은 보안 및 개인 정보 보호(Security &amp; Privacy Shield)와 Healthcare Shield로 제공됩니다. 추가 정보 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
 
 * **데이터 레이크 및 삭제**: Data Lake에 저장된 고객 데이터는 Journey Optimizer에서 유지할 수 있습니다.
 
