@@ -4,10 +4,10 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 99%
+source-wordcount: '2145'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 ## 2022년 11월 {#november-2022}
 
-<!--* Added a new page about Journey Optimizer integration. [Read more](../start/ajo-integrations.md)-->
+* Journey Optimizer 통합에 대한 새 페이지가 추가되었습니다. [자세히 보기](../start/ajo-integrations.md)
 * 미러 페이지 URL 길이에 대한 권장 사항을 추가했습니다. [자세히 보기](../design/message-tracking.md)
 
 ## 2022년 10월 {#october-2022}
@@ -25,7 +25,7 @@ ht-degree: 99%
 * 외부 데이터 원본 및 사용자 지정 작업을 사용하여 처리량을 제한하는 방법에 대한 여정 사용 사례를 추가했습니다. [자세히 알아보기](../building-journeys/limit-throughput.md)
 * 여정 사용 사례 섹션은 [비즈니스 사용 사례](../building-journeys/journeys-uc.md) 및 [기술적 사용 사례](../building-journeys/collections.md)의 두 가지 범주로 재구성되었습니다.
 * 다음 **엔티티 데이터 세트** 섹션을 더 자세한 내용으로 업데이트했습니다. [자세히 보기](../data/datasets-query-examples.md#entity-dataset)
-* 옵트아웃 관리 및 동의 정책에 대한 정보가 새 섹션으로 재구성되었습니다. [자세히 보기](../privacy/opt-out.md)
+* 옵트아웃 관리 및 동의 정책 섹션이 재구성되었습니다. [자세히 보기](../privacy/opt-out.md)
 * 여정 메시지의 고급 매개변수에 대한 섹션이 명확해졌으며 이제 이메일 주소 재정의는 특정 사용 사례에만 사용해야 한다고 지정합니다. 대부분의 경우 **실행 필드**&#x200B;에서 기본 주소로 정의된 값을 사용해야 합니다. [자세히 알아보기](../messages/messages-in-journeys.md#adv-settings)
 * **랜딩 페이지 하위 도메인 구성** 섹션에 랜딩 페이지 하위 도메인에 대문자가 허용되지 않는다는 메모를 추가했습니다. [자세히 보기](../configuration/lp-subdomains.md)
 
@@ -37,7 +37,7 @@ ht-degree: 99%
 * [toDateOnly](../building-journeys/functions/functiontodateonly.md) 및 [toString](../building-journeys/functions/functiontostring.md) 함수와 관련된 페이지를 업데이트했습니다.
 * 시간 조건 매개 변수에 대한 세부 사항을 추가했습니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
 * 기본 제공 데이터 세트에 대한 정보를 추가했습니다. [자세히 보기](../data/get-started-datasets.md#access-datasets)
-* 글로벌 보고서 및 라이브 보고서 섹션이 가독성 향상을 위해 재구성되었습니다. [자세히 보기](../reports/global-report.md)
+* 글로벌 보고서 및 라이브 보고서 섹션이 개선되고 재구성되었습니다. [자세히 보기](../reports/global-report.md)
 * Adobe Journey Optimizer에서 사용할 수 있는 모든 보고 지표 목록을 추가했습니다.
    [자세히 보기](../reports/global-report.md#email-and-sms-metrics)
 * BCC 이메일 섹션이 새 아카이브 지원 페이지로 이동되었습니다. [자세히 보기](../configuration/archiving-support.md)
