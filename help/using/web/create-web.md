@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
+exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1073'
 ht-degree: 6%
 
 ---
 
-# 웹 경험 만들기 {#create-web}
+# 웹 경험 만들기  {#create-web}
 
 >[!AVAILABILITY]
 >
@@ -32,7 +33,7 @@ ht-degree: 6%
 
 * 웹 사이트에 수정 사항을 추가하려면 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR)웹 사이트에서 {target=&quot;_blank&quot;}.
 
-* 에 액세스하려면 [!DNL Journey Optimizer] 웹 디자이너는 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)Chrome에서 {target=&quot;_blank&quot;} 브라우저 확장 프로그램. [자세히 보기](visual-editing-helper.md)
+* 에 액세스하려면 [!DNL Journey Optimizer] 웹 디자이너는 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)Chrome에서 {target=&quot;_blank&quot;} 브라우저 확장 프로그램. [자세히 알아보기](visual-editing-helper.md)
 
 >[!CAUTION]
 >
@@ -58,9 +59,14 @@ ht-degree: 6%
 
 ## 웹 캠페인 만들기 {#create-web-campaign}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface"
+>title="웹 서피스 정의"
+>abstract="웹 서피스는 단일 페이지 URL 또는 여러 페이지를 일치시킬 수 있으므로 하나 또는 여러 웹 페이지에서 컨텐츠 수정 사항을 게재할 수 있습니다."
+
 캠페인을 통해 웹 경험 작성을 시작하려면 아래 단계를 따르십시오.
 
-1. 캠페인 만들기. [자세히 보기](../campaigns/create-campaign.md)
+1. 캠페인 만들기. [자세히 알아보기](../campaigns/create-campaign.md)
 
 1. 을(를) 선택합니다 **[!UICONTROL 웹]** 작업.
 
@@ -102,13 +108,13 @@ ht-degree: 6%
 
 1. 사용자 지정 또는 핵심 데이터 사용 레이블을 웹 캠페인에 지정하려면 **[!UICONTROL 액세스 관리]** 단추를 클릭합니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../administration/object-based-access.md)
 
-1. 선택할 수 있습니다 **[!UICONTROL 컨텐츠 실험]** 특정 지표에 대해 가장 적합한 처리를 확인하기 위해 대상자의 일부와 함께 컨텐츠 처리를 테스트하십시오. [자세히 보기](../campaigns/content-experiment.md)
+1. 선택할 수 있습니다 **[!UICONTROL 컨텐츠 실험]** 특정 지표에 대해 가장 적합한 처리를 확인하기 위해 대상자의 일부와 함께 컨텐츠 처리를 테스트하십시오. [자세히 알아보기](../campaigns/content-experiment.md)
 
    >[!AVAILABILITY]
    >
    >다음 **컨텐츠 실험** 기능은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
-1. 에서 **[!UICONTROL 작업]** 캠페인의 탭에서 을 선택합니다. **[!UICONTROL 컨텐츠 편집]** 웹 캠페인 작성을 시작하려면 다음을 수행하십시오. [자세히 보기](author-web.md)
+1. 에서 **[!UICONTROL 작업]** 캠페인의 탭에서 을 선택합니다. **[!UICONTROL 컨텐츠 편집]** 웹 캠페인 작성을 시작하려면 다음을 수행하십시오. [자세히 알아보기](author-web.md)
 
    ![](assets/web-edit-content.png)
 
@@ -120,13 +126,13 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >API로 트리거되는 캠페인의 경우 API 호출을 통해 대상을 설정해야 합니다. [자세히 보기](../campaigns/api-triggered-campaigns.md)
+   >API로 트리거되는 캠페인의 경우 API 호출을 통해 대상을 설정해야 합니다. [자세히 알아보기](../campaigns/api-triggered-campaigns.md)
 
    ![](assets/web-campaign-select-audience.png)
 
 1. 에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
 
-1. 정의 **[!UICONTROL 예약]** 참조하십시오. [자세히 보기](../campaigns/create-campaign.md#schedule)
+1. 정의 **[!UICONTROL 예약]** 참조하십시오. [자세히 알아보기](../campaigns/create-campaign.md#schedule)
 
    ![](assets/web-campaign-schedule.png)
 
@@ -140,7 +146,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->웹 캠페인 콘텐츠를 활성화하기 전에 미리 볼 수도 있습니다. [자세히 보기](author-web.md#test-web-campaign)
+>웹 캠페인 콘텐츠를 활성화하기 전에 미리 볼 수도 있습니다. [자세히 알아보기](author-web.md#test-web-campaign)
 
 1. 웹 캠페인에서 를 선택합니다 **[!UICONTROL 활성화 검토]**.
 

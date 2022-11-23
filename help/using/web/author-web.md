@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '1051'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,14 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 에서 웹 페이지에 액세스하여 작성할 수 있도록 하려면 [!DNL Journey Optimizer] 사용자 인터페이스에 나열된 사전 요구 사항을 따르십시오. [이 섹션](create-web.md#prerequesites).
 
 ## 웹 페이지 컨텐츠 편집 {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_personalize_header"
+>title="편집할 URL을 입력합니다"
+>abstract="위에 정의된 웹 표면에 적용할 컨텐츠를 편집하는 데 사용할 특정 웹 페이지의 URL을 입력합니다. Adobe Experience Platform Web SDK를 사용하여 페이지를 구현해야 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="추가 정보"
+
+<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
 캠페인에서 웹 작업을 만들면 웹 디자이너를 사용하여 콘텐츠를 편집할 수 있습니다. 이렇게 하려면 아래 절차를 따르십시오.
 
@@ -73,6 +81,11 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 ## 콘텐츠 구성 요소 사용 {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_components"
+>title="웹 페이지에 컨텐츠 구성 요소 추가"
+>abstract="웹 페이지에 많은 구성 요소를 추가하고 필요에 따라 편집할 수 있습니다."
+
 1. 에서 **[!UICONTROL 구성 요소]** 왼쪽의 웹 페이지에 다음 구성 요소를 추가하고 필요에 따라 편집할 수 있습니다.
 
    * [구분선](../design/content-components.md#divider)
@@ -113,6 +126,11 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 ### 찾아보기 모드로 교체 {#browse-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_browse"
+>title="찾아보기 모드 사용"
+>abstract="이 모드에서 개인화할 선택한 서피스에서 정확한 페이지로 이동할 수 있습니다."
+
 기본값에서 바꿀 수 있습니다 **[!UICONTROL 디자인]** 모드로 **[!UICONTROL 찾아보기]** 전용 단추를 사용하여 모드 지정
 
 ![](assets/web-designer-browse-mode.png)
@@ -130,6 +148,11 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 ![](assets/web-designer-device.png)
 
 ## 수정 사항 관리 {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="모든 변경 사항을 손쉽게 관리"
+>abstract="이 창을 사용하면 웹 페이지에 추가한 모든 조정 및 스타일을 탐색하고 관리할 수 있습니다."
 
 웹 페이지에 추가한 모든 구성 요소, 조정 및 스타일을 쉽게 관리할 수 있습니다.
 
@@ -164,6 +187,11 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 ![](assets/web-designer-offer.png)
 
 ## 웹 캠페인 테스트 {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="웹 경험 미리 보기"
+>abstract="웹 경험의 모양을 시뮬레이션합니다."
 
 수정된 웹 경험의 미리 보기를 표시하려면 아래 단계를 따르십시오.
 
