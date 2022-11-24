@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29f01b1c92c2b82a7cb11264b29604e74252b19b
+source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -46,9 +46,9 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 **[!UICONTROL 여정 관리]**
 
-* **[!UICONTROL 여정]** - 고객 여정을 생성하고, 구성하고, 조정합니다. [자세히 보기](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL 여정]** - 고객 여정 생성, 구성 및 오케스트레이션. [자세히 알아보기](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL 랜딩 페이지]** - 랜딩 페이지를 만들고, 디자인하고, 테스트하고, 게시합니다. [자세히 보기](../landing-pages/get-started-lp.md)
+* **[!UICONTROL 랜딩 페이지]** - 랜딩 페이지 만들기, 디자인, 테스트 및 게시. [자세히 보기](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL 의사 결정 관리]**
 
@@ -275,7 +275,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 오른쪽 상단의 아바타에서 **환경 설정**을 클릭합니다.
    ![](assets/preferences.png)
 * 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
-* 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 이전 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+* 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
    ![](assets/select-language.png)
 
 ## 검색{#unified-search}
