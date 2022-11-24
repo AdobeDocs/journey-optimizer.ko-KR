@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: a6735063ec68b40b1441b379a20cba8953b59447
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 8%
+source-wordcount: '203'
+ht-degree: 11%
 
 ---
 
@@ -23,11 +23,12 @@ ht-degree: 8%
 >
 >이 섹션은 Adobe Analytics 데이터를 사용해야 하는 규칙 기반 이벤트 및 고객에게만 적용됩니다.
 
-이를 수행하려면 Adobe Experience Platform에서 활용할 보고서 세트를 활성화해야 합니다.
+이를 수행하려면 Adobe Experience Platform에서 사용할 보고서 세트를 활성화해야 합니다. 이렇게 하려면 아래 단계를 수행합니다:
 
-1. Adobe Experience Platform에서 **[!UICONTROL 소스]** 그런 다음 **[!UICONTROL 데이터 추가]** ( Adobe Analytics 섹션)을 참조하십시오. 사용 가능한 Adobe Analytics 보고서 세트 목록이 표시됩니다.
+1. Adobe Experience Platform에 연결하고 **[!UICONTROL 소스]**.
+1. Adobe Analytics 섹션에서 을(를) 선택합니다 **[!UICONTROL 데이터 추가]**: 사용 가능한 Adobe Analytics 보고서 세트 목록이 표시됩니다.
 
-1. 활성화할 보고서 세트를 선택하고 **[!UICONTROL 다음]** 을(를) 클릭합니다. **[!UICONTROL 완료]**.
+1. 활성화할 보고서 세트를 선택하고 **[!UICONTROL 다음]** 및 **[!UICONTROL 완료]**.
 
 1. 소스 데이터 ID를 베타 프로그램 담당자와 공유합니다.
 
