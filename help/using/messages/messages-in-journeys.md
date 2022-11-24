@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: ht
+exl-id: acb5b65b-8787-4428-9924-36aa0a115926
+source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
+workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
-
 
 # 여정에 메시지 추가하기{#messages-in-journeys}
 
@@ -134,7 +134,7 @@ ht-degree: 100%
 
    ![](assets/message-duplicated.png)
 
-1. 초기 메시지를 복사본과 구분할 수 있도록 메시지의 이름을 변경합니다. 예를 들어 메시지를 편집할 때 다음과 같이 바꿉니다.
+1. 메시지를 편집할 때와 같이 초기 메시지를 복사본과 구분할 수 있도록 메시지의 이름을 지정합니다.
 
    ![](assets/multi-message.png)
 
