@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
-source-git-commit: 3f43cfac56e4665dc16ce24e9736bcfcd3c544bf
+source-git-commit: 6b3207f8da2f022d6094e6a2f321ac1b4f137e83
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '599'
 ht-degree: 3%
 
 ---
@@ -95,79 +95,6 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
    * 월별
 
 >[!ENDTABS]
-
-테스트 2:
-
-1. 이건 시험입니다
-
->[!BEGINTABS]
-
-    >[!TAB 여정에 푸시 추가]
-    
-    1. 여정을 열고 팔레트의 작업 섹션에서 푸시 활동을 끌어다 놓습니다.
-    
-    1. 메시지(레이블, 설명, 카테고리)에 대한 기본 정보를 제공한 다음 사용할 메시지 면을 선택합니다.
-    
-    >[!TAB 캠페인에 푸시 추가]
-    
-    1. 예약되었거나 API가 트리거된 새 캠페인을 만들려면 다음을 **[!UICONTROL 푸시 알림]**을 사용하여 **[!UICONTROL 앱 표면]**.
-    
-    1. **[!UICONTROL 만들기]**.
-    
-    1. **[!UICONTROL 속성]** 섹션, Campaign의 ** 편집[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**.
-    
-    1. **[!UICONTROL 대상 선택]** 단추 사용 가능한 Adobe Experience Platform 세그먼트 목록에서 타깃팅할 대상을 정의합니다.
-    
-    1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다.
-    
-    1. 캠페인은 특정 날짜 또는 반복 빈도에 실행되도록 디자인됩니다. 구성 방법 **[!UICONTROL 예약]**.
-    
-    1. **[!UICONTROL 작업 트리거]** 메뉴에서 **[!UICONTROL 빈도]푸시 알림 **:
-    
-    * 한 번
-    * 일별
-    * 주간
-    * 월별
-
->[!ENDTABS]
-
-1. 이것은 테스트의 일부입니다
-
-테스트 3:
-
-1. 이건 시험입니다
-
-   >[!BEGINTABS]
-
-   >[!TAB 여정에 푸시 추가]
-
-   1. 여정을 열고 팔레트의 작업 섹션에서 푸시 활동을 끌어다 놓습니다.
-
-   1. 메시지(레이블, 설명, 카테고리)에 대한 기본 정보를 제공한 다음 사용할 메시지 면을 선택합니다.
-   >[!TAB 캠페인에 푸시 추가]
-
-   1. 예약되었거나 API가 트리거된 새 캠페인을 만들어 다음을 선택합니다. **[!UICONTROL 푸시 알림]** 를 원하는 대로 선택하고 **[!UICONTROL 앱 표면]** 를 사용하십시오.
-
-   1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
-
-   1. 에서 **[!UICONTROL 속성]** 섹션에서 캠페인 편집 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**.
-
-   1. 을(를) 클릭합니다. **[!UICONTROL 대상 선택]** 사용 가능한 Adobe Experience Platform 세그먼트 목록에서 타깃팅할 대상을 정의하는 단추입니다.
-
-   1. 에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다.
-
-   1. 캠페인은 특정 날짜 또는 반복 빈도에 실행되도록 디자인됩니다. 구성 방법 알아보기 **[!UICONTROL 예약]** 캠페인 사용.
-
-   1. 에서 **[!UICONTROL 작업 트리거]** 메뉴에서 **[!UICONTROL 빈도]** 푸시 알림:
-
-      * 한 번
-      * 일별
-      * 주별
-      * 월별
-
-   >[!ENDTABS]
-
-1. 이것은 테스트의 일부입니다
 
 테스트 3:
 
