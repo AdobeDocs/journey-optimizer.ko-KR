@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 5c12ea559876d30a08f9aaf593d1b40b1f5b8bae
+exl-id: 617d623c-e038-4b5b-a367-5254116b7815
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '897'
 ht-degree: 9%
 
 ---
@@ -30,14 +31,16 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >기존 라이브 캠페인을 복제하여 새 라이브 캠페인을 만들 수도 있습니다. [자세히 보기](modify-stop-campaign.md#duplicate)
+   >기존 라이브 캠페인을 복제하여 새 라이브 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate)
 
    ![](assets/create-campaign.png)
 
-1. 에서 **[!UICONTROL 속성]** 섹션에서 캠페인을 실행할 시기를 지정합니다.
+1. 에서 **[!UICONTROL 속성]** 섹션에서 캠페인을 실행할 방법을 지정합니다.
 
-   * **[!UICONTROL 예약됨]**: 캠페인을 즉시 또는 지정된 날짜에 실행합니다. 예약된 캠페인은 **마케팅** 메시지 입력.
-   * **[!UICONTROL API 트리거]**: api 호출을 사용하여 캠페인을 실행합니다. API로 트리거된 캠페인은 **트랜잭션** 메시지, 즉 개인이 수행한 작업에 따라 전송된 메시지: 암호 재설정, 카드 포기 등 [API를 사용하여 캠페인을 트리거하는 방법을 알아봅니다](api-triggered-campaigns.md)
+   * **[!UICONTROL 예약됨]**
+   * **[!UICONTROL API 트리거]**
+
+   캠페인 유형 및 관련 참여에 대한 자세한 내용은 다음을 참조하십시오 [섹션](#campaigntype).
 
 1. 에서 **[!UICONTROL 작업]** 섹션에서 메시지를 보내는 데 사용할 채널과 채널 표면을 선택한 다음 **[!UICONTROL 만들기]**.
 
@@ -77,7 +80,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >API로 트리거되는 캠페인의 경우 API 호출을 통해 대상을 설정해야 합니다. [자세히 보기](api-triggered-campaigns.md)
+   >API로 트리거되는 캠페인의 경우 API 호출을 통해 대상을 설정해야 합니다. [자세히 알아보기](api-triggered-campaigns.md)
 
    에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
 
@@ -93,9 +96,42 @@ ht-degree: 9%
 
 1. 사용자 지정 또는 핵심 데이터 사용 레이블을 캠페인에 지정하려면 **[!UICONTROL 액세스 관리]** 버튼을 클릭합니다. [개체 수준 액세스 제어(OLA)에 대한 자세한 정보](../administration/object-based-access.md)
 
-캠페인이 준비되면 검토하고 게시할 수 있습니다. [자세히 보기](#review-activate)
+캠페인이 준비되면 검토하고 게시할 수 있습니다. [자세히 알아보기](#review-activate)
+
+## 캠페인 유형 {#campaigntype}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="캠페인 유형"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="캠페인 카테고리"
+>abstract="TBC"
+
+사용할 수 있는 캠페인에는 두 가지 유형이 있습니다.
+
+* **[!UICONTROL 예약됨]**: 캠페인을 즉시 또는 지정된 날짜에 실행합니다. 예약된 캠페인은 **마케팅** 메시지 입력.
+
+* **[!UICONTROL API 트리거]**: api 호출을 사용하여 캠페인을 실행합니다. API로 트리거된 캠페인은 **트랜잭션** 메시지, 즉 개인이 수행한 작업에 따라 전송된 메시지: 암호 재설정, 카드 포기 등 [API를 사용하여 캠페인을 트리거하는 방법을 알아봅니다](api-triggered-campaigns.md)
 
 ## 캠페인 예약 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="캠페인 시작"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="캠페인 종료"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Campaign 작업 트리거"
+>abstract="TBC"
 
 기본적으로 캠페인은 수동으로 활성화되면 시작되고 메시지가 한 번 전송되면 종료됩니다.
 
@@ -105,7 +141,7 @@ ht-degree: 9%
 
 ![](assets/create-campaign-schedule.png)
 
-## 신속한 전달 모드 {#rapid-delivery}
+## 푸시 캠페인에 대한 빠른 전달 모드 {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"

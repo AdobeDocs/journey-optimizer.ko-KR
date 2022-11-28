@@ -10,14 +10,19 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1000'
 ht-degree: 4%
 
 ---
 
 # 콘텐츠 실험 만들기 {#content-experiment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment"
+>title="콘텐츠 실험"
+>abstract="TBC"
 
 >[!AVAILABILITY]
 >
@@ -63,9 +68,9 @@ Journey Optimizer 컨텐츠 실험을 사용하여 여러 전달 처리를 정�
 
 1. 타겟팅할 대상을 정의합니다. 이렇게 하려면 **[!UICONTROL 대상 선택]** 사용 가능한 Adobe Experience Platform 세그먼트 목록을 표시하는 단추. [세그먼트에 대해 자세히 알아보기](../segment/about-segments.md)
 
-   에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [자세히 보기](get-started-experiment.md#content-experiment-work)
+   에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [자세히 알아보기](get-started-experiment.md#content-experiment-work)
 
-1. 특정 날짜 또는 반복 빈도로 캠페인을 실행하려면 예약 섹션을 구성합니다. [자세히 보기](create-campaign.md)
+1. 특정 날짜 또는 반복 빈도로 캠페인을 실행하려면 예약 섹션을 구성합니다. [자세히 알아보기](create-campaign.md)
 
 1. 클릭 **[!UICONTROL 컨텐츠 편집]** 다양한 **[!UICONTROL 치료]**.
 
@@ -173,8 +178,8 @@ Journey Optimizer 컨텐츠 실험을 사용하여 여러 전달 처리를 정�
 
 * **[!UICONTROL 신뢰도 구간]**: 기준 요소와 가장 성과가 좋은 처리 간의 성능 차이율. [자세히 알아보기](../campaigns/experiment-calculations.md#confidence-intervals).
 
-* **[!UICONTROL 평균 상승도]**: 기준선에 대해 지정된 처리의 전환율 비율 개선. [자세히 보기](../campaigns/experiment-calculations.md#understand-lift)
+* **[!UICONTROL 평균 상승도]**: 기준선에 대해 지정된 처리의 전환율 비율 개선. [자세히 알아보기](../campaigns/experiment-calculations.md#understand-lift)
 
-* **[!UICONTROL 신뢰도]**: 주어진 치료가 기본 치료와 동일하다는 증거. [자세히 보기](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 신뢰도]**: 주어진 치료가 기본 치료와 동일하다는 증거. [자세히 알아보기](../campaigns/experiment-calculations.md#understand-confidence)
 
 이러한 결과에 대해 자세히 알아보고 해석하는 방법은 다음을 참조하십시오 [이 페이지](../campaigns/get-started-experiment.md#interpret-results).
