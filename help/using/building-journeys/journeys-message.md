@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 24%
+source-wordcount: '223'
+ht-degree: 18%
 
 ---
 
@@ -39,4 +39,12 @@ ht-degree: 24%
 
    메시지를 구성하고 해당 컨텐츠를 정의하는 모든 단계는 [이 섹션](../messages/get-started-content.md).
 
+## 라이브 콘텐츠 업데이트{#update-live-content}
 
+라이브 여정에서 메시지(이메일, sms, 푸시)의 콘텐츠를 업데이트할 수 있습니다.
+
+이렇게 하려면 라이브 여정을 열고 메시지 활동을 선택한 다음 을(를) 클릭합니다 **컨텐츠 편집**.
+
+![](assets/add-a-message2.png)
+
+하지만 개인화에 사용되는 속성이 프로필 속성이든 컨텍스트 데이터(이벤트 또는 여정 속성에서)이든 간에 변경할 수 없습니다.

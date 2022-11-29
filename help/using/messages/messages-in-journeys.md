@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: acb5b65b-8787-4428-9924-36aa0a115926
-source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 97%
+source-wordcount: '800'
+ht-degree: 95%
 
 ---
 
@@ -92,6 +92,10 @@ ht-degree: 97%
 푸시 알림의 경우 Token, AppID, AppPlatform 매개 변수를 표시할 수 있습니다.
 
 ![](assets/push-adv-parameters.png)
+
+>[!NOTE]
+>
+>이러한 속성 중 하나를 덮어쓰는 경우 세 속성 모두 무시해야 합니다.
 
 이메일의 경우 [기본 이메일 주소](../configuration/primary-email-addresses.md)를 표시할 수 있습니다.
 

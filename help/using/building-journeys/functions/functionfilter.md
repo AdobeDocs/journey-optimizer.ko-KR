@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 10%
+source-wordcount: '126'
+ht-degree: 8%
 
 ---
 
 # 필터{#filter}
 
 지정된 키 값 중 하나와 일치하는 키 특성이 있는 개체를 사용하여 listObject를 반환합니다.
+
+>[!NOTE]
+>
+>대상 목록이 listObject인 경우 이 함수는 사용자 지정 작업 표현식에서만 사용할 수 있습니다.
 
 ## 카테고리
 

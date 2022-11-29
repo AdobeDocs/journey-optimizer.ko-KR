@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 32%
+source-wordcount: '66'
+ht-degree: 24%
 
 ---
 
 # distinctCountWithNull {#distinctCountWithNull}
 
 null 값을 포함하여 다른 값의 수를 계산합니다.
+
+>[!NOTE]
+>
+>대상 목록이 listObject인 경우 이 함수는 사용자 지정 작업 표현식에서만 사용할 수 있습니다.
 
 ## 카테고리
 

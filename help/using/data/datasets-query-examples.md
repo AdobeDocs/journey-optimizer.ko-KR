@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -325,6 +325,8 @@ _인터페이스의 이름: ajo_entity_dataset(시스템 데이터 세트)_
 >[!NOTE]
 >
 >당분간은 향후 호환성을 위해 엔티티 데이터 세트에 있는 각 메시지 게시에 대해 두 개의 항목이 있습니다. 그러나 필요한 경우 데이터 세트 간에 조인 쿼리를 사용하여 원하는 정보를 가져오는 기능에는 영향을 주지 않습니다.
+
+보고서에서 보낸 이메일을 전송한 작업에 따라 특정 여정이 보낸 전자 메일을 정렬하려면 메시지 피드백 데이터 세트에 엔티티 데이터 세트에 가입할 수 있습니다. 사용할 필드는 다음과 같습니다. `_experience.decisioning.propositions.scopeDetails.correlationID` 및 `_id field in entity dataset`.
 
 다음 쿼리는 주어진 캠페인에 대해 연결된 메시지 템플릿을 가져오는 데 도움이 됩니다.
 

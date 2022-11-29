@@ -4,10 +4,10 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 97%
+source-wordcount: '2189'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 97%
 * Journey Optimizer 통합에 대한 새 페이지가 추가되었습니다. [자세히 보기](../start/ajo-integrations.md)
 * 미러 페이지 URL 길이에 대한 권장 사항을 추가했습니다. [자세히 보기](../design/message-tracking.md)
 * 적절한 회신 관리를 위한 권장 사항을 포함하여 이메일 설정 구성의 새로운 하위 섹션이 전자 메일 회신 주소에 추가되었습니다. [자세히 보기](../configuration/email-settings.md#reply-to-email)
+* 라이브 여정에서 메시지 콘텐츠를 수정하는 방법에 대한 섹션을 추가했습니다. [자세히 보기](../building-journeys/journeys-message.md#update-live-content)
 
 ## 2022년 10월 {#october-2022}
 

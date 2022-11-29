@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 73%
@@ -42,7 +42,7 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->이제 데이터 소스에 대해 스키마 관계가 지원됩니다.
+>데이터 소스에는 스키마 관계가 지원되지 않습니다.
 
 Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 화면에서 확인하십시오 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target=&quot;_blank&quot;}.
 

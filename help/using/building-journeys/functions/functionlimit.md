@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 8%
+source-wordcount: '152'
+ht-degree: 7%
 
 ---
 
 # 제한 {#limit}
 
 목록의 첫 번째 또는 마지막 N 요소를 반환합니다.
+
+>[!NOTE]
+>
+>대상 목록이 listObject인 경우 이 함수는 사용자 지정 작업 표현식에서만 사용할 수 있습니다.
 
 ## 카테고리
 
