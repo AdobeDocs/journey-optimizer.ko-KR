@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 9b7898d0fe008a0e7ef711b1303230c6f901b712
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 메시지에 반응이 없는 경우 이 메커니즘을 사용하여 작업을 수행할 수도 있습니다. 이렇게 하려면 반응 활동과 평행한 두 번째 경로를 만들고 대기 활동을 추가합니다. 대기 활동에 정의된 기간 동안 반응이 없으면 두 번째 경로가 선택됩니다. 후속 메시지와 같은 메시지를 보내도록 선택할 수 있습니다.
 
-전에 채널 작업 활동(이메일, 푸시, SMS)이 있는 경우에만 캔버스에서 반응 활동을 사용할 수 있습니다.
+전에 채널 작업 활동(이메일 및 푸시)이 있는 경우에만 캔버스에서 반응 활동을 사용할 수 있습니다.
 
 자세한 내용은 [작업 활동](../building-journeys/about-journey-activities.md#action-activities).
 
