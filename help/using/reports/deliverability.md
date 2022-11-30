@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '695'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 2%
 # 전달성 시작 {#manage-deliverability}
 
 게재 기능은 수신자의 받은 편지함에 도달하는 게재의 성공을 측정하는 것입니다.
+
+>[!NOTE]
+>
+>Healthcare Shield를 소유한 고객의 경우, Adobe은 TLS(Transport Layer Security) 1.2를 사용하여 사용자의 시스템(수신자)과 Journey Optimizer(발신자) 간 데이터 교환을 보호합니다. 수신 메일 서버가 TLS 1.2를 지원하지 않는 경우에는 고객이 보낸 사람에게 다시 이메일을 전송하는 등의 게재 기능 문제가 발생합니다.
 
 **전자 메일 게재 기능** 는 개인 이메일 주소를 통해 짧은 시간 내에 컨텐츠와 포맷 측면에서 예상되는 품질로 메시지의 목적지에 도달할 수 있는 능력을 결정하는 특성 집합을 나타냅니다. 이러한 특징은 네 가지 주요 범주로 분류됩니다. 데이터 품질, 메시지 및 컨텐츠, 전송 인프라, 평판. 이들은 함께 성공적인 이메일 게재 가능성 프로그램의 기반을 형성합니다.
 
