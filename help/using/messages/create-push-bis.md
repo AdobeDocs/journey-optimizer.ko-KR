@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 푸시 알림 만들기 {#create-push-notification-bis}
 
-## 여정 또는 캠페인에서 푸시 알림 만들기 {#create}
+## 여정 또는 캠페인에서 푸시 알림 만들기
 
 푸시 알림을 만들려면 아래 단계를 수행하십시오.
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 >[!ENDTABS]
 
-## 신속한 전달 모드 {#rapid-delivery}
+## 신속한 전달 모드
 
 이전에 여정에서 버스트 모드라고 했던 빠른 전달 모드는 [!DNL Journey Optimizer] 캠페인을 통해 대용량 볼륨으로 푸시 메시지를 매우 빠르게 전송할 수 있는 추가 기능입니다.
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 빠른 전달 모드를 사용할 때의 성능에 대한 자세한 내용은 를 참조하십시오.
 
-### 전제 조건 {#prerequisites}
+### 전제 조건
 
 신속한 전송 메시징에는 다음과 같은 요구 사항이 포함됩니다.
 

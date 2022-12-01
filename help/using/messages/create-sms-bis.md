@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 >
 >업계 표준 및 규정에 따라 모든 SMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이를 위해 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다.
 
-## 여정 또는 캠페인에서 SMS 메시지 만들기 {#sms-content}
+## 여정 또는 캠페인에서 SMS 메시지 만들기
 
 SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 
@@ -65,7 +65,7 @@ SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 
 >[!ENDTABS]
 
-## SMS 콘텐츠 정의{#sms-content}
+## SMS 콘텐츠 정의
 
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 컨텐츠 편집]** sms 콘텐츠를 구성하는 단추를 클릭합니다.
 
@@ -77,7 +77,7 @@ SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 
 1. SMS 메시지가 준비되면 전송을 위한 구성을 완료하십시오.
 
-## SMS의 유효성 검사{#sms-preview}
+## SMS의 유효성 검사
 
 >[!NOTE]
 >
