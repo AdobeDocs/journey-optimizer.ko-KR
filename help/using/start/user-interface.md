@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1578'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,9 +46,9 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 **[!UICONTROL 여정 관리]**
 
-* **[!UICONTROL 여정]** - 고객 여정 생성, 구성 및 오케스트레이션. [자세히 알아보기](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL 여정]** - 고객 여정을 생성하고, 구성하고, 조정합니다. [자세히 알아보기](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL 랜딩 페이지]** - 랜딩 페이지 만들기, 디자인, 테스트 및 게시. [자세히 보기](../landing-pages/get-started-lp.md)
+* **[!UICONTROL 랜딩 페이지]** - 랜딩 페이지를 만들고, 설계하고, 테스트하고, 게시합니다. [자세히 보기](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL 의사 결정 관리]**
 
@@ -220,7 +220,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   <tr>
     <td rowspan="2">팝업 창</td>
     <td>변경 내용을 저장하거나 작업 확인</td>
-    <td>Enter 키</td>
+    <td>Enter</td>
   </tr>
   <tr>
     <td>창 닫기</td>
