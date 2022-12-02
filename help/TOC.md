@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
    + [설명서 업데이트](using/rn/documentation-updates.md)
 + 시작{#get-started}
    + [Journey Optimizer 소개](using/start/get-started.md)
-   + 빠른 시작 안내서{#quick-start}
+   + 빠른 시작{#quick-start}
       + [개요](using/start/quick-start.md)
       + [마케터로 시작하기](using/start/path/marketer.md)
       + [데이터 엔지니어로 시작하기](using/start/path/data-engineer.md)
@@ -35,12 +35,12 @@ ht-degree: 97%
 + 여정 {#orchestrate-journeys}
    + [여정 시작](using/building-journeys/journey.md)
    + 여정 만들기{#create-journey}
-      + [첫 여정 만들어 보기](using/building-journeys/journey-gs.md)
+      + [첫 여정 만들기](using/building-journeys/journey-gs.md)
       + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 게시](using/building-journeys/publishing-the-journey.md)
    + 여정 관리{#mannage-journey}
-      + [여정 종료](using/building-journeys/end-journey.md)
+      + [여정 끝내기](using/building-journeys/end-journey.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
       + [프로필 시작 관리](using/building-journeys/entry-management.md)
       + [다른 샌드박스로 여정 복사](using/building-journeys/copy-to-sandbox.md)
@@ -391,7 +391,7 @@ ht-degree: 97%
 + 데이터 관리 {#data-management}
    + [데이터 관리 시작](using/data/gs-data.md)
    + [스키마 작업](using/data/get-started-schemas.md)
-   + Journey Optimizer 데이터 세트 {#datasets}
+   + Journey Optimizer 데이터셋 {#datasets}
       + [데이트 세트 시작](using/data/get-started-datasets.md)
       + [쿼리 예](using/data/datasets-query-examples.md)
    + [쿼리](using/data/get-started-queries.md)
@@ -456,7 +456,7 @@ ht-degree: 97%
    + [속성 기반 액세스 제어](using/administration/attribute-based-access.md)
    + [객체 수준 액세스 제어](using/administration/object-based-access.md)
 + 개인정보 보호 {#privacy}
-   + [개인 정보 보호 시작](using/privacy/get-started-privacy.md)
+   + [개인 정보 시작](using/privacy/get-started-privacy.md)
    + [개인 정보 보호 요청](using/privacy/requests.md)
    + [리소스에 대한 작업 감사](using/privacy/audit-logs.md)
    + 동의 관리 {#consent}

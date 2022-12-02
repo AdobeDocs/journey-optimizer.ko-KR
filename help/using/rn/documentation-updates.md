@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '2189'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 96%
 ## 2022년 11월 {#november-2022}
 
 * Journey Optimizer 통합에 대한 새 페이지가 추가되었습니다. [자세히 보기](../start/ajo-integrations.md)
-* 미러 페이지 URL 길이에 대한 권장 사항을 추가했습니다. [자세히 보기](../design/message-tracking.md)
-* 적절한 회신 관리를 위한 권장 사항을 포함하여 이메일 설정 구성의 새로운 하위 섹션이 전자 메일 회신 주소에 추가되었습니다. [자세히 보기](../configuration/email-settings.md#reply-to-email)
+* 미러 페이지 URL 길이에 대한 권장 사항이 추가되었습니다. [자세히 보기](../design/message-tracking.md)
+* 올바른 회신 관리를 위한 권장 사항이 포함된 이메일 설정 구성의 새로운 하위 섹션이 이메일 주소에 대한 회신에 추가되었습니다. [자세히 보기](../configuration/email-settings.md#reply-to-email)
 * 라이브 여정에서 메시지 콘텐츠를 수정하는 방법에 대한 섹션을 추가했습니다. [자세히 보기](../building-journeys/journeys-message.md#update-live-content)
 
 ## 2022년 10월 {#october-2022}
@@ -39,7 +39,7 @@ ht-degree: 96%
 * [toDateOnly](../building-journeys/functions/functiontodateonly.md) 및 [toString](../building-journeys/functions/functiontostring.md) 함수와 관련된 페이지를 업데이트했습니다.
 * 시간 조건 매개 변수에 대한 세부 사항을 추가했습니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
 * 기본 제공 데이터 세트에 대한 정보를 추가했습니다. [자세히 보기](../data/get-started-datasets.md#access-datasets)
-* 글로벌 보고서 및 라이브 보고서 섹션이 개선되고 재구성되었습니다. [자세히 보기](../reports/global-report.md)
+* 글로벌 보고서 및 실시간 보고서 섹션이 개선되고 재구성되었습니다. [자세히 보기](../reports/global-report.md)
 * Adobe Journey Optimizer에서 사용할 수 있는 모든 보고 지표 목록을 추가했습니다.
    [자세히 보기](../reports/global-report.md#email-and-sms-metrics)
 * BCC 이메일 섹션이 새 아카이브 지원 페이지로 이동되었습니다. [자세히 보기](../configuration/archiving-support.md)

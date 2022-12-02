@@ -11,7 +11,7 @@ exl-id: acb5b65b-8787-4428-9924-36aa0a115926
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 95%
 
    ![](assets/message-duplicated.png)
 
-1. 메시지를 편집할 때와 같이 초기 메시지를 복사본과 구분할 수 있도록 메시지의 이름을 지정합니다.
+1. 초기 메시지를 사본과 구분할 수 있도록 메시지 이름을 변경합니다. 예를 들어 메시지를 편집할 때 다음과 같이 바꿉니다:
 
    ![](assets/multi-message.png)
 
