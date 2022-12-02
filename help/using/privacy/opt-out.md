@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b35ae530ec23da1ecb0ae99c4d9659481d296f09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1687'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -203,7 +203,7 @@ ht-degree: 77%
    >
    >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 표시되지 않습니다.
 
-* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
+* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
 
 ## 푸시 옵트아웃 관리 {#push-opt-out-management}
 
@@ -215,28 +215,28 @@ ht-degree: 77%
 
 업계 표준 및 규정에 따라 모든 SMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 구독이 취소되면 향후 마케팅 메시지 대상자에서 프로필이 자동으로 제거됩니다.
 
-기본적으로 Adobe Journey Optimizer은 Sinch 및 Twilio와 같은 네이티브 통합을 위한 업계 표준에 따라 무료 및 긴 코드 메시지에 대해 STOP, UNSTOP 및 START와 같은 표준 영어 회신 메시지를 처리합니다. 이러한 키워드는 일반적으로 타사 공급자로부터 자동 표준 응답을 트리거합니다(예: Twilio, Sinch 등). 공급자나 설명서 사이트를 통해 직접 확인할 수 있습니다.
+기본적으로 Adobe Journey Optimizer은 Sinch 및 Twilio와 같은 기본적인 통합을 위한 업계 표준에 따라 수신자 부담 및 긴 코드 메시지에 대해 STOP, UNSTOP 및 START와 같은 표준 영문 회신 메시지를 처리합니다. 이러한 키워드는 일반적으로 서드파티 공급자로부터 자동 표준 응답을 트리거합니다(예: Twilio, Sinch 등). 공급자나 설명서 사이트를 통해 직접 확인할 수 있습니다.
 
-SMS 옵트아웃 기능이 Adobe Journey Optimizer에서 키워드 응답 STOP, UNSTOP 및 START가 자동으로 인식되도록 하는 단계는 필요하지 않습니다.
+키워드 응답 STOP, UNSTOP 및 START가 자동으로 인식되므로, Adobe Journey Optimizer에서 SMS 옵트아웃 기능이 작동하는지 확인하는 데는 단계가 필요하지 않습니다.
 
-Adobe Journey Optimizer에서 옵트아웃 상태(Tilio 또는 Sinch와의 직접 통합을 위해)에 따라 전송을 중지하는 것 외에도 대부분의 SMS 게이트웨이 공급업체는 옵트아웃을 선택한 개인에게 SMS 메시지가 전달되지 않도록 하는 차단 목록을 유지합니다. Sinch 또는 Twilio 이외의 공급자를 사용하여 SMS를 전송하는 경우 [사용자 지정 채널](../building-journeys/using-custom-actions.md)를 채울 때는 공급자에게 확인해야 합니다.
+Adobe Journey Optimizer에서 옵트아웃 상태(Tilio 또는 Sinch와의 직접 통합을 위해)를 기반으로 전송을 중지하는 것 외에도 대부분의 SMS 게이트웨이 공급업체는 옵트아웃을 선택한 고객에게 SMS 메시지가 전달되지 않도록 하는 차단 목록을 유지합니다. Sinch 또는 Twilio 이외의 공급자를 사용하고 [사용자 지정 채널](../building-journeys/using-custom-actions.md)을 통해 SMS를 전송하는 경우 공급자에게 확인해야 합니다.
 
 >[!IMPORTANT]
 >
->텍스트 메시지 캠페인에는 텍스트 메시지 캠페인의 특성, 텍스트 메시지를 보내는 위치 및 수신자의 위치에 따라 다양한 법적 준수 요구 사항이 적용될 수 있습니다. <br>Adobe Journey Optimizer은 위에 자세히 설명된 대로 긴 코드 및 무료 전화번호에 대한 메시지를 처리하지만, 텍스트 메시지 캠페인이 적용 가능한 모든 법적 준수 요구 사항을 준수하는지 확인하려면 법률 자문을 구해야 합니다.
+>문자 메시지 캠페인은 문자 메시지 캠페인의 특성, 문자 메시지를 보내는 위치 및 받는 사람의 위치에 따라 다양한 법적 준수 요구 사항이 적용될 수 있습니다. <br>Adobe Journey Optimizer은 위에 자세히 설명된 대로 긴 코드 및 수신자 부담 전화번호에 대한 메시지를 처리하지만, 귀하의 문자 메시지 캠페인이 적용 가능한 모든 법적 준수 요구 사항을 준수하는지 확인하려면 법률적인 자문을 구해야 합니다.
 
 ### 짧은 코드 {#short-codes}
 
-기본적으로 Adobe Journey Optimizer은 짧은 코드 번호에 대한 옵트아웃, 옵트인 또는 도움말 키워드를 처리하지 않습니다.
+기본적으로 Adobe Journey Optimizer는 짧은 코드 번호에 대한 옵트아웃, 옵트인 또는 도움말 키워드를 처리하지 않습니다.
 
 짧은 코드가 옵트아웃 처리를 위한 모든 업계 규칙 및 규정을 준수하는지 확인해야 합니다.
 
-### 영숫자 보낸 사람 ID {#alphanumeric}
+### 영문과 숫자로 구성된 발신자 ID {#alphanumeric}
 
-영숫자 보낸 사람 ID는 단방향 메시징용이며 인바운드 메시지를 받을 수 없습니다. 따라서 Adobe Journey Optimizer의 SMS STOP, START, HELP 키워드는 알파 발신자 ID에 적용할 수 없습니다. 사용자가 영숫자 보낸 사람 ID를 통해 보낸 메시지에서 옵트아웃할 수 있도록 지원 팀에 쓰기, 지원 전화선 호출, 다른 전화 번호 또는 코드 문자 보내기 등의 다른 지침을 제공해야 합니다.
+영문과 숫자로 구성된 발신자 ID는 단방향 통신 전용이며 인바운드 메시지를 받을 수 없습니다. 따라서 Adobe Journey Optimizer의 SMS STOP, START, HELP 키워드는 Alpha Sender ID에 적용할 수 없습니다. 사용자가 영문과 숫자로 구성된 발신자 ID를 통해 발송된 메시지를 거부할 수 있도록 지원 팀에 문의하거나, 지원 팀에 전화하거나, 다른 전화 번호 또는 코드를 문자로 보내는 등의 다른 지침을 제공해야 합니다.
 
 #### 비디오 {#video-sms}
 
-SMS에 대한 기본 인바운드 키워드 지원(START, STOP 및 UNSTOP)이 작동하는 방식에 대한 자세한 내용은 다음 비디오를 참조하십시오.
+기본 인바운드 키워드 지원(START, STOP 및 UNSTOP)이 SMS에서 작동하는 방법에 대한 자세한 내용은 다음 영상을 참조하십시오:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
