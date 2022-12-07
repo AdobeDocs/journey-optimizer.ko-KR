@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 64e53e250504f5fd42f84d51809fd38c8e0d99a9
+source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ DM 공급자가 해당 파일에 액세스하여 메일 배달에 사용할 수 
 >id="ajo_dm_surface_settings"
 >title="DM 설정 정의"
 >abstract="DM 표면에는 타겟팅된 대상 데이터가 포함되어 있으며 메일 공급자가 사용할 파일의 형식에 대한 설정이 포함되어 있습니다. 파일 라우팅 구성을 선택하여 파일을 내보낼 위치도 정의해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/direct-mail-configuration.html#file-routing-configuration" text="파일 라우팅 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="파일 라우팅 구성"
 
 <!--
 >[!CONTEXTUALHELP]

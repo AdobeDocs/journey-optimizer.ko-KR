@@ -6,9 +6,9 @@ description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '712'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 
 >id="ajo_admin_sms_api"
 >title="Journey Optimizer을 사용하여 SMS 공급업체 구성"
 >abstract="SMS를 전송하기 전에 공급자 설정을 Journey Optimizer과 통합해야 합니다. 완료되면 SMS 표면을 만들어야 합니다. 이러한 단계는 Adobe Journey Optimizer 시스템 관리자가 수행해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="SMS 채널 서피스 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="SMS 채널 서피스 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
