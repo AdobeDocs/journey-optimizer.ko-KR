@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
+source-git-commit: 64e53e250504f5fd42f84d51809fd38c8e0d99a9
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,9 @@ When [dm 메시지 만들기](../direct-mail/create-direct-mail.md)을(를) 선�
 >id="ajo_dm_file_routing_details"
 >title="파일 라우팅 구성 정의"
 >abstract="DM 메시지를 만들면 타깃팅된 대상 데이터가 포함된 파일이 생성되고 서버로 내보내집니다. DM 공급자가 해당 파일에 액세스하여 DM 전달에 사용할 수 있도록 서버 세부 사항을 지정해야 합니다."
-<!-->
->additional url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html&quot; text=&quot;DM 메시지 만들기&quot;—>
+
+<!--
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
