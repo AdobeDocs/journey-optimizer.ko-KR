@@ -4,7 +4,7 @@ product: journey optimizer
 title: 이전 릴리스 정보(2021)
 description: Journey Optimizer 릴리스 정보
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 95%
@@ -182,7 +182,7 @@ ht-degree: 95%
 <td>
 <p>Adobe Journey Optimizer를 사용하여 모든 고객에게 최적의 시간에 푸시 또는 이메일을 자동으로 보냅니다. Adobe의 AI 서비스를 기반으로 하는 [전송 시간 최적화]는 기존의 오픈 및 클릭률 기록을 기반으로 참여를 극대화하기 위해 이메일 또는 푸시 메시지를 보내기 가장 적합한 시간을 예측합니다.</p>
 <p>이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.</p>
-<p>자세한 내용은 <a href="../messages/send-time-optimization.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../building-journeys/journeys-message.md#send-time-optimization">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -271,7 +271,7 @@ ht-degree: 95%
 
 **콘텐츠 디자인**
 
-* **배경** - 이제 배경 이미지가 실시간 미리 보기에서 지원됩니다. [자세히 알아보기](../design/preview.md)
+* **배경** - 이제 배경 이미지가 실시간 미리 보기에서 지원됩니다. [자세히 알아보기](../email/preview.md)
 * **원클릭 옵트아웃 링크** - 이메일 콘텐츠에 새로운 유형의 링크를 삽입할 수 있습니다. **옵트아웃** 링크를 사용하면 옵트아웃을 확인하기 위해 랜딩 페이지로 리디렉션되지 않고 한 번의 클릭으로 커뮤니케이션 구독을 취소할 수 있습니다. [자세히 알아보기](../privacy/opt-out.md#one-click-opt-out-link)
 
 **개인화**
@@ -346,9 +346,9 @@ ht-degree: 95%
 
 **미리 보기 및 테스트**
 
-* 이제 ID와 네임스페이스가 **[!UICONTROL 미리 보기]** 화면. [자세히 보기](../design/preview.md#preview-your-messages)
+* 이제 ID와 네임스페이스가 **[!UICONTROL 미리 보기]** 화면. [자세히 보기](../email/preview.md#preview-your-messages)
 * 이제 교정용 테스트 이메일 수가 10개로 제한됩니다.
-* 교정을 보낼 때 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](../design/preview.md#send-proofs)
+* 교정을 보낼 때 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](../email/preview.md#send-proofs)
 
 **개인화 표현식 편집기**
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 3%
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->메시지 빈도 규칙은 옵트아웃 관리와는 다릅니다. 옵트아웃 관리에서는 사용자가 브랜드로부터 커뮤니케이션 수신을 취소할 수 있습니다. [자세히 보기](../privacy/opt-out.md#opt-out-management)
+>메시지 빈도 규칙은 옵트아웃 관리와는 다릅니다. 옵트아웃 관리에서는 사용자가 브랜드로부터 커뮤니케이션 수신을 취소할 수 있습니다. [자세히 알아보기](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 메시지에 빈도 규칙을 적용하려면 아래 단계를 따르십시오.
 
-1. [메시지 만들기](../messages/get-started-content.md#create-new-message) 규칙에 대해 정의한 채널 중 하나를 선택하여 규칙 세트를 단순화합니다.
+1. 규칙에 대해 정의한 채널 중 하나를 선택하여 메시지를 만듭니다.
 
 1. 에 대해 정의한 카테고리를 선택합니다 [만든 규칙](#create-new-rule).
 
@@ -162,9 +162,9 @@ ht-degree: 3%
 
 1. 저장 및 [활성화](#activate-rule) 규칙.
 
-1. 이메일을 만들고 **[!UICONTROL 마케팅]** 해당 메시지의 카테고리입니다. [자세히 보기](../messages/get-started-content.md#create-new-message)
+1. 이메일을 만들고 **[!UICONTROL 마케팅]** 해당 메시지의 카테고리입니다. [자세히 알아보기](../email/create-email.md)
 
-1. 푸시 알림을 만들고 **[!UICONTROL 마케팅]** 해당 메시지의 카테고리입니다. [자세히 보기](../messages/get-started-content.md#create-new-message)
+1. 푸시 알림을 만들고 **[!UICONTROL 마케팅]** 해당 메시지의 카테고리입니다. [자세히 알아보기](../push/create-push.md)
 
 이 시나리오에서는 개별 프로필이 다음과 같습니다.
 * 은 매월 최대 12개의 마케팅 메시지를 받을 수 있습니다.

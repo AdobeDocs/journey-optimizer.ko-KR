@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 
    ![](assets/perso-uc5.png)
 
-1. 푸시 알림 메시지를 구성하고 디자인합니다. 다음을 참조하십시오 [섹션](../messages/get-started-content.md).
+1. 푸시 알림 메시지를 구성하고 디자인합니다. 다음을 참조하십시오 [섹션](../push/create-push.md).
 
 ## 2단계 - 프로필에 개인화 추가 {#add-perso}
 

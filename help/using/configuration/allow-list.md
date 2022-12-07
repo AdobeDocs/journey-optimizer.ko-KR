@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 2%
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->활성화되면 여정을 실행할 때에도 허용 목록 기능이 적용되지만 [증명](../design/preview.md#send-proofs) 및 를 사용하여 여정 테스트 [테스트 모드](../building-journeys/testing-the-journey.md).
+>활성화되면 여정을 실행할 때에도 허용 목록 기능이 적용되지만 [증명](../email/preview.md#send-proofs) 및 를 사용하여 여정 테스트 [테스트 모드](../building-journeys/testing-the-journey.md).
 
 ## 허용 목록 비활성화 {#deactivate-allow-list}
 

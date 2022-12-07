@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '252'
 ht-degree: 58%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 58%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-[!DNL Journey Optimizer] 에는 기본 제공 메시지 기능이 포함되어 있습니다. [이 섹션](../messages/messages-in-journeys.md)을 참조하십시오.
+[!DNL Journey Optimizer] 에는 기본 제공 메시지 기능이 포함되어 있습니다.
 
 Adobe Campaign v7 또는 v8이 있는 경우 요청 시 통합을 사용할 수 있습니다. [이 페이지](../action/acc-action.md)를 참조하십시오.
 

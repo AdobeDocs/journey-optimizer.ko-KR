@@ -4,9 +4,9 @@ product: journey optimizer
 title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
-workflow-type: ht
-source-wordcount: '3461'
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '3453'
 ht-degree: 100%
 
 ---
@@ -232,7 +232,7 @@ ht-degree: 100%
 <td>
 <p>이제 <b>Sinch</b> 또는 <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>이 <a href="../messages/create-sms.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
+<p>이 <a href="../sms/create-sms.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -284,7 +284,6 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer는 여정에서 메시지를 작성할 수 있는 새로운 흐름을 제공합니다. 인라인 메시징을 사용하면 사용자가 상당한 시간을 절약하고 Journey Optimizer에서 이메일, 푸시 알림 또는 SMS를 만들고 전달하는 워크플로우 프로세스를 간소화할 수 있습니다. 메시지를 별도의 단계로 제거하고 대신 여정 캔버스에서 작업의 일부로 편집할 수 있는 인라인으로 만들어 사용자는 버튼을 더 적게 클릭하고 화면을 더 적게 탐색하여 콘텐츠를 디자인하고 편집해야 합니다.</p>
 <img src="assets/do-not-localize/inline.gif"/>
-<p>자세한 내용은 <a href="../messages/get-started-content.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -364,7 +363,7 @@ ht-degree: 100%
 
 * **허용 목록 로직 업데이트** - 이제 목록이 비어 있더라도 기능이 활성화되는 즉시 허용 목록 로직이 적용됩니다. [자세히 보기](../configuration/allow-list.md#logic)
 
-* **URL 추적 매개 변수** - 이제 표현식 편집기를 사용하여 이메일 표면(즉, 사전 설정)에서 URL 추적 매개 변수를 구성할 수 있습니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
+* **URL 추적 매개 변수** - 이제 표현식 편집기를 사용하여 이메일 표면(즉, 사전 설정)에서 URL 추적 매개 변수를 구성할 수 있습니다. [자세히 보기](../email/email-settings.md#url-tracking)
 
 **의사 결정 관리**
 
@@ -387,7 +386,7 @@ ht-degree: 100%
 <p>이제 <b>Sinch</b> 또는 <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.</p>
-<p>이 <a href="../messages/create-sms.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
+<p>이 <a href="../sms/create-sms.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -405,7 +404,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Stock 및 Adobe Journey Optimizer 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선싱 및 저장할 수 있습니다. </br> 새로운 <b>유사한 스톡 사진 찾기</b> 옵션으로도 이미지의 내용, 색상 및 컴포지션과 일치하는 스톡 사진을 찾을 수 있습니다. </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>자세한 내용은 <a href="../design/stock.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../email/stock.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -474,12 +473,12 @@ ht-degree: 100%
 
 **이메일**
 
-* **템플릿으로 저장** - 이제 이메일 콘텐츠를 템플릿으로 저장하고 다른 메시지를 만들 때 다시 사용할 수 있습니다. [자세히 알아보기](../design/email-templates.md)
+* **템플릿으로 저장** - 이제 이메일 콘텐츠를 템플릿으로 저장하고 다른 메시지를 만들 때 다시 사용할 수 있습니다. [자세히 알아보기](../email/email-templates.md)
 
 
 **관리**
 
-* **미리 보기 추적 URL 매개 변수** - 메시지 사전 설정을 구성할 때 URL 추적 매개 변수를 정의하는 경우 결과 추적 URL의 동적 미리 보기가 표시됩니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
+* **미리 보기 추적 URL 매개 변수** - 메시지 사전 설정을 구성할 때 URL 추적 매개 변수를 정의하는 경우 결과 추적 URL의 동적 미리 보기가 표시됩니다. [자세히 보기](../email/email-settings.md#url-tracking)
 
 * **메시지 사전 설정 에디션** - 메시지 사전 설정을 업데이트할 때 드는 최대 처리 시간이 3시간으로 단축되었습니다. [자세히 보기](../configuration/channel-surfaces.md#edit-channel-surface)
 

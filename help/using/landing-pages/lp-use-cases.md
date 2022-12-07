@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 16%
@@ -53,9 +53,9 @@ ht-degree: 16%
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [이메일 디자인](../messages/get-started-content.md) 이제 해당 이벤트에 대한 등록이 열려 있음을 알려주십시오.
+1. [이메일 디자인](../email/get-started-email-design.md) 이제 해당 이벤트에 대한 등록이 열려 있음을 알려주십시오.
 
-1. [링크 삽입](../design/message-tracking.md#insert-links) 메시지 콘텐츠에 삽입하십시오. 선택 **[!UICONTROL 랜딩 페이지]** 로서의 **[!UICONTROL 링크 유형]** 그리고 [랜딩 페이지](create-lp.md#configure-primary-page) 등록용으로 만들 수 있습니다.
+1. [링크 삽입](../email/message-tracking.md#insert-links) 메시지 콘텐츠에 삽입하십시오. 선택 **[!UICONTROL 랜딩 페이지]** 로서의 **[!UICONTROL 링크 유형]** 그리고 [랜딩 페이지](create-lp.md#configure-primary-page) 등록용으로 만들 수 있습니다.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -106,9 +106,9 @@ ht-degree: 16%
 
 이메일 수신자가 랜딩 페이지를 통해 커뮤니케이션에서 가입을 해지할 수 있도록 하려면 아래 단계를 따르십시오.
 
-1. 랜딩 페이지를 만듭니다. [자세히 보기](create-lp.md)
+1. 랜딩 페이지를 만듭니다. [자세히 알아보기](create-lp.md)
 
-1. 기본 페이지를 정의합니다. [자세히 보기](create-lp.md#configure-primary-page)
+1. 기본 페이지를 정의합니다. [자세히 알아보기](create-lp.md#configure-primary-page)
 
 1. [디자인](design-lp.md) 기본 페이지 컨텐츠: 랜딩 페이지별 사용 **[!UICONTROL 양식]** 구성 요소, 정의 **[!UICONTROL 옵트아웃]** 확인란을 선택하고 업데이트하도록 선택합니다. **[!UICONTROL 채널(이메일)]**: 랜딩 페이지에서 옵트아웃 상자를 체크하는 프로필은 모든 통신에서 옵트아웃됩니다.
 
@@ -122,15 +122,15 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >기본 페이지의 **[!UICONTROL 클릭유도문안]** 섹션 **[!UICONTROL 양식]** 구성 요소. [자세히 보기](design-lp.md)
+   >기본 페이지의 **[!UICONTROL 클릭유도문안]** 섹션 **[!UICONTROL 양식]** 구성 요소. [자세히 알아보기](design-lp.md)
 
 1. 페이지의 콘텐츠를 구성하고 정의했으면, [게시](create-lp.md#publish) 랜딩 페이지.
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [이메일 메시지 만들기](../messages/get-started-content.md) 여정에 있을 때 사용됩니다.
+1. [이메일 메시지 만들기](../email/get-started-email-design.md) 여정에 있을 때 사용됩니다.
 
-1. 콘텐츠에서 텍스트를 선택하고 상황별 도구 모음을 사용하여 [링크를 삽입합니다. ](../design/message-tracking.md#insert-links) 단추에 대한 링크를 사용할 수도 있습니다.
+1. 콘텐츠에서 텍스트를 선택하고 상황별 도구 모음을 사용하여 [링크를 삽입합니다. ](../email/message-tracking.md#insert-links) 단추에 대한 링크를 사용할 수도 있습니다.
 
    ![](assets/lp_opt-out-insert-link.png)
 

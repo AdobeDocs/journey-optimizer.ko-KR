@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 412f7efe2da9f9b1a8fa49f1243ca63c4e0d01c0
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 11%
+source-wordcount: '1009'
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 11%
 
    ![](assets/jo-datasource.png)
 
-1. **작업 구성**: 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. 자세한 내용 [섹션](../action/action.md). **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다. Journey Optimizer 기본 제공 메시지 기능을 사용하는 경우 여정에 채널 작업을 추가하고 컨텐츠를 디자인하기만 하면 됩니다. [이 섹션](../messages/get-started-content.md)을 참조하십시오.
+1. **작업 구성**: 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. 자세한 내용 [섹션](../action/action.md). **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다. Journey Optimizer 기본 제공 메시지 기능을 사용하는 경우 여정에 채널 작업을 추가하고 컨텐츠를 디자인하기만 하면 됩니다.
 
    ![](assets/custom2.png)
 

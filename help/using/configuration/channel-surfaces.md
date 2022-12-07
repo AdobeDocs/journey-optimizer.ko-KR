@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 3%
@@ -22,14 +22,13 @@ ht-degree: 3%
 >title="앱 표면"
 >abstract="표면은 시스템 관리자에 의해 정의된 구성입니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다."
 
-
 사용 [!DNL Journey Optimizer]를 설정하고 메시지에 필요한 모든 기술 매개 변수를 정의하는 채널 서피스(즉, 메시지 사전 설정)를 설정할 수 있습니다. 이메일 유형, 발신자 이메일 및 이름, 모바일 앱, SMS 구성 등
 
 >[!CAUTION]
 >
 > * 채널 서피스를 생성, 편집 및 삭제하려면 [채널 서피스 관리](../administration/high-low-permissions.md#manage-channel-surface) 권한.
 >
-> * 다음을 수행해야 합니다 [이메일 구성](email-settings.md), [푸시 구성](../configuration/push-configuration.md) 및 [SMS 구성](../configuration/sms-configuration.md) 채널 서피스를 생성하기 전 단계.
+> * 다음을 수행해야 합니다 [이메일 구성](../email/get-started-email-config.md), [푸시 구성](../push/push-configuration.md) 및 [SMS 구성](../sms/sms-configuration.md) 채널 서피스를 생성하기 전 단계.
 
 
 여정 또는 캠페인에서 메시지를 만들 때 채널 서피스를 구성하고 나면 선택할 수 있습니다.
@@ -64,7 +63,7 @@ ht-degree: 3%
    >
    > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
 
-1. 을(를) 선택한 경우 **[!UICONTROL 이메일]** 채널에서 다음에 설명된 대로 설정을 구성합니다. [이 섹션](email-settings.md).
+1. 을(를) 선택한 경우 **[!UICONTROL 이메일]** 채널에서 다음에 설명된 대로 설정을 구성합니다. [이 섹션](../email/email-settings.md).
 
    ![](assets/preset-email.png)
 
@@ -74,15 +73,15 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](push-gs.md).
+   >푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../push/push-gs.md).
 
-1. 대상 **[!UICONTROL SMS]** 채널에서 설정을 세부 사항에 따라 정의합니다. [이 섹션](sms-configuration.md#message-preset-sms).
+1. 대상 **[!UICONTROL SMS]** 채널에서 설정을 세부 사항에 따라 정의합니다. [이 섹션](../sms/sms-configuration.md#message-preset-sms).
 
    ![](assets/preset-sms.png)
 
    >[!NOTE]
    >
-   >SMS 메시지를 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](sms-configuration.md).
+   >SMS 메시지를 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../sms/sms-configuration.md).
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]** 확인합니다. 채널 서피스를 구안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 

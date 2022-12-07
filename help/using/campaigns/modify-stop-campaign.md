@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '478'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,32 @@ ht-degree: 2%
 캠페인이 활성화되면 언제든지 수정하거나 중지할 수 있습니다. 이러한 작업은 반복 실행이 있는 캠페인에만 사용할 수 있습니다.
 
 또한 라이브 캠페인을 복제(한 번 또는 반복 실행)하여 새 캠페인을 만들고, 완료되었거나 중지된 캠페인을 보관할 수 있습니다.
+
+## 캠페인 액세스 {#access}
+
+캠페인은 **[!UICONTROL 캠페인]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+
+기본적으로 이 목록에는 **[!UICONTROL 초안]**, **[!UICONTROL 예약됨]**, 및 **[!UICONTROL 라이브]** 상태.
+
+중지, 완료 및 보관된 캠페인을 표시하려면 필터를 지워야 합니다.
+
+![](assets/create-campaign-list.png)
+
+## 캠페인 상태 {#statuses}
+
+캠페인의 상태는 다음과 같습니다.
+
+* **[!UICONTROL 초안]**: 캠페인이 편집 중이며 활성화되지 않았습니다.
+* **[!UICONTROL 활성화]**: 캠페인이 활성화되고 있습니다.
+* **[!UICONTROL 라이브]**: 캠페인이 활성화되었습니다.
+* **[!UICONTROL 예약됨]**: 캠페인이 특정 시작 날짜에 활성화되도록 구성되었습니다.
+* **[!UICONTROL 중지됨]**: 캠페인이 수동으로 중지되었습니다. 더 이상 활성화하거나 재사용할 수 없습니다. [캠페인을 중지하는 방법 알아보기](modify-stop-campaign.md#stop)
+* **[!UICONTROL 완료됨]**: 캠페인이 완료되었습니다. 이 상태는 캠페인이 활성화되면 3일 후 자동으로 지정되거나, 반복 실행이 있는 경우 캠페인의 종료 날짜에 할당됩니다.
+* **[!UICONTROL 보관됨]**: 캠페인이 보관되었습니다. [캠페인 아카이브 방법 알아보기](modify-stop-campaign.md#archive)
+
+>[!NOTE]
+>
+>다음 옆에 있는 &quot;초안 버전 열기&quot; 아이콘 **[!UICONTROL 라이브]** 또는 **[!UICONTROL 예약됨]** 상태는 캠페인의 새 버전이 만들어지고 아직 활성화되지 않았음을 나타냅니다. [자세히 알아보기](modify-stop-campaign.md#modify).
 
 ## 반복 캠페인 수정 {#modify}
 

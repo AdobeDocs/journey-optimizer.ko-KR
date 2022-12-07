@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 2%
@@ -23,13 +23,13 @@ ht-degree: 2%
 
 사용자 지정 JavaScript를 랜딩 페이지 컨텐츠에 삽입하려면 다음을 수행할 수 있습니다.
 
-* 컨텐츠 만들기를 시작할 때 기존 HTML 컨텐츠를 가져오고 사용자 지정 JavaScript 코드가 포함된 파일을 선택합니다. 콘텐츠를 가져오는 방법 알아보기 [이 섹션](../design/existing-content.md).
+* 컨텐츠 만들기를 시작할 때 기존 HTML 컨텐츠를 가져오고 사용자 지정 JavaScript 코드가 포함된 파일을 선택합니다. 콘텐츠를 가져오는 방법 알아보기 [이 섹션](../email/existing-content.md).
 
-* 랜딩 페이지를 처음부터 또는 저장된 템플릿에서 디자인합니다. 을(를) 끌어다 놓습니다 **[!UICONTROL HTML]** 컨텐츠 구성 요소를 캔버스에 업로드하고 소스 코드를 표시하여 구성 요소에 JavaSCript를 추가합니다. 에서 HTML 구성 요소를 사용하는 방법을 알아봅니다. [이 섹션](../design/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* 랜딩 페이지를 처음부터 또는 저장된 템플릿에서 디자인합니다. 을(를) 끌어다 놓습니다 **[!UICONTROL HTML]** 컨텐츠 구성 요소를 캔버스에 업로드하고 소스 코드를 표시하여 구성 요소에 JavaSCript를 추가합니다. 에서 HTML 구성 요소를 사용하는 방법을 알아봅니다. [이 섹션](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* JavaScript 코드를 콘텐츠 디자이너에 직접 입력하거나 붙여넣습니다. 자체 콘텐츠를 코딩하는 방법을 알아봅니다 [이 섹션](../design/code-content.md).
+* JavaScript 코드를 콘텐츠 디자이너에 직접 입력하거나 붙여넣습니다. 자체 콘텐츠를 코딩하는 방법을 알아봅니다 [이 섹션](../email/code-content.md).
 
 >[!NOTE]
 >

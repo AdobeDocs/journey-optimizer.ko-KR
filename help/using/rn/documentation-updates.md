@@ -4,9 +4,9 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2187'
 ht-degree: 99%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 99%
 ## 2022년 11월 {#november-2022}
 
 * Journey Optimizer 통합에 대한 새 페이지가 추가되었습니다. [자세히 보기](../start/ajo-integrations.md)
-* 미러 페이지 URL 길이에 대한 권장 사항이 추가되었습니다. [자세히 보기](../design/message-tracking.md)
-* 올바른 회신 관리를 위한 권장 사항이 포함된 이메일 설정 구성의 새로운 하위 섹션이 이메일 주소에 대한 회신에 추가되었습니다. [자세히 보기](../configuration/email-settings.md#reply-to-email)
+* 미러 페이지 URL 길이에 대한 권장 사항이 추가되었습니다. [자세히 보기](../email/message-tracking.md)
+* 올바른 회신 관리를 위한 권장 사항이 포함된 이메일 설정 구성의 새로운 하위 섹션이 이메일 주소에 대한 회신에 추가되었습니다. [자세히 보기](../email/email-settings.md#reply-to-email)
 * 라이브 여정에서 메시지 콘텐츠를 수정하는 방법에 대한 섹션을 추가했습니다. [자세히 보기](../building-journeys/journeys-message.md#update-live-content)
 
 ## 2022년 10월 {#october-2022}
@@ -28,7 +28,7 @@ ht-degree: 99%
 * 여정 사용 사례 섹션은 [비즈니스 사용 사례](../building-journeys/journeys-uc.md) 및 [기술적 사용 사례](../building-journeys/collections.md)의 두 가지 범주로 재구성되었습니다.
 * 다음 **엔티티 데이터 세트** 섹션을 더 자세한 내용으로 업데이트했습니다. [자세히 보기](../data/datasets-query-examples.md#entity-dataset)
 * 옵트아웃 관리 및 동의 정책 섹션이 재구성되었습니다. [자세히 보기](../privacy/opt-out.md)
-* 여정 메시지의 고급 매개변수에 대한 섹션이 명확해졌으며 이제 이메일 주소 재정의는 특정 사용 사례에만 사용해야 한다고 지정합니다. 대부분의 경우 **실행 필드**&#x200B;에서 기본 주소로 정의된 값을 사용해야 합니다. [자세히 알아보기](../messages/messages-in-journeys.md#adv-settings)
+* 여정 메시지의 고급 매개변수에 대한 섹션이 명확해졌으며 이제 이메일 주소 재정의는 특정 사용 사례에만 사용해야 한다고 지정합니다. 대부분의 경우 **실행 필드**&#x200B;에서 기본 주소로 정의된 값을 사용해야 합니다.
 * **랜딩 페이지 하위 도메인 구성** 섹션에 랜딩 페이지 하위 도메인에 대문자가 허용되지 않는다는 메모를 추가했습니다. [자세히 보기](../configuration/lp-subdomains.md)
 
 ## 2022년 9월 {#september-2022}
@@ -76,21 +76,21 @@ ht-degree: 99%
 * 허용 목록 페이지가 구성 섹션으로 이동되었습니다. [자세히 보기](../configuration/allow-list.md)
 * 제외 목록 페이지가 32-126 사이의 모든 ASCII 문자가 제외 필드에 허용된다는 사실 등 일부 정보를 명확하게 하도록 업데이트되었습니다. [자세히 보기](../configuration/manage-suppression-list.md)
 * 결정 관리에 대한 보호 및 정적 제한에 대한 링크가 추가되었습니다. [자세히 보기](../start/guardrails.md)
-* 이제 모든 고객이 전송 시간 최적화를 사용할 수 있습니다. 베타 표시를 제거했습니다. [자세히 보기](../messages/send-time-optimization.md)
+* 이제 모든 고객이 전송 시간 최적화를 사용할 수 있습니다. 베타 표시를 제거했습니다. [자세히 보기](../building-journeys/journeys-message.md#send-time-optimization)
 * 일괄 의사 결정 API가 개인화된 오퍼 게재를 위해 사용 가능한 API 목록에 추가되었습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022년 5월 {#may-2022}
 
 * [!DNL Journey Optimizer] 2022년 5월 릴리스의 모든 새로운 기능 및 개선 사항에 대한 자세한 설명은 설명서에서 확인할 수 있습니다. [자세히 보기](release-notes.md)
 * [세그먼트 자격](../reports/query-examples.md#segment-qualification-queries) 및 [이벤트](../reports/query-examples.md#event-based-queries)와 관련된 새 쿼리 예시가 추가되었습니다.
-* 이제 이메일 디자인 섹션에 콘텐츠를 시작할 수 있는 새로운 기본 제공 템플릿이 설명되어 있습니다. 관련 스크린샷이 업데이트되었습니다. [자세히 보기](../design/design-emails.md)
+* 이제 이메일 디자인 섹션에 콘텐츠를 시작할 수 있는 새로운 기본 제공 템플릿이 설명되어 있습니다. 관련 스크린샷이 업데이트되었습니다. [자세히 보기](../email/get-started-email-design.md)
 * 주요 리소스에 대한 링크가 Journey Optimizer 설명서 홈페이지에 업데이트되었습니다.
 * 랜딩 페이지 및 구독 보고에 대한 스크린샷이 업데이트되었습니다. [자세히 보기](../reports/live-report.md)
 * 사용자 지정 작업에서 Delete 메서드가 지원되지 않는다는 내용의 메모가 추가되었습니다. [자세히 보기](../action/about-custom-action-configuration.md)
 * 방법 비디오에 대한 링크가 업데이트되었습니다.
 * 가독성을 개선하기 위해 [이메일 구성](../configuration/about-subdomain-delegation.md), [메시지 사전 설정](../configuration/channel-surfaces.md), [랜딩 페이지 구성](../configuration/lp-subdomains.md) 섹션이 재구성되었습니다.
-* URL 추적 섹션에 예시를 추가하여 업데이트 및 개선하였습니다. [자세히 보기](../configuration/email-settings.md#url-tracking)
-* 전자 메일 주소 설정 관련 새로운 하위 섹션이 추가되었습니다. 사용자 인터페이스를 통해 수행할 수 없습니다. [자세히 보기](../configuration/email-settings.md#forward-email)
+* URL 추적 섹션에 예시를 추가하여 업데이트 및 개선하였습니다. [자세히 보기](../email/email-settings.md#url-tracking)
+* 전자 메일 주소 설정 관련 새로운 하위 섹션이 추가되었습니다. 사용자 인터페이스를 통해 수행할 수 없습니다. [자세히 보기](../email/email-settings.md#forward-email)
 
 ## 2022년 4월 {#april-2022}
 
@@ -126,7 +126,7 @@ ht-degree: 99%
 * 가독성 개선을 위해 [!DNL Journey Optimizer] 개인화 기능 관련 섹션을 재구성했습니다. [자세히 보기](../personalization/personalize.md)
 * 다음 **메시지 사전 설정 만들기** 섹션을 몇 개의 섹션으로 나누어서 명확성을 개선했습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
 * 다음 **옵트아웃 관리** 섹션이 명확해지고 약간 재구성되었습니다. [자세히 보기](../privacy/opt-out.md#opt-out-management)
-* 다음 **링크 삽입** 섹션이 업데이트되어 최근 사용자 인터페이스 변경 사항을 반영하였습니다. [자세히 보기](../design/message-tracking.md#insert-links)
+* 다음 **링크 삽입** 섹션이 업데이트되어 최근 사용자 인터페이스 변경 사항을 반영하였습니다. [자세히 보기](../email/message-tracking.md#insert-links)
 
 ## 2021년 11월 {#november-2021}
 
@@ -204,8 +204,8 @@ ht-degree: 99%
 * 홈페이지의 [!DNL Journey Optimizer] 제품 설명에 링크를 추가했습니다.
 * 여러 페이지에 자습서 비디오를 추가했습니다.
 * 홈페이지 이미지를 최적화했습니다.
-* &#39;메시지 추적&#39; 섹션을 &#39;링크 및 추적 메시지 추가&#39;로 옮겨서 개선했으며 이름을 변경했습니다. [자세히 보기](../design/message-tracking.md)
-* 미러 페이지에 하위 섹션을 추가했습니다. [자세히 보기](../design/message-tracking.md#mirror-page)
+* &#39;메시지 추적&#39; 섹션을 &#39;링크 및 추적 메시지 추가&#39;로 옮겨서 개선했으며 이름을 변경했습니다. [자세히 보기](../email/message-tracking.md)
+* 미러 페이지에 하위 섹션을 추가했습니다. [자세히 보기](../email/message-tracking.md#mirror-page)
 * 문서 및 화면에서 &#39;오퍼 활동&#39;의 이름을 &#39;결정&#39;으로, &#39;결정&#39;의 이름을 &#39;결정 범위&#39;로 변경했습니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
 * 새로운 사용 사례: [도우미 함수를 사용한 메시지 개인화](../personalization/personalization-use-case-helper-functions.md)
 * 구체화된 세그먼트 영향을 반영하도록 세그먼트 읽기 설명서를 업데이트했습니다. [자세히 보기](../building-journeys/read-segment.md)

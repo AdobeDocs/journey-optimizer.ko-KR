@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '1301'
+ht-degree: 94%
 
 ---
 
@@ -160,57 +160,71 @@ ht-degree: 100%
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)
    + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
-   + [실시간 캠페인 관리](using/campaigns/modify-stop-campaign.md)
+   + [캠페인 관리](using/campaigns/modify-stop-campaign.md)
    + 콘텐츠 실험 {#content-experiment}
       + [콘텐츠 실험 시작](using/campaigns/get-started-experiment.md)
       + [콘텐츠 실험 만들기](using/campaigns/content-experiment.md)
       + [통계 계산 이해](using/campaigns/experiment-calculations.md)
       + [실험 보고서 구성](using/campaigns/reporting-configuration.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
-+ 메시지 {#messages}
-   + 메시지 시작{#get-started-msg}
-      + [개요](using/messages/get-started-content.md)
-      + [여정에 메시지 추가하기](using/messages/messages-in-journeys.md)
-      + [캠페인에 메시지 추가하기](using/messages/messages-in-campaigns.md)
-   + [이메일 만들기](using/messages/create-email.md)
-   + [푸시 알림 만들기](using/messages/create-push.md)
-   + [SMS 메시지 만들기](using/messages/create-sms.md)
-   + [DM 만들기](using/messages/create-direct-mail.md)
-   + [경고 확인](using/messages/alerts.md)
-   + [전송 시간 최적화](using/messages/send-time-optimization.md)
-+ 웹 채널{#web}
-   + [웹 채널 시작하기](using/web/get-started-web.md)
-   + [웹 경험 만들기 ](using/web/create-web.md)
-   + [웹 페이지 작성 ](using/web/author-web.md)
-   + [Visual Editing Helper 확장 기능](using/web/visual-editing-helper.md)
-   + [웹 보고 ](using/web/web-report.md)
++ 이메일 채널 {#email}
+   + [이메일 시작](using/email/get-started-email.md)
+   + [이메일 만들기](using/email/create-email.md)
+   + 이메일 콘텐츠 디자인 {#design-email}
+      + [이메일 디자인 시작](using/email/get-started-email-design.md)
+      + 컨텐츠 만들기 시작 {#start-creating-content}
+         + [처음부터 시작](using/email/content-from-scratch.md)
+         + [이메일 콘텐츠 가져오기](using/email/existing-content.md)
+         + [나만의 콘텐츠 코딩](using/email/code-content.md)
+         + [템플릿 작업](using/email/email-templates.md)
+      + 콘텐츠 디자인 {#add-content}
+         + [콘텐츠 구성 요소 사용](using/email/content-components.md)
+         + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
+         + 자산 관리 {#manage-asset}
+            + [Assets Essentials 작업](using/email/assets-essentials.md)
+            + [Adobe Stock 작업](using/email/stock.md)
+         + [개인화된 오퍼 추가](using/email/add-offers-email.md)
+         + [텍스트 버전 생성](using/email/text-version-email.md)
+         + [사전 헤더 추가](using/email/preheader.md)
+      + 스타일 편집 {#edit-style}
+         + [배경 설정 편집](using/email/backgrounds.md)
+         + [세로 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
+         + [링크의 스타일 정의](using/email/styling-links.md)
+         + [인라인 스타일 속성 추가](using/email/inline-styling.md)
+   + [이메일 미리 보기 및 테스트](using/email/preview.md)
+   + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
+   + 전자 메일 채널 구성 {#configure-email}
+      + [이메일 구성 시작](using/email/get-started-email-config.md)
+      + [전자 메일 표면 설정 구성](using/email/email-settings.md)
 + 인앱 채널{#in-app}
    + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
    + [인앱 채널 구성](using/in-app/inapp-configuration.md)
    + [인앱 메시지 만들기 ](using/in-app/create-in-app.md)
    + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
    + [인앱 보고서 ](using/in-app/inapp-report.md)
-+ 콘텐츠 디자인 {#design}
-   + [이메일 디자인 시작](using/design/design-emails.md)
-   + [처음부터 시작 ](using/design/create-email-content.md)
-   + [이메일 콘텐츠 가져오기](using/design/existing-content.md)
-   + [나만의 콘텐츠 코딩](using/design/code-content.md)
-   + [템플릿 작업](using/design/email-templates.md)
-   + 콘텐츠 디자인 {#design-content}
-      + [콘텐츠 구성 요소 사용](using/design/content-components.md)
-      + [백그라운드 설정](using/design/backgrounds.md)
-      + [세로 정렬 및 패딩 조정](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [링크의 스타일 정의](using/design/styling-links.md)
-      + [인라인 스타일 속성 추가](using/design/adding-inline-styling-attributes.md)
-   + 이메일 설정 {#design-email}
-      + [텍스트 버전 생성](using/design/text-version-email.md)
-      + [사전 헤더 추가](using/design/preheader.md)
-   + 자산 추가 및 관리 {#manage-asset}
-      + [Assets Essentials 작업](using/design/assets-essentials.md)
-      + [Adobe Stock 작업](using/design/stock.md)
-   + [개인화된 오퍼 추가](using/design/deliver-personalized-offers.md)
-   + [링크 추가 및 메시지 추적](using/design/message-tracking.md)
-   + [미리보기 및 증명](using/design/preview.md)
++ 푸시 알림 채널{#push}
+   + [푸시 알림 시작](using/push/get-started-push.md)
+   + [푸시 알림 만들기](using/push/create-push.md)
+   + [푸시 알림 디자인](using/push/design-push.md)
+   + [푸시 알림 보내기](using/push/send-push.md)
+   + 푸시 알림 구성{#push-config}
+      + [푸시 알림 및 Adobe Journey Optimizer](using/push/push-gs.md)
+      + [푸시 알림 채널 구성](using/push/push-configuration.md)
++ SMS 채널{#sms}
+   + [SMS 시작](using/sms/get-started-sms.md)
+   + [SMS 메시지 만들기](using/sms/create-sms.md)
+   + [SMS 메시지 보내기](using/sms/send-sms.md)
+   + [SMS 옵트아웃 관리](using/sms/sms-opt-out.md)
+   + [SMS 채널 구성](using/sms/sms-configuration.md)
++ DM {#direct-mail}
+   + [DM 만들기](using/direct-mail/create-direct-mail.md)
+   + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
++ 웹 채널{#web}
+   + [웹 채널 시작하기](using/web/get-started-web.md)
+   + [웹 경험 만들기 ](using/web/create-web.md)
+   + [웹 페이지 작성 ](using/web/author-web.md)
+   + [Visual Editing Helper 확장 기능](using/web/visual-editing-helper.md)
+   + [웹 보고 ](using/web/web-report.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
@@ -398,9 +412,6 @@ ht-degree: 100%
 + 구성{#configuration}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
    + 메시지 구성 {#configuration-message}
-      + 푸시 알림 구성{#push-config}
-         + [푸시 구성 시작](using/configuration/push-gs.md)
-         + [푸시 알림 채널 구성](using/configuration/push-configuration.md)
       + 이메일 구성 {#email-configuration}
          + 하위 도메인 위임 {#delegate-subdomains}
             + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
@@ -414,11 +425,8 @@ ht-degree: 100%
             + [제외 목록](using/configuration/manage-suppression-list.md)
             + [다시 시도](using/configuration/retries.md)
             + [허용 목록](using/configuration/allow-list.md)
-      + [SMS 채널 구성](using/configuration/sms-configuration.md)
-      + [다이렉트 메일 구성](using/configuration/direct-mail-configuration.md)
       + 채널 표면 설정 {#set-up-channels}
          + [채널 표면 생성](using/configuration/channel-surfaces.md)
-         + [이메일 설정 구성](using/configuration/email-settings.md)
       + [아카이브 지원](using/configuration/archiving-support.md)
       + [실행 주소 관리](using/configuration/primary-email-addresses.md)
       + [빈도 규칙 구성](using/configuration/frequency-rules.md)

@@ -5,9 +5,9 @@ description: Adobe Journey Optimizer 제품 도움말 센터
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
-workflow-type: ht
-source-wordcount: '336'
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
@@ -42,15 +42,10 @@ ht-degree: 100%
     <p>
     <p>
     <div>
-      <a href="using/design/design-emails.md">이메일 콘텐츠 디자인</a>
+      <a href="using/email/get-started-email-design.md">이메일 콘텐츠 디자인</a>
     </div>
     <p>
     새 이메일 디자인 또는 기존 HTML 콘텐츠 가져오기
-    <p>
-    <div>
-      <a href="using/messages/get-started-content.md">메시지 보내기</a>
-    </div>
-    <p>고객 여정에 푸시, SMS 및 이메일 메시지를 추가하는 방법 알아보기
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">여정 처음 만들어 보기</a>
@@ -127,7 +122,7 @@ ht-degree: 100%
     <p>
     <p>콘텐츠 관리</p>
     <li>
-      <a href="using/design/assets-essentials.md">자산</a>
+      <a href="using/email/assets-essentials.md">자산</a>
     </li>
     <p>
     <p>데이터 관리</p>

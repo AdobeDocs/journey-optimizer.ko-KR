@@ -1,0 +1,71 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: 이메일 시작
+description: Journey Optimizer에서 이메일을 만드는 방법을 알아봅니다
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 10%
+
+---
+
+# 이메일 시작 {#get-started-email}
+
+>[!IMPORTANT]
+>
+>이메일을 처음 만드는 경우 이메일 채널이 구성되었는지 확인합니다. [자세히 알아보기](email-settings.md)
+
+사용 [!DNL Journey Optimizer] 고객에게 이메일 메시지를 보내는 방법 이메일 디자이너에서 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다.
+
+전자 메일 게재를 만들 수 있습니다.
+
+* 다음 **여정**: 추가한 후 **[!UICONTROL 이메일]** 활동을 여정에 설정하고 정의된 기본 설정을 사용하려면 **[!UICONTROL 작업: 이메일]** 오른쪽 창에서 SMS 메시지의 콘텐츠를 작성합니다.
+
+   여정 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journey-gs.md).
+
+* 다음 **캠페인**: 캠페인을 만든 후 **[!UICONTROL 이메일]** 를 작업에 사용하고 기본 설정을 정의합니다.
+
+   캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../campaigns/create-campaign.md#configure).
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-email.md">
+<img alt="리드" src="../assets/do-not-localize/email-create.jpeg">
+</a>
+<div><a href="create-email.md"><strong>이메일 만들기</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="get-started-email-design.md">
+<img alt="자주" src="../assets/do-not-localize/email-design.jpg">
+</a>
+<div>
+<a href="get-started-email-design.md"><strong>이메일 디자인</strong></a>
+</div>
+<p></td>
+<td>
+<a href="email-opt-out.md">
+<img alt="유효성 검사" src="../assets/do-not-localize/email-opt-out.jpg">
+</a>
+<div>
+<a href="email-opt-out.md"><strong>이메일 옵트아웃 관리</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="email-settings.md">
+<img alt="유효성 검사" src="../assets/do-not-localize/email-config.jpg">
+</a>
+<div>
+<a href="email-settings.md"><strong>전자 메일 채널 구성</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+

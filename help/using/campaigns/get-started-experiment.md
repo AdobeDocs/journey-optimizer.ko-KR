@@ -10,7 +10,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Adobe Journey Optimizer의 컨텐츠 실험에서는 방문자 ID의 의사 무�
 * 직접 지표이며, 사용자가 처리를 직접 반응하거나, 이메일을 열거나, 링크를 클릭합니다.
 * 사용자가 처리에 노출된 후 발생하는 간접적 또는 &quot;단계 하단&quot; 지표.
 
-Adobe Journey Optimizer이 메시지를 추적하는 직접 목표 지표의 경우, 최종 사용자의 응답 이벤트에 캠페인 및 처리 식별자가 자동으로 태그가 지정되므로 응답 지표를 처리와 직접 연결할 수 있습니다. [추적에 대해 자세히 알아보기](../design/message-tracking.md).
+Adobe Journey Optimizer이 메시지를 추적하는 직접 목표 지표의 경우, 최종 사용자의 응답 이벤트에 캠페인 및 처리 식별자가 자동으로 태그가 지정되므로 응답 지표를 처리와 직접 연결할 수 있습니다. [추적에 대해 자세히 알아보기](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 
@@ -95,7 +95,7 @@ Experiments를 실행할 때는 특정 모범 사례를 따르는 것이 중요�
 +++적합한 대상 크기로 테스트를 실행하거나 장기간 동안 실행합니다
 
 테스트를 더 오래 실행하면 목표 지표에서 치료 간 더 작은 차이를 감지할 수 있습니다. 하지만 목표 지표의 기준선 값이 작은 경우 더 큰 샘플 크기가 필요합니다.
-테스트에 포함되어야 하는 사용자 수는 감지하려는 효과 크기, 목표 지표의 분산 또는 확산과 잘못된 양수 및 잘못된 음수 오류에 대한 허용치에 따라 달라집니다. 클래식 실험에서는 [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR){_blank} 을 입력하여 테스트를 실행해야 하는 시간을 결정합니다.
+테스트에 포함되어야 하는 사용자 수는 감지하려는 효과 크기, 목표 지표의 분산 또는 확산과 잘못된 양수 및 잘못된 음수 오류에 대한 허용치에 따라 달라집니다. 클래식 실험에서는 [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank} 을 입력하여 테스트를 실행해야 하는 시간을 결정합니다.
 +++
 
 +++통계적 불확실성 이해

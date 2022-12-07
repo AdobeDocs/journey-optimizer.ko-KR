@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 15%
@@ -31,7 +31,7 @@ ht-degree: 15%
 
 이메일 디자이너에서 콘텐츠를 개인화할 수 있습니다.
 
-* 에서 **메시지**: 텍스트 블록 내부를 클릭하고 **개인화** 상황별 도구 모음의 아이콘을 선택하고 을(를) 선택합니다 **개인화 삽입** 필드. 이메일 디자이너 인터페이스에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../design/design-emails.md).
+* 에서 **메시지**: 텍스트 블록 내부를 클릭하고 **개인화** 상황별 도구 모음의 아이콘을 선택하고 을(를) 선택합니다 **개인화 삽입** 필드. 이메일 디자이너 인터페이스에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 ![](assets/perso_push.png)
 
-의 푸시 알림 구성에 대해 자세히 알아보십시오 [이 섹션](../configuration/push-gs.md).
+의 푸시 알림 구성에 대해 자세히 알아보십시오 [이 섹션](../push/push-gs.md).
 
 ## 오퍼 개인화 {#personalize-offers}
 

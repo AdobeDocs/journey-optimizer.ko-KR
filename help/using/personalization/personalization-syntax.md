@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -155,7 +155,7 @@ Handlebars 도우미는 매개 변수 뒤에 올 수 있는 간단한 식별자�
 
 Journey Optimizer에서는 개인화 필드를 메시지에 추가하여 하나 또는 여러 개의 URL을 개인화할 수 있습니다. URL을 개인화하려면 아래 단계를 수행하십시오.
 
-1. 메시지 콘텐츠에 링크를 만듭니다. [자세히 보기](../design/message-tracking.md#insert-links)
+1. 메시지 콘텐츠에 링크를 만듭니다. [자세히 알아보기](../email/message-tracking.md#insert-links)
 1. 개인화 아이콘에서 속성을 선택합니다. 개인화 아이콘은 다음 유형의 링크에만 사용할 수 있습니다. **외부 링크**, **구독 취소 링크** 및 **옵트아웃**.
 
 ![](assets/perso-url.png)

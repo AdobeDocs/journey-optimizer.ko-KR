@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 2%
@@ -182,7 +182,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >동일한 랜딩 페이지의 하위 페이지에서 기본 페이지에 대한 링크를 삽입할 수 있습니다. 예를 들어, 실수로 가입하고 싶은 사용자를 리디렉션하려면 확인 하위 페이지의 링크를 구독 기본 페이지에 추가할 수 있습니다. 에 링크를 삽입하는 방법을 알아봅니다. [이 섹션](../design/message-tracking.md#insert-links).
+   >동일한 랜딩 페이지의 하위 페이지에서 기본 페이지에 대한 링크를 삽입할 수 있습니다. 예를 들어, 실수로 가입하고 싶은 사용자를 리디렉션하려면 확인 하위 페이지의 링크를 구독 기본 페이지에 추가할 수 있습니다. 에 링크를 삽입하는 방법을 알아봅니다. [이 섹션](../email/message-tracking.md#insert-links).
 
 1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 알아보기](../configuration/lp-subdomains.md)
 
@@ -212,7 +212,7 @@ ht-degree: 2%
 
    ![](assets/lp_test-profiles.png)
 
-   테스트 프로필을 선택하는 단계는 메시지를 테스트할 때와 동일합니다. 자세한 내용은 [이 섹션](../design/preview.md#select-test-profiles).
+   테스트 프로필을 선택하는 단계는 메시지를 테스트할 때와 동일합니다. 자세한 내용은 [이 섹션](../email/preview.md#select-test-profiles).
 
 1. 을(를) 선택합니다 **[!UICONTROL 미리 보기]** 탭을 클릭하고 **[!UICONTROL 미리 보기 열기]** 랜딩 페이지를 테스트하려면 다음을 수행하십시오.
 
@@ -275,7 +275,7 @@ ht-degree: 2%
 
 랜딩 페이지가 게시되면 과 함께 랜딩 페이지 목록에 추가됩니다. **[!UICONTROL 게시됨]** 상태.
 
-이제 라이브로 사용 가능하며, [!DNL Journey Optimizer] [메시지](../messages/get-started-content.md) 그것은 [여정](../building-journeys/journey.md).
+이제 라이브로 사용 가능하며, [!DNL Journey Optimizer] 메시지를 통해 전송할 메시지 [여정](../building-journeys/journey.md).
 
 >[!NOTE]
 >

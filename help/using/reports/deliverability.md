@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 2%
@@ -71,7 +71,7 @@ ISP에는 보통 받은 메시지를 스팸으로 보고하는 잘 알려진 방
 
 * **링크 및 랜딩 페이지 구독 취소**: 가입 해지 링크는 필수입니다. 이 변수는 표시적이고 유효해야 하며 양식이 작동해야 합니다.
 
-[이메일 콘텐츠 디자인에 대한 자세한 정보](../design/design-emails.md).
+[이메일 콘텐츠 디자인에 대한 자세한 정보](../email/get-started-email-design.md).
 
 ## 발신자로서의 평판 확인
 

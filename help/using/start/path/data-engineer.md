@@ -5,8 +5,8 @@ title: 데이터 엔지니어용 Journey Optimizer 시작하기
 description: 데이터 엔지니어로서 Journey Optimizer로 작업하는 방법에 대해 자세히 알아보세요.
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
-workflow-type: ht
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. **소스 커넥터 구성**. Adobe Journey Optimzer를 사용하면 외부 소스에서 데이터를 수집하는 동시에 플랫폼 서비스를 사용하여 들어오는 데이터를 구조화하고, 레이블을 지정하고, 개선할 수 있습니다. Adobe 애플리케이션, 클라우드 기반 저장소, 데이터베이스 및 기타 여러 소스와 같은 다양한 소스에서 데이터를 수집할 수 있습니다. [이 페이지에서](../get-started-sources.md) 소스 커넥터에 대해 자세히 알아보세요.
 
-1. **테스트 프로필 만들기**. 테스트 프로필은 여정에서 [테스트 모드](../../building-journeys/testing-the-journey.md)를 사용할 때 필요하며 전송하기 전에 [메시지를 미리 보고 테스트하는 데](../../design/preview.md) 필요합니다. 테스트 프로필을 만드는 단계는 [이 페이지](../../segment/creating-test-profiles.md)에 자세히 설명되어 있습니다.
+1. **테스트 프로필 만들기**. 테스트 프로필은 여정에서 [테스트 모드](../../building-journeys/testing-the-journey.md)를 사용할 때 필요하며 전송하기 전에 [메시지를 미리 보고 테스트하는 데](../../email/preview.md) 필요합니다. 테스트 프로필을 만드는 단계는 [이 페이지](../../segment/creating-test-profiles.md)에 자세히 설명되어 있습니다.
 
 
 또한 여정에서 메시지를 보낼 수 있으려면 **[!UICONTROL 데이터 소스]**, **[!UICONTROL 이벤트]** 및 **[!UICONTROL 작업]**&#x200B;을 구성해야 합니다. 자세한 내용은 [이 섹션](../../configuration/about-data-sources-events-actions.md)을 참조하세요.
@@ -44,4 +44,4 @@ ht-degree: 100%
 
 * **이벤트**&#x200B;를 사용하면 여정을 통합적으로 트리거하여 여정에 참여하는 개인에게 실시간으로 메시지를 보낼 수 있습니다. 이벤트 구성에서 여정에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe Experience 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다. [이 섹션에서](../../event/about-events.md) 이벤트에 대해 자세히 알아보세요.
 
-* [!DNL Journey Optimizer]에는 [내장 메시지 기능](../../messages/get-started-content.md)이 함께 제공됩니다. 여정 내에서 메시지를 만들고 콘텐츠를 디자인할 수 있습니다. Adobe Campaign과 같은 타사 시스템을 사용하여 메시지를 보내는 경우 **사용자 정의 작업**&#x200B;을 만듭니다. [이 섹션에서](../../action/action.md) 작업에 대해 자세히 알아보세요.
+* [!DNL Journey Optimizer]에는 내장 메시지 기능이 함께 제공됩니다. 여정 내에서 메시지를 만들고 콘텐츠를 디자인할 수 있습니다. Adobe Campaign과 같은 타사 시스템을 사용하여 메시지를 보내는 경우 **사용자 정의 작업**&#x200B;을 만듭니다. [이 섹션에서](../../action/action.md) 작업에 대해 자세히 알아보세요.

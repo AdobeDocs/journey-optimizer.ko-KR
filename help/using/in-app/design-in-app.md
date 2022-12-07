@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# 인앱 콘텐츠 디자인 {#design-content}
+# 인앱 콘텐츠 디자인  {#design-content}
 
 인앱 콘텐츠를 편집하여 메시지 레이아웃 및 표시, 텍스트 및 단추 옵션 등의 경험 옵션을 구성할 수 있습니다.
 
@@ -80,7 +81,7 @@ ht-degree: 4%
 
 ![](assets/in_app_content_3.png)
 
-미디어 URL을 입력하거나 **[!UICONTROL 자산 선택]** 아이콘을 클릭하여 자산 라이브러리에 저장된 자산을 인앱 메시지에 직접 추가합니다. [자산 관리에 대해 자세히 알아보기](../design/assets-essentials.md).
+미디어 URL을 입력하거나 **[!UICONTROL 자산 선택]** 아이콘을 클릭하여 자산 라이브러리에 저장된 자산을 인앱 메시지에 직접 추가합니다. [자산 관리에 대해 자세히 알아보기](../email/assets-essentials.md).
 을(를) 추가할 수도 있습니다 **[!UICONTROL 대체 텍스트]** 화면 읽기 응용 프로그램용
 
 +++고급 서식이 있는 추가 옵션
@@ -190,6 +191,5 @@ ht-degree: 4%
 **관련 항목:**
 
 * [인앱 메시지 만들기](create-in-app.md)
-* [인앱 보고서](inapp-report.md)
+* [인앱 보고서 ](inapp-report.md)
 * [인앱 구성](inapp-configuration.md)
-

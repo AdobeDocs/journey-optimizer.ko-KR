@@ -7,13 +7,13 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 1%
 
 ---
-
 
 # 다이내믹 콘텐츠 만들기 {#dynamic-content}
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 �
 
    ![](assets/conditions-language-sample.png)
 
-1. 콘텐츠가 준비되면 **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼을 클릭합니다. [메시지 테스트 및 미리 보기 방법 알아보기](../design/preview.md)
+1. 콘텐츠가 준비되면 **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼을 클릭합니다. [메시지 테스트 및 미리 보기 방법 알아보기](../email/preview.md)
 
    ![](assets/conditions-preview.png)
 

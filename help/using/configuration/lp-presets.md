@@ -6,7 +6,7 @@ description: Journey Optimizer에서 랜딩 페이지를 만들고 사용하도�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 5%
@@ -66,7 +66,7 @@ When [랜딩 페이지 만들기](../landing-pages/create-lp.md#create-a-lp)을(
 
    선택한 하위 도메인에 해당하는 설정이 표시됩니다.
 
-1. 추적 URL에 대한 랜딩 페이지 하위 도메인을 선택하려면 **[!UICONTROL 랜딩 페이지 하위 도메인과 동일]** 선택 사항입니다. [추적에 대해 자세히 알아보기](../design/message-tracking.md)
+1. 추적 URL에 대한 랜딩 페이지 하위 도메인을 선택하려면 **[!UICONTROL 랜딩 페이지 하위 도메인과 동일]** 선택 사항입니다. [추적에 대해 자세히 알아보기](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

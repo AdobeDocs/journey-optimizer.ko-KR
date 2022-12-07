@@ -7,16 +7,18 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
-source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
-workflow-type: ht
-source-wordcount: '205'
-ht-degree: 100%
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 90%
 
 ---
 
 # 개인 정보 시작 {#privacy}
 
 Journey Optimizer는 개인 정보와 중요한 데이터를 포함한 많은 양의 데이터를 수집하고 처리할 수 있는 강력한 데이터 도구입니다. 따라서 개인 정보를 신중하게 관리해야 합니다.
+
+또한 데이터 주체의 정보를 사용하기 전에 특정 요구 사항을 준수해야 하는 GDPR 상태와 같은 규정도 있습니다. 또한 데이터 주체는 언제든지 동의를 수정할 수 있어야 합니다.
 
 Adobe Experience Platform 및 Journey Optimizer는 개인 정보 관리를 확인하는 데 도움이 되는 다양한 도구를 제공합니다.
 

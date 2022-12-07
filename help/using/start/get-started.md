@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
-source-wordcount: '703'
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '699'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,6 @@ ht-degree: 100%
 **참조 -**
 
 * [시작하는 주요 단계](quick-start.md)
-* [첫 번째 메시지 만들기](../messages/get-started-content.md)
 * [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md)
 * [라이브 보고서](../reports/live-report.md)
 * [Journey Optimizer FAQ](assets/do-not-localize/AJO-FAQ.pdf) (PDF)

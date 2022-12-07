@@ -5,8 +5,8 @@ title: 시스템 관리자용 Journey Optimizer 시작하기
 description: 시스템 관리자자로서 Journey Optimizer를 사용하여 작업하는 방법에 대해 자세히 알아보십시오
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 또한 Assets Essentials에 액세스해야 하는 사용자를 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 추가해야 합니다. [Assets Essentials 문서에서 자세히 읽어보세요](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target=&quot;_blank&quot;}.
 
 >[!NOTE]
->2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target=&quot;_blank&quot;} 섹션에서 자세히 알아보세요.
+>2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} 섹션에서 자세히 알아보세요.
 
 [!DNL Journey Optimizer]에 처음 액세스하면 프로덕션 샌드박스가 프로비저닝되고 계약에 따라 특정 수의 IP가 할당됩니다.
 
@@ -48,11 +48,11 @@ ht-degree: 100%
 
 1. **메시지 및 채널 구성**: 표면 정의, 이메일, SMS 및 푸시 메시지 설정 조정 및 사용자 정의
 
-   * [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch] 모두에서 **푸시 알림 설정**&#x200B;을 정의합니다. [자세히 알아보기](../../configuration/push-gs.md)
+   * [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch] 모두에서 **푸시 알림 설정**&#x200B;을 정의합니다. [자세히 알아보기](../../push/push-gs.md)
 
    * 이메일, SMS 및 푸시 알림에 필요한 모든 기술 매개 변수를 구성하려면 **채널 표면**(즉, 메시지 사전 설정)을 만듭니다. [자세히 알아보기](../../configuration/channel-surfaces.md)
 
-   * SMS에 필요한 모든 기술 매개 변수를 구성하려면 **SMS 채널**&#x200B;을 구성합니다. [자세히 알아보기](../../configuration/sms-configuration.md)
+   * SMS에 필요한 모든 기술 매개 변수를 구성하려면 **SMS 채널**&#x200B;을 구성합니다. [자세히 알아보기](../../sms/sms-configuration.md)
 
    * 금지 목록에 이메일 주소를 보내기 전에 **재시도**&#x200B;를 하는 기간(일)을 관리합니다. [자세히 알아보기](../../configuration/manage-suppression-list.md)
 

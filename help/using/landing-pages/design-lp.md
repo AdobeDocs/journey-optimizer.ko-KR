@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -23,14 +23,14 @@ ht-degree: 3%
 
 여기에서 다음을 수행할 수 있습니다.
 
-* **처음부터 랜딩 페이지 디자인** 컨텐츠 디자이너의 인터페이스를 통해 [Adobe Experience Manager Assets Essentials](../design/assets-essentials.md). 콘텐츠를 디자인하는 방법 알아보기 <!--or use built-in templates--> [이 섹션](../design/create-email-content.md).
+* **처음부터 랜딩 페이지 디자인** 컨텐츠 디자이너의 인터페이스를 통해 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). 콘텐츠를 디자인하는 방법 알아보기 <!--or use built-in templates--> [이 섹션](../email/content-from-scratch.md).
 
-* **원시 HTML 코드 또는 붙여넣기** 에서 바로 콘텐츠를 디자인할 수 있습니다. 자체 콘텐츠를 코딩하는 방법을 알아봅니다 [이 섹션](../design/code-content.md).
+* **원시 HTML 코드 또는 붙여넣기** 에서 바로 콘텐츠를 디자인할 수 있습니다. 자체 콘텐츠를 코딩하는 방법을 알아봅니다 [이 섹션](../email/code-content.md).
 
-* **기존 HTML 콘텐츠 가져오기** 파일 또는 .zip 폴더에서 사용할 수 있습니다. 콘텐츠를 가져오는 방법 알아보기 [이 섹션](../design/existing-content.md).
+* **기존 HTML 콘텐츠 가져오기** 파일 또는 .zip 폴더에서 사용할 수 있습니다. 콘텐츠를 가져오는 방법 알아보기 [이 섹션](../email/existing-content.md).
 
-* **저장된 랜딩 페이지 템플릿 사용** 에서 생성됨 [!DNL Journey Optimizer]. [자세히 보기](lp-templates.md)
+* **저장된 랜딩 페이지 템플릿 사용** 에서 생성됨 [!DNL Journey Optimizer]. [자세히 알아보기](lp-templates.md)
 
 >[!NOTE]
 >
->랜딩 페이지 콘텐츠 디자이너는 대부분 이메일 디자이너와 유사합니다. 추가 정보 [콘텐츠 디자인 [!DNL Journey Optimizer]](../design/design-emails.md).
+>랜딩 페이지 콘텐츠 디자이너는 대부분 이메일 디자이너와 유사합니다. 추가 정보 [콘텐츠 디자인 [!DNL Journey Optimizer]](../email/get-started-email-design.md).

@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: f39e2094db24e7d0e8a304750624c985ff631572
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 4%
@@ -94,13 +94,13 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 1. 에서 **[!UICONTROL 구성 요소]** 왼쪽의 웹 페이지에 다음 구성 요소를 추가하고 필요에 따라 편집할 수 있습니다.
 
-   * [구분선](../design/content-components.md#divider)
-   * [HTML](../design/content-components.md#HTML)
-   * [이미지](../design/content-components.md#image)
-   * 제목 - 이 구성 요소를 사용하는 것은 **[!UICONTROL 텍스트]** 이메일 디자이너의 구성 요소입니다. [자세히 알아보기](../design/content-components.md#text)
-   * 단락 - 이 구성 요소를 사용하는 것은 **[!UICONTROL 텍스트]** 이메일 디자이너의 구성 요소입니다. [자세히 알아보기](../design/content-components.md#text)
-   * 링크 - 에서 링크 스타일을 정의하는 방법을 알아봅니다. [이 섹션](../design/styling-links.md)
-   * [오퍼 결정](../design/deliver-personalized-offers.md)
+   * [구분선](../email/content-components.md#divider)
+   * [HTML](../email/content-components.md#HTML)
+   * [이미지](../email/content-components.md#image)
+   * 제목 - 이 구성 요소를 사용하는 것은 **[!UICONTROL 텍스트]** 이메일 디자이너의 구성 요소입니다. [자세히 알아보기](../email/content-components.md#text)
+   * 단락 - 이 구성 요소를 사용하는 것은 **[!UICONTROL 텍스트]** 이메일 디자이너의 구성 요소입니다. [자세히 알아보기](../email/content-components.md#text)
+   * 링크 - 에서 링크 스타일을 정의하는 방법을 알아봅니다. [이 섹션](../email/styling-links.md)
+   * [오퍼 결정](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -188,7 +188,7 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 ![](assets/web-designer-personalization.png)
 
-를 사용하십시오 **[!UICONTROL 오퍼 결정]** 삽입할 구성 요소 [오퍼](../offers/get-started/starting-offer-decisioning.md) 참조하십시오. 프로세스는 와 같습니다 [이메일에 오퍼 추가](../design/deliver-personalized-offers.md). 의사 결정 관리 를 활용하여 고객에게 제공할 최상의 오퍼를 선택할 수 있습니다.
+를 사용하십시오 **[!UICONTROL 오퍼 결정]** 삽입할 구성 요소 [오퍼](../offers/get-started/starting-offer-decisioning.md) 참조하십시오. 프로세스는 와 같습니다 [이메일에 오퍼 추가](../email/add-offers-email.md). 의사 결정 관리 를 활용하여 고객에게 제공할 최상의 오퍼를 선택할 수 있습니다.
 
 ![](assets/web-designer-offer.png)
 

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 3%
@@ -60,11 +60,11 @@ HIPAA와 같은 규정에서는 [!DNL Journey Optimizer] 는 개인에게 전송
 >
 >BCC 기능 사용량은 라이선스를 받은 메시지 수에 따라 계산됩니다. 따라서 아카이브하려는 중요한 통신에 사용되는 표면에서만 활성화합니다. 라이선스가 부여된 볼륨이 있는지 계약을 확인합니다.
 
-BCC 이메일 주소 설정이 즉시 저장되고 표면 수준에서 처리됩니다. 다음 경우에 [새 메시지 만들기](../messages/get-started-content.md) 이 경우 숨은 참조 이메일 주소가 자동으로 표시됩니다.
+BCC 이메일 주소 설정이 즉시 저장되고 표면 수준에서 처리됩니다. 이 표면을 사용하여 새 메시지를 만들면 숨은 참조 이메일 주소가 자동으로 표시됩니다.
 
 ![](assets/preset-bcc-in-msg.png)
 
-그러나 설명된 논리에 따라 숨은 참조 주소가 통신을 전송하도록 선택됩니다 [여기](email-settings.md).
+그러나 설명된 논리에 따라 숨은 참조 주소가 통신을 전송하도록 선택됩니다 [여기](../email/email-settings.md).
 
 ### Recommendations 및 제한 사항 {#bcc-recommendations-limitations}
 

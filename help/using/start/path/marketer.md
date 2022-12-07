@@ -5,8 +5,8 @@ title: 마케터를 위한 Journey Optimizer 시작하기
 description: 여정 실무자로서 Journey Optimizer를 사용하여 작업하는 방법에 대해 자세히 알아보십시오
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
-workflow-type: ht
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 
@@ -24,13 +24,13 @@ ht-degree: 100%
 
    ![](../assets/perso_ee2.png)
 
-1. **자산 만들고 관리하기**. [!DNL Adobe Experience Manager Assets Essentials]은(는) 메시지를 채우는 데 사용할 수 있는 자산의 단일 중앙 집중식 저장소입니다. 자세한 내용은 [이 섹션](../../design/assets-essentials.md)을 참조하세요.
+1. **자산 만들고 관리하기**. [!DNL Adobe Experience Manager Assets Essentials]은(는) 메시지를 채우는 데 사용할 수 있는 자산의 단일 중앙 집중식 저장소입니다. 자세한 내용은 [이 섹션](../../email/assets-essentials.md)을 참조하세요.
 
 1. **오퍼 추가**. [!DNL Journey Optimizer]을(를) 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 오퍼 및 경험을 제공하십시오. 디자인한 후에는 개인화된 오퍼를 통해 대상을 타기팅하십시오. Decisioning 관리에 대한 자세한 내용은 [이 섹션](../../offers/get-started/starting-offer-decisioning.md)을 참조하세요.
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **테스트 및 유효성 검사**. 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. [사용자 지정 컨텐츠](../../personalization/personalize.md)를 삽입하면 테스트 프로필 데이터를 활용하여 이 컨텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다. 또한 **Litmus** 계정을 [!DNL Journey Optimizer]에 활용하면 인기 있는 이메일 클라이언트에서 **이메일 렌더링**&#x200B;을 즉시 미리 볼 수 있습니다. 그런 다음 모든 받은 편지함에서 이메일 콘텐츠가 제대로 표시되고 제대로 작동하는지 확인할 수 있습니다. 메시지 테스트 및 유효성 검사 방법에 대한 자세한 내용은 [이 섹션](../../design/preview.md)을 참조하세요.
+1. **테스트 및 유효성 검사**. 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. [사용자 지정 컨텐츠](../../personalization/personalize.md)를 삽입하면 테스트 프로필 데이터를 활용하여 이 컨텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다. 또한 **Litmus** 계정을 [!DNL Journey Optimizer]에 활용하면 인기 있는 이메일 클라이언트에서 **이메일 렌더링**&#x200B;을 즉시 미리 볼 수 있습니다. 그런 다음 모든 받은 편지함에서 이메일 콘텐츠가 제대로 표시되고 제대로 작동하는지 확인할 수 있습니다. 메시지 테스트 및 유효성 검사 방법에 대한 자세한 내용은 [이 섹션](../../email/preview.md)을 참조하세요.
 
 1. **고객 여정 설계**&#x200B;를 통해 개인화된 컨텍스트 기반의 경험을 제공할 수 있습니다. [!DNL Journey Optimizer]을(를) 사용하면 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 구축할 수 있습니다. 다음 기능을 통해 제공되는 여러 단계로 구성된 고급 시나리오 설계:
 
