@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 이메일 디자인
-description: 이메일 콘텐츠 스타일을 조정하는 방법을 알아봅니다
+title: 이메일 스타일 시작
+description: 이메일 콘텐츠 스타일을 조정할 수 있는 다양한 방법을 알아봅니다
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0e9037ddcbb61ae84a6487ec24be45462e871169
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '115'
+ht-degree: 0%
 
 ---
 
-# 이메일 콘텐츠 스타일 시작 {#get-started-email-style}
+# 이메일 스타일 시작 {#get-started-email-style}
 
 에서 이메일 콘텐츠를 만들기 시작하면 [!DNL Journey Optimizer]에서는 전자 메일 디자이너 설정 창에서 여러 스타일 매개 변수와 속성을 조정할 수 있습니다.
 

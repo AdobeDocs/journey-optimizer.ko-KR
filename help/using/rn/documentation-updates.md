@@ -4,16 +4,24 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 99%
+source-wordcount: '2209'
+ht-degree: 98%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2022년 12월 {#december-2022}
+
+* 메시지 가이드는 각 채널에 대한 전용 안내서로 재구성되고 분할되었습니다.
+
+   * [이메일 채널](../email/get-started-email.md)
+   * [푸시 알림 채널](../push/get-started-push.md)
+   * [SMS 채널](../sms/get-started-sms.md)
 
 ## 2022년 11월 {#november-2022}
 
@@ -29,7 +37,7 @@ ht-degree: 99%
 * 다음 **엔티티 데이터 세트** 섹션을 더 자세한 내용으로 업데이트했습니다. [자세히 보기](../data/datasets-query-examples.md#entity-dataset)
 * 옵트아웃 관리 및 동의 정책 섹션이 재구성되었습니다. [자세히 보기](../privacy/opt-out.md)
 * 여정 메시지의 고급 매개변수에 대한 섹션이 명확해졌으며 이제 이메일 주소 재정의는 특정 사용 사례에만 사용해야 한다고 지정합니다. 대부분의 경우 **실행 필드**&#x200B;에서 기본 주소로 정의된 값을 사용해야 합니다.
-* **랜딩 페이지 하위 도메인 구성** 섹션에 랜딩 페이지 하위 도메인에 대문자가 허용되지 않는다는 메모를 추가했습니다. [자세히 보기](../configuration/lp-subdomains.md)
+* **랜딩 페이지 하위 도메인 구성** 섹션에 랜딩 페이지 하위 도메인에 대문자가 허용되지 않는다는 메모를 추가했습니다. [자세히 보기](../landing-pages/lp-subdomains.md)
 
 ## 2022년 9월 {#september-2022}
 
@@ -88,7 +96,7 @@ ht-degree: 99%
 * 랜딩 페이지 및 구독 보고에 대한 스크린샷이 업데이트되었습니다. [자세히 보기](../reports/live-report.md)
 * 사용자 지정 작업에서 Delete 메서드가 지원되지 않는다는 내용의 메모가 추가되었습니다. [자세히 보기](../action/about-custom-action-configuration.md)
 * 방법 비디오에 대한 링크가 업데이트되었습니다.
-* 가독성을 개선하기 위해 [이메일 구성](../configuration/about-subdomain-delegation.md), [메시지 사전 설정](../configuration/channel-surfaces.md), [랜딩 페이지 구성](../configuration/lp-subdomains.md) 섹션이 재구성되었습니다.
+* 가독성을 개선하기 위해 [이메일 구성](../configuration/about-subdomain-delegation.md), [메시지 사전 설정](../configuration/channel-surfaces.md), [랜딩 페이지 구성](../landing-pages/lp-subdomains.md) 섹션이 재구성되었습니다.
 * URL 추적 섹션에 예시를 추가하여 업데이트 및 개선하였습니다. [자세히 보기](../email/email-settings.md#url-tracking)
 * 전자 메일 주소 설정 관련 새로운 하위 섹션이 추가되었습니다. 사용자 인터페이스를 통해 수행할 수 없습니다. [자세히 보기](../email/email-settings.md#forward-email)
 

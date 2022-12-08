@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 21%
@@ -28,7 +28,7 @@ Gmail 주소로 이메일을 게재하는 것을 최적화하기 위해 [!DNL Jo
 
 >[!CAUTION]
 >
-> 이 작업은 하위 도메인에 **[!UICONTROL 성공]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](access-subdomains.md).
+> 이 작업은 하위 도메인에 **[!UICONTROL 성공]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](about-subdomain-delegation.md#access-delegated-subdomains).
 
 하위 도메인에 Google TXT 레코드를 추가하려면 다음 단계를 수행합니다.
 

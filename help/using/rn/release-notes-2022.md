@@ -4,7 +4,7 @@ product: journey optimizer
 title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '3453'
 ht-degree: 100%
@@ -173,7 +173,7 @@ ht-degree: 100%
 * 허용 목록을 활성화하거나 비활성화할 때 이제 각 작업의 영향을 자세히 설명하는 새로운 경고가 표시됩니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
 * 채널 표면 생성, IP 풀 생성, 제외 목록 및 허용 목록 관리 및 SMS 채널 구성을 위한 사용자 인터페이스가 업데이트되었습니다.
 * 이제 주어진 하위 도메인에 대한 첫 번째 채널 표면을 생성할 때 처리 시간은 10분에서 10일정도 소요되며, 해당 하위 도메인을 사용하는 후속 표면에 대해 최대 3시간만 소요됩니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
-* 랜딩 페이지 사전 설정 및 랜딩 페이지 하위 도메인을 만들기 위한 사용자 인터페이스가 업데이트되었습니다. [자세히 보기](../configuration/lp-subdomains.md)
+* 랜딩 페이지 사전 설정 및 랜딩 페이지 하위 도메인을 만들기 위한 사용자 인터페이스가 업데이트되었습니다. [자세히 보기](../landing-pages/lp-subdomains.md)
 
 **감사 제어**
 

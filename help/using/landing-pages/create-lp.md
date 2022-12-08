@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 2%
@@ -72,7 +72,7 @@ ht-degree: 2%
 
    <!--You can add a tag. See AEP documentation?-->
 
-1. 사전 설정을 선택합니다. 에서 랜딩 페이지 사전 설정을 만드는 방법을 알아봅니다. [이 섹션](../configuration/lp-presets.md#lp-create-preset).
+1. 사전 설정을 선택합니다. 에서 랜딩 페이지 사전 설정을 만드는 방법을 알아봅니다. [이 섹션](../landing-pages/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -113,7 +113,7 @@ ht-degree: 2%
 
    ![](assets/lp_open-designer.png)
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 의 일부로 설정해야 합니다 [사전 설정](../configuration/lp-presets.md#lp-create-preset) 선택하셨습니다. [자세히 알아보기](../configuration/lp-subdomains.md)
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 의 일부로 설정해야 합니다 [사전 설정](../landing-pages/lp-presets.md#lp-create-preset) 선택하셨습니다. [자세히 알아보기](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -184,7 +184,7 @@ ht-degree: 2%
    >
    >동일한 랜딩 페이지의 하위 페이지에서 기본 페이지에 대한 링크를 삽입할 수 있습니다. 예를 들어, 실수로 가입하고 싶은 사용자를 리디렉션하려면 확인 하위 페이지의 링크를 구독 기본 페이지에 추가할 수 있습니다. 에 링크를 삽입하는 방법을 알아봅니다. [이 섹션](../email/message-tracking.md#insert-links).
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 알아보기](../configuration/lp-subdomains.md)
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 알아보기](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >

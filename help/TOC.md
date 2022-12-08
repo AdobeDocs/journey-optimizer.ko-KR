@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 94%
+source-wordcount: '1296'
+ht-degree: 93%
 
 ---
 
@@ -183,10 +183,11 @@ ht-degree: 94%
          + 자산 관리 {#manage-asset}
             + [Assets Essentials 작업](using/email/assets-essentials.md)
             + [Adobe Stock 작업](using/email/stock.md)
-         + [개인화된 오퍼 추가](using/email/add-offers-email.md)
+         + [개인화된 오퍼 삽입](using/email/add-offers-email.md)
          + [텍스트 버전 생성](using/email/text-version-email.md)
          + [사전 헤더 추가](using/email/preheader.md)
       + 스타일 편집 {#edit-style}
+         + [이메일 스타일 시작](using/email/get-started-email-style.md)
          + [배경 설정 편집](using/email/backgrounds.md)
          + [세로 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
          + [링크의 스타일 정의](using/email/styling-links.md)
@@ -234,7 +235,10 @@ ht-degree: 94%
       + [템플릿 만들기](using/landing-pages/lp-templates.md)
       + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
    + [구독 목록 만들기](using/landing-pages/subscription-list.md)
-   + [사용 사례](using/landing-pages/lp-use-cases.md)
+   + [사용 사례를 통해 알아보기](using/landing-pages/lp-use-cases.md)
+   + 랜딩 페이지 구성 {#lp-configuration}
+      + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
+      + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
 + 개인화 및 다이내믹 콘텐츠 {#personalized-dynamic-content}
    + 개인화 {#personalization}
       + [개인화 시작](using/personalization/personalize.md)
@@ -411,28 +415,20 @@ ht-degree: 94%
    + [쿼리](using/data/get-started-queries.md)
 + 구성{#configuration}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
-   + 메시지 구성 {#configuration-message}
-      + 이메일 구성 {#email-configuration}
-         + 하위 도메인 위임 {#delegate-subdomains}
-            + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
-            + [하위 도메인 위임](using/configuration/delegate-subdomain.md)
-            + [위임된 하위 도메인 액세스](using/configuration/access-subdomains.md)
-         + 하위 도메인 관련 작업 관리 {#subdomain-related-actions}
-            + [Google TXT 레코드 추가](using/configuration/google-txt.md)
-            + [PTR 레코드 액세스 및 편집](using/configuration/ptr-records.md)
-            + [IP 풀 만들기](using/configuration/ip-pools.md)
-         + 이메일 주소 모니터링 {#monitor-reputation}
-            + [제외 목록](using/configuration/manage-suppression-list.md)
-            + [다시 시도](using/configuration/retries.md)
-            + [허용 목록](using/configuration/allow-list.md)
-      + 채널 표면 설정 {#set-up-channels}
-         + [채널 표면 생성](using/configuration/channel-surfaces.md)
-      + [아카이브 지원](using/configuration/archiving-support.md)
-      + [실행 주소 관리](using/configuration/primary-email-addresses.md)
-      + [빈도 규칙 구성](using/configuration/frequency-rules.md)
-   + 랜딩 페이지 구성 {#lp-configuration}
-      + [랜딩 페이지 하위 도메인 구성](using/configuration/lp-subdomains.md)
-      + [랜딩 페이지 사전 설정 정의](using/configuration/lp-presets.md)
+   + 전자 메일 하위 도메인 위임 {#delegate-subdomains}
+      + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
+      + [하위 도메인 위임](using/configuration/delegate-subdomain.md)
+      + [Google TXT 레코드 추가](using/configuration/google-txt.md)
+      + [PTR 레코드 액세스 및 편집](using/configuration/ptr-records.md)
+      + [IP 풀 만들기](using/configuration/ip-pools.md)
+   + [채널 표면 설정](using/configuration/channel-surfaces.md)
+   + 이메일 주소 모니터링 {#monitor-reputation}
+      + [제외 목록](using/configuration/manage-suppression-list.md)
+      + [다시 시도](using/configuration/retries.md)
+      + [허용 목록](using/configuration/allow-list.md)
+   + [아카이브 지원](using/configuration/archiving-support.md)
+   + [빈도 규칙 구성](using/configuration/frequency-rules.md)
+   + [실행 주소 관리](using/configuration/primary-email-addresses.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
       + [외부 시스템과 통합](using/configuration/external-systems.md)

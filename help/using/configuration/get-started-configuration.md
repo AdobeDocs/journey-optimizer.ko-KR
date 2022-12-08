@@ -8,10 +8,10 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 40%
+source-wordcount: '381'
+ht-degree: 34%
 
 ---
 
@@ -24,21 +24,31 @@ ht-degree: 40%
 
 ## 메시지 및 채널 구성
 
-채널 서피스를 정의하고 메시지를 조정하고 사용자 정의합니다.
+1. 메시지를 만들고 전송하려면 채널에 따라 특정 구성을 수행해야 합니다.
 
-* [하위 Adobe에 위임](about-subdomain-delegation.md) 전자 메일 및 [IP 풀 만들기](ip-pools.md) 그룹에 제공된 IP 주소를 함께 그룹화합니다.
+   * 대상 **이메일** channel 을 사용하면 하위 도메인을 Adobe에 위임하고 IP 풀을 만들어 IP 주소를 함께 그룹화해야 합니다. [자세히 알아보기](../email/get-started-email-config.md)
 
-* 금지 목록에 이메일 주소를 보내기 전에 재시도를 하는 기간(일)을 관리합니다. [자세히 알아보기](manage-suppression-list.md)
+   * 대상 **푸시** 채널에서는 두 가지 모두에서 푸시 알림 설정을 정의해야 합니다 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]. [자세히 알아보기](../push/push-configuration.md)
 
-* [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch] 모두에서 푸시 알림 설정을 정의합니다. [자세히 알아보기](../push/push-gs.md)
+   * 대상 **SMS** 채널에서 공급자 설정을 과 통합하는 등 SMS를 전송하도록 인스턴스를 구성해야 합니다 [!DNL Journey Optimizer]. [자세히 알아보기](../sms/sms-configuration.md)
 
-   <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+1. 완료되면 다음을 만들어야 합니다 **채널 서피스** 메시지를 전달하는 데 필요한 모든 기술 매개 변수를 구성하려면 다음을 수행하십시오. [자세히 알아보기](channel-surfaces.md)
 
-* SMS를 전송하도록 인스턴스를 구성합니다(현재 조직 세트에만 사용 가능 - 제한된 가용성). [자세히 알아보기](../sms/sms-configuration.md)
+1. 다음 작업도 수행할 수 있습니다.
 
-* 채널 서피스를 만들어 메시지를 전달하는 데 필요한 모든 기술 매개 변수를 구성합니다. [자세히 알아보기](channel-surfaces.md)
+   * 금지 목록에 이메일 주소를 보내기 전에 재시도를 하는 기간(일)을 관리합니다. [자세히 알아보기](manage-suppression-list.md)
 
-* Adobe Experience Platform에서 여러 주소/번호를 사용할 수 있는 경우 수신자의 우선 순위에 사용할 이메일 주소 및/또는 전화 번호를 결정합니다. [자세히 알아보기](primary-email-addresses.md)
+   * 를 활성화합니다 **BBC 이메일 옵션** 개인 사용자에게 전송되는 메시지 사본을 보관하기 위해 [자세히 알아보기](archiving-support.md#enable-bcc)
+
+   * 구성 **빈도 규칙** 받는 사람을 지나치게 배려하지 않기 위해. [자세히 알아보기](frequency-rules.md)
+
+   * Adobe Experience Platform에서 여러 주소/번호를 사용할 수 있는 경우 수신자의 우선 순위에 사용할 이메일 주소 및/또는 전화 번호를 결정합니다. [자세히 알아보기](primary-email-addresses.md)
+
+<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+
+>[!NOTE]
+>
+>이러한 단계는 [Adobe Journey Optimizer 시스템 관리자](../start/path/administrator.md).
 
 ## 여정 구성
 
