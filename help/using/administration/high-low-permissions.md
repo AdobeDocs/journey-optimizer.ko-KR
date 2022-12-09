@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 0%
 각 제품 프로필은 사용자가 다른 기능에 액세스할 수 있는 권한으로 구성되어 있습니다.
 두 가지 유형으로 나눌 수 있습니다.
 
-* **높은 수준의 권한**: 에는 지정할 수 있는 다양한 권한을 나타냅니다 **[!UICONTROL 제품 프로필]** 에서 [!DNL Admin console], 예 **[!DNL Publish journeys]** 및 **[!DNL Manage subdomains delegation]**. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다.
+* **높은 수준의 권한**: 에는 지정할 수 있는 다양한 권한을 나타냅니다 **[!UICONTROL Product profile]** 에서 [!DNL Admin console], 예 **[!DNL Publish journeys]** 및 **[!DNL Manage subdomains delegation]**. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다.
 
 * **낮은 수준 권한**: 는 높은 수준 권한이 있는 다른 권한을 나타냅니다.
 
-예: **[!DNL Journey administrator]** 제품 프로필이 할당됨 **[!DNL Manage journeys]** 권한. 이 사용 권한을 통해 여정 관리자가 여정을 작성, 읽기 및 삭제할 수 있는 낮은 수준의 권한이 만들어집니다.
+예: **[!DNL Journey administrator]** 제품 프로필이 할당됨 **[!DNL Manage journeys]** 권한. 이 권한을 통해 여정 관리자가 여정을 작성, 읽기 및 삭제할 수 있는 낮은 수준의 권한이 제공됩니다.
 
 ## 여정 기능 {#journey-capability}
 
 ### [!DNL Manage journeys] 권한 {#manage-journeys}
 
-다음 **[!DNL Manage journeys]** 높은 수준의 권한을 통해 사용자는 여정 흐름을 작성하기 위해 여정 캔버스에서 사용되는 개체에 액세스할 수 있을 뿐만 아니라, 기존 여정을 새로 만들고 편집/삭제할 수 있습니다.
+다음 **[!DNL Manage journeys]** 높은 수준의 권한을 통해 사용자는 기존 여정을 새로 만들고 편집/삭제할 수 있을 뿐만 아니라 여정 캔버스에서 사용되는 객체에 액세스하여 여정 흐름을 작성할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -79,15 +79,15 @@ ht-degree: 0%
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
 * Journey Optimizer 특정:
-   * 여정_events.read
-   * 여정_events.write
-   * 여정_events.delete
-   * 여정_data_sources.read
-   * 여정_data_sources.write
-   * 여정_data_sources.delete
-   * 여정_actions.read
-   * 여정_actions.write
-   * 여정_actions.delete
+   * journey_events.read
+   * journey_events.write
+   * journey_events.delete
+   * journeys_data_sources.read
+   * journey_data_sources.write
+   * journey_data_sources.delete
+   * journey_actions.read
+   * journey_actions.write
+   * journey_actions.delete
 
 * Adobe Experience Platform 특정:
    * schemas.read
@@ -96,14 +96,14 @@ ht-degree: 0%
 
 ### [!DNL View journeys events, data sources and actions] 권한 {#view-journeys-event}
 
-다음 **[!DNL View journeys events, data sources and actions]** 높은 수준의 권한을 사용하면 여정 흐름에서 이벤트와 데이터를 사용할 수 있습니다.
+다음 **[!DNL View journeys events, data sources and actions]** 높은 수준의 권한을 통해 여정 흐름에서 이벤트와 데이터를 사용할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
 * Journey Optimizer 특정:
-   * 여정_events.read
-   * 여정_data_sources.read
-   * 여정_actions.read
+   * journey_events.read
+   * journeys_data_sources.read
+   * journey_actions.read
 
 * Adobe Experience Platform 특정:
    * schemas.read
@@ -117,7 +117,7 @@ ht-degree: 0%
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
 * Journey Optimizer 특정:
-   * 여정_report.read
+   * journey_report.read
    * messages_report.read
 
 * Adobe Experience Platform 특정:

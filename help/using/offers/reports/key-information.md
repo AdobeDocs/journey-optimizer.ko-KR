@@ -8,22 +8,22 @@ level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 38%
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
 # 의사 결정 관리 이벤트 주요 정보 {#events-key-information}
 
-결정이 내려질 때 전송되는 각 이벤트에는 분석 및 보고 용도로 활용할 수 있는 4개의 키 데이터 포인트가 포함되어 있습니다.
+결정이 내려질 때 전송되는 각 이벤트에는 분석 및 보고 목적으로 활용할 수 있는 4개의 주요 데이터 포인트가 포함되어 있습니다.
 
 ![](../assets/events-dataset-preview.png)
 
-* **[!UICONTROL 대체]**: 개인화된 오퍼를 선택하지 않은 경우, 대체 오퍼의 이름 및 ID
-* **[!UICONTROL 배치]**: 오퍼를 전달하는 데 사용되는 배치의 이름, ID 및 채널입니다.
-* **[!UICONTROL 선택]**: 프로필에 대해 선택한 오퍼의 이름 및 ID,
-* **[!UICONTROL 활동]**: 결정 이름 및 ID입니다.
+* **[!UICONTROL Fallback]**: 개인화된 오퍼를 선택하지 않은 경우, 대체 오퍼의 이름 및 ID
+* **[!UICONTROL Placement]**: 오퍼를 전달하는 데 사용되는 배치의 이름, ID 및 채널입니다.
+* **[!UICONTROL Selections]**: 프로필에 대해 선택한 오퍼의 이름 및 ID,
+* **[!UICONTROL Activity]**: 결정 이름 및 ID입니다.
 
 또한 **[!UICONTROL identityMap]** 및 **[!UICONTROL Timestamp]** 프로필과 오퍼가 전달된 시간에 대한 정보를 검색할 필드입니다.
 
-각 결정과 함께 전송되는 모든 XDM 필드에 대한 자세한 내용은 [이 섹션](xdm-fields.md)을 참조하십시오.
+각 의사 결정과 함께 전송되는 모든 XDM 필드에 대한 자세한 내용은 [이 섹션](xdm-fields.md).

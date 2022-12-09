@@ -11,7 +11,7 @@ exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 스키마에 정의되지 않은 필드를 참조하려고 할 때.
 
-이 경우 **firstName1** 은 프로필 스키마에 속성으로 정의되지 않았습니다.
+이 경우 **firstName1** 가 프로필 스키마에 속성으로 정의되지 않았습니다.
 
 ```
 {{profile.person.name.firstName1}}

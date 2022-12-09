@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 랜딩 페이지 사용 사례
-description: Journey Optimizer에서 랜딩 페이지를 사용하는 가장 일반적인 사용 사례를 알아봅니다
+description: Journey Optimizer에서 랜딩 페이지를 사용하는 가장 일반적인 사용 사례를 살펴봅니다
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 16%
+source-wordcount: '874'
+ht-degree: 0%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 16%
 
 1. [이메일 디자인](../email/get-started-email-design.md) 이제 해당 이벤트에 대한 등록이 열려 있음을 알려주십시오.
 
-1. [링크 삽입](../email/message-tracking.md#insert-links) 메시지 콘텐츠에 삽입하십시오. 선택 **[!UICONTROL 랜딩 페이지]** 로서의 **[!UICONTROL 링크 유형]** 그리고 [랜딩 페이지](create-lp.md#configure-primary-page) 등록용으로 만들 수 있습니다.
+1. [링크 삽입](../email/message-tracking.md#insert-links) 메시지 콘텐츠에 삽입하십시오. 선택 **[!UICONTROL Landing page]** 로서의 **[!UICONTROL Link type]** 그리고 [랜딩 페이지](create-lp.md#configure-primary-page) 등록용으로 만들 수 있습니다.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -69,17 +69,17 @@ ht-degree: 16%
 
 또한 이벤트에 등록한 수신자에게 확인 이메일을 보낼 수 있습니다. 이렇게 하려면 아래 절차를 따르십시오.
 
-1. 다른 만들기 [여정](../building-journeys/journey.md). 을(를) 클릭하여 랜딩 페이지에서 직접 수행할 수 있습니다 **[!UICONTROL 여정 만들기]** 버튼을 클릭합니다. [여기](create-lp.md#configure-primary-page)에서 추가 정보를 확인하십시오
+1. 다른 만들기 [여정](../building-journeys/journey.md). 을(를) 클릭하여 랜딩 페이지에서 직접 수행할 수 있습니다 **[!UICONTROL Create journey]** 버튼을 클릭합니다. 추가 정보 [여기](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. 을(를) 펼칩니다. **[!UICONTROL 이벤트]** 카테고리 및 삭제 **[!UICONTROL 세그먼트 자격]** 활동을 캔버스로 이동합니다. [여기](../building-journeys/segment-qualification-events.md)에서 추가 정보를 확인하십시오
+1. 을(를) 펼칩니다. **[!UICONTROL Events]** 카테고리 및 삭제 **[!UICONTROL Segment Qualification]** 활동을 캔버스로 이동합니다. 추가 정보 [여기](../building-journeys/segment-qualification-events.md)
 
-1. 을(를) 클릭합니다. **[!UICONTROL 세그먼트]** 필드를 작성하고 만든 구독 목록을 선택합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Segment]** 필드를 작성하고 만든 구독 목록을 선택합니다.
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. 선택한 확인 이메일을 추가하고 여정을 통해 보냅니다.
+1. 원하는 확인 이메일을 추가하고 여정을 통해 보냅니다.
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -95,22 +95,22 @@ ht-degree: 16%
 
 ### 옵트아웃 관리 {#opt-out-management}
 
-수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하는 것은 법적 요구사항입니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko#regulations){target=&quot;_blank&quot;}에서 해당 법률에 대해 자세히 알아보세요.
+수신자가 브랜드로부터 커뮤니케이션 수신을 취소할 수 있는 기능을 제공하는 것은 법적 요구 사항입니다. 에서 해당 법률에 대해 자세히 알아보십시오 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}.
 
-따라서 수신자에게 보내는 모든 이메일에 항상 **구독 취소 링크**&#x200B;를 포함해야 합니다.
+따라서 항상 를 포함해야 합니다 **구독 취소 링크** 수신자에게 보내는 모든 이메일:
 
-* 이 링크를 클릭하면 수신자는 옵트아웃을 확인하는 버튼이 포함된 랜딩 페이지로 이동됩니다.
+* 이 링크를 클릭하면 수신자가 옵트아웃을 확인하는 버튼이 포함된 랜딩 페이지로 이동됩니다.
 * 옵트아웃 단추를 클릭하면 프로필 데이터가 이 정보로 업데이트됩니다.
 
 ### 옵트아웃 구성 {#configure-opt-out}
 
 이메일 수신자가 랜딩 페이지를 통해 커뮤니케이션에서 가입을 해지할 수 있도록 하려면 아래 단계를 따르십시오.
 
-1. 랜딩 페이지를 만듭니다. [자세히 알아보기](create-lp.md)
+1. 랜딩 페이지를 만듭니다. [추가 정보](create-lp.md)
 
-1. 기본 페이지를 정의합니다. [자세히 알아보기](create-lp.md#configure-primary-page)
+1. 기본 페이지를 정의합니다. [추가 정보](create-lp.md#configure-primary-page)
 
-1. [디자인](design-lp.md) 기본 페이지 컨텐츠: 랜딩 페이지별 사용 **[!UICONTROL 양식]** 구성 요소, 정의 **[!UICONTROL 옵트아웃]** 확인란을 선택하고 업데이트하도록 선택합니다. **[!UICONTROL 채널(이메일)]**: 랜딩 페이지에서 옵트아웃 상자를 체크하는 프로필은 모든 통신에서 옵트아웃됩니다.
+1. [디자인](design-lp.md) 기본 페이지 컨텐츠: 랜딩 페이지별 사용 **[!UICONTROL Form]** 구성 요소, 정의 **[!UICONTROL Opt-out]** 확인란을 선택하고 업데이트하도록 선택합니다. **[!UICONTROL Channel (email)]**: 랜딩 페이지에서 옵트아웃 상자를 체크하는 프로필은 모든 통신에서 옵트아웃됩니다.
 
    ![](assets/lp_opt-out-primary-lp.png)
 
@@ -122,19 +122,19 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >기본 페이지의 **[!UICONTROL 클릭유도문안]** 섹션 **[!UICONTROL 양식]** 구성 요소. [자세히 알아보기](design-lp.md)
+   >기본 페이지의 **[!UICONTROL Call to action]** 섹션 **[!UICONTROL Form]** 구성 요소. [추가 정보](design-lp.md)
 
 1. 페이지의 콘텐츠를 구성하고 정의했으면, [게시](create-lp.md#publish) 랜딩 페이지.
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [이메일 메시지 만들기](../email/get-started-email-design.md) 여정에 있을 때 사용됩니다.
+1. [이메일 메시지 만들기](../email/get-started-email-design.md) 여정.
 
-1. 콘텐츠에서 텍스트를 선택하고 상황별 도구 모음을 사용하여 [링크를 삽입합니다. ](../email/message-tracking.md#insert-links) 단추에 대한 링크를 사용할 수도 있습니다.
+1. 콘텐츠에서 텍스트를 선택하고 [링크 삽입](../email/message-tracking.md#insert-links) 상황별 도구 모음 사용. 단추에 대한 링크를 사용할 수도 있습니다.
 
    ![](assets/lp_opt-out-insert-link.png)
 
-1. 선택 **[!UICONTROL 랜딩 페이지]** 에서 **[!UICONTROL 링크 유형]** 드롭다운 목록을 선택하고 [랜딩 페이지](create-lp.md#configure-primary-page) 옵트아웃을 위해 만든
+1. 선택 **[!UICONTROL Landing page]** 에서 **[!UICONTROL Link type]** 드롭다운 목록을 선택하고 [랜딩 페이지](create-lp.md#configure-primary-page) 옵트아웃을 위해 만든
 
    ![](assets/lp_opt-out-landing-page.png)
 
@@ -142,7 +142,7 @@ ht-degree: 16%
    >
    >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 만료 날짜를 업데이트하는 방법 알아보기 [이 섹션](create-lp.md#configure-primary-page).
 
-1. 여정을 게시하고 실행합니다. [자세히 알아보기](../building-journeys/journey.md).
+1. 여정을 게시하고 실행합니다. [추가 정보](../building-journeys/journey.md).
 
 1. 메시지가 수신되면 수신자가 이메일에서 가입 해지 링크를 클릭하면 랜딩 페이지가 표시됩니다.
 
@@ -154,11 +154,11 @@ ht-degree: 16%
 
    * 프로필 데이터가 업데이트되며, 다시 구독하지 않으면 브랜드로부터 커뮤니케이션을 받지 않습니다.
 
-해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-에서 **[!UICONTROL 속성]** 탭에서 **[!UICONTROL 선택]** 이(가) **[!UICONTROL 아니요]**.
+에서 **[!UICONTROL Attributes]** 탭에서 **[!UICONTROL choice]** 이(가) **[!UICONTROL no]**.
 
 <!--
 

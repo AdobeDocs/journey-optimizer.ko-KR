@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 2%
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -62,17 +62,17 @@ ht-degree: 2%
 
 **함수 &quot;all(`<condition>`)&quot;**
 
-다음 **[!UICONTROL 모두]** 함수를 사용하면 부울 표현식을 사용하여 주어진 컬렉션에 대한 필터 정의를 사용할 수 있습니다.
+다음 **[!UICONTROL all]** 함수를 사용하면 부울 표현식을 사용하여 주어진 컬렉션에 대한 필터 정의를 사용할 수 있습니다.
 
 ```json
 <listExpression>.all(<condition>)
 ```
 
-예를 들어 모든 앱 사용자 중에서 IOS 13(부울 표현식 &quot;app used IOS 13&quot;)을 사용하여 앱을 가져올 수 있습니다. 이 함수의 결과는 부울 표현식과 일치하는 항목이 포함된 필터링된 목록입니다(예: 앱 사용자 1, 앱 사용자 34, 앱 사용자 432).
+예를 들어 모든 앱 사용자 중에서 IOS 13(부울 식 &quot;app used == IOS 13&quot;)을 사용하여 앱을 가져올 수 있습니다. 이 함수의 결과는 부울 표현식과 일치하는 항목이 포함된 필터링된 목록입니다(예: 앱 사용자 1, 앱 사용자 34, 앱 사용자 432).
 
-데이터 소스 조건 활동에서 **[!UICONTROL 모두]** 함수가 null이거나 null입니다. 이 두 가지 방법을 결합할 수도 있습니다 **[!UICONTROL 모두]** 함수를 다음과 같은 다른 함수와 함께 사용합니다 **[!UICONTROL count]**. 자세한 내용은 [데이터 소스 조건 활동](../condition-activity.md#data_source_condition).
+데이터 소스 조건 활동에서 **[!UICONTROL all]** 함수가 null이거나 null입니다. 이 두 가지 방법을 결합할 수도 있습니다 **[!UICONTROL all]** 함수를 다음과 같은 다른 함수와 함께 사용합니다 **[!UICONTROL count]**. 자세한 내용은 [데이터 소스 조건 활동](../condition-activity.md#data_source_condition).
 
-**예 1:**
+**예제 1:**
 
 사용자가 특정 버전의 응용 프로그램을 설치했는지 확인하려고 합니다. 이를 위해 버전이 1.0인 모바일 애플리케이션과 연관된 모든 푸시 알림 토큰을 얻습니다. 그런 다음 를 사용하여 조건을 수행합니다 **[!UICONTROL count]** 반환된 토큰 목록에 하나 이상의 요소가 포함되어 있는지 확인하는 함수입니다.
 
@@ -82,7 +82,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 결과는 true입니다.
 
-**예 2:**
+**예제 2:**
 
 여기서는 를 사용합니다 **[!UICONTROL count]** 컬렉션에 푸시 알림 토큰이 있는지 확인하는 함수입니다.
 
@@ -169,19 +169,19 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]** 이벤트 컬렉션을 조작할 때만 사용할 수 있습니다. **currentDataPackField**
->데이터 소스 컬렉션을 조작할 때. 을 사용하여 컬렉션을 처리할 때 **[!UICONTROL 모두]**, **[!UICONTROL 첫 번째]** 및 **[!UICONTROL 마지막]**, we
+>데이터 소스 컬렉션을 조작할 때. 을 사용하여 컬렉션을 처리할 때 **[!UICONTROL all]**, **[!UICONTROL first]** 및 **[!UICONTROL last]**, we
 >컬렉션의 각 요소를 하나씩 반복합니다. **[!UICONTROL currentEventField]** 및 **currentDataPackField**
 >는 루프가 있는 요소에 해당합니다.
 
 **함수 &quot;first(`<condition>`)&quot; 및 &quot;last()`<condition>`)&quot;**
 
-다음 **[!UICONTROL 첫 번째]** 및 **[!UICONTROL 마지막]** 또한 함수를 사용하면 필터를 충족하는 목록의 첫 번째/마지막 요소를 반환하는 동안 컬렉션에 대한 필터의 정의를 사용할 수 있습니다.
+다음 **[!UICONTROL first]** 및 **[!UICONTROL last]** 또한 함수를 사용하면 필터를 충족하는 목록의 첫 번째/마지막 요소를 반환하는 동안 컬렉션에 대한 필터의 정의를 사용할 수 있습니다.
 
 _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-**예 1:**
+**예제 1:**
 
 이 표현식은 버전이 1.0인 모바일 애플리케이션과 연관된 첫 번째 푸시 알림 토큰을 반환합니다.
 
@@ -191,7 +191,7 @@ _`<listExpression>.last(<condition>)`_
 
 결과는 &quot;token_1&quot;입니다.
 
-**예 2:**
+**예제 2:**
 
 이 표현식은 버전이 1.0인 모바일 애플리케이션과 연관된 마지막 푸시 알림 토큰을 반환합니다.
 
@@ -205,13 +205,13 @@ _`<listExpression>.last(<condition>)`_
 >
 >경험 이벤트는 Adobe Experience Platform에서 시간 순서대로 컬렉션으로 검색되므로,
 >
->* **[!UICONTROL 첫 번째]** 함수는 최신 이벤트를 반환합니다
->* **[!UICONTROL 마지막]** 함수는 가장 오래된 것을 반환합니다.
+>* **[!UICONTROL first]** 함수는 최신 이벤트를 반환합니다
+>* **[!UICONTROL last]** 함수는 가장 오래된 것을 반환합니다.
 
 
 **예제 3:**
 
-DMA ID에 대해 값이 0이 아닌 첫 번째(가장 최근) Adobe Analytics 이벤트가 602와 같은지 확인합니다.
+DMA ID에 대해 0이 아닌 값이 있는 첫 번째(가장 최근) Adobe Analytics 이벤트의 값이 602인지 확인합니다.
 
 ```json
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(

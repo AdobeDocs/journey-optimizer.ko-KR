@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 4%
+source-wordcount: '958'
+ht-degree: 0%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 4%
 
 그러면 다음을 수행할 수 있습니다 [증명 보내기](#send-proofs) 테스트 프로필로 이동합니다.
 
-또한 **Litmus** 계정을 [!DNL Journey Optimizer]에 활용하면 인기 있는 이메일 클라이언트에서 **이메일 렌더링**&#x200B;을 즉시 미리 볼 수 있습니다. 그런 다음 모든 받은 편지함에서 이메일 콘텐츠가 제대로 표시되고 제대로 작동하는지 확인할 수 있습니다. 에서 리트머스 전자 메일 미리 보기의 잠금을 해제하는 방법을 알아봅니다. [이 섹션](#email-rendering).
+또한 **리트머스** 계정 [!DNL Journey Optimizer] 즉시 미리 보려면 **전자 메일 렌더링** 인기 있는 이메일 클라이언트에서 그런 다음 모든 받은 편지함에서 전자 메일 콘텐츠가 제대로 표시되고 제대로 작동하는지 확인할 수 있습니다. 에서 리트머스 전자 메일 미리 보기의 잠금을 해제하는 방법을 알아봅니다. [이 섹션](#email-rendering).
 
 >[!CAUTION]
 >
->메시지를 미리 보거나 증명을 보낼 때 프로필 개인화 데이터만 표시됩니다. 이벤트 정보와 같은 컨텍스트 데이터를 기반으로 한 개인화는 여정 컨텍스트에서만 테스트할 수 있습니다. 에서 개인화를 테스트하는 방법을 알아봅니다. [이 사용 사례](../personalization/personalization-use-case.md).
+>메시지를 미리 보거나 증명을 보낼 때 프로필 개인화 데이터만 표시됩니다. 이벤트 정보와 같은 컨텍스트 데이터를 기반으로 한 개인화는 여정의 컨텍스트에서만 테스트할 수 있습니다. 에서 개인화를 테스트하는 방법을 알아봅니다. [이 사용 사례](../personalization/personalization-use-case.md).
 
 ➡️ [이 비디오에서 이메일을 미리 보고 증명을 하는 방법을 배웁니다](#video-preview)
 
@@ -48,22 +48,22 @@ ht-degree: 4%
 >id="ac_preview_testprofiles"
 >title="메시지 미리 보기 및 테스트"
 >abstract="메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="이메일 렌더링"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="전자 메일 렌더링"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#preview-email" text="미리 보기"
 
 사용 [테스트 프로필](../segment/creating-test-profiles.md) 정의한 타겟팅 기준과 일치하지 않는 추가 수신자를 타겟팅합니다.
 
 테스트 프로필을 선택하려면 아래 단계를 수행하십시오.
 
-1. 에서 [컨텐츠 편집](create-email.md#define-email-content) 화면 또는 이메일 디자이너에서 **[!UICONTROL 컨텐츠 시뮬레이션]** 테스트 프로필 선택에 액세스하는 단추입니다.
+1. 에서 [컨텐츠 편집](create-email.md#define-email-content) 화면 또는 이메일 디자이너에서 **[!UICONTROL Simulate content]** 테스트 프로필 선택에 액세스하는 단추입니다.
 
    ![](assets/email-preview-button.png)
 
-1. 선택 **[!UICONTROL 테스트 프로필 관리]**.
+1. 선택 **[!UICONTROL Manage test profiles]**.
 
    ![](assets/email-preview_manage-test-profiles.png)
 
-1. 을(를) 클릭하여 테스트 프로필을 식별하는 데 사용할 네임스페이스를 선택합니다 **[!UICONTROL ID 네임스페이스]** 선택 아이콘.
+1. 을(를) 클릭하여 테스트 프로필을 식별하는 데 사용할 네임스페이스를 선택합니다 **[!UICONTROL Identity namespace]** 선택 아이콘.
 
    ![](assets/previewselect-namespace.png)
 
@@ -71,11 +71,11 @@ ht-degree: 4%
 
    아래 예에서는 **이메일** 네임스페이스.
 
-1. 검색 필드를 사용하여 네임스페이스를 찾아 선택하고 을(를) 클릭합니다 **[!UICONTROL 선택]**
+1. 검색 필드를 사용하여 네임스페이스를 찾아 선택하고 을(를) 클릭합니다 **[!UICONTROL Select]**
 
    ![](assets/preview-email-namespace.png)
 
-1. 에서 **[!UICONTROL ID 값]** 필드를 입력하고 값(여기에는 이메일 주소)을 입력하여 테스트 프로필을 식별하고 **[!UICONTROL 프로필 추가]**.
+1. 에서 **[!UICONTROL Identity value]** 필드를 입력하고 값(여기에는 이메일 주소)을 입력하여 테스트 프로필을 식별하고 **[!UICONTROL Add profile]**.
 
    <!--![](assets/preview-identity-value.png)-->
 
@@ -87,9 +87,9 @@ ht-degree: 4%
 
 ### 이메일 미리 보기 {#preview-email}
 
-한 번 [테스트 프로필](#select-test-profiles) 을(를) 선택하면 이메일 콘텐츠를 미리 볼 수 있습니다. 아래 단계를 따르십시오.
+한 번 [테스트 프로필](#select-test-profiles) 을(를) 선택하면 이메일 콘텐츠를 미리 볼 수 있습니다. 아래 절차를 따르십시오.
 
-1. 에서 [컨텐츠 편집](create-email.md#define-email-content) 화면 또는 이메일 디자이너에서 **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼을 클릭합니다.
+1. 에서 [컨텐츠 편집](create-email.md#define-email-content) 화면 또는 이메일 디자이너에서 **[!UICONTROL Simulate content]** 버튼을 클릭합니다.
 
 1. 테스트 프로필을 선택합니다. 열에서 사용할 수 있는 값을 확인할 수 있습니다. 데이터를 검색하려면 오른쪽/왼쪽 화살표를 사용합니다.
 
@@ -97,9 +97,9 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >테스트 프로필을 더 추가하려면 **[!UICONTROL 테스트 프로필 관리]**. [자세히 알아보기](#select-test-profiles)
+   >테스트 프로필을 더 추가하려면 **[!UICONTROL Manage test profiles]**. [추가 정보](#select-test-profiles)
 
-1. 을(를) 클릭합니다. **[!UICONTROL 데이터 선택]** 아이콘 위로 클릭하여 열을 추가하거나 제거합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Select data]** 아이콘 위로 클릭하여 열을 추가하거나 제거합니다.
 
    ![](assets/preview-select-data.png)
 
@@ -119,11 +119,11 @@ ht-degree: 4%
 
 한 번 [테스트 프로필](#select-test-profiles) 을(를) 선택하면 증명을 보낼 수 있습니다.
 
-1. 에서 **[!UICONTROL 시뮬레이션]** 화면에서 **[!UICONTROL 증명 보내기]** 버튼을 클릭합니다.
+1. 에서 **[!UICONTROL Simulate]** 화면에서 **[!UICONTROL Send proof]** 버튼을 클릭합니다.
 
    ![](assets/send-proof-button.png)
 
-1. 에서 **[!UICONTROL 증명 보내기]** 창을 열고 수신자 전자 메일을 입력하고 **[!UICONTROL 추가]** 본인 또는 조직의 구성원에게 증명을 전송하기 위해
+1. 에서 **[!UICONTROL Send proof]** 창을 열고 수신자 전자 메일을 입력하고 **[!UICONTROL Add]** 본인 또는 조직의 구성원에게 증명을 전송하기 위해
 
    증명 전달을 위해 최대 10명의 수신자를 추가할 수 있습니다.
 
@@ -135,11 +135,11 @@ ht-degree: 4%
 
 1. 필요한 경우 증명의 제목란에 접두사를 추가할 수 있습니다. 영숫자 및 과 같은 특수 문자만 사용할 수 있습니다. - _ ( ) [ ] 제목 줄의 접두사로 사용할 수 있습니다.
 
-1. 클릭 **[!UICONTROL 증명 보내기]**.
+1. 클릭 **[!UICONTROL Send proof]**.
 
    ![](assets/send-proof-select.png)
 
-1. 다시  **[!UICONTROL 시뮬레이션]** 화면에서  **[!UICONTROL 증명 보기]** 상태를 확인하는 단추입니다.
+1. 다시  **[!UICONTROL Simulate]** 화면에서  **[!UICONTROL View proofs]** 상태를 확인하는 단추입니다.
 
    ![](assets/send-proof-view.png)
 
@@ -160,9 +160,9 @@ ht-degree: 4%
 
 그런 다음 아래 단계를 수행합니다.
 
-1. 에서 [컨텐츠 편집](create-email.md#define-email-content) 화면 또는 이메일 디자이너에서 **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼을 클릭합니다.
+1. 에서 [컨텐츠 편집](create-email.md#define-email-content) 화면 또는 이메일 디자이너에서 **[!UICONTROL Simulate content]** 버튼을 클릭합니다.
 
-1. 을(를) 선택합니다 **[!UICONTROL 전자 메일 렌더링]** 버튼을 클릭합니다.
+1. 을(를) 선택합니다 **[!UICONTROL Render email]** 버튼을 클릭합니다.
 
    ![](assets/email-rendering-button.png)
 

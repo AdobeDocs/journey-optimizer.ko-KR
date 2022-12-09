@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: filter
+title: 필터
 description: 함수 필터에 대해 알아보기
 feature: Journeys
 role: Data Engineer
@@ -9,7 +9,7 @@ exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 |-----------|------------------|------------------|
 | listToFilter | listObject | 필터링할 개체 목록 필드 참조여야 합니다. |
 | keyAttributeName | string | 필터링에 키로 사용되는 지정된 목록의 객체 속성 이름 |
-| keyValueList | 목록에 있는 참조 페이지를 나타냅니다 | 필터링을 위한 키 값 배열 |
+| keyValueList | list | 필터링을 위한 키 값 배열 |
 
 ## 서명 및 반환된 형식
 
@@ -57,7 +57,7 @@ ht-degree: 8%
 
 listObject를 반환합니다.
 
-## 예시
+## 예
 
 다음은 들어오는 이벤트 &quot;myevent&quot;에서 전달된 페이로드의 예입니다.
 

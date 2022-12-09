@@ -1,6 +1,6 @@
 ---
-title: 내보낸 오퍼 카탈로그에 액세스하기
-description: 오퍼 카탈로그를 내보낸 후 Adobe Experience Platform에서 오퍼 카탈로그에 액세스하는 방법을 알아봅니다
+title: 내보낸 오퍼 카탈로그에 액세스합니다
+description: 내보낸 후 Adobe Experience Platform에서 오퍼 카탈로그에 액세스하는 방법을 알아봅니다
 feature: Offers
 topic: Integrations
 role: User
@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
 source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 10%
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
-# 내보낸 오퍼 카탈로그에 액세스하기 {#access-exported-catalog}
+# 내보낸 오퍼 카탈로그에 액세스합니다 {#access-exported-catalog}
 
-내보낸 오퍼 카탈로그는 Adobe Experience Platform에서 액세스할 수 있습니다 **[!UICONTROL 데이터 세트]** 메뉴 아래의 제품에서 사용할 수 있습니다. 오퍼 라이브러리의 각 개체에 대해 하나의 데이터 세트가 만들어집니다.
+내보낸 오퍼 카탈로그는 Adobe Experience Platform에서 액세스할 수 있습니다 **[!UICONTROL Datasets]** 메뉴 아래의 제품에서 사용할 수 있습니다. 오퍼 라이브러리의 각 개체에 대해 하나의 데이터 세트가 만들어집니다.
 
 ![](../assets/datasets-list.png)
 
@@ -23,7 +23,7 @@ ht-degree: 10%
 
 ![](../assets/dataset-activity.png)
 
-다음 **[!UICONTROL 데이터 세트 미리 보기]** 버튼을 사용하면 데이터 세트에 가장 최근 성공한 배치를 표시할 수 있습니다. 왼쪽 창에는 내보낸 데이터 유형에 대한 정보가 표시됩니다.
+다음 **[!UICONTROL Preview dataset]** 버튼을 사용하면 데이터 세트에 가장 최근 성공한 배치를 표시할 수 있습니다. 왼쪽 창에는 내보낸 데이터 유형에 대한 정보가 표시됩니다.
 
 ![](../assets/dataset-preview.png)
 

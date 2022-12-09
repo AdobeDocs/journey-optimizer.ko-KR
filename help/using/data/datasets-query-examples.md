@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ group by
     _experience.customerJourneyManagement.messageInteraction.interactionType
 ```
 
-이 쿼리는 지정된 여정에 대한 메시지별 다른 이메일 상호 작용(열기, 클릭) 수의 분류를 표시합니다.
+이 쿼리는 주어진 여정에 대한 메시지별 다른 이메일 상호 작용(열기, 클릭) 수의 분류를 표시합니다.
 
 ```sql
 select
@@ -72,7 +72,7 @@ limit 100;
 
 _인터페이스의 이름: CJM 메시지 피드백 이벤트 데이터 세트_
 
-Journey Optimizer에서 전자 메일을 수집하고 애플리케이션 피드백 이벤트를 푸시하기 위한 데이터 집합입니다.
+Journey Optimizer에서 전자 메일을 수집하고 애플리케이션 피드백 이벤트를 푸시하는 데이터 세트입니다.
 
 관련 스키마는 CJM 메시지 피드백 이벤트 스키마입니다.
 
@@ -168,7 +168,7 @@ _내부 이름: 여정 단계 이벤트(시스템 데이터 세트)_
 
 여정에서 단계 이벤트를 수집하기 위한 데이터 집합입니다.
 
-관련 스키마는 Journey Orchestration을 위한 여정 단계 이벤트 스키마입니다.
+관련 스키마는 Journey Orchestration용 Journey Step 이벤트 스키마입니다.
 
 이 쿼리는 지정된 여정에 대한 작업 레이블별 작업 성공 카운트의 분류를 표시합니다.
 
@@ -186,7 +186,7 @@ group by
     _experience.journeyOrchestration.stepEvents.actionName;   
 ```
 
-이 쿼리는 지정된 여정에 대해 nodeId 및 nodeLabel별로 입력한 단계 카운트의 분류를 표시합니다. nodeId는 여기에 포함됩니다. nodeLabel은 다른 여정 노드에 대해 동일할 수 있습니다.
+이 쿼리는 지정된 여정에 대해 nodeId 및 nodeLabel별로 입력한 단계 카운트의 분류를 표시합니다. nodeId가 여기에 포함됩니다. nodeLabel은 다른 여정 노드에 대해 동일할 수 있습니다.
 
 ```sql
 select
@@ -237,7 +237,7 @@ group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.rank
 
 _인터페이스의 이름: CJM 동의 서비스 데이터 세트(시스템 데이터 세트)_
 
-Journey Optimizer 동의 서비스에 대한 데이터 집합입니다.
+Journey Optimizer 동의 서비스 데이터 집합입니다.
 
 관련 스키마는 CJM 동의 서비스 스키마입니다.
 
@@ -314,19 +314,19 @@ _인터페이스의 이름: ajo_entity_dataset(시스템 데이터 세트)_
 
 관련 스키마는 AJO 엔티티 스키마입니다.
 
-이 데이터 세트는 외부 도구에서 보고 시각화를 위해 Journey Optimizer 데이터 세트를 내보낼 때 보고 통찰력을 향상시킬 수 있는 마케터 정의 메타데이터에 액세스할 수 있도록 해줍니다. 이 작업은 메시지 피드백 데이터 세트 및 경험 이벤트 추적 데이터 세트 와 같은 다양한 데이터 세트를 연결하여 프로필 수준에서 추적으로 메시지 게재의 세부 사항을 가져오는 messageID 속성을 사용하여 수행됩니다.
+이 데이터 세트를 사용하면 외부 도구에서 보고 시각화를 위해 Journey Optimizer 데이터 세트를 내보낼 때 보고 통찰력을 향상시킬 수 있는 마케터 정의 메타데이터에 액세스할 수 있습니다. 이 작업은 메시지 피드백 데이터 세트 및 경험 이벤트 추적 데이터 세트 와 같은 다양한 데이터 세트를 연결하여 프로필 수준에서 추적으로 메시지 게재의 세부 사항을 가져오는 messageID 속성을 사용하여 수행됩니다.
 
 **중요 정보**
 
 * 메시지 항목은 여정 또는 캠페인이 게시된 후에만 만들어집니다.
 
-* 캠페인/여정 게시 후 30분 후에 항목이 표시될 수 있습니다.
+* 캠페인/여정이 게시되면 30분 후에 항목이 표시될 수 있습니다.
 
 >[!NOTE]
 >
 >당분간은 향후 호환성을 위해 엔티티 데이터 세트에 있는 각 메시지 게시에 대해 두 개의 항목이 있습니다. 그러나 필요한 경우 데이터 세트 간에 조인 쿼리를 사용하여 원하는 정보를 가져오는 기능에는 영향을 주지 않습니다.
 
-보고서에서 보낸 이메일을 전송한 작업에 따라 특정 여정이 보낸 전자 메일을 정렬하려면 메시지 피드백 데이터 세트에 엔티티 데이터 세트에 가입할 수 있습니다. 사용할 필드는 다음과 같습니다. `_experience.decisioning.propositions.scopeDetails.correlationID` 및 `_id field in entity dataset`.
+보고서에서 보낸 이메일을 전송한 작업에 따라 특정 여정에 의해 전송된 이메일을 정렬하려는 경우 메시지 피드백 데이터 세트에 엔티티 데이터 세트에 가입할 수 있습니다. 사용할 필드는 다음과 같습니다. `_experience.decisioning.propositions.scopeDetails.correlationID` 및 `_id field in entity dataset`.
 
 다음 쿼리는 주어진 캠페인에 대해 연결된 메시지 템플릿을 가져오는 데 도움이 됩니다.
 
@@ -338,7 +338,7 @@ from
     WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
 ```
 
-다음 쿼리는 모든 피드백 이벤트와 연관된 여정 세부 사항 및 이메일 제목을 가져오는 데 도움이 됩니다.
+다음 쿼리는 모든 피드백 이벤트와 연결된 여정 세부 사항 및 이메일 제목을 가져오는 데 도움이 됩니다.
 
 ```sql
 SELECT 
@@ -355,7 +355,7 @@ WHERE
   AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```
 
-여정 단계 이벤트, 메시지 피드백 및 추적 데이터 세트를 결합하여 특정 프로필에 대한 통계를 가져올 수 있습니다.
+여정 단계 이벤트, 메시지 피드백 및 추적 데이터 세트를 결합하여 특정 프로필에 대한 상태를 가져올 수 있습니다.
 
 ```sql
 SELECT 

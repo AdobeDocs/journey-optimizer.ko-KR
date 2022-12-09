@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 1%
+source-wordcount: '807'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >이 기능은 [!DNL Decisioning] API. 추가 정보 [Decisioning API를 사용하여 오퍼 게재](../api-reference/offer-delivery-api/decisioning-api.md).
 
-이 기능에 액세스하려면 **[!UICONTROL 시뮬레이션]** 탭에서 **[!UICONTROL 의사 결정 관리]** > **[!UICONTROL 오퍼]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+이 기능에 액세스하려면 **[!UICONTROL Simulation]** 탭에서 **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](../assets/offers_simulation-tab.png)
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 >
 >사용자에게 전달될 오퍼를 시뮬레이션하려면 사용 가능한 테스트 프로필이 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../../segment/creating-test-profiles.md).
 
-1. 클릭 **[!UICONTROL 프로필 관리]**.
+1. 클릭 **[!UICONTROL Manage profile]**.
 
    ![](../assets/offers_simulation-manage-profile.png)
 
@@ -63,7 +63,7 @@ ht-degree: 1%
    >
    >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보십시오 [이 섹션](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
 
-1. ID 값을 입력하고 를 클릭합니다. **[!UICONTROL 보기]** 사용 가능한 프로필을 나열하려면 다음을 수행하십시오.
+1. ID 값을 입력하고 를 클릭합니다. **[!UICONTROL View]** 사용 가능한 프로필을 나열하려면 다음을 수행하십시오.
 
    ![](../assets/offers_simulation-add-profile.png)
 
@@ -71,15 +71,15 @@ ht-degree: 1%
 
    ![](../assets/offers_simulation-save-profiles.png)
 
-1. 추가한 모든 프로필은 아래의 드롭다운 목록에 나열됩니다 **[!UICONTROL 테스트 프로필]**. 저장된 테스트 프로필 간을 전환하여 선택한 각 프로필에 대한 결과를 표시할 수 있습니다.
+1. 추가한 모든 프로필은 아래의 드롭다운 목록에 나열됩니다 **[!UICONTROL Test profile]**. 저장된 테스트 프로필 간을 전환하여 선택한 각 프로필에 대한 결과를 표시할 수 있습니다.
 
    ![](../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
-   >선택한 프로필은 **[!UICONTROL 시뮬레이션]** 탭에서 를 사용하여 제거할 때까지 세션에서 세션으로 이동합니다. **[!UICONTROL 프로필 관리]**.
+   >선택한 프로필은 **[!UICONTROL Simulation]** 탭에서 를 사용하여 제거할 때까지 세션에서 세션으로 이동합니다. **[!UICONTROL Manage profile]**.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 프로필 세부 사항]** 링크를 클릭하여 선택한 프로필 데이터를 표시합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Profile details]** 링크를 클릭하여 선택한 프로필 데이터를 표시합니다.
 
 <!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 이제 테스트 프로필에서 시뮬레이션할 오퍼 결정을 선택합니다.
 
-1. 선택 **[!UICONTROL 결정 범위 추가]**.
+1. 선택 **[!UICONTROL Add decision scope]**.
 
    ![](../assets/offers_simulation-add-decision.png)
 
@@ -98,9 +98,9 @@ ht-degree: 1%
 1. 사용 가능한 결정이 표시됩니다.
 
    * 검색 필드를 사용하여 선택 사항을 구체화할 수 있습니다.
-   * 을(를) 클릭합니다. **[!UICONTROL 오퍼 결정 열기]** 링크를 클릭하여 작성한 모든 결정 목록을 엽니다. 추가 정보 [결정](create-offer-activities.md).
+   * 을(를) 클릭합니다. **[!UICONTROL Open offer decisions]** 링크를 클릭하여 작성한 모든 결정 목록을 엽니다. 추가 정보 [결정](create-offer-activities.md).
 
-   원하는 결정을 선택하고 을(를) 클릭합니다 **[!UICONTROL 추가]**.
+   원하는 결정을 선택하고 을(를) 클릭합니다 **[!UICONTROL Add]**.
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 
@@ -126,11 +126,11 @@ ht-degree: 1%
 
 시뮬레이션에 대한 기본 설정을 편집하려면 아래 단계를 따르십시오.
 
-1. 클릭 **[!UICONTROL 설정]**.
+1. 클릭 **[!UICONTROL Settings]**.
 
    ![](../assets/offers_simulation-settings.png)
 
-1. 에서 **[!UICONTROL 중복 제거]** 섹션에서 결정 및/또는 배치 간에 중복 오퍼를 허용하도록 선택할 수 있습니다. 즉, 여러 결정/배치에서 동일한 오퍼를 할당할 수 있습니다.
+1. 에서 **[!UICONTROL Deduplication]** 섹션에서 결정 및/또는 배치 간에 중복 오퍼를 허용하도록 선택할 수 있습니다. 즉, 여러 결정/배치에서 동일한 오퍼를 할당할 수 있습니다.
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
@@ -138,7 +138,7 @@ ht-degree: 1%
    >
    >기본적으로 모든 중복 제거 플래그가 시뮬레이션에 사용됩니다. 이는 의사 결정 엔진이 중복을 허용하므로 여러 의사 결정/배치 간에 동일한 제안을 만들 수 있음을 의미합니다. 추가 정보 [!DNL Decisioning] 의 API 요청 속성 [이 섹션](../api-reference/offer-delivery-api/decisioning-api.md).
 
-1. 에서 **[!UICONTROL 응답 형식]** 섹션에서 코드 보기에 메타데이터를 포함하도록 선택할 수 있습니다. 해당 옵션을 선택하고 선택한 메타데이터를 선택합니다. 선택 시 요청 및 응답 페이로드에 표시됩니다 **[!UICONTROL 코드 보기]**. 자세한 내용은 [시뮬레이션 결과 보기](#simulation-results) 섹션을 참조하십시오.
+1. 에서 **[!UICONTROL Response format]** 섹션에서 코드 보기에 메타데이터를 포함하도록 선택할 수 있습니다. 해당 옵션을 선택하고 선택한 메타데이터를 선택합니다. 선택 시 요청 및 응답 페이로드에 표시됩니다 **[!UICONTROL View code]**. 자세한 내용은 [시뮬레이션 결과 보기](#simulation-results) 섹션을 참조하십시오.
 
    ![](../assets/offers_simulation-settings-response-format.png)
 
@@ -146,11 +146,11 @@ ht-degree: 1%
    >
    >옵션을 켜면 기본적으로 모든 항목이 선택됩니다.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->현재 시뮬레이션 데이터의 경우 **[!UICONTROL 허브]** API.
+>현재 시뮬레이션 데이터의 경우 **[!UICONTROL Hub]** API.
 
 <!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
@@ -170,7 +170,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 결정 범위를 추가하고 테스트 프로필을 선택하면 결과를 볼 수 있습니다.
 
-1. 클릭 **[!UICONTROL 결과 보기]**.
+1. 클릭 **[!UICONTROL View results]**.
 
    ![](../assets/offers_simulation-view-results.png)
 
@@ -180,7 +180,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-offer-details.png)
 
-1. 클릭 **[!UICONTROL 코드 보기]** 요청 및 응답 페이로드를 표시합니다. [자세히 보기](#view-code)
+1. 클릭 **[!UICONTROL View code]** 요청 및 응답 페이로드를 표시합니다. [추가 정보](#view-code)
 
 1. 목록에서 다른 프로필을 선택하여 다른 테스트 프로필에 대한 오퍼 결정 결과를 표시합니다.
 
@@ -188,23 +188,23 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 >[!NOTE]
 >
->프로필을 변경하거나 결정 범위를 업데이트할 때마다 **[!UICONTROL 결과 보기]** 버튼을 클릭합니다.
+>프로필을 변경하거나 결정 범위를 업데이트할 때마다 **[!UICONTROL View results]** 버튼을 클릭합니다.
 
 ## 코드 보기 {#view-code}
 
-1. 를 사용하십시오 **[!UICONTROL 코드 보기]** 버튼을 클릭하여 요청 및 응답 페이로드를 표시합니다.
+1. 를 사용하십시오 **[!UICONTROL View code]** 버튼을 클릭하여 요청 및 응답 페이로드를 표시합니다.
 
    ![](../assets/offers_simulation-view-code.png)
 
-   코드 보기에는 현재 사용자에 대한 개발자 정보가 표시됩니다. 기본적으로 **[!UICONTROL 응답 페이로드]** 이 표시됩니다.
+   코드 보기에는 현재 사용자에 대한 개발자 정보가 표시됩니다. 기본적으로 **[!UICONTROL Response payload]** 이 표시됩니다.
 
    ![](../assets/offers_simulation-request-payload.png)
 
-1. 클릭 **[!UICONTROL 응답 페이로드]** 또는 **[!UICONTROL 요청 페이로드]** 두 탭 간을 탐색하려면
+1. 클릭 **[!UICONTROL Response payload]** 또는 **[!UICONTROL Request payload]** 두 탭 간을 탐색하려면
 
    ![](../assets/offers_simulation-response-payload.png)
 
-1. 요청 페이로드를 [!DNL Journey Optimizer] - 예를 들어 문제 해결 목적으로 다음을 사용하여 복사합니다. **[!UICONTROL 클립보드에 복사]** 코드 보기의 맨 위에 있는 단추입니다.
+1. 요청 페이로드를 [!DNL Journey Optimizer] - 예를 들어 문제 해결 목적으로 다음을 사용하여 복사합니다. **[!UICONTROL Copy to clipboard]** 코드 보기의 맨 위에 있는 단추입니다.
 
    ![](../assets/offers_simulation-copy-payload.png)
 

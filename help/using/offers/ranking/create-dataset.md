@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 16%
+source-wordcount: '221'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 16%
 
 AI 모델을 만들기 전에 전환 이벤트를 수집할 데이터 세트를 만들어야 합니다. 먼저 데이터 세트에 사용할 스키마를 만듭니다.
 
-1. 에서 **[!UICONTROL 데이터 관리]** 메뉴, 선택 **[!UICONTROL 스키마]**&#x200B;로 이동합니다. **[!UICONTROL 찾아보기]** 탭을 클릭하고 **[!UICONTROL 스키마 만들기]**.
+1. 에서 **[!UICONTROL Data Management]** 메뉴, 선택 **[!UICONTROL Schema]**&#x200B;로 이동합니다. **[!UICONTROL Browse]** 탭을 클릭하고 **[!UICONTROL Create schema]**.
 
    ![](../assets/ai-ranking-create-schema.png)
 
@@ -28,21 +28,21 @@ AI 모델을 만들기 전에 전환 이벤트를 수집할 데이터 세트를 
 
    >[!NOTE]
    >
-   >[XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target=&quot;_blank&quot;}에서 XDM 스키마 및 필드 그룹에 대한 자세한 내용을 알아보세요.
+   >XDM 스키마 및 필드 그룹의 [XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en){target=&quot;_blank&quot;}.
 
-1. 에서 **[!UICONTROL 필드 그룹]** 왼쪽의 섹션에서 을 선택합니다. **[!UICONTROL 추가]**.
+1. 에서 **[!UICONTROL Field groups]** 왼쪽의 섹션에서 을 선택합니다. **[!UICONTROL Add]**.
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. 에서 **[!UICONTROL 검색]** 필드를 입력하고 &quot;제안 상호 작용&quot;을 입력하고 을 선택합니다 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹.
+1. 에서 **[!UICONTROL Search]** 필드를 입력하고 &quot;제안 상호 작용&quot;을 입력하고 을 선택합니다 **[!UICONTROL Experience Event - Proposition Interactions]** 필드 그룹.
 
    ![](../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
-   >데이터 집합에 사용할 스키마에는 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 연결된 필드 그룹입니다. 그렇지 않으면 순위 전략에서 사용할 수 없습니다.
+   >데이터 집합에 사용할 스키마에는 **[!UICONTROL Experience Event - Proposition Interactions]** 연결된 필드 그룹입니다. 그렇지 않으면 순위 전략에서 사용할 수 없습니다.
 
-1. 클릭 **[!UICONTROL 필드 그룹 추가]**.
+1. 클릭 **[!UICONTROL Add field groups]**.
 
    ![](../assets/ai-ranking-add-field-group.png)
 
@@ -55,13 +55,13 @@ AI 모델을 만들기 전에 전환 이벤트를 수집할 데이터 세트를 
 >
 >스키마 빌드에 대한 자세한 내용 [스키마 작성 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target=&quot;_blank&quot;}.
 
-이제 이 스키마를 사용하여 데이터 세트를 만들 준비가 되었습니다. 이렇게 하려면 아래 단계를 수행합니다:
+이제 이 스키마를 사용하여 데이터 세트를 만들 준비가 되었습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
-1. 에서 **[!UICONTROL 데이터 관리]** 메뉴, 선택 **[!UICONTROL 데이터 세트]**&#x200B;로 이동합니다. **[!UICONTROL 찾아보기]** 탭을 클릭하고 **[!UICONTROL 데이터 집합 만들기]**.
+1. 에서 **[!UICONTROL Data Management]** 메뉴, 선택 **[!UICONTROL Datasets]**&#x200B;로 이동합니다. **[!UICONTROL Browse]** 탭을 클릭하고 **[!UICONTROL Create dataset]**.
 
    ![](../assets/ai-ranking-create-dataset.png)
 
-1. 선택 **[!UICONTROL 스키마에서 데이터 집합 만들기]**.
+1. 선택 **[!UICONTROL Create dataset from schema]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
@@ -69,9 +69,9 @@ AI 모델을 만들기 전에 전환 이벤트를 수집할 데이터 세트를 
 
    ![](../assets/ai-ranking-dataset-select-schema.png)
 
-1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Next]**.
 
-1. 에서 데이터 세트에 대한 고유한 이름을 제공합니다 **[!UICONTROL 이름]** 필드를 입력하고 **[!UICONTROL 완료]**.
+1. 에서 데이터 세트에 대한 고유한 이름을 제공합니다 **[!UICONTROL Name]** 필드를 입력하고 **[!UICONTROL Finish]**.
 
    ![](../assets/ai-ranking-dataset-name.png)
 

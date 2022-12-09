@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 7%
+source-wordcount: '287'
+ht-degree: 0%
 
 ---
 
@@ -20,30 +20,30 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->AI 모델을 만들거나, 편집하거나, 삭제하려면 **등급 전략 관리** 권한. [자세히 보기](../../administration/high-low-permissions.md#manage-ranking-strategies)
+>AI 모델을 만들거나, 편집하거나, 삭제하려면 **등급 전략 관리** 권한. [추가 정보](../../administration/high-low-permissions.md#manage-ranking-strategies)
 
 ## AI 모델 만들기 {#create-ranking-strategy}
 
 AI 모델을 만들려면 아래 단계를 수행하십시오.
 
-1. 에서 **[!UICONTROL 구성 요소]** 메뉴에서 **[!UICONTROL 등급]** 탭을 선택하고 **[!UICONTROL AI 모델]**.
+1. 에서 **[!UICONTROL Components]** 메뉴에서 **[!UICONTROL Ranking]** 탭을 선택하고 **[!UICONTROL AI models]**.
 
    ![](../assets/ai-ranking-list.png)
 
    지금까지 만든 모든 AI 모델이 나열됩니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL AI 모델 만들기]** 버튼을 클릭합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Create AI model]** 버튼을 클릭합니다.
 
 1. AI 모델의 고유 이름과 설명을 지정한 다음 생성할 AI 모델의 유형을 선택합니다.
 
-   * **[!UICONTROL 자동 최적화]** 은 이전 오퍼 성능을 기반으로 오퍼를 최적화합니다. [자세히 보기](auto-optimization-model.md)
-   * **[!UICONTROL 개인화]** 세그먼트 및 오퍼 성능을 기반으로 오퍼를 최적화하고 개인화합니다. [자세히 보기](personalized-optimization-model.md)
+   * **[!UICONTROL Auto-optimization]** 은 이전 오퍼 성능을 기반으로 오퍼를 최적화합니다. [추가 정보](auto-optimization-model.md)
+   * **[!UICONTROL Personalized]** 세그먼트 및 오퍼 성능을 기반으로 오퍼를 최적화하고 개인화합니다. [추가 정보](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
    >[!NOTE]
    >
-   >다음 **[!UICONTROL 최적화 지표]** 섹션에서 AI 모델에서 오퍼의 등급을 계산하는 데 사용되는 전환 이벤트에 대한 정보를 제공합니다.
+   >다음 **[!UICONTROL Optimization metric]** 섹션에서 AI 모델에서 오퍼의 등급을 계산하는 데 사용되는 전환 이벤트에 대한 정보를 제공합니다.
    >
    >[!DNL Journey Optimizer] 오퍼를 기반으로 등급 지정 **전환율** (전환율 = 총 전환 이벤트 수 / 총 노출 이벤트 수). 전환율은 다음 두 가지 유형의 지표를 사용하여 계산됩니다.
    >* **노출 이벤트** (표시되는 오퍼)
@@ -58,9 +58,9 @@ AI 모델을 만들려면 아래 단계를 수행하십시오.
 
    >[!CAUTION]
    >
-   >스키마에서 생성된 데이터 세트만 과 연결됩니다 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹(이전에 mixin이라고 함)이 드롭다운 목록에 표시됩니다.
+   >스키마에서 생성된 데이터 세트만 과 연결됩니다 **[!UICONTROL Experience Event - Proposition Interactions]** 필드 그룹(이전에 mixin이라고 함)이 드롭다운 목록에 표시됩니다.
 
-1. 다음을 만드는 경우 **[!UICONTROL 개인화]** AI 모델에서 AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
+1. 다음을 만드는 경우 **[!UICONTROL Personalization]** AI 모델에서 AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
 
    ![](../assets/ai-ranking-segments.png)
 

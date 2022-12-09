@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 5%
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
 # 의사 결정 규칙 삭제 {#delete-decision-rule}
 
-의사 결정 규칙을 제거(DELETE)해야 하는 경우가 있습니다. 테넌트 컨테이너에서 만든 의사 결정 규칙만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 의사 결정 규칙의 인스턴스 ID를 사용하는 API입니다.
+의사 결정 규칙을 삭제(삭제)해야 하는 경우가 있습니다. 테넌트 컨테이너에서 만든 의사 결정 규칙만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 의사 결정 규칙의 인스턴스 ID를 사용하는 API입니다.
 
 **API 형식**
 

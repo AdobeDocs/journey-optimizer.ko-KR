@@ -8,8 +8,8 @@ level: Experienced
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 12%
+source-wordcount: '76'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ datetime을 반환합니다.
 
 시간대를 고려하지 않고 datetime을 반환합니다.
 
-## 예시
+## 예
 
 `setDays(toDateTime('2010-12-12T01:11:00Z'), 25)`
 

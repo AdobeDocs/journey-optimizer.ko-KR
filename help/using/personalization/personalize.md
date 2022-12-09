@@ -10,8 +10,8 @@ level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 28%
+source-wordcount: '319'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +24,18 @@ ht-degree: 28%
 
 ## 전용 구문을 사용하여 개인화 표현식 작성 {#syntax}
 
-[!DNL Journey Optimizer] 사용 **인라인** 중괄호로 둘러싸인 컨텐츠로 표현식을 만들 수 있는 Handlebars를 기반으로 한 단순 개인화 구문 **{{}}**. 동일한 콘텐츠 또는 필드에 제한 없이 여러 식을 추가할 수 있습니다. 추가 정보 [개인화 구문](personalization-syntax.md).
+[!DNL Journey Optimizer] 사용 **인라인** 중괄호로 둘러싸인 컨텐츠로 표현식을 만들 수 있는 Handlebars를 기반으로 한 단순 개인화 구문 **{{}}**. 제한 없이 동일한 컨텐츠 또는 필드에 여러 표현식을 추가할 수 있습니다. 추가 정보 [개인화 구문](personalization-syntax.md).
 
 **예:**
 
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-메시지(전자 메일 및 푸시)를 처리할 때 Journey Optimizer은 표현식을 Experience Platform 데이터베이스에 포함된 데이터로 대체합니다.  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` 은 &quot;Hello John Doe&quot;가 됩니다.
+메시지(전자 메일 및 푸시)를 처리할 때 Journey Optimizer가 표현식을 Experience Platform 데이터베이스에 포함된 데이터로 대체합니다.  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` 은 &quot;Hello John Doe&quot;가 됩니다.
 
 ## 프로필 데이터를 활용하여 메시지 개인화 {#data}
 
-개인화는 Adobe Experience Platform에 정의된 **XDM 개인 프로필** 스키마에서 관리하는 프로필 데이터를 기반으로 합니다. 추가 정보 [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target=&quot;_blank&quot;}.
+개인화는 **XDM 개별 프로필** adobe Experience Platform에 정의된 스키마. 추가 정보 [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >다음 **XDM 개별 프로필** 스키마는에서 컨텐츠를 개인화하는 데 사용할 수 있는 유일한 스키마입니다 [!DNL Journey Optimizer].
@@ -54,10 +54,10 @@ ht-degree: 28%
 
 ## 방법 비디오{#video-perso}
 
-여정에서 얻은 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
+여정에서 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 살펴볼 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-메시지에 프로필 기반 개인화를 추가하는 방법과 세그먼트 멤버십을 개인화 블록의 사전 조건으로 사용하는 방법을 알아봅니다.
+메시지에 프로필 기반 개인화를 추가하는 방법 및 세그먼트 멤버십을 개인화 블록에 사전 조건으로 사용하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

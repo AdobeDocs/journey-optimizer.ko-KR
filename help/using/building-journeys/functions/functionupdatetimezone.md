@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 1bf4662e-55d0-4631-af93-1430ec7ed7e2
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 11%
+source-wordcount: '58'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 datetime을 반환합니다.
 
-## 예시
+## 예
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 

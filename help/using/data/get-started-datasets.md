@@ -8,14 +8,14 @@ level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 7%
+source-wordcount: '776'
+ht-degree: 0%
 
 ---
 
 # 데이터 세트 시작 {#datasets-gs}
 
-Adobe Experience Platform에 수집된 모든 데이터는 데이터 세트로 데이터 레이크 내에서 유지됩니다. 데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다. 
+Adobe Experience Platform으로 수집되는 모든 데이터는 데이터 세트로 데이터 레이크 내에서 유지됩니다. 데이터 집합은 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구성입니다.
 
 ## 데이터 세트 액세스{#access-datasets}
 
@@ -39,11 +39,11 @@ Adobe Experience Platform에 수집된 모든 데이터는 데이터 세트로 �
 
 **보고**
 
-* _보고 - 메시지 피드백 이벤트 데이터 세트_: 메시지 게재 로그. 보고 및 세그먼트 생성을 위한 Journey Optimizer의 모든 메시지 게재에 대한 정보입니다. 바운스에 대한 이메일 ISP의 피드백도 이 데이터 세트에 기록됩니다.
+* _보고 - 메시지 피드백 이벤트 데이터 세트_: 메시지 게재 로그. 보고 및 세그먼트 생성을 위한 Journey Optimizer에서 모든 메시지 전달에 대한 정보입니다. 바운스에 대한 이메일 ISP의 피드백도 이 데이터 세트에 기록됩니다.
 * _보고 - 이메일 추적 경험 이벤트 데이터 세트_: 보고 및 세그먼트 만들기에 사용되는 이메일 채널에 대한 상호 작용 로그입니다. 저장된 정보는 전자 메일(열기, 클릭 등)에서 최종 사용자가 수행한 작업에 대해 알려줍니다.
 * _보고 - 푸시 추적 경험 이벤트 데이터 세트_: 보고 및 세그먼트 생성 용도로 사용되는 푸시 채널에 대한 상호 작용 로그입니다. 저장된 정보는 최종 사용자가 푸시 알림에 대해 수행하는 작업에 대해 알려줍니다.
-* _보고 - 여정 단계 이벤트_: Reporting과 같은 서비스에서 사용할 Journey Optimizer에서 생성된 모든 여정 단계 경험 이벤트를 캡처합니다. YoY 분석을 위한 Customer Journey Analytics에서 보고서를 작성하는 데에도 중요합니다. 여정 메타데이터에 연결되어 있습니다.
-* _보고 - 여정_: 여정에서 각 단계의 정보를 포함하는 메타데이터 데이터 집합입니다.
+* _보고 - 여정 단계 이벤트_: Journey Optimizer에서 생성된 모든 여정 단계 경험 이벤트를 캡처하여 Reporting과 같은 서비스에서 사용할 수 있습니다. Customer Journey Analytics for Yo Y 분석에서 보고서를 작성하는 데에도 중요합니다. 여정 메타데이터에 연결되어 있습니다.
+* _보고 - 여정_: 메타데이터 데이터 집합에 여정에서 각 단계의 정보가 포함됩니다.
 * _보고 - BCC_: 숨은 참조 이메일에 대한 게재 로그를 저장하는 피드백 이벤트 데이터 세트입니다. 보고 목적으로 사용됩니다.
 
 **동의**
@@ -52,7 +52,7 @@ Adobe Experience Platform에 수집된 모든 데이터는 데이터 세트로 �
 
 **Intelligent Services**
 
-* _전송 시간 최적화 점수/참여 점수_: 여정 AI의 출력 점수입니다.
+* _전송 시간 최적화 점수/참여 점수_: Journey AI의 출력 점수.
 
 ## 데이터 세트 미리 보기{#preview-datasets}
 
@@ -67,7 +67,7 @@ Adobe Experience Platform에 수집된 모든 데이터는 데이터 세트로 �
 다음을 수행할 수 있습니다.
 
 * 스키마에서 데이터 집합을 만듭니다. [자세한 내용은 이 문서에서 알아보십시오](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target=&quot;_blank&quot;}
-* CSV 파일에서 데이터 세트를 만듭니다. [자세한 내용은 이 문서에서 알아보십시오](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko-KR){target=&quot;_blank&quot;}
+* CSV 파일에서 데이터 세트를 만듭니다. [자세한 내용은 이 문서에서 알아보십시오](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target=&quot;_blank&quot;}
 
 이 비디오에서 데이터 세트를 만들고 스키마에 매핑하고 데이터를 추가하고 데이터가 수집되었는지 확인하는 방법을 알아봅니다.
 
@@ -79,7 +79,7 @@ Adobe Experience Platform에 수집된 모든 데이터는 데이터 세트로 �
 
 의 핵심 기능 중 하나 [!DNL Adobe Experience Platform] 는 여러 엔터프라이즈 시스템의 데이터를 함께 가져와서 마케터가 고객을 식별, 이해 및 참여시킬 수 있도록 하는 것입니다. 이 데이터는 조직 또는 법적 규정에 의해 정의된 사용 제한을 받을 수 있습니다. 따라서 데이터 작업이 데이터 사용 정책을 준수하도록 해야 합니다.
 
-[!DNL Adobe Experience Platform Data Governance] 고객 데이터를 관리하고 데이터 사용에 적용되는 규정, 제한 및 정책을 준수할 수 있습니다. 이 디자이너는 카탈로그 작성, 데이터 계보, 데이터 사용 레이블 지정, 데이터 사용 정책, 마케팅 작업을 위한 데이터 사용 제어 등 다양한 수준에서 Experience Platform 내에서 주요 역할을 합니다.
+[!DNL Adobe Experience Platform Data Governance] 고객 데이터를 관리하고 데이터 사용에 적용되는 규정, 제한 및 정책을 준수할 수 있습니다. Adobe Experience Platform은 카탈로그 작성, 데이터 계보, 데이터 사용 레이블 지정, 데이터 사용 정책 및 마케팅 작업에 대한 데이터 사용 제어 등 다양한 수준에서 주요 역할을 합니다.
 
 의 데이터 거버넌스 및 데이터 사용 레이블에 대해 자세히 알아보십시오 [데이터 거버넌스 설명서](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target=&quot;_blank&quot;}
 
@@ -87,13 +87,13 @@ Adobe Experience Platform에 수집된 모든 데이터는 데이터 세트로 �
 
 에서 Adobe Journey Optimizer에서 스키마, 데이터 세트 및 데이터를 수집하여 테스트 프로필을 추가하는 방법을 알아봅니다 [이 종단 간 샘플](../segment/creating-test-profiles.md)
 
-에서 데이터 집합 만들기에 대해 자세히 알아보십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko){target=&quot;_blank&quot;}.
+에서 데이터 집합 만들기에 대해 자세히 알아보십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
 
-에서 데이터 세트 UI를 사용하는 방법을 알아봅니다 [데이터 수집 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target=&quot;_blank&quot;}.
+에서 데이터 세트 UI를 사용하는 방법을 알아봅니다 [데이터 수집 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target=&quot;_blank&quot;}.
 
 쿼리 예가 포함된 사용 사례 목록을 사용할 수 있습니다 [여기](../data/datasets-query-examples.md).
 
 **참조 -**
 
-* [스트리밍 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko){target=&quot;_blank&quot;}
+* [스트리밍 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}
 * [Adobe Experience Platform에 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}

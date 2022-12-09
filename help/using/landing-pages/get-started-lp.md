@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 9%
+source-wordcount: '203'
+ht-degree: 0%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 9%
 
 * 활용 [!DNL Journey Optimizer] 손쉽게 구축할 수 있는 컨텐츠 디자인 기능 **응답형 랜딩 페이지**.
 * 설정 **옵트인 및 옵트아웃 흐름** 빠르고 원활하게 수행할 수 있습니다.
-* 사용자가 다음을 수행할 수 있도록 가입 목록을 만듭니다. **서비스 구독**. [자세히 보기](lp-use-cases.md#subscription-to-a-service)
-* 수신자에게 을 제공합니다 **구독 취소 기능** 당신의 통신을 수신함. [자세히 보기](lp-use-cases.md#opt-out)
-* 보내기 **확인 이메일** 옵트인 또는 옵트아웃 시. [자세히 보기](lp-use-cases.md#send-confirmation-email)
+* 사용자가 다음을 수행할 수 있도록 가입 목록을 만듭니다. **서비스 구독**. [자세한 내용](lp-use-cases.md#subscription-to-a-service)
+* 수신자에게 을 제공합니다 **구독 취소 기능** 당신의 통신을 수신함. [자세한 내용](lp-use-cases.md#opt-out)
+* 보내기 **확인 이메일** 옵트인 또는 옵트아웃 시. [자세한 내용](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

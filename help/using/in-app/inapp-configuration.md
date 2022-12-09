@@ -1,14 +1,15 @@
 ---
 title: 인앱 구성
-description: Journey Optimizer을 사용하여 인앱 메시지를 전송하도록 환경을 구성하는 방법을 알아봅니다
+description: Journey Optimizer를 사용하여 인앱 메시지를 보내도록 환경을 구성하는 방법을 알아봅니다
 role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 6%
+source-wordcount: '220'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 6%
 
 인앱 메시지를 보내기 전에 인앱 채널을에서 구성해야 합니다 [!DNL Adobe Experience Platform Data Collection].
 
-1. 사용 [!DNL Adobe Experience Platform Data Collection] 계정, 액세스 권한 **[!UICONTROL 데이터 스트림]** 메뉴를 클릭하고 **[!UICONTROL 새 데이터 스트림]**. 데이터 스트림 만들기에 대한 자세한 내용은 [이 페이지](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+1. 사용 [!DNL Adobe Experience Platform Data Collection] 계정, 액세스 권한 **[!UICONTROL Datastream]** 메뉴를 클릭하고 **[!UICONTROL New datastream]**. 데이터 스트림 만들기에 대한 자세한 내용은 [이 페이지](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
 
 1. 을(를) 선택합니다 [!DNL Adobe Experience Platform] 서비스.
 
@@ -24,23 +25,23 @@ ht-degree: 6%
 
    ![](assets/inapp_config_6.png)
 
-1. 그런 다음 **[!UICONTROL 앱 서피스]** 메뉴를 클릭한 다음 **[!UICONTROL 앱 서피스 만들기]**.
+1. 그런 다음 **[!UICONTROL App surfaces]** 메뉴를 클릭한 다음 **[!UICONTROL Create App surface]**.
 
    ![](assets/inapp_config_1.png)
 
-1. 에 이름 추가 **[!UICONTROL 앱 표면]**.
+1. 에 이름 추가 **[!UICONTROL App surface]**.
 
-1. Apple iOS 드롭다운에서 **iOS 번들 ID**. 을(를) 참조하십시오. [Apple 설명서](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 추가 정보 **번들 ID**.
+1. Apple iOS 드롭다운에서 다음을 입력합니다. **iOS 번들 ID**. 을(를) 참조하십시오. [Apple 설명서](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 추가 정보 **번들 ID**.
 
    ![](assets/inapp_config_2.png)
 
 1. Android 드롭다운에서 을(를) 입력합니다. **Android 패키지 이름**. 을(를) 참조하십시오. [Android 설명서](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 추가 정보 **패키지 이름**.
 
-1. 클릭 **[!UICONTROL 저장]** 구성을 마치면 **[!UICONTROL 앱 표면]**.
+1. 클릭 **[!UICONTROL Save]** 구성을 마치면 **[!UICONTROL App surface]**.
 
    ![](assets/inapp_config_3.png)
 
-   사용자 **[!UICONTROL 앱 표면]** 이제 인앱 메시지로 새 캠페인을 만들 때 사용할 수 있습니다. [자세히 보기](create-in-app.md)
+   사용자 **[!UICONTROL App surface]** 이제 인앱 메시지로 새 캠페인을 만들 때 사용할 수 있습니다. [추가 정보](create-in-app.md)
 
 1. 앱 서피스를 만든 후 이제 모바일 속성을 만들어야 합니다.
 

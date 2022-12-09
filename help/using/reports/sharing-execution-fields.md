@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 12%
+source-wordcount: '323'
+ht-degree: 0%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 12%
 
 실행 중인 작업의 ID입니다.
 
-유형: 문자열
+유형: string
 
 ## actionName {#actionname-field}
 
 작업의 이름입니다. 설정된 이름이 없으면 stepName이 사용됩니다.
 
-유형: 문자열
+유형: string
 
 ## actionType {#actionType-field}
 
 작업의 유형입니다.
 
-유형: 문자열
+유형: string
 
 ## actionParameterized {#actionparameterized-field}
 
@@ -55,19 +55,19 @@ ht-degree: 12%
 
 작업이 호출될 때 발생하는 오류 유형입니다.
 
-유형: 문자열
+유형: string
 
 값:
 * http
 * 최대 가용량
 * timeout
-* 라는 오류가 표시됩니다
+* 오류
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 작업 실행 오류에 대한 코드입니다. 오류에 HTTP 코드와 같은 코드가 있을 경우 표시됩니다.
 
-유형: 문자열
+유형: string
 
 ## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
@@ -89,13 +89,13 @@ ht-degree: 12%
     "actionExecOrigErrorCode": "500"
 ```
 
-유형: 문자열
+유형: string
 
 ## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 actionExecOrigError의 오류 코드입니다.
 
-유형: 문자열
+유형: string
 
 ## actionBusinessType {#actionbusinesstype-field}
 
@@ -111,19 +111,19 @@ actionExecOrigError의 오류 코드입니다.
 * Epsilon
 * ...
 
-유형: 문자열
+유형: string
 
 ## deliveryJobID {#deliveryjobid-field}
 
-이 섹션에서는 배치 여정에 대한 게재 작업 ID에 대해 설명합니다.
+이 섹션에서는 배치 여정의 게재 작업 ID에 대해 설명합니다.
 
-유형: 문자열
+유형: string
 
 ## batchDeliveryID {#batchdeliveryid-field}
 
-이 섹션에서는 배치 여정에 대한 게재 ID에 대해 설명합니다.
+이 섹션에서는 배치 여정의 게재 ID에 대해 설명합니다.
 
-유형: 문자열
+유형: string
 
 ## fromSegmentTrigger {#fromsegmenttrigger-field}
 

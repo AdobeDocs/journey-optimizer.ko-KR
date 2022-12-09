@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 2%
+source-wordcount: '1688'
+ht-degree: 0%
 
 ---
 
@@ -37,19 +37,19 @@ ht-degree: 2%
 
 제한 조건을 사용하면 오퍼가 표시될 조건을 정의할 수 있습니다.
 
-1. 구성 **[!UICONTROL 오퍼 자격]**. [자세히 보기](#eligibility)
+1. 구성 **[!UICONTROL Offer eligibility]**. [추가 정보](#eligibility)
 
    ![](../assets/offer-eligibility.png)
 
-1. 을(를) 정의합니다 **[!UICONTROL 우선순위]** 두 개 이상의 오퍼에 대해 사용자가 자격이 있는 경우 다른 오퍼와 비교한 것입니다. 오퍼의 우선 순위가 높을수록 오퍼의 우선 순위가 더 높습니다.
+1. 을(를) 정의합니다 **[!UICONTROL Priority]** 두 개 이상의 오퍼에 대해 사용자가 자격이 있는 경우 다른 오퍼와 비교한 것입니다. 오퍼의 우선 순위가 높을수록 오퍼의 우선 순위가 더 높습니다.
 
    ![](../assets/offer-priority.png)
 
-1. 오퍼를 지정합니다 **[!UICONTROL 최대 가용량]**: 오퍼가 표시되는 횟수를 의미합니다. [자세히 보기](#capping)
+1. 오퍼를 지정합니다 **[!UICONTROL Capping]**: 오퍼가 표시되는 횟수를 의미합니다. [추가 정보](#capping)
 
    ![](../assets/offer-capping.png)
 
-1. 클릭 **[!UICONTROL 다음]** 정의한 모든 구속을 확인하려면
+1. 클릭 **[!UICONTROL Next]** 정의한 모든 구속을 확인하려면
 
 예를 들어 다음 구속을 설정하는 경우
 
@@ -70,30 +70,30 @@ ht-degree: 2%
 >id="od_offer_eligibility"
 >title="오퍼 자격 기본 정보"
 >abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
->additional-url="https://video.tv.adobe.com/v/329373" text="데모 비디오 시청"
+>additional-url="https://video.tv.adobe.com/v/329373" text="데모 비디오 보기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="총 프로필 예상"
 >abstract="세그먼트나 결정 규칙을 선택하면 예상 자격을 갖춘 프로필에 대한 정보를 볼 수 있습니다."
 
-다음 **[!UICONTROL 오퍼 자격]** 섹션에서 세그먼트나 결정 규칙을 사용하여 정의하는 특정 프로필로 오퍼를 제한할 수 있습니다.
+다음 **[!UICONTROL Offer eligibility]** 섹션에서 세그먼트나 결정 규칙을 사용하여 정의하는 특정 프로필로 오퍼를 제한할 수 있습니다.
 
 >[!NOTE]
 >
 >사용에 대해 자세히 알아보기 **세그먼트** 비교 **의사 결정 규칙** in [이 섹션](#segments-vs-decision-rules).
 
-* 기본적으로 **[!UICONTROL 모든 방문자]** 옵션이 선택되어 있다면 모든 프로필이 오퍼를 제공할 수 있습니다.
+* 기본적으로 **[!UICONTROL All visitors]** 옵션이 선택되어 있다면 모든 프로필이 오퍼를 제공할 수 있습니다.
 
    ![](../assets/offer-eligibility-default.png)
 
 * 오퍼의 프레젠테이션을 하나 또는 여러 명의 구성원으로 제한할 수도 있습니다 [Adobe Experience Platform 세그먼트](../../segment/about-segments.md).
 
-   이렇게 하려면 를 활성화합니다 **[!UICONTROL 하나 이상의 세그먼트에 속하는 방문자]** 옵션을 선택한 다음 왼쪽 창에서 한 개 또는 여러 개의 세그먼트를 추가하고 을(를) 사용하여 결합합니다 **[!UICONTROL 및]** / **[!UICONTROL 또는]** 논리 연산자입니다.
+   이렇게 하려면 를 활성화합니다 **[!UICONTROL Visitors who fall into one or multiple segments]** 옵션을 선택한 다음 왼쪽 창에서 한 개 또는 여러 개의 세그먼트를 추가하고 을(를) 사용하여 결합합니다 **[!UICONTROL And]** / **[!UICONTROL Or]** 논리 연산자입니다.
 
    ![](../assets/offer-eligibility-segment.png)
 
-* 특정 [의사 결정 규칙](../offer-library/creating-decision-rules.md) 오퍼에 대해 **[!UICONTROL 정의된 의사 결정 규칙에 의해]**&#x200B;을 클릭한 다음 왼쪽 창에서 원하는 규칙을 **[!UICONTROL 의사 결정 규칙]** 영역.
+* 특정 [의사 결정 규칙](../offer-library/creating-decision-rules.md) 오퍼에 대해 **[!UICONTROL By defined decision rule]**&#x200B;을 클릭한 다음 왼쪽 창에서 원하는 규칙을 **[!UICONTROL Decision rule]** 영역.
 
    ![](../assets/offer_rule.png)
 
@@ -101,7 +101,7 @@ ht-degree: 2%
    >
    >이벤트 기반 오퍼는에서 현재 지원되지 않습니다 [!DNL Journey Optimizer]. 을 기반으로 의사 결정 규칙을 생성하는 경우 [이벤트](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;} 오퍼에서는 활용할 수 없습니다.
 
-세그먼트나 결정 규칙을 선택하면 예상 자격을 갖춘 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 를 눌러 데이터를 업데이트합니다.
+세그먼트나 결정 규칙을 선택하면 예상 자격을 갖춘 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL Refresh]** 를 눌러 데이터를 업데이트합니다.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -123,7 +123,7 @@ ht-degree: 2%
 
 * **의사 결정 규칙**
 
-   반면, 의사 결정 규칙은 Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 하며 오퍼를 표시할 수 있는 사용자를 결정합니다. 오퍼나 지정된 배치에 대한 결정에서 선택하면, 규칙이 결정될 때마다 실행되어 각 프로필은 최신 오퍼와 최상의 오퍼를 얻을 수 있습니다.
+   반면, 의사 결정 규칙은 Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 하며 오퍼를 표시할 수 있는 대상을 결정합니다. 오퍼나 지정된 배치에 대한 결정에서 선택하면, 규칙이 결정될 때마다 실행되어 각 프로필은 최신 오퍼와 최상의 오퍼를 얻을 수 있습니다.
 
    의 의사 결정 규칙에 대해 자세히 알아보십시오 [이 섹션](creating-decision-rules.md).
 
@@ -162,11 +162,11 @@ ht-degree: 2%
 
    ![](../assets/offer-capping-total.png)
 
-   * 선택 **[!UICONTROL 총]** 을(를) 통해 모든 사용자에게 의미하는 결합된 target 대상에서 오퍼를 몇 번 제안할 수 있는지 정의합니다.
+   * 선택 **[!UICONTROL In total]** 을(를) 통해 모든 사용자에게 의미하는 결합된 target 대상에서 오퍼를 몇 번 제안할 수 있는지 정의합니다.
 
       예를 들어 &#39;TV 초버스터 딜&#39;을 보유한 전자 소매업체인 경우 모든 프로필에서 오퍼를 200번만 반환해야 합니다.
 
-   * 선택 **[!UICONTROL 프로필당]** 동일한 사용자에게 오퍼를 몇 번 제안할 수 있는지 정의합니다.
+   * 선택 **[!UICONTROL Per profile]** 동일한 사용자에게 오퍼를 몇 번 제안할 수 있는지 정의합니다.
 
       예를 들어 &#39;Platinum Credit&#39; 오퍼가 있는 은행인 경우 이 오퍼가 프로필당 5번 이상 표시되는 것을 원치 않습니다. 실제로, 사용자는 사용자가 오퍼를 5번 보았고 오퍼에 대해 행동하지 않았다면 다음 최상의 오퍼에 대해 행동할 가능성이 더 높다고 믿고 있습니다.
    <!--
@@ -179,15 +179,15 @@ ht-degree: 2%
     For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
     -->
 
-1. 여러 항목을 정의한 경우 [표현](add-representations.md) 오퍼에 대해 최대 가용량 적용 여부를 지정합니다 **[!UICONTROL 모든 배치]** 또는 **[!UICONTROL 각 배치에 대해]**.
+1. 여러 항목을 정의한 경우 [표현](add-representations.md) 오퍼에 대해 최대 가용량 적용 여부를 지정합니다 **[!UICONTROL Across all placements]** 또는 **[!UICONTROL For each placement]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL 모든 배치]**: 최대 가용량 카운트는 오퍼와 연관된 배치의 모든 결정을 합합니다.
+   * **[!UICONTROL Across all placements]**: 최대 가용량 카운트는 오퍼와 연관된 배치의 모든 결정을 합합니다.
 
       예를 들어 오퍼에 가 **이메일** 배치 및 **웹** 배치, 캐핑 위치 설정 **모든 배치에서 프로필당 2개**&#x200B;그러면 각 프로필은 배치 혼합에 관계없이 총 2회까지 오퍼를 받을 수 있습니다.
 
-   * **[!UICONTROL 각 배치에 대해]**: 최대 가용량 카운트는 각 배치에 대해 결정 카운트를 개별적으로 적용합니다.
+   * **[!UICONTROL For each placement]**: 최대 가용량 카운트는 각 배치에 대해 결정 카운트를 개별적으로 적용합니다.
 
       예를 들어 오퍼에 가 **이메일** 배치 및 **웹** 배치, 캐핑 위치 설정 **각 배치마다 프로필당 2개**&#x200B;를 지정하는 경우 각 프로필은 이메일 배치에 대해 최대 2회, 웹 배치에 대해서는 2회까지 오퍼를 수신할 수 있습니다.
 
@@ -245,7 +245,7 @@ ht-degree: 2%
 1. 설정 **10년 1월**&#x200B;로 설정되면 오퍼의 종료 날짜가 **2월 15일**.
 1. **1월 11일부터 1월 31일까지**&#x200B;에는 프로필 Z만 오퍼가 표시됩니다.
 
-   * 원래 종료 날짜 이전에 의사 결정 요청이 발생했으므로 **프로필 Z용**&#x200B;로 설정하면 오퍼의 종료 날짜를 **2월 15일**.
+   * 원래 종료 날짜 이전에 의사 결정 요청이 발생했으므로 **프로필 Z용**&#x200B;를 지정하는 경우 오퍼의 종료 날짜를 **2월 15일**.
    * 하지만 원래 종료 날짜 이전에 활동이 발생하지 않았으므로 **프로필 X 및 Y**&#x200B;로 설정되면 카운터가 만료되고 최대 가용량 카운트가 0으로 재설정됩니다. **31년 1월**.
 
 ![](../assets/offer-capping-change-date-ex.png)

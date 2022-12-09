@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 15%
+source-wordcount: '281'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 15%
 
 ## 이메일 개인화 {#personalize-emails}
 
-이메일을 만들 때 **[!UICONTROL 제목 줄]** 메시지의 필드입니다.
+이메일을 만들 때 **[!UICONTROL Subject line]** 메시지의 필드입니다.
 
 ![](assets/perso_subject.png)
 
@@ -47,7 +47,7 @@ ht-degree: 15%
 
 또한 **푸시 알림** 다음 필드에서 다음을 수행합니다.
 
-* **Title**
+* **제목**
 * **본문**
 * **사용자 정의 사운드**
 * **배지**
@@ -65,7 +65,7 @@ ht-degree: 15%
 
 ## 개인화된 URL 만들기{#personalize-urls}
 
-개인화된 URL은 프로필 속성에 따라 수신자를 웹사이트의 특정 페이지 또는 개인화된 마이크로사이트로 이동합니다. Adobe Journey Optimizer에서 메시지 콘텐츠의 URL에 개인화를 추가할 수 있습니다. URL 개인화는 텍스트 및 이미지에 적용할 수 있으며, 프로필 데이터 또는 컨텍스트 데이터를 사용합니다.
+개인화된 URL은 프로필 속성에 따라 수신자를 웹 사이트의 특정 페이지 또는 개인화된 마이크로 사이트로 가져옵니다. Adobe Journey Optimizer에서 메시지 콘텐츠의 URL에 개인화를 추가할 수 있습니다. URL 개인화는 텍스트 및 이미지에 적용하고 프로필 데이터 또는 컨텍스트 데이터를 사용할 수 있습니다.
 
 에 개인화된 URL을 삽입하는 방법을 알아봅니다. [이 섹션](personalization-syntax.md#perso-urls).
 

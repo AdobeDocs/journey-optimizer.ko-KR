@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 3%
+source-wordcount: '163'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 3%
 * 캡처할 이벤트 유형, 즉 표시된 오퍼(노출) 및/또는 클릭한 오퍼(전환)를 정의합니다.
 * 및 이벤트 데이터를 수집할 데이터 세트에 포함되어 있습니다.
 
-이제 오퍼가 표시되고/또는 클릭할 때마다 해당 이벤트가 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹을 사용하여 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} 또는 Mobile SDK입니다.
+이제 오퍼가 표시되고/또는 클릭할 때마다 해당 이벤트가 **[!UICONTROL Experience Event - Proposition Interactions]** 필드 그룹을 사용하여 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} 또는 Mobile SDK입니다.
 
-이벤트 유형(표시된 오퍼 또는 클릭한 오퍼)을 보낼 수 있으려면 Adobe Experience Platform으로 전송되는 경험 이벤트의 각 이벤트 유형에 대해 올바른 값을 설정해야 합니다. 다음은 JavaScript 코드에 구현해야 하는 스키마 요구 사항입니다.
+이벤트 유형(표시된 오퍼 또는 클릭한 오퍼)을 보낼 수 있으려면 Adobe Experience Platform으로 전송되는 경험 이벤트의 각 이벤트 유형에 대한 올바른 값을 설정해야 합니다. 다음은 JavaScript 코드에 구현해야 하는 스키마 요구 사항입니다.
 
 ## 표시된 오퍼 시나리오
 

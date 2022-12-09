@@ -11,7 +11,7 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 1%
 
 기본값 5가 사용자의 요구 사항에 맞지 않는 경우 아래 단계에 따라 오류 임계값을 수정할 수 있습니다.
 
-1. 이동 **[!UICONTROL 채널]** > **[!UICONTROL 이메일 구성]** > **[!UICONTROL 제외 목록]**.
+1. 이동 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
 
-1. 을(를) 선택합니다 **[!UICONTROL 제외 규칙 편집]** 버튼을 클릭합니다.
+1. 을(를) 선택합니다 **[!UICONTROL Edit suppression rules]** 버튼을 클릭합니다.
 
    ![](assets/suppression-list-edit-retries.png)
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
    >[!CAUTION]
    >
-   >10보다 큰 값을 지정하면 ISP의 IP 조절 또는 차단 목록에 추가와 함께 전송 가능한 신뢰도 문제가 발생할 수 있습니다. [게재 능력에 대해 자세히 알아보기](../reports/deliverability.md)
+   >10보다 큰 값을 지정하면 ISP에 의한 IP 조절 또는 차단 목록뿐만 아니라 게재 가능성 신뢰도 문제가 발생할 수 있습니다. [게재 능력에 대해 자세히 알아보기](../reports/deliverability.md)
 
 ## 다시 시도 기간 {#retry-duration}
 

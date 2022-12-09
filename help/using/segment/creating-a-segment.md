@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 5%
+source-wordcount: '332'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 ➡️ [이 비디오에서 세그먼트를 만드는 방법을 알아봅니다](#video-segment)
 
-1. 액세스 권한 **[!UICONTROL 세그먼트]** 메뉴를 클릭한 다음 **[!UICONTROL 세그먼트 만들기]** 버튼을 클릭합니다.
+1. 액세스 권한 **[!UICONTROL Segments]** 메뉴를 클릭한 다음 **[!UICONTROL Create segment]** 버튼을 클릭합니다.
 
    ![](assets/create-segment.png)
 
@@ -34,7 +34,7 @@ ht-degree: 5%
 
    ![](assets/segment-builder.png)
 
-1. 에서 **[!UICONTROL 세그먼트 속성]** 창에서 세그먼트의 이름과 설명(선택 사항)을 제공합니다.
+1. 에서 **[!UICONTROL Segment properties]** 창에서 세그먼트의 이름과 설명(선택 사항)을 제공합니다.
 
    ![](assets/segment-properties.png)
 
@@ -42,7 +42,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >왼쪽 창에서 사용할 수 있는 필드는 **XDM 개별 프로필** 및 **XDM ExperienceEvent** 조직에 대해 스키마가 구성되었습니다.  자세한 내용은 [XDM(Experience Data Model) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
+   >왼쪽 창에서 사용할 수 있는 필드는 **XDM 개별 프로필** 및 **XDM ExperienceEvent** 조직에 대해 스키마가 구성되었습니다.  자세한 내용은 [XDM(Experience Data Model) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
    ![](assets/drag-fields.png)
 
@@ -56,13 +56,13 @@ ht-degree: 5%
 
       ![](assets/add-events.png)
 
-1. 작업 공간에서 새 필드를 추가 및 구성하는 동안 **[!UICONTROL 세그먼트 속성]** 창은 세그먼트에 속하는 예상 프로필에 대한 정보로 자동 업데이트됩니다.
+1. 작업 공간에서 새 필드를 추가 및 구성하는 동안 **[!UICONTROL Segment Properties]** 창은 세그먼트에 속하는 예상 프로필에 대한 정보로 자동 업데이트됩니다.
 
    ![](assets/segment-estimate.png)
 
-1. 세그먼트를 준비했으면 을 클릭합니다 **[!UICONTROL 저장]**. Adobe Experience Platform 세그먼트 목록에 표시됩니다. 검색 창에서는 목록에서 특정 세그먼트를 검색하는 데 도움이 됩니다.
+1. 세그먼트를 준비했으면 을 클릭합니다 **[!UICONTROL Save]**. Adobe Experience Platform 세그먼트 목록에 표시됩니다. 검색 창에서는 목록에서 특정 세그먼트를 검색하는 데 도움이 됩니다.
 
-이제 여정에서 세그먼트를 사용할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../segment/about-segments.md)을 참조하십시오.
+이제 여정에서 세그먼트를 사용할 수 있습니다. 자세한 내용은 [이 섹션](../segment/about-segments.md).
 
 ## 방법 비디오{#video-segment}
 

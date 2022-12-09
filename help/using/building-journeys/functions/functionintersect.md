@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: intersect
+title: 교차
 description: 함수 교차에 대해 알아보기
 feature: Journeys
 role: Data Engineer
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 12%
+source-wordcount: '81'
+ht-degree: 0%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 12%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| 목록 1 | 목록에 있는 참조 페이지를 나타냅니다 |
-| 목록 2 | 목록에 있는 참조 페이지를 나타냅니다 |
+| 목록 1 | list |
+| 목록 2 | list |
 
 ## 서명 및 반환된 형식
 
@@ -45,7 +45,7 @@ ht-degree: 12%
 
 목록을 반환합니다.
 
-## 예시
+## 예
 
 ```json
 intersect(

@@ -9,7 +9,7 @@ exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 오퍼의 하위 집합입니다.
 
-에 GET 요청을 작성하여 특정 컬렉션을 조회할 수 있습니다 [!DNL Offer Library] 컬렉션을 포함하는 API `@id` 또는 요청 경로에 있는 컬렉션의 이름입니다.
+에 GET 요청을 수행하여 특정 컬렉션을 조회할 수 있습니다 [!DNL Offer Library] 컬렉션을 포함하는 API `@id` 또는 요청 경로에 있는 컬렉션의 이름입니다.
 
 **API 형식**
 

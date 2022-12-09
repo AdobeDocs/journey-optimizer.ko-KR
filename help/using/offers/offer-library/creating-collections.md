@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 2%
+source-wordcount: '304'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-오퍼 컬렉션 목록은 **[!UICONTROL 오퍼]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+오퍼 컬렉션 목록은 **[!UICONTROL Offers]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](../assets/collections_list.png)
 
@@ -36,13 +36,13 @@ ht-degree: 2%
 
 컬렉션을 만들려면 다음 단계를 수행합니다.
 
-1. 로 이동합니다. **[!UICONTROL 컬렉션]** 탭을 클릭한 다음 **[!UICONTROL 컬렉션 만들기]**.
+1. 로 이동합니다. **[!UICONTROL Collections]** 탭을 클릭한 다음 **[!UICONTROL Create collection]**.
 
 1. 만들 컬렉션의 이름과 유형을 지정합니다.
 
    ![](../assets/collection_create.png)
 
-1. 동적 컬렉션을 만들려면 왼쪽 창에서 컬렉션에 추가할 오퍼의 태그를 선택한 다음 을 클릭합니다 **[!UICONTROL 저장]**. 선택한 태그가 있는 모든 오퍼가 컬렉션에 저장됩니다.
+1. 동적 컬렉션을 만들려면 왼쪽 창에서 컬렉션에 추가할 오퍼의 태그를 선택한 다음 을 클릭합니다 **[!UICONTROL Save]**. 선택한 태그가 있는 모든 오퍼가 컬렉션에 저장됩니다.
 
    태그 만들기에 대한 자세한 내용은 [태그 만들기](../offer-library/creating-tags.md).
 
@@ -56,7 +56,7 @@ ht-degree: 2%
    >
    >정적 컬렉션은 자동으로 업데이트되지 않습니다. 정적 컬렉션에 오퍼를 추가하려면 오퍼를 편집하고 수동으로 추가해야 합니다.
 
-1. 사용자 지정 또는 코어 데이터 사용 레이블을 정적 컬렉션에 할당하려면 을(를) 선택합니다 **[!UICONTROL 액세스 관리]**. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../../administration/object-based-access.md)
+1. 사용자 지정 또는 코어 데이터 사용 레이블을 정적 컬렉션에 할당하려면 을(를) 선택합니다 **[!UICONTROL Manage access]**. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../../administration/object-based-access.md)
 
 1. 컬렉션이 만들어지면 목록에 표시됩니다. 편집하거나 삭제할 수 있습니다.
 

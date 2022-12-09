@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 전달성 시작
+title: 게재 기능 시작
 description: 게재 가능성 지침 학습
 feature: Deliverability
 topic: Content Management
@@ -10,18 +10,18 @@ level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 2%
+source-wordcount: '691'
+ht-degree: 0%
 
 ---
 
-# 전달성 시작 {#manage-deliverability}
+# 게재 기능 시작 {#manage-deliverability}
 
 게재 기능은 수신자의 받은 편지함에 도달하는 게재의 성공을 측정하는 것입니다.
 
 >[!NOTE]
 >
->Healthcare Shield를 소유한 고객의 경우, Adobe은 TLS(Transport Layer Security) 1.2를 사용하여 사용자의 시스템(수신자)과 Journey Optimizer(발신자) 간 데이터 교환을 보호합니다. 수신 메일 서버가 TLS 1.2를 지원하지 않는 경우에는 고객이 보낸 사람에게 다시 이메일을 전송하는 등의 게재 기능 문제가 발생합니다.
+>Adobe는 Healthcare Shield를 소유한 고객의 경우 TLS(Transport Layer Security) 1.2를 사용하여 사용자의 시스템(수신자)과 Journey Optimizer(발신자) 간 데이터 교환을 보호합니다. 수신 메일 서버가 TLS 1.2를 지원하지 않는 경우에는 고객이 보낸 사람에게 다시 이메일을 전송하는 등의 게재 기능 문제가 발생합니다.
 
 **전자 메일 게재 기능** 는 개인 이메일 주소를 통해 짧은 시간 내에 컨텐츠와 포맷 측면에서 예상되는 품질로 메시지의 목적지에 도달할 수 있는 능력을 결정하는 특성 집합을 나타냅니다. 이러한 특징은 네 가지 주요 범주로 분류됩니다. 데이터 품질, 메시지 및 컨텐츠, 전송 인프라, 평판. 이들은 함께 성공적인 이메일 게재 가능성 프로그램의 기반을 형성합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 게재 능력을 최적화하기 위해 [!DNL Journey Optimizer] 경험은 이 섹션에 나열된 우수 사례를 사용하는 것이 좋습니다. 게재 기능 문제는 일반적으로 인터넷 서비스 공급자(ISP) 및 메일 서버 관리자가 구현하는 스팸으로부터 보호하는 것과 연결되어 있습니다.
 
-게재 능력에 대한 자세한 내용과 주요 게재 가능성 용어, 개념 및 접근 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko-KR){target=&quot;_blank&quot;}.
+게재 능력에 대한 자세한 내용과 주요 게재 가능성 용어, 개념 및 접근 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Deliverability Best Practice 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target=&quot;_blank&quot;}.
 
 ## 불만률 감소 {#reduce-complaint-rate}
 
@@ -57,7 +57,7 @@ ISP에는 보통 받은 메시지를 스팸으로 보고하는 잘 알려진 방
 
 에서 제공하는 기능 사용 [!DNL Journey Optimizer] 게재 능력을 모니터링합니다.
 
-다음 **[!UICONTROL 실행]** 메시지 목록의 탭에서는 일련의 실시간 지표를 통해 게재의 성과를 확인할 수 있습니다. 다른 항목 중에서 이 탭에 다음이 표시됩니다.
+다음 **[!UICONTROL Executions]** 메시지 목록의 탭에서는 일련의 실시간 지표를 통해 게재의 성과를 확인할 수 있습니다. 다른 항목 중에서 이 탭에 다음이 표시됩니다.
 * 실행, 전송 및 전달된 메시지 수입니다.
 * 열린 메시지 수와 클릭한 메시지/링크 수입니다.
 

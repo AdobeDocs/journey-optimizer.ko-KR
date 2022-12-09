@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 3%
+source-wordcount: '1744'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 하위 카테고리에 액세스하려면 `>` 아이콘. 을(를) 클릭하여 함수를 선택합니다 `+` 아이콘: 함수가 자동으로 개인화 화면에 추가됩니다.
 
-을(를) 클릭합니다. `...` 아이콘 을 클릭하여 함수의 설명을 보고 즐겨찾기에 추가합니다. [자세히 보기](../personalize.md#fav)
+을(를) 클릭합니다. `...` 아이콘 을 클릭하여 함수의 설명을 보고 즐겨찾기에 추가합니다. [추가 정보](../personalize.md#fav)
 
 ## 함수{#functions-helper}
 
@@ -73,10 +73,10 @@ ht-degree: 3%
         <td><a href="arrays-list.md#last-n">배열의 마지막 n</a></td><td>이 함수는 지정된 숫자 식을 기반으로 오름차순으로 정렬된 경우 배열의 마지막 'N' 항목을 반환합니다</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#max">최대값</a></td><td>이 함수는 배열 내에서 선택한 모든 값 중 가장 큰 값을 반환합니다</td>
+        <td><a href="aggregation.md#max">최대</a></td><td>이 함수는 배열 내에서 선택한 모든 값 중 가장 큰 값을 반환합니다</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">최소값</a></td><td>이 함수는 배열 내에서 선택한 모든 값 중 가장 작은 값을 반환합니다</td>
+        <td><a href="aggregation.md#min">최소</a></td><td>이 함수는 배열 내에서 선택한 모든 값 중 가장 작은 값을 반환합니다</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#notin">아님</a></td><td>이 함수는 항목이 배열 또는 목록의 멤버가 아닌지 확인합니다</td>
@@ -132,7 +132,7 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="maps.md#get">가져오기</a></td><td>이 함수는 지정된 키에 대한 맵 값을 검색하는 데 사용됩니다</td>
+        <td><a href="maps.md#get">Get</a></td><td>이 함수는 지정된 키에 대한 맵 값을 검색하는 데 사용됩니다</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">키</a></td><td>이 함수는 지정된 맵에 대한 모든 키를 검색하는 데 사용됩니다</td>
@@ -304,7 +304,7 @@ ht-degree: 3%
         <td><a href="string.md#to-date-time-only">종료 날짜만</a></td><td>이 함수는 인수 값을 날짜 시간 전용 값으로 변환합니다. 잘못된 입력에 대한 출력으로 epoch 날짜를 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">트리밍</a></td><td>이 함수는 문자열 시작 부분과 끝에서 공백을 제거합니다</td>
+        <td><a href="string.md#trim">Trim</a></td><td>이 함수는 문자열 시작 부분과 끝에서 공백을 제거합니다</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">대문자</a></td><td>이 함수는 문자열을 대문자로 변환</td>
@@ -407,6 +407,6 @@ ht-degree: 3%
 
 ## 방법 비디오{#video}
 
-개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
+개인화 도우미 함수를 사용하여 개인화 값을 변형하고 도우미 기능에 대한 다양한 사용 사례를 이해하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

@@ -9,13 +9,13 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
 # 배치 만들기 {#create-placement}
 
-에 POST 요청을 만들어 배치를 생성할 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
+에 POST 요청을 수행하여 배치를 만들 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
@@ -23,8 +23,8 @@ ht-degree: 10%
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
+| 수락 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| 컨텐츠 유형 | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
 **API 형식**
 

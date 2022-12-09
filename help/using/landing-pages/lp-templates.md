@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '178'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 1. 화면의 오른쪽 상단에 있는 줄임표를 클릭합니다.
 
-1. 선택 **[!UICONTROL 디자인 템플릿 저장]** 를 클릭합니다.
+1. 선택 **[!UICONTROL Save design template]** 를 클릭합니다.
 
    ![](assets/lp_designer-save-template.png)
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 
    ![](assets/lp_designer-template-name.png)
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Save]**.
 
 다음에 랜딩 페이지를 만들 때 이 템플릿을 사용하여 콘텐츠를 작성할 수 있습니다. 에서 방법 알아보기 [섹션](#use-saved-template) 아래의 제품에서 사용할 수 있습니다.
 
@@ -41,7 +41,7 @@ ht-degree: 4%
 
 1. 를 엽니다. [랜딩 페이지 콘텐츠 디자이너](design-lp.md). 이전에 저장한 모든 템플릿 목록이 표시됩니다.
 
-1. 분류할 수 있습니다 **[!UICONTROL 이름별]**, **[!UICONTROL 마지막 수정 날짜]** 및 **[!UICONTROL 마지막으로 만든 날짜]**.
+1. 분류할 수 있습니다 **[!UICONTROL By name]**, **[!UICONTROL Last modified]** 및 **[!UICONTROL Last created]**.
 
    ![](assets/lp_designer-saved-templates.png)
 
@@ -51,7 +51,7 @@ ht-degree: 4%
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. 클릭 **[!UICONTROL 이 랜딩 페이지 사용]**.
+1. 클릭 **[!UICONTROL Use this landing page]**.
 
 1. 랜딩 페이지 디자이너를 사용하여 원하는 대로 콘텐츠를 편집합니다.
 

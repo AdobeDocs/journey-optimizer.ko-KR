@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 3%
+source-wordcount: '759'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Adobe은 서비스 및 메일링 신뢰도에 영향을 미치는 것으로 입증된 알려진 잘못된 주소의 업데이트된 목록을 유지하며, 이메일이 배달되지 않도록 합니다. 이 목록은 모든 Adobe 고객에게 공통인 글로벌 제외 목록에서 관리됩니다. 전역 제외 목록에 포함된 주소 및 도메인 이름은 숨겨집니다. 제외된 수신자 수만 게재 보고서에 표시됩니다.
+>Adobe는 서비스 및 메일링 신뢰성에 해롭다는 것이 입증된 알려진 잘못된 주소 목록을 지속적으로 업데이트하여 이메일이 발송되지 않도록 합니다. 이 목록은 모든 Adobe 고객에게 공통인 글로벌 억제 목록에서 관리됩니다. 전역 제외 목록에 포함된 주소 및 도메인 이름은 숨겨집니다. 제외된 수신자 수만 게재 보고서에 표시됩니다.
 
 ## 제외 목록이 왜 있습니까? {#why-suppression-list}
 
@@ -49,13 +49,13 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->구독하지 않은 사용자의 주소는 보낸 이메일을 받지 않으므로 제외 목록으로 보낼 수 없습니다 [!DNL Journey Optimizer]. 선택 사항은 Experience Platform 수준에서 처리됩니다. 추가 정보 [옵트아웃](../privacy/opt-out.md).
+>구독하지 않은 사용자의 주소는 보낸 이메일을 받지 않으므로 제외 목록으로 보낼 수 없습니다 [!DNL Journey Optimizer]. 선택은 Experience Platform 수준에서 처리됩니다. 추가 정보 [옵트아웃](../privacy/opt-out.md).
 
 각 주소에 대해 억제되는 기본 이유와 억제 범주(소프트, 하드 등)는 제외 목록에 표시됩니다. 의 제외 목록 액세스 및 관리에 대해 자세히 알아보십시오 [이 섹션](../configuration/manage-suppression-list.md).
 
 >[!NOTE]
 >
->다음 포함 **[!UICONTROL 억제됨]** 상태는 메시지 전송 프로세스 중에 제외됩니다. 따라서 **여정 보고서** 은(는) 이러한 프로필을 여정을 통해 이동했음을 나타냅니다([세그먼트 읽기](../building-journeys/read-segment.md) 및 [메시지 활동](../building-journeys/journeys-message.md)), **이메일 보고서** 에는 이러한 매개 변수가 포함되지 않습니다. **[!UICONTROL 전송]** 지표는 이메일 전송 전에 필터링됩니다.
+>다음 포함 **[!UICONTROL Suppressed]** 상태는 메시지 전송 프로세스 중에 제외됩니다. 따라서 **여정 보고서** 은(는) 이러한 프로필을 여정을 통해 이동했음을 나타냅니다([세그먼트 읽기](../building-journeys/read-segment.md) 및 [메시지 활동](../building-journeys/journeys-message.md)), **이메일 보고서** 에는 이러한 매개 변수가 포함되지 않습니다. **[!UICONTROL Sent]** 지표는 이메일 전송 전에 필터링됩니다.
 >
 >추가 정보 [라이브 보고서](../reports/live-report.md) 및 [글로벌 보고서](../reports/global-report.md). 모든 제외 사례에 대한 이유를 알아보려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
 
@@ -72,7 +72,7 @@ A **소프트 바운스** <!--or an **ignored** error--> 너무 여러 번 발�
 
 이러한 주소로 계속 보내는 경우, ISP에 사용자가 메일 주소 목록 유지 관리 우수 사례를 따르지 않을 수 있음을 알려 주므로, 배달율에 영향을 줄 수 있습니다.
 
-### 스팸 불만 사항 {#spam-complaints}
+### 스팸 불만 {#spam-complaints}
 
 제외 목록은 메시지를 스팸으로 표시하는 이메일 주소를 수집합니다. 예를 들어 고객이 귀하로부터 메일을 다시 받지 않도록 요청하는 고객 서비스에 편지를 쓰는 경우, 해당 사용자의 이메일 주소가 사용자 인스턴스에서 억제되고 귀하는 더 이상 해당 주소로 게재할 수 없습니다.
 

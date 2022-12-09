@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 16%
+ht-degree: 0%
 
 ---
 
@@ -32,26 +32,26 @@ ht-degree: 16%
 
 ## 여정 {#journey-field}
 
-이 필드 그룹은 journeyStepEvent와 관련하여 여정 스키마에서 사용됩니다. 여기에는 다음 필드가 포함되어 있습니다.
+이 필드 그룹은 journeyStepEvent와 관련하여 경로 스키마에서 사용됩니다. 여기에는 다음 필드가 포함되어 있습니다.
 
 | 필드 이름 | 유형 | 설명 |
 |---|---|------------|
-| ID | 문자열 | 지정된 여정에 대한 식별자입니다 |
-| VersionID | 문자열 | 여정 버전의 ID입니다. 이 ID는 여정의 ID를 나타냅니다 |
-| 이름 | 문자열 | 여정 이름 |
+| ID | 문자열 | 지정된 여정의 식별자 |
+| VersionID | 문자열 | 여정 버전의 ID입니다. 이 id는 여정의 ID를 나타냅니다 |
+| 이름 | 문자열 | 여정의 이름 |
 | 설명 | 문자열 | 여정 설명 |
 | 버전 | 문자열 | 버전, 다음으로 표시됨 `major`.`minor` |
 
 ## 프로필 {#profile-field}
 
-이 필드 그룹은 journeyStepEvent에만 사용됩니다. 이 이벤트는 여정과 관련이 있으며 프로필 ID가 있는 경우 idMap이 없습니다.
+이 필드 그룹은 journeyStepEvent에만 사용됩니다. 이 이벤트는 journey와 관련이 있으며 프로필 ID가 있는 경우 identityMap이 없습니다.
 
 journeyStepEvent의 경우 ID와 관련된 필드를 추가해야 합니다.
 
 | 필드 이름 | 유형 | 설명 |
 |---|---|------------|
 | ID | 문자열 | 프로필 식별자는 여정에서 전송/사용되는 프로필을 식별합니다. 예: foo@adobe.com |
-| namespace | 문자열 | 이 필드는 여정에 사용된 프로필에서 참조하는 네임스페이스에 대해 설명합니다. 예: 이메일, ECID |
+| namespace | 문자열 | 이 필드는 여정에서 사용되는 프로필에서 참조하는 네임스페이스에 대해 설명합니다. 예: 이메일, ECID |
 
 ## serviceEvents {#servicevents-field}
 

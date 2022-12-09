@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 7%
+source-wordcount: '154'
+ht-degree: 0%
 
 ---
 
 # 컬렉션 삭제 {#delete-collection}
 
-때때로 컬렉션을 제거(DELETE)해야 할 수도 있습니다. 테넌트 컨테이너에서 만든 컬렉션만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 컬렉션의 $id를 사용하는 API.
+때때로 컬렉션을 제거(삭제)해야 할 수도 있습니다. 테넌트 컨테이너에서 만든 컬렉션만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 컬렉션의 $id를 사용하는 API.
 
 **API 형식**
 

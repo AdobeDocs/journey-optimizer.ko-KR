@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 구독 목록 만들기
-description: Journey Optimizer에서 구독 목록을 설정하는 방법 알아보기
+description: Journey Optimizer에서 구독 목록을 설정하는 방법을 알아봅니다
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 4%
+source-wordcount: '403'
+ht-degree: 0%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 4%
 
 구독 목록을 만들려면 아래 단계를 수행하십시오.
 
-1. 가입 목록에 액세스하려면 다음을 선택합니다 **[!UICONTROL 고객]** > **[!UICONTROL 구독 목록]**.
+1. 가입 목록에 액세스하려면 다음을 선택합니다 **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
 
    ![](assets/lp_subscription-lists.png)
 
-1. 을(를) 선택합니다 **[!UICONTROL 구독 목록 만들기]** 버튼을 클릭합니다.
+1. 을(를) 선택합니다 **[!UICONTROL Create subscription list]** 버튼을 클릭합니다.
 
    ![](assets/lp_create-subscription-list.png)
 
@@ -55,13 +55,13 @@ ht-degree: 4%
 
    >[!CAUTION]
    >
-   >현재 간격을 사용하거나, **[!UICONTROL 제목]** 필드.
+   >현재 간격을 사용하거나, **[!UICONTROL Title]** 필드.
 
 1. 시작 날짜 및 종료 날짜를 정의할 수 있습니다.
 
    ![](assets/lp_subscription-list-dates.png)
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Save]**.
 
 생성된 모든 구독 목록이 목록에 표시됩니다. 생성 날짜 또는 수정 날짜 및 상태에 따라 필터링할 수 있습니다.
 
@@ -69,14 +69,14 @@ ht-degree: 4%
 
 가능한 상태는 다음과 같습니다.
 
-* **[!UICONTROL 시작되지 않음]**: 현재 날짜보다 늦은 시작 날짜를 정의했습니다. 구독한 프로필은 이 구독 목록과 관련된 메시지를 아직 받지 않습니다.
-* **[!UICONTROL 라이브]**: 오늘이 구독 목록 시작 날짜와 종료 날짜 사이에 포함되거나, 종료/시작 날짜를 정의하지 않은 경우, 구독 목록이 항상 라이브됩니다.
-* **[!UICONTROL 만료됨]**: 종료 날짜가 전달되어 구독 목록이 더 이상 유효하지 않습니다. 구독한 프로필은 이 구독 목록과 관련된 더 이상 통신을 받지 않습니다.
+* **[!UICONTROL Not started]**: 현재 날짜보다 늦은 시작 날짜를 정의했습니다. 구독한 프로필은 이 구독 목록과 관련된 메시지를 아직 받지 않습니다.
+* **[!UICONTROL Live]**: 오늘이 구독 목록 시작 날짜와 종료 날짜 사이에 포함되거나, 종료/시작 날짜를 정의하지 않은 경우, 구독 목록이 항상 라이브됩니다.
+* **[!UICONTROL Expired]**: 종료 날짜가 전달되어 구독 목록이 더 이상 유효하지 않습니다. 구독한 프로필은 이 구독 목록과 관련된 더 이상 통신을 받지 않습니다.
 
-구독 목록이 만들어지면 랜딩 페이지에서 사용할 수 있습니다. 랜딩 페이지 양식을 통해 옵트인하는 프로필이 목록에 추가됩니다. [자세히 보기](design-lp.md)
+구독 목록이 만들어지면 랜딩 페이지에서 사용할 수 있습니다. 랜딩 페이지 양식을 통해 옵트인하는 프로필이 목록에 추가됩니다. [추가 정보](design-lp.md)
 
-또한 다음과 같은 경우 구독 목록을 세그먼트로 사용할 수도 있습니다 [빌드 여정](../building-journeys/journey-gs.md#jo-build) 개인화 추가
+또한 다음과 같은 경우 구독 목록을 세그먼트로 사용할 수도 있습니다 [여정 구축](../building-journeys/journey-gs.md#jo-build) 개인화 추가
 
 >[!NOTE]
 >
->특정 보고서를 통해 구독 목록이 미치는 영향을 모니터링할 수 있습니다. [자세히 보기](../reports/subscription-report-live.md)
+>특정 보고서를 통해 구독 목록이 미치는 영향을 모니터링할 수 있습니다. [추가 정보](../reports/subscription-report-live.md)

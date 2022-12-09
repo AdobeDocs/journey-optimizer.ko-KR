@@ -1,6 +1,6 @@
 ---
 title: 이메일에서 개인화된 오퍼 사용
-description: 오퍼를 구성하고 이메일에서 사용하는 데 필요한 모든 단계를 보여 주는 전체적인 예제를 살펴보십시오.
+description: 오퍼를 구성하고 이메일에서 사용하는 데 필요한 모든 단계를 보여주는 종단 간 예제를 살펴봅니다.
 feature: Offers
 topic: Integrations
 role: User
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 6%
+source-wordcount: '1065'
+ht-degree: 0%
 
 ---
 
-# 사용 사례: 이메일에서 사용할 수 있도록 개인화된 오퍼 구성 {#configure-add-personalized-offers-email}
+# 사용 사례: 이메일에서 사용할 수 있도록 개인화된 오퍼를 구성합니다 {#configure-add-personalized-offers-email}
 
 이 섹션에서는 이전에 만든 결정에 따라 오퍼를 구성하고 이메일에 사용하는 방법을 보여주는 종단간 예를 제공합니다.
 
@@ -43,7 +43,7 @@ ht-degree: 6%
 
 1. [결정 구성](#configure-decision)
 
-   * 의사 결정 만들기
+   * 결정 만들기
    * 만든 배치를 선택합니다
    * 각 배치에 대해 컬렉션을 선택합니다
    * 각 배치에 대해 등급을 선택합니다(선택 사항)
@@ -63,7 +63,7 @@ ht-degree: 6%
 
 오퍼 만들기를 시작하기 전에 오퍼에서 사용할 몇 가지 구성 요소를 정의해야 합니다.
 
-아래에 있습니다 **[!UICONTROL 의사 결정 관리]** > **[!UICONTROL 구성 요소 메뉴]**.
+아래에 있습니다 **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
 
 1. 만들기 시작 **배치** 을 참조하십시오.
 
@@ -83,7 +83,7 @@ ht-degree: 6%
 
    의사 결정 규칙은 Adobe Experience Platform의 프로필에 최상의 오퍼를 제공합니다.
 
-   를 사용하여 두 개의 간단한 규칙을 구성합니다 **[!UICONTROL XDM 개별 프로필 > 개인 > 성별]** attribute:
+   를 사용하여 두 개의 간단한 규칙을 구성합니다 **[!UICONTROL XDM Individual Profile > Person > Gender]** attribute:
 
    * *여성 고객*
    * *남성 고객*
@@ -114,7 +114,7 @@ ht-degree: 6%
 
 이제 오퍼를 만들고 구성할 수 있습니다. 이 예에서는 각 특정 프로필에 따라 표시할 4개의 오퍼를 만듭니다.
 
-1. 오퍼 만들기. 자세한 내용은 [이 섹션](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)을 참조하십시오.
+1. 오퍼를 만듭니다. 추가 정보 [이 섹션](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
 
 1. 이 오퍼에서 세 개의 표현을 만듭니다. 각 표현은 이전에 생성한 배치와 자산의 조합이어야 합니다.
 
@@ -132,13 +132,13 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-representations.png)
 
-1. 에서 **[!UICONTROL 오퍼 자격]** 섹션, **[!UICONTROL 정의된 의사 결정 규칙에 의해]** 원하는 규칙을 드래그하여 놓습니다.
+1. 에서 **[!UICONTROL Offer eligibility]** 섹션, **[!UICONTROL By defined decision rule]** 원하는 규칙을 드래그하여 놓습니다.
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. 을(를) 입력합니다. **[!UICONTROL 우선순위]**. 이 예에서 를 추가합니다. *25년*.
+1. 을(를) 입력합니다. **[!UICONTROL Priority]**. 이 예에서 를 추가합니다. *25년*.
 
-1. 오퍼를 검토한 다음 **[!UICONTROL 저장 및 승인]**.
+1. 오퍼를 검토한 다음 **[!UICONTROL Save and approve]**.
 
    ![](assets/offers-e2e-review.png)
 
@@ -155,7 +155,7 @@ ht-degree: 6%
 
 ## 대체 오퍼 만들기 {#create-fallback}
 
-1. 대체 오퍼 만들기.
+1. 대체 오퍼를 만듭니다.
 
 1. 오퍼와 동일한 표현을 적절한 자산과 함께 정의합니다(오퍼는 오퍼에 사용되는 레프리젠테이션과 달라야 함).
 
@@ -167,7 +167,7 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 대체 오퍼를 검토하고 **[!UICONTROL 저장 및 승인]**.
+1. 대체 오퍼를 검토하고 **[!UICONTROL Save and approve]**.
 
 ![](assets/offers-e2e-fallback.png)
 
@@ -195,7 +195,7 @@ ht-degree: 6%
 
 오퍼 결정을 만들고 구성하려면 아래 주요 단계를 수행하십시오.
 
-1. 의사 결정 만들기. 자세한 내용은 [이 섹션](../../using/offers/offer-activities/create-offer-activities.md#create-activity)을 참조하십시오.
+1. 결정을 만듭니다. 추가 정보 [이 섹션](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
 1. 을(를) 선택합니다 *웹 - 이미지*, *이메일 - 이미지* 및 *비디지털 - 텍스트* 배치.
 
@@ -213,7 +213,7 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. 결정을 검토하고 **[!UICONTROL 저장 및 승인]**.
+1. 결정을 검토하고 **[!UICONTROL Save and approve]**.
 
    ![](assets/offers-e2e-review-decision.png)
 

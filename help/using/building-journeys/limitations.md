@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정 제한 사항
-description: 여정 제한 사항에 대해 자세히 알아보기
+description: 여정 제한 사항에 대해 자세히 알아보십시오
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # 제한 사항 {#journey-limitations}
 
-다음은 여정 사용과 관련된 제한 사항입니다.
+여정 사용과 관련된 제한 사항은 다음과 같습니다.
 
 ## 일반 작업 제한 사항
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 여정 버전 제한 사항 {#journey-versions-limitations}
 
-* v1에서 이벤트 활동으로 시작하는 여정은 이후 버전의 이벤트 이외의 항목으로 시작할 수 없습니다. 여정은 **세그먼트 자격** 이벤트.
+* v1에서 이벤트 활동으로 시작하는 여정은 이후 버전의 이벤트 이외의 항목으로 시작할 수 없습니다. 을 사용하여 여정을 시작할 수 없습니다 **세그먼트 자격** 이벤트.
 * 다음으로 시작하는 여정 **세그먼트 자격** v1의 활동은 항상 **세그먼트 자격** 추가 버전.
 * 에서 선택한 세그먼트 및 네임스페이스 **세그먼트 자격** (첫 번째 노드)는 새 버전에서 변경할 수 없습니다.
 * 재시작 규칙은 모든 여정 버전에서 동일해야 합니다.
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * 사용자 지정 작업 URL은 동적 매개 변수를 지원하지 않습니다. 
 * POST 및 PUT 호출 메서드만 지원됩니다. 
-* 쿼리 매개 변수 또는 헤더의 이름은 &quot;.&quot;로 시작하면 안 됩니다. 또는 &quot;$&quot;. 
+* 쿼리 매개 변수 또는 헤더의 이름은 &quot;.&quot;로 시작하면 안 됩니다. 또는 &quot;$&quot; 
 * IP 주소는 허용되지 않습니다. 
 * 내부 Adobe 주소(.adobe.) 허용되지 않습니다.
  
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 * 고객 여정 내에서 외부 데이터 소스를 활용하여 외부 데이터를 실시간으로 조회할 수 있습니다. 이러한 소스는 REST API를 통해 사용할 수 있어야 하며, JSON을 지원하고, 요청 볼륨을 처리할 수 있어야 합니다.
 
-## 여정 만들기와 동시에 시작 {#journeys-limitation-profile-creation}
+## 프로필 만들기와 동시에 시작되는 여정 {#journeys-limitation-profile-creation}
 
-Adobe Experience Platform의 API 기반 프로필 만들기/업데이트와 연관된 지연이 있습니다. 지연에 대한 SLT(서비스 수준 Target)은 RPS(초당 20K 요청 수)로 요청의 95번째 백분위수에 대한 통합 프로필에 대해 수집에서 1분 미만입니다.
+Adobe Experience Platform의 API 기반 프로필 만들기/업데이트와 연관된 지연이 있습니다. 지연에 대한 SLT(서비스 수준 타겟)는 RPS(초당 20K 요청 수)로 요청의 95번째 백분위수에 대해 통합 프로필에 수집부터 1분 미만입니다.
 
 여정이 프로필 만들기로 동시에 트리거되고 프로필 서비스에서 정보를 즉시 확인/검색하는 경우 제대로 작동하지 않을 수 있습니다.
 
 다음 두 솔루션 중 하나를 선택할 수 있습니다.
 
-* 첫 번째 이벤트 다음에 대기 활동을 추가하여 Adobe Experience Platform에 프로필 서비스에 수집을 수행해야 하는 시간을 지정합니다.
+* 첫 번째 이벤트 다음에 대기 활동을 추가하여 Adobe Experience Platform에 프로필 서비스에 수집을 수행하는 데 필요한 시간을 제공합니다.
 
 * 프로필을 즉시 활용하지 않는 여정을 설정합니다. 예를 들어 여정이 계정 만들기를 확인하도록 디자인된 경우 경험 이벤트에는 첫 번째 확인 메시지(이름, 성, 이메일 주소 등)를 전송하는 데 필요한 정보가 포함될 수 있습니다.
 

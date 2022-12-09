@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 20%
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
@@ -29,14 +29,14 @@ ht-degree: 20%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| 목록에 있는 참조 페이지를 나타냅니다 | listString |
-| 목록에 있는 참조 페이지를 나타냅니다 | listBoolean |
-| 목록에 있는 참조 페이지를 나타냅니다 | listInteger |
-| 목록에 있는 참조 페이지를 나타냅니다 | listDecimal |
-| 목록에 있는 참조 페이지를 나타냅니다 | listDuration |
-| 목록에 있는 참조 페이지를 나타냅니다 | listDateTime |
-| 목록에 있는 참조 페이지를 나타냅니다 | listDateTimeOnly |
-| 목록에 있는 참조 페이지를 나타냅니다 | listDateOnly |
+| list | listString |
+| list | listBoolean |
+| list | listInteger |
+| list | listDecimal |
+| list | listDuration |
+| list | listDateTime |
+| list | listDateTimeOnly |
+| list | listDateOnly |
 | 색인 | 정수 |
 
 ## 서명 및 반환된 유형

@@ -9,8 +9,8 @@ level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 12%
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
@@ -26,5 +26,5 @@ ht-degree: 12%
 
 **참조 -**
 
-* [Query Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target=&quot;_blank&quot;}
-* [쿼리 서비스 개요 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ko-KR){target=&quot;_blank&quot;}
+* [Query Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
+* [쿼리 서비스 개요 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}

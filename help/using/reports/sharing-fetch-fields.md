@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 7%
+source-wordcount: '377'
+ht-degree: 0%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 7%
 
 ## fetchTypeInError {#fetchtypeinerror-field}
 
-오류 가져오기가 Adobe Experience Platform 또는 사용자 지정 데이터 소스에 있는지 정의합니다.
+Adobe Experience Platform 또는 사용자 지정 데이터 소스에 가져오기 오류가 있는지 여부를 정의합니다.
 
-유형: 문자열
+유형: string
 
 값:
 * aep
@@ -41,19 +41,19 @@ ht-degree: 7%
 
 데이터 가져오기가 처리될 때 발생하는 오류 유형입니다.
 
-유형: 문자열
+유형: string
 
 값:
 * http
 * 최대 가용량
 * 시간 초과
-* 라는 오류가 표시됩니다
+* 오류
 
 ## fetchErrorCode {#fetcherrorcode-field}
 
 가져오기 오류 코드. 오류에 HTTP 코드와 같은 코드가 있을 경우 표시됩니다. 예를 들어 actionExecError가 http인 경우 코드 404는 HTTP 404 오류를 나타냅니다.
 
-유형: 문자열
+유형: string
 
 ## fetchOriginError {#fetchoriginerror-field}
 
@@ -73,13 +73,13 @@ ht-degree: 7%
     "fetchOrigErrorCode": "500"
 ```
 
-유형: 문자열
+유형: string
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
 시스템에서 제공한 오류 코드 [!DNL Journey Optimizer] 쿼리 중입니다. 예를 들어 404, 500 등이 될 수 있습니다.
 
-유형: 문자열
+유형: string
 
 ## fetchCount {#fetchcount-field}
 
@@ -89,7 +89,7 @@ ht-degree: 7%
 
 ## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
-Adobe Experience Platform에서 데이터를 밀리로 가져오는 데 걸린 총 시간입니다. 참고: 이 시간은 엔진이 데이터 보강 서비스로 데이터 보강 이벤트를 보내고 응답을 받은 시점부터 계산됩니다.
+밀리 방식으로 Adobe Experience Platform에서 데이터를 가져오는 데 걸린 총 시간입니다. 참고: 이 시간은 엔진이 데이터 보강 서비스로 데이터 보강 이벤트를 보내고 응답을 받은 시점부터 계산됩니다.
 
 유형: 장기간
 

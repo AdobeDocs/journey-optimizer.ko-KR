@@ -9,7 +9,7 @@ exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 8%
 {%= count(orders) %}
 ```
 
-## 최대값{#max}
+## 최대{#max}
 
 다음 `max` 함수는 배열 내에서 선택한 모든 값 중 가장 큰 값을 반환합니다.
 
@@ -71,7 +71,7 @@ ht-degree: 8%
 {%=max(orders.order.price)%}
 ```
 
-## 최소값{#min}
+## 최소{#min}
 
 다음 `min` 함수는 배열 내에서 선택한 모든 값 중 가장 작은 값을 반환합니다.
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: 9b7898d0fe008a0e7ef711b1303230c6f901b712
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 2%
+source-wordcount: '369'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="반응 이벤트"
->abstract="이 활동을 사용하면 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 대응할 수 있습니다. 이 정보는 Adobe Experience Platform과 공유되는 즉시 실시간으로 캡처됩니다."
+>abstract="이 활동을 사용하면 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 대응할 수 있습니다. Adobe Experience Platform과 공유되는 즉시 이 정보를 실시간으로 캡처합니다."
 
-팔레트에서 사용할 수 있는 여러 이벤트 활동 중에서 기본 제공된 이벤트를 찾을 수 있습니다 **[!UICONTROL 반응]** 이벤트. 이 활동을 사용하면 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 대응할 수 있습니다. 이 정보는 Adobe Experience Platform과 공유되는 즉시 실시간으로 캡처됩니다.
+팔레트에서 사용할 수 있는 여러 이벤트 활동 중에서 기본 제공된 이벤트를 찾을 수 있습니다 **[!UICONTROL Reactions]** 이벤트. 이 활동을 사용하면 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 대응할 수 있습니다. Adobe Experience Platform과 공유되는 즉시 이 정보를 실시간으로 캡처합니다.
 
 클릭하거나 연 메시지에 응답할 수 있습니다.
 
@@ -36,10 +36,10 @@ ht-degree: 2%
 
 다음은 반응 이벤트를 구성하는 여러 단계입니다.
 
-1. 추가 **[!UICONTROL 레이블]** 반응으로. 데이터 소스에 이벤트에 설명을 추가합니다.
+1. 추가 **[!UICONTROL Label]** 반응으로. 이 단계는 선택 사항입니다.
 1. 드롭다운 목록에서 반응할 작업 활동을 선택합니다. 경로의 이전 단계에 배치된 작업 활동을 선택할 수 있습니다.
 1. 선택한 작업에 따라 반응할 작업을 선택합니다.
-1. 이벤트 시간 초과(40초~30일 사이)와 시간 제한 경로를 정의할 수 있습니다. 이렇게 하면 정의된 기간 내에 응답하지 않는 개인에게 두 번째 경로가 생성됩니다. 반응 이벤트를 사용하는 여정을 테스트할 때 테스트 모드 **[!UICONTROL 대기 시간]** 기본값과 최소값은 40초입니다. [이 섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
+1. 이벤트 시간 초과(40초~30일 사이)와 시간 제한 경로를 정의할 수 있습니다. 이렇게 하면 정의된 기간 내에 응답하지 않는 개인에게 두 번째 경로가 생성됩니다. 반응 이벤트를 사용하는 여정을 테스트할 때 테스트 모드 **[!UICONTROL Wait time]** 기본값과 최소값은 40초입니다. 자세한 내용은 [이 섹션](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
