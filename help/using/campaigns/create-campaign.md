@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
+source-git-commit: 5f8a765eefe4033a642c46e18be518d29b196bc3
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '628'
 ht-degree: 10%
 
 ---
@@ -127,6 +127,21 @@ ht-degree: 10%
 
 ## 캠페인 예약 {#schedule}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="캠페인 시작"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="캠페인 종료"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Campaign 작업 트리거"
+>abstract="TBC"
+
 1. 특정 날짜 또는 반복 빈도로 캠페인을 실행하려면 를 구성합니다 **[!UICONTROL 예약]** 섹션을 참조하십시오. [캠페인을 예약하는 방법 알아보기](#schedule)
 
 1. 사용자 지정 또는 핵심 데이터 사용 레이블을 캠페인에 지정하려면 **[!UICONTROL 액세스 관리]** 버튼을 클릭합니다. [개체 수준 액세스 제어(OLA)에 대한 자세한 정보](../administration/object-based-access.md)
@@ -143,7 +158,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="캠페인 카테고리"
->abstract="카테고리 값은 캠페인 유형 값에 직접 연결됩니다. 에 대한 캠페인 유형 예약 **마케팅** 카테고리에 대한 카테고리 및 API 트리거 유형 **트랜잭션**"
+>abstract="카테고리 값은 캠페인 유형 값과 직접 연결됩니다. 에 대한 캠페인 유형 예약 **마케팅** 카테고리에 대한 카테고리 및 API 트리거 유형 **트랜잭션**"
 
 사용할 수 있는 캠페인에는 두 가지 유형이 있습니다.
 
