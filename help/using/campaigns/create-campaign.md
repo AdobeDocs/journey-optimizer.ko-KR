@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -138,12 +138,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="캠페인 유형"
->abstract="TBC"
+>abstract="보내는 날짜를 지정하여 마케팅 메시지를 표시하려면 **예약됨** 유형이 가장 적절합니다. 그러나 암호 재설정 또는 카드 포기 등의 트랜잭션 메시지를 보내려면 **API 트리거** 타입이 가장 좋다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="캠페인 카테고리"
->abstract="TBC"
+>abstract="카테고리 값은 캠페인 유형 값에 직접 연결됩니다. 에 대한 캠페인 유형 예약 **마케팅** 카테고리에 대한 카테고리 및 API 트리거 유형 **트랜잭션**"
 
 사용할 수 있는 캠페인에는 두 가지 유형이 있습니다.
 
