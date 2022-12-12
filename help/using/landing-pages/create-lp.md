@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 0%
+source-wordcount: '1505'
+ht-degree: 2%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 ## 랜딩 페이지에 액세스 {#access-landing-pages}
 
-랜딩 페이지 목록에 액세스하려면 다음을 선택합니다 **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** 왼쪽 메뉴에서 를 클릭합니다.
+랜딩 페이지 목록에 액세스하려면 다음을 선택합니다 **[!UICONTROL 여정 관리]** > **[!UICONTROL 랜딩 페이지]** 왼쪽 메뉴에서 를 클릭합니다.
 
 ![](assets/lp_access-list.png)
 
-다음 **[!UICONTROL Landing Pages]** 목록에는 생성된 모든 항목이 표시됩니다. 상태 또는 수정 날짜에 따라 필터링할 수 있습니다.
+다음 **[!UICONTROL 랜딩 페이지]** 목록에는 생성된 모든 항목이 표시됩니다. 상태 또는 수정 날짜에 따라 필터링할 수 있습니다.
 
 ![](assets/lp_access-list-filter.png)
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 랜딩 페이지를 만드는 단계는 다음과 같습니다.
 
-1. 랜딩 페이지 목록에서 **[!UICONTROL Create landing page]**.
+1. 랜딩 페이지 목록에서 **[!UICONTROL 랜딩 페이지 만들기]**.
 
    ![](assets/lp_create-lp.png)
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    ![](assets/lp_create-lp-details.png)
 
-1. 사용자 지정 또는 핵심 데이터 사용 레이블을 랜딩 페이지에 지정하려면 을(를) 선택합니다 **[!UICONTROL Manage access]**. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../administration/object-based-access.md)
+1. 사용자 지정 또는 핵심 데이터 사용 레이블을 랜딩 페이지에 지정하려면 을(를) 선택합니다 **[!UICONTROL 액세스 관리]**. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../administration/object-based-access.md)
 
    <!--You can add a tag. See AEP documentation?-->
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
    ![](assets/lp_create-lp-presets.png)
 
-1. 클릭 **[!UICONTROL Create]**.
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
 1. 기본 페이지 및 해당 속성이 표시됩니다. 기본 페이지 설정을 구성하는 방법 알아보기 [여기](#configure-primary-page).
 
@@ -107,13 +107,13 @@ ht-degree: 0%
 
 기본 페이지 설정을 정의하려면 아래 단계를 수행합니다.
 
-1. 페이지 이름을 변경할 수 있습니다. **[!UICONTROL Primary page]** 기본적으로 제공됩니다.
+1. 페이지 이름을 변경할 수 있습니다. **[!UICONTROL 기본 페이지]** 기본적으로 제공됩니다.
 
 1. 콘텐츠 디자이너를 사용하여 페이지의 콘텐츠를 편집합니다. 랜딩 페이지 컨텐츠를 정의하는 방법을 알아봅니다 [여기](design-lp.md).
 
    ![](assets/lp_open-designer.png)
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 의 일부로 설정해야 합니다 [사전 설정](../landing-pages/lp-presets.md#lp-create-preset) 선택하셨습니다. [추가 정보](../landing-pages/lp-subdomains.md)
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 의 일부로 설정해야 합니다 [사전 설정](../landing-pages/lp-presets.md#lp-create-preset) 선택하셨습니다. [자세히 알아보기](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -125,7 +125,7 @@ ht-degree: 0%
    >
    >게시된 경우에도 이 URL을 웹 브라우저에 복사하여 붙여 넣으면 랜딩 페이지에 액세스할 수 없습니다. 대신 에 설명된 대로 미리 보기 기능을 사용하여 테스트할 수 있습니다. [이 섹션](#test-landing-page).
 
-1. 랜딩 페이지에서 이미 사용 가능한 양식 데이터를 미리 로드하려면 를 선택합니다. **[!UICONTROL Pre-fill form fields with profile information]**.
+1. 랜딩 페이지에서 이미 사용 가능한 양식 데이터를 미리 로드하려면 를 선택합니다. **[!UICONTROL 프로필 정보가 있는 양식 필드 미리 채우기]**.
 
    ![](assets/lp_prefill-form-fields.png)
 
@@ -137,25 +137,25 @@ ht-degree: 0%
 
 1. 페이지에 대한 만료 날짜를 정의할 수 있습니다. 이 경우 페이지 만료 시 작업을 선택해야 합니다.
 
-   * **[!UICONTROL Redirect URL]**: 페이지가 만료되면 사용자가 리디렉션되는 페이지의 URL을 입력합니다.
-   * **[!UICONTROL Custom page]**: [하위 페이지 구성](#configure-subpages) 표시되는 드롭다운 목록에서 선택합니다.
-   * **[!UICONTROL Browser error]**: 페이지 대신 표시할 오류 텍스트를 입력합니다.
+   * **[!UICONTROL 리디렉션 URL]**: 페이지가 만료되면 사용자가 리디렉션되는 페이지의 URL을 입력합니다.
+   * **[!UICONTROL 사용자 지정 페이지]**: [하위 페이지 구성](#configure-subpages) 표시되는 드롭다운 목록에서 선택합니다.
+   * **[!UICONTROL 브라우저 오류]**: 페이지 대신 표시할 오류 텍스트를 입력합니다.
 
    ![](assets/lp_expiry-date.png)
 
-1. 에서 **[!UICONTROL Additional data]** 섹션에서 하나 이상의 키 및 해당 매개 변수 값을 정의합니다. 기본 페이지 및 하위 페이지의 컨텐츠에서 이러한 키를 [표현식 편집기](../personalization/personalization-build-expressions.md). 추가 정보 [이 섹션](lp-content.md#use-form-component#use-additional-data).
+1. 에서 **[!UICONTROL 추가 데이터]** 섹션에서 하나 이상의 키 및 해당 매개 변수 값을 정의합니다. 기본 페이지 및 하위 페이지의 컨텐츠에서 이러한 키를 [표현식 편집기](../personalization/personalization-build-expressions.md). 자세한 내용은 [이 섹션](lp-content.md#use-form-component#use-additional-data)을 참조하십시오.
 
    ![](assets/lp_create-lp-additional-data.png)
 
-1. 하나 이상의 가입 목록을 선택한 경우 [기본 페이지 디자인](design-lp.md)로 설정되면 페이지에 **[!UICONTROL Subscription list]** 섹션을 참조하십시오.
+1. 하나 이상의 가입 목록을 선택한 경우 [기본 페이지 디자인](design-lp.md)로 설정되면 페이지에 **[!UICONTROL 구독 목록]** 섹션을 참조하십시오.
 
    ![](assets/lp_subscription-list.png)
 
-1. 랜딩 페이지에서 직접 다음을 수행할 수 있습니다 [여정 만들기](../building-journeys/journey-gs.md#jo-build) 사용자가 양식을 제출할 때 확인 메시지가 표시됩니다. 이 과정을 마치면 이러한 여정을 구축하는 방법을 알아봅니다 [사용 사례](lp-use-cases.md#subscription-to-a-service).
+1. 랜딩 페이지에서 직접 다음을 수행할 수 있습니다 [여정 만들기](../building-journeys/journey-gs.md#jo-build) 사용자가 양식을 제출할 때 확인 메시지가 표시됩니다. 이 여정 끝에 이러한 라이브러리를 빌드하는 방법을 알아봅니다 [사용 사례](lp-use-cases.md#subscription-to-a-service).
 
    ![](assets/lp_create-journey.png)
 
-   클릭 **[!UICONTROL Create journey]** 으로 리디렉션됩니다. **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** 목록.
+   클릭 **[!UICONTROL 여정 만들기]** 으로 리디렉션됩니다. **[!UICONTROL 여정 관리]** > **[!UICONTROL 여정]** 목록.
 
 ## 하위 페이지 구성 {#configure-subpages}
 
@@ -176,7 +176,7 @@ ht-degree: 0%
 
 하위 페이지 설정을 정의하려면 아래 단계를 수행합니다.
 
-1. 페이지 이름을 변경할 수 있습니다. **[!UICONTROL Subpage 1]** 기본적으로 제공됩니다.
+1. 페이지 이름을 변경할 수 있습니다. **[!UICONTROL 하위 페이지 1]** 기본적으로 제공됩니다.
 
 1. 콘텐츠 디자이너를 사용하여 페이지의 콘텐츠를 편집합니다. 랜딩 페이지 컨텐츠를 정의하는 방법을 알아봅니다 [여기](design-lp.md).
 
@@ -184,7 +184,7 @@ ht-degree: 0%
    >
    >동일한 랜딩 페이지의 하위 페이지에서 기본 페이지에 대한 링크를 삽입할 수 있습니다. 예를 들어, 실수로 가입하고 싶은 사용자를 리디렉션하려면 확인 하위 페이지의 링크를 구독 기본 페이지에 추가할 수 있습니다. 에 링크를 삽입하는 방법을 알아봅니다. [이 섹션](../email/message-tracking.md#insert-links).
 
-1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [추가 정보](../landing-pages/lp-subdomains.md)
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 알아보기](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -200,21 +200,21 @@ ht-degree: 0%
 >
 >메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../segment/creating-test-profiles.md).
 
-1. 랜딩 페이지 인터페이스에서 **[!UICONTROL Preview & test]** 테스트 프로필 선택에 액세스하는 단추입니다.
+1. 랜딩 페이지 인터페이스에서 **[!UICONTROL 미리 보기 및 테스트]** 테스트 프로필 선택에 액세스하는 단추입니다.
 
    ![](assets/lp_preview-button.png)
 
    >[!NOTE]
    >
-   >다음 **[!UICONTROL Preview]** 버튼은 컨텐츠 디자이너에서 액세스할 수도 있습니다.
+   >다음 **[!UICONTROL 미리 보기]** 버튼은 컨텐츠 디자이너에서 액세스할 수도 있습니다.
 
-1. 에서 **[!UICONTROL Preview & test]** 화면에서 테스트 프로필을 하나 이상 선택합니다.
+1. 에서 **[!UICONTROL 미리 보기 및 테스트]** 화면에서 테스트 프로필을 하나 이상 선택합니다.
 
    ![](assets/lp_test-profiles.png)
 
    테스트 프로필을 선택하는 단계는 메시지를 테스트할 때와 동일합니다. 자세한 내용은 [이 섹션](../email/preview.md#select-test-profiles).
 
-1. 을(를) 선택합니다 **[!UICONTROL Preview]** 탭을 클릭하고 **[!UICONTROL Open preview]** 랜딩 페이지를 테스트하려면 다음을 수행하십시오.
+1. 을(를) 선택합니다 **[!UICONTROL 미리 보기]** 탭을 클릭하고 **[!UICONTROL 미리 보기 열기]** 랜딩 페이지를 테스트하려면 다음을 수행하십시오.
 
    ![](assets/lp_open-preview.png)
 
@@ -271,13 +271,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->경고를 게시하기 전에 경고를 확인하고 확인합니다. [추가 정보](#check-alerts)
+>경고를 게시하기 전에 경고를 확인하고 확인합니다. [자세히 알아보기](#check-alerts)
 
-랜딩 페이지가 게시되면 과 함께 랜딩 페이지 목록에 추가됩니다. **[!UICONTROL Published]** 상태.
+랜딩 페이지가 게시되면 과 함께 랜딩 페이지 목록에 추가됩니다. **[!UICONTROL 게시됨]** 상태.
 
 이제 라이브로 사용 가능하며, [!DNL Journey Optimizer] 메시지를 통해 전송할 메시지 [여정](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->특정 보고서를 통해 랜딩 페이지의 영향을 모니터링할 수 있습니다. [추가 정보](../reports/lp-report-live.md)
+>특정 보고서를 통해 랜딩 페이지의 영향을 모니터링할 수 있습니다. [자세히 알아보기](../reports/lp-report-live.md)
 
