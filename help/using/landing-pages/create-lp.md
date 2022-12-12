@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 >id="ajo_lp_create"
 >title="랜딩 페이지 정의 및 구성"
 >abstract="랜딩 페이지를 만들려면 사전 설정을 선택한 다음, 기본 페이지와 하위 페이지를 구성한 다음 게시하기 전에 최종적으로 페이지를 테스트해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="랜딩 페이지 게시"
 
 >[!CONTEXTUALHELP]
@@ -100,8 +100,8 @@ ht-degree: 0%
 >id="ajo_lp_access_settings"
 >title="랜딩 페이지 URL 정의"
 >abstract="이 섹션에서 고유한 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 설정해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="랜딩 페이지 하위 도메인 구성"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="랜딩 페이지 하위 도메인 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 기본 페이지는 이메일 또는 웹 사이트 등의 랜딩 페이지 링크를 클릭하면 사용자에게 즉시 표시되는 페이지입니다.
 
