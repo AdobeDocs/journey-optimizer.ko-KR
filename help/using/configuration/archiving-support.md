@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 43137871e8f45e05c6fe00c51bc3c9847fabd0da
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -131,21 +131,21 @@ GDPR과 같은 규정에서는 데이터 주체가 언제든지 동의를 수정
 
 1. 아래의 다른 모든 쿼리에 대해서는 여정 작업 ID가 필요합니다. 이 쿼리를 실행하여 지난 2일 내에 특정 여정 버전 ID와 연결된 모든 작업 ID를 가져옵니다.
 
-       &quot;
-       선택
-       고유
-       CAST(TIMESTAMP AS DATE) AS EventTime,
-       _experience.journeyOrchestration.stepEvents.journeyVersionID,
-       _experience.journeyOrchestration.stepEvents.actionName,
-       _experience.journeyOrchestration.stepEvents.actionID
-       FROM journey_step_events
-       위치
-       _experience.journeyOrchestration.stepEvents.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&#39; 및
-       _experience.journeyOrchestration.stepEvents.actionID가 NULL이 아니며,
-       TIMESTAMP > NOW() - 간격 &#39;2&#39;일
-       ORDER BY EventTime DESC;
-       &quot;
-   
+   ```
+   SELECT
+   DISTINCT
+   CAST(TIMESTAMP AS DATE) AS EventTime,
+   _experience.journeyOrchestration.stepEvents.journeyVersionID,
+   _experience.journeyOrchestration.stepEvents.actionName, 
+   _experience.journeyOrchestration.stepEvents.actionID 
+   FROM journey_step_events 
+   WHERE 
+   _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND 
+   _experience.journeyOrchestration.stepEvents.actionID is not NULL AND 
+   TIMESTAMP > NOW() - INTERVAL '2' DAY 
+   ORDER BY EventTime DESC;
+   ```
+
    >[!NOTE]
    >
    >를 가져오려면 `<journey version id>`매개 변수에서 해당 [여정 버전](../building-journeys/journey.md#journey-versions) 에서 **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** 메뉴 아래의 제품에서 사용할 수 있습니다. 여정 버전 ID는 웹 브라우저에 표시되는 URL의 끝에 표시됩니다.
@@ -154,28 +154,28 @@ GDPR과 같은 규정에서는 데이터 주체가 언제든지 동의를 수정
 
 1. 지난 2일 이내에 특정 사용자를 타겟팅한 특정 메시지에 대해 생성된 모든 메시지 피드백 이벤트(특히 피드백 상태)를 가져오려면 이 쿼리를 실행하십시오.
 
-       &quot;
-       선택
-       _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID,
-       _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID,
-       timestamp AS EventTime,
-       _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
-       _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
-       CASE_experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
-       &#39;sent&#39; THEN &#39;SENT&#39;
-       &#39;delay&#39; THEN &#39;Retry&#39;
-       &#39;out_of_band&#39; THEN &#39;반송&#39;
-       &#39;바운스&#39; 후 &#39;바운스&#39;
-       END AS FeedbackStatusCategory
-       CJM_message_feedback_event_dataset에서
-       위치
-       timestamp > now() - 간격 &#39;2&#39;일 AND
-       _experience.customerJourneyManagement.messageExecution.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&#39; 및
-       _experience.customerJourneyManagement.messageExecution.journeyActionID = &#39;&lt;journey action=&quot;&quot; id=&quot;&quot;>&#39; 및
-       _experience.customerJourneyManagement.emailChannelContext.address = &#39;&lt;recipient email=&quot;&quot; address=&quot;&quot;>`
+   ```
+   SELECT  
+   _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID, 
+   _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID, 
+   timestamp AS EventTime, 
+   _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress, 
+   _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
+   CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
+       WHEN 'sent' THEN 'Sent'
+       WHEN 'delay' THEN 'Retry'
+       WHEN 'out_of_band' THEN 'Bounce' 
+       WHEN 'bounce' THEN 'Bounce'
+   END AS FeedbackStatusCategory
+   FROM cjm_message_feedback_event_dataset 
+   WHERE  
+       timestamp > now() - INTERVAL '2' day  AND
+       _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+       _experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND  
+       _experience.customerJourneyManagement.emailChannelContext.address = '<recipient email address>'
        ORDER BY EventTime DESC;
-       &quot;
-   
+   ```
+
    >[!NOTE]
    >
    >를 가져오려면 `<journey action id>` 매개 변수에서 여정 버전 id를 사용하여 위에 설명된 첫 번째 쿼리를 실행합니다. 다음 `<recipient email address>` 매개 변수는 타겟팅된 또는 실제 수신자의 이메일 주소입니다.
