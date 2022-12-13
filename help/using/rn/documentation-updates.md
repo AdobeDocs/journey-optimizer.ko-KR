@@ -4,9 +4,9 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 최신 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
    * [이메일 채널](../email/get-started-email.md)
    * [푸시 알림 채널](../push/get-started-push.md)
    * [SMS 채널](../sms/get-started-sms.md)
+
+* 향상된 가독성을 위해 구성 안내서를 재구성했습니다. [자세한 내용](../configuration/get-started-configuration.md)
 
 ## 2022년 11월 {#november-2022}
 
