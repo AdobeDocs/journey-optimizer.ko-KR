@@ -35,7 +35,7 @@ ht-degree: 92%
 또한 Assets Essentials에 액세스해야 하는 사용자를 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 추가해야 합니다. [Assets Essentials 문서에서 자세히 읽어보세요](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target=&quot;_blank&quot;}.
 
 >[!NOTE]
->2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} 섹션에서 자세히 알아보세요.
+>2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target=&quot;_blank&quot;} 섹션에서 자세히 알아보세요.
 
 [!DNL Journey Optimizer]에 처음 액세스하면 프로덕션 샌드박스가 프로비저닝되고 계약에 따라 특정 수의 IP가 할당됩니다.
 
