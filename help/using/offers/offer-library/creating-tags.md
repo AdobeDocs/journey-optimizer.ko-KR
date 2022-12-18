@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 0%
+source-wordcount: '165'
+ht-degree: 6%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 0%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-작성된 태그 목록은 **[!UICONTROL Components]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+작성된 태그 목록은 **[!UICONTROL 구성 요소]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](../assets/tags_list.png)
 
 태그를 만들려면 다음 단계를 수행하십시오.
 
-1. 로 이동합니다. **[!UICONTROL Tags]** 탭을 클릭한 다음 **[!UICONTROL Create tag]**.
+1. 로 이동합니다. **[!UICONTROL 태그]** 탭을 클릭한 다음 **[!UICONTROL 태그 만들기]**.
 
-1. 태그의 이름을 지정한 다음 **[!UICONTROL Save]**.
+1. 태그의 이름을 지정한 다음 **[!UICONTROL 저장]**.
 
    ![](../assets/tags_create.png)
 

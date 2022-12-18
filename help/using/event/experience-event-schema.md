@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여정 이벤트를 위한 ExperienceEvent 스키마 정보
-description: 여정 이벤트를 위한 ExperienceEvent 스키마에 대해 알아봅니다
+title: 여정 이벤트에 대한 ExperienceEvent 스키마 정보
+description: 여정 이벤트에 대한 ExperienceEvent 스키마에 대해 알아봅니다
 feature: Schemas
 topic: Administration
 role: Admin
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 0%
+source-wordcount: '770'
+ht-degree: 4%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] 이벤트는 스트리밍 수집을 통해 Adobe Experience Platform으로 전송되는 XDM 경험 이벤트입니다.
 
-그러므로, [!DNL Journey Optimizer] 는 Adobe Experience Platform의 Experience 데이터 모델(또는 XDM) 및 XDM 경험 이벤트 스키마를 구성하는 방법과 XDM 형식 데이터를 Adobe Experience Platform으로 스트리밍하는 방법에 대해 잘 알고 있습니다.
+그러므로, [!DNL Journey Optimizer] Adobe Experience Platform의 Experience 데이터 모델(또는 XDM) 및 XDM 경험 이벤트 스키마를 구성하는 방법과 XDM 형식 데이터를 Adobe Experience Platform으로 스트리밍하는 방법에 대해 알고 있습니다.
 
 ## 스키마 요구 사항 [!DNL Journey Optimizer] 이벤트  {#schema-requirements}
 
-에 대한 이벤트를 설정하는 첫 번째 단계입니다 [!DNL Journey Optimizer] 이벤트를 나타내기 위해 정의된 XDM 스키마 및 Adobe Experience Platform에서 이벤트 인스턴스를 기록하도록 만들어진 데이터 세트가 있는지 확인합니다. 이벤트에 대한 데이터 세트가 반드시 필요한 것은 아니지만 특정 데이터 세트에 이벤트를 보내면 향후 참조 및 분석을 위해 사용자의 이벤트 내역을 유지할 수 있으므로 항상 좋은 생각입니다. 이벤트에 적절한 스키마와 데이터 세트가 아직 없는 경우 이러한 작업을 모두 Adobe Experience Platform 웹 인터페이스에서 수행할 수 있습니다.
+에 대한 이벤트를 설정하는 첫 번째 단계입니다 [!DNL Journey Optimizer] 이벤트를 나타내기 위해 정의된 XDM 스키마와 Adobe Experience Platform에서 이벤트의 인스턴스를 기록하도록 만들어진 데이터 세트가 있는지 확인합니다. 이벤트에 대한 데이터 세트가 반드시 필요한 것은 아니지만 특정 데이터 세트에 이벤트를 보내면 향후 참조 및 분석을 위해 사용자의 이벤트 내역을 유지할 수 있으므로 항상 좋은 생각입니다. 이벤트에 적절한 스키마와 데이터 세트가 아직 없는 경우 Adobe Experience Platform 웹 인터페이스에서 두 작업을 모두 수행할 수 있습니다.
 
 ![](assets/schema1.png)
 
@@ -37,11 +37,11 @@ ht-degree: 0%
 
    ![](assets/schema3.png)
 
-* 이벤트의 제목을 식별할 ID 필드를 선언합니다. ID를 지정하지 않은 경우 ID 맵을 사용할 수 있습니다. 권장되지 않습니다.
+* 이벤트의 제목을 식별할 ID 필드를 선언합니다. ID를 지정하지 않은 경우 ID 맵을 사용할 수 있습니다. 이러한 방법은 권장되지 않습니다.
 
    ![](assets/schema4.png)
 
-* 여정의 나중에 조회를 위해 이 데이터를 사용할 수 있도록 하려면 스키마에 대한 스키마 및 데이터 세트를 프로필에 선택합니다.
+* 이 데이터를 여정에서 나중에 조회할 수 있게 하려면 해당 스키마 및 데이터 세트 프로필 을 표시합니다.
 
    ![](assets/schema5.png)
 
@@ -73,10 +73,10 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 >
 >의 스키마 관계에 대해 자세히 알아보기 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
-Journey Optimizer에서 연결된 테이블의 모든 필드를 활용할 수 있습니다.
+그런 다음 Journey Optimizer에서 연결된 테이블의 모든 필드를 활용할 수 있습니다.
 
 * 비즈니스 또는 단일 이벤트를 구성할 때 [자세한 내용](../event/experience-event-schema.md#unitary_event_configuration)
-* 여정에서 조건을 사용할 때는 [자세한 내용](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* 여정에서 조건을 사용할 때, [자세한 내용](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * 메시지 개인화에서, [자세한 내용](../event/experience-event-schema.md#message_personalization)
 * 사용자 지정 작업 개인화에서, [자세한 내용](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
@@ -96,15 +96,15 @@ Journey Optimizer에서 연결된 테이블의 모든 필드를 활용할 수 �
 
 단일 이벤트를 구성하는 방법에 대해 알아보려면 다음을 참조하십시오 [페이지](../event/about-creating.md).
 
-### 이벤트 컨텍스트를 사용하는 여정 조건{#journey_conditions_using_event_context}
+### 이벤트 컨텍스트를 사용한 여정 조건{#journey_conditions_using_event_context}
 
-조건 작성을 위한 여정에 사용되는 이벤트에 연결된 조회 테이블의 데이터를 사용할 수 있습니다(표현식 편집기).
+조건 작성을 위한 여정에 사용된 이벤트에 연결된 조회 테이블의 데이터를 사용할 수 있습니다(표현식 편집기).
 
 여정에 조건을 추가하고 표현식을 편집하고 표현식 편집기에서 이벤트 노드를 펼칩니다.
 
 ![](assets/schema12.png)
 
-여정 조건을 정의하는 방법을 알려면 다음을 참조하십시오 [페이지](../building-journeys/condition-activity.md).
+여정 조건을 정의하는 방법에 대해 알아보려면 다음을 참조하십시오 [페이지](../building-journeys/condition-activity.md).
 
 ### 메시지 개인화{#message_personalization}
 
@@ -112,7 +112,7 @@ Journey Optimizer에서 연결된 테이블의 모든 필드를 활용할 수 �
 
 ![](assets/schema14.png)
 
-상황별 여정 정보를 사용하여 메시지를 개인화하는 방법을 알려면 다음을 참조하십시오 [페이지](../personalization/personalization-use-case.md).
+상황별 여정 정보를 사용하여 메시지를 개인화하는 방법에 대해 알려면 다음을 참조하십시오 [페이지](../personalization/personalization-use-case.md).
 
 ### 여정 이벤트 컨텍스트를 사용한 사용자 지정 작업 개인화{#custom_action_personalization_with_journey_event_context}
 

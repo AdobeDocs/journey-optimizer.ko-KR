@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 0%
+source-wordcount: '1056'
+ht-degree: 2%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 ## 시작하기 및 사전 요구 사항 {#edge-overview-and-prerequisites}
 
-다음 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) 는 Adobe Experience Cloud 고객이 Experience Platform Edge Network를 통해 Experience Cloud의 다양한 서비스와 상호 작용할 수 있도록 해주는 클라이언트측 JavaScript 라이브러리입니다.
+다음 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) 는 Adobe Experience Cloud 고객이 Experience Platform Edge 네트워크를 통해 Experience Cloud에서 다양한 서비스와 상호 작용할 수 있는 클라이언트측 JavaScript 라이브러리입니다.
 
-Experience Platform Web SDK는 의사 결정 관리를 포함하여 Adobe에서 개인화 솔루션 쿼리를 지원하므로 API 또는 오퍼 라이브러리를 사용하여 만든 개인화된 오퍼를 검색하고 렌더링할 수 있습니다. 자세한 지침은 [오퍼 만들기](../../get-started/starting-offer-decisioning.md).
+Experience Platform 웹 SDK는 의사 결정 관리를 포함하여 Adobe에서 개인화 솔루션 쿼리를 지원하므로 API 또는 오퍼 라이브러리를 사용하여 만든 개인화된 오퍼를 검색하고 렌더링할 수 있습니다. 자세한 지침은 [오퍼 만들기](../../get-started/starting-offer-decisioning.md).
 
 을 사용하여 의사 결정 관리를 구현하는 방법에는 두 가지가 있습니다 [Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 한 가지 방법은 개발자를 위한 것이고 웹 사이트와 프로그래밍에 대한 지식이 필요합니다. 다른 방법은 Adobe Experience Platform 사용자 인터페이스를 사용하여 HTML 페이지의 헤더에서 작은 스크립트만 참조하도록 하는 오퍼를 설정하는 것입니다.
 
-다음 문서를 참조하십시오. [의사 결정 관리](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) adobe Experience Platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대한 자세한 정보.
+다음 문서를 참조하십시오. [의사 결정 관리](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) Adobe Experience Platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대한 자세한 정보.
 
 >[!NOTE]
 >
->Adobe Experience Platform Web SDK의 의사 결정 관리 사용은 한 세트의 조직(제한된 가용성)에만 사용할 수 있습니다. 이 기능을 활용하려면 Adobe 계정 담당자에게 문의하십시오.
+>Adobe Experience Platform Web SDK에서 의사 결정 관리 는 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 이 기능을 활용하려면 Adobe 계정 담당자에게 문의하십시오.
 
 ## Adobe Experience Platform 웹 SDK {#aep-web-sdk}
 
@@ -44,7 +44,7 @@ SDK는 이러한 라이브러리를 결합하지 않았으며 처음부터 새�
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) 를 클릭하여 제품에서 사용할 수 있습니다.
+1. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) ( Adobe Experience Cloud에서 계정의 데이터 수집 탭 내).
 
 1. SDK를 설치합니다. 다음과 같은 여러 가지 방법으로 데이터를 수집할 수 있습니다 [SDK 페이지 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 이 페이지는 각 서로 다른 구현 방법으로 계속 진행됩니다.
 
@@ -72,7 +72,7 @@ SDK를 사용하려면 [스키마](../../../data/get-started-schemas.md) 그리�
 
    ![확장 구성](../../assets/configure-sdk-extension.png)
 
-1. 필요한 만들기 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). 최소한으로, Platform 웹 SDK ID 맵과 Platform 웹 SDK XDM 개체 데이터 요소를 만들어야 합니다.
+1. 필요한 만들기 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ko-KR). 최소한으로, Platform 웹 SDK ID 맵과 Platform 웹 SDK XDM 개체 데이터 요소를 만들어야 합니다.
 
    ![ID 맵](../../assets/sdk-identity-map.png)
 
@@ -92,7 +92,7 @@ SDK를 사용하려면 [스키마](../../../data/get-started-schemas.md) 그리�
 
 다음은 웹 SDK의 사전 설치된 독립 실행형 설치를 사용하여 의사 결정 관리를 사용하는 데 필요한 단계입니다. 이 안내서에서는 이 작업이 SDK를 처음 구현하는 것이라며, 따라서 모든 단계를 사용자에게 적용할 수 없을 수 있습니다. 이 안내서에서는 일부 개발 경험도 가정합니다.
 
-옵션 2에서 다음 JavaScript 코드 조각을 포함합니다. 사전 빌드된 독립형 버전 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 에서 `<head>` 섹션을 참조하십시오.
+옵션 2에서 다음 JavaScript 코드 조각을 포함합니다. 사전 빌드된 독립형 버전 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 에서 `<head>` 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
 ```
 javascript

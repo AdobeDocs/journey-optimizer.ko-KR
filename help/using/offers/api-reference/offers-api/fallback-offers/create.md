@@ -9,13 +9,13 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 # 대체 오퍼 만들기 {#create-fallback-offer}
 
-에 POST 요청을 수행하여 대체 오퍼를 만들 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
+에 POST 요청을 만들어 대체 오퍼를 만들 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
-| 수락 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| 컨텐츠 유형 | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
 **API 형식**
 

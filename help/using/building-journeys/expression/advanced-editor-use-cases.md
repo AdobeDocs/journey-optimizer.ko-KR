@@ -9,14 +9,14 @@ level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 3%
 
 ---
 
 # 고급 표현식 예{#advanced-expression-examples}
 
-고급 표현식 편집기를 사용하여 여정에서 사용자를 필터링할 수 있는 조건을 만들 수 있습니다. 이러한 조건을 사용하면 시간, 날짜, 위치, 지속 시간 또는 장바구니에서 구매 또는 포기와 같은 작업을 통해 사용자를 타겟팅하여 여정에서 재타겟팅할 수 있습니다.
+고급 표현식 편집기를 사용하여 여정에서 사용자를 필터링할 수 있는 조건을 만들 수 있습니다. 이러한 조건을 사용하면 여정에서 재타겟팅할 수 있도록 시간, 날짜, 위치, 기간 또는 장바구니 구매나 포기 등의 조치를 통해 사용자를 타깃팅할 수 있습니다.
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ ht-degree: 0%
                        .SKU}
    ```
 
-여기서 제품이 매장 상태가 아닌 경우에 대한 여정에 다른 경로를 추가하여 참여 오퍼와 함께 알림을 보낼 수 있습니다. 그에 따라 메시지를 구성하고 개인화 데이터를 사용하여 메시지 타겟을 강화합니다.
+여기에서 제품이 매장 되어 있지 않을 경우에 대한 여정에 다른 경로를 추가하여 참여 오퍼와 함께 알림을 보낼 수 있습니다. 그에 따라 메시지를 구성하고 개인화 데이터를 사용하여 메시지 타겟을 강화합니다.
 
 ## 고급 표현식 편집기를 사용한 문자열 조정의 예
 
@@ -146,4 +146,4 @@ substr(
 
 설명: 이 예에서는 을 사용합니다 `substr` 및 `lastIndexOf` 모바일 앱 실행 이벤트와 함께 전달된 CRM ID를 포함하는 중괄호를 제거하는 함수입니다.
 
-고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).
+고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=ko-KR).

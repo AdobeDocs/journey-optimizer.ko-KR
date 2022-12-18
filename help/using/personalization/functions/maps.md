@@ -9,7 +9,7 @@ exl-id: de6a8da2-55cf-4105-ba93-40c556732626
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 개인화에서 맵 함수를 사용하여 맵과의 상호 작용을 더 쉽게 할 수 있습니다.
 
-## Get{#get}
+## 가져오기{#get}
 
 다음 `get` 함수는 지정된 키에 대한 맵 값을 검색하는 데 사용됩니다.
 

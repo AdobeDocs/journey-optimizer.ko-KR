@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 0%
+source-wordcount: '158'
+ht-degree: 8%
 
 ---
 
-# 결정 업데이트 {#update-decision}
+# 의사 결정 업데이트 {#update-decision}
 
-PATCH 요청을 수행하여 컨테이너에서 결정을 수정하거나 갱신할 수 있습니다 [!DNL Offer Library] API.
+에 PATCH 요청을 수행하여 컨테이너의 결정을 수정하거나 업데이트할 수 있습니다 [!DNL Offer Library] API.
 
 사용 가능한 작업을 포함한 JSON 패치에 대한 자세한 내용은 공식 문서를 참조하십시오 [JSON 패치 설명서](http://jsonpatch.com/).
 
@@ -25,8 +25,8 @@ PATCH 요청을 수행하여 컨테이너에서 결정을 수정하거나 갱신
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
-| 수락 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| 컨텐츠 유형 | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
 
 **API 형식**
 

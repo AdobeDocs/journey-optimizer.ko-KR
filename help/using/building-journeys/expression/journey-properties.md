@@ -10,13 +10,13 @@ exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# 여정 속성 속성 {#journey-properties}
+# 여정 속성 속성 속성 {#journey-properties}
 
-고급 표현식 편집기에서 **여정 속성** 카테고리(이벤트 및 데이터 소스 카테고리 아래)를 참조하십시오. 이 카테고리에는 주어진 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다.
+고급 표현식 편집기에서 **여정 속성** 카테고리(이벤트 및 데이터 소스 카테고리 아래)를 참조하십시오. 이 카테고리에는 해당 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 다음과 같은 정보를 찾을 수 있습니다.
 
-* 여정 버전: journey uid, journey version uid, 인스턴스 uid 등
+* 여정 버전: 여정 uid, 여정 버전 uid, 인스턴스 uid 등
 * 오류: 데이터 가져오기, 작업 실행 등
 * 현재 단계, 마지막 현재 단계 등
 * 폐기된 프로필
@@ -54,7 +54,7 @@ ht-degree: 0%
 |  | externalKey | 외부 키 | 여정을 트리거하는 개별 식별자 |
 |  | organizationId | 조직 식별자 | 브랜드 조직 |
 |  | sandboxName | 샌드박스 이름 | 샌드박스의 이름 |
-| ID | profileId | 프로필 ID 식별자 | 여정에서 프로필의 식별자입니다 |
+| 신원 | profileId | 프로필 ID 식별자 | 여정에 있는 프로필의 식별자입니다 |
 |  | namespace | 프로필 ID 네임스페이스 | 여정에 있는 프로필의 네임스페이스(예: ECID) |
 | 현재 노드 | currentNodeId | 현재 노드 식별자 | 현재 활동의 식별자(노드) |
 |  | currentNodeName | 현재 노드 이름 | 현재 활동의 이름(노드) |

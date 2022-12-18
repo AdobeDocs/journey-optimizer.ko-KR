@@ -1,6 +1,6 @@
 ---
 title: DM 구성
-description: Journey Optimizer에서 DM 채널을 구성하는 방법을 알아봅니다
+description: Journey Optimizer에서 DM 채널을 구성하는 방법 알아보기
 feature: Overview
 topic: Content Management
 role: User
@@ -10,7 +10,7 @@ hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ DM 공급자가 해당 파일에 액세스하여 메일 배달에 사용할 수 
 
 파일 라우팅을 구성하려면 아래 단계를 따르십시오.
 
-1. 액세스 권한 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** 메뉴를 클릭한 다음 **[!UICONTROL Create routing configuration]**.
+1. 액세스 권한 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 파일 라우팅 구성]** > **[!UICONTROL 파일 라우팅]** 메뉴를 클릭한 다음 **[!UICONTROL 라우팅 구성 만들기]**.
 
    ![](assets/file-routing-config-button.png)
 
 1. 구성 이름을 설정합니다.
 
-1. 을(를) 선택합니다 **[!UICONTROL Server type]** DM 파일을 내보내는 데 사용할 DM입니다.
+1. 을(를) 선택합니다 **[!UICONTROL 서버 유형]** DM 파일을 내보내는 데 사용할 DM입니다.
 
    ![](assets/file-routing-config-type.png)
 
@@ -85,19 +85,19 @@ DM 공급자가 해당 파일에 액세스하여 메일 배달에 사용할 수 
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. 선택한 경우 **[!UICONTROL Amazon S3]**&#x200B;을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL AWS region]** 서버 인프라가 위치할 위치입니다.
+1. 선택한 경우 **[!UICONTROL Amazon S3]**&#x200B;을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL AWS 지역]** 서버 인프라가 위치할 위치입니다.
 
    ![](assets/file-routing-config-aws-region.png)
 
    >[!NOTE]
    >
-   >AWS 리전은 AWS가 클라우드 인프라를 호스팅하기 위해 사용하는 지리적 영역입니다. 일반적으로 DM 공급자의 위치에 가장 가까운 지역을 선택하는 것이 좋습니다.
+   >AWS 지역은 AWS이 클라우드 인프라를 호스팅하기 위해 사용하는 지리적 영역입니다. 일반적으로 DM 공급자의 위치에 가장 가까운 지역을 선택하는 것이 좋습니다.
 
-1. 선택 **[!UICONTROL Submit]**. 파일 라우팅 구성은 **[!UICONTROL Active]** 상태. 이제 다음 위치에서 사용할 준비가 되었습니다. [DM 표면](#direct-mail-surface).
+1. 선택 **[!UICONTROL 제출]**. 파일 라우팅 구성은 **[!UICONTROL 활성]** 상태. 이제 다음 위치에서 사용할 준비가 되었습니다. [DM 표면](#direct-mail-surface).
 
    >[!NOTE]
    >
-   >선택할 수도 있습니다 **[!UICONTROL Save as draft]** 파일 경로설정 구성을 생성하기 위해 파일 경로설정 구성이 생성되기 전까지 서피스에서 선택할 수 없습니다 **[!UICONTROL Active]**.
+   >선택할 수도 있습니다 **[!UICONTROL 초안으로 저장]** 파일 경로설정 구성을 생성하기 위해 파일 경로설정 구성이 생성되기 전까지 서피스에서 선택할 수 없습니다 **[!UICONTROL 활성]**.
 
 ## DM 표면 만들기 {#direct-mail-surface}
 
@@ -122,9 +122,9 @@ DM을 [!DNL Journey Optimizer]을(를) 만들려면 메일 공급자가 사용�
 
 DM 서피스에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 구성도 포함되어야 합니다.
 
-1. 채널 서피스를 생성합니다. [추가 정보](../configuration/channel-surfaces.md)
+1. 채널 서피스를 생성합니다. [자세히 알아보기](../configuration/channel-surfaces.md)
 
-1. 을(를) 선택합니다 **[!UICONTROL Direct mail]** 채널.
+1. 을(를) 선택합니다 **[!UICONTROL DM]** 채널.
 
    ![](assets/surface-direct-mail-channel.png)
 
@@ -134,13 +134,13 @@ DM 서피스에는 DM 파일을 내보낼 서버를 정의하는 파일 라우�
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
-1. 파일 형식을 선택합니다. **[!UICONTROL CSV]** 또는 **[!UICONTROL Text delimited]**.
+1. 파일 형식을 선택합니다. **[!UICONTROL CSV]** 또는 **[!UICONTROL 텍스트 구분]**.
 
-1. 을(를) 선택합니다 **[!UICONTROL File routing configuration]** 만든 것들 중에서. DM 공급자가 사용할 파일을 내보낼 위치를 정의합니다.
+1. 을(를) 선택합니다 **[!UICONTROL 파일 라우팅 구성]** 만든 것들 중에서. DM 공급자가 사용할 파일을 내보낼 위치를 정의합니다.
 
    >[!CAUTION]
    >
-   >파일 라우팅 옵션을 구성하지 않은 경우 DM 서피스를 생성할 수 없습니다. [추가 정보](#file-routing-configuration)
+   >파일 라우팅 옵션을 구성하지 않은 경우 DM 서피스를 생성할 수 없습니다. [자세히 알아보기](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png)
 

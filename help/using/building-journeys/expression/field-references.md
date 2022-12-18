@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 3%
 
 ---
 
@@ -98,7 +98,7 @@ expression examples:
 
 ## 컬렉션 내의 필드 참조
 
-컬렉션 내에 정의된 요소는 특정 함수를 사용하여 참조됩니다 `all`, `first` 및 `last`. 자세한 내용은 [이 페이지](../expression/collection-management-functions.md).
+컬렉션 내에 정의된 요소는 특정 함수를 사용하여 참조됩니다 `all`, `first` 및 `last`. 자세한 정보는 [이 페이지](../expression/collection-management-functions.md)를 참조하십시오.
 
 예 :
 
@@ -108,7 +108,7 @@ expression examples:
 
 ## 맵에 정의된 필드에 대한 참조
 
-### `entry` 함수
+### `entry` 함수 위에 있어야 합니다
 
 맵에서 요소를 검색하려면 지정된 키와 함께 시작 함수를 사용합니다. 예를 들어 선택한 네임스페이스에 따라 이벤트의 키를 정의할 때 사용됩니다. 자세한 내용은 [이 페이지](../../event/about-creating.md#select-the-namespace).
 
@@ -118,7 +118,7 @@ expression examples:
 
 이 표현식에서는 이벤트의 &#39;IdentityMap&#39; 필드의 &#39;Email&#39; 키에 대한 항목이 제공됩니다. &#39;Email&#39; 항목은 &#39;first()&#39;를 사용하여 첫 번째 요소에서 &#39;id&#39;를 가져오는 컬렉션입니다. 자세한 내용은 [이 페이지](../expression/collection-management-functions.md).
 
-### `firstEntryKey` 함수
+### `firstEntryKey` 함수 위에 있어야 합니다
 
 맵의 첫 번째 시작 키를 검색하려면 `firstEntryKey` 함수 위에 있어야 합니다.
 
@@ -130,7 +130,7 @@ expression examples:
 
 이 예제에서 구독 목록은 `daily-email`. 이메일 주소는 `subscribers` 맵: 가입 목록 맵에 연결됩니다.
 
-### `keys` 함수
+### `keys` 함수 위에 있어야 합니다
 
 맵의 모든 키로 검색하려면 `keys` 함수 위에 있어야 합니다.
 
@@ -142,7 +142,7 @@ expression examples:
 
 ## 데이터 소스의 매개 변수 값(데이터 소스 동적 값)
 
-매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하는 경우 오른쪽에 이 매개 변수를 지정할 수 있는 새 탭이 나타납니다. 자세한 내용은 [이 페이지](../expression/expressionadvanced.md).
+매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하는 경우 오른쪽에 이 매개 변수를 지정할 수 있는 새 탭이 나타납니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
 
 보다 복잡한 사용 사례에서는 기본 표현식에 데이터 소스의 매개 변수를 포함하려는 경우 키워드를 사용하여 해당 값을 정의할 수 있습니다 _params_. 매개 변수는 다른 매개 변수도 포함하는 다른 데이터 소스의 모든 유효한 표현식일 수 있습니다.
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 0%
+source-wordcount: '693'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 추적 활성화 {#enable-tracking}
 
-이메일 메시지 수준에서 을(를) 확인하여 추적을 활성화할 수 있습니다 **[!UICONTROL Email opens]** 및/또는 **[!UICONTROL Click on email]** 선택 사항 을 사용할 수 있습니다.
+이메일 메시지 수준에서 을(를) 확인하여 추적을 활성화할 수 있습니다 **[!UICONTROL 이메일 열기]** 및/또는 **[!UICONTROL 이메일을 클릭합니다.]** 여정 또는 캠페인 내에서 메시지를 만들 때 선택할 수 있는 옵션.
 
 >[!BEGINTABS]
 
@@ -41,8 +41,8 @@ ht-degree: 0%
 
 이를 통해 수신자의 동작을 추적할 수 있습니다.
 
-* **[!UICONTROL Email opens]**: 열린 메시지.
-* **[!UICONTROL Click on email]**: 이메일의 링크에 대한 클릭 수.
+* **[!UICONTROL 이메일 열기]**: 열린 메시지.
+* **[!UICONTROL 이메일을 클릭합니다.]**: 이메일의 링크에 대한 클릭 수.
 
 ## 링크 삽입 {#insert-links}
 
@@ -54,31 +54,31 @@ ht-degree: 0%
 
 이메일 콘텐츠에 링크를 삽입하려면 아래 단계를 수행하십시오.
 
-1. 요소를 선택하고 를 클릭합니다 **[!UICONTROL Insert link]** 상황별 도구 모음
+1. 요소를 선택하고 를 클릭합니다 **[!UICONTROL 링크 삽입]** 상황별 도구 모음
 
    ![](assets/message-tracking-insert-link.png)
 
 1. 만들 링크 유형을 선택합니다.
 
-   * **[!UICONTROL External link]**: 외부 URL에 대한 링크를 삽입합니다.
+   * **[!UICONTROL 외부 링크]**: 외부 URL에 대한 링크를 삽입합니다.
 
-   * **[!UICONTROL Landing page]**: 랜딩 페이지에 대한 링크를 삽입합니다. 추가 정보 [이 섹션](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL 랜딩 페이지]**: 랜딩 페이지에 대한 링크를 삽입합니다. [이 섹션](../landing-pages/get-started-lp.md)에서 자세히 알아보기
 
-   * **[!UICONTROL One click Opt-out]**: 옵트아웃을 확인하지 않고 사용자가 커뮤니케이션에서 빠르게 가입을 해지할 수 있는 링크를 삽입합니다. 추가 정보 [이 섹션](../privacy/opt-out.md#one-click-opt-out).
+   * **[!UICONTROL 옵트아웃 한 번 클릭]**: 옵트아웃을 확인하지 않고 사용자가 커뮤니케이션에서 빠르게 가입을 해지할 수 있는 링크를 삽입합니다. 자세한 내용은 [이 섹션](../privacy/opt-out.md#one-click-opt-out)을 참조하십시오.
 
-   * **[!UICONTROL External Opt-in/Subscription]**: 브랜드로부터 받는 커뮤니케이션을 수락하려면 링크를 삽입합니다.
+   * **[!UICONTROL 외부 옵트인/구독]**: 브랜드로부터 받는 커뮤니케이션을 수락하려면 링크를 삽입합니다.
 
-   * **[!UICONTROL External Opt-out/Unsubscription]**: 브랜드의 커뮤니케이션 수신을 취소할 링크를 삽입합니다. 의 옵트아웃 관리에 대해 자세히 알아보십시오 [이 섹션](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL 외부 옵트아웃/구독 취소]**: 브랜드의 커뮤니케이션 수신을 취소할 링크를 삽입합니다. [이 섹션](../privacy/opt-out.md#opt-out-management)에서 옵트아웃 관리에 대해 자세히 알아보십시오.
 
-   * **[!UICONTROL Mirror page]**: 웹 브라우저에 이메일 콘텐츠를 표시할 링크를 삽입합니다. 추가 정보 [이 섹션](#mirror-page).
+   * **[!UICONTROL 미러 페이지]**: 웹 브라우저에 이메일 콘텐츠를 표시할 링크를 삽입합니다. 자세한 내용은 [이 섹션](#mirror-page)을 참조하십시오.
 
    ![](assets/message-tracking-links.png)
 
-1. 링크를 개인화할 수 있습니다. 의 개인화된 URL에 대해 자세히 알아보십시오 [이 섹션](../personalization/personalization-syntax.md#perso-urls).
+1. 링크를 개인화할 수 있습니다. [이 섹션](../personalization/personalization-syntax.md#perso-urls)에서 URL 개인화에 대해 자세히 알아보십시오.
 
-1. 변경 사항을 저장합니다.
+1. 변경 내용을 저장합니다.
 
-1. 링크가 만들어지더라도 **[!UICONTROL Component settings]** 오른쪽 창입니다.
+1. 링크가 만들어지더라도 **[!UICONTROL 구성 요소 설정]** 오른쪽 창입니다.
 
    * 링크를 편집하고 유형을 변경할 수 있습니다.
    * 해당 옵션을 선택하여 링크에 밑줄을 긋도록 선택할 수 있습니다.
@@ -87,13 +87,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-management): 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL Marketing]** 또는 **[!UICONTROL Transactional]**)가에 정의되어 있습니다. [채널 표면](../configuration/channel-surfaces.md#email-type) (즉, 메시지 사전 설정) 수준 및 메시지를 만들 때 사용됩니다.
+>마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-management): 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 표면](../configuration/channel-surfaces.md#email-type)(예: 메시지 사전 설정) 수준에서 메시지를 만들 때 정의됩니다.
 
 ## 미러 페이지에 대한 링크 {#mirror-page}
 
 미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 전자 메일의 콘텐츠와 동일합니다.
 
-이메일에 미러 페이지에 대한 링크를 추가하려면 [링크 삽입](#insert-links) 을(를) 선택합니다. **[!UICONTROL Mirror page]** 를 링크 유형으로 사용할 수 있습니다.
+이메일에 미러 페이지에 대한 링크를 추가하려면 [링크 삽입](#insert-links) 을(를) 선택합니다. **[!UICONTROL 미러 페이지]** 를 링크 유형으로 사용할 수 있습니다.
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 다음 [이메일 디자이너](content-from-scratch.md) 각 링크에 대한 추적 유형 편집과 같이 추적된 URL을 관리할 수 있습니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL Links]** 아이콘을 클릭하여 추적할 컨텐츠의 모든 URL 목록을 표시합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL 링크]** 아이콘을 클릭하여 추적할 컨텐츠의 모든 URL 목록을 표시합니다.
 
    이 목록을 사용하면 중앙 집중식 보기를 사용하고 이메일 콘텐츠에서 각 URL을 찾을 수 있습니다.
 
@@ -123,15 +123,15 @@ ht-degree: 0%
 
    ![](assets/message-tracking-edit-links.png)
 
-1. 을 수정할 수 있습니다 **[!UICONTROL Tracking Type]** 필요한 경우:
+1. 을 수정할 수 있습니다 **[!UICONTROL 추적 유형]** 필요한 경우:
 
    ![](assets/message-tracking-edit-a-link.png)
 
    추적된 각 URL에 대해 추적 모드를 다음 값 중 하나로 설정할 수 있습니다.
 
-   * **[!UICONTROL Tracked]**: 이 URL에서 추적을 활성화합니다.
-   * **[!UICONTROL Opt out]**: 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
-   * **[!UICONTROL Mirror page]**: 이 URL이 미러 페이지 URL인 것으로 간주합니다.
-   * **[!UICONTROL Never]**: 이 URL의 추적을 활성화하지 않습니다. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL 추적됨]**: 이 URL에서 추적을 활성화합니다.
+   * **[!UICONTROL 옵트아웃]**: 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
+   * **[!UICONTROL 미러 페이지]**: 이 URL이 미러 페이지 URL인 것으로 간주합니다.
+   * **[!UICONTROL 절대 안 함]**: 이 URL의 추적을 활성화하지 않습니다. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 시작 및 클릭에 대한 보고는 [라이브 보고서](../reports/live-report.md) 그리고 [글로벌 보고서](../reports/global-report.md).

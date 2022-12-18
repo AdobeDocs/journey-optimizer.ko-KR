@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 >title="캠페인"
 >abstract="다양한 채널에서 특정 세그먼트에 일회성 콘텐츠를 전달하는 캠페인을 만듭니다. 캠페인을 만들기 전에 채널 표면(즉, 메시지 사전 설정)과 Adobe Experience Platform 세그먼트를 사용할 수 있는지 확인하십시오."
 
-Journey Optimizer 캠페인을 사용하여 다양한 채널을 사용하여 특정 세그먼트에 일회성 콘텐츠를 전달할 수 있습니다. 여정을 사용할 때 작업이 순서대로 실행됩니다. 캠페인을 사용하면 작업이 동시에 즉시 또는 지정된 스케줄에 따라 수행됩니다.
+Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 세그먼트에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업이 순서대로 실행됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다.
 
 두 가지 유형의 캠페인을 만들 수 있습니다.
 
@@ -39,28 +39,28 @@ Journey Optimizer 캠페인을 사용하여 다양한 채널을 사용하여 특
 
 Journey Optimizer에서 첫 번째 캠페인을 만들기 전에 다음 사전 요구 사항을 확인하십시오.
 
-1. **적절한 권한이 필요합니다**. 캠페인은 캠페인 관련 액세스 권한이 있는 사용자만 사용할 수 있습니다 **[!UICONTROL Product profile]** 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 뷰어와 같은.
+1. **적절한 권한이 필요합니다**. 캠페인은 캠페인 관련 액세스 권한이 있는 사용자만 사용할 수 있습니다 **[!UICONTROL 제품 프로필]** 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 뷰어와 같은.
 
    캠페인에 액세스할 수 없는 경우 권한을 확장해야 합니다. 액세스 권한이 있는 경우 [Adobe Admin Console](https://adminconsole.adobe.com/)조직에 대해 {target=&quot;_blank&quot;}에서 아래 단계를 수행하십시오. 없는 경우 Journey Optimizer 관리자에게 문의하십시오.
 
    +++캠페인 권한을 할당하는 방법 알아보기
 
-   해당 **[!UICONTROL Product profile]** 사용자에게:
+   해당 **[!UICONTROL 제품 프로필]** 사용자에게:
 
    1. From [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}, [!DNL Adobe Experience Platform] 제품.
 
-   1. 다음 위치로 이동합니다. **[!UICONTROL Product profile]** 탭에서 기본 제공 캠페인 관련 항목 중 하나를 선택합니다 **[!UICONTROL Product profile]**: 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 또는 캠페인 뷰어.
+   1. 다음 위치로 이동합니다. **[!UICONTROL 제품 프로필]** 탭에서 기본 제공 캠페인 관련 항목 중 하나를 선택합니다 **[!UICONTROL 제품 프로필]**: 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 또는 캠페인 뷰어.
 
-      Journey Optimizer 캠페인에 대한 자세한 내용은 **[!UICONTROL Product profiles]** 및 **[!UICONTROL Permissions]**, [이 페이지 참조](../administration/ootb-product-profiles.md).
+      Journey Optimizer 캠페인에 대한 자세한 정보 **[!UICONTROL 제품 프로필]** 및 **[!UICONTROL 권한]**, [이 페이지 참조](../administration/ootb-product-profiles.md).
 
       ![](assets/do-not-localize/admin_1.png)
 
-   1. 클릭 **[!UICONTROL Add user]** 사용자에게 할당하려면 **[!UICONTROL Product profile]**.
+   1. 클릭 **[!UICONTROL 사용자 추가]** 사용자에게 할당하려면 **[!UICONTROL 제품 프로필]**.
 
       ![](assets/do-not-localize/admin_2.png)
 
-   1. 사용자 이름, 그룹 또는 이메일 주소를 입력하고 **[!UICONTROL Save]**.
-   이제 사용자가 **[!UICONTROL Campaigns]**.
+   1. 사용자 이름, 그룹 또는 이메일 주소를 입력하고 **[!UICONTROL 저장]**.
+   이제 사용자가 **[!UICONTROL 캠페인]**.
 
 +++
 

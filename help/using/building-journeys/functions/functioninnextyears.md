@@ -9,7 +9,7 @@ exl-id: e4597772-d53c-4e15-8237-b2460ce31170
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 부울을 반환합니다.
 
-## 예
+## 예시
 
 `inNextYears(toDateTime('2021-12-12T01:11:00Z'), 4)`
 

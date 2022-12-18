@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 0%
+source-wordcount: '153'
+ht-degree: 8%
 
 ---
 
 # 대체 오퍼 삭제 {#delete-fallback-offer}
 
-경우에 따라 대체 오퍼를 제거(삭제)해야 할 수 있습니다. 테넌트 컨테이너에서 만든 대체 오퍼만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 대체 오퍼의 $id를 사용하는 API입니다.
+경우에 따라 대체 오퍼를 제거(DELETE)해야 할 수 있습니다. 테넌트 컨테이너에서 만든 대체 오퍼만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 대체 오퍼의 $id를 사용하는 API입니다.
 
 **API 형식**
 

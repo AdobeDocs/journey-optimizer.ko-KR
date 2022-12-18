@@ -10,7 +10,7 @@ exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 에서는 두 가지 유형의 AI 모델을 사용할 수 있습니다 [!DNL Journey Optimizer]:
 
-* **자동 최적화 모델** 비즈니스 클라이언트가 설정한 반환(KPI)을 극대화하는 오퍼를 제공하는 것을 목표로 합니다. 이러한 KPI는 전환율, 매출 등의 유형일 수 있습니다. 이때 자동 최적화는 오퍼를 Adobe Target으로 전환하여 오퍼 클릭 최적화에 중점을 둡니다. 자동 최적화는 오퍼의 &quot;전역&quot; 성능을 기반으로 개인화되지 않고 최적화합니다. [추가 정보](auto-optimization-model.md)
+* **자동 최적화 모델** 비즈니스 클라이언트가 설정한 반환(KPI)을 극대화하는 오퍼를 제공하는 것을 목표로 합니다. 이러한 KPI는 전환율, 매출 등의 유형일 수 있습니다. 이때 자동 최적화는 오퍼를 Adobe Target으로 전환하여 오퍼 클릭 최적화에 중점을 둡니다. 자동 최적화는 오퍼의 &quot;전역&quot; 성능을 기반으로 개인화되지 않고 최적화합니다. [자세히 알아보기](auto-optimization-model.md)
 
-* **개인화 모델** 을(를) 통해 비즈니스 목표를 정의하고 고객 데이터를 활용하여 비즈니스 중심 모델을 교육하여 개인화된 오퍼를 제공하고 KPI를 극대화할 수 있습니다. [추가 정보](personalized-optimization-model.md)
+* **개인화 모델** 을(를) 통해 비즈니스 목표를 정의하고 고객 데이터를 활용하여 비즈니스 중심 모델을 교육하여 개인화된 오퍼를 제공하고 KPI를 극대화할 수 있습니다. [자세히 알아보기](personalized-optimization-model.md)
 
    >[!CAUTION]
    >
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 AI 모델을 만들고 사용하는 주요 단계는 다음과 같습니다.
 
-1. 전환 및 노출 이벤트를 수집할 데이터 세트를 만듭니다. [추가 정보](create-dataset.md)
-1. 데이터 세트의 이벤트를 활용하여 오퍼의 등급을 매기는 AI 모델을 만듭니다. [추가 정보](create-ranking-strategies.md)
-1. 이벤트를 자동으로 캡처하도록 오퍼 스키마를 구성합니다. [추가 정보](schema-requirement.md)
-1. 적합한 오퍼의 등급을 지정하도록 결정에서 배치에 AI 모델을 지정합니다. [추가 정보](../offer-activities/configure-offer-selection.md)
+1. 전환 및 노출 이벤트를 수집할 데이터 세트를 만듭니다. [자세히 알아보기](create-dataset.md)
+1. 데이터 세트의 이벤트를 활용하여 오퍼의 등급을 매기는 AI 모델을 만듭니다. [자세히 알아보기](create-ranking-strategies.md)
+1. 이벤트를 자동으로 캡처하도록 오퍼 스키마를 구성합니다. [자세히 알아보기](schema-requirement.md)
+1. 적합한 오퍼의 등급을 지정하도록 결정에서 배치에 AI 모델을 지정합니다. [자세히 알아보기](../offer-activities/configure-offer-selection.md)

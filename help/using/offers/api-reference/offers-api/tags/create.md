@@ -9,13 +9,13 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 # 태그 만들기 {#create-tag}
 
-에 POST 요청을 수행하여 태그를 만들 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
+에 POST 요청을 작성하여 태그를 만들 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
-| 수락 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| 컨텐츠 유형 | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
 **API 형식**
 

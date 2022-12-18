@@ -9,13 +9,13 @@ exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 # 의사 결정 규칙 나열 {#list-decision-rules}
 
-의사 결정 규칙은 개인화된 오퍼에 추가되고 자격을 결정하기 위해 프로필에 적용되는 제한입니다. 컨테이너에서 단일 GET 요청을 수행하여 기존 결정 규칙 목록을 볼 수 있습니다 [!DNL Offer Library] API.
+의사 결정 규칙은 개인화된 오퍼에 추가되고 자격을 결정하기 위해 프로필에 적용되는 제한입니다. 컨테이너에서 단일 GET 요청을 수행하여 기존 의사 결정 규칙 목록을 볼 수 있습니다 [!DNL Offer Library] API.
 
 **API 형식**
 

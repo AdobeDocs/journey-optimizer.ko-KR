@@ -1,5 +1,5 @@
 ---
-title: 결정 나열
+title: 의사 결정 나열
 description: 결정에는 오퍼의 선택을 알리는 논리가 포함되어 있습니다.
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 결정 나열 {#list-decisions}
+# 의사 결정 나열 {#list-decisions}
 
 결정에는 오퍼의 선택을 알리는 논리가 포함되어 있습니다.
 

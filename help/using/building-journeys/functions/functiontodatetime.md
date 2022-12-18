@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 0%
+source-wordcount: '93'
+ht-degree: 10%
 
 ---
 
@@ -69,7 +69,7 @@ Return a datetime.
 
 -->
 
-## 예
+## 예시
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 

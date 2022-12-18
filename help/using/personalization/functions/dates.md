@@ -8,8 +8,8 @@ level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 6%
 
 ---
 
@@ -134,7 +134,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 날짜 패턴이 올바르지 않으면 날짜가 ISO 표준 형식으로 대체됩니다.
 >
-> 요약된 대로 Java 날짜 형식 기능을 사용할 수 있습니다 [Oracle 설명서에서](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> 요약된 대로 Java 날짜 형식 기능을 사용할 수 있습니다 [oracle 설명서에서](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **예**
 

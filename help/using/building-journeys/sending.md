@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정 실행 시작
-description: 여정을 시작하고 메시지를 보내는 방법을 배웁니다
+description: 여정을 시작하고 메시지를 보내는 방법을 알아봅니다
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 0%
+source-wordcount: '292'
+ht-degree: 4%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 0%
 
 ## 여정 활성화
 
-이 여정을 활성화하려면 여정을 게시해야 합니다.
+여정을 활성화하려면 게시해야 합니다.
 
 ![](assets/jo-journeyuc2_32bis.png)
 
 자세한 내용 [섹션](publishing-the-journey.md).
 
 
-게시된 후에는 전용 보고 도구를 사용하여 여정을 모니터링하여 여정의 효과를 측정할 수 있습니다.
+게시되면 전용 보고 도구를 사용하여 여정을 모니터링하여 여정의 효과를 측정할 수 있습니다.
 
 ![](assets/jo-dynamic_report_journey_12.png)
 
@@ -42,25 +42,25 @@ ht-degree: 0%
 
 ## 메시지 예약 {#schedule-messages}
 
-메시지는 **[!UICONTROL Read Segment]** 의 활동 [여정](journey.md). 세그먼트가 여정에 들어갈 시기를 지정할 수 있습니다. [세그먼트 읽기 활동에 대해 자세히 알아보십시오](read-segment.md).
+메시지는 **[!UICONTROL 세그먼트 읽기]** 의 활동 [여정](journey.md). 세그먼트가 여정을 입력할 시기를 지정할 수 있습니다. [세그먼트 읽기 활동에 대해 자세히 알아보십시오](read-segment.md).
 
-이렇게 하려면 아래 단계를 수행합니다.
+이렇게 하려면 아래 단계를 수행합니다:
 
-1. 여정 편집, 드래그 앤 드롭 **[!UICONTROL Read Segment]** 활동을 시작하고 구성을 시작합니다. [세그먼트 읽기 활동 구성에 대한 자세한 내용을 알아봅니다](read-segment.md#configuring-segment-trigger-activity).
+1. 여정 편집, 끌어서 놓기 **[!UICONTROL 세그먼트 읽기]** 활동을 시작하고 구성을 시작합니다. [세그먼트 읽기 활동 구성에 대한 자세한 내용을 알아봅니다](read-segment.md#configuring-segment-trigger-activity).
 
-1. 을(를) 클릭합니다. **[!UICONTROL Edit journey schedule]** 을 눌러 여정의 속성에 액세스합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL 여정 예약 편집]** 링크를 클릭하여 여정 속성에 액세스합니다.
 
    ![](assets/message-read-segment-schedule.png)
 
-1. 구성 **[!UICONTROL Scheduler type]** 필드: 목록에서 원하는 값을 선택하여 세그먼트가 특정 날짜/시간 또는 반복으로 여정을 시작하도록 합니다.
+1. 구성 **[!UICONTROL 스케줄러 유형]** 필드: 목록에서 원하는 값을 선택하여 세그먼트가 특정 날짜/시간 또는 반복으로 여정을 입력하도록 합니다.
 
    >[!NOTE]
    >
-   >다음 **[!UICONTROL Schedule]** 섹션은 **[!UICONTROL Read Segment]** 활동이 캔버스에 삭제되었습니다.
+   >다음 **[!UICONTROL 예약]** 섹션은 **[!UICONTROL 세그먼트 읽기]** 활동이 캔버스에 삭제되었습니다.
 
    ![](assets/message-read-segment-scheduler.png)
 
-1. 선택하는 경우 **[!UICONTROL Once]**&#x200B;을(를) 통해 세그먼트가 여정을 시작할 특정 날짜 및 시간을 정의합니다.
+1. 선택하는 경우 **[!UICONTROL 한 번]**&#x200B;을(를) 통해 세그먼트가 여정을 입력할 특정 날짜 및 시간을 정의합니다.
 
    ![](assets/message-read-segment-scheduler-once.png)
 
@@ -70,8 +70,8 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >기본적으로 세그먼트가 여정에 들어갑니다 **[!UICONTROL As soon as possible]**: 여정이 게시된 후 1시간을 의미합니다.
+   >기본적으로 세그먼트는 여정을 입력합니다 **[!UICONTROL 가능한 한 빨리]**: 여정이 게시된 후 1시간을 의미합니다.
 
-1. 클릭 **[!UICONTROL OK]** 변경 사항을 저장하려면 을 클릭합니다.
+1. 클릭 **[!UICONTROL 확인]** 변경 사항을 저장하려면 을 클릭합니다.
 
 <!--Unitary messages that are triggered by an event within a journey cannot be scheduled.-->

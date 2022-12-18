@@ -8,17 +8,17 @@ level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 0%
+source-wordcount: '750'
+ht-degree: 3%
 
 ---
 
 
 # 을 사용하여 오퍼 게재 [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-다음 [!DNL Batch Decisioning] API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대해 의사 결정 기능을 사용할 수 있습니다. 세그먼트에 있는 각 프로필에 대한 오퍼 컨텐츠는 사용자 지정 배치 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
+다음 [!DNL Batch Decisioning] API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대해 의사 결정 기능을 사용할 수 있습니다. 세그먼트의 각 프로필에 대한 오퍼 콘텐츠는 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
 
-사용 [!DNL Batch Decisioning] API를 사용하면 결정 범위에 대해 Adobe Experience Platform 세그먼트의 모든 프로필에 대한 최상의 오퍼로 데이터 세트를 채울 수 있습니다. 예를 들어, 조직이 [!DNL Batch Decisioning] 따라서 메시지 게재 공급업체에 오퍼를 보낼 수 있습니다. 그런 다음 이러한 오퍼는 동일한 사용자 세그먼트에 대한 배치 메시지 전달을 위해 전송되는 콘텐츠로 사용됩니다.
+사용 [!DNL Batch Decisioning] API를 사용하면 데이터 세트를 결정 범위에 대한 Adobe Experience Platform 세그먼트의 모든 프로필에 대한 최상의 오퍼로 채울 수 있습니다. 예를 들어, 조직이 [!DNL Batch Decisioning] 따라서 메시지 게재 공급업체에 오퍼를 보낼 수 있습니다. 그런 다음 이러한 오퍼는 동일한 사용자 세그먼트에 대한 배치 메시지 전달을 위해 전송되는 콘텐츠로 사용됩니다.
 
 이를 수행하려면 조직에서 다음을 수행합니다.
 

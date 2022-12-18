@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 조건부 지침(if, then, else)은 고급 편집기에서 지원됩니다. 이를 통해 더 복잡한 표현식을 정의할 수 있습니다. 다음 요소로 구성됩니다.
 
 * **[!UICONTROL if]**: 먼저 평가될 조건입니다.
-* **[!UICONTROL then]**: 조건 평가의 결과가 true일 경우에 평가할 식입니다.
+* **[!UICONTROL 그런 다음]**: 조건 평가의 결과가 true일 경우에 평가할 식입니다.
 * **[!UICONTROL else]**: 조건 평가 결과가 false인 경우 평가할 식입니다.
 
 >[!NOTE]

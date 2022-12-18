@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 0%
+source-wordcount: '937'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 의사 결정 관리를 사용하면 비즈니스 로직 및 의사 결정 규칙을 사용하여 채널 및 애플리케이션에서 최종 사용자 맞춤형 오퍼 경험을 만들고 전달할 수 있습니다. 오퍼는 오퍼를 볼 수 있는 사용자를 지정하는 규칙과 연관된 규칙이 있을 수 있는 마케팅 메시지입니다.
 
-에 POST 요청을 수행하여 오퍼를 만들고 게재할 수 있습니다 [!DNL Decisioning] API.
+에 POST 요청을 만들어 오퍼를 만들고 게재할 수 있습니다 [!DNL Decisioning] API.
 
 이 자습서에서는 특히 의사 결정 관리와 관련된 API를 제대로 이해해야 합니다. 자세한 내용은 [의사 결정 관리 API 개발자 안내서](../getting-started.md). 또한 이 자습서에서는 고유한 배치 ID와 결정 ID 값을 사용할 수 있어야 합니다. 이러한 값을 얻지 못한 경우 [배치 만들기](../offers-api/placements/create.md) 및 [결정 생성](../activities-api/activities/create.md).
 
@@ -29,8 +29,8 @@ ht-degree: 0%
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
-| 수락 | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
-| 컨텐츠 유형 | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
+| Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
+| Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
 **API 형식**
 
@@ -199,7 +199,7 @@ curl -X POST \
 
 >[!NOTE]
 >
->이 비디오는 Adobe Experience Platform을 기반으로 구축된 Offer Decisioning 애플리케이션 서비스에 적용됩니다. 그러나 Journey Optimizer 컨텍스트에서 오퍼를 사용하는 일반적인 지침을 제공합니다.
+>이 비디오는 Adobe Experience Platform을 기반으로 하는 Offer decisioning 애플리케이션 서비스에 적용됩니다. 그러나 Journey Optimizer 컨텍스트에서 오퍼를 사용하는 일반적인 지침을 제공합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 

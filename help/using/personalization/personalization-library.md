@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 저장된 표현식을 사용한 작업
+title: 저장된 표현식으로 작업하기
 description: 에서 저장된 표현식을 사용하여 작업하는 방법을 알아봅니다 [!DNL Journey Optimizer] 라이브러리.
 feature: Personalization
 topic: Personalization
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 0%
+source-wordcount: '354'
+ht-degree: 8%
 
 ---
 
-# 저장된 표현식을 사용한 작업 {#expression-library}
+# 저장된 표현식으로 작업하기 {#expression-library}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ➡️ [이 비디오에서 저장된 표현식을 사용하여 작업하는 방법을 알아봅니다](#video-preview)
 
-저장된 표현식에 액세스하려면 **[!UICONTROL Library]** 왼쪽 창에 있는 단추. 이 목록에는 관리자 사용자가 저장한 모든 표현식이 표시됩니다( [라이브러리에 표현식 저장](#save-expressions)).
+저장된 표현식에 액세스하려면 **[!UICONTROL 라이브러리]** 왼쪽 창에 있는 단추. 이 목록에는 관리자 사용자가 저장한 모든 표현식이 표시됩니다( [라이브러리에 표현식 저장](#save-expressions)).
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ![](assets/library-list.png)
 
-표현식을 편집기에 삽입하려면 + 를 클릭합니다. 그런 다음 개인화 컨텐츠를 평소대로 사용자 지정하고 유효성을 검사할 수 있습니다. [추가 정보](../personalization/personalization-build-expressions.md)
+표현식을 편집기에 삽입하려면 + 를 클릭합니다. 그런 다음 개인화 컨텐츠를 평소대로 사용자 지정하고 유효성을 검사할 수 있습니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
 ![](assets/library-add.png)
 
@@ -44,15 +44,15 @@ ht-degree: 0%
 
 표현식을 라이브러리에 저장하려면 다음 단계를 수행합니다.
 
-1. 편집기 인터페이스에서 표현식을 작성한 다음 **[!UICONTROL Add to library]**.
+1. 편집기 인터페이스에서 표현식을 작성한 다음 **[!UICONTROL 라이브러리에 추가]**.
 
    >[!NOTE]
    >
-   >단추가 보이지 않는 경우에는 Admin Console에서 필요한 권한이 있는지 확인합니다( 참조). [권한 수준](../administration/high-low-permissions.md)).
+   >단추가 보이지 않는다면 필요한 권한이 있는지 Admin Console에서 확인합니다( [권한 수준](../administration/high-low-permissions.md)).
 
    ![](assets/library-save.png)
 
-1. 오른쪽 창에서 사용자가 쉽게 찾을 수 있도록 표현식의 제목과 설명을 입력한 다음 을 클릭합니다 **[!UICONTROL Add]**.
+1. 오른쪽 창에서 사용자가 쉽게 찾을 수 있도록 표현식의 제목과 설명을 입력한 다음 을 클릭합니다 **[!UICONTROL 추가]**.
 
    ![](assets/add-expression.png)
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 
 
-기존 표현식을 편집하려면 편집기에 추가한 다음 필요에 따라 수정합니다. 클릭 **[!UICONTROL Add to library]** 구문의 유효성을 검사하고 표현식을 저장하려면
+기존 표현식을 편집하려면 편집기에 추가한 다음 필요에 따라 수정합니다. 클릭 **[!UICONTROL 라이브러리에 추가]** 구문의 유효성을 검사하고 표현식을 저장하려면
 
-표현식을 삭제하려면 타원 버튼을 클릭한 다음 **[!UICONTROL Delete]**.
+표현식을 삭제하려면 타원 버튼을 클릭한 다음 **[!UICONTROL 삭제]**.
 
 ## 방법 비디오{#video}
 
-메시지에 저장된 개인화 라이브러리 항목을 사용하는 방법과 개인화 라이브러리 항목을 만들고 관리하는 방법을 알아봅니다.
+저장한 개인화 라이브러리 항목을 메시지에 사용하는 방법과 개인화 라이브러리 항목을 만들고 관리하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
 

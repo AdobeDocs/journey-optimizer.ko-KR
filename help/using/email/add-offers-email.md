@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 0%
+source-wordcount: '587'
+ht-degree: 1%
 
 ---
 
@@ -37,13 +37,13 @@ in [!DNL Journey Optimizer] 이메일에서, 고객에게 제공할 최상의 �
 
 1. 이메일을 만든 다음 이메일 디자이너를 열어 해당 콘텐츠를 구성합니다.
 
-1. 추가 **[!UICONTROL Offer decision]** 컨텐츠 구성 요소입니다.
+1. 추가 **[!UICONTROL 오퍼 결정]** 컨텐츠 구성 요소입니다.
 
    ![](assets/deliver-offer-component.png)
 
    에서 콘텐츠 구성 요소를 사용하는 방법을 알아봅니다. [이 섹션](content-components.md).
 
-1. 다음 **[!UICONTROL Offer decision]** 오른쪽 팔레트에 탭이 표시됩니다. 클릭 **[!UICONTROL Select Offer decision]**.
+1. 다음 **[!UICONTROL 오퍼 결정]** 오른쪽 팔레트에 탭이 표시됩니다. 클릭 **[!UICONTROL 오퍼 결정 선택]**.
 
    ![](assets/deliver-offer-tab.png)
 
@@ -51,7 +51,7 @@ in [!DNL Journey Optimizer] 이메일에서, 고객에게 제공할 최상의 �
 
    [배치](../offers/offer-library/creating-placements.md) 오퍼를 표시하는 데 사용되는 컨테이너입니다. 이 예에서는 &quot;이메일 상단 이미지&quot; 배치를 사용합니다. 이 배치는 메시지 상단에 있는 이미지 유형 오퍼를 표시하기 위해 오퍼 라이브러리에 생성되었습니다.
 
-1. 선택한 배치와 일치하는 결정. 콘텐츠 구성 요소에서 사용할 결정을 선택한 다음 **[!UICONTROL Add]**.
+1. 선택한 배치와 일치하는 결정. 콘텐츠 구성 요소에서 사용할 결정을 선택한 다음 **[!UICONTROL 추가]**.
 
    >[!NOTE]
    >
@@ -69,13 +69,13 @@ in [!DNL Journey Optimizer] 이메일에서, 고객에게 제공할 최상의 �
 
 ## 이메일에서 오퍼 미리 보기 {#preview-offers-in-email}
 
-을 사용하여 이메일에 추가된 의사 결정의 일부인 다른 오퍼를 미리 볼 수 있습니다 **[!UICONTROL Offers]** 섹션 또는 컨텐츠 구성 요소 화살표
+을 사용하여 이메일에 추가된 의사 결정의 일부인 다른 오퍼를 미리 볼 수 있습니다 **[!UICONTROL 오퍼]** 섹션 또는 컨텐츠 구성 요소 화살표
 
 ![](assets/deliver-offer-preview.png)
 
 고객 프로필과 함께 의사 결정의 일부인 다른 오퍼를 표시하려면 아래 단계를 따르십시오.
 
-1. 클릭 **[!UICONTROL Preview]**.
+1. 클릭 **[!UICONTROL 미리 보기]**.
 
    ![](assets/deliver-offer-preview-button.png)
 
@@ -83,15 +83,15 @@ in [!DNL Journey Optimizer] 이메일에서, 고객에게 제공할 최상의 �
    >
    >메시지를 미리 보려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../segment/creating-test-profiles.md).
 
-1. 테스트 프로필을 식별하는 데 사용할 네임스페이스를 선택하려면 을(를) 선택합니다 **[!UICONTROL Email]** 에서 **[!UICONTROL Identity namespace]** 필드.
+1. 테스트 프로필을 식별하는 데 사용할 네임스페이스를 선택하려면 을(를) 선택합니다 **[!UICONTROL 이메일]** 에서 **[!UICONTROL ID 네임스페이스]** 필드.
 
    >[!NOTE]
    >
    >이 예제에서는 **이메일** 네임스페이스. Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보십시오 [이 섹션](../segment/get-started-identity.md).
 
-1. ID 네임스페이스 목록에서 을(를) 선택합니다 **[!UICONTROL Email]** 을(를) 클릭합니다. **[!UICONTROL Select]**.
+1. ID 네임스페이스 목록에서 을(를) 선택합니다 **[!UICONTROL 이메일]** 을(를) 클릭합니다. **[!UICONTROL 선택]**.
 
-1. 에서 **[!UICONTROL Identity value]** 필드에 테스트 프로필을 식별할 값을 입력합니다. 이 예에서는 테스트 프로필의 이메일 주소를 입력합니다.
+1. 에서 **[!UICONTROL ID 값]** 필드에 테스트 프로필을 식별할 값을 입력합니다. 이 예에서는 테스트 프로필의 이메일 주소를 입력합니다.
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
@@ -99,7 +99,7 @@ in [!DNL Journey Optimizer] 이메일에서, 고객에게 제공할 최상의 �
 
    ![](assets/deliver-offer-test-profiles.png)
 
-1. 을(를) 클릭합니다. **[!UICONTROL Preview]** 탭을 클릭하여 메시지를 테스트합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL 미리 보기]** 탭을 클릭하여 메시지를 테스트합니다.
 
 1. 테스트 프로필을 선택합니다. 선택한 프로필(여성)에 해당하는 오퍼가 표시됩니다.
 

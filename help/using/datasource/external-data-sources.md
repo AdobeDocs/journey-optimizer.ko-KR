@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 0%
+source-wordcount: '1417'
+ht-degree: 73%
 
 ---
 
@@ -28,20 +28,20 @@ ht-degree: 0%
 >
 >외부 시스템을 사용할 때의 보호 기능은 [이 페이지](../configuration/external-systems.md).
 
-POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다. API 키, 기본 및 사용자 지정 인증 모드가 지원됩니다.
+POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다. 그리고 API 키와 기본/사용자 지정 인증 모드가 지원됩니다.
 
 실시간 날씨 데이터에 따라 여정 동작을 사용자 지정하는 데 사용하려는 날씨 API 서비스의 예제를 살펴보겠습니다.
 
-다음은 API 호출의 두 가지 예입니다.
+아래에 API 호출의 두 가지 예제가 나와 있습니다.
 
 * _https://api.adobeweather.org/weather?city=London,uk&amp;appid=1234_
 * _https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234_
 
-호출은 기본 URL(_https://api.adobeweather.org/weather_), 매개 변수 세트 2개(도시에 해당하는 &quot;city&quot;와 위도/경도에 해당하는 &quot;lat/long&quot;), 그리고 API 키(appid)입니다.
+이 호출에는 기본 URL(_https://api.adobeweather.org/weather_), 매개 변수 세트 2개(도시에 해당하는 &quot;city&quot;와 위도/경도에 해당하는 &quot;lat/long&quot;), 그리고 API 키(appid)가 포함되어 있습니다.
 
 새 외부 데이터 소스를 만들고 구성하는 주요 단계는 다음과 같습니다.
 
-1. 데이터 소스 목록에서 **[!UICONTROL Create Data Source]** 새 외부 데이터 소스를 만들려면
+1. 데이터 소스 목록에서 **[!UICONTROL 데이터 소스 만들기]** 새 외부 데이터 소스를 만들려면
 
    ![](assets/journey25.png)
 
@@ -53,40 +53,40 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
    >[!NOTE]
    >
-   >공백이나 특수 문자는 사용하지 마십시오. 30자 이하의 문자는 사용하지 마십시오.
+   >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
 
-1. 데이터 소스에 설명을 추가합니다. 이 단계는 선택 사항입니다.
-1. 외부 서비스의 URL을 추가합니다. 이 예제에서는 _https://api.adobeweather.org/weather_.
+1. 원하는 경우 데이터 소스에 이벤트에 설명을 추가합니다.
+1. 외부 서비스의 URL을 추가합니다. 이 예제에서는 _https://api.adobeweather.org/weather_&#x200B;를 추가합니다.
 
    >[!CAUTION]
    >
-   >보안상의 이유로 HTTPS를 사용하는 것이 좋습니다. 또한 공개적으로 제공되지 않는 Adobe 주소 및 IP 주소는 사용할 수 없습니다.
+   >보안상 HTTPS를 사용하는 것이 좋습니다. 또한 공개적으로 제공되지 않는 Adobe 주소 및 IP 주소는 사용할 수 없습니다.
 
    ![](assets/journey27.png)
 
-1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** 또는 **[!UICONTROL API key]**. 사용자 지정 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode). 이 예제에서는 다음 옵션을 선택합니다.
+1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL 인증 없음]**, **[!UICONTROL 기본]**, **[!UICONTROL 사용자 지정]** 또는 **[!UICONTROL API 키]**. 사용자 지정 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오. 이 예제에서는 다음 옵션을 선택합니다.
 
-   * **[!UICONTROL Type]**: &quot;API 키&quot;
-   * **[!UICONTROL Name]**: &quot;appid&quot;(API 키 매개 변수 이름)
-   * **[!UICONTROL Value]**: &quot;1234&quot;(API 키의 값)
-   * **[!UICONTROL Location]**: &quot;쿼리 매개 변수&quot;(API 키가 URL에 포함됨)
+   * **[!UICONTROL 유형]**: &quot;API 키&quot;
+   * **[!UICONTROL 이름]**: &quot;appid&quot;(API 키 매개 변수 이름)
+   * **[!UICONTROL 값]**: &quot;1234&quot;(API 키의 값)
+   * **[!UICONTROL 위치]**: &quot;쿼리 매개 변수&quot;(API 키가 URL에 포함됨)
 
    ![](assets/journey28.png)
 
-1. 를 클릭하여 각 API 매개 변수 세트에 대한 새 필드 그룹을 추가합니다 **[!UICONTROL Add a New Field Group]**. 필드 그룹 이름에는 공백이나 특수 문자를 사용하지 마십시오. 이 예제에서는 각 매개 변수 세트(city, long/lat)용으로 하나씩 두 개의 필드 그룹을 만들어야 합니다.
+1. 를 클릭하여 각 API 매개 변수 세트에 대한 새 필드 그룹을 추가합니다 **[!UICONTROL 새 필드 그룹 추가]**. 필드 그룹 이름에는 공백이나 특수 문자를 사용하지 마십시오. 이 예제에서는 각 매개 변수 세트(city, long/lat)용으로 하나씩 두 개의 필드 그룹을 만들어야 합니다.
 
 &quot;long/lat&quot; 매개 변수 세트의 경우 다음 정보를 사용하여 필드 그룹을 만듭니다.
 
-* **[!UICONTROL Used in]**: 필드 그룹을 사용하는 여정 수를 표시합니다. 을(를) 클릭합니다. **[!UICONTROL View journeys]** 아이콘을 클릭하여 이 필드 그룹을 사용하는 여정 목록을 표시합니다.
-* **[!UICONTROL Method]**: POST 또는 GET 메서드를 선택합니다. 여기서는 GET 메서드를 선택합니다.
-* **[!UICONTROL Dynamic Values]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [추가 정보](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL Response Payload]**: 내부 클릭 **[!UICONTROL Payload]** 필드에 붙여넣기를 통해 반환된 페이로드의 예제를 붙여넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 을 클릭하여 **[!UICONTROL Paste a new payload]** 현재 전달된 페이로드를 변경하려는 경우
-* **[!UICONTROL Sent Payload]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
+* **[!UICONTROL 에 사용됨]**: 필드 그룹을 사용하는 여정 수를 표시합니다. 을(를) 클릭합니다. **[!UICONTROL 여정 보기]** 아이콘을 클릭하여 이 필드 그룹을 사용하는 여정 목록을 표시합니다.
+* **[!UICONTROL 메서드]**: POST 또는 GET 방법을 선택합니다. 여기서는 GET 메서드를 선택합니다.
+* **[!UICONTROL 동적 값]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [자세히 알아보기](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL 응답 페이로드]**: 내부 클릭 **[!UICONTROL 페이로드]** 필드에 붙여넣기를 통해 반환된 페이로드의 예제를 붙여넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 을 클릭하여 **[!UICONTROL 새 페이로드 붙여넣기]** 현재 전달된 페이로드를 변경하려는 경우
+* **[!UICONTROL 보낸 페이로드]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
 
-매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL Dynamic Values]** 필드가 추가되면 호출 끝에 자동으로 추가됩니다. POST 호출의 경우 다음을 수행해야 합니다.
+매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL 동적 값]** 필드가 추가되면 호출 끝에 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
 
-* 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL Dynamic Values]** 필드(아래 예: &quot;identifier&quot;)
-* 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이를 수행하려면 다음을 추가해야 합니다. &quot;param&quot;: &quot;name of your parameter&quot;(아래 예에서 ) &quot;identifier&quot;) 아래 구문을 따르십시오.
+* 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL 동적 값]** 필드(아래 예: &quot;identifier&quot;)
+* 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
 
    ```
    {"id":{"param":"identifier"}}
@@ -94,20 +94,20 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 ![](assets/journey29.png)
 
-클릭 **[!UICONTROL Save]**.
+**[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-이제 데이터 소스가 구성되었으며 여정에서 사용할 수 있는 상태가 되었습니다. 예를 들어 조건이나 이메일 개인화 등에 데이터 소스를 사용할 수 있습니다. 온도가 30°C를 초과하는 경우 특정 통신을 보내도록 결정할 수 있습니다.
+이제 데이터 소스가 구성되었으며 여정에서 사용할 수 있는 상태가 되었습니다. 예를 들어 조건이나 이메일 개인화 등에 데이터 소스를 사용할 수 있습니다. 가령 기온이 섭씨 30도를 넘으면 특정 메시지를 보내도록 지정할 수 있습니다.
 
 ## 사용자 지정 인증 모드{#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="사용자 지정 인증"
->abstract="사용자 지정 인증 모드는 OAuth2 등의 API 래핑 프로토콜을 호출하는 복잡한 인증에 사용됩니다. 작업은 두 단계로 실행됩니다. 먼저 엔드포인트에 대한 호출을 수행하여 액세스 토큰을 생성합니다. 그런 다음 액세스 토큰이 작업의 HTTP 요청에 삽입됩니다."
+>abstract="사용자 지정 인증 모드는 OAuth2 등의 API 래핑 프로토콜을 호출하는 복잡한 인증에 사용됩니다. 작업은 두 단계로 실행됩니다. 첫 단계에서는 엔드포인트 호출을 수행하여 액세스 토큰을 생성합니다. 두 번째 단계에서는 작업의 HTTP 요청에 액세스 토큰을 삽입합니다."
 
 이 인증 모드는 작업의 실제 HTTP 요청에 삽입할 액세스 토큰을 검색하기 위한 복잡한 인증(대개 OAuth2 등의 API 래핑 프로토콜을 호출하는 데 사용됨)에 사용됩니다.
 
-사용자 지정 인증을 구성할 때 아래 버튼을 클릭하여 사용자 지정 인증 페이로드가 올바르게 구성되어 있는지 확인할 수 있습니다.
+사용자 지정 인증을 구성할 때는 아래 버튼을 클릭하여 사용자 지정 인증 페이로드가 올바르게 구성되어 있는지 확인할 수 있습니다.
 
 ![](assets/journey29-bis.png)
 
@@ -122,12 +122,12 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 이 인증은 두 부분으로 구성되어 있습니다.
 
-액세스 토큰을 생성하기 위해 호출할 끝점의 정의:
+액세스 토큰 생성을 위해 호출할 끝점의 정의:
 
 * endpoint: 끝점을 생성하는 데 사용할 URL
 * 끝점에 대한 HTTP 요청 메서드(GET 또는 POST)
 * 헤더: 필요한 경우 이 호출에서 헤더로 삽입할 키 값 쌍
-* body: 메서드가 POST인 경우 호출의 본문을 설명합니다. bodyParams(키-값 쌍)에 정의된 제한된 본문 구조가 지원됩니다. bodyType은 호출 본문의 형식과 인코딩을 설명합니다.
+* body: 메서드가 POST인 경우 호출의 본문을 설명하는 요소. bodyParams(키-값 쌍)에 정의된 제한된 본문 구조가 지원됩니다. bodyType은 호출 본문의 형식과 인코딩을 설명합니다.
    * &#39;form&#39;: 즉, 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키-값 쌍이 그대로 일련화됩니다. key1=value1&amp;key2=value2&amp;..
    * &#39;json&#39;: 즉, 콘텐츠 유형은 application/json(charset UTF-8)이며 키-값 쌍이 json 개체 그대로 일련화됩니다. _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;,..}_
 
@@ -135,13 +135,13 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 * authorizationType: 생성된 액세스 토큰을 작업의 HTTP 호출에 삽입해야 하는 방법을 정의합니다. 가능한 값은 다음과 같습니다.
 
-   * bearer: 다음과 같이 권한 부여 헤더에 액세스 토큰을 삽입해야 함을 나타냅니다. _권한 부여: 베어러 &lt;access token=&quot;&quot;>_
-   * 헤더: access 토큰을 header(tokenTarget 속성으로 정의된 헤더 이름)로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myHeader이면 액세스 토큰은 다음과 같이 헤더로 삽입됩니다. _myHeader: &lt;access token=&quot;&quot;>_
-   * queryParam: access 토큰을 queryParam(tokenTarget 속성으로 정의된 쿼리 매개 변수 이름)으로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myQueryParam이면 작업 호출의 URL은 다음과 같습니다. _&lt;url>?myQueryParam=&lt;access token=&quot;&quot;>_
+   * bearer: _Authorization: Bearer &lt;액세스 토큰>_&#x200B;과 같이 액세스 토큰을 권한 부여 헤더에 삽입해야 함을 나타냅니다.
+   * header: 액세스 토큰을 header(tokenTarget 속성으로 정의된 헤더 이름)로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myHeader이면 액세스 토큰은 _myHeader: &lt;액세스 토큰>_&#x200B;과 같이 헤더로 삽입됩니다.
+   * queryParam: access 토큰을 queryParam(tokenTarget 속성으로 정의되는 쿼리 매개 변수 이름)으로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myQueryParam이면 작업 호출의 URL은 _&lt;url>?myQueryParam=&lt;액세스 토큰>_&#x200B;이 됩니다.
 
 * tokenInResponse: 인증 호출에서 액세스 토큰을 추출하는 방법을 나타냅니다. 이 속성은 다음 중 하나일 수 있습니다.
    * &#39;response&#39;: HTTP 응답이 액세스 토큰임을 나타냅니다.
-   * json의 선택기. 응답이 json이면 XML 등의 기타 형식은 지원되지 않습니다. 이 선택기의 형식은 다음과 같습니다 _json://&lt;path to=&quot;&quot; the=&quot;&quot; access=&quot;&quot; token=&quot;&quot; property=&quot;&quot;>_. 예를 들어 호출의 응답이 다음과 같은 경우 _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_&#x200B;이면 tokenInResponse 는 다음과 같습니다. _json: //access_token_
+   * json의 선택기. 응답이 json이면 XML 등의 기타 형식은 지원되지 않습니다. 이 선택기의 형식은 _json://&lt;액세스 토큰 속성의 여정>_&#x200B;입니다. 예를 들어 호출의 응답이 _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_&#x200B;이면 tokenInResponse는 _json: //access_token_&#x200B;이 됩니다.
 
 이 인증의 형식은 다음과 같습니다.
 

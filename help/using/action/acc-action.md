@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 0%
+source-wordcount: '498'
+ht-degree: 5%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Adobe Campaign v7/v8 작업"
->abstract="이 통합은 Adobe Campaign Classic v7 및 v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다. Journey Optimizer와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에서 설정합니다."
+>abstract="이 통합은 Adobe Campaign Classic v7 및 v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다. Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다."
 
 이 통합은 7.1 릴리스부터 Adobe Campaign Classic v7 및 Adobe Campaign v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
 
-Journey Optimizer와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에서 설정합니다.
+Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다.
 
 여기에는 종단 간 사용 사례가 나와 있습니다 [섹션](../building-journeys/ajo-ac.md).
 
@@ -32,7 +32,7 @@ Journey Optimizer와 Campaign 인스턴스 간의 연결은 프로비저닝 시 
 
 ## 중요 정보 {#important-notes}
 
-* 메시지 제한이 없습니다. 시스템은 현재 Campaign SLA를 기반으로 하여 5분마다 4000으로 전송할 수 있는 메시지 수를 제한합니다. 이러한 이유로 Journey Optimizer는 단일 사용 사례(세그먼트가 아닌 개별 이벤트)에서만 사용해야 합니다.
+* 메시지 제한이 없습니다. 시스템은 현재 Campaign SLA를 기반으로 하여 5분마다 4000으로 전송할 수 있는 메시지 수를 제한합니다. 이러한 이유로 Journey Optimizer은 단일 사용 사례(세그먼트가 아닌 개별 이벤트)에서만 사용해야 합니다.
 
 * 사용하려는 템플릿당 캔버스에서 한 개의 작업을 구성해야 합니다. Adobe Campaign에서 사용할 각 템플릿에 대해 Journey Optimizer에서 하나의 작업을 구성해야 합니다.
 
@@ -46,7 +46,7 @@ Journey Optimizer와 Campaign 인스턴스 간의 연결은 프로비저닝 시 
 
 Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. 자세한 내용은 [Adobe Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
 
-아래 패턴에 따라 각 메시지에 해당하는 JSON 페이로드를 작성할 수 있습니다. 그런 다음 Journey Optimizer에서 작업을 구성할 때 이 페이로드를 붙여 넣습니다(아래 참조)
+아래 패턴에 따라 각 메시지에 해당하는 JSON 페이로드를 작성할 수 있습니다. 그런 다음 Journey Optimizer에서 작업을 구성할 때 이 페이로드를 붙여넣습니다(아래 참조)
 
 다음은 한 예입니다.
 
@@ -67,13 +67,13 @@ Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시
 
 ## 작업 구성 {#configure-action}
 
-Journey Optimizer에서 트랜잭션 메시지당 하나의 작업을 구성해야 합니다. 다음 단계를 수행합니다.
+Journey Optimizer에서는 트랜잭션 메시지당 하나의 작업을 구성해야 합니다. 다음 단계를 수행합니다.
 
 1. 새 작업을 만듭니다. 다음을 참조하십시오 [섹션](../action/action.md).
 1. 이름과 설명을 입력합니다.
 1. 에서 **작업 유형** 필드, 선택 **Adobe Campaign Classic**.
 1. 을(를) 클릭합니다. **페이로드** 필드를 만들어 Campaign 메시지에 해당하는 JSON 페이로드의 예제를 붙여넣습니다. 이 페이로드를 가져오려면 Adobe에 문의하십시오.
 1. 여정 캔버스에 매핑할지 여부에 따라 다른 필드를 정적 또는 변수로 조정합니다. 전자 메일 주소 및 개인화 필드(ctx)에 대한 채널 매개 변수와 같은 특정 필드는 여정 컨텍스트에서 매핑을 위한 변수로 정의할 수 있습니다.
-1. 클릭 **저장**.
+1. **저장**&#x200B;을 클릭합니다.
 
 ![](assets/accintegration1.png)

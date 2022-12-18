@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '143'
+ht-degree: 5%
 
 ---
 
 # 태그 삭제 {#delete-tag}
 
-경우에 따라 태그를 제거(삭제)해야 할 수 있습니다. 테넌트 컨테이너에서 만든 태그만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 태그의 $id를 사용하는 API입니다.
+경우에 따라 태그를 제거(DELETE)해야 할 수 있습니다. 테넌트 컨테이너에서 만든 태그만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 태그의 $id를 사용하는 API입니다.
 
 **API 형식**
 

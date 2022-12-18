@@ -1,5 +1,5 @@
 ---
-title: 결정 만들기
+title: 의사 결정 만들기
 description: 결정에는 오퍼의 선택을 알리는 논리가 포함되어 있습니다.
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# 결정 만들기 {#create-decision}
+# 의사 결정 만들기 {#create-decision}
 
 에 POST 요청을 수행하여 결정을 만들 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
 
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
-| 수락 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| 컨텐츠 유형 | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
 
 **API 형식**
 

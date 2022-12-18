@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 0%
+source-wordcount: '330'
+ht-degree: 10%
 
 ---
 
@@ -17,23 +17,23 @@ ht-degree: 0%
 
 Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 오퍼 의사 결정 규칙을 만들 수 있습니다. 의사 결정 규칙은 오퍼를 표시할 수 있는 대상을 결정합니다.
 
-예를 들어 (Gender = &#39;Female&#39;) 및 (Region = &#39;Northeast&#39;)일 때만 &#39;여성용 겨울 의류 상품&#39;을 표시하도록 지정할 수 있습니다.
+예를 들어 (Gender = &#39;Female&#39;) 및 (Region = &#39;Northeast&#39;)일 때만 &#39;여성용 겨울 의류 상품&#39;을 표시하도록 지정할 수 있습니다. 
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-만든 의사 결정 규칙 목록은 **[!UICONTROL Components]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+만든 의사 결정 규칙 목록은 **[!UICONTROL 구성 요소]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](../assets/decision_rules_list.png)
 
 의사 결정 규칙을 만들려면 다음 단계를 수행합니다.
 
-1. 로 이동합니다. **[!UICONTROL Rules]** 탭을 클릭한 다음 **[!UICONTROL Create rule]**.
+1. 로 이동합니다. **[!UICONTROL 규칙]** 탭을 클릭한 다음 **[!UICONTROL 규칙 만들기]**.
 
    ![](../assets/offers_decision_rule_creation.png)
 
 1. 규칙에 이름을 지정하고 설명을 제공한 다음 필요에 따라 규칙을 구성합니다.
 
-   이렇게 하려면 **세그먼트 빌더** 는 규칙 조건을 작성하는 데 도움이 될 수 있습니다. [추가 정보](../../segment/about-segments.md)
+   이렇게 하려면 **세그먼트 빌더** 는 규칙 조건을 작성하는 데 도움이 될 수 있습니다. [자세히 알아보기](../../segment/about-segments.md)
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -41,9 +41,9 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
    >[!NOTE]
    >
-   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더에서는 와 함께 사용되는 세그먼트 빌더와 비교하여 몇 가지 특성을 제공합니다 **[!UICONTROL Audience Destinations]** 서비스. 예: **[!UICONTROL Segments]** 탭을 사용할 수 없습니다. 그러나 글로벌 프로세스는 [세그먼트 빌더](../../segment/about-segments.md) 설명서는 오퍼 결정 규칙을 작성하는 데 여전히 유효합니다. 자세한 내용은 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더에서는 와 함께 사용되는 세그먼트 빌더와 비교하여 몇 가지 특성을 제공합니다 **[!UICONTROL Audience 대상]** 서비스. 예: **[!UICONTROL 세그먼트]** 탭을 사용할 수 없습니다. 그러나 글로벌 프로세스는 [세그먼트 빌더](../../segment/about-segments.md) 설명서는 오퍼 결정 규칙을 작성하는 데 여전히 유효합니다. 자세한 내용은 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
-1. 작업 공간에서 새 필드를 추가 및 구성하는 동안 **[!UICONTROL Segment properties]** 창에는 세그먼트에 속하는 예상 프로필에 대한 정보가 표시됩니다. 클릭 **[!UICONTROL Refresh estimate]** 를 눌러 데이터를 업데이트합니다.
+1. 작업 공간에서 새 필드를 추가 및 구성하는 동안 **[!UICONTROL 세그먼트 속성]** 창에는 세그먼트에 속하는 예상 프로필에 대한 정보가 표시됩니다. 클릭 **[!UICONTROL 예상 새로 고침]** 를 눌러 데이터를 업데이트합니다.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 
@@ -51,9 +51,9 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
    >
    >규칙 매개 변수에 컨텍스트 데이터 등의 프로필에 없는 데이터가 포함된 경우 프로필 예측을 사용할 수 없습니다. 예를 들어 현재 날씨가 ≥80도여야 하는 자격 규칙입니다.
 
-1. 클릭 **[!UICONTROL Save]** 확인합니다.
+1. 클릭 **[!UICONTROL 저장]** 확인합니다.
 
-1. 규칙이 만들어지면 **[!UICONTROL Rules]** 목록. 속성을 표시하도록 선택하고, 편집하거나 삭제할 수 있습니다.
+1. 규칙이 만들어지면 **[!UICONTROL 규칙]** 목록. 속성을 표시하도록 선택하고, 편집하거나 삭제할 수 있습니다.
 
    ![](../assets/rule_created.png)
 

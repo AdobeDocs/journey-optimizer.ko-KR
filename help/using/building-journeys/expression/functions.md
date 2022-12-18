@@ -10,7 +10,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 0%
+ht-degree: 75%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 함수에는 서로 다른 서명(순서가 지정된 다른 매개 변수 세트)이 있을 수 있습니다. 함수 시그니처에는 순서가 지정된 매개 변수로 0-N 식이 있을 수 있습니다.
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`,.. ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 각 함수에는 특정 반환 유형이 있습니다.
 
@@ -62,10 +62,10 @@ ht-degree: 0%
 | 날짜 | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 목록 | [distinct](../functions/functiondistinct.md) |
 | 목록 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| 목록 | [필터](../functions/functionfilter.md) |
+| 목록 | [filter](../functions/functionfilter.md) |
 | 목록 | [getListItem](../functions/functiongetlistitem.md) |
 | 목록 | [in](../functions/functionin.md) |
-| 목록 | [교차](../functions/functionintersect.md) |
+| 목록 | [intersect](../functions/functionintersect.md) |
 | 목록 | [listSize](../functions/functionlimit.md) |
 | 목록 | [listSize](../functions/functionlistsize.md) |
 | 목록 | [serializeList](../functions/functionserializelist.md) |

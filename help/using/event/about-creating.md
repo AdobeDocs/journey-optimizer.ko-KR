@@ -134,7 +134,7 @@ ht-degree: 11%
 
 키는 이벤트 페이로드 데이터의 일부이며 시스템에서 이벤트와 연관된 사용자를 식별할 수 있는 필드 또는 필드 조합입니다. 키는 Experience Cloud ID, CRM ID 또는 이메일 주소 등이 될 수 있습니다.
 
-Adobe 실시간 고객 프로필 데이터베이스에 저장된 데이터를 사용하려면 이벤트 키가 [실시간 고객 프로필 서비스](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+Adobe 실시간 고객 프로필 데이터베이스에 저장된 데이터를 사용하려면 이벤트 키가 [실시간 고객 프로필 서비스](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target=&quot;_blank&quot;}.
 
 프로필 식별자를 사용하면 시스템에서 이벤트와 개별 프로필 간의 조정을 수행할 수 있습니다. 기본 ID가 있는 스키마를 선택하는 경우, **[!UICONTROL 프로필 식별자]** 및 **[!UICONTROL 네임스페이스]** 필드는 미리 입력되어 있습니다. 정의된 ID가 없으면 _identityMap > ID_ 는 기본 키입니다. 그런 다음 네임스페이스를 선택해야 하며 키를 사용하여 자동으로 미리 채워집니다. _identityMap > ID_.
 

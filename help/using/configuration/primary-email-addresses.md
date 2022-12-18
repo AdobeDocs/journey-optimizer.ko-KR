@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 사용 [!DNL Journey Optimizer], 프로필 서비스에서 사용할 이메일 주소 또는 전화 번호를 확인하고 몇 개의 주소를 사용할 수 있는 경우 우선 순위를 지정할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
-1. 액세스 권한  **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+1. 액세스 권한  **[!UICONTROL 채널]** > **[!UICONTROL 일반]** > **[!UICONTROL 실행 필드]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
    ![](assets/primary-address-execution-fields.png)
 
-1. 현재 이 화면에서 프로필의 이메일 주소와 전화 번호를 결정하는 데 기본적으로 사용되는 필드입니다. 클릭 **[!UICONTROL Edit]** 변경할 수 있습니다.
+1. 현재 이 화면에서 프로필의 이메일 주소와 전화 번호를 결정하는 데 기본적으로 사용되는 필드입니다. 클릭 **[!UICONTROL 편집]** 변경할 수 있습니다.
 
    ![](assets/primary-address.png)
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    ![](assets/primary-address-select-field.png)
 
-1. 클릭 **[!UICONTROL Save]** 을 클릭하여 선택 사항을 확인합니다.
+1. 클릭 **[!UICONTROL 저장]** 을 클릭하여 선택 사항을 확인합니다.
 
 실행 필드가 업데이트되어 이제 기본 주소로 사용됩니다.
 

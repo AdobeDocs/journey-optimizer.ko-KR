@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="배경 설정"
+>title="백그라운드 설정"
 >abstract="콘텐츠의 배경색 또는 배경 이미지를 개인화할 수 있습니다. 모든 이메일 클라이언트는 배경 이미지를 지원하지 않습니다."
 
 이메일 디자이너를 사용하여 배경을 설정하는 방법은 다음과 같습니다.
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 다음은 사용할 수 있는 배경 설정입니다.
 
-* 설정 **[!UICONTROL Background color]** 전체 이메일. 왼쪽 팔레트에서 액세스할 수 있는 탐색 트리에서 본문 설정을 선택해야 합니다.
+* 설정 **[!UICONTROL 배경색]** 전체 이메일. 왼쪽 팔레트에서 액세스할 수 있는 탐색 트리에서 본문 설정을 선택해야 합니다.
 
    ![](assets/background_1.png)
 
-* 모든 구조 구성 요소에 대해 동일한 배경색을 선택하고 **[!UICONTROL Viewport background color]**. 이 옵션을 사용하면 배경색에서 다른 설정을 선택할 수 있습니다.
+* 모든 구조 구성 요소에 대해 동일한 배경색을 선택하고 **[!UICONTROL 뷰포트 배경색]**. 이 옵션을 사용하면 배경색에서 다른 설정을 선택할 수 있습니다.
 
    ![](assets/background_2.png)
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    ![](assets/background_3.png)
 
-* 설정 **[!UICONTROL Background image]** 구조 구성 요소의 컨텐츠에 대해 설명합니다.
+* 설정 **[!UICONTROL 배경 이미지]** 구조 구성 요소의 컨텐츠에 대해 설명합니다.
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >가장 일반적인 사용 사례입니다. 전체 이메일 콘텐츠를 편집할 때 보다 유연하게 계산할 수 있도록 열 수준에서 배경색을 설정하는 것이 좋습니다.
+   >가장 일반적인 사용 사례입니다. Adobe은 전체 이메일 콘텐츠를 편집할 때 보다 유연하게 계산할 수 있도록 열 수준에서 배경색을 설정하는 것이 좋습니다.
 
    열 수준에서 배경 이미지를 설정할 수도 있지만 거의 사용되지 않습니다.
 

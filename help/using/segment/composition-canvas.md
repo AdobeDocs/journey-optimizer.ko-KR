@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 0%
+source-wordcount: '1040'
+ht-degree: 2%
 
 ---
 
@@ -35,16 +35,16 @@ ht-degree: 0%
 
 1. 타겟팅할 대상 선택:
 
-   * 을(를) 클릭합니다. **[!UICONTROL Add audience]** 단추를 클릭하여 기존 대상자를 하나 이상 선택합니다.
-   * 을(를) 클릭합니다. **[!UICONTROL Build rule]** 단추를 사용하여 새 세그먼트 정의 만들기 [세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   * 을(를) 클릭합니다. **[!UICONTROL 대상 추가]** 단추를 클릭하여 기존 대상자를 하나 이상 선택합니다.
+   * 을(를) 클릭합니다. **[!UICONTROL 빌드 규칙]** 단추를 사용하여 새 세그먼트 정의 만들기 [세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/audiences-choose-audience.png)
 
 1. 여러 대상을 선택한 경우 이러한 대상의 프로필을 병합하는 방법을 지정합니다.
 
-* **[!UICONTROL Union]**: 선택한 대상의 모든 프로필 포함,
-* **[!UICONTROL Intersection]**: 선택한 모든 대상에 공통되는 프로필 포함,
-* **[!UICONTROL Exclude overlap]**: 대상자 중 하나에만 속하는 프로필을 포함합니다. 두 개 이상의 대상에 속하는 프로필은 포함되지 않습니다.
+* **[!UICONTROL 결합]**: 선택한 대상의 모든 프로필 포함,
+* **[!UICONTROL 교차]**: 선택한 모든 대상에 공통되는 프로필 포함,
+* **[!UICONTROL 겹치기 제외]**: 대상자 중 하나에만 속하는 프로필을 포함합니다. 두 개 이상의 대상에 속하는 프로필은 포함되지 않습니다.
 
 이 예에서는 금 및 은 대상에 속하는 모든 프로필을 타겟팅하려고 합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->추가할 수 있는 수만큼 **[!UICONTROL Audience]** 및 **[!UICONTROL Exclude]** 필요에 따라 작성에서 활동을 수행합니다. 하지만 이후에 추가 활동을 추가할 수 없습니다 **[!UICONTROL Rank]** 및 **[!UICONTROL Split]** 활성화
+>추가할 수 있는 수만큼 **[!UICONTROL Audience]** 및 **[!UICONTROL 제외]** 필요에 따라 작성에서 활동을 수행합니다. 하지만 이후에 추가 활동을 추가할 수 없습니다 **[!UICONTROL 등급]** 및 **[!UICONTROL 분할]** 활성화
 
 오른쪽 창에서 삭제 단추를 클릭하여 언제든지 캔버스에서 활동을 제거할 수 있습니다. 이 활동 뒤에 추가된 모든 활동도 캔버스에서 제거됩니다.
 
@@ -101,15 +101,15 @@ ht-degree: 0%
 >title="활동 제외"
 >abstract="제외 활동을 사용하면 기존 대상자를 선택하거나 규칙을 사용하여 컴포지션에서 프로필을 제외할 수 있습니다."
 
-다음 **[!UICONTROL Exclude]** 활동을 통해 컴포지션에서 프로필을 제외할 수 있습니다. 두 가지 유형의 제외를 사용할 수 있습니다.
+다음 **[!UICONTROL 제외]** 활동을 통해 컴포지션에서 프로필을 제외할 수 있습니다. 두 가지 유형의 제외를 사용할 수 있습니다.
 
-* **[!UICONTROL Exclude Audience]**: 기존 대상자에 속하는 프로필을 제외합니다.
+* **[!UICONTROL 대상 제외]**: 기존 대상자에 속하는 프로필을 제외합니다.
 
-   을(를) 클릭합니다. **[!UICONTROL Add audience]** 그런 다음 제외할 대상을 선택합니다.
+   을(를) 클릭합니다. **[!UICONTROL 대상 추가]** 그런 다음 제외할 대상을 선택합니다.
 
    ![](assets/audiences-exclude-audience.png)
 
-* **[!UICONTROL Exclude using attribute]**: 특정 속성을 기반으로 프로필을 제외합니다.
+* **[!UICONTROL 속성을 사용하여 제외]**: 특정 속성을 기반으로 프로필을 제외합니다.
 
    조회할 속성을 선택한 다음 제외할 값을 지정합니다. 이 예에서는 홈 주소가 일본에 있는 구성 프로필에서 을 제외합니다.
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 >title="프로필 제한 추가"
 >abstract="이 옵션을 켜서 컴포지션에 포함할 최대 프로필 수를 지정합니다."
 
-다음 **[!UICONTROL Rank]** 활동을 통해 특정 속성에 따라 프로필의 등급을 매기고 구성에 포함할 수 있습니다. 예를 들어 충성도 포인트가 가장 많은 50개의 프로필을 포함할 수 있습니다.
+다음 **[!UICONTROL 등급]** 활동을 통해 특정 속성에 따라 프로필의 등급을 매기고 구성에 포함할 수 있습니다. 예를 들어 충성도 포인트가 가장 많은 50개의 프로필을 포함할 수 있습니다.
 
 1. 조회할 속성을 선택하고 등급 순서(오름차순 또는 내림차순)를 지정합니다.
 
@@ -135,7 +135,7 @@ ht-degree: 0%
    >
    >다음 데이터 유형을 사용하는 속성을 선택할 수 있습니다. 정수, 숫자, 단락 <!--(other?)-->
 
-1. 전환 **[!UICONTROL Add profile limit]** 옵션을 설정하고 컴포지션에 포함할 최대 프로필 수를 지정합니다.
+1. 전환 **[!UICONTROL 프로필 제한 추가]** 옵션을 설정하고 컴포지션에 포함할 최대 프로필 수를 지정합니다.
 
    ![](assets/audiences-rank.png)
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="활동 분할"
->abstract="분할 활동을 사용하면 컴포지션을 여러 경로로 나눌 수 있습니다. 컴포지션을 게시할 때 각 경로에 대해 한 명의 대상이 Adobe Experience Platform에 저장됩니다."
+>abstract="분할 활동을 사용하면 컴포지션을 여러 경로로 나눌 수 있습니다. 컴포지션을 게시할 때 각 경로마다 한 명의 대상이 Adobe Experience Platform에 저장됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
@@ -161,29 +161,29 @@ ht-degree: 0%
 >title="기타 프로필"
 >abstract="다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만들려면 이 옵션을 켜십시오."
 
-다음 **[!UICONTROL Split]** 활동을 통해 컴포지션을 여러 경로로 나눌 수 있습니다.
+다음 **[!UICONTROL 분할]** 활동을 통해 컴포지션을 여러 경로로 나눌 수 있습니다.
 
-이 작업은 자동으로 **[!UICONTROL Save]** 활동은 각 경로 끝에 있습니다. 컴포지션을 게시할 때 각 경로에 대해 한 명의 대상이 Adobe Experience Platform에 저장됩니다.
+이 작업은 자동으로 **[!UICONTROL 저장]** 활동은 각 경로 끝에 있습니다. 컴포지션을 게시할 때 각 경로마다 한 명의 대상이 Adobe Experience Platform에 저장됩니다.
 
 두 가지 유형의 분할 작업을 사용할 수 있습니다.
 
-* **[!UICONTROL Percent split]**: 프로필을 두 개 이상의 경로로 임의로 분할합니다. 예를 들어 프로필을 각각 45%의 두 개의 개별 경로로 분할하고 컨트롤 그룹에 대한 추가 경로를 추가할 수 있습니다.
+* **[!UICONTROL 백분율 분할]**: 프로필을 두 개 이상의 경로로 임의로 분할합니다. 예를 들어 프로필을 각각 45%의 두 개의 개별 경로로 분할하고 컨트롤 그룹에 대한 추가 경로를 추가할 수 있습니다.
 
    ![](assets/audiences-split-percentage.png)
 
-* **[!UICONTROL Attribute split]**: 특정 속성에 따라 프로필을 분할합니다. 이 예에서는 룸 유형 환경 설정에 따라 프로필을 분할합니다.
+* **[!UICONTROL 속성 분할]**: 특정 속성에 따라 프로필을 분할합니다. 이 예에서는 룸 유형 환경 설정에 따라 프로필을 분할합니다.
 
    ![](assets/audiences-split.png)
 
    >[!NOTE]
    >
-   >다음 **[!UICONTROL Other profiles]** 옵션을 사용하면 다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만들 수 있습니다.
+   >다음 **[!UICONTROL 기타 프로필]** 옵션을 사용하면 다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만들 수 있습니다.
 
 ## 대상자 저장 {#save}
 
 Adobe Experience Platform에 저장될 결과 대상을 구성합니다.
 
-이렇게 하려면 **[!UICONTROL Save audience]** 각 경로 끝에 있는 활동에서 만들 새 대상의 이름을 지정합니다.
+이렇게 하려면 **[!UICONTROL 대상자 저장]** 각 경로 끝에 있는 활동에서 만들 새 대상의 이름을 지정합니다.
 
 ![](assets/audiences-publish.png)
 
@@ -191,6 +191,6 @@ Adobe Experience Platform에 저장될 결과 대상을 구성합니다.
 
 추가 정보:
 
-* [대상 구성 시작](get-started-audience-orchestration.md)
+* [대상자 구성 시작](get-started-audience-orchestration.md)
 * [컴포지션 워크플로우 만들기](create-compositions.md)
 * [대상자 액세스 및 관리](access-audiences.md)

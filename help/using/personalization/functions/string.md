@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1678'
-ht-degree: 0%
+source-wordcount: '1685'
+ht-degree: 7%
 
 ---
 
@@ -271,7 +271,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= getUrlHost("http://www.myurl.com/contact") %}
 ```
 
-&quot;www.myurl.com&quot;를 반환합니다.
+&quot;www.myurl.com&quot;을 반환합니다.
 
 ## Url 경로 가져오기 {#get-url-path}
 
@@ -289,7 +289,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= getUrlPath("http://www.myurl.com/contact.html") %}
 ```
 
-&quot;/contact.html&quot;를 반환합니다.
+&quot;/contact.html&quot;을 반환합니다.
 
 ## Url 프로토콜 가져오기 {#get-url-protocol}
 
@@ -741,7 +741,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTimeOnly(string) %}: date-time
 ```
 
-## Trim{#trim}
+## 트리밍{#trim}
 
 다음 **trim** 함수는 문자열 시작 및 끝에서 모든 공백을 제거합니다.
 

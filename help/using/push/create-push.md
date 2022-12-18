@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 0%
+source-wordcount: '681'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!TAB 여정에 푸시 추가]
 
-1. 여정을 연 다음, 팔레트의 작업 섹션에서 푸시 활동을 끌어다 놓습니다.
+1. 여정을 열고 팔레트의 작업 섹션에서 푸시 활동을 끌어다 놓습니다.
 
    ![](assets/push_create_1.png)
 
@@ -40,11 +40,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >여정에서 푸시 알림을 전송하는 경우 Adobe Journey Optimizer의 전송 시간 최적화 기능을 활용하여 메시지를 보내는 가장 좋은 시간을 예측하여 내역 공개 및 클릭 비율을 기반으로 참여를 극대화할 수 있습니다. [전송 시간 최적화를 사용하는 방법을 알아봅니다](../building-journeys/journeys-message.md#send-time-optimization)
+   >여정에서 푸시 알림을 전송하는 경우 Adobe Journey Optimizer의 전송 시간 최적화 기능을 활용하여 내역 열기 및 클릭률을 기반으로 참여를 극대화하기 위해 메시지를 보내는 최적의 시간을 예측할 수 있습니다. [전송 시간 최적화를 사용하는 방법을 알아봅니다](../building-journeys/journeys-message.md#send-time-optimization)
 
-   여정을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)
+   여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)
 
-1. 여정 구성 화면에서 **[!UICONTROL Edit content]** 푸시 컨텐츠를 구성하는 버튼을 클릭합니다. [푸시 알림 디자인](design-push.md)
+1. 여정 구성 화면에서 **[!UICONTROL 컨텐츠 편집]** 푸시 컨텐츠를 구성하는 버튼을 클릭합니다. [푸시 알림 디자인](design-push.md)
 
 1. 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다.
 
@@ -54,32 +54,32 @@ ht-degree: 0%
 
 >[!TAB 캠페인에 푸시 추가]
 
-1. 예약되었거나 API가 트리거된 새 캠페인을 만들어 다음을 선택합니다. **[!UICONTROL Push notification]** 를 원하는 대로 선택하고 **[!UICONTROL App surface]** 를 사용하십시오. [푸시 구성에 대해 자세히 알아보기](push-configuration.md).
+1. 예약되었거나 API가 트리거된 새 캠페인을 만들어 다음을 선택합니다. **[!UICONTROL 푸시 알림]** 를 원하는 대로 선택하고 **[!UICONTROL 앱 표면]** 를 사용하십시오. [푸시 구성에 대해 자세히 알아보기](push-configuration.md).
 
    ![](assets/push_create_3.png)
 
-1. 클릭 **[!UICONTROL Create]**.
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-1. 에서 **[!UICONTROL Properties]** 섹션에서 캠페인 편집 **[!UICONTROL Title]** 및 **[!UICONTROL Description]**.
+1. 에서 **[!UICONTROL 속성]** 섹션에서 캠페인 편집 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**.
 
    ![](assets/push_create_4.png)
 
-1. 을(를) 클릭합니다. **[!UICONTROL Select audience]** 사용 가능한 Adobe Experience Platform 세그먼트 목록에서 타깃팅할 대상을 정의하는 단추입니다. [추가 정보](../segment/about-segments.md).
+1. 을(를) 클릭합니다. **[!UICONTROL 대상 선택]** 사용 가능한 Adobe Experience Platform 세그먼트 목록에서 타깃팅할 대상을 정의하는 단추입니다. [자세히 알아보기](../segment/about-segments.md).
 
-1. 에서 **[!UICONTROL Identity namespace]** 필드에서 선택한 세그먼트에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [추가 정보](../event/about-creating.md#select-the-namespace).
+1. 에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
    ![](assets/push_create_5.png)
 
-1. 캠페인은 특정 날짜 또는 반복 빈도에 실행되도록 디자인됩니다. 구성 방법 알아보기 **[!UICONTROL Schedule]** 캠페인 [이 섹션](../campaigns/create-campaign.md#schedule).
+1. 캠페인은 특정 날짜 또는 반복 빈도에 실행되도록 디자인됩니다. 구성 방법 알아보기 **[!UICONTROL 예약]** 캠페인 [이 섹션](../campaigns/create-campaign.md#schedule).
 
-1. 에서 **[!UICONTROL Action triggers]** 메뉴에서 **[!UICONTROL Frequency]** 푸시 알림:
+1. 에서 **[!UICONTROL 작업 트리거]** 메뉴에서 **[!UICONTROL 빈도]** 푸시 알림:
 
    * 한 번
    * 일별
    * 주별
    * 월별
 
-1. 캠페인 구성 화면에서 **[!UICONTROL Edit content]** 푸시 컨텐츠를 구성하는 버튼을 클릭합니다. [푸시 알림 디자인](design-push.md)
+1. 캠페인 구성 화면에서 **[!UICONTROL 컨텐츠 편집]** 푸시 컨텐츠를 구성하는 버튼을 클릭합니다. [푸시 알림 디자인](design-push.md)
 
 1. 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다.
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 **관련 항목**
 
 * [푸시 채널 구성](push-gs.md)
-* [여정에서 메시지 추가](../building-journeys/journeys-message.md)
+* [여정에 메시지 추가](../building-journeys/journeys-message.md)
 
 ## 신속한 전달 모드 {#rapid-delivery}
 
@@ -101,24 +101,24 @@ ht-degree: 0%
 >title="신속한 전달 모드"
 >abstract="빠른 전달 모드에서는 푸시 채널에서 30M 이하의 대상 크기로 고속 메시지를 전송할 수 있습니다."
 
-여정에서 버스트 모드라고 이전에 알려졌던 빠른 전달 모드는 [!DNL Journey Optimizer] 캠페인을 통해 대용량 볼륨으로 푸시 메시지를 매우 빠르게 전송할 수 있는 추가 기능입니다.
+이전에 여정에서 버스트 모드라고 했던 빠른 전달 모드는 [!DNL Journey Optimizer] 캠페인을 통해 대용량 볼륨으로 푸시 메시지를 매우 빠르게 전송할 수 있는 추가 기능입니다.
 
 신속한 게재는 휴대폰에 긴급 푸시 경고를 전송하려는 경우, 메시지 게재 지연이 비즈니스 크리티컬 상태일 때 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 최신 뉴스를 보냅니다.
 
-빠른 전달 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
+빠른 전달 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html).
 
 ### 전제 조건 {#prerequisites}
 
 신속한 전송 메시징에는 다음과 같은 요구 사항이 포함됩니다.
 
-* 빠른 배송이 가능한 시기 **[!UICONTROL Scheduled]** 캠페인만 사용할 수 있고 API로 트리거되는 캠페인에 사용할 수 없습니다.
+* 빠른 배송이 가능한 시기 **[!UICONTROL 예약됨]** 캠페인만 사용할 수 있고 API로 트리거되는 캠페인에 사용할 수 없습니다.
 * 푸시 메시지에 개인화가 허용되지 않습니다.
-* 대상 대상에는 30M 미만의 프로필이 포함되어야 합니다.
+* 대상 대상에는 30M 미만의 프로필이 포함되어야 하며,
 * 빠른 배달 모드를 사용하여 최대 5개의 캠페인을 동시에 실행할 수 있습니다.
 
 ### 빠른 전달 모드 활성화
 
-1. 푸시 알림 캠페인을 만들고 **[!UICONTROL Rapid delivery]** 선택 사항입니다.
+1. 푸시 알림 캠페인을 만들고 **[!UICONTROL 신속한 전달]** 선택 사항입니다.
 
 ![](assets/create-campaign-burst.png)
 

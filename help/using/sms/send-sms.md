@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 6%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 표시되는 방식을 확인할 수 있습니다.
 
-1. 클릭 **[!UICONTROL Simulate content]**.
+1. 클릭 **[!UICONTROL 컨텐츠 시뮬레이션]**.
 
-1. 클릭 **[!UICONTROL Manage test profiles]** 테스트 프로필을 추가하려면
+1. 클릭 **[!UICONTROL 테스트 프로필 관리]** 테스트 프로필을 추가하려면
 
-1. 를 사용하여 테스트 프로필 찾기 **[!UICONTROL Identity namespace]** 및 **[!UICONTROL Identity value]** 필드. 그런 다음 **[!UICONTROL Add profile]**.
+1. 를 사용하여 테스트 프로필 찾기 **[!UICONTROL ID 네임스페이스]** 및 **[!UICONTROL ID 값]** 필드. 그런 다음 **[!UICONTROL 프로필 추가]**.
 
    ![](assets/sms_preview_3.png)
 
-1. 테스트 프로필을 선택한 후에는 **[!UICONTROL Add test profile]** 창을 엽니다.
+1. 테스트 프로필을 선택한 후에는 **[!UICONTROL 테스트 프로필 추가]** 창을 엽니다.
 
    ![](assets/sms_preview_1.png)
 
@@ -60,4 +60,4 @@ SMS 메시지가 준비되면 구성을 완료하십시오 [여정](../building-
 * [SMS 채널 구성](sms-configuration.md)
 * [SMS 보고서](../reports/journey-global-report.md#sms-global)
 * [SMS 메시지 만들기](create-sms.md)
-* [여정에서 메시지 추가](../building-journeys/journeys-message.md)
+* [여정에 메시지 추가](../building-journeys/journeys-message.md)

@@ -9,7 +9,7 @@ exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 개인화된 오퍼는 자격 규칙 및 제한을 기반으로 사용자 정의 가능한 마케팅 메시지입니다.
 
-에 POST 요청을 수행하여 개인화된 오퍼를 만들 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
+에 POST 요청을 작성하여 개인화된 오퍼를 생성할 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
@@ -25,8 +25,8 @@ ht-degree: 0%
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
-| 수락 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| 컨텐츠 유형 | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **API 형식**
 

@@ -1,5 +1,5 @@
 ---
-title: 결정 데이터 세트
+title: 의사 결정 데이터 세트
 description: 이 섹션에는 결정을 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다
 feature: Offers
 topic: Integrations
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 0%
+source-wordcount: '1550'
+ht-degree: 3%
 
 ---
 
-# 결정 데이터 세트 {#decisions-dataset}
+# 의사 결정 데이터 세트 {#decisions-dataset}
 
 오퍼가 수정될 때마다 결정을 위해 자동 생성된 데이터 세트(이전의 활동)가 업데이트됩니다.
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >에서 오퍼 라이브러리의 각 개체에 대해 내보낸 데이터 세트에 액세스하는 방법을 알아봅니다 [이 섹션](../export-catalog/access-dataset.md).
 
-다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL Decision Object Repository - Decisions]** 데이터 세트(이전에는 결정 객체 저장소 - 활동이라고 함)
+다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL 결정 객체 저장소 - 결정]** 데이터 세트(이전에는 결정 객체 저장소 - 활동이라고 함)
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 **필드:** _id
 **제목:** 식별자
 **설명:** 레코드의 고유 식별자입니다.
-**유형:** string
+**유형:** 문자열
 
-## _experience {#experience}
+## _경험 {#experience}
 
 **필드:** _experience
 **유형:** 개체
@@ -58,7 +58,7 @@ ht-degree: 0%
 **필드:** 설명
 **제목:** 설명
 **설명:** 기준 설명. 이 기준은 어떻게, 왜 이 기준이 만들어졌는지, 그리고 이것이 결정에 어떤 영향을 미치는지에 대한 사람이 읽을 수 있는 의도를 전달하는 데 사용됩니다.
-**유형:** string
+**유형:** 문자열
 
 **_experience > decisioning > 기준 > optionSelection**
 
@@ -72,21 +72,21 @@ ht-degree: 0%
    **필드:** 설명
    **제목:** 설명
    **설명:** 옵션 선택 설명입니다. 이 옵션은 이 옵션 선택이 구성되는 방법 또는 이유 및/또는 어떤 옵션이 일치하는지에 대한 사람이 읽을 수 있는 의도를 전달하는 데 사용됩니다.
-   **유형:** string
+   **유형:** 문자열
 
 * **옵션 필터**
 
    **필드:** 필터
    **제목:** 옵션 필터
    **설명:** 첨부된 태그를 사용하여 인벤토리의 옵션과 일치하는 태그 기반 필터에 대한 참조입니다. 값은 참조되는 의사 결정 규칙의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/filter 를 참조하십시오.
-   **유형:** string
+   **유형:** 문자열
 
 * **프로필 제한 유형**
 
    **필드:** optionSelectionType
    **제목:** 프로필 제한 유형
    **설명:** 현재 제약 조건이 설정되어 있는지 여부 및 제약 조건이 표현되는 방식을 결정합니다. 필터 쿼리 또는 하나 이상의 세그먼트 멤버십을 통해 수행될 수 있습니다.
-   **유형:** string
+   **유형:** 문자열
    **가능한 값:** &quot;none&quot;(기본값), &quot;directList&quot;, &quot;filter&quot;
 
 * **옵션 목록**
@@ -109,7 +109,7 @@ ht-degree: 0%
 
    **제목:** 배치 식별자
    **설명:** 배치 엔티티에 대한 참조. 값은 참조되는 배치의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/placement 를 참조하십시오.
-   **유형:** string
+   **유형:** 문자열
 
 **_experience > decisioning > 기준 > profileConstraints**
 
@@ -123,21 +123,21 @@ ht-degree: 0%
    **필드:** 설명
    **제목:** 설명
    **설명:** 프로필 제한 설명입니다. 이 프로필 제한을 구성하는 방법 또는 이유 및/또는 이 프로필에 의해 포함 또는 제외할 옵션에 대한 사람이 읽을 수 있는 의도를 전달하는 데 사용됩니다.
-   **유형:** string
+   **유형:** 문자열
 
 * **_experience > decisioning > 기준 > profileConstraints > 자격 규칙**
 
    **필드:** requalificationRule
    **제목:** 자격 규칙
    **설명:** 주어진 프로필 및/또는 지정된 컨텍스트 XDM 개체에 대해 true 또는 false로 평가되는 의사 결정 규칙에 대한 참조입니다. 이 규칙은 이 옵션이 지정된 프로필에 적합한지를 결정하는 데 사용됩니다. 값은 참조되는 의사 결정 규칙의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/rule 를 참조하십시오.
-   **유형:** string
+   **유형:** 문자열
 
 * **_experience > decisioning > 기준 > profileConstraints > 프로필 제한 유형**
 
    **필드:** profileConstraintType
    **제목:** 프로필 제한 유형
    **설명:** 현재 제약 조건이 설정되어 있는지 여부 및 제약 조건이 표현되는 방식을 결정합니다. 규칙 또는 하나 이상의 세그먼트 멤버십을 통해 수행될 수 있습니다.
-   **유형:** string
+   **유형:** 문자열
    **가능한 값:**
    * &quot;none&quot;(기본값)
    * &quot;qualificationRule&quot;: &quot;프로필 제약 조건은 제약 조건이 허용되기 전에 true로 평가해야 하는 단일 규칙으로 표시됩니다.&quot;
@@ -157,7 +157,7 @@ ht-degree: 0%
       **필드:** _id
       **제목:** 식별자
       **설명:** 관련 네임스페이스에서 세그먼트의 ID입니다.
-      **유형:** string
+      **유형:** 문자열
 
    * **namespace**
 
@@ -172,13 +172,13 @@ ht-degree: 0%
          **필드:** 코드
          **제목:** 코드
          **설명:** 이 코드는 네임스페이스에 대해 사람이 읽을 수 있는 식별자이며, ID 그래프 처리에 사용되는 기술 네임스페이스 ID를 요청하는 데 사용할 수 있습니다.
-         **유형:** string
+         **유형:** 문자열
    * **경험 식별자**
 
       **필드:** xid
       **제목:** 경험 식별자
       **설명:** 이 값은 모든 네임스페이스에서 모든 네임스페이스 범위 식별자에서 고유한 네임스페이스 간 식별자를 나타냅니다.
-      **유형:** string
+      **유형:** 문자열
 
 
 **_experience > decisioning > 기준 > 등급**
@@ -200,14 +200,14 @@ ht-degree: 0%
       **필드:** 함수
       **제목:** 점수 함수
       **설명:** 이 결정 옵션에 대한 숫자 점수를 계산하는 함수에 대한 참조입니다. 그런 다음 결정 옵션을 해당 점수로 순서 지정(등급)합니다. 이 속성의 값은 한 번에 옵션과 함께 호출할 함수의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/function 를 참조하십시오.
-      **유형:** string
+      **유형:** 문자열
 
    * **주문 평가 유형**
 
       **필드:** orderEvaluationType
       **제목:** 주문 평가 유형
       **설명:** 사용할 주문 평가 메커니즘, 결정 옵션의 정적 우선순위, 모든 옵션에 대한 숫자 값을 계산하는 점수 함수 또는 목록을 수신하여 순서를 지정하는 등급 전략을 지정합니다.
-      **유형:** string
+      **유형:** 문자열
       **가능한 값:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
    * **등급 전략**
@@ -215,7 +215,7 @@ ht-degree: 0%
       **필드:** rankingStrategy
       **제목:** 등급 전략
       **설명:** 결정 옵션 목록의 등급을 매기는 전략에 대한 참조. 결정 옵션이 순서가 지정된 목록으로 반환됩니다. 이 속성의 값은 한 번에 옵션과 함께 호출할 함수의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/rankingStrategy 를 참조하십시오.
-      **유형:** string
+      **유형:** 문자열
 
 * **_experience > decisioning > 기준 > 등급 > 우선순위**
 
@@ -231,28 +231,28 @@ ht-degree: 0%
 **필드:** endTime
 **제목:** 활동 종료 날짜 및 시간
 **설명:** 결정(이전의 활동)의 종료 날짜 및 종료 시간입니다. 이 속성은 http://schema.org/Action에 정의된 schema.org의 &#39;endTime&#39; 속성의 의미 체계를 갖습니다.
-**유형:** string
+**유형:** 문자열
 
 #### _experience > decisioning > 대체 옵션
 
 **필드:** 대체
 **제목:** 대체 옵션
 **설명:** 이 결정의 컨텍스트에서 의사 결정을 내릴 때 사용되는 폴백 옵션에 대한 참조는 일반 옵션 중 어느 것도 사용할 수 없습니다(일반적으로 하드 제한이 적용될 때 발생함). 값은 참조되는 대체 옵션의 URI(@id)입니다.
-**유형:** string
+**유형:** 문자열
 
 #### _experience > decisioning > 활동 이름
 
 **필드:** 이름
 **제목:** 활동 이름
 **설명:** 다양한 사용자 인터페이스에 표시되는 의사 결정(이전의 활동)입니다.
-**유형:** string
+**유형:** 문자열
 
 #### _experience > decisioning > 활동 시작 날짜 및 시간
 
 **필드:** startTime
 **제목:** 활동 시작 날짜 및 시간
 **설명:** 결정(이전의 활동)의 시작 날짜 및 종료 시간입니다. 이 속성은 http://schema.org/Action에 정의된 schema.org의 &#39;startTime&#39; 속성의 의미 체계를 갖습니다.
-**유형:** string
+**유형:** 문자열
 
 ## _repo {#repo}
 
@@ -264,4 +264,4 @@ ht-degree: 0%
 **필드:** 태그
 **제목:** 활동 태그
 **설명:** 스냅샷을 가져올 때 결정(이전의 활동) 객체가 있었던 수정 버전입니다.
-**유형:** string
+**유형:** 문자열

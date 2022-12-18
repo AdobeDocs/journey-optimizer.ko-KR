@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여정에서 메시지 추가
-description: 여정에서 메시지를 추가하는 방법 알아보기
+title: 여정에 메시지 추가
+description: 여정에 메시지를 추가하는 방법 알아보기
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,28 +11,28 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # 이메일, SMS, 푸시{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] 에는 기본 제공 메시지 기능이 포함되어 있습니다. 여정에서 푸시, SMS 또는 이메일 메시지 활동을 추가하고 설정 및 콘텐츠를 정의할 수 있습니다. 그런 다음 실행되어 여정의 컨텍스트에서 전송됩니다.
+[!DNL Journey Optimizer] 에는 기본 제공 메시지 기능이 포함되어 있습니다. 푸시, SMS 또는 이메일 메시지 활동을 여정에 추가하고 설정 및 콘텐츠를 정의할 수 있습니다. 그런 다음 여정 컨텍스트에서 실행됩니다.
 
 특정 작업을 설정하여 메시지를 보낼 수도 있습니다.
 
 * 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. 자세한 내용 [섹션](../action/action.md).
 
-* Campaign과 Journey Optimizer를 함께 사용하는 경우 다음 섹션을 참조하십시오.
+* Campaign과 Journey Optimizer을 함께 사용하는 경우 다음 섹션을 참조하십시오.
 
    * [[!DNL Journey Optimizer] 및 Campaign Classic v7/Campaign v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] 및 Campaign Standard](../action/acs-action.md)
 
-여정에서 메시지를 추가하려면 아래 단계를 수행하십시오.
+여정에 메시지를 추가하려면 아래 단계를 따르십시오.
 
-1. 을(를) 통해 여정 시작 [이벤트](general-events.md) 또는 [세그먼트 읽기](read-segment.md) 활동.
+1. [이벤트](general-events.md) 또는 [세그먼트 읽기](read-segment.md) 활동으로 여정을 시작하십시오.
 
-1. 에서 **작업** 팔레트의 섹션에서 **이메일**, **SMS** 또는 **푸시** 활동을 캔버스로 이동합니다.
+1. 팔레트의 **작업** 섹션에서 **이메일**, **SMS** 또는 **푸시** 활동을 캔버스로 드래그하여 놓습니다.
 
 1. 활동을 구성합니다. 다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
    </td>
    <td>
    <a href="../push/create-push.md">
-   <img alt="자주" src="../assets/do-not-localize/push.jpg">
+   <img alt="드물게" src="../assets/do-not-localize/push.jpg">
    </a>
    <div>
    <a href="../push/create-push.md"><strong>푸시 알림 만들기<strong></a>
@@ -75,20 +75,20 @@ ht-degree: 0%
 
 ![](assets/add-a-message2.png)
 
-하지만 개인화에 사용되는 속성이 프로필 속성이든 컨텍스트 데이터(이벤트 또는 여정 속성)이든 변경할 수 없습니다.
+하지만 개인화에 사용되는 속성이 프로필 속성이든 컨텍스트 데이터(이벤트 또는 여정 속성에서)이든 간에 변경할 수 없습니다.
 
 ## 전송 시간 최적화{#send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="전송 시간 최적화 기본 정보"
->abstract="Adobe의 AI 서비스를 기반으로 하는 Adobe Journey Optimizer의 전송 시간 최적화 기능은 이메일 또는 푸시 메시지를 보내는 최적의 시간을 예측하여 과거의 열기 및 클릭 비율에 따라 참여를 극대화할 수 있습니다."
+>abstract="Adobe의 AI 서비스를 기반으로 하는 Adobe Journey Optimizer의 전송 시간 최적화 기능은 이메일 또는 푸시 메시지를 보내는 최적의 시간을 예측하여 과거의 공개 및 클릭 비율에 따라 참여를 극대화할 수 있습니다."
 
 ### 전송 시간 최적화 기본 정보 {#about-send-time}
 
-Adobe의 AI 서비스를 기반으로 하는 Adobe Journey Optimizer의 전송 시간 최적화 기능은 이메일 또는 푸시 메시지를 보내는 최적의 시간을 예측하여 과거의 열기 및 클릭 비율에 따라 참여를 극대화할 수 있습니다. Adobe의 기계 학습 모델을 사용하여 각 사용자가 메시지의 오픈과 클릭률을 높일 수 있도록 개인화된 전송 시간을 예약할 수 있습니다.
+Adobe의 AI 서비스를 기반으로 하는 Adobe Journey Optimizer의 전송 시간 최적화 기능은 이메일 또는 푸시 메시지를 보내는 최적의 시간을 예측하여 과거의 공개 및 클릭 비율에 따라 참여를 극대화할 수 있습니다. Adobe의 기계 학습 모델을 사용하여 각 사용자가 메시지의 오픈과 클릭률을 높일 수 있도록 개인화된 전송 시간을 예약할 수 있습니다.
 
-Send-Time Optimization 모델은 Adobe Journey Optimizer 데이터를 수집하여 사용자 수준 열기(이메일 및 푸시)를 확인하고 (이메일용) 비율을 클릭하여 고객이 메시지를 가장 많이 이용할 수 있는 시기를 결정합니다. 전송 시간 최적화를 사용하려면 올바른 권장 사항을 제공하기 위해 최소 1개월의 메시지 추적 데이터가 필요합니다. 각 사용자에 대해 다음 점수를 사용하여 최적의 시간을 자동으로 선택합니다.
+Send-Time Optimization 모델은 Adobe Journey Optimizer 데이터를 수집하여 사용자 수준의 열기(이메일 및 푸시)를 확인하고 (이메일용) 비율을 확인하여 고객이 언제 메시지를 가장 많이 이용할 수 있는지 결정합니다. 전송 시간 최적화를 사용하려면 올바른 권장 사항을 제공하기 위해 최소 1개월의 메시지 추적 데이터가 필요합니다. 각 사용자에 대해 다음 점수를 사용하여 최적의 시간을 자동으로 선택합니다.
 
 * 참여를 최대화하기 위해 매일 가장 적합한 시간
 * 참여를 최대화하는 데 가장 적합한 요일
@@ -99,7 +99,7 @@ Send-Time Optimization 모델은 Adobe Journey Optimizer 데이터를 수집하�
 * 교육 - 점수를 매기는 데 사용되는 알고리즘 개발
 * 점수 - 훈련된 모델을 기반으로 개별 프로필에 점수 적용
 
-이 정보는 사용자 프로필과 함께 저장되며 경로 실행 시 참조되어 Adobe Journey Optimizer에서 메시지를 보낼 시기를 알려줍니다.
+이 정보는 사용자의 프로필과 함께 저장되며 여정 실행 시 참조되어 Adobe Journey Optimizer에서 메시지를 보낼 시점을 알려줍니다.
 
 >[!CAUTION]
 >
@@ -123,4 +123,4 @@ Send-Time Optimization 모델은 Adobe Journey Optimizer 데이터를 수집하�
 
 이메일 메시지의 경우 해당 라디오 단추를 선택하여 이메일 열기 또는 이메일 클릭스루를 최적화할지 여부를 선택합니다. 푸시 메시지는 푸시 메시지에 클릭을 적용할 수 없으므로 기본적으로 열기 옵션으로 설정됩니다.
 
-또한, **다음 내 전송** 선택 사항입니다. &quot;6시간&quot;을 값으로 선택하면 [!DNL Journey Optimizer] 은(는) 각 사용자 프로필을 확인하고 경로 실행 시간으로부터 6시간 이내에 최적의 전송 시간을 선택합니다.
+또한, **다음 내 전송** 선택 사항입니다. &quot;6시간&quot;을 값으로 선택하면 [!DNL Journey Optimizer] 은(는) 각 사용자 프로필을 확인하고 여정 실행 시간에서 6시간 내에 최적의 전송 시간을 선택합니다.

@@ -10,18 +10,18 @@ level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 0%
+source-wordcount: '93'
+ht-degree: 25%
 
 ---
 
 # 즐겨찾기에 속성 추가 {#fav}
 
-즐겨찾기 메뉴에 다른 속성을 추가하면 가장 자주 사용하는 항목에 빠르게 액세스할 수 있습니다. 즐겨찾기에 속성을 추가하려면 타원 메뉴를 클릭하고 **[!UICONTROL Add to favorites]**.
+즐겨찾기 메뉴에 다양한 속성을 추가하면 가장 자주 사용하는 항목에 빠르게 액세스할 수 있습니다. 즐겨찾기에 속성을 추가하려면 타원 메뉴를 클릭하고 **[!UICONTROL 즐겨찾기에 추가]**.
 
 ![](assets/favorite-option.png)
 
-즐겨찾는 항목에 액세스하려면 **[!UICONTROL Favorites]** 메뉴 아래의 왼쪽 창에 표시됩니다.
+즐겨찾는 항목에 액세스하려면 **[!UICONTROL 즐겨찾기]** 메뉴 아래의 왼쪽 창에 표시됩니다.
 
 이 목록에서 현재 표현식에 개인화 개체를 빠르게 추가할 수 있습니다.
 

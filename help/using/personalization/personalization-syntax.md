@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 0%
+source-wordcount: '730'
+ht-degree: 9%
 
 ---
 
@@ -26,10 +26,10 @@ Handlebars 구문에 대한 전체 설명은 다음을 참조하십시오 [Handl
 
 `{{profile.person.name}}`
 
-위치:
+여기에서
 
 * `profile` 는 네임스페이스입니다.
-* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [추가 정보](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
 
 ## 구문 일반 규칙 {#general-rules}
 
@@ -43,7 +43,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 단어 **true**, **false**, **null** 및 **정의되지 않음** 경로 식의 첫 부분에서만 허용됩니다.
 
-Handlebars에서 {{expression}} is **HTML 이스케이프 처리됨**. 표현식에 가 포함되어 있는 경우 `&`를 반환하면 반환된 HTML 이스케이프 처리된 출력은 `&amp;`. Handlebars가 값을 이스케이프 처리하지 않도록 하려면 &quot;트리플 스태시&quot;를 사용합니다.
+Handlebars에서 {{expression}} is **HTML 이스케이프 처리**. 표현식에 가 포함되어 있는 경우 `&`를 반환하면 반환된 HTML 이스케이프 처리된 출력이 `&amp;`. Handlebars가 값을 이스케이프 처리하지 않도록 하려면 &quot;트리플 스태시&quot;를 사용합니다.
 
 리터럴 함수 인수와 관련하여 템플릿 언어 파서는 이스케이프 처리되지 않은 단일 백슬래시(`\`) 기호를 포함합니다. 이 문자는 추가 백슬래시(`\`) 기호를 포함합니다. 예 :
 
@@ -51,7 +51,7 @@ Handlebars에서 {{expression}} is **HTML 이스케이프 처리됨**. 표현식
 
 ## 프로필
 
-이 네임스페이스를 사용하면 [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+이 네임스페이스를 사용하면 [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
 
 스키마에서 참조되기 전에 속성을 정의해야 합니다 [!DNL Journey Optimizer] 개인화 블록.
 
@@ -91,7 +91,7 @@ Handlebars에서 {{expression}} is **HTML 이스케이프 처리됨**. 표현식
 
 `offers.Type.[Placement Id].[Activity Id].Attribute`
 
-위치:
+여기에서
 
 * `offers` 오퍼 네임스페이스에 속하는 경로 표현식을 식별합니다
 * `Type`  오퍼 표현 유형을 결정합니다. 가능한 값은 다음과 같습니다. `image`, `html` 및 `text`
@@ -108,7 +108,7 @@ Handlebars에서 {{expression}} is **HTML 이스케이프 처리됨**. 표현식
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-* 이미지를 클릭하면 타겟 URL이 표시됩니다.
+* 이미지를 클릭하면 Target URL:
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
@@ -116,7 +116,7 @@ Handlebars에서 {{expression}} is **HTML 이스케이프 처리됨**. 표현식
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* 의사 결정 엔진에서 나오는 오퍼의 HTML 콘텐츠:
+* 의사 결정 엔진에서 나오는 오퍼의 HTML 컨텐츠:
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -151,11 +151,11 @@ Handlebars 도우미는 매개 변수 뒤에 올 수 있는 간단한 식별자�
 
 ## URL 개인화{#perso-urls}
 
-개인화된 URL은 프로필 속성에 따라 수신자를 웹 사이트의 특정 페이지 또는 개인화된 마이크로 사이트로 가져옵니다. Adobe Journey Optimizer에서 메시지 콘텐츠의 URL에 개인화를 추가할 수 있습니다. URL 개인화는 텍스트 및 이미지에 적용하고 프로필 데이터 또는 컨텍스트 데이터를 사용할 수 있습니다.
+개인화된 URL은 프로필 속성에 따라 수신자를 웹사이트의 특정 페이지 또는 개인화된 마이크로사이트로 이동합니다. Adobe Journey Optimizer에서 메시지 콘텐츠의 URL에 개인화를 추가할 수 있습니다. URL 개인화는 텍스트 및 이미지에 적용할 수 있으며, 프로필 데이터 또는 컨텍스트 데이터를 사용합니다.
 
-Journey Optimizer를 사용하면 개인화 필드를 메시지에 추가하여 하나 또는 여러 URL을 개인화할 수 있습니다. URL을 개인화하려면 아래 단계를 수행하십시오.
+Journey Optimizer에서는 개인화 필드를 메시지에 추가하여 하나 또는 여러 개의 URL을 개인화할 수 있습니다. URL을 개인화하려면 아래 단계를 수행하십시오.
 
-1. 메시지 콘텐츠에 링크를 만듭니다. [추가 정보](../email/message-tracking.md#insert-links)
+1. 메시지 콘텐츠에 링크를 만듭니다. [자세히 알아보기](../email/message-tracking.md#insert-links)
 1. 개인화 아이콘에서 속성을 선택합니다. 개인화 아이콘은 다음 유형의 링크에만 사용할 수 있습니다. **외부 링크**, **구독 취소 링크** 및 **옵트아웃**.
 
 ![](assets/perso-url.png)

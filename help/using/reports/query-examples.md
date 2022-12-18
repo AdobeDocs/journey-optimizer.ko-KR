@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 쿼리의 예
-description: 쿼리의 예
+title: 쿼리 예제
+description: 쿼리 예제
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,28 +10,28 @@ level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 0%
+source-wordcount: '1339'
+ht-degree: 2%
 
 ---
 
-# 쿼리의 예{#query-examples}
+# 쿼리 예제{#query-examples}
 
-이 섹션에는 Data Lake에서 Journey Step 이벤트를 쿼리하는 데 일반적으로 사용되는 몇 가지 예가 나와 있습니다.
+이 섹션에는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 몇 가지 예제가 나와 있습니다.
 
 쿼리에 사용되는 필드에 해당 스키마의 관련 값이 있는지 확인하십시오.
 
 **ID, instanceid 및 profileid 간의 차이점은 무엇입니까?**
 
-* id: 모든 단계 이벤트 항목에 대해 고유합니다. 두 개의 다른 단계 이벤트에는 동일한 ID가 있을 수 없습니다.
-* instanceId: instanceID는 여정 실행 내의 프로필에 연결된 모든 단계 이벤트에 대해 동일합니다. 프로필이 여정을 다시 시작하면 다른 instanceId가 사용됩니다. 이 새 instanceId는 다시 입력된 인스턴스의 모든 단계 이벤트(처음부터 끝까지)에 대해 동일합니다.
+* id: 모든 단계 이벤트 항목에 대해 고유합니다. 서로 다른 두 단계 이벤트에는 동일한 ID가 있을 수 없습니다.
+* instanceId: instanceID는 여정 실행 내의 프로필에 연결된 모든 단계 이벤트에 대해 동일합니다. 프로필이 여정을 다시 입력하면 다른 instanceId가 사용됩니다. 이 새 instanceId는 다시 입력된 인스턴스의 모든 단계 이벤트(처음부터 끝까지)에 대해 동일합니다.
 * profileID: 여정 네임스페이스에 해당하는 프로필의 ID입니다.
 
 ## 기본 사용 사례/일반적인 쿼리 {#common-queries}
 
 **특정 기간에 여정에 입력한 프로필 수**
 
-이 쿼리는 주어진 기간 동안 주어진 여정에 입력한 개별 프로필 수를 제공합니다.
+이 쿼리는 주어진 기간 동안 주어진 여정에 입력된 개별 프로필 수를 제공합니다.
 
 _Data Lake 쿼리_
 
@@ -65,7 +65,7 @@ AND
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
 
-**특정 기간 동안 특정 여정에서 삭제된 이벤트 수**
+**특정 기간 동안 특정 여정에서 폐기된 이벤트 수**
 
 _Data Lake 쿼리_
 
@@ -77,11 +77,11 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVers
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**특정 기간의 특정 여정 내 특정 프로필에 나타나는 결과**
+**특정 여정의 특정 프로필에 있는 특정 프로필은 어떻게 됩니까?**
 
 _Data Lake 쿼리_
 
-이 쿼리는 지정된 시간 동안 지정된 프로필 및 여정에 대한 모든 단계 이벤트 및 서비스 이벤트를 시간 순서대로 반환합니다.
+이 쿼리는 지정된 시간 동안 시간 순서대로 주어진 프로필 및 여정에 대한 모든 단계 이벤트 및 서비스 이벤트를 반환합니다.
 
 ```sql
 SELECT
@@ -131,11 +131,11 @@ AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 ```
 
-이 쿼리는 발생한 횟수와 함께 여정에서 작업을 실행하는 동안 발생한 모든 다른 오류를 반환합니다.
+이 쿼리는 여정에서 작업을 실행하는 동안 발생한 모든 다른 오류를 발생한 횟수와 함께 반환합니다.
 
 ## 프로필 기반 쿼리 {#profile-based-queries}
 
-**프로필이 특정 여정에 입력되었는지 확인**
+**프로필이 특정 여정을 입력했는지 확인**
 
 _Data Lake 쿼리_
 
@@ -155,7 +155,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-결과는 0보다 커야 합니다. 이 쿼리는 프로필이 여정에 입력한 정확한 횟수를 반환합니다.
+결과는 0보다 커야 합니다. 이 쿼리는 프로필이 여정을 입력한 정확한 횟수를 반환합니다.
 
 **프로필에서 특정 메시지를 보냈는지 확인**
 
@@ -181,7 +181,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-결과는 0보다 커야 합니다. 이 쿼리는 메시지 작업이 여정 쪽에서 성공적으로 실행되었는지 여부만 알려줍니다.
+결과는 0보다 커야 합니다. 이 쿼리는 메시지 작업이 여정 측에서 성공적으로 실행되었는지 여부만 알려줍니다.
 
 방법 2: 메시지 이름이 여정에서 고유한 경우.
 
@@ -255,7 +255,7 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 ```
 
-쿼리는 쿼리된 프로필이 여정에 들어간 횟수와 함께 모든 여정 이름 목록을 반환합니다.
+쿼리는 쿼리된 여정이 입력한 횟수와 함께 모든 여정 이름 목록을 반환합니다.
 
 **매일 여정에 대해 자격이 있는 프로필 수**
 
@@ -279,7 +279,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-쿼리는 정의된 기간 동안 매일 여정에 입력한 프로필 수를 다시 반환합니다. 여러 ID를 통해 입력한 프로필은 두 번 카운트됩니다. 다시 입장할 수 있도록 설정하면 다른 날에 여정에 다시 입력한 경우 프로필 수가 다른 날에 복제될 수 있습니다.
+쿼리는 정의된 기간 동안 매일 여정에 입력한 프로필 수를 다시 반환합니다. 여러 ID를 통해 입력한 프로필은 두 번 카운트됩니다. 다시 여정을 사용하도록 설정하면 다른 날에 다시 입력한 경우 프로필 수가 다른 날에 복제될 수 있습니다.
 
 ## 세그먼트 읽기와 관련된 쿼리 {#read-segment-queries}
 
@@ -335,7 +335,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
 ```
 
-중복이라는 이유로 쿼리에서 삭제한 모든 프로필 ID를 반환합니다.
+쿼리는 중복되었기 때문에 여정이 삭제한 모든 프로필 Id를 반환합니다.
 
 **네임스페이스가 잘못되어 여정에서 삭제한 프로필 수입니다**
 
@@ -357,9 +357,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
 ```
 
-쿼리에 잘못된 네임스페이스가 있거나 해당 네임스페이스에 대한 ID가 없으므로 여정에서 삭제한 모든 프로필 ID가 반환됩니다.
+쿼리에 잘못된 네임스페이스가 있거나 해당 네임스페이스에 대한 ID가 없으므로 여정이 삭제한 모든 프로필 ID가 반환됩니다.
 
-**ID 맵이 없어서 여정에서 삭제한 프로필 수입니다**
+**ID 맵이 없어서 여정이 삭제한 프로필 수입니다**
 
 _Data Lake 쿼리_
 
@@ -379,9 +379,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
 ```
 
-ID 맵이 누락되어 쿼리에서 삭제한 모든 프로필 ID를 반환합니다.
+ID 맵이 누락되어 여정에서 삭제한 모든 프로필 ID를 쿼리로 반환합니다.
 
-**여정이 테스트 노드에 있고 프로필이 테스트 프로필이 아니므로 여정에서 삭제한 프로필 수입니다**
+**여정이 테스트 노드에 있고 프로필이 테스트 프로필이 아니므로 여정이 삭제한 프로필 수입니다**
 
 _Data Lake 쿼리_
 
@@ -401,9 +401,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
-내보내기 작업이 테스트 모드에서 실행되었지만 프로필에 testProfile 속성이 true로 설정되지 않았으므로 쿼리는 여정에서 삭제한 모든 프로필 ID를 반환합니다.
+내보내기 작업이 테스트 모드에서 실행되었지만 프로필에 testProfile 속성이 true로 설정되지 않았기 때문에 쿼리는 여정에서 삭제한 모든 프로필 Id를 반환합니다.
 
-**내부 오류로 인해 여정에서 삭제한 프로필 수**
+**내부 오류로 인해 여정에서 삭제한 프로필 수입니다**
 
 _Data Lake 쿼리_
 
@@ -423,7 +423,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
 ```
 
-쿼리는 일부 내부 오류로 인해 여정에서 삭제한 모든 프로필 ID를 반환합니다.
+쿼리는 일부 내부 오류로 인해 여정이 삭제한 모든 프로필 ID를 반환합니다.
 
 **주어진 여정 버전에 대한 세그먼트 읽기 개요**
 
@@ -455,15 +455,15 @@ WHERE
 다음과 같은 문제를 감지할 수도 있습니다.
 
 * 주제 또는 내보내기 작업 생성 오류(세그먼트 내보내기 API 호출의 시간 초과 포함)
-* 중단 가능한 내보내기 작업(지정된 여정 버전의 경우 내보내기 작업 종료에 대한 이벤트가 없음)
+* 보류 가능한 내보내기 작업(지정된 여정 버전의 경우 내보내기 작업 종료에 대한 이벤트가 없음)
 * 작업자 문제(내보내기 작업 종료 이벤트를 수신했지만 작업 처리 종료 이벤트가 없는 경우)
 
 중요 사항: 이 쿼리에서 반환된 이벤트가 없는 경우 다음 이유 중 하나로 인해 발생할 수 있습니다.
 
 * 여정 버전이 예약에 도달하지 않았습니다.
-* 여정 버전에서 오케스트레이터를 호출하여 내보내기 작업을 트리거해야 하는 경우 업스트림 플로우에서 문제가 발생했습니다. journey deployment, business event 또는 scheduler에 대한 문제.
+* 여정 버전에서 오케스트레이터를 호출하여 내보내기 작업을 트리거해야 하는 경우 업그레이드 플로우에서 문제가 발생했습니다. 여정 배포, 비즈니스 이벤트 또는 스케줄러와의 문제에 대한 문제.
 
-**지정된 여정 버전에 대한 세그먼트 읽기 오류 가져오기**
+**주어진 여정 버전에 대한 세그먼트 읽기 오류 가져오기**
 
 _Data Lake 쿼리_
 
@@ -639,7 +639,7 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 이 쿼리는 이전 쿼리와 다릅니다.
 
-이 메서드는 실행할 수 있는 작업과 관계없이 주어진 여정 버전에 대한 전체 지표를 반환합니다(반복 여정의 경우 주제 재사용을 활용하는 비즈니스 이벤트가 트리거됨).
+이 보고서는 실행할 수 있는 작업(반복 여정의 경우 주제 재사용을 활용하는 비즈니스 이벤트가 트리거됨)에 상관없이 주어진 여정 버전에 대한 전체 지표를 반환합니다.
 
 ## 세그먼트 자격 관련 쿼리 {#segment-qualification-queries}
 
@@ -665,7 +665,7 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-이 쿼리는 잘못된 세그먼트 구현으로 인해 여정 버전에서 삭제된 모든 프로필 ID를 반환합니다.
+이 쿼리는 잘못된 세그먼트 구현으로 인해 여정 버전에서 삭제된 모든 프로필 Id를 반환합니다.
 
 **특정 프로필에 대한 다른 이유로 삭제된 세그먼트 자격 이벤트**
 
@@ -835,9 +835,9 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-정의된 기간 동안 매일 트리거되는 고유한 여정의 수를 쿼리로 반환합니다. 여러 일에 트리거되는 단일 여정은 하루에 한 번 계산됩니다.
+정의된 기간 동안 매일 트리거된 고유한 여정 수를 반환합니다. 여러 일에 트리거되는 단일 여정은 하루에 한 번 계산됩니다.
 
-## 여정 인스턴스의 쿼리 {#journey-instances-queries}
+## 여정 인스턴스에 대한 쿼리 {#journey-instances-queries}
 
 **특정 시간에 특정 상태의 프로필 수**
 

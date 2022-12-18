@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1404'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * **다중 무장 강도**: A [다중 무장 강도단](https://en.wikipedia.org/wiki/Multi-armed_bandit)최적화를 위한 {target=&quot;_blank&quot;} 접근 방식은 해당 학습의 탐구적 학습과 활용에 대한 균형을 맞춥니다.
 
-* **톰슨 샘플링**: Thompson 샘플링은 즉각적인 성능을 최대화하기 위해 알려진 것을 이용하고 향후 성능을 향상시킬 수 있는 새로운 정보를 축적하기 위해 투자 간의 균형을 맞추기 위해 순차적으로 조치를 취하는 온라인 의사 결정 문제에 대한 알고리즘입니다. [추가 정보](#thompson-sampling)
+* **톰슨 샘플링**: Thompson 샘플링은 즉각적인 성능을 최대화하기 위해 알려진 것을 이용하고 향후 성능을 향상시킬 수 있는 새로운 정보를 축적하기 위해 투자 간의 균형을 맞추기 위해 순차적으로 조치를 취하는 온라인 의사 결정 문제에 대한 알고리즘입니다. [자세히 알아보기](#thompson-sampling)
 
 * [**베타 배포**](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}: 연속 집합 [확률 분포](https://en.wikipedia.org/wiki/Probability_distribution)간격에 정의된 {target=&quot;_blank&quot;} [0, 1] [매개 변수](https://en.wikipedia.org/wiki/Statistical_parameter){target=&quot;_blank&quot;}(두 개의 양수) [모양 매개 변수](https://en.wikipedia.org/wiki/Shape_parameter){target=&quot;_blank&quot;}.
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 ![](../assets/ai-ranking-thompson-sampling-ultimate.png)
 -->
 
-+++**기술 세부 정보**
++++**기술 세부 사항**
 
 분배를 계산/갱신하려면 **베이스 정리**. 각 오퍼에 대해 ***i******P(??i)를 계산하려고 합니다. | data)***, 즉 각 오퍼에 대해 ***i***: 보상 값의 가능성 **??i** 은(는) 해당 오퍼에 대해 지금까지 수집한 데이터가 주어지면 됩니다.
 

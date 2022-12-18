@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 0%
+source-wordcount: '2008'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >에서 오퍼 라이브러리의 각 개체에 대해 내보낸 데이터 세트에 액세스하는 방법을 알아봅니다 [이 섹션](../export-catalog/access-dataset.md).
 
-다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL Decision Object Repository - Personalized Offers]** 데이터 세트.
+다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL 의사 결정 개체 저장소 - 개인화된 오퍼]** 데이터 세트.
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 **필드:** _id
 **제목:** 식별자
 **설명:** 레코드의 고유 식별자입니다.
-**유형:** string
+**유형:** 문자열
 
-## _experience {#experience}
+## _경험 {#experience}
 
 **필드:** _experience
 **유형:** 개체
@@ -58,14 +58,14 @@ ht-degree: 0%
    **필드:** endDate
    **제목:** 종료 날짜 및 시간
    **설명:** 결정 옵션 유효성의 종료 일자. 종료 날짜가 지난 옵션은 더 이상 의사 결정 프로세스에서 제안할 수 없습니다.
-   **유형:** string
+   **유형:** 문자열
 
 * **시작 날짜 및 시간**
 
    **필드:** startDate
    **제목:** 시작 날짜 및 시간
    **설명:** 결정 옵션 유효성의 시작 날짜입니다. 시작 날짜에 도달하지 않은 옵션은 의사 결정 프로세스에서 아직 제안할 수 없습니다.
-   **유형:** string
+   **유형:** 문자열
 
 #### _experience > decisioning > 특성
 
@@ -93,7 +93,7 @@ ht-degree: 0%
    **필드:** _type
    **제목:** 컨텐츠 구성 요소 유형
    **설명:** 각 값이 컨텐츠 구성 요소에 지정된 유형에 매핑되는 열거된 URI 세트입니다. 컨텐츠 표현의 일부 소비자는 @type 값이 컨텐츠 구성 요소의 추가 속성을 설명하는 스키마를 참조할 것으로 기대하고 있습니다.
-   **유형:** string
+   **유형:** 문자열
 
 * **_experience > decisioning > contents > components > _dc**
 
@@ -106,7 +106,7 @@ ht-degree: 0%
       **필드:** 포맷
       **제목:** 형식
       **설명:** 리소스의 실제 또는 디지털 표시. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 리소스를 표시하거나 운영하는 데 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정하는 데 형식을 사용할 수 있습니다. 권장되는 우수 사례는 통제 어휘에서 값을 선택하는 것입니다(예: [인터넷 미디어 유형](http://www.iana.org/assignments/media-types/) 컴퓨터 미디어 형식 정의).
-      **유형:** string
+      **유형:** 문자열
       **예:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **언어**
@@ -121,51 +121,51 @@ ht-degree: 0%
    **필드:** _repo
    **유형:** 개체
 
-   * **id**
+   * **ID**
 
       **필드:** id
       **설명:** 컨텐츠 저장소에서 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색할 때 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;이 자산을 검색할 수 있습니다.
-      **유형:** string
+      **유형:** 문자열
       **예:** &quot;urn&quot;:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **이름**
 
       **필드:** 이름
       **설명:** 일부 힌트는 외부 자산을 \&quot;repo:id\&quot;로 저장하는 저장소를 찾을 위치에 대한 힌트입니다.
-      **유형:** string
+      **유형:** 문자열
 
    * **repositoryID**
 
       **필드:** repositoryID
       **설명:** 컨텐츠 저장소에서 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색할 때 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;이 자산을 검색할 수 있습니다.
-      **유형:** string
+      **유형:** 문자열
       **예:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
       **필드:** resolveURL
       **설명:** 컨텐츠 저장소에서 자산을 읽을 수 있는 선택적 고유 리소스 로케이터입니다. 이렇게 하면 클라이언트가 자산이 관리되는 위치와 호출할 API를 이해하지 않고 자산을 쉽게 가져올 수 있습니다. 이것은 HAL 링크와 유사하지만, 의미론적 의미가 더 간단하고 더 목적적이다.
-      **유형:** string
+      **유형:** 문자열
       **예:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;
 
 * **_experience > decisioning > content > components > content**
 
    **필드:** 콘텐츠
    **설명:** 컨텐츠를 직접 저장할 선택 필드입니다. 구성 요소는 자산 저장소에서 컨텐츠를 참조하는 대신 간단한 콘텐츠를 직접 보유할 수 있습니다. 이 필드는 복합, 복합 및 이진 컨텐츠 자산에 사용되지 않습니다.
-   **유형:** string
+   **유형:** 문자열
 
 * **_experience > decisioning > contents > components > deliveryURL**
 
    **필드:** deliveryURL
    **설명:** 콘텐츠 게재 네트워크 또는 서비스 끝점에서 자산을 가져오는 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트가 공개적으로 자산에 액세스하는 데 사용됩니다.
-   **유형:** string
+   **유형:** 문자열
    **예:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > contents > components > linkURL**
 
    **필드:** linkURL
    **설명:** 사용자 상호 작용을 위한 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트에서 최종 사용자를 참조하는 데 사용되며 추적할 수 있습니다.
-   **유형:** string
+   **유형:** 문자열
    **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 **_experience > decisioning > 콘텐츠 > 배치**
@@ -173,7 +173,7 @@ ht-degree: 0%
 **필드:** 배치
 **제목:** 배치
 **설명:** 준수하기 위한 배치. 값은 참조되는 오퍼 배치의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/placement 를 참조하십시오.
-**유형:** string
+**유형:** 문자열
 
 #### _experience > decisioning > 라이프사이클 상태
 
@@ -188,7 +188,7 @@ ht-degree: 0%
 **필드:** 이름
 **제목:** 결정 옵션 이름
 **설명:** 다양한 사용자 인터페이스에 표시되는 옵션 이름입니다.
-**유형:** string
+**유형:** 문자열
 
 #### _experience > decisioning > profileConstraints
 
@@ -202,14 +202,14 @@ ht-degree: 0%
 **필드:** 설명
 **제목:** 설명
 **설명:** 프로필 제한 설명입니다. 이 프로필 제한을 구성하는 방법 또는 이유 및/또는 이 프로필에 의해 포함 또는 제외할 옵션에 대한 사람이 읽을 수 있는 의도를 전달하는 데 사용됩니다.
-**유형:** string
+**유형:** 문자열
 
 **_experience > decisioning > profileConstraints > 자격 규칙**
 
 **필드:** requalificationRule
 **제목:** 자격 규칙
 **설명:** 주어진 프로필 및/또는 지정된 컨텍스트 XDM 개체에 대해 true 또는 false로 평가되는 의사 결정 규칙에 대한 참조입니다. 이 규칙은 이 옵션이 지정된 프로필에 적합한지를 결정하는 데 사용됩니다. 값은 참조되는 의사 결정 규칙의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/rule 를 참조하십시오.
-**유형:** string
+**유형:** 문자열
 
 **_experience > decisioning > profileConstraints > 프로필 제한 유형**
 
@@ -236,7 +236,7 @@ ht-degree: 0%
    **필드:** _id
    **제목:** 식별자
    **설명:** 관련 네임스페이스에서 세그먼트의 ID입니다.
-   **유형:** string
+   **유형:** 문자열
 
 * **네임스페이스**
 
@@ -251,14 +251,14 @@ ht-degree: 0%
       **필드:** 코드
       **제목:** 코드
       **설명:** 이 코드는 네임스페이스에 대해 사람이 읽을 수 있는 식별자이며, ID 그래프 처리에 사용되는 기술 네임스페이스 ID를 요청하는 데 사용할 수 있습니다.
-      **유형:** string
+      **유형:** 문자열
 
 * **경험 식별자**
 
    **필드:** xid
    **제목:** 경험 식별자
    **설명:** 이 값은 모든 네임스페이스에서 모든 네임스페이스 범위 식별자에서 고유한 네임스페이스 간 식별자를 나타냅니다.
-   **유형:** string
+   **유형:** 문자열
 
 #### _experience > decisioning > 등급
 
@@ -279,14 +279,14 @@ ht-degree: 0%
    **필드:** 함수
    **제목:** 점수 함수
    **설명:** 이 결정 옵션에 대한 숫자 점수를 계산하는 함수에 대한 참조입니다. 그런 다음 결정 옵션을 해당 점수로 순서 지정(등급)합니다. 이 속성의 값은 한 번에 옵션과 함께 호출할 함수의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/function 를 참조하십시오.
-   **유형:** string
+   **유형:** 문자열
 
 * **주문 평가 유형**
 
    **필드:** orderEvaluationType
    **제목:** 주문 평가 유형
    **설명:** 사용할 주문 평가 메커니즘, 결정 옵션의 정적 우선순위, 모든 옵션에 대한 숫자 값을 계산하는 점수 함수 또는 목록을 수신하여 순서를 지정하는 등급 전략을 지정합니다.
-   **유형:** string
+   **유형:** 문자열
    **가능한 값:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * **등급 전략**
@@ -294,7 +294,7 @@ ht-degree: 0%
    **필드:** rankingStrategy
    **제목:** 등급 전략
    **설명:** 결정 옵션 목록의 등급을 매기는 전략에 대한 참조. 결정 옵션이 순서가 지정된 목록으로 반환됩니다. 이 속성의 값은 한 번에 옵션과 함께 호출할 함수의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/rankingStrategy 를 참조하십시오.
-   **유형:** string
+   **유형:** 문자열
 
 **_experience > decisioning > 등급 > 우선순위**
 
@@ -324,4 +324,4 @@ ht-degree: 0%
 **필드:** 태그
 **제목:** 결정 옵션 태그
 **설명:** 스냅샷을 가져올 때 결정 옵션 객체가 있던 수정 버전입니다.
-**유형:** string
+**유형:** 문자열

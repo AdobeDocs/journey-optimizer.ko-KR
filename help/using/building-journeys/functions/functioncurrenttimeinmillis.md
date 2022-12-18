@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8deec661-d504-4764-85d7-afe80b62c477
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 0%
+source-wordcount: '32'
+ht-degree: 12%
 
 ---
 
@@ -35,8 +35,8 @@ epoch 밀리초 단위의 현재 시간을 반환합니다.
 
 정수를 반환합니다.
 
-## 예
+## 예시
 
 `currentTimeInMillis()`
 
-&quot;1544712617131&quot;를 반환합니다.
+&quot;1544712617131&quot;을 반환합니다.

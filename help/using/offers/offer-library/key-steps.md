@@ -1,6 +1,6 @@
 ---
 title: 오퍼를 만드는 주요 단계
-description: 오퍼를 만드는 데 필요한 주요 단계를 알아봅니다
+description: 오퍼를 만드는 데 필요한 주요 단계를 살펴보십시오.
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 <td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">배치 만들기</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">의사 결정 규칙 만들기</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">태그 만들기</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">등급 공식 만들기</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">등급 수식 만들기</a></p></td>
 </table>
 
 ## 오퍼 만들기 및 관리 {#create-and-manage-offers}
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">결정 만들기</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">의사 결정 만들기</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">결정 구성</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px"><p><a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">순위 지정</a></p></td>
 </tr>

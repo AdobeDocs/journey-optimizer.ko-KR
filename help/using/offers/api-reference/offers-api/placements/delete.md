@@ -8,14 +8,14 @@ level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '143'
+ht-degree: 5%
 
 ---
 
 # 배치 삭제 {#delete-placement}
 
-때때로 배치를 제거(삭제)해야 할 수도 있습니다. 테넌트 컨테이너에서 만드는 배치만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 배치의 인스턴스 ID를 사용하는 API입니다.
+때때로 배치를 제거(DELETE)해야 할 수도 있습니다. 테넌트 컨테이너에서 만드는 배치만 삭제할 수 있습니다. 이 작업은 DELETE 요청을 [!DNL Offer Library] 삭제할 배치의 인스턴스 ID를 사용하는 API입니다.
 
 **API 형식**
 

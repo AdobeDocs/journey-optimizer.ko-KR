@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: 제한
+title: limit
 description: 함수 제한에 대해 알아보기
 feature: Journeys
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# 제한 {#limit}
+# limit {#limit}
 
 목록의 첫 번째 또는 마지막 N 요소를 반환합니다.
 

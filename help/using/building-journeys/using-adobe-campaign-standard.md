@@ -10,24 +10,24 @@ level: Intermediate
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 0%
+source-wordcount: '920'
+ht-degree: 4%
 
 ---
 
 # Adobe Campaign Standard 작업 {#using_campaign_action}
 
-Adobe Campaign Standard가 설치되어 있다면 다음과 같은 기본 작업 활동을 사용할 수 있습니다. **[!UICONTROL Email]**, **[!UICONTROL Push]** 및 **[!UICONTROL SMS]**.
+Adobe Campaign Standard이 있는 경우 다음과 같은 기본 제공 작업 활동을 사용할 수 있습니다. **[!UICONTROL 이메일]**, **[!UICONTROL 푸시]** 및 **[!UICONTROL SMS]**.
 
 >[!NOTE]
 >
->이를 위해 기본 제공 작업을 구성해야 합니다. 을(를) 참조하십시오. [이 페이지](../action/acs-action.md).
+>이를 위해 기본 제공 작업을 구성해야 합니다. [이 페이지](../action/acs-action.md)를 참조하십시오.
 
-이러한 각 채널에 대해 Adobe Campaign Standard 트랜잭션 메시지를 선택합니다 **템플릿**. 기본 제공 이메일, SMS 및 푸시 채널의 경우, Adobe에서는 트랜잭션 메시지를 사용하여 메시지 전송을 실행합니다. 즉, 여정에서 특정 메시지 템플릿을 사용하려면 Adobe Campaign Standard에서 게시해야 합니다. 을(를) 참조하십시오. [이 페이지](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html) 를 사용하여 이 기능을 사용하는 방법을 알아보십시오.
+이러한 각 채널에 대해 Adobe Campaign Standard 트랜잭션 메시지를 선택합니다 **템플릿**. 기본 제공 이메일, SMS 및 푸시 채널의 경우, Adobe에서는 트랜잭션 메시지를 사용하여 메시지 전송을 실행합니다. 즉, 여정에서 특정 메시지 템플릿을 사용하려면 Adobe Campaign Standard에 게시해야 합니다. 을(를) 참조하십시오. [이 페이지](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko) 를 사용하여 이 기능을 사용하는 방법을 알아보십시오.
 
 >[!NOTE]
 >
->Campaign Standard 트랜잭션 메시지와 관련 이벤트를 Journey Optimizer에서 사용하려면 게시해야 합니다. 이벤트가 게시되었지만 메시지가 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지 않습니다. 메시지가 게시되었지만 연결된 이벤트가 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지만 사용할 수 없습니다.
+>Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지와 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지가 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지 않습니다. 메시지가 게시되지만 연결된 이벤트가 게시되지 않으면 Journey Optimizer 인터페이스에 표시되지만 사용할 수 없습니다.
 
 ![](assets/journey59.png)
 
@@ -35,37 +35,37 @@ Adobe Campaign Standard가 설치되어 있다면 다음과 같은 기본 작업
 
 >[!NOTE]
 >
->실시간 트랜잭션 메시지(rtEvent)를 보내거나 사용자 지정 작업 때문에 서드파티 시스템으로 메시지를 라우팅할 때, 피로도, 차단 목록 또는 구독 취소 관리에 특정 설정이 필요합니다. 예를 들어 &quot;구독 취소&quot; 속성이 Adobe Experience Platform 또는 타사 시스템에 저장된 경우, 이 조건을 확인하려면 메시지를 보내기 전에 조건을 추가해야 합니다.
+>실시간 트랜잭션 메시지(rtEvent)를 보내거나 사용자 지정 작업 때문에 서드파티 시스템으로 메시지를 라우팅할 때, 피로도, 차단 목록 또는 구독 취소 관리에 특정 설정이 필요합니다. 예를 들어 &quot;가입 해지&quot; 속성이 Adobe Experience Platform 또는 타사 시스템에 저장된 경우, 이 조건을 확인하려면 메시지를 보내기 전에 조건을 추가해야 합니다.
 
-템플릿을 선택하면 메시지 페이로드에서 예상되는 모든 필드가 아래의 활동 구성 창에 표시됩니다 **[!UICONTROL Address]** 및 **[!UICONTROL Personalization Data]**. 이벤트 또는 데이터 소스에서 사용할 필드에 이러한 각 필드를 매핑해야 합니다. 고급 표현식 편집기를 사용하여 값을 수동으로 전달하거나, 검색된 정보에 대해 데이터 조작을 수행하거나(예를 들어 문자열을 대문자로 변환) &quot;if, then, else&quot;와 같은 함수를 사용할 수도 있습니다. 자세한 내용은 [이 페이지](expression/expressionadvanced.md).
+템플릿을 선택하면 메시지 페이로드에서 예상되는 모든 필드가 아래의 활동 구성 창에 표시됩니다 **[!UICONTROL 주소]** 및 **[!UICONTROL 개인화 데이터]**. 이벤트 또는 데이터 소스에서 사용할 필드에 이러한 각 필드를 매핑해야 합니다. 고급 표현식 편집기를 사용하여 값을 수동으로 전달하거나, 검색된 정보에 대해 데이터 조작을 수행하거나(예를 들어 문자열을 대문자로 변환) &quot;if, then, else&quot;와 같은 함수를 사용할 수도 있습니다. [이 페이지](expression/expressionadvanced.md)를 참조하십시오.
 
 ![](assets/journey60.png)
 
 ## 이메일 및 SMS {#section_asc_51g_nhb}
 
-대상 **[!UICONTROL Email]** 및 **[!UICONTROL SMS]**&#x200B;의 매개 변수는 동일합니다.
+대상 **[!UICONTROL 이메일]** 및 **[!UICONTROL SMS]**&#x200B;의 매개 변수는 동일합니다.
 
 >[!NOTE]
 >
->이메일의 경우, 프로필 트랜잭션 템플릿을 사용하는 경우, 구독 취소 메커니즘은 Campaign Standard에 의해 기본적으로 처리됩니다. 을(를) 추가하면 됩니다 **[!UICONTROL Unsubscription link]** 템플릿의 컨텐츠 블록([자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). 이벤트 기반 템플릿(rtEvent)을 사용 중인 경우, 메시지에 URL 매개 변수로 개인 이메일을 전달하고 구독 취소 랜딩 페이지를 가리키는 링크를 추가해야 합니다. 이 랜딩 페이지를 만들고 구독 취소가 Adobe에 전송되도록 해야 합니다.
+>이메일의 경우, 프로필 트랜잭션 템플릿을 사용하는 경우, 구독 취소 메커니즘은 Campaign Standard에 의해 기본 기능으로 처리됩니다. 을(를) 추가하면 됩니다 **[!UICONTROL 구독 취소 링크]** 템플릿의 컨텐츠 블록([자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)). 이벤트 기반 템플릿(rtEvent)을 사용 중인 경우, 메시지에 URL 매개 변수로 개인 이메일을 전달하고 구독 취소 랜딩 페이지를 가리키는 링크를 추가해야 합니다. 이 랜딩 페이지를 만들고 이 랜딩 페이지의 가입을 취소하는 사람이 Adobe에게 전송하도록 해야 합니다.
 
 먼저 트랜잭션 메시지 템플릿을 선택해야 합니다.
 
-두 가지 카테고리를 사용할 수 있습니다. **[!UICONTROL Address]** 및 **[!UICONTROL Personalization Data]**.
+두 가지 카테고리를 사용할 수 있습니다. **[!UICONTROL 주소]** 및 **[!UICONTROL 개인화 데이터]**.
 
-를 검색할 위치를 쉽게 정의할 수 있습니다 **[!UICONTROL Address]** 또는 **[!UICONTROL Personalization Data]** 인터페이스 사용. 이벤트 및 사용 가능한 데이터 소스의 필드를 검색할 수 있습니다. 매개 변수를 전달해야 하는 데이터 소스를 사용하거나 조작을 수행하는 등의 고급 사용 사례에 고급 표현식 편집기를 사용할 수도 있습니다. 자세한 내용은 [이 페이지](expression/expressionadvanced.md).
+를 검색할 위치를 쉽게 정의할 수 있습니다 **[!UICONTROL 주소]** 또는 **[!UICONTROL 개인화 데이터]** 인터페이스 사용. 이벤트 및 사용 가능한 데이터 소스의 필드를 검색할 수 있습니다. 매개 변수를 전달해야 하는 데이터 소스를 사용하거나 조작을 수행하는 등의 고급 사용 사례에 고급 표현식 편집기를 사용할 수도 있습니다. [이 페이지](expression/expressionadvanced.md)를 참조하십시오.
 
-**[!UICONTROL Address]**
+**[!UICONTROL 주소]**
 
 >[!NOTE]
 >
->이 카테고리는 &quot;이벤트&quot; 트랜잭션 메시지를 선택하는 경우에만 표시됩니다. &quot;profile&quot; 메시지의 경우, **[!UICONTROL Address]** 필드는 시스템에서 Adobe Campaign Standard에서 자동으로 검색됩니다.
+>이 카테고리는 &quot;이벤트&quot; 트랜잭션 메시지를 선택하는 경우에만 표시됩니다. &quot;profile&quot; 메시지의 경우, **[!UICONTROL 주소]** 필드는 시스템에서 Adobe Campaign Standard에서 자동으로 검색됩니다.
 
 다음은 시스템에서 메시지를 보낼 위치를 알고 있어야 하는 필드입니다. 이메일 템플릿의 경우 이메일 주소입니다. SMS는 휴대전화 번호입니다
 
 ![](assets/journey61.png)
 
-**[!UICONTROL Personalization Data]**
+**[!UICONTROL 개인화 데이터]**
 
 >[!NOTE]
 >
@@ -77,13 +77,13 @@ Adobe Campaign Standard가 설치되어 있다면 다음과 같은 기본 작업
 
 ## 푸시 {#section_im3_hvf_nhb}
 
-푸시 활동을 사용하기 전에 푸시 알림을 전송하려면 모바일 앱을 Campaign Standard와 함께 구성해야 합니다. 다음 사용 [문서](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) 를 클릭하여 모바일에 필요한 구현 단계를 수행합니다.
+푸시 활동을 사용하기 전에 푸시 알림을 전송하기 위해 Campaign Standard과 함께 모바일 앱을 구성해야 합니다. 다음 사용 [문서](https://helpx.adobe.com/kr/campaign/kb/integrate-mobile-sdk.html) 를 클릭하여 모바일에 필요한 구현 단계를 수행합니다.
 
 먼저 드롭다운 목록에서 모바일 앱을 선택하고 트랜잭션 메시지를 선택해야 합니다.
 
 ![](assets/journey62bis.png)
 
-두 가지 카테고리를 사용할 수 있습니다. **[!UICONTROL Target]** 및 **[!UICONTROL Personalization Data]**.
+두 가지 카테고리를 사용할 수 있습니다. **[!UICONTROL Target]** 및 **[!UICONTROL 개인화 데이터]**.
 
 **[!UICONTROL Target]**
 
@@ -91,15 +91,15 @@ Adobe Campaign Standard가 설치되어 있다면 다음과 같은 기본 작업
 >
 >이 카테고리는 이벤트 메시지를 선택하는 경우에만 표시됩니다. 프로필 메시지의 경우, **[!UICONTROL Target]** 필드는 Adobe Campaign Standard에서 수행한 조정을 사용하여 시스템에서 자동으로 검색됩니다.
 
-이 섹션에서는 **[!UICONTROL Push platform]**. 드롭다운 목록에서 **[!UICONTROL Apple Push Notification Server]** (iOS) 또는 **[!UICONTROL Firebase Cloud Messaging]** (Android). 또는 이벤트 또는 데이터 소스에서 특정 필드를 선택하거나 고급 표현식을 정의할 수 있습니다.
+이 섹션에서는 **[!UICONTROL 푸시 플랫폼]**. 드롭다운 목록에서 **[!UICONTROL Apple 푸시 알림 서버]** (iOS) 또는 **[!UICONTROL Firebase Cloud Messaging]** (Android). 또는 이벤트 또는 데이터 소스에서 특정 필드를 선택하거나 고급 표현식을 정의할 수 있습니다.
 
-또한 **[!UICONTROL Registration Token]**. 표현식은 이벤트 페이로드나 다른 이벤트에서 토큰이 정의되는 방식에 따라 다릅니다 [!DNL Journey Optimizer] 정보. 예를 들어 컬렉션에서 토큰이 정의된 경우 단순 필드 또는 보다 복잡한 표현식이 될 수 있습니다.
+또한 **[!UICONTROL 등록 토큰]**. 표현식은 이벤트 페이로드나 다른 이벤트에서 토큰이 정의되는 방식에 따라 다릅니다 [!DNL Journey Optimizer] 정보. 예를 들어 컬렉션에서 토큰이 정의된 경우 단순 필드 또는 보다 복잡한 표현식이 될 수 있습니다.
 
 ```
 @{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
-**[!UICONTROL Personalization Data]**
+**[!UICONTROL 개인화 데이터]**
 
 >[!NOTE]
 >
