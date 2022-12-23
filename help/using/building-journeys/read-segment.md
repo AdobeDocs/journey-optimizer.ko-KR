@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 12%
+source-wordcount: '1328'
+ht-degree: 11%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 여정에 들어갈 수 없습니다.
+   >다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 여정에 들어갈 수 없습니다. 사용자 기반 ID 네임스페이스만 선택할 수 있습니다. 조회 테이블의 네임스페이스를 정의한 경우(예: 제품 조회를 위한 ProductID 네임스페이스)인 ProductID는 **네임스페이스** 드롭다운 목록.
 
 1. 설정 **[!UICONTROL 전송률 조절]** 필드를 세그먼트 읽기 활동의 처리량 제한에 추가합니다.
 

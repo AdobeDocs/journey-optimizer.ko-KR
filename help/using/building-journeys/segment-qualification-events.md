@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '924'
 ht-degree: 3%
 
 ---
@@ -66,6 +66,10 @@ ht-degree: 3%
    >참고 사항 **[!UICONTROL Enter 키]** 및 **[!UICONTROL 종료]** 에 해당합니다 **실현** 및 **종료됨** Adobe Experience Platform의 세그먼트 기여도 상태. 세그먼트 평가 방법에 대한 자세한 내용은 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. 네임스페이스를 선택합니다. 이벤트가 여정의 첫 번째 단계로 배치된 경우에만 필요합니다.
+
+   >[!NOTE]
+   >
+   >사용자 기반 ID 네임스페이스만 선택할 수 있습니다. 조회 테이블의 네임스페이스를 정의한 경우(예: 제품 조회를 위한 ProductID 네임스페이스)인 ProductID는 **네임스페이스** 드롭다운 목록.
 
    ![](assets/segment7.png)
 

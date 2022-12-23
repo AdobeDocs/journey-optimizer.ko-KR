@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 4%
+source-wordcount: '834'
+ht-degree: 3%
 
 ---
 
@@ -79,6 +79,16 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 * 여정에서 조건을 사용할 때, [자세한 내용](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * 메시지 개인화에서, [자세한 내용](../event/experience-event-schema.md#message_personalization)
 * 사용자 지정 작업 개인화에서, [자세한 내용](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### 배열{#relationships_limitations}
+
+제품 ID 목록과 같은 일련의 문자열에 대해 스키마 관계를 정의할 수 있습니다.
+
+![](assets/schema15.png)
+
+그러나 객체 배열 내에 속성(예: 구매 정보 목록(예: 제품 ID, 제품 이름, 가격, 할인)과 같은 스키마 관계를 정의할 수는 없습니다. 조회 값은 여정(조건, 사용자 지정 작업 등)에서 사용할 수 없습니다. 및 메시지 개인화.
+
+![](assets/schema16.png)
 
 ### 이벤트 구성{#unitary_event_configuration}
 

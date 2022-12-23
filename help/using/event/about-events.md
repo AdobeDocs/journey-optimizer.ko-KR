@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 55%
+source-wordcount: '975'
+ht-degree: 51%
 
 ---
 
@@ -57,7 +57,9 @@ ht-degree: 55%
 
 * **시스템 생성** 이벤트: 이러한 이벤트에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다.
 
-Journey Optimizer을 사용하려면 이벤트를 스트리밍하거나 Adobe Experience Platform으로 배치해야 합니다. 이 데이터가 반드시 실시간 프로필로 이동할 필요는 없습니다. 별도의 여정에서 세그멘테이션 또는 조회에 이벤트를 사용하려면 프로필에 데이터 세트를 활성화하는 것이 좋습니다.
+>[!NOTE]
+>
+>Journey Optimizer을 사용하려면 여정을 트리거하기 위해 이벤트를 DCCS(데이터 수집 핵심 서비스)로 스트리밍해야 합니다. 내부 Journey Optimizer 데이터 세트에서 일괄 처리 또는 이벤트로 수집된 이벤트(메시지 피드백, 이메일 추적 등) 여정을 트리거하는 데 사용할 수 없습니다. 스트리밍된 이벤트를 가져올 수 없는 사용 사례의 경우 이러한 이벤트를 기반으로 세그먼트를 작성하고 를 사용하십시오 **세그먼트 읽기** 활동 을 가리키도록 업데이트하는 것이 좋습니다. 세그먼트 자격을 기술적으로 사용할 수 있지만 사용되는 작업에 따라 다운스트림 문제가 발생할 수 있습니다. 이 데이터가 반드시 실시간 프로필로 이동할 필요는 없습니다. 별도의 여정에서 세그멘테이션 또는 조회에 이벤트를 사용하려면 프로필에 데이터 세트를 활성화하는 것이 좋습니다.
 
 ## 데이터 주기 {#data-cycle}
 
