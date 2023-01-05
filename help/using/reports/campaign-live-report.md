@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
 
 # 캠페인 라이브 보고서 {#campaign-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_report"
+>title="캠페인 라이브 보고서"
+>abstract="캠페인 라이브 보고서를 사용하면 지난 24시간 동안만 캠페인의 영향과 성과를 실시간으로 측정하고 시각화할 수 있습니다. 보고서는 캠페인의 성공 및 오류를 설명하는 서로 다른 위젯으로 구분됩니다. 위젯의 크기 조정 또는 제거를 통해 각 보고 대시보드를 수정할 수 있습니다."
 
 캠페인 라이브 보고서는 **[!UICONTROL 라이브 보기]** 버튼을 클릭합니다.
 
@@ -26,14 +31,13 @@ ht-degree: 3%
 * [푸시](#push-live)
 * [SMS](#sms-live)
 
-
 캠페인 **[!UICONTROL 라이브 보고서]** 은 캠페인의 성공 및 오류를 자세히 설명하는 서로 다른 위젯으로 구분됩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 다음을 참조하십시오 [섹션](../reports/live-report.md#modify-dashboard).
 
 Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자세한 목록은 다음을 참조하십시오 [이 페이지](live-report.md#list-of-components-live).
 
 ## 캠페인 탭 {#campaign-global}
 
-### 제공 {#delivery-global}
+### 게재 {#delivery-global}
 
 다음 **[!UICONTROL 캠페인 통계]** 위젯은 캠페인과 관련된 주요 정보를 자세히 설명합니다.
 

@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 0%
+source-wordcount: '1138'
+ht-degree: 1%
 
 ---
 
 # 여정 라이브 보고서 {#journey-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_live_report"
+>title="여정 라이브 보고서"
+>abstract="여정 라이브 보고서를 사용하면 지난 24시간 동안만 여정의 영향과 성과를 실시간으로 측정하고 시각화할 수 있습니다. 보고서는 여정의 성공 및 오류를 설명하는 서로 다른 위젯으로 구분됩니다. 위젯의 크기 조정 또는 제거를 통해 각 보고 대시보드를 수정할 수 있습니다."
 
 여정 라이브 보고서는 **[!UICONTROL 보고서 보기]** 버튼을 클릭합니다.
 

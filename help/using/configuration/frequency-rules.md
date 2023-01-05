@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 3%
+source-wordcount: '973'
+ht-degree: 2%
 
 ---
 
@@ -48,6 +48,21 @@ ht-degree: 3%
 사용 권한에 대해 자세히 알아보기 [이 섹션](../administration/high-low-permissions.md).
 
 ## 규칙 만들기 {#create-new-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_category"
+>title="메시지 규칙 카테고리를 선택합니다"
+>abstract="활성화하여 메시지에 적용하면 선택한 카테고리와 일치하는 모든 빈도 규칙이 자동으로 이 메시지에 적용됩니다. 현재 마케팅 카테고리만 사용할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_capping"
+>title="규칙에 대한 최대 가용량 설정"
+>abstract="매월 고객 프로필에 전송되는 최대 메시지 수를 지정합니다. 빈도 제한은 월별 달력 기간을 기반으로 하며 매월 초에 재설정됩니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_channel"
+>title="규칙이 적용되는 채널 정의"
+>abstract="하나 이상의 채널을 선택하십시오. 최대 가용량 은 총 개수로 채널 간에 적용됩니다."
 
 새 규칙을 만들려면 아래 단계를 수행하십시오.
 
@@ -115,26 +130,23 @@ ht-degree: 3%
 
 메시지에 빈도 규칙을 적용하려면 아래 단계를 따르십시오.
 
-1. 규칙에 대해 정의한 채널 중 하나를 선택하여 메시지를 만듭니다.
+1. 만들기 [여정](../building-journeys/journey-gs.md)에 대해 정의한 채널 중 하나를 선택하여 메시지를 추가합니다.
 
 1. 에 대해 정의한 카테고리를 선택합니다 [만든 규칙](#create-new-rule).
 
-   ![](assets/inline-message-category.png)
+   ![](assets/journey-message-category.png)
 
    >[!NOTE]
    >
    >현재 **[!UICONTROL 마케팅]** 카테고리는 메시지 빈도 규칙에 사용할 수 있습니다.
 
-   <!--
-   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
+1. 을(를) 클릭합니다. **[!UICONTROL 빈도 규칙]** 새 탭에서 빈도 규칙 화면을 보려면 링크를 클릭하십시오. [자세히 알아보기](#access-rules)
 
-1. 선택한 카테고리 및 채널과 일치하는 모든 빈도 규칙이 이 메시지에 자동으로 적용됩니다.
+   선택한 카테고리 및 채널과 일치하는 모든 빈도 규칙이 이 메시지에 자동으로 적용됩니다.
 
    >[!NOTE]
    >
-   >메시지 <!--that do not have any selected category or messages -->선택한 카테고리가 있는 위치 **[!UICONTROL 트랜잭션]** 은 빈도 규칙에 대해 평가되지 않습니다.
-
-   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   >선택한 카테고리가 있는 메시지 **[!UICONTROL 트랜잭션]** 은 빈도 규칙에 대해 평가되지 않습니다.
 
 1. 에서 게재에서 제외된 프로필 수를 볼 수 있습니다 [글로벌 보고서](../reports/global-report.md), 및에서 [라이브 보고서](../reports/live-report.md): 게재에서 제외된 사용자에 대한 가능한 이유로 빈도 규칙이 나열됩니다.
 

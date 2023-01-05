@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '2022'
 ht-degree: 0%
 
 ---
 
 # 여정 글로벌 보고서 {#journey-global-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_global_report"
+>title="여정 글로벌 보고서"
+>abstract="여정 글로벌 보고서를 사용하면 선택한 기간 동안 여정의 영향을 측정할 수 있습니다. 보고서는 여정의 성공 및 오류를 설명하는 서로 다른 위젯으로 구분됩니다. 위젯의 크기 조정 또는 제거를 통해 각 보고 대시보드를 수정할 수 있습니다."
 
 여정 글로벌 보고서는 **[!UICONTROL 보고서 보기]** 버튼을 클릭합니다.
 

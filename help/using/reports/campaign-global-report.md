@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1704'
 ht-degree: 1%
 
 ---
 
 # 캠페인 글로벌 보고서 {#campaign-global-report}
 
-Campaign 글로벌 보고서는 **[!UICONTROL 항상]** 버튼을 클릭합니다.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_report"
+>title="캠페인 글로벌 보고서"
+>abstract="캠페인 글로벌 보고서를 사용하면 선택한 기간 동안 캠페인의 영향을 측정할 수 있습니다. 보고서는 캠페인의 성공 및 오류를 설명하는 서로 다른 위젯으로 구분됩니다. 위젯의 크기 조정 또는 제거를 통해 각 보고 대시보드를 수정할 수 있습니다."
+
+Campaign 글로벌 보고서는 **[!UICONTROL 보고서 보기]** 버튼을 클릭합니다.
 
 ![](assets/campaign_report_global_5.png)
 
@@ -34,7 +39,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
 
 ## 캠페인 탭 {#campaign-global}
 
-### 제공 {#delivery-global}
+### 게재 {#delivery-global}
 
 ![](assets/campaign_report_global_1.png)
 

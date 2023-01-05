@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
 # 랜딩 페이지 라이브 보고서 {#lp-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_live_report"
+>title="랜딩 페이지 라이브 보고서"
+>abstract="랜딩 페이지 라이브 보고서를 사용하면 지난 24시간 동안의 랜딩 페이지의 영향과 실적을 실시간으로 측정하고 시각화할 수 있습니다. 보고서는 랜딩 페이지 성공 및 오류를 설명하는 여러 위젯으로 나누어집니다. 위젯의 크기 조정 또는 제거를 통해 각 보고 대시보드를 수정할 수 있습니다."
 
 랜딩 페이지 **[!UICONTROL 라이브 보고서]** 보고서는 지난 24시간 동안의 랜딩 페이지 영향에 대한 세부 정보만 표시합니다. 선택한 기간 동안 랜딩 페이지 데이터를 측정하려면 [랜딩 페이지 글로벌 보고서](lp-report-global.md).
 

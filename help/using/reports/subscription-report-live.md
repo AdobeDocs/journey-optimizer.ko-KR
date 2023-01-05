@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
 # 구독 라이브 보고서 {#subscription-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_live_report"
+>title="구독 라이브 보고서"
+>abstract="구독 라이브 보고서를 사용하면 지난 24시간 동안에만 가입자의 활동을 실시간으로 측정하고 시각화할 수 있습니다. 보고서는 구독과 구독 취소를 자세히 설명하는 서로 다른 위젯으로 나누어집니다. 위젯의 크기 조정 또는 제거를 통해 각 보고 대시보드를 수정할 수 있습니다."
 
 구독 **[!UICONTROL 라이브 보고서]** 지난 24시간 동안의 구독자 활동에 대한 세부 사항을 표시합니다. 선택한 기간 동안 구독을 측정하려면 [구독 글로벌 보고서](subscription-report-global.md).
 

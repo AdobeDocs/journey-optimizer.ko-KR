@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # 랜딩 페이지 글로벌 보고서 {#lp-report-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_global_report"
+>title="랜딩 페이지 글로벌 보고서"
+>abstract="랜딩 페이지 글로벌 보고서를 사용하면 선택한 기간 동안 랜딩 페이지의 영향을 측정할 수 있습니다. 보고서는 랜딩 페이지 성공 및 오류를 설명하는 여러 위젯으로 나누어집니다. 위젯의 크기 조정 또는 제거를 통해 각 보고 대시보드를 수정할 수 있습니다."
 
 랜딩 페이지 **[!UICONTROL 글로벌 보고서]** 보고서에는 선택한 기간 동안 랜딩 페이지가 미치는 영향에 대한 세부 정보가 표시됩니다. 지난 24시간 동안의 랜딩 페이지 데이터만 측정하려면 [랜딩 페이지 라이브 보고서](lp-report-live.md).
 
