@@ -24,7 +24,7 @@ in [!DNL Adobe Journey Optimizer], **ID** 여러 장치와 채널에서 소비�
 
 ![](assets/identities-home.png)
 
-추가 정보 **ID 서비스** in [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko){target=&quot;_blank&quot;}.
+추가 정보 **ID 서비스** in [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}.
 
 ## ID 네임스페이스 {#identity-namespaces}
 

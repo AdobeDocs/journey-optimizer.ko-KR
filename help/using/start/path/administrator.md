@@ -8,7 +8,7 @@ exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 92%
 1. **샌드박스를 생성**&#x200B;하여 인스턴스를 별도의 격리된 가상 환경으로 분할합니다. **샌드박스**&#x200B;는 [!DNL Journey Optimizer]에서 생성됩니다. [샌드박스](../../administration/sandboxes.md) 섹션에서 자세히 알아보세요.
 
    >[!NOTE]
-   >로서의 **시스템 관리자**&#x200B;가 표시되지 않으면 **[!UICONTROL 샌드박스]** 메뉴 [!DNL Journey Optimizer]에서 권한을 업데이트합니다. [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. [이 페이지](../../administration/permissions.md#edit-product-profile)에서 제품 프로필을 업데이트하는 방법을 알아보세요.
+   >**시스템 관리자**&#x200B;로서 [!DNL Journey Optimizer]에 **[!UICONTROL 샌드박스]** 메뉴가 표시되지 않으면 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}에서 권한을 업데이트합니다. [이 페이지](../../administration/permissions.md#edit-product-profile)에서 제품 프로필을 업데이트하는 방법을 알아보세요.
 
 1. **제품 프로필 이해**. 제품 프로필은 사용자가 인터페이스의 특정 기능이나 개체에 액세스할 수 있도록 하는 통합된 권한 세트입니다. [기본 제품 프로필](../../administration/ootb-product-profiles.md) 섹션에서 자세히 알아보세요.
 
-1. **샌드박스**&#x200B;를 포함하여 제품 프로필에 **권한을 설정**&#x200B;하고 팀원을 다른 제품 프로필에 할당하여 액세스 권한을 부여합니다. 이 단계는 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. 권한은 **[!UICONTROL 제품 프로필]**&#x200B;에 할당된 권한을 정의할 수 있는 단일 권한입니다. 각 권한은 [!DNL Journey Optimizer]의 다양한 기능 또는 개체를 나타내는 기능(예: 여정 또는 오퍼) 아래에 수집됩니다. 자세한 내용은 [권한 수준](../../administration/high-low-permissions.md) 섹션을 참조하세요.
+1. **샌드박스**&#x200B;를 포함하여 제품 프로필에 **권한을 설정**&#x200B;하고 팀원을 다른 제품 프로필에 할당하여 액세스 권한을 부여합니다. 이 단계는 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}에서 수행됩니다. 권한은 **[!UICONTROL 제품 프로필]**&#x200B;에 할당된 권한을 정의할 수 있는 단일 권한입니다. 각 권한은 [!DNL Journey Optimizer]의 다양한 기능 또는 개체를 나타내는 기능(예: 여정 또는 오퍼) 아래에 수집됩니다. 자세한 내용은 [권한 수준](../../administration/high-low-permissions.md) 섹션을 참조하세요.
 
 또한 Assets Essentials에 액세스해야 하는 사용자를 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 추가해야 합니다. [Assets Essentials 문서에서 자세히 읽어보세요](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target=&quot;_blank&quot;}.
 
@@ -42,7 +42,7 @@ ht-degree: 92%
 여정을 만들고 메시지를 보내려면 **관리** 메뉴에 액세스합니다. **[!UICONTROL 채널]** 메뉴를 탐색하여 메시지와 채널 표면(예: 메시지 사전 설정)을 구성합니다.
 
 >[!NOTE]
->로서의 **시스템 관리자**&#x200B;가 표시되지 않으면 **[!UICONTROL 채널]** 메뉴 [!DNL Journey Optimizer]에서 권한을 업데이트합니다. [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. [이 페이지](../../administration/permissions.md#edit-product-profile)에서 제품 프로필을 업데이트하는 방법을 알아보세요.
+>**시스템 관리자**&#x200B;로서 [!DNL Journey Optimizer]에 **[!UICONTROL 채널]** 메뉴가 표시되지 않으면 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}에서 권한을 업데이트합니다. [이 페이지](../../administration/permissions.md#edit-product-profile)에서 제품 프로필을 업데이트하는 방법을 알아보세요.
 
 아래 단계를 따릅니다.
 
