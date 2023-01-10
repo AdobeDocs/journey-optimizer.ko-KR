@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
+source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 카테고리를 선택하여 하위 카테고리와 기능에 액세스합니다.
 
-하위 카테고리에 액세스하려면 `>` 아이콘. 을(를) 클릭하여 함수를 선택합니다 `+` 아이콘: 함수가 자동으로 개인화 화면에 추가됩니다.
+하위 카테고리에 액세스하려면 `>` 아이콘. 을(를) 클릭하여 함수를 선택합니다 `+` 아이콘: 함수가 개인화 화면에 자동으로 추가됩니다.
 
 을(를) 클릭합니다. `...` 아이콘 을 클릭하여 함수의 설명을 보고 즐겨찾기에 추가합니다. [자세히 알아보기](../personalize.md#fav)
 
@@ -146,22 +146,22 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">절대</a></td><td>이 함수는 절대 값의 숫자를 변환합니다</td>
+        <td><a href="math.md#absolute">절대</a></td><td>이 함수는 숫자를 해당 절대값으로 변환합니다</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">Random</a></td><td>이 함수는 0과 1 사이의 임의 값을 반환합니다</td>
+        <td><a href="math.md#random">Random</a></td><td>이 함수는 0과 1 사이의 임의 값을 반환합니다</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">아래로 반올림</a></td><td>이 함수는 숫자를 반올림합니다</td>
+        <td><a href="math.md#round-down">아래로 반올림</a></td><td>이 함수는 숫자를 반올림합니다</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-up">라운드 업</a></td><td>이 함수는 숫자를 반올림합니다</td>
+        <td><a href="math.md#round-up">라운드 업</a></td><td>이 함수는 숫자를 반올림합니다</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">백분율</a></td><td>이 함수는 숫자를 백분율로 변환합니다</td>
+        <td><a href="math.md#to-percentage">백분율</a></td><td>이 함수는 숫자를 백분율로 변환합니다</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">정밀도</a></td><td>이 함수는 숫자를 필수 정밀도로 변환합니다</td>
+        <td><a href="math.md#to-precision">정밀도</a></td><td>이 함수는 숫자를 필수 정밀도로 변환합니다</td>
     </tr>
 </table>
 
@@ -292,7 +292,7 @@ ht-degree: 3%
         <td><a href="string.md#sub-string">하위 문자열</a></td><td>이 함수는 시작 인덱스와 종료 인덱스 사이에 문자열 식의 하위 문자열을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#titleCase">제목 사례</a></td><td>이 함수는 문자열의 각 단어의 첫 글자를 대문자로 사용하는 데 사용됩니다</td>
+        <td><a href="string.md#titleCase">제목 사례</a></td><td>이 함수는 문자열의 각 단어의 첫 문자를 대문자로 사용하는 데 사용됩니다</td>
     </tr>
     <tr>
         <td><a href="string.md#to-bool">대상 부울로</a></td><td>이 함수 인수 값을 형식에 따라 부울 값으로 변환합니다.</td>
@@ -325,7 +325,7 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">기본 폴백 값</a></td><td>이 함수를 사용하면 기본적으로 변수를 렌더링할 수 있습니다</td>
+        <td><a href="helpers.md#default">기본 폴백 값</a></td><td>이 함수는 기본적으로 변수를 렌더링하는 데 사용됩니다</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">각</a></td><td>이 함수는 배열을 반복하는 데 사용됩니다</td>
