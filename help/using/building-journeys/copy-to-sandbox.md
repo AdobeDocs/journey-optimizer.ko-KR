@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b320a69b12abe14f745097403d7447e47c101596
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 2%
 >title="종속 개체"
 >abstract="여정에서 사용되는 관련 객체 목록입니다. 이 목록에는 이름, 개체 유형 및 내부 Journey Optimizer ID가 표시됩니다."
 
-Journey Optimizer을 사용하면 한 샌드박스에서 다른 샌드박스로 전체 여정을 복사할 수 있습니다. 예를 들어 스테이지 샌드박스 환경에서 프로덕션 샌드박스에 여정을 복사할 수 있습니다. Journey Optimizer은 여정 자체 외에 여정이 종속하는 대부분의 개체도 복사합니다. 세그먼트, 서피스(예: 사전 설정), 스키마, 이벤트 및 작업 복사된 개체에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../building-journeys/copy-to-sandbox.md#limitations).
+Journey Optimizer을 사용하면 한 샌드박스에서 다른 샌드박스로 전체 여정을 복사할 수 있습니다. 예를 들어 스테이지 샌드박스 환경에서 프로덕션 샌드박스에 여정을 복사할 수 있습니다. Journey Optimizer은 여정 자체 외에 여정이 종속하는 대부분의 개체도 복사합니다. 세그먼트, 서피스(예: 사전 설정), 스키마, 이벤트 및 작업 복사된 개체에 대한 자세한 내용은 다음을 참조하십시오 [섹션](#limitations).
 
 >[!CAUTION]
 >
@@ -75,7 +75,7 @@ Journey Optimizer을 사용하면 한 샌드박스에서 다른 샌드박스로 
 
 ## 프로세스 및 제한 사항 복사 {#limitations}
 
-연결된 모든 요소가 대상 샌드박스에 복사되지 않도록 합니다. 철저한 검사를 하시기 바랍니다. 여정을 게시하기 전에 누락된 잠재적 개체를 식별하고 수동으로 만듭니다.
+연결된 모든 요소가 대상 샌드박스에 복사되지 않을 수 있습니다. Adobe은 철저한 검사를 수행하는 것이 좋습니다. 여정을 게시하기 전에 누락된 잠재적 개체를 식별하고 수동으로 만듭니다.
 
 다음 개체가 복사됩니다.
 
