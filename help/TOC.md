@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: cd8217a7f28f30a259863ecce0c062ddc5d2667b
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 99%
 
 ---
 
@@ -259,6 +259,7 @@ ht-degree: 100%
             + [부울 및 비교 함수](using/personalization/functions/operators.md)
             + [도우미](using/personalization/functions/helpers.md)
             + [맵 함수](using/personalization/functions/maps.md)
+            + [수학 함수](using/personalization/functions/math.md)
             + [개체 함수](using/personalization/functions/objects.md)
             + [문자열 함수](using/personalization/functions/string.md)
       + 사용 사례{#personalization-use-cases}
