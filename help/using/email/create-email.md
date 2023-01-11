@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '834'
 ht-degree: 5%
 
 ---
@@ -71,6 +71,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!ENDTABS]
 
 ## 이메일 콘텐츠 정의 {#define-email-content}
+
+<!-- update the quarry component with right ID value-->
+
+>[!CONTEXTUALHELP]
+>id="test_id"
+>title="이메일 콘텐츠 구성"
+>abstract="전자 메일 콘텐츠를 만듭니다. 제목을 정의한 다음 이메일 디자이너를 활용하여 이메일 본문을 만들고 개인화합니다."
 
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 컨텐츠 편집]** 전자 메일 콘텐츠를 구성하는 단추입니다. [자세히 알아보기](get-started-email-design.md)
 
