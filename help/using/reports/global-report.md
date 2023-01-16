@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
+source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1203'
 ht-degree: 4%
 
 ---
@@ -104,7 +104,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
  </tbody> 
 </table>
 
-### 이메일 및 SMS 지표 {#email-and-sms-metrics}
+### 이메일 및 SMS 차원 및 지표 {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -430,75 +430,6 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
    <td>방문 횟수<br/> </td> 
    <td>한 수신자의 여러 방문 횟수를 포함하여 랜딩 페이지에 대한 방문 횟수.<br/> </td> 
 </tr>
- </tbody> 
-</table>
-
-### 푸시 알림 지표
-
-<table> 
- <thead> 
-  <tr> 
-   <th> 지표<br/> </th> 
-   <th> 정의<br/> </th> 
-</tr>
- </thead> 
- <tbody>
- <tr> 
-   <td>작업<br/> </td> 
-   <td> 전달된 푸시 알림에 대한 총 작업 수(예: 단추 클릭 또는 취소)<br/> </td> 
-</tr>
-  <tr> 
-   <td>바운스<br/> </td> 
-   <td> 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 바운스 비율<br/> </td> 
-   <td> 전송된 푸시 알림과 비교하여 바운스된 푸시 알림의 비율입니다.<br/> </td>
-</tr>
-  <tr> 
-   <td> 게재됨<br/> </td> 
-   <td> 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 전송률<br/> </td> 
-   <td> 성공적으로 전송된 푸시 알림의 비율입니다.<br/> </td> 
-</tr>
-  <tr> 
-   <td>참여 횟수<br/> </td> 
-   <td> 이 푸시 알림에 대한 총 열기 및 작업 수(즉, 프로필이 푸시를 열었는지 또는 단추를 클릭했는지 여부)입니다.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 참여 비율<br/> </td> 
-   <td> 이 푸시 알림에 대한 열기 및 작업의 비율(즉, 프로필이 푸시를 열었는지 또는 단추를 클릭했는지 여부)입니다.<br/> </td> 
-</tr>
-  <tr> 
-   <td> 오류<br/> </td> 
-   <td> 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.<br/> </td> 
-</tr>
-  <tr> 
-   <td> 오류율<br/> </td> 
-   <td> 전송 중에 발생한 오류로 인해 전송된 푸시 알림과 비교하여 전송되지 못했습니다.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 제외<br/> </td> 
-   <td> Adobe Journey Optimizer에서 제외된 프로필 수입니다.<br/> </td> 
-</tr>
-  <tr> 
-   <td> 열림<br/> </td> 
-   <td> 장치에 배달되고 사용자가 클릭했던 총 푸시 알림 수로 인해 앱이 열립니다. 알림이 무시되면 푸시 열기가 트리거되지 않는다는 점을 제외하고 푸시 클릭과 유사합니다.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 오픈율<br/> </td> 
-   <td> 열린 푸시 알림의 비율입니다.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 보냄<br/> </td> 
-   <td> 게재에 대한 총 전송 수입니다.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 타깃팅됨<br/> </td> 
-   <td> 게재 분석 중에 처리된 총 푸시 메시지 수입니다.<br/> </td> 
-</tr>  
  </tbody> 
 </table>
 
