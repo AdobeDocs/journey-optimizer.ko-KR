@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
+source-git-commit: fc88faceceea0312417e1176a5a61c1c03a6f01b
 workflow-type: tm+mt
-source-wordcount: '1751'
-ht-degree: 9%
+source-wordcount: '1775'
+ht-degree: 8%
 
 ---
 
@@ -114,6 +114,11 @@ ht-degree: 9%
 >id="ajo_admin_subdomain_dns_cname"
 >title="일치하는 DNS 및 유효성 검사 레코드 생성"
 >abstract="CNAME을 사용하여 하위 도메인을 위임하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보 및 SSL CDN URL 유효성 검사 레코드를 호스팅 플랫폼에 복사하여 붙여넣어야 합니다. 확인이 성공하면 하위 도메인을 사용하여 메시지를 전달할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_cdn_cname"
+>title="유효성 검사 레코드 복사"
+>abstract="Adobe은 유효성 검사 레코드를 생성합니다. CDN URL 유효성 검사를 위해 호스팅 플랫폼에 해당 레코드를 만들어야 합니다."
 
 도메인별 제한 정책이 있고 Adobe이 DNS를 부분적 제어만 갖도록 하려는 경우 모든 DNS 관련 활동을 사용자 측에서 수행하도록 선택할 수 있습니다.
 
