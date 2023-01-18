@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: f5d5c9dacd640b130dd4bcbaab803ecc7e999d10
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 2%
@@ -75,7 +75,7 @@ curl -X POST \
                 }
                 ]
             },
-            "xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"
+            "xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"
             }
         ],
         "xdm:allowDuplicatePropositions": {
@@ -110,7 +110,7 @@ curl -X POST \
 | `xdm:itemCount` | 반환할 오퍼 수입니다. 최대 수는 30개입니다. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | 이 개체에는 의사 결정을 요청한 프로필에 대한 정보가 들어 있습니다. API 요청의 경우 여기에 하나의 프로필이 포함됩니다. |
 | `xdm:profiles.xdm:identityMap` | 이 개체에는 ID의 네임스페이스 통합 코드를 기반으로 하는 최종 사용자 ID 세트가 들어 있습니다. ID 맵은 각 네임스페이스의 ID를 두 개 이상 보유할 수 있습니다. 네임스페이스에 대한 자세한 내용은 [이 페이지](../../../segment/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
-| `xdm:profiles.xdm:decisionRequestId` | 프로필 결정 요청을 고유하게 식별하는 데 사용할 수 있는 클라이언트가 생성한 ID입니다. 이 ID는 응답에서 다시 반복되며 결정 결과에 영향을 주지 않습니다. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
+| `xdm:profiles.xdm:decisionRequestId` | 프로필 결정 요청을 고유하게 식별하는 데 사용할 수 있는 클라이언트가 생성한 ID입니다. 이 ID는 응답에서 다시 반복되며 결정 결과에 영향을 주지 않습니다. | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
 | `xdm:allowDuplicatePropositions` | 이 개체는 중복 제거 규칙의 제어 구조입니다. 특정 차원에 대해 동일한 옵션을 제안할 수 있는지 여부를 나타내는 일련의 플래그로 구성됩니다. True로 설정된 플래그는 중복을 사용할 수 있으며 플래그로 표시된 카테고리에서 제거해서는 안 됩니다. false로 설정된 플래그는 의사 결정 엔진이 차원 전체에서 동일한 제안을 하지 않고 대신 하위 결정 중 하나에 대해 다음 우수 옵션을 선택해야 함을 의미합니다. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | true로 설정하면 여러 결정에서 동일한 옵션을 지정할 수 있습니다. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | true로 설정하면 여러 배치에 동일한 옵션이 할당될 수 있습니다. | `"xdm:acrossPlacements": true` |
