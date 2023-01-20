@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 속성 기반 액세스 제어
-description: 속성 기반 액세스 제어 정보
+description: ABAC(속성 기반 액세스 제어)를 사용하면 특정 팀 또는 사용자 그룹의 데이터 액세스를 관리하기 위한 권한을 정의할 수 있습니다.
 feature: Access Management
 topic: Administration
-role: Admin
+role: Admin,Leader
 level: Intermediate
+keywords: abac, 속성, 권한, 데이터, 액세스, 민감성, 자산
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1087'
 ht-degree: 3%
 
 ---

@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Campaign v7/v8과 통합
-description: Adobe Campaign v7/v8과 통합하는 방법을 알아봅니다
+description: Journey Optimizer을 Adobe Campaign v7/v8과 통합하는 방법을 알아봅니다
 feature: Actions
 topic: Administration
-role: Admin
+role: Admin,Developer
 level: Intermediate
+keywords: campaign, acc, 통합
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '501'
 ht-degree: 5%
 
 ---
@@ -44,7 +45,7 @@ Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로�
 
 ## 전제 조건 {#prerequisites}
 
-Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. 자세한 내용은 [Adobe Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
+Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. 자세한 내용은 [Adobe Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
 
 아래 패턴에 따라 각 메시지에 해당하는 JSON 페이로드를 작성할 수 있습니다. 그런 다음 Journey Optimizer에서 작업을 구성할 때 이 페이로드를 붙여넣습니다(아래 참조)
 

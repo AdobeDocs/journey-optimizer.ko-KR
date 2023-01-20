@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 객체 수준 액세스 제어
-description: 개체 수준 액세스 제어에 대해 알아보기
+description: 개체 선택에 대한 데이터 액세스를 관리할 권한을 정의할 수 있는 개체 수준 액세스 제어에 대해 알아봅니다
 feature: Access Management
 topic: Administration
-role: Admin
-level: Intermediate
+role: Admin, Developer, Architect
+level: Experienced
+keywords: 개체, 수준, 액세스, 제어, 레이블, 논리, 권한 부여
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '459'
 ht-degree: 6%
 
 ---

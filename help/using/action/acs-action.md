@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Campaign Standard 통합
-description: Adobe Campaign Standard과 통합하는 방법을 알아봅니다
+description: Journey Optimizer을 Adobe Campaign Standard과 통합하는 방법을 알아봅니다
 feature: Actions
 topic: Administration
-role: Admin
+role: Admin,Developer
 level: Intermediate
+keywords: campaign, standard, 통합, 최대 가용량, 작업
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '433'
 ht-degree: 5%
 
 ---

@@ -5,12 +5,13 @@ title: 내장 제품 프로필
 description: 기본 제공 제품 프로필에 대해 알아보기
 feature: Access Management
 topic: Administration
-role: Admin
+role: Admin, User
 level: Intermediate
+keywords: 권한, 작성, 메시지
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1118'
 ht-degree: 9%
 
 ---

@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 사용자 및 제품 프로필 관리
-description: 권한을 관리하는 방법 알아보기
+description: 사용자 및 제품 프로필을 관리하는 방법 알아보기
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+keywords: 제품, 프로필, 샌드박스
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '838'
 ht-degree: 6%
 
 ---
@@ -99,7 +100,7 @@ ht-degree: 6%
 
 [!DNL Journey Optimizer] 을(를) 통해 직접 **[!UICONTROL 제품 프로필]** 사용자에게 권한 집합 및 샌드박스를 할당합니다. 사용 **[!UICONTROL 제품 프로필]**&#x200B;로 설정하면 인터페이스에서 특정 기능 또는 개체에 대한 액세스를 승인하거나 거부할 수 있습니다.
 
-샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko-KR){target=&quot;_blank&quot;}.
+샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko-KR){target="_blank"}.
 
 이 예에서는 이름이 인 제품 프로필을 만듭니다 **여정 읽기 전용** 여기서 여정 기능에 읽기 전용 권한을 부여합니다. 사용자는 여정에 액세스하고 볼 수만 있으며, 와 같은 다른 기능에 액세스할 수 없습니다 **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 

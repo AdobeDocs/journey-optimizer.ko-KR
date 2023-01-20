@@ -5,13 +5,14 @@ title: 작업 정보
 description: 작업 구성 방법 알아보기
 feature: Actions
 topic: Administration
-role: Admin
+role: Admin,Developer
 level: Intermediate
+keywords: 작업, 여정, 메시지, 전송, 연결
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 58%
+source-wordcount: '255'
+ht-degree: 57%
 
 ---
 
@@ -30,7 +31,7 @@ ht-degree: 58%
 
 Adobe Campaign v7 또는 v8이 있는 경우 요청 시 통합을 사용할 수 있습니다. [이 페이지](../action/acc-action.md)를 참조하십시오.
 
-Epsilon, Facebook 등의 서드파티 시스템을 사용하여 메시지를 전송하는 경우 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase 등은 사용자 지정 작업을 추가하고 구성해야 합니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
+Epsilon, Facebook 등의 서드파티 시스템을 사용하여 메시지를 전송하는 경우 [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase 등을 통해 사용자 지정 작업을 추가하고 구성해야 합니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
 
 사용자 지정 작업에서는 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다. JSON 형식 페이로드를 사용하여 REST API를 통해 호출할 수 있는 모든 공급자의 어떤 서비스로든 작업을 구성할 수 있습니다.
 

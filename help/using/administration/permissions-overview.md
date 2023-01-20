@@ -5,12 +5,13 @@ title: 사용자 관리 개요
 description: 권한 정의 및 관리 방법 알아보기
 feature: Access Management
 topic: Administration
-role: Admin
+role: Admin, Architect
 level: Intermediate
+keywords: 권한, 권한, 제한, 액세스, 샌드박스
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '206'
 ht-degree: 24%
 
 ---
