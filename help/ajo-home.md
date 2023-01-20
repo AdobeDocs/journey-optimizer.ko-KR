@@ -1,14 +1,14 @@
 ---
 keywords: Journey Optimizer;홈;인기 항목
 title: Journey Orchestration 제품 설명서
-description: Adobe Journey Optimizer 제품 도움말 센터
+description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 5fd4f8c5ffaf2c417d95f88fa31c850bc88db13f
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 94%
 
 ---
 
@@ -182,7 +182,7 @@ ht-degree: 100%
 </table>
 
 
-![뉴스레터](using/assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}에 등록하세요!
+![뉴스레터](using/assets/do-not-localize/nl-icon.png) 에 등록 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} 오늘!
 
 분기마다 최신 제품 업데이트, 흥미로운 사례, 사용 사례, 팁 등을 받은 편지함에 바로 받을 수 있습니다.
 

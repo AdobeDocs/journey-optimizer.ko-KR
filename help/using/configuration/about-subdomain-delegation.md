@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: a5b49f113fa0f1375f74368a63ea19789f3798c2
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 24%
@@ -23,7 +23,7 @@ ht-degree: 24%
 >
 >같은 전송 도메인을 사용하여 메시지를 보낼 수 없습니다 [!DNL Adobe Journey Optimizer] 및 [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage].
 
-## 하위 도메인을 설정하는 이유  {#why-setting-up-subdomains}
+## 하위 도메인을 설정하는 이유 {#why-set-up-subdomains}
 
 하위 도메인은 브랜드나 다양한 트래픽 유형(예: 트랜잭션 메시지 및 마케팅 커뮤니케이션)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 

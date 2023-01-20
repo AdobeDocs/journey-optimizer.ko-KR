@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: b3270b8e806cf6e57ea4bcdfa93c8baedc9523f1
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 21%
+source-wordcount: '208'
+ht-degree: 10%
 
 ---
 
@@ -34,8 +34,8 @@ Gmail 주소로 이메일을 게재하는 것을 최적화하기 위해 [!DNL Jo
 
 1. 에서 하위 도메인을 엽니다. **[!UICONTROL 채널]** / **[!UICONTROL 하위 도메인]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-1. 에서 **[!UICONTROL Google txt 레코드]** 섹션에서 생성된 확인 코드를 입력합니다. [Google 작업 공간](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->를 클릭한 다음 **[!UICONTROL 저장]**.
+1. 에서 **[!UICONTROL Google txt 레코드]** 섹션에서 생성된 확인 코드를 입력합니다. [Google 작업 공간](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->를 클릭한 다음 **[!UICONTROL 저장]**.
 
    ![](assets/subdomain-google-txt.png)
 
-1. 추가한 TXT 레코드는 Google에서 확인해야 합니다. 이렇게 하려면 로 이동합니다. [Google 작업 공간](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->그런 다음 확인 단계를 시작합니다.
+1. 추가한 TXT 레코드는 Google에서 확인해야 합니다. 이렇게 하려면 로 이동합니다. [Google 작업 공간](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->그런 다음 확인 단계를 시작합니다.
