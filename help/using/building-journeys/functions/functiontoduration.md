@@ -3,12 +3,13 @@ product: journey optimizer
 title: toDuration
 description: toDuration 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: toDuration, 함수, 표현식, 여정
 exl-id: c78e30c5-99ee-4dc7-a03a-17f7ee65f83a
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 3%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 3%
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| string | ISO-8601 지속 시간 형식 PnDTnHnMn.nS를 기반으로 하는 형식(일 수가 정확히 24시간으로 고려됨) |
+| 문자열 | ISO-8601 지속 시간 형식 PnDTnHnMn.nS를 기반으로 하는 형식(일 수가 정확히 24시간으로 고려됨) |
 | 정수 | 밀리초 수 |
 
 문자열 식인 경우: 허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.n을 기반으로 하며, 일 수는 정확히 24시간으로 간주됩니다.

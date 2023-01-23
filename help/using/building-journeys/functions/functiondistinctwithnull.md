@@ -3,12 +3,13 @@ product: journey optimizer
 title: distinctWithNull
 description: distinctWithNull 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: distinctWithNull, 함수, 식, 여정
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '171'
 ht-degree: 5%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 5%
 | 매개 변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 처리할 목록. listObject의 경우 필드 참조여야 합니다. |
-| keyAttributeName | string | 이 매개 변수는 선택 사항이며 listObject에만 사용됩니다. 매개 변수를 제공하지 않으면 모든 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. 그렇지 않으면 지정된 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. |
+| keyAttributeName | 문자열 | 이 매개 변수는 선택 사항이며 listObject에만 사용됩니다. 매개 변수를 제공하지 않으면 모든 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. 그렇지 않으면 지정된 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. |
 
 ## 서명 및 반환된 형식
 

@@ -3,13 +3,14 @@ product: journey optimizer
 title: equalIgnoreCase
 description: equalIgnoreCase 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: equalIgnoreCase, 함수, 식, 여정
 exl-id: b74ef5c9-0202-4a69-8870-77004a4397e0
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 19%
+source-wordcount: '40'
+ht-degree: 17%
 
 ---
 
@@ -27,7 +28,7 @@ ht-degree: 19%
 
 ## 매개 변수
 
-* string
+* 문자열
 
 ## 서명 및 반환된 형식
 

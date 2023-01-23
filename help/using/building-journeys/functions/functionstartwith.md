@@ -3,13 +3,14 @@ product: journey optimizer
 title: startWith
 description: 함수 startWith
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: startWith, function, expression, 여정
 exl-id: 1abdf947-2873-4e45-a26c-cb895980e76a
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 27%
+source-wordcount: '47'
+ht-degree: 25%
 
 ---
 
@@ -29,8 +30,8 @@ ht-degree: 27%
 
 | 매개 변수 | 유형 |
 |-------------|--------|
-| string | string |
-| prefix로 인해 영구적으로 지정되는 Mbox 매개 변수입니다 | string |
+| 문자열 | 문자열 |
+| prefix로 인해 영구적으로 지정되는 Mbox 매개 변수입니다 | 문자열 |
 
 ## 서명 및 반환된 형식
 

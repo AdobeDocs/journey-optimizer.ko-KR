@@ -3,13 +3,14 @@ product: journey optimizer
 title: endWith
 description: 함수 끝에 대해 알아보기With
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: endWith, function, expression, 여정
 exl-id: ae54c127-9de2-42fd-942c-664d2cfe66d2
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 25%
+source-wordcount: '47'
+ht-degree: 23%
 
 ---
 
@@ -29,8 +30,8 @@ ht-degree: 25%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| string | string |
-| 접미사 | string |
+| 문자열 | 문자열 |
+| 접미사 | 문자열 |
 
 ## 서명 및 반환된 형식
 

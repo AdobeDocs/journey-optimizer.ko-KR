@@ -3,13 +3,14 @@ product: journey optimizer
 title: toInteger
 description: toInteger 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: toInteger, 함수, 표현식, 여정
 exl-id: 901a91d1-13dd-4283-b87f-223196eb072f
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 14%
+source-wordcount: '74'
+ht-degree: 13%
 
 ---
 
@@ -29,7 +30,7 @@ ht-degree: 14%
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| string | 문자열 값을 정수로 변환 |
+| 문자열 | 문자열 값을 정수로 변환 |
 | dateTime | 날짜를 밀리초(epoch 밀리초)로 변환 |
 | 십진수 | 소수점 부분을 제거하여 정수로 변환합니다(예: 1.5가 1이 됨) |
 | 부울 | 부울 값을 true면 1로, false이면 0으로 변환합니다 |

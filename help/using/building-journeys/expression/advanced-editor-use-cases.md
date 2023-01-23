@@ -4,12 +4,13 @@ product: journey optimizer
 title: 고급 표현식 편집기 사용
 description: 고급 표현식을 작성하는 방법에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 표현식, 조건, 사용 사례, 이벤트
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '495'
 ht-degree: 3%
 
 ---

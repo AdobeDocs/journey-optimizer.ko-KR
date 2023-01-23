@@ -3,13 +3,14 @@ product: journey optimizer
 title: endWithIgnoreCase
 description: 함수 endWithIgnoreCase에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: endWithIgnoreCase, 함수, 식, 여정
 exl-id: 278ef1a4-571c-4b5f-b4de-0cfc644ac7d7
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 18%
+source-wordcount: '52'
+ht-degree: 17%
 
 ---
 
@@ -29,8 +30,8 @@ ht-degree: 18%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| string | string |
-| 접미사 | string |
+| 문자열 | 문자열 |
+| 접미사 | 문자열 |
 
 ## 서명 및 반환된 형식
 

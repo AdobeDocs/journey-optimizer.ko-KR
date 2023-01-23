@@ -3,12 +3,13 @@ product: journey optimizer
 title: inNextYears
 description: NextYears의 기능에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: inNextYears, 함수, 표현식, 여정
 exl-id: e4597772-d53c-4e15-8237-b2460ce31170
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '48'
 ht-degree: 18%
 
 ---

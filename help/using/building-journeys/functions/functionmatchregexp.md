@@ -3,13 +3,14 @@ product: journey optimizer
 title: matchRegExp
 description: matchRegExp 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: matchRegExp, 함수, 표현식, 여정
 exl-id: 24cf362c-f390-4bb1-be82-a079bc27fa1f
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 18%
+source-wordcount: '64'
+ht-degree: 17%
 
 ---
 
@@ -29,8 +30,8 @@ ht-degree: 18%
 
 | 매개 변수 | 유형 |
 |--- |--- |
-| string | string |
-| regexp | string |
+| 문자열 | 문자열 |
+| regexp | 문자열 |
 
 ## 서명 및 반환된 형식
 

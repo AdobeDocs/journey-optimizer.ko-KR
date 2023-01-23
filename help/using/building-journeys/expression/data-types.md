@@ -4,12 +4,13 @@ product: journey optimizer
 title: 데이터 유형
 description: 고급 표현식의 데이터 유형에 대해 알아봅니다
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 표현식, 데이터, 데이터 유형, 여정
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '642'
 ht-degree: 5%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 5%
 
 아래 섹션에서는 다양한 데이터 유형 표현식과 표현식에 대한 정보를 제공합니다.
 
-## string {#string}
+## 문자열 {#string}
 
 **설명**
 

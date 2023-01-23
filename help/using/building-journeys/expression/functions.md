@@ -4,13 +4,14 @@ product: journey optimizer
 title: 함수
 description: 기능에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 함수, 표현식, 편집기, 여정
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 75%
+source-wordcount: '183'
+ht-degree: 73%
 
 ---
 

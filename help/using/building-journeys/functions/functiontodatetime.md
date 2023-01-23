@@ -3,13 +3,14 @@ product: journey optimizer
 title: toDateTime
 description: toDateTime 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: toDateTime, 함수, 식, 여정
 exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 10%
+source-wordcount: '97'
+ht-degree: 11%
 
 ---
 
@@ -29,8 +30,8 @@ ht-degree: 10%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| ISO-8601 형식의 날짜 시간 | string |
-| 시간대 id | string |
+| ISO-8601 형식의 날짜 시간 | 문자열 |
+| 시간대 id | 문자열 |
 | 시간대 없는 날짜 시간 | dateTimeOnly |
 | epoch의 정수 값(밀리초) | 정수 |
 

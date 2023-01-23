@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 테스트, 여정, 확인, 오류, 문제 해결
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 2%
+source-wordcount: '1553'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 2%
 
 게시하기 전에 테스트 프로필을 사용하여 여정을 테스트합니다. 이 모드에서는 여정 테스트를 실행하고 테스트 프로필을 사용하여 문제를 식별할 수 있습니다.
 
-테스트 프로필만 테스트 모드에서 여정을 입력할 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 전환할 수 있습니다. 에서 테스트 프로필에 대해 자세히 알아보십시오 [이 섹션](../segment/creating-test-profiles.md).
+테스트 프로필만 테스트 모드에서 여정에 들어갈 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 전환할 수 있습니다. 에서 테스트 프로필에 대해 자세히 알아보십시오 [이 섹션](../segment/creating-test-profiles.md).
 
 >[!NOTE]
 >

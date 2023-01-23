@@ -3,12 +3,13 @@ product: journey optimizer
 title: round
 description: 함수 라운드에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: round, 함수, 표현식, 여정
 exl-id: b9d5fd2f-9c7f-4811-b34f-23ce1d2c833f
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '44'
 ht-degree: 15%
 
 ---

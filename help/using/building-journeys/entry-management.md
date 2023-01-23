@@ -6,11 +6,12 @@ description: 프로필 항목을 관리하는 방법 알아보기
 feature: Journeys
 role: User
 level: Intermediate
+keywords: 다시 시작, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 23%
+source-wordcount: '350'
+ht-degree: 22%
 
 ---
 

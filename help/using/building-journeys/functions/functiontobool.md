@@ -3,13 +3,14 @@ product: journey optimizer
 title: toBool
 description: Bool에 대한 함수 알아보기
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: tobool, 함수, 표현식, 여정
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 10%
+source-wordcount: '78'
+ht-degree: 11%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 10%
 
 * 십진수
 * 부울
-* string
+* 문자열
 * 정수
 
 ## 서명 및 반환된 형식

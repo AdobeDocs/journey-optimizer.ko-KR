@@ -3,13 +3,14 @@ product: journey optimizer
 title: containIgnoreCase
 description: containIgnoreCase 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: containIgnoreCase, 함수, 식, 여정
 exl-id: 26074584-a215-4515-8a61-7460bd9d4447
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 22%
+source-wordcount: '52'
+ht-degree: 21%
 
 ---
 
@@ -29,8 +30,8 @@ ht-degree: 22%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| string | string |
-| 검색된 문자열 | string |
+| 문자열 | 문자열 |
+| 검색된 문자열 | 문자열 |
 
 ## 서명 및 반환된 형식
 

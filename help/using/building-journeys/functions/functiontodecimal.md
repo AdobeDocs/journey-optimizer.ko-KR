@@ -3,12 +3,13 @@ product: journey optimizer
 title: toDecimal
 description: toDecimal 함수에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: decimal, 함수, 표현식, 여정
 exl-id: d761fa4d-5f99-4dee-b747-3eab464c4071
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '75'
 ht-degree: 14%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 14%
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| string | 문자열 값을 십진수로 변환 |
+| 문자열 | 문자열 값을 십진수로 변환 |
 | dateTime | 날짜를 밀리초(epoch 밀리초)로 변환 |
 | 부울 | 부울 값을 true면 1로, false이면 0으로 변환합니다 |
 | 정수 | 소수점(예)으로 변환합니다.: 1.0이 됨 |

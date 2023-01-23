@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 자격, 이벤트, 세그먼트, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '925'
 ht-degree: 3%
 
 ---
@@ -63,7 +64,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >참고 사항 **[!UICONTROL Enter 키]** 및 **[!UICONTROL 종료]** 에 해당합니다 **실현** 및 **종료됨** Adobe Experience Platform의 세그먼트 기여도 상태. 세그먼트 평가 방법에 대한 자세한 내용은 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >참고 사항 **[!UICONTROL Enter 키]** 및 **[!UICONTROL 종료]** 에 해당합니다 **실현** 및 **종료됨** Adobe Experience Platform의 세그먼트 기여도 상태. 세그먼트 평가 방법에 대한 자세한 내용은 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. 네임스페이스를 선택합니다. 이벤트가 여정의 첫 번째 단계로 배치된 경우에만 필요합니다.
 
@@ -113,7 +114,7 @@ ht-degree: 3%
 
 ![](assets/segment-error.png)
 
-여정에 사용된 데이터 소스 및 작업에 대해 최대 가용량 규칙을 설정하여 오버로드를 방지합니다. 추가 정보 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. 최대 가용량 규칙은 다시 시도되지 않습니다. 다시 시도해야 하는 경우 상자를 선택하여 여정에서 대체 경로를 사용해야 합니다 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로 추가]** 를 클릭하거나 탭합니다.
+여정에 사용된 데이터 소스 및 작업에 대해 최대 가용량 규칙을 설정하여 오버로드를 방지합니다. 추가 정보 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. 최대 가용량 규칙은 다시 시도되지 않습니다. 다시 시도해야 하는 경우 상자를 선택하여 여정에서 대체 경로를 사용해야 합니다 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로 추가]** 를 클릭하거나 탭합니다.
 
 프로덕션 여정에서 세그먼트를 사용하기 전에 항상 먼저 매일 이 세그먼트에 대해 자격이 있는 개인의 볼륨을 평가하십시오. 이를 위해 다음을 확인할 수 있습니다 **[!UICONTROL 세그먼트]** 메뉴를 열고 세그먼트를 열고 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프.
 

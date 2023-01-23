@@ -5,10 +5,11 @@ title: AI 서비스 개요
 description: AI 서비스 개요
 role: User
 level: Intermediate
+keywords: 인공, AI, 지능형, 여정, 서비스
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 통합 **[!DNL Adobe Intelligent Services]** 고객 경험 사용 사례에서 인공 지능과 머신 러닝을 활용할 수 있습니다. 이를 통해 마케팅 분석가는 데이터 과학 전문 지식 없이도 비즈니스 수준 구성을 사용하여 기업의 요구 사항에 맞는 예측을 설정할 수 있습니다.
 
-[!DNL Intelligent Services]Adobe Experience Platform에 구축된 는 고객 경험을 AI as a Service에 액세스할 책임이 있는 마케터에게 있으므로, 고객 행동을 쉽게 예측하거나 캠페인의 영향을 측정하거나 모든 투자에 대한 수익을 높일 수 있습니다. 자세한 내용은 [!DNL Adobe Intelligent Services]를 참조하려면 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target=&quot;_blank&quot;}.
+[!DNL Intelligent Services]Adobe Experience Platform에 구축된 는 고객 경험을 AI as a Service에 액세스할 책임이 있는 마케터에게 있으므로, 고객 행동을 쉽게 예측하거나 캠페인의 영향을 측정하거나 모든 투자에 대한 수익을 높일 수 있습니다. 자세한 내용은 [!DNL Adobe Intelligent Services]를 참조하려면 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target="_blank"}.
 
 통합 [!DNL Journey Optimizer] 및 [!DNL Intelligent Services] 고객 예측을 활용할 수 있습니다.
 
-고객 AI가 [!DNL Adobe Intelligent Services]. 고객이 무엇을 할 것 같은지를 예측하는 데 도움이 됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target=&quot;_blank&quot;}.
+고객 AI가 [!DNL Adobe Intelligent Services]. 고객이 무엇을 할 것 같은지를 예측하는 데 도움이 됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.
 
 고객 AI를 통해 브랜드는 Adobe Experience Platform 프로필(실시간 고객 프로필)에서 프로필 속성으로 사용할 수 있는 이탈 또는 전환 머신 러닝 기반 점수를 만들 수 있습니다.
 

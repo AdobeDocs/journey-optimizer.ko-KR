@@ -3,12 +3,13 @@ product: journey optimizer
 title: distinct
 description: 고유한 기능에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: distinct, 함수, 표현식, 여정
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '172'
 ht-degree: 6%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 6%
 | 매개 변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 처리할 목록. listObject의 경우 필드 참조여야 합니다. |
-| keyAttributeName | string | 이 매개 변수는 선택 사항이며 listObject에만 사용됩니다. 매개 변수를 제공하지 않으면 모든 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. 그렇지 않으면 지정된 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. |
+| keyAttributeName | 문자열 | 이 매개 변수는 선택 사항이며 listObject에만 사용됩니다. 매개 변수를 제공하지 않으면 모든 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. 그렇지 않으면 지정된 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. |
 
 ## 서명 및 반환된 형식
 

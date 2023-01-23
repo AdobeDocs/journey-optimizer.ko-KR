@@ -3,12 +3,13 @@ product: journey optimizer
 title: replaceAll
 description: 함수 replaceAll에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: replaceAll, 함수, 식, 여정
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '109'
 ht-degree: 10%
 
 ---
@@ -31,9 +32,9 @@ ht-degree: 10%
 
 | 매개 변수 | 유형 |
 |-----------|--------------|
-| 기본 | string |
+| 기본 | 문자열 |
 | target | 문자열(RegExp) |
-| 교체 | string |
+| 교체 | 문자열 |
 
 ## 서명 및 반환된 형식
 

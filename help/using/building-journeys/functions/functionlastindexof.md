@@ -3,13 +3,14 @@ product: journey optimizer
 title: lastIndexOf
 description: lastIndexOf 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: lastIndexOf, 함수, 식, 여정
 exl-id: f11f164b-51b5-4b01-8057-ff29d80d2e2c
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 20%
+source-wordcount: '64'
+ht-degree: 18%
 
 ---
 
@@ -29,7 +30,7 @@ ht-degree: 20%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| string | 문자열 |
+| 문자열 | 문자열 |
 | 지정된 값 | 문자열 |
 
 ## 서명 및 반환된 형식

@@ -3,13 +3,14 @@ product: journey optimizer
 title: toDateTimeOnly
 description: toDateTime 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: toDateTimeOnly, 함수, 식, 여정
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 16%
+source-wordcount: '59'
+ht-degree: 15%
 
 ---
 
@@ -29,7 +30,7 @@ ht-degree: 16%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| ISO-8601 또는 &quot;YYYY-MM-DD&quot; 형식(XDM 날짜 형식)의 날짜 시간 | string |
+| ISO-8601 또는 &quot;YYYY-MM-DD&quot; 형식(XDM 날짜 형식)의 날짜 시간 | 문자열 |
 | 날짜 시간 | dateTime |
 
 ## 서명 및 반환된 형식

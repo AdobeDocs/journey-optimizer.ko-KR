@@ -3,13 +3,14 @@ product: journey optimizer
 title: notEqualIgnoreCase
 description: notEqualIgnoreCase 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: notEqualIgnoreCase, 함수, 식, 여정
 exl-id: 74f8cae0-7d2f-4f5e-bc13-837c9bc69ad9
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
@@ -27,7 +28,7 @@ ht-degree: 13%
 
 ## 매개 변수
 
-* string
+* 문자열
 
 ## 서명 및 반환된 형식
 

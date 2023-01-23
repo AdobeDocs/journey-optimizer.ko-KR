@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 프로필, 업데이트, 여정, 활동
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 0%
+source-wordcount: '474'
+ht-degree: 2%
 
 ---
 
@@ -72,6 +73,6 @@ ht-degree: 0%
 
 테스트 모드에서는 프로필 업데이트가 시뮬레이션되지 않습니다. 업데이트는 테스트 프로필에서 수행됩니다.
 
-테스트 프로필만 테스트 모드에서 여정을 입력할 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 전환할 수 있습니다. Adobe Experience Platform에서 csv 파일 가져오기 또는 API 호출을 통해 프로필 속성을 업데이트할 수 있습니다. 간단한 방법은 **프로필 업데이트** 작업 활동을 수행하고 테스트 프로필 부울 필드를 false에서 true로 변경합니다.
+테스트 프로필만 테스트 모드에서 여정에 들어갈 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 전환할 수 있습니다. Adobe Experience Platform에서 csv 파일 가져오기 또는 API 호출을 통해 프로필 속성을 업데이트할 수 있습니다. 간단한 방법은 **프로필 업데이트** 작업 활동을 수행하고 테스트 프로필 부울 필드를 false에서 true로 변경합니다.
 
 기존 프로필을 테스트 프로필로 변환하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오 [섹션](../segment/creating-test-profiles.md#create-test-profiles-csv).

@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 디자인, 캔버스, 여정, 인터페이스, 드래그, 드롭
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1611'
 ht-degree: 3%
 
 ---

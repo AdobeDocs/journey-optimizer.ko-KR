@@ -3,13 +3,14 @@ product: journey optimizer
 title: toDateOnly
 description: toDateOnly 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: toDateOnly, function, expression, 여정
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 9%
+source-wordcount: '100'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +30,7 @@ ht-degree: 9%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| 날짜를 &quot;YYYY-MM-DD&quot;(XDM 형식)로 나타내는 문자열 표현입니다. 또한 ISO-8601 형식을 지원합니다. 전용 **전체 날짜** 부품이 고려됩니다(참조: [RFC 3339, 섹션 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
+| 날짜를 &quot;YYYY-MM-DD&quot;(XDM 형식)로 나타내는 문자열 표현입니다. 또한 ISO-8601 형식을 지원합니다. 전용 **전체 날짜** 부품이 고려됩니다(참조: [RFC 3339, 섹션 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | 문자열 |
 | 날짜 시간 | dateTime |
 | 시간대 없는 날짜 시간 | dateTimeOnly |
 | epoch의 정수 값(밀리초) | 정수 |

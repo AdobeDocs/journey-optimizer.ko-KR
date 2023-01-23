@@ -3,12 +3,13 @@ product: journey optimizer
 title: sort
 description: 함수 정렬에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 정렬, 함수, 표현식, 여정
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '152'
 ht-degree: 8%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 8%
 | 매개 변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 정렬할 목록입니다. listObject의 경우 필드 참조여야 합니다. |
-| keyAttributeName | string | 이 매개 변수는 listObject에만 사용됩니다. 지정된 목록의 개체에 있는 속성 이름이 정렬 키로 사용됩니다. |
+| keyAttributeName | 문자열 | 이 매개 변수는 listObject에만 사용됩니다. 지정된 목록의 개체에 있는 속성 이름이 정렬 키로 사용됩니다. |
 | sortingOrder | 부울 | 오름차순(true) 또는 내림차순(false) |
 
 ## 서명 및 반환된 형식

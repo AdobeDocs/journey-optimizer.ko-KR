@@ -7,8 +7,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 활동, 조건, 캔버스, 여정
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 7%
@@ -60,7 +61,7 @@ ht-degree: 7%
 
 ![](assets/journey64.png)
 
-를 사용 중이라면 [Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;} 세그먼트를 만들어 여정 조건에서 활용할 수 있습니다. 을(를) 참조하십시오. [조건에서 세그먼트 사용](../building-journeys/condition-activity.md#using-a-segment).
+를 사용 중이라면 [Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} 세그먼트를 만들기 위해 여정 조건에서 세그먼트를 활용할 수 있습니다. 을(를) 참조하십시오. [조건에서 세그먼트 사용](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -161,4 +162,4 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >이 권한이 있는 개인만 **실현** 및 **기존** 세그먼트 기여도 상태는 세그먼트의 구성원으로 간주됩니다. 세그먼트 평가 방법에 대한 자세한 내용은 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >이 권한이 있는 개인만 **실현** 및 **기존** 세그먼트 기여도 상태는 세그먼트의 구성원으로 간주됩니다. 세그먼트 평가 방법에 대한 자세한 내용은 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

@@ -4,12 +4,13 @@ product: journey optimizer
 title: 컬렉션 관리 기능
 description: 컬렉션 관리 기능의 데이터 유형에 대해 알아봅니다
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 쿼리, 컬렉션, 함수, 페이로드, 여정
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '605'
 ht-degree: 2%
 
 ---

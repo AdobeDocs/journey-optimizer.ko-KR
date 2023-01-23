@@ -7,17 +7,18 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 게재 기능, 여정, 사용 사례, 이메일, 평판
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '271'
 ht-degree: 3%
 
 ---
 
 # 사용 사례: 게재 강화{#use-case-ramp-up-your-deliveries}
 
-최근 다른 이메일 서비스 공급자, IP 주소 또는 이메일 도메인 또는 하위 도메인으로 이동한 경우, 발신자로서의 평판을 설정해야 합니다. 게재가 차단되거나 수신자 사서함의 스팸 폴더로 이동될 수 있습니다. IP 온난화를 통해 이메일 평판을 높이는 방법을 알아보십시오 [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target=&quot;_blank&quot;}.
+최근 다른 이메일 서비스 공급자, IP 주소 또는 이메일 도메인 또는 하위 도메인으로 이동한 경우, 발신자로서의 평판을 설정해야 합니다. 게재가 차단되거나 수신자 사서함의 스팸 폴더로 이동될 수 있습니다. IP 온난화를 통해 이메일 평판을 높이는 방법을 알아보십시오 [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
 
 IP를 가열하기 위해 게재 수를 점진적으로 늘릴 수 있습니다. 자세한 내용 [Journey Optimizer에서 게재 기능 최적화](../reports/deliverability.md).
 
