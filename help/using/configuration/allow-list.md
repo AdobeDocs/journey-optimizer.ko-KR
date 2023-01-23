@@ -7,10 +7,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 허용 목록, 목록, 안전, 구성
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1034'
 ht-degree: 2%
 
 ---
@@ -141,7 +142,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >32-126 사이의 모든 ASCII 문자는 **[!UICONTROL 이유]** 필드. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
+   >32-126 사이의 모든 ASCII 문자는 **[!UICONTROL 이유]** 필드. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 예.
 
 1. **[!UICONTROL 제출을 클릭합니다]**.
 
@@ -153,7 +154,7 @@ ht-degree: 2%
 
 다음을 수행할 수 있습니다 **추가**, **삭제** 및 **Get** 작업.
 
-에서 API 호출을 작성하는 방법에 대해 자세히 알아보십시오 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target=&quot;_blank&quot;} 참조 설명서입니다.
+에서 API 호출을 작성하는 방법에 대해 자세히 알아보십시오 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 참조 설명서.
 
 ## 허용 목록 논리 {#logic}
 
@@ -180,7 +181,7 @@ ht-degree: 2%
 
 ## 제외 보고 {#reporting}
 
-허용 목록이 활성화되면 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;} 를 사용하여 아래 API를 호출할 수 있습니다.
+허용 목록이 활성화되면 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} 아래에 API를 호출하십시오.
 
 를 가져오려면 **이메일 수** 수신자가 허용 목록에 없어서 전송되지 않은 경우 다음 쿼리를 사용하십시오.
 

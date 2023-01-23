@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 캠페인 시작
-description: 에서 캠페인에 대해 자세히 알아보십시오 [!DNL Journey Optimizer]
+description: Journey Optimizer의 캠페인에 대해 자세히 알아보기
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: campaign, 방법 , 시작, 최적기
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '406'
 ht-degree: 12%
 
 ---
@@ -41,13 +42,13 @@ Journey Optimizer에서 첫 번째 캠페인을 만들기 전에 다음 사전 �
 
 1. **적절한 권한이 필요합니다**. 캠페인은 캠페인 관련 액세스 권한이 있는 사용자만 사용할 수 있습니다 **[!UICONTROL 제품 프로필]** 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 뷰어와 같은.
 
-   캠페인에 액세스할 수 없는 경우 권한을 확장해야 합니다. 액세스 권한이 있는 경우 [Adobe Admin Console](https://adminconsole.adobe.com/)조직에 대해 {target=&quot;_blank&quot;}에서 아래 단계를 수행하십시오. 없는 경우 Journey Optimizer 관리자에게 문의하십시오.
+   캠페인에 액세스할 수 없는 경우 권한을 확장해야 합니다. 액세스 권한이 있는 경우 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} 조직의 경우 아래 절차를 따르십시오. 없는 경우 Journey Optimizer 관리자에게 문의하십시오.
 
    +++캠페인 권한을 할당하는 방법 알아보기
 
    해당 **[!UICONTROL 제품 프로필]** 사용자에게:
 
-   1. From [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}, [!DNL Adobe Experience Platform] 제품.
+   1. From [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}에서 을(를) 선택합니다. [!DNL Adobe Experience Platform] 제품.
 
    1. 다음 위치로 이동합니다. **[!UICONTROL 제품 프로필]** 탭에서 기본 제공 캠페인 관련 항목 중 하나를 선택합니다 **[!UICONTROL 제품 프로필]**: 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 또는 캠페인 뷰어.
 

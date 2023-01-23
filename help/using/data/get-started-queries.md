@@ -6,10 +6,11 @@ description: Adobe Journey Optimizer에서 쿼리를 만드는 방법을 알아�
 feature: Schemas
 role: User
 level: Beginner
+keywords: 쿼리, 플랫폼, 데이터, 탐색
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '120'
 ht-degree: 12%
 
 ---
@@ -22,9 +23,9 @@ ht-degree: 12%
 
 ![](assets/queries-home.png)
 
-에서 쿼리 편집기를 사용하는 방법을 알아봅니다. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}.
+에서 쿼리 편집기를 사용하는 방법을 알아봅니다. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target="_blank"}.
 
 **참조 -**
 
-* [Query Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target=&quot;_blank&quot;}
-* [쿼리 서비스 개요 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ko-KR){target=&quot;_blank&quot;}
+* [Query Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"}
+* [쿼리 서비스 개요 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ko-KR){target="_blank"}

@@ -2,11 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: API를 사용하여 캠페인 트리거
-description: 을 사용하여 캠페인을 트리거하는 방법 알아보기 [!DNL Journey Optimizer] API
+description: Journey Optimizer API를 사용하여 캠페인을 트리거하는 방법을 알아봅니다
+topic: Content Management
+role: Developer, Admin
+level: Intermediate, Experienced
+keywords: 캠페인, API 트리거됨, REST, 최적화 프로그램, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '807'
 ht-degree: 3%
 
 ---

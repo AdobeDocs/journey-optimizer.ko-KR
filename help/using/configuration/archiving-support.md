@@ -7,11 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 아카이브, 메시지, HIPAA, BCC, 이메일
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 43137871e8f45e05c6fe00c51bc3c9847fabd0da
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 3%
+source-wordcount: '1133'
+ht-degree: 2%
 
 ---
 
@@ -113,7 +114,7 @@ GDPR과 같은 규정에서는 데이터 주체가 언제든지 동의를 수정
 
 >[!NOTE]
 >
->개인 정보 관리에 대한 자세한 내용 및 해당 규정은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko){target=&quot;_blank&quot;}를 참조하세요.
+>개인 정보 관리 및 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko){target="_blank"}.
 
 ### 숨은 참조 보고 데이터 {#bcc-reporting}
 
@@ -123,7 +124,7 @@ GDPR과 같은 규정에서는 데이터 주체가 언제든지 동의를 수정
 
 ![](assets/preset-bcc-dataset.png)
 
-이 데이터 세트에 대해 쿼리를 실행하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}. 액세스하려면 다음을 선택합니다 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 쿼리]** 을(를) 클릭합니다. **[!UICONTROL 쿼리 만들기]**. [자세히 알아보기](../data/get-started-queries.md)
+이 데이터 세트에 대해 쿼리를 실행하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. 액세스하려면 다음을 선택합니다 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 쿼리]** 을(를) 클릭합니다. **[!UICONTROL 쿼리 만들기]**. [자세히 알아보기](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 

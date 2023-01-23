@@ -7,10 +7,11 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 억제, 목록, 바운스, 이메일, 최적기
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1294'
 ht-degree: 1%
 
 ---
@@ -195,7 +196,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >32-126 사이의 모든 ASCII 문자는 **[!UICONTROL 이유]** 필드. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
+   >32-126 사이의 모든 ASCII 문자는 **[!UICONTROL 이유]** 필드. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 예.
 
 1. **[!UICONTROL 제출을 클릭합니다]**.
 
@@ -228,7 +229,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >32-126 사이의 모든 ASCII 문자는 **댓글** 열. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)예를 들어 {target=&quot;_blank&quot;} 입니다.
+   >32-126 사이의 모든 ASCII 문자는 **댓글** 열. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 예.
 
 1. 완료되면 CSV 파일을 끌어다 놓은 다음 를 클릭합니다 **[!UICONTROL 제출]**.
 

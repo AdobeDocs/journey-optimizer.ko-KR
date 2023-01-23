@@ -7,13 +7,14 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 구성, 실험, 보고, 최적기
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 29%
+source-wordcount: '719'
+ht-degree: 23%
 
 ---
 
@@ -46,11 +47,11 @@ ht-degree: 29%
 ## 전제 조건
 
 
-보고 구성에 데이터 세트를 추가하기 전에 해당 데이터 세트를 만들어야 합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#create){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
+보고 구성에 데이터 세트를 추가하기 전에 해당 데이터 세트를 만들어야 합니다. 에서 방법 알아보기 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#create){target="_blank"}.
 
 * 이벤트 유형 데이터 세트만 추가할 수 있습니다.
 
-* 이러한 데이터 세트는 다음 중 하나 이상을 포함해야 합니다 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target=&quot;_blank&quot;}: **애플리케이션 세부 정보**, **상거래 세부 사항**, **웹 세부 사항**.
+* 이러한 데이터 세트는 다음 중 하나 이상을 포함해야 합니다 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}: **애플리케이션 세부 정보**, **상거래 세부 사항**, **웹 세부 사항**.
 
    >[!NOTE]
    >
@@ -66,7 +67,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->[XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target=&quot;_blank&quot;}에서 XDM 스키마 및 필드 그룹에 대한 자세한 내용을 알아보세요.
+>XDM 스키마 및 필드 그룹의 [XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target="_blank"}.
 
 ## 각 필드 그룹에 해당하는 목표 {#objective-list}
 
@@ -98,11 +99,11 @@ ht-degree: 29%
 
    >[!CAUTION]
    >
-   >지원되는 이벤트 유형 데이터 세트 중 하나 이상을 포함해야 하는 이벤트 유형 데이터 세트만 선택할 수 있습니다 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target=&quot;_blank&quot;}: **애플리케이션 세부 정보**, **상거래 세부 사항**, **웹 세부 사항**. 해당 기준과 일치하지 않는 데이터 세트를 선택하면 변경 사항을 저장할 수 없습니다.
+   >지원되는 이벤트 유형 데이터 세트 중 하나 이상을 포함해야 하는 이벤트 유형 데이터 세트만 선택할 수 있습니다 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}: **애플리케이션 세부 정보**, **상거래 세부 사항**, **웹 세부 사항**. 해당 기준과 일치하지 않는 데이터 세트를 선택하면 변경 사항을 저장할 수 없습니다.
 
    ![](assets/reporting-config-datasets.png)
 
-   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko){target=&quot;_blank&quot;}에서 데이터 세트에 대한 자세한 내용을 알아보세요.
+   의 데이터 세트에 대해 자세히 알아보십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko){target="_blank"}.
 
 1. 에서 **[!UICONTROL 프로필 ID]** 드롭다운 목록에서 보고서에서 각 프로필을 식별하는 데 사용할 데이터 세트 필드 속성을 선택합니다.
 
@@ -116,7 +117,7 @@ ht-degree: 29%
 
    ![](assets/reporting-config-namespace.png)
 
-   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko){target=&quot;_blank&quot;}에서 네임스페이스에 대한 자세한 내용을 알아보세요.
+   의 네임스페이스에 대해 자세히 알아보십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko){target="_blank"}.
 
 1. 변경 사항을 저장하여 선택한 데이터 세트를 보고 구성 목록에 추가합니다.
 
