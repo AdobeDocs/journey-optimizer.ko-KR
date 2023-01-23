@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 87%
+source-wordcount: '1037'
+ht-degree: 81%
 
 ---
 
@@ -59,7 +60,7 @@ ht-degree: 87%
 
 ### 옵트아웃에 대한 API 호출 구현 {#opt-out-api}
 
-수신자가 랜딩 페이지에서 선택한 항목을 제출할 때 옵트아웃하도록 하려면 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}를 통해 **구독 API 호출**&#x200B;을 구현하여 해당 프로필의 기본 설정을 업데이트해야 합니다.
+수신자가 랜딩 페이지에서 선택한 항목을 제출할 때 옵트아웃하도록 하려면 **구독 API 호출** through [Adobe Developer](https://developer.adobe.com){target="_blank"} 해당 프로필의 환경 설정을 업데이트하려면
 
 이 POST 호출은 다음과 같습니다.
 
@@ -97,7 +98,7 @@ ht-degree: 87%
 }
 ```
 
-[!DNL Journey Optimizer]은(는) 이러한 매개 변수를 사용하여 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API 호출을 통해 해당 프로필의 선택을 업데이트합니다.
+[!DNL Journey Optimizer] 에서는 다음 매개 변수를 사용하여 [Adobe Developer](https://developer.adobe.com){target="_blank"} API 호출.
 
 ### 구독 취소 링크가 있는 메시지 보내기 {#send-message-unsubscribe-link}
 
@@ -117,7 +118,7 @@ ht-degree: 87%
 
    따라서 이 사용자는 다시 구독하지 않으면 브랜드에서 보내는 커뮤니케이션을 받지 않습니다.
 
-1. 해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
+1. 해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 
@@ -185,4 +186,4 @@ ht-degree: 87%
    >
    >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 표시되지 않습니다.
 
-* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 자세한 내용을 알아보세요.
+* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}.

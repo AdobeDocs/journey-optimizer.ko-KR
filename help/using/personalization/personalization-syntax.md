@@ -7,8 +7,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: 표현식, 편집기, 구문, 개인화
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -29,7 +30,7 @@ Handlebars 구문에 대한 전체 설명은 다음을 참조하십시오 [Handl
 여기에서
 
 * `profile` 는 네임스페이스입니다.
-* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
+* `person.name` 는 속성으로 구성된 토큰입니다. 특성 구조는 Adobe Experience Platform XDM 스키마에 정의되어 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}.
 
 ## 구문 일반 규칙 {#general-rules}
 
@@ -51,7 +52,7 @@ Handlebars에서 {{expression}} is **HTML 이스케이프 처리**. 표현식에
 
 ## 프로필
 
-이 네임스페이스를 사용하면 [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
+이 네임스페이스를 사용하면 [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}.
 
 스키마에서 참조되기 전에 속성을 정의해야 합니다 [!DNL Journey Optimizer] 개인화 블록.
 

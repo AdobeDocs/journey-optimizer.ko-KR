@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: 스톡, 이미지, 통합, 사진
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
 
 다음 [!DNL Adobe Stock] 및 [!DNL Adobe Journey Optimizer] 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선스 및 저장할 수 있습니다.
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}에서는 고품질로 큐레이팅된 로열티가 없는 수백만 장의 사진, 비디오, 일러스트레이션 및 벡터 그래픽에 액세스할 수 있습니다. 신용 팩을 구매하여 자산을 라이선스를 부여하거나 필요한 자산에 대해 하나의 Standard 또는 Extended 라이선스만 구매하도록 선택할 수 있습니다. Adobe Stock에서는 자산을 무료로 수집할 수도 있습니다.
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} 고품질로 큐레이팅된 로열티가 없는 수백만 장의 사진, 비디오, 일러스트레이션 및 벡터 그래픽에 액세스할 수 있습니다. 신용 팩을 구매하여 자산을 라이선스를 부여하거나 필요한 자산에 대해 하나의 Standard 또는 Extended 라이선스만 구매하도록 선택할 수 있습니다. Adobe Stock에서는 자산을 무료로 수집할 수도 있습니다.
 
 사용 [!DNL Adobe Journey Optimizer]에서 직접 이메일에 이미지를 업로드할 수 있습니다. [!DNL Adobe Stock] 그리고 여기에 **[!UICONTROL 자산]** 폴더를 **[!UICONTROL Adobe Stock 사진 찾기]** 선택 사항입니다. 또한 **[!UICONTROL 유사한 스톡 사진 찾기]** 선택 사항은 게재에 사용되는 자산의 콘텐츠, 색상 및 컴포지션과 일치하는 이미지를 찾는 데 도움이 됩니다.
 
@@ -29,7 +30,7 @@ ht-degree: 1%
 
 다음 **[!UICONTROL Adobe Stock 사진 찾기]** 및 **[!UICONTROL 유사한 이미지 찾기]** AEM Assets Essentials 제품 프로필에 액세스할 수 있는 사용자는 옵션을 사용할 수 있습니다.
 
-자세한 내용은 [자산 필수 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}.
+자세한 내용은 [자산 필수 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## 에서 이미지 삽입 [!DNL Adobe Stock] {#add-stock-image}
 
@@ -87,7 +88,7 @@ ht-degree: 1%
 
    이 구매는 Adobe Stock 플랜 또는 구독에 따라 다릅니다. Adobe Stock 계정이 여러 개 있는 경우 마지막으로 사용한 주식 ID로 리디렉션됩니다. 이 경우, 자산에 라이선스를 부여하기 전에 올바른 계정에 로그인했는지 확인하십시오.
 
-   의 Adobe Stock 계획 및 가격에 대해 자세히 알아보십시오 [Adobe Stock 설명서](https://stock.adobe.com/plans){target=&quot;_blank&quot;}.
+   의 Adobe Stock 계획 및 가격에 대해 자세히 알아보십시오 [Adobe Stock 설명서](https://stock.adobe.com/plans){target="_blank"}.
 
    >[!WARNING]
    > 허가되지 않은 이미지가 포함된 이메일이 전송되면 이미지가 라이센스가 없는 양식에 워터마크를 유지합니다.
@@ -102,5 +103,5 @@ ht-degree: 1%
 
 * [Journey Optimizer의 이메일 디자인](get-started-email-design.md)
 * [전자 메일 디자인을 위한 구성 요소 설정](content-components.md)
-* [Adobe Stock 시작](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}.
+* [Adobe Stock 시작](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 

@@ -5,10 +5,11 @@ title: 랜딩 페이지 사전 설정 정의
 description: Journey Optimizer에서 랜딩 페이지를 만들고 사용하도록 환경을 구성하는 방법을 알아봅니다
 role: Admin
 level: Intermediate
+keywords: 랜딩, 랜딩 페이지, 구성, 환경, 하위 도메인, 사전 설정
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '347'
 ht-degree: 5%
 
 ---

@@ -7,11 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: assets, essentials, experience manager, 통합
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 10%
+source-wordcount: '472'
+ht-degree: 7%
 
 ---
 
@@ -23,22 +24,22 @@ ht-degree: 10%
 
 [!DNL Adobe Experience Manager Assets Essentials] 는 크리에이티브 시스템을 확장하고 경험 전달을 위해 디지털 자산을 통합하는 공동 및 중앙 집중식 자산 작업 공간입니다. 승인된 프로덕션 자산을 쉽게 구성, 태그 지정 및 찾아 팀 간에 브랜드 일관성을 유지할 수 있습니다. 직관적인 사용자 경험을 통해 [!DNL Assets Essentials] 즉시 Adobe 크리에이티브 및 Experience Cloud 앱에서 자산을 공유할 수 있습니다.
 
-추가 정보 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
+추가 정보 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 [!DNL Adobe Experience Manager Assets Essentials] 는 [!DNL Adobe Journey Optimizer] 왼쪽 메뉴 사용 **[!UICONTROL 자산]** 섹션을 참조하십시오. 필요할 때 자산 및 폴더에 액세스할 수도 있습니다 [이메일 콘텐츠 디자인](get-started-email-design.md).
 
 ## 전제 조건{#assets-prerequisites}
 
-사용하기 전 [!DNL Adobe Experience Manager Assets Essentials]를 채울 때는 사용자를 **Assets Essentials 소비자 사용자** 또는/and **Assets Essentials 사용자** 제품 프로필. 자세한 내용 [Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target=&quot;_blank&quot;}.
+사용하기 전 [!DNL Adobe Experience Manager Assets Essentials]를 채울 때는 사용자를 **Assets Essentials 소비자 사용자** 또는/and **Assets Essentials 사용자** 제품 프로필. 자세한 내용 [Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"}.
 
 >[!NOTE]
->2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target=&quot;_blank&quot;} 섹션에서 자세히 알아보세요.
+>2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. 자세한 내용은 [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"} 섹션을 참조하십시오.
 
 ## 자산 업로드 및 삽입{#add-asset}
 
 파일을 로 가져오려면 [!DNL Assets Essentials]로 지정하는 경우, 먼저 해당 폴더가 저장될 폴더를 찾아보거나 만들어야 합니다. 그러면 전자 메일 콘텐츠에 삽입할 수 있습니다.
 
-자산을 업로드하는 방법에 대한 자세한 내용은 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
+자산을 업로드하는 방법에 대한 자세한 내용은 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target="_blank"}.
 
 1. From [!DNL Adobe Journey Optimizer] 홈 페이지에서 **[!UICONTROL 자산]** 아래의 탭 **[!UICONTROL 콘텐츠 관리]** 액세스 메뉴 [!DNL Assets Essentials].
 
@@ -64,7 +65,7 @@ ht-degree: 10%
 
 1. 이제 자산이 업로드되면 이메일 디자이너를 통해 메시지 중 하나에 자산을 삽입할 수 있습니다.
 
-   자산을 **편집** 모드 [!DNL Assets Essentials]. [자세히 보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
+   자산을 **편집** 모드 [!DNL Assets Essentials]. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
