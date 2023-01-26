@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 데이터, 관리, 플랫폼
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
+source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,11 @@ ht-degree: 1%
 <tr style="border: 0;">
   <td>
     <div><img alt="정책" src="assets/do-not-localize/policy.png" /> 
-    <br>합의된 타임라인 또는 정책을 기반으로 삭제 - 데이터 삭제는 데이터 보호의 중요한 측면이며 모든 데이터 거버넌스 프로세스의 주요 단계입니다. [!DNL Adobe Journey Optimizer] 필요한 것보다 더 많은 데이터를 생성할 수 있습니다. 또한 유틸리티 또는 규정 때문에 데이터 세트에 필요한 기간 이후에 발생하는 사항을 최대한 고려하려고 합니다. 필요한 컨트롤은 지정된 시간에 데이터를 삭제하는 것입니다. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">Adobe Experience Platform 설명서에서 데이터 위생에 대해 자세히 알아보십시오</a></div>
+    <br>합의된 타임라인 또는 정책을 기반으로 삭제 - 데이터 삭제는 데이터 보호의 중요한 측면이며 모든 데이터 거버넌스 프로세스의 주요 단계입니다. [!DNL Adobe Journey Optimizer] 필요한 것보다 더 많은 데이터를 생성할 수 있습니다. 또한 유틸리티 또는 규정 때문에 데이터 세트에 필요한 기간 이후에 발생하는 사항을 최대한 고려하려고 합니다. 필요한 컨트롤은 지정된 시간에 데이터를 삭제하는 것입니다. 
+    </div>
+      <div>
+     <a href="../privacy/data-hygiene.md">자세히 알아보기</a></div>
+    </div>
   </td>
 </tr>
 </table>
