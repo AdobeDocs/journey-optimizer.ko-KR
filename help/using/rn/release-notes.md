@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '461'
 ht-degree: 17%
 
 ---
@@ -36,10 +36,10 @@ ht-degree: 17%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform은 소비자 레코드 및 데이터 세트의 프로그래밍 방식 삭제를 통해 저장된 데이터를 관리할 수 있도록 해주는 데이터 위생 기능 세트를 제공합니다. 이제 Adobe Journey Optimizer에서 이 기능을 사용할 수 있습니다. </p>
+<p>Adobe Experience Platform은 소비자 레코드 및 데이터 세트의 프로그래밍 방식으로 삭제를 통해 저장된 데이터를 관리할 수 있도록 해주는 데이터 위생 기능 세트를 제공합니다. 이제 Adobe Journey Optimizer에서 이 기능을 사용할 수 있습니다. </p>
 <p>데이터 저장소를 관리하여 정보가 예상대로 사용되고 잘못된 데이터를 수정해야 할 때 가 업데이트되며, 조직 정책이 필요하다고 인정하는 경우 가 삭제됩니다.</p>
-<p><strong>주의</strong> - 데이터 위생 기능은 현재 Healthcare Shield 추가 기능을 구입한 조직에서만 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../privacy/data-hygiene.md">자세한 설명서</a>를 참조하세요.
+<p><strong>주의</strong> - 데이터 위생 기능은 현재 <strong>의료 보호</strong> 및 <strong>개인 정보 및 보안 차단</strong> 추가 기능 제공.</p><p>자세한 내용은 <a href="../privacy/data-hygiene.md">자세한 설명서</a>를 참조하세요.
+
 </td>
 </tr>
 </tbody>
