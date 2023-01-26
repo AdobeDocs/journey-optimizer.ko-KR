@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 세그먼트, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1342'
 ht-degree: 11%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 11%
 
    ![](assets/read-segment-copy.png)
 
-1. 에서 **[!UICONTROL 네임스페이스]** 필드에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
+1. 에서 **[!UICONTROL 네임스페이스]** 필드에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. 기본적으로 필드는 마지막으로 사용한 네임스페이스로 미리 채워집니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >

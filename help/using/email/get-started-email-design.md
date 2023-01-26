@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 이메일, 디자인, 재고, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 21%
+source-wordcount: '317'
+ht-degree: 18%
 
 ---
 
@@ -52,6 +52,10 @@ ht-degree: 21%
    * **기존 콘텐츠 선택** 기본 제공 또는 사용자 지정 템플릿 목록에서 을 선택합니다. 이메일 템플릿으로 작업하는 방법 알아보기 [이 섹션](email-templates.md).
 
    ![](assets/email_designer_create_options.png)
+
+1. 전자 메일 콘텐츠를 정의하고 개인화하면 콘텐츠를 내보내 유효성 검사를 하거나 나중에 사용할 수 있습니다. 클릭 **[!UICONTROL 내보내기 HTML]** HTML 및 자산을 포함하는 zip 파일을 컴퓨터에 저장하려면 다음을 수행하십시오.
+
+   ![](assets/email_designer_export.png)
 
 ## 방법 비디오 {#video}
 

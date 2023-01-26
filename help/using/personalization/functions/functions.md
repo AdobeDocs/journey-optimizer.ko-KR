@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1805'
 ht-degree: 3%
 
 ---
@@ -146,7 +146,10 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">절대</a></td><td>이 함수는 숫자를 해당 절대값으로 변환합니다</td>
+        <td><a href="math.md#absolute">절대</a></td><td>이 함수는 숫자를 해당 언어에 맞는 표현으로 형식을 지정합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#format-number">서식 번호</a></td><td>이 함수는 숫자를 해당 언어에 맞는 표현으로 형식을 지정합니다.</td>
     </tr>
     <tr>
         <td><a href="math.md#random">Random</a></td><td>이 함수는 0과 1 사이의 임의 값을 반환합니다</td>
@@ -158,10 +161,16 @@ ht-degree: 3%
         <td><a href="math.md#round-up">라운드 업</a></td><td>이 함수는 숫자를 반올림합니다</td>
     </tr>
     <tr>
+    <td><a href="math.md#to-hex-string">16진수 문자열</a></td><td>숫자를 16진수 문자열로 변환합니다.</td>
+    </tr>
+    <tr>
         <td><a href="math.md#to-percentage">백분율</a></td><td>이 함수는 숫자를 백분율로 변환합니다</td>
     </tr>
     <tr>
         <td><a href="math.md#to-precision">정밀도</a></td><td>이 함수는 숫자를 필수 정밀도로 변환합니다</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#to-string">대상 문자열</a></td><td>이 함수는 숫자를 해당 문자열 표현으로 변환합니다. </td>
     </tr>
 </table>
 
@@ -181,6 +190,9 @@ ht-degree: 3%
 <table>
     <tr>
         <td><a href="string.md#camelCase">카멜 사례</a></td><td>이 함수는 문자열의 각 단어의 첫 글자를 대문자로 사용하는 데 사용됩니다</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#char-code-at">의 문자 코드</a></td><td>이 함수는 JavaScript의 charCodeAt 함수와 같은 문자의 ASCII 값을 반환합니다</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Concat</a></td><td>이 함수는 두 문자열을 하나로 결합하는 데 사용됩니다</td>
@@ -212,6 +224,9 @@ ht-degree: 3%
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">이메일 도메인 추출</a></td><td>이 함수는 이메일 주소의 도메인을 추출하는 데 사용됩니다</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#format-currency">통화 형식 지정</a></td><td>이 함수는 두 번째 인수에 문자열로 전달된 로케일에 따라 모든 숫자를 해당 언어 구분 통화 표현으로 변환합니다</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">URL 호스트 가져오기</a></td><td>이 함수는 url 호스트를 가져오는 데 사용됩니다.</td>
@@ -280,7 +295,7 @@ ht-degree: 3%
         <td><a href="string.md#startsWith">다음으로 시작</a></td><td>이 함수는 문자열이 지정된 하위 문자열로 시작하는지 여부를 확인하는 데 사용됩니다</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">문자열-날짜</a></td><td>이 함수는 문자열을 날짜로 변환하는 데 사용됩니다. 잘못된 입력에 대한 출력으로 epoch 날짜를 반환합니다.</td>
+        <td><a href="string.md#string-to-date">문자열-날짜</a></td><td>이 함수는 문자열 값을 날짜-시간 값으로 변환합니다</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">문자열을 정수로</a></td><td>이 함수 문자열 값을 정수 값으로 변환합니다.</td>

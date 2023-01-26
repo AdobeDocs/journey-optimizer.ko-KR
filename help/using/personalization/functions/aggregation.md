@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 8%
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 다음 `average` 함수는 배열 내에서 선택한 모든 값의 산술 평균을 반환합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= average(array) %}
@@ -39,7 +39,7 @@ ht-degree: 8%
 
 다음 `count` 함수는 지정된 배열 내의 요소 수를 반환합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= count(array) %}
@@ -57,7 +57,7 @@ ht-degree: 8%
 
 다음 `max` 함수는 배열 내에서 선택한 모든 값 중 가장 큰 값을 반환합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= max(array) %}
@@ -75,7 +75,7 @@ ht-degree: 8%
 
 다음 `min` 함수는 배열 내에서 선택한 모든 값 중 가장 작은 값을 반환합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= min(array) %}
@@ -93,7 +93,7 @@ ht-degree: 8%
 
 다음 `sum` 함수는 배열 내에서 선택한 모든 값의 합계를 반환합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= sum(array) %}

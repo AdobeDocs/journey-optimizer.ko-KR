@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 8%
@@ -167,13 +167,15 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따�
 
 1. Adobe은 SSL CDN URL 유효성 검사 레코드를 생성합니다. 이 유효성 검사 레코드를 호스팅 플랫폼에 복사합니다. 호스팅 솔루션에서 이 레코드를 올바르게 만든 경우, &quot;확인...&quot; 상자를 선택한 다음 를 클릭합니다. **[!UICONTROL 제출]**.
 
-   ![](assets/subdomain-cdn-url-validation.png)
+   <!--![](assets/subdomain-cdn-url-validation.png)-->
 
    >[!NOTE]
    >
    >유효성 검사 레코드를 만들고 나중에 를 사용하여 하위 도메인 구성을 제출할 수도 있습니다. **[!UICONTROL 초안으로 저장]** 버튼을 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 하위 도메인 위임을 다시 시작할 수 있습니다.
 
 1. CNAME 하위 도메인 위임이 제출되면 하위 도메인이 와 함께 목록에 표시됩니다. **[!UICONTROL 처리 중]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](about-subdomain-delegation.md#access-delegated-subdomains).
+
+   ![](assets/subdomain-cname-processing.png)
 
    해당 하위 도메인을 사용하여 메시지를 보내려면 Adobe이 필요한 검사를 수행할 때까지 기다려야 합니다. 이 경우 일반적으로 2~3시간이 소요됩니다. 자세한 내용은 [이 섹션](#subdomain-validation)을 참조하십시오.
 

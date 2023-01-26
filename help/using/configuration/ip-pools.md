@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP, 풀, 그룹, 하위 도메인, 게재 기능
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '717'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,18 @@ IP 풀을 생성하려면 다음 단계를 수행합니다.
    >[!NOTE]
    >
    >인스턴스와 함께 제공된 모든 IP 주소를 목록에서 사용할 수 있습니다.
+
+IP를 선택하면 IP와 연결된 PTR 레코드를 목록에서 볼 수 있습니다. 이를 통해 IP 풀을 생성할 때 각 IP에 대한 브랜딩 정보를 확인하고 동일한 브랜딩 정보로 IP를 선택할 수 있습니다. [PTR 레코드에 대한 자세한 정보](ptr-records.md)
+
+![](assets/ip-pool-ptr-record.png)
+
+>[!NOTE]
+>
+>IP에 대해 구성된 PTR 레코드가 없으면 해당 IP를 선택할 수 없습니다. 해당 IP의 PTR 레코드를 구성하려면 Adobe 담당자에게 문의하십시오.
+
+IP 풀이 만들어지면 IP 풀 드롭다운 목록 아래에 표시된 IP 주소를 마우스로 가리키면 PTR 정보가 표시됩니다.
+
+![](assets/ip-pool-ptr-record-tooltip.png)
 
 이제 IP 풀이 생성되고 목록에 표시됩니다. 속성을 선택하여 해당 속성에 액세스하고 관련 채널 서피스(즉, 메시지 사전 설정)를 표시할 수 있습니다. 채널 서피스를 IP 풀과 연결하는 방법에 대한 자세한 내용은 [이 섹션](channel-surfaces.md).
 

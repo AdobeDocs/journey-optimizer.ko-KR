@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 캠페인, API 트리거됨, REST, 최적화 프로그램, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '817'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 3%
 API로 트리거되는 캠페인에 사용할 수 있는 채널은 이메일, SMS 및 푸시 메시지 입니다.
 
 ## API로 트리거된 캠페인 만들기 {#create}
+
+### 캠페인 구성 및 활성화 {#create-activate}
 
 API 트리거된 캠페인을 만드는 프로세스는 API 페이로드에서 수행되는 대상 선택을 제외하고 예약된 캠페인과 동일하게 유지됩니다. 캠페인을 만드는 방법에 대한 자세한 내용은 [이 섹션](create-campaign.md).
 
@@ -55,11 +57,23 @@ API로 트리거된 캠페인을 만들려면 다음 단계를 수행합니다.
 
    캠페인에 대한 특정 시작 및/또는 종료 날짜를 구성하는 경우 이러한 날짜 외부에서 실행되지 않으며, API에 의해 캠페인이 트리거되면 API 호출이 실패합니다.
 
-1. 에서 **[!UICONTROL cURL 요청]** 섹션, 검색 **[!UICONTROL 캠페인 ID]** 를 사용 중입니다.
+1. 클릭 **[!UICONTROL 활성화 검토]** 캠페인이 올바르게 구성되어 있는지 확인한 다음 활성화합니다.
+
+이제 API에서 캠페인을 실행할 준비가 되었습니다. [자세히 알아보기](#execute)
+
+### 캠페인 실행 {#execute}
+
+캠페인이 활성화되면 생성된 샘플 cURL 요청을 검색하고 API에 사용하여 페이로드를 빌드하고 캠페인을 트리거해야 합니다.
+
+1. 캠페인을 열고 샘플 요청을 복사하여 **[!UICONTROL cURL 요청]** 섹션을 참조하십시오.
 
    ![](assets/api-triggered-curl.png)
 
-1. 클릭 **[!UICONTROL 활성화 검토]** 캠페인이 올바르게 구성되어 있는지 확인한 다음 활성화합니다.
+1. 이 cURL 요청을 API에 사용하여 페이로드를 빌드하고 캠페인을 트리거합니다. 자세한 내용은 [대화형 메시지 실행 API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+   >[!NOTE]
+   >
+   >캠페인을 만들 때 특정 시작 및/또는 종료 날짜를 구성한 경우 이러한 날짜 외부에서 실행되지 않고 API 호출이 실패합니다.
 
 ## API로 트리거된 캠페인에서 컨텍스트 특성 사용 {#contextual}
 
@@ -82,16 +96,6 @@ API로 트리거되는 캠페인을 사용하여 API 페이로드에서 추가 �
 >다음 `context.system` 구문은 Adobe 내부 사용으로만 제한되며 컨텍스트 속성을 전달하는 데 사용해서는 안 됩니다.
 
 현재는 왼쪽 레일 메뉴에서 사용할 수 있는 상황별 속성이 없습니다. 에서는 확인이 수행되지 않고 속성을 개인화 표현식에 직접 입력해야 합니다. [!DNL Journey Optimizer].
-
-## 캠페인 실행 {#execute}
-
-API로 트리거된 캠페인을 실행하려면 먼저 해당 ID를 검색하고 API 페이로드에 전달해야 합니다. 이렇게 하려면 캠페인을 열고 ID를 **[!UICONTROL cURL 요청]** 섹션을 참조하십시오.
-
-![](assets/api-triggered-id.png)
-
-그런 다음 이 ID를 API 페이로드에 사용하여 캠페인을 트리거할 수 있습니다. 자세한 내용은 [대화형 메시지 실행 API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) 추가 정보.
-
-캠페인을 만들 때 특정 시작 및/또는 종료 날짜를 구성한 경우 이러한 날짜 외부에서 실행되지 않고 API 호출이 실패합니다.
 
 ## 캠페인 실행 시 프로필 만들기 {#profile-creation}
 

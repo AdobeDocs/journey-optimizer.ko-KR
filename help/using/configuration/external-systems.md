@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적기, 최대 가용량
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 3%
+source-wordcount: '1070'
+ht-degree: 2%
 
 ---
 
@@ -35,6 +35,10 @@ Journey Optimizer이 외부 API에 대한 호출을 실행하면 다음과 같�
 기본 제공 Capping API는 외부 시스템을 보호하는 데 도움이 되는 업스트림 기술 보호 기능을 제공합니다.
 
 외부 데이터 소스의 경우 초당 최대 호출 수는 15로 설정됩니다. 호출 수가 초당 15개를 초과하는 경우 나머지 호출은 무시됩니다. 비공개 외부 데이터 소스에 대해 이 제한을 늘릴 수 있습니다. 엔드포인트를 Adobe에 포함하려면에 허용 목록에 추가하다 문의하십시오. 이는 공용 외부 데이터 소스에는 사용할 수 없습니다.
+
+>[!NOTE]
+>
+> 데이터 소스가 데이터 소스에 사용된 끝점과 다른 끝점이 있는 사용자 지정 인증을 사용하는 경우 Adobe에 연락하여 해당 끝점도에 포함해야 허용 목록에 추가하다 합니다.
 
 사용자 지정 작업의 경우 외부 API의 용량을 평가해야 합니다. 예를 들어, Journey Optimizer이 초당 1000개의 호출을 전송하고 시스템이 초당 100개의 호출만 지원할 수 있는 경우 시스템이 포화되지 않도록 최대 가용량 규칙을 정의해야 합니다.
 

@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 억제, 목록, 바운스, 이메일, 최적기
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1350'
 ht-degree: 1%
 
 ---
@@ -249,9 +249,15 @@ ht-degree: 1%
 
 제출한 최신 업로드와 해당 상태가 표시됩니다.
 
-오류 보고서가 파일과 연결되어 있으면 다운로드하여 발생한 오류를 확인할 수 있습니다.
+* **[!UICONTROL 보류 중]**: 파일 업로드가 처리 중입니다.
+* **[!UICONTROL 오류]**: 기술 문제 또는 파일 형식 오류로 인해 파일 업로드 프로세스가 실패했습니다.
+* **[!UICONTROL 완료]**: 파일 업로드 프로세스가 완료되었습니다.
 
-![](assets/suppression-list-recent-uploads-error.png)
+업로드 중에 일부 주소가 올바른 형식이 아닌 경우, 이 주소가 [!DNL Journey Optimizer] 제외 목록.
+
+이 경우 업로드가 완료되면 보고서와 연결됩니다. 다운로드하여 발생한 오류를 확인할 수 있습니다<!-- and understand why they were not added to the suppression list-->.
+
+![](assets/suppression-list-recent-uploads-report.png)
 
 다음은 오류 보고서에서 찾을 수 있는 항목 유형의 예입니다.
 

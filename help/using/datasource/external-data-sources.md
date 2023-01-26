@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 외부, 소스, 데이터, 구성, 연결, 타사
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 73%
+source-wordcount: '1453'
+ht-degree: 71%
 
 ---
 
@@ -171,30 +171,67 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 사용자 지정 인증 데이터 소스에 대해 토큰의 캐시 기간을 변경할 수 있습니다. 아래는 사용자 지정 인증 페이로드의 예입니다. 캐시 기간은 &quot;cacheDuration&quot; 매개 변수에서 정의됩니다. 캐시에서 생성된 토큰의 보존 기간을 지정합니다. 단위는 밀리초, 초, 분, 시간, 일, 개월, 년일 수 있습니다.
 
+다음은 베어러 인증 유형의 예입니다.
+
 ```
-"authentication": {
-    "type":"customAuthorization",
-    "authorizationType":"Bearer",
-    "endpoint":"http://localhost:${port}/epsilon/oauth2/access_token",
-    "method":"POST",
+{
+  "authentication": {
+    "type": "customAuthorization",
+    "authorizationType": "Bearer",
+    "endpoint": "http://localhost:${port}/epsilon/oauth2/access_token",
+    "method": "POST",
     "headers": {
-        "Authorization":"Basic EncodeBase64(${epsilonClientId}:${epsilonClientSecret})"
-        },
+      "Authorization": "Basic EncodeBase64(<epsilon Client Id>:<epsilon Client Secret>)"
+    },
     "body": {
-        "bodyType":"form",
-        "bodyParams": {
-             "scope":"cn mail givenname uid employeeNumber",
-             "grant_type":"password",
-             "username":"${epsilonUserName}",
-             "password":"${epsilonUserPassword}"
-             }
-        },
-    "tokenInResponse":"json://access_token",
-    "cacheDuration":
-             { "duration":5, "timeUnit":"seconds" }
+      "bodyType": "form",
+      "bodyParams": {
+        "scope": "cn mail givenname uid employeeNumber",
+        "grant_type": "password",
+        "username": "<epsilon User Name>",
+        "password": "<epsilon User Password>"
+      }
+    },
+    "tokenInResponse": "json://access_token",
+    "cacheDuration": {
+      "duration": 5,
+      "timeUnit": "minutes"
     }
+  }
+}
 ```
 
 >[!NOTE]
 >
 >캐시 기간은 인증 종단점에 대한 너무 많은 호출을 방지하는 데 도움이 됩니다. 인증 토큰 유지가 서비스에서 캐시되므로 지속성이 없습니다. 서비스를 다시 시작하면 깨끗한 캐시로 시작됩니다. 기본적으로 캐시 기간은 1시간입니다. 사용자 지정 인증 페이로드에서 다른 유지 기간을 지정하여 적용할 수 있습니다.
+
+다음은 헤더 인증 유형의 예입니다.
+
+```
+{
+  "type": "customAuthorization",
+  "authorizationType": "header",
+  "tokenTarget": "x-auth-token",
+  "endpoint": "https://myapidomain.com/v2/user/login",
+  "method": "POST",
+  "headers": {
+    "x-retailer": "any value"
+  },
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "secret": "any value",
+      "username": "any value"
+    }
+  },
+  "tokenInResponse": "json://token"
+} 
+```
+
+다음은 로그인 API 호출의 응답의 예입니다.
+
+```
+{
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+}
+```

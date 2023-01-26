@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 스키마, XDM, 플랫폼, 스트리밍, 수집, 여정
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 3%
@@ -38,7 +38,7 @@ ht-degree: 3%
 
    ![](assets/schema3.png)
 
-* 이벤트의 제목을 식별할 ID 필드를 선언합니다. ID를 지정하지 않은 경우 ID 맵을 사용할 수 있습니다. 이러한 방법은 권장되지 않습니다.
+* 이벤트에서 개별 프로필을 식별하기 위한 ID 필드를 선언합니다. ID를 지정하지 않은 경우 ID 맵을 사용할 수 있습니다. 이러한 방법은 권장되지 않습니다.
 
    ![](assets/schema4.png)
 

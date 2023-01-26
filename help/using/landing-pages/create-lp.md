@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 만들기, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 2%
@@ -57,7 +57,7 @@ ht-degree: 2%
 >id="ajo_lp_access_management_labels"
 >title="랜딩 페이지에 레이블 지정"
 >abstract="중요한 디지털 자산을 보호하기 위해 레이블을 사용하여 랜딩 페이지에 대한 데이터 액세스를 관리하기 위한 권한을 정의할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="객체 수준 액세스 제어"
 
 랜딩 페이지를 만드는 단계는 다음과 같습니다.
 

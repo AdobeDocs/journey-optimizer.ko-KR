@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 93%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 [Adobe Experience Cloud](http://experience.adobe.com)에 연결하여 [!DNL Journey Optimizer]를 찾습니다.
 
-사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 공통됩니다. 자세한 내용은 [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ko#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}를 참조하십시오.
+사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 공통됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ko#adobe-experience-platform-ui-guide)를 참조하십시오.{target="_blank"}
 
-UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하십시오.
+사용자 인터페이스에서 사용할 수 있는 구성 요소 및 기능은 [권한](../administration/permissions.md) 그리고 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하십시오.
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 * **[!UICONTROL 쿼리]** - Adobe Experience Platform 쿼리 서비스를 사용하여 쿼리를 작성하여 실행하고, 이전에 실행한 쿼리를 보고, 조직 내에서 사용자가 저장한 쿼리에 액세스합니다. [자세히 보기](../data/get-started-queries.md)
 
-* **[!UICONTROL 모니터링]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko){target=&quot;_blank&quot;}
+* **[!UICONTROL 모니터링]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko){target="_blank"}
 
 **[!UICONTROL 연결]**
 
@@ -88,7 +88,7 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 
 * **[!UICONTROL 샌드박스]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. [자세히 보기](../administration/sandboxes.md)
 
-* **[!UICONTROL 경고]** - 사용자 인터페이스를 사용하면 Adobe Experience Platform Observability Insights에서 공개한 지표를 기반으로 받은 경고 내역을 볼 수 있습니다. 또한 UI에서 사용 가능한 경고 규칙을 보고, 활성화 및 비활성화할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko){target=&quot;_blank&quot;}
+* **[!UICONTROL 경고]** - 사용자 인터페이스를 사용하면 Adobe Experience Platform Observability Insights에서 공개한 지표를 기반으로 받은 경고 내역을 볼 수 있습니다. 또한 UI에서 사용 가능한 경고 규칙을 보고, 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko){target="_blank"}
 
 
 ## 제품 내 사용 사례 {#in-product-uc}
@@ -118,7 +118,7 @@ UI에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../adm
 * 색상 대비
 * 필수 필드 유효성 검사
 
-Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target=&quot;_blank&quot;}
+[추가 정보](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target="_blank"} Adobe Experience Platform 설명서에서 확인하십시오.
 
 [!DNL Journey Optimizer]에서는 다음과 같은 일반적 키보드 단축키를 사용할 수 있습니다.
 
@@ -130,7 +130,7 @@ Adobe Experience Platform 설명서에서 [자세히 알아보기](https://exper
 | 포커스에 있는 요소 선택 또는 지우기 | Enter 또는 스페이스바 |
 | 선택 취소, 창 축소 또는 대화 상자 닫기 | Esc |
 
-Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ko){target=&quot;_blank&quot;}
+[추가 정보](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ko){target="_blank"} Adobe Experience Platform 설명서에서 확인하십시오.
 
 Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있습니다.
 
@@ -154,12 +154,32 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   </tr>
   <tr>
     <td>모든 활동 선택</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>CTRL + A(Windows)<br/>CMD + A(Mac)</td>
   </tr>
   <tr>
     <td>선택한 활동 삭제</td>
     <td>[삭제]를 선택하거나 백스페이스를 누른 다음 Enter 키로 삭제 확인</td>
   </tr>
+  <tr>
+    <td>확대 및 축소(캔버스 또는 해당 하위 요소에 주력)</td>
+    <td>CTRL +/-(Windows) 또는 CMD +/-(Mac)</td>
+  </tr>  
+  <tr>
+    <td>각 활동과 경로 간(캔버스에서 포커스 지정) 또는 도구 모음 단추 간 탐색(도구 모음에 포커스 맞춤)</td>
+    <td>화살표 키</td>
+  </tr>   
+  <tr>
+    <td>포커스를 캔버스에서 다음 실행 가능한 요소로 이동합니다. 도구 모음이 첫 번째 요소임</td>
+    <td>탭</td>
+  </tr>  
+  <tr>
+    <td>오른쪽 구성 창을 엽니다(활동에 포커스 지정)</td>
+    <td>ENTER</td>
+  </tr>   
+  <tr>
+    <td>캔버스에서 활동 이동(활동에 포커스 지정)</td>
+    <td>SHIFT + 화살표 키</td>
+  </tr>  
   <tr>
   <td rowspan="3">
 

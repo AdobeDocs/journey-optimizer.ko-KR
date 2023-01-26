@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1809'
 ht-degree: 7%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 다음 `camelCase` 함수는 문자열의 각 단어의 첫 문자를 대문자로 바꿉니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= camelCase(string)%}
@@ -35,11 +35,29 @@ ht-degree: 7%
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
+## 의 문자 코드 {#char-code-at}
+
+다음 `charCodeAt` 함수는 JavaScript의 charCodeAt 함수와 같이 문자의 ASCII 값을 반환합니다. 문자열 및 정수(문자 위치 정의)를 입력 인수로 사용하고 해당 ASCII 값을 반환합니다.
+
+**구문**
+
+```sql
+{%= charCodeAt(string,int) %}: int
+```
+
+**예**
+
+다음 함수는 111의 ASCII 값을 반환합니다.
+
+```sql
+{%= charCodeAt("some", 1)%}
+```
+
 ## Concat {#concate}
 
 다음 `concat` 함수는 두 문자열을 하나로 결합합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= concat(string,string) %}
@@ -57,7 +75,7 @@ ht-degree: 7%
 
 다음 `contains` 함수에서 지정된 하위 문자열을 포함하는지 여부를 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -87,7 +105,7 @@ ht-degree: 7%
 
 다음 `doesNotContain` 함수에서 지정된 하위 문자열을 포함하지 않는지 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= doesNotContain(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -112,7 +130,7 @@ ht-degree: 7%
 
 다음 `doesNotEndWith` 함수는 문자열이 지정된 하위 문자열로 끝나지 않는지 여부를 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= doesNotEndWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -136,7 +154,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `doesNotStartWith` 함수는 문자열이 지정된 하위 문자열로 시작하지 않는지 여부를 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= doesNotStartWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -160,7 +178,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `encode64` URL에 예를 들어 포함해야 하는 경우 PI(개인 정보)를 유지하기 위한 문자열을 인코딩하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= encode64(string) %}
@@ -170,7 +188,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `endsWith` 함수는 문자열이 지정된 하위 문자열로 끝났는지 여부를 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= endsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -195,7 +213,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `equals` 함수는 문자열을 대소문자 구분을 사용하여 지정된 문자열과 일치하는지 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= equals(STRING_1, STRING_2) %}
@@ -218,7 +236,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `equalsIgnoreCase` 변수는 대/소문자를 구분하지 않고 지정된 문자열과 동일한지 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= equalsIgnoreCase(STRING_1, STRING_2) %}
@@ -241,7 +259,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `extractEmailDomain` 함수는 이메일 주소의 도메인을 추출하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= extractEmailDomain(string) %}
@@ -255,11 +273,29 @@ doesNotEndWith(person.emailAddress,".com")
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## 통화 형식 지정 {#format-currency}
+
+다음 `formatCurrency` 함수는 두 번째 인수에서 문자열로 전달된 로케일에 따라 임의의 숫자를 해당 언어 구분 통화 표현으로 변환하는 데 사용됩니다.
+
+**구문**
+
+```sql
+{%= formatCurrency(number/double,string) %}: string
+```
+
+**예**
+
+이 쿼리는 £56.00을 반환합니다
+
+```sql
+{%= formatCurrency(56L,"en_GB") %}
+```
+
 ## URL 호스트 가져오기 {#get-url-host}
 
 다음 `getUrlHost` 함수는 URL의 호스트 이름을 검색하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= getUrlHost(string) %}: string
@@ -277,7 +313,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `getUrlPath` 함수는 URL의 도메인 이름 뒤에 있는 경로를 검색하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= getUrlPath(string) %}: string
@@ -295,7 +331,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `getUrlProtocol` 함수는 URL의 프로토콜을 검색하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= getUrlProtocol(string) %}: string
@@ -313,7 +349,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `indexOf` 함수는 두 번째 매개 변수의 첫 번째 발생 위치(첫 번째 인수에서)를 반환하는 데 사용됩니다. 일치하는 항목이 없으면 -1을 반환합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= indexOf(STRING_1, STRING_2) %}: integer
@@ -336,7 +372,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `isEmpty` 함수가 비어 있는지 확인하는 데 이 함수가 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= isEmpty(string) %}
@@ -354,7 +390,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `isNotEmpty` 함수는 문자열이 비어 있지 않은지 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {= isNotEmpty(string) %}: boolean
@@ -372,7 +408,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `lastIndexOf` 함수는 두 번째 매개 변수의 마지막 발생 위치(첫 번째 인수에서)를 반환하는 데 사용됩니다. 일치하는 항목이 없으면 -1을 반환합니다.
 
-**형식**
+**구문**
 
 ```sql
 {= lastIndexOf(STRING_1, STRING_2) %}: integer
@@ -395,7 +431,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `leftTrim` 함수는 문자열 시작 부분에서 공백을 제거하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= leftTrim(string) %}
@@ -405,7 +441,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `length` 함수는 문자열 또는 표현식의 문자 수를 가져오는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= length(string) %}
@@ -423,7 +459,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `like` 함수는 문자열이 지정된 패턴과 일치하는지 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= like(STRING_1, STRING_2) %}
@@ -464,7 +500,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `matches` 함수가 특정 정규 표현식과 일치하는지 여부를 확인하는 데 사용됩니다. 자세한 내용은 [이 문서](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) 를 참조하십시오.
 
-**형식**
+**구문**
 
 ```sql
 {%= matches(STRING_1, STRING_2) %}
@@ -482,7 +518,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `Mask` 함수는 문자열의 일부를 &quot;X&quot; 문자로 바꾸는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= mask(string,integer,integer) %}
@@ -502,7 +538,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `md5` 함수는 문자열의 md5 해시를 계산하고 반환하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= md5(string) %}: string
@@ -520,7 +556,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `notEqualTo` 함수는 문자열이 지정된 문자열과 같지 않은지 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= notEqualTo(STRING_1, STRING_2) %}
@@ -543,7 +579,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `notEqualWithIgnoreCase` 대소문자를 무시하고 두 문자열을 비교하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
@@ -566,7 +602,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `Group` 함수는 제공된 정규 표현식을 기반으로 특정 정보를 추출하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= regexGroup(STRING, EXPRESSION, GROUP) %}
@@ -590,7 +626,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `replace` 함수는 문자열에서 주어진 하위 문자열을 다른 하위 문자열로 바꾸는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= replace(STRING_1,STRING_2,STRING_3) %}:string
@@ -614,7 +650,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `replaceAll` 함수는 &quot;target&quot;과 일치하는 텍스트의 모든 하위 문자열을 지정된 리터럴 &quot;replacement&quot; 문자열로 바꾸는 데 사용됩니다. 대체는 문자열 시작 부분부터 끝 부분까지 진행됩니다. 예를 들어 문자열 &quot;aaa&quot;에서 &quot;aa&quot;를 &quot;b&quot;로 바꾸면 &quot;ab&quot;가 아니라 &quot;ba&quot;가 됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= replaceAll(string,string,string) %}
@@ -624,7 +660,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `rightTrim` 함수는 문자열 끝에서 공백을 제거합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= rightTrim(string) %}
@@ -634,7 +670,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `split` 함수는 문자열을 지정된 문자로 분할하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= split(string,string) %}
@@ -644,7 +680,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `startsWith` 함수는 문자열이 지정된 하위 문자열로 시작하는지 여부를 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -664,11 +700,27 @@ doesNotEndWith(person.emailAddress,".com")
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## 문자열-날짜 {#string-to-date}
+
+stringToDate 함수는 문자열 값을 날짜 시간 값으로 변환합니다. 에는 두 개의 인수가 필요합니다. 형식의 날짜 시간 및 문자열 표현을 나타내는 문자열 표현입니다.
+
+**구문**
+
+```sql
+{= stringToDate("date-time value","formatter" %}
+```
+
+**예**
+
+```sql
+{= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
+```
+
 ## 문자열을 정수로 {#string-to-integer}
 
 다음 `string_to_integer` 함수는 문자열 값을 정수 값으로 변환하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {= string_to_integer(string) %}: int
@@ -678,7 +730,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `stringToNumber` 함수는 문자열을 숫자로 변환하는 데 사용됩니다. 잘못된 입력에 대해 출력과 동일한 문자열을 반환합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= stringToNumber(string) %}: double
@@ -687,7 +739,7 @@ doesNotEndWith(person.emailAddress,".com")
 ## 하위 문자열 {#sub-string}
 
 다음 `Count string` 함수는 시작 인덱스와 종료 인덱스 사이에 문자열 식의 하위 문자열을 반환하는 데 사용됩니다.
-**형식**
+**구문**
 
 ```sql
 {= substr(string, integer, integer) %}: string
@@ -715,7 +767,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `toBool` 함수는 인수 값을 유형에 따라 부울 값으로 변환하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {= toBool(string) %}: boolean
@@ -725,7 +777,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `toDateTime` 함수는 문자열을 날짜로 변환하는 데 사용됩니다. 잘못된 입력에 대한 출력으로 epoch 날짜를 반환합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= toDateTime(string, string) %}: date-time
@@ -733,15 +785,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 종료 시간만 {#to-date-time-only}
 
-다음 `toDateTimeOnly` 함수는 인수 값을 날짜 시간 전용 값으로 변환하는 데 사용됩니다. 잘못된 입력에 대한 출력으로 epoch 날짜를 반환합니다.
+다음 `toDateTimeOnly` 함수는 인수 값을 날짜 시간 전용 값으로 변환하는 데 사용됩니다. 잘못된 입력에 대한 출력으로 epoch 날짜를 반환합니다. 이 함수는 문자열, 날짜, 긴 및 int 필드 유형을 허용합니다.
 
-**형식**
+**구문**
 
 ```sql
-{%= toDateTimeOnly(string) %}: date-time
+{%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## 트리밍{#trim}
+## 트리밍 {#trim}
 
 다음 **trim** 함수는 문자열 시작 및 끝에서 모든 공백을 제거합니다.
 
@@ -769,11 +821,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## url 디코딩 {#url-decode}
+## Url 디코딩 {#url-decode}
 
 다음 `urlDecode` 함수는 url 인코딩 문자열을 디코딩하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= urlDecode(string) %}: string
@@ -783,7 +835,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 다음 `Count only null` 함수를 사용하여 문자열을 인코딩합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= urlEncode(string) %}: string

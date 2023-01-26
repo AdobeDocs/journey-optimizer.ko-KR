@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: de6a8da2-55cf-4105-ba93-40c556732626
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 6%
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 다음 `get` 함수는 지정된 키에 대한 맵 값을 검색하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= get(map, string) %}
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 다음 `keys` 함수는 지정된 맵에 대한 모든 키를 검색하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= keys(map) %}
@@ -57,7 +57,7 @@ ht-degree: 6%
 
 다음 `values` 함수는 지정된 맵의 모든 값을 검색하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= values(map) %}

@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 표현식, 구문, 연산자, 편집기, 여정
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '516'
 ht-degree: 6%
 
 ---
@@ -20,18 +20,20 @@ ht-degree: 6%
 다음과 같은 두 가지 유형의 연산자가 있습니다. 단항 연산자 및 이진 연산자입니다. 왼쪽 단항 연산자와 오른쪽 단항 연산자가 있습니다.
 
 ```json
-    // left-hand unary operators
-    <operator> <operand> // operand is an expression
-    not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
+// left-hand unary operators
+// <operator> <operand> 
+// operand is an expression
+not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
-    // right-hand unary operators
-    <operand> <operator> // operand is an expression
-    @{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
+// right-hand unary operators
+// <operator> <operand> 
+// operand is an expression
+@{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
 
-    // binary operators
-    <operand1> <operator> <operand2>
-    (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or
-    (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
+// binary operators
+// <operand1> <operator> <operand2>
+// operand is an expression
+(@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com") 
 ```
 
 ## 중요 정보{#important-notes}
@@ -58,8 +60,6 @@ ht-degree: 6%
 
 ### 또는
 
-
-
 ```json
 <expression1> or <expression2>
 ```
@@ -73,8 +73,6 @@ ht-degree: 6%
 ```
 
 ### not
-
-
 
 ```json
 not <expression>
@@ -92,8 +90,6 @@ not 3.15 < 1
 
 ### is null
 
-
-
 ```json
 <expression> is null
 ```
@@ -109,8 +105,6 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 ```
 
 ### is not null
-
-
 
 ```json
 <expression> is not null
@@ -128,8 +122,6 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 
 ### null이
 
-
-
 ```json
 <expression> has null
 ```
@@ -141,16 +133,18 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 예:
 
 ```json
-["foo", "bar", null] has null --  returns true.
+["foo", "bar", null] has null
 ```
+
+true 반환
 
 ```json
-["foo", "bar", ""] has null -- returns false because "" is not considered as null.
+["foo", "bar", ""] has null
 ```
 
+&quot;&quot;이(가) null로 간주되지 않으므로 false를 반환합니다.
+
 ### ==
-
-
 
 ```json
 <expression1> == <expression2>
@@ -172,8 +166,6 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 
 ### !=
 
-
-
 ```json
 <expression1> != <expression2>
 ```
@@ -194,8 +186,6 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 ```
 
 ### >
-
-
 
 ```json
 <expression1> > <expression2>
@@ -219,8 +209,6 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
 ### >=
 
-
-
 ```json
 <expression1> >= <expression2>
 ```
@@ -243,8 +231,6 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
 ### &lt;
 
-
-
 ```json
 <expression1> < <expression2>
 ```
@@ -266,8 +252,6 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 ```
 
 ### &lt;=
-
-
 
 ```json
 <expression1> <= <expression2>
@@ -293,8 +277,6 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
 ### +
 
-
-
 ```json
 <expression1> + <expression2>
 ```
@@ -306,12 +288,12 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 예:
 
 ```json
-1 + 2 -- returns 3
+1 + 2
 ```
 
+반환 3
+
 ### -
-
-
 
 ```json
 <expression1> - <expression2>
@@ -324,12 +306,12 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 예:
 
 ```json
-2 - 1 -- returns 1
+2 - 1 
 ```
 
+반환 1
+
 ### /
-
-
 
 ```json
 <expression1> / <expression2>
@@ -344,12 +326,12 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 예:
 
 ```json
-4 / 2 -- returns 2
+4 / 2
 ```
 
+반환 2
+
 ### *
-
-
 
 ```json
 <expression1> * <expression2>
@@ -362,12 +344,12 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 예:
 
 ```json
-3 * 4 -- returns 12
+3 * 4
 ```
 
+반환 12
+
 ### %
-
-
 
 ```json
 <expression1> % <expression2>
@@ -380,14 +362,14 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 예:
 
 ```json
-3 % 2 -- returns 1.
+3 % 2
 ```
+
+1 반환.
 
 ## 수학 {#math}
 
 ### 는 숫자입니다.
-
-
 
 ```json
 <expression> is numeric
@@ -403,8 +385,6 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
 ### 정수
 
-
-
 ```json
 <expression> is integer
 ```
@@ -418,8 +398,6 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 ```
 
 ### is decimal
-
-
 
 ```json
 <expression> is decimal
@@ -437,8 +415,6 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
 ### +
 
-
-
 ```json
 <string> + <expression>
 ```
@@ -454,22 +430,26 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 예:
 
 ```json
-"the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
+"the current time is " + (now())
 ```
 
-```json
-(now()) + " is the current time" -- returns "2019-09-23T09:30:06.693Z is the current time"
-```
+현재 시간이 2019-09-23T09 반환:30:06.693Z&quot;
 
 ```json
-"a" + "b" + "c" + 1234 -- returns "abc1234".
+(now()) + " is the current time"
 ```
+
+반환: &quot;2019-09-23T09:30:06.693Z 는 현재 시간입니다.&quot;
+
+```json
+"a" + "b" + "c" + 1234
+```
+
+&quot;abc1234&quot;를 반환합니다.
 
 ## 날짜 {#date}
 
 ### +
-
-
 
 ```json
 <expression> + <duration>
@@ -480,17 +460,25 @@ dateTime, dateTimeOnly 또는 기간에 기간을 추가합니다.
 예:
 
 ```json
-toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z
+(toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-```json
-toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M") -- returns 2011-12-03T15:30:30
-```
+를 반환합니다 _dateTime_ 2011-12-03T15:30:30Z
 
 ```json
-now() + toDuration("PT1H") -- returns a dateTime (with UTC time zone) one hour later from current time
+(toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
+를 반환합니다 _dateTimeOnly_ 2011-12-03T15:30:30
+
 ```json
-toDuration("PT1H") + toDuration("PT1H") -- returns  PT2H
+(now()) + (toDuration("PT1H"))
 ```
+
+를 반환합니다 _dateTime_ (UTC 표준 시간대 사용) 현재 시간으로부터 1시간 후
+
+```json
+(toDuration("PT1H")) + (toDuration("PT1H"))
+```
+
+를 반환합니다 _기간_ PT2H

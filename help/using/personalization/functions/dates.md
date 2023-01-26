@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 6%
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 다음 `age` 함수는 지정된 날짜에서 페이지를 검색하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
  {%= age(datetime) %}
@@ -41,7 +41,7 @@ The following operation gets the value of the identity map for the key `example@
 
 다음 `currentTimeInMillis` 함수는 epoch 밀리초 단위의 현재 시간을 검색하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= currentTimeInMillis() %}
@@ -61,7 +61,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 다음 `dateDiff` 함수는 일 수로 두 날짜 간의 차이를 검색하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= dateDiff(datetime,datetime) %}
@@ -82,7 +82,7 @@ The following operation gets all the values for the map `identityMap`.
 
 다음 `dayOfWeek` 함수는 요일을 검색하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= dayOfWeek(datetime) %}
@@ -102,7 +102,7 @@ The following operation gets all the values for the map `identityMap`.
 
 다음 `dayOfYear` 함수는 날짜를 검색하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= dayOfYear(datetime) %}
@@ -122,7 +122,7 @@ The following operation gets all the values for the map `identityMap`.
 
 다음 `formatDate` 함수는 날짜 시간 값의 형식을 지정하는 데 사용됩니다. 형식은 유효한 Java DateTimeFormat 패턴이어야 합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= formatDate(datetime, format) %}
@@ -134,7 +134,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 날짜 패턴이 올바르지 않으면 날짜가 ISO 표준 형식으로 대체됩니다.
 >
-> 요약된 대로 Java 날짜 형식 기능을 사용할 수 있습니다 [oracle 설명서에서](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> 에 요약된 대로 Java 날짜 형식 지정 기능을 사용할 수 있습니다. [Oracle 설명서](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **예**
 
@@ -148,7 +148,7 @@ The following operation gets all the values for the map `identityMap`.
 
 다음 `setDays` 함수는 지정된 날짜 시간에 대한 월의 일을 설정하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= setDays(datetime, day) %}
@@ -168,7 +168,7 @@ The following operation gets all the values for the map `identityMap`.
 
 다음 `setHours` 함수는 날짜-시간의 시간을 설정하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= setHours(datetime, hour) %}
@@ -190,7 +190,7 @@ The following operation gets all the values for the map `identityMap`.
 다음 `toUTC` 함수에서 datetime을 UTC로 변환하는 데 사용됩니다.
 
 
-**형식**
+**구문**
 
 ```sql
 {%= toUTC(datetime) %}
@@ -211,7 +211,7 @@ The following operation gets all the values for the map `identityMap`.
 
 다음 `weekOfYear` 함수는 요일을 검색하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= weekOfYear(datetime) %}

@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 설정, 전자 메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1478'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,14 @@ ht-degree: 1%
 >[!NOTE]
 >
 >비프로덕션 환경의 경우 Adobe은 기본 테스트 하위 도메인을 만들거나 공유 전송 IP 풀에 대한 액세스 권한을 부여하지 않습니다. 다음을 수행해야 합니다. [고유한 하위 도메인 위임](../configuration/delegate-subdomain.md) 및 조직에 할당된 풀의 IP를 사용합니다.
+
+IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소를 마우스로 가리키면 PTR 정보가 표시됩니다. [PTR 레코드에 대한 자세한 정보](../configuration/ptr-records.md)
+
+![](assets/email-surface-ptr-record.png)
+
+>[!NOTE]
+>
+>PTR 레코드가 구성되지 않은 경우 Adobe 담당자에게 문의하십시오.
 
 ## 목록 가입 해지 {#list-unsubscribe}
 

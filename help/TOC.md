@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: cd8217a7f28f30a259863ecce0c062ddc5d2667b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1307'
 ht-degree: 99%
 
 ---
@@ -166,6 +166,7 @@ ht-degree: 99%
       + [콘텐츠 실험 만들기](using/campaigns/content-experiment.md)
       + [통계 계산 이해](using/campaigns/experiment-calculations.md)
       + [실험 보고서 구성](using/campaigns/reporting-configuration.md)
+      + [실험 보고서의 통계 계산](using/campaigns/experiment-report-calculations.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
 + 이메일 채널 {#email}
    + [이메일 시작](using/email/get-started-email.md)
@@ -464,6 +465,7 @@ ht-degree: 99%
    + [개인 정보 시작](using/privacy/get-started-privacy.md)
    + [개인 정보 보호 요청](using/privacy/requests.md)
    + [리소스에 대한 작업 감사](using/privacy/audit-logs.md)
+   + [데이터 위생 작업 수행](using/privacy/data-hygiene.md)
    + 동의 관리 {#consent}
       + [옵트아웃 관리](using/privacy/opt-out.md)
       + [동의 정책 사용](using/action/consent.md)

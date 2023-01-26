@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 다음 `and` 함수를 사용하여 논리 연결을 만듭니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= query1 and query2 %}
@@ -41,7 +41,7 @@ ht-degree: 11%
 
 다음 `or` 함수는 논리 분리를 만드는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= query1 or query2 %}
@@ -60,7 +60,7 @@ ht-degree: 11%
 
 The `not` (or `!`) function is used to create a logical negation.
 
-**Format**
+**Syntax**
 
 ```sql
 not ({QUERY})
@@ -84,7 +84,7 @@ not (homeAddress.countryISO = "CA")
 
 다음 `=` (equals) 함수는 한 값 또는 표현식이 다른 값 또는 표현식과 같은지 여부를 확인합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= expression = value %}
@@ -102,7 +102,7 @@ not (homeAddress.countryISO = "CA")
 
 다음 `!=` (같지 않음) 함수는 값 또는 표현식이 있는지 여부를 확인합니다 **not** 다른 값 또는 표현식과 같음.
 
-**형식**
+**구문**
 
 ```sql
 {%= expression != value %}
@@ -120,7 +120,7 @@ not (homeAddress.countryISO = "CA")
 
 다음 `>` (보다 큼) 함수는 첫 번째 값이 두 번째 값보다 커야 하는지 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= expression1 > expression2 %}
@@ -138,7 +138,7 @@ not (homeAddress.countryISO = "CA")
 
 다음 `>=` (크거나 같음) 함수는 첫 번째 값이 두 번째 값보다 크거나 같은지 확인하는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= expression1 >= expression2 %}
@@ -156,7 +156,7 @@ not (homeAddress.countryISO = "CA")
 
 다음 `<` (보다 작음) 비교 함수를 사용하여 첫 번째 값이 두 번째 값보다 작은지 확인합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= expression1 < expression2 %}
@@ -174,7 +174,7 @@ not (homeAddress.countryISO = "CA")
 
 다음 `<=` (작거나 같음) 비교 함수를 사용하여 첫 번째 값이 두 번째 값보다 작거나 같은지 확인합니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= expression1 <= expression2 %}

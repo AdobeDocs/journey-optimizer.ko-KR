@@ -4,16 +4,57 @@ product: journey optimizer
 title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 100%
+source-wordcount: '3583'
+ht-degree: 99%
 
 ---
 
 # 2022년 릴리스 정보 {#release-notes-2022}
 
 이 페이지에서는 2022년에 릴리스된 [!DNL Journey Optimizer]의 기능 및 개선 사항 목록을 확인할 수 있습니다.
+
+
+
+## 2022년 10월 릴리스 {#oct-2022-release}
+
+<!--
+
+### New capability{#oct-2022-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
+
+### 개선 사항 {#oct-2022-improvements}
+
+**여정**
+
+* **반복 시 강제 재입력** 옵션이 반복 읽기 세그먼트 일정 매개 변수에 추가되었습니다. 이 옵션을 사용하면 여정에 여전히 존재하는 모든 프로필이 다음 실행 시 자동으로 종료되도록 할 수 있습니다. 옵션이 비활성화되면 프로필은 다른 경우에 다시 입력하기 전에 여정을 완료해야 합니다. [자세히 알아보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**관리**
+
+* 하위 도메인, 방문 페이지 하위 도메인, PTR 레코드 및 IP 풀 구성은 모든 샌드박스에 공통적이므로 이러한 구성 중 하나를 수정하면 프로덕션 샌드박스에도 영향을 미친다는 경고 메시지가 사용자 인터페이스에 추가되었습니다.
+* 사용자 인터페이스에서 제외 목록을 CSV 파일로 업로드하는 단계가 수정되었습니다. [자세히 알아보기](../configuration/manage-suppression-list.md#download-suppression-list)
+
+**캠페인**
+
+* 이제 완료되고 중지된 캠페인을 보관할 수 있습니다. [자세히 알아보기](../campaigns/modify-stop-campaign.md#archive)
 
 
 ## 2022년 9월 릴리스{#sept-2022-release}
@@ -346,7 +387,7 @@ ht-degree: 100%
 
 **여정**
 
-* **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 종료 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 고객이 여정에서 드롭된 위치를 여정 전문가의 작업 없이 더 잘 보고할 수 있습니다. 자세한 내용은 [설명서](../building-journeys/end-journey.md) 및 [기능 비디오](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}를 참조하세요.
+* **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 종료 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 고객이 여정에서 드롭된 위치를 여정 전문가의 작업 없이 더 잘 보고할 수 있습니다. 자세한 내용은 [설명서](../building-journeys/end-journey.md) 및 [기능 비디오](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * 이제 여정 속성에서 **프로필 시간대** 옵션이 기본적으로 선택되지 않습니다. [자세히 보기](../building-journeys/timezone-management.md#timezone-from-profiles)

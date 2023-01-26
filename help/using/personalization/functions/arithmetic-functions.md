@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 7%
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 다음 `+` (추가) 함수는 두 인수 표현식의 합계를 찾는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= double + double %}
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 다음 `*` (곱하기) 함수는 두 인수 표현식의 제품을 찾는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= double * double %}
@@ -57,7 +57,7 @@ ht-degree: 7%
 
 다음 `-` (빼기) 함수는 두 인수 표현식의 차이를 찾는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= double - double %}
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 다음 `/` (division) 함수는 두 인수 표현식의 따옴표를 찾는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= double / double %}
@@ -93,7 +93,7 @@ ht-degree: 7%
 
 다음 `%` (modulo/additional) 함수는 두 인수 표현식을 나눈 후 나머지를 찾는 데 사용됩니다.
 
-**형식**
+**구문**
 
 ```sql
 {%= double % double %}
