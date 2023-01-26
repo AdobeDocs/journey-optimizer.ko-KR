@@ -4,7 +4,7 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 17%
@@ -65,11 +65,13 @@ ht-degree: 17%
 ### 개선 사항 {#jan-2023-improvements}
 
 **여정**
+
 <!--
 * The **Re-entrance wait period** field has been added to the journey properties. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. [Learn more](../building-journeys/journey-gs.md#entrance)
 
 * Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read segment** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. [Learn more](../building-journeys/journey-gs.md#dates)
 -->
+
 * 추가 시 **세그먼트 자격** 또는 **세그먼트 읽기** 여정에서 네임스페이스는 기본적으로 마지막으로 사용된 네임스페이스와 함께 미리 채워집니다. 자세한 내용은 [세그먼트 자격](../building-journeys/segment-qualification-events.md#about-segment-qualification) 및 [세그먼트 읽기](../building-journeys/read-segment.md#configuring-segment-trigger-activity) 섹션에 자세히 설명되어 있습니다.
 
 * 여정 캔버스에서 여정의 스크린샷을 다운로드할 수 있는 도구 모음에서 새 단추를 사용할 수 있습니다.

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 세그먼트, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 10%
@@ -95,9 +95,11 @@ ht-degree: 10%
 ### 입구{#entrance}
 
 기본적으로 새 여정은 다시 입력할 수 있습니다. 선택을 취소하고 **다시 시작 허용** &quot;일회용&quot; 여정에 대한 선택 사항(예: 사람이 가게에 들어올 때 일회용 선물을 제공하려는 경우).
+
 <!--
 When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
 -->
+
 프로필 시작 관리에 대한 자세한 내용은 [이 섹션](entry-management.md).
 
 ### 액세스 관리 {#access}
@@ -117,11 +119,13 @@ Adobe Experience Platform 프로필에 시간대가 정의된 경우 여정에�
 시간대 관리에 대한 자세한 내용은 [이 페이지](../building-journeys/timezone-management.md).
 
 ### 시작 및 종료 날짜 {#dates}
+
 <!--
 You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
 
 You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
 -->
+
 을(를) 정의할 수 있습니다 **시작 날짜**. 을(를) 추가할 수도 있습니다 **종료 날짜**. 날짜가 되면 프로필이 자동으로 종료될 수 있습니다. 종료 날짜를 지정하지 않으면 기본 여정 시간 제한까지 프로필을 유지할 수 있습니다.
 
 ### 여정 활동의 시간 제한 및 오류 {#timeout_and_error}

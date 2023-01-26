@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1808'
 ht-degree: 7%
 
 ---
@@ -702,7 +702,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 문자열-날짜 {#string-to-date}
 
-stringToDate 함수는 문자열 값을 날짜 시간 값으로 변환합니다. 에는 두 개의 인수가 필요합니다. 형식의 날짜 시간 및 문자열 표현을 나타내는 문자열 표현입니다.
+다음 `stringToDate` 함수는 문자열 값을 날짜-시간 값으로 변환합니다. 에는 두 개의 인수가 필요합니다. 형식의 날짜 시간 및 문자열 표현을 나타내는 문자열 표현입니다.
 
 **구문**
 
