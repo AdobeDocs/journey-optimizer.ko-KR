@@ -8,16 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 94%
 
 ---
 
 # 보호 및 제한 사항 {#limitations}
 
-자격, 제품 제한 사항 및 성능 보호는 [Adobe Journey Optimizer 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}에 나와 있습니다.
+자격, 제품 제한 및 성능 보호 기능은 [Adobe Journey Optimizer 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
+또한 [시작하기 전에 실시간 고객 프로필 데이터에 대한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}.
 
 [!DNL Adobe Journey Optimizer] 사용 시 다음과 같은 추가 보호 기능 및 제한 사항이 있습니다.
 
@@ -29,7 +31,7 @@ ht-degree: 100%
 
 ## 의사 결정 관리 보호 {#offer-guardrails}
 
-의사 결정을 위한 성능 보호 및 정적 제한은 [Adobe Offer Decisioning App Service 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}에 나와 있습니다.
+의사 결정에 대한 성능 보호 및 정적 제한은 [Adobe Offer decisioning 앱 서비스 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## 랜딩 페이지 보호 {#lp-guardrails}

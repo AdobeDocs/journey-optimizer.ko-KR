@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 3%
@@ -27,40 +27,50 @@ ht-degree: 3%
 
 다음은 에서 사용할 수 있는 모든 필드 목록입니다 **[!UICONTROL 결정 객체 저장소 - 대체 오퍼]** 데이터 세트.
 
-## 식별자 {#identifier}
++++ 식별자
 
 **필드:** _id
 **제목:** 식별자
 **설명:** 레코드의 고유 식별자입니다.
 **유형:** 문자열
 
-## _경험 {#experience}
++++
+
++++ _경험
 
 **필드:** _experience
 **유형:** 개체
 
-### _experience > decisioning
++++
+
++++ _experience > decisioning
 
 **필드:** 의사 결정
 **유형:** 개체
 
-#### _experience > decisioning > 특성
++++
+
++++ _experience > decisioning > 특성
 
 **필드:** 특성
 **제목:** 결정 옵션 특성
 **설명:** 이 특정 결정 옵션에 속하는 추가 속성 또는 속성입니다. 인스턴스마다 특성(맵에 있는 키)이 다를 수 있습니다. 특징은 하나의 결정 옵션을 다른 결정 옵션과 구분하는 데 사용되는 이름 값 쌍입니다. 특징은 이 결정 옵션을 나타내는 컨텐츠와 옵션 성능을 분석 및 최적화하는 기능으로 사용됩니다. 모든 인스턴스에 동일한 속성 또는 속성이 있는 경우 해당 측면을 결정 옵션 세부 정보에서 파생되는 확장 스키마로 모델링해야 합니다.
 **유형:** 개체
 
++++
+
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-#### _experience > decisioning > 콘텐츠
++++ _experience > decisioning > 콘텐츠
 
 **필드:** 내용
 **제목:** 컨텐츠 세부 사항
 **설명:** 다른 컨텍스트에서 의사 결정 항목을 렌더링할 콘텐츠 항목입니다. 단일 결정 옵션에는 여러 콘텐츠 변형이 있을 수 있습니다. 콘텐츠는 (디지털) 경험에서 사용할 대상을 향해 오는 정보입니다. 컨텐츠는 채널을 통해 특정 배치로 전달됩니다.
 **유형:** 배열
 
-**_experience > decisioning > content > components**
++++
+
++++_experience > decisioning > 콘텐츠 > 구성 요소
 
 **필드:** 구성 요소
 **설명:** 모든 언어 변형을 포함하여 결정 옵션을 나타내는 컨텐츠의 구성 요소입니다. 특정 구성 요소는 &#39;dx:format&#39;, &#39;dc:subject&#39; 및 &#39;dc:language&#39; 또는 이들의 조합으로 찾을 수 있습니다. 이 메타데이터는 오퍼와 연관된 컨텐츠를 찾거나 나타내고 배치 계약에 따라 통합하는 데 사용됩니다.
@@ -148,14 +158,18 @@ ht-degree: 3%
    **유형:** 문자열
    **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisioning > 콘텐츠 > 배치**
++++
+
++++ _experience > decisioning > 콘텐츠 > 배치
 
 **필드:** 배치
 **제목:** 배치
 **설명:** 준수하기 위한 배치. 값은 참조되는 오퍼 배치의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/placement 를 참조하십시오.
 **유형:** 문자열
 
-#### _experience > decisioning > 라이프사이클 상태
++++
+
++++ _experience > decisioning > 라이프사이클 상태
 
 **필드:** lifecycleStatus
 **제목:** 라이프사이클 상태
@@ -163,30 +177,40 @@ ht-degree: 3%
 **유형:** string
 **가능한 값:** &quot;초안&quot;(기본값), &quot;승인됨&quot;, &quot;라이브&quot;, &quot;완료됨&quot;, &quot;보관됨&quot;
 
-#### _experience > decisioning > 결정 옵션 이름
++++
+
++++ _experience > decisioning > 결정 옵션 이름
 
 **필드:** 이름
 **제목:** 결정 옵션 이름
 **설명:** 다양한 사용자 인터페이스에 표시되는 옵션 이름입니다.
 **유형:** 문자열
 
-#### _experience > decisioning > 태그
++++
+
++++ _experience > decisioning > 태그
 
 **필드:** 태그
 **제목:** 태그
 **설명:** 이 엔터티에 연결된 태그 집합입니다. 태그는 전체 인벤토리를 하위 세트(카테고리)로 제한하려면 필터 표현식에 사용됩니다.
 **유형:** 배열
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++ _repo {#repo}
 
 **필드:** _repo
 **유형:** 개체
 
-### _repo > 결정 옵션 태그
++++
+
++++ _repo > 결정 옵션 태그
 
 **필드:** 태그
 **제목:** 결정 옵션 태그
 **설명:** 스냅샷을 가져올 때 결정 옵션 객체가 있던 수정 버전입니다.
 **유형:** 문자열
+
++++

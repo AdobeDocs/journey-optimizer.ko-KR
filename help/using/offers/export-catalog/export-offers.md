@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 3%
@@ -29,24 +29,30 @@ ht-degree: 3%
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## 식별자 {#identifier}
++++ 식별자
 
 **필드:** _id
 **제목:** 식별자
 **설명:** 레코드의 고유 식별자입니다.
 **유형:** 문자열
 
-## _경험 {#experience}
++++
+
++++ _경험 {#experience}
 
 **필드:** _experience
 **유형:** 개체
 
-### _experience > decisioning
++++
+
++++ _experience > decisioning
 
 **필드:** 의사 결정
 **유형:** 개체
 
-#### _experience > decisioning > calendarConstraints
++++
+
++++ _experience > decisioning > calendarConstraints
 
 **필드:** calendarConstraints
 **제목:** 달력 제한 세부 정보
@@ -67,21 +73,27 @@ ht-degree: 3%
    **설명:** 결정 옵션 유효성의 시작 날짜입니다. 시작 날짜에 도달하지 않은 옵션은 의사 결정 프로세스에서 아직 제안할 수 없습니다.
    **유형:** 문자열
 
-#### _experience > decisioning > 특성
++++
+
++++ _experience > decisioning > 특성
 
 **필드:** 특성
 **제목:** 결정 옵션 특성
 **설명:** 이 특정 결정 옵션에 속하는 추가 속성 또는 속성입니다. 인스턴스마다 특성(맵에 있는 키)이 다를 수 있습니다. 특징은 하나의 결정 옵션을 다른 결정 옵션과 구분하는 데 사용되는 이름 값 쌍입니다. 특징은 이 결정 옵션을 나타내는 컨텐츠와 옵션 성능을 분석 및 최적화하는 기능으로 사용됩니다. 모든 인스턴스에 동일한 속성 또는 속성이 있는 경우 해당 측면을 결정 옵션 세부 정보에서 파생되는 확장 스키마로 모델링해야 합니다.
 **유형:** 개체
 
-#### _experience > decisioning > 콘텐츠
++++
+
++++ _experience > decisioning > 콘텐츠
 
 **필드:** 내용
 **제목:** 컨텐츠 세부 사항
 **설명:** 다른 컨텍스트에서 의사 결정 항목을 렌더링할 콘텐츠 항목입니다. 단일 결정 옵션에는 여러 콘텐츠 변형이 있을 수 있습니다. 콘텐츠는 (디지털) 경험에서 사용할 대상을 향해 오는 정보입니다. 컨텐츠는 채널을 통해 특정 배치로 전달됩니다.
 **유형:** 배열
 
-**_experience > decisioning > content > components**
++++
+
++++_experience > decisioning > 콘텐츠 > 구성 요소
 
 **필드:** 구성 요소
 **설명:** 모든 언어 변형을 포함하여 결정 옵션을 나타내는 컨텐츠의 구성 요소입니다. 특정 구성 요소는 &#39;dx:format&#39;, &#39;dc:subject&#39; 및 &#39;dc:language&#39; 또는 이들의 조합으로 찾을 수 있습니다. 이 메타데이터는 오퍼와 연관된 컨텐츠를 찾거나 나타내고 배치 계약에 따라 통합하는 데 사용됩니다.
@@ -168,14 +180,16 @@ ht-degree: 3%
    **유형:** 문자열
    **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisioning > 콘텐츠 > 배치**
++++_experience > decisioning > 콘텐츠 > 배치
 
 **필드:** 배치
 **제목:** 배치
 **설명:** 준수하기 위한 배치. 값은 참조되는 오퍼 배치의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/placement 를 참조하십시오.
 **유형:** 문자열
 
-#### _experience > decisioning > 라이프사이클 상태
++++
+
++++ _experience > decisioning > 라이프사이클 상태
 
 **필드:** lifecycleStatus
 **제목:** 라이프사이클 상태
@@ -183,35 +197,45 @@ ht-degree: 3%
 **유형:** string
 **가능한 값:** &quot;초안&quot;(기본값), &quot;승인됨&quot;, &quot;라이브&quot;, &quot;완료됨&quot;, &quot;보관됨&quot;
 
-#### _experience > decisioning > 결정 옵션 이름
++++
+
++++ _experience > decisioning > 결정 옵션 이름
 
 **필드:** 이름
 **제목:** 결정 옵션 이름
 **설명:** 다양한 사용자 인터페이스에 표시되는 옵션 이름입니다.
 **유형:** 문자열
 
-#### _experience > decisioning > profileConstraints
++++
+
++++ _experience > decisioning > profileConstraints
 
 **필드:** profileConstraints
 **제목:** 프로필 제한 세부 정보
 **설명:** 프로필 제약 조건은 현재 이 컨텍스트에서 이 프로필 ID에 대한 옵션을 사용할 수 있는지 여부를 결정합니다. 프로필 제약 조건이 각 옵션의 값을 고려할 필요가 없는 경우(예: 옵션 선택에서 옵션 중 불변인 경우 &#39;false&#39;로 평가되는 프로필 제약 조건은 전체 옵션 선택을 취소합니다.) 반면, 옵션을 매개 변수로 사용하는 프로필 제한 규칙은 옵션 선택의 각 자격 옵션에 대해 평가됩니다.
 **유형:** 개체
 
-**_experience > decisioning > profileConstraints > 설명**
++++
+
++++_experience > decisioning > profileConstraints > 설명
 
 **필드:** 설명
 **제목:** 설명
 **설명:** 프로필 제한 설명입니다. 이 프로필 제한을 구성하는 방법 또는 이유 및/또는 이 프로필에 의해 포함 또는 제외할 옵션에 대한 사람이 읽을 수 있는 의도를 전달하는 데 사용됩니다.
 **유형:** 문자열
 
-**_experience > decisioning > profileConstraints > 자격 규칙**
++++
+
++++_experience > decisioning > profileConstraints > 자격 규칙
 
 **필드:** requalificationRule
 **제목:** 자격 규칙
 **설명:** 주어진 프로필 및/또는 지정된 컨텍스트 XDM 개체에 대해 true 또는 false로 평가되는 의사 결정 규칙에 대한 참조입니다. 이 규칙은 이 옵션이 지정된 프로필에 적합한지를 결정하는 데 사용됩니다. 값은 참조되는 의사 결정 규칙의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/rule 를 참조하십시오.
 **유형:** 문자열
 
-**_experience > decisioning > profileConstraints > 프로필 제한 유형**
++++
+
++++_experience > decisioning > profileConstraints > 프로필 제한 유형
 
 **필드:** profileConstraintType
 **제목:** 프로필 제한 유형
@@ -224,7 +248,9 @@ ht-degree: 3%
 * &quot;allSegments&quot;: &quot;프로필 제한은 하나 이상의 세그먼트로 표시되며, 제한 작업이 허용되기 전에 프로필은 모든 세그먼트의 구성원이어야 합니다.&quot;
 * &quot;rules&quot;: &quot;프로파일 제약은 자격, 적용 가능성, 적합성 등의 다양한 규칙으로 표시되며 제한적 조치를 허용하기 전에 모두 true로 평가해야 합니다.&quot;
 
-**_experience > decisioning > profileConstraints > 세그먼트 식별자**
++++
+
++++_experience > decisioning > profileConstraints > 세그먼트 식별자
 
 **필드:** segmentIdentities
 **제목:** 세그먼트 식별자
@@ -260,14 +286,18 @@ ht-degree: 3%
    **설명:** 이 값은 모든 네임스페이스에서 모든 네임스페이스 범위 식별자에서 고유한 네임스페이스 간 식별자를 나타냅니다.
    **유형:** 문자열
 
-#### _experience > decisioning > 등급
++++
+
++++ _experience > decisioning > 등급
 
 **필드:** 등급
 **제목:** 등급 세부 정보
 **설명:** 등급(우선 순위). 결정 기준의 컨텍스트 시 \&quot;최상의 작업\&quot;로 간주되는 항목을 정의합니다. 자격 제약 조건을 충족하는 선택한 모든 옵션 중에서 순위 순서가 제안할 상위(또는 상위 N) 옵션을 결정합니다.
 **유형:** 개체
 
-**_experience > decisioning > 등급 > 주문 평가**
++++
+
++++_experience > decisioning > 등급 > 주문 평가
 
 **필드:** 주문
 **제목:** 주문 평가
@@ -296,7 +326,9 @@ ht-degree: 3%
    **설명:** 결정 옵션 목록의 등급을 매기는 전략에 대한 참조. 결정 옵션이 순서가 지정된 목록으로 반환됩니다. 이 속성의 값은 한 번에 옵션과 함께 호출할 함수의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/rankingStrategy 를 참조하십시오.
    **유형:** 문자열
 
-**_experience > decisioning > 등급 > 우선순위**
++++
+
++++_experience > decisioning > 순위 > 우선순위
 
 **필드:** 우선순위
 **제목:** 우선순위
@@ -305,23 +337,31 @@ ht-degree: 3%
 **최소값:** 0
 **기본값:** 0
 
-#### _experience > decisioning > 태그
++++
+
++++ _experience > decisioning > 태그
 
 **필드:** 태그
 **제목:** 태그
 **설명:** 이 엔터티에 연결된 태그 집합입니다. 태그는 전체 인벤토리를 하위 집합(카테고리)으로 제한하기 위해 필터 표현식에 사용됩니다.
 **유형:** 배열
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++_repo
 
 **필드:** _repo
 **유형:** 개체
 
-### _repo > 결정 옵션 태그
++++
+
++++ _repo > 결정 옵션 태그
 
 **필드:** 태그
 **제목:** 결정 옵션 태그
 **설명:** 스냅샷을 가져올 때 결정 옵션 객체가 있던 수정 버전입니다.
 **유형:** 문자열
+
++++

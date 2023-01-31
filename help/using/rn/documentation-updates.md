@@ -4,16 +4,23 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '2220'
-ht-degree: 100%
+source-wordcount: '2282'
+ht-degree: 97%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2023년 1월 {#jan-2023}
+
+* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2013년 1월 23일 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 의 접근성 기능 [!DNL Journey Optimizer] 이제 전용 페이지로 그룹화됩니다. [자세히 보기](../start/accessibility.md)
+* 에 데이터 관리에 대한 새 페이지를 추가했습니다. [!DNL Journey Optimizer]. [자세히 보기](../data/gs-data.md)
+* Decisioning API를 사용하여 오퍼를 전달할 때 응답에서 반환할 수 있는 모든 코드를 나열하는 표를 추가했습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 ## 2022년 12월 {#december-2022}
 

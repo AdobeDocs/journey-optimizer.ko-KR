@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 만들기, 최적기, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '754'
 ht-degree: 8%
 
 ---
@@ -52,11 +52,13 @@ ht-degree: 8%
 
    표면은 [시스템 관리자](../start/path/administrator.md)에 의해 정의된 구성입니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md).
 
+   마케팅 캠페인 유형과 호환되는 채널 표면만 드롭다운 목록에 나열됩니다.
+
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >마케팅 캠페인 유형과 호환되는 채널 표면만 드롭다운 목록에 나열됩니다.
+   >푸시 알림 캠페인을 만드는 경우 **[!UICONTROL 신속한 전달 모드]**: 대용량 볼륨에서 매우 빠른 푸시 메시지를 전송할 수 있는 Journey Optimizer 추가 기능입니다. [자세히 알아보기](../push/create-push.md#rapid-delivery)
 
 1. 클릭 **[!UICONTROL 만들기]** 캠페인을 만들려면
 

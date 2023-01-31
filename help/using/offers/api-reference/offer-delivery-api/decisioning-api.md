@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: f5d5c9dacd640b130dd4bcbaab803ecc7e999d10
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 2%
+source-wordcount: '1058'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 2%
 | Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
-**API 형식**
+## API 요청 {#request}
+
+### API 형식
 
 ```https
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
@@ -43,7 +45,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/ode/` |
 | `{CONTAINER_ID}` | 결정이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**요청**
+### 요청
 
 ```shell
 curl -X POST \
@@ -122,7 +124,7 @@ curl -X POST \
 | `xdm:responseFormat.xdm:option` | 이 플래그는 에 대해 반환되는 특정 메타데이터 정보를 식별합니다 `xdm:option`. | `name`, `characteristics` |
 | `xdm:responseFormat.xdm:placement` | 이 플래그는 에 대해 반환되는 특정 메타데이터 정보를 식별합니다 `xdm:placement`. | `name`, `channel`, `componentType` |
 
-**응답**
+### 응답
 
 성공적인 응답은 고유한 오퍼를 포함하여 제안에 대한 정보를 반환합니다 `xdm:propositionId`.
 
@@ -192,6 +194,20 @@ curl -X POST \
 | `xdm:propositions.xdm:fallback.dc:format` | 리소스의 실제 또는 디지털 표시. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 이 형식은 리소스를 표시하거나 운영하는 데 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정하는 데 사용할 수 있습니다. 통제 어휘에서 값(예: [인터넷 미디어 유형](http://www.iana.org/assignments/media-types/) 컴퓨터 미디어 형식 정의 | `"dc:format": "image/png"` 또는 `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | 컨텐츠 전달 네트워크 또는 서비스 종단점에서 자산을 읽을 수 있는 선택적 URL입니다. 이 URL은 사용자 에이전트에서 공개적으로 자산에 액세스하는 데 사용됩니다. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 의사 결정 응답 메시지를 만든 시간입니다. 이것은 시대를 대표하는 것이다. | `"ode:createDate": 1566497582038` |
+
+**응답 코드**
+
+아래 표에는 응답에서 반환할 수 있는 모든 코드가 나와 있습니다.
+
+| 코드 | 설명 |
+|  ---  |  ---  |
+| 200 | 성공. 지정된 활동에 대해 결정이 내려졌다 |
+| 400 | 잘못된 요청 매개 변수입니다. 잘못된 구문으로 인해 서버에서 요청을 인식할 수 없습니다. |
+| 403 | 사용 권한이 없습니다. |
+| 422 | 처리할 수 없는 엔터티입니다. 그러나 시맨틱 오류로 인해 요청 구문을 올바르게 처리할 수 없습니다. |
+| 429 | 요청이 너무 많습니다. 사용자가 지정된 시간 내에 너무 많은 요청을 보냈습니다. |
+| 500 | 내부 서버 오류입니다. 서버에서 요청을 이행할 수 없는 예기치 않은 조건이 발생했습니다. |
+| 503 | 서버 오버로드로 인해 서비스를 사용할 수 없습니다. 현재 서버가 일시적인 오버로드로 인해 요청을 처리할 수 없습니다. |
 
 ## 튜토리얼 비디오 {#video}
 

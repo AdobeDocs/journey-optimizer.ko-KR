@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 93%
+source-wordcount: '1220'
+ht-degree: 95%
 
 ---
 
@@ -110,158 +110,6 @@ ht-degree: 93%
 
 **[!UICONTROL 사용 사례 라이브러리 보기]** 버튼에서 실행된 사용 사례에 액세스할 수 있습니다.
 
-## 접근성{#accessibility}
-
-[!DNL Adobe Journey Optimizer]의 접근성 기능은 Adobe Experience Platform의 기능을 가져온 것으로 다음과 같은 기능이 제공됩니다.
-
-* 키보드 접근성
-* 색상 대비
-* 필수 필드 유효성 검사
-
-[추가 정보](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target="_blank"} Adobe Experience Platform 설명서에서 확인하십시오.
-
-[!DNL Journey Optimizer]에서는 다음과 같은 일반적 키보드 단축키를 사용할 수 있습니다.
-
-| 작업 | 단축키 |
-| --- | --- |
-| 사용자 인터페이스 요소, 섹션, 메뉴 그룹 간 이동 | 탭 |
-| 사용자 인터페이스 요소, 섹션, 메뉴 그룹 간에 뒤로 이동 | Shift + Tab |
-| 섹션 내에서 이동하여 포커스를 개별 요소로 설정 | 화살표 |
-| 포커스에 있는 요소 선택 또는 지우기 | Enter 또는 스페이스바 |
-| 선택 취소, 창 축소 또는 대화 상자 닫기 | Esc |
-
-[추가 정보](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ko){target="_blank"} Adobe Experience Platform 설명서에서 확인하십시오.
-
-Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있습니다.
-
-<table>
-  <thead>
-    <tr>
-      <th>인터페이스 요소</th>
-      <th>작업</th>
-      <th>단축키</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>여정, 작업, 데이터 소스 또는 이벤트의 목록</td>
-    <td>여정, 작업, 데이터 소스 또는 이벤트 만들기</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td rowspan="3">초안 상태의 여정 캔버스</td>
-    <td>왼쪽 팔레트의 사용 가능한 첫 번째 위치에 활동 추가(위에서 아래로)</td>
-    <td>활동 두 번 클릭</td>
-  </tr>
-  <tr>
-    <td>모든 활동 선택</td>
-    <td>CTRL + A(Windows)<br/>CMD + A(Mac)</td>
-  </tr>
-  <tr>
-    <td>선택한 활동 삭제</td>
-    <td>[삭제]를 선택하거나 백스페이스를 누른 다음 Enter 키로 삭제 확인</td>
-  </tr>
-  <tr>
-    <td>확대 및 축소(캔버스 또는 해당 하위 요소에 주력)</td>
-    <td>CTRL +/-(Windows) 또는 CMD +/-(Mac)</td>
-  </tr>  
-  <tr>
-    <td>각 활동과 경로 간(캔버스에서 포커스 지정) 또는 도구 모음 단추 간 탐색(도구 모음에 포커스 맞춤)</td>
-    <td>화살표 키</td>
-  </tr>   
-  <tr>
-    <td>포커스를 캔버스에서 다음 실행 가능한 요소로 이동합니다. 도구 모음이 첫 번째 요소임</td>
-    <td>탭</td>
-  </tr>  
-  <tr>
-    <td>오른쪽 구성 창을 엽니다(활동에 포커스 지정)</td>
-    <td>ENTER</td>
-  </tr>   
-  <tr>
-    <td>캔버스에서 활동 이동(활동에 포커스 지정)</td>
-    <td>SHIFT + 화살표 키</td>
-  </tr>  
-  <tr>
-  <td rowspan="3">
-
-다음 요소의 구성 창:
-
-<ul>
-  <li>여정의 활동</li>
-  <li>이벤트</li>
-  <li>데이터 소스</li>
-  <li>작업</li>
-</ul>
-
-</td>
-    <td>구성할 다음 필드로 이동</td>
-    <td>탭</td>
-  </tr>
-  <tr>
-    <td>변경 내용을 저장하고 구성 창 닫기</td>
-    <td>Enter</td>
-  </tr>
-  <tr>
-    <td>변경 내용을 취소하고 구성 창 닫기</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">테스트 모드 여정</td>
-    <td>테스트 모드 활성화 또는 비활성화</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>이벤트 기반 여정에서 이벤트 트리거</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>
-
-**[!UICONTROL 한 번에 하나의 프로필]** 옵션이 켜진 세그먼트 기반 여정의 이벤트 트리거
-
-</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>테스트 로그 표시</td>
-    <td>L</td>
-  </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
-  <tr>
-    <td>Page with a search bar</td>
-    <td>Select the search bar</td>
-    <td>Ctrl/Command + F</td>
-  </tr>
--->
-  <tr>
-    <td>텍스트 필드</td>
-    <td>선택한 필드의 모든 텍스트 선택</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
-  </tr>
-  <tr>
-    <td rowspan="2">팝업 창</td>
-    <td>변경 내용을 저장하거나 작업 확인</td>
-    <td>Enter</td>
-  </tr>
-  <tr>
-    <td>창 닫기</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td>단순 표현식 편집기</td>
-    <td>필드 선택 및 추가</td>
-    <td>필드 두 번 클릭</td>
-  </tr>
-  <tr>
-    <td>XDM 필드 검색</td>
-    <td>노드의 모든 필드 선택</td>
-    <td>상위 노드 선택</td>
-  </tr>
-  <tr>
-    <td>페이로드 미리 보기</td>
-    <td>페이로드 선택</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
-  </tr>
-</table>
 
 ## 도움말 및 지원 찾기 {#find-help}
 
@@ -312,7 +160,7 @@ Adobe Journey Optimizer 인터페이스의 모든 곳에서 상단 표시줄의 
 
 ## 목록 필터링{#filter-lists}
 
-대부분의 목록에서 검색 막대를 사용하여 특정 항목을 검색하고 필터링 기준을 선택할 수 있습니다.
+대부분의 목록에서 검색 막대를 사용하여 특정 항목을 찾고 필터링 기준을 정의합니다.
 
 목록 왼쪽 위의 필터 아이콘을 클릭하면 필터에 액세스할 수 있습니다. 필터 메뉴에서는 표시된 요소를 여러 조건에 따라 필터링할 수 있습니다. 예를 들어 특정 유형이나 상태의 요소, 직접 만든 요소 또는 지난 30일 동안 수정한 요소만 표시하도록 선택할 수 있습니다. 선택 사항은 컨텍스트에 따라 다릅니다.
 
