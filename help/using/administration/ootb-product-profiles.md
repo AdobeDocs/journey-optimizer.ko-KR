@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1144'
 ht-degree: 10%
 
 ---
@@ -107,8 +107,18 @@ ht-degree: 10%
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-다음 **[!DNL Decisioning manager]** 제품 프로필은 **[!UICONTROL 의사 결정 관리]** 메뉴 아래의 제품에서 사용할 수 있습니다. 이 제품 프로필에 할당된 사용자는 결정을 관리, 보기 및 게시할 수만 있습니다.
+다음 **[!DNL Decisioning manager]** 제품 프로필에서만 **[!UICONTROL 의사 결정 관리]** 메뉴 아래의 제품에서 사용할 수 있습니다. 이 제품 프로필에 할당된 사용자는 결정을 관리, 보기 및 게시할 수만 있습니다.
 
 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
 
 | 기능 | 권한| |-|-| |의사 결정 관리| <ul><li>**[!DNL Manage decisions]**: 의사결정 엔티티를 읽기, 만들기, 편집 및 삭제합니다.</li><li>**[!DNL View decisions]**: 의사 결정 엔터티에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽기, 만들기, 편집, 삭제하고 작업 기능을 사용합니다.</li><li>**[!DNL Publish decisions]**: 의사결정 활동을 활성화 또는 비활성화합니다.</li></ul>|
+
+## [!DNL Content Library Manager] {#content-library-manager}
+
+다음 **[!DNL Content Library Manager]** 제품 프로필에서만 **[!UICONTROL 콘텐츠 템플릿]** 메뉴 아래의 제품에서 사용할 수 있습니다. 이 제품 프로필에 할당된 사용자는 여정 또는 캠페인에 액세스하지 않고 템플릿 라이브러리에 액세스하여 컨텐츠를 만들 수만 있습니다.
+
+이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
+
+| 기능 | 권한| |-|-| |Journey Optimizer 라이브러리| <ul><li>**[!DNL Manage library items]**: Journey Optimizer 라이브러리 항목을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage simulate content]**: 액세스 권한 **[!UICONTROL 컨텐츠 시뮬레이션]** 미리 보기 및 증명을 위한 옵션.</li></ul>|
+|의사 결정 관리|<ul><li>**[!DNL Manage decisions]**: 의사결정 엔티티를 읽기, 만들기, 편집 및 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽기, 만들기, 편집, 삭제하고 작업 기능을 사용합니다.</li></ul>|
+|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: 세그먼트 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제합니다.</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽고, 만들고, 편집하고, 삭제합니다.</li></ul>|

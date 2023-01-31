@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 이메일, 디자인, 재고, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 18%
@@ -45,7 +45,6 @@ ht-degree: 18%
       >[!NOTE]
       >
       >캠페인에서 **[!UICONTROL 코드 편집기]** 단추 **[!UICONTROL 컨텐츠 편집]** 화면. [자세히 알아보기](create-email.md#define-email-content)
-
 
    * **기존 HTML 콘텐츠 가져오기** 파일 또는 .zip 폴더에서 사용할 수 있습니다. 에서 전자 메일 콘텐츠를 가져오는 방법을 알아봅니다. [이 섹션](existing-content.md).
 

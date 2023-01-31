@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 이메일, 템플릿, 디자인
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 5%
+source-wordcount: '279'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,8 @@ ht-degree: 5%
 
 다음 중에서 선택할 수 있습니다.
 * 20개의 기본 제공 이메일 템플릿.
-* 저장된 템플릿. [자세히 알아보기](#use-saved-template)
+* 저장된 이메일 템플릿. [자세히 알아보기](#use-saved-template)
+* 콘텐츠 템플릿. [자세히 알아보기](content-templates.md)
 
 ## 템플릿으로 저장 {#save-as-template}
 
@@ -34,6 +35,10 @@ ht-degree: 5%
 >abstract="2022년 7월 25일 메시지 메뉴가 사라졌고 이제 여정에서 메시지를 바로 작성할 수 있습니다. 여정에서 기존 메시지를 다시 사용하려면 템플릿을 템플릿으로 저장해야 합니다."
 
 일단 당신이 [이메일 콘텐츠](get-started-email-design.md)나중에 다시 사용할 수 있도록 저장할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
+
+>[!CAUTION]
+>
+>컨텐츠를 템플릿으로 저장하려면 **[!DNL Manage Library Items]** 에 포함된 권한 **[!DNL Content Library Manager]** 제품 프로필 . [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
 1. 화면의 오른쪽 상단에 있는 줄임표를 클릭합니다.
 
@@ -46,6 +51,8 @@ ht-degree: 5%
    ![](assets/email_designer-template-name.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+이 템플릿은 컨텐츠 템플릿 목록에 저장됩니다. [자세히 알아보기](content-templates.md)
 
 다음에 이메일을 만들 때 이 템플릿을 사용하여 콘텐츠를 작성할 수 있습니다. [방법 알아보기](#use-saved-template)
 
