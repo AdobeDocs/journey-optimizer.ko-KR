@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 3%
@@ -61,7 +61,7 @@ ht-degree: 3%
 
 +++
 
-+++ _experience > decisioning > 기준 > 설명**
++++ _experience > decisioning > 기준 > 설명
 
 **필드:** 설명
 **제목:** 설명
@@ -110,7 +110,7 @@ ht-degree: 3%
 
 +++
 
-+++_experience > decisioning > 기준 > 배치**
++++_experience > decisioning > 기준 > 배치
 
 **필드:** 배치
 **제목:** 배치 제한
@@ -125,7 +125,7 @@ ht-degree: 3%
 
 +++
 
-+++_experience > decisioning > 기준 > profileConstraints**
++++_experience > decisioning > 기준 > profileConstraints
 
 **필드:** profileConstraints
 **제목:** 프로필 제한
@@ -205,7 +205,7 @@ ht-degree: 3%
 
 +++
 
-+++_experience > decisioning > 기준 > 등급**
++++_experience > decisioning > 기준 > 등급
 
 **필드:** 등급
 **제목:** 등급 세부 정보
@@ -292,7 +292,7 @@ ht-degree: 3%
 
 +++
 
-+++ _repo {#repo}
++++ _repo
 
 **필드:** _repo
 **유형:** 개체
