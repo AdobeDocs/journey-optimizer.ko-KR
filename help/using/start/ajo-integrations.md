@@ -8,8 +8,8 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
-workflow-type: tm+mt
-source-wordcount: '580'
+workflow-type: ht
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Adobe Journey Optimizer를 사용하면 이 데이터를 쉽게 관리하고 유
 
 >[!NOTE]
 >
-> Adobe Experience Platform을 기반으로 구축된 Adobe Journey Optimizer는 기본적으로 [Adobe 실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target=&quot;_blank&quot;}에 연결됩니다. 기본 제공 데이터 소스는 사전 구성되어 있으며 실시간 고객 프로필에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정에 참여한 사람이 클라이언트인지 여부 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. [자세히 알아보기](../datasource/adobe-experience-platform-data-source.md).
+> Adobe Journey Optimizer는 Adobe Experience Platform을 기반으로 구축되어 기본적으로 [Adobe실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에 연결되어 있습니다. 기본 제공 데이터 소스는 사전 구성되어 있으며 실시간 고객 프로필에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정에 참여한 사람이 클라이언트인지 여부 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. [자세히 알아보기](../datasource/adobe-experience-platform-data-source.md).
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 
@@ -59,7 +59,7 @@ Adobe Campaign Standard과 통합하여 여정에서 메시지를 보내도록 �
 
 ## 사용자 지정 채널{#integration-custom}
 
-서드파티 시스템을 사용하여 메시지를 보내거나 서드파티 시스템으로 API 호출을 보내려는 경우, 사용자 지정 작업을 사용하여 여정에 연결합니다. 예를 들어, 사용자 지정 작업으로 Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase 등의 시스템에 연결할 수 있습니다.
+서드파티 시스템을 사용하여 메시지를 보내거나 서드파티 시스템으로 API 호출을 보내려는 경우, 사용자 지정 작업을 사용하여 여정에 연결합니다. 예를 들어, 사용자 정의 작업으로 Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase 등의 시스템에 연결할 수 있습니다.
 
 사용자 지정 작업은 기술 사용자가 정의하고 마케터가 사용할 수 있는 추가 작업입니다. 구성하고 나면 여정의 왼쪽 팔레트에서 **[!UICONTROL 작업]** 카테고리가 표시됩니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)에서 자세히 알아보십시오.
 
