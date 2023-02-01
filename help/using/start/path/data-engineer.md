@@ -6,8 +6,8 @@ description: 데이터 엔지니어로서 Journey Optimizer로 작업하는 방�
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
-source-wordcount: '580'
+workflow-type: ht
+source-wordcount: '578'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target=&quot;_blank&quot;}에서 **데이터 수집**&#x200B;에 대해 자세히 알아보세요.
+>**데이터 수집**&#x200B;에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}를 참조하세요.
 
 프로필 및 테스트 프로필에 대해 활성화된 ID 네임스페이스 및 데이터 세트를 만드는 단계는 아래 섹션에 자세히 설명되어 있습니다.
 
