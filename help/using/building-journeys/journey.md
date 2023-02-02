@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 28%
+source-wordcount: '590'
+ht-degree: 27%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 28%
 
 ## 여정 만들기 단계{#steps-journey}
 
-Adobe Journey Optimizer을 사용하여 단일 캔버스에서 개인화된 여정을 디자인하고 오케스트레이션할 수 있습니다.
+Adobe Journey Optimizer을 사용하여 단일 캔버스에서 개인화된 여정을 디자인하고 오케스트레이션할 수 있습니다. 여정을 만드는 주요 단계는 다음과 같습니다.
+
+![](assets/journey-creation-process.png)
 
 Adobe Journey Optimizer에는 마케터가 일대일 고객 참여와 마케팅 활동을 조화롭게 처리할 수 있는 옴니채널 오케스트레이션 캔버스가 포함되어 있습니다. 사용자 인터페이스를 사용하면 팔레트의 활동을 캔버스로 끌어다 놓아 여정을 작성할 수 있습니다.
 

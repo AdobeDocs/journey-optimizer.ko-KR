@@ -5,9 +5,9 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '324'
 ht-degree: 100%
 
 ---
@@ -127,6 +127,9 @@ ht-degree: 100%
     <li>
       <a href="using/email/assets-essentials.md">자산</a>
     </li>
+    <li>
+      <a href="using/email/content-templates.md">콘텐츠 템플릿</a>
+    </li>
     <p>
     <p>데이터 관리</p>
     <li>
@@ -173,6 +176,9 @@ ht-degree: 100%
     <p>관리</p>
     <li>
       <a href="using/configuration/about-data-sources-events-actions.md">구성</a>
+    </li>
+    <li>
+      <a href="using/configuration/frequency-rules.md">규칙</a>
     </li>
     <li>
       <a href="using/configuration/get-started-configuration.md">채널</a>
