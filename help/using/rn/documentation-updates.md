@@ -4,16 +4,20 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
 workflow-type: tm+mt
-source-wordcount: '2282'
-ht-degree: 97%
+source-wordcount: '2307'
+ht-degree: 96%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2023년 2월 {#feb-2023}
+
+* 요청으로 전달된 컨텍스트 속성이 50kb를 초과할 수 없음을 지정하는 API 트리거된 캠페인 설명서에 메모를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
 
 ## 2023년 1월 {#jan-2023}
 

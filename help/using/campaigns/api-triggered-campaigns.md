@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 캠페인, API 트리거됨, REST, 최적화 프로그램, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '827'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,10 @@ API로 트리거되는 캠페인을 사용하여 API 페이로드에서 추가 �
 
 ![](assets/api-triggered-context.png)
 
+
 >[!IMPORTANT]
+>
+>요청에 전달된 컨텍스트 특성은 50kb를 초과할 수 없습니다.
 >
 >다음 `context.system` 구문은 Adobe 내부 사용으로만 제한되며 컨텍스트 속성을 전달하는 데 사용해서는 안 됩니다.
 
