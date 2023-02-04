@@ -2,9 +2,9 @@
 title: 일괄 의사 결정
 description: 주어진 Adobe Experience Platform 세그먼트의 모든 프로필에 오퍼 결정을 제공하는 방법을 알아봅니다.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
+source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ API를 사용하여 일괄 전달을 수행할 수도 있습니다. 자세한 �
 
    >[!NOTE]
    >
-   >하루에 한 번 발생하는 프로필 스냅샷에서 일괄 처리 작업이 실행됩니다. 배치 의사 결정은 빈도를 제한하며 항상 최신 스냅샷의 프로필을 로드합니다.
+   >하루에 한 번 발생하는 프로필 스냅샷에서 일괄 처리 작업이 실행됩니다. 배치 의사 결정은 빈도를 제한하며 항상 최신 스냅샷의 프로필을 로드합니다. 배치 결정 API를 시도하기 전에 세그먼트를 만든 후 최대 24시간 대기해야 합니다.
 
 * **결정** Adobe Journey Optimizer. [결정을 만드는 방법 알아보기](offer-activities/create-offer-activities.md)
 
