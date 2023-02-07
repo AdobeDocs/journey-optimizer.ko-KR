@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 억제, 목록, 바운스, 이메일, 최적기, 격리
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5b0ff95ccfc1140eb380bf321c810a594946e6
+source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,19 @@ ht-degree: 0%
 
 제외된 이메일 주소 및 도메인의 세부 목록에 액세스하려면 다음 위치로 이동하십시오 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 이메일 구성]**, 을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL 제외 목록]**.
 
+
+![](assets/suppression-list-access.png)
+
 >[!CAUTION]
 >
 >제외 목록을 보고, 내보내고 관리할 수 있는 권한은 다음으로 제한됩니다 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator). 관리에 대해 자세히 알아보기 [!DNL Journey Optimizer] 사용자 액세스 권한 [이 섹션](../administration/permissions-overview.md).
 
-![](assets/suppression-list-access.png)
 
 필터를 사용하여 목록을 탐색할 수 있습니다.
 
 ![](assets/suppression-list-filters.png)
 
-을(를) **[!UICONTROL 제외 카테고리]**, **[!UICONTROL 주소 유형]**, 또는 **[!UICONTROL 이유]**. 각 기준에 대해 선택한 옵션을 선택합니다. 선택하면 각 필터 또는 목록 맨 위에 표시된 모든 필터를 지울 수 있습니다.
+을(를) **[!UICONTROL 제외 카테고리]**, **[!UICONTROL 주소 유형]**, 또는 **[!UICONTROL 이유]**. 각 기준에 대해 하나 이상의 옵션을 선택합니다. 선택하면 각 필터 또는 목록 맨 위에 표시된 모든 필터를 지울 수 있습니다.
 
 ![](assets/suppression-list-filtering-example.png)
 
@@ -57,7 +59,7 @@ ht-degree: 0%
 
 * **소프트**: 소프트 바운스는 유효한 이메일 주소에 대해 발생한 임시 이메일 바운스입니다. 여러 번 다시 시도한 후 이메일 주소가 제외 목록에 추가됩니다. 소프트 오류의 경우 오류 카운터가 제한 임계값에 도달하면 제외 목록에 주소를 보냅니다. [다시 시도하는 방법에 대해 자세히 알아보기](retries.md)
 
-* **수동**: 수동 오류가 억제 목록에 수동으로 추가되었습니다. [자세히 알아보기](#add-addresses-and-domains)
+* **수동**: 수동 오류가 제외 목록에 수동으로 추가되었습니다. [자세히 알아보기](#add-addresses-and-domains)
 
 나열된 각 이메일 주소에 대해 다음을 확인할 수도 있습니다 **[!UICONTROL 유형]** (이메일 또는 도메인), **[!UICONTROL 이유]** 제외하기 위해 추가한 사람과 제외 목록에 추가한 날짜/시간입니다.
 
