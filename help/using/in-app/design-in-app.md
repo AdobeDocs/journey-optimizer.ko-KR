@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '884'
 ht-degree: 5%
 
 ---
@@ -194,3 +194,9 @@ ht-degree: 5%
 * [인앱 메시지 만들기](create-in-app.md)
 * [인앱 보고서 ](inapp-report.md)
 * [인앱 구성](inapp-configuration.md)
+
+## 방법 비디오{#video}
+
+아래 비디오에서는 인앱 메시지를 작성 및 테스트하는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 구성 요소, 이메일 디자이너, 편집기, 이메일
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -168,44 +168,6 @@ ht-degree: 0%
    ![](assets/email_designer_10.png)
 
 1. 여백, 테두리 등과 같은 다른 스타일 속성을 조정합니다. 또는 링크를 추가하여 대상자를 **[!UICONTROL 구성 요소 설정]** 창
-
-## 비디오 {#Video}
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="비디오 설정"
->abstract="이 구성 요소를 사용하여 이메일에 비디오를 삽입합니다. 모든 이메일 클라이언트는 비디오가 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="비디오 설정"
->abstract="이 구성 요소를 사용하여 랜딩 페이지에 비디오를 삽입합니다. 일부 메시지 클라이언트에서는 비디오가 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="비디오 설정"
->abstract="이 구성 요소를 사용하여 조각에 비디오를 삽입합니다. 일부 메시지 클라이언트에서는 비디오가 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="비디오 설정"
->abstract="이 구성 요소를 사용하여 템플릿에 비디오를 삽입합니다. 일부 메시지 클라이언트에서는 비디오가 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
-
-를 사용하십시오 **[!UICONTROL 비디오]** URL 링크를 통해 이메일 콘텐츠에 비디오를 삽입하는 구성 요소입니다.
-
-1. From **[!UICONTROL 컨텐츠 구성 요소]**&#x200B;을(를) 끌어다 놓습니다. **[!UICONTROL 비디오]** 화합물 **[!UICONTROL 구조 구성 요소]**.
-
-   ![](assets/email_designer_17.png)
-
-1. 새로 추가한 구성 요소를 클릭합니다.
-
-1. 에서 **[!UICONTROL 비디오 링크]** 필드 **[!UICONTROL 구성 요소 설정]** 창에서 비디오 URL을 추가합니다.
-
-   ![](assets/email_designer_18.png)
-
-1. 을(를) 추가할 수 있습니다 **[!UICONTROL 포스터 이미지]** 를 추가하여 대상자가 재생 버튼을 클릭할 때까지 표시할 이미지를 지정합니다.
-
-1. 스타일, 여백, 테두리 등과 같은 다른 스타일 속성을 조정합니다. 에서 **[!UICONTROL 구성 요소 설정]** 창
 
 ## Social {#social}
 

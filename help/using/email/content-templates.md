@@ -7,19 +7,14 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '985'
 ht-degree: 2%
 
 ---
 
 # 콘텐츠 템플릿 작업 {#content-templates}
-
->[!CONTEXTUALHELP]
->id="ajo_content_templates"
->title="콘텐츠 템플릿 만들기"
->abstract="여정 및 캠페인에서 컨텐츠를 재사용할 독립형 템플릿을 만듭니다."
 
 가속화되고 향상된 디자인 프로세스를 위해 독립형 템플릿을 만들어 전체 사용자 정의 컨텐츠를 쉽게 재사용할 수 있습니다 [!DNL Journey Optimizer] 캠페인 및 여정.
 
@@ -58,6 +53,11 @@ ht-degree: 2%
 >템플릿을 편집하거나 삭제하면 이 템플릿을 사용하여 만든 이메일을 포함하는 캠페인 또는 여정은 영향을 받지 않습니다.
 
 ## 콘텐츠 템플릿 만들기 {#create-content-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="자신만의 콘텐츠 템플릿을 정의하십시오"
+>abstract="처음부터 독립형 사용자 지정 템플릿을 만들어 여러 여정 및 캠페인에서 콘텐츠를 재사용할 수 있도록 합니다."
 
 컨텐츠 템플릿을 만드는 방법에는 두 가지가 있습니다.
 

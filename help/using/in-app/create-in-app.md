@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '627'
 ht-degree: 4%
 
 ---
@@ -115,3 +115,9 @@ ht-degree: 4%
 * [인앱 메시지 디자인](design-in-app.md)
 * [인앱 보고서 ](inapp-report.md)
 * [인앱 구성](inapp-configuration.md)
+
+## 방법 비디오{#video}
+
+아래 비디오에서는 캠페인에서 인앱 메시지를 만들고, 구성하고, 게시하는 방법을 보여줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)

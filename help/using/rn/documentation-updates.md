@@ -4,10 +4,10 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '2307'
-ht-degree: 96%
+source-wordcount: '2330'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 96%
 ## 2023년 2월 {#feb-2023}
 
 * 요청으로 전달된 컨텍스트 속성이 50kb를 초과할 수 없음을 지정하는 API 트리거된 캠페인 설명서에 메모를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
+
+* 옵트아웃 정보가 **동의 서비스 데이터 세트** 수신자가 랜딩 페이지를 통해 구독을 취소한 후 [자세히 보기](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023년 1월 {#jan-2023}
 
