@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 억제, 목록, 바운스, 이메일, 최적기, 격리
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
+source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 0%
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 제외 규칙  {#suppression-rules}
 
-에서 **[!UICONTROL 제외 목록]** 보기에서 제외 규칙과 연결된 다시 시도 매개 변수를 편집할 수도 있습니다 **[!UICONTROL 제외 규칙 편집 단추]**. 이 옵션을 사용하여 현재 샌드박스의 재시도 임계값을 업데이트합니다. [자세히 알아보기](retries.md)
+에서 **[!UICONTROL 제외 목록]** 보기에서 제외 규칙과 연결된 다시 시도 매개 변수를 편집할 수도 있습니다 **[!UICONTROL 제외 규칙 편집]** 버튼을 클릭합니다. 이 옵션을 사용하여 현재 샌드박스의 재시도 임계값을 업데이트합니다. [다시 시도하는 방법에 대해 자세히 알아보기](retries.md).
 
 
 ## 제외 목록에 주소 및 도메인 추가{#add-addresses-and-domains}
@@ -126,7 +126,7 @@ ht-degree: 0%
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. 주소 유형을 선택합니다. **[!UICONTROL 이메일 주소]** 또는 **[!UICONTROL 도메인 주소]**.
+1. 주소 유형을 선택합니다. **[!UICONTROL 이메일]** 또는 **[!UICONTROL 도메인]**.
 
 1. 전송에서 제외할 이메일 주소 또는 도메인을 입력합니다.
 
