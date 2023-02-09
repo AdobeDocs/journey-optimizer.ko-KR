@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 억제, 목록, 바운스, 이메일, 최적기, 격리
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 0%
@@ -221,7 +221,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 예를 들어, ISP(인터넷 서비스 공급자) 서비스 중단이 발생하면, 이메일은 수신자에게 성공적으로 전달할 수 없기 때문에 하드 바운스로 잘못 표시됩니다. 이러한 이메일 주소는 제외 목록에서 제거해야 합니다.
 
-이러한 주소를 검색하려면 중단 컨텍스트에 따라 사용자 지정 매개 변수로 특정 쿼리를 실행합니다. [이 샘플에서 자세히 알아보기](../data/datasets-query-examples.md#isp-outageisp-outage-query).
+이러한 주소를 검색하려면 중단 컨텍스트에 따라 사용자 지정 매개 변수로 특정 쿼리를 실행합니다. [이 샘플에서 자세히 알아보기](../data/datasets-query-examples.md#isp-outage-query).
 
 영향을 받는 이메일 주소가 식별되면 제외 목록을 필터링하여 표시합니다. 예를 들어, ISP 중단이 2022년 11월 11일부터 2022년 11월 13일까지 **test.com** 도메인, 아래와 같이 해당 기간의 제외 목록에 추가된 주소를 필터링하십시오.
 
