@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 데이터 세트, 최적기, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,28 @@ select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
+
+### ISP 중단 후 격리된 주소 확인{#isp-outage-query}
+
+ISP(Internet Service Provider)가 서비스 중단되는 경우, 일정 동안 특정 도메인에 대한 바운스(격리됨)로 잘못 표시된 이메일 주소를 확인해야 합니다. 이러한 주소를 가져오려면 다음 쿼리를 사용하십시오.
+
+```sql
+SELECT
+    _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
+    timestamp AS EventTime,
+    _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.reason AS "Invalid Recipient"
+FROM cjm_message_feedback_event_dataset
+WHERE
+    eventtype = 'message.feedback' AND
+    DATE(timestamp) BETWEEN '<start-date-time>' AND '<end-date-time>' AND
+    _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND
+    _experience.customerJourneyManagement.emailChannelContext.address ILIKE '%domain.com%'
+ORDER BY timestamp DESC;
+```
+
+날짜 형식은 다음과 같습니다. YYYY-MM-DD HH:MM:SS.
+
+식별되면 Journey Optimizer 제외 목록에서 해당 주소를 제거합니다. [자세히 알아보기](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 ## 푸시 추적 경험 이벤트 데이터 세트 {#push-tracking-experience-event-dataset}
 
