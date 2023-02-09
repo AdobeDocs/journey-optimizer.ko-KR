@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 억제, 목록, 바운스, 이메일, 최적기, 격리
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
+source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 0%
@@ -220,13 +220,13 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 >이메일 주소 또는 도메인 삭제를 고려할 때 추가 주의가 필요합니다. 확실하지 않은 경우 게재 가능성 전문가에게 문의하십시오.
 
 
-예를 들어, ISP(인터넷 서비스 공급자) 서비스 중단이 발생하면, 이메일은 수신자에게 성공적으로 전달할 수 없기 때문에 하드 바운스로 잘못 표시됩니다. 이러한 이메일 주소는 제외 목록에서 제거해야 합니다.
+예를 들어, ISP(인터넷 서비스 공급자) 서비스 중단이 발생하면, 이메일은 수신자에게 성공적으로 전달할 수 없기 때문에 하드 바운스로 잘못 표시될 수 있습니다. 이러한 이메일 주소는 제외 목록에서 제거해야 합니다.
 
 이를 수행하려면 영향을 받는 이메일 주소 또는 도메인을 표시하도록 제외 목록을 필터링하십시오. 예를 들어, ISP 중단이 2022년 11월 11일부터 2022년 11월 13일까지 **test.com** 도메인, 아래와 같이 해당 기간의 제외 목록에 추가된 주소를 필터링하십시오.
 
 ![](assets/remove-from-supp-list.png)
 
-또한 중단의 세부 정보에 따라 하드 바운스 유형에 필터를 추가해야 합니다. 이러한 세부 사항은 보낸 사람에게 반환되는 정확한 오류 코드와 같이 ISP가 제공합니다. 예: `550 <email address> recipient rejected` 또는 `550 5.1.1 ‘email address’: user lookup success but no user record found`.
+또한 중단의 세부 정보에 따라 바운스 유형에 필터를 추가해야 합니다. 이러한 세부 사항은 보낸 사람에게 반환되는 정확한 오류 코드와 같이 ISP가 제공합니다. 예: `550 <email address> recipient rejected` 또는 `550 5.1.1 ‘email address’: user lookup success but no user record found`.
 
 식별되면 다음을 사용하여 제외 목록에서 이러한 주소를 수동으로 제거할 수 있습니다 **[!UICONTROL 삭제]** 버튼을 클릭합니다. 그런 다음 이러한 주소를 향후 이메일 캠페인에 포함할 수 있습니다.
 
