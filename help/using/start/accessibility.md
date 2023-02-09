@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer의 접근성 기능
 description: Journey Optimizer 사용자 인터페이스의 접근성에 대해 자세히 알아봅니다
-feature: Overview
+feature: Accessibility
 role: User
 level: Beginner
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 54%
+ht-degree: 69%
 
 ---
 
@@ -60,31 +60,31 @@ Adobe Experience Platform의 접근성 기능에 대해서는 자세히 설명�
   </tr>
   <tr>
     <td>모든 활동 선택</td>
-    <td>CTRL + A(Windows)<br/>CMD + A(Mac)</td>
+    <td>CTRL+A(Windows)<br/>CMD+A(Mac)</td>
   </tr>
   <tr>
     <td>선택한 활동 삭제</td>
     <td>[삭제]를 선택하거나 백스페이스를 누른 다음 Enter 키로 삭제 확인</td>
   </tr>
   <tr>
-    <td>확대 및 축소(캔버스 또는 해당 하위 요소에 주력)</td>
-    <td>CTRL +/-(Windows) 또는 CMD +/-(Mac)</td>
+    <td>확대 및 축소(캔버스 또는 하위 요소 중 하나에 포커스)</td>
+    <td>CTRL+/-(Windows) 또는 CMD+/-(Mac)</td>
   </tr>  
   <tr>
-    <td>각 활동과 경로 간(캔버스에서 포커스 지정) 또는 도구 모음 단추 간 탐색(도구 모음에 포커스 맞춤)</td>
+    <td>각 활동과 경로 간(캔버스에 포커스) 또는 도구 모음 버튼 간(도구 모음에 포커스) 이동</td>
     <td>화살표 키</td>
   </tr>   
   <tr>
-    <td>포커스를 캔버스에서 다음 실행 가능한 요소로 이동합니다. 도구 모음이 첫 번째 요소임</td>
+    <td>포커스를 캔버스의 다음 작업  요소로 옮깁니다. 도구 모음이 첫 번째입니다.</td>
     <td>탭</td>
   </tr>  
   <tr>
-    <td>오른쪽 구성 창을 엽니다(활동에 포커스 지정)</td>
+    <td>오른쪽 구성 창 열기(활동에 포커스)</td>
     <td>ENTER</td>
   </tr>   
   <tr>
-    <td>캔버스에서 활동 이동(활동에 포커스 지정)</td>
-    <td>SHIFT + 화살표 키</td>
+    <td>캔버스에서 활동 이동(활동에 포커스)</td>
+    <td>SHIFT+화살표 키</td>
   </tr>  
   <tr>
   <td rowspan="3">

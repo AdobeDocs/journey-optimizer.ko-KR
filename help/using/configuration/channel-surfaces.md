@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 채널 표면 설정
 description: 채널 표면을 구성하고 모니터링하는 방법을 알아봅니다
-feature: Application Settings
+feature: Application Settings, Surface
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: channel, surface, 기술, 매개변수, 최적기
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 3%

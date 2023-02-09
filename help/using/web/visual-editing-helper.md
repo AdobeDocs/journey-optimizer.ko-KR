@@ -1,16 +1,16 @@
 ---
 title: Visual Editing Helper 확장 기능
 description: Journey Optimizer에서 웹 페이지를 작성 및 미리 볼 수 있는 Visual Editing Helper Chrome 확장 프로그램을 살펴보십시오
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '396'
 ht-degree: 14%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 14%
 
 Visual Editing Helper 브라우저 확장 프로그램을 가져와 설치하려면 아래 단계를 따르십시오.
 
-1. Google Chrome 웹 스토어에서 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=&quot;_blank&quot;} 브라우저 확장.
+1. Google Chrome 웹 스토어에서 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 브라우저 확장.
 
 1. **[!UICONTROL Chrome에 추가]** > **[!UICONTROL 확장 기능 추가]**&#x200B;를 클릭합니다.
 
@@ -56,7 +56,7 @@ Visual Editing Helper 브라우저 확장 프로그램을 가져와 설치하려
 
 Adobe 사용 시 [!DNL Journey Optimizer] 웹 디자이너에 로드하지 못하는 웹 사이트를 로드하려고 하면 설치 메시지가 표시됩니다 [시각적 편집 도우미 브라우저 확장](#install-visual-editing-helper).
 
-웹 사이트에 Adobe Experience Platform Web SDK가 아직 구현되지 않은 경우 웹 디자이너에 Visual Editing Helper 브라우저 확장 프로그램을 설치하고 를 구현하라는 메시지가 표시됩니다 [웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target=&quot;_blank&quot;}.
+웹 사이트에 Adobe Experience Platform Web SDK가 아직 구현되지 않은 경우 웹 디자이너에 Visual Editing Helper 브라우저 확장 프로그램을 설치하고 를 구현하라는 메시지가 표시됩니다 [웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}.
 
 사이트가 로드되지 않거나 예기치 않게 동작하는 경우 Adobe에서 사이트를 로드하기 전에 브라우저에서 웹 사이트의 쿠키를 허용하는 것이 잠재적 수정 사항입니다 [!DNL Journey Optimizer].
 

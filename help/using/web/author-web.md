@@ -1,16 +1,16 @@
 ---
 title: 웹 페이지 작성
 description: Journey Optimizer에서 웹 페이지를 작성하고 해당 컨텐츠를 편집하는 방법을 알아봅니다
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1097'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,7 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 >[!CAUTION]
 >
->에서 액세스 [!DNL Journey Optimizer]를 설정하는 경우 웹 페이지는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target=&quot;_blank&quot;}.
+>에서 액세스 [!DNL Journey Optimizer]를 설정하는 경우 웹 페이지는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}.
 
 1. 에서 **[!UICONTROL 작업]** 캠페인의 탭에서 을 선택합니다. **[!UICONTROL 컨텐츠 편집]** 웹 캠페인 작성을 시작하려면 다음을 수행하십시오.
 
@@ -61,7 +61,7 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
    >[!CAUTION]
    >
-   >웹 페이지에는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target=&quot;_blank&quot;}.
+   >웹 페이지에는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}.
 
 1. 클릭 **[!UICONTROL 웹 디자이너 열기]** 편집 [자세히 알아보기](author-web.md)
 
