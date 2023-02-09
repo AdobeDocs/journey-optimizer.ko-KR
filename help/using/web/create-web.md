@@ -1,14 +1,14 @@
 ---
 title: 웹 경험 만들기
 description: Journey Optimizer에서 웹 페이지를 작성하고 해당 컨텐츠를 편집하는 방법을 알아봅니다
-feature: Web channel
+feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 6%
