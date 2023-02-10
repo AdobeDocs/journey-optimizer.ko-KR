@@ -2,22 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer의 접근성 기능
-description: Journey Optimizer 사용자 인터페이스의 접근성에 대해 자세히 알아봅니다
+description: Journey Optimizer 사용자 인터페이스 접근성에 대해 자세히 알아보기
 feature: Accessibility
 role: User
 level: Beginner
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # Journey Optimizer의 접근성{#accessibility}
 
-접근성은 시각, 청각, 인지, 모터 또는 기타 유형의 장애가 있는 사용자가 최대한 적은 노력으로 소프트웨어 제품을 사용할 수 있도록 하는 일련의 기능을 의미합니다. Adobe은 액세스 가능성 분야의 업계 선도자이며, 개발자가 모든 사용자가 액세스할 수 있는 풍부하고 매력적인 콘텐츠를 제작하도록 유도하여 뛰어난 웹 경험 작성을 지원합니다. 에서 액세스 가능성에 대한 Adobe의 결의에 대해 자세히 알아보십시오 [Adobe 접근성 페이지](https://www.adobe.com/accessibility.html){target="_blank"}.
+접근성은 시각, 청각, 인지, 운동 장애 또는 기타 유형의 장애가 있는 사용자가 가능한 적은 노력으로 소프트웨어 제품을 사용할 수 있도록 해주는 일련의 기능을 말합니다. .Adobe는 접근성 분야의 업계 리더이며, 개발자로 하여금 모든 사용자가 액세스할 수 있는 풍부하고 매력적인 콘텐츠를 제작하도록 장려하여 뛰어난 웹 경험을 제공할 수 있도록 지원합니다. [Adobe 접근성 페이지](https://www.adobe.com/accessibility.html){target="_blank"}에서 접근성에 대한 Adobe의 노력에 대해 자세히 알아보십시오.
 
-액세서빌러티 적합성 목표를 충족하는 데 도움이 되도록 하려면, [!DNL Journey Optimizer] 는 WCAG(Web Content Accessibility Guidelines) 2.1 Level A 및 Level AA에서 국제적으로 승인된 우수 사례를 따릅니다. 최신 정보에서 자세히 알아보기 [Adobe Journey Optimizer 액세스 가능성 적합성 보고서](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
+[!DNL Journey Optimizer](은)는 접근성 준수 목표를 달성하는 데 도움이 되도록 WCAG(Web Content Accessibility Guidelines) 2.1 Level A 및 Level AA에서 국제적으로 인정받는 모범 사례를 따릅니다. 최신 [Adobe Journey Optimizer 접근성 준수 보고서](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}에 대해 자세히 알아보십시오.
 
 
 [!DNL Adobe Journey Optimizer]의 접근성 기능은 Adobe Experience Platform의 기능을 가져온 것으로 다음과 같은 기능이 제공됩니다.
@@ -26,9 +26,9 @@ ht-degree: 69%
 * 색상 대비
 * 필수 필드 유효성 검사
 
-Adobe Experience Platform의 접근성 기능에 대해서는 자세히 설명합니다 [이 설명서에서](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target="_blank"}.
+[이 설명서](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target="_blank"}에는 Adobe Experience Platform의 접근성 기능이 자세히 나와 있습니다.
 
-다음과 같은 일반적인 키보드 단축키는에서 사용할 수 있습니다 [!DNL Journey Optimizer]:
+다음과 같은 일반적인 키보드 단축키는 [!DNL Journey Optimizer]에서 사용할 수 있습니다.
 
 | 작업 | 단축키 |
 | --- | --- |
@@ -38,7 +38,7 @@ Adobe Experience Platform의 접근성 기능에 대해서는 자세히 설명�
 | 포커스에 있는 요소 선택 또는 지우기 | Enter 또는 스페이스바 |
 | 선택 취소, 창 축소 또는 대화 상자 닫기 | Esc |
 
-이러한 단축키는 [!DNL Journey Optimizer] 사용자 인터페이스:
+이러한 단축키는 [!DNL Journey Optimizer] 사용자 인터페이스의 특정 영역에서 사용할 수 있습니다.
 
 <table>
   <thead>
