@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->감사 로그를 보고 내보내려면 **[!DNL View User Activity Log]** 권한이 부여되었습니다. [자세히 알아보기](../administration/ootb-product-profiles.md)
+>감사 로그를 보고 내보내려면 **[!DNL View User Activity Log]** 권한이 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md)
 
 Journey Optimizer를 사용하면 시스템에서 여정, 메시지, 랜딩 페이지 등과 같은 다양한 서비스 및 기능에서 사용자가 수행한 작업을 식별할 수 있습니다.
 
 이를 통해 시스템에서 수행되는 작업의 가시성을 높이고, 문제를 해결하며, 규정 및 기업 데이터 관리 정책을 준수할 수 있습니다.
 
-각 작업은 Adobe Experience Platform에서 액세스할 수 있는 &quot;감사 로그&quot;에 메타데이터로 기록됩니다. UI 또는 API에서 감사 로그를 보고 관리하는 방법을 비롯한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=ko).
+각 작업은 Adobe Experience Platform에서 액세스할 수 있는 &quot;감사 로그&quot;에 메타데이터로 기록됩니다. UI 또는 API에서 감사 로그를 보고 관리하는 방법 등 감사 로그에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=ko)를 참조하세요.
 
 ![](assets/audit-logs.png)
 
