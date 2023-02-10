@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '2330'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 95%
 
 ## 2023년 2월 {#feb-2023}
 
-* 요청으로 전달된 컨텍스트 속성이 50kb를 초과할 수 없음을 지정하는 API 트리거된 캠페인 설명서에 메모를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
+* 요청으로 전달된 컨텍스트 속성이 50kb를 초과할 수 없도록 지정하는 API-트리거된 캠페인 설명서에 메모를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
 
 * 옵트아웃 정보가 **동의 서비스 데이터 세트** 수신자가 랜딩 페이지를 통해 구독을 취소한 후 [자세히 보기](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023년 1월 {#jan-2023}
 
-* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2013년 1월 23일 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 의 접근성 기능 [!DNL Journey Optimizer] 이제 전용 페이지로 그룹화됩니다. [자세히 보기](../start/accessibility.md)
-* 에 데이터 관리에 대한 새 페이지를 추가했습니다. [!DNL Journey Optimizer]. [자세히 보기](../data/gs-data.md)
+* [!DNL Journey Optimizer] 2023년 1월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer]의 접근성 기능은 이제 전용 페이지에 취합되어 있습니다. [자세히 보기](../start/accessibility.md)
+* [!DNL Journey Optimizer]에 데이터 관리에 대한 새 페이지를 추가했습니다. [자세히 보기](../data/gs-data.md)
 * Decisioning API를 사용하여 오퍼를 전달할 때 응답에서 반환할 수 있는 모든 코드를 나열하는 표를 추가했습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 ## 2022년 12월 {#december-2022}
