@@ -7,13 +7,11 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+source-git-commit: 731eb471c5765b0d3efbc9354c64c32cc5e56516
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '210'
+ht-degree: 8%
 
 ---
 
@@ -24,16 +22,20 @@ Journey Optimizer은 Adobe Experience Platform 경고 기능을 활용합니다.
 Adobe Experience Platform의 경고에 대해 자세히 알아보기 [설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko).
 경고를 구독하고 구성하는 방법에 대해 알아보려면 다음 문서를 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
-왼쪽 메뉴에서 **관리**&#x200B;를 클릭합니다. **경고**. Journey Optimizer에 대해 사전 구성된 경고를 사용할 수 있습니다. 이 경고는 읽기 세그먼트 노드가 정의된 기간 동안 프로필을 처리하지 않은 경우 표시됩니다.
+왼쪽 메뉴에서 **관리**&#x200B;를 클릭합니다. **경고**.
 
-![](assets/alerts1.png)
+<!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
+
+![](assets/alerts1.png)-->
 
 이러한 예기치 않은 동작이 발생하면 인터페이스 오른쪽 상단 모서리에 있는 이메일을 통해 경고 가입자에게 경고 알림이 전송됩니다.
 
-![](assets/alerts2.png)
+<!--![](assets/alerts2.png)-->
 
-When [Adobe Experience Platform UI에서 경고 규칙 보기](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)각 규칙에 개별적으로 가입할 수 있습니다. 경고 구독 시 [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)그러나 경고 규칙은 다른 구독 패키지로 구성되어 있습니다. 세그먼트 읽기 경고에 해당하는 I/O 이벤트 구독 이름은 다음과 같습니다. &quot;여정 읽기 세그먼트 읽기 지연, 오류 및 오류&quot;
+When [Adobe Experience Platform UI에서 경고 규칙 보기](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)각 규칙에 개별적으로 가입할 수 있습니다. 경고 구독 시 [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)그러나 경고 규칙은 다른 구독 패키지로 구성되어 있습니다.
+
+<!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".
 
 >[!WARNING]
 >
->이러한 경고는 라이브 여정에만 적용됩니다. 테스트 모드의 여정에 대해 경고가 트리거되지 않습니다.
+>These alerts apply only to live journeys. Alerts will not be triggered for journeys in test mode.-->
