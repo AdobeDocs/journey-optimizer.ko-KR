@@ -17,7 +17,7 @@ ht-degree: 100%
 
 접근성은 시각, 청각, 인지, 운동 장애 또는 기타 유형의 장애가 있는 사용자가 가능한 적은 노력으로 소프트웨어 제품을 사용할 수 있도록 해주는 일련의 기능을 말합니다. .Adobe는 접근성 분야의 업계 리더이며, 개발자로 하여금 모든 사용자가 액세스할 수 있는 풍부하고 매력적인 콘텐츠를 제작하도록 장려하여 뛰어난 웹 경험을 제공할 수 있도록 지원합니다. [Adobe 접근성 페이지](https://www.adobe.com/accessibility.html){target="_blank"}에서 접근성에 대한 Adobe의 노력에 대해 자세히 알아보십시오.
 
-[!DNL Journey Optimizer](은)는 접근성 준수 목표를 달성하는 데 도움이 되도록 WCAG(Web Content Accessibility Guidelines) 2.1 Level A 및 Level AA에서 국제적으로 인정받는 모범 사례를 따릅니다. 최신 [Adobe Journey Optimizer 접근성 준수 보고서](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}에 대해 자세히 알아보십시오.
+[!DNL Journey Optimizer] (은)는 접근성 준수 목표를 달성하는 데 도움이 되도록 WCAG(Web Content Accessibility Guidelines) 2.1 Level A 및 Level AA에서 국제적으로 인정받는 모범 사례를 따릅니다. 최신 [Adobe Journey Optimizer 접근성 준수 보고서](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}에 대해 자세히 알아보십시오.
 
 
 [!DNL Adobe Journey Optimizer]의 접근성 기능은 Adobe Experience Platform의 기능을 가져온 것으로 다음과 같은 기능이 제공됩니다.
