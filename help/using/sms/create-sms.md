@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '449'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 ## SMS 메시지 추가 {#create-sms-journey-campaign}
 
-캠페인 또는 여정에서 SMS를 추가하는 방법을 배우려면 아래 탭을 탐색합니다.
+캠페인 또는 여정에서 SMS 메시지를 추가하는 방법을 배우려면 아래 탭을 탐색합니다.
 
 >[!BEGINTABS]
 
@@ -86,9 +86,11 @@ ht-degree: 13%
 
 1. 표현식 편집기를 사용하여 컨텐츠를 정의하고 동적 컨텐츠를 추가합니다. 프로필 이름 또는 구/군/시 등의 속성을 사용할 수 있습니다. 추가 정보 [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md) 를 입력합니다.
 
-1. 클릭 **[!UICONTROL 저장]** 미리 보기에서 메시지를 확인합니다. [자세히 알아보기](send-sms.md)
+1. 클릭 **[!UICONTROL 저장]** 미리 보기에서 메시지를 확인합니다.
 
    ![](assets/sms-content-preview.png)
+
+이제 대상자에게 SMS 메시지를 테스트 및 전송할 수 있습니다. [자세히 알아보기](send-sms.md)
 
 >[!NOTE]
 >
@@ -96,6 +98,7 @@ ht-degree: 13%
 
 **관련 항목**
 
+* [SMS 메시지 미리 보기, 테스트 및 보내기](send-sms.md)
 * [SMS 채널 구성](sms-configuration.md)
 * [SMS 보고서](../reports/journey-global-report.md#sms-global)
 * [여정에 메시지 추가](../building-journeys/journeys-message.md)
