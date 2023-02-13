@@ -6,9 +6,9 @@ description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
+source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '790'
 ht-degree: 2%
 
 ---
@@ -73,12 +73,12 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
 
 API 자격 증명을 만들고 구성한 후 이제 SMS 메시지에 대한 채널 표면(즉, 메시지 사전 설정)을 만들어야 합니다.
 
-## 채널 서피스 생성 {#message-preset-sms}
+## SMS 서피스 만들기 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="SMS 카테고리를 정의합니다"
->abstract="이 서피스를 사용할 때 전송할 SMS 메시지 유형을 선택합니다. 사용자 동의가 필요한 프로모션 SMS 메시지 마케팅 또는 비상업적 SMS 메시지를 위한 트랜잭션용으로 특정 컨텍스트에서 가입 해지된 프로필에도 보낼 수 있습니다."
+>abstract="다음 서피스를 사용하여 SMS 메시지 유형을 선택합니다. 사용자 동의가 필요한 프로모션 SMS 메시지용 마케팅 또는 암호 재설정과 같은 비상업적 SMS 메시지의 경우 트랜잭션"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="마케팅 SMS 메시지의 옵트아웃"
 
 SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 만들어야 합니다 **[!DNL Journey Optimizer]**.
@@ -103,6 +103,15 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
 
    * 을(를) 선택합니다 **[!UICONTROL SMS 유형]** 서피스와 함께 전송됩니다. **[!UICONTROL 트랜잭션]** 또는 **[!UICONTROL 마케팅]**.
 
+      * 선택 **마케팅** 프로모션 SMS용: 이러한 메시지에는 사용자의 동의가 필요합니다.
+      * 선택 **트랜잭션** 주문 확인, 암호 재설정 알림 또는 배달 정보와 같은 비상업적인 메시지의 경우,
+
+      >[!CAUTION]
+      >
+      >**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필로 SMS 메시지를 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
+
+      SMS 메시지를 만들 때 메시지에 대해 선택한 카테고리와 일치하는 유효한 채널 서피스를 선택해야 합니다.
+
    * 을(를) 선택합니다 **[!UICONTROL SMS 구성]** 서피스와 연관되도록 합니다.
 
       SMS 메시지를 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#create-api).
@@ -110,6 +119,7 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
    * 을(를) 입력합니다. **[!UICONTROL 발신자 번호]** 커뮤니케이션에 &#x200B; 사용하려고 합니다.
 
    * 을(를) 선택합니다 **[!UICONTROL SMS 실행 필드]** 을(를) 선택하려면 **[!UICONTROL 프로필 속성]** 프로필의 전화 번호와 연관됩니다.
+
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]** 확인합니다. 채널 서피스를 구안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 
