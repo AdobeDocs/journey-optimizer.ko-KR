@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '430'
 ht-degree: 13%
 
 ---
@@ -19,22 +19,18 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="SMS 만들기"
->abstract="텍스트 메시지를 추가하고 표현식 편집기를 사용하여 개인화를 시작합니다."
+>title="SMS 메시지 만들기"
+>abstract="SMS 메시지를 추가하고 표현식 편집기를 사용하여 개인화를 시작합니다."
 
->[!NOTE]
->
->업계 표준 및 규정에 따라 모든 SMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이를 위해 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. [옵트아웃을 관리하는 방법 알아보기](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+## SMS 메시지 추가 {#create-sms-journey-campaign}
 
-## 여정 또는 캠페인에서 SMS 메시지 만들기 {#create-sms-journey-campaign}
-
-SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
+캠페인 또는 여정에서 SMS를 추가하는 방법을 배우려면 아래 탭을 탐색합니다.
 
 >[!BEGINTABS]
 
 >[!TAB 여정에 SMS 메시지 추가]
 
-1. 여정을 열고 팔레트의 작업 섹션에서 SMS 활동을 끌어서 놓습니다.
+1. 여정을 연 다음, **작업** 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
    ![](assets/sms_create_1.png)
 
@@ -44,7 +40,7 @@ SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 
    여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)
 
-이제 에서 SMS 메시지의 콘텐츠를 디자인할 수 있습니다 **[!UICONTROL 컨텐츠 편집]** 버튼을 클릭합니다. [SMS 콘텐츠 디자인](#sms-content)
+이제 에서 SMS 메시지의 콘텐츠를 디자인할 수 있습니다 **[!UICONTROL 컨텐츠 편집]** 버튼을 클릭합니다. [SMS 콘텐츠 정의](#sms-content)
 
 >[!TAB Campaign에 SMS 메시지 추가]
 
@@ -79,6 +75,7 @@ SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 
 >[!ENDTABS]
 
+
 ## SMS 콘텐츠 정의{#sms-content}
 
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 컨텐츠 편집]** sms 콘텐츠를 구성하는 단추를 클릭합니다.
@@ -93,8 +90,13 @@ SMS 메시지 개인화를 시작하려면 다음 단계를 수행합니다.
 
    ![](assets/sms-content-preview.png)
 
+>[!NOTE]
+>
+>업계 표준 및 규정에 따라 모든 SMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이를 위해 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. [옵트아웃을 관리하는 방법 알아보기](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 **관련 항목**
 
 * [SMS 채널 구성](sms-configuration.md)
 * [SMS 보고서](../reports/journey-global-report.md#sms-global)
 * [여정에 메시지 추가](../building-journeys/journeys-message.md)
+* [캠페인에 메시지 추가](../campaigns/create-campaign.md)

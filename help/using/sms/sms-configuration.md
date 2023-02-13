@@ -1,14 +1,14 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS 구성
+title: SMS 채널 구성
 description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하는 방법을 알아봅니다
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '727'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,14 @@ ht-degree: 2%
 
 SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 합니다. [공급자 설정 통합](#create-api) Journey Optimizer 및 [sms 서피스 만들기](#message-preset-sms) (즉, SMS 사전 설정). 이러한 단계는 [Adobe Journey Optimizer 시스템 관리자](../start/path/administrator.md).
 
->[!IMPORTANT]
->
->Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 별도로 SMS 서비스를 제공하는 Sinch, Twilio 등 타사 공급자와 통합됩니다.  SMS를 구성하기 전에 Adobe Journey Optimizer과 해당 SMS 공급자 간의 연결을 설정할 수 있는 API 토큰 및 서비스 ID를 수신하려면 이러한 SMS 공급자 중 하나와 계정을 만들어야 합니다. SMS 서비스 사용은 해당 SMS 공급자의 추가 약관을 따릅니다. Sinch 및 Twilio는 Adobe Journey Optimizer 사용자가 통합을 통해 사용할 수 있는 타사 제품이므로 SMS 서비스와 관련된 문제 또는 문의 사항은 Sinch 또는 Twilio 사용자가 해당 SMS 공급자에게 문의하여 도움을 받아야 합니다. Adobe은 제어하지 않으며 타사 제품에 대한 책임이 없습니다.
+## 전제 조건{#sms-prerequisites}
+
+Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 별도로 SMS 서비스를 제공하는 Sinch, Twilio 등 타사 공급자와 통합됩니다.
+
+SMS를 구성하기 전에 Adobe Journey Optimizer과 해당 SMS 공급자 간의 연결을 설정할 수 있는 API 토큰 및 서비스 ID를 수신하려면 이러한 SMS 공급자 중 하나와 계정을 만들어야 합니다.
+
+SMS 서비스 사용은 해당 SMS 공급자의 추가 약관을 따릅니다. Sinch 및 Twilio는 Adobe Journey Optimizer 사용자가 통합을 통해 사용할 수 있는 타사 제품이므로 SMS 서비스와 관련된 문제 또는 문의 사항은 Sinch 또는 Twilio 사용자가 해당 SMS 공급자에게 문의하여 도움을 받아야 합니다. Adobe은 제어하지 않으며 타사 제품에 대한 책임이 없습니다.
+
 
 ## 새 API 자격 증명 만들기 {#create-api}
 
@@ -43,14 +48,20 @@ SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 
 
 Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단계를 수행합니다.
 
-1. 액세스 권한 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL API 자격 증명]** 메뉴를 클릭한 다음 **[!UICONTROL API 자격 증명 만들기]**.
+1. 왼쪽 레일에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL API 자격 증명]** 메뉴 아래의 제품에서 사용할 수 있습니다. 을(를) 클릭합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 버튼을 클릭합니다.
 
    ![](assets/sms_6.png)
 
 1. 을(를) 선택합니다 **[!UICONTROL SMS 공급업체]**:
 
-   * [!DNL Sinch] 질문에 답합니다. 을(를) 찾으려면 **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**, Sinch 계정에서 SMS > API 메뉴에 액세스합니다.
-   * [!DNL Twilio] 질문에 답합니다. 을(를) 찾으려면 **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**&#x200B;콘솔 대시보드 페이지의 계정 정보 창에 액세스합니다.
+   * **[!DNL Sinch]**
+
+      을(를) 찾으려면 **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**, Sinch 계정에서 SMS > API 메뉴에 액세스합니다.
+
+   * **[!DNL Twilio]**
+
+      을(를) 찾으려면 **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**&#x200B;콘솔 대시보드 페이지의 계정 정보 창에 액세스합니다.
+
 
 1. 을(를) 입력합니다. **[!UICONTROL 이름]** API 자격 증명의 경우.
 
@@ -62,7 +73,7 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
 
 API 자격 증명을 만들고 구성한 후 이제 SMS 메시지에 대한 채널 표면(즉, 메시지 사전 설정)을 만들어야 합니다.
 
-## SMS 메시지의 채널 표면 만들기 {#message-preset-sms}
+## 채널 서피스 생성 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
@@ -74,7 +85,7 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
 
 채널 서피스를 생성하려면 다음 단계를 수행합니다.
 
-1. 액세스 권한 **[!UICONTROL 채널]** > **[!UICONTROL 브랜딩]** > **[!UICONTROL 채널 서피스]** 메뉴를 클릭한 다음 **[!UICONTROL 채널 서피스 생성]**.
+1. 왼쪽 레일에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 을(를) 선택합니다. **[!UICONTROL 브랜딩]** > **[!UICONTROL 채널 서피스]**. 을(를) 클릭합니다. **[!UICONTROL 채널 서피스 생성]** 버튼을 클릭합니다.
 
    ![](assets/preset-create.png)
 
@@ -86,7 +97,7 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
    >
    > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
 
-1. 구성 **SMS** 설정.
+1. 을(를) 정의합니다 **SMS 설정**.
 
    ![](assets/preset-sms.png)
 
