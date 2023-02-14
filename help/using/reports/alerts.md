@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
+source-git-commit: 1832f3395b07580e62f32c886a0a4256267b2970
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 7%
+source-wordcount: '258'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Platform의 경고에 대해 자세히 알아보기 [설명서]
 
 >[!AVAILABILITY]
 >
->&#39;세그먼트 읽기 트리거 실패&#39; 경고에 대한 일부 디자인 변경 사항이 진행 중이므로 이 경고가 일시 중지되었습니다. 변경 사항이 릴리스되면 이 경고가 다시 표시되며 구독할 수 있습니다.
+>일부 디자인 변경 사항이 &#39;세그먼트 읽기 트리거 실패&#39; 경고에 대해 진행 중이어서 이 경고가 일시 중지되어 사용자 인터페이스에서 일시적으로 제거되었습니다. 이러한 변경 사항이 릴리스되면 경고가 다시 표시되며 구독할 수 있습니다.
 
 왼쪽 메뉴에서 **관리**&#x200B;를 클릭합니다. **경고**.
 
