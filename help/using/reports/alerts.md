@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 83ebd87487551b2fb234a555d7d0e43e80cb7885
+source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 7%
@@ -24,6 +24,10 @@ Journey Optimizer은 Adobe Experience Platform 경고 기능을 활용합니다.
 Adobe Experience Platform의 경고에 대해 자세히 알아보기 [설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko).
 경고를 구독하고 구성하는 방법에 대해 알아보려면 다음 문서를 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
+>[!AVAILABILITY]
+>
+>&#39;세그먼트 읽기 트리거 실패&#39; 경고에 대한 일부 디자인 변경 사항이 진행 중이므로 이 경고가 일시 중지되었습니다. 변경 사항이 릴리스되면 이 경고가 다시 표시되며 구독할 수 있습니다.
+
 왼쪽 메뉴에서 **관리**&#x200B;를 클릭합니다. **경고**.
 
 <!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
@@ -34,9 +38,6 @@ Adobe Experience Platform의 경고에 대해 자세히 알아보기 [설명서]
 
 <!--![](assets/alerts2.png)-->
 
->[!AVAILABILITY]
->
->&#39;세그먼트 읽기 트리거 실패&#39; 경고에 대한 일부 디자인 변경 사항이 진행 중이므로 이 경고가 일시 중지되었습니다. 변경 사항이 릴리스되면 이 경고가 다시 표시되며 구독할 수 있습니다.
 
 When [Adobe Experience Platform UI에서 경고 규칙 보기](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)각 규칙에 개별적으로 가입할 수 있습니다. 경고 구독 시 [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)그러나 경고 규칙은 다른 구독 패키지로 구성되어 있습니다.
 
