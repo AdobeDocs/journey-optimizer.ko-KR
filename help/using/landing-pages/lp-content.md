@@ -9,22 +9,45 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 만들기, 페이지, 양식, 구성 요소
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1194'
 ht-degree: 3%
 
 ---
 
 # 랜딩 페이지별 콘텐츠 정의 {#lp-content}
 
-사용자가 랜딩 페이지에서 선택 및 제출 할 수 있는 특정 콘텐츠를 정의하려면 **[!UICONTROL 양식]** 구성 요소. 이렇게 하려면 아래 절차를 따르십시오.
+>[!CONTEXTUALHELP]
+>id="ac_lp_components"
+>title="콘텐츠 구성 요소 사용"
+>abstract="콘텐츠 구성 요소는 랜딩 페이지의 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다. 사용자가 선택 항목을 선택하고 제출할 수 있는 특정 컨텐츠를 정의하려면 양식 구성 요소를 사용합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="컨텐츠 구성 요소 추가"
+
+랜딩 페이지 컨텐츠를 디자인하기 위해 이메일과 동일한 구성 요소를 사용할 수 있습니다. [자세히 알아보기](../email/content-components.md#add-content-components)
+
+사용자가 선택 및 제출 할 수 있는 특정 컨텐츠를 디자인하려면, [양식 구성 요소 사용](#use-form-component) 및 [랜딩 페이지별 스타일](#lp-form-styles).
 
 >[!NOTE]
 >
 >또한 클릭 스루 랜딩 페이지를 **[!UICONTROL 양식]** 구성 요소. 이 경우 랜딩 페이지는 사용자에게 표시되지만, 양식을 제출할 필요는 없습니다. 이 기능은 옵트인 또는 옵트아웃과 같은 수신자의 작업을 수행하지 않고 랜딩 페이지를 쇼케이션하거나 사용자 입력이 필요하지 않은 정보를 제공하려는 경우에만 유용할 수 있습니다.
 
+랜딩 페이지 콘텐츠 디자이너를 사용하면 하위 페이지의 기본 페이지에서 가져온 컨텍스트 데이터를 활용할 수도 있습니다. [자세히 알아보기](#use-primary-page-context)
+
 ## 양식 구성 요소 사용 {#use-form-component}
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_formfield"
+>title="양식 구성 요소 필드 설정"
+>abstract="수신자가 랜딩 페이지에서 선택 사항을 보고 제출하는 방법을 정의합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_submission"
+>title="버튼을 클릭하면 어떻게 됩니까?"
+>abstract="사용자가 랜딩 페이지 양식을 제출할 때 발생할 상황을 정의합니다."
+
+사용자가 랜딩 페이지에서 선택 및 제출 할 수 있는 특정 콘텐츠를 정의하려면, **[!UICONTROL 양식]** 구성 요소. 이렇게 하려면 아래 절차를 따르십시오.
 
 1. 랜딩 페이지별로 끌어서 놓습니다 **[!UICONTROL 양식]** 구성 요소를 생성할 수 있습니다.
 
@@ -129,13 +152,13 @@ ht-degree: 3%
 
 동일한 랜딩 페이지 내에서 다른 페이지에서 오는 컨텍스트 데이터를 사용할 수 있습니다.
 
-예를 들어 확인란을 연결하는 경우<!-- or the submission of the page--> 변환 후 [구독 목록](subscription-list.md) 기본 랜딩 페이지에서 &quot;감사합니다&quot; 하위 페이지에서 해당 구독 목록을 사용할 수 있습니다.
+예를 들어 확인란을 연결하는 경우 <!-- or the submission of the page--> 변환 후 [구독 목록](subscription-list.md) 기본 랜딩 페이지에서 &quot;감사합니다&quot; 하위 페이지에서 해당 구독 목록을 사용할 수 있습니다.
 
 기본 페이지의 두 확인란을 두 개의 다른 구독 목록에 연결한다고 가정합니다. 사용자가 이 중 하나를 구독하는 경우 선택한 확인란을 기준으로 양식을 제출할 때 특정 메시지를 표시할 수 있습니다.
 
 이렇게 하려면 아래 절차를 따르십시오.
 
-1. 기본 페이지에서 각 확인란을 관련 구독 목록에 연결합니다. [자세히 알아보기](#use-form-component).
+1. 기본 페이지에서 **[!UICONTROL 양식]** 구성 요소를 관련 구독 목록에 추가합니다. [자세히 알아보기](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 

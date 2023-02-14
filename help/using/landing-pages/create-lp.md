@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 만들기, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1544'
 ht-degree: 2%
 
 ---
@@ -196,6 +196,12 @@ ht-degree: 2%
 ![](assets/lp_subpage-settings.png)
 
 ## 랜딩 페이지 테스트 {#test-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_lp_profiles"
+>title="랜딩 페이지 미리 보기 및 테스트"
+>abstract="랜딩 페이지 설정 및 콘텐츠를 정의하고 나면 테스트 프로필을 사용하여 미리 볼 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="테스트 프로필 선택"
 
 랜딩 페이지 설정 및 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 볼 수 있습니다. 삽입한 경우 [개인화된 콘텐츠](../personalization/personalize.md)로 설정되면 테스트 프로필 데이터를 사용하여 이 콘텐츠가 랜딩 페이지에 어떻게 표시되는지 확인할 수 있습니다.
 
