@@ -11,9 +11,9 @@ keywords: 시작하기, 시작, 컨텐츠, 실험
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1983'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Experiments를 실행할 때는 특정 모범 사례를 따르는 것이 중요�
 +++적합한 대상 크기로 테스트를 실행하거나 장기간 동안 실행합니다
 
 테스트를 더 오래 실행하면 목표 지표에서 치료 간 더 작은 차이를 감지할 수 있습니다. 하지만 목표 지표의 기준선 값이 작은 경우 더 큰 샘플 크기가 필요합니다.
-테스트에 포함되어야 하는 사용자 수는 감지하려는 효과 크기, 목표 지표의 분산 또는 확산과 잘못된 양수 및 잘못된 음수 오류에 대한 허용치에 따라 달라집니다. 클래식 실험에서는 [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank} 을 입력하여 테스트를 실행해야 하는 시간을 결정합니다.
+테스트에 포함되어야 하는 사용자 수는 감지하려는 효과 크기, 목표 지표의 분산 또는 확산과 잘못된 양수 및 잘못된 음수 오류에 대한 허용치에 따라 달라집니다. 클래식 실험에서는 [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR){_blank} 을 입력하여 테스트를 실행해야 하는 시간을 결정합니다.
 +++
 
 +++통계적 불확실성 이해
@@ -111,6 +111,11 @@ Experiments를 실행할 때는 특정 모범 사례를 따르는 것이 중요�
 +++
 
 ## 실험 결과 해석 {#interpret-results}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_summary"
+>title="요약 위젯"
+>abstract="요약 위젯은 실험 결과가 확정되었는지 여부를 포함하여 실험 결과에 대한 개요를 제공합니다. 이것은 여러분의 실험의 결과를 빠르고 쉽게 이해할 수 있는 방법을 제공합니다."
 
 ![](assets/experimentation_report_3.png)
 
