@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 6c255d66fb89ba756add062d8a4315dd622fd8e7
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 0%
+source-wordcount: '586'
+ht-degree: 1%
 
 ---
 
 # Adobe Experience Platform 세그먼트 시작 {#about-segments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_segment"
+>title="세그먼트"
+>abstract="Adobe Experience Platform은 실시간 고객 프로필 데이터를 활용하여 고객의 고유한 행동과 선호도를 캡처하는 타겟팅된 세그먼트를 쉽게 만들 수 있도록 해줍니다."
 
 [!DNL Journey Optimizer]  에서는 **[!UICONTROL 세그먼트]** 메뉴를 보고 여정 또는 캠페인에 사용하십시오.
 
