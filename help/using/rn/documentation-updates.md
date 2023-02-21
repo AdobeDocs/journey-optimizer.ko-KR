@@ -5,9 +5,9 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2330'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 * 요청으로 전달된 컨텍스트 속성이 50kb를 초과할 수 없도록 지정하는 API-트리거된 캠페인 설명서에 메모를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
 
-* 옵트아웃 정보가 **동의 서비스 데이터 세트** 수신자가 랜딩 페이지를 통해 구독을 취소한 후 [자세히 보기](../landing-pages/lp-use-cases.md#configure-opt-out)
+* 수신자가 랜딩 페이지를 통해 구독을 취소한 후 옵트아웃 정보를 **동의 서비스 데이터 세트**&#x200B;에 저장하는 방식에 대한 정보를 추가했습니다. [자세히 보기](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023년 1월 {#jan-2023}
 
