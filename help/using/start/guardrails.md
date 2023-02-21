@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: ht
-source-wordcount: '956'
-ht-degree: 100%
+source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
+workflow-type: tm+mt
+source-wordcount: '969'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 * POST 및 PUT 호출 메서드만 지원됩니다.
 * 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;로 시작해서는 안 됩니다.
 * IP 주소를 사용할 수 없습니다. 
-* 내부 Adobe 주소(.adobe.)를 사용할 수 없습니다.
+* 내부 Adobe 주소(`.adobe.*`)는 URL 및 API에서 허용되지 않습니다.
 
 ### 이벤트 {#events-g}
 
@@ -77,6 +77,7 @@ ht-degree: 100%
 ### 데이터 소스  {#data-sources-g}
 
 * 고객 여정 내에서 외부 데이터 소스를 활용하여 실시간으로 외부 데이터를 조회할 수 있습니다. 이러한 소스는 REST API를 통해 사용할 수 있어야 하고 JSON을 지원하고 요청 볼륨을 처리할 수 있어야 합니다.
+* 내부 Adobe 주소(`.adobe.*`)는 URL 및 API에서 허용되지 않습니다.
 
 ### 여정 및 프로필 만들기  {#journeys-limitation-profile-creation}
 
