@@ -11,9 +11,9 @@ keywords: 컨텐츠, 실험, 다중, 대상, 처리
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
+source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1137'
 ht-degree: 4%
 
 ---
@@ -166,8 +166,8 @@ Journey Optimizer 컨텐츠 실험을 사용하면 타겟 대상자에게 가장
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="프로필당 고유한 클릭 수"
->abstract="프로필당 고유 클릭 수 지표는 경험이 대상을 얼마나 효과적으로 참여시키고 클릭 수를 타겟 대상으로 유도하는지를 이해하는 데 도움이 됩니다. 특정 링크에 대한 개별 클릭 수를 링크에 노출된 총 프로필 수로 나눈 값을 계산합니다."
+>title="성공 지표"
+>abstract="실험을 만들 때 이전에 선택한 성공 지표의 합계 값을 프로필 수로 나눈 값입니다."
 
 >[!AVAILABILITY]
 >
