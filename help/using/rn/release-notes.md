@@ -4,7 +4,7 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5ef9fec615c39935184595d91e7b12d4cd08903f
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 61%
@@ -58,7 +58,7 @@ ht-degree: 61%
 
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 
-<p>자세한 내용은 <a href="../privacy/data-hygiene.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../data/export-datasets.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
