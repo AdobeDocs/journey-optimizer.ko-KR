@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 아카이브, 메시지, HIPAA, BCC, 이메일
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 2%
@@ -82,7 +82,6 @@ BCC 이메일 주소 설정이 즉시 저장되고 표면 수준에서 처리됩
 * BCC 주소로 전송된 이메일은 전송 분석에서 총 열기 및 클릭 수를 고려하여 열지 않거나 클릭스루하지 마십시오. 이로 인해 일부 계산 오류가 발생할 수 있습니다. [보고서](../reports/global-report.md).
 
 * 이 주소로 전송된 다른 모든 이메일에 영향을 주므로 BCC 받은 편지함에서 메시지를 스팸으로 표시하지 마십시오.
-
 
 >[!CAUTION]
 >

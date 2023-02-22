@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 설정, 전자 메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1652'
 ht-degree: 1%
 
 ---
@@ -151,6 +151,14 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 * 이 주소로 전송된 다른 모든 답글에 영향을 주므로 메시지를 회신 받은 편지함에 스팸으로 표시하지 마십시오.
 
+또한, **[!UICONTROL 회신 대상(이메일)]** 주소, 유효한 MX 레코드 구성이 있는 하위 도메인을 사용해야 합니다. 그렇지 않으면 전자 메일 표면 처리가 실패합니다.
+
+전자 메일 표면 제출 시 오류가 발생하면 입력한 주소의 하위 도메인에 대해 MX 레코드가 구성되지 않은 것입니다. 해당 MX 레코드를 구성하려면 관리자에게 문의하거나 유효한 MX 레코드 구성으로 다른 주소를 사용하십시오.
+
+>[!NOTE]
+>
+>입력한 주소의 하위 도메인이 [완전히 위임됨](../configuration/delegate-subdomain.md#full-subdomain-delegation) Adobe을 하려면 Adobe 계정 담당자에게 문의하십시오.
+
 ### 이메일 전달 {#forward-email}
 
 특정 이메일 주소로 전달하려는 경우 [!DNL Journey Optimizer] 위임된 하위 도메인은 Adobe 고객 지원 센터에 문의하십시오. 다음을 제공해야 합니다.
@@ -173,6 +181,10 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 이렇게 하려면 **[!UICONTROL 숨은 참조 이메일]** 채널 서피스 레벨의 선택적 피쳐 [자세히 알아보기](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+
+또한, **[!UICONTROL 숨은 참조 이메일]** 주소, 유효한 MX 레코드 구성이 있는 하위 도메인을 사용해야 합니다. 그렇지 않으면 전자 메일 표면 처리가 실패합니다.
+
+전자 메일 표면 제출 시 오류가 발생하면 입력한 주소의 하위 도메인에 대해 MX 레코드가 구성되지 않은 것입니다. 해당 MX 레코드를 구성하려면 관리자에게 문의하거나 유효한 MX 레코드 구성으로 다른 주소를 사용하십시오.
 
 ## 전자 메일 다시 시도 매개 변수 {#email-retry}
 
@@ -237,7 +249,7 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL 이름]** 및 **[!UICO
 
 >[!NOTE]
 >
->표현식 편집기에서 입력 텍스트 값과 컨텍스트 속성을 결합할 수 있습니다. 각 **[!UICONTROL 값]** 필드에는 총 255자가 포함될 수 있습니다.
+>표현식 편집기에서 입력 텍스트 값과 컨텍스트 속성을 결합할 수 있습니다. 각 **[!UICONTROL 값]** 필드에는 최대 5KB의 문자 수를 포함할 수 있습니다.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

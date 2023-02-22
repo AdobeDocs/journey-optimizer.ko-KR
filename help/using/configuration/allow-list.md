@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 허용 목록, 목록, 안전, 구성
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 2%
+source-wordcount: '1129'
+ht-degree: 6%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >올바른 이메일 주소(예: abc@company.com) 또는 도메인(예: abc.company.com)을 입력해야 합니다.
+   >유효한 이메일 주소(예: abc@company.com) 또는 도메인(예: abc.company.com)을 입력했는지 확인합니다.
 
 1. 필요한 경우 이유를 지정합니다.
 
@@ -142,7 +142,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >32-126 사이의 모든 ASCII 문자는 **[!UICONTROL 이유]** 필드. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 예.
+   >32-126 사이의 모든 ASCII 문자는 **[!UICONTROL 이유]** 필드. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}에서 확인할 수 있습니다.
 
 1. **[!UICONTROL 제출을 클릭합니다]**.
 
@@ -155,6 +155,34 @@ ht-degree: 2%
 다음을 수행할 수 있습니다 **추가**, **삭제** 및 **Get** 작업.
 
 에서 API 호출을 작성하는 방법에 대해 자세히 알아보십시오 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 참조 설명서.
+
+## 허용 목록 다운로드 {#download-allowed-list}
+
+허용 목록을 CSV 파일로 내보내려면 아래 단계를 수행하십시오.
+
+1. 을(를) 선택합니다 **[!UICONTROL CSV 다운로드]** 버튼을 클릭합니다.
+
+   ![](assets/allowed-list-download-csv.png)
+
+1. 파일이 생성될 때까지 기다립니다.
+
+   ![](assets/allowed-list-download-generate.png)
+
+   >[!NOTE]
+   >
+   >다운로드 시간은 파일 크기에 따라 다릅니다. 즉, 허용 목록에 있는 주소 수입니다.
+   >
+   >지정된 샌드박스에 대해 한 번에 하나의 다운로드 요청을 처리할 수 있습니다.
+
+1. 파일이 생성되면 알림을 받게 됩니다. 화면 오른쪽 위의 벨 아이콘을 클릭하여 표시합니다.
+
+1. 알림 자체를 클릭하여 파일을 다운로드합니다.
+
+   ![](assets/allowed-list-download-notification.png)
+
+   >[!NOTE]
+   >
+   >링크는 24시간 동안 유효합니다.
 
 ## 허용 목록 논리 {#logic}
 

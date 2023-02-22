@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 4%
@@ -29,8 +29,8 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="편집할 URL을 입력합니다"
->abstract="위에 정의된 웹 표면에 적용할 컨텐츠를 편집하는 데 사용할 특정 웹 페이지의 URL을 입력합니다. 웹 페이지는 Adobe Experience Platform Web SDK를 사용하여 구현해야 합니다."
+>title="편집할 URL을 확인합니다"
+>abstract="위에 정의된 웹 표면에 적용할 컨텐츠를 편집하는 데 사용할 특정 웹 페이지의 URL을 확인합니다. 웹 페이지는 Adobe Experience Platform Web SDK를 사용하여 구현해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="추가 정보"
 
 >[!CONTEXTUALHELP]

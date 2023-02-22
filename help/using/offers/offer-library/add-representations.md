@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 0%
+source-wordcount: '660'
+ht-degree: 1%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 을 사용하여 작업하려면 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}, 배포해야 합니다. [!DNL Assets Essentials] 조직의 경우 사용자가 **Assets Essentials 소비자 사용자** 또는/and **Assets Essentials 사용자** 제품 프로필. 추가 정보 [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}.
+> 을 사용하여 작업하려면 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. 을(를) 선택합니다 **[!UICONTROL 자산 라이브러리]** 선택 사항입니다.
 
@@ -88,9 +88,9 @@ ht-degree: 0%
 
 ### HTML 또는 JSON 파일 추가 {#html-json}
 
-선택한 배치가 HTML 유형인 경우, [Adobe Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}).
+선택한 배치가 HTML 유형인 경우, [Adobe Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
 
-예를 들어에서 HTML 이메일 템플릿을 만들었습니다 [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;} 및 해당 파일을 오퍼 콘텐츠에 사용하려는 경우 새 파일을 만드는 대신 템플릿을 **자산 라이브러리** 을 재사용할 수 있도록 하는 것입니다.
+예를 들어에서 HTML 이메일 템플릿을 만들었습니다 [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} 오퍼 컨텐츠에 해당 파일을 사용하려는 경우 새 파일을 만드는 대신 템플릿을 **자산 라이브러리** 을 재사용할 수 있도록 하는 것입니다.
 
 표현에서 컨텐츠를 재사용하려면 **자산 라이브러리** 에 설명된 대로 [이 섹션](#images) 원하는 HTML 또는 JSON 파일을 선택합니다.
 
@@ -100,7 +100,17 @@ ht-degree: 0%
 
 외부 공용 위치에서 콘텐츠를 추가하려면 **[!UICONTROL URL]**&#x200B;을 입력한 다음 추가할 컨텐츠의 URL 주소를 입력합니다.
 
+표현식 편집기를 사용하여 URL을 개인화할 수 있습니다. 추가 정보 [개인화](../../personalization/personalize.md#use-expression-editor).
+
 ![](../assets/offer-content-url.png)
+
+예를 들어 오퍼로 표시되는 이미지를 개인화하려고 합니다. 뉴욕시의 스카이라인을 선호하는 사용자와 비치 휴가를 선호하는 사용자들이 하와이 노쇼어를 보기 바란다.
+
+표현식 편집기를 사용하여 결합 스키마를 사용하여 Adobe Experience Platform에 저장된 프로필 속성을 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+
+![](../assets/offer-content-url-personalization.png)
+
+를 지정하는 경우 **[!UICONTROL 대상 링크]**&#x200B;를 설정하는 경우 오퍼를 클릭하는 사용자가 이동하게 되는 URL을 개인화할 수도 있습니다.
 
 ### 사용자 지정 텍스트 추가 {#custom-text}
 

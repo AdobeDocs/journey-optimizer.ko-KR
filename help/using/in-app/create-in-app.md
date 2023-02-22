@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: 인앱, 메시지, 만들기, 시작
+badge: label="Beta" type="Advertising"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 4%
+source-wordcount: '653'
+ht-degree: 5%
 
 ---
 
 # 인앱 메시지 만들기  {#create-in-app}
+
+>[!IMPORTANT]
+>
+>인앱 기능은 현재 베타로 사용되어 사용자만 선택할 수 있습니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.
 
 ## 캠페인 및 인앱 메시지 만들기{#create-in-app-in-a-campaign}
 
@@ -108,12 +111,12 @@ ht-degree: 4%
 
 이제 캠페인이 활성화됩니다. 캠페인에 구성된 인앱 알림이 즉시 또는 지정된 날짜에 전송됩니다.
 
-전송되면 캠페인 보고서 내에서 인앱 메시지가 미치는 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](inapp-report.md)을 참조하십시오.
+전송되면 캠페인 보고서 내에서 인앱 메시지가 미치는 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../reports/campaign-global-report.md#inapp-report)을 참조하십시오.
 
 **관련 항목:**
 
 * [인앱 메시지 디자인](design-in-app.md)
-* [인앱 보고서 ](inapp-report.md)
+* [인앱 보고서 ](../reports/campaign-global-report.md#inapp-report)
 * [인앱 구성](inapp-configuration.md)
 
 ## 방법 비디오{#video}

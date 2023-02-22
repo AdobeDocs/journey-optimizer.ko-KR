@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+workflow-type: tm+mt
+source-wordcount: '1314'
+ht-degree: 99%
 
 ---
 
@@ -202,10 +202,9 @@ ht-degree: 100%
       + [이메일 표면 설정 구성](using/email/email-settings.md)
 + 인앱 채널{#in-app}
    + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
-   + [인앱 채널 구성](using/in-app/inapp-configuration.md)
    + [인앱 메시지 만들기 ](using/in-app/create-in-app.md)
    + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
-   + [인앱 보고서 ](using/in-app/inapp-report.md)
+   + [인앱 채널 구성](using/in-app/inapp-configuration.md)
 + 푸시 알림 채널{#push}
    + [푸시 알림 시작](using/push/get-started-push.md)
    + [푸시 알림 만들기](using/push/create-push.md)
@@ -416,6 +415,7 @@ ht-degree: 100%
    + [쿼리](using/data/get-started-queries.md)
    + Journey Optimizer 데이터셋 {#datasets}
       + [데이트 세트 시작](using/data/get-started-datasets.md)
+      + [Journey Optimizer 데이터 세트 내보내기](using/data/export-datasets.md)
       + [쿼리 예](using/data/datasets-query-examples.md)
 + 구성{#configuration}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)

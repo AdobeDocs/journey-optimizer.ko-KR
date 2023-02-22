@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1276'
 ht-degree: 4%
 
 ---
@@ -306,6 +306,39 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
 </table>
 -->
 
+### 인앱 지표 {#inapp-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 지표<br/> </th> 
+   <th> 정의<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>클릭 수<br/> </td> 
+   <td>인앱 메시지에 포함된 버튼과 상호 작용한 총 수신자 수입니다.<br/> </td> 
+</tr>
+  <tr> 
+   <td>클릭률<br/> </td> 
+   <td>인앱 메시지에 포함된 버튼과 상호 작용한 사용자의 비율을 메시지를 본 사용자와 비교했습니다.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>할인<br/> </td> 
+   <td> 수신자가 해지한 인앱 메시지의 비율입니다.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>노출 횟수<br/> </td> 
+   <td> 모든 사용자에게 전달된 총 인앱 메시지 수입니다.<br/> </td>
+</tr>
+  <tr> 
+   <td>고유 노출 횟수<br/> </td> 
+   <td>인앱 메시지가 전달된 고유 사용자 수입니다.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+
 ### 푸시 알림 지표
 
 <table> 
@@ -433,36 +466,5 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
  </tbody> 
 </table>
 
-<!--
-### In-app metrics {#inapp-metrics}
-<table> 
- <thead> 
-  <tr> 
-   <th> Metric<br/> </th> 
-   <th> Definition<br/> </th> 
-</tr>
- </thead> 
- <tbody>
- <tr> 
-   <td>Clicks<br/> </td> 
-   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Click rate<br/> </td> 
-   <td>Percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.<br/> </td> 
-</tr> 
-  <tr> 
-   <td>Dismiss rate<br/> </td> 
-   <td> Percentage of In-app messages that recipients dismissed.<br/> </td> 
-</tr> 
-  <tr> 
-   <td>Impressions<br/> </td> 
-   <td> Total number of In-app messages delivered to all users.<br/> </td>
-</tr>
-  <tr> 
-   <td>Unique impressions<br/> </td> 
-   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
-</tr>
- </tbody> 
-</table>
--->
+
+

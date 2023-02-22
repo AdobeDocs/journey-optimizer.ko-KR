@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: 인앱, 메시지, 디자인, 서식
+badge: label="Beta" type="Advertising"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 5%
+source-wordcount: '910'
+ht-degree: 6%
 
 ---
 
 # 인앱 콘텐츠 디자인  {#design-content}
+
+>[!IMPORTANT]
+>
+>인앱 기능은 현재 베타로 사용되어 사용자만 선택할 수 있습니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.
 
 인앱 콘텐츠를 편집하여 메시지 레이아웃 및 표시, 텍스트 및 단추 옵션 등의 경험 옵션을 구성할 수 있습니다.
 
@@ -192,7 +195,7 @@ ht-degree: 5%
 **관련 항목:**
 
 * [인앱 메시지 만들기](create-in-app.md)
-* [인앱 보고서 ](inapp-report.md)
+* [인앱 보고서 ](../reports/campaign-global-report.md#inapp-report)
 * [인앱 구성](inapp-configuration.md)
 
 ## 방법 비디오{#video}

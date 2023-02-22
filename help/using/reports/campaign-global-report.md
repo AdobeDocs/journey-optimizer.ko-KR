@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 1%
+source-wordcount: '1904'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +30,7 @@ Campaign 글로벌 보고서는 **[!UICONTROL 보고서 보기]** 버튼을 클�
 
 * [Campaign](#campaign-global)
 * [이메일](#email-global)
+* [인앱](#inapp-global)
 * [푸시](#push-global)
 * [SMS](#sms-global)
 
@@ -141,6 +142,37 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
 
 * **[!UICONTROL 배달됨]**: 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
 * **[!UICONTROL 바운스 수]**: 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
++++
+
+## 인앱 탭 {#inapp-global}
+
+>[!IMPORTANT]
+>
+>인앱 기능은 현재 베타로 사용되어 사용자만 선택할 수 있습니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.
+
+캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 인앱]** 탭에서 캠페인에 전송된 인앱 게재와 관련된 기본 정보를 자세히 설명합니다.
+
+![](assets/campaign_report_global_6.png)
+
++++인앱 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
+
+다음 **[!UICONTROL 인앱 성능]** KPI는 방문자와 인앱 메시지가 상호 작용하는 상대적인 기본 정보(예: )를 자세히 설명합니다.
+
+* **[!UICONTROL 고유 노출 횟수]**: 인앱 메시지가 전달된 고유 사용자 수입니다.
+
+* **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 인앱 메시지 수
+
+* **[!UICONTROL 클릭률]**: 인앱 메시지에 포함된 버튼과 상호 작용한 사용자의 비율을 메시지를 본 사용자와 비교했습니다.
+
+* **[!UICONTROL 할인]**: 수신자가 해지한 인앱 메시지의 비율입니다.
+
+다음 **[!UICONTROL 인앱 요약]** 그래프는 관련 기간에 대한 인앱 노출의 변화를 보여줍니다.
+
+다음 **[!UICONTROL 클릭기준 단추]** 그래프 및 표에는 버튼당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
+
+* **[!UICONTROL 클릭 수]**: 인앱 메시지에 포함된 버튼과 상호 작용한 총 수신자 수.
+
+* **[!UICONTROL 클릭률]**: 인앱 메시지에 포함된 버튼과 상호 작용한 사용자의 비율을 메시지를 본 사용자와 비교했습니다.
 +++
 
 ## 푸시 알림 탭 {#push-global}

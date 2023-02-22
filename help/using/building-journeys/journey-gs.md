@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 세그먼트, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 10%
+source-wordcount: '1171'
+ht-degree: 9%
 
 ---
 
@@ -96,9 +96,7 @@ ht-degree: 10%
 
 기본적으로 새 여정은 다시 입력할 수 있습니다. 선택을 취소하고 **다시 시작 허용** &quot;일회용&quot; 여정에 대한 선택 사항(예: 사람이 가게에 들어올 때 일회용 선물을 제공하려는 경우).
 
-<!--
-When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
--->
+이 **다시 시작 허용** 옵션이 활성화되면 **다시 시작 대기 기간** 필드가 표시됩니다. 이 필드를 사용하면 프로필이 단일 여정에서 다시 여정을 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다(이벤트 또는 세그먼트 자격 시작). 따라서 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되지 않습니다. 기본적으로 필드는 5분으로 설정되어 있습니다.
 
 프로필 시작 관리에 대한 자세한 내용은 [이 섹션](entry-management.md).
 
@@ -120,13 +118,9 @@ Adobe Experience Platform 프로필에 시간대가 정의된 경우 여정에�
 
 ### 시작 및 종료 날짜 {#dates}
 
-<!--
-You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+을(를) 정의할 수 있습니다 **시작 날짜**. 지정하지 않으면 게시 시 자동으로 정의됩니다.
 
-You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
--->
-
-을(를) 정의할 수 있습니다 **시작 날짜**. 을(를) 추가할 수도 있습니다 **종료 날짜**. 날짜가 되면 프로필이 자동으로 종료될 수 있습니다. 종료 날짜를 지정하지 않으면 기본 여정 시간 제한까지 프로필을 유지할 수 있습니다.
+을(를) 추가할 수도 있습니다 **종료 날짜**. 날짜가 되면 프로필이 자동으로 종료될 수 있습니다. 종료 날짜를 지정하지 않으면 기본 여정 시간 제한(일반적으로 30일, 7일 Healthcare Shield 추가 기능 포함)까지 프로필이 유지될 수 있습니다. 유일한 예외는 **재진입 강제** 활성화됨. 다음 항목의 시작 날짜에 종료됩니다.
 
 ### 여정 활동의 시간 제한 및 오류 {#timeout_and_error}
 

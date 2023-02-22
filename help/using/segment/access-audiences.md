@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 15%
@@ -31,7 +31,7 @@ ht-degree: 15%
 
 다음 **[!UICONTROL 프로필 수]** 열에는 대상에 포함된 프로필 수에 대한 정보가 있습니다. 이 정보가 계산된 날짜에 대한 자세한 내용을 보려면 &quot;i&quot; 단추를 클릭하십시오.
 
-대상에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 타원 버튼을 클릭한 다음 을(를) 선택합니다 **[!UICONTROL 액세스 관리]**. [개체 수준 액세스 제어(OLA)에 대한 자세한 정보](../administration/object-based-access.md)
+대상에 사용자 지정 또는 코어 데이터 사용 레이블을 할당하려면 줄임표 단추를 클릭한 다음 을(를) 선택합니다 **[!UICONTROL 액세스 관리]**. [개체 수준 액세스 제어(OLA)에 대한 자세한 정보](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 5%
@@ -75,7 +75,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->목록의 타원 버튼을 사용하여 언제든지 기존 컴포지션을 복제하거나 삭제할 수 있습니다.
+>목록의 줄임표 버튼을 사용하여 언제든지 기존 컴포지션을 복제하거나 삭제할 수 있습니다.
 
 추가 정보:
 

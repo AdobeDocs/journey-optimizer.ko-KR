@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 캠페인, 상태, 일정, 액세스, 최적기 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 2%
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 시간이 지나면서 캠페인 목록이 지속적으로 증가하고 결과적으로 완료 및 중지된 캠페인을 검색하는 것이 더 어렵습니다.
 
-이를 방지하기 위해 더 이상 필요하지 않은 완료 및 중지된 캠페인을 보관할 수 있습니다. 이렇게 하려면 타원 버튼을 클릭한 다음 을 선택합니다 **[!UICONTROL 아카이브]**.
+이를 방지하기 위해 더 이상 필요하지 않은 완료 및 중지된 캠페인을 보관할 수 있습니다. 이렇게 하려면 줄임표 단추를 클릭한 다음 을 선택합니다 **[!UICONTROL 아카이브]**.
 
 ![](assets/create-campaign-archive.png)
 

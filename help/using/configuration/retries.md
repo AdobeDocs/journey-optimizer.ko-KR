@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 다시 시도, 바운스, 소프트, 최적기, 오류
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 1%
@@ -72,5 +72,5 @@ ht-degree: 1%
 >
 >다시 시도 기간은 84시간을 초과할 수 없습니다. 최소 다시 시도 기간은 마케팅 이메일의 경우 6시간, 트랜잭션 이메일의 경우 10분입니다.
 
-에서 채널 표면을 만들 때 이메일 다시 시도 매개 변수를 조정하는 방법을 알아봅니다. [이 섹션](channel-surfaces.md#create-channel-surface).
+에서 채널 표면을 만들 때 이메일 다시 시도 매개 변수를 조정하는 방법을 알아봅니다. [이 섹션](../email/email-settings.md#email-retry).
 

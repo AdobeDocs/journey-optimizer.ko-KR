@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
@@ -70,7 +70,7 @@ ht-degree: 8%
 
 기존 표현식을 편집하려면 편집기에 추가한 다음 필요에 따라 수정합니다. 클릭 **[!UICONTROL 라이브러리에 추가]** 구문의 유효성을 검사하고 표현식을 저장하려면
 
-표현식을 삭제하려면 타원 버튼을 클릭한 다음 **[!UICONTROL 삭제]**.
+표현식을 삭제하려면 줄임표 버튼을 클릭한 다음 **[!UICONTROL 삭제]**.
 
 ## 방법 비디오{#video}
 
