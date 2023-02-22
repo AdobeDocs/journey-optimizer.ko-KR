@@ -5,10 +5,11 @@ title: 클라우드 스토리지 위치로 데이터 세트 내보내기
 description: Adobe Experience Platform 클라우드 스토리지 대상을 사용하여 데이터 세트를 내보내는 방법을 알아봅니다.
 role: User
 level: Beginner
+badge: label="Beta" type="Advertising"
 keywords: 플랫폼, 데이터 레이크, 만들기, 레이크, 데이터 세트, 프로필
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---

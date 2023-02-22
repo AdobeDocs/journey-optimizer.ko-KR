@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ef9fec615c39935184595d91e7b12d4cd08903f
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 61%
+source-wordcount: '919'
+ht-degree: 60%
 
 ---
 
@@ -28,15 +28,14 @@ ht-degree: 61%
 <table>
 <thead>
 <tr>
-<th><strong>인앱 채널</strong><br/></th>
+<th><strong>인앱 채널(베타)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>이제 캠페인 내에서 개인화된 인앱 메시지를 앱 사용자에게 보낼 수 있습니다. Journey Optimizer을 사용하여 알림을 디자인하고 메시지 레이아웃, 표시, 텍스트 및 버튼을 사용자 정의하여 원활한 경험을 만들 수 있습니다.</p>
-<p>
-이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.</p>
+<p><strong>주의</strong> - 이 기능은 현재 베타 버전이며 베타 고객에게만 제공됩니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>자세한 내용은 <a href="../in-app/get-started-in-app.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
@@ -55,9 +54,7 @@ ht-degree: 61%
 <td>
 <p>이제 데이터 세트의 컨텐츠를 내보내기 위해 클라우드 스토리지 위치와 라이브 연결을 설정할 수 있습니다. 사용 가능한 대상은 다음과 같습니다. Amazon S3 클라우드 저장소, Azure Blob, Azure Data Lake Gen 2, 데이터 랜딩 영역, Google 클라우드 저장소, SFTP.</p>
 <p><strong>주의</strong> - 이 기능은 현재 베타 버전으로 모든 Adobe Journey Optimizer 사용자가 사용할 수 있습니다. 아직 액세스 권한이 없는 경우 Adobe 담당자에게 대상 액세스 권한을 요청하십시오.</p>
-
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-
 <p>자세한 내용은 <a href="../data/export-datasets.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
