@@ -8,7 +8,7 @@ level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 badge: label="Beta" type="Advertising"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 6%
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # 인앱 콘텐츠 디자인  {#design-content}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >인앱 기능은 현재 베타로 사용되어 사용자만 선택할 수 있습니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.
 

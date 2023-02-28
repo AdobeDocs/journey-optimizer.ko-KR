@@ -6,7 +6,7 @@ level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 badge: label="Beta" type="Advertising"
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 13%
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # 인앱 채널 구성 {#inapp-configuration}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >인앱 기능은 현재 베타로 사용되어 사용자만 선택할 수 있습니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.
 
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 1. 을(를) 선택합니다 [!DNL Adobe Experience Platform] 서비스.
 
-   [!DNL Edge Segmentation], [!DNL Offer Decisioning] 및 [!DNL Adobe Journey Optimizer] 을 선택해야 합니다.
+   [!DNL Edge Segmentation] 및 [!DNL Adobe Journey Optimizer] 을 선택해야 합니다.
 
    ![](assets/inapp_config_6.png)
 
