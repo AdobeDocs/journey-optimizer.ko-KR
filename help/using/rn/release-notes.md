@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e8bac0c908646213a9d9a0598e3aa4750084b50
+source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 57%
+source-wordcount: '919'
+ht-degree: 60%
 
 ---
 
@@ -145,7 +145,9 @@ Note that each widget can be resized and deleted as needed.
 
 **의사 결정 관리**
 
-* **배치** - 배치 만들기 화면에 매개 변수를 더 추가했습니다. 이를 통해 여러 배치에 걸쳐 오퍼를 복제할 수 있는지 여부를 제어하고 오퍼의 컨텐츠 및 메타데이터를 API 응답에 포함할지 여부를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/creating-placements.md)
+<!--
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
+-->
 
 * **URL 개인화** - 이제 오퍼의 표시에 URL을 콘텐츠로 추가할 때 표현식 편집기를 사용하여 이러한 URL을 개인화할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-representations.md)
 

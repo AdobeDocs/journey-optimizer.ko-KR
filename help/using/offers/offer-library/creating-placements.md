@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 9e8bac0c908646213a9d9a0598e3aa4750084b50
+source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 5%
+source-wordcount: '244'
+ht-degree: 11%
 
 ---
 
@@ -46,22 +46,6 @@ ht-degree: 5%
    * **[!UICONTROL 설명]**: 배치에 대한 설명입니다(선택 사항).
 
    ![](../assets/offers_placement_creation_properties.png)
-
-
-1. 다음 **[!UICONTROL 요청 설정]** 및 **[!UICONTROL 응답 형식]** 섹션은 추가 매개 변수를 제공합니다.
-
-   * **[!UICONTROL 배치 간 중복 허용]**: 다른 배치에서 동일한 오퍼를 여러 번 제안할 수 있는지 여부를 제어합니다. 활성화되면 시스템은 여러 배치에 대해 동일한 오퍼를 고려합니다.
-
-      Decisioning 요청의 모든 배치에 대해 이 옵션이 false로 설정된 경우 요청의 모든 배치는 &quot;false&quot; 설정을 상속합니다.
-
-   * **[!UICONTROL 오퍼 요청]**: 기본적으로 각 프로필에 대해 결정 범위의 오퍼 하나가 반환됩니다. 이 옵션을 사용하여 반환된 오퍼의 수를 조정할 수 있습니다. 예를 들어 2를 선택하면 선택한 결정 범위에 대해 최상의 2 오퍼가 표시됩니다.
-
-   * **[!UICONTROL 콘텐츠 포함]** / **[!UICONTROL 메타데이터 포함]**: 오퍼의 컨텐츠 및 메타데이터가 API 응답에서 반환되어야 하는지 여부를 지정합니다. 모든 메타데이터 또는 특정 필드만 포함할 수 있습니다.
-   이러한 매개 변수는 로 작업하는 경우 API 요청에 직접 설정할 수도 있습니다. [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). 그러나 사용자 인터페이스에서 이를 구성하면 각 API 요청에서 전달할 필요가 없으므로 시간을 절약할 수 있습니다. 사용자 인터페이스와 API 요청 모두에서 매개 변수를 구성하는 경우 API 요청의 값이 인터페이스의 값보다 우선합니다.
-
-   >[!NOTE]
-   >
-   >을 사용하여 작업하는 경우 [Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), 이러한 매개 변수를 요청에 설정할 수 없습니다. 이 화면에서 정의해야 합니다. 을 사용하여 작업하는 경우 [일괄 의사 결정 API](../api-reference/offer-delivery-api/batch-decisioning-api.md), 이 화면에 설정된 매개 변수는 배치 배달 전송을 위해 고려되지 않으므로 이러한 매개 변수를 API 요청에 직접 포함해야 합니다.
 
 1. 클릭 **[!UICONTROL 저장]** 확인할 수 있습니다.
 
