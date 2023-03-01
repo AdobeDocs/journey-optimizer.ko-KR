@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
+source-git-commit: 9e8bac0c908646213a9d9a0598e3aa4750084b50
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 60%
+source-wordcount: '961'
+ht-degree: 57%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 60%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
-## 2023년 2월 릴리스 노트 {#feb-2023}
+## 2023년 2월 릴리스 정보 {#feb-2023}
 
 ### 새로운 기능{#feb-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>인앱 채널(베타)</strong><br/></th>
+<th><strong>인앱 채널(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 캠페인 내에서 개인화된 인앱 메시지를 앱 사용자에게 보낼 수 있습니다. Journey Optimizer을 사용하여 알림을 디자인하고 메시지 레이아웃, 표시, 텍스트 및 버튼을 사용자 정의하여 원활한 경험을 만들 수 있습니다.</p>
-<p><strong>주의</strong> - 이 기능은 현재 베타 버전이며 베타 고객에게만 제공됩니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.</p>
+<p>이제 캠페인 내에서 앱 사용자에게 개인화된 인앱 메시지를 보낼 수 있습니다. Journey Optimizer을 사용하여 알림을 디자인하고 메시지 레이아웃, 표시, 텍스트 및 버튼을 사용자 지정하여 원활한 경험을 만들 수 있습니다.</p>
+<p><strong>주의</strong> - 이 기능은 현재 Beta 버전이며 Beta 고객만 사용할 수 있습니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>자세한 내용은 <a href="../in-app/get-started-in-app.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
@@ -46,14 +46,14 @@ ht-degree: 60%
 <table>
 <thead>
 <tr>
-<th><strong>클라우드 스토리지 대상으로 Journey Optimizer 데이터 세트 내보내기(베타)</strong><br/></th>
+<th><strong>Journey Optimizer 데이터 세트를 클라우드 스토리지 대상으로 내보내기(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 데이터 세트의 컨텐츠를 내보내기 위해 클라우드 스토리지 위치와 라이브 연결을 설정할 수 있습니다. 사용 가능한 대상은 다음과 같습니다. Amazon S3 클라우드 저장소, Azure Blob, Azure Data Lake Gen 2, 데이터 랜딩 영역, Google 클라우드 저장소, SFTP.</p>
-<p><strong>주의</strong> - 이 기능은 현재 베타 버전으로 모든 Adobe Journey Optimizer 사용자가 사용할 수 있습니다. 아직 액세스 권한이 없는 경우 Adobe 담당자에게 대상 액세스 권한을 요청하십시오.</p>
+<p>이제 데이터 세트의 콘텐츠를 내보내기 위해 클라우드 스토리지 위치와 라이브 연결을 설정할 수 있습니다. 사용 가능한 대상: Amazon S3 클라우드 스토리지, Azure Blob, Azure Data Lake Gen 2, 데이터 랜딩 영역, Google 클라우드 스토리지, SFTP.</p>
+<p><strong>주의</strong> - 이 기능은 현재 베타 버전이며 모든 Adobe Journey Optimizer 사용자가 사용할 수 있습니다. 아직 액세스 권한이 없는 경우 Adobe 담당자와 협력하여 대상에 액세스하십시오.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 <p>자세한 내용은 <a href="../data/export-datasets.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
@@ -117,9 +117,9 @@ Note that each widget can be resized and deleted as needed.
 
 **여정**
 
-* 다음 **다시 시작 대기 기간** 여정 속성에 필드가 추가되었습니다. 이 필드를 사용하면 프로필이 단일 여정에서 다시 여정을 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다(이벤트 또는 세그먼트 자격 시작). 따라서 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되지 않습니다. 기본적으로 필드는 5분으로 설정되어 있습니다. [자세히 알아보기](../building-journeys/journey-gs.md#entrance)
+* 다음 **재등록 대기 기간** 필드가 여정 속성에 추가되었습니다. 이 필드에서는 프로필이 단일 여정(이벤트 또는 여정 자격으로 시작)에서 세그먼트를 다시 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다. 이렇게 하면 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지할 수 있습니다. 필드는 기본적으로 5분으로 설정됩니다. [자세히 알아보기](../building-journeys/journey-gs.md#entrance)
 
-* 에 대한 개선이 이루어졌습니다 **여정 시작 및 종료 날짜**. 시작 날짜를 지정하지 않은 경우 이제 게시 시 자동으로 추가됩니다. 대상 **세그먼트 읽기** 이제 여정, 종료 날짜를 추가할 수 있습니다. 날짜가 되면 프로필이 자동으로 종료될 수 있습니다. [자세히 알아보기](../building-journeys/journey-gs.md#dates)
+* 에 대해 개선되었습니다. **여정 시작 및 종료 날짜**. 시작 날짜를 지정하지 않은 경우 이제 게시 시 자동으로 추가됩니다. 대상 **세그먼트 읽기** 여정, 이제 종료 날짜를 추가할 수 있습니다. 이렇게 하면 날짜가 되면 프로필이 자동으로 종료됩니다. [자세히 알아보기](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -139,17 +139,15 @@ Note that each widget can be resized and deleted as needed.
 
 * **허용 목록** - 이제 허용 목록을 .csv 파일로 다운로드할 수 있습니다. [자세히 알아보기](../configuration/allow-list.md#download-allowed-list)
 
-* **이메일 서피스** - 전자 메일 표면 설정에 추가 확인이 추가되었습니다. 에서 사용되는 하위 도메인에 대한 MX 레코드 **회신 대상(이메일) 주소** 또는 **숨은 참조 이메일 주소** 가 제대로 구성되지 않아 이메일 표면을 더 이상 만들 수 없습니다. 구성했거나 다른 항목을 사용해야 합니다. [자세히 알아보기](../email/email-settings.md#reply-to-email)
+* **이메일 표면** - 하위 도메인의 MX 레코드가 다음에 사용되는 경우 이메일 표면 설정에 추가 검사가 추가되었습니다. **(이메일) 주소로 회신** 또는 **BCC 이메일 주소** 가 제대로 구성되지 않아 이메일 표면을 더 이상 만들 수 없습니다. 구성되었거나 다른 템플릿을 사용해야 합니다. [자세히 알아보기](../email/email-settings.md#reply-to-email)
 
-* **이메일 서피스** - 에서 **URL 추적 매개 변수** 이메일 표면 설정의 섹션, 각 제한에 대한 **값** Adobe Analytics 추적과의 호환성을 위해 255자에서 5KB로 필드가 업데이트되었습니다. [자세히 알아보기](../email/email-settings.md#url-tracking)
+* **이메일 표면** -에서 **URL 추적 매개 변수** 이메일 표면 설정 섹션, 각각에 대한 제한 **값** Adobe Analytics 추적과의 호환성을 위해 필드가 255자에서 5KB로 업데이트되었습니다. [자세히 알아보기](../email/email-settings.md#url-tracking)
 
 **의사 결정 관리**
 
-<!--
-* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
--->
+* **배치** - 배치 만들기 화면에 매개 변수를 더 추가했습니다. 이를 통해 여러 배치에 걸쳐 오퍼를 복제할 수 있는지 여부를 제어하고 오퍼의 컨텐츠 및 메타데이터를 API 응답에 포함할지 여부를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/creating-placements.md)
 
-* **URL 개인화** - 이제 오퍼의 표현에 URL을 컨텐츠로 추가할 때 표현식 편집기를 사용하여 이러한 URL을 개인화할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-representations.md)
+* **URL 개인화** - 이제 오퍼의 표시에 URL을 콘텐츠로 추가할 때 표현식 편집기를 사용하여 이러한 URL을 개인화할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-representations.md)
 
 <!--
 * **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
