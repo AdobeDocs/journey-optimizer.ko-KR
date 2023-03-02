@@ -10,7 +10,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="정보"
-source-git-commit: c909e366ba5e911f685656140caf53cc122552ee
+source-git-commit: a162f70dceb3bef635085840fc304e0da2c33eed
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 1%
@@ -89,7 +89,7 @@ Journey Optimizer에서 Experience Manager 템플릿을 콘텐츠 템플릿으�
 
    ![](assets/aem_ajo_2.png)
 
-1. 템플릿 속성 창에서 **[!UICONTROL 액세스 관리]** 사용자 지정 또는 핵심 데이터 사용 레이블을 템플릿에 할당하는 단추입니다. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md)
+1. 다음에서 **[!UICONTROL 템플릿 속성]** 창에서 **[!UICONTROL 액세스 관리]** 사용자 지정 또는 핵심 데이터 사용 레이블을 템플릿에 할당하는 단추입니다. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md)
 
 1. AEM 템플릿을 추가로 개인화하고 콘텐츠에 사용자 지정 개인화를 추가하려면 다음을 클릭하십시오. **[!UICONTROL 콘텐츠 편집]**. 이를 통해 쉽게 변경하고 템플릿을 특정 요구 사항에 맞게 조정할 수 있습니다. [자세히 알아보기](get-started-email-design.md)
 
