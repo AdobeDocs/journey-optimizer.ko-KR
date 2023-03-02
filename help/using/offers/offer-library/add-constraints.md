@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
+source-git-commit: 2e22b44b2139ab37c5b62573c9bdeaa0fbfc8b12
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1727'
 ht-degree: 2%
 
 ---
@@ -144,10 +144,10 @@ ht-degree: 2%
 >title="캡핑 빈도 설정"
 >abstract="오퍼 한도 카운터를 일별, 주별 또는 월별 기준으로 재설정하도록 선택할 수 있습니다."
 
-[!CONTEXTUALHELP]
->id=&quot;ajo_decisioning_frequency_capping_impression&quot;
->title=&quot;노출 횟수&quot;
->abstract=&quot;노출 횟수를 최대 가용량 이벤트로 사용하는 것은 인바운드 채널에만 사용할 수 있습니다.&quot;
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="노출 횟수"
+>abstract="최대 가용량 이벤트로 노출 횟수를 사용하는 것은 인바운드 채널에만 사용할 수 있습니다."
 
 한도는 오퍼를 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다.
 
