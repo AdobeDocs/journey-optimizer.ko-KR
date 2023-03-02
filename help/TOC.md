@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e856786cfad58cc3f602a31ad1354a497e090764
+source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1322'
 ht-degree: 99%
 
 ---
@@ -197,6 +197,7 @@ ht-degree: 99%
          + [인라인 스타일 속성 추가](using/email/inline-styling.md)
    + [이메일 미리 보기 및 테스트](using/email/preview.md)
    + [콘텐츠 템플릿 만들기](using/email/content-templates.md)
+   + [Experience Manager 템플릿 사용](using/email/aem-templates.md)
    + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
    + 이메일 채널 구성 {#configure-email}
       + [이메일 구성 시작](using/email/get-started-email-config.md)
