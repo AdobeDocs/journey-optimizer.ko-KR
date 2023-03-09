@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
+source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,13 @@ ht-degree: 100%
 [!DNL Adobe Journey Optimizer]은(는) 기본적으로 [!DNL Adobe Experience Platform] 기반으로 구축되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
+
+
+## 2023년 3월 개선 사항 {#march-2023}
+
+**여정의 태그 관리**
+
+Journey Optimizer 전문가의 경우 이제 태그를 사용하여 비즈니스 오브젝트를 구성할 수 있습니다. 태그는 검색을 개선하기 위해 개체를 빠르고 쉽게 분류하는 방법입니다. 이 기능은 현재 베타 버전이며 여정에 대해서만 사용할 수 있습니다. [자세히 알아보기](../building-journeys/tags.md)
 
 ## 2023년 2월 릴리스 정보 {#feb-2023}
 
