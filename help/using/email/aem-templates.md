@@ -10,9 +10,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="정보"
-source-git-commit: a162f70dceb3bef635085840fc304e0da2c33eed
+source-git-commit: 84278edbfa479d9c7588594c0b389a442aa3fe7c
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -40,12 +40,11 @@ Adobe Journey Optimizer을 사용하면 Adobe Experience Manager 사이트를 �
 
    Adobe Journey Optimizer에서 컨텐츠 템플릿을 만들고, 편집하고, 삭제하려면 **[!DNL Manage Library Items]** 에 포함된 권한 **[!DNL Content Library Manager]** 제품 프로필. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
-
 ## 보호 및 제한 사항{#aem-templates-limitations}
 
 Adobe Journey Optimizer과 함께 Adobe Experience Manager 사용을 더욱 최적화하려면 다음 추가 보호 기능 및 제한 사항에 유의해야 합니다.
 
-* Experience Manager 템플릿에는 개인화가 포함되지 않아야 합니다. 개인화는 Journey Optimizer에서만 수행해야 합니다.
+* Experience Manager 템플릿의 개인화를 활성화하려면 적절한 Journey Optimizer 구문이 필요합니다. [자세히 알아보기](../personalization/personalization-syntax.md)
 
 * 벌크 템플릿 내보내기는 현재 지원되지 않으므로 개별적으로 템플릿을 내보내야 합니다.
 
@@ -59,13 +58,13 @@ Adobe Experience Manager 템플릿을 Adobe Journey Optimizer으로 내보내려
 
    ![](assets/aem-outbound-menu.png)
 
-1. 컨텐츠 라이브러리에 액세스하고 Journey Optimizer으로 내보낼 템플릿을 선택합니다.
+1. 콘텐츠 라이브러리에서 이전에 구성한 템플릿을 사용하거나 처음부터 새로 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
 
-   처음부터 새 페이지를 만들 수도 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
+1. Journey Optimizer 개인화 구문을 템플릿에 통합하여 맞춤화 기능을 향상시킬 수 있습니다. [자세히 알아보기](../personalization/personalization-syntax.md)
 
-   ![](assets/aem-send-template.png)
+   ![](assets/aem_ajo_4.png)
 
-1. 템플릿을 선택한 후 다음을 선택합니다. **[!UICONTROL 전송 대상]** 고급 메뉴에서 엽니다.
+1. Journey Optimizer으로 내보낼 템플릿을 선택하고 **[!UICONTROL 전송 대상]** 고급 메뉴에서 엽니다.
 
    ![](assets/aem-advanced-menu.png)
 
@@ -91,7 +90,7 @@ Journey Optimizer에서 Experience Manager 템플릿을 콘텐츠 템플릿으�
 
 1. 다음에서 **[!UICONTROL 템플릿 속성]** 창에서 **[!UICONTROL 액세스 관리]** 사용자 지정 또는 핵심 데이터 사용 레이블을 템플릿에 할당하는 단추입니다. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md)
 
-1. AEM 템플릿을 추가로 개인화하고 콘텐츠에 사용자 지정 개인화를 추가하려면 다음을 클릭하십시오. **[!UICONTROL 콘텐츠 편집]**. 이를 통해 쉽게 변경하고 템플릿을 특정 요구 사항에 맞게 조정할 수 있습니다. [자세히 알아보기](get-started-email-design.md)
+1. Experience Manager 템플릿을 추가로 개인화하고 콘텐츠에 사용자 지정 개인 맞춤화를 추가하려면 다음을 클릭하십시오. **[!UICONTROL 콘텐츠 편집]**. 이를 통해 쉽게 변경하고 템플릿을 특정 요구 사항에 맞게 조정할 수 있습니다. [자세히 알아보기](get-started-email-design.md)
 
    >[!NOTE]
    >
@@ -101,8 +100,22 @@ Journey Optimizer에서 Experience Manager 템플릿을 콘텐츠 템플릿으�
 
 1. 콘텐츠를 정의한 후에는 를 찾아 새 이메일을 만들 때 사용할 수 있습니다. **[!UICONTROL 저장된 템플릿]** 컬렉션. 그런 다음 을 선택합니다. **[!UICONTROL 이 템플릿 사용]**.
 
-   에서 이메일 콘텐츠를 편집하고 개인화하는 방법을 알아봅니다. [이 섹션](content-from-scratch.md).
-
    ![](assets/aem_ajo_3.png)
+
+1. 이제 콘텐츠를 편집하고 개인화할 수 있습니다. 이메일 콘텐츠를 작성하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [페이지](content-from-scratch.md).
+
+   ![](assets/aem_ajo_5.png)
+
+1. Experience Manager 템플릿에 개인화된 콘텐츠를 추가한 경우 **[!UICONTROL 콘텐츠 시뮬레이션]** 테스트 프로필을 사용하여 메시지에 표시되는 방식을 미리 봅니다.
+
+[미리 보기 및 테스트 프로필에 대해 자세히 알아보기](../email/preview.md)
+
+   ![](assets/aem_ajo_6.png)
+
+1. 메시지 미리 보기를 볼 때 개인화된 요소는 자동으로 선택한 테스트 프로필의 해당 데이터로 바뀝니다.
+
+   필요한 경우 다음을 통해 추가 테스트 프로필을 추가할 수 있습니다. **[!UICONTROL 테스트 프로필 관리]** 단추를 클릭합니다.
+
+   ![](assets/aem_ajo_7.png)
 
 이메일이 준비되면 의 구성을 완료합니다. [여정](../building-journeys/journey-gs.md) 또는 [campaign](../campaigns/create-campaign.md)를 누르고 활성화하여 메시지를 보냅니다.
