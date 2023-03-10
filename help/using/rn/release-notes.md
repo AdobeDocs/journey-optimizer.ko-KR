@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 95%
+source-wordcount: '1025'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,12 @@ ht-degree: 95%
 **여정의 태그 관리**
 
 Journey Optimizer 전문가의 경우 이제 태그를 사용하여 비즈니스 오브젝트를 구성할 수 있습니다. 태그는 검색을 개선하기 위해 개체를 빠르고 쉽게 분류하는 방법입니다. 이 기능은 현재 베타 버전이며 여정에 대해서만 사용할 수 있습니다. [자세히 알아보기](../building-journeys/tags.md)
+
+**컬렉션 한정자로 이름이 변경된 의사 결정 관리 태그**
+
+Adobe Experience Platform의 최근 태그 기능 릴리스와 관련하여 발생할 수 있는 혼란을 방지하기 위해 의사 결정 관리 태그의 이름이 &quot;컬렉션 한정자&quot;로 변경되었습니다.
+
+&quot;태그&quot;라는 용어가 의사 결정 관리 사용자 인터페이스에서 더 이상 사용되지 않지만 API 및 데이터 세트와 같은 백엔드 서비스에서 계속 사용됩니다.
 
 ## 2023년 2월 릴리스 정보 {#feb-2023}
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 99%
+source-wordcount: '1328'
+ht-degree: 97%
 
 ---
 
@@ -325,7 +325,7 @@ ht-degree: 99%
    + 구성 요소 만들기 {#create-components}
       + [배치 만들기](using/offers/offer-library/creating-placements.md)
       + [의사 결정 규칙 만들기](using/offers/offer-library/creating-decision-rules.md)
-      + [태그 만들기](using/offers/offer-library/creating-tags.md)
+      + [컬렉션 한정자 만들기](using/offers/offer-library/creating-tags.md)
    + {#rankings} 등급 만들기
       + [등급 시작](using/offers/ranking/get-started-rankings.md)
       + [등급 공식](using/offers/ranking/create-ranking-formulas.md)
@@ -377,11 +377,11 @@ ht-degree: 99%
             + [의사 결정 규칙 업데이트](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [의사 결정 규칙 삭제](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + 태그 {#tags}
-            + [태그 나열](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [태그 조회](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [태그 만들기](using/offers/api-reference/offers-api/tags/create.md)
-            + [태그 업데이트](using/offers/api-reference/offers-api/tags/update.md)
-            + [태그 삭제](using/offers/api-reference/offers-api/tags/delete.md)
+            + [목록 컬렉션 한정자](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [컬렉션 한정자 조회](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [컬렉션 한정자 만들기](using/offers/api-reference/offers-api/tags/create.md)
+            + [컬렉션 한정자 업데이트](using/offers/api-reference/offers-api/tags/update.md)
+            + [컬렉션 한정자 삭제](using/offers/api-reference/offers-api/tags/delete.md)
          + 개인화된 오퍼 {#personalized-offers}
             + [개인화된 오퍼 나열](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [개인화된 오퍼 조회](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
