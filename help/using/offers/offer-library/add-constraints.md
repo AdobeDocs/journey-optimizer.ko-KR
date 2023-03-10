@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 1bb5fbdc08f8650132e191e659b03caadae8edf4
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2290'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,9 @@ ht-degree: 2%
 
 1. 정의 **[!UICONTROL 최대 이벤트]** 계산기를 늘리기 위해 고려될 것입니다. [자세히 알아보기](#capping-event)
 
-1. 오퍼를 표시할 수 있는 횟수를 정의합니다. [자세히 알아보기](#capping-type)
+1. 오퍼를 표시할 수 있는 횟수를 설정합니다. [자세히 알아보기](#capping-count)
+
+1. 캡핑을 모든 사용자에게 적용할지 또는 하나의 프로필에만 적용할지 선택합니다. [자세히 알아보기](#capping-type)
 
 1. 설정 **[!UICONTROL 빈도]** 최대 가용량 수가 재설정되는 빈도를 정의합니다. [자세히 알아보기](#frequency-capping)
 
@@ -184,6 +186,8 @@ ht-degree: 2%
 
 다음 **[!UICONTROL 최대 이벤트]** 필드를 사용하면 다음 항목을 정의할 수 있습니다 **[!UICONTROL 최대 이벤트]** 카운터를 증가시키기 위해 를 고려합니다.
 
+![](../assets/offer-capping-event.png)
+
 * **[!UICONTROL 결정 이벤트]** (기본값): 오퍼를 표시할 수 있는 최대 횟수입니다.
 * **[!UICONTROL 노출 횟수]**: 사용자에게 오퍼를 표시할 수 있는 최대 횟수입니다.
 
@@ -192,21 +196,25 @@ ht-degree: 2%
    >노출을 최대 가용량 이벤트로 사용하기는에서 사용할 수 있습니다. **인바운드 채널** 만 해당.
 
 * **[!UICONTROL 클릭수]**: 사용자가 오퍼를 클릭할 수 있는 최대 횟수입니다.
-* **[!UICONTROL 사용자 지정 이벤트]**: 전송된 오퍼 수를 제한하는 데 사용할 사용자 지정 이벤트를 정의할 수 있습니다. 예를 들어 주어진 프로필이 1번 상환될 때까지 상환 횟수를 제한할 수 있습니다. 이렇게 하려면 다음을 사용합니다. [Adobe Experience Platform Xdm](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"} 사용자 지정 이벤트 규칙을 작성할 스키마.
+* **[!UICONTROL 사용자 지정 이벤트]**: 전송된 오퍼 수를 제한하는 데 사용할 사용자 지정 이벤트를 정의할 수 있습니다. 예를 들어 환매가 10000 때까지 또는 주어진 프로필이 1회 환매될 때까지 환매 수를 제한할 수 있습니다. 이렇게 하려면 다음을 사용합니다. [Adobe Experience Platform Xdm](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"} 사용자 지정 이벤트 규칙을 작성할 스키마.
 
-   ![](../assets/offer-capping-event.png)
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+   아래 예에서는 구독 수를 제한하려고 합니다. 선택 **[!UICONTROL 사용자 지정 이벤트]** 목록에서 을(를) 만들고 **[!UICONTROL 사용자 지정 이벤트 규칙 만들기]** 빌더에서 관련 이벤트를 선택합니다.
 
-   <!--![](../assets/offer-capping-custom-event.png)-->
+   ![](../assets/offer-capping-custom-event.png)
+
+   규칙이 만들어지면에서 표시됩니다. **[!UICONTROL 사용자 지정 이벤트 쿼리]** 필드.
+
+   ![](../assets/offer-capping-custom-event-query.png)
 
    >[!CAUTION]
    >
    >의사 결정 이벤트를 제외한 모든 최대 가용량 이벤트에 대해 의사 결정 관리 피드백이 자동으로 수집되지 않을 수 있으므로 데이터가 들어오는지 확인하십시오. [데이터 수집에 대해 자세히 알아보기](../data-collection/data-collection.md)
 
-### 캡핑 유형 {#capping-type}
+### 최대 가용량 {#capping-count}
 
-다음 **[!UICONTROL 캡핑 유형]** 필드를 사용하면 오퍼를 표시할 수 있는 횟수를 지정할 수 있습니다.
+다음 **[!UICONTROL 최대 가용량]** 필드를 사용하면 오퍼를 표시할 수 있는 횟수를 지정할 수 있습니다.
 
 ![](../assets/offer-capping-times.png)
 
@@ -214,9 +222,9 @@ ht-degree: 2%
 >
 >숫자는 0보다 큰 정수여야 합니다.
 
-<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+예를 들어, 구독과 같은 사용자 지정 최대 가용량 이벤트를 정의한 경우 **[!UICONTROL 최대 가용량]** 필드에서는 10개의 구독 후에는 더 이상 오퍼가 전송되지 않습니다.
 
-<!--![](../assets/offer-capping-custom-example.png)-->
+### 캡핑 유형 {#capping-type}
 
 캡핑을 모든 사용자 간에 적용할지 또는 하나의 특정 프로필에 적용할지를 지정할 수도 있습니다.
 
