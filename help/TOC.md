@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1329'
 ht-degree: 97%
 
 ---
@@ -376,7 +376,7 @@ ht-degree: 97%
             + [의사 결정 규칙 만들기](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [의사 결정 규칙 업데이트](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [의사 결정 규칙 삭제](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + 태그 {#tags}
+         + 컬렉션 한정자 {#tags}
             + [목록 컬렉션 한정자](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [컬렉션 한정자 조회](using/offers/api-reference/offers-api/tags/lookup.md)
             + [컬렉션 한정자 만들기](using/offers/api-reference/offers-api/tags/create.md)
