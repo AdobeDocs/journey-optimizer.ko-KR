@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 87%
+source-wordcount: '1064'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,12 @@ Journey Optimizer 전문가의 경우 이제 태그를 사용하여 비즈니스
 Adobe Experience Platform의 최근 태그 기능 릴리스와 관련하여 발생할 수 있는 혼란을 방지하기 위해 의사 결정 관리 태그의 이름이 &quot;컬렉션 한정자&quot;로 변경되었습니다.
 
 &quot;태그&quot;라는 용어가 의사 결정 관리 사용자 인터페이스에서 더 이상 사용되지 않지만 API 및 데이터 세트와 같은 백엔드 서비스에서 계속 사용됩니다.
+
+**의사 결정 관리 한도**
+
+* 이제 일별, 주별 또는 월별 기준으로 오퍼 최대 가용량 카운터를 재설정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
+
+* offer decisioning 캡핑에 대해 확인해야 하는 Adobe Experience Platform 이벤트를 선택할 수도 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023년 2월 릴리스 정보 {#feb-2023}
 
@@ -163,10 +169,6 @@ Note that each widget can be resized and deleted as needed.
 -->
 
 * **URL 개인화** - 이제 URL을 오퍼 표시의 콘텐츠로 추가할 때 표현식 편집기를 사용하여 해당 URL을 개인화할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-representations.md)
-
-* **캡핑** - 이제 오퍼 한도 카운터를 일별, 주별 또는 월별 기준으로 재설정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
-
-* **캡핑** - 이제 offer decisioning 한도 설정에 대해 확인해야 하는 Adobe Experience Platform 이벤트를 선택할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023년 1월 릴리스 {#jan-2023-release}
 
