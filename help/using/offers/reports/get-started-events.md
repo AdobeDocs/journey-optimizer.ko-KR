@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 56%
@@ -15,7 +15,7 @@ ht-degree: 56%
 
 # 의사 결정 관리 이벤트 시작 {#monitor-offer-events}
 
-의사 결정 관리 가 주어진 프로필에 대해 결정을 내릴 때마다 이러한 이벤트와 관련된 정보가 Adobe Experience Platform에 자동으로 전송됩니다.
+의사 결정 관리자가 지정된 프로필에 대해 의사 결정을 내릴 때마다 이러한 이벤트와 관련된 정보가 자동으로 Adobe Experience Platform으로 전송됩니다.
 
 이렇게 하면 이러한 데이터를 내보내 자체 보고 시스템으로 분석할 수 있습니다. 분석 및 보고 기능을 향상하기 위해 다른 도구와 함께 Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko)를 활용할 수도 있습니다.
 
@@ -23,7 +23,7 @@ ht-degree: 56%
 
 ![](../assets/events-datasets-list.png)
 
-이러한 데이터 세트는 **[!UICONTROL 코드 결정 이벤트]** 스키마. 여기에는 의사 결정 관리에서 Adobe Experience Platform으로 정보를 전송하는 데 필요한 모든 XDM 필드가 포함되어 있습니다.
+이러한 데이터 세트는 **[!UICONTROL ODE DecisionEvents]** 의사 결정 관리에서 Adobe Experience Platform으로 정보를 보내는 데 필요한 모든 XDM 필드를 포함하는 스키마.
 
 >[!NOTE]
 >

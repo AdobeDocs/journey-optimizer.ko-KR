@@ -4,16 +4,20 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
-workflow-type: ht
-source-wordcount: '2330'
-ht-degree: 100%
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+workflow-type: tm+mt
+source-wordcount: '2366'
+ht-degree: 98%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2023년 3월 {#march-2023}
+
+* 표시되는 오퍼 및 사용자와 사용자의 상호 작용 방법을 포함하여 Adobe Experience Platform에서 offer decisioning 피드백을 수집하는 방법에 대한 새로운 섹션이 의사 결정 관리 안내서에 생성되었습니다.  [자세히 보기](../offers/data-collection/data-collection.md)
 
 ## 2023년 2월 {#feb-2023}
 
@@ -145,7 +149,7 @@ ht-degree: 100%
 
 * 2022년 1월 릴리스의 [!DNL Journey Optimizer]모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * **Offer Decisioning AI 등급** 섹션이 자동 최적화 모델에 대한 보다 자세한 설명과 함께 업데이트되었습니다. [자세히 보기](../offers/ranking/auto-optimization-model.md)
-* 등급 전략을 사용할 때 이벤트 유형을 보낼 수 있어야 하는 스키마 요구 사항에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../offers/ranking/schema-requirement.md)
+* 등급 전략을 사용할 때 이벤트 유형을 보낼 수 있어야 하는 스키마 요구 사항에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../offers/data-collection/schema-requirement.md)
 * 가독성 개선을 위해 [!DNL Journey Optimizer] 개인화 기능 관련 섹션을 재구성했습니다. [자세히 보기](../personalization/personalize.md)
 * 다음 **메시지 사전 설정 만들기** 섹션을 몇 개의 섹션으로 나누어서 명확성을 개선했습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
 * 다음 **옵트아웃 관리** 섹션이 명확해지고 약간 재구성되었습니다. [자세히 보기](../privacy/opt-out.md#opt-out-management)

@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 89%
+source-wordcount: '1063'
+ht-degree: 87%
 
 ---
 
@@ -164,11 +164,9 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL 개인화** - 이제 URL을 오퍼 표시의 콘텐츠로 추가할 때 표현식 편집기를 사용하여 해당 URL을 개인화할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-representations.md)
 
-<!--
-* **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
+* **캡핑** - 이제 오퍼 한도 카운터를 일별, 주별 또는 월별 기준으로 재설정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
-* **Capping** - You can now choose which Adobe Experience Platform event should be looked at for offer decisioning capping. [Learn more](../offers/offer-library/add-constraints.md#capping)
--->
+* **캡핑** - 이제 offer decisioning 한도 설정에 대해 확인해야 하는 Adobe Experience Platform 이벤트를 선택할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023년 1월 릴리스 {#jan-2023-release}
 

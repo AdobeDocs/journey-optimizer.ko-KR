@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 97%
+source-wordcount: '1334'
+ht-degree: 96%
 
 ---
 
@@ -334,10 +334,7 @@ ht-degree: 97%
          + AI 모델 유형 {#ai-model-types}
             + [자동 최적화 모델](using/offers/ranking/auto-optimization-model.md)
             + [개인화된 최적화 모델](using/offers/ranking/personalized-optimization-model.md)
-         + AI 모델 만들기 {#configure-ai-model}
-            + [이벤트를 수집할 데이터 세트 만들기](using/offers/ranking/create-dataset.md)
-            + [AI 모델 만들기](using/offers/ranking/create-ranking-strategies.md)
-            + [이벤트 캡처 구성](using/offers/ranking/schema-requirement.md)
+         + [AI 모델 만들기](using/offers/ranking/create-ranking-strategies.md)
    + 오퍼 만들기 및 관리 {#managing-offers-in-the-offer-library}
       + 오퍼 구성 {#configure-offers}
          + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
@@ -349,7 +346,11 @@ ht-degree: 97%
       + [의사 결정 만들기](using/offers/offer-activities/create-offer-activities.md)
       + [의사 결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
       + [시뮬레이션 만들기](using/offers/offer-activities/simulation.md)
-   + [일괄 의사 결정](using/offers/batch-delivery.md)
+   + [일괄 의사 결정 사용](using/offers/batch-delivery.md)
+   + 이벤트 데이터 수집 {#collect-event-data}
+      + [데이터 수집 시작하기](using/offers/data-collection/data-collection.md)
+      + [이벤트를 수집할 데이터 세트 만들기](using/offers/data-collection/create-dataset.md)
+      + [이벤트 캡처 구성](using/offers/data-collection/schema-requirement.md)
    + 의사 결정 관리 보고서 만들기 {#create-reports}
       + [의사 결정 관리 이벤트 시작](using/offers/reports/get-started-events.md)
       + [의사 결정 관리 이벤트 주요 정보](using/offers/reports/key-information.md)

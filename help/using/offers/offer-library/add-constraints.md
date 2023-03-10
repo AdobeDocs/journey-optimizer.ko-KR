@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e22b44b2139ab37c5b62573c9bdeaa0fbfc8b12
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '2197'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 * 이 오퍼는 &quot;Gold Loyalty Customers&quot; 결정 규칙과 일치하는 사용자에게만 고려됩니다.
 * 오퍼의 우선 순위는 &quot;50&quot;으로 설정되어 있습니다. 즉, 우선 순위가 1과 49 사이인 오퍼 앞에, 우선 순위가 최소 51인 오퍼 뒤에 오퍼가 표시됩니다.
-* 오퍼는 모든 배치에서 사용자당 한 번만 제공됩니다.
+* 이 오퍼는 모든 배치에서 사용자당 한 달에 한 번만 제공됩니다.
 
 ## 자격 요건 {#eligibility}
 
@@ -138,63 +138,37 @@ ht-degree: 2%
 >id="ajo_decisioning_capping"
 >title="한도 사용"
 >abstract="고객을 너무 많이 모집하지 않도록 하려면 최대 가용량(captivate)을 사용하여 오퍼를 표시할 수 있는 최대 횟수를 정의합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="날짜 변경은 캡핑에 영향을 줄 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="캡핑 빈도 설정"
->abstract="오퍼 한도 카운터를 일별, 주별 또는 월별 기준으로 재설정하도록 선택할 수 있습니다."
+>abstract="오퍼 한도 카운터를 일별, 주별 또는 월별 기준으로 재설정하도록 선택할 수 있습니다. 오퍼를 저장한 후에는 선택한 빈도를 변경할 수 없습니다."
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="노출 횟수"
->abstract="최대 가용량 이벤트로 노출 횟수를 사용하는 것은 인바운드 채널에만 사용할 수 있습니다."
+[!CONTEXTUALHELP]
+>id=&quot;ajo_decisioning_frequency_capping_impression&quot;
+>title=&quot;노출 횟수&quot;
+>abstract=&quot;노출 횟수를 최대 가용량 이벤트로 사용하는 것은 인바운드 채널에만 사용할 수 있습니다.&quot;
 
 한도는 오퍼를 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다.
 
 사용자가 특정 오퍼를 받는 횟수를 제한하면 고객에게 과다 청탁을 하지 않고 최상의 오퍼로 각 접점을 최적화할 수 있습니다.
 
-캡핑을 설정하려면 아래 단계를 따르십시오.
+캡핑을 설정하려면 아래의 주요 단계를 따르십시오.
 
-1. 오퍼를 표시할 수 있는 횟수를 정의합니다.
+1. 다음을 확인합니다. **[!UICONTROL 캡핑 포함]** 토글 버튼이 선택되어 있습니다. 캡핑은 기본적으로 포함됩니다.
 
-   ![](../assets/offer-capping-times.png)
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >숫자는 0보다 큰 정수여야 합니다.
+   >이전에 만든 오퍼에 대해 빈도 제한을 활성화하거나 비활성화할 수 없습니다. 이렇게 하려면 오퍼를 복제하거나 새 오퍼를 만들어야 합니다.
 
-1. 상한을 모든 사용자 간에 적용할지 또는 하나의 특정 프로필에 적용할지를 지정합니다.
+1. 정의 **[!UICONTROL 최대 이벤트]** 계산기를 늘리기 위해 고려될 것입니다. [자세히 알아보기](#capping-event)
 
-   ![](../assets/offer-capping-total.png)
+1. 오퍼를 표시할 수 있는 횟수를 정의합니다. [자세히 알아보기](#capping-type)
 
-   * 선택 **[!UICONTROL 합계]** 결합된 타겟 대상자, 즉 모든 사용자에게 오퍼를 제안할 수 있는 횟수를 정의할 수 있습니다.
+1. 설정 **[!UICONTROL 빈도]** 최대 가용량 수가 재설정되는 빈도를 정의합니다. [자세히 알아보기](#frequency-capping)
 
-      예를 들어 &#39;TV 초보자용 거래&#39;를 하는 전자 제품 소매업자인 경우 모든 프로필에서 오퍼가 200배만 반환되기를 원할 수 있습니다.
-
-   * 선택 **[!UICONTROL 프로필별]** 동일한 사용자에게 오퍼를 제안할 수 있는 횟수를 정의합니다.
-
-      예를 들어 &#39;플래티넘 신용카드&#39; 오퍼가 있는 은행인 경우 이 오퍼가 프로필당 5회 이상 표시되지 않도록 할 수 있습니다. 실제로, 사용자가 오퍼를 5번 보고 실행하지 않은 경우 다음 최상의 오퍼에 대해 조치를 취할 수 있는 기회가 더 높다고 판단합니다.
-   <!--
-    Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
-    ![](../assets/offer-capping-frequency.png)
-    >[!NOTE]
-    >
-    >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday.
-    
-    For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
-    -->
-
-1. 여러 을 정의한 경우 [표시](add-representations.md) 오퍼에 최대 가용량 적용 여부를 지정합니다 **[!UICONTROL 모든 배치에서]** 또는 **[!UICONTROL 각 배치용]**.
-
-   ![](../assets/offer-capping-placement.png)
-
-   * **[!UICONTROL 모든 배치에서]**: 최대 가용량 수는 오퍼와 연결된 배치 전체에서 모든 의사 결정을 합계합니다.
-
-      예를 들어 오퍼에 **이메일** 배치 및 **웹** 배치, 그리고 다음 위치에 캡핑 설정 **모든 배치에서 프로필당 2개**&#x200B;를 선택한 경우 각 프로필은 배치 혼합에 관계없이 총 2회까지 오퍼를 받을 수 있습니다.
-
-   * **[!UICONTROL 각 배치용]**: 최대 가용량 수는 각 배치에 대한 결정 수를 별도로 적용합니다.
-
-      예를 들어 오퍼에 **이메일** 배치 및 **웹** 배치, 그리고 다음 위치에 캡핑 설정 **각 배치에 대해 프로필당 2개**&#x200B;를 설치한 후 각 프로필은 이메일 배치에 대해 최대 2회 오퍼를 수신하고 웹 배치에 대해 추가로 2회 오퍼를 수신할 수 있습니다.
+1. 여러 을 정의한 경우 [표시](add-representations.md) 오퍼에 최대 가용량 적용 여부를 지정합니다 **[!UICONTROL 모든 배치에서]** 또는 **[!UICONTROL 각 배치용]**. [자세히 알아보기](#placements)
 
 1. 저장 및 승인되면, 정의한 기준 및 일정에 따라 이 필드에 지정한 횟수로 오퍼가 제공된 경우 해당 게재가 중지됩니다.
 
@@ -205,6 +179,86 @@ ht-degree: 2%
 >[!NOTE]
 >
 >최대 가용량 카운터는 오퍼가 만료되거나 오퍼 시작 날짜 후 2년 중 먼저 도래하는 날짜에 재설정됩니다. 에서 오퍼의 날짜를 정의하는 방법 알아보기 [이 섹션](creating-personalized-offers.md#create-offer).
+
+### 최대 이벤트 {#capping-event}
+
+다음 **[!UICONTROL 최대 이벤트]** 필드를 사용하면 다음 항목을 정의할 수 있습니다 **[!UICONTROL 최대 이벤트]** 카운터를 증가시키기 위해 를 고려합니다.
+
+* **[!UICONTROL 결정 이벤트]** (기본값): 오퍼를 표시할 수 있는 최대 횟수입니다.
+* **[!UICONTROL 노출 횟수]**: 사용자에게 오퍼를 표시할 수 있는 최대 횟수입니다.
+
+   >[!NOTE]
+   >
+   >노출을 최대 가용량 이벤트로 사용하기는에서 사용할 수 있습니다. **인바운드 채널** 만 해당.
+
+* **[!UICONTROL 클릭수]**: 사용자가 오퍼를 클릭할 수 있는 최대 횟수입니다.
+* **[!UICONTROL 사용자 지정 이벤트]**: 전송된 오퍼 수를 제한하는 데 사용할 사용자 지정 이벤트를 정의할 수 있습니다. 예를 들어 주어진 프로필이 1번 상환될 때까지 상환 횟수를 제한할 수 있습니다. 이렇게 하려면 다음을 사용합니다. [Adobe Experience Platform Xdm](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"} 사용자 지정 이벤트 규칙을 작성할 스키마.
+
+   ![](../assets/offer-capping-event.png)
+
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+
+   <!--![](../assets/offer-capping-custom-event.png)-->
+
+   >[!CAUTION]
+   >
+   >의사 결정 이벤트를 제외한 모든 최대 가용량 이벤트에 대해 의사 결정 관리 피드백이 자동으로 수집되지 않을 수 있으므로 데이터가 들어오는지 확인하십시오. [데이터 수집에 대해 자세히 알아보기](../data-collection/data-collection.md)
+
+### 캡핑 유형 {#capping-type}
+
+다음 **[!UICONTROL 캡핑 유형]** 필드를 사용하면 오퍼를 표시할 수 있는 횟수를 지정할 수 있습니다.
+
+![](../assets/offer-capping-times.png)
+
+>[!NOTE]
+>
+>숫자는 0보다 큰 정수여야 합니다.
+
+<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+
+<!--![](../assets/offer-capping-custom-example.png)-->
+
+캡핑을 모든 사용자 간에 적용할지 또는 하나의 특정 프로필에 적용할지를 지정할 수도 있습니다.
+
+![](../assets/offer-capping-total.png)
+
+* 선택 **[!UICONTROL 합계]** 결합된 타겟 대상자, 즉 모든 사용자에게 오퍼를 제안할 수 있는 횟수를 정의할 수 있습니다.
+
+   예를 들어 &#39;TV 초보자용 거래&#39;를 하는 전자 제품 소매업자인 경우 모든 프로필에서 오퍼가 200배만 반환되기를 원할 수 있습니다.
+
+* 선택 **[!UICONTROL 프로필별]** 동일한 사용자에게 오퍼를 제안할 수 있는 횟수를 정의합니다.
+
+   예를 들어 &#39;플래티넘 신용카드&#39; 오퍼가 있는 은행인 경우 이 오퍼가 프로필당 5회 이상 표시되지 않도록 할 수 있습니다. 실제로, 사용자가 오퍼를 5번 보고 실행하지 않은 경우 다음 최상의 오퍼에 대해 조치를 취할 수 있는 기회가 더 높다고 판단합니다.
+
+### 빈도 설정 {#frequency-capping}
+
+다음 **[!UICONTROL 빈도]** 섹션에서는 캡핑 횟수가 재설정되는 빈도를 정의할 수 있습니다. 이렇게 하려면 계산 기간(일별, 주별 또는 월별)을 정의하고 선택한 일/주/개월을 입력합니다.
+
+![](../assets/offer-capping-frequency.png)
+
+>[!NOTE]
+>
+>재설정은 정의한 당일 또는 해당되는 경우 주/월의 첫 번째 날에 오전 12시(UTC)에 수행됩니다. 주 시작일은 일요일입니다. 선택하는 기간은 2년(즉, 해당 개월, 주 또는 일 수)을 초과할 수 없습니다.
+
+예를 들어, 2주마다 최대 가용량 수를 재설정하려면 을 선택합니다. **[!UICONTROL 매주]** 다음에서 **[!UICONTROL 반복]** 드롭다운 목록 및 유형 **2** 다른 필드에서. 재설정은 매주 일요일 오후 12시 UTC에 진행됩니다.
+
+>[!CAUTION]
+>
+>오퍼를 저장하면 빈도에 대해 선택한 기간(월별, 주별 또는 일별)을 변경할 수 없습니다.
+
+### 캡핑 및 배치 {#placements}
+
+여러 을 정의한 경우 [표시](add-representations.md) 오퍼에 최대 가용량 적용 여부를 지정합니다 **[!UICONTROL 모든 배치에서]** 또는 **[!UICONTROL 각 배치용]**.
+
+![](../assets/offer-capping-placement.png)
+
+* **[!UICONTROL 모든 배치에서]**: 최대 가용량 수는 오퍼와 연결된 배치 전체에서 모든 의사 결정을 합계합니다.
+
+   예를 들어 오퍼에 **이메일** 배치 및 **웹** 배치, 그리고 다음 위치에 캡핑 설정 **모든 배치에서 프로필당 2개**&#x200B;를 선택한 경우 각 프로필은 배치 혼합에 관계없이 총 2회까지 오퍼를 받을 수 있습니다.
+
+* **[!UICONTROL 각 배치용]**: 최대 가용량 수는 각 배치에 대한 결정 수를 별도로 적용합니다.
+
+   예를 들어 오퍼에 **이메일** 배치 및 **웹** 배치, 그리고 다음 위치에 캡핑 설정 **각 배치에 대해 프로필당 2개**&#x200B;를 설치한 후 각 프로필은 이메일 배치에 대해 최대 2회 오퍼를 수신하고 웹 배치에 대해 추가로 2회 오퍼를 수신할 수 있습니다.
 
 ### 날짜 변경이 캡핑에 미치는 영향 {#capping-change-date}
 
