@@ -10,9 +10,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="정보"
-source-git-commit: 84278edbfa479d9c7588594c0b389a442aa3fe7c
+source-git-commit: 7a044f7c048ba797e7b857212f6d6b0cf2644b5d
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,9 @@ Adobe Journey Optimizer을 사용하면 Adobe Experience Manager 사이트를 �
 
 * **Experience Manager 설정**
 
-   이 기능은 Adobe Experience Manager 6.5.14부터 사용할 수 있습니다. Managed Services 작성 환경에서 Adobe Experience Manager Sites에 연결해야 합니다.
+   이 기능은 다음에서 사용할 수 있습니다. [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html){target="_blank"}.
 
-   Beta 프로그램의 일부로, Adobe Journey Optimizer에 연결하기 위해 Adobe Experience Manager의 Adobe에서 Cloud Service 구성을 수행했습니다.
+   Beta 프로그램의 일부로, Adobe Journey Optimizer에 연결하기 위해 Adobe Experience Manager의 Adobe에서 Cloud Service 구성을 수행합니다.
 
 * **권한**
 
