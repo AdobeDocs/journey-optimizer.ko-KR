@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
-source-wordcount: '2290'
+source-wordcount: '2323'
 ht-degree: 2%
 
 ---
@@ -200,14 +200,21 @@ ht-degree: 2%
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   아래 예에서는 구독 수를 제한하려고 합니다. 선택 **[!UICONTROL 사용자 지정 이벤트]** 목록에서 을(를) 만들고 **[!UICONTROL 사용자 지정 이벤트 규칙 만들기]** 빌더에서 관련 이벤트를 선택합니다.
+   아래 예제에서는 체크아웃 수를 제한하려고 합니다.
 
-   ![](../assets/offer-capping-custom-event.png)
+   1. 선택 **[!UICONTROL 사용자 지정 이벤트]** 목록에서 을(를) 만들고 **[!UICONTROL 사용자 지정 이벤트 추가]** 단추를 클릭합니다.
 
-   규칙이 만들어지면에서 표시됩니다. **[!UICONTROL 사용자 지정 이벤트 쿼리]** 필드.
+      ![](../assets/offer-capping-custom-event-add.png)
 
-   ![](../assets/offer-capping-custom-event-query.png)
+   1. 사용 **[!UICONTROL 사용자 지정 이벤트 규칙 만들기]** 빌더에서 관련 이벤트를 선택합니다. 오퍼를 제한할 사용자 작업을 선택할 수 있습니다.
 
+      여기에서 선택 **[!UICONTROL 상거래]** > **[!UICONTROL 체크아웃]** > **[!UICONTROL 값]** 및 선택 **[!UICONTROL 존재함]** 을 클릭합니다.
+
+      ![](../assets/offer-capping-custom-event.png)
+
+   1. 규칙이 만들어지면에서 표시됩니다. **[!UICONTROL 사용자 지정 이벤트 쿼리]** 필드.
+
+      ![](../assets/offer-capping-custom-event-query.png)
    >[!CAUTION]
    >
    >의사 결정 이벤트를 제외한 모든 최대 가용량 이벤트에 대해 의사 결정 관리 피드백이 자동으로 수집되지 않을 수 있으므로 데이터가 들어오는지 확인하십시오. [데이터 수집에 대해 자세히 알아보기](../data-collection/data-collection.md)
@@ -222,7 +229,7 @@ ht-degree: 2%
 >
 >숫자는 0보다 큰 정수여야 합니다.
 
-예를 들어, 구독과 같은 사용자 지정 최대 가용량 이벤트를 정의한 경우 **[!UICONTROL 최대 가용량]** 필드에서는 10개의 구독 후에는 더 이상 오퍼가 전송되지 않습니다.
+예를 들어, 체크아웃 수를 고려하는 사용자 정의 캡핑 이벤트를 정의했습니다. 에 10을 입력하면 **[!UICONTROL 최대 가용량]** 필드에서는 10회 체크아웃 후에는 더 이상 오퍼가 전송되지 않습니다.
 
 ### 캡핑 유형 {#capping-type}
 
