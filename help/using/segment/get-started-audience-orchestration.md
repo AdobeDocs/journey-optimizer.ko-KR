@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="정보"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 14%
@@ -25,11 +25,16 @@ ht-degree: 14%
 >title="컴포지션 만들기"
 >abstract="기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하는 작성 워크플로를 만들고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만듭니다."
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>이 설명서에서 찾을 수 있는 내용:<br/><ul>
-<li><b><a href="get-started-audience-orchestration.md">대상자 구성 시작</a></b></li>
-<li><a href="create-compositions.md">첫 번째 컴포지션 워크플로우 만들기</a></li>
-<li><a href="composition-canvas.md">컴포지션 캔버스 작업</a></li>
-<li><a href="access-audiences.md">대상자 액세스 및 관리</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+이 설명서에서 찾을 수 있는 내용:
+
+* **[대상자 구성 시작](get-started-audience-orchestration.md)**
+* [첫 번째 컴포지션 워크플로우 만들기](create-compositions.md)
+* [컴포지션 캔버스 작업](composition-canvas.md)
+* [대상자 액세스 및 관리](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

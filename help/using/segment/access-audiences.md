@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="정보"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 11%
@@ -20,11 +20,16 @@ ht-degree: 11%
 
 # 대상자 액세스 및 관리 {#access-manage-audiences}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>이 설명서에서 찾을 수 있는 내용:<br/><ul>
-<li><a href="get-started-audience-orchestration.md">대상자 구성 시작</a></li>
-<li><a href="create-compositions.md">첫 번째 컴포지션 워크플로우 만들기</a></li>
-<li><a href="composition-canvas.md">컴포지션 캔버스 작업</a></li>
-<li><b><a href="access-audiences.md">대상자 액세스 및 관리</a></b></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+이 설명서에서 찾을 수 있는 내용:
+
+* [대상자 구성 시작](get-started-audience-orchestration.md)
+* [첫 번째 컴포지션 워크플로우 만들기](create-compositions.md)
+* [컴포지션 캔버스 작업](composition-canvas.md)
+* **[대상자 액세스 및 관리](access-audiences.md)**
+
+>[!ENDSHADEBOX]
 
 대상자 작성으로 인한 대상자는 **[!UICONTROL 찾아보기]** 의 탭 **[!UICONTROL 세그먼트]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
