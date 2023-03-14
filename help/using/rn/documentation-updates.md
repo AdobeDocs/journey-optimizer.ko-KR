@@ -4,9 +4,9 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2386'
 ht-degree: 97%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 97%
 
 ## 2023년 2월 {#feb-2023}
 
+* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2023년 2월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 요청으로 전달된 컨텍스트 속성이 50kb를 초과할 수 없도록 지정하는 API-트리거된 캠페인 설명서에 메모를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
-
 * 옵트아웃 정보가 다음에 저장되는 방법에 대한 정보를 추가했습니다. **동의 서비스 데이터 세트** 수신자가 랜딩 페이지를 통해 구독을 취소한 후에. [자세히 보기](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023년 1월 {#jan-2023}
@@ -31,6 +31,8 @@ ht-degree: 97%
 * [!DNL Journey Optimizer]의 접근성 기능은 이제 전용 페이지에 취합되어 있습니다. [자세히 보기](../start/accessibility.md)
 * [!DNL Journey Optimizer]에 데이터 관리에 대한 새 페이지를 추가했습니다. [자세히 보기](../data/gs-data.md)
 * Decisioning API를 사용하여 오퍼를 전달할 때 응답에서 반환할 수 있는 모든 코드를 나열하는 표를 추가했습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++ 2022
 
 ## 2022년 12월 {#december-2022}
 
@@ -155,11 +157,14 @@ ht-degree: 97%
 * 다음 **옵트아웃 관리** 섹션이 명확해지고 약간 재구성되었습니다. [자세히 보기](../privacy/opt-out.md#opt-out-management)
 * 다음 **링크 삽입** 섹션이 업데이트되어 최근 사용자 인터페이스 변경 사항을 반영하였습니다. [자세히 보기](../email/message-tracking.md#insert-links)
 
++++
+
++++ 2021
+
 ## 2021년 11월 {#november-2021}
 
 * 이제 여정에 사용되는 **고급 표현식 편집기**&#x200B;에 대한 전체 설명이 제공됩니다. [자세히 보기](../building-journeys/expression/expressionadvanced.md)
 * **CNAME 하위 도메인 위임 방법**&#x200B;에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
-
 
 ## 2021년 10월 {#october-2021}
 
@@ -202,7 +207,6 @@ ht-degree: 97%
 
 * IP 풀을 편집하는 방법에 대한 하위 섹션을 추가했습니다. [자세히 보기](../configuration/ip-pools.md#edit-ip-pool)
 
-
 ## 2021년 8월 {#august-2021}
 
 * [!DNL Journey Optimizer] 2021년 8월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
@@ -221,7 +225,6 @@ ht-degree: 97%
 * 이메일 주소 및 도메인을 제외 목록에 수동으로 추가하는 방법을 설명하는 섹션을 추가했습니다. [자세히 보기](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * [제외 목록 액세스](../configuration/manage-suppression-list.md#access-suppression-list) 섹션 및 [다시 시도](../configuration/retries.md) 섹션을 업데이트하여 새 사용자 인터페이스를 반영했습니다.
 * 오퍼를 만들 때 표현을 추가 및 구성하는 새 흐름이 문서화되었습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md#representations)
-
 
 ## 2021년 7월 {#july-2021}
 
@@ -242,3 +245,4 @@ ht-degree: 97%
 * 의사 결정 관리의 새로운 **[!UICONTROL 개요]** 탭에 대한 설명서를 작성했습니다. [자세히 보기](../offers/get-started/user-interface.md#overview)
 * 오퍼 및 결정 목록에서 사용할 수 있는 작업을 설명하는 새 섹션으로 [오퍼 목록](../offers/offer-library/creating-personalized-offers.md#offer-list) 및 [의사 결정 목록](../offers/offer-activities/create-offer-activities.md#decision-list)을 추가했습니다.
 
++++
