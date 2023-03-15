@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: d690e066e5a6ec51b0cc86f9e4f375e72cd7f661
+source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 2%
+source-wordcount: '397'
+ht-degree: 3%
 
 ---
 
@@ -39,25 +39,20 @@ ht-degree: 2%
 
 노출 횟수 및 클릭 수에 대한 피드백은 [!DNL Journey Optimizer] 사용되는 채널입니다.
 
-1. 한 손에는 일부 채널이 있습니다 **자동으로** 노출 횟수 및 클릭 수를 추적합니다. 이러한 수정 사항은 다음과 같습니다.
+**이메일** 작성 [!DNL Journey Optimizer] **자동으로** 노출 횟수 및 클릭 수를 추적합니다.
 
-   * 작성자 전자 메일 [!DNL Journey Optimizer]
-   * 에서 만든 모바일 푸시 알림 [!DNL Journey Optimizer]
+하지만, **대부분의 채널** 노출 횟수 및 클릭 수 데이터를 Adobe Experience Platform으로 보내야 합니다. **경험 이벤트**. 여기에는 다음 항목이 포함되어 있습니다.
 
-   <!--If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback.-->
+* 를 사용하는 웹 페이지 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko-KR){target="_blank"} 오퍼를 렌더링합니다.
 
-1. 반면, 일부 채널에서는 노출 횟수 및 클릭 데이터를 로 Adobe Experience Platform에 전송해야 합니다 **경험 이벤트**.
+* 를 사용하는 모바일 앱 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* 키오스크
+* 타사 애플리케이션을 통해 보낸 메시지
+   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
-   의사 결정 API 요청을 사용하여 오퍼를 받는 모든 채널에서는 경험 이벤트로 로 전송되는 피드백을 필요로 합니다. 여기에는 다음 항목이 포함되어 있습니다.
-
-   * 를 사용하는 웹 페이지 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko-KR){target="_blank"} 오퍼를 렌더링합니다.
-   * 를 사용하는 모바일 앱 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} 오퍼를 렌더링합니다.
-   * 키오스크
-   * 타사 애플리케이션을 통해 보낸 메시지
-
-   >[!NOTE]
-   >
-   >오퍼에 렌더링 방법에 대한 지침이 필요한 경우 경험 이벤트로 피드백을 보내야 한다고 간주할 수 있습니다.
+>[!NOTE]
+>
+>의사 결정 API 요청을 사용하여 오퍼를 수신하는 채널에서는 경험 이벤트로 로 전송되는 피드백을 필요로 합니다. 즉, 오퍼에 렌더링 방법에 대한 지침이 필요한 경우 경험 이벤트로 피드백을 보내야 한다고 간주할 수 있습니다.
 
 ### 사용자 정의 이벤트
 
