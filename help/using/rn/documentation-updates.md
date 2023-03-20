@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
 source-wordcount: '2386'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 97%
 
 ## 2023년 3월 {#march-2023}
 
-* 표시되는 오퍼 및 사용자와 사용자의 상호 작용 방법을 포함하여 Adobe Experience Platform에서 offer decisioning 피드백을 수집하는 방법에 대한 새로운 섹션이 의사 결정 관리 안내서에 생성되었습니다. [자세히 보기](../offers/data-collection/data-collection.md)
+* 의사 결정 관리 안내서에 Adobe Experience Platform에서 Offer Decisioning 피드백을 수집하는 방법에 대한 새 섹션을 추가했습니다. 어떤 오퍼가 표시되는지, 사용자가 오퍼와 어떻게 상호 작용하는지 등을 설명합니다. [자세히 보기](../offers/data-collection/data-collection.md)
 
 ## 2023년 2월 {#feb-2023}
 
-* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2023년 2월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2023년 2월 23일 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 요청으로 전달된 컨텍스트 속성이 50kb를 초과할 수 없도록 지정하는 API-트리거된 캠페인 설명서에 메모를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
-* 옵트아웃 정보가 다음에 저장되는 방법에 대한 정보를 추가했습니다. **동의 서비스 데이터 세트** 수신자가 랜딩 페이지를 통해 구독을 취소한 후에. [자세히 보기](../landing-pages/lp-use-cases.md#configure-opt-out)
+* 수신자가 랜딩 페이지를 통해 구독을 취소한 후 옵트아웃 정보를 **동의 서비스 데이터 세트**&#x200B;에 저장하는 방식에 대한 정보를 추가했습니다. [자세히 보기](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023년 1월 {#jan-2023}
 
