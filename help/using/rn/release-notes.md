@@ -5,9 +5,9 @@ title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -26,19 +26,19 @@ ht-degree: 86%
 
 **여정의 태그 관리**
 
-Journey Optimizer 전문가의 경우 이제 태그를 사용하여 비즈니스 오브젝트를 구성할 수 있습니다. 태그는 검색을 개선하기 위해 개체를 빠르고 쉽게 분류하는 방법입니다. 이 기능은 현재 베타 버전이며 여정에 대해서만 사용할 수 있습니다. [자세히 알아보기](../building-journeys/tags.md)
+Journey Optimizer 사용자는 이제 태그를 사용하여 비즈니스 개체를 정리할 수 있습니다. 태그를 사용하면 개체를 빠르고 간단하게 분류하여 검색을 개선할 수 있습니다. 이 기능은 현재 beta 버전이며 여정에 대해서만 사용할 수 있습니다. [자세히 알아보기](../building-journeys/tags.md)
 
-**컬렉션 한정자로 이름이 변경된 의사 결정 관리 태그**
+**의사 결정 관리 태그의 이름을 컬렉션 수식어로 변경**
 
-Adobe Experience Platform의 최근 태그 기능 릴리스와 관련하여 발생할 수 있는 혼란을 방지하기 위해 의사 결정 관리 태그의 이름이 &quot;컬렉션 한정자&quot;로 변경되었습니다.
+최근 Adobe Experience Platform 전체에 걸친 태그 기능 릴리스와 관련하여 발생할 수 있는 혼란을 방지하기 위해 의사 결정 관리 태그의 이름을 “컬렉션 수식어”로 변경했습니다.
 
-&quot;태그&quot;라는 용어가 의사 결정 관리 사용자 인터페이스에서 더 이상 사용되지 않지만 API 및 데이터 세트와 같은 백엔드 서비스에서 계속 사용됩니다.
+의사 결정 관리 사용자 인터페이스에서는 “태그”라는 단어를 더 이상 사용하지 않지만 API와 데이터 세트 등 백엔드 서비스에서는 계속 사용한다는 점에 유의해 주시기 바랍니다.
 
-**의사 결정 관리 한도**
+**의사 결정 관리 한도 설정**
 
-* 이제 일별, 주별 또는 월별 기준으로 오퍼 최대 가용량 카운터를 재설정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
+* 이제 일별, 주별 또는 월별 기준으로 오퍼 한도 카운터를 재설정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
-* offer decisioning 캡핑에 대해 확인해야 하는 Adobe Experience Platform 이벤트를 선택할 수도 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
+* Offer Decisioning 한도 적용 시 확인할 Adobe Experience Platform 이벤트를 선택할 수도 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023년 2월 릴리스 정보 {#feb-2023}
 
