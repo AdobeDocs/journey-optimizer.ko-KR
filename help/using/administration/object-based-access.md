@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Journey Optimizer에서 OLAC를 사용하면 데이터를 보호하고 특
 >
 >레이블을 만들려면 **[!UICONTROL 사용 레이블 관리]** 권한.
 
-**[!UICONTROL 레이블]** 을(를) 사용하면 해당 데이터에 적용되는 사용 정책에 따라 데이터 세트 및 필드를 분류할 수 있습니다. **[!UICONTROL 레이블]** 언제든지 적용할 수 있으므로 데이터를 유연하게 관리할 수 있습니다.
+**[!UICONTROL 레이블을 사용하면 해당 데이터에 적용되는 사용 정책에 따라 데이터 세트 및 필드를 분류할 수 있습니다.]** **[!UICONTROL 레이블]** 언제든지 적용할 수 있으므로 데이터를 유연하게 관리할 수 있습니다.
 
 에서 레이블을 만들 수 있습니다 [!DNL Permissions] 제품. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html)를 참조하십시오.
 

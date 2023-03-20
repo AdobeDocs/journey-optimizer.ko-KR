@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '861'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보십시오 [이 섹션](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
+   >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보십시오 [이 섹션](../../segment/get-started-identity.md){target="_blank"}.
 
 1. ID 값을 입력하고 를 클릭합니다. **[!UICONTROL 보기]** 사용 가능한 프로필을 나열하려면 다음을 수행하십시오.
 
@@ -212,5 +212,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >요청이나 응답 페이로드를 자신의 코드에 복사할 때는 {USER_TOKEN} 및 {API_KEY}을 올바른 값으로 바꾸십시오. 에서 이러한 값을 검색하는 방법을 알아봅니다 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;} 설명서입니다.
+   >요청이나 응답 페이로드를 자신의 코드에 복사할 때는 {USER_TOKEN} 및 {API_KEY}을 올바른 값으로 바꾸십시오. 에서 이러한 값을 검색하는 방법을 알아봅니다 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} 설명서.
 

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '340'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 5%
 
    ![](assets/create-segment.png)
 
-   세그먼트 정의 화면에서는 세그먼트를 정의하기 위해 모든 필수 필드를 구성할 수 있습니다. 에서 세그먼트를 구성하는 방법 알아보기 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target=&quot;_blank&quot;}.
+   세그먼트 정의 화면에서는 세그먼트를 정의하기 위해 모든 필수 필드를 구성할 수 있습니다. 에서 세그먼트를 구성하는 방법 알아보기 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -42,7 +42,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >왼쪽 창에서 사용할 수 있는 필드는 **XDM 개별 프로필** 및 **XDM ExperienceEvent** 조직에 대해 스키마가 구성되었습니다.  자세한 내용은 [XDM(Experience Data Model) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}.
+   >왼쪽 창에서 사용할 수 있는 필드는 **XDM 개별 프로필** 및 **XDM ExperienceEvent** 조직에 대해 스키마가 구성되었습니다.  자세한 내용은 [XDM(Experience Data Model) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}.
 
    ![](assets/drag-fields.png)
 

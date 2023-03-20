@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -107,9 +107,9 @@ ht-degree: 0%
 >
 >최대 60분 정도 걸릴 수 있습니다 [!DNL Journey Optimizer] 보내는 이메일의 숨겨진 주소를 고려합니다.
 
-이메일 주소 또는 도메인을 추가할 수 있습니다 [한 번에 하나씩](#add-one-address-or-domain), 또는 [일괄 모드에서](#upload-csv-file) 를 사용하십시오.
+이메일 주소나 도메인을 [한 번에 하나씩](#add-one-address-or-domain) 추가하거나 CSV 파일 업로드를 통해 [일괄 모드](#upload-csv-file)로 추가할 수 있습니다.
 
-### 주소 또는 도메인 하나 추가 {#add-one-address-or-domain}
+### 하나의 주소 또는 도메인 추가 {#add-one-address-or-domain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_address"
@@ -132,9 +132,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >올바른 이메일 주소(예: abc@company.com) 또는 도메인(예: abc.company.com)을 입력해야 합니다.
+   >유효한 이메일 주소(예: abc@company.com) 또는 도메인(예: abc.company.com)을 입력했는지 확인합니다.
 
-1. (선택 사항) 사유를 입력합니다. 이 필드에는 32~126 사이의 ASCII 인쇄 가능 문자가 모두 포함될 수 있습니다.
+1. (선택 사항) 사유를 입력합니다. 이 필드에는 32~126 사이로 구성된 모든 ASCII 인쇄 가능 문자가 허용됩니다.
 
 1. 를 사용하십시오 **[!UICONTROL 제출]** 확인할 단추입니다.
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
    ![](assets/suppression-list-upload-csv.png)
 
-1. 아래 열과 형식을 포함하는 사용할 CSV 템플릿을 다운로드합니다.
+1. 아래 열과 형식이 포함된 CSV 템플릿을 다운로드하여 사용할 수 있습니다.
 
    ```
    TYPE,VALUE,COMMENT
@@ -166,7 +166,7 @@ ht-degree: 0%
    >
    >CSV 템플릿의 열 이름을 변경하지 마십시오.
    >
-   >파일 크기는 1MB를 초과할 수 없습니다.
+   >파일 크기는 1MB를 초과해서는 안 됩니다.
 
 1. 완료되면 CSV 파일을 끌어다 놓고 을(를) 사용합니다 **[!UICONTROL 제출]** 확인할 단추입니다.
 
@@ -182,9 +182,9 @@ ht-degree: 0%
 
 가능한 상태는 다음과 같습니다.
 
-* **[!UICONTROL 보류 중]**: 파일 업로드가 처리 중입니다.
-* **[!UICONTROL 오류]**: 기술 문제 또는 파일 형식 오류로 인해 파일 업로드 프로세스가 실패했습니다.
-* **[!UICONTROL 완료]**: 파일 업로드 프로세스가 완료되었습니다.
+* **[!UICONTROL 보류 중]**: 파일 업로드가 진행 중입니다.
+* **[!UICONTROL 오류]**: 기술적인 문제 또는 파일 형식 오류로 인해 파일 업로드 프로세스가 실패했습니다.
+* **[!UICONTROL 완료]**: 파일 업로드 프로세스가 정상적으로 완료되었습니다.
 
 업로드 중에 일부 주소가 올바른 형식이 아닌 경우, 이 주소가 [!DNL Journey Optimizer] 제외 목록.
 

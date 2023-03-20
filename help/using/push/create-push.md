@@ -107,7 +107,7 @@ ht-degree: 4%
 
 빠른 전달 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html).
 
-### 전제 조건 {#prerequisites}
+### 사전 요구 사항 {#prerequisites}
 
 신속한 전송 메시징에는 다음과 같은 요구 사항이 포함됩니다.
 
