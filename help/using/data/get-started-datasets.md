@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 플랫폼, 데이터 레이크, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 8%
+source-wordcount: '836'
+ht-degree: 9%
 
 ---
 
@@ -55,6 +55,8 @@ Adobe Experience Platform에 수집된 모든 데이터는 데이터 세트로 �
 
 * _전송 시간 최적화 점수/참여 점수_: 여정 AI의 출력 점수입니다.
 
+각 스키마에 대한 전체 필드 및 속성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+
 ## 데이터 세트 미리 보기{#preview-datasets}
 
 데이터 집합 활동 화면에서 을 선택합니다 **데이터 세트 미리 보기** 화면 오른쪽 상단 근처에 있는 를 클릭하여 이 데이터 세트에 있는 가장 최근 성공적인 일괄 처리를 미리 봅니다. 데이터 세트가 비어 있으면 미리 보기 링크가 비활성화됩니다.
@@ -67,7 +69,7 @@ Adobe Experience Platform에 수집된 모든 데이터는 데이터 세트로 �
 
 다음을 수행할 수 있습니다.
 
-* 스키마에서 데이터 집합을 만듭니다. [이 문서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
+* 스키마에서 데이터 세트 만들기. [이 문서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
 * CSV 파일에서 데이터 세트를 만듭니다. [이 문서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko-KR){target="_blank"}
 
 이 비디오에서 데이터 세트를 만들고 스키마에 매핑하고 데이터를 추가하고 데이터가 수집되었는지 확인하는 방법을 알아봅니다.

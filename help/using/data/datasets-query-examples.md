@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 데이터 세트, 최적기, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 [동의 서비스 데이터 세트](#consent-service-dataset)
 [숨은 참조 피드백 이벤트 데이터 세트](#bcc-feedback-event-dataset)
 [엔티티 데이터 세트](#entity-dataset)
+
+각 스키마에 대한 전체 필드 및 속성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ## 이메일 추적 경험 이벤트 데이터 세트{#email-tracking-experience-event-dataset}
 
