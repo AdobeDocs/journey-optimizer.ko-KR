@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 7%
+source-wordcount: '1868'
+ht-degree: 6%
 
 ---
 
@@ -648,13 +648,20 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 모두 바꾸기{#replaceAll}
 
-다음 `replaceAll` 함수는 &quot;target&quot;과 일치하는 텍스트의 모든 하위 문자열을 지정된 리터럴 &quot;replacement&quot; 문자열로 바꾸는 데 사용됩니다. 대체는 문자열 시작 부분부터 끝 부분까지 진행됩니다. 예를 들어 문자열 &quot;aaa&quot;에서 &quot;aa&quot;를 &quot;b&quot;로 바꾸면 &quot;ab&quot;가 아니라 &quot;ba&quot;가 됩니다.
+다음 `replaceAll` 함수는 &quot;regex&quot; 표현식과 일치하는 텍스트의 모든 하위 문자열을 지정된 리터럴 &quot;replacement&quot; 문자열로 바꾸는 데 사용됩니다. Regex에는 &quot;\&quot; 및 &quot;+&quot;에 대한 특수 처리가 있으며, 모든 정규 표현식은 PQL 이스케이프 전략을 따릅니다. 대체는 문자열 시작 부분부터 끝 부분까지 진행됩니다. 예를 들어 문자열 &quot;aaa&quot;에서 &quot;aa&quot;를 &quot;b&quot;로 바꾸면 &quot;ab&quot;가 아니라 &quot;ba&quot;가 됩니다.
 
 **구문**
 
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+>[!NOTE]
+>
+> 두 번째 인수로 사용된 regex 표현식이 특수 정규 정규 정규 정규 정규 정규 표현식인 경우 이중 백슬래시(`//`) 를 사용하여 이러한 사례를 처리할 수 있습니다.
+>
+> 특수 정규 정규 표현식 문자 목록 [., +, *, ?,^, $, (, ), [, ], {, }, |, \]
+> 
+> 요약되어 있습니다 [Oracle 설명서](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
 
 ## 오른쪽 트림 {#rightTrim}
 
