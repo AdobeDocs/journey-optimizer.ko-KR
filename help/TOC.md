@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
-workflow-type: ht
-source-wordcount: '1334'
-ht-degree: 100%
+source-git-commit: a402f9c8510c5905551e9ca97ca7ae762e7e56a1
+workflow-type: tm+mt
+source-wordcount: '1343'
+ht-degree: 99%
 
 ---
 
@@ -415,11 +415,12 @@ ht-degree: 100%
 + 데이터 관리 {#data-management}
    + [데이터 관리 시작](using/data/gs-data.md)
    + [스키마 작업](using/data/get-started-schemas.md)
-   + [쿼리](using/data/get-started-queries.md)
    + Journey Optimizer 데이터셋 {#datasets}
       + [데이트 세트 시작](using/data/get-started-datasets.md)
       + [Journey Optimizer 데이터 세트 내보내기](using/data/export-datasets.md)
       + [쿼리 예](using/data/datasets-query-examples.md)
+   + [Journey Optimizer 기본 제공 스키마](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+   + [쿼리](using/data/get-started-queries.md)
 + 구성{#configuration}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
    + 이메일 하위 도메인 위임 {#delegate-subdomains}
