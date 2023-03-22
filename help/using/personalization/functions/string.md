@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
+source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1857'
 ht-degree: 6%
 
 ---
@@ -655,13 +655,12 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+
 >[!NOTE]
 >
-> 두 번째 인수로 사용된 regex 표현식이 특수 정규 정규 정규 정규 정규 정규 표현식인 경우 이중 백슬래시(`//`) 를 사용하여 이러한 사례를 처리할 수 있습니다.
->
-> 특수 정규 정규 표현식 문자 목록 [., +, *, ?,^, $, (, ), [, ], {, }, |, \]
+> 두 번째 인수로 사용된 표현식이 특수 정규 정규 정규 표현식인 경우 이중 백슬래시(`//`).  특수 정규 표현식 문자는 다음과 같습니다. [, +, *, ?,^, $, (, ), [, ], {, }, |, \]
 > 
-> 요약되어 있습니다 [Oracle 설명서](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
+> 추가 정보 [Oracle 설명서](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 
 ## 오른쪽 트림 {#rightTrim}
 
