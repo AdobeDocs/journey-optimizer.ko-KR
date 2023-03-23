@@ -2,33 +2,43 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Analytics 통합
-description: Adobe Analytics 데이터를 활용하는 방법 알아보기
+description: Journey Optimizer에서 Adobe Analytics 데이터를 활용하는 방법 알아보기
 feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: analytics, 통합, 웹 sdk, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 16752d94647b25b4a86c34b77bda0f72fcfaf169
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 10%
+source-wordcount: '768'
+ht-degree: 7%
 
 ---
 
-# Adobe Analytics 통합 {#analytics-data}
+# Adobe Analytics 데이터를 사용한 작업 {#analytics-data}
 
-## Adobe Analytics 또는 Web SDK 데이터 활용 {#leverage-analytics-data}
+Adobe Analytics 또는 Web SDK를 통해 이미 캡처하고 Adobe Experience Platform으로 스트리밍하는 모든 웹 행동 이벤트 데이터를 활용하여 여정을 트리거하고 고객을 위한 경험을 자동화할 수 있습니다.
 
-Adobe Analytics 또는 Web SDK를 통해 이미 Adobe Experience Platform으로 캡처 및 스트리밍하고 있는 모든 웹 행동 이벤트 데이터를 활용하여 여정을 트리거하고 고객을 위한 경험을 자동화할 수 있습니다.
+Adobe Analytics에서 작업하려면 다음을 수행해야 합니다.
+
+1. 사용할 보고서 세트를 활성화합니다. [자세히 알아보기](#leverage-analytics-data)
+1. Journey Optimizer을 활성화하여 Adobe Analytics 데이터 소스를 사용합니다. [자세히 알아보기](#activate-analytics-data)
+1. 여정에서 특정 이벤트를 추가합니다. [자세히 알아보기](#event-analytic)
 
 >[!NOTE]
 >
->이 섹션은 Adobe Analytics 또는 WebSDK 데이터를 사용해야 하는 규칙 기반 이벤트 및 고객에게만 적용됩니다.
+>이 섹션은 Adobe Analytics 또는 웹 SDK 데이터를 사용해야 하는 규칙 기반 이벤트 및 고객에게만 적용됩니다.
+> 
+>Adobe Customer Journey Analytics을 사용하는 경우 다음을 참조하십시오. [이 페이지](../reports/cja-ajo.md).
 
-Adobe Analytics에서 사용하려면 사용할 보고서 세트를 Adobe Experience Platform에서 활성화해야 합니다. 이렇게 하려면 아래 단계를 수행합니다:
+## Adobe Analytics 또는 Web SDK 데이터 구성 {#leverage-analytics-data}
 
-1. Adobe Experience Platform에 연결하고 **[!UICONTROL 소스]**.
+Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 얻은 데이터를 여정에서 사용하려면 활성화해야 합니다.
+
+이렇게 하려면 아래 단계를 수행합니다:
+
+1. 다음 위치로 이동합니다. **[!UICONTROL 소스]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 1. Adobe Analytics 섹션에서 을(를) 선택합니다 **[!UICONTROL 데이터 추가]**
 
@@ -50,16 +60,33 @@ Adobe Analytics에서 사용하려면 사용할 보고서 세트를 Adobe Experi
 
 ![](assets/ajo-aa_4.png)
 
-에서 Adobe Analytics 소스 커넥터에 대해 자세히 알아보십시오  [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR){target="_blank"}.
+에서 Adobe Analytics 소스 커넥터에 대해 자세히 알아보십시오  [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
+
+## 이 구성 활성화 {#activate-analytics-data}
+
+이 구성이 완료되면 Adobe에 문의하여 Journey Optimizer 환경에서 이 데이터 소스를 사용할 수 있도록 하십시오. 이 단계는 Adobe Analytics 데이터 소스에만 필요합니다. 다음을 수행하십시오.
+
+1. 데이터 소스 ID를 가져옵니다. 이 정보는 사용자 인터페이스에서 사용할 수 있습니다. 에서 만든 데이터 소스로 이동합니다. **데이터 흐름** 의 탭 **소스** 메뉴 아래의 제품에서 사용할 수 있습니다. 이를 찾는 가장 쉬운 방법은 Adobe Analytics 소스를 필터링하는 것입니다.
+1. 다음 세부 사항을 알려면 Adobe 고객 지원 센터에 문의하십시오.
+
+   * 제목: 여정에 대해 Adobe Analytics 이벤트 활성화
+
+   * 컨텐츠: 내 환경에서 AA 이벤트를 사용하도록 설정하십시오.
+
+      * 조직 ID: &quot;XXX@AdobeOrg&quot;
+
+      * 데이터 소스 ID: &quot;ID: xxxxx&quot;
+
+1. 환경이 준비되었음을 확인한 후 여정에서 Adobe Analytics 데이터를 사용할 수 있습니다.
 
 ## Adobe Analytics 또는 웹 SDK 데이터를 사용하여 이벤트를 사용하여 여정 만들기 {#event-analytics}
 
-Adobe Analytics과 통합을 구현한 후 [Adobe Analytics 소스](#leverage-analytics-data) 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)를 입력하면 나중에 여정에서 사용할 수 있는 이벤트를 만들 수 있습니다.
+이제 여정에 사용할 Adobe Analytics 또는 Adobe Experience Platform Web SDK 데이터를 기반으로 이벤트를 만들 수 있습니다.
 
-이 예에서는 장바구니에 제품을 추가한 사용자를 타겟팅합니다.
+아래 예에서는 장바구니에 제품을 추가한 사용자를 타깃팅하는 방법을 알아봅니다.
 
-* 주문이 완료되면, 2일 후 후속 이메일을 수신하여 피드를 요청합니다.
-* 주문이 완료되지 않으면 주문 완료를 알리는 이메일을 받게 됩니다.
+* 주문이 완료되면 사용자는 2일 후 후속 이메일을 수신하여 피드백을 요청합니다.
+* 주문이 완료되지 않으면 사용자가 주문을 완료하라는 이메일을 받게 됩니다.
 
 1. Adobe Journey Optimizer에서 **[!UICONTROL 구성]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
@@ -74,18 +101,20 @@ Adobe Analytics과 통합을 구현한 후 [Adobe Analytics 소스](#leverage-an
    * **[!UICONTROL 이름]**: 사용자 이름 개인화 **[!UICONTROL 이벤트]**.
    * **[!UICONTROL 유형]**: 을(를) 선택합니다 **[!UICONTROL 단일]** 유형. [자세히 알아보기](../event/about-events.md)
    * **[!UICONTROL 이벤트 ID 유형]**: 을(를) 선택합니다 **[!UICONTROL 규칙 기반]** 이벤트 ID 유형입니다. [자세히 알아보기](../event/about-events.md#event-id-type)
-   * **[!UICONTROL 스키마]**: 위의 섹션에서 만든 Analytics 또는 WebSDK 스키마를 선택합니다.
+   * **[!UICONTROL 스키마]**: Analytics 또는 WebSDK 스키마를 선택합니다 [생성 전에](#leverage-analytics-data).
    * **[!UICONTROL 필드]**: 페이로드 필드를 선택합니다. [자세히 알아보기](../event/about-creating.md#define-the-payload-fields)
-   * **[!UICONTROL 이벤트 ID 조건]**: 여정을 트리거할 이벤트를 식별하는 데 시스템에서 사용할 조건을 정의합니다.
+   * **[!UICONTROL 이벤트 ID 조건]**: 여정을 트리거할 이벤트를 식별하는 조건을 정의합니다.
 
       여기서 이벤트는 고객이 장바구니에 품목을 추가할 때 트리거됩니다.
-   * **[!UICONTROL 프로필 식별자]**: 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 지정합니다.
+   * **[!UICONTROL 프로필 식별자]**: 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 식별합니다.
 
    ![](assets/ajo-aa_6.png)
 
-1. 구성된 경우 을 선택합니다. **[!UICONTROL 저장]**. 이제 여정에서 이벤트를 사용할 준비가 되었습니다.
+1. 구성된 경우 을 선택합니다. **[!UICONTROL 저장]**.
 
-1. 에서 **[!UICONTROL 여정]**&#x200B;이제 여정 만들기를 시작할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../building-journeys/journey-gs.md)을 참조하십시오.
+이벤트가 준비되었으므로 사용할 여정을 만듭니다.
+
+1. 에서 **[!UICONTROL 여정]** 메뉴, 여정 열기 또는 만들기 이 작업에 대한 자세한 정보는 [이 섹션](../building-journeys/journey-gs.md)을 참조하십시오.
 
 1. 이전에 구성한 Analytics 이벤트를 여정에 추가합니다.
 
@@ -105,6 +134,6 @@ Adobe Analytics과 통합을 구현한 후 [Adobe Analytics 소스](#leverage-an
 
 1. 그런 다음 **[!UICONTROL 이메일 작업]**. 이 이메일에서는 고객에게 주문한 내용에 대한 피드백을 제공하라는 메시지가 표시됩니다.
 
-이제 유효성을 테스트한 후 여정을 게시할 수 있습니다. [자세히 알아보기](../building-journeys/publishing-the-journey.md)
+이제 여정을 테스트하고 게시할 수 있습니다. [자세히 알아보기](../building-journeys/publishing-the-journey.md)
 
 ![](assets/ajo-aa_7.png)
