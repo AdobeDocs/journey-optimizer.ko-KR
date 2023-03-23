@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="IP 풀 설정"
->abstract="IP 풀은 하위 도메인의 IP 주소를 수집하여 전자 메일 게재 기능을 개선합니다."
+>abstract="IP 풀은 이메일 게재 가능성을 개선할 수 있도록 하위 도메인의 IP 주소를 수집합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="IP 풀 설정"
->abstract="Journey Optimizer을 사용하여 하위 도메인의 IP 주소를 함께 그룹화하는 IP 풀을 만들 수 있습니다. 이렇게 하면 하위 도메인의 평판을 다른 하위 도메인에 영향을 주지 않으므로 이메일 게재 기능이 크게 향상될 수 있습니다."
+>abstract="Journey Optimizer를 통해 IP 풀을 만들어 하위 도메인의 IP 주소를 함께 그룹화할 수 있습니다. 이렇게 하면 하위 도메인의 신뢰도가 다른 하위 도메인에 영향을 미칠 수 없으므로 이메일 게재 가능성이 크게 개선될 수 있습니다."
 
 ## IP 풀 기본 정보 {#about-ip-pools}
 

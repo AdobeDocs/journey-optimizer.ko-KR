@@ -12,7 +12,7 @@ badge: label="Beta" type="Advertising"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 5%
+ht-degree: 21%
 
 ---
 
@@ -38,14 +38,14 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="편집할 URL을 확인합니다"
->abstract="위에 정의된 웹 표면에 적용할 컨텐츠를 편집하는 데 사용할 특정 웹 페이지의 URL을 확인합니다. 웹 페이지는 Adobe Experience Platform Web SDK를 사용하여 구현해야 합니다."
+>title="편집할 URL 확인"
+>abstract="위에 정의된 웹 표면에 적용되는 콘텐츠 편집에 사용할 특정 웹 페이지의 URL을 확인합니다. Adobe Experience Platform Web SDK를 사용하여 웹 페이지를 구현해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="추가 정보"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="편집할 URL을 입력합니다"
->abstract="규칙과 일치하는 모든 페이지에 적용할 컨텐츠를 편집하는 데 사용할 특정 웹 페이지의 URL을 입력합니다. 웹 페이지는 Adobe Experience Platform Web SDK를 사용하여 구현해야 합니다."
+>title="편집할 URL 입력"
+>abstract="규칙과 일치하는 모든 페이지에 적용되는 콘텐츠 편집에 사용할 특정 웹 페이지의 URL을 입력합니다. Adobe Experience Platform Web SDK를 사용하여 웹 페이지를 구현해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="추가 정보"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
@@ -98,8 +98,8 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
->title="웹 페이지에 컨텐츠 구성 요소 추가"
->abstract="웹 페이지에 많은 구성 요소를 추가하고 필요에 따라 편집할 수 있습니다."
+>title="웹 페이지에 콘텐츠 구성 요소 추가"
+>abstract="여러 구성 요소를 웹 페이지에 추가하고 필요에 따라 편집할 수 있습니다."
 
 1. 에서 **[!UICONTROL 구성 요소]** 왼쪽의 웹 페이지에 다음 구성 요소를 추가하고 필요에 따라 편집할 수 있습니다.
 
@@ -143,8 +143,8 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
->title="찾아보기 모드 사용"
->abstract="이 모드에서 개인화할 선택한 서피스에서 정확한 페이지로 이동할 수 있습니다."
+>title="검색 모드 사용"
+>abstract="이 모드의 선택한 표면에서 개인화하려는 정확한 페이지로 이동할 수 있습니다."
 
 기본값에서 바꿀 수 있습니다 **[!UICONTROL 디자인]** 모드로 **[!UICONTROL 찾아보기]** 전용 단추를 사용하여 모드 지정
 
@@ -166,8 +166,8 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
->title="모든 변경 사항을 손쉽게 관리"
->abstract="이 창을 사용하면 웹 페이지에 추가한 모든 조정 및 스타일을 탐색하고 관리할 수 있습니다."
+>title="손쉽게 모든 변경 내용 관리"
+>abstract="이 창을 사용하여 웹 페이지에 추가된 모든 조정 내용 및 스타일을 탐색하고 관리할 수 있습니다."
 
 웹 페이지에 추가한 모든 구성 요소, 조정 및 스타일을 쉽게 관리할 수 있습니다.
 
@@ -205,8 +205,8 @@ in [!DNL Journey Optimizer] 웹 작성은 Adobe Experience Cloud Visual Helper c
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
->title="웹 경험 미리 보기"
->abstract="웹 경험의 모양을 시뮬레이션합니다."
+>title="웹 경험 미리보기"
+>abstract="웹 경험이 어떻게 시각화되는지 시뮬레이션을 수행합니다."
 
 수정된 웹 경험의 미리 보기를 표시하려면 아래 단계를 따르십시오.
 

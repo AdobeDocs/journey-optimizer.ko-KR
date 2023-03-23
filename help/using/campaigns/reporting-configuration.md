@@ -15,7 +15,7 @@ badge: label="Beta" type="Advertising"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 25%
+ht-degree: 31%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="보고용 데이터 세트 설정"
->abstract="보고 구성을 사용하면 캠페인 보고서의 목표 탭에서 사용할 추가 지표를 검색할 수 있습니다. 기술 사용자가 수행해야 합니다."
+>abstract="보고 구성을 사용하여 캠페인 보고서의 목표 탭에서 사용되는 추가 지표를 검색할 수 있습니다. 기술 사용자가 수행해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="데이터 세트 선택"
->abstract="지원되는 필드 그룹 중 하나 이상을 포함해야 하는 이벤트 유형 데이터 세트만 선택할 수 있습니다. 응용 프로그램 세부 정보, 상거래 세부 정보, 웹 세부 정보."
+>abstract="지원되는 필드 그룹(애플리케이션 세부 사항, 상거래 세부 사항, 웹 세부 사항) 중 하나 이상이 포함되어야 하는 이벤트 유형 데이터 세트만 선택할 수 있습니다."
 
 >[!BEGINSHADEBOX]
 

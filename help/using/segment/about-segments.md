@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 6c255d66fb89ba756add062d8a4315dd622fd8e7
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="세그먼트"
->abstract="Adobe Experience Platform은 실시간 고객 프로필 데이터를 활용하여 고객의 고유한 행동과 선호도를 캡처하는 타겟팅된 세그먼트를 쉽게 만들 수 있도록 해줍니다."
+>abstract="실시간 고객 프로필 데이터를 활용하여 Adobe Experience Platform에서 고객의 고유 비헤이비어와 환경 설정을 캡처하는 타겟팅된 세그먼트를 쉽게 만들 수 있습니다."
 
 [!DNL Journey Optimizer]  에서는 **[!UICONTROL 세그먼트]** 메뉴를 보고 여정 또는 캠페인에 사용하십시오.
 
@@ -48,7 +48,7 @@ Adobe Journey Optimizer에서 대상은 다음 두 가지 평가 방법 중 하�
 
 * **스트리밍 세그멘테이션**: 세그먼트에 대한 대상 목록은 새 데이터가 시스템에 유입될 때 실시간으로 최신 상태로 유지됩니다.
 
-   스트리밍 세그먼테이션은 사용자 활동에 대한 응답으로 세그먼트를 업데이트하는 지속적인 데이터 선택 프로세스입니다. 세그먼트가 만들어지고 저장되면, 세그먼트 정의가 Journey Optimizer에 들어오는 데이터에 대해 적용됩니다. 즉, 프로필 데이터가 변경됨에 따라 개인들이 세그먼트에서 추가 또는 제거되므로 타겟 대상이 항상 관련성이 있는지 확인합니다.
+   스트리밍 세분화는 사용자 활동에 대응하여 세그먼트를 업데이트하는 진행 중인 데이터 선택 프로세스입니다. 세그먼트가 만들어지고 저장되면, 세그먼트 정의가 Journey Optimizer에 들어오는 데이터에 대해 적용됩니다. 즉, 프로필 데이터가 변경됨에 따라 개인들이 세그먼트에서 추가 또는 제거되므로 타겟 대상이 항상 관련성이 있는지 확인합니다.
 
 * **일괄 세분화**: 세그먼트의 대상 목록은 24시간 간격으로 평가됩니다.
 

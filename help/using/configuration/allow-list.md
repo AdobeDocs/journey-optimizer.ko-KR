@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -189,7 +189,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="허용 목록 관리"
->abstract="허용 목록이 활성화되면 허용 목록에 포함된 수신자만 이 샌드박스에서 이메일 메시지를 수신하게 됩니다. 비활성화되면 모든 수신자는 이메일을 수신하게 됩니다."
+>abstract="허용 목록이 활성화되면 허용 목록에 포함된 수신자만이 이 샌드박스에서 이메일 메시지를 수신합니다. 비활성화되면 모든 수신자가 이메일을 수신합니다."
 
 허용 목록이 [활성](#enable-allow-list), 다음 논리가 적용됩니다.
 

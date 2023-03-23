@@ -12,7 +12,7 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
@@ -21,24 +21,24 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
 >title="다른 샌드박스로 여정 복사"
->abstract="Journey Optimizer을 사용하면 한 샌드박스에서 다른 샌드박스로 전체 여정을 복사할 수 있습니다. 예를 들어 스테이지 샌드박스 환경에서 프로덕션 샌드박스에 여정을 복사할 수 있습니다. 여정 자체 외에 Journey Optimizer은 여정이 종속하는 대부분의 개체도 복사합니다."
+>abstract="Journey Optimizer를 사용하여 한 샌드박스에서 다른 샌드박스로 전체 여정을 복사할 수 있습니다. 예를 들어 스테이지 샌드박스 환경에서 프로덕션 샌드박스로 여정을 복사할 수 있습니다. 여정 자체 외에도 Journey Optimizer는 여정이 사용하는 오브젝트 대부분을 복사하기도 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
->title="샌드박스 세부 정보"
->abstract="여정을 복사할 대상 샌드박스를 선택합니다. IMS 조직 내의 샌드박스만 사용할 수 있습니다."
+>title="샌드박스 세부 사항"
+>abstract="여정을 복사할 대상 샌드박스를 선택합니다. IMS 조직 내 샌드박스만 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
->title="개체 세부 정보"
->abstract="이것은 복사할 여정입니다."
+>title="오브젝트 세부 사항"
+>abstract="다음은 복사할 여정입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
->title="종속 개체"
->abstract="여정에서 사용되는 관련 객체 목록입니다. 이 목록에는 이름, 개체 유형 및 내부 Journey Optimizer ID가 표시됩니다."
+>title="종속 오브젝트"
+>abstract="다음은 여정에 사용되는 연결된 오브젝트 목록입니다. 목록에 이름, 오브젝트 유형과 내부 Journey Optimizer ID가 표시됩니다."
 
-Journey Optimizer을 사용하면 한 샌드박스에서 다른 샌드박스로 전체 여정을 복사할 수 있습니다. 예를 들어 스테이지 샌드박스 환경에서 프로덕션 샌드박스에 여정을 복사할 수 있습니다. Journey Optimizer은 여정 자체 외에 여정이 종속하는 대부분의 개체도 복사합니다. 세그먼트, 서피스(예: 사전 설정), 스키마, 이벤트 및 작업 복사된 개체에 대한 자세한 내용은 다음을 참조하십시오 [섹션](#limitations).
+Journey Optimizer를 사용하여 한 샌드박스에서 다른 샌드박스로 전체 여정을 복사할 수 있습니다. 예를 들어 스테이지 샌드박스 환경에서 프로덕션 샌드박스에 여정을 복사할 수 있습니다. Journey Optimizer은 여정 자체 외에 여정이 종속하는 대부분의 개체도 복사합니다. 세그먼트, 서피스(예: 사전 설정), 스키마, 이벤트 및 작업 복사된 개체에 대한 자세한 내용은 다음을 참조하십시오 [섹션](#limitations).
 
 >[!CAUTION]
 >
@@ -58,9 +58,9 @@ Journey Optimizer을 사용하면 한 샌드박스에서 다른 샌드박스로 
 
    ![](assets/copy-sandbox2.png)
 
-3. 을(를) 선택합니다 **Target 샌드박스** 드롭다운 필드에서 을 클릭합니다. IMS 조직 내의 샌드박스만 사용할 수 있습니다.
+3. 을(를) 선택합니다 **Target 샌드박스** 드롭다운 필드에서 을 클릭합니다. IMS 조직 내 샌드박스만 사용할 수 있습니다.
 
-4. 를 검토합니다. **종속 개체** 섹션을 참조하십시오. 여정에서 사용되는 관련 객체 목록입니다. 이 목록에는 이름, 개체 유형 및 내부 Journey Optimizer ID가 표시됩니다.
+4. 를 검토합니다. **종속 개체** 섹션을 참조하십시오. 다음은 여정에 사용되는 연결된 오브젝트 목록입니다. 목록에 이름, 오브젝트 유형과 내부 Journey Optimizer ID가 표시됩니다.
 
 5. 을(를) 클릭합니다. **복사** 여정을 타겟 샌드박스에 복사하기 시작하려면 오른쪽 상단 모서리에서 버튼을 클릭합니다.
 

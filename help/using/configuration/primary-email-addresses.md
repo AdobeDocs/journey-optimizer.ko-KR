@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 3%
+ht-degree: 26%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="사용할 주소 정의"
->abstract="데이터베이스에서 여러 개의 이메일 주소 또는 전화 번호(개인, 전문가 등)를 사용할 수 있는 경우 발송에 우선 순위를 둘 이메일 주소를 선택할 수 있습니다."
+>abstract="데이터베이스에서 여러 이메일 주소 또는 전화번호를 사용하는 경우(개인용, 업무용 등) 전송의 우선 순위를 지정할 수 있는 항목을 선택할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="사용할 주소 정의"
->abstract="프로필의 이메일 주소나 전화번호를 결정할 때 전송의 우선 순위를 정할 필드를 편집합니다."
+>abstract="프로필의 이메일 주소 또는 전화번호 확인에 사용되는 필드를 편집하여 전송의 우선 순위를 지정합니다."
 
 프로필을 타겟팅할 때 데이터베이스에서 여러 이메일 주소 또는 전화 번호(전문 이메일 주소, 개인 전화 번호 등)를 사용할 수 있습니다.
 

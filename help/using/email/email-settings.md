@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="이메일 카테고리 정의"
->abstract="이 서피스를 사용할 때 전송할 이메일 유형을 선택합니다. 사용자 동의가 필요한 프로모션 이메일에 대한 마케팅 또는 비상업적 이메일에 대한 트랜잭션은 특정 컨텍스트에서 가입 해지된 프로필에도 전송될 수 있습니다."
+>title="이메일 범주 정의"
+>abstract="이 표면 사용 시 전송할 이메일 유형 선택. 사용자 동의가 필요한 프로모션 이메일을 위한 마케팅 또는 특정 컨텍스트에서 구독 해지 프로필로 전송할 수도 있는 비상업적 이메일을 위한 트랜잭션."
 
 에서 **이메일 유형** 섹션에서 서피스와 함께 전송할 메시지 유형을 선택합니다. **마케팅** 또는 **트랜잭션**.
 
@@ -190,9 +190,9 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
->title="다시 시도 기간 조정"
->abstract="임시 소프트 바운스 오류로 인해 이메일 게재가 실패할 경우 3.5일(84시간) 동안 다시 시도가 수행됩니다. 이 기본 다시 시도 기간을 조정하여 사용자의 요구 사항에 맞게 조정할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="다시 시도 기본 정보"
+>title="재시도 기간 조정"
+>abstract="일시적인 소프트 바운스 오류로 인해 이메일을 게재하지 못하면 3.5일(84시간)간 재시도를 수행합니다. 필요에 맞게 이 기본 재시도 기간을 조정할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="재시도 정보"
 
 을 구성할 수 있습니다 **전자 메일 다시 시도 매개 변수**.
 
@@ -212,13 +212,13 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="URL 추적 매개 변수 정의"
->abstract="이 섹션을 사용하여 추적 매개 변수를 이메일 콘텐츠에 있는 URL에 자동으로 추가합니다. 이 기능은 선택 사항입니다."
+>title="URL 추적 매개변수 정의"
+>abstract="이 섹션을 사용하여 추적 매개변수를 이메일 콘텐츠에 있는 URL에 자동으로 추가합니다. 이 기능은 선택 사항입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="미리 보기 URL 추적 매개 변수"
->abstract="추적 매개 변수가 전자 메일 콘텐츠에 있는 URL에 추가되는 방법을 검토하십시오."
+>title="URL 추적 매개변수 미리보기"
+>abstract="추적 매개변수를 이메일 콘텐츠에 있는 URL에 추가하는 방법을 확인합니다."
 
 다음을 사용할 수 있습니다 **[!UICONTROL URL 추적 매개 변수]** 를 사용하여 여러 채널에서 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 선택 사항입니다.
 

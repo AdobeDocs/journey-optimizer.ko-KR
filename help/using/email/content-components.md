@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '1176'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -20,29 +20,29 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="컨텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 전자 메일 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다."
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 이메일 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="컨텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 랜딩 페이지의 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다."
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="컨텐츠 구성 요소 정보"
->abstract="컨텐츠 구성 요소는 조각 레이아웃을 만드는 데 사용할 수 있는 빈 컨텐츠 자리 표시자입니다."
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 조각 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="컨텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 템플릿 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다."
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 템플릿 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 이메일 콘텐츠를 만들 때 **[!UICONTROL 컨텐츠 구성 요소]** 이메일에 배치되면 편집할 수 있는 원시 구성 요소를 사용하여 이메일을 추가로 개인화할 수 있습니다.
 
 전자 메일의 레이아웃을 정의하는 하나 이상의 구조 구성 요소 내에 필요한 만큼 많은 콘텐츠 구성 요소를 추가할 수 있습니다.
 
-## 컨텐츠 구성 요소 추가 {#add-content-components}
+## 콘텐츠 구성 요소 추가 {#add-content-components}
 
 전자 메일에 컨텐츠 구성 요소를 추가하고 필요에 따라 조정하려면 아래 단계를 따르십시오.
 

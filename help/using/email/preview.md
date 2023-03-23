@@ -12,7 +12,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -47,8 +47,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="메시지 미리 보기 및 테스트"
->abstract="메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
+>title="메시지 미리보기 및 테스트"
+>abstract="메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="이메일 렌더링"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#preview-email" text="미리 보기"
 

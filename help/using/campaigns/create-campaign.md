@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 8%
+ht-degree: 22%
 
 ---
 
@@ -35,12 +35,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="캠페인 유형"
->abstract="보내는 날짜를 지정하여 마케팅 메시지를 표시하려면 **예약됨** 유형이 가장 적절합니다. 그러나 암호 재설정 또는 장바구니 포기 등의 트랜잭션 메시지를 보내려면 **API 트리거** 타입이 가장 좋다."
+>abstract="보내는 날짜를 지정하여 마케팅 메시지를 보내는 경우 **예약됨** 유형이 가장 적합한 유형입니다. 단, 암호 재설정 또는 장바구니 비우기와 같은 트랜잭션 메시지를 보내려는 경우 **API 트리거** 유형이 가장 적합한 유형입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
->title="캠페인 카테고리"
->abstract="카테고리 값은 캠페인 유형 값과 직접 연결됩니다. 에 대한 캠페인 유형 예약 **마케팅** 카테고리에 대한 카테고리 및 API 트리거 유형 **트랜잭션**"
+>title="캠페인 범주"
+>abstract="범주 값은 캠페인 유형 값에 직접 연결됩니다. **마케팅** 범주에 대한 예약 캠페인 유형과 **트랜잭션** 범주에 대한 API 트리거 유형"
 
 1. 에서 **[!UICONTROL 속성]** 섹션에서 캠페인을 실행할 방법을 지정합니다. 사용할 수 있는 캠페인에는 두 가지 유형이 있습니다.
 
@@ -144,17 +144,17 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
 >title="캠페인 시작"
->abstract="메시지를 보낼 날짜와 시간을 지정합니다."
+>abstract="메시지를 전송해야 하는 날짜와 시간을 지정합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_end"
 >title="캠페인 종료"
->abstract="반복 캠페인의 실행을 중지해야 하는 시기를 지정합니다."
+>abstract="반복 캠페인 실행을 중지해야 하는 시점을 지정합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
->title="Campaign 작업 트리거"
->abstract="캠페인의 메시지를 보낼 빈도를 정의합니다."
+>title="캠페인 직업 트리거"
+>abstract="캠페인 메시지를 전송해야 하는 빈도를 정의합니다."
 
 기본적으로 캠페인은 수동으로 활성화되면 시작되고 메시지가 한 번 전송되면 종료됩니다.
 

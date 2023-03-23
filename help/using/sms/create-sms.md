@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="SMS 메시지 만들기"
->abstract="SMS 메시지를 추가하고 표현식 편집기를 사용하여 개인화를 시작합니다."
+>abstract="SMS 메시지를 추가하고 표현식 편집기로 개인화를 시작합니다."
 
 ## SMS 메시지 추가 {#create-sms-journey-campaign}
 

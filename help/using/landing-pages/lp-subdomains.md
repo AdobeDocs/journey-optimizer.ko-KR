@@ -10,7 +10,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 1%
+ht-degree: 24%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
 >title="랜딩 페이지 하위 도메인 위임"
->abstract="랜딩 페이지 사용을 위한 하위 도메인을 설정합니다. 이미 Adobe에 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다."
+>abstract="랜딩 페이지를 사용하려면 하위 도메인을 설정합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="랜딩 페이지 하위 도메인 위임"
->abstract="랜딩 페이지 사전 설정을 만들려면 이 하위 도메인이 필요하므로 랜딩 페이지에 사용할 하위 도메인을 구성해야 합니다. 이미 새 하위 도메인을 Adobe 또는 구성하는 데 위임된 하위 도메인을 사용할 수 있습니다."
+>abstract="랜딩 페이지 사전 설정을 만드는 데 이 하위 도메인이 필요하므로 랜딩 페이지에 사용할 하위 도메인을 구성해야 합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="랜딩 페이지 사전 설정 만들기"
->abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 하나 이상의 랜딩 페이지 하위 도메인을 이전에 구성했는지 확인하십시오."
+>abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 랜딩 페이지 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 다음을 수행할 수 있습니다. [랜딩 페이지 사전 설정 만들기](lp-presets.md): 랜딩 페이지에 사용할 하위 도메인을 설정해야 합니다.
@@ -98,7 +98,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
 >title="일치하는 DNS 레코드 생성"
->abstract="새 랜딩 페이지 하위 도메인을 구성하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사하여 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. 이 확인이 성공하면 하위 도메인을 사용하여 랜딩 페이지 사전 설정을 만들 준비가 되었습니다."
+>abstract="새 랜딩 페이지 하위 도메인을 구성하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 완료되면 랜딩 페이지 사전 설정 만들기에 하위 도메인을 사용할 준비가 되었습니다."
 
 새 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 

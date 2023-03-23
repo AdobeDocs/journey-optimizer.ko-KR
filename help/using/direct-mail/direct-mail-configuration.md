@@ -13,7 +13,7 @@ badge: label="Beta" type="Advertising"
 source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 1%
+ht-degree: 32%
 
 ---
 
@@ -47,7 +47,7 @@ When [dm 메시지 만들기](../direct-mail/create-direct-mail.md)을(를) 선�
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="파일 라우팅 구성 정의"
->abstract="DM 메시지를 만들면 타깃팅된 대상 데이터가 포함된 파일이 생성되고 서버로 내보내집니다. DM 공급자가 해당 파일에 액세스하여 DM 전달에 사용할 수 있도록 서버 세부 사항을 지정해야 합니다."
+>abstract="DM 메시지를 만든 후에는 타겟팅된 대상자 데이터가 포함된 파일을 생성하여 서버로 내보냅니다. DM 공급자가 DM 게재를 위해 해당 파일에 액세스하여 사용할 수 있도록 서버 세부 사항을 지정해야 합니다."
 
 <!--
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
@@ -55,22 +55,22 @@ When [dm 메시지 만들기](../direct-mail/create-direct-mail.md)을(를) 선�
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="파일 라우팅 구성 정의"
->abstract="DM 공급자가 사용할 파일을 내보낼 위치를 정의해야 합니다."
+>abstract="DM 공급자가 사용하려는 파일을 내보낼 위치를 정의해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
 >title="파일 라우팅 구성"
->abstract="DM 공급자가 사용할 파일을 내보낼 위치를 정의하는 원하는 파일 라우팅 구성을 선택합니다."
+>abstract="원하는 파일 라우팅 구성을 선택하여 DM 공급자가 사용하려는 파일을 내보낼 위치를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
->title="파일의 서버 유형을 선택합니다"
->abstract="DM 파일을 내보내는 데 사용할 서버 유형을 선택합니다. 현재 Journey Optimizer에서는 Amazon S3 및 SFTP만 지원됩니다."
+>title="파일의 서버 유형을 선택합니다."
+>abstract="DM 파일 내보내기에 사용할 서버 유형을 선택합니다. 현재 Journey Optimizer는 Amazon S3 및 SFTP만 지원합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="AWS 지역 선택"
->abstract="DM 파일을 내보낼 AWS 서버의 지역 영역을 선택합니다. 일반적으로 DM 공급자 위치에 가장 가까운 지역을 선택하는 것이 좋습니다."
+>title="AWS 영역 선택"
+>abstract="DM 파일을 내보내려는 AWS 서버가 있는 지역을 선택합니다. 일반적으로 DM 공급자 위치와 가장 가까운 지역을 선택하는 것이 좋습니다."
 
 DM 메시지를 배달하려면 [!DNL Journey Optimizer] 타겟팅된 대상 데이터가 포함된 파일을 생성하여 서버로 내보냅니다.
 
@@ -115,7 +115,7 @@ DM 공급자가 해당 파일에 액세스하여 메일 배달에 사용할 수 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="DM 설정 정의"
->abstract="DM 표면에는 타겟팅된 대상 데이터가 포함되어 있으며 메일 공급자가 사용할 파일의 형식에 대한 설정이 포함되어 있습니다. 파일 라우팅 구성을 선택하여 파일을 내보낼 위치도 정의해야 합니다."
+>abstract="DM 표면에는 타겟팅된 대상자 데이터가 있고 메일 공급자가 사용할 수 있는 파일 형식에 대한 설정이 포함됩니다. 파일 라우팅 구성을 선택하여 파일을 내보낼 위치도 정의해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="파일 라우팅 구성"
 
 <!--
@@ -127,7 +127,7 @@ DM 공급자가 해당 파일에 액세스하여 메일 배달에 사용할 수 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="파일 분할 임계값 정의"
->abstract="대상 데이터가 포함된 각 파일에 대한 최대 레코드 수를 설정해야 합니다. 레코드 1에서 200,000개 사이의 숫자를 선택할 수 있습니다. 지정한 임계값에 도달하면 나머지 레코드에 대한 다른 파일이 만들어집니다."
+>abstract="대상자 데이터가 포함된 각 파일의 최대 레코드 수를 설정해야 합니다. 1과 200,000 사이에서 레코드 수를 선택할 수 있습니다. 지정된 임계값에 도달하면 나머지 레코드에 대해 다른 파일이 만들어집니다."
 
 DM을 [!DNL Journey Optimizer]을(를) 만들려면 메일 공급자가 사용할 파일의 형식에 대한 설정을 정의해야 합니다.
 

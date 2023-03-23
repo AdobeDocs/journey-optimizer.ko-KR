@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
->title="세그먼트 활동 읽기"
->abstract="세그먼트 읽기 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 입력하도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다."
+>title="세그먼트 읽기 활동"
+>abstract="세그먼트 읽기 활동을 사용하여 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다."
 
 를 사용하십시오 **세그먼트 읽기** 활동을 통해 세그먼트의 모든 개인이 여정을 입력하도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 

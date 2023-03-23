@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -56,8 +56,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"
->title="자신만의 콘텐츠 템플릿을 정의하십시오"
->abstract="처음부터 독립형 사용자 지정 템플릿을 만들어 여러 여정 및 캠페인에서 콘텐츠를 재사용할 수 있도록 합니다."
+>title="자신만의 콘텐츠 템플릿 정의"
+>abstract="여러 여정과 캠페인 전반에서 콘텐츠를 재사용할 수 있도록 처음부터 독립형 사용자 정의 템플릿을 만듭니다."
 
 컨텐츠 템플릿을 만드는 방법에는 두 가지가 있습니다.
 
@@ -124,8 +124,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
->title="메시지 마이그레이션 방법 알아보기"
->abstract="2022년 7월 25일 메시지 메뉴가 사라졌고 이제 여정에서 메시지를 바로 작성할 수 있습니다. 여정에서 기존 메시지를 다시 사용하려면 템플릿을 템플릿으로 저장해야 합니다."
+>title="메시지를 마이그레이션하는 방법에 대해 알아보기"
+>abstract="2022년 7월 25일 메시지 메뉴가 사라졌고 이제 여정에서 직접 메시지를 작성합니다. 여정에서 기존 메시지를 재사용하려면 템플릿으로 저장해야 합니다."
 
 디자인 시 [이메일](get-started-email-design.md) 캠페인 또는 여정에서 나중에 다시 사용할 수 있도록 이메일 콘텐츠를 저장할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 

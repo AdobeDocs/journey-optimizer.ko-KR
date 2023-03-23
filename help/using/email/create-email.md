@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="이메일 만들기"
->abstract="간단한 3단계로 이메일 매개 변수를 정의할 수 있습니다."
+>abstract="세 가지 간단한 단계로 이메일 매개변수를 정의합니다."
 
 에서 이메일을 만들려면 [!DNL Journey Optimizer]를 채우기 위해 아래의 단계를 수행하십시오.
 
@@ -78,7 +78,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="이메일 콘텐츠 구성"
->abstract="전자 메일 콘텐츠를 만듭니다. 제목을 정의한 다음 이메일 디자이너를 활용하여 이메일 본문을 만들고 개인화합니다."
+>abstract="이메일 콘텐츠를 만듭니다. 제목을 정의한 다음 이메일 디자이너를 활용하여 이메일 본문을 작성하고 개인화합니다."
 
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 컨텐츠 편집]** 전자 메일 콘텐츠를 구성하는 단추입니다. [자세히 알아보기](get-started-email-design.md)
 

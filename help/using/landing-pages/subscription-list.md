@@ -12,7 +12,7 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
 >title="구독 목록 설정"
->abstract="구독 목록을 만들어 특정 제목 또는 이벤트에서 커뮤니케이션 수신을 선택한 프로필을 수집합니다. "
+>abstract="구독 목록을 만들어 특정 주제 또는 이벤트에 대한 커뮤니케이션을 수신하도록 옵트인한 프로필을 수집합니다. "
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html#define-subscription-list" text="구독 목록 만들기"
 
 구독 서비스는 특정 제목/이벤트/관심사 등에서 커뮤니케이션 수신을 선택한 고객에게 제공되는 마케팅 상품 및 서비스를 의미합니다. 계속. in [!DNL Journey Optimizer]로 설정되면 이러한 옵트인 고객이 구독 목록에 수집됩니다.

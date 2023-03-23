@@ -14,7 +14,7 @@ badge: label="Beta" type="Advertising"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
@@ -84,33 +84,33 @@ ht-degree: 1%
 
 오른쪽 창에서 삭제 단추를 클릭하여 언제든지 캔버스에서 활동을 제거할 수 있습니다.  삭제하려는 활동이 컴포지션에서 다른 활동의 상위 활동인 경우 선택한 활동만 삭제할지 또는 해당 하위 활동을 모두 삭제할지 여부를 지정할 수 있는 메시지가 표시됩니다.
 
-### 대상 활동 {#audience}
+### 대상자 활동 {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
->title="대상 활동"
->abstract="대상 활동을 사용하면 구성에 기존 대상자에 속하는 추가 프로필을 포함할 수 있습니다."
+>title="대상자 활동"
+>abstract="대상자 활동을 통해 기존 대상에 속하는 추가 프로필이 구성에 포함되도록 할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
 >title="병합 유형"
->abstract="선택한 대상의 프로필을 병합하는 방법을 지정합니다."
+>abstract="선택한 대상자 프로필을 어떻게 병합해야 하는지 지정합니다."
 
 다음 **[!UICONTROL Audience]** 활동을 사용하면 구성에 기존 대상자에 속하는 추가 프로필을 포함할 수 있습니다.
 
 이 활동의 구성은 시작과 동일합니다 [대상 활동](#starting-audience).
 
-### 활동 제외 {#exclude}
+### 제외 활동 {#exclude}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="제외 유형"
->abstract="기존 대상에 속하는 프로필을 제외하려면 대상 제외 유형을 사용합니다. 특성 유형을 사용하여 제외 를 사용하면 특정 속성에 따라 프로필을 제외할 수 있습니다."
+>abstract="대상 제외 유형을 사용하여 기존 대상자에 속하는 프로필을 제외합니다. 속성 유형을 사용하는 제외를 통해 특정 속성을 기반으로 프로필을 제외할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
->title="활동 제외"
->abstract="제외 활동을 사용하면 기존 대상자를 선택하거나 규칙을 사용하여 컴포지션에서 프로필을 제외할 수 있습니다."
+>title="제외 활동"
+>abstract="제외 활동을 통해 기존 대상자를 선택하거나 규칙을 사용하여 구성에서 프로필을 제외할 수 있습니다."
 
 다음 **[!UICONTROL 제외]** 활동을 통해 컴포지션에서 프로필을 제외할 수 있습니다. 두 가지 유형의 제외를 사용할 수 있습니다.
 
@@ -130,23 +130,23 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
->title="활동 강화"
->abstract="보강 활동을 사용하여 기존 대상자에 속하는 프로필을 제외합니다. 특성 유형을 사용하여 제외 를 사용하면 특정 속성에 따라 프로필을 제외할 수 있습니다."
+>title="보강 활동"
+>abstract="보강 활동을 사용하여 기존 대상자에 속하는 프로필을 제외합니다. 속성 유형을 사용하는 제외를 통해 특정 속성을 기반으로 프로필을 제외할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
->title="데이터 세트 보강"
->abstract="대상자와 연결할 데이터가 포함된 데이터 보강 데이터 세트를 선택합니다."
+>title="보강 데이터 세트"
+>abstract="대상자에 연결하려는 데이터가 포함된 보강 데이터 세트를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
->title="데이터 보강 기준"
->abstract="소스 데이터 세트(즉, 대상 및 데이터 보강 데이터 세트) 간의 조정 키로 사용할 필드를 선택합니다."
+>title="보강 기준"
+>abstract="소스 데이터 세트(즉, 대상자 및 보강 데이터 세트) 사이의 조정 키로 사용할 필드를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
->title="데이터 보강 속성"
->abstract="데이터 보강 데이터 세트에서 하나 또는 여러 속성을 선택하여 대상에 연결합니다. 컴포지션이 게시되면 이러한 속성이 대상자와 연결되며 캠페인에서 게재를 개인화하는 데 활용할 수 있습니다."
+>title="보강 속성"
+>abstract="보강 데이터 세트에서 하나 또는 여러 속성을 선택하여 대상자와 연결합니다. 구성이 게시되면 해당 속성을 대상자에 연결하고 캠페인에서 활용하여 게재 정보를 개인화할 수 있습니다."
 
 다음 **[!UICONTROL 품질 개선]** 활동을 사용하면 Adobe Experience Platform 데이터 세트에서 가져온 추가 속성으로 대상을 보강할 수 있습니다. 예를 들어 이름, 가격 또는 제조업체 ID와 같이 구입한 제품과 관련된 정보를 추가하고 이러한 정보를 활용하여 대상으로 전송된 게재를 개인화할 수 있습니다.
 
@@ -171,12 +171,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="등급 활동"
->abstract="등급 활동을 사용하면 특정 속성에 따라 프로필의 등급을 매기고 컴포지션에 포함할 수 있습니다. 예를 들어 충성도 포인트가 가장 많은 50개의 프로필을 포함합니다."
+>abstract="등급 활동을 통해 특정 속성을 기반으로 프로필의 등급을 지정하고 구성에 포함할 수 있습니다. 예를 들어 로열티 포인트가 가장 많은 50개의 프로필이 구성에 포함됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="프로필 제한 추가"
->abstract="이 옵션을 켜서 컴포지션에 포함할 최대 프로필 수를 지정합니다."
+>abstract="이 옵션을 설정하여 이 구성에 포함할 최대 프로필 수를 지정합니다."
 
 다음 **[!UICONTROL 등급]** 활동을 통해 특정 속성에 따라 프로필의 등급을 매기고 구성에 포함할 수 있습니다. 예를 들어 충성도 포인트가 가장 많은 50개의 프로필을 포함할 수 있습니다.
 
@@ -190,7 +190,7 @@ ht-degree: 1%
 
    ![](assets/audiences-rank.png)
 
-### 활동 분할 {#split}
+### 분할 활동 {#split}
 
 <!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
@@ -199,22 +199,22 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
->title="활동 분할"
->abstract="분할 활동을 사용하면 컴포지션을 여러 경로로 나눌 수 있습니다. 컴포지션을 게시할 때 각 경로마다 한 명의 대상이 Adobe Experience Platform에 저장됩니다."
+>title="분할 활동"
+>abstract="분할 활동을 통해 구성을 여러 경로로 나눌 수 있습니다. 구성을 게시할 때 하나의 대상자가 각 경로의 Adobe Experience Platform에 저장됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
 >title="분할 유형"
->abstract="백분율 분할 유형을 사용하여 프로필을 여러 경로로 임의로 분할합니다. 속성 분할 유형을 사용하면 특정 속성에 따라 프로필을 분할할 수 있습니다."
+>abstract="% 분할 유형을 사용하여 프로필을 여러 경로로 임의 분할합니다. 속성 분할 유형을 사용하여 특정 속성을 기반으로 프로필을 분할할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
 >title="기타 프로필"
->abstract="다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만들려면 이 옵션을 켜십시오."
+>abstract="이 옵션을 설정하여 다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만듭니다."
 
 다음 **[!UICONTROL 분할]** 활동을 통해 컴포지션을 여러 경로로 나눌 수 있습니다.
 
-이 작업은 자동으로 **[!UICONTROL 저장]** 활동은 각 경로 끝에 있습니다. 컴포지션을 게시할 때 각 경로마다 한 명의 대상이 Adobe Experience Platform에 저장됩니다.
+이 작업은 자동으로 **[!UICONTROL 저장]** 활동은 각 경로 끝에 있습니다. 구성을 게시할 때 하나의 대상자가 각 경로의 Adobe Experience Platform에 저장됩니다.
 
 두 가지 유형의 분할 작업을 사용할 수 있습니다.
 

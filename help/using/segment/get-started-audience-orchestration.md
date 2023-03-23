@@ -14,7 +14,7 @@ badge: label="Beta" type="Advertising"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 14%
+ht-degree: 23%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
->title="컴포지션 만들기"
->abstract="작성 워크플로우를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스로 결합하고 다양한 활동(분할, 제외..)을 활용하여 새 대상자를 만듭니다."
+>title="구성 만들기"
+>abstract="구성 워크플로를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만듭니다."
 
 >[!BEGINSHADEBOX]
 

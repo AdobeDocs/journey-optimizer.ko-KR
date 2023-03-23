@@ -12,7 +12,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1133'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -34,8 +34,8 @@ HIPAA와 같은 규정에서는 [!DNL Journey Optimizer] 는 개인에게 전송
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
->title="숨은 참조 이메일 주소 정의"
->abstract="보낸 전자 메일의 사본을 BCC 받은 편지함으로 보내어 유지할 수 있습니다. 보내는 모든 전자 메일이 이 BCC 주소로 블라인드(blind)되도록 선택한 전자 메일 주소를 입력합니다. BCC 주소 도메인은 Adobe에 위임된 하위 도메인과 동일하지 않아야 합니다. 이 기능은 선택 사항입니다."
+>title="BCC 이메일 주소 정의"
+>abstract="보낸 이메일을 BCC 받은 편지함으로 전송하여 사본을 보관할 수 있습니다. 전송된 모든 이메일이 이 BCC 주소로 숨은 참조될 수 있도록 선택한 이메일 주소를 입력합니다. BCC 주소 도메인은 Adobe에 위임된 하위 도메인과 동일하지 않을 수 있습니다. 이 기능은 선택 사항입니다."
 
 에서 보낸 이메일의 동일한 복사본(또는 블라인드 탄소 사본)을 보낼 수 있습니다 [!DNL Journey Optimizer] BCC 받은 편지함으로 이동합니다. 이 선택적 기능을 사용하면 규정 준수 및/또는 아카이브를 위해 사용자에게 보내는 이메일 통신 사본을 유지할 수 있습니다. 게재 수신자에게는 보이지 않습니다.
 

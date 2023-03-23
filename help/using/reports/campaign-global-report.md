@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1904'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_report"
 >title="캠페인 글로벌 보고서"
->abstract="캠페인 글로벌 보고서를 사용하면 선택한 기간 동안 캠페인의 영향을 측정할 수 있습니다. 보고서는 캠페인의 성공 및 오류를 설명하는 서로 다른 위젯으로 구분됩니다. 위젯의 크기 조정 또는 제거를 통해 각 보고 대시보드를 수정할 수 있습니다."
+>abstract="캠페인 글로벌 보고서를 사용하여 선택된 기간에 대해 캠페인의 영향을 측정할 수 있습니다. 보고서는 캠페인 성공 사례와 오류를 자세히 설명하는 여러 위젯으로 나눠집니다. 위젯 크기를 조정하거나 위젯을 제거하여 각 보고 대시보드를 수정할 수 있습니다."
 
 Campaign 글로벌 보고서는 **[!UICONTROL 보고서 보기]** 버튼을 클릭합니다.
 

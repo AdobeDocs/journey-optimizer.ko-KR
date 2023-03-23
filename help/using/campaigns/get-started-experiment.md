@@ -15,7 +15,7 @@ badge: label="Beta" type="Advertising"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '2013'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -128,7 +128,7 @@ Experiments를 실행할 때는 특정 모범 사례를 따르는 것이 중요�
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_summary"
 >title="요약 위젯"
->abstract="요약 위젯은 실험 결과가 확정되었는지 여부를 포함하여 실험 결과에 대한 개요를 제공합니다. 이것은 여러분의 실험의 결과를 빠르고 쉽게 이해할 수 있는 방법을 제공합니다."
+>abstract="요약 위젯은 실험 결과가 결정적인지 여부를 포함하여 실험 결과에 대한 개요를 제공합니다. 빠르고 손쉽게 실험 결과를 이해할 수 있는 방법을 제공합니다."
 
 ![](assets/experimentation_report_3.png)
 

@@ -10,7 +10,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
 >title="랜딩 페이지 사전 설정 만들기"
->abstract="랜딩 페이지를 작성하고 Journey Optimizer을 통해 활용하려면 사용할 하위 도메인이 포함된 랜딩 페이지 사전 설정을 만들어야 합니다."
+>abstract="랜딩 페이지를 빌드하고 Journey Optimizer를 통해 활용하려면 사용할 하위 도메인이 포함된 랜딩 페이지 사전 설정을 만들어야 합니다."
 
 When [랜딩 페이지 만들기](../landing-pages/create-lp.md#create-a-lp)을(를) 통해 랜딩 페이지를 작성하고 활용할 수 있으려면 랜딩 페이지 사전 설정을 선택해야 합니다 **[!DNL Journey Optimizer]**.
 

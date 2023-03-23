@@ -12,7 +12,7 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
 >title="단일 이벤트"
->abstract="이벤트 구성에서는 Journey Optimizer이 이벤트로 수신할 정보를 정의할 수 있습니다. 여러 여정(여정의 다른 단계에서)를 사용할 수 있으며, 여러 이벤트에서 동일한 이벤트를 사용할 수 있습니다. 단일 이벤트는 특정 프로필에 연결됩니다. 규칙을 기반으로 하거나 시스템에서 생성할 수 있습니다."
+>abstract="이벤트 구성에서는 Journey Optimizer가 이벤트로 수신할 정보를 정의할 수 있습니다. 여정의 각 단계에서 여러 이벤트를 사용할 수 있으며 여러 여정에서 같은 이벤트를 사용할 수도 있습니다. 단일 이벤트는 특정 프로필에 연결됩니다. 단일 이벤트는 규칙 기반이거나 시스템 생성일 수 있습니다."
 
-단일 이벤트는 특정 프로필에 연결됩니다. 규칙을 기반으로 하거나 시스템에서 생성할 수 있습니다.  단일 이벤트에 대한 자세한 내용 [이 섹션](../event/about-events.md).
+단일 이벤트는 특정 프로필에 연결됩니다. 단일 이벤트는 규칙 기반이거나 시스템 생성일 수 있습니다.  단일 이벤트에 대한 자세한 내용 [이 섹션](../event/about-events.md).
 
 새 이벤트를 구성하는 첫 번째 단계는 다음과 같습니다.
 
@@ -113,7 +113,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
 >title="ID 네임스페이스"
->abstract="키를 선택하여 이벤트와 연결된 고객 프로필을 식별합니다."
+>abstract="이벤트와 연결된 고객 프로필을 식별하는 키를 선택합니다."
 
 네임스페이스를 사용하면 이벤트와 연결된 사람을 식별하는 데 사용되는 키 유형을 정의할 수 있습니다. 구성은 선택 사항입니다. 여정에서 을 통해 전송되는 추가 정보를 검색하려는 경우 필요합니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}. 사용자 지정 데이터 소스를 통해 타사 시스템에서 가져온 데이터만 사용하는 경우에는 네임스페이스 정의가 필요하지 않습니다.
 

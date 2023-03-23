@@ -12,7 +12,7 @@ exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 2%
+ht-degree: 21%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="반응 이벤트"
->abstract="이 활동을 사용하면 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 대응할 수 있습니다. 이 정보는 Adobe Experience Platform과 공유되는 즉시 실시간으로 캡처됩니다."
+>abstract="이 활동을 통해 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 반응할 수 있습니다. Adobe Experience Platform과 공유되는 순간 이 정보를 실시간으로 캡처합니다."
 
-팔레트에서 사용할 수 있는 여러 이벤트 활동 중에서 기본 제공된 이벤트를 찾을 수 있습니다 **[!UICONTROL 반응]** 이벤트. 이 활동을 사용하면 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 대응할 수 있습니다. 이 정보는 Adobe Experience Platform과 공유되는 즉시 실시간으로 캡처됩니다.
+팔레트에서 사용할 수 있는 여러 이벤트 활동 중에서 기본 제공된 이벤트를 찾을 수 있습니다 **[!UICONTROL 반응]** 이벤트. 이 활동을 통해 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 반응할 수 있습니다. Adobe Experience Platform과 공유되는 순간 이 정보를 실시간으로 캡처합니다.
 
 클릭하거나 연 메시지에 응답할 수 있습니다.
 

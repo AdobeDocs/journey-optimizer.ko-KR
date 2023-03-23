@@ -12,7 +12,7 @@ exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="프로필 활동 업데이트"
->abstract="프로필 업데이트 작업 활동을 사용하면 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다."
+>abstract="프로필 업데이트 작업 활동을 사용하여 이벤트, 데이터 소스 또는 특정 값을 사용하여 도출하는 데이터로 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다."
 
 를 사용하십시오 **[!UICONTROL 프로필 업데이트]** 작업 활동을 통해 이벤트, 데이터 소스 또는 특정 값으로 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다.
 

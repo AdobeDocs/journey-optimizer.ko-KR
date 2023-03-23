@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="객체 수준 액세스 제어"
->abstract="액세스할 수 없는 레이블을 적용하면 이 객체에 대한 액세스가 취소됩니다."
+>abstract="액세스 권한이 없는 레이블을 적용하면 이 오브젝트에 대한 액세스 권한이 해지됩니다."
 
 >[!IMPORTANT]
 >

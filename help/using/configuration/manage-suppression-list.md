@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 11%
+ht-degree: 20%
 
 ---
 
@@ -91,13 +91,13 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
->title="제외 목록에 전자 메일 또는 도메인 추가"
->abstract="전송에서 특정 이메일 주소 및/또는 도메인을 제외하려면 Journey Optimizer 제외 목록을 수동으로 채울 수 있습니다."
+>title="금지 목록에 이메일 또는 도메인 추가"
+>abstract="전송에서 특정 이메일 주소 및/또는 도메인을 제외하는 경우 Journey Optimizer 금지 목록을 수동으로 채울 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="제외 목록에 전자 메일 또는 도메인 추가"
->abstract="제외 목록을 채우려면 이메일 주소 또는 도메인을 수동으로 추가할 수 있습니다. 한 번에 하나씩 또는 CSV 파일 업로드를 통해 벌크 모드에서 수행할 수 있습니다. 이러한 특정 이메일 주소 및/또는 도메인은 전송에서 제외됩니다."
+>title="금지 목록에 이메일 또는 도메인 추가"
+>abstract="금지 목록을 채우려는 경우 이메일 주소나 도메인을 한 번에 하나씩 추가하거나 CSV 파일 업로드를 통해 일괄 모드로 추가할 수 있습니다. 해당 특정 이메일 주소 및/또는 도메인은 전송에서 제외됩니다."
 
 메시지를 전자 메일 주소에 배달하지 못하면 이 주소가 정의된 제외 규칙 또는 바운스 수를 기반으로 하여 제외 목록에 자동으로 추가됩니다.
 
@@ -113,8 +113,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_address"
->title="한 항목을 제외 목록에 추가합니다"
->abstract="이메일 주소 및/또는 도메인을 하나씩 추가하여 제외 목록을 채울 수 있습니다."
+>title="금지 목록에 하나의 항목 추가"
+>abstract="이메일 주소 및/또는 도메인을 하나씩 추가하여 금지 목록을 채울 수 있습니다."
 
 전자 메일 주소 또는 도메인을 제외 목록에 추가하려면 아래 단계를 따르십시오.
 
@@ -142,8 +142,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_csv"
->title="CSV를 업로드하여 제외 목록에 항목 추가"
->abstract="제외할 이메일 주소/도메인으로 채워진 CSV 파일을 업로드하여 제외 목록을 채울 수 있습니다."
+>title="CSV를 업로드하여 금지 목록에 항목 추가"
+>abstract="제외할 이메일 주소/도메인으로 채워진 CSV 파일을 업로드하여 금지 목록을 채울 수 있습니다."
 
 전자 메일 주소 그룹 또는 도메인을 제외 목록에 추가하려면 아래 단계를 따르십시오.
 

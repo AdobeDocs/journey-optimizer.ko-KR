@@ -12,7 +12,7 @@ exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -43,12 +43,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="조건 만들기"
->abstract="프로필 속성, 컨텍스트 이벤트 또는 대상을 결합하여 메시지에 표시되어야 하는 컨텐츠를 정의하는 규칙을 만듭니다."
+>abstract="프로필 속성, 상황별 이벤트 또는 대상자를 결합하여 메시지에 표시되어야 하는 콘텐츠를 정의하는 규칙을 작성합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="조건 만들기"
->abstract="프로필 속성, 컨텍스트 이벤트 또는 대상을 결합하여 메시지에 표시되어야 하는 컨텐츠를 정의하는 규칙을 만듭니다."
+>abstract="프로필 속성, 상황별 이벤트 또는 대상자를 결합하여 메시지에 표시되어야 하는 콘텐츠를 정의하는 규칙을 작성합니다."
 
 조건부 규칙을 만드는 단계는 다음과 같습니다.
 

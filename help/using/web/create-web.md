@@ -12,7 +12,7 @@ badge: label="Beta" type="Advertising"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -70,8 +70,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="웹 서피스 정의"
->abstract="웹 서피스는 단일 페이지 URL 또는 여러 페이지를 일치시킬 수 있으므로 하나 또는 여러 웹 페이지에서 컨텐츠 수정 사항을 게재할 수 있습니다."
+>title="웹 표면 정의"
+>abstract="웹 표면이 단일 페이지 URL 또는 여러 페이지와 일치하면 하나 또는 여러 웹 페이지에 콘텐츠 수정 내용을 전달할 수 있습니다."
 
 캠페인을 통해 웹 경험 작성을 시작하려면 아래 단계를 따르십시오.
 
@@ -81,7 +81,7 @@ ht-degree: 8%
 
    ![](assets/web-create-campaign.png)
 
-1. 웹 서피스를 정의합니다.
+1. 웹 표면 정의.
 
    >[!NOTE]
    >

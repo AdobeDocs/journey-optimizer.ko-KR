@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="서피스"
+>title="표면"
 >abstract="표면은 시스템 관리자에 의해 정의된 구성입니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다."
 
 사용 [!DNL Journey Optimizer]를 설정하고 메시지에 필요한 모든 기술 매개 변수를 정의하는 채널 서피스(즉, 메시지 사전 설정)를 설정할 수 있습니다. 이메일 유형, 발신자 이메일 및 이름, 모바일 앱, SMS 구성 등
@@ -42,13 +42,13 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
->title="채널 서피스 설정"
->abstract="채널 표면을 설정할 때 적용되는 채널을 선택하고 이메일 유형, 발신자 이름, 모바일 앱, SMS 구성 등과 같이 전송에 필요한 모든 기술 매개 변수를 정의합니다."
+>title="채널 표면 설정"
+>abstract="채널 표면을 설정할 때 적용할 채널을 선택하고, 이메일 유형, 보낸 사람 이름, 모바일 앱, SMS 구성 등과 같이 전송에 필요한 모든 기술 매개변수를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="채널 서피스 설정"
->abstract="여정 또는 캠페인의 이메일과 같은 작업을 만들려면 먼저 메시지에 필요한 모든 기술 설정을 정의하는 채널 표면을 만들어야 합니다. 채널 서피스를 생성, 편집 및 삭제하려면 채널 서피스 관리 권한이 있어야 합니다."
+>title="채널 표면 설정"
+>abstract="여정 또는 캠페인에서 이메일과 같은 작업을 만들 수 있도록 먼저 메시지에 필요한 모든 기술 설정을 정의하는 채널 표면을 만들어야 합니다. 채널 표면을 만들고, 편집하고 삭제하려면 채널 표면 관리 권한이 있어야 합니다."
 
 채널 서피스를 생성하려면 다음 단계를 수행합니다.
 

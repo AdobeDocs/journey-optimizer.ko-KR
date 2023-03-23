@@ -12,7 +12,7 @@ exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 24%
+ht-degree: 38%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"
 >title="조건"
->abstract="조건부 규칙을 사용하면 프로필 속성, 컨텍스트 이벤트 또는 대상 세그먼트를 기반으로 메시지에 여러 콘텐츠 변형을 표시할 수 있습니다."
+>abstract="조건부 규칙을 통해 프로필 속성, 상황별 이벤트 또는 대상자 세그먼트를 기반으로 메시지에 여러 콘텐츠 변형이 표시될 수 있습니다."
 
 다이내믹 콘텐츠를 사용하면 메시지를 기반으로 콘텐츠를 조정할 수 있습니다 **조건부 규칙** 프로필 속성, 컨텍스트 이벤트 또는 대상 세그먼트로 구성될 수 있습니다. 조건부 규칙은 표현식 편집기 내에서 시각적 규칙 빌더를 사용하여 작성되며, 이 빌더를 저장하여 여정 및 캠페인 간에 다시 사용할 수 있습니다.
 

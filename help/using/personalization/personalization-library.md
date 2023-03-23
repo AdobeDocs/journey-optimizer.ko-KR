@@ -12,7 +12,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="표현식 라이브러리 정보"
->abstract="[!DNL Journey Optimizer] 는 관리자 사용자가 구성한 저장된 개인화 표현식에 액세스할 수 있는 라이브러리를 제공합니다. "
+>abstract="[!DNL Journey Optimizer]는 관리자 사용자가 이미 구성한 저장된 개인 맞춤화 표현식에 액세스할 수 있는 라이브러리를 제공합니다. "
 
 [!DNL Journey Optimizer] 은 관리자 사용자가 추가한 이전에 저장한 개인화 표현식에 액세스할 수 있는 라이브러리를 제공합니다.
 

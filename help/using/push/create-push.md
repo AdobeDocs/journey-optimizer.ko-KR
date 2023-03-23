@@ -11,7 +11,7 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 4%
+ht-degree: 15%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
->title="푸시 메시지 작성"
->abstract="푸시 메시지를 추가하고 표현식 편집기를 사용하여 개인화를 시작합니다."
+>title="푸시 메시지 생성"
+>abstract="푸시 메시지를 추가하고 표현식 편집기로 개인화를 시작합니다."
 
 ## 여정 또는 캠페인에서 푸시 알림 만들기 {#create}
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 
 1. 여정 구성 화면에서 **[!UICONTROL 컨텐츠 편집]** 푸시 컨텐츠를 구성하는 버튼을 클릭합니다. [푸시 알림 디자인](design-push.md)
 
-1. 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다.
+1. 메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다.
 
 1. 푸시가 준비되면 구성을 완료하십시오 [여정](../building-journeys/journey-gs.md) 전송하기 위해
 
@@ -81,7 +81,7 @@ ht-degree: 4%
 
 1. 캠페인 구성 화면에서 **[!UICONTROL 컨텐츠 편집]** 푸시 컨텐츠를 구성하는 버튼을 클릭합니다. [푸시 알림 디자인](design-push.md)
 
-1. 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다.
+1. 메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다.
 
 1. 푸시가 준비되면 구성을 완료하십시오 [campaign](../campaigns/create-campaign.md) 전송하기 위해
 
@@ -94,12 +94,12 @@ ht-degree: 4%
 * [푸시 채널 구성](push-gs.md)
 * [여정에 메시지 추가](../building-journeys/journeys-message.md)
 
-## 신속한 전달 모드 {#rapid-delivery}
+## 빠른 전송 모드 {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
->title="신속한 전달 모드"
->abstract="빠른 전달 모드에서는 푸시 채널에서 30M 이하의 대상 크기로 고속 메시지를 전송할 수 있습니다."
+>title="빠른 전송 모드"
+>abstract="빠른 전송 모드를 사용하여 푸시 채널에서 고속 메시지를 30M 미만의 대상자 크기에 전송할 수 있습니다."
 
 이전에 여정에서 버스트 모드라고 했던 빠른 전달 모드는 [!DNL Journey Optimizer] 캠페인을 통해 대용량 볼륨으로 푸시 메시지를 매우 빠르게 전송할 수 있는 추가 기능입니다.
 

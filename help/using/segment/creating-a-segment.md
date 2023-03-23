@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="규칙 만들기"
->abstract="빌드 규칙 만들기 방법을 사용하면 Adobe Experience Platform 세그멘테이션 서비스를 사용하여 새 세그먼트 정의를 만들 수 있습니다."
+>abstract="규칙 빌드 만들기 메서드를 통해 Adobe Experience Platform 세분화 서비스를 사용하여 새 세그먼트 정의를 만들 수 있습니다."
 
 이 예에서는 1980년 이후에 태어난 Atlanta, San Francisco 또는 Seattle에 거주하는 모든 고객을 타겟팅하는 세그먼트를 만듭니다. 이 모든 고객은 지난 7일 이내에 Luma 애플리케이션을 연 다음 애플리케이션을 연 후 2시간 내에 구매했어야 합니다.
 

@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
 >title="테스트 프로필 추가"
->abstract="ID 네임스페이스와 해당 ID 값을 선택하여 테스트 프로필을 추가할 수 있습니다. 시뮬레이션에 사용할 수 있도록 테스트 프로필을 이미 사용할 수 있어야 합니다."
+>abstract="ID 네임스페이스 및 해당 ID 값을 선택하여 테스트 프로필을 추가할 수 있습니다. 시뮬레이션에 사용할 수 있는 테스트 프로필이 제공되어야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="테스트 프로필 만들기"
 
 먼저 시뮬레이션에 사용할 테스트 프로필을 선택해야 합니다.

@@ -12,7 +12,7 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '1611'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="여정 디자인"
->abstract="여정 인터페이스를 사용하면 팔레트의 활동을 캔버스로 쉽게 드래그하여 놓을 수 있습니다. 활동을 두 번 클릭하여 사용 가능한 다음 단계에서 캔버스에 추가할 수도 있습니다."
+>abstract="여정 인터페이스를 통해 팔레트에서 캔버스로 활동을 쉽게 드래그 앤 드롭할 수 있습니다. 활동을 더블 클릭하여 사용 가능한 다음 단계에서 캔버스에 추가할 수도 있습니다."
 
 Adobe Journey Optimizer에는 마케터가 일대일 고객 참여와 마케팅 활동을 조화롭게 처리할 수 있는 옴니채널 오케스트레이션 캔버스가 포함되어 있습니다. 사용자 인터페이스를 사용하면 팔레트의 활동을 캔버스로 끌어다 놓아 여정을 작성할 수 있습니다. 활동을 두 번 클릭하여 캔버스에서 추가할 수도 있습니다.
 

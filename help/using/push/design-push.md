@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-onclick"
->title="클릭 동작 기본 정보"
->abstract="수신자가 푸시 알림의 본문을 클릭할 때의 동작을 선택합니다."
+>title="클릭 시 비헤이비어 정보"
+>abstract="수신자가 푸시 알림 본문을 클릭할 때 비헤이비어를 선택합니다."
 
 사용자가 푸시 알림의 본문을 클릭할 때의 동작을 선택할 수 있습니다.
 
@@ -78,8 +78,8 @@ iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"
->title="자동 알림 기본 정보"
->abstract="사용자를 방해하지 않고 알림을 보내면 알림 센터나 알림 표시줄에 알림이 표시되지 않습니다."
+>title="자동 알림 정보"
+>abstract="사용자를 방해하지 않고 알림을 전송합니다. 알림 센터나 알림 표시줄에 알림이 표시되지 않습니다."
 
 자동 푸시 알림(또는 백그라운드 알림)은 애플리케이션에 전달되는 숨겨진 명령입니다. 이 변수는 새로운 컨텐츠의 가용성을 애플리케이션에 알리거나 백그라운드에서 다운로드를 시작하는 데 사용됩니다.
 

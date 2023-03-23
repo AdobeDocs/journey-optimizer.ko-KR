@@ -15,7 +15,7 @@ badge: label="Beta" type="Advertising"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="콘텐츠 실험"
->abstract="여러 배달 처리를 정의하고 대상을 위한 최상의 조합을 결정하기 위해 게재 콘텐츠, 제목 또는 발신자를 다르게 선택할 수 있습니다."
+>abstract="여러 게재 처리를 정의하고 대상자에게 가장 적합한 조합을 결정하기 위해 게재 콘텐츠, 제목 또는 보낸 사람을 변경하도록 선택할 수 있습니다."
 
 >[!BEGINSHADEBOX]
 
@@ -176,7 +176,7 @@ Journey Optimizer 컨텐츠 실험을 사용하면 타겟 대상자에게 가장
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
 >title="성공 지표"
->abstract="실험을 만들 때 이전에 선택한 성공 지표의 합계 값을 프로필 수로 나눈 값입니다."
+>abstract="실험 생성 시 이전에 선택한 성공 지표의 합계 값을 프로필 수로 나눈 값입니다."
 
 >[!AVAILABILITY]
 >

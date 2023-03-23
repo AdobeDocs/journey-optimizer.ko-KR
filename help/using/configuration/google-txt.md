@@ -12,7 +12,7 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 10%
+ht-degree: 24%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_google"
 >title="Google TXT 레코드"
->abstract="Gmail 주소로 이메일을 성공적으로 게재하기 위해 하위 도메인에 특수 Google 사이트 확인 TXT 레코드를 확인용으로 추가할 수 있습니다."
+>abstract="이메일이 Gmail 주소에 성공적으로 게재될 수 있도록 특별한 Google 사이트 확인 TXT 레코드를 하위 도메인에 추가하여 이를 확인해야 합니다."
 
 TXT 레코드는 외부 소스에서 읽을 수 있는 도메인 관련 텍스트 정보를 제공하는 데 사용되는 DNS 레코드 유형입니다.
 

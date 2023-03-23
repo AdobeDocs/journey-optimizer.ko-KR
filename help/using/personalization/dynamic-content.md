@@ -12,7 +12,7 @@ exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -51,12 +51,12 @@ Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 �
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
 >title="조건부 콘텐츠"
->abstract="조건부 규칙을 사용하여 콘텐츠 구성 요소의 여러 변형을 만듭니다. 메시지를 보낼 때 조건이 충족되지 않으면 기본 변형의 콘텐츠가 표시됩니다."
+>abstract="조건부 규칙을 사용하여 여러 콘텐츠 구성 요소 변형을 만듭니다. 메시지를 전송할 때 다음 조건 중 어느 것도 충족되지 않으면 기본 변형의 콘텐츠가 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"
 >title="조건부 콘텐츠"
->abstract="라이브러리에 저장된 조건부 규칙을 사용하거나 새 규칙을 만듭니다."
+>abstract="라이브러리에 저장된 조건부 규칙을 사용하거나 새로 만듭니다."
 
 이메일 디자이너에서 콘텐츠 구성 요소의 변형을 만드는 단계는 다음과 같습니다.
 

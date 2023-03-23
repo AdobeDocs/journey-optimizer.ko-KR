@@ -12,7 +12,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
->title="하위 도메인의 PTR 레코드"
->abstract="PTR(포인터 레코드)는 수신 메일 서버가 보낸 사람의 IP 주소를 확인하는 데 도움이 되는 IP 주소에 연결된 도메인 이름을 제공하는 DNS 레코드의 유형입니다. 게재 기능 전문가와 적절한 고려 사항 및 토론 후에 PTR 레코드만 편집합니다."
+>title="하위 도메인의 PTR 기록"
+>abstract="포인터 레코드(PTR)는 IP 주소에 연결된 도메인 이름을 제공하는 DNS 레코드 유형으로 수신 메일 서버가 발신자의 IP 주소를 확인하는 데 도움을 줍니다. 이메일 게재 전문가의 심사와 충분한 논의를 거친 후에만 PTR 기록을 편집합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
->title="하위 도메인의 PTR 레코드"
->abstract="Journey Optimizer에서 하위 도메인이 Adobe에 위임되면 PTR 레코드가 자동으로 만들어지고 이 하위 도메인과 연결됩니다."
+>title="하위 도메인의 PTR 기록"
+>abstract="Journey Optimizer에서 하위 도메인이 Adobe에 위임되면 PTR 기록이 자동으로 만들어지고 이 하위 도메인에 연결됩니다."
 
 ## PTR 레코드 정보 {#about-ptr-records}
 

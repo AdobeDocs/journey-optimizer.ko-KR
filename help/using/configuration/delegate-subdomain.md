@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1779'
-ht-degree: 8%
+ht-degree: 22%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="하위 도메인 위임"
->abstract="Journey Optimizer을 사용하면 하위 도메인을 Adobe에 위임할 수 있습니다. 하위 도메인을 Adobe에 완전히 위임할 수 있습니다. 이 방법은 권장되는 방법입니다. CNAME을 사용하여 Adobe 특정 레코드를 가리키도록 하위 도메인을 만들 수도 있지만, 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지 관리하고 관리해야 합니다."
+>abstract="Journey Optimizer를 통해 하위 도메인을 Adobe에 위임할 수 있습니다. 하위 도메인을 Adobe에 완전히 위임할 수 있으며, 이는 권장 메서드입니다. Adobe의 특정 레코드를 가리키도록 CNAME을 사용하여 하위 도메인을 만들 수도 있지만 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지하고 관리해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="하위 도메인 구성 메서드"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
 >title="하위 도메인 위임"
->abstract="전자 메일 전송을 시작하려면 하위 도메인을 Adobe으로 위임하게 됩니다. 완료되면 DNS 레코드, 받은 편지함, 보낸 사람, 회신, 바운스 주소가 구성됩니다."
+>abstract="이메일 전송을 시작하려면 하위 도메인을 Adobe에 위임해야 합니다. 이 과정이 완료되면 DNS 레코드, 받은 편지함, 발신자, 주소 회신과 바운스 주소가 구성됩니다."
 
 도메인 이름 위임은 도메인 이름의 소유자를 허용하는 메서드입니다(기술적으로 DNS 영역)에서 하위 집합을 위임(기술적 의미상: 하위 영역이라고 할 수 있는 DNS 영역을 다른 엔터티에 추가합니다. 기본적으로 고객으로서 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다. 추가 정보 [하위 도메인 위임](about-subdomain-delegation.md)
 
@@ -48,7 +48,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="일치하는 DNS 레코드 생성"
->abstract="새 하위 도메인을 Adobe에 완전히 위임하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 도메인 호스팅 솔루션에 복사하여 붙여 넣어 일치하는 DNS 레코드를 생성해야 합니다. CNAME을 사용하여 하위 도메인을 위임하려면 SSL CDN URL 유효성 검사 레코드를 복사하여 붙여넣어야 합니다. 확인이 성공하면 하위 도메인을 사용하여 메시지를 전달할 수 있습니다."
+>abstract="새 하위 도메인을 Adobe에 완전히 위임하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. CNAME을 사용하여 하위 도메인을 위임하려면 SSL CDN URL 인증 레코드도 복사하여 붙여넣어야 합니다. 확인이 완료되면 메시지 게재에 하위 도메인을 사용할 준비가 되었습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="CNAME 하위 도메인 위임"
 
 [!DNL Journey Optimizer] 제품 인터페이스에서 직접 Adobe에 하위 도메인을 완전히 위임할 수 있습니다. 이렇게 하면 Adobe은 이메일 캠페인 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리하는 방식으로 메시지를 관리 서비스로 제공할 수 있습니다.
@@ -113,13 +113,13 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
->title="일치하는 DNS 및 유효성 검사 레코드 생성"
->abstract="CNAME을 사용하여 하위 도메인을 위임하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보 및 SSL CDN URL 유효성 검사 레코드를 호스팅 플랫폼에 복사하여 붙여넣어야 합니다. 확인이 성공하면 하위 도메인을 사용하여 메시지를 전달할 수 있습니다."
+>title="일치하는 DNS 및 인증 레코드 생성"
+>abstract="CNAME을 사용하여 하위 도메인을 위임하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보와 SSL CDN URL 인증 레코드를 복사한 다음 호스팅 플랫폼에 붙여넣어야 합니다. 확인이 완료되면 메시지 게재에 하위 도메인을 사용할 준비가 되었습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_cdn_cname"
->title="유효성 검사 레코드 복사"
->abstract="Adobe은 유효성 검사 레코드를 생성합니다. CDN URL 유효성 검사를 위해 호스팅 플랫폼에 해당 레코드를 만들어야 합니다."
+>title="인증 레코드 복사"
+>abstract="Adobe는 인증 레코드를 생성합니다. 호스팅 플랫폼에서 CDN URL로 인증하려면 해당 레코드를 생성해야 합니다."
 
 도메인별 제한 정책이 있고 Adobe이 DNS를 부분적 제어만 갖도록 하려는 경우 모든 DNS 관련 활동을 사용자 측에서 수행하도록 선택할 수 있습니다.
 

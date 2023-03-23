@@ -9,7 +9,7 @@ exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
->title="표현"
->abstract="표현을 추가하여 오퍼가 메시지에 표시되는 위치를 정의합니다. 오퍼가 더 많은 표현을 보유하게 되면 더 많은 기회가 다른 배치 컨텍스트에서 오퍼를 사용할 수 있습니다."
+>title="표시"
+>abstract="표현을 추가하여 메시지에 오퍼가 표시될 위치를 정의합니다. 오퍼에 표현이 많을수록 오퍼를 다양한 배치 컨텍스트에서 사용할 기회가 많아집니다."
 
-오퍼는 메시지의 다른 위치에 표시할 수 있습니다. 위쪽 배너에 이미지, 단락 텍스트, HTML 블록 등으로 표시 오퍼가 더 많은 표현을 보유하게 되면 더 많은 기회가 다른 배치 컨텍스트에서 오퍼를 사용할 수 있습니다.
+오퍼는 메시지의 다른 위치에 표시할 수 있습니다. 위쪽 배너에 이미지, 단락 텍스트, HTML 블록 등으로 표시 오퍼에 표현이 많을수록 오퍼를 다양한 배치 컨텍스트에서 사용할 기회가 많아집니다.
 
 ## 오퍼의 표현 구성 {#representations}
 

@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '977'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
@@ -52,18 +52,18 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
->title="메시지 규칙 카테고리를 선택합니다"
->abstract="활성화하여 메시지에 적용하면 선택한 카테고리와 일치하는 모든 빈도 규칙이 자동으로 이 메시지에 적용됩니다. 현재 마케팅 카테고리만 사용할 수 있습니다."
+>title="메시지 규칙 범주 선택"
+>abstract="활성화되어 메시지에 적용되면 선택한 범주와 일치하는 모든 빈도 규칙은 이 메시지에 자동으로 적용됩니다. 현재 마케팅 범주만 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="규칙에 대한 최대 가용량 설정"
->abstract="매월 고객 프로필에 전송되는 최대 메시지 수를 지정합니다. 빈도 제한은 월별 달력 기간을 기반으로 하며 매월 초에 재설정됩니다."
+>title="규칙의 상한 설정"
+>abstract="매월 고객 프로필로 전송되는 최대 메시지 수를 지정합니다. 상한 빈도 설정은 월별 캘린더 기간을 기반으로 하며 매월 초에 재설정됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
 >title="규칙이 적용되는 채널 정의"
->abstract="하나 이상의 채널을 선택하십시오. 최대 가용량 은 총 개수로 채널 간에 적용됩니다."
+>abstract="하나 이상의 채널을 선택합니다. 상한 설정은 채널에서 총 횟수로 적용됩니다."
 
 새 규칙을 만들려면 아래 단계를 수행하십시오.
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
    ![](assets/message-rules-details.png)
 
-1. 메시지 규칙 카테고리를 선택합니다.
+1. 메시지 규칙 범주 선택.
 
    >[!NOTE]
    >

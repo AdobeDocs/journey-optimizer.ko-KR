@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="세그먼트 자격 이벤트"
->abstract="이 활동을 통해 여정은 Adobe Experience Platform 세그먼트의 프로필의 처음과 끝에서 의견을 수렴하여 개인 사용자가 여정에 들어오거나 이동할 수 있습니다."
+>abstract="이 활동을 통해 Adobe Experience Platform 세그먼트의 프로필의 처음과 끝에서 의견을 수렴하여 개인 사용자가 여정으로 들어오거나 이동할 수 있습니다."
 
-이 활동을 통해 여정은 Adobe Experience Platform 세그먼트의 프로필의 처음과 끝에서 의견을 수렴하여 개인 사용자가 여정에 들어오거나 이동할 수 있습니다. 세그먼트 만들기에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../segment/about-segments.md).
+이 활동을 통해 Adobe Experience Platform 세그먼트의 프로필의 처음과 끝에서 의견을 수렴하여 개인 사용자가 여정으로 들어오거나 이동할 수 있습니다. 세그먼트 만들기에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../segment/about-segments.md).
 
 &quot;실버 고객&quot; 세그먼트가 있다고 가정해 보겠습니다. 이 활동을 사용하면 모든 신규 실버 고객이 여정을 입력하고 일련의 개인화된 메시지를 보내게 할 수 있습니다.
 

@@ -12,7 +12,7 @@ exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 14%
+ht-degree: 32%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform 데이터 소스"
->abstract="Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필에 대한 연결을 정의합니다. 이 데이터 소스는 기본 제공 및 사전 구성되어 있으므로 삭제할 수 없습니다. 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다."
+>abstract="Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필에 대한 연결을 정의합니다. 이 기본 제공 데이터 소스는 미리 구성되어 삭제할 수 없습니다. 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 디자인되었습니다(예: 여정을 입력한 개인이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다."
 
-Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필에 대한 연결을 정의합니다. 이 데이터 소스는 기본 제공 및 사전 구성되어 있으므로 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예를 들어 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. 실시간 고객 프로필 Adobe에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}.
+Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필에 대한 연결을 정의합니다. 이 기본 제공 데이터 소스는 미리 구성되어 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예를 들어 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. 실시간 고객 프로필 Adobe에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}.
 
 
 실시간 고객 프로필 서비스에 연결할 수 있도록 하려면 키를 사용하여 개인을 식별하고 키를 컨텍스트에 맞는 네임스페이스를 사용해야 합니다. 따라서 여정이 키 및 네임스페이스가 포함된 이벤트로 시작하는 경우에만 이 데이터 소스를 사용할 수 있습니다. [자세히 알아보기](../building-journeys/journey.md).

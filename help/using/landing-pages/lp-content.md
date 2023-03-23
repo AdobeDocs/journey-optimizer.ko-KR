@@ -12,7 +12,7 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="콘텐츠 구성 요소 사용"
->abstract="콘텐츠 구성 요소는 랜딩 페이지의 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다. 사용자가 선택 항목을 선택하고 제출할 수 있는 특정 컨텐츠를 정의하려면 양식 구성 요소를 사용합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="컨텐츠 구성 요소 추가"
+>abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다. 사용자가 선택 사항을 선택하고 제출할 수 있는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="콘텐츠 구성 요소 추가"
 
 랜딩 페이지 컨텐츠를 디자인하기 위해 이메일과 동일한 구성 요소를 사용할 수 있습니다. [자세히 알아보기](../email/content-components.md#add-content-components)
 
@@ -39,13 +39,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="양식 구성 요소 필드 설정"
->abstract="수신자가 랜딩 페이지에서 선택 사항을 보고 제출하는 방법을 정의합니다."
+>abstract="수신자가 랜딩 페이지에서 선택 사항을 표시하고 제출하는 방법을 정의합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="버튼을 클릭하면 어떻게 됩니까?"
->abstract="사용자가 랜딩 페이지 양식을 제출할 때 발생할 상황을 정의합니다."
+>title="버튼 클릭 시 나타나는 결과"
+>abstract="사용자가 랜딩 페이지 양식을 제출할 때 나타나는 결과를 정의합니다."
 
 사용자가 랜딩 페이지에서 선택 및 제출 할 수 있는 특정 콘텐츠를 정의하려면, **[!UICONTROL 양식]** 구성 요소. 이렇게 하려면 아래 절차를 따르십시오.
 
