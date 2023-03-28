@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2a6c5ab81a1fa708756fd2da029febd056f81f7a
+source-git-commit: 1dcaab6dba62e3c8119e45ce87dbe6f902e37921
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1398'
 ht-degree: 77%
 
 ---
@@ -89,13 +89,11 @@ ht-degree: 77%
 * 여정 캔버스가 개선되어 보다 간단하고 향상된 사용자 경험을 제공합니다. 캔버스에서 각 경로의 끝에 빈 자리 표시자가 제거되었습니다. 이제 경로 끝에 활동을 드래그하여 추가하면 됩니다. <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
 * 여정 속성의 기본 시간 제한 및 오류 지속 시간이 5초에서 30초로 변경되었습니다. 읽기 세그먼트 활동의 기본 전송률이 초당 20,000개에서 5,000개로 변경되었습니다.
 * 인터페이스를 통해 전송된 이벤트만 수신 대기하기 위해 테스트 모드에 보호 기능이 추가되었습니다. 외부 도구를 통해 보내는 이벤트는 고려되지 않습니다.
-* 여정에서 이메일, SMS 또는 푸시 작업을 추가할 때 기본적으로 서피스가 해당 채널에 마지막으로 사용된 서피스와 함께 미리 채워집니다.
 
-<!-- * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)-->
-
-<!--
+<!-- 
+* When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
+* A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
-
 * The Journey dashboard is now split in two tabs:
     * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
     * Use the **Browse** tab to access list of all journeys.
@@ -112,6 +110,10 @@ ht-degree: 77%
 * Offer Decisioning 한도 적용 시 확인할 Adobe Experience Platform 이벤트를 선택할 수도 있습니다. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
 * 배치 만들기 화면에 추가 매개 변수가 추가되었습니다. 이 매개 변수를 사용하면 여러 배치에서 오퍼를 복제할 수 있는지 여부를 제어할 수 있고 오퍼의 컨텐츠 및 메타데이터를 API 응답에 포함해야 하는지 여부를 지정할 수 있습니다. <!--[Learn more](../offers/offer-library/creating-placements.md)-->
+
+**개인화**
+
+* 이제 표현식 편집기에서 문자열 기반 프로필 속성에 대한 기본 대체 텍스트를 포함할 수 있습니다. 이러한 값은 선택한 속성이 결과를 반환하지 않을 경우 표시됩니다. <!--[Learn more](../personalization/personalization-build-expressions.md#add)-->
 
 ## 2023년 2월 릴리스 정보 {#feb-2023}
 
