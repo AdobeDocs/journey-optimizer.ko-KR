@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1926'
 ht-degree: 4%
 
 ---
@@ -282,6 +282,9 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
 * **[!UICONTROL 오류]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
 다음 **[!UICONTROL 제외 이유]**, **[!UICONTROL 바운스 수 이유]** 및 **[!UICONTROL 오류 이유]** 그래프 및 표를 사용하면 게재 중에 발생한 오류와 제외를 확인할 수 있습니다.
+
+다음 **[!UICONTROL SMS - 링크별 클릭 수]** 및 **[!UICONTROL SMS - 추적 통계]** 위젯은 URL에 대한 방문자의 참여와 관련된 기본 정보를 자세히 설명합니다.
+
 +++
 
 ## 추가 리소스

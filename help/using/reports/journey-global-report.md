@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2044'
 ht-degree: 2%
 
 ---
@@ -286,4 +286,7 @@ SMS **[!UICONTROL 글로벌 보고서]** 은 게재의 성공 및 오류를 설�
 * **[!UICONTROL 오류]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
 다음 **[!UICONTROL 제외 이유]** 그래프 및 표를 사용하면 게재 중에 발생한 오류와 제외를 확인할 수 있습니다.
+
+다음 **[!UICONTROL SMS - 링크별 클릭 수]** 및 **[!UICONTROL SMS - 추적 통계]** 위젯은 URL에 대한 방문자의 참여와 관련된 기본 정보를 자세히 설명합니다.
+
 +++

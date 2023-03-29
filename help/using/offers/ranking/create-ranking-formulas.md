@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '483'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 등급 공식을 만들려면 아래 단계를 수행하십시오.
 
-1. 액세스 권한 **[!UICONTROL 구성 요소]** 메뉴를 선택한 다음 **[!UICONTROL 순위]** 탭. 이전에 만든 등급 목록이 표시됩니다.
+1. 액세스 권한 **[!UICONTROL 구성 요소]** 메뉴를 선택한 다음 **[!UICONTROL 등급]** 탭. 다음 **[!UICONTROL 공식]** 기본적으로 탭이 선택되어 있습니다. 이전에 생성한 공식 목록이 표시됩니다.
 
    ![](../assets/rankings-list.png)
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    ![](../assets/ranking-create-formula.png)
 
-1. 순위 공식 이름, 설명 및 공식을 지정합니다.
+1. 공식 이름, 설명 및 공식을 지정합니다.
 
    이 예에서는 실제 날씨가 더운 경우 &quot;핫&quot; 속성을 사용하여 모든 오퍼의 우선 순위를 늘리려고 합니다. 이렇게 하려면 **contextData.weather=hot** 이 의사결정 호출에서 전달되었습니다.
 

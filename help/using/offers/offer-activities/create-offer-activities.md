@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1402'
 ht-degree: 3%
 
 ---
@@ -98,19 +98,19 @@ ht-degree: 3%
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. 각 프로필에 대해 가장 적합한 오퍼를 선택하는 데 사용할 등급 방법을 정의합니다.
+1. 각 프로필에 대해 가장 적합한 오퍼를 선택하는 데 사용할 등급 방법을 정의합니다. [자세히 알아보기](../offer-activities/configure-offer-selection.md).
 
    ![](../assets/activity_ranking-method.png)
 
-   * 기본적으로 이 배치에 여러 오퍼가 적합한 경우 우선 순위가 가장 높은 오퍼가 고객에게 전달됩니다.
+   * 기본적으로 이 배치에 여러 오퍼가 적합한 경우 **[!UICONTROL 오퍼 우선 순위]** 메서드에서는 오퍼에 정의된 값을 사용합니다. 우선 순위 점수가 가장 높은 오퍼가 사용자에게 전달됩니다.
 
-   * 특정 공식을 사용하여 게재할 적합한 오퍼를 선택하려면 을 선택합니다 **[!UICONTROL 등급 공식]**. 에서 오퍼의 등급을 매기는 방법을 알아봅니다 [이 섹션](../offer-activities/configure-offer-selection.md).
+   * 특정 계산된 점수를 사용하여 게재할 적합한 오퍼를 선택하려면 을 선택합니다 **[!UICONTROL 공식]** 또는 **[!UICONTROL AI 모델]**. [자세히 알아보기](../offer-activities/configure-offer-selection.md).
 
 1. 클릭 **[!UICONTROL 추가]** 를 클릭하여 동일한 배치에 대한 더 많은 기준을 정의합니다.
 
    ![](../assets/activity_add-collection.png)
 
-1. 여러 기준을 추가하면 해당 기준이 특정 순서로 평가됩니다. 시퀀스에 추가된 첫 번째 컬렉션은 먼저 평가됩니다.
+1. 여러 기준을 추가하면 해당 기준이 특정 순서로 평가됩니다. 시퀀스에 추가된 첫 번째 컬렉션은 먼저 평가됩니다. [자세히 알아보기](#evaluation-criteria-order)
 
    기본 시퀀스를 변경하려면 컬렉션을 끌어다 놓아 원하는 대로 순서를 변경할 수 있습니다.
 
@@ -120,13 +120,27 @@ ht-degree: 3%
 
    ![](../assets/activity_move-collection.png)
 
-   모두 평행선이어서 평가를 동시에 받게 된다.
+   모두 평행선이어서 평가를 동시에 받게 된다. [자세히 알아보기](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
 
 1. 이 결정의 일부로 오퍼에 대한 다른 배치를 추가하려면 **[!UICONTROL 새 범위]** 버튼을 클릭합니다. 각 결정 범위에 대해 위의 단계를 반복합니다.
 
    ![](../assets/activity_new-scope.png)
+
+### 평가 기준 순서 {#evaluation-criteria-order}
+
+위에서 설명한 바와 같이, 평가 기준은 수집, 자격 제한 및 순위 지정 방법으로 구성됩니다. 평가 기준을 평가하기 위해 원하는 순차적 순서를 설정할 수 있지만, 여러 평가 기준을 결합하여 별도로 평가되지 않도록 할 수도 있습니다.
+
+예를 들어, 평가 기준 A의 컬렉션과 평가 기준 B의 컬렉션이 두 개 있습니다. 두 개의 오퍼를 다시 전송하기 위한 요청입니다. 평가 기준 A와 평가 기준 B에서 적합한 오퍼 3개로부터 두 개의 적합한 오퍼가 있다고 가정합니다.
+
+* 두 평가 기준이 **결합되지 않음** 및/또는 순차적 순서로(1 및 2) 평가 기준에서 상위 2개의 적합한 오퍼가 첫 번째 행에 반환됩니다. 첫 번째 평가 기준에 적합한 오퍼가 두 개 없는 경우, 의사 결정 엔진은 필요한 만큼 오퍼를 찾기 위해 순서대로 다음 평가 기준으로 이동하고, 필요한 경우 대체 오퍼를 반환합니다.
+
+   ![](../assets/activity_consecutive-rank-collections.png)
+
+* 두 컬렉션이 **동시에 평가**&#x200B;를 설정하는 경우, 평가 기준 A와 평가 기준 B에서 3개의 적합한 오퍼에 대해 두 개의 적합한 오퍼가 있으므로, 다섯 개의 오퍼는 모두 각 등급 방법에 의해 결정된 값에 따라 함께 적상됩니다. 따라서 두 개의 오퍼가 요청되므로 이 5개의 오퍼에서 상위 2개의 적합한 오퍼가 반환됩니다.
+
+   ![](../assets/activity_same-rank-collections.png)
 
 ## 대체 오퍼 추가 {#add-fallback}
 

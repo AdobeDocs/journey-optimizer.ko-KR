@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abdc20ed5f73d3822d5cbfa21a60f568f7ad5e4d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 99%
+source-wordcount: '1355'
+ht-degree: 98%
 
 ---
 
@@ -221,6 +221,7 @@ ht-degree: 99%
    + [SMS 미리 보기 및 테스트](using/sms/send-sms.md)
    + [SMS 옵트아웃 관리](using/sms/sms-opt-out.md)
    + [SMS 채널 구성](using/sms/sms-configuration.md)
+   + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
 + 다이렉트 메일 {#direct-mail}
    + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)
    + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
@@ -439,7 +440,10 @@ ht-degree: 99%
    + [실행 주소 관리](using/configuration/primary-email-addresses.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
-      + [외부 시스템과 통합](using/configuration/external-systems.md)
+      + 외부 시스템과 통합 {#external-systems}
+         + [외부 시스템과 여정 통합](using/configuration/external-systems.md)
+         + [API 최대 가용량](using/configuration/capping.md)
+         + [조절 API](using/configuration/throttling.md)
       + 이벤트 구성 {#events-journeys}
          + [일반 원칙](using/event/about-events.md)
          + 단일 이벤트 구성 {#unitary-events}

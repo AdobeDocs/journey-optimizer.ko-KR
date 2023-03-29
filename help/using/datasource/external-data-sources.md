@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 외부, 소스, 데이터, 구성, 연결, 타사
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1462'
 ht-degree: 71%
 
 ---
@@ -82,6 +82,11 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 * **[!UICONTROL 메서드]**: POST 또는 GET 방법을 선택합니다. 여기서는 GET 메서드를 선택합니다.
 * **[!UICONTROL 동적 값]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [자세히 알아보기](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL 응답 페이로드]**: 내부 클릭 **[!UICONTROL 페이로드]** 필드에 붙여넣기를 통해 반환된 페이로드의 예제를 붙여넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 을 클릭하여 **[!UICONTROL 새 페이로드 붙여넣기]** 현재 전달된 페이로드를 변경하려는 경우
+
+   >[!NOTE]
+   >
+   >스칼라 배열은 응답 페이로드 정의에서 지원되지 않습니다.
+
 * **[!UICONTROL 보낸 페이로드]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
 
 매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL 동적 값]** 필드가 추가되면 호출 끝에 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.

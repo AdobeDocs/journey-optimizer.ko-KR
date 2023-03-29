@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 세그먼트, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 13%
@@ -69,7 +69,7 @@ ht-degree: 13%
 
 1. 설정 **[!UICONTROL 전송률 조절]** 필드를 세그먼트 읽기 활동의 처리량 제한에 추가합니다.
 
-   이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 초당 20,000개의 메시지입니다. 이 값은 초당 500~20,000개의 메시지에서 수정할 수 있습니다.
+   이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 초당 5,000개의 메시지입니다. 이 값은 초당 500~20,000개의 메시지에서 수정할 수 있습니다.
 
    >[!NOTE]
    >

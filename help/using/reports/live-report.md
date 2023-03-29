@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 4%
+source-wordcount: '1052'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,9 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
 
 ## 대시보드 사용자 지정 {#modify-dashboard}
 
-위젯의 크기 조정 또는 제거를 통해 각 보고 대시보드를 수정할 수 있습니다. 위젯을 변경하면 현재 사용자의 대시보드에만 영향을 줍니다. 다른 사용자는 자신의 대시보드 또는 기본적으로 설정된 대시보드를 보게 됩니다.
+위젯 크기를 조정하거나 위젯을 제거하여 각 보고 대시보드를 수정할 수 있습니다. 위젯을 변경하면 현재 사용자의 대시보드에만 영향을 줍니다. 다른 사용자는 자신의 대시보드 또는 기본적으로 설정된 대시보드를 보게 됩니다.
+
+1. 에서 **[!UICONTROL 작업]** 드롭다운에서 여정의 특정 작업 하나를 보고하려면 을 선택합니다.
 
 1. 전환 표시줄을 사용하여 보고서에서 테스트 이벤트를 제외하려는 경우 선택합니다. 테스트 이벤트에 대한 자세한 내용은 [이 페이지](../building-journeys/testing-the-journey.md).
 
@@ -57,6 +59,10 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
    ![](assets/report_modify_9.png)
 
 1. 위젯의 표시 순서와 크기에 만족하면 을(를) 클릭합니다 **[!UICONTROL 저장]**.
+
+1. 데이터 표시 방식을 사용자 지정하기 위해 그래프, 표 및 도넛 차트와 같은 다양한 시각화 옵션에서 전환할 수 있습니다.
+
+   ![](assets/report_modify_11.png)
 
 이제 대시보드가 저장됩니다. 나중에 라이브 보고서를 사용할 수 있도록 다른 변경 사항이 다시 적용됩니다. 필요한 경우 **[!UICONTROL 재설정]** 기본 위젯 및 위젯의 순서를 복원하는 옵션입니다.
 

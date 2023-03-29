@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 만들기, 최적기, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="캠페인 유형"
->abstract="보내는 날짜를 지정하여 마케팅 메시지를 보내는 경우 **예약됨** 유형이 가장 적합한 유형입니다. 단, 암호 재설정 또는 장바구니 비우기와 같은 트랜잭션 메시지를 보내려는 경우 **API 트리거** 유형이 가장 적합한 유형입니다."
+>abstract="전송 날짜를 지정하여 마케팅 메시지를 표시하려면 **예약됨** 유형이 가장 적절합니다. 단, 암호 재설정 또는 장바구니 비우기와 같은 트랜잭션 메시지를 보내려는 경우 **API 트리거** 유형이 가장 적합한 유형입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"

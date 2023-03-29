@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 인앱, 메시지, 만들기, 시작
 badge: label="Beta" type="Advertising"
+keywords: 인앱, 메시지, 만들기, 시작
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 16%
@@ -25,7 +25,7 @@ ht-degree: 16%
 
 Journey Optimizer을 사용하여 인앱 알림을 만들고, 메시지 레이아웃 및 표시, 텍스트 및 단추 옵션을 비롯한 경험 옵션을 구성합니다.
 
-## 전제 조건{#prerequisites-in-app}
+## 사전 요구 사항{#prerequisites-in-app}
 
 인앱 메시지를 보내기 전에 다음을 수행해야 합니다.
 

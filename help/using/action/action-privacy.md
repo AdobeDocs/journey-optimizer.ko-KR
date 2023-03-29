@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 데이터, 거버넌스, DULE, 레이블, 레이블 지정, 플랫폼, 정책
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
-workflow-type: ht
-source-wordcount: '939'
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
+source-wordcount: '904'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,6 @@ Journey Optimizer에서 이러한 정책을 사용자 지정 작업에 적용하
 
 * 데이터 거버넌스는 여정의 사용자 지정 작업에만 적용됩니다. Campaign Classic 및 Campaign Standard 작업은 지원되지 않습니다.
 * 거버넌스 정책은 마케팅 작업(필수 또는 추가)이 사용자 지정 작업 수준에서 설정된 경우에만 적용됩니다.
-* 기본 결합 스키마를 사용하는 필드 그룹에 속하는 속성은 지원되지 않습니다. 이러한 속성은 인터페이스에서 숨겨집니다. 다른 스키마를 사용하여 다른 필드 그룹을 만들어야 합니다.
 
 ## 거버넌스 정책 정의 {#governance-policies}
 

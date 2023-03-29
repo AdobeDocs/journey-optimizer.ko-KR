@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 15%
+source-wordcount: '560'
+ht-degree: 14%
 
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 15%
    ![](assets/sms_create_2.png)
 
    여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)
+
+<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
 
 이제 에서 SMS 메시지의 콘텐츠를 디자인할 수 있습니다 **[!UICONTROL 컨텐츠 편집]** 버튼을 클릭합니다. [SMS 콘텐츠 정의](#sms-content)
 
@@ -75,7 +77,6 @@ ht-degree: 15%
 
 >[!ENDTABS]
 
-
 ## SMS 콘텐츠 정의{#sms-content}
 
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 컨텐츠 편집]** sms 콘텐츠를 구성하는 단추를 클릭합니다.
@@ -86,11 +87,24 @@ ht-degree: 15%
 
 1. 표현식 편집기를 사용하여 컨텐츠를 정의하고 동적 컨텐츠를 추가합니다. 프로필 이름 또는 구/군/시 등의 속성을 사용할 수 있습니다. 추가 정보 [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md) 를 입력합니다.
 
-1. 클릭 **[!UICONTROL 저장]** 미리 보기에서 메시지를 확인합니다.
+1. 콘텐츠를 정의한 후 추적 URL을 메시지에 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL 도우미 함수]** 메뉴 및 선택 **[!UICONTROL 도우미]**.
+
+   URL 단축 기능을 사용하려면 먼저 서피스에 연결할 하위 도메인을 구성해야 합니다. [자세히 알아보기](sms-subdomains.md)
+
+   ![](assets/sms_tracking_1.png)
+
+1. 내 **[!UICONTROL 도우미 함수]** 메뉴 아래의 **[!UICONTROL URL 함수]** 그런 다음 **[!UICONTROL URL 추가]**.
+
+   ![](assets/sms_tracking_2.png)
+
+1. 에서 `originalUrl` 줄이려는 URL을 필드에 붙여 넣습니다.
+
+1. 클릭 **[!UICONTROL 저장]** 미리 보기에서 메시지를 확인합니다. 다음을 사용할 수 있습니다 **[!UICONTROL 컨텐츠 시뮬레이션]** 단축된 URL 또는 개인화된 콘텐츠를 미리 보려면 클릭하십시오.
 
    ![](assets/sms-content-preview.png)
 
-이제 대상자에게 SMS 메시지를 테스트 및 전송할 수 있습니다. [자세히 알아보기](send-sms.md)
+이제 대상자에게 SMS 메시지를 테스트 및 전송할 수 있습니다. [추가 정보](send-sms.md)
+전송되면 캠페인 또는 여정 보고서 내에서 SMS의 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../reports/campaign-global-report.md#sms-tab)을 참조하십시오.
 
 >[!NOTE]
 >

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '447'
+ht-degree: 6%
 
 ---
 
@@ -38,7 +38,7 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 공식**. 오
 
 에서 등급 공식을 만드는 방법을 알아봅니다 [이 섹션](../ranking/create-ranking-formulas.md).
 
-등급 공식이 만들어지면 결정에서 배치에 할당할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
+수식이 만들어지면 결정에서 배치에 할당할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
 
 1. 결정을 만들거나 기존 결정을 편집합니다. [의사 결정 만들기](../offer-activities/create-offer-activities.md)를 참조하십시오.
 
@@ -46,17 +46,17 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 공식**. 오
 
 1. 각 배치에 대해 컬렉션을 추가합니다. 자세한 내용은 [컬렉션 만들기](../offer-library/creating-collections.md).
 
-1. 선택 **[!UICONTROL 등급 공식]** 를 순위 지정 메서드로 설정한 다음 **[!UICONTROL 등급 추가]**.
+1. 선택 **[!UICONTROL 공식]** 를 순위 지정 메서드로 설정한 다음 **[!UICONTROL 등급 추가]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. 원하는 등급 공식을 선택하고 을 클릭합니다 **[!UICONTROL 선택]**.
+1. 원하는 공식을 선택하고 을 클릭합니다 **[!UICONTROL 선택]**.
 
    ![](../assets/ranking-selection.png)
 
 이제 등급 공식이 배치와 연결됩니다.
 
-이 배치에서 여러 오퍼를 표시할 수 있는 경우, 이 결정은 순위 수식의 공식을 사용하여 먼저 전달할 오퍼를 계산합니다.
+이 배치에서 여러 오퍼를 표시할 수 있는 경우, 이 결정은 선택한 공식을 사용하여 먼저 전달할 오퍼를 계산합니다.
 
 ## AI 등급 {#use-ranking-strategy}
 

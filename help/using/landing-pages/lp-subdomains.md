@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 하위 도메인, 구성
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '807'
 ht-degree: 24%
 
 ---
@@ -40,8 +40,6 @@ ht-degree: 24%
 >[!CAUTION]
 >
 >랜딩 페이지 하위 도메인 구성은 모든 환경에서 일반적입니다. 따라서 랜딩 페이지 하위 도메인을 수정하면 프로덕션 샌드박스도 영향을 받습니다.
-
-대문자는 하위 도메인에서 사용할 수 없습니다
 
 ## 기존 하위 도메인 사용 {#lp-use-existing-subdomain}
 
@@ -138,7 +136,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >해당 하위 도메인을 사용하여 메시지를 보내려면 Adobe이 필요한 검사를 수행할 때까지 기다려야 하며, 이 작업은 최대 4시간이 걸릴 수 있습니다.<!--Learn more in [this section](#subdomain-validation).-->
+   >랜딩 페이지에 해당 하위 도메인을 사용하려면 Adobe이 필요한 확인을 수행할 때까지 기다려야 하며, 이 경우 최대 4시간이 걸릴 수 있습니다.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태. 랜딩 페이지 사전 설정을 만드는 데 사용할 준비가 되었습니다.
 

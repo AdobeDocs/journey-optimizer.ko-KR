@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 97%
 
 ---
 
@@ -58,6 +58,7 @@ ht-degree: 100%
 * **세그먼트 자격**(첫 번째 노드)에서 선택한 세그먼트 및 네임스페이스는 새 버전에서 변경할 수 없습니다.
 * 재입력 규칙은 모든 여정 버전에서 동일해야 합니다.
 * **세그먼트 읽기**&#x200B;로 시작하는 여정은 다음 버전의 다른 이벤트로 시작할 수 없습니다.
+* 증분 읽기로 읽기 세그먼트 여정의 새 버전은 만들 수 없습니다. 여정을 복제해야 합니다.
 
 ### 사용자 정의 작업 {#custom-actions-g}
 

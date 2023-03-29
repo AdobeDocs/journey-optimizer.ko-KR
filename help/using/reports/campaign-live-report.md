@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '926'
 ht-degree: 8%
 
 ---
@@ -135,7 +135,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++SMS 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
 
-다음 **[!UICONTROL SMS - 통계 보내기]** 표는 게재의 성공에 대해 자세히 설명합니다.
+다음 **[!UICONTROL SMS - 통계]** 표는 게재의 성공에 대해 자세히 설명합니다.
 
 * **[!UICONTROL 타깃팅됨]**: 이 게재의 타겟 프로필로 자격을 얻은 사용자 프로필 수입니다.
 
@@ -148,6 +148,8 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL 바운스 수]**: 게재 및 자동 반환 처리 중에 누적되는 총 오류 수입니다.
 
 * **[!UICONTROL 오류]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
+
+* **[!UICONTROL 클릭 수]**: 총 URL 방문 횟수.
 
 다음 **[!UICONTROL 날짜별 SMS 성능]** 위젯은 그래프와 함께 메시지에 대한 주요 정보를 자세히 설명합니다.
 

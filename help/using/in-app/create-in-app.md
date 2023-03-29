@@ -5,13 +5,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 인앱, 메시지, 만들기, 시작
 badge: label="Beta" type="Advertising"
+keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 5%
+source-wordcount: '624'
+ht-degree: 6%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 1. 에서 **[!UICONTROL 속성]** 섹션에서 캠페인 편집 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**.
 
-1. 사용자 지정 또는 핵심 데이터 사용 레이블을 랜딩 페이지에 지정하려면 을(를) 선택합니다 **[!UICONTROL 액세스 관리]**. [자세히 알아보기](../administration/object-based-access.md).
+1. 사용자 지정 또는 코어 데이터 사용 레이블을 인앱 메시지에 할당하려면 을(를) 선택합니다 **[!UICONTROL 액세스 관리]**. [자세히 알아보기](../administration/object-based-access.md).
 
 1. 을(를) 클릭합니다. **[!UICONTROL 대상 선택]** 사용 가능한 Adobe Experience Platform 세그먼트 목록에서 타깃팅할 대상을 정의하는 단추입니다. [자세히 알아보기](../segment/about-segments.md).
 
@@ -45,27 +45,22 @@ ht-degree: 5%
 
 1. 에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
+1. 클릭 **[!UICONTROL 트리거 편집]** 메시지를 트리거할 이벤트 및 기준을 선택하려면 다음을 수행하십시오.
+
+   1. 클릭 **[!UICONTROL 추가] 조건** 트리거에서 여러 이벤트 또는 기준을 고려하도록 하려는 경우.
+   1. 이벤트의 연결 방식을 선택합니다(예: 선택). **[!UICONTROL 및]** 원한다면 **둘 다** 메시지를 표시하거나 선택하기 위해 true로 트리거합니다. **[!UICONTROL 또는]** 메시지를 표시하려면 **둘 중 하나** 트리거의 값이 true입니다.
+   1. 클릭 **[!UICONTROL 그룹 만들기]** 트리거를 함께 그룹화하는 중입니다.
+
+   ![](assets/in_app_create_3.png)
+
 1. 인앱 메시지가 활성 상태일 때 트리거의 빈도를 선택합니다.
 
-   * **[!UICONTROL 항상 표시]**: 이벤트에서 선택된 경우 항상 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
-   * **[!UICONTROL 한 번 표시]**: 이벤트에서 처음 선택된 경우에만 이 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
-   * **[!UICONTROL 클릭스루할 때까지 표시]**: 이벤트에서 선택된 경우 이 메시지 표시 **[!UICONTROL 모바일 앱 트리거]** 드롭다운은 SDK에서 &quot;클릭됨&quot; 작업과 함께 상호 작용 이벤트를 전송할 때까지 발생합니다.
+   * **[!UICONTROL 항상]**: 이벤트에서 선택된 경우 항상 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
+   * **[!UICONTROL 한 번]**: 이벤트에서 처음 선택된 경우에만 이 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
+   * **[!UICONTROL 클릭스루할 때까지]**: 이벤트에서 선택된 경우 이 메시지 표시 **[!UICONTROL 모바일 앱 트리거]** 드롭다운은 SDK에서 &quot;클릭됨&quot; 작업과 함께 상호 작용 이벤트를 전송할 때까지 발생합니다.
+   * **[!UICONTROL X 횟수]**: X시간으로 이 메시지를 표시합니다.
 
-1. 에서 **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 메시지를 트리거할 이벤트 및 기준을 선택합니다.
-
-   1. 왼쪽 드롭다운에서 메시지를 트리거하는 데 필요한 이벤트를 선택합니다.
-   1. 오른쪽 드롭다운에서 선택한 이벤트에 필요한 유효성 검사를 선택합니다.
-   1. 을(를) 클릭합니다. **[!UICONTROL 추가]** 트리거에서 여러 이벤트 또는 기준을 고려하려면 버튼을 클릭합니다. 그런 다음 위의 단계를 반복합니다.
-   1. 이벤트의 연결 방식을 선택합니다(예: 선택). **[!UICONTROL 및]** 원한다면 **둘 다** 메시지를 표시하거나 선택하기 위해 true로 트리거합니다. **[!UICONTROL 또는]** 메시지를 표시하려면 **둘 중 하나** 트리거의 값이 true입니다.
-
-   ![](assets/in_app_create_3.png)
-
-1. 메시지를 트리거하는 이벤트를 **[!UICONTROL 모바일 앱 트리거]**
-드롭다운.
-
-   트리거를 선택하여 인앱 메시지를 표시하는 사용자 작업을 선택합니다.
-
-   ![](assets/in_app_create_3.png)
+1. 필요한 경우 원하는 항목을 선택합니다 **[!UICONTROL 요일]** 또는 **[!UICONTROL 시간]** 인앱 메시지가 표시됩니다.
 
 1. 캠페인은 특정 날짜 또는 반복 빈도에 실행되도록 디자인됩니다. 구성 방법 알아보기 **[!UICONTROL 예약]** 캠페인 [이 섹션](../campaigns/create-campaign.md#schedule).
 
@@ -111,7 +106,7 @@ ht-degree: 5%
 
 이제 캠페인이 활성화됩니다. 캠페인에 구성된 인앱 알림이 즉시 또는 지정된 날짜에 전송됩니다.
 
-전송되면 캠페인 보고서 내에서 인앱 메시지가 미치는 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../reports/campaign-global-report.md#inapp-report)을 참조하십시오.
+전송되면 캠페인 또는 여정 보고서 내에서 인앱 메시지가 미치는 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../reports/campaign-global-report.md#inapp-report)을 참조하십시오.
 
 **관련 항목:**
 

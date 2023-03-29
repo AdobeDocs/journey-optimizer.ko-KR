@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 인앱, 메시지, 디자인, 서식
 badge: label="Beta" type="Advertising"
+keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 6%
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 메시지 콘텐츠를 구성하려면 **[!UICONTROL 컨텐츠 편집]** 버튼을 클릭하고 화면의 오른쪽 섹션에 있는 옵션을 사용하여 인앱 메시지 콘텐츠를 디자인합니다.
 
-![](assets/edit-in-app-content.png)
+![](assets/in_app_create_4.png)
 
 다음 **[!UICONTROL 고급 서식]** 을 전환하면 경험을 사용자 지정할 추가 옵션이 활성화됩니다.
 

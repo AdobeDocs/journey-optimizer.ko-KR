@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 디자인, 캔버스, 여정, 인터페이스, 드래그, 드롭
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1642'
 ht-degree: 5%
 
 ---
@@ -46,6 +46,12 @@ Adobe Journey Optimizer에는 마케터가 일대일 고객 참여와 마케팅 
 다음 **캔버스** 는 여정 디자이너의 중앙 영역입니다. 활동을 삭제하고 구성할 수 있는 이 영역에 있습니다. 캔버스에서 활동을 클릭하여 구성합니다. 오른쪽에 활동 구성 창이 열립니다.
 
 ![](assets/journey39.png)
+
+다음 **도구 모음**&#x200B;캔버스 오른쪽 위 모서리에 있는 을 사용하면 격자를 표시/숨기거나, 확대/축소하고, 캔버스의 스크린샷을 다운로드할 수 있습니다. 이 [섹션](../building-journeys/journey-gs.md#timeout_and_error)을 참조하세요.
+
+<!--and show/hide timeout and error paths-->
+
+![](assets/toolbar.png){width="70%" align="left"}
 
 다음 **활동 구성 창** 팔레트에서 활동을 클릭하면 표시됩니다. 필수 필드를 입력합니다. 을(를) 클릭합니다. **[!UICONTROL 삭제]** 아이콘을 클릭하여 활동을 삭제합니다. 클릭 **[!UICONTROL 취소]** 수정 사항을 취소하려면 **[!UICONTROL 확인]** 확인합니다. 활동을 삭제하려면 활동 하나(또는 여러 개)를 선택하고 백스페이스 키를 누를 수도 있습니다. Esc 키를 누르면 활동 구성 창이 닫힙니다.
 

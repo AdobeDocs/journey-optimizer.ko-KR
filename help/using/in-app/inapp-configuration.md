@@ -3,10 +3,10 @@ title: 인앱 구성
 description: Journey Optimizer을 사용하여 인앱 메시지를 전송하도록 환경을 구성하는 방법을 알아봅니다
 role: Admin
 level: Intermediate
-keywords: 인앱, 메시지, 구성, 플랫폼
 badge: label="Beta" type="Advertising"
+keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 13%
