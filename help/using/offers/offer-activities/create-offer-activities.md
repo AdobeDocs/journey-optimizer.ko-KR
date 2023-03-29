@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
       에서 의사 결정 규칙을 만드는 방법을 알아봅니다. [이 섹션](../offer-library/creating-decision-rules.md).
 
-1. 세그먼트나 결정 규칙을 선택하면 예상 자격을 갖춘 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 를 눌러 데이터를 업데이트합니다.
+1. 세그먼트 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 를 눌러 데이터를 업데이트합니다.
 
    >[!NOTE]
    >
@@ -189,7 +189,7 @@ ht-degree: 1%
 
    >[!CAUTION]
    >
-   >결정 및 내용은 더 이상 액세스할 수 없습니다. 이 작업은 취소할 수 없습니다.
+   >결정 및 내용은 더 이상 액세스할 수 없습니다. 이 작업은 실행 취소할 수 없습니다.
    >
    >다른 개체에 의사 결정을 사용하면 삭제할 수 없습니다.
 
