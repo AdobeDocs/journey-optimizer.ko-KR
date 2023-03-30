@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '2445'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 ## 2023년 2월 {#feb-2023}
 
-* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2023년 2월 23일 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer] 2023년 2월 릴리스의 모든 새로운 기능 및 개선 사항을 보려면 설명서를 참조하세요. [자세히 보기](release-notes.md)
 * 요청으로 전달된 컨텍스트 속성이 50kb를 초과할 수 없도록 지정하는 API-트리거된 캠페인 설명서에 메모를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
 * 수신자가 랜딩 페이지를 통해 구독을 취소한 후 옵트아웃 정보를 **동의 서비스 데이터 세트**&#x200B;에 저장하는 방식에 대한 정보를 추가했습니다. [자세히 보기](../landing-pages/lp-use-cases.md#configure-opt-out)
 
