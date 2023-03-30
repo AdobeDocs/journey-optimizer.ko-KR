@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 만들기, 페이지, 양식, 구성 요소
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 12%
+source-wordcount: '1284'
+ht-degree: 11%
 
 ---
 
@@ -93,7 +93,19 @@ ht-degree: 12%
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. 원하는 확인란을 모두 추가했으면 을 클릭합니다 **[!UICONTROL 클릭유도문안]** 를 클릭하여 해당 섹션을 확장합니다. 여기에서 **[!UICONTROL 양식]** 구성 요소.
+1. 을(를) 추가할 수도 있습니다 **[!UICONTROL 텍스트 필드]**.
+
+   ![](assets/lp_designer-form-add-text-field.png)
+
+   * 을(를) 입력합니다. **[!UICONTROL 레이블]** 양식의 필드 맨 위에 표시됩니다.
+
+   * 을(를) 입력합니다. **[!UICONTROL 자리 표시자]** 텍스트. 사용자가 필드를 입력하기 전에 필드 내에 표시됩니다.
+
+   * 을(를) 확인합니다. **[!UICONTROL 양식 필드를 필수로 지정]** 필요한 경우 옵션을 선택합니다. 이 경우 랜딩 페이지는 사용자가 이 필드를 입력한 경우에만 제출할 수 있습니다. 필수 필드를 입력하지 않은 경우 사용자가 페이지를 제출할 때 오류 메시지가 표시됩니다.
+
+   ![](assets/lp_designer-form-text-field.png)
+
+1. 원하는 확인란 및/또는 텍스트 필드를 모두 추가한 후에는 **[!UICONTROL 클릭유도문안]** 를 클릭하여 해당 섹션을 확장합니다. 여기에서 **[!UICONTROL 양식]** 구성 요소.
 
    ![](assets/lp_designer-form-call-to-action.png)
 
