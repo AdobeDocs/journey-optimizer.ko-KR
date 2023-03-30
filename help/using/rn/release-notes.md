@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
+source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 79%
+source-wordcount: '1429'
+ht-degree: 75%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 79%
 
 * Offer Decisioning 한도 적용 시 확인할 Adobe Experience Platform 이벤트를 선택할 수도 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
-<!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
+* 배치 만들기 화면에 추가 매개 변수가 추가되었습니다. 이 매개 변수를 사용하면 여러 배치에서 오퍼를 복제할 수 있는지 여부를 제어할 수 있고 오퍼의 컨텐츠 및 메타데이터를 API 응답에 포함해야 하는지 여부를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/creating-placements.md)
 
 **개인화**
 
@@ -249,9 +249,7 @@ Note that each widget can be resized and deleted as needed.
 
 **의사 결정 관리**
 
-<!--
-* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
--->
+* **배치** - 배치 만들기 화면에 추가 매개 변수가 추가되었습니다. 이 매개 변수를 사용하면 여러 배치에서 오퍼를 복제할 수 있는지 여부를 제어할 수 있고 오퍼의 컨텐츠 및 메타데이터를 API 응답에 포함해야 하는지 여부를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/creating-placements.md)
 
 * **URL 개인화** - 이제 URL을 오퍼 표시의 콘텐츠로 추가할 때 표현식 편집기를 사용하여 해당 URL을 개인화할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-representations.md)
 
