@@ -3,21 +3,16 @@ title: 인앱 구성
 description: Journey Optimizer을 사용하여 인앱 메시지를 전송하도록 환경을 구성하는 방법을 알아봅니다
 role: Admin
 level: Intermediate
-badge: label="Beta" type="Advertising"
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 13%
+source-wordcount: '281'
+ht-degree: 11%
 
 ---
 
 # 인앱 채널 구성 {#inapp-configuration}
-
->[!AVAILABILITY]
->
->인앱 기능은 현재 베타로 사용되어 사용자만 선택할 수 있습니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.
 
 인앱 메시지를 보내기 전에 인앱 채널을에서 구성해야 합니다 [!DNL Adobe Experience Platform Data Collection].
 

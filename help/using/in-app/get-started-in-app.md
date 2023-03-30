@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Advertising"
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 16%
+source-wordcount: '171'
+ht-degree: 13%
 
 ---
 
 # 인앱 채널 시작하기 {#gs-in-app}
-
->[!AVAILABILITY]
->
->인앱 기능은 현재 베타로 사용되어 사용자만 선택할 수 있습니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.
 
 인앱 메시지는 앱 내의 사용자에게 전송하여 특정 관심 영역으로 안내할 수 있는 알림입니다. 이러한 알림은 새로운 기능을 홍보하거나, 특별 오퍼를 제공하거나, 사용자 온보딩을 용이하게 하는 등 다양한 용도로 사용할 수 있습니다. 인앱 메시지를 활용함으로써 대상자와 효과적으로 소통하고 애플리케이션의 중요한 측면을 파악합니다.
 
