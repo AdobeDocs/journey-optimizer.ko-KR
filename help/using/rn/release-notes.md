@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 416da542b6e0ea8c66cdcebcc0219db63a9608fb
+source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1346'
+ht-degree: 79%
 
 ---
 
@@ -113,9 +113,9 @@ ht-degree: 0%
 
 <!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
 
-<!--**Personalization**
+**개인화**
 
-* You can now include default fallback text for string-based profile attributes in the Expression Editor. These values will display if the selected attributes return no result. [Learn more](../personalization/personalization-build-expressions.md#add)-->
+* 이제 표현식 편집기에서 문자열 기반 프로필 속성에 대한 기본 대체 텍스트를 포함할 수 있습니다. 이러한 값은 선택한 속성이 결과를 반환하지 않을 경우 표시됩니다. [자세히 알아보기](../personalization/personalization-build-expressions.md#add)
 
 <!--
 **Reporting**
