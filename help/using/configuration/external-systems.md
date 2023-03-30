@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적기, 최대 가용량
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 65da82fd67442cfa2b5d45ec753fb3c5a86d4cc7
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1197'
 ht-degree: 3%
 
 ---
@@ -52,6 +52,8 @@ API 작업 방법에 대한 자세한 내용은 다음 섹션을 참조하십시
 
 * [API 최대 가용량](capping.md)
 * [조절 API](throttling.md)
+
+API에 대한 자세한 내용은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 
 ### 데이터 소스 및 사용자 지정 작업 용량 {#capacity}
 
