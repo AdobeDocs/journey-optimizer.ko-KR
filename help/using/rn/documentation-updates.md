@@ -4,10 +4,10 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 2d2e5f6ef405c3c807993d19b93a599dc08989d8
 workflow-type: tm+mt
-source-wordcount: '2445'
-ht-degree: 98%
+source-wordcount: '2499'
+ht-degree: 96%
 
 ---
 
@@ -17,10 +17,12 @@ ht-degree: 98%
 
 ## 2023년 3월 {#march-2023}
 
+* 이제 Journey Optimizer 스키마 사전을 사용할 수 있습니다. 각 스키마에 대한 전체 필드 및 속성 목록이 표시됩니다.  [자세히 보기](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
 * 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2023년 3월 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 여정에서 Adobe Analytics 이벤트를 활성화하는 단계를 추가했습니다. [자세히 보기](../event/about-analytics.md)
 * 의사 결정 관리 안내서에 Adobe Experience Platform에서 Offer Decisioning 피드백을 수집하는 방법에 대한 새 섹션을 추가했습니다. 어떤 오퍼가 표시되는지, 사용자가 오퍼와 어떻게 상호 작용하는지 등을 설명합니다. [자세히 보기](../offers/data-collection/data-collection.md)
 * 새 하위 섹션이 **결정 만들기** 섹션을 참조하십시오. [자세히 보기](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* 증분 읽기가 있는 읽기 세그먼트 여정에 대한 보호 기능이 추가되었습니다. 새 버전을 만들 수 없으므로 여정을 복제해야 합니다. [자세히 보기](../start/guardrails.md#journey-versions-g)
 
 ## 2023년 2월 {#feb-2023}
 
