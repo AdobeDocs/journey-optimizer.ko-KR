@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: c247fe725492a2f3997564bae52ebddeb69c5272
+source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1465'
 ht-degree: 17%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 17%
 
 기본 캡은 1000입니다.
 
-카운터는 선택한 여정 버전에만 적용됩니다. 카운터는 한 달 후, 새 여정 버전 후 또는 여정의 중복 버전에서 0으로 재설정됩니다. 재설정 후 입력한 프로필은 카운터 제한에 도달할 때까지 명목상 경로를 다시 사용합니다.
+카운터는 선택한 여정 버전에만 적용됩니다. 카운터는 여정이 복제되거나 새 버전을 만들 때 0으로 재설정됩니다. 재설정 후 입력한 프로필은 카운터 제한에 도달할 때까지 명목상 경로를 다시 사용합니다.
 
 반복 여정에서 프로필 캡을 정의하면 각 되풀이 후 카운터가 재설정되지 않습니다.
 
