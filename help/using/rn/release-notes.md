@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0199b6b2ce7f3e03c7b5e49ff45f744ecc7c1885
+source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 76%
+source-wordcount: '1540'
+ht-degree: 74%
 
 ---
 
@@ -114,13 +114,11 @@ ht-degree: 76%
 
 * 이제 표현식 편집기에서 문자열 기반 프로필 속성에 대한 기본 대체 텍스트를 포함할 수 있습니다. 이러한 값은 선택한 속성이 결과를 반환하지 않을 경우 표시됩니다. [자세히 알아보기](../personalization/personalization-build-expressions.md#add)
 
-<!--
-**Reporting**
+**보고**
 
-* The reporting widget functionality has been improved with the ability to customize how users view their data. With this improvement, users can now choose between multiple visualization options, including graph, table, and donut charts.
+* 사용자가 데이터를 보는 방법을 사용자 지정하는 기능으로 보고 위젯 기능이 향상되었습니다. 이 개선 사항을 통해 사용자는 이제 그래프, 표 및 도넛 차트를 포함한 여러 시각화 옵션 중에서 선택할 수 있습니다.
 
-    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
--->
+   최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 지정에 대한 자세한 내용은 [세부 설명서](../reports/global-report.md#modify-dashboard).
 
 ## 2023년 2월 릴리스 정보 {#feb-2023}
 
