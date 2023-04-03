@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
 workflow-type: tm+mt
-source-wordcount: '1926'
-ht-degree: 4%
+source-wordcount: '1904'
+ht-degree: 3%
 
 ---
 
@@ -145,10 +145,6 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
 +++
 
 ## 인앱 탭 {#inapp-global}
-
->[!IMPORTANT]
->
->인앱 기능은 현재 베타로 사용되어 사용자만 선택할 수 있습니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.
 
 캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 인앱]** 탭에서 캠페인에 전송된 인앱 게재와 관련된 기본 정보를 자세히 설명합니다.
 
