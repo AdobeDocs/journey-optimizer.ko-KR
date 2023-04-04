@@ -12,7 +12,7 @@ exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 5%
+ht-degree: 17%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
->title="템플릿에서 컨텐츠 작성"
->abstract="이메일 콘텐츠 만들기를 시작하려면 처음부터 만들거나 이전 이메일에서 템플릿으로 저장된 기본 제공 템플릿 또는 사용자 지정 기존 템플릿을 선택합니다."
+>title="템플릿으로 콘텐츠 빌드"
+>abstract="이메일 콘텐츠 만들기를 시작하려면 기본 제공 템플릿, 아니면 새로 만들거나 기존 이메일을 템플릿으로 저장한 사용자 정의 템플릿을 선택합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="콘텐츠 템플릿 만들기"
 
 에서 **[!UICONTROL 이메일 만들기]** 화면, **[!UICONTROL 디자인 템플릿 선택]** 섹션에서 을(를) 클릭하여 템플릿에서 컨텐츠 작성을 시작합니다.

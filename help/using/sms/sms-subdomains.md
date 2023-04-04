@@ -9,7 +9,7 @@ keywords: SMS, 하위 도메인, 구성
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 4%
+ht-degree: 24%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
 >title="SMS 하위 도메인 위임"
->abstract="SMS 사용을 위한 하위 도메인을 설정합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다."
+>abstract="SMS를 사용하려면 하위 도메인을 설정합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
 >title="SMS 하위 도메인 위임"
->abstract="SMS 표면을 만들려면 이 하위 도메인이 필요하므로 SMS 메시지에 사용할 하위 도메인을 구성해야 합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS 서피스 만들기"
+>abstract="SMS 메시지에 사용할 하위 도메인을 구성해야 하는데 이는 SMS 표면을 만들기 위해 이 하위 도메인이 필요하기 때문입니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS 표면 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="SMS 하위 도메인 선택"
->abstract="SMS 표면을 만들려면 하위 도메인 이름 목록에서 선택할 하나 이상의 SMS 하위 도메인을 이전에 구성했는지 확인하십시오."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS 서피스 만들기"
+>abstract="SMS 표면을 만들려면 하위 도메인 이름 목록에서 선택할 SMS 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS 표면 만들기"
 
 SMS 메시지에 추가된 URL을 줄이려면 언제 선택할지 선택하는 하위 도메인을 설정해야 합니다 [sms 서피스 만들기](sms-configuration.md#message-preset-sms).
 
@@ -98,7 +98,7 @@ SMS 메시지에 추가된 URL을 줄이려면 언제 선택할지 선택하는 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_subdomain_dns"
 >title="일치하는 DNS 레코드 생성"
->abstract="새 SMS 하위 도메인을 구성하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사하여 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 성공하면 하위 도메인을 사용하여 SMS 서피스를 만들 수 있습니다."
+>abstract="새 SMS 하위 도메인을 구성하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 완료되면 SMS 표면 만들기에 하위 도메인을 사용할 준비가 된 것입니다."
 
 새 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 
