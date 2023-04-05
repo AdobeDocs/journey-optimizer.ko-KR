@@ -4,16 +4,21 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2d2e5f6ef405c3c807993d19b93a599dc08989d8
+source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
 workflow-type: tm+mt
-source-wordcount: '2499'
-ht-degree: 96%
+source-wordcount: '2518'
+ht-degree: 95%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2023년 4월 {#apr-2023}
+
+* Adobe Experience Manager Assets Essentials 및 Adobe Stock이 다중 솔루션 통합 페이지에 추가되었습니다. [자세히 보기](../start/ajo-integrations.md)
+
 
 ## 2023년 3월 {#march-2023}
 

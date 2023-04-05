@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+workflow-type: tm+mt
+source-wordcount: '714'
+ht-degree: 80%
 
 ---
 
@@ -37,6 +37,25 @@ Journey Optimizer에서 여정을 만든 후 Customer Journey Analytics는 플�
 이미 플랫폼에 캡처 및 스트리밍 되고 있는 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 고객을 위해 고객의 실시간 여정을 유도하고 경험을 자동화할 수 있습니다. 이 데이터는 Journey Optimizer를 사용하여 결합할 수 있는 세그먼트를 만드는 데도 사용할 수 있습니다.
 
 [Journey Optimizer + Analytics](../event/about-analytics.md)에 대해 자세히 알아보세요.
+
+
+## Adobe Experience Manager Assets Essentials{#integration-assets}
+
+을 사용하여 마케팅 및 크리에이티브 워크플로우를 함께 통합 [!DNL Adobe Experience Manager Assets Essentials]. 기본적으로 [!DNL Adobe Journey Optimizer], 액세스 [!DNL Assets Essentials] 디지털 자산을 저장, 관리, 검색 및 배포하기 위해 메시지를 채우는 데 사용할 수 있는 중앙 집중식 단일 자산 저장소를 제공합니다.
+
+[!DNL Adobe Experience Manager Assets Essentials] 는 [!DNL Adobe Journey Optimizer] 왼쪽 메뉴 사용 **[!UICONTROL 자산]** 섹션을 참조하십시오.
+
+추가 정보 [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+
+
+## Adobe Stock{#integration-stock}
+
+다음 [!DNL Adobe Stock] 및 [!DNL Adobe Journey Optimizer] 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선스 및 저장할 수 있습니다.
+
+사용 [!DNL Adobe Journey Optimizer]에서 직접 이메일에 이미지를 업로드할 수 있습니다. [!DNL Adobe Stock] 그리고 여기에 **[!UICONTROL 자산]** 폴더를 **[!UICONTROL Adobe Stock 사진 찾기]** 선택 사항입니다. 또한 **[!UICONTROL 유사한 스톡 사진 찾기]** 선택 사항은 게재에 사용되는 자산의 콘텐츠, 색상 및 컴포지션과 일치하는 이미지를 찾는 데 도움이 됩니다.
+
+추가 정보 [Journey Optimizer + Stock](../email/stock.md).
+
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
 
