@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Advertising"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 27%
@@ -76,7 +76,7 @@ ht-degree: 27%
 
 * [Audience](#audience): 하나 이상의 기존 대상에 속하는 추가 프로필 포함,
 * [제외](#exclude): 기존 대상에 속하는 프로필을 제외하거나 특정 속성을 기준으로 프로필을 제외합니다.
-* [품질 개선]{#enrich}: Adobe Experience Platform 데이터 세트에서 나오는 추가 특성을 사용하여 대상을 보강하고,
+* [품질 개선](#enrich): Adobe Experience Platform 데이터 세트에서 나오는 추가 특성을 사용하여 대상을 보강하고,
 * [등급](#rank): 특정 속성에 따라 프로필 등급을 매기고, 유지할 프로필 수를 지정하여 컴포지션에 포함시킵니다.
 * [분할](#split): 임의 비율 또는 속성을 기반으로 컴포지션을 여러 경로로 분할합니다.
 
