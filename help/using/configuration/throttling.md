@@ -6,9 +6,9 @@ description: 조절 API로 작업하는 방법 알아보기
 role: User
 level: Beginner
 keywords: 외부, API, 최적기, 최대 가용량
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ Throttling API를 사용하면 조절 구성을 생성, 구성 및 모니터링�
 >조직당 현재 하나의 구성만 허용됩니다. 구성은 프로덕션 샌드박스에서 정의해야 합니다(헤더에서 x-sandbox-name을 통해 제공).
 >
 >구성은 조직 수준에서 적용됩니다.
+>
+>API에 설정된 제한에 도달하면 최대 6시간 동안 추가 이벤트가 큐에 추가됩니다. 이 값은 수정할 수 없습니다.
 
 ## 조절 API 설명 {#description}
 
