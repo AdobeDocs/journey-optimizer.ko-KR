@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1361'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -206,7 +206,7 @@ ht-degree: 98%
    + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
    + [인앱 메시지 만들기 ](using/in-app/create-in-app.md)
    + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
-   + [인앱 알림 테스트 및 보내기](using/in-app/send-in-app.md)
+   + [인앱 알림 테스트하고 보내기](using/in-app/send-in-app.md)
    + [인앱 채널 구성](using/in-app/inapp-configuration.md)
 + 푸시 알림 채널{#push}
    + [푸시 알림 시작](using/push/get-started-push.md)
@@ -442,9 +442,9 @@ ht-degree: 98%
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
       + 외부 시스템과 통합 {#external-systems}
-         + [외부 시스템과 여정 통합](using/configuration/external-systems.md)
-         + [API 최대 가용량](using/configuration/capping.md)
-         + [조절 API](using/configuration/throttling.md)
+         + [여정을 외부 시스템과 통합하기](using/configuration/external-systems.md)
+         + [Capping API](using/configuration/capping.md)
+         + [Throttling API](using/configuration/throttling.md)
       + 이벤트 구성 {#events-journeys}
          + [일반 원칙](using/event/about-events.md)
          + 단일 이벤트 구성 {#unitary-events}
