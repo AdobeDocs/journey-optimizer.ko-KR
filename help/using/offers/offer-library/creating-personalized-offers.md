@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 11%
 
    ![](../assets/offer_manage-access.png)
 
-1. 표현을 추가하여 오퍼가 메시지에 표시되는 위치를 정의합니다. [자세히 알아보기](add-representations.md)
+1. 표현을 추가하여 메시지에 오퍼가 표시될 위치를 정의합니다. [자세히 알아보기](add-representations.md)
 
    ![](../assets/channel-placement.png)
 

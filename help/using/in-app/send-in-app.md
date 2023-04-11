@@ -1,5 +1,5 @@
 ---
-title: 인앱 알림 테스트 및 보내기
+title: 인앱 알림 테스트하고 보내기
 description: Journey Optimizer에서 인앱 메시지를 테스트 및 보내는 방법을 알아봅니다
 feature: Overview
 topic: Content Management
@@ -9,11 +9,11 @@ keywords: 인앱, 메시지, 만들기, 시작
 source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
-# 인앱 알림 테스트 및 보내기 {#create-in-app}
+# 인앱 알림 테스트하고 보내기 {#create-in-app}
 
 ## 장치에서 미리 보기 {#preview-device}
 

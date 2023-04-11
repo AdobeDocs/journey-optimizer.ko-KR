@@ -19,7 +19,7 @@ Journey Optimizer에서는 주어진 Adobe Experience Platform 세그먼트의 �
 
 API를 사용하여 일괄 전달을 수행할 수도 있습니다. 자세한 내용은 [Batch Decisioning API 설명서](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 작업 요청을 구성하기 전에 다음을 생성했는지 확인하십시오.
 

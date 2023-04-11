@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 조절 API
+title: Throttling API
 description: 조절 API로 작업하는 방법 알아보기
 role: User
 level: Beginner

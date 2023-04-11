@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,17 @@ ht-degree: 0%
 
 다음 용어는 자동 최적화에 대해 논의할 때 유용합니다.
 
-* **다중 무장 강도**: A [다중 무장 강도단](https://en.wikipedia.org/wiki/Multi-armed_bandit)최적화를 위한 {target=&quot;_blank&quot;} 접근 방식은 해당 학습의 탐구적 학습과 활용에 대한 균형을 맞춥니다.
+* **다중 무장 강도**: A [다중 무장 강도단](https://en.wikipedia.org/wiki/Multi-armed_bandit){target="_blank"} 최적화에 대한 접근은 탐구적 학습과 그 학습의 착취를 균형을 맞추게 합니다.
 
 * **톰슨 샘플링**: Thompson 샘플링은 즉각적인 성능을 최대화하기 위해 알려진 것을 이용하고 향후 성능을 향상시킬 수 있는 새로운 정보를 축적하기 위해 투자 간의 균형을 맞추기 위해 순차적으로 조치를 취하는 온라인 의사 결정 문제에 대한 알고리즘입니다. [자세히 알아보기](#thompson-sampling)
 
-* [**베타 배포**](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}: 연속 집합 [확률 분포](https://en.wikipedia.org/wiki/Probability_distribution)간격에 정의된 {target=&quot;_blank&quot;} [0, 1] [매개 변수](https://en.wikipedia.org/wiki/Statistical_parameter){target=&quot;_blank&quot;}(두 개의 양수) [모양 매개 변수](https://en.wikipedia.org/wiki/Shape_parameter){target=&quot;_blank&quot;}.
+* [**베타 배포**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Set of continuous [probability distributions](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
 ## 톰슨 샘플링 {#thompson-sampling}
 
 자동 최적화의 기반이 되는 알고리즘은 **톰슨 샘플링**. 이 섹션에서는 톰슨의 샘플에 대한 직관에 대해 토론합니다.
 
-[톰슨 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling){target=&quot;_blank&quot;} 또는 Bayesian 도적은 다중 무장 산적 문제에 대한 Bayesian 접근입니다.  기본적인 생각은 평균적인 보상을 다루는 ?? 각 오퍼에서 **임의 변수** 그리고 우리가 지금까지 수집한 데이터를 이용하여 평균적인 보상금에 대한 우리의 &quot;믿음&quot;을 갱신합니다. 이 &quot;믿음&quot;은 수학적으로 **후순위 확률 분포** - 기본적으로 각 오퍼에 대해 해당 값이 있는 성향(또는 가능성)과 함께 평균 포상금에 대한 값의 범위입니다. 그럼 모든 결정을 위해 **이 후기 보상 분배 각각에 대한 포인트 샘플** 그리고 샘플링된 보상이 가장 높은 오퍼를 선택합니다.
+[톰슨 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}베이시안 도적은 다중 무장 산적 문제를 가리키는 베이시안 접근법이다.  기본적인 생각은 평균적인 보상을 다루는 ?? 각 오퍼에서 **임의 변수** 그리고 우리가 지금까지 수집한 데이터를 이용하여 평균적인 보상금에 대한 우리의 &quot;믿음&quot;을 갱신합니다. 이 &quot;믿음&quot;은 수학적으로 **후순위 확률 분포** - 기본적으로 각 오퍼에 대해 해당 값이 있는 성향(또는 가능성)과 함께 평균 포상금에 대한 값의 범위입니다. 그럼 모든 결정을 위해 **이 후기 보상 분배 각각에 대한 포인트 샘플** 그리고 샘플링된 보상이 가장 높은 오퍼를 선택합니다.
 
 이 프로세스는 아래 그림에 나와 있으며, 여기에서는 3개의 다른 오퍼가 있습니다. 처음에 우리는 데이터로부터 어떤 증거도 가지고 있지 않으며, 우리는 모든 오퍼에 일관된 후순위 보상 분포가 있다고 가정합니다. 각 오퍼의 후순위 보상 분포에서 샘플을 추출합니다. 오퍼 2의 배포에서 선택한 샘플이 가장 높은 값을 갖습니다. 이것은 **탐험**. 오퍼 2를 표시한 후 잠재적 보상(예: 전환/전환 없음)을 수집하고 아래 설명된 대로 Bayes Theory를 사용하여 오퍼 2의 사후 배포를 업데이트합니다.  Adobe에서는 오퍼가 표시되고 보상이 수집될 때마다 이 프로세스를 계속 진행하고 후기 분배를 갱신합니다. 두 번째 그림에서 오퍼 3이 선택되었습니다. 평균 보상(후순위 보상 분포가 가장 오른쪽에 있음)이 가장 높은 오퍼 1에도 불구하고 각 배포의 샘플링 프로세스를 통해 명백히 최적 오퍼 3을 선택했습니다. 따라서 Adobe에서는 Offer 3의 실제 보상 분포에 대해 자세히 알아볼 수 있는 기회를 제공합니다.
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 ![](../assets/ai-ranking-thompson-sampling-ultimate.png)
 -->
 
-+++**기술 세부 사항**
++++**기술 세부 정보**
 
 분배를 계산/갱신하려면 **베이스 정리**. 각 오퍼에 대해 ***i******P(??i)를 계산하려고 합니다. | data)***, 즉 각 오퍼에 대해 ***i***: 보상 값의 가능성 **??i** 은(는) 해당 오퍼에 대해 지금까지 수집한 데이터가 주어지면 됩니다.
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-위에서 설명한 Positive 함수는 성공(전환) 및 실패(전환 없음)와 q가 있는 Binomial 분포를 통해 모델링됩니다 [임의 변수](https://en.wikipedia.org/wiki/Random_variable){target=&quot;_blank&quot;}( [베타 배포](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}.
+위에서 설명한 Positive 함수는 성공(전환) 및 실패(전환 없음)와 q가 있는 Binomial 분포를 통해 모델링됩니다 [임의 변수](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} with a [beta distribution](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
 
 이전 버전은 베타 배포로 모델링되며 후기 배포는 다음 양식을 사용합니다.
 
@@ -85,8 +85,8 @@ ht-degree: 0%
 **관련 항목**:
 
 톰슨의 샘플에 대해 자세히 알아보려면 다음 연구 논문을 읽으세요.
-* [톰슨샘플링 실증평가](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target=&quot;_blank&quot;}
-* [다무장 산적문제를 위한 Thompson 시료 분석](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target=&quot;_blank&quot;}
+* [톰슨샘플링 실증평가](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [다무장 산적문제를 위한 Thompson 시료 분석](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## 콜드 스타트 문제 {#cold-start}
 

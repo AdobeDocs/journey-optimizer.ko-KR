@@ -11,7 +11,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '922'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 여정 기능 {#journey-capability}
 
-### [!DNL Manage journeys] 권한 {#manage-journeys}
+### [!DNL Manage journeys] 사용 권한 {#manage-journeys}
 
 다음 **[!DNL Manage journeys]** 높은 수준의 권한을 통해 사용자는 여정 흐름을 작성하기 위해 여정 캔버스에서 사용되는 개체에 액세스할 수 있을 뿐만 아니라, 기존 여정을 새로 만들고 편집/삭제할 수 있습니다.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
    * datasets.read
    * schemas.read
 
-### [!DNL Publish journeys] 권한 {#publish-journeys}
+### [!DNL Publish journeys] 사용 권한 {#publish-journeys}
 
 다음 **[!DNL Publish journeys]** 높은 수준의 권한을 통해 사용자가 여정을 게시할 수 있습니다.
 
@@ -60,7 +60,7 @@ ht-degree: 0%
    * journeys.publish
    * journeys.read
 
-### [!DNL View journeys] 권한 {#view-journeys}
+### [!DNL View journeys] 사용 권한 {#view-journeys}
 
 다음 **[!DNL View journeys]** 높은 수준의 권한을 통해 사용자가 여정을 탐색하고 볼 수 있습니다.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
    * segments.read
    * profiles.read
 
-### [!DNL Manage journeys events, data sources and actions] 권한 {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] 사용 권한 {#manage-journeys-events}
 
 다음 **[!DNL Manage journeys events, data sources and actions]** 높은 수준의 권한을 통해 사용자는 이벤트 및 데이터 구성을 구성할 수 있습니다.
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    * datasets.read
    * identity_namespace.read
 
-### [!DNL View journeys events, data sources and actions] 권한 {#view-journeys-event}
+### [!DNL View journeys events, data sources and actions] 사용 권한 {#view-journeys-event}
 
 다음 **[!DNL View journeys events, data sources and actions]** 높은 수준의 권한을 사용하면 여정 흐름에서 이벤트와 데이터를 사용할 수 있습니다.
 
@@ -111,7 +111,7 @@ ht-degree: 0%
    * datasets.read
    * identity_namespace.read
 
-### [!DNL View journeys report] 권한 {#view-journeys-report}
+### [!DNL View journeys report] 사용 권한 {#view-journeys-report}
 
 다음 **[!DNL View journeys report]** 높은 수준의 권한을 통해 사용자는 읽기 전용 여정 보고서를 볼 수 있습니다.
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 ## 의사 결정 관리 기능 {#decisions-permissions}
 
-### [!DNL Manage decisions] 권한 {#manage-decisioning}
+### [!DNL Manage decisions] 사용 권한 {#manage-decisioning}
 
 다음 **[!DNL Manage decisions]** 높은 수준의 권한을 통해 사용자는 기존 사용자를 새로 만들고 편집/삭제할 수 있습니다 **[!DNL Activity entities]**&#x200B;뿐만 아니라 이러한 활동에서 결정을 내리는 데 사용되는 개체를 관리합니다.
 
@@ -155,7 +155,7 @@ ht-degree: 0%
    * profile.read
    * segments.read
 
-### [!DNL View decisions] 권한 {#view-decisions}
+### [!DNL View decisions] 사용 권한 {#view-decisions}
 
 다음 **[!DNL View decisions]** 높은 수준의 권한을 통해 사용자는 기존 활동 및 관련 비즈니스 개체를 사용하여 결정을 내릴 수 있습니다.
 
@@ -174,7 +174,7 @@ ht-degree: 0%
    * datasets.write
    * datasets.delete
 
-### [!DNL Publish offers decisioning] 권한 {#publish-decisions}
+### [!DNL Publish offers decisioning] 사용 권한 {#publish-decisions}
 
 다음 **[!DNL Publish offers decisioning]** 높은 수준의 권한을 통해 사용자는 오퍼 활동을 승인/승인하지 않을 수 있습니다.
 
@@ -196,7 +196,7 @@ ht-degree: 0%
    * datasets.read
    * profiles.read
 
-### [!DNL Manage ranking strategies] 권한 {#manage-ranking-strategies}
+### [!DNL Manage ranking strategies] 사용 권한 {#manage-ranking-strategies}
 
 다음 **[!DNL Manage ranking strategies]** 높은 수준의 권한을 통해 사용자가 등급 전략을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 ## 관리 기능 {#administration-permissions}
 
-### [!DNL Manage subdomains delegation] 권한 {#manage-subdomain}
+### [!DNL Manage subdomains delegation] 사용 권한 {#manage-subdomain}
 
 다음 **[!DNL Manage subdomains delegation]** 높은 수준의 권한을 통해 사용자는 하위 도메인 위임(IP 풀 포함)을 생성, 편집 및 삭제할 수 있습니다.
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### [!DNL Manage PTR records] 권한 {#manage-ptr}
+### [!DNL Manage PTR records] 사용 권한 {#manage-ptr}
 
 다음 **[!DNL Manage PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 읽고 편집할 수 있습니다.
 
@@ -232,7 +232,7 @@ ht-degree: 0%
 * PTR_records.write
 * subdomains_delegation.read
 
-### [!DNL View PTR records] 권한 {#view-ptr}
+### [!DNL View PTR records] 사용 권한 {#view-ptr}
 
 다음 **[!DNL View PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 볼 수 있습니다.
 
@@ -241,7 +241,7 @@ ht-degree: 0%
 * PTR_records.read
 * subdomains_delegation.read
 
-### [!DNL Manage IP pools] 권한 {#manage-ip-pools}
+### [!DNL Manage IP pools] 사용 권한 {#manage-ip-pools}
 
 다음 **[!DNL Manage IP pools]** 높은 수준 권한을 사용하면 친화성 정의를 생성, 편집 및 삭제할 수 있습니다.
 
@@ -277,7 +277,7 @@ It includes the following low-level permissions:
   * schemas.read
 -->
 
-### [!DNL Manage channel surface] 권한 {#manage-channel-surface}
+### [!DNL Manage channel surface] 사용 권한 {#manage-channel-surface}
 
 다음 **[!DNL Manage channel surface]** 높은 수준의 권한을 통해 샌드박스 수준에서 채널 간에 채널 서피스를 생성, 편집 및 삭제할 수 있습니다.
 
@@ -291,7 +291,7 @@ It includes the following low-level permissions:
    * IP_pools.read
    * mobile_setting.read (Adobe Experience Platform Launch에서)
 
-### [!DNL View channel surface] 권한 {#view-channel-surface}
+### [!DNL View channel surface] 사용 권한 {#view-channel-surface}
 
 다음 **[!DNL View channel surface]** 높은 수준의 권한을 통해 사용자는 사용할 채널 서피스를 알기 위해 채널 서피스를 볼 수 있습니다.
 
@@ -302,7 +302,7 @@ It includes the following low-level permissions:
 * IP_pools.read
 * mobile_setting.read (Adobe Experience Platform 데이터 수집에서)
 
-### [!DNL Manage suppression] 권한 {#manage-suppression}
+### [!DNL Manage suppression] 사용 권한 {#manage-suppression}
 
 다음 **[!DNL Manage suppression]** 높은 수준의 권한을 통해 사용자는 전자 메일 주소가 제외 목록에 추가되기 전에 바운스 수를 정의하고 제외 목록에 항목을 추가 및 삭제할 수 있습니다.
 
@@ -314,7 +314,7 @@ It includes the following low-level permissions:
 * suppression_list.write
 * suppression_list.delete
 
-### [!DNL View suppression list] 권한 {#view-suppression-list}
+### [!DNL View suppression list] 사용 권한 {#view-suppression-list}
 
 다음 **[!DNL View suppression list]** 높은 수준의 권한을 통해 사용자는 억제 목록 콘텐츠 및 설정을 볼 수 있습니다.
 
@@ -327,7 +327,7 @@ It includes the following low-level permissions:
    * profiles.read
    * datasets.read
 
-### [!DNL Export suppression list] 권한 {#export-suppression-list}
+### [!DNL Export suppression list] 사용 권한 {#export-suppression-list}
 
 다음 **[!DNL Export suppression list]** 높은 수준의 권한을 통해 사용자는 억제 목록을 CSV 파일로 다운로드할 수 있습니다.
 
@@ -340,7 +340,7 @@ It includes the following low-level permissions:
    * profiles.read
    * datasets.read
 
-### [!DNL Manage landing page settings] 권한 {#manage-landing-page-settings}
+### [!DNL Manage landing page settings] 사용 권한 {#manage-landing-page-settings}
 
 다음 **[!DNL Manage landing page settings]** 높은 수준의 권한을 통해 사용자는 랜딩 페이지 하위 도메인 및 사전 설정 설정을 읽고, 만들고, 편집할 수 있습니다.
 
@@ -354,7 +354,7 @@ It includes the following low-level permissions:
    * landing_page_preset.write
    * landing_page_preset.delete
 
-### [!DNL Manage frequency rules] 권한 {#manage-frequency-rules}
+### [!DNL Manage frequency rules] 사용 권한 {#manage-frequency-rules}
 
 다음 **[!DNL Manage frequency rules]** 높은 수준의 권한을 통해 사용자는 빈도 규칙을 읽기, 만들기, 편집, 삭제 및 활성화/비활성화할 수 있습니다.
 
@@ -365,7 +365,7 @@ It includes the following low-level permissions:
    * frequency_rules.write
    * frequency_rules.delete
 
-### [!DNL View frequency rules] 권한 {#view-frequency-rules}
+### [!DNL View frequency rules] 사용 권한 {#view-frequency-rules}
 
 다음 **[!DNL View frequency rules]** 높은 수준의 권한을 통해 사용자는 빈도 규칙을 볼 수 있습니다.
 

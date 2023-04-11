@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 7%
 
 [!DNL Adobe Experience Manager Assets Essentials] 는 [!DNL Adobe Journey Optimizer] 왼쪽 메뉴 사용 **[!UICONTROL 자산]** 섹션을 참조하십시오. 필요할 때 자산 및 폴더에 액세스할 수도 있습니다 [이메일 콘텐츠 디자인](get-started-email-design.md).
 
-## 전제 조건{#assets-prerequisites}
+## 사전 요구 사항{#assets-prerequisites}
 
 사용하기 전 [!DNL Adobe Experience Manager Assets Essentials]를 채울 때는 사용자를 **Assets Essentials 소비자 사용자** 또는/and **Assets Essentials 사용자** 제품 프로필. 자세한 내용 [Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"}.
 
 >[!NOTE]
->2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. 자세한 내용은 [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"} 섹션을 참조하십시오.
+>2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"} 섹션에서 자세히 알아보세요.
 
 ## 자산 업로드 및 삽입{#add-asset}
 

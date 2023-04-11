@@ -12,7 +12,7 @@ exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 13%
+ht-degree: 24%
 
 ---
 
@@ -26,7 +26,7 @@ Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로�
 
 여기에는 종단 간 사용 사례가 나와 있습니다 [섹션](../building-journeys/ajo-ac.md).
 
-1. 이벤트를 시작으로 여정을 디자인합니다. 다음 보기 [섹션](../building-journeys/journey.md).
+1. 이벤트를 시작으로 여정을 디자인합니다. 이 [섹션](../building-journeys/journey.md)을 참조하세요.
 1. 에서 **작업** 팔레트의 섹션에서 Campaign 작업을 선택하여 여정에 추가합니다.
 1. 에서 **작업 매개 변수**, 메시지 페이로드에서 예상되는 모든 필드가 표시됩니다. 이벤트 또는 데이터 소스에서 사용할 필드에 이러한 각 필드를 매핑해야 합니다. 이는 사용자 지정 작업과 유사합니다. 다음을 참조하십시오 [섹션](../building-journeys/using-custom-actions.md).
 

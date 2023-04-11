@@ -11,7 +11,7 @@ exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -56,7 +56,7 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 * 실행이 완료된 원샷 세그먼트 기반 여정.
 * 반복 세그먼트 기반 여정이 마지막으로 발생한 이후.
 
-여정을 수동으로 닫으면 이미 여정에 로그인한 고객이 경로를 완료할 수 있지만, 새 사용자는 여정에 들어갈 수 없습니다. 여정을 닫으면(위의 이유 중 하나) 상태가 됩니다 **[!UICONTROL 닫힘]**. 여정은 새 개인이 여정에 들어갈 수 있도록 하는 것을 중지합니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료할 수 있습니다. 기본 글로벌 시간 초과 30일 이후에는 여정이 **완료됨** 상태. 다음 보기 [섹션](../building-journeys/journey-gs.md#global_timeout).
+여정을 수동으로 닫으면 이미 여정에 로그인한 고객이 경로를 완료할 수 있지만, 새 사용자는 여정에 들어갈 수 없습니다. 여정을 닫으면(위의 이유 중 하나) 상태가 됩니다 **[!UICONTROL 닫힘]**. 여정은 새 개인이 여정에 들어갈 수 있도록 하는 것을 중지합니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료할 수 있습니다. 기본 글로벌 시간 초과 30일 이후에는 여정이 **완료됨** 상태. 이 [섹션](../building-journeys/journey-gs.md#global_timeout)을 참조하세요.
 
 닫힌 여정 버전은 다시 시작하거나 삭제할 수 없습니다. 새 버전을 만들거나 복제할 수 있습니다. 완료된 여정만 삭제할 수 있습니다.
 

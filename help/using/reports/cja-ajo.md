@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '336'
 ht-degree: 8%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 여정을 만든 후 [!DNL Journey Optimizer], 고객 데이터를에 가져올 수 있습니다. [!DNL Customer Journey Analytics] 보고서를 시작하고 고객이 여정과 상호 작용이 미치는 영향을 이해하기 위해 노력합니다.
 
-➡️ [검색 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target=&quot;_blank&quot;}
+➡️ [검색 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target="_blank"}
 
 사용하기 전 [!DNL Customer Journey Analytics] 여정의 경우 먼저 이 통합을 구성해야 합니다.
 

@@ -10,7 +10,7 @@ keywords: 플랫폼, 데이터 레이크, 만들기, 레이크, 데이터 세트
 source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->데이터 세트 내보내기 기능은 현재 베타에 있으며 모든 Adobe Journey Optimizer 사용자가 사용할 수 있습니다. 아직 액세스 권한이 없는 경우 Adobe 담당자에게 대상 액세스 권한을 요청하십시오.
+>데이터 세트 내보내기 기능은 현재 베타에 있으며 모든 Adobe Journey Optimizer 사용자가 사용할 수 있습니다. 아직 액세스 권한이 없는 경우 Adobe 담당자에게 대상 액세스 권한 부여를 요청하십시오.
 
 Journey Optimizer을 사용하면 데이터 세트의 컨텐츠를 내보내기 위해 클라우드 스토리지 위치와 라이브 연결을 설정할 수 있습니다.
 
@@ -44,7 +44,7 @@ Journey Optimizer을 사용하면 데이터 세트의 컨텐츠를 내보내기 
 * [Google 클라우드 스토리지](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html)
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 데이터 세트 내보내기를 시작하기 전에 다음 사전 요구 사항을 확인하십시오.
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 3%
+source-wordcount: '765'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Adobe은 서비스 및 메일링 신뢰도에 영향을 미치는 것으로 입증된 알려진 잘못된 주소의 업데이트된 목록을 유지하며, 이메일이 배달되지 않도록 합니다. 이 목록은 모든 Adobe 고객에게 공통인 글로벌 제외 목록에서 관리됩니다. 전역 제외 목록에 포함된 주소 및 도메인 이름은 숨겨집니다. 제외된 수신자 수만 게재 보고서에 표시됩니다.
+>Adobe은 서비스 및 메일링 신뢰도에 영향을 미치는 것으로 입증된 알려진 잘못된 주소의 업데이트된 목록을 유지하며, 이메일이 배달되지 않도록 합니다. 이 목록은 모든 Adobe 고객에게 공통으로 적용되는 글로벌 금지 목록에서 관리됩니다. 글로벌 금지 목록에 포함된 주소와 도메인 이름은 숨겨집니다. 게재 보고서에는 제외된 수신자 수만 표시됩니다.
 
 ## 제외 목록이 왜 있습니까? {#why-suppression-list}
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 >
 >다음 포함 **[!UICONTROL 억제됨]** 상태는 메시지 전송 프로세스 중에 제외됩니다. 따라서 **여정 보고서** 은(는) 이러한 프로필을 여정을 통해 이동했음을 나타냅니다([세그먼트 읽기](../building-journeys/read-segment.md) 및 [메시지 활동](../building-journeys/journeys-message.md)), **이메일 보고서** 에는 이러한 매개 변수가 포함되지 않습니다. **[!UICONTROL 전송]** 지표는 이메일 전송 전에 필터링됩니다.
 >
->추가 정보 [라이브 보고서](../reports/live-report.md) 및 [글로벌 보고서](../reports/global-report.md). 모든 제외 사례에 대한 이유를 알아보려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>추가 정보 [라이브 보고서](../reports/live-report.md) 및 [글로벌 보고서](../reports/global-report.md). 모든 제외 사례에 대한 이유를 알아보려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 
 ### 게재 실패 {#delivery-failures}
 

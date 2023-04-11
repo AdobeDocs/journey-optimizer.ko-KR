@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 22%
 
 ---
@@ -24,4 +24,4 @@ Adobe Journey Optimizer을 사용하면 Platform 서비스를 사용하여 들�
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-에서 소스 커넥터를 사용하여 외부 소스에서 데이터를 수집하는 방법을 자세히 알아보십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko){target=&quot;_blank&quot;}.
+에서 소스 커넥터를 사용하여 외부 소스에서 데이터를 수집하는 방법을 자세히 알아보십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko){target="_blank"}.

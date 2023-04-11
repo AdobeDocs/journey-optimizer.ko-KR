@@ -10,7 +10,7 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -50,8 +50,8 @@ Journey Optimizer이 외부 API에 대한 호출을 실행하면 다음과 같�
 
 API 작업 방법에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
-* [API 최대 가용량](capping.md)
-* [조절 API](throttling.md)
+* [Capping API](capping.md)
+* [Throttling API](throttling.md)
 
 API에 대한 자세한 내용은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 

@@ -21,7 +21,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->여정 속성 속성은 단순 표현식 편집기에서 사용할 수도 있습니다. 다음 보기 [섹션](../condition-activity.md#about_condition)
+>여정 속성 속성은 단순 표현식 편집기에서 사용할 수도 있습니다. 이 [섹션](../condition-activity.md#about_condition)을 참조하세요
 
 ![](../assets/journey-properties.png)
 

@@ -6,7 +6,7 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1361'
 ht-degree: 100%
 

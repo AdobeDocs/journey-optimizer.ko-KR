@@ -12,7 +12,7 @@ exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 14%
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [게시](create-lp.md#publish) 랜딩 페이지.
+1. [랜딩 페이지 게시.](create-lp.md#publish)
 
 1. 다음 [여정](../building-journeys/journey.md), 추가 **이메일** 활동을 통해 트래픽을 등록 랜딩 페이지로 유도할 수 있습니다.
 

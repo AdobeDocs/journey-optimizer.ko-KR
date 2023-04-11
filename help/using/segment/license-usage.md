@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 11%
+source-wordcount: '120'
+ht-degree: 12%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->대시보드를 보려면 [라이선스 사용 대시보드 보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target=&quot;_blank&quot;} 권한.
+>대시보드를 보려면 [라이선스 사용 대시보드 보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} 권한.
 
 자세한 내용은 Adobe Experience Platform 설명서를 참조하십시오.
 
-* [라이선스 사용 대시보드 개요](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko){target=&quot;_blank&quot;}
-* [라이선스 사용 대시보드 탐색](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target=&quot;_blank&quot;}
-* [사용 가능한 지표](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko#available-metrics){target=&quot;_blank&quot;}
+* [라이선스 사용 대시보드 개요](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko){target="_blank"}
+* [라이선스 사용 대시보드 탐색](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [사용 가능한 지표](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko#available-metrics){target="_blank"}

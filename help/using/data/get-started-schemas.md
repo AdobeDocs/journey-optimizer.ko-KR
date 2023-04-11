@@ -11,7 +11,7 @@ exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 28%
 
 스키마 편집기를 사용하여 스키마를 생성하기 위한 단계별 설명서는 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko){target="_blank"}
 
-각 스키마에 대한 전체 필드 및 속성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+각 스키마에 대한 전체 필드 및 속성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko){target="_blank"}.
 
 
 ## 방법 비디오{#video-schema}

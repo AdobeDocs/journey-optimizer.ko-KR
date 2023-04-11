@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '935'
+ht-degree: 95%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target=&quot;_blank&quot;} 사용자가 **Offer Decisioning** 애플리케이션 서비스를 활용하면 이 섹션에서 설명하는 [의사 결정 관리] 기능을 모두 사용할 수 있습니다.
+>만약 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target="_blank"} 사용자 활용 **offer decisioning** 응용 프로그램 서비스에서는 이 섹션에 설명된 모든 의사 결정 관리 기능이 적용됩니다.
 
 ## 오퍼 및 의사 결정 정보 {#about-offers-and-decisions}
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 ## 의사 결정 관리 액세스 권한 부여 {#granting-acess-to-decision-management}
 
-액세스 및 사용 결정 기능에 대한 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}을 통해 관리될 수 있습니다.
+의사 결정 기능에 액세스하고 사용할 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target="_blank"}.
 
 의사 결정 관리 기능에 대한 액세스 권한을 부여하려면 **[!UICONTROL 제품 프로필]**&#x200B;을 만들고 사용자에게 해당 권한을 할당해야 합니다. [!DNL Journey Optimizer]의 사용자 및 권한 관리에 대한 자세한 정보는 [이 섹션](../../administration/permissions.md)을 참조하세요.
 

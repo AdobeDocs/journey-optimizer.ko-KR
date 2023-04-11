@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1536'
 ht-degree: 3%
 
 ---
@@ -32,11 +32,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 권한 설정 {#setup-permissions}
 
-모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform에서 태그에 대한 올바른 사용자 권한이 있는지 또는 지정했는지 확인해야 합니다. 추가 정보 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}.
+모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform에서 태그에 대한 올바른 사용자 권한이 있는지 또는 지정했는지 확인해야 합니다. 추가 정보 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 개인에 따라 전체 권한 세트를 단일 제품 프로필에 할당하거나 앱 개발자와 앱 개발자 간에 권한을 공유해야 할 수 있습니다 **Adobe Journey Optimizer** 관리자 추가 정보 **태그** 권한 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}.
+>푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 개인에 따라 전체 권한 세트를 단일 제품 프로필에 할당하거나 앱 개발자와 앱 개발자 간에 권한을 공유해야 할 수 있습니다 **Adobe Journey Optimizer** 관리자 추가 정보 **태그** 권한 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -53,7 +53,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
    ![](assets/push_product_1.png)
 
-1. 기존 항목 선택 **[!UICONTROL 제품 프로필]** 또는 **[!UICONTROL 새 프로필]** 버튼을 클릭합니다. 새로 만드는 방법 알아보기 **[!UICONTROL 새 프로필]** 에서 [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target=&quot;_blank&quot;}.
+1. 기존 항목 선택 **[!UICONTROL 제품 프로필]** 또는 **[!UICONTROL 새 프로필]** 버튼을 클릭합니다. 새로 만드는 방법 알아보기 **[!UICONTROL 새 프로필]** 에서 [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 
 1. 에서 **[!UICONTROL 권한]** 탭, 선택 **[!UICONTROL 속성 권한]**.
 
@@ -109,14 +109,14 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 아래 링크에 자세히 설명된 구현 단계를 따르십시오.
 
-* 대상 **Apple iOS**: 의 APNs에 앱을 등록하는 방법을 알아봅니다. [Apple 설명서](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target=&quot;_blank&quot;}
-* 대상 **Google Android**: Android에서 Firebase Cloud Messaging 클라이언트 앱을 설정하는 방법을 알아봅니다. [Google 설명서](https://firebase.google.com/docs/cloud-messaging/android/client){target=&quot;_blank&quot;}
+* 대상 **Apple iOS**: 의 APNs에 앱을 등록하는 방법을 알아봅니다. [Apple 설명서](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
+* 대상 **Google Android**: Android에서 Firebase Cloud Messaging 클라이언트 앱을 설정하는 방법을 알아봅니다. [Google 설명서](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
 ### 모바일 앱을 Adobe Experience Platform SDK와 통합합니다 {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일용 클라이언트측 통합 API를 제공합니다. 팔로우 [Adobe Experience Platform Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/getting-started/overview)앱에서 Adobe Experience Platform Mobile SDK로 설정하려면 {target=&quot;_blank&quot;}.
+Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일용 클라이언트측 통합 API를 제공합니다. 팔로우 [Adobe Experience Platform Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/getting-started/overview){target="_blank"} 앱에서 Adobe Experience Platform Mobile SDK를 사용하여 설정하려면 다음을 수행하십시오.
 
-이 작업을 완료하여에 모바일 속성도 만들고 구성해야 했습니다 [!DNL Adobe Experience Platform Data Collection]. 일반적으로 관리할 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법을 알아봅니다 [Adobe Experience Platform Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}.
+이 작업을 완료하여에 모바일 속성도 만들고 구성해야 했습니다 [!DNL Adobe Experience Platform Data Collection]. 일반적으로 관리할 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법을 알아봅니다 [Adobe Experience Platform Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target="_blank"}.
 
 
 ## 1단계: Adobe Experience Platform 데이터 수집에 앱 푸시 자격 증명 추가 {#push-credentials-launch}
@@ -156,7 +156,7 @@ Adobe이 대신 푸시 알림을 전송하도록 승인하려면 모바일 앱 �
 
       1. 켜짐 **[!UICONTROL 푸시 자격 증명]** 단추를 클릭하여 자격 증명을 추가합니다.
 
-      1. FCM 푸시 자격 증명을 끌어다 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}.
+      1. FCM 푸시 자격 증명을 끌어다 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 
 
@@ -184,7 +184,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 다음 **Adobe Journey Optimizer 확장** Adobe Experience Platform Mobile SDK용 는 모바일 앱에 대한 푸시 알림을 활성화하고 사용자 푸시 토큰을 수집하고 Adobe Experience Platform 서비스와의 상호 작용 측정을 관리하는 데 도움이 됩니다.
 
-에서 Journey Optimizer 확장을 설정하는 방법을 알아봅니다. [Adobe Experience Platform Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}.
+에서 Journey Optimizer 확장을 설정하는 방법을 알아봅니다. [Adobe Experience Platform Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target="_blank"}.
 
 
 <!-- 
@@ -261,7 +261,7 @@ Adobe Experience Platform과 모두에서 모바일 앱을 구성한 후 [!DNL A
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-이 여정이 작동하려면 XDM 스키마를 만들어야 합니다. 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target=&quot;_blank&quot;}.
+이 여정이 작동하려면 XDM 스키마를 만들어야 합니다. 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
 1. 왼쪽 메뉴에서 **[!UICONTROL 스키마]**.
 
@@ -271,7 +271,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 선택 **[!UICONTROL 새 필드 그룹 만들기]**.
 
-1. 을(를) 입력합니다. **[!UICONTROL 표시 이름]** 그리고 **[!UICONTROL 설명]**. 클릭 **[!UICONTROL 필드 그룹 추가]** 완료 시. 필드 그룹을 만드는 방법에 대한 자세한 내용은 [XDM 시스템 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko){target=&quot;_blank&quot;}.
+1. 을(를) 입력합니다. **[!UICONTROL 표시 이름]** 그리고 **[!UICONTROL 설명]**. 클릭 **[!UICONTROL 필드 그룹 추가]** 완료 시. 필드 그룹을 만드는 방법에 대한 자세한 내용은 [XDM 시스템 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko){target="_blank"}.
 
 
    ![](assets/test_push_4.png)

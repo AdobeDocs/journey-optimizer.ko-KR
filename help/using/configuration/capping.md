@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: API 최대 가용량
+title: Capping API
 description: 최대 가용량 API 사용 방법 알아보기
 role: User
 level: Beginner

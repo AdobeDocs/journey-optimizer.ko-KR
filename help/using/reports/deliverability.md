@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '693'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 게재 능력을 최적화하기 위해 [!DNL Journey Optimizer] 경험은 이 섹션에 나열된 우수 사례를 사용하는 것이 좋습니다. 게재 기능 문제는 일반적으로 인터넷 서비스 공급자(ISP) 및 메일 서버 관리자가 구현하는 스팸으로부터 보호하는 것과 연결되어 있습니다.
 
-게재 능력에 대한 자세한 내용과 주요 게재 가능성 용어, 개념 및 접근 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko-KR){target=&quot;_blank&quot;}.
+게재 능력에 대한 자세한 내용과 주요 게재 가능성 용어, 개념 및 접근 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko-KR){target="_blank"}.
 
 ## 불만률 감소 {#reduce-complaint-rate}
 

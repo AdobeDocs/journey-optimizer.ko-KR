@@ -29,7 +29,7 @@ ht-degree: 0%
 [숨은 참조 피드백 이벤트 데이터 세트](#bcc-feedback-event-dataset)
 [엔티티 데이터 세트](#entity-dataset)
 
-각 스키마에 대한 전체 필드 및 속성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+각 스키마에 대한 전체 필드 및 속성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko){target="_blank"}.
 
 ## 이메일 추적 경험 이벤트 데이터 세트{#email-tracking-experience-event-dataset}
 

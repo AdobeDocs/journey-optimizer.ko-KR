@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '476'
 ht-degree: 5%
 
 ---
@@ -58,11 +58,11 @@ Adobe Experience Platform에 전달된 XDM 필드 목록은 다음 항목에 자
 
 ## Customer Journey Analytics과 통합 {#integration-cja}
 
-[!DNL Journey Optimizer] 단계 이벤트는 의 다른 데이터 세트에 연결할 수 있습니다 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] 단계 이벤트는 의 다른 데이터 세트에 연결할 수 있습니다 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko){target="_blank"}.
 
 일반 워크플로우는 다음과 같습니다.
 
 * [!DNL Customer Journey Analytics] 는 &quot;여정 단계 이벤트&quot; 데이터 세트를 설정합니다.
 * 다음 **profileID** 연결된 &quot;Journey Orchestration에 대한 여정 단계 이벤트 스키마&quot;의 필드는 ID 필드로 정의됩니다. in [!DNL Customer Journey Analytics]그런 다음 이 데이터 세트를 개인 기반 식별자와 동일한 값을 갖는 다른 데이터 세트에 연결할 수 있습니다.
-* 에서 이 데이터 세트를 사용하려면 [!DNL Customer Journey Analytics]- 크로스 채널 여정 분석의 경우 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target=&quot;_blank&quot;}.
+* 에서 이 데이터 세트를 사용하려면 [!DNL Customer Journey Analytics]- 크로스 채널 여정 분석의 경우 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 

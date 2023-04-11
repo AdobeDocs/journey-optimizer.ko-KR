@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '675'
 ht-degree: 6%
 
 ---
@@ -48,13 +48,13 @@ ht-degree: 6%
 
 * **Adobe Experience Platform Mobile SDK** Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다. SDK는 [!DNL Adobe Journey Optimizer] extension에서 푸시 메시지에 대한 다양한 API를 노출하고 푸시 토큰 등록 또는 푸시 추적 이벤트 또는 기타 사용자 지정 경험 이벤트를 Adobe Experience Platform에 전송하는 것과 같은 데이터 흐름을 활성화합니다. 또한 SDK는 다른 Adobe Experience Cloud과 타사 파트너 기능을 사용할 수 있는 다양한 기타 확장도 제공합니다.
 
-   SDK 통합에도 Adobe Experience Platform 설정이 필요합니다 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)다음과 같은 {target=&quot;_blank&quot;} 서비스:
+   SDK 통합에도 Adobe Experience Platform 설정이 필요합니다 [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"} 서비스(예:
 
    * 데이터 스트림을 만들어 데이터가 Adobe Experience Platform으로 이동하는 프로필 및 경험 이벤트 데이터 세트를 구성합니다
    * 클라이언트측 모바일 속성 만들기 및 확장 추가 SDK는 이러한 확장과 긴밀하게 통합되어 완벽한 데이터 수집 환경을 제공합니다.
    * 모바일 앱 번들 식별자 및 앱 자격 증명을 등록
 
-* **Adobe Experience Platform 실시간 고객 프로필**  에서는 웹, 모바일, CRM 및 타사 등 여러 채널의 데이터를 결합하여 각 개별 고객을 전체적으로 볼 수 있습니다. 프로필을 사용하면 모든 고객 인터랙션에 대해 실행 가능한 타임스탬프 계정을 제공하는 통합 보기로 고객 데이터를 통합할 수 있습니다. 주어진 앱 사용자에 대한 푸시 토큰은 사용자의 프로필에 대해 레코드 데이터로 저장되는 반면, 사용자가 푸시 알림과 함께 수행하는 상호 작용은 시계열 이벤트 데이터로 추적됩니다. [Adobe Experience Platform 실시간 고객 프로필에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target=&quot;_blank&quot;}.
+* **Adobe Experience Platform 실시간 고객 프로필**  에서는 웹, 모바일, CRM 및 타사 등 여러 채널의 데이터를 결합하여 각 개별 고객을 전체적으로 볼 수 있습니다. 프로필을 사용하면 모든 고객 인터랙션에 대해 실행 가능한 타임스탬프 계정을 제공하는 통합 보기로 고객 데이터를 통합할 수 있습니다. 주어진 앱 사용자에 대한 푸시 토큰은 사용자의 프로필에 대해 레코드 데이터로 저장되는 반면, 사용자가 푸시 알림과 함께 수행하는 상호 작용은 시계열 이벤트 데이터로 추적됩니다. [Adobe Experience Platform 실시간 고객 프로필에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}.
 
 * **[!DNL Adobe Journey Optimizer]** : 위에 언급된 구성 요소와의 모바일 앱 통합이 준비되고 Adobe Experience Platform에서 고객 프로필이 준비되면, 에서 푸시 알림을 작성하고 오케스트레이션할 수 있습니다 [!DNL Adobe Journey Optimizer] 사용자 참여
 

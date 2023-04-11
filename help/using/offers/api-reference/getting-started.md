@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '565'
 ht-degree: 5%
 
 ---
@@ -19,22 +19,22 @@ ht-degree: 5%
 
 ➡️ [이 비디오에서 결정 관리의 구성 요소에 대해 자세히 알아보십시오](#video)
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 이 안내서에서는 Adobe Experience Platform의 다음 구성 요소를 이해하고 있어야 합니다.
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target=&quot;_blank&quot;}: 표준화된 프레임워크 [!DNL Experience Platform] 고객 경험 데이터를 구성합니다.
-   * [스키마 작성 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR-KR){target=&quot;_blank&quot;}: XDM 스키마의 기본 구성 요소에 대해 알아봅니다.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}: 표준화된 프레임워크 [!DNL Experience Platform] 고객 경험 데이터를 구성합니다.
+   * [스키마 작성 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR-KR){target="_blank"}: XDM 스키마의 기본 구성 요소에 대해 알아봅니다.
 * [의사 결정 관리](../../../using/offers/get-started/starting-offer-decisioning.md): 일반적으로 Experience Decisioning에 사용되는 개념과 구성 요소, 특히 의사 결정 관리에 대해 설명합니다. 고객 경험 중에 가장 적합한 옵션을 선택하는 데 사용되는 전략을 보여줍니다.
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: PQL은 XDM 인스턴스에서 표현식을 작성할 수 있는 강력한 언어입니다. PQL은 의사 결정 규칙을 정의하는 데 사용됩니다.
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}: PQL은 XDM 인스턴스에서 표현식을 작성할 수 있는 강력한 언어입니다. PQL은 의사 결정 규칙을 정의하는 데 사용됩니다.
 
 ## 샘플 API 호출 읽기 {#reading-sample-api-calls}
 
-이 안내서에서는 요청의 형식을 지정하는 방법을 보여주는 예제 API 호출을 제공합니다. 여기에는 경로, 필수 헤더 및 올바른 형식의 요청 페이로드가 포함됩니다. API 응답으로 반환되는 샘플 JSON도 제공됩니다. 샘플 API 호출에 대한 설명서에 사용된 규칙에 대한 자세한 내용은 [예제 API 호출을 읽는 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request)의 {target=&quot;_blank&quot;} [!DNL Experience Platform] 문제 해결 가이드.
+이 안내서에서는 요청의 형식을 지정하는 방법을 보여주는 예제 API 호출을 제공합니다. 여기에는 경로, 필수 헤더 및 올바른 형식의 요청 페이로드가 포함됩니다. API 응답으로 반환되는 샘플 JSON도 제공됩니다. 샘플 API 호출에 대한 설명서에 사용된 규칙에 대한 자세한 내용은 [예제 API 호출을 읽는 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} 에서 [!DNL Experience Platform] 문제 해결 가이드.
 
 ## 필수 헤더에 대한 값을 수집합니다 {#gather-values-for-required-headers}
 
-을 호출하려면 [!DNL Adobe Experience Platform] API를 먼저 완료해야 합니다. [인증 자습서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}. 인증 자습서를 완료하면 모든 히트에 필요한 각 헤더에 대한 값이 제공됩니다 [!DNL Experience Platform] 아래에 표시된 대로 API 호출:
+을 호출하려면 [!DNL Adobe Experience Platform] API를 먼저 완료해야 합니다. [인증 자습서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}. 인증 자습서를 완료하면 모든 히트에 필요한 각 헤더에 대한 값이 제공됩니다 [!DNL Experience Platform] 아래에 표시된 대로 API 호출:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -50,7 +50,7 @@ ht-degree: 5%
 
 관리자는 유사한 주체, 리소스 및 액세스 권한을 프로필로 그룹화할 수 있습니다. 따라서 관리 부담이 줄어들고 [Adobe Admin Console](https://adminconsole.adobe.com/). 프로필을 만들고 사용자를 조직의 Adobe Experience Platform에 할당하려면 조직의 제품 관리자여야 합니다. 한 번에 하나의 권한과 일치하는 제품 프로필을 만든 다음 해당 프로필에 사용자를 추가하면 됩니다. 프로필은 권한이 부여된 그룹 역할을 하며 해당 그룹의 모든 실제 사용자 또는 기술 사용자는 해당 권한을 상속합니다.
 
-지정된 관리자 권한이 있는 경우 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. 자세한 내용은 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko){target=&quot;_blank&quot;}.
+지정된 관리자 권한이 있는 경우 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko){target="_blank"}.
 
 ### 사용자 및 통합에 액세스할 수 있는 컨테이너 나열 {#list-containers-accessible-to-users-and-integrations}
 

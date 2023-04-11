@@ -10,7 +10,7 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Experience Platform에 수집된 모든 데이터는 데이터 세트로 �
 
 * _전송 시간 최적화 점수/참여 점수_: 여정 AI의 출력 점수입니다.
 
-각 스키마에 대한 전체 필드 및 속성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+각 스키마에 대한 전체 필드 및 속성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko){target="_blank"}.
 
 ## 데이터 세트 미리 보기{#preview-datasets}
 
