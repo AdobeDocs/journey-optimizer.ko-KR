@@ -5,9 +5,9 @@ title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1540'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 74%
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
 
-## 2023년 3월 릴리스 노트 {#mar-2023}
+## 2023년 3월 릴리스 정보 {#mar-2023}
 
-아래 정보는 릴리스 가용 날짜까지 사전 통지 없이 변경될 수 있습니다. 업데이트된 설명서는 릴리스 날짜에 게시되고 직접 링크가 이 페이지에 추가됩니다.
+아래 정보는 릴리스를 사용할 수 있는 당일까지 사전 통지 없이 변경될 수 있습니다. 릴리스 당일에 업데이트한 설명서가 게시되고 직접 연결되는 링크가 이 페이지에 추가됩니다.
 
 
 ### 새로운 기능{#mar-2023-features}
@@ -54,7 +54,7 @@ ht-degree: 74%
 <tbody>
 <tr>
 <td>
-<p>SMS 클릭 추적을 사용하면 단축된 URL의 성능을 모니터링하고, 클릭한 사람을 식별하며, 이 데이터를 사용하여 후속 캠페인으로 해당 고객을 재타겟팅할 수 있습니다.</p>
+<p>SMS 클릭 추적을 사용하면 단축 URL의 성능을 모니터링하고, 클릭한 사람이 누구인지 확인하고, 이 데이터를 사용하여 후속 캠페인에서 해당 고객을 재타겟팅할 수 있습니다.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>자세한 내용은 <a href="../sms/create-sms.md#sms-content">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -65,7 +65,7 @@ ht-degree: 74%
 <table>
 <thead>
 <tr>
-<th><strong>여정에서 태그 사용(베타)</strong><br/></th>
+<th><strong>여정에서 태그 사용하기(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -83,11 +83,11 @@ ht-degree: 74%
 
 **여정**
 
-* 새로운 **조절 API** 에서는 외부 시스템 또는 API에서 급격한 트래픽 스파이크를 방지하기 위해 초당 전송된 이벤트 수에 제한을 설정할 수 있습니다. 설정 제한에 도달하면 모든 후속 API 호출이 수신되는 순서로 가능한 한 빨리 큐에 올라가 처리됩니다. 이 기능은 모든 샌드박스에서 하나의 조절 구성만 지원합니다. [자세히 알아보기](../configuration/external-systems.md)
-* 여정 캔버스가 개선되어 보다 간단하고 향상된 사용자 경험을 제공합니다. 캔버스에서 각 경로의 끝에 빈 자리 표시자가 제거되었습니다. 이제 경로 끝에 활동을 드래그하여 추가하면 됩니다.
-* 여정 캔버스에서 **종료** 태그는 더 이상 이전 활동의 이름으로 자동으로 설정되지 않습니다. 필요한 경우 사용자가 수동으로 사용자 지정 레이블을 추가할 수 있습니다.
-* 여정 속성의 기본 시간 제한 및 오류 지속 시간이 5초에서 30초로 변경되었습니다. [자세히 알아보기](../configuration/external-systems.md#timeout)
-* 읽기 세그먼트 활동의 기본 전송률이 초당 20,000개에서 5,000개로 변경되었습니다. [자세히 알아보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 새로운 **Throttling API**&#x200B;를 통해 초당 전송 이벤트 수에 제한을 설정하여 외부 시스템 또는 API에서 급격한 트래픽 스파이크가 발생하는 것을 방지할 수 있습니다. 설정한 제한에 도달하면 그 뒤의 API 호출은 수신되는 순서로 모두 큐에 올려 가능한 한 빨리 처리합니다. 이 기능은 모든 샌드박스를 통틀어 하나의 스로틀링 구성만 지원합니다. [자세히 알아보기](../configuration/external-systems.md)
+* 여정 캔버스가 보다 간단하고 개선된 사용자 경험을 제공하도록 향상되었습니다. 캔버스에서 각 경로의 끝에 있던 빈 자리 표시자를 제거했습니다. 이제 활동을 추가하려면 간단히 경로 끝에 끌어다 놓기만 하면 됩니다.
+* 이제 여정 캔버스의 **종료** 태그가 자동으로 이전 활동의 이름으로 설정되지 않습니다. 필요한 경우 사용자가 수동으로 사용자 정의 레이블을 추가할 수 있습니다.
+* 여정 속성의 기본 시간 제한 및 오류 지속 시간을 5초에서 30초로 변경했습니다. [자세히 알아보기](../configuration/external-systems.md#timeout)
+* 세그먼트 읽기 활동의 기본 스로틀링 수를 초당 메시지 20,000개에서 5,000개로 변경했습니다. [자세히 알아보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
@@ -108,17 +108,17 @@ ht-degree: 74%
 
 * Offer Decisioning 한도 적용 시 확인할 Adobe Experience Platform 이벤트를 선택할 수도 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
-* 배치 만들기 화면에 추가 매개 변수가 추가되었습니다. 이 매개 변수를 사용하면 여러 배치에서 오퍼를 복제할 수 있는지 여부를 제어할 수 있고 오퍼의 컨텐츠 및 메타데이터를 API 응답에 포함해야 하는지 여부를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/creating-placements.md)
+* 배치 만들기 화면에 매개 변수를 새로 추가했습니다. 새 매개 변수로 여러 배치에 걸쳐 오퍼를 복제할 수 있는지 여부와, 오퍼의 콘텐츠와 메타데이터를 API 응답에 포함해야 하는지 여부를 정할 수 있습니다. [자세히 알아보기](../offers/offer-library/creating-placements.md)
 
 **개인화**
 
-* 이제 표현식 편집기에서 문자열 기반 프로필 속성에 대한 기본 대체 텍스트를 포함할 수 있습니다. 이러한 값은 선택한 속성이 결과를 반환하지 않을 경우 표시됩니다. [자세히 알아보기](../personalization/personalization-build-expressions.md#add)
+* 이제 표현식 편집기에서 문자열 기반 프로필 속성의 기본 대체 텍스트를 포함할 수 있습니다. 선택한 속성이 결과를 반환하지 않을 경우 해당 값이 표시됩니다. [자세히 알아보기](../personalization/personalization-build-expressions.md#add)
 
 **보고**
 
-* 사용자가 데이터를 보는 방법을 사용자 지정하는 기능으로 보고 위젯 기능이 향상되었습니다. 이 개선 사항을 통해 사용자는 이제 그래프, 표 및 도넛 차트를 포함한 여러 시각화 옵션 중에서 선택할 수 있습니다.
+* 보고 위젯 기능을 개선했습니다. 이제 사용자가 데이터를 보는 방식을 사용자 정의할 수 있습니다. 이 개선으로 이제 사용자가 그래프, 테이블, 도넛 차트 등 여러 시각화 옵션 중 원하는 것을 선택할 수 있습니다.
 
-   최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 지정에 대한 자세한 내용은 [세부 설명서](../reports/global-report.md#modify-dashboard).
+   최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/global-report.md#modify-dashboard)를 참조하십시오.
 
 ## 2023년 2월 릴리스 정보 {#feb-2023}
 
@@ -244,7 +244,7 @@ Note that each widget can be resized and deleted as needed.
 
 **의사 결정 관리**
 
-* **배치** - 배치 만들기 화면에 추가 매개 변수가 추가되었습니다. 이 매개 변수를 사용하면 여러 배치에서 오퍼를 복제할 수 있는지 여부를 제어할 수 있고 오퍼의 컨텐츠 및 메타데이터를 API 응답에 포함해야 하는지 여부를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/creating-placements.md)
+* **배치** - 배치 만들기 화면에 매개 변수를 새로 추가했습니다. 새 매개 변수로 여러 배치에 걸쳐 오퍼를 복제할 수 있는지 여부와, 오퍼의 콘텐츠와 메타데이터를 API 응답에 포함해야 하는지 여부를 정할 수 있습니다. [자세히 알아보기](../offers/offer-library/creating-placements.md)
 
 * **URL 개인화** - 이제 URL을 오퍼 표시의 콘텐츠로 추가할 때 표현식 편집기를 사용하여 해당 URL을 개인화할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-representations.md)
 
