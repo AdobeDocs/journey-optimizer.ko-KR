@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 badge: label="Beta" type="Advertising"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 11%
+source-wordcount: '1091'
+ht-degree: 10%
 
 ---
 
@@ -72,6 +72,11 @@ ht-degree: 11%
 >id="ajo_web_surface"
 >title="웹 표면 정의"
 >abstract="웹 표면이 단일 페이지 URL 또는 여러 페이지와 일치하면 하나 또는 여러 웹 페이지에 콘텐츠 수정 내용을 전달할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface_rule"
+>title="일치하는 페이지 만들기"
+>abstract="페이지 일치 규칙을 사용하면 동일한 규칙과 일치하는 여러 URL을 타깃팅할 수 있습니다. 예를 들어, 전체 웹 사이트에서 히어로 배너에 변경 사항을 적용하거나 웹 사이트의 모든 제품 페이지에 표시되는 상위 이미지를 추가하려면 을 사용하십시오."
 
 캠페인을 통해 웹 경험 작성을 시작하려면 아래 단계를 따르십시오.
 

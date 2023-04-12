@@ -4,10 +4,10 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
 workflow-type: tm+mt
-source-wordcount: '2518'
-ht-degree: 99%
+source-wordcount: '2537'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 ## 2023년 4월 {#apr-2023}
 
 * Adobe Experience Manager Assets Essentials 및 Adobe Stock이 다중 솔루션 통합 페이지에 추가되었습니다. [자세히 보기](../start/ajo-integrations.md)
-
+* 이제 지원되므로 다중 수준 이메일 하위 도메인에 대한 경고가 제거되었습니다. [자세히 보기](../configuration/delegate-subdomain.md)
 
 ## 2023년 3월 {#march-2023}
 

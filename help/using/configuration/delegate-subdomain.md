@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 22%
+source-wordcount: '1757'
+ht-degree: 23%
 
 ---
 
@@ -72,8 +72,6 @@ ht-degree: 22%
    >[!CAUTION]
    >
    >잘못된 하위 도메인을 Adobe으로 위임하는 것은 허용되지 않습니다. marketing.yourcompany.com과 같이 조직이 소유한 유효한 하위 도메인을 입력해야 합니다.
-   >
-   >email.marketing.yourcompany.com과 같은 다중 수준 하위 도메인은 현재 지원되지 않습니다.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -144,8 +142,6 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따�
    >[!CAUTION]
    >
    >잘못된 하위 도메인을 Adobe으로 위임하는 것은 허용되지 않습니다. marketing.yourcompany.com과 같이 조직이 소유한 유효한 하위 도메인을 입력해야 합니다.
-   >
-   >email.marketing.yourcompany.com과 같은 다중 수준 하위 도메인은 현재 지원되지 않습니다.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
