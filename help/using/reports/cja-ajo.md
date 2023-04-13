@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
+source-git-commit: 0e45d6e4995f4f21dc5122203b715ae999e2b760
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 8%
+source-wordcount: '410'
+ht-degree: 11%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 8%
 
 ➡️ [검색 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target="_blank"}
 
+>[!NOTE]
+>
+>이 통합 외에도 Adobe Journey Optimizer 데이터 세트의 컨텐츠를 클라우드 스토리지 위치로 내보내고 이 정보를 보고 또는 분석 용도로 사용할 수도 있습니다. [데이터 세트를 클라우드 스토리지 위치로 내보내는 방법을 알아봅니다](../data/export-datasets.md)
+>
+>데이터 세트 내보내기 기능은 현재 베타에 있으며 모든 Adobe Journey Optimizer 사용자가 사용할 수 있습니다. 아직 액세스 권한이 없는 경우 Adobe 담당자에게 대상 액세스 권한 부여를 요청하십시오.
+
 사용하기 전 [!DNL Customer Journey Analytics] 여정의 경우 먼저 이 통합을 구성해야 합니다.
 
 1. [연결 만들기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] 사용 **[!UICONTROL 데이터 집합]** Adobe Experience Platform으로 보내려고 합니다.
@@ -38,7 +44,6 @@ ht-degree: 8%
 1. [데이터 보기 만들기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 를 입력하여 보고서에 사용할 차원 및 지표를 구성할 수 있습니다.
 
    Journey Optimizer 관련 지표를 만들어 여정 데이터를 더 잘 반영하도록 할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
-
 
 사용 [!DNL Journey Optimizer] with [!DNL Customer Journey Analytics] 으로 인해 보고 데이터에 다음과 같은 불일치가 발생할 수 있습니다.
 
