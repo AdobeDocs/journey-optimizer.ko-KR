@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적기, 최대 가용량
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1202'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Journey Optimizer이 외부 API에 대한 호출을 실행하면 다음과 같�
 
 1. 최대 가용량 또는 조정 규칙이 적용됩니다. 최대 속도에 도달하면 나머지 호출은 삭제되거나 큐에 추가됩니다.
 
-2. 시간 제한 및 다시 시도: 최대 가용량 규칙이 충족되면 Journey Optimizer은 시간 제한 기간이 끝날 때까지 호출을 수행하려고 합니다.
+2. 시간 제한 및 다시 시도: 최대 가용량 또는 조정 규칙이 충족되면 Journey Optimizer은 시간 제한 기간이 끝날 때까지 호출을 수행하려고 합니다.
 
 ## 최대 가용량 및 조절 API {#capping}
 

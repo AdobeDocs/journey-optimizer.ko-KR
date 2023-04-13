@@ -6,16 +6,17 @@ description: 조절 API로 작업하는 방법 알아보기
 role: User
 level: Beginner
 keywords: 외부, API, 최적기, 최대 가용량
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '824'
 ht-degree: 2%
 
 ---
 
 # 조정 API 작업
 
-Throttling API를 사용하면 조절 구성을 생성, 구성 및 모니터링할 수 있습니다.
+전송률 조절 API는 전송한 초당 이벤트 수를 제한하기 위해 전송률 조절 구성을 생성, 구성 및 모니터링하는 데 도움이 됩니다.
 
 이 섹션에서는 API를 사용하는 방법에 대한 글로벌 정보를 제공합니다. 자세한 API 설명은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/).
 
