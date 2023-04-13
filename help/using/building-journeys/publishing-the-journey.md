@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 8%
+source-wordcount: '242'
+ht-degree: 7%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 8%
    ![](assets/journeyuc1_18.png)
 
 여정이 게시되면 읽기 전용 모드로 전환됩니다.
+
+>[!IMPORTANT]
+>
+>여정 메시지에 사용 중인 오퍼 결정을 변경한 경우 여정 게시를 취소하고 다시 게시해야 합니다.  이렇게 하면 변경 사항이 여정의 메시지에 통합되어 있으며 메시지가 최신 업데이트와 일치하는지 확인할 수 있습니다.
 
 ## 방법 비디오 {#video}
 

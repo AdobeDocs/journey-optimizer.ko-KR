@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 구성 요소, 이메일 디자이너, 편집기, 이메일
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 8%
+source-wordcount: '1223'
+ht-degree: 7%
 
 ---
 
@@ -197,3 +197,6 @@ ht-degree: 8%
 
 에서 이메일에 개인화된 오퍼를 추가하는 방법을 알아봅니다. [이 섹션](add-offers-email.md).
 
+>[!IMPORTANT]
+>
+>여정 메시지에 사용 중인 오퍼 결정을 변경한 경우 여정 게시를 취소하고 다시 게시해야 합니다.  이렇게 하면 변경 사항이 여정의 메시지에 통합되어 있으며 메시지가 최신 업데이트와 일치하는지 확인할 수 있습니다.

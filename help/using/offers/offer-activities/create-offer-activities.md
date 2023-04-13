@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 3%
+source-wordcount: '1449'
+ht-degree: 2%
 
 ---
 
@@ -184,6 +184,10 @@ ht-degree: 3%
 ![](../assets/decision_created.png)
 
 을(를) 선택합니다 **[!UICONTROL 편집]** 버튼을 클릭하여 결정 편집 모드로 돌아갑니다. 여기서 결정 모드를 수정할 수 있습니다 [세부 정보](#create-activity), [결정 범위](#add-decision-scopes) 및 [대체 오퍼](#add-fallback).
+
+>[!IMPORTANT]
+>
+>여정 메시지에 사용 중인 오퍼 결정을 변경한 경우 여정 게시를 취소하고 다시 게시해야 합니다.  이렇게 하면 변경 사항이 여정의 메시지에 통합되어 있으며 메시지가 최신 업데이트와 일치하는지 확인할 수 있습니다.
 
 라이브 결정을 선택하고 을(를) 클릭합니다. **[!UICONTROL 비활성화]** 결정 상태를 **[!UICONTROL 초안]**.
 
