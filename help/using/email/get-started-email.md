@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 이메일, 시작, 만들기, 미리 보기
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '152'
 ht-degree: 17%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 17%
 
 전자 메일 게재를 만들 수 있습니다.
 
-* 다음 **여정**: 추가한 후 **[!UICONTROL 이메일]** 활동을 여정에 설정하고 정의된 기본 설정을 사용하려면 **[!UICONTROL 작업: 이메일]** 오른쪽 창에서 SMS 메시지의 콘텐츠를 작성합니다.
+* 다음 **여정**: 추가한 후 **[!UICONTROL 이메일]** 활동을 여정에 설정하고 정의된 기본 설정을 사용하려면 **[!UICONTROL 작업: 이메일]** 메시지의 컨텐츠를 만들 오른쪽 창.
 
    여정 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journey-gs.md).
 
