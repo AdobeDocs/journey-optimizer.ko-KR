@@ -1,74 +1,74 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer에서 이메일 디자인
-description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
+title: Journey Optimizer에서 처음부터 컨텐츠 디자인
+description: 처음부터 콘텐츠를 디자인하는 방법 알아보기
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 컨텐츠, 편집기, 이메일, 시작
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 23%
+source-wordcount: '637'
+ht-degree: 5%
 
 ---
 
-# 처음부터 시작 {#content-from-scratch}
+# 처음부터 컨텐츠 디자인 {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="구조 구성요소 정보"
->abstract="구조 구성 요소는 이메일 레이아웃을 정의합니다."
+>title="구조 구성 요소 추가"
+>abstract="구조 구성 요소는 이메일 레이아웃을 정의합니다. 끌어서 놓기 **구조** 구성 요소를 캔버스에 업로드하여 이메일 콘텐츠 디자인을 시작합니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="구조 구성요소 정보"
->abstract="구조 구성 요소는 랜딩 페이지 레이아웃을 정의합니다."
+>title="구조 구성 요소 추가"
+>abstract="구조 구성 요소는 랜딩 페이지 레이아웃을 정의합니다. 끌어서 놓기 **구조** 구성 요소를 캔버스에 드래그하여 랜딩 페이지의 콘텐츠 디자인을 시작합니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="구조 구성요소 정보"
->abstract="구조 구성 요소는 조각 레이아웃을 정의합니다."
+>title="구조 구성 요소 추가"
+>abstract="구조 구성 요소는 조각 레이아웃을 정의합니다. 끌어서 놓기 **구조** 구성 요소를 캔버스로 드래그하여 조각의 컨텐츠 디자인을 시작합니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="구조 구성요소 정보"
->abstract="구조 구성 요소는 템플릿 레이아웃을 정의합니다."
+>title="구조 구성 요소 추가"
+>abstract="구조 구성 요소는 템플릿 레이아웃을 정의합니다. 끌어서 놓기 **구조** 구성 요소를 캔버스에 드래그하여 템플릿의 컨텐츠 디자인을 시작합니다."
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="이메일 열 정의"
->abstract="이메일 디자이너를 통해 열 구조를 정의하여 이메일 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="이메일 디자이너를 사용하면 열 구조를 선택하여 이메일의 레이아웃을 쉽게 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="랜딩 페이지 열 정의"
->abstract="이메일 디자이너를 통해 열 구조를 정의하여 랜딩 페이지 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="디자이너를 사용하면 열 구조를 선택하여 랜딩 페이지의 레이아웃을 쉽게 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="조각 열 정의"
->abstract="이메일 디자이너를 통해 열 구조를 정의하여 조각 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="디자이너를 사용하면 열 구조를 선택하여 조각의 레이아웃을 쉽게 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="템플릿 열 정의"
->abstract="이메일 디자이너를 통해 열 구조를 정의하여 템플릿 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="디자이너를 사용하면 열 구조를 선택하여 템플릿의 레이아웃을 쉽게 정의할 수 있습니다."
 
 
-이메일 디자이너를 사용하면 이메일 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하면 몇 초 이내에 이메일 모양을 디자인할 수 있습니다.
+Adobe Journey Optimizer 디자이너를 사용하여 콘텐츠 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하면 몇 초 내에 컨텐츠의 모양을 디자인할 수 있습니다.
 
-이메일 콘텐츠 빌드를 시작하려면 아래 단계를 수행하십시오.
+컨텐츠 빌드를 시작하려면 아래 단계를 수행하십시오.
 
-1. 이메일 디자이너 홈페이지에서 **[!UICONTROL 처음부터 디자인]** 선택 사항입니다.
+1. 디자이너 홈페이지에서 **[!UICONTROL 처음부터 디자인]** 선택 사항입니다.
 
    ![](assets/email_designer.png)
 
-1. 끌어다 놓아 이메일 콘텐츠 디자인을 시작합니다 **[!UICONTROL 구조 구성 요소]** 캔버스로 이동하여 전자 메일의 레이아웃을 정의합니다.
+1. 끌어다 놓아 콘텐츠 디자인을 시작합니다 **[!UICONTROL 구조]** 캔버스로 이동하여 전자 메일의 레이아웃을 정의합니다.
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ ht-degree: 23%
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. 추가할 만큼 **[!UICONTROL 구조 구성 요소]** 필요에 따라 오른쪽의 전용 창에서 설정을 편집하고 편집합니다.
+1. 추가할 만큼 **[!UICONTROL 구조]** 필요에 따라 오른쪽의 전용 창에서 설정을 편집하고 편집합니다.
 
    ![](assets/email_designer_structure_components.png)
 
@@ -86,7 +86,7 @@ ht-degree: 23%
    >
    >각 열 크기는 구조 구성 요소의 전체 너비의 10% 이하일 수 없습니다. 비어 있지 않은 열은 제거할 수 없습니다.
 
-1. 에서 **[!UICONTROL 컨텐츠 구성 요소]** 목록을 만들려면 하나 이상의 구조 구성 요소에 필요한 만큼 요소를 추가하십시오. [콘텐츠 구성 요소에 대해 자세히 알아보기](content-components.md)
+1. 를 확장합니다. **[!UICONTROL 내용]** 섹션을 추가하고 하나 이상의 구조 구성 요소에 필요한 만큼 요소를 추가합니다. [콘텐츠 구성 요소에 대해 자세히 알아보기](content-components.md)
 
 1. 각 구성 요소는 **[!UICONTROL 설정]** 또는 **[!UICONTROL 스타일]** 오른쪽 메뉴에 있는 탭. 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보기](alignment-and-padding.md)
 
@@ -98,7 +98,7 @@ ht-degree: 23%
 
    ![](assets/email_designer_asset_picker.png)
 
-1. 프로필 데이터의 이메일 콘텐츠를 사용자 지정하는 개인화 필드를 삽입합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
+1. 프로필 속성, 세그먼트 멤버십, 상황별 특성 등에서 콘텐츠를 사용자 지정하는 개인화 필드를 삽입합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 
@@ -106,21 +106,21 @@ ht-degree: 23%
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. 을(를) 클릭합니다. **[!UICONTROL 링크]** 탭을 클릭하여 추적할 컨텐츠의 모든 URL을 표시합니다. 수정 가능 **[!UICONTROL 추적 유형]** 또는 **[!UICONTROL 레이블]** 및 추가 **[!UICONTROL 태그]** 필요한 경우 [링크 및 메시지 추적에 대해 자세히 알아보기](message-tracking.md)
+1. 을(를) 클릭합니다. **[!UICONTROL 링크]** 탭을 클릭하여 추적할 컨텐츠의 모든 URL을 표시합니다. 수정 가능 **[!UICONTROL 추적 유형]** 또는 **[!UICONTROL 레이블]** 및 추가 **[!UICONTROL 태그]** 필요한 경우 [링크 및 추적에 대해 자세히 알아보기](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 
-1. 을(를) 클릭하여 이메일을 추가로 개인화할 수 있습니다 **[!UICONTROL 코드 편집기로 전환]** 고급 메뉴에서 을 클릭합니다. [코드 편집기에 대해 자세히 알아보기](code-content.md)
+1. 필요한 경우 **[!UICONTROL 코드 편집기로 전환]** 맨 위에서 **자세히** 버튼을 클릭합니다. [코드 편집기에 대해 자세히 알아보기](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 
    >[!CAUTION]
    >
-   >코드 편집기로 전환한 후에는 이 이메일의 시각적 디자이너로 다시 되돌릴 수 없습니다.
+   >코드 편집기로 전환한 후에는 이 컨텐츠의 시각적 디자이너로 다시 되돌릴 수 없습니다.
 
-1. 콘텐츠가 준비되면 **[!UICONTROL 컨텐츠 시뮬레이션]** 전자 메일 렌더링을 확인합니다. 데스크탑 또는 모바일 보기를 선택할 수 있습니다. [이메일 미리 보기에 대한 자세한 정보](preview.md)
+1. 콘텐츠가 준비되면 **[!UICONTROL 컨텐츠 시뮬레이션]** 렌더링을 확인하는 단추입니다. 데스크탑 또는 모바일 보기를 선택할 수 있습니다. [이메일 미리 보기에 대한 자세한 정보](preview.md)
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 전자 메일이 준비되면 **[!UICONTROL 저장]**.
+1. 콘텐츠가 준비되면 **[!UICONTROL 저장]**.
 
