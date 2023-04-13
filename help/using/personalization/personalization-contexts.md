@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 컨텍스트, 개인화
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '283'
 ht-degree: 15%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 15%
 
 이메일 디자이너에서 콘텐츠를 개인화할 수 있습니다.
 
-* 에서 **메시지**: 텍스트 블록 내부를 클릭하고 **개인화** 상황별 도구 모음의 아이콘을 선택하고 을(를) 선택합니다 **개인화 삽입** 필드. 이메일 디자이너 인터페이스에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../email/get-started-email-design.md).
+* 에서 **메시지**: 텍스트 블록 내부를 클릭하고 **개인화 추가** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다. 이메일 디자이너 인터페이스에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 

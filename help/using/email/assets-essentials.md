@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: assets, essentials, experience manager, 통합
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '468'
 ht-degree: 9%
 
 ---
@@ -57,29 +57,23 @@ ht-degree: 9%
 
 1. 에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭합니다. **[!UICONTROL 찾아보기]** 원하는 경우 **[!UICONTROL 파일 찾아보기]** 또는 **[!UICONTROL 폴더 찾아보기]**.
 
-   ![](assets/media_library_3.png)
+1. 업로드할 파일을 선택합니다. 완료되면 를 클릭합니다 **[!UICONTROL 업로드]**. 자산 관리 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. 업로드할 파일을 선택합니다. 완료되면 를 클릭합니다 **[!UICONTROL 업로드]**.
-
-   자산 관리 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
-
-1. 이제 자산이 업로드되면 이메일 디자이너를 통해 메시지 중 하나에 자산을 삽입할 수 있습니다.
-
-   자산을 **편집** 모드 [!DNL Assets Essentials]. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
+1. Adobe Photoshop Express으로 자산을 추가로 편집하려면 자산을 두 번 클릭합니다. 그런 다음 오른쪽 메뉴에서 **[!UICONTROL 편집 모드]** 아이콘. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
-1. From [!DNL Adobe Journey Optimizer], 선택 **[!UICONTROL 자산 선택기]** 이메일 디자이너의 왼쪽 창에서 클릭합니다.
+1. From [!DNL Adobe Journey Optimizer]에서 을(를) 선택합니다. **[!UICONTROL 자산 선택기]** 이메일 디자이너의 왼쪽 창에 있는 메뉴
 
    ![](assets/media_library_5.png)
 
-1. 을(를) 선택합니다 **[!UICONTROL 자산]** 폴더를 입력합니다. 검색 창에서 자산이나 폴더를 검색할 수도 있습니다.
+1. 앞에서 만든 을(를) 선택합니다 **[!UICONTROL 자산]** 폴더를 입력합니다. 검색 창에서 자산이나 폴더를 검색할 수도 있습니다.
 
 1. 이메일 콘텐츠에서 자산을 끌어다 놓습니다.
 
    ![](assets/media_library_6.png)
 
-1. 외부 링크 추가 또는 텍스트를 사용하여 자산을 추가로 사용자 지정할 수 있습니다 **[!UICONTROL 구성 요소 설정]**. [구성 요소 설정에 대해 자세히 알아보기](content-components.md)
+1. 외부 링크 추가 또는 텍스트를 사용하여 자산을 추가로 사용자 지정할 수 있습니다 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭. [구성 요소 설정에 대해 자세히 알아보기](content-components.md)
 
    ![](assets/media_library_13.png)
 

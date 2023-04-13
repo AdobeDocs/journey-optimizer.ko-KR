@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 스톡, 이미지, 통합, 사진
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,6 @@ ht-degree: 1%
 
    선택한 이미지에 라이센스가 없는 경우 [라이센스 받기](#license-stock-image).
 
-
 ## 유사한 사진 찾기 {#similar-stock-image}
 
 전자 메일 콘텐츠의 기존 이미지를 [!DNL Adobe Stock]. 이 옵션은 모든 이미지에 사용할 수 있습니다. Assets 폴더에서 라이선스가 부여된/라이센스가 없는 Stock 이미지 및 이미지.
@@ -68,7 +67,7 @@ ht-degree: 1%
 
    선택한 이미지에 라이센스가 없는 경우 [라이센스 받기](#license-stock-image).
 
-1. 필요한 경우 **[!UICONTROL 구성 요소 설정]** 메뉴 아래의 제품에서 사용할 수 있습니다. [구성 요소 설정에 대해 자세히 알아보기](content-components.md).
+1. 필요한 경우 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭. [구성 요소 설정에 대해 자세히 알아보기](content-components.md).
 
 ## 다음에서 라이센스 받기 [!DNL Adobe Stock] {#license-stock-image}
 
@@ -80,7 +79,7 @@ ht-degree: 1%
 
    ![](assets/stock-license-icon.png)
 
-   그러면 로 리디렉션됩니다. [!DNL Adobe Stock] 라이센스를 제외한 웹 사이트입니다.
+   그러면 로 리디렉션됩니다. [!DNL Adobe Stock] 라이센스를 구입할 웹 사이트입니다.
 
    ![](assets/stock-license-photo.png)
 

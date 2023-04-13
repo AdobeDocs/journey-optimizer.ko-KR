@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 배경, 이메일, 색상, 편집기
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 8%
@@ -60,5 +60,3 @@ ht-degree: 8%
    >가장 일반적인 사용 사례입니다. Adobe은 전체 이메일 콘텐츠를 편집할 때 보다 유연하게 계산할 수 있도록 열 수준에서 배경색을 설정하는 것이 좋습니다.
 
    열 수준에서 배경 이미지를 설정할 수도 있지만 거의 사용되지 않습니다.
-
-   ![](assets/background_5.png)

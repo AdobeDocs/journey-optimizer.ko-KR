@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 텍스트, 이메일, 버전, 일반, 편집기
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -24,7 +24,7 @@ HTML 콘텐츠를 표시할 수 없을 때 사용되는 이메일 본문의 텍�
 
 일반 텍스트 버전에 다른 콘텐츠를 사용하려면 아래 단계를 따르십시오.
 
-1. 이메일에서 **[!UICONTROL 일반 텍스트]** 탭.
+1. 이메일에서 **[!UICONTROL 일반 텍스트]** 아이콘.
 
    ![](assets/text_version_3.png)
 

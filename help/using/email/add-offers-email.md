@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 오퍼, 결정, 이메일, 개인화, 결정
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -79,9 +79,7 @@ in [!DNL Journey Optimizer] 이메일에서, 고객에게 제공할 최상의 �
 
 고객 프로필과 함께 의사 결정의 일부인 다른 오퍼를 표시하려면 아래 단계를 따르십시오.
 
-1. 클릭 **[!UICONTROL 미리 보기]**.
-
-   ![](assets/deliver-offer-preview-button.png)
+1. 을(를) 클릭합니다. **[!UICONTROL 컨텐츠 시뮬레이션 단추]** 버튼을 클릭합니다.
 
    >[!NOTE]
    >
@@ -120,4 +118,3 @@ in [!DNL Journey Optimizer] 이메일에서, 고객에게 제공할 최상의 �
 의 메시지에 의사 결정 관리 구성 요소를 추가하는 방법을 알아봅니다. [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
-

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 컨텐츠, 편집기, 이메일, 시작
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '569'
 ht-degree: 23%
 
 ---
@@ -82,15 +82,13 @@ ht-degree: 23%
 
    을(를) 선택합니다 **[!UICONTROL n:n 열]** 구성 요소를 사용하여 선택한 열 수를 정의합니다(3과 10 사이). 각 열의 맨 아래에서 화살표를 이동하여 각 열의 너비를 정의할 수도 있습니다.
 
-   ![](assets/email_designer_structure_n-n-colum.png)
-
    >[!NOTE]
    >
    >각 열 크기는 구조 구성 요소의 전체 너비의 10% 이하일 수 없습니다. 비어 있지 않은 열은 제거할 수 없습니다.
 
-1. 를 확장합니다. **[!UICONTROL 컨텐츠 구성 요소]** 섹션을 추가하고 하나 이상의 구조 구성 요소에 필요한 만큼 요소를 추가합니다. [콘텐츠 구성 요소에 대해 자세히 알아보기](content-components.md)
+1. 에서 **[!UICONTROL 컨텐츠 구성 요소]** 목록을 만들려면 하나 이상의 구조 구성 요소에 필요한 만큼 요소를 추가하십시오. [콘텐츠 구성 요소에 대해 자세히 알아보기](content-components.md)
 
-1. 각 구성 요소는 **[!UICONTROL 구성 요소 설정]** 오른쪽 창입니다. 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보기](alignment-and-padding.md)
+1. 각 구성 요소는 **[!UICONTROL 설정]** 또는 **[!UICONTROL 스타일]** 오른쪽 메뉴에 있는 탭. 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보기](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
@@ -104,7 +102,7 @@ ht-degree: 23%
 
    ![](assets/email_designer_personalization.png)
 
-1. 동적 콘텐츠를 추가하여 조건부 규칙을 기반으로 타겟팅된 프로필에 콘텐츠를 조정합니다. [다이내믹 콘텐츠 시작](../personalization/get-started-dynamic-content.md)
+1. 클릭 **[!UICONTROL 조건 콘텐츠 활성화]** 조건부 규칙에 따라 다이내믹 컨텐츠를 추가하고 컨텐츠를 타깃팅된 프로필에 조정하십시오. [다이내믹 콘텐츠 시작](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
@@ -112,7 +110,7 @@ ht-degree: 23%
 
    ![](assets/email_designer_links.png)
 
-1. 필요한 경우 **[!UICONTROL 코드 편집기로 전환]** 고급 메뉴에서 을 클릭합니다. [코드 편집기에 대해 자세히 알아보기](code-content.md)
+1. 을(를) 클릭하여 이메일을 추가로 개인화할 수 있습니다 **[!UICONTROL 코드 편집기로 전환]** 고급 메뉴에서 을 클릭합니다. [코드 편집기에 대해 자세히 알아보기](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 

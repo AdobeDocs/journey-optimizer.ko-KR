@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 구문, 개인화
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -159,7 +159,7 @@ Journey Optimizer에서는 개인화 필드를 메시지에 추가하여 하나 
 1. 메시지 콘텐츠에 링크를 만듭니다. [자세히 알아보기](../email/message-tracking.md#insert-links)
 1. 개인화 아이콘에서 속성을 선택합니다. 개인화 아이콘은 다음 유형의 링크에만 사용할 수 있습니다. **외부 링크**, **구독 취소 링크** 및 **옵트아웃**.
 
-![](assets/perso-url.png)
+   ![](assets/perso-url.png)
 
 >[!NOTE]
 >

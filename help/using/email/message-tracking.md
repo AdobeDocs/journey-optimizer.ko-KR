@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 링크, 추적, 모니터, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 6%
@@ -73,8 +73,6 @@ ht-degree: 6%
 
    * **[!UICONTROL 미러 페이지]**: 웹 브라우저에 이메일 콘텐츠를 표시할 링크를 삽입합니다. 자세한 내용은 [이 섹션](#mirror-page)을 참조하십시오.
 
-   ![](assets/message-tracking-links.png)
-
 1. 링크를 개인화할 수 있습니다. [이 섹션](../personalization/personalization-syntax.md#perso-urls)에서 URL 개인화에 대해 자세히 알아보십시오.
 
 1. 변경 내용을 저장합니다.
@@ -121,8 +119,6 @@ ht-degree: 6%
    이 목록을 사용하면 중앙 집중식 보기를 사용하고 이메일 콘텐츠에서 각 URL을 찾을 수 있습니다.
 
 1. 링크를 편집하려면 해당 연필 아이콘을 클릭합니다.
-
-   ![](assets/message-tracking-edit-links.png)
 
 1. 을 수정할 수 있습니다 **[!UICONTROL 추적 유형]** 필요한 경우:
 

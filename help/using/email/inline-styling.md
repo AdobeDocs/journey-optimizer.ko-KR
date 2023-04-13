@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 인라인, 스타일링, 속성, 편집기
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '122'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,8 @@ ht-degree: 6%
 이메일 디자이너 인터페이스에서 요소를 선택하고 사이드 패널에 해당 설정을 표시하는 경우 해당 특정 요소의 인라인 속성과 해당 값을 사용자 지정할 수 있습니다.
 
 1. 콘텐츠에서 요소를 선택합니다.
-1. 사이드 패널에서 **[!UICONTROL 스타일 인라인]** 설정.
+
+1. 에서 **[!UICONTROL 스타일]** 탭에서 **[!UICONTROL 스타일 인라인]** 설정 **[!UICONTROL 고급]** 드롭다운.
 
    ![](assets/styles_1.png)
 

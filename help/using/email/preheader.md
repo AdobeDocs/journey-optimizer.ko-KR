@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: preheader, editor, summary, email
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 38%
+source-wordcount: '197'
+ht-degree: 41%
 
 ---
 
@@ -39,13 +39,9 @@ ht-degree: 38%
 
    ![](assets/preheader_body.png)
 
-1. 에서 **[!UICONTROL 본문 설정]** 오른쪽 창에서 다음 옆에 있는 편집 아이콘을 클릭합니다 **[!UICONTROL Preheader]** 필드를 추가하여 컨텐츠를 추가합니다.
+1. 에서 **[!UICONTROL 설정]** 탭에서 옆에 있는 개인화 아이콘을 클릭합니다 **[!UICONTROL Preheader]** 필드를 추가하여 컨텐츠를 추가합니다.
 
    ![](assets/preheader_body_settings.png)
-
-1. 사전 헤더를 추가합니다. 을(를) 클릭하여 추가로 개인화할 수 있습니다. **[!UICONTROL 개인화 추가]** 아이콘.
-
-   ![](assets/preheader_3.png)
 
 1. 에서 **[!UICONTROL 개인화 편집]** 창, **[!UICONTROL 콘텐츠 블록]**, **[!UICONTROL 다이내믹 콘텐츠]** 또는 **[!UICONTROL 개인화 필드]**.
 

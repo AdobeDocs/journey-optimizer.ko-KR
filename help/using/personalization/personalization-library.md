@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 14%
@@ -31,9 +31,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->정보 단추를 사용하여 저장된 표현식의 내용에 대한 자세한 정보를 얻을 수 있습니다. 라이브러리 항목을 관리할 수 있는 적절한 권한이 있으면 정보 단추가 타원 메뉴에 나타납니다.
-
-![](assets/library-list.png)
+>줄임표 단추에서 저장된 표현식의 내용에 대한 자세한 정보를 얻을 수 있습니다. 라이브러리 항목을 관리할 적절한 권한이 있는 경우 정보 단추가 줄임표에 표시됩니다.
 
 표현식을 편집기에 삽입하려면 + 를 클릭합니다. 그런 다음 개인화 컨텐츠를 평소대로 사용자 지정하고 유효성을 검사할 수 있습니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 

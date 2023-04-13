@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 만들기, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 28%
@@ -209,15 +209,15 @@ ht-degree: 28%
 >
 >메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../segment/creating-test-profiles.md).
 
-1. 랜딩 페이지 인터페이스에서 **[!UICONTROL 미리 보기 및 테스트]** 테스트 프로필 선택에 액세스하는 단추입니다.
+1. 랜딩 페이지 인터페이스에서 **[!UICONTROL 컨텐츠 시뮬레이션]** 테스트 프로필 선택에 액세스하는 단추입니다.
 
-   ![](assets/lp_preview-button.png)
+   ![](assets/lp_simulate-button.png)
 
    >[!NOTE]
    >
-   >다음 **[!UICONTROL 미리 보기]** 버튼은 컨텐츠 디자이너에서 액세스할 수도 있습니다.
+   >다음 **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼은 컨텐츠 디자이너에서 액세스할 수도 있습니다.
 
-1. 에서 **[!UICONTROL 미리 보기 및 테스트]** 화면에서 테스트 프로필을 하나 이상 선택합니다.
+1. 에서 **[!UICONTROL 시뮬레이션]** 화면에서 테스트 프로필을 하나 이상 선택합니다.
 
    ![](assets/lp_test-profiles.png)
 

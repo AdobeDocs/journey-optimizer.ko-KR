@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 만들기, 페이지, 양식, 구성 요소
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1324'
 ht-degree: 11%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >로 전환 **[!UICONTROL 양식 스타일]** 언제든지 탭하여 양식 구성 요소 컨텐츠의 스타일을 편집할 수 있습니다. [자세히 알아보기](#define-lp-styles)
+   >로 전환 **[!UICONTROL 스타일]** 언제든지 탭하여 양식 구성 요소 컨텐츠의 스타일을 편집할 수 있습니다. [자세히 알아보기](#define-lp-styles)
 
 1. 에서 **[!UICONTROL 확인란 1]** 섹션에서 이 확인란에 해당하는 레이블을 편집할 수 있습니다.
 
@@ -83,7 +83,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 구독 목록]**: 프로필에서 이 확인란을 선택하면 업데이트되는 구독 목록을 선택해야 합니다. 추가 정보 [구독 목록](subscription-list.md).
 
-      ![](assets/lp_designer-form-subs-list.png)
+      <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL 채널(이메일)]**: 옵트인 또는 옵트아웃은 전체 채널에 적용됩니다. 예를 들어 옵트아웃하는 프로필에 두 개의 이메일 주소가 있는 경우 두 주소가 모두 모든 통신에서 제외됩니다.
 
@@ -136,21 +136,25 @@ ht-degree: 11%
 
 ## 랜딩 페이지 양식 스타일 정의 {#lp-form-styles}
 
-1. 양식 구성 요소 콘텐츠의 스타일을 수정하려면 언제든지 **[!UICONTROL 양식 스타일]** 탭.
+1. 양식 구성 요소 콘텐츠의 스타일을 수정하려면 언제든지 **[!UICONTROL 스타일]** 탭.
 
    ![](assets/lp_designer-form-style.png)
 
-1. 를 확장합니다. **[!UICONTROL 확인란]** 섹션을 클릭하여 확인란과 해당 텍스트의 모양을 정의합니다. 예를 들어 글꼴 패밀리나 크기, 확인란 테두리 색상을 조정할 수 있습니다.
+1. 다음 **[!UICONTROL 필드]** 기본적으로 섹션이 확장되어 레이블 및 자리 표시자 글꼴, 레이블 위치, 필드 배경색 또는 필드 테두리와 같은 텍스트 필드의 모양을 편집할 수 있습니다.
+
+   ![](assets/lp_designer-form-style-fields.png)
+
+1. 를 확장합니다. **[!UICONTROL 확인란]** 섹션을 클릭하여 확인란과 해당 텍스트의 모양을 정의합니다. 예를 들어 글꼴 패밀리나 크기 또는 확인란 테두리 색상을 조정할 수 있습니다.
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. 를 확장합니다. **[!UICONTROL 단추]** 구성 요소 양식에서 단추 모양을 수정하는 섹션을 참조하십시오. 예를 들어 테두리를 추가하거나, 마우스로 가리키면 레이블 색상을 편집하거나, 단추 정렬을 조정할 수 있습니다.
+1. 를 확장합니다. **[!UICONTROL 단추]** 구성 요소 양식에서 단추 모양을 수정하는 섹션을 참조하십시오. 예를 들어 글꼴을 변경하거나, 테두리를 추가하거나, 마우스로 가리키면 레이블 색상을 편집하거나, 단추 정렬을 조정할 수 있습니다.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   마우스로 가리키면 단추 레이블 색상과 같은 일부 설정을 **[!UICONTROL 미리 보기]** 버튼을 클릭합니다. 랜딩 페이지 테스트에 대해 자세히 알아보기 [여기](create-lp.md#test-landing-page).
+   마우스로 가리키면 단추 레이블 색상과 같은 일부 설정을 **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼을 클릭합니다. 랜딩 페이지 테스트에 대해 자세히 알아보기 [여기](create-lp.md#test-landing-page).
 
-   ![](assets/lp_designer-form-style-buttons-preview.png)
+   <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
 1. 를 확장합니다. **[!UICONTROL 양식 레이아웃]** 섹션에 배경색, 패딩 또는 여백과 같은 레이아웃 설정을 편집할 수 있습니다.
 
@@ -194,11 +198,15 @@ ht-degree: 11%
 
 1. 변경 내용을 저장합니다.
 
+이제 사용자가 확인란 중 하나를 선택하면
+
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-이제 사용자가 확인란 중 하나를 선택하면 양식 제출 시 선택한 확인란에 해당하는 메시지가 표시됩니다.
+양식 제출 시 선택한 확인란에 해당하는 메시지가 표시됩니다.
 
 ![](assets/lp_designer-form-thankyou-preview.png)
+
+<!--![](assets/lp_designer-form-subscription-preview.png)-->
 
 >[!NOTE]
 >
