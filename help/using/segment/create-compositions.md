@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Advertising"
-source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
+source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '411'
 ht-degree: 7%
 
 ---
@@ -63,6 +63,10 @@ ht-degree: 7%
    ![](assets/audiences-publish.png)
 
 1. 컴포지션이 준비되면 **[!UICONTROL 게시]** 단추를 클릭하여 컴포지션을 게시하고 결과 대상을 Adobe Experience Platform에 저장합니다.
+
+   >[!IMPORTANT]
+   >
+   >지정된 샌드박스에 최대 75개의 컴포지션을 게시할 수 있습니다. 이 임계값에 도달한 경우 공간을 확보하려면 컴포지션을 삭제하고 새 컴포지션을 게시해야 합니다.
 
    게시 중에 오류가 발생하면 문제를 해결하는 방법에 대한 정보가 포함된 경고가 표시됩니다.
 
