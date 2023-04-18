@@ -6,10 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 17%
+source-wordcount: '285'
+ht-degree: 14%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 17%
 
 ## 장치에서 미리 보기 {#preview-device}
 
-일단 [인앱 메시지 작성](create-in-app.md) 및 [컨텐츠 정의](design-in-app.md)로 지정하는 경우 특정 장치에서 인앱 알림을 미리 볼 수 있습니다.
+모든 사용자가 앱을 사용하기 전에 인앱 알림을 살짝 엿보려면 특정 장치에서 미리 볼 수 있습니다. 이 기능을 사용하면 선택한 장치에서 알림이 표시되고 작동하는지 확인할 수 있으므로 대상을 위한 더 나은 사용자 경험을 제공할 수 있습니다.
 
 이렇게 하려면 아래 단계를 수행합니다.
 
@@ -37,7 +38,7 @@ ht-degree: 17%
 
 ## 인앱 알림 검토 및 활성화{#in-app-review}
 
-인앱 메시지가 준비되면 검토하고 활성화할 수 있습니다.
+인앱 메시지가 만들어지고 해당 컨텐츠가 정의되고 개인화되면 검토하고 활성화할 수 있습니다.
 
 이렇게 하려면 아래 단계를 수행합니다.
 

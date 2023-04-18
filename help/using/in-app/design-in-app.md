@@ -7,24 +7,28 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '886'
 ht-degree: 5%
 
 ---
 
 # 인앱 콘텐츠 디자인  {#design-content}
 
-인앱 콘텐츠를 편집하여 메시지 레이아웃 및 표시, 텍스트 및 단추 옵션 등의 경험 옵션을 구성할 수 있습니다.
+인앱 콘텐츠를 편집하여 경험 옵션을 구성할 수 있습니다.
 
-메시지 콘텐츠를 구성하려면 **[!UICONTROL 컨텐츠 편집]** 버튼을 클릭하고 화면의 오른쪽 섹션에 있는 옵션을 사용하여 인앱 메시지 콘텐츠를 디자인합니다.
+* 다음 **[!UICONTROL 캠페인]**: **[!UICONTROL 작업]** 메뉴에서 메시지 콘텐츠를 구성하려면 **[!UICONTROL 컨텐츠 편집]** 버튼을 클릭합니다.
 
-![](assets/in_app_create_4.png)
+   ![](assets/edit-in-app-content.png)
+
+* 다음 **[!UICONTROL 여정]**&#x200B;를 설정하는 것이 좋습니다 **[!UICONTROL 작업]**&#x200B;를 사용하여 콘텐츠 디자인을 시작할 수 있습니다 **[!UICONTROL 컨텐츠 편집]** 버튼을 클릭합니다.
+
+   ![](assets/design_inapp_journey.png)
 
 다음 **[!UICONTROL 고급 서식]** 을 전환하면 경험을 사용자 지정할 추가 옵션이 활성화됩니다.
 
-인앱 메시지가 만들어지고 해당 컨텐츠가 정의되고 개인화되면 검토하고 활성화할 수 있습니다. 그런 다음 캠페인 일정에 따라 알림이 전송됩니다. [이 페이지](create-in-app.md#in-app-send)에서 자세히 알아보십시오.
+인앱 메시지가 만들어지고 해당 컨텐츠가 정의되고 개인화되면 검토하고 활성화할 수 있습니다. 그런 다음 캠페인 일정에 따라 알림이 전송됩니다. [이 페이지](send-in-app.md)에서 자세히 알아보십시오.
 
 ## 메시지 레이아웃 {#message-layout}
 

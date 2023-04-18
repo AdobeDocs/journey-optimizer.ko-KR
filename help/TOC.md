@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 15973fd7bf85a428be24252e9eb1bf3834a581f3
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1371'
 ht-degree: 98%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 98%
       + [조건](using/building-journeys/condition-activity.md)
       + [대기](using/building-journeys/wait-activity.md)
       + [세그먼트 읽기](using/building-journeys/read-segment.md)
-      + [이메일, SMS, 푸시](using/building-journeys/journeys-message.md)
+      + [이메일, 인앱, 푸시, SMS](using/building-journeys/journeys-message.md)
       + [사용자 정의 작업](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 작업](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 작업](using/building-journeys/using-adobe-campaign-classic.md)
@@ -205,6 +205,7 @@ ht-degree: 98%
 + 인앱 채널{#in-app}
    + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
    + [인앱 메시지 만들기 ](using/in-app/create-in-app.md)
+   + [여정에서 인앱 메시지 만들기](using/in-app/create-in-app-journey.md)
    + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
    + [인앱 알림 테스트하고 보내기](using/in-app/send-in-app.md)
    + [인앱 채널 구성](using/in-app/inapp-configuration.md)

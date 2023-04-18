@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 1af9a3adeb6727e965e61434b0ed2c41ff3d4911
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '785'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,55 @@ ht-degree: 4%
 
 인앱 메시지는 캠페인 컨텍스트에서 만들어집니다.
 
-인앱 메시지를 만들려면 아래 단계를 수행하십시오.
+>[!BEGINTABS]
+
+>[!TAB 여정에 인앱 메시지 추가]
+
+>[!AVAILABILITY]
+>
+>인앱 활동은 현재 사용자만 선택할 수 있는 베타로 제공됩니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.
+
+1. 여정을 열고 을(를) 끌어다 놓습니다 **[!UICONTROL 인앱]** 활동의 **[!UICONTROL 작업]** 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+
+   프로필이 여정 끝에 도달하면 프로필에 표시되는 모든 인앱 메시지가 자동으로 만료됩니다. 이러한 이유로, 인앱 활동 후에 대기 활동이 자동으로 추가되어 적절한 타이밍을 보장합니다.
+
+   ![](assets/in_app_journey_1.png)
+
+1. 을(를) 입력합니다. **[!UICONTROL 레이블]** 및 **[!UICONTROL 설명]** 참조하십시오.
+
+1. 을(를) 선택합니다 [인앱 표면](inapp-configuration.md) 를 사용하십시오.
+
+   ![](assets/in_app_journey_2.png)
+
+1. 이제 을(를) 사용하여 콘텐츠 디자인을 시작할 수 있습니다 **[!UICONTROL 컨텐츠 편집]** 버튼을 클릭합니다. [자세히 알아보기](design-in-app.md)
+
+1. 클릭 **[!UICONTROL 트리거 편집]** 트리거 를 구성합니다.
+
+   ![](assets/in_app_journey_4.png)
+
+1. 인앱 메시지가 활성 상태일 때 트리거의 빈도를 선택합니다.
+
+   * **[!UICONTROL 항상 표시]**: 이벤트에서 선택된 경우 항상 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
+   * **[!UICONTROL 한 번 표시]**: 이벤트에서 처음 선택된 경우에만 이 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
+   * **[!UICONTROL 클릭스루할 때까지 표시]**: 이벤트에서 선택된 경우 이 메시지 표시 **[!UICONTROL 모바일 앱 트리거]** 드롭다운은 SDK에서 &quot;클릭됨&quot; 작업과 함께 상호 작용 이벤트를 전송할 때까지 발생합니다.
+
+1. 에서 **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 메시지를 트리거할 이벤트 및 기준을 선택합니다.
+
+   1. 왼쪽 드롭다운에서 메시지를 트리거하는 데 필요한 이벤트를 선택합니다.
+   1. 오른쪽 드롭다운에서 선택한 이벤트에 필요한 유효성 검사를 선택합니다.
+   1. 을(를) 클릭합니다. **[!UICONTROL 추가]** 트리거에서 여러 이벤트 또는 기준을 고려하려면 버튼을 클릭합니다. 그런 다음 위의 단계를 반복합니다.
+   1. 이벤트의 연결 방식을 선택합니다(예: 선택). **[!UICONTROL 및]** 원한다면 **둘 다** 메시지를 표시하거나 선택하기 위해 true로 트리거합니다. **[!UICONTROL 또는]** 메시지를 표시하려면 **둘 중 하나** 트리거의 값이 true입니다.
+   1. 클릭 **[!UICONTROL 저장]** 트리거 가 구성된 경우.
+
+   ![](assets/in_app_journey_3.png)
+
+1. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
+
+1. 인앱 메시지가 준비되면 구성을 완료하고 여정을 게시하여 활성화합니다.
+
+여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md).
+
+>[!TAB 캠페인에 인앱 메시지 추가]
 
 1. 액세스 권한 **[!UICONTROL 캠페인]** 메뉴를 클릭한 다음 **[!UICONTROL 캠페인 만들기]**.
 
@@ -65,6 +113,7 @@ ht-degree: 4%
 
    ![](assets/in_app_create_4.png)
 
+>[!ENDTABS]
 
 ## 방법 비디오{#video}
 

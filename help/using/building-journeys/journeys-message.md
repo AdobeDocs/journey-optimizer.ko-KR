@@ -7,18 +7,18 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 여정, 메시지, 푸시, sms, 이메일
+keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 45d508b284c23235518fab37095413091208e497
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 26%
+source-wordcount: '864'
+ht-degree: 22%
 
 ---
 
-# 이메일, SMS, 푸시{#add-a-message-in-a-journey}
+# 이메일, 인앱, 푸시, SMS{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] 에는 기본 제공 메시지 기능이 포함되어 있습니다. 푸시, SMS 또는 이메일 메시지 활동을 여정에 추가하고 설정 및 콘텐츠를 정의할 수 있습니다. 그런 다음 여정 컨텍스트에서 실행됩니다.
+[!DNL Journey Optimizer] 에는 기본 제공 메시지 기능이 포함되어 있습니다. 푸시, SMS, 인앱 또는 이메일 메시지 활동을 여정에 추가하고 설정 및 콘텐츠를 정의할 수 있습니다. 그런 다음 여정 컨텍스트에서 실행됩니다.
 
 특정 작업을 설정하여 메시지를 보낼 수도 있습니다.
 
@@ -33,7 +33,7 @@ ht-degree: 26%
 
 1. [이벤트](general-events.md) 또는 [세그먼트 읽기](read-segment.md) 활동으로 여정을 시작하십시오.
 
-1. 팔레트의 **작업** 섹션에서 **이메일**, **SMS** 또는 **푸시** 활동을 캔버스로 드래그하여 놓습니다.
+1. 에서 **작업** 팔레트의 섹션에서 **이메일**, **인앱**, **SMS** 또는 **푸시** 활동을 캔버스로 이동합니다.
 
 1. 활동을 구성합니다. 다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
 
@@ -44,6 +44,14 @@ ht-degree: 26%
    <img alt="리드" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>이메일 만들기</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../in-app/create-in-app.md">
+   <img alt="리드" src="../assets/do-not-localize/in-app.jpg">
+   </a>
+   <div><a href="../in-app/create-in-app.md"><strong>인앱 메시지 만들기</strong>
    </div>
    <p>
    </td>
@@ -70,13 +78,15 @@ ht-degree: 26%
 
 ## 라이브 콘텐츠 업데이트{#update-live-content}
 
-라이브 여정에서 메시지(이메일, sms, 푸시)의 콘텐츠를 업데이트할 수 있습니다.
+라이브 여정에서 메시지(이메일, 인앱, 푸시, SMS)의 콘텐츠를 업데이트할 수 있습니다.
 
 이렇게 하려면 라이브 여정을 열고 메시지 활동을 선택한 다음 을(를) 클릭합니다 **컨텐츠 편집**.
 
 ![](assets/add-a-message2.png)
 
 하지만 개인화에 사용되는 속성이 프로필 속성이든 컨텍스트 데이터(이벤트 또는 여정 속성에서)이든 간에 변경할 수 없습니다.
+
+인앱 활동의 경우, 여정이 라이브 상태인 동안에는 컨텐츠를 변경할 수 있지만 인앱 트리거는 수정할 수 없습니다.
 
 ## 전송 시간 최적화{#send-time-optimization}
 
