@@ -1,23 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 푸시 알림과 Adobe Journey Optimizer
+title: Adobe Journey Optimizer의 푸시 알림 흐름
 description: 푸시 알림 데이터 흐름 및 구성 요소 이해
 topic: Mobile
 feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '699'
 ht-degree: 6%
 
 ---
 
-# 푸시 알림과 Adobe Journey Optimizer {#get-started-push}
+# 푸시 알림 데이터 흐름 및 구성 요소 {#get-started-push}
 
-이 페이지는 의 푸시 알림과 관련된 주요 서비스 및 워크플로우를 설정하고 이해하는 데 도움이 됩니다 [!DNL Journey Optimizer]. 푸시 알림을 만드는 방법을 알아봅니다. [이 페이지](create-push.md).
+이 페이지는 의 푸시 알림과 관련된 주요 서비스 및 워크플로우를 설정하고 이해하는 데 도움이 됩니다 [!DNL Journey Optimizer].
+
+<!--
+>[!AVAILABILITY]
+>
+>The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
+>
+-->
+
+푸시 알림을 만드는 방법을 알아봅니다. [이 페이지](create-push.md).
 
 에서 푸시 채널을 구성하는 절차 [!DNL Adobe Journey Optimizer] 에 자세히 설명되어 있습니다. [이 페이지](push-configuration.md).
 
@@ -58,8 +67,16 @@ ht-degree: 6%
 
 * **[!DNL Adobe Journey Optimizer]** : 위에 언급된 구성 요소와의 모바일 앱 통합이 준비되고 Adobe Experience Platform에서 고객 프로필이 준비되면, 에서 푸시 알림을 작성하고 오케스트레이션할 수 있습니다 [!DNL Adobe Journey Optimizer] 사용자 참여
 
-## 푸시 기술 설정 및 의사 워크플로우 {#push-technical-setup}
+## 푸시 기술 설정 및 실습 워크플로우 {#push-technical-setup}
 
 다음 그림은 푸시 데이터 흐름의 골격을 형성하는 구성 요소 구성과 관련된 다양한 단계인 종단 간 방법을 보여줍니다. 작업 항목은 구성을 수행하는 역할 및 구성 중인 구성 요소에 따라 분류되었습니다.
 
 ![](assets/user-flow.png)
+
+**관련 항목**
+
+* [푸시 채널 구성](push-configuration.md)
+* [푸시 알림 보고서](../reports/journey-global-report.md#push-global)
+* [푸시 알림 만들기](create-push.md)
+* [여정에 메시지 추가](../building-journeys/journeys-message.md)
+* [캠페인에 메시지 추가](../campaigns/create-campaign.md)

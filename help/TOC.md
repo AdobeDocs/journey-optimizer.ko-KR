@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 15973fd7bf85a428be24252e9eb1bf3834a581f3
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 99%
+source-wordcount: '1363'
+ht-degree: 98%
 
 ---
 
@@ -214,8 +214,9 @@ ht-degree: 99%
    + [푸시 알림 디자인](using/push/design-push.md)
    + [푸시 알림 보내기](using/push/send-push.md)
    + 푸시 알림 구성{#push-config}
-      + [푸시 알림과 Adobe Journey Optimizer](using/push/push-gs.md)
+      + [푸시 알림 흐름](using/push/push-gs.md)
       + [푸시 알림 채널 구성](using/push/push-configuration.md)
+      + [모바일 온보딩 빠른 시작 워크플로우](using/push/mobile-onboarding-wf.md)
 + SMS 채널{#sms}
    + [SMS 시작](using/sms/get-started-sms.md)
    + [SMS 메시지 만들기](using/sms/create-sms.md)

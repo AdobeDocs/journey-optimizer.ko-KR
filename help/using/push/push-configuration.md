@@ -6,7 +6,7 @@ description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 3%
@@ -16,6 +16,13 @@ ht-degree: 3%
 # 푸시 알림 채널 구성 {#push-notification-configuration}
 
 [!DNL Journey Optimizer] 에서는 여정을 만들고 타겟팅된 대상자에게 메시지를 전송할 수 있습니다. 푸시 알림을 전송하기 전에 [!DNL Journey Optimizer]를 채울 때는 모바일 앱 및 Adobe Experience Platform의 태그에 대한 구성 및 통합이 있는지 확인해야 합니다. 푸시 알림 데이터 흐름을 이해하려면 다음을 수행하십시오. [!DNL Adobe Journey Optimizer] 자세한 내용은 [이 페이지](push-gs.md).
+
+<!--
+>[!AVAILABILITY]
+>
+>The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
+>
+-->
 
 ## 시작하기 전 {#before-starting}
 

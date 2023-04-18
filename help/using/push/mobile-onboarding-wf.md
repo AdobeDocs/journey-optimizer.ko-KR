@@ -1,0 +1,81 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: 모바일 온보딩 빠른 시작 워크플로우
+description: 모바일 온보딩 빠른 시작 워크플로우를 사용하는 방법을 알아봅니다
+topic: Mobile
+feature: Push
+role: Admin
+level: Intermediate
+hide: true
+hidefromtoc: true
+badge: label="Beta" type="Advertising"
+source-git-commit: 145d2a60bc5dbd6e2a92f13afbf2db662f465e36
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 5%
+
+---
+
+
+# 모바일 온보딩 빠른 시작 워크플로우 {#mobile-wf}
+
+새로운 **모바일 온보딩 빠른 시작 워크플로우** 는 Mobile SDK를 신속하게 구성하고, 모바일 이벤트 데이터를 수집 및 유효성 검사를 시작하고, 를 사용하여 푸시 알림을 전송하는 새로운 제품 기능입니다 [!DNL Journey Optimizer].
+
+이 기능은 **[!DNL Adobe Experience Platform Data Collection]** 공개 베타 버전으로 모든 고객에게 홈 페이지를 제공합니다.
+
+## 시작{#gs-mobile-wf}
+
+이 새로운 워크플로우는 총 클릭 수를 줄이고 Journey Optimizer에 대한 모바일 구성을 가속화하여 데이터 수집 설정을 자동화합니다. 이 빠른 시작 워크플로우를 통해 다음 네 가지 간단한 단계를 수행할 수 있습니다 [설정](##setup-mobile-wf), [구현](#implement-mobile-wf), [유효성 검사](#valid-mobile-wf), 및 [검토](#review-mobile-wf) 모바일 구성입니다.
+
+새 모바일 온보딩 빠른 시작 워크플로우에 액세스하려면 다음 위치로 이동하십시오. **[!DNL Data Collection]** 솔루션 전환기에서 가져옵니다. 그런 다음 **[!DNL Start Collecting Mobile Data]** 카드입니다.
+
+![](assets/mobile-wf-home.png)
+
+다음은 몇 가지 추가 기능입니다.
+
+* 간편한 4단계 워크플로우 및 사용자 인터페이스.
+* Mobile SDK를 통해 모바일 이벤트 데이터 수집을 몇 분 내에 시작할 수 있는 기본 설정을 제공합니다.
+* Assurance를 활용하여 기본 모바일 푸시 이벤트를 테스트하고 확인할 수 있습니다.
+* 필요한 모든 데이터 수집 및 Journey Optimizer 자산을 자동으로 만들고 구성합니다.
+* 제품 지침 및 도구 설명.
+* 필요한 경우 고급 구현을 위한 자연스러운 전환을 제공합니다.
+
+## 설정 {#setup-mobile-wf}
+
+이 워크플로우의 첫 번째 단계에서는 필요한 모든 데이터 수집 및 모바일 속성, 모바일 확장, Journey Optimizer 확장, 규칙, 데이터 요소 등과 같은 Journey Optimizer 자산을 자동으로 만들고 구성합니다.
+
+베타 약관에 동의한 후 모바일 앱의 이름을 입력하고 를 클릭합니다 **[!DNL Next]**.
+
+![](assets/mobile-wf-setup.png)
+
+앱 ID 및 인증 키 또는 키 파일을 비롯한 iOS 및 Android 플랫폼에 대한 정보를 제공합니다.
+
+## 구현{#implement-mobile-wf}
+
+다음 단계에서는 모바일 앱에 코드를 설치하는 단계별 지침을 제공합니다.
+
+![](assets/mobile-wf-add-code.png)
+
+
+## 유효성 검사{#valid-mobile-wf}
+
+구현을 검토하고 확인하여 유효성을 확인합니다. 테스트 푸시 알림을 전송할 수 있습니다.
+
+![](assets/mobile-wf-valid.png)
+
+
+## 검토 {#review-mobile-wf}
+
+자동 설정이 완료되었습니다. 이제 태그 모바일 속성을 방문하여 규칙 또는 데이터 요소를 구성하고 Adobe Journey Optimizer으로 푸시 알림 전송을 시작할 수 있습니다.
+
+![](assets/mobile-wf-done.png)
+
+
+**관련 항목**
+
+* [푸시 알림 시작](get-started-push.md)
+* [푸시 알림 데이터 흐름 및 구성 요소](push-gs.md)
+* [푸시 채널 구성](push-configuration.md)
+* [푸시 알림 보고서](../reports/journey-global-report.md#push-global)
+* [푸시 알림 만들기](create-push.md)

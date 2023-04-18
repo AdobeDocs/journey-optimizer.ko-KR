@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1508'
 ht-degree: 100%
 
 ---
@@ -21,10 +21,31 @@ ht-degree: 100%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
+<!--
+## April 2023 Updates {#apr-2023}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Mobile onboarding quick start workflow (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The new mobile onboarding quick start workflow is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and send mobile push notifications with Adobe Journey Optimizer. This capability is accessible via the Data Collection home page as a public beta.</p>
+<img src="../push/assets/mobile-wf-home.png"/>
+<p>For more information, refer to the <a href="../push/mobile-onboarding-wf.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
 
 ## 2023년 3월 릴리스 정보 {#mar-2023}
 
-아래 정보는 릴리스를 사용할 수 있는 당일까지 사전 통지 없이 변경될 수 있습니다. 릴리스 당일에 업데이트한 설명서가 게시되고 직접 연결되는 링크가 이 페이지에 추가됩니다.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.-->
 
 
 ### 새로운 기능{#mar-2023-features}
@@ -77,6 +98,7 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
+
 
 
 ### 개선 사항 {#mar-2023-improvements}
