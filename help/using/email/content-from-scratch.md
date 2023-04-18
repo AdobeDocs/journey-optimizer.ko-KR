@@ -12,7 +12,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 5%
+ht-degree: 31%
 
 ---
 
@@ -21,43 +21,43 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="구조 구성 요소 추가"
->abstract="구조 구성 요소는 이메일 레이아웃을 정의합니다. 끌어서 놓기 **구조** 구성 요소를 캔버스에 업로드하여 이메일 콘텐츠 디자인을 시작합니다."
+>abstract="구조 구성 요소는 이메일 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 이메일 콘텐츠 디자인을 시작할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="구조 구성 요소 추가"
->abstract="구조 구성 요소는 랜딩 페이지 레이아웃을 정의합니다. 끌어서 놓기 **구조** 구성 요소를 캔버스에 드래그하여 랜딩 페이지의 콘텐츠 디자인을 시작합니다."
+>abstract="구조 구성 요소는 랜딩 페이지 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 랜딩 페이지의 콘텐츠 디자인을 시작할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="구조 구성 요소 추가"
->abstract="구조 구성 요소는 조각 레이아웃을 정의합니다. 끌어서 놓기 **구조** 구성 요소를 캔버스로 드래그하여 조각의 컨텐츠 디자인을 시작합니다."
+>abstract="구조 구성 요소는 조각 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 조각의 콘텐츠 디자인을 시작할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="구조 구성 요소 추가"
->abstract="구조 구성 요소는 템플릿 레이아웃을 정의합니다. 끌어서 놓기 **구조** 구성 요소를 캔버스에 드래그하여 템플릿의 컨텐츠 디자인을 시작합니다."
+>abstract="구조 구성 요소는 템플릿 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 템플릿의 콘텐츠 디자인을 시작할 수 있습니다."
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="이메일 열 정의"
->abstract="이메일 디자이너를 사용하면 열 구조를 선택하여 이메일의 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="이메일 디자이너를 통해 열 구조를 선택하여 이메일 레이아웃을 쉽게 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="랜딩 페이지 열 정의"
->abstract="디자이너를 사용하면 열 구조를 선택하여 랜딩 페이지의 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="디자이너를 통해 열 구조를 선택하여 랜딩 페이지 레이아웃을 쉽게 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="조각 열 정의"
->abstract="디자이너를 사용하면 열 구조를 선택하여 조각의 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="디자이너를 통해 열 구조를 선택하여 조각 레이아웃을 쉽게 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="템플릿 열 정의"
->abstract="디자이너를 사용하면 열 구조를 선택하여 템플릿의 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="디자이너를 통해 열 구조를 선택하여 템플릿 레이아웃을 쉽게 정의할 수 있습니다."
 
 
 Adobe Journey Optimizer 디자이너를 사용하여 콘텐츠 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하면 몇 초 내에 컨텐츠의 모양을 디자인할 수 있습니다.

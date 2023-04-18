@@ -49,8 +49,8 @@ ht-degree: 9%
 >id="ac_preview_testprofiles"
 >title="메시지 미리보기 및 테스트"
 >abstract="메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="이메일 렌더링"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#preview-email" text="미리 보기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ko#email-rendering" text="이메일 렌더링"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ko#preview-email" text="미리 보기"
 
 사용 [테스트 프로필](../segment/creating-test-profiles.md) 정의한 타겟팅 기준과 일치하지 않는 추가 수신자를 타겟팅합니다.
 

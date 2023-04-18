@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '243'
+ht-degree: 20%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_global_report"
 >title="구독 글로벌 보고서"
->abstract="가입 전역 보고서를 사용하면 선택한 기간 동안 구독자의 활동을 측정하고 시각화할 수 있습니다. 보고서는 구독 및 구독 취소를 자세히 설명하는 여러 위젯으로 나눠집니다. 위젯 크기를 조정하거나 위젯을 제거하여 각 보고 대시보드를 수정할 수 있습니다."
+>abstract="구독 글로벌 보고서를 통해 선택된 기간에 대해 구독자의 활동을 측정하고 시각화할 수 있습니다. 보고서는 구독 및 구독 취소를 자세히 설명하는 여러 위젯으로 나눠집니다. 위젯 크기를 조정하거나 위젯을 제거하여 각 보고 대시보드를 수정할 수 있습니다."
 
 구독 **[!UICONTROL 글로벌 보고서]** 선택한 기간 동안 구독자의 활동에 대한 세부 정보를 표시합니다. 지난 24시간 동안 구독을 측정하려면 [구독 라이브 보고서](subscription-report-live.md).
 

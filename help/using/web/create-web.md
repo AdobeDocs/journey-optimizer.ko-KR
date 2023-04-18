@@ -12,7 +12,7 @@ badge: label="Beta" type="Advertising"
 source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -75,8 +75,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
->title="일치하는 페이지 만들기"
->abstract="페이지 일치 규칙을 사용하면 동일한 규칙과 일치하는 여러 URL을 타깃팅할 수 있습니다. 예를 들어, 전체 웹 사이트에서 히어로 배너에 변경 사항을 적용하거나 웹 사이트의 모든 제품 페이지에 표시되는 상위 이미지를 추가하려면 을 사용하십시오."
+>title="페이지 일치 규칙 작성"
+>abstract="페이지 일치 규칙을 사용하면 전체 웹 사이트의 히어로 배너에 변경 사항을 적용하거나 웹 사이트의 모든 제품 페이지에 표시되는 상단 이미지를 추가하려는 경우와 같이 동일한 규칙과 일치하는 여러 URL을 대상으로 지정할 수 있습니다."
 
 캠페인을 통해 웹 경험 작성을 시작하려면 아래 단계를 따르십시오.
 
