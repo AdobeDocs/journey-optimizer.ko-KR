@@ -5,9 +5,9 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2572'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 97%
 
 ## 2023년 4월 {#apr-2023}
 
-* Adobe Experience Manager Assets Essentials 및 Adobe Stock이 다중 솔루션 통합 페이지에 추가되었습니다. [자세히 보기](../start/ajo-integrations.md)
-* 이제 지원되므로 다중 수준 이메일 하위 도메인에 대한 경고가 제거되었습니다. [자세히 보기](../configuration/delegate-subdomain.md)
-* 여정 메시지에 사용 중인 오퍼 결정을 변경한 경우 여정을 게시 취소하고 다시 게시해야 한다는 메모가 추가되었습니다. [자세히 보기](../building-journeys/publishing-the-journey.md)
+* 다중 솔루션 통합 페이지에 Adobe Experience Manager Assets Essentials 및 Adobe Stock을 추가했습니다. [자세히 보기](../start/ajo-integrations.md)
+* 여러 수준의 이메일 하위 도메인을 허용하지 않는다는 경고를 제거했습니다. 이제 여러 수준의 하위 도메인 사용도 지원됩니다. [자세히 보기](../configuration/delegate-subdomain.md)
+* 여정의 메시지에 사용하고 있는 오퍼 의사 결정을 변경하는 경우 여정의 게시를 취소하고 다시 게시해야 한다는 점을 설명하는 메모를 추가했습니다. [자세히 보기](../building-journeys/publishing-the-journey.md)
 
 ## 2023년 3월 {#march-2023}
 
