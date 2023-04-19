@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 15%
+source-wordcount: '968'
+ht-degree: 14%
 
 ---
 
@@ -70,11 +70,11 @@ ht-degree: 15%
 
 또한 이벤트에 등록한 수신자에게 확인 이메일을 보낼 수 있습니다. 이렇게 하려면 아래 절차를 따르십시오.
 
-1. 다른 만들기 [여정](../building-journeys/journey.md). 을(를) 클릭하여 랜딩 페이지에서 직접 수행할 수 있습니다 **[!UICONTROL 여정 만들기]** 버튼을 클릭합니다. [여기](create-lp.md#configure-primary-page)에서 추가 정보를 확인하십시오
+1. 다른 만들기 [여정](../building-journeys/journey.md). 을(를) 클릭하여 랜딩 페이지에서 직접 수행할 수 있습니다 **[!UICONTROL 여정 만들기]** 버튼을 클릭합니다. [자세히 알아보기](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. 을(를) 펼칩니다. **[!UICONTROL 이벤트]** 카테고리 및 삭제 **[!UICONTROL 세그먼트 자격]** 활동을 캔버스로 이동합니다. [여기](../building-journeys/segment-qualification-events.md)에서 추가 정보를 확인하십시오
+1. 을(를) 펼칩니다. **[!UICONTROL 이벤트]** 카테고리 및 삭제 **[!UICONTROL 세그먼트 자격]** 활동을 캔버스로 이동합니다. [자세히 알아보기](../building-journeys/segment-qualification-events.md)
 
 1. 을(를) 클릭합니다. **[!UICONTROL 세그먼트]** 필드를 작성하고 만든 구독 목록을 선택합니다.
 
@@ -127,13 +127,9 @@ ht-degree: 15%
 
 1. 페이지의 콘텐츠를 구성하고 정의했으면, [게시](create-lp.md#publish) 랜딩 페이지.
 
-   ![](assets/lp_opt-out-publish.png)
-
 1. [이메일 메시지 만들기](../email/get-started-email-design.md) 여정에 있을 때 사용됩니다.
 
 1. 콘텐츠에서 텍스트를 선택하고 상황별 도구 모음을 사용하여 [링크를 삽입합니다. ](../email/message-tracking.md#insert-links) 단추에 대한 링크를 사용할 수도 있습니다.
-
-   ![](assets/lp_opt-out-insert-link.png)
 
 1. 선택 **[!UICONTROL 랜딩 페이지]** 에서 **[!UICONTROL 링크 유형]** 드롭다운 목록을 선택하고 [랜딩 페이지](create-lp.md#configure-primary-page) 옵트아웃을 위해 만든
 
