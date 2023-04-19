@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -41,20 +41,20 @@ Journey Optimizer에서 여정을 만든 후 Customer Journey Analytics는 플�
 
 ## Adobe Experience Manager Assets Essentials{#integration-assets}
 
-을 사용하여 마케팅 및 크리에이티브 워크플로우를 함께 통합 [!DNL Adobe Experience Manager Assets Essentials]. 기본적으로 [!DNL Adobe Journey Optimizer], 액세스 [!DNL Assets Essentials] 디지털 자산을 저장, 관리, 검색 및 배포하기 위해 메시지를 채우는 데 사용할 수 있는 중앙 집중식 단일 자산 저장소를 제공합니다.
+[!DNL Adobe Experience Manager Assets Essentials] 통합은 마케팅 워크플로우와 크리에이티브 워크플로우를 결합해 줍니다. [!DNL Adobe Journey Optimizer]에 기본적으로 통합된 [!DNL Assets Essentials]에 액세스하여 디지털 자산을 저장하고 관리하고 찾아내며 배포할 수 있습니다. 이 통합은 메시지의 내용을 채우는 데 사용할 수 있는 단일 중앙 집중식 자산 저장소 역할을 합니다.
 
-[!DNL Adobe Experience Manager Assets Essentials] 는 [!DNL Adobe Journey Optimizer] 왼쪽 메뉴 사용 **[!UICONTROL 자산]** 섹션을 참조하십시오.
+[!DNL Adobe Journey Optimizer]에서 왼쪽 메뉴의 **[!UICONTROL Assets]** 섹션을 통해 [!DNL Adobe Experience Manager Assets Essentials]에 바로 액세스할 수 있습니다.
 
-추가 정보 [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+자세한 내용은 [Journey Optimizer + Assets Essentials](../email/assets-essentials.md)를 참고하.
 
 
 ## Adobe Stock{#integration-stock}
 
-다음 [!DNL Adobe Stock] 및 [!DNL Adobe Journey Optimizer] 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선스 및 저장할 수 있습니다.
+[!DNL Adobe Stock] 및 [!DNL Adobe Journey Optimizer] 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선싱, 저장할 수 있습니다.
 
-사용 [!DNL Adobe Journey Optimizer]에서 직접 이메일에 이미지를 업로드할 수 있습니다. [!DNL Adobe Stock] 그리고 여기에 **[!UICONTROL 자산]** 폴더를 **[!UICONTROL Adobe Stock 사진 찾기]** 선택 사항입니다. 또한 **[!UICONTROL 유사한 스톡 사진 찾기]** 선택 사항은 게재에 사용되는 자산의 콘텐츠, 색상 및 컴포지션과 일치하는 이미지를 찾는 데 도움이 됩니다.
+[!DNL Adobe Journey Optimizer]의 **[!UICONTROL Adobe Stock 사진 찾기]** 옵션을 사용하면 [!DNL Adobe Stock]에서 이메일로 이미지를 바로 업로드하고 **[!UICONTROL Assets]** 폴더에 추가할 수 있습니다. 또한 **[!UICONTROL 유사한 Stock 사진 찾기]** 옵션은 게재에 사용하는 자산과 콘텐츠, 색상, 컴포지션이 비슷한 이미지를 찾는 데 도움이 됩니다.
 
-추가 정보 [Journey Optimizer + Stock](../email/stock.md).
+[Journey Optimizer + Stock](../email/stock.md)에 대해 자세히 알아보십시오.
 
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
