@@ -44,7 +44,7 @@ SDK는 이러한 라이브러리를 결합하지 않았으며 처음부터 새�
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) ( Adobe Experience Cloud에서 계정의 데이터 수집 탭 내).
+1. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko) ( Adobe Experience Cloud에서 계정의 데이터 수집 탭 내).
 
 1. SDK를 설치합니다. 다음과 같은 여러 가지 방법으로 데이터를 수집할 수 있습니다 [SDK 페이지 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 이 페이지는 각 서로 다른 구현 방법으로 계속 진행됩니다.
 
