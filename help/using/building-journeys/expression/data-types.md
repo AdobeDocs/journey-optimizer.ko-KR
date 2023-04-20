@@ -312,7 +312,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## 목록에 있는 참조 페이지를 나타냅니다 {#list}
+## list {#list}
 
 **설명**
 
