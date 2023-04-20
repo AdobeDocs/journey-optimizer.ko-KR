@@ -6,13 +6,13 @@ description: 최대 가용량 API 사용 방법 알아보기
 role: User
 level: Beginner
 keywords: 외부, API, 최적기, 최대 가용량
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 3%
+ht-degree: 30%
 
 ---
-
 
 # 최대 가용량 API 작업 {#work}
 
@@ -107,49 +107,49 @@ ht-degree: 3%
 
 이 섹션에서는 에서의 최대 가용량 구성을 관리하기 위해 수행할 수 있는 5가지 기본 사용 사례를 확인할 수 있습니다 [!DNL Journey Optimizer].
 
-테스트 및 구성에 도움이 되도록 Postman 컬렉션을 사용할 수 있습니다 [여기](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+[여기](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)에서 테스트 및 구성에 도움이 되는 Postman 컬렉션을 사용할 수 있습니다.
 
-이 Postman 컬렉션은 다음을 통해 생성된 Postman 변수 컬렉션을 공유하도록 설정되었습니다 __[Adobe I/O 콘솔의 통합](https://console.adobe.io/integrations) > 사용해 보기 > Postman용 다운로드__: 선택한 통합 값으로 Postman 환경 파일을 생성합니다.
+이 Postman 컬렉션은 __[Adobe I/O Console의 통합](https://console.adobe.io/integrations) > 사용해 보기 > Postman용으로 다운로드__&#x200B;를 통해 생성된 Postman 변수 컬렉션을 공유하는 용도로 설정되었습니다. 이 옵션은 선택한 통합 값을 가진 Postman 환경 파일을 생성합니다.
 
-Postman에 다운로드하여 업로드했으면 다음 세 가지 변수를 추가해야 합니다. `{JO_HOST}`,`{BASE_PATH}` 및 `{SANDBOX_NAME}`.
-* `{JO_HOST}` : [!DNL Journey Optimizer] 게이트웨이 URL
-* `{BASE_PATH}` : API의 시작 지점입니다.
-* `{SANDBOX_NAME}` : 헤더 **x-sandbox-name** 예를 들어, API 작업이 발생할 샌드박스 이름에 해당하는 &#39;prod&#39;)입니다. 자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko) 추가 정보.
+다운로드하여 Postman에 업로드한 다음에는 `{JO_HOST}`, `{BASE_PATH}`, `{SANDBOX_NAME}` 세 가지 변수를 추가해야 합니다.
+* `{JO_HOST}`: [!DNL Journey Optimizer] 게이트웨이 URL입니다.
+* `{BASE_PATH}`: API의 시작 지점입니다. 
+* `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다.  자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)를 참조하십시오.
 
-다음 섹션에서는 사용 사례를 수행할 Rest API 호출 순서 목록을 확인할 수 있습니다.
+다음 섹션에서는 사용 사례를 수행하기 위한 Rest API 호출 목록을 순서대로 확인할 수 있습니다.
 
 사용 사례°1: **새 최대 가용량 구성 만들기 및 배포**
 
-1. 목록에 있는 참조 페이지를 나타냅니다
-1. 만들기
-1. 배포
-1. 배포
+1. list
+1. create
+1. candeploy
+1. deploy
 
 사용 사례°2: **아직 배포되지 않은 최대 가용량 구성 업데이트 및 배포**
 
-1. 목록에 있는 참조 페이지를 나타냅니다
+1. list
 1. get
-1. 업데이트
-1. 배포
-1. 배포
+1. update
+1. candeploy
+1. deploy
 
 사용 사례°3: **배포된 최대 가용량 구성 배포 취소 및 삭제**
 
-1. 목록에 있는 참조 페이지를 나타냅니다
-1. 배포 취소
+1. list
+1. undeploy
 1. delete
 
 사용 사례°4: **배포된 최대 가용량 구성을 삭제합니다.**
 
-한 개의 API 호출만 사용할 수 있으며 forceDelete 매개 변수를 사용하여 구성을 배포 취소하고 삭제할 수 있습니다.
-1. 목록에 있는 참조 페이지를 나타냅니다
-1. delete, forceDelete 매개 변수 사용
+forceDelete 매개 변수를 사용하면 API 호출 단 한 번에 구성의 배포를 취소하고 삭제할 수 있습니다.
+1. list
+1. delete, with forceDelete param
 
 사용 사례°5: **이미 배포된 최대 가용량 구성 업데이트**
 
-1. 목록에 있는 참조 페이지를 나타냅니다
+1. list
 1. get
-1. 업데이트
-1. 배포 취소
-1. 배포
-1. 배포
+1. update
+1. undeploy
+1. candeploy
+1. deploy
