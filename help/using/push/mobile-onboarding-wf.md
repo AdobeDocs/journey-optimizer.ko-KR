@@ -11,16 +11,16 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Advertising"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
-source-git-commit: 1332bc6caf18eaa735d1c99b8e5f70f8a4eaaf2b
+source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '368'
+ht-degree: 6%
 
 ---
 
 # 모바일 온보딩 빠른 시작 워크플로우 {#mobile-wf}
 
-새로운 **모바일 온보딩 빠른 시작 워크플로우** 는 Mobile SDK를 신속하게 구성하고, 모바일 이벤트 데이터를 수집 및 유효성 검사를 시작하고, 를 사용하여 푸시 알림을 전송하는 새로운 제품 기능입니다 [!DNL Journey Optimizer].
+새로운 **모바일 온보딩 빠른 시작 워크플로우** 는 Adobe Experience Platform Mobile SDK를 신속하게 구성하고, 모바일 이벤트 데이터를 수집 및 확인하고, 를 사용하여 푸시 알림을 전송하는 새로운 제품 기능입니다 [!DNL Journey Optimizer].
 
 이 기능은 **[!DNL Adobe Experience Platform Data Collection]** 공개 베타 버전으로 모든 고객에게 홈 페이지를 제공합니다.
 
@@ -35,8 +35,8 @@ ht-degree: 5%
 다음은 몇 가지 추가 기능입니다.
 
 * 간편한 4단계 워크플로우 및 사용자 인터페이스.
-* Mobile SDK를 통해 모바일 이벤트 데이터 수집을 몇 분 내에 시작할 수 있는 기본 설정을 제공합니다.
-* Assurance를 활용하여 기본 모바일 푸시 이벤트를 테스트하고 확인할 수 있습니다.
+* 를 통해 모바일 이벤트 데이터 수집을 시작하는 기본 설정을 제공합니다. [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} 분 내에
+* 기본 모바일 푸시 이벤트를 활용하여 테스트 및 유효성 검사 기능 [Adobe Experience Platform 보증](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * 필요한 모든 데이터 수집 및 Journey Optimizer 자산을 자동으로 만들고 구성합니다.
 * 제품 지침 및 도구 설명.
 * 필요한 경우 고급 구현을 위한 자연스러운 전환을 제공합니다.

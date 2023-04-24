@@ -8,9 +8,9 @@ feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
+source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '750'
 ht-degree: 6%
 
 ---
@@ -19,12 +19,10 @@ ht-degree: 6%
 
 이 페이지는 의 푸시 알림과 관련된 주요 서비스 및 워크플로우를 설정하고 이해하는 데 도움이 됩니다 [!DNL Journey Optimizer].
 
-<!--
+
 >[!AVAILABILITY]
 >
->The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
->
--->
+>새로운 **모바일 온보딩 빠른 시작 워크플로우** 이제 을 사용할 수 있습니다. 이 새 제품 기능을 사용하여 모바일 이벤트 데이터 수집 및 유효성 검사를 시작하고 모바일 푸시 알림을 전송하도록 Mobile SDK를 빠르게 구성합니다. 이 기능은 데이터 수집 홈 페이지를 공개 베타로 통해 액세스할 수 있습니다. [자세히 알아보기](mobile-onboarding-wf.md)
 
 푸시 알림을 만드는 방법을 알아봅니다. [이 페이지](create-push.md).
 
