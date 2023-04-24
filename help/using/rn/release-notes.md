@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
+source-git-commit: c523783b0984a36f919a581053e994ca131a0115
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,32 +21,112 @@ ht-degree: 100%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
-<!--
-## April 2023 Updates {#apr-2023}
+
+## 2023년 4월 초기 릴리스 노트 {#apr-e-rn-2023}
+
+아래 정보는 릴리스를 사용할 수 있는 당일까지 사전 통지 없이 변경될 수 있습니다. 릴리스 당일에 업데이트한 설명서가 게시되고 직접 연결되는 링크가 이 페이지에 추가됩니다.
+
+**릴리스 날짜**: 2023년 4월 27일
+
+### 새로운 기능{#apr-2023-features}
 
 
 <table>
 <thead>
 <tr>
-<th><strong>Mobile onboarding quick start workflow (beta)</strong><br/></th>
+<th><strong>웹 채널(일반 공급)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The new mobile onboarding quick start workflow is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and send mobile push notifications with Adobe Journey Optimizer. This capability is accessible via the Data Collection home page as a public beta.</p>
+<p>Adobe Journey Optimizer은 웹 채널에 대한 지원을 추가하여 크로스 채널 기능을 확장하고 있습니다. 이제 스마트 및 직관적인 시각적 인터페이스를 통해 최종 사용자 경험을 개인화할 수 있으므로 다른 채널로서 웹 경험을 제작, 변경 및 미리 볼 수 있습니다. 현재 Journey Optimizer에서는 캠페인에서 웹 경험만 만들 수 있습니다.</p>
+<img src="assets/do-not-localize/create-web-campaign.gif"/>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>모바일 온보딩 빠른 시작 워크플로우(베타)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 새로운 모바일 온보딩 빠른 시작 워크플로우를 사용할 수 있습니다. 이 새 제품 기능을 사용하여 모바일 이벤트 데이터를 수집 및 확인하고 Adobe Journey Optimizer을 사용하여 모바일 푸시 알림을 전송하도록 Mobile SDK를 빠르게 구성할 수 있습니다. 이 기능은 데이터 수집 홈 페이지를 공개 베타로 통해 액세스할 수 있습니다.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
-<p>For more information, refer to the <a href="../push/mobile-onboarding-wf.md">detailed documentation</a>.</p>
+<p>자세한 내용은 <a href="../push/mobile-onboarding-wf.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
-## 2023년 3월 릴리스 정보 {#mar-2023}
+<table>
+<thead>
+<tr>
+<th><strong>새로운 여정 대시보드(베타)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> 이제 여정 대시보드가 두 개의 탭으로 분할됩니다.</p>
+<ul><li>를 사용하십시오 <strong>개요</strong> 탭하여 여정과 관련된 주요 지표를 표시하는 새 대시보드에 액세스합니다.</li>
+<li>를 사용하십시오 <strong>찾아보기</strong> 탭을 클릭하여 모든 여정 목록에 액세스합니다.</li></ul>
+<p>이 기능은 모든 여정에서 공개 베타로 액세스할 수 있습니다.</p>
+<img src="assets/do-not-localize/journey-dashboard.gif"/>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.-->
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>-->
 
+### 개선 사항 {#april-2023-improvements}
+
+**여정**
+
+* 이제 여정 캔버스에 작업 노드 및 종료 태그에 활동 ID가 표시됩니다. 이에 따라 보고 및 재타깃팅이 개선됩니다.
+* 작업, 데이터 소스, 이벤트 및 여정에 표시되는 구성 창의 레이아웃이 개선되었습니다.
+* 여정에 다음과 같은 새 보호 기능이 추가되었습니다.
+   * 이제 여정의 노드 수는 최대 50개로 제한됩니다
+   * 한 조직의 라이브 여정 수는 이제 최대 100개로 제한됩니다. 테스트 모드의 여정은 고려되지 않습니다.
+
+* 여정에서 이메일, SMS 또는 푸시 작업을 추가할 때 기본적으로 서피스가 해당 채널에 마지막으로 사용된 서피스와 함께 미리 채워집니다.
+* 이제 사용자 지정 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다.
+
+**보고**
+
+* 이제 Journey Optimizer 보고서를 PDF으로 내보낼 수 있습니다.
+
+**콘텐츠 디자이너**
+
+* Adobe Journey Optimizer 콘텐츠 디자이너가 업데이트되었으며, 이제 디자인 스타일 및 구성 요소에 대한 액세스가 더 쉽습니다. 이 새로운 버전에서는 향상된 사용자 경험을 제공하며, 향상된 성능, 어두운 모드 부분 호환성 및 새로운 액세스 가능성 표준 지원 등을 제공합니다.
+
+
+
+## 2023년 3월 릴리스 노트 {#mar-2023}
 
 ### 새로운 기능{#mar-2023-features}
 
@@ -142,7 +222,7 @@ ht-degree: 100%
 
    최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/global-report.md#modify-dashboard)를 참조하십시오.
 
-## 2023년 2월 릴리스 정보 {#feb-2023}
+## 2023년 2월 릴리스 노트 {#feb-2023}
 
 ### 새로운 기능{#feb-2023-features}
 
@@ -270,7 +350,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL 개인화** - 이제 URL을 오퍼 표시의 콘텐츠로 추가할 때 표현식 편집기를 사용하여 해당 URL을 개인화할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-representations.md)
 
-## 2023년 1월 릴리스 {#jan-2023-release}
+## 2023년 1월 릴리스 정보{#jan-2023-release}
 
 ### 새로운 기능{#jan-2023-features}
 
