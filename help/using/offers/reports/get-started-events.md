@@ -1,15 +1,15 @@
 ---
-title: 의사 결정 관리 이벤트 시작
+title: 의사 결정 관리 이벤트 작업
 description: Adobe Experience Platform에서 의사 결정 관리 보고서를 만드는 방법을 알아봅니다.
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 56%
+source-wordcount: '299'
+ht-degree: 29%
 
 ---
 
@@ -17,7 +17,24 @@ ht-degree: 56%
 
 의사 결정 관리 가 주어진 프로필에 대해 결정을 내릴 때마다 이러한 이벤트와 관련된 정보가 Adobe Experience Platform에 자동으로 전송됩니다.
 
-이렇게 하면 이러한 데이터를 내보내 자체 보고 시스템으로 분석할 수 있습니다. 분석 및 보고 기능을 향상하기 위해 다른 도구와 함께 Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko)를 활용할 수도 있습니다.
+이를 통해 주어진 프로필에 제시된 오퍼를 파악할 수 있는 등 결정에 대한 통찰력을 얻을 수 있습니다. 이러한 데이터를 내보내 자체 보고 시스템으로 분석하거나 Adobe Experience Platform을 활용할 수 있습니다 [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko) 를 다른 도구와 결합하여 분석 및 보고를 향상시킵니다.
+
+## 데이터 세트에서 사용할 수 있는 주요 정보 {#key-information}
+
+결정이 내려질 때 전송되는 각 이벤트에는 분석 및 보고 용도로 활용할 수 있는 4개의 키 데이터 포인트가 포함되어 있습니다:
+
+![](../assets/events-dataset-preview.png)
+
+* **[!UICONTROL 대체]**: 개인화된 오퍼를 선택하지 않은 경우, 대체 오퍼의 이름 및 ID
+* **[!UICONTROL 배치]**: 오퍼를 전달하는 데 사용되는 배치의 이름, ID 및 채널입니다.
+* **[!UICONTROL 선택]**: 프로필에 대해 선택한 오퍼의 이름 및 ID,
+* **[!UICONTROL 활동]**: 결정 이름 및 ID입니다.
+
+또한 **[!UICONTROL identityMap]** 및 **[!UICONTROL Timestamp]** 프로필과 오퍼가 전달된 시간에 대한 정보를 검색할 필드입니다.
+
+각 결정과 함께 전송되는 모든 XDM 필드에 대한 자세한 내용은 [이 섹션](xdm-fields.md)을 참조하십시오.
+
+## 데이터 세트 액세스 {#access-datasets}
 
 의사 결정 관리 이벤트가 포함된 데이터 세트는 Adobe Experience Platform에서 액세스할 수 있습니다 **[!UICONTROL 데이터 세트]** 메뉴 아래의 제품에서 사용할 수 있습니다. 각 인스턴스에 대해 프로비저닝할 때 데이터 세트 하나가 자동으로 만들어집니다.
 
@@ -28,8 +45,3 @@ ht-degree: 56%
 >[!NOTE]
 >
 >ODE DecisionEvents 데이터 세트는 **비프로필 데이터 세트**&#x200B;이므로 실시간 고객 프로필에서 사용하기 위해 Experience Platform으로 수집할 수 없습니다.
-
-**관련 항목:**
-
-* [의사 결정 관리 이벤트 주요 정보](../reports/key-information.md)
-* [이벤트 XDM 필드 액세스](../reports/xdm-fields.md)

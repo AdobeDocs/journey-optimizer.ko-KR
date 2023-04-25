@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Advertising"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 9%
@@ -85,9 +85,9 @@ DM 메시지를 만들고 전송하는 단계는 다음과 같습니다.
 
 1. 이 단계를 반복하여 추출 파일을 작성하는 데 필요한 만큼 열을 추가합니다. 최대 50개의 열을 추가할 수 있습니다.
 
-   ![](assets/direct-mail-complete.png)
-
    언제든지 열을 선택하고 **[!UICONTROL 제거]** 단추 **[!UICONTROL 서식]** 섹션을 참조하십시오.
+
+   ![](assets/direct-mail-complete.png)
 
 1. DM 콘텐츠가 정의되면 캠페인 구성을 완료하십시오.
 
