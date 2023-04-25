@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ ht-degree: 98%
    + 이메일 콘텐츠 디자인 {#design-email}
       + [이메일 디자인 시작](using/email/get-started-email-design.md)
       + 콘텐츠 만들기 시작 {#start-creating-content}
-         + [처음부터 컨텐츠 디자인](using/email/content-from-scratch.md)
+         + [콘텐츠를 처음부터 디자인하기](using/email/content-from-scratch.md)
          + [콘텐츠 가져오기](using/email/existing-content.md)
          + [나만의 콘텐츠 코딩](using/email/code-content.md)
          + [템플릿 작업](using/email/email-templates.md)
@@ -205,7 +205,7 @@ ht-degree: 98%
 + 인앱 채널{#in-app}
    + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
    + [인앱 메시지 만들기 ](using/in-app/create-in-app.md)
-   + [여정에서 인앱 메시지 만들기](using/in-app/create-in-app-journey.md)
+   + [여정의 인앱 메시지 만들기](using/in-app/create-in-app-journey.md)
    + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
    + [인앱 알림 테스트하고 보내기](using/in-app/send-in-app.md)
    + [인앱 채널 구성](using/in-app/inapp-configuration.md)
