@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 이메일, 디자인, 재고, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +29,14 @@ ht-degree: 18%
 * 프로필 속성을 기반으로 개인화되고 다이내믹 메시지를 만들어 고객의 경험을 개선합니다. [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)에 대해 자세히 알아보십시오.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
+
+## 이메일 디자인 모범 사례 {#best-practices}
+
+이메일을 보낼 때 수신자가 전자 메일을 전송할 수 있다는 점을 고려하는 것이 중요합니다. 수신자가 전자 메일 렌더링에 문제를 일으킬 수 있습니다. 이는 전달에 사용되는 이메일 공급자가 지원하지 않을 수 있는 CSS 클래스를 사용할 때 특히 적용됩니다. 예를 들어 &quot;is-desktop-hidden&quot; CSS 클래스를 사용하여 모바일 장치에서 이미지를 숨기는 경우 이 클래스를 사용할 수 있습니다.
+
+이러한 렌더링 문제를 최소화하려면 이메일 디자인 구조를 가능한 한 간단하게 유지하는 것이 좋습니다. 데스크톱 및 모바일 장치에서 모두 잘 작동하는 단일 디자인을 사용하고, 모든 이메일 클라이언트가 완전히 지원하지 않을 수 있는 복잡한 CSS 클래스나 기타 디자인 요소를 사용하지 마십시오. 이러한 우수 사례를 통해 수신자가 이메일을 보거나 전달하는 방식에 관계없이 이메일이 일관되게 렌더링되도록 할 수 있습니다.
+
+## 이메일 컨텐츠를 만드는 주요 단계 {#key-steps}
 
 한번 드시면 [이메일 추가](create-email.md) 여정 또는 캠페인에 전자 메일 콘텐츠 만들기를 시작할 수 있습니다.
 
