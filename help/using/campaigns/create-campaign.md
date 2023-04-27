@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 만들기, 최적기, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '753'
 ht-degree: 22%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 22%
 
 
 새 캠페인을 만들려면 **[!UICONTROL 캠페인]** 메뉴를 클릭한 다음 **[!UICONTROL 캠페인 만들기]**. 기존 라이브 캠페인을 복제하여 새 라이브 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate)
-
-![](assets/create-campaign.png)
 
 ## 캠페인 유형 및 채널을 선택합니다 {#campaigntype}
 
@@ -64,15 +62,13 @@ ht-degree: 22%
 
 ## 캠페인 속성을 정의합니다 {#create}
 
-1. 캠페인의 제목과 설명을 지정합니다.
+1. 에서 **[!UICONTROL 속성]** 섹션에서 캠페인의 이름과 설명을 지정합니다.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
 1. 사용자 지정 또는 핵심 데이터 사용 레이블을 캠페인에 지정하려면 **[!UICONTROL 액세스 관리]** 버튼을 클릭합니다. [개체 수준 액세스 제어(OLA)에 대한 자세한 정보](../administration/object-based-access.md)
 
-   ![](assets/create-campaign-properties.png)
-
-## 메시지 만들기 {#content}
+## 메시지 만들기 및 추적 구성 {#content}
 
 에서 **[!UICONTROL 작업]** 섹션에서 캠페인과 함께 전송할 메시지를 만듭니다.
 
@@ -123,21 +119,21 @@ ht-degree: 22%
 
 ## 대상자 정의 {#audience}
 
-1. 타겟팅할 대상을 정의합니다. 이렇게 하려면 **[!UICONTROL 대상 선택]** 사용 가능한 Adobe Experience Platform 세그먼트 목록을 표시하는 단추. [세그먼트에 대해 자세히 알아보기](../segment/about-segments.md)
+을(를) 클릭합니다. **[!UICONTROL 대상 선택]** 사용 가능한 Adobe Experience Platform 세그먼트 목록을 표시하는 단추. [세그먼트에 대해 자세히 알아보기](../segment/about-segments.md)
 
-   >[!NOTE]
-   >
-   >API로 트리거되는 캠페인의 경우 API 호출을 통해 대상을 설정해야 합니다. [자세히 알아보기](api-triggered-campaigns.md)
+>[!NOTE]
+>
+>API로 트리거되는 캠페인의 경우 API 호출을 통해 대상을 설정해야 합니다. [자세히 알아보기](api-triggered-campaigns.md)
 
-   에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
+에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
 
-   ![](assets/create-campaign-namespace.png)
+![](assets/create-campaign-namespace.png)
 
-   >[!NOTE]
-   >
-   >다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타겟팅되지 않습니다.
+>[!NOTE]
+>
+>다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타겟팅되지 않습니다.
 
-   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## 캠페인 예약 {#schedule}
 
