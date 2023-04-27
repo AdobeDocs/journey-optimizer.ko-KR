@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 3%
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 ### 사용자 정의 이벤트
 
-오퍼에 연결된 사용자 지정 이벤트에 대한 피드백은 사용자의 환경 설정에 따라 Adobe Experience Platform으로 전송될 수 있습니다. 예를 들어 오퍼에 다음과 같은 여러 개의 단추가 있는 경우 *관심*, *관심 없음*&#x200B;등, 해당 이벤트를 별도로 보낼 수도 있지만, 경험 이벤트로 보낼 수도 있습니다. <!--Not sure to get that part. How feedback is collected in the first case, i.e. when events are sent in separately? Does it mean the customer just handles it the wau he wants?-->
+오퍼에 연결된 사용자 지정 이벤트에 대한 피드백은 사용자의 환경 설정에 따라 Adobe Experience Platform으로 전송될 수 있습니다. 예를 들어 오퍼에 다음과 같은 여러 개의 단추가 있는 경우 *관심*, *관심 없음*&#x200B;등, 해당 이벤트를 별도로 보낼 수도 있지만, 경험 이벤트로 보낼 수도 있습니다.
 
 ## 피드백 데이터 보내기
 

@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Advertising"
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 9%
@@ -60,8 +60,6 @@ DM 메시지를 만들고 전송하는 단계는 다음과 같습니다.
    ![](assets/direct-mail-campaign.png)
 
 1. 클릭 **[!UICONTROL 만들기]** 그런 다음 캠페인에 대한 기본 정보(이름, 설명)를 정의합니다. [캠페인 구성 방법 알아보기](../campaigns/create-campaign.md)
-
-   ![](assets/direct-mail-edit.png)
 
 1. 을(를) 클릭합니다. **[!UICONTROL 컨텐츠 편집]** DM 공급자에게 보낼 추출 파일을 구성하는 단추입니다.
 

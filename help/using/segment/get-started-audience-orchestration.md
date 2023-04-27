@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Advertising"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 23%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 23%
 
 >[!AVAILABILITY]
 >
->대상 컴포지션은 현재 비공개 베타로만 사용할 수 있으며, 예고 없이 자주 업데이트될 수 있습니다. 베타는 IMS 조직 수준에서 프로비저닝되며, 이는 조직 내의 모든 샌드박스에 영향을 줍니다.
+>대상 컴포지션은 현재 비공개 베타로만 사용할 수 있으며, 예고 없이 자주 업데이트될 수 있습니다. 베타가 조직 수준에서 프로비저닝되어 조직 내의 모든 샌드박스에 영향을 줍니다.
 
 대상 작성을 통해 다음을 만들 수 있습니다 **워크플로우 구성**&#x200B;기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 제외..)을 활용하여 새 대상을 만들 수 있습니다.
 

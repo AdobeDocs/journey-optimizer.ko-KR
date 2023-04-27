@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 81%
+source-wordcount: '1859'
+ht-degree: 82%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 81%
 
 ## 2023년 4월 초기 릴리스 노트 {#apr-e-rn-2023}
 
-아래 정보는 릴리스를 사용할 수 있는 당일까지 사전 통지 없이 변경될 수 있습니다. 릴리스 당일에 업데이트한 설명서가 게시되고 직접 연결되는 링크가 이 페이지에 추가됩니다.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**릴리스 날짜**: 2023년 4월 27일
+**Release date**: April 27, 2023-->
 
 ### 새로운 기능{#apr-2023-features}
 
@@ -42,7 +42,7 @@ ht-degree: 81%
 <td>
 <p>Adobe Journey Optimizer은 웹 채널에 대한 지원을 추가하여 크로스 채널 기능을 확장하고 있습니다. 이제 스마트 및 직관적인 시각적 인터페이스를 통해 최종 사용자 경험을 개인화할 수 있으므로 다른 채널로서 웹 경험을 제작, 변경 및 미리 볼 수 있습니다. 현재 Journey Optimizer에서는 캠페인에서 웹 경험만 만들 수 있습니다.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../web/get-started-web.md">세부 설명서</a>를 참조하십시오.</p>
 </tr>
 </tbody>
 </table>
@@ -59,33 +59,33 @@ ht-degree: 81%
 <td>
 <p>이제 새로운 모바일 온보딩 빠른 시작 워크플로우를 사용할 수 있습니다. 이 새 제품 기능을 사용하여 모바일 이벤트 데이터를 수집 및 확인하고 Adobe Journey Optimizer을 사용하여 모바일 푸시 알림을 전송하도록 Mobile SDK를 빠르게 구성할 수 있습니다. 이 기능은 데이터 수집 홈 페이지를 공개 베타로 통해 액세스할 수 있습니다.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
-<p>자세한 내용은 <a href="../push/mobile-onboarding-wf.md">세부 설명서</a>를 참조하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>새로운 여정 대시보드(베타)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p> 이제 여정 대시보드가 두 개의 탭으로 분할됩니다.</p>
-<ul><li>를 사용하십시오 <strong>개요</strong> 탭하여 여정과 관련된 주요 지표를 표시하는 새 대시보드에 액세스합니다.</li>
-<li>를 사용하십시오 <strong>찾아보기</strong> 탭을 클릭하여 모든 여정 목록에 액세스합니다.</li></ul>
-<p>이 기능은 모든 여정에서 공개 베타로 액세스할 수 있습니다.</p>
-<img src="assets/do-not-localize/journey-dashboard.gif"/>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../push/mobile-onboarding-wf.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 <!--
+<table>
+<thead>
+<tr>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
+<img src="assets/do-not-localize/journey-dashboard.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 <table>
 <thead>
 <tr>
@@ -107,14 +107,14 @@ ht-degree: 81%
 
 **여정**
 
-* 이제 여정 캔버스에 작업 노드 및 종료 태그에 활동 ID가 표시됩니다. 이에 따라 보고 및 재타깃팅이 개선됩니다.
+* 이제 여정 캔버스에 메시지 활동 및 종료 태그에 활동 ID가 표시됩니다. 이에 따라 보고 및 재타깃팅이 개선됩니다.
 * 작업, 데이터 소스, 이벤트 및 여정에 표시되는 구성 창의 레이아웃이 개선되었습니다.
 * 여정에 다음과 같은 새 보호 기능이 추가되었습니다.
-   * 이제 여정의 노드 수는 최대 50개로 제한됩니다
-   * 한 조직의 라이브 여정 수는 이제 최대 100개로 제한됩니다. 테스트 모드의 여정은 고려되지 않습니다.
+   * 이제 여정의 활동 수가 50개로 제한됩니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
+   * 숫자 **라이브 여정** 이제 한 조직의 경우 샌드박스당 100개로 제한됩니다. 테스트 모드의 여정은 고려되지 않습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 
-* 여정에서 이메일, SMS 또는 푸시 작업을 추가할 때 기본적으로 서피스가 해당 채널에 마지막으로 사용된 서피스와 함께 미리 채워집니다.
-* 이제 사용자 지정 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다.
+* 를 추가할 때 [이메일](../email/create-email.md), [SMS](../sms/create-sms.md) 또는 [푸시](../push/create-push.md) 여정에서 작업을 수행하면 현재 여정에서 기본적으로 해당 채널에 대해 마지막으로 사용된 서피스가 있는 서피스가 미리 채워집니다.
+* 이제 사용자 지정 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다. [자세히 알아보기](../action/about-custom-action-configuration.md#url-configuration)
 
 **보고**
 
@@ -190,6 +190,8 @@ ht-degree: 81%
 * 이제 여정 캔버스의 **종료** 태그가 자동으로 이전 활동의 이름으로 설정되지 않습니다. 필요한 경우 사용자가 수동으로 사용자 정의 레이블을 추가할 수 있습니다.
 * 여정 속성의 기본 시간 제한 및 오류 지속 시간을 5초에서 30초로 변경했습니다. [자세히 알아보기](../configuration/external-systems.md#timeout)
 * 세그먼트 읽기 활동의 기본 스로틀링 수를 초당 메시지 20,000개에서 5,000개로 변경했습니다. [자세히 알아보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 인터페이스를 통해 전송된 이벤트만 수신 대기하기 위해 테스트 모드에 보호 기능이 추가되었습니다. 외부 도구를 통해 보내는 이벤트는 고려되지 않습니다. [자세히 알아보기](../building-journeys/testing-the-journey.md)
+
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.

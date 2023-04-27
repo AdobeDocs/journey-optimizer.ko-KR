@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 작업, 타사, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 14%
+source-wordcount: '1045'
+ht-degree: 15%
 
 ---
 
@@ -97,35 +97,31 @@ Journey Optimizer에서는 사용자 지정 작업에 데이터 거버넌스 및
    >
    > 다음 **DELETE** 메서드가 지원되지 않습니다. 기존 리소스를 업데이트해야 하는 경우 **PUT** 메서드를 사용합니다.
 
-1. 에서 **[!UICONTROL 머리글]** 섹션에서 외부 서비스로 전송할 요청 메시지의 HTTP 헤더를 정의합니다.
-   1. 헤더 필드를 추가하려면 **[!UICONTROL 헤더 필드 추가]**.
-   1. 헤더 필드의 키를 입력합니다.
-   1. 키-값 쌍에 대한 동적 값을 설정하려면 다음을 선택합니다 **[!UICONTROL 변수]**. 그렇지 않으면 을 선택합니다. **[!UICONTROL 상수]**.
+1. 헤더 및 쿼리 매개 변수를 정의합니다.
 
-      예를 들어 타임스탬프의 경우 동적 값을 설정할 수 있습니다.
+   * 에서 **[!UICONTROL 머리글]** 섹션을 클릭합니다. **[!UICONTROL 헤더 필드 추가]** 외부 서비스로 전송할 요청 메시지의 HTTP 헤더를 정의합니다. 다음 **[!UICONTROL 컨텐츠 유형]** 및 **[!UICONTROL Charset]** 헤더 필드는 기본적으로 설정되어 있습니다. 이러한 필드는 수정하거나 삭제할 수 없습니다.
 
-   1. 선택한 경우 **[!UICONTROL 상수]**&#x200B;를 입력한 다음 상수 값을 입력합니다.
+   * 에서 **[!UICONTROL 쿼리 매개 변수]** 섹션을 클릭합니다. **[!UICONTROL 쿼리 매개 변수 필드 추가]** 를 눌러 URL에 추가할 매개 변수를 정의합니다.
 
-      선택한 경우 **[!UICONTROL 변수]**&#x200B;를 채울 경우 사용자 지정 작업을 여정에 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
+   ![](assets/journeyurlconfiguration2bis.png)
 
-      ![](assets/journeyurlconfiguration2.png)
+1. 필드의 레이블이나 이름을 입력합니다.
 
-   1. 헤더 필드를 삭제하려면 헤더 필드를 가리킨 다음 **[!UICONTROL 삭제]** 아이콘.
-   다음 **[!UICONTROL 컨텐츠 유형]** 및 **[!UICONTROL Charset]** 헤더 필드는 기본적으로 설정되어 있습니다. 이러한 필드는 수정하거나 삭제할 수 없습니다.
+1. 유형을 선택합니다. **[!UICONTROL 상수]** 또는 **[!UICONTROL 변수]**. 선택한 경우 **[!UICONTROL 상수]**&#x200B;를 입력한 다음 **[!UICONTROL 값]** 필드. 선택한 경우 **[!UICONTROL 변수]**&#x200B;를 채울 경우 사용자 지정 작업을 여정에 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
 
-   여정에 사용자 지정 작업을 추가한 후에도 여정이 초안 상태인 경우 헤더 필드를 추가할 수 있습니다. 여정이 구성 변경 사항의 영향을 받지 않도록 하려면 사용자 지정 작업을 복제하고 헤더 필드를 새 사용자 지정 작업에 추가합니다.
+   ![](assets/journeyurlconfiguration2.png)
 
    >[!NOTE]
+   >
+   >여정에 사용자 지정 작업을 추가한 후에도 여정이 초안 상태인 경우 헤더나 쿼리 매개 변수 필드를 추가할 수 있습니다. 여정이 구성 변경 사항의 영향을 받지 않도록 하려면 사용자 지정 작업을 복제하고 필드를 새 사용자 지정 작업에 추가합니다.
    >
    >헤더는 필드 구문 분석 규칙에 따라 유효성이 검사됩니다. 추가 정보 [이 설명서](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## 작업 매개 변수 정의 {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
-
 에서 **[!UICONTROL 작업 매개 변수]** 섹션을 통해 외부 서비스로 전송할 JSON 페이로드의 예를 붙여넣습니다.
 
-![](assets/customactionpayloadmessage.png)
+![](assets/messageparameterssection.png)
 
 >[!NOTE]
 >
@@ -135,7 +131,7 @@ Journey Optimizer에서는 사용자 지정 작업에 데이터 거버넌스 및
 
 매개 변수가 상수 또는 변수인지를 지정할 수도 있습니다.
 
-* 상수는 매개 변수의 값이 기술 성향에 의해 작업 구성 창에 정의되어 있음을 의미합니다. 값은 여정 간에 항상 동일합니다. 여정에서 사용자 지정 작업을 사용할 때에는 변경사항이 발생하지 않으며 마케터가 표시되지 않습니다. 예를 들어 서드파티 시스템에서 기대하는 ID일 수 있습니다. 이 경우 전환 상수/변수 오른쪽에 있는 필드가 전달된 값입니다.
-* 변수는 매개 변수의 값이 변경됨을 의미합니다. 여정에서 이 사용자 지정 작업을 사용하는 마케터는 원하는 값을 전달하거나 이 매개 변수의 값을 검색할 위치(예: 이벤트에서 또는 Adobe Experience Platform에서)를 지정할 수 있습니다. 이 경우 전환 상수/변수 오른쪽에 있는 필드는 이 매개 변수의 이름을 지정하기 위해 여정에 표시되는 레이블 마케터입니다.
+* **상수** 는 매개 변수의 값이 기술 성향에 의해 작업 구성 창에 정의되어 있음을 의미합니다. 값은 여정 간에 항상 동일합니다. 여정에서 사용자 지정 작업을 사용할 때에는 변경사항이 발생하지 않으며 마케터가 표시되지 않습니다. 예를 들어 서드파티 시스템에서 기대하는 ID일 수 있습니다. 이 경우 전환 상수/변수 오른쪽에 있는 필드가 전달된 값입니다.
+* **변수** 은 매개 변수의 값이 변경됨을 의미합니다. 여정에서 이 사용자 지정 작업을 사용하는 마케터는 원하는 값을 전달하거나 이 매개 변수의 값을 검색할 위치(예: 이벤트에서 또는 Adobe Experience Platform에서)를 지정할 수 있습니다. 이 경우 전환 상수/변수 오른쪽에 있는 필드는 이 매개 변수의 이름을 지정하기 위해 여정에 표시되는 레이블 마케터입니다.
 
 ![](assets/customactionpayloadmessage2.png)

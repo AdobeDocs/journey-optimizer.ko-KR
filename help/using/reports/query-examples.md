@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -104,6 +104,152 @@ AND
 ORDER BY timestamp;
 ```
 
+**두 노드 사이에 경과된 시간**
+
+예를 들어 대기 활동에서 보낸 시간을 예상하기 위해 이러한 쿼리를 사용할 수 있습니다. 이를 통해 대기 활동이 올바르게 구성되었는지 확인할 수 있습니다.
+
+_Data Lake 쿼리_
+
+```sql
+WITH
+
+START_NODE_INFO AS (
+
+    SELECT 
+    
+        timestamp AS TS_START,
+        _experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        _experience.journeyOrchestration.stepEvents.instanceID AS INSTANCE_ID
+        
+    FROM 
+    
+        journey_step_events
+    
+    WHERE
+    
+        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND
+        _experience.journeyOrchestration.stepEvents.nodeName = '<name of node before wait activity>' AND
+        _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = true
+        
+),
+
+END_NODE_INFO AS (
+
+    SELECT 
+    
+        timestamp AS TS_END,
+        _experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        _experience.journeyOrchestration.stepEvents.instanceID AS INSTANCE_ID
+        
+    FROM 
+    
+        journey_step_events
+    
+    WHERE
+    
+        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND
+        _experience.journeyOrchestration.stepEvents.nodeName = '<name of wait activity node>' AND
+        _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = true
+        
+)
+
+SELECT 
+
+    T1.INSTANCE_ID AS INSTANCE_ID,
+    T1.NODE_NAME AS START_NODE_NAME,
+    T2.NODE_NAME AS END_NODE_NAME,
+    DATEDIFF(millisecond,T1.TS_START,T2.TS_END) AS ELAPSED_TIME_MS
+    
+FROM
+
+    START_NODE_INFO AS T1,
+    END_NODE_INFO AS T2
+    
+WHERE
+
+    T1.INSTANCE_ID = T2.INSTANCE_ID
+```
+
+_Data Lake 쿼리_
+
+```sql
+WITH
+
+START_NODE_INFO AS (
+
+    SELECT 
+    
+        timestamp AS TS_START,
+        _experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        _experience.journeyOrchestration.stepEvents.instanceID AS INSTANCE_ID
+        
+    FROM 
+    
+        journey_step_events
+    
+    WHERE
+    
+        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND
+        _experience.journeyOrchestration.stepEvents.nodeName = '<name of node before wait activity>' AND
+        _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = true
+        
+),
+
+END_NODE_INFO AS (
+
+    SELECT 
+    
+        timestamp AS TS_END,
+        _experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        _experience.journeyOrchestration.stepEvents.instanceID AS INSTANCE_ID
+        
+    FROM 
+    
+        journey_step_events
+    
+    WHERE
+    
+        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND
+        _experience.journeyOrchestration.stepEvents.nodeName = '<name of wait activity node>' AND
+        _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = true
+        
+)
+
+SELECT 
+
+    AVG(DATEDIFF(millisecond,T1.TS_START,T2.TS_END)) AS AVERAGE_ELAPSED_TIME,
+    MIN(DATEDIFF(millisecond,T1.TS_START,T2.TS_END)) AS MIN_ELAPSED_TIME,
+    MAX(DATEDIFF(millisecond,T1.TS_START,T2.TS_END)) AS MAX_ELAPSED_TIME
+    
+FROM
+
+    START_NODE_INFO AS T1,
+    END_NODE_INFO AS T2
+    
+WHERE
+
+    T1.INSTANCE_ID = T2.INSTANCE_ID
+```
+
+**serviceEvent의 세부 정보를 확인하는 방법**
+
+여정 단계 이벤트 데이터 세트에는 모든 stepEvents 및 serviceEvents가 포함되어 있습니다. stepEvents는 활동(이벤트, 작업 등)과 관련되어 있어 보고에 사용됩니다. 여정 내 프로필 수 중 하나를 선택합니다. serviceEvents는 동일한 데이터 세트에 저장되며, 디버깅 목적으로 추가 정보를 나타냅니다. 예를 들어 경험 이벤트가 버리기 때문입니다.
+
+다음은 serviceEvent의 세부 정보를 확인하는 쿼리의 예입니다.
+
+_Data Lake 쿼리_
+
+```sql
+SELECT
+
+     _experience.journeyOrchestration.profile.ID, 
+     _experience.journeyOrchestration.journey.versionID, 
+     to_json(_experience.journeyOrchestration.serviceEvents) 
+
+FROM journey_step_event 
+
+WHERE _experience.journeyOrchestration.serviceType is not null;
+```
 
 ## 메시지/작업 오류 {#message-action-errors}
 
@@ -1066,4 +1212,3 @@ GROUP BY
 ORDER BY
     DATETIME DESC
 ```
-

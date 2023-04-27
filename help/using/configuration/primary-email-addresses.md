@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 기본 이메일 주소 변경
+title: 실행 주소 변경
 description: 프로필 서비스에서 사용할 이메일 주소를 결정하는 방법을 알아봅니다.
 feature: Application Settings
 topic: Administration
@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: 기본, 실행, 이메일, 타겟, 프로필, 최적기
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 26%
+source-wordcount: '431'
+ht-degree: 23%
 
 ---
 
-# 기본 주소 변경 {#change-primary-email}
+# 실행 주소 변경 {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -30,13 +30,25 @@ ht-degree: 26%
 
 프로필을 타겟팅할 때 데이터베이스에서 여러 이메일 주소 또는 전화 번호(전문 이메일 주소, 개인 전화 번호 등)를 사용할 수 있습니다.
 
-사용 [!DNL Journey Optimizer], 프로필 서비스에서 사용할 이메일 주소 또는 전화 번호를 확인하고 몇 개의 주소를 사용할 수 있는 경우 우선 순위를 지정할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
+그렇다면, [!DNL Journey Optimizer] 사용 **[!UICONTROL 실행 필드]** 을(를) 사용하여 프로필 서비스에서 우선적으로 사용할 이메일 주소 또는 전화 번호를 결정합니다.
+
+기본적으로 현재 사용되는 필드를 확인하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 일반]** > **[!UICONTROL 실행 필드]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+
+![](assets/primary-address-execution-fields.png)
+
+현재 값은 샌드박스 수준의 모든 게재에 사용됩니다. 필요한 경우 이러한 필드를 업데이트할 수 있습니다.
+
+대부분의 경우 실행 필드를 전체적으로 변경하고 모든 이메일 또는 SMS 메시지에 사용해야 하는 값을 정의합니다. <!--[Learn how](#admin-settings)-->
+
+<!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
+
+## 관리 설정 업데이트 {#admin-settings}
+
+샌드박스 수준에서 전체적으로 실행 필드를 변경하려면 아래 단계를 따르십시오.
 
 1. 액세스 권한  **[!UICONTROL 채널]** > **[!UICONTROL 일반]** > **[!UICONTROL 실행 필드]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-   ![](assets/primary-address-execution-fields.png)
-
-1. 현재 이 화면에서 프로필의 이메일 주소와 전화 번호를 결정하는 데 기본적으로 사용되는 필드입니다. 클릭 **[!UICONTROL 편집]** 변경할 수 있습니다.
+1. 클릭 **[!UICONTROL 편집]** 기본값을 변경하려면 다음을 수행하십시오.
 
    ![](assets/primary-address.png)
 
@@ -53,3 +65,22 @@ ht-degree: 26%
 실행 필드가 업데이트되어 이제 기본 주소로 사용됩니다.
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
+
+## 여정 매개 변수에서 값 무시 {#journey-parameters}
+
+특정 사용 사례의 경우에만 전체적으로 설정된 실행 필드를 재정의하고 여정 수준에서, 특히 이메일 채널에 대해 다른 값을 정의할 수 있습니다.
+
+를 추가할 때 **[!UICONTROL 이메일]** 작업에 대한 [여정](../email/create-email.md#create-email-journey-campaign)기본 이메일 주소는 여정 고급 매개 변수 아래에 표시됩니다.
+
+일부 특정 컨텍스트에서는 **[!UICONTROL 매개 변수 무시 사용]** 아이콘 을 클릭합니다. **[!UICONTROL 주소]** 필드.
+
+![](assets/journey-enable-parameter-override.png)
+
+>[!CAUTION]
+>
+>이메일 주소 재정의는 특정 사용 사례에만 사용해야 합니다. 대부분의 경우 **[!UICONTROL 실행 필드]**&#x200B;에 기본 주소로 정의된 값을 사용해야 하므로 이메일 주소를 변경할 필요가 없습니다.
+
+이 값을 재정의하는 것은 예를 들어 다음과 같이 유용할 수 있습니다.
+
+* 이메일을 테스트합니다. 고유한 이메일 주소를 추가할 수 있습니다. 여정을 게시하면 이메일이 사용자에게 전송됩니다.
+* 목록의 구독자에게 이메일을 보냅니다. [사용 사례](../building-journeys/message-to-subscribers-uc.md)를 자세히 알아보십시오.

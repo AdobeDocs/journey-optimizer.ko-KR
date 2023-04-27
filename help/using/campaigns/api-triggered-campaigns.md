@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 캠페인, API 트리거됨, REST, 최적화 프로그램, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '831'
 ht-degree: 3%
 
 ---
@@ -39,9 +39,7 @@ API로 트리거된 캠페인을 만들려면 다음 단계를 수행합니다.
 
    ![](assets/api-triggered-type.png)
 
-1. 캠페인의 제목과 설명을 지정한 다음 전송할 메시지를 구성합니다.
-
-   ![](assets/api-triggered-properties.png)
+1. 캠페인의 제목과 설명을 지정한 다음 **[!UICONTROL 컨텐츠 편집]** 전송할 메시지를 구성하려면 다음을 수행하십시오.
 
    >[!NOTE]
    >

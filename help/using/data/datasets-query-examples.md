@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 데이터 세트, 최적기, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 0%
+source-wordcount: '850'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 0%
 [푸시 추적 경험 이벤트 데이터 세트](#push-tracking-experience-event-dataset)
 [여정 단계 이벤트](#journey-step-event)
 [의사 결정 이벤트 데이터 세트](#ode-decisionevents)
-[동의 서비스 데이터 세트](#consent-service-dataset)
 [숨은 참조 피드백 이벤트 데이터 세트](#bcc-feedback-event-dataset)
 [엔티티 데이터 세트](#entity-dataset)
 
@@ -258,15 +257,16 @@ select explode(propositionexplode.selections) AS proposedOffers from
 group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.ranking.priority;
 ```
 
-## 동의 서비스 데이터 세트{#consent-service-dataset}
+<!--
+## Consent Service Dataset{#consent-service-dataset}
 
-_인터페이스의 이름: CJM 동의 서비스 데이터 세트(시스템 데이터 세트)_
+_Name in the interface: CJM Consent Service Dataset (system dataset)_
 
-Journey Optimizer 동의 서비스에 대한 데이터 집합입니다.
+Dataset for Journey Optimizer Consent service.
 
-관련 스키마는 CJM 동의 서비스 스키마입니다.
+The related schema is CJM Consent Service Schema.
 
-이메일 수신을 동의한 이메일 ID를 나열하는 쿼리입니다.
+Query to list email IDs that have consented to receive email:
 
 ```sql
 select key as email FROM (
@@ -278,7 +278,7 @@ select key as email FROM (
 where value.marketing.email.val == 'y'
 ```
 
-이메일 ID가 입력되는 이메일 ID에 대한 동의 값을 반환하도록 쿼리합니다.
+Query to return consent value for an email ID where email ID would be the input:
 
 ```sql
 select value.marketing.email.val FROM (
@@ -287,6 +287,7 @@ select value.marketing.email.val FROM (
   from cjm_consent_service_dataset
  )
 ```
+-->
 
 ## 숨은 참조 피드백 이벤트 데이터 세트{#bcc-feedback-event-dataset}
 

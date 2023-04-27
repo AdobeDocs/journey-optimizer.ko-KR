@@ -5,30 +5,15 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-badge: label="Beta" type="Advertising"
-source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 15%
+source-wordcount: '662'
+ht-degree: 8%
 
 ---
 
 # 웹 경험 만들기  {#create-web}
-
->[!BEGINSHADEBOX]
-
-이 설명서에서 찾을 내용:
-
-* [웹 채널 시작하기](get-started-web.md)
-* **[웹 경험 만들기](create-web.md)**
-* [웹 페이지 작성 ](author-web.md)
-* [Visual Editing Helper 확장 기능](visual-editing-helper.md)
-* [웹 보고 ](web-report.md)
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 인바운드 웹 캠페인을 통해 고객에게 전달하는 웹 경험을 개인화할 수 있습니다.
 
@@ -36,35 +21,7 @@ ht-degree: 15%
 >
 >현재 [!DNL Journey Optimizer] 를 사용하여 웹 경험만 만들 수 있습니다. **캠페인**.
 
-## 사전 요구 사항 {#prerequesites}
-
-에서 웹 페이지에 액세스하여 작성할 수 있도록 하려면 [!DNL Journey Optimizer] 사용자 인터페이스에서 아래 전제 조건을 따르십시오.
-
-* 웹 사이트에 수정 사항을 추가하려면 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} 클릭합니다.
-
-* 에 액세스하려면 [!DNL Journey Optimizer] 웹 디자이너는 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} chrome의 브라우저 확장 프로그램. [자세히 알아보기](visual-editing-helper.md)
-
->[!CAUTION]
->
->Google Chrome은 현재 웹 페이지 작성을 지원하는 유일한 브라우저입니다 [!DNL Journey Optimizer].
-
-웹 경험을 올바르게 전달하려면 다음 설정을 정의해야 합니다.
-
-* 에서 [Adobe Experience Platform 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}를 설정하는 경우, 아래에 와 같이 정의된 데이터 스트림이 있는지 확인합니다. **[!UICONTROL Adobe Experience Platform]** 두 가지 서비스를 모두 제공합니다. **[!UICONTROL 에지 세그멘테이션]** 및 **[!UICONTROL Adobe Journey Optimizer]** 옵션이 활성화되었습니다.
-
-   이렇게 하면 Adobe Experience Platform Edge에서 Journey Optimizer 인바운드 이벤트를 올바르게 처리할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR){target="_blank"}
-
-   ![](assets/web-aep-datastream-ajo.png)
-
-   >[!NOTE]
-   >
-   >다음 **[!UICONTROL Adobe Journey Optimizer]** 옵션은 **[!UICONTROL 에지 세그멘테이션]** 옵션이 이미 활성화되어 있습니다.
-
-* in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
-
-   이 병합 정책은 [!DNL Journey Optimizer] 에지에서 인바운드 캠페인을 올바르게 활성화하고 게시할 수 있는 인바운드 채널입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
-
-   ![](assets/web-aep-merge-policy.png)
+[이 비디오에서 웹 캠페인을 만드는 방법을 알아봅니다](#video)
 
 ## 웹 캠페인 만들기 {#create-web-campaign}
 
@@ -76,15 +33,17 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="페이지 일치 규칙 작성"
->abstract="페이지 일치 규칙을 사용하면 전체 웹 사이트의 히어로 배너에 변경 사항을 적용하거나 웹 사이트의 모든 제품 페이지에 표시되는 상단 이미지를 추가하려는 경우와 같이 동일한 규칙과 일치하는 여러 URL을 대상으로 지정할 수 있습니다."
+>abstract="페이지 일치 규칙을 사용하면 동일한 규칙과 일치하는 여러 URL을 타깃팅할 수 있습니다. 예를 들어, 전체 웹 사이트에 히어로 배너에 변경 사항을 적용하거나 웹 사이트의 모든 제품 페이지에 표시되는 상위 이미지를 추가하려면 을 사용하십시오."
 
 캠페인을 통해 웹 경험 작성을 시작하려면 아래 단계를 따르십시오.
+
+>[!NOTE]
+>
+>웹 경험을 처음 만드는 경우에는 다음에 설명된 전제 조건을 따라야 합니다. [이 섹션](web-prerequisites.md).
 
 1. 캠페인 만들기. [자세히 알아보기](../campaigns/create-campaign.md)
 
 1. 을(를) 선택합니다 **[!UICONTROL 웹]** 작업.
-
-   ![](assets/web-create-campaign.png)
 
 1. 웹 표면 정의.
 
@@ -96,7 +55,7 @@ ht-degree: 15%
 
    ![](assets/web-campaign-surface.png)
 
-1. 또는 **[!UICONTROL 페이지 일치 규칙]** 동일한 규칙과 일치하는 여러 URL을 타깃팅하려면, 예를 들어 전체 웹 사이트 전체에서 히어로 배너에 변경 사항을 적용하거나 웹 사이트의 모든 제품 페이지에 표시되는 최상위 이미지를 추가하려는 경우.
+1. 또는 **[!UICONTROL 페이지 일치 규칙]** 동일한 규칙과 일치하는 여러 URL을 타깃팅하려면, 예를 들어 전체 웹 사이트에 히어로 배너에 변경 사항을 적용하거나 웹 사이트의 모든 제품 페이지에 표시되는 최상위 이미지를 추가하십시오.
 
    이렇게 하려면 을(를) 선택합니다. **[!UICONTROL 페이지 일치 규칙]** 을(를) 클릭합니다. **[!UICONTROL 규칙 만들기]**.
 
@@ -112,47 +71,13 @@ ht-degree: 15%
 
    ![](assets/web-pages-matching-rule-example.png)
 
-1. 웹 서피스를 정의했으면 다음을 선택합니다 **[!UICONTROL 만들기]**. 이제 캠페인 속성 및 설정을 구성할 수 있습니다.
+1. 웹 서피스를 정의했으면 다음을 선택합니다 **[!UICONTROL 만들기]**.
 
-## 웹 캠페인 구성 {#configure-web-campaign}
+1. 캠페인 속성과 같은 웹 캠페인을 만드는 단계를 완료합니다. [대상자](../segment/about-segments.md), 및 [예약](../campaigns/create-campaign.md#schedule).
 
-1. 에서 **[!UICONTROL 속성]** 탭에서 캠페인 이름을 편집하고 필요한 경우 설명을 추가할 수 있습니다.
+   ![](assets/web-campaign-steps.png)
 
-   ![](assets/web-campaign-properties.png)
-
-1. 사용자 지정 또는 핵심 데이터 사용 레이블을 웹 캠페인에 지정하려면 **[!UICONTROL 액세스 관리]** 단추를 클릭합니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../administration/object-based-access.md)
-
-1. 선택할 수 있습니다 **[!UICONTROL 컨텐츠 실험]** 특정 지표에 대해 가장 적합한 처리를 확인하기 위해 대상자의 일부와 함께 컨텐츠 처리를 테스트하십시오. [자세히 알아보기](../campaigns/content-experiment.md)
-
-   >[!AVAILABILITY]
-   >
-   >다음 **컨텐츠 실험** 기능은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
-
-1. 에서 **[!UICONTROL 작업]** 캠페인의 탭에서 을 선택합니다. **[!UICONTROL 컨텐츠 편집]** 웹 캠페인 작성을 시작하려면 다음을 수행하십시오. [자세히 알아보기](author-web.md)
-
-   ![](assets/web-edit-content.png)
-
-1. 에서 **[!UICONTROL Audience]** 탭에서 웹 캠페인을 볼 수 있는 사용자를 정의합니다. 기본적으로 웹 캠페인은 모든 방문자에게 표시됩니다.
-
-   ![](assets/web-campaign-audience.png)
-
-   특정 대상을 선택할 수도 있습니다. 를 사용하십시오 **[!UICONTROL 대상 선택]** 사용 가능한 Adobe Experience Platform 세그먼트 목록을 표시하는 단추. [세그먼트에 대해 자세히 알아보기](../segment/about-segments.md)
-
-   >[!NOTE]
-   >
-   >API로 트리거되는 캠페인의 경우 API 호출을 통해 대상을 설정해야 합니다. [자세히 알아보기](../campaigns/api-triggered-campaigns.md)
-
-   ![](assets/web-campaign-select-audience.png)
-
-1. 에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하는 데 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
-
-1. 정의 **[!UICONTROL 예약]** 참조하십시오. [자세히 알아보기](../campaigns/create-campaign.md#schedule)
-
-   ![](assets/web-campaign-schedule.png)
-
-   기본적으로 수동으로 활성화하면 시작되고 수동으로 중지되면 종료되지만, 수정 사항이 표시될 특정 날짜 및 시간을 정의할 수도 있습니다.
-
-   ![](assets/web-campaign-schedule-start.png)
+캠페인 구성 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md).
 
 ## 웹 캠페인 활성화 {#activate-web-campaign}
 
@@ -164,9 +89,7 @@ ht-degree: 15%
 
 1. 웹 캠페인에서 를 선택합니다 **[!UICONTROL 활성화 검토]**.
 
-   ![](assets/web-campaign-review.png)
-
-1. 필요한 경우 컨텐츠, 속성, 서피스, 대상 및 일정을 검토하고 편집합니다.
+1. 필요한 컨텐츠, 속성, 서피스, 대상 및 일정을 확인하고 편집합니다.
 
 1. 선택 **[!UICONTROL 활성화]**.
 
@@ -201,3 +124,9 @@ ht-degree: 15%
 >[!NOTE]
 >
 >웹 캠페인이 중지되면 다시 편집하거나 활성화할 수 없습니다. 복제하고 복제된 캠페인만 활성화할 수 있습니다.
+
+## 방법 비디오{#video}
+
+아래 비디오에서는 웹 캠페인을 만들고, 속성을 구성하고, 검토하고, 게시하는 방법을 보여줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

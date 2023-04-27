@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b86e42f95e92d4fad3d20bfbab329ae6d80c2d50
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 92%
 
 ---
 
@@ -43,6 +43,11 @@ ht-degree: 100%
 
 ## 여정 보호  {#journeys-guardrails}
 
+### 일반 여정 가드 레일 {#journeys-guardrails-journeys}
+
+* 여정의 활동 수는 50개로 제한됩니다. 활동 수가 여정 캔버스의 왼쪽 위 섹션에 표시됩니다.
+* 숫자 **라이브 여정** 하나의 조직에서는 샌드박스당 100개로 제한됩니다. 이 한도에 도달하면 더 이상 새 여정을 게시할 수 없습니다.
+
 ### 일반 작업  {#general-actions-g}
 
 * 전송 제한이 없습니다. 
@@ -67,6 +72,7 @@ ht-degree: 100%
 * 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;로 시작해서는 안 됩니다.
 * IP 주소를 사용할 수 없습니다. 
 * 내부 Adobe 주소(`.adobe.*`)는 URL 및 API에 사용할 수 없습니다.
+* 기본 제공 사용자 지정 작업은 제거할 수 없습니다.
 
 ### 이벤트 {#events-g}
 
@@ -99,5 +105,6 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 ### 표현식 편집기  {#expression-editor}
 
-* 경험 이벤트 필드 그룹은 읽기 세그먼트, 세그먼트 자격 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다.
+* 경험 이벤트 필드 그룹은 읽기 세그먼트, 세그먼트 자격 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다. 새 세그먼트를 만들고 여정에서 세그먼트 내 조건을 사용해야 합니다.
+
 

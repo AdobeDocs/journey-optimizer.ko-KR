@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: campaign, 검토, 유효성 검사, 활성화, 활성화, 최적화
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -31,8 +31,6 @@ ht-degree: 7%
    ![](assets/create-campaign-alerts.png)
 
 1. 캠페인이 올바르게 구성되었는지 확인하고 를 클릭합니다. **[!UICONTROL 활성화]**.
-
-   ![](assets/create-campaign-review.png)
 
 1. 이제 캠페인이 활성화됩니다. 상태는 입니다. **[!UICONTROL 라이브]**, 또는 **[!UICONTROL 예약됨]** 시작 일자를 입력한 경우 [캠페인 상태에 대해 자세히 알아보기](get-started-with-campaigns.md#statuses).
 

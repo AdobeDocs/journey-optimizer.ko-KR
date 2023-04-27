@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '835'
 ht-degree: 20%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="샌드박스 세부 사항"
->abstract="여정을 복사할 대상 샌드박스를 선택합니다. IMS 조직 내 샌드박스만 사용할 수 있습니다."
+>abstract="여정을 복사할 대상 샌드박스를 선택합니다.  조직 내 샌드박스만 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -58,7 +58,7 @@ Journey Optimizer를 사용하여 한 샌드박스에서 다른 샌드박스로 
 
    ![](assets/copy-sandbox2.png)
 
-3. 을(를) 선택합니다 **Target 샌드박스** 드롭다운 필드에서 을 클릭합니다. IMS 조직 내 샌드박스만 사용할 수 있습니다.
+3. 을(를) 선택합니다 **Target 샌드박스** 드롭다운 필드에서 을 클릭합니다.  조직 내 샌드박스만 사용할 수 있습니다.
 
 4. 를 검토합니다. **종속 개체** 섹션을 참조하십시오. 다음은 여정에 사용되는 연결된 오브젝트 목록입니다. 목록에 이름, 오브젝트 유형과 내부 Journey Optimizer ID가 표시됩니다.
 

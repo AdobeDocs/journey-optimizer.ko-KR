@@ -11,9 +11,9 @@ role: User
 level: Beginner
 badge: label="Beta" type="Advertising"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '768'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Adobe Journey Optimizer으로 Adobe Experience Manager의 사용을 추가로 �
 
 Adobe Experience Manager 템플릿을 Adobe Journey Optimizer으로 내보내려면 아래 단계를 수행하십시오.
 
-1. Adobe Experience Manager 홈페이지에서 **[!UICONTROL 아웃바운드 마케팅]**.
+1. Adobe Experience Manager 홈페이지에서 을 선택합니다 **[!UICONTROL 아웃바운드 마케팅]**.
 
    ![](assets/aem-outbound-menu.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 17%
+source-wordcount: '507'
+ht-degree: 18%
 
 ---
 
@@ -66,9 +66,27 @@ ht-degree: 17%
 
 ## 모범 사례 {#best-practices}
 
+### 레이블 추가
+
 대부분의 활동을 통해 **[!UICONTROL 레이블]**. 그러면 캔버스에서 활동 아래에 표시되는 이름에 접미사가 추가됩니다. 이 기능은 여정에서 동일한 활동을 여러 번 사용하고 보다 쉽게 식별하려는 경우 유용합니다. 또한 오류가 발생할 경우 디버깅을 더 쉽게 수행할 수 있고 보고서를 더 쉽게 읽을 수 있도록 해줍니다. 옵션을 추가할 수도 있습니다 **[!UICONTROL 설명]**.
 
-![](assets/journey59bis.png)
+![](assets/journey-action-label.png)
+
+### 고급 매개 변수 관리 {#advanced-parameters}
+
+대부분의 활동에는 수정할 수 없는 많은 고급 및/또는 기술 매개 변수가 표시됩니다.
+
+![](assets/journey-advanced-parameters.png)
+
+가독성을 높이기 위해 **[!UICONTROL 읽기 전용 필드 숨기기]** 버튼을 클릭합니다.
+
+![](assets/journey-hide-read-only-fields.png)
+
+일부 특정 컨텍스트에서는 특정 사용을 위해 이러한 매개 변수의 값을 무시할 수 있습니다. 값을 강제 적용하려면 필드의 오른쪽에 있는 **[!UICONTROL 매개 변수 무시 활성화]** 아이콘을 클릭합니다. [자세히 알아보기](../configuration/primary-email-addresses.md#journey-parameters)
+
+![](assets/journey-enable-parameter-override.png)
+
+### 대체 경로 추가
 
 작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 상자를 선택하는 것입니다 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로 추가]**. [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 

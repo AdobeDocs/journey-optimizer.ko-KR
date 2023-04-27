@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '588'
 ht-degree: 27%
 
 ---
@@ -29,6 +29,11 @@ ht-degree: 27%
 * 를 사용하십시오 **기본 작업** 에 디자인된 메시지를 보냅니다. [!DNL Journey Optimizer] 또는 만들기 **사용자 지정 작업** 서드파티 시스템을 사용하여 메시지를 전송하는 경우
 
 * **여정 디자이너**&#x200B;를 사용하여 여러 단계 사용 사례를 빌드합니다. 시작 이벤트 또는 세그먼트 읽기 활동을 쉽게 끌어다 놓고 조건을 추가하고 개인화된 메시지를 보냅니다.
+
+
+>[!NOTE]
+>
+>여정 보호 및 제한 사항은 [이 페이지](../start/guardrails.md)
 
 ## 여정 만들기 단계{#steps-journey}
 
@@ -98,7 +103,3 @@ Adobe Journey Optimizer에는 마케터가 일대일 고객 참여와 마케팅 
 여정 버전을 개별적으로 중지할 수 있습니다. 모든 버전의 여정의 이름은 동일합니다.
 
 새 버전의 여정을 게시하면 이전 버전이 자동으로 종료되고 **닫힘** 상태. 여정 출입은 불가능합니다. 최신 버전을 중지해도 이전 버전은 닫혀 있습니다.
-
->[!NOTE]
->
->여정 버전 보호 및 제한에 대한 자세한 내용은 [이 페이지](../start/guardrails.md#journey-versions-limitations)

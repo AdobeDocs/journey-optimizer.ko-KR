@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2357'
 ht-degree: 17%
 
 ---
@@ -215,9 +215,12 @@ ht-degree: 17%
    1. 규칙이 만들어지면 **[!UICONTROL 사용자 지정 이벤트 쿼리]** 필드.
 
       ![](../assets/offer-capping-custom-event-query.png)
-   >[!CAUTION]
-   >
-   >의사 결정 이벤트를 제외한 모든 최대 가용량 이벤트의 경우, 의사 결정 관리 피드백이 자동으로 수집되지 않을 수 있으므로 데이터가 수신되는지 확인하십시오. [데이터 수집에 대해 자세히 알아보기](../data-collection/data-collection.md)
+
+>[!CAUTION]
+>
+>결정 이벤트를 제외한 모든 최대 가용량 이벤트의 경우, 의사 결정 관리 피드백을 자동으로 수집하지 않을 수 있으므로 최대 가용량 카운터가 올바르게 증가하지 않을 수 있습니다. [자세히 알아보기](../data-collection/data-collection.md)
+>
+>최대 가용량 카운터에서 각 최대 가용량 이벤트가 추적되고 계산되도록 하려면, 경험 이벤트를 수집하는 데 사용되는 스키마에 해당 이벤트에 대한 올바른 필드 그룹이 포함되어 있는지 확인하십시오. [자세히 알아보기](../data-collection/schema-requirement.md)
 
 ### 최대 가용량 수 {#capping-count}
 
@@ -245,7 +248,7 @@ ht-degree: 17%
 
    예를 들어 &#39;Platinum Credit&#39; 오퍼가 있는 은행인 경우 이 오퍼가 프로필당 5번 이상 표시되는 것을 원치 않습니다. 실제로, 사용자는 사용자가 오퍼를 5번 보았고 오퍼에 대해 행동하지 않았다면 다음 최상의 오퍼에 대해 행동할 가능성이 더 높다고 믿고 있습니다.
 
-### 빈도 제한 {#frequency-capping}
+### 빈도 설정 {#frequency-capping}
 
 다음 **[!UICONTROL 빈도]** 섹션에서 최대 가용량 카운트가 재설정되는 빈도를 정의할 수 있습니다. 이렇게 하려면 계산 기간(일별, 주별 또는 월별)을 정의하고 선택한 일/주/개월 수를 입력합니다.
 

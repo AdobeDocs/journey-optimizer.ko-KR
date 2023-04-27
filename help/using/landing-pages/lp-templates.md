@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 만들기, 템플릿
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 1. 화면의 오른쪽 상단에 있는 줄임표를 클릭합니다.
 
-1. 선택 **[!UICONTROL 디자인 템플릿 저장]** 를 클릭합니다.
+1. 선택 **[!UICONTROL 콘텐츠 템플릿으로 저장]** 를 클릭합니다.
 
    ![](assets/lp_designer-save-template.png)
 
@@ -52,7 +52,7 @@ ht-degree: 4%
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. 클릭 **[!UICONTROL 이 랜딩 페이지 사용]**.
+1. 클릭 **[!UICONTROL 이 템플릿 사용]**.
 
 1. 랜딩 페이지 디자이너를 사용하여 원하는 대로 콘텐츠를 편집합니다.
 

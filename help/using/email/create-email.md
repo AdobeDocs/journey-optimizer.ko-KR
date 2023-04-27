@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '856'
 ht-degree: 9%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 9%
 
    ![](assets/email_journey.png)
 
-<!-- The field is pre-filled, by default, with the last surface used for that channel by the user. -->
+   필드는 기본적으로 사용자가 해당 채널에 사용하는 마지막 면과 함께 미리 채워져 있습니다.
 
 >[!NOTE]
 >

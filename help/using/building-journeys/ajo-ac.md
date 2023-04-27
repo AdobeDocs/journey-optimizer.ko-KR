@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 여정, 메시지, 캠페인, 통합
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '412'
 ht-degree: 3%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 3%
 # 사용 사례: campaign v7/v8을 사용하여 메시지 보내기 {#campaign-classic-use-case}
 
 이 사용 사례에서는 Adobe Campaign Classic v7 및 Adobe Campaign v8과의 통합을 사용하여 이메일을 전송하는 데 필요한 모든 단계를 설명합니다.
+
+>[!NOTE]
+>
+>이 통합을 사용하려면 Campaign Classic 빌드 9125 이상이 있어야 합니다.
 
 먼저 Campaign에서 트랜잭션 이메일 템플릿을 만듭니다. 그런 다음 Journey Optimizer에서 이벤트, 작업 및 여정을 디자인합니다.
 

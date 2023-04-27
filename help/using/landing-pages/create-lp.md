@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 만들기, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1539'
 ht-degree: 28%
 
 ---
@@ -223,13 +223,13 @@ ht-degree: 28%
 
    테스트 프로필을 선택하는 단계는 메시지를 테스트할 때와 동일합니다. 자세한 내용은 [이 섹션](../email/preview.md#select-test-profiles).
 
-1. 을(를) 선택합니다 **[!UICONTROL 미리 보기]** 탭을 클릭하고 **[!UICONTROL 미리 보기 열기]** 랜딩 페이지를 테스트하려면 다음을 수행하십시오.
+1. 선택 **[!UICONTROL 미리 보기 열기]** 랜딩 페이지를 테스트하려면 다음을 수행하십시오.
 
    ![](assets/lp_open-preview.png)
 
 1. 랜딩 페이지의 미리 보기가 새 탭에서 열립니다. 개인화된 요소는 선택한 테스트 프로필 데이터로 대체됩니다.
 
-   ![](assets/lp_preview.png)
+   <!--![](assets/lp_preview.png)-->
 
 1. 다른 테스트 프로필을 선택하여 랜딩 페이지의 각 변형에 대한 렌더링을 미리 봅니다.
 

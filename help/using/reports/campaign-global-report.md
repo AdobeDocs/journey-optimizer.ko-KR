@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '2036'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,7 @@ Campaign 글로벌 보고서는 **[!UICONTROL 보고서 보기]** 버튼을 클�
 * [인앱](#inapp-global)
 * [푸시](#push-global)
 * [SMS](#sms-global)
+* [웹](#web-tab)
 
 캠페인 **[!UICONTROL 글로벌 보고서]** 은 캠페인의 성공 및 오류를 자세히 설명하는 서로 다른 위젯으로 구분됩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 다음을 참조하십시오 [섹션](../reports/global-report.md#modify-dashboard).
 
@@ -281,6 +282,27 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표에 대한 자�
 
 다음 **[!UICONTROL SMS - 링크별 클릭 수]** 및 **[!UICONTROL SMS - 추적 통계]** 위젯은 URL에 대한 방문자의 참여와 관련된 기본 정보를 자세히 설명합니다.
 
++++
+
+## 웹 탭 {#web-tab}
+
+캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 웹]** 탭에서는 웹 페이지에 대한 기본 정보를 자세히 설명합니다.
+
+![](assets/web-report.png)
+
++++웹 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
+
+다음 **[!UICONTROL 웹 성능]** KPI는 방문자가 웹 경험에 대한 참여를 기준으로 관련 주요 정보를 자세히 설명합니다.
+
+* **[!UICONTROL 고유 노출 횟수]**: 웹 경험이 전달된 고유 사용자 수입니다.
+
+* **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 웹 경험 수.
+
+* **[!UICONTROL 클릭률]**: 웹 페이지의 다양한 요소와 상호 작용한 방문자의 비율입니다.
+
+다음 **[!UICONTROL 웹 요약]** 그래프는 관련 기간에 대한 웹 경험(노출 횟수, 고유 노출 횟수 및 클릭 수)의 진화를 보여줍니다.
+
+다음 **[!UICONTROL 요소별 클릭 수]** 표에서는 방문자가 웹 페이지의 다양한 요소와 상호 작용하여 정보를 상세하게 설명합니다.
 +++
 
 ## 추가 리소스

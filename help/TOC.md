@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1371'
 ht-degree: 99%
 
 ---
@@ -230,10 +230,10 @@ ht-degree: 99%
    + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
 + 웹 채널{#web}
    + [웹 채널 시작하기](using/web/get-started-web.md)
+   + [웹 채널 사전 요구 사항](using/web/web-prerequisites.md)
    + [웹 경험 만들기 ](using/web/create-web.md)
    + [웹 페이지 작성 ](using/web/author-web.md)
-   + [Visual Editing Helper 확장 기능](using/web/visual-editing-helper.md)
-   + [웹 보고 ](using/web/web-report.md)
+   + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
@@ -294,12 +294,14 @@ ht-degree: 99%
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)
+      + [구성 요소 목록](using/reports/live-report-components.md)
       + [여정 라이브 보고서](using/reports/journey-live-report.md)
       + [캠페인 실시간 보고서](using/reports/campaign-live-report.md)
       + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
       + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
    + 글로벌 보고서 {#global-report}
       + [글로벌 보고서 시작](using/reports/global-report.md)
+      + [구성 요소 목록](using/reports/global-report-components.md)
       + [여정 글로벌 보고서](using/reports/journey-global-report.md)
       + [캠페인 글로벌 보고서](using/reports/campaign-global-report.md)
       + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)

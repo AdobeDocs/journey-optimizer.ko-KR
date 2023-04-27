@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 억제, 목록, 바운스, 이메일, 최적기, 격리
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 20%
+source-wordcount: '1558'
+ht-degree: 21%
 
 ---
 
@@ -24,7 +24,9 @@ ht-degree: 20%
 
 에서 억제 목록 개념 및 사용에 대해 자세히 알아보십시오 [이 섹션](../reports/suppression-list.md).
 
-
+>[!NOTE]
+>
+>Adobe은 서비스 및 메일링 신뢰도에 영향을 미치는 것으로 입증된 알려진 잘못된 주소의 업데이트된 목록을 유지하며, 이메일이 배달되지 않도록 합니다. 이 목록은 모든 Adobe 고객에게 공통으로 적용되는 글로벌 금지 목록에서 관리됩니다. 글로벌 금지 목록에 포함된 주소와 도메인 이름은 숨겨집니다. 게재 보고서에는 제외된 수신자 수만 표시됩니다.
 
 ## 제외 목록에 액세스합니다 {#access-suppression-list}
 

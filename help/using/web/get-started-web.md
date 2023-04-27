@@ -5,61 +5,77 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-badge: label="Beta" type="Advertising"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 23%
+source-wordcount: '243'
+ht-degree: 11%
 
 ---
 
 # 웹 채널 시작하기 {#get-sarted-web}
 
->[!BEGINSHADEBOX]
-
-이 설명서에서 찾을 내용:
-
-* **[웹 채널 시작하기](get-started-web.md)**
-* [웹 경험 만들기 ](create-web.md)
-* [웹 페이지 작성 ](author-web.md)
-* [Visual Editing Helper 확장 기능](visual-editing-helper.md)
-* [웹 보고 ](web-report.md)
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->웹 채널 기능은 현재 베타로 사용되어 사용자만 선택할 수 있습니다.
+>이 기능은 [!DNL Adobe Journey Optimizer] **Prime** 및 **Ultimate** [패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html).
 
 [!DNL Journey Optimizer] 에서는 개인화된 웹 경험을 시각적으로 작성 및 고객에게 제공할 수 있습니다.
 
 이메일, SMS 또는 푸시 알림과 같은 아웃바운드 채널을 이미 사용하고 있는 경우 이제 인바운드 웹 채널을 활용하여 모든 채널에 걸친 진정한 개인화된 경험을 제공할 수 있습니다.
 
+직관적인 시각적 인터페이스를 통해 이 기능을 사용하면 최종 사용자 캠페인을 실험, 최적화 및 개인화하기 위해 웹 속성을 쉽게 수정할 수 있습니다.
+
 >[!CAUTION]
 >
 >현재 [!DNL Journey Optimizer] 를 사용하여 웹 경험만 만들 수 있습니다. **캠페인**.
 
-직관적인 시각적 인터페이스를 통해 이 기능을 사용하면 최종 사용자 캠페인을 실험, 최적화 및 개인화하기 위해 웹 속성을 쉽게 수정할 수 있습니다.
+캠페인을 만든 후 **웹** 를 작업에 사용하고 기본 설정을 정의합니다. 캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../campaigns/create-campaign.md#configure).
 
-<!--
-[Learn more on web channel in this video](#video)
--->
+>[!NOTE]
+>
+>웹 경험을 처음 만드는 경우에는 다음에 설명된 전제 조건을 따라야 합니다. [이 섹션](web-prerequisites.md).
 
-<table>
-<tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">웹 경험 만들기 </a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">웹 페이지 작성 </a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">웹 보고 </a></p></td>
-</tr>
-</table>
+에서 웹 캠페인을 만드는 자세한 단계를 살펴봅니다 [이 비디오](create-web.md#video).
 
-<!--
-## How-to video{#video}
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="web-prerequisites.md">
+<img alt="리드" src="../assets/do-not-localize/web-prerequisites.jpg">
+</a>
+<div><a href="web-prerequisites.md"><strong>전제 조건</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="create-web.md">
+<img alt="드물게" src="../assets/do-not-localize/web-create.jpg">
+</a>
+<div>
+<a href="create-web.md"><strong>웹 경험 만들기</strong></a>
+</div>
+<p></td>
+<td>
+<a href="author-web.md">
+<img alt="유효성 검사" src="../assets/do-not-localize/web-design.jpg">
+</a>
+<div>
+<a href="author-web.md"><strong>웹 페이지 작성 </strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../reports/campaign-global-report.md#web-tab.md">
+<img alt="유효성 검사" src="../assets/do-not-localize/web-reporting.jpg">
+</a>
+<div>
+<a href="../reports/campaign-global-report.md#web-tab"><strong>보고</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
-The video below shows how to 
+>[!CAUTION]
+>
+>[!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타겟팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하며, 구매한 참여 가능 프로필 수의 계약 수가 초과되면 비용이 발생할 수 있습니다. 각 패키지에 대한 라이센스 지표는 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html) 페이지.
 
->[!VIDEO]()
--->
+

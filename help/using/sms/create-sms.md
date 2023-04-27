@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 14%
+source-wordcount: '578'
+ht-degree: 13%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 14%
 
    여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)
 
-<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
+   다음 **[!UICONTROL 서피스]** 필드는 기본적으로 사용자가 해당 채널에 사용하는 마지막 면과 함께 미리 채워져 있습니다.
 
 이제 에서 SMS 메시지의 콘텐츠를 디자인할 수 있습니다 **[!UICONTROL 컨텐츠 편집]** 버튼을 클릭합니다. [SMS 콘텐츠 정의](#sms-content)
 

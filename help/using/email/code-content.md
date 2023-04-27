@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 코드, HTML, 편집기
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 8%
+source-wordcount: '195'
+ht-degree: 6%
 
 ---
 
@@ -36,9 +36,13 @@ ht-degree: 8%
 
    ![](assets/code-editor.png)
 
-1. 이메일 디자이너를 열어 새 디자인에서 전자 메일을 시작하려면 **[!UICONTROL 디자인 변경]** 옵션 메뉴에서 을 클릭합니다.
+1. 이메일 콘텐츠를 지우고 새 디자인에서 이메일을 시작하려면 다음을 선택합니다 **[!UICONTROL 디자인 변경]** 옵션 메뉴에서 을 클릭합니다.
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >선택한 템플릿을 전자 메일 디자이너에서 엽니다. 거기에서 이메일의 디자인을 완료하거나 를 사용하여 코드 편집기로 돌아갈 수 있습니다 **[!UICONTROL 코드 편집기로 전환]** 선택 사항입니다.
 
 1. 을(를) 클릭합니다. **[!UICONTROL 미리 보기]** 테스트 프로필을 사용하여 메시지 디자인 및 개인화를 확인하는 단추입니다. [자세히 알아보기](preview.md)
 

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 설정, 전자 메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 9%
+source-wordcount: '1739'
+ht-degree: 8%
 
 ---
 
@@ -243,9 +243,23 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL 이름]** 및 **[!UICO
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-각 항목을 편집할 수도 있습니다 **[!UICONTROL 값]** 필드를 사용하여 [표현식 편집기](../personalization/personalization-build-expressions.md). 편집 아이콘을 클릭하여 편집기를 엽니다. 여기에서 원하는 컨텍스트 속성을 선택하거나 텍스트를 직접 편집할 수 있습니다.
+각 항목을 편집할 수도 있습니다 **[!UICONTROL 값]** 필드를 사용하여 [표현식 편집기](../personalization/personalization-build-expressions.md). 편집 아이콘을 클릭하여 편집기를 엽니다. 여기에서 사용 가능한 컨텍스트 속성을 선택하거나 텍스트를 직접 편집할 수 있습니다.
 
 ![](assets/preset-url-tracking-editor.png)
+
+다음 사전 정의된 값은 표현식 편집기를 통해 사용할 수 있습니다.
+
+* **소스 작업 ID**: 여정 또는 캠페인에 추가된 이메일 작업의 ID입니다.
+
+* **소스 작업 이름**: 여정 또는 캠페인에 추가된 이메일 작업의 이름입니다.
+
+* **소스 ID**: 이메일을 보낸 여정 또는 캠페인의 ID입니다.
+
+* **소스 이름**: 이메일을 보낸 여정 또는 캠페인의 이름입니다.
+
+* **소스 버전 ID**: 이메일을 보낸 여정 또는 캠페인 버전의 ID입니다.
+
+* **오퍼 ID**: 이메일에 사용된 오퍼의 ID입니다.
 
 >[!NOTE]
 >

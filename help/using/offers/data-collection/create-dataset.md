@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 12%
+source-wordcount: '263'
+ht-degree: 10%
 
 ---
 
@@ -20,11 +20,9 @@ ht-degree: 12%
 
 먼저 데이터 세트에 사용할 스키마를 만듭니다.
 
-1. 에서 **[!UICONTROL 데이터 관리]** 메뉴, 선택 **[!UICONTROL 스키마]**&#x200B;로 이동합니다. **[!UICONTROL 찾아보기]** 탭을 클릭하고 **[!UICONTROL 스키마 만들기]**.
+1. 에서 **[!UICONTROL 데이터 관리]** 메뉴, 선택 **[!UICONTROL 스키마]** 그리고 **[!UICONTROL 찾아보기]** 탭.
 
-   ![](../assets/ai-ranking-create-schema.png)
-
-1. 선택 **[!UICONTROL XDM ExperienceEvent]**.
+1. 클릭 **[!UICONTROL 스키마 만들기]** 및 **[!UICONTROL XDM ExperienceEvent]**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -36,20 +34,15 @@ ht-degree: 12%
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. 에서 **[!UICONTROL 검색]** 필드를 입력하고 &quot;제안 상호 작용&quot;을 입력하고 을 선택합니다 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹.
+1. 에서 **[!UICONTROL 검색]** 필드에 &quot;제안 상호 작용&quot;을 입력합니다.
 
-   ![](../assets/ai-ranking-proposition-interactions.png)
+1. 을(를) 선택합니다 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹 을 클릭하고 **[!UICONTROL 필드 그룹 추가]**.
+
+   ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
    >데이터 집합에 사용할 스키마에는 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 연결된 필드 그룹입니다. 그렇지 않으면 순위 전략에서 사용할 수 없습니다.
-
-1. 클릭 **[!UICONTROL 필드 그룹 추가]**.
-
-   ![](../assets/ai-ranking-add-field-group.png)
-
-   >[!NOTE]
-   >필드 그룹은 이전에 mixin이라고 불렀습니다.
 
 1. 이름을 입력하고 스키마를 저장합니다.
 
@@ -59,19 +52,13 @@ ht-degree: 12%
 
 이제 이 스키마를 사용하여 데이터 세트를 만들 준비가 되었습니다. 이렇게 하려면 아래 단계를 수행합니다:
 
-1. 에서 **[!UICONTROL 데이터 관리]** 메뉴, 선택 **[!UICONTROL 데이터 세트]**&#x200B;로 이동합니다. **[!UICONTROL 찾아보기]** 탭을 클릭하고 **[!UICONTROL 데이터 집합 만들기]**.
+1. 에서 **[!UICONTROL 데이터 관리]** 메뉴, 선택 **[!UICONTROL 데이터 세트]** 그리고 **[!UICONTROL 찾아보기]** 탭.
 
-   ![](../assets/ai-ranking-create-dataset.png)
-
-1. **[!UICONTROL 스키마에서 데이터 세트 만들기]**&#x200B;를 선택합니다.
+1. 클릭 **[!UICONTROL 데이터 집합 만들기]** 을(를) 선택합니다. **[!UICONTROL 스키마에서 데이터 집합 만들기]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. 목록에서 방금 만든 스키마를 선택합니다.
-
-   ![](../assets/ai-ranking-dataset-select-schema.png)
-
-1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. 목록에서 방금 만든 스키마를 선택하고 **[!UICONTROL 다음]**.
 
 1. 에서 데이터 세트에 대한 고유한 이름을 제공합니다 **[!UICONTROL 이름]** 필드를 입력하고 **[!UICONTROL 완료]**.
 

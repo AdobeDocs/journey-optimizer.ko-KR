@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: 작업, 사용자 지정, API, 여정, 구성, 서비스
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 24%
+source-wordcount: '400'
+ht-degree: 25%
 
 ---
 
@@ -55,18 +55,13 @@ URL에 동적 경로가 포함된 경우에는 경로에 **[!UICONTROL 경로]**
 
 ![](assets/journey-custom-action-url.png)
 
-### 헤더
+### 헤더 및 쿼리 매개 변수 {#headers}
 
-다음 **[!UICONTROL URL 구성]** 섹션에는 동적 헤더 필드가 표시되지만, 상수 헤더 필드는 표시되지 않습니다. 동적 헤더 필드는 값이 변수로 구성되는 HTTP 헤더 필드입니다. [자세히 알아보기](../action/about-custom-action-configuration.md).
+다음 **[!UICONTROL URL 구성]** 섹션에는 동적 머리글 및 쿼리 매개 변수 필드가 표시되지만 상수 필드는 표시되지 않습니다. 동적 헤더 및 쿼리 매개 변수 필드는 작업 구성 화면에서 변수로 정의됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#url-configuration)
 
-필요한 경우 다이내믹 헤더 필드의 값을 지정합니다.
+동적 머리글 및 쿼리 매개 변수 필드의 값을 지정하려면 필드 내에서나 연필 아이콘을 클릭하고 원하는 필드를 선택합니다.
 
-1. 여정에서 사용자 지정 작업을 선택합니다.
-1. 구성 창에서 페이지의 헤더 필드 옆에 있는 연필 아이콘을 클릭합니다 **[!UICONTROL URL 구성]** 섹션을 참조하십시오.
-
-   ![](assets/journey-dynamicheaderfield.png)
-
-1. 필드를 선택하고 을(를) 클릭합니다 **[!UICONTROL 확인]**.
+![](assets/journey-dynamicheaderfield.png)
 
 ## 작업 매개 변수
 

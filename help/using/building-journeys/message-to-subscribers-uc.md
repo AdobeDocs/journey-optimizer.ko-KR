@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 사용 사례, 메시지, 구독자, 목록, 읽기
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 4%
+source-wordcount: '331'
+ht-degree: 17%
 
 ---
 
@@ -56,3 +56,7 @@ ht-degree: 4%
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. 에서 **[!UICONTROL 표현식 추가]** 대화 상자 **[!UICONTROL 확인]**.
+
+>[!CAUTION]
+>
+>이메일 주소 재정의는 특정 사용 사례에만 사용해야 합니다. 대부분의 경우 **[!UICONTROL 실행 필드]**&#x200B;에 기본 주소로 정의된 값을 사용해야 하므로 이메일 주소를 변경할 필요가 없습니다. [자세히 알아보기](../configuration/primary-email-addresses.md)

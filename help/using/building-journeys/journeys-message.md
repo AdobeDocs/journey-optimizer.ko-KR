@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '894'
 ht-degree: 22%
 
 ---
@@ -85,6 +85,10 @@ ht-degree: 22%
 ![](assets/add-a-message2.png)
 
 하지만 개인화에 사용되는 속성이 프로필 속성이든 컨텍스트 데이터(이벤트 또는 여정 속성에서)이든 간에 변경할 수 없습니다.
+
+컨텍스트 데이터를 수정한 경우 다음 오류 메시지가 표시됩니다. ERR_AUTHORING_JOURNEYVERSION_201
+
+프로필 속성을 수정하면 다음 오류 메시지가 표시됩니다. ERR_AUTHORING_JOURNEYVERSION_202
 
 인앱 활동의 경우, 여정이 라이브 상태인 동안에는 컨텐츠를 변경할 수 있지만 인앱 트리거는 수정할 수 없습니다.
 

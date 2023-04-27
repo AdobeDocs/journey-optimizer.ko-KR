@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 2%
@@ -16,11 +16,11 @@ ht-degree: 2%
 
 # 데이터 수집 구성 {#schema-requirements}
 
-<!--To send in feedback data, you must define how the experience events will be captured.-->
-
 결정 이벤트 이외의 이벤트 유형에 대한 피드백을 받으려면 페이지의 각 이벤트 유형에 대해 올바른 값을 설정해야 합니다 **경험 이벤트** Adobe Experience Platform으로 전송됩니다.
 
-각 이벤트 유형에 대해 데이터 집합에 사용되는 스키마에 가 있는지 확인합니다 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 연결된 필드 그룹입니다. [자세히 알아보기](create-dataset.md)
+>[!CAUTION]
+>
+>각 이벤트 유형에 대해 데이터 집합에 사용되는 스키마에 가 있는지 확인합니다 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 연결된 필드 그룹입니다. [자세히 알아보기](create-dataset.md)
 
 다음은 JavaScript 코드에 구현해야 하는 스키마 요구 사항입니다.
 

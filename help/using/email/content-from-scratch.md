@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: 컨텐츠, 편집기, 이메일, 시작
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '654'
 ht-degree: 31%
 
 ---
 
-# 처음부터 컨텐츠 디자인 {#content-from-scratch}
+# 콘텐츠를 처음부터 디자인하기 {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
@@ -110,13 +110,11 @@ Adobe Journey Optimizer 디자이너를 사용하여 콘텐츠 구조를 쉽게 
 
    ![](assets/email_designer_links.png)
 
-1. 필요한 경우 **[!UICONTROL 코드 편집기로 전환]** 맨 위에서 **자세히** 버튼을 클릭합니다. [코드 편집기에 대해 자세히 알아보기](code-content.md)
-
-   ![](assets/email_designer_switch-to-code.png)
+1. 필요한 경우 **[!UICONTROL 코드 편집기로 전환]** 고급 메뉴에서 을 클릭합니다. 이를 통해 추적 또는 사용자 지정 HTML 태그를 추가하는 등의 이메일 소스 코드를 편집할 수 있습니다. [코드 편집기에 대해 자세히 알아보기](code-content.md)
 
    >[!CAUTION]
    >
-   >코드 편집기로 전환한 후에는 이 컨텐츠의 시각적 디자이너로 다시 되돌릴 수 없습니다.
+   >코드 편집기로 전환한 후에는 이 이메일의 시각적 디자이너로 다시 되돌릴 수 없습니다.
 
 1. 콘텐츠가 준비되면 **[!UICONTROL 컨텐츠 시뮬레이션]** 렌더링을 확인하는 단추입니다. 데스크탑 또는 모바일 보기를 선택할 수 있습니다. [이메일 미리 보기에 대한 자세한 정보](preview.md)
 

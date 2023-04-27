@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 8%
+source-wordcount: '1049'
+ht-degree: 7%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 8%
 * [이메일](#email-live)
 * [푸시](#push-live)
 * [SMS](#sms-live)
+* [웹](#web-tab)
 
 캠페인 **[!UICONTROL 라이브 보고서]** 은 캠페인의 성공 및 오류를 자세히 설명하는 서로 다른 위젯으로 구분됩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 다음을 참조하십시오 [섹션](../reports/live-report.md#modify-dashboard).
 
@@ -162,6 +163,25 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL 오류]**: 게재 중에 발생한 총 오류로 인해 프로필이 전송되지 않았습니다.
 
 다음 **[!UICONTROL 제외 이유]**, **[!UICONTROL 바운스 수 이유]** 및 **[!UICONTROL 오류 이유]** 그래프 및 표를 사용하면 게재 중에 발생한 오류와 제외를 확인할 수 있습니다.
++++
+
+## 웹 탭 {#web-tab}
+
+캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 웹]** 탭에서는 웹 페이지에 대한 기본 정보를 자세히 설명합니다.
+
++++웹 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
+
+다음 **[!UICONTROL 웹 성능]** KPI는 방문자가 웹 경험에 대한 참여를 기준으로 관련 주요 정보를 자세히 설명합니다.
+
+* **[!UICONTROL 고유 노출 횟수]**: 웹 경험이 전달된 고유 사용자 수입니다.
+
+* **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 웹 경험 수.
+
+* **[!UICONTROL 클릭 수]**: 총 URL 방문 횟수.
+
+다음 **[!UICONTROL 웹 요약]** 그래프는 관련 기간에 대한 웹 경험(노출 횟수, 고유 노출 횟수 및 클릭 수)의 진화를 보여줍니다.
+
+다음 **[!UICONTROL 요소별 클릭 수]** 표에서는 방문자가 웹 페이지의 다양한 요소와 상호 작용하여 정보를 상세하게 설명합니다.
 +++
 
 ## 추가 리소스

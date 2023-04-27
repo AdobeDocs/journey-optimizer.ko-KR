@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 10%
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
 
@@ -21,10 +21,8 @@ ht-degree: 10%
 
 데이터 세트를 클릭하여 세부 정보에 액세스합니다.
 
+다음 **[!UICONTROL 데이터 세트 미리 보기]** 버튼을 사용하면 데이터 세트에 가장 최근 성공한 배치를 표시할 수 있습니다.
+
 ![](../assets/dataset-activity.png)
-
-다음 **[!UICONTROL 데이터 세트 미리 보기]** 버튼을 사용하면 데이터 세트에 가장 최근 성공한 배치를 표시할 수 있습니다. 왼쪽 창에는 내보낸 데이터 유형에 대한 정보가 표시됩니다.
-
-![](../assets/dataset-preview.png)
 
 데이터 세트를 찾고 사용하는 방법에 대한 자세한 내용은 [이 페이지](../../data/get-started-datasets.md).

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '699'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 15%
 
    ![](assets/push_create_1.png)
 
-1. 메시지(레이블, 설명, 카테고리)에 대한 기본 정보를 제공한 다음 사용할 메시지 면을 선택합니다.
+1. 메시지(레이블, 설명, 카테고리)에 대한 기본 정보를 제공한 다음 사용할 메시지 면을 선택합니다. 다음 **[!UICONTROL 서피스]** 필드는 기본적으로 사용자가 해당 채널에 사용하는 마지막 면과 함께 미리 채워져 있습니다.
 
    ![](assets/push_create_2.png)
 
