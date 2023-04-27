@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c2ce36d65df939f2445f783eea7376b0765bdcd7
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1858'
 ht-degree: 82%
 
 ---
@@ -22,14 +22,13 @@ ht-degree: 82%
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
 
-## 2023년 4월 초기 릴리스 노트 {#apr-e-rn-2023}
+## 2023년 4월 릴리스 노트 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
 **Release date**: April 27, 2023-->
 
 ### 새로운 기능{#apr-2023-features}
-
 
 <table>
 <thead>
