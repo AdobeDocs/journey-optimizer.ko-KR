@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 설정, 전자 메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
+source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1779'
 ht-degree: 8%
 
 ---
@@ -263,3 +263,7 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL 이름]** 및 **[!UICO
 결과 추적 URL을 동적으로 미리 볼 수 있습니다. 매개 변수를 추가, 편집 또는 제거할 때마다 미리 보기가 자동으로 업데이트됩니다.
 
 ![](assets/preset-url-tracking-preview.png)
+
+>[!NOTE]
+>
+>전자 메일 콘텐츠에 있는 링크에 동적 개인화된 추적 매개 변수를 추가할 수도 있지만 지표 수준에서는 불가능합니다. 이메일 디자이너를 사용하여 메시지를 작성할 때는 이를 수행해야 합니다. [자세히 알아보기](message-tracking.md#url-tracking)
