@@ -4,7 +4,7 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
 workflow-type: tm+mt
 source-wordcount: '2711'
 ht-degree: 94%
@@ -23,7 +23,7 @@ ht-degree: 94%
 * 여정 메시지에 사용 중인 오퍼 결정을 변경한 경우 여정을 게시 취소하고 다시 게시해야 한다는 메모가 추가되었습니다. [자세히 보기](../building-journeys/publishing-the-journey.md)
 * 최대 가용량 카운터에서 이벤트가 올바로 계산되도록 하는 방법에 대한 설명이 의사 결정 관리에서 명확해졌습니다 **최대 가용량 이벤트** 섹션을 참조하십시오. [자세히 보기](../offers/offer-library/add-constraints.md#capping-event)
 * 새 섹션이 **실행 주소 변경** 페이지. 여정 고급 매개 변수에서 전역적으로 설정된 실행 필드를 무시할 수 있음을 지정하지만 이메일 주소 무시는 특정 사용 사례에만 사용해야 합니다. 대부분의 경우 **실행 필드**&#x200B;에서 기본 주소로 정의된 값을 사용해야 합니다. [자세히 알아보기](../configuration/primary-email-addresses.md#journey-parameters)
-* 다음 **URL 추적** 이제 이메일 채널 지표에서 URL 추적을 위해 설정할 수 있는 모든 컨텍스트 속성의 목록 및 설명을 제공합니다. [자세히 보기](../offers/offer-library/add-constraints.md)
+* 다음 **URL 추적** 이제 이메일 채널 지표에서 URL 추적을 위해 설정할 수 있는 모든 컨텍스트 속성의 목록 및 설명을 제공합니다. [자세히 보기](../email/email-settings.md#url-tracking)
 
 ## 2023년 3월 {#march-2023}
 
