@@ -11,8 +11,8 @@ keywords: 링크, 추적, 모니터, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
