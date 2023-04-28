@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 링크, 추적, 모니터, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 6%
+source-wordcount: '885'
+ht-degree: 5%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-management): 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)가에 정의되어 있습니다. [채널 표면](../configuration/channel-surfaces.md#email-type) (즉, 메시지 사전 설정) 메시지를 만들 때 사용됩니다.
+>마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-management): 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)가에 정의되어 있습니다. [채널 표면](../configuration/channel-surfaces.md#email-type) 메시지를 만들 때
 
 ## 미러 페이지에 대한 링크 {#mirror-page}
 
@@ -132,3 +132,29 @@ ht-degree: 6%
    * **[!UICONTROL 절대 안 함]**: 이 URL의 추적을 활성화하지 않습니다. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 시작 및 클릭에 대한 보고는 [라이브 보고서](../reports/live-report.md) 그리고 [글로벌 보고서](../reports/global-report.md).
+
+## URL 추적 {#url-tracking}
+
+보통 [URL 추적](email-settings.md#url-tracking) 은 서피스 레벨에서 관리되지만 프로파일 속성은 지원되지 않습니다. 현재 이 작업을 수행하는 유일한 방법은 다음과 같습니다 [URL 개인화](../personalization/personalization-syntax.md#perso-urls) 이메일 디자이너에서.
+
+개인화된 URL 추적 매개 변수를 링크에 추가하려면 아래 단계를 따르십시오.
+
+1. 링크를 선택하고 를 클릭합니다 **[!UICONTROL 링크 삽입]** 상황별 도구 모음
+
+1. 개인화 아이콘을 선택합니다. 이 변수는 다음 유형의 링크에만 사용할 수 있습니다. **외부 링크**, **구독 취소 링크** 및 **옵트아웃**.
+
+   ![](assets/message-tracking-insert-link-perso.png)
+
+1. URL 추적 매개 변수를 추가하고 표현식 편집기에서 선택한 프로필 속성을 선택합니다.
+
+   ![](assets/message-tracking-perso-parameter.png)
+
+1. 변경 내용을 저장합니다.
+
+1. 이 추적 매개 변수를에 추가할 각 링크에 대해 위의 단계를 반복합니다.
+
+이제 이메일이 전송되면 이 매개 변수가 URL 끝에 자동으로 추가됩니다. 그런 다음 웹 분석 도구 또는 성능 보고서에서 이 매개 변수를 캡처할 수 있습니다.
+
+>[!NOTE]
+>
+>최종 URL을 확인하려면 [증명 보내기](preview.md#send-proofs) 증명을 받은 후 이메일 콘텐츠에서 링크를 클릭합니다. URL에 추적 매개 변수가 표시됩니다. 위의 예에서 최종 URL은 다음과 같습니다. https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
