@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 설정, 전자 메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
+source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 8%
@@ -224,26 +224,11 @@ On [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTRO
 
 이 섹션에 정의된 매개 변수가 이메일 메시지 콘텐츠에 포함된 URL의 끝에 추가됩니다. 그런 다음 Adobe Analytics 또는 Google Analytics과 같은 웹 분석 도구에서 이러한 매개 변수를 캡처하고 다양한 성능 보고서를 만들 수 있습니다.
 
-<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
-
 를 사용하여 최대 10개의 추적 매개 변수를 추가할 수 있습니다 **[!UICONTROL 새 매개 변수 추가]** 버튼을 클릭합니다.
 
 ![](assets/preset-url-tracking.png)
 
 URL 추적 매개 변수를 구성하려면 **[!UICONTROL 이름]** 및 **[!UICONTROL 값]** 필드.
-
-<!--You can also choose from a list of predefined values by navigating to the following objects:
-* Journey attributes: **Source id**, **Source name**, **Source version id**
-* Action attributes: **Action id**, **Action name**
-* Offer decisioning attributes: **Offer id**, **Offer name**
-
-
-
->[!CAUTION]
->
->Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
-
-![](assets/preset-url-tracking-source.png)
 
 각 항목을 편집할 수도 있습니다 **[!UICONTROL 값]** 필드를 사용하여 [표현식 편집기](../personalization/personalization-build-expressions.md). 편집 아이콘을 클릭하여 편집기를 엽니다. 여기에서 사용 가능한 컨텍스트 속성을 선택하거나 텍스트를 직접 편집할 수 있습니다.
 
