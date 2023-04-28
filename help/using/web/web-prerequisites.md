@@ -5,14 +5,15 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '835'
 ht-degree: 11%
 
 ---
 
-# 웹 채널 사전 요구 사항 {#web-prerequisites}
+# 사전 요구 사항 및 보호 기능 {#web-prerequisites}
 
 에서 웹 페이지에 액세스하여 작성할 수 있도록 하려면 [!DNL Journey Optimizer] 사용자 인터페이스에서 아래 전제 조건을 따르십시오.
 
@@ -21,6 +22,13 @@ ht-degree: 11%
 * 에 액세스하려면 [!DNL Journey Optimizer] 웹 디자이너는 특정 Google Chrome 브라우저 확장 프로그램이 설치되어 있어야 합니다. [자세히 알아보기](#visual-authoring-prerequesites)
 
 * 웹 경험이 올바르게 전달되도록 하려면 Adobe Experience Platform 설정을 자세히 정의해야 합니다 [여기](#delivery-prerequisites).
+
+## 주의 사항
+
+현재 [!DNL Journey Optimizer] 를 사용하여 웹 경험만 만들 수 있습니다. **캠페인**. [자세히 알아보기](../campaigns/create-campaign.md#configure)
+
+
+[!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타겟팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하며, 구매한 참여 가능 프로필 수의 계약 수가 초과되면 비용이 발생할 수 있습니다. 각 패키지에 대한 라이센스 지표는 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html) 페이지.
 
 ## 구현 사전 요구 사항 {#implementation-prerequisites}
 
@@ -123,6 +131,3 @@ Visual Editing Helper 브라우저 확장 프로그램이 올바르게 설치되
 Branded domains for assets
 
 When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
-
-
-

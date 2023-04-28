@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 설정, 전자 메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 8%
@@ -237,11 +237,13 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL 이름]** 및 **[!UICO
 * Action attributes: **Action id**, **Action name**
 * Offer decisioning attributes: **Offer id**, **Offer name**
 
-![](assets/preset-url-tracking-source.png)
+
 
 >[!CAUTION]
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
+
+![](assets/preset-url-tracking-source.png)
 
 각 항목을 편집할 수도 있습니다 **[!UICONTROL 값]** 필드를 사용하여 [표현식 편집기](../personalization/personalization-build-expressions.md). 편집 아이콘을 클릭하여 편집기를 엽니다. 여기에서 사용 가능한 컨텍스트 속성을 선택하거나 텍스트를 직접 편집할 수 있습니다.
 

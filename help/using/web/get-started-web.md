@@ -6,28 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '160'
 ht-degree: 11%
 
 ---
 
 # 웹 채널 시작하기 {#get-sarted-web}
 
->[!AVAILABILITY]
->
->이 기능은 [!DNL Adobe Journey Optimizer] **Prime** 및 **Ultimate** [패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html).
-
 [!DNL Journey Optimizer] 에서는 개인화된 웹 경험을 시각적으로 작성 및 고객에게 제공할 수 있습니다.
-
-이메일, SMS 또는 푸시 알림과 같은 아웃바운드 채널을 이미 사용하고 있는 경우 이제 인바운드 웹 채널을 활용하여 모든 채널에 걸친 진정한 개인화된 경험을 제공할 수 있습니다.
 
 직관적인 시각적 인터페이스를 통해 이 기능을 사용하면 최종 사용자 캠페인을 실험, 최적화 및 개인화하기 위해 웹 속성을 쉽게 수정할 수 있습니다.
 
->[!CAUTION]
->
->현재 [!DNL Journey Optimizer] 를 사용하여 웹 경험만 만들 수 있습니다. **캠페인**.
+이메일, SMS 또는 푸시 알림과 같은 아웃바운드 채널을 이미 사용하고 있는 경우 이제 인바운드 웹 채널을 활용하여 모든 채널에 걸친 진정한 개인화된 경험을 제공할 수 있습니다.
 
 캠페인을 만든 후 **웹** 를 작업에 사용하고 기본 설정을 정의합니다. 캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../campaigns/create-campaign.md#configure).
 
@@ -73,9 +65,5 @@ ht-degree: 11%
 <p>
 </td>
 </tr></table>
-
->[!CAUTION]
->
->[!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타겟팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하며, 구매한 참여 가능 프로필 수의 계약 수가 초과되면 비용이 발생할 수 있습니다. 각 패키지에 대한 라이센스 지표는 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html) 페이지.
 
 

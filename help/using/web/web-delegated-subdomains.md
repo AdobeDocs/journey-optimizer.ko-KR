@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 웹, 하위 도메인, 구성
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
+source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -29,8 +30,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="기본 하위 도메인 설정"
->abstract="여러 웹 하위 도메인을 만들 수 있지만 기본 하위 도메인만 사용됩니다. 기본 웹 하위 도메인을 변경할 수 있지만 한 번에 하나만 사용할 수 있습니다."
+>title="웹 하위 도메인 설정"
+>abstract="Adobe에 위임된 하위 도메인 목록에서 하위 도메인을 선택합니다. 이 웹 하위 도메인을 기본 하위 도메인으로 설정할 수 있지만 한 번에 하나의 기본 하위 도메인만 사용할 수 있습니다."
 
 웹 경험을 작성할 때 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 라이브러리에서는 이 컨텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다.
 
@@ -67,11 +68,15 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >전용 **기본** 하위 도메인이 사용됩니다. 기본 웹 하위 도메인을 변경할 수 있지만 한 번에 하나만 사용할 수 있습니다.
+   >전용 **기본** 하위 도메인이 사용됩니다.
 
 1. **[!UICONTROL 제출을 클릭합니다]**. 하위 도메인은 을 가져옵니다 **[!UICONTROL 성공]** 상태. 웹 경험에 사용할 준비가 되었습니다.
 
 1. 다음 **[!UICONTROL 기본값]** 현재 기본값으로 사용되는 하위 도메인 옆에 배지가 표시됩니다. 기본 하위 도메인을 변경하려면 **[!UICONTROL 기본값으로 설정]** 에서 **[!UICONTROL 추가 작업]** 원하는 하위 도메인 옆에 있는 버튼을 클릭합니다.
+
+   >[!NOTE]
+   >
+   >기본 웹 하위 도메인을 변경할 수 있지만 한 번에 하나만 사용할 수 있습니다.
 
    ![](assets/web-subdomain-default.png)
 
@@ -80,4 +85,3 @@ ht-degree: 0%
 1. 은(는) **[!UICONTROL 실패]** 하위 도메인 을 사용하여 목록을 정리합니다. 이렇게 하려면 을(를) 선택합니다. **[!UICONTROL 삭제]** 에서 **[!UICONTROL 추가 작업]** 원하는 하위 도메인 옆에 있는 버튼을 클릭합니다.
 
 <!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
-
