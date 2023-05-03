@@ -9,13 +9,13 @@ exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 29%
+ht-degree: 55%
 
 ---
 
 # 의사 결정 관리 이벤트 시작 {#monitor-offer-events}
 
-의사 결정 관리 가 주어진 프로필에 대해 결정을 내릴 때마다 이러한 이벤트와 관련된 정보가 Adobe Experience Platform에 자동으로 전송됩니다.
+[의사 결정 관리]에서 특정 프로필에 대해 의사 결정을 내릴 때마다 해당 이벤트와 관련된 정보가 자동으로 Adobe Experience Platform으로 보내집니다.
 
 이를 통해 주어진 프로필에 제시된 오퍼를 파악할 수 있는 등 결정에 대한 통찰력을 얻을 수 있습니다. 이러한 데이터를 내보내 자체 보고 시스템으로 분석하거나 Adobe Experience Platform을 활용할 수 있습니다 [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko) 를 다른 도구와 결합하여 분석 및 보고를 향상시킵니다.
 
@@ -36,11 +36,11 @@ ht-degree: 29%
 
 ## 데이터 세트 액세스 {#access-datasets}
 
-의사 결정 관리 이벤트가 포함된 데이터 세트는 Adobe Experience Platform에서 액세스할 수 있습니다 **[!UICONTROL 데이터 세트]** 메뉴 아래의 제품에서 사용할 수 있습니다. 각 인스턴스에 대해 프로비저닝할 때 데이터 세트 하나가 자동으로 만들어집니다.
+[의사 결정 관리] 이벤트가 있는 데이터 세트는 Adobe Experience Platform **[!UICONTROL 데이터 세트]** 메뉴에서 액세스할 수 있습니다. 각 인스턴스에 대해 프로비저닝할 때 데이터 세트 하나가 자동으로 만들어집니다.
 
 ![](../assets/events-datasets-list.png)
 
-이러한 데이터 세트는 **[!UICONTROL 코드 결정 이벤트]** 스키마. 여기에는 의사 결정 관리에서 Adobe Experience Platform으로 정보를 전송하는 데 필요한 모든 XDM 필드가 포함되어 있습니다.
+이 데이터 세트는 [의사 결정 관리]에서 Adobe Experience Platform으로 정보를 보내는 데 필요한 모든 XDM 필드가 있는 **[!UICONTROL ODE DecisionEvents]** 스키마를 기반으로 합니다.
 
 >[!NOTE]
 >

@@ -7,26 +7,26 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 이메일, 디자인, 재고, 자산
+keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '461'
+ht-degree: 68%
 
 ---
 
 # 이메일 디자인 시작 {#get-started-content-design}
 
-에서 기존 콘텐츠를 가져올 수 있습니다 [!DNL Journey Optimizer] 또는 콘텐츠 디자인 기능을 활용할 수 있습니다.
+다음과 같이 [!DNL Journey Optimizer]의 기존 콘텐츠를 가져오거나 콘텐츠 디자인 기능을 활용할 수 있습니다.
 
-* 사용 [!DNL Journey Optimizer] **이메일 디자인 기능** 반응형 이메일을 디자인하거나 가져오기 위해 [자세히 알아보기](content-from-scratch.md)
+* [!DNL Journey Optimizer] **이메일 디자인 기능**&#x200B;으로 반응형 이메일을 디자인하거나 가져옵니다. [자세히 알아보기](content-from-scratch.md)
 
 * **Adobe Experience Manager Assets Essentials**&#x200B;를 활용하여 이메일을 보강하고 에셋 데이터베이스를 빌드하고 관리합니다. [자세히 알아보기](assets-essentials.md)
 
 * **Adobe Stock 사진**&#x200B;을 찾아 콘텐츠를 빌드하고 이메일 디자인을 개선합니다. [자세히 알아보기](stock.md)
 
-* 프로필 속성을 기반으로 개인화되고 다이내믹 메시지를 만들어 고객의 경험을 개선합니다. [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)에 대해 자세히 알아보십시오.
+* 프로필 속성에 따라 개인화한 동적 메시지를 만들어 고객의 경험을 향상시킬 수 있습니다. [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)에 대해 자세히 알아보십시오.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -38,29 +38,29 @@ ht-degree: 0%
 
 ## 이메일 컨텐츠를 만드는 주요 단계 {#key-steps}
 
-한번 드시면 [이메일 추가](create-email.md) 여정 또는 캠페인에 전자 메일 콘텐츠 만들기를 시작할 수 있습니다.
+여정이나 캠페인에 [이메일을 추가](create-email.md)한 다음에는 이메일 콘텐츠를 만들기 시작할 수 있습니다.
 
-1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 컨텐츠 편집]** 이메일 디자이너에 액세스할 수 있는 화면입니다. [자세히 알아보기](create-email.md#define-email-content)
+1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** 화면으로 이동하여 [이메일 디자이너]에 액세스합니다. [자세히 알아보기](create-email.md#define-email-content)
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. 이메일 디자이너 홈페이지에서 다음 옵션 중 이메일을 디자인할 방법을 선택합니다.
+1. [이메일 디자이너] 홈페이지에서 다음 옵션 중 이메일을 디자인할 방법을 선택합니다.
 
-   * **이메일 디자인 기초** 이메일 디자이너의 인터페이스를 통해 [Adobe Experience Manager Assets Essentials](assets-essentials.md). 에서 이메일 콘텐츠를 디자인하는 방법을 배웁니다 [이 섹션](content-from-scratch.md).
+   * 이메일 디자이너의 인터페이스를 통해 **이메일을 처음부터 디자인**&#x200B;하고 [Adobe Experience Manager Assets Essentials](assets-essentials.md)의 이미지를 활용합니다. 이메일 콘텐츠를 디자인하는 방법은 [이 섹션](content-from-scratch.md)을 참조하십시오 .
 
-   * **원시 HTML 코드 또는 붙여넣기** 이메일 디자이너에서 바로 액세스할 수 있습니다. 에서 자체 콘텐츠를 코딩하는 방법을 알아봅니다. [이 섹션](code-content.md).
+   * 이메일 디자이너에서 바로 **원시 HTML을 코딩하거나 붙여 넣습니다**. 콘텐츠를 직접 코딩하는 방법은 [이 섹션](code-content.md)을 참조하십시오.
 
       >[!NOTE]
       >
-      >캠페인에서 **[!UICONTROL 코드 편집기]** 단추 **[!UICONTROL 컨텐츠 편집]** 화면. [자세히 알아보기](create-email.md#define-email-content)
+      >캠페인의 **[!UICONTROL 콘텐츠 편집]** 화면에서 **[!UICONTROL 코드 편집기]** 버튼을 선택할 수도 있습니다. [자세히 알아보기](create-email.md#define-email-content)
 
-   * **기존 HTML 콘텐츠 가져오기** 파일 또는 .zip 폴더에서 사용할 수 있습니다. 에서 전자 메일 콘텐츠를 가져오는 방법을 알아봅니다. [이 섹션](existing-content.md).
+   * 파일이나 .zip 폴더의 **기존 HTML 콘텐츠를 가져옵니다**. 이메일 콘텐츠를 가져오는 방법은 [이 섹션](existing-content.md)을 참조하십시오.
 
-   * **기존 콘텐츠 선택** 기본 제공 또는 사용자 지정 템플릿 목록에서 을 선택합니다. 이메일 템플릿으로 작업하는 방법 알아보기 [이 섹션](email-templates.md).
+   * 기본 제공 또는 사용자 정의 템플릿 목록에서 **기존 콘텐츠를 선택합니다**. 이메일 템플릿으로 작업하는 방법은 [이 섹션](email-templates.md)을 참조하십시오.
 
    ![](assets/email_designer_create_options.png)
 
-1. 전자 메일 콘텐츠를 정의하고 개인화하면 콘텐츠를 내보내 유효성 검사를 하거나 나중에 사용할 수 있습니다. 클릭 **[!UICONTROL 내보내기 HTML]** HTML 및 자산을 포함하는 zip 파일을 컴퓨터에 저장하려면 다음을 수행하십시오.
+1. 이메일 콘텐츠를 정의하고 개인화한 다음에는 콘텐츠를 내보내 유효성 검사를 하거나 나중에 사용할 수 있습니다. HTML과 자산이 들어 있는 zip 파일을 컴퓨터에 저장하려면 **[!UICONTROL HTML 내보내기]**&#x200B;를 클릭합니다.
 
    ![](assets/email_designer_export.png)
 

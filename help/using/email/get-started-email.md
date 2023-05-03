@@ -1,38 +1,38 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 이메일 시작
+title: 이메일 사용 시작
 description: Journey Optimizer에서 이메일을 작성하는 방법 알아보기
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 이메일, 시작, 만들기, 미리 보기
+keywords: 이메일, 시작, 만들기, 미리보기
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
-# 이메일 시작 {#get-started-email}
+# 이메일 사용 시작 {#get-started-email}
 
 >[!IMPORTANT]
 >
->이메일을 처음 만드는 경우 이메일 채널이 구성되었는지 확인합니다. [자세히 알아보기](email-settings.md)
+>이메일을 처음 만드는 경우 이메일 채널 구성을 완료했는지 확인해야 합니다. [자세히 알아보기](email-settings.md)
 
-사용 [!DNL Journey Optimizer] 고객에게 이메일 메시지를 보내는 방법 이메일 디자이너에서 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다.
+[!DNL Journey Optimizer]로 고객에게 이메일을 보냅니다. [이메일 디자이너]에서 메시지를 만들고 개인화하고 미리 볼 수 있습니다.
 
-전자 메일 게재를 만들 수 있습니다.
+다음 방법으로 이메일 게재를 만들 수 있습니다.
 
-* 다음 **여정**: 추가한 후 **[!UICONTROL 이메일]** 활동을 여정에 설정하고 정의된 기본 설정을 사용하려면 **[!UICONTROL 작업: 이메일]** 메시지의 컨텐츠를 만들 오른쪽 창.
+* **여정**&#x200B;에서 만들기: 여정에 **[!UICONTROL 이메일]** 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: 이메일]** 창에서 메시지의 콘텐츠를 만듭니다.
 
-   여정 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journey-gs.md).
+   여정을 구성하는 자세한 방법은 이 [페이지](../building-journeys/journey-gs.md)를 참조하십시오.
 
-* 다음 **캠페인**: 캠페인을 만든 후 **[!UICONTROL 이메일]** 를 작업에 사용하고 기본 설정을 정의합니다.
+* **캠페인**&#x200B;에서 만들기: 캠페인을 만든 후 **[!UICONTROL 이메일]**&#x200B;을 작업으로 선택하고 기본 설정을 정의합니다.
 
-   캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../campaigns/create-campaign.md#configure).
+   캠페인을 구성하는 자세한 방법은 이 [페이지](../campaigns/create-campaign.md#configure)를 참조하십시오.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
