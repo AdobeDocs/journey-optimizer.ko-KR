@@ -11,8 +11,8 @@ keywords: 이메일, 시작, 만들기, 미리 보기
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
