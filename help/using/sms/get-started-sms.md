@@ -2,37 +2,37 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: SMS 시작
-description: Journey Optimizer에서 SMS를 만드는 방법을 알아봅니다
+description: Journey Optimizer에서 SMS를 만드는 방법 알아보기
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 # SMS 시작 {#get-started-sms}
 
-사용 [!DNL Journey Optimizer] 을 눌러 모바일 장치에서 고객에게 텍스트 메시지를 보냅니다. SMS 편집기에서 텍스트 형식으로 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다.
+[!DNL Journey Optimizer]를 사용하여 고객의 모바일 장치로 텍스트 메시지를 보냅니다. SMS 편집기에서 텍스트 형식으로 메시지를 만들고 개인화하고 미리 볼 수 있습니다.
 
-SMS 게재를 만들 수 있습니다.
+다음 방법으로 SMS 게재를 만들 수 있습니다.
 
-* 다음 **여정**: 여정에 SMS 활동을 추가하고 기본 설정을 정의하면, **[!UICONTROL 작업: SMS]** 오른쪽 창에서 SMS 메시지의 콘텐츠를 작성합니다.
+* **여정**&#x200B;에서 만들기: 여정에 SMS 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: SMS]** 창에서 SMS 메시지의 콘텐츠를 만듭니다.
 
-   여정 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../building-journeys/journey-gs.md).
+   여정을 구성하는 자세한 방법은 이 [페이지](../building-journeys/journey-gs.md)를 참조하십시오.
 
-* 다음 **캠페인**: 캠페인을 만든 후 SMS를 작업으로 선택하고 기본 설정을 정의합니다.
+* **캠페인**&#x200B;에서 만들기: 캠페인을 만든 후 SMS를 작업으로 선택하고 기본 설정을 정의합니다.
 
-   캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../campaigns/create-campaign.md#configure).
+   캠페인을을 구성하는 자세한 방법은 이 [페이지](../campaigns/create-campaign.md#configure)를 참조하십시오.
 
 
 >[!IMPORTANT]
 >
->SMS를 처음 만드는 경우 SMS 채널이 구성되었는지 확인하십시오. [자세히 알아보기](sms-configuration.md).
+>SMS를 처음 만드는 경우 SMS 채널 구성을 완료했는지 확인해야 합니다. [자세히 알아보기](sms-configuration.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
