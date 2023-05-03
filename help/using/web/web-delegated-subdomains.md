@@ -12,7 +12,7 @@ exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
 >title="웹 하위 도메인 위임"
->abstract="웹 채널 사용을 위해 하위 도메인을 설정합니다. Adobe에 이미 위임된 하위 도메인 중에서 선택합니다."
+>abstract="웹 채널을 사용하려면 하위 도메인을 설정합니다. Adobe에 이미 위임된 하위 도메인에서 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="웹 하위 도메인 위임"
->abstract="Adobe Experience Manager Assets Essentials에서 만든 컨텐츠를 웹 경험에 추가하는 경우 이 컨텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다. Adobe에 이미 위임된 하위 도메인 중에서 선택합니다."
+>abstract="Adobe Experience Manager Assets Essentials의 콘텐츠를 웹 경험에 추가하는 경우 이 콘텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다. Adobe에 이미 위임된 하위 도메인 중에서 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
 >title="웹 하위 도메인 설정"
->abstract="Adobe에 위임된 하위 도메인 목록에서 하위 도메인을 선택합니다. 이 웹 하위 도메인을 기본 하위 도메인으로 설정할 수 있지만 한 번에 하나의 기본 하위 도메인만 사용할 수 있습니다."
+>abstract="Adobe에 위임된 하위 도메인 목록에서 하위 도메인을 선택합니다. 이 웹 하위 도메인을 기본 하위 도메인으로 설정할 수 있지만 기본 하위 도메인은 한 번에 하나만 사용할 수 있습니다."
 
 웹 경험을 작성할 때 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 라이브러리에서는 이 컨텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다.
 
