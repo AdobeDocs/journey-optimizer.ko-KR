@@ -6,8 +6,8 @@ description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1860'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
 
-## 2023년 4월 릴리스 노트 {#apr-rn-2023}
+## 2023년 4월 릴리스 정보 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -33,13 +33,13 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>웹 채널(일반 공급)</strong><br/></th>
+<th><strong>웹 채널(일반 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer은 웹 채널에 대한 지원을 추가하여 크로스 채널 기능을 확장하고 있습니다. 이제 스마트 및 직관적인 시각적 인터페이스를 통해 최종 사용자 경험을 개인화할 수 있으므로 다른 채널로서 웹 경험을 제작, 변경 및 미리 볼 수 있습니다. 현재 Journey Optimizer에서는 캠페인에서 웹 경험만 만들 수 있습니다.</p>
+<p>Adobe Journey Optimizer의 크로스 채널 기능을 확장하고자 웹 채널 지원을 추가합니다. 이제 다른 채널과 마찬가지로 웹 경험도 스마트하고 직관적인 시각적 인터페이스를 통해 작성하고 변경하고 미리 보며 최종 사용자 경험을 개인화할 수 있습니다. 현재 Journey Optimizer에서는 캠페인의 웹 경험만 만들 수 있습니다.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
 <p>자세한 내용은 <a href="../web/get-started-web.md">세부 설명서</a>를 참조하십시오.</p>
 </tr>
@@ -50,13 +50,13 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>모바일 온보딩 빠른 시작 워크플로우(베타)</strong><br/></th>
+<th><strong>모바일 온보딩 빠른 시작 워크플로우(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 새로운 모바일 온보딩 빠른 시작 워크플로우를 사용할 수 있습니다. 이 새 제품 기능을 사용하여 모바일 이벤트 데이터를 수집 및 확인하고 Adobe Journey Optimizer을 사용하여 모바일 푸시 알림을 전송하도록 Mobile SDK를 빠르게 구성할 수 있습니다. 이 기능은 데이터 수집 홈 페이지를 공개 베타로 통해 액세스할 수 있습니다.</p>
+<p>이제 새로운 모바일 온보딩 빠른 시작 워크플로우를 사용할 수 있습니다. 이 새로운 제품 기능으로 Mobile SDK를 빠르게 구성하여 모바일 이벤트 데이터를 수집, 확인하고 Adobe Journey Optimizer에서 모바일 푸시 알림을 보낼 수 있습니다. 이 기능은 공개 Beta 중이며 [데이터 수집] 홈 페이지를 통해 액세스할 수 있습니다.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
 <p>자세한 내용은 <a href="../push/mobile-onboarding-wf.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
@@ -106,26 +106,26 @@ ht-degree: 0%
 
 **여정**
 
-* 이제 여정 캔버스에 메시지 활동 및 종료 태그에 활동 ID가 표시됩니다. 이에 따라 보고 및 재타깃팅이 개선됩니다.
-* 작업, 데이터 소스, 이벤트 및 여정에 표시되는 구성 창의 레이아웃이 개선되었습니다.
-* 여정에 다음과 같은 새 보호 기능이 추가되었습니다.
-   * 이제 여정의 활동 수가 50개로 제한됩니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
-   * 숫자 **라이브 여정** 이제 한 조직의 경우 샌드박스당 100개로 제한됩니다. 테스트 모드의 여정은 고려되지 않습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
+* 이제 여정 캔버스에서 메시지 활동 및 종료 태그에 활동 ID가 표시됩니다. 보고와 재타겟팅에 도움이 됩니다.
+* 작업과 데이터 소스, 이벤트 및 여정에 표시되는 구성 창의 레이아웃을 개선했습니다.
+* 여정에 다음과 같은 새 가드레일을 추가했습니다.
+   * 이제 한 여정에 넣을 수 있는 활동 수가 50개로 제한됩니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
+   * 이제 하나의 조직에서 만들 수 있는 **라이브 여정**&#x200B;의 수가 샌드박스당 100개로 제한됩니다. 테스트 모드인 여정은 빼고 계산합니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 
-* 를 추가할 때 [이메일](../email/create-email.md), [SMS](../sms/create-sms.md) 또는 [푸시](../push/create-push.md) 여정에서 작업을 수행하면 현재 여정에서 기본적으로 해당 채널에 대해 마지막으로 사용된 서피스가 있는 서피스가 미리 채워집니다.
-* 이제 사용자 지정 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다. [자세히 알아보기](../action/about-custom-action-configuration.md#url-configuration)
+* 여정에 [이메일](../email/create-email.md), [SMS](../sms/create-sms.md) 또는 [푸시](../push/create-push.md) 작업을 추가하면 이제 표면을 미리 입력합니다. 현재 여정에서 해당 채널에 대해 최근에 사용한 표면을 기본적으로 사용합니다.
+* 이제 사용자 정의 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다. [자세히 알아보기](../action/about-custom-action-configuration.md#url-configuration)
 
 **보고**
 
-* 이제 Journey Optimizer 보고서를 PDF으로 내보낼 수 있습니다. [자세히 알아보기](../reports/global-report.md#export-reports)
+* 이제 Journey Optimizer 보고서를 PDF로 내보낼 수 있습니다. [자세히 알아보기](../reports/global-report.md#export-reports)
 
 **콘텐츠 디자이너**
 
-* Adobe Journey Optimizer 콘텐츠 디자이너가 업데이트되었으며, 이제 디자인 스타일 및 구성 요소에 대한 액세스가 더 쉽습니다. 이 새로운 버전에서는 향상된 사용자 경험을 제공하며, 향상된 성능, 어두운 모드 부분 호환성 및 새로운 액세스 가능성 표준 지원 등을 제공합니다.
+* Adobe Journey Optimizer [콘텐츠 디자이너]를 업데이트했으며, 이제 디자인 스타일과 구성 요소에 보다 쉽게 액세스할 수 있습니다. 이 새 버전에서는 사용자 경험과 성능을 개선하고, 다크 모드 일부 호환과 새로운 접근성 표준 지원 등을 제공합니다.
 
 
 
-## 2023년 3월 릴리스 노트 {#mar-2023}
+## 2023년 3월 릴리스 정보 {#mar-2023}
 
 ### 새로운 기능{#mar-2023-features}
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 * 이제 여정 캔버스의 **종료** 태그가 자동으로 이전 활동의 이름으로 설정되지 않습니다. 필요한 경우 사용자가 수동으로 사용자 정의 레이블을 추가할 수 있습니다.
 * 여정 속성의 기본 시간 제한 및 오류 지속 시간을 5초에서 30초로 변경했습니다. [자세히 알아보기](../configuration/external-systems.md#timeout)
 * 세그먼트 읽기 활동의 기본 스로틀링 수를 초당 메시지 20,000개에서 5,000개로 변경했습니다. [자세히 알아보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* 인터페이스를 통해 전송된 이벤트만 수신 대기하기 위해 테스트 모드에 보호 기능이 추가되었습니다. 외부 도구를 통해 보내는 이벤트는 고려되지 않습니다. [자세히 알아보기](../building-journeys/testing-the-journey.md)
+* 테스트 모드에 인터페이스를 통해 보낸 이벤트만 수신하도록 하는 가드레일을 추가했습니다. 외부 도구를 통해 보낸 이벤트는 고려하지 않습니다. [자세히 알아보기](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
@@ -223,7 +223,7 @@ ht-degree: 0%
 
    최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/global-report.md#modify-dashboard)를 참조하십시오.
 
-## 2023년 2월 릴리스 노트 {#feb-2023}
+## 2023년 2월 릴리스 정보 {#feb-2023}
 
 ### 새로운 기능{#feb-2023-features}
 

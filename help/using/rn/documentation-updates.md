@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
 workflow-type: tm+mt
 source-wordcount: '2711'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 94%
 
 ## 2023년 4월 {#apr-2023}
 
-* 모든 새로운 기능 및 향상된 기능 [!DNL Journey Optimizer] 2023년 4월 릴리스가 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer] 2023년 4월 릴리스의 새로운 기능과 개선 사항에 대한 자세한 내용은 설명서에 있습니다. [자세히 보기](release-notes.md)
 * 다중 솔루션 통합 페이지에 Adobe Experience Manager Assets Essentials 및 Adobe Stock을 추가했습니다. [자세히 보기](../start/ajo-integrations.md)
 * 여러 수준의 이메일 하위 도메인을 허용하지 않는다는 경고를 제거했습니다. 이제 여러 수준의 하위 도메인 사용도 지원됩니다. [자세히 보기](../configuration/delegate-subdomain.md)
-* 여정 메시지에 사용 중인 오퍼 결정을 변경한 경우 여정을 게시 취소하고 다시 게시해야 한다는 메모가 추가되었습니다. [자세히 보기](../building-journeys/publishing-the-journey.md)
-* 최대 가용량 카운터에서 이벤트가 올바로 계산되도록 하는 방법에 대한 설명이 의사 결정 관리에서 명확해졌습니다 **최대 가용량 이벤트** 섹션을 참조하십시오. [자세히 보기](../offers/offer-library/add-constraints.md#capping-event)
-* 새 섹션이 **실행 주소 변경** 페이지. 여정 고급 매개 변수에서 전역적으로 설정된 실행 필드를 무시할 수 있음을 지정하지만 이메일 주소 무시는 특정 사용 사례에만 사용해야 합니다. 대부분의 경우 **실행 필드**&#x200B;에서 기본 주소로 정의된 값을 사용해야 합니다. [자세히 알아보기](../configuration/primary-email-addresses.md#journey-parameters)
-* 다음 **URL 추적** 이제 이메일 채널 지표에서 URL 추적을 위해 설정할 수 있는 모든 컨텍스트 속성의 목록 및 설명을 제공합니다. [자세히 보기](../email/email-settings.md#url-tracking)
+* 여정의 메시지에 사용하고 있는 오퍼 의사 결정을 변경하는 경우 여정의 게시를 취소하고 다시 게시해야 한다는 점을 설명하는 메모를 추가했습니다. [자세히 보기](../building-journeys/publishing-the-journey.md)
+* 한도 설정 카운터에서 이벤트를 올바르게 계산하도록 설정하는 방법에 대해 의사 결정 관리 **이벤트 한도 설정** 섹션에 명확하게 설명했습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping-event)
+* **실행 주소 변경** 페이지에 새로운 섹션을 추가했습니다. 여정 고급 매개 변수에서 전역적으로 설정된 실행 필드를 무시할 수 있지만 이메일 주소 무시는 특정 사용 사례에만 사용해야 한다는 점을 설명하는 섹션입니다. 대부분의 경우 **실행 필드**&#x200B;에서 기본 주소로 정의된 값을 사용해야 합니다. [자세히 알아보기](../configuration/primary-email-addresses.md#journey-parameters)
+* 이제 **URL 추적** 섹션에서 이메일 채널 표면의 URL 추적에 대해 설정할 수 있는 상황별 속성 전체의 목록과 설명을 확인할 수 있습니다. [자세히 보기](../email/email-settings.md#url-tracking)
 
 ## 2023년 3월 {#march-2023}
 
