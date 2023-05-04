@@ -5,14 +5,12 @@ title: 웹 하위 도메인 구성
 description: Journey Optimizer을 사용하여 웹 하위 도메인을 설정하는 방법 알아보기
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: 웹, 하위 도메인, 구성
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
+source-git-commit: 29070f0029c092782cf8a304f85e52869598a2fa
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
