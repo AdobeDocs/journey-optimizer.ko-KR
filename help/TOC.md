@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 99%
    + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
 + 웹 채널{#web}
    + [웹 채널 시작하기](using/web/get-started-web.md)
-   + [웹 채널 사전 요구 사항](using/web/web-prerequisites.md)
+   + [웹 채널 전제 조건](using/web/web-prerequisites.md)
    + [웹 경험 만들기 ](using/web/create-web.md)
    + [웹 페이지 작성 ](using/web/author-web.md)
    + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
