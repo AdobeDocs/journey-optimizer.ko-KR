@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 세그먼트, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1325'
+ht-degree: 18%
 
 ---
 
@@ -38,27 +38,26 @@ ht-degree: 0%
 
    ![](assets/custom2.png)
 
-<!--
-## Access journeys {#journey-access}
+## 액세스 여정 {#journey-access}
 
-In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
+여정 관리 메뉴 섹션에서 **[!UICONTROL 여정]**. 두 개의 탭을 사용할 수 있습니다.
 
-**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+**찾아보기**: 이 탭에는 기존 여정 목록이 표시됩니다. 여정을 검색하고, 필터를 사용하고 각 요소에 대한 기본 작업을 수행할 수 있습니다. 예를 들어 항목을 복제하거나 삭제할 수 있습니다. 자세한 정보는 [이 섹션](../start/user-interface.md#filter-lists)을 참조하십시오.
 
-![](assets/journeys-browse.png)  
+![](assets/journeys-browse.png)
 
-**Overview**: this tab displays a dashboard with key metrics related to your journeys:
+**개요**: 이 탭에는 여정과 관련된 주요 지표가 있는 대시보드가 표시됩니다.
 
-* **Profiles processed**: total number of profiles processed in last 24 hours
-* **Live journeys**: total number of live journeys
-* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
-* **Batch journeys**: total number of batch live journeys (read segment journeys)
-* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
-* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+* **처리된 프로필**: 지난 24시간 동안 처리된 총 프로필 수
+* **라이브 여정**: 지난 24시간 동안 트래픽이 있는 총 라이브 여정 수입니다. 라이브 여정은 다음과 같습니다 **단일 여정** (이벤트 기반) 및 **배치 여정** (세그먼트 읽기).
+* **오류율**: 지난 24시간 동안 입력한 총 프로필 수와 비교하여 오류가 있는 모든 프로필의 비율입니다.
+* **폐기 비율**: 지난 24시간 동안 입력한 총 프로필 수와 비교한 모든 프로필의 비율입니다.
 
-![](assets/journeys-dashboard.png)  
+>[!NOTE]
+>
+>이 대시보드는 지난 24시간 동안 트래픽이 있는 여정을 고려합니다. 액세스할 수 있는 여정만 표시됩니다.
 
--->
+![](assets/journeys-dashboard.png)
 
 ## 여정 빌드{#jo-build}
 
@@ -71,15 +70,7 @@ In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tab
 
 여정을 통해 메시지를 보내는 주요 단계는 다음과 같습니다.
 
-1. 여정 관리 메뉴 섹션에서 **[!UICONTROL 여정]**. 여정 목록이 표시됩니다.
-
-   ![](assets/interface-journeys.png)
-
-1. 클릭 **[!UICONTROL 여정 만들기]** 새 여정을 만들려면
-
-<!--
-1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
--->
+1. 에서 **찾아보기** 탭, **[!UICONTROL 여정 만들기]** 새 여정을 만들려면
 
 1. 오른쪽에 표시되는 구성 창에서 여정의 속성을 편집합니다. 자세한 내용 [섹션](journey-gs.md#change-properties).
 
