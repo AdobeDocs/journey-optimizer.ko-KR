@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1037'
 ht-degree: 92%
 
 ---
@@ -27,11 +27,6 @@ ht-degree: 92%
 
 * [!DNL Journey Optimizer]에서는 이메일에 첨부 파일을 추가할 수 없습니다.
 * 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.
-
-
-## 의사 결정 관리 보호 {#offer-guardrails}
-
-의사 결정 관련 성능 가드레일 및 정적 제한 사항 목록은 [Adobe Offer Decisioning App Service 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}에서 확인하실 수 있습니다.
 
 
 ## 랜딩 페이지 보호 {#lp-guardrails}
