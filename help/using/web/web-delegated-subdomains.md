@@ -7,10 +7,10 @@ role: Admin
 level: Intermediate
 keywords: 웹, 하위 도메인, 구성
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: b05c7e88c223af44cd2f7d10ea76c39359662cbd
+source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 29%
+source-wordcount: '413'
+ht-degree: 27%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 29%
    >
    >이미 웹 하위 도메인으로 사용되는 하위 도메인은 선택할 수 없습니다.
 
-1. 웹 URL에 표시할 접두사가 자동으로 추가됩니다.
+1. 웹 URL에 표시할 접두사가 자동으로 추가됩니다. 변경할 수 없습니다.
 
 1. 이 하위 도메인을 기본값으로 설정하려면 해당 옵션을 선택합니다.
 
@@ -72,6 +72,10 @@ ht-degree: 29%
 
 1. **[!UICONTROL 제출을 클릭합니다]**. 하위 도메인은 을 가져옵니다 **[!UICONTROL 성공]** 상태. 웹 경험에 사용할 준비가 되었습니다.
 
+   >[!NOTE]
+   >
+   >드문 경우이지만 하위 도메인 설정이 실패할 수 있습니다. 이 경우 **[!UICONTROL 실패]** 하위 도메인으로 목록을 정리하려면 **[!UICONTROL 삭제]** 단추 **[!UICONTROL 추가 작업]** 아이콘.
+
 1. 다음 **[!UICONTROL 기본값]** 현재 기본값으로 사용되는 하위 도메인 옆에 배지가 표시됩니다. 기본 하위 도메인을 변경하려면 **[!UICONTROL 기본값으로 설정]** 에서 **[!UICONTROL 추가 작업]** 원하는 하위 도메인 옆에 있는 버튼을 클릭합니다.
 
    >[!NOTE]
@@ -81,7 +85,5 @@ ht-degree: 29%
    ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
-
-    You can only delete a **[!UICONTROL Failed]** subdomain to clean up the list. To do so, select **[!UICONTROL Delete]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
 
     You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
