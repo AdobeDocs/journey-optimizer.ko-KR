@@ -4,9 +4,9 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 289dd11da2546b5ad8f9791fb9a5796127746829
+source-git-commit: 0a515afc2335a14c9c978f9cbf394850a88964c4
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2769'
 ht-degree: 98%
 
 ---
@@ -17,7 +17,8 @@ ht-degree: 98%
 
 ## 2023년 5월 {#may-2023}
 
-* 다음 **웹 하위 도메인 구성** 페이지가 생성되었습니다. Adobe Experience Manager Assets Essentials에서 만든 컨텐츠를 웹 경험에 추가하는 경우 이 컨텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다. [자세히 보기](../web/web-delegated-subdomains.md)
+* 웹 경험에서 Adobe Experience Manager Assets Essentials에서 얻은 컨텐츠를 게시하는 데 사용할 하위 도메인을 설정하는 방법을 설명하는 새 페이지가 추가되었습니다. [자세히 보기](../web/web-delegated-subdomains.md)
+* 이메일 디자이너에서 URL에 개인화된 추적 매개 변수를 추가하는 방법을 설명하는 새로운 하위 섹션이 추가되었습니다. [자세히 알아보기](../email/message-tracking.md#url-tracking)
 
 ## 2023년 4월 {#apr-2023}
 
