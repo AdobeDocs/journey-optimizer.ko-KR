@@ -4,16 +4,20 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
-workflow-type: ht
-source-wordcount: '2711'
-ht-degree: 100%
+source-git-commit: 289dd11da2546b5ad8f9791fb9a5796127746829
+workflow-type: tm+mt
+source-wordcount: '2752'
+ht-degree: 98%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2023년 5월 {#may-2023}
+
+* 다음 **웹 하위 도메인 구성** 페이지가 생성되었습니다. Adobe Experience Manager Assets Essentials에서 만든 컨텐츠를 웹 경험에 추가하는 경우 이 컨텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다. [자세히 보기](../web/web-delegated-subdomains.md)
 
 ## 2023년 4월 {#apr-2023}
 
