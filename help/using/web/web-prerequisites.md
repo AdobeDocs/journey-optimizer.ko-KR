@@ -1,15 +1,15 @@
 ---
-title: 웹 채널 사전 요구 사항
+title: 웹 채널 전제 조건
 description: Journey Optimizer 사용자 인터페이스에서 웹 페이지에 액세스하여 작성할 수 있으려면 이 페이지의 사전 요구 사항을 따르십시오
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
+source-git-commit: 65a33d6836c43564ef7c93660a8076677ea5cba8
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 11%
+source-wordcount: '872'
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 11%
 
 ## 주의 사항
 
-현재 [!DNL Journey Optimizer] 를 사용하여 웹 경험만 만들 수 있습니다. **캠페인**. [자세히 알아보기](../campaigns/create-campaign.md#configure)
+현재 [!DNL Journey Optimizer]에서는 **캠페인**&#x200B;을 사용한 웹 경험만 만들 수 있습니다. [자세히 알아보기](../campaigns/create-campaign.md#configure)
 
 
 [!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타겟팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하며, 구매한 참여 가능 프로필 수의 계약 수가 초과되면 비용이 발생할 수 있습니다. 각 패키지에 대한 라이센스 지표는 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html) 페이지.
@@ -123,11 +123,10 @@ Visual Editing Helper 브라우저 확장 프로그램이 올바르게 설치되
 
 * in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-   이 병합 정책은 [!DNL Journey Optimizer] 에지에서 인바운드 캠페인을 올바르게 활성화하고 게시할 수 있는 인바운드 채널입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
+   이 병합 정책은 [!DNL Journey Optimizer] 에지에서 인바운드 캠페인을 올바르게 활성화하고 게시할 수 있는 인바운드 채널입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko){target="_blank"}
 
    ![](assets/web-aep-merge-policy.png)
 
-<!--
-Branded domains for assets
+## 자산에 대한 브랜드 도메인 {#branded-domains-for-assets}
 
-When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
+웹 경험을 작성할 때 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 라이브러리에서는 이 컨텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다. [자세히 알아보기](web-delegated-subdomains.md)
