@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: 웹, 하위 도메인, 구성
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
+source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 27%
@@ -78,11 +78,11 @@ ht-degree: 27%
 
 1. 다음 **[!UICONTROL 기본값]** 현재 기본값으로 사용되는 하위 도메인 옆에 배지가 표시됩니다. 기본 하위 도메인을 변경하려면 **[!UICONTROL 기본값으로 설정]** 에서 **[!UICONTROL 추가 작업]** 원하는 하위 도메인 옆에 있는 버튼을 클릭합니다.
 
+   ![](assets/web-subdomain-default.png)
+
    >[!NOTE]
    >
    >기본 웹 하위 도메인을 변경할 수 있지만 한 번에 하나만 사용할 수 있습니다.
-
-   ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
