@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 33%
@@ -53,7 +53,7 @@ Adobe Experience Platform 사용 [통합 태그](https://experienceleague.adobe.
 >
 >통합 태그는 현재 베타 버전입니다. 설명서 및 기능은 변경될 수 있습니다.
 
-## 개체에 태그 추가
+### 개체에 태그 추가
 
 다음 **태그** 필드, [여정](../building-journeys/journey-gs.md#change-properties) 또는 [campaign](../campaigns/create-campaign.md#create) 속성을 사용하면 개체의 태그를 정의할 수 있습니다. 기존 태그를 선택하거나 새 태그를 만들 수 있습니다.
 
@@ -69,7 +69,7 @@ Adobe Experience Platform 사용 [통합 태그](https://experienceleague.adobe.
 > 
 > 여정 또는 캠페인의 새 버전을 복제하거나 만드는 경우 태그가 유지됩니다.
 
-## 태그로 필터링
+### 태그로 필터링
 
 여정 및 캠페인 목록에 전용 열이 표시되므로 태그를 쉽게 시각화할 수 있습니다.
 
@@ -81,7 +81,7 @@ Adobe Experience Platform 사용 [통합 태그](https://experienceleague.adobe.
 
 ![](assets/tags3.png)
 
-## 태그 관리
+### 태그 관리
 
 관리자는 태그를 삭제하고 **태그** 메뉴 아래의 **관리**. 자세한 내용은 [통합 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
