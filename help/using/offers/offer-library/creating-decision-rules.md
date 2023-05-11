@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 10%
+source-wordcount: '327'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
    >[!NOTE]
    >
-   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더에서는 와 함께 사용되는 세그먼트 빌더와 비교하여 몇 가지 특성을 제공합니다 **[!UICONTROL Audience 대상]** 서비스. 예: **[!UICONTROL 세그먼트]** 탭을 사용할 수 없습니다. 그러나 글로벌 프로세스는 [세그먼트 빌더](../../segment/about-segments.md) 설명서는 오퍼 결정 규칙을 작성하는 데 여전히 유효합니다. 자세한 내용은 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더에서는 와 함께 사용되는 세그먼트 빌더와 비교하여 몇 가지 특성을 제공합니다 **[!UICONTROL 세그먼테이션]** 서비스. 예: **[!UICONTROL 세그먼트]** 탭을 사용할 수 없습니다. 그러나 글로벌 프로세스는 [세그먼트 빌더](../../segment/about-segments.md) 설명서는 오퍼 결정 규칙을 작성하는 데 여전히 유효합니다. 자세한 내용은 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 1. 작업 공간에서 새 필드를 추가 및 구성하는 동안 **[!UICONTROL 세그먼트 속성]** 창에는 세그먼트에 속하는 예상 프로필에 대한 정보가 표시됩니다. 클릭 **[!UICONTROL 예상 새로 고침]** 를 눌러 데이터를 업데이트합니다.
 

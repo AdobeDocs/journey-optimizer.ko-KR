@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1066'
 ht-degree: 92%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 92%
 [시작하기 전에 실시간 고객 프로필 데이터 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}에 대해서도 알고 있어야 합니다.
 
 [!DNL Adobe Journey Optimizer] 사용 시 다음과 같은 추가 보호 기능 및 제한 사항이 있습니다.
+
+## 지원되는 브라우저 {#browsers}
+
+Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome에서 최적으로 작동되도록 디자인되었습니다. 이전 버전 또는 기타 브라우저에서 특정 기능을 사용하는 데 문제가 있을 수 있습니다.
 
 ## 메시지 보호 {#message-guardrails}
 

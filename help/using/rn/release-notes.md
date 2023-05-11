@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1071229582008d66b4184ec782aaf23bad111a93
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1910'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,24 @@ ht-degree: 97%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
+## 2023년 5월 개선 사항 {#may-improvements}
+
+<table>
+<thead>
+<tr>
+<th><strong>캠페인에서 태그 사용</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 캠페인에 Adobe Experience Platform 통합 태그를 할당할 수 있습니다. 이를 통해 분류하고 캠페인 목록에서 검색을 향상시킬 수 있습니다. 통합 태그 기능은 현재 베타 버전입니다.
+<img src="assets/do-not-localize/campaigns-tag.gif"/>
+<p>자세한 내용은 <a href="../start/search-filter-categorize.md#tags">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2023년 4월 릴리스 정보 {#apr-rn-2023}
 
@@ -46,7 +64,6 @@ ht-degree: 97%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -58,27 +75,28 @@ ht-degree: 97%
 <td>
 <p>이제 새로운 모바일 온보딩 빠른 시작 워크플로우를 사용할 수 있습니다. 이 새로운 제품 기능으로 Mobile SDK를 빠르게 구성하여 모바일 이벤트 데이터를 수집, 확인하고 Adobe Journey Optimizer에서 모바일 푸시 알림을 보낼 수 있습니다. 이 기능은 공개 Beta 중이며 [데이터 수집] 홈 페이지를 통해 액세스할 수 있습니다.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
-<p>자세한 내용은 <a href="../push/mobile-onboarding-wf.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../push/mobile-onboarding-wf.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>새로운 여정 대시보드(베타)</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> 이제 여정 대시보드가 두 개의 탭으로 분할됩니다.</p>
-<ul><li>를 사용하십시오 <strong>개요</strong> 탭하여 여정과 관련된 주요 지표를 표시하는 새 대시보드에 액세스합니다.</li>
-<li>를 사용하십시오 <strong>찾아보기</strong> 탭을 클릭하여 모든 여정 목록에 액세스합니다.</li></ul>
-<p>이 기능은 모든 여정에서 공개 베타로 액세스할 수 있습니다.</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>자세한 내용은 <a href="../building-journeys/journey-gs.md#journey-access">자세한 설명서</a>를 참조하세요.</p>
+<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -173,13 +191,11 @@ ht-degree: 97%
 <tr>
 <td>
 <p>Journey Optimizer 사용자는 이제 태그를 사용하여 비즈니스 개체를 정리할 수 있습니다. 태그를 사용하면 개체를 빠르고 간단하게 분류하여 검색을 개선할 수 있습니다. 이 기능은 현재 beta 버전이며 여정에 대해서만 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../building-journeys/tags.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../start/search-filter-categorize.md#tags">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
 
 ### 개선 사항 {#mar-2023-improvements}
 

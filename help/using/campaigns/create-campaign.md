@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 만들기, 최적기, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 22%
+source-wordcount: '789'
+ht-degree: 21%
 
 ---
 
@@ -65,6 +65,8 @@ ht-degree: 22%
 1. 에서 **[!UICONTROL 속성]** 섹션에서 캠페인의 이름과 설명을 지정합니다.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
+
+1. 다음 **태그** 필드에서는 캠페인에 Adobe Experience Platform 통합 태그를 할당할 수 있습니다. 이를 통해 분류하고 캠페인 목록에서 검색을 향상시킬 수 있습니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
 
 1. 사용자 지정 또는 핵심 데이터 사용 레이블을 캠페인에 지정하려면 **[!UICONTROL 액세스 관리]** 버튼을 클릭합니다. [개체 수준 액세스 제어(OLA)에 대한 자세한 정보](../administration/object-based-access.md)
 
@@ -129,9 +131,9 @@ ht-degree: 22%
 
 ![](assets/create-campaign-namespace.png)
 
->[!NOTE]
->
->다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타겟팅되지 않습니다.
+    >[!NOTE]
+    >
+    >다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인의 타겟이 되지 않습니다.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

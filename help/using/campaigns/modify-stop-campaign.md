@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 캠페인, 상태, 일정, 액세스, 최적기 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 2%
 
 캠페인은 **[!UICONTROL 캠페인]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-기본적으로 이 목록에는 **[!UICONTROL 초안]**, **[!UICONTROL 예약됨]**, 및 **[!UICONTROL 라이브]** 상태.
-
-중지, 완료 및 보관된 캠페인을 표시하려면 필터를 지워야 합니다.
+기본적으로 이 목록에는 **[!UICONTROL 초안]**, **[!UICONTROL 예약됨]**, 및 **[!UICONTROL 라이브]** 상태. 중지, 완료 및 보관된 캠페인을 표시하려면 필터를 지워야 합니다.
 
 ![](assets/create-campaign-list.png)
+
+또한 캠페인 유형 및 채널 또는 캠페인을 만들 때 캠페인에 할당된 태그를 기반으로 목록을 필터링할 수 있습니다. [캠페인에 태그를 할당하는 방법 알아보기](create-campaign.md#create)
 
 ## 캠페인 상태 {#statuses}
 

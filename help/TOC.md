@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '1371'
-ht-degree: 100%
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+workflow-type: tm+mt
+source-wordcount: '1370'
+ht-degree: 99%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 100%
       + [관리자로 시작하기](using/start/path/administrator.md)
       + [개발자로 시작하기](using/start/path/developer.md)
    + [사용자 인터페이스](using/start/user-interface.md)
+   + [검색, 필터링, 분류](using/start/search-filter-categorize.md)
    + [접근성](using/start/accessibility.md)
    + [통합](using/start/ajo-integrations.md)
    + [가드레일](using/start/guardrails.md)
@@ -47,7 +48,6 @@ ht-degree: 100%
       + [다른 샌드박스로 여정 복사](using/building-journeys/copy-to-sandbox.md)
       + [여정 문제 해결](using/building-journeys/troubleshooting.md)
       + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
-      + [여정의 태그 관리](using/building-journeys/tags.md)
    + 활동 {#about-journey-building}
       + [여정 활동 시작](using/building-journeys/about-journey-activities.md)
       + [일반 이벤트](using/building-journeys/general-events.md)

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 세그먼트, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 18%
+source-wordcount: '1512'
+ht-degree: 25%
 
 ---
 
@@ -42,10 +42,6 @@ ht-degree: 18%
 
 여정 관리 메뉴 섹션에서 **[!UICONTROL 여정]**. 두 개의 탭을 사용할 수 있습니다.
 
-**찾아보기**: 이 탭에는 기존 여정 목록이 표시됩니다. 여정을 검색하고, 필터를 사용하고 각 요소에 대한 기본 작업을 수행할 수 있습니다. 예를 들어 항목을 복제하거나 삭제할 수 있습니다. 자세한 정보는 [이 섹션](../start/user-interface.md#filter-lists)을 참조하십시오.
-
-![](assets/journeys-browse.png)
-
 **개요**: 이 탭에는 여정과 관련된 주요 지표가 있는 대시보드가 표시됩니다.
 
 * **처리된 프로필**: 지난 24시간 동안 처리된 총 프로필 수
@@ -58,6 +54,22 @@ ht-degree: 18%
 >이 대시보드는 지난 24시간 동안 트래픽이 있는 여정을 고려합니다. 액세스할 수 있는 여정만 표시됩니다.
 
 ![](assets/journeys-dashboard.png)
+
+**찾아보기**: 이 탭에는 기존 여정 목록이 표시됩니다. 여정을 검색하고, 필터를 사용하고 각 요소에 대한 기본 작업을 수행할 수 있습니다. 예를 들어 항목을 복제하거나 삭제할 수 있습니다. 자세한 정보는 [이 섹션](../start/user-interface.md#filter-lists)을 참조하십시오.
+
+![](assets/journeys-browse.png)
+
+여정 목록의 **[!UICONTROL 상태 및 버전 필터]**&#x200B;에서 상태, 유형 및 버전에 따라 여정을 필터링할 수 있습니다. 유형에는 **[!UICONTROL 단일 이벤트]**, **[!UICONTROL 세그먼트 자격]**, **[!UICONTROL 세그먼트 읽기]**, **[!UICONTROL 비즈니스 이벤트]** 또는 **[!UICONTROL 버스트]**&#x200B;가 있습니다.
+
+**[!UICONTROL 활동 필터]** 및 **[!UICONTROL 데이터 필터]**&#x200B;에서 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수 있습니다. 또한 **[!UICONTROL 게시 필터]** 발행 날짜 또는 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 경로의 최신 버전만 표시하도록 선택할 수 있습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md).
+
+![](assets/filter-journeys.png)
+
+**[!UICONTROL 마지막 업데이트]** 및 열별 **[!UICONTROL 마지막 업데이트]**&#x200B;를 사용하여 여정의 마지막 업데이트 및 저장한 사용자를 확인합니다.
+
+이벤트, 데이터 소스 및 작업 구성 창에서 **[!UICONTROL 사용 위치]** 필드를 적용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 경로 수가 표시됩니다. **[!UICONTROL 여정 보기]** 버튼을 클릭하여 해당 여정의 목록을 표시할 수 있습니다.
+
+![](assets/journey3bis.png)
 
 ## 여정 빌드{#jo-build}
 
@@ -101,7 +113,7 @@ ht-degree: 18%
 
 오른쪽 상단에 있는 연필 아이콘을 클릭하여 여정 속성에 액세스합니다.
 
-여정 이름을 변경하고, 설명을 추가하고, 다시 시작하고, 시작 날짜와 종료 날짜를 선택하고, 관리자 권한으로 을(를) 정의할 수 있습니다 **[!UICONTROL 시간 초과 및 오류]** 지속 시간.
+여정 이름을 변경하고, 설명을 추가하고, 다시 시작하고, 시작 날짜와 종료 날짜를 선택하고, 관리자 권한으로 을(를) 정의할 수 있습니다 **[!UICONTROL 시간 초과 및 오류]** 지속 시간. 여정에 Adobe Experience Platform 통합 태그를 할당할 수도 있습니다. 이를 통해 분류하고 캠페인 목록에서 검색을 향상시킬 수 있습니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
 
 라이브 여정의 경우 이 화면에는 여정을 게시한 사용자의 게시 날짜와 이름이 표시됩니다.
 
