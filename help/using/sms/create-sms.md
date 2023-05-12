@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '596'
 ht-degree: 13%
 
 ---
@@ -90,6 +90,10 @@ ht-degree: 13%
 1. 콘텐츠를 정의한 후 추적 URL을 메시지에 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL 도우미 함수]** 메뉴 및 선택 **[!UICONTROL 도우미]**.
 
    URL 단축 기능을 사용하려면 먼저 서피스에 연결할 하위 도메인을 구성해야 합니다. [자세히 알아보기](sms-subdomains.md)
+
+   >[!CAUTION]
+   >
+   > SMS 하위 도메인에 액세스하고 편집하려면 다음을 수행해야 합니다 **[!UICONTROL SMS 하위 도메인 관리]** 프로덕션 샌드박스에 대한 권한.
 
    ![](assets/sms_tracking_1.png)
 

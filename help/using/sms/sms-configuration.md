@@ -6,10 +6,10 @@ description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 18%
+source-wordcount: '848'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 [!DNL Journey Optimizer] 에서는 여정을 만들고 타겟팅된 대상자에게 메시지를 전송할 수 있습니다.
 
-SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 합니다. [공급자 설정 통합](#create-api) Journey Optimizer 및 [sms 서피스 만들기](#message-preset-sms) (즉, SMS 사전 설정). 이러한 단계는 [Adobe Journey Optimizer 시스템 관리자](../start/path/administrator.md).
+SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 합니다. [공급자 설정 통합](#create-api) Journey Optimizer 및 [sms 서피스 만들기](#message-preset-sms) (즉, SMS 사전 설정). 이 단계는 [Adobe Journey Optimizer 시스템 관리자](../start/path/administrator.md)가 수행해야 합니다.
 
 ## 사전 요구 사항{#sms-prerequisites}
 
@@ -27,6 +27,9 @@ SMS를 구성하기 전에 Adobe Journey Optimizer과 해당 SMS 공급자 간�
 
 SMS 서비스 사용은 해당 SMS 공급자의 추가 약관을 따릅니다. Sinch 및 Twilio는 Adobe Journey Optimizer 사용자가 통합을 통해 사용할 수 있는 타사 제품이므로 SMS 서비스와 관련된 문제 또는 문의 사항은 Sinch 또는 Twilio 사용자가 해당 SMS 공급자에게 문의하여 도움을 받아야 합니다. Adobe은 제어하지 않으며 타사 제품에 대한 책임이 없습니다.
 
+>[!CAUTION]
+>
+>SMS 하위 도메인에 액세스하고 편집하려면 다음을 수행해야 합니다 **[!UICONTROL SMS 하위 도메인 관리]** 프로덕션 샌드박스에 대한 권한.
 
 ## 새 API 자격 증명 만들기 {#create-api}
 
