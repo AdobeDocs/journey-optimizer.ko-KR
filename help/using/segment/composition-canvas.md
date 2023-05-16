@@ -10,11 +10,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-badge: label="Beta" type="Advertising"
-source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
+badge: label="Beta" type="Informative"
+source-git-commit: 66cf0332c62a9c3b034398c3a6046cbcec622d40
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 27%
 
 >[!BEGINSHADEBOX]
 
-이 설명서에서 찾을 내용:
+이 설명서의 내용:
 
 * [대상자 구성 시작](get-started-audience-orchestration.md)
-* [첫 번째 컴포지션 워크플로우 만들기](create-compositions.md)
+* [컴포지션 워크플로우 처음 만들기](create-compositions.md)
 * **[컴포지션 캔버스 작업](composition-canvas.md)**
 * [대상자 액세스 및 관리](access-audiences.md)
 
