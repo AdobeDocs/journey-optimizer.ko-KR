@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 97%
+source-wordcount: '1970'
+ht-degree: 95%
 
 ---
 
@@ -75,28 +75,27 @@ ht-degree: 97%
 <td>
 <p>이제 새로운 모바일 온보딩 빠른 시작 워크플로우를 사용할 수 있습니다. 이 새로운 제품 기능으로 Mobile SDK를 빠르게 구성하여 모바일 이벤트 데이터를 수집, 확인하고 Adobe Journey Optimizer에서 모바일 푸시 알림을 보낼 수 있습니다. 이 기능은 공개 Beta 중이며 [데이터 수집] 홈 페이지를 통해 액세스할 수 있습니다.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
-<p>자세한 내용은 <a href="../push/mobile-onboarding-wf.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../push/mobile-onboarding-wf.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>New Journey dashboard (beta)</strong><br/></th>
+<th><strong>새로운 여정 대시보드(베타)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> The Journey dashboard is now split in two tabs:</p>
-<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
-<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
-<p>This capability is accessible in all journeys as a public beta.</p>
+<p> 이제 여정 대시보드가 두 개의 탭으로 분할됩니다.</p>
+<ul><li>를 사용하십시오 <strong>개요</strong> 탭하여 여정과 관련된 주요 지표를 표시하는 새 대시보드에 액세스합니다.</li>
+<li>를 사용하십시오 <strong>찾아보기</strong> 탭을 클릭하여 모든 여정 목록에 액세스합니다.</li></ul>
+<p>이 기능은 모든 여정에서 공개 베타로 액세스할 수 있습니다.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-gs.md#journey-access">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
