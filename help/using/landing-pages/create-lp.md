@@ -56,7 +56,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
 >title="랜딩 페이지에 레이블 지정"
->abstract="민감한 디지털 에셋을 보호하기 위해 레이블을 사용하여 랜딩 페이지에 대한 데이터 액세스를 관리하는 권한을 정의할 수 있습니다."
+>abstract="민감한 디지털 자산을 보호하기 위해 레이블을 사용하여 랜딩 페이지에 대한 데이터 액세스를 관리하는 권한을 정의할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="객체 수준 액세스 제어"
 
 랜딩 페이지를 만드는 주요 단계는 다음과 같습니다.
