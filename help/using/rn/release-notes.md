@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
+source-git-commit: d04f102100e67baf34ca72f9af26931955f84c67
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 97%
+source-wordcount: '2379'
+ht-degree: 82%
 
 ---
 
@@ -21,24 +21,173 @@ ht-degree: 97%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
-## 2023년 5월 개선 사항 {#may-improvements}
+
+## 2023년 5월 초기 릴리스 정보 {#may-rn-2023}
+
+아래 정보는 릴리스를 사용할 수 있는 당일까지 사전 통지 없이 변경될 수 있습니다. 릴리스 당일에 업데이트한 설명서가 게시되고 직접 연결되는 링크가 이 페이지에 추가됩니다.
+
+**릴리스 날짜**: 2023년 5월 25일
+
+### 새로운 기능{#may-2023-features}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Audience Composition</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
+<img src="../segment/assets/audiences-publish.png"/>
+<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
 
 <table>
 <thead>
 <tr>
-<th><strong>캠페인에서 태그 사용</strong><br/></th>
+<th><strong>캠페인에서의 콘텐츠 실험</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer에서 캠페인의 실험을 지원합니다. 실험은 무작위 시도이며, 온라인 테스트의 맥락에서 일부 무작위로 선택한 사용자를 메시지의 특정 변형에 노출하고 다른 무작위로 선택한 사용자 집합을 다른 변형 또는 처리에 노출함을 의미합니다. 노출 후 이메일 열기, 구독 또는 구매 등 관심 있는 결과 지표를 측정할 수 있습니다.</p>
+<img src="assets/do-not-localize/experiment.gif"/>
+<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Objective reporting and performance measurement in campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
+<img src="assets/do-not-localize/performance_report.gif"/>
+<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 콘텐츠에서 조각 만들기 및 사용</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 조각을 작성, 사용 및 관리하여 이메일 및 콘텐츠 템플릿을 신속하게 취합할 수 있습니다. 조각은 사전 빌드된 재사용 가능한 구성 요소로서, Journey Optimizer 캠페인 및 여정의 여러 이메일에서 개선되고 가속화된 디자인 프로세스를 위해 참조할 수 있습니다.</p>
+<img src="assets/fragment-insert.png"/>
+<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>캠페인의 태그 사용(베타)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>이제 캠페인에 Adobe Experience Platform [통합 태그]를 할당할 수 있습니다. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [통합 태그] 기능은 현재 Beta 버전입니다.
+</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>자세한 내용은 <a href="../start/search-filter-categorize.md#tags">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>개인화된 최적화 AI 등급 모델(일반 가용성)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 맞춤형 최적화 AI 등급 모델을 의사 결정 관리에서 일반적으로 사용할 수 있습니다. 이 새로운 유형의 모델을 사용하면 세그먼트와 오퍼 성과를 기반으로 오퍼를 최적화하고 개인화할 수 있습니다.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>자세한 내용은 <a href="../offers/ranking/personalized-optimization-model.md">자세한 설명서</a>를 참조하세요.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+### 개선 사항 {#may-2023-improvements}
+
+<!--
+**Terminology**
+
+* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
+-->
+<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
+-->
+
+
+**대상자**
+
+* 대상의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상 선택기가 개선되었습니다.
+
+**SMS 채널**
+
+* SMS 채널 표면을 구성할 때 공급업체 공급업체로 Infobip이 추가되었습니다.
+* Twilio - API 자격 증명 설정에는 이제 Twilio 계정과의 원활한 통합을 위해 메시징 서비스 SID를 추가하는 기능이 포함됩니다.
+
+**인앱 채널**
+
+* Adobe 위치 서비스에 대한 새 메시지 트리거 규칙이 추가되었습니다.
+* 트리거 규칙으로 추가할 장치 이벤트를 캡처하는 새로운 Adobe Experience Platform Assurance 기능이 추가되었습니다.
+
+**여정**
+
+* 이제 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
+
+**캠페인**
+
+* 이제 줄임표 작업 메뉴를 사용하여 인벤토리 화면에서 캠페인을 복제할 수 있습니다.
+* 이제 라이브 캠페인에 대한 수정 초안을 삭제할 수 있습니다.
+* 이제 캠페인을 활성화하는 단계가 간소화되었습니다.
+
+**의사 결정 관리**
+
+* 이제 오퍼가 초안 상태이고 이전에 게시된 적이 없는 경우 빈도 상한을 편집할 수 있습니다.
+
+**개인화**
+
+* 이제 HTML 콘텐츠에서 작업할 때 개인화 편집기에서 직접 에셋 참조를 선택하고 삽입할 수 있습니다.
+
+### 문제 해결{#may-2023-fixes}
+
+* 앱 내 메시지 - 캠페인 일정 조정이 메시지 빈도 설정과 충돌하는 문제를 해결했습니다.
+
 
 ## 2023년 4월 릴리스 정보 {#apr-rn-2023}
 
@@ -67,7 +216,7 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>모바일 온보딩 빠른 시작 워크플로우(Beta)</strong><br/></th>
+<th><strong>모바일 온보딩 빠른 시작 워크플로우(베타)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -84,7 +233,7 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>새 여정 대시보드(Beta)</strong><br/></th>
+<th><strong>새 여정 대시보드(베타)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -100,25 +249,6 @@ ht-degree: 97%
 </tr>
 </tbody>
 </table>
-
-<!--
-
-<table>
-<thead>
-<tr>
-<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
-<img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
 
 ### 개선 사항 {#april-2023-improvements}
 
@@ -246,7 +376,7 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>인앱 채널(beta)</strong><br/></th>
+<th><strong>인앱 채널(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -264,7 +394,7 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer 데이터 세트를 클라우드 스토리지 대상으로 내보내기(beta)</strong><br/></th>
+<th><strong>Journey Optimizer 데이터 세트를 클라우드 스토리지 대상으로 내보내기(베타)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
