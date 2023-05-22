@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
 workflow-type: tm+mt
 source-wordcount: '1970'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 95%
 <tbody>
 <tr>
 <td>
-<p>이제 캠페인에 Adobe Experience Platform 통합 태그를 할당할 수 있습니다. 이를 통해 분류하고 캠페인 목록에서 검색을 향상시킬 수 있습니다. 통합 태그 기능은 현재 베타 버전입니다.
+<p>이제 캠페인에 Adobe Experience Platform [통합 태그]를 할당할 수 있습니다. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [통합 태그] 기능은 현재 Beta 버전입니다.
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>자세한 내용은 <a href="../start/search-filter-categorize.md#tags">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -84,15 +84,15 @@ ht-degree: 95%
 <table>
 <thead>
 <tr>
-<th><strong>새로운 여정 대시보드(베타)</strong><br/></th>
+<th><strong>새 여정 대시보드(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p> 이제 여정 대시보드가 두 개의 탭으로 분할됩니다.</p>
-<ul><li>를 사용하십시오 <strong>개요</strong> 탭하여 여정과 관련된 주요 지표를 표시하는 새 대시보드에 액세스합니다.</li>
-<li>를 사용하십시오 <strong>찾아보기</strong> 탭을 클릭하여 모든 여정 목록에 액세스합니다.</li></ul>
+<ul><li>사용 <strong>개요</strong> 탭으로 이동하여 여정과 관련된 주요 지표를 표시하는 새 대시보드에 액세스합니다.</li>
+<li>사용 <strong>찾아보기</strong> 모든 여정 목록에 액세스할 수 있는 탭입니다.</li></ul>
 <p>이 기능은 모든 여정에서 공개 베타로 액세스할 수 있습니다.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>자세한 내용은 <a href="../building-journeys/journey-gs.md#journey-access">자세한 설명서</a>를 참조하세요.</p>
