@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -42,10 +42,10 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ## 여정 보호  {#journeys-guardrails}
 
-### 일반 여정 가드 레일 {#journeys-guardrails-journeys}
+### 일반 여정 가드레일 {#journeys-guardrails-journeys}
 
-* 여정의 활동 수는 50개로 제한됩니다. 활동 수가 여정 캔버스의 왼쪽 위 섹션에 표시됩니다.
-* 숫자 **라이브 여정** 하나의 조직에서는 샌드박스당 100개로 제한됩니다. 이 한도에 도달하면 더 이상 새 여정을 게시할 수 없습니다.
+* 한 여정에 넣을 수 있는 활동 수는 50개로 제한됩니다. 활동 수는 여정 캔버스의 왼쪽 위 섹션에 표시됩니다.
+* 한 조직에서 만들 수 있는 **라이브 여정**&#x200B;의 수는 샌드박스당 100개로 제한됩니다. 이 한도에 도달하면 더 이상 새 여정을 게시할 수 없습니다.
 
 ### 일반 작업  {#general-actions-g}
 
@@ -71,7 +71,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;로 시작해서는 안 됩니다.
 * IP 주소를 사용할 수 없습니다. 
 * 내부 Adobe 주소(`.adobe.*`)는 URL 및 API에 사용할 수 없습니다.
-* 기본 제공 사용자 지정 작업은 제거할 수 없습니다.
+* 기본 제공 사용자 정의 작업은 제거할 수 없습니다.
 
 ### 이벤트 {#events-g}
 
