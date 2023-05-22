@@ -12,9 +12,9 @@ hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 
 >[!AVAILABILITY]
 >
->대상자 구성은 현재 Private Beta에서만 사용할 수 있으며, 예고 없이 자주 업데이트될 수 있습니다. 베타가 조직 수준에서 프로비저닝되어 조직 내의 모든 샌드박스에 영향을 줍니다.
+>대상자 구성은 현재 Private Beta에서만 사용할 수 있으며, 예고 없이 자주 업데이트될 수 있습니다. Beta는 조직 수준에서 프로비저닝되어 조직 내의 모든 샌드박스에 영향을 줍니다.
 
 대상자 구성 기능으로 **구성 워크플로우**&#x200B;를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 제외...)을 활용하여 새 대상자를 만들 수 있습니다.
 
