@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 55%
 
 [의사 결정 관리]에서 특정 프로필에 대해 의사 결정을 내릴 때마다 해당 이벤트와 관련된 정보가 자동으로 Adobe Experience Platform으로 보내집니다.
 
-이를 통해 주어진 프로필에 제시된 오퍼를 파악할 수 있는 등 결정에 대한 통찰력을 얻을 수 있습니다. 이러한 데이터를 내보내 자체 보고 시스템으로 분석하거나 Adobe Experience Platform을 활용할 수 있습니다 [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko) 를 다른 도구와 결합하여 분석 및 보고를 향상시킵니다.
+이를 통해 의사 결정에 대한 인사이트를 얻을 수 있습니다. 예를 들면 주어진 프로필에 제시한 오퍼를 파악할 수 있습니다. 이 데이터를 내보내 자체 보고 시스템에서 분석하거나, Adobe Experience Platform [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko)를 다른 도구와 함께 활용하여 분석과 보고를 개선할 수 있습니다.
 
 ## 데이터 세트에서 사용할 수 있는 주요 정보 {#key-information}
 
@@ -25,12 +25,12 @@ ht-degree: 55%
 
 ![](../assets/events-dataset-preview.png)
 
-* **[!UICONTROL 대체]**: 개인화된 오퍼를 선택하지 않은 경우, 대체 오퍼의 이름 및 ID
-* **[!UICONTROL 배치]**: 오퍼를 전달하는 데 사용되는 배치의 이름, ID 및 채널입니다.
+* **[!UICONTROL 대체]**: 맞춤형 오퍼를 선택하지 않은 경우 대체 제안의 이름과 ID,
+* **[!UICONTROL 배치]**: 오퍼를 게재하는 데 사용되는 배치의 이름, ID, 채널,
 * **[!UICONTROL 선택]**: 프로필에 대해 선택한 오퍼의 이름 및 ID,
-* **[!UICONTROL 활동]**: 결정 이름 및 ID입니다.
+* **[!UICONTROL 활동]**: 의사 결정의 이름 및 ID입니다.
 
-또한 **[!UICONTROL identityMap]** 및 **[!UICONTROL Timestamp]** 프로필과 오퍼가 전달된 시간에 대한 정보를 검색할 필드입니다.
+또한 **[!UICONTROL identityMap]** 및 **[!UICONTROL Timestamp]** 필드를 활용하여 프로필의 정보와 오퍼가 게재된 시간을 검색할 수도 있습니다.
 
 각 결정과 함께 전송되는 모든 XDM 필드에 대한 자세한 내용은 [이 섹션](xdm-fields.md)을 참조하십시오.
 
