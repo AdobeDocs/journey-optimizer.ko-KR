@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 68%
 
 이메일이나 SMS 또는 푸시 알림 등 아웃바운드 채널을 이미 사용하고 있다면, 이제 인바운드 웹 채널을 활용하여 어떤 채널에서나 제대로 개인화된 경험을 제공할 수 있습니다.
 
-캠페인을 만든 후 **웹** 를 작업에 사용하고 기본 설정을 정의합니다. 캠페인을 구성하는 자세한 방법은 이 [페이지](../campaigns/create-campaign.md#configure)를 참조하십시오.
+캠페인을 만든 후 작업으로 **웹**&#x200B;을 선택하고 기본 설정을 정의합니다. 캠페인을 구성하는 자세한 방법은 이 [페이지](../campaigns/create-campaign.md#configure)를 참조하십시오.
 
 >[!NOTE]
 >
->웹 경험을 처음 만드는 경우에는 다음에 설명된 전제 조건을 따라야 합니다. [이 섹션](web-prerequisites.md).
+>웹 경험을 처음 만드는 경우에는 [이 섹션](web-prerequisites.md)에서 설명하는 전제 조건을 충족해야 한다는 점에 유의하십시오.
 
-에서 웹 캠페인을 만드는 자세한 단계를 살펴봅니다 [이 비디오](create-web.md#video).
+웹 캠페인을 만드는 자세한 단계는 [이 비디오](create-web.md#video)를 참조하십시오.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
