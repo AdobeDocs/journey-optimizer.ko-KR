@@ -4,7 +4,7 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: da59efccc65d78ae357123d5f99e94cfcb52a68d
+source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
 workflow-type: tm+mt
 source-wordcount: '2379'
 ht-degree: 82%
@@ -96,7 +96,7 @@ ht-degree: 82%
 <tr>
 <td>
 <p>이제 조각을 작성, 사용 및 관리하여 이메일 및 콘텐츠 템플릿을 신속하게 취합할 수 있습니다. 조각은 사전 빌드된 재사용 가능한 구성 요소로서, Journey Optimizer 캠페인 및 여정의 여러 이메일에서 개선되고 가속화된 디자인 프로세스를 위해 참조할 수 있습니다.</p>
-<img src="assets/fragment-insert.png"/>
+<img src="assets/do-not-localize/fragments.gif"/>
 <!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
 </td>
 </tr>
