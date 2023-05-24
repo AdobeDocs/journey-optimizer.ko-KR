@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: substr
-description: Function substr에 대해 알아보기
+description: 함수 substr에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 # substr {#substr}
 
-시작 인덱스와 끝 인덱스 사이에 문자열 식의 하위 문자열을 반환합니다. 끝 인덱스가 정의되지 않으면 시작 색인과 끝 사이의 인덱스입니다.
+시작 색인과 끝 색인 사이에 있는 문자열 식의 하위 문자열을 반환합니다. 끝 색인이 정의되지 않으면 시작 색인과 끝 사이에 있습니다.
 
 ## 카테고리
 
@@ -28,13 +28,13 @@ ht-degree: 17%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-------------|----------|
 | 문자열 | 문자열 |
 | beginIndex | 정수 |
 | endIndex | 정수 |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `substr(<string>,<beginIndex>)`
 

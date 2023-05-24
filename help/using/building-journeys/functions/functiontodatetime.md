@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: toDateTime
-description: toDateTime 함수에 대해 알아봅니다.
+description: 함수 toDateTime에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: toDateTime, 함수, 식, 여정
+keywords: toDateTime, 함수, 표현식, 여정
 exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 # toDateTime {#toDateTime}
 
-유형에 따라 매개 변수를 날짜 시간 값으로 변환합니다.
+유형에 따라 매개 변수를 날짜/시간 값으로 변환합니다.
 
 ## 카테고리
 
@@ -28,18 +28,18 @@ ht-degree: 11%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | ISO-8601 형식의 날짜 시간 | 문자열 |
 | 시간대 id | 문자열 |
 | 시간대 없는 날짜 시간 | dateTimeOnly |
-| epoch의 정수 값(밀리초) | 정수 |
+| 에포크의 정수 값(밀리초) | 정수 |
 
 >[!NOTE]
 >
 >시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md).
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `toDateTime(<string>)`
 

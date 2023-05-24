@@ -1,6 +1,6 @@
 ---
 title: 개인화된 오퍼 조회
-description: 개인화된 오퍼는 자격 규칙 및 제한을 기반으로 사용자 정의 가능한 마케팅 메시지입니다.
+description: 맞춤형 오퍼는 자격 규칙 및 제한에 따라 사용자 정의 가능한 마케팅 메시지입니다.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 2%
 
 # 개인화된 오퍼 조회 {#look-up-personalized-offer}
 
-개인화된 오퍼는 자격 규칙 및 제한을 기반으로 사용자 정의 가능한 마케팅 메시지입니다.
+맞춤형 오퍼는 자격 규칙 및 제한에 따라 사용자 정의 가능한 마케팅 메시지입니다.
 
-에 GET 요청을 작성하여 특정 개인화된 오퍼를 조회할 수 있습니다 [!DNL Offer Library] 개인화된 오퍼를 포함하는 API `@id` 또는 요청 경로에 있는 개인화된 오퍼의 이름입니다.
+에 GET 요청을 하여 개인화된 특정 오퍼를 조회할 수 있습니다. [!DNL Offer Library] 개인화된 오퍼를 포함하는 API `@id` 또는 요청 경로에 있는 개인화된 오퍼의 이름입니다.
 
 **API 형식**
 
@@ -25,13 +25,13 @@ ht-degree: 2%
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALIZED_OFFER}&{QUERY_PARAMS}
 ```
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 개인화된 오퍼가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | 개인화된 오퍼와 연결된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | 와 일치하는 `@id` 엔티티의 속성입니다. 문자열이 정확히 일치합니다. 매개 변수 &quot;id&quot;와 &quot;name&quot;을(를) 함께 사용할 수 없습니다. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확히 일치하고 대문자와 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 `id` 및 `name` 함께 사용할 수 없습니다. | `Discount offer` |
+| `id` | 를 일치시키는 데 사용되는 문자열 `@id` 엔티티의 속성입니다. 문자열이 정확하게 일치합니다. 매개 변수 &quot;id&quot;와 &quot;name&quot;은 함께 사용할 수 없습니다. | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 `id` 및 `name` 함께 사용할 수 없음 | `Discount offer` |
 
 **요청**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **응답**
 
-성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유한 개인화된 오퍼에 대한 정보를 포함한 배치 세부 사항을 반환합니다 `@id`.
+성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유한 개인화된 오퍼에 대한 정보를 포함하여 배치 세부 정보를 반환합니다 `@id`.
 
 ```json
 {

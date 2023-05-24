@@ -1,6 +1,6 @@
 ---
 title: 결정 업데이트
-description: 결정에는 오퍼의 선택을 알리는 논리가 포함되어 있습니다.
+description: 결정에는 오퍼의 선택을 알려주는 논리가 포함되어 있습니다.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,13 +15,13 @@ ht-degree: 8%
 
 # 의사 결정 업데이트 {#update-decision}
 
-에 PATCH 요청을 수행하여 컨테이너의 결정을 수정하거나 업데이트할 수 있습니다 [!DNL Offer Library] API.
+에 PATCH 요청을 하여 컨테이너에서 결정을 수정하거나 업데이트할 수 있습니다. [!DNL Offer Library] API.
 
-사용 가능한 작업을 포함한 JSON 패치에 대한 자세한 내용은 공식 문서를 참조하십시오 [JSON 패치 설명서](http://jsonpatch.com/).
+사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 다음을 참조하십시오. [JSON 패치 설명서](http://jsonpatch.com/).
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표에서는 *컨텐츠 유형* 및 *수락* 요청 헤더의 필드:
+다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 및 *Accept* 요청 헤더의 필드:
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -34,10 +34,10 @@ ht-degree: 8%
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 결정이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 결정이 위치한 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | 결정의 인스턴스 ID입니다. | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **요청**
@@ -60,15 +60,15 @@ curl -X PATCH \
     ]'
 ```
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 | --------- | ----------- |
-| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업은 다음과 같습니다. `add`, `replace`, 및 `remove`. |
+| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업에는 다음이 포함됩니다. `add`, `replace`, 및 `remove`. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 
 **응답**
 
-성공적인 응답은 고유한 인스턴스 ID 및 결정을 포함하여 결정의 업데이트된 세부 사항을 반환합니다 `@id`.
+성공적인 응답은 고유 인스턴스 ID 및 의사 결정을 포함하여 업데이트된 의사 결정 세부 정보를 반환합니다 `@id`.
 
 ```json
 {

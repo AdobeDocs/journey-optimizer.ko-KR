@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: getListItem
-description: gstListItem 함수에 대해 알아봅니다
+description: gstListItem 함수에 대해 알아봅니다.
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: getListItem, 함수, 식, 여정
+keywords: getListItem, 함수, 표현식, 여정
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -28,11 +28,11 @@ ht-degree: 20%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | list | listString |
-| list | listBoolean |
-| list | listInteger |
+| list | list부울 |
+| list | list정수 |
 | list | listDecimal |
 | list | listDuration |
 | list | listDateTime |
@@ -44,11 +44,11 @@ ht-degree: 20%
 
 `getListItem(<listInteger>,<index>)`
 
-정수를 반환합니다.
+정수 반환.
 
 `getListItem(<listDecimal>,<index>)`
 
-소수점 반환
+십진수를 반환합니다.
 
 `getListItem(<listString>,<index>)`
 
@@ -56,11 +56,11 @@ ht-degree: 20%
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-시간대를 고려하지 않고 datetime을 반환합니다.
+시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
 `getListItem(<listDateTime>,<index>)`
 
-datetime을 반환합니다.
+날짜/시간을 반환합니다.
 
 `getListItem(<listDateOnly>,<index>)`
 
@@ -68,22 +68,22 @@ datetime을 반환합니다.
 
 `getListItem(<listBoolean>,<index>)`
 
-부울을 반환합니다.
+부울 반환.
 
 `getListItem(<listDuration>,<index>)`
 
-지속 시간을 반환합니다.
+기간을 반환합니다.
 
 ## 예
 
 `getListItem([10, 2, 3], 1)`
 
-&quot;2&quot;를 반환합니다.
+&quot;2&quot; 반환
 
 `getListItem(["A", "B", "C"], 2)`
-&quot;C&quot;를 반환합니다.
+&quot;C&quot; 반환
 
-값이 있는 이벤트 필드 &#39;event.appVersion&#39;의 예: &quot;20.45.2.3434&quot;
+값이 &quot;20.45.2.3434&quot;인 이벤트 필드 &#39;event.appVersion&#39;이 있는 예
 
 `split(@{event.appVersion}, "\\.")`
 
@@ -91,4 +91,4 @@ datetime을 반환합니다.
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
-&quot;20&quot;을 반환합니다.
+&quot;20&quot; 반환

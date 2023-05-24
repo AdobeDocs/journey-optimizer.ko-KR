@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 권한 수준
-description: 사용자가 다른 기능에 액세스할 수 있는 높은 권한 및 낮은 수준의 권한에 대해 알아봅니다.
+description: 사용자가 다양한 기능에 액세스할 수 있는 높은 수준 및 낮은 수준의 권한에 대해 알아봅니다.
 topic: Administration
 role: Admin, Architect, Developer
 level: Experienced
-keywords: 권한, 높은 수준, 낮은 수준, 프로필, 관리 콘솔
+keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
@@ -19,31 +19,31 @@ ht-degree: 2%
 
 ![](assets/do-not-localize/permissions.png)
 
-각 제품 프로필은 사용자가 다른 기능에 액세스할 수 있는 권한으로 구성되어 있습니다.
+각 제품 프로필은 사용자가 다양한 기능에 액세스할 수 있는 권한으로 구성됩니다.
 두 가지 유형으로 나눌 수 있습니다.
 
-* **높은 수준의 권한**: 에는 지정할 수 있는 다양한 권한을 나타냅니다 **[!UICONTROL 제품 프로필]** 에서 [!DNL Admin console], 예 **[!DNL Publish journeys]** 및 **[!DNL Manage subdomains delegation]**. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다.
+* **높은 수준 권한**: 할당할 수 있는 다양한 권한을 나타냅니다. **[!UICONTROL 제품 프로필]** 다음에서 [!DNL Admin console], 예: **[!DNL Publish journeys]** 및 **[!DNL Manage subdomains delegation]**. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다.
 
-* **낮은 수준 권한**: 는 높은 수준 권한이 있는 다른 권한을 나타냅니다.
+* **낮은 수준의 권한**: 상위 수준의 권한에서 나오는 다양한 권한을 나타냅니다.
 
-예: **[!DNL Journey administrator]** 제품 프로필이 할당됨 **[!DNL Manage journeys]** 권한. 이 사용 권한을 통해 여정 관리자가 여정을 작성, 읽기 및 삭제할 수 있는 낮은 수준의 권한이 만들어집니다.
+예를 들어 **[!DNL Journey administrator]** 제품 프로필이 **[!DNL Manage journeys]** 권한. 이 권한으로 인해 여정 관리자가 여정을 작성, 읽기 및 삭제할 수 있는 낮은 수준의 권한이 생깁니다.
 
 ## 여정 기능 {#journey-capability}
 
 ### [!DNL Manage journeys] 사용 권한 {#manage-journeys}
 
-다음 **[!DNL Manage journeys]** 높은 수준의 권한을 통해 사용자는 여정 흐름을 작성하기 위해 여정 캔버스에서 사용되는 개체에 액세스할 수 있을 뿐만 아니라, 기존 여정을 새로 만들고 편집/삭제할 수 있습니다.
+다음 **[!DNL Manage journeys]** 높은 수준의 권한을 사용하면 새 여정을 만들고 기존 여정을 편집/삭제할 수 있을 뿐만 아니라 여정 캔버스에서 사용 중인 오브젝트에 액세스하여 플로우를 빌드할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* Journey Optimizer 특정:
+* Journey Optimizer 관련:
 
    * journeys.read
    * journeys.write
    * journeys.delete
    * messages.read
 
-* Adobe Experience Platform 특정:
+* Adobe Experience Platform 관련:
 
    * segments.read
    * profiles.read
@@ -56,30 +56,30 @@ ht-degree: 2%
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* Journey Optimizer 특정:
+* Journey Optimizer 관련:
    * journeys.publish
    * journeys.read
 
 ### [!DNL View journeys] 사용 권한 {#view-journeys}
 
-다음 **[!DNL View journeys]** 높은 수준의 권한을 통해 사용자가 여정을 탐색하고 볼 수 있습니다.
+다음 **[!DNL View journeys]** 높은 수준의 권한을 통해 여정을 검색하고 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* Journey Optimizer 특정:
+* Journey Optimizer 관련:
    * journeys.read
 
-* Adobe Experience Platform 특정:
+* Adobe Experience Platform 관련:
    * segments.read
    * profiles.read
 
 ### [!DNL Manage journeys events, data sources and actions] 사용 권한 {#manage-journeys-events}
 
-다음 **[!DNL Manage journeys events, data sources and actions]** 높은 수준의 권한을 통해 사용자는 이벤트 및 데이터 구성을 구성할 수 있습니다.
+다음 **[!DNL Manage journeys events, data sources and actions]** 높은 수준의 권한을 통해 사용자가 이벤트 및 데이터 구성을 구성할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* Journey Optimizer 특정:
+* Journey Optimizer 관련:
    * 여정_events.read
    * 여정_events.write
    * 여정_events.delete
@@ -90,38 +90,38 @@ ht-degree: 2%
    * 여정_actions.write
    * 여정_actions.delete
 
-* Adobe Experience Platform 특정:
+* Adobe Experience Platform 관련:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
 ### [!DNL View journeys events, data sources and actions] 사용 권한 {#view-journeys-event}
 
-다음 **[!DNL View journeys events, data sources and actions]** 높은 수준의 권한을 사용하면 여정 흐름에서 이벤트와 데이터를 사용할 수 있습니다.
+다음 **[!DNL View journeys events, data sources and actions]** 높은 수준 권한을 사용하면 여정 흐름에서 이벤트와 데이터를 사용할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* Journey Optimizer 특정:
+* Journey Optimizer 관련:
    * 여정_events.read
    * 여정_data_sources.read
    * 여정_actions.read
 
-* Adobe Experience Platform 특정:
+* Adobe Experience Platform 관련:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
 ### [!DNL View journeys report] 사용 권한 {#view-journeys-report}
 
-다음 **[!DNL View journeys report]** 높은 수준의 권한을 통해 사용자는 읽기 전용 여정 보고서를 볼 수 있습니다.
+다음 **[!DNL View journeys report]** 높은 수준의 권한을 통해 사용자는 읽기 전용 여정 보고서를 사용할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* Journey Optimizer 특정:
+* Journey Optimizer 관련:
    * 여정_report.read
    * messages_report.read
 
-* Adobe Experience Platform 특정:
+* Adobe Experience Platform 관련:
    * datasets.read
    * queries.read
    * queries.write
@@ -131,7 +131,7 @@ ht-degree: 2%
 
 ### [!DNL Manage decisions] 사용 권한 {#manage-decisioning}
 
-다음 **[!DNL Manage decisions]** 높은 수준의 권한을 통해 사용자는 기존 사용자를 새로 만들고 편집/삭제할 수 있습니다 **[!DNL Activity entities]**&#x200B;뿐만 아니라 이러한 활동에서 결정을 내리는 데 사용되는 개체를 관리합니다.
+다음 **[!DNL Manage decisions]** 높은 수준의 사용 권한을 통해 사용자는 새로운 항목을 만들고 기존 항목을 편집/삭제할 수 있습니다. **[!DNL Activity entities]**&#x200B;을 사용하여 의사 결정을 내리는 데 사용되는 객체를 관리할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -147,7 +147,7 @@ ht-degree: 2%
    * placements.delete
    * ranking_strategy.read
 
-* Adobe Experience Platform 특정:
+* Adobe Experience Platform 관련:
    * datasets.read
    * datasets.write
    * datasets.delete
@@ -157,7 +157,7 @@ ht-degree: 2%
 
 ### [!DNL View decisions] 사용 권한 {#view-decisions}
 
-다음 **[!DNL View decisions]** 높은 수준의 권한을 통해 사용자는 기존 활동 및 관련 비즈니스 개체를 사용하여 결정을 내릴 수 있습니다.
+다음 **[!DNL View decisions]** 높은 수준의 권한을 통해 사용자는 기존 활동 및 관련 비즈니스 오브젝트를 사용하여 의사 결정을 내릴 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -167,7 +167,7 @@ ht-degree: 2%
    * placements.read
    * ranking_strategy.read
 
-* Adobe Experience Platform 특정:
+* Adobe Experience Platform 관련:
    * schemas.read
    * segment.read
    * datasets.read
@@ -176,7 +176,7 @@ ht-degree: 2%
 
 ### [!DNL Publish offers decisioning] 사용 권한 {#publish-decisions}
 
-다음 **[!DNL Publish offers decisioning]** 높은 수준의 권한을 통해 사용자는 오퍼 활동을 승인/승인하지 않을 수 있습니다.
+다음 **[!DNL Publish offers decisioning]** 높은 수준의 권한을 통해 사용자는 오퍼 활동을 승인/승인 취소할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -190,7 +190,7 @@ ht-degree: 2%
    * placements.delete
    * ranking_strategy.read
 
-* Adobe Experience Platform 특정:
+* Adobe Experience Platform 관련:
    * schemas.read
    * segment.read
    * datasets.read
@@ -198,7 +198,7 @@ ht-degree: 2%
 
 ### [!DNL Manage ranking strategies] 사용 권한 {#manage-ranking-strategies}
 
-다음 **[!DNL Manage ranking strategies]** 높은 수준의 권한을 통해 사용자가 등급 전략을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.
+다음 **[!DNL Manage ranking strategies]** 높은 수준의 권한을 통해 등급 전략을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -214,7 +214,7 @@ ht-degree: 2%
 
 ### [!DNL Manage subdomains delegation] 사용 권한 {#manage-subdomain}
 
-다음 **[!DNL Manage subdomains delegation]** 높은 수준의 권한을 통해 사용자는 하위 도메인 위임(IP 풀 포함)을 생성, 편집 및 삭제할 수 있습니다.
+다음 **[!DNL Manage subdomains delegation]** 높은 수준의 권한을 통해 사용자는 하위 도메인 위임을 만들고, 편집하고, 삭제할 수 있습니다(IP 풀 포함).
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -243,7 +243,7 @@ ht-degree: 2%
 
 ### [!DNL Manage IP pools] 사용 권한 {#manage-ip-pools}
 
-다음 **[!DNL Manage IP pools]** 높은 수준 권한을 사용하면 친화성 정의를 생성, 편집 및 삭제할 수 있습니다.
+다음 **[!DNL Manage IP pools]** 높은 수준의 권한을 통해 사용자는 선호도 정의를 만들고, 편집하고, 삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -279,11 +279,11 @@ It includes the following low-level permissions:
 
 ### [!DNL Manage channel surface] 사용 권한 {#manage-channel-surface}
 
-다음 **[!DNL Manage channel surface]** 높은 수준의 권한을 통해 샌드박스 수준에서 채널 간에 채널 서피스를 생성, 편집 및 삭제할 수 있습니다.
+다음 **[!DNL Manage channel surface]** 높은 수준 권한을 사용하면 샌드박스 수준에서 채널 간 채널 표면을 만들고, 편집하고, 삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* Journey Optimizer 특정:
+* Journey Optimizer 관련:
    * messages_presets.read
    * messages_presets.write
    * messages_presets.delete
@@ -293,18 +293,18 @@ It includes the following low-level permissions:
 
 ### [!DNL View channel surface] 사용 권한 {#view-channel-surface}
 
-다음 **[!DNL View channel surface]** 높은 수준의 권한을 통해 사용자는 사용할 채널 서피스를 알기 위해 채널 서피스를 볼 수 있습니다.
+다음 **[!DNL View channel surface]** 높은 수준 권한을 사용하면 사용할 채널 표면을 알기 위해 채널 표면을 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read (Adobe Experience Platform 데이터 수집에서)
+* mobile_setting.read (Adobe Experience Platform 데이터 수집)
 
 ### [!DNL Manage suppression] 사용 권한 {#manage-suppression}
 
-다음 **[!DNL Manage suppression]** 높은 수준의 권한을 통해 사용자는 전자 메일 주소가 제외 목록에 추가되기 전에 바운스 수를 정의하고 제외 목록에 항목을 추가 및 삭제할 수 있습니다.
+다음 **[!DNL Manage suppression]** 높은 수준 권한을 사용하면 이메일 주소가 제외 목록에 추가되기 전의 바운스 수를 정의하고 제외 목록에 항목을 추가 및 삭제할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -316,27 +316,27 @@ It includes the following low-level permissions:
 
 ### [!DNL View suppression list] 사용 권한 {#view-suppression-list}
 
-다음 **[!DNL View suppression list]** 높은 수준의 권한을 통해 사용자는 억제 목록 콘텐츠 및 설정을 볼 수 있습니다.
+다음 **[!DNL View suppression list]** 높은 수준 권한을 사용하면 제외 목록 콘텐츠 및 설정을 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* Journey Optimizer 특정:
+* Journey Optimizer 관련:
    * suppression_list.view
 
-* Adobe Experience Platform 특정:
+* Adobe Experience Platform 관련:
    * profiles.read
    * datasets.read
 
 ### [!DNL Export suppression list] 사용 권한 {#export-suppression-list}
 
-다음 **[!DNL Export suppression list]** 높은 수준의 권한을 통해 사용자는 억제 목록을 CSV 파일로 다운로드할 수 있습니다.
+다음 **[!DNL Export suppression list]** 높은 수준 권한을 사용하면 제외 목록을 CSV 파일로 다운로드할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* Journey Optimizer 특정:
+* Journey Optimizer 관련:
    * suppression_list.export
 
-* Adobe Experience Platform 특정:
+* Adobe Experience Platform 관련:
    * profiles.read
    * datasets.read
 
@@ -346,7 +346,7 @@ It includes the following low-level permissions:
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* Journey Optimizer 특정:
+* Journey Optimizer 관련:
    * landing_page_subdomain.read
    * landing_page_subdomain.write
    * landing_page_subdomain.delete
@@ -356,20 +356,20 @@ It includes the following low-level permissions:
 
 ### [!DNL Manage frequency rules] 사용 권한 {#manage-frequency-rules}
 
-다음 **[!DNL Manage frequency rules]** 높은 수준의 권한을 통해 사용자는 빈도 규칙을 읽기, 만들기, 편집, 삭제 및 활성화/비활성화할 수 있습니다.
+다음 **[!DNL Manage frequency rules]** 높은 수준의 권한을 통해 사용자는 빈도 규칙을 읽고, 만들고, 편집하고, 삭제하고, 활성화/비활성화할 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* Journey Optimizer 특정:
+* Journey Optimizer 관련:
    * frequency_rules.read
    * frequency_rules.write
    * frequency_rules.delete
 
 ### [!DNL View frequency rules] 사용 권한 {#view-frequency-rules}
 
-다음 **[!DNL View frequency rules]** 높은 수준의 권한을 통해 사용자는 빈도 규칙을 볼 수 있습니다.
+다음 **[!DNL View frequency rules]** 높은 수준 권한을 사용하면 사용자가 빈도 규칙을 볼 수 있습니다.
 
 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-* Journey Optimizer 특정:
+* Journey Optimizer 관련:
    * frequency_rules.read

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 세그먼트 작성
-description: 세그먼트 작성 방법 알아보기
+description: 세그먼트 빌드 방법 알아보기
 feature: Journeys
 topic: Content Management
 role: User
@@ -22,47 +22,47 @@ ht-degree: 11%
 >title="규칙 만들기"
 >abstract="규칙 빌드 만들기 메서드를 통해 Adobe Experience Platform 세분화 서비스를 사용하여 새 세그먼트 정의를 만들 수 있습니다."
 
-이 예에서는 1980년 이후에 태어난 Atlanta, San Francisco 또는 Seattle에 거주하는 모든 고객을 타겟팅하는 세그먼트를 만듭니다. 이 모든 고객은 지난 7일 이내에 Luma 애플리케이션을 연 다음 애플리케이션을 연 후 2시간 내에 구매했어야 합니다.
+이 예에서는 Atlanta, San Francisco 또는 Seattle에 거주하며 1980년 이후 출생한 모든 고객을 타깃팅하기 위한 세그먼트를 작성합니다. 이 모든 고객은 지난 7일 이내에 Luma 애플리케이션을 열었다가 애플리케이션을 연 후 2시간 이내에 구입했어야 합니다.
 
-➡️ [이 비디오에서 세그먼트를 만드는 방법을 알아봅니다](#video-segment)
+➡️ [이 비디오에서 세그먼트를 만드는 방법을 알아봅니다.](#video-segment)
 
-1. 액세스 권한 **[!UICONTROL 세그먼트]** 메뉴를 클릭한 다음 **[!UICONTROL 세그먼트 만들기]** 버튼을 클릭합니다.
+1. 액세스 **[!UICONTROL 세그먼트]** 메뉴를 클릭한 다음 **[!UICONTROL 세그먼트 만들기]** 단추를 클릭합니다.
 
    ![](assets/create-segment.png)
 
-   세그먼트 정의 화면에서는 세그먼트를 정의하기 위해 모든 필수 필드를 구성할 수 있습니다. 에서 세그먼트를 구성하는 방법 알아보기 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
+   세그먼트 정의 화면에서 세그먼트를 정의하는 데 필요한 모든 필드를 구성할 수 있습니다. 에서 세그먼트를 구성하는 방법에 대해 알아봅니다. [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
-1. 에서 **[!UICONTROL 세그먼트 속성]** 창에서 세그먼트의 이름과 설명(선택 사항)을 제공합니다.
+1. 다음에서 **[!UICONTROL 세그먼트 속성]** 창에서 세그먼트의 이름과 설명을 입력합니다(선택 사항).
 
    ![](assets/segment-properties.png)
 
-1. 왼쪽 창의 원하는 필드를 가운데 작업 영역으로 끌어다 놓은 뒤 필요에 따라 구성합니다.
+1. 왼쪽 창에서 중앙 작업 영역으로 원하는 필드를 드래그하여 놓은 다음 필요에 따라 구성합니다.
 
    >[!NOTE]
    >
-   >왼쪽 창에서 사용할 수 있는 필드는 **XDM 개별 프로필** 및 **XDM ExperienceEvent** 조직에 대해 스키마가 구성되었습니다.  자세한 내용은 [XDM(Experience Data Model) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}.
+   >왼쪽 창에서 사용할 수 있는 필드는 을 사용하는 방법에 따라 다릅니다. **XDM 개별 프로필** 및 **XDM ExperienceEvent** 조직에 대해 스키마가 구성되었습니다.  다음에서 자세히 알아보기 [Experience Data Model(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}.
 
    ![](assets/drag-fields.png)
 
-   이 예제에서는 **속성** 및 **이벤트** 세그먼트를 작성할 필드:
+   이 예에서는 를 사용해야 합니다. **속성** 및 **이벤트** 세그먼트를 작성할 필드:
 
-   * **속성**: 애틀랜타, 샌프란시스코 또는 시애틀에서 1980년 이후에 태어난 프로필
+   * **속성**: 애틀랜타, 샌프란시스코 또는 1980년 이후 태어난 시애틀에 거주하는 프로필
 
       ![](assets/add-attributes.png)
 
-   * **이벤트**: 지난 7일 이내에 Luma 애플리케이션을 연 다음, 애플리케이션을 연 후 2시간 이내에 구입한 프로필입니다.
+   * **이벤트**: 지난 7일 이내에 Luma 애플리케이션을 연 다음, 애플리케이션을 연 후 2시간 이내에 구입한 프로필.
 
       ![](assets/add-events.png)
 
-1. 작업 공간에서 새 필드를 추가 및 구성하는 동안 **[!UICONTROL 세그먼트 속성]** 창은 세그먼트에 속하는 예상 프로필에 대한 정보로 자동 업데이트됩니다.
+1. 작업 영역에서 새 필드를 추가하고 구성할 때 **[!UICONTROL 세그먼트 속성]** 창은 세그먼트에 속하는 예상 프로필에 대한 정보로 자동으로 업데이트됩니다.
 
    ![](assets/segment-estimate.png)
 
-1. 세그먼트를 준비했으면 을 클릭합니다 **[!UICONTROL 저장]**. Adobe Experience Platform 세그먼트 목록에 표시됩니다. 검색 창에서는 목록에서 특정 세그먼트를 검색하는 데 도움이 됩니다.
+1. 세그먼트가 준비되면 을(를) 클릭합니다 **[!UICONTROL 저장]**. Adobe Experience Platform 세그먼트 목록에 표시됩니다. 목록의 특정 세그먼트를 검색하는 데 도움이 되는 검색 창을 사용할 수 있습니다.
 
-이제 여정에서 세그먼트를 사용할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../segment/about-segments.md)을 참조하십시오.
+이제 세그먼트를 여정에서 사용할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../segment/about-segments.md)을 참조하십시오.
 
 ## 방법 비디오{#video-segment}
 

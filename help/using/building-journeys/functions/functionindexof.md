@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: indexOf
-description: 함수 indexOf에 대해 알아봅니다.
+description: indexOf 함수에 대해 알아봅니다.
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: indexOf, 함수, 식, 여정
+keywords: indexOf, 함수, 표현식, 여정
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -28,16 +28,16 @@ ht-degree: 18%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | 문자열 | 문자열 |
 | 지정된 값 | 문자열 |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `indexOf(<string>,<string>)`
 
-정수를 반환합니다.
+정수 반환.
 
 ## 예
 
@@ -47,4 +47,4 @@ ht-degree: 18%
 
 설명:
 
-&quot;Hello&quot;에서 &quot;l&quot;의 첫 번째 발생을 위치 2에 있습니다.
+&quot;Hello&quot;에서 &quot;l&quot;의 첫 번째 발생은 위치 2에 있다.

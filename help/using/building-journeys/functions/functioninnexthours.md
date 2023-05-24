@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: inNextHours
-description: 다음 시간의 함수에 대해 알아봅니다.
+description: inNextHours 함수에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inNextHours, 함수, 식, 여정
+keywords: inNextHours, 함수, 표현식, 여정
 exl-id: 079a91b6-49c5-4e68-a240-358ed0cded92
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # inNextHours {#inNextHours}
 
-주어진 날짜 또는 dateTime이 now와 now + delta 시간 사이에 있으면 true를 반환합니다.
+지정된 date 또는 dateTime이 now와 now + delta 시간 사이에 있으면 true를 반환합니다.
 
 ## 카테고리
 
@@ -28,7 +28,7 @@ ht-degree: 18%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | 날짜 시간 | dateTime |
 | 델타 | 정수 |
@@ -37,7 +37,7 @@ ht-degree: 18%
 
 `inNextHours(<dateTime>,<integer>)`
 
-부울을 반환합니다.
+부울 반환.
 
 ## 예시
 

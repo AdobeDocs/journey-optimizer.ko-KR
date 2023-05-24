@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer에서 사전 헤더 추가
-description: 이메일 콘텐츠를 디자인하는 방법 알아보기
+title: Journey Optimizer에 사전 헤더 추가
+description: 이메일 콘텐츠 디자인 방법 알아보기
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: preheader, editor, summary, email
+keywords: 사전 머리글, 편집기, 요약, 이메일
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 41%
+ht-degree: 86%
 
 ---
 
@@ -29,26 +29,26 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->모든 전자 메일 클라이언트는 사전 헤더를 지원하지 않습니다. 지원되지 않는 경우 preheader가 표시되지 않습니다.
+>일부 이메일 클라이언트에서는 프리 헤더가 지원되지 않습니다. 지원되지 않는 경우에는 프리 헤더가 표시되지 않습니다.
 
-이메일 미리 헤더를 정의하려면 아래 단계를 수행합니다.
+이메일 프리 헤더를 정의하려면 다음 단계를 따르십시오.
 
-1. 이메일 디자이너에서 **[!UICONTROL 구조 구성 요소]** 전자 메일 디자인을 시작합니다.
+1. 이메일 디자이너에서 최소 하나의 **[!UICONTROL 구조 구성 요소]**&#x200B;를 추가하여 이메일 디자인을 시작합니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 탐색 트리]** 왼쪽 창에서 아이콘을 선택하고 **[!UICONTROL 본문]**.
+1. 왼쪽 창에서 **[!UICONTROL 탐색 트리]** 아이콘을 클릭하고 **[!UICONTROL 본문]**&#x200B;을 선택합니다.
 
    ![](assets/preheader_body.png)
 
-1. 에서 **[!UICONTROL 설정]** 탭에서 옆에 있는 개인화 아이콘을 클릭합니다 **[!UICONTROL Preheader]** 필드를 추가하여 컨텐츠를 추가합니다.
+1. 다음에서 **[!UICONTROL 설정]** 탭에서 옆에 있는 개인화 아이콘을 클릭합니다. **[!UICONTROL 사전 머리글]** 컨텐츠를 추가할 필드입니다.
 
    ![](assets/preheader_body_settings.png)
 
-1. 에서 **[!UICONTROL 개인화 편집]** 창, **[!UICONTROL 콘텐츠 블록]**, **[!UICONTROL 다이내믹 콘텐츠]** 또는 **[!UICONTROL 개인화 필드]**.
+1. **[!UICONTROL 개인화 편집]** 창에서 **[!UICONTROL 콘텐츠 블록]**, **[!UICONTROL 동적 콘텐츠]** 또는 **[!UICONTROL 개인화 필드]**&#x200B;를 추가할 수 있습니다.
 
-1. 클릭 **[!UICONTROL 유효성 검사]** 개인화 구문을 확인하려면
+1. **[!UICONTROL 유효성 검사]**&#x200B;를 클릭하여 개인화 구문을 확인합니다.
 
    ![](assets/preheader_4.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-이제 이메일에 대해 사전 헤더가 구성되었습니다.
+이제 프리 헤더가 이메일에 대해 구성되었습니다.

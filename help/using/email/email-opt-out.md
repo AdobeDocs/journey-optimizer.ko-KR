@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 이메일 옵트아웃 관리
-description: 이메일을 통해 옵트아웃을 관리하는 방법 알아보기
+description: 이메일을 사용하여 옵트아웃을 관리하는 방법 알아보기
 feature: Journeys
 topic: Content Management
 role: User
@@ -18,15 +18,15 @@ ht-degree: 81%
 
 # 이메일 옵트아웃 관리 {#email-opt-out}
 
-수신자가 이메일 커뮤니케이션 수신을 취소할 수 있는 기능을 제공하려면 항상 을 포함해야 합니다 **구독 취소 링크** 수신자에게 보내는 모든 이메일에서 [개인 정보 및 옵트아웃 관리에 대해 자세히 알아보십시오](../privacy/opt-out.md)
+수신자가 이메일 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하려면 항상 을(를) 포함해야 합니다 **구독 취소 링크** 을(를) 수신자에게 보내는 모든 이메일에 표시합니다. [개인 정보 및 옵트아웃 관리에 대해 자세히 알아보기](../privacy/opt-out.md)
 
-이렇게 하려면 다음을 수행할 수 있습니다.
+이렇게 하려면 다음 작업을 수행할 수 있습니다.
 
-* 삽입 **외부 랜딩 페이지에 연결** 이메일 을 통해 사용자가 브랜드로부터 커뮤니케이션 수신을 취소할 수 있도록 합니다. [외부 옵트아웃 링크를 추가하는 방법 알아보기](#opt-out-external-lp)
+* 삽입 **외부 랜딩 페이지에 연결** 를 이메일에 추가하여 사용자가 브랜드로부터 커뮤니케이션 수신을 취소할 수 있습니다. [다음 옵트아웃 링크를 추가하는 방법 알아보기](#opt-out-external-lp)
 
-* 추가 **옵트아웃 링크 1회 클릭** 이메일 콘텐츠로 변경 이 링크를 사용하면 수신자가 랜딩 페이지로 리디렉션되어 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있습니다. [원클릭 옵트아웃 링크를 추가하는 방법을 알아봅니다](#one-click-opt-out)
+* 추가 **원클릭 옵트아웃 링크** 을 이메일 콘텐츠에 추가합니다. 이 링크를 사용하면 수신자가 랜딩 페이지로 리디렉션되어 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있습니다. [원클릭 옵트아웃 링크를 추가하는 방법 알아보기](#one-click-opt-out)
 
-또한 **[!UICONTROL 목록 가입 해지]** 선택 사항이 채널 표면 수준에서 활성화되면 Journey Optimizer과 함께 전송되는 해당 이메일에 이메일 헤더에 가입 해지 링크가 포함됩니다. [이메일 헤더의 옵트아웃에 대해 자세히 알아보기](#unsubscribe-header)
+또한 **[!UICONTROL 목록-구독 취소]** 채널 표면 수준에서 옵션이 활성화되어 있으면 Journey Optimizer으로 전송된 해당 이메일의 헤더에 구독 취소 링크가 포함됩니다. [이메일 헤더의 옵트아웃에 대해 자세히 알아보기](#unsubscribe-header)
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ ht-degree: 81%
 
 ### 옵트아웃에 대한 API 호출 구현 {#opt-out-api}
 
-수신자가 랜딩 페이지에서 선택한 항목을 제출할 때 옵트아웃하도록 하려면 **구독 API 호출** through [Adobe Developer](https://developer.adobe.com){target="_blank"} 해당 프로필의 환경 설정을 업데이트하려면
+수신자가 랜딩 페이지에서 선택한 항목을 제출할 때 옵트아웃하도록 하려면 다음을 구현해야 합니다. **구독 API 호출** 에서 [Adobe Developer](https://developer.adobe.com){target="_blank"} 를 클릭하여 해당 프로필의 기본 설정을 업데이트합니다.
 
 이 POST 호출은 다음과 같습니다.
 
@@ -98,7 +98,7 @@ ht-degree: 81%
 }
 ```
 
-[!DNL Journey Optimizer] 에서는 다음 매개 변수를 사용하여 [Adobe Developer](https://developer.adobe.com){target="_blank"} API 호출.
+[!DNL Journey Optimizer] 은(는) 이러한 매개 변수를 사용하여 다음을 통해 해당 프로필의 선택을 업데이트합니다. [Adobe Developer](https://developer.adobe.com){target="_blank"} API 호출.
 
 ### 구독 취소 링크가 있는 메시지 보내기 {#send-message-unsubscribe-link}
 
@@ -118,7 +118,7 @@ ht-degree: 81%
 
    따라서 이 사용자는 다시 구독하지 않으면 브랜드에서 보내는 커뮤니케이션을 받지 않습니다.
 
-1. 해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}.
+1. 해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 다음에서 자세히 알아보기 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 
@@ -186,4 +186,4 @@ ht-degree: 81%
    >
    >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 표시되지 않습니다.
 
-* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}.
+* 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. 다음에서 자세히 알아보기 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}.

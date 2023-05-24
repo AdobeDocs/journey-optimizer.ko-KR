@@ -1,6 +1,6 @@
 ---
 title: 개인화된 오퍼 업데이트
-description: 개인화된 오퍼는 자격 규칙 및 제한을 기반으로 사용자 정의 가능한 마케팅 메시지입니다.
+description: 맞춤형 오퍼는 자격 규칙 및 제한에 따라 사용자 정의 가능한 마케팅 메시지입니다.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,13 +15,13 @@ ht-degree: 8%
 
 # 개인화된 오퍼 업데이트 {#update-personalized-offer}
 
-에 PATCH 요청을 작성하여 개인화된 오퍼를 수정하거나 업데이트할 수 있습니다 [!DNL Offer Library] API
+에 PATCH 요청을 하여 개인화된 오퍼를 수정하거나 업데이트할 수 있습니다. [!DNL Offer Library] API
 
-사용 가능한 작업을 포함한 JSON 패치에 대한 자세한 내용은 공식 문서를 참조하십시오 [JSON 패치 설명서](http://jsonpatch.com/).
+사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 다음을 참조하십시오. [JSON 패치 설명서](http://jsonpatch.com/).
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표에서는 *컨텐츠 유형* 및 *수락* 요청 헤더의 필드:
+다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 및 *Accept* 요청 헤더의 필드:
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -34,7 +34,7 @@ ht-degree: 8%
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 개인화된 오퍼가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
@@ -69,15 +69,15 @@ curl -X PATCH \
     ]'
 ```
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 | --------- | ----------- |
-| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업은 다음과 같습니다. `add`, `replace`, 및 `remove`. |
+| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업에는 다음이 포함됩니다. `add`, `replace`, 및 `remove`. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 
 **응답**
 
-성공적인 응답은 고유 인스턴스 ID 및 개인화된 오퍼를 포함하여 개인화된 오퍼의 업데이트된 세부 사항을 반환합니다 `@id`.
+성공적인 응답은 고유한 인스턴스 ID와 개인화된 오퍼를 포함하여 개인화된 오퍼의 업데이트된 세부 정보를 반환합니다 `@id`.
 
 ```json
 {

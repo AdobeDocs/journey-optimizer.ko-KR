@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 함수
-description: 기능에 대해 알아보기
+description: 함수에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -17,7 +17,7 @@ ht-degree: 73%
 
 # 함수 {#functions}
 
-함수에는 서로 다른 서명(순서가 지정된 다른 매개 변수 세트)이 있을 수 있습니다. 함수 시그니처에는 순서가 지정된 매개 변수로 0-N 식이 있을 수 있습니다.
+함수에는 서로 다른 서명(순서가 지정된 매개 변수의 다른 세트)이 있을 수 있습니다. 함수 시그니처에는 순서가 지정된 매개 변수로 0-N 표현식이 있을 수 있습니다.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 

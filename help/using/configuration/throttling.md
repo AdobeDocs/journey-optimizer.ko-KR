@@ -2,10 +2,10 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Throttling API
-description: 조절 API로 작업하는 방법 알아보기
+description: Throttling API로 작업하는 방법을 알아봅니다
 role: User
 level: Beginner
-keywords: 외부, API, 최적기, 최대 가용량
+keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: b95d3a709075c388b1784bd18407258acd786851
 workflow-type: tm+mt
@@ -16,9 +16,9 @@ ht-degree: 91%
 
 # Throttling API로 작업하기
 
-전송률 조절 API는 전송한 초당 이벤트 수를 제한하기 위해 전송률 조절 구성을 생성, 구성 및 모니터링하는 데 도움이 됩니다.
+Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제한 구성을 만들고 구성하고 모니터링하는 데 도움이 됩니다.
 
-이 섹션에서는 API를 사용하는 방법에 대한 글로벌 정보를 제공합니다. 자세한 API 설명은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/).
+이 섹션에서는 API 작업 방법에 대한 전역 정보를 제공합니다. 자세한 API 설명은에서 사용할 수 있습니다. [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/).
 
 >[!IMPORTANT]
 >

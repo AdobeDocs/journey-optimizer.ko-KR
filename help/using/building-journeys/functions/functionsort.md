@@ -5,7 +5,7 @@ description: 함수 정렬에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 정렬, 함수, 표현식, 여정
+keywords: sort, function, expression, 여정
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 # sort {#sort}
 
-값이나 개체 목록을 자연어 순서로 정렬합니다.
+값 또는 개체 목록을 원래 순서로 정렬합니다.
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ ht-degree: 8%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 정렬할 목록입니다. listObject의 경우 필드 참조여야 합니다. |
-| keyAttributeName | 문자열 | 이 매개 변수는 listObject에만 사용됩니다. 지정된 목록의 개체에 있는 속성 이름이 정렬 키로 사용됩니다. |
-| sortingOrder | 부울 | 오름차순(true) 또는 내림차순(false) |
+| keyAttributeName | 문자열 | 이 매개 변수는 listObject에만 사용할 수 있습니다. 해당 목록의 개체에 있는 특성 이름은 정렬의 키로 사용됩니다. |
+| 정렬 순서 | 부울 | 오름차순(true) 또는 내림차순(false) |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `sort(<listInteger>,<boolean>)`
 
@@ -46,7 +46,7 @@ ht-degree: 8%
 
 `sort(<listDecimal>,<boolean>)`
 
-소수 목록을 반환합니다.
+소수점 목록을 반환합니다.
 
 `sort(<listString>,<boolean>)`
 
@@ -54,11 +54,11 @@ ht-degree: 8%
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-시간대를 고려하지 않고 날짜 시간 목록을 반환합니다.
+시간대를 고려하지 않고 날짜/시간 목록을 반환합니다.
 
 `sort(<listDateTime>,<boolean>)`
 
-datetime 목록을 반환합니다.
+날짜/시간 목록을 반환합니다.
 
 `sort(<listDateOnly>,<boolean>)`
 

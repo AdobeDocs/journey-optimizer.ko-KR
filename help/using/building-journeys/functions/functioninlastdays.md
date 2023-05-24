@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: inLastDays
-description: LastDays의 함수에 대해 알아봅니다.
+description: inLastDays 함수에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # inLastDays {#inLastDays}
 
-주어진 날짜 또는 dateTime이 지금부터 현재 - 델타 일 사이에 있으면 true를 반환합니다.
+지정된 date 또는 dateTime이 now와 now 사이에 있으면 true를 반환합니다(델타 일).
 
 ## 카테고리
 
@@ -28,7 +28,7 @@ ht-degree: 18%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | 날짜 시간 | dateTime |
 | 델타 | 정수 |
@@ -37,7 +37,7 @@ ht-degree: 18%
 
 `inLastDays(<dateTime>,<integer>)`
 
-부울을 반환합니다.
+부울 반환.
 
 ## 예시
 

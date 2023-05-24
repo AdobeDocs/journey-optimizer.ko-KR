@@ -1,6 +1,6 @@
 ---
 title: 내보낸 오퍼 카탈로그에 액세스하기
-description: 오퍼 카탈로그를 내보낸 후 Adobe Experience Platform에서 오퍼 카탈로그에 액세스하는 방법을 알아봅니다
+description: Adobe Experience Platform을 내보낸 후 오퍼 카탈로그에 액세스하는 방법에 대해 알아봅니다
 feature: Offers
 topic: Integrations
 role: User
@@ -21,8 +21,8 @@ ht-degree: 11%
 
 데이터 세트를 클릭하여 세부 정보에 액세스합니다.
 
-다음 **[!UICONTROL 데이터 세트 미리 보기]** 버튼을 사용하면 데이터 세트에 가장 최근 성공한 배치를 표시할 수 있습니다.
+다음 **[!UICONTROL 데이터 세트 미리 보기]** 버튼을 사용하면 데이터 세트에 가장 최근에 성공한 일괄 처리를 표시할 수 있습니다.
 
 ![](../assets/dataset-activity.png)
 
-데이터 세트를 찾고 사용하는 방법에 대한 자세한 내용은 [이 페이지](../../data/get-started-datasets.md).
+데이터 세트를 찾아보고 사용하는 방법에 대한 자세한 내용은 [이 페이지](../../data/get-started-datasets.md).

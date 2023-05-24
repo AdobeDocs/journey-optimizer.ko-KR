@@ -35,9 +35,9 @@ ht-degree: 21%
 
 ## 대기 활동 정보{#about_wait}
 
-최대 대기 기간은 30일입니다. 테스트 모드에서 **[!UICONTROL 테스트 대기 시간]** 매개 변수를 사용하면 각 대기 활동이 지속되는 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과가 빠르게 확인됩니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오
+최대 대기 기간은 30일입니다. 테스트 모드에서 **[!UICONTROL 테스트의 대기 시간]** 매개 변수를 사용하면 각 대기 활동이 지속되는 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오
 
-여정에서 여러 대기 활동을 사용할 때는 글로벌 여정 시간 제한이 30일이므로 주의하십시오. 즉, 프로필이 입력된 후 최대 30일 후에 항상 여정에서 제외됩니다.
+글로벌 여정 시간 제한이 30일이므로 여정에서 여러 대기 활동을 사용할 때는 주의하십시오. 즉, 프로필이 입력된 후 최대 30일 동안 여정에서 항상 드롭아웃됩니다.
 
 ## 기간 대기{#duration}
 
@@ -56,17 +56,17 @@ Select the date for the execution of the next activity.
 
 ## 사용자 지정 대기{#custom}
 
-이 옵션을 사용하면 이벤트 또는 데이터 소스에서 온 필드를 기반으로 하는 고급 표현식을 사용하여 2020년 7월 12일 오후 5시와 같은 사용자 지정 날짜를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. 다음을 참조하십시오 [페이지](expression/expressionadvanced.md). dateTimeOnly 형식에 대한 자세한 내용은 다음을 참조하십시오 [페이지](expression/data-types.md).
+이 옵션을 사용하면 이벤트 또는 데이터 소스에서 가져온 필드를 기반으로 하는 고급 표현식을 사용하여 사용자 정의 날짜(예: 2020년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 정의 기간(예: 7일)을 정의할 수는 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. 다음을 참조하십시오. [페이지](expression/expressionadvanced.md). dateTimeOnly 형식에 대한 자세한 내용은 다음을 참조하십시오 [페이지](expression/data-types.md).
 
 >[!NOTE]
 >
->dateTimeOnly 표현식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), 2016-08-12T09 형식의 이벤트에 있는 필드:46:06Z.
+>dateTimeOnly 식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), 이벤트의 필드는 양식 2016-08-12T09:46:6Z.
 >
->다음 **시간대** 는 여정 속성에 필요합니다. 따라서 2016-08-12T09과 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 가리키는 인터페이스에서는 사용할 수 없습니다:46:06.982-05. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
+>다음 **시간대** 은 여정 속성에서 필요합니다. 따라서 오늘 인터페이스에서 2016-08-12T09와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 지정하는 것은 불가능합니다:46:06.982-05. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
 ![](assets/journey57.png)
 
-대기 활동이 예상대로 작동하는지 확인하기 위해, 단계 이벤트를 사용할 수 있습니다. [이 페이지](../reports/query-examples.md#common-queries)를 참조하십시오.
+대기 활동이 예상대로 작동하는지 확인하려면 단계 이벤트를 사용할 수 있습니다. [이 페이지](../reports/query-examples.md#common-queries)를 참조하십시오.
 
 <!--## Email send time optimization{#email_send_time_optimization}
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정 구성
-description: 데이터 소스, 이벤트 및 작업을 구성하는 방법을 알아봅니다
+description: 데이터 소스, 이벤트 및 작업 구성 방법 알아보기
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -23,7 +23,7 @@ ht-degree: 78%
 >title="여정 구성 정보"
 >abstract="여정과 함께 메시지를 전송하려면 데이터 원본, 이벤트 및 작업을 구성해야 합니다. 데이터 원본을 사용하여 여정에 사용할 조건 등의 추가 정보를 검색하려면 시스템에 대한 연결을 정의해야 합니다. 이벤트를 수신하면 이벤트를 사용하여 여정을 트리거할 수 있습니다. 사용자 정의 작업을 통해 서드파티 시스템에 연결하여 메시지를 전송할 수 있습니다. Journey Optimizer 내장 메시지 기능을 사용하는 경우 작업을 구성할 필요가 없습니다."
 
-여정과 함께 메시지를 보내려면 다음을 구성해야 합니다 **[!UICONTROL 데이터 소스]**, **[!UICONTROL 이벤트]** 및 **[!UICONTROL 작업]**.
+여정과 함께 메시지를 보내려면 다음을 구성해야 합니다. **[!UICONTROL 데이터 소스]**, **[!UICONTROL 이벤트]** 및 **[!UICONTROL 작업]**.
 
 ![](assets/admin-menu.png)
 
@@ -39,7 +39,7 @@ ht-degree: 78%
 
 ## 작업 {#actions}
 
-Journey Optimizer 메시지 기능 기본 제공: 여정에 채널 작업 활동만 추가해야 합니다. 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../../using/action/action.md)
+Journey Optimizer 메시지 기능 기본 제공: 여정에 채널 작업 활동을 추가하기만 하면 됩니다. 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../../using/action/action.md)
 
 ## Adobe Experience Platform 필드를 통한 검색 {#friendly-names-display}
 

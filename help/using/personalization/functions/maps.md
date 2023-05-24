@@ -1,6 +1,6 @@
 ---
-title: 함수 라이브러리 매핑
-description: 함수 라이브러리 매핑
+title: 맵 함수 라이브러리
+description: 맵 함수 라이브러리
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 6%
 
 # 맵 함수{#maps}
 
-개인화에서 맵 함수를 사용하여 맵과의 상호 작용을 더 쉽게 할 수 있습니다.
+개인화에 맵 함수를 사용하여 맵과의 상호 작용을 보다 쉽게 만듭니다.
 
 ## 가져오기{#get}
 
-다음 `get` 함수는 지정된 키에 대한 맵 값을 검색하는 데 사용됩니다.
+다음 `get` 함수는 특정 키에 대한 맵의 값을 검색하는 데 사용됩니다.
 
 **구문**
 
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 **예**
 
-다음 작업은 키에 대한 ID 맵의 값을 가져옵니다 `example@example.com`.
+다음 작업은 키의 ID 맵 값을 가져옵니다 `example@example.com`.
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
@@ -37,7 +37,7 @@ ht-degree: 6%
 
 ## 키{#keys}
 
-다음 `keys` 함수는 지정된 맵에 대한 모든 키를 검색하는 데 사용됩니다.
+다음 `keys` 함수는 특정 맵에 대한 모든 키를 검색하는 데 사용됩니다.
 
 **구문**
 
@@ -55,7 +55,7 @@ ht-degree: 6%
 
 ## 값{#values}
 
-다음 `values` 함수는 지정된 맵의 모든 값을 검색하는 데 사용됩니다.
+다음 `values` 함수는 주어진 맵의 모든 값을 검색하는 데 사용됩니다.
 
 **구문**
 

@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: avg
-description: 평균 함수에 대해 알아보기
+description: 함수 avg에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 # avg {#avg}
 
-목록 또는 두 개의 표현식으로 제공되는 표현식 집합 간의 평균 값을 반환합니다. Null 값은 무시됩니다.
+목록 또는 두 표현식으로 지정된 표현식 세트 중 평균 값을 반환합니다. Null 값은 무시됩니다.
 
 
 ## 카테고리
@@ -31,9 +31,9 @@ ht-degree: 13%
 
 지원되는 유형:
 
-* listInteger
+* list정수
 * listDecimal
-* 십진수
+* decimal
 * 정수
 
 ## 서명 및 반환된 유형
@@ -50,7 +50,7 @@ ht-degree: 13%
 
 `avg(<integer>,<integer>)`
 
-소수점 반환
+십진수를 반환합니다.
 
 ## 예시
 
@@ -58,8 +58,8 @@ ht-degree: 13%
 
 `avg([10,3,8])`
 
-7.0을 반환합니다.
+7.0을 반환합니다
 
 `avg(10.2, 3)`
 
-6.6을 반환합니다.
+6.6 반환.

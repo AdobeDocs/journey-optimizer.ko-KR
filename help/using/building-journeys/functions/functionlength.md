@@ -5,7 +5,7 @@ description: 함수 길이에 대해 알아봅니다
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: length, 함수, 표현식, 여정
+keywords: length, function, expression, 여정
 exl-id: 22c32919-2936-417c-a668-4f6dbf8b759b
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -26,15 +26,15 @@ ht-degree: 18%
 
 `length(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 * 문자열
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `length(<string>)`
 
-정수를 반환합니다.
+정수 반환.
 
 ## 예
 

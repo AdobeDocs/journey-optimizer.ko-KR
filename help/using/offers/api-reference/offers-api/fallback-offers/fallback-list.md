@@ -1,6 +1,6 @@
 ---
 title: 대체 오퍼 나열
-description: 다른 오퍼에 대한 자격이 없는 고객에게 대체 오퍼가 전송됩니다
+description: 다른 오퍼에 적합하지 않은 경우 고객에게 대체 오퍼가 전송됩니다
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 # 대체 오퍼 나열 {#list-fallback-offers}
 
-다른 오퍼에 대한 자격이 없는 고객에게 대체 오퍼가 전송됩니다. 대체 오퍼를 만드는 단계는 오퍼를 만들 때와 같이 하나 또는 여러 개의 표현을 만드는 데 구성됩니다.
+다른 오퍼에 대한 자격이 없는 고객에게 대체 오퍼가 전송됩니다. 대체 오퍼를 만드는 단계는 오퍼를 만들 때와 같이 하나 또는 여러 개의 표현을 만드는 것으로 구성됩니다.
 
-에 대한 단일 GET 요청을 수행하여 컨테이너 내의 모든 대체 오퍼 목록을 볼 수 있습니다 [!DNL Offer Library] API.
+에 대한 단일 GET 요청을 수행하여 컨테이너 내의 모든 대체 오퍼 목록을 볼 수 있습니다. [!DNL Offer Library] API.
 
 **API 형식**
 
@@ -25,12 +25,12 @@ ht-degree: 5%
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_OFFER}&{QUERY_PARAMS}
 ```
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 대체 오퍼가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FALLBACK_OFFER}` | 대체 오퍼와 연관된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `{QUERY_PARAMS}` | 결과를 기준으로 필터링할 선택적 쿼리 매개 변수입니다. | `limit=1` |
+| `{SCHEMA_FALLBACK_OFFER}` | 대체 오퍼와 연결된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
+| `{QUERY_PARAMS}` | 결과를 필터링 기준으로 사용할 선택적 쿼리 매개 변수입니다. | `limit=1` |
 
 **요청**
 
@@ -46,19 +46,19 @@ curl -X GET \
 
 ## 쿼리 매개 변수 사용 {#using-query-parameters}
 
-리소스를 나열할 때 쿼리 매개 변수를 사용하여 결과를 페이지 및 필터링할 수 있습니다.
+쿼리 매개 변수를 사용하여 리소스를 나열할 때 결과를 페이지로 지정하고 필터링할 수 있습니다.
 
 ### 페이징 {#paging}
 
-페이징의 가장 일반적인 쿼리 매개 변수는 다음과 같습니다.
+페이징에 가장 일반적인 쿼리 매개 변수는 다음과 같습니다.
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `q` | 선택한 필드에서 검색할 선택적 쿼리 문자열입니다. 쿼리 문자열은 소문자여야 하며 큰따옴표로 묶어서 토큰화되지 않도록 하고 특수 문자를 이스케이프 처리할 수 있습니다. 문자 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 에는 특별한 의미가 있으며 쿼리 문자열에 나타나면 백슬래시로 이스케이프해야 합니다. | `default` |
+| `q` | 선택한 필드에서 검색할 선택적 쿼리 문자열입니다. 쿼리 문자열은 소문자여야 하며 토큰화되지 않고 특수 문자를 이스케이프 처리할 수 있도록 큰따옴표로 묶을 수 있습니다. 문자 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 는 특별한 의미가 있으며 쿼리 문자열에 표시할 때 백슬래시로 이스케이프해야 합니다. | `default` |
 | `qop` | q 쿼리 문자열 매개 변수의 값에 AND 또는 OR 연산자를 적용합니다. | `AND` / `OR` |
-| `field` | 검색을 다음으로 제한할 필드 선택 사항입니다. 이 매개 변수는 다음과 같이 반복할 수 있습니다. field=field1[,field=field2,..] 및 (경로 표현식은 _instance.xdm:name과 같이 점으로 구분된 경로의 형식입니다.) | `_instance.xdm:name` |
-| `orderBy` | 특정 속성별로 결과를 정렬합니다. 추가 `-` 이전 제목 (`orderby=-title`)은 제목별로 항목을 내림차순으로 정렬합니다(Z-A). | `-repo:createdDate` |
-| `limit` | 반환된 대체 오퍼 수를 제한합니다. | `limit=5` |
+| `field` | 검색을 제한할 선택적 필드 목록입니다. 이 매개 변수는 다음과 같이 반복될 수 있습니다. field=field1[,field=field2,...] 및 (경로 표현식은 _instance.xdm:name과 같이 점으로 구분된 경로 형식입니다.) | `_instance.xdm:name` |
+| `orderBy` | 특정 속성별로 결과를 정렬합니다. 추가 `-` 제목 앞(`orderby=-title`)는 내림차순(Z-A)으로 제목별로 항목을 정렬합니다. | `-repo:createdDate` |
+| `limit` | 반환된 대체 오퍼의 수를 제한합니다. | `limit=5` |
 
 **응답**
 

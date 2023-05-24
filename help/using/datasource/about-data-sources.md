@@ -32,7 +32,7 @@ ht-degree: 73%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-여정이 이벤트 페이로드에서 전송되는 로컬 데이터만 활용하는 경우에는 이 구성을 수행하지 않아도 됩니다. 예를 들어 여정에 이벤트, 그리고 해당 이벤트의 데이터만 사용하는 채널 작업 활동이 차례로 포함되어 있으면 데이터 소스를 구성할 필요가 없습니다.
+여정이 이벤트 페이로드에서 전송되는 로컬 데이터만 활용하는 경우에는 이 구성을 수행하지 않아도 됩니다. 예를 들어 여정이 이벤트, 그리고 이벤트의 데이터만 사용하는 채널 작업 활동으로 구성된 경우 데이터 소스를 구성할 필요가 없습니다.
 
 데이터 소스에는 다음의 두 가지 유형이 있습니다.
 
@@ -43,9 +43,9 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->데이터 소스에는 스키마 관계가 지원되지 않습니다.
+>데이터 소스에 대해서는 스키마 관계가 지원되지 않습니다.
 
-Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 화면에서 확인하십시오 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
+Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 다음을 수행하십시오 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## 방법 비디오 {#video}
 

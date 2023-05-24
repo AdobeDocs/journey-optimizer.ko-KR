@@ -1,6 +1,6 @@
 ---
 title: 의사 결정 만들기
-description: 결정에는 오퍼의 선택을 알리는 논리가 포함되어 있습니다.
+description: 결정에는 오퍼의 선택을 알려주는 논리가 포함되어 있습니다.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 12%
 
 # 의사 결정 만들기 {#create-decision}
 
-에 POST 요청을 수행하여 결정을 만들 수 있습니다 [!DNL Offer Library] API, 컨테이너 ID를 제공하는 동안
+에 POST 요청을 하여 의사 결정을 만들 수 있습니다. [!DNL Offer Library] 컨테이너 ID를 제공하는 동안 API.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표에서는 *컨텐츠 유형* 및 *수락* 요청 헤더의 필드:
+다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 및 *Accept* 요청 헤더의 필드:
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -32,10 +32,10 @@ ht-degree: 12%
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 결정이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 결정이 위치한 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **요청**
 
@@ -72,7 +72,7 @@ curl -X POST \
 
 **응답**
 
-성공적인 응답은 고유한 인스턴스 ID 및 배치를 포함하여 새로 생성된 결정에 대한 정보를 반환합니다 `@id`. 이후 단계에서 인스턴스 ID를 사용하여 결정을 업데이트하거나 삭제할 수 있습니다.
+성공적인 응답은 고유한 인스턴스 ID 및 배치를 포함하여 새로 생성된 의사 결정에 대한 정보를 반환합니다 `@id`. 이후 단계에서 인스턴스 ID를 사용하여 결정을 업데이트하거나 삭제할 수 있습니다.
 
 ```json
 {

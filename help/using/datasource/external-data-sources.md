@@ -7,7 +7,7 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 외부, 소스, 데이터, 구성, 연결, 타사
+keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
@@ -27,7 +27,7 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->외부 시스템을 사용할 때의 보호 기능은 [이 페이지](../configuration/external-systems.md).
+>외부 시스템으로 작업할 때의 보호 기능 목록은 다음과 같습니다. [이 페이지](../configuration/external-systems.md).
 
 POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다. 그리고 API 키와 기본/사용자 지정 인증 모드가 지원됩니다.
 
@@ -42,7 +42,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 새 외부 데이터 소스를 만들고 구성하는 주요 단계는 다음과 같습니다.
 
-1. 데이터 소스 목록에서 **[!UICONTROL 데이터 소스 만들기]** 새 외부 데이터 소스를 만들려면
+1. 데이터 소스 목록에서 **[!UICONTROL 데이터 소스 만들기]** 새 외부 데이터 소스를 만듭니다.
 
    ![](assets/journey25.png)
 
@@ -65,7 +65,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
    ![](assets/journey27.png)
 
-1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL 인증 없음]**, **[!UICONTROL 기본]**, **[!UICONTROL 사용자 지정]** 또는 **[!UICONTROL API 키]**. 사용자 지정 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오. 이 예제에서는 다음 옵션을 선택합니다.
+1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL 인증 없음]**, **[!UICONTROL 기본]**, **[!UICONTROL 사용자 정의]** 또는 **[!UICONTROL API 키]**. 사용자 지정 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오. 이 예제에서는 다음 옵션을 선택합니다.
 
    * **[!UICONTROL 유형]**: &quot;API 키&quot;
    * **[!UICONTROL 이름]**: &quot;appid&quot;(API 키 매개 변수 이름)
@@ -74,24 +74,24 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
    ![](assets/journey28.png)
 
-1. 를 클릭하여 각 API 매개 변수 세트에 대한 새 필드 그룹을 추가합니다 **[!UICONTROL 새 필드 그룹 추가]**. 필드 그룹 이름에는 공백이나 특수 문자를 사용하지 마십시오. 이 예제에서는 각 매개 변수 세트(city, long/lat)용으로 하나씩 두 개의 필드 그룹을 만들어야 합니다.
+1. 를 클릭하여 각 API 매개 변수 세트에 대한 새 필드 그룹을 추가합니다. **[!UICONTROL 새 필드 그룹 추가]**. 필드 그룹 이름에는 공백이나 특수 문자를 사용하지 마십시오. 이 예제에서는 각 매개 변수 세트(city, long/lat)용으로 하나씩 두 개의 필드 그룹을 만들어야 합니다.
 
 &quot;long/lat&quot; 매개 변수 세트의 경우 다음 정보를 사용하여 필드 그룹을 만듭니다.
 
-* **[!UICONTROL 에 사용됨]**: 필드 그룹을 사용하는 여정 수를 표시합니다. 을(를) 클릭합니다. **[!UICONTROL 여정 보기]** 아이콘을 클릭하여 이 필드 그룹을 사용하는 여정 목록을 표시합니다.
-* **[!UICONTROL 메서드]**: POST 또는 GET 방법을 선택합니다. 여기서는 GET 메서드를 선택합니다.
+* **[!UICONTROL 다음에서 사용됨]**: 필드 그룹을 사용하는 여정 수를 표시합니다. 다음을 클릭할 수 있습니다 **[!UICONTROL 여정 보기]** 아이콘을 클릭하면 이 필드 그룹을 사용하는 여정 목록이 표시됩니다.
+* **[!UICONTROL 방법]**: POST 또는 GET 방법을 선택합니다. 여기서는 GET 메서드를 선택합니다.
 * **[!UICONTROL 동적 값]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [자세히 알아보기](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL 응답 페이로드]**: 내부 클릭 **[!UICONTROL 페이로드]** 필드에 붙여넣기를 통해 반환된 페이로드의 예제를 붙여넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 을 클릭하여 **[!UICONTROL 새 페이로드 붙여넣기]** 현재 전달된 페이로드를 변경하려는 경우
+* **[!UICONTROL 응답 페이로드]**: 내부 클릭 **[!UICONTROL 페이로드]** 필드를 만들고 호출에서 반환된 페이로드의 예제를 붙여넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 을(를) 클릭할 수 있습니다 **[!UICONTROL 새 페이로드 붙여넣기]** 현재 전달된 페이로드를 변경하려는 경우.
 
    >[!NOTE]
    >
    >스칼라 배열은 응답 페이로드 정의에서 지원되지 않습니다.
 
-* **[!UICONTROL 보낸 페이로드]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
+* **[!UICONTROL 페이로드 전송됨]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
 
-매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL 동적 값]** 필드가 추가되면 호출 끝에 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
+매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL 동적 값]** 필드와 이러한 필드는 호출 끝에 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
 
-* 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL 동적 값]** 필드(아래 예: &quot;identifier&quot;)
+* 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL 동적 값]** 필드(아래 예제에서는 &quot;identifier&quot;)
 * 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
 
    ```
@@ -132,10 +132,10 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 * endpoint: 끝점을 생성하는 데 사용할 URL
 * 끝점에 대한 HTTP 요청 메서드(GET 또는 POST)
-* 헤더: 필요한 경우 이 호출에서 헤더로 삽입할 키 값 쌍
+* header: 필요한 경우 이 호출에서 헤더로 삽입할 키-값 쌍
 * body: 메서드가 POST인 경우 호출의 본문을 설명하는 요소. bodyParams(키-값 쌍)에 정의된 제한된 본문 구조가 지원됩니다. bodyType은 호출 본문의 형식과 인코딩을 설명합니다.
-   * &#39;form&#39;: 즉, 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키-값 쌍이 그대로 일련화됩니다. key1=value1&amp;key2=value2&amp;..
-   * &#39;json&#39;: 즉, 콘텐츠 유형은 application/json(charset UTF-8)이며 키-값 쌍이 json 개체 그대로 일련화됩니다. _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;,..}_
+   * &#39;form&#39;: 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키-값 쌍이 그대로 일련화됩니다(예: key1=value1&amp;key2=value2&amp;...).
+   * &#39;json&#39;: 콘텐츠 유형은 application/json(charset UTF-8)이며 키-값 쌍이 json 개체 그대로 일련화됩니다. _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 작업의 HTTP 요청에서 액세스 토큰을 삽입해야 하는 방식의 정의:
 
@@ -176,7 +176,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 사용자 지정 인증 데이터 소스에 대해 토큰의 캐시 기간을 변경할 수 있습니다. 아래는 사용자 지정 인증 페이로드의 예입니다. 캐시 기간은 &quot;cacheDuration&quot; 매개 변수에서 정의됩니다. 캐시에서 생성된 토큰의 보존 기간을 지정합니다. 단위는 밀리초, 초, 분, 시간, 일, 개월, 년일 수 있습니다.
 
-다음은 베어러 인증 유형의 예입니다.
+다음은 전달자 인증 유형의 예입니다.
 
 ```
 {
@@ -208,7 +208,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 >[!NOTE]
 >
->캐시 기간은 인증 종단점에 대한 너무 많은 호출을 방지하는 데 도움이 됩니다. 인증 토큰 유지가 서비스에서 캐시되므로 지속성이 없습니다. 서비스를 다시 시작하면 깨끗한 캐시로 시작됩니다. 기본적으로 캐시 기간은 1시간입니다. 사용자 지정 인증 페이로드에서 다른 유지 기간을 지정하여 적용할 수 있습니다.
+>캐시 지속 시간은 인증 끝점에 대한 너무 많은 호출을 방지하는 데 도움이 됩니다. 서비스에서 인증 토큰 보존이 캐시되므로 지속성이 없습니다. 서비스가 다시 시작되면 클린 캐시로 시작합니다. 기본적으로 캐시 지속 시간은 1시간입니다. 사용자 지정 인증 페이로드에서는 다른 보존 기간을 지정하여 조정할 수 있습니다.
 
 다음은 헤더 인증 유형의 예입니다.
 

@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: startWith
-description: 함수 startWith
+description: startWith 함수에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: startWith, function, expression, 여정
+keywords: startWith, 함수, 표현식, 여정
 exl-id: 1abdf947-2873-4e45-a26c-cb895980e76a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 # startWith {#startWith}
 
-두 번째 매개 변수가 첫 번째 매개 변수의 접두사이면 true를 반환합니다.
+두 번째 매개 변수가 첫 번째 매개 변수의 접두사인 경우 true를 반환합니다.
 
 ## 카테고리
 
@@ -28,16 +28,16 @@ ht-degree: 25%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-------------|--------|
 | 문자열 | 문자열 |
 | prefix로 인해 영구적으로 지정되는 Mbox 매개 변수입니다 | 문자열 |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `startWith(<string>,<string>)`
 
-부울을 반환합니다.
+부울 반환.
 
 ## 예
 

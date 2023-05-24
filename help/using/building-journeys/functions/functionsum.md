@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: sum
-description: 함수 합에 대해 알아봅니다
+description: 함수 합에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 # sum {#sum}
 
-표현식 세트의 값 합계를 반환합니다. Null 값은 무시됩니다.
+표현식 집합의 값 합계를 반환합니다. Null 값은 무시됩니다.
 
 ## 카테고리
 
@@ -28,29 +28,29 @@ ht-degree: 12%
 
 ## 매개 변수
 
-* listInteger
+* list정수
 * listDecimal
-* 기간
+* 지속 시간
 * 정수
-* 십진수
+* decimal
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `sum(<listDecimal>)`
 
-소수점 반환
+십진수를 반환합니다.
 
 `sum(<listInteger>)`
 
-정수를 반환합니다.
+정수 반환.
 
 `sum(<integer>,<integer>)`
 
-정수를 반환합니다.
+정수 반환.
 
 `sum(<decimal>,<decimal>)`
 
-소수점 반환
+십진수를 반환합니다.
 
 ## 예시
 

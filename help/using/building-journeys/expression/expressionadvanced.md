@@ -37,7 +37,7 @@ _고급 표현식 편집기 인터페이스_
 * 사용자 지정 [대기 활동](../wait-activity.md#custom) 정의
 * 작업 매개 변수 매핑 정의
 
-가능한 경우 **[!UICONTROL 고급 모드]** / **[!UICONTROL 단순 모드]** 버튼을 클릭합니다. 단순 모드는 [여기](../condition-activity.md#about_condition)에 설명되어 있습니다.
+가능한 경우 **[!UICONTROL 고급 모드]** / **[!UICONTROL 단순 모드]** 단추를 클릭합니다. 단순 모드는 [여기](../condition-activity.md#about_condition)에 설명되어 있습니다.
 
 >[!NOTE]
 >
@@ -49,12 +49,12 @@ _고급 표현식 편집기 인터페이스_
 
 다양한 방법으로 고급 표현식 편집기에 액세스할 수 있습니다.
 
-* 데이터 소스 조건을 만들 때 아이콘을 클릭하여 고급 편집기에 액세스할 수 있습니다 **[!UICONTROL 고급 모드]**.
+* 데이터 소스 조건을 만들 때 을 클릭하여 고급 편집기에 액세스할 수 있습니다. **[!UICONTROL 고급 모드]**.
 
    ![](../assets/journeyuc2_33.png)
 
 * 사용자 지정 타이머를 만들 때 고급 편집기가 바로 나타납니다.
-* 작업 매개 변수를 매핑할 때 를 클릭합니다 **[!UICONTROL 고급 모드]**.
+* 작업 매개 변수를 매핑할 때 를 클릭합니다. **[!UICONTROL 고급 모드]**.
 
 ## 인터페이스 살펴보기{#discovering-the-interface}
 
@@ -65,9 +65,9 @@ _고급 표현식 편집기 인터페이스_
 화면 왼쪽에 사용 가능한 필드와 함수가 표시됩니다.
 
 * **[!UICONTROL 이벤트]**: 인바운드 이벤트에서 받은 필드 중 하나를 선택합니다. 상황에 맞는 이벤트 필드 목록이 표시되며, 이 목록은 여정에 추가된 이벤트에 따라 달라집니다. [자세히 보기](../../event/about-events.md)
-* **[!UICONTROL 세그먼트]**: 만약 **[!UICONTROL 세그먼트 자격]** 이벤트에서 표현식에 사용할 세그먼트를 선택합니다. [자세히 보기](../condition-activity.md#using-a-segment)
+* **[!UICONTROL 세그먼트]**: 을(를) 드롭한 경우 **[!UICONTROL 세그먼트 선별]** 이벤트에서 표현식에 사용할 세그먼트를 선택합니다. [자세히 보기](../condition-activity.md#using-a-segment)
 * **[!UICONTROL 데이터 소스]**: 데이터 소스의 필드 그룹에서 사용 가능한 필드 목록 중에서 선택합니다. [자세히 보기](../../datasource/about-data-sources.md)
-* **[!UICONTROL 여정 속성]**: 이 섹션은 지정된 프로필의 여정과 관련된 기술 필드를 다시 그룹화합니다. [자세히 보기](journey-properties.md)
+* **[!UICONTROL 여정 속성]**: 이 섹션에서는 특정 프로필에 대한 여정과 관련된 기술 필드를 다시 그룹화합니다. [자세히 보기](journey-properties.md)
 * **[!UICONTROL 함수]**: 복잡한 필터링을 수행할 수 있는 기본 함수 목록 중에서 선택합니다. 함수는 카테고리별로 구성됩니다. [자세히 보기](functions.md)
 
 ![](../assets/journey65.png)

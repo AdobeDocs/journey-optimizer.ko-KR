@@ -1,6 +1,6 @@
 ---
 title: 의사 결정 관리 이벤트 주요 정보
-description: 각 의사 결정 관리 이벤트와 함께 전송되는 주요 정보에 대해 자세히 알아봅니다.
+description: 각 의사 결정 관리 이벤트와 함께 전송된 주요 정보에 대해 자세히 알아보십시오.
 feature: Offers
 topic: Integrations
 role: User

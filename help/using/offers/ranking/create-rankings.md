@@ -1,6 +1,6 @@
 ---
 title: 등급 만들기
-description: 등급을 만드는 방법을 알아봅니다
+description: 등급을 만드는 방법 알아보기
 feature: Offers
 topic: Integrations
 role: User
@@ -16,6 +16,6 @@ ht-degree: 26%
 
 개요
 
-차이점 등급 공식/AI 모델
+차이점 등급 수식/AI 모델
 
-등급 섹션에 링크
+등급 섹션에 대한 링크

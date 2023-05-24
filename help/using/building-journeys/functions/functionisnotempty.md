@@ -5,7 +5,7 @@ description: isNotEmpty 함수에 대해 알아봅니다.
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: isNotEmpty, 함수, 식, 여정
+keywords: isNotEmpty, 함수, 표현식, 여정
 exl-id: 654d0e3d-10d9-4a40-b9be-7979c08e0e97
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -30,11 +30,11 @@ ht-degree: 17%
 
 * 문자열
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `isNotEmpty(<string>)`
 
-부울을 반환합니다.
+부울 반환.
 
 ## 예
 

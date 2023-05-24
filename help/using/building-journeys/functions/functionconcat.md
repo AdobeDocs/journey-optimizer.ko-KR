@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: concat
-description: 함수 개념에 대해 알아보기
+description: 함수 concat에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 # concat {#concat}
 
-두 문자열 매개 변수 또는 문자열 목록을 연결합니다.
+두 개의 문자열 매개 변수 또는 문자열 목록을 연결합니다.
 
 ## 카테고리
 
@@ -28,12 +28,12 @@ ht-degree: 25%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | 목록 | listString |
 | 문자열 | 문자열 |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `concat(<string>,<string>)`
 

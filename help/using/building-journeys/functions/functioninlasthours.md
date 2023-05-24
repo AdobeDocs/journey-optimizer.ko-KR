@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: inLastHours
-description: LastHours의 함수에 대해 알아봅니다.
+description: inLastHours 함수에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inLastHours, 함수, 식, 여정
+keywords: inLastHours, 함수, 표현식, 여정
 exl-id: c648d711-c81b-403b-9adb-792c7e79e4e2
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # inLastHours {#inLastHours}
 
-주어진 날짜 시간이 지금부터 현재 - 델타 시간 사이에 있는 경우 true를 반환합니다.
+지정된 날짜 시간이 지금부터 델타 시간 사이인 경우 true를 반환합니다.
 
 ## 카테고리
 
@@ -28,7 +28,7 @@ ht-degree: 18%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | 날짜 시간 | dateTime |
 | 델타 | 정수 |
@@ -37,7 +37,7 @@ ht-degree: 18%
 
 `inLastHours(<dateTime>,<integer>)`
 
-부울을 반환합니다.
+부울 반환.
 
 ## 예시
 

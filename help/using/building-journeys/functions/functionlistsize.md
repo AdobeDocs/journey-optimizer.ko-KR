@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: listSize
-description: 함수 listSize에 대해 알아보기
+description: listSize 함수에 대해 알아봅니다
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: listSize, 함수, 식, 여정
+keywords: listSize, 함수, 표현식, 여정
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -28,11 +28,11 @@ ht-degree: 31%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | 목록 | listString |
-| 목록 | listBoolean |
-| 목록 | listInteger |
+| 목록 | list부울 |
+| 목록 | list정수 |
 | 목록 | listDecimal |
 | 목록 | listDuration |
 | 목록 | listDateTime |
@@ -65,4 +65,4 @@ ht-degree: 31%
 
 `listSize([10,2,3])`
 
-3 반환.
+3을 반환합니다.

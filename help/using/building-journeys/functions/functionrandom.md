@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: random
-description: 임의 함수에 대해 알아보기
+description: 함수 무작위에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 # random {#random}
 
-0에서 1 사이의 난수를 생성합니다.
+0과 1 사이의 난수를 생성합니다.
 
 ## 카테고리
 
@@ -26,8 +26,8 @@ ht-degree: 14%
 
 `random(<parameters>)`
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `random()`
 
-소수점 반환
+십진수를 반환합니다.

@@ -17,9 +17,9 @@ ht-degree: 26%
 
 # journeyStep 이벤트 ID 필드 {#sharing-identity-fields}
 
-이 필드 그룹은 journeyStepEvent에만 사용됩니다. 이 이벤트는 여정과 관련이 있으며 프로필 ID가 있는 경우 idMap이 없습니다.
+이 필드 그룹은 journeyStepEvent에만 해당됩니다. 이 이벤트는 여정과 관련되어 있으며 프로필 ID를 설명하는 identityMap이 없습니다(있는 경우).
 
-journeyStepEvent의 경우 ID와 관련된 필드를 추가해야 합니다.
+journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 
 ## profileID
 
@@ -27,7 +27,7 @@ journeyStepEvent의 경우 ID와 관련된 필드를 추가해야 합니다.
 
 유형: 문자열
 
-## profileNamespace
+## 프로필 네임스페이스
 
 프로필 식별자 네임스페이스
 

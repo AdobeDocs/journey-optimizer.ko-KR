@@ -17,23 +17,23 @@ ht-degree: 2%
 
 # 쿼리 예제{#query-examples}
 
-이 섹션에는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 몇 가지 예제가 나와 있습니다.
+이 섹션에는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 몇 가지 예가 나와 있습니다.
 
-쿼리에 사용되는 필드에 해당 스키마의 관련 값이 있는지 확인하십시오.
+쿼리에 사용된 필드에 해당 스키마의 관련 값이 있는지 확인하십시오.
 
-**ID, instanceid 및 profileid 간의 차이점은 무엇입니까?**
+**ID, instanceid 및 profileid 간의 차이점은 무엇입니까**
 
-* id: 모든 단계 이벤트 항목에 대해 고유합니다. 서로 다른 두 단계 이벤트에는 동일한 ID가 있을 수 없습니다.
-* instanceId: instanceID는 여정 실행 내의 프로필에 연결된 모든 단계 이벤트에 대해 동일합니다. 프로필이 여정을 다시 입력하면 다른 instanceId가 사용됩니다. 이 새 instanceId는 다시 입력된 인스턴스의 모든 단계 이벤트(처음부터 끝까지)에 대해 동일합니다.
+* id: 모든 단계 이벤트 항목에 대해 고유합니다. 서로 다른 두 단계 이벤트는 동일한 ID를 가질 수 없습니다.
+* instanceId: instanceID는 여정 실행 내의 프로필에 연결된 모든 단계 이벤트에 대해 동일합니다. 프로필이 여정을 다시 입력하면 다른 instanceId가 사용됩니다. 이 새 instanceId는 다시 입력한 인스턴스의 모든 단계 이벤트(처음부터 끝까지)에 대해 동일합니다.
 * profileID: 여정 네임스페이스에 해당하는 프로필의 ID입니다.
 
-## 기본 사용 사례/일반적인 쿼리 {#common-queries}
+## 기본 사용 사례/일반 쿼리 {#common-queries}
 
-**특정 기간에 여정에 입력한 프로필 수**
+**특정 시간대에 여정에 입력한 프로필 수**
 
-이 쿼리는 주어진 기간 동안 주어진 여정에 입력된 개별 프로필 수를 제공합니다.
+이 쿼리는 주어진 시간대에 주어진 여정에 들어간 고유 프로필 수를 제공합니다.
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID)
@@ -45,7 +45,7 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 **특정 시간 동안 특정 여정의 각 노드에서 발생한 오류 수**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT
@@ -65,9 +65,9 @@ AND
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
 
-**특정 기간 동안 특정 여정에서 폐기된 이벤트 수**
+**특정 시간대에 특정 여정에서 삭제된 이벤트 수**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT
@@ -77,11 +77,11 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVers
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**특정 여정의 특정 프로필에 있는 특정 프로필은 어떻게 됩니까?**
+**특정 시간대의 특정 여정에서 특정 프로필에 발생하는 결과**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
-이 쿼리는 지정된 시간 동안 시간 순서대로 주어진 프로필 및 여정에 대한 모든 단계 이벤트 및 서비스 이벤트를 반환합니다.
+이 쿼리는 지정된 시간 동안 지정된 프로필과 여정에 대한 모든 단계 이벤트와 서비스 이벤트를 시간 순서대로 반환합니다.
 
 ```sql
 SELECT
@@ -106,9 +106,9 @@ ORDER BY timestamp;
 
 **두 노드 사이에 경과된 시간**
 
-예를 들어 대기 활동에서 보낸 시간을 예상하기 위해 이러한 쿼리를 사용할 수 있습니다. 이를 통해 대기 활동이 올바르게 구성되었는지 확인할 수 있습니다.
+예를 들어 이러한 쿼리는 대기 활동에 소요된 시간을 예상하는 데 사용할 수 있습니다. 대기 활동이 올바르게 구성되었는지 확인할 수 있습니다.
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 WITH
@@ -170,7 +170,7 @@ WHERE
     T1.INSTANCE_ID = T2.INSTANCE_ID
 ```
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 WITH
@@ -231,13 +231,13 @@ WHERE
     T1.INSTANCE_ID = T2.INSTANCE_ID
 ```
 
-**serviceEvent의 세부 정보를 확인하는 방법**
+**serviceEvent 세부 사항을 확인하는 방법**
 
-여정 단계 이벤트 데이터 세트에는 모든 stepEvents 및 serviceEvents가 포함되어 있습니다. stepEvents는 활동(이벤트, 작업 등)과 관련되어 있어 보고에 사용됩니다. 여정 내 프로필 수 중 하나를 선택합니다. serviceEvents는 동일한 데이터 세트에 저장되며, 디버깅 목적으로 추가 정보를 나타냅니다. 예를 들어 경험 이벤트가 버리기 때문입니다.
+여정 단계 이벤트 데이터 세트에는 모든 stepEvents 및 serviceEvents가 포함되어 있습니다. stepEvents는 활동(이벤트, 작업 등)과 관련하여 보고에 사용됩니다. 여정 내 프로필 개수 serviceEvents는 동일한 데이터 세트에 저장되며 디버깅 목적을 위한 추가 정보(예: 경험 이벤트가 삭제되는 이유)를 나타냅니다.
 
-다음은 serviceEvent의 세부 정보를 확인하는 쿼리의 예입니다.
+다음은 serviceEvent의 세부 사항을 확인하는 쿼리의 예입니다.
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT
@@ -255,9 +255,9 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 **여정에서 발생한 각 오류 목록**
 
-이 쿼리를 사용하면 메시지/작업을 실행하는 동안 여정에서 발생한 각 오류를 나열할 수 있습니다.
+이 쿼리를 사용하면 메시지/작업을 실행하는 동안 여정에서 발생하는 각 오류를 나열할 수 있습니다.
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
@@ -277,13 +277,13 @@ AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 ```
 
-이 쿼리는 여정에서 작업을 실행하는 동안 발생한 모든 다른 오류를 발생한 횟수와 함께 반환합니다.
+이 쿼리는 여정에서 작업을 실행하는 동안 발생한 다른 모든 오류와 발생한 횟수를 반환합니다.
 
 ## 프로필 기반 쿼리 {#profile-based-queries}
 
 **프로필이 특정 여정을 입력했는지 확인**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events
@@ -303,11 +303,11 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 결과는 0보다 커야 합니다. 이 쿼리는 프로필이 여정을 입력한 정확한 횟수를 반환합니다.
 
-**프로필에서 특정 메시지를 보냈는지 확인**
+**프로필에 특정 메시지가 전송되었는지 확인**
 
 방법 1: 메시지 이름이 여정에서 고유하지 않은 경우(여러 위치에서 사용됨).
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -331,7 +331,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 방법 2: 메시지 이름이 여정에서 고유한 경우.
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -351,11 +351,11 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-쿼리는 선택한 프로필에 대해 호출된 수와 함께 모든 메시지 목록을 반환합니다.
+이 쿼리는 선택한 프로필에 대해 호출된 카운트와 함께 모든 메시지 목록을 반환합니다.
 
 **지난 30일 동안 프로필에서 받은 모든 메시지 찾기**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
@@ -377,11 +377,11 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 ```
 
-쿼리는 선택한 프로필에 대해 호출된 수와 함께 모든 메시지 목록을 반환합니다.
+이 쿼리는 선택한 프로필에 대해 호출된 카운트와 함께 모든 메시지 목록을 반환합니다.
 
 **지난 30일 동안 프로필이 입력한 모든 여정 찾기**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
@@ -401,11 +401,11 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 ```
 
-쿼리는 쿼리된 여정이 입력한 횟수와 함께 모든 여정 이름 목록을 반환합니다.
+쿼리는 모든 여정 이름 목록과 함께 쿼리된 프로필이 여정을 입력한 횟수를 반환합니다.
 
-**매일 여정에 대해 자격이 있는 프로필 수**
+**매일 여정에 적합한 프로필 수**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
@@ -425,13 +425,13 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-쿼리는 정의된 기간 동안 매일 여정에 입력한 프로필 수를 다시 반환합니다. 여러 ID를 통해 입력한 프로필은 두 번 카운트됩니다. 다시 여정을 사용하도록 설정하면 다른 날에 다시 입력한 경우 프로필 수가 다른 날에 복제될 수 있습니다.
+정의된 기간 동안 매일 여정에 입력한 프로필 수가 다시 표시됩니다. 프로필이 여러 ID를 통해 입력된 경우 두 번 계산됩니다. 재입력이 활성화된 경우 다른 날에 여정에 다시 입력한 경우 다른 날에 프로필 수가 중복될 수 있습니다.
 
-## 세그먼트 읽기와 관련된 쿼리 {#read-segment-queries}
+## 세그먼트 읽기 관련 쿼리 {#read-segment-queries}
 
 **세그먼트 내보내기 작업을 완료하는 데 걸린 시간**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 select DATEDIFF (minute,
@@ -459,11 +459,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-쿼리는 세그먼트 내보내기 작업이 큐에 있는 시간과 마지막으로 종료한 시간 사이의 시간 차이(분)를 반환합니다.
+쿼리는 세그먼트 내보내기 작업이 큐에 추가된 시간과 최종적으로 종료되는 시간 사이의 시간 차이를 분 단위로 반환합니다.
 
-**중복되었기 때문에 여정에서 삭제한 프로필 수입니다**
+**중복 항목이므로 여정에서 버린 프로필 수입니다.**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -481,11 +481,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
 ```
 
-쿼리는 중복되었기 때문에 여정이 삭제한 모든 프로필 Id를 반환합니다.
+쿼리는 여정이 중복되었기 때문에 삭제한 모든 프로필 ID를 반환합니다.
 
-**네임스페이스가 잘못되어 여정에서 삭제한 프로필 수입니다**
+**잘못된 네임스페이스로 인해 여정에서 삭제된 프로필 수입니다.**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT count(*) FROM journey_step_events
@@ -503,11 +503,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
 ```
 
-쿼리에 잘못된 네임스페이스가 있거나 해당 네임스페이스에 대한 ID가 없으므로 여정이 삭제한 모든 프로필 ID가 반환됩니다.
+이 쿼리는 잘못된 네임스페이스가 있거나 해당 네임스페이스에 대한 ID가 없기 때문에 여정에서 삭제된 모든 프로필 ID를 반환합니다.
 
-**ID 맵이 없어서 여정이 삭제한 프로필 수입니다**
+**ID 맵이 없어 여정에서 삭제된 프로필 수입니다.**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT count(*) FROM journey_step_events
@@ -525,11 +525,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
 ```
 
-ID 맵이 누락되어 여정에서 삭제한 모든 프로필 ID를 쿼리로 반환합니다.
+이 쿼리는 ID 맵이 누락되었기 때문에 여정이 삭제한 모든 프로필 ID를 반환합니다.
 
-**여정이 테스트 노드에 있고 프로필이 테스트 프로필이 아니므로 여정이 삭제한 프로필 수입니다**
+**여정이 테스트 여정에 있고 프로필이 테스트 프로필이 아니기 때문에 테스트 노드에서 삭제된 프로필 수입니다**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -547,11 +547,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
-내보내기 작업이 테스트 모드에서 실행되었지만 프로필에 testProfile 속성이 true로 설정되지 않았기 때문에 쿼리는 여정에서 삭제한 모든 프로필 Id를 반환합니다.
+내보내기 작업이 테스트 모드에서 실행되었지만 프로필에 testProfile 특성이 true로 설정되지 않았으므로 여정에서 삭제된 모든 프로필 ID가 쿼리에서 반환됩니다.
 
-**내부 오류로 인해 여정에서 삭제한 프로필 수입니다**
+**내부 오류로 인해 여정에서 삭제된 프로필 수입니다**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -569,11 +569,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
 ```
 
-쿼리는 일부 내부 오류로 인해 여정이 삭제한 모든 프로필 ID를 반환합니다.
+이 쿼리는 일부 내부 오류로 인해 여정에서 삭제된 모든 프로필 ID를 반환합니다.
 
 **주어진 여정 버전에 대한 세그먼트 읽기 개요**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT
@@ -591,27 +591,27 @@ WHERE
     _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventType = 'segmenttrigger-orchestrator'
 ```
 
-지정된 여정 버전과 관련된 모든 서비스 이벤트를 반환합니다. 작업 체인을 따를 수 있습니다.
+지정된 여정 버전과 관련된 모든 서비스 이벤트를 반환합니다. 다음과 같은 작업 체인을 따를 수 있습니다.
 
-* 주제 작성
-* 내보내기 작업 만들기
-* 내보내기 작업 종료(내보낸 프로필에 대한 지표 포함)
+* 주제 만들기
+* 내보내기 작업 생성
+* 내보내기 작업 종료(내보낸 프로필에 대한 지표 사용)
 * 작업자 처리 종료
 
-다음과 같은 문제를 감지할 수도 있습니다.
+또한 다음과 같은 문제도 감지할 수 있습니다.
 
-* 주제 또는 내보내기 작업 생성 오류(세그먼트 내보내기 API 호출의 시간 초과 포함)
-* 보류 가능한 내보내기 작업(지정된 여정 버전의 경우 내보내기 작업 종료에 대한 이벤트가 없음)
-* 작업자 문제(내보내기 작업 종료 이벤트를 수신했지만 작업 처리 종료 이벤트가 없는 경우)
+* 주제 또는 내보내기 작업 생성 오류(세그먼트 내보내기 API 호출에 대한 시간 초과 포함)
+* 중단 가능한 내보내기 작업(주어진 여정 버전에 대해 내보내기 작업 종료와 관련된 이벤트가 없는 경우)
+* 작업자 문제, 내보내기 작업 종료 이벤트를 수신했지만 작업자 처리 종료 이벤트가 없는 경우
 
-중요 사항: 이 쿼리에서 반환된 이벤트가 없는 경우 다음 이유 중 하나로 인해 발생할 수 있습니다.
+중요: 이 쿼리에서 반환된 이벤트가 없는 경우 다음 이유 중 하나가 원인일 수 있습니다.
 
-* 여정 버전이 예약에 도달하지 않았습니다.
-* 여정 버전에서 오케스트레이터를 호출하여 내보내기 작업을 트리거해야 하는 경우 업그레이드 플로우에서 문제가 발생했습니다. 여정 배포, 비즈니스 이벤트 또는 스케줄러와의 문제에 대한 문제.
+* 여정 버전이 일정에 도달하지 않았습니다.
+* 여정 버전이 orchestrator를 호출하여 내보내기 작업을 트리거해야 하는 경우 업그레이드 플로우에서 문제가 발생했습니다. 여정 배포 문제, 비즈니스 이벤트 또는 스케줄러 문제.
 
-**주어진 여정 버전에 대한 세그먼트 읽기 오류 가져오기**
+**지정된 여정 버전에 대한 세그먼트 읽기 오류 가져오기**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT
@@ -637,7 +637,7 @@ WHERE
 
 **내보내기 작업 처리 상태 가져오기**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT
@@ -659,14 +659,14 @@ WHERE
     )
 ```
 
-레코드가 반환되지 않으면 다음 중 하나가 됩니다.
+레코드가 반환되지 않으면 다음 중 하나를 의미합니다.
 
 * 주제 또는 내보내기 작업을 만드는 동안 오류가 발생했습니다.
 * 내보내기 작업이 아직 실행 중입니다.
 
-**각 내보내기 작업에 대한 작업 지표 삭제 및 내보내기를 포함하여 내보낸 프로필에 대한 지표를 가져옵니다**
+**각 내보내기 작업에 대한 디스카드 및 내보내기 작업 지표를 포함하여 내보낸 프로필에 대한 지표를 가져옵니다**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 WITH
@@ -724,9 +724,9 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**모든 내보내기 작업에서 집계된 지표(세그먼트 내보내기 작업 및 삭제)를 가져옵니다.**
+**모든 내보내기 작업에서 집계된 지표(세그먼트 내보내기 작업 및 카드) 가져오기**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 WITH
@@ -785,13 +785,13 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 이 쿼리는 이전 쿼리와 다릅니다.
 
-이 보고서는 실행할 수 있는 작업(반복 여정의 경우 주제 재사용을 활용하는 비즈니스 이벤트가 트리거됨)에 상관없이 주어진 여정 버전에 대한 전체 지표를 반환합니다.
+지정된 여정 버전에 대한 전체 지표를 반환합니다(반복 여정의 경우 비즈니스 이벤트가 항목 재사용을 활용하여 트리거됨).
 
 ## 세그먼트 자격 관련 쿼리 {#segment-qualification-queries}
 
-**구성된 세그먼트와 다른 세그먼트 구현으로 인해 삭제된 프로필**
+**구성된 것과 다른 세그먼트 실현으로 인해 프로필이 삭제되었습니다.**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
@@ -811,11 +811,11 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-이 쿼리는 잘못된 세그먼트 구현으로 인해 여정 버전에서 삭제된 모든 프로필 Id를 반환합니다.
+이 쿼리는 잘못된 세그먼트 실현으로 인해 여정 버전에서 삭제된 모든 프로필 ID를 반환합니다.
 
 **특정 프로필에 대한 다른 이유로 삭제된 세그먼트 자격 이벤트**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
@@ -843,7 +843,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 **여정에 대한 비즈니스 이벤트가 수신되었는지 확인**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _id)
@@ -867,9 +867,9 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**관련 여정이 없으므로 프로필의 외부 이벤트가 삭제되었는지 확인**
+**관련 여정을 찾을 수 없어 프로필의 외부 이벤트가 삭제되었는지 확인**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
@@ -891,9 +891,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**다른 이유로 프로필의 외부 이벤트가 삭제되었는지 확인**
+**다른 이유로 인해 프로필의 외부 이벤트가 무시되었는지 확인**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
@@ -917,9 +917,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**stateMachine에서 errorCode로 삭제한 모든 이벤트의 수를 확인합니다.**
+**errorCode로 stateMachine에서 삭제한 모든 이벤트 수를 확인합니다.**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
@@ -935,9 +935,9 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**다시 입력이 허용되지 않았으므로 모든 무시된 이벤트를 확인하십시오**
+**재입력이 허용되지 않아 삭제된 모든 이벤트 확인**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
@@ -963,7 +963,7 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 **일별 활성 여정 수**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
@@ -981,13 +981,13 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-정의된 기간 동안 매일 트리거된 고유한 여정 수를 반환합니다. 여러 일에 트리거되는 단일 여정은 하루에 한 번 계산됩니다.
+쿼리는 정의된 기간 동안 매일 트리거된 고유한 여정 수를 반환합니다. 여러 날에 트리거되는 단일 여정은 하루에 한 번 계산됩니다.
 
-## 여정 인스턴스에 대한 쿼리 {#journey-instances-queries}
+## 여정 인스턴스의 쿼리 {#journey-instances-queries}
 
-**특정 시간에 특정 상태의 프로필 수**
+**특정 시간 동안 특정 상태에 있는 프로필 수**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 WITH
@@ -1133,9 +1133,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**특정 기간 동안 여정을 종료한 프로필 수**
+**특정 기간에 여정을 종료한 프로필 수입니다.**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT
@@ -1171,9 +1171,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**노드/상태로 특정 기간 동안 여정을 종료한 프로필 수**
+**노드/상태에서 특정 기간 동안 여정을 종료한 프로필 수입니다.**
 
-_Data Lake 쿼리_
+_데이터 레이크 쿼리_
 
 ```sql
 SELECT

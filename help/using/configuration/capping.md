@@ -2,10 +2,10 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Capping API
-description: 최대 가용량 API 사용 방법 알아보기
+description: 최대 가용량 API로 작업하는 방법을 알아봅니다
 role: User
 level: Beginner
-keywords: 외부, API, 최적기, 최대 가용량
+keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
@@ -16,25 +16,25 @@ ht-degree: 30%
 
 # 최대 가용량 API 작업 {#work}
 
-최대 가용량 API는 최대 가용량 구성을 생성, 구성 및 모니터링하는 데 도움이 됩니다.
+최대 가용량 API를 사용하면 최대 가용량 구성을 만들고, 구성하고, 모니터링할 수 있습니다.
 
-이 섹션에서는 API를 사용하는 방법에 대한 글로벌 정보를 제공합니다. 자세한 API 설명은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/).
+이 섹션에서는 API 작업 방법에 대한 전역 정보를 제공합니다. 자세한 API 설명은에서 사용할 수 있습니다. [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/).
 
-## API 설명 최대 가용량
+## 최대 가용량 API 설명
 
 | 메서드 | 경로 | 설명 |
 |---|---|---|
-| [!DNL POST] | list/endpointConfigs | 끝점 최대 가용량 구성 목록 가져오기 |
-| [!DNL POST] | /endpointConfigs | 끝점 최대 가용량 구성 만들기 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | 끝점 최대 가용량 구성 배포 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/배포 취소 | 끝점 최대 가용량 구성 배포 취소 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | 끝점 최대 가용량 구성을 배포할 수 있는지 여부를 확인합니다 |
-| [!DNL PUT] | /endpointConfigs/`{uid}` | 끝점 최대 가용량 구성 업데이트 |
-| [!DNL GET] | /endpointConfigs/`{uid}` | 끝점 최대 가용량 구성 검색 |
-| [!DNL DELETE] | /endpointConfigs/`{uid}` | 엔드포인트 캡핑 구성 삭제 |
+| [!DNL POST] | list/endpointConfigs | 끝점 제한 구성 목록 가져오기 |
+| [!DNL POST] | /endpointConfigs | 엔드포인트 제한 구성 만들기 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | 끝점 제한 구성 배포 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | 끝점 제한 구성 배포 해제 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | 끝점 제한 구성을 배포할 수 있는지 확인 |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | 끝점 제한 구성 업데이트 |
+| [!DNL GET] | /endpointConfigs/`{uid}` | 끝점 제한 구성 검색 |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | 끝점 제한 구성 삭제 |
 
-구성을 만들거나 업데이트할 때 페이로드의 구문과 무결성을 보장하기 위해 검사가 자동으로 수행됩니다.
-일부 문제가 발생하면 작업을 통해 경고 또는 오류를 반환하여 구성을 수정할 수 있습니다.
+구성을 만들거나 업데이트할 때 페이로드의 구문 및 무결성을 보장하기 위해 자동으로 검사가 수행됩니다.
+일부 문제가 발생하면 작업을 수행할 때 경고 또는 오류가 반환되어 구성을 수정하는 데 도움이 됩니다.
 
 ## 끝점 구성
 
@@ -80,7 +80,7 @@ ht-degree: 30%
 
 ## 경고 및 오류
 
-다음의 경우 **canDeploy** 메서드가 호출되면 프로세스가 구성을 확인하고 고유 ID로 식별된 유효성 검사 상태를 반환합니다.
+다음과 같은 경우 **canDeploy** 메서드가 호출되면 이 프로세스가 구성을 확인하고 다음 중 하나의 고유 ID로 식별된 유효성 검사 상태를 반환합니다.
 
 ```
 "ok" or "error"
@@ -88,24 +88,24 @@ ht-degree: 30%
 
 잠재적 오류는 다음과 같습니다.
 
-* **ERR_ENDPOINTCONFIG_100**: 최대 가용량 구성: URL이 없거나 잘못되었습니다.
-* **ERR_ENDPOINTCONFIG_101**: 최대 가용량 구성: 잘못된 url
-* **ERR_ENDPOINTCONFIG_102**: 최대 가용량 구성: 잘못된 url: url의 와일드카드 문자는 host:port에서 허용되지 않습니다.
-* **ERR_ENDPOINTCONFIG_103**: 최대 가용량 구성: HTTP 메서드 누락
-* **ERR_ENDPOINTCONFIG_104**: 최대 가용량 구성: 정의된 통화 등급 없음
-* **ERR_ENDPOINTCONFIG_107**: 최대 가용량 구성: 잘못된 최대 호출 수(maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**: 최대 가용량 구성: 잘못된 최대 호출 수(periodInMs)입니다.
-* **ERR_ENDPOINTCONFIG_11**: 최대 가용량 구성: 끝점 구성을 만들 수 없습니다. 잘못된 페이로드
-* **ERR_ENDPOINTCONFIG_112**: 최대 가용량 구성: 끝점 구성을 만들 수 없습니다. json 페이로드 필요
+* **ERR_ENDPOINTCONFIG_100**: 최대 구성: 누락되었거나 잘못된 url
+* **ERR_ENDPOINTCONFIG_101**: 캡핑 구성: 잘못된 url
+* **ERR_ENDPOINTCONFIG_102**: 구성 캡핑: url 형식이 잘못되었습니다. host:port에 url의 와일드문자를 사용할 수 없습니다.
+* **ERR_ENDPOINTCONFIG_103**: 구성 제한: HTTP 메서드 누락
+* **ERR_ENDPOINTCONFIG_104**: 구성 한도 설정: 정의된 호출 등급 없음
+* **ERR_ENDPOINTCONFIG_107**: 최대 구성: 잘못된 최대 호출 수(maxCallsCount)
+* **ERR_ENDPOINTCONFIG_108**: 최대 구성: 잘못된 최대 호출 수(periodInMs)
+* **ERR_ENDPOINT_111**: 최대 구성: 끝점 구성을 만들 수 없음: 잘못된 페이로드
+* **ERR_ENDPOINTCONFIG_112**: 최대 구성: 엔드포인트 구성을 만들 수 없음: JSON 페이로드가 필요합니다.
 * **ERR_AUTHORING_ENDPOINTCONFIG_1**: 잘못된 서비스 이름 `<!--<given value>-->`: &#39;dataSource&#39; 또는 &#39;action&#39;이어야 합니다.
 
-잠재적 경고는 다음과 같습니다.
+잠재적인 경고는 다음과 같습니다.
 
-**ERR_ENDPOINTCONFIG_106**: 최대 가용량 구성: 최대 HTTP 연결이 정의되지 않았습니다. 기본적으로 제한되지 않음
+**ERR_ENDPOINTCONFIG_106**: 구성 제한: 최대 HTTP 연결이 정의되지 않음: 기본적으로 제한 없음
 
 ## 사용 사례
 
-이 섹션에서는 에서의 최대 가용량 구성을 관리하기 위해 수행할 수 있는 5가지 기본 사용 사례를 확인할 수 있습니다 [!DNL Journey Optimizer].
+이 섹션에서는 캡핑 구성을 관리하기 위해 수행할 수 있는 5가지 주요 사용 사례를에서 확인할 수 있습니다. [!DNL Journey Optimizer].
 
 [여기](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)에서 테스트 및 구성에 도움이 되는 Postman 컬렉션을 사용할 수 있습니다.
 
@@ -118,14 +118,14 @@ ht-degree: 30%
 
 다음 섹션에서는 사용 사례를 수행하기 위한 Rest API 호출 목록을 순서대로 확인할 수 있습니다.
 
-사용 사례°1: **새 최대 가용량 구성 만들기 및 배포**
+사용 사례 n°1: **새 최대 가용량 구성 만들기 및 배포**
 
 1. list
 1. create
 1. candeploy
 1. deploy
 
-사용 사례°2: **아직 배포되지 않은 최대 가용량 구성 업데이트 및 배포**
+사용 사례 n°2: **아직 배포되지 않은 최대 가용량 구성 업데이트 및 배포**
 
 1. list
 1. get
@@ -133,19 +133,19 @@ ht-degree: 30%
 1. candeploy
 1. deploy
 
-사용 사례°3: **배포된 최대 가용량 구성 배포 취소 및 삭제**
+사용 사례 n°3: **배포된 최대 가용량 구성 배포 취소 및 삭제**
 
 1. list
 1. undeploy
 1. delete
 
-사용 사례°4: **배포된 최대 가용량 구성을 삭제합니다.**
+사용 사례 n°4: **배포된 최대 가용량 구성을 삭제합니다.**
 
 forceDelete 매개 변수를 사용하면 API 호출 단 한 번에 구성의 배포를 취소하고 삭제할 수 있습니다.
 1. list
 1. delete, with forceDelete param
 
-사용 사례°5: **이미 배포된 최대 가용량 구성 업데이트**
+사용 사례 n°5: **이미 배포된 최대 가용량 구성 업데이트**
 
 1. list
 1. get

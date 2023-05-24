@@ -49,7 +49,7 @@ ht-degree: 94%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer UI에서 주어진 배치에 대해 테스트 프로필에 게재할 오퍼를 시뮬레이션할 수 있습니다. 이를 통해 자격 제한 및 등급 알고리즘 등 의사 결정 논리를 프로덕션에 적용하기 전에 쉽게 확인할 수 있습니다. 이 기능을 통해 기술 및 기술 전문가가 아닌 사용자는 의사 결정 관리를 신속하게 테스트하고 잠재적인 문제를 해결할 수 있습니다.</p>
+<p>이제 Journey Optimizer UI에서 주어진 배치에 대해 테스트 프로필에 게재할 오퍼를 시뮬레이션할 수 있습니다. 이를 통해 자격 제한 및 등급 알고리즘 등 의사 결정 논리를 프로덕션에 적용하기 전에 쉽게 확인할 수 있습니다. 기술 전문가 및 기술 전문가가 아닌 사용자도 신속하게 의사 결정 관리를 테스트하고 잠재적 문제를 해결할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../offers/offer-activities/simulation.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -73,7 +73,7 @@ ht-degree: 94%
 </table>
 
 
-참조 - [Adobe Experience Platform 10월 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=ko){target="_blank"} 추가 변경 사항
+참조: [Adobe Experience Platform 10월 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=ko){target="_blank"} 추가 변경 사항.
 
 ### 개선 사항
 
@@ -291,7 +291,7 @@ ht-degree: 94%
 
 * 메시지 탭 탐색에서 접근성 문제를 해결했습니다.
 * 이메일 디자이너 레이블의 현지화 문제를 해결했습니다.
-* 여정에서 두 개 이상의 노드를 선택하고 속성 창에서 &#39;삭제&#39;를 클릭할 때 발생하는 문제를 수정했습니다.
+* 여정에서 두 개 이상의 노드를 선택하고 속성 창에서 &#39;삭제&#39;를 클릭할 때 발생하는 문제를 해결했습니다.
 * 여정에 사용한 작업에 새 헤더를 추가할 수 없는 문제를 해결했습니다.
 * 이제 사용자 인터페이스에서 보다 명확한 경고를 통해 메시지 사전 설정을 만들지 못한 이유를 확인할 수 있습니다.
 
@@ -342,11 +342,11 @@ ht-degree: 94%
 * 이제 외부 데이터 소스의 경우 초당 최대 15회 호출할 수 있는 가용량 규칙이 자동으로 정의됩니다. [자세히 보기](../configuration/external-systems.md#capping)
 * 이제 실시간 여정의 여정 속성 화면에 게시 날짜와 여정을 게시한 사용자의 이름이 표시됩니다. [자세히 보기](../building-journeys/journey-gs.md#change-properties)
 * 여정 목록 화면에 여정 유형 필터를 추가했습니다. [자세히 보기](../start/user-interface.md#filter-lists)
-* 다음 **[!UICONTROL 전송률 조절]** 세그먼트 읽기 활동에 매개 변수가 추가되었습니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 다음 **[!UICONTROL 조절률]** 세그먼트 읽기 활동에 매개 변수를 추가했습니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **미리 보기 및 테스트**
 
-* 이제 ID와 네임스페이스가 **[!UICONTROL 미리 보기]** 화면. [자세히 보기](../email/preview.md#preview-your-messages)
+* 이제 ID 및 네임스페이스가 **[!UICONTROL 미리 보기]** 화면. [자세히 보기](../email/preview.md#preview-your-messages)
 * 이제 교정용 테스트 이메일 수가 10개로 제한됩니다.
 * 교정을 보낼 때 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](../email/preview.md#send-proofs)
 
@@ -359,6 +359,6 @@ ht-degree: 94%
 * 일괄 이메일 게재 시 중복 메시지를 게재하는 문제를 해결했습니다.
 * 이제 다시 시도 기간이 끝나고 이메일 전송을 수행하지 않을 때 그에 따라 이벤트가 생성됩니다.
 * [PTR 레코드] 화면에서 IP 정보가 누락되는 문제를 해결했습니다.
-* 이제 표현식 편집기 내의 오퍼 레일의 현지화가 구현되었습니다.
+* 이제 표현식 편집기 내 오퍼 레일의 현지화가 구현되었습니다.
 * 정보 팝업의 간격이 잘못 설정된 문제를 해결했습니다.
 * [이메일 디자이너]에서 HTML 파일을 업로드할 때 `background-image` 속성이 있는 내부 스타일 시트를 지원하지 않는 문제를 해결했습니다.

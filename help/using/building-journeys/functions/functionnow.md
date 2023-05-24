@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: now
-description: 지금 함수 알아보기
+description: 이제 함수에 대해 알아봅니다.
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: now, function, expression, 여정
+keywords: now, 함수, 표현식, 여정
 exl-id: 16dcc772-e48d-4f10-be75-62dd39473556
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -28,7 +28,7 @@ ht-degree: 16%
 
 ## 매개 변수
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 |--- |--- |
 | 문자열 |  |
 
@@ -38,7 +38,7 @@ ht-degree: 16%
 
 `now("<timeZone id>")`
 
-dateTime 반환
+dateTime을 반환합니다.
 
 ## 예시
 
@@ -48,7 +48,7 @@ dateTime 반환
 
 `toString(now())`
 
-반환: &quot;2019-06-03T06:30Z&quot;
+&quot;2019-06-03T06:30Z&quot; 반환
 
 `now("Europe/Paris")`
 

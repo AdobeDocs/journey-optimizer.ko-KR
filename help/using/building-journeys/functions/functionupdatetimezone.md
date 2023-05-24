@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: updateTimeZone
-description: 함수 updateTimeZone에 대해 알아봅니다.
+description: updateTimeZone 함수에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: updateTimeZone, 함수, 식, 여정
+keywords: updateTimeZone, 함수, 표현식, 여정
 exl-id: 1bf4662e-55d0-4631-af93-1430ec7ed7e2
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 # updateTimeZone {#updateTimeZone}
 
-새 시간대가 동일한 순간에 있는 새 날짜 시간을 반환합니다.
+같은 순간에 새 시간대와 함께 새 날짜 시간을 반환합니다.
 
 ## 카테고리
 
@@ -28,14 +28,14 @@ ht-degree: 10%
 
 ## 매개 변수
 
-* 시간대 id: string
+* 시간대 id: 문자열
 * dateTime
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `updateTimeZone(<dateTime>,<timeZone id>)`
 
-datetime을 반환합니다.
+날짜/시간을 반환합니다.
 
 ## 예시
 
@@ -48,4 +48,4 @@ Returns "2019-08-28T17:15:30.123+02:00".-->
 
 `updateTimeZone(@{MyExpEvent.timestamp}, "Australia/Sydney")`
 
-타임스탬프 필드의 값이 `2021-11-16T16:55:12.939318+01:00`를 반환한 후 함수가 `2021-11-17T02:55:12.942115+11:00`.
+타임스탬프 필드의 값이 인 경우 `2021-11-16T16:55:12.939318+01:00`를 반환하면 함수가 `2021-11-17T02:55:12.942115+11:00`.

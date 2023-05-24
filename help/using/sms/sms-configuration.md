@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: SMS 채널 구성
-description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하는 방법을 알아봅니다
+description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하는 방법 알아보기
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
@@ -15,21 +15,21 @@ ht-degree: 19%
 
 # SMS 채널 구성 {#sms-configuration}
 
-[!DNL Journey Optimizer] 에서는 여정을 만들고 타겟팅된 대상자에게 메시지를 전송할 수 있습니다.
+[!DNL Journey Optimizer] 을(를) 통해 여정을 만들고 타겟팅된 대상자에게 메시지를 보낼 수 있습니다.
 
-SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 합니다. [공급자 설정 통합](#create-api) Journey Optimizer 및 [sms 서피스 만들기](#message-preset-sms) (즉, SMS 사전 설정). 이 단계는 [Adobe Journey Optimizer 시스템 관리자](../start/path/administrator.md)가 수행해야 합니다.
+SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 합니다. [공급자 설정 통합](#create-api) Journey Optimizer 및 [sms 표면 만들기](#message-preset-sms) (예: SMS 사전 설정). 이 단계는 [Adobe Journey Optimizer 시스템 관리자](../start/path/administrator.md)가 수행해야 합니다.
 
 ## 사전 요구 사항{#sms-prerequisites}
 
-Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 별도로 SMS 서비스를 제공하는 Sinch, Twilio 등 타사 공급자와 통합됩니다.
+Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 SMS 서비스를 제공하는 Sinch 및 Twilio와 같은 서드파티 공급자와 통합됩니다.
 
-SMS를 구성하기 전에 Adobe Journey Optimizer과 해당 SMS 공급자 간의 연결을 설정할 수 있는 API 토큰 및 서비스 ID를 수신하려면 이러한 SMS 공급자 중 하나와 계정을 만들어야 합니다.
+SMS를 구성하기 전에 이러한 SMS 공급자 중 하나로 계정을 만들어 API 토큰 및 서비스 ID를 받아야 Adobe Journey Optimizer과 해당 SMS 공급자 간의 연결을 설정할 수 있습니다.
 
-SMS 서비스 사용은 해당 SMS 공급자의 추가 약관을 따릅니다. Sinch 및 Twilio는 Adobe Journey Optimizer 사용자가 통합을 통해 사용할 수 있는 타사 제품이므로 SMS 서비스와 관련된 문제 또는 문의 사항은 Sinch 또는 Twilio 사용자가 해당 SMS 공급자에게 문의하여 도움을 받아야 합니다. Adobe은 제어하지 않으며 타사 제품에 대한 책임이 없습니다.
+SMS 서비스 사용에는 해당 SMS 공급자의 추가 약관이 적용됩니다. Sinch 및 Twilio가 통합을 통해 Adobe Journey Optimizer 사용자가 사용할 수 있는 서드파티 제품인 경우 SMS 서비스와 관련된 문제 또는 질문이 발생하면 Sinch 또는 Twilio 사용자는 해당 SMS 공급자에게 지원을 요청해야 합니다. Adobe은 타사 제품을 제어하지 않으며 책임도 지지 않습니다.
 
 >[!CAUTION]
 >
->SMS 하위 도메인에 액세스하고 편집하려면 다음을 수행해야 합니다 **[!UICONTROL SMS 하위 도메인 관리]** 프로덕션 샌드박스에 대한 권한.
+>SMS 하위 도메인에 액세스하고 편집하려면 **[!UICONTROL SMS 하위 도메인 관리]** 프로덕션 샌드박스에 대한 권한.
 
 ## 새 API 자격 증명 만들기 {#create-api}
 
@@ -51,32 +51,32 @@ SMS 서비스 사용은 해당 SMS 공급자의 추가 약관을 따릅니다. S
 
 Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단계를 수행합니다.
 
-1. 왼쪽 레일에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL API 자격 증명]** 메뉴 아래의 제품에서 사용할 수 있습니다. 을(를) 클릭합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 버튼을 클릭합니다.
+1. 왼쪽 레일에서 다음을 찾습니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 및 선택 **[!UICONTROL API 자격 증명]** 메뉴 아래의 제품에서 사용할 수 있습니다. 다음을 클릭합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
 
    ![](assets/sms_6.png)
 
-1. 을(를) 선택합니다 **[!UICONTROL SMS 공급업체]**:
+1. 다음 항목 선택 **[!UICONTROL SMS 공급업체]**:
 
    * **[!DNL Sinch]**
 
-      을(를) 찾으려면 **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**, Sinch 계정에서 SMS > API 메뉴에 액세스합니다.
+      를 찾으려면 **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**, Sinch 계정에서 SMS > API 메뉴에 액세스합니다.
 
    * **[!DNL Twilio]**
 
-      을(를) 찾으려면 **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**&#x200B;콘솔 대시보드 페이지의 계정 정보 창에 액세스합니다.
+      를 찾으려면 **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**&#x200B;콘솔 대시보드 페이지의 계정 정보 창에 액세스합니다.
 
 
-1. 을(를) 입력합니다. **[!UICONTROL 이름]** API 자격 증명의 경우.
+1. 입력 **[!UICONTROL 이름]** API 자격 증명용
 
-1. 을(를) 입력합니다. **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**.
+1. 다음을 입력하십시오. **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**.
 
    ![](assets/sms_7.png)
 
-1. 클릭 **[!UICONTROL 제출]** api 자격 증명 구성을 완료했을 때.
+1. 클릭 **[!UICONTROL 제출]** api 자격 증명 구성을 완료한 경우입니다.
 
-API 자격 증명을 만들고 구성한 후 이제 SMS 메시지에 대한 채널 표면(즉, 메시지 사전 설정)을 만들어야 합니다.
+API 자격 증명을 만들고 구성한 후에는 SMS 메시지에 대한 채널 표면(즉, 메시지 사전 설정)을 만들어야 합니다.
 
-## SMS 서피스 만들기 {#message-preset-sms}
+## SMS 표면 만들기 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
@@ -84,15 +84,15 @@ API 자격 증명을 만들고 구성한 후 이제 SMS 메시지에 대한 채�
 >abstract="이 표면을 사용하여 SMS 메시지 유형 선택: 사용자 동의가 필요한 프로모션 SMS 메시지를 위한 마케팅 또는 암호 재설정과 같은 비상업적 SMS 메시지를 위한 트랜잭션."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="마케팅 SMS 메시지 옵트아웃"
 
-SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 만들어야 합니다 **[!DNL Journey Optimizer]**.
+SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 만들어야 합니다. **[!DNL Journey Optimizer]**.
 
-채널 서피스를 생성하려면 다음 단계를 수행합니다.
+채널 표면을 만들려면 다음 단계를 수행합니다.
 
-1. 왼쪽 레일에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 을(를) 선택합니다. **[!UICONTROL 브랜딩]** > **[!UICONTROL 채널 서피스]**. 을(를) 클릭합니다. **[!UICONTROL 채널 서피스 생성]** 버튼을 클릭합니다.
+1. 왼쪽 레일에서 다음을 찾습니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 및 선택 **[!UICONTROL 브랜딩]** > **[!UICONTROL 채널 표면]**. 다음을 클릭합니다. **[!UICONTROL 채널 표면 만들기]** 단추를 클릭합니다.
 
    ![](assets/preset-create.png)
 
-1. 서피스의 이름과 설명(선택 사항)을 입력한 다음 SMS 채널을 선택합니다.
+1. 표면에 대한 이름과 설명(선택 사항)을 입력한 다음 SMS 채널을 선택합니다.
 
    ![](assets/sms_preset.png)
 
@@ -100,47 +100,47 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
    >
    > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
 
-1. 을(를) 정의합니다 **SMS 설정**.
+1. 다음을 정의합니다. **SMS 설정**.
 
    ![](assets/preset-sms.png)
 
-   * 을(를) 선택합니다 **[!UICONTROL SMS 유형]** 서피스와 함께 전송됩니다. **[!UICONTROL 트랜잭션]** 또는 **[!UICONTROL 마케팅]**.
+   * 다음 항목 선택 **[!UICONTROL SMS 유형]** 이 데이터는 표면과 함께 전송됩니다. **[!UICONTROL 트랜잭션]** 또는 **[!UICONTROL 마케팅]**.
 
-      * 선택 **마케팅** 프로모션 SMS용: 이러한 메시지에는 사용자의 동의가 필요합니다.
-      * 선택 **트랜잭션** 주문 확인, 암호 재설정 알림 또는 배달 정보와 같은 비상업적인 메시지의 경우,
+      * 선택 **마케팅** 프로모션 SMS의 경우: 이러한 메시지에는 사용자의 동의가 필요합니다.
+      * 선택 **트랜잭션** 예를 들어 주문 확인, 암호 재설정 알림 또는 게재 정보와 같은 비상업적인 메시지의 경우.
 
       >[!CAUTION]
       >
-      >**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필로 SMS 메시지를 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
+      >**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필에 SMS 메시지를 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
 
-      SMS 메시지를 만들 때 메시지에 대해 선택한 카테고리와 일치하는 유효한 채널 서피스를 선택해야 합니다.
+      SMS 메시지를 만들 때 메시지에 대해 선택한 카테고리와 일치하는 유효한 채널 표면을 선택해야 합니다.
 
-   * 을(를) 선택합니다 **[!UICONTROL SMS 구성]** 서피스와 연관되도록 합니다.
+   * 다음 항목 선택 **[!UICONTROL SMS 구성]** 서피스와 연관시킬 수 있습니다.
 
-      SMS 메시지를 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#create-api).
+      SMS 메시지를 보내도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#create-api).
 
-   * 을(를) 입력합니다. **[!UICONTROL 발신자 번호]** 커뮤니케이션에 &#x200B; 사용하려고 합니다.
+   * 다음을 입력합니다. **[!UICONTROL 발신자 번호]** 통신&#x200B;에 을 사용하려고 합니다.
 
-   * 을(를) 선택합니다 **[!UICONTROL SMS 실행 필드]** 을(를) 선택하려면 **[!UICONTROL 프로필 속성]** 프로필의 전화 번호와 연관됩니다.
+   * 다음 항목 선택 **[!UICONTROL SMS 실행 필드]** 을(를) 선택하려면 **[!UICONTROL 프로필 속성]** 프로필의 전화 번호와 연결됩니다.
 
 
-1. SMS 메시지에서 URL 단축 기능을 사용하려면 **[!UICONTROL 하위 도메인]** 목록.
+1. SMS 메시지에서 URL 단축 기능을 사용하려면 **[!UICONTROL 하위 도메인]** 목록을 표시합니다.
 
    >[!NOTE]
    >
-   >하위 도메인을 선택하려면 이전에 하나 이상의 SMS 하위 도메인을 구성했는지 확인하십시오. [방법 알아보기](sms-subdomains.md)
+   >하위 도메인을 선택하려면 최소 하나 이상의 SMS 하위 도메인을 이전에 구성했는지 확인하십시오. [방법 알아보기](sms-subdomains.md)
 
-1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]** 확인합니다. 채널 서피스를 구안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
+1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]** 확인할 수 있습니다. 채널 서피스를 구배로 저장하고 나중에 구성을 재개할 수도 있습니다.
 
    ![](assets/sms_preset_2.png)
 
-1. 채널 서피스가 생성되면 목록에 과 함께 표시됩니다. **[!UICONTROL 처리 중]** 상태.
+1. 채널 표면이 만들어지면 목록에 다음과 같이 표시됩니다. **[!UICONTROL 처리 중]** 상태.
 
    >[!NOTE]
    >
-   >검사가 실패하면 의 가능한 실패 이유에 대해 자세히 알아보십시오 [이 섹션](#monitor-channel-surfaces).
+   >검사가 실패한 경우 다음에서 가능한 실패 이유에 대해 자세히 알아보십시오. [이 섹션](#monitor-channel-surfaces).
 
-1. 확인이 성공하면 채널 서피스가 **[!UICONTROL 활성]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
+1. 검사가 성공하면 채널 표면이 **[!UICONTROL 활성]** 상태. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
    ![](assets/preset-active.png)
 
