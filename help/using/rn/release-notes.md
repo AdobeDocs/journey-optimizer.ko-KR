@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
+source-git-commit: 104a5d3def95272e09be050c822f5eafed6a6cb0
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2485'
 ht-degree: 78%
 
 ---
@@ -168,11 +168,11 @@ ht-degree: 78%
 **SMS 채널**
 
 * SMS 채널 표면을 구성할 때 공급업체 공급업체로 Infobip이 추가되었습니다. [자세히 보기](../sms/sms-configuration.md)
-* Twilio - API 자격 증명 설정에는 이제 Twilio 계정과의 원활한 통합을 위해 메시징 서비스 SID를 추가하는 기능이 포함됩니다.
+* Twilio - API 자격 증명 설정에는 이제 Twilio 계정과의 원활한 통합을 위해 메시징 서비스 SID를 추가하는 기능이 포함됩니다. [자세히 보기](../sms/sms-configuration.md)
 
 **인앱 채널**
 
-* Adobe 위치 서비스에 대한 새 메시지 트리거 규칙이 추가되었습니다.
+* Adobe 위치 서비스에 대한 새 메시지 트리거 규칙이 추가되었습니다. [자세히 보기](../in-app/inapp-configuration.md)
 * 트리거 규칙으로 추가할 장치 이벤트를 캡처하는 새로운 Adobe Experience Platform Assurance 기능이 추가되었습니다.
 
 **여정**
@@ -181,13 +181,13 @@ ht-degree: 78%
 
 **캠페인**
 
-* 이제 줄임표 작업 메뉴를 사용하여 인벤토리 화면에서 캠페인을 복제할 수 있습니다.
+* 이제 줄임표 작업 메뉴를 사용하여 인벤토리 화면에서 캠페인을 복제할 수 있습니다. [자세히 보기](../campaigns/modify-stop-campaign.md#duplicate)
 * 이제 라이브 캠페인에 대한 수정 초안을 삭제할 수 있습니다.
-* 이제 캠페인을 활성화하는 단계가 간소화되었습니다.
+* 이제 캠페인을 활성화하는 단계가 간소화되었습니다. [자세히 보기](../campaigns/modify-stop-campaign.md)
 
 **의사 결정 관리**
 
-* 이제 오퍼에 다음 항목이 있는 경우 빈도 상한을 편집할 수 있습니다. **[!UICONTROL 초안]** 상태 및 은(는) 빈도 조절 기능이 활성화된 전에 게시된 적이 없습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#frequency-capping)
+* 이제 오퍼에 다음 항목이 있는 경우 빈도 상한을 편집할 수 있습니다. **[!UICONTROL 초안]** 상태 및 은(는) 빈도 조절 기능이 활성화된 전에 게시된 적이 없습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **개인화**
 

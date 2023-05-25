@@ -6,10 +6,10 @@ description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 19%
+source-wordcount: '920'
+ht-degree: 18%
 
 ---
 
@@ -55,20 +55,25 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
 
    ![](assets/sms_6.png)
 
-1. 다음 항목 선택 **[!UICONTROL SMS 공급업체]**:
+1. SMS API 자격 증명을 구성합니다.
 
-   * **[!DNL Sinch]**
+   * 대상 **[!DNL Sinch]**:
 
-      를 찾으려면 **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**, Sinch 계정에서 SMS > API 메뉴에 액세스합니다.
+      * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
 
-   * **[!DNL Twilio]**
+      * **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**: API 페이지에 액세스하면 SMS 탭 아래에서 자격 증명을 찾을 수 있습니다.  [자세히 알아보기](https://developers.sinch.com/docs/sms/getting-started/)
+   * 대상 **[!DNL Twilio]**:
 
-      를 찾으려면 **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**&#x200B;콘솔 대시보드 페이지의 계정 정보 창에 액세스합니다.
+      * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
 
+      * **[!UICONTROL 계정 SID]** 및 **[!UICONTROL 인증 토큰]**: Twilio 콘솔 대시보드 페이지의 계정 정보 창에 액세스하여 자격 증명을 찾을 수 있습니다.
 
-1. 입력 **[!UICONTROL 이름]** API 자격 증명용
+      * **[!UICONTROL 메시지 SID]**: Twilio의 API에서 만든 모든 메시지에 할당된 고유 식별자를 입력합니다. [자세히 알아보기](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+   * 대상 **[!DNL Infobip]**:
 
-1. 다음을 입력하십시오. **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**.
+      * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
+
+      * **[!UICONTROL API 기본 URL]** 및 **[!UICONTROL API 토큰]**: 웹 인터페이스 홈 페이지 또는 API 키 관리 페이지에 액세스하여 자격 증명을 찾을 수 있습니다. [자세히 알아보기](https://www.infobip.com/docs/api)
 
    ![](assets/sms_7.png)
 
