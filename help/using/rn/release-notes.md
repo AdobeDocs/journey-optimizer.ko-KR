@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 11f18adf62c04f6659065ad8da38747fece54a1d
+source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2477'
 ht-degree: 78%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 78%
 <td>
 <p>이제 Adobe Journey Optimizer에서 캠페인의 실험을 지원합니다. 실험은 무작위 시도이며, 온라인 테스트의 맥락에서 일부 무작위로 선택한 사용자를 메시지의 특정 변형에 노출하고 다른 무작위로 선택한 사용자 집합을 다른 변형 또는 처리에 노출함을 의미합니다. 노출 후 이메일 열기, 구독 또는 구매 등 관심 있는 결과 지표를 측정할 수 있습니다.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../campaigns/content-experiment.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -167,7 +167,7 @@ ht-degree: 78%
 
 **SMS 채널**
 
-* SMS 채널 표면을 구성할 때 공급업체 공급업체로 Infobip이 추가되었습니다.
+* SMS 채널 표면을 구성할 때 공급업체 공급업체로 Infobip이 추가되었습니다. [자세히 보기](../sms/sms-configuration.md)
 * Twilio - API 자격 증명 설정에는 이제 Twilio 계정과의 원활한 통합을 위해 메시징 서비스 SID를 추가하는 기능이 포함됩니다.
 
 **인앱 채널**
