@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2385'
+ht-degree: 16%
 
 ---
 
@@ -272,7 +272,7 @@ ht-degree: 0%
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL 모든 배치에서]**: 최대 가용량 수는 오퍼와 연결된 배치 전체의 모든 의사 결정을 합계합니다.
+* **[!UICONTROL 모든 배치에서]**: 최대 가용량 수는 오퍼와 연결된 배치 전체에서 모든 의사 결정을 합계합니다.
 
    예를 들어 오퍼에 **이메일** 배치 및 **웹** 배치, 그리고 다음 위치에 캡핑 설정 **모든 배치에서 프로필당 2개**&#x200B;를 선택한 경우 각 프로필은 배치 혼합에 관계없이 총 2회까지 오퍼를 받을 수 있습니다.
 
