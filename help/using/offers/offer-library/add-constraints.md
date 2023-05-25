@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 7dca239cbdb710b55e8a6c26b5fa3c1644edd778
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '2355'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -140,16 +140,6 @@ ht-degree: 17%
 >abstract="고객에게 과도하게 요청하지 않으려면 한도를 사용하여 오퍼를 제시할 수 있는 최대 횟수를 정의합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="날짜 변경은 한도에 영향을 미칠 수 있음"
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping"
->title="상한 빈도 설정"
->abstract="오퍼 한도 카운터를 매일, 매주 또는 매월 재설정하도록 선택할 수 있습니다. 오퍼를 저장한 후에는 선택한 빈도를 변경할 수 없습니다."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="노출 횟수"
->abstract="한도 이벤트로 노출 횟수를 사용하는 것은 인바운드 채널에서만 사용할 수 있습니다."
-
 한도는 오퍼를 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다.
 
 사용자가 특정 오퍼를 받는 횟수를 제한하면 고객에게 과다 청탁을 하지 않고 최상의 오퍼로 각 접점을 최적화할 수 있습니다.
@@ -183,6 +173,11 @@ ht-degree: 17%
 >최대 가용량 카운터는 오퍼가 만료되거나 오퍼 시작 날짜 후 2년 중 먼저 도래하는 날짜에 재설정됩니다. 에서 오퍼의 날짜를 정의하는 방법 알아보기 [이 섹션](creating-personalized-offers.md#create-offer).
 
 ### 최대 이벤트 {#capping-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="노출 횟수"
+>abstract="한도 이벤트로 노출 횟수를 사용하는 것은 인바운드 채널에서만 사용할 수 있습니다."
 
 다음 **[!UICONTROL 최대 이벤트]** 필드를 사용하면 다음 항목을 정의할 수 있습니다 **[!UICONTROL 최대 이벤트]** 카운터를 증가시키기 위해 를 고려합니다.
 
@@ -250,6 +245,11 @@ ht-degree: 17%
 
 ### 빈도 설정 {#frequency-capping}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="상한 빈도 설정"
+>abstract="오퍼 한도 카운터를 매일, 매주 또는 매월 재설정하도록 선택할 수 있습니다. 빈도 제한이 활성화된 오퍼를 게시한 후에는 정의된 빈도를 변경할 수 없습니다."
+
 다음 **[!UICONTROL 빈도]** 섹션에서는 캡핑 횟수가 재설정되는 빈도를 정의할 수 있습니다. 이렇게 하려면 계산 기간(일별, 주별 또는 월별)을 정의하고 선택한 일/주/개월을 입력합니다.
 
 ![](../assets/offer-capping-frequency.png)
@@ -262,7 +262,9 @@ ht-degree: 17%
 
 >[!CAUTION]
 >
->오퍼를 저장하면 빈도에 대해 선택한 기간(월별, 주별 또는 일별)을 변경할 수 없습니다.
+>오퍼를 게시한 후에는 빈도에 대해 선택한 기간(월별, 주별 또는 일별)을 변경할 수 없습니다.
+>
+>오퍼에 다음 항목이 있는 경우 빈도 상한을 편집할 수 있습니다. **[!UICONTROL 초안]** 상태 및 은(는) 빈도 조절 기능이 활성화된 전에 게시된 적이 없습니다.
 
 ### 캡핑 및 배치 {#placements}
 
@@ -270,7 +272,7 @@ ht-degree: 17%
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL 모든 배치에서]**: 최대 가용량 수는 오퍼와 연결된 배치 전체에서 모든 의사 결정을 합계합니다.
+* **[!UICONTROL 모든 배치에서]**: 최대 가용량 수는 오퍼와 연결된 배치 전체의 모든 의사 결정을 합계합니다.
 
    예를 들어 오퍼에 **이메일** 배치 및 **웹** 배치, 그리고 다음 위치에 캡핑 설정 **모든 배치에서 프로필당 2개**&#x200B;를 선택한 경우 각 프로필은 배치 혼합에 관계없이 총 2회까지 오퍼를 받을 수 있습니다.
 
