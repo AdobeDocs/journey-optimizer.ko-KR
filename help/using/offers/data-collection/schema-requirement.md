@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 2%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -99,6 +99,15 @@ ht-degree: 2%
 ## 사용자 지정 이벤트 추적
 
 사용자 지정 이벤트의 경우 데이터 세트에 사용되는 스키마에도 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 연결된 필드 그룹이지만, 경험 이벤트 유형에는 이러한 이벤트에 태그를 지정하는 데 사용해야 하는 특정 요구 사항이 없습니다.
+
+>[!NOTE]
+>
+>에서 사용자 지정 이벤트를 처리하려면 다음을 수행하십시오 [빈도 설정](../offer-library/add-constraints.md#capping), 경험 이벤트를 다음 두 Edge 데이터 수집 끝점 중 하나로 전송하여 Adobe Experience Platform 끝점에 연결해야 합니다.
+>
+>* POST /ee/v2/interact
+>* POST /ee/v2/collect
+>
+>를 사용하는 경우 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko-KR){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, 연결이 자동으로 이루어집니다.
 
 <!--
 ## Using a ranking strategy {#using-ranking}
