@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 구성, 실험, 보고, 최적화 도구
-hide: true
-hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+hide: true
+hidefromtoc: true
+source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 32%
+source-wordcount: '719'
+ht-degree: 28%
 
 ---
 
@@ -30,18 +30,6 @@ ht-degree: 32%
 >id="ajo_admin_reporting_dataset"
 >title="데이터 세트 선택"
 >abstract="지원되는 필드 그룹(애플리케이션 세부 사항, 상거래 세부 사항, 웹 세부 사항) 중 하나 이상이 포함되어야 하는 이벤트 유형 데이터 세트만 선택할 수 있습니다."
-
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* [콘텐츠 실험 시작](get-started-experiment.md)
-* [콘텐츠 실험 만들기](content-experiment.md)
-* [통계 계산 이해](experiment-calculations.md)
-* **[실험 보고서 구성](reporting-configuration.md)**
-* [실험 보고서의 통계 계산](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
@@ -60,7 +48,7 @@ ht-degree: 32%
 ## 사전 요구 사항
 
 
-보고 구성에 데이터 세트를 추가하려면 먼저 해당 데이터 세트를 만들어야 합니다. 에서 방법 알아보기 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#create){target="_blank"}.
+보고 구성에 데이터 세트를 추가하려면 먼저 해당 데이터 세트를 만들어야 합니다. 에서 방법 알아보기 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * 이벤트 유형 데이터 세트만 추가할 수 있습니다.
 
@@ -80,7 +68,7 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->에서 XDM 스키마 및 필드 그룹에 대한 자세한 내용을 알아봅니다. [XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target="_blank"}.
+>에서 XDM 스키마 및 필드 그룹에 대한 자세한 내용을 알아봅니다. [XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}.
 
 ## 각 필드 그룹에 해당하는 목표 {#objective-list}
 

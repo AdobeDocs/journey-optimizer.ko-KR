@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 6%
@@ -39,7 +39,7 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
 1. AI 모델의 고유한 이름과 설명을 지정한 다음 만들려는 AI 모델의 유형을 선택합니다.
 
    * **[!UICONTROL 자동 최적화]** 는 과거 오퍼 성능을 기반으로 오퍼를 최적화합니다. [자세히 알아보기](auto-optimization-model.md)
-   * **[!UICONTROL 개인화됨]** 세그먼트 및 오퍼 성능을 기반으로 오퍼를 최적화하고 개인화합니다. [자세히 알아보기](personalized-optimization-model.md)
+   * **[!UICONTROL 개인화된 최적화]** 세그먼트 및 오퍼 성능을 기반으로 오퍼를 최적화하고 개인화합니다. [자세히 알아보기](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -52,7 +52,7 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
    >* **전환 이벤트** (이메일 또는 웹을 통해 클릭을 초래하는 오퍼).
 
    >
-   >이러한 이벤트는 제공된 Web SDK 또는 Mobile SDK를 사용하여 자동으로 캡처됩니다. 에서 자세히 알아보기 [Adobe Experience Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
+   >이러한 이벤트는 제공된 Web SDK 또는 Mobile SDK를 사용하여 자동으로 캡처됩니다. 에서 자세히 알아보기 [Adobe Experience Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko-KR).
 
 1. 전환 및 노출 이벤트가 수집되는 데이터 세트를 선택합니다. 에서 이러한 데이터 세트를 만드는 방법 알아보기 [이 섹션](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -62,7 +62,7 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
    >
    >와(과) 연결된 스키마에서 생성된 데이터 세트만 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹(이전의 mixin)이 드롭다운 목록에 표시됩니다.
 
-1. 다음을 만드는 경우 **[!UICONTROL 개인화]** AI 모델, AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
+1. 다음을 만드는 경우 **[!UICONTROL 개인화된 최적화]** AI 모델, AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
 
    ![](../assets/ai-ranking-segments.png)
 

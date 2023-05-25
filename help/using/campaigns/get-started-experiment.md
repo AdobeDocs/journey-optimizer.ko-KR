@@ -8,34 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
-hide: true
-hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '1961'
 ht-degree: 100%
 
 ---
 
 # 콘텐츠 실험 시작하기 {#get-started-experiment}
-
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* **[콘텐츠 실험 시작](get-started-experiment.md)**
-* [콘텐츠 실험 만들기](content-experiment.md)
-* [통계 계산 이해](experiment-calculations.md)
-* [실험 보고서 구성](reporting-configuration.md)
-* [실험 보고서의 통계 계산](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->콘텐츠 실험 기능은 현재 특정 조직 집합에서만 사용할 수 있습니다(제한된 가용성). 자세한 내용은 Adobe 직원에게 문의하십시오.
 
 ## 콘텐츠 실험이란 무엇인가요?
 

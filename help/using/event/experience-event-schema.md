@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 스키마, XDM, 플랫폼, 스트리밍, 수집, 여정
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 3%
+source-wordcount: '838'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 
 >[!NOTE]
 >
->에서 스키마 관계에 대해 자세히 알아보십시오. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>에서 스키마 관계에 대해 자세히 알아보십시오. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ko-KR).
 
 그런 다음 Journey Optimizer에서 연결된 테이블의 모든 필드를 활용할 수 있습니다.
 

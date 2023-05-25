@@ -9,9 +9,9 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, 속성, 권한, 데이터, 액세스, 중요, 에셋
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1085'
 ht-degree: 3%
 
 ---
@@ -96,7 +96,7 @@ ABAC에 사용되는 용어의 자세한 목록은 다음을 참조하십시오.
 
 을 추가할 수도 있습니다.  **[!UICONTROL 레이블]** 끝  **[!UICONTROL 스키마]**,  **[!UICONTROL 데이터 세트]** 및  **[!UICONTROL 세그먼트]**.
 
-1. 사용자 만들기 **[!UICONTROL 스키마]**. 자세한 내용은 다음을 참조하십시오. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR).
+1. 사용자 만들기 **[!UICONTROL 스키마]**. 자세한 내용은 다음을 참조하십시오. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko).
 
    ![](assets/label_1.png)
 

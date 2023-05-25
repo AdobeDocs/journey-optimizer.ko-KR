@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 이메일, 스타일, css, 본문, 구조
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
@@ -28,5 +28,4 @@ ht-degree: 100%
 
 * [이메일 배경 개인화](backgrounds.md) 방법 알아보기
 * [세로 정렬 및 여백 관리](alignment-and-padding.md) 방법 알아보기
-* [이메일의 링크 스타일 정의](styling-links.md) 방법 알아보기
 * [인라인 스타일 속성 사용자 정의](inline-styling.md) 방법 알아보기

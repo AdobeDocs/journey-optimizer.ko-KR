@@ -9,14 +9,14 @@ role: Admin, Architect
 level: Intermediate
 keywords: 권한, 권한, 제한, 액세스, 샌드박스
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 25%
+source-wordcount: '208'
+ht-degree: 23%
 
 ---
 
-# 사용자 관리 개요 {#permissions-overview}
+# 사용자 관리 시작 {#permissions-overview}
 
 [!DNL Journey Optimizer] 에서는 다른 사용자에게 할당된 권한을 정의 및 관리할 수 있습니다. 권한은 제품 내 기능 및 기능에 대한 액세스를 승인 또는 거부하는 권한 및 제한 세트입니다.
 

@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
-source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
+source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 33%
+source-wordcount: '898'
+ht-degree: 32%
 
 ---
 
@@ -90,7 +90,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
    >[!NOTE]
    >
-   >현재는 Amazon S3 및 SFTP만 지원됩니다. [!DNL Journey Optimizer].
+   >현재 Amazon S3, SFTP 및 Azure는에서 지원됩니다. [!DNL Journey Optimizer].
 
 1. 서버 주소, 액세스 키 등과 같은 서버의 세부 정보 및 자격 증명을 입력합니다.
 
@@ -116,7 +116,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 >id="ajo_dm_surface_settings"
 >title="DM 설정 정의"
 >abstract="DM 표면에는 타겟팅된 대상자 데이터가 있고 메일 공급자가 사용할 수 있는 파일 형식에 대한 설정이 포함됩니다. 파일 라우팅 구성을 선택하여 파일을 내보낼 위치도 정의해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=ko#file-routing-configuration" text="파일 라우팅 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="파일 라우팅 구성"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -146,6 +146,10 @@ DM 표면에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 �
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. 파일 형식 선택: **[!UICONTROL CSV]** 또는 **[!UICONTROL 텍스트로 구분됨]**.
+
+1. 다음을 선택하는 경우 **[!UICONTROL 텍스트로 구분됨]**&#x200B;을(를) 통해 원하는 열 구분 기호(표, 세미콜론, 파이프 또는 앰퍼샌드)를 정의합니다.
+
+   ![](assets/surface-direct-mail-column-separator.png)
 
 1. 다음 항목 선택 **[!UICONTROL 파일 라우팅 구성]** 만든 항목 중에서 선택합니다. DM 공급자가 사용할 파일을 내보내는 위치를 정의합니다.
 

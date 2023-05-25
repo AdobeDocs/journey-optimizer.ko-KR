@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
+source-git-commit: 11f18adf62c04f6659065ad8da38747fece54a1d
 workflow-type: tm+mt
-source-wordcount: '2504'
+source-wordcount: '2467'
 ht-degree: 78%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 78%
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
 
-## 2023년 5월 초기 릴리스 정보 {#may-rn-2023}
+## 2023년 5월 릴리스 정보 {#may-rn-2023}
 
-아래 정보는 릴리스를 사용할 수 있는 당일까지 사전 통지 없이 변경될 수 있습니다. 릴리스 당일에 업데이트한 설명서가 게시되고 직접 연결되는 링크가 이 페이지에 추가됩니다.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**릴리스 날짜**: 2023년 5월 25일
+**Release date**: May 25, 2023-->
 
 ### 새로운 기능{#may-2023-features}
 
@@ -97,7 +97,7 @@ ht-degree: 78%
 <td>
 <p>이제 조각을 작성, 사용 및 관리하여 이메일 및 콘텐츠 템플릿을 신속하게 취합할 수 있습니다. 조각은 사전 빌드된 재사용 가능한 구성 요소로서, Journey Optimizer 캠페인 및 여정의 여러 이메일에서 개선되고 가속화된 디자인 프로세스를 위해 참조할 수 있습니다.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../email/fragments.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -145,14 +145,6 @@ ht-degree: 78%
 
 ### 개선 사항 {#may-2023-improvements}
 
-<!--
-**Terminology**
-
-* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
--->
-
-<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
--->
 
 
 **대상자**
@@ -162,16 +154,13 @@ ht-degree: 78%
    * 대상: 사람, 계정, 가구 또는 공통된 특성과 행동을 공유하는 기타 엔티티 세트입니다.
    * 세그먼트 정의: Adobe Experience Platform에서 타겟 대상의 주요 특성 또는 행동을 설명하는 데 사용되는 규칙입니다. 이 용어는 이전에 &quot;세그먼트&quot;라고도 했습니다.
 
-   그 결과, Adobe Journey Optimizer 및 Adobe Experience Platform UI 내에서는 이러한 새로운 대상 생성 및 관리 경로를 반영하도록 &quot;세그먼트&quot;가 &quot;대상&quot;으로 대체됩니다.
+   그 결과, Adobe Journey Optimizer 및 Adobe Experience Platform UI 내에서는 이러한 새로운 대상 생성 및 관리 경로를 반영하기 위해 &quot;세그먼트&quot;가 &quot;대상&quot;으로 대체됩니다.
 
-   변경 사항은 다음 UI 및 설명서 릴리스를 통해 점진적으로 롤아웃됩니다.
-
-   메시지를 받을 타겟팅된 프로필 그룹을 참조할 때 &quot;대상자&quot;라는 용어의 번역은 다음 언어에 대한 모든 Digital Experience 제품에서 조화롭게 되었습니다.
+   메시지를 받을 타겟팅된 프로필 그룹을 참조할 때 &quot;대상자&quot;라는 용어의 번역은 일부 언어의 모든 Digital Experience 제품에서 조화롭게 되었습니다.
 
    * 독일어: Zielgruppe
    * 포르투갈어(브라질): público-alvo
    * 스페인어: público destinatario
-
 
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
@@ -198,7 +187,7 @@ ht-degree: 78%
 
 **의사 결정 관리**
 
-* 이제 오퍼가 초안 상태이고 이전에 게시된 적이 없는 경우 빈도 상한을 편집할 수 있습니다.
+* 이제 오퍼에 다음 항목이 있는 경우 빈도 상한을 편집할 수 있습니다. **[!UICONTROL 초안]** 상태 및 은(는) 빈도 조절 기능이 활성화된 전에 게시된 적이 없습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **개인화**
 

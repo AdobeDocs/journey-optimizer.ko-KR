@@ -6,9 +6,9 @@ description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
+source-git-commit: 60adbc8ad4c49b9282502d26a9a9aac73693d049
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1588'
 ht-degree: 4%
 
 ---
@@ -119,9 +119,9 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 모바일 앱을 Adobe Experience Platform SDK와 통합 {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다. 팔로우 [Adobe Experience Platform Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/getting-started/overview){target="_blank"} 앱에서 Adobe Experience Platform Mobile SDK를 사용하여 설정을 가져옵니다.
+Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다. 팔로우 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 앱에서 Adobe Experience Platform Mobile SDK를 사용하여 설정을 가져옵니다.
 
-이 작업이 끝날 때쯤이면 의 모바일 속성도 만들고 구성해야 합니다. [!DNL Adobe Experience Platform Data Collection]. 일반적으로 관리하려는 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법에 대해 알아봅니다. [Adobe Experience Platform Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target="_blank"}.
+이 작업이 끝날 때쯤이면 의 모바일 속성도 만들고 구성해야 합니다. [!DNL Adobe Experience Platform Data Collection]. 일반적으로 관리하려는 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법에 대해 알아봅니다. [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 
 ## 1단계: Adobe Experience Platform 데이터 수집에서 앱 푸시 자격 증명 추가 {#push-credentials-launch}

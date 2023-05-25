@@ -5,30 +5,14 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta" type="Informative"
-exl-id: b3336381-bc73-4c8f-938f-f10fe37305b0
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 4%
+source-wordcount: '932'
+ht-degree: 0%
 
 ---
 
-# 실험 보고서의 통계 계산 {#experiment-report-calculations}
-
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* [콘텐츠 실험 시작](get-started-experiment.md)
-* [콘텐츠 실험 만들기](content-experiment.md)
-* [통계 계산 이해](experiment-calculations.md)
-* [실험 보고서 구성](reporting-configuration.md)
-* **[실험 보고서의 통계 계산](experiment-report-calculations.md)**
-
->[!ENDSHADEBOX]
+# 실험 보고서의 통계 계산 이해 {#experiment-report-calculations}
 
 이 페이지에서는 Adobe Journey Optimizer의 캠페인에 대한 실험 보고서에 사용된 자세한 통계 계산을 문서화합니다.
 

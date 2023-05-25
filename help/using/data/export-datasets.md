@@ -8,9 +8,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '582'
 ht-degree: 8%
 
 ---
@@ -58,9 +58,9 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 ![](assets/dataset-export-process.png)
 
-각 단계에 대한 자세한 내용은 Adobe Experience Platform 설명서에서 확인할 수 있습니다. [클라우드 스토리지 대상으로 데이터 세트 내보내기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en).
+각 단계에 대한 자세한 내용은 Adobe Experience Platform 설명서에서 확인할 수 있습니다. [클라우드 스토리지 대상으로 데이터 세트 내보내기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html).
 
-1. **클라우드 스토리지 대상 설정**. 아직 연결하지 않은 경우 대상 카탈로그에서 클라우드 스토리지 대상에 연결합니다. [새 대상 연결을 만드는 방법 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=en#setup)
+1. **클라우드 스토리지 대상 설정**. 아직 연결하지 않은 경우 대상 카탈로그에서 클라우드 스토리지 대상에 연결합니다. [새 대상 연결을 만드는 방법 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
 
    <!--![](assets/dataset-export-setup.png)-->
 

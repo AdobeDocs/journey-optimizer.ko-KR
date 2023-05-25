@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 7347bb56eb2785b2d9f3f641cbe3b7c1ae2d078f
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '993'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ Experience Platform 웹 SDK는 의사 결정 관리를 포함하여 Adobe 시 �
 
 를 사용하여 의사 결정 관리를 구현하는 방법에는 두 가지가 있습니다 [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 한 가지 방법은 개발자에 맞춰져 있고 웹 사이트와 프로그래밍에 대한 지식이 필요합니다. 또 다른 방법은 Adobe Experience Platform 사용자 인터페이스를 사용하여 HTML 페이지의 헤더에서 작은 스크립트만 참조하도록 오퍼를 설정하는 것입니다.
 
-의 설명서를 참조하십시오. [의사 결정 관리](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) Adobe Experience Platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대해 자세히 알아보십시오.
+의 설명서를 참조하십시오. [의사 결정 관리](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) Adobe Experience Platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대해 자세히 알아보십시오.
 
 >[!NOTE]
 >
@@ -44,9 +44,9 @@ SDK는 이러한 라이브러리를 결합하지 않았으며 처음부터 새�
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko) Adobe Experience Cloud에서 사용자 계정의 데이터 수집 탭 내.
+1. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) Adobe Experience Cloud에서 사용자 계정의 데이터 수집 탭 내.
 
-1. SDK를 설치합니다. 이렇게 하는 방법에는 여러 가지가 있으며 다음에서 다룹니다. [SDK 페이지 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 이 페이지는 서로 다른 각 구현 방법을 사용하여 계속됩니다.
+1. SDK를 설치합니다. 이렇게 하는 방법에는 여러 가지가 있으며 다음에서 다룹니다. [SDK 페이지 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko-KR?lang=ko-KR). 이 페이지는 서로 다른 각 구현 방법을 사용하여 계속됩니다.
 
 SDK를 사용하려면 [스키마](../../../data/get-started-schemas.md) 및 a [데이터스트림](../../../data/get-started-datasets.md) 정의됨.
 
@@ -62,23 +62,23 @@ SDK를 사용하려면 [스키마](../../../data/get-started-schemas.md) 및 a [
 
 이 옵션은 코딩 경험이 적을 수 있는 사용자에게 보다 편리합니다.
 
-1. [태그 속성 만들기](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=ko-KR)
+1. [태그 속성 만들기](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html)
 
-1. [포함 코드 추가](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [포함 코드 추가](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html)
 
-1. &quot;데이터스트림&quot; 드롭다운에서 구성을 선택하여 생성한 데이터스트림으로 Adobe Experience Platform Web SDK 확장을 설치하고 구성합니다. 다음에서 설명서를 참조하십시오. [확장](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. &quot;데이터스트림&quot; 드롭다운에서 구성을 선택하여 생성한 데이터스트림으로 Adobe Experience Platform Web SDK 확장을 설치하고 구성합니다. 다음에서 설명서를 참조하십시오. [확장](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html).
 
    ![Adobe Experience Platform 웹 SDK](../../assets/installed-catalog-web-sdk.png)
 
    ![확장 구성](../../assets/configure-sdk-extension.png)
 
-1. 필요한 항목 만들기 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ko-KR). 최소한 Platform Web SDK ID 맵 및 Platform Web SDK XDM 개체 데이터 요소를 만들어야 합니다.
+1. 필요한 항목 만들기 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html). 최소한 Platform Web SDK ID 맵 및 Platform Web SDK XDM 개체 데이터 요소를 만들어야 합니다.
 
    ![ID 맵](../../assets/sdk-identity-map.png)
 
    ![XDM 개체](../../assets/xdm-object.png)
 
-1. 사용자 만들기 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
+1. 사용자 만들기 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html):
 
    Platform Web SDK 이벤트 보내기 작업을 추가하고 해당 작업의 구성에 관련 결정 범위를 추가합니다
 
@@ -86,13 +86,13 @@ SDK를 사용하려면 [스키마](../../../data/get-started-schemas.md) 및 a [
 
    ![오퍼 요청](../../assets/rule-request-offer.png)
 
-1. [만들기 및 게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 구성한 모든 관련 규칙, 데이터 요소 및 확장이 포함된 라이브러리입니다.
+1. [만들기 및 게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html) 구성한 모든 관련 규칙, 데이터 요소 및 확장이 포함된 라이브러리입니다.
 
 ## 옵션 2 - 사전 설치된 독립 실행형 버전을 사용하여 수동으로 구현
 
 다음은 웹 SDK의 미리 빌드된 독립 실행형 설치를 사용하여 의사 결정 관리를 사용하는 데 필요한 단계입니다. 이 안내서에서는 SDK를 처음 구현하는 단계이므로 모든 단계를 적용할 수 없다고 가정합니다. 이 안내서에서는 일부 개발 경험도 가정합니다.
 
-옵션 2의 다음 JavaScript 코드 조각 포함: 의 사전 빌드된 독립 실행형 버전 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 다음에서 `<head>` HTML 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+옵션 2의 다음 JavaScript 코드 조각 포함: 의 사전 빌드된 독립 실행형 버전 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko-KR?lang=ko-KR) 다음에서 `<head>` HTML 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
 ```
 javascript

@@ -7,10 +7,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 95%
 
 ---
 
@@ -28,5 +28,5 @@ Adobe Experience Platform **데이터 거버넌스 서비스**&#x200B;를 사용
 데이터 거버넌스 프레임워크, 그리고 레이블 및 정책으로 작동하는 방법에 대한 자세한 내용은 Adobe Experience Platform 설명서를 참조하십시오.
 
 * [데이터 거버넌스 서비스 개요](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko)
-* [데이터 사용 레이블 개요](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko)
+* [데이터 사용 레이블 개요](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
 * [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko)

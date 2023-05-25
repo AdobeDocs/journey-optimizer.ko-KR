@@ -9,14 +9,18 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 28%
+source-wordcount: '1583'
+ht-degree: 27%
 
 ---
 
 # 랜딩 페이지 만들기 및 게시 {#create-lp}
+
+>[!CAUTION]
+>
+>랜딩 페이지를 테스트하고 게시하려면 다음을 수행해야 합니다. **[!UICONTROL 메시지 게시]** 권한.
 
 ## 랜딩 페이지 액세스 {#access-landing-pages}
 
@@ -207,6 +211,8 @@ ht-degree: 28%
 
 >[!CAUTION]
 >
+>랜딩 페이지를 테스트하려면 다음을 수행해야 합니다. **[!UICONTROL 메시지 게시]** 권한.
+>
 >메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../segment/creating-test-profiles.md).
 
 1. 랜딩 페이지 인터페이스에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 테스트 프로필 선택에 액세스합니다.
@@ -273,6 +279,10 @@ ht-degree: 28%
 -->
 
 ## 랜딩 페이지 게시 {#publish-landing-page}
+
+>[!CAUTION]
+>
+>랜딩 페이지를 게시하려면 다음을 수행해야 합니다. **[!UICONTROL 메시지 게시]** 권한.
 
 랜딩 페이지가 준비되면 이를 게시하여 메시지에 사용할 수 있도록 할 수 있습니다.
 

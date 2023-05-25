@@ -11,9 +11,9 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '766'
 ht-degree: 3%
 
 ---
@@ -59,7 +59,7 @@ Adobe Experience Manager 템플릿을 Adobe Journey Optimizer으로 내보내려
 
    ![](assets/aem-outbound-menu.png)
 
-1. 콘텐츠 라이브러리에서 이전에 구성한 템플릿을 사용하거나 처음부터 새로 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
+1. 콘텐츠 라이브러리에서 이전에 구성한 템플릿을 사용하거나 처음부터 새로 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Journey Optimizer 개인화 구문을 템플릿에 통합하여 맞춤화 기능을 향상시킬 수 있습니다. [자세히 알아보기](../personalization/personalization-syntax.md)
 
@@ -93,7 +93,7 @@ Journey Optimizer에서 Experience Manager 템플릿을 콘텐츠 템플릿으�
 
 1. Experience Manager 템플릿을 추가로 개인화하고 콘텐츠에 사용자 지정 개인 맞춤화를 추가하려면 다음을 클릭하십시오. **[!UICONTROL 콘텐츠 편집]**. 이를 통해 쉽게 변경하고 템플릿을 특정 요구 사항에 맞게 조정할 수 있습니다. [자세히 알아보기](get-started-email-design.md)
 
-   >[!NOTE]
+   >[!WARNING]
    >
    > 템플릿을 편집하고 개인화하려는 경우 호환성 모드만 사용할 수 있습니다.
 

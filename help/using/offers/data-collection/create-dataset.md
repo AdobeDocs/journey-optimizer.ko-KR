@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 10%
+source-wordcount: '259'
+ht-degree: 12%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >에서 XDM 스키마 및 필드 그룹에 대한 자세한 내용을 알아봅니다. [XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target="_blank"}.
+   >에서 XDM 스키마 및 필드 그룹에 대한 자세한 내용을 알아봅니다. [XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}.
 
 1. 다음에서 **[!UICONTROL 필드 그룹]** 왼쪽에서 섹션을 선택합니다. **[!UICONTROL 추가]**.
 
@@ -48,7 +48,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->에서 스키마 빌드에 대해 자세히 알아보기 [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}.
+>에서 스키마 빌드에 대해 자세히 알아보기 [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR-KR#understanding-schemas){target="_blank"}.
 
 이제 이 스키마를 사용하여 데이터 세트를 만들 준비가 되었습니다. 이렇게 하려면 아래 단계를 수행합니다:
 

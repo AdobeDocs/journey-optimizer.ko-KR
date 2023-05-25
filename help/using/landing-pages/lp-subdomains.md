@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 하위 도메인, 구성
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '827'
 ht-degree: 24%
 
 ---
@@ -39,7 +39,12 @@ ht-degree: 24%
 
 >[!CAUTION]
 >
->랜딩 페이지 하위 도메인 구성은 모든 환경에 공통입니다. 따라서 랜딩 페이지 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
+>랜딩 페이지 하위 도메인 구성은 모든 환경에 공통입니다. 그 결과는 다음과 같습니다.
+>
+>* 랜딩 페이지 하위 도메인에 액세스하고 편집하려면 **[!UICONTROL 랜딩 페이지 하위 도메인 관리]** 프로덕션 샌드박스에 대한 권한.
+>
+> * 랜딩 페이지 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
+
 
 ## 기존 하위 도메인 사용 {#lp-use-existing-subdomain}
 

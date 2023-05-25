@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
+source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 38%
+source-wordcount: '1063'
+ht-degree: 34%
 
 ---
 
@@ -63,30 +63,59 @@ ht-degree: 38%
 
    * **[!UICONTROL 외부 링크]**: 외부 URL에 대한 링크를 삽입합니다.
 
-   * **[!UICONTROL 랜딩 페이지]**: 랜딩 페이지에 링크를 삽입합니다. [이 섹션](../landing-pages/get-started-lp.md)에서 자세히 알아보기
+   * **[!UICONTROL 랜딩 페이지]**: 랜딩 페이지에 링크를 삽입합니다. [자세히 알아보기 ](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL 한 번의 클릭으로 옵트아웃]**: 사용자가 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있도록 링크를 삽입합니다. 자세한 내용은 [이 섹션](../privacy/opt-out.md#one-click-opt-out)을 참조하십시오.
+   * **[!UICONTROL 한 번의 클릭으로 옵트아웃]**: 사용자가 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있도록 링크를 삽입합니다. [자세히 알아보기](email-opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL 외부 옵트인/구독]**: 브랜드로부터 커뮤니케이션 수신을 수락하는 링크를 삽입합니다.
 
-   * **[!UICONTROL 외부 옵트아웃/구독 취소]**: 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 링크를 삽입합니다. [이 섹션](../privacy/opt-out.md#opt-out-management)에서 옵트아웃 관리에 대해 자세히 알아보십시오.
+   * **[!UICONTROL 외부 옵트아웃/구독 취소]**: 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 링크를 삽입합니다. [이 섹션](email-opt-out.md#opt-out-management)에서 옵트아웃 관리에 대해 자세히 알아보십시오.
 
-   * **[!UICONTROL 미러 페이지]**: 웹 브라우저에 이메일 콘텐츠를 표시하는 링크를 삽입합니다. 자세한 내용은 [이 섹션](#mirror-page)을 참조하십시오.
+   * **[!UICONTROL 미러 페이지]**: 웹 브라우저에 이메일 콘텐츠를 표시하는 링크를 추가합니다. [자세히 알아보기](#mirror-page)
 
-1. 링크를 개인화할 수 있습니다. [이 섹션](../personalization/personalization-syntax.md#perso-urls)에서 URL 개인화에 대해 자세히 알아보십시오.
+1. 해당 필드에 원하는 URL을 입력하거나 랜딩 페이지를 선택하고 링크 설정 및 스타일을 정의합니다. [자세히 알아보기](#adjust-links)
+
+   >[!NOTE]
+   >
+   >URL 해석의 경우 [!DNL Journey Optimizer] 는 URI 구문()을 준수합니다.[RFC 3986 표준](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"})를 입력하여 URL에 일부 특수 국제 문자를 비활성화할 수 있습니다. 증명 또는 이메일을 전송하려고 할 때 콘텐츠에 추가된 URL과 관련된 오류가 반환되면 URL로 문자열을 인코딩할 수 있습니다.
+
+1. 링크를 개인화할 수 있습니다. [자세히 알아보기](../personalization/personalization-syntax.md#perso-urls)
 
 1. 변경 내용을 저장합니다.
 
-1. 링크가 생성된 후에도 오른쪽 **[!UICONTROL 구성 요소 설정]** 창에서 링크를 수정할 수 있습니다.
-
-   * 링크를 편집하고 유형을 변경할 수 있습니다.
-   * 해당 옵션을 선택하여 링크에 밑줄을 표시할지 여부를 선택할 수 있습니다.
+1. 링크가 만들어지더라도 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 오른쪽 창.
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
 >마케팅 유형 이메일 메시지에는 다음 항목이 포함되어야 합니다. [옵트아웃 링크](../privacy/opt-out.md#opt-out-management)트랜잭션 메시지에는 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는에 정의되어 있습니다 [채널 표면](../configuration/channel-surfaces.md#email-type) 메시지를 만들 때.
+
+## 링크 조정 {#adjust-links}
+
+다음을 사용하여 링크를 조정할 수 있습니다. **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 오른쪽 창. 링크에 밑줄을 긋고 색상을 편집한 다음 대상을 선택할 수 있습니다.
+
+1. 링크가 삽입된 **[!UICONTROL 텍스트]** 구성 요소에서 링크를 선택합니다.
+
+1. 다음에서 **[!UICONTROL 설정]** 탭에서 대상자를 리디렉션할 방법을 선택합니다. **[!UICONTROL Target]** 드롭다운:
+
+   * **[!UICONTROL None]**: 링크를 클릭한 프레임과 동일한 프레임에서 링크를 엽니다(기본값).
+   * **[!UICONTROL Blank]**: 새 창이나 탭에서 링크를 엽니다.
+   * **[!UICONTROL Self]**: 링크를 클릭한 프레임과 동일한 프레임에서 링크를 엽니다.
+   * **[!UICONTROL Parent]**: 상위 프레임에서 링크를 엽니다.
+   * **[!UICONTROL Top]**: 최상위 창에서 링크를 엽니다.
+
+   ![](assets/link_2.png)
+
+1. 확인 **[!UICONTROL 링크 밑줄]** 를 클릭하여 링크의 레이블 텍스트에 밑줄을 긋습니다.
+
+   ![](assets/link_1.png)
+
+1. 링크의 색상을 변경하려면 를 클릭합니다. **[!UICONTROL 링크 색상]** 다음에서 **[!UICONTROL 스타일]** 탭.
+
+   ![](assets/link_3.png)
+
+1. 변경 내용을 저장합니다.
 
 ## 미러 페이지 링크 {#mirror-page}
 

@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 객체, 레벨, 액세스, 제어, 레이블, olac, 인증
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '457'
 ht-degree: 14%
 
 ---
@@ -94,4 +94,4 @@ Journey Optimizer 개체에 사용자 지정 또는 핵심 데이터 사용 레�
 이 개체에 액세스하려면 사용자에게 다음 항목이 있어야 합니다. **[!UICONTROL 레이블]** 대상에 포함됨 **[!UICONTROL 역할]**.
 예를 들어 C1 레이블이 있는 사용자는 레이블이 지정되거나 레이블이 지정되지 않은 C1에만 액세스할 수 있습니다.
 
-할당 방법에 대한 자세한 내용 **[!UICONTROL 레이블]** (으)로 **[!UICONTROL 역할]**, 참조 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
+할당 방법에 대한 자세한 내용 **[!UICONTROL 레이블]** (으)로 **[!UICONTROL 역할]**, 참조 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).

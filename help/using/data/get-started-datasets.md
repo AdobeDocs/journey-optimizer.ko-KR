@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 다음을 수행할 수 있습니다.
 
-* 스키마에서 데이터 세트 만들기. [이 문서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#schema){target="_blank"}
+* 스키마에서 데이터 세트 만들기. [이 문서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#schema){target="_blank"}
 * CSV 파일에서 데이터 세트를 만듭니다. [이 문서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko-KR){target="_blank"}
 
 이 비디오에서는 데이터 세트를 만들고 이를 스키마에 매핑하며, 세트에 데이터를 추가하고 데이터가 수집되었는지 확인하는 방법을 알아봅니다.

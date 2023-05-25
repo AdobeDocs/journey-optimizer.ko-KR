@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 100%
+source-wordcount: '1377'
+ht-degree: 98%
 
 ---
 
@@ -166,9 +166,10 @@ ht-degree: 100%
    + 콘텐츠 실험 {#content-experiment}
       + [콘텐츠 실험 시작](using/campaigns/get-started-experiment.md)
       + [콘텐츠 실험 만들기](using/campaigns/content-experiment.md)
-      + [통계 계산 이해](using/campaigns/experiment-calculations.md)
       + [실험 보고서 구성](using/campaigns/reporting-configuration.md)
-      + [실험 보고서의 통계 계산](using/campaigns/experiment-report-calculations.md)
+      + 기술 노트 {#technotes}
+         + [통계 계산 이해](using/campaigns/experiment-calculations.md)
+         + [실험 보고서의 통계 계산 이해](using/campaigns/experiment-report-calculations.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
 + 이메일 채널 {#email}
    + [이메일 시작](using/email/get-started-email.md)
@@ -193,11 +194,11 @@ ht-degree: 100%
          + [이메일 스타일 시작](using/email/get-started-email-style.md)
          + [배경 설정 편집](using/email/backgrounds.md)
          + [세로 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
-         + [링크의 스타일 정의](using/email/styling-links.md)
          + [인라인 스타일 속성 추가](using/email/inline-styling.md)
    + [이메일 미리 보기 및 테스트](using/email/preview.md)
    + [콘텐츠 템플릿 만들기](using/email/content-templates.md)
    + [Experience Manager 템플릿 사용](using/email/aem-templates.md)
+   + [조각을 사용한 작업](using/email/fragments.md)
    + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
    + 이메일 채널 구성 {#configure-email}
       + [이메일 구성 시작](using/email/get-started-email-config.md)
@@ -304,6 +305,7 @@ ht-degree: 100%
       + [구성 요소 목록](using/reports/global-report-components.md)
       + [여정 글로벌 보고서](using/reports/journey-global-report.md)
       + [캠페인 글로벌 보고서](using/reports/campaign-global-report.md)
+      + [목표 보고서](using/reports/objective-report.md)
       + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)
       + [구독 목록 글로벌 보고서](using/reports/subscription-report-global.md)
    + 여정 보고서 {#reports}
@@ -468,13 +470,15 @@ ht-degree: 100%
          + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
    + [소스](using/start/get-started-sources.md)
 + 액세스 제어 {#access-control}
-   + [액세스 제어 개요](using/administration/permissions-overview.md)
-   + [내장 제품 프로필](using/administration/ootb-product-profiles.md)
-   + [사용자 및 제품 프로필 관리](using/administration/permissions.md)
-   + [권한 수준](using/administration/high-low-permissions.md)
-   + [샌드박스 관리](using/administration/sandboxes.md)
+   + 액세스 제어 개요 {#privacy}
+      + [사용자 관리 시작](using/administration/permissions-overview.md)
+      + [기본 제공 역할](using/administration/ootb-product-profiles.md)
+      + [기본 권한](using/administration/ootb-permissions.md)
+      + [권한 수준](using/administration/high-low-permissions.md)
+   + [사용자 및 역할 관리](using/administration/permissions.md)
    + [속성 기반 액세스 제어](using/administration/attribute-based-access.md)
    + [객체 수준 액세스 제어](using/administration/object-based-access.md)
+   + [샌드박스 관리](using/administration/sandboxes.md)
 + 개인정보 보호 {#privacy}
    + [개인 정보 시작](using/privacy/get-started-privacy.md)
    + [개인 정보 보호 요청](using/privacy/requests.md)

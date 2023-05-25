@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 12%
@@ -81,8 +81,6 @@ ht-degree: 12%
 
 1. 다음을 통해 콘텐츠 템플릿 목록에 액세스 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 콘텐츠 템플릿]** 왼쪽 메뉴.
 
-   ![](assets/content-template-list.png)
-
 1. 선택 **[!UICONTROL 템플릿 만들기]**.
 
 1. 템플릿 세부 정보를 입력합니다.
@@ -95,7 +93,7 @@ ht-degree: 12%
 
 1. 사용자 지정 또는 핵심 데이터 사용 레이블을 템플릿에 할당하려면 다음을 선택합니다. **[!UICONTROL 액세스 관리]**. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md).
 
-1. 클릭 **[!UICONTROL 만들기]** 다양한 옵션에서 이메일 디자인 방법을 선택합니다.
+1. 클릭 **[!UICONTROL 만들기]** 다양한 옵션에서 템플릿 디자인 방법을 선택합니다.
 
    * [이메일을 처음부터 디자인](content-from-scratch.md) 이메일 디자이너의 인터페이스를 통해
 

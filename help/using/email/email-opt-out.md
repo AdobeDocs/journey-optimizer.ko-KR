@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 81%
+source-wordcount: '1033'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 81%
 
 이렇게 하려면 다음 작업을 수행할 수 있습니다.
 
-* 삽입 **외부 랜딩 페이지에 연결** 를 이메일에 추가하여 사용자가 브랜드로부터 커뮤니케이션 수신을 취소할 수 있습니다. [다음 옵트아웃 링크를 추가하는 방법 알아보기](#opt-out-external-lp)
+* 삽입 **외부 랜딩 페이지에 연결** 를 이메일에 추가하여 사용자가 브랜드로부터 커뮤니케이션 수신을 취소할 수 있습니다. [외부 옵트아웃 링크를 추가하는 방법 알아보기](#opt-out-external-lp)
 
 * 추가 **원클릭 옵트아웃 링크** 을 이메일 콘텐츠에 추가합니다. 이 링크를 사용하면 수신자가 랜딩 페이지로 리디렉션되어 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있습니다. [원클릭 옵트아웃 링크를 추가하는 방법 알아보기](#one-click-opt-out)
 
@@ -30,7 +30,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 카테고리(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 표면](../configuration/channel-surfaces.md#email-type)(예: 메시지 사전 설정) 수준에서 메시지를 만들 때 정의됩니다).
+>마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 카테고리(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는에서 정의됩니다. [채널 표면](../configuration/channel-surfaces.md#email-type) 레벨 및 메시지 작성 시).
 
 ## 외부 옵트아웃 {#opt-out-external-lp}
 
@@ -64,12 +64,11 @@ ht-degree: 81%
 
 이 POST 호출은 다음과 같습니다.
 
-엔드포인트: platform.adobe.io/journey/imp/consent/preferences
+엔드포인트: https://platform.adobe.io/journey/imp/consent/preferences
 
 쿼리 매개 변수:
 
 * **params**: 암호화된 페이로드 포함
-* **sig**: 서명
 * **pid**: 암호화된 프로필 ID
 
 이 세 매개 변수는 수신자에게 전송된 타사 랜딩 페이지 URL에 포함됩니다.
