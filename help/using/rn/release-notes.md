@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
+source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 82%
+source-wordcount: '2530'
+ht-degree: 77%
 
 ---
 
@@ -156,6 +156,23 @@ ht-degree: 82%
 
 
 **대상자**
+
+* Audience Portal 기능이 일반적으로 사용할 수 있게 될 것을 대비하여 Adobe Experience Platform은 시스템 및 설명서 내에서 &quot;대상&quot; 및 &quot;세그먼트&quot;의 사용을 업데이트하고 있습니다.
+
+   * 대상: 사람, 계정, 가구 또는 공통된 특성과 행동을 공유하는 기타 엔티티 세트입니다.
+   * 세그먼트 정의: Adobe Experience Platform에서 타겟 대상의 주요 특성 또는 행동을 설명하는 데 사용되는 규칙입니다. 이 용어는 이전에 &quot;세그먼트&quot;라고도 했습니다.
+
+   그 결과, Adobe Journey Optimizer 및 Adobe Experience Platform UI 내에서는 이러한 새로운 대상 생성 및 관리 경로를 반영하도록 &quot;세그먼트&quot;가 &quot;대상&quot;으로 대체됩니다.
+
+   변경 사항은 다음 UI 및 설명서 릴리스를 통해 점진적으로 롤아웃됩니다.
+
+   메시지를 받을 타겟팅된 프로필 그룹을 참조할 때 &quot;대상자&quot;라는 용어의 번역은 다음 언어에 대한 모든 Digital Experience 제품에서 조화롭게 되었습니다.
+
+   * 독일어: Zielgruppe
+   * 포르투갈어(브라질): público-alvo
+   * 스페인어: público destinatario
+
+
 
 * 대상의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상 선택기가 개선되었습니다.
 
