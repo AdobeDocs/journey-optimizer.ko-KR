@@ -211,7 +211,7 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
->title="검색 모드 사용"
+>title="찾아보기 모드 사용"
 >abstract="이 모드의 선택한 표면에서 개인화하려는 정확한 페이지로 이동할 수 있습니다."
 
 기본값에서 바꿀 수 있습니다. **[!UICONTROL 디자인]** 모드: **[!UICONTROL 찾아보기]** 전용 버튼을 사용하는 모드입니다.
