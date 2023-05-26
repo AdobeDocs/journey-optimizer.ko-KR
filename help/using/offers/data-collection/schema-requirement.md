@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+source-git-commit: 2130d3b02d6d4f21518ce4e8eecc244d24b87ba2
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 >
 >의사 결정 관리에서 이러한 이벤트를 자동으로 생성하여 에 넣으므로 의사 결정 이벤트를 보낼 필요가 없습니다. **[!UICONTROL ODE DecisionEvents]** 데이터 세트<!--to check--> 자동으로 생성됩니다.
 
-## 노출 횟수 추적
+## 노출 횟수 추적 {#track-impressions}
 
 이벤트 유형 및 소스가 다음과 같은지 확인합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 +++
 
-## 클릭 수 추적
+## 클릭 수 추적 {#track-clicks}
 
 이벤트 유형 및 소스가 다음과 같은지 확인합니다.
 
@@ -96,7 +96,7 @@ ht-degree: 3%
 
 +++
 
-## 사용자 지정 이벤트 추적
+## 사용자 지정 이벤트 추적 {#track-custom-events}
 
 사용자 지정 이벤트의 경우 데이터 세트에 사용되는 스키마에도 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 연결된 필드 그룹이지만, 경험 이벤트 유형에는 이러한 이벤트에 태그를 지정하는 데 사용해야 하는 특정 요구 사항이 없습니다.
 
@@ -108,22 +108,3 @@ ht-degree: 3%
 >* POST /ee/v2/collect
 >
 >를 사용하는 경우 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko-KR){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, 연결이 자동으로 이루어집니다.
-
-<!--
-## Using a ranking strategy {#using-ranking}
-
-To use the ranking strategy you created above, follow the steps below:
-
-Once a ranking strategy has been created, you can assign it to a placement in a decision. For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
-
-1. Create a decision.
-1. Add a placement.
-1. Add a collection.
-1. Choose to rank offers by AI ranking (select it from the drop-down list).
-1. Click Add ranking.
-1. Select the ranking strategy that you created. All the details of the ranking strategy are displayed.
-1. Click Next to confirm.
-1. Save your decision.
-
-It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
--->
