@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 271952e9c5d3c7823edba100d38e4ef673143cc3
+source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
 workflow-type: tm+mt
-source-wordcount: '2426'
-ht-degree: 80%
+source-wordcount: '2485'
+ht-degree: 78%
 
 ---
 
@@ -86,22 +86,22 @@ ht-degree: 80%
 -->
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Create and use fragments in your email content</strong><br/></th>
+<th><strong>이메일 콘텐츠에서 조각 만들기 및 사용</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now author, use, and manage fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Journey Optimizer campaigns and journeys for an improved and accelerated design process.</p>
+<p>이제 조각을 작성, 사용 및 관리하여 이메일 및 콘텐츠 템플릿을 신속하게 취합할 수 있습니다. 조각은 사전 빌드된 재사용 가능한 구성 요소로서, Journey Optimizer 캠페인 및 여정의 여러 이메일에서 개선되고 가속화된 디자인 프로세스를 위해 참조할 수 있습니다.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>For more information, refer to the <a href="../email/fragments.md">detailed documentation</a>.</p>
+<p>자세한 내용은 <a href="../email/fragments.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <table>

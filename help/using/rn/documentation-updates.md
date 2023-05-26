@@ -4,7 +4,7 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 245937875136d0a92cfab1506544d3e592ebd46f
+source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
 ht-degree: 95%
@@ -23,7 +23,7 @@ ht-degree: 95%
 * 개인화에 프로필 데이터를 사용하지 않기로 선택한 고객을 충족하는 방법을 설명하는 새 섹션이 추가되었습니다. [자세히 보기](../privacy/opt-out.md#opt-out-personalization)
 * 이메일 콘텐츠에 포함된 URL에 특수 국제 문자를 사용하는 방법에 대한 메모가 추가되었습니다. [자세히 보기](../email/message-tracking.md#insert-links)
 * 랜딩 페이지를 테스트하고 게시하는 데 필요한 권한이 추가되었습니다. [자세히 보기](../landing-pages/create-lp.md)
-* 사용자 지정 이벤트를 Management Decisioning 빈도 제한에서 고려해야 하는 Adobe Experience Platform 종단점에 대한 메모가 추가되었습니다. [자세히 보기](../offers/data-collection/schema-requirement.md#track-custom-events)
+* 사용자 지정 이벤트를 의사 결정 관리 빈도 제한에서 고려해야 하는 Adobe Experience Platform 엔드포인트에 대한 메모가 추가되었습니다. [자세히 보기](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023년 4월 {#apr-2023}
 
