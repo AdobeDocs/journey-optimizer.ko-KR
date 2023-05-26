@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 78%
+source-wordcount: '2466'
+ht-degree: 79%
 
 ---
 
@@ -175,9 +175,11 @@ ht-degree: 78%
 * Adobe 위치 서비스에 대한 새 메시지 트리거 규칙이 추가되었습니다. [자세히 보기](../in-app/inapp-configuration.md)
 * 트리거 규칙으로 추가할 장치 이벤트를 캡처하는 새로운 Adobe Experience Platform Assurance 기능이 추가되었습니다.
 
-**여정**
+<!--
+**Journeys**
 
-* 이제 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
 
 **캠페인**
 
