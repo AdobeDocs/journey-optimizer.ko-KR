@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
+source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
-
 
 # 조각을 사용한 작업 {#fragments}
 
@@ -21,8 +21,7 @@ ht-degree: 3%
 
 이 기능을 사용하면 기술 전문가가 아닌 마케팅 사용자가 향상된 디자인 프로세스에서 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다.
 
-<!--
-➡️ [Learn how to create and use templates in this video](#video-templates)-->
+➡️ [이 비디오에서 조각을 관리, 작성 및 사용하는 방법을 알아봅니다.](#video-fragments)
 
 >[!CAUTION]
 >
@@ -266,12 +265,9 @@ ht-degree: 3%
 
 1. 해당 조각은 원래 조각에 더 이상 연결되지 않는 독립 실행형 요소가 됩니다. 콘텐츠의 다른 콘텐츠 구성 요소로 편집합니다. [자세히 알아보기](content-components.md)
 
-<!--
+## 방법 비디오 {#video-fragments}
 
-## How-to video {#video-templates}
+에서 조각을 관리, 작성 및 사용하는 방법에 대해 알아봅니다. [!DNL Journey Optimizer].
 
-Learn how to create, edit, and use fragments in [!DNL Journey Optimizer].
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
-
--->
