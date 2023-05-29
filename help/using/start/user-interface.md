@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 301b10e090859c196c22523f4ecbe578d3ccb592
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '854'
+ht-degree: 99%
 
 ---
 
@@ -128,6 +128,8 @@ ht-degree: 100%
 * 포르투갈어(브라질)
 * 일본어
 * 한국어
+* 중국어 번체
+* 중국어 간체
 
 기본 인터페이스 언어는 사용자 프로필에 지정된 기본 언어로 결정됩니다.
 
