@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
+source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 6%
+source-wordcount: '424'
+ht-degree: 7%
 
 ---
 
@@ -64,6 +64,8 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
 
 1. 다음을 만드는 경우 **[!UICONTROL 개인화된 최적화]** AI 모델, AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
 
+   ➡️ [비디오에서 이 기능 살펴보기](#video)
+
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
@@ -83,3 +85,9 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
 이제 오퍼가 표시 및/또는 클릭될 때마다 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 를 사용하는 필드 그룹 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 또는 Mobile SDK입니다.
 
 이벤트 유형(표시된 오퍼 또는 클릭한 오퍼)을 보낼 수 있으려면 Adobe Experience Platform으로 전송되는 경험 이벤트의 각 이벤트 유형에 대해 올바른 값을 설정해야 합니다. [방법 알아보기](../data-collection/schema-requirement.md)
+
+## 방법 비디오 {#video}
+
+개인화된 최적화 모델을 만드는 방법과 이 모델을 의사 결정에 적용하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
