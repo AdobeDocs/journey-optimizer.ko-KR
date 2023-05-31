@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
 source-wordcount: '2466'
-ht-degree: 79%
+ht-degree: 97%
 
 ---
 
@@ -52,13 +52,13 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>캠페인에서의 콘텐츠 실험</strong><br/></th>
+<th><strong>캠페인 내 콘텐츠 실험</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer에서 캠페인의 실험을 지원합니다. 실험은 무작위 시도이며, 온라인 테스트의 맥락에서 일부 무작위로 선택한 사용자를 메시지의 특정 변형에 노출하고 다른 무작위로 선택한 사용자 집합을 다른 변형 또는 처리에 노출함을 의미합니다. 노출 후 이메일 열기, 구독 또는 구매 등 관심 있는 결과 지표를 측정할 수 있습니다.</p>
+<p>이제 Adobe Journey Optimizer에서 캠페인 내 실험을 지원합니다. 실험은 무작위화한 시험 회기 여러 개를 모아 놓은 것입니다. 온라인 테스팅 맥락에서는 무작위로 선택한 사용자 일부를 특정한 버전의 메시지에 노출하고, 무작위로 선택한 다른 사용자들을 다른 버전의 처치에 노출하는 것을 말합니다. 노출 후에는 이메일 열람, 구독 또는 구매 등 궁금한 결과 지표를 측정할 수 있습니다.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
 <p>자세한 내용은 <a href="../campaigns/content-experiment.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -107,14 +107,13 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>캠페인의 태그 사용(베타)</strong><br/></th>
+<th><strong>여정에서 태그 사용(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 캠페인에 Adobe Experience Platform [통합 태그]를 할당할 수 있습니다. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [통합 태그] 기능은 현재 Beta 버전입니다.
-</p>
+<p>이제 캠페인에 Adobe Experience Platform [통합 태그]를 할당할 수 있습니다. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [통합 태그] 기능은 현재 Beta 버전입니다.</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>자세한 내용은 <a href="../start/search-filter-categorize.md#tags">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -127,13 +126,13 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>개인화된 최적화 AI 등급 모델(일반 가용성)</strong><br/></th>
+<th><strong>개인화된 최적화 AI 등급 모델(정식 출시)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 맞춤형 최적화 AI 등급 모델을 의사 결정 관리에서 일반적으로 사용할 수 있습니다. 이 새로운 유형의 모델을 사용하면 세그먼트와 오퍼 성과를 기반으로 오퍼를 최적화하고 개인화할 수 있습니다.</p>
+<p>이제 의사 결정 관리에서 개인화된 최적화 AI 등급 모델을 정식으로 사용할 수 있습니다. 이 새로운 유형의 모델을 사용하면 세그먼트와 오퍼 성과를 기반으로 오퍼를 최적화하고 개인화할 수 있습니다.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>자세한 내용은 <a href="../offers/ranking/personalized-optimization-model.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
@@ -149,14 +148,14 @@ ht-degree: 79%
 
 **대상자**
 
-* Audience Portal 기능이 일반적으로 사용할 수 있게 될 것을 대비하여 Adobe Experience Platform은 시스템 및 설명서 내에서 &quot;대상&quot; 및 &quot;세그먼트&quot;의 사용을 업데이트하고 있습니다.
+* 대상자 포털 기능의 정식 출시를 대비하여 Adobe Experience Platform 시스템과 설명서에서 “대상자”와 “세그먼트”라는 단어의 사용 방식을 업데이트합니다.
 
-   * 대상: 사람, 계정, 가구 또는 공통된 특성과 행동을 공유하는 기타 엔티티 세트입니다.
-   * 세그먼트 정의: Adobe Experience Platform에서 타겟 대상의 주요 특성 또는 행동을 설명하는 데 사용되는 규칙입니다. 이 용어는 이전에 &quot;세그먼트&quot;라고도 했습니다.
+   * 대상자: 사람이나 계정, 가구 또는 기타 공통된 특성과 행동을 공유하는 엔티티의 집합입니다.
+   * 세그먼트 정의: Adobe Experience Platform에서 타겟 대상자의 주요 특성 또는 행동을 설명하는 데 사용되는 규칙입니다. 전에는 이 용어를 그냥 “세그먼트”라고만 지칭했습니다.
 
-   그 결과, Adobe Journey Optimizer 및 Adobe Experience Platform UI 내에서는 이러한 새로운 대상 생성 및 관리 경로를 반영하기 위해 &quot;세그먼트&quot;가 &quot;대상&quot;으로 대체됩니다.
+   따라서 이렇게 대상자를 만들고 관리하는 새로운 경로를 반영하기 위해 Adobe Journey Optimizer와 Adobe Experience Platform UI 내 “세그먼트”라는 단어가 “대상자”로 바뀐 것을 확인하실 수 있습니다.
 
-   메시지를 받을 타겟팅된 프로필 그룹을 참조할 때 &quot;대상자&quot;라는 용어의 번역은 일부 언어의 모든 Digital Experience 제품에서 조화롭게 되었습니다.
+   일부 언어에서 “audience(대상자)”라는 단어가 메시지를 받을 타겟 프로필 그룹을 지칭하는 경우에 대한 번역을 전체 Digital Experience 제품에 대해 다음과 같이 통일했습니다.
 
    * 독일어: Zielgruppe
    * 포르투갈어(브라질): público-alvo
@@ -167,13 +166,13 @@ ht-degree: 79%
 
 **SMS 채널**
 
-* SMS 채널 표면을 구성할 때 공급업체 공급업체로 Infobip이 추가되었습니다. [자세히 보기](../sms/sms-configuration.md)
-* Twilio - API 자격 증명 설정에는 이제 Twilio 계정과의 원활한 통합을 위해 메시징 서비스 SID를 추가하는 기능이 포함됩니다. [자세히 보기](../sms/sms-configuration.md)
+* SMS 채널 표면을 구성할 때 공급업체 목록에 Infobip을 추가했습니다. [자세히 보기](../sms/sms-configuration.md)
+* Twillio - 이제 API 자격 증명 설정에 Twillio 계정과의 원활한 통합을 위해 메시징 서비스 SID를 추가하는 기능이 포함됩니다. [자세히 보기](../sms/sms-configuration.md)
 
 **인앱 채널**
 
-* Adobe 위치 서비스에 대한 새 메시지 트리거 규칙이 추가되었습니다. [자세히 보기](../in-app/inapp-configuration.md)
-* 트리거 규칙으로 추가할 장치 이벤트를 캡처하는 새로운 Adobe Experience Platform Assurance 기능이 추가되었습니다.
+* Adobe Places Service에 새 메시지 트리거 규칙을 추가했습니다. [자세히 보기](../in-app/inapp-configuration.md)
+* Adobe Experience Platform Assurance에 디바이스 이벤트를 캡처해 트리거 규칙으로 추가하는 새 기능을 추가했습니다.
 
 <!--
 **Journeys**
@@ -183,13 +182,13 @@ ht-degree: 79%
 
 **캠페인**
 
-* 이제 줄임표 작업 메뉴를 사용하여 인벤토리 화면에서 캠페인을 복제할 수 있습니다. [자세히 보기](../campaigns/modify-stop-campaign.md#duplicate)
-* 이제 라이브 캠페인에 대한 수정 초안을 삭제할 수 있습니다.
-* 이제 캠페인을 활성화하는 단계가 간소화되었습니다. [자세히 보기](../campaigns/modify-stop-campaign.md)
+* 이제 인벤토리 화면에서 줄임표 작업 메뉴를 사용하여 캠페인을 복제할 수 있습니다. [자세히 보기](../campaigns/modify-stop-campaign.md#duplicate)
+* 이제 라이브 캠페인의 수정본 초안을 삭제할 수 있습니다.
+* 캠페인을 활성화하는 단계를 간소화했습니다. [자세히 보기](../campaigns/modify-stop-campaign.md)
 
 **의사 결정 관리**
 
-* 이제 오퍼에 다음 항목이 있는 경우 빈도 상한을 편집할 수 있습니다. **[!UICONTROL 초안]** 상태 및 은(는) 빈도 조절 기능이 활성화된 전에 게시된 적이 없습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
+* 이제 오퍼가 **[!UICONTROL 초안]** 상태이고 빈도 설정을 활성화한 상태로 게시한 적이 없는 경우 빈도 설정을 편집할 수 있습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **개인화**
 
@@ -197,7 +196,7 @@ ht-degree: 79%
 
 ### 문제 해결{#may-2023-fixes}
 
-* 앱 내 메시지 - 캠페인 일정 조정이 메시지 빈도 설정과 충돌하는 문제를 해결했습니다.
+* 앱 내 메시지 - 캠페인 일정 예약이 메시지 빈도 설정과 충돌하는 문제를 해결했습니다.
 
 
 ## 2023년 4월 릴리스 정보 {#apr-rn-2023}
@@ -227,7 +226,7 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>모바일 온보딩 빠른 시작 워크플로우(베타)</strong><br/></th>
+<th><strong>모바일 온보딩 빠른 시작 워크플로우(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -244,16 +243,16 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>새 여정 대시보드(베타)</strong><br/></th>
+<th><strong>새로운 여정 대시보드(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> 이제 여정 대시보드가 두 개의 탭으로 분할됩니다.</p>
-<ul><li>사용 <strong>개요</strong> 탭으로 이동하여 여정과 관련된 주요 지표를 표시하는 새 대시보드에 액세스합니다.</li>
-<li>사용 <strong>찾아보기</strong> 모든 여정 목록에 액세스할 수 있는 탭입니다.</li></ul>
-<p>이 기능은 모든 여정에서 공개 베타로 액세스할 수 있습니다.</p>
+<p> 이제 여정 대시보드가 다음 두 탭으로 분할됩니다.</p>
+<ul><li><strong>개요</strong> 탭을 사용하면 여정과 관련된 주요 지표를 표시하는 새 대시보드에 액세스합니다.</li>
+<li><strong>찾아보기</strong> 탭을 사용하면 모든 여정 목록에 액세스합니다.</li></ul>
+<p>이 기능은 모든 여정에서 공개 Beta로 액세스할 수 있습니다.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>자세한 내용은 <a href="../building-journeys/journey-gs.md#journey-access">자세한 설명서</a>를 참조하세요.</p>
 </td>
@@ -405,7 +404,7 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer 데이터 세트를 클라우드 스토리지 대상으로 내보내기(베타)</strong><br/></th>
+<th><strong>Journey Optimizer 데이터 세트를 클라우드 스토리지 대상으로 내보내기(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>

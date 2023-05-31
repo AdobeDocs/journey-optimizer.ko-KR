@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 95%
 
 ## 2023년 5월 {#may-2023}
 
-* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2023년 5월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer] 23년 5월 릴리스의 모든 새로운 기능과 개선 사항에 대한 자세한 설명은 설명서에서 확인할 수 있습니다. [자세히 보기](release-notes.md)
 * Adobe Experience Manager Assets Essentials에서 가져온 콘텐츠를 웹 경험에 게시하는 데 사용할 하위 도메인을 설정하는 방법을 설명하는 새 페이지를 추가했습니다. [자세히 보기](../web/web-delegated-subdomains.md)
-* 개인화된 추적 매개 변수를 이메일 디자이너의 URL에 추가하는 방법을 설명하는 새 하위 섹션이 추가되었습니다. [자세히 보기](../email/message-tracking.md#url-tracking)
-* 개인화에 프로필 데이터를 사용하지 않기로 선택한 고객을 충족하는 방법을 설명하는 새 섹션이 추가되었습니다. [자세히 보기](../privacy/opt-out.md#opt-out-personalization)
-* 이메일 콘텐츠에 포함된 URL에 특수 국제 문자를 사용하는 방법에 대한 메모가 추가되었습니다. [자세히 보기](../email/message-tracking.md#insert-links)
-* 랜딩 페이지를 테스트하고 게시하는 데 필요한 권한이 추가되었습니다. [자세히 보기](../landing-pages/create-lp.md)
+* 이메일 디자이너에서 URL에 개인화된 추적 매개 변수를 추가하는 방법을 설명하는 새 하위 섹션을 추가했습니다. [자세히 보기](../email/message-tracking.md#url-tracking)
+* 자신의 프로필 데이터를 개인화에 사용하지 않도록 옵트아웃한 고객의 선택에 맞추어 작업하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../privacy/opt-out.md#opt-out-personalization)
+* 이메일 콘텐츠에 포함된 URL에 특수 국제 문자를 사용하는 방법에 대한 메모를 추가했습니다. [자세히 보기](../email/message-tracking.md#insert-links)
+* 랜딩 페이지를 테스트하고 게시하는 데 필요한 권한을 추가했습니다. [자세히 보기](../landing-pages/create-lp.md)
 * 사용자 지정 이벤트를 의사 결정 관리 빈도 제한에서 고려해야 하는 Adobe Experience Platform 엔드포인트에 대한 메모가 추가되었습니다. [자세히 보기](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023년 4월 {#apr-2023}
