@@ -9,15 +9,15 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 8b459f71852d031dc650b77725bdc693325cdb1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
 # 옵트아웃 관리 {#consent}
 
-수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하는 것은 법적 요구 사항이며 이러한 선택이 허용되도록 합니다. 적용되는 법률에 대한 자세한 내용은[Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko#regulations){target="_blank"}를 참조하세요.
+수신자에게 브랜드의 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하고, 이러한 선택을 존중하는 것은 법률에 명시된 사항입니다. 적용되는 법률에 대한 자세한 내용은[Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko#regulations){target="_blank"}를 참조하세요.
 
 **중요한 이유**
 
@@ -57,35 +57,35 @@ ht-degree: 43%
 
 ## 개인화 동의 구현 {#opt-out-personalization}
 
-고객은 개인화된 콘텐츠를 표시하지 않도록 선택할 수도 있습니다. 프로필이 개인화를 옵트아웃한 경우 해당 데이터가 개인화에 사용되지 않도록 해야 하며 개인화된 모든 콘텐츠를 대체 변형으로 교체해야 합니다.
+고객은 개인화된 콘텐츠를 표시하지 않도록 옵트아웃할 수도 있습니다. 개인화를 옵트아웃한 경우 해당 데이터가 개인화에 사용되지 않도록 해야 하며, 모든 개인화 콘텐츠 대신 대체 콘텐츠를 사용해야 합니다.
 
-### 의사 결정 관리
+### 의사 결정 관리의 경우
 
-오퍼를 활용하는 경우 개인화 환경 설정은에서 자동으로 구현되지 않습니다. [결정 범위](../offers/offer-activities/create-offer-activities.md#add-decision-scopes) 다음에서 사용됨: [의사 결정](../offers/api-reference/offer-delivery-api/decisioning-api.md) API 요청 또는 [edge decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API 요청. 이 경우 개인화 동의를 수동으로 적용해야 합니다. 이렇게 하려면 아래 단계를 수행합니다.
-
->[!NOTE]
->
->에 사용되는 결정 범위 [!DNL Journey Optimizer] 작성된 채널은 속한 여정 또는 캠페인에서 이 요구 사항을 충족합니다.
-
-
-
-1. 만들기 [Adobe Experience Platform 세그먼트](../segment/about-segments.md) 프로필 속성 사용: *&quot;개인화에 대한 동의 = True&quot;* 개인화에 동의한 사용자를 타겟팅할 수 있습니다.
-
-1. 를 만들 때 [결정](../offers/offer-activities/create-offer-activities.md), 의사 결정 범위를 추가하고 개인화된 오퍼를 포함하는 각 평가 기준 컬렉션에 대해 이 세그먼트를 기반으로 자격 제한 사항을 정의합니다.
-
-1. 만들기 [대체 오퍼](../offers/offer-library/creating-fallback-offers.md) 여기에는 개인화된 콘텐츠가 포함되지 않습니다.
-
-1. [할당](../offers/offer-activities/create-offer-activities.md#add-fallback) 결정에 대한 개인화되지 않은 대체 오퍼입니다.
-
-1. [검토 및 저장](../offers/offer-activities/create-offer-activities.md#review) 결정.
-
-사용자에게 다음이 있는 경우:
-
-* 개인화에 동의하면 결정 범위가 해당 프로필에 대한 최상의 오퍼를 결정합니다.
-
-* 개인화에 동의하지 않으면 해당 프로필은 평가 기준에 있는 오퍼에 적격하지 않으므로 개인화되지 않은 대체 오퍼를 수신하게 됩니다.
+오퍼를 활용하는 경우 개인화 동의 여부는 [decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) API 요청이나 [edge decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API 요청에서 사용하는 [결정 범위](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)에 자동으로 적용되지 않습니다. 이 경우 개인화 동의를 수동으로 강제해야 합니다. 그 방법은 다음과 같습니다.
 
 >[!NOTE]
 >
->에서 프로필 데이터를 사용하는 데 대한 동의 [데이터 모델링](../offers/ranking/ai-models.md) 은(는)에서 아직 지원되지 않습니다. [!DNL Journey Optimizer].
+>[!DNL Journey Optimizer]에서 작성한 채널에서 사용하는 결정 범위는 소속된 여정이나 캠페인의 이 요건을 충족합니다.
+
+
+
+1. 프로필 속성을 사용하여 [Adobe Experience Platform 세그먼트](../segment/about-segments.md)를 만듭니다. 예를 들어 개인화에 동의한 사용자를 타겟팅하려면 *“Consents to Personalization = True”* 속성을 사용합니다.
+
+1. [결정](../offers/offer-activities/create-offer-activities.md)을 만들 때 결정 범위를 추가하고 이 세그먼트를 기반으로 개인화된 오퍼가 있는 각 평가 기준 컬렉션마다 적격성 제한을 정의합니다.
+
+1. 개인화 콘텐츠가 없는 [대체 제안](../offers/offer-library/creating-fallback-offers.md)을 만듭니다.
+
+1. 개인화하지 않은 대체 제안을 결정에 [할당](../offers/offer-activities/create-offer-activities.md#add-fallback)합니다.
+
+1. 결정을 [검토하고 저장](../offers/offer-activities/create-offer-activities.md#review)합니다.
+
+만약 사용자가
+
+* 개인화에 동의한 경우, 결정 범위가 해당 프로필에 대한 최상의 오퍼를 결정합니다.
+
+* 개인화에 동의하지 않은 경우, 해당 프로필은 평가 기준에 있는 오퍼에 적격하지 않으므로 개인화하지 않은 대체 오퍼를 수신하게 됩니다.
+
+>[!NOTE]
+>
+>프로필 데이터를 [데이터 모델링](../offers/ranking/ai-models.md)에 사용하는 데 대한 동의는 아직 [!DNL Journey Optimizer]에서 지원되지 않습니다.
 
