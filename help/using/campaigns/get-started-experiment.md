@@ -10,7 +10,7 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1961'
 ht-degree: 100%
 
