@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '457'
 ht-degree: 6%
 
 ---
@@ -125,6 +125,9 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
+아래 비디오에서는 A/B 테스트 인앱 메시지에 대한 콘텐츠 실험을 구성하고 분석하는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419898)
 
 **관련 항목:**
 

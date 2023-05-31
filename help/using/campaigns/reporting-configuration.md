@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 구성, 실험, 보고, 최적화 도구
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 28%
+source-wordcount: '564'
+ht-degree: 36%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 28%
 >title="데이터 세트 선택"
 >abstract="지원되는 필드 그룹(애플리케이션 세부 사항, 상거래 세부 사항, 웹 세부 사항) 중 하나 이상이 포함되어야 하는 이벤트 유형 데이터 세트만 선택할 수 있습니다."
 
-<!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
+데이터 소스 구성을 보고하면 보고서에서 사용할 추가 정보 검색을 위해 시스템에 대한 연결을 정의할 수 있습니다.
 
-보고 데이터 소스 구성을 사용하면 다음에서 사용할 추가 지표를 검색할 수 있습니다. **[!UICONTROL 목표]** 캠페인 보고서 탭. [자세히 알아보기](content-experiment.md#objectives-global)
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 28%
 
    마찬가지로, 모바일 상호 작용에 대해 보고하려면 를 사용하여 경험 이벤트 데이터 세트를 만들어야 합니다. **애플리케이션 세부 정보** 필드 그룹입니다.
 
-   각 필드 그룹에 해당하는 지표가 나열됩니다 [여기](#objective-list).
+   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * 이러한 필드 그룹을 하나 또는 여러 데이터 세트에서 사용할 하나 또는 여러 스키마에 추가할 수 있습니다.
 
@@ -67,15 +67,17 @@ ht-degree: 28%
 >
 >에서 XDM 스키마 및 필드 그룹에 대한 자세한 내용을 알아봅니다. [XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}.
 
-## 각 필드 그룹에 해당하는 목표 {#objective-list}
+<!--
+## Objectives corresponding to each field group {#objective-list}
 
-아래 표는 에 추가될 지표를 보여 줍니다. **[!UICONTROL 목표]** 각 필드 그룹에 대한 캠페인 보고서 탭.
+The table below shows which metrics will be added to the **[!UICONTROL Objectives]** tab of your campaign reports for each field group.
 
-| 필드 그룹 | 목표 |
+| Field group | Objectives |
 |--- |--- |
-| 상거래 세부 정보 | 가격 합계<br>결제 금액<br>(고유) 체크아웃<br>(고유) 제품 목록 추가 횟수<br>(고유) 제품 목록 열람수<br>(고유) 제품 목록 제거<br>(고유) 제품 목록 보기<br>(고유) 제품 조회수<br>(고유) 구매<br>(고유) 나중에 저장<br>제품 가격 합계<br>제품 수량 |
-| 애플리케이션 세부 정보 | (고유) 앱 실행<br>첫 번째 앱 실행<br>(고유) 앱 설치<br>(고유) 앱 업그레이드 |
-| 웹 세부 정보 | (고유) 페이지 조회수 |
+| Commerce Details | Price Total<br>Payment Amount<br>(Unique) Checkouts<br>(Unique) Product List Adds<br>(Unique) Product List Opens<br>(Unique) Product List Removal<br>(Unique) Product List Views<br>(Unique) Product Views<br>(Unique) Purchases<br>(Unique) Save For Laters<br>Product Price Total<br>Product Quantity |
+| Application Details | (Unique) App Launches<br>First App Launches<br>(Unique) App Installs<br>(Unique) App Upgrades |
+| Web Details | (Unique) Page Views |
+-->
 
 ## 데이터 세트 추가 {#add-datasets}
 
@@ -123,15 +125,16 @@ ht-degree: 28%
    >
    >이벤트 유형이 아닌 데이터 세트를 선택한 경우 진행할 수 없습니다.
 
-이제 캠페인 보고서를 작성할 때 추가한 데이터 세트에 사용된 필드 그룹에 해당하는 지표를 볼 수 있습니다. 로 이동 **[!UICONTROL 목표]** 을 탭하고 선택한 지표를 선택하여 보고서를 보다 세밀하게 조정합니다. [자세히 보기](content-experiment.md#objectives-global)
+<!--
+When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
->데이터 세트를 여러 개 추가하면 모든 데이터 세트의 모든 데이터를 보고에 사용할 수 있습니다.
+>If you add several datasets, all data from all datasets will be available for reporting.
 
-<!--
+
 ## How-to video {#video}
 
 Understand how to configure Experience Platform reporting data sources.
