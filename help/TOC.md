@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -472,7 +472,7 @@ ht-degree: 98%
 + 액세스 제어 {#access-control}
    + 액세스 제어 개요 {#privacy}
       + [사용자 관리 시작](using/administration/permissions-overview.md)
-      + [기본 제공 역할](using/administration/ootb-product-profiles.md)
+      + [기본 역할](using/administration/ootb-product-profiles.md)
       + [기본 권한](using/administration/ootb-permissions.md)
       + [권한 수준](using/administration/high-low-permissions.md)
    + [사용자 및 역할 관리](using/administration/permissions.md)
