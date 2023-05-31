@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 데이터, 거버넌스, DULE, 레이블, 레이블 지정, 플랫폼, 정책
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Journey Optimizer에서 이러한 정책을 사용자 지정 작업에 적용하
 데이터 거버넌스 프레임워크, 그리고 레이블 및 정책으로 작동하는 방법에 대한 자세한 내용은 Adobe Experience Platform 설명서를 참조하십시오.
 
 * [데이터 거버넌스 서비스 개요](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko)
-* [데이터 사용 레이블 개요](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
+* [데이터 사용 레이블 개요](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko)
 * [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko)
 
 ## 중요 정보 {#important-notes}
@@ -48,7 +48,7 @@ Journey Optimizer에서 이러한 정책을 사용자 지정 작업에 적용하
 * 여정에 사용되는 각 서드파티 사용자 지정 작업에 대한 마케팅 작업을 정의합니다.
 * 거버넌스 정책을 만들고 레이블 및 마케팅 작업에 연결합니다.
 
-정책을 관리하는 방법에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy)를 참조하십시오
+정책을 관리하는 방법에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#consent-policy)를 참조하십시오
 
 민감한 데이터로 레이블을 지정하고 서드파티에 유출되지 않도록 제한해야 하는 혈액형 필드의 예를 살펴보겠습니다. 다른 단계는 다음과 같습니다.
 
