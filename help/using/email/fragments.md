@@ -11,7 +11,7 @@ exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
 source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
 source-wordcount: '1453'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
 >title="나만의 조각 정의"
->abstract="독립 실행형 조각을 처음부터 만들어 여러 여정 및 캠페인에서 콘텐츠를 재사용할 수 있도록 합니다."
+>abstract="여러 여정과 캠페인 전반에서 콘텐츠를 재사용할 수 있도록 처음부터 독립 실행형 조각을 만듭니다."
 
 조각을 처음부터 만들려면 아래 단계를 수행합니다.
 

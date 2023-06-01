@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -248,7 +248,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="상한 빈도 설정"
->abstract="오퍼 한도 카운터를 매일, 매주 또는 매월 재설정하도록 선택할 수 있습니다. 빈도 제한이 활성화된 오퍼를 게시한 후에는 정의된 빈도를 변경할 수 없습니다."
+>abstract="오퍼 한도 카운터를 매일, 매주 또는 매월 재설정하도록 선택할 수 있습니다. 빈도 설정이 활성화된 오퍼를 게시한 후에는 이미 정의된 빈도를 변경할 수 없다는 점을 참고하십시오."
 
 다음 **[!UICONTROL 빈도]** 섹션에서는 캡핑 횟수가 재설정되는 빈도를 정의할 수 있습니다. 이렇게 하려면 계산 기간(일별, 주별 또는 월별)을 정의하고 선택한 일/주/개월을 입력합니다.
 
