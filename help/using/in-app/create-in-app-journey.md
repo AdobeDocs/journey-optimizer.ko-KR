@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 9994bc6076f55128f5aa2c316433986eeff714b3
+source-git-commit: 8b966ddc9f96485e27cc7e9aa360d6d2ead84153
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '552'
 ht-degree: 4%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 4%
 
 1. 인앱 메시지가 활성 상태일 때 트리거 빈도를 선택합니다.
 
-   * **[!UICONTROL 모든 시간 표시]**: 다음에서 이벤트가 선택될 때 항상 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
-   * **[!UICONTROL 한 번 표시]**: 다음에서 이벤트를 처음 선택할 때만 이 메시지 표시 **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
-   * **[!UICONTROL 클릭스루까지 표시]**: 다음에서 이벤트를 선택하면 이 메시지 표시: **[!UICONTROL 모바일 앱 트리거]** 드롭다운은 SDK에서 &quot;클릭됨&quot; 동작을 사용하여 상호 작용 이벤트를 전송할 때까지 발생합니다.
+   * **[!UICONTROL 항상]**: 다음에서 이벤트가 선택될 때 항상 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
+   * **[!UICONTROL 한 번]**: 다음에서 이벤트를 처음 선택할 때만 이 메시지 표시 **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
+   * **[!UICONTROL 클릭스루할 때까지]**: 다음에서 이벤트를 선택하면 이 메시지 표시: **[!UICONTROL 모바일 앱 트리거]** 드롭다운은 SDK에서 &quot;클릭됨&quot; 동작을 사용하여 상호 작용 이벤트를 전송할 때까지 발생합니다.
    * **[!UICONTROL X 회]**: 메시지에 설정된 값에 따라 결정되는 특정 횟수만 표시합니다. **[!UICONTROL 표시할 시간]** 필드.
 
 1. 인앱 메시지를 트리거할 요일 및 특정 시간을 선택하고 을(를) 클릭합니다 **[!UICONTROL 저장]**.
