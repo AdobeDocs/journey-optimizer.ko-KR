@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
+source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '531'
 ht-degree: 4%
 
 ---
@@ -52,6 +52,8 @@ ht-degree: 4%
    * **[!UICONTROL 한 번 표시]**: 다음에서 이벤트를 처음 선택할 때만 이 메시지 표시 **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
    * **[!UICONTROL 클릭스루까지 표시]**: 다음에서 이벤트를 선택하면 이 메시지 표시: **[!UICONTROL 모바일 앱 트리거]** 드롭다운은 SDK에서 &quot;클릭됨&quot; 동작을 사용하여 상호 작용 이벤트를 전송할 때까지 발생합니다.
 
+1. 인앱 메시지를 트리거할 요일 및 특정 시간을 선택하고 을(를) 클릭합니다 **[!UICONTROL 저장]**.
+
 1. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
 
 1. 인앱 메시지가 준비되면 구성을 완료하고 여정을 게시하여 활성화합니다.
@@ -70,7 +72,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 반응]** 인앱 열기 또는 클릭에 반응하는 데 활동을 사용할 수 없습니다.
 
-* 활성화 지연은 사용자 프로필이 캔버스의 인앱 활동에 도달하는 순간과 해당 인앱 메시지가 표시되는 시간 사이에 발생합니다. 이러한 지연은 15분에서 1시간 사이일 수 있습니다.
+* 활성화 지연은 사용자 프로필이 캔버스의 인앱 활동에 도달하는 순간과 해당 인앱 메시지가 표시되는 시간 사이에 발생할 수 있습니다.
 
 **관련 항목:**
 
