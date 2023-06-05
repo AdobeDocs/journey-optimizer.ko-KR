@@ -5,9 +5,9 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2876'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 * 자신의 프로필 데이터를 개인화에 사용하지 않도록 옵트아웃한 고객의 선택에 맞추어 작업하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../privacy/opt-out.md#opt-out-personalization)
 * 이메일 콘텐츠에 포함된 URL에 특수 국제 문자를 사용하는 방법에 대한 메모를 추가했습니다. [자세히 보기](../email/message-tracking.md#insert-links)
 * 랜딩 페이지를 테스트하고 게시하는 데 필요한 권한을 추가했습니다. [자세히 보기](../landing-pages/create-lp.md)
-* 사용자 지정 이벤트를 의사 결정 관리 빈도 제한에서 고려해야 하는 Adobe Experience Platform 엔드포인트에 대한 메모가 추가되었습니다. [자세히 보기](../offers/data-collection/schema-requirement.md#track-custom-events)
+* 의사 결정 관리 빈도 설정에서 사용자 정의 이벤트를 고려하려면 필요한 Adobe Experience Platform 엔드포인트에 대한 메모를 추가했습니다. [자세히 보기](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023년 4월 {#apr-2023}
 
