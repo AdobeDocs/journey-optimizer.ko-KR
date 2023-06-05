@@ -5,9 +5,9 @@ title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2466'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -89,13 +89,13 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>이메일 콘텐츠에서 조각 만들기 및 사용</strong><br/></th>
+<th><strong>조각을 만들고 이메일 콘텐츠에서 사용</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 조각을 작성, 사용 및 관리하여 이메일 및 콘텐츠 템플릿을 신속하게 취합할 수 있습니다. 조각은 사전 빌드된 재사용 가능한 구성 요소로서, Journey Optimizer 캠페인 및 여정의 여러 이메일에서 개선되고 가속화된 디자인 프로세스를 위해 참조할 수 있습니다.</p>
+<p>이제 조각을 작성, 사용, 관리하여 이메일과 콘텐츠 템플릿을 신속하게 취합할 수 있습니다. 조각은 기존에 작성했으며 재사용이 가능한 구성 요소로, Journey Optimizer 캠페인과 여정의 여러 이메일에 참조하여 디자인 프로세스를 개선하고 속도를 높일 수 있습니다.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
 <p>자세한 내용은 <a href="../email/fragments.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
