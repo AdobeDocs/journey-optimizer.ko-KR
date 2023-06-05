@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6f7365b1ddeb3ed3e253669d21702b02f0ec7275
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 82%
 
 * **[!UICONTROL 오퍼]** - 이 메뉴에서 최근 소스 및 데이터 세트에 액세스합니다. 이 섹션을 사용하여 오퍼를 만듭니다. [자세히 알아보기](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL 구성 요소]** - 배치, 규칙 및 태그를 만듭니다. [자세히 보기](../offers/offer-library/key-steps.md)
+* **[!UICONTROL 구성 요소]** - 배치, 규칙, 태그를 만듭니다. [자세히 보기](../offers/offer-library/key-steps.md)
 
 **[!UICONTROL 콘텐츠 관리]**
 
@@ -71,11 +71,11 @@ ht-degree: 82%
 
 **[!UICONTROL 연결]**
 
-* **[!UICONTROL 소스]** - 이 메뉴를 사용하여 Adobe 애플리케이션, 클라우드 기반의 저장소, 데이터베이스 등 다양한 소스의 데이터를 수집할 수 있습니다. 들어오는 데이터를 구조화하고 레이블을 지정하고 향상시킬 수 있습니다. [자세히 보기](get-started-sources.md)
+* **[!UICONTROL 소스]** - 이 메뉴를 사용하여 Adobe 애플리케이션, 클라우드 기반의 저장소, 데이터베이스 등 다양한 소스의 데이터를 수집합니다. 들어오는 데이터를 구조화, 라벨링하고 개선할 수 있습니다. [자세히 보기](get-started-sources.md)
 
 **[!UICONTROL 고객]**
 
-* **[!UICONTROL 세그먼트]** - Experience Platform 세그먼트 정의를 만들고 관리하며 여정에 사용합니다. [자세히 보기](../segment/about-segments.md)
+* **[!UICONTROL 세그먼트]** - Experience Platform 세그먼트 정의를 만들고 관리하며 여정에 사용할 수 있습니다. [자세히 보기](../segment/about-segments.md)
 
 * **[!UICONTROL 프로필]** - 실시간 고객 프로필은 온라인, 오프라인, CRM 및 타사 데이터를 비롯한 다양한 채널의 데이터를 취합하여 각 개별 고객을 전체적으로 파악할 수 있도록 합니다. [자세히 보기](../segment/get-started-profiles.md)
 
@@ -83,7 +83,7 @@ ht-degree: 82%
 
 **[!UICONTROL 관리]**
 
-* **[!UICONTROL 여정 관리]** - 이 메뉴를 사용하여 구성 [events](../event/about-events.md), [데이터 소스](../datasource/about-data-sources.md), 및 [작업](../action/action.md) 여정에서 를 사용하십시오.
+* **[!UICONTROL 여정 관리]** - 이 메뉴를 사용하여 여정에서 사용할 [이벤트](../event/about-events.md), [데이터 소스](../datasource/about-data-sources.md), [작업](../action/action.md)을 구성합니다.
 
 * **[!UICONTROL 샌드박스]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. [자세히 보기](../administration/sandboxes.md)
 
@@ -91,7 +91,7 @@ ht-degree: 82%
 
 ## 제품 내 사용 사례 {#in-product-uc}
 
-출처: [!DNL Adobe Journey Optimizer] 홈 페이지, 제품 사용 사례에서는 고객 여정을 만들기 위한 빠른 입력을 제공합니다.
+[!DNL Adobe Journey Optimizer] 홈 페이지의 제품 사용 사례를 통해 고객 여정을 만들 때 필요한 워크플로우를 빠르게 가져올 수 있습니다.
 
 ![](assets/use-cases-home.png)
 
@@ -104,7 +104,7 @@ ht-degree: 82%
 
 각 사용 사례에 대해 자세히 알아보려면 **[!UICONTROL 세부 정보 보기]** 링크를 클릭합니다.
 
-사용 사례를 실행하려면 **[!UICONTROL 시작]** 단추를 클릭합니다.
+사용 사례를 실행하려면 **[!UICONTROL 시작]** 버튼을 클릭합니다.
 
 **[!UICONTROL 사용 사례 라이브러리 보기]** 버튼에서 실행된 사용 사례에 액세스할 수 있습니다.
 
@@ -112,17 +112,17 @@ ht-degree: 82%
 
 홈페이지의 하위 섹션에서 Adobe Journey Optimizer 주요 도움말 페이지에 액세스합니다.
 
-사용 **도움말** 아이콘을 클릭하여 도움말 페이지에 액세스하고, 지원 팀에 문의하고 피드백을 공유할 수 있습니다. 검색 필드에서 도움말 문서와 비디오를 검색할 수 있습니다.
+**도움말** 아이콘을 사용하여 도움말 페이지에 액세스하고, 지원 팀에 문의하고 피드백을 공유할 수 있습니다. 검색 필드에서 도움말 문서와 비디오를 검색할 수 있습니다.
 
 ![](assets/ajo-help.png)
 
-각 페이지에서 상황별 도움말 버튼을 사용하여 기능에 대해 자세히 알아보고 **[!DNL Adobe Experience League]** 설명서를 참조하십시오.
+각 페이지에서 상황별 도움말 버튼을 사용하여 기능에 대해 자세히 알아보고 **[!DNL Adobe Experience League]** 설명서를 검색할 수 있습니다.
 
 ![](assets/do-not-localize/Context-help.gif)
 
 ## 언어 환경 설정 {#language-pref}
 
-사용자 인터페이스는 다음 언어로 제공됩니다.
+사용자 인터페이스 제공 언어:
 
 * 영어
 * 프랑스어
