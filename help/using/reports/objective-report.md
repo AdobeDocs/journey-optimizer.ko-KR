@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6b8983d3f3fa989bd7190fc6a8b51fa8989b2293
+exl-id: b0ba68ec-0e1c-4dbe-86d8-3f3653bb7b5c
+source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 3%
@@ -82,4 +83,3 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 +++
 
 이러한 결과에 대한 자세한 내용과 해석 방법은 다음을 참조하십시오. [이 페이지](../campaigns/get-started-experiment.md#interpret-results).
-

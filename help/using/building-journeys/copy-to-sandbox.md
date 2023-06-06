@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 다른 샌드박스에 여정 복사
-description: 여정을 다른 샌드박스로 복사하는 방법 알아보기
+description: 여정을 다른 샌드박스에 복사하는 방법 알아보기
 feature: Journeys
 topic: Content Management
 role: User, Developer

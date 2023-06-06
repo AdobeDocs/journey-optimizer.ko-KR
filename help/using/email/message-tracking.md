@@ -12,7 +12,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 34%
 
    ![](assets/link_1.png)
 
-1. 링크의 색상을 변경하려면 를 클릭합니다. **[!UICONTROL 링크 색상]** 다음에서 **[!UICONTROL 스타일]** 탭.
+1. 링크 색상을 변경하려면 **[!UICONTROL 스타일]** 탭에서 **[!UICONTROL 링크 색상]**&#x200B;을 클릭합니다.
 
    ![](assets/link_3.png)
 

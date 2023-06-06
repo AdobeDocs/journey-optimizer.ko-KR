@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 54%
+ht-degree: 57%
 
 ---
 
@@ -129,7 +129,7 @@ ht-degree: 54%
    * **[!UICONTROL 복제]**: 텍스트 구성 요소의 복사본을 추가합니다.
    * **[!UICONTROL 삭제]**: 이메일에서 선택한 텍스트 구성 요소를 삭제합니다.
 
-1. [구성 요소 설정] 창에서 텍스트 색상, 글꼴 패밀리, 테두리, 패딩, 여백 등과 같은 다음에서 **[!UICONTROL 스타일]** 탭.
+1. 다음에서 텍스트 색상, 글꼴 패밀리, 테두리, 패딩, 여백 등 다른 스타일 속성을 조정합니다. 다음에서 **[!UICONTROL 스타일]** 탭.
 
    ![](assets/email_designer_text_component_2.png)
 
@@ -137,7 +137,7 @@ ht-degree: 54%
 
 **[!UICONTROL 구분선]** 구성 요소를 사용하여 이메일의 레이아웃과 콘텐츠를 구성하기 위한 구분선을 삽입할 수 있습니다.
 
-에서 선 색상, 스타일 및 높이와 같은 스타일 속성을 조정할 수 있습니다. **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭.
+**[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭에서 선 색상, 스타일 및 높이 등 스타일 속성을 조정할 수 있습니다.
 
 ![](assets/email_designer_divider.png)
 
@@ -190,7 +190,7 @@ ht-degree: 54%
 
 1. 새로 추가한 구성 요소를 선택합니다.
 
-1. 다음에서 **[!UICONTROL 소셜]** 필드 **[!UICONTROL 설정]** 탭에서 추가하거나 제거할 소셜 미디어를 선택합니다.
+1. **[!UICONTROL 설정]** 탭의 **[!UICONTROL 소셜]** 필드에서 추가 또는 제거할 소셜 미디어를 선택합니다.
 
    ![](assets/email_designer_20.png)
 
@@ -202,7 +202,7 @@ ht-degree: 54%
 
 1. 필요한 경우 에셋에서 각 소셜 미디어의 아이콘을 변경할 수도 있습니다.
 
-1. [구성 요소 설정] 창에서 스타일, 여백, 테두리 등과 같은 다음에서 **[!UICONTROL 스타일]** 탭.
+1. 다음에서 스타일, 여백, 테두리 등 다른 스타일 속성을 조정합니다. 다음에서 **[!UICONTROL 스타일]** 탭.
 
 ## 오퍼 결정 {#offer-decision}
 

@@ -6,19 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
+source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '861'
 ht-degree: 6%
 
 ---
 
 # 시뮬레이션 만들기 {#create-simulations}
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_simulation"
->title="오퍼 결정 시뮬레이션"
->abstract="시뮬레이션을 사용하면 지정된 배치에 대해 테스트 프로필에 게재할 오퍼를 시뮬레이션할 수 있습니다. 이렇게 하면 타겟팅된 수신자에게 영향을 주지 않고 오퍼의 다양한 버전을 테스트하고 개선할 수 있습니다."
 
 ## 시뮬레이션 기본 정보 {#about-simulation}
 

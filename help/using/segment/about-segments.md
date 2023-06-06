@@ -26,7 +26,7 @@ ht-degree: 8%
 
 또한 세그먼테이션 서비스 자체에서 세그먼트를 만들 수도 있습니다. 다음에서 자세히 알아보기 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## 에서 세그먼트 사용 [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## [!DNL Journey Optimizer]에서  세그먼트 사용하기 {#segments-in-journey-optimizer}
 
 에서 세그먼트를 활용할 수 있습니다. **[!DNL Journey Optimizer]** 다른 방법으로:
 

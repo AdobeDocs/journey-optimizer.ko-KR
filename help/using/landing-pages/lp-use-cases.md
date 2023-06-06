@@ -12,7 +12,7 @@ exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 14%
 
 ### 확인 이메일 보내기 {#send-confirmation-email}
 
-또한 이벤트를 등록한 수신자에게 확인 이메일을 보낼 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
+또한 이벤트를 등록한 수신자에게 확인 이메일을 보낼 수 있습니다. 그 방법은 다음과 같습니다.
 
 1. 다른 항목 만들기 [여정](../building-journeys/journey.md). 을(를) 클릭하여 랜딩 페이지에서 직접 수행할 수 있습니다. **[!UICONTROL 여정 만들기]** 단추를 클릭합니다. [자세히 알아보기](create-lp.md#configure-primary-page)
 

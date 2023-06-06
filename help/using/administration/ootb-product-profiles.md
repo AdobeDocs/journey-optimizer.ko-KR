@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ---
 
-# 기본 제공 역할 {#ootb-product-profiles}
+# 기본 역할 {#ootb-product-profiles}
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
