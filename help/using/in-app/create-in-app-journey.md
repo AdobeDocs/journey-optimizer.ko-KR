@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8b966ddc9f96485e27cc7e9aa360d6d2ead84153
+source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 4%
+source-wordcount: '735'
+ht-degree: 3%
 
 ---
 
@@ -74,6 +74,35 @@ ht-degree: 4%
 * **[!UICONTROL 반응]** 인앱 열기 또는 클릭에 반응하는 데 활동을 사용할 수 없습니다.
 
 * 활성화 지연은 사용자 프로필이 캔버스의 인앱 활동에 도달하는 순간과 해당 인앱 메시지가 표시되는 시간 사이에 발생할 수 있습니다.
+
+## 인앱 보고서  {#inapp-report}
+
+여정에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 인앱]** 탭에서는 여정에 전송된 인앱 게재와 관련된 기본 정보를 자세히 설명합니다.
+
+자세히 알아보기 [여정 글로벌 보고서](../reports/journey-global-report.md).
+
+![](assets/in-app-journey-report.png)
+
++++인앱 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
+
+다음 **[!UICONTROL 인앱 성능]** KPI는 다음과 같이 방문자의 인앱 메시지 참여와 관련된 주요 정보를 자세히 설명합니다.
+
+* **[!UICONTROL 고유 노출 횟수]**: 인앱 메시지가 전달된 고유 사용자 수.
+
+* **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 인앱 메시지 수입니다.
+
+* **[!UICONTROL 클릭률]**: 인앱 메시지에 포함된 버튼과 상호 작용한 사용자와 메시지를 본 사용자의 비율.
+
+* **[!UICONTROL 취소율]**: 수신자가 무시한 인앱 메시지 비율입니다.
+
+다음 **[!UICONTROL 인앱 요약]** 그래프는 관련 기간 동안 인앱 노출 횟수의 발전을 보여 줍니다.
+
+다음 **[!UICONTROL 버튼을 통한 클릭 수]** 그래프 및 표에는 버튼당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
+
+* **[!UICONTROL 클릭수]**: 인앱 메시지에 포함된 버튼과 상호 작용한 총 수신자 수입니다.
+
+* **[!UICONTROL 클릭률]**: 인앱 메시지에 포함된 버튼과 상호 작용한 사용자와 메시지를 본 사용자의 비율.
++++
 
 **관련 항목:**
 
