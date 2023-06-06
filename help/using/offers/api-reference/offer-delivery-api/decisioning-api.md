@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: a2f4a7f7b08cce3980eab71fea0b2704975087ca
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 3%
@@ -191,7 +191,7 @@ curl -X POST \
 | `xdm:propositions.xdm:content` | 응답 콘텐츠의 형식입니다. | 응답 콘텐츠는 다음과 같을 수 있습니다. `text`, `html block`, 또는 `image link` |
 | `xdm:score` | 옵션 또는 결정과 연관된 순위 함수의 결과로 계산되는 옵션에 대한 점수입니다. 순위 지정 중에 오퍼의 점수를 결정하는 데 순위 지정 기능이 관련된 경우 API에서 이 필드를 반환합니다. | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | 이 개체에는 고유 식별자를 포함한 단일 대체 오퍼가 포함되어 있습니다. | `"xdm:id": "xcore:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | 리소스의 물리적 또는 디지털 표현입니다. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 포맷은 리소스를 표시하거나 운영하기 위해 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정하는 데 사용될 수 있다. 제어 어휘(예: 목록)에서 값을 선택하는 것이 좋습니다. [인터넷 미디어 유형](http://www.iana.org/assignments/media-types/) 컴퓨터 미디어 형식을 정의합니다. | `"dc:format": "image/png"` 또는 `"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | 리소스의 물리적 또는 디지털 표현입니다. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 포맷은 리소스를 표시하거나 운영하기 위해 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정하는 데 사용될 수 있다. 제어 어휘(예: 목록)에서 값을 선택하는 것이 좋습니다. [인터넷 미디어 유형](https://www.iana.org/assignments/media-types/) 컴퓨터 미디어 형식을 정의합니다. | `"dc:format": "image/png"` 또는 `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | 컨텐츠 전달 네트워크 또는 서비스 끝점에서 자산을 읽는 선택적 URL입니다. 이 URL은 사용자 에이전트에서 공개적으로 자산에 액세스하는 데 사용됩니다. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 의사 결정 응답 메시지를 만든 시간입니다. 이는 획기적인 시간으로 표현됩니다. | `"ode:createDate": 1566497582038` |
 

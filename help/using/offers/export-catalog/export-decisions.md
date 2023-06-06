@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 3%
@@ -260,7 +260,7 @@ ht-degree: 3%
 
 **필드:** endTime
 **제목:** 활동 종료 날짜 및 시간
-**설명:** 의사 결정(이전의 활동) 종료 날짜 및 종료 시간입니다. 속성은 http://schema.org/Action에 정의된 schema.org의 &#39;endTime&#39; 속성의 의미 체계를 갖습니다.
+**설명:** 의사 결정(이전의 활동) 종료 날짜 및 종료 시간입니다. 속성은 https://schema.org/Action에 정의된 schema.org의 &#39;endTime&#39; 속성의 의미 체계를 갖습니다.
 **유형:** 문자열
 
 +++
@@ -287,7 +287,7 @@ ht-degree: 3%
 
 **필드:** startTime
 **제목:** 활동 시작 날짜 및 시간
-**설명:** 의사 결정(이전의 활동) 시작 날짜 및 종료 시간입니다. 속성은 http://schema.org/Action에 정의된 schema.org의 &#39;startTime&#39; 속성의 의미 체계를 갖습니다.
+**설명:** 의사 결정(이전의 활동) 시작 날짜 및 종료 시간입니다. 속성은 https://schema.org/Action에 정의된 schema.org의 &#39;startTime&#39; 속성의 의미 체계를 갖습니다.
 **유형:** 문자열
 
 +++

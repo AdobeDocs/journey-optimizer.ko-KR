@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 21aeac323a43ac95d98f4798ff3d51ad32f2ebf9
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 11%
+source-wordcount: '281'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 인앱 메시지를 보내기 전에에서 인앱 채널을 구성해야 합니다 [!DNL Adobe Experience Platform Data Collection].
 
-1. 출처: [!DNL Adobe Experience Platform Data Collection] 계정, 액세스 **[!UICONTROL 데이터스트림]** 메뉴 및 클릭 **[!UICONTROL 새 데이터스트림]**. 데이터 스트림 만들기에 대한 자세한 내용은 [이 페이지](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+1. 출처: [!DNL Adobe Experience Platform Data Collection] 계정, 액세스 **[!UICONTROL 데이터스트림]** 메뉴 및 클릭 **[!UICONTROL 새 데이터스트림]**. 데이터 스트림 만들기에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR).
 
 1. 다음 항목 선택 [!DNL Adobe Experience Platform] 서비스.
 

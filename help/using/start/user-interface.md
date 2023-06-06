@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6f7365b1ddeb3ed3e253669d21702b02f0ec7275
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # 사용자 인터페이스 {#cjm-user-interface}
 
-[Adobe Experience Cloud](http://experience.adobe.com)에 연결하여 [!DNL Journey Optimizer]를 찾습니다.
+[Adobe Experience Cloud](https://experience.adobe.com)에 연결하여 [!DNL Journey Optimizer]를 찾습니다.
 
 사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 공통됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ko#adobe-experience-platform-ui-guide)를 참조하십시오.{target="_blank"}
 

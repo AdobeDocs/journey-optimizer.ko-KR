@@ -6,7 +6,7 @@ description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 60adbc8ad4c49b9282502d26a9a9aac73693d049
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 4%
@@ -189,14 +189,12 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 다음 **Adobe Journey Optimizer 확장** Adobe Experience Platform용 Mobile SDK는 모바일 앱에 대한 푸시 알림을 실행하고 사용자 푸시 토큰을 수집하고 Adobe Experience Platform 서비스와의 상호 작용 측정을 관리할 수 있습니다.
 
-에서 Journey Optimizer 확장을 설정하는 방법 알아보기 [Adobe Experience Platform Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target="_blank"}.
+에서 Journey Optimizer 확장을 설정하는 방법 알아보기 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}.
 
 
 <!-- 
 **[!UICONTROL Edge configuration]** is used by **[!UICONTROL Edge]** extension to send custom data from mobile device to [!DNL Adobe Experience Platform]. 
 To configure [!DNL Adobe Experience Platform], you must provide the **[!UICONTROL Sandbox]** name and **[!UICONTROL Event Dataset]**.
-
-For further details and procedures on how to create **[!UICONTROL Edge configuration]**, refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
 
 1. From [!DNL Adobe Experience Platform Launch], select the **[!UICONTROL Edge Configurations]** tab and click **[!UICONTROL Edge Configurations]**.
     

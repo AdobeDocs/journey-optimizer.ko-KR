@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 3%
@@ -94,7 +94,7 @@ ht-degree: 3%
 
       **필드:** 형식
       **제목:** 형식
-      **설명:** 리소스의 물리적 또는 디지털 표현입니다. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 포맷을 사용하여 리소스를 표시하거나 운영하는 데 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정할 수 있습니다. 권장 모범 사례는 통제 어휘(예: 목록)에서 값을 선택하는 것입니다. [인터넷 미디어 유형](컴퓨터 미디어 형식을 정의하는 http://www.iana.org/ assignments/media-types/).
+      **설명:** 리소스의 물리적 또는 디지털 표현입니다. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 포맷을 사용하여 리소스를 표시하거나 운영하는 데 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정할 수 있습니다. 권장 모범 사례는 통제 어휘(예: 목록)에서 값을 선택하는 것입니다. [인터넷 미디어 유형](컴퓨터 미디어 형식을 정의하는 https://www.iana.org/ assignments/media-types/).
       **유형:** 문자열
       **예:** &quot;application/vnd.adobe.photoshop&quot;
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 에 PATCH 요청을 하여 컨테이너에서 컬렉션 한정자(이전의 &quot;태그&quot;라고 함)를 수정하거나 업데이트할 수 있습니다. [!DNL Offer Library] API.
 
-사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 다음을 참조하십시오. [JSON 패치 설명서](http://jsonpatch.com/).
+사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 다음을 참조하십시오. [JSON 패치 설명서](https://jsonpatch.com/).
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 

@@ -2,7 +2,7 @@
 title: 일괄 의사 결정
 description: 주어진 Adobe Experience Platform 세그먼트의 모든 프로필에 오퍼 의사 결정을 전달하는 방법을 알아봅니다.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -25,7 +25,7 @@ API를 사용하여 일괄 게재를 수행할 수도 있습니다. 자세한 �
 
 * **데이터 세트** Adobe Experience Platform. 이 데이터 세트는 &quot;ODE DecisionEvents&quot; 스키마를 사용하여 결정 결과를 저장하는 데 사용됩니다. 다음에서 자세히 알아보기 [데이터 세트 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko).
 
-* **세그먼트** Adobe Experience Platform. 세그먼트를 평가한 다음 업데이트해야 합니다. 에서 세그먼트 멤버십 평가를 업데이트하는 방법을 알아봅니다. [세그먼테이션 서비스 설명서](http://www.adobe.com/go/segmentation-overview-en)
+* **세그먼트** Adobe Experience Platform. 세그먼트를 평가한 다음 업데이트해야 합니다. 에서 세그먼트 멤버십 평가를 업데이트하는 방법을 알아봅니다. [세그먼테이션 서비스 설명서](https://www.adobe.com/go/segmentation-overview-en)
 
    >[!NOTE]
    >
