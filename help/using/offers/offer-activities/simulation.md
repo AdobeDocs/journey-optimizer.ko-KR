@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
+source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 6%
+source-wordcount: '901'
+ht-degree: 12%
 
 ---
 
 # 시뮬레이션 만들기 {#create-simulations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation"
+>title="오퍼 결정 시뮬레이션"
+>abstract="시뮬레이션을 사용하면 지정된 배치에 대해 테스트 프로필에 어떤 오퍼를 제공할지 시뮬레이트할 수 있습니다. 이를 통해 대상 수신자에게 영향을 주지 않고 다양한 버전의 오퍼를 테스트 및 구체화할 수 있습니다."
 
 ## 시뮬레이션 기본 정보 {#about-simulation}
 
@@ -21,7 +26,7 @@ ht-degree: 6%
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-이렇게 하면 타겟팅된 수신자에게 영향을 주지 않고 오퍼의 다양한 버전을 테스트하고 개선할 수 있습니다.
+이를 통해 대상 수신자에게 영향을 주지 않고 다양한 버전의 오퍼를 테스트 및 구체화할 수 있습니다.
 
 >[!NOTE]
 >
@@ -212,5 +217,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >요청 또는 응답 페이로드를 자체 코드에 복사할 때에는 {USER_TOKEN} 및 {API_KEY}을(를) 유효한 값으로 바꾸십시오. 에서 이러한 값을 검색하는 방법 알아보기 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} 설명서를 참조하십시오.
+   >요청 또는 응답 페이로드를 자체 코드에 복사할 때에는 다음을 바꾸십시오. {USER_TOKEN} 및 {API_KEY} 유효한 값을 가진 에서 이러한 값을 검색하는 방법 알아보기 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} 설명서를 참조하십시오.
 
