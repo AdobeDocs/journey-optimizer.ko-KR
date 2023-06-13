@@ -57,15 +57,15 @@ ht-degree: 95%
 
 * Adobe Experience Platform의 데이터를 기반으로 방문자의 관심 사항과 일치하는 오퍼를 웹 사이트에 표시합니다.
 
-   ![](../assets/website.png)
+  ![](../assets/website.png)
 
 * 고객이 매장 근처에 있는 경우, 고객의 특성(충성도 수준, 성별, 이전 구매...)에 따라 사용 가능한 오퍼를 알려 주는 푸시 알림을 보냅니다.
 
-   ![](../assets/push_sample.png)
+  ![](../assets/push_sample.png)
 
 * 또한 의사 결정을 사용하면 지원 팀에 문의할 때 고객의 경험을 향상시킬 수 있습니다. 의사 결정 관리 API를 사용하면 고객이 상환한 정보와 다음 최적 오퍼에 대한 정보를 콜 센터 상담원의 포털 정보에 표시하도록 할 수 있습니다.
 
-   ![](../../assets/do-not-localize/call-center.png)
+  ![](../../assets/do-not-localize/call-center.png)
 
 ## 의사 결정 관리 액세스 권한 부여 {#granting-acess-to-decision-management}
 
