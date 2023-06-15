@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 82%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->대상자 구성은 현재 Private Beta에서만 사용할 수 있으며, 예고 없이 자주 업데이트될 수 있습니다. Beta는 조직 수준에서 프로비저닝되어 조직 내의 모든 샌드박스에 영향을 줍니다.
+>현재 대상자 구성은 제한된 고객 그룹만 사용할 수 있습니다. 질문이 있는 경우 Adobe 담당자에게 문의하십시오.
 
 대상자 구성 기능으로 **구성 워크플로우**&#x200B;를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 제외...)을 활용하여 새 대상자를 만들 수 있습니다.
 
@@ -49,6 +49,8 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >구성 워크플로우의 결과로 만들어진 대상자는 Journey Optimizer 캠페인에서만 타겟팅할 수 있습니다. 여정에서는 사용할 수 없습니다.
+>
+>Adobe Journey Optimizer의 캠페인은 아직 정책 시행 서비스와 통합되지 않았습니다. 따라서 대상 속성에 적용하는 데이터 사용 레이블은 Journey Optimizer 캠페인에 적용되지 않습니다.
 
 대상자 구성 기능은 Adobe Journey Optimizer의 **[!UICONTROL 세그먼트]** 메뉴에서 액세스할 수 있습니다.
 

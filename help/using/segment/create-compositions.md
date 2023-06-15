@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 14%
+source-wordcount: '405'
+ht-degree: 15%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 14%
    * **[!UICONTROL 대상자]**: 컴포지션의 시작점입니다. 이 활동을 사용하면 워크플로우의 기반으로 하나 이상의 대상을 선택할 수 있습니다.
 
    * **[!UICONTROL 저장]**: 컴포지션의 마지막 단계입니다. 이 활동을 사용하면 워크플로우의 결과를 새 대상자에 저장할 수 있습니다.
+
    작성 워크플로 캔버스에서 활동을 구성하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [컴포지션 캔버스 작업](composition-canvas.md).
 
 1. 컴포지션 속성을 열어 제목과 설명을 지정합니다.
@@ -66,7 +67,7 @@ ht-degree: 14%
 
    >[!IMPORTANT]
    >
-   >주어진 샌드박스에서 최대 75개의 컴포지션을 게시할 수 있습니다. 이 임계값에 도달한 경우 컴포지션을 삭제하여 공간을 확보하고 새 컴포지션을 게시해야 합니다.
+   >주어진 샌드박스에서 최대 10개의 컴포지션을 게시할 수 있습니다. 이 임계값에 도달한 경우 컴포지션을 삭제하여 공간을 확보하고 새 컴포지션을 게시해야 합니다.
 
    게시 중에 오류가 발생하면 문제 해결 방법에 대한 정보가 경고에 표시됩니다.
 
@@ -85,7 +86,6 @@ ht-degree: 14%
 
 * **[!UICONTROL 초안]**: 컴포지션이 진행 중이며 게시되지 않았습니다.
 * **[!UICONTROL 게시됨]**: 컴포지션이 게시되어 결과 대상이 저장되고 사용할 수 있습니다.
-* **[!UICONTROL 보관됨]**: 컴포지션이 보관되었습니다.
 
 ![](assets/audiences-compositions.png)
 
