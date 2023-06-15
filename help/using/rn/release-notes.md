@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
+source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 100%
+source-wordcount: '2453'
+ht-degree: 98%
 
 ---
 
@@ -153,14 +153,13 @@ ht-degree: 100%
    * 대상자: 사람이나 계정, 가구 또는 기타 공통된 특성과 행동을 공유하는 엔티티의 집합입니다.
    * 세그먼트 정의: Adobe Experience Platform에서 타겟 대상자의 주요 특성 또는 행동을 설명하는 데 사용되는 규칙입니다. 전에는 이 용어를 그냥 “세그먼트”라고만 지칭했습니다.
 
-   따라서 이렇게 대상자를 만들고 관리하는 새로운 경로를 반영하기 위해 Adobe Journey Optimizer와 Adobe Experience Platform UI 내 “세그먼트”라는 단어가 “대상자”로 바뀐 것을 확인하실 수 있습니다.
+  따라서 이렇게 대상자를 만들고 관리하는 새로운 경로를 반영하기 위해 Adobe Journey Optimizer와 Adobe Experience Platform UI 내 “세그먼트”라는 단어가 “대상자”로 바뀐 것을 확인하실 수 있습니다.
 
-   일부 언어에서 “audience(대상자)”라는 단어가 메시지를 받을 타겟 프로필 그룹을 지칭하는 경우에 대한 번역을 전체 Digital Experience 제품에 대해 다음과 같이 통일했습니다.
+  일부 언어에서 “audience(대상자)”라는 단어가 메시지를 받을 타겟 프로필 그룹을 지칭하는 경우에 대한 번역을 전체 Digital Experience 제품에 대해 다음과 같이 통일했습니다.
 
    * 독일어: Zielgruppe
    * 포르투갈어(브라질): público-alvo
    * 스페인어: público destinatario
-
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
@@ -266,10 +265,7 @@ ht-degree: 100%
 
 * 이제 여정 캔버스에서 메시지 활동 및 종료 태그에 활동 ID가 표시됩니다. 보고와 재타겟팅에 도움이 됩니다.
 * 작업과 데이터 소스, 이벤트 및 여정에 표시되는 구성 창의 레이아웃을 개선했습니다.
-* 여정에 다음과 같은 새 가드레일을 추가했습니다.
-   * 이제 한 여정에 넣을 수 있는 활동 수가 50개로 제한됩니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
-   * 이제 하나의 조직에서 만들 수 있는 **라이브 여정**&#x200B;의 수가 샌드박스당 100개로 제한됩니다. 테스트 모드인 여정은 빼고 계산합니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
-
+* 확장 가능한 보호 장치를 통해 캔버스의 노드 수에 대한 새로운 통찰력: 여정 당 최대 노드 수를 50개로 설정하여 여정을 쉽게 읽고, QA하고, 문제를 해결할 수 있습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 * 여정에 [이메일](../email/create-email.md), [SMS](../sms/create-sms.md) 또는 [푸시](../push/create-push.md) 작업을 추가하면 이제 표면을 미리 입력합니다. 현재 여정에서 해당 채널에 대해 최근에 사용한 표면을 기본적으로 사용합니다.
 * 이제 사용자 정의 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다. [자세히 알아보기](../action/about-custom-action-configuration.md#url-configuration)
 
@@ -361,7 +357,7 @@ ht-degree: 100%
 
 * 최근 Adobe Experience Platform 전체에 걸친 태그 기능 릴리스와 관련하여 발생할 수 있는 혼란을 방지하기 위해 의사 결정 관리 태그의 이름을 “컬렉션 수식어”로 변경했습니다.
 
-   의사 결정 관리 사용자 인터페이스에서는 “태그”라는 단어를 더 이상 사용하지 않지만 API와 데이터 세트 등 백엔드 서비스에서는 계속 사용한다는 점에 유의해 주시기 바랍니다.
+  의사 결정 관리 사용자 인터페이스에서는 “태그”라는 단어를 더 이상 사용하지 않지만 API와 데이터 세트 등 백엔드 서비스에서는 계속 사용한다는 점에 유의해 주시기 바랍니다.
 
 * 이제 일별, 주별 또는 월별 기준으로 오퍼 한도 카운터를 재설정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
@@ -377,7 +373,7 @@ ht-degree: 100%
 
 * 보고 위젯 기능을 개선했습니다. 이제 사용자가 데이터를 보는 방식을 사용자 정의할 수 있습니다. 이 개선으로 이제 사용자가 그래프, 테이블, 도넛 차트 등 여러 시각화 옵션 중 원하는 것을 선택할 수 있습니다.
 
-   최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/global-report.md#modify-dashboard)를 참조하십시오.
+  최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/global-report.md#modify-dashboard)를 참조하십시오.
 
 ## 2023년 2월 릴리스 정보 {#feb-2023}
 
