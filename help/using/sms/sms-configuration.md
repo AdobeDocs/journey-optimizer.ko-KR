@@ -6,9 +6,9 @@ description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
+source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 18%
 
 ---
@@ -21,7 +21,7 @@ SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 
 
 ## 사전 요구 사항{#sms-prerequisites}
 
-Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 SMS 서비스를 제공하는 Sinch 및 Twilio와 같은 서드파티 공급자와 통합됩니다.
+Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 SMS 서비스를 제공하는 Sinch, Twilio 및 Infobip과 같은 서드파티 공급자와 통합됩니다.
 
 SMS를 구성하기 전에 이러한 SMS 공급자 중 하나로 계정을 만들어 API 토큰 및 서비스 ID를 받아야 Adobe Journey Optimizer과 해당 SMS 공급자 간의 연결을 설정할 수 있습니다.
 
@@ -62,6 +62,7 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
       * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
 
       * **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**: API 페이지에 액세스하면 SMS 탭 아래에서 자격 증명을 찾을 수 있습니다.  [자세히 알아보기](https://developers.sinch.com/docs/sms/getting-started/)
+
    * 대상 **[!DNL Twilio]**:
 
       * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
@@ -69,6 +70,7 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
       * **[!UICONTROL 계정 SID]** 및 **[!UICONTROL 인증 토큰]**: Twilio 콘솔 대시보드 페이지의 계정 정보 창에 액세스하여 자격 증명을 찾을 수 있습니다.
 
       * **[!UICONTROL 메시지 SID]**: Twilio의 API에서 만든 모든 메시지에 할당된 고유 식별자를 입력합니다. [자세히 알아보기](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+
    * 대상 **[!DNL Infobip]**:
 
       * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
@@ -114,20 +116,19 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
       * 선택 **마케팅** 프로모션 SMS의 경우: 이러한 메시지에는 사용자의 동의가 필요합니다.
       * 선택 **트랜잭션** 예를 들어 주문 확인, 암호 재설정 알림 또는 게재 정보와 같은 비상업적인 메시지의 경우.
 
-      >[!CAUTION]
-      >
-      >**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필에 SMS 메시지를 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
+     >[!CAUTION]
+     >
+     >**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필에 SMS 메시지를 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
 
-      SMS 메시지를 만들 때 메시지에 대해 선택한 카테고리와 일치하는 유효한 채널 표면을 선택해야 합니다.
+     SMS 메시지를 만들 때 메시지에 대해 선택한 카테고리와 일치하는 유효한 채널 표면을 선택해야 합니다.
 
    * 다음 항목 선택 **[!UICONTROL SMS 구성]** 서피스와 연관시킬 수 있습니다.
 
-      SMS 메시지를 보내도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#create-api).
+     SMS 메시지를 보내도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#create-api).
 
    * 다음을 입력합니다. **[!UICONTROL 발신자 번호]** 통신&#x200B;에 을 사용하려고 합니다.
 
    * 다음 항목 선택 **[!UICONTROL SMS 실행 필드]** 을(를) 선택하려면 **[!UICONTROL 프로필 속성]** 프로필의 전화 번호와 연결됩니다.
-
 
 1. SMS 메시지에서 URL 단축 기능을 사용하려면 **[!UICONTROL 하위 도메인]** 목록을 표시합니다.
 
