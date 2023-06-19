@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
+source-git-commit: 958e0c4352e150ebabdf53f0cc4f0eae2a478714
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1787'
 ht-degree: 9%
 
 ---
@@ -43,13 +43,9 @@ ht-degree: 9%
 
 다음에서 **이메일 유형** 섹션에서 서피스로 보낼 메시지 유형을 선택합니다. **마케팅** 또는 **트랜잭션**.
 
-* 선택 **마케팅** 프로모션 이메일의 경우: 이러한 메시지에는 사용자의 동의가 필요합니다.
+* 선택 **마케팅** 소매점의 주별 프로모션과 같은 프로모션 이메일의 경우. 이러한 메시지에는 사용자의 동의가 필요합니다.
 
-* 선택 **트랜잭션** 예를 들어 주문 확인, 암호 재설정 알림 또는 게재 정보와 같은 비상업적인 이메일의 경우
-
->[!CAUTION]
->
->**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필에 이메일을 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
+* 선택 **트랜잭션** 예를 들어 주문 확인, 암호 재설정 알림 또는 게재 정보와 같은 비상업적인 이메일의 경우 다음 사용자에게 이러한 이메일을 보낼 수 있습니다. **구독 취소됨** 마케팅 커뮤니케이션에서. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
 
 메시지를 만들 때 이메일에 대해 선택한 범주와 일치하는 유효한 채널 표면을 선택해야 합니다.
 
@@ -95,19 +91,19 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 * An **이메일 주소 구독 취소**- 모든 구독 취소 요청이 전송됩니다.
 
-   위치 [!DNL Journey Optimizer], 구독 취소 이메일 주소가 기본값입니다 **[!UICONTROL Mailto(구독 취소)]** 를 기반으로 하여 채널 표면에 표시되는 주소 [선택한 하위 도메인](#subdomains-and-ip-pools).
+  위치 [!DNL Journey Optimizer], 구독 취소 이메일 주소가 기본값입니다 **[!UICONTROL Mailto(구독 취소)]** 를 기반으로 하여 채널 표면에 표시되는 주소 [선택한 하위 도메인](#subdomains-and-ip-pools).
 
-   ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png)
 
 * 다음 **구독 취소 URL**: 사용자가 가입 해지되면 리디렉션되는 랜딩 페이지의 URL입니다.
 
-   을(를) 추가하는 경우 [원클릭 옵트아웃 링크](../privacy/opt-out.md#one-click-opt-out) 이 표면을 사용하여 만든 메시지의 구독 취소 URL은 원클릭 옵트아웃 링크에 대해 정의된 URL이 됩니다.
+  을(를) 추가하는 경우 [원클릭 옵트아웃 링크](../privacy/opt-out.md#one-click-opt-out) 이 표면을 사용하여 만든 메시지의 구독 취소 URL은 원클릭 옵트아웃 링크에 대해 정의된 URL이 됩니다.
 
-   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+  ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   >[!NOTE]
-   >
-   >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 사용자에게 표시되지 않습니다.
+  >[!NOTE]
+  >
+  >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 사용자에게 표시되지 않습니다.
 
 메시지에 헤더 구독 취소 링크를 추가하는 방법에 대해 자세히 알아보기 [이 섹션](../privacy/opt-out.md#unsubscribe-header).
 
