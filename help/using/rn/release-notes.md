@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8aa64e44501b144cd3ccb325e07c1453753fc65c
+source-git-commit: 68a2846c33ce347b481ebd02e4d77938c24e6040
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 98%
+source-wordcount: '2565'
+ht-degree: 96%
 
 ---
 
@@ -22,47 +22,44 @@ ht-degree: 98%
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
 
-<!--
-## June 2023 early release notes {#june-rn-2023}
 
-Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+## 2023년 6월 초기 릴리스 정보 {#june-rn-2023}
 
-**Release date**: June 21-22, 2023
+아래 정보는 릴리스를 사용할 수 있는 당일까지 사전 통지 없이 변경될 수 있습니다. 릴리스 당일에 업데이트한 설명서가 게시되고 직접 연결되는 링크가 이 페이지에 추가됩니다.
 
-### New capabilities{#june-2023-features}
+**릴리스 날짜**: 2023년 6월 21~22일
+
+### 새로운 기능{#june-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>API-triggered campaigns for marketing use cases</strong><br/></th>
+<th><strong>마케팅 사용 사례에 대한 API 트리거 캠페인</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use APIs to trigger marketing campaigns in Adobe Journey Optimizer from an external system.</p>
-<p>Until this release, API-triggered campaigns capability was covering various operational and transactional messaging needs like password resets or OTP token, but could not be used to create marketing campaigns. Available channels for API-triggered campaigns are: Email, SMS and Push messages.</p>
+<p>이제 API를 사용하여 외부 시스템에서 Adobe Journey Optimizer의 마케팅 캠페인을 트리거할 수 있습니다.</p>
+<p>이번 릴리스까지 API 트리거 캠페인 기능은 암호 재설정 또는 OTP 토큰과 같은 다양한 운영 및 트랜잭션 메시지 요구 사항을 다루었지만, 마케팅 캠페인을 만드는 데 사용할 수 없었습니다. API 트리거 캠페인에 사용할 수 있는 채널은 이메일, SMS 및 푸시 메시지입니다.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
+<p>자세한 내용은 <a href="../campaigns/api-triggered-campaigns.md">세부 설명서</a>를 참조하십시오.
 </td>
 </tr>
 </tbody>
 </table>
 
-
+<!--
 ### Improvements {#june-2023-improvements}
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
-
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
 
 **Journeys**
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
-
-* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
 -->
 
 ## 2023년 5월 릴리스 정보 {#may-rn-2023}
