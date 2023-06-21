@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 세그먼트, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 61acbad019ead6bfd86c6fb39d7de1920f28d984
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 13%
@@ -118,11 +118,11 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 다음 **[!UICONTROL 세그먼트 읽기]** 활동을 사용하면 단일 프로필 또는 여정에 적합한 프로필 중에서 선택한 100개의 무작위 테스트 프로필에서 세그먼트를 테스트할 수 있습니다.
 
-이렇게 하려면 테스트 모드를 활성화한 다음 왼쪽 창에서 원하는 옵션을 선택합니다.
+이렇게 하려면 를 활성화합니다. **테스트 모드**. 그런 다음 왼쪽 창에서 원하는 옵션을 선택합니다.
 
 ![](assets/read-segment-test-mode.png)
 
-그런 다음 평소대로 테스트 모드를 구성하고 실행할 수 있습니다. [여정 테스트 방법 알아보기](testing-the-journey.md).
+그런 다음 를 구성하고 실행할 수 있습니다. **테스트 모드** 평상시처럼 [여정 테스트 방법 알아보기](testing-the-journey.md).
 
 테스트가 실행되면 **[!UICONTROL 로그 표시]** 버튼을 사용하면 선택한 테스트 옵션에 따라 테스트 결과를 볼 수 있습니다.
 
@@ -130,9 +130,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **[!UICONTROL 한 번에 최대 100개의 프로필]**: 테스트 로그를 사용하여 Adobe Experience Platform에서 여정 내보내기의 진행 상황과 세그먼트에 입력한 모든 개인의 개별 진행 상황을 추적할 수 있습니다.
 
-   한 번에 최대 100개의 프로필을 사용하여 여정을 테스트하면 시각적 플로우를 사용하여 여정에서 개인 사용자의 진행 상황을 추적할 수 없습니다.
+  한 번에 최대 100개의 프로필을 사용하여 여정을 테스트하면 시각적 플로우를 사용하여 여정에서 개인 사용자의 진행 상황을 추적할 수 없습니다.
 
-   ![](assets/read-segment-log.png)
+  ![](assets/read-segment-log.png)
 
 테스트가 성공하면 여정을 게시할 수 있습니다( 참조) [여정 게시](publishing-the-journey.md)). 세그먼트에 속한 개인은 여정의 속성에 지정된 날짜/시간에 여정을 입력합니다 **[!UICONTROL 스케줄러]** 섹션.
 
