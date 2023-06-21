@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 세그먼트, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a278b217882f2646e106600e110226941e7e4f10
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 12%
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 사용 **세그먼트 읽기** 활동은 세그먼트의 모든 개인이 여정을 입력하도록 합니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 
-다음에서 만들어진 &quot;Luma 앱 열기 및 체크아웃&quot; 세그먼트를 예로 들어 보겠습니다. [세그먼트 작성](../segment/about-segments.md) 사용 사례. 세그먼트 읽기 활동을 사용하면 이 세그먼트에 속하는 모든 개인에게 여정을 입력하고 조건, 타이머, 이벤트, 작업과 같은 모든 여정 기능을 활용하는 개별화된 여정으로 흐르도록 할 수 있습니다.
+다음에서 만들어진 &quot;Luma 앱 열기 및 체크아웃&quot; 세그먼트를 예로 들어 보겠습니다. [세그먼트 작성 사용 사례](../segment/about-segments.md). 포함 **[!UICONTROL 세그먼트 읽기]** 활동 을 사용하면 세그먼트에 속하는 모든 개인이 여정을 입력하고 조건, 타이머, 이벤트, 작업과 같은 모든 여정 기능을 활용하는 개별화된 여정으로 연결되도록 할 수 있습니다.
 
 >[!NOTE]
 >

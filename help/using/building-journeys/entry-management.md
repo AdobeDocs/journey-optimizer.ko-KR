@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: deb3646235377bf48b91b019e3442e4a3d6f0cf8
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 22%
@@ -32,7 +32,7 @@ ht-degree: 22%
 
 또한:
 
-* 재입력이 활성화된 경우 프로필은 여정을 여러 번 입력할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 다시 입력할 수 없습니다.
+* 재입력이 활성화된 경우 프로필은 여정을 여러 번 입력할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 입력할 수 없습니다.
 
 * 재입력이 비활성화된 경우 프로필은 동일한 여정을 여러 번 입력할 수 없습니다
 
