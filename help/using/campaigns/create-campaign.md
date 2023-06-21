@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 23%
 >
 >* [채널 표면 생성](../configuration/channel-surfaces.md)
 >* [세그먼트 시작](../segment/about-segments.md)
-
 
 새 캠페인을 만들려면 **[!UICONTROL 캠페인]** 메뉴를 선택한 다음 **[!UICONTROL 캠페인 만들기]**. 기존 라이브 캠페인을 복제하여 새 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate)
 
@@ -151,7 +150,7 @@ ht-degree: 23%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
->title="캠페인 직업 트리거"
+>title="캠페인 액션 트리거"
 >abstract="캠페인 메시지를 전송해야 하는 빈도를 정의합니다."
 
 기본적으로 캠페인은 수동으로 활성화되면 시작되고 메시지가 한 번 전송되는 즉시 종료됩니다.
