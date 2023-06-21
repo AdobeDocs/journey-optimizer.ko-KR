@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 17c13b54d59e254543eb3340f791745ea24208c8
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '596'
 ht-degree: 27%
 
 ---
@@ -47,7 +47,7 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 에서 첫 번째 여정을 시작하고 만드는 방법을 알아봅니다. [이 페이지](journey-gs.md).
 
-옴니채널 여정 디자이너를 통해 타겟팅된 대상, 실시간 고객 또는 비즈니스 상호 작용을 기반으로 하는 업데이트 및 직관적인 드래그 앤 드롭 인터페이스를 사용한 옴니채널 메시지를 통해 여러 단계로 구성된 여정을 구축할 수 있습니다.
+옴니채널 여정 디자이너는 여러 단계의 여정을 구성하고, 특히 대상을 타기팅하고, 실시간 고객 또는 비즈니스 상호 작용을 기반으로 업데이트를 통합하는 데 도움이 됩니다. 또한 직관적인 드래그 앤 드롭 인터페이스를 통해 옴니채널 메시지를 작성할 수 있습니다.
 
 ![](assets/journey38.png)
 
