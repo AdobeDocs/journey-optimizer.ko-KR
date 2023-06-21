@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 세그먼트, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
+source-git-commit: a278b217882f2646e106600e110226941e7e4f10
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1337'
 ht-degree: 12%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 12%
    >
    >샌드박스당 전체 전송률이 초당 20,000개의 메시지로 설정됩니다. 따라서 동일한 샌드박스에서 동시에 실행되는 모든 읽기 세그먼트의 전송률이 초당 최대 20,000개의 메시지를 추가합니다. 이 캡은 수정할 수 없습니다.
 
-1. 다음 **[!UICONTROL 세그먼트 읽기]** 활동을 통해 세그먼트가 여정을 입력하는 시간을 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL 여정 일정 편집]** 여정 속성에 액세스한 다음 **[!UICONTROL 스케줄러 유형]** 필드.
+1. 다음 **[!UICONTROL 세그먼트 읽기]** 활동을 통해 세그먼트가 여정을 입력하는 시간을 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL 여정 일정 편집]** 여정 속성에 액세스하기 위한 링크입니다.그런 다음 **[!UICONTROL 스케줄러 유형]** 필드.
 
    ![](assets/read-segment-schedule.png)
 
