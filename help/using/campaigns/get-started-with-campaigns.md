@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 세그
 캠페인은 다음 두 가지 유형으로 만들 수 있습니다.
 
 * **예약 캠페인**&#x200B;에서는 홍보 오퍼나 참여 캠페인, 공지, 법적 고지 사항 또는 정책 업데이트 등 마케팅 사용 사례에서 간단한 즉석 일괄 커뮤니케이션을 보낼 수 있습니다.
-* **API 트리거 캠페인**&#x200B;에서는 REST API로 간단한 트랜잭션/작업 메시지를 보낼 수 있습니다(암호 재설정, 장바구니 포기 등). 페이로드의 프로필 속성과 컨텍스트 데이터를 사용하여 개인화를 추가할 수도 있습니다.
+* **API 트리거된 캠페인** 마케팅 커뮤니케이션이 적시에 대상자에게 연락하거나 암호 재설정과 같은 개인에 대한 트랜잭션/운영 메시지를 보낼 수 있습니다. 여기에서는 프로필 속성뿐만 아니라 REST API 페이로드인 트리거에서 실시간 컨텍스트 데이터를 사용하여 개인화가 필요할 수 있습니다.
 
 캠페인을 만드는 주요 단계는 다음과 같습니다.
 
@@ -61,6 +61,7 @@ Journey Optimizer에서 캠페인을 처음으로 만들 때는 먼저 다음 �
       ![](assets/do-not-localize/admin_2.png)
 
    1. 사용자 이름이나 그룹 또는 이메일 주소를 입력하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
    이제 사용자가 **[!UICONTROL 캠페인]**&#x200B;에 액세스할 수 있습니다.
 
 +++

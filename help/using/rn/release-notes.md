@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 877c4e871beebdd5a050df1a5d44f06cba07e109
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2527'
 ht-degree: 96%
 
 ---
@@ -23,14 +23,15 @@ ht-degree: 96%
 
 
 
-## 2023년 6월 초기 릴리스 정보 {#june-rn-2023}
-
-아래 정보는 릴리스를 사용할 수 있는 당일까지 사전 통지 없이 변경될 수 있습니다. 릴리스 당일에 업데이트한 설명서가 게시되고 직접 연결되는 링크가 이 페이지에 추가됩니다.
-
-**릴리스 날짜**: 2023년 6월 21~22일
+## 2023년 6월 릴리스 정보 {#june-rn-2023}
 
 <!--
-### New capabilities{#june-2023-features}-->
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+
+**Release date**: June 21-22, 2023-->
+
+
+<!-- ### New capabilities{#june-2023-features}-->
 
 <table>
 <thead>
