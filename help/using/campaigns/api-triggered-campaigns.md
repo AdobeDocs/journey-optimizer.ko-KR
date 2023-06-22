@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -25,6 +25,10 @@ ht-degree: 1%
 
 API 트리거 캠페인에 사용할 수 있는 채널은 이메일, SMS 및 푸시 메시지입니다.
 
+>[!NOTE]
+>
+>현재는 푸시 알림 API 트리거 캠페인에 대해 빠른 배달이 지원되지 않습니다.
+
 ## API 트리거 캠페인 만들기 {#create}
 
 ### 캠페인 구성 및 활성화 {#create-activate}
@@ -38,10 +42,6 @@ API 트리거 캠페인을 만들려면 아래 단계를 따르십시오. 캠페
 1. 메시지를 보내는 데 사용할 지원되는 채널 및 관련 채널 표면 중 하나를 선택한 다음 를 클릭합니다 **[!UICONTROL 만들기]**.
 
    ![](assets/api-triggered-type.png)
-
-   >[!NOTE]
-   >
-   >현재는 푸시 알림 API 트리거 캠페인에 대해 빠른 배달이 지원되지 않습니다.
 
 1. 캠페인에 대한 제목과 설명을 지정한 다음 **[!UICONTROL 콘텐츠 편집]** 보낼 메시지를 구성합니다.
 
