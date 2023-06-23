@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: bd805d9a52572e284b5846166e1f799f1f71fc59
+source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 67%
@@ -42,7 +42,7 @@ ht-degree: 67%
 
 대상자 구성 기능으로 **구성 워크플로우**&#x200B;를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 제외...)을 활용하여 새 대상자를 만들 수 있습니다.
 
-완료되면 **결과 대상자** 는 기존 대상과 함께 Adobe Experience Platform에 백업되며 의 타겟 고객에게 활용될 수 있습니다. [Journey Optimizer 캠페인](../campaigns/get-started-with-campaigns.md), 또는 Adobe [Real-time Customer Data Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html).
+완료되면 **결과 대상자** 는 기존 대상과 함께 Adobe Experience Platform에 백업되며 의 타겟 고객에게 활용될 수 있습니다. [Journey Optimizer 캠페인](../campaigns/get-started-with-campaigns.md), 또는 Adobe [Real-time Customer Data Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
 
 ![](assets/audiences-process.png)
 
