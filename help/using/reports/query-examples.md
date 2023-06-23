@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1471'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 2%
 * id: 모든 단계 이벤트 항목에 대해 고유합니다. 서로 다른 두 단계 이벤트는 동일한 ID를 가질 수 없습니다.
 * instanceId: instanceID는 여정 실행 내의 프로필에 연결된 모든 단계 이벤트에 대해 동일합니다. 프로필이 여정을 다시 입력하면 다른 instanceId가 사용됩니다. 이 새 instanceId는 다시 입력한 인스턴스의 모든 단계 이벤트(처음부터 끝까지)에 대해 동일합니다.
 * profileID: 여정 네임스페이스에 해당하는 프로필의 ID입니다.
+
+>[!NOTE]
+>
+>문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다.
 
 ## 기본 사용 사례/일반 쿼리 {#common-queries}
 

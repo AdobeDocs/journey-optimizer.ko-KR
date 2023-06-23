@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 세그먼트, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b0b65ad119b6939a6d65d6f05edc67b2f2b22a31
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 26%
+source-wordcount: '1548'
+ht-degree: 25%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 26%
 
 ![](assets/journeys-browse.png)
 
-여정 목록의 **[!UICONTROL 상태 및 버전 필터]**&#x200B;에서 상태, 유형 및 버전에 따라 여정을 필터링할 수 있습니다. 유형에는 **[!UICONTROL 단일 이벤트]**, **[!UICONTROL 세그먼트 자격]**, **[!UICONTROL 세그먼트 읽기]**, **[!UICONTROL 비즈니스 이벤트]** 또는 **[!UICONTROL 버스트]**&#x200B;가 있습니다.
+여정 목록의 **[!UICONTROL 상태 및 버전 필터]**&#x200B;에서 상태, 유형 및 버전에 따라 여정을 필터링할 수 있습니다. 유형은 다음과 같습니다. **[!UICONTROL 단일 이벤트]**, **[!UICONTROL 세그먼트 선별]**, **[!UICONTROL 세그먼트 읽기]** 또는 **[!UICONTROL 비즈니스 이벤트]**.
 
 **[!UICONTROL 활동 필터]** 및 **[!UICONTROL 데이터 필터]**&#x200B;에서 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수 있습니다. 또한 **[!UICONTROL 게시 필터]** 발행 날짜 또는 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 경로의 최신 버전만 표시하도록 선택할 수 있습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md).
 

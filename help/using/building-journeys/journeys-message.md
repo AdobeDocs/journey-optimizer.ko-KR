@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 22%
+source-wordcount: '886'
+ht-degree: 23%
 
 ---
 
@@ -115,10 +115,6 @@ Adobe의 AI 서비스에서 제공하는 Adobe Journey Optimizer의 전송 시�
 * 채점 - 훈련된 모델을 기반으로 개별 프로필에 점수 적용
 
 이 정보는 사용자의 프로필과 함께 저장되며 여정 실행 시 참조되어 Adobe Journey Optimizer에 메시지를 보낼 시기를 알립니다.
-
->[!CAUTION]
->
->이 기능은 버스트 모드와 호환되지 않습니다.
 
 ### 전송 시간 최적화 활성화{#activate-send-time-optimization}
 
