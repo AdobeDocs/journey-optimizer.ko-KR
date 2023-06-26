@@ -4,16 +4,22 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
+source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 100%
+source-wordcount: '2949'
+ht-degree: 97%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2023년 6월 {#june-2023}
+
+* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2023년 6월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 평가 기준 순서에 대한 예가 **의사 결정 만들기** 섹션은 여러 기준 및 여러 결정 범위가 사용되는 경우를 보여 줍니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* 의사 결정 관리 설명서에 동적 컬렉션에 개체 수준 액세스 제어 를 사용할 수 없다는 메모를 추가하여 명확해졌습니다. [자세히 보기](../offers/offer-library/creating-collections.md)
 
 ## 2023년 5월 {#may-2023}
 
@@ -95,7 +101,7 @@ ht-degree: 100%
 * 기본 제공 데이터 세트에 대한 정보를 추가했습니다. [자세히 보기](../data/get-started-datasets.md#access-datasets)
 * 글로벌 보고서 및 실시간 보고서 섹션이 개선되고 재구성되었습니다. [자세히 보기](../reports/global-report.md)
 * Adobe Journey Optimizer에서 사용할 수 있는 모든 보고 지표 목록을 추가했습니다.
-   [자세히 보기](../reports/global-report.md#email-and-sms-metrics)
+  [자세히 보기](../reports/global-report.md#email-and-sms-metrics)
 * BCC 이메일 섹션이 새 아카이브 지원 페이지로 이동되었습니다. [자세히 보기](../configuration/archiving-support.md)
 
 ## 2022년 8월 {#august-2022}

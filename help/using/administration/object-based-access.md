@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 객체, 레벨, 액세스, 제어, 레이블, olac, 인증
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: a2a5c081ee9a8ab04bf4c7b97097c0121ef8e4f8
+source-git-commit: e3628950dbc59b6f2570245651e79b4e203b75c3
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '460'
 ht-degree: 14%
 
 ---
@@ -34,7 +34,7 @@ OLAC(Object Level Access Control)를 사용하면 다양한 객체에 대한 데
 * 조각
 * 랜딩 페이지
 * 오퍼
-* 오퍼 컬렉션
+* 정적 오퍼 컬렉션
 * Offer decisioning
 * 템플릿
 

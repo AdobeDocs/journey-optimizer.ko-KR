@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: e3628950dbc59b6f2570245651e79b4e203b75c3
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 9%
+source-wordcount: '364'
+ht-degree: 8%
 
 ---
 
@@ -57,6 +57,10 @@ ht-degree: 9%
    >정적 컬렉션은 자동으로 업데이트되지 않습니다. 정적 컬렉션에 오퍼를 추가하려면 오퍼를 편집하고 수동으로 추가해야 합니다.
 
 1. 정적 컬렉션에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 다음을 선택합니다. **[!UICONTROL 액세스 관리]**. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../../administration/object-based-access.md)
+
+   >[!NOTE]
+   >
+   >동적 컬렉션에는 OLAC를 사용할 수 없습니다. 오퍼 수준에서 관리되어야 합니다. 따라서 이러한 오퍼에 액세스할 수 없는 경우 동적 컬렉션에 오퍼가 표시되지 않을 수 있습니다.
 
 1. 컬렉션이 만들어지면 목록에 표시됩니다. 선택하여 편집하거나 삭제할 수 있습니다.
 
