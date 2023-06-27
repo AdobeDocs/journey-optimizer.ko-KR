@@ -24,7 +24,7 @@ ht-degree: 12%
 >id="ajo_subscription_list"
 >title="구독 목록 설정"
 >abstract="구독 목록을 만들어 특정 주제 또는 이벤트에 대한 커뮤니케이션을 수신하도록 옵트인한 프로필을 수집합니다. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html#define-subscription-list" text="구독 목록 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html?lang=ko-KR#define-subscription-list" text="구독 목록 만들기"
 
 구독 서비스는 특정 주제/이벤트/관심 분야 등에 대한 커뮤니케이션을 수신하도록 선택한 고객에게 제공되는 마케팅 상품 및 서비스를 의미합니다. 지속적으로. 위치 [!DNL Journey Optimizer], 이러한 옵트인 고객은 구독 목록으로 수집됩니다.
 

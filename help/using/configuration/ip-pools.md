@@ -21,12 +21,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="IP 풀 설정"
->abstract="IP 풀은 이메일 게재 가능성을 개선할 수 있도록 하위 도메인의 IP 주소를 수집합니다."
+>abstract="IP 풀은 이메일 전달성을 개선할 수 있도록 하위 도메인의 IP 주소를 수집합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="IP 풀 설정"
->abstract="Journey Optimizer를 통해 IP 풀을 만들어 하위 도메인의 IP 주소를 함께 그룹화할 수 있습니다. 이렇게 하면 하위 도메인의 신뢰도가 다른 하위 도메인에 영향을 미칠 수 없으므로 이메일 게재 가능성이 크게 개선될 수 있습니다."
+>abstract="Journey Optimizer를 통해 IP 풀을 만들어 하위 도메인의 IP 주소를 함께 그룹화할 수 있습니다. 이렇게 하면 하위 도메인의 신뢰도가 다른 하위 도메인에 영향을 미칠 수 없으므로 이메일 전달성이 크게 개선될 수 있습니다."
 
 ## IP 풀 기본 정보 {#about-ip-pools}
 
@@ -118,7 +118,6 @@ IP 풀 업데이트 상태를 확인하려면 **[!UICONTROL 추가 작업]** 단
 >IP 풀이 성공적으로 업데이트되면 다음을 기다려야 할 수 있습니다.
 >* 단일 메시지에 소비되기 몇 분 전에
 >* 다음 배치(IP 풀 배치 시)가 배치 메시지에 유효할 때까지.
-
 
 다음을 사용할 수도 있습니다 **[!UICONTROL 삭제]** IP 풀 삭제 단추 채널 표면과 연결된 IP 풀은 삭제할 수 없습니다.
 

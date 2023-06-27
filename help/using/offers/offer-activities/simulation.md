@@ -50,7 +50,7 @@ ht-degree: 12%
 >id="ajo_decisioning_simulation_test_profile"
 >title="테스트 프로필 추가"
 >abstract="ID 네임스페이스 및 해당 ID 값을 선택하여 테스트 프로필을 추가할 수 있습니다. 시뮬레이션에 사용할 수 있는 테스트 프로필이 제공되어야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="테스트 프로필 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=ko-KR" text="테스트 프로필 만들기"
 
 먼저 시뮬레이션에 사용할 테스트 프로필을 선택해야 합니다.
 

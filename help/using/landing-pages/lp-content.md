@@ -22,7 +22,7 @@ ht-degree: 11%
 >id="ac_lp_components"
 >title="콘텐츠 구성 요소 사용"
 >abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다. 사용자가 선택 사항을 선택하고 제출할 수 있는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="콘텐츠 구성 요소 추가"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=ko-KR#add-content-components" text="콘텐츠 구성 요소 추가"
 
 랜딩 페이지 콘텐츠를 디자인하기 위해 이메일과 동일한 구성 요소를 사용할 수 있습니다. [자세히 알아보기](../email/content-components.md#add-content-components)
 
@@ -40,7 +40,7 @@ ht-degree: 11%
 >id="ac_lp_formfield"
 >title="양식 구성 요소 필드 설정"
 >abstract="수신자가 랜딩 페이지에서 선택 사항을 표시하고 제출하는 방법을 정의합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=ko-KR#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
@@ -83,7 +83,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 구독 목록]**: 프로필에서 이 확인란을 선택하면 업데이트될 구독 목록을 선택해야 합니다. 자세히 알아보기 [구독 목록](subscription-list.md).
 
-      <!--![](assets/lp_designer-form-subs-list.png)-->
+     <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL 채널(이메일)]**: 옵트인 또는 옵트아웃이 전체 채널에 적용됩니다. 예를 들어 옵트아웃하는 프로필에 두 개의 이메일 주소가 있는 경우 두 주소가 모두 모든 통신에서 제외됩니다.
 
@@ -126,7 +126,7 @@ ht-degree: 11%
 
    ![](assets/lp_designer-form-error.png)
 
-1. 양식을 제출할 때 추가로 업데이트하려면 을(를) 선택합니다 **[!UICONTROL 옵트인]** 또는 **[!UICONTROL 옵트아웃]**&#x200B;을 클릭하고 구독 목록을 업데이트할지, 채널을 업데이트할지 또는 사용한 이메일 주소만 업데이트할지를 정의합니다.
+1. 양식을 제출할 때 추가로 업데이트하려면 을(를) 선택합니다 **[!UICONTROL 옵트인]** 또는 **[!UICONTROL 옵트아웃]**&#x200B;을 클릭하고 구독 목록을 업데이트하려는 경우 사용되는 채널 또는 이메일 주소만 정의합니다.
 
    ![](assets/lp_designer-form-additionnal-update.png)
 

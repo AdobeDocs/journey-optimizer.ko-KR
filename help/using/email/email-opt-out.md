@@ -181,8 +181,8 @@ ht-degree: 78%
 
 * 메시지에 옵트아웃 링크를 추가할 때 지정한 랜딩 페이지 URL로 수신자가 이동합니다.
 
-   >[!NOTE]
-   >
-   >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 표시되지 않습니다.
+  >[!NOTE]
+  >
+  >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 표시되지 않습니다.
 
 * 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. 다음에서 자세히 알아보기 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}.

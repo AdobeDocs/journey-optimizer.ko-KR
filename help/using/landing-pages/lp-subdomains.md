@@ -25,13 +25,13 @@ ht-degree: 24%
 >id="ajo_admin_subdomain_lp"
 >title="랜딩 페이지 하위 도메인 위임"
 >abstract="랜딩 페이지 사전 설정을 만드는 데 이 하위 도메인이 필요하므로 랜딩 페이지에 사용할 하위 도메인을 구성해야 합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=ko-KR#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="랜딩 페이지 사전 설정 만들기"
 >abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 랜딩 페이지 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=ko-KR#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 다음을 수행할 수 있습니다. [랜딩 페이지 사전 설정 만들기](lp-presets.md), 랜딩 페이지에 사용할 하위 도메인을 설정해야 합니다.
 
@@ -44,7 +44,6 @@ ht-degree: 24%
 >* 랜딩 페이지 하위 도메인에 액세스하고 편집하려면 **[!UICONTROL 랜딩 페이지 하위 도메인 관리]** 프로덕션 샌드박스에 대한 권한.
 >
 > * 랜딩 페이지 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
-
 
 ## 기존 하위 도메인 사용 {#lp-use-existing-subdomain}
 
