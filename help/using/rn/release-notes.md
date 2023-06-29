@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 96%
+source-wordcount: '2595'
+ht-degree: 93%
 
 ---
 
@@ -301,9 +301,11 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * 이제 여정 캔버스에서 메시지 활동 및 종료 태그에 활동 ID가 표시됩니다. 보고와 재타겟팅에 도움이 됩니다.
 * 작업과 데이터 소스, 이벤트 및 여정에 표시되는 구성 창의 레이아웃을 개선했습니다.
-* 확장 가능한 보호 장치를 통해 캔버스의 노드 수에 대한 새로운 통찰력: 여정 당 최대 노드 수를 50개로 설정하여 여정을 쉽게 읽고, QA하고, 문제를 해결할 수 있습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 * 여정에 [이메일](../email/create-email.md), [SMS](../sms/create-sms.md) 또는 [푸시](../push/create-push.md) 작업을 추가하면 이제 표면을 미리 입력합니다. 현재 여정에서 해당 채널에 대해 최근에 사용한 표면을 기본적으로 사용합니다.
 * 이제 사용자 정의 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다. [자세히 알아보기](../action/about-custom-action-configuration.md#url-configuration)
+* 여정이 제공하는 경험 증가를 관리할 수 있는 새로운 보호 기능:
+   * 여정의 성능과 읽기, QA 및 문제 해결을 유지하려면 노드 수를 50 이하로 제한하는 것이 좋습니다. 활동 수가 여정 캔버스의 왼쪽 상단에 표시됩니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
+   * 여정을 개발하고 시작하면 한 번에 100개의 라이브 여정 이정표에 도달하면 알려드리겠습니다. 플랜에 한 번에 100개 이상의 여정이 필요한 경우 알림을 보고 지원 티켓을 만드십시오. 도움이 될 것입니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 
 **보고**
 
@@ -377,7 +379,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 * 이제 여정 캔버스의 **종료** 태그가 자동으로 이전 활동의 이름으로 설정되지 않습니다. 필요한 경우 사용자가 수동으로 사용자 정의 레이블을 추가할 수 있습니다.
 * 여정 속성의 기본 시간 제한 및 오류 지속 시간을 5초에서 30초로 변경했습니다. [자세히 알아보기](../configuration/external-systems.md#timeout)
 * 세그먼트 읽기 활동의 기본 스로틀링 수를 초당 메시지 20,000개에서 5,000개로 변경했습니다. [자세히 알아보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* 테스트 모드에 인터페이스를 통해 보낸 이벤트만 수신하도록 하는 가드레일을 추가했습니다. 외부 도구를 통해 보낸 이벤트는 고려하지 않습니다. [자세히 알아보기](../building-journeys/testing-the-journey.md)
+* 테스트 모드에 인터페이스를 통해 보낸 이벤트만 수신하도록 하는 가드레일을 추가했습니다. 외부 도구를 통해 전송된 이벤트는 고려되지 않습니다. [자세히 알아보기](../building-journeys/testing-the-journey.md)
 
 
 <!-- 

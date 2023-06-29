@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 97%
+source-wordcount: '1119'
+ht-degree: 91%
 
 ---
 
@@ -45,6 +45,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 ### 일반 여정 가드레일 {#journeys-guardrails-journeys}
 
 * 한 여정에 넣을 수 있는 활동 수는 50개로 제한됩니다. 활동 수는 여정 캔버스의 왼쪽 위 섹션에 표시됩니다. 이는 가독성, QA 및 문제 해결에 도움이 될 것입니다.
+* 여정을 게시하면 처리량과 안정성을 최대화하기 위해 자동으로 확장 및 조정됩니다. 한 번에 100개의 라이브 여정이 있는 이정표에 가까워지면 이 도전 과제에 대한 알림이 UI에 표시됩니다. 이 알림이 표시되고 여정을 한 번에 100개의 라이브 여정 이상으로 확장해야 하는 경우 고객 지원 센터에 대한 티켓을 만드십시오. 그러면 목표를 달성할 수 있도록 돕겠습니다.
 
 ### 일반 작업  {#general-actions-g}
 
