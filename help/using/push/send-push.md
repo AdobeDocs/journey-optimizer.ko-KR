@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 9%
@@ -39,7 +39,6 @@ ht-degree: 9%
 
 ## 푸시 알림 유효성 확인 {#push-validate}
 
-
 편집기의 위쪽 섹션에서 경고를 확인해야 합니다. 일부는 간단한 경고이지만 일부는 메시지를 보내지 못하게 할 수 있습니다. 경고와 오류의 두 가지 경고 유형이 발생할 수 있습니다.
 
 * **경고** 권장 사항 및 모범 사례를 참조하십시오.
@@ -52,7 +51,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 푸시 iOS/Android 페이로드가 4KB 제한을 초과했습니다.]**: 푸시 알림 크기는 4KB를 초과할 수 없습니다. 이 제한을 준수하려면 이미지 또는 이모지의 사용을 줄이십시오. 에서 푸시 알림 콘텐츠를 관리하는 방법 알아보기 [이 섹션](../push/create-push.md).
 
-   ![](assets/push_alert.png)
+  ![](assets/push_alert.png)
 
 
 >[!NOTE]

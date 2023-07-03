@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 100%
+source-wordcount: '1384'
+ht-degree: 99%
 
 ---
 
@@ -363,7 +363,7 @@ ht-degree: 100%
       + [의사 결정 관리 이벤트 작업](using/offers/reports/get-started-events.md)
       + [이벤트 XDM 필드 액세스](using/offers/reports/xdm-fields.md)
    + 오퍼 카탈로그 내보내기 {#export-catalog}
-      + [오퍼 카탈로그 내보내기 시작 ](using/offers/export-catalog/get-started-export.md)
+      + [오퍼 카탈로그 내보내기 시작](using/offers/export-catalog/get-started-export.md)
       + [내보낸 오퍼 카탈로그에 액세스하기](using/offers/export-catalog/access-dataset.md)
       + [개인화된 오퍼 데이터 세트](using/offers/export-catalog/export-offers.md)
       + [의사 결정 데이터 세트](using/offers/export-catalog/export-decisions.md)
@@ -426,7 +426,7 @@ ht-degree: 100%
       + [데이트 세트 시작](using/data/get-started-datasets.md)
       + [Journey Optimizer 데이터 세트 내보내기](using/data/export-datasets.md)
       + [쿼리 예](using/data/datasets-query-examples.md)
-      + [기본 스키마 > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
+      + [기본 스키마 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
    + [쿼리](using/data/get-started-queries.md)
 + 구성{#configuration}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
@@ -488,3 +488,4 @@ ht-degree: 100%
       + [옵트아웃 관리](using/privacy/opt-out.md)
       + [동의 정책 사용](using/action/consent.md)
    + [데이터 거버넌스](using/action/action-privacy.md)
+   + [고객 관리 키 설정 및 관리](using/privacy/cmk.md)
