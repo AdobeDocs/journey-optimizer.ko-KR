@@ -5,9 +5,9 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2949'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 97%
 
 ## 2023년 6월 {#june-2023}
 
-* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2023년 6월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 평가 기준 순서에 대한 예가 **의사 결정 만들기** 섹션은 여러 기준 및 여러 결정 범위가 사용되는 경우를 보여 줍니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* 의사 결정 관리 설명서에 동적 컬렉션에 개체 수준 액세스 제어 를 사용할 수 없다는 메모를 추가하여 명확해졌습니다. [자세히 보기](../offers/offer-library/creating-collections.md)
+* [!DNL Journey Optimizer] 2023년 6월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* **의사 결정 만들기** 섹션에 여러 기준과 여러 결정 범위가 사용되는 경우를 설명하는 평가 기준 순서 관련 예시를 추가헸습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* [의사 결정 관리] 설명서에서 보다 명확한 정보를 전달하기 위해 동적 컬렉션에는 [개체 수준 액세스 제어]를 사용할 수 없다는 메모를 추가했습니다. [자세히 보기](../offers/offer-library/creating-collections.md)
 
 ## 2023년 5월 {#may-2023}
 
