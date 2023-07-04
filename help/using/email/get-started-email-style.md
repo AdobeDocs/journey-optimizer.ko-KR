@@ -10,15 +10,15 @@ level: Intermediate
 keywords: 이메일, 스타일, css, 본문, 구조
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # 이메일 스타일 시작 {#get-started-email-style}
 
-에서 이메일 콘텐츠를 만들기 시작하면 [!DNL Journey Optimizer], 이메일 디자이너에서 여러 스타일 매개 변수와 속성을 조정할 수 있습니다 **[!UICONTROL 스타일]** 창.
+[!DNL Journey Optimizer]에서 이메일 콘텐츠를 만들 때는 [이메일 디자이너]의 **[!UICONTROL 스타일]** 창에서 여러 스타일 매개 변수와 속성을 조정할 수 있습니다.
 
 이메일 본문이나 구조 구성 요소 또는 콘텐츠 구성 요소를 변경할 수 있습니다.
 
