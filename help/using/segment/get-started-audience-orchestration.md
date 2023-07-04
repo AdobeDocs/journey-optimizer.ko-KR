@@ -12,9 +12,9 @@ hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
 source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -38,19 +38,19 @@ ht-degree: 67%
 
 >[!AVAILABILITY]
 >
->현재 대상자 구성은 제한된 고객 그룹만 사용할 수 있습니다. 질문이 있는 경우 Adobe 담당자에게 문의하십시오.
+>현재 대상자 구성은 일부 고객만 사용할 수 있습니다. 질문이 있는 경우 Adobe 담당자에게 문의하십시오.
 
 대상자 구성 기능으로 **구성 워크플로우**&#x200B;를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 제외...)을 활용하여 새 대상자를 만들 수 있습니다.
 
-완료되면 **결과 대상자** 는 기존 대상과 함께 Adobe Experience Platform에 백업되며 의 타겟 고객에게 활용될 수 있습니다. [Journey Optimizer 캠페인](../campaigns/get-started-with-campaigns.md), 또는 Adobe [Real-time Customer Data Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
+완료되면 **결과 대상자**&#x200B;는 기존 대상자와 함께 Adobe Experience Platform에 백업되어 [Journey Optimizer 캠페인](../campaigns/get-started-with-campaigns.md) 또는 Adobe [Real-Time Customer Data Platform 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko){target="_blank"}에서 고객을 타겟팅하는 데 활용할 수 있습니다.
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->현재는 작성 워크플로우로 인해 발생하는 대상자를 여정에서 사용할 수 없습니다.
+>현재는 구성 워크플로우에서 만든 대상자를 여정에서 사용할 수 없습니다.
 >
->Adobe Journey Optimizer의 캠페인은 아직 정책 시행 서비스와 통합되지 않았습니다. 따라서 대상 속성에 적용하는 데이터 사용 레이블은 Journey Optimizer 캠페인에 적용되지 않습니다.
+>Adobe Journey Optimizer의 캠페인은 아직 정책 시행 서비스와 통합되지 않았습니다. 따라서 대상자 속성에 적용하는 데이터 사용 레이블은 Journey Optimizer 캠페인에 적용되지 않습니다.
 
 대상자 구성 기능은 Adobe Journey Optimizer의 **[!UICONTROL 세그먼트]** 메뉴에서 액세스할 수 있습니다.
 
