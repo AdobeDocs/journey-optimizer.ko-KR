@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
 source-wordcount: '2595'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -36,14 +36,14 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>마케팅 사용 사례에 대한 API 트리거 캠페인</strong><br/></th>
+<th><strong>마케팅 사용 사례를 위한 API 트리거 캠페인</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>이제 API를 사용하여 외부 시스템에서 Adobe Journey Optimizer의 마케팅 캠페인을 트리거할 수 있습니다.</p>
-<p>이번 릴리스까지 API 트리거 캠페인 기능은 암호 재설정 또는 OTP 토큰과 같은 다양한 운영 및 트랜잭션 메시지 요구 사항을 다루었지만, 마케팅 캠페인을 만드는 데 사용할 수 없었습니다. API 트리거 캠페인에 사용할 수 있는 채널은 이메일, SMS 및 푸시 메시지입니다.</p>
+<p>이번 릴리스까지 API 트리거 캠페인 기능으로 암호 재설정이나 OTP 토큰 등 다양한 운영 및 트랜잭션 메시지 관련 필요를 충족할 수 있었지만, 마케팅 캠페인을 만드는 데는 사용할 수 없었습니다. API 트리거 캠페인에 사용할 수 있는 채널은 이메일, SMS, 푸시 메시지입니다.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
 <p>자세한 내용은 <a href="../campaigns/api-triggered-campaigns.md">세부 설명서</a>를 참조하십시오.
 </td>
