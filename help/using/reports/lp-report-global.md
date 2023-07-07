@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '532'
 ht-degree: 10%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 10%
 >title="랜딩 페이지 글로벌 보고서"
 >abstract="랜딩 페이지 글로벌 보고서를 사용하여 선택된 기간에 대해 랜딩 페이지의 영향을 측정할 수 있습니다. 보고서는 랜딩 페이지 성공 사례와 오류를 자세히 설명하는 여러 위젯으로 나눠집니다. 위젯 크기를 조정하거나 위젯을 제거하여 각 보고 대시보드를 수정할 수 있습니다."
 
-랜딩 페이지 **[!UICONTROL 글로벌 보고서]** 보고서는 선택한 기간 동안 랜딩 페이지의 영향에 대한 세부 정보를 표시합니다. 지난 24시간 동안의 랜딩 페이지 데이터만 측정하려면 [랜딩 페이지 라이브 보고서](lp-report-live.md).
+모든 시간 탭에서 액세스할 수 있는 글로벌 보고서에는 최소 2시간 전에 발생한 이벤트와 선택한 기간 동안의 이벤트가 표시됩니다. 반면 라이브 보고서는 이벤트 발생으로부터 최소 2분의 시간 간격을 가지고 지난 24시간 내에 발생한 이벤트에 중점을 둡니다.
 
 보고서에 액세스하려면 다음을 선택합니다. **[!UICONTROL 보고서]** 을 클릭합니다.
 

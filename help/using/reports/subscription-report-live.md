@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 22%
+source-wordcount: '264'
+ht-degree: 20%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 22%
 >title="구독 라이브 보고서"
 >abstract="구독 라이브 보고서를 통해 지난 24시간 동안 구독자 활동만 실시간으로 측정하고 시각화할 수 있습니다. 보고서는 구독 및 구독 취소를 자세히 설명하는 여러 위젯으로 나눠집니다. 위젯 크기를 조정하거나 위젯을 제거하여 각 보고 대시보드를 수정할 수 있습니다."
 
-구독 **[!UICONTROL 라이브 보고서]** 지난 24시간 동안의 구독자 활동에 대한 세부 정보만 표시합니다. 선택한 기간 동안의 구독을 측정하려면 다음을 참조하십시오. [구독 글로벌 보고서](subscription-report-global.md).
+[최근 24시간] 탭에서 액세스할 수 있는 라이브 보고서에는 지난 24시간 내에 발생한 이벤트를 표시하며 이벤트 발생에서 최소 2분 간격이 있습니다. 이에 비해 글로벌 보고서는 최소 2시간 전에 발생한 이벤트에 중점을 두며 선택한 기간 동안의 이벤트를 다룹니다.
 
 보고서에 액세스하려면 다음을 클릭합니다. **[!UICONTROL 보고서]** 선택한 구독 목록의 아이콘입니다.
 
