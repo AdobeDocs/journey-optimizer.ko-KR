@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 66cf0332c62a9c3b034398c3a6046cbcec622d40
+source-git-commit: 715674d48d01526b5e6a328ed3951357edc2b73b
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 28%
+source-wordcount: '1373'
+ht-degree: 26%
 
 ---
 
@@ -116,22 +116,22 @@ ht-degree: 28%
 
 * **[!UICONTROL 대상자 제외]**: 기존 대상자에 속한 프로필을 제외합니다.
 
-   다음을 클릭합니다. **[!UICONTROL 대상자 추가]** 버튼을 클릭하고 제외할 대상을 선택합니다.
+  다음을 클릭합니다. **[!UICONTROL 대상자 추가]** 버튼을 클릭하고 제외할 대상을 선택합니다.
 
-   ![](assets/audiences-exclude-audience.png)
+  ![](assets/audiences-exclude-audience.png)
 
 * **[!UICONTROL 속성을 사용하여 제외]**: 특정 속성을 기준으로 프로필을 제외합니다.
 
-   조회할 속성을 선택한 다음 제외할 값을 지정합니다. 이 예에서는 홈 주소가 일본에 있는 작성 프로필에서 제외합니다.
+  조회할 속성을 선택한 다음 제외할 값을 지정합니다. 이 예에서는 홈 주소가 일본에 있는 작성 프로필에서 제외합니다.
 
-   ![](assets/audiences-exclude-attribute.png)
+  ![](assets/audiences-exclude-attribute.png)
 
 ### 강화 {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="보강 활동"
->abstract="보강 활동을 사용하여 기존 대상자에 속하는 프로필을 제외합니다. 속성 유형을 사용하는 제외를 통해 특정 속성을 기반으로 프로필을 제외할 수 있습니다."
+>abstract="강화 활동을 사용하여 Adobe Experience Platform 데이터 세트에서 오는 추가 속성으로 대상자를 강화합니다. 예를 들어 구매된 제품과 관련된 이름, 가격 또는 제조업체 ID 등의 정보를 추가하고 이러한 정보를 활용하여 대상자에게 전송된 게재를 개인화할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -220,15 +220,15 @@ ht-degree: 28%
 
 * **[!UICONTROL 비율 분할]**: 프로필을 두 개 이상의 경로로 임의로 분할합니다. 예를 들어 프로필을 각각 50%의 2개의 서로 다른 경로로 분할할 수 있습니다. <!--and add an additional path for control group.-->
 
-   ![](assets/audiences-split-percentage.png)
+  ![](assets/audiences-split-percentage.png)
 
 * **[!UICONTROL 속성 분할]**: 특정 속성을 기준으로 프로필을 분할합니다. 이 예제에서는 룸 유형 기본 설정에 따라 프로필을 분할합니다.
 
-   ![](assets/audiences-split.png)
+  ![](assets/audiences-split.png)
 
-   >[!NOTE]
-   >
-   >다음 **[!UICONTROL 기타 프로필]** 옵션을 사용하면 다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만들 수 있습니다.
+  >[!NOTE]
+  >
+  >다음 **[!UICONTROL 기타 프로필]** 옵션을 사용하면 다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만들 수 있습니다.
 
 ## 대상자 저장 {#save}
 
