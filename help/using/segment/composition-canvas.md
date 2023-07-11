@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 715674d48d01526b5e6a328ed3951357edc2b73b
 workflow-type: tm+mt
 source-wordcount: '1373'
-ht-degree: 26%
+ht-degree: 31%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="보강 활동"
->abstract="강화 활동을 사용하여 Adobe Experience Platform 데이터 세트에서 오는 추가 속성으로 대상자를 강화합니다. 예를 들어 구매된 제품과 관련된 이름, 가격 또는 제조업체 ID 등의 정보를 추가하고 이러한 정보를 활용하여 대상자에게 전송된 게재를 개인화할 수 있습니다."
+>abstract="보강 활동을 사용하여 Adobe Experience Platform 데이터 세트에서 제공되는 추가 속성으로 대상자를 보강하십시오. 예를 들어 이름, 가격 또는 제조업체 ID와 같이 구매한 제품과 관련된 정보를 추가하고 이러한 정보를 활용하여 대상자에게 전송하는 게재를 개인화할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -148,7 +148,7 @@ ht-degree: 26%
 >title="보강 속성"
 >abstract="보강 데이터 세트에서 하나 또는 여러 속성을 선택하여 대상자와 연결합니다. 구성이 게시되면 해당 속성을 대상자에 연결하고 캠페인에서 활용하여 게재 정보를 개인화할 수 있습니다."
 
-다음 **[!UICONTROL 강화]** 활동을 사용하면 Adobe Experience Platform 데이터 세트에서 오는 추가 속성으로 대상자를 강화할 수 있습니다. 예를 들어 구매된 제품과 관련된 이름, 가격 또는 제조업체 ID 등의 정보를 추가하고 이러한 정보를 활용하여 대상자에게 전송된 게재를 개인화할 수 있습니다.
+다음 **[!UICONTROL 강화]** 활동을 사용하면 Adobe Experience Platform 데이터 세트에서 오는 추가 속성으로 대상자를 강화할 수 있습니다. 예를 들어 이름, 가격 또는 제조업체 ID와 같이 구매한 제품과 관련된 정보를 추가하고 이러한 정보를 활용하여 대상자에게 전송하는 게재를 개인화할 수 있습니다.
 
 >[!IMPORTANT]
 >
