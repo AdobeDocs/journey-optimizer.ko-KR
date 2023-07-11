@@ -9,20 +9,18 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: f5b4beb327804c23e58835de3218d67f1ab4e87e
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 2%
+source-wordcount: '573'
+ht-degree: 3%
 
 ---
 
 # 기본 권한 {#ootb-permissions}
 
 | 기능 | 권한 |
-|---|---|
-| 경고 | **[!DNL Manage alerts]**: 여정 및 권한에 대한 경고 규칙을 활성화/비활성화합니다.</br>**[!DNL Resolve alerts]**: 트리거된 경고를 해결할 수 있습니다.</br>**[!DNL View alerts]**: 수신된 경고 메시지를 보고 경고 탭에 액세스할 수 있습니다. </br>**[!DNL View alerts history]**: 받은 경고 내역을 볼 수 있습니다. |
+|-|-|
 | 캠페인 | **[!DNL Manage campaigns]**: 캠페인 읽기, 만들기, 편집 및 삭제 </br>**[!DNL Publish campaigns]**: 캠페인을 게시할 권한.</br>**[!DNL View campaigns]**: 캠페인에 대한 읽기 전용 액세스 권한. </br>**[!DNL View campaigns report]**: 캠페인 보고서를 읽고 편집합니다. |
-| 채널 구성 | **[!DNL View messages general settings]**: 메시지 일반 설정에 대한 읽기 전용 액세스 권한.</br>**[!DNL Manage web subdomain]**: 웹 하위 도메인을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage messages general settings]**: 메시지 일반 설정을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage suppression]**: 비표시 규칙 읽기, 작성, 편집 및 삭제.</br>**[!DNL Manage messages presets]**: 컨텐츠 브랜딩 읽기, 만들기, 편집 및 삭제&#x200B;</br>**[!DNL View messages presets]**: 메시지 사전 설정에 대한 읽기 전용 액세스 권한.</br>**[!DNL Manage SMS subdomains]**: SMS 하위 도메인을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage subdomains delegation]**: 하위 도메인 위임을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage IP pools]**: ip 풀 읽기, 만들기, 편집 및 삭제&#x200B;</br>**[!DNL Manage PTR records]**: PTR 레코드를 읽고 편집합니다.</br>**[!DNL View PTR records]**: PTR 레코드에 대한 읽기 전용 액세스&#x200B;</br>**[!DNL Manage channel surfaces]**: 컨텐츠 브랜딩 읽기, 만들기, 편집 및 삭제</br>**[!DNL Manage Landing page settings]**: 랜딩 페이지 하위 도메인 및 랜딩 페이지 사전 설정을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage SMS settings]**: SMS 채널을 활성화하는 데 필요한 API 자격 증명 및 SMS 채널 표면을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Export suppression list]**: 비표시 목록을 csv로 내보내기 액세스&#x200B;</br>**[!DNL View suppression list]**: 로컬 제외 목록을 읽고 내보냅니다. |
 | 대시보드 | **[!DNL View license usage dashboards]**: 라이선스 사용 대시보드에 대한 읽기 전용 액세스 권한입니다. </br>**[!DNL Manage custom dashboards]**: 새 대시보드를 만들거나 기존 대시보드를 편집할 수 있습니다.</br>**[!DNL View custom dashboards]**: 사용자 정의 대시보드에 대한 읽기 전용 액세스 권한. </br>**[!DNL View standard dashboards]**: 프로필, 대상 및 세그먼트 대시보드에 대한 읽기 전용 액세스 권한.</br>**[!DNL Manage standard dashboards]**: 위젯 라이브러리를 통해 사용자 정의 위젯을 만들고 위젯 스키마를 편집할 수 있습니다. |
 | 데이터 수집 | **[!DNL Manage datastream]**: 데이터스트림 읽기, 생성 및 편집&#x200B;</br>**[!DNL View datastream]**: 데이터스트림에 대한 읽기 전용 액세스. |
 | 데이터 거버넌스 | **[!DNL Manage usage labels]**: 레이블 읽기, 만들기, 편집 및 삭제&#x200B;</br>**[!DNL Manage data usage policies]**: 데이터 사용 정책을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View data usage policies]**: 조직에 속한 데이터 사용 정책에 대한 읽기 전용 액세스 권한.</br>**[!DNL View user activity log]**: Platform 활동의 기록된 감사 로그를 보기 위한 읽기 전용 액세스입니다. |

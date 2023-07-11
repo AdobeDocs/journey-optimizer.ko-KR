@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 객체 수준 액세스 제어
+title: 오브젝트 수준 액세스 제어
 description: 다양한 객체에 대한 데이터 액세스를 관리하기 위한 권한을 정의할 수 있는 객체 수준 액세스 제어에 대해 알아봅니다
 feature: Access Management
 topic: Administration
@@ -9,23 +9,19 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 객체, 레벨, 액세스, 제어, 레이블, olac, 인증
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 9cb6164f029fa0bd198a51ff934b272ae09ac3c3
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 14%
+source-wordcount: '436'
+ht-degree: 15%
 
 ---
 
-# 객체 수준 액세스 제어 {#object-level-access}
+# 오브젝트 수준 액세스 제어 {#object-level-access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
->title="객체 수준 액세스 제어"
+>title="오브젝트 수준 액세스 제어"
 >abstract="액세스 권한이 없는 레이블을 적용하면 이 오브젝트에 대한 액세스 권한이 해지됩니다."
-
->[!IMPORTANT]
->
->객체 수준 액세스 제어 사용은 현재 선택한 고객으로 제한되며 향후 릴리스의 모든 환경에 배포될 예정입니다.
 
 OLAC(Object Level Access Control)를 사용하면 다양한 객체에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다.
 

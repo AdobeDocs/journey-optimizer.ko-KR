@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 샌드박스, 가상, 환경, 조직, 플랫폼
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '354'
 ht-degree: 58%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 58%
 ## 샌드박스 사용 {#using-sandbox}
 
 [!DNL Journey Optimizer]에서는 인스턴스를 샌드박스라는 분리된 가상 환경으로 분할할 수 있습니다.
-샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. [샌드박스를 할당하는 방법을 알아봅니다](permissions.md#create-product-profile).
+샌드박스는 권한에서 역할을 통해 할당됩니다. [샌드박스를 할당하는 방법을 알아봅니다](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] (은)는 해당 조직을 위해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
 Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. [자세한 내용은 샌드박스 사용 안내서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko-KR){target="_blank"}.
@@ -38,27 +38,21 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 >
 > 샌드박스 관리는 **[!UICONTROL 제품]** 또는 **[!UICONTROL 시스템]** 관리자. 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
-기본 제공 또는 사용자 지정에 다른 샌드박스를 할당하도록 선택할 수 있습니다 **[!UICONTROL 제품 프로필]**.
+기본 제공 또는 사용자 지정에 다른 샌드박스를 할당하도록 선택할 수 있습니다 **[!UICONTROL 역할]**.
 
 샌드박스를 할당하려면
 
-1. 다음에서 [!DNL Admin Console], **[!UICONTROL 제품]** 탭에서 **[!UICONTROL Adobe Experience Platform 앱]** 제품.
-
-1. 선택 **[!UICONTROL 제품 프로필]**.
+1. 위치 [!DNL Permissions], **[!UICONTROL 역할]** 탭에서 다음을 선택합니다. **[!UICONTROL 역할]**.
 
    ![](assets/sandbox_1.png)
 
-1. 다음 항목 선택 **[!UICONTROL 권한]** 탭.
+1. **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
-1. 다음 항목 선택 **[!UICONTROL 샌드박스]** 기능.
-
-   ![](assets/sandbox_2.png)
-
-1. 아래 **[!UICONTROL 사용 가능한 권한 항목]**&#x200B;를 클릭하고 더하기(+) 아이콘을 클릭하여 샌드박스를 프로필에 할당합니다. [샌드박스에 대한 자세한 내용을 살펴보십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko){target="_blank"}.
+1. 다음에서 **[!UICONTROL 샌드박스]** 리소스 드롭다운에서 역할에 할당할 샌드박스를 선택합니다.
 
    ![](assets/sandbox_3.png)
 
-1. 필요한 경우 **[!UICONTROL 포함된 권한 항목]**&#x200B;에 대한 샌드박스 액세스 제거 옆에 있는 X 아이콘을 클릭합니다. **[!UICONTROL 제품 프로필]**.
+1. 필요한 경우 옆에 있는 X 아이콘을 클릭하여 샌드박스 액세스 제거 **[!UICONTROL 역할]**.
 
    ![](assets/sandbox_4.png)
 

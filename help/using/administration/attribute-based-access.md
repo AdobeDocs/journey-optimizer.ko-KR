@@ -9,18 +9,14 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, 속성, 권한, 데이터, 액세스, 중요, 에셋
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 3%
+source-wordcount: '1062'
+ht-degree: 1%
 
 ---
 
 # 속성 기반 액세스 제어 {#attribute-based-access}
-
->[!IMPORTANT]
->
->속성 기반 액세스 제어 사용은 현재 선택한 고객으로 제한되며 향후 릴리스의 모든 환경에 배포될 예정입니다.
 
 속성 기반 액세스 제어(ABAC)를 사용하면 특정 팀이나 사용자 그룹에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다. 그 목적은 개인 데이터를 더 이상 보호할 수 있도록 권한이 없는 사용자로부터 민감한 디지털 자산을 보호하는 것입니다.
 
@@ -96,7 +92,7 @@ ABAC에 사용되는 용어의 자세한 목록은 다음을 참조하십시오.
 
 을 추가할 수도 있습니다.  **[!UICONTROL 레이블]** 끝  **[!UICONTROL 스키마]**,  **[!UICONTROL 데이터 세트]** 및  **[!UICONTROL 세그먼트]**.
 
-1. 사용자 만들기 **[!UICONTROL 스키마]**. 자세한 내용은 다음을 참조하십시오. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko).
+1. 사용자 만들기 **[!UICONTROL 스키마]**. 자세한 내용은 다음을 참조하십시오. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR).
 
    ![](assets/label_1.png)
 
