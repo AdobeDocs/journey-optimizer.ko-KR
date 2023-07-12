@@ -282,7 +282,7 @@ ht-degree: 99%
    + 세그먼트 {#segments}
       + [세그먼트 시작](using/segment/about-segments.md)
       + [세그먼트 작성](using/segment/creating-a-segment.md)
-   + 프로필{#profiles}
+   + 프로필{#profiles}에 로그인되어 있는지 확인하십시오
       + [프로필 시작](using/segment/get-started-profiles.md)
       + [테스트 프로필 만들기](using/segment/creating-test-profiles.md)
    + [ID](using/segment/get-started-identity.md)
@@ -477,7 +477,7 @@ ht-degree: 99%
       + [권한 수준](using/administration/high-low-permissions.md)
    + [사용자 및 역할 관리](using/administration/permissions.md)
    + [속성 기반 액세스 제어](using/administration/attribute-based-access.md)
-   + [객체 수준 액세스 제어](using/administration/object-based-access.md)
+   + [오브젝트 수준 액세스 제어](using/administration/object-based-access.md)
    + [샌드박스 관리](using/administration/sandboxes.md)
 + 개인정보 보호 {#privacy}
    + [개인 정보 시작](using/privacy/get-started-privacy.md)
