@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 14%
+source-wordcount: '377'
+ht-degree: 8%
 
 ---
 
 # 컴포지션 워크플로우 처음 만들기 {#create-compositions}
-
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* [대상자 구성 시작](get-started-audience-orchestration.md)
-* **[컴포지션 워크플로우 처음 만들기](create-compositions.md)**
-* [컴포지션 캔버스 작업](composition-canvas.md)
-* [대상자 액세스 및 관리](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 ## 컴포지션 워크플로우 만들기 {#create}
 

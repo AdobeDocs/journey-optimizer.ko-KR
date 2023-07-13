@@ -7,14 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 91%
+source-wordcount: '273'
+ht-degree: 90%
 
 ---
 
@@ -24,21 +22,6 @@ ht-degree: 91%
 >id="ajo_ao_create_composition"
 >title="구성 만들기"
 >abstract="구성 워크플로를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만듭니다."
-
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* **[대상자 구성 시작](get-started-audience-orchestration.md)**
-* [컴포지션 워크플로우 처음 만들기](create-compositions.md)
-* [컴포지션 캔버스 작업](composition-canvas.md)
-* [대상자 액세스 및 관리](access-audiences.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->현재 대상자 구성은 일부 고객만 사용할 수 있습니다. 질문이 있는 경우 Adobe 담당자에게 문의하십시오.
 
 대상자 구성 기능으로 **구성 워크플로우**&#x200B;를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 제외...)을 활용하여 새 대상자를 만들 수 있습니다.
 

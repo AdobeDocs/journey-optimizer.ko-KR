@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 17%
+source-wordcount: '136'
+ht-degree: 6%
 
 ---
 
 # 대상자 액세스 및 관리 {#access-manage-audiences}
-
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* [대상자 구성 시작](get-started-audience-orchestration.md)
-* [컴포지션 워크플로우 처음 만들기](create-compositions.md)
-* [컴포지션 캔버스 작업](composition-canvas.md)
-* **[대상자 액세스 및 관리](access-audiences.md)**
-
->[!ENDSHADEBOX]
 
 대상자 작성으로 인한 대상자는 **[!UICONTROL 찾아보기]** 의 탭 **[!UICONTROL 대상]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
@@ -38,8 +25,6 @@ ht-degree: 17%
 ![](assets/audiences-list.png)
 
 >[!NOTE]
->
->이 베타 버전의 경우, 원래 대상 인벤토리에 표시된 여러 구성 요소 및/또는 메타데이터는 이 탭에 표시되지 않습니다(예: 분류, 평가 방법 등).
 >
 >Adobe Experience Platform에서 사용할 수 있는 다른 유형의 대상자에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 

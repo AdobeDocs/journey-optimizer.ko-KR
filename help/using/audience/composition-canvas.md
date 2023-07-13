@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 31%
+source-wordcount: '1354'
+ht-degree: 30%
 
 ---
 
 # 컴포지션 캔버스 작업 {#composition-canvas}
-
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* [대상자 구성 시작](get-started-audience-orchestration.md)
-* [컴포지션 워크플로우 처음 만들기](create-compositions.md)
-* **[컴포지션 캔버스 작업](composition-canvas.md)**
-* [대상자 액세스 및 관리](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 대상 컴포지션은 대상을 만들고 다양한 활동(분할, 강화 등)을 사용할 수 있는 시각적 캔버스를 제공합니다.
 
@@ -151,6 +138,8 @@ ht-degree: 31%
 다음 **[!UICONTROL 강화]** 활동을 사용하면 Adobe Experience Platform 데이터 세트에서 오는 추가 속성으로 대상자를 강화할 수 있습니다. 예를 들어 이름, 가격 또는 제조업체 ID와 같이 구매한 제품과 관련된 정보를 추가하고 이러한 정보를 활용하여 대상자에게 전송하는 게재를 개인화할 수 있습니다.
 
 >[!IMPORTANT]
+>
+>데이터 보강 가능 대상: **[!UICONOTROL Adobe Journey Optimizer]** 사용자만 사용할 수 있습니다.
 >
 >지금은 데이터 세트 수준 또는 필드 수준에서 데이터 세트의 레이블이 새로 만든 대상자에게 전파되지 않습니다. 이로 인해 최종 대상자의 액세스 제어 및/또는 데이터 거버넌스에 영향을 줄 수 있습니다. 따라서 대상자를 구성할 때는 테스트 데이터만 사용하십시오.
 
