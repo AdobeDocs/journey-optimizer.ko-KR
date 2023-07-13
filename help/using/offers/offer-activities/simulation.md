@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 12%
 >id="ajo_decisioning_simulation_test_profile"
 >title="테스트 프로필 추가"
 >abstract="ID 네임스페이스 및 해당 ID 값을 선택하여 테스트 프로필을 추가할 수 있습니다. 시뮬레이션에 사용할 수 있는 테스트 프로필이 제공되어야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=ko-KR" text="테스트 프로필 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="테스트 프로필 만들기"
 
 먼저 시뮬레이션에 사용할 테스트 프로필을 선택해야 합니다.
 
 >[!CAUTION]
 >
->게재할 오퍼를 시뮬레이션할 수 있는 테스트 프로필이 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../../segment/creating-test-profiles.md).
+>게재할 오퍼를 시뮬레이션할 수 있는 테스트 프로필이 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../../audience/creating-test-profiles.md).
 
 1. 클릭 **[!UICONTROL 프로필 관리]**.
 
@@ -66,7 +66,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보기 [이 섹션에서](../../segment/get-started-identity.md){target="_blank"}.
+   >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보기 [이 섹션에서](../../audience/get-started-identity.md){target="_blank"}.
 
 1. ID 값을 입력하고 클릭 **[!UICONTROL 보기]** 을 클릭하여 사용 가능한 프로필을 나열합니다.
 

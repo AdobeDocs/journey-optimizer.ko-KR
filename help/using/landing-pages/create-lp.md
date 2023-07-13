@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 27%
 >id="ajo_lp_access_management_labels"
 >title="랜딩 페이지에 레이블 지정"
 >abstract="민감한 디지털 자산을 보호하기 위해 레이블을 사용하여 랜딩 페이지에 대한 데이터 액세스를 관리하는 권한을 정의할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=ko-KR" text="객체 수준 액세스 제어"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=ko-KR" text="오브젝트 수준 액세스 제어"
 
 랜딩 페이지를 만드는 주요 단계는 다음과 같습니다.
 
@@ -205,7 +205,7 @@ ht-degree: 27%
 >id="ac_preview_lp_profiles"
 >title="랜딩 페이지 미리보기 및 테스트"
 >abstract="랜딩 페이지 설정 및 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리보기할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=ko-KR" text="테스트 프로필 선택"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="테스트 프로필 선택"
 
 랜딩 페이지 설정 및 콘텐츠를 정의하고 나면 테스트 프로필을 사용하여 미리 볼 수 있습니다. 를 삽입한 경우 [개인화된 콘텐츠](../personalization/personalize.md), 테스트 프로필 데이터를 사용하여 이 콘텐츠가 랜딩 페이지에 표시되는 방식을 확인할 수 있습니다.
 
@@ -213,7 +213,7 @@ ht-degree: 27%
 >
 >랜딩 페이지를 테스트하려면 다음을 수행해야 합니다. **[!UICONTROL 메시지 게시]** 권한.
 >
->메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../segment/creating-test-profiles.md).
+>메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../audience/creating-test-profiles.md).
 
 1. 랜딩 페이지 인터페이스에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 테스트 프로필 선택에 액세스합니다.
 
