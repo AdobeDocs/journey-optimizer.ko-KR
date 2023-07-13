@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '582'
 ht-degree: 9%
 
 ---
@@ -109,19 +109,11 @@ ht-degree: 9%
 
 유형: 문자열
 
->[!NOTE]
->
->문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다.
-
 ## 여정 버전 이름 {#journeyversionname-field}
 
 여정 버전 이름.
 
 유형: 문자열
-
->[!NOTE]
->
->문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다.
 
 ## journeyVersion {#journeyversion-field}
 

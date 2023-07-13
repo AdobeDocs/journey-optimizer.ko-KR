@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 15%
+source-wordcount: '1573'
+ht-degree: 16%
 
 ---
 
@@ -69,8 +69,6 @@ ht-degree: 15%
    >[!NOTE]
    >
    >고급 표현식 편집기는 를 정의할 때 사용할 수 없습니다. **[!UICONTROL 이벤트 ID 조건]**. 단순 표현식 편집기에서 모든 연산자를 사용할 수 있는 것은 아니며, 데이터 유형에 따라 다릅니다. 예를 들어 필드의 문자열 유형의 경우 &quot;포함&quot; 또는 &quot;같음&quot;을 사용할 수 있습니다.
-   >
-   >이벤트를 만든 후 새 열거형 값으로 스키마를 수정하는 경우, 다음 단계에 따라 변경 사항을 기존 이벤트에 적용해야 합니다. 이벤트 필드에서 열거형 필드를 선택 취소하고, 선택을 확인한 다음 열거형 필드를 다시 선택합니다. 이제 새 열거형 값이 표시됩니다.
 
 1. 네임스페이스를 추가합니다. 이 단계는 원하는 경우에만 수행하면 되지만, 네임스페이스를 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있습니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. [이 섹션](../event/about-creating.md#select-the-namespace)을 참조하십시오.
 
@@ -119,7 +117,7 @@ ht-degree: 15%
 
 네임스페이스를 통해 이벤트와 연계된 사용자를 식별하는 데 사용되는 키 유형을 정의할 수 있습니다. 구성은 선택 사항입니다. 에서 제공되는 추가 정보를 여정에서 검색하려면 필요합니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}. 사용자 지정 데이터 소스를 통해 서드파티 시스템에서 오는 데이터만 사용하는 경우에는 네임스페이스 정의가 필요하지 않습니다.
 
-미리 정의된 네임스페이스 서비스 중 하나를 사용하거나 ID 네임스페이스 서비스를 사용하여 새 프로필을 만들 수 있습니다. 을(를) 참조하십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko){target="_blank"}.
+미리 정의된 네임스페이스 서비스 중 하나를 사용하거나 ID 네임스페이스 서비스를 사용하여 새 프로필을 만들 수 있습니다. 을(를) 참조하십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR){target="_blank"}.
 
 기본 ID가 있는 스키마를 선택하는 경우 **[!UICONTROL 프로파일러 식별자]** 및 **[!UICONTROL 네임스페이스]** 필드는 미리 채워져 있습니다. ID가 정의되지 않은 경우 다음을 선택합니다 _identityMap > id_ 기본 키로 사용됩니다. 그런 다음 네임스페이스를 선택해야 하며 키는 미리 채워집니다( **[!UICONTROL 네임스페이스]** field) 사용 _identityMap > id_.
 

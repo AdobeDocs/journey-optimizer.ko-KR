@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 28%
+ht-degree: 21%
 
 ---
 
@@ -59,6 +59,6 @@ ht-degree: 28%
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-메시지에 프로필 기반 개인화를 추가하는 방법과 세그먼트 멤버십을 개인화 블록의 사전 조건으로 사용하는 방법을 알아봅니다.
+메시지에 프로필 기반 개인화를 추가하는 방법과 대상자 멤버십을 개인화 블록의 전제 조건으로 사용하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

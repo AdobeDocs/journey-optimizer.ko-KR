@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1378'
 ht-degree: 99%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 99%
       + [여정 활동 시작](using/building-journeys/about-journey-activities.md)
       + [일반 이벤트](using/building-journeys/general-events.md)
       + [반응](using/building-journeys/reaction-events.md)
-      + [세그먼트 자격 조건](using/building-journeys/segment-qualification-events.md)
+      + [대상 자격 조건](using/building-journeys/audience-qualification-events.md)
       + [조건](using/building-journeys/condition-activity.md)
       + [대기](using/building-journeys/wait-activity.md)
-      + [세그먼트 읽기](using/building-journeys/read-segment.md)
+      + [대상자 읽기](using/building-journeys/read-audience.md)
       + [이메일, 인앱, 푸시, SMS](using/building-journeys/journeys-message.md)
       + [사용자 정의 작업](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 작업](using/building-journeys/using-adobe-campaign-standard.md)
@@ -278,20 +278,20 @@ ht-degree: 99%
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
-+ 세그먼트, 프로필, 신원{#segment}
-   + 세그먼트 {#segments}
-      + [세그먼트 시작](using/segment/about-segments.md)
-      + [세그먼트 작성](using/segment/creating-a-segment.md)
-   + 프로필{#profiles}에 로그인되어 있는지 확인하십시오
-      + [프로필 시작](using/segment/get-started-profiles.md)
-      + [테스트 프로필 만들기](using/segment/creating-test-profiles.md)
-   + [ID](using/segment/get-started-identity.md)
++ 대상자, 프로필 및 ID{#audiences-profiles-identities}
+   + 대상자 {#audiences}
+      + [대상자 시작](using/audience/about-audiences.md)
+      + [세그먼트 정의 작성](using/audience/creating-a-segment-definition.md)
+   + 프로필{#profiles}
+      + [프로필 시작](using/audience/get-started-profiles.md)
+      + [테스트 프로필 만들기](using/audience/creating-test-profiles.md)
+   + [ID](using/audience/get-started-identity.md)
    + 대상자 구성 {#audience-orchestration}
-      + [대상자 구성 시작](using/segment/get-started-audience-orchestration.md)
-      + [컴포지션 워크플로우 만들기](using/segment/create-compositions.md)
-      + [컴포지션 캔버스 작업](using/segment/composition-canvas.md)
-      + [대상자 액세스 및 관리](using/segment/access-audiences.md)
-   + [라이선스 사용](using/segment/license-usage.md)
+      + [대상자 구성 시작](using/audience/get-started-audience-orchestration.md)
+      + [컴포지션 워크플로우 만들기](using/audience/create-compositions.md)
+      + [컴포지션 캔버스 작업](using/audience/composition-canvas.md)
+      + [대상자 액세스 및 관리](using/audience/access-audiences.md)
+   + [라이선스 사용](using/audience/license-usage.md)
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)
@@ -488,4 +488,3 @@ ht-degree: 99%
       + [옵트아웃 관리](using/privacy/opt-out.md)
       + [동의 정책 사용](using/action/consent.md)
    + [데이터 거버넌스](using/action/action-privacy.md)
-   + [고객 관리 키 설정 및 관리](using/privacy/cmk.md)

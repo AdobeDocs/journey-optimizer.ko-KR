@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 22752a30fef53808fa9deb80a2053d5bc22abc95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '363'
 ht-degree: 4%
 
 ---
@@ -94,7 +94,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **세그먼트 멤버십을 기반으로 하는 조건부 콘텐츠**
+1. **대상자 멤버십을 기반으로 한 조건부 콘텐츠**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,7 +106,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->세분화 및 세분화 서비스에 대한 자세한 내용은 다음을 참조하십시오. [섹션](../../segment/about-segments.md).
+>대상자 및 세분화 서비스에 대한 자세한 내용은 다음을 참조하십시오. [섹션](../../audience/about-audiences.md).
 
 
 ## Unless{#unless}

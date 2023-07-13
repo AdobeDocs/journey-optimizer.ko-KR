@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 3%
@@ -54,7 +54,7 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 * 여정은 를 통해 수동으로 닫힙니다. **[!UICONTROL 새 등록 마감]** 단추를 클릭합니다.
 * 실행이 완료된 일회성 세그먼트 기반 여정.
-* 반복 세그먼트 기반 여정의 마지막 발생 이후.
+* 반복 대상 기반 여정의 마지막 발생 이후.
 
 여정을 수동으로 닫으면 여정에 이미 입력한 고객이 경로를 완료할 수 있지만 새 사용자가 여정을 입력할 수 없게 됩니다. 여정이 닫히면 (위의 경우) 상태가 됩니다 **[!UICONTROL 종료됨]**. 이 여정은 새로운 개인이 여정에 입력하는 것을 중단합니다. 이미 여정에 있는 사람은 여정을 정상적으로 완료할 수 있습니다. 기본 전역 시간 제한 30일 후에 여정이 로 전환됩니다. **완료됨** 상태. 이 [섹션](../building-journeys/journey-gs.md#global_timeout)을 참조하세요.
 

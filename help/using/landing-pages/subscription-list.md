@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 목록, 구독, 서비스
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 12%
@@ -76,7 +76,7 @@ ht-degree: 12%
 
 구독 목록이 생성되면 랜딩 페이지에서 사용할 수 있습니다. 랜딩 페이지 양식을 통해 옵트인하는 프로필이 목록에 추가됩니다. [자세히 알아보기](design-lp.md)
 
-다음과 같은 경우 구독 목록을 세그먼트로 사용할 수도 있습니다. [여정 작성](../building-journeys/journey-gs.md#jo-build) 개인화 추가.
+다음과 같은 경우 구독 목록을 대상으로 사용할 수도 있습니다. [여정 작성](../building-journeys/journey-gs.md#jo-build) 개인화 추가.
 
 >[!NOTE]
 >

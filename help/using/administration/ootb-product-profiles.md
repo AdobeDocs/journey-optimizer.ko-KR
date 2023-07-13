@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 92ecaffe6e16ff4f3ac2221e3d69dfbb23d930b4
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 3%
+source-wordcount: '1129'
+ht-degree: 6%
 
 ---
 
@@ -24,17 +24,23 @@ ht-degree: 3%
 
 이 역할에는 다음 권한이 포함됩니다.
 
-| 리소스 | 권한| |-| |캠페인| <ul><li> **[!DNL Manage campaigns]**: 캠페인 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Publish campaigns]**: 캠페인을 게시합니다.</li><li>**[!DNL View campaigns report]**: 캠페인 보고서를 읽고 편집합니다.</li></ul>| |채널 구성|<ul><li>**[!DNL Manage subdomains delegation]**: 하위 도메인 위임을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage IP pools]**: ip 풀 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage PTR records]**: PTR 레코드를 읽고 편집합니다.</li><li>**[!DNL View PTR records]**: PTR 레코드에 대한 읽기 전용 액세스</li><li> **[!DNL Manage messages general settings]**: 메시지 일반 설정을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage messages presets]**: 컨텐츠 브랜딩 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage suppression rules]**: 비표시 규칙에 액세스, 생성, 편집 및 삭제</li><li>**[!DNL Export suppression list]**: 비표시 목록을 CSV 파일로 내보낼 수 있는 액세스 권한.</li><li>**[!DNL View suppression list]**: 로컬 제외 목록을 읽고 내보냅니다.</li><li>**[!DNL Manage alerts]**: 캠페인, 메시지 및 권한에 대한 경고를 활성화/비활성화합니다.</li><li>**[!DNL Manage landing page settings]**: 랜딩 페이지 설정을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage SMS settings]**: SMS 설정 읽기, 만들기, 편집 및 삭제</li></ul>|
-|의사 결정 관리|<ul><li>**[!DNL Manage decisions]**: 의사 결정을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 등급 전략을 읽기, 만들기, 편집 및 삭제합니다.</li></ul>|
-|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: 샌드박스에 대한 액세스 권한을 부여합니다.</li><li>**[!DNL Manage segments]**: 세그먼트 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read Identity namespace]**: id 네임스페이스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul>|
+| 리소스 | 권한 |
+|-|-|
+| 캠페인 | <ul><li> **[!DNL Manage campaigns]**: 캠페인 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Publish campaigns]**: 캠페인을 게시합니다.</li><li>**[!DNL View campaigns report]**: 캠페인 보고서를 읽고 편집합니다.</li></ul> |
+| 채널 구성 | <ul><li>**[!DNL Manage subdomains delegation]**: 하위 도메인 위임을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage IP pools]**: ip 풀 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage PTR records]**: PTR 레코드를 읽고 편집합니다.</li><li>**[!DNL View PTR records]**: PTR 레코드에 대한 읽기 전용 액세스</li><li> **[!DNL Manage messages general settings]**: 메시지 일반 설정을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage messages presets]**: 컨텐츠 브랜딩 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage suppression rules]**: 비표시 규칙에 액세스, 생성, 편집 및 삭제</li><li>**[!DNL Export suppression list]**: 비표시 목록을 CSV 파일로 내보낼 수 있는 액세스 권한.</li><li>**[!DNL View suppression list]**: 로컬 제외 목록을 읽고 내보냅니다.</li><li>**[!DNL Manage alerts]**: 캠페인, 메시지 및 권한에 대한 경고를 활성화/비활성화합니다.</li><li>**[!DNL Manage landing page settings]**: 랜딩 페이지 설정을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage SMS settings]**: SMS 설정 읽기, 만들기, 편집 및 삭제</li></ul> |
+| 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 등급 전략을 읽기, 만들기, 편집 및 삭제합니다.</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Sandbox]**: 샌드박스에 대한 액세스 권한을 부여합니다.</li><li>**[!DNL Manage segments]**: 세그먼트 정의를 읽고, 만들고, 편집하고, 삭제합니다. <li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read Identity namespace]**: id 네임스페이스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul> |
 
 ## [!DNL Campaign Approver] {#campaign-approver}
 
 다음 **[!DNL Campaign Approver]** 사용자는 역할을 통해 게재를 승인하고 게시할 수 있습니다. 나중에 를 사용하여 게재의 성공을 확인할 수 있습니다. **[!DNL Campaigns]** 보고서.
 
-| 리소스 | 권한| |-| |캠페인| <ul><li>**[!DNL Manage campaigns]**: 캠페인 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Publish campaigns]**: 캠페인을 게시합니다.</li><li>**[!DNL View Campaigns report]**: 여정 보고서를 읽고 편집합니다.</li></ul>|
-|의사 결정 관리| <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 메시지 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul>|
-|Adobe Experience Platform| <ul><li>**[!DNL Manage segments]**: 세그먼트 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul>| |채널 구성| <ul><li>**[!DNL View messages presets]**: 메시지 사전 설정에 대한 읽기 전용 액세스 권한.</li></ul>|
+| 리소스 | 권한 |
+|-|-|
+| 캠페인 | <ul><li>**[!DNL Manage campaigns]**: 캠페인 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Publish campaigns]**: 캠페인을 게시합니다.</li><li>**[!DNL View Campaigns report]**: 여정 보고서를 읽고 편집합니다.</li></ul> |
+| 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 메시지 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**: 세그먼트 정의를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul> |
+| 관리 | <ul><li>**[!DNL View messages presets]**: 메시지 사전 설정에 대한 읽기 전용 액세스 권한.</li></ul> |
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
@@ -42,9 +48,12 @@ ht-degree: 3%
 
 이 역할에는 다음 권한이 포함됩니다.
 
-| 리소스 | 권한| |-| |캠페인| <ul><li>**[!DNL Manage campaigns]**: 캠페인 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL View campaigns report]**: 여정 보고서를 읽고 편집합니다.</li></ul>|
-|의사 결정 관리| <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 메시지 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul>|
-|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: 세그먼트 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul>| |채널 구성| <ul><li>**[!DNL View messages presets]**: 메시지 사전 설정에 대한 읽기 전용 액세스 권한.</li></ul>|
+| 리소스 | 권한 |
+|-|-|
+| 캠페인 | <ul><li>**[!DNL Manage campaigns]**: 캠페인 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL View campaigns report]**: 여정 보고서를 읽고 편집합니다.</li></ul> |
+| 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 메시지 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul> |
+| Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: 세그먼트 정의를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul> |
+| 관리 | <ul><li>**[!DNL View messages presets]**: 메시지 사전 설정에 대한 읽기 전용 액세스 권한.</li></ul> |
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
 
@@ -54,8 +63,10 @@ ht-degree: 3%
 
 이 역할에는 다음 권한이 포함됩니다.
 
-| 리소스 | 권한| |-| |캠페인| <ul><li>**[!DNL View campaigns]**: 캠페인에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View campaigns report]**: 캠페인 보고서에 대한 읽기 전용 액세스 권한</li></ul>|
-|의사 결정 관리| <ul><li>**[!DNL View decisions]**: 의사 결정 엔티티에 대한 읽기 전용 액세스 권한.</li></ul>|
+| 리소스 | 권한 |
+|-|-|
+| 캠페인 | <ul><li>**[!DNL View campaigns]**: 캠페인에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View campaigns report]**: 캠페인 보고서에 대한 읽기 전용 액세스 권한</li></ul> |
+| 의사 결정 관리 | <ul><li>**[!DNL View decisions]**: 의사 결정 엔티티에 대한 읽기 전용 액세스 권한.</li></ul> |
 
 ## [!DNL Journey Administrator] {#journey-administrator}
 
@@ -63,10 +74,14 @@ ht-degree: 3%
 
 이 역할에는 다음 권한이 포함됩니다.
 
-| 리소스 | 권한| |-| |여정| <ul><li> **[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Publish journeys]**: 여정 게시.</li><li>**[!DNL Manage journeys events, data sources and actions]**: 이벤트, 소스 또는 작업을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</li></ul>| |채널 구성|<ul><li>**[!DNL Manage subdomains delegation]**: 하위 도메인 위임을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage IP pools]**: ip 풀 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage PTR records]**: PTR 레코드를 읽고 편집합니다.</li><li>**[!DNL View PTR records]**: PTR 레코드에 대한 읽기 전용 액세스</li><li>**[!DNL Manage channel surfaces]**: 컨텐츠 브랜딩 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage Landing page settings]**: 랜딩 페이지 하위 도메인 및 랜딩 페이지 사전 설정을 만들고, 편집하고, 삭제합니다.</li><li> **[!DNL Manage messages general settings]**: 메시지 일반 설정을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage SMS settings]**: SMS 채널을 활성화하는 데 필요한 API 자격 증명 및 SMS 채널 표면을 생성, 편집 및 삭제합니다.</li><li>**[!DNL Manage suppression rules]**: 비표시 규칙에 액세스, 생성, 편집 및 삭제</li><li>**[!DNL View suppression list]**: 로컬 제외 목록을 읽고 내보냅니다.</li><li>**[!DNL Manage alerts]**: 여정 및 권한에 대한 경고를 활성화/비활성화합니다.</li></ul>|
-|의사 결정 관리|<ul><li>**[!DNL Manage decisions]**: 의사 결정을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 등급 전략을 읽기, 만들기, 편집 및 삭제합니다.</li></ul>|
-|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: 샌드박스에 대한 액세스 권한을 부여합니다.</li><li>**[!DNL Manage segments]**: 세그먼트 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read Identity namespace]**: id 네임스페이스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul>| |Journey Optimizer 라이브러리|<ul><li>**[!DNL Manage Library Items]**: 저장된 표현식을 추가하고 삭제합니다. [!DNL Journey Optimizer] 라이브러리.</li></ul>|
-|데이터 거버넌스|<ul><li>**[!DNL Manage usage label]**: 사용량 레이블 읽기, 만들기 및 삭제</li><li>**[!DNL Manage data usage policies]**: 데이터 사용 정책을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL View data usage policies]**: 데이터 사용 정책에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View user activity log]**: 감사 로그를 읽고 내보냅니다.</li></ul>|
+| 리소스 | 권한 |
+|-|-|
+| 여정 | <ul><li> **[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Publish journeys]**: 여정 게시.</li><li>**[!DNL Manage journeys events, data sources and actions]**: 이벤트, 소스 또는 작업을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</li></ul> |
+| 채널 구성 | <ul><li>**[!DNL Manage subdomains delegation]**: 하위 도메인 위임을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage IP pools]**: ip 풀 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage PTR records]**: PTR 레코드를 읽고 편집합니다.</li><li>**[!DNL View PTR records]**: PTR 레코드에 대한 읽기 전용 액세스</li><li>**[!DNL Manage channel surfaces]**: 컨텐츠 브랜딩 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage Landing page settings]**: 랜딩 페이지 하위 도메인 및 랜딩 페이지 사전 설정을 만들고, 편집하고, 삭제합니다.</li><li> **[!DNL Manage messages general settings]**: 메시지 일반 설정을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage SMS settings]**: SMS 채널을 활성화하는 데 필요한 API 자격 증명 및 SMS 채널 표면을 생성, 편집 및 삭제합니다.</li><li>**[!DNL Manage suppression rules]**: 비표시 규칙에 액세스, 생성, 편집 및 삭제</li><li>**[!DNL View suppression list]**: 로컬 제외 목록을 읽고 내보냅니다.</li><li>**[!DNL Manage alerts]**: 여정 및 권한에 대한 경고를 활성화/비활성화합니다.</li></ul> |
+| 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 등급 전략을 읽기, 만들기, 편집 및 삭제합니다.</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Sandbox]**: 샌드박스에 대한 액세스 권한을 부여합니다.</li><li>**[!DNL Manage segments]**: 세그먼트 정의를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read Identity namespace]**: id 네임스페이스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul> |
+| Journey Optimizer 라이브러리 | <ul><li>**[!DNL Manage Library Items]**: 저장된 표현식을 추가하고 삭제합니다. [!DNL Journey Optimizer] 라이브러리.</li></ul> |
+| 데이터 거버넌스 | <ul><li>**[!DNL Manage usage label]**: 사용량 레이블 읽기, 만들기 및 삭제</li><li>**[!DNL Manage data usage policies]**: 데이터 사용 정책을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL View data usage policies]**: 데이터 사용 정책에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View user activity log]**: 감사 로그를 읽고 내보냅니다.</li></ul> |
 
 ## [!DNL Journey Approver] {#journey-approver}
 
@@ -74,9 +89,12 @@ ht-degree: 3%
 
 이 역할에는 다음 권한이 포함됩니다.
 
-| 리소스| 권한| |-| |여정| <ul><li>**[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Publish journey]**: 여정 게시.</li><li>**[!DNL View journeys events, data sources and actions]**: 여정 이벤트, 여정 지정 작업 및 여정 데이터 소스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</li></ul>|
-|의사 결정 관리| <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul>|
-|Adobe Experience Platform| <ul><li>**[!DNL Manage segments]**: 세그먼트 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul>| |채널 구성| <ul><li>**[!DNL View channel surfaces]**: 채널 표면에 대한 읽기 전용 액세스 권한.</li></ul>|
+| 리소스 | 권한 |
+|-|-|
+| 여정 | <ul><li>**[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Publish journey]**: 여정 게시.</li><li>**[!DNL View journeys events, data sources and actions]**: 여정 이벤트, 여정 지정 작업 및 여정 데이터 소스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</li></ul> |
+| 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**: 세그먼트 정의를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul> |
+| 관리 | <ul><li>**[!DNL View channel surfaces]**: 채널 표면에 대한 읽기 전용 액세스 권한.</li></ul> |
 
 ## [!DNL Journey Manager] {#journey-manager}
 
@@ -84,9 +102,12 @@ ht-degree: 3%
 
 이 역할에는 다음 권한이 포함됩니다.
 
-| 리소스 | 권한| |-| |여정| <ul><li>**[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL View journeys events]**: 여정 이벤트, 여정 지정 작업 및 여정 데이터 소스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</li></ul>|
-|의사 결정 관리| <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul>|
-|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: 세그먼트 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul>| |채널 구성| <ul><li>**[!DNL View channel surfaces]**: 채널 표면에 대한 읽기 전용 액세스 권한.</li></ul>|
+| 리소스 | 권한 |
+|-|-|
+| 여정 | <ul><li>**[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL View journeys events]**: 여정 이벤트, 여정 지정 작업 및 여정 데이터 소스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</li></ul> |
+| 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul> |
+| Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: 세그먼트 정의를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul> |
+| 관리 | <ul><li>**[!DNL View channel surfaces]**: 채널 표면에 대한 읽기 전용 액세스 권한.</li></ul> |
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 
@@ -96,8 +117,10 @@ ht-degree: 3%
 
 이 역할에는 다음 권한이 포함됩니다.
 
-| 리소스 | 권한| |-| |여정| <ul><li>**[!DNL View journeys]**: 여정에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View journeys event, data sources, actions]**: 여정 이벤트 및 데이터 소스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View journeys report]**: 여정 보고서에 대한 읽기 전용 액세스 권한.</li></ul>|
-|의사 결정 관리| <ul><li>**[!DNL View decisions]**: 의사 결정 엔티티에 대한 읽기 전용 액세스 권한.</li></ul>|
+| 리소스 | 권한 |
+|-|-|
+| 여정 | <ul><li>**[!DNL View journeys]**: 여정에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View journeys event, data sources, actions]**: 여정 이벤트 및 데이터 소스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View journeys report]**: 여정 보고서에 대한 읽기 전용 액세스 권한.</li></ul> |
+| 의사 결정 관리 | <ul><li>**[!DNL View decisions]**: 의사 결정 엔티티에 대한 읽기 전용 액세스 권한.</li></ul> |
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
@@ -105,7 +128,9 @@ ht-degree: 3%
 
 이 역할에는 다음 권한이 포함됩니다.
 
-| 기능 | 권한| |-| |의사 결정 관리| <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL View decisions]**: 의사 결정 엔티티에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li><li>**[!DNL Publish decisions]**: 의사 결정 활동을 활성화하거나 비활성화합니다.</li></ul>|
+| 기능 | 권한 |
+|-|-|
+| 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL View decisions]**: 의사 결정 엔티티에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li><li>**[!DNL Publish decisions]**: 의사 결정 활동을 활성화하거나 비활성화합니다.</li></ul> |
 
 ## [!DNL Content Library Manager] {#content-library-manager}
 
@@ -113,6 +138,8 @@ ht-degree: 3%
 
 이 역할에는 다음 권한이 포함됩니다.
 
-| 기능 | 권한| |-| |Journey Optimizer 라이브러리| <ul><li>**[!DNL Manage library items]**: Journey Optimizer 라이브러리 항목을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage simulate content]**: 액세스 권한 **[!UICONTROL 콘텐츠 시뮬레이션]** 미리보기 및 증명 옵션</li></ul>|
-|의사 결정 관리|<ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul>|
-|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: 세그먼트 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul>|
+| 기능 | 권한 |
+|-|-|
+| Journey Optimizer 라이브러리 | <ul><li>**[!DNL Manage library items]**: Journey Optimizer 라이브러리 항목을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage simulate content]**: 액세스 권한 **[!UICONTROL 콘텐츠 시뮬레이션]** 미리보기 및 증명 옵션</li></ul> |
+| 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul> |
+| Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: 세그먼트 정의를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul> |

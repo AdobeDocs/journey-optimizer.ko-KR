@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d9d73848acb40d8cba703309c38f0af2b89806a6
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 65%
+source-wordcount: '869'
+ht-degree: 98%
 
 ---
 
 # 사용자 인터페이스 {#cjm-user-interface}
 
-에 액세스하려면  [!DNL Adobe Journey Optimizer], 연결 대상 [Adobe Experience Cloud](https://experience.adobe.com) Adobe ID을 사용하여 다음을 선택합니다. [!DNL Journey Optimizer].
+[Adobe Experience Cloud](https://experience.adobe.com)에 연결하여 [!DNL Journey Optimizer]를 찾습니다.
 
 사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 공통됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ko#adobe-experience-platform-ui-guide)를 참조하십시오.{target="_blank"}
 
@@ -39,48 +39,27 @@ ht-degree: 65%
 
 왼쪽 탐색에 있는 서비스 및 기능의 전체 목록 및 관련 도움말 페이지에 대한 링크를 아래에서 확인할 수 있습니다.
 
-### 홈 {#left-nav-home}
+**홈**
 
-[!DNL Journey Optimizer] 홈 페이지에는 시작할 주요 링크와 리소스가 포함되어 있습니다.
+[!DNL Journey Optimizer] 홈 페이지에는 시작할 주요 링크와 리소스가 포함되어 있습니다. **[!UICONTROL 최근 항목]** 목록은 최근에 만들어진 이벤트 및 여정에 대한 단축키를 제공합니다. 이 목록에는 작성 및 수정 날짜와 상태가 표시됩니다.
 
-**[!UICONTROL 최근 항목]** 목록은 최근에 만들어진 이벤트 및 여정에 대한 단축키를 제공합니다. 이 목록에는 작성 및 수정 날짜와 상태가 표시됩니다.
+**[!UICONTROL 여정 관리]**
 
-제품 내 사용 사례를 탐색하여 리소스 및 메시지 작성을 시작합니다. [자세히 알아보기](#in-product-use-cases).
+* **[!UICONTROL 여정]** - 고객 여정을 생성하고, 구성하고, 조정합니다. [자세히 알아보기](../building-journeys/journey-gs.md#jo-build)
 
-홈 페이지 하단에 있는 링크를 사용하여 시작하는 방법 알아보기 [!DNL Journey Optimizer]. [자세히 알아보기](#find-help-and-support).
+* **[!UICONTROL 랜딩 페이지]** - 랜딩 페이지를 만들고, 설계하고, 테스트하고, 게시합니다. [자세히 보기](../landing-pages/get-started-lp.md)
 
-### [!UICONTROL 여정 관리] {#left-nav-journey}
-
-이 섹션에서 캠페인 및 여정을 빌드합니다.
-
-* **[!UICONTROL 캠페인]** - 다양한 채널을 사용하여 특정 대상에게 일회성 콘텐츠를 게재하기 위한 캠페인을 제작, 구성 및 조정합니다. [자세히 알아보기](../campaigns/get-started-with-campaigns.md)
-
-* **[!UICONTROL 여정]** - 고객 여정 만들기, 구성 및 오케스트레이션: 이벤트, 오케스트레이션 및 작업 활동을 결합하여 여러 단계로 구성된 크로스 채널 시나리오를 빌드합니다. [자세히 알아보기](../building-journeys/journey-gs.md#jo-build)
-
-* **[!UICONTROL 랜딩 페이지]** - 랜딩 페이지 만들기, 디자인, 테스트 및 게시: 커뮤니케이션 수신을 옵트인 또는 옵트아웃하거나 특정 서비스를 구독할 수 있는 온라인 양식에 대한 링크를 사용자에게 보냅니다. [자세히 보기](../landing-pages/get-started-lp.md)
-
-
-### [!UICONTROL 의사 결정 관리] {#left-nav-offers}
-
-이 섹션에서 오퍼 및 구성 요소를 만듭니다.
+**[!UICONTROL 의사 결정 관리]**
 
 * **[!UICONTROL 오퍼]** - 이 메뉴에서 최근 소스 및 데이터 세트에 액세스합니다. 이 섹션을 사용하여 오퍼를 만듭니다. [자세히 알아보기](../offers/offer-library/creating-personalized-offers.md)
 
 * **[!UICONTROL 구성 요소]** - 배치, 규칙, 태그를 만듭니다. [자세히 보기](../offers/offer-library/key-steps.md)
 
-### [!UICONTROL 콘텐츠 관리] {#left-nav-content}
-
-이 섹션에서 콘텐츠를 만들고 관리합니다.
+**[!UICONTROL 콘텐츠 관리]**
 
 * **[!UICONTROL 자산]** - [!DNL Adobe Experience Manager Assets Essentials]은 메시지를 채우는 데 사용할 수 있는 자산의 중앙 집중식 저장소입니다. [자세히 보기](../email/assets-essentials.md)
 
-* **[!UICONTROL 콘텐츠 템플릿]** - 디자인 프로세스를 가속화하고 개선하기 위해 독립 실행형 템플릿을 만들어 Journey Optimizer 캠페인 및 여정 전반에서 사용자 정의 콘텐츠를 쉽게 재사용할 수 있습니다. [자세히 알아보기](../email/content-templates.md)
-
-* **[!UICONTROL 조각]** - 조각을 만들고 관리하여 이메일 디자인 프로세스를 매끄럽게 만듭니다. 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 사용자 지정 콘텐츠 블록을 미리 빌드합니다. [자세히 보기](../email/fragments.md)
-
-### [!UICONTROL 데이터 관리] {#left-nav-data}
-
-이 섹션에서 데이터를 관리합니다.
+**[!UICONTROL 데이터 관리]**
 
 * **[!UICONTROL 스키마]** - Adobe Experience Platform을 사용하여 스키마 편집기라는 인터랙티브한 시각적 캔버스에서 XDM(경험 데이터 모델) 스키마를 만들고 관리할 수 있습니다. [자세히 보기](../data/get-started-schemas.md)
 
@@ -88,65 +67,37 @@ ht-degree: 65%
 
 * **[!UICONTROL 쿼리]** - Adobe Experience Platform 쿼리 서비스를 사용하여 쿼리를 작성하여 실행하고, 이전에 실행한 쿼리를 보고, 조직 내에서 사용자가 저장한 쿼리에 액세스합니다. [자세히 보기](../data/get-started-queries.md)
 
-* **[!UICONTROL 모니터링]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. 다음에서 자세히 알아보기 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko){target="_blank"}
+* **[!UICONTROL 모니터링]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko){target="_blank"}
 
-### [!UICONTROL 연결] {#left-nav-connections}
+**[!UICONTROL 연결]**
 
-이 섹션에서 다른 앱 및 클라우드와의 데이터 연결을 관리합니다.
+* **[!UICONTROL 소스]** - 이 메뉴를 사용하여 Adobe 애플리케이션, 클라우드 기반의 저장소, 데이터베이스 등 다양한 소스의 데이터를 수집합니다. 들어오는 데이터를 구조화, 라벨링하고 개선할 수 있습니다. [자세히 보기](get-started-sources.md)
 
-* **[!UICONTROL 소스]** - 이 메뉴를 사용하여 Adobe 애플리케이션, 클라우드 기반의 저장소, 데이터베이스 등 다양한 소스의 데이터를 수집합니다. 들어오는 데이터를 구조화, 라벨링하고 개선할 수 있습니다. [자세히 알아보기](get-started-sources.md)
+**[!UICONTROL 고객]**
 
-* **[!UICONTROL 대상]** - 이 메뉴를 사용하여 클라우드 저장소 위치와 실시간 연결을 만들어 데이터 세트의 콘텐츠를 내보낼 수 있습니다. [자세히 보기](../data/export-datasets.md)
+* **[!UICONTROL 대상]** - Experience Platform 세그먼트 정의를 만들고 관리하며 여정에 활용할 수 있습니다. [자세히 보기](../audience/about-audiences.md)
 
-### [!UICONTROL 고객] {#left-nav-customers}
+* **[!UICONTROL 프로필]** - 실시간 고객 프로필은 온라인, 오프라인, CRM 및 타사 데이터를 비롯한 다양한 채널의 데이터를 취합하여 각 개별 고객을 전체적으로 파악할 수 있도록 합니다. [자세히 보기](../audience/get-started-profiles.md)
 
-이 섹션에서 대상자 및 프로필 데이터를 관리합니다.
+* **[!UICONTROL ID]** - Adobe Experience Platform ID 서비스는 Adobe Experience Platform 내에서 ID 그래프로 알려진 방식으로 크로스 디바이스, 크로스 채널 및 실시간 고객 식별을 관리합니다. [자세히 보기](../audience/get-started-identity.md)
 
-* **[!UICONTROL 세그먼트]** - Experience Platform 세그먼트 정의를 만들고 관리하며 여정에 사용할 수 있습니다. [자세히 알아보기](../segment/about-segments.md)
+**[!UICONTROL 관리]**
 
-* **[!UICONTROL 구독 목록]** - 위치 [!DNL Journey Optimizer]을(를) 통해 구독 서비스를 옵트인한 고객이 구독 목록으로 수집됩니다. [자세히 보기](../landing-pages/subscription-list.md)
+* **[!UICONTROL 여정 관리]** - 이 메뉴를 사용하여 여정에서 사용할 [이벤트](../event/about-events.md), [데이터 소스](../datasource/about-data-sources.md), [작업](../action/action.md)을 구성합니다.
 
-* **[!UICONTROL 프로필]** - 실시간 고객 프로필은 온라인, 오프라인, CRM 및 타사 데이터를 비롯한 다양한 채널의 데이터를 취합하여 각 개별 고객을 전체적으로 파악할 수 있도록 합니다. [자세히 보기](../segment/get-started-profiles.md)
+* **[!UICONTROL 샌드박스]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. [자세히 보기](../administration/sandboxes.md)
 
-* **[!UICONTROL ID]** - Adobe Experience Platform ID 서비스는 Adobe Experience Platform 내에서 ID 그래프로 알려진 방식으로 크로스 디바이스, 크로스 채널 및 실시간 고객 식별을 관리합니다. [자세히 보기](../segment/get-started-identity.md)
-
-### [!UICONTROL 개인 정보 보호] {#left-nav-privacy}
-
-이 섹션에서 개인 정보 관리 및 요청을 제어합니다.
-
-* **[!UICONTROL 정책]** - Adobe Experience Platform을 사용하면 필드에 레이블을 지정하고 각 채널에 대한 마케팅 작업을 만들 수 있습니다. 그런 다음 레이블 및 마케팅 작업에 연결된 거버넌스 정책을 정의합니다. [자세히 알아보기](../action/action-privacy.md)
-
-* **[!UICONTROL 요청]** - 증명 요청은 Adobe Experience Platform Privacy Service에서 관리됩니다. 고객 데이터 요청을 관리하는 데 도움이 되는 RESTful API 및 사용자 인터페이스를 제공합니다. [자세히 알아보기](../privacy/requests.md)
-
-* **[!UICONTROL 감사]** - 이 섹션으로 이동하여 활동 로그를 확인하십시오. [자세히 알아보기](../privacy/audit-logs.md)
-
-* **[!UICONTROL 데이터 위생]** - 이 섹션에서는 데이터 위생 작업을 구성하고 예약하여 레코드가 올바르게 관리되도록 할 수 있습니다. [자세히 보기](../privacy/data-hygiene.md)
-
-### [!UICONTROL 관리] {#left-nav-admin}
-
-* **[!UICONTROL 구성]** - 이 메뉴를 사용하여 구성 [이벤트](../event/about-events.md), [데이터 소스](../datasource/about-data-sources.md), 및 [작업](../action/action.md) 여정에서 를 사용하십시오.
-
-  에 액세스할 수도 있습니다 **보고** 섹션 을 참조하십시오. [자세히 알아보기](../campaigns/reporting-configuration.md)
-
-* **[!UICONTROL 규칙]** - 이 섹션을 사용하여 크로스 채널 빈도 규칙을 만들어 사용자가 메시지를 받거나 여정에 입력하는 빈도를 제어합니다. [자세히 보기](../configuration/frequency-rules.md)
-
-* **[!UICONTROL 경고]** - 사용자 인터페이스를 사용하면 Adobe Experience Platform Observability Insights에서 공개한 지표를 기반으로 받은 경고 내역을 볼 수 있습니다. 또한 UI에서 사용 가능한 경고 규칙을 보고, 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](../reports/alerts.md)
-
-* **[!UICONTROL 샌드박스]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. 이 섹션을 탐색하여 샌드박스를 관리합니다. [자세히 알아보기](../administration/sandboxes.md)
-
-* **[!UICONTROL 채널]** - 이 섹션을 사용하여 하위 도메인, 서피스 및 게재 기능 설정을 비롯한 채널을 구성할 수 있습니다. [자세히 알아보기](../configuration/get-started-configuration.md)
-
-* **[!UICONTROL 태그]** - 통합 태그를 사용하면 여정 및 캠페인을 쉽게 분류하여 목록에서 검색을 개선할 수 있습니다. [자세히 알아보기](../start/search-filter-categorize.md#work-with-unified-tags)
+* **[!UICONTROL 경고]** - 사용자 인터페이스를 사용하면 Adobe Experience Platform Observability Insights에서 공개한 지표를 기반으로 받은 경고 내역을 볼 수 있습니다. 또한 UI에서 사용 가능한 경고 규칙을 보고, 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko){target="_blank"}
 
 ## 제품 내 사용 사례 {#in-product-uc}
 
-출처: [!DNL Adobe Journey Optimizer] 홈 페이지, 제품 사용 사례에서는 테스트 프로필 또는 첫 번째 고객 여정을 만드는 데 필요한 빠른 입력을 제공합니다.
+[!DNL Adobe Journey Optimizer] 홈 페이지의 제품 사용 사례를 통해 고객 여정을 만들 때 필요한 워크플로우를 빠르게 가져올 수 있습니다.
 
 ![](assets/use-cases-home.png)
 
 사용 가능한 사용 사례는 다음과 같습니다.
 
-* **테스트 프로필을 만들고**, CSV 템플릿을 사용하여 테스트 프로필을 만들어 개인화된 메시지 및 여정을 테스트합니다. [이 페이지](../segment/creating-test-profiles.md#use-case-1)에서 이 사용 사례를 구현하는 방법을 알아보세요.
+* **테스트 프로필을 만들고**, CSV 템플릿을 사용하여 테스트 프로필을 만들어 개인화된 메시지 및 여정을 테스트합니다. [이 페이지](../audience/creating-test-profiles.md#use-case-1)에서 이 사용 사례를 구현하는 방법을 알아보세요.
 * **고객에게 생일 메시지를 보내기** 고객의 생일을 축하하기 위해 자동으로 이메일을 보냅니다. (준비 중)
 * **신규 고객 환영 이메일 보내기**&#x200B;로 새로 가입한 고객을 환영하는 이메일을 최대 두 개까지 간단히 보낼 수 있습니다. (준비 중)
 * **가져온 고객 목록에 푸시 메시지 보내기** CSV 파일에서 가져온 고객 목록에 푸시 알림을 신속하게 전송할 수 있습니다. (준비 중)
@@ -155,7 +106,7 @@ ht-degree: 65%
 
 사용 사례를 실행하려면 **[!UICONTROL 시작]** 버튼을 클릭합니다.
 
-다음에서 실행된 사용 사례에 액세스할 수 있습니다. **[!UICONTROL 라이브러리 보기]** 단추를 클릭합니다.
+**[!UICONTROL 사용 사례 라이브러리 보기]** 버튼에서 실행된 사용 사례에 액세스할 수 있습니다.
 
 ## 도움말 및 지원 찾기 {#find-help}
 

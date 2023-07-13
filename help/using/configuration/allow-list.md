@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 허용 목록, 목록, 안전, 구성
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 14%
@@ -201,7 +201,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->이 있는 프로필 **[!UICONTROL 허용되지 않음]** 메시지 전송 프로세스 중에는 상태가 제외됩니다. 따라서 **여정 보고서** 은 이 프로필이 여정([세그먼트 읽기](../building-journeys/read-segment.md) 및 [메시지 활동](../building-journeys/journeys-message.md)), **이메일 보고서** 에는 포함되지 않습니다. **[!UICONTROL 전송됨]** 지표는 이메일을 보내기 전에 필터링됩니다.
+>이 있는 프로필 **[!UICONTROL 허용되지 않음]** 메시지 전송 프로세스 중에는 상태가 제외됩니다. 따라서 **여정 보고서** 은 이 프로필이 여정([대상자 읽기](../building-journeys/read-audience.md) 및 [메시지 활동](../building-journeys/journeys-message.md)), **이메일 보고서** 에는 포함되지 않습니다. **[!UICONTROL 전송됨]** 지표는 이메일을 보내기 전에 필터링됩니다.
 >
 >에 대해 자세히 알아보기 [라이브 보고서](../reports/live-report.md) 및 [글로벌 보고서](../reports/global-report.md).
 

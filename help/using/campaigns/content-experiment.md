@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 382aa7089a84a9c4e0d37800ae77a53918c380f2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 6%
@@ -65,9 +65,9 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
    * **[!UICONTROL 이름]**
    * **[!UICONTROL 설명]**
 
-1. 타깃팅할 대상을 정의합니다. 이렇게 하려면 **[!UICONTROL 대상자 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 세그먼트 목록을 표시합니다. [세그먼트에 대해 자세히 알아보기](../segment/about-segments.md)
+1. 타깃팅할 대상을 정의합니다. 이렇게 하려면 **[!UICONTROL 대상자 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 대상 목록을 표시합니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)
 
-   다음에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](get-started-experiment.md#content-experiment-work)
+   다음에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](get-started-experiment.md#content-experiment-work)
 
    ![](assets/content_experiment_16.png)
 

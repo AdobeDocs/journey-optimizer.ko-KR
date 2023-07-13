@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campaign, acc, 통합
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 22%
@@ -33,7 +33,7 @@ Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로�
 
 ## 중요 정보 {#important-notes}
 
-* 메시지 제한이 없습니다. 시스템은 현재 Campaign SLA를 기준으로 5분당 4000개 이상으로 보낼 수 있는 메시지 수를 제한합니다. 이러한 이유로 Journey Optimizer은 단일 사용 사례(세그먼트가 아닌 개별 이벤트)에서만 사용해야 합니다.
+* 메시지 제한이 없습니다. 시스템은 현재 Campaign SLA를 기준으로 5분당 4000개 이상으로 보낼 수 있는 메시지 수를 제한합니다. 이러한 이유로 Journey Optimizer은 단일 사용 사례(대상이 아닌 개별 이벤트)에서만 사용해야 합니다.
 
 * 사용하려는 템플릿당 캔버스에서 하나의 작업을 구성해야 합니다. Adobe Campaign에서 사용하려는 각 템플릿에 대해 Journey Optimizer에서 하나의 작업을 구성해야 합니다.
 
@@ -41,7 +41,7 @@ Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로�
 
 * 페이로드 또는 캠페인 메시지가 올바른지 확인할 수 없습니다.
 
-* 세그먼트 자격 이벤트에서 Campaign 작업을 사용할 수 없습니다.
+* 대상자 자격 이벤트에는 Campaign 작업을 사용할 수 없습니다.
 
 ## 사전 요구 사항 {#prerequisites}
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%
@@ -59,7 +59,7 @@ ht-degree: 9%
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-1. 캠페인 속성과 같은 이메일 캠페인을 만드는 단계를 완료합니다. [대상자](../segment/about-segments.md), 및 [예약](../campaigns/create-campaign.md#schedule).
+1. 캠페인 속성과 같은 이메일 캠페인을 만드는 단계를 완료합니다. [대상자](../audience/about-audiences.md), 및 [예약](../campaigns/create-campaign.md#schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -122,9 +122,9 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 옵트아웃 링크가 이메일 본문에 없습니다.]**: 이메일 본문에 구독 취소 링크를 추가하는 것이 좋습니다. 에서 구성하는 방법 알아보기 [이 섹션](../privacy/opt-out.md#opt-out-management).
 
-      >[!NOTE]
-      >
-      >마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 카테고리(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는에서 정의됩니다. [채널 표면](email-settings.md#email-type) 레벨 및 시기 [메시지 만들기](#create-email-journey-campaign) 여정 또는 캠페인에서.
+     >[!NOTE]
+     >
+     >마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 카테고리(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는에서 정의됩니다. [채널 표면](email-settings.md#email-type) 레벨 및 시기 [메시지 만들기](#create-email-journey-campaign) 여정 또는 캠페인에서.
 
    * **[!UICONTROL HTML의 텍스트 버전이 비어 있음]**: HTML 콘텐츠를 표시할 수 없을 때 사용되므로 이메일 본문의 텍스트 버전을 정의하는 것을 잊지 마십시오. 에서 텍스트 버전을 만드는 방법을 알아봅니다. [이 섹션](text-version-email.md).
 
@@ -136,12 +136,11 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 제목 줄이 누락되었습니다.]**: 이메일 제목 줄은 필수입니다. 에서 이를 정의하고 개인화하는 방법에 대해 알아봅니다. [이 섹션](create-email.md).
 
-   <!--HTML is empty when Amp HTML is present-->
+  <!--HTML is empty when Amp HTML is present-->
 
    * **[!UICONTROL 메시지의 이메일 버전이 비어 있습니다.]**: 이 오류는 이메일 콘텐츠가 구성되지 않았을 때 표시됩니다. 에서 이메일 콘텐츠를 디자인하는 방법 알아보기 [이 섹션](get-started-email-design.md).
 
    * **[!UICONTROL 표면이 존재하지 않음]**: 메시지를 만든 후 선택한 표면이 삭제되면 메시지를 사용할 수 없습니다. 이 오류가 발생하면 메시지에서 다른 서피스를 선택합니다 **[!UICONTROL 속성]**. 의 채널 표면에 대해 자세히 알아보기 [이 섹션](../configuration/channel-surfaces.md).
-
 
 >[!CAUTION]
 >

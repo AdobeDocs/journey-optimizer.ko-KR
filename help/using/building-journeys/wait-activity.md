@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 428f670eef8b5bda112692eaff29d5e1a983fe1a
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >title="대기 활동"
 >abstract="경로에서 다음 활동을 실행할 때까지 대기하려면 대기 활동을 사용할 수 있습니다. 이를 통해 다음 활동이 실행되는 시점을 정의할 수 있습니다. 지속 기간과 사용자 정의와 같은 두 가지 옵션을 사용할 수 있습니다."
 
-경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL 대기]** 활동. 이를 통해 다음 활동이 실행되는 시점을 정의할 수 있습니다. 다음 옵션을 사용할 수 있습니다.
+경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL 대기]** 활동. 이를 통해 다음 활동이 실행되는 시점을 정의할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다.
 
 * [기간](#duration)
 * [사용자 지정](#custom)

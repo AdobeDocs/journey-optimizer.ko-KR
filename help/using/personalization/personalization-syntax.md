@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 구문, 개인화
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '735'
 ht-degree: 9%
 
 ---
@@ -76,12 +76,12 @@ Handlebars에서 반환된 값은 {{expression}} 은(는) **HTML 이스케이프
 
 `{{profile.faxPhone.number}}`
 
-## 세그먼트{#perso-segments}
+## Audiences{#perso-segments}
 
 의 조건에서 프로필 속성을 활용하는 방법 알아보기 [이 섹션](functions/helpers.md#if-function).
 
 >[!NOTE]
->세그먼테이션 및 세그먼테이션 서비스에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../segment/about-segments.md).
+>세분화 서비스에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 ## 오퍼 {#offers-syntax}
 
@@ -107,19 +107,19 @@ Decisions API 및 오퍼 표시에 대한 자세한 내용은 다음을 참조�
 
 * 이미지가 호스팅되는 위치:
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
 * 이미지를 클릭할 때 Target URL:
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
 * 의사 결정 엔진에서 제공되는 오퍼의 텍스트 콘텐츠:
 
-   `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 * decisioning 엔진에서 제공하는 오퍼의 HTML 콘텐츠:
 
-   `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
 ## 도우미{#helpers-all}
@@ -134,6 +134,7 @@ Handlebars 도우미는 매개 변수 뒤에 올 수 있는 간단한 식별자�
 >[!NOTE]
 >
 >도우미 기능은에 자세히 설명되어 있습니다 [이 섹션](functions/helpers.md).
+>
 
 ## 리터럴 유형 {#literal-types}
 
@@ -163,7 +164,8 @@ Journey Optimizer을 사용하면 개인화 필드를 추가하여 메시지에 
 
 >[!NOTE]
 >
->표현식 편집기에서 개인화된 URL을 편집하면 보안상의 이유로 도우미 함수와 세그먼트 멤버십이 비활성화됩니다.
+>표현식 편집기에서 개인화된 URL을 편집하면 보안상의 이유로 도우미 함수와 대상 멤버십이 비활성화됩니다.
+>
 
 **개인화된 샘플 URL**
 

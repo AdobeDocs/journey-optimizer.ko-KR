@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,7 @@ Adobe Journey Optimizer를 사용하면 이 데이터를 쉽게 관리하고 유
 >[!NOTE]
 >
 > Adobe Journey Optimizer는 Adobe Experience Platform을 기반으로 구축되어 기본적으로 [Adobe실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에 연결되어 있습니다. 기본 제공 데이터 소스는 사전 구성되어 있으며 실시간 고객 프로필에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정에 참여한 사람이 클라이언트인지 여부 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. [자세히 알아보기](../datasource/adobe-experience-platform-data-source.md).
+>
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 
@@ -34,7 +35,7 @@ Journey Optimizer에서 여정을 만든 후 Customer Journey Analytics는 플�
 
 ## Adobe Analytics{#integration-aa}
 
-이미 플랫폼에 캡처 및 스트리밍 되고 있는 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 고객을 위해 고객의 실시간 여정을 유도하고 경험을 자동화할 수 있습니다. 이 데이터는 Journey Optimizer를 사용하여 결합할 수 있는 세그먼트를 만드는 데도 사용할 수 있습니다.
+이미 플랫폼에 캡처 및 스트리밍 되고 있는 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 고객을 위해 고객의 실시간 여정을 유도하고 경험을 자동화할 수 있습니다. 이 데이터는 Journey Optimizer을 사용하여 결합할 수 있는 대상을 만드는 데에도 사용할 수 있습니다.
 
 [Journey Optimizer + Analytics](../event/about-analytics.md)에 대해 자세히 알아보세요.
 

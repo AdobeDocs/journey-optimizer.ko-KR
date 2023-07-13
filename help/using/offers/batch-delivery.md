@@ -1,8 +1,8 @@
 ---
 title: 일괄 의사 결정
-description: 주어진 Adobe Experience Platform 세그먼트의 모든 프로필에 오퍼 의사 결정을 전달하는 방법을 알아봅니다.
+description: 주어진 Adobe Experience Platform 대상의 모든 프로필에 오퍼 의사 결정을 전달하는 방법을 알아봅니다.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -13,9 +13,9 @@ ht-degree: 2%
 
 ## 일괄 처리 의사 결정 시작 {#start}
 
-Journey Optimizer을 사용하면 주어진 Adobe Experience Platform 세그먼트의 모든 프로필에 오퍼 의사 결정을 전달할 수 있습니다.
+Journey Optimizer을 사용하면 주어진 Adobe Experience Platform 대상의 모든 프로필에 오퍼 의사 결정을 전달할 수 있습니다.
 
-이렇게 하려면 타깃팅할 세그먼트와 사용할 오퍼 결정에 대한 정보가 포함될 작업 요청을 Journey Optimizer에서 만들어야 합니다. 그런 다음 세그먼트에 있는 각 프로필에 대한 오퍼 콘텐츠는 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
+이렇게 하려면 타깃팅할 대상과 사용할 오퍼 결정에 대한 정보가 포함된 작업 요청을 Journey Optimizer에서 만들어야 합니다. 그런 다음 대상의 각 프로필에 대한 오퍼 컨텐츠가 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
 
 API를 사용하여 일괄 게재를 수행할 수도 있습니다. 자세한 내용은 [Batch Decisioning API 설명서](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
@@ -25,11 +25,11 @@ API를 사용하여 일괄 게재를 수행할 수도 있습니다. 자세한 �
 
 * **데이터 세트** Adobe Experience Platform. 이 데이터 세트는 &quot;ODE DecisionEvents&quot; 스키마를 사용하여 결정 결과를 저장하는 데 사용됩니다. 다음에서 자세히 알아보기 [데이터 세트 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko).
 
-* **세그먼트** Adobe Experience Platform. 세그먼트를 평가한 다음 업데이트해야 합니다. 에서 세그먼트 멤버십 평가를 업데이트하는 방법을 알아봅니다. [세그먼테이션 서비스 설명서](https://www.adobe.com/go/segmentation-overview-en)
+* **대상자** Adobe Experience Platform. 대상자를 평가한 다음 업데이트해야 합니다. 에서 대상자 멤버십 평가를 업데이트하는 방법을 알아봅니다. [세그먼테이션 서비스 설명서](http://www.adobe.com/go/segmentation-overview-en)
 
-   >[!NOTE]
-   >
-   >하루에 한 번 발생하는 프로필 스냅샷에서 일괄 작업이 실행됩니다. 일괄 처리 의사 결정은 빈도를 제한하며 항상 가장 최근 스냅샷에서 프로필을 로드합니다. Batch Decisioning API를 시도하기 전에 세그먼트를 만든 후 최대 24시간 대기하십시오.
+  >[!NOTE]
+  >
+  >하루에 한 번 발생하는 프로필 스냅샷에서 일괄 작업이 실행됩니다. 일괄 처리 의사 결정은 빈도를 제한하며 항상 가장 최근 스냅샷에서 프로필을 로드합니다. Batch Decisioning API를 시도하기 전에 대상을 만든 후 최대 24시간 대기하십시오.
 
 * **결정** Adobe Journey Optimizer. [의사 결정을 만드는 방법 알아보기](offer-activities/create-offer-activities.md)
 
@@ -45,9 +45,9 @@ API를 사용하여 일괄 게재를 수행할 수도 있습니다. 자세한 �
 
 1. 작업 요청의 이름을 지정한 다음 작업 데이터를 전송해야 하는 데이터 세트를 선택합니다.
 
-1. 타깃팅할 Adobe Experience Platform 세그먼트를 선택합니다.
+1. 타깃팅할 Adobe Experience Platform 대상을 선택합니다.
 
-1. 오퍼를 세그먼트로 전달하는 데 사용할 오퍼 결정 범위를 하나 이상 선택하십시오.
+1. 대상자에게 오퍼를 전달하는 데 사용할 오퍼 결정 범위를 하나 이상 선택합니다.
    1. 목록에서 배치를 선택합니다.
    1. 선택한 배치에 사용할 수 있는 결정이 표시됩니다. 원하는 결정을 선택하고 **[!UICONTROL 추가]**.
    1. 작업을 반복하여 원하는 만큼 결정 범위를 추가합니다.
@@ -93,11 +93,11 @@ API를 사용하여 일괄 게재를 수행할 수도 있습니다. 자세한 �
 
 모든 일괄 처리 작업에 대한 전체 시간은 작업 로드가 생성된 시간부터 결정 결과를 출력 데이터 세트에서 사용할 수 있는 시간까지의 기간입니다.
 
-세그먼트 크기는 엔드 투 엔드 배치 결정 시간에 영향을 주는 주요 요소입니다. 적격 오퍼에 글로벌 빈도 상한이 활성화된 경우 일괄 의사 결정을 완료하는 데 추가 시간이 소요됩니다. 다음은 해당 세그먼트 크기에 대한 엔드 투 엔드 처리 시간의 몇 가지 근사치이며, 적격 오퍼에 대한 빈도 상한이 있거나 없는 경우입니다.
+대상자 크기는 전체 일괄 처리 결정 시간에 영향을 주는 주요 요소입니다. 적격 오퍼에 글로벌 빈도 상한이 활성화된 경우 일괄 의사 결정을 완료하는 데 추가 시간이 소요됩니다. 다음은 적격 오퍼에 대한 빈도 상한이 있거나 없는 각 대상 크기에 대한 전체적인 처리 시간 근사치입니다.
 
 적격 제안에 대해 빈도 상한이 활성화된 경우:
 
-| 세그먼트 크기 | 전체 처리 시간 |
+| 대상자 크기 | 전체 처리 시간 |
 |--------------|----------------------------|
 | 1만 프로필 이하 | 7분 |
 | 100만 프로필 이하 | 30분 |
@@ -105,7 +105,7 @@ API를 사용하여 일괄 게재를 수행할 수도 있습니다. 자세한 �
 
 적격 오퍼에 대한 빈도 제한 없음:
 
-| 세그먼트 크기 | 전체 처리 시간 |
+| 대상자 크기 | 전체 처리 시간 |
 |--------------|----------------------------|
 | 1만 프로필 이하 | 6분 |
 | 100만 프로필 이하 | 8분 |

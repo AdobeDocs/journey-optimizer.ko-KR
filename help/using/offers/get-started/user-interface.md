@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 36%
@@ -26,7 +26,7 @@ ht-degree: 36%
 * **[!UICONTROL 오퍼]**: 개인화된 오퍼와 대체 오퍼를 만들고 액세스합니다. 만드는 방법 알아보기 [오퍼](../offer-library/creating-personalized-offers.md) 및 [대체 오퍼](../offer-library/creating-fallback-offers.md)
 * **[!UICONTROL 컬렉션]**: 오퍼를 정적 및 동적 컬렉션으로 구성합니다. [자세히 알아보기](../offer-library/creating-collections.md)
 * **[!UICONTROL 결정]**: 오퍼를 게재할 의사 결정을 만들고 관리합니다. [자세히 알아보기](../offer-activities/create-offer-activities.md)
-* **[!UICONTROL 일괄 의사 결정]**: 주어진 Adobe Experience Platform 세그먼트의 모든 프로필에 오퍼 의사 결정을 전달합니다. [자세히 알아보기](../batch-delivery.md)
+* **[!UICONTROL 일괄 의사 결정]**: 주어진 Adobe Experience Platform 대상의 모든 프로필에 오퍼 의사 결정을 전달합니다. [자세히 알아보기](../batch-delivery.md)
 * **[!UICONTROL 시뮬레이션]**: 주어진 배치에 대해 테스트 프로필에 게재할 오퍼를 시뮬레이션하여 의사 결정 논리의 유효성을 검사합니다. [자세히 알아보기](../offer-activities/simulation.md)
 
 사용 **[!UICONTROL 구성 요소]** 오퍼 및 의사 결정을 만드는 데 필요한 구성 요소를 만들고 관리하기 위한 메뉴:

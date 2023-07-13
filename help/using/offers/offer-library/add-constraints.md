@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="적격성 정의"
->abstract="기본적으로 모든 프로필에 오퍼가 표시될 수 있지만, 세그먼트 또는 결정 규칙을 사용하여 오퍼를 특정 프로필로 제한할 수 있습니다."
+>abstract="기본적으로 모든 프로필은 오퍼를 제공할 수 있지만, 대상자 또는 의사 결정 규칙을 사용하여 오퍼를 특정 프로필로 제한할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,21 +75,21 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="총 프로필 예상"
->abstract="세그먼트 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다."
+>abstract="대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다."
 
-다음 **[!UICONTROL 오퍼 자격 요건]** 섹션에서는 세그먼트 또는 의사 결정 규칙을 사용하여 정의하는 특정 프로필로 오퍼를 제한할 수 있습니다.
+다음 **[!UICONTROL 오퍼 자격 요건]** 섹션에서는 대상자 또는 의사 결정 규칙을 사용하여 정의하는 특정 프로필로 오퍼를 제한할 수 있습니다.
 
 >[!NOTE]
 >
->사용에 대해 자세히 알아보기 **세그먼트** 및 **의사 결정 규칙** 위치: [이 섹션](#segments-vs-decision-rules).
+>사용에 대해 자세히 알아보기 **대상** 및 **의사 결정 규칙** 위치: [이 섹션](#segments-vs-decision-rules).
 
 * 기본적으로 **[!UICONTROL 모든 방문자]** 옵션이 선택되어 있으므로 모든 프로필에서 오퍼를 제공할 수 있습니다.
 
   ![](../assets/offer-eligibility-default.png)
 
-* 하나 또는 여러 명의 멤버로 오퍼 표시를 제한할 수도 있습니다 [Adobe Experience Platform 세그먼트](../../segment/about-segments.md).
+* 하나 또는 여러 명의 멤버로 오퍼 표시를 제한할 수도 있습니다 [Adobe Experience Platform 대상](../../audience/about-audiences.md).
 
-  이렇게 하려면 를 활성화합니다. **[!UICONTROL 하나 또는 여러 세그먼트에 속하는 방문자]** 옵션을 선택한 다음 왼쪽 창에서 하나 또는 여러 세그먼트를 추가하고 **[!UICONTROL 및]** / **[!UICONTROL 또는]** 논리 연산자.
+  이렇게 하려면 를 활성화합니다. **[!UICONTROL 하나 또는 여러 대상에 속하는 방문자]** 옵션을 선택한 다음 왼쪽 창에서 하나 또는 여러 대상자를 추가하고 **[!UICONTROL 및]** / **[!UICONTROL 또는]** 논리 연산자.
 
   ![](../assets/offer-eligibility-segment.png)
 
@@ -101,7 +101,7 @@ ht-degree: 17%
   >
   >이벤트 기반 오퍼는에서 현재 지원되지 않습니다. [!DNL Journey Optimizer]. 다음을 기반으로 의사 결정 규칙을 만드는 경우 [이벤트](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, 오퍼에서 이를 활용할 수 없습니다.
 
-세그먼트 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
+대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -109,17 +109,17 @@ ht-degree: 17%
 >
 >규칙 매개 변수에 컨텍스트 데이터와 같이 프로필에 없는 데이터가 포함되어 있으면 프로필 추정치를 사용할 수 없습니다. 예를 들어 현재 날씨가 ≥80도여야 하는 자격 규칙이 있습니다.
 
-### 세그먼트와 의사 결정 규칙 사용 {#segments-vs-decision-rules}
+### 대상과 의사 결정 규칙 사용 {#segments-vs-decision-rules}
 
-제한을 적용하려면 하나 또는 여러 개의 멤버로 오퍼 선택을 제한할 수 있습니다 **Adobe Experience Platform 세그먼트**&#x200B;또는 다음을 사용할 수 있습니다 **결정 규칙**, 두 솔루션은 서로 다른 사용법에 해당합니다.
+제한을 적용하려면 하나 또는 여러 개의 멤버로 오퍼 선택을 제한할 수 있습니다 **Adobe Experience Platform 대상**&#x200B;또는 다음을 사용할 수 있습니다 **결정 규칙**, 두 솔루션은 서로 다른 사용법에 해당합니다.
 
-기본적으로 세그먼트의 출력은 프로필 목록이지만 의사 결정 규칙은 의사 결정 프로세스 중에 단일 프로필에 대해 온디맨드로 실행되는 함수입니다. 두 사용법의 차이는 아래에 자세히 설명되어 있습니다.
+기본적으로 대상자의 출력은 프로필 목록이지만 의사 결정 규칙은 의사 결정 프로세스 동안 단일 프로필에 대해 온디맨드로 실행되는 함수입니다. 두 사용법의 차이는 아래에 자세히 설명되어 있습니다.
 
-* **세그먼트**
+* **대상자**
 
-  한편으로는 세그먼트가 프로필 속성 및 경험 이벤트를 기반으로 특정 논리와 일치하는 Adobe Experience Platform 프로필 그룹입니다. 그러나 오퍼 관리에서는 세그먼트를 다시 계산하지 않습니다. 오퍼를 표시할 때 최신 세그먼트가 아닐 수 있습니다.
+  한편으로는 대상자는 프로필 속성 및 경험 이벤트를 기반으로 특정 논리와 일치하는 Adobe Experience Platform 프로필 그룹입니다. 그러나 오퍼 관리에서는 대상을 다시 계산하지 않습니다. 오퍼를 표시할 때 최신이 아닐 수 있습니다.
 
-  의 세그먼트에 대해 자세히 알아보기 [이 섹션](../../segment/about-segments.md).
+  에서 대상자에 대해 자세히 알아보기 [이 섹션](../../audience/about-audiences.md).
 
 * **의사 결정 규칙**
 
@@ -272,7 +272,7 @@ ht-degree: 17%
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL 모든 배치에서]**: 최대 가용량 수는 오퍼와 연결된 배치 전체에서 모든 의사 결정을 합계합니다.
+* **[!UICONTROL 모든 배치에서]**: 최대 가용량 수는 오퍼와 연결된 배치 전체의 모든 의사 결정을 합계합니다.
 
   예를 들어 오퍼에 **이메일** 배치 및 **웹** 배치, 그리고 다음 위치에 캡핑 설정 **모든 배치에서 프로필당 2개**&#x200B;를 선택한 경우 각 프로필은 배치 혼합에 관계없이 총 2회까지 오퍼를 받을 수 있습니다.
 

@@ -4,10 +4,10 @@ product: journey optimizer
 title: 이전 릴리스 정보(2021)
 description: Journey Optimizer 릴리스 정보
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 94%
+ht-degree: 89%
 
 ---
 
@@ -65,8 +65,8 @@ ht-degree: 94%
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Experience Platform 프로필 속성 및 세그먼트를 사용하여 오퍼의 콘텐츠를 개인화할 수 있습니다. Journey Optimizer UI 전체에서 찾을 수 있는 동일한 표현식 편집기 구성 요소를 사용하여 간단하게 작업이 가능합니다. </p>
-<p>자세한 내용은 <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">자세한 설명서</a>를 참조하세요.</p>
+<p>이제 Journey Optimizer UI 전체에서 찾을 수 있는 동일한 표현식 편집기 구성 요소를 사용하여 Adobe Experience Platform 프로필 속성 및 대상을 사용하여 오퍼의 콘텐츠를 개인화할 수 있습니다. </p>
+<p>자세한 내용은 <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -79,7 +79,7 @@ ht-degree: 94%
 
 **여정**
 
-* **표현식 편집기** - 이제 고급 사용자는 여정 지도 작업에 함수를 사용할 수 있습니다. 이 기능은 구독 목록에 활용할 수 있습니다. 예를 들어 이제 세그먼트의 구독 목록에서 이메일 주소를 가져올 수 있습니다. [이 샘플에서 자세히 알아보기](../building-journeys/message-to-subscribers-uc.md)
+* **표현식 편집기** - 이제 고급 사용자는 여정 지도 작업에 함수를 사용할 수 있습니다. 이 기능은 구독 목록에 활용할 수 있습니다. 예를 들어 이제 대상자의 구독 목록에서 이메일 주소를 가져올 수 있습니다. [이 샘플에서 자세히 알아보기](../building-journeys/message-to-subscribers-uc.md)
 
 * **모니터링** - 실시간 여정 및 테스트 모드에 대한 단계 이벤트를 개선했습니다. 프로필 내보내기 작업과 관련하여 [새 필드](../reports/sharing-field-list.md#serviceevents)를 추가했습니다. 더 나은 사용자 경험을 위해 단계 이벤트 필드를 이제 다른 카테고리로 정리합니다. 이전 단계 이벤트 필드는 [stepEvents](../reports/sharing-legacy-fields.md) 카테고리에서 계속 사용할 수 있습니다.
 * **접근성** - 여정의 접근성을 개선했습니다.
@@ -262,12 +262,12 @@ ht-degree: 94%
 
 * **동적 헤더** - 이제 HTTP 헤더 매개 변수에서 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 여정 작업 HTTP 호출(예: 타임스탬프 또는 추적 ID)을 수신하는 통합 시스템에서 사용할 수 있습니다. [자세히 알아보기](../action/about-custom-action-configuration.md#url-configuration)
 * **동적 URL 경로** - 이제 사용자 지정 작업에 대해 동적 URL 경로를 설정할 수 있습니다. [자세히 알아보기](../action/about-custom-action-configuration.md#url-configuration)
-* 세그먼트 읽기의 전체 전송률이 초당 메시지 17,000개에서 20,000개로 변경되었습니다. [자세히 알아보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 읽기 대상의 전체 전송률이 초당 메시지 17,000개에서 20,000개로 변경되었습니다. [자세히 알아보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **사용자 인터페이스**
 
 * **검색** - 이제 모든 페이지에서 통합 Experience Cloud 검색 필드를 통해 직접 비즈니스 개체 및 도움말을 검색할 수 있습니다. [자세히 알아보기](../start/user-interface.md#unified-search)
-* **최근 항목** - 이제 Adobe Journey Optimizer 홈페이지에서 최근 항목 요소에 표시할 대상에 비즈니스 개체를 추가하여 확장했습니다. 이 업데이트 이후에는 최근 액세스 항목에 [메시지], [여정], [세그먼트], [스키마], [데이터세트], [데이터 소스], [이벤트], [작업], [소스], [대상]이 포함됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#passing-collection)
+* **최근 항목** - 이제 Adobe Journey Optimizer 홈페이지에서 최근 항목 요소에 표시할 대상에 비즈니스 개체를 추가하여 확장했습니다. 이 업데이트를 사용하면 최근에 액세스한 항목에 메시지, 여정, 대상, 스키마, 데이터 세트, 데이터 소스, 이벤트, 작업, 소스 및 대상이 포함됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#passing-collection)
 
 **콘텐츠 디자인**
 
@@ -337,12 +337,12 @@ ht-degree: 94%
 
 **여정**
 
-* 동일한 샌드박스에서 동시에 실행되는 모든 읽기 세그먼트의 전체 전송률이 초당 17,000개의 메시지로 제한됩니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 동일한 샌드박스에서 동시에 실행되는 모든 읽기 대상의 전체 전송률은 초당 17,000개의 메시지로 제한됩니다. [자세히 보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * **캐시 기간** 필드가 데이터 소스 구성 창에서 제거되었습니다. [자세히 보기](../datasource/about-data-sources.md)
 * 이제 외부 데이터 소스의 경우 초당 최대 15회 호출할 수 있는 가용량 규칙이 자동으로 정의됩니다. [자세히 보기](../configuration/external-systems.md#capping)
 * 이제 실시간 여정의 여정 속성 화면에 게시 날짜와 여정을 게시한 사용자의 이름이 표시됩니다. [자세히 보기](../building-journeys/journey-gs.md#change-properties)
 * 여정 목록 화면에 여정 유형 필터를 추가했습니다. [자세히 보기](../start/user-interface.md#filter-lists)
-* 다음 **[!UICONTROL 조절률]** 세그먼트 읽기 활동에 매개 변수를 추가했습니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 다음 **[!UICONTROL 조절률]** 대상자 읽기 활동에 매개 변수가 추가되었습니다. [자세히 보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **미리 보기 및 테스트**
 

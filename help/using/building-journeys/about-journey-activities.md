@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 18%
@@ -28,7 +28,7 @@ ht-degree: 18%
 
 * [일반 이벤트](../building-journeys/general-events.md)
 * [반응](../building-journeys/reaction-events.md)
-* [세그먼트 선별](../building-journeys/segment-qualification-events.md)
+* [대상 자격 조건](../building-journeys/audience-qualification-events.md)
 
 ![](assets/journey43.png)
 
@@ -44,7 +44,7 @@ ht-degree: 18%
 
 * [조건](../building-journeys/condition-activity.md)
 * [대기](../building-journeys/wait-activity.md)
-* [세그먼트 읽기](../building-journeys/read-segment.md)
+* [대상자 읽기](../building-journeys/read-audience.md)
 
 ![](assets/journey49.png)
 

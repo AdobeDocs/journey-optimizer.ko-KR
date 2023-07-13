@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 스키마, XDM, 플랫폼, 스트리밍, 수집, 여정
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 4%
@@ -32,33 +32,33 @@ ht-degree: 4%
 
 * 스키마는 XDM ExperienceEvent 클래스의 스키마여야 합니다.
 
-   ![](assets/schema2.png)
+  ![](assets/schema2.png)
 
 * 시스템 생성 이벤트의 경우 스키마에 오케스트레이션 eventID 필드 그룹이 포함되어야 합니다. [!DNL Journey Optimizer] 이 필드를 사용하여 여정에 사용된 이벤트를 식별합니다.
 
-   ![](assets/schema3.png)
+  ![](assets/schema3.png)
 
 * 이벤트에서 개별 프로필을 식별하기 위한 ID 필드를 선언합니다. ID를 지정하지 않으면 ID 맵을 사용할 수 있습니다. 이러한 방법은 권장되지 않습니다.
 
-   ![](assets/schema4.png)
+  ![](assets/schema4.png)
 
 * 나중에 여정에서 이 데이터를 조회에 사용하려면 스키마와 데이터 세트에 프로필을 표시하십시오.
 
-   ![](assets/schema5.png)
+  ![](assets/schema5.png)
 
-   ![](assets/schema6.png)
+  ![](assets/schema6.png)
 
 * 사용자, 이벤트가 생성된 장치, 위치 또는 이벤트와 관련된 기타 의미 있는 상황 등 이벤트와 함께 포함하려는 다른 컨텍스트 데이터를 캡처하기 위해 데이터 필드를 자유롭게 포함할 수 있습니다.
 
-   ![](assets/schema7.png)
+  ![](assets/schema7.png)
 
-   ![](assets/schema8.png)
+  ![](assets/schema8.png)
 
 ## 스키마 관계 활용{#leverage_schema_relationships}
 
 Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이터 세트에 대한 조회 테이블로 사용하기 위해 스키마 간의 관계를 정의할 수 있습니다.
 
-브랜드 데이터 모델에 구매를 캡처하는 스키마가 있다고 가정합니다. 제품 카탈로그에 대한 스키마도 있습니다. 구매 스키마에서 제품 ID를 캡처하고 관계를 사용하여 제품 카탈로그에서 더 완벽한 제품 세부 정보를 조회할 수 있습니다. 이렇게 하면 모든 랩탑 ID를 명시적으로 나열하거나 트랜잭션 시스템에서 모든 개별 제품 세부 사항을 캡처하지 않고도 노트북을 구매한 모든 고객을 위한 세그먼트를 만들 수 있습니다.
+브랜드 데이터 모델에 구매를 캡처하는 스키마가 있다고 가정합니다. 제품 카탈로그에 대한 스키마도 있습니다. 구매 스키마에서 제품 ID를 캡처하고 관계를 사용하여 제품 카탈로그에서 더 완벽한 제품 세부 정보를 조회할 수 있습니다. 이를 통해 모든 랩탑 ID를 명시적으로 나열하거나 트랜잭션 시스템에서 모든 개별 제품 세부 사항을 캡처하지 않고도 노트북을 구매한 모든 고객을 위한 대상을 만들 수 있습니다.
 
 관계를 정의하려면 소스 스키마에 전용 필드가 있어야 합니다. 이 경우 구매 스키마의 제품 ID 필드입니다. 이 필드는 대상 스키마의 제품 ID 필드를 참조해야 합니다. 소스 및 대상 테이블은 프로필에 대해 활성화되어야 하며 대상 스키마에는 기본 ID로 정의된 공통 필드가 있어야 합니다.
 

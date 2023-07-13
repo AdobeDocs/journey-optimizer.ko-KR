@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 13%
+source-wordcount: '322'
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
 1. 규칙에 이름을 지정하고 설명을 제공한 다음 필요에 따라 규칙을 구성합니다.
 
-   이렇게 하려면 **세그먼트 빌더** 은 규칙의 조건을 작성하는 데 도움이 됩니다. [자세히 알아보기](../../segment/about-segments.md)
+   이를 위해 Adobe Experience Platform **세그먼트 빌더** 은 규칙의 조건을 작성하는 데 도움이 됩니다. [세그먼트 정의를 작성하는 방법 알아보기](../../audience/creating-a-segment-definition.md)
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -41,9 +41,9 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
    >[!NOTE]
    >
-   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더는 와 함께 사용되는 세그먼트 빌더와 비교하여 몇 가지 특성을 제공합니다. **[!UICONTROL 세분화]** 서비스. 예를 들어 **[!UICONTROL 세그먼트]** 탭을 사용할 수 없습니다. 그러나 다음에 설명된 글로벌 프로세스는 [세그먼트 빌더](../../segment/about-segments.md) 설명서는 오퍼 의사 결정 규칙을 작성하는 데 여전히 유효합니다. 다음에서 자세히 알아보기 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더는 와 함께 사용되는 세그먼트 빌더와 비교하여 몇 가지 특성을 제공합니다. **[!UICONTROL 세분화]** 서비스. 그러나 다음에 설명된 글로벌 프로세스는 [세그먼트 빌더](../../audience/creating-a-segment-definition.md) 설명서는 오퍼 의사 결정 규칙을 작성하는 데 여전히 유효합니다. 다음에서 자세히 알아보기 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
-1. 작업 영역에서 새 필드를 추가하고 구성할 때 **[!UICONTROL 세그먼트 속성]** 창에는 세그먼트에 속하는 예상 프로필에 대한 정보가 표시됩니다. 클릭 **[!UICONTROL 예상 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
+1. 작업 영역에서 새 필드를 추가하고 구성할 때 **[!UICONTROL 대상 속성]** 창에는 대상자에 속한 예상 프로필에 대한 정보가 표시됩니다. 클릭 **[!UICONTROL 예상 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 

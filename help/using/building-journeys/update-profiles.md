@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 프로필, 업데이트, 여정, 활동
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 9%
@@ -58,11 +58,11 @@ ht-degree: 9%
 
    * 단순 표현식 편집기를 사용하여 데이터 소스 또는 수신 이벤트에서 필드를 선택할 수 있습니다.
 
-      ![](assets/profileupdate4.png)
+     ![](assets/profileupdate4.png)
 
    * 특정 값을 정의하거나 고급 함수를 활용하려면 다음을 클릭하십시오. **고급 모드**.
 
-      ![](assets/profileupdate3.png)
+     ![](assets/profileupdate3.png)
 
 다음 **프로필 업데이트** 이제 가 구성되었습니다.
 
@@ -75,4 +75,4 @@ ht-degree: 9%
 
 테스트 프로필만 테스트 모드에서 여정에 들어갈 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 만들 수 있습니다. Adobe Experience Platform에서 csv 파일 가져오기 또는 API 호출을 통해 프로필 속성을 업데이트할 수 있습니다. 간단한 방법은 **프로필 업데이트** 작업 활동 및 테스트 프로필 부울 필드를 false에서 true로 변경합니다.
 
-기존 프로필을 테스트 프로필로 변환하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [섹션](../segment/creating-test-profiles.md#create-test-profiles-csv).
+기존 프로필을 테스트 프로필로 변환하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [섹션](../audience/creating-test-profiles.md#create-test-profiles-csv).

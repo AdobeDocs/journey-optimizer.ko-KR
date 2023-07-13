@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 18%
@@ -59,12 +59,12 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 
 | 필드 이름 | 유형 | 설명 |
 |---|---|------------|
-| ID | 문자열 | 트리거된 세그먼트 내보내기 작업의 식별자 |
-| 상태 | 문자열 | 세그먼트 내보내기 작업의 상태: 큐에 있음, 시작됨, 완료됨 |
-| 내보내기 개수 합계 | 정수 | 세그먼트 내보내기 작업의 가능한 최대 값 |
-| exportCountImproved | 정수 | 작업을 통해 내보낸 실제 세그먼트 수 |
-| exportCountFailed | 정수 | 작업을 통해 내보내는 동안 실패한 세그먼트 수 |
-| exportSegmentId | 문자열 | 내보내는 세그먼트의 식별자 |
+| ID | 문자열 | 트리거된 대상자 내보내기 작업의 식별자 |
+| 상태 | 문자열 | 대상자 내보내기 작업의 상태: 큐에 있음, 시작됨, 완료됨 |
+| 내보내기 개수 합계 | 정수 | 대상 내보내기 작업의 가능한 최대 값 |
+| exportCountImproved | 정수 | 작업을 통해 내보낸 실제 대상자 수 |
+| exportCountFailed | 정수 | 작업을 통해 내보내는 동안 실패한 대상 수 |
+| exportSegmentId | 문자열 | 내보내는 대상자의 식별자 |
 | eventType | 문자열 | 정보 이벤트의 오류 이벤트인지 여부를 나타내는 이벤트 유형: 정보, 오류 |
 | eventCode | 문자열 | 해당 eventType의 이유를 나타내는 오류 코드 |
 

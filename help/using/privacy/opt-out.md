@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 8b459f71852d031dc650b77725bdc693325cdb1d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '1039'
+ht-degree: 42%
 
 ---
 
@@ -67,15 +67,19 @@ ht-degree: 100%
 >
 >[!DNL Journey Optimizer]에서 작성한 채널에서 사용하는 결정 범위는 소속된 여정이나 캠페인의 이 요건을 충족합니다.
 
+1. 만들기 [Adobe Experience Platform 대상](../audience/access-audiences.md) 사용 [세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"} 및 를 설정하는 것이 좋습니다. **[!UICONTROL 콘텐츠 개인화 = 예(옵트인)]** 개인화에 동의한 사용자를 타겟팅할 수 있습니다.
 
+   ![](assets/perso-consent-od-audience.png)
 
-1. 프로필 속성을 사용하여 [Adobe Experience Platform 세그먼트](../segment/about-segments.md)를 만듭니다. 예를 들어 개인화에 동의한 사용자를 타겟팅하려면 *“Consents to Personalization = True”* 속성을 사용합니다.
+1. 를 만들 때 [결정](../offers/offer-activities/create-offer-activities.md), 의사 결정 범위를 추가하고 개인화된 오퍼를 포함하는 각 평가 기준 컬렉션에 대해 이 대상을 기반으로 자격 제한 사항을 정의합니다.
 
-1. [결정](../offers/offer-activities/create-offer-activities.md)을 만들 때 결정 범위를 추가하고 이 세그먼트를 기반으로 개인화된 오퍼가 있는 각 평가 기준 컬렉션마다 적격성 제한을 정의합니다.
+   ![](assets/perso-consent-od-audience-decision.png)
 
 1. 개인화 콘텐츠가 없는 [대체 제안](../offers/offer-library/creating-fallback-offers.md)을 만듭니다.
 
 1. 개인화하지 않은 대체 제안을 결정에 [할당](../offers/offer-activities/create-offer-activities.md#add-fallback)합니다.
+
+   ![](assets/perso-consent-od-audience-fallback.png)
 
 1. 결정을 [검토하고 저장](../offers/offer-activities/create-offer-activities.md#review)합니다.
 
@@ -89,3 +93,87 @@ ht-degree: 100%
 >
 >프로필 데이터를 [데이터 모델링](../offers/ranking/ai-models.md)에 사용하는 데 대한 동의는 아직 [!DNL Journey Optimizer]에서 지원되지 않습니다.
 
+## 표현식 편집기에서
+
+<!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
+
+다음 [표현식 편집기](../personalization/personalization-build-expressions.md) 메시지 게재와 관련이 없으므로 그 자체로 동의 확인 또는 시행을 수행하지 않습니다.
+
+그러나 오른쪽 기반 액세스 제어 레이블을 사용하면 개인화에 사용할 수 있는 필드를 제한할 수 있습니다. 다음 [메시지 미리 보기](../email/preview.md#preview-email) 및 [전자 메일 렌더링 서비스](../email/preview.md#email-rendering) 중요한 정보로 식별된 필드를 마스킹합니다.
+
+>[!NOTE]
+>
+>에서 OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기 [이 섹션](../administration/object-based-access.md).
+
+
+위치 [!DNL Journey Optimizer] 캠페인, 동의 정책은 다음과 같이 시행됩니다.
+
+* 동의 정책 정의를 대상자 만들기의 일부로 포함하여 캠페인에 대해 선택한 대상자가 이미 있는지 확인할 수 있습니다 **동의 기준과 일치하지 않는 프로필을 필터링했습니다.**.
+
+* [!DNL Journey Optimizer] 은(는) 다음에 대한 채널 수준에서 일반 동의 검사를 수행합니다. **프로필이 옵트인되었는지 확인** 해당 채널에서 마케팅 커뮤니케이션을 수신하게 됩니다.
+
+  >[!NOTE]
+  >
+  >다음 [!DNL Journey Optimizer] 캠페인 개체 자체는 현재 추가적인 동의 정책 시행 검사를 수행하지 않습니다.
+
+캠페인에서 개인화 동의를 수동으로 적용하려면 아래 옵션 중 하나를 수행합니다.
+
+### 세그먼트 규칙 빌더 사용
+
+세그먼트 규칙 빌더를 사용하여 옵트아웃 프로필이 포함된 대상자를 만들 수 있습니다.
+
+1. 만들기 [Adobe Experience Platform 대상](../audience/access-audiences.md) 사용 [세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
+
+   ![](assets/perso-consent-audience-build-rule.png)
+
+1. 다음과 같은 프로필 속성 선택 **[!UICONTROL 콘텐츠 개인화 = 아니요 (옵트아웃)]** 개인화에 동의하지 않은 사용자를 제외합니다.
+
+   ![](assets/perso-consent-audience-no.png)
+
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+이제 이 대상자를 사용하여 캠페인의 개인화에 동의하지 않은 프로필을 필터링할 수 있습니다.
+
+### 작성 워크플로우에서 분할 활동 사용
+
+또한 구성 워크플로우에 분할 활동을 추가하여 대상자에 개인화 동의 검사를 추가할 수 있습니다.
+
+1. 를 사용하여 대상자 만들기 **[!UICONTROL 대상자 작성]** 옵션을 선택합니다. [작성 워크플로우 만들기에 대해 자세히 알아보기](../audience/create-compositions.md)
+
+   ![](assets/perso-consent-audience-compose.png)
+
+1. 오른쪽의 전용 버튼을 사용하여 시작 대상자를 추가합니다.
+
+1. + 아이콘을 클릭하고 다음을 선택합니다. **[!UICONTROL 분할]** 을 클릭하여 분할 대상을 만듭니다. [분할 활동에 대해 자세히 알아보기](../audience/composition-canvas.md#split)
+
+   ![](assets/perso-consent-audience-split.png)
+
+1. 선택 **[!UICONTROL 속성 분할]** 오른쪽 창의 분할 유형으로 사용됩니다.
+
+   ![](assets/perso-consent-audience-attribute-split.png)
+
+1. 다음 옆에 있는 연필 아이콘을 클릭합니다. **[!UICONTROL 속성]** 필드: **[!UICONTROL 프로필 속성 선택]** 창.
+
+1. 개인화 동의 속성(`profile.consents.personalize.content.val`) 선택한 다음 선택합니다.
+
+   ![](assets/perso-consent-audience-consent-attribute.png)
+
+1. **[!UICONTROL 경로 1]** 은 개인화되지 않은 대상자입니다. 관련 레이블을 선택합니다.
+
+1. 여기에서 적절한 값을 선택하십시오. [목록](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"}.
+
+   이 경우 다음을 사용합니다 `n` 사용자가 개인화를 위한 데이터 사용에 동의하지 않음을 나타냅니다.
+
+   ![](assets/perso-consent-audience-path-1-n.png)
+
+1. 다른 선택 값에 대해 별도의 경로를 만들 수 있습니다. 나머지 경로를 삭제하고 켤 수도 있습니다 **[!UICONTROL 기타 프로필]** 선택 값이 없는 다른 모든 프로필을 포함시키려면 `n`.
+
+1. 완료되면 다음을 클릭하십시오. **[!UICONTROL 대상자 저장]** 워크플로우의 결과를 새 대상자에 저장할 각 경로의 . 각 경로에 대해 한 명의 대상자가 Adobe Experience Platform에 저장됩니다.
+
+1. 완료되면 작성 워크플로우를 게시합니다.
+
+이제 이 대상자를 사용하여 캠페인의 개인화에 동의하지 않은 프로필을 필터링할 수 있습니다.
+
+>[!NOTE]
+>
+>개인화에 동의하지 않은 대상자를 만든 다음, 캠페인에서 이 대상자를 선택하면 개인화 도구를 계속 사용할 수 있습니다. 개인화를 받지 않아야 하는 대상자와 함께 작업하는 경우 개인화 도구를 사용하지 말아야 한다는 것은 마케팅 사용자에게 달려 있습니다.

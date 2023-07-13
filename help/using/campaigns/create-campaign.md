@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 28%
+source-wordcount: '788'
+ht-degree: 24%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->새 캠페인을 만들기 전에 표면 채널(즉, 메시지 사전 설정)과 Adobe Experience Platform 세그먼트를 사용할 준비가 되어 있는지 확인하십시오. 다음 섹션에서 자세히 알아보기:
+>새 캠페인을 만들기 전에 표면 채널(즉, 메시지 사전 설정)과 Adobe Experience Platform 대상을 사용할 준비가 되어 있는지 확인하십시오. 다음 섹션에서 자세히 알아보기:
 >
 >* [채널 표면 생성](../configuration/channel-surfaces.md)
->* [세그먼트 시작](../segment/about-segments.md)
+>* [대상자 시작](../audience/about-audiences.md)
 
 새 캠페인을 만들려면 **[!UICONTROL 캠페인]** 메뉴를 선택한 다음 **[!UICONTROL 캠페인 만들기]**. 기존 라이브 캠페인을 복제하여 새 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate)
 
@@ -32,20 +32,18 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="캠페인 유형"
->abstract="**예약된 캠페인**&#x200B;은 즉시 또는 지정된 날짜에 실행되며 마케팅 유형 메시지 전송을 의미합니다. **API 트리거** 캠페인은 API 호출을 사용하여 실행됩니다. 이는 마케팅 메시지 또는 트랜잭션 메시지, 즉 개인 사용자가 취하는 액션(예: 암호 재설정, 장바구니 포기 등)에 따라 전송되는 메시지를 보내는 것을 목표로 합니다."
+>abstract="보내는 날짜를 지정하여 마케팅 메시지를 보내는 경우 **예약됨** 유형이 가장 적합한 유형입니다. 단, 암호 재설정 또는 장바구니 비우기와 같은 트랜잭션 메시지를 보내려는 경우 **API 트리거** 유형이 가장 적합한 유형입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="캠페인 범주"
->abstract="예약된 캠페인을 생성하면 **마케팅** 유형이 자동으로 선택됩니다. API 트리거 캠페인의 경우 **마케팅** 또는 **트랜잭션** 메시지, 즉 개인 사용자가 취하는 액션(예: 암호 재설정, 장바구니 포기 등)에 따라 전송되는 메시지를 보낼 것인지 선택하십시오."
+>abstract="범주 값은 캠페인 유형 값에 직접 연결됩니다. **마케팅** 범주에 대한 예약 캠페인 유형과 **트랜잭션** 범주에 대한 API 트리거 유형"
 
 1. 다음에서 **[!UICONTROL 속성]** 섹션에서 캠페인을 실행할 방법을 지정합니다. 두 가지 유형의 캠페인을 사용할 수 있습니다.
 
-   * **[!UICONTROL 예약됨]**: 캠페인을 즉시 또는 지정된 날짜에 실행합니다. 예약된 캠페인은 전송을 목표로 합니다. **마케팅** 메시지. 사용자 인터페이스에서 구성 및 실행됩니다.
+   * **[!UICONTROL 예약됨]**: 캠페인을 즉시 또는 지정된 날짜에 실행합니다. 예약된 캠페인은 전송을 목표로 합니다. **마케팅** 메시지를 입력합니다.
 
-   * **[!UICONTROL API 트리거됨]**: API 호출을 사용하여 캠페인을 실행합니다. API 트리거 캠페인은 다음 중 하나를 전송하는 것을 목표로 합니다. **마케팅**, 또는 **트랜잭션** 메시지 (예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 전송된 메시지) [API를 사용하여 캠페인을 트리거하는 방법 알아보기](api-triggered-campaigns.md)
-
-1. 예약된 캠페인을 생성하면 **마케팅** 유형이 자동으로 선택됩니다. API 트리거 캠페인의 경우 다음을 전송할지 여부를 선택합니다. **마케팅** 또는 **트랜잭션** 메시지.&quot;
+   * **[!UICONTROL API 트리거됨]**: API 호출을 사용하여 캠페인을 실행합니다. API 트리거 캠페인은 전송을 목표로 합니다 **트랜잭션** 메시지 (예: 암호 재설정, 장바구니 포기 등 개인이 수행한 작업에 따라 전송된 메시지) [API를 사용하여 캠페인을 트리거하는 방법 알아보기](api-triggered-campaigns.md)
 
 1. 다음에서 **[!UICONTROL 작업]** 섹션에서 메시지를 보내는 데 사용할 채널과 채널 표면을 선택합니다.
 
@@ -122,19 +120,19 @@ ht-degree: 28%
 
 ## 대상자 정의 {#audience}
 
-다음을 클릭합니다. **[!UICONTROL 대상자 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 세그먼트 목록을 표시합니다. [세그먼트에 대해 자세히 알아보기](../segment/about-segments.md)
+다음을 클릭합니다. **[!UICONTROL 대상자 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 대상 목록을 표시합니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)
 
 >[!NOTE]
 >
 >API 트리거 캠페인의 경우, API 호출을 통해 대상자를 설정해야 합니다. [자세히 알아보기](api-triggered-campaigns.md)
 
-다음에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
+다음에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
 
-    >[!NOTE]
-    >
-    >다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타깃팅되지 않습니다.
+>[!NOTE]
+>
+>다른 ID 중 선택한 ID(네임스페이스)가 없는 대상에 속하는 개인은 캠페인에서 타깃팅되지 않습니다.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

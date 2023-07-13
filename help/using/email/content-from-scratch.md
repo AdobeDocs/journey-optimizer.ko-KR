@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 콘텐츠, 편집자, 이메일, 시작
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 57%
@@ -98,7 +98,7 @@ Adobe Journey Optimizer Designer를 사용하여 콘텐츠의 구조를 쉽게 �
 
    ![](assets/email_designer_asset_picker.png)
 
-1. 개인화 필드를 삽입하여 프로필 속성, 세그먼트 멤버십, 컨텍스트 속성 등에서 콘텐츠를 사용자 지정합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
+1. 개인화 필드를 삽입하여 프로필 속성, 대상자 멤버십, 컨텍스트 속성 등에서 콘텐츠를 사용자 지정합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 

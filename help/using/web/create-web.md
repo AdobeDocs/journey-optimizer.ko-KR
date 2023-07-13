@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 20%
@@ -73,7 +73,7 @@ ht-degree: 20%
 
 1. 웹 서피스를 정의한 후 다음을 선택합니다. **[!UICONTROL 만들기]**.
 
-1. 캠페인 속성과 같은 웹 캠페인을 만드는 단계를 완료합니다. [대상자](../segment/about-segments.md), 및 [예약](../campaigns/create-campaign.md#schedule).
+1. 캠페인 속성과 같은 웹 캠페인을 만드는 단계를 완료합니다. [대상자](../audience/about-audiences.md), 및 [예약](../campaigns/create-campaign.md#schedule).
 
    ![](assets/web-campaign-steps.png)
 

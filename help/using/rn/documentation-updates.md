@@ -4,22 +4,16 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
-workflow-type: ht
-source-wordcount: '2949'
-ht-degree: 100%
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+workflow-type: tm+mt
+source-wordcount: '2876'
+ht-degree: 95%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
-
-## 2023년 6월 {#june-2023}
-
-* [!DNL Journey Optimizer] 2023년 6월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* **의사 결정 만들기** 섹션에 여러 기준과 여러 결정 범위가 사용되는 경우를 설명하는 평가 기준 순서 관련 예시를 추가헸습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* [의사 결정 관리] 설명서에서 보다 명확한 정보를 전달하기 위해 동적 컬렉션에는 [개체 수준 액세스 제어]를 사용할 수 없다는 메모를 추가했습니다. [자세히 보기](../offers/offer-library/creating-collections.md)
 
 ## 2023년 5월 {#may-2023}
 
@@ -48,7 +42,7 @@ ht-degree: 100%
 * 여정에서 Adobe Analytics 이벤트를 활성화하는 단계를 추가했습니다. [자세히 보기](../event/about-analytics.md)
 * 의사 결정 관리 안내서에 Adobe Experience Platform에서 Offer Decisioning 피드백을 수집하는 방법에 대한 새 섹션을 추가했습니다. 어떤 오퍼가 표시되는지, 사용자가 오퍼와 어떻게 상호 작용하는지 등을 설명합니다. [자세히 보기](../offers/data-collection/data-collection.md)
 * **결정 만들기** 섹션 아래에 기준을 순서대로 평가하는 것과 동시에 평가하는 것의 차이를 설명하는 새 섹션을 추가했습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* 증분 읽기가 있는 세그먼트 읽기 여정에 대한 가드레일을 추가했습니다. 새 버전을 만들 수 없으므로 여정을 복제해야 합니다. [자세히 보기](../start/guardrails.md#journey-versions-g)
+* 대상자 여정 읽기와 증분 읽기를 위한 가드레일이 추가되었습니다. 새 버전을 만들 수 없으므로 여정을 복제해야 합니다. [자세히 보기](../start/guardrails.md#journey-versions-g)
 
 ## 2023년 2월 {#feb-2023}
 
@@ -94,7 +88,7 @@ ht-degree: 100%
 ## 2022년 9월 {#september-2022}
 
 * [!DNL Journey Optimizer] 2022년 9월 릴리스의 모든 새로운 기능 및 개선 사항에 대한 자세한 설명은 설명서에서 확인할 수 있습니다. [자세히 보기](release-notes.md)
-* 반복 읽기 세그먼트 여정에서 대기 활동 사용과 관련된 모범 사례를 추가했습니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 반복 읽기 대상 여정에서 대기 활동 사용과 관련된 모범 사례를 추가했습니다. [자세히 보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * 새로운 단계 이벤트 쿼리와 관련된 예시와 ID, instanceID 및 profileID 간의 차이에 대한 정보를 추가했습니다. [자세히 보기](../reports/query-examples.md).
 * [toDateOnly](../building-journeys/functions/functiontodateonly.md) 및 [toString](../building-journeys/functions/functiontostring.md) 함수와 관련된 페이지를 업데이트했습니다.
 * 시간 조건 매개 변수에 대한 세부 사항을 추가했습니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
@@ -109,7 +103,7 @@ ht-degree: 100%
 * [!DNL Journey Optimizer] 2022년 8월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
 * 새 인라인 메시징 흐름을 반영하도록 빈도 규칙 섹션이 업데이트되었습니다. [자세히 보기](../configuration/frequency-rules.md#apply-frequency-rule)
 * 구독을 구성하고 랜딩 페이지를 만드는 방법을 보여주는 비디오가 이제 랜딩 페이지 시작 섹션에서 참조됩니다. [자세히 보기](../landing-pages/get-started-lp.md#video)
-* [세그먼트 읽기] 활동을 사용하는 여정에 대한 제한 사항을 추가했습니다. [자세히 보기](../building-journeys/read-segment.md)
+* 대상자 읽기 활동을 사용하는 여정에 대한 제한이 추가되었습니다. [자세히 보기](../building-journeys/read-audience.md)
 * 표현식 편집기 연산자 페이지를 개선했습니다. [자세히 보기](../building-journeys/expression/operators.md)
 * 캠페인을 예약하는 방법에 대한 섹션을 추가했습니다. [자세히 보기](../campaigns/create-campaign.md)
 * 표현식 편집기의 일반 구문 규칙 섹션에 리터럴 함수에서 이스케이프되는 백슬래시 기호에 대한 새로운 규칙을 고려하여 업데이트되었습니다. 기존 게시된 메시지는 이 변경의 영향을 받지 않습니다. 새 메시지 또는 초안 메시지만 업데이트해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#general-rules)
@@ -120,7 +114,7 @@ ht-degree: 100%
 * **채널 표면 설정** 섹션을 명료하게 보이도록 업데이트하고 SMS 채널을 구성하는 방법을 설명하는 페이지 링크를 추가했습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
 * 여정 속성에서 **프로필 시간대** 옵션이 이제 기본적으로 비활성화됩니다. [자세히 보기](../building-journeys/timezone-management.md#timezone-from-profiles)
 * **대기** 활동에서, **고정 날짜** 옵션을 더 이상 사용할 수 없습니다. [자세히 보기](../building-journeys/wait-activity.md)
-* **세그먼트 읽기** 활동의 **증분 읽기** 옵션에 대한 정보를 추가했습니다. [자세히 보기](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 에 대한 추가 정보를 추가했습니다. **증분 읽기** 의 옵션 **대상자 읽기** 활동. [자세히 보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * **프로필 상한** 조건 유형에 권장 사항이 추가되었습니다. [자세히 보기](../building-journeys/condition-activity.md#profile_cap)
 * 비즈니스 이벤트에 대한 제한을 추가했습니다. [자세히 보기](../start/guardrails.md#events-g)
 
@@ -142,7 +136,7 @@ ht-degree: 100%
 ## 2022년 5월 {#may-2022}
 
 * [!DNL Journey Optimizer] 2022년 5월 릴리스의 모든 새로운 기능 및 개선 사항에 대한 자세한 설명은 설명서에서 확인할 수 있습니다. [자세히 보기](release-notes.md)
-* [세그먼트 자격](../reports/query-examples.md#segment-qualification-queries) 및 [이벤트](../reports/query-examples.md#event-based-queries)와 관련된 새 쿼리 예시가 추가되었습니다.
+* 와 관련된 새 쿼리 예 [대상 자격 조건](../reports/query-examples.md#segment-qualification-queries) 및 [events](../reports/query-examples.md#event-based-queries) 이(가) 추가되었습니다.
 * 이제 이메일 디자인 섹션에 콘텐츠를 시작할 수 있는 새로운 기본 제공 템플릿이 설명되어 있습니다. 관련 스크린샷이 업데이트되었습니다. [자세히 보기](../email/get-started-email-design.md)
 * 주요 리소스에 대한 링크가 Journey Optimizer 설명서 홈페이지에 업데이트되었습니다.
 * 랜딩 페이지 및 구독 보고에 대한 스크린샷이 업데이트되었습니다. [자세히 보기](../reports/live-report.md)
@@ -166,7 +160,7 @@ ht-degree: 100%
 
 * [!DNL Journey Optimizer] 2022년 3월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
 * AI 모델을 시작하는 방법에 대한 새 페이지를 **Offer Decisioning** 섹션에 추가했습니다. AI 모델이 사용하는 알고리즘인 [자동 최적화 모델](../offers/ranking/auto-optimization-model.md)에 대한 자세한 설명과 보다 기술적인 세부 정보도 제공합니다. [자세히 보기](../offers/ranking/ai-models.md)
-* 테스트 프로필 만들기 페이지를 **세그먼트, 프로필, 신원** 섹션으로 옮겼습니다. [자세히 보기](../segment/creating-test-profiles.md)
+* 테스트 프로필 만들기 페이지를 로 이동했습니다.  **대상자, 프로필 및 ID** 섹션. [자세히 보기](../audience/creating-test-profiles.md)
 * 표현식 편집기에서 표현식을 기본값으로 추가하는 방법에 대한 예를 추가했습니다. [자세히 보기](../building-journeys/expression/field-references.md#default-value)
 * 읽기 쉽도록 **개인화된 오퍼 만들기** 섹션을 재구성했습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md)
 * 오퍼의 시작 및/또는 종료 날짜를 변경할 경우 이 오퍼의 게재 빈도 설정에 발생할 수 있는 영향을 설명하는 새 섹션이 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping-change-date)
@@ -232,7 +226,7 @@ ht-degree: 100%
 
 * 이제 전용 섹션에 설명된 모든 의사 결정 관리 기능이 제안 결정 애플리케이션 서비스를 활용하는 Adobe Experience Platform 사용자에게도 적용됩니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
 
-* 지정된 배치에 대한 오퍼 선택을 통제하는 제한을 적용할 때 세그먼트 사용과 결정 규칙 간의 차이점을 명확하게 하기 위한 하위 섹션을 추가했습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+* 지정된 배치에 대한 오퍼 선택을 제한하는 제한을 적용할 때 대상자 사용과 결정 규칙 간의 차이점을 명확하게 하기 위한 하위 섹션을 추가했습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
 * 일부 실제 사용 사례를 보여주는 특정 등급 공식의 예를 추가했습니다. [자세히 보기](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
@@ -245,7 +239,7 @@ ht-degree: 100%
 * 최신 UI로 이메일 디자이너 스크린샷을 업데이트했습니다.
 * 동적 URL 경로 및 동적 헤더가 있는 사용자 지정 작업을 구성하는 절차를 업데이트했습니다. [자세히 보기](../action/about-custom-action-configuration.md#url-configuration)
 * 액세스 가능성 기능 및 바로 가기에 대한 섹션을 추가했습니다. [자세히 보기](../start/user-interface.md#accessibility)
-* 세그먼트 평가 방법에 대한 섹션을 추가했습니다. [자세히 보기](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
+* 대상 평가 방법에 대한 섹션을 추가했습니다. [자세히 보기](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
 * 억제 목록, 허용 목록 및 이메일 글로벌/라이브 보고서 섹션에 억제됨 및 허용되지 않음 상태의 프로필이 전송된 이메일 보고서에서 제외되도록 지정하는 메모를 추가했습니다. [자세히 보기](../reports/global-report.md)
 * 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../configuration/allow-list.md#reporting)
 * 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
@@ -269,7 +263,7 @@ ht-degree: 100%
 * 미러 페이지에 하위 섹션을 추가했습니다. [자세히 보기](../email/message-tracking.md#mirror-page)
 * 문서 및 화면에서 &#39;오퍼 활동&#39;의 이름을 &#39;결정&#39;으로, &#39;결정&#39;의 이름을 &#39;결정 범위&#39;로 변경했습니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
 * 새로운 사용 사례: [도우미 함수를 사용한 메시지 개인화](../personalization/personalization-use-case-helper-functions.md)
-* 구체화된 세그먼트 영향을 반영하도록 세그먼트 읽기 설명서를 업데이트했습니다. [자세히 보기](../building-journeys/read-segment.md)
+* 구체화된 세그먼트 영향을 반영하도록 대상 읽기 설명서를 업데이트했습니다. [자세히 보기](../building-journeys/read-audience.md)
 * 여정 제한을 업데이트했습니다. [자세히 보기](../start/guardrails.md)
 * 결정 섹션의 오퍼 선택 구성을 업데이트했습니다. [자세히 보기](../offers/offer-activities/configure-offer-selection.md)
 * 이벤트 기반 오퍼는 현재 지원하지 않는다는 경고를 추가했습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md#eligibility)

@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 100%
   <tr>
     <td>
 
-**[!UICONTROL 한 번에 하나의 프로필]** 옵션이 켜진 세그먼트 기반 여정의 이벤트 트리거
+대상 기반 여정에서 이벤트를 트리거하여 **[!UICONTROL 한 번에 하나의 프로필]** 옵션이 켜짐
 
 </td>
     <td>P</td>

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 8%
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->이 있는 프로필 **[!UICONTROL 억제됨]** 메시지 전송 프로세스 중에는 상태가 제외됩니다. 따라서 **여정 보고서** 은 이 프로필이 여정([세그먼트 읽기](../building-journeys/read-segment.md) 및 [메시지 활동](../building-journeys/journeys-message.md)), **이메일 보고서** 에는 포함되지 않습니다. **[!UICONTROL 전송됨]** 지표는 이메일을 보내기 전에 필터링됩니다.
+>이 있는 프로필 **[!UICONTROL 억제됨]** 메시지 전송 프로세스 중에는 상태가 제외됩니다. 따라서 **여정 보고서** 은 이 프로필이 여정([대상자 읽기](../building-journeys/read-audience.md) 및 [메시지 활동](../building-journeys/journeys-message.md)), **이메일 보고서** 에는 포함되지 않습니다. **[!UICONTROL 전송됨]** 지표는 이메일을 보내기 전에 필터링됩니다.
 >
 >에 대해 자세히 알아보기 [라이브 보고서](../reports/live-report.md) 및 [글로벌 보고서](../reports/global-report.md). 모든 제외 사례에 대한 이유를 알아보려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 

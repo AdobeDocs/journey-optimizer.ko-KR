@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 전송 시간, 전송, 메시지, 최적화, 여정, AI, 지능형
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '490'
 ht-degree: 36%
 
 ---
@@ -37,6 +37,10 @@ Adobe의 AI 서비스에서 제공하는 Adobe Journey Optimizer의 전송 시�
 * 채점 - 훈련된 모델을 기반으로 개별 프로필에 점수 적용
 
 이 정보는 사용자의 프로필과 함께 저장되며 여정 실행 시 참조되어 Adobe Journey Optimizer에 메시지를 보낼 시기를 알립니다.
+
+>[!CAUTION]
+>
+>이 기능은 버스트 모드와 호환되지 않습니다.
 
 ## 전송 시간 최적화 활성화{#activate-send-time-optimization}
 

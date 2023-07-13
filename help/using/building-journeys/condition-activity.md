@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 17%
@@ -61,7 +61,7 @@ ht-degree: 17%
 
 ![](assets/journey64.png)
 
-를 사용하는 경우 [Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} 세그먼트를 만들려면 세그먼트를 여정 조건에서 활용할 수 있습니다. 을(를) 참조하십시오 [조건에서 세그먼트 사용](../building-journeys/condition-activity.md#using-a-segment).
+를 사용하는 경우 [Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} 대상을 만들려면 여정 조건에서 대상을 활용할 수 있습니다. 을(를) 참조하십시오 [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -145,11 +145,11 @@ ht-degree: 17%
 
 ![](assets/profile-cap-condition.png)
 
-## 조건에서 세그먼트 사용 {#using-a-segment}
+## 조건에서 대상 사용 {#using-a-segment}
 
-이 섹션에서는 여정 조건에서 세그먼트를 사용하는 방법을 설명합니다. 세그먼트 및 세그먼트 작성 방법에 대한 자세한 내용은 [이 섹션](../segment/about-segments.md).
+이 섹션에서는 여정 조건에서 대상을 사용하는 방법을 설명합니다. 대상자 및 대상자 빌드 방법에 대한 자세한 내용은 [이 섹션](../audience/about-audiences.md).
 
-여정 조건에서 세그먼트를 사용하려면 다음 단계를 따르십시오.
+여정 조건에서 대상을 사용하려면 다음 단계를 수행합니다.
 
 1. 여정을 열고 **[!UICONTROL 조건]** 활동 및 선택 **데이터 소스 조건**.
    ![](assets/journey47.png)
@@ -158,10 +158,10 @@ ht-degree: 17%
 
    ![](assets/segment3.png)
 
-1. 왼쪽에서 펼칩니다. **[!UICONTROL 세그먼트]** 노드. 조건에 사용할 세그먼트를 끌어서 놓습니다. 세그먼트의 조건은 기본적으로 true입니다.
+1. 왼쪽에서 펼칩니다. **[!UICONTROL 대상]** 노드. 조건에 사용할 대상을 끌어다 놓습니다. 기본적으로 대상의 조건은 true입니다.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >을(를) 가진 개인만 **실현됨** 및 **기존 항목** 세그먼트 기여도 상태는 세그먼트의 멤버로 간주됩니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >을(를) 가진 개인만 **실현됨** 및 **기존 항목** 대상자 참여 상태는 대상자의 구성원으로 간주됩니다. 대상을 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

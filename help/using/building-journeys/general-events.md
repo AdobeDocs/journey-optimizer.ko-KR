@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 사용자 정의, 일반, 이벤트, 여정
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 20%
@@ -29,7 +29,7 @@ ht-degree: 20%
 
 ![](assets/general-events.png)
 
-비즈니스 이벤트를 삭제하면 **세그먼트 읽기** 활동. 비즈니스 이벤트에 대한 자세한 내용은 [이 섹션](../event/about-events.md)
+비즈니스 이벤트를 삭제하면 **대상자 읽기** 활동. 비즈니스 이벤트에 대한 자세한 내용은 [이 섹션](../event/about-events.md)
 
 ## 특정 시간 동안 이벤트 수신 {#events-specific-time}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,6 @@ ht-degree: 2%
 * id: 모든 단계 이벤트 항목에 대해 고유합니다. 서로 다른 두 단계 이벤트는 동일한 ID를 가질 수 없습니다.
 * instanceId: instanceID는 여정 실행 내의 프로필에 연결된 모든 단계 이벤트에 대해 동일합니다. 프로필이 여정을 다시 입력하면 다른 instanceId가 사용됩니다. 이 새 instanceId는 다시 입력한 인스턴스의 모든 단계 이벤트(처음부터 끝까지)에 대해 동일합니다.
 * profileID: 여정 네임스페이스에 해당하는 프로필의 ID입니다.
-
->[!NOTE]
->
->문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다.
 
 ## 기본 사용 사례/일반 쿼리 {#common-queries}
 
@@ -429,11 +425,11 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-정의된 기간 동안 매일 여정에 입력한 프로필 수가 다시 표시됩니다. 프로필이 여러 ID를 통해 입력된 경우 두 번 계산됩니다. 재입력이 활성화된 경우 다른 날에 여정에 다시 입력한 경우 다른 날에 프로필 수가 중복될 수 있습니다.
+쿼리는 정의된 기간 동안 매일 여정에 입력한 프로필 수를 반환합니다. 프로필이 여러 ID를 통해 입력된 경우 두 번 계산됩니다. 재입력이 활성화된 경우 다른 날에 여정에 다시 입력한 경우 다른 날에 프로필 수가 중복될 수 있습니다.
 
-## 세그먼트 읽기 관련 쿼리 {#read-segment-queries}
+## 대상자 읽기 관련 쿼리 {#read-segment-queries}
 
-**세그먼트 내보내기 작업을 완료하는 데 걸린 시간**
+**대상자 내보내기 작업을 완료하는 데 걸린 시간**
 
 _데이터 레이크 쿼리_
 
@@ -463,7 +459,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-쿼리는 세그먼트 내보내기 작업이 큐에 추가된 시간과 최종적으로 종료되는 시간 사이의 시간 차이를 분 단위로 반환합니다.
+쿼리는 대상 내보내기 작업이 큐에 추가된 시간과 최종적으로 종료되는 시간 사이의 시간 차이를 분 단위로 반환합니다.
 
 **중복 항목이므로 여정에서 버린 프로필 수입니다.**
 
@@ -575,7 +571,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 이 쿼리는 일부 내부 오류로 인해 여정에서 삭제된 모든 프로필 ID를 반환합니다.
 
-**주어진 여정 버전에 대한 세그먼트 읽기 개요**
+**주어진 여정 버전에 대한 대상자 읽기 개요**
 
 _데이터 레이크 쿼리_
 
@@ -604,7 +600,7 @@ WHERE
 
 또한 다음과 같은 문제도 감지할 수 있습니다.
 
-* 주제 또는 내보내기 작업 생성 오류(세그먼트 내보내기 API 호출에 대한 시간 초과 포함)
+* 주제 또는 내보내기 작업 생성 오류(대상 내보내기 API 호출에 대한 시간 초과 포함)
 * 중단 가능한 내보내기 작업(주어진 여정 버전에 대해 내보내기 작업 종료와 관련된 이벤트가 없는 경우)
 * 작업자 문제, 내보내기 작업 종료 이벤트를 수신했지만 작업자 처리 종료 이벤트가 없는 경우
 
@@ -613,7 +609,7 @@ WHERE
 * 여정 버전이 일정에 도달하지 않았습니다.
 * 여정 버전이 orchestrator를 호출하여 내보내기 작업을 트리거해야 하는 경우 업그레이드 플로우에서 문제가 발생했습니다. 여정 배포 문제, 비즈니스 이벤트 또는 스케줄러 문제.
 
-**지정된 여정 버전에 대한 세그먼트 읽기 오류 가져오기**
+**주어진 여정 버전에 대한 대상자 읽기 오류 가져오기**
 
 _데이터 레이크 쿼리_
 
@@ -728,7 +724,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**모든 내보내기 작업에서 집계된 지표(세그먼트 내보내기 작업 및 카드) 가져오기**
+**모든 내보내기 작업에서 집계된 지표(대상 내보내기 작업 및 취소) 가져오기**
 
 _데이터 레이크 쿼리_
 
@@ -791,9 +787,9 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 지정된 여정 버전에 대한 전체 지표를 반환합니다(반복 여정의 경우 비즈니스 이벤트가 항목 재사용을 활용하여 트리거됨).
 
-## 세그먼트 자격 관련 쿼리 {#segment-qualification-queries}
+## 대상 자격 관련 쿼리 {#segment-qualification-queries}
 
-**구성된 것과 다른 세그먼트 실현으로 인해 프로필이 삭제되었습니다.**
+**구성된 대상자 구현과 다른 대상자 실현으로 인해 프로필이 삭제되었습니다.**
 
 _데이터 레이크 쿼리_
 
@@ -815,9 +811,9 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-이 쿼리는 잘못된 세그먼트 실현으로 인해 여정 버전에서 삭제된 모든 프로필 ID를 반환합니다.
+이 쿼리는 잘못된 대상 인식으로 인해 여정 버전에서 삭제된 모든 프로필 ID를 반환합니다.
 
-**특정 프로필에 대한 다른 이유로 삭제된 세그먼트 자격 이벤트**
+**특정 프로필에 대한 다른 이유로 삭제된 대상 자격 이벤트**
 
 _데이터 레이크 쿼리_
 
@@ -841,7 +837,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-이 쿼리는 프로필에 대한 다른 이유로 인해 삭제된 모든 이벤트(외부 이벤트/세그먼트 자격 이벤트)를 반환합니다.
+이 쿼리는 프로필에 대한 다른 이유로 인해 삭제된 모든 이벤트(외부 이벤트/대상 자격 이벤트)를 반환합니다.
 
 ## 이벤트 기반 쿼리 {#event-based-queries}
 

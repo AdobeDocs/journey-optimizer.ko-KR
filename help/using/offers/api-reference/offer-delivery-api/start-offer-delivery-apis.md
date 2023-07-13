@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 6%
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 오퍼 게재 API 시작 {#about-decisioning-apis}
 
-다음 중 하나를 사용하여 오퍼를 게재할 수 있습니다. **의사 결정** 또는 **Edge Decisioning** API. 또한 **일괄 의사 결정** API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 오퍼를 게재할 수 있습니다. 세그먼트의 각 프로필에 대한 오퍼 콘텐츠는 사용자 정의 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
+다음 중 하나를 사용하여 오퍼를 게재할 수 있습니다. **의사 결정** 또는 **Edge Decisioning** API. 또한 **일괄 의사 결정** API를 사용하면 한 번의 호출로 주어진 대상의 모든 프로필에 오퍼를 게재할 수 있습니다. 대상의 각 프로필에 대한 오퍼 콘텐츠는 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
 
 이 페이지에서는 사용 가능한 특정 기능에 대한 정보를 확인할 수 있습니다. **의사 결정** 및 **Edge Decisioning** API. 둘 다 고객에게 오퍼를 게재할 수 있지만 **Edge Decisioning** 인바운드 사용 사례와 플랫폼에서 더 나은 지연 시간 및 처리량을 보장하기 위해 가능한 한 항상 API입니다.
 

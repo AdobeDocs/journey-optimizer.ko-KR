@@ -1,12 +1,12 @@
 ---
 title: Batch Decisioning API
-description: Batch Decisioning API를 사용하여 사전 정의된 결정 범위 내에서 세그먼트화된 프로필에 대한 최상의 오퍼를 선택하는 방법을 알아봅니다.
+description: Batch Decisioning API를 사용하여 사전 정의된 결정 범위 내에서 대상자 프로필에 대한 최상의 오퍼를 선택하는 방법을 알아봅니다.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 3%
@@ -16,9 +16,9 @@ ht-degree: 3%
 
 # 를 사용하여 오퍼 게재 [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-다음 [!DNL Batch Decisioning] API를 사용하면 한 번의 호출로 주어진 세그먼트의 모든 프로필에 대해 의사 결정 기능을 사용할 수 있습니다. 세그먼트의 각 프로필에 대한 오퍼 콘텐츠는 사용자 정의 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
+다음 [!DNL Batch Decisioning] API를 사용하면 한 번의 호출로 주어진 대상의 모든 프로필에 대해 의사 결정 기능을 사용할 수 있습니다. 대상의 각 프로필에 대한 오퍼 콘텐츠는 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
 
-포함 [!DNL Batch Decisioning] API를 사용하면 의사 결정 범위를 위해 Adobe Experience Platform 세그먼트의 모든 프로필에 대한 최상의 오퍼로 데이터 세트를 채울 수 있습니다. 예를 들어 조직에서 [!DNL Batch Decisioning] 따라서 메시지 게재 공급업체에 오퍼를 보낼 수 있습니다. 그런 다음 이러한 오퍼는 동일한 사용자 세그먼트에 일괄 메시지 게재를 위해 전송되는 콘텐츠로 사용됩니다.
+포함 [!DNL Batch Decisioning] API를 사용하면 의사 결정 범위를 위해 Adobe Experience Platform 대상의 모든 프로필에 대한 최상의 오퍼로 데이터 세트를 채울 수 있습니다. 예를 들어 조직에서 [!DNL Batch Decisioning] 따라서 메시지 게재 공급업체에 오퍼를 보낼 수 있습니다. 그런 다음 이러한 오퍼는 동일한 사용자 대상자에게 일괄 메시지 전달을 위해 전송되는 콘텐츠로 사용됩니다.
 
 이를 위해 조직은 다음과 같은 작업을 수행합니다.
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * 데이터 세트를 메시지 게재 공급업체 API로 내보냅니다.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting segments.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 ### 결정 준비 {#prepare-decision}
 
-하나 이상의 결정을 준비하려면 데이터 세트, 세그먼트 및 결정을 만들었는지 확인하십시오. 이러한 전제 조건은에 자세히 설명되어 있습니다. [이 섹션](../../batch-delivery.md).
+하나 이상의 결정을 준비하려면 데이터 세트, 대상자 및 결정을 만들었는지 확인하십시오. 이러한 전제 조건은에 자세히 설명되어 있습니다. [이 섹션](../../batch-delivery.md).
 
 ### API 요구 사항 {#api-requirements}
 
@@ -104,7 +104,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | 속성 | 설명 | 예 |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | 값은 세그먼트의 고유 식별자를 포함하는 배열입니다. 하나의 값만 포함할 수 있습니다. | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:segmentIds` | 값은 대상자의 고유 식별자를 포함하는 배열입니다. 하나의 값만 포함할 수 있습니다. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | 결정 이벤트를 쓸 수 있는 출력 데이터 집합입니다. | `6196b4a1a63bd118dafe093c` |
 | `xdm:propositionRequests` | 다음을 포함하는 래퍼 `placementId` 및 `activityId` |  |
 | `xdm:activityId` | 결정에 대한 고유 식별자. | `xcore:offer-activity:1410cdcda196707b` |

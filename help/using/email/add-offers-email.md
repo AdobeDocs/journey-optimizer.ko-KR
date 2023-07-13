@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 오퍼, 결정, 이메일, 개인화, 결정
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->메시지를 미리 보려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../segment/creating-test-profiles.md).
+>메시지를 미리 보려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../audience/creating-test-profiles.md).
 
 1. 오퍼를 미리 보는 데 사용할 테스트 프로필을 선택하십시오.
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >이 예제에서는 **이메일** 네임스페이스입니다. Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보기 [이 섹션에서](../segment/get-started-identity.md).
+      >이 예제에서는 **이메일** 네임스페이스입니다. Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보기 [이 섹션에서](../audience/get-started-identity.md).
 
    1. 다음에서 **[!UICONTROL ID 값]** 필드에 테스트 프로필을 식별할 값을 입력합니다. 이 예에서는 테스트 프로필의 이메일 주소를 입력합니다.
 
@@ -94,7 +94,6 @@ ht-degree: 1%
    1. 프로필 데이터에 따라 메시지의 다양한 변형을 테스트할 수 있도록 다른 프로필을 추가합니다.
 
       ![](assets/deliver-offer-test-profiles.png)
-
 
 1. 다음을 클릭합니다. **[!UICONTROL 미리 보기]** 탭을 클릭하여 메시지를 테스트한 다음 테스트 프로필을 선택합니다. 선택한 프로필(여성)에 해당하는 오퍼가 표시됩니다.
 

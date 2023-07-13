@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 15%
@@ -74,9 +74,9 @@ ht-degree: 15%
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. 펼치기 **[!UICONTROL 이벤트]** 범주 및 놓기 **[!UICONTROL 세그먼트 선별]** 활동을 캔버스에 추가합니다. [자세히 알아보기](../building-journeys/segment-qualification-events.md)
+1. 펼치기 **[!UICONTROL 이벤트]** 범주 및 놓기 **[!UICONTROL 대상 자격 조건]** 활동을 캔버스에 추가합니다. [자세히 알아보기](../building-journeys/audience-qualification-events.md)
 
-1. 을(를) 클릭합니다. **[!UICONTROL 세그먼트]** 을(를) 필드에 추가하고 생성한 구독 목록을 선택합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL 대상자]** 을(를) 필드에 추가하고 생성한 구독 목록을 선택합니다.
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
@@ -227,7 +227,7 @@ To do this, you need to create an event containing the landing page submission i
 
     ![](assets/lp_subscription-uc-event-create-journey.png)
 
-1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
+1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/audience-qualification-events.md)
 
     ![](assets/lp_subscription-uc-journey-event.png)
 

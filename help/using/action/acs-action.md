@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: 캠페인, 표준, 통합, 최대 가용량, 작업
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%
@@ -30,7 +30,7 @@ Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지
 
 * Adobe Campaign Standard 통합은 작업 목록에서 전용 기본 제공 작업을 통해 설정됩니다. 각 샌드박스에 대해 구성해야 합니다.
 
-* 세그먼트 자격 또는 세그먼트 읽기 활동과 함께 Campaign Standard 작업을 사용할 수 없습니다.
+* 대상 자격 또는 대상 읽기 활동에는 Campaign Standard 작업을 사용할 수 없습니다.
 
 * 여정은 메시지와 Campaign Standard 작업을 모두 사용할 수 없습니다.
 

@@ -5,7 +5,7 @@ title: 데이터 엔지니어용 Journey Optimizer 시작하기
 description: 데이터 엔지니어로서 Journey Optimizer로 작업하는 방법에 대해 자세히 알아보세요.
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 프로필 및 테스트 프로필에 대해 활성화된 ID 네임스페이스 및 데이터 세트를 만드는 단계는 아래 섹션에 자세히 설명되어 있습니다.
 
-1. **ID 네임스페이스 만들기**. Adobe [!DNL Journey Optimizer]에서 **ID**&#x200B;는 장치와 채널 전반에 걸쳐 소비자를 연결하며 결과는 ID 그래프입니다. 연결된 ID 그래프는 모든 비즈니스 접점에서 상호 작용을 기반으로 경험을 개인화하는 데 사용됩니다.  [이 페이지](../../segment/get-started-identity.md)에서 ID 및 ID 네임스페이스에 대해 자세히 알아보세요.
+1. **ID 네임스페이스 만들기**. Adobe [!DNL Journey Optimizer]에서 **ID**&#x200B;는 장치와 채널 전반에 걸쳐 소비자를 연결하며 결과는 ID 그래프입니다. 연결된 ID 그래프는 모든 비즈니스 접점에서 상호 작용을 기반으로 경험을 개인화하는 데 사용됩니다.  [이 페이지](../../audience/get-started-identity.md)에서 ID 및 ID 네임스페이스에 대해 자세히 알아보세요.
 
 1. **스키마를 만들고** 프로필에 대해 활성화합니다. 스키마는 데이터의 구조와 형식을 나타내고 유효성을 검사하는 규칙 세트입니다. 스키마는 높은 수준에서 실제 개체(예: 사람)에 대한 추상적인 정의를 제공하고, 해당 개체의 각 인스턴스에 포함되어야 하는 데이터(예: 이름, 성, 생일 등)에 대한 개요를 제공합니다.  [이 페이지에서](../../data/get-started-schemas.md) 스키마에 대해 자세히 알아보세요.
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. **소스 커넥터 구성**. Adobe Journey Optimzer를 사용하면 외부 소스에서 데이터를 수집하는 동시에 플랫폼 서비스를 사용하여 들어오는 데이터를 구조화하고, 레이블을 지정하고, 개선할 수 있습니다. Adobe 애플리케이션, 클라우드 기반 저장소, 데이터베이스 및 기타 여러 소스와 같은 다양한 소스에서 데이터를 수집할 수 있습니다. [이 페이지에서](../get-started-sources.md) 소스 커넥터에 대해 자세히 알아보세요.
 
-1. **테스트 프로필 만들기**. 테스트 프로필은 여정에서 [테스트 모드](../../building-journeys/testing-the-journey.md)를 사용할 때 필요하며 전송하기 전에 [메시지를 미리 보고 테스트하는 데](../../email/preview.md) 필요합니다. 테스트 프로필을 만드는 단계는 [이 페이지](../../segment/creating-test-profiles.md)에 자세히 설명되어 있습니다.
+1. **테스트 프로필 만들기**. 테스트 프로필은 여정에서 [테스트 모드](../../building-journeys/testing-the-journey.md)를 사용할 때 필요하며 전송하기 전에 [메시지를 미리 보고 테스트하는 데](../../email/preview.md) 필요합니다. 테스트 프로필을 만드는 단계는 [이 페이지](../../audience/creating-test-profiles.md)에 자세히 설명되어 있습니다.
 
 
 또한 여정에서 메시지를 보낼 수 있으려면 **[!UICONTROL 데이터 소스]**, **[!UICONTROL 이벤트]** 및 **[!UICONTROL 작업]**&#x200B;을 구성해야 합니다. 자세한 내용은 [이 섹션](../../configuration/about-data-sources-events-actions.md)을 참조하세요.

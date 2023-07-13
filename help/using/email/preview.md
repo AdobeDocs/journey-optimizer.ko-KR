@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 미리보기, 콘텐츠, 이메일, 증명, 테스트, 프로필
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 11%
@@ -26,7 +26,7 @@ ht-degree: 11%
 >
 >메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다.
 >
->에서 테스트 프로필을 만드는 방법을 알아봅니다 [이 페이지](../segment/creating-test-profiles.md).
+>에서 테스트 프로필을 만드는 방법을 알아봅니다 [이 페이지](../audience/creating-test-profiles.md).
 
 이메일 콘텐츠를 테스트하려면 다음을 수행해야 합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 11%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ko-KR#email-rendering" text="이메일 렌더링"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ko-KR#preview-email" text="미리 보기"
 
-사용 [테스트 프로필](../segment/creating-test-profiles.md) 정의된 타겟팅 기준과 일치하지 않는 추가 수신자를 타겟팅하려면 다음 작업을 수행하십시오.
+사용 [테스트 프로필](../audience/creating-test-profiles.md) 정의된 타겟팅 기준과 일치하지 않는 추가 수신자를 타겟팅하려면 다음 작업을 수행하십시오.
 
 테스트 프로필을 선택하려면 아래 단계를 수행합니다.
 
@@ -68,7 +68,7 @@ ht-degree: 11%
 
    ![](assets/previewselect-namespace.png)
 
-   Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보기 [이 섹션에서](../segment/get-started-identity.md).
+   Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보기 [이 섹션에서](../audience/get-started-identity.md).
 
    아래 예에서는 **이메일** 네임스페이스입니다.
 
