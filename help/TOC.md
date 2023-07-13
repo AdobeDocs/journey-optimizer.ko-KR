@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c67c7b7c6a8af1ea24c66df261ddd390e55675f7
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 99%
@@ -282,15 +282,15 @@ ht-degree: 99%
    + 대상자 {#audiences}
       + [대상자 시작](using/audience/about-audiences.md)
       + [세그먼트 정의 작성](using/audience/creating-a-segment-definition.md)
+      + 대상자 구성 {#audience-orchestration}
+         + [대상자 구성 시작](using/audience/get-started-audience-orchestration.md)
+         + [컴포지션 워크플로우 만들기](using/audience/create-compositions.md)
+         + [컴포지션 캔버스 작업](using/audience/composition-canvas.md)
+         + [대상자 액세스 및 관리](using/audience/access-audiences.md)
    + 프로필{#profiles}
       + [프로필 시작](using/audience/get-started-profiles.md)
       + [테스트 프로필 만들기](using/audience/creating-test-profiles.md)
    + [ID](using/audience/get-started-identity.md)
-   + 대상자 구성 {#audience-orchestration}
-      + [대상자 구성 시작](using/audience/get-started-audience-orchestration.md)
-      + [컴포지션 워크플로우 만들기](using/audience/create-compositions.md)
-      + [컴포지션 캔버스 작업](using/audience/composition-canvas.md)
-      + [대상자 액세스 및 관리](using/audience/access-audiences.md)
    + [라이선스 사용](using/audience/license-usage.md)
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
