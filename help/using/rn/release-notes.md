@@ -4,7 +4,7 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2e3335372dca8c344773eaf365e8f90589ecfd7e
+source-git-commit: 781c83a2742989eb0bf7d68411ca3d7daa1eb1e0
 workflow-type: tm+mt
 source-wordcount: '2591'
 ht-degree: 93%
@@ -34,7 +34,7 @@ ht-degree: 93%
 <tbody>
 <tr>
 <td>
-<p>이제 작성 워크플로우를 만들어 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 강화...)을 활용하여 새 대상을 만들 수 있습니다. 새로 만든 대상자는 기존 대상자와 함께 Adobe Experience Platform에 저장되며 Journey Optimizer 캠페인에서 대상 고객에게 활용될 수 있습니다.</p>
+<p>이제 작성 워크플로우를 만들어 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 강화...)을 활용하여 새 대상을 만들 수 있습니다. 새로 만든 대상자는 기존 대상자와 함께 Adobe Experience Platform에 다시 저장되며, Journey Optimizer 캠페인에서 활용하여 고객을 타깃팅할 수 있습니다.</p>
 <img src="../audience/assets/audiences-publish.png"/>
 <p>자세한 내용은 <a href="../audience/get-started-audience-orchestration.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
