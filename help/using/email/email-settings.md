@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1783'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 9%
 
 아래 논리에 따라 통신을 전송하기 위해 이메일 표면 구성이 선택됩니다.
 
-* 일괄 처리 및 버스트 여정의 경우 이메일 표면 구성이 만들어지기 전에 이미 시작된 일괄 처리 또는 버스트 실행에는 적용되지 않습니다. 변경 사항은 다음 반복 또는 새 실행 시 선택됩니다.
+* 배치 여정의 경우 이메일 표면 구성이 만들어지기 전에 이미 시작된 배치 실행에는 적용되지 않습니다. 변경 사항은 다음 반복 또는 새 실행 시 선택됩니다.
 
 * 트랜잭션 메시지의 경우 다음 통신(최대 5분 지연)을 위해 변경 사항이 즉시 선택됩니다.
 

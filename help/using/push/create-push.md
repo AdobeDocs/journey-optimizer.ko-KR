@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '719'
 ht-degree: 16%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 16%
 >title="빠른 전송 모드"
 >abstract="빠른 전송 모드를 사용하여 푸시 채널에서 고속 메시지를 30M 미만의 대상자 크기에 전송할 수 있습니다."
 
-이전 여정에서 버스트 모드라고 하는 빠른 게재 모드는 [!DNL Journey Optimizer] 캠페인을 통해 매우 빠른 푸시 메시지를 대량으로 전송할 수 있는 추가 기능입니다.
+빠른 전송 모드는 [!DNL Journey Optimizer] 캠페인을 통해 매우 빠른 푸시 메시지를 대량으로 전송할 수 있는 추가 기능입니다.
 
 빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림(예: 뉴스 채널 앱을 설치한 사용자에게 속보)을 전송하려는 경우 사용됩니다.
 

@@ -4,9 +4,9 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2949'
 ht-degree: 95%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 95%
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2023년 6월 {#june-2023}
+
+* [!DNL Journey Optimizer] 2023년 6월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* **의사 결정 만들기** 섹션에 여러 기준과 여러 결정 범위가 사용되는 경우를 설명하는 평가 기준 순서 관련 예시를 추가헸습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* [의사 결정 관리] 설명서에서 보다 명확한 정보를 전달하기 위해 동적 컬렉션에는 [개체 수준 액세스 제어]를 사용할 수 없다는 메모를 추가했습니다. [자세히 보기](../offers/offer-library/creating-collections.md)
 
 ## 2023년 5월 {#may-2023}
 

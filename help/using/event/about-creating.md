@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 16%
+source-wordcount: '1623'
+ht-degree: 15%
 
 ---
 
@@ -69,6 +69,8 @@ ht-degree: 16%
    >[!NOTE]
    >
    >고급 표현식 편집기는 를 정의할 때 사용할 수 없습니다. **[!UICONTROL 이벤트 ID 조건]**. 단순 표현식 편집기에서 모든 연산자를 사용할 수 있는 것은 아니며, 데이터 유형에 따라 다릅니다. 예를 들어 필드의 문자열 유형의 경우 &quot;포함&quot; 또는 &quot;같음&quot;을 사용할 수 있습니다.
+   >
+   >이벤트를 만든 후 새 열거형 값으로 스키마를 수정하는 경우, 다음 단계에 따라 변경 사항을 기존 이벤트에 적용해야 합니다. 이벤트 필드에서 열거형 필드를 선택 취소하고, 선택을 확인한 다음 열거형 필드를 다시 선택합니다. 이제 새 열거형 값이 표시됩니다.
 
 1. 네임스페이스를 추가합니다. 이 단계는 원하는 경우에만 수행하면 되지만, 네임스페이스를 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있습니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. [이 섹션](../event/about-creating.md#select-the-namespace)을 참조하십시오.
 

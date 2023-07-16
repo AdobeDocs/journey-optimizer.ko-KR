@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 문제 해결, 문제 해결, 여정, 확인, 오류
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 74%
+source-wordcount: '1029'
+ht-degree: 73%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 74%
 
 이벤트를 성공적으로 보냈는데 여정에 들어오는 사람이 없다면 여정에서 이벤트 보내기 및 이벤트 받기 사이에 무언가 잘못된 것입니다.
 
-관리자가 확인해야 할 몇 가지 사항은 다음과 같습니다.
+아래 질문과 함께 문제 해결을 시작할 수 있습니다.
 
 * 수신 이벤트를 기다리는 여정이 테스트 모드이거나 라이브 상태인 것이 확실합니까?
 * 페이로드 미리 보기에서 페이로드를 복사하기 전에 이벤트를 저장했습니까?

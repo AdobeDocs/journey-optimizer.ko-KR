@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 15%
@@ -39,8 +39,8 @@ ht-degree: 15%
 
 Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자 지정 작업에 적용하여 특정 필드가 서드파티 시스템으로 내보내지지 않도록 하거나 이메일, 푸시 또는 SMS 통신 수신에 동의하지 않은 고객을 제외할 수 있습니다. 자세한 내용은 다음 페이지를 참조하십시오.
 
-* [데이터 거버넌스](../action/action.md).
-* [동의](../action/action.md).
+* [데이터 거버넌스](../action/action-privacy.md).
+* [동의](../action/action-privacy.md).
 
 
 ## 구성 단계 {#configuration-steps}

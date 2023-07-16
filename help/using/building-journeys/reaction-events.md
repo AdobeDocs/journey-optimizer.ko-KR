@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 이벤트, 반응, 추적, 플랫폼
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 21%
@@ -51,4 +51,4 @@ ht-degree: 21%
 
 >[!IMPORTANT]
 >
->Gmail과 같은 이메일 클라이언트는 이미지 차단을 허용합니다. 이메일에 포함된 0픽셀 이미지를 사용하여 이메일 열기가 추적됩니다. 이미지가 차단되면 이메일 열림은 고려되지 않습니다.
+>Gmail과 같은 이메일 클라이언트는 이미지 차단을 허용합니다. 이메일에 포함된 0픽셀 이미지를 사용하여 이메일 열람을 추적합니다. 이미지가 차단되면 이메일 열림은 고려되지 않습니다.

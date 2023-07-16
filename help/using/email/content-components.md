@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 구성 요소, 이메일 디자이너, 편집기, 이메일
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1354'
 ht-degree: 57%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 57%
    >
    >단일 구조 구성 요소와 구조 구성 요소의 각 열에 여러 구성 요소를 추가할 수 있습니다.
 
-1. 를 사용하여 각 구성 요소의 스타일 속성 조정 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 오른쪽 탭 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보기](alignment-and-padding.md)
+1. 를 사용하여 각 구성 요소의 속성 및 스타일 조정 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 오른쪽 탭 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보기](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
@@ -224,4 +224,4 @@ ht-degree: 57%
 
 >[!IMPORTANT]
 >
->여정 메시지에 사용 중인 여정 결정이 변경되는 경우 오퍼 게시를 취소하고 다시 게시해야 합니다.  이렇게 하면 변경 사항이 여정 메시지에 통합되고 메시지가 최신 업데이트와 일관되게 표시됩니다.
+>여정의 메시지에 사용 중인 오퍼 의사 결정이 변경되는 경우 여정 게시를 취소하고 다시 게시해야 합니다.  이렇게 하면 변경 사항이 여정 메시지에 통합되고 메시지가 최신 업데이트와 일관되게 표시됩니다.

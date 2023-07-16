@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 8%
+source-wordcount: '607'
+ht-degree: 7%
 
 ---
 
@@ -50,7 +50,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 * 데이터 세트를 내보내려면 **대상 관리**, **대상 보기**, **대상 활성화**, 및 **데이터 세트 대상 관리 및 활성화** [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). 읽기 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) 필요한 권한을 얻으려면 제품 관리자에게 문의하십시오.
 
-* 이 기능은 1세대 데이터(즉, 에서 정의한 원시 데이터)만 내보내도록 지원합니다. [Real-time Customer Data Platform 제품 설명](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). 내보내려는 데이터 세트에 2세대 데이터가 없는지 확인합니다.
+* 내보내려는 데이터 세트에 2세대 데이터가 없는지 확인합니다. 이 기능은 1세대 데이터(즉, 에서 정의한 원시 데이터)만 내보내도록 지원합니다. [Real-time Customer Data Platform 제품 설명](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). 1세대 데이터에는 Adobe Experience Platform 소스를 통해 가져온 데이터 세트 또는 Analytics Data Connector 및 Journey Optimizer 로그/보고서 데이터 세트와 같은 Adobe 솔루션을 사용하여 수집된 데이터 세트가 포함됩니다.
 
 ## 데이터 세트를 내보내는 주요 단계 {#main-steps}
 

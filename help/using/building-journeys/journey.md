@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 20%
+ht-degree: 15%
 
 ---
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 >[!NOTE]
 >
->대부분의 경우 프로필은 동일한 여정에서 동시에 여러 번 나타날 수 없습니다. 재입력이 활성화된 경우 프로필은 여정에 다시 입력할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 다시 입력할 수 없습니다. [자세히 보기](end-journey.md).
+>대부분의 경우 프로필은 동일한 여정에서 동시에 여러 번 나타날 수 없습니다. 재입력이 활성화된 경우 프로필은 여정을 다시 입력할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 다시 입력할 수 없습니다. [자세히 보기](end-journey.md).
 
 라이브 여정으로 수정해야 하는 경우 여정의 새 버전을 만듭니다.
 

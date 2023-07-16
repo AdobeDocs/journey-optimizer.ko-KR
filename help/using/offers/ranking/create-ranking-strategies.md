@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 6%
+source-wordcount: '424'
+ht-degree: 7%
 
 ---
 
@@ -39,7 +39,7 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
 1. AI 모델의 고유한 이름과 설명을 지정한 다음 만들려는 AI 모델의 유형을 선택합니다.
 
    * **[!UICONTROL 자동 최적화]** 는 과거 오퍼 성능을 기반으로 오퍼를 최적화합니다. [자세히 알아보기](auto-optimization-model.md)
-   * **[!UICONTROL 개인화됨]** 대상과 오퍼 성능을 기반으로 오퍼를 최적화하고 개인화합니다. [자세히 알아보기](personalized-optimization-model.md)
+   * **[!UICONTROL 개인화된 최적화]** 대상과 오퍼 성능을 기반으로 오퍼를 최적화하고 개인화합니다. [자세히 알아보기](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -61,7 +61,9 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
    >
    >와(과) 연결된 스키마에서 생성된 데이터 세트만 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹(이전의 mixin)이 드롭다운 목록에 표시됩니다.
 
-1. 다음을 만드는 경우 **[!UICONTROL 개인화된 최적화]** AI 모델, AI 모델을 교육하는 데 사용할 대상을 선택합니다.
+1. 다음을 만드는 경우 **[!UICONTROL 개인화된 최적화]** AI 모델, AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
+
+   ➡️ [비디오에서 이 기능 살펴보기](#video)
 
    ![](../assets/ai-ranking-segments.png)
 

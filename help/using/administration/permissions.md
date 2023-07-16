@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 제품, 프로필, 샌드박스
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 6%
@@ -109,7 +109,7 @@ ht-degree: 6%
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. 다음과 같은 다양한 기능 중에서 선택합니다. **[!DNL Journeys]**, **[!DNL Segments]** <!--CHECK--> 또는 **[!DNL Decision management]** 다음에서 사용 가능 [!DNL Journey Optimizer] 왼쪽 메뉴에 나열됩니다.
+1. 다음과 같은 여러 리소스 중에서 선택합니다. **[!DNL Journeys]**, **[!DNL Segments]** 또는 **[!DNL Decision management]** 다음에서 사용 가능 [!DNL Journey Optimizer] 왼쪽 메뉴에 나열됩니다.
 
    여기에서 **[!UICONTROL 여정]** 리소스.
 
