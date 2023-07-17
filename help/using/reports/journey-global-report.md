@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2087'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 다음 **[!UICONTROL 이메일 전송 통계]** 그래프는 게재의 성공을 자세히 설명합니다.
 
-* **[!UICONTROL 타깃팅됨]**: 이메일 또는 SMS 전송과 같은 작업에 대해 Adobe Journey Orchestration이 타겟팅한 프로필 수입니다.
+* **[!UICONTROL 타깃팅됨]**: 이메일 또는 SMS 전송과 같은 작업을 타겟팅한 프로필 수입니다.
 
 * **[!UICONTROL 전송됨]**: 게재에 대한 총 전송 수입니다.
 
@@ -193,7 +193,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 다음 **[!UICONTROL 푸시 알림 - 전송 통계]** 표에서는 그래프 및 KPI를 사용하여 푸시 알림과 관련된 기본 정보를 자세히 설명합니다.
 
-* **[!UICONTROL 타깃팅됨]**: 이메일 또는 SMS 전송과 같은 작업에 대해 Adobe Journey Orchestration이 타겟팅한 프로필 수입니다.
+* **[!UICONTROL 타깃팅됨]**: 이메일 또는 SMS 전송과 같은 작업을 타겟팅한 프로필 수입니다.
 
 * **[!UICONTROL 전송됨]**: 게재에 대한 총 전송 수입니다.
 
