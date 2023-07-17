@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 781c83a2742989eb0bf7d68411ca3d7daa1eb1e0
+source-git-commit: ec71600fdc50e812e627f246e8a5bd2c5ad7e835
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 93%
+source-wordcount: '2695'
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 93%
 
 ## 2023년 7월 업데이트
 
-
 <table>
 <thead>
 <tr>
@@ -35,13 +34,16 @@ ht-degree: 93%
 <tr>
 <td>
 <p>이제 작성 워크플로우를 만들어 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 강화...)을 활용하여 새 대상을 만들 수 있습니다. 새로 만든 대상자는 기존 대상자와 함께 Adobe Experience Platform에 다시 저장되며, Journey Optimizer 캠페인에서 활용하여 고객을 타깃팅할 수 있습니다.</p>
+
 <img src="../audience/assets/audiences-publish.png"/>
+
 <p>자세한 내용은 <a href="../audience/get-started-audience-orchestration.md">세부 설명서</a>를 참조하십시오.</p>
+
+<p>대상자 구성은 대상자에게 중앙 포털 역할을 하는 새로운 Adobe Experience Platform "대상자" 메뉴와 완전히 통합됩니다. 이제 세그먼트 트렌드 및 겹침이 있는 새 대시보드가 포함된 찾아보기 페이지를 사용하여 새로운 통찰력을 찾고, 접기 및 태깅을 위한 조직 도구를 탐색할 수 있습니다. 이 경험에는 활성화 워크플로를 관리하기 위한 대상 라이프사이클 관리 기능과 표준화된 대상 레이블 지정을 위한 거버넌스 컨트롤이 포함되어 있습니다. 이러한 새로운 관리 경험을 통해 이제 한 곳에서 대상을 쉽고 안전하게 관리할 수 있습니다. 자세한 내용은 다음을 참조하십시오. <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform 설명서</a>.</p></p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 ## 2023년 6월 릴리스 정보 {#june-rn-2023}
 
