@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 30%
+source-wordcount: '1415'
+ht-degree: 29%
 
 ---
 
 # 컴포지션 캔버스 작업 {#composition-canvas}
+
+>[!BEGINSHADEBOX]
+
+이 설명서는 Adobe Journey Optimizer 내에서 대상 구성을 사용하여 작업하는 방법에 대한 자세한 정보를 제공합니다. Adobe Journey Optimizer을 사용하지 않는 경우 [여기를 클릭하십시오](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 대상 컴포지션은 대상을 만들고 다양한 활동(분할, 강화 등)을 사용할 수 있는 시각적 캔버스를 제공합니다.
 
@@ -137,9 +143,11 @@ ht-degree: 30%
 
 다음 **[!UICONTROL 강화]** 활동을 사용하면 Adobe Experience Platform 데이터 세트에서 오는 추가 속성으로 대상자를 강화할 수 있습니다. 예를 들어 이름, 가격 또는 제조업체 ID와 같이 구매한 제품과 관련된 정보를 추가하고 이러한 정보를 활용하여 대상자에게 전송하는 게재를 개인화할 수 있습니다.
 
->[!IMPORTANT]
->
->지금은 데이터 세트 수준 또는 필드 수준에서 데이터 세트의 레이블이 새로 만든 대상자에게 전파되지 않습니다. 이로 인해 최종 대상자의 액세스 제어 및/또는 데이터 거버넌스에 영향을 줄 수 있습니다. 따라서 대상자를 구성할 때는 테스트 데이터만 사용하십시오.
+를 사용하여 작업할 때 다음 제한 사항을 참고하십시오. **[!UICONTROL 강화]** 활동:
+
+* **데이터 세트** 데이터 보강의 경우 레코드 유형(이벤트 유형이 아님)이어야 하며 시스템 데이터 세트이거나 프로필로 표시할 수 없습니다. 1GB 미만이어야 합니다.
+* **데이터 보강 - 1:1 조인 지원**. 즉, 조인 키에 데이터 보강 데이터 세트에 대한 일치 항목이 두 개 이상 있으면 시스템에서 일치 항목 중 하나를 선택하여 1:1 조인에 사용합니다.
+* **RTCDP 대상에서 대상을 활성화할 수 있습니다.**, 하지만 데이터 보강 속성은 있을 경우 가능하지 않습니다.
 
 활동을 구성하려면 다음 단계를 수행합니다.
 

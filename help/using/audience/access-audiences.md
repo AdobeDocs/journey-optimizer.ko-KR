@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 6%
+source-wordcount: '169'
+ht-degree: 5%
 
 ---
 
 # 대상자 액세스 및 관리 {#access-manage-audiences}
+
+>[!BEGINSHADEBOX]
+
+이 설명서는 Adobe Journey Optimizer 내에서 대상 구성을 사용하여 작업하는 방법에 대한 자세한 정보를 제공합니다. Adobe Journey Optimizer을 사용하지 않는 경우 [여기를 클릭하십시오](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 대상자 작성으로 인한 대상자는 **[!UICONTROL 찾아보기]** 의 탭 **[!UICONTROL 대상]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
