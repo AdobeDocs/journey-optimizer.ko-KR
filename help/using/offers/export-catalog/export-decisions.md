@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 3%
@@ -232,7 +232,7 @@ ht-degree: 3%
 
   **필드:** orderEvaluationType
   **제목:** 주문 평가 유형
-  **설명:** 사용되는 순서 평가 메커니즘, 의사 결정 옵션의 정적 우선 순위, 모든 옵션에 대한 숫자 값을 계산하는 점수 함수 또는 목록을 수신하여 순서를 지정하는 순위 전략을 지정합니다.
+  **설명:** 사용되는 순서 평가 메커니즘, 의사 결정 옵션의 정적 우선 순위, 모든 옵션에 대한 숫자 값을 계산하는 점수 함수 또는 목록을 수신하여 순서를 지정하는 AI 모델을 지정합니다.
   **유형:** 문자열
   **가능한 값:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 

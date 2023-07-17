@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 12%
@@ -42,13 +42,13 @@ ht-degree: 12%
 
    >[!CAUTION]
    >
-   >데이터 세트에서 사용할 스키마에는 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 연결된 필드 그룹입니다. 그렇지 않으면 등급 전략에 사용할 수 없습니다.
+   >데이터 세트에서 사용할 스키마에는 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 연결된 필드 그룹입니다. 그렇지 않으면 AI 모델에서 사용할 수 없습니다.
 
 1. 이름을 입력하고 스키마를 저장합니다.
 
 >[!NOTE]
 >
->에서 스키마 빌드에 대해 자세히 알아보기 [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR-KR#understanding-schemas){target="_blank"}.
+>에서 스키마 빌드에 대해 자세히 알아보기 [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR#understanding-schemas){target="_blank"}.
 
 이제 이 스키마를 사용하여 데이터 세트를 만들 준비가 되었습니다. 이렇게 하려면 아래 단계를 수행합니다:
 
@@ -66,4 +66,4 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->이제 다음 경우에 이벤트 데이터를 수집하도록 이 데이터 세트를 선택할 수 있습니다. [등급 전략 만들기](#create-ranking-strategy).
+>이제 다음 경우에 이벤트 데이터를 수집하도록 이 데이터 세트를 선택할 수 있습니다. [ai 모델 만들기](../ranking/create-ranking-strategies.md).

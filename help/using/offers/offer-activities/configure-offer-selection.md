@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 6%
 
 ---
@@ -62,9 +62,9 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 다음을 만들 수 �
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-등급 전략을 선택하여 주어진 프로필에 대해 표시할 오퍼에 자동으로 등급을 지정하는 교육된 모델 시스템을 사용할 수도 있습니다. 에서 등급 전략을 만드는 방법을 알아봅니다. [이 섹션](../ranking/create-ranking-strategies.md).
+AI 모델을 선택하여 주어진 프로필에 대해 표시할 오퍼에 자동으로 등급을 지정하는 교육된 모델 시스템을 사용할 수도 있습니다. 에서 AI 모델을 만드는 방법을 알아봅니다. [이 섹션](../ranking/create-ranking-strategies.md).
 
-등급 전략이 생성되면 의사 결정의 배치에 할당할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
+AI 모델이 만들어지면 의사 결정의 배치에 할당할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 결정을 만들거나 기존 결정을 편집합니다. [의사 결정 만들기](../offer-activities/create-offer-activities.md)를 참조하십시오.
 
@@ -76,11 +76,11 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 다음을 만들 수 �
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. 생성한 순위 전략을 선택합니다. 등급 전략의 모든 세부 정보가 표시됩니다.
+1. 만든 AI 모델을 선택합니다. 모델의 모든 세부 정보가 표시됩니다.
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. **[!UICONTROL 선택]**&#x200B;을 클릭합니다. 이제 순위 전략이 배치와 연결됩니다.
+1. **[!UICONTROL 선택]**&#x200B;을 클릭합니다. 이제 AI 모델이 배치와 연결됩니다.
 
 여러 오퍼가 적합한 경우 교육된 모델 시스템은 주어진 배치에 대해 먼저 제시해야 하는 오퍼를 결정합니다.
 

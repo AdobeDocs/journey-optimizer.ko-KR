@@ -4,7 +4,7 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '2949'
 ht-degree: 95%
@@ -182,7 +182,7 @@ ht-degree: 95%
 
 * 2022년 1월 릴리스의 [!DNL Journey Optimizer]모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * **Offer Decisioning AI 등급** 섹션이 자동 최적화 모델에 대한 보다 자세한 설명과 함께 업데이트되었습니다. [자세히 보기](../offers/ranking/auto-optimization-model.md)
-* 등급 전략을 사용할 때 이벤트 유형을 보낼 수 있어야 하는 스키마 요구 사항에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../offers/data-collection/schema-requirement.md)
+* AI 모델을 사용할 때 이벤트 유형을 보낼 수 있어야 하는 스키마 요구 사항에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../offers/data-collection/schema-requirement.md)
 * 가독성 개선을 위해 [!DNL Journey Optimizer] 개인화 기능 관련 섹션을 재구성했습니다. [자세히 보기](../personalization/personalize.md)
 * 다음 **메시지 사전 설정 만들기** 섹션을 몇 개의 섹션으로 나누어서 명확성을 개선했습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
 * 다음 **옵트아웃 관리** 섹션이 명확해지고 약간 재구성되었습니다. [자세히 보기](../privacy/opt-out.md#opt-out-management)
