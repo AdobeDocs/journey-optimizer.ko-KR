@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40cd9df5b41fd622b8e447d7fc672502e9e29787
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 5%
@@ -54,7 +54,7 @@ curl -X GET \
 
 | 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `q` | 선택한 필드에서 검색할 선택적 쿼리 문자열입니다. 쿼리 문자열은 소문자여야 하며 토큰화되지 않고 특수 문자를 이스케이프 처리할 수 있도록 큰따옴표로 묶을 수 있습니다. 문자 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 는 특별한 의미가 있으며 쿼리 문자열에 표시할 때 백슬래시로 이스케이프해야 합니다. | `default` |
+| `q` | 선택한 필드에서 검색할 선택적 쿼리 문자열입니다. 쿼리 문자열은 소문자여야 하며 토큰화되지 않고 특수 문자를 이스케이프 처리할 수 있도록 큰따옴표로 묶을 수 있습니다. 문자 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 는 특별한 의미가 있으며 쿼리 문자열에 표시할 때 백슬래시로 이스케이프해야 합니다. | `default` |
 | `qop` | q 쿼리 문자열 매개 변수의 값에 AND 또는 OR 연산자를 적용합니다. | `AND` / `OR` |
 | `field` | 검색을 제한할 선택적 필드 목록입니다. 이 매개 변수는 다음과 같이 반복될 수 있습니다. field=field1[,field=field2,...] 및 (경로 표현식은 _instance.xdm:name과 같이 점으로 구분된 경로 형식입니다.) | `_instance.xdm:name` |
 | `orderBy` | 특정 속성별로 결과를 정렬합니다. 추가 `-` 제목 앞(`orderby=-title`)는 내림차순(Z-A)으로 제목별로 항목을 정렬합니다. | `-repo:createdDate` |
