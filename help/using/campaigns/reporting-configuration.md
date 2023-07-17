@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 구성, 실험, 보고, 최적화 도구
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 36%
+source-wordcount: '595'
+ht-degree: 35%
 
 ---
 
@@ -49,17 +49,19 @@ ht-degree: 36%
 
 * 이벤트 유형 데이터 세트만 추가할 수 있습니다.
 
-* 이러한 데이터 세트에는 다음 중 하나 이상이 포함되어야 합니다 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}: **애플리케이션 세부 정보**, **상거래 세부 정보**, **웹 세부 정보**.
+* 이러한 데이터 세트에는 **경험 이벤트 - 제안 상호 작용** [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}.
 
-   >[!NOTE]
-   >
-   >현재 이러한 필드 그룹만 지원됩니다.
+* 이러한 데이터 세트에는 다음 중 하나가 포함될 수도 있습니다 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}: **애플리케이션 세부 정보**, **상거래 세부 정보**, **웹 세부 정보**.
 
-   예를 들어 이메일 캠페인이 구매 또는 주문과 같은 상거래 데이터에 미치는 영향을 알려면 다음으로 경험 이벤트 데이터 세트를 만들어야 합니다. **상거래 세부 정보** 필드 그룹입니다.
+  >[!NOTE]
+  >
+  >다른 필드 그룹도 포함될 수 있지만 현재 Journey Optimizer 보고에서 위의 필드 그룹만 지원됩니다.
 
-   마찬가지로, 모바일 상호 작용에 대해 보고하려면 를 사용하여 경험 이벤트 데이터 세트를 만들어야 합니다. **애플리케이션 세부 정보** 필드 그룹입니다.
+  예를 들어 이메일 캠페인이 구매 또는 주문과 같은 상거래 데이터에 미치는 영향을 알려면 다음으로 경험 이벤트 데이터 세트를 만들어야 합니다. **상거래 세부 정보** 필드 그룹입니다.
 
-   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
+  마찬가지로, 모바일 상호 작용에 대해 보고하려면 를 사용하여 경험 이벤트 데이터 세트를 만들어야 합니다. **애플리케이션 세부 정보** 필드 그룹입니다.
+
+  <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * 이러한 필드 그룹을 하나 또는 여러 데이터 세트에서 사용할 하나 또는 여러 스키마에 추가할 수 있습니다.
 
