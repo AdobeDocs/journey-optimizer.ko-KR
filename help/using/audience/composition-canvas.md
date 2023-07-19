@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
+source-git-commit: dfee69e3573bed6029a0e12fbf4d16c169686683
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 29%
+source-wordcount: '1417'
+ht-degree: 27%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="보강 속성"
->abstract="보강 데이터 세트에서 하나 또는 여러 속성을 선택하여 대상자와 연결합니다. 구성이 게시되면 해당 속성을 대상자에 연결하고 캠페인에서 활용하여 게재 정보를 개인화할 수 있습니다."
+>abstract="보강 데이터 세트에서 하나 또는 여러 속성을 선택하여 대상자와 연결합니다. 컴포지션이 게시되면 이러한 속성이 대상과 연결되고 Journey Optimizer 캠페인에서 활용하여 게재를 개인화할 수 있습니다."
 
 다음 **[!UICONTROL 강화]** 활동을 사용하면 Adobe Experience Platform 데이터 세트에서 오는 추가 속성으로 대상자를 강화할 수 있습니다. 예를 들어 이름, 가격 또는 제조업체 ID와 같이 구매한 제품과 관련된 정보를 추가하고 이러한 정보를 활용하여 대상자에게 전송하는 게재를 개인화할 수 있습니다.
 
