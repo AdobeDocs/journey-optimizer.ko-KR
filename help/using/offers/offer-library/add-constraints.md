@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="적격성 정의"
->abstract="기본적으로 모든 프로필은 오퍼를 제공할 수 있지만, 대상자 또는 의사 결정 규칙을 사용하여 오퍼를 특정 프로필로 제한할 수 있습니다."
+>abstract="기본적으로 모든 프로필에 오퍼가 표시될 수 있지만, 대상자 또는 결정 규칙을 사용하여 오퍼를 특정 프로필로 제한할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,7 +75,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="총 프로필 예상"
->abstract="대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다."
+>abstract="대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다."
 
 다음 **[!UICONTROL 오퍼 자격 요건]** 섹션에서는 대상자 또는 의사 결정 규칙을 사용하여 정의하는 특정 프로필로 오퍼를 제한할 수 있습니다.
 
@@ -101,7 +101,7 @@ ht-degree: 15%
   >
   >이벤트 기반 오퍼는에서 현재 지원되지 않습니다. [!DNL Journey Optimizer]. 다음을 기반으로 의사 결정 규칙을 만드는 경우 [이벤트](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, 오퍼에서 이를 활용할 수 없습니다.
 
-대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
+대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -272,7 +272,7 @@ ht-degree: 15%
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL 모든 배치에서]**: 최대 가용량 수는 오퍼와 연결된 배치 전체의 모든 의사 결정을 합계합니다.
+* **[!UICONTROL 모든 배치에서]**: 최대 가용량 수는 오퍼와 연결된 배치 전체에서 모든 의사 결정을 합계합니다.
 
   예를 들어 오퍼에 **이메일** 배치 및 **웹** 배치, 그리고 다음 위치에 캡핑 설정 **모든 배치에서 프로필당 2개**&#x200B;를 선택한 경우 각 프로필은 배치 혼합에 관계없이 총 2회까지 오퍼를 받을 수 있습니다.
 

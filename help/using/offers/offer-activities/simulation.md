@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="오퍼 결정 시뮬레이션"
->abstract="시뮬레이션을 사용하면 지정된 배치에 대해 테스트 프로필에 어떤 오퍼를 제공할지 시뮬레이트할 수 있습니다. 이를 통해 대상 수신자에게 영향을 주지 않고 다양한 버전의 오퍼를 테스트 및 구체화할 수 있습니다."
+>abstract="시뮬레이션을 사용하면 지정된 배치에 대해 테스트 프로필에 어떤 오퍼를 제공할지 시뮬레이션할 수 있습니다. 이를 통해 대상 수신자에게 영향을 주지 않고 다양한 버전의 오퍼를 테스트 및 구체화할 수 있습니다."
 
 ## 시뮬레이션 기본 정보 {#about-simulation}
 

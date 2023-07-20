@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
->title="대상자 활동 읽기"
->abstract="대상 읽기 활동을 사용하면 Adobe Experience Platform 대상에 속하는 모든 개인이 여정을 입력하도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다."
+>title="대상자 읽기 활동"
+>abstract="대상자 읽기 활동을 사용하여 Adobe Experience Platform 대상자에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다."
 
 사용 **대상자 읽기** 활동을 통해 대상자의 모든 개인이 여정에 들어오도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 

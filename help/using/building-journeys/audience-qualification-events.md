@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
->title="대상 자격 이벤트"
->abstract="이 활동을 통해 여정은 Adobe Experience Platform 대상의 프로필 출입구에서 수신 대기함으로써 개인이 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다."
+>title="대상자 자격 이벤트"
+>abstract="이 활동을 통해 Adobe Experience Platform 대상자의 프로필의 처음과 끝에서 의견을 수렴하여 개인 사용자가 여정으로 들어오거나 이동할 수 있습니다."
 
-이 활동을 통해 여정은 Adobe Experience Platform 대상의 프로필 출입구에서 수신 대기함으로써 개인이 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다. 대상자 만들기에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../audience/about-audiences.md).
+이 활동을 통해 Adobe Experience Platform 대상자의 프로필의 처음과 끝에서 의견을 수렴하여 개인 사용자가 여정으로 들어오거나 이동할 수 있습니다. 대상자 만들기에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../audience/about-audiences.md).
 
 &quot;실버 고객&quot; 대상이 있다고 가정해 보겠습니다. 이 활동을 사용하면 모든 신규 실버 고객이 여정을 입력하고 일련의 개인화된 메시지를 보내도록 할 수 있습니다.
 

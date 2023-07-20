@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="Audience"
->abstract="Adobe Experience Platform은 실시간 고객 프로필 데이터를 활용함으로써 세그먼트 정의를 쉽게 작성하여 고객의 고유한 행동과 선호도를 포착하는 타겟팅된 대상자를 만들 수 있습니다."
+>abstract="실시간 고객 프로필 데이터를 활용하여 Adobe Experience Platform에서 세그먼트 정의를 쉽게 작성하여 고객의 고유 비헤이비어와 환경 설정을 캡처하는 타겟팅된 대상자를 만들 수 있습니다."
 
 [!DNL Journey Optimizer] 을(를) 사용하면 다음에서 직접 실시간 고객 프로필 데이터를 사용하여 Adobe Experience Platform 대상을 구축하고 활용할 수 있습니다. **[!UICONTROL 대상]** 메뉴를 사용하여 여정 또는 캠페인에 사용할 수 있습니다.
 
