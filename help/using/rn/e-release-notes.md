@@ -5,9 +5,9 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 노트
 hide: true
 hidefromtoc: true
-source-git-commit: b677776becaabc15c85be0a5a46b741cebb9d87b
+source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '617'
 ht-degree: 25%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 25%
 <tbody>
 <tr>
 <td>
-<p>이제 캠페인 및 여정 외에도 랜딩 페이지, 템플릿, 콘텐츠 조각 및 구독 목록에 Adobe Experience Platform 통합 태그를 할당할 수 있습니다. 이렇게 하면 쉽게 분류하고, 모든 목록에서 검색 및 탐색을 개선할 수 있습니다. 이 기능은 현재 GA(일반 공급)되어 있습니다.</p>
+<p>이제 캠페인과 여정 외에도 Adobe Experience Platform 통합 태그를 랜딩 페이지, 템플릿, 콘텐츠 조각 및 구독 목록에 할당할 수 있습니다. 이렇게 하면 쉽게 분류하고, 모든 목록에서 검색 및 탐색을 개선할 수 있습니다. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>자세한 내용은 <a href="../start/search-filter-categorize.md#tags">자세한 설명서</a>를 참조하세요.</p>
 </td>
@@ -103,6 +103,16 @@ ht-degree: 25%
 
 이 릴리스는 아래 나열된 개선 사항과 함께 제공됩니다.
 
+**여정**
+
+* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
+
+
+**캠페인**
+
+* 이제 캠페인 관련 컨텍스트 이벤트를 개인화 편집기 &quot;컨텍스트 속성&quot; 메뉴에서 사용할 수 있습니다.
+
+
 **대상자**
 
 대상의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상 선택기가 개선되었습니다.
@@ -114,13 +124,4 @@ ht-degree: 25%
 
 따라서 이렇게 대상자를 만들고 관리하는 새로운 경로를 반영하기 위해 Adobe Journey Optimizer와 Adobe Experience Platform UI 내 “세그먼트”라는 단어가 “대상자”로 바뀐 것을 확인하실 수 있습니다.
 
-
-**여정**
-
-* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
-
-
-**캠페인**
-
-* 이제 캠페인 관련 컨텍스트 이벤트를 개인화 편집기 &quot;컨텍스트 속성&quot; 메뉴에서 사용할 수 있습니다.
 
