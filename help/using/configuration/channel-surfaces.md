@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 729150262a1e6823349e8025a1632dd37968bde9
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1623'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 8%
 > * 채널 서피스를 생성, 편집 및 삭제하려면 [채널 표면 관리](../administration/high-low-permissions.md#manage-channel-surface) 권한.
 >
 > * 다음을 수행해야 합니다. [이메일 구성](../email/get-started-email-config.md), [푸시 구성](../push/push-configuration.md) 및 [SMS 구성](../sms/sms-configuration.md) 채널 서피스를 생성하기 전 단계입니다.
-
 
 채널 표면이 구성되면 여정 또는 캠페인에서 메시지를 만들 때 채널 표면을 선택할 수 있습니다.
 
@@ -99,7 +98,10 @@ ht-degree: 8%
    이 단계에서는 제대로 구성되었는지 확인하기 위해 몇 가지 검사를 수행합니다. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   >주어진 하위 도메인에 대한 첫 번째 이메일 표면을 만들 때 처리 시간이 걸릴 수 있습니다 **10분~10일**. 선택한 하위 도메인을 다른 이메일 표면에 이미 사용하고 있는 경우 최대 3시간만 소요됩니다.
+   > 하위 도메인용 이메일 표면을 생성할 때 처리 시간은 아래에 자세히 설명된 대로 달라집니다.
+   >
+   > * 새 하위 도메인의 경우 첫 번째 채널 표면을 만드는 프로세스는 다음 작업을 수행할 수 있습니다 **10분~10일**.
+   > * 대상 **비프로덕션 샌드박스**&#x200B;또는 선택한 하위 도메인이 **이미 사용됨** 다른 채널 표면에서는 이 프로세스가 3시간만 소요됩니다.
 
    이러한 검사에는 Adobe 팀에서 수행되는 구성 및 기술 테스트가 포함됩니다.
 
@@ -136,7 +138,7 @@ ht-degree: 8%
 
 채널 표면 만들기에 실패한 경우 가능한 각 실패 이유에 대한 자세한 내용은 아래에 설명되어 있습니다.
 
-이러한 오류 중 하나가 발생하면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 도움을 받으려고.
+이러한 오류 중 하나가 발생하면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 도움을 받으려고.
 
 * **SPF 유효성 검사 실패**: SPF(Sender Policy Framework)는 주어진 하위 도메인에서 이메일을 보낼 수 있는 승인된 IP를 지정할 수 있는 이메일 인증 프로토콜입니다. SPF 유효성 검사 실패는 SPF 레코드의 IP 주소가 사서함 공급자에게 전자 메일을 보내는 데 사용되는 IP 주소와 일치하지 않음을 의미합니다.
 
