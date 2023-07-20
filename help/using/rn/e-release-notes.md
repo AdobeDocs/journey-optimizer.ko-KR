@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 노트
 hide: true
 hidefromtoc: true
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 1cfa4484329355310205421072af65f5dec32b5b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 22%
+source-wordcount: '626'
+ht-degree: 25%
 
 ---
 
@@ -55,9 +55,10 @@ ht-degree: 22%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer은 dm 채널에 대한 지원을 추가하여 크로스 채널 기능을 확장하고 있습니다. DM은 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.</p>
-<!--img src="assets/do-not-localize/web-authoring.gif"/>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p-->
+<p>이제 캠페인 및 여정에 DM 메시지를 추가할 수 있습니다. DM은 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.</p>
+<p>DM 게재를 준비하면 Journey Optimizer에서는 타겟팅된 모든 프로필과 선택한 연락처 정보(예: 우편 주소)가 포함된 파일을 생성합니다. 그러면 이 파일을 DM 공급자에게 보내어 실제 전송을 처리하도록 할 수 있습니다.</p>
+<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>자세한 내용은 <a href="../direct-mail/create-direct-mail.md">세부 설명서</a>를 참조하십시오.</p>
 </tr>
 </tbody>
 </table>
