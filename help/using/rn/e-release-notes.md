@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 노트
 hide: true
 hidefromtoc: true
-source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
+source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 24%
+source-wordcount: '616'
+ht-degree: 22%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 24%
 <tbody>
 <tr>
 <td>
-<p>이제 캠페인 및 여정에 DM 메시지를 추가할 수 있습니다. DM은 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.</p>
+<p>이제 캠페인에 DM 메시지를 추가할 수 있습니다. DM은 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.</p>
 <p>DM 게재를 준비하면 Journey Optimizer에서는 타겟팅된 모든 프로필과 선택한 연락처 정보(예: 우편 주소)가 포함된 파일을 생성합니다. 그러면 이 파일을 DM 공급자에게 보내어 실제 전송을 처리하도록 할 수 있습니다.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
 <p>자세한 내용은 <a href="../direct-mail/create-direct-mail.md">세부 설명서</a>를 참조하십시오.</p>
@@ -90,7 +90,7 @@ ht-degree: 24%
 <tbody>
 <tr>
 <td>
-<p>이제 캠페인과 여정 외에도 Adobe Experience Platform 통합 태그를 랜딩 페이지, 템플릿, 콘텐츠 조각 및 구독 목록에 할당할 수 있습니다. 이렇게 하면 쉽게 분류하고, 모든 목록에서 검색 및 탐색을 개선할 수 있습니다. </p>
+<p>이제 캠페인과 여정 외에도 Adobe Experience Platform 통합 태그를 랜딩 페이지, 콘텐츠 템플릿, 조각 및 구독 목록에 할당할 수 있습니다. 이렇게 하면 쉽게 분류하고, 모든 목록에서 검색 및 탐색을 개선할 수 있습니다. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>자세한 내용은 <a href="../start/search-filter-categorize.md#tags">자세한 설명서</a>를 참조하세요.</p>
 </td>
@@ -105,7 +105,7 @@ ht-degree: 24%
 
 **여정**
 
-* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
+<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 지정 작업이 실패하면 알림을 받을 수 있습니다.
 
 
