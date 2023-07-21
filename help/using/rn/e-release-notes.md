@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 노트
 hide: true
 hidefromtoc: true
-source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
+source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 22%
+source-wordcount: '740'
+ht-degree: 19%
 
 ---
 
@@ -26,6 +26,23 @@ ht-degree: 22%
 ### 새로운 기능{#july-2023-features}
 
 이번 릴리스에는 아래 나열된 새로운 기능이 제공됩니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>콘텐츠 템플릿 API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 전용 API를 사용하여 Adobe Journey Optimizer 콘텐츠 템플릿을 만들고 관리하여 기존 콘텐츠 시스템과 원활하게 통합할 수 있습니다.</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -109,7 +126,6 @@ ht-degree: 22%
 * 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 지정 작업이 실패하면 알림을 받을 수 있습니다.
 
 
-
 **캠페인**
 
 * 이제 캠페인 관련 컨텍스트 이벤트를 개인화 편집기 &quot;컨텍스트 속성&quot; 메뉴에서 사용할 수 있습니다.
@@ -126,5 +142,15 @@ ht-degree: 22%
 
 따라서 이렇게 대상자를 만들고 관리하는 새로운 경로를 반영하기 위해 Adobe Journey Optimizer와 Adobe Experience Platform UI 내 “세그먼트”라는 단어가 “대상자”로 바뀐 것을 확인하실 수 있습니다.
 
+**API**
+
+Adobe Journey Optimizer API 인증 - 액세스 토큰을 생성하는 JWT 방법이 더 이상 사용되지 않습니다. 모든 새 통합은 OAuth 서버 간 인증 방법을 사용하여 생성해야 합니다. 또한 Adobe은 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
 
 
+**기타 변경 사항**
+
+이제 모든 고객이 Cloud Storage Destinations로 Journey Optimizer 데이터 세트를 내보낼 수 있습니다. 이 기능을 사용하면 데이터 세트의 콘텐츠를 내보내기 위해 클라우드 스토리지 위치와 라이브 연결을 설정할 수 있습니다. [자세히 알아보기](../data/export-datasets.md)
+
+>[!AVAILABILITY]
+>
+>이 기능은 현재 베타 버전이며 변경될 수 있습니다.</p>
