@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '797'
 ht-degree: 6%
 
 ---
@@ -88,6 +88,16 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
    ![](assets/content_experiment_5.png)
 
 ## 콘텐츠 실험 구성 {#configure-experiment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_dimension"
+>title="차원"
+>abstract="특정 클릭 수 또는 특정 페이지 보기 수와 같이 실험에 대해 추적할 특정 차원을 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_success_metric"
+>title="성공 지표"
+>abstract="성공 지표는 실험에서 가장 성과가 좋은 처리를 추적하고 평가하는 데 사용됩니다. 데이터 세트를 사용하기 전에 특정 지표에 대해 데이터 세트를 설정해야 합니다."
 
 1. 게재를 개인화하면 캠페인 요약 페이지에서 을(를) 클릭합니다. **[!UICONTROL 실험 만들기]** 콘텐츠 실험 구성을 시작합니다.
 
