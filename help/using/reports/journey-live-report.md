@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1177'
 ht-degree: 5%
 
 ---
@@ -170,8 +170,6 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 * **[!UICONTROL 전송됨]**: 게재에 대한 총 전송 수입니다.
 
-* **[!UICONTROL 전달됨]**: 성공적으로 전송된 메시지 수입니다.
-
 * **[!UICONTROL 열림]**: 게재 시 메시지가 열린 횟수입니다.
 
 * **[!UICONTROL 클릭수]**: 게재 시 콘텐츠를 클릭한 횟수입니다.
@@ -181,8 +179,6 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 * **[!UICONTROL 오류]**: 게재 중에 발생하여 프로필로 전송되지 않은 총 오류 수입니다.
 
 다음 **[!UICONTROL SMS 요약]** 그래프는 게재의 성공을 자세히 설명합니다.
-
-* **[!UICONTROL 전달됨]**: 성공적으로 전송된 메시지 수입니다.
 
 * **[!UICONTROL 바운스]**: 게재 및 자동 반환 처리 중 누적된 총 오류.
 

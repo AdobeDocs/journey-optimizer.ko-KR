@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1088'
 ht-degree: 7%
 
 ---
@@ -146,8 +146,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 전송됨]**: 게재에 대한 총 전송 수입니다.
 
-* **[!UICONTROL 전달됨]**: 성공적으로 전송된 메시지 수입니다.
-
 * **[!UICONTROL 바운스]**: 게재 및 자동 반환 처리 중 누적된 총 오류.
 
 * **[!UICONTROL 오류]**: 게재 중에 발생하여 프로필로 전송되지 않은 총 오류 수입니다.
@@ -157,8 +155,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 다음 **[!UICONTROL 일자별 SMS 성능]** 위젯은 그래프로 메시지와 관련된 기본 정보를 자세히 설명합니다.
 
 * **[!UICONTROL 전송됨]**: 게재에 대한 총 전송 수입니다.
-
-* **[!UICONTROL 전달됨]**: 성공적으로 전송된 메시지 수입니다.
 
 * **[!UICONTROL 바운스]**: 게재 및 자동 반환 처리 중 누적된 총 오류.
 
