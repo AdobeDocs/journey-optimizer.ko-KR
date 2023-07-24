@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0e0c293b31e3b74b57b12e0ae06f6ea9eb4d0dc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 98%
 
 이 섹션에서는 대상자 및 프로필 데이터를 관리합니다.
 
-* **[!UICONTROL 대상]** - Experience Platform 대상을 만들고 관리하여 여정에 사용할 수 있습니다. [자세히 알아보기](../audience/about-audiences.md)
+* **[!UICONTROL 대상자]** - Experience Platform 대상자 정의를 만들고 관리하며 여정에 사용할 수 있습니다. [자세히 알아보기](../audience/about-audiences.md)
 
 * **[!UICONTROL 구독 목록]** - [!DNL Journey Optimizer]에서는 구독 서비스에 옵트인한 고객 정보를 수집해 구독 목록을 만듭니다. [자세히 보기](../landing-pages/subscription-list.md)
 
