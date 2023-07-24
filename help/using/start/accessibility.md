@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 96%
   <tr>
     <td>
 
-대상 기반 여정에서 이벤트를 트리거하여 **[!UICONTROL 한 번에 하나의 프로필]** 옵션이 켜짐
+**[!UICONTROL 한 번에 한 프로필]** 옵션이 켜진 대상자 기반 여정의 이벤트 트리거
 
 </td>
     <td>P</td>
