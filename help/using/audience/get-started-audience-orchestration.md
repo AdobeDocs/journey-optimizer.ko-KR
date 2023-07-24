@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 657bed1a3419fd536c5a80f3b9fc8d7c52ae1325
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 78%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-이 설명서는 Adobe Journey Optimizer 내에서 대상 구성을 사용하여 작업하는 방법에 대한 자세한 정보를 제공합니다. 실시간 고객 프로필 전용 고객이고 Adobe Journey Optimizer을 사용하지 않는 경우 [여기를 클릭하십시오](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html).
+이 설명서에서는 Adobe Journey Optimizer 내에서 대상자 구성을 사용하는 방법에 대해 자세한 정보를 제공합니다. 실시간 고객 프로필 전용 고객이고 Adobe Journey Optimizer을 사용하지 않는 경우 [여기를 클릭하십시오](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko).
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +40,11 @@ ht-degree: 78%
 >
 >Adobe Journey Optimizer의 캠페인은 아직 정책 시행 서비스와 통합되지 않았습니다. 따라서 대상자 속성에 적용하는 데이터 사용 레이블은 Journey Optimizer 캠페인에 적용되지 않습니다.
 
-대상자 작성은 Adobe Journey Optimizer에서 액세스할 수 있습니다 **[!UICONTROL 대상]** 메뉴:
+대상자 구성 기능은 Adobe Journey Optimizer의 **[!UICONTROL 대상자]** 메뉴에서 액세스할 수 있습니다.
 
 ![](assets/audiences-browse.png)
 
-* 다음 **[!UICONTROL 개요]** 탭은 조직의 대상 데이터와 관련된 주요 지표가 있는 전용 대시보드를 제공합니다. 자세한 내용은 [Adobe Experience Platform 대시보드 안내서](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=ko)를 참조하십시오.
+* **[!UICONTROL 개요]** 탭에는 조직 대상자 데이터의 주요 지표를 볼 수 있는 전용 대시보드가 있습니다. 자세한 내용은 [Adobe Experience Platform 대시보드 안내서](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=ko)를 참조하십시오.
 
 * **[!UICONTROL 찾아보기]** 탭에는 Adobe Experience Platform에 저장된 기존 대상자의 전체 목록이 있습니다.
 

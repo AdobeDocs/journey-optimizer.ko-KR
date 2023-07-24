@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 99%
       + [여정 활동 시작](using/building-journeys/about-journey-activities.md)
       + [일반 이벤트](using/building-journeys/general-events.md)
       + [반응](using/building-journeys/reaction-events.md)
-      + [대상 자격 조건](using/building-journeys/audience-qualification-events.md)
+      + [대상자 자격 조건](using/building-journeys/audience-qualification-events.md)
       + [조건](using/building-journeys/condition-activity.md)
       + [대기](using/building-journeys/wait-activity.md)
       + [대상자 읽기](using/building-journeys/read-audience.md)
@@ -279,7 +279,7 @@ ht-degree: 99%
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
-+ 대상자, 프로필 및 ID{#audiences-profiles-identities}
++ 대상자, 프로필, 신원{#audiences-profiles-identities}
    + 대상자 {#audiences}
       + [대상자 시작](using/audience/about-audiences.md)
       + [세그먼트 정의 작성](using/audience/creating-a-segment-definition.md)

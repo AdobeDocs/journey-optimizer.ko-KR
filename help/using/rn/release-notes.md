@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ec71600fdc50e812e627f246e8a5bd2c5ad7e835
 workflow-type: tm+mt
 source-wordcount: '2695'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 90%
 <tbody>
 <tr>
 <td>
-<p>이제 작성 워크플로우를 만들어 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 강화...)을 활용하여 새 대상을 만들 수 있습니다. 새로 만든 대상자는 기존 대상자와 함께 Adobe Experience Platform에 다시 저장되며, Journey Optimizer 캠페인에서 활용하여 고객을 타깃팅할 수 있습니다.</p>
+<p>이제 구성 워크플로우를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 강화...)을 활용하여 새 대상자를 만들 수 있습니다. 새로 만든 대상자는 기존 대상자와 함께 다시 Adobe Experience Platform에 저장되며, 이를 Journey Optimizer 캠페인에서 활용하여 고객을 타겟팅할 수 있습니다.</p>
 
 <img src="../audience/assets/audiences-publish.png"/>
 
-<p>자세한 내용은 <a href="../audience/get-started-audience-orchestration.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../audience/get-started-audience-orchestration.md">세부 설명서</a>를 참조하세요.</p>
 
-<p>대상자 구성은 대상자에게 중앙 포털 역할을 하는 새로운 Adobe Experience Platform "대상자" 메뉴와 완전히 통합됩니다. 이제 세그먼트 트렌드 및 겹침이 있는 새 대시보드가 포함된 찾아보기 페이지를 사용하여 새로운 통찰력을 찾고, 접기 및 태깅을 위한 조직 도구를 탐색할 수 있습니다. 이 경험에는 활성화 워크플로를 관리하기 위한 대상 라이프사이클 관리 기능과 표준화된 대상 레이블 지정을 위한 거버넌스 컨트롤이 포함되어 있습니다. 이러한 새로운 관리 경험을 통해 이제 한 곳에서 대상을 쉽고 안전하게 관리할 수 있습니다. 자세한 내용은 다음을 참조하십시오. <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform 설명서</a>.</p></p>
+<p>대상자 구성은 대상자에게 중앙 포털 역할을 하는 새로운 Adobe Experience Platform "대상자" 메뉴와 완전히 통합됩니다. 이제 세그먼트 트렌드 및 겹침이 있는 새 대시보드가 포함된 찾아보기 페이지를 사용하여 새로운 통찰력을 찾고, 접기 및 태깅을 위한 조직 도구를 탐색할 수 있습니다. 이 경험에는 활성화 워크플로를 관리하기 위한 대상 라이프사이클 관리 기능과 표준화된 대상 레이블 지정을 위한 거버넌스 컨트롤이 포함되어 있습니다. 이러한 새로운 관리 경험을 통해 이제 한 곳에서 대상을 쉽고 안전하게 관리할 수 있습니다. 자세한 내용은 다음을 참조하십시오. <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko" target="_blank">Adobe Experience Platform 설명서</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -184,7 +184,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>이제 의사 결정 관리에서 개인화된 최적화 AI 등급 모델을 정식으로 사용할 수 있습니다. 이 새로운 유형의 모델을 사용하면 대상자 및 오퍼 성과를 기반으로 오퍼를 최적화하고 개인화할 수 있습니다.</p>
+<p>이제 의사 결정 관리에서 개인화된 최적화 AI 등급 모델을 정식으로 사용할 수 있습니다. 이 새로운 유형의 모델을 사용하면 대상자와 오퍼의 성과를 기반으로 오퍼를 최적화하고 개인화할 수 있습니다.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>자세한 내용은 <a href="../offers/ranking/personalized-optimization-model.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
@@ -390,7 +390,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * 여정 캔버스가 보다 간단하고 개선된 사용자 경험을 제공하도록 향상되었습니다. 캔버스에서 각 경로의 끝에 있던 빈 자리 표시자를 제거했습니다. 이제 활동을 추가하려면 간단히 경로 끝에 끌어다 놓기만 하면 됩니다.
 * 이제 여정 캔버스의 **종료** 태그가 자동으로 이전 활동의 이름으로 설정되지 않습니다. 필요한 경우 사용자가 수동으로 사용자 정의 레이블을 추가할 수 있습니다.
 * 여정 속성의 기본 시간 제한 및 오류 지속 시간을 5초에서 30초로 변경했습니다. [자세히 알아보기](../configuration/external-systems.md#timeout)
-* 대상자 읽기 활동의 기본 전송률이 초당 메시지 20,000개에서 5,000개로 변경되었습니다. [자세히 알아보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 대상자 읽기 활동의 기본 스로틀링 수를 초당 메시지 20,000개에서 5,000개로 변경했습니다. [자세히 알아보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * 테스트 모드에 인터페이스를 통해 보낸 이벤트만 수신하도록 하는 가드레일을 추가했습니다. 외부 도구를 통해 보낸 이벤트는 고려하지 않습니다. [자세히 알아보기](../building-journeys/testing-the-journey.md)
 
 
@@ -521,9 +521,9 @@ Note that each widget can be resized and deleted as needed.
 
 **여정**
 
-* 여정 속성에 **재입장 대기 시간** 필드가 추가되었습니다. 이 필드에서는 프로필이 여정을 다시 단일 여정(이벤트 또는 대상 자격으로 시작)로 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. [자세히 알아보기](../building-journeys/journey-gs.md#entrance)
+* 여정 속성에 **재입장 대기 시간** 필드가 추가되었습니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. [자세히 알아보기](../building-journeys/journey-gs.md#entrance)
 
-* **여정 시작 및 종료 일자**&#x200B;를 개선했습니다. 이제 시작 일자를 지정하지 않은 경우 게시할 때 자동으로 추가됩니다. 대상 **대상자 읽기** 여정, 이제 종료 날짜를 추가할 수 있습니다. 이렇게 하면 해당 일자가 되었을 때 프로필이 자동으로 종료됩니다. [자세히 알아보기](../building-journeys/journey-gs.md#dates)
+* **여정 시작 및 종료 일자**&#x200B;를 개선했습니다. 이제 시작 일자를 지정하지 않은 경우 게시할 때 자동으로 추가됩니다. 이제 **대상자 읽기** 여정에 종료 일자를 추가할 수 있습니다. 이렇게 하면 해당 일자가 되었을 때 프로필이 자동으로 종료됩니다. [자세히 알아보기](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -597,7 +597,7 @@ Note that each widget can be resized and deleted as needed.
 
 **여정**
 
-* 를 추가할 때 **대상 자격 조건** 또는 **대상자 읽기** 여정에서 네임스페이스는 이제 기본적으로 마지막으로 사용된 네임스페이스로 미리 채워집니다. 다음을 참조하십시오. [대상 자격 조건](../building-journeys/audience-qualification-events.md#about-segment-qualification) 및 [대상자 읽기](../building-journeys/read-audience.md#configuring-segment-trigger-activity) 섹션.
+* 이제 여정에 **대상자 자격 조건**&#x200B;이나 **대상자 읽기**&#x200B;를 추가할 때 마지막으로 사용한 네임스페이스를 사용하여 네임스페이스를 미리 채웁니다. [대상자 자격 조건](../building-journeys/audience-qualification-events.md#about-segment-qualification) 및 [대상자 읽기](../building-journeys/read-audience.md#configuring-segment-trigger-activity) 섹션을 참조하세요.
 
 * 여정 캔버스에서 도구 모음의 새 버튼을 통해 여정의 스크린샷을 다운로드할 수 있습니다.
 
