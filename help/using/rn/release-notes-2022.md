@@ -5,9 +5,9 @@ title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3575'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 **여정**
 
-* 다음 **재발 시 강제 재진입** 반복 대상자 읽기 일정 매개 변수에 옵션이 추가되었습니다. 이 옵션을 사용하면 여정에 여전히 존재하는 모든 프로필이 다음 실행 시 자동으로 종료되도록 할 수 있습니다. 옵션이 비활성화되면 프로필은 다른 경우에 다시 입력하기 전에 여정을 완료해야 합니다. [자세히 알아보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 반복 대상자 읽기 일정 매개 변수에 **반복 시 강제 재입력** 이 추가되었습니다. 이 옵션을 사용하면 여정에 여전히 존재하는 모든 프로필이 다음 실행 시 자동으로 종료되도록 할 수 있습니다. 옵션이 비활성화되면 프로필은 다른 경우에 다시 입력하기 전에 여정을 완료해야 합니다. [자세히 알아보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **관리**
 
@@ -176,7 +176,7 @@ ht-degree: 91%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 사용자는 이제 여정이 예상대로 작동하지 않을 때 사용자 인터페이스를 통해 시스템 경고에 액세스하여 알림을 받을 수 있습니다. 사용 가능한 경고를 보고 구독할 수 있습니다. 대상자 읽기 활동이 정의된 기간 동안 프로필을 처리하지 않은 경우 이 릴리스에서 사용할 수 있는 첫 번째 경고가 표시됩니다. 이 워크플로우의 잠금이 해제되면 더 많은 작업이 제공됩니다.</p>
+<p>Journey Optimizer 사용자는 이제 여정이 예상대로 작동하지 않을 때 사용자 인터페이스를 통해 시스템 경고에 액세스하여 알림을 받을 수 있습니다. 사용 가능한 경고를 보고 구독할 수 있습니다. 이 릴리스 후에 대상자 읽기 활동이 정의된 시간대 내에 프로필을 처리하지 않은 경우 첫 번째 경고가 표시됩니다. 이 워크플로우의 잠금이 해제되어 더 많은 작업이 제공됩니다.</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -207,7 +207,7 @@ ht-degree: 91%
 **여정**
 
 * **엔티티 데이터 세트**&#x200B;를 Adobe Journey Optimizer에서 바로 사용할 수 있는 데이터 세트로 이제 사용할 수 있습니다. 이 조회 데이터 세트에는 추적 및 피드백 데이터 세트 정보를 보강하는 메타 데이터가 포함되어 있습니다. 이렇게 하면 보다 이해하기 쉬운 데이터로 보고서 및 쿼리를 향상시킬 수 있습니다. [자세히 보기](../data/datasets-query-examples.md#entity-dataset)
-* 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하기 위해 단일 여정(이벤트 또는 대상 자격으로 시작)에 새 보호 기능이 추가되었습니다. 프로필 재입장은 이제 기본 5분 동안 일시적으로 차단됩니다. [자세히 알아보기](../start/guardrails.md#events-g)
+* 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하기 위해 단일 여정(이벤트 또는 대상자 자격 조건 시작)에 새로운 가드레일을 추가했습니다. 프로필 재입장은 이제 기본 5분 동안 일시적으로 차단됩니다. [자세히 알아보기](../start/guardrails.md#events-g)
 
 **관리**
 
@@ -235,8 +235,8 @@ ht-degree: 91%
 ### 기타 변경 사항{#sept-2022-other}
 
 * 여정 버스트 모드가 캠페인 신속 전달 모드로 대체되었습니다. [자세히 보기](../push/create-push.md#rapid-delivery)
-* 성능을 향상시키기 위해 대상자 읽기, 대상자 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 더 이상 경험 이벤트 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. [자세히 보기](../start/guardrails.md#expression-editor)
-* 예약된 대상자 읽기 여정에 대한 1시간 제한이 제거되었습니다. 이제 이러한 여정을 지연 없이 실행할 수 있습니다.
+* 성능을 개선하기 위해 대상자 읽기, 대상자 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 더 이상 경험 이벤트 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. [자세히 보기](../start/guardrails.md#expression-editor)
+* 예약된 대상자 읽기 여정의 1시간 제한이 제거되었습니다. 이제 이러한 여정을 지연 없이 실행할 수 있습니다.
 
 
 
@@ -254,7 +254,7 @@ ht-degree: 91%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 캠페인을 사용하여 다양한 채널을 사용하는 특정 대상에게 일회성 콘텐츠를 전달할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행되도록 디자인됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다. </p>
+<p>Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 대상자에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행되도록 디자인됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
 <p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/346680">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
 </td>
@@ -374,7 +374,7 @@ ht-degree: 91%
 <tbody>
 <tr>
 <td>
-<p>이제 의사 결정 관리에 개인화된 최적화 모델 시스템을 사용할 수 있습니다. 이 새로운 유형의 모델을 사용하면 대상자 및 오퍼 성과를 기반으로 오퍼를 최적화하고 개인화할 수 있습니다.</p>
+<p>이제 의사 결정 관리에 개인화된 최적화 모델 시스템을 사용할 수 있습니다. 이 새로운 유형의 모델을 사용하면 대상자와 오퍼의 성과를 기반으로 오퍼를 최적화하고 개인화할 수 있습니다.</p>
 <p>개인화된 최적화 AI 모델의 사용은 현재 선택한 사용자로만 제한되며 향후 릴리스의 모든 환경에 배포됩니다.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>자세한 내용은 <a href="../offers/ranking/personalized-optimization-model.md">자세한 설명서</a>를 참조하세요.</p>
@@ -408,7 +408,7 @@ ht-degree: 91%
 
 **의사 결정 관리**
 
-* **대상 크기** - 이제 의사 결정 규칙을 만들거나, 대상 또는 규칙을 선택하여 오퍼 자격 설정을 하거나, 대상 또는 규칙을 의사 결정 범위에 추가할 때 사용자 인터페이스에 새 대상 크기 예상 구성 요소가 표시됩니다.
+* **대상자 크기** - 이제 의사 결정 규칙을 만들거나, 대상자 또는 규칙을 선택하여 오퍼 적격성을 설정하거나, 대상자 또는 규칙을 의사 결정 범위에 추가할 때 사용자 인터페이스에 대상자 크기 추정치를 보여 주는 새로운 구성 요소가 표시됩니다.
 
 
 ## 2022년 6월 릴리스 {#june-2022-release}
@@ -615,7 +615,7 @@ ht-degree: 91%
 
 **여정**
 
-* **대상자 읽기** - 이제 일회성 읽기 대상 여정이 여정 실행 후 30일 후에 완료됨 상태로 이동합니다. 예약된 읽기 대상의 경우 마지막 항목이 실행된 후 30일이 경과해야 합니다. [자세히 보기](../building-journeys/read-audience.md)
+* **대상자 읽기** - 이제 일회성 대상자 읽기 여정을 실행한 후 30일이 지나면 여정이 완료 상태로 이동합니다. 예약된 대상자 읽기의 경우 마지막 읽기를 실행한 후 30일이 경과한 시점에 이동합니다. [자세히 보기](../building-journeys/read-audience.md)
 * **표현식 편집기** - 목록의 항목 수를 제한할 수 있도록 [limit](../building-journeys/functions/functionlimit.md) 함수가 추가되었습니다. 이제 [sort](../building-journeys/functions/functionsort.md) 함수를 사용하여 목록 개체를 정렬할 수 있습니다. 또한 [disctinct](../building-journeys/functions/functiondistinct.md) 및 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 함수에 listObject에 대한 지원도 추가되었습니다.
 
 **관리**
@@ -673,7 +673,7 @@ ht-degree: 91%
 **의사 결정 관리**
 
 * 이제 오퍼 한도 설정이 모든 사용자 간에 적용되는지, 아니면 하나의 특정 프로필, 모든 배치 또는 배치마다 적용되는지를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
-* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 대상의 모든 프로필에 대해 의사 결정 관리 기능을 사용할 수 있습니다. 대상자의 각 프로필에 대한 오퍼 콘텐츠는 사용자 정의 일괄 처리 워크플로우에 사용할 수 있는 AEP 데이터 세트에 배치됩니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 대상자 내 모든 프로필에 의사 결정 관리 기능을 사용할 수 있습니다. 대상자 내 각 프로필의 오퍼 콘텐츠가 AEP 데이터 세트에 배치되어 사용자 정의 일괄 처리 워크플로우에 사용할 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **관리**
 
@@ -806,7 +806,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tbody>
 <tr>
 <td>
-<p>다음 <strong>증분 읽기</strong> 옵션이 반복에 추가되었습니다. <strong>대상자 읽기</strong> 활동. 이 옵션을 사용하면 여정의 마지막 실행 이후 대상에 들어온 개인만 타겟팅할 수 있습니다. 첫 번째 실행은 항상 모든 대상 구성원을 타깃팅합니다.</p>
+<p>반복 <strong>대상자 읽기</strong> 활동에 <strong>증분 읽기</strong> 옵션을 추가했습니다. 이 옵션을 사용하면 여정의 마지막 실행 이후 대상자에 포함된 개인만 타겟팅할 수 있습니다. 첫 번째 실행 시에는 항상 모든 대상자 구성원을 타겟팅합니다.</p>
 <p>자세한 내용은 <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">자세한 설명서</a>를 참조하세요.
 </td>
 </tr>
