@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa9b76803c286bb14925839e820fae1bab19e58
+source-git-commit: 380d07067a999de439ebf5a4198a203c1aa6b1d8
 workflow-type: tm+mt
-source-wordcount: '3126'
+source-wordcount: '3125'
 ht-degree: 85%
 
 ---
@@ -130,28 +130,26 @@ ht-degree: 85%
 **여정**
 
 <!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 지정 작업이 실패하면 알림을 받을 수 있습니다.
+새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 지정 작업이 실패하면 알림을 받을 수 있습니다.
 
 
 **캠페인**
 
-* 이제 캠페인 관련 컨텍스트 이벤트를 개인화 편집기 &quot;컨텍스트 속성&quot; 메뉴에서 사용할 수 있습니다.
+이제 캠페인 관련 컨텍스트 이벤트를 개인화 편집기 &quot;컨텍스트 속성&quot; 메뉴에서 사용할 수 있습니다.
 
 
 **대상자**
 
-대상의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상 선택기가 개선되었습니다.
-
-대상 구성 포털이 릴리스됨에 따라 Adobe Experience Platform 및 Adobe Journey Optimizer은 시스템 및 설명서 내에서 &quot;대상&quot; 및 &quot;세그먼트&quot;의 사용을 업데이트했습니다.
+대상의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상 선택기가 개선되었습니다. 대상 구성 포털이 릴리스됨에 따라 Adobe Experience Platform 및 Adobe Journey Optimizer은 시스템 및 설명서 내에서 &quot;대상&quot; 및 &quot;세그먼트&quot;의 사용을 업데이트했습니다.
 
 * 대상자: 사람이나 계정, 가구 또는 기타 공통된 특성과 행동을 공유하는 엔티티의 집합입니다.
 * 세그먼트 정의: Adobe Experience Platform에서 타겟 대상자의 주요 특성 또는 행동을 설명하는 데 사용되는 규칙입니다. 전에는 이 용어를 그냥 “세그먼트”라고만 지칭했습니다.
 
-따라서 이렇게 대상자를 만들고 관리하는 새로운 경로를 반영하기 위해 Adobe Journey Optimizer와 Adobe Experience Platform UI 내 “세그먼트”라는 단어가 “대상자”로 바뀐 것을 확인하실 수 있습니다.
+따라서 Adobe Journey Optimizer 및 Adobe Experience Platform UI 내에서 &quot;세그먼트&quot;는 이러한 새로운 대상 생성 및 관리 경로를 반영하기 위해 &quot;대상&quot;으로 대체됩니다.
 
 **API**
 
-Adobe Journey Optimizer API 인증 - 액세스 토큰을 생성하는 JWT 방법이 더 이상 사용되지 않습니다. 모든 새 통합은 OAuth 서버 간 인증 방법을 사용하여 생성해야 합니다. 또한 Adobe은 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
+Adobe Journey Optimizer APIsauthentication용 액세스 토큰을 생성하는 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 OAuth 서버 간 인증 방법을 사용하여 생성해야 합니다. 또한 Adobe은 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 
 **기타 변경 사항**
