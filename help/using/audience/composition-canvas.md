@@ -11,7 +11,7 @@ exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '1416'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 
 >[!BEGINSHADEBOX]
 
-이 설명서는 Adobe Journey Optimizer 내에서 대상 구성을 사용하여 작업하는 방법에 대한 자세한 정보를 제공합니다. Adobe Journey Optimizer을 사용하지 않는 경우 [여기를 클릭하십시오](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+이 설명서에서는 Adobe Journey Optimizer 내에서 대상자 구성을 사용하는 방법에 대해 자세한 정보를 제공합니다. Adobe Journey Optimizer를 사용하지 않는 경우 [여기를 클릭하세요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko)
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ ht-degree: 27%
 1. 타깃팅할 대상 선택:
 
    * 다음을 클릭합니다. **[!UICONTROL 대상자 추가]** 하나 또는 여러 개의 기존 대상을 선택하는 단추
-   * 다음을 클릭합니다. **[!UICONTROL 규칙 작성]** 단추를 클릭하여 새 대상 정의를 만듭니다. [세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   * 다음을 클릭합니다. **[!UICONTROL 규칙 작성]** 단추를 클릭하여 새 대상 정의를 만듭니다. [세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko).
 
    ![](assets/audiences-choose-audience.png)
 
@@ -138,7 +138,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="보강 속성"
->abstract="보강 데이터 세트에서 하나 또는 여러 속성을 선택하여 대상자와 연결합니다. 컴포지션이 게시되면 이러한 속성이 대상과 연결되고 Journey Optimizer 캠페인에서 활용하여 게재를 개인화할 수 있습니다."
+>abstract="보강 데이터 세트에서 하나 또는 여러 속성을 선택하여 대상자와 연결합니다. 구성이 게시되면 해당 속성을 대상자에 연결하고 Journey Optimizer 캠페인에서 활용하여 게재 정보를 개인화할 수 있습니다."
 
 다음 **[!UICONTROL 강화]** 활동을 사용하면 Adobe Experience Platform 데이터 세트에서 오는 추가 속성으로 대상자를 강화할 수 있습니다. 예를 들어 이름, 가격 또는 제조업체 ID와 같이 구매한 제품과 관련된 정보를 추가하고 이러한 정보를 활용하여 대상자에게 전송하는 게재를 개인화할 수 있습니다.
 

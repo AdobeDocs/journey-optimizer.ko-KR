@@ -12,8 +12,8 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
 source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 33%
+source-wordcount: '895'
+ht-degree: 32%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="AWS 영역 선택"
+>title="AWS 지역 선택"
 >abstract="DM 파일을 내보내려는 AWS 서버가 있는 지역을 선택합니다. 일반적으로 DM 공급자 위치와 가장 가까운 지역을 선택하는 것이 좋습니다."
 
 DM 메시지를 게재하려면, [!DNL Journey Optimizer] 에서는 타깃팅된 대상 데이터가 포함된 파일을 생성하여 서버로 내보냅니다.
