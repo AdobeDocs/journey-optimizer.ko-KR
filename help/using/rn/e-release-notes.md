@@ -5,9 +5,9 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 노트
 hide: true
 hidefromtoc: true
-source-git-commit: 9241dc286839b9875c7e0de34be4b7493168718f
+source-git-commit: df5f5b82d6463973ba7fb19713eb1dc49c00d9db
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '638'
 ht-degree: 27%
 
 ---
@@ -118,11 +118,12 @@ ht-degree: 27%
 
 이 릴리스는 아래 나열된 개선 사항과 함께 제공됩니다.
 
-**여정**
+<!--
+**Journeys**
 
-<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 지정 작업이 실패하면 알림을 받을 수 있습니다.
-
+—>
 
 **캠페인**
 
