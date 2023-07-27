@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '323'
 ht-degree: 11%
 
 ---
@@ -81,6 +81,5 @@ ht-degree: 11%
 
 * 아래 비디오에서는 를 할당하는 방법을 보여 줍니다. **앱 구성 관리** 앱 표면 메뉴에 대한 액세스 권한.
 
-  +++비디오 참조
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
-+++
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
+
