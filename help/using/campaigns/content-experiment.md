@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 6%
+source-wordcount: '840'
+ht-degree: 5%
 
 ---
 
@@ -108,6 +108,10 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
    실험을 위해 다음을 선택합니다. **[!UICONTROL 이메일 열기]** 프로모션 코드가 제목 줄에 있는 경우 수신자가 이메일을 여는지 테스트합니다.
 
    ![](assets/content_experiment_11.png)
+
+1. 인앱 또는 웹 채널을 사용하여 실험을 설정하고 **[!UICONTROL 인바운드 클릭수]**, **[!UICONTROL 고유 인바운드 클릭수]** , **[!UICONTROL 페이지 보기 수]** , 또는 **[!UICONTROL 고유 페이지 조회수 지표]** , **[!UICONTROL 클릭 동작]**  드롭다운을 사용하면 특정 페이지의 클릭 수 및 보기를 정확하게 추적하고 모니터링할 수 있습니다.
+
+   ![](assets/content_experiment_20.png)
 
 1. 클릭 **[!UICONTROL 처리 추가]** 필요한 만큼 새로운 치료법을 만들다.
 

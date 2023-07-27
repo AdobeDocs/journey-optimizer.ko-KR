@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1065'
 ht-degree: 12%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 12%
 이 기능을 사용하면 콘텐츠 중심의 사용자가 캠페인이나 여정 외부의 템플릿에서 작업할 수 있습니다. 그런 다음 마케팅 사용자는 이러한 독립 실행형 콘텐츠 템플릿을 자체 여정 또는 캠페인 내에서 재사용하고 조정할 수 있습니다.
 
 예를 들어 회사 내의 사용자는 콘텐츠만 담당하므로 캠페인이나 여정에 액세스할 수 없습니다. 그러나 이 사용자는 조직의 마케터가 모든 이메일에서 시작점으로 사용하기 위해 선택할 수 있는 이메일 템플릿을 만들 수 있습니다.
+
+API를 사용하여 콘텐츠 템플릿을 만들고 관리할 수도 있습니다. 자세한 내용은 [Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
 
 ➡️ [이 비디오에서 템플릿을 만들고 사용하는 방법을 알아봅니다.](#video-templates)
 
@@ -43,7 +45,7 @@ ht-degree: 12%
 
 템플릿 컨텐츠를 편집하려면 목록에서 원하는 항목을 클릭하고 다음을 선택합니다 **[!UICONTROL 콘텐츠 편집]**.
 
-![](assets/content-template-list-edit.png)
+![](assets/content-template-edit.png)
 
 템플릿을 삭제하려면 원하는 템플릿 옆에 있는 휴지통 아이콘을 선택합니다.
 
@@ -74,7 +76,6 @@ ht-degree: 12%
 >
 >* 마찬가지로 캠페인이나 여정에서 템플릿을 사용하는 경우 캠페인 및 여정 컨텐츠에 대한 편집 내용은 이전에 사용한 컨텐츠 템플릿에 영향을 주지 않습니다.
 
-
 ### 처음부터 템플릿 만들기 {#create-template-from-scratch}
 
 처음부터 콘텐츠 템플릿을 만들려면 아래 단계를 수행하십시오.
@@ -92,6 +93,8 @@ ht-degree: 12%
    >현재는 **이메일** 채널 및 **HTML** 유형이 지원됩니다.
 
 1. 사용자 지정 또는 핵심 데이터 사용 레이블을 템플릿에 할당하려면 다음을 선택합니다. **[!UICONTROL 액세스 관리]**. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md).
+
+1. 에서 Adobe Experience Platform 태그를 선택하거나 만듭니다. **[!UICONTROL 태그]** 검색을 개선하기 위해 템플릿을 분류하는 필드입니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
 
 1. 클릭 **[!UICONTROL 만들기]** 다양한 옵션에서 템플릿 디자인 방법을 선택합니다.
 
@@ -136,6 +139,10 @@ ht-degree: 12%
 
    ![](assets/email_designer-template-name.png)
 
+1. 사용자 지정 또는 핵심 데이터 사용 레이블을 템플릿에 할당하려면 다음을 선택합니다. **[!UICONTROL 액세스 관리]**. [자세히 알아보기](../administration/object-based-access.md).
+
+1. 에서 Adobe Experience Platform 태그를 선택하거나 만듭니다. **태그** 템플릿을 분류할 필드입니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
+
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 1. 템플릿이 **[!UICONTROL 콘텐츠 템플릿]** 목록, 액세스 가능 [!DNL Journey Optimizer] 전용 메뉴. 이 템플릿은 목록에 있는 다른 항목으로 액세스, 편집 및 삭제할 수 있는 독립 실행형 콘텐츠 템플릿이 됩니다. [자세히 알아보기](#access-manage-templates)
@@ -168,7 +175,7 @@ ht-degree: 12%
 
    * 증명을 보내기 전에 [이메일 표면](../configuration/channel-surfaces.md) 콘텐츠를 테스트하는 데 사용됩니다.
 
-      ![](assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 ## 방법 비디오 {#video-templates}
 

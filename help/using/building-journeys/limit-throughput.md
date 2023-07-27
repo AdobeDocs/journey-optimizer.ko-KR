@@ -8,9 +8,9 @@ role: User, Developer
 level: Experienced
 keywords: 여정, 데이터 소스, 제한, 처리량, 사용자 지정, 작업
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '675'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,11 @@ Adobe Journey Optimizer을 사용하면 전문가가 사용자 지정 작업 및
 
 ## 구현
 
-대상 **대상자가 트리거한 여정**, 여정 처리량에 영향을 주는 대상자 읽기 활동의 조절률을 정의할 수 있습니다.  [자세히 보기](../building-journeys/read-audience.md)
+대상 **대상자가 트리거한 여정**, 여정 처리량에 영향을 주는 대상자 읽기 활동의 조절률을 정의할 수 있습니다. [자세히 보기](../building-journeys/read-audience.md)
+
+>[!NOTE]
+>
+> 초당 읽기 대상을 입력할 수 있는 최대 프로필 수입니다. 이 비율은 이 활동에만 적용되며 여정의 다른 활동에는 적용되지 않습니다. [자세히 보기](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 

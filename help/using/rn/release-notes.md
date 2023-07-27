@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d5fc0219c07979c1d7b7512efe462ddcf0c90ee7
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '3105'
-ht-degree: 85%
+source-wordcount: '3079'
+ht-degree: 86%
 
 ---
 
@@ -22,18 +22,9 @@ ht-degree: 85%
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
 
-## 2023년 7월 초기 릴리스 정보 {#july-rn-2023}
-
-아래의 초기 릴리스 노트는 릴리스 사용 가능 날짜까지 사전 통지 없이 변경될 수 있습니다. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
-
-
-**릴리스 날짜**: 7월 26~27일
+## 2023년 7월 릴리스 정보 {#july-rn-2023}
 
 ### 새로운 기능{#july-2023-features}
-
-이번 릴리스에는 아래 나열된 새로운 기능이 제공됩니다.
-
-
 
 <table>
 <thead>
@@ -45,7 +36,7 @@ ht-degree: 85%
 <tr>
 <td>
 <p>이제 구성 워크플로우를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 강화...)을 활용하여 새 대상자를 만들 수 있습니다. 새로 만든 대상자는 기존 대상자와 함께 다시 Adobe Experience Platform에 저장되며, 이를 Journey Optimizer 캠페인에서 활용하여 고객을 타겟팅할 수 있습니다.</p>
-<img src="../audience/assets/audiences-publish.png"/>
+<img src="assets/do-not-localize/gif-ao.gif"/>
 <p>자세한 내용은 <a href="../audience/get-started-audience-orchestration.md">세부 설명서</a>를 참조하세요.</p>
 <p>대상자 구성은 대상자에게 중앙 포털 역할을 하는 새로운 Adobe Experience Platform "대상자" 메뉴와 완전히 통합됩니다. 이제 세그먼트 트렌드 및 겹침이 있는 새 대시보드가 포함된 찾아보기 페이지를 사용하여 새로운 통찰력을 찾고, 접기 및 태깅을 위한 조직 도구를 탐색할 수 있습니다. 이 경험에는 활성화 워크플로를 관리하기 위한 대상 라이프사이클 관리 기능과 표준화된 대상 레이블 지정을 위한 거버넌스 컨트롤이 포함되어 있습니다. 이러한 새로운 관리 경험을 통해 이제 한 곳에서 대상을 쉽고 안전하게 관리할 수 있습니다. 자세한 내용은 다음을 참조하십시오. <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko" target="_blank">Adobe Experience Platform 설명서</a>.</p></p>
 </td>
@@ -64,7 +55,8 @@ ht-degree: 85%
 <td>
 <p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
 <p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
-<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>For now, Direct mail channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.</p>
+<img src="assets/do-not-localize/gif-dm.gif"/>
 <p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
@@ -116,12 +108,11 @@ ht-degree: 85%
 <tr>
 <td>
 <p>이제 전용 API를 사용하여 Adobe Journey Optimizer 콘텐츠 템플릿을 만들고 관리하여 기존 콘텐츠 시스템과 원활하게 통합할 수 있습니다.</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+<p>자세한 내용은 <a href="https://developer.adobe.com/journey-optimizer-apis/references/content-templates/">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 ### 개선 사항 {#july-2023-improvements}
 

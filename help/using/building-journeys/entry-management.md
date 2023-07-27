@@ -8,34 +8,40 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 15%
+source-wordcount: '610'
+ht-degree: 14%
 
 ---
 
 
 # 프로필 항목 관리 {#entry-management}
 
-기본적으로 새 여정은 다시 입력할 수 있습니다. 예를 들어 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 방&quot; 여정에 대한 옵션을 선택 취소할 수 있습니다. 이 경우 고객이 여정에 다시 입장하여 오퍼를 다시 받을 수 없도록 해야 합니다.
+여정 유형에는 두 가지가 있습니다.
 
-![](assets/journey-re-entrance.png)
+* 이벤트 기반 여정: 이벤트로 시작하면 이러한 여정은 단일 항목이며 한 개인에 연결됩니다. 이벤트가 수신되면 개인이 여정에 들어갑니다. [자세히 보기](#entry-unitary)
+* 대상자 읽기 여정: 대상자 읽기로 시작하는 이들은 일괄 처리 여정입니다. 대상자에 속한 개인은 모두 동일한 여정을 입력합니다. 이러한 여정은 반복 또는 일회성일 수 있습니다. [자세히 보기](#entry-read-segment)
 
-여정이 종료되면 상태는 다음과 같습니다. **[!UICONTROL 종료됨]**. 새 사용자는 더 이상 여정에 들어갈 수 없습니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다.
-
-기본 전역 시간 제한 30일 후 여정이 로 전환됩니다. **완료됨** 상태.  [자세히 알아보기](journey-gs.md#global_timeout).
-
+두 여정 유형 모두에서, 프로필은 동일한 여정에 동시에 여러 번 존재할 수 없습니다.
 
 ## 단일 여정{#entry-unitary}
 
-단일 여정(이벤트 또는 대상 자격으로 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하는 보호가 포함됩니다. 프로필 재입력은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03에 도착하는 경우(동일한 이벤트이든 동일한 여정을 트리거하는 다른 이벤트이든) 해당 여정은 이 프로필에 대해 다시 시작되지 않습니다.
+단일 여정에서 재등록을 활성화하거나 비활성화할 수 있습니다.
 
-또한:
-
-* 재입력이 활성화된 경우 프로필은 여정을 여러 번 입력할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 입력할 수 없습니다.
+* 재입력이 활성화된 경우 프로필은 여정을 여러 번 입력할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 다시 입력할 수 없습니다.
 
 * 재입력이 비활성화된 경우 프로필은 동일한 여정을 여러 번 입력할 수 없습니다
+
+기본적으로 새 여정은 다시 입력할 수 있습니다. 예를 들어 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 방&quot; 여정에 대한 옵션을 선택 취소할 수 있습니다. 이 경우 고객이 여정에 다시 입장하여 오퍼를 다시 받을 수 없도록 해야 합니다. 여정이 종료되면 상태는 다음과 같습니다. **[!UICONTROL 종료됨]**. 새 사용자는 더 이상 여정에 들어갈 수 없습니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다. [자세히 알아보기](journey-gs.md#entrance)
+
+![](assets/journey-re-entrance.png)
+
+기본 전역 시간 제한 30일 후 여정이 로 전환됩니다. **완료됨** 상태. 새 사용자는 더 이상 여정에 들어갈 수 없습니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다.30일 여정 제한 시간 때문에 여정 재입장이 허용되지 않으면 재입장 차단이 30일 이상 작동하도록 할 수 없습니다. 실제로 여정에 입장한 후 30일이 지난 사람에 대한 정보를 모두 삭제하기 때문에 30일 이상 전에 입력한 사람을 알 수 없습니다. [자세히 알아보기](journey-gs.md#global_timeout).
+
+단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하는 가드레일이 포함됩니다. 프로필 재입력은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03에 도착하는 경우(동일한 이벤트이든 동일한 여정을 트리거하는 다른 이벤트이든) 해당 여정은 이 프로필에 대해 다시 시작되지 않습니다.
+
+또한 이 키는 개인이 여정 내에 있는지 확인하는 데도 사용됩니다. 실제로, 한 사람은 같은 여정에서 두 개의 다른 장소에 있을 수 없다. 따라서 시스템은 동일한 키(예: 키 CRMID=3224)가 동일한 여정의 다른 위치에 있는 것을 허용하지 않습니다.
 
 ## 대상자 여정 읽기{#entry-read-segment}
 
@@ -43,50 +49,10 @@ ht-degree: 15%
 
 * 반복되지 않는 여정의 경우: 프로필은 여정에 한 번만 입력합니다.
 
-* 반복 여정의 경우: 프로필이 대상자 예상 상태인 경우 각 반복에 대한 여정에 들어갑니다. 이전 반복에서 여정에 있었던 경우 처음부터 다시 시작합니다.
-
-비즈니스 이벤트 여정 **대상자 읽기** 활동: 이 여정은 비즈니스 이벤트 수신을 기반으로 한다는 것을 알고 있는 경우 프로필이 예상 대상에서 자격을 부여받으면 수신된 각 비즈니스 이벤트에 대한 여정을 입력합니다. 즉, 이 프로필은 동일한 여정에서 동시에 여러 번, 하지만 다른 비즈니스 이벤트의 컨텍스트에서 제공될 수 있습니다.
-
-<!--
-# Profile entry management {#entry-management}
-
-There are two main types of journeys:
-
-* event-based journeys: starting with an event, these journeys are unitary, they are associated to one individual. When the event is received, the individual enters the journey. [Read more](#entry-unitary)
-* read segment journeys: starting with a read segment, these are batch journeys. Individuals belonging to the segment all enter the same journey. These journeys can be recurring or one-shot. [Read more](#entry-read-segment)
-
-In both journey types, a profile cannot be present multiple times in the same journey, at the same time.
-
-
-## Unitary journeys{#entry-unitary}
-
-In unitary journeys, you can enable or disable re-entrance:
-
-* If re-entrance is enabled, a profile can enter a journey several times, but cannot do it until he fully exited that previous instance of the journey.
-
-* If re-entrance is disabled, a profile cannot enter multiple times the same journey
-
-By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. In that case, you don't want the customer to be able to re-enter the journey and receive the offer again. When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey finish the journey normally. [Learn more](journey-gs.md#entrance)
-
-![](assets/journey-re-entrance.png)
-
-After the default global timeout of 30 days, the journey switches to the **Finished** status. New individuals can no longer enter the journey. Persons already in the journey finish the journey normally.Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. [Learn more](journey-gs.md#global_timeout).
-
-Unitary journeys (starting with an event or a segment qualification) include a guardrail that prevents journeys from being erroneously triggered multiple times for the same event. Profile re-entrance is temporally blocked by default for 5 minutes. For instance, if an event triggers a journey at 12:01 for a specific profile and another one arrives at 12:03 (whether it is the same event or a different one triggering the same journey) that journey will not start again for this profile.
-
-The key is also used to check that a person is in a journey. Indeed, a person cannot be at two different places in the same journey. As a result, the system does not allow the same key, for example the key CRMID=3224, to be at different places in the same journey.
-
-## Read segment journeys{#entry-read-segment}
-
-In a read segment journey:
-
-* For non-recurring journeys: the profile enters once and only once the journey.
-
-* For recurring journeys: by default, all the profiles belonging to the segment enters the journey on each recurrence. They must finish the journey before they can reenter in another occurrence. 
+* 반복 여정의 경우: 기본적으로 대상에 속하는 모든 프로필은 각 반복에 여정에 들어갑니다. 다른 경우에 다시 입력하기 전에 여정을 완료해야 합니다.
 
 >[!NOTE]
 >
->Two options are available for recurring read segment journeys. The **Force reentrance on recurrence** option makes all the profiles still present in the journey automatically exit it on the next execution. The **Incremental read** option only targets the individuals who entered the segment since the last execution of the journey. Refer to this [section](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+>반복 읽기 대상 여정에 두 가지 옵션을 사용할 수 있습니다. 다음 **재발 시 강제 재진입** 옵션을 사용하면 여정에 여전히 있는 모든 프로필이 다음 실행 시 자동으로 종료됩니다. 다음 **증분 읽기** 옵션은 여정의 마지막 실행 이후 대상자에 입력한 개인만 타겟팅합니다. 이 [섹션](../building-journeys/read-audience.md#configuring-segment-trigger-activity)을 참조하십시오
 
-In business event journeys starting with a **Read segment** activity: knowing that this journey is based on the reception of a business event, if the profile is qualified in the expected segment, they will enter the journey for each business event received, meaning that this profile can be multiple times in the same journey, at the same time, but in the context of different business events.
--->
+비즈니스 이벤트 여정 **대상자 읽기** 활동: 이 여정은 비즈니스 이벤트 수신을 기반으로 한다는 것을 알고 있는 경우 프로필이 예상 대상에서 자격을 부여받으면 수신된 각 비즈니스 이벤트에 대한 여정을 입력합니다. 즉, 이 프로필은 동일한 여정에서 동시에 여러 번, 하지만 다른 비즈니스 이벤트의 컨텍스트에서 제공될 수 있습니다.

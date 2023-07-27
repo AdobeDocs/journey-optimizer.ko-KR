@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 이메일, 가져오기, 콘텐츠, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 52%
+source-wordcount: '228'
+ht-degree: 33%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 52%
 * An **HTML 파일** 통합 스타일 시트 포함
 * A **.zip 폴더** HTML 파일, 스타일 시트(.css) 및 이미지를 포함합니다.
 
-   >[!NOTE]
-   >
-   >.zip 파일 구조에는 제한 사항이 없습니다. 그러나 참조는 상대적이어야 하며 .zip 폴더의 트리 구조와 일치해야 합니다.
+  >[!NOTE]
+  >
+  >.zip 파일 구조에는 제한 사항이 없습니다. 그러나 참조는 상대적이어야 하며 .zip 폴더의 트리 구조와 일치해야 합니다.
 
 HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십시오.
 
@@ -33,11 +33,23 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십
 
    ![](assets/import-html_2.png)
 
-1. HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 드래그 앤 드롭합니다.
+1. HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 드래그 앤 드롭하고 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다.
 
-1. HTML 콘텐츠가 업로드되면 이메일 디자이너 기능을 활용하여 이메일을 편집하고 미리 볼 수 있습니다. [자세히 알아보기](content-from-scratch.md)
+   ![](assets/html-imported_2.png)
+
+1. HTML 콘텐츠가 업로드되면 해당 콘텐츠가 **[!UICONTROL 호환성 모드]**.
+
+   이 모드에서는 텍스트를 개인화하거나, 링크를 추가하거나, 콘텐츠에 에셋을 포함할 수 있습니다.
+
+1. 이메일 디자이너 콘텐츠 구성 요소를 활용하려면 **[!UICONTROL HTML 변환기]** tab 키를 누른 다음 클릭 **[!UICONTROL 전환]**.
 
    ![](assets/html-imported.png)
+
+   >[!NOTE]
+   >
+   > 사용 `<table>` 태그는 HTML 파일의 첫 번째 레이어로, 맨 위 레이어 태그의 배경 및 너비 설정을 포함하여 스타일이 손실될 수 있습니다.
+
+1. 이제 이메일 디자이너 기능을 사용하여 필요에 따라 가져온 파일을 개인화할 수 있습니다 [자세히 알아보기](content-from-scratch.md).
 
 ## 방법 비디오 {#video}
 

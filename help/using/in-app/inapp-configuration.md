@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 12%
+source-wordcount: '325'
+ht-degree: 11%
 
 ---
 
@@ -26,9 +26,14 @@ ht-degree: 12%
 
 1. 그런 다음 **[!UICONTROL 앱 표면]** 메뉴를 선택한 다음 **[!UICONTROL 앱 표면 만들기]**.
 
+   >[!NOTE]
+   >
+   > 다음이 필요합니다. **앱 구성 관리** 다음에 대한 액세스 권한을 가집니다. **[!UICONTROL 앱 표면]** 메뉴 아래의 제품에서 사용할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [이 비디오](#video).
+
    ![](assets/inapp_config_1.png)
 
 1. 에 이름 추가 **[!UICONTROL 앱 표면]**.
+
 
 1. Apple iOS 드롭다운에서 **iOS 번들 ID**. 을(를) 참조하십시오 [Apple 설명서](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 에 대한 추가 정보를 위해 **번들 ID**.
 
@@ -70,3 +75,12 @@ ht-degree: 12%
 * [캠페인 만들기](../campaigns/create-campaign.md)
 * [인앱 메시지 디자인](design-in-app.md)
 * [인앱 보고서 ](../reports/campaign-global-report.md#inapp-report)
+
+
+## 방법 비디오{#video}
+
+* 아래 비디오에서는 를 할당하는 방법을 보여 줍니다. **앱 구성 관리** 앱 표면 메뉴에 대한 액세스 권한.
+
+  +++비디오 참조
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
++++

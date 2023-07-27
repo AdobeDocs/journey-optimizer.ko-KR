@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
-source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 76%
 
 ---
 
@@ -49,41 +49,52 @@ Adobe Journey Optimizer 인터페이스의 모든 곳에서 상단 표시줄의 
 
 Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=ko)를 사용하면 Journey Optimizer의 여정과 캠페인을 쉽게 분류하여 목록에서 보다 편하게 검색할 수 있습니다.
 
->[!AVAILABILITY]
->
->통합 태그는 현재 Beta 버전입니다. 설명서 및 기능은 변경될 수 있습니다.
-
 ### 개체에 태그 추가
 
-[여정](../building-journeys/journey-gs.md#change-properties) 또는 [캠페인](../campaigns/create-campaign.md#create) 속성의 **태그** 필드에서 개체의 태그를 정의할 수 있습니다. 기존 태그를 선택하거나 새 태그를 만들 수 있습니다.
+다음 **[!UICONTROL 태그]** 필드에서는 개체에 대한 태그를 정의할 수 있습니다. 태그는 다음 개체에 사용할 수 있습니다.
 
-원하는 태그의 이름을 입력하고 목록에서 선택합니다. 사용할 수 없는 경우 **만들기**&#x200B;를 클릭하여 새 항목을 만들고 추가합니다. 태그 정의 수에는 제한이 없습니다.
+* [여정](../building-journeys/journey-gs.md#change-properties)
+* [캠페인](../campaigns/create-campaign.md#create)
+* [템플릿](../email/content-templates.md)
+* [조각](../email/fragments.md)
+* [구독 목록](../landing-pages/subscription-list.md)
+* [랜딩 페이지](../landing-pages/create-lp.md)
 
-![](assets/tags1.png)
+기존 태그를 선택하거나 새 태그를 만들 수 있습니다. 그 방법은 다음과 같습니다.
 
-정의한 태그 목록은 **태그** 필드 아래에 표시됩니다.
+1. 원하는 태그의 이름을 입력하거나 목록에서 선택하십시오.
+
+   ![](assets/tags1.png)
+
+   >[!NOTE]
+   >
+   > 태그는 대/소문자를 구분하지 않습니다.
+
+1. 검색 중인 태그를 사용할 수 없는 경우 **[!UICONTROL &quot;&quot; 만들기]** 새 객체를 정의하기 위해 현재 객체에 자동으로 추가되고 다른 모든 객체에서 사용할 수 있게 됩니다.
+
+   ![](assets/tags4.png)
+
+1. 선택한 태그 또는 생성된 태그의 목록이 **[!UICONTROL 태그]** 필드. 태그 정의 수에는 제한이 없습니다.
 
 >[!NOTE]
->
-> 태그는 대/소문자를 구분하지 않습니다.
 > 
-> 여정이나 캠페인을 복제하거나 새 버전을 만들 때는 태그가 유지됩니다.
+> 오브젝트를 복제하거나 새 버전의 오브젝트를 만들면 태그가 유지됩니다.
 
 ### 태그로 필터링
 
-태그를 쉽게 시각적으로 확인할 수 있도록 여정과 캠페인 목록에 태그 전용 열이 표시됩니다.
+각 객체 목록에는 태그를 쉽게 시각화할 수 있도록 전용 열이 표시됩니다.
 
-필터를 통해 특정 태그가 있는 여정이나 캠페인만 표시할 수도 있습니다.
+필터는 특정 태그가 있는 객체만 표시할 수도 있습니다.
 
 ![](assets/tags2.png)
 
-모든 유형의 여정 또는 캠페인(라이브, 초안 등)에 태그를 추가하거나 제거할 수 있습니다. 개체 옆의 **추가 작업** 아이콘을 클릭하고 **태그 편집**&#x200B;을 선택하면 됩니다.
+모든 유형의 여정 또는 캠페인(라이브, 초안 등)에 태그를 추가하거나 제거할 수 있습니다. 개체 옆의 **[!UICONTROL 추가 작업]** 아이콘을 클릭하고 **[!UICONTROL 태그 편집]**&#x200B;을 선택하면 됩니다.
 
 ![](assets/tags3.png)
 
 ### 태그 관리
 
-관리자는 **관리** 아래의 **태그** 메뉴를 사용하여 태그를 삭제하고 카테고리별로 정리할 수 있습니다. 태그 관리에 대한 자세한 내용은 [통합 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=ko)를 참조하십시오.
+관리자는 **[!UICONTROL 관리]** 아래의 **[!UICONTROL 태그]** 메뉴를 사용하여 태그를 삭제하고 카테고리별로 정리할 수 있습니다. 태그 관리에 대한 자세한 내용은 [통합 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=ko)를 참조하십시오.
 
 >[!NOTE]
 >

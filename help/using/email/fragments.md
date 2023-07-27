@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 4%
+source-wordcount: '1495'
+ht-degree: 5%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 4%
 조각을 편집하려면 아래 단계를 따르십시오.
 
 1. 에서 원하는 항목을 클릭합니다. **[!UICONTROL 조각]** 목록을 표시합니다.
-1. 조각 속성에서 다음을 수행할 수 있습니다. [참조 살펴보기](#explore-references), [액세스 관리](../administration/object-based-access.md) 조각 세부 사항을 업데이트합니다.
+1. 조각 속성에서 다음을 수행할 수 있습니다. [참조 살펴보기](#explore-references), [액세스 관리](../administration/object-based-access.md)및 다음을 포함한 조각 세부 사항 업데이트 [태그](../start/search-filter-categorize.md#tags).
 
    ![](assets/fragment-edit-content.png)
 
@@ -143,6 +143,8 @@ ht-degree: 4%
 
 1. 조각에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 다음을 선택합니다. **[!UICONTROL 액세스 관리]**. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md).
 
+1. 에서 Adobe Experience Platform 태그를 선택하거나 만듭니다. **[!UICONTROL 태그]** 개선된 검색을 위해 조각을 분류할 필드입니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
+
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
 1. 다음 [이메일 디자이너](get-started-email-design.md) 표시됩니다. 여정 또는 캠페인 내의 이메일에 대해 수행하는 것과 동일한 방식으로 필요에 따라 콘텐츠를 편집합니다.
@@ -189,6 +191,8 @@ ht-degree: 4%
 
 1. 조각에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 다음을 선택합니다. **[!UICONTROL 액세스 관리]**. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md).
 
+1. 에서 Adobe Experience Platform 태그를 선택하거나 만듭니다. **태그** 검색을 개선하기 위해 템플릿을 분류하는 필드입니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
+
 1. 클릭 **[!UICONTROL 만들기]** 다시. 조각이 **[!UICONTROL 조각]** 목록, 액세스 가능 [!DNL Journey Optimizer] 전용 메뉴.
 
    다음과 같을 수 있는 독립형 조각이 됩니다. [액세스됨](#access-manage-fragments), [편집됨](#edit-fragments) 및 [보관됨](#archive-fragments) 을(를) 해당 목록의 다른 항목으로 사용하십시오.
@@ -209,7 +213,7 @@ ht-degree: 4%
 
    ![](assets/fragments-in-designer.png)
 
-1. 현재 샌드박스에서 만든 모든 조각 목록이 표시됩니다. 다음을 수행할 수 있습니다.
+1. 현재 샌드박스에서 만든 모든 조각 목록이 표시됩니다. 다음과 같은 작업을 수행할 수 있습니다.
 
    * 레이블 입력을 시작하여 특정 조각을 검색합니다.
    * 오름차순 또는 내림차순으로 조각을 정렬합니다.
@@ -267,7 +271,7 @@ ht-degree: 4%
 
 ## 방법 비디오 {#video-fragments}
 
-에서 조각을 관리, 작성 및 사용하는 방법에 대해 알아봅니다. [!DNL Journey Optimizer].
+[!DNL Journey Optimizer]에서 조각을 관리하고, 작성하고, 사용하는 방법에 대해 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 

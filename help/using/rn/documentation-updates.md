@@ -4,16 +4,22 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '2949'
-ht-degree: 99%
+source-wordcount: '3001'
+ht-degree: 97%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2023년 7월 {#july-2023}
+
+* 대기 활동 설명서 페이지가 전역 시간 초과 및 재입력 사용과 관련된 추가 정보 및 우수 사례와 함께 개선되었습니다. [자세히 보기](../building-journeys/wait-activity.md)
+* 항목 관리에 대한 페이지를 개선했습니다. [자세히 보기](../building-journeys/entry-management.md)
+* 대상 활동 읽기 설명서에 전송률 조절에 대한 추가 정보를 추가했습니다. [자세히 보기](../building-journeys/read-audience.md)
 
 ## 2023년 6월 {#june-2023}
 

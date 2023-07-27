@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 26%
+source-wordcount: '1604'
+ht-degree: 27%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 26%
 
 1. 사용자 지정 또는 핵심 데이터 사용 레이블을 랜딩 페이지에 할당하려면 다음을 선택합니다. **[!UICONTROL 액세스 관리]**. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md)
 
-   <!--You can add a tag. See AEP documentation?-->
+1. 에서 Adobe Experience Platform 태그를 선택하거나 만듭니다. **[!UICONTROL 태그]** 검색을 개선하기 위해 랜딩 페이지를 분류하는 필드입니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
 
 1. 사전 설정을 선택합니다. 에서 랜딩 페이지 사전 설정을 만드는 방법 알아보기 [이 섹션](../landing-pages/lp-presets.md#lp-create-preset).
 

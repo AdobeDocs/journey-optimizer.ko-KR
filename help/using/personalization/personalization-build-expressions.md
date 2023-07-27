@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '432'
 ht-degree: 12%
 
 ---
@@ -34,9 +34,9 @@ ht-degree: 12%
 화면의 왼쪽 부분에는 개인화할 소스를 선택할 수 있는 도메인 선택기가 표시됩니다. 사용 가능한 소스는 다음과 같습니다.
 
 * **[!UICONTROL 프로필 속성]** : 다음에 설명된 프로필 스키마와 관련된 모든 참조를 나열합니다. [Adobe Experience Platform 데이터 모델(XDM) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}.
-* **[!UICONTROL 대상]** : Adobe Experience Platform 세그멘테이션 서비스에서 만든 모든 대상을 나열합니다. 세그멘테이션에 대한 추가 정보 사용 가능 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+* **[!UICONTROL 대상]** : Adobe Experience Platform 세그멘테이션 서비스에서 만든 모든 대상을 나열합니다. 세그멘테이션에 대한 추가 정보 사용 가능 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}.
 * **[!UICONTROL 오퍼 결정]** : 특정 배치와 관련된 모든 오퍼를 나열합니다. 배치를 선택한 다음 콘텐츠에 오퍼를 삽입합니다. 오퍼 관리 방법에 대한 전체 설명서는 를 참조하십시오. [이 섹션](../offers/get-started/starting-offer-decisioning.md).
-* **[!UICONTROL 컨텍스트 속성]** : 여정에서 채널 작업 활동(이메일, 푸시, SMS)을 사용하면 이 메뉴를 통해 상황별 여정 필드를 사용할 수 있습니다. 자세한 내용은 [이 섹션](personalization-use-case.md)을 참조하십시오.
+* **[!UICONTROL 컨텍스트 속성]** : 여정 또는 캠페인에서 채널 작업 활동(이메일, 푸시, SMS)을 사용하면 이벤트 및 속성과 관련된 컨텍스트 속성을 개인화할 수 있습니다. 상황별 속성을 활용하는 개인화 예를에 나와 있습니다. [이 섹션](personalization-use-case.md).
 * **[!UICONTROL 도우미 함수]** : 계산, 데이터 형식 지정 또는 전환, 조건 및 개인화의 컨텍스트에서 조작 등 데이터에 대한 작업을 수행하는 데 사용할 수 있는 모든 도우미 함수를 나열합니다. 자세한 내용은 [이 섹션](functions/functions.md)을 참조하십시오.
 
 ## 개인화 속성 추가 {#add}

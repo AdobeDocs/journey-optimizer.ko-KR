@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 7%
+source-wordcount: '1342'
+ht-degree: 6%
 
 ---
 
@@ -30,9 +30,11 @@ Campaign 라이브 보고서는 캠페인에서 **[!UICONTROL 라이브 뷰]** �
 
 * [Campaign](#campaign-live)
 * [이메일](#email-live)
+* [인앱](#inapp-live)
 * [푸시](#push-live)
 * [SMS](#sms-live)
 * [웹](#web-tab)
+* [다이렉트 메일](#direct-mail-tab)
 
 캠페인 **[!UICONTROL 라이브 보고서]** 은 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [섹션](../reports/live-report.md#modify-dashboard).
 
@@ -97,6 +99,26 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 다음 **[!UICONTROL 오류 원인]** 및 **[!UICONTROL 제외 이유]** 그래프 및 표를 사용하면 게재 중에 발생한 오류 및 제외 사항을 확인할 수 있습니다.
 
 다음 **[!UICONTROL 이메일 - 상위 수신자 도메인]** 그래프 및 표는 수신자가 이메일을 여는 데 가장 많이 사용하는 도메인을 자세히 설명합니다.
++++
+
+## 인앱 탭 {#inapp-live}
+
+캠페인에서 **[!UICONTROL 라이브 보고서]**, **[!UICONTROL 인앱]** 탭에서는 캠페인에 전송된 인앱 게재와 관련된 기본 정보를 자세히 설명합니다.
+
++++인앱 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
+
+다음 **[!UICONTROL 인앱 성능]** KPI는 다음과 같이 방문자의 인앱 메시지 참여와 관련된 주요 정보를 자세히 설명합니다.
+
+* **[!UICONTROL 고유 노출 횟수]**: 인앱 메시지가 전달된 고유 사용자 수.
+
+* **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 인앱 메시지 수입니다.
+
+다음 **[!UICONTROL 인앱 요약]** 그래프는 관련 기간 동안 인앱 노출 횟수의 발전을 보여 줍니다.
+
+다음 **[!UICONTROL 버튼을 통한 클릭 수]** 그래프 및 표에는 버튼당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
+
+* **[!UICONTROL 클릭수]**: 인앱 메시지에 포함된 버튼과 상호 작용한 총 수신자 수입니다.
+
 +++
 
 ## 푸시 알림 탭 {#push-live}
@@ -180,6 +202,25 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 다음 **[!UICONTROL 웹 요약]** 그래프는 관련 기간에 대한 웹 경험(노출 횟수, 고유 노출 횟수 및 클릭 수)의 발전을 보여 줍니다.
 
 다음 **[!UICONTROL 요소별 클릭 수]** 표에서는 웹 페이지의 다양한 요소에 대한 방문자의 참여도와 관련된 기본 정보를 자세히 설명합니다.
++++
+
+## 다이렉트 메일 탭 {#direct-mail-tab}
+
+캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 다이렉트 메일]** 탭에서는 DM 게재와 관련된 기본 정보를 자세히 설명합니다.
+
++++DM 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
+
+다음 **[!UICONTROL DM - 전송 통계]** 게재의 성공 여부를 보여 주는 표는 다음과 같습니다.
+
+* **[!UICONTROL 타깃팅됨]**: 이 게재에 대한 타겟 프로필로 적합한 사용자 프로필 수입니다.
+
+* **[!UICONTROL 전송됨]**: 게재에 대한 총 전송 수입니다.
+
+* **[!UICONTROL 오류]**: 게재 중에 발생하여 프로필로 전송되지 않은 총 오류 수입니다.
+
+* **[!UICONTROL 제외됨]**: 타겟팅된 프로필에서 제외되고 게재를 받지 않은 사용자 프로필 수입니다.
+
+다음 **[!UICONTROL DM - 제외된 이유]** 및 **[!UICONTROL 다이렉트 메일 - 오류 원인]** 그래프 및 표를 사용하면 게재 중에 발생한 오류 및 제외 사항을 확인할 수 있습니다.
 +++
 
 ## 추가 리소스

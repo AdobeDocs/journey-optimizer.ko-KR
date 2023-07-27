@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: d62d364571ad9528d2be50469663c6fa5ab01291
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 13%
+source-wordcount: '870'
+ht-degree: 12%
 
 ---
 
@@ -23,12 +23,17 @@ ht-degree: 13%
 
 * 웹 경험이 제대로 제공되도록 하려면 Adobe Experience Platform 설정을 자세히 정의해야 합니다 [여기](#delivery-prerequisites).
 
-## 주의 사항
+## 주의 사항 {#caution-notes-web}
 
-현재 [!DNL Journey Optimizer]에서는 **캠페인**&#x200B;을 사용한 웹 경험만 만들 수 있습니다. [자세히 알아보기](../campaigns/create-campaign.md#configure)
+* 현재 위치 [!DNL Journey Optimizer] 다음에서만 웹 경험을 만들 수 있습니다. **캠페인**. [자세히 알아보기](../campaigns/create-campaign.md#configure)
+
+* [!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타겟팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로 구입한 계약 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 각 패키지에 대한 라이선스 지표는 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html) 페이지를 가리키도록 업데이트하는 중입니다.
 
 
-[!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타겟팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로 구입한 계약 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 각 패키지에 대한 라이선스 지표는 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html) 페이지를 가리키도록 업데이트하는 중입니다.
+>[!AVAILABILITY]
+>
+>현재 Adobe Healthcare Shield 추가 기능 서비스를 구입한 조직에서는 웹 채널을 사용할 수 없습니다.
+>
 
 ## 구현 사전 요구 사항 {#implementation-prerequisites}
 
@@ -94,7 +99,6 @@ Visual Editing Helper 브라우저 확장 기능을 다운로드하여 설치하
 > * 웹 사이트가 iframe으로 되어 있습니다.
 > * 고객의 QA 또는 스테이지 사이트는 외부에서 사용할 수 없습니다(사이트는 내부 사이트임).
 
-
 ### 웹 사이트 로드 문제 해결 {#troubleshooting}
 
 Adobe 사용 시 [!DNL Journey Optimizer] 웹 디자이너 로드에 실패한 웹 사이트를 로드하려고 하면 다음을 설치하라는 메시지가 표시됩니다. [Visual Editing Helper 브라우저 확장 기능](#install-visual-editing-helper).
@@ -111,17 +115,17 @@ Visual Editing Helper 브라우저 확장이 올바르게 설치되었지만 웹
 
 웹 경험을 올바르게 전달하려면 다음 설정을 정의해야 합니다.
 
-* 다음에서 [Adobe Experience Platform 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}와 같은 데이터 스트림이 아래에 정의되어 있는지 확인합니다. **[!UICONTROL Adobe Experience Platform]** 서비스 보유: **[!UICONTROL Adobe Journey Optimizer]** 옵션이 활성화되었습니다.
+* 다음에서 [Adobe Experience Platform 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko-KR){target="_blank"}와 같은 데이터 스트림이 아래에 정의되어 있는지 확인합니다. **[!UICONTROL Adobe Experience Platform]** 서비스 보유: **[!UICONTROL Adobe Journey Optimizer]** 옵션이 활성화되었습니다.
 
-   이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR){target="_blank"}
+  이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR){target="_blank"}
 
-   ![](assets/web-aep-datastream-ajo.png)
+  ![](assets/web-aep-datastream-ajo.png)
 
 * 위치 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-   이 병합 정책은 다음 사용자가 사용합니다. [!DNL Journey Optimizer] 인바운드 채널을 통해 에지에서 인바운드 캠페인을 올바르게 활성화하고 게시할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko){target="_blank"}
+  이 병합 정책은 다음 사용자가 사용합니다. [!DNL Journey Optimizer] 인바운드 채널을 통해 에지에서 인바운드 캠페인을 올바르게 활성화하고 게시할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko){target="_blank"}
 
-   ![](assets/web-aep-merge-policy.png)
+  ![](assets/web-aep-merge-policy.png)
 
 ## 에셋용 브랜드 도메인 {#branded-domains-for-assets}
 

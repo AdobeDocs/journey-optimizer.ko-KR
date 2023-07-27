@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '189'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 100%
 인앱 메시지는 앱 안에 있는 사용자에게 보내어 특정 관심 영역으로 안내할 수 있는 알림입니다. 이 알림은 새로운 기능을 홍보하거나, 특별 오퍼를 제공하거나, 사용자의 앱 적응을 돕는 등 다양한 용도로 사용할 수 있습니다. 인앱 메시지를 활용하면 대상자와 효과적으로 소통하고 애플리케이션의 중요한 부분을 안내할 수 있습니다.
 
 Journey Optimizer를 사용하여 인앱 알림을 만들고 경험 옵션(메시지의 레이아웃과 표시, 텍스트, 버튼 옵션 등)을 구성합니다.
+
+>[!AVAILABILITY]
+>
+>현재 Adobe Healthcare Shield 추가 기능 서비스를 구입한 조직에서는 인앱 채널을 사용할 수 없습니다.
+>
 
 ## 사전 요구 사항{#prerequisites-in-app}
 
