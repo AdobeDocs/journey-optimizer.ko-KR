@@ -4,7 +4,7 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 2b6ba46ed7036915aff1abf3c5f54781edd9c780
 workflow-type: tm+mt
 source-wordcount: '3079'
 ht-degree: 86%
@@ -72,7 +72,7 @@ ht-degree: 86%
 <tr>
 <td>
 <p>이제 Journey Optimizer 이메일 편집기에서 HTML 콘텐츠를 가져오고 변환할 수 있습니다. 콘텐츠 블록은 자동으로 식별되며 이메일 디자이너에서 사용할 수 있습니다. 강력한 디자인 기능을 사용하여 업데이트하고 개인화합니다!</p>
-<img src="../email/assets/html-imported_2.png">
+<img src="assets/html-convert.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
