@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2b6ba46ed7036915aff1abf3c5f54781edd9c780
+source-git-commit: 446fa1ab7d8f897aa1b6997b9cc664100e30e5a2
 workflow-type: tm+mt
-source-wordcount: '3079'
-ht-degree: 86%
+source-wordcount: '3193'
+ht-degree: 84%
 
 ---
 
@@ -44,23 +44,23 @@ ht-degree: 86%
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Direct mail channel</strong><br/></th>
+<th><strong>다이렉트 메일 채널</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
-<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
-<p>For now, Direct mail channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.</p>
+<p>이제 캠페인에 DM 메시지를 추가할 수 있습니다. DM은 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.</p>
+<p>DM 게재를 준비하면 Journey Optimizer에서는 타겟팅된 모든 프로필과 선택한 연락처 정보(예: 우편 주소)가 포함된 파일을 생성합니다. 그러면 이 파일을 DM 공급자에게 보내어 실제 전송을 처리하도록 할 수 있습니다.</p>
+<p>현재 Adobe Healthcare Shield 추가 기능 서비스를 구입한 조직에서는 DM 채널을 사용할 수 없습니다.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
-<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
+<p>자세한 내용은 <a href="../direct-mail/create-direct-mail.md">세부 설명서</a>를 참조하세요.</p>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
