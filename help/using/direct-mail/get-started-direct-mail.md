@@ -6,18 +6,19 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: DM, 메시지, 캠페인
-source-git-commit: 40cd058475b37b8fa7d5c0286ad230422e027cf8
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# DM 메시지 만들기 {#create-direct}
+# DM 시작 {#create-direct}
 
 >[!AVAILABILITY]
 >
 >현재 Adobe Healthcare Shield 추가 기능 서비스를 구입한 조직에서는 DM 채널을 사용할 수 없습니다.
+>
 
 DM은 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.
 

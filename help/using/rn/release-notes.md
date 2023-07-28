@@ -4,7 +4,7 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 446fa1ab7d8f897aa1b6997b9cc664100e30e5a2
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '3193'
 ht-degree: 84%
@@ -57,7 +57,7 @@ ht-degree: 84%
 <p>DM 게재를 준비하면 Journey Optimizer에서는 타겟팅된 모든 프로필과 선택한 연락처 정보(예: 우편 주소)가 포함된 파일을 생성합니다. 그러면 이 파일을 DM 공급자에게 보내어 실제 전송을 처리하도록 할 수 있습니다.</p>
 <p>현재 Adobe Healthcare Shield 추가 기능 서비스를 구입한 조직에서는 DM 채널을 사용할 수 없습니다.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
-<p>자세한 내용은 <a href="../direct-mail/create-direct-mail.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../direct-mail/get-started-direct-mail.md">세부 설명서</a>를 참조하세요.</p>
 </tr>
 </tbody>
 </table>
