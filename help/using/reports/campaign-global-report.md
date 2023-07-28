@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
 workflow-type: tm+mt
 source-wordcount: '2498'
 ht-degree: 4%
@@ -364,6 +364,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 ## 다이렉트 메일 탭 {#direct-mail-global}
 
 캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 다이렉트 메일]** 탭에서는 DM 게재와 관련된 기본 정보를 자세히 설명합니다.
+
+![](assets/direct-mail-report_1.png)
 
 +++DM 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
 
