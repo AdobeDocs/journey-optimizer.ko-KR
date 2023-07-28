@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: DM, 메시지, 캠페인
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,4 @@ DM 메시지를 보내는 주요 단계는 다음과 같습니다.
 
 DM 메시지는 예약된 캠페인의 컨텍스트에서만 만들 수 있습니다. API 트리거 캠페인 또는 여정에서 사용할 수 없습니다.
 
->[!IMPORTANT]
->
->DM 메시지를 보내기 전에 다음을 구성했는지 확인하십시오.
->
->1. A [파일 라우팅 구성](../direct-mail/direct-mail-configuration.md#file-routing-configuration) 추출 파일을 업로드하고 저장할 서버를 지정합니다.
->1. A [다이렉트 메일 메시지 표면](../direct-mail/direct-mail-configuration.md#direct-mail-surface) 파일 라우팅 구성을 참조합니다.
+

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: DM, 메시지, 캠페인
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 10%
+source-wordcount: '560'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 10%
 >title="DM(Direct Mail) 만들기"
 >abstract="예약된 캠페인에서 DM 메시지를 만들고, DM 공급자가 고객에게 메일을 전송하는 데 필요한 추출 파일을 디자인합니다."
 
+DM 메시지를 만들려면 예약된 캠페인을 만들고 추출 파일을 구성합니다. DM 공급자가 고객에게 메일을 보낼 때 이 파일이 필요합니다.
+
+>[!IMPORTANT]
+>
+>DM 메시지를 만들기 전에 다음을 구성했는지 확인하십시오.
+>
+>1. A [파일 라우팅 구성](../direct-mail/direct-mail-configuration.md#file-routing-configuration) 추출 파일을 업로드하고 저장할 서버를 지정합니다.
+>1. A [다이렉트 메일 메시지 표면](../direct-mail/direct-mail-configuration.md#direct-mail-surface) 파일 라우팅 구성을 참조합니다.
+
+
 ## DM 캠페인 만들기{#create-dm-campaign}
+
+DM 캠페인을 만들려면 다음 단계를 수행합니다.
 
 1. 새 예약된 캠페인을 만들고 선택 **[!UICONTROL 다이렉트 메일]** as the action.
 
@@ -46,6 +58,8 @@ ht-degree: 10%
 이제 DM 공급자에게 보낼 추출 파일 구성을 시작할 수 있습니다.
 
 ## 추출 파일 구성 {#extraction-file}
+
+DM 공급자가 고객에게 메일을 보낼 때 추출 파일이 필요합니다. 추출 파일 구성을 정의하려면 다음 단계를 수행합니다.
 
 1. 캠페인 구성 화면에서 다음을 클릭합니다. **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 추출 파일 콘텐츠를 구성합니다.
 
