@@ -6,27 +6,15 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-hide: true
-hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-badge: label="Beta" type="Informative"
-source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
+source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 32%
+source-wordcount: '881'
+ht-degree: 31%
 
 ---
 
 # DM 구성 {#direct-mail-configuration}
-
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* [다이렉트 메일 만들기](create-direct-mail.md)
-* **[다이렉트 메일 구성](direct-mail-configuration.md)**
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] dm 공급자가 고객에게 메일을 보내는 데 필요한 파일을 개인화하고 생성할 수 있습니다.
 
@@ -80,13 +68,13 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 1. 액세스 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 파일 라우팅 구성]** > **[!UICONTROL 파일 라우팅]** 메뉴를 선택한 다음 **[!UICONTROL 라우팅 구성 만들기]**.
 
-   ![](assets/file-routing-config-button.png)
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. 구성의 이름을 설정합니다.
 
 1. 다음 항목 선택 **[!UICONTROL 서버 유형]** dm 파일을 내보내는 데 사용할 수 있습니다.
 
-   ![](assets/file-routing-config-type.png)
+   ![](assets/file-routing-config-type.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -98,7 +86,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 1. 선택한 경우 **[!UICONTROL Amazon]**, 을(를) 선택합니다. **[!UICONTROL AWS 지역]** 서버 인프라가 배치될 위치입니다.
 
-   ![](assets/file-routing-config-aws-region.png)
+   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -137,11 +125,11 @@ DM 표면에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 �
 
 1. 다음 항목 선택 **[!UICONTROL 다이렉트 메일]** 채널.
 
-   ![](assets/surface-direct-mail-channel.png)
+   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
 1. 채널 표면 구성의 전용 섹션에서 DM 설정을 정의합니다.
 
-   ![](assets/surface-direct-mail-settings.png)
+   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -157,7 +145,7 @@ DM 표면에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 �
    >
    >파일 라우팅 옵션을 구성하지 않은 경우 DM 표면을 만들 수 없습니다. [자세히 알아보기](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png)
+   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 

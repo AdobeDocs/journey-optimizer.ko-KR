@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 100%
+source-wordcount: '1399'
+ht-degree: 99%
 
 ---
 
@@ -228,7 +228,9 @@ ht-degree: 100%
    + [SMS 채널 구성](using/sms/sms-configuration.md)
    + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
 + 다이렉트 메일 {#direct-mail}
+   + [DM 시작](using/direct-mail/get-started-direct-mail.md)
    + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)
+   + [DM 메시지 테스트 및 보내기](using/direct-mail/test-send-direct-mail.md)
    + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
 + 웹 채널{#web}
    + [웹 채널 시작하기](using/web/get-started-web.md)
