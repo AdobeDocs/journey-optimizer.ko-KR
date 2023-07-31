@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 고객은 개인화된 콘텐츠를 표시하지 않도록 옵트아웃할 수도 있습니다. 개인화를 옵트아웃한 경우 해당 데이터가 개인화에 사용되지 않도록 해야 하며, 모든 개인화 콘텐츠 대신 대체 콘텐츠를 사용해야 합니다.
 
-### 의사 결정 관리의 경우
+### 의사 결정 관리의 경우 {#opt-out-decision-management}
 
 오퍼를 활용하는 경우 개인화 동의 여부는 [decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) API 요청이나 [edge decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API 요청에서 사용하는 [결정 범위](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)에 자동으로 적용되지 않습니다. 이 경우 개인화 동의를 수동으로 강제해야 합니다. 그 방법은 다음과 같습니다.
 
@@ -93,9 +93,7 @@ ht-degree: 100%
 >
 >프로필 데이터를 [데이터 모델링](../offers/ranking/ai-models.md)에 사용하는 데 대한 동의는 아직 [!DNL Journey Optimizer]에서 지원되지 않습니다.
 
-## 표현식 편집기에서
-
-<!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
+## 표현식 편집기에서 {#opt-out-expression-editor}
 
 [표현식 편집기](../personalization/personalization-build-expressions.md) 자체는 동의 여부 확인이나 적용을 수행하지 않습니다. 메시지 게재 작업에 포함되지 않기 때문입니다.
 
@@ -104,7 +102,6 @@ ht-degree: 100%
 >[!NOTE]
 >
 >[이 섹션](../administration/object-based-access.md)에서는 OLAC(개체 수준 액세스 제어)에 대해 자세히 알아봅니다.
-
 
 [!DNL Journey Optimizer] 캠페인에서 동의 정책은 다음과 같이 시행됩니다.
 
