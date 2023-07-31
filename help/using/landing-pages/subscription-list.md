@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 목록, 구독, 서비스
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: b7685798cec415c8a97992ddacf8f0ebcb393107
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 12%
@@ -58,11 +58,11 @@ ht-degree: 12%
    >
    >현재 의 다른 구독 목록에 대해 공백을 사용하거나 이미 존재하는 이름을 입력할 수 없습니다. **[!UICONTROL 제목]** 필드.
 
-1. 에서 Adobe Experience Platform 태그를 선택하거나 만듭니다. **[!UICONTROL 태그]** 검색을 개선하기 위해 랜딩 페이지를 분류하는 필드입니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
-
 1. 시작 날짜와 종료 날짜를 정의할 수 있습니다.
 
    ![](assets/lp_subscription-list-dates.png)
+
+1. 에서 Adobe Experience Platform 태그를 선택하거나 만듭니다. **[!UICONTROL 태그]** 검색을 개선하기 위해 랜딩 페이지를 분류하는 필드입니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
