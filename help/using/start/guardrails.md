@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1125'
 ht-degree: 99%
 
 ---
@@ -49,7 +49,6 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 일반 작업  {#general-actions-g}
 
-* 전송 제한이 없습니다. 
 * 오류가 발생하면 시스템에서 세 번 다시 시도합니다. 수신된 오류 메시지에 따라 재시도 횟수를 조정할 수 없습니다. HTTP 401, 403 및 404를 제외한 모든 HTTP 오류에 대해 다시 시도가 수행됩니다.
 * 기본으로 제공되는 **반응** 이벤트를 사용하면 즉시 사용 가능한 작업에 반응할 수 있습니다. [이 페이지](../building-journeys/reaction-events.md)에서 자세히 알아보십시오. 사용자 지정 작업을 통해 보낸 메시지에 반응하려면 전용 이벤트를 구성해야 합니다.
 * 두 가지 작업을 병렬로 배치할 수 없으며 하나씩 추가해야 합니다.
