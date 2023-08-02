@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1591'
 ht-degree: 25%
 
 ---
 
 # 첫 여정 만들기{#jo-quick-start}
 
-## 사전 요구 사항{#start-prerequisites}
+## 전제 조건{#start-prerequisites}
 
 여정이 있는 메시지를 보내려면 다음 구성이 필요합니다.
 
@@ -51,7 +51,7 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->이 대시보드는 지난 24시간 동안 트래픽이 있는 여정을 고려합니다. 액세스 권한이 있는 여정만 표시됩니다.
+>이 대시보드는 지난 24시간 동안 트래픽이 있는 여정을 고려합니다. 액세스 권한이 있는 여정만 표시됩니다. 지표는 30분마다 새로 고침되며 새로운 데이터를 사용할 수 있는 경우에만 새로 고침됩니다.
 
 ![](assets/journeys-dashboard.png)
 
