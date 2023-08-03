@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 96%
 ## 2023년 7월 {#july-2023}
 
 * 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2023년 7월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 대기 활동 설명서 페이지가 전역 시간 초과 및 재입력 사용과 관련된 추가 정보 및 우수 사례와 함께 개선되었습니다. [자세히 보기](../building-journeys/wait-activity.md)
-* 항목 관리에 대한 페이지를 개선했습니다. [자세히 보기](../building-journeys/entry-management.md)
+* 대기 활동 설명서 페이지에 전역 시간 초과 및 재입력 사용과 관련된 정보 및 우수 사례를 추가하여 개선했습니다. [자세히 보기](../building-journeys/wait-activity.md)
+* 항목 관리 페이지를 개선했습니다. [자세히 보기](../building-journeys/entry-management.md)
 * 대상자 읽기 활동 설명서에 전송률에 대한 추가 정보를 추가했습니다. [자세히 보기](../building-journeys/read-audience.md)
 * 다음 **개인화 동의 구현** 섹션 을 업데이트하여 캠페인에 개인화 동의를 수동으로 적용하는 방법을 설명합니다. 세그먼트 규칙 빌더를 사용하여 옵트아웃 프로필이 포함된 대상자를 만들거나 구성 워크플로우에 분할 활동을 추가할 수 있습니다. [자세히 보기](../privacy/opt-out.md#opt-out-expression-editor)
 
