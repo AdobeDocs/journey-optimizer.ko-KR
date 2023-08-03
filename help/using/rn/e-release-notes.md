@@ -6,9 +6,9 @@ description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 97%
 <td>
 <p>이제 캠페인과 여정 외에도 Adobe Experience Platform 통합 태그를 랜딩 페이지, 콘텐츠 템플릿, 조각 및 구독 목록에 할당할 수 있습니다. 이렇게 하면 해당 항목을 쉽게 분류하고, 모든 목록에서 검색과 탐색을 개선할 수 있습니다. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
-<p>자세한 내용은 <a href="../start/search-filter-categorize.md#tags">세부 설명서</a>를 참고하세요.</p>
+<p>자세한 내용은 <a href="../start/search-filter-categorize.md#tags">세부 설명서</a>를 참고하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -122,7 +122,7 @@ ht-degree: 97%
 
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 정의 작업이 실패하면 알림을 받을 수 있습니다.
-—>
+-->
 
 **캠페인**
 
@@ -147,7 +147,7 @@ Adobe Journey Optimizer API 인증 - 액세스 토큰을 생성하는 JWT 메서
 
 **기타 변경 사항**
 
-이제 Cloud Storage Destinations로 내보내는 Journey Optimizer 데이터 세트를 모든 고객이 공개 베타로 사용할 수 있습니다. 이제 클라우드 스토리지 위치와 실시간 연결을 설정하여 데이터 세트의 콘텐츠를 내보낼 수 있습니다. [자세히 알아보기](../data/export-datasets.md)
+이제 모든 고객이 클라우드 스토리지 대상에 Journey Optimizer 데이터 세트를 공개 베타로 내보낼 수 있습니다. 이제 클라우드 스토리지 위치와 실시간 연결을 설정하여 데이터 세트의 콘텐츠를 내보낼 수 있습니다. [자세히 알아보기](../data/export-datasets.md)
 
 
 
