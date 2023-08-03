@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/doc
 
 ### 개체에 태그 추가
 
-다음 **[!UICONTROL 태그]** 필드에서는 개체에 대한 태그를 정의할 수 있습니다. 태그는 다음 개체에 사용할 수 있습니다.
+다음 **[!UICONTROL 태그]** 필드에서는 오브젝트에 대한 태그를 정의할 수 있습니다. 태그는 다음 오브젝트에 사용할 수 있습니다.
 
 * [여정](../building-journeys/journey-gs.md#change-properties)
 * [캠페인](../campaigns/create-campaign.md#create)
@@ -62,7 +62,7 @@ Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/doc
 
 기존 태그를 선택하거나 새 태그를 만들 수 있습니다. 그 방법은 다음과 같습니다.
 
-1. 원하는 태그의 이름을 입력하거나 목록에서 선택하십시오.
+1. 원하는 태그의 이름을 입력하거나 목록에서 선택합니다.
 
    ![](assets/tags1.png)
 
@@ -70,21 +70,21 @@ Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/doc
    >
    > 태그는 대/소문자를 구분하지 않습니다.
 
-1. 검색 중인 태그를 사용할 수 없는 경우 **[!UICONTROL &quot;&quot; 만들기]** 새 객체를 정의하기 위해 현재 객체에 자동으로 추가되고 다른 모든 객체에서 사용할 수 있게 됩니다.
+1. 검색 중인 태그를 사용할 수 없는 경우 **[!UICONTROL 만들기 &quot;&quot;]**&#x200B;를 클릭하여 새로운 태그를 정의하면 현재 오브젝트에 자동으로 추가되고 다른 모든 오브젝트에서 사용할 수 있게 됩니다.
 
    ![](assets/tags4.png)
 
-1. 선택한 태그 또는 생성된 태그의 목록이 **[!UICONTROL 태그]** 필드. 태그 정의 수에는 제한이 없습니다.
+1. 선택한 태그 또는 생성된 태그의 목록이 **[!UICONTROL 태그]** 필드 아래에 표시됩니다. 태그 정의 수에는 제한이 없습니다.
 
 >[!NOTE]
 > 
-> 오브젝트를 복제하거나 새 버전의 오브젝트를 만들면 태그가 유지됩니다.
+> 오브젝트를 복제하거나 새 버전을 만들 때는 태그가 유지됩니다.
 
 ### 태그로 필터링
 
-각 객체 목록에는 태그를 쉽게 시각화할 수 있도록 전용 열이 표시됩니다.
+각 오브젝트 목록에는 태그를 쉽게 시각화할 수 있도록 전용 열이 표시됩니다.
 
-필터는 특정 태그가 있는 객체만 표시할 수도 있습니다.
+필터를 통해 특정 태그가 있는 오브젝트나 캠페인만 표시할 수도 있습니다.
 
 ![](assets/tags2.png)
 
