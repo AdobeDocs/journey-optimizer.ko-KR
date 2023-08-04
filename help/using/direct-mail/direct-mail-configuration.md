@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '879'
 ht-degree: 31%
 
 ---
@@ -78,7 +78,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
    >[!NOTE]
    >
-   >현재 Amazon S3, SFTP 및 Azure는에서 지원됩니다. [!DNL Journey Optimizer].
+   >현재 Amazon S3 및 SFTP<!--and Azure--> 다음에서 지원됨: [!DNL Journey Optimizer].
 
 1. 서버 주소, 액세스 키 등과 같은 서버의 세부 정보 및 자격 증명을 입력합니다.
 
@@ -135,7 +135,7 @@ DM 표면에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 �
 
 1. 파일 형식 선택: **[!UICONTROL CSV]** 또는 **[!UICONTROL 텍스트로 구분됨]**.
 
-1. 다음을 선택하는 경우 **[!UICONTROL 텍스트로 구분됨]**&#x200B;을(를) 통해 원하는 열 구분 기호(표, 세미콜론, 파이프 또는 앰퍼샌드)를 정의합니다.
+1. 다음을 선택하는 경우 **[!UICONTROL 텍스트로 구분됨]**, 원하는 열 구분 기호(표, 세미콜론 또는 파이프)를 정의합니다.<!--or ampersand-->.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
