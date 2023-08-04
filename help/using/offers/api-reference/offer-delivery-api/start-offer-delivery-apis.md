@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 76661d574ffabf32c4c1db8d88744604e50d7b40
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 6%
+source-wordcount: '430'
+ht-degree: 4%
 
 ---
 
@@ -19,10 +19,6 @@ ht-degree: 6%
 
 이 페이지에서는 사용 가능한 특정 기능에 대한 정보를 확인할 수 있습니다. **의사 결정** 및 **Edge Decisioning** API. 둘 다 고객에게 오퍼를 게재할 수 있지만 **Edge Decisioning** 인바운드 사용 사례와 플랫폼에서 더 나은 지연 시간 및 처리량을 보장하기 위해 가능한 한 항상 API입니다.
 
-|  | 요청/초 | 지연 |
-|---|---|---|
-| Decisioning API | 2000 | &lt;500ms |
-| Edge Decisioning API | 5000 | &lt;250ms |
 
 API 작업 방법에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 * [Decisioning API](decisioning-api.md)
