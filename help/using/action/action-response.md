@@ -11,16 +11,16 @@ badge: label="Beta" type="Informative"
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 hide: true
 hidefromtoc: true
-source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
+source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 9%
+source-wordcount: '497'
+ht-degree: 4%
 
 ---
 
 # 사용자 지정 작업 개선 사항
 
-이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
+이제 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
 
 이 기능은 데이터 소스를 사용할 때만 사용할 수 있습니다. 이제 사용자 지정 작업에 사용할 수 있습니다.
 
@@ -55,11 +55,11 @@ ht-degree: 9%
 
 1. 내부를 클릭합니다. **응답** 필드.
 
-   ![](assets/action-response3.png){width="70%" align="left"}
+   ![](assets/action-response3.png){width="80%" align="left"}
 
 1. 호출에서 반환된 페이로드의 예제를 붙여넣습니다. 필드 유형(문자열, 정수 등)이 올바른지 확인합니다.
 
-   ![](assets/action-response4.png){width="70%" align="left"}
+   ![](assets/action-response4.png){width="80%" align="left"}
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -121,15 +121,15 @@ API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 
 
 예를 들어 풍속을 확인하는 조건을 추가할 수 있다. 서핑 숍에 들어갈 때 날씨가 너무 바람이 많이 불면 푸시를 보낼 수 있습니다.
 
-![](assets/action-response5.png){width="70%" align="left"}
+![](assets/action-response5.png)
 
 조건에서 고급 편집기를 사용하여 아래 작업 응답 필드를 활용해야 합니다 **컨텍스트** 노드.
 
-![](assets/action-response6.png){width="70%" align="left"}
+![](assets/action-response6.png)
 
 다음을 활용할 수도 있습니다. **jo_status** 오류 발생 시 새 경로를 만드는 코드.
 
-![](assets/action-response7.png){width="70%" align="left"}
+![](assets/action-response7.png)
 
 >[!WARNING]
 >
@@ -142,15 +142,19 @@ API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 
 * 최대 가용량 오류: **제한됨**
 * 내부 오류: **internalError**
 
+여정 활동에 대한 자세한 내용은 [이 섹션](../building-journeys/about-journey-activities.md).
+
 ### 메시지 개인화
 
 응답 필드를 사용하여 메시지를 개인화할 수 있습니다. 이 예제에서 푸시 알림은 속도 값을 사용하여 콘텐츠를 개인화합니다.
 
-![](assets/action-response8.png){width="70%" align="left"}
+![](assets/action-response8.png)
 
 >[!NOTE]
 >
->호출은 주어진 여정에서 프로필당 한 번만 수행됩니다. 여러 메시지가 새 호출을 트리거하지 않습니다.
+>호출은 주어진 여정에서 프로필당 한 번만 수행됩니다. 동일한 프로필에 대한 여러 메시지가 새 호출을 트리거하지 않습니다.
+
+메시지 개인화에 대한 자세한 내용은 [이 섹션](../personalization/personalize.md).
 
 ## 표현식 구문
 
@@ -175,4 +179,4 @@ API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 
 @action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
 ```
 
-
+필드 참조에 대한 자세한 내용은 [이 섹션](../building-journeys/expression/field-references.md).
