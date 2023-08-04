@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 hide: true
 hidefromtoc: true
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 9%
 
 ---
 
-# 사용자 지정 작업 개선 사항 {#configure-an-action}
+# 사용자 지정 작업 개선 사항
 
 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
 
 이 기능은 데이터 소스를 사용할 때만 사용할 수 있습니다. 이제 사용자 지정 작업에 사용할 수 있습니다.
 
-> [!AVAILABILITY]
+>[!AVAILABILITY]
 >
-> 이 기능은 현재 개인 베타로 사용할 수 있습니다.
+>이 기능은 현재 개인 베타로 사용할 수 있습니다.
 
 ## 사용자 지정 작업 정의
 
 사용자 지정 작업을 정의할 때 GET 메서드 및 새 페이로드 응답 필드의 추가와 같이 두 가지 향상된 기능을 사용할 수 있습니다. 다른 옵션과 매개 변수는 변경되지 않습니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
 
-### 끝점 구성 {#url-configuration}
+### 끝점 구성
 
 다음 **URL 구성** 섹션의 이름이 변경되었습니다. **끝점 구성**.
 
@@ -40,16 +40,16 @@ ht-degree: 9%
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### 페이로드 {#url-configuration}
+### 페이로드
 
 다음 **작업 매개 변수** 섹션의 이름이 변경되었습니다. **페이로드**. 두 가지 필드를 사용할 수 있습니다.
 
 * 다음 **요청** 필드: 이 필드는 POST 및 PUT 호출 메서드에만 사용할 수 있습니다.
 * 다음 **응답** 필드: 새로운 기능입니다. 이 필드는 모든 호출 메서드에 사용할 수 있습니다.
 
-> [!NOTE]
+>[!NOTE]
 > 
-> 이 두 필드는 모두 선택 사항입니다.
+>이 두 필드는 모두 선택 사항입니다.
 
 ![](assets/action-response2.png){width="70%" align="left"}
 
@@ -131,9 +131,9 @@ API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 
 
 ![](assets/action-response7.png){width="70%" align="left"}
 
-> [!WARNING]
+>[!WARNING]
 >
-> 새로 만든 사용자 지정 작업에만 이 필드가 기본적으로 포함됩니다. 기존 사용자 지정 작업에 사용하려면 작업을 업데이트해야 합니다. 예를 들어 설명을 업데이트하고 저장할 수 있습니다.
+>새로 만든 사용자 지정 작업에만 이 필드가 기본적으로 포함됩니다. 기존 사용자 지정 작업에 사용하려면 작업을 업데이트해야 합니다. 예를 들어 설명을 업데이트하고 저장할 수 있습니다.
 
 다음은 이 필드에 사용할 수 있는 값입니다.
 
@@ -148,9 +148,9 @@ API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 
 
 ![](assets/action-response8.png){width="70%" align="left"}
 
-> [!NOTE]
+>[!NOTE]
 >
-> 호출은 주어진 여정에서 프로필당 한 번만 수행됩니다. 여러 메시지가 새 호출을 트리거하지 않습니다.
+>호출은 주어진 여정에서 프로필당 한 번만 수행됩니다. 여러 메시지가 새 호출을 트리거하지 않습니다.
 
 ## 표현식 구문
 
