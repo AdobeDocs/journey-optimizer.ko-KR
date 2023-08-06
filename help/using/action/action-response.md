@@ -11,9 +11,9 @@ badge: label="Beta" type="Informative"
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 hide: true
 hidefromtoc: true
-source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
+source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '665'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 4%
 >[!AVAILABILITY]
 >
 >이 기능은 현재 개인 베타로 사용할 수 있습니다.
+
+>[!WARNING]
+>
+>사용자 지정 작업은 전용 또는 내부 끝점에서만 사용해야 하며 적절한 제한 또는 제한 제한과 함께 사용해야 합니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
 
 ## 사용자 지정 작업 정의
 
@@ -57,104 +61,80 @@ ht-degree: 4%
 
    ![](assets/action-response3.png){width="80%" align="left"}
 
-1. 호출에서 반환된 페이로드의 예제를 붙여넣습니다. 필드 유형(문자열, 정수 등)이 올바른지 확인합니다.
+1. 호출에서 반환된 페이로드의 예제를 붙여넣습니다. 필드 유형(문자열, 정수 등)이 올바른지 확인합니다. 다음은 호출 동안 캡처된 응답 페이로드의 예입니다. 로컬 엔드포인트는 충성도 포인트 수 및 프로필 상태를 전송합니다.
+
+   ```
+   {
+   "customerID" : "xY12hye",    
+   "status":"gold",
+   "points": 1290 }
+   ```
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
+   API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다.
+
+1. customerID를 쿼리 매개 변수로도 추가하겠습니다.
+
+   ![](assets/action-response9.png){width="80%" align="left"}
+
 1. **저장**&#x200B;을 클릭합니다.
-
-API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 을(를) 클릭할 수 있습니다 **새 페이로드 붙여넣기** 현재 전달된 페이로드를 변경하려는 경우.
-
-다음은 날씨 API 서비스 호출 동안 캡처된 응답 페이로드의 예입니다.
-
-```
-{
-    "coord": {
-        "lon": 2.3488,
-        "lat": 48.8534
-    },
-    "weather": [
-        {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
-        }
-    ],
-    "base": "stations",
-    "main": {
-        "temp": 29.78,
-        "feels_like": 29.78,
-        "temp_min": 29.92,
-        "temp_max": 30.43,
-        "pressure": 1016,
-        "humidity": 31
-    },
-    "visibility": 10000,
-    "wind": {
-        "speed": 5.66,
-        "deg": 70
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1686066467,
-    "sys": {
-        "type": 1,
-        "id": 6550,
-        "country": "FR",
-        "sunrise": 1686023350,
-        "sunset": 1686080973
-    },
-    "timezone": 7200,
-    "id": 2988507,
-    "name": "Paris",
-    "cod": 200
-}
-```
 
 ## 여정에서 응답 활용
 
 여정에 사용자 지정 작업을 추가하기만 하면 됩니다. 그런 다음 조건, 기타 작업 및 메시지 개인화의 응답 페이로드 필드를 활용할 수 있습니다.
 
-### 조건 및 작업
-
-예를 들어 풍속을 확인하는 조건을 추가할 수 있다. 서핑 숍에 들어갈 때 날씨가 너무 바람이 많이 불면 푸시를 보낼 수 있습니다.
+예를 들어 충성도 포인트의 수를 확인하는 조건을 추가할 수 있습니다. 사용자가 레스토랑에 들어오면 로컬 종단점이 프로필의 충성도 정보와 함께 호출을 보냅니다. 프로필이 Gold 고객인 경우 푸시를 보낼 수 있습니다. 또한 호출에서 오류가 감지되면 시스템 관리자에게 알리는 사용자 지정 작업을 보내십시오.
 
 ![](assets/action-response5.png)
 
-조건에서 고급 편집기를 사용하여 아래 작업 응답 필드를 활용해야 합니다 **컨텍스트** 노드.
+1. 이전에 만든 이벤트와 충성도 사용자 지정 작업을 추가합니다.
 
-![](assets/action-response6.png)
+1. 충성도 사용자 지정 작업에서 고객 ID 쿼리 매개 변수를 프로필 ID에 매핑합니다. 옵션을 선택합니다. **시간 초과 또는 오류 발생 시 대체 경로 추가**.
 
-다음을 활용할 수도 있습니다. **jo_status** 오류 발생 시 새 경로를 만드는 코드.
+   ![](assets/action-response10.png)
 
-![](assets/action-response7.png)
+1. 첫 번째 분기에서 조건을 추가하고 고급 편집기를 사용하여 아래의 작업 응답 필드를 활용합니다. **컨텍스트** 노드.
 
->[!WARNING]
->
->새로 만든 사용자 지정 작업에만 이 필드가 기본적으로 포함됩니다. 기존 사용자 지정 작업에 사용하려면 작업을 업데이트해야 합니다. 예를 들어 설명을 업데이트하고 저장할 수 있습니다.
+   ![](assets/action-response6.png)
+
+1. 그런 다음 푸시를 추가하고 응답 필드를 사용하여 메시지를 개인화합니다. 이 예제에서는 충성도 포인트 수와 고객 상태를 사용하여 콘텐츠를 개인화합니다. 작업 응답 필드는 다음에서 사용할 수 있습니다. **컨텍스트 속성** > **Journey Orchestration** > **작업**.
+
+   ![](assets/action-response8.png)
+
+   >[!NOTE]
+   >
+   >사용자 지정 작업을 입력하는 각 프로필은 호출을 트리거합니다. 응답이 항상 동일하더라도 여정은 프로필당 한 번의 호출을 수행합니다.
+
+1. 시간 제한 및 오류 분기에 조건을 추가하고 기본 제공 기능을 활용합니다 **jo_status_code** 필드. 이 예제에서는
+   **http_400** 오류 유형. [이 섹션](#error-status)을 참조하십시오.
+
+   ```
+   @action{ActionLoyalty.jo_status_code} == "http_400"
+   ```
+
+   ![](assets/action-response7.png)
+
+1. 조직에 전송할 사용자 지정 작업을 추가합니다.
+
+   ![](assets/action-response11.png)
+
+## 오류 상태{#error-status}
+
+다음 **jo_status_code** 응답 페이로드가 정의되지 않은 경우에도 필드는 항상 사용할 수 있습니다.
 
 다음은 이 필드에 사용할 수 있는 값입니다.
 
-* http 상태 코드: 예 **http_200** 또는 **http_400**
+* http 상태 코드: http_`<HTTP API call returned code>`예: http_200 또는 http_400
 * 시간 초과 오류: **시간 초과**
 * 최대 가용량 오류: **제한됨**
 * 내부 오류: **internalError**
 
-여정 활동에 대한 자세한 내용은 [이 섹션](../building-journeys/about-journey-activities.md).
+반환된 http 코드가 2xx보다 크거나 오류가 발생하면 작업 호출이 오류로 간주됩니다. 이러한 경우 여정은 전용 시간 초과 또는 오류 분기로 이동합니다.
 
-### 메시지 개인화
-
-응답 필드를 사용하여 메시지를 개인화할 수 있습니다. 이 예제에서 푸시 알림은 속도 값을 사용하여 콘텐츠를 개인화합니다.
-
-![](assets/action-response8.png)
-
->[!NOTE]
+>[!WARNING]
 >
->호출은 주어진 여정에서 프로필당 한 번만 수행됩니다. 동일한 프로필에 대한 여러 메시지가 새 호출을 트리거하지 않습니다.
-
-메시지 개인화에 대한 자세한 내용은 [이 섹션](../personalization/personalize.md).
+>새로 생성된 사용자 지정 작업에만 다음이 포함됩니다. **jo_status_code** 기본 제공 필드. 기존 사용자 지정 작업에 사용하려면 작업을 업데이트해야 합니다. 예를 들어 설명을 업데이트하고 저장할 수 있습니다.
 
 ## 표현식 구문
 
