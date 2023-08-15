@@ -5,7 +5,7 @@ title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 **관리**
 
 * 하위 도메인, 방문 페이지 하위 도메인, PTR 레코드 및 IP 풀 구성은 모든 샌드박스에 공통적이므로 이러한 구성 중 하나를 수정하면 프로덕션 샌드박스에도 영향을 미친다는 경고 메시지가 사용자 인터페이스에 추가되었습니다.
-* 사용자 인터페이스에서 제외 목록을 CSV 파일로 업로드하는 단계가 수정되었습니다. [자세히 알아보기](../configuration/manage-suppression-list.md#download-suppression-list)
+* 사용자 인터페이스에서 금지 목록을 CSV 파일로 업로드하는 단계가 수정되었습니다. [자세히 알아보기](../configuration/manage-suppression-list.md#download-suppression-list)
 
 **캠페인**
 
@@ -212,7 +212,7 @@ ht-degree: 100%
 **관리**
 
 * 허용 목록을 활성화하거나 비활성화할 때 이제 각 작업의 영향을 자세히 설명하는 새로운 경고가 표시됩니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
-* 채널 표면 생성, IP 풀 생성, 제외 목록 및 허용 목록 관리 및 SMS 채널 구성을 위한 사용자 인터페이스가 업데이트되었습니다.
+* 채널 표면 생성, IP 풀 생성, 금지 목록 및 허용 목록 관리 및 SMS 채널 구성을 위한 사용자 인터페이스가 업데이트되었습니다.
 * 이제 주어진 하위 도메인에 대한 첫 번째 채널 표면을 생성할 때 처리 시간은 10분에서 10일정도 소요되며, 해당 하위 도메인을 사용하는 후속 표면에 대해 최대 3시간만 소요됩니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
 * 랜딩 페이지 사전 설정 및 랜딩 페이지 하위 도메인을 만들기 위한 사용자 인터페이스가 업데이트되었습니다. [자세히 보기](../landing-pages/lp-subdomains.md)
 
@@ -620,7 +620,7 @@ ht-degree: 100%
 
 **관리**
 
-* **라이선스 사용 대시보드 업데이트** - 이제 사용자 인터페이스에서 [!DNL Adobe Journey Optimizer]사용할 수 있는 라이선스 사용 대시보드가 **라이선스** 평균 프로필 풍부성의 정확한 값을 반영합니다. 이 지표 표시에 감소가 표시되는데, 이것은 이제 라이선스 제한이 올바로 보고됨을 의미합니다. [자세히 보기](../audience/license-usage.md)
+* **라이선스 사용 대시보드 업데이트** - 이제 사용자 인터페이스에서 [!DNL Adobe Journey Optimizer]사용할 수 있는 라이선스 사용 대시보드가 **라이선스** 평균 프로필 풍부도의 정확한 값을 반영합니다. 이 지표 표시에 감소가 표시되는데, 이것은 이제 라이선스 제한이 올바로 보고됨을 의미합니다. [자세히 보기](../audience/license-usage.md)
 
 
 ## 2022년 4월 릴리스 {#april-2022-release}
