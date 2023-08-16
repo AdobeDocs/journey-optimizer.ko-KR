@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 2a443c1b264dd8c9a2a2f5082d4c2ac373cdddfa
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 27%
+source-wordcount: '1783'
+ht-degree: 24%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 27%
 >[!CAUTION]
 >
 >랜딩 페이지를 테스트하고 게시하려면 다음을 수행해야 합니다. **[!UICONTROL 메시지 게시]** 권한.
+
+고객이 특정 링크를 클릭할 때 표시할 정의된 웹 페이지로 안내하려면 [!DNL Journey Optimizer], 기본 페이지 및 하위 페이지를 구성하고 테스트한 다음 게시합니다.
+
+>[!CAUTION]
+>
+>다음의 경우에 정의된 URL을 웹 브라우저에 복사하여 붙여넣으면 랜딩 페이지에 액세스할 수 없습니다. [페이지 만들기](#create-landing-page), 게시된 경우에도 대신 에 설명된 대로 미리보기 기능을 사용하여 테스트할 수 있습니다 [이 섹션](#test-landing-page).
 
 ## 랜딩 페이지 액세스 {#access-landing-pages}
 
@@ -95,6 +101,10 @@ ht-degree: 27%
 
 을(를) 구성하고 설계하면 [기본 페이지](#configure-primary-page)및 [하위 페이지](#configure-subpages) 필요한 경우 다음을 수행할 수 있습니다 [테스트](#test-landing-page) 및 [게시](#publish-landing-page) 랜딩 페이지입니다.
 
+>[!CAUTION]
+>
+>게시된 경우에도 정의된 URL을 웹 브라우저에 복사하여 붙여넣으면 랜딩 페이지에 액세스할 수 없습니다. 대신 에 설명된 대로 미리보기 기능을 사용하여 테스트할 수 있습니다 [이 섹션](#test-landing-page).
+
 ## 기본 페이지 구성 {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
@@ -125,12 +135,10 @@ ht-degree: 27%
    >[!CAUTION]
    >
    >랜딩 페이지 URL은 고유해야 합니다.
-
-   ![](assets/lp_access-url.png)
-
-   >[!NOTE]
    >
    >이 URL을 게시한 경우에도 웹 브라우저에 복사하여 붙여넣으면 랜딩 페이지에 액세스할 수 없습니다. 대신 에 설명된 대로 미리보기 기능을 사용하여 테스트할 수 있습니다 [이 섹션](#test-landing-page).
+
+   ![](assets/lp_access-url.png)
 
 1. 랜딩 페이지에서 이미 사용 가능한 양식 데이터를 미리 로드하려면 **[!UICONTROL 프로필 정보로 양식 필드 미리 채우기]**.
 
@@ -196,6 +204,8 @@ ht-degree: 27%
    >[!CAUTION]
    >
    >랜딩 페이지 URL은 고유해야 합니다.
+   >
+   >게시된 경우에도 이 URL을 웹 브라우저에 복사하여 붙여넣으면 하위 페이지에 액세스할 수 없습니다. 대신 에 설명된 대로 미리보기 기능을 사용하여 테스트할 수 있습니다 [이 섹션](#test-landing-page).
 
 ![](assets/lp_subpage-settings.png)
 
@@ -298,5 +308,6 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->특정 보고서를 통해 랜딩 페이지 영향을 모니터링할 수 있습니다. [자세히 알아보기](../reports/lp-report-live.md)
+>다음의 경우에 정의된 URL을 웹 브라우저에 복사하여 붙여넣으면 랜딩 페이지에 액세스할 수 없습니다. [페이지 만들기](#create-landing-page), 게시된 경우에도 대신 에 설명된 대로 미리보기 기능을 사용하여 테스트할 수 있습니다 [이 섹션](#test-landing-page).
 
+특정 보고서를 통해 랜딩 페이지 영향을 모니터링할 수 있습니다. [자세히 알아보기](../reports/lp-report-live.md)
