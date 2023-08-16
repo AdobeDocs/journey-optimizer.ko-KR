@@ -6,7 +6,7 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 100%
 
@@ -178,7 +178,7 @@ ht-degree: 100%
    + 이메일 콘텐츠 디자인 {#design-email}
       + [이메일 디자인 시작](using/email/get-started-email-design.md)
       + 콘텐츠 만들기 시작 {#start-creating-content}
-         + [콘텐츠를 처음부터 디자인하기](using/email/content-from-scratch.md)
+         + [처음부터 컨텐츠 만들기](using/email/content-from-scratch.md)
          + [콘텐츠 가져오기](using/email/existing-content.md)
          + [나만의 콘텐츠 코딩](using/email/code-content.md)
          + [템플릿 작업](using/email/email-templates.md)
@@ -324,7 +324,7 @@ ht-degree: 100%
       + [쿼리 예제](using/reports/query-examples.md)
    + 전달성 {#deliverability}
       + [전달성 시작](using/reports/deliverability.md)
-      + [제외 목록 이해하기](using/reports/suppression-list.md)
+      + [금지 목록 이해하기](using/reports/suppression-list.md)
    + [경고](using/reports/alerts.md)
    + [Customer Journey Analytics 작업](using/reports/cja-ajo.md)
 + 의사 결정 관리 {#offer-decisioning}
@@ -441,7 +441,7 @@ ht-degree: 100%
       + [IP 풀 만들기](using/configuration/ip-pools.md)
    + [채널 표면 설정](using/configuration/channel-surfaces.md)
    + 이메일 주소 모니터링 {#monitor-reputation}
-      + [제외 목록](using/configuration/manage-suppression-list.md)
+      + [금지 목록](using/configuration/manage-suppression-list.md)
       + [다시 시도](using/configuration/retries.md)
       + [허용 목록](using/configuration/allow-list.md)
    + [아카이브 지원](using/configuration/archiving-support.md)
