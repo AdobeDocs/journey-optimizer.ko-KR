@@ -13,7 +13,7 @@ badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '763'
 ht-degree: 3%
 
 ---
@@ -27,19 +27,19 @@ ht-degree: 3%
 
 Adobe Journey Optimizer을 사용하면 Adobe Experience Manager 사이트를 통해 사용자 지정 메시지를 만들 수 있습니다. Adobe Experience Manager의 콘텐츠 소스를 사용하여 템플릿을 디자인한 다음 Adobe Journey Optimizer으로 전송합니다. 이렇게 공유된 템플릿은 Adobe Journey Optimizer의 이메일 디자이너에서 액세스할 수 있으므로, 원하는 대상자에게 메시지를 만들고 보내는 프로세스를 단순화할 수 있습니다.
 
-## 사전 요구 사항 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 이 기능의 사용을 시작하기 전에 다음 요구 사항에 맞는지 확인하십시오.
 
 * **Experience Manager 설정**
 
-   이 기능은 다음에서 사용할 수 있습니다. [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html){target="_blank"}.
+  이 기능은 다음에서 사용할 수 있습니다. [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=ko-KR){target="_blank"}.
 
-   Beta 프로그램의 일부로, Adobe Journey Optimizer에 연결하기 위해 Adobe Experience Manager의 Adobe에서 Cloud Service 구성을 수행합니다.
+  Beta 프로그램의 일부로, Adobe Journey Optimizer에 연결하기 위해 Adobe Experience Manager의 Adobe에서 Cloud Service 구성을 수행합니다.
 
 * **권한**
 
-   Adobe Journey Optimizer에서 컨텐츠 템플릿을 만들고, 편집하고, 삭제하려면 **[!DNL Manage Library Items]** 에 포함된 권한 **[!DNL Content Library Manager]** 제품 프로필. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+  Adobe Journey Optimizer에서 컨텐츠 템플릿을 만들고, 편집하고, 삭제하려면 **[!DNL Manage Library Items]** 에 포함된 권한 **[!DNL Content Library Manager]** 제품 프로필. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## 보호 및 제한 사항{#aem-templates-limitations}
 

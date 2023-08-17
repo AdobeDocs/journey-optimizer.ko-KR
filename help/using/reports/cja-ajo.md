@@ -49,13 +49,13 @@ ht-degree: 11%
 
 * **모두 [!DNL Journey Optimizer] 및 [!DNL Customer Journey Analytics] 보고를 위해 ADLS(Azure Data Lake Storage)의 데이터를 동기화합니다.**
 
-   수신 데이터 처리 시간은 제품마다 약간 다를 수 있습니다. 이로 인해 주어진 날짜부터 현재 날짜까지의 보고서를 표시할 때 데이터가 일치하지 않을 수 있습니다. 불일치를 줄이려면 현재 날짜를 제외한 날짜 범위를 사용하십시오.
+  수신 데이터 처리 시간은 제품마다 약간 다를 수 있습니다. 이로 인해 주어진 날짜부터 현재 날짜까지의 보고서를 표시할 때 데이터가 일치하지 않을 수 있습니다. 불일치를 줄이려면 현재 날짜를 제외한 날짜 범위를 사용하십시오.
 
 * **위치 [!DNL Journey Optimizer] 보고서, 전송된 지표에는 다시 시도 지표도 포함됩니다.**
 
-   **[!UICONTROL 다시 시도]** 이(가)에 포함되지 않음 **[!UICONTROL 전송됨]** 지표 [!DNL Customer Journey Analytics]. 이로 인해 다음이 발생합니다. [!DNL Customer Journey Analytics] **[!UICONTROL 전송됨]** 낮은 값을 표시하는 지표 [!DNL Journey Optimizer]. 하지만 재시도 데이터는 **[!UICONTROL 정상적으로 전송된 메시지]** 또는 **[!UICONTROL 바운스]** 지표.
+  **[!UICONTROL 다시 시도]** 이(가)에 포함되지 않음 **[!UICONTROL 전송됨]** 지표 [!DNL Customer Journey Analytics]. 이로 인해 다음이 발생합니다. [!DNL Customer Journey Analytics] **[!UICONTROL 전송됨]** 낮은 값을 표시하는 지표 [!DNL Journey Optimizer]. 하지만 재시도 데이터는 **[!UICONTROL 정상적으로 전송된 메시지]** 또는 **[!UICONTROL 바운스]** 지표.
 불일치를 줄이려면 일주일 전 또는 그 이후의 날짜 범위를 사용하십시오.
 
 * **보고서가 다른 데이터 소스에서 제공되고 있습니다.**
 
-   이로 인해 제품 간에 1~2%의 데이터 불일치가 발생할 수 있습니다.
+  이로 인해 제품 간에 1~2%의 데이터 불일치가 발생할 수 있습니다.

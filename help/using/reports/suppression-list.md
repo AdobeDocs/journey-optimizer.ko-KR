@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 제외 목록
+title: 금지 목록
 description: 제외 목록 사용 방법 알아보기
 feature: Deliverability
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 8%
 
 ---
 
-# 제외 목록 {#suppression-list}
+# 금지 목록 {#suppression-list}
 
 제외 목록은 게재에서 제외하려는 주소 및 도메인으로 구성됩니다. 이러한 연락처로 보내면 전송 평판과 게재 속도가 떨어질 수 있기 때문입니다.
 

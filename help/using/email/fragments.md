@@ -72,7 +72,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->조각을 편집하면 해당 조각을 포함하는 모든 이메일 또는 템플릿에 변경 사항이 자동으로 전파됩니다. 단, 에서 사용되는 이메일은 예외입니다. **[!UICONTROL 라이브]** 여정 또는 캠페인. 원본 조각에서 상속을 중단할 수도 있습니다. [자세히 알아보기](#break-inheritance)
+>조각을 편집하면 해당 조각을 포함하는 모든 이메일 또는 템플릿에 변경 사항이 자동으로 전파됩니다. 단, 다음에서 사용되는 이메일은 예외입니다. **[!UICONTROL 라이브]** 여정 또는 캠페인. 원본 조각에서 상속을 중단할 수도 있습니다. [자세히 알아보기](#break-inheritance)
 
 <!--Changes made to a fragment are not propagated to live journeys or campaigns where it is used.-->
 

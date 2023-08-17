@@ -19,7 +19,7 @@ ht-degree: 4%
 
 다음을 사용할 때 테스트 프로필이 필요합니다. [테스트 모드](../building-journeys/testing-the-journey.md) 여정에서 및 [콘텐츠 미리보기 및 테스트](../email/preview.md).
 
-테스트 프로필을 만드는 방법에는 몇 가지가 있습니다. 이 페이지에서 자세한 내용을 찾아 다음을 수행할 수 있습니다.
+테스트 프로필을 만드는 방법에는 몇 가지가 있습니다. 이 페이지에서 자세한 내용을 찾아 다음과 같은 작업을 수행할 수 있습니다.
 
 * 전환 [기존 프로필](#turning-profile-into-test) 테스트 프로필에
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ➡️ [이 비디오에서는 테스트 프로필을 만드는 방법을 알아봅니다](#video)
 
-## 사전 요구 사항 {#test-profile-prerequisites}
+## 전제 조건 {#test-profile-prerequisites}
 
 프로필을 만들 수 있으려면 먼저 Adobe에 스키마와 데이터 세트를 만들어야 합니다 [!DNL Journey Optimizer].
 

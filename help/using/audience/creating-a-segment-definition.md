@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 11%
 
    ![](assets/create-segment.png)
 
-   세그먼트 정의 화면에서는 대상자를 정의하는 데 필요한 모든 필드를 구성할 수 있습니다. 에서 대상을 구성하는 방법을 알아봅니다. [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
+   세그먼트 정의 화면에서는 대상자를 정의하는 데 필요한 모든 필드를 구성할 수 있습니다. 에서 대상을 구성하는 방법을 알아봅니다. [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko){target="_blank"}.
 
    ![](assets/segment-builder.png)
 

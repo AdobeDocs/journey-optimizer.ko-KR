@@ -31,12 +31,13 @@ Adobe Analytics에서 사용하려면 다음을 수행해야 합니다.
 >이 섹션은 Adobe Analytics 또는 웹 SDK 데이터를 사용해야 하는 규칙 기반 이벤트 및 고객에게만 적용됩니다.
 > 
 >Adobe Customer Journey Analytics을 사용하는 경우 다음을 참조하십시오. [이 페이지](../reports/cja-ajo.md).
+>
 
 ## Adobe Analytics 또는 웹 SDK 데이터 구성 {#leverage-analytics-data}
 
 Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 가져온 데이터를 여정에서 사용하려면 활성화해야 합니다.
 
-이렇게 하려면 아래 단계를 수행합니다:
+이렇게 하려면 아래 단계를 수행합니다.
 
 1. 다음으로 이동 **[!UICONTROL 소스]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
@@ -60,7 +61,7 @@ Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 가져온 데이�
 
 ![](assets/ajo-aa_4.png)
 
-에서 Adobe Analytics 소스 커넥터에 대해 자세히 알아보기  [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
+에서 Adobe Analytics 소스 커넥터에 대해 자세히 알아보기  [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## 이 구성 활성화 {#activate-analytics-data}
 
@@ -105,7 +106,7 @@ Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 가져온 데이�
    * **[!UICONTROL 필드]**: 페이로드 필드를 선택합니다. [자세히 알아보기](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL 이벤트 ID 조건]**: 여정을 트리거할 이벤트를 식별하는 조건을 정의합니다.
 
-      여기서 이벤트는 고객이 장바구니에 품목을 추가할 때 트리거됩니다.
+     여기서 이벤트는 고객이 장바구니에 품목을 추가할 때 트리거됩니다.
    * **[!UICONTROL 프로필 식별자]**: 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 식별합니다.
 
    ![](assets/ajo-aa_6.png)

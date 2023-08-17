@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
      에서 의사 결정 규칙을 만드는 방법을 알아봅니다. [이 섹션](../offer-library/creating-decision-rules.md).
 
-1. 대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
+1. 대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
 
    >[!NOTE]
    >
@@ -222,7 +222,7 @@ ht-degree: 1%
 
 +++
 
-+++ **예제 3**
++++ **예 3**
 
 이 예에서 오퍼 1과 오퍼 3은 빈도 상한 제한에 도달했습니다. [빈도 설정에 대해 자세히 알아보기](../offer-library/add-constraints.md#capping)
 
@@ -263,7 +263,7 @@ ht-degree: 1%
 
 +++
 
-+++ **예제 3**
++++ **예 3**
 
 이 예에서 오퍼 1과 오퍼 3은 빈도 상한 제한에 도달했습니다. [빈도 설정에 대해 자세히 알아보기](../offer-library/add-constraints.md#capping)
 

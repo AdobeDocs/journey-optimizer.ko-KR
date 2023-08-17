@@ -46,11 +46,11 @@ Android 버전에서는 이미지 아이콘과 확장된 알림에 대한 이미
 
 ![](assets/push-config-add-media.png)
 
-두 가지 옵션을 사용할 수 있습니다. 다음을 수행할 수 있습니다.
+두 가지 옵션을 사용할 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
 
 * 사용 **[!UICONTROL 미디어 추가]** 에서 에셋을 선택하는 버튼 **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-   사용 방법 알아보기 **[!DNL Adobe Experience Manager Assets Essentials]** 위치: [이 페이지](../email/assets-essentials.md).
+  사용 방법 알아보기 **[!DNL Adobe Experience Manager Assets Essentials]** 위치: [이 페이지](../email/assets-essentials.md).
 
 * 또는 미디어 URL을 **[!UICONTROL 미디어 추가]** 필드. 이 경우 URL에 개인화를 추가할 수 있습니다.
 
@@ -87,7 +87,7 @@ iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android
 
 사용 **[!UICONTROL 사용자 정의 데이터]** 섹션에 키-값 쌍을 추가합니다.
 
-## 사용자 지정 데이터
+## 사용자 정의 데이터
 
 다음에서 **[!UICONTROL 사용자 정의 데이터]** 섹션에서 모바일 애플리케이션 구성에 따라 페이로드에 사용자 지정 변수를 추가할 수 있습니다. Adobe Experience Platform 및 Launch Adobe에서 푸시 알림을 설정하는 방법에 대한 자세한 내용은 을 참조하십시오. [이 섹션](push-gs.md)
 

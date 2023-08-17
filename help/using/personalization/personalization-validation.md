@@ -24,11 +24,13 @@ ht-degree: 1%
 
 >[!NOTE]
 > 유효성 검사는 다음을 클릭하면 자동으로 실행됩니다. **추가** 단추를 클릭하여 편집기 창을 닫습니다.
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > 개인화 구문이 유효하지 않은 경우 표현식 편집기 창을 닫을 수 없습니다.
+>
 
 ## 일반적인 오류 {#common-errors}
 

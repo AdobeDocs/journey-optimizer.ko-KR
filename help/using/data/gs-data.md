@@ -67,7 +67,7 @@ ht-degree: 1%
 
 * **데이터 추출/내보내기**: 데이터 액세스 API를 통해 언제든지 위약금이나 시간 지연 없이 소스 데이터 추출을 시작할 수 있습니다. 다음 [데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} 는 내에서 수집된 데이터 세트의 검색 가능성과 액세스 가능성에 중점을 둔 RESTful 인터페이스를 사용자에게 제공합니다 [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
-   여정 또는 캠페인에 사용된 콘텐츠는 위에 언급된 API 또는 대상 메서드를 통해 추출할 수 없습니다.
+  여정 또는 캠페인에 사용된 콘텐츠는 위에 언급된 API 또는 대상 메서드를 통해 추출할 수 없습니다.
 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 30 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 * **제거 및 아카이빙 메커니즘**: 데이터 삭제 및 아카이브 작업을 자유롭게 정의하고 자동화할 수 있습니다. [!DNL Adobe Journey Optimizer] 데이터 보존 정책을 자동화합니다. 서로 다른 데이터 엔티티에 대해 서로 다른 에이징 전략을 정의할 수 있습니다. 오래된 데이터를 삭제하거나 보관하기 전에 자동으로 내보내도록 내보내기 메커니즘을 정의할 수도 있습니다.
 
-   데이터 위생 작업 영역을 사용하면 소비자 ID 삭제 및 데이터 세트 만료 일정 예약 등 다양한 데이터 위생 작업을 만들고 모니터링할 수 있습니다. 이 작업 영역은 Security &amp; Privacy Shield 및 Healthcare Shield에서 사용 가능합니다. [이 페이지](../privacy/data-hygiene.md)에서 자세히 알아보십시오.
+  데이터 위생 작업 영역을 사용하면 소비자 ID 삭제 및 데이터 세트 만료 일정 예약 등 다양한 데이터 위생 작업을 만들고 모니터링할 수 있습니다. 이 작업 영역은 Security &amp; Privacy Shield 및 Healthcare Shield에서 사용 가능합니다. [이 페이지](../privacy/data-hygiene.md)에서 자세히 알아보십시오.
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

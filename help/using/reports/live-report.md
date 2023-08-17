@@ -22,15 +22,15 @@ ht-degree: 4%
 
 * 여정의 컨텍스트에서 여정을 타겟팅하려면 **[!UICONTROL 여정]** 메뉴에서 여정에 액세스하고 **[!UICONTROL 보고서 보기]** 단추를 클릭합니다.
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
 * 캠페인을 타깃팅하려면 **[!UICONTROL 캠페인]** 메뉴에서 캠페인에 액세스하고 **[!UICONTROL 보고서]** 단추를 클릭합니다.
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * 에서 전환하려면 다음을 수행하십시오. **[!UICONTROL 글로벌 보고서]** (으)로 **[!UICONTROL 라이브 보고서]** 게재를 위해 **[!UICONTROL 지난 24시간]** ( 탭 전환기에서)
 
-   ![](assets/report_3.png)
+  ![](assets/report_3.png)
 
 Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 을 참조하십시오. [이 페이지](#list-of-components-live).
 

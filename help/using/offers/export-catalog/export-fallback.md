@@ -61,7 +61,7 @@ ht-degree: 3%
 
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-+++ _experience > 의사 결정 > 콘텐츠
++++ _experience > 의사 결정 > 컨텐츠
 
 **필드:** 목차
 **제목:** 콘텐츠 세부 사항
@@ -79,84 +79,84 @@ ht-degree: 3%
 
 * **_experience > 의사 결정 > 컨텐츠 > 구성 요소 > 컨텐츠 구성 요소 유형**
 
-   **필드:** 유형(_t)
-   **제목:** 콘텐츠 구성 요소 유형
-   **설명:** 각 값이 콘텐츠 구성 요소에 지정된 유형에 매핑되는 열거형 URI 세트입니다. 콘텐츠 표현의 일부 소비자는 @type 값이 콘텐츠 구성 요소의 추가 속성을 설명하는 스키마에 대한 참조가 될 것으로 예상합니다.
-   **유형:** 문자열
+  **필드:** 유형(_t)
+  **제목:** 콘텐츠 구성 요소 유형
+  **설명:** 각 값이 콘텐츠 구성 요소에 지정된 유형에 매핑되는 열거형 URI 세트입니다. 콘텐츠 표현의 일부 소비자는 @type 값이 콘텐츠 구성 요소의 추가 속성을 설명하는 스키마에 대한 참조가 될 것으로 예상합니다.
+  **유형:** 문자열
 
 * **_experience > 의사 결정 > 콘텐츠 > 구성 요소 > _dc**
 
-   **필드:** _dc
-   **유형:** 오브젝트
-   **필수 여부:** &quot;format&quot;
+  **필드:** _dc
+  **유형:** 오브젝트
+  **필수 여부:** &quot;format&quot;
 
    * **형식**
 
-      **필드:** 형식
-      **제목:** 형식
-      **설명:** 리소스의 물리적 또는 디지털 표현입니다. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 포맷을 사용하여 리소스를 표시하거나 운영하는 데 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정할 수 있습니다. 권장 모범 사례는 통제 어휘(예: 목록)에서 값을 선택하는 것입니다. [인터넷 미디어 유형](컴퓨터 미디어 형식을 정의하는 https://www.iana.org/ assignments/media-types/).
-      **유형:** 문자열
-      **예:** &quot;application/vnd.adobe.photoshop&quot;
+     **필드:** 형식
+     **제목:** 형식
+     **설명:** 리소스의 물리적 또는 디지털 표현입니다. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 포맷을 사용하여 리소스를 표시하거나 운영하는 데 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정할 수 있습니다. 권장 모범 사례는 통제 어휘(예: 목록)에서 값을 선택하는 것입니다. [인터넷 미디어 유형](컴퓨터 미디어 형식을 정의하는 https://www.iana.org/ assignments/media-types/).
+     **유형:** 문자열
+     **예:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **언어**
 
-      **필드:** 언어
-      **제목:** 언어
-      **설명:** 리소스의 언어입니다. \n언어는 다음에 정의된 대로 언어 코드에 지정됩니다. [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt): XDM의 다른 곳에서 사용되는 BCP 47의 일부입니다.
-      **유형:** 배열
-      **예:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+     **필드:** 언어
+     **제목:** 언어
+     **설명:** 리소스의 언어입니다. \n언어는 다음에 정의된 대로 언어 코드에 지정됩니다. [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt): XDM의 다른 곳에서 사용되는 BCP 47의 일부입니다.
+     **유형:** 배열
+     **예:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > 의사 결정 > 콘텐츠 > 구성 요소 > _repo**
 
-   **필드:** _repo
-   **유형:** 오브젝트
+  **필드:** _repo
+  **유형:** 오브젝트
 
    * **ID**
 
-      **필드:** id
-      **설명:** 콘텐츠 저장소의 에셋을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을 사용하여 에셋을 검색할 수 있습니다.
-      **유형:** 문자열
-      **예:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+     **필드:** id
+     **설명:** 콘텐츠 저장소의 에셋을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을 사용하여 에셋을 검색할 수 있습니다.
+     **유형:** 문자열
+     **예:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **이름**
 
-      **필드:** 이름
-      **설명:** \&quot;repo:id\&quot;로 외부 에셋을 저장하는 저장소를 찾을 위치에 대한 힌트입니다.
-      **유형:** 문자열
+     **필드:** 이름
+     **설명:** \&quot;repo:id\&quot;로 외부 에셋을 저장하는 저장소를 찾을 위치에 대한 힌트입니다.
+     **유형:** 문자열
 
    * **저장소 ID**
 
-      **필드:** 저장소 ID
-      **설명:** 콘텐츠 저장소의 에셋을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을 사용하여 에셋을 검색할 수 있습니다.
-      **유형:** 문자열
-      **예:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+     **필드:** 저장소 ID
+     **설명:** 콘텐츠 저장소의 에셋을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을 사용하여 에셋을 검색할 수 있습니다.
+     **유형:** 문자열
+     **예:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
-      **필드:** resolveURL
-      **설명:** 콘텐츠 저장소의 에셋을 읽을 수 있는 선택적 고유 리소스 로케이터입니다. 이렇게 하면 클라이언트가 에셋의 관리 위치와 호출할 API를 이해하지 않고도 에셋을 보다 쉽게 가져올 수 있습니다. 이는 HAL 링크와 유사하지만 의미는 더 간단하고 목적성이 강하다.
-      **유형:** 문자열
-      **예:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+     **필드:** resolveURL
+     **설명:** 콘텐츠 저장소의 에셋을 읽을 수 있는 선택적 고유 리소스 로케이터입니다. 이렇게 하면 클라이언트가 에셋의 관리 위치와 호출할 API를 이해하지 않고도 에셋을 보다 쉽게 가져올 수 있습니다. 이는 HAL 링크와 유사하지만 의미는 더 간단하고 목적성이 강하다.
+     **유형:** 문자열
+     **예:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > 의사 결정 > 컨텐츠 > 구성 요소 > 컨텐츠**
 
-   **필드:** 콘텐츠
-   **설명:** 컨텐츠를 직접 보관할 선택적 필드입니다. 에셋 저장소의 콘텐츠를 참조하는 대신 구성 요소에 간단한 콘텐츠를 직접 저장할 수 있습니다. 이 필드는 복합, 복합 및 바이너리 콘텐츠 자산에는 사용되지 않습니다.
-   **유형:** 문자열
+  **필드:** 콘텐츠
+  **설명:** 컨텐츠를 직접 보관할 선택적 필드입니다. 에셋 저장소의 콘텐츠를 참조하는 대신 구성 요소에 간단한 콘텐츠를 직접 저장할 수 있습니다. 이 필드는 복합, 복합 및 바이너리 콘텐츠 자산에는 사용되지 않습니다.
+  **유형:** 문자열
 
 * **_experience > 의사 결정 > 컨텐츠 > 구성 요소 > deliveryURL**
 
-   **필드:** deliveryURL
-   **설명:** 컨텐츠 전달 네트워크 또는 서비스 끝점에서 자산을 가져오는 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트가 공개적으로 에셋에 액세스하는 데 사용됩니다.
-   **유형:** 문자열
-   **예:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **필드:** deliveryURL
+  **설명:** 컨텐츠 전달 네트워크 또는 서비스 끝점에서 자산을 가져오는 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트가 공개적으로 에셋에 액세스하는 데 사용됩니다.
+  **유형:** 문자열
+  **예:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > 의사 결정 > 컨텐츠 > 구성 요소 > linkURL**
 
-   **필드:** linkURL
-   **설명:** 사용자 상호 작용을 위한 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트에서 최종 사용자를에 연결하는 데 사용되며 추적할 수 있습니다.
-   **유형:** 문자열
-   **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **필드:** linkURL
+  **설명:** 사용자 상호 작용을 위한 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트에서 최종 사용자를에 연결하는 데 사용되며 추적할 수 있습니다.
+  **유형:** 문자열
+  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++
 

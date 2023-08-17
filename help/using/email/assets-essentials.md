@@ -28,7 +28,7 @@ ht-degree: 19%
 
 [!DNL Adobe Journey Optimizer]에서 왼쪽 메뉴의 **[!UICONTROL Assets]** 섹션을 통해 [!DNL Adobe Experience Manager Assets Essentials]에 바로 액세스할 수 있습니다. 다음과 같은 경우 에셋 및 폴더에 액세스할 수도 있습니다. [이메일 콘텐츠 디자인](get-started-email-design.md).
 
-## 사전 요구 사항{#assets-prerequisites}
+## 전제 조건{#assets-prerequisites}
 
 사용 전 [!DNL Adobe Experience Manager Assets Essentials]에 사용자를 추가해야 합니다. **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필. 자세한 내용 [Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"}.
 

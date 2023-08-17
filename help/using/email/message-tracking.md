@@ -63,7 +63,7 @@ ht-degree: 35%
 
    * **[!UICONTROL 외부 링크]**: 외부 URL에 대한 링크를 삽입합니다.
 
-   * **[!UICONTROL 랜딩 페이지]**: 랜딩 페이지에 링크를 삽입합니다. [자세히 알아보기 ](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL 랜딩 페이지]**: 랜딩 페이지에 링크를 삽입합니다. [자세히 알아보기](../landing-pages/get-started-lp.md)
 
    * **[!UICONTROL 한 번의 클릭으로 옵트아웃]**: 사용자가 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있도록 링크를 삽입합니다. [자세히 알아보기](email-opt-out.md#one-click-opt-out).
 

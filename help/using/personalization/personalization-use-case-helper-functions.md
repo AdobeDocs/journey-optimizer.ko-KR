@@ -25,7 +25,6 @@ ht-degree: 3%
 * 다음 `upperCase` string 함수를 사용하여 고객의 이름을 대문자로 삽입합니다. [자세히 알아보기](functions/string.md#upper).
 * 다음 `each` 도우미, 장바구니에 있는 항목을 나열합니다. [자세히 알아보기](functions/helpers.md#each).
 * 다음 `if` 관련 제품이 장바구니에 있는 경우, 도우미에서 제품별 메모를 삽입합니다. [자세히 알아보기](functions/helpers.md#if-function).
-
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [이 비디오에서 도우미 함수를 사용하는 방법에 대해 알아봅니다.](#video)
@@ -168,7 +167,6 @@ ht-degree: 3%
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-
 
 1. 열기 사이에 이 코드 붙여넣기 `{{#each}}` 태그와 닫기 `{/each}}` 태그:
 

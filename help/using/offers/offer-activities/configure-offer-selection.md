@@ -38,7 +38,7 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 다음을 만들 수 �
 
 등급 수식 만들기 방법 알아보기 [이 섹션](../ranking/create-ranking-formulas.md).
 
-공식이 생성되면 의사 결정의 배치에 지정할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
+공식이 생성되면 의사 결정의 배치에 지정할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 결정을 만들거나 기존 결정을 편집합니다. [의사 결정 만들기](../offer-activities/create-offer-activities.md)를 참조하십시오.
 

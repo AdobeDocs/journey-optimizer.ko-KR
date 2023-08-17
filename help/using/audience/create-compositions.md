@@ -11,7 +11,7 @@ exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 7%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-이 설명서는 Adobe Journey Optimizer 내에서 대상 구성을 사용하여 작업하는 방법에 대한 자세한 정보를 제공합니다. Adobe Journey Optimizer을 사용하지 않는 경우 [여기를 클릭하십시오](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+이 설명서에서는 Adobe Journey Optimizer 내에서 대상자 구성을 사용하는 방법에 대해 자세한 정보를 제공합니다. Adobe Journey Optimizer를 사용하지 않는 경우 [여기를 클릭하세요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko)
 
 >[!ENDSHADEBOX]
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >다음 **[!UICONTROL 규칙 작성]** 생성 방법을 사용하면 다음을 사용하여 새 세그먼트 정의를 생성할 수 있습니다. [세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   >다음 **[!UICONTROL 규칙 작성]** 생성 방법을 사용하면 다음을 사용하여 새 세그먼트 정의를 생성할 수 있습니다. [세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko).
 
 1. 컴포지션 캔버스에는 다음과 같은 두 가지 기본 활동이 표시됩니다.
 

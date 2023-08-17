@@ -40,6 +40,7 @@ ht-degree: 0%
       * journeys.write
       * journeys.delete
       * messages.read
+
    * Adobe Experience Platform 관련:
 
       * segments.read
@@ -64,6 +65,7 @@ ht-degree: 0%
 
    * Journey Optimizer 관련:
       * journeys.read
+
    * Adobe Experience Platform 관련:
       * segments.read
       * profiles.read
@@ -84,6 +86,7 @@ ht-degree: 0%
       * 여정_actions.read
       * 여정_actions.write
       * 여정_actions.delete
+
    * Adobe Experience Platform 관련:
       * schemas.read
       * datasets.read
@@ -99,6 +102,7 @@ ht-degree: 0%
       * 여정_events.read
       * 여정_data_sources.read
       * 여정_actions.read
+
    * Adobe Experience Platform 관련:
       * schemas.read
       * datasets.read
@@ -113,6 +117,7 @@ ht-degree: 0%
    * Journey Optimizer 관련:
       * 여정_report.read
       * messages_report.read
+
    * Adobe Experience Platform 관련:
       * datasets.read
       * queries.read
@@ -154,10 +159,10 @@ ht-degree: 0%
       * campaign.read
       * campaign.write
       * campaign.delete
-
-      <!--* experiments.read
+     <!--* experiments.read
       * experiments.write
       * experiments.delete-->
+
 +++
 
 * **[!DNL Publish campaigns]** 높은 수준의 권한을 통해 사용자가 캠페인을 게시할 수 있습니다.
@@ -168,7 +173,7 @@ ht-degree: 0%
 
       * 캠페인 읽기
       * campaign-게시
-         <!--* experiments.activate-->
+        <!--* experiments.activate-->
 
 +++
 
@@ -179,9 +184,9 @@ ht-degree: 0%
    * Journey Optimizer 관련:
       * campaign.read
       * campaign-report.read
-
-      <!--* experiments.read
+     <!--* experiments.read
       * experiments_report.read-->
+
 +++
 
 ## 의사 결정 관리 리소스 {#decisions-permissions}
@@ -201,6 +206,7 @@ ht-degree: 0%
       * placements.write
       * placements.delete
       * ranking_strategy.read
+
    * Adobe Experience Platform 관련:
       * datasets.read
       * datasets.write
@@ -220,6 +226,7 @@ ht-degree: 0%
       * offers.read
       * placements.read
       * ranking_strategy.read
+
    * Adobe Experience Platform 관련:
       * schemas.read
       * segment.read
@@ -242,6 +249,7 @@ ht-degree: 0%
       * placements.Write
       * placements.Delete
       * ranking_strategy.read
+
    * Adobe Experience Platform 관련:
       * schemas.read
       * segment.read
@@ -316,6 +324,7 @@ ht-degree: 0%
       * messages_general_settings.read
       * messages_general_settings.write
       * messages_general_settings.delete
+
    * Adobe Experience Platform 관련:
       * schemas.read
 
@@ -327,6 +336,7 @@ ht-degree: 0%
 
    * Journey Optimizer 관련:
       * messages_general_settings.read
+
    * Adobe Experience Platform 관련:
       * schemas.read
 
@@ -376,6 +386,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
    * Journey Optimizer 관련:
       * suppression_list.view
+
    * Adobe Experience Platform 관련:
       * profiles.read
       * datasets.read
@@ -388,6 +399,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
    * Journey Optimizer 관련:
       * suppression_list.export
+
    * Adobe Experience Platform 관련:
       * profiles.read
       * datasets.read
@@ -427,6 +439,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * messages_presets.delete
       * subdomains_delegation.read
       * IP_pools.read
+
    * 데이터 수집별:
       * Mobile_setting.read
 
@@ -440,6 +453,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * messages_presets.read
       * subdomains_delegation.read
       * IP_pools.read
+
    * 데이터 수집별:
       * Mobile_setting.read
 
@@ -453,4 +467,5 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * sms_subdomains.read
       * sms_subdomains.write
       * sms_subdomains.delete
+
 +++

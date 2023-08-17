@@ -1,5 +1,5 @@
 ---
-title: DM 메시지 테스트 및 보내기
+title: 다이렉트 메일 메시지 테스트 및 보내기
 description: Journey Optimizer에서 DM 메시지를 테스트하고 전송하는 방법을 알아봅니다
 feature: Overview
 topic: Content Management
@@ -9,11 +9,11 @@ keyword: direct, mail, configuration, direct-mail, provider
 source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# DM 메시지 테스트 및 보내기 {#direct-mail-test-send}
+# 다이렉트 메일 메시지 테스트 및 보내기 {#direct-mail-test-send}
 
 ## 추출 파일 미리 보기 {#preview-dm}
 

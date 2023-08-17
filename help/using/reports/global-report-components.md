@@ -11,7 +11,7 @@ exl-id: a41e82db-1fa4-478d-a5a2-324d1df1f8ee
 source-git-commit: 1539e996105aa242c529acf35883d9dd4146ca7a
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 5%
  <tbody>
   <tr> 
    <td> 바운스<br/> </td> 
-   <td> 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류.<br/> </td> 
+   <td> 총 전송된 총 메시지 수와 관련하여 게재 및 자동 반환 처리 시 누적된 오류의 총계입니다.<br/> </td> 
 </tr> 
   <tr> 
    <td> 바운스 비율<br/> </td> 
@@ -119,7 +119,7 @@ ht-degree: 5%
    <td>오퍼에 대한 총 전송 수입니다.<br/> </td> 
 </tr> 
   <tr>
-   <td>열림<br/> </td> 
+   <td>열람수<br/> </td> 
    <td> 메시지가 열린 횟수입니다.<br/> </td> 
 </tr> 
   <tr> 
@@ -148,7 +148,7 @@ ht-degree: 5%
 </tr>
   <tr> 
    <td> 타깃팅됨<br/> </td> 
-   <td> 게재 분석 중 처리된 총 메시지 수입니다.<br/> </td> 
+   <td> 게재 분석 시 처리된 총 메시지 수입니다.<br/> </td> 
 </tr> 
   <tr> 
    <td> 고유 클릭 수<br/> </td> 
@@ -163,7 +163,7 @@ ht-degree: 5%
    <td>게재를 연 수신자 수.<br/> </td> 
 </tr> 
   <tr> 
-   <td> 구독 취소<br/> </td> 
+   <td> 구독 최소 건수<br/> </td> 
    <td> 구독 취소 링크의 클릭 수입니다.<br/> </td> 
 </tr> 
  </tbody> 
@@ -303,7 +303,7 @@ ht-degree: 5%
 </tr>
   <tr> 
    <td>바운스<br/> </td> 
-   <td> 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류.<br/> </td> 
+   <td> 총 전송된 총 메시지 수와 관련하여 게재 및 자동 반환 처리 시 누적된 오류의 총계입니다.<br/> </td> 
 </tr> 
   <tr> 
    <td> 바운스 비율<br/> </td> 
@@ -338,7 +338,7 @@ ht-degree: 5%
    <td> Adobe Journey Optimizer에서 제외된 프로필 수입니다.<br/> </td> 
 </tr>
   <tr> 
-   <td> 열림<br/> </td> 
+   <td> 열람수<br/> </td> 
    <td> 장치로 전달되고 사용자가 클릭하여 앱을 여는 총 푸시 알림 수입니다. 알림이 해제된 경우 푸시 열기 가 트리거되지 않는다는 점을 제외하면 푸시 클릭과 유사합니다.<br/> </td> 
 </tr> 
   <tr> 

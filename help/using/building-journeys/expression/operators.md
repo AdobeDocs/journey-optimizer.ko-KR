@@ -171,6 +171,7 @@ true 반환
 ```
 
 >[!NOTE]
+>
 대상 &lt;expression1> 및 &lt;expression2> 데이터 형식 컨트롤이 없습니다.
 
 결과는 부울입니다.

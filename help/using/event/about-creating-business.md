@@ -12,7 +12,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 13%
 * 비즈니스 이벤트가 트리거되면 대상을 15분에서 최대 1시간까지 내보내는 데 지연이 있습니다.
 * 비즈니스 이벤트를 테스트할 때 이벤트 매개 변수 및 테스트의 여정을 입력할 테스트 프로필의 식별자를 전달해야 합니다. 또한 비즈니스 이벤트 기반 프로필을 테스트할 때 단일 여정 시작만 트리거할 수 있습니다. [이 섹션](../building-journeys/testing-the-journey.md#test-business)을 참조하십시오. 테스트 모드에서는 사용 가능한 &quot;코드 보기&quot; 모드가 없습니다.
 * 새로운 비즈니스 이벤트가 도착하면 현재 여정에 있는 개인들은 어떻게 됩니까? 이는 새로운 재발이 발생할 때 개인이 여전히 반복 여정에 있을 때와 동일한 방식으로 동작합니다. 그들의 길은 끝이다. 따라서 마케터는 빈번한 비즈니스 이벤트를 예상할 경우 너무 긴 여정을 만들지 않도록 주의를 기울여야 합니다.
-* 비즈니스 이벤트는 단일 이벤트 또는 대상 자격 활동과 함께 사용할 수 없습니다.
+* 비즈니스 이벤트는 단일 이벤트 또는 대상자 자격 조건 활동과 함께 사용할 수 없습니다. 
 
 ## 여러 비즈니스 이벤트 {#multiple-business-events}
 
@@ -56,7 +56,7 @@ ht-degree: 13%
 
 **구체화된 대상자를 오버로드할 수 없도록 하는 보호 기능은 무엇입니까?**
 
-실시간 비즈니스 이벤트의 경우 지정된 여정 동안 첫 번째 이벤트 작업에서 푸시한 데이터가 1시간 기간 동안 재사용됩니다. 예약된 여정의 경우 가드레일이 없습니다. 에서 대상자에 대해 자세히 알아보기 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+실시간 비즈니스 이벤트의 경우 지정된 여정 동안 첫 번째 이벤트 작업에서 푸시한 데이터가 1시간 기간 동안 재사용됩니다. 예약된 여정의 경우 가드레일이 없습니다. 에서 대상자에 대해 자세히 알아보기 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko).
 
 ## 비즈니스 이벤트 시작 {#gs-business-events}
 

@@ -91,15 +91,15 @@ ht-degree: 6%
 
 * 다음 함수는 프로필 이름에 문자 A(대문자 또는 소문자)가 포함되어 있는지 확인합니다. 이 경우 &#39;true&#39;를 반환하고 그렇지 않으면 &#39;false&#39;를 반환합니다.
 
-   ```sql
-   {%= contains(profile.person.name.firstName, "A", false) %}
-   ```
+  ```sql
+  {%= contains(profile.person.name.firstName, "A", false) %}
+  ```
 
 * 다음 쿼리는 대소문자 구분을 통해 개인의 이메일 주소에 문자열 &quot;2010@gm&quot;이 포함되어 있는지 확인합니다.
 
-   ```sql
-   {%= contains(profile.person.emailAddress,"2010@gm") %}
-   ```
+  ```sql
+  {%= contains(profile.person.emailAddress,"2010@gm") %}
+  ```
 
 ## 다음을 포함하지 않음{#doesNotContain}
 
@@ -658,9 +658,10 @@ doesNotEndWith(person.emailAddress,".com")
 
 >[!NOTE]
 >
-> 두 번째 인수로 취한 표현식이 특수 정규 표현식인 경우 이중 백슬래시(`//`).  특수 정규 표현식 문자는 [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> 두 번째 인수로 취한 표현식이 특수 정규 표현식인 경우 이중 백슬래시(`//`).  특수 정규 표현식 문자는 [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
 > 다음에서 자세히 알아보기 [Oracle 설명서](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+>
 
 ## 오른쪽 트림 {#rightTrim}
 

@@ -77,7 +77,7 @@ BCC 이메일 주소 설정은 즉시 저장되고 표면 수준에서 처리됩
 
 * 메시지는 대상 수신자 이전에 BCC 이메일 주소로 전달될 수 있습니다. BCC 메시지는 원래 메시지에는 다음과 같은 내용이 있을 수 있지만, [반송됨](../reports/suppression-list.md#delivery-failures).
 
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+  <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
 * BCC 주소로 전송된 이메일은 전송 분석의 총 열람 및 클릭에서 간주하므로 에서 일부 계산 착오가 발생할 수 있으므로 열거나 클릭하지 마십시오. [보고서](../reports/global-report.md).
 
@@ -113,7 +113,7 @@ GDPR과 같은 규정에서는 데이터 주체가 언제든지 동의를 수정
 
 >[!NOTE]
 >
->개인 정보 관리에 대한 자세한 내용 및 의 해당 규정 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko){target="_blank"}.
+>개인 정보 관리에 대한 자세한 내용 및 의 해당 규정 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target="_blank"}.
 
 ### BCC 보고 데이터 {#bcc-reporting}
 

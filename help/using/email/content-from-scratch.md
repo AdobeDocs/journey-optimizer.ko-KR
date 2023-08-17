@@ -16,7 +16,7 @@ ht-degree: 57%
 
 ---
 
-# 콘텐츠를 처음부터 디자인하기 {#content-from-scratch}
+# 처음부터 컨텐츠 만들기 {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

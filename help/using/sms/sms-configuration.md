@@ -19,7 +19,7 @@ ht-degree: 18%
 
 SMS를 보내기 전에 인스턴스를 구성합니다. 다음을 수행해야 합니다. [공급자 설정 통합](#create-api) Journey Optimizer 및 [sms 표면 만들기](#message-preset-sms) (예: SMS 사전 설정). 이 단계는 [Adobe Journey Optimizer 시스템 관리자](../start/path/administrator.md)가 수행해야 합니다.
 
-## 사전 요구 사항{#sms-prerequisites}
+## 전제 조건{#sms-prerequisites}
 
 Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 SMS 서비스를 제공하는 Sinch, Twilio 및 Infobip과 같은 서드파티 공급자와 통합됩니다.
 

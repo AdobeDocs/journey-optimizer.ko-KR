@@ -29,11 +29,11 @@ ht-degree: 100%
 
 * **여정**&#x200B;에서 만들기: 여정에 [푸시] 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: 푸시]** 창에서 [푸시 알림]의 내용을 작성합니다.
 
-   여정을 구성하는 자세한 방법은 이 [페이지](../building-journeys/journey-gs.md)를 참조하십시오.
+  여정을 구성하는 자세한 방법은 이 [페이지](../building-journeys/journey-gs.md)를 참조하십시오.
 
 * **캠페인**&#x200B;에서 만들기: 캠페인을 만든 후 [푸시 알림]을 작업으로 선택하고 기본 설정을 정의합니다.
 
-   캠페인을 구성하는 자세한 방법은 이 [페이지](../campaigns/create-campaign.md#configure)를 참조하십시오.
+  캠페인을 구성하는 자세한 방법은 이 [페이지](../campaigns/create-campaign.md#configure)를 참조하십시오.
 
 전용 탭에서 **iOS**&#x200B;와 **Android** 운영 체제의 푸시 알림 설정을 정의합니다.
 

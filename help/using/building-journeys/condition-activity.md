@@ -46,7 +46,7 @@ ht-degree: 17%
 
 ![](assets/journey47.png)
 
-여정 디자인은 기능에 영향을 줍니다. 조건 후에 여러 개의 경로를 정의하면 첫 번째 적격 경로만 실행됩니다. 즉, 경로 우선순위를 서로 위나 아래에 배치하여 경로 우선순위를 변경할 수 있습니다.
+여정 디자인은 기능에 영향을 줍니다. 조건 후에 여러 개의 경로를 정의하면 첫 번째 적격 경로만 실행됩니다. 즉, 경로 우선순위를 서로 위나 아래에 배치하여 다르게 지정할 수 있습니다.
 
 예를 들어 첫 번째 경로의 조건인 &quot;사람은 VIP&quot;와 두 번째 경로의 조건인 &quot;사람은 남성&quot;을 예로 들어 보겠습니다. 두 조건을 모두 충족하는 사람(VIP인 남성)이 이 단계를 통과하면 첫 번째 경로가 &quot;위&quot;이기 때문에 이 사람도 두 번째 단계에 참여할 수 있는 경우에도 첫 번째 경로가 선택됩니다. 이 우선 순위를 변경하려면 활동을 다른 세로 순서로 이동하십시오.
 
@@ -61,7 +61,7 @@ ht-degree: 17%
 
 ![](assets/journey64.png)
 
-를 사용하는 경우 [Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} 대상을 만들려면 여정 조건에서 대상을 활용할 수 있습니다. 을(를) 참조하십시오 [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment).
+를 사용하는 경우 [Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"} 대상을 만들려면 여정 조건에서 대상을 활용할 수 있습니다. 을(를) 참조하십시오 [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]

@@ -5,7 +5,7 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3061'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ ht-degree: 100%
 * 대기 활동 페이지를 업데이트했습니다. [자세히 보기](../building-journeys/wait-activity.md)
 * 쿼리 예와 함께 Adobe Journey Optimizer 데이터 세트 목록을 추가했습니다. [자세히 보기](../data/datasets-query-examples.md)
 * 허용 목록 페이지가 구성 섹션으로 이동되었습니다. [자세히 보기](../configuration/allow-list.md)
-* 제외 목록 페이지가 32-126 사이의 모든 ASCII 문자가 제외 필드에 허용된다는 사실 등 일부 정보를 명확하게 하도록 업데이트되었습니다. [자세히 보기](../configuration/manage-suppression-list.md)
+* 금지 목록 페이지가 32-126 사이의 모든 ASCII 문자가 제외 필드에 허용된다는 사실 등 일부 정보를 명확하게 하도록 업데이트되었습니다. [자세히 보기](../configuration/manage-suppression-list.md)
 * 결정 관리에 대한 보호 및 정적 제한에 대한 링크가 추가되었습니다. [자세히 보기](../start/guardrails.md)
 * 이제 모든 고객이 전송 시간 최적화를 사용할 수 있습니다. 베타 표시를 제거했습니다. [자세히 보기](../building-journeys/journeys-message.md#send-time-optimization)
 * 일괄 의사 결정 API가 개인화된 오퍼 게재를 위해 사용 가능한 API 목록에 추가되었습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
@@ -254,15 +254,15 @@ ht-degree: 100%
 * 동적 URL 경로 및 동적 헤더가 있는 사용자 지정 작업을 구성하는 절차를 업데이트했습니다. [자세히 보기](../action/about-custom-action-configuration.md#url-configuration)
 * 액세스 가능성 기능 및 바로 가기에 대한 섹션을 추가했습니다. [자세히 보기](../start/user-interface.md#accessibility)
 * 대상자 평가 방법에 대한 섹션을 추가했습니다. [자세히 보기](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* 억제 목록, 허용 목록 및 이메일 글로벌/라이브 보고서 섹션에 억제됨 및 허용되지 않음 상태의 프로필이 전송된 이메일 보고서에서 제외되도록 지정하는 메모를 추가했습니다. [자세히 보기](../reports/global-report.md)
+* 금지 목록, 허용 목록 및 이메일 글로벌/라이브 보고서 섹션에 금지됨 및 허용되지 않음 상태의 프로필이 전송된 이메일 보고서에서 제외되도록 지정하는 메모를 추가했습니다. [자세히 보기](../reports/global-report.md)
 * 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../configuration/allow-list.md#reporting)
 * 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
 * 메시지 사전 설정 모니터링 섹션을 업데이트했습니다. 가능한 사전 설정 작성 실패 이유 및 이러한 오류에 대한 세부 정보를 추가했습니다. [자세히 보기](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * 이제 메시지 사전 설정에서 이메일 다시 시도 설정을 조정할 수 있다는 사실을 반영하도록 다시 시도 기간 섹션을 업데이트하고 이름을 변경했습니다. [자세히 보기](../configuration/retries.md#retry-duration)
 * 이메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../privacy/opt-out.md#one-click-opt-out-link)
 * 하위 도메인 위임 섹션을 업데이트하여 Adobe가 수행한 유효성 검사 프로세스에 대한 자세한 정보를 추가했습니다. [자세히 보기](../configuration/delegate-subdomain.md#subdomain-validation)
-* 이메일 주소 및 도메인을 제외 목록에 수동으로 추가하는 방법을 설명하는 섹션을 추가했습니다. [자세히 보기](../configuration/manage-suppression-list.md#add-addresses-and-domains)
-* [제외 목록 액세스](../configuration/manage-suppression-list.md#access-suppression-list) 섹션 및 [다시 시도](../configuration/retries.md) 섹션을 업데이트하여 새 사용자 인터페이스를 반영했습니다.
+* 이메일 주소 및 도메인을 금지 목록에 수동으로 추가하는 방법을 설명하는 섹션을 추가했습니다. [자세히 보기](../configuration/manage-suppression-list.md#add-addresses-and-domains)
+* [금지 목록 액세스](../configuration/manage-suppression-list.md#access-suppression-list) 섹션 및 [다시 시도](../configuration/retries.md) 섹션을 업데이트하여 새 사용자 인터페이스를 반영했습니다.
 * 오퍼를 만들 때 표현을 추가 및 구성하는 새 흐름이 문서화되었습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md#representations)
 
 ## 2021년 7월 {#july-2021}

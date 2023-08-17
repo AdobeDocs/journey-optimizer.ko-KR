@@ -12,7 +12,7 @@ exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -81,7 +81,7 @@ Handlebars에서 반환된 값은 {{expression}} 은(는) **HTML 이스케이프
 의 조건에서 프로필 속성을 활용하는 방법 알아보기 [이 섹션](functions/helpers.md#if-function).
 
 >[!NOTE]
->세분화 서비스에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+>세분화 서비스에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}.
 
 ## 오퍼 {#offers-syntax}
 
@@ -109,7 +109,7 @@ Decisions API 및 오퍼 표시에 대한 자세한 내용은 다음을 참조�
 
   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-* 이미지를 클릭할 때 Target URL:
+* 이미지를 클릭할 때 대상 URL:
 
   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 

@@ -42,7 +42,7 @@ ht-degree: 35%
 ➡️ [Discover this feature in video](#video)
 -->
 
-## 사전 요구 사항
+## 전제 조건
 
 
 보고 구성에 데이터 세트를 추가하려면 먼저 해당 데이터 세트를 만들어야 합니다. 에서 방법 알아보기 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.

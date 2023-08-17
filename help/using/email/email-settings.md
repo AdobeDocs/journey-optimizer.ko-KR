@@ -224,7 +224,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 ![](assets/preset-url-tracking.png)
 
-URL 추적 매개 변수를 구성하려면 다음에서 원하는 값을 직접 입력할 수 있습니다. **[!UICONTROL 이름]** 및 **[!UICONTROL 값]** 필드.
+URL 추적 매개 변수를 구성하려면 다음에서 원하는 값을 직접 입력할 수 있습니다 **[!UICONTROL 이름]** 및 **[!UICONTROL 값]** 필드.
 
 또한 다음을 편집할 수도 있습니다. **[!UICONTROL 값]** 를 사용하는 필드 [표현식 편집기](../personalization/personalization-build-expressions.md). 편집 아이콘을 클릭하여 편집기를 엽니다. 여기에서 사용 가능한 컨텍스트 속성을 선택하거나 텍스트를 직접 편집할 수 있습니다.
 

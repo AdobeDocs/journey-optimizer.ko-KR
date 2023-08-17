@@ -50,9 +50,9 @@ ht-degree: 100%
 
    * 이메일 디자이너에서 바로 **원시 HTML을 코딩하거나 붙여 넣습니다**. 콘텐츠를 직접 코딩하는 방법은 [이 섹션](code-content.md)을 참조하십시오.
 
-      >[!NOTE]
-      >
-      >캠페인의 **[!UICONTROL 콘텐츠 편집]** 화면에서 **[!UICONTROL 코드 편집기]** 버튼을 선택할 수도 있습니다. [자세히 알아보기](create-email.md#define-email-content)
+     >[!NOTE]
+     >
+     >캠페인의 **[!UICONTROL 콘텐츠 편집]** 화면에서 **[!UICONTROL 코드 편집기]** 버튼을 선택할 수도 있습니다. [자세히 알아보기](create-email.md#define-email-content)
 
    * 파일이나 .zip 폴더의 **기존 HTML 콘텐츠를 가져옵니다**. 이메일 콘텐츠를 가져오는 방법은 [이 섹션](existing-content.md)을 참조하십시오.
 

@@ -27,6 +27,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >**시스템 관리자**&#x200B;인데 [!DNL Journey Optimizer]의 **[!UICONTROL 샌드박스]** 메뉴를 확인할 수 없는 경우 [Admin Console](https://adminconsole.adobe.com/){target="_blank"}에서 권한을 업데이트합니다. [이 페이지](../../administration/permissions.md#edit-product-profile)에서 제품 프로필을 업데이트하는 방법을 알아보세요.
+   >
 
 1. **제품 프로필 이해**. 제품 프로필은 사용자가 인터페이스의 특정 기능이나 개체에 액세스할 수 있도록 하는 통합된 권한 세트입니다. [기본 제품 프로필](../../administration/ootb-product-profiles.md) 섹션에서 자세히 알아보세요.
 
@@ -43,6 +44,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >**시스템 관리자**&#x200B;인데 [!DNL Journey Optimizer]의 **[!UICONTROL 채널]** 메뉴를 확인할 수 없는 경우 [Admin Console](https://adminconsole.adobe.com/){target="_blank"}에서 권한을 업데이트합니다. [이 페이지](../../administration/permissions.md#edit-product-profile)에서 제품 프로필을 업데이트하는 방법을 알아보세요.
+>
 
 아래 단계를 따릅니다.
 
@@ -66,8 +68,10 @@ ht-degree: 100%
 
 1. **제외 및 허용 목록 관리**: 금지 및 허용 목록으로 전달 가능성을 개선합니다.
 
-   * [제외 목록](../../reports/suppression-list.md)은 게재에서 제외하려는 이메일 주소로 구성되어 있습니다. 이러한 연락처로 보내면 전송 평판과 게재 속도가 떨어질 수 있기 때문입니다. 지속적으로 소프트 바운스되어 이메일 평판에 부정적인 영향을 미칠 수 있는 여정 주소에서 자동으로 제외되는 모든 이메일 주소(예: 잘못된 주소)와 이메일 메시지 중 하나에 대해 일종의 스팸 불만을 제기하는 수신자를 모니터링할 수 있습니다. [제외 목록](../../configuration/manage-suppression-list.md) 및 [재시도](../../configuration/retries.md)를 관리하는 방법을 알아보세요.
+   * [금지 목록](../../reports/suppression-list.md)은 게재에서 제외하려는 이메일 주소로 구성되어 있습니다. 이러한 연락처로 보내면 전송 평판과 게재 속도가 떨어질 수 있기 때문입니다. 지속적으로 소프트 바운스되어 이메일 평판에 부정적인 영향을 미칠 수 있는 여정 주소에서 자동으로 제외되는 모든 이메일 주소(예: 잘못된 주소)와 이메일 메시지 중 하나에 대해 일종의 스팸 불만을 제기하는 수신자를 모니터링할 수 있습니다. [금지 목록](../../configuration/manage-suppression-list.md) 및 [재시도](../../configuration/retries.md)를 관리하는 방법을 알아보세요.
+
    ![](../assets/suppression-list-filtering-example.png)
 
    * [허용 목록](../../configuration/allow-list.md)을 사용하면 특정 샌드박스에서 보내는 이메일을 수신하도록 승인된 유일한 수신자 또는 도메인이 될 개별 이메일 주소 또는 도메인을 지정할 수 있습니다.. 이렇게 하면 테스트 환경에 있을 때 실수로 실제 고객 주소로 이메일을 보내는 것을 방지할 수 있습니다. [허용 목록을 활성화](../../configuration/allow-list.md)하는 방법을 알아보세요.
+
    [이 페이지](../../reports/deliverability.md)의 [!DNL Adobe Journey Optimizer]에서 배달 가능성 관리에 대해 자세히 알아보세요.

@@ -66,7 +66,7 @@ ht-degree: 89%
 <tr>
 <td>
 <p>이제 Journey Optimizer UI 전체에서 찾을 수 있는 동일한 표현식 편집기 구성 요소를 사용하여 Adobe Experience Platform 프로필 속성 및 대상을 사용하여 오퍼의 콘텐츠를 개인화할 수 있습니다. </p>
-<p>자세한 내용은 <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">세부 설명서</a>를 참고하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -242,13 +242,13 @@ ht-degree: 89%
 <table>
 <thead>
 <tr>
-<th><strong>전송에서 제외할 주소 정의 - 제외 목록</strong><br/></th>
+<th><strong>전송에서 제외할 주소 정의 - 금지 목록</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 사용자 인터페이스에서 하나씩 또는 CSV 파일 업로드를 통해 일괄 모드로 이메일 주소와 도메인을 제외 목록에 추가할 수 있습니다.</p>
+<p>이제 사용자 인터페이스에서 하나씩 또는 CSV 파일 업로드를 통해 일괄 모드로 이메일 주소와 도메인을 금지 목록에 추가할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -281,7 +281,7 @@ ht-degree: 89%
 **이메일 구성**
 
 * **허용 목록** - 이제 API 호출을 통해 비프로덕션 샌드박스에서 허용 목록을 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](../configuration/allow-list.md#enable-allow-list)
-* **탐색** - **관리 > 채널 > 이메일 구성 > 일반** 메뉴 아래에서 액세스할 수 있었던 제외 목록이 이제 새로운 **제외 목록** 하위 메뉴로 옮겨졌습니다. 해당 하위 메뉴 아래에 모든 관련 기능을 모아 두어 보다 쉽게 액세스할 수 있습니다. [자세히 알아보기](../configuration/manage-suppression-list.md#access-suppression-list)
+* **탐색** - **관리 > 채널 > 이메일 구성 > 일반** 메뉴 아래에서 액세스할 수 있었던 금지 목록이 이제 새로운 **금지 목록** 하위 메뉴로 옮겨졌습니다. 해당 하위 메뉴 아래에 모든 관련 기능을 모아 두어 보다 쉽게 액세스할 수 있습니다. [자세히 알아보기](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **의사 결정 관리**
 

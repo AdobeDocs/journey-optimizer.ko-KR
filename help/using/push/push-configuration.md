@@ -20,6 +20,7 @@ ht-degree: 4%
 >[!AVAILABILITY]
 >
 >새로운 **모바일 온보딩 빠른 시작 워크플로우** 을(를) 이제 사용할 수 있습니다. 이 새로운 제품 기능을 사용하여 모바일 이벤트 데이터 수집 및 유효성 검사를 시작하고 모바일 푸시 알림을 전송할 Mobile SDK를 신속하게 구성할 수 있습니다. 이 기능은 공개 Beta 중이며 [데이터 수집] 홈 페이지를 통해 액세스할 수 있습니다. [자세히 알아보기](mobile-onboarding-wf.md)
+>
 
 
 ## 시작하기 전 {#before-starting}
@@ -142,7 +143,7 @@ Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모
 
    * **iOS용**
 
-      ![](assets/add-app-config-ios.png)
+     ![](assets/add-app-config-ios.png)
 
       1. 모바일 앱 입력 **번들 ID** 다음에서 **[!UICONTROL 앱 ID (iOS 번들 ID)]** 필드. 앱 번들 ID는에서 찾을 수 있습니다. **일반** 의 기본 대상 탭 **XCode**.
 
@@ -153,16 +154,16 @@ Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모
       1. 다음을 제공합니다 **키 ID**. p8 인증 키를 만드는 동안 할당된 10개의 문자열입니다. 다음에서 찾을 수 있습니다 **키** 의 탭 **인증서**, **식별자** 및 **프로필** 페이지를 가리키도록 업데이트하는 중입니다.
 
       1. 다음을 제공합니다 **팀 ID**. 멤버십 탭에서 찾을 수 있는 문자열 값입니다.
+
    * **Android용**
 
-      ![](assets/add-app-config-android.png)
+     ![](assets/add-app-config-android.png)
 
       1. 다음을 제공합니다 **[!UICONTROL 앱 ID (Android 패키지 이름)]**: 일반적으로 패키지 이름은 의 앱 id입니다 `build.gradle` 파일.
 
       1. 켜짐 **[!UICONTROL 푸시 자격 증명]** 자격 증명을 추가하는 버튼입니다.
 
       1. FCM 푸시 자격 증명을 끌어서 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 을(를) 참조하십시오. [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
-
 
 
 1. 클릭 **[!UICONTROL 저장]** 앱 구성을 만듭니다.

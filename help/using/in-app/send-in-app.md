@@ -10,13 +10,13 @@ exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
 # 인앱 알림 테스트하고 보내기 {#create-in-app}
 
-## 장치에서 미리 보기 {#preview-device}
+## 디바이스에서 미리 보기 {#preview-device}
 
 모든 사용자가 라이브로 전환되기 전에 인앱 알림을 살짝 확인하려는 경우 특정 디바이스에서 미리 볼 수 있습니다. 이 기능을 사용하면 알림이 선택한 디바이스에서 의도한 대로 표시되고 작동하여 대상자에게 더 나은 사용자 경험을 제공할 수 있습니다.
 

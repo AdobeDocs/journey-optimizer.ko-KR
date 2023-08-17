@@ -28,7 +28,7 @@ ht-degree: 2%
 
 * 랜딩 페이지를 처음부터 디자인하거나 저장된 템플릿에서 디자인할 수 있습니다. 을(를) 끌어다 놓습니다. **[!UICONTROL HTML]** 콘텐츠 구성 요소를 캔버스에 표시하고 소스 코드를 표시하여 구성 요소에 JavaSCript를 추가합니다. 에서 HTML 구성 요소를 사용하는 방법 알아보기 [이 섹션](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
-   ![](assets/lp_designer-html-component.png)
+  ![](assets/lp_designer-html-component.png)
 
 * 콘텐츠 디자이너에 JavaScript 코드를 직접 입력하거나 붙여 넣습니다. 콘텐츠를 코딩하는 방법에 대해 알아봅니다. [이 섹션에서](../email/code-content.md).
 

@@ -20,11 +20,11 @@ ht-degree: 5%
 
 * 다음 기간 **[!UICONTROL 캠페인]**, **[!UICONTROL 작업]** 메뉴, 메시지 콘텐츠를 구성하려면 다음을 클릭합니다. **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
 
-   ![](assets/edit-in-app-content.png)
+  ![](assets/edit-in-app-content.png)
 
 * 다음 기간 **[!UICONTROL 여정]**: 인앱의 고급 메뉴에서 **[!UICONTROL 작업]**&#x200B;를 사용하여 콘텐츠 디자인을 시작할 수 있습니다. **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
 
-   ![](assets/design_inapp_journey.png)
+  ![](assets/design_inapp_journey.png)
 
 다음 **[!UICONTROL 고급 서식]** 전환 은 경험을 사용자 지정하는 추가 옵션을 활성화합니다.
 
@@ -38,21 +38,21 @@ ht-degree: 5%
 
 * **[!UICONTROL 전체 화면]**: 이 유형의 레이아웃은 대상 디바이스의 전체 화면을 포함합니다.
 
-   미디어(이미지, 비디오), 텍스트 및 버튼 구성 요소를 지원합니다.
+  미디어(이미지, 비디오), 텍스트 및 버튼 구성 요소를 지원합니다.
 
 * **[!UICONTROL 모달]**: 이 레이아웃은 큰 경고 스타일 창에 나타나며 백그라운드에서 애플리케이션이 계속 표시됩니다.
 
-   미디어(이미지, 비디오), 텍스트 및 버튼 구성 요소를 지원합니다.
+  미디어(이미지, 비디오), 텍스트 및 버튼 구성 요소를 지원합니다.
 
 * **[!UICONTROL 배너]**: 이 유형의 레이아웃은 기본 OS 경고 메시지로 표시됩니다.
 
-   다음만 추가할 수 있습니다. **[!UICONTROL 머리글]** 및 a **[!UICONTROL 본문]** 메시지를 표시합니다.
+  다음만 추가할 수 있습니다. **[!UICONTROL 머리글]** 및 a **[!UICONTROL 본문]** 메시지를 표시합니다.
 
 * **[!UICONTROL 사용자 정의]**: 사용자 지정 메시지 모드를 사용하면 사전 구성된 HTML 메시지 중 하나를 직접 가져오고 편집할 수 있습니다.
 
    * 선택 **[!UICONTROL 작성]** 원시 HTML 코드를 입력하거나 붙여넣습니다.
 
-      왼쪽 창을 사용하여 Journey Optimizer 개인화 기능을 활용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../personalization/personalize.md)을 참조하십시오.
+     왼쪽 창을 사용하여 Journey Optimizer 개인화 기능을 활용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../personalization/personalize.md)을 참조하십시오.
 
    * 선택 **[!UICONTROL 가져오기]** HTML 내용이 포함된 HTML 또는 .zip 파일을 가져옵니다.
 
