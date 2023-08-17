@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 11%
+source-wordcount: '389'
+ht-degree: 10%
 
 ---
 
@@ -24,7 +24,13 @@ ht-degree: 11%
 
    ![](assets/inapp_config_6.png)
 
-1. 그런 다음 **[!UICONTROL 앱 표면]** 메뉴를 선택한 다음 **[!UICONTROL 앱 표면 만들기]**.
+   >[!NOTE]
+   >
+   >인앱 채널에 대해 콘텐츠 실험을 활성화하려면 다음을 확인해야 합니다. [데이터 세트](../data/get-started-datasets.md) 인앱에서 사용됨 [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko-KR){target="_blank"} 는 보고 구성에도 있습니다. 그렇지 않으면 인앱 데이터가 콘텐츠 실험 보고서에 표시되지 않습니다. [데이터 세트를 추가하는 방법 알아보기](../campaigns/reporting-configuration.md#add-datasets)
+   >
+   >데이터 집합은 [!DNL Journey Optimizer] 보고 시스템이며, 데이터 수집이나 데이터 수집에는 영향을 주지 않습니다.
+
+1. 그런 다음 **[!UICONTROL 앱 표면]** 메뉴 및 클릭 **[!UICONTROL 앱 표면 만들기]**.
 
    >[!NOTE]
    >
