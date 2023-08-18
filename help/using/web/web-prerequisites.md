@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 11%
@@ -133,7 +133,7 @@ Visual Editing Helper 브라우저 확장이 올바르게 설치되었지만 웹
 
 ## 콘텐츠 실험 사전 요구 사항 {#experiment-prerequisites}
 
-웹 채널에 대해 콘텐츠 실험을 활성화하려면 [데이터 세트](../data/get-started-datasets.md) 웹 구현에 사용됨 [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko-KR){target="_blank"} 는 보고 구성에도 있습니다.
+웹 채널에 대해 콘텐츠 실험을 활성화하려면 [데이터 세트](../data/get-started-datasets.md) 웹 구현에 사용됨 [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko-KR){target="_blank"} 는 보고 구성에도 포함됩니다.
 
 즉, 실험 보고를 구성할 때 웹 데이터 스트림에 없는 데이터 세트를 추가하면 웹 데이터가 콘텐츠 실험 보고서에 표시되지 않습니다.
 
