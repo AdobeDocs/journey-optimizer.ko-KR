@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: c4b40d66db042e7dce1326e64b9d706f33cb01c2
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '599'
 ht-degree: 14%
 
 ---
@@ -31,13 +31,16 @@ ht-degree: 14%
 
 * 재입력이 활성화된 경우 프로필은 여정을 여러 번 입력할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 다시 입력할 수 없습니다.
 
-* 재입력이 비활성화된 경우 프로필은 동일한 여정을 여러 번 입력할 수 없습니다
+* 재입력이 비활성화된 경우 프로필은 동일한 여정을 여러 번 입력할 수 없습니다.
 
-기본적으로 새 여정은 다시 입력할 수 있습니다. 예를 들어 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 방&quot; 여정에 대한 옵션을 선택 취소할 수 있습니다. 이 경우 고객이 여정에 다시 입장하여 오퍼를 다시 받을 수 없도록 해야 합니다. 여정이 종료되면 상태는 다음과 같습니다. **[!UICONTROL 종료됨]**. 새 사용자는 더 이상 여정에 들어갈 수 없습니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다. [자세히 알아보기](journey-gs.md#entrance)
+기본적으로 새 여정은 다시 입력할 수 있습니다. 예를 들어 한 사람이 상점을 방문할 때 일회성 선물을 제공하려는 경우 &quot;일회성&quot; 여정에 대한 옵션을 선택 취소할 수 있습니다. 이 경우 고객은 여정에 다시 입장하여 오퍼를 다시 받을 수 없어야 합니다. 여정이 종료되면 상태는 다음과 같습니다. **[!UICONTROL 종료됨]**. 새 사용자는 더 이상 여정에 들어갈 수 없습니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다. [자세히 알아보기](journey-gs.md#entrance)
 
 ![](assets/journey-re-entrance.png)
 
-기본 전역 시간 제한 30일 후 여정이 로 전환됩니다. **완료됨** 상태. 새 사용자는 더 이상 여정에 들어갈 수 없습니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다.30일 여정 제한 시간 때문에 여정 재입장이 허용되지 않으면 재입장 차단이 30일 이상 작동하도록 할 수 없습니다. 실제로 여정에 입장한 후 30일이 지난 사람에 대한 정보를 모두 삭제하기 때문에 30일 이상 전에 입력한 사람을 알 수 없습니다. [자세히 알아보기](journey-gs.md#global_timeout).
+기본 전역 시간 제한 30일 후 여정이 로 전환됩니다. **완료됨** 상태. 이미 여정에 있는 프로필은 여정을 정상적으로 완료합니다. 새 프로필은 더 이상 여정에 들어갈 수 없습니다. 개인 정보 보호 규정을 준수하기 위해 이 동작은 30일 동안만 설정됩니다. 해당 기간이 지나면 프로필이 여정에 다시 들어갈 수 있습니다. 이를 방지하려면 프로필이 이미 입력되었는지 여부를 테스트할 조건을 추가합니다. 에서 여정 시간 초과에 대해 자세히 알아보기 [이 섹션](journey-gs.md#global_timeout).
+
+<!--
+Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
 단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하는 가드레일이 포함됩니다. 프로필 재입력은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03에 도착하는 경우(동일한 이벤트이든 동일한 여정을 트리거하는 다른 이벤트이든) 해당 여정은 이 프로필에 대해 다시 시작되지 않습니다.
 
