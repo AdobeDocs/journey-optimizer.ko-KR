@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: c4b40d66db042e7dce1326e64b9d706f33cb01c2
+source-git-commit: 1bcc47389b128c6eb6e768578b2ae64c4b0fea89
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '613'
 ht-degree: 14%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 14%
 
 ![](assets/journey-re-entrance.png)
 
-기본 전역 시간 제한 30일 후 여정이 로 전환됩니다. **완료됨** 상태. 이미 여정에 있는 프로필은 여정을 정상적으로 완료합니다. 새 프로필은 더 이상 여정에 들어갈 수 없습니다. 개인 정보 보호 규정을 준수하기 위해 이 동작은 30일 동안만 설정됩니다. 해당 기간이 지나면 프로필이 여정에 다시 들어갈 수 있습니다. 이를 방지하려면 프로필이 이미 입력되었는지 여부를 테스트할 조건을 추가합니다. 에서 여정 시간 초과에 대해 자세히 알아보기 [이 섹션](journey-gs.md#global_timeout).
+기본 전역 시간 제한 30일 후 여정이 로 전환됩니다. **완료됨** 상태. 이미 여정에 있는 프로필은 여정을 정상적으로 완료합니다. 새 프로필은 더 이상 여정에 들어갈 수 없습니다. 이 비헤이비어는 여정을 입력한 후 30일이 지난 프로필에 대한 모든 정보를 제거하므로 30일(여정 시간 초과 기본값)에 대해서만 설정됩니다. 해당 기간이 지나면 프로필이 여정에 다시 들어갈 수 있습니다. 이를 방지하려면 프로필이 이미 입력되었는지 여부를 테스트할 조건을 추가합니다. 에서 여정 시간 초과에 대해 자세히 알아보기 [이 섹션](journey-gs.md#global_timeout).
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
