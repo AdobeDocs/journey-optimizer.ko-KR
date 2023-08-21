@@ -5,7 +5,7 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
+source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 39%
@@ -102,4 +102,4 @@ ht-degree: 39%
 **다이렉트 메일**
 
 * Azure Blob을 라우팅 대상으로 지원합니다.
-* 사용자 지정 구분 기호로 `&amp;&#39;를 지원합니다.
+* 지원 `&` 사용자 지정 구분 기호로 사용됩니다.
