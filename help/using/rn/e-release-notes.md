@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: 36634fc3993261756c081e71c47e7408c77c65ae
+source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 41%
+source-wordcount: '402'
+ht-degree: 39%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 41%
 <table>
 <thead>
 <tr>
-<th><strong>여정의 인앱 채널</strong><br/></th>
+<th><strong>여정에서 인앱 메시지 보내기</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -64,13 +64,14 @@ ht-degree: 41%
 <table>
 <thead>
 <tr>
-<th><strong>텍스트 및 이미지용 콘텐츠 지원</strong><br/></th>
+<th><strong>콘텐츠 도우미를 사용하여 텍스트 및 이미지 생성</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>메시지를 만들고 개인화했으면 콘텐츠 도우미를 통해 콘텐츠를 한 단계 더 발전시킵니다. 이제 콘텐츠 도우미를 사용하여 다양한 주요 제목과 이미지를 실험하여 메시지의 영향을 최적화할 수 있습니다. 각 변형은 더 많은 클릭을 효과적으로 생성하는 제목을 측정하고 비교하기 위해 고유한 처리로 관리됩니다.</p>
+<p>이 기능은 현재 개인 베타로 사용할 수 있습니다.</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -96,3 +97,9 @@ ht-degree: 41%
 
 * 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
 * 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 정의 작업이 실패하면 알림을 받을 수 있습니다.
+
+
+**다이렉트 메일**
+
+* Azure Blob을 라우팅 대상으로 지원합니다.
+* 사용자 지정 구분 기호로 `&amp;&#39;를 지원합니다.
