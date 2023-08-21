@@ -5,9 +5,9 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3171'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 96%
 
 ## 2023년 8월 {#august-2023}
 
-* 웹 채널에 대한 콘텐츠 실험 사전 요구 사항에 새 섹션이 추가되었습니다. [자세히 보기](../web/web-prerequisites.md#experiment-prerequisites)
-* 에 경고가 추가되었습니다. **콘텐츠 템플릿 작업** 이메일 콘텐츠 템플릿을 테스트할 때 현재 추적이 지원되지 않음을 나타내는 페이지입니다. 추적을 테스트하려면 이메일의 콘텐츠 템플릿을 사용하고 증명을 보내야 합니다. [자세히 보기](../email/content-templates.md#test-template)
-* 에 몇 가지 경고가 추가되었습니다. **랜딩 페이지 만들기 및 게시** 섹션에 게시되었더라도 페이지를 만들 때 정의된 URL을 웹 브라우저에 복사하여 붙여넣으면 랜딩 페이지에 액세스할 수 없음을 지정할 수 있습니다. 대신 미리보기 기능을 사용하여 테스트할 수 있습니다. [자세히 보기](../landing-pages/create-lp.md)
+* 웹 채널의 콘텐츠 실험 전제 조건에 새 섹션이 추가되었습니다. [자세히 보기](../web/web-prerequisites.md#experiment-prerequisites)
+* **콘텐츠 템플릿으로 작업하기** 페이지에 이메일 콘텐츠 템플릿을 테스트할 때 현재 추적이 지원되지 않음을 나타내는 경고가 추가되었습니다. 추적을 테스트하려면 이메일의 콘텐츠 템플릿을 사용하고 증명을 보내야 합니다. [자세히 보기](../email/content-templates.md#test-template)
+* **랜딩 페이지 만들기 및 게시** 섹션에 몇 가지 경고가 추가되었습니다. 페이지가 게시되었더라도 페이지를 만들 때 정의된 URL을 웹 브라우저에 단순히 복사하여 붙여넣으면 랜딩 페이지에 액세스할 수 없음을 명시하고 있습니다. 대신 미리보기 기능을 사용하여 테스트할 수 있습니다. [자세히 보기](../landing-pages/create-lp.md)
 
 ## 2023년 7월 {#july-2023}
 
