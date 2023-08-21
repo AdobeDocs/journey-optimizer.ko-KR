@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: a68b4417c86b71d16622e8776c17625b2d061cc7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '83'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,8 @@ Journey Optimizer의 오퍼 카탈로그를 자동으로 Adobe Experience Platfo
 
 [오퍼 라이브러리]에서 이 개체 중 하나를 수정할 때마다 새 내보내기 작업이 자동으로 실행되어 데이터 세트를 업데이트합니다.
 
+<!--
 >[!NOTE]
 >
->이 기능은 기본적으로 활성화되어 있지 않습니다. 사용하려면 Adobe 담당자에게 연락하여 사용자의 카탈로그에서 기능을 활성화합니다. 활성화하면 별도의 조치를 취할 필요 없이 내보내기 작업이 자동으로 진행됩니다.
+>This feature is not enabled by default. If you want to use it, reach out to your Adobe contact to have it activated for your catalog. Once it is enabled, export jobs will be automated and will require no action from your side.
+-->
