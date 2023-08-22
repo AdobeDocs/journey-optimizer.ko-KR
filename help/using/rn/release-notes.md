@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ff415fa209da7996254a60817ef69998fd47903
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '3201'
-ht-degree: 100%
+source-wordcount: '3514'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,99 @@ ht-degree: 100%
 [!DNL Adobe Journey Optimizer]은(는) 기본적으로 [!DNL Adobe Experience Platform] 기반으로 구축되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
+
+
+## 2023년 8월 초기 릴리스 정보 {#aug-rn-2023}
+
+아래 조기 릴리스 노트는 릴리스 일자까지 사전 통지 없이 변경될 수 있습니다. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
+
+
+**릴리스 날짜**: 2023년 8월 23~24일
+
+### 새로운 기능{#aug-2023-features}
+
+이번 릴리스에는 아래 목록에 있는 새로운 기능이 제공됩니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>여정에서 인앱 메시지 보내기</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정 내에서 앱 사용자에게 개인화된 인앱 메시지를 보낼 수 있습니다. Journey Optimizer를 사용하여 알림을 디자인하고 메시지 레이아웃, 디스플레이, 텍스트, 버튼을 사용자 정의하여 원활한 경험을 만들 수 있습니다.</p>
+<img src="assets/in_app_journey_1.png"/>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>시드 목록을 사용하여 이메일 유효성 검사</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer에서 시드 목록을 만들고 관리할 수 있습니다. 시드 목록은 실제 대상자에 추가할 수 있는 내부 주소로 구성되며 게재 실행 시 타겟팅된 프로필과 정확히 동일한 메시지를 수신합니다. 이 기능을 사용하여 전송된 통신을 모니터링하고 모든 표시 형식, URL, 이미지 및 링크가 올바른지 확인하십시오.</p>
+<img src="../configuration/assets/seed-list-details.png">
+<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
+<img src="assets/gen-ai-image-2.png"/>
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+
+### 개선 사항 {#aug-2023-improvements}
+
+이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
+
+**API**
+
+이제 콘텐츠 조각을 만들고 관리하기 위한 새 API를 사용할 수 있습니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+
+**이메일 채널**
+
+트랜잭션 메시지 대상자에 스팸 불만으로 인해 억제된 이메일 주소를 포함하는 새로운 옵션을 이메일 표면 설정에서 사용할 수 있습니다. 마케팅 메시지를 스팸으로 표시했더라도 이러한 프로필은 암호 재설정 또는 계정 구문과 같은 트랜잭션 메시지를 받을 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
+
+**여정**
+
+* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 개인 베타로 사용할 수 있습니다.
+* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 정의 작업이 실패하면 알림을 받을 수 있습니다.
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
+
+
+**다이렉트 메일**
+
+* 이제 파일 라우팅 구성에서 서버 유형으로 Azure를 선택할 수 있습니다.
+* 이제 앰퍼샌드를 DM 표면 설정의 열 구분 기호 필드로 사용할 수 있습니다.
+
+
 
 
 ## 2023년 7월 릴리스 정보 {#july-rn-2023}

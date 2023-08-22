@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 38%
+source-wordcount: '362'
+ht-degree: 43%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 시드 목록을 만들고 관리할 수 있습니다. 시드 목록은 실제 대상자에게 보내기 전에 전자 메일을 보내는 테스트 전자 메일 주소로 구성됩니다. 이 기능을 사용하여 전송된 이메일 복사본을 모니터링하고 모든 표시 형식, URL, 이미지 및 링크가 올바른지 확인하십시오.</p>
+<p>이제 Journey Optimizer에서 시드 목록을 만들고 관리할 수 있습니다. 시드 목록은 실제 대상자에 추가할 수 있는 내부 주소로 구성되며 게재 실행 시 타겟팅된 프로필과 정확히 동일한 메시지를 수신합니다. 이 기능을 사용하여 전송된 통신을 모니터링하고 모든 표시 형식, URL, 이미지 및 링크가 올바른지 확인하십시오.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -61,23 +61,23 @@ ht-degree: 38%
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>콘텐츠 도우미를 사용하여 텍스트 및 이미지 생성</strong><br/></th>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>메시지를 만들고 개인화했으면 콘텐츠 도우미를 통해 콘텐츠를 한 단계 더 발전시킵니다. 이제 콘텐츠 도우미를 사용하여 다양한 주요 제목과 이미지를 실험하여 메시지의 영향을 최적화할 수 있습니다. 각 변형은 더 많은 클릭을 효과적으로 생성하는 제목을 측정하고 비교하기 위해 고유한 처리로 관리됩니다.</p>
-<p>이 기능은 현재 개인 베타로 사용할 수 있습니다.</p>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
-<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
@@ -91,7 +91,7 @@ ht-degree: 38%
 
 **이메일 채널**
 
-* 트랜잭션 메시지 대상자에 스팸 불만으로 인해 억제된 이메일 주소를 포함하는 새로운 옵션을 이메일 표면 설정에서 사용할 수 있습니다. 마케팅 메시지를 스팸으로 표시했더라도 이러한 프로필은 암호 재설정 또는 계정 구문과 같은 트랜잭션 메시지를 받을 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
+트랜잭션 메시지 대상자에 스팸 불만으로 인해 억제된 이메일 주소를 포함하는 새로운 옵션을 이메일 표면 설정에서 사용할 수 있습니다. 마케팅 메시지를 스팸으로 표시했더라도 이러한 프로필은 암호 재설정 또는 계정 구문과 같은 트랜잭션 메시지를 받을 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
 
 **여정**
 
@@ -102,5 +102,5 @@ ht-degree: 38%
 
 **다이렉트 메일**
 
-* Azure Blob을 라우팅 대상으로 지원합니다.
-* 지원 `&` 사용자 지정 구분 기호로 사용됩니다.
+* 이제 파일 라우팅 구성에서 서버 유형으로 Azure를 선택할 수 있습니다.
+* 이제 앰퍼샌드를 DM 표면 설정의 열 구분 기호 필드로 사용할 수 있습니다.
