@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: 132121b4dd9c20149e4a5b24e90ebffd4ebbdcbc
+source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 37%
+source-wordcount: '411'
+ht-degree: 38%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 37%
 
 * 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 개인 베타로 사용할 수 있습니다.
 * 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 정의 작업이 실패하면 알림을 받을 수 있습니다.
-* 이제 여정을 복제할 때 여정 사본의 이름을 정의할 수 있습니다.
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **다이렉트 메일**
