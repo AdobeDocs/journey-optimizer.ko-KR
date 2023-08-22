@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
+source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1595'
 ht-degree: 25%
 
 ---
@@ -121,13 +121,13 @@ ht-degree: 25%
 
 ![](assets/journey32.png)
 
-### 입구{#entrance}
+### 입장 및 재입장 {#entrance}
 
 기본적으로 새 여정은 다시 입력할 수 있습니다. 다음을 선택 취소할 수 있습니다. **재등록 허용** 예를 들어 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 방&quot; 여정에 대한 옵션을 선택합니다.
 
 다음의 경우 **재등록 허용** 옵션이 활성화되고 **재등록 대기 기간** 필드가 표시됩니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다.
 
-에서 프로필 시작 관리에 대해 자세히 알아봅니다. [이 섹션](entry-management.md).
+에서 프로필 시작 및 재시작 관리에 대해 자세히 알아보십시오. [이 섹션](entry-management.md).
 
 ### 액세스 관리 {#access}
 
