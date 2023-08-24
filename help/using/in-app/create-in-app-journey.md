@@ -7,15 +7,15 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
+source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 
-# 여정의 인앱 메시지 만들기 {#create-in-app-journey}
+# 여정에 인앱 메시지 만들기 {#create-in-app-journey}
 
 여정에 인앱 메시지를 추가하려면 다음 단계를 수행합니다.
 
