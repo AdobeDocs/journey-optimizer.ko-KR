@@ -8,7 +8,7 @@ role: User, Developer
 level: Experienced
 keywords: 여정, 데이터 소스, 제한, 처리량, 사용자 지정, 작업
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
+source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 3%
@@ -42,6 +42,7 @@ Adobe Journey Optimizer을 사용하면 전문가가 사용자 지정 작업 및
 >[!NOTE]
 >
 > 초당 여정을 입력할 수 있는 최대 프로필 수입니다. 이 비율은 이 활동에만 적용되며 여정의 다른 활동에는 적용되지 않습니다. [자세히 보기](../building-journeys/read-audience.md)
+
 
 ![](assets/limit-throughput-1.png)
 

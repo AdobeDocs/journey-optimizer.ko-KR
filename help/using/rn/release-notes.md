@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c8a985d19c82ecb79153dd8ba2e056f6a2c1f2b
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '3495'
-ht-degree: 93%
+source-wordcount: '3384'
+ht-degree: 96%
 
 ---
 
@@ -22,32 +22,27 @@ ht-degree: 93%
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
 
-## 2023년 8월 초기 릴리스 정보 {#aug-rn-2023}
-
-아래 조기 릴리스 노트는 릴리스 일자까지 사전 통지 없이 변경될 수 있습니다. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
-
-
-**릴리스 날짜**: 2023년 8월 23~24일
+## 2023년 8월 릴리스 정보 {#aug-rn-2023}
 
 ### 새로운 기능{#aug-2023-features}
 
 이번 릴리스에는 아래 목록에 있는 새로운 기능이 제공됩니다.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>여정에서 인앱 메시지 보내기</strong><br/></th>
+<th><strong>Send In-app messages in your journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 여정 내에서 앱 사용자에게 개인화된 인앱 메시지를 보낼 수 있습니다. Journey Optimizer를 사용하여 알림을 디자인하고 메시지 레이아웃, 디스플레이, 텍스트, 버튼을 사용자 정의하여 원활한 경험을 만들 수 있습니다.</p>
+<p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/in_app_journey_1.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../in-app/create-in-app-journey.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
@@ -61,7 +56,7 @@ ht-degree: 93%
 <td>
 <p>이제 Journey Optimizer에서 시드 목록을 만들고 관리할 수 있습니다. 시드 목록은 실제 대상자에 추가할 수 있는 내부 주소로 구성되며 게재 실행 시 타겟팅된 프로필과 정확히 동일한 메시지를 수신합니다. 이 기능을 사용하여 전송된 통신을 모니터링하고 모든 표시 형식, URL, 이미지 및 링크가 올바른지 확인하십시오.</p>
 <img src="../configuration/assets/seed-list-details.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../configuration/seed-lists.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -92,25 +87,26 @@ ht-degree: 93%
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-**API**
+<!--
+**APIs**
 
-이제 콘텐츠 조각을 만들고 관리하기 위한 새 API를 사용할 수 있습니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
 
-**이메일 채널**
+<!--**Email channel**
 
-트랜잭션 메시지 대상자에 스팸 불만으로 인해 억제된 이메일 주소를 포함하는 새로운 옵션을 이메일 표면 설정에서 사용할 수 있습니다. 마케팅 메시지를 스팸으로 표시했더라도 이러한 프로필은 암호 재설정 또는 계정 구문과 같은 트랜잭션 메시지를 받을 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
 
 **여정**
 
-이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 개인 베타로 사용할 수 있습니다.
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 개인 베타로 사용할 수 있습니다. [자세히 알아보기](../action/action-response.md).
+* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 정의 작업이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md).
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **다이렉트 메일**
 
-* 이제 파일 라우팅 구성에서 서버 유형으로 Azure를 선택할 수 있습니다.
-* 이제 앰퍼샌드를 DM 표면 설정의 열 구분 기호 필드로 사용할 수 있습니다.
+* 이제 파일 라우팅 구성에서 서버 유형으로 Azure를 선택할 수 있습니다. [자세히 알아보기](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* 이제 앰퍼샌드를 DM 표면 설정의 열 구분 기호 필드로 사용할 수 있습니다. [자세히 알아보기](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 

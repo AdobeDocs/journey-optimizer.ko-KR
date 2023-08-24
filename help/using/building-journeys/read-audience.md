@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
+source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
 workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 12%
@@ -57,7 +57,7 @@ ht-degree: 12%
 
    대상자가 추가되면 **[!UICONTROL 복사]** 버튼을 사용하면 해당 이름과 ID를 복사할 수 있습니다.
 
-   `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
 
@@ -157,7 +157,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * 데이터 소스 데이터
 * 여정 이벤트 컨텍스트(예: 한 시간 전에 받은 메시지를 클릭했습니까?)
 * 예를 들어, 날짜가 어떤 사람이 여정을 거치는 6월에 있습니까?
-* 시간(예: 아침이 개인 시간대의 시간대입니까?)
+* 시간, 예를 들어 아침이 개인 시간대의 시간대입니까?
 * 여정에서 흐르는 대상을 백분율에 따라 분할하는 알고리즘(예: 90% - 10%)으로, 컨트롤 그룹을 제외합니다.
 
 ![](assets/read-segment-audience1.png)

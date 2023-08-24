@@ -1,6 +1,6 @@
 ---
 title: 여정에서 인앱 알림 만들기
-description: Journey Optimizer에서 인앱 메시지를 만드는 방법을 알아봅니다
+description: 여정에 인앱 메시지를 추가하는 방법 알아보기
 feature: Overview
 topic: Content Management
 role: User
@@ -9,15 +9,17 @@ keywords: 인앱, 메시지, 만들기, 시작
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-badge: label="Beta" type="Informative"
-source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 3%
+source-wordcount: '742'
+ht-degree: 2%
 
 ---
 
+
 # 여정의 인앱 메시지 만들기 {#create-in-app-journey}
+
+여정에 인앱 메시지를 추가하려면 다음 단계를 수행합니다.
 
 1. 여정을 연 다음 **[!UICONTROL 인앱]** 의 활동 **[!UICONTROL 작업]** 팔레트의 섹션입니다.
 

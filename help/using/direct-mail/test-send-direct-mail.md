@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 7d753a1fd71e85e29c141fc697348579eaa15380
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 6%
+source-wordcount: '460'
+ht-degree: 13%
 
 ---
 
@@ -50,3 +50,15 @@ DM 캠페인을 활성화하기 전에 캠페인과 추출 파일이 제대로 �
 DM 캠페인이 준비되면 **[!UICONTROL 활성화]** 단추를 클릭합니다. 캠페인이 시작되면 추출 파일이 자동으로 생성되고 캠페인에 지정된 서버로 내보내집니다 [파일 라우팅 구성](../direct-mail/direct-mail-configuration.md).
 
 DM을 전송하면 캠페인 보고서 내에서 DM 캠페인의 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 이 섹션을 참조하십시오.
+
+## DM에 대한 동의 관리 {#dm-consent-management}
+
+[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}가 처리합니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다.
+
+프로필이 DM 수신을 옵트아웃한 경우 해당 Experience Platform 프로필 속성에서 값 `consents.marketing.postalMail.val` 다음이 됨: `n` 및 해당 프로필은 후속 게재에서 제외됩니다.
+
+다시 활성화하려면 프로필 속성을 다시 로 변경해야 합니다. `consents.marketing.postalMail.val` : `y`.
+
+프로필의 속성을 관리하려면 Experience Platform 로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 다음에서 자세히 알아보기 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}.
+
+에서 Journey Optimizer에서의 옵트아웃 관리에 대해 자세히 알아보십시오. [이 섹션](../privacy/opt-out.md).

@@ -1,28 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 사용자 지정 작업 구성
-description: 사용자 지정 작업을 구성하는 방법 알아보기
+title: 사용자 지정 작업 개선 사항
+description: 사용자 지정 작업에 대한 최신 개선 사항에 대해 자세히 알아보기
 feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
-hide: true
-hidefromtoc: true
-source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
+source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '666'
 ht-degree: 4%
 
 ---
 
-# 사용자 지정 작업 개선 사항
+# 사용자 지정 작업 개선 사항 {#custom-action-enhancements}
 
 이제 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
 
-이 기능은 데이터 소스를 사용할 때만 사용할 수 있습니다. 이제 사용자 지정 작업에 사용할 수 있습니다.
+이 기능은 이전에는 데이터 소스를 사용할 때만 사용할 수 있었습니다. 이제 사용자 지정 작업에 사용할 수 있습니다.
 
 >[!AVAILABILITY]
 >
@@ -32,11 +30,11 @@ ht-degree: 4%
 >
 >사용자 지정 작업은 전용 또는 내부 끝점에서만 사용해야 하며 적절한 제한 또는 제한 제한과 함께 사용해야 합니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
 
-## 사용자 지정 작업 정의
+## 사용자 지정 작업 정의 {#define-custom-action}
 
 사용자 지정 작업을 정의할 때 GET 메서드 및 새 페이로드 응답 필드의 추가와 같이 두 가지 향상된 기능을 사용할 수 있습니다. 다른 옵션과 매개 변수는 변경되지 않습니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
 
-### 끝점 구성
+### 끝점 구성 {#endpoint-configuration}
 
 다음 **URL 구성** 섹션의 이름이 변경되었습니다. **끝점 구성**.
 
@@ -44,7 +42,7 @@ ht-degree: 4%
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### 페이로드
+### 페이로드 {#payloads-new}
 
 다음 **작업 매개 변수** 섹션의 이름이 변경되었습니다. **페이로드**. 두 가지 필드를 사용할 수 있습니다.
 
@@ -80,7 +78,7 @@ ht-degree: 4%
 
 1. **저장**&#x200B;을 클릭합니다.
 
-## 여정에서 응답 활용
+## 여정에서 응답 활용 {#response-in-journey}
 
 여정에 사용자 지정 작업을 추가하기만 하면 됩니다. 그런 다음 조건, 기타 작업 및 메시지 개인화의 응답 페이로드 필드를 활용할 수 있습니다.
 
@@ -119,7 +117,7 @@ ht-degree: 4%
 
    ![](assets/action-response11.png)
 
-## 오류 상태{#error-status}
+## 오류 상태 {#error-status}
 
 다음 **jo_status_code** 응답 페이로드가 정의되지 않은 경우에도 필드는 항상 사용할 수 있습니다.
 
@@ -136,7 +134,7 @@ ht-degree: 4%
 >
 >새로 생성된 사용자 지정 작업에만 다음이 포함됩니다. **jo_status_code** 기본 제공 필드. 기존 사용자 지정 작업에 사용하려면 작업을 업데이트해야 합니다. 예를 들어 설명을 업데이트하고 저장할 수 있습니다.
 
-## 표현식 구문
+## 표현식 구문 {#exp-syntax}
 
 구문은 다음과 같습니다.
 
@@ -160,3 +158,4 @@ ht-degree: 4%
 ```
 
 필드 참조에 대한 자세한 내용은 [이 섹션](../building-journeys/expression/field-references.md).
+

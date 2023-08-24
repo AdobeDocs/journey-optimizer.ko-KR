@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 9%
+source-wordcount: '1941'
+ht-degree: 8%
 
 ---
 
@@ -181,6 +181,31 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 또한 을 정의할 때 **[!UICONTROL BCC 이메일]** 주소, 유효한 MX 레코드 구성이 있는 하위 도메인을 사용해야 합니다. 그렇지 않으면 이메일 표면 처리가 실패합니다.
 
 이메일 표면 제출 시 오류가 발생하면 입력한 주소의 하위 도메인에 대해 MX 레코드가 구성되지 않은 것입니다. 해당 MX 레코드를 구성하려면 관리자에게 문의하거나 다른 주소를 유효한 MX 레코드 구성과 함께 사용하십시오.
+
+## 시드 목록 {#seed-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_seed_list"
+>title="시드 목록 추가"
+>abstract="게재에 특정 이메일 시드 주소를 자동으로 포함하려면 선택한 시드 목록을 선택합니다. 이러한 주소는 게재 실행 시 포함되며 확인을 위해 정확한 게재 사본을 받게 됩니다."
+
+의 시드 목록 [!DNL Journey Optimizer] 을 사용하면 게재에 특정 이메일 시드 주소를 자동으로 포함할 수 있습니다. [자세히 알아보기](../configuration/seed-lists.md)
+
+>[!CAUTION]
+>
+>현재 이 기능은 이메일 채널에만 적용됩니다.
+
+에서 나와 관련된 목록을 선택합니다. **[!UICONTROL 시드 목록]** 섹션. 에서 시드 목록을 만드는 방법 알아보기 [이 섹션](../configuration/seed-lists.md#create-seed-list).
+
+![](../configuration/assets/seed-list-surface.png)
+
+>[!NOTE]
+>
+>시드 목록은 한 번에 하나만 선택할 수 있습니다.
+
+현재 표면이 캠페인이나 여정에서 사용되는 경우, 선택한 시드 목록의 이메일 주소는 게재 실행 시간에 포함됩니다. 즉, 보증 목적으로 게재 사본을 받게 됩니다.
+
+의 여정 또는 캠페인에서 시드 목록을 사용하는 방법 알아보기 [이 섹션](../configuration/seed-lists.md#use-seed-list).
 
 ## 이메일 재시도 매개 변수 {#email-retry}
 

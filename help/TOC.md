@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1424'
 ht-degree: 98%
 
 ---
@@ -435,22 +435,23 @@ ht-degree: 98%
       + [쿼리 예](using/data/datasets-query-examples.md)
       + [기본 스키마 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
    + [쿼리](using/data/get-started-queries.md)
-+ 구성{#configuration}
++ 구성 {#configuration}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
+   + [채널 표면 설정](using/configuration/channel-surfaces.md)
    + 이메일 하위 도메인 위임 {#delegate-subdomains}
       + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
       + [하위 도메인 위임](using/configuration/delegate-subdomain.md)
       + [Google TXT 레코드 추가](using/configuration/google-txt.md)
       + [PTR 레코드 액세스 및 편집](using/configuration/ptr-records.md)
       + [IP 풀 만들기](using/configuration/ip-pools.md)
-   + [채널 표면 설정](using/configuration/channel-surfaces.md)
    + 이메일 주소 모니터링 {#monitor-reputation}
       + [금지 목록](using/configuration/manage-suppression-list.md)
       + [다시 시도](using/configuration/retries.md)
       + [허용 목록](using/configuration/allow-list.md)
+   + [시드 목록 사용](using/configuration/seed-lists.md)
    + [아카이브 지원](using/configuration/archiving-support.md)
+   + [실행 주소 변경](using/configuration/primary-email-addresses.md)
    + [빈도 규칙 구성](using/configuration/frequency-rules.md)
-   + [실행 주소 관리](using/configuration/primary-email-addresses.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
       + 외부 시스템과 통합 {#external-systems}
@@ -475,7 +476,7 @@ ht-degree: 98%
          + [작업 구성](using/action/about-custom-action-configuration.md)
          + [Adobe Campaign Standard 통합](using/action/acs-action.md)
          + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
-         + [작업 정보](using/action/action-response.md)
+         + [사용자 지정 작업에서 API 호출 응답 사용](using/action/action-response.md)
    + [소스](using/start/get-started-sources.md)
 + 액세스 제어 {#access-control}
    + 액세스 제어 개요 {#privacy}

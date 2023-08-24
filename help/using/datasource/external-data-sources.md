@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 458632fcae14db9fe7d099309b85550e47090340
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 71%
+source-wordcount: '1493'
+ht-degree: 68%
 
 ---
 
@@ -91,8 +91,8 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL 동적 값]** 필드와 이러한 필드는 호출 끝에 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
 
-* 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL 동적 값]** 필드(아래 예제에서는 &quot;identifier&quot;)
-* 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
+* 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL 동적 값]** 필드(아래 예에서 &quot;식별자&quot;).
+* 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수의 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
 
   ```
   {"id":{"param":"identifier"}}
@@ -208,7 +208,10 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 >[!NOTE]
 >
+>인증 토큰은 사용자별로 캐시됩니다. 두 여정이 동일한 여정 지정 작업을 사용하는 경우 각 여정에 캐시된 자체 토큰이 있습니다. 해당 토큰은 해당 여정 간에 공유되지 않습니다.
+>
 >캐시 지속 시간은 인증 끝점에 대한 너무 많은 호출을 방지하는 데 도움이 됩니다. 서비스에서 인증 토큰 보존이 캐시되므로 지속성이 없습니다. 서비스가 다시 시작되면 클린 캐시로 시작합니다. 기본적으로 캐시 지속 시간은 1시간입니다. 사용자 지정 인증 페이로드에서는 다른 보존 기간을 지정하여 조정할 수 있습니다.
+>
 
 다음은 헤더 인증 유형의 예입니다.
 

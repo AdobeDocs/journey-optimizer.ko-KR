@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
+source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 25%
+source-wordcount: '1662'
+ht-degree: 24%
 
 ---
 
@@ -172,3 +172,20 @@ Adobe Experience Platform 프로필에 시간대가 정의된 경우 여정에�
 30일 여정 시간 제한으로 인해 여정 재입력이 허용되지 않는 경우 재입력 차단이 30일 이상 작동하도록 할 수 없습니다. 실제로 여정에 입장한 후 30일이 지난 사람에 대한 정보를 모두 삭제하기 때문에 30일 이상 전에 입력한 사람을 알 수 없습니다.
 
 개인은 30일 여정 제한 시간 전에 대기 기간을 완료할 수 있는 충분한 시간이 여정에 남아 있는 경우에만 대기 활동을 입력할 수 있습니다. [이 페이지](../building-journeys/wait-activity.md)를 참조하십시오.
+
+## 여정 복제 {#duplicate-a-journey}
+
+에서 기존 여정을 복제할 수 있습니다. **찾아보기** 탭. 모든 오브젝트 및 설정이 여정 사본에 복제됩니다.
+
+이렇게 하려면 아래 단계를 수행합니다.
+
+1. 복사할 여정으로 이동하여 **추가 작업** 아이콘(여정 이름 옆에 있는 세 점).
+1. **복제**&#x200B;를 선택합니다.
+
+   ![여정 복제](assets/duplicate-jo.png)
+
+<!--1. Enter the name of the journey and confirm. 
+
+    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+
+1. 새 여정이 만들어지고 여정 목록에서 사용할 수 있습니다.
