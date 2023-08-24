@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: 웹, 하위 도메인, 구성
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 27%
@@ -31,7 +31,7 @@ ht-degree: 27%
 >title="웹 하위 도메인 설정"
 >abstract="Adobe에 위임된 하위 도메인 목록에서 하위 도메인을 선택합니다. 이 웹 하위 도메인을 기본 하위 도메인으로 설정할 수 있지만 기본 하위 도메인은 한 번에 하나만 사용할 수 있습니다."
 
-웹 경험을 작성할 때에서 오는 콘텐츠를 추가하는 경우 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 라이브러리에서는 이 콘텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다.
+웹 경험을 작성할 때에서 오는 콘텐츠를 추가하는 경우 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) 라이브러리에서는 이 콘텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다.
 
 이렇게 하려면 이미 Adobe에게 위임된 하위 도메인 목록에서 선택해야 합니다. 에서 Adobe에 하위 도메인 위임에 대해 자세히 알아보기 [이 섹션](../configuration/delegate-subdomain.md).
 

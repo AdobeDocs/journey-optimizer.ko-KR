@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
+source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 11%
@@ -151,4 +151,4 @@ Visual Editing Helper 브라우저 확장이 올바르게 설치되었지만 웹
 
 ## 에셋용 브랜드 도메인 {#branded-domains-for-assets}
 
-웹 경험을 작성할 때에서 오는 콘텐츠를 추가하는 경우 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 라이브러리에서는 이 콘텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다. [자세히 알아보기](web-delegated-subdomains.md)
+웹 경험을 작성할 때에서 오는 콘텐츠를 추가하는 경우 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) 라이브러리에서는 이 콘텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다. [자세히 알아보기](web-delegated-subdomains.md)

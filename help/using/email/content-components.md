@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 구성 요소, 이메일 디자이너, 편집기, 이메일
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: c4ea32bf25ab49e925d6f0610494c3729e779bf1
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 57%
@@ -121,7 +121,7 @@ ht-degree: 57%
    * **글꼴 크기**: 텍스트의 글꼴 크기를 픽셀 단위로 선택합니다.
    * **[!UICONTROL 글꼴 색상 변경]**: 글꼴 색상을 선택합니다.
    * **[!UICONTROL 링크 삽입]**: 콘텐츠에 모든 유형의 링크를 추가합니다.
-   * **[!UICONTROL 이미지 편집]**: 텍스트 구성 요소에 이미지 또는 자산을 추가합니다. [에셋 관리에 대해 자세히 알아보기](assets-essentials.md)
+   * **[!UICONTROL 이미지 편집]**: 텍스트 구성 요소에 이미지 또는 자산을 추가합니다. [에셋 관리에 대해 자세히 알아보기](../content-management/assets-essentials.md)
    * **[!UICONTROL 글꼴 색상 변경]**: 글꼴 색상을 선택합니다.
    * **[!UICONTROL 개인화 추가]**: 개인화 필드를 추가하여 프로필 데이터의 콘텐츠를 사용자 정의합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
    * **[!UICONTROL 소스 코드 표시]**: 텍스트의 소스 코드를 표시합니다. 소스 코드는 수정할 수 없습니다.
@@ -178,7 +178,7 @@ ht-degree: 57%
 
    ![](assets/email_designer_10.png)
 
-1. 다음을 선택할 수도 있습니다. **[!UICONTROL 유사한 Stock 사진 찾기]**. [자세히 알아보기](stock.md)
+1. 다음을 선택할 수도 있습니다. **[!UICONTROL 유사한 Stock 사진 찾기]**. [자세히 알아보기](../content-management/stock.md)
 
 1. 다음에서 **[!UICONTROL 스타일]** 탭에서 여백, 테두리 등의 다른 스타일 특성을 조정합니다. 대상자를 다른 콘텐츠로 리디렉션하도록 링크를 추가할 수 있습니다.****
 

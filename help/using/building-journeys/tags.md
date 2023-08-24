@@ -8,22 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 여정, 태그
-badge: label="Beta" type="Informative"
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 46%
+source-wordcount: '234'
+ht-degree: 42%
 
 ---
 
 # 여정의 태그 관리 {#journey_tags}
 
 Journey Optimizer 전문가는 태그를 사용하여 여정을 구성할 수 있습니다. 태그를 사용하면 개체를 빠르고 간단하게 분류하여 검색을 개선할 수 있습니다.
-
->[!AVAILABILITY]
->
-> 통합 태그는 현재 Beta 버전입니다. 설명서 및 기능은 변경될 수 있습니다.
 
 ## 여정에 태그 추가
 

@@ -4,7 +4,7 @@ product: journey optimizer
 title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
 workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
@@ -445,7 +445,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Stock 및 Adobe Journey Optimizer 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선싱 및 저장할 수 있습니다. </br> 새로운 <b>유사한 스톡 사진 찾기</b> 옵션으로도 이미지의 내용, 색상 및 컴포지션과 일치하는 스톡 사진을 찾을 수 있습니다. </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>자세한 내용은 <a href="../email/stock.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../content-management/stock.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

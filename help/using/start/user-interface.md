@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0e0c293b31e3b74b57b12e0ae06f6ea9eb4d0dc1
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 100%
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 이 섹션에서는 콘텐츠를 만들고 관리합니다.
 
-* **[!UICONTROL 자산]** - [!DNL Adobe Experience Manager Assets Essentials]은 메시지를 채우는 데 사용할 수 있는 자산의 중앙 집중식 저장소입니다. [자세히 보기](../email/assets-essentials.md)
+* **[!UICONTROL 자산]** - [!DNL Adobe Experience Manager Assets Essentials]은 메시지를 채우는 데 사용할 수 있는 자산의 중앙 집중식 저장소입니다. [자세히 보기](../content-management/assets-essentials.md)
 
 * **[!UICONTROL 콘텐츠 템플릿]** - 보다 빠르고 품질 높은 디자인 프로세스를 위해 Journey Optimizer 캠페인 및 여정 전반에서 사용자 정의 콘텐츠를 쉽게 재사용할 수 있는 독립 실행형 템플릿을 만듭니다. [자세히 알아보기](../email/content-templates.md)
 

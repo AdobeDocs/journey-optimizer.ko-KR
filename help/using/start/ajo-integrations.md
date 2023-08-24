@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ Journey Optimizer에서 여정을 만든 후 Customer Journey Analytics는 플�
 
 [!DNL Adobe Journey Optimizer]에서 왼쪽 메뉴의 **[!UICONTROL Assets]** 섹션을 통해 [!DNL Adobe Experience Manager Assets Essentials]에 바로 액세스할 수 있습니다.
 
-자세한 내용은 [Journey Optimizer + Assets Essentials](../email/assets-essentials.md)를 참고하.
+자세한 내용은 [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md)를 참고하.
 
 
 ## Adobe Stock{#integration-stock}
@@ -55,12 +55,12 @@ Journey Optimizer에서 여정을 만든 후 Customer Journey Analytics는 플�
 
 [!DNL Adobe Journey Optimizer]의 **[!UICONTROL Adobe Stock 사진 찾기]** 옵션을 사용하면 [!DNL Adobe Stock]에서 이메일로 이미지를 바로 업로드하고 **[!UICONTROL Assets]** 폴더에 추가할 수 있습니다. 또한 **[!UICONTROL 유사한 Stock 사진 찾기]** 옵션은 게재에 사용하는 자산과 콘텐츠, 색상, 컴포지션이 비슷한 이미지를 찾는 데 도움이 됩니다.
 
-[Journey Optimizer + Stock](../email/stock.md)에 대해 자세히 알아보십시오.
+[Journey Optimizer + Stock](../content-management/stock.md)에 대해 자세히 알아보십시오.
 
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
 
-실시간 고객 데이터 플랫폼을 기반으로 하는 Adobe Intelligent Services를 사용하면 고객 경험 사용 사례에서 인공 지능과 머신 러닝을 활용할 수 있습니다. 이를 통해 마케팅 분석가는 데이터 과학 전문 지식 없이도 비즈니스 수준의 전문 구성을 사용하여 기업의 요구 사항에 맞는 예측을 설정할 수 있습니다.
+실시간 고객 데이터 플랫폼을 기반으로 하는 Adobe Intelligent Services를 사용하면 고객 경험 사용 사례에서 인공 지능과 머신 러닝을 활용할 수 있습니다. 이를 통해 마케팅 분석가는 데이터 과학 전문 지식 없이도 비즈니스 수준의 구성을 사용하여 기업의 요구 사항에 맞는 예측을 설정할 수 있습니다.
 
 고객 AI는 브랜드가 Adobe Experience Platform에서 프로필 속성으로 사용할 수 있고 여정을 개인화하는 데 사용할 수 있는 회전 또는 변환 머신 러닝 기반 점수를 만들 수 있도록 합니다.
 

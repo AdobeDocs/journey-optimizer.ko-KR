@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 100%
+source-wordcount: '1416'
+ht-degree: 98%
 
 ---
 
@@ -185,9 +185,6 @@ ht-degree: 100%
       + 콘텐츠 디자인 {#add-content}
          + [콘텐츠 구성 요소 사용](using/email/content-components.md)
          + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
-         + 자산 관리 {#manage-asset}
-            + [Assets Essentials 작업](using/email/assets-essentials.md)
-            + [Adobe Stock 작업](using/email/stock.md)
          + [개인화된 오퍼 삽입](using/email/add-offers-email.md)
          + [텍스트 버전 생성](using/email/text-version-email.md)
          + [사전 헤더 추가](using/email/preheader.md)
@@ -251,6 +248,13 @@ ht-degree: 100%
    + 랜딩 페이지 구성 {#lp-configuration}
       + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
++ 콘텐츠 관리 {#content-management}
+   + [Assets Essentials 작업](using/content-management/assets-essentials.md)
+   + [Adobe Stock 작업](using/content-management/stock.md)
+   + 콘텐츠 도우미를 사용하여 작업{#content-assistant}
+      + [콘텐츠 지원 시작](using/content-management/gs-generative.md)
+      + [제목 생성](using/content-management/generative-title.md)
+      + [이미지 생성](using/content-management/generative-image.md)
 + 개인화 및 다이내믹 콘텐츠 {#personalized-dynamic-content}
    + 개인화 {#personalization}
       + [개인화 시작](using/personalization/personalize.md)
