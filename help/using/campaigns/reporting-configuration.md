@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="보고용 데이터 세트 설정"
->abstract="보고 구성을 사용하면 캠페인 보고서에 사용될 추가 지표를 검색할 수 있습니다. 기술 사용자가 수행해야 합니다."
+>abstract="보고 구성을 사용하여 캠페인 보고서에서 사용되는 추가 지표를 검색할 수 있습니다. 기술 사용자가 수행해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
