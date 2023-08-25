@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
+source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1134'
 ht-degree: 4%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 4%
 >[!BEGINTABS]
 
 >[!TAB 여정에 인앱 메시지 추가]
+
+여정에 인앱 메시지를 추가하려면 다음 단계를 수행합니다.
 
 1. 여정을 연 다음 **[!UICONTROL 인앱]** 의 활동 **[!UICONTROL 작업]** 팔레트의 섹션입니다.
 
