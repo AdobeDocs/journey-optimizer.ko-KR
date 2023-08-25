@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 <table>
 <thead>
 <tr>
-<th><strong>시드 목록을 사용하여 이메일 유효성 검사</strong><br/></th>
+<th><strong>시드 목록을 사용한 이메일 유효성 검사</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -98,7 +98,7 @@ A new option is available in the email surface settings to include email address
 
 **여정**
 
-* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 개인 베타로 사용할 수 있습니다. [자세히 알아보기](../action/action-response.md).
+* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Private Beta로 사용할 수 있습니다. [자세히 알아보기](../action/action-response.md).
 * 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 정의 작업이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
@@ -162,7 +162,7 @@ A new option is available in the email surface settings to include email address
 <td>
 <p>이제 Journey Optimizer 이메일 편집기에서 HTML 콘텐츠를 가져오고 변환할 수 있습니다. 콘텐츠 블록은 자동으로 식별되며 이메일 디자이너에서 사용할 수 있습니다. 강력한 디자인 기능을 사용하여 업데이트하고 개인화해 보세요.</p>
 <img src="assets/html-convert.png">
-<p>자세한 내용은 <a href="../email/existing-content.md">세부 설명서</a>를 참고하십시오.</p>
+<p>자세한 내용은 <a href="../email/existing-content.md">세부 설명서</a>를 참고하세요.</p>
 </td>
 </tr>
 </tbody>

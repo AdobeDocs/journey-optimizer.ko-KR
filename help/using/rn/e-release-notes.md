@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 40%
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 40%
 
 ## 2023년 8월 초기 릴리스 정보 {#aug-rn-2023}
 
-**릴리스 날짜**: 2023년 8월 23~24일
+**릴리스 일자**: 2023년 8월 23~24일
 
 ### 새로운 기능{#aug-2023-features}
 
@@ -46,7 +46,7 @@ ht-degree: 40%
 <table>
 <thead>
 <tr>
-<th><strong>시드 목록을 사용하여 이메일 유효성 검사</strong><br/></th>
+<th><strong>시드 목록을 사용한 이메일 유효성 검사</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -91,11 +91,11 @@ ht-degree: 40%
 
 **이메일 채널**
 
-트랜잭션 메시지 대상자에 스팸 불만으로 인해 억제된 이메일 주소를 포함하는 새로운 옵션을 이메일 표면 설정에서 사용할 수 있습니다. 마케팅 메시지를 스팸으로 표시했더라도 이러한 프로필은 암호 재설정 또는 계정 구문과 같은 트랜잭션 메시지를 받을 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
+이메일 표면 설정의 새로운 설정을 통해 트랜잭션 메시지 대상자에 스팸 메시지 불만 제기로 인해 억제된 이메일 주소를 포함할 수 있습니다. 이 옵션을 사용하면 해당 프로필이 마케팅 메시지를 스팸으로 표시했더라도 암호 재설정이나 계정 관련 공지와 같은 트랜잭션 메시지를 받을 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
 
 **여정**
 
-* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 개인 베타로 사용할 수 있습니다.
+* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Private Beta로 사용할 수 있습니다.
 <!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
 * When duplicating a journey, you can now define the name of the journey copy.-->
 
