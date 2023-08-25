@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
+source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1344'
 ht-degree: 4%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 4%
 * [이메일](#email-live)
 * [푸시](#push-live)
 * [SMS](#sms-live)
+* [인앱](#in-app-live)
 
 여정 **[!UICONTROL 라이브 보고서]** 은 여정의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [섹션](live-report.md#modify-dashboard).
 
@@ -196,6 +197,14 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 다음 **[!UICONTROL 인앱 성능]** KPI는 다음과 같이 방문자의 인앱 메시지 참여와 관련된 주요 정보를 자세히 설명합니다.
 
 * **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 인앱 메시지 수입니다.
+
+  >[!NOTE]
+  >
+  >노출이 카운트되도록 하려면 사용자가 다음 두 가지 기준을 충족해야 합니다.
+  >* 여정 내 특정 인앱 활동에 도달하여 달성되는 인앱 경험 내 자격 조건.
+  >* 트리거 규칙에 지정된 조건을 충족합니다.
+  > 
+  >제2 기준으로 인해, 타겟팅된 프로필의 수와 고유 노출의 수 간에 주목할 만한 변동이 있을 수 있다.
 
 * **[!UICONTROL 상호 작용]**: 인앱 메시지를 사용한 총 참여 수입니다. 여기에는 클릭, 해제 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
 
