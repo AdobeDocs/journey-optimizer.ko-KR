@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 시드 목록, 시드 목록, 시드, 구성
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '912'
 ht-degree: 2%
 
 ---
@@ -49,9 +49,14 @@ ht-degree: 2%
 
 이미 만들어진 시드 목록에 액세스하려면 다음으로 이동합니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 이메일 구성]**, 및 선택 **[!UICONTROL 시드 목록]**.
 
+<!--
 >[!CAUTION]
 >
->시드 목록을 보고 내보내고 관리할 수 있는 권한은 다음으로 제한됩니다. [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator). 관리에 대해 자세히 알아보기 [!DNL Journey Optimizer] 의 사용자 액세스 권한 [이 섹션](../administration/permissions-overview.md).
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
+>[!CAUTION]
+>
+>시드 목록을 보고, 편집하고, 관리하려면 **[!UICONTROL 시드 목록 관리]** 권한.
 
 ![](assets/seed-list-access.png)
 
