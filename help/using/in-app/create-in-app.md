@@ -1,72 +1,68 @@
 ---
-title: 캠페인에 인앱 알림 만들기
-description: Journey Optimizer의 캠페인에서 인앱 메시지를 만드는 방법을 알아봅니다
+title: Journey Optimizer에서 인앱 알림 만들기
+description: Journey Optimizer에서 인앱 메시지를 만드는 방법을 알아봅니다
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cf3e56f2c87ad39d94cb412fc605f5b235d6d1e1
+source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 5%
+source-wordcount: '1123'
+ht-degree: 4%
 
 ---
 
-# 캠페인에 인앱 메시지 만들기 {#create-in-app}
+# 인앱 메시지 만들기  {#create-in-app}
 
-<!--
+캠페인 또는 여정에서 인앱 메시지를 추가할 수 있습니다. 아래 설명된 단계에 따라 두 컨텍스트에서 인앱 메시지를 만드십시오.
+
 >[!BEGINTABS]
 
->[!TAB Add an In-app message to a journey]
+>[!TAB 여정에 인앱 메시지 추가]
 
->[!AVAILABILITY]
->
->The In-app activity is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
+1. 여정을 연 다음 **[!UICONTROL 인앱]** 의 활동 **[!UICONTROL 작업]** 팔레트의 섹션입니다.
 
-1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
+   프로필이 여정 끝에 도달하면 표시되는 모든 인앱 메시지가 자동으로 만료됩니다. 이러한 이유로, 적절한 타이밍을 보장하기 위해 인앱 활동 후에 대기 활동이 자동으로 추가됩니다.
 
-    When a profile reaches the end of their journey, any in-app messages displayed to them will automatically expire. For that reason, a Wait activity is automatically added after your In-app activity to ensure proper timing.
+   ![](assets/in_app_journey_1.png)
 
-    ![](assets/in_app_journey_1.png)
+1. 입력 **[!UICONTROL 레이블]** 및 **[!UICONTROL 설명]** 메시지를 표시합니다.
 
-1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Description]** for your message.
+1. 다음을 선택합니다. [인앱 표면](inapp-configuration.md) 사용할 수 있습니다.
 
-1. Choose the [In-app surface](inapp-configuration.md) to use.
+   ![](assets/in_app_journey_2.png)
 
-    ![](assets/in_app_journey_2.png)
+1. 이제 를 사용하여 콘텐츠 디자인을 시작할 수 있습니다. **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다. [자세히 알아보기](design-in-app.md)
 
-1. You can now start designing your content with the **[!UICONTROL Edit content]** button. [Learn more](design-in-app.md)
+1. 클릭 **[!UICONTROL 트리거 편집]** 트리거를 구성합니다.
 
-1. Click **[!UICONTROL Edit trigger]** to configure your Trigger. 
+   ![](assets/in_app_journey_4.png)
 
-    ![](assets/in_app_journey_4.png)
+1. 인앱 메시지가 활성 상태일 때 트리거 빈도를 선택합니다.
 
-1. Choose the frequency of your trigger when your In-app message is active:
+   * **[!UICONTROL 모든 시간 표시]**: 다음에서 이벤트가 선택될 때 항상 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
+   * **[!UICONTROL 한 번 표시]**: 다음에서 이벤트를 처음 선택할 때만 이 메시지 표시 **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
+   * **[!UICONTROL 클릭스루까지 표시]**: 다음에서 이벤트를 선택하면 이 메시지 표시: **[!UICONTROL 모바일 앱 트리거]** 드롭다운은 SDK에서 &quot;클릭됨&quot; 동작을 사용하여 상호 작용 이벤트를 전송할 때까지 발생합니다.
 
-    * **[!UICONTROL Show every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
+1. 다음에서 **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 메시지를 트리거할 이벤트 및 기준을 선택합니다.
 
-1. From the **[!UICONTROL Mobile app trigger]** dropdown(s), choose the event(s) and criteria that will trigger your message:
+   1. 왼쪽 드롭다운에서 메시지를 트리거하는 데 필요한 이벤트를 선택합니다.
+   1. 오른쪽 드롭다운에서 선택한 이벤트에 필요한 유효성 검사를 선택합니다.
+   1. 다음을 클릭합니다. **[!UICONTROL 추가]** 트리거에서 여러 이벤트 또는 기준을 고려하도록 하려면 버튼을 클릭합니다. 그런 다음 위의 단계를 반복합니다.
+   1. 이벤트가 연결되는 방식을 선택합니다(예: 선택). **[!UICONTROL 및]** 원한다면 **모두** 메시지를 표시하거나 선택하려면 트리거가 true여야 합니다. **[!UICONTROL 또는]** 메시지를 표시하려면 다음을 수행합니다. **다음 중 하나** 이 트리거를 true로 설정합니다.
+   1. 클릭 **[!UICONTROL 저장]** 트리거가 구성된 경우.
 
-    1. From the left drop-down, select the event required to trigger the message.
-    1. From the right drop-down, select the validation required on the selected event.
-    1. Click the **[!UICONTROL Add]** button if you want the trigger to consider multiple events or criteria. Then, repeat the steps above.
-    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
-    1. Click **[!UICONTROL Save]** when your Triggers have been configured.
+   ![](assets/in_app_journey_3.png)
 
-    ![](assets/in_app_journey_3.png)
-    
-1. If necessary, complete your journey flow by dragging and dropping additional actions or events. [Learn more](../building-journeys/about-journey-activities.md)
+1. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
 
-1. Once your In-app message is ready, finalize the configuration and publish your journey to activate it.
+1. 인앱 메시지가 준비되면 구성을 완료하고 여정을 게시하여 활성화합니다.
 
-For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
+여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md).
 
->[!TAB Add an In-app message to a campaign]
--->
+>[!TAB 캠페인에 인앱 메시지 추가]
 
 캠페인에 인앱 메시지를 추가하려면 다음 단계를 수행합니다.
 
@@ -149,9 +145,7 @@ For more information on how to configure a journey, refer to [this page](../buil
 
    ![](assets/in_app_create_4.png)
 
-<!--
 >[!ENDTABS]
--->
 
 ## 방법 비디오{#video}
 
