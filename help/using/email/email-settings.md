@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1967'
 ht-degree: 8%
 
 ---
@@ -187,7 +187,10 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="시드 목록 추가"
->abstract="게재에 특정 이메일 시드 주소를 자동으로 포함하려면 선택한 시드 목록을 선택합니다. 이러한 주소는 게재 실행 시 포함되며 확인을 위해 정확한 게재 사본을 받게 됩니다."
+>abstract="대상의 특정 내부 주소를 자동으로 추가하려면 선택한 시드 목록을 선택하십시오. 이러한 시드 주소는 게재 실행 시 포함되며 확인을 위해 메시지의 정확한 사본을 받게 됩니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="시드 목록이란 무엇입니까?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="시드 목록 만들기"
+
 
 의 시드 목록 [!DNL Journey Optimizer] 을 사용하면 게재에 특정 이메일 시드 주소를 자동으로 포함할 수 있습니다. [자세히 알아보기](../configuration/seed-lists.md)
 

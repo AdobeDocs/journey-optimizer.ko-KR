@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 시드 목록, 시드 목록, 시드, 구성
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 3%
+source-wordcount: '919'
+ht-degree: 2%
 
 ---
 
@@ -72,13 +72,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
 >title="시드 목록 정의"
->abstract="게재에 특정 시드 주소를 자동으로 포함하려면 시드 목록 세부 사항을 입력합니다. 이러한 주소는 게재 실행 시 포함되며 확인을 위해 정확한 게재 사본을 받게 됩니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="시드 목록은 무엇입니까?"
+>abstract="시드 목록을 사용하여 보증 목적으로 게재 대상에 특정 내부 주소를 자동으로 추가하십시오. 시드 목록을 사용하면 보낸 메시지 복사본을 모니터링하여 모든 표시 요소가 올바른지 확인하고 메일링 목록을 보호할 수 있습니다. 현재 이 기능은 이메일 채널에만 적용됩니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="시드 목록이란 무엇입니까?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
->title="사용할 시드 주소 지정"
->abstract="게재에 자동으로 포함될 시드 주소를 추가합니다. CSV 파일을 가져오거나 이메일 주소를 수동으로 입력할 수 있습니다."
+>title="시드 목록 채우기"
+>abstract="게재 실행 시간에 포함될 주소를 선택하고 메시지의 정확한 복사본을 받습니다. CSV 파일을 가져오거나 이메일 주소를 수동으로 입력할 수 있습니다."
 
 시드 목록을 만들려면 아래 단계를 수행합니다.
 
