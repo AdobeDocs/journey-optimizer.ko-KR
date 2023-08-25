@@ -6,11 +6,13 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
+hide: true
+hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '587'
+ht-degree: 2%
 
 ---
 
@@ -60,20 +62,6 @@ ht-degree: 1%
 1. 인앱 메시지가 준비되면 구성을 완료하고 여정을 게시하여 활성화합니다.
 
 여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md).
-
-## 인앱 활동 제한 사항 {#in-app-activity-limitations}
-
-* 이 기능은 현재 의료 서비스 고객에게 제공되지 않습니다.
-
-* 개인화에는 프로필 속성만 포함될 수 있습니다.
-
-* 인앱 여정은 여정 수명에 연결되어 있습니다. 즉, 프로필에 대한 여정이 종료되면 해당 프로필 내의 모든 인앱 메시지가 해당 프로필에 대해 표시되지 않습니다.  따라서 여정 활동에서 바로 인앱 메시지를 중지할 수 없습니다. 대신, 인앱 메시지가 프로필에 표시되지 않도록 하려면 전체 여정을 종료해야 합니다.
-
-* 테스트 모드에서는 여정의 수명에 따라 인앱 디스플레이가 달라집니다. 테스트 중에 여정이 너무 일찍 종료되지 않도록 하려면 **[!UICONTROL 대기 시간]** 값: **[!UICONTROL 대기]** 활동.
-
-* **[!UICONTROL 반응]** 인앱 열기 또는 클릭에 반응하는 데 활동을 사용할 수 없습니다.
-
-* 활성화 지연은 사용자 프로필이 캔버스의 인앱 활동에 도달하는 순간과 해당 인앱 메시지가 표시되는 시간 사이에 발생할 수 있습니다.
 
 ## 인앱 보고서  {#inapp-report}
 

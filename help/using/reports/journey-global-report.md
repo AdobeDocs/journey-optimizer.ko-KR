@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2258'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 2%
 * [이메일](#email-global)
 * [푸시](#push-global)
 * [SMS](#sms-global)
+* [인앱](#in-app-global)
 
 여정 **[!UICONTROL 글로벌 보고서]** 은 여정의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [섹션](global-report.md#modify-dashboard).
 
@@ -287,4 +288,33 @@ SMS **[!UICONTROL 글로벌 보고서]** 게재의 성공 및 오류를 자세�
 
 다음 **[!UICONTROL SMS - 링크를 통한 클릭 수]** 및 **[!UICONTROL SMS - 추적 통계]** 위젯은 방문자의 URL 참여와 관련된 기본 정보를 자세히 설명합니다.
 
++++
+
+## 인앱 탭 {#in-app-global}
+
+여정에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 인앱]** 탭에서는 여정에 전송된 인앱 게재와 관련된 기본 정보를 자세히 설명합니다.
+
+![](assets/in-app-journey-report.png)
+
++++인앱 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
+
+다음 **[!UICONTROL 인앱 성능]** KPI는 다음과 같이 방문자의 인앱 메시지 참여와 관련된 주요 정보를 자세히 설명합니다.
+
+* **[!UICONTROL 고유 노출 횟수]**: 인앱 메시지가 표시된 고유 사용자 수.
+
+* **[!UICONTROL 노출 횟수]**: 모든 사용자에게 표시되는 총 인앱 메시지 수입니다.
+
+  >[!NOTE]
+  >
+  >노출이 카운트되도록 하려면 사용자가 다음 두 가지 기준을 충족해야 합니다.
+  >* 여정 내 특정 인앱 활동에 도달하여 달성되는 인앱 경험 내 자격 조건.
+  >* 트리거 규칙에 지정된 조건을 충족합니다.
+  > 
+  >제2 기준으로 인해, 타겟팅된 프로필의 수와 고유 노출의 수 간에 주목할 만한 변동이 있을 수 있다.
+
+* **[!UICONTROL 상호 작용 비율]**: 인앱 메시지 참여 비율. 여기에는 클릭, 해제 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
+
+다음 **[!UICONTROL 인앱 요약]** 그래프는 관련 기간 동안 인앱 노출 횟수 및 상호 작용의 진행 상황을 보여 줍니다.
+
+다음 **[!UICONTROL 유형별 상호 작용]** 그래프 및 표는 사용자가 클릭, 무시 또는 상호 작용을 추적하여 인앱 메시지와 상호 작용하는 방법을 자세히 설명합니다.
 +++

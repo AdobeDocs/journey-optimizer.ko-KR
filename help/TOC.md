@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 97%
+source-wordcount: '1417'
+ht-degree: 98%
 
 ---
 
@@ -203,8 +203,7 @@ ht-degree: 97%
       + [이메일 표면 설정 구성](using/email/email-settings.md)
 + 인앱 채널{#in-app}
    + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
-   + [인앱 메시지 만들기  캠페인 중](using/in-app/create-in-app.md)
-   + [여정에 인앱 메시지 만들기](using/in-app/create-in-app-journey.md)
+   + [인앱 메시지 만들기 ](using/in-app/create-in-app.md)
    + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
    + [인앱 알림 테스트하고 보내기](using/in-app/send-in-app.md)
    + [인앱 채널 구성](using/in-app/inapp-configuration.md)

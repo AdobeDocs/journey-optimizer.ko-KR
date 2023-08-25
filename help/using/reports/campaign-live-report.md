@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
+source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1352'
 ht-degree: 6%
 
 ---
@@ -109,15 +109,13 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 다음 **[!UICONTROL 인앱 성능]** KPI는 다음과 같이 방문자의 인앱 메시지 참여와 관련된 주요 정보를 자세히 설명합니다.
 
-* **[!UICONTROL 고유 노출 횟수]**: 인앱 메시지가 전달된 고유 사용자 수.
-
 * **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 인앱 메시지 수입니다.
 
-다음 **[!UICONTROL 인앱 요약]** 그래프는 관련 기간 동안 인앱 노출 횟수의 발전을 보여 줍니다.
+* **[!UICONTROL 상호 작용]**: 인앱 메시지를 사용한 총 참여 수입니다. 여기에는 클릭, 해제 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
 
-다음 **[!UICONTROL 버튼을 통한 클릭 수]** 그래프 및 표에는 버튼당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
+다음 **[!UICONTROL 인앱 요약]** 그래프는 관련 기간 동안 인앱 노출 횟수 및 상호 작용의 진행 상황을 보여 줍니다.
 
-* **[!UICONTROL 클릭수]**: 인앱 메시지에 포함된 버튼과 상호 작용한 총 수신자 수입니다.
+다음 **[!UICONTROL 유형별 상호 작용]** 그래프 및 표는 사용자가 클릭, 무시 또는 상호 작용을 추적하여 인앱 메시지와 상호 작용하는 방법을 자세히 설명합니다.
 
 +++
 
@@ -187,21 +185,19 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 웹 탭 {#web-tab}
 
-캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 웹]** 탭에서는 웹 페이지와 관련된 기본 정보를 자세히 설명합니다.
+캠페인에서 **[!UICONTROL 라이브 보고서]**, **[!UICONTROL 웹]** 탭에서는 웹 페이지와 관련된 기본 정보를 자세히 설명합니다.
 
 +++웹 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
 
 다음 **[!UICONTROL 웹 성능]** KPI는 다음과 같이 방문자의 웹 경험 참여와 관련된 주요 정보를 자세히 설명합니다.
 
-* **[!UICONTROL 고유 노출 횟수]**: 웹 경험이 전달된 고유 사용자 수.
-
 * **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 웹 경험 수입니다.
 
-* **[!UICONTROL 클릭수]**: 총 URL 방문 수
+* **[!UICONTROL 상호 작용]**: 웹 페이지에 대한 총 참여 수입니다. 여기에는 클릭 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
 
-다음 **[!UICONTROL 웹 요약]** 그래프는 관련 기간에 대한 웹 경험(노출 횟수, 고유 노출 횟수 및 클릭 수)의 발전을 보여 줍니다.
+다음 **[!UICONTROL 웹 요약]** 그래프는 지난 24시간 동안 웹 경험(노출 횟수, 고유 노출 횟수 및 상호 작용)이 발전한 모습을 보여 줍니다.
 
-다음 **[!UICONTROL 요소별 클릭 수]** 표에서는 웹 페이지의 다양한 요소에 대한 방문자의 참여도와 관련된 기본 정보를 자세히 설명합니다.
+다음 **[!UICONTROL 요소별 상호 작용]** 표에서는 웹 페이지의 다양한 요소에 대한 방문자의 참여도와 관련된 기본 정보를 자세히 설명합니다.
 +++
 
 ## 다이렉트 메일 탭 {#direct-mail-tab}

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
+source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2472'
 ht-degree: 4%
 
 ---
@@ -219,17 +219,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 인앱 메시지 수입니다.
 
-* **[!UICONTROL 클릭률]**: 인앱 메시지에 포함된 버튼과 상호 작용한 사용자와 메시지를 본 사용자의 비율.
+* **[!UICONTROL 상호 작용 비율]**: 인앱 메시지 참여 비율. 여기에는 클릭, 해제 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
 
-* **[!UICONTROL 취소율]**: 수신자가 무시한 인앱 메시지 비율입니다.
+다음 **[!UICONTROL 인앱 요약]** 그래프는 관련 기간 동안 인앱 노출 횟수 및 상호 작용의 진행 상황을 보여 줍니다.
 
-다음 **[!UICONTROL 인앱 요약]** 그래프는 관련 기간 동안 인앱 노출 횟수의 발전을 보여 줍니다.
-
-다음 **[!UICONTROL 버튼을 통한 클릭 수]** 그래프 및 표에는 버튼당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
-
-* **[!UICONTROL 클릭수]**: 인앱 메시지에 포함된 버튼과 상호 작용한 총 수신자 수입니다.
-
-* **[!UICONTROL 클릭률]**: 인앱 메시지에 포함된 버튼과 상호 작용한 사용자와 메시지를 본 사용자의 비율.
+다음 **[!UICONTROL 유형별 상호 작용]** 그래프 및 표는 사용자가 클릭, 무시 또는 상호 작용을 추적하여 인앱 메시지와 상호 작용하는 방법을 자세히 설명합니다.
 +++
 
 ## 푸시 알림 탭 {#push-global}
@@ -354,11 +348,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 웹 경험 수입니다.
 
-* **[!UICONTROL 클릭률]**: 웹 페이지의 다양한 요소와 상호 작용한 방문자의 비율입니다.
+* **[!UICONTROL 상호 작용 비율]**: 웹 페이지 참여 비율. 여기에는 클릭 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
 
-다음 **[!UICONTROL 웹 요약]** 그래프는 관련 기간에 대한 웹 경험(노출 횟수, 고유 노출 횟수 및 클릭 수)의 발전을 보여 줍니다.
+다음 **[!UICONTROL 웹 요약]** 그래프는 관련 기간 동안 웹 경험의 진행 상황(노출 횟수, 고유 노출 횟수 및 상호 작용)을 보여 줍니다.
 
-다음 **[!UICONTROL 요소별 클릭 수]** 표에서는 웹 페이지의 다양한 요소에 대한 방문자의 참여도와 관련된 기본 정보를 자세히 설명합니다.
+다음 **[!UICONTROL 요소별 상호 작용]** 표에서는 웹 페이지의 다양한 요소에 대한 방문자의 참여도와 관련된 기본 정보를 자세히 설명합니다.
 +++
 
 ## 다이렉트 메일 탭 {#direct-mail-global}

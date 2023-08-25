@@ -4,7 +4,7 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
+source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
 workflow-type: tm+mt
 source-wordcount: '3432'
 ht-degree: 96%
@@ -38,8 +38,8 @@ ht-degree: 96%
 <tr>
 <td>
 <p>이제 여정 내에서 앱 사용자에게 개인화된 인앱 메시지를 보낼 수 있습니다. Journey Optimizer를 사용하여 알림을 디자인하고 메시지 레이아웃, 디스플레이, 텍스트, 버튼을 사용자 정의하여 원활한 경험을 만들 수 있습니다.</p>
-<img src="assets/in_app_journey_1.png"/>
-<p>자세한 내용은 <a href="../in-app/create-in-app-journey.md">세부 설명서</a>를 참조하십시오.</p>
+<img src="assets/do-not-localize/in-app-GA.gif"/>
+<p>자세한 내용은 <a href="../in-app/create-in-app.md">세부 설명서</a>를 참조하십시오.</p>
 </tr>
 </tbody>
 </table>
