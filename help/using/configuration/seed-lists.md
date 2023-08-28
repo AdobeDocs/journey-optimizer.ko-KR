@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 시드 목록, 시드 목록, 시드, 구성
-source-git-commit: ddd80da2577ef3006211a7f7d108bf263f539660
+source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '951'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 >
 >현재 이 기능은 이메일 채널에만 적용됩니다.
 >
->변형은 현재 지원되지 않습니다. 시드 주소는 타겟팅된 대상의 각 프로필과 마찬가지로 메시지의 단일 사본을 수신하고 일부 변형(예: 의 다양한 처리)은 받지 않습니다. [콘텐츠 실험](../campaigns/get-started-experiment.md)).
+>변형은 현재 지원되지 않습니다. 타겟팅된 대상의 각 프로필과 마찬가지로, 시드 주소는 각 메시지의 단일 사본을 수신하지만 동일한 메시지의 모든 변형은 수신하지 않습니다(예: 의 다른 처리). [콘텐츠 실험](../campaigns/get-started-experiment.md)).
 
 시드 주소는 정의된 대상 기준과 일치하지 않는 수신자를 타겟팅 하는 데 사용됩니다. 이렇게 하면 게재 범위를 벗어난 수신자는 다른 대상 수신자와 마찬가지로 게재를 받을 수 있습니다.
 
