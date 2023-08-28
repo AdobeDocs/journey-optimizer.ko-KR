@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
+source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 2%
@@ -146,7 +146,7 @@ ht-degree: 2%
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* 두 컬렉션이 **동시에 평가됨**, 평가 기준 A의 2개의 적격 오퍼와 평가 기준 B의 3개의 적격 오퍼가 있으므로, 5개의 오퍼는 모두 각 순위 방법으로 결정된 값을 기준으로 함께 스택됩니다. 2개의 오퍼가 요청되므로 이 5개의 오퍼 중 상위 2개의 적격 오퍼가 반환됩니다.
+* 두 컬렉션이 **동시에 평가됨**, 평가 기준 A의 2개의 적격 오퍼와 평가 기준 B의 3개의 적격 오퍼가 있으므로, 5개의 오퍼는 모두 각 순위 방법으로 결정된 값에 따라 함께 순위가 지정됩니다. 2개의 오퍼가 요청되므로 이 5개의 오퍼 중 상위 2개의 적격 오퍼가 반환됩니다.
 
   ![](../assets/activity_same-rank-collections.png)
 
