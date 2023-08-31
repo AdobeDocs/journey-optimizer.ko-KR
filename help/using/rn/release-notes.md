@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c494f614296bd90ddb1b49337f21a9121f47a78b
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 시드 목록을 만들고 관리할 수 있습니다. 시드 목록은 실제 대상자에 추가할 수 있는 내부 주소로 구성되며 게재 실행 시 타겟팅된 프로필과 정확히 동일한 메시지를 수신합니다. 이 기능을 사용하여 전송된 통신을 모니터링하고 모든 표시 형식, URL, 이미지 및 링크가 올바른지 확인하십시오.</p>
+<p>이제 Journey Optimizer에서 시드 목록을 만들고 관리할 수 있습니다. 시드 목록은 실제 대상자에 추가할 수 있는 내부 주소로 구성되며, 게재 실행 시 해당 목록의 주소는 타겟팅한 프로필과 정확히 동일한 메시지를 수신합니다. 이 기능을 사용하면 보내는 커뮤니케이션을 모니터링하여 모든 표시 형식, URL, 이미지, 링크가 올바른지 확인할 수 있습니다.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>자세한 내용은 <a href="../configuration/seed-lists.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
@@ -106,7 +106,7 @@ A new option is available in the email surface settings to include email address
 **다이렉트 메일**
 
 * 이제 파일 라우팅 구성에서 서버 유형으로 Azure를 선택할 수 있습니다. [자세히 알아보기](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
-* 이제 앰퍼샌드를 DM 표면 설정의 열 구분 기호 필드로 사용할 수 있습니다. [자세히 알아보기](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+* 이제 DM 표면 설정의 열 구분 기호 필드로 앰퍼샌드를 사용할 수 있습니다. [자세히 알아보기](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 
