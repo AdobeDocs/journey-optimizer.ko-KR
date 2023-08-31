@@ -101,7 +101,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="빠른 전송 모드"
->abstract="빠른 전송 모드를 사용하면 푸시 알림 채널에서 3천만 명 미만의 대상자에게 고속 메시지 전송 작업을 수행할 수 있습니다."
+>abstract="빠른 전송 모드를 사용하면 푸시 채널에서 3000만 명 미만의 대상자에게 고속 메시지 전송 작업을 수행할 수 있습니다."
 
 빠른 전송 모드는 [!DNL Journey Optimizer] 캠페인을 통해 매우 빠른 푸시 메시지를 대량으로 전송할 수 있는 추가 기능입니다.
 
