@@ -8,9 +8,9 @@ level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Journey Optimizer를 사용하여 인앱 알림을 만들고 경험 옵션(메�
 
 * 인앱 채널을 구성합니다. [자세히 알아보기](inapp-configuration.md)
 
-* 여정에서 인앱 메시지만 사용하려는 경우에도 시작하기 전에 Journey Optimizer 캠페인에 대한 올바른 권한이 있는지 확인하십시오. 캠페인 권한은 여전히 필요합니다. [자세히 알아보기](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* 시작하기 전에 적절한 Journey Optimizer 캠페인 권한이 있는지 확인해야 합니다. 인앱 메시지를 여정에서만 사용하려는 경우에도 마찬가지입니다. 이 경우에도 Campaign 권한이 필요합니다. [자세히 알아보기](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 권한 부여가 완료되면 첫 인앱 메시지를 만들고 구성하고 전송할 수 있습니다. 방법은 [이 섹션](create-in-app.md)을 참조하십시오.
 
