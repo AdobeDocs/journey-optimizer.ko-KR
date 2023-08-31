@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
+source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 31%
+source-wordcount: '444'
+ht-degree: 27%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 31%
 
 ## 기본 인바운드 키워드{#sms-native-keywords}
 
-기본적으로 Adobe Journey Optimizer은 수신자 부담 및 긴 코드 메시지에 대해 STOP, UNSTOP, START, QUIT, CANCEL, END 및 UNSUBSCRIBE와 같은 표준 영문 회신 메시지를 처리합니다. Journey Optimizer과 함께 사용할 경우 Sinch만 Native 키워드를 지원합니다.
+기본적으로 Adobe Journey Optimizer은 수신자 부담 및 긴 코드 메시지에 대해 STOP, UNSTOP, START, QUIT, CANCEL, END 및 UNSUBSCRIBE와 같은 표준 영문 회신 메시지를 처리합니다. Journey Optimizer과 함께 사용할 경우 Sinch 및 Infobip만 기본 키워드를 지원합니다.
 
 이러한 키워드는 일반적으로 서드파티 공급자로부터 자동 표준 응답을 트리거합니다. 공급자나 설명서 사이트를 통해 직접 확인할 수 있습니다.
 
