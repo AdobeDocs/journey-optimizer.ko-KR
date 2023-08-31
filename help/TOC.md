@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -250,8 +250,8 @@ ht-degree: 98%
 + 콘텐츠 관리 {#content-management}
    + [Assets Essentials 작업](using/content-management/assets-essentials.md)
    + [Adobe Stock 작업](using/content-management/stock.md)
-   + 콘텐츠 도우미를 사용하여 작업{#content-assistant}
-      + [콘텐츠 지원 시작](using/content-management/gs-generative.md)
+   + 콘텐츠 도우미 작업{#content-assistant}
+      + [콘텐츠 도우미 시작](using/content-management/gs-generative.md)
       + [제목 생성](using/content-management/generative-title.md)
       + [이미지 생성](using/content-management/generative-image.md)
 + 개인화 및 다이내믹 콘텐츠 {#personalized-dynamic-content}
@@ -475,7 +475,7 @@ ht-degree: 98%
          + [작업 구성](using/action/about-custom-action-configuration.md)
          + [Adobe Campaign Standard 통합](using/action/acs-action.md)
          + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
-         + [사용자 지정 작업에서 API 호출 응답 사용](using/action/action-response.md)
+         + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
    + [소스](using/start/get-started-sources.md)
 + 액세스 제어 {#access-control}
    + 액세스 제어 개요 {#privacy}
