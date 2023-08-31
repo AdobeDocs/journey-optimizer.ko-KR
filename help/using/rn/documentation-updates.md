@@ -5,9 +5,9 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3279'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 97%
 
 ## 2023년 8월 {#august-2023}
 
-* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2023년 8월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 다음에 대한 참고 사항: **인증 캐시 관리** 다른 여정 간에 토큰이 공유되지 않는다는 세부 정보를 포함하도록 여정 가 업데이트되었습니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-mode)
-* 여정에 대한 페이지 **시작 관리** 동작을 명확하게 하도록 업데이트되었습니다. [자세히 보기](../building-journeys/entry-management.md)
-* Offer decisioning **데이터 세트 내보내기** 는 이제 기본적으로 활성화되어 있습니다. 이전 동작에 대한 참고가 제거되었습니다.  [자세히 보기](../offers/export-catalog/get-started-export.md)
-* 다양 **캠페인 보고서 지표** 라이브 보고서와 글로벌 보고서 모두에서 이름이 변경되었습니다. [자세히 보기](../reports/campaign-global-report.md)
+* [!DNL Journey Optimizer] 2022년 8월 릴리스의 모든 새로운 기능 및 개선 사항을 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
+* 여정의 **인증 캐시 관리**&#x200B;에서 다른 여정 간에는 토큰이 공유되지 않는다는 점을 설명하는 메모를 업데이트했습니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-mode)
+* **항목 관리** 여정에 대한 페이지에서 동작을 명확하게 설명하도록 업데이트했습니다. [자세히 보기](../building-journeys/entry-management.md)
+* Offer Decisioning **데이터 세트 내보내기**&#x200B;가 이제 기본적으로 활성화되어 있습니다. 이전 동작에 대한 메모는 제거했습니다.  [자세히 보기](../offers/export-catalog/get-started-export.md)
+* 라이브 및 글로벌 보고서 모두에서 다양한 **캠페인 보고서 지표**&#x200B;의 이름이 변경되었습니다. [자세히 보기](../reports/campaign-global-report.md)
 * 웹 채널의 콘텐츠 실험 전제 조건에 새 섹션이 추가되었습니다. [자세히 보기](../web/web-prerequisites.md#experiment-prerequisites)
 * **콘텐츠 템플릿으로 작업하기** 페이지에 이메일 콘텐츠 템플릿을 테스트할 때 현재 추적이 지원되지 않음을 나타내는 경고가 추가되었습니다. 추적을 테스트하려면 이메일의 콘텐츠 템플릿을 사용하고 증명을 보내야 합니다. [자세히 보기](../email/content-templates.md#test-template)
 * **랜딩 페이지 만들기 및 게시** 섹션에 몇 가지 경고가 추가되었습니다. 페이지가 게시되었더라도 페이지를 만들 때 정의된 URL을 웹 브라우저에 단순히 복사하여 붙여넣으면 랜딩 페이지에 액세스할 수 없음을 명시하고 있습니다. 대신 미리보기 기능을 사용하여 테스트할 수 있습니다. [자세히 보기](../landing-pages/create-lp.md)
-* 다음 방법에 대한 새로운 섹션이 추가되었습니다. **동의 관리** dm 채널용. [자세히 보기](../direct-mail/test-send-direct-mail.md)
+* 다이렉트 메일 채널에서의 **동의 관리** 방법에 대한 새로운 섹션을 추가했습니다. [자세히 보기](../direct-mail/test-send-direct-mail.md)
 
 
 ## 2023년 7월 {#july-2023}
