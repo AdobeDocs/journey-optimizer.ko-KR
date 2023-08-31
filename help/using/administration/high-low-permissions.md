@@ -8,9 +8,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 7ac2ae714f2d11d2559b6195af37e2dece35b17c
+source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,19 @@ ht-degree: 0%
 
 ## 캠페인 리소스 {#campaign-capability}
 
+* **[!DNL Export suppression list]** 높은 수준 권한을 사용하면 제외 목록을 CSV 파일로 다운로드할 수 있습니다.
+
++++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
+
+   * Journey Optimizer 관련:
+      * suppression_list.export
+
+   * Adobe Experience Platform 관련:
+      * profiles.read
+      * datasets.read
+
++++
+
 * **[!DNL Manage campaigns]** 높은 수준의 권한을 통해 사용자가 캠페인을 새로 만들고 편집/삭제할 수 있습니다.
 
 +++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
@@ -274,74 +287,6 @@ ht-degree: 0%
 
 ## 채널 구성 리소스 {#administration-permissions}
 
-* **[!DNL Manage subdomains delegation]** 높은 수준의 권한을 통해 사용자는 하위 도메인 위임을 만들고, 편집하고, 삭제할 수 있습니다(IP 풀 포함).
-
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-   * Journey Optimizer 관련:
-
-      * subdomains_delegation.read
-      * subdomains_delegation.write
-      * subdomains_delegation.delete
-
-+++
-
-* **[!DNL Manage PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 읽고 편집할 수 있습니다.
-
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-
-   * Journey Optimizer 관련:
-      * PTR_records.read
-      * PTR_records.write
-      * subdomains_delegation.read
-
-+++
-
-* **[!DNL View PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 볼 수 있습니다.
-
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-   * Journey Optimizer 관련:
-
-      * PTR_records.read
-      * subdomains_delegation.read
-
-+++
-
-* **[!DNL Manage IP pools]** 높은 수준의 권한을 통해 사용자는 선호도 정의를 만들고, 편집하고, 삭제할 수 있습니다.
-
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-   * Journey Optimizer 관련:
-      * IP_pools.read
-      * IP_pools.write
-      * IP_pools.delete
-
-+++
-
-* **[!DNL Manage messages general settings]** 높은 수준 권한을 사용하면 샌드박스 수준에서 전역 설정을 만들고, 편집하고, 삭제할 수 있습니다.
-
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-
-   * Journey Optimizer 관련:
-      * messages_general_settings.read
-      * messages_general_settings.write
-      * messages_general_settings.delete
-
-   * Adobe Experience Platform 관련:
-      * schemas.read
-
-+++
-
-* **[!DNL View messages general settings]** 상위 수준 권한을 사용하면 실행 주소와 같은 일반적인 메시지 설정을 볼 수 있습니다.
-
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-
-   * Journey Optimizer 관련:
-      * messages_general_settings.read
-
-   * Adobe Experience Platform 관련:
-      * schemas.read
-
-+++
-
 * **[!DNL Manage channel surface]** 높은 수준 권한을 사용하면 샌드박스 수준에서 채널 간 채널 표면을 만들고, 편집하고, 삭제할 수 있습니다.
 
 +++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
@@ -356,53 +301,13 @@ ht-degree: 0%
 
 +++
 
-<!--
-### [!DNL View channel surface] permission {#view-channel-surface}
-
-The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
-  +++ It includes the following low-level permissions:  
-
-* messages_presets.read
-* subdomains_delegation.read
-* IP_pools.read
-* mobile_setting.read (from Adobe Experience Platform Data Collection)
--->
-
-* **[!DNL Manage suppression]** 높은 수준 권한을 사용하면 이메일 주소가 제외 목록에 추가되기 전의 바운스 수를 정의하고 제외 목록에 항목을 추가 및 삭제할 수 있습니다.
+* **[!DNL Manage IP pools]** 높은 수준의 권한을 통해 사용자는 선호도 정의를 만들고, 편집하고, 삭제할 수 있습니다.
 
 +++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
    * Journey Optimizer 관련:
-      * suppression_rules.read
-      * suppression_rules.write
-      * suppression_rules.delete
-      * suppression_list.write
-      * suppression_list.delete
-
-+++
-
-* **[!DNL View suppression list]** 높은 수준 권한을 사용하면 제외 목록 콘텐츠 및 설정을 볼 수 있습니다.
-
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-
-   * Journey Optimizer 관련:
-      * suppression_list.view
-
-   * Adobe Experience Platform 관련:
-      * profiles.read
-      * datasets.read
-
-+++
-
-* **[!DNL Export suppression list]** 높은 수준 권한을 사용하면 제외 목록을 CSV 파일로 다운로드할 수 있습니다.
-
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-
-   * Journey Optimizer 관련:
-      * suppression_list.export
-
-   * Adobe Experience Platform 관련:
-      * profiles.read
-      * datasets.read
+      * IP_pools.read
+      * IP_pools.write
+      * IP_pools.delete
 
 +++
 
@@ -421,13 +326,19 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
 +++
 
-<!--
-### Manage web subdomain permission {#web-subdomain}
+* **[!DNL Manage messages general settings]** 높은 수준 권한을 사용하면 샌드박스 수준에서 전역 설정을 만들고, 편집하고, 삭제할 수 있습니다.
 
-The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
++++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-  +++ It includes the following low-level permissions: 
--->
+   * Journey Optimizer 관련:
+      * messages_general_settings.read
+      * messages_general_settings.write
+      * messages_general_settings.delete
+
+   * Adobe Experience Platform 관련:
+      * schemas.read
+
++++
 
 * **[!DNL Manage messages presets]** 높은 수준의 권한을 통해 사용자는 콘텐츠 브랜딩을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.
 
@@ -445,17 +356,25 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL View messages presets]** 높은 수준 권한을 사용하면 메시지 사전 설정을 볼 수 있습니다.
+* **[!DNL Manage PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 읽고 편집할 수 있습니다.
 
 +++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
-      * messages_presets.read
+      * PTR_records.read
+      * PTR_records.write
       * subdomains_delegation.read
-      * IP_pools.read
 
-   * 데이터 수집별:
-      * Mobile_setting.read
++++
+
+* **[!DNL Manage Seedlist]** 높은 수준의 권한을 통해 사용자는 Seedlist를 읽고, 만들고, 편집하고, 삭제할 수 있습니다.
+
++++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
+
+   * Journey Optimizer 관련:
+      * seedlist.read
+      * seedlist.write
+      * seedlist.delete
 
 +++
 
@@ -469,3 +388,96 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * sms_subdomains.delete
 
 +++
+
+* **[!DNL Manage subdomains delegation]** 높은 수준의 권한을 통해 사용자는 하위 도메인 위임을 만들고, 편집하고, 삭제할 수 있습니다(IP 풀 포함).
+
++++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
+   * Journey Optimizer 관련:
+
+      * subdomains_delegation.read
+      * subdomains_delegation.write
+      * subdomains_delegation.delete
+
++++
+
+* **[!DNL Manage suppression]** 높은 수준 권한을 사용하면 이메일 주소가 제외 목록에 추가되기 전의 바운스 수를 정의하고 제외 목록에 항목을 추가 및 삭제할 수 있습니다.
+
++++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
+   * Journey Optimizer 관련:
+      * suppression_rules.read
+      * suppression_rules.write
+      * suppression_rules.delete
+      * suppression_list.write
+      * suppression_list.delete
+
++++
+
+* **[!DNL View PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 볼 수 있습니다.
+
++++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
+   * Journey Optimizer 관련:
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
+* **[!DNL View messages general settings]** 상위 수준 권한을 사용하면 실행 주소와 같은 일반적인 메시지 설정을 볼 수 있습니다.
+
++++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
+
+   * Journey Optimizer 관련:
+      * messages_general_settings.read
+
+   * Adobe Experience Platform 관련:
+      * schemas.read
+
++++
+
+* **[!DNL View messages presets]** 높은 수준 권한을 사용하면 메시지 사전 설정을 볼 수 있습니다.
+
++++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
+
+   * Journey Optimizer 관련:
+      * messages_presets.read
+      * subdomains_delegation.read
+      * IP_pools.read
+
+   * 데이터 수집별:
+      * Mobile_setting.read
+
++++
+<!--
+### [!DNL View channel surface] permission {#view-channel-surface}
+
+The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
+  +++ It includes the following low-level permissions:  
+
+* messages_presets.read
+* subdomains_delegation.read
+* IP_pools.read
+* mobile_setting.read (from Adobe Experience Platform Data Collection)
+-->
+
+
+* **[!DNL View suppression list]** 높은 수준 권한을 사용하면 제외 목록 콘텐츠 및 설정을 볼 수 있습니다.
+
++++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
+
+   * Journey Optimizer 관련:
+      * suppression_list.view
+
+   * Adobe Experience Platform 관련:
+      * profiles.read
+      * datasets.read
+
++++
+
+<!--
+### Manage web subdomain permission {#web-subdomain}
+
+The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
+
+  +++ It includes the following low-level permissions: 
+-->
+
