@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '413'
 ht-degree: 10%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 10%
    >데이터 집합은 [!DNL Journey Optimizer] 보고 시스템이며, 데이터 수집이나 데이터 수집에는 영향을 주지 않습니다.
 
 1. 그런 다음 **[!UICONTROL 앱 표면]** 메뉴 및 클릭 **[!UICONTROL 앱 표면 만들기]**.
+
+   >[!NOTE]
+   >
+   > 다음이 필요합니다. **앱 구성 관리** 다음에 대한 액세스 권한을 가집니다. **[!UICONTROL 앱 표면]** 메뉴 아래의 제품에서 사용할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [이 비디오](#video).
 
    >[!NOTE]
    >
@@ -87,5 +91,10 @@ ht-degree: 10%
 
 * 아래 비디오에서는 를 할당하는 방법을 보여 줍니다. **앱 구성 관리** 앱 표면 메뉴에 대한 액세스 권한.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
+  +++비디오 참조
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+
++++
+
 
