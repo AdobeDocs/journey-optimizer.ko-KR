@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
+source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1493'
 ht-degree: 30%
 
 ---
@@ -224,10 +224,10 @@ ht-degree: 30%
 
   ![](assets/audiences-split.png)
 
-  속성 기반 분할 활동을 구성하려면 다음을 수행합니다.
+  속성 기반 분할 활동을 설정하려면 다음 단계를 수행합니다.
 
-   1. 다음 옆에 있는 버튼을 클릭합니다. **[!UICONTROL 속성]** 기준으로 선택할 속성을 선택하는 필드입니다.
-   1. 원하는 만큼 경로를 추가한 다음 각 경로에 대해 경로에 포함할 프로필을 선택하는 데 사용할 레이블과 값을 지정합니다.
+   1. 다음 옆에 있는 버튼을 클릭합니다. **[!UICONTROL 속성]** 분할 기준으로 사용할 속성을 선택하는 필드입니다.
+   1. 필요한 만큼 경로를 추가합니다. 각 경로에 대해 레이블을 지정하고 특정 경로에 포함해야 하는 프로필을 결정하는 데 사용할 값을 지정합니다.
 
       >[!NOTE]
       >
