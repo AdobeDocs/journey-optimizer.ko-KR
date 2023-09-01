@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 31%
+source-wordcount: '1482'
+ht-degree: 30%
 
 ---
 
@@ -116,9 +116,13 @@ ht-degree: 31%
 
   조회할 속성을 선택한 다음 제외할 값을 지정합니다. 이 예에서는 홈 주소가 일본에 있는 작성 프로필에서 제외합니다.
 
+  >[!NOTE]
+  >
+  >하나의 제외 값만 지정할 수 있습니다.
+
   ![](assets/audiences-exclude-attribute.png)
 
-### 강화 {#enrich}
+### 보강 활동 {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -220,9 +224,16 @@ ht-degree: 31%
 
   ![](assets/audiences-split.png)
 
-  >[!NOTE]
-  >
-  >다음 **[!UICONTROL 기타 프로필]** 옵션을 사용하면 다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만들 수 있습니다.
+  속성 기반 분할 활동을 구성하려면 다음을 수행합니다.
+
+   1. 다음 옆에 있는 버튼을 클릭합니다. **[!UICONTROL 속성]** 기준으로 선택할 속성을 선택하는 필드입니다.
+   1. 원하는 만큼 경로를 추가한 다음 각 경로에 대해 경로에 포함할 프로필을 선택하는 데 사용할 레이블과 값을 지정합니다.
+
+      >[!NOTE]
+      >
+      >각 경로에 대해 하나의 값만 지정할 수 있습니다.
+
+   1. 전환 **[!UICONTROL 기타 프로필]** 다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 생성하는 옵션입니다.
 
 ## 대상자 저장 {#save}
 
