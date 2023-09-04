@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 76eafb06b43d2964c4e85d1f77d35750f93eee0c
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 **목차**
 
-* [콘텐츠 지원 시작](gs-generative.md)
+* [콘텐츠 도우미 시작](gs-generative.md)
 * [콘텐츠 도우미를 사용하여 텍스트 생성](generative-title.md)
 * **[콘텐츠 도우미를 사용하여 이미지 생성](generative-image.md)**
 

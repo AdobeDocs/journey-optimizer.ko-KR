@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 76%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 시드 목록을 만들고 관리할 수 있습니다. 시드 목록은 실제 대상자에 추가할 수 있는 내부 주소로 구성되며 게재 실행 시 타겟팅된 프로필과 정확히 동일한 메시지를 수신합니다. 이 기능을 사용하여 전송된 통신을 모니터링하고 모든 표시 형식, URL, 이미지 및 링크가 올바른지 확인하십시오.</p>
+<p>이제 Journey Optimizer에서 시드 목록을 만들고 관리할 수 있습니다. 시드 목록은 실제 대상자에 추가할 수 있는 내부 주소로 구성되며, 게재 실행 시 해당 목록의 주소는 타겟팅한 프로필과 정확히 동일한 메시지를 수신합니다. 이 기능을 사용하면 보내는 커뮤니케이션을 모니터링하여 모든 표시 형식, URL, 이미지, 링크가 올바른지 확인할 수 있습니다.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -103,4 +103,4 @@ ht-degree: 76%
 **다이렉트 메일**
 
 * 이제 파일 라우팅 구성에서 서버 유형으로 Azure를 선택할 수 있습니다.
-* 이제 앰퍼샌드를 DM 표면 설정의 열 구분 기호 필드로 사용할 수 있습니다.
+* 이제 DM 표면 설정의 열 구분 기호 필드로 앰퍼샌드를 사용할 수 있습니다.

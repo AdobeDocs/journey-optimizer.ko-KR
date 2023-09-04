@@ -5,7 +5,7 @@ title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3279'
 ht-degree: 100%
 

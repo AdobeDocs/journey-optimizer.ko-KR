@@ -12,7 +12,7 @@ keywords: 작업, 서드파티, 사용자 지정, 여정, API
 source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->이 기능은 현재 개인 베타로 사용할 수 있습니다.
+>이 기능은 현재 Private Beta로 사용할 수 있습니다.
 
 >[!WARNING]
 >

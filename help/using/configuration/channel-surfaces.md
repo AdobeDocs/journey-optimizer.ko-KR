@@ -139,7 +139,7 @@ ht-degree: 8%
 
 채널 표면 만들기에 실패한 경우 가능한 각 실패 이유에 대한 자세한 내용은 아래에 설명되어 있습니다.
 
-이러한 오류 중 하나가 발생하면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 도움을 받으려고.
+이러한 오류 중 하나가 발생하면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 도움을 받으려고.
 
 * **SPF 유효성 검사 실패**: SPF(Sender Policy Framework)는 주어진 하위 도메인에서 이메일을 보낼 수 있는 승인된 IP를 지정할 수 있는 이메일 인증 프로토콜입니다. SPF 유효성 검사 실패는 SPF 레코드의 IP 주소가 사서함 공급자에게 전자 메일을 보내는 데 사용되는 IP 주소와 일치하지 않음을 의미합니다.
 

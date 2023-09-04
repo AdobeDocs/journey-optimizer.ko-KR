@@ -10,13 +10,13 @@ exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
 # 인텔리전트 서비스와 통합 {#ai-overview}
 
-과 통합 **[!DNL Adobe Intelligent Services]** 고객 경험 사용 사례에서 인공 지능과 머신 러닝의 기능을 활용할 수 있습니다. 이를 통해 마케팅 분석가는 데이터 과학 전문 지식 없이도 비즈니스 수준의 구성을 사용하여 기업의 요구 사항에 맞는 예측을 설정할 수 있습니다.
+과 통합 **[!DNL Adobe Intelligent Services]** 고객 경험 사용 사례에서 인공 지능과 머신 러닝의 기능을 활용할 수 있습니다. 이를 통해 마케팅 분석가가 데이터 과학에 대한 전문 지식 없이도 비즈니스 수준의 구성을 사용하여 기업의 요구 사항에 맞는 예측을 설정할 수 있습니다.
 
 [!DNL Intelligent Services]Adobe Experience Platform을 기반으로 구축된 은 고객 경험을 담당하는 마케터에게 AI-as-a-service에 대한 액세스를 제공하므로 누구나 쉽게 고객 행동을 예측하거나, 캠페인의 영향을 측정하거나, 모든 투자에 대한 보다 나은 수익을 보장할 수 있습니다. 에 대한 자세한 내용 [!DNL Adobe Intelligent Services]을(를) 참조하십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target="_blank"}.
 

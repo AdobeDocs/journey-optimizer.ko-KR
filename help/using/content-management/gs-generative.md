@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 콘텐츠 지원 시작
+title: 콘텐츠 도우미 시작
 description: Journey Optimizer의 Content Assistant에 액세스하고 작업하는 방법을 알아봅니다.
 feature: Overview
 topic: Content Management
@@ -13,17 +13,17 @@ hidefromtoc: true
 source-git-commit: 280b1c2c7276b872143062aeba0939a899897d42
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
-# 콘텐츠 지원 시작 {#gs-content-assistant}
+# 콘텐츠 도우미 시작 {#gs-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **목차**
 
-* **[콘텐츠 지원 시작](gs-generative.md)**
+* **[콘텐츠 도우미 시작](gs-generative.md)**
 * [콘텐츠 도우미를 사용하여 텍스트 생성](generative-title.md)
 * [콘텐츠 도우미를 사용하여 이미지 생성](generative-image.md)
 

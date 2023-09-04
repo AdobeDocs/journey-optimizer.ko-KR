@@ -76,7 +76,7 @@ Handlebars에서 반환된 값은 {{expression}} 은(는) **HTML 이스케이프
 
 `{{profile.faxPhone.number}}`
 
-## Audiences{#perso-segments}
+## 대상자{#perso-segments}
 
 의 조건에서 프로필 속성을 활용하는 방법 알아보기 [이 섹션](functions/helpers.md#if-function).
 
