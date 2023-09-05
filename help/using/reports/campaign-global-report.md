@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
+source-git-commit: ea56d3cac5e4c4bc95560734fa3b9e8f410c8691
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2466'
 ht-degree: 4%
 
 ---
@@ -145,9 +145,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 다음 **[!UICONTROL 이메일 - 추적 통계]** 위젯에는 게재를 위한 수신자 활동에 사용 가능한 데이터가 포함되어 있습니다.
 
-* **[!UICONTROL 열림]**: 게재 시 게재가 열린 횟수입니다.
+* **[!UICONTROL 열림]**: 이메일을 연 횟수입니다.
 
-* **[!UICONTROL 고유 열람 수]**: 열린 게재의 백분율입니다.
+* **[!UICONTROL 고유 열람 수]**: 열린 이메일의 비율입니다.
 
 * **[!UICONTROL 열람률]**: 배달된 이메일 수와 비교하여 열린 이메일의 총 수입니다.
 
@@ -196,7 +196,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 다음 **[!UICONTROL 최적화 및 비최적화]** 그래프는 최적화 여부에 관계없이 메시지와 관련된 기본 정보를 자세히 설명합니다.
 
 * **[!UICONTROL 전송됨]**: 게재에 대한 총 전송 수입니다.
-* **[!UICONTROL 열림]**: 게재 시 게재가 열린 횟수입니다.
+
+* **[!UICONTROL 열림]**: 메시지가 열린 횟수입니다.
+
 * **[!UICONTROL 클릭수]**: 이메일에서 콘텐츠를 클릭한 횟수입니다.
 
 다음 **[!UICONTROL 전송 시간 최적화]** 전송 방법에 따라 게재의 성공 여부를 자세히 설명합니다(최적화 또는 일반).
