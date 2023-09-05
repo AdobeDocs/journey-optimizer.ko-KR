@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
+source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -252,7 +252,7 @@ ht-degree: 100%
    + [Adobe Stock 작업](using/content-management/stock.md)
    + 콘텐츠 도우미 작업{#content-assistant}
       + [콘텐츠 도우미 시작](using/content-management/gs-generative.md)
-      + [제목 생성](using/content-management/generative-title.md)
+      + [콘텐츠 생성](using/content-management/generative-content.md)
       + [이미지 생성](using/content-management/generative-image.md)
 + 개인화 및 다이내믹 콘텐츠 {#personalized-dynamic-content}
    + 개인화 {#personalization}
