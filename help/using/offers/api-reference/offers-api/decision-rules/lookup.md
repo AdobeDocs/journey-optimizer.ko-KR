@@ -6,108 +6,58 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '96'
+ht-degree: 5%
 
 ---
 
 # 의사 결정 규칙 조회 {#lookup-decision-rule}
-
-에 GET 요청을 하여 특정 의사 결정 규칙을 조회할 수 있습니다. [!DNL Offer Library] 결정 규칙 중 하나를 포함하는 API `@id` 또는 요청 경로에 있는 의사 결정 규칙의 이름입니다.
+에 GET 요청을 하여 특정 의사 결정 규칙을 조회할 수 있습니다. [!DNL Offer Library] 의사 결정 규칙을 포함하는 API `id` 요청 경로에서.
 
 **API 형식**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILITY_RULE}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/offer-rules/{ID}
 ```
 
 | 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 결정 규칙이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ELIGIBILITY_RULE}` | 의사 결정 규칙과 연관된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | 를 일치시키는 데 사용되는 문자열 `@id` 엔티티의 속성입니다. 문자열이 정확하게 일치합니다. 매개 변수 s `id` 및 `name` 함께 사용할 수 없습니다. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 `id` 및 `name` 함께 사용할 수 없음 | `Sales rule` |
+| `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | 조회할 엔티티의 ID입니다. | `offerRule1234` |
 
 **요청**
 
 ```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3&name=Sales%20rule' \
-  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **응답**
 
-성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유 의사 결정 규칙에 대한 정보를 포함하여 조회한 특정 의사 결정 규칙의 세부 정보를 반환합니다 `@id`.
+성공적인 응답은 고유 결정 규칙에 대한 정보를 포함하여 조회한 특정 결정 규칙의 세부 정보를 반환합니다 `@id`.
 
 ```json
-{
-    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
-    "schemaNs": "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3",
-    "requestTime": "2020-10-21T20:14:08.153670Z",
-    "_embedded": {
-        "results": [
-            {
-                "instanceId": "eaa5af90-13d9-11eb-9472-194dee6dc381",
-                "schemas": [
-                    "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
-                ],
-                "productContexts": [
-                    "acp"
-                ],
-                "repo:etag": 1,
-                "repo:createdDate": "2020-10-21T20:13:43.048666Z",
-                "repo:lastModifiedDate": "2020-10-21T20:13:43.048666Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
-                "_score": 0,
-                "_instance": {
-                    "xdm:name": "Sales rule",
-                    "description": "Decisioning rule for sales",
-                    "xdm:definedOn": {
-                        "profile": {
-                            "xdm:schema": {
-                                "$ref": "https://ns.adobe.com/xdm/context/profile_union",
-                                "version": "1"
-                            },
-                            "xdm:referencePaths": [
-                                "person.name.firstName"
-                            ]
-                        }
-                    },
-                    "condition": {
-                        "format": "pql/text",
-                        "type": "PQL",
-                        "value": "profile.person.name.firstName.equals(\"Joe\", false)"
-                    },
-                    "@id": "xcore:eligibility-rule:124e0faf5b8ee89b"
-                },
-                "_links": {
-                    "self": {
-                        "name": "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3#eaa5af90-13d9-11eb-9472-194dee6dc381",
-                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/eaa5af90-13d9-11eb-9472-194dee6dc381",
-                        "@type": "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
-                    }
-                }
-            }
-        ],
-        "total": 1,
-        "count": 1
-    },
-    "_links": {
-        "self": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3&name=Sales%20rule",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
-        }
+  {
+    "created": "2022-09-16T18:59:53.651+00:00",
+    "modified": "2022-09-16T18:59:53.651+00:00",
+    "etag": 1,
+    "schemas": [
+        "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
+    ],
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "offerRule1234",
+    "name": "Californians with one or more purchases greater than $1000",
+    "condition": {
+        "type": "PQL",
+        "format": "pql/text",
+        "value": "homeAddress.stateProvince.equals(\"CA\", false) and (select var1 from xEvent where var1.eventType.equals(\"purchase\", true) and (var1.commerce.order.priceTotal = 1000.0 and var1.commerce.order.currencyCode.equals(\"USD\", false)))"
     }
 }
 ```

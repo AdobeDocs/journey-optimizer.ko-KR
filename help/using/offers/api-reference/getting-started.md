@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: 4f2bbef98b2e529c2f6a663a3cf7e1ad5493c41a
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '349'
 ht-degree: 7%
 
 ---
@@ -39,99 +39,15 @@ ht-degree: 7%
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
 * `x-gw-ims-org-id: {IMS_ORG}`
+* `x-sandbox-name: {SANDBOX_NAME}`
 
 페이로드(POST, PUT, PATCH)가 포함된 모든 요청에는 추가 헤더가 필요합니다.
 
 * `Content-Type: application/json`
 
-## 컨테이너에 대한 액세스 관리 {#manage-access-to-container}
-
-용기는 서로 다른 문제를 분리하기 위한 격리 메커니즘입니다. 컨테이너 ID는 모든 저장소 API의 첫 번째 경로 요소입니다. 모든 의사 결정 개체는 컨테이너 내에 있습니다.
-
-관리자는 유사한 주도자, 리소스 및 액세스 권한을 프로필로 그룹화할 수 있습니다. 이렇게 하면 관리 부담이 줄어들고 [Adobe Admin Console](https://adminconsole.adobe.com/). 프로필을 만들고 사용자를 조직에 할당하려면 Adobe Experience Platform의 제품 관리자여야 합니다. 1회 단계에서 특정 권한과 일치하는 제품 프로필을 만든 다음 해당 프로필에 사용자를 추가하면 됩니다. 프로필은 권한이 부여된 그룹 역할을 하며 해당 그룹의 모든 실제 사용자 또는 기술 사용자는 이러한 권한을 상속합니다.
-
-관리자 권한이 주어지면 다음을 통해 사용자에게 권한을 부여하거나 철회할 수 있습니다. [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko){target="_blank"}.
-
-### 사용자 및 통합에 액세스할 수 있는 목록 컨테이너 {#list-containers-accessible-to-users-and-integrations}
-
-**API 형식**
-
-```http
-GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
-```
-
-| 매개변수 | 설명 | 예 |
-| --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
-| `{PRODUCT_CONTEXT}` | 제품 컨텍스트와의 연관성을 기준으로 컨테이너 목록을 필터링합니다. | `acp` |
-| `{PROPERTY}` | 반환되는 컨테이너 유형을 필터링합니다. | `_instance.containerType==decisioning` |
-
-**요청**
-
-```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/?product=acp&property=_instance.containerType==decisioning' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
-```
-
-**응답**
-
-성공적인 응답은 의사 결정 관리 컨테이너에 대한 정보를 반환합니다. 여기에는 다음이 포함됩니다. `instanceId` 속성. 값이 컨테이너 ID입니다.
-
-```json
-{
-    "_embedded": {
-        "https://ns.adobe.com/experience/xcore/container": [
-            {
-                "instanceId": "{INSTANCE_ID}",
-                "schemas": [
-                    "https://ns.adobe.com/experience/xcore/container;version=0.5"
-                ],
-                "productContexts": [
-                    "acp"
-                ],
-                "repo:etag": 2,
-                "repo:createdDate": "2020-09-16T07:54:28.319959Z",
-                "repo:lastModifiedDate": "2020-09-16T07:54:32.098139Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
-                "_instance": {
-                    "containerType": "decisioning",
-                    "repo:name": "{REPO_NAME}",
-                    "dataCenter": "{DATA_CENTER}",
-                    "parentName": "{PARENT_NAME}",
-                    "parentId": "{PARENT_ID}"
-                },
-                "_links": {
-                    "self": {
-                        "href": "/containers/{INSTANCE_ID}"
-                    }
-                }
-            }
-        ]
-    },
-    "_links": {
-        "self": {
-            "href": "/?product=acp&property=_instance.containerType==decisioning",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/home"
-        }
-    }
-}
-```
-
 ## 다음 단계 {#next-steps}
 
-이 문서에서는 [!DNL Offer Library] 컨테이너 ID 가져오기를 포함한 API. 이제 이 개발자 안내서에 제공된 샘플 호출로 진행하여 지침을 따를 수 있습니다.
-<!--
->[!NOTE]
->
-> The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = “Mobile_Sheliak”`.
--->
+이 문서에서는 [!DNL Offer Library] API. 이제 이 개발자 안내서에 제공된 샘플 호출로 진행하여 지침을 따를 수 있습니다.
 
 ## 방법 비디오 {#video}
 
