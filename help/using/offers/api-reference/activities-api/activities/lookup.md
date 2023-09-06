@@ -6,79 +6,106 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
-source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 6%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
 
 # 결정 조회 {#look-up-decision}
 
-에 GET 요청을 하여 특정 결정을 조회할 수 있습니다. [!DNL Offer Library] 의사 결정을 포함하는 API `id` 요청 경로에서.
+에 GET 요청을 하여 특정 결정을 조회할 수 있습니다. [!DNL Offer Library] 다음 결정 중 하나를 포함하는 API `@id` 또는 요청 경로에 있는 결정의 이름입니다.
 
 **API 형식**
 
 ```http
-GET /{ENDPOINT_PATH}/offer-decisions/{ID}
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIES}&{QUERY_PARAMS}
 ```
 
 | 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | 조회할 엔티티의 ID입니다. | `offerDecision1234` |
+| `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 결정이 위치한 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_ACTIVITIES}` | 의사 결정과 연관된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `id` | 를 일치시키는 데 사용되는 문자열 `@id` 엔티티의 속성입니다. 문자열이 정확하게 일치합니다. 매개 변수 `id` 및 `name` 함께 사용할 수 없습니다. | `xcore:offer-activity:124527ab00b2ebbc` |
+| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 &quot;id&quot;와 &quot;name&quot;은 함께 사용할 수 없습니다. | `LBAR` |
 
 **요청**
 
 ```shell
-curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDecision1234' \
--H 'Accept: *,application/json' \
--H 'Authorization: Bearer {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5&id=xcore:offer-activity:124527ab00b2ebbc' \
+  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **응답**
 
-성공적인 응답은 고유 의사 결정에 대한 정보를 포함하여 의사 결정 세부 사항을 반환합니다 `id`.
+성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유 의사 결정에 대한 정보를 포함하여 배치 세부 정보를 반환합니다 `@id`.
 
 ```json
 {
-    "created": "2022-11-15T16:35:06.873+00:00",
-    "modified": "2023-05-15T15:00:27.641+00:00",
-    "etag": 3,
-    "schemas": [
-        "https://ns.adobe.com/experience/offer-management/offer-activity;version=0.8"
-    ],
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "offerDecision1234",
-    "name": "Test Decision One",
-    "status": "draft",
-    "startDate": "2021-08-23T07:00:00.000+00:00",
-    "endDate": "2021-08-25T07:00:00.000+00:00",
-    "fallback": "fallbackOffer1234",
-    "criteria": [
-        {
-            "placements": [
-                "offerPlacement1234",
-                "offerPlacement5678"
-            ],
-            "rank": {
-                "priority": 0,
-                "order": {
-                    "orderEvaluationType": "ranking-strategy",
-                    "rankingStrategy": "123456789123"
-                }
-            },
-            "profileConstraint": {
-                "profileConstraintType": "none"
-            },
-            "optionSelection": {
-                "filter": "offerCollection1234"
+    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
+    "schemaNs": "https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5",
+    "requestTime": "2020-10-19T19:50:08.047489Z",
+    "_embedded": {
+        "results": [
+            {
+                "instanceId": "4e0206d0-0e6a-11eb-884a-c1a1104e3d7d",
+                "schemas": [
+                    "https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 1,
+                "repo:createdDate": "2020-10-14T22:12:10.300775Z",
+                "repo:lastModifiedDate": "2020-10-14T22:12:10.300775Z",
+                "repo:createdBy": "{CREATED_BY}",
+                "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "_score": 0,
+                "_instance": {
+                    "xdm:fallback": "xcore:fallback-offer:1233160780eaa2ef",
+                    "xdm:name": "LBAR",
+                    "xdm:endDate": "2021-02-28T08:00:00.000Z",
+                    "xdm:startDate": "2020-10-14T07:00:00.000Z",
+                    "xdm:status": "live",
+                    "xdm:criteria": [
+                        {
+                            "xdm:placements": [
+                                "xcore:offer-placement:122204529514a2c0"
+                            ],
+                            "xdm:optionSelection": {
+                                "xdm:filter": "xcore:offer-filter:122a120f234dac7f"
+                            }
+                        }
+                    ],
+                    "@id": "xcore:offer-activity:124527ab00b2ebbc"
+                },
+                "_links": {
+                    "self": {
+                        "name": "https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5#4e0206d0-0e6a-11eb-884a-c1a1104e3d7d",
+                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/4e0206d0-0e6a-11eb-884a-c1a1104e3d7d",
+                        "@type": "https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"
+                    }
+                },
+                "sandboxName": "ode-prod-va7-edge-testing"
             }
+        ],
+        "total": 1,
+        "count": 1
+    },
+    "_links": {
+        "self": {
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5&id=xcore:offer-activity:124527ab00b2ebbc",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
         }
-    ]
+    }
 }
 ```
