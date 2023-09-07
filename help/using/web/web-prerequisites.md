@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1054'
 ht-degree: 11%
 
 ---
@@ -107,13 +107,15 @@ Visual Editing Helper 브라우저 확장 기능을 다운로드하여 설치하
 
 Adobe 사용 시 [!DNL Journey Optimizer] 웹 디자이너 로드에 실패한 웹 사이트를 로드하려고 하면 다음을 설치하라는 메시지가 표시됩니다. [Visual Editing Helper 브라우저 확장 기능](#install-visual-editing-helper).
 
-Visual Editing Helper 브라우저 확장이 올바르게 설치되었지만 웹 사이트가 여전히 로드되지 않거나 예기치 않게 작동하는 경우 브라우저에서 웹 사이트를 열고 쿠키를 수락한 후에 에서 로드하려고 하면 잠재적인 수정 사항이 있습니다. [!DNL Journey Optimizer] 웹 디자이너.
+1. Visual Editing Helper 브라우저 확장 기능이 올바르게 설치되어 있는지 확인합니다.
+
+1. 웹 사이트가 여전히 예기치 않게 작동하는 경우 브라우저에서 타사 쿠키가 허용되는지 확인하십시오. 그렇지 않으면 웹 페이지를 [!DNL Journey Optimizer] 웹 디자이너.
 
 인증 중인 페이지의 경우 로그인 페이지가 로드되지 않거나 로그인을 시도한 후에도 여전히 로그인되지 않습니다.
 
-* 먼저 새 브라우저 탭에 로그인하고 원하는 페이지로 이동한 다음 URL을 복사하고 [!DNL Journey Optimizer] 웹 디자이너.
+1. 먼저 새 브라우저 탭에 로그인하고 원하는 페이지로 이동한 다음 URL을 복사하고 [!DNL Journey Optimizer] 웹 디자이너.
 
-* 에서 웹 사이트를 로드할 수 없는 경우 [!DNL Journey Optimizer] 웹 디자이너에서 Adobe 고객 지원 센터에 문의하여 문제를 보고하여 실패한 URL을 지정하십시오.
+2. 에서 웹 사이트를 로드할 수 없는 경우 [!DNL Journey Optimizer] 웹 디자이너에서 Adobe 고객 지원 센터에 문의하여 문제를 보고하여 실패한 URL을 지정하십시오.
 
 ## 게재 사전 요구 사항 {#delivery-prerequisites}
 
