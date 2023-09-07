@@ -4,16 +4,20 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
+source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
 workflow-type: tm+mt
-source-wordcount: '3279'
-ht-degree: 100%
+source-wordcount: '3303'
+ht-degree: 99%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2023년 9월 (#september-2023)
+
+* 의사 결정 규칙을 만들 때 알아야 할 제한 사항 목록이 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/creating-decision-rules.md)
 
 ## 2023년 8월 {#august-2023}
 
