@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 18%
+source-wordcount: '536'
+ht-degree: 17%
 
 ---
 
@@ -71,6 +71,10 @@ ht-degree: 18%
 대부분의 활동을 통해 **[!UICONTROL 레이블]**. 캔버스에서 활동 아래에 표시되는 이름에 접미사를 추가합니다. 이 기능은 여정에서 동일한 활동을 여러 번 사용하고 이러한 활동을 보다 쉽게 식별하려는 경우 유용합니다. 또한 오류의 경우 디버깅이 더 쉬워지고 보고서를 더 쉽게 읽을 수 있습니다. 선택 사항을 추가할 수도 있습니다 **[!UICONTROL 설명]**.
 
 ![](assets/journey-action-label.png)
+
+>[!NOTE]
+>
+>일부 활동의 경우 해당 ID가 창에도 표시됩니다. 이 ID는 변경될 수 있는 레이블보다 안정적인 키로 보고에 사용할 수 있습니다.
 
 ### 고급 매개 변수 관리 {#advanced-parameters}
 
