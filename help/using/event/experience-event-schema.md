@@ -3,13 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 여정 이벤트에 대한 ExperienceEvent 스키마 정보
 description: 여정 이벤트에 대한 ExperienceEvent 스키마에 대해 알아보기
-feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: 스키마, XDM, 플랫폼, 스트리밍, 수집, 여정
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 4%
@@ -20,11 +19,11 @@ ht-degree: 4%
 
 [!DNL Journey Optimizer] 이벤트는 스트리밍 수집을 통해 Adobe Experience Platform으로 전송되는 XDM 경험 이벤트입니다.
 
-따라서 이벤트를 설정하기 위한 중요한 전제 조건 [!DNL Journey Optimizer] 는 Adobe Experience Platform의 XDM(Experience Data Model) 및 XDM 경험 이벤트 스키마를 구성하는 방법과 XDM 형식 데이터를 Adobe Experience Platform에 스트리밍하는 방법에 대해 잘 알고 있습니다.
+따라서 이벤트를 설정하기 위한 중요한 전제 조건 [!DNL Journey Optimizer] 는 Adobe Experience Platform의 XDM(Experience Data Model) 및 XDM 경험 이벤트 스키마를 구성하는 방법과 XDM 형식 데이터를 Adobe Experience Platform에 스트리밍하는 방법에 대해 잘 알고 있다는 것입니다.
 
 ## 스키마 요구 사항 [!DNL Journey Optimizer] 이벤트  {#schema-requirements}
 
-에 대한 이벤트를 설정하는 첫 번째 단계 [!DNL Journey Optimizer] 는 이벤트를 나타내도록 정의된 XDM 스키마와 Adobe Experience Platform에서 이벤트의 인스턴스를 기록하도록 만들어진 데이터 세트가 있는지 확인하기 위한 것입니다. 이벤트에 대한 데이터 세트를 보유하는 것은 엄격히 필요하지 않지만 이벤트를 특정 데이터 세트에 전송하면 향후 참조 및 분석을 위해 사용자의 이벤트 내역을 유지할 수 있으므로 항상 좋은 방법입니다. 이벤트에 적합한 스키마와 데이터 세트가 없는 경우 Adobe Experience Platform 웹 인터페이스에서 두 작업을 모두 수행할 수 있습니다.
+에 대한 이벤트를 설정하는 첫 번째 단계 [!DNL Journey Optimizer] 는 이벤트를 나타내도록 정의된 XDM 스키마와 Adobe Experience Platform에서 이벤트의 인스턴스를 기록하도록 만들어진 데이터 세트가 있는지 확인하기 위한 것입니다. 이벤트에 대한 데이터 세트를 보유하는 것은 엄격히 필요하지 않지만 이벤트를 특정 데이터 세트에 보내면 향후 참조 및 분석을 위해 사용자의 이벤트 내역을 유지할 수 있으므로 항상 좋은 방법입니다. 이벤트에 적합한 스키마와 데이터 세트가 없는 경우 Adobe Experience Platform 웹 인터페이스에서 두 작업을 모두 수행할 수 있습니다.
 
 ![](assets/schema1.png)
 

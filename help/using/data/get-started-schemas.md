@@ -3,12 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 스키마 시작
 description: Adobe Journey Optimizer에서 Adobe Experience Platform 스키마를 사용하는 방법 알아보기
-feature: Schemas
 role: User
 level: Beginner
 keywords: 스키마, 플랫폼, 데이터, 구조
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 100%
