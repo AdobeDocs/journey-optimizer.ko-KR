@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '107'
 ht-degree: 12%
 
 ---
@@ -23,8 +23,7 @@ ht-degree: 12%
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| Content-Type | `application/json` |
 
 **API 형식**
 
@@ -72,7 +71,7 @@ curl -X POST \
 
 **응답**
 
-성공적인 응답은 고유한 인스턴스 ID 및 배치를 포함하여 새로 생성된 의사 결정에 대한 정보를 반환합니다 `@id`. 이후 단계에서 인스턴스 ID를 사용하여 결정을 업데이트하거나 삭제할 수 있습니다.
+성공적인 응답은 고유한 사항을 포함하여 새로 생성된 결정에 대한 정보를 반환합니다 `id`. 다음을 사용할 수 있습니다. `id` 결정을 업데이트하거나 삭제하는 나중 단계.
 
 ```json
 {

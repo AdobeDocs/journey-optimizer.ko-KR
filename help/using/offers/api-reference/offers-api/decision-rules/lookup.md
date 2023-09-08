@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '165'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **응답**
 
-성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유 의사 결정 규칙에 대한 정보를 포함하여 조회한 특정 의사 결정 규칙의 세부 정보를 반환합니다 `@id`.
+성공적인 응답은 고유 결정 규칙에 대한 정보를 포함하여 조회한 특정 결정 규칙의 세부 정보를 반환합니다 `id`.
 
 ```json
 {

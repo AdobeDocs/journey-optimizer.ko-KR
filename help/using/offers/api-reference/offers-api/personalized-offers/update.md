@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 9d8f2df6-aa04-4e66-8555-d51c2e409063
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 8%
+source-wordcount: '149'
+ht-degree: 9%
 
 ---
 
@@ -77,7 +77,7 @@ curl -X PATCH \
 
 **응답**
 
-성공적인 응답은 고유한 인스턴스 ID와 개인화된 오퍼를 포함하여 개인화된 오퍼의 업데이트된 세부 정보를 반환합니다 `@id`.
+성공적인 응답은 다음을 포함하여 개인화된 오퍼의 업데이트된 세부 정보를 반환합니다. `id`.
 
 ```json
 {

@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 2%
+source-wordcount: '118'
+ht-degree: 4%
 
 ---
 
@@ -27,11 +27,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 컬렉션이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | 컬렉션과 연결된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | 를 일치시키는 데 사용되는 문자열 `@id` 엔티티의 속성입니다. 문자열이 정확하게 일치합니다. 매개 변수 `id` 및 `name` 함께 사용할 수 없습니다. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 `id` 및 `name` 함께 사용할 수 없음 | `Mobile demo` |
+| `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | 조회할 엔티티의 ID입니다. | `offerCollection1234` |
 
 **요청**
 
