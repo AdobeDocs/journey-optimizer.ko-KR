@@ -4,10 +4,10 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
+source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
 workflow-type: tm+mt
-source-wordcount: '3303'
-ht-degree: 99%
+source-wordcount: '3597'
+ht-degree: 92%
 
 ---
 
@@ -38,11 +38,15 @@ ht-degree: 99%
 * 대기 활동 설명서 페이지에 전역 시간 초과 및 재입력 사용과 관련된 정보 및 우수 사례를 추가하여 개선했습니다. [자세히 보기](../building-journeys/wait-activity.md)
 * 항목 관리 페이지를 개선했습니다. [자세히 보기](../building-journeys/entry-management.md)
 * 대상자 읽기 활동 설명서에 조절률에 대한 정보를 추가했습니다. [자세히 보기](../building-journeys/read-audience.md)
+* 다시 시도에 대한 추가 정보를 추가했습니다. [자세히 보기](../start/guardrails.md#general-actions-g)
 * **개인화 동의 구현** 섹션에 캠페인에 개인화 동의 여부를 수동으로 적용하는 방법에 대한 설명을 업데이트했습니다. 세그먼트 규칙 빌더를 사용하여 옵트아웃한 프로필이 포함된 대상자를 만들거나 구성 워크플로우에 분할 활동을 추가할 수 있습니다. [자세히 보기](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## 2023년 6월 {#june-2023}
 
 * [!DNL Journey Optimizer] 2023년 6월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 여정 개요 화면에서 삭제 비율 정보에 대한 정보를 추가했습니다. [자세히 보기](../building-journeys/journey-gs.md#journey-access)
+* 이벤트를 만든 후 새 열거형 값으로 스키마를 수정할 경우 따라야 할 단계와 함께 메모가 추가되었습니다 [자세히 보기](../event/about-creating.md)
+* 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하도록 권장 사항이 추가되었습니다. [자세히 보기](../reports/sharing-common-fields.md#journeyversionid-field)
 * **의사 결정 만들기** 섹션에 여러 기준과 여러 결정 범위가 사용되는 경우를 설명하는 평가 기준 순서 관련 예시를 추가헸습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 * [의사 결정 관리] 설명서에서 보다 명확한 정보를 전달하기 위해 동적 컬렉션에는 [개체 수준 액세스 제어]를 사용할 수 없다는 메모를 추가했습니다. [자세히 보기](../offers/offer-library/creating-collections.md)
 
@@ -59,6 +63,9 @@ ht-degree: 99%
 ## 2023년 4월 {#apr-2023}
 
 * [!DNL Journey Optimizer] 2023년 4월 릴리스의 새로운 기능과 개선 사항에 대한 자세한 내용은 설명서에 있습니다. [자세히 보기](release-notes.md)
+* 기본 제공 작업을 제거할 수 없다는 메모가 추가되었습니다. [자세히 보기](../start/guardrails.md#custom-actions-g)
+* serviceEvent의 세부 사항을 확인하기 위한 쿼리 예제 및 serviceEvents에 대한 정보를 추가했습니다. [자세히 보기](../reports/query-examples.md#common-queries)
+* 시계열에 대한 쿼리를 수행할 수 없다는 메모가 추가되었습니다. [자세히 보기](../building-journeys/condition-activity.md)
 * 다중 솔루션 통합 페이지에 Adobe Experience Manager Assets Essentials 및 Adobe Stock을 추가했습니다. [자세히 보기](../start/ajo-integrations.md)
 * 여러 수준의 이메일 하위 도메인을 허용하지 않는다는 경고를 제거했습니다. 이제 여러 수준의 하위 도메인 사용도 지원됩니다. [자세히 보기](../configuration/delegate-subdomain.md)
 * 여정의 메시지에 사용하고 있는 오퍼 의사 결정을 변경하는 경우 여정의 게시를 취소하고 다시 게시해야 한다는 점을 설명하는 메모를 추가했습니다. [자세히 보기](../building-journeys/publishing-the-journey.md)
@@ -74,17 +81,28 @@ ht-degree: 99%
 * 의사 결정 관리 안내서에 Adobe Experience Platform에서 Offer Decisioning 피드백을 수집하는 방법에 대한 새 섹션을 추가했습니다. 어떤 오퍼가 표시되는지, 사용자가 오퍼와 어떻게 상호 작용하는지 등을 설명합니다. [자세히 보기](../offers/data-collection/data-collection.md)
 * **결정 만들기** 섹션 아래에 기준을 순서대로 평가하는 것과 동시에 평가하는 것의 차이를 설명하는 새 섹션을 추가했습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 * 증분 읽기가 있는 대상자 읽기 여정에 대한 가드레일을 추가했습니다. 새 버전을 만들 수 없으므로 여정을 복제해야 합니다. [자세히 보기](../start/guardrails.md#journey-versions-g)
+* 처리량 제한 방법에 대한 사용 사례가 제한 기능에 대한 정보로 업데이트되었습니다. [자세히 보기](../building-journeys/limit-throughput.md)
+* 스칼라 배열이 응답 페이로드 정의에서 지원되지 않는다는 메모가 추가되었습니다. [자세히 보기](../datasource/external-data-sources.md)
+* 프로필 상한 조건에 대한 섹션을 업데이트했습니다. [자세히 보기](../building-journeys/condition-activity.md#profile_cap)
 
 ## 2023년 2월 {#feb-2023}
 
 * [!DNL Journey Optimizer] 2023년 2월 릴리스의 모든 새로운 기능 및 개선 사항을 보려면 설명서를 참조하세요. [자세히 보기](release-notes.md)
+* 캔버스 도구 모음에 대한 정보를 추가했습니다. [자세히 보기](../building-journeys/using-the-journey-designer.md#gs-journey-design)
+* 내부 Adobe 주소가 URL 및 API에 허용되지 않는다는 정보를 추가했습니다. [자세히 보기](../start/guardrails.md)
 * 요청으로 전달된 컨텍스트 속성이 50kb를 초과할 수 없도록 지정하는 API-트리거된 캠페인 설명서에 메모를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
 * 수신자가 랜딩 페이지를 통해 구독을 취소한 후 옵트아웃 정보를 **동의 서비스 데이터 세트**&#x200B;에 저장하는 방식에 대한 정보를 추가했습니다. [자세히 보기](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023년 1월 {#jan-2023}
 
 * [!DNL Journey Optimizer] 2023년 1월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 최대 가용량 설명서에서 사용자 지정 인증 끝점에 대한 정보를 추가했습니다. [자세히 보기](../configuration/external-systems.md)
+* 외부 데이터 소스 섹션에 새로운 사용자 지정 인증 예가 추가되었습니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-mode)
+* 이벤트가 트리거된 여정에 대한 데이터 수집 핵심 서비스(DCCS)에 대한 메모가 추가되었습니다. [자세히 보기](../start/guardrails.md#events-g)
+* ID 네임스페이스 검색에 대한 메모가 [대상자 읽기](../building-journeys/read-audience.md), [세그먼트 선별](../building-journeys/segment-qualification-events.md) 및 [이벤트 만들기](../event/about-creating.md) 섹션.
 * [!DNL Journey Optimizer]의 접근성 기능은 이제 전용 페이지에 취합되어 있습니다. [자세히 보기](../start/accessibility.md)
+* 고급 표현식 편집기 설명서의 연산자 섹션에서 예가 업데이트되었습니다. [자세히 보기](../building-journeys/expression/operators.md)
+* 오브젝트 배열이 있는 조회의 제한에 대한 메모가 추가되었습니다. [자세히 보기](../event/experience-event-schema.md#relationships_limitations)
 * [!DNL Journey Optimizer]에 데이터 관리에 대한 새 페이지를 추가했습니다. [자세히 보기](../data/gs-data.md)
 * Decisioning API를 사용하여 오퍼를 전달할 때 응답에서 반환할 수 있는 모든 코드를 나열하는 표를 추가했습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
