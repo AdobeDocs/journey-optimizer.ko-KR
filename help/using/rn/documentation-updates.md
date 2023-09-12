@@ -4,7 +4,7 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
+source-git-commit: 605354d25e5d6f74a6a3119ab88ff4ed89aff883
 workflow-type: tm+mt
 source-wordcount: '3597'
 ht-degree: 92%
@@ -99,7 +99,7 @@ ht-degree: 92%
 * 최대 가용량 설명서에서 사용자 지정 인증 끝점에 대한 정보를 추가했습니다. [자세히 보기](../configuration/external-systems.md)
 * 외부 데이터 소스 섹션에 새로운 사용자 지정 인증 예가 추가되었습니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-mode)
 * 이벤트가 트리거된 여정에 대한 데이터 수집 핵심 서비스(DCCS)에 대한 메모가 추가되었습니다. [자세히 보기](../start/guardrails.md#events-g)
-* ID 네임스페이스 검색에 대한 메모가 [대상자 읽기](../building-journeys/read-audience.md), [세그먼트 선별](../building-journeys/segment-qualification-events.md) 및 [이벤트 만들기](../event/about-creating.md) 섹션.
+* ID 네임스페이스 검색에 대한 메모가 [대상자 읽기](../building-journeys/read-audience.md), [대상 자격 조건](../building-journeys/audience-qualification-events.md) 및 [이벤트 만들기](../event/about-creating.md) 섹션.
 * [!DNL Journey Optimizer]의 접근성 기능은 이제 전용 페이지에 취합되어 있습니다. [자세히 보기](../start/accessibility.md)
 * 고급 표현식 편집기 설명서의 연산자 섹션에서 예가 업데이트되었습니다. [자세히 보기](../building-journeys/expression/operators.md)
 * 오브젝트 배열이 있는 조회의 제한에 대한 메모가 추가되었습니다. [자세히 보기](../event/experience-event-schema.md#relationships_limitations)
