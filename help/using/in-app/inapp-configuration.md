@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 10%
+source-wordcount: '551'
+ht-degree: 8%
 
 ---
 
@@ -36,20 +36,47 @@ ht-degree: 10%
    >
    > 다음이 필요합니다. **앱 구성 관리** 다음에 대한 액세스 권한을 가집니다. **[!UICONTROL 앱 표면]** 메뉴 아래의 제품에서 사용할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [이 비디오](#video).
 
-   >[!NOTE]
-   >
-   > 다음이 필요합니다. **앱 구성 관리** 다음에 대한 액세스 권한을 가집니다. **[!UICONTROL 앱 표면]** 메뉴 아래의 제품에서 사용할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [이 비디오](#video).
-
    ![](assets/inapp_config_1.png)
 
 1. 에 이름 추가 **[!UICONTROL 앱 표면]**.
 
+   ![](assets/inapp_config_2b.png)
 
-1. Apple iOS 드롭다운에서 **iOS 번들 ID**. 을(를) 참조하십시오 [Apple 설명서](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 에 대한 추가 정보를 위해 **번들 ID**.
+1. 다음에서 **[!UICONTROL Apple iOS]** 드롭다운에서 Apple iOS에 대한 모바일 애플리케이션을 구성합니다.
 
-   ![](assets/inapp_config_2.png)
++++ 추가 정보
 
-1. Android 드롭다운에서 **Android 패키지 이름**. 을(를) 참조하십시오 [Android 설명서](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 에 대한 추가 정보를 위해 **패키지 이름**.
+   1. 을(를) 입력합니다. **[!UICONTROL iOS 번들 ID]**. 을(를) 참조하십시오 [Apple 설명서](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 에 대한 추가 정보를 위해 **번들 ID**.
+
+   1. (선택 사항) **[!UICONTROL 샌드박스]** 푸시 알림을 보낼 위치. 특정 샌드박스를 선택하려면 필요한 액세스 권한이 필요합니다.
+
+      샌드박스 관리에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../administration/sandboxes.md#assign-sandboxes).
+
+   1. 활성화 **[!UICONTROL 푸시 자격 증명]** 필요한 경우 .p8 인증 키 파일을 끌어서 놓는 옵션입니다.
+
+      또한 을 활성화할 수 있습니다. **[!UICONTROL 푸시 자격 증명 수동 입력]** APNs 인증 키를 직접 복사하여 붙여넣는 옵션.
+
+   1. 다음을 입력하십시오. **[!UICONTROL 키 ID]** 및 **[!UICONTROL 팀 ID]**.
+
+      ![](assets/inapp_config_2.png)
+
++++
+
+1. 다음에서 **[!UICONTROL Android]** 드롭다운에서 Android용 모바일 애플리케이션을 구성합니다.
+
++++ 추가 정보
+
+   1. 을(를) 입력합니다. **[!UICONTROL Android 패키지 이름]**. 을(를) 참조하십시오 [Android 설명서](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 에 대한 추가 정보를 위해 **패키지 이름**.
+
+   1. (선택 사항) **[!UICONTROL 샌드박스]** 푸시 알림을 보낼 위치. 특정 샌드박스를 선택하려면 필요한 액세스 권한이 필요합니다.
+
+      샌드박스 관리에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../administration/sandboxes.md#assign-sandboxes).
+
+   1. 활성화 **[!UICONTROL 푸시 자격 증명]** 필요한 경우 .json 개인 키 파일을 드래그 앤 드롭하는 옵션입니다.
+
+      또한 을 활성화할 수 있습니다. **[!UICONTROL 푸시 자격 증명 수동 입력]** 옵션을 사용하여 FCM 개인 키를 직접 복사하여 붙여넣을 수 있습니다.
+
+      ![](assets/inapp_config_7.png)
 
 1. 클릭 **[!UICONTROL 저장]** 의 구성을 완료했을 때 **[!UICONTROL 앱 표면]**.
 
