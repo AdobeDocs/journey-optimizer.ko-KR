@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 99%
 
 * **[!UICONTROL 정책]** - Adobe Experience Platform에서는 필드에 레이블을 지정하고 각 채널에 대한 마케팅 작업을 만들 수 있습니다. 그런 다음 레이블 및 마케팅 작업에 연결된 거버넌스 정책을 정의합니다. [자세히 알아보기](../action/action-privacy.md)
 
-* **[!UICONTROL 요청]** - 개인 정보 보호 요청은 Adobe Experience Platform Privacy Service에서 관리됩니다. 이 서비스에서는 고객 데이터 요청을 관리하는 데 도움이 되는 RESTful API 및 사용자 인터페이스를 제공합니다. [자세히 알아보기](../privacy/requests.md)
+* **[!UICONTROL 요청]** - 개인 정보 요청은 Adobe Experience Platform Privacy Service에서 관리합니다. 이 서비스에서는 고객 데이터 요청을 관리하는 데 도움이 되는 RESTful API 및 사용자 인터페이스를 제공합니다. [자세히 알아보기](../privacy/requests.md)
 
 * **[!UICONTROL 감사]** - 이 섹션으로 이동하면 활동 로그를 확인할 수 있습니다. [자세히 알아보기](../privacy/audit-logs.md)
 
