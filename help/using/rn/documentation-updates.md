@@ -15,9 +15,9 @@ ht-degree: 92%
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 
-## 2023년 9월 (#september-2023)
+## 2023년 9월(#september-2023)
 
-* 의사 결정 규칙을 만들 때 알아야 할 제한 사항 목록이 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/creating-decision-rules.md)
+* 결정 규칙을 만들 때 알아야 할 제한 사항 목록이 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/creating-decision-rules.md)
 
 ## 2023년 8월 {#august-2023}
 
