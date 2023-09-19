@@ -1,0 +1,178 @@
+---
+title: 코드 기반 경험 시작
+description: Journey Optimizer의 코드 기반 경험에 대해 알아보기
+feature: Offers
+topic: Content Management
+role: User
+level: Experienced
+hide: true
+hidefromtoc: true
+source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+workflow-type: tm+mt
+source-wordcount: '1170'
+ht-degree: 7%
+
+---
+
+# 코드 기반 채널 시작 {#get-sarted-code-based}
+
+>[!BEGINSHADEBOX]
+
+이 설명서의 내용:
+
+* **[코드 기반 채널 시작](get-started-code-based.md)**
+* [코드 기반 사전 요구 사항](code-based-prerequisites.md)
+* [코드 기반 구현 샘플](code-based-implementation-samples.md)
+* [코드 기반 경험 만들기](create-code-based.md)
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>코드 기반 경험 채널은 현재 사용자를 선택하는 베타 버전으로 사용할 수 있습니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
+
+[!DNL Journey Optimizer] 을(를) 사용하면 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV 연결 장치, 스마트 TV, 키오스크, ATM, 음성 지원, IoT 장치 등과 같은 모든 터치포인트에서 고객에게 제공할 경험을 개인화하고 테스트할 수 있습니다.
+
+포함 **코드 기반 경험** 간단하고 직관적인 비시각적 편집기를 사용하여 인바운드 경험을 정의할 수 있습니다. 전체 콘텐츠에 수정 사항을 적용하는 대신 보유한 애플리케이션 유형에 관계없이 앱이나 웹 페이지의 개별적이고 더 세분화된 위치에 특정 요소를 삽입하고 편집할 수 있습니다.
+
+<!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
+
+다음을 수행하는 경우 [캠페인 만들기](../campaigns/create-campaign.md#configure), 선택 **코드 기반 경험(베타)** 를 작업으로 만들고 기본 설정을 정의합니다.
+
+>[!NOTE]
+>
+>웹 경험을 처음 만드는 경우에는 [이 섹션](code-based-prerequisites.md)에서 설명하는 전제 조건을 충족해야 한다는 점에 유의하십시오.
+
+<!--Discover the detailed steps to create a code-based campaign in this video.-->
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="#how-it-works">
+<img alt="리드" src="../assets/do-not-localize/privacy-audit.jpeg">
+</a>
+<div><a href="#how-it-works"><strong>작동 방식</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="code-based-prerequisites.md">
+<img alt="유효성 검사" src="../assets/do-not-localize/web-prerequisites.jpg">
+</a>
+<div>
+<a href="code-based-prerequisites.md"><strong>전제 조건</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-code-based.md#create-code-based-campaign">
+<img alt="드물게" src="../assets/do-not-localize/web-create.jpg">
+</a>
+<div>
+<a href="create-code-based.md#create-code-based-campaign"><strong>코드 기반 경험 만들기</strong></a>
+</div>
+<p></td>
+<td>
+<a href="create-code-based.md#edit-code">
+<img alt="유효성 검사" src="../assets/do-not-localize/web-design.jpg">
+</a>
+<div>
+<a href="create-code-based.md#edit-code"><strong>코드 편집</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+
+
+
+<!--[Learn how to create a code-based campaign in this video](#video)-->
+
+## 코드 기반 채널과 기타 채널 비교 사용 시기 {#code-based-vs-other-channels}
+
+### 코드 기반 및 기타 채널
+
+다른 채널보다 코드 기반 채널을 사용하는 경우 [!DNL Journey Optimizer] 채널?
+
+* 웹 브라우저나 모바일 앱을 통해 디지털 속성에 액세스하지 않는 경우 언제든지 코드 기반 경험 사용을 고려할 수 있습니다. 이러한 경우 를 더 잘 사용할 수 있습니다. [!DNL Journey Optimizer] [웹 채널](../web/get-started-web.md){target="_blank"} or the [!DNL Journey Optimizer] [in-app messaging](../in-app/get-started-in-app.md){target="_blank"} 채널.
+
+* 코드 기반 채널을 다음에 대한 대체 요소로 사용할 수 있습니다. [!DNL Journey Optimizer] 웹 채널 : 웹 사이트를 로 로드할 수 없는 경우 [웹 비주얼 편집기](../web/author-web.md){target="_blank"} or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} 웹 채널에 대한 시각적 작성을 지원합니다.
+
+* 코드 기반 채널을 의 대체 요소로 사용할 수도 있습니다. [!DNL Journey Optimizer] API 기반, Headless 또는 서버측 구현이 있는 경우 웹 또는 인앱 채널.
+
+### 코드 기반과 웹 채널 비교
+
+웹 사용 사례를 실행하려면 웹 채널 또는 코드 기반 경험 중 하나를 사용할 수 있지만, 컨텍스트에 따라 하나가 다른 것보다 더 적절합니다. 주요 차이점은 아래에 나열되어 있으므로 사용 시기에 대한 올바른 결정을 내릴 수 있습니다.
+
+**웹**
+* 다음을 사용하여 콘텐츠 편집 [비주얼 에디터](../web/author-web.md){target="_blank"}.
+* 다음이 필요합니다. [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} implementation and the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}
+* 웹 채널에서는 페이지의 모든 내용을 수정할 수 있으며 변경할 수 있는 사전 정의된 작업 목록이 있습니다. [자세히 알아보기](../web/author-web.md){target="_blank"}
+* 쉽게 설정하고 빠르게 진행할 수 있습니다.
+* 마케터 중심입니다.
+
+**코드 기반 경험**
+* 다음을 사용하여 콘텐츠 편집 [코드 편집기](create-code-based.md#edit-code).
+* 코드 기반 경험을 사용하려면 구현에서 이전 개발 작업을 수행하여 표면에서에서 에지에 게시된 콘텐츠를 다음과 같이 해석하고 전달할 수 있도록 해야 합니다 [!DNL Journey Optimizer] 이 서피스에 사용됩니다. [자세히 알아보기](#surface-definition)
+* 더 많은 계획이 필요하고 개발자가 지정하는 사항만 변경할 수 있습니다. 따라서 구성 요소 (홈 배너, 영웅 이미지, 메뉴 바 등)를 식별하는 것이 필수적입니다. 개인화 또는 테스트를 위해 수정해야 하는 표면에 대해 개발 팀과 협력하여 이러한 변경 사항을 처리하는 데 필요한 구현을 빌드합니다.
+* JSON 코드 콘텐츠를 사용할 수 있습니다.
+* 개발자에 초점을 맞춥니다.
+
+## 작동 방식 {#how-it-works}
+
+>[!CAUTION]
+>
+>이 기능은 개발자 사용자 및/또는 숙련된 사용자를 위한 것입니다. 표면 구현과 초기 설정을 개발 팀에서 처리하는 한 코드 작성 능력이 있는 마케터가 사용할 수 있습니다.
+
+을 사용하여 콘텐츠를 편집하려면 다음을 수행하십시오. [!DNL Journey Optimizer] 코드 기반 경험 기능, 페이지 또는 앱을 계측해야 합니다. 이렇게 하려면 특정 개별 위치 앞에 를 선언해야 합니다(&quot;[표면](#surface-definition)&quot;) 컨텐츠를 삽입하거나 바꿀 위치<!--HOW??-->.
+
+>[!NOTE]
+>
+>현재 표면과 연결된 콘텐츠는 HTML 또는 JSON일 수 있습니다. <!--WILL COME LATER: text, image or another format depending on the application-->
+
+코드 기반 캠페인을 구현하는 주요 단계는 다음과 같습니다.
+
+1. 정의 [표면](#surface-definition): 코드 기반 경험을 추가하고 캠페인을 만들 위치입니다. [!DNL Journey Optimizer] 이 서피스를 사용합니다. [방법 알아보기](create-code-based.md#create-code-based-campaign)
+
+1. 다음을 사용하여 선택한 표면에 대한 콘텐츠를 지정하여 경험 구성 [!DNL Journey Optimizer] 코드 편집기. [방법 알아보기](create-code-based.md#edit-code)
+
+1. 앱 구현 팀은 &quot;배너 텍스트&quot; 또는 &quot;Recommendations 트레이 1&quot;과 같이 명명된 표면에 대한 콘텐츠 또는 &quot;검색 알고리즘 매개 변수&quot;와 같이 애플리케이션에서 UI와 관련되지 않은 의사 결정 지점을 가져오기 위해 명시적 API 또는 SDK 호출을 수행합니다. 이 경우 구현 팀은 반환된 콘텐츠를 렌더링하거나 해석하고 행동할 책임이 있습니다.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
+
+## 표면이란 무엇입니까? {#surface-definition}
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_surface"
+>title="코드 기반 경험 표면 정의"
+>abstract="코드 기반 표면은 URI에 의해 고유하게 식별되는 사용자 또는 시스템 상호 작용을 위해 설계된 임의의 엔티티입니다."
+
+A **코드 기반 경험 표면** 사용자 또는 시스템 상호 작용을 위해 설계된 엔티티임<!--ask Robert to explain further-->로 고유하게 식별됨 **URI**.
+
+다시 말해, 표면은 존재하는 엔티티(접점)를 가진 계층 구조의 모든 수준에서 컨테이너로 볼 수 있습니다.<!--good idea to illustrate how it can be seen, but to clarify-->
+
+* 웹 페이지, 모바일 앱, 데스크탑 앱, 큰 엔티티 내의 특정 콘텐츠 위치(예: `div`) 또는 비표준 표시 패턴(예: 키오스크 또는 데스크탑 앱 배너).<!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
+
+* 또한 비표시 또는 추상화된 표시 목적을 위해 특정 콘텐츠 컨테이너 조각으로 확장할 수도 있습니다(예: 서비스로 제공되는 JSON 블롭).
+
+* 다양한 클라이언트 표면 정의와 일치하는 와일드카드 표면일 수도 있습니다(예: 웹 사이트의 모든 페이지에 있는 영웅 이미지 위치는 web://mydomain.com/*#hero_image과 같은 표면 URI로 번역할 수 있음).
+
+기본적으로 서피스 URI는 여러 섹션으로 구성됩니다.
+1. **유형**: 웹, 모바일 앱, 서비스, 키오스크, tvcd 등
+1. **속성**: 도메인 또는 앱 번들
+1. **경로**: 페이지/앱 활동 ± 페이지/앱 활동의 위치 <!--to clarify-->
+
+아래 표에는 다양한 장치에 대한 일부 표면 URI 정의 예가 나와 있습니다.
+
+| 유형 | URI | 설명 |
+| --------- | ----------- | ------- |   
+| 웹 | web://domain.com/path/page.html | 웹 사이트의 개별 경로 및 페이지를 나타냅니다. |
+| 웹 | web://domain.com/path/page.html#element | 특정 도메인의 특정 페이지 내에 있는 개별 요소를 나타냅니다. |
+| 웹 | web://domain.com/*#element | 와일드카드 표면 - 특정 도메인 아래의 각 페이지에 있는 개별 요소를 나타냅니다. |
+| 데스크톱 | desktop://com.vendor.bundle | 특정 데스크톱 응용 프로그램을 나타냅니다. |
+| 데스크톱 | desktop://com.vendor.bundle#element | 버튼, 메뉴, 영웅 배너 등과 같은 애플리케이션 내의 특정 요소를 나타냅니다. |
+| iOS 앱 | ios://com.vendor.bundle | 단일 플랫폼에 대한 특정 모바일 애플리케이션을 나타냅니다(이 경우 iOS 앱). |
+| iOS 앱 | ios://com.vendor.bundle/activity | 모바일 애플리케이션 내의 특정 활동(보기)을 나타냅니다. |
+| iOS 앱 | ios://com.vendor.bundle/activity#element | 활동 내의 특정 요소(예: 버튼 또는 기타 보기 요소)를 나타냅니다. |
+| Android 앱 | android://com.vendor.bundle | 단일 플랫폼(이 경우 Android 앱)에 대한 특정 모바일 애플리케이션을 나타냅니다. |
+| tvOS 앱 | tvos://com.vendor.bundle | 특정 tvOS 앱을 나타냅니다. |
+| TV 앱 | tvcd://com.vendor.bundle | 특정 스마트 TV 또는 TV 연결 장치 앱 - 번들 ID를 나타냅니다. |
+| 서비스 | service://servicename | 서버측 프로세스 또는 기타 수동 엔티티를 나타냅니다. |
+| 키오스크 | kiosk://location/screen | 쉽게 추가될 수 있는 잠재적인 추가 서피스 유형의 예. |
+| ATM | atm://location/screen | 쉽게 추가될 수 있는 잠재적인 추가 서피스 유형의 예. |

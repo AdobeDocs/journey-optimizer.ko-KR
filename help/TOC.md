@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 100%
+source-wordcount: '1470'
+ht-degree: 96%
 
 ---
 
@@ -229,12 +229,17 @@ ht-degree: 100%
    + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)
    + [다이렉트 메일 메시지 테스트 및 보내기](using/direct-mail/test-send-direct-mail.md)
    + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
-+ 웹 채널{#web}
++ 웹 채널 {#web}
    + [웹 채널 시작하기](using/web/get-started-web.md)
    + [웹 채널 전제 조건](using/web/web-prerequisites.md)
    + [웹 경험 만들기 ](using/web/create-web.md)
    + [웹 페이지 작성 ](using/web/author-web.md)
    + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
++ 코드 기반 경험 {#code-based-experience}
+   + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)
+   + [코드 기반 사전 요구 사항](using/code-based/code-based-prerequisites.md)
+   + [코드 기반 구현 샘플](using/code-based/code-based-implementation-samples.md)
+   + [코드 기반 경험 만들기](using/code-based/create-code-based.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
@@ -426,6 +431,17 @@ ht-degree: 100%
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
++ 경험 의사 결정 {#experience-decisioning}
+   + [Experience Decisioning 시작하기](using/experience-decisioning/gs-experience-decisioning.md)
+   + 의사 결정 항목 관리 {#decision-items}
+      + [항목 카탈로그 구성](using/experience-decisioning/catalogs.md)
+      + [의사 결정 항목 만들기](using/experience-decisioning/items.md)
+      + [항목 컬렉션 관리](using/experience-decisioning/collections.md)
+   + 항목 선택 구성 {#selection}
+      + [의사 결정 규칙 만들기](using/experience-decisioning/rules.md)
+      + [등급 메서드 만들기](using/experience-decisioning/ranking.md)
+   + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
+   + [의사 결정 정책 만들기](using/experience-decisioning/create-decision.md)
 + 데이터 관리 {#data-management}
    + [데이터 관리 시작](using/data/gs-data.md)
    + [스키마 작업](using/data/get-started-schemas.md)
