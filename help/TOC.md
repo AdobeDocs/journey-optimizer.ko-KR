@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+source-git-commit: decf400bbdc0a063bd1714c6ce01595ef7fb222a
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1466'
 ht-degree: 96%
 
 ---
@@ -260,30 +260,28 @@ ht-degree: 96%
       + [콘텐츠 도우미 시작](using/content-management/gs-generative.md)
       + [콘텐츠 생성](using/content-management/generative-content.md)
       + [이미지 생성](using/content-management/generative-image.md)
-+ 개인화 및 다이내믹 콘텐츠 {#personalized-dynamic-content}
    + 개인화 {#personalization}
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
-      + 표현식 작성 {#build-expressions}
-         + [개인화 구문](using/personalization/personalization-syntax.md)
-         + 표현식 편집기 작업 {#expression-editor}
-            + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
-            + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
-            + [저장된 표현식으로 작업하기](using/personalization/personalization-library.md)
-            + [개인화 유효성 검사](using/personalization/personalization-validation.md)
-         + 도우미 함수{#functions}
-            + [도우미 함수 시작](using/personalization/functions/functions.md)
-            + [집계 함수](using/personalization/functions/aggregation.md)
-            + [산술 함수](using/personalization/functions/arithmetic-functions.md)
-            + [배열 및 목록 함수](using/personalization/functions/arrays-list.md)
-            + [날짜 함수](using/personalization/functions/dates.md)
-            + [부울 및 비교 함수](using/personalization/functions/operators.md)
-            + [도우미](using/personalization/functions/helpers.md)
-            + [맵 함수](using/personalization/functions/maps.md)
-            + [수학 함수](using/personalization/functions/math.md)
-            + [개체 함수](using/personalization/functions/objects.md)
-            + [문자열 함수](using/personalization/functions/string.md)
-      + 사용 사례{#personalization-use-cases}
+      + [개인화 구문](using/personalization/personalization-syntax.md)
+      + 표현식 편집기 작업 {#expression-editor}
+         + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
+         + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
+         + [저장된 표현식으로 작업하기](using/personalization/personalization-library.md)
+         + [개인화 유효성 검사](using/personalization/personalization-validation.md)
+      + 도우미 함수{#functions}
+         + [도우미 함수 시작](using/personalization/functions/functions.md)
+         + [집계 함수](using/personalization/functions/aggregation.md)
+         + [산술 함수](using/personalization/functions/arithmetic-functions.md)
+         + [배열 및 목록 함수](using/personalization/functions/arrays-list.md)
+         + [날짜 함수](using/personalization/functions/dates.md)
+         + [부울 및 비교 함수](using/personalization/functions/operators.md)
+         + [도우미](using/personalization/functions/helpers.md)
+         + [맵 함수](using/personalization/functions/maps.md)
+         + [수학 함수](using/personalization/functions/math.md)
+         + [개체 함수](using/personalization/functions/objects.md)
+         + [문자열 함수](using/personalization/functions/string.md)
+      + 개인화 사용 사례{#personalization-use-cases}
          + [주문 상태 알림](using/personalization/personalization-use-case.md)
          + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
    + 다이내믹 콘텐츠 {#dynamic}
