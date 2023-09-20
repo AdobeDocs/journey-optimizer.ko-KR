@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1001'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 3%
 >id="ajo_code_based_experience"
 >title="코드 편집기 사용"
 >abstract="이 코드 기반 경험 작업의 일부로 제공할 코드를 삽입하고 편집합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/build-expressions/expression-editor/personalization-build-expressions.html" text="표현식 편집기 시작"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="표현식 편집기 시작"
 
 1. Campaign Edition 화면에서 다음을 선택합니다. **[!UICONTROL 코드 편집]**.
 
