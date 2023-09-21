@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: 2fb87752a3f9190a5e9b885f102423827545f9fe
+source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 38%
+source-wordcount: '594'
+ht-degree: 29%
 
 ---
 
@@ -29,13 +29,28 @@ ht-degree: 38%
 <table>
 <thead>
 <tr>
+<th><strong>샌드박스당 모바일 애플리케이션 자격 증명 저장소</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이 새로운 기능을 사용하면 푸시 자격 증명을 앱 표면의 전용 샌드박스와 쉽게 관리하고 연결할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../in-app/inapp-configuration.md">세부 설명서</a>를 참고하세요.</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>통합 채널 보고서</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>채널 보고서 기능은 분석가와 마케터에게 채널 수준의 트래픽 및 참여 지표에 대한 포괄적인 개요를 제공합니다. 보고서 메뉴에 액세스하려면 **채널 보고서 보기** 권한이 있어야 합니다.</p>
+<p>채널 보고서 기능은 분석가와 마케터에게 채널 수준의 트래픽 및 참여 지표에 대한 포괄적인 개요를 제공합니다. '보고서' 메뉴에 액세스하려면 '채널 보고서 보기' 권한이 있어야 합니다.</p>
 <img src="assets/channel-reports.png"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -46,13 +61,13 @@ ht-degree: 38%
 <table>
 <thead>
 <tr>
-<th><strong>데이터 세트 내보내기 생성(GA)</strong><br/></th>
+<th><strong>데이터 세트 내보내기 대상(GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Cloud Storage Destinations로 Journey Optimizer 데이터 세트를 내보내는 기능은 이제 일반적인 방법으로 사용할 수 있습니다. 이제 클라우드 스토리지 위치와 실시간 연결을 설정하여 데이터 세트의 콘텐츠를 내보낼 수 있습니다.</p>
+<p>이제 클라우드 스토리지 대상으로 Journey Optimizer 데이터 세트 내보내기를 일반적으로 사용할 수 있습니다. 이제 클라우드 스토리지 위치와 실시간 연결을 설정하여 데이터 세트의 콘텐츠를 내보낼 수 있습니다.</p>
 <img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -78,7 +93,7 @@ ht-degree: 38%
 
 **경고**
 
-새로운 유형의 시스템 경고가 도입되었습니다. 이제 세그먼트 읽기가 실패하면 알림을 받을 수 있습니다.
+* 두 가지 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 지정 작업 또는 세그먼트 읽기가 실패하면 알림을 받을 수 있습니다.
 
 **웹 채널**
 
@@ -88,9 +103,9 @@ ht-degree: 38%
 
 **여정**
 
-* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 정의 작업이 실패하면 알림을 받을 수 있습니다.
+* 이제 사용자 지정 작업 응답 기능이 GA됩니다. 이렇게 하면 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 또한 모든 통관 조치를 엔드포인트당 호출 수 5000회로 제한하는 가드레일이 새로 추가되었습니다.
 * 이제 여정을 복제할 때 여정 사본의 이름을 정의할 수 있습니다.
-
+* 대기 활동에서 정의할 수 있는 최대 기간은 이제 30일이 아니라 29일입니다.
 
 **이메일 채널**
 
