@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
+source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 29%
+source-wordcount: '540'
+ht-degree: 22%
 
 ---
 
@@ -26,20 +26,6 @@ ht-degree: 29%
 
 이번 릴리스에는 아래 목록에 있는 새로운 기능이 제공됩니다.
 
-<table>
-<thead>
-<tr>
-<th><strong>샌드박스당 모바일 애플리케이션 자격 증명 저장소</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이 새로운 기능을 사용하면 푸시 자격 증명을 앱 표면의 전용 샌드박스와 쉽게 관리하고 연결할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../in-app/inapp-configuration.md">세부 설명서</a>를 참고하세요.</p>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -75,6 +61,20 @@ ht-degree: 29%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>샌드박스당 모바일 애플리케이션 자격 증명 저장소</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이 새로운 기능을 사용하면 푸시 자격 증명을 앱 표면의 전용 샌드박스와 쉽게 관리하고 연결할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../in-app/inapp-configuration.md">자세한 설명서</a>를 참조하세요.</p>
+</tr>
+</tbody>
+</table>
 
 ### 개선 사항 {#sept-2023-improvements}
 
@@ -83,7 +83,7 @@ ht-degree: 29%
 **대상자**
 
 * 이제 CSV 파일에서 업로드한 대상을 여정 및 캠페인으로 타깃팅할 수 있습니다.
-* 대상의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상 선택기가 개선되었습니다.
+  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 * 이제 작성 워크플로우로 인해 발생하는 대상자를 여정으로 타깃팅할 수 있습니다.
 
 **개인화**
@@ -111,6 +111,6 @@ ht-degree: 29%
 
 이메일 표면 구성의 새 옵션을 사용하면 이메일 주소가 Adobe Journey Optimizer 제외 목록에 있는 경우에도 프로필에 트랜잭션 메시지를 보내도록 선택할 수 있습니다.
 
-**의사 결정 관리**
+<!--**Decision management**
 
-대상의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상 선택기가 개선되었습니다.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
