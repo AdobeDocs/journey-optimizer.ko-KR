@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -111,7 +111,7 @@ ht-degree: 7%
 * 마케터 중심입니다.
 
 **코드 기반 경험**
-* 다음을 사용하여 콘텐츠 편집 [코드 편집기](create-code-based.md#edit-code).
+* 다음을 사용하여 콘텐츠 편집 [표현식 편집기](create-code-based.md#edit-code).
 * 코드 기반 경험을 사용하려면 구현에서 이전 개발 작업을 수행하여 표면에서에서 에지에 게시된 콘텐츠를 다음과 같이 해석하고 전달할 수 있도록 해야 합니다 [!DNL Journey Optimizer] 이 서피스에 사용됩니다. [자세히 알아보기](#surface-definition)
 * 더 많은 계획이 필요하고 개발자가 지정하는 사항만 변경할 수 있습니다. 따라서 구성 요소 (홈 배너, 영웅 이미지, 메뉴 바 등)를 식별하는 것이 필수적입니다. 개인화 또는 테스트를 위해 수정해야 하는 표면에 대해 개발 팀과 협력하여 이러한 변경 사항을 처리하는 데 필요한 구현을 빌드합니다.
 * JSON 코드 콘텐츠를 사용할 수 있습니다.
@@ -133,7 +133,7 @@ ht-degree: 7%
 
 1. 정의 [표면](#surface-definition): 코드 기반 경험을 추가하고 캠페인을 만들 위치입니다. [!DNL Journey Optimizer] 이 서피스를 사용합니다. [방법 알아보기](create-code-based.md#create-code-based-campaign)
 
-1. 다음을 사용하여 선택한 표면에 대한 콘텐츠를 지정하여 경험 구성 [!DNL Journey Optimizer] 코드 편집기. [방법 알아보기](create-code-based.md#edit-code)
+1. 다음을 사용하여 선택한 표면에 대한 콘텐츠를 지정하여 경험 구성 [!DNL Journey Optimizer] 표현식 편집기. [방법 알아보기](create-code-based.md#edit-code)
 
 1. 앱 구현 팀은 &quot;배너 텍스트&quot; 또는 &quot;Recommendations 트레이 1&quot;과 같이 명명된 표면에 대한 콘텐츠 또는 &quot;검색 알고리즘 매개 변수&quot;와 같이 애플리케이션에서 UI와 관련되지 않은 의사 결정 지점을 가져오기 위해 명시적 API 또는 SDK 호출을 수행합니다. 이 경우 구현 팀은 반환된 콘텐츠를 렌더링하거나 해석하고 행동할 책임이 있습니다.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 

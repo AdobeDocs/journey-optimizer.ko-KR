@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1007'
 ht-degree: 3%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="코드 편집기 사용"
+>title="표현식 편집기 사용"
 >abstract="이 코드 기반 경험 작업의 일부로 제공할 코드를 삽입하고 편집합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="표현식 편집기 시작"
 
@@ -76,7 +76,7 @@ ht-degree: 3%
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. 코드 편집기가 열립니다. 시각적이지 않은 경험 만들기 인터페이스입니다.
+1. 다음 [표현식 편집기](../personalization/personalization-build-expressions.md) 열림. 코드를 작성할 수 있는 비시각적 경험 만들기 인터페이스입니다.
 
 1. 작성 모드를 HTML에서 JSON으로 전환하거나 그 반대로 전환할 수 있습니다.
 
@@ -84,7 +84,7 @@ ht-degree: 3%
    >
    >작성 모드를 변경하면 현재 코드가 모두 손실되므로 작성을 시작하기 전에 모드를 전환해야 합니다.
 
-1. 필요에 따라 코드를 입력합니다. 코드 편집기는 [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
+1. 필요에 따라 코드를 입력합니다. 다음을 활용할 수 있습니다. [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
    ![](assets/code-based-campaign-code-editor.png)
 
@@ -113,7 +113,7 @@ ht-degree: 3%
 >
 >게재할 오퍼를 시뮬레이션할 수 있는 테스트 프로필이 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../audience/creating-test-profiles.md).
 
-1. 코드 편집기 또는 콘텐츠 편집 화면에서 다음을 선택합니다. **[!UICONTROL 콘텐츠 시뮬레이션]**.
+1. 표현식 편집기 또는 콘텐츠 편집 화면에서 다음을 선택합니다. **[!UICONTROL 콘텐츠 시뮬레이션]**.
 
    ![](assets/code-based-campaign-simulate.png)
 
