@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, 풀, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 7%
 
 ---
@@ -73,4 +73,4 @@ IP 준비 계획을 구현하는 주요 단계는 다음과 같습니다.
 
 1. IP 준비 계획을 만들고 계획을 업로드합니다. [자세히 알아보기](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
-1. 계획의 각 단계를 조정하고 실행을 활성화합니다. [자세히 알아보기](ip-warmup-running.md)
+1. 플랜의 각 단계에 대한 캠페인을 선택하고 해당 실행을 활성화합니다. [자세히 알아보기](ip-warmup-running.md)

@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, 풀, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '566'
 ht-degree: 5%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 5%
 * [IP 준비 계획 실행](ip-warmup-running.md)
 
 >[!ENDSHADEBOX]
+
+한 번 [하나 이상의 캠페인 생성됨](ip-warmup-campaign.md) 전용 서피스와 IP 웜업 옵션이 활성화된 경우 IP 웜업 계획 생성을 시작할 수 있습니다.
 
 ## IP 준비 계획 액세스 및 관리 {#manage-ip-warmup-plans}
 
