@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: b0a842232259ef2b1b930927a8c61c32bfc45123
+source-git-commit: 2fb87752a3f9190a5e9b885f102423827545f9fe
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 39%
+source-wordcount: '517'
+ht-degree: 38%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 39%
 <td>
 <p>채널 보고서 기능은 분석가와 마케터에게 채널 수준의 트래픽 및 참여 지표에 대한 포괄적인 개요를 제공합니다. 보고서 메뉴에 액세스하려면 **채널 보고서 보기** 권한이 있어야 합니다.</p>
 <img src="assets/channel-reports.png"/>
-<p>자세한 내용은 <a href="../in-app/get-started-in-app.md">세부 설명서</a>를 참고하세요.</p-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
 </table>
