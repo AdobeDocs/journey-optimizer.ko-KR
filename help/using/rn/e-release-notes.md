@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
+source-git-commit: b0a842232259ef2b1b930927a8c61c32bfc45123
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 39%
 
 ---
 
@@ -18,26 +18,26 @@ ht-degree: 100%
 
 아래 초기 릴리스 정보는 릴리스를 사용할 수 있는 당일까지 사전 통지 없이 변경될 수 있습니다. 링크, 화면, 업데이트된 설명서는 릴리스 날짜의 [릴리스 정보](release-notes.md)에 게시됩니다.
 
-## 2023년 8월 초기 릴리스 정보 {#aug-rn-2023}
+## 2023년 9월 초기 릴리스 정보 {#sept-rn-2023}
 
-**릴리스 일자**: 2023년 8월 23~24일
+**릴리스 날짜**: 2023년 9월 26~27일
 
-### 새로운 기능{#aug-2023-features}
+### 새로운 기능{#sept-2023-features}
 
 이번 릴리스에는 아래 목록에 있는 새로운 기능이 제공됩니다.
 
 <table>
 <thead>
 <tr>
-<th><strong>여정에서 인앱 메시지 보내기</strong><br/></th>
+<th><strong>통합 채널 보고서</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 여정 내에서 앱 사용자에게 개인화된 인앱 메시지를 보낼 수 있습니다. Journey Optimizer를 사용하여 알림을 디자인하고 메시지 레이아웃, 디스플레이, 텍스트, 버튼을 사용자 정의하여 원활한 경험을 만들 수 있습니다.</p>
-<img src="assets/in_app_journey_1.png"/>
-<p>자세한 내용은 <a href="../in-app/get-started-in-app.md">세부 설명서</a>를 참조하십시오.</p>
+<p>채널 보고서 기능은 분석가와 마케터에게 채널 수준의 트래픽 및 참여 지표에 대한 포괄적인 개요를 제공합니다. 보고서 메뉴에 액세스하려면 **채널 보고서 보기** 권한이 있어야 합니다.</p>
+<img src="assets/channel-reports.png"/>
+<p>자세한 내용은 <a href="../in-app/get-started-in-app.md">세부 설명서</a>를 참고하세요.</p-->
 </tr>
 </tbody>
 </table>
@@ -46,14 +46,14 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>시드 목록을 사용한 이메일 유효성 검사</strong><br/></th>
+<th><strong>데이터 세트 내보내기 생성(GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 시드 목록을 만들고 관리할 수 있습니다. 시드 목록은 실제 대상자에 추가할 수 있는 내부 주소로 구성되며, 게재 실행 시 해당 목록의 주소는 타겟팅한 프로필과 정확히 동일한 메시지를 수신합니다. 이 기능을 사용하면 보내는 커뮤니케이션을 모니터링하여 모든 표시 형식, URL, 이미지, 링크가 올바른지 확인할 수 있습니다.</p>
-<img src="../configuration/assets/seed-list-details.png">
+<p>Cloud Storage Destinations로 Journey Optimizer 데이터 세트를 내보내는 기능은 이제 일반적인 방법으로 사용할 수 있습니다. 이제 클라우드 스토리지 위치와 실시간 연결을 설정하여 데이터 세트의 콘텐츠를 내보낼 수 있습니다.</p>
+<img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -61,46 +61,41 @@ ht-degree: 100%
 </table>
 
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Generate text and images with the Content assistant</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
-<p>This capability is currently available as a private beta.</p>
-<img src="assets/gen-ai-image-2.png"/>
-<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-
-
-### 개선 사항 {#aug-2023-improvements}
+### 개선 사항 {#sept-2023-improvements}
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-**API**
+**대상자**
 
-이제 콘텐츠 조각을 만들고 관리하기 위한 새 API를 사용할 수 있습니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+* 이제 CSV 파일에서 업로드한 대상을 여정 및 캠페인으로 타깃팅할 수 있습니다.
+* 대상의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상 선택기가 개선되었습니다.
+* 이제 작성 워크플로우로 인해 발생하는 대상자를 여정으로 타깃팅할 수 있습니다.
 
-**이메일 채널**
+**개인화**
 
-이메일 표면 설정의 새로운 설정을 통해 트랜잭션 메시지 대상자에 스팸 메시지 불만 제기로 인해 억제된 이메일 주소를 포함할 수 있습니다. 이 옵션을 사용하면 해당 프로필이 마케팅 메시지를 스팸으로 표시했더라도 암호 재설정이나 계정 관련 공지와 같은 트랜잭션 메시지를 받을 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
+* 이제 시각적 조각 외에도 표현식 편집기를 통해 Journey Optimizer 인터페이스에서 표현식 조각을 만들고, 저장하고, 다시 사용할 수 있습니다. 표현식 조각은 이전에 저장된 표현식을 대체합니다.
+* 이제 Journey Optimizer의 개인화에 Adobe Experience Platform 계산된 속성을 사용할 수 있습니다. 계산된 속성은 Adobe Experience Platform에 수집된 프로필 사용 경험 이벤트 데이터 세트를 기반으로 계산되는 집계된 값입니다.
+
+**경고**
+
+새로운 유형의 시스템 경고가 도입되었습니다. 이제 세그먼트 읽기가 실패하면 알림을 받을 수 있습니다.
+
+**웹 채널**
+
+* 이제 웹 페이지 수정 사항을 적용할 특정 보기를 선택할 수 있습니다. 보기는 전체 사이트 또는 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다.
+* 이제 웹 디자이너를 사용하여 페이지를 편집할 때 구성 요소를 선택하고 디자이너 인터페이스에서 편집할 필요 없이 수정 창에서 직접 콘텐츠에 새 변경 사항을 추가할 수 있습니다.
+* 이제 웹 하위 도메인을 설정할 때 Adobe으로 이미 위임된 하위 도메인을 사용할 수 있을 뿐만 아니라 고유한 하위 도메인을 추가할 수 있는 옵션이 제공됩니다.
 
 **여정**
 
-* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Private Beta로 사용할 수 있습니다.
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 정의 작업이 실패하면 알림을 받을 수 있습니다.
+* 이제 여정을 복제할 때 여정 사본의 이름을 정의할 수 있습니다.
 
 
-**다이렉트 메일**
+**이메일 채널**
 
-* 이제 파일 라우팅 구성에서 서버 유형으로 Azure를 선택할 수 있습니다.
-* 이제 DM 표면 설정의 열 구분 기호 필드로 앰퍼샌드를 사용할 수 있습니다.
+이메일 표면 구성의 새 옵션을 사용하면 이메일 주소가 Adobe Journey Optimizer 제외 목록에 있는 경우에도 프로필에 트랜잭션 메시지를 보내도록 선택할 수 있습니다.
+
+**의사 결정 관리**
+
+대상의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상 선택기가 개선되었습니다.
