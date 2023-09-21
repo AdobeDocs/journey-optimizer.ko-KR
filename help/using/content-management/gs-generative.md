@@ -10,14 +10,20 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
+source-git-commit: b99d77138f22839b40414979d36e26d7304947b1
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
 
 # 콘텐츠 도우미 시작 {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_generation"
+>title="이메일 콘텐츠 만들기"
+>abstract="Adobe Journey Optimizer 콘텐츠 도우미는 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 제공합니다. 이메일, 푸시, SMS 및 웹 채널에 사용 가능합니다. 이 새로운 기능은 프롬프트 기반의 텍스트 및 이미지 생성을 제공합니다."
+
 
 >[!BEGINSHADEBOX]
 
