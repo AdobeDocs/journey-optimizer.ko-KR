@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, 풀, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 5%
@@ -67,14 +67,11 @@ ht-degree: 5%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="채널 표면 설정"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP 준비 캠페인 만들기"
 
->[!CAUTION]
->
->IP 준비 계획을 만들고, 편집하고, 삭제하려면 **[!UICONTROL 전달성 컨설턴트]** 권한.
-<!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
-
 하나 이상의 라이브 캠페인이 **[!UICONTROL IP 준비 계획 활성화]** 활성화된 옵션이 활성화되면 IP 준비 계획과 연결할 수 있습니다.
 
 >[!CAUTION]
+>
+>IP 준비 계획을 만들고, 편집하고, 삭제하려면 **[!UICONTROL 전달성 컨설턴트]** 권한. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
 >
 >게재 컨설턴트와 협력하여 IP 준비 계획 템플릿이 올바르게 설정되었는지 확인합니다. <!--TBC-->
 

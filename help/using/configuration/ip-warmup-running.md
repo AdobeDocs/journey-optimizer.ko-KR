@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, 풀, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -58,25 +58,29 @@ ht-degree: 1%
 
    * 다른 IP 준비 캠페인에서 이미 사용 중인 캠페인은 선택할 수 없습니다.
 
-1. 각 단계에 대해 다음 사항이 적용됩니다.
+1. 다음에서 **[!UICONTROL 프로필 제외]** 섹션에서 해당 단계의 이전 실행의 프로필이 항상 제외되어 있음을 확인할 수 있습니다. 예를 들어 실행 시 타겟팅되#1 처음 4800명에서 프로필이 포함된 경우 시스템은 동일한 프로필이 실행 시 이메일을 수신하지 않도록 자동으로 #2.
 
-   * **[!UICONTROL 프로필 제외]** - 해당 단계의 이전 실행 프로필은 항상 제외됩니다. 예를 들어, Leo가 처음 6300명의 대상#1 선정되면 시스템이 자동으로 Leo가 메일을 #2 받지 못하도록 합니다.
+1. 다음에서 **[!UICONTROL 캠페인 대상자 제외됨]** 섹션, 다른 항목에서 대상 선택 <!--executed/live?-->현재 단계에서 제외하려는 캠페인.
 
-   * **[!UICONTROL 캠페인 대상자 제외됨]** - 다른 대상에서 대상 선택 <!--executed/live?-->현재 단계에서 제외하려는 캠페인.
+   ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
-     예를 들어, 단계를 실행하고 있고 어떤 이유에서든 단계를 분할해야 할 수 있습니다. 이런 경우 2단계에서는 1단계에서 사용한 캠페인을 이 섹션에 포함시켜 2단계에서는 1단계에서 이전에 연락한 사람이 포함되지 않도록 할 것입니다. 이는 동일한 IP 준비 계획에 사용된 캠페인뿐만 아니라 다른 IP 준비 계획에서도 수행할 수 있습니다.
+   예를 들어 1단계를 실행하는 동안 [분할하기](#split-phase) 어떤 이유에서든. 따라서 1단계에서 사용된 캠페인을 제외하여 1단계에서 이전에 연락한 프로필이 2단계에 포함되지 않도록 할 수 있습니다. 다른 IP 준비 계획에서 캠페인을 제외할 수도 있습니다.
 
-   * **[!UICONTROL 도메인 그룹 제외됨]** - 해당 단계에서 제외할 도메인(예: Gmail)을 선택합니다. <!--??-->
+1. 다음에서 **[!UICONTROL 도메인 그룹 제외됨]** 섹션에서 해당 단계에서 제외할 도메인을 선택합니다.
 
-     며칠 동안 IP 워밍업을 실행한 후에는 도메인을 사용한 ISP 평판이 hotmail이 좋지 않음을 알고 ISP로 해결하려고 하지만 IP 워밍업 계획을 중지하지 않으려고 합니다. 이 경우 도메인 그룹 hotmail을 제외된 범주에 넣을 수 있습니다.
+   ![](assets/ip-warmup-plan-exclude-domains.png)
 
-     >[!NOTE]
-     >
-     >도메인 제외에는 실행되지 않는 단계가 필요하므로 제외를 추가하려면 실행 단계를 분할해야 할 수 있습니다. 마찬가지로 도메인 그룹이 OOTB 도메인 그룹이 아닌 경우 Excel에서 도메인 그룹을 만들고 업로드한 다음 동일한 그룹을 제외해야 할 수 있습니다.
+   예를 들어 며칠 동안 IP 웜업을 실행한 후에는 도메인(즉, Adobe)의 ISP 평판이 좋지 않음을 깨닫고 IP 웜업 계획을 중지하지 않고 이를 해결하려고 합니다. 이러한 경우 Adobe 도메인 그룹을 제외할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >도메인 제외에는 실행되지 않는 단계가 필요하므로 제외를 추가하려면 실행 단계를 분할해야 할 수 있습니다. 마찬가지로 도메인 그룹이 OOTB 도메인 그룹이 아닌 경우 이 도메인 그룹을 Excel 파일에 추가하고 업로드한 다음 도메인을 제외해야 합니다.
 
    ![](assets/ip-warmup-plan-phase-1.png)
 
-1. 필요한 경우 단계를 추가할 수 있습니다. 마지막 현재 단계 이후에 추가됩니다. 사용 **[!UICONTROL 단계 삭제]** 단추를 클릭하여 원하지 않는 단계를 제거합니다.
+1. 필요한 경우 단계를 추가할 수 있습니다. 마지막 현재 단계 이후에 추가됩니다.
+
+1. 사용 **[!UICONTROL 단계 삭제]** 단추를 클릭하여 원하지 않는 단계를 제거합니다.
 
    ![](assets/ip-warmup-plan-add-delete-phases.png)
 
@@ -92,7 +96,7 @@ ht-degree: 1%
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 종료 시간을 선택합니다. 이는 기본적으로 대상자 작업이 지연되는 경우 준비 캠페인을 실행할 수 있는 창을 의미합니다. 지정하지 않으면 시작 시간에 시도하고 실패합니다. 종료 시간이 제공되면 해당 창 사이의 실행이 실행됩니다.
+1. 대상자 세분화 작업 실행이 지연되는 경우 IP 웜업 캠페인을 실행할 수 있는 창을 정의하는 종료 시간을 선택합니다. 종료 시간을 지정하지 않으면 시작 시간에 실행이 시도되며 세그먼테이션이 완료되지 않으면 실패합니다.
 
 1. 각 실행을 활성화합니다. 세분화 작업을 실행할 수 있도록 시간을 충분히 일찍 예약하십시오. <!--explain how you can evaluate a proper time-->
 
@@ -100,11 +104,13 @@ ht-degree: 1%
    >
    >각 실행은 실제 전송 시간보다 최소 12시간 전에 활성화되어야 합니다. 그렇지 않으면 세그먼테이션이 완료되지 않을 수 있습니다. <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
-<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+   <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
 
 1. 캠페인 실행이 시작되지 않은 경우 실행을 중단할 수 있습니다.<!--why?-->
 
-   캠페인 실행이 시작되면 **[!UICONTROL 중지]** 버튼을 사용할 수 없게 됩니다. <!--TBC in UI-->
+   >[!NOTE]
+   >
+   >캠페인 실행이 시작되면 **[!UICONTROL 중지]** 버튼을 사용할 수 없게 됩니다. <!--TBC in UI-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -112,9 +118,13 @@ ht-degree: 1%
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
-1. 언제든지 특정 실행에서 시작하는 다른 캠페인을 사용하려면 다음을 선택합니다. **[!UICONTROL 새 단계로 분할 옵션]** 점 세 개 아이콘에서 현재 단계의 나머지 실행에 대해 새 단계가 생성됩니다. 다음 단계 [위](#define-phases) 새 단계를 정의합니다.
+## 단계 분할 {#split-phase}
 
-   예를 들어 실행 #4에 대해 이 옵션을 선택하면 #8에 #4 실행이 새 단계로 이동됩니다.
+언제든지 특정 실행에서 시작하는 다른 캠페인을 사용하려면 다음을 선택합니다. **[!UICONTROL 새 단계로 분할 옵션]** 점 세 개 아이콘에서
+
+현재 단계의 나머지 실행에 대해 새 단계가 생성됩니다. 다음 단계 [위](#define-phases) 새 단계를 정의합니다.
+
+예를 들어 실행 목록에 대해 이 옵션#4 선택하면 #8 실행 #4가 새 단계로 이동됩니다.
 
 <!--
 You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
