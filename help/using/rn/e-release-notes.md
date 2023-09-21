@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
+source-git-commit: 127e7cee6c474ba1e7519985e5c768be8abc6b20
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 22%
+source-wordcount: '529'
+ht-degree: 23%
 
 ---
 
@@ -83,8 +83,7 @@ ht-degree: 22%
 **대상자**
 
 * 이제 CSV 파일에서 업로드한 대상을 여정 및 캠페인으로 타깃팅할 수 있습니다.
-  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
-* 이제 작성 워크플로우로 인해 발생하는 대상자를 여정으로 타깃팅할 수 있습니다.
+<!--* You can now target audiences resulting from composition workflows into journeys. -->
 
 **개인화**
 
