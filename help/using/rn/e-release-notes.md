@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
+source-git-commit: 91d40b697b7f70f0b27454684e7a0bfa3e6488c6
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 21%
+source-wordcount: '550'
+ht-degree: 24%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 21%
 
 **경고**
 
-* 두 가지 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 지정 작업 또는 세그먼트 읽기가 실패하면 알림을 받을 수 있습니다.
+* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 대상자 읽기가 실패하면 알림을 받을 수 있습니다.
 
 **웹 채널**
 
@@ -103,13 +103,20 @@ ht-degree: 21%
 
 **여정**
 
-* 이제 사용자 지정 작업 응답 기능이 GA됩니다. 이렇게 하면 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 또한 모든 통관 조치를 엔드포인트당 호출 수 5000회로 제한하는 가드레일이 새로 추가되었습니다.
+* 이제 사용자 지정 작업 응답에 대한 지원이 GA됩니다. 이렇게 하면 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 또한 모든 통관 조치를 엔드포인트당 호출 수 5000회로 제한하는 가드레일이 새로 추가되었습니다.
 * 이제 여정을 복제할 때 여정 사본의 이름을 정의할 수 있습니다.
-* 대기 활동에서 정의할 수 있는 최대 기간은 이제 30일이 아니라 29일입니다.
+
+<!--
+* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
+-->
 
 **이메일 채널**
 
 이메일 표면 구성의 새 옵션을 사용하면 이메일 주소가 Adobe Journey Optimizer 제외 목록에 있는 경우에도 프로필에 트랜잭션 메시지를 보내도록 선택할 수 있습니다.
+
+**보고**
+
+이제 Journey Optimizer 보고서를 CSV 파일로 내보낼 수 있습니다. [자세히 알아보기](../reports/global-report.md#export-reports)
 
 <!--**Decision management**
 
