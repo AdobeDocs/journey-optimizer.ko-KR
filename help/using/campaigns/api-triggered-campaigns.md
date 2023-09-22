@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -27,7 +27,7 @@ API 트리거 캠페인에 사용할 수 있는 채널은 이메일, SMS 및 푸
 
 >[!NOTE]
 >
->현재는 푸시 알림 API 트리거 캠페인에 대해 빠른 배달이 지원되지 않습니다.
+>현재 빠른 전송 모드는 푸시 알림 API 트리거 캠페인에 대해 지원되지 않습니다.
 
 ## API 트리거 캠페인 만들기 {#create}
 
