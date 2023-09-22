@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -168,10 +168,10 @@ A **코드 기반 경험 표면** 사용자 또는 시스템 상호 작용을 �
 | 웹 | web://domain.com/*#element | 와일드카드 표면 - 특정 도메인 아래의 각 페이지에 있는 개별 요소를 나타냅니다. |
 | 데스크톱 | desktop://com.vendor.bundle | 특정 데스크톱 응용 프로그램을 나타냅니다. |
 | 데스크톱 | desktop://com.vendor.bundle#element | 버튼, 메뉴, 영웅 배너 등과 같은 애플리케이션 내의 특정 요소를 나타냅니다. |
-| iOS 앱 | ios://com.vendor.bundle | 단일 플랫폼에 대한 특정 모바일 애플리케이션을 나타냅니다(이 경우 iOS 앱). |
-| iOS 앱 | ios://com.vendor.bundle/activity | 모바일 애플리케이션 내의 특정 활동(보기)을 나타냅니다. |
-| iOS 앱 | ios://com.vendor.bundle/activity#element | 활동 내의 특정 요소(예: 버튼 또는 기타 보기 요소)를 나타냅니다. |
-| Android 앱 | android://com.vendor.bundle | 단일 플랫폼(이 경우 Android 앱)에 대한 특정 모바일 애플리케이션을 나타냅니다. |
+| iOS 앱 | mobileapp://com.vendor.bundle | 단일 플랫폼에 대한 특정 모바일 애플리케이션을 나타냅니다(이 경우 iOS 앱). |
+| iOS 앱 | mobileapp://com.vendor.bundle/activity | 모바일 애플리케이션 내의 특정 활동(보기)을 나타냅니다. |
+| iOS 앱 | mobileapp://com.vendor.bundle/activity#element | 활동 내의 특정 요소(예: 버튼 또는 기타 보기 요소)를 나타냅니다. |
+| Android 앱 | mobileapp://com.vendor.bundle | 단일 플랫폼(이 경우 Android 앱)에 대한 특정 모바일 애플리케이션을 나타냅니다. |
 | tvOS 앱 | tvos://com.vendor.bundle | 특정 tvOS 앱을 나타냅니다. |
 | TV 앱 | tvcd://com.vendor.bundle | 특정 스마트 TV 또는 TV 연결 장치 앱 - 번들 ID를 나타냅니다. |
 | 서비스 | service://servicename | 서버측 프로세스 또는 기타 수동 엔티티를 나타냅니다. |

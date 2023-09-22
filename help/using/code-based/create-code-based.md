@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 3%
    >
    >캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../campaigns/get-started-with-campaigns.md).
 
-1. 다음을 사용하여 원하는 대로 콘텐츠를 편집합니다. [코드 기반 편집기](#edit-code).
+1. 표현식 편집기를 사용하여 원하는 대로 콘텐츠를 편집합니다. [자세히 알아보기](#edit-code)
 
    ![](assets/code-based-campaign-edit-content.png)
 

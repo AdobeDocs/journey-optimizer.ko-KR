@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1242'
 ht-degree: 5%
 
 ---
@@ -181,11 +181,11 @@ ht-degree: 5%
 
 ## 코드 편집기에서 의사 결정 정책 사용 {#use-decision-policy}
 
-의사 결정 정책을 만들면 [코드 편집기](../code-based/create-code-based.md#edit-code). 그 방법은 다음과 같습니다.
+의사 결정 정책을 만들면 [표현식 편집기](../code-based/create-code-based.md#edit-code). 그 방법은 다음과 같습니다.
 
 >[!NOTE]
 >
->코드 편집기는 [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
+>코드 기반 경험은 [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
 1. + 아이콘을 클릭합니다. 결정 정책에 해당하는 코드가 추가됩니다. 이제 해당 코드 내에 원하는 모든 결정 특성을 추가할 수 있습니다.
 
@@ -197,7 +197,7 @@ ht-degree: 5%
 
 1. 결정 정책을 클릭합니다. 결정 속성이 표시됩니다.
 
-   이러한 속성은에 저장됩니다. **[!UICONTROL 오퍼]** 카탈로그의 스키마. 사용자 지정 속성은 **_cjmstage** 의 폴더 및 표준 속성 **경험(_E)** 폴더를 삭제합니다. [오퍼 카탈로그의 스키마에 대해 자세히 알아보기](catalogs.md)
+   이러한 속성은에 저장됩니다. **[!UICONTROL 오퍼]** 카탈로그의 스키마. 사용자 지정 속성은 **`_<imsOrg`>** 의 폴더 및 표준 속성 **`_experience`** 폴더를 삭제합니다. [오퍼 카탈로그의 스키마에 대해 자세히 알아보기](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 
