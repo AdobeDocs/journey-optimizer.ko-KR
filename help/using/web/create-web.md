@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 20%
+source-wordcount: '829'
+ht-degree: 18%
 
 ---
 
@@ -79,13 +79,44 @@ ht-degree: 20%
 
 캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../campaigns/get-started-with-campaigns.md).
 
+## 웹 캠페인 테스트 {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="웹 경험 미리보기"
+>abstract="웹 경험이 어떻게 시각화되는지 시뮬레이션을 수행합니다."
+
+한 번 [웹 경험을 작성했습니다.](edit-web-content.md) 웹 디자이너를 사용하면 캠페인을 활성화하기 전에 수정된 웹 페이지의 미리보기를 표시할 수 있습니다. 그 방법은 다음과 같습니다.
+
+>[!CAUTION]
+>
+>게재할 오퍼를 시뮬레이션할 수 있는 테스트 프로필이 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../audience/creating-test-profiles.md).
+
+1. 웹 캠페인 콘텐츠 편집 화면 또는 웹 디자이너에서 을 선택합니다 **[!UICONTROL 콘텐츠 시뮬레이션]**.
+
+   <!--![](assets/web-designer-simulate.png)-->
+
+   ![](assets/web-campaign-simulate.png)
+
+1. 클릭 **[!UICONTROL 테스트 프로필 관리]** 테스트 프로필을 한 개 이상 선택합니다.
+1. 수정된 웹 페이지의 미리보기가 표시됩니다.
+
+   ![](assets/web-designer-preview.png)
+
+1. 기본 브라우저에서 열거나 테스트 URL을 복사하여 모든 브라우저에 붙여넣을 수도 있습니다. 이렇게 하면 캠페인이 시작되기 전에 모든 브라우저에서 새 웹 경험을 미리 볼 수 있는 팀 및 관련자와 링크를 공유할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >테스트 URL을 복사할 때 표시되는 콘텐츠는 콘텐츠 시뮬레이션이 생성되었을 때 사용된 테스트 프로필에 대해 개인화된 콘텐츠입니다 [!DNL Journey Optimizer].
+
 ## 웹 캠페인 활성화 {#activate-web-campaign}
 
-을(를) 정의한 후 [웹 캠페인 설정](#configure-web-campaign) 을(를) 사용하여 원하는 대로 콘텐츠를 편집했습니다. [웹 디자이너](author-web.md), 웹 캠페인을 검토하고 활성화할 수 있습니다. 아래 단계를 수행합니다.
+을(를) 정의한 후 [웹 캠페인 설정](#configure-web-campaign) 을(를) 사용하여 원하는 대로 콘텐츠를 편집했습니다. [웹 디자이너](edit-web-content.md#work-with-web-designer), 웹 캠페인을 검토하고 활성화할 수 있습니다. 아래 단계를 수행합니다.
 
+<!--
 >[!NOTE]
 >
->웹 캠페인 콘텐츠를 활성화하기 전에 미리 볼 수도 있습니다. [자세히 알아보기](author-web.md#test-web-campaign)
+>You can also preview your web campaign content before activating it. [Learn more](#test-web-campaign)-->
 
 1. 웹 캠페인에서 다음을 선택합니다. **[!UICONTROL 활성화하려면 검토]**.
 

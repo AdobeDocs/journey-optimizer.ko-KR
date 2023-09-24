@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1172'
 ht-degree: 7%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 7%
 
 * 웹 브라우저나 모바일 앱을 통해 디지털 속성에 액세스하지 않는 경우 언제든지 코드 기반 경험 사용을 고려할 수 있습니다. 이러한 경우 를 더 잘 사용할 수 있습니다. [!DNL Journey Optimizer] [웹 채널](../web/get-started-web.md){target="_blank"} or the [!DNL Journey Optimizer] [in-app messaging](../in-app/get-started-in-app.md){target="_blank"} 채널.
 
-* 코드 기반 채널을 다음에 대한 대체 요소로 사용할 수 있습니다. [!DNL Journey Optimizer] 웹 채널 : 웹 사이트를 로 로드할 수 없는 경우 [웹 비주얼 편집기](../web/author-web.md){target="_blank"} or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} 웹 채널에 대한 시각적 작성을 지원합니다.
+* 코드 기반 채널을 다음에 대한 대체 요소로 사용할 수 있습니다. [!DNL Journey Optimizer] 웹 채널 : 웹 사이트를 로 로드할 수 없는 경우 [웹 디자이너](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} 웹 채널에 대한 시각적 작성을 지원합니다.
 
 * 코드 기반 채널을 의 대체 요소로 사용할 수도 있습니다. [!DNL Journey Optimizer] API 기반, Headless 또는 서버측 구현이 있는 경우 웹 또는 인앱 채널.
 
@@ -104,9 +104,9 @@ ht-degree: 7%
 웹 사용 사례를 실행하려면 웹 채널 또는 코드 기반 경험 중 하나를 사용할 수 있지만, 컨텍스트에 따라 하나가 다른 것보다 더 적절합니다. 주요 차이점은 아래에 나열되어 있으므로 사용 시기에 대한 올바른 결정을 내릴 수 있습니다.
 
 **웹**
-* 다음을 사용하여 콘텐츠 편집 [비주얼 에디터](../web/author-web.md){target="_blank"}.
+* 다음을 사용하여 콘텐츠 편집 [웹 디자이너](../web/edit-web-content.md#work-with-web-designer){target="_blank"} 비주얼 편집기.
 * 다음이 필요합니다. [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} implementation and the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}
-* 웹 채널에서는 페이지의 모든 내용을 수정할 수 있으며 변경할 수 있는 사전 정의된 작업 목록이 있습니다. [자세히 알아보기](../web/author-web.md){target="_blank"}
+* 웹 채널에서는 페이지의 모든 내용을 수정할 수 있으며 변경할 수 있는 사전 정의된 작업 목록이 있습니다. [자세히 알아보기](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * 쉽게 설정하고 빠르게 진행할 수 있습니다.
 * 마케터 중심입니다.
 
