@@ -5,9 +5,9 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: 1bf010b247b3683c6171bc387c9b94ab1b5dcefc
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '586'
 ht-degree: 23%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 23%
 
 **웹 채널**
 
-* 이제 웹 디자이너 비주얼 편집기에서 SPA(단일 페이지 애플리케이션)을 작성할 수 있습니다. 이제 웹 페이지 수정 사항을 적용할 특정 보기를 선택할 수 있습니다. 보기는 전체 사이트 또는 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다. Adobe Experience Platform Web SDK 구현에서 보기를 정의하려면 일회용 개발자 설정이 필요합니다. 이렇게 하면 마케터는 SPA에서 Adobe Journey Optimizer 웹 캠페인을 만들고 실행할 수 있습니다.
+* 이제 웹 디자이너 비주얼 편집기에서 SPA(단일 페이지 애플리케이션)을 작성할 수 있으며, 이 편집기에서 웹 페이지 수정 사항을 적용할 특정 보기를 선택할 수 있습니다. 보기는 전체 사이트 또는 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다. SPA에서 Adobe Journey Optimizer 웹 캠페인을 만들고 실행하려면 Adobe Experience Platform Web SDK 구현에서 보기를 정의하는 일회용 개발자 설정이 필요합니다.
 
 * 이제 웹 디자이너를 사용하여 페이지를 편집할 때 **수정 사항** 창 - 디자이너 인터페이스에서 구성 요소를 선택하고 편집할 필요 없이
 * 이제 웹 하위 도메인을 설정할 때 Adobe으로 이미 위임된 하위 도메인을 사용할 수 있을 뿐만 아니라 고유한 하위 도메인을 추가할 수 있는 옵션이 제공됩니다.

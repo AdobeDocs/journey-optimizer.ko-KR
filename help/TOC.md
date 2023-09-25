@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 94%
@@ -465,7 +465,7 @@ ht-degree: 94%
       + [IP 준비 계획 시작](using/configuration/ip-warmup-gs.md)
       + [IP 준비 캠페인 만들기](using/configuration/ip-warmup-campaign.md)
       + [IP 준비 계획 만들기](using/configuration/ip-warmup-plan.md)
-      + [IP 준비 계획 실행](using/configuration/ip-warmup-running.md)
+      + [IP 준비 계획 실행](using/configuration/ip-warmup-execution.md)
    + 이메일 주소 모니터링 {#monitor-reputation}
       + [금지 목록](using/configuration/manage-suppression-list.md)
       + [다시 시도](using/configuration/retries.md)

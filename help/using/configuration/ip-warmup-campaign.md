@@ -6,13 +6,13 @@ description: IP 준비 캠페인을 만드는 방법을 알아봅니다.
 feature: Application Settings
 topic: Administration
 role: Admin
-level: Experienced
-keywords: IP, 풀, 그룹, 하위 도메인, 전달성
+level: Intermediate
+keywords: IP, 풀, 전달성
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '348'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="IP 준비 계획 옵션 활성화"
->abstract="IP 웜업 플랜 활성화 옵션을 선택합니다. 캠페인이 라이브되면 IP 준비 플랜과 연결할 수 있습니다."
+>abstract="이 옵션을 선택하면 IP 준비 계획에 캠페인을 사용할 수 있습니다. 그런 다음 캠페인 일정은 연결된 IP 준비 계획에 따라 결정됩니다."
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 * [IP 준비 시작](ip-warmup-gs.md)
 * **[IP 준비 캠페인 만들기](ip-warmup-campaign.md)**
 * [IP 준비 계획 만들기](ip-warmup-plan.md)
-* [IP 준비 계획 실행](ip-warmup-running.md)
+* [IP 준비 계획 실행](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
    >
    >의 이메일 표면에서 사용할 도메인 및 IP를 선택하는 방법을 알아봅니다. [이 섹션](../email/email-settings.md#subdomains-and-ip-pools).
    >
-   >필요한 경우 게재 가능성 컨설턴트와 협력하여 IP 준비 계획에 사용할 도메인 및 IP를 식별합니다.<!--TBC-->
+   >게재 가능성 컨설턴트와 협력하여 IP 준비 계획에 사용할 도메인 및 IP를 식별합니다.<!--TBC-->
 
 1. 만들기 [campaign](../campaigns/create-campaign.md) 및 선택 [이메일](../email/create-email.md#create-email-journey-campaign) 작업.
 
@@ -73,9 +73,9 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >IP 준비 계획이 활성화된 라이브 캠페인의 경우 **[!UICONTROL 삭제]** 단추는 IP 준비 계획과 연결될 때까지 사용할 수 있습니다. IP 준비 계획에 사용된 캠페인은 더 이상 삭제할 수 없습니다.
+   >IP 준비 계획이 활성화된 라이브 캠페인의 경우 **[!UICONTROL 삭제]** 단추는 IP 준비 계획과 연결될 때까지 사용할 수 있습니다. 플랜에 사용된 후에는 캠페인을 더 이상 삭제할 수 없습니다.
 
-1. 캠페인이에 표시됩니다. **[!UICONTROL 캠페인]** 목록을 표시합니다. 현재 샌드박스에서 만든 모든 IP 웜업 캠페인을 쉽게 검색하려면 캠페인 옵션을 필터링하면 됩니다 **[!UICONTROL IP 준비]**.
+1. 캠페인이에 표시됩니다. **[!UICONTROL 캠페인]** 목록을 표시합니다. 현재 샌드박스에서 만든 모든 IP 웜업 캠페인을 쉽게 검색하려면 **[!UICONTROL IP 준비]** 캠페인 옵션.
 
    ![](assets/ip-warmup-campaign-filter.png)
 

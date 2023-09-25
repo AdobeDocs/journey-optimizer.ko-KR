@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP, 풀, 그룹, 하위 도메인, 전달성
+keywords: IP, 전달성
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '295'
 ht-degree: 7%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 7%
 * **[IP 준비 시작](ip-warmup-gs.md)**
 * [IP 준비 캠페인 만들기](ip-warmup-campaign.md)
 * [IP 준비 계획 만들기](ip-warmup-plan.md)
-* [IP 준비 계획 실행](ip-warmup-running.md)
+* [IP 준비 계획 실행](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 새로운 플랫폼을 사용해 이메일을 보낼 때 인터넷 서비스 제공자(ISP)는 인지되지 않은 IP 주소를 의심하게 된다. 대량의 이메일이 갑자기 전송되면 ISP는 해당 이메일을 스팸으로 표시하는 경우가 많습니다.
 
-스팸으로 표시되지 않도록 하기 위해 IP 준비 계획 기능을 사용하여 전송되는 볼륨을 점진적으로 늘릴 수 있습니다. 의 새 옵션 **[!UICONTROL 관리]** 메뉴를 사용하면 복잡한 일별 여정을 만드는 대신 작업을 보다 원활하게 수행할 수 있습니다. 이를 통해 시작 단계를 원활하게 발전시키고 잘못된 주소의 전체 비율을 줄일 수 있습니다.
+스팸으로 표시되지 않도록 하기 위해 IP 준비 계획 기능을 사용하여 전송되는 볼륨을 점진적으로 늘릴 수 있습니다. 의 이 새로운 옵션 **[!UICONTROL 관리]** 메뉴를 사용하면 복잡한 일별 여정을 만드는 대신 통합 방식으로 보다 쉽게 수행할 수 있습니다. 이를 통해 시작 단계를 원활하게 발전시키고 잘못된 주소의 전체 비율을 줄일 수 있습니다.
 
 >[!NOTE]
 >
@@ -69,8 +69,8 @@ Benefits
 
 IP 준비 계획을 구현하는 주요 단계는 다음과 같습니다.
 
-1. 먼저 IP 웜업 옵션이 활성화된 캠페인을 하나 이상 만들어야 합니다. [자세히 알아보기](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
+1. 먼저 IP 웜업 옵션이 활성화된 캠페인을 하나 이상 만들어야 합니다. [자세히 알아보기](ip-warmup-campaign.md)
 
-1. 에서 IP 준비 계획 만들기 [!DNL Journey Optimizer] IP 웜업 데이터로 이전에 채워진 Excel 시트를 업로드합니다. [자세히 알아보기](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. 에서 IP 준비 계획 만들기 [!DNL Journey Optimizer] 및 게재 컨설턴트의 도움을 받아 준비한 Excel 시트를 업로드합니다. [자세히 알아보기](ip-warmup-plan.md)
 
-1. 플랜의 각 단계에 대한 캠페인을 선택하고 해당 실행을 활성화합니다. [자세히 알아보기](ip-warmup-running.md)
+1. 플랜의 각 단계에 대한 캠페인을 선택하고 해당 실행을 활성화합니다. [자세히 알아보기](ip-warmup-execution.md)
