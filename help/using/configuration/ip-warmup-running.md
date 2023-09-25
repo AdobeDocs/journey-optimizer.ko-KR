@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, 풀, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
-source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,12 @@ ht-degree: 1%
 * **[IP 준비 계획 실행](ip-warmup-running.md)**
 
 >[!ENDSHADEBOX]
+
+다음 작업을 완료하면 [ip 준비 계획을 만들었습니다.](ip-warmup-plan.md) 게재 컨설턴트와 함께 준비한 파일을 업로드하면 플랜에서 단계 및 실행을 정의할 수 있습니다.
+
+각 단계는 단일 캠페인을 할당할 수 있는 여러 실행으로 구성된 기간에 해당합니다.
+
+각 실행에 대해 특정 수의 수신자가 있으며 이 실행이 실행될 시기를 예약합니다.
 
 ## 단계 정의 {#define-phases}
 
@@ -96,7 +102,7 @@ ht-degree: 1%
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 대상자 세분화 작업 실행이 지연되는 경우 IP 웜업 캠페인을 실행할 수 있는 창을 정의하는 종료 시간을 선택합니다. 종료 시간을 지정하지 않으면 시작 시간에 실행이 시도되며 세그먼테이션이 완료되지 않으면 실패합니다.
+1. 원할 경우 대상자 세분화 작업 실행이 지연되는 경우 IP 웜업 캠페인을 실행할 수 있는 창을 선택합니다. 종료 시간을 지정하지 않으면 시작 시간에 실행이 시도되며 세그먼테이션이 완료되지 않으면 실패합니다.
 
 1. 각 실행을 활성화합니다. 세분화 작업을 실행할 수 있도록 시간을 충분히 일찍 예약하십시오. <!--explain how you can evaluate a proper time-->
 
@@ -132,18 +138,28 @@ You don't have to decide the campaign upfront. You can do a split later. It's a 
 But need to explain in which case you want to modify campaigns, provide examples
 -->
 
-## 플랜 모니터링
+## 계획을 완료됨으로 표시 {#mark-as-completed}
 
-실행은 다음과 같은 상태를 가질 수 있습니다<!--TBC with Medha-->:
+플랜이 제대로 수행되지 않거나 다른 플랜을 만들기 위해 드롭하려는 경우 완료된 플랜으로 표시할 수 있습니다.
 
-* **[!UICONTROL 완료됨]**:
-* **[!UICONTROL 실패]**:
-* **[!UICONTROL 취소됨]**: 캠페인 실행이 시작되기 전에 실행을 중지했습니다.
+이렇게 하려면 **[!UICONTROL 자세히]** IP 웜업 플랜의 오른쪽 위에 있는 단추를 클릭하고 다음을 선택합니다. **[!UICONTROL 완료로 표시]**.
 
-이점 :
+![](assets/ip-warmup-plan-mark-completed.png)
 
-* 보고서는 오늘날과 유사한 기능으로 캠페인 수준에서 계속 표시됩니다. 그러나 IP 웜업 계획은 얼마나 많은 실행이 수행되었는지 등을 한 곳에서 통합적으로 보고하는 역할도 합니다.
+이 옵션은 플랜의 모든 실행이 포함된 경우에만 사용할 수 있습니다. **[!UICONTROL 성공]** 또는 **[!UICONTROL 초안]** 상태. 실행할 수 없음 **[!UICONTROL 라이브]**.
 
-* IP 온보딩의 진행 상황을 한 곳에서 관리하고 확인할 수 있습니다.
+다양한 실행 상태가 다음에 나열됩니다. [이 섹션](#monitor-plan).
 
-* 크리에이티브/캠페인 수준에서 모든 단계가 실행되는 통합 보고서
+## 플랜 모니터링 {#monitor-plan}
+
+플랜의 영향을 측정하기 위해 보고서를 사용하여 IP 준비 캠페인의 성과를 확인할 수 있습니다. Campaign 이메일에 대해 자세히 알아보기 [라이브 보고서](../reports/campaign-live-report.md#email-live) 및 [글로벌 보고서](../reports/campaign-global-report.md##email-global).
+
+IP 워밍업 계획 자체가 한 곳에서 통합 보고서 역할도 한다. 의 수와 같은 요소를 확인할 수 있습니다. **[!UICONTROL 라이브]** 또는 **[!UICONTROL 성공]** 는 각 단계에 대해 실행되며 IP 웜업 계획이 어떻게 진행되고 있는지 확인합니다.
+
+실행은 다음과 같은 상태를 가질 수 있습니다.
+
+* **[!UICONTROL 초안]** : 실행이 생성될 때마다 [새 플랜 업로드](ip-warmup-plan.md) 또는 [실행 추가](#define-runs) 사용자 인터페이스에서 **[!UICONTROL 초안]** 상태.
+* **[!UICONTROL 라이브]**: 실행을 활성화할 때마다 **[!UICONTROL 라이브]** 상태.
+* **[!UICONTROL 성공]**<!--TBC-->: 이 실행에 대한 캠페인 실행이 완료되었습니다. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL 취소됨]**: a **[!UICONTROL 라이브]** 을(를) 사용하여 실행이 취소되었습니다. **[!UICONTROL 중지]** 단추를 클릭합니다. 이 버튼은 캠페인 실행이 시작되지 않은 경우에만 사용할 수 있습니다. [자세히 알아보기](#define-runs)
+* **[!UICONTROL 실패]**: 시스템에서 오류가 발생하거나 현재 단계에 사용되는 캠페인이 중지되었습니다<!--what should the user do in that case?-->.

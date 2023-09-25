@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, 풀, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '293'
 ht-degree: 7%
 
 ---
@@ -71,6 +71,6 @@ IP 준비 계획을 구현하는 주요 단계는 다음과 같습니다.
 
 1. 먼저 IP 웜업 옵션이 활성화된 캠페인을 하나 이상 만들어야 합니다. [자세히 알아보기](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
 
-1. IP 준비 계획을 만들고 계획을 업로드합니다. [자세히 알아보기](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. 에서 IP 준비 계획 만들기 [!DNL Journey Optimizer] IP 웜업 데이터로 이전에 채워진 Excel 시트를 업로드합니다. [자세히 알아보기](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
 1. 플랜의 각 단계에 대한 캠페인을 선택하고 해당 실행을 활성화합니다. [자세히 알아보기](ip-warmup-running.md)
