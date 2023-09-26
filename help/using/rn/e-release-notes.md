@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+source-git-commit: 5edd643f7e93ade8d12515c83dc6321c96fe3c77
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 23%
+source-wordcount: '634'
+ht-degree: 21%
 
 ---
 
@@ -71,10 +71,26 @@ ht-degree: 23%
 <tr>
 <td>
 <p>이 새로운 기능을 사용하면 푸시 자격 증명을 앱 표면의 전용 샌드박스와 쉽게 관리하고 연결할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../in-app/inapp-configuration.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../in-app/inapp-configuration.md">세부 설명서</a>를 참고하세요.</p>
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>계산된 속성</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>계산된 속성 을 사용하면 향상된 동작 기반 세분화, 개인화 및 활성화를 위해 직관적인 사용자 인터페이스를 통해 이벤트 데이터를 프로필 속성으로 쉽게 요약할 수 있습니다. 이 기능을 사용하면 셀프서비스 방식으로 계산된 속성을 만들고 관리하여 세그멘테이션, 실시간 고객 프로필 대상 또는 Journey Optimizer에서 사용할 수 있습니다. <br/>
+또한 계산된 속성은 세분화 및 여정 워크플로를 단순화하여 관련 경험을 원활하게 전달할 수 있습니다. 다음에서 자세히 알아보기 <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">자세한 설명서</a>.</p>
+</tr>
+</tbody>
+</table>
+
 
 ### 개선 사항 {#sept-2023-improvements}
 
@@ -88,7 +104,6 @@ ht-degree: 23%
 **개인화**
 
 * 이제 시각적 조각 외에도 표현식 편집기를 통해 Journey Optimizer 인터페이스에서 표현식 조각을 만들고, 저장하고, 다시 사용할 수 있습니다. 표현식 조각은 이전에 저장된 표현식을 대체합니다.
-* 이제 Journey Optimizer의 개인화에 Adobe Experience Platform 계산된 속성을 사용할 수 있습니다. 계산된 속성은 Adobe Experience Platform에 수집된 프로필 사용 경험 이벤트 데이터 세트를 기반으로 계산되는 집계된 값입니다.
 
 **경고**
 
