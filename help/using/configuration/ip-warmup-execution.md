@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
-source-git-commit: 4c148733f2c6046c352135757d4a378b4bbb948e
+source-git-commit: 8a6cb63314c48f6a13d847f3d68790f11fb7b73b
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="도메인 그룹 제외"
 >abstract="현재 단계에서 제외할 도메인을 선택합니다. 도메인 제외에는 실행되지 않는 단계가 필요하므로 제외를 추가하려면 실행 단계를 분할해야 할 수 있습니다."
->additional-url="https://experienceleague.corp.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="단계 분할"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="단계 분할"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
