@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 8071bcf194a7cbf1ba00011e5deba1e6296cf708
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 16%
@@ -39,7 +39,7 @@ GET /{ENDPOINT_PATH}/placements?{QUERY_PARAMS}
 
 | 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `property` | 선택적 속성 필터: <br> <ul> - 속성은 AND 작업별로 그룹화됩니다. <br><br> - 매개 변수는 다음과 같이 반복될 수 있습니다. property=<property-expr>[&amp;속성=<property-expr2>...] 또는 속성=<property-expr1>[,<property-expr2>...] <br><br> - 속성 표현식이 형식입니다. [!]필드[op]값, 옵트인 [==!=,&lt;=,>=,&lt;,>,~], 정규 표현식 지원 | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 선택적 속성 필터: <br> <ul> - 속성은 AND 작업별로 그룹화됩니다. <br><br> - 매개 변수는 다음과 같이 반복될 수 있습니다. property=<property-expr>[&amp;속성=<property-expr2>...] 또는 속성=<property-expr1>[&amp;<property-expr2>...] <br><br> - 속성 표현식이 형식입니다. [!]필드[op]값, 옵트인 [==!=,&lt;=,>=,&lt;,>,~], 정규 표현식 지원 | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 특정 속성별로 결과를 정렬합니다. 이름 앞에 - 를 추가하면 (orderby=-name) 내림차순 (Z-A)으로 이름별로 항목이 정렬됩니다. 경로 표현식은 점으로 구분된 경로 형식입니다. 이 매개 변수는 다음과 같이 반복할 수 있습니다. `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 
 **요청**
