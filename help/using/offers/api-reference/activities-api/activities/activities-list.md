@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: a554786f15144923cb5b76c624960c2a602be020
+source-git-commit: 0d2a5d566a9bc328ebe8ec0f88bb6a7127f6624d
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 7%
+source-wordcount: '178'
+ht-degree: 6%
 
 ---
 
@@ -49,11 +49,13 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions?limit=2' \
 
 페이징에 가장 일반적인 쿼리 매개 변수는 다음과 같습니다.
 
-| 매개변수 | 설명 | 예 |
-| --------- | ----------- | ------- |
-| `property` | 선택적 속성 필터: <br> <ul> - 속성은 AND 작업별로 그룹화됩니다. <br><br> - 매개 변수는 다음과 같이 반복될 수 있습니다. property=<property-expr>[&amp;속성=<property-expr2>...] 또는 속성=<property-expr1>[,<property-expr2>...] <br><br> - 속성 표현식이 형식입니다. [!]필드[op]값, 옵트인 [==!=,&lt;=,>=,&lt;,>,~], 정규 표현식 지원 | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | 특정 속성별로 결과를 정렬합니다. 이름 앞에 - 를 추가하면 (orderby=-name) 내림차순 (Z-A)으로 이름별로 항목이 정렬됩니다. 경로 표현식은 점으로 구분된 경로 형식입니다. 이 매개 변수는 다음과 같이 반복할 수 있습니다. `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
-| `limit` | 반환되는 엔티티 수를 제한합니다. | `limit=5` |
+| 매개 변수 설명 | 예 |
+|------------|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| `property` | 선택적 속성 필터: |
+- 속성은 AND 작업별로 그룹화됩니다.
+- 매개 변수는 다음과 같이 반복될 수 있습니다. `property=<property-expr>[&property=<property-expr2>...]` 또는 `property=<property-expr1>[,<property-expr2>...]`
+- 속성 표현식이 형식입니다. `[!]field[op]value`, 옵트인 `[==,!=,<=,>=,<,>,~]`, 정규 표현식 지원 | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` | | `orderBy`  | 결과를 특정 속성별로 정렬합니다. 추가 `-` name(orderby=-name) 앞에서는 내림차순(Z-A)으로 이름별로 항목을 정렬합니다. 경로 표현식은 점으로 구분된 경로 형식입니다. 이 매개 변수는 다음과 같이 반복할 수 있습니다. `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name`                    | | `limit`    | 반환되는 엔티티 수를 제한합니다. | `limit=5`                                |
+
 
 **응답**
 
