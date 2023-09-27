@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '158'
 ht-degree: 10%
 
 ---
@@ -30,14 +30,13 @@ ht-degree: 10%
 **API 형식**
 
 ```http
-PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+PATCH /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 ```
 
 | 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 대체 오퍼가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 대체 오퍼의 인스턴스 ID입니다. | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | 업데이트하려는 엔티티의 ID입니다. | `fallbackOffer1234` |
 
 **요청**
 
@@ -64,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 | 매개변수 | 설명 |
 | --------- | ----------- |
-| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업에는 다음이 포함됩니다. `add`, `replace`, 및 `remove`. |
+| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업에는 다음이 포함됩니다. `add`, `replace`, `remove`, `copy` 및 `test`. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 

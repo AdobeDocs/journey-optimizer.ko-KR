@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 4%
+source-wordcount: '641'
+ht-degree: 5%
 
 ---
 
@@ -24,6 +24,86 @@ API 작업 방법에 대한 자세한 내용은 다음 섹션을 참조하십시
 * [Decisioning API](decisioning-api.md)
 * [Edge Decisioning API](edge-decisioning-api.md)
 * [Batch Decisioning API](batch-decisioning-api.md)
+
+## 컨테이너에 대한 액세스 관리 {#manage-access-to-container}
+
+용기는 서로 다른 문제를 분리하기 위한 격리 메커니즘입니다. 컨테이너 ID는 모든 저장소 API의 첫 번째 경로 요소입니다. 모든 의사 결정 개체는 컨테이너 내에 있습니다.
+
+관리자는 유사한 주도자, 리소스 및 액세스 권한을 프로필로 그룹화할 수 있습니다. 이렇게 하면 관리 부담이 줄어들고 [Adobe Admin Console](https://adminconsole.adobe.com/). 프로필을 만들고 사용자를 조직에 할당하려면 Adobe Experience Platform의 제품 관리자여야 합니다. 1회 단계에서 특정 권한과 일치하는 제품 프로필을 만든 다음 해당 프로필에 사용자를 추가하면 됩니다. 프로필은 권한이 부여된 그룹 역할을 하며 해당 그룹의 모든 실제 사용자 또는 기술 사용자는 이러한 권한을 상속합니다.
+
+관리자 권한이 주어지면 다음을 통해 사용자에게 권한을 부여하거나 철회할 수 있습니다. [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko){target="_blank"}.
+
+### 사용자 및 통합에 액세스할 수 있는 목록 컨테이너 {#list-containers-accessible-to-users-and-integrations}
+
+**API 형식**
+
+```http
+GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
+```
+
+| 매개변수 | 설명 | 예 |
+| --------- | ----------- | ------- |
+| `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
+| `{PRODUCT_CONTEXT}` | 제품 컨텍스트와의 연관성을 기준으로 컨테이너 목록을 필터링합니다. | `acp` |
+| `{PROPERTY}` | 반환되는 컨테이너 유형을 필터링합니다. | `_instance.containerType==decisioning` |
+
+**요청**
+
+```shell
+curl -X GET \
+  'https://platform.adobe.io/data/core/xcore/?product=acp&property=_instance.containerType==decisioning' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
+```
+
+**응답**
+
+성공적인 응답은 의사 결정 관리 컨테이너에 대한 정보를 반환합니다. 여기에는 다음이 포함됩니다. `instanceId` 속성. 값이 컨테이너 ID입니다.
+
+```json
+{
+    "_embedded": {
+        "https://ns.adobe.com/experience/xcore/container": [
+            {
+                "instanceId": "{INSTANCE_ID}",
+                "schemas": [
+                    "https://ns.adobe.com/experience/xcore/container;version=0.5"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 2,
+                "repo:createdDate": "2020-09-16T07:54:28.319959Z",
+                "repo:lastModifiedDate": "2020-09-16T07:54:32.098139Z",
+                "repo:createdBy": "{CREATED_BY}",
+                "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "_instance": {
+                    "containerType": "decisioning",
+                    "repo:name": "{REPO_NAME}",
+                    "dataCenter": "{DATA_CENTER}",
+                    "parentName": "{PARENT_NAME}",
+                    "parentId": "{PARENT_ID}"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/containers/{INSTANCE_ID}"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "/?product=acp&property=_instance.containerType==decisioning",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/home"
+        }
+    }
+}
+```
 
 ## Edge Decisioning API 기능 {#edge}
 
