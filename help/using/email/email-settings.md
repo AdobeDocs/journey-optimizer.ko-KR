@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
-source-wordcount: '1967'
-ht-degree: 12%
+source-wordcount: '2258'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 12%
 >title="이메일 범주 정의"
 >abstract="이 표면 사용 시 전송할 이메일 유형 선택. 사용자 동의가 필요한 프로모션 이메일을 위한 마케팅 또는 특정 컨텍스트에서 구독 해지 프로필로 전송할 수도 있는 비상업적 이메일을 위한 트랜잭션."
 
-다음에서 **이메일 유형** 섹션에서 서피스로 보낼 메시지 유형을 선택합니다. **마케팅** 또는 **트랜잭션**.
+다음에서 **이메일 유형** 섹션에서 서피스로 보낼 메시지 유형을 선택합니다. **[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**.
 
 * 선택 **마케팅** 소매점의 주별 프로모션과 같은 프로모션 이메일의 경우. 이러한 메시지에는 사용자의 동의가 필요합니다.
 
@@ -182,6 +182,36 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 이메일 표면 제출 시 오류가 발생하면 입력한 주소의 하위 도메인에 대해 MX 레코드가 구성되지 않은 것입니다. 해당 MX 레코드를 구성하려면 관리자에게 문의하거나 다른 주소를 유효한 MX 레코드 구성과 함께 사용하십시오.
 
+## 억제된 이메일 주소로 보내기 {#send-to-suppressed-email-addresses}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_suppressed_addresses"
+>title="제외 목록 우선 순위 재정의"
+>abstract="스팸 고객 불만으로 인해 해당 이메일 주소가 Adobe Journey Optimizer 제외 목록에 있는 경우에도 프로필로 트랜잭션 메시지를 보내도록 결정할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="제외 목록 관리"
+
+>[!IMPORTANT]
+>
+>이 옵션은 다음을 선택한 경우에만 사용할 수 있습니다. **[!UICONTROL 트랜잭션]** 이메일 유형. [자세히 알아보기](#email-type)
+
+위치 [!DNL Journey Optimizer], 하드 바운스, 소프트 바운스 및 스팸 불만으로 표시되는 모든 이메일 주소는 자동으로 [비표시 목록](../configuration/manage-suppression-list.md) 여정 또는 캠페인에서 제외됩니다.
+
+하지만 의 메시지를 계속 보내도록 결정할 수 있습니다. **트랜잭션** 사용자의 스팸 불만으로 인해 이메일 주소가 제외 목록에 있는 경우에도 프로필을 입력합니다.
+
+실제로 트랜잭션 메시지에는 일반적으로 주문 확인 또는 암호 재설정 알림과 같은 유용하고 예상되는 정보가 포함됩니다. 따라서 마케팅 메시지 중 하나를 스팸으로 보고했더라도 대부분의 경우 고객이 이러한 유형의 비상업적 이메일을 받기를 원합니다.
+
+트랜잭션 메시지 대상자에 스팸 불만으로 인해 억제된 이메일 주소를 포함하려면 다음에서 해당 옵션을 선택합니다. **[!UICONTROL 억제된 이메일 주소로 보내기]** 섹션.
+
+![](assets/preset-suppressed-email-addresses.png)
+
+>[!NOTE]
+>
+>이 옵션은 기본적으로 비활성화되어 있습니다.
+
+게재 모범 사례로서, 이 옵션은 옵트아웃한 고객에게 연락하지 않도록 기본적으로 비활성화되어 있습니다. 그러나 이 기본 옵션을 변경하면 고객에게 트랜잭션 메시지를 보낼 수 있습니다.
+
+이 옵션이 활성화되면 고객이 마케팅 이메일을 스팸으로 표시했지만 이러한 고객은 현재 표면을 사용하여 트랜잭션 메시지를 받을 수 있습니다. 항상 게재 가능성 모범 사례에 따라 옵트아웃 환경 설정을 관리하십시오.
+
 ## 시드 목록 {#seed-list}
 
 >[!CONTEXTUALHELP]
@@ -189,7 +219,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 >title="시드 목록 추가"
 >abstract="특정 내부 주소를 대상자에게 자동으로 추가하려면 원하는 시드 목록을 선택하십시오. 이들 시드 주소는 게재 실행 시간에 포함되며 보증 목적으로 정확한 메시지의 사본을 수신하게 됩니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="시드 목록이란 무엇입니까?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=ko#create-seed-list" text="시드 목록 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="시드 목록 만들기"
 
 
 의 시드 목록 [!DNL Journey Optimizer] 을 사용하면 게재에 특정 이메일 시드 주소를 자동으로 포함할 수 있습니다. [자세히 알아보기](../configuration/seed-lists.md)
