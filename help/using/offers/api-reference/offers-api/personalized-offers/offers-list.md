@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: bee5e067e70e065c9db14448c42224a9ec09c5bf
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 8%
+source-wordcount: '197'
+ht-degree: 7%
 
 ---
 
@@ -51,7 +51,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personali
 
 | 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `property` | 선택적 속성 필터: <br> <ul> - 속성은 AND 작업별로 그룹화됩니다. <br><br> - 매개 변수는 다음과 같이 반복될 수 있습니다. property=<property-expr>[&amp;속성=<property-expr2>...] 또는 속성=<property-expr1>[,<property-expr2>...] <br><br> - 속성 표현식이 형식입니다. [!]필드[op]값, 옵트인 [==!=,&lt;=,>=,&lt;,>,~], 정규 표현식 지원 | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 선택적 속성 필터: <ul><li> 속성은 AND 작업별로 그룹화됩니다. <br><br> - 매개 변수는 다음과 같이 반복될 수 있습니다. property=`<property-expr>`[&amp;property=`<property-expr2>`...] 또는 속성=`<property-expr1>`[및`<property-expr2>`...] <br><br> - 속성 표현식이 형식입니다. `[!]field[op]` 값, 옵트인 `[==,!=,'<=',>=,<,>,~]`, 정규 표현식 지원  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 특정 속성별로 결과를 정렬합니다. 이름 앞에 - 를 추가하면 (orderby=-name) 내림차순 (Z-A)으로 이름별로 항목이 정렬됩니다. 경로 표현식은 점으로 구분된 경로 형식입니다. 이 매개 변수는 다음과 같이 반복할 수 있습니다. `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | 반환되는 배치 수를 제한합니다. | `limit=5` |
 
