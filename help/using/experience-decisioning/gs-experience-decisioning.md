@@ -8,7 +8,8 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 903c1cb0-3e15-4f44-a9bf-bdb436316531
+source-git-commit: 979970d05f52fdbdb76d03a232d405af7097ba30
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 6%
@@ -66,5 +67,3 @@ Experience Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 1. **선택 전략 만들기**: 컬렉션, 의사 결정 규칙 및 등급 방법을 활용하여 프로필에 표시하는 데 적합한 의사 결정 항목을 식별하는 선택 전략을 수립합니다.
 
 1. **코드 기반 캠페인에 의사 결정 정책 포함**: 의사 결정 정책은 여러 선택 전략을 결합하여 의도한 대상자에게 표시할 적합한 의사 결정 항목을 결정합니다.
-
-<!--## Glossary-->
