@@ -6,10 +6,10 @@ description: 빈도 규칙을 정의하는 방법 알아보기
 feature: Overview
 topic: Content Management
 role: User
-level: Beginner
+level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 13%
@@ -44,7 +44,7 @@ ht-degree: 13%
 
 ![](assets/message-rules-access.png)
 
-의 권한에 대해 자세히 알아보기 [이 섹션](../administration/high-low-permissions.md).
+[이 섹션](../administration/high-low-permissions.md)에서 권한에 대해 자세히 알아보십시오.
 
 ## 규칙 만들기 {#create-new-rule}
 
