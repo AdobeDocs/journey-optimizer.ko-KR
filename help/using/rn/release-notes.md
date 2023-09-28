@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
+source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
 workflow-type: tm+mt
-source-wordcount: '4069'
-ht-degree: 86%
+source-wordcount: '4014'
+ht-degree: 87%
 
 ---
 
@@ -21,11 +21,8 @@ ht-degree: 86%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
-## 2023년 9월 초기 릴리스 정보 {#sept-rn-2023}
 
-아래 초기 릴리스 정보는 릴리스를 사용할 수 있는 당일까지 사전 통지 없이 변경될 수 있습니다. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
-
-**릴리스 날짜**: 2023년 9월 26~27일
+## 2023년 9월 릴리스 정보 {#sept-rn-2023}
 
 ### 새로운 기능{#sept-2023-features}
 
@@ -41,8 +38,8 @@ ht-degree: 86%
 <tr>
 <td>
 <p>계산된 속성을 사용하면 향상된 동작 기반 세분화, 개인화 및 활성화를 위해 직관적인 사용자 인터페이스를 통해 이벤트 데이터를 프로필 속성으로 쉽게 요약할 수 있습니다. 이 기능을 사용하면 셀프서비스 방식으로 계산된 속성을 만들고 관리하여 세그멘테이션, 실시간 고객 프로필 대상 또는 Journey Optimizer에서 사용할 수 있습니다.<br/><br/>
-또한 계산된 속성은 세분화 및 여정 워크플로를 단순화하여 관련 경험을 원활하게 전달할 수 있습니다. 다음에서 자세히 알아보기 <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">자세한 설명서</a>.</p>
-<img src="assets/computed-attributes.png">
+또한 계산된 속성은 세분화 및 여정 워크플로를 단순화하여 관련 경험을 원활하게 전달할 수 있습니다. 다음에서 자세히 알아보기 <a href="../audience/computed-attributes.md">자세한 설명서</a>.</p>
+<img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
 </table>
@@ -57,9 +54,10 @@ ht-degree: 86%
 <tbody>
 <tr>
 <td>
-<p>채널 보고서 기능은 분석가와 마케터에게 채널 수준의 트래픽 및 참여 지표에 대한 포괄적인 개요를 제공합니다. '보고서' 메뉴에 액세스하려면 '채널 보고서 보기' 권한이 있어야 합니다.</p>
+<p>채널 보고서 기능은 분석가와 마케터에게 채널 수준의 트래픽 및 참여 지표에 대한 포괄적인 개요를 제공합니다.</p>
+<p>에 액세스하려면 <b>보고서</b> 메뉴, 다음 항목이 있어야 합니다. <b>채널 보고서 보기</b> 권한.</p>
 <img src="assets/channel-reports.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../reports/channel-report.md">자세한 설명서</a>, 및 &lt;a href="../reports/channel-report.md#how-to-video-channel-report-video" how-to="" video="" span="" id="2" translate="no" /&gt;.</a></p>
 </tr>
 </tbody>
 </table>
@@ -76,7 +74,7 @@ ht-degree: 86%
 <td>
 <p>이제 클라우드 스토리지 대상으로 Journey Optimizer 데이터 세트 내보내기를 일반적으로 사용할 수 있습니다. 이제 클라우드 스토리지 위치와 실시간 연결을 설정하여 데이터 세트의 콘텐츠를 내보낼 수 있습니다.</p>
 <img src="../data/assets/dataset-export-setup.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../data/export-datasets.md">세부 설명서</a>를 참고하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -101,50 +99,52 @@ ht-degree: 86%
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-<!--**Audiences**
+<!--**Personalization**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences resulting from composition workflows into journeys. -->
+* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
 
-**개인화**
+<!--
+**Alerting**
 
-* 이제 시각적 조각 외에도 표현식 편집기를 통해 Journey Optimizer 인터페이스에서 표현식 조각을 만들고, 저장하고, 다시 사용할 수 있습니다. 표현식 조각은 이전에 저장된 표현식을 대체합니다.
-
-**경고**
-
-* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 대상자 읽기가 실패하면 알림을 받을 수 있습니다.
+* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
 
 **웹 채널**
 
-* 이제 웹 비주얼 편집기에서 단일 페이지 애플리케이션(SPA)을 작성할 수 있습니다. 이제 웹 페이지 수정 사항을 적용할 특정 보기를 선택할 수 있습니다. 보기는 전체 사이트 또는 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다. Adobe Experience Platform Web SDK 구현에서 보기를 정의하는 데 일회용 개발자 설정이 필요하므로 마케터는 SPA에서 Adobe Journey Optimizer 웹 캠페인을 만들고 실행할 수 있습니다.
+* 이제 웹 시각적 편집기에서 단일 페이지 애플리케이션(SPA)을 작성할 수 있으며, 이를 통해 웹 페이지 수정 사항을 적용할 특정 보기를 선택할 수 있습니다. 보기는 전체 사이트 또는 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다. Adobe Experience Platform Web SDK 구현에서 보기를 정의하려면 일회용 개발자 설정이 필요합니다. 이렇게 하면 마케터는 SPA에서 Adobe Journey Optimizer 웹 캠페인을 만들고 실행할 수 있습니다. [자세히 알아보기](../web/web-spa.md)
 
-* 이제 웹 디자이너를 사용하여 페이지를 편집할 때 구성 요소를 선택하고 디자이너 인터페이스에서 편집할 필요 없이 수정 창에서 직접 콘텐츠에 새 변경 사항을 추가할 수 있습니다.
-* 이제 웹 하위 도메인을 설정할 때 Adobe으로 이미 위임된 하위 도메인을 사용할 수 있을 뿐만 아니라 고유한 하위 도메인을 추가할 수 있는 옵션이 제공됩니다.
+* 이제 웹 디자이너를 사용하여 페이지를 편집할 때 구성 요소를 선택하고 디자이너 인터페이스에서 편집할 필요 없이 수정 창에서 직접 콘텐츠에 새 변경 사항을 추가할 수 있습니다. [자세히 알아보기](../web/manage-web-modifications.md#add-modifications)
+
+* 이제 웹 하위 도메인을 설정할 때 Adobe으로 이미 위임된 하위 도메인을 사용할 수 있을 뿐만 아니라 고유한 하위 도메인을 추가할 수 있는 옵션이 제공됩니다. [자세히 보기](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **여정**
 
-* 이제 사용자 지정 작업 응답에 대한 지원이 GA됩니다. 이렇게 하면 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 또한 모든 통관 조치를 엔드포인트당 호출 수 5000회로 제한하는 가드레일이 새로 추가되었습니다.
-* 이제 여정을 복제할 때 여정 사본의 이름을 정의할 수 있습니다.
+이제 여정을 복제할 때 여정 사본의 이름을 정의할 수 있습니다. [자세히 알아보기](../building-journeys/journey-gs.md#uplicate-a-journey)
+
 
 <!--
+* Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **이메일 채널**
 
-이메일 표면 구성의 새 옵션을 사용하면 이메일 주소가 Adobe Journey Optimizer 제외 목록에 있는 경우에도 프로필에 트랜잭션 메시지를 보내도록 선택할 수 있습니다.
+이메일 표면 구성의 새 옵션을 사용하면 이메일 주소가 Adobe에 있는 경우에도 프로필에 트랜잭션 메시지를 보내도록 선택할 수 있습니다 [!DNL Journey Optimizer] 비표시 목록. [자세히 알아보기](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **SMS 채널**
 
-두 개의 새 필드, **옵트인 메시지** 및 **도움말 메시지**&#x200B;가 API 구성 화면에 추가되어 사용자가 인바운드 키워드에 대한 응답을 사용자 지정할 수 있습니다. Sinch SMS 공급자만 사용할 수 있습니다.
+두 개의 새 필드, **옵트인 메시지** 및 **도움말 메시지**&#x200B;가 API 구성 화면에 추가되어 사용자가 인바운드 키워드에 대한 응답을 사용자 지정할 수 있습니다. Sinch SMS 공급자만 사용할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md)
 
 **DM 채널**
 
-이제 DM 공급자가 서버로 전송할 때 DM 공급자의 파일을 암호화할 수 있습니다. 이렇게 하려면 파일 라우팅 구성 화면에서 새 필드를 사용하여 암호화 키를 복사하여 붙여넣을 수 있습니다.
+이제 DM 공급자가 서버로 전송할 때 DM 공급자의 파일을 암호화할 수 있습니다. 이렇게 하려면 파일 라우팅 구성 화면에서 새 필드를 사용하여 암호화 키를 복사하여 붙여넣을 수 있습니다. [자세히 알아보기](../direct-mail/direct-mail-configuration.md)
 
 **보고**
 
-이제 Journey Optimizer 보고서를 CSV 파일로 내보낼 수 있습니다. <!--[Learn more](../reports/global-report.md#export-reports)-->
+이제 Journey Optimizer 보고서를 CSV 파일로 내보낼 수 있습니다. [자세히 알아보기](../reports/global-report.md#export-reports)
+
+**자산**
+
+에셋에 대한 새 옵션을 사용하면 Journey Optimizer에서 에셋에 대한 저장소를 선택할 수 있습니다. 이 솔루션을 소유하고 있는 경우 Assets Essentials 저장소 또는 에셋 as a Cloud Service 저장소를 선택할 수 있습니다. [자세히 알아보기](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
