@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '4010'
+source-wordcount: '4018'
 ht-degree: 87%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 87%
 
 **보고**
 
-이제 Journey Optimizer 보고서를 CSV 파일로 내보낼 수 있습니다. [자세히 알아보기](../reports/global-report.md#export-reports)
+이제 Journey Optimizer 보고서를 CSV 파일로 내보낼 수 있습니다. 다음에서 자세히 알아보기 [자세한 설명서](../reports/global-report.md#export-reports) 및 [방법 비디오](../reports/global-report.md#video-csv).
 
 **자산**
 
