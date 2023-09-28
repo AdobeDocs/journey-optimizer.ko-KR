@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 28c98b8982123f0538ca86870a82bdd6228dd674
+source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
 workflow-type: tm+mt
-source-wordcount: '4024'
-ht-degree: 87%
+source-wordcount: '4069'
+ht-degree: 86%
 
 ---
 
@@ -137,6 +137,10 @@ ht-degree: 87%
 **SMS 채널**
 
 두 개의 새 필드, **옵트인 메시지** 및 **도움말 메시지**&#x200B;가 API 구성 화면에 추가되어 사용자가 인바운드 키워드에 대한 응답을 사용자 지정할 수 있습니다. Sinch SMS 공급자만 사용할 수 있습니다.
+
+**DM 채널**
+
+이제 DM 공급자가 서버로 전송할 때 DM 공급자의 파일을 암호화할 수 있습니다. 이렇게 하려면 파일 라우팅 구성 화면에서 새 필드를 사용하여 암호화 키를 복사하여 붙여넣을 수 있습니다.
 
 **보고**
 
@@ -559,7 +563,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ### 문제 해결{#may-2023-fixes}
 
-* 앱 내 메시지 - 캠페인 일정 예약이 메시지 빈도 설정과 충돌하는 문제를 해결했습니다.
+* 인앱 메시지 - 캠페인 일정 예약이 메시지 빈도 설정과 충돌하는 문제를 해결했습니다.
 
 
 ## 2023년 4월 릴리스 정보 {#apr-rn-2023}
