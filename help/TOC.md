@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+source-git-commit: c5c7d4d050958fac9b91e2a2a4c4a7a6640d1f06
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 94%
+source-wordcount: '1521'
+ht-degree: 93%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 94%
       + [웹 페이지 콘텐츠 편집](using/web/edit-web-content.md)
       + [수정 사항 관리](using/web/manage-web-modifications.md)
       + [웹 캠페인 모니터링](using/web/monitor-web-campaigns.md)
+      + [단일 페이지 애플리케이션 작성](using/web/web-spa.md)
    + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
 + 코드 기반 경험 {#code-based-experience}
    + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)
@@ -303,6 +304,7 @@ ht-degree: 94%
    + 프로필{#profiles}
       + [프로필 시작](using/audience/get-started-profiles.md)
       + [테스트 프로필 만들기](using/audience/creating-test-profiles.md)
+      + [계산된 속성을 사용한 작업](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [라이선스 사용](using/audience/license-usage.md)
 + 추적 및 모니터링 {#reporting}
@@ -321,6 +323,9 @@ ht-degree: 94%
       + [목표 보고서](using/reports/objective-report.md)
       + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)
       + [구독 목록 글로벌 보고서](using/reports/subscription-report-global.md)
+   + 채널 보고서 {#channel-report}
+      + [채널 보고서 시작](using/reports/channel-report-gs.md)
+      + [채널 보고서](using/reports/channel-report.md)
    + 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
@@ -474,6 +479,7 @@ ht-degree: 94%
    + [아카이브 지원](using/configuration/archiving-support.md)
    + [실행 주소 변경](using/configuration/primary-email-addresses.md)
    + [빈도 규칙 구성](using/configuration/frequency-rules.md)
+   + [단일 페이지 애플리케이션 구현](using/web/web-spa-implementation.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
       + 외부 시스템과 통합 {#external-systems}
