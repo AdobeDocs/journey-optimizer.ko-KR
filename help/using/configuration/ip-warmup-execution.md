@@ -11,10 +11,10 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: 1d5bc1de8a33401c165eeee4c8159fc19087c9c9
+source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 1%
+source-wordcount: '1503'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 이 설명서의 내용:
 
 * [IP 준비 시작](ip-warmup-gs.md)
-* [IP 준비 캠페인 만들기](ip-warmup-campaign.md)
+* [IP 워밍업 캠페인 만들기](ip-warmup-campaign.md)
 * [IP 준비 계획 만들기](ip-warmup-plan.md)
 * **[IP 준비 계획 실행](ip-warmup-execution.md)**
 
@@ -40,12 +40,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="캠페인 대상자 제외"
->abstract="현재 단계에서 제외하려는 다른 캠페인에서 대상을 선택합니다. 다른 단계 또는 다른 IP 준비 계획에서 이전에 연락한 프로필이 다시 타겟팅되지 않도록 하기 위한 것입니다."
+>abstract="현재 단계에서 제외하려는 다른 캠페인의 대상자를 선택합니다. 다른 단계 또는 다른 IP 준비 계획에서 이전에 연락한 프로필이 다시 타겟팅되지 않도록 하기 위한 것입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="도메인 그룹 제외"
->abstract="현재 단계에서 제외할 도메인을 선택합니다. 도메인 제외에는 실행되지 않는 단계가 필요하므로 제외를 추가하려면 실행 단계를 분할해야 할 수 있습니다."
+>abstract="현재 단계에서 제외하려는 도메인을 선택합니다. 도메인 제외에는 실행되지 않는 단계가 필요하므로 제외를 추가하려면 실행 단계를 분할해야 할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="단계 분할"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
@@ -122,23 +122,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-edit-run.png)
 
-1. 다음 항목 선택 **[!UICONTROL 오류 발생 시 일시 중지]** 오류가 발생하는 경우 실행을 일시 중지하려면 옵션을 선택합니다.<!--can't see the Paused status for runs? Is it failed?-->
+1. 다음 항목 선택 **[!UICONTROL 오류 발생 시 일시 중지]** 대상이 해당 실행에 대해 평가된 후 자격이 있는 프로필이 타겟팅된 프로필보다 적은 경우 실행을 취소하는 옵션입니다.
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   예를 들어, 세분화 작업이 실행된 후 타겟팅된 프로필 수가 예상보다 적으면 실행이 취소됩니다.
-
-1. **[!UICONTROL 활성화]** 달리기. 세분화 작업을 실행할 시간을 충분히 예약했는지 확인하십시오.
-
-   ![](assets/ip-warmup-plan-activate.png)
-
-   >[!CAUTION]
-   >
-   >각 실행은 실제 전송 시간보다 최소 12시간 전에 활성화되어야 합니다. 그렇지 않으면 세그먼테이션이 완료되지 않을 수 있습니다. <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
-
-   <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
-
-   <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+1. **[!UICONTROL 활성화]** 달리기. [자세히 알아보기](#activate-run)
 
 1. 이 실행의 상태가 (으)로 변경됩니다. **[!UICONTROL 라이브]**. 다양한 실행 상태가 다음에 나열됩니다. [이 섹션](#monitor-plan). 캠페인 실행이 시작되지 않은 경우 라이브 실행을 중단할 수 있습니다.<!--why?-->
 
@@ -152,6 +140,37 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
+## 실행 활성화 {#activate-run}
+
+실행을 활성화하려면 **[!UICONTROL 활성화]** 단추를 클릭합니다.
+
+세분화 작업을 실행할 시간을 충분히 예약했는지 확인하십시오.
+
+![](assets/ip-warmup-plan-activate.png)
+
+>[!CAUTION]
+>
+>각 실행은 실제 전송 시간보다 최소 12시간 전에 활성화되어야 합니다. 그렇지 않으면 세그먼테이션이 완료되지 않을 수 있습니다.
+
+실행을 활성화하면 다음과 같은 여러 세그먼트가 자동으로 만들어집니다.
+
+* 단계의 첫 번째 실행을 활성화하는 경우:
+
+   * 제외된 캠페인 대상자에 대해 세그먼트가 만들어집니다(있는 경우).
+   * 제외된 도메인 그룹에 대해 다른 세그먼트가 만들어집니다(있는 경우).
+
+* 모든 실행을 활성화할 때:
+
+   * 마지막 참여 필터에 대해 다른 세그먼트가 만들어집니다.
+   * 캠페인이 전송될 대상자에 해당하는 대상자 구성이 만들어집니다.
+
+<!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
+
+<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+
+<!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+
+
 ## 플랜 관리 {#manage-plan}
 
 어느 시점에서 IP 준비 계획이 예상대로 수행되지 않으면 아래 작업을 수행할 수 있습니다.
@@ -164,7 +183,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 현재 단계의 나머지 실행에 대해 새 단계가 생성됩니다.
 
-예를 들어 실행 목록에 대해 이 옵션#4 선택하면 #8 실행 #4가 새 단계로 이동됩니다.
+예를 들어, 실행 #4에 대해 이 옵션을 선택하면 #8에 #4 실행 이 현재 단계 바로 뒤에 새 단계로 이동됩니다.
 
 다음 단계 [위](#define-phases) 새 단계를 정의합니다.
 
@@ -196,13 +215,23 @@ IP 준비 계획이 예상대로 수행되지 않는 경우(예: 일부 ISP에�
 
 ![](assets/ip-warmup-re-upload-plan.png)
 
-이전에 실행한 모든 실행이 완료된 것으로 표시됩니다. 새 계획은 첫 번째 계획 아래에 표시됩니다.
+이전에 실행된 모든 실행은 읽기 전용입니다. 새 계획은 첫 번째 계획 아래에 표시됩니다.
 
 다음 단계 [위](#define-phases) 을 눌러 새 계획에서 단계를 정의합니다.
 
 >[!NOTE]
 >
->IP 준비 계획 세부 사항은 새로 업로드한 파일에 따라 변경됩니다. 라이브 및 완료된 실행은 영향을 받지 않습니다.
+>IP 준비 계획 세부 사항은 새로 업로드한 파일에 따라 변경됩니다. 이전에 실행된 실행(실행 수에 상관없이) [상태](#monitor-plan))은 영향을 받지 않습니다.
+
+예를 살펴보겠습니다:
+
+* 초기 IP 웜업 계획으로 2단계는 9번의 실행을 수행했습니다.
+
+* 4개의 실행이 실행되었습니다(실패, 완료 또는 취소의 경우 상관 없음 - 실행이 시도된 경우 실행됨).
+
+* 새 계획을 다시 업로드하면 처음 실행된 4번의 실행이 있는 단계 2가 읽기 전용 모드로 전환됩니다.
+
+* 나머지 5개 실행(초안 상태)은 새로 업로드한 계획에 따라 표시되는 새 단계(3단계)로 이동합니다.
 
 ## 플랜 모니터링 {#monitor-plan}
 
@@ -216,6 +245,6 @@ IP 워밍업 계획 자체가 한 곳에서 통합 보고서 역할도 한다. �
 
 * **[!UICONTROL 초안]** : 실행이 생성될 때마다 [새 계획 생성](ip-warmup-plan.md) 또는 [실행 추가](#define-runs) 사용자 인터페이스에서 **[!UICONTROL 초안]** 상태.
 * **[!UICONTROL 라이브]**: 실행을 활성화할 때마다 **[!UICONTROL 라이브]** 상태.
-* **[!UICONTROL 완료됨]**<!--TBC-->: 이 실행에 대한 캠페인 실행이 완료되었습니다. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL 완료됨]**: 이 실행에 대한 캠페인 실행이 완료되었습니다. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
 * **[!UICONTROL 취소됨]**: a **[!UICONTROL 라이브]** 을(를) 사용하여 실행이 취소되었습니다. **[!UICONTROL 중지]** 단추를 클릭합니다. 이 버튼은 캠페인 실행이 시작되지 않은 경우에만 사용할 수 있습니다. [자세히 알아보기](#define-runs)
-* **[!UICONTROL 실패]**: 시스템에서 오류가 발생하거나 현재 단계에 사용되는 캠페인이 중지되었습니다<!--what should the user do in that case?-->.
+* **[!UICONTROL 실패]**: 시스템에서 오류가 발생하거나 현재 단계에 사용되는 캠페인이 중지되었습니다. 실행이 실패할 경우 다음 날 다른 실행을 예약할 수 있습니다.

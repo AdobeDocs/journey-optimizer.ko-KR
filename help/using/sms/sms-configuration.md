@@ -6,7 +6,7 @@ description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: e2851c97dd14577a992625bcfd60fc7300b432d3
+source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 17%
@@ -143,6 +143,8 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
 1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]** 확인할 수 있습니다. 채널 서피스를 구배로 저장하고 나중에 구성을 재개할 수도 있습니다.
 
    ![](assets/sms_preset_2.png)
+<!--
+1. **[!UICONTROL Opt-out number]** But what we need to call out is that the opt-out is no longer at a channel level. Previously on receiving the opt-out keyword we used to opt-out the profile at the channel level. Now, we have made it short code specific. So if the customer is using multiple short codes within AJO to send out SMSs, they can continue to send messages to users from other shortcodes if the end user unsubscribes from 1.-->
 
 1. 채널 표면이 만들어지면 목록에 다음과 같이 표시됩니다. **[!UICONTROL 처리 중]** 상태.
 
