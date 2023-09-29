@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 27%
@@ -24,7 +24,7 @@ ht-degree: 27%
 >문자 메시지 통신은 문자 메시지의 특성, 문자 메시지를 보내는 위치 및 받는 사람의 위치에 따라 다양한 법적 준수 요구 사항이 적용될 수 있습니다. Adobe Journey Optimizer은 아래 자세히 설명된 대로 긴 코드 및 수신자 부담 전화번호에 대한 메시지를 처리하지만, 귀하의 문자 메시지 통신이 적용 가능한 모든 법적 준수 요구 사항을 준수하는지 확인하려면 법률적인 자문을 구하십시오.
 >
 
-## 기본 인바운드 키워드{#sms-native-keywords}
+## 기본 인바운드 키워드 {#sms-native-keywords}
 
 기본적으로 Adobe Journey Optimizer은 수신자 부담 및 긴 코드 메시지에 대해 STOP, UNSTOP, START, QUIT, CANCEL, END 및 UNSUBSCRIBE와 같은 표준 영문 회신 메시지를 처리합니다. Journey Optimizer과 함께 사용할 경우 Sinch 및 Infobip만 기본 키워드를 지원합니다.
 
@@ -33,7 +33,7 @@ ht-degree: 27%
 키워드 응답 STOP, UNSTOP, START, QUIT, CANCEL, END 및 UNSUBSCRIBE가 자동으로 인식되므로, Adobe Journey Optimizer에서 SMS 옵트아웃 기능이 작동하는지 확인하는 데는 단계가 필요하지 않습니다. 프로필 옵트아웃 상태는 Adobe Journey Optimizer에서 실시간으로 업데이트됩니다.
 
 
-## 차단 목록{#sms-blocklists}
+## 차단 목록 {#sms-blocklists}
 
 Adobe Journey Optimizer이 옵트아웃 상태(Twilio 또는 Sinch와의 직접 통합을 위해)에 따라 전송을 중지하는 것 외에도 대부분의 SMS 게이트웨이 공급자는 차단 목록에 추가하다 메시지를 유지 관리하여 옵트아웃을 선택한 개인에게 SMS가 전달되지 않도록 합니다. Sinch 또는 Twilio 이외의 공급자를 사용하고 있으며 [사용자 지정 채널](../building-journeys/using-custom-actions.md), 공급자에게 확인해야 합니다.
 

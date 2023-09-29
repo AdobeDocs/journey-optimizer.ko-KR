@@ -11,9 +11,9 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: c7a36d895927e616591627a6afc05d1fa43b7c51
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1679'
 ht-degree: 3%
 
 ---
@@ -47,6 +47,11 @@ ht-degree: 3%
 >title="도메인 그룹 제외"
 >abstract="현재 단계에서 제외하려는 도메인을 선택합니다. 도메인 제외에는 실행되지 않는 단계가 필요하므로 제외를 추가하려면 실행 단계를 분할해야 할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="단계 분할"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_phases"
+>title="플랜 단계 정의"
+>abstract="각 단계는 단일 캠페인을 할당할 수 있는 여러 실행으로 구성됩니다."
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -103,6 +108,31 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >IP 준비 계획에서 모든 단계를 삭제하는 경우 계획을 다시 업로드하는 것이 좋습니다. [자세히 알아보기](#re-upload-plan)
 
 ## 실행 정의 {#define-runs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_run"
+>title="각 실행 정의"
+>abstract="모든 단계에 대해 각 실행을 정의하고 활성화합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_last_engagement"
+>title="참여 필터링"
+>abstract="이 열은 예를 들어 지난 20일 동안 브랜드에 참여한 사용자만 타겟팅하는 필터입니다. 다음을 통해 이 설정을 변경할 수도 있습니다. **실행 편집** 옵션을 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_retry"
+>title="기간 설정"
+>abstract="세분화 작업이 지연되는 경우 IP 준비 캠페인을 실행할 수 있는 기간을 정의할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_pause"
+>title="대상 오류가 있는 실행 취소"
+>abstract="해당 실행에 대해 대상을 평가한 후 자격 조건을 갖춘 프로필이 타겟팅된 프로필보다 적은 경우 실행을 취소하려면 이 옵션을 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_qualified"
+>title="적격 프로필 보기"
+>abstract="이 열에는 적격 프로필의 수가 표시됩니다. 대상자에 대한 실행이 평가되면 적격 프로필보다 타겟팅된 프로필이 더 많은 경우 다음을 수행하지 않는 한 실행이 계속 실행됩니다. **오류 발생 시 일시 중지** 옵션이 활성화되어 있습니다. 이 경우 실행이 취소되었습니다."
 
 1. 각 실행에 대한 일정을 선택합니다.
 

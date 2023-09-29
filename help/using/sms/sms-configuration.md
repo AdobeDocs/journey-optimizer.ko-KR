@@ -6,10 +6,10 @@ description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 17%
+source-wordcount: '1010'
+ht-degree: 16%
 
 ---
 
@@ -105,7 +105,7 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
 
 1. 표면에 대한 이름과 설명(선택 사항)을 입력한 다음 SMS 채널을 선택합니다.
 
-   ![](assets/sms_preset.png)
+   ![](assets/sms-create-surface.png)
 
    >[!NOTE]
    >
@@ -113,26 +113,26 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
 
 1. 다음을 정의합니다. **SMS 설정**.
 
-   ![](assets/preset-sms.png)
+   ![](assets/sms-surface-settings.png)
 
-   * 다음 항목 선택 **[!UICONTROL SMS 유형]** 이 데이터는 표면과 함께 전송됩니다. **[!UICONTROL 트랜잭션]** 또는 **[!UICONTROL 마케팅]**.
+   다음을 선택하여 시작 **[!UICONTROL SMS 유형]** 이 데이터는 표면과 함께 전송됩니다. **[!UICONTROL 트랜잭션]** 또는 **[!UICONTROL 마케팅]**.
 
-      * 선택 **마케팅** 프로모션 SMS의 경우: 이러한 메시지에는 사용자의 동의가 필요합니다.
-      * 선택 **트랜잭션** 예를 들어 주문 확인, 암호 재설정 알림 또는 게재 정보와 같은 비상업적인 메시지의 경우.
+   * 선택 **마케팅** 프로모션 SMS의 경우: 이러한 메시지에는 사용자의 동의가 필요합니다.
+   * 선택 **트랜잭션** 예를 들어 주문 확인, 암호 재설정 알림 또는 게재 정보와 같은 비상업적인 메시지의 경우.
 
-     >[!CAUTION]
-     >
-     >**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필에 SMS 메시지를 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
+   SMS 메시지를 만들 때 메시지에 대해 선택한 카테고리와 일치하는 유효한 채널 표면을 선택해야 합니다.
 
-     SMS 메시지를 만들 때 메시지에 대해 선택한 카테고리와 일치하는 유효한 채널 표면을 선택해야 합니다.
+   >[!CAUTION]
+   >
+   >**트랜잭션** 마케팅 커뮤니케이션의 구독을 취소한 프로필에 SMS 메시지를 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
 
-   * 다음 항목 선택 **[!UICONTROL SMS 구성]** 서피스와 연관시킬 수 있습니다.
+1. 다음 항목 선택 **[!UICONTROL SMS 구성]** 서피스와 연관시킬 수 있습니다.
 
-     SMS 메시지를 보내도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#create-api).
+   SMS 메시지를 보내도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#create-api).
 
-   * 다음을 입력합니다. **[!UICONTROL 발신자 번호]** 통신&#x200B;에 을 사용하려고 합니다.
+1. 다음을 입력합니다. **[!UICONTROL 발신자 번호]** 통신&#x200B;에 을 사용하려고 합니다.
 
-   * 다음 항목 선택 **[!UICONTROL SMS 실행 필드]** 을(를) 선택하려면 **[!UICONTROL 프로필 속성]** 프로필의 전화 번호와 연결됩니다.
+1. 다음 항목 선택 **[!UICONTROL SMS 실행 필드]** 을(를) 선택하려면 **[!UICONTROL 프로필 속성]** 프로필의 전화 번호와 연결됩니다.
 
 1. SMS 메시지에서 URL 단축 기능을 사용하려면 **[!UICONTROL 하위 도메인]** 목록을 표시합니다.
 
@@ -140,11 +140,15 @@ SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 �
    >
    >하위 도메인을 선택하려면 최소 하나 이상의 SMS 하위 도메인을 이전에 구성했는지 확인하십시오. [방법 알아보기](sms-subdomains.md)
 
+1. 다음을 입력합니다. **[!UICONTROL 옵트아웃 번호]** 이 서피스에 를 사용합니다. 프로필이 이 번호에서 옵트아웃해도 를 사용하여 SMS 메시지를 보낼 수 있는 다른 번호에서 메시지를 보낼 수 있습니다. [!DNL Journey Optimizer].
+
+   >[!NOTE]
+   >
+   >위치 [!DNL Journey Optimizer], SMS 옵트아웃은 더 이상 채널 수준에서 관리되지 않습니다. 이제 숫자에 따라 다릅니다.
+
 1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]** 확인할 수 있습니다. 채널 서피스를 구배로 저장하고 나중에 구성을 재개할 수도 있습니다.
 
-   ![](assets/sms_preset_2.png)
-<!--
-1. **[!UICONTROL Opt-out number]** But what we need to call out is that the opt-out is no longer at a channel level. Previously on receiving the opt-out keyword we used to opt-out the profile at the channel level. Now, we have made it short code specific. So if the customer is using multiple short codes within AJO to send out SMSs, they can continue to send messages to users from other shortcodes if the end user unsubscribes from 1.-->
+   ![](assets/sms-submit-surface.png)
 
 1. 채널 표면이 만들어지면 목록에 다음과 같이 표시됩니다. **[!UICONTROL 처리 중]** 상태.
 

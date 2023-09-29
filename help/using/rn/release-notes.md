@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '4018'
-ht-degree: 87%
+source-wordcount: '4086'
+ht-degree: 86%
 
 ---
 
@@ -132,7 +132,9 @@ ht-degree: 87%
 
 **SMS 채널**
 
-두 개의 새 필드, **옵트인 메시지** 및 **도움말 메시지**&#x200B;가 API 구성 화면에 추가되어 사용자가 인바운드 키워드에 대한 응답을 사용자 지정할 수 있습니다. Sinch SMS 공급자만 사용할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md)
+* 두 개의 새 필드, **옵트인 메시지** 및 **도움말 메시지**&#x200B;가 API 구성 화면에 추가되어 사용자가 인바운드 키워드에 대한 응답을 사용자 지정할 수 있습니다. Sinch SMS 공급자만 사용할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md#create-api)
+
+* SMS 옵트아웃은 더 이상 채널 수준에서 관리되지 않습니다. 이제 특정 번호를 사용합니다. 즉, 일부 프로필이 지정된 번호나 짧은 코드에서 옵트아웃해도 SMS 메시지를 보내는 데 사용할 수 있는 다른 번호에서 메시지를 보낼 수 있습니다. 새 옵션을 사용하면 다음을 선택할 수 있습니다 **옵트아웃 번호** 특정 서피스에 를 사용합니다. [자세히 알아보기](../sms/sms-configuration.md#message-preset-sms)
 
 **DM 채널**
 
