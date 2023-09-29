@@ -6,10 +6,10 @@ description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
+source-git-commit: e2851c97dd14577a992625bcfd60fc7300b432d3
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 18%
+source-wordcount: '951'
+ht-degree: 17%
 
 ---
 
@@ -62,6 +62,10 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
       * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
 
       * **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**: API 페이지에 액세스하면 SMS 탭 아래에서 자격 증명을 찾을 수 있습니다.  [자세히 알아보기](https://developers.sinch.com/docs/sms/getting-started/)
+
+      * **[!UICONTROL 옵트인 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **[!UICONTROL 옵트인 메시지]**.
+
+      * **[!UICONTROL 도움말 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **[!UICONTROL 도움말 메시지]**.
 
    * 대상 **[!DNL Twilio]**:
 

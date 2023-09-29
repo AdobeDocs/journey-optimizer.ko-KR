@@ -9,55 +9,99 @@ role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
-source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
+exl-id: 8f47b605-7179-4522-b50c-0ea34b09bd22
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 5%
+source-wordcount: '610'
+ht-degree: 7%
 
 ---
 
-# 사용자 지정 작업 개선 사항 {#custom-action-enhancements}
+# 사용자 정의 작업에서 API 호출 응답 사용 {#custom-action-enhancements}
 
-이제 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
-
-이 기능은 이전에는 데이터 소스를 사용할 때만 사용할 수 있었습니다. 이제 사용자 지정 작업에 사용할 수 있습니다.
+사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
 
 >[!AVAILABILITY]
 >
->이 기능은 현재 Private Beta로 사용할 수 있습니다.
+>이 기능은 현재 Beta 버전으로 제공됩니다.
 
->[!WARNING]
->
->사용자 지정 작업은 전용 또는 내부 끝점에서만 사용해야 하며 적절한 제한 또는 제한 제한과 함께 사용해야 합니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
+<!--
+You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 
-## 사용자 지정 작업 정의 {#define-custom-action}
+This capability was previously only available when using data sources. You can now use it with custom actions. 
+-->
 
-사용자 지정 작업을 정의할 때 GET 메서드 및 새 페이로드 응답 필드의 추가와 같이 두 가지 향상된 기능을 사용할 수 있습니다. 다른 옵션과 매개 변수는 변경되지 않습니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
+## 중요 정보{#custom-action-enhancements-notes}
 
-### 끝점 구성 {#endpoint-configuration}
+<!--
+* Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md). 
+-->
 
-다음 **URL 구성** 섹션의 이름이 변경되었습니다. **끝점 구성**.
+* 스칼라 배열은 응답 페이로드에서 지원됩니다.
 
-다음에서 **방법** 드롭다운에서 이제 다음을 선택할 수 있습니다. **GET**.
+  ```
+  "dummyScalarArray": [
+  "val1",
+  "val2"
+  ]
+  ```
+
+* 이기종 스토리지는 응답 페이로드에서 지원되지 않습니다.
+
+  ```
+  "dummyRandomArray": [
+  20,
+  "aafw",
+  false
+  ]
+  ```
+
+<!--
+## Best practices{#custom-action-enhancements-best-practices}
+
+A capping limit of 5000 calls/s is defined for all custom actions. This limit has been set based on customers usage, to protect external endpoints targeted by custom actions. You need to take this into account in your audience-based journeys by defining an appropriate reading rate (5000 profiles/s when custom actions are used). If needed, you can override this setting by defining a greater capping or throttling limit through our Capping/Throttling APIs. See [this page](../configuration/external-systems.md).
+
+You should not target public endpoints with custom actions for various reasons:
+
+* Without proper capping or throttling, there is a risk of sending too many calls to a public endpoint that may not support such volume.
+* Profile data can be sent through custom actions, so targeting a public endpoint could lead to inadvertently sharing personal information externally.
+* You have no control on the data being returned by public endpoints. If an endpoint changes its API or starts sending incorrect information, those will be made available in communications sent, with potential negative impacts.
+-->
+
+<!--
+## Define the custom action {#define-custom-action}
+
+When defining the custom action, two enhancements have been made available: the addition of the GET method and the new payload response field. The other options and parameters are unchanged. See [this page](../action/about-custom-action-configuration.md).
+
+### Endpoint configuration {#endpoint-configuration}
+
+The **URL configuration** section has been renamed **Endpoint configuration**.
+
+In the **Method** drop-down, you can now select **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### 페이로드 {#payloads-new}
+### Payloads {#payloads-new}
 
-다음 **작업 매개 변수** 섹션의 이름이 변경되었습니다. **페이로드**. 두 가지 필드를 사용할 수 있습니다.
+The **Action parameters** section has been renamed **Payloads**. Two fields are available:
 
-* 다음 **요청** 필드: 이 필드는 POST 및 PUT 호출 메서드에만 사용할 수 있습니다.
-* 다음 **응답** 필드: 새로운 기능입니다. 이 필드는 모든 호출 메서드에 사용할 수 있습니다.
+* The **Request** field: this field is only available for POST and PUT calling methods.
+* The **Response** field: this is the new capability. This field as available for all calling methods.
 
 >[!NOTE]
 > 
->이 두 필드는 모두 선택 사항입니다.
+>Both these fields are optional.
 
 ![](assets/action-response2.png){width="70%" align="left"}
+-->
+
+## 사용자 지정 작업 구성 {#config-response}
+
+1. 사용자 지정 작업을 만듭니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
 
 1. 내부를 클릭합니다. **응답** 필드.
 
-   ![](assets/action-response3.png){width="80%" align="left"}
+   ![](assets/action-response2.png){width="80%" align="left"}
 
 1. 호출에서 반환된 페이로드의 예제를 붙여넣습니다. 필드 유형(문자열, 정수 등)이 올바른지 확인합니다. 다음은 호출 동안 캡처된 응답 페이로드의 예입니다. 로컬 엔드포인트는 충성도 포인트 수 및 프로필 상태를 전송합니다.
 
@@ -117,6 +161,12 @@ ht-degree: 5%
 
    ![](assets/action-response11.png)
 
+## 테스트 모드 로그 {#test-mode-logs}
+
+테스트 모드를 통해 사용자 지정 작업 응답과 관련된 상태 로그에 액세스할 수 있습니다. 여정에서 응답이 있는 사용자 지정 작업을 정의한 경우 **actionsHistory** 섹션에 외부 끝점이 반환한 페이로드를 해당 사용자 지정 작업의 응답으로서 표시하는 작업이 표시됩니다. 이 기능은 디버깅 측면에서 매우 유용할 수 있습니다.
+
+![](assets/action-response12.png)
+
 ## 오류 상태 {#error-status}
 
 다음 **jo_status_code** 응답 페이로드가 정의되지 않은 경우에도 필드는 항상 사용할 수 있습니다.
@@ -158,4 +208,3 @@ ht-degree: 5%
 ```
 
 필드 참조에 대한 자세한 내용은 [이 섹션](../building-journeys/expression/field-references.md).
-

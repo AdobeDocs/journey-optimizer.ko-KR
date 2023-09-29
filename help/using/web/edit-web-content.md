@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 17%
+source-wordcount: '1114'
+ht-degree: 16%
 
 ---
 
@@ -166,6 +166,8 @@ ht-degree: 17%
 다음에서 **[!UICONTROL 찾아보기]** 모드에서는 개인화할 선택한 서피스에서 정확한 페이지로 이동할 수 있습니다.
 
 이 메서드는 인증이 지연되거나 특정 URL에서 처음부터 사용할 수 없는 페이지를 처리할 때 특히 유용합니다. 예를 들어 을 인증하고 계정 페이지 또는 장바구니 페이지로 이동한 다음 다시 로 전환할 수 있습니다. **[!UICONTROL 디자인]** 을 클릭하여 원하는 페이지에서 변경 작업을 수행합니다.
+
+사용 **[!UICONTROL 찾아보기]** 또한 모드에서는 단일 페이지 애플리케이션을 작성할 때 웹 사이트의 모든 보기를 탐색할 수 있습니다. [자세히 알아보기](web-spa.md)
 
 ### 장치 크기 변경 {#change-device-size}
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
+source-git-commit: 280e311ca4515d2147f451af0fffbe6d5fc8029c
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 31%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 32%
 
 이 파일을 생성하려면 먼저 다음을 생성해야 합니다.
 
-1. A [파일 라우팅 구성](#file-routing-configuration) 파일을 내보낼 서버를 지정합니다.
+1. A [파일 라우팅 구성](#file-routing-configuration) 파일을 내보낼 서버를 지정하고 필요한 경우 파일을 암호화합니다.
 
 1. A [DM 표면](#direct-mail-surface) 그러면 파일 라우팅 구성을 참조합니다.
 
@@ -89,6 +89,8 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
    >[!NOTE]
    >
    >AWS 지역은 AWS이 클라우드 인프라를 호스팅하는 데 사용하는 지리적 영역입니다. 일반적으로 DM 공급자 위치와 가장 가까운 지역을 선택하는 것이 좋습니다.
+
+1. 파일을 암호화하려면 암호화 키를 **[!UICONTROL PGP/GPG 암호화 키]** 필드.
 
 1. **[!UICONTROL 제출]**&#x200B;을 선택합니다. 파일 라우팅 구성은 **[!UICONTROL 활성]** 상태. 이제 사용할 준비가 되었습니다. [DM 표면](#direct-mail-surface).
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 15%
+source-wordcount: '1277'
+ht-degree: 12%
 
 ---
 
@@ -34,6 +34,16 @@ ht-degree: 15%
 사용자 지정 작업 매개 변수에서 간단한 컬렉션과 개체 컬렉션을 전달할 수 있습니다. 의 컬렉션 제한에 대해 자세히 알아보기 [이 페이지](../building-journeys/collections.md#limitations).
 
 또한 사용자 지정 작업 매개 변수에는 예상 형식(예: 문자열, 십진수 등)이 있습니다. 이러한 예상 형식을 준수하도록 주의해야 합니다. 자세히 알아보기 [사용 사례](../building-journeys/collections.md).
+
+## 모범 사례{#custom-action-enhancements-best-practices}
+
+모든 사용자 지정 작업에 대해 5000개의 호출/초의 최대 가용량 제한이 정의됩니다. 이 제한은 사용자 지정 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객의 사용을 기반으로 설정되었습니다. 적절한 읽기 비율(사용자 지정 작업 사용 시 5000개 프로필/초)을 정의하여 대상 기반 여정에서 이를 고려해야 합니다. 필요한 경우 최대 가용량/최대 가용량 API를 통해 더 큰 최대 가용량 또는 최대 가용량 제한을 정의하여 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
+
+다음과 같은 다양한 이유로 사용자 지정 작업으로 공개 끝점을 타깃팅해서는 안 됩니다.
+
+* 적절한 제한 또는 제한이 없으면 이러한 볼륨을 지원하지 않을 수 있는 공개 끝점에 너무 많은 호출을 보낼 위험이 있습니다.
+* 프로필 데이터는 사용자 지정 작업을 통해 전송될 수 있으므로 공개 엔드포인트를 타겟팅하면 의도치 않게 외부적으로 개인 정보를 공유할 수 있습니다.
+* 공개 끝점에서 반환되는 데이터에 대해 제어할 수 없습니다. 엔드포인트가 API를 변경하거나 잘못된 정보를 보내기 시작하는 경우 전송된 통신에서 사용할 수 있게 되고 부정적인 영향이 발생할 수 있습니다.
 
 ## 동의 및 데이터 거버넌스 {#privacy}
 
@@ -70,11 +80,11 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
    >
    >여정에서 사용자 지정 작업을 사용하는 경우 대부분의 매개 변수는 읽기 전용입니다. 다음 작업만 수정할 수 있습니다. **[!UICONTROL 이름]**, **[!UICONTROL 설명]**, **[!UICONTROL URL]** 필드 및 **[!UICONTROL 인증]** 섹션.
 
-## URL 구성 {#url-configuration}
+## 끝점 구성 {#url-configuration}
 
-사용자 지정 작업을 구성할 때 다음을 정의해야 합니다 **[!UICONTROL URL 구성]** 매개 변수:
+사용자 지정 작업을 구성할 때 다음을 정의해야 합니다 **[!UICONTROL 끝점 구성]** 매개 변수:
 
-![](assets/journeyurlconfiguration.png)
+![](assets/action-response1bis.png){width="70%" align="left"}
 
 1. 다음에서 **[!UICONTROL URL]** 필드에 외부 서비스의 URL을 지정합니다.
 
@@ -92,7 +102,7 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
    >
    >사용자 지정 작업을 정의할 때 기본 포트만 허용됩니다. http의 경우 80, https의 경우 443.
 
-1. 호출 선택 **[!UICONTROL 방법]**: 다음 중 하나일 수 있습니다. **[!UICONTROL POST]** 또는 **[!UICONTROL PUT]**.
+1. 호출 선택 **[!UICONTROL 방법]**: 다음 중 하나일 수 있습니다. **[!UICONTROL POST]**, **[!UICONTROL GET]** 또는 **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
@@ -118,11 +128,17 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
    >
    >헤더는 필드 구문 분석 규칙에 따라 유효성이 검사됩니다. 다음에서 자세히 알아보기 [이 설명서](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## 작업 매개 변수 정의 {#define-the-message-parameters}
+## 페이로드 매개 변수 정의 {#define-the-message-parameters}
 
-다음에서 **[!UICONTROL 작업 매개 변수]** 섹션에 외부 서비스로 전송할 JSON 페이로드의 예제를 붙여 넣습니다.
+1. 다음에서 **[!UICONTROL 요청]** 섹션에 외부 서비스로 전송할 JSON 페이로드의 예제를 붙여 넣습니다. 이 필드는 선택 사항이며 POST 및 PUT 호출 메서드에만 사용할 수 있습니다.
 
-![](assets/messageparameterssection.png)
+1. 다음에서 **[!UICONTROL 응답]** 섹션에 호출에서 반환된 페이로드의 예제를 붙여 넣습니다. 이 필드는 선택 사항이며 모든 호출 방법에서 사용할 수 있습니다. 고객 작업에서 API 호출 응답을 활용하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../action/action-response.md).
+
+>[!NOTE]
+>
+>응답 기능은 현재 Beta 버전으로 제공됩니다.
+
+![](assets/action-response2bis.png){width="70%" align="left"}
 
 >[!NOTE]
 >

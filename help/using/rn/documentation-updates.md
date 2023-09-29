@@ -4,10 +4,10 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a75dea16748a6628c3e21f1846a2ac9872cc55cb
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '3596'
-ht-degree: 92%
+source-wordcount: '3695'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,19 @@ ht-degree: 92%
 
 ## 2023년 9월 {#september-2023}
 
+* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2023년 9월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 크기 조정 모범 사례 및 실시간 결합 지침과 함께 새 페이지가 추가되었습니다. [자세히 보기](../start/best-practices.md)
+
+<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+
+* 전송 시간 최적화를 위해 FAQ 섹션이 추가되었습니다. [자세히 보기](../building-journeys/journeys-message.md#faq-send-time)
+* 대상자 자격 활동에 대한 메모가 추가되었습니다. 최대 10분이 소요될 수 있으며 대상자를 들어오거나 나가는 프로필을 청취합니다. [자세히 보기](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * 결정 규칙을 만들 때 알아야 할 제한 사항 목록이 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/creating-decision-rules.md)
+* 액세스 제어 설명서에 대한 링크가 업데이트되었습니다. [자세히 보기](../administration/permissions.md)
+* Adobe Experience Platform 데이터 수집 세부 사항으로 인앱 채널 사전 요구 사항이 업데이트되었습니다. [자세히 보기](../in-app/inapp-configuration.md)
+
+
+
 
 ## 2023년 8월 {#august-2023}
 

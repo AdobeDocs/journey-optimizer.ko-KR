@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 사용 사례, 다중 채널, 메시지, 여정, 채널, 이벤트, 푸시
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 1%
 
 ---
@@ -115,6 +115,6 @@ ht-degree: 1%
 
 1. 여정을 테스트하기 전에 유효하고 오류가 없는지 확인합니다.
 
-1. 을(를) 클릭합니다 **테스트** 오른쪽 상단 모서리에 있는 toggle 을 사용하여 테스트 모드를 활성화합니다. 테스트 프로필이 테스트를 입력하는 방법(단일 프로필 또는 한 번에 최대 100개)을 정의합니다. 다음을 참조하십시오. [섹션](testing-the-journey.md) 테스트 모드를 사용하는 방법을 알아봅니다.
+1. 을(를) 클릭합니다 **테스트** 오른쪽 상단 모서리에 있는 toggle 을 사용하여 테스트 모드를 활성화합니다. 다음을 참조하십시오. [섹션](testing-the-journey.md) 테스트 모드를 사용하는 방법을 알아봅니다.
 
 1. 여정이 준비되면 **게시** 오른쪽 상단 모서리에 있는 단추입니다.

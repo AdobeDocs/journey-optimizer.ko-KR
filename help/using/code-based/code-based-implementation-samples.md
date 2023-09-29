@@ -8,9 +8,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
+source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '823'
 ht-degree: 5%
 
 ---
@@ -114,7 +115,7 @@ function sendDisplayEvent(decision) {
 ### 작동 방식
 
 1. 웹 페이지가 요청되고 브라우저가 이전에 저장한 쿠키(접두사 포함) `kndctr_` 포함됩니다.
-1. 앱 서버에서 페이지를 요청하면 이벤트가에 전송됩니다. [대화형 데이터 수집 끝점](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en) 개인화 콘텐츠를 가져옵니다. 이 샘플 앱은 몇 가지 도우미 메서드를 사용하여 요청 빌드를 단순화하고 API로 요청을 보냅니다(참조). [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). 그러나 이 요청은 단지 `POST` 이벤트 및 쿼리가 포함된 페이로드와 함께 사용됩니다. 이전 단계의 쿠키(사용 가능한 경우)는 의 요청에 포함됩니다. `meta>state>entries` 배열입니다.
+1. 앱 서버에서 페이지를 요청하면 이벤트가에 전송됩니다. [대화형 데이터 수집 끝점](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) 개인화 콘텐츠를 가져옵니다. 이 샘플 앱은 몇 가지 도우미 메서드를 사용하여 요청 빌드를 단순화하고 API로 요청을 보냅니다(참조). [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). 그러나 이 요청은 단지 `POST` 이벤트 및 쿼리가 포함된 페이로드와 함께 사용됩니다. 이전 단계의 쿠키(사용 가능한 경우)는 의 요청에 포함됩니다. `meta>state>entries` 배열입니다.
 
    ```javascript
    fetch(
@@ -275,4 +276,3 @@ function sendDisplayEvent(decision) {
 
 * Adobe 기술 블로그: [Adobe Experience Platform Web SDK의 하이브리드 개인화](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
-

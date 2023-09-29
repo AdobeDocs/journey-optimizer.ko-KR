@@ -1,42 +1,38 @@
 ---
-title: 인앱 구성
+title: 인앱 채널 사전 요구 사항
 description: Journey Optimizer을 사용하여 인앱 메시지를 보내도록 환경을 구성하는 방법에 대해 알아봅니다
 role: Admin
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
+source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 8%
+source-wordcount: '727'
+ht-degree: 10%
 
 ---
 
-# 인앱 채널 구성 {#inapp-configuration}
+# 인앱 채널 사전 요구 사항 {#inapp-configuration}
 
-인앱 메시지를 보내기 전에에서 인앱 채널을 구성해야 합니다 [!DNL Adobe Experience Platform Data Collection].
+## 게재 사전 요구 사항 {#delivery-prerequisites}
 
-1. 출처: [!DNL Adobe Experience Platform Data Collection] 계정, 액세스 **[!UICONTROL 데이터스트림]** 메뉴 및 클릭 **[!UICONTROL 새 데이터스트림]**. 데이터 스트림 만들기에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR).
+인앱 메시지를 올바르게 배달하려면 다음 설정을 정의해야 합니다.
 
-1. 다음 항목 선택 [!DNL Adobe Experience Platform] 서비스.
+* 다음에서 [Adobe Experience Platform 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko-KR){target="_blank"}와 같은 데이터 스트림이 아래에 정의되어 있는지 확인합니다. **[!UICONTROL Adobe Experience Platform]** Adobe Experience Platform Edge 및 **[!UICONTROL Adobe Journey Optimizer]** 옵션이 활성화되었습니다.
 
-   [!DNL Edge Segmentation] 및 [!DNL Adobe Journey Optimizer] 을(를) 선택해야 합니다.
+  이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR){target="_blank"}
 
-   ![](assets/inapp_config_6.png)
+  ![](assets/inapp_config_6.png)
 
-   >[!NOTE]
-   >
-   >인앱 채널에 대해 콘텐츠 실험을 활성화하려면 다음을 확인해야 합니다. [데이터 세트](../data/get-started-datasets.md) 인앱에서 사용됨 [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko-KR){target="_blank"} 는 보고 구성에도 있습니다. 그렇지 않으면 인앱 데이터가 콘텐츠 실험 보고서에 표시되지 않습니다. [데이터 세트를 추가하는 방법 알아보기](../campaigns/reporting-configuration.md#add-datasets)
-   >
-   >데이터 집합은 [!DNL Journey Optimizer] 보고 시스템이며, 데이터 수집이나 데이터 수집에는 영향을 주지 않습니다.
+* 위치 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-1. 그런 다음 **[!UICONTROL 앱 표면]** 메뉴 및 클릭 **[!UICONTROL 앱 표면 만들기]**.
+  이 병합 정책은 다음 사용자가 사용합니다. [!DNL Journey Optimizer] 인바운드 채널을 통해 에지에서 인바운드 캠페인을 올바르게 활성화하고 게시할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko){target="_blank"}
 
-   >[!NOTE]
-   >
-   > 다음이 필요합니다. **앱 구성 관리** 다음에 대한 액세스 권한을 가집니다. **[!UICONTROL 앱 표면]** 메뉴 아래의 제품에서 사용할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [이 비디오](#video).
+  ![](assets/inapp_config_8.png)
 
-   ![](assets/inapp_config_1.png)
+## 채널 구성 사전 요구 사항 {#channel-prerequisites}
+
+1. 액세스 **[!UICONTROL 앱 표면]** 메뉴 및 클릭 **[!UICONTROL 앱 표면 만들기]**.
 
 1. 에 이름 추가 **[!UICONTROL 앱 표면]**.
 
@@ -106,13 +102,23 @@ ht-degree: 8%
 
 이제 인앱 채널이 구성되었습니다. 사용자에게 인앱 메시지를 보낼 수 있습니다.
 
-**관련 항목:**
+## 콘텐츠 실험 사전 요구 사항 {#experiment-prerequisites}
 
-* [인앱 메시지 만들기 ](create-in-app.md)
-* [캠페인 만들기](../campaigns/create-campaign.md)
-* [인앱 메시지 디자인](design-in-app.md)
-* [인앱 보고서 ](../reports/campaign-global-report.md#inapp-report)
+인앱 채널에 대해 콘텐츠 실험을 활성화하려면 다음을 확인해야 합니다. [데이터 세트](../data/get-started-datasets.md) 인앱 구현에 사용됨 [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko-KR){target="_blank"} 는 보고 구성에도 포함됩니다.
 
+즉, 실험 보고를 구성할 때 웹 데이터 스트림에 없는 데이터 세트를 추가하면 웹 데이터가 콘텐츠 실험 보고서에 표시되지 않습니다.
+
+에서 콘텐츠 실험 보고를 위한 데이터 세트를 추가하는 방법을 알아봅니다. [이 섹션](../campaigns/reporting-configuration.md#add-datasets).
+
+>[!NOTE]
+>
+>데이터 집합은 [!DNL Journey Optimizer] 보고 시스템이며, 데이터 수집이나 데이터 수집에는 영향을 주지 않습니다.
+
+다음과 같은 경우 **아님** 다음 사전 정의 사용 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}) 다음 필드 그룹을 추가해야 합니다. `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, 및 `Web Details`. 이러한 요구 사항은 [!DNL Journey Optimizer] 콘텐츠 실험 보고는 각 프로필이 참여하고 있는 실험 및 처리를 추적합니다.
+
+>[!NOTE]
+>
+>이러한 필드 그룹을 추가해도 일반 데이터 수집에는 영향을 주지 않습니다. 실험이 실행 중인 페이지에만 추가되며 다른 모든 추적은 그대로 유지됩니다.
 
 ## 방법 비디오{#video}
 
@@ -124,4 +130,10 @@ ht-degree: 8%
 
 +++
 
+**관련 항목:**
+
+* [인앱 메시지 만들기 ](create-in-app.md)
+* [캠페인 만들기](../campaigns/create-campaign.md)
+* [인앱 메시지 디자인](design-in-app.md)
+* [인앱 보고서 ](../reports/campaign-global-report.md#inapp-report)
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '970'
 ht-degree: 10%
 
 ---
@@ -31,14 +31,17 @@ ht-degree: 10%
 
 이 유형의 이벤트는 여정에서 첫 번째 단계 또는 그 이후로 배치할 수 있습니다.
 
->[!IMPORTANT]
->
->Adobe Experience Platform 대상자는 하루에 한 번 계산됩니다(**일괄 처리** 대상자) 또는 실시간(**스트리밍됨** 대상, Adobe Experience Platform의 고빈도 대상 옵션 사용).
->
->선택한 대상자가 스트리밍되는 경우 이 대상자에 속한 개인이 잠재적으로 실시간으로 여정에 입장할 수 있습니다. 대상이 일괄 처리인 경우 Adobe Experience Platform에서 대상 계산이 실행될 때 이 대상에 대해 새로 자격을 얻은 사람이 여정에 들어올 수 있습니다.
->
->경험 이벤트 필드 그룹은 대상자 읽기, 대상자 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다.
+### 중요 정보{#important-notes-segment-qualification}
 
+* Adobe Experience Platform 대상자는 하루에 한 번 계산됩니다(**일괄 처리** 대상자) 또는 실시간(**스트리밍됨** 대상, Adobe Experience Platform의 고빈도 대상 옵션 사용).
+
+* 선택한 대상자가 스트리밍되는 경우 이 대상자에 속한 개인이 잠재적으로 실시간으로 여정에 입장할 수 있습니다. 대상이 일괄 처리인 경우 Adobe Experience Platform에서 대상 계산이 실행될 때 이 대상에 대해 새로 자격을 얻은 사람이 여정에 들어올 수 있습니다.
+
+* 경험 이벤트 필드 그룹은 대상자 읽기, 대상자 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다.
+
+* 여정에서 대상 자격을 사용할 때 해당 대상 자격 활동은 최대 10분 정도 걸릴 수 있으며 대상을 입력하거나 나가는 프로필을 들을 수 있습니다.
+
+### 활동 구성{#cnfigure-segment-qualification}
 
 1. 펼치기 **[!UICONTROL 이벤트]** 범주 및 놓기 **[!UICONTROL 대상 자격 조건]** 활동을 캔버스에 추가합니다.
 

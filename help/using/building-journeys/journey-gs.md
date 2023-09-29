@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1689'
 ht-degree: 24%
 
 ---
@@ -184,8 +184,8 @@ Adobe Experience Platform 프로필에 시간대가 정의된 경우 여정에�
 
    ![여정 복제](assets/duplicate-jo.png)
 
-<!--1. Enter the name of the journey and confirm. 
+1. 여정 이름을 입력하고 확인합니다. 여정 속성 화면에서 이름을 변경할 수도 있습니다. 기본적으로 이름은 다음과 같이 설정됩니다. `[JOURNEY-NAME]_copy`
 
-    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+   ![](assets/duplicate-jo2.png)
 
 1. 새 여정이 만들어지고 여정 목록에서 사용할 수 있습니다.

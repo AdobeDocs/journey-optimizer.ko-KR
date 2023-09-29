@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 제품, 프로필, 샌드박스
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '764'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
-> 아래에 자세히 설명된 각 절차는 다음에서만 수행할 수 있습니다. **[!UICONTROL 제품]** 또는 **[!UICONTROL 시스템]** 관리자. 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
+> 아래에 자세히 설명된 각 절차는 다음에서만 수행할 수 있습니다. **[!UICONTROL 제품]** 또는 **[!UICONTROL 시스템]** 관리자.
 
 **[!UICONTROL 역할]** 동일한 권한 및 샌드박스를 공유하는 사용자 컬렉션을 참조하십시오. 이러한 역할을 사용하면 조직 내의 다양한 사용자 그룹에 대한 액세스 및 권한을 쉽게 관리할 수 있습니다.
 
@@ -48,13 +48,13 @@ ht-degree: 6%
 
 1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**.
 
-   사용자가에서 이전에 생성된 적이 없는 경우 [!DNL Admin Console]을(를) 참조하십시오. [사용자 설명서 추가](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   사용자가에서 이전에 생성된 적이 없는 경우 [!DNL Admin Console]을(를) 참조하십시오. [사용자 설명서 추가](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html).
 
    ![](assets/do-not-localize/access_control_4.png)
 
 그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
 
-사용자 관리에 대한 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
+사용자 관리에 대한 자세한 내용은 [액세스 제어 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko).
 
 인스턴스에 액세스하면에 할당된 권한에 따라 사용자에게 특정 보기가 표시됩니다 **[!UICONTROL 역할]**. 사용자에게 기능에 대한 올바른 액세스 권한이 없는 경우 다음 메시지가 표시됩니다.
 
@@ -125,4 +125,4 @@ ht-degree: 6%
 
 사용자 **[!UICONTROL 역할]** 이제 이(가) 생성되고 구성되었습니다. 이제 사용자에게 할당합니다.
 
-역할 생성 및 관리에 대한 자세한 내용은 [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=ko-KR).
+역할 생성 및 관리에 대한 자세한 내용은 [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).

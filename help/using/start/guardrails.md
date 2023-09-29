@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d56053d9db3d7c07d629069c985640e694b32ce1
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1354'
+ht-degree: 95%
 
 ---
 
@@ -46,6 +46,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 * 한 여정에 넣을 수 있는 활동 수는 50개로 제한됩니다. 활동 수는 여정 캔버스의 왼쪽 위 섹션에 표시됩니다. 이는 가독성과 QA, 문제 해결에 도움이 됩니다.
 * 여정을 게시하면 처리량과 안정성을 최대화하기 위해 자동으로 규모를 조절합니다. 한 번에 100개의 실시간 여정을 실행하는 마일스톤에 가까워지면 100개를 달성할 예정이라는 알림이 UI에 표시됩니다. 이 알림을 받았는데 실시간 여정을 100개 넘게 실행하도록 현재 여정의 수를 확장해야 하는 경우, 고객 지원 센터에 보내는 티켓을 개설해 주시면 Adobe가 목표 달성을 도와 드리겠습니다.
+* 여정에서 대상 자격을 사용할 때 해당 대상 자격 활동은 최대 10분 정도 걸릴 수 있으며 대상을 입력하거나 나가는 프로필을 들을 수 있습니다.
 
 ### 일반 작업  {#general-actions-g}
 
@@ -65,6 +66,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 사용자 정의 작업 {#custom-actions-g}
 
+* 모든 사용자 지정 작업에 대해 5000개의 호출/초의 최대 가용량 제한이 정의됩니다. 이 제한은 사용자 지정 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객의 사용을 기반으로 설정되었습니다.
 * 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다. 
 * POST, PUT 및 GET 호출 메서드가 지원됩니다.
 * 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;로 시작해서는 안 됩니다.

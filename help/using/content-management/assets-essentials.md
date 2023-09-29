@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: assets, essentials, experience manager, 통합
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 1f4a49f9fc53cea21391d0e77bc151ebf84cc4f9
+source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 19%
+source-wordcount: '522'
+ht-degree: 17%
 
 ---
 
@@ -44,6 +44,19 @@ ht-degree: 19%
 1. 출처: [!DNL Adobe Journey Optimizer] 홈 페이지에서 **[!UICONTROL 에셋]** 탭 아래에 있는 **[!UICONTROL 콘텐츠 관리]** 메뉴 액세스 [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
+
+1. Journey Optimizer에서 에셋에 대한 저장소를 선택합니다. 이 솔루션을 소유하고 있는 경우 Assets Essentials 저장소 또는 에셋 as a Cloud Service 저장소를 선택할 수 있습니다.
+
+   ![](assets/media_library_4.png)
+
++++
+Assets 저장소를 전환하는 방법에 대해 알아봅니다.
+
+   Assets 저장소를 변경하려면 오른쪽 상단의 계정 아이콘을 선택하고 을 클릭합니다 **[!UICONTROL 저장소 선택]**.
+
+   ![](assets/media_library_3.png)
+
++++
 
 1. 중앙 섹션 또는 트리 보기에서 폴더를 두 번 클릭하여 엽니다.
 

@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, 함수, 표현식, 여정
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '199'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 6%
 * 인식됨: 엔티티가 대상자로 들어가고 있습니다.
 * 종료됨: 엔티티가 대상을 종료하는 중입니다.
 
-다음을 보유한 개인만 **실현됨** 및 **기존 항목** 대상자 참여 상태는 대상자의 구성원으로 간주됩니다. 대상을 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+다음을 보유한 개인만 **실현됨** 및 **기존 항목** 대상자 참여 상태는 대상자의 구성원으로 간주됩니다. 대상을 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` 은(는) 입력한/기존 상태의 segmentMembership이 있음을 의미합니다.
 

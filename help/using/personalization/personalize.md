@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f0a7f785a84cb53be0319284a4886841f6974e3d
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 28%
+source-wordcount: '372'
+ht-degree: 25%
 
 ---
 
@@ -40,6 +40,8 @@ ht-degree: 28%
 
 >[!CAUTION]
 >다음 **XDM 개별 프로필** 스키마는 콘텐츠를 개인화하는 데 사용할 수 있는 유일한 스키마입니다. [!DNL Journey Optimizer].
+
+또한 **계산된 속성** 을 클릭하여 콘텐츠를 개인화할 수 있습니다. 계산된 속성은 Adobe Experience Platform에 수집된 프로필 사용 경험 이벤트 데이터 세트를 기반으로 하며 개별 행동 이벤트를 요약하는 고객 프로필 내에 저장된 집계된 데이터 포인트 역할을 합니다 [계산된 속성으로 작업하는 방법 알아보기](../audience/computed-attributes.md)
 
 ## 다른 컨텍스트에서 개인화 추가 {#contexts}
 

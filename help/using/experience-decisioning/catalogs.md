@@ -8,13 +8,13 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 613a0a16-2e8f-499d-9db4-5175fefd93cc
+source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 7%
+source-wordcount: '320'
+ht-degree: 6%
 
 ---
-
 
 # 항목 카탈로그 {#catalog}
 
@@ -65,6 +65,6 @@ Experience Decisioning에서 카탈로그는 의사 결정 항목을 구성하�
    >* 부울
    >* 숫자
 
-   Adobe Experience Platform 스키마로 작업하는 방법에 대한 자세한 내용은 [XDM 시스템 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko-KR).
+   Adobe Experience Platform 스키마로 작업하는 방법에 대한 자세한 내용은 [XDM 시스템 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko).
 
 1. 원하는 사용자 지정 속성이 추가되면 스키마를 저장합니다. 이제 새 필드를 항목 의사 결정 만들기 화면의 **[!UICONTROL 사용자 지정 속성]** 섹션.

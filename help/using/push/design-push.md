@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1282'
 ht-degree: 12%
 
 ---
@@ -62,17 +62,15 @@ Android 버전에서는 이미지 아이콘과 확장된 알림에 대한 이미
 
 장치 화면이 잠겨 있으면 다음 단추만 표시되지 않습니다. **제목** 및 **메시지** 알림이 표시됩니다. 장치가 잠금 해제되면 수신자에게 버튼이 표시됩니다.
 
-iOS 버전에서는 최대 4개의 버튼을 추가할 수 있습니다. Android 버전에서는 최대 3개의 버튼을 추가할 수 있습니다.
+Android 버전에서는 최대 3개의 버튼을 추가할 수 있습니다.
 
->[!NOTE]
->
->iOS의 경우 **[!UICONTROL iOS 범주]** 작업을 알림 범주와 연결하는 필드입니다.
+iOS 버전에서는 알림 범주 식별자가 지정됩니다. 표시할 버튼과 수행한 작업을 정의하는 iOS 앱에 알림 범주를 미리 구성해야 합니다. 다음을 참조하십시오. [Apple 설명서](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) 을 참조하십시오.
 
 1. 사용 **[!UICONTROL 추가 단추]** 설정을 정의하려면 레이블 및 관련 작업을 수행합니다. 가능한 작업은 와 동일합니다. [클릭 시 비헤이비어](#on-click-behavior).
 
 1. 사용 **[!UICONTROL 보기 확장]** 아이콘 중앙 미리 보기 이미지 아래에 개인화된 단추를 미리 봅니다.
 
-![](assets/push_buttons.png)
+   ![](assets/push_buttons.png)
 
 ## 자동 알림 보내기 {#silent-notification}
 

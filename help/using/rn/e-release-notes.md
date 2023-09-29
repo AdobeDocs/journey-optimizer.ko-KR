@@ -5,7 +5,8 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
-source-git-commit: 75a03fbd6a369d9b8f75db819cfa995257eaf77f
+exl-id: 3a741a74-8fec-499d-be1f-17ac04106e54
+source-git-commit: 1d5bc1de8a33401c165eeee4c8159fc19087c9c9
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 21%
@@ -87,7 +88,7 @@ ht-degree: 21%
 <td>
 <p>계산된 속성을 사용하면 향상된 동작 기반 세분화, 개인화 및 활성화를 위해 직관적인 사용자 인터페이스를 통해 이벤트 데이터를 프로필 속성으로 쉽게 요약할 수 있습니다. 이 기능을 사용하면 셀프서비스 방식으로 계산된 속성을 만들고 관리하여 세그멘테이션, 실시간 고객 프로필 대상 또는 Journey Optimizer에서 사용할 수 있습니다.<br/><br/>
 또한 계산된 속성은 세분화 및 여정 워크플로를 단순화하여 관련 경험을 원활하게 전달할 수 있습니다. 다음에서 자세히 알아보기 <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">자세한 설명서</a>.</p>
-<img src="assets/computed-attributes.png">
+<img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
 </table>

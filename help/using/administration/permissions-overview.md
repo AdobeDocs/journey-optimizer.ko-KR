@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: 권한, 권한, 제한, 액세스, 샌드박스
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 10%
+source-wordcount: '177'
+ht-degree: 5%
 
 ---
 
@@ -29,8 +29,6 @@ ht-degree: 10%
 * **[!UICONTROL 권한]**: 할당된 승인을 정의할 수 있는 단일 권한 **[!UICONTROL 역할]**. 각 권한은 리소스(예: 여정 또는 오퍼)에 수집되며, 이는 의 다양한 기능 또는 개체를 나타냅니다. [!DNL Journey Optimizer]. 다음을 참조하십시오. [권한 수준](high-low-permissions.md) 섹션.
 
 * **[!UICONTROL 샌드박스]**: 인스턴스를 별도의 격리된 가상 환경으로 분할하는 가상 샌드박스 다음을 참조하십시오. [샌드박스 사용](sandboxes.md).
-
-각 개념은 다음을 통해 관리할 수 있습니다. **[!UICONTROL 제품 관리자]** 관리 콘솔에 액세스할 수 있습니다. [Adobe Admin Console에 대한 자세한 내용을 살펴보십시오](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html).
 
 ![](assets/do-not-localize/permissions_2.png)
 
