@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: IP 준비 캠페인 만들기
+title: IP 워밍업 캠페인 만들기
 description: IP 준비 캠페인을 만드는 방법을 알아봅니다.
 feature: Application Settings
 topic: Administration
@@ -10,18 +10,19 @@ level: Intermediate
 keywords: IP, 풀, 전달성
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# IP 준비 캠페인 만들기 {#create-ip-warmup-campaign}
+# IP 워밍업 캠페인 만들기 {#create-ip-warmup-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
->title="IP 준비 계획 옵션 활성화"
+>title="IP 워밍업 플랜 활성화 옵션"
 >abstract="이 옵션을 선택하면 IP 준비 계획에 캠페인을 사용할 수 있습니다. 그런 다음 캠페인 일정은 연결된 IP 준비 계획에 따라 결정됩니다."
 
 >[!BEGINSHADEBOX]
@@ -29,7 +30,7 @@ ht-degree: 3%
 이 설명서의 내용:
 
 * [IP 준비 시작](ip-warmup-gs.md)
-* **[IP 준비 캠페인 만들기](ip-warmup-campaign.md)**
+* **[IP 워밍업 캠페인 만들기](ip-warmup-campaign.md)**
 * [IP 준비 계획 만들기](ip-warmup-plan.md)
 * [IP 준비 계획 실행](ip-warmup-execution.md)
 
@@ -82,4 +83,3 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 라이브가 되면 캠페인이 IP 준비 계획에 사용할 준비가 되었습니다. [자세히 알아보기](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
-

@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 5%
+ht-degree: 17%
 
 ---
 
@@ -19,9 +20,9 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
->title="결정이란 무엇입니까?"
->abstract="의사 결정 정책은 경험 의사 결정 엔진을 활용하여 대상에 따라 제공할 최상의 콘텐츠를 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="Experience Decisioning 정보"
+>title="의사 결정은 무엇입니까?"
+>abstract="결정 정책은 경험 결정 엔진을 활용하여 대상자에 따라 게재할 최고의 콘텐츠를 선택합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="경험 결정 정보"
 
 >[!BEGINSHADEBOX]
 
@@ -51,17 +52,17 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="반환할 항목 수 정의"
->abstract="반환할 결정 항목의 수를 선택합니다. 예를 들어 2를 선택하면 현재 표면에 대해 가장 적합한 2개의 오퍼가 표시됩니다."
+>abstract="반환하려는 결정 항목의 수를 선택합니다. 예를 들어 항목 2개를 선택하면 현재 표면에 대한 적격 제안 2개가 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
 >title="대체 항목 선택"
->abstract="해당 결정 정책에 대해 정의된 선택 전략 중 어느 것도 충족되지 않은 경우 대체 항목이 사용자에게 표시됩니다."
+>abstract="해당 결정 정책에 정의된 선택 전략 중 어느 것도 적합하지 않은 경우 사용자에게 대체 항목이 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
->title="전략이란 무엇입니까?"
->abstract="선택 전략의 순서에 따라 어떤 전략을 먼저 평가할지 결정됩니다. 하나 이상의 전략이 필요합니다. 결합된 전략의 의사 결정 항목을 함께 평가할 것이다."
+>title="전략이란?"
+>abstract="선택 전략의 순서에 따라 먼저 평가할 전략을 결정합니다. 적어도 한 개의 전략이 필요합니다. 결합된 전략의 결정 항목을 동시에 평가합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="전략 만들기"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="평가 순서"
 
@@ -85,7 +86,7 @@ ht-degree: 5%
 
    ![](assets/decision-code-based-details.png)
 
-1. 반환할 항목 수를 선택합니다. 예를 들어 2를 선택하면 현재 표면에 대해 가장 적합한 2개의 오퍼가 표시됩니다. **[!UICONTROL 다음]**&#x200B;을 클릭합니다
+1. 반환할 항목 수를 선택합니다. 예를 들어 항목 2개를 선택하면 현재 표면에 대한 적격 제안 2개가 표시됩니다. **[!UICONTROL 다음]**&#x200B;을 클릭합니다
 
 1. 사용 **[!UICONTROL 전략 추가]** 단추를 클릭하여 의사 결정 정책에 대한 선택 전략을 정의합니다. 각 전략은 자격 제한 사항과 관련된 오퍼 컬렉션 및 표시할 오퍼를 결정하는 등급 메서드로 구성됩니다. [자세히 알아보기](selection-strategies.md)
 
@@ -93,7 +94,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >하나 이상의 전략이 필요합니다. 10개 이상의 전략을 추가할 수 없습니다.
+   >적어도 한 개의 전략이 필요합니다. 10개 이상의 전략을 추가할 수 없습니다.
 
 1. 다음에서 **[!UICONTROL 전략 추가]** 화면에서 전략을 만들 수도 있습니다. 다음 **[!UICONTROL 선택 전략 만들기]** 버튼은 사용자를 로 리디렉션합니다. **[!UICONTROL Experience decisioning]** > **[!UICONTROL 구성]** 메뉴 아래의 제품에서 사용할 수 있습니다. [자세히 알아보기](selection-strategies.md)
 

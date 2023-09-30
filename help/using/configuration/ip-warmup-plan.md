@@ -10,10 +10,11 @@ level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 4%
 이 설명서의 내용:
 
 * [IP 준비 시작](ip-warmup-gs.md)
-* [IP 준비 캠페인 만들기](ip-warmup-campaign.md)
+* [IP 워밍업 캠페인 만들기](ip-warmup-campaign.md)
 * **[IP 준비 계획 만들기](ip-warmup-plan.md)**
 * [IP 준비 계획 실행](ip-warmup-execution.md)
 
@@ -110,15 +111,15 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
->title="IP 준비 계획 지정"
->abstract="CSV 템플릿을 다운로드하고 IP 웜업 단계 및 대상 프로필 수에 대한 데이터로 채웁니다."
+>title="IP 워밍업 플랜 지정"
+>abstract="CSV 템플릿을 다운로드하고 IP 워밍업 단계에 대한 데이터와 타겟 프로필 수로 채웁니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="마케팅 표면 선택"
->abstract="IP 준비 계획과 연결할 캠페인에서 선택한 서피스와 동일한 서피스를 선택해야 합니다."
+>abstract="IP 워밍업 플랜과 연결하려는 캠페인에서 선택한 것과 동일한 표면을 선택해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="채널 표면 설정"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP 준비 캠페인 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP 워밍업 캠페인 만들기"
 
 하나 이상의 라이브 캠페인이 **[!UICONTROL IP 준비 계획 활성화]** 활성화된 옵션이 활성화되면 IP 준비 계획과 연결할 수 있습니다.
 
@@ -138,7 +139,7 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
    >[!CAUTION]
    >
-   >IP 준비 계획과 연결할 캠페인에서 선택한 서피스와 동일한 서피스를 선택해야 합니다. [IP 준비 캠페인을 만드는 방법을 알아봅니다.](ip-warmup-campaign.md)
+   >IP 워밍업 플랜과 연결하려는 캠페인에서 선택한 것과 동일한 표면을 선택해야 합니다. [IP 준비 캠페인을 만드는 방법을 알아봅니다.](ip-warmup-campaign.md)
 
 1. IP 준비 계획이 포함된 Excel 파일을 업로드합니다. [자세히 알아보기](#prepare-file)
 

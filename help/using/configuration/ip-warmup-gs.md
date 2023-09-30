@@ -10,10 +10,11 @@ level: Experienced
 keywords: IP, 전달성
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +32,7 @@ ht-degree: 7%
 이 설명서의 내용:
 
 * **[IP 준비 시작](ip-warmup-gs.md)**
-* [IP 준비 캠페인 만들기](ip-warmup-campaign.md)
+* [IP 워밍업 캠페인 만들기](ip-warmup-campaign.md)
 * [IP 준비 계획 만들기](ip-warmup-plan.md)
 * [IP 준비 계획 실행](ip-warmup-execution.md)
 

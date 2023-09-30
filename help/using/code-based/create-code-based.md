@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -69,8 +70,8 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
 >title="표현식 편집기 사용"
->abstract="이 코드 기반 경험 작업의 일부로 제공할 코드를 삽입하고 편집합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="표현식 편집기 시작"
+>abstract="이 코드 기반 경험 액션의 일부로 게재하려는 코드를 삽입하고 편집합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="표현식 편집기 시작하기"
 
 1. Campaign Edition 화면에서 다음을 선택합니다. **[!UICONTROL 코드 편집]**.
 
@@ -104,8 +105,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="코드 기반 경험 미리 보기"
->abstract="코드 기반 환경의 모습을 시뮬레이션해 봅니다."
+>title="코드 기반 경험 미리보기"
+>abstract="코드 기반 경험이 어떻게 시각화되는지 시뮬레이션을 수행합니다."
 
 수정된 코드 기반 경험의 미리보기를 표시하려면 아래 단계를 따르십시오.
 
