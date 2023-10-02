@@ -5,9 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
+source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '464'
 ht-degree: 3%
 
 ---
@@ -22,7 +23,9 @@ ht-degree: 3%
 >abstract="변경 사항은 선택한 보기에 대해서만 적용됩니다. 보기를 검색할 수 있는 방법은 다음과 같습니다. **찾아보기** 을 클릭하고 해당 페이지로 이동합니다. 원하는 보기를 찾을 수 없습니까?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="추가 정보"
 
-**단일 페이지 애플리케이션** (SPA)는 이제 웹 디자이너 비주얼 편집기에서 작성할 수 있습니다. 이를 통해 웹 페이지 수정 사항을 적용할 특정 보기를 선택할 수 있습니다.
+**단일 페이지 애플리케이션** (SPA)는 이제 웹 디자이너 비주얼 편집기에서 작성할 수 있습니다. 이를 통해 특정 항목을 선택할 수 있습니다 **조회수** 웹 페이지 수정 사항을에 적용하려고 합니다.
+
+[이 비디오에서는 단일 페이지 애플리케이션을 제작하는 방법에 대해 알아봅니다](#video)
 
 보기는 전체 사이트 또는 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다.
 
@@ -77,3 +80,14 @@ Adobe Experience Platform Web SDK 구현에서 SPA 설정이 완료되면 수정
 1. 다음으로 교체 **[!UICONTROL 찾아보기]** 원하는 페이지에 수정 사항이 적용되었는지 확인하는 모드입니다.
 
    ![](assets/web-designer-modifications-applied-view.png)
+
+## 방법 비디오{#video}
+
+이 비디오에서는 다음 방법을 설명합니다.
+
+* 다음을 사용하여 SPA 보기 검색 **[!UICONTROL 찾아보기]** 모드
+* 현재 보기에서 작성 수행
+* 여러 보기 또는 검색된 모든 보기에 웹 사이트 수정 적용
+* 수정 시 일괄 작업 수행
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

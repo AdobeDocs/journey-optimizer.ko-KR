@@ -4,9 +4,9 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3711'
 ht-degree: 90%
 
 ---
@@ -20,16 +20,14 @@ ht-degree: 90%
 * 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2023년 9월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 크기 조정 모범 사례 및 실시간 결합 지침과 함께 새 페이지가 추가되었습니다. [자세히 보기](../start/best-practices.md)
 
-<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+  <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
 * 전송 시간 최적화를 위해 FAQ 섹션이 추가되었습니다. [자세히 보기](../building-journeys/journeys-message.md#faq-send-time)
 * 대상자 자격 활동에 대한 메모가 추가되었습니다. 최대 10분이 소요될 수 있으며 대상자를 들어오거나 나가는 프로필을 청취합니다. [자세히 보기](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * 결정 규칙을 만들 때 알아야 할 제한 사항 목록이 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/creating-decision-rules.md)
 * 액세스 제어 설명서에 대한 링크가 업데이트되었습니다. [자세히 보기](../administration/permissions.md)
 * Adobe Experience Platform 데이터 수집 세부 사항으로 인앱 채널 사전 요구 사항이 업데이트되었습니다. [자세히 보기](../in-app/inapp-configuration.md)
-
-
-
+* 등급 수식 예제에 제공된 일부 식이 유효성 검사 오류를 방지하기 위해 업데이트되었습니다. [자세히 보기](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 ## 2023년 8월 {#august-2023}
 
@@ -42,7 +40,6 @@ ht-degree: 90%
 * **콘텐츠 템플릿으로 작업하기** 페이지에 이메일 콘텐츠 템플릿을 테스트할 때 현재 추적이 지원되지 않음을 나타내는 경고가 추가되었습니다. 추적을 테스트하려면 이메일의 콘텐츠 템플릿을 사용하고 증명을 보내야 합니다. [자세히 보기](../email/content-templates.md#test-template)
 * **랜딩 페이지 만들기 및 게시** 섹션에 몇 가지 경고가 추가되었습니다. 페이지가 게시되었더라도 페이지를 만들 때 정의된 URL을 웹 브라우저에 단순히 복사하여 붙여넣으면 랜딩 페이지에 액세스할 수 없음을 명시하고 있습니다. 대신 미리보기 기능을 사용하여 테스트할 수 있습니다. [자세히 보기](../landing-pages/create-lp.md)
 * 다이렉트 메일 채널에서의 **동의 관리** 방법에 대한 새로운 섹션을 추가했습니다. [자세히 보기](../direct-mail/test-send-direct-mail.md)
-
 
 ## 2023년 7월 {#july-2023}
 

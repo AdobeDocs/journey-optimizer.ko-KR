@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-exl-id: da12c416-3dcb-4c45-806c-ebe298c386f4
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
+source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '952'
 ht-degree: 7%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 7%
 
 웹 디자이너를 사용하여 페이지를 편집할 때 **[!UICONTROL 수정 사항]** 창 - 구성 요소를 선택하고 웹 디자이너 인터페이스에서 편집할 필요가 없습니다. 아래 단계를 수행합니다.
 
-1. 다음에서 **[!UICONTROL 수정 사항]**&#x200B;를 클릭하고 **[!UICONTROL 추가 작업]** 단추를 클릭합니다.
+1. 다음에서 **[!UICONTROL 수정 사항]** 창에서 **[!UICONTROL 추가 작업]** 단추를 클릭합니다.
 
 1. 선택 **[!UICONTROL 수정 사항 추가]**.
 
@@ -66,7 +66,7 @@ ht-degree: 7%
 
 1. 수정 유형을 선택합니다.
 
-   * **[!UICONTROL CSS 선택기]**- [자세히 알아보기](#css-selector)
+   * **[!UICONTROL CSS 선택기]** - [자세히 알아보기](#css-selector)
    * **[!UICONTROL 페이지`<Head>`]** - [자세히 알아보기](#page-head)
 
 1. 콘텐츠 입력 및 **[!UICONTROL 저장]** 변경 사항.
@@ -184,4 +184,3 @@ ht-degree: 7%
 를 사용하는 경우 **[!UICONTROL 페이지`<head>`]** 수정 유형 동일한 URL에 영향을 주는 두 캠페인에 대해 JavaScript는 두 캠페인의 페이지에 삽입됩니다. [!DNL Journey Optimizer] 게재된 콘텐츠의 순서를 자동으로 결정합니다. 코드가 배치에 따라 달라지지 않는지 확인하십시오. 코드에 충돌이 없는지 확인하는 것은 귀하의 책임입니다.
 
 +++
-
