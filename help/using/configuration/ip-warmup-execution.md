@@ -11,9 +11,9 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1696'
 ht-degree: 3%
 
 ---
@@ -138,11 +138,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 선택적으로, 세분화 작업이 지연되는 경우 IP 웜업 캠페인을 실행할 수 있는 시간 창을 정의할 수 있습니다. 이렇게 하려면 계획 이름 옆에 있는 왼쪽 상단의 등록 정보 아이콘을 누르고 **[!UICONTROL 재시도 실행 시간]** 드롭다운 목록에서 지속 시간을 선택합니다(최대 240분(4시간)).
+1. 선택적으로, 에 지연이 있을 경우 IP 웜업 캠페인을 실행할 수 있는 시간 창을 정의할 수 있습니다. [세분화](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} 작업. 이렇게 하려면 계획 이름 옆에 있는 왼쪽 상단의 등록 정보 아이콘을 누르고 **[!UICONTROL 재시도 실행 시간]** 드롭다운 목록에서 지속 시간을 선택합니다(최대 240분(4시간)).
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
-   예를 들어 지정된 일에 전송 시간을 오후 9시로 설정하고 120분을 다시 시도 실행 시간으로 선택하면 세분화 작업을 실행하는 데 2시간의 기회 창이 허용됩니다.
+   예를 들어, 지정된 일에 전송 시간을 오전 9시로 설정하고 120분을 다시 시도 실행 시간으로 선택하면 세분화 작업을 실행하는 데 2시간(오전 9시 - 오전 11시)의 기회 창이 허용됩니다.
 
    >[!NOTE]
    >
@@ -158,7 +158,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. **[!UICONTROL 활성화]** 달리기. [자세히 알아보기](#activate-run)
 
-1. 이 실행의 상태가 (으)로 변경됩니다. **[!UICONTROL 라이브]**. 다양한 실행 상태가 다음에 나열됩니다. [이 섹션](#monitor-plan). 캠페인 실행이 시작되지 않은 경우 라이브 실행을 중단할 수 있습니다.<!--why?-->
+1. 이 실행의 상태가 (으)로 변경됩니다. **[!UICONTROL 라이브]**. 다양한 실행 상태가 다음에 나열됩니다. [이 섹션](#monitor-plan).
+
+1. 캠페인 실행이 시작되지 않은 경우 라이브 실행을 중단할 수 있습니다.<!--why?-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -166,7 +168,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >캠페인 실행이 시작되면 **[!UICONTROL 중지]** 버튼을 사용할 수 없게 됩니다.
 
-1. 실행을 추가하려면 다음을 선택합니다. **[!UICONTROL 아래에 실행 추가]** 점 세 개 아이콘에서
+1. 실행을 추가하려면 다음을 선택합니다. **[!UICONTROL 아래에 실행 추가]** 추가 작업 아이콘에서 참조할 수 있습니다.
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
@@ -174,7 +176,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 실행을 활성화하려면 **[!UICONTROL 활성화]** 단추를 클릭합니다.
 
-세분화 작업을 실행할 시간을 충분히 예약했는지 확인하십시오.
+을(를) 허용할 충분한 시간을 예약했는지 확인하십시오. [세분화](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} 실행할 작업입니다.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -182,17 +184,17 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >
 >각 실행은 실제 전송 시간보다 최소 12시간 전에 활성화되어야 합니다. 그렇지 않으면 세그먼테이션이 완료되지 않을 수 있습니다.
 
-실행을 활성화하면 다음과 같은 여러 세그먼트가 자동으로 만들어집니다.
+실행을 활성화하면 여러 세그먼트가 자동으로 만들어집니다.
 
 * 단계의 첫 번째 실행을 활성화하는 경우:
 
-   * 제외된 캠페인 대상자에 대해 세그먼트가 만들어집니다(있는 경우).
+   * A [세그먼트](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} 제외된 캠페인 대상자에 대해 만들어집니다(있는 경우).
    * 제외된 도메인 그룹에 대해 다른 세그먼트가 만들어집니다(있는 경우).
 
 * 모든 실행을 활성화할 때:
 
    * 마지막 참여 필터에 대해 다른 세그먼트가 만들어집니다.
-   * 캠페인이 전송될 대상자에 해당하는 대상자 구성이 만들어집니다.
+   * An [대상자 구성](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko){target="_blank"} 은 캠페인이 전송될 대상자에 따라 생성됩니다.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
@@ -200,14 +202,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
 
-
 ## 플랜 관리 {#manage-plan}
 
 어느 시점에서 IP 준비 계획이 예상대로 수행되지 않으면 아래 작업을 수행할 수 있습니다.
 
 ### 단계 분할 {#split-phase}
 
-특정 실행에서 시작하는 새 단계를 추가하려면 다음을 선택합니다. **[!UICONTROL 새 단계로 분할 옵션]** 점 세 개 아이콘에서
+특정 실행에서 시작하는 새 단계를 추가하려면 다음을 선택합니다. **[!UICONTROL 새 단계로 분할 옵션]** 추가 작업 아이콘에서 참조할 수 있습니다.
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -257,7 +258,7 @@ IP 준비 계획이 예상대로 수행되지 않는 경우(예: 일부 ISP에�
 
 * 초기 IP 웜업 계획으로 2단계는 9번의 실행을 수행했습니다.
 
-* 4개의 실행이 실행되었습니다(실패, 완료 또는 취소의 경우 상관 없음 - 실행이 시도된 경우 실행됨).
+* 4개의 실행이 실행되었습니다(실패, 완료 또는 취소의 경우 상관 없음).<!--as long as a run has been attempted, it is an executed run-->).
 
 * 새 계획을 다시 업로드하면 처음 실행된 4번의 실행이 있는 단계 2가 읽기 전용 모드로 전환됩니다.
 
@@ -276,5 +277,5 @@ IP 워밍업 계획 자체가 한 곳에서 통합 보고서 역할도 한다. �
 * **[!UICONTROL 초안]** : 실행이 생성될 때마다 [새 계획 생성](ip-warmup-plan.md) 또는 [실행 추가](#define-runs) 사용자 인터페이스에서 **[!UICONTROL 초안]** 상태.
 * **[!UICONTROL 라이브]**: 실행을 활성화할 때마다 **[!UICONTROL 라이브]** 상태.
 * **[!UICONTROL 완료됨]**: 이 실행에 대한 캠페인 실행이 완료되었습니다. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL 취소됨]**: a **[!UICONTROL 라이브]** 을(를) 사용하여 실행이 취소되었습니다. **[!UICONTROL 중지]** 단추를 클릭합니다. 이 버튼은 캠페인 실행이 시작되지 않은 경우에만 사용할 수 있습니다. [자세히 알아보기](#define-runs)
+* **[!UICONTROL 취소됨]**: a **[!UICONTROL 라이브]** 을(를) 사용하여 실행이 취소되었습니다. **[!UICONTROL 중지]** 단추 또는 를 활성화한 경우 **[!UICONTROL 오류 발생 시 일시 중지]** 옵션과 오류가 발생했습니다. [자세히 알아보기](#define-runs)
 * **[!UICONTROL 실패]**: 시스템에서 오류가 발생하거나 현재 단계에 사용되는 캠페인이 중지되었습니다. 실행이 실패할 경우 다음 날 다른 실행을 예약할 수 있습니다.

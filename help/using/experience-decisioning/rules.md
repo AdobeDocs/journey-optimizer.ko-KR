@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
+source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 5%
+source-wordcount: '283'
+ht-degree: 6%
 
 ---
 
@@ -37,6 +38,8 @@ ht-degree: 5%
 의사 결정 규칙을 사용하면 의사 결정 항목 수준에서 직접 또는 특정 선택 전략 내에서 제한을 적용하여 의사 결정 항목의 대상자를 정의할 수 있습니다. 이를 통해 어떤 항목을 누구에게 제시해야 하는지 정확하게 제어할 수 있습니다.
 
 예를 들어, 여성을 위해 디자인된 요가 관련 제품을 갖춘 의사 결정 항목이 있는 시나리오를 생각해 보자. 의사 결정 규칙을 사용하면 이러한 항목이 성별이 &#39;여성&#39;이고 &#39;요가&#39;에서 &#39;관심 영역&#39;을 표시한 프로필에만 표시되도록 지정할 수 있습니다.
+
+항목 및 선택 전략 수준 결정 규칙 외에도 캠페인 수준에서 의도한 대상자에 대한 추가 매개 변수를 만들 수도 있습니다. [자세히 알아보기](../campaigns/create-campaign.md)
 
 의사 결정 규칙 목록은 **[!UICONTROL 구성]** / **[!UICONTROL 의사 결정 규칙]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
