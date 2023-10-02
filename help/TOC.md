@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c5c7d4d050958fac9b91e2a2a4c4a7a6640d1f06
+source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 93%
@@ -204,10 +204,10 @@ ht-degree: 93%
       + [이메일 표면 설정 구성](using/email/email-settings.md)
 + 인앱 채널{#in-app}
    + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
+   + [인앱 채널 사전 요구 사항](using/in-app/inapp-configuration.md)
    + [인앱 메시지 만들기 ](using/in-app/create-in-app.md)
    + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
    + [인앱 알림 테스트하고 보내기](using/in-app/send-in-app.md)
-   + [인앱 채널 구성](using/in-app/inapp-configuration.md)
 + 푸시 알림 채널{#push}
    + [푸시 알림 시작](using/push/get-started-push.md)
    + [푸시 알림 만들기](using/push/create-push.md)
@@ -468,7 +468,7 @@ ht-degree: 93%
       + [IP 풀 만들기](using/configuration/ip-pools.md)
    + IP 준비 계획 구현 {#implement-ip-warmup-plan}
       + [IP 준비 계획 시작](using/configuration/ip-warmup-gs.md)
-      + [IP 준비 캠페인 만들기](using/configuration/ip-warmup-campaign.md)
+      + [IP 워밍업 캠페인 만들기](using/configuration/ip-warmup-campaign.md)
       + [IP 준비 계획 만들기](using/configuration/ip-warmup-plan.md)
       + [IP 준비 계획 실행](using/configuration/ip-warmup-execution.md)
    + 이메일 주소 모니터링 {#monitor-reputation}

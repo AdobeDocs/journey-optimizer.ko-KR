@@ -4,7 +4,7 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
 workflow-type: tm+mt
 source-wordcount: '4086'
 ht-degree: 86%
@@ -90,7 +90,7 @@ ht-degree: 86%
 <tr>
 <td>
 <p>이 새로운 기능을 사용하면 푸시 자격 증명을 앱 표면의 전용 샌드박스와 쉽게 관리하고 연결할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../in-app/inapp-configuration.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../in-app/inapp-configuration.md#channel-prerequisites">자세한 설명서</a>를 참조하세요.</p>
 </tr>
 </tbody>
 </table>
