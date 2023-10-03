@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
+source-git-commit: 18d44b689a524dc2b031a32b8b79ac755d680e23
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2225'
 ht-degree: 2%
 
 ---
@@ -123,6 +123,12 @@ ht-degree: 2%
    이제 동일한 순위를 가지므로 동시에 평가됩니다. [자세히 알아보기](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
+
+   >[!CAUTION]
+   >
+   >* If [AI 모델](../ranking/ai-models.md) 는 평가 기준 그룹에 사용되며 해당 그룹의 모든 평가 기준은 AI 등급 방법을 사용해야 하며 동일한 특정 AI 모델을 사용해야 합니다.
+   >
+   >* 하나의 평가 기준 그룹만 AI 모델을 사용할 수 있습니다. 결정 범위 내의 다른 모든 그룹은 다른 순위 방법(우선순위 또는 공식)을 사용해야 합니다. [등급 방법에 대해 자세히 알아보기](../offer-activities/configure-offer-selection.md)
 
 1. 이 결정의 일부로 오퍼에 대한 다른 배치를 추가하려면 다음을 사용하십시오. **[!UICONTROL 새 범위]** 단추를 클릭합니다. 각 결정 범위에 대해 위의 단계를 반복합니다.
 
@@ -320,7 +326,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->여정 메시지에 사용 중인 여정 결정이 변경되는 경우 오퍼 게시를 취소하고 다시 게시해야 합니다.  이렇게 하면 변경 사항이 여정 메시지에 통합되고 메시지가 최신 업데이트와 일관되게 표시됩니다.
+>여정의 메시지에 사용 중인 오퍼 의사 결정이 변경되는 경우 여정 게시를 취소하고 다시 게시해야 합니다.  이렇게 하면 변경 사항이 여정 메시지에 통합되고 메시지가 최신 업데이트와 일관되게 표시됩니다.
 
 라이브 의사 결정을 선택하고 **[!UICONTROL 비활성화]** 결정 상태를 (으)로 다시 설정하려면 **[!UICONTROL 초안]**.
 
