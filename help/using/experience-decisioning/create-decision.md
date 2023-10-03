@@ -188,7 +188,7 @@ ht-degree: 17%
 >
 >코드 기반 경험은 [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
-1. + 아이콘을 클릭합니다. 결정 정책에 해당하는 코드가 추가됩니다. 이제 해당 코드 내에 원하는 모든 결정 특성을 추가할 수 있습니다.
+1. \+ 아이콘을 클릭합니다. 결정 정책에 해당하는 코드가 추가됩니다. 이제 해당 코드 내에 원하는 모든 결정 특성을 추가할 수 있습니다.
 
    ![](assets/decision-code-based-add-decision.png)
 
