@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 5%
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' 
 
 **응답**
 
-성공적인 응답은 고유 결정 규칙에 대한 정보를 포함하여 조회한 특정 결정 규칙의 세부 정보를 반환합니다 `@id`.
+성공적인 응답은 고유 결정 규칙에 대한 정보를 포함하여 조회한 특정 결정 규칙의 세부 정보를 반환합니다 `id`.
 
 ```json
   {

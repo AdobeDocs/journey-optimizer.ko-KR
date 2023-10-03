@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '156'
 ht-degree: 10%
 
 ---
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 **응답**
 
-성공적인 응답은 고유 인스턴스를 포함하여 대체 오퍼에 대한 업데이트된 세부 정보를 반환합니다 `id`.
+성공적인 응답은 해당 오퍼를 포함하여 업데이트된 대체 오퍼의 세부 정보를 반환합니다 `id`.
 
 ```json
 {

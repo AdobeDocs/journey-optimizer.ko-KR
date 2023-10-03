@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 439813d0e7430d2e009b1af6abb7a027b10a427c
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '157'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 10%
 | 헤더 이름 | 값 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **API 형식**
 
@@ -113,4 +112,4 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=personal
 
 ## 제한 사항 {#limitations}
 
-오퍼 표시 및 일부 오퍼 제한 사항은 현재 모바일에서 지원되지 않습니다. [!DNL Experience Edge] 워크플로(예: ) `Capping`. 다음 `Capping` 필드 값은 모든 사용자에게 오퍼를 제공할 수 있는 횟수를 지정합니다. 자세한 내용은 [오퍼 자격 규칙 및 제한 설명서](../../../offer-library/creating-personalized-offers.md).
+오퍼 표시 및 일부 오퍼 제한 사항은 현재 모바일에서 지원되지 않습니다. [!DNL Experience Edge] 워크플로(예: ) `Capping`. 다음 `Capping` 필드 값은 모든 사용자에게 오퍼를 제공할 수 있는 횟수를 지정합니다. 자세한 내용은 [오퍼 자격 규칙 및 제한 설명서](../../../../offers/offer-library/creating-personalized-offers.md).

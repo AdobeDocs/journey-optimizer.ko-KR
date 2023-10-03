@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 11%
+source-wordcount: '119'
+ht-degree: 12%
 
 ---
 
@@ -33,8 +33,7 @@ POST /{ENDPOINT_PATH}/offer-rules
 
 | 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 결정 규칙이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps/` |
 
 **요청**
 
@@ -69,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **응답**
 
-성공적인 응답은 배치를 포함하여 새로 생성된 결정 규칙에 대한 정보를 반환합니다 `id`. 다음을 사용할 수 있습니다. `id` 의사 결정 규칙을 업데이트하거나 삭제하거나 나중에 사용하는 자습서에서 의사 결정, 의사 결정 규칙 및 대체 오퍼를 만드는 방법을 참조하십시오.
+성공적인 응답은 새로 생성된 결정 규칙에 대한 정보를 반환합니다 `id`. 다음을 사용할 수 있습니다. `id` 의사 결정 규칙을 업데이트하거나 삭제하거나 나중에 사용하는 자습서에서 의사 결정, 의사 결정 규칙 및 대체 오퍼를 만드는 방법을 참조하십시오.
 
 ```json
 {

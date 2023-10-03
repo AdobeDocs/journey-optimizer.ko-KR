@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1656'
 ht-degree: 92%
 
 ---
@@ -428,12 +428,56 @@ ht-degree: 92%
             + [대체 오퍼 만들기](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [대체 오퍼 업데이트](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [대체 오퍼 삭제](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + API를 사용하여 오퍼를 만들고 관리하기 {#activities-api}
-         + [의사 결정 나열](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [의사 결정 조회](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [의사 결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
-         + [의사 결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
-         + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
+         + 결정 {#decisions-api}
+            + [의사 결정 나열](using/offers/api-reference/activities-api/activities/activities-list.md)
+            + [의사 결정 조회](using/offers/api-reference/activities-api/activities/lookup.md)
+            + [의사 결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
+            + [의사 결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
+            + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
+         + 이전 API {#legacy-api}
+            + [기존 API 정보](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+            + 배치 {#placements}
+               + [배치 나열](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
+               + [배치 조회](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
+               + [배치 만들기](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
+               + [배치 업데이트](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
+               + [배치 삭제](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
+            + 의사 결정 규칙 {#decision-rules}
+               + [의사 결정 규칙 나열](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
+               + [의사 결정 규칙 조회](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
+               + [의사 결정 규칙 만들기](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
+               + [의사 결정 규칙 업데이트](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
+               + [의사 결정 규칙 삭제](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
+            + 컬렉션 수식어 {#tags}
+               + [컬렉션 수식어 목록 만들기](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
+               + [컬렉션 수식어 조회](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
+               + [컬렉션 수식어 만들기](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
+               + [컬렉션 수식어 업데이트](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
+               + [컬렉션 수식어 삭제](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
+            + 개인화된 오퍼 {#personalized-offers}
+               + [개인화된 오퍼 나열](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
+               + [개인화된 오퍼 조회](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
+               + [개인화된 오퍼 만들기](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
+               + [개인화된 오퍼 업데이트](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
+               + [개인화된 오퍼 삭제](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
+            + 대체 오퍼 {#fallback-offers}
+               + [대체 오퍼 나열](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
+               + [대체 오퍼 조회](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
+               + [대체 오퍼 만들기](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
+               + [대체 오퍼 업데이트](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
+               + [대체 오퍼 삭제](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
+            + 컬렉션 {#collections}
+               + [컬렉션 나열](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
+               + [컬렉션 조회](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
+               + [컬렉션 만들기](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
+               + [컬렉션 업데이트](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
+               + [컬렉션 삭제](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
+            + 결정 {#decisions-api}
+               + [의사 결정 나열](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
+               + [의사 결정 조회](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
+               + [의사 결정 만들기](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
+               + [의사 결정 업데이트](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
+               + [의사 결정 삭제](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
       + API를 사용하여 오퍼 게재 {#offer-delivery-api}
          + [오퍼 게재 API 시작](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)

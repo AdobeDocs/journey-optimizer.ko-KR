@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 8%
 
 ---
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/placements/offerPlacement
 
 **응답**
 
-성공적인 응답은 고유한 인스턴스 ID와 배치를 포함하여 업데이트된 배치 세부 정보를 반환합니다 `id`.
+성공한 응답은 고유한 배치를 포함하여 업데이트된 배치 세부 정보를 반환합니다 `id`.
 
 ```json
 {

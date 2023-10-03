@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '154'
 ht-degree: 8%
 
 ---
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234
 
 **응답**
 
-성공적인 응답은 고유 인스턴스 ID 및 의사 결정 규칙을 포함하여 의사 결정 규칙의 업데이트된 세부 정보를 반환합니다 `@id`.
+성공적인 응답은 고유한 결정 규칙을 포함하여 결정 규칙의 업데이트된 세부 사항을 반환합니다 `id`.
 
 ```json
 {

@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '96'
 ht-degree: 13%
 
 ---
@@ -77,7 +77,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **응답**
 
-성공적인 응답은 고유한 인스턴스 ID 및 배치를 포함하여 새로 생성된 의사 결정에 대한 정보를 반환합니다 `@id`. 이후 단계에서 id를 사용하여 결정을 업데이트하거나 삭제할 수 있습니다.
+성공적인 응답은 고유한 사항을 포함하여 새로 생성된 결정에 대한 정보를 반환합니다 `id`. 다음을 사용할 수 있습니다. `id` 결정을 업데이트하거나 삭제하는 나중 단계.
 
 ```json
 {
