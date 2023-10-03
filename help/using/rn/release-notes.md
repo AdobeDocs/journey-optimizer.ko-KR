@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 854e5959eaa9a79bce28ab47752b36aa71373757
 workflow-type: tm+mt
-source-wordcount: '4086'
-ht-degree: 86%
+source-wordcount: '4121'
+ht-degree: 85%
 
 ---
 
@@ -99,9 +99,9 @@ ht-degree: 86%
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-<!--**Personalization**
+**개인화**
 
-* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
+* 이제 시각적 조각 외에도 표현식 편집기를 통해 Journey Optimizer 인터페이스에서 표현식 조각을 만들고, 저장하고, 다시 사용할 수 있습니다. 표현식 조각은 이전에 저장된 표현식을 대체합니다. [자세히 알아보기](../content-management/fragments.md#create-expression-fragment)
 
 <!--
 **Alerting**
