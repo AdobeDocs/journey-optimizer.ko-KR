@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
-workflow-type: ht
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
+workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 100%
 
@@ -74,9 +74,9 @@ ht-degree: 100%
 
 * **[!UICONTROL 자산]** - [!DNL Adobe Experience Manager Assets Essentials]은 메시지를 채우는 데 사용할 수 있는 자산의 중앙 집중식 저장소입니다. [자세히 보기](../content-management/assets-essentials.md)
 
-* **[!UICONTROL 콘텐츠 템플릿]** - 보다 빠르고 품질 높은 디자인 프로세스를 위해 Journey Optimizer 캠페인 및 여정 전반에서 사용자 정의 콘텐츠를 쉽게 재사용할 수 있는 독립 실행형 템플릿을 만듭니다. [자세히 알아보기](../email/content-templates.md)
+* **[!UICONTROL 콘텐츠 템플릿]** - 보다 빠르고 품질 높은 디자인 프로세스를 위해 Journey Optimizer 캠페인 및 여정 전반에서 사용자 정의 콘텐츠를 쉽게 재사용할 수 있는 독립 실행형 템플릿을 만듭니다. [자세히 알아보기](../content-management/content-templates.md)
 
-* **[!UICONTROL 조각]** - 보다 원활한 이메일 디자인 프로세스를 위해 조각을 만들고 관리합니다. 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 사용자 정의 콘텐츠 블록을 미리 작성해 봅니다. [자세히 보기](../email/fragments.md)
+* **[!UICONTROL 조각]** - 보다 원활한 이메일 디자인 프로세스를 위해 조각을 만들고 관리합니다. 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 사용자 정의 콘텐츠 블록을 미리 작성해 봅니다. [자세히 보기](../content-management/fragments.md)
 
 ### [!UICONTROL 데이터 관리] {#left-nav-data}
 

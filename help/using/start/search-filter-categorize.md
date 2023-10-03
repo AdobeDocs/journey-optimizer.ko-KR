@@ -7,8 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
@@ -55,8 +55,8 @@ Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/doc
 
 * [여정](../building-journeys/journey-gs.md#change-properties)
 * [캠페인](../campaigns/create-campaign.md#create)
-* [템플릿](../email/content-templates.md)
-* [조각](../email/fragments.md)
+* [템플릿](../content-management/content-templates.md)
+* [조각](../content-management/fragments.md)
 * [구독 목록](../landing-pages/subscription-list.md)
 * [랜딩 페이지](../landing-pages/create-lp.md)
 

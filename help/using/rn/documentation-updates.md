@@ -4,7 +4,7 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '3711'
 ht-degree: 90%
@@ -37,7 +37,7 @@ ht-degree: 90%
 * Offer Decisioning **데이터 세트 내보내기**&#x200B;가 이제 기본적으로 활성화되어 있습니다. 이전 동작에 대한 메모는 제거했습니다.  [자세히 보기](../offers/export-catalog/get-started-export.md)
 * 라이브 및 글로벌 보고서 모두에서 다양한 **캠페인 보고서 지표**&#x200B;의 이름이 변경되었습니다. [자세히 보기](../reports/campaign-global-report.md)
 * 웹 채널의 콘텐츠 실험 전제 조건에 새 섹션이 추가되었습니다. [자세히 보기](../web/web-prerequisites.md#experiment-prerequisites)
-* **콘텐츠 템플릿으로 작업하기** 페이지에 이메일 콘텐츠 템플릿을 테스트할 때 현재 추적이 지원되지 않음을 나타내는 경고가 추가되었습니다. 추적을 테스트하려면 이메일의 콘텐츠 템플릿을 사용하고 증명을 보내야 합니다. [자세히 보기](../email/content-templates.md#test-template)
+* **콘텐츠 템플릿으로 작업하기** 페이지에 이메일 콘텐츠 템플릿을 테스트할 때 현재 추적이 지원되지 않음을 나타내는 경고가 추가되었습니다. 추적을 테스트하려면 이메일의 콘텐츠 템플릿을 사용하고 증명을 보내야 합니다. [자세히 보기](../content-management/content-templates.md#test-template)
 * **랜딩 페이지 만들기 및 게시** 섹션에 몇 가지 경고가 추가되었습니다. 페이지가 게시되었더라도 페이지를 만들 때 정의된 URL을 웹 브라우저에 단순히 복사하여 붙여넣으면 랜딩 페이지에 액세스할 수 없음을 명시하고 있습니다. 대신 미리보기 기능을 사용하여 테스트할 수 있습니다. [자세히 보기](../landing-pages/create-lp.md)
 * 다이렉트 메일 채널에서의 **동의 관리** 방법에 대한 새로운 섹션을 추가했습니다. [자세히 보기](../direct-mail/test-send-direct-mail.md)
 

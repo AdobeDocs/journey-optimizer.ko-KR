@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
-workflow-type: ht
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
    * 파일이나 .zip 폴더의 **기존 HTML 콘텐츠를 가져옵니다**. 이메일 콘텐츠를 가져오는 방법은 [이 섹션](existing-content.md)을 참조하십시오.
 
-   * 기본 제공 또는 사용자 정의 템플릿 목록에서 **기존 콘텐츠를 선택합니다**. 이메일 템플릿으로 작업하는 방법은 [이 섹션](email-templates.md)을 참조하십시오.
+   * 기본 제공 또는 사용자 정의 템플릿 목록에서 **기존 콘텐츠를 선택합니다**. 이메일 템플릿으로 작업하는 방법은 [이 섹션](../email/use-email-templates.md)을 참조하십시오.
 
    ![](assets/email_designer_create_options.png)
 

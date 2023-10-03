@@ -4,8 +4,8 @@ product: journey optimizer
 title: 2022년 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
-workflow-type: ht
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
+workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
 
@@ -514,7 +514,7 @@ ht-degree: 100%
 
 **이메일**
 
-* **템플릿으로 저장** - 이제 이메일 콘텐츠를 템플릿으로 저장하고 다른 메시지를 만들 때 다시 사용할 수 있습니다. [자세히 알아보기](../email/email-templates.md)
+* **템플릿으로 저장** - 이제 이메일 콘텐츠를 템플릿으로 저장하고 다른 메시지를 만들 때 다시 사용할 수 있습니다. [자세히 알아보기](../content-management/content-templates.md#save-as-template)
 
 
 **관리**
@@ -682,7 +682,7 @@ ht-degree: 100%
 
 **개인화**
 
-* 이제 라이브러리에 개인화 표현식을 40개 넘게 저장할 수 있습니다. [자세히 알아보기](../personalization/personalization-library.md)
+* 이제 라이브러리에 개인화 표현식을 40개 넘게 저장할 수 있습니다. [자세히 알아보기](../personalization/use-expression-fragments.md)
 
 ## 2022년 2월 릴리스 {#feb-2022-release}
 
@@ -714,7 +714,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 Journey Optimizer에서는 사전 정의된 개인화 표현식에 액세스할 수 있는 라이브러리를 제공합니다. 이 표현식은 [관리자]인 사용자가 구성합니다.</p>
-<p>자세한 내용은 <a href="../personalization/personalization-library.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../personalization/use-expression-fragments.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

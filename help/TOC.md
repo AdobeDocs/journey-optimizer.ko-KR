@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 93%
+source-wordcount: '1527'
+ht-degree: 92%
 
 ---
 
@@ -182,9 +182,10 @@ ht-degree: 93%
          + [처음부터 컨텐츠 만들기](using/email/content-from-scratch.md)
          + [콘텐츠 가져오기](using/email/existing-content.md)
          + [나만의 콘텐츠 코딩](using/email/code-content.md)
-         + [템플릿 작업](using/email/email-templates.md)
+         + [이메일 템플릿 사용](using/email/use-email-templates.md)
       + 콘텐츠 디자인 {#add-content}
          + [콘텐츠 구성 요소 사용](using/email/content-components.md)
+         + [시각적 조각 활용](using/email/use-visual-fragments.md)
          + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
          + [개인화된 오퍼 삽입](using/email/add-offers-email.md)
          + [텍스트 버전 생성](using/email/text-version-email.md)
@@ -195,9 +196,7 @@ ht-degree: 93%
          + [세로 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
          + [인라인 스타일 속성 추가](using/email/inline-styling.md)
    + [이메일 미리 보기 및 테스트](using/email/preview.md)
-   + [콘텐츠 템플릿 만들기](using/email/content-templates.md)
    + [Experience Manager 템플릿 사용](using/email/aem-templates.md)
-   + [조각을 사용한 작업](using/email/fragments.md)
    + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
    + 이메일 채널 구성 {#configure-email}
       + [이메일 구성 시작](using/email/get-started-email-config.md)
@@ -271,7 +270,7 @@ ht-degree: 93%
       + 표현식 편집기 작업 {#expression-editor}
          + [표현식 편집기 정보](using/personalization/personalization-build-expressions.md)
          + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
-         + [저장된 표현식으로 작업하기](using/personalization/personalization-library.md)
+         + [표현식 조각 사용](using/personalization/use-expression-fragments.md)
          + [개인화 유효성 검사](using/personalization/personalization-validation.md)
       + 도우미 함수{#functions}
          + [도우미 함수 시작](using/personalization/functions/functions.md)
@@ -288,6 +287,9 @@ ht-degree: 93%
       + 개인화 사용 사례{#personalization-use-cases}
          + [주문 상태 알림](using/personalization/personalization-use-case.md)
          + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
+   + 재사용 가능한 콘텐츠 관리 {#reusable-content}
+      + [콘텐츠 템플릿 작업](using/content-management/content-templates.md)
+      + [조각을 사용한 작업](using/content-management/fragments.md)
    + 다이내믹 콘텐츠 {#dynamic}
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)

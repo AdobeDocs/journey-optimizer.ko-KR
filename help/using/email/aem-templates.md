@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 3%
@@ -97,7 +97,7 @@ Journey Optimizer에서 Experience Manager 템플릿을 콘텐츠 템플릿으�
    >
    > 템플릿을 편집하고 개인화하려는 경우 호환성 모드만 사용할 수 있습니다.
 
-1. 콘텐츠 템플릿이 준비되면 [테스트 및 유효성 검사](content-templates.md#test-template).
+1. 콘텐츠 템플릿이 준비되면 [테스트 및 유효성 검사](../content-management/content-templates.md#test-template).
 
 1. 콘텐츠를 정의한 후에는 를 찾아 새 이메일을 만들 때 사용할 수 있습니다. **[!UICONTROL 저장된 템플릿]** 컬렉션. 그런 다음 을 선택합니다. **[!UICONTROL 이 템플릿 사용]**.
 
