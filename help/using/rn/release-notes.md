@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 854e5959eaa9a79bce28ab47752b36aa71373757
+source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
 workflow-type: tm+mt
-source-wordcount: '4121'
+source-wordcount: '4143'
 ht-degree: 85%
 
 ---
@@ -103,10 +103,9 @@ ht-degree: 85%
 
 * 이제 시각적 조각 외에도 표현식 편집기를 통해 Journey Optimizer 인터페이스에서 표현식 조각을 만들고, 저장하고, 다시 사용할 수 있습니다. 표현식 조각은 이전에 저장된 표현식을 대체합니다. [자세히 알아보기](../content-management/fragments.md#create-expression-fragment)
 
-<!--
-**Alerting**
+**경고**
 
-* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
+* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 대상자 읽기가 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md).
 
 **웹 채널**
 
