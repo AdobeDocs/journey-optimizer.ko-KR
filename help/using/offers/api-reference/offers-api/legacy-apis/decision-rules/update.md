@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 8%
+source-wordcount: '121'
+ht-degree: 9%
 
 ---
 
@@ -24,68 +24,52 @@ ht-degree: 8%
 | 헤더 이름 | 값 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
 **API 형식**
 
 ```http
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
+PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 대체 오퍼가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 결정 규칙이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 업데이트하려는 결정 규칙의 인스턴스 ID입니다. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
 **요청**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '{
-    "name": "Test Fallback Offer DPS",
-    "description": "Fallback Offer description",
-    "status": "approved",
-    "selectionConstraint": {
-        "startDate": "2022-06-10T00:30:00.000+00:00",
-        "endDate": "2032-06-06T23:29:21.402+00:00",
-        "profileConstraintType": "none"
-    },
-    "representations": [
-    {
-            "components": [
-    {
-                    "deliveryURL": "https://mysite.com",
-                    "type": "imagelink",
-                    "format": "image/png"
-                }
-            ],
-            "channel": "https://ns.adobe.com/xdm/channel-types/web",
-            "placement": "offerPlacement1234"
+curl -X PATCH \
+  'https://platform.adobe.io/data/core/xcore/ab574eca-f7a9-38d0-b3d9-297376ca9ee2/instances/eaa5af90-13d9-11eb-9472-194dee6dc381' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'\
+  -d '[
+        {
+        "op": "replace",
+        "path": "/_instance/xdm:name",
+        "value": "Sales and discounts rule"
         }
-    ],
-    "rank": {
-        "priority": 1
-    }
-}'
+    ]'
 ```
 
 **응답**
 
-성공적인 응답은 고유한 인스턴스 ID와 배치를 포함하여 새로 생성된 대체 오퍼에 대한 정보를 반환합니다 `@id`. 이후 단계에서 인스턴스 ID를 사용하여 대체 오퍼를 업데이트하거나 삭제할 수 있습니다. 고유한 대체 오퍼를 사용할 수 있습니다. `@id` 을(를) 참조하십시오.
+성공적인 응답은 고유 인스턴스 ID 및 의사 결정 규칙을 포함하여 의사 결정 규칙의 업데이트된 세부 정보를 반환합니다 `@id`.
 
 
 ```json
 {
-    "instanceId": "b3966680-13ec-11eb-9c20-8323709cfc65",
-    "@id": "xcore:fallback-offer:124e2e764b1ac1b9",
-    "repo:etag": 1,
-    "repo:createdDate": "2020-10-21T22:28:11.111732Z",
-    "repo:lastModifiedDate": "2020-10-21T22:28:11.111732Z",
+    "instanceId": "eaa5af90-13d9-11eb-9472-194dee6dc381",
+    "@id": "xcore:eligibility-rule:124e0faf5b8ee89b",
+    "repo:etag": 2,
+    "repo:createdDate": "2020-10-21T20:13:43.048666Z",
+    "repo:lastModifiedDate": "2020-10-21T20:25:43.705861Z",
     "repo:createdBy": "{CREATED_BY}",
     "repo:lastModifiedBy": "{MODIFIED_BY}",
     "repo:createdByClientId": "{CREATED_CLIENT_ID}",

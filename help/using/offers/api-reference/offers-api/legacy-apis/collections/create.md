@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 10%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
+
 
 # 컬렉션 만들기 {#create-collection}
 
@@ -35,7 +36,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 컬렉션이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **요청**
 
@@ -59,7 +61,7 @@ curl -X POST \
 
 **응답**
 
-응답이 성공하면 해당 항목을 포함하여 새로 만든 컬렉션에 대한 정보가 반환됩니다 `id`. 다음을 사용할 수 있습니다. `id` 컬렉션을 업데이트하거나 삭제하는 나중 단계 또는 결정을 만드는 나중 튜토리얼에서.
+응답이 성공하면 고유한 인스턴스 ID 및 배치를 포함하여 새로 만든 컬렉션에 대한 정보가 반환됩니다 `@id`. 이후 단계에서 인스턴스 ID를 사용하여 컬렉션을 업데이트하거나 삭제할 수 있습니다. 고유한 컬렉션을 사용할 수 있습니다. `@id` 을(를) 참조하십시오.
 
 ```json
 {
