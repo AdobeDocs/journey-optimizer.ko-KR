@@ -4,9 +4,9 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
+source-git-commit: c6f0e43fd2dacbc1aa79aee3605f6a30c5f9c7b4
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4141'
 ht-degree: 85%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 85%
 
 **경고**
 
-* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 대상자 읽기가 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md).
+* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 다음 경우에 알림을 받을 수 있습니다. **대상자 읽기** 활동이 실패합니다. [자세히 알아보기](../reports/alerts.md).
 
 **웹 채널**
 
@@ -117,7 +117,7 @@ ht-degree: 85%
 
 **여정**
 
-이제 여정을 복제할 때 여정 사본의 이름을 정의할 수 있습니다. [자세히 알아보기](../building-journeys/journey-gs.md#uplicate-a-journey)
+* 이제 여정을 복제할 때 여정 사본의 이름을 정의할 수 있습니다. [자세히 알아보기](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
@@ -127,7 +127,7 @@ ht-degree: 85%
 
 **이메일 채널**
 
-이메일 표면 구성의 새 옵션을 사용하면 이메일 주소가 Adobe에 있는 경우에도 프로필에 트랜잭션 메시지를 보내도록 선택할 수 있습니다 [!DNL Journey Optimizer] 비표시 목록. [자세히 알아보기](../email/email-settings.md#send-to-suppressed-email-addresses)
+* 이메일 표면 구성의 새 옵션을 사용하면 이메일 주소가 Adobe에 있는 경우에도 프로필에 트랜잭션 메시지를 보내도록 선택할 수 있습니다 [!DNL Journey Optimizer] 비표시 목록. [자세히 알아보기](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **SMS 채널**
 
@@ -137,15 +137,15 @@ ht-degree: 85%
 
 **DM 채널**
 
-이제 DM 공급자가 서버로 전송할 때 DM 공급자의 파일을 암호화할 수 있습니다. 이렇게 하려면 파일 라우팅 구성 화면에서 새 필드를 사용하여 암호화 키를 복사하여 붙여넣을 수 있습니다. [자세히 알아보기](../direct-mail/direct-mail-configuration.md)
+* 이제 DM 공급자가 서버로 전송될 때 해당 파일을 암호화할 수 있습니다. 이렇게 하려면 파일 라우팅 구성 화면에서 새 필드를 사용하여 암호화 키를 복사하여 붙여넣을 수 있습니다. [자세히 알아보기](../direct-mail/direct-mail-configuration.md)
 
 **보고**
 
-이제 Journey Optimizer 보고서를 CSV 파일로 내보낼 수 있습니다. 다음에서 자세히 알아보기 [자세한 설명서](../reports/global-report.md#export-reports) 및 [방법 비디오](../reports/global-report.md#video-csv).
+* 이제 Journey Optimizer 보고서를 CSV 파일로 내보낼 수 있습니다. 다음에서 자세히 알아보기 [자세한 설명서](../reports/global-report.md#export-reports) 및 [방법 비디오](../reports/global-report.md#video-csv).
 
 **자산**
 
-에셋에 대한 새 옵션을 사용하면 Journey Optimizer에서 에셋에 대한 저장소를 선택할 수 있습니다. 이 솔루션을 소유하고 있는 경우 Assets Essentials 저장소 또는 에셋 as a Cloud Service 저장소를 선택할 수 있습니다. [자세히 알아보기](../content-management/assets-essentials.md)
+* 에셋에 대한 새 옵션을 사용하면 Journey Optimizer에서 에셋에 대한 저장소를 선택할 수 있습니다. 이 솔루션을 소유하고 있는 경우 Assets Essentials 저장소 또는 에셋 as a Cloud Service 저장소를 선택할 수 있습니다. [자세히 알아보기](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
