@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
+source-git-commit: 623aa2ee317553eaebfb16c350a69672de2866a1
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->여러 줄 바꿈이 포함된 표현식 조각을 만들어 [SMS](../sms/create-sms.md#sms-content) 또는 [푸시](../push/design-push.md) 내용, 줄 바꿈이 유지됩니다. 따라서 을(를) 미리 보고 테스트하십시오. [SMS](../sms/send-sms.md) 또는 [푸시](../push/send-push.md) 메시지를 보내기 전에 메시지를 보냈습니다.
+>여러 줄 바꿈이 포함된 표현식 조각을 만들어 [SMS](../sms/create-sms.md#sms-content) 또는 [푸시](../push/design-push.md) 내용, 줄 바꿈이 유지됩니다. 따라서 다음을 테스트하십시오. [SMS](../sms/send-sms.md) 또는 [푸시](../push/send-push.md) 메시지를 보내기 전에 메시지를 보냈습니다.
 
 ## 상속 중단 {#break-inheritance}
 
