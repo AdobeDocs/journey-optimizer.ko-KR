@@ -6,9 +6,9 @@ description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: ef9d50ba9806ade40cfa9db7bb6b9e31274a208f
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1008'
 ht-degree: 16%
 
 ---
@@ -61,11 +61,11 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
 
       * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
 
-      * **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**: API 페이지에 액세스하면 SMS 탭 아래에서 자격 증명을 찾을 수 있습니다.  [자세히 알아보기](https://developers.sinch.com/docs/sms/getting-started/)
+      * **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**: API 페이지에 액세스하면 SMS 탭 아래에서 자격 증명을 찾을 수 있습니다.  [자세히 알아보기](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
 
       * **[!UICONTROL 옵트인 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **[!UICONTROL 옵트인 메시지]**.
 
-      * **[!UICONTROL 도움말 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **[!UICONTROL 도움말 메시지]**.
+      * **[!UICONTROL 도움말 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **도움말 메시지**.
 
    * 대상 **[!DNL Twilio]**:
 
@@ -73,13 +73,13 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
 
       * **[!UICONTROL 계정 SID]** 및 **[!UICONTROL 인증 토큰]**: Twilio 콘솔 대시보드 페이지의 계정 정보 창에 액세스하여 자격 증명을 찾을 수 있습니다.
 
-      * **[!UICONTROL 메시지 SID]**: Twilio의 API에서 만든 모든 메시지에 할당된 고유 식별자를 입력합니다. [자세히 알아보기](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+      * **[!UICONTROL 메시지 SID]**: Twilio의 API에서 만든 모든 메시지에 할당된 고유 식별자를 입력합니다. [자세히 알아보기](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
    * 대상 **[!DNL Infobip]**:
 
       * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
 
-      * **[!UICONTROL API 기본 URL]** 및 **[!UICONTROL API 토큰]**: 웹 인터페이스 홈 페이지 또는 API 키 관리 페이지에 액세스하여 자격 증명을 찾을 수 있습니다. [자세히 알아보기](https://www.infobip.com/docs/api)
+      * **[!UICONTROL API 기본 URL]** 및 **[!UICONTROL API 토큰]**: 웹 인터페이스 홈 페이지 또는 API 키 관리 페이지에 액세스하여 자격 증명을 찾을 수 있습니다. [자세히 알아보기](https://www.infobip.com/docs/api){target="_blank"}.
 
    ![](assets/sms_7.png)
 
