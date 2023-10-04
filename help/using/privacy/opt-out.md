@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -141,11 +141,11 @@ ht-degree: 100%
 
 1. 오른쪽의 전용 버튼을 사용하여 시작할 대상자를 추가합니다.
 
-1. &quot;+&quot; 아이콘을 클릭하고 **[!UICONTROL 분할]**&#x200B;을 선택하여 분할 대상자를 만듭니다. [분할 활동에 대해 자세히 알아보기](../audience/composition-canvas.md#split)
+1. 다음을 클릭합니다. **+** 아이콘 및 선택 **[!UICONTROL 분할]** 활동을 통해 분할 대상을 만들 수 있습니다. [분할 활동에 대해 자세히 알아보기](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
-1. 오른쪽 창에서 분할 유형으로 **[!UICONTROL 속성 분할]**&#x200B;을 선택합니다.
+1. 오른쪽 창에서 을(를) 선택합니다 **[!UICONTROL 속성 분할]** 를 분할 유형으로 사용하십시오.
 
    ![](assets/perso-consent-audience-attribute-split.png)
 

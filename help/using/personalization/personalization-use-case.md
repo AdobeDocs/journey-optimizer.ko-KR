@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 사용 사례, 개인화
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
    ![](assets/perso-uc2.png)
 
-1. 제목을 입력하고 프로필 개인화를 추가합니다. 검색창을 사용하여 프로필의 이름 필드를 찾습니다. 제목 텍스트에서 개인화 필드를 삽입할 위치에 커서를 놓고 **+** 아이콘. **저장**&#x200B;을 클릭합니다.
+1. 제목을 입력하고 프로필 개인화를 추가하십시오. 검색창을 사용하여 프로필의 이름 필드를 찾습니다. 제목 텍스트에서 개인화 필드를 삽입할 위치에 커서를 놓고 **+** 아이콘. **저장**&#x200B;을 클릭합니다.
 
    ![](assets/perso-uc3.png)
 
