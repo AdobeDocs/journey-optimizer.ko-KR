@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 0%
 
 표현식 편집기를 사용할 때 현재 샌드박스에 생성되거나 저장된 모든 표현식 조각을 활용할 수 있습니다.
 
->[!NOTE]
->
->에서 조각을 만들고 관리하는 방법 알아보기 [이 섹션](../content-management/fragments.md).
+에서 조각을 만들고 관리하는 방법 알아보기 [이 섹션](../content-management/fragments.md).
 
 ➡️ [이 비디오에서 조각을 관리, 작성 및 사용하는 방법을 알아봅니다.](../content-management/fragments.md#video-fragments)
 
@@ -68,6 +66,10 @@ ht-degree: 0%
 
 1. 그런 다음 의 모든 개인화 및 작성 기능을 사용하여 평소와 같이 콘텐츠를 맞춤화하고 유효성을 검사할 수 있습니다. [표현식 편집기](personalization-build-expressions.md).
 
+>[!NOTE]
+>
+>여러 줄 바꿈이 포함된 표현식 조각을 만들어 [SMS](../sms/create-sms.md#sms-content) 또는 [푸시](../push/design-push.md) 내용, 줄 바꿈이 유지됩니다. 따라서 을(를) 미리 보고 테스트하십시오. [SMS](../sms/send-sms.md) 또는 [푸시](../push/send-push.md) 메시지를 보내기 전에 메시지를 보냈습니다.
+
 ## 상속 중단 {#break-inheritance}
 
 표현식 편집기에 조각 ID를 추가하면 원래 표현식 조각에 대한 변경 사항이 동기화됩니다.
@@ -79,13 +81,4 @@ ht-degree: 0%
 이 경우 원본 조각의 상속이 끊어집니다. 조각의 콘텐츠가 편집기에 복사되며, 변경 사항은 더 이상 동기화되지 않습니다.
 
 이 요소는 더 이상 원본 조각에 연결되지 않는 독립 실행형 요소가 됩니다. 코드의 다른 요소로 편집할 수 있습니다.
-
-<!--
-TO REPLACE WITH UPDATED VIDEO ON EXPRESSION FRAGMENTS
-## How-to video{#video}
-
-Learn how to use saved personalization library items in a message and how to create and manage personalization library items.
-
->[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
--->
 
