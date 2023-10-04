@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '158'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 8%
 
 사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 다음을 참조하십시오. [JSON 패치 설명서](https://jsonpatch.com/).
 
-    @@ -19,61 +19,62 @@ 다음 표에서는 *콘텐츠 유형* 및
+## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
+
+다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 및 *Accept* 요청 헤더의 필드:
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
