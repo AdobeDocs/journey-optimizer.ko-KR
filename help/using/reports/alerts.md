@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
+source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
 
 # 경고 시작 {#alerts}
 
-## 경고 기능 {#alerting-capabilities}
+## 경고 액세스 및 구독 {#alerting-capabilities}
 
-사용자 인터페이스를 통해 시스템 경고에 액세스하거나 오류 발생 시 이메일을 받을 수 있습니다. 다음에서 **경고** 메뉴에서 사용 가능한 경고를 보고 구독할 수 있습니다. 작업의 특정 조건 세트에 도달하면(예: 시스템이 임계값을 위반한 경우 발생할 수 있는 문제) 경고 메시지가 이를 구독한 조직의 모든 사용자에게 전달됩니다.
+오류가 발생하면 Journey Optimizer 알림 센터에서 시스템 경고를 받고 이메일을 받을 수 있습니다. 다음에서 **경고** 메뉴에서 사용 가능한 경고를 보고 구독할 수 있습니다. 작업의 특정 조건 세트에 도달하면(예: 시스템이 임계값을 위반한 경우 발생할 수 있는 문제) 경고 메시지가 이를 구독한 조직의 모든 사용자에게 전달됩니다.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
