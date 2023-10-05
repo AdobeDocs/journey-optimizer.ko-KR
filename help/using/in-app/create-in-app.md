@@ -7,14 +7,19 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 12%
+source-wordcount: '1987'
+ht-degree: 11%
 
 ---
 
 # 인앱 메시지 만들기  {#create-in-app}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_triggers"
+>title="인앱 트리거 관리"
+>abstract="메시지를 활성화할 특정 이벤트와 기준을 선택하여 트리거를 효율적으로 제어합니다. 규칙 빌더를 사용하여 정확한 조건 및 값을 정의할 수 있습니다. 이러한 조건이 충족되면 인앱 메시지 전달을 비롯한 일련의 작업이 시작됩니다."
 
 캠페인 또는 여정에서 인앱 메시지를 추가할 수 있습니다. 아래 설명된 단계에 따라 두 컨텍스트에서 인앱 메시지를 만드십시오.
 

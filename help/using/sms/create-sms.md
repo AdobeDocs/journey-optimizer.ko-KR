@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 14%
+source-wordcount: '646'
+ht-degree: 13%
 
 ---
 
@@ -80,6 +80,11 @@ ht-degree: 14%
 >[!ENDTABS]
 
 ## SMS 콘텐츠 정의{#sms-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_sms_content"
+>title="SMS 콘텐츠 정의"
+>abstract="표현식 편집기를 사용하여 콘텐츠를 정의하고 동적 요소를 통합하여 SMS 메시지를 사용자 정의하고 개인화합니다."
 
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** SMS 콘텐츠를 구성하는 단추입니다.
 
