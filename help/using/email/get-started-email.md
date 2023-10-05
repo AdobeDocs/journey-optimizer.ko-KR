@@ -9,18 +9,19 @@ role: User
 level: Beginner
 keywords: 이메일, 시작, 만들기, 미리보기
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 93%
 
 ---
 
 # 이메일 사용 시작 {#get-started-email}
 
->[!IMPORTANT]
->
->이메일을 처음 만드는 경우 이메일 채널 구성을 완료했는지 확인해야 합니다. [자세히 알아보기](email-settings.md)
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card4"
+>title="이메일 디자인"
+>abstract="사용 **Adobe Journey Optimizer** (으)로 이메일을 보낼 수 있습니다. [이메일 디자이너]에서 메시지를 만들고 개인화하고 미리 볼 수 있습니다."
 
 [!DNL Journey Optimizer]로 고객에게 이메일을 보냅니다. [이메일 디자이너]에서 메시지를 만들고 개인화하고 미리 볼 수 있습니다.
 
@@ -34,10 +35,16 @@ ht-degree: 100%
 
   캠페인을 구성하는 자세한 방법은 이 [페이지](../campaigns/create-campaign.md#configure)를 참조하십시오.
 
+
+>[!IMPORTANT]
+>
+>이메일을 처음 만드는 경우 이메일 채널 구성을 완료했는지 확인해야 합니다. [자세히 알아보기](email-settings.md)
+
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-email.md">
-<img alt="리드" src="../assets/do-not-localize/email-create.jpeg">
+<img alt="만들기" src="../assets/do-not-localize/email-create.jpeg">
 </a>
 <div><a href="create-email.md"><strong>이메일 만들기</strong>
 </div>
@@ -45,7 +52,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="get-started-email-design.md">
-<img alt="드물게" src="../assets/do-not-localize/email-design.jpg">
+<img alt="설계" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
 <a href="get-started-email-design.md"><strong>이메일 디자인</strong></a>
@@ -53,7 +60,7 @@ ht-degree: 100%
 <p></td>
 <td>
 <a href="email-opt-out.md">
-<img alt="유효성 검사" src="../assets/do-not-localize/email-opt-out.jpg">
+<img alt="옵트아웃" src="../assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
 <a href="email-opt-out.md"><strong>이메일 옵트아웃 관리</strong></a>
@@ -62,7 +69,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="email-settings.md">
-<img alt="유효성 검사" src="../assets/do-not-localize/email-config.jpg">
+<img alt="메시지에 대한" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
 <a href="email-settings.md"><strong>이메일 채널 구성</strong></a>

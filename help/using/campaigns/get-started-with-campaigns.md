@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 96%
 
 ---
 
 # 캠페인 시작 {#get-started-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card3"
+>title="캠페인 만들기"
+>abstract="사용 **Adobe Journey Optimizer** 다양한 채널을 사용하여 특정 대상에게 일회성 콘텐츠를 전달할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다."
+
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"

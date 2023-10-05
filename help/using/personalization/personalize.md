@@ -9,14 +9,20 @@ role: Data Engineer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: f0a7f785a84cb53be0319284a4886841f6974e3d
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 25%
+source-wordcount: '411'
+ht-degree: 22%
 
 ---
 
 # 개인화 시작{#add-personalization}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card5"
+>title="경험 개인화"
+>abstract="사용 **Adobe Journey Optimizer** 에 대해 가지고 있는 데이터 및 정보를 활용하여 메시지를 각 수신자에게 맞게 조정할 수 있습니다. 이름, 관심사, 사는 곳, 산 물건 등이 될 수 있다."
+
 
 검색 [!DNL Adobe Journey Optimizer] 관련된 데이터 및 정보를 활용하여 메시지를 각 특정 수신자에게 적용하는 개인화 기능. 이름, 관심사, 사는 곳, 산 물건 등이 될 수 있다.
 
@@ -32,7 +38,7 @@ ht-degree: 25%
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-메시지(이메일 및 푸시)를 처리할 때 Journey Optimizer은 표현식을 Experience Platform 데이터베이스에 포함된 데이터로 대체합니다.  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` 는 &quot;Hello John Doe&quot;가 됩니다.
+메시지(이메일 및 푸시)를 처리할 때 Journey Optimizer은 표현식을 Experience Platform 데이터베이스에 포함된 데이터로 대체합니다.  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` 은 &quot;Hello John Doe&quot;가 됩니다.
 
 ## 프로필 데이터를 활용하여 메시지 개인화 {#data}
 

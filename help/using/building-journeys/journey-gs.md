@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1710'
 ht-degree: 24%
 
 ---
 
 # 첫 여정 만들기{#jo-quick-start}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card2"
+>title="여정 만들기"
+>abstract="사용 **Adobe Journey Optimizer** 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 사용하여 실시간 오케스트레이션 사용 사례를 빌드합니다."
 
 ## 전제 조건{#start-prerequisites}
 
