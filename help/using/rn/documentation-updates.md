@@ -4,10 +4,10 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 90%
+source-wordcount: '3765'
+ht-degree: 88%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 90%
 * 액세스 제어 설명서에 대한 링크가 업데이트되었습니다. [자세히 보기](../administration/permissions.md)
 * Adobe Experience Platform 데이터 수집 세부 사항으로 인앱 채널 사전 요구 사항이 업데이트되었습니다. [자세히 보기](../in-app/inapp-configuration.md)
 * 등급 수식 예제에 제공된 일부 식이 유효성 검사 오류를 방지하기 위해 업데이트되었습니다. [자세히 보기](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
+* 에 경고가 추가되었습니다. **결정 범위 정의** 평가 기준 그룹에서 AI 모델을 사용하는 경우 해당 그룹의 모든 평가 기준은 동일한 특정 AI 모델과 함께 AI 등급 방법을 사용해야 한다고 지정합니다. 더욱이 하나의 평가 기준 그룹만이 AI 모델을 사용할 수 있다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023년 8월 {#august-2023}
 
