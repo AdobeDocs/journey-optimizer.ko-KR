@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: assets, essentials, experience manager, 통합
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
+source-git-commit: f6404776cc4cd2b83373617ce6d5e18c960d0371
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 17%
@@ -49,8 +49,7 @@ ht-degree: 17%
 
    ![](assets/media_library_4.png)
 
-+++
-Assets 저장소를 전환하는 방법에 대해 알아봅니다.
++++ Assets 저장소를 전환하는 방법에 대해 알아봅니다.
 
    Assets 저장소를 변경하려면 오른쪽 상단의 계정 아이콘을 선택하고 을 클릭합니다 **[!UICONTROL 저장소 선택]**.
 
