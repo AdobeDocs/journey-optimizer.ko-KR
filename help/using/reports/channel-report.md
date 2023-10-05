@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 3de5f29c8a79ab540ffc961c3e4d4850a8b93ab3
+exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_level_report"
 >title="채널 수준 보고서"
->abstract="채널 보고서는 모든 채널의 트래픽 및 참여 지표에 대한 포괄적인 개요를 제공합니다. 보고서는 캠페인 및 여정 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 위젯 크기를 조정하거나 위젯을 제거하여 각 보고 대시보드를 수정할 수 있습니다."
+>abstract="채널 보고서는 모든 채널의 트래픽 및 참여 지표에 대한 포괄적 개요를 제공합니다. 보고서는 캠페인 및 여정의 성공 사례와 오류를 자세히 설명하는 여러 위젯으로 나눠집니다. 위젯 크기를 조정하거나 위젯을 제거하여 각 보고 대시보드를 수정할 수 있습니다."
 
 >[!IMPORTANT]
 >

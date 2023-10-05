@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications_views"
->title="선택한 보기에 변경 내용 적용"
->abstract="변경 사항은 선택한 보기에 대해서만 적용됩니다. 보기를 검색할 수 있는 방법은 다음과 같습니다. **찾아보기** 을 클릭하고 해당 페이지로 이동합니다. 원하는 보기를 찾을 수 없습니까?"
+>title="선택된 보기에 변경 사항 적용"
+>abstract="선택된 보기에만 변경 사항이 적용됩니다. 보기는 **찾아보기** 모드를 사용하여 검색하고 해당 항목으로 이동할 수 있습니다. 원하는 보기를 찾으실 수 없습니까?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="추가 정보"
 
 **단일 페이지 애플리케이션** (SPA)는 이제 웹 디자이너 비주얼 편집기에서 작성할 수 있습니다. 이를 통해 특정 항목을 선택할 수 있습니다 **조회수** 웹 페이지 수정 사항을에 적용하려고 합니다.

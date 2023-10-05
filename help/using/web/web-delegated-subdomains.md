@@ -6,11 +6,11 @@ description: Journey Optimizer을 사용하여 웹 하위 도메인을 설정하
 role: Admin
 level: Intermediate
 keywords: 웹, 하위 도메인, 구성
-exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: e26f45c1c08e1e5c88daf72cafdcd979753cc692
+exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 13%
+ht-degree: 21%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="웹 하위 도메인 위임"
->abstract="Adobe Experience Manager Assets Essentials의 콘텐츠를 웹 경험에 추가하는 경우 이 콘텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다. Adobe으로 이미 위임된 하위 도메인 중에서 선택하거나 새 하위 도메인을 구성합니다."
+>abstract="Adobe Experience Manager Assets Essentials의 콘텐츠를 웹 경험에 추가하는 경우 이 콘텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다. Adobe에 이미 위임된 하위 도메인을 중에서 선택하거나 새 하위 도메인을 구성할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
@@ -100,7 +100,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="일치하는 DNS 레코드 생성"
->abstract="새 웹 하위 도메인을 구성하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사하여 도메인 호스팅 솔루션에 붙여 넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 성공하면 하위 도메인을 사용하여 Experience Manager Assets Essentials 라이브러리에서 제공되는 콘텐츠를 게시할 수 있습니다."
+>abstract="새 웹 하위 도메인을 구성하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 성공적으로 완료되면 하위 도메인을 사용하여 Experience Manager Assets Essentials 라이브러리의 콘텐츠를 게시할 수 있습니다."
 
 새 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 

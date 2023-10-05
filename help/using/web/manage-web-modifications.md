@@ -9,7 +9,7 @@ exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -97,8 +97,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
->title="사용자 지정 코드 추가"
->abstract="HEAD 요소는 메타데이터의 컨테이너이며 HTML 태그와 BODY 태그 사이에 배치됩니다. SCRIPT 및 STYLE 요소만 추가합니다. DIV 태그와 기타 요소를 추가하면 나머지 HEAD 요소가 BODY에 들어갈 수 있습니다."
+>title="사용자 정의 코드 추가"
+>abstract="HEAD 요소는 메타데이터 컨테이너이며 HTML 태그와 BODY 태그 사이에 배치됩니다. SCRIPT 및 STYLE 요소만 추가합니다. DIV 태그 및 기타 요소를 추가하면 나머지 HEAD 요소가 BODY에 들어갈 수 있습니다."
 
 다음을 사용하여 사용자 지정 코드를 추가할 수 있습니다. **[!UICONTROL 페이지`<head>`]** 수정 유형.
 

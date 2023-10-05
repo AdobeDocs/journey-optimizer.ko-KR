@@ -14,7 +14,7 @@ exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="IP 워밍업 플랜 활성화 옵션"
->abstract="이 옵션을 선택하면 IP 준비 계획에 캠페인을 사용할 수 있습니다. 그런 다음 캠페인 일정은 연결된 IP 준비 계획에 따라 결정됩니다."
+>abstract="이 옵션을 선택하면 IP 워밍업 플랜에서 캠페인을 사용할 수 있습니다. 그런 다음 캠페인 일정은 관련 IP 워밍업 플랜에 따라 결정됩니다."
 
 >[!BEGINSHADEBOX]
 

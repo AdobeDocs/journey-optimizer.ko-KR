@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
+source-git-commit: 144afbd925301ea1eeb690adee335d205fded394
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 4%
@@ -38,7 +38,7 @@ ht-degree: 4%
 ## 메시지 레이아웃 {#message-layout}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
+>id="ajo_campaigns_inapp_authoring_message_layout"
 >title="인앱 콘텐츠 정의"
 >abstract="메시지 레이아웃은 메시지 프레임을 만드는 데 일반적으로 사용되는 템플릿을 제공합니다. 사용자 지정 레이아웃 은 사용자 지정 HTML 메시지를 업로드하거나 작성하는 옵션을 제공합니다."
 
