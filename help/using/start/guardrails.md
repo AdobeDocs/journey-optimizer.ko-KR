@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 95%
 
 ---
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 사용자 정의 작업 {#custom-actions-g}
 
-* 모든 사용자 지정 작업에 대해 5000개의 호출/초의 최대 가용량 제한이 정의됩니다. 이 제한은 사용자 지정 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객의 사용을 기반으로 설정되었습니다.
+* 모든 사용자 지정 작업에 대해 30초 동안 150,000개의 호출 제한 이 정의됩니다. 이 제한은 사용자 지정 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객의 사용을 기반으로 설정되었습니다.
 * 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다. 
 * POST, PUT 및 GET 호출 메서드가 지원됩니다.
 * 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;로 시작해서는 안 됩니다.

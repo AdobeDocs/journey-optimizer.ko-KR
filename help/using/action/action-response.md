@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
-exl-id: 8f47b605-7179-4522-b50c-0ea34b09bd22
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '603'
 ht-degree: 7%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 7%
 # 사용자 정의 작업에서 API 호출 응답 사용 {#custom-action-enhancements}
 
 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
-
->[!AVAILABILITY]
->
->이 기능은 현재 Beta 버전으로 제공됩니다.
 
 <!--
 You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.

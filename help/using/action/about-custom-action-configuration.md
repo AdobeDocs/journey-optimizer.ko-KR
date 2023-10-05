@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1278'
 ht-degree: 12%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 12%
 
 ## 모범 사례{#custom-action-enhancements-best-practices}
 
-모든 사용자 지정 작업에 대해 5000개의 호출/초의 최대 가용량 제한이 정의됩니다. 이 제한은 사용자 지정 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객의 사용을 기반으로 설정되었습니다. 적절한 읽기 비율(사용자 지정 작업 사용 시 5000개 프로필/초)을 정의하여 대상 기반 여정에서 이를 고려해야 합니다. 필요한 경우 최대 가용량/최대 가용량 API를 통해 더 큰 최대 가용량 또는 최대 가용량 제한을 정의하여 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
+모든 사용자 지정 작업에 대해 30초 동안 150,000개의 호출 제한 이 정의됩니다. 이 제한은 사용자 지정 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객의 사용을 기반으로 설정되었습니다. 적절한 읽기 비율(사용자 지정 작업 사용 시 5000개 프로필/초)을 정의하여 대상 기반 여정에서 이를 고려해야 합니다. 필요한 경우 최대 가용량/최대 가용량 API를 통해 더 큰 최대 가용량 또는 최대 가용량 제한을 정의하여 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
 
 다음과 같은 다양한 이유로 사용자 지정 작업으로 공개 끝점을 타깃팅해서는 안 됩니다.
 
