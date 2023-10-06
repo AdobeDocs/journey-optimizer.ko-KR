@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 12%
+source-wordcount: '1407'
+ht-degree: 11%
 
 ---
 
 # 푸시 알림 디자인 {#design-push-notification}
 
 ## 제목 및 본문 {#push-title-body}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-compose"
+>title="푸시 알림 개인화"
+>abstract="메시지를 작성하려면 제목 및 본문 필드에 내용을 입력합니다. 개인화 토큰을 포함하려면 개인화 대화 상자를 엽니다."
 
 메시지를 작성하려면 **[!UICONTROL 제목]** 및 **[!UICONTROL 본문]** 필드. 표현식 편집기를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다. 자세히 알아보기 [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md) 를 입력합니다.
 
@@ -40,7 +45,12 @@ ht-degree: 12%
 
 ## 미디어 추가 {#add-media-push}
 
-푸시 알림의 iOS 버전에서 알림 내에 표시될 이미지, 비디오 또는 GIF을 추가할 수 있습니다.
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-media"
+>title="푸시 알림에 미디어 추가"
+>abstract="알림 내에 표시되는 이미지, 비디오 또는 GIF을 추가할 수 있습니다."
+
+푸시 알림의 iOS 버전에서 알림 내에 표시되는 이미지, 비디오 또는 GIF을 추가할 수 있습니다.
 
 Android 버전에서는 이미지 아이콘과 확장된 알림에 대한 이미지만 추가할 수 있습니다.
 
@@ -57,6 +67,11 @@ Android 버전에서는 이미지 아이콘과 확장된 알림에 대한 이미
 미디어가 추가되면 알림 본문의 오른쪽에 표시됩니다.
 
 ## 단추 추가 {#add-buttons-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-buttons"
+>title="사용자가 푸시 알림과 상호 작용할 수 있는 버튼을 추가합니다."
+>abstract="이 섹션에서는 클릭 유도 문안 단추를 메시지에 추가할 수 있습니다. iOS의 경우 알림 범주 식별자를 지정합니다. Android의 경우 각 버튼에 대한 사용자 지정 텍스트 및 대상을 포함할 수 있습니다."
 
 푸시 콘텐츠에 버튼을 추가하여 실행 가능한 알림을 만듭니다.
 
@@ -85,11 +100,21 @@ iOS 버전에서는 알림 범주 식별자가 지정됩니다. 표시할 버튼
 
 사용 **[!UICONTROL 사용자 정의 데이터]** 섹션에 키-값 쌍을 추가합니다.
 
-## 사용자 정의 데이터
+## 사용자 정의 데이터 {#custom-data}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-custom"
+>title="푸시 알림에 대한 사용자 정의 데이터를 구성합니다."
+>abstract="모바일 애플리케이션 구성에 따라 페이로드에 사용자 지정 변수를 추가합니다."
 
 다음에서 **[!UICONTROL 사용자 정의 데이터]** 섹션에서 모바일 애플리케이션 구성에 따라 페이로드에 사용자 지정 변수를 추가할 수 있습니다. Adobe Experience Platform 및 Launch Adobe에서 푸시 알림을 설정하는 방법에 대한 자세한 내용은 을 참조하십시오. [이 섹션](push-gs.md)
 
 ## 고급 옵션 {#advanced-options-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-advanced"
+>title="푸시 알림에 대한 고급 옵션을 구성합니다."
+>abstract="이 섹션에서는 푸시 알림의 개인화를 향상시킬 수 있습니다."
 
 다음을 구성할 수 있습니다. **[!UICONTROL 고급 옵션]** 푸시 알림용 사용 가능한 매개 변수는 다음과 같습니다.
 

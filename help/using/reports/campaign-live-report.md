@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 6%
+source-wordcount: '1859'
+ht-degree: 4%
 
 ---
 
@@ -40,9 +40,9 @@ Campaign 라이브 보고서는 캠페인에서 **[!UICONTROL 라이브 뷰]** �
 
 Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 을 참조하십시오. [이 페이지](live-report.md#list-of-components-live).
 
-## 캠페인 탭 {#campaign-global}
+## 캠페인 탭 {#campaign-live}
 
-### 게재 {#delivery-global}
+### 게재 {#delivery-live}
 
 다음 **[!UICONTROL 캠페인 통계]** 위젯은 캠페인과 관련된 기본 정보를 자세히 설명합니다.
 
@@ -103,6 +103,21 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 인앱 탭 {#inapp-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_performance"
+>title="인앱 성능"
+>abstract="인앱 성과 KPI는 지난 24시간 동안의 방문자의 인앱 메시지 참여에 대한 중요한 통찰력을 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_interactions"
+>title="유형별 상호 작용"
+>abstract="유형별 상호 작용 그래프 및 표는 지난 24시간 동안의 클릭, 무시 또는 상호 작용을 추적하여 사용자가 인앱 메시지와 상호 작용하는 방법을 자세히 설명합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_summary"
+>title="인앱 요약"
+>abstract="인앱 요약 그래프는 지난 24시간 동안 인앱 노출 횟수 및 상호 작용의 진행을 보여줍니다."
+
 캠페인에서 **[!UICONTROL 라이브 보고서]**, **[!UICONTROL 인앱]** 탭에서는 캠페인에 전송된 인앱 게재와 관련된 기본 정보를 자세히 설명합니다.
 
 +++인앱 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
@@ -121,13 +136,43 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 푸시 알림 탭 {#push-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_performance"
+>title="푸시 알림 - 전송 성능"
+>abstract="푸시 알림 전송 성능 그래프는 지난 24시간 동안의 오류 또는 배달된 메시지와 같은 푸시 알림에 대한 필수 데이터를 요약합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_statistics"
+>title="푸시 알림 - 통계"
+>abstract="푸시 통계 표에는 지난 24시간 동안의 게재 수신자 활동에 대한 데이터가 제공됩니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_summary"
+>title="푸시 알림 - 전송 요약"
+>abstract="푸시 알림 전송 요약 그래프는 지난 24시간 동안 전송된 푸시 알림에 사용할 수 있는 데이터를 표시합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_excluded_reasons"
+>title="푸시 알림 - 제외된 이유"
+>abstract="제외된 이유 그래프 및 표는 사용자 프로필이 타겟팅된 대상에서 제외되어 지난 24시간 동안 메시지를 받지 못하게 된 다양한 요인을 보여 줍니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_error_reasons"
+>title="푸시 알림 - 오류 원인"
+>abstract="오류 원인 그래프 및 테이블을 사용하면 게재 중 지난 24시간 동안 발생한 특정 오류를 식별할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_breakdown_platform"
+>title="푸시 알림 - 플랫폼별 분류"
+>abstract="플랫폼별 분류 그래프 및 표는 수신자의 운영 체제를 기반으로 지난 24시간 동안 푸시 알림의 성공에 대한 분류를 제공합니다."
+
 캠페인에서 **[!UICONTROL 라이브 보고서]**, **[!UICONTROL 푸시 알림]** 탭에서는 캠페인에 전송된 푸시 게재와 관련된 기본 정보를 자세히 설명합니다.
 
 ![](assets/campaign_report_live_2.png)
 
 +++푸시 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
 
-**[!UICONTROL 푸시 알림 전송 성능]**, **[!UICONTROL 푸시 알림 요약]** 및 **[!UICONTROL 전송 지표 - 푸시별]** 위젯은 메시지와 관련된 기본 정보를 자세히 설명합니다.
+**[!UICONTROL 푸시 알림 전송 성능]**, **[!UICONTROL 푸시 알림 요약]** 및 **[!UICONTROL 푸시 알림 - 통계]** 위젯은 메시지와 관련된 기본 정보를 자세히 설명합니다.
 
 * **[!UICONTROL 전송됨]**: 게재에 대한 총 전송 수입니다.
 
@@ -151,6 +196,31 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 +++
 
 ## SMS 탭 {#sms-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_statistics"
+>title="SMS - 통계"
+>abstract="SMS 전송 통계 표에는 지난 24시간 동안의 타겟팅 또는 게재된 메시지와 같은 SMS 메시지에 대한 필수 데이터가 요약되어 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_performance"
+>title="SMS - 일자별 성능"
+>abstract="날짜별 SMS 성능 위젯은 지난 24시간 동안의 메시지에 대한 주요 정보를 그래픽으로 표시합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_error_reasons"
+>title="SMS - 오류 원인"
+>abstract="SMS - 오류 원인 그래프 및 테이블을 사용하면 게재 중 지난 24시간 동안 발생한 특정 오류를 식별할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_excluded_reasons"
+>title="SMS - 제외된 이유"
+>abstract="제외된 이유 그래프 및 표는 사용자 프로필이 타겟팅된 대상에서 제외되어 지난 24시간 동안 메시지를 받지 못하게 된 다양한 요인을 보여 줍니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_bounces_reasons"
+>title="SMS - 반송 원인"
+>abstract="반송 원인 그래프 및 표에는 반송된 메시지와 관련된 지난 24시간 동안 사용할 수 있는 데이터가 포함되어 있습니다."
 
 캠페인에서 **[!UICONTROL 라이브 보고서]**, **[!UICONTROL SMS]** 탭에서는 캠페인에 전송된 SMS 게재와 관련된 기본 정보를 자세히 설명합니다.
 
@@ -185,6 +255,21 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 웹 탭 {#web-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_performance"
+>title="웹 성능"
+>abstract="웹 성능 KPI는 지난 24시간 동안의 방문자의 웹 경험 참여에 대한 포괄적인 정보를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_summary"
+>title="웹 요약"
+>abstract="웹 요약 그래프는 지난 24시간 동안의 노출, 고유 노출 및 상호 작용을 포함한 웹 경험의 진행 상황을 보여 줍니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_interactions"
+>title="요소별 상호 작용"
+>abstract="요소별 상호 작용 테이블은 지난 24시간 동안 웹 페이지에서 방문자가 다양한 요소를 사용하는 것과 관련된 주요 정보를 제공합니다."
+
 캠페인에서 **[!UICONTROL 라이브 보고서]**, **[!UICONTROL 웹]** 탭에서는 웹 페이지와 관련된 기본 정보를 자세히 설명합니다.
 
 +++웹 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
@@ -202,7 +287,22 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 다이렉트 메일 탭 {#direct-mail-tab}
 
-캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 다이렉트 메일]** 탭에서는 DM 게재와 관련된 기본 정보를 자세히 설명합니다.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_sending_statistics"
+>title="DM - 전송 통계"
+>abstract="DM 전송 통계 표에는 타겟팅 또는 게재된 메시지와 같은 DM 메시지에 대한 최근 24시간 동안의 필수 데이터가 요약되어 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_error_reasons"
+>title="다이렉트 메일 - 오류 원인"
+>abstract="다이렉트 메일 - 오류 원인 그래프 및 테이블을 통해 지난 24시간 동안 발생한 특정 오류를 식별할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_excluded_reasons"
+>title="DM - 제외된 이유"
+>abstract="DM 제외 이유 그래프 및 표는 타겟팅된 대상에서 제외한 사용자 프로필이 지난 24시간 동안 메시지를 받지 못하게 된 다양한 요인을 보여 줍니다."
+
+캠페인에서 **[!UICONTROL 라이브 보고서]**, **[!UICONTROL 다이렉트 메일]** 탭에서는 DM 게재와 관련된 기본 정보를 자세히 설명합니다.
 
 ![](assets/direct-mail-report_2.png)
 

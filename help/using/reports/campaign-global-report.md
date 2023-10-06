@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2ae9cc843d613bf22e1413b1903e151faf3f8f76
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 4%
+source-wordcount: '2955'
+ht-degree: 3%
 
 ---
 
@@ -45,6 +45,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 ## 캠페인 탭 {#campaign-global}
 
 ### 게재 {#delivery-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_delivery_global"
+>title="캠페인 통계"
+>abstract="Campaign의 통계 위젯에는 입력된 프로필 및 게재된 작업과 같은 캠페인과 관련된 기본 정보가 자세히 표시됩니다."
 
 ![](assets/campaign_report_global_1.png)
 
@@ -209,6 +214,21 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ## 인앱 탭 {#inapp-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_performance"
+>title="인앱 성능"
+>abstract="인앱 성과 KPI는 방문자의 인앱 메시지 참여에 대한 중요한 통찰력을 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_interactions"
+>title="유형별 상호 작용"
+>abstract="유형별 상호 작용 그래프 및 표는 사용자가 클릭, 무시 또는 상호 작용을 추적하여 인앱 메시지와 상호 작용하는 방법을 자세히 설명합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_summary"
+>title="인앱 요약"
+>abstract="인앱 요약 그래프는 지정된 기간 동안 인앱 노출 횟수 및 상호 작용의 진행 상황을 보여 줍니다."
+
 캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 인앱]** 탭에서는 캠페인에 전송된 인앱 게재와 관련된 기본 정보를 자세히 설명합니다.
 
 ![](assets/campaign_report_global_6.png)
@@ -223,20 +243,50 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 상호 작용 비율]**: 인앱 메시지 참여 비율. 여기에는 클릭, 해제 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
 
-다음 **[!UICONTROL 인앱 요약]** 그래프는 관련 기간 동안 인앱 노출 횟수 및 상호 작용의 진행 상황을 보여 줍니다.
-
 다음 **[!UICONTROL 유형별 상호 작용]** 그래프 및 표는 사용자가 클릭, 무시 또는 상호 작용을 추적하여 인앱 메시지와 상호 작용하는 방법을 자세히 설명합니다.
+
+다음 **[!UICONTROL 인앱 요약]** 그래프는 관련 기간 동안 인앱 노출 횟수 및 상호 작용의 진행 상황을 보여 줍니다.
 +++
 
 ## 푸시 알림 탭 {#push-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_statistics"
+>title="푸시 알림 - 전송 통계"
+>abstract="푸시 알림 전송 통계 표에는 타깃팅된 메시지 또는 게재된 메시지와 같은 푸시 알림에 대한 필수 데이터가 요약되어 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_tracking_statistics"
+>title="푸시 알림 - 추적 통계"
+>abstract="푸시 추적 통계는 게재를 위한 수신자 활동에 대한 데이터를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_summary"
+>title="푸시 알림 - 전송 요약"
+>abstract="푸시 알림 전송 요약 그래프는 전송된 푸시 알림에 사용할 수 있는 데이터를 표시합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_excluded_reasons"
+>title="푸시 알림 - 제외된 이유"
+>abstract="제외된 이유 그래프 및 표는 사용자 프로필이 타겟팅된 대상에서 제외되고 메시지가 수신되지 않은 다양한 요인을 보여 줍니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_error_reasons"
+>title="푸시 알림 - 오류 원인"
+>abstract="오류 원인 그래프 및 테이블을 사용하면 게재 중에 발생한 특정 오류를 식별할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_breakdown_platform"
+>title="푸시 알림 - 플랫폼별 분류"
+>abstract="플랫폼별 분류 그래프 및 표는 수신자의 운영 체제를 기반으로 푸시 알림의 성공에 대한 분류를 제공합니다."
+
 캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 푸시 알림]** 탭에서는 캠페인에 전송된 푸시 게재와 관련된 기본 정보를 자세히 설명합니다.
 
-![](assets/campaign_report_global_3.png)
+![](assets/campaign_report_global_3.png)인앱 성과 KPI는 방문자의 인앱 메시지 참여와 관련된 주요 정보를 자세히 설명합니다.
 
 +++푸시 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
 
-다음 **[!UICONTROL 푸시 알림 - 전송 통계]** 표에서는 그래프 및 KPI를 사용하여 푸시 알림과 관련된 기본 정보를 자세히 설명합니다.
+다음 **[!UICONTROL 푸시 알림 - 전송 통계]** 표에서 푸시 알림과 관련된 기본 정보를 자세히 설명합니다.
 
 * **[!UICONTROL 타깃팅됨]**: 게재 분석 중에 처리된 총 메시지 수입니다.
 
@@ -297,12 +347,42 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 다음 **[!UICONTROL 오류 원인]** 그래프 및 표를 통해 게재 중 발생한 오류를 확인할 수 있습니다.
 
-다음 **[!UICONTROL 제외된 이유]** 그래프와 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받지 못하게 한 다양한 이유가 표시됩니다.
+다음 **[!UICONTROL 제외된 이유]** 그래프와 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받을 수 없는 다양한 원인이 표시됩니다.
 
-다음 **[!UICONTROL 플랫폼을 통한 추적]**, **[!UICONTROL 플랫폼을 통한 전송]** 및 **[!UICONTROL 플랫폼별 분류]** 그래프 및 표는 수신자의 운영 체제에 따라 푸시 알림의 성공 여부를 자세히 설명합니다.
+다음 **[!UICONTROL 플랫폼별 분류]** 그래프와 표에는 수신자의 운영 체제에 따라 푸시 알림의 성공 여부가 자세히 설명되어 있습니다.
 +++
 
 ## SMS 탭 {#sms-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_sending_statistics"
+>title="SMS - 전송 통계"
+>abstract="SMS 전송 통계 표에는 타겟팅 또는 게재된 메시지와 같은 SMS 메시지에 대한 필수 데이터가 요약되어 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_error_reasons"
+>title="SMS - 오류 원인"
+>abstract="SMS - 오류 원인 그래프 및 테이블을 사용하면 게재 중에 발생한 특정 오류를 식별할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_performance"
+>title="SMS - 일자별 성능"
+>abstract="날짜별 SMS 성능 위젯은 그래픽 표시를 통해 메시지에 대한 주요 정보를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_excluded_reasons"
+>title="SMS - 제외된 이유"
+>abstract="제외된 이유 그래프 및 표는 사용자 프로필이 타겟팅된 대상에서 제외되고 메시지가 수신되지 않은 다양한 요인을 보여 줍니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_bounces_reasons"
+>title="SMS - 반송 원인"
+>abstract="반송 원인 그래프 및 표에는 반송된 메시지와 관련하여 사용할 수 있는 데이터가 포함되어 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_clicks_links"
+>title="SMS - 링크를 통한 클릭 수"
+>abstract="SMS - 링크를 통한 클릭 수 위젯은 메시지의 URL에 대한 방문자의 참여에 대한 중요한 인사이트를 제공합니다"
 
 캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL SMS]** 탭에서는 캠페인에 전송된 SMS 게재와 관련된 기본 정보를 자세히 설명합니다.
 
@@ -330,13 +410,28 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 오류]**: 게재 중에 발생하여 프로필로 전송되지 않은 총 오류 수입니다.
 
-다음 **[!UICONTROL 제외 이유]**, **[!UICONTROL 반송 원인]** 및 **[!UICONTROL 오류 원인]** 그래프 및 표를 사용하면 게재 중에 발생한 오류 및 제외 사항을 확인할 수 있습니다.
+다음 **[!UICONTROL 제외 이유]** 및 **[!UICONTROL 반송 원인]** 및 **[!UICONTROL 오류 원인]** 그래프 및 표를 사용하면 게재 중에 발생한 오류 및 제외 사항을 확인할 수 있습니다.
 
-다음 **[!UICONTROL SMS - 링크를 통한 클릭 수]** 및 **[!UICONTROL SMS - 추적 통계]** 위젯은 방문자의 URL 참여와 관련된 기본 정보를 자세히 설명합니다.
+다음 **[!UICONTROL SMS - 링크를 통한 클릭 수]** 위젯은 방문자의 URL 참여와 관련된 기본 정보를 자세히 설명합니다.
 
 +++
 
 ## 웹 탭 {#web-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_performance"
+>title="웹 성능"
+>abstract="웹 성능 KPI는 방문자의 웹 경험 참여에 대한 포괄적인 정보를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_summary"
+>title="웹 요약"
+>abstract="웹 요약 그래프는 지정된 기간 동안 노출 횟수, 고유 노출 횟수 및 상호 작용을 포함한 웹 경험의 진행 상황을 보여 줍니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_interactions"
+>title="요소별 상호 작용"
+>abstract="요소별 상호 작용 테이블은 웹 페이지에서 방문자의 다양한 요소 참여에 대한 주요 정보를 제공합니다."
 
 캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 웹]** 탭에서는 웹 페이지와 관련된 기본 정보를 자세히 설명합니다.
 
@@ -358,6 +453,21 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 +++
 
 ## 다이렉트 메일 탭 {#direct-mail-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_sending_statistics"
+>title="DM - 전송 통계"
+>abstract="DM 전송 통계 표에는 타겟팅 또는 게재된 메시지와 같은 DM 메시지에 대한 필수 데이터가 요약되어 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_error_reasons"
+>title="다이렉트 메일 - 오류 원인"
+>abstract="DM - 오류 원인 그래프 및 테이블을 사용하면 게재 중에 발생한 특정 오류를 식별할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_excluded_reasons"
+>title="DM - 제외된 이유"
+>abstract="DM 제외 이유 그래프 및 표는 타겟 대상에서 제외한 사용자 프로필이 메시지를 받지 못하게 된 다양한 요인을 보여 줍니다."
 
 캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 다이렉트 메일]** 탭에서는 DM 게재와 관련된 기본 정보를 자세히 설명합니다.
 
