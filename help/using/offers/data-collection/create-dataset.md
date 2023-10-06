@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '266'
 ht-degree: 12%
 
 ---
@@ -20,15 +20,18 @@ ht-degree: 12%
 
 먼저 데이터 세트에 사용할 스키마를 만듭니다.
 
-1. 다음에서 **[!UICONTROL 데이터 관리]** 메뉴, 선택 **[!UICONTROL 스키마]** 로 이동 **[!UICONTROL 찾아보기]** 탭.
+1. 다음에서 **[!UICONTROL 데이터 관리]** 메뉴, 선택 **[!UICONTROL 스키마]**.
 
-1. 클릭 **[!UICONTROL 스키마 만들기]** 및 선택 **[!UICONTROL XDM ExperienceEvent]**.
+1. 클릭 **[!UICONTROL 스키마 만들기]**&#x200B;오른쪽 상단에서 을(를) 선택합니다. **[!UICONTROL 경험 이벤트]** 및 클릭 **다음**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
    >에서 XDM 스키마 및 필드 그룹에 대한 자세한 내용을 알아봅니다. [XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}.
+
+1. 스키마의 이름과 설명을 입력하고 **완료**.
+   ![](../assets/ai-ranking-xdm-event-2.png)
 
 1. 다음에서 **[!UICONTROL 필드 그룹]** 왼쪽에서 섹션을 선택합니다. **[!UICONTROL 추가]**.
 
@@ -44,7 +47,7 @@ ht-degree: 12%
    >
    >데이터 세트에서 사용할 스키마에는 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 연결된 필드 그룹입니다. 그렇지 않으면 AI 모델에서 사용할 수 없습니다.
 
-1. 이름을 입력하고 스키마를 저장합니다.
+1. 스키마를 저장합니다.
 
 >[!NOTE]
 >

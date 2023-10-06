@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 테스트 프로필, 테스트, 테스트, 여정
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1367'
 ht-degree: 4%
 
 ---
@@ -42,18 +42,18 @@ ht-degree: 4%
 
 1. 데이터 관리 메뉴 섹션에서 다음을 클릭합니다. **[!UICONTROL 스키마]**.
    ![](assets/test-profiles-0.png)
-1. 클릭 **[!UICONTROL 스키마 만들기]**&#x200B;오른쪽 상단에서 스키마 유형(예: )을 선택합니다 **XDM 개별 프로필**.
+1. 클릭 **[!UICONTROL 스키마 만들기]**&#x200B;오른쪽 상단에서 스키마 유형(예: )을 선택합니다 **개인 프로필** 및 클릭 **다음**.
    ![](assets/test-profiles-1.png)
-1. 적절한 필드 그룹을 선택합니다. 다음을 추가해야 합니다. **프로필 테스트 세부 정보** 필드 그룹입니다.
+1. 스키마 이름을 입력하고 **완료**.
+   ![](assets/test-profiles-1-bis.png)
+1. 다음에서 **필드 그룹** 섹션에서 왼쪽의 **추가$$을(를) 클릭하고 적절한 필드 그룹을 선택합니다. 다음을 추가해야 합니다. **프로필 테스트 세부 정보** 필드 그룹입니다.
    ![](assets/test-profiles-1-ter.png)
 완료되면 다음을 클릭합니다. **[!UICONTROL 필드 그룹 추가]**: 필드 그룹 목록이 스키마 개요 화면에 표시됩니다.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
-   >* 스키마 이름을 클릭하여 변경하고 해당 속성을 업데이트합니다.
-   >
-   >* 다음을 클릭합니다. **[!UICONTROL 추가]** [필드 그룹] 섹션의 단추를 사용하여 스키마에 추가할 다른 필드 그룹을 선택합니다.
+   >스키마 속성을 업데이트하려면 스키마 이름을 클릭합니다.
 
 1. 필드 목록에서 기본 ID로 정의할 필드를 클릭합니다.
    ![](assets/test-profiles-3.png)

@@ -6,9 +6,9 @@ description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1609'
 ht-degree: 4%
 
 ---
@@ -267,20 +267,20 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 이 여정이 작동하려면 XDM 스키마를 만들어야 합니다. 자세한 내용은 다음을 참조하십시오. [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
-1. 왼쪽 메뉴에서 **[!UICONTROL 스키마]**.
-
-1. 클릭 **[!UICONTROL 스키마 만들기]** 그런 다음 선택 **[!UICONTROL XDM ExperienceEvent]**.
-
+1. 데이터 관리 메뉴 섹션에서 다음을 클릭합니다. **[!UICONTROL 스키마]**.
+   ![](assets/test_push_1.png)
+1. 클릭 **[!UICONTROL 스키마 만들기]**&#x200B;오른쪽 상단에서 을(를) 선택합니다. **[!UICONTROL 경험 이벤트]** 및 클릭 **다음**.
    ![](assets/test_push_2.png)
-
-1. 선택 **[!UICONTROL 새 필드 그룹 만들기]**.
+1. 스키마의 이름과 설명을 입력하고 **완료**.
+   ![](assets/test_push_3.png)
+1. 다음에서 **필드 그룹** 섹션에서, 왼쪽의 **추가** 및 선택 **[!UICONTROL 새 필드 그룹 만들기]**.
 
 1. 입력 **[!UICONTROL 표시 이름]** 및 a **[!UICONTROL 설명]**. 클릭 **[!UICONTROL 필드 그룹 추가]** 완료 시. 필드 그룹을 만드는 방법에 대한 자세한 내용은 [XDM 시스템 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko){target="_blank"}.
 
 
    ![](assets/test_push_4.png)
 
-1. 왼쪽에서 스키마를 선택합니다. 오른쪽 창에서 스키마 이름과 설명을 입력합니다. 다음에 대해 이 스키마 활성화: **[!UICONTROL 프로필]**.
+1. 왼쪽에서 스키마를 선택합니다. 오른쪽 창에서에 대해 이 스키마를 활성화합니다. **[!UICONTROL 프로필]**.
 
    ![](assets/test_push_4b.png)
 
