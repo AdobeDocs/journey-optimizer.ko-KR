@@ -7,8 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
+source-git-commit: 732b84a8945e85cb77a8d2c477f9c9a064988109
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 4%
@@ -127,7 +127,7 @@ ht-degree: 4%
 
 * 조각을 사용하여 처음부터 새로 만들기 **[!UICONTROL 조각]** 전용 메뉴. [방법 알아보기](#create-from-scratch)
 
-* 콘텐츠를 디자인할 때 콘텐츠의 일부를 조각으로 저장합니다. [방법 알아보기](#save-as-template)
+* 콘텐츠를 디자인할 때 콘텐츠의 일부를 조각으로 저장합니다. [방법 알아보기](#save-as-fragment)
 
 저장되면 여정, 캠페인 또는 템플릿에서 조각을 사용할 수 있습니다. 처음부터 작성하든 기존 콘텐츠에서 작성하든 이제 내에서 콘텐츠를 작성할 때 이 조각을 사용할 수 있습니다 [!DNL Journey Optimizer]. 다음을 참조하십시오 [시각적 조각 추가](../email/use-visual-fragments.md) 및 [표현식 조각 활용](../personalization/use-expression-fragments.md)
 
@@ -148,7 +148,7 @@ ht-degree: 4%
 
    ![](assets/fragment-details.png)
 
-1. 조각 유형을 선택합니다. **[!UICONTROL 시각적 조각]** 또는 **[!UICONTROL 표현식 조각]**.
+1. 조각 유형을 선택합니다. [시각적 조각](#create-visual-fragment) 또는 [표현식 조각](#create-expression-fragment).
 
 1. 조각에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 다음을 선택합니다. **[!UICONTROL 액세스 관리]**. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md).
 
