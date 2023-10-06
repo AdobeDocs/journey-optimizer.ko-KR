@@ -122,7 +122,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
 >title="기간 설정"
->abstract="분할 작업에서 지연이 발생하는 경우 IP 워밍업 캠페인을 실행할 수 있는 기간을 정의할 수 있습니다."
+>abstract="세분화 작업에서 지연이 발생하는 경우 IP 워밍업 캠페인을 실행할 수 있는 기간을 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
