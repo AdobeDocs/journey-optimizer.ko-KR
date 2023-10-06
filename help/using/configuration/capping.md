@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 4905c3c395ee06e1af34da9a2b5cae9b4a3c39e6
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '640'
 ht-degree: 26%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 26%
 
 이 섹션에서는 캡핑 구성을 관리하기 위해 수행할 수 있는 5가지 주요 사용 사례를에서 확인할 수 있습니다. [!DNL Journey Optimizer].
 
-[여기](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)에서 테스트 및 구성에 도움이 되는 Postman 컬렉션을 사용할 수 있습니다.
+[여기](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json)에서 테스트 및 구성에 도움이 되는 Postman 컬렉션을 사용할 수 있습니다.
 
 이 Postman 컬렉션은 __[Adobe I/O Console의 통합](https://console.adobe.io/integrations) > 사용해 보기 > Postman용으로 다운로드__&#x200B;를 통해 생성된 Postman 변수 컬렉션을 공유하는 용도로 설정되었습니다. 이 옵션은 선택한 통합 값을 가진 Postman 환경 파일을 생성합니다.
 
