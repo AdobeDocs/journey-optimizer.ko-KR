@@ -4,10 +4,10 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
 workflow-type: tm+mt
-source-wordcount: '4221'
-ht-degree: 84%
+source-wordcount: '4254'
+ht-degree: 83%
 
 ---
 
@@ -104,6 +104,10 @@ ht-degree: 84%
 ### 개선 사항 {#sept-2023-improvements}
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
+
+**의사 결정 관리**
+
+* 이제 의사 결정 관리 객체를 만들고 관리하기 위한 새로운 API를 사용할 수 있습니다. 이러한 API는 향상된 성능과 향상된 사용자 경험을 제공합니다. 레거시 API는 2024년 3월 27일까지 지원됩니다. [자세히 알아보기](../offers/api-reference/getting-started.md)
 
 **개인화**
 
