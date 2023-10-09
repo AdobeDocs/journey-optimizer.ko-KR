@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Adobe Journey Optimizer에서 ABAC를 사용하면 데이터를 보호하고 XDM(경험 데이터 모델) 스키마, 프로필 속성 및 대상을 포함한 특정 필드 요소에 특정 액세스 권한을 부여할 수 있습니다.
 
-ABAC에 사용되는 용어의 자세한 목록은 다음을 참조하십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
+ABAC에 사용되는 용어의 자세한 목록은 다음을 참조하십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=ko).
 
 이 예제에서는 레이블을 **국적** 권한이 없는 사용자가 사용할 수 없도록 제한하는 스키마 필드. 이를 수행하려면 다음 단계를 수행해야 합니다.
 

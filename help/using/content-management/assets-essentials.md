@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 16%
 
    ![](assets/media_library_1.png)
 
-1. Journey Optimizer에서 에셋에 대한 저장소를 선택합니다. 이 솔루션을 소유하고 있는 경우 Assets Essentials 저장소 또는 에셋 as a Cloud Service 저장소를 선택할 수 있습니다.
+1. Journey Optimizer에서 에셋에 대한 저장소를 선택합니다. 이 솔루션을 소유하고 있는 경우 Assets Essentials 저장소 또는 Assets as a Cloud Service 저장소를 선택할 수 있습니다.
 
    ![](assets/media_library_4.png)
 

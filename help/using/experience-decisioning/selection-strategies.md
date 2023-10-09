@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -21,16 +22,16 @@ ht-degree: 3%
 
 이 설명서의 내용:
 
-* [Experience Decisioning 시작하기](gs-experience-decisioning.md)
-* 의사 결정 항목 관리
+* [Experience Decisioning 시작](gs-experience-decisioning.md)
+* 결정 항목 관리
    * [항목 카탈로그 구성](catalogs.md)
-   * [의사 결정 항목 만들기](items.md)
+   * [결정 항목 만들기](items.md)
    * [항목 컬렉션 관리](collections.md)
 * 항목 선택 구성
    * [의사 결정 규칙 만들기](rules.md)
    * [등급 메서드 만들기](ranking.md)
 * **[선택 전략 만들기](selection-strategies.md)**
-* [의사 결정 정책 만들기](create-decision.md)
+* [결정 정책 만들기](create-decision.md)
 
 >[!ENDSHADEBOX]
 
@@ -117,4 +118,3 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 다음을 만들 수 �
 AI 모델을 선택하여 주어진 프로필에 대해 표시할 오퍼에 자동으로 등급을 지정하는 교육된 모델 시스템을 사용할 수도 있습니다. 에서 AI 모델을 만드는 방법을 알아봅니다. [이 섹션](ranking.md).
 
 AI 모델이 만들어지면 선택 전략에 사용할 수 있습니다. 여러 오퍼가 적합한 경우 교육된 모델 시스템은 이 선택 전략에 대해 먼저 제시해야 하는 오퍼를 결정합니다.
-

@@ -6,7 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: DM, 메시지, 캠페인
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 17%
@@ -29,5 +30,3 @@ DM 메시지를 보내는 주요 단계는 다음과 같습니다.
 ![](assets/dm-creation-process.png)
 
 DM 메시지는 예약된 캠페인의 컨텍스트에서만 만들 수 있습니다. API 트리거 캠페인 또는 여정에서 사용할 수 없습니다.
-
-

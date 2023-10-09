@@ -217,5 +217,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >요청 또는 응답 페이로드를 자체 코드에 복사할 때에는 다음을 바꾸십시오. {USER_TOKEN} 및 {API_KEY} 유효한 값을 가진 에서 이러한 값을 검색하는 방법 알아보기 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} 설명서를 참조하십시오.
+   >요청 또는 응답 페이로드를 자체 코드에 복사할 때에는 다음을 바꾸십시오. {USER_TOKEN} 및 {API_KEY} 유효한 값을 가진 에서 이러한 값을 검색하는 방법 알아보기 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ko){target="_blank"} 설명서를 참조하십시오.
 

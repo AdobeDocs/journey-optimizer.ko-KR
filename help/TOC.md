@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
 source-wordcount: '1656'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -306,7 +306,7 @@ ht-degree: 92%
    + 프로필{#profiles}
       + [프로필 시작](using/audience/get-started-profiles.md)
       + [테스트 프로필 만들기](using/audience/creating-test-profiles.md)
-      + [계산된 속성을 사용한 작업](using/audience/computed-attributes.md)
+      + [계산된 속성 관련 작업](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [라이선스 사용](using/audience/license-usage.md)
 + 추적 및 모니터링 {#reporting}
@@ -326,7 +326,7 @@ ht-degree: 92%
       + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)
       + [구독 목록 글로벌 보고서](using/reports/subscription-report-global.md)
    + 채널 보고서 {#channel-report}
-      + [채널 보고서 시작](using/reports/channel-report-gs.md)
+      + [동적 보고서 시작](using/reports/channel-report-gs.md)
       + [채널 보고서](using/reports/channel-report.md)
    + 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
@@ -483,17 +483,17 @@ ht-degree: 92%
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ 경험 의사 결정 {#experience-decisioning}
-   + [Experience Decisioning 시작하기](using/experience-decisioning/gs-experience-decisioning.md)
-   + 의사 결정 항목 관리 {#decision-items}
++ Experience Decisioning {#experience-decisioning}
+   + [Experience Decisioning 시작](using/experience-decisioning/gs-experience-decisioning.md)
+   + 결정 항목 관리 {#decision-items}
       + [항목 카탈로그 구성](using/experience-decisioning/catalogs.md)
-      + [의사 결정 항목 만들기](using/experience-decisioning/items.md)
+      + [결정 항목 만들기](using/experience-decisioning/items.md)
       + [항목 컬렉션 관리](using/experience-decisioning/collections.md)
    + 항목 선택 구성 {#selection}
       + [의사 결정 규칙 만들기](using/experience-decisioning/rules.md)
       + [등급 메서드 만들기](using/experience-decisioning/ranking.md)
    + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
-   + [의사 결정 정책 만들기](using/experience-decisioning/create-decision.md)
+   + [결정 정책 만들기](using/experience-decisioning/create-decision.md)
 + 데이터 관리 {#data-management}
    + [데이터 관리 시작](using/data/gs-data.md)
    + [스키마 작업](using/data/get-started-schemas.md)

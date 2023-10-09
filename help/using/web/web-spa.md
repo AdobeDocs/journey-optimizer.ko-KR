@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 11%
+ht-degree: 26%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 [이 비디오에서는 단일 페이지 애플리케이션을 제작하는 방법에 대해 알아봅니다](#video)
 
-보기는 전체 사이트 또는 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다.
+보기는 전체 사이트로 정의하거나 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다.
 
 Adobe Experience Platform Web SDK 구현에서 보기를 정의하려면 일회용 개발자 설정이 필요합니다. 이렇게 하면 SPA에서 Adobe Journey Optimizer 웹 캠페인을 만들고 실행할 수 있습니다.
 
@@ -83,11 +83,11 @@ Adobe Experience Platform Web SDK 구현에서 SPA 설정이 완료되면 수정
 
 ## 방법 비디오{#video}
 
-이 비디오에서는 다음 방법을 설명합니다.
+이 비디오에서는 다음을 하는 방법을 설명합니다.
 
 * 다음을 사용하여 SPA 보기 검색 **[!UICONTROL 찾아보기]** 모드
-* 현재 보기에서 작성 수행
-* 여러 보기 또는 검색된 모든 보기에 웹 사이트 수정 적용
+* 현재 보기에서 작성
+* 여러 보기 또는 검색된 모든 보기에 웹 사이트 수정 사항 적용
 * 수정 시 일괄 작업 수행
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

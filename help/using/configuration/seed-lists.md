@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 시드 목록, 시드 목록, 시드, 구성
-source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
+exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 16%
@@ -154,4 +155,3 @@ ht-degree: 16%
 >[!NOTE]
 >
 >여정의 경우 이메일 게재는 여정 첫 실행 시에만 시드 주소로 전송됩니다.
-

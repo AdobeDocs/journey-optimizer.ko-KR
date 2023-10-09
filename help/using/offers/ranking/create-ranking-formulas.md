@@ -9,7 +9,7 @@ exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 5083536950e43fc2df66a6bb46e69173245acf18
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 **등급 공식**&#x200B;으로 특정 배치에 먼저 제시할 오퍼를 결정하는 규칙을 정의할 수 있습니다. 이 경우 오퍼의 우선 순위 점수를 고려할 필요가 없습니다.
 
-등급 수식은 다음과 같이 표시됩니다. **PQL 구문** 프로필 속성, 컨텍스트 데이터 및 오퍼 속성을 활용할 수 있습니다. PQL 구문을 사용하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
+등급 수식은 다음과 같이 표시됩니다. **PQL 구문** 프로필 속성, 컨텍스트 데이터 및 오퍼 속성을 활용할 수 있습니다. PQL 구문을 사용하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ko).
 
 등급 공식이 생성되면 의사 결정의 배치에 지정할 수 있습니다. 자세한 내용은 [결정의 오퍼 선택 구성](../offer-activities/configure-offer-selection.md)을 참조하십시오.
 

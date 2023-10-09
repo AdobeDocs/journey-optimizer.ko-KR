@@ -12,13 +12,13 @@ exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 # 사용 사례: 게재 램프 업{#use-case-ramp-up-your-deliveries}
 
-최근 다른 이메일 서비스 공급자, IP 주소, 이메일 도메인 또는 하위 도메인으로 이동한 경우 발신자로서의 신뢰도를 설정해야 합니다. 그렇지 않으면 게재가 차단되거나 수신자 사서함의 스팸 폴더로 이동될 수 있습니다. 에서 IP warming을 사용하여 이메일 평판을 높이는 방법을 알아봅니다. [전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
+최근 다른 이메일 서비스 공급자, IP 주소, 이메일 도메인 또는 하위 도메인으로 이동한 경우 발신자로서의 신뢰도를 설정해야 합니다. 그렇지 않으면 게재가 차단되거나 수신자 사서함의 스팸 폴더로 이동될 수 있습니다. 에서 IP warming을 사용하여 이메일 평판을 높이는 방법을 알아봅니다. [전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ko){target="_blank"}.
 
 IP를 준비하려면 게재 수를 점차적으로 늘릴 수 있습니다. 자세한 내용 [Journey Optimizer의 전달성 최적화](../reports/deliverability.md).
 

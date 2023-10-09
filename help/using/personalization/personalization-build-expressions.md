@@ -12,11 +12,11 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
-# 표현식 편집기 시작 {#build-personalization-expressions}
+# 표현식 편집기 시작하기 {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
@@ -41,7 +41,7 @@ ht-degree: 12%
 
 ## 개인화 속성 추가 {#add}
 
-\+ 단추를 클릭하여 개인화 표현식에 속성을 추가합니다.
++ 단추를 클릭하여 개인화 표현식에 속성을 추가합니다.
 
 &quot;+&quot; 아이콘 옆에 있는 줄임표 메뉴를 사용하면 각 변수에 대한 자세한 내용을 확인하고 가장 자주 사용하는 속성을 즐겨찾기에 추가할 수 있습니다. [즐겨찾기에 속성을 추가하는 방법 알아보기](personalization-favorites.md)
 

@@ -66,7 +66,7 @@ ht-degree: 89%
 <tr>
 <td>
 <p>이제 Journey Optimizer UI 전체에서 찾을 수 있는 동일한 표현식 편집기 구성 요소를 사용하여 Adobe Experience Platform 프로필 속성 및 대상을 사용하여 오퍼의 콘텐츠를 개인화할 수 있습니다. </p>
-<p>자세한 내용은 <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">세부 설명서</a>를 참고하세요.</p>
+<p>자세한 내용은 <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">세부 설명서</a>를 참고하십시오.</p>
 </td>
 </tr>
 </tbody>

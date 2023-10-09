@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 제외 목록 관리
+title: 금지 목록 관리
 description: Journey Optimizer 제외 목록에 액세스하고 관리하는 방법을 알아봅니다
 feature: Application Settings
 topic: Administration
@@ -12,11 +12,11 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
-# 제외 목록 관리 {#manage-suppression-list}
+# 금지 목록 관리 {#manage-suppression-list}
 
 포함 [!DNL Journey Optimizer], 하드 바운스, 소프트 바운스 및 스팸 불만 등, 여정 또는 캠페인에서 자동으로 제외되는 모든 이메일 주소를 모니터링할 수 있습니다.
 

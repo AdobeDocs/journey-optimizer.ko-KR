@@ -186,4 +186,4 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 ## 다음 단계 {#next-steps}
 
-이 API 안내서에 따라 [!DNL 을 사용하여 작업 로드 상태 및 게재된 오퍼를 확인했습니다 [!DNL Batch Decisioning]] API. 자세한 내용은 [의사 결정 관리 개요](../../get-started/starting-offer-decisioning.md).
+이 API 안내서에 따라 [!DNL]을 사용하여 작업 로드 상태 및 게재된 오퍼를 확인했습니다 [!DNL Batch Decisioning]] API. 자세한 내용은 [의사 결정 관리 개요](../../get-started/starting-offer-decisioning.md).

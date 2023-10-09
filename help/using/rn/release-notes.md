@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
 workflow-type: tm+mt
 source-wordcount: '4254'
-ht-degree: 83%
+ht-degree: 97%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>계산된 속성을 사용하면 향상된 동작 기반 세분화, 개인화 및 활성화를 위해 직관적인 사용자 인터페이스를 통해 이벤트 데이터를 프로필 속성으로 쉽게 요약할 수 있습니다. 이 기능을 사용하면 셀프서비스 방식으로 계산된 속성을 만들고 관리하여 세그멘테이션, 실시간 고객 프로필 대상 또는 Journey Optimizer에서 사용할 수 있습니다.<br/><br/>
-또한 계산된 속성은 세분화 및 여정 워크플로를 단순화하여 관련 경험을 원활하게 전달할 수 있습니다. 다음에서 자세히 알아보기 <a href="../audience/computed-attributes.md">자세한 설명서</a>.</p>
+<p>계산된 속성을 사용하면 향상된 동작 기반 세분화, 개인화 및 활성화를 위해 직관적인 사용자 인터페이스를 통해 이벤트 데이터를 프로필 속성으로 쉽게 요약할 수 있습니다. 이 기능을 사용하면 셀프서비스 방식으로 계산된 속성을 만들고 관리하여 세분화, 실시간 고객 프로필 대상 또는 Journey Optimizer에서 사용할 수 있습니다.<br/><br/>
+또한 계산된 속성은 세분화 및 여정 워크플로우를 간소화하여 관련 경험을 원활하게 전달할 수 있습니다. <a href="../audience/computed-attributes.md">상세 설명서</a>에서 자세히 알아보십시오.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -61,9 +61,9 @@ ht-degree: 83%
 <tr>
 <td>
 <p>채널 보고서 기능은 분석가와 마케터에게 채널 수준의 트래픽 및 참여 지표에 대한 포괄적인 개요를 제공합니다.</p>
-<p>에 액세스하려면 <b>보고서</b> 메뉴, 다음 항목이 있어야 합니다. <b>채널 보고서 보기</b> 권한.</p>
+<p><b>보고서</b> 메뉴에 액세스하려면 <b>채널 보고서 보기</b> 권한이 있어야 합니다.</p>
 <img src="assets/channel-reports.png"/>
-<p>자세한 내용은 <a href="../reports/channel-report.md">자세한 설명서</a>, 및 <a href="../reports/channel-report.md#channel-report-video">방법 비디오</a>.</p>
+<p>자세한 내용은 <a href="../reports/channel-report.md">세부 설명서</a> 및 <a href="../reports/channel-report.md#channel-report-video">방법 비디오</a>를 참조하십시오.</p>
 </tr>
 </tbody>
 </table>
@@ -80,7 +80,7 @@ ht-degree: 83%
 <td>
 <p>이제 클라우드 스토리지 대상으로 Journey Optimizer 데이터 세트 내보내기를 일반적으로 사용할 수 있습니다. 이제 클라우드 스토리지 위치와 실시간 연결을 설정하여 데이터 세트의 콘텐츠를 내보낼 수 있습니다.</p>
 <img src="../data/assets/dataset-export-setup.png">
-<p>자세한 내용은 <a href="../data/export-datasets.md">세부 설명서</a>를 참고하세요.</p>
+<p>자세한 내용은 <a href="../data/export-datasets.md">세부 설명서</a>를 참고하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -89,14 +89,14 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>샌드박스당 모바일 애플리케이션 자격 증명 저장소</strong><br/></th>
+<th><strong>샌드박스당 모바일 애플리케이션 자격 증명 스토리지</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이 새로운 기능을 사용하면 푸시 자격 증명을 앱 표면의 전용 샌드박스와 쉽게 관리하고 연결할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../in-app/inapp-configuration.md#channel-prerequisites">자세한 설명서</a>를 참조하세요.</p>
+<p>이 새로운 기능을 사용하면 푸시 자격 증명을 쉽게 관리하고 앱 표면의 전용 샌드박스와 연결할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../in-app/inapp-configuration.md#channel-prerequisites">세부 설명서</a>를 참고하십시오.</p>
 </tr>
 </tbody>
 </table>
@@ -111,7 +111,7 @@ ht-degree: 83%
 
 **개인화**
 
-* 이제 시각적 조각 외에도 표현식 편집기를 통해 Journey Optimizer 인터페이스에서 표현식 조각을 만들고, 저장하고, 다시 사용할 수 있습니다. 표현식 조각은 이전에 저장된 표현식을 대체합니다. [자세히 알아보기](../personalization/use-expression-fragments.md)
+* 이제 시각적 조각 외에도 표현식 편집기를 통해 Journey Optimizer 인터페이스에서 표현식 조각을 만들고, 저장하며, 다시 사용할 수 있습니다. 표현식 조각은 이전에 저장된 표현식을 대체합니다. [자세히 알아보기](../personalization/use-expression-fragments.md)
 
 **경고**
 
@@ -119,11 +119,11 @@ ht-degree: 83%
 
 **웹 채널**
 
-* 이제 웹 시각적 편집기에서 단일 페이지 애플리케이션(SPA)을 작성할 수 있으며, 이를 통해 웹 페이지 수정 사항을 적용할 특정 보기를 선택할 수 있습니다. 보기는 전체 사이트 또는 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다. Adobe Experience Platform Web SDK 구현에서 보기를 정의하려면 일회용 개발자 설정이 필요합니다. 이렇게 하면 마케터는 SPA에서 Adobe Journey Optimizer 웹 캠페인을 만들고 실행할 수 있습니다. [자세히 알아보기](../web/web-spa.md)
+* 이제 웹 시각적 편집기에서 단일 페이지 애플리케이션(SPA)을 작성할 수 있으며, 이를 통해 웹 페이지 수정 사항을 적용할 특정 보기를 선택할 수 있습니다. 보기는 전체 사이트로 정의하거나 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다. Adobe Experience Platform Web SDK 구현에서 보기를 정의하려면 일회용 개발자 설정이 필요합니다. 이렇게 하면 마케터는 SPA에서 Adobe Journey Optimizer 웹 캠페인을 만들고 실행할 수 있습니다. [자세히 알아보기](../web/web-spa.md)
 
 * 이제 웹 디자이너를 사용하여 페이지를 편집할 때 구성 요소를 선택하고 디자이너 인터페이스에서 편집할 필요 없이 수정 창에서 직접 콘텐츠에 새 변경 사항을 추가할 수 있습니다. [자세히 알아보기](../web/manage-web-modifications.md#add-modifications)
 
-* 이제 웹 하위 도메인을 설정할 때 Adobe으로 이미 위임된 하위 도메인을 사용할 수 있을 뿐만 아니라 고유한 하위 도메인을 추가할 수 있는 옵션이 제공됩니다. [자세히 보기](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
+* 이제 웹 하위 도메인을 설정할 때 Adobe로 이미 위임된 하위 도메인을 사용할 수 있을 뿐만 아니라 고유한 하위 도메인을 추가할 수 있는 옵션이 제공됩니다. [자세히 보기](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **여정**
 
@@ -131,20 +131,20 @@ ht-degree: 83%
 
 
 
-* 이제 사용자 지정 작업 응답에 대한 지원이 GA됩니다. 이 기능을 사용하면 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 또한 모든 통관 조치를 엔드포인트당 30초 이상 15만 건 호출로 제한하는 가드레일이 새로 추가됐다. [자세히 알아보기](../action/action-response.md)
+* 이제 사용자 정의 작업 응답에 대한 지원이 GA됩니다. 이 기능을 사용하면 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 또한 모든 통관 조치를 엔드포인트당 30초 이상 15만 건 호출로 제한하는 가드레일이 새로 추가됐다. [자세히 알아보기](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **이메일 채널**
 
-* 이메일 표면 구성의 새 옵션을 사용하면 이메일 주소가 Adobe에 있는 경우에도 프로필에 트랜잭션 메시지를 보내도록 선택할 수 있습니다 [!DNL Journey Optimizer] 비표시 목록. [자세히 알아보기](../email/email-settings.md#send-to-suppressed-email-addresses)
+* 이메일 표면 구성의 새 옵션을 사용하면 이메일 주소가 Adobe [!DNL Journey Optimizer] 금지 목록에 있는 경우에도 프로필에 트랜잭션 메시지를 보내도록 선택할 수 있습니다. [자세히 알아보기](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **SMS 채널**
 
-* 두 개의 새 필드, **옵트인 메시지** 및 **도움말 메시지**&#x200B;가 API 구성 화면에 추가되어 사용자가 인바운드 키워드에 대한 응답을 사용자 지정할 수 있습니다. Sinch SMS 공급자만 사용할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md#create-api)
+* 두 개의 새 필드인 **옵트인 메시지** 및 **도움말 메시지**&#x200B;가 API 구성 화면에 추가되어 사용자가 인바운드 키워드에 대한 응답을 사용자 지정할 수 있습니다. Sinch SMS 공급자만 사용할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md#create-api)
 
-* SMS 옵트아웃은 더 이상 채널 수준에서 관리되지 않습니다. 이제 특정 번호를 사용합니다. 즉, 일부 프로필이 지정된 번호나 짧은 코드에서 옵트아웃해도 SMS 메시지를 보내는 데 사용할 수 있는 다른 번호에서 메시지를 보낼 수 있습니다. 새 옵션을 사용하면 다음을 선택할 수 있습니다 **옵트아웃 번호** 특정 서피스에 를 사용합니다. [자세히 알아보기](../sms/sms-configuration.md#message-preset-sms)
+* SMS 옵트아웃은 더 이상 채널 수준에서 관리되지 않습니다. 이제는 번호별로 지정됩니다. 즉, 일부 프로필이 지정된 번호나 짧은 코드에서 옵트아웃해도 SMS 메시지를 보내는 데 사용할 수 있는 다른 번호에서 메시지를 보낼 수 있습니다. 새 옵션을 사용하면 특정 표면에 사용할 **옵트아웃 번호**&#x200B;를 선택할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md#message-preset-sms)
 
 **DM 채널**
 
@@ -152,11 +152,11 @@ ht-degree: 83%
 
 **보고**
 
-* 이제 Journey Optimizer 보고서를 CSV 파일로 내보낼 수 있습니다. 다음에서 자세히 알아보기 [자세한 설명서](../reports/global-report.md#export-reports) 및 [방법 비디오](../reports/global-report.md#video-csv).
+* 이제 Journey Optimizer 보고서를 PDF로 내보낼 수 있습니다. [세부 설명서](../reports/global-report.md#export-reports) 및 [방법 비디오](../reports/global-report.md#video-csv)에서 자세히 알아보십시오.
 
-**자산**
+**에셋**
 
-* 에셋에 대한 새 옵션을 사용하면 Journey Optimizer에서 에셋에 대한 저장소를 선택할 수 있습니다. 이 솔루션을 소유하고 있는 경우 Assets Essentials 저장소 또는 에셋 as a Cloud Service 저장소를 선택할 수 있습니다. [자세히 알아보기](../content-management/assets-essentials.md)
+* 에셋에 대한 새 옵션을 사용하면 Journey Optimizer에서 에셋 저장소를 선택할 수 있습니다. 이 솔루션을 소유하고 있는 경우 Assets Essentials 저장소 또는 Assets as a Cloud Service 저장소를 선택할 수 있습니다. [자세히 알아보기](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 

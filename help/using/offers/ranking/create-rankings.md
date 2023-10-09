@@ -12,7 +12,7 @@ ht-degree: 26%
 
 ---
 
-# 등급 만들기 {#create-rankings}
+#  등급 만들기 {#create-rankings}
 
 개요
 

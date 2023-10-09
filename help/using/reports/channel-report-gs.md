@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 채널 보고서
-description: 채널 보고서 시작
+description: 동적 보고서 시작
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# 채널 보고서 시작 {#channel-report-gs}
+# 동적 보고서 시작 {#channel-report-gs}
 
 채널 보고서는 모든 캠페인 및 여정의 모든 작업을 포함하여 트래픽 및 참여 지표에 대한 포괄적인 개요를 각 채널용 통합 보고서에 제공하는 강력한 도구입니다. 각각 캠페인 또는 여정 성능의 특정 보기를 제공하는 다양한 위젯으로 나뉩니다.
 

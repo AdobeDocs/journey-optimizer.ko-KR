@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 10%
 
 * 경험 이벤트 필드 그룹은 대상자 읽기, 대상자 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다.
 
-* 여정에서 대상 자격을 사용할 때 해당 대상 자격 활동은 최대 10분 정도 걸릴 수 있으며 대상을 입력하거나 나가는 프로필을 들을 수 있습니다.
+* 여정에서 대상자 자격을 사용할 때 해당 대상자 자격 활동이 활성화되고 대상자에 들어오거나 나가는 프로필을 듣는 데 최대 10분이 걸릴 수 있습니다.
 
 ### 활동 구성{#cnfigure-segment-qualification}
 

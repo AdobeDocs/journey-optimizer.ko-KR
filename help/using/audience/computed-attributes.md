@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 계산된 속성을 사용한 작업
+title: 계산된 속성 관련 작업
 description: 계산된 속성으로 작업하는 방법을 알아봅니다.
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: 608394da88d42095a1adc517a067c725eac52707
+exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
-
-# 계산된 속성을 사용한 작업 {#computed-attributes}
+# 계산된 속성 관련 작업 {#computed-attributes}
 
 계산된 속성을 사용하면 개별 행동 이벤트를 Adobe Experience Platform에서 사용할 수 있는 계산된 프로필 속성으로 요약할 수 있습니다. 이러한 계산된 속성은 Adobe Experience Platform에 수집된 프로필 사용 경험 이벤트 데이터 세트를 기반으로 하며 고객 프로필 내에 저장된 집계된 데이터 포인트로 사용됩니다.
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 규칙이 준비되면 계산된 속성을 게시하여 Journey Optimizer을 포함한 다른 다운스트림 서비스에서 사용할 수 있도록 합니다.
 
-계산된 속성을 만들고 관리하는 방법에 대한 자세한 내용은 [계산된 속성 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html)
+계산된 속성을 만들고 관리하는 방법에 대한 자세한 내용은 [계산된 속성 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=ko)
 
 ## Adobe Experience Platform 데이터 소스에 계산된 속성 추가 {#source}
 

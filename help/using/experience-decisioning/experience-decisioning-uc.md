@@ -11,7 +11,7 @@ badge: label="Beta"
 source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 9%
+ht-degree: 18%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 9%
 
 이 설명서의 내용:
 
-* [Experience Decisioning 시작하기](gs-experience-decisioning.md)
-* 의사 결정 항목 관리
+* [Experience Decisioning 시작](gs-experience-decisioning.md)
+* 결정 항목 관리
    * [항목 카탈로그 구성](catalogs.md)
-   * [의사 결정 항목 만들기](items.md)
+   * [결정 항목 만들기](items.md)
    * [항목 컬렉션 관리](collections.md)
 * 항목 선택 구성
    * [의사 결정 규칙 만들기](rules.md)
    * [등급 메서드 만들기](ranking.md)
 * [선택 전략 만들기](selection-strategies.md)
-* [의사 결정 정책 만들기](create-decision.md)
+* [결정 정책 만들기](create-decision.md)
 * **[사용 사례를 통해 알아보기](experience-decisioning-uc.md)**
 
 >[!ENDSHADEBOX]
@@ -54,7 +54,7 @@ ht-degree: 9%
 
 1. 빌드 **선택 전략** 컬렉션, 의사 결정 규칙 및 등급 방법을 활용하여 프로필에 표시하는 데 적합한 의사 결정 항목을 식별합니다. [자세히 알아보기](selection-strategies.md)
 
-## 의사 결정 정책 만들기
+## 결정 정책 만들기
 
 웹 사이트 또는 모바일 앱에서 방문자에게 최고의 동적 오퍼 및 경험을 제공하려면 코드 기반 캠페인에 의사 결정 정책을 추가하십시오.
 

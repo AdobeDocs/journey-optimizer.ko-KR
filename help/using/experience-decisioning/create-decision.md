@@ -12,11 +12,11 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
-# 의사 결정 정책 만들기 {#create-decision}
+# 결정 정책 만들기 {#create-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
@@ -28,16 +28,16 @@ ht-degree: 17%
 
 이 설명서의 내용:
 
-* [Experience Decisioning 시작하기](gs-experience-decisioning.md)
-* 의사 결정 항목 관리
+* [Experience Decisioning 시작](gs-experience-decisioning.md)
+* 결정 항목 관리
    * [항목 카탈로그 구성](catalogs.md)
-   * [의사 결정 항목 만들기](items.md)
+   * [결정 항목 만들기](items.md)
    * [항목 컬렉션 관리](collections.md)
 * 항목 선택 구성
    * [의사 결정 규칙 만들기](rules.md)
    * [등급 메서드 만들기](ranking.md)
 * [선택 전략 만들기](selection-strategies.md)
-* **[의사 결정 정책 만들기](create-decision.md)**
+* **[결정 정책 만들기](create-decision.md)**
 
 >[!ENDSHADEBOX]
 
@@ -188,7 +188,7 @@ ht-degree: 17%
 >
 >코드 기반 경험은 [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
-1. \+ 아이콘을 클릭합니다. 결정 정책에 해당하는 코드가 추가됩니다. 이제 해당 코드 내에 원하는 모든 결정 특성을 추가할 수 있습니다.
+1. + 아이콘을 클릭합니다. 결정 정책에 해당하는 코드가 추가됩니다. 이제 해당 코드 내에 원하는 모든 결정 특성을 추가할 수 있습니다.
 
    ![](assets/decision-code-based-add-decision.png)
 

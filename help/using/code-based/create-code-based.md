@@ -12,7 +12,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->코드 기반 경험 채널은 현재 사용자를 선택하는 베타 버전으로 사용할 수 있습니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
+>코드 기반 경험 채널은 현재 일부 사용자에게만 Beta 버전으로 제공됩니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
 
 ## 코드 기반 캠페인 만들기 {#create-code-based-campaign}
 
