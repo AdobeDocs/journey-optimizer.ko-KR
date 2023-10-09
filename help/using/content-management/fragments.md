@@ -8,37 +8,44 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 732b84a8945e85cb77a8d2c477f9c9a064988109
+source-git-commit: 95172d45401dc933ce09ae7d9be6eadf01952e3c
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 4%
+source-wordcount: '1548'
+ht-degree: 3%
 
 ---
 
 # 조각을 사용한 작업 {#fragments}
 
+>[!CONTEXTUALHELP]
+>id="ajo_create_fragment"
+>title="나만의 조각 정의"
+>abstract="독립형 조각을 만들고 관리하여 여러 여정 및 캠페인에서 콘텐츠를 재사용할 수 있도록 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="조각 만들기"
+
 조각은 의 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다 [!DNL Journey Optimizer] 캠페인 및 여정.
 
 이 기능을 사용하면 마케팅 사용자가 향상된 디자인 프로세스에서 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다.
 
-➡️ [이 비디오에서 조각을 관리, 작성 및 사용하는 방법을 알아봅니다](#video-fragments)
+![](../rn/assets/do-not-localize/fragments.gif)
 
->[!CAUTION]
->
->조각을 만들고 편집하고 보관하려면 **[!DNL Manage Library Items]** 에 포함된 권한 **[!DNL Content Library Manager]** 제품 프로필. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+➡️ [이 비디오에서 조각을 관리, 작성 및 사용하는 방법을 알아봅니다](#video-fragments)
 
 조각을 최대한 활용하려면 다음을 수행하십시오.
 
 * 나만의 조각을 만들어 보세요. 시각적 조각 또는 표현식 조각을 만들 수 있습니다. [자세히 알아보기](#create-fragments)
+
 * 콘텐츠에서 필요한 횟수만큼 사용하십시오. 다음을 참조하십시오 [시각적 조각 추가](../email/use-visual-fragments.md) 및 [표현식 조각 활용](../personalization/use-expression-fragments.md)
 
->[!NOTE]
->
->현재 위치 [!DNL Journey Optimizer]:
->
->* 시각적 조각은 이메일 채널에만 사용할 수 있습니다.
->
->* 웹 및 인앱 채널에는 표현식 조각을 사용할 수 없습니다.
+## 시작하기 전 {#fragment-prerequisites}
+
+조각을 만들고, 편집하고, 보관하려면 **[!DNL Manage Library Items]** 에 포함된 권한 **[!DNL Content Library Manager]** 제품 프로필. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+
+이 버전에서는 다음 제한 사항이 적용됩니다.
+
+* 시각적 조각은 이메일 채널에만 사용할 수 있습니다.
+
+* 웹 및 인앱 채널에는 표현식 조각을 사용할 수 없습니다.
 
 ## 조각 액세스 및 관리 {#access-manage-fragments}
 
@@ -133,14 +140,9 @@ ht-degree: 4%
 
 ### 처음부터 만들기 {#create-from-scratch}
 
->[!CONTEXTUALHELP]
->id="ajo_create_fragment"
->title="나만의 조각 정의"
->abstract="여러 여정과 캠페인 전반에서 콘텐츠를 재사용할 수 있도록 처음부터 독립 실행형 조각을 만듭니다."
-
 조각을 처음부터 만들려면 아래 단계를 수행합니다.
 
-1. 다음을 통해 조각 목록에 액세스 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴.
+1. [조각 목록 액세스](#access-manage-fragments) 다음을 통해 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴.
 
 1. 선택 **[!UICONTROL 조각 만들기]**.
 
@@ -157,6 +159,12 @@ ht-degree: 4%
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
 ### 시각적 조각 만들기 {#create-visual-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_visual_fragment"
+>title="시각적 유형 선택"
+>abstract="독립 실행형 시각적 조각을 만들어 여정 또는 캠페인 내의 이메일이나 콘텐츠 템플릿에서 콘텐츠를 재사용할 수 있도록 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="이메일에 시각적 조각 추가"
 
 1. [조각 만들기](#create-from-scratch) 다음에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴에서 **[!UICONTROL 시각적 조각]** 유형.
 
@@ -181,6 +189,12 @@ ht-degree: 4%
 이제 이 조각을 작성할 때 사용할 준비가 되었습니다. [이메일](../email/get-started-email-design.md) 또는 [콘텐츠 템플릿](content-templates.md) 다음 범위 내 [!DNL Journey Optimizer]. [방법 알아보기](../email/use-visual-fragments.md)
 
 ### 표현식 조각 만들기 {#create-expression-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_expression_fragment"
+>title="표현식 유형 선택"
+>abstract="독립 실행형 표현식 조각을 만들어 여러 여정 및 캠페인에서 콘텐츠를 재사용할 수 있도록 합니다. 표현식 편집기를 사용할 때 현재 샌드박스에서 생성된 모든 표현식 조각을 활용할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="표현식 조각 활용"
 
 1. [조각 만들기](#create-from-scratch) 다음에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴에서 **[!UICONTROL 표현식 조각]** 유형.
 
