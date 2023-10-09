@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 7c0b0fe67a5a2665f7cf7bdce4a36207d7bcef56
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 12%
+source-wordcount: '1522'
+ht-degree: 11%
 
 ---
 
@@ -70,6 +70,7 @@ ht-degree: 12%
 * 테스트 모드가 활성화되면 여정을 수정할 수 없습니다. 테스트 모드에 있는 경우 여정을 직접 게시할 수 있으므로 이전에 테스트 모드를 비활성화할 필요가 없습니다.
 * 분할에 도달하면 항상 위쪽 분기가 선택됩니다. 검사에서 다른 경로를 선택하려는 경우 분할된 분기의 위치를 재구성할 수 있습니다.
 * 성능을 최적화하고 오래된 리소스의 사용을 방지하기 위해 1주일 동안 트리거되지 않은 테스트 모드의 모든 여정이 **초안** 상태.
+* 테스트 모드에 의해 트리거된 이벤트는 전용 데이터 세트에 저장됩니다. 이러한 데이터 세트에는 다음과 같이 레이블이 지정됩니다. `JOtestmode - <schema of your event>`
 
 ## 이벤트 트리거 {#firing_events}
 
