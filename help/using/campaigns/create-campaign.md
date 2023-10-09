@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
+source-git-commit: 78744537149a18b2e5c8b54689de97c350939a00
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 28%
+source-wordcount: '933'
+ht-degree: 27%
 
 ---
 
@@ -139,6 +139,11 @@ ht-degree: 28%
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## 캠페인 예약 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule"
+>title="캠페인 일정"
+>abstract="기본적으로 캠페인은 수동 활성화 시 시작되며 메시지가 한 번 전송된 직후 종료됩니다. 하지만 메시지를 보낼 특정 날짜 및 시간을 유연하게 설정할 수 있습니다. 또한 반복 또는 API 트리거 캠페인의 종료 날짜를 지정할 수 있습니다. 작업 트리거에서 환경 설정에 맞게 메시지 전송 빈도를 구성할 수도 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
