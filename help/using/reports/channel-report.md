@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 4%
+source-wordcount: '2664'
+ht-degree: 3%
 
 ---
 
@@ -41,15 +41,73 @@ ht-degree: 4%
 
 ➡️ [비디오에서 이 기능 살펴보기](#channel-report-video)
 
-
 ## 이메일 {#email}
 
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_sending_statistics"
+>title="이메일 - 총 전송 통계"
+>abstract="이메일 - 총 전송 통계 KPI는 타깃팅된 메시지 또는 게재된 메시지와 같은 푸시 알림에 대한 필수 데이터를 요약합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_tracking_statistics"
+>title="이메일 - 총 추적 통계"
+>abstract="이메일 - 총 추적 통계 KPI는 이메일의 프로필 활동에 대한 데이터를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_sending_statistics_overtime"
+>title="이메일 - 시간에 따른 전송 통계"
+>abstract="이메일 - 시간 경과에 따른 전송 통계 그래프는 전송된 이메일에 대한 데이터를 시간별, 일별, 주별 또는 월별 기준으로 분류하여 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_tracking_statistics_overtime"
+>title="이메일 - 시간 경과에 따른 추적 통계"
+>abstract="이메일 - 시간 경과에 따른 추적 통계 그래프는 이메일의 프로필 활동에 대한 데이터를 시간별, 일별, 주별 또는 월별 기준으로 분류하여 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_bounce_categories"
+>title="바운스 범주"
+>abstract="바운스 카테고리 그래프와 테이블은 임시 오류와 영구 오류에 대한 데이터를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_bounce_reasons"
+>title="바운스 원인"
+>abstract="반송 원인 그래프 및 표에는 반송된 메시지와 관련하여 사용할 수 있는 데이터가 포함되어 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_error_reasons"
+>title="오류 원인"
+>abstract="오류 원인 그래프 및 테이블을 사용하면 전송 프로세스 중에 발생한 특정 오류를 식별할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_excluded_reasons"
+>title="제외된 이유"
+>abstract="제외된 이유 그래프 및 표는 사용자 프로필이 타겟팅된 대상에서 제외되고 메시지가 수신되지 않은 다양한 요인을 보여 줍니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_sending_delivered_domains"
+>title="도메인에서 전송 및 전달"
+>abstract="도메인에서 보내고 받음 그래프 및 표는 모든 중요한 이메일 전송 데이터의 도메인 수준 분석을 나타냅니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_bounces_errors_domains"
+>title="도메인별 바운스 및 오류"
+>abstract="도메인별 바운스 및 오류 그래프 및 표는 전송 프로세스 중에 발생한 특정 오류에 대한 도메인 수준의 분석을 나타냅니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_open_clicks_domains"
+>title="도메인별 열기 및 클릭"
+>abstract="도메인별 열기 및 클릭 수 그래프 및 표는 방문자의 이메일 참여에 대한 도메인 수준 분석을 나타냅니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_bounce_reasons_domains"
+>title="도메인별 바운스 원인"
+>abstract="도메인별 바운스 원인 그래프 및 표는 임시 및 영구 오류에 대한 데이터의 도메인 수준 분류를 나타냅니다."
 
 채널 보고서에서 이메일 메뉴는 캠페인 및 여정에서 보낸 이메일과 관련된 기본 정보를 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/email_channel_1.png)
 
-+++  이메일 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
++++ 이메일 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
 
 다음 **[!UICONTROL 이메일 총 전송 통계]** 그래프는 이메일의 성공을 자세히 설명합니다.
 
@@ -73,7 +131,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 제외 비율]**: Adobe Journey Optimizer에서 제외된 프로필의 비율입니다.
 
-다음 **[!UICONTROL 이메일 총 추적 통계]** 위젯에는 전자 메일에 대한 수신자 활동에 사용할 수 있는 데이터가 포함되어 있습니다.
+다음 **[!UICONTROL 이메일 총 추적 통계]** 위젯에는 이메일에 대한 프로필 활동에 사용 가능한 데이터가 포함되어 있습니다.
 
 * **[!UICONTROL 열림]**: 메시지가 열린 횟수입니다.
 
@@ -122,11 +180,49 @@ ht-degree: 4%
 
 ## 푸시 알림 {#push}
 
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_sending_statistics"
+>title="푸시 알림 - 총 전송 통계"
+>abstract="푸시 알림 - 총 전송 통계 KPI는 Targeted 또는 Delivered와 같은 푸시 알림에 대한 필수 데이터를 요약합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_tracking_statistics"
+>title="푸시 알림 - 총 추적 통계"
+>abstract="푸시 알림 - 총 추적 통계는 푸시 알림의 프로필 활동에 대한 데이터를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_sending_statistics_overtime"
+>title="푸시 알림 - 시간에 따른 통계 전송"
+>abstract="시간 경과에 따른 푸시 알림 전송 통계 그래프는 전송된 푸시 알림과 관련된 데이터를 시간별, 일별, 주별 또는 월별 기준으로 분류하여 표시합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_tracking_statistics_overtime"
+>title="푸시 알림 - 시간 경과에 따른 추적 통계"
+>abstract="푸시 알림 - 시간 경과에 따른 추적 통계 그래프는 푸시 알림의 프로필 활동에 대한 데이터를 시간별, 일별, 주별 또는 월별로 분류하여 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_excluded_reasons"
+>title="제외된 이유"
+>abstract="제외된 이유 그래프 및 표는 사용자 프로필이 타겟팅된 대상에서 제외되고 메시지가 수신되지 않은 다양한 요인을 보여 줍니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_error_reasons"
+>title="오류 원인"
+>abstract="오류 원인 그래프 및 테이블을 사용하면 전송 프로세스 중에 발생한 특정 오류를 식별할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_tracking_statistics_platform"
+>title="플랫폼별 추적 통계"
+>abstract="플랫폼 그래프 및 테이블별 추적 통계는 프로필의 운영 체제에 따라 푸시 알림의 프로필 활동에 대한 데이터를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_sending_statistics_platform"
+>title="플랫폼별 전송 통계"
+>abstract="플랫폼별 전송 통계 그래프 및 표에는 전송된 푸시 알림과 관련된 데이터가 표시됩니다."
 
 채널 보고서에서 푸시 알림 메뉴에는 캠페인 및 여정에서 전송된 푸시 알림과 관련된 기본 정보가 자세히 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/push_channel_1.png)
-
 
 +++  푸시 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
 
@@ -152,7 +248,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 제외 비율]**: Adobe Journey Optimizer에서 제외된 프로필의 비율입니다.
 
-다음 **[!UICONTROL 푸시 알림 - 총 추적 통계]** 푸시 알림에 대한 수신자 활동에 사용 가능한 데이터를 포함합니다.
+다음 **[!UICONTROL 푸시 알림 - 총 추적 통계]** 푸시 알림에 대한 프로필 활동에 사용 가능한 데이터를 포함합니다.
 
 * **[!UICONTROL 열림]**: 푸시 알림이 열린 횟수입니다.
 
@@ -178,16 +274,49 @@ ht-degree: 4%
 
 다음 **[!UICONTROL 오류 원인]** 그래프와 표를 통해 발생한 오류를 확인할 수 있습니다.
 
-다음 **[!UICONTROL 플랫폼을 통한 추적]** 및 **[!UICONTROL 플랫폼을 통한 전송]** 그래프 및 표는 수신자의 운영 체제에 따라 푸시 알림의 성공 여부를 자세히 설명합니다.
+다음 **[!UICONTROL 플랫폼을 통한 추적]** 및 **[!UICONTROL 플랫폼을 통한 전송]** 그래프와 표는 프로필의 운영 체제에 따라 푸시 알림의 성공 여부를 자세히 설명합니다.
 +++
 
 ## SMS {#sms}
 
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_sending_statistics"
+>title="SMS - 총 전송 통계"
+>abstract="SMS - 총 전송 통계 KPI는 타겟팅됨 또는 게재됨 등 SMS 메시지에 대한 필수 데이터를 요약합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_tracking_statistics"
+>title="SMS - 총 추적 통계"
+>abstract="SMS - 총 추적 통계는 SMS 메시지의 프로필 활동에 대한 데이터를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_sending_statistics_overtime"
+>title="SMS - 시간 경과에 따른 통계 전송"
+>abstract="SMS - 시간 경과에 따른 전송 통계 그래프는 전송된 SMS 메시지에 대한 데이터를 시간별, 일별, 주별 또는 월별 기준으로 분류하여 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_tracking_statistics_overtime"
+>title="SMS - 시간 경과에 따른 통계 추적"
+>abstract="SMS - 시간 경과에 따른 추적 통계 그래프는 SMS 메시지의 프로필 활동에 대한 데이터를 시간별, 일별, 주별 또는 월별로 분류하여 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_excluded_reasons"
+>title="제외된 이유"
+>abstract="제외된 이유 그래프 및 표는 사용자 프로필이 타겟팅된 대상에서 제외되고 메시지가 수신되지 않은 다양한 요인을 보여 줍니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_bounce_reasons"
+>title="바운스 원인"
+>abstract="반송 원인 그래프 및 표에는 반송된 메시지와 관련하여 사용할 수 있는 데이터가 포함되어 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_error_reasons"
+>title="오류 원인"
+>abstract="오류 원인 그래프 및 테이블을 사용하면 전송 프로세스 중에 발생한 특정 오류를 식별할 수 있습니다."
 
 채널 보고서에서 SMS 메뉴는 캠페인 및 여정에서 보낸 SMS와 관련된 기본 정보를 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/sms_channel_1.png)
-
 
 +++ SMS 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
 
@@ -233,63 +362,29 @@ ht-degree: 4%
 
 +++
 
-## 인앱 {#in-app}
-
-
-채널 보고서에서 인앱 메뉴는 캠페인 및 여정에서 보낸 인앱 메시지와 관련된 기본 정보를 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
-
-![](assets/inapp_channel_1.png)
-
-
-+++  인앱 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
-
-다음 **[!UICONTROL 인앱 총 참여]** KPI는 다음과 같이 방문자의 인앱 메시지 참여와 관련된 주요 정보를 자세히 설명합니다.
-
-* **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 인앱 메시지 수입니다.
-
-* **[!UICONTROL 상호 작용]**: 인앱 메시지의 총 참여 수입니다. 여기에는 클릭, 해제 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
-
-* **[!UICONTROL 취소]**: 수신자가 닫기 단추 또는 자동 취소를 클릭하여 거부한 총 인앱 메시지 수입니다.
-
-* **[!UICONTROL 취소율]**: 수신자가 해제한 인앱 메시지 비율.
-
-다음 **[!UICONTROL 인앱 참여 초과 작업]** 그래프는 노출, 무시 또는 상호 작용을 추적하여 관련 기간 동안 인앱 노출 및 상호 작용의 진행 상황을 보여 줍니다.
-
-+++
-
-## 웹 {#web}
-
-
-웹 메뉴는 채널 보고서에서 캠페인 및 여정에 포함된 웹 페이지와 관련된 기본 정보를 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
-
-![](assets/web_channel_1.png)
-
-
-+++ 웹 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
-
-다음 **[!UICONTROL 웹 총 참여]** KPI는 다음과 같이 방문자의 웹 경험 참여와 관련된 주요 정보를 자세히 설명합니다.
-
-* **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 웹 경험 수입니다.
-
-* **[!UICONTROL 상호 작용]**: 웹 페이지에 대한 총 참여 수입니다. 여기에는 클릭 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
-
-* **[!UICONTROL 취소]**: 수신자가 해지한 총 웹 페이지 수입니다.
-
-* **[!UICONTROL 취소율]**: 수신자가 해지한 웹 페이지의 비율입니다.
-
-다음 **[!UICONTROL 웹 참여 초과 작업]** 그래프는 웹 페이지에 대한 방문자의 참여도와 관련된 기본 정보를 자세히 설명합니다.
-
-+++
-
 ## 다이렉트 메일 {#direct-mail}
 
+>[!CONTEXTUALHELP]
+>id="ajo_channel_direct_sending_statistics"
+>title="DM - 총 전송 통계"
+>abstract="DM - 총 전송 통계 KPI는 타겟팅됨 또는 게재됨 등 DM 메시지에 대한 필수 데이터를 요약합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_direct_excluded_reasons"
+>title="제외된 이유"
+>abstract="제외된 이유 그래프 및 표는 사용자 프로필이 타겟팅된 대상에서 제외되고 메시지가 수신되지 않은 다양한 요인을 보여 줍니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_direct_error_reasons"
+>title="오류 원인"
+>abstract="오류 원인 그래프 및 테이블을 사용하면 전송 프로세스 중에 발생한 특정 오류를 식별할 수 있습니다."
 
 채널 보고서에서 다이렉트 메일 메뉴는 캠페인 및 여정에서 보낸 다이렉트 메일 메시지와 관련된 기본 정보를 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/direct_mail_channel_1.png)
 
-
 +++ DM 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
+
 다음 **[!UICONTROL DM - 총 전송 통계]** 메시지 성공 여부를 보여 주는 표는 다음과 같습니다.
 
 * **[!UICONTROL 타깃팅됨]**: DM 메시지의 대상 프로필로 적합한 사용자 프로필 수입니다.
@@ -307,6 +402,69 @@ ht-degree: 4%
 다음 **[!UICONTROL 제외 이유]** 및 **[!UICONTROL 오류 원인]** 그래프와 표를 통해 발생한 오류와 제외 사항을 확인할 수 있습니다.
 +++
 
+## 인앱 {#in-app}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_inapp_engagement"
+>title="인앱 - 총 참여"
+>abstract="인앱 - 총 참여 KPI는 노출 횟수 및 상호 작용 과 같은 지표를 포함하여 방문자의 인앱 메시지 참여에 대한 포괄적인 정보를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_inapp_engagement_overtime"
+>title="인앱 - 계약 기간 초과"
+>abstract="인앱 - 참여 시간 초과 그래프는 인앱 노출 횟수 및 상호 작용을 추적하여 시간별, 일별, 주별 및 월별 분류를 제공합니다."
+
+채널 보고서에서 인앱 메뉴는 캠페인 및 여정에서 보낸 인앱 메시지와 관련된 기본 정보를 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
+
+![](assets/inapp_channel_1.png)
+
++++  인앱 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
+
+다음 **[!UICONTROL 인앱 총 참여]** KPI는 다음과 같이 방문자의 인앱 메시지 참여와 관련된 주요 정보를 자세히 설명합니다.
+
+* **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 인앱 메시지 수입니다.
+
+* **[!UICONTROL 상호 작용]**: 인앱 메시지의 총 참여 수입니다. 여기에는 클릭, 해제 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
+
+* **[!UICONTROL 취소]**: 닫기 버튼 또는 자동 닫기 클릭으로 프로필이 해제된 인앱 메시지의 총 수입니다.
+
+* **[!UICONTROL 취소율]**: 프로필에서 무시한 인앱 메시지 비율입니다.
+
+다음 **[!UICONTROL 인앱 참여 초과 작업]** 그래프는 노출, 무시 또는 상호 작용을 추적하여 관련 기간 동안 인앱 노출 및 상호 작용의 진행 상황을 보여 줍니다.
+
++++
+
+## 웹 {#web}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_web_engagement"
+>title="웹 - 총 참여"
+>abstract="웹 - 총 참여 KPI는 노출 횟수 및 상호 작용 과 같은 지표를 포함하여 방문자의 웹 페이지 참여에 대한 포괄적인 정보를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_web_engagement_overtime"
+>title="웹 - 총 참여 시간 초과"
+>abstract="웹 - 참여 시간 초과 그래프는 웹 페이지 노출 횟수 및 상호 작용을 추적하여 시간별, 일별, 주별 및 월별 분류를 제공합니다."
+
+웹 메뉴는 채널 보고서에서 캠페인 및 여정에 포함된 웹 페이지와 관련된 기본 정보를 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
+
+![](assets/web_channel_1.png)
+
++++ 웹 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
+
+다음 **[!UICONTROL 웹 총 참여]** KPI는 다음과 같이 방문자의 웹 경험 참여와 관련된 주요 정보를 자세히 설명합니다.
+
+* **[!UICONTROL 노출 횟수]**: 모든 사용자에게 전달된 총 웹 경험 수입니다.
+
+* **[!UICONTROL 상호 작용]**: 웹 페이지에 대한 총 참여 수입니다. 여기에는 클릭 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
+
+* **[!UICONTROL 취소]**: 프로필이 기각된 총 웹 페이지 수입니다.
+
+* **[!UICONTROL 취소율]**: 프로필이 기각한 웹 페이지의 비율입니다.
+
+다음 **[!UICONTROL 웹 참여 초과 작업]** 그래프는 웹 페이지에 대한 방문자의 참여도와 관련된 기본 정보를 자세히 설명합니다.
+
++++
 
 ## 채널 보고서(비디오) {#channel-report-video}
 
