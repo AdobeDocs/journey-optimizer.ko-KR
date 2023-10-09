@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Journey Optimizer Campaign에서 대상자를 활성화하기 전부터 사용�
 
 1. 경로 1에서 개인화하지 않을 대상자를 정의하는 데 도움이 되는 레이블을 선택합니다.
 
-1. 다음 목록에서 적절한 값을 선택합니다. https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values
+1. 다음 목록에서 적절한 값을 선택합니다. https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values
 
    이 예시에서는 개인화에 대한 옵트아웃을 뜻하는 NO를 나타내기 위해 “n”을 사용합니다.
 
