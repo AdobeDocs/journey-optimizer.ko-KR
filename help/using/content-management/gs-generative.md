@@ -10,8 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: b99d77138f22839b40414979d36e26d7304947b1
-workflow-type: tm+mt
+exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+workflow-type: ht
 source-wordcount: '238'
 ht-degree: 100%
 
@@ -48,4 +49,3 @@ Adobe Journey Optimizer 콘텐츠 도우미는 텍스트 및 이미지에 대한
 >[!AVAILABILITY]
 >
 >Adobe Journey Optimizer 콘텐츠 도우미는 현재 일부 사용자에게만 Beta 버전으로 제공됩니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
-
