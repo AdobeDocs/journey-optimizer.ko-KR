@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -22,6 +22,8 @@ ht-degree: 1%
 포함 [!DNL Journey Optimizer], 캠페인을 만든 다음 를 사용하는 사용자 트리거에 따라 외부 시스템에서 캠페인을 호출할 수 있습니다. [대화형 메시지 실행 REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 이를 통해 암호 재설정, OTP 토큰 등과 같은 다양한 마케팅 및 트랜잭션 메시지 요구 사항을 처리할 수 있습니다.
 
 이렇게 하려면 먼저 Journey Optimizer에서 API 트리거 캠페인을 만든 다음 API 호출을 통해 실행을 시작해야 합니다.
+
+![](../rn/assets/do-not-localize/api-triggered.gif)
 
 API 트리거 캠페인에 사용할 수 있는 채널은 이메일, SMS 및 푸시 메시지입니다.
 

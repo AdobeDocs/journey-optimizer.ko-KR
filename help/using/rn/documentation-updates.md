@@ -4,16 +4,23 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
-source-wordcount: '3765'
-ht-degree: 98%
+source-wordcount: '3815'
+ht-degree: 97%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+
+
+## 2023년 10월 {#oct-2023}
+
+* 다음과 같은 몇 가지 주요 기능을 설명하는 GIF이 추가되었습니다. [콘텐츠 템플릿](../content-management/content-templates.md), [조각](../content-management/fragments.md), [계산된 속성](../audience/computed-attributes.md), [다이렉트 메일](../direct-mail/get-started-direct-mail.md), [태그](../start/search-filter-categorize.md#tags), [의사 결정 관리 최적화 모델](../offers/ranking/personalized-optimization-model.md), [API 트리거된 캠페인](../campaigns/api-triggered-campaigns.md), 및 [콘텐츠 실험](../campaigns/content-experiment.md).
+* 스키마 만들기 프로세스가 Adobe Experience Platform 변경 사항과 함께 사용자 인터페이스의 최신 업데이트를 반영하도록 업데이트되었습니다. [자세히 보기](../audience/creating-test-profiles.md)
 
 ## 2023년 9월 {#september-2023}
 

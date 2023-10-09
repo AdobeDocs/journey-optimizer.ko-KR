@@ -7,7 +7,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 5%
@@ -19,6 +19,10 @@ ht-degree: 5%
 계산된 속성을 사용하면 개별 행동 이벤트를 Adobe Experience Platform에서 사용할 수 있는 계산된 프로필 속성으로 요약할 수 있습니다. 이러한 계산된 속성은 Adobe Experience Platform에 수집된 프로필 사용 경험 이벤트 데이터 세트를 기반으로 하며 고객 프로필 내에 저장된 집계된 데이터 포인트로 사용됩니다.
 
 각 계산된 속성은 여정 및 캠페인에서 세그멘테이션, 개인화 및 활성화를 위해 활용할 수 있는 프로필 속성입니다. 이러한 간소화는 고객에게 시기적절하고 의미 있는 개인화된 경험을 제공하는 기능을 향상시킵니다.
+
+
+![](../rn/assets/do-not-localize/computed-attributes.gif)
+
 
 >[!NOTE]
 >

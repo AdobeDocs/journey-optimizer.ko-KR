@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
@@ -18,6 +18,9 @@ ht-degree: 100%
 [!DNL Journey Optimizer]에서는 개인화된 웹 경험을 시각적으로 작성하여 고객에게 제공할 수 있습니다.
 
 이 기능을 사용하면 직관적인 시각적 인터페이스에서 웹 속성을 간단히 수정하여 최종 사용자 캠페인을 실험하고 최적화하고 개인화할 수 있습니다.
+
+![](../rn/assets/do-not-localize/web-authoring.gif)
+
 
 이메일이나 SMS 또는 푸시 알림 등 아웃바운드 채널을 이미 사용하고 있다면, 이제 인바운드 웹 채널을 활용하여 어떤 채널에서나 제대로 개인화된 경험을 제공할 수 있습니다.
 
