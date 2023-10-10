@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: DM, 메시지, 캠페인
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 10%
+source-wordcount: '721'
+ht-degree: 8%
 
 ---
 
@@ -58,6 +58,32 @@ DM 캠페인을 만들려면 다음 단계를 수행합니다.
 이제 DM 공급자에게 보낼 추출 파일 구성을 시작할 수 있습니다.
 
 ## 추출 파일 구성 {#extraction-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_data_fields"
+>title="데이터 필드"
+>abstract="DM 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일에 표시할 열과 정보를 추가하고 구성합니다. 최대 50개의 열을 추가할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_sort"
+>title="추출 파일 형식 지정"
+>abstract="다음 <b>정렬 기준:</b> 옵션을 사용하면 선택한 필드를 사용하여 추출 파일의 열을 정렬할 수 있습니다. 이 옵션이 비활성화되면 열은 프로필 ID 필드를 기반으로 자동으로 정렬됩니다."
+
+1. 추출 파일에 표시할 열과 정보를 구성합니다.
+
+   1. 다음을 클릭합니다. **[!UICONTROL 추가]** 단추를 클릭하여 새 열을 만듭니다.
+
+   1. 다음 **[!UICONTROL 서식]** 선택한 열을 설정할 수 있는 창이 오른쪽에 표시됩니다. 지정 **[!UICONTROL 레이블]** 열.
+
+   1. 다음에서 **[!UICONTROL 데이터]** 필드에서 다음을 사용하여 표시할 프로필 속성을 선택합니다. [표현식 편집기](../personalization/personalization-build-expressions.md).
+
+   1. 열을 사용하여 추출 파일을 정렬하려면 열을 선택하고 **[!UICONTROL 정렬 기준:]** 옵션을 선택합니다. 다음 **[!UICONTROL 정렬 기준:]** 아이콘은 열의 레이블 옆에 표시됩니다. **[!UICONTROL 데이터 필드]** 섹션.
+
+
+
+
+
+
 
 DM 공급자가 고객에게 메일을 보낼 때 추출 파일이 필요합니다. 추출 파일 구성을 정의하려면 다음 단계를 수행합니다.
 
