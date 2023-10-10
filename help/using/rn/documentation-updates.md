@@ -4,9 +4,9 @@ product: journey optimizer
 title: 설명서 업데이트
 description: 설명서 업데이트에 대해 알아보기
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
 workflow-type: tm+mt
-source-wordcount: '3815'
+source-wordcount: '3829'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 97%
 
 * 다음과 같은 몇 가지 주요 기능을 설명하는 GIF이 추가되었습니다. [콘텐츠 템플릿](../content-management/content-templates.md), [조각](../content-management/fragments.md), [계산된 속성](../audience/computed-attributes.md), [다이렉트 메일](../direct-mail/get-started-direct-mail.md), [태그](../start/search-filter-categorize.md#tags), [의사 결정 관리 최적화 모델](../offers/ranking/personalized-optimization-model.md), [API 트리거된 캠페인](../campaigns/api-triggered-campaigns.md), 및 [콘텐츠 실험](../campaigns/content-experiment.md).
 * 스키마 만들기 프로세스가 Adobe Experience Platform 변경 사항과 함께 사용자 인터페이스의 최신 업데이트를 반영하도록 업데이트되었습니다. [자세히 보기](../audience/creating-test-profiles.md)
+* [의사 결정 관리] 보호 기능이 [보호 기능 및 제한 사항] 페이지에 추가되었습니다. [자세히 보기](../start/guardrails.md#decision-management)
 
 ## 2023년 9월 {#september-2023}
 
