@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
+source-git-commit: 3b1acd7ada0637ce22e360e6e1bb35921dde2315
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1666'
 ht-degree: 98%
 
 ---
@@ -263,6 +263,9 @@ ht-degree: 98%
       + [콘텐츠 도우미 시작](using/content-management/gs-generative.md)
       + [콘텐츠 생성](using/content-management/generative-content.md)
       + [이미지 생성](using/content-management/generative-image.md)
+   + 다국어 콘텐츠 작업{#content-multilingual}
+      + [다국어 콘텐츠 만들기](using/content-management/multilingual-manual.md)
++ 개인화 및 다이내믹 콘텐츠 {#personalized-dynamic-content}
    + 개인화 {#personalization}
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
