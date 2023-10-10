@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: dd88835075bb458f0067d68c51b4996c5823b057
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '543'
+ht-degree: 97%
 
 ---
 
@@ -46,6 +46,11 @@ Adobe Journey Optimizer 인터페이스의 모든 곳에서 상단 표시줄의 
 ![](assets/journey4.png)
 
 ## 통합 태그 작업 {#tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_tags"
+>title="태그"
+>abstract="이 필드에서는 Adobe Experience Platform 통합 태그를 캠페인에 할당할 수 있습니다. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다."
 
 Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=ko)를 사용하면 Journey Optimizer의 여정과 캠페인을 쉽게 분류하여 목록에서 보다 편하게 검색할 수 있습니다.
 
