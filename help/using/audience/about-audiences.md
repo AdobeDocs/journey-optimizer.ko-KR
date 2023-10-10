@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="ajo_campaigns_content_experiment_segment"
 >title="Audience"
 >abstract="Adobe Experience Platform에서는 실시간 고객 프로필 데이터를 활용하여 간단히 세그먼트 정의를 작성함으로써 고객의 고유 행동과 선호를 포착한 타겟팅 대상자를 만들 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_audience"
+>title="캠페인 대상자 선택"
+>abstract="이 목록에는 사용 가능한 모든 Adobe Experience Platform 대상이 표시됩니다. 캠페인으로 타깃팅할 대상을 선택합니다. 캠페인에 구성된 메시지는 선택한 대상자에 속하는 모든 개인에게 전송됩니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)"
 
 [!DNL Journey Optimizer]의 **[!UICONTROL 대상자]** 메뉴에서 직접 실시간 고객 프로필 데이터를 사용하여 Adobe Experience Platform 대상자를 작성하고 활용하며 여정이나 캠페인에 사용할 수 있습니다.
 
