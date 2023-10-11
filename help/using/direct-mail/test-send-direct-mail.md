@@ -7,16 +7,21 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 13%
+source-wordcount: '500'
+ht-degree: 12%
 
 ---
 
 # 다이렉트 메일 메시지 테스트 및 보내기 {#direct-mail-test-send}
 
 ## 추출 파일 미리 보기 {#preview-dm}
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_preview"
+>title="추출 파일 미리 보기"
+>abstract="이 창에서는 왼쪽 창에서 선택한 각 테스트 프로필에 대해 추출 파일이 표시되는 방식을 미리 볼 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 사용하여 이 콘텐츠가 표시되는 방식을 확인할 수 있습니다."
 
 추출 파일의 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 볼 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
 

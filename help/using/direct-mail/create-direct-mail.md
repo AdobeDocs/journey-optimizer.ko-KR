@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: DM, 메시지, 캠페인
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
+source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '720'
 ht-degree: 8%
 
 ---
@@ -65,9 +65,9 @@ DM 캠페인을 만들려면 다음 단계를 수행합니다.
 >abstract="DM 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일에 표시할 열과 정보를 추가하고 구성합니다. 최대 50개의 열을 추가할 수 있습니다."
 
 >[!CONTEXTUALHELP]
->id="ajo_direct_mail_sort"
+>id="ajo_direct_mail_formatting"
 >title="추출 파일 형식 지정"
->abstract="다음 <b>정렬 기준:</b> 옵션을 사용하면 선택한 필드를 사용하여 추출 파일의 열을 정렬할 수 있습니다. 이 옵션이 비활성화되면 열은 프로필 ID 필드를 기반으로 자동으로 정렬됩니다."
+>abstract="각 필드에 대해 표현식 편집기를 사용하여 표시할 레이블과 정보를 지정합니다. <br/><br/> 다음 <b>정렬 기준:</b> 옵션을 사용하면 선택한 필드를 사용하여 추출 파일의 열을 정렬할 수 있습니다."
 
 1. 추출 파일에 표시할 열과 정보를 구성합니다.
 
