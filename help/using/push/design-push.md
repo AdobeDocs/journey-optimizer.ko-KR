@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -71,7 +71,7 @@ Android 버전에서는 이미지 아이콘과 확장된 알림에 대한 이미
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="사용자가 푸시 알림과 상호 작용할 수 있는 버튼을 추가합니다."
->abstract="이 섹션에서는 클릭 유도 문안 단추를 메시지에 추가할 수 있습니다. iOS의 경우 알림 범주 식별자를 지정합니다. Android의 경우 각 버튼에 대한 사용자 지정 텍스트 및 대상을 포함할 수 있습니다."
+>abstract="이 섹션에서는 메시지에 클릭 유도 버튼을 추가할 수 있습니다. iOS의 경우 알림 범주 식별자를 지정합니다. Android의 경우 각 버튼에 대한 사용자 지정 텍스트 및 대상을 포함할 수 있습니다."
 
 푸시 콘텐츠에 버튼을 추가하여 실행 가능한 알림을 만듭니다.
 

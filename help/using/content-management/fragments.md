@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -259,9 +259,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="표현식 조각으로 저장"
->abstract="다음 [!DNL Journey Optimizer] 표현식 편집기를 사용하면 콘텐츠를 표현식 조각으로 저장할 수 있습니다. 그런 다음 이러한 표현식을 사용하여 개인화된 콘텐츠를 작성할 수 있습니다."
+>abstract="[!DNL Journey Optimizer] 표현식 편집기를 사용하면 콘텐츠를 표현식 조각으로 저장할 수 있습니다. 그런 다음 이러한 표현식을 사용하여 개인화된 콘텐츠를 빌드할 수 있습니다."
 
-다음 [!DNL Journey Optimizer] 표현식 편집기를 사용하면 콘텐츠를 표현식 조각으로 저장할 수 있습니다. 그런 다음 이러한 표현식을 사용하여 개인화된 콘텐츠를 작성할 수 있습니다.
+[!DNL Journey Optimizer] 표현식 편집기를 사용하면 콘텐츠를 표현식 조각으로 저장할 수 있습니다. 그런 다음 이러한 표현식을 사용하여 개인화된 콘텐츠를 빌드할 수 있습니다.
 
 콘텐츠를 표현식 조각으로 저장하려면 아래 단계를 수행합니다.
 

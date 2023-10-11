@@ -12,7 +12,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 22%
+ht-degree: 35%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
->title="경험 개인화"
->abstract="사용 **Adobe Journey Optimizer** 에 대해 가지고 있는 데이터 및 정보를 활용하여 메시지를 각 수신자에게 맞게 조정할 수 있습니다. 이름, 관심사, 사는 곳, 산 물건 등이 될 수 있다."
+>title="개인화 경험"
+>abstract="**Adobe Journey Optimizer**&#x200B;를 사용하면 수신자에 대한 데이터와 정보를 활용하여 각 수신자에 맞게 메시지를 적응할 수 있습니다. 이는 이름, 관심사, 거주지, 구입한 제품 등이 될 수 있습니다."
 
 
-검색 [!DNL Adobe Journey Optimizer] 관련된 데이터 및 정보를 활용하여 메시지를 각 특정 수신자에게 적용하는 개인화 기능. 이름, 관심사, 사는 곳, 산 물건 등이 될 수 있다.
+검색 [!DNL Adobe Journey Optimizer] 관련된 데이터 및 정보를 활용하여 메시지를 각 특정 수신자에게 적용하는 개인화 기능. 이는 이름, 관심사, 거주지, 구입한 제품 등이 될 수 있습니다.
 
 ➡️ [다음 비디오에서는 메시지를 개인화하는 방법을 알아봅니다](#video-perso)
 ➡️ [개인화를 활용하는 사용 사례 살펴보기](personalization-use-case.md)

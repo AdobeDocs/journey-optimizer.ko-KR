@@ -12,7 +12,7 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="이메일 디자인"
->abstract="사용 **Adobe Journey Optimizer** (으)로 이메일을 보낼 수 있습니다. [이메일 디자이너]에서 메시지를 만들고 개인화하고 미리 볼 수 있습니다."
+>abstract="**Adobe Journey Optimizer**&#x200B;를 사용하여 고객에게 이메일 메시지를 전송합니다. [이메일 디자이너]에서 메시지를 만들고 개인화하고 미리 볼 수 있습니다."
 
 [!DNL Journey Optimizer]로 고객에게 이메일을 보냅니다. [이메일 디자이너]에서 메시지를 만들고 개인화하고 미리 볼 수 있습니다.
 
