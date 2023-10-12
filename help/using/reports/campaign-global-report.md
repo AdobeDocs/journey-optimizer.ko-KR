@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
+source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
-source-wordcount: '3181'
+source-wordcount: '3192'
 ht-degree: 3%
 
 ---
@@ -239,9 +239,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 다음 **[!UICONTROL 이메일 - 상위 수신자 도메인]** 그래프 및 표에는 프로필이 이메일을 여는 데 가장 많이 사용하는 도메인이 자세히 설명되어 있습니다.
 
->[!NOTE]
+>[!CAUTION]
 >
->다음 **[!UICONTROL 최적화 및 비최적화]** 및 **[!UICONTROL 전송 시간 최적화]**  위젯은 이메일에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 을 참조하십시오. [이 페이지](../building-journeys/journeys-message.md#send-time-optimization).
+> 다음 **[!UICONTROL 이메일 - 상위 수신자 도메인]** 위젯의 정확도는 99.95%입니다.
 
 다음 **[!UICONTROL 최적화 및 비최적화]** 그래프는 최적화 여부에 관계없이 메시지와 관련된 기본 정보를 자세히 설명합니다.
 
@@ -256,6 +256,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL 전달됨]**: 성공적으로 전송된 메시지 수와 총 전송된 메시지 수
 
 * **[!UICONTROL 바운스]**: 전송 프로세스 및 자동 반환 처리 중에 누적된 총 보낸 메시지 수와 관련된 오류의 수입니다.
+
+>[!NOTE]
+>
+>다음 **[!UICONTROL 최적화 및 비최적화]** 및 **[!UICONTROL 전송 시간 최적화]**  위젯은 이메일에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 을 참조하십시오. [이 페이지](../building-journeys/journeys-message.md#send-time-optimization).
+
 +++
 
 ## 인앱 탭 {#inapp-global}
