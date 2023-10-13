@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0a97e30f07348922687aa98638f9be4936d2a860
+source-git-commit: f532e7cbafc3dde7a85cf0a89d1bbb01ccdd118e
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 98%
+source-wordcount: '1670'
+ht-degree: 97%
 
 ---
 
@@ -230,14 +230,16 @@ ht-degree: 98%
    + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
 + 웹 채널 {#web}
    + [웹 채널 시작하기](using/web/get-started-web.md)
-   + [웹 채널 전제 조건](using/web/web-prerequisites.md)
+   + 웹 채널 구성 {#configure-web-channel}
+      + [웹 채널 전제 조건](using/web/web-prerequisites.md)
+      + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
+      + [단일 페이지 애플리케이션 구현](using/web/web-spa-implementation.md)
    + [웹 경험 만들기 ](using/web/create-web.md)
    + 웹 페이지 작성  {#author-web-pages}
       + [웹 페이지 콘텐츠 편집](using/web/edit-web-content.md)
       + [수정 사항 관리](using/web/manage-web-modifications.md)
       + [웹 캠페인 모니터링](using/web/monitor-web-campaigns.md)
       + [단일 페이지 애플리케이션 작성](using/web/web-spa.md)
-   + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
 + 코드 기반 경험 {#code-based-experience}
    + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)
    + [코드 기반 사전 요구 사항](using/code-based/code-based-prerequisites.md)
@@ -528,7 +530,6 @@ ht-degree: 98%
    + [아카이브 지원](using/configuration/archiving-support.md)
    + [실행 주소 변경](using/configuration/primary-email-addresses.md)
    + [빈도 규칙 구성](using/configuration/frequency-rules.md)
-   + [단일 페이지 애플리케이션 구현](using/web/web-spa-implementation.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
       + 외부 시스템과 통합 {#external-systems}
