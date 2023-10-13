@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1151'
 ht-degree: 17%
 
 ---
 
 # 이메일, 인앱, 푸시, SMS{#add-a-message-in-a-journey}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_activity"
+>title="메시지 활동"
+>abstract="Journey Optimizer에는 내장 메시지 기능이 포함되어 있습니다. 푸시, SMS, 인앱 또는 이메일 메시지 활동을 여정에 추가하고 설정 및 콘텐츠를 정의할 수 있습니다. 그런 다음 여정 컨텍스트에서 실행되고 전송됩니다."
 
 [!DNL Journey Optimizer] 에는 내장 메시지 기능이 함께 제공됩니다. 푸시, SMS, 인앱 또는 이메일 메시지 활동을 여정에 추가하고 설정 및 콘텐츠를 정의할 수 있습니다. 그런 다음 여정 컨텍스트에서 실행되고 전송됩니다.
 

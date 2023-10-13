@@ -9,14 +9,19 @@ role: Admin
 level: Intermediate
 keywords: 여정, 통합, 캠페인, v7, v8, classic
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 28%
+source-wordcount: '199'
+ht-degree: 39%
 
 ---
 
 # Adobe Campaign v7/v8 작업 {#using_campaign_classic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acc"
+>title="사용자 정의 작업"
+>abstract="Adobe Campaign v7 또는 v8이 있는 경우 통합을 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다."
 
 Adobe Campaign v7 또는 v8이 있는 경우 통합을 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
 

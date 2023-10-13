@@ -9,14 +9,19 @@ role: Admin
 level: Intermediate
 keywords: 여정, 통합, standard, campaign, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 4%
+source-wordcount: '961'
+ht-degree: 6%
 
 ---
 
 # Adobe Campaign Standard 작업 {#using_campaign_action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acs"
+>title="사용자 정의 작업"
+>abstract="Adobe Campaign Standard이 있는 경우 통합을 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다."
 
 Adobe Campaign Standard이 있는 경우 다음과 같은 기본 제공 작업 활동을 사용할 수 있습니다. **[!UICONTROL 이메일]**, **[!UICONTROL 푸시]** 및 **[!UICONTROL SMS]**.
 

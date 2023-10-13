@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 사용자 정의, 일반, 이벤트, 여정
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 20%
@@ -20,7 +20,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
->title="일반 이벤트"
+>title="단일 이벤트"
 >abstract="이벤트를 사용하면 여정을 통합적으로 트리거하여 여정에 참여하는 개인에게 실시간으로 메시지를 보낼 수 있습니다. 이 유형의 이벤트에 대해 레이블과 설명만 추가할 수 있습니다. 데이터 엔지니어가 수행하는 이벤트 구성은 편집할 수 없습니다."
 
 이벤트를 사용하면 여정을 통합적으로 트리거하여 여정에 참여하는 개인에게 실시간으로 메시지를 보낼 수 있습니다.

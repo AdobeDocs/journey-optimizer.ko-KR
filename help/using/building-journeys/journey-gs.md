@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 25%
+source-wordcount: '1727'
+ht-degree: 23%
 
 ---
 
@@ -44,6 +44,11 @@ ht-degree: 25%
    ![](assets/custom2.png)
 
 ## 액세스 여정 {#journey-access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="여정"
+>abstract="고객 여정 설계를 통해 개인화된 컨텍스트 기반의 경험을 제공할 수 있습니다. Journey Optimizer을 사용하면 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 구축할 수 있습니다. 다음 **개요** 탭에는 여정과 관련된 주요 지표가 있는 대시보드가 표시됩니다. 다음 **찾아보기** 탭에는 기존 여정 목록이 표시됩니다."
 
 여정 관리 메뉴 섹션에서 **[!UICONTROL 여정]**. 사용 가능한 두 가지 탭은 다음과 같습니다.
 
@@ -77,11 +82,6 @@ ht-degree: 25%
 ![](assets/journey3bis.png)
 
 ## 여정 빌드{#jo-build}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="여정 빌드"
->abstract="이 화면에 기존 여정 목록이 표시됩니다. 여정을 열거나 “여정 만들기”를 클릭하고, 다양한 이벤트, 오케스트레이션 및 작업 활동을 결합하여 다단계 크로스 채널 시나리오를 작성합니다."
 
 이 단계는 **비즈니스 사용자**. 여기에서 여정을 만들 수 있습니다. 다양한 이벤트, 오케스트레이션 및 작업 활동을 조합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
 
