@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: 개인화된 최적화 모델
 description: 개인화된 최적화 모델에 대해 자세히 알아보기
-feature: Ranking Formulas
+feature: Ranking Formulas, Offers
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 1%

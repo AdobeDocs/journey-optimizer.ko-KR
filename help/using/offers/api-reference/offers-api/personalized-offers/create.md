@@ -1,12 +1,12 @@
 ---
 title: 개인화된 오퍼 만들기
 description: 맞춤형 오퍼는 자격 규칙 및 제한에 따라 사용자 정의 가능한 마케팅 메시지입니다.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 439813d0e7430d2e009b1af6abb7a027b10a427c
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 10%

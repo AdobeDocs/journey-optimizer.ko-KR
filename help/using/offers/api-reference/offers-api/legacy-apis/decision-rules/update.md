@@ -1,12 +1,12 @@
 ---
 title: 의사 결정 규칙 업데이트
 description: 의사 결정 규칙은 개인화된 오퍼에 추가되고 자격을 결정하기 위해 프로필에 적용되는 제약 조건입니다.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
-source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 9%

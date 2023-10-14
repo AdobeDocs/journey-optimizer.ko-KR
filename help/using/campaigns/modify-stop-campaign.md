@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 캠페인 수정 또는 중지
 description: Journey Optimizer에서 라이브 캠페인을 수정, 중지 또는 복제하는 방법에 대해 알아봅니다
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 2%

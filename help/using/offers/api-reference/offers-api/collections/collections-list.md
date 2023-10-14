@@ -1,12 +1,12 @@
 ---
 title: 컬렉션 나열
 description: 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 하는 오퍼의 하위 집합입니다.
-feature: Offers
+feature: Offers, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 6%

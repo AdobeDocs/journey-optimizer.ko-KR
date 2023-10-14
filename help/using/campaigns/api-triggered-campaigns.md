@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: API를 사용하여 캠페인 트리거
 description: Journey Optimizer API를 사용하여 캠페인을 트리거하는 방법 알아보기
+Feature: Campaigns, API
 topic: Content Management
 role: Developer, Admin
-level: Intermediate, Experienced
+level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%

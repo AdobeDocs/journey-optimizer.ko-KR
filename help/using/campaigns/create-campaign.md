@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 캠페인 만들기
 description: Journey Optimizer에서 캠페인을 만드는 방법 알아보기
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 27%

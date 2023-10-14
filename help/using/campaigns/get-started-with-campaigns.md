@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 캠페인 시작
 description: Journey Optimizer의 캠페인에 대해 자세히 알아보기
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%

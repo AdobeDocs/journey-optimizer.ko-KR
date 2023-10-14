@@ -1,12 +1,12 @@
 ---
 title: 대체 오퍼 만들기
 description: 다른 오퍼에 적합하지 않은 경우 고객에게 대체 오퍼가 전송됩니다
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1a9c074a-187a-45b1-9ad0-378aeef0d03d
-source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 11%

@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 컴포지션 캔버스 작업
 description: 컴포지션 캔버스 작업 방법 알아보기
-feature: Journeys
+feature: Audiences, Profiles
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 30%

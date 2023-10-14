@@ -1,12 +1,12 @@
 ---
 title: 컬렉션 한정자 조회
 description: 컬렉션 한정자를 사용하면 오퍼를 더 잘 구성하고 정렬할 수 있습니다.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
-source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 3%

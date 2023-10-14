@@ -1,12 +1,12 @@
 ---
 title: 배치 삭제
 description: 배치는 오퍼를 표시하는 데 사용되는 컨테이너입니다.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 7%

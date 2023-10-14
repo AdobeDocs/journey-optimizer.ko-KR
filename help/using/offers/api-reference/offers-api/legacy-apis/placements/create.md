@@ -1,12 +1,12 @@
 ---
 title: 배치 만들기
 description: 배치는 오퍼를 표시하는 데 사용되는 컨테이너입니다.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
-source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 10%

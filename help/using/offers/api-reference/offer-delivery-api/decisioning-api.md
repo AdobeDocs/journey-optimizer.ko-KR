@@ -1,12 +1,12 @@
 ---
 title: 오퍼 제공
 description: 의사 결정 관리는 비즈니스 로직 및 의사 결정 규칙을 사용하여 마케터가 채널 및 애플리케이션에서 최종 사용자에게 개인화된 오퍼 경험을 만들어 제공할 수 있는 서비스 및 UI 프로그램의 컬렉션입니다.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 4%

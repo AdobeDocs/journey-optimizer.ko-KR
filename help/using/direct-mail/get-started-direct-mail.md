@@ -1,13 +1,13 @@
 ---
 title: 다이렉트 메일 시작
 description: Journey Optimizer에서 DM 메시지를 만들고 만드는 방법을 알아봅니다
-feature: Overview
+feature: Direct Mail
 topic: Content Management
 role: User
 level: Beginner
 keywords: DM, 메시지, 캠페인
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 17%

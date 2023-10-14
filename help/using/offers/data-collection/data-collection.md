@@ -1,12 +1,12 @@
 ---
 title: 데이터 수집
 description: 의사 결정 관리 피드백 데이터 수집에 대해 자세히 알아보기
-feature: Offers
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 3%

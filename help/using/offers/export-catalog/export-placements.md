@@ -1,12 +1,12 @@
 ---
 title: 배치 데이터 세트
 description: 이 섹션에는 배치용으로 내보낸 데이터 세트에 사용된 모든 필드가 나열됩니다
-feature: Offers
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 5%

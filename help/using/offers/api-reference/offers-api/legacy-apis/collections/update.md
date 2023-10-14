@@ -1,12 +1,12 @@
 ---
 title: 컬렉션 업데이트
 description: 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 하는 오퍼의 하위 집합입니다.
-feature: Offers
+feature: Offers, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: bf12d22f-e6c0-45fd-a2b2-149d3f4cf882
-source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 7%
