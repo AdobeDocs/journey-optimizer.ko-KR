@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: assets, essentials, experience manager, 통합
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
+source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 20%
@@ -30,7 +30,7 @@ ht-degree: 20%
 
 ## 전제 조건{#assets-prerequisites}
 
-사용 전 [!DNL Adobe Experience Manager Assets Essentials]에 사용자를 추가해야 합니다. **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필. 자세한 내용 [Assets Essentials 설명서](https://experienceleague.corp.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"}.
+사용 전 [!DNL Adobe Experience Manager Assets Essentials]에 사용자를 추가해야 합니다. **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필. 자세한 내용 [Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"}.
 
 >[!NOTE]
 >2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"} 섹션에서 자세히 알아보세요.
