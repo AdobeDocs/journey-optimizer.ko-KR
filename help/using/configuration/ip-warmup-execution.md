@@ -11,7 +11,7 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 4e0d75c677ffa1a5350c83300e4a1b0f0150d7c1
+source-git-commit: 9236848f0f9ee3ece555833283378570ec498b1d
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 19%
@@ -69,7 +69,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* 현재 IP 준비 계획에 대해 선택한 것과 동일한 표면을 사용하는 캠페인을 선택해야 합니다.
    >
-   >* 다른 IP 준비 캠페인에서 이미 사용 중인 캠페인은 선택할 수 없습니다.
+   >* 다른 IP 준비 계획에서 이미 사용 중인 캠페인은 선택할 수 없습니다.
 
 
 1. 다음에서 **[!UICONTROL 프로필 제외]** 섹션에서 해당 단계의 이전 실행의 프로필이 항상 제외되어 있음을 확인할 수 있습니다. 예를 들어 실행 시 타겟팅되#1 처음 4800명에서 프로필이 포함된 경우 시스템은 동일한 프로필이 실행 시 이메일을 수신하지 않도록 자동으로 #2.
