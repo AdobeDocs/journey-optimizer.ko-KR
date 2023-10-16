@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: fe295f020934893cbe90ba987742b5f9d3931158
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 13%
@@ -33,12 +33,13 @@ ht-degree: 13%
 
 1. 오퍼의 우선 순위 점수를 고려하지 않고 주어진 배치에 대해 먼저 제시해야 할 오퍼를 결정하는 규칙을 정의하려면 다음을 수행할 수 있습니다 **등급 수식 만들기**.
 
-<table>
+<table style="table-layout:fixed"><tr style="border: 0;">
 <tr>
 <td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">배치 만들기</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">의사 결정 규칙 만들기</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">태그 만들기</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">등급 수식 만들기</a></p></td>
+</tr>
 </table>
 
 ## 오퍼 만들기 및 관리 {#create-and-manage-offers}
@@ -49,11 +50,12 @@ ht-degree: 13%
 
 1. **컬렉션 만들기** 만든 개인화된 오퍼를 포함하고 의사 결정에 사용합니다.
 
-<table>
+<table style="table-layout:fixed"><tr style="border: 0;">
 <tr>
 <td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">오퍼 만들기</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">대체 오퍼 만들기</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">컬렉션 만들기</a></p></td></tr>
+<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">컬렉션 만들기</a></p></td>
+</tr>
 </table>
 
 ## 의사 결정 만들기 및 구성 {#create-and-configure-decisions}
@@ -64,7 +66,7 @@ ht-degree: 13%
 
 1. 필요한 경우 다음을 수행할 수 있습니다 **등급 수식 할당** 결정을 구성할 때 배치.
 
-<table>
+<table style="table-layout:fixed"><tr style="border: 0;">
 <tr>
 <td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">의사 결정 만들기</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">의사 결정 구성</a></p></td>
