@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 93f4f4edcce7c7e9f7472a871c96cefa276bdda1
+source-git-commit: 64c255eb6bb4712d79547ae47fd1dc6f8b1e9089
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 97%
+source-wordcount: '1663'
+ht-degree: 98%
 
 ---
 
@@ -233,7 +233,6 @@ ht-degree: 97%
    + 웹 채널 구성 {#configure-web-channel}
       + [웹 채널 전제 조건](using/web/web-prerequisites.md)
       + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
-      + [단일 페이지 애플리케이션 구현](using/web/web-spa-implementation.md)
    + [웹 경험 만들기 ](using/web/create-web.md)
    + 웹 페이지 작성  {#author-web-pages}
       + [웹 페이지 콘텐츠 편집](using/web/edit-web-content.md)
