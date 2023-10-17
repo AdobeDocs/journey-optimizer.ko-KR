@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: IP 워밍업 캠페인 만들기
 description: IP 준비 캠페인을 만드는 방법을 알아봅니다.
-feature: Application Settings
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Intermediate
@@ -11,7 +11,7 @@ keywords: IP, 풀, 전달성
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 82c189545ab4f37a2e4b1044c0b8cfeb539aed13
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 21%

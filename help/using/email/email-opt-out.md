@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 이메일 옵트아웃 관리
 description: 이메일을 사용하여 옵트아웃을 관리하는 방법 알아보기
-feature: Journeys
+feature: Email Design, Privacy
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
+source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 78%

@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: IP 준비 계획 만들기
 description: Journey Optimizer에서 IP 준비 계획을 만드는 방법을 알아봅니다.
-feature: Application Settings
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
@@ -11,7 +11,7 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
+source-git-commit: 82c189545ab4f37a2e4b1044c0b8cfeb539aed13
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 18%

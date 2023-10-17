@@ -3,10 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: SMS 채널 구성
 description: Journey Optimizer에서 SMS를 전송하도록 환경을 구성하는 방법 알아보기
+feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: ef9d50ba9806ade40cfa9db7bb6b9e31274a208f
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 16%

@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 랜딩 페이지 라이브 보고서
 description: 랜딩 페이지 라이브 보고서의 데이터를 사용하는 방법을 알아봅니다
-feature: Journeys
+feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 14%

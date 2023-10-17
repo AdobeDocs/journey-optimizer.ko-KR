@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 랜딩 페이지 시작
 description: Journey Optimizer의 랜딩 페이지에 대해 알아보기
-feature: Landing Pages
+feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 시작, 시작하기
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 메시지 미리 보기 및 증명 보내기
 description: 이메일 미리보기 및 테스트 방법 알아보기
-feature: Journeys
+feature: Preview, Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: 미리보기, 콘텐츠, 이메일, 증명, 테스트, 프로필
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
+source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 9%

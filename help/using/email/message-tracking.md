@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 메시지 추적
 description: 링크를 추가하고 전송된 메시지를 추적하는 방법 알아보기
-feature: Monitoring
+feature: Email Design, Monitoring
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: bdebd6495b0147b606a86153025090bdcb5c96a7
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 36%

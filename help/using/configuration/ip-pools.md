@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: IP 풀 만들기
 description: IP 풀을 관리하는 방법 알아보기
-feature: Application Settings
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: IP, 풀, 그룹, 하위 도메인, 전달성
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%

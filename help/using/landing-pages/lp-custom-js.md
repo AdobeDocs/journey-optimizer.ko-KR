@@ -5,11 +5,11 @@ title: 랜딩 페이지에서 사용자 지정 JavaScript 사용
 description: Journey Optimizer에서 랜딩 페이지의 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: Landing Pages
 topic: Content Management
-role: User
-level: Beginner
+role: Developer
+level: Experienced
 keywords: 랜딩, 랜딩 페이지, javascript, 코드
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 2%

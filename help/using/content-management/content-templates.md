@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 콘텐츠 템플릿 만들기
 description: 템플릿을 만들어 Journey Optimizer 캠페인 및 여정에서 콘텐츠를 재사용하는 방법에 대해 알아봅니다
-feature: Overview
+feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
 workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 12%

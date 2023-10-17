@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 이전 릴리스 정보(2021)
 description: Journey Optimizer 릴리스 정보
+feature: Release Notes
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -180,7 +181,7 @@ ht-degree: 89%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer를 사용하여 모든 고객에게 최적의 시간에 푸시 또는 이메일을 자동으로 보냅니다. Adobe의 AI 서비스를 기반으로 하는 [전송 시간 최적화]는 기존의 오픈 및 클릭률 기록을 기반으로 참여를 극대화하기 위해 이메일 또는 푸시 메시지를 보내기 가장 적합한 시간을 예측합니다.</p>
+<p>Adobe Journey Optimizer를 사용하여 모든 고객에게 최적의 시간에 푸시 또는 이메일을 자동으로 보냅니다. Adobe의 AI 서비스를 기반으로 하는 [전송 시간 최적화]는 기존의 오픈 및 클릭률 기록을 기반으로 참여를 극대화하기 위해 이메일 또는 푸시 메시지를 보내는 데 가장 적합한 시간을 예측합니다.</p>
 <p>이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.</p>
 <p>자세한 내용은 <a href="../building-journeys/journeys-message.md#send-time-optimization">자세한 설명서</a>를 참조하세요.</p>
 </td>

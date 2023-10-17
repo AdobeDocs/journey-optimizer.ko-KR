@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: SMS 메시지 만들기
 description: Journey Optimizer에서 SMS 메시지를 만드는 방법 알아보기
-feature: Overview
+feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 

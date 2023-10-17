@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 표현식 조각 사용
 description: 에서 표현식 조각을 사용하는 방법을 알아봅니다. [!DNL Journey Optimizer] 표현식 편집기.
-feature: Personalization
+feature: Personalization, Templates
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 623aa2ee317553eaebfb16c350a69672de2866a1
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

@@ -4,11 +4,12 @@ product: journey optimizer
 title: 권한 수준
 description: 사용자가 다양한 기능에 액세스할 수 있는 높은 수준 및 낮은 수준의 권한에 대해 알아봅니다.
 topic: Administration
+feature: Access Management
 role: Admin, Architect, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 0%

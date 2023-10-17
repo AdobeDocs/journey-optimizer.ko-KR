@@ -1,13 +1,13 @@
 ---
 title: 인앱 메시지 시작
 description: Journey Optimizer로 인앱 알림을 보내는 방법 알아보기
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%

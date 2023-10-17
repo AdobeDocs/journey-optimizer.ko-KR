@@ -4,10 +4,11 @@ product: journey optimizer
 title: 웹 하위 도메인 구성
 description: Journey Optimizer을 사용하여 웹 하위 도메인을 설정하는 방법 알아보기
 role: Admin
-level: Intermediate
+feature: Web Channel, Subdomains
+level: Experienced
 keywords: 웹, 하위 도메인, 구성
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 21%

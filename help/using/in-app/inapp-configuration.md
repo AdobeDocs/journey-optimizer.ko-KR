@@ -2,10 +2,11 @@
 title: 인앱 채널 사전 요구 사항
 description: Journey Optimizer을 사용하여 인앱 메시지를 보내도록 환경을 구성하는 방법에 대해 알아봅니다
 role: Admin
+feature: In App
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 11%

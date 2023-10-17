@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 이메일 스타일 시작
 description: 이메일 콘텐츠 스타일을 조정하는 다양한 방법 알아보기
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: 이메일, 스타일, css, 본문, 구조
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%

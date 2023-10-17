@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 이메일 만들기
 description: Journey Optimizer에서 이메일을 작성하는 방법 알아보기
-feature: Overview
+feature: Email
 topic: Content Management
 role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%

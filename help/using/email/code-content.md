@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 자체 이메일 콘텐츠 코딩
 description: 자체 이메일 콘텐츠를 코딩하는 방법 알아보기
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Intermediate, Experienced
 keywords: 코드, HTML, 편집기
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 67%

@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 구독 라이브 보고서
 description: 구독 라이브 보고서를 사용하여 구독 서비스의 데이터를 사용하는 방법을 알아봅니다
-feature: Journeys
+feature: Reporting, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 20%

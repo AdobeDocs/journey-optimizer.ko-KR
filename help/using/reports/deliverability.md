@@ -5,10 +5,10 @@ title: 전달성 시작
 description: 전달성 지침 알아보기
 feature: Deliverability
 topic: Content Management
-role: User
-level: Intermediate
+role: Admin
+level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Healthcare Shield를 사용하는 고객의 경우 Adobe이 TLS(Transport Layer Security) 1.2를 사용하여 사용자 시스템(수신자)과 Journey Optimizer(발신자) 간의 데이터 교환을 보호합니다. 수신 메일 서버가 TLS 1.2를 지원하지 않는 경우 고객은 보낸 사람에게 이메일 반송 등 전달성 문제를 겪게 됩니다.
+>Healthcare Shield를 허가한 고객의 경우 Adobe이 TLS(Transport Layer Security) 1.2를 사용하여 사용자 시스템(수신자)과 Journey Optimizer(발신자) 간의 데이터 교환을 보호합니다. 수신 메일 서버가 TLS 1.2를 지원하지 않는 경우 고객은 보낸 사람에게 이메일 반송 등 전달성 문제를 겪게 됩니다.
 
 **이메일 전달성** 는 개인 이메일 주소를 통해, 짧은 시간 내에, 그리고 콘텐츠 및 형식 측면에서 예상되는 품질로 메시지를 대상에 도달시킬 수 있는 기능을 결정하는 일련의 특성을 나타냅니다. 이러한 특성은 데이터 품질, 메시지 및 콘텐츠, 전송 인프라, 평판의 네 가지 주요 범주로 나뉩니다. 이 두 솔루션은 성공적인 이메일 전달성 프로그램의 기반을 형성합니다.
 

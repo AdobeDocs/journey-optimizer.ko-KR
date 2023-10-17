@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer의 아카이브 지원
 description: 메시지 보관 방법 알아보기
-feature: Application Settings
+feature: Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: 보관, 메시지, HIPAA, BCC, 이메일
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 315309fdede3aa095fc59266acf765dc4b782dd9
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 7%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 개인화된 오퍼 추가
 description: 메시지에 개인화된 오퍼를 추가하는 방법 알아보기
-feature: Journeys
+feature: Email Design, Offers
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 오퍼, 결정, 이메일, 개인화, 결정
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->여정 메시지에 사용 중인 여정 결정이 변경되는 경우 오퍼 게시를 취소하고 다시 게시해야 합니다.  이렇게 하면 변경 사항이 여정 메시지에 통합되고 메시지가 최신 업데이트와 일관되게 표시됩니다.
+>여정의 메시지에 사용 중인 오퍼 의사 결정이 변경되는 경우 여정 게시를 취소하고 다시 게시해야 합니다.  이렇게 하면 변경 사항이 여정 메시지에 통합되고 메시지가 최신 업데이트와 일관되게 표시됩니다.
 
 * 오퍼를 만들고 관리하는 방법에 대한 자세한 내용은 을 참조하십시오. [이 섹션](../offers/get-started/starting-offer-decisioning.md).
 * 의 경우 **전체적인 예** 오퍼를 구성하고 결정에 사용하며 이메일에서 이 결정을 활용하는 방법을 보여 줍니다. [이 섹션](../offers/offers-e2e.md#insert-decision-in-email).

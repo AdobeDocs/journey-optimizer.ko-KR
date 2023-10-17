@@ -3,9 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 데이터 엔지니어용 Journey Optimizer 시작하기
 description: 데이터 엔지니어로서 Journey Optimizer로 작업하는 방법에 대해 자세히 알아보세요.
+feature: Get Started
+role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer에서 처음부터 콘텐츠 디자인
 description: 콘텐츠를 처음부터 디자인하는 방법에 대해 알아봅니다
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: 콘텐츠, 편집자, 이메일, 시작
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 57%

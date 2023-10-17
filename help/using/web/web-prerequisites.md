@@ -1,12 +1,12 @@
 ---
 title: 웹 채널 전제 조건
 description: Journey Optimizer 사용자 인터페이스에서 웹 페이지에 액세스하고 페이지를 작성하려면 이 페이지의 사전 요구 사항을 따르십시오
-feature: Web Channel
+feature: Web Channel, Channel Configuration
 topic: Content Management
-role: User
-level: Beginner
+role: Admin
+level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 11%

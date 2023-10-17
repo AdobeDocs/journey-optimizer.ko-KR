@@ -3,19 +3,19 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 시각적 조각 사용
 description: Journey Optimizer 캠페인 및 여정에서 이메일을 만들 때 시각적 조각을 사용하는 방법을 알아봅니다
-feature: Overview
+feature: Email Design, Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 7906d28cbe770dd2debf079d3c646536bf7f74e4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# 이메일에 시각적 조각 추가 {#use-visual-fragments}
+# 이메일에 시각적 개체 조각 추가 {#use-visual-fragments}
 
 에서 시각적 조각을 사용할 수 있습니다. [이메일](get-started-email-design.md) 여정, 캠페인 내 또는 [콘텐츠 템플릿](../content-management/content-templates.md).
 

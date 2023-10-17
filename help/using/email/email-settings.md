@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 이메일 설정 구성
 description: 채널 표면 수준에서 이메일 설정을 구성하는 방법을 알아봅니다
-feature: Surface
+feature: Email, Surface
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '2258'
 ht-degree: 13%

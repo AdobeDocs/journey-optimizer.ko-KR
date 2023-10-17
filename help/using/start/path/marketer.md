@@ -3,9 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 마케터를 위한 Journey Optimizer 시작하기
 description: 여정 실무자로서 Journey Optimizer를 사용하여 작업하는 방법에 대해 자세히 알아보십시오
-level: Intermediate
+level: Beginner
+feature: Get Started
+Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%

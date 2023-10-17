@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 실험을 위한 Journey Optimizer 보고 구성
 description: 보고 데이터 소스를 설정하는 방법 알아보기
-feature: Data Sources
+feature: Experimentation, Reporting
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: 구성, 실험, 보고, 최적화 도구
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
+source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 41%

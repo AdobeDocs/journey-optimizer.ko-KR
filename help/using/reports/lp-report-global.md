@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 랜딩 페이지 글로벌 보고서
 description: 랜딩 페이지 글로벌 보고서의 데이터를 사용하는 방법을 알아봅니다
-feature: Journeys
+feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 10%

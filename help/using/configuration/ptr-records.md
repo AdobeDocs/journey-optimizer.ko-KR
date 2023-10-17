@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: PTR 레코드
 description: PTR 레코드 관리 방법 알아보기
-feature: Application Settings
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: 하위 도메인, PTR, 레코드, DNS, 도메인, 메일
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 9%

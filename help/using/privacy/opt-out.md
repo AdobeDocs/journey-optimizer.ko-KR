@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 옵트아웃 관리
 description: 옵트아웃 및 개인 정보 관리 방법 알아보기
-feature: Journeys
+feature: Privacy
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
+source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 97%
