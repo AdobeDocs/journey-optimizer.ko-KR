@@ -36,7 +36,7 @@ SMS 서비스 사용에는 해당 SMS 공급자의 추가 약관이 적용됩니
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Journey Optimizer로 SMS 공급업체 구성"
->abstract="공급업체를 선택하고 SMS API 자격 증명을 채웁니다."
+>abstract="공급업체를 선택하고 SMS API 자격 증명을 입력하세요."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
