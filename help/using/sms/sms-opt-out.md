@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: 43a1c170882c13c692d73fd78eac9989b1e5006d
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 27%
+source-wordcount: '447'
+ht-degree: 26%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->문자 메시지 통신은 문자 메시지의 특성, 문자 메시지를 보내는 위치 및 받는 사람의 위치에 따라 다양한 법적 준수 요구 사항이 적용될 수 있습니다. Adobe Journey Optimizer은 아래 자세히 설명된 대로 긴 코드 및 수신자 부담 전화번호에 대한 메시지를 처리하지만, 귀하의 문자 메시지 통신이 적용 가능한 모든 법적 준수 요구 사항을 준수하는지 확인하려면 법률적인 자문을 구하십시오.
+>문자 메시지 통신은 문자 메시지의 특성, 문자 메시지를 보내는 위치 및 받는 사람의 위치에 따라 다양한 법적 준수 요구 사항이 적용될 수 있습니다. Adobe Journey Optimizer은 아래 자세히 설명된 대로 짧은 코드, 긴 코드 및 수신자 부담 전화번호에 대한 메시지를 처리하지만, 귀하의 문자 메시지 통신이 적용 가능한 모든 법적 준수 요구 사항을 준수하는지 확인하려면 법률적인 자문을 구하십시오.
 >
 
 ## 기본 인바운드 키워드 {#sms-native-keywords}
 
-기본적으로 Adobe Journey Optimizer은 수신자 부담 및 긴 코드 메시지에 대해 STOP, UNSTOP, START, QUIT, CANCEL, END 및 UNSUBSCRIBE와 같은 표준 영문 회신 메시지를 처리합니다. Journey Optimizer과 함께 사용할 경우 Sinch 및 Infobip만 기본 키워드를 지원합니다.
+기본적으로 Adobe Journey Optimizer은 단축, 수신자 부담 및 긴 코드 메시지에 대해 STOP, UNSTOP, START, QUIT, CANCEL, END 및 UNSUBSCRIBE와 같은 표준 영문 회신 메시지를 처리합니다. Journey Optimizer과 함께 사용할 경우 Sinch 및 Infobip만 기본 키워드를 지원합니다.
 
 이러한 키워드는 일반적으로 서드파티 공급자로부터 자동 표준 응답을 트리거합니다. 공급자나 설명서 사이트를 통해 직접 확인할 수 있습니다.
 
