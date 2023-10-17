@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: AI 모델 시작
 description: 오퍼의 등급을 매길 수 있는 AI 모델에 대해 알아봅니다
-feature: Ranking Formulas, Offers
+feature: Ranking, Offers
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 4%
