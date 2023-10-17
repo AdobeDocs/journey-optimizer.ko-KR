@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: 미리보기, 콘텐츠, 이메일, 증명, 테스트, 프로필
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 11%
+source-wordcount: '991'
+ht-degree: 9%
 
 ---
 
 # 이메일 미리 보기 및 테스트 {#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="메시지 미리보기 및 테스트"
+>abstract="메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
 
 이메일 콘텐츠를 정의했으면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. 를 삽입한 경우 [개인화된 콘텐츠](../personalization/personalize.md), 테스트 프로필 데이터를 사용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
 
@@ -44,13 +49,6 @@ ht-degree: 11%
 ➡️ [이 비디오에서 이메일 미리 보기 및 증명 방법을 살펴보십시오.](#video-preview)
 
 ## 테스트 프로필 선택 {#select-test-profiles}
-
->[!CONTEXTUALHELP]
->id="ac_preview_testprofiles"
->title="메시지 미리보기 및 테스트"
->abstract="메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ko-KR#email-rendering" text="이메일 렌더링"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ko-KR#preview-email" text="미리 보기"
 
 사용 [테스트 프로필](../audience/creating-test-profiles.md) 정의된 타겟팅 기준과 일치하지 않는 추가 수신자를 타겟팅하려면 다음 작업을 수행하십시오.
 
