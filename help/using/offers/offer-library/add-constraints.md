@@ -138,7 +138,7 @@ ht-degree: 17%
 >id="ajo_decisioning_capping"
 >title="한도 사용"
 >abstract="고객에게 과도하게 요청하지 않으려면 한도를 사용하여 오퍼를 제시할 수 있는 최대 횟수를 정의합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=ko-KR#capping-change-date" text="날짜 변경은 한도에 영향을 미칠 수 있음"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="날짜 변경은 한도에 영향을 미칠 수 있음"
 
 한도는 오퍼를 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다.
 

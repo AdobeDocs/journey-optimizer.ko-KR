@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
 source-wordcount: '3192'
-ht-degree: 3%
+ht-degree: 25%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_delivery_global"
 >title="캠페인 통계"
->abstract="Campaign의 통계 위젯에는 입력된 프로필 및 게재된 작업과 같은 캠페인과 관련된 기본 정보가 자세히 표시됩니다."
+>abstract="캠페인 통계 위젯은 입력된 프로필, 전달된 작업 등 캠페인과 관련된 주요 정보를 자세히 설명합니다."
 
 ![](assets/campaign_report_global_1.png)
 
@@ -123,47 +123,47 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
 >title="이메일 - 전송 통계"
->abstract="이메일 - 전송 통계 표에는 타겟팅됨 또는 게재됨 등 이메일에 대한 필수 데이터가 요약되어 있습니다."
+>abstract="이메일 - 전송 통계 테이블에는 대상 지정 또는 게재됨 등과 같은 이메일에 대한 필수 데이터가 요약되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_tracking_statistics"
 >title="이메일 - 추적 통계"
->abstract="이메일 - 추적 통계 표에는 이메일의 프로필 활동에 대한 데이터가 제공됩니다."
+>abstract="이메일 - 추적 통계 테이블은 이메일의 프로필 활동에 대한 데이터를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
 >title="이메일 - 전송 성능"
->abstract="이메일 - 전송 성능 그래프는 전송된 이메일에 대한 포괄적인 데이터를 제시하며 게재 및 바운스와 같은 주요 지표에 대한 통찰력을 제공하여 이메일 게재 프로세스를 자세히 분석할 수 있도록 합니다."
+>abstract="이메일 - 전송 성능 그래프는 전송된 이메일에 관한 포괄적인 데이터를 제공하여 게재 및 바운스와 같은 주요 지표에 대한 통찰력을 제공하고 이메일 게재 프로세스를 자세하게 분석할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_categories"
->title="이메일 - 반송 범주"
->abstract="이메일 - 바운스 카테고리 그래프 및 표는 임시 오류와 영구 오류에 대한 데이터를 제공합니다."
+>title="이메일 - 바운스 범주"
+>abstract="이메일 - 바운스 범주 그래프와 테이블은 일시적 오류와 영구적 오류 모두에 대한 데이터를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_reasons"
->title="이메일 - 반송 원인"
->abstract="이메일 - 반송 원인 그래프 및 표에는 반송된 메시지와 관련하여 사용할 수 있는 데이터가 포함되어 있습니다."
+>title="이메일 - 바운스 이유"
+>abstract="이메일 - 바운스 이유 그래프와 테이블에는 바운스된 메시지와 관련하여 사용 가능한 데이터가 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_error_reasons"
->title="이메일 - 오류 원인"
->abstract="이메일 - 오류 원인 그래프 및 테이블을 사용하면 전송 프로세스 중에 발생한 특정 오류를 식별할 수 있습니다."
+>title="이메일 - 오류 이유"
+>abstract="이메일 - 오류 이유 그래프와 테이블을 통해 전송 프로세스 중에 발생한 특정 오류를 확인할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_excluded_reasons"
 >title="이메일 - 제외된 이유"
->abstract="제외된 이유 그래프 및 표는 사용자 프로필이 타겟팅된 대상에서 제외되고 메시지가 수신되지 않은 다양한 요인을 보여 줍니다."
+>abstract="제외된 이유 그래프와 테이블에서는 타깃팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_top_url"
 >title="이메일 - 상위 URL"
->abstract="이메일 - 상단 URL 그래프 및 표는 가장 높은 방문자 트래픽을 수신하는 이메일 내의 URL에 대한 포괄적인 개요를 제공하여 가장 인기 있는 링크를 식별할 수 있도록 합니다."
+>abstract="이메일 - 상위 URL 그래프 및 테이블에서는 방문자 트래픽이 가장 높은 이메일 내 URL에 대한 포괄적인 개요를 제공하므로 추천 링크를 확인할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_best_recipient"
 >title="이메일 - 최고 수신자 도메인"
->abstract="이메일 - 최고 수신자 도메인 그래프 및 표는 수신자가 이메일을 여는 데 가장 자주 사용하는 도메인에 대한 세부 분류를 제공하므로 수신자 행동에 대한 중요한 통찰력을 제공합니다."
+>abstract="이메일 - 최고 수신자 도메인 그래프 및 테이블에서는 수신자가 이메일을 열 때 가장 자주 사용하는 도메인에 대한 자세한 분석을 통해 수신자 동작에 대한 귀중한 통찰력을 제공합니다."
 
 ![](assets/campaign_report_global_2.png)
 
@@ -268,17 +268,17 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_performance"
 >title="인앱 성능"
->abstract="인앱 성과 KPI는 방문자의 인앱 메시지 참여에 대한 중요한 통찰력을 제공합니다."
+>abstract="인앱 성능 KPI는 방문자의 인앱 메시지 참여에 대한 필수 통찰력을 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_interactions"
 >title="유형별 상호 작용"
->abstract="유형별 상호 작용 그래프 및 표는 사용자가 클릭, 무시 또는 상호 작용을 추적하여 인앱 메시지와 상호 작용하는 방법을 자세히 설명합니다."
+>abstract="유형별 상호 작용 그래프와 테이블에서는 클릭, 해제 또는 상호 작용을 추적하여 사용자가 인앱 메시지와 상호 작용하는 방식을 자세히 설명합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_summary"
 >title="인앱 요약"
->abstract="인앱 요약 그래프는 지정된 기간 동안 인앱 노출 횟수 및 상호 작용의 진행 상황을 보여 줍니다."
+>abstract="인앱 요약 그래프에서는 지정된 기간 동안의 인앱 노출 횟수 및 상호 작용 진행 상황을 보여 줍니다."
 
 캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 인앱]** 탭에서는 캠페인에 전송된 인앱 게재와 관련된 기본 정보를 자세히 설명합니다.
 
@@ -304,12 +304,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_statistics"
 >title="푸시 알림 - 전송 통계"
->abstract="푸시 알림 전송 통계 표에는 타깃팅된 메시지 또는 게재된 메시지와 같은 푸시 알림에 대한 필수 데이터가 요약되어 있습니다."
+>abstract="푸시 알림 전송 통계 테이블에는 대상 지정 메시지 또는 게재된 메시지 등과 같은 푸시 알림에 대한 필수 데이터가 요약되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
 >title="푸시 알림 - 추적 통계"
->abstract="푸시 추적 통계는 푸시 알림의 프로필 활동에 대한 데이터를 제공합니다."
+>abstract="푸시 추적 통계는 푸시 알림에 대한 프로필 활동 데이터를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_summary"
@@ -319,17 +319,17 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_excluded_reasons"
 >title="푸시 알림 - 제외된 이유"
->abstract="제외된 이유 그래프 및 표는 사용자 프로필이 타겟팅된 대상에서 제외되고 메시지가 수신되지 않은 다양한 요인을 보여 줍니다."
+>abstract="제외된 이유 그래프와 테이블에서는 타깃팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_error_reasons"
->title="푸시 알림 - 오류 원인"
->abstract="오류 원인 그래프 및 테이블을 사용하면 전송 프로세스 중에 발생한 특정 오류를 식별할 수 있습니다."
+>title="푸시 알림 - 오류 이유"
+>abstract="오류 이유 그래프와 테이블을 통해 전송 프로세스 중에 발생한 특정 오류를 확인할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="푸시 알림 - 플랫폼별 분류"
->abstract="플랫폼별 분류 그래프 및 표는 프로필의 운영 체제를 기반으로 푸시 알림의 성공에 대한 분류를 제공합니다."
+>abstract="플랫폼별 분류 그래프 및 테이블에서는 프로필의 운영 체제를 기반으로 푸시 알림의 성공에 대한 분류를 제공합니다."
 
 캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 푸시 알림]** 탭에서는 캠페인에 전송된 푸시 게재와 관련된 기본 정보를 자세히 설명합니다.
 
@@ -411,32 +411,32 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS - 전송 통계"
->abstract="SMS 전송 통계 표에는 타겟팅 또는 게재된 메시지와 같은 SMS 메시지에 대한 필수 데이터가 요약되어 있습니다."
+>abstract="SMS 전송 통계 테이블에는 대상 지정 메시지 또는 게재된 메시지 등과 같은 SMS 메시지에 대한 필수 데이터가 요약되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
 >title="SMS - 오류 원인"
->abstract="SMS - 오류 원인 그래프 및 테이블을 사용하면 전송 프로세스 중에 발생한 특정 오류를 식별할 수 있습니다."
+>abstract="SMS - 오류 이유 그래프와 테이블을 통해 전송 프로세스 중에 발생한 특정 오류를 확인할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
->title="SMS - 일자별 성능"
->abstract="날짜별 SMS 성능 위젯은 그래픽 표시를 통해 메시지에 대한 주요 정보를 제공합니다."
+>title="SMS - 날짜별 성능"
+>abstract="SMS 날짜별 성능 위젯은 그래픽 표시를 통해 메시지에 대한 주요 정보를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
 >title="SMS - 제외된 이유"
->abstract="제외된 이유 그래프 및 표는 사용자 프로필이 타겟팅된 대상에서 제외되고 메시지가 수신되지 않은 다양한 요인을 보여 줍니다."
+>abstract="제외된 이유 그래프와 테이블에서는 타깃팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_bounces_reasons"
->title="SMS - 반송 원인"
->abstract="반송 원인 그래프 및 표에는 반송된 메시지와 관련하여 사용할 수 있는 데이터가 포함되어 있습니다."
+>title="SMS - 바운스 이유"
+>abstract="바운스 이유 그래프와 테이블에는 바운스된 메시지와 관련하여 사용 가능한 데이터가 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
->title="SMS - 링크를 통한 클릭 수"
->abstract="SMS - 링크를 통한 클릭 수 위젯은 메시지의 URL에 대한 방문자의 참여에 대한 중요한 인사이트를 제공합니다"
+>title="SMS - 링크를 통한 클릭"
+>abstract="SMS - 링크를 통한 클릭 위젯은 메시지의 URL을 사용한 방문자 참여에 대한 필수 통찰력을 제공합니다."
 
 캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL SMS]** 탭에서는 캠페인에 전송된 SMS 게재와 관련된 기본 정보를 자세히 설명합니다.
 
@@ -480,12 +480,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_summary"
 >title="웹 요약"
->abstract="웹 요약 그래프는 지정된 기간 동안 노출 횟수, 고유 노출 횟수 및 상호 작용을 포함한 웹 경험의 진행 상황을 보여 줍니다."
+>abstract="웹 요약 그래프는 지정된 기간 동안의 노출 횟수, 고유한 노출 횟수, 상호 작용을 포함한 웹 경험의 진행 상황을 보여 줍니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_interactions"
 >title="요소별 상호 작용"
->abstract="요소별 상호 작용 테이블은 웹 페이지에서 방문자의 다양한 요소 참여에 대한 주요 정보를 제공합니다."
+>abstract="요소별 상호 작용 테이블은 웹 페이지의 다양한 요소에 대한 방문자의 참여의 주요 정보를 제공합니다."
 
 캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 웹]** 탭에서는 웹 페이지와 관련된 기본 정보를 자세히 설명합니다.
 
@@ -510,18 +510,18 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_sending_statistics"
->title="DM - 전송 통계"
->abstract="DM 전송 통계 표에는 타겟팅 또는 게재된 메시지와 같은 DM 메시지에 대한 필수 데이터가 요약되어 있습니다."
+>title="다이렉트 메일 - 전송 통계"
+>abstract="다이렉트 메일 전송 통계 테이블에는 대상 지정 메시지 또는 게재된 메시지 등과 같은 다이렉트 메일 메시지에 대한 필수 데이터가 요약되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
->title="다이렉트 메일 - 오류 원인"
->abstract="DM - 오류 원인 그래프 및 테이블을 사용하면 전송 프로세스 중에 발생한 특정 오류를 식별할 수 있습니다."
+>title="다이렉트 메일 - 오류 이유"
+>abstract="다이렉트 메일 - 오류 이유 그래프와 테이블을 통해 전송 프로세스 중에 발생한 특정 오류를 확인할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
->title="DM - 제외된 이유"
->abstract="DM 제외 이유 그래프 및 표는 타겟 대상에서 제외한 사용자 프로필이 메시지를 받지 못하게 된 다양한 요인을 보여 줍니다."
+>title="다이렉트 메일 - 제외된 이유"
+>abstract="다이렉트 메일 제외된 이유 그래프와 테이블에서는 타깃팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 캠페인에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 다이렉트 메일]** 탭에서는 DM 게재와 관련된 기본 정보를 자세히 설명합니다.
 

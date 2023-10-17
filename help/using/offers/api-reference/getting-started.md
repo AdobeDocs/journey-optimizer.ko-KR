@@ -9,7 +9,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="od_api_support"
 >title="새로운 의사 결정 관리 API"
->abstract="이제 의사 결정 관리 객체를 만들고 관리하기 위한 새로운 API를 사용할 수 있습니다. 레거시 api는 2024년 3월 27일까지 지원됩니다."
+>abstract="이제 의사 결정 관리 개체를 생성하고 관리하기 위한 새로운 API를 사용할 수 있습니다. 레거시 API는 2024년 3월 27일까지 지원됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_api_support"
 >title="새로운 의사 결정 관리 API"
->abstract="이제 의사 결정 관리 객체를 만들고 관리하기 위한 새로운 API를 사용할 수 있습니다. 레거시 api는 2024년 3월 27일까지 지원됩니다."
+>abstract="이제 의사 결정 관리 개체를 생성하고 관리하기 위한 새로운 API를 사용할 수 있습니다. 레거시 API는 2024년 3월 27일까지 지원됩니다."
 
 이 개발자 안내서에서는 [!DNL Offer Library] API 사용을 시작하는 데 도움이 되는 단계를 제공합니다. 그런 다음 이 안내서에서는 의사 결정 엔진을 사용하여 주요 작업을 수행하기 위한 샘플 API 호출을 제공합니다.
 

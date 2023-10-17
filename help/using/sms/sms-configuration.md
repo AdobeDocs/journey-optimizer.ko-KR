@@ -42,7 +42,7 @@ SMS 서비스 사용에는 해당 SMS 공급자의 추가 약관이 적용됩니
 >id="ajo_admin_sms_api"
 >title="Journey Optimizer로 SMS 공급업체 구성"
 >abstract="SMS를 보내기 전에 공급자 설정을 Journey Optimizer와 통합해야 합니다. 완료되면 SMS 표면을 만들어야 합니다. 이 단계는 Adobe Journey Optimizer 시스템 관리자가 수행해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=ko-KR#message-preset-sms" text="SMS 채널 표면 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS 채널 표면 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
@@ -93,7 +93,7 @@ API 자격 증명을 만들고 구성한 후에는 SMS 메시지에 대한 채�
 >id="ajo_admin_surface_sms_type"
 >title="SMS 범주 정의"
 >abstract="이 표면을 사용하여 SMS 메시지 유형 선택: 사용자 동의가 필요한 프로모션 SMS 메시지를 위한 마케팅 또는 암호 재설정과 같은 비상업적 SMS 메시지를 위한 트랜잭션."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko-KR#sms-opt-out-management" text="마케팅 SMS 메시지 옵트아웃"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="마케팅 SMS 메시지 옵트아웃"
 
 SMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 만들어야 합니다. **[!DNL Journey Optimizer]**.
 

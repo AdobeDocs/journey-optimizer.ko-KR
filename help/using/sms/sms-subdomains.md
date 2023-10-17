@@ -25,13 +25,13 @@ ht-degree: 24%
 >id="ajo_admin_subdomain_sms"
 >title="SMS 하위 도메인 위임"
 >abstract="SMS 메시지에 사용할 하위 도메인을 구성해야 하는데 이는 SMS 표면을 만들기 위해 이 하위 도메인이 필요하기 때문입니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=ko-KR#message-preset-sms" text="SMS 표면 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS 표면 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="SMS 하위 도메인 선택"
 >abstract="SMS 표면을 만들려면 하위 도메인 이름 목록에서 선택할 SMS 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=ko-KR#message-preset-sms" text="SMS 표면 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS 표면 만들기"
 
 SMS 메시지에 추가되는 URL을 단축하려면 다음의 경우에 선택할 하위 도메인을 설정해야 합니다 [sms 표면 만들기](sms-configuration.md#message-preset-sms).
 

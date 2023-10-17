@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -62,12 +62,12 @@ DM 캠페인을 만들려면 다음 단계를 수행합니다.
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="데이터 필드"
->abstract="DM 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일에 표시할 열과 정보를 추가하고 구성합니다. 최대 50개의 열을 추가할 수 있습니다."
+>abstract="다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일에 표시할 열과 정보를 추가하고 구성합니다. 최대 50개의 열을 추가할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
->title="추출 파일 형식 지정"
->abstract="각 필드에 대해 표현식 편집기를 사용하여 표시할 레이블과 정보를 지정합니다. <br/><br/> 다음 <b>정렬 기준:</b> 옵션을 사용하면 선택한 필드를 사용하여 추출 파일의 열을 정렬할 수 있습니다."
+>title="추출 파일 서식"
+>abstract="각 필드에 대해 표현식 편집기를 사용하여 표시할 레이블과 정보를 지정합니다. <br/><br/><b>정렬 기준</b> 옵션을 사용하면 선택한 필드를 통해 추출 파일의 열을 정렬할 수 있습니다."
 
 1. 추출 파일에 표시할 열과 정보를 구성합니다.
 
