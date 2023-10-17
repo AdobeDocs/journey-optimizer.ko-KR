@@ -1,12 +1,11 @@
 ---
 title: 실험 보고서에 사용된 통계 계산
 description: 실험 보고서를 실행할 때 사용되는 통계 계산에 대해 자세히 알아보기
-feature: A/B Testing
-topic: Content Management
+feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 1%
@@ -45,7 +44,7 @@ ht-degree: 1%
 
 개별 변형에 대한 신뢰 시퀀스 `ν` 는 Adobe에서 사용하는 통계 방법론의 중심입니다. 에서 해당 정의를 찾을 수 있습니다. [이 페이지](https://doi.org/10.48550/arXiv.2103.06476) (복제 위치: [Waudby-Smith 외.]).
 
-대상 매개 변수를 추정하고자 하는 경우 `ψ` 실험에서의 변형의 전환율과 같이, &#39;고정된 시간&#39; 신뢰 구간(CI)의 시퀀스와 시간 균일 신뢰 시퀀스(CS) 간의 이분법은 다음과 같이 요약될 수 있다.
+대상 매개 변수를 추정하고자 하는 경우 `ψ` 실험의 변형의 전환율과 같이 &#39;고정 시간&#39; 신뢰 구간(CI) 시퀀스와 시간 균일 신뢰 시퀀스(CS) 간의 이분법은 다음과 같이 요약할 수 있습니다.
 
 ![](assets/statistical_4.png){width="500" align="center"}
 
