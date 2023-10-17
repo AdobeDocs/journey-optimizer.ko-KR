@@ -9,14 +9,19 @@ role: Developer, Admin
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 7064d9e6dce2c2b96a0c0b4df5eff24e91d42260
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
 
 # API를 사용하여 캠페인 트리거 {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_api_profile_creation"
+>title="캠페인 유형"
+>abstract="프로필을 만들지 않고 메시지를 보낼 수 있는 제한된 가용성의 경우 설명서에 설명된 단계를 수행합니다."
 
 ## API 트리거 캠페인 기본 정보 {#about}
 
