@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1059'
 ht-degree: 11%
 
 ---
@@ -32,8 +32,7 @@ ht-degree: 11%
 
 >[!AVAILABILITY]
 >
->현재 Adobe Healthcare Shield 추가 기능 서비스를 구입한 조직에서는 웹 채널을 사용할 수 없습니다.
->
+>현재 Adobe을 구입한 조직에서는 웹 채널을 사용할 수 없습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
 
 ## 구현 사전 요구 사항 {#implementation-prerequisites}
 

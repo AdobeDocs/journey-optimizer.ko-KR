@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '211'
+ht-degree: 89%
 
 ---
 
@@ -22,8 +22,7 @@ Journey Optimizer를 사용하여 인앱 알림을 만들고 경험 옵션(메�
 
 >[!AVAILABILITY]
 >
->현재 Adobe Healthcare Shield 추가 기능 서비스를 구입한 조직에서는 인앱 채널을 사용할 수 없습니다.
->
+>현재 Adobe을 구입한 조직에서는 인앱 채널을 사용할 수 없습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
 
 ## 사전 요구 사항{#prerequisites-in-app}
 
