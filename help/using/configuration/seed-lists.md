@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 시드 목록
 description: Journey Optimizer에서 시드 목록을 사용하는 방법 알아보기
-feature: Channel Configuration, Email
+feature: Seed Lists, Channel Configuration
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 시드 목록, 시드 목록, 시드, 구성
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 16%

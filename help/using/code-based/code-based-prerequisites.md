@@ -1,15 +1,15 @@
 ---
 title: 코드 기반 경험 사전 요구 사항
 description: Journey Optimizer 코드 기반 기능을 사용하여 앱 및 웹 페이지를 편집하려면 이 페이지의 사전 요구 사항을 따르십시오
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 19%

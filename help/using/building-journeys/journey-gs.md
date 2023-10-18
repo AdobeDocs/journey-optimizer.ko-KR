@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 첫 여정 만들기
 description: Adobe Journey Optimizer를 사용하여 첫 번째 여정을 구축하기 위한 주요 단계
-feature: Journeys
+feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 23%

@@ -3,22 +3,22 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 여정 시작
 description: 여정 시작
-feature: Journeys
+feature: Journeys, Get Started, Overview
 role: User
-level: Beginner
+level: Beginner, Intermediate
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
 
 # 여정 시작{#jo-general-principle}
 
-사용 [!DNL Journey Optimizer] 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 사용하여 실시간 오케스트레이션 사용 사례를 빌드합니다.
+[!DNL Journey Optimizer]를 통해 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다.
 
 다음 기능을 통해 여러 단계로 구성된 고급 시나리오를 설계할 수 있습니다.
 

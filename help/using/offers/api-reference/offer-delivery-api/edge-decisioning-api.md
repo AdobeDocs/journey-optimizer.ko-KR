@@ -1,12 +1,12 @@
 ---
 title: Edge Decisioning API를 사용하여 오퍼 게재
 description: Adobe Experience Platform Web SDK를 사용하면 API 또는 오퍼 라이브러리를 사용하여 만든 개인화된 오퍼를 검색하고 렌더링할 수 있습니다.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 4%
@@ -80,7 +80,7 @@ SDK를 사용하려면 [스키마](../../../data/get-started-schemas.md) 및 a [
 
 1. 사용자 만들기 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html):
 
-   Platform Web SDK 이벤트 보내기 작업을 추가하고 해당 작업의 구성에 관련 결정 범위를 추가합니다
+   Platform Web SDK 이벤트 보내기 작업을 추가하고 해당 작업의 구성에 관련 결정 범위를 추가합니다.
 
    ![오퍼 렌더링](../../assets/rule-render-offer.png)
 

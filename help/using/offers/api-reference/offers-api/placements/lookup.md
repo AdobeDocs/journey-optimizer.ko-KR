@@ -1,12 +1,12 @@
 ---
 title: 배치 조회
 description: 배치는 오퍼를 표시하는 데 사용되는 컨테이너입니다.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 5%

@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 시각적 조각 사용
 description: Journey Optimizer 캠페인 및 여정에서 이메일을 만들 때 시각적 조각을 사용하는 방법을 알아봅니다
-feature: Email Design, Templates
+feature: Email Design, Fragments
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 4%

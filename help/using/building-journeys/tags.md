@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 여정의 태그 관리
 description: 여정의 태그 관리
-feature: Journeys
+feature: Journeys, Tags
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 여정, 태그
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 42%

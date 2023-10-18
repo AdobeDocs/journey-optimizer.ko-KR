@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 프로필 업데이트
 description: 여정에서 프로필 업데이트 활동을 사용하는 방법 알아보기
-feature: Journeys
+feature: Journeys, Profiles, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 프로필, 업데이트, 여정, 활동
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 9%

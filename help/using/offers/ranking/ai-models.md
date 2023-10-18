@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: AI 모델 시작
 description: 오퍼의 등급을 매길 수 있는 AI 모델에 대해 알아봅니다
-feature: Ranking, Offers
+feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 이 기능을 사용하면 다른 항목을 만들 수 있습니다 **AI 모델** 비즈니스 목표를 기반으로 합니다. 의사 결정에 이러한 다양한 목표 기반 전략을 사용하면 훈련된 모델 시스템을 통해 다양한 AI 모델이 목표에 미치는 영향을 이해할 수 있습니다.
 
-예를 들어 이메일 채널에 대한 AI 모델과 푸시 채널에 대한 다른 AI 모델을 선택할 수 있습니다. 훈련된 모델 시스템은 각 채널에 대해 여러 데이터 포인트를 활용하여 오퍼의 우선순위 점수나 을 고려하기보다는 주어진 배치에 대해 먼저 제시해야 하는 오퍼를 결정합니다 [순위 공식](create-ranking-formulas.md).
+예를 들어 이메일 채널에 대한 AI 모델과 푸시 채널에 대한 다른 AI 모델을 선택할 수 있습니다. 각 채널에 대해 훈련된 모델 시스템은 오퍼의 우선 순위 점수 또는 을 고려하기보다는 여러 데이터 포인트를 활용하여 주어진 배치에 대해 먼저 제시해야 하는 오퍼를 결정합니다 [순위 공식](create-ranking-formulas.md).
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 에서 두 가지 유형의 AI 모델을 사용할 수 있습니다. [!DNL Journey Optimizer]:
 
-* **자동 최적화 모델** 비즈니스 고객이 설정한 KPI(반환)를 극대화하는 오퍼를 제공하는 것을 목표로 합니다. 이러한 KPI는 전환율, 수익 등의 형태일 수 있습니다. 이 시점에서 자동 최적화는 타겟으로 오퍼 전환을 사용하여 오퍼 클릭을 최적화하는 데 중점을 둡니다. 자동 최적화는 개인화되지 않으며 오퍼의 &quot;글로벌&quot; 성능을 기반으로 최적화됩니다. [자세히 알아보기](auto-optimization-model.md)
+* **자동 최적화 모델** 비즈니스 고객이 설정한 KPI(반환)를 극대화하는 오퍼를 제공하는 것을 목표로 합니다. 이러한 KPI는 전환율, 수익 등의 형태일 수 있습니다. 이 시점에서 자동 최적화는 타겟으로 오퍼 전환을 사용하여 오퍼 클릭을 최적화하는 데 중점을 둡니다. 자동 최적화는 개인화되지 않으며 오퍼의 &quot;전역&quot; 성능을 기반으로 최적화됩니다. [자세히 알아보기](auto-optimization-model.md)
 
 * **개인화된 최적화 모델** 비즈니스 목표를 정의하고 고객 데이터를 활용하여 비즈니스 지향 모델을 교육하여 개인화된 오퍼를 제공하고 KPI를 극대화할 수 있습니다. [자세히 알아보기](personalized-optimization-model.md)
 

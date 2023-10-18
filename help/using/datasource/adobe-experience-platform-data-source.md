@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Experience Platform 데이터 소스
 description: Adobe Experience Platform 데이터 소스를 구성하는 방법 알아보기
-feature: Data Sources
+feature: Journeys, Data Sources
 topic: Administration
-role: Admin, Developer
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: 내장, 소스, 데이터, 플랫폼, 통합
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 32%

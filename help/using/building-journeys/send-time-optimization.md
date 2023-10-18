@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 전송 시간 최적화
 description: 메시지에서 매개 변수 전송 시간 최적화를 사용하는 방법 알아보기
-feature: Journeys
+feature: Journeys, Activities, Email, Push, Send Time Optimization
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 전송 시간, 전송, 메시지, 최적화, 여정, AI, 지능형
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 36%

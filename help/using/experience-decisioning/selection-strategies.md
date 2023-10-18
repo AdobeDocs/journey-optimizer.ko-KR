@@ -1,7 +1,7 @@
 ---
 title: 선택 전략 만들기
 description: 선택 전략을 만드는 방법을 알아봅니다
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 8%

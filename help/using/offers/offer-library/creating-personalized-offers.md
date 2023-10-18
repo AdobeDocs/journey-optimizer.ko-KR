@@ -1,12 +1,12 @@
 ---
 title: 개인화된 오퍼 만들기
 description: 오퍼를 만들고 구성하고 관리하는 방법을 알아봅니다
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 12%

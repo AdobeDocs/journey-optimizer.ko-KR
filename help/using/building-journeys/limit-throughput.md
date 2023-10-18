@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 title: 외부 데이터 원본 및 사용자 지정 작업으로 처리량 제한
 description: 외부 데이터 원본 및 사용자 지정 작업으로 처리량 제한
-feature: Journeys
+feature: Journeys, Use cases, Custom actions, Data Sources
 topic: Content Management
-role: User, Developer
+role: Developer, Data Engineer
 level: Experienced
 keywords: 여정, 데이터 소스, 제한, 처리량, 사용자 지정, 작업
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 3%

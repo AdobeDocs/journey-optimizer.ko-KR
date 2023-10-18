@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 일반 이벤트
 description: 일반 이벤트를 사용하는 방법 알아보기
-feature: Journeys
+feature: Journeys, Events
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 사용자 정의, 일반, 이벤트, 여정
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 20%

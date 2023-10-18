@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: 이벤트 캡처 구성
 description: 이벤트를 캡처하도록 오퍼 스키마를 구성하는 방법에 대해 알아봅니다
-feature: Ranking, Datasets, Offers
-role: User
-level: Intermediate
+feature: Ranking, Datasets, Decision Management
+role: Developer, Data Engineer
+level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 5%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 여정에 메시지 추가
 description: 여정에 메시지를 추가하는 방법 알아보기
-feature: Journeys
+feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 17%

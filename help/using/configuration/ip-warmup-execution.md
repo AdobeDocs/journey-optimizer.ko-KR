@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: IP 준비 계획 실행
 description: IP 준비 계획을 실행하고 모니터링하는 방법에 대해 알아봅니다.
-feature: Channel Configuration
+feature: IP Warmup Plans
 topic: Administration
 role: Admin
 level: Experienced
@@ -11,7 +11,7 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 19%

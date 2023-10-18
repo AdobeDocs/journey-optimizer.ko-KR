@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 여정 이벤트에 대한 ExperienceEvent 스키마 정보
 description: 여정 이벤트에 대한 ExperienceEvent 스키마에 대해 알아보기
+feature: Journeys, Events
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: 스키마, XDM, 플랫폼, 스트리밍, 수집, 여정
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 4%

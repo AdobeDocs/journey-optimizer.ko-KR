@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 사용자 지정 작업 개선 사항
 description: 사용자 지정 작업에 대한 최신 개선 사항에 대해 자세히 알아보기
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin
+role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 7%

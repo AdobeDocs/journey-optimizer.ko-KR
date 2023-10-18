@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 여정 디자인
 description: 여정 디자인 방법 알아보기
-feature: Journeys
+feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 디자인, 캔버스, 여정, 인터페이스, 드래그, 놓기
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 9270f706d3b0693178ffc076aea2e631ba736afe
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 5%

@@ -1,12 +1,12 @@
 ---
 title: 오퍼 카탈로그 내보내기 시작
 description: 오퍼 카탈로그를 데이터 세트로 내보내는 방법 알아보기
-feature: Offers, Datasets
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
+role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 100%
