@@ -162,9 +162,9 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="시각적 개체 유형 선택"
+>title="비주얼 유형 선택"
 >abstract="여정 또는 캠페인 내의 이메일이나 콘텐츠 템플릿에서 콘텐츠를 재사용할 수 있도록 독립 실행형 시각적 조각을 만듭니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="이메일에 시각적 개체 조각 추가"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="이메일에 비주얼 조각 추가"
 
 1. [조각 만들기](#create-from-scratch) 다음에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴에서 **[!UICONTROL 시각적 조각]** 유형.
 
