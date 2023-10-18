@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 캠페인 검토 및 활성화
 description: Journey Optimizer에서 캠페인을 검토하고 활성화하는 방법에 대해 알아봅니다
-Feature: Campaigns
+feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 캠페인, 검토, 유효성 검사, 활성화, 활성화, 최적화
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%

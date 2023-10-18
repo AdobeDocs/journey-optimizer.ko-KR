@@ -1,11 +1,11 @@
 ---
 title: 일괄 의사 결정
 description: 주어진 Adobe Experience Platform 대상의 모든 프로필에 오퍼 의사 결정을 전달하는 방법을 알아봅니다.
-Feature: Decision Management
+feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 3%

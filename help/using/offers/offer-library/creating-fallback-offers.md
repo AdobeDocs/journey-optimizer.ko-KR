@@ -1,12 +1,12 @@
 ---
 title: 대체 오퍼 만들기
 description: 오퍼에 적합하지 않은 고객을 위해 표시할 대체 오퍼를 만드는 방법을 알아봅니다
-Feature: Decision Management
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 4%

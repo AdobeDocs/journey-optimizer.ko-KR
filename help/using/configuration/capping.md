@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Capping API
 description: 최대 가용량 API로 작업하는 방법을 알아봅니다
+feature: Journeys, API
 role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 4905c3c395ee06e1af34da9a2b5cae9b4a3c39e6
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 26%

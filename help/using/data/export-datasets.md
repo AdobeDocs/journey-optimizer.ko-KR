@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 데이터 세트를 클라우드 스토리지 위치로 내보내기
 description: Adobe Experience Platform 클라우드 스토리지 대상을 사용하여 데이터 세트를 내보내는 방법을 알아봅니다.
+feature: Datasets
 role: User
 level: Beginner
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 6%

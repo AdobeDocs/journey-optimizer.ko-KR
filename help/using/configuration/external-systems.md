@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 외부 시스템과 Journey Optimizer 통합
 description: Journey Optimizer을 외부 시스템과 통합할 때의 모범 사례를 알아봅니다
+feature: Integrations
 role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 32%
