@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 릴리스 정보
-feature: Journeys, Release Notes
-topic: Journeys
+feature: Release Notes
+topic: Content Management
 role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '4254'
 ht-degree: 98%
@@ -111,7 +111,7 @@ ht-degree: 98%
 
 **의사 결정 관리**
 
-* 이제 의사 결정 관리 개체를 생성하고 관리하기 위한 새로운 API를 사용할 수 있습니다. 이러한 API는 향상된 성능과 향상된 사용자 경험을 제공합니다. 레거시 API는 2024년 3월 27일까지 지원됩니다. [자세히 알아보기](../offers/api-reference/getting-started.md)
+* 이제 의사 결정 관리 오브젝트를 생성하고 관리하기 위한 새로운 API를 사용할 수 있습니다. 이러한 API는 향상된 성능과 향상된 사용자 경험을 제공합니다. 레거시 API는 2024년 3월 27일까지 지원됩니다. [자세히 알아보기](../offers/api-reference/getting-started.md)
 
 **개인화**
 
