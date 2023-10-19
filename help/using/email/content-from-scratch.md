@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 콘텐츠, 편집자, 이메일, 시작
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 57%
+source-wordcount: '667'
+ht-degree: 55%
 
 ---
 
@@ -116,9 +116,8 @@ Adobe Journey Optimizer Designer를 사용하여 콘텐츠의 구조를 쉽게 �
    >
    >코드 편집기로 전환한 후에는 이 이메일의 비주얼 디자이너로 되돌릴 수 없습니다.
 
-1. 콘텐츠가 준비되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 확인합니다. 데스크탑 또는 모바일 보기 중 선택할 수 있습니다. [이메일 미리보기에 대해 자세히 알아보기](preview.md)
+1. 콘텐츠가 준비되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 확인합니다. 데스크탑 또는 모바일 보기 중 선택할 수 있습니다. 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 관리](../content-management/preview-test.md) 섹션.
 
    ![](assets/email_designer_simulate_content.png)
 
 1. 콘텐츠가 준비되면 **[!UICONTROL 저장]**.
-

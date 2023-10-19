@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 허용 목록, 목록, 안전, 구성
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 14%
@@ -74,7 +74,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->활성화되면 허용 목록을 실행할 때뿐만 아니라 를 사용하여 메시지를 테스트할 때도 여정 기능이 부여됩니다 [증명](../email/preview.md#send-proofs) 및 를 사용하여 여정 테스트 [테스트 모드](../building-journeys/testing-the-journey.md).
+>활성화되면 허용 목록을 실행할 때뿐만 아니라 를 사용하여 메시지를 테스트할 때도 여정 기능이 부여됩니다 [증명](../content-management/proofs.md) 및 를 사용하여 여정 테스트 [테스트 모드](../building-journeys/testing-the-journey.md).
 
 ## 허용 목록 비활성화 {#deactivate-allow-list}
 

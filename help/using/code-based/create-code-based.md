@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1031'
 ht-degree: 11%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 11%
 >title="코드 기반 경험 미리보기"
 >abstract="코드 기반 경험이 어떻게 시각화되는지 시뮬레이션을 수행합니다."
 
-수정된 코드 기반 경험의 미리보기를 표시하려면 아래 단계를 따르십시오.
+수정된 코드 기반 경험의 미리보기를 표시하려면 아래 단계를 따르십시오. 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은  [콘텐츠 페이지 미리보기 및 테스트](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

@@ -9,7 +9,7 @@ role: User
 level: Intermediate, Experienced
 keywords: 코드, HTML, 편집기
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 67%
@@ -44,7 +44,7 @@ ht-degree: 67%
    >
    >이 작업을 수행하면 이메일 디자이너에서 선택한 템플릿이 열립니다. 여기에서 이메일 디자인을 완료하거나 **[!UICONTROL 코드 편집기로 전환]** 옵션을 사용하여 코드 편집기로 돌아갈 수 있습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 미리 보기]** 테스트 프로필을 사용하여 메시지 디자인 및 개인화를 확인하는 버튼입니다. [자세히 알아보기](preview.md)
+1. 다음을 클릭합니다. **[!UICONTROL 미리 보기]** 테스트 프로필을 사용하여 메시지 디자인 및 개인화를 확인하는 버튼입니다. [자세히 알아보기](../content-management/preview-test.md)
 
    ![](assets/code-editor-preview.png)
 

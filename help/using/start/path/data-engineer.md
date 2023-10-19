@@ -7,7 +7,7 @@ feature: Get Started
 role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 1. **소스 커넥터 구성**. Adobe Journey Optimzer를 사용하면 외부 소스에서 데이터를 수집하는 동시에 플랫폼 서비스를 사용하여 들어오는 데이터를 구조화하고, 레이블을 지정하고, 개선할 수 있습니다. Adobe 애플리케이션, 클라우드 기반 저장소, 데이터베이스 및 기타 여러 소스와 같은 다양한 소스에서 데이터를 수집할 수 있습니다. [이 페이지에서](../get-started-sources.md) 소스 커넥터에 대해 자세히 알아보세요.
 
-1. **테스트 프로필 만들기**. 테스트 프로필은 여정에서 [테스트 모드](../../building-journeys/testing-the-journey.md)를 사용할 때 필요하며 전송하기 전에 [메시지를 미리 보고 테스트하는 데](../../email/preview.md) 필요합니다. 테스트 프로필을 만드는 단계는 [이 페이지](../../audience/creating-test-profiles.md)에 자세히 설명되어 있습니다.
+1. **테스트 프로필 만들기**. 테스트 프로필은 여정에서 [테스트 모드](../../building-journeys/testing-the-journey.md)를 사용할 때 필요하며 전송하기 전에 [메시지를 미리 보고 테스트하는 데](../../content-management/preview-test.md) 필요합니다. 테스트 프로필을 만드는 단계는 [이 페이지](../../audience/creating-test-profiles.md)에 자세히 설명되어 있습니다.
 
 
 또한 여정에서 메시지를 보낼 수 있으려면 **[!UICONTROL 데이터 소스]**, **[!UICONTROL 이벤트]** 및 **[!UICONTROL 작업]**&#x200B;을 구성해야 합니다. 자세한 내용은 [이 섹션](../../configuration/about-data-sources-events-actions.md)을 참조하세요.

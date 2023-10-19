@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 53d2d09342979d8f277d1be9f2f72da067dc1763
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1785'
 ht-degree: 24%
 
 ---
@@ -237,7 +237,7 @@ ht-degree: 24%
 
    ![](assets/lp_test-profiles.png)
 
-   테스트 프로필을 선택하는 단계는 메시지를 테스트할 때와 동일합니다. 자세한 내용은 다음과 같습니다 [이 섹션](../email/preview.md#select-test-profiles).
+   테스트 프로필을 선택하는 단계는 메시지를 테스트할 때와 동일합니다. 자세한 내용은 [콘텐츠 관리](../content-management/test-profiles.md) 섹션.
 
 1. 선택 **[!UICONTROL 미리보기 열기]** 랜딩 페이지를 테스트합니다.
 

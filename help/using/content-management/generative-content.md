@@ -11,7 +11,7 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: b524d0026f32eaf2d7421bb85188d01199cbf843
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 6%
@@ -80,7 +80,7 @@ ht-degree: 6%
 
    ![](assets/gen-ai-title-7.png)
 
-1. 메시지 콘텐츠를 정의한 후 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../email/preview.md)
+1. 메시지 콘텐츠를 정의한 후 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../content-management/preview-test.md)
 
 1. 콘텐츠 실험이 준비되면 캠페인 요약 페이지에서 다음을 클릭할 수 있습니다. **[!UICONTROL 활성화하려면 검토]** 캠페인 요약을 표시합니다. 매개 변수가 잘못되거나 누락된 경우 경고가 표시됩니다.
 

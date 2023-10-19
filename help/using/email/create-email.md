@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 9%
+source-wordcount: '916'
+ht-degree: 8%
 
 ---
 
@@ -146,11 +146,15 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >
 >이메일을 사용하여 여정/캠페인을 테스트하거나 활성화하려면 다음을 모두 해결해야 합니다 **오류** 경고.
 
-## 이메일 미리 보기 및 보내기
+## 이메일 확인 및 보내기
 
-메시지 콘텐츠가 정의되면 미리 보기하여 이메일 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인할 수 있습니다. [자세히 알아보기](preview.md)
+메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 보고, 증명을 보내고, 인기 있는 데스크탑, 모바일 및 웹 기반 클라이언트에서 렌더링을 제어할 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
+
+이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL 콘텐츠 시뮬레이션]** 그런 다음 테스트 프로필을 추가하여 테스트 프로필 데이터를 사용하여 메시지를 확인합니다.
 
 ![](assets/email_designer_edit_simulate.png)
+
+테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 관리](../content-management/preview-test.md) 섹션.
 
 이메일이 준비되면 의 구성을 완료합니다. [여정](../building-journeys/journey-gs.md) 또는 [campaign](../campaigns/create-campaign.md)를 누르고 활성화하여 메시지를 보냅니다.
 

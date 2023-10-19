@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 13%
@@ -85,8 +85,6 @@ ht-degree: 13%
    >선택한 프로필은 의 테스트 프로필로 남습니다. **[!UICONTROL 시뮬레이션]** 을 사용하여 제거될 때까지 세션에서 세션으로 탭 **[!UICONTROL 프로필 관리]**.
 
 1. 다음을 클릭할 수 있습니다 **[!UICONTROL 프로필 세부 정보]** 선택한 프로필 데이터를 표시하는 링크입니다.
-
-<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## 결정 범위 추가 {#add-decision-scopes}
 

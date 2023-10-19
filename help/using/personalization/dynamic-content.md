@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 다이내믹, 콘텐츠
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 9%
@@ -42,7 +42,7 @@ Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 �
 
    ![](assets/conditions-language-sample.png)
 
-1. 콘텐츠가 준비되면 다음을 사용하여 다양한 변형을 미리 볼 수 있습니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다. [메시지 테스트 및 미리 보기 방법 알아보기](../email/preview.md)
+1. 콘텐츠가 준비되면 다음을 사용하여 다양한 변형을 미리 볼 수 있습니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다. [메시지 테스트 및 미리 보기 방법 알아보기](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
 

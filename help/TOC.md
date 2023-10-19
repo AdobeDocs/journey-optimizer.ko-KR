@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 64c255eb6bb4712d79547ae47fd1dc6f8b1e9089
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 98%
+source-wordcount: '1686'
+ht-degree: 95%
 
 ---
 
@@ -195,7 +195,6 @@ ht-degree: 98%
          + [배경 설정 편집](using/email/backgrounds.md)
          + [세로 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
          + [인라인 스타일 속성 추가](using/email/inline-styling.md)
-   + [이메일 미리 보기 및 테스트](using/email/preview.md)
    + [Experience Manager 템플릿 사용](using/email/aem-templates.md)
    + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
    + 이메일 채널 구성 {#configure-email}
@@ -206,12 +205,12 @@ ht-degree: 98%
    + [인앱 채널 사전 요구 사항](using/in-app/inapp-configuration.md)
    + [인앱 메시지 만들기 ](using/in-app/create-in-app.md)
    + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
-   + [인앱 알림 테스트하고 보내기](using/in-app/send-in-app.md)
+   + [인앱 알림 확인 및 보내기](using/in-app/send-in-app.md)
 + 푸시 알림 채널{#push}
    + [푸시 알림 시작](using/push/get-started-push.md)
    + [푸시 알림 만들기](using/push/create-push.md)
    + [푸시 알림 디자인](using/push/design-push.md)
-   + [푸시 알림 보내기](using/push/send-push.md)
+   + [푸시 알림 확인 및 보내기](using/push/send-push.md)
    + 푸시 알림 구성{#push-config}
       + [푸시 알림 흐름](using/push/push-gs.md)
       + [푸시 알림 채널 구성](using/push/push-configuration.md)
@@ -219,14 +218,14 @@ ht-degree: 98%
 + SMS 채널{#sms}
    + [SMS 시작](using/sms/get-started-sms.md)
    + [SMS 메시지 만들기](using/sms/create-sms.md)
-   + [SMS 미리 보기 및 테스트](using/sms/send-sms.md)
+   + [SMS 확인 및 보내기](using/sms/send-sms.md)
    + [SMS 옵트아웃 관리](using/sms/sms-opt-out.md)
    + [SMS 채널 구성](using/sms/sms-configuration.md)
    + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
 + 다이렉트 메일 {#direct-mail}
    + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)
    + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)
-   + [다이렉트 메일 메시지 테스트 및 보내기](using/direct-mail/test-send-direct-mail.md)
+   + [DM 메시지 확인 및 보내기](using/direct-mail/test-send-direct-mail.md)
    + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
 + 웹 채널 {#web}
    + [웹 채널 시작하기](using/web/get-started-web.md)
@@ -258,14 +257,15 @@ ht-degree: 98%
       + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
 + 콘텐츠 관리 {#content-management}
-   + [Assets Essentials 작업](using/content-management/assets-essentials.md)
-   + [Adobe Stock 작업](using/content-management/stock.md)
    + 콘텐츠 도우미 작업{#content-assistant}
       + [콘텐츠 도우미 시작](using/content-management/gs-generative.md)
       + [콘텐츠 생성](using/content-management/generative-content.md)
       + [이미지 생성](using/content-management/generative-image.md)
    + 다국어 콘텐츠 작업{#content-multilingual}
       + [다국어 콘텐츠 만들기](using/content-management/multilingual-manual.md)
+   + 에셋/이미지 {#assets-images}
+      + [Assets Essentials 작업](using/content-management/assets-essentials.md)
+      + [Adobe Stock 작업](using/content-management/stock.md)
    + 개인화 {#personalization}
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
@@ -297,6 +297,12 @@ ht-degree: 98%
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
+   + 콘텐츠 미리보기 및 테스트 {#preview-test}
+      + [미리보기 및 테스트 시작](using/content-management/preview-test.md)
+      + [테스트 프로필 선택](using/content-management/test-profiles.md)
+      + [콘텐츠 미리보기](using/content-management/preview.md)
+      + [이메일 증명 보내기](using/content-management/proofs.md)
+      + [이메일 렌더링 테스트](using/content-management/rendering.md)
 + 대상자, 프로필, 신원{#audiences-profiles-identities}
    + 대상자 {#audiences}
       + [대상자 시작](using/audience/about-audiences.md)

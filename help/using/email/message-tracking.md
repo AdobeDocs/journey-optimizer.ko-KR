@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 36%
@@ -135,7 +135,7 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->다음에서 [증명](preview.md#send-proofs) 테스트 프로필로 전송되면 미러 페이지에 대한 링크가 활성화되지 않습니다. 최종 메시지에서만 활성화됩니다.
+>다음에서 [증명](../content-management/proofs.md) 테스트 프로필로 전송되면 미러 페이지에 대한 링크가 활성화되지 않습니다. 최종 메시지에서만 활성화됩니다.
 
 미러 페이지의 보존 기간은 60일입니다. 이 지연 후에는 미러 페이지를 더 이상 사용할 수 없습니다.
 
@@ -186,4 +186,4 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->최종 URL을 확인하려면 [증명 보내기](preview.md#send-proofs) 증명을 받은 후 이메일 콘텐츠의 링크를 클릭합니다. URL에 추적 매개 변수가 표시되어야 합니다. 위의 예에서 최종 URL은 다음과 같습니다. <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>최종 URL을 확인하려면 [증명 보내기](../content-management/preview-test.md#send-proofs) 증명을 받은 후 이메일 콘텐츠의 링크를 클릭합니다. URL에 추적 매개 변수가 표시되어야 합니다. 위의 예에서 최종 URL은 다음과 같습니다. <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 오퍼, 결정, 이메일, 개인화, 결정
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -74,10 +74,6 @@ ht-degree: 1%
 ![](assets/deliver-offer-preview.png)
 
 고객 프로필과 함께 결정의 일부인 다른 오퍼를 표시하려면 아래 단계를 따르십시오.
-
->[!NOTE]
->
->메시지를 미리 보려면 테스트 프로필을 사용할 수 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../audience/creating-test-profiles.md).
 
 1. 오퍼를 미리 보는 데 사용할 테스트 프로필을 선택하십시오.
 

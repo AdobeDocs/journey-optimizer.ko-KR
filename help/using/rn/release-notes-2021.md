@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 88%
@@ -275,7 +275,7 @@ ht-degree: 88%
 
 **콘텐츠 디자인**
 
-* **배경** - 이제 배경 이미지가 실시간 미리 보기에서 지원됩니다. [자세히 알아보기](../email/preview.md)
+* **배경** - 이제 배경 이미지가 실시간 미리 보기에서 지원됩니다. [자세히 알아보기](../content-management/preview-test.md)
 * **원클릭 옵트아웃 링크** - 이메일 콘텐츠에 새로운 유형의 링크를 삽입할 수 있습니다. **옵트아웃** 링크를 사용하면 옵트아웃을 확인하기 위해 랜딩 페이지로 리디렉션되지 않고 한 번의 클릭으로 커뮤니케이션 구독을 취소할 수 있습니다. [자세히 알아보기](../privacy/opt-out.md#one-click-opt-out-link)
 
 **개인화**
@@ -350,9 +350,9 @@ ht-degree: 88%
 
 **미리 보기 및 테스트**
 
-* 이제 ID 및 네임스페이스가 **[!UICONTROL 미리 보기]** 화면. [자세히 보기](../email/preview.md#preview-your-messages)
+* 이제 ID 및 네임스페이스가 **[!UICONTROL 미리 보기]** 화면. [자세히 보기](../content-management/preview-test.md#preview-your-messages)
 * 이제 교정용 테스트 이메일 수가 10개로 제한됩니다.
-* 교정을 보낼 때 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](../email/preview.md#send-proofs)
+* 교정을 보낼 때 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](../content-management/preview-test.md#send-proofs)
 
 **개인화 표현식 편집기**
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # 테스트 프로필 만들기 {#create-test-profiles}
 
-다음을 사용할 때 테스트 프로필이 필요합니다. [테스트 모드](../building-journeys/testing-the-journey.md) 여정에서 및 [콘텐츠 미리보기 및 테스트](../email/preview.md).
+다음을 사용할 때 테스트 프로필이 필요합니다. [테스트 모드](../building-journeys/testing-the-journey.md) 여정에서 및 [콘텐츠 미리보기 및 테스트](../content-management/preview-test.md).
 
 테스트 프로필을 만드는 방법에는 몇 가지가 있습니다. 이 페이지에서 자세한 내용을 찾아 다음과 같은 작업을 수행할 수 있습니다.
 

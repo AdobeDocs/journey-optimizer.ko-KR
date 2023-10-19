@@ -1,40 +1,30 @@
 ---
-title: 다이렉트 메일 메시지 테스트 및 보내기
-description: Journey Optimizer에서 DM 메시지를 테스트하고 전송하는 방법을 알아봅니다
+title: DM 메시지 확인 및 보내기
+description: Journey Optimizer에서 DM 메시지를 확인하고 보내는 방법 알아보기
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 13%
+source-wordcount: '429'
+ht-degree: 12%
 
 ---
 
-# 다이렉트 메일 메시지 테스트 및 보내기 {#direct-mail-test-send}
+# DM 메시지 확인 및 보내기 {#direct-mail-test-send}
 
 ## 추출 파일 미리 보기 {#preview-dm}
 
 추출 파일의 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 볼 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
 
-1. 추출 파일 콘텐츠 구성 화면에서 다음을 클릭합니다. **[!UICONTROL 콘텐츠 시뮬레이션]**.
+이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL 콘텐츠 시뮬레이션]** 그런 다음 테스트 프로필을 추가하여 테스트 프로필 데이터를 사용한 추출 파일 렌더링 방법을 확인합니다.
 
-   ![](assets/direct-mail-simulate-button.png){width="800" align="center"}
+![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-1. 클릭 **[!UICONTROL 테스트 프로필 관리]** 테스트 프로필을 추가합니다.
-
-1. 을(를) 사용하여 테스트 프로필 찾기 **[!UICONTROL ID 네임스페이스]** 및 **[!UICONTROL ID 값]** 필드. 그런 다음 을 클릭합니다. **[!UICONTROL 프로필 추가]**.
-
-   ![](assets/direct-mail-test-profile.png){width="800" align="center"}
-
-1. 테스트 프로필을 선택하면 **[!UICONTROL 테스트 프로필 추가]** 창.
-
-1. 다음에서 **미리 보기 및 테스트** 창, 테스트 프로필 데이터가 추출 파일 콘텐츠에 추가되어 파일이 렌더링되는 방법을 미리 볼 수 있습니다.
-
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 관리](../content-management/preview-test.md) 섹션.
 
 파일 콘텐츠를 전송할 준비가 되면 시뮬레이트 화면을 닫은 다음 **[!UICONTROL 활성화하려면 검토]** 단추를 클릭합니다.
 

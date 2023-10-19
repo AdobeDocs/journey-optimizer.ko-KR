@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 97%
@@ -97,7 +97,7 @@ ht-degree: 97%
 
 [표현식 편집기](../personalization/personalization-build-expressions.md) 자체는 동의 여부 확인이나 적용을 수행하지 않습니다. 메시지 게재 작업에 포함되지 않기 때문입니다.
 
-그러나 권한 기반 액세스 제어 레이블을 사용하면 개인화에 사용할 수 있는 필드를 제한할 수 있습니다. [메시지 미리 보기](../email/preview.md#preview-email) 및 [이메일 렌더링 서비스](../email/preview.md#email-rendering)가 중요한 정보로 식별된 필드를 마스킹합니다.
+그러나 권한 기반 액세스 제어 레이블을 사용하면 개인화에 사용할 수 있는 필드를 제한할 수 있습니다. [메시지 미리 보기](../content-management/preview.md) 및 [이메일 렌더링 서비스](../content-management/rendering.md)가 중요한 정보로 식별된 필드를 마스킹합니다.
 
 >[!NOTE]
 >

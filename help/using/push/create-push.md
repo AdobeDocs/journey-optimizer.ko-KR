@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 16%
+source-wordcount: '717'
+ht-degree: 11%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 16%
 
 1. 여정 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** 푸시 콘텐츠 구성 단추 [푸시 알림 디자인](design-push.md)
 
-1. 메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다.
+1. 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 볼 수 있습니다.
 
 1. 푸시가 준비되면 의 구성을 완료합니다. [여정](../building-journeys/journey-gs.md) 보낼 수 있습니다.
 
@@ -83,7 +83,7 @@ ht-degree: 16%
 
 1. 캠페인 구성 화면에서 다음을 클릭합니다. **[!UICONTROL 콘텐츠 편집]** 푸시 콘텐츠 구성 단추 [푸시 알림 디자인](design-push.md)
 
-1. 메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다.
+1. 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 볼 수 있습니다.
 
 1. 푸시가 준비되면 의 구성을 완료합니다. [campaign](../campaigns/create-campaign.md) 보낼 수 있습니다.
 

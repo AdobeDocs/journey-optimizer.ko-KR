@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 18%
+source-wordcount: '832'
+ht-degree: 17%
 
 ---
 
@@ -86,28 +86,19 @@ ht-degree: 18%
 >title="웹 경험 미리보기"
 >abstract="웹 경험이 어떻게 시각화되는지 시뮬레이션을 수행합니다."
 
-한 번 [웹 경험을 작성했습니다.](edit-web-content.md) 웹 디자이너를 사용하면 캠페인을 활성화하기 전에 수정된 웹 페이지의 미리보기를 표시할 수 있습니다. 그 방법은 다음과 같습니다.
+한 번 [웹 경험을 작성했습니다.](edit-web-content.md) 웹 디자이너를 사용하면 테스트 프로필을 사용하여 수정된 웹 페이지를 미리 볼 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 어떻게 표시되는지 확인할 수 있습니다.
 
->[!CAUTION]
+이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL 콘텐츠 시뮬레이션]** 웹 campaign 콘텐츠 편집 화면 또는 웹 디자이너에서 테스트 프로필을 추가하여 테스트 프로필 데이터를 사용하여 웹 페이지를 확인합니다.
+
+![](assets/web-designer-preview.png)
+
+기본 브라우저에서 열거나 테스트 URL을 복사하여 모든 브라우저에 붙여넣을 수도 있습니다. 이렇게 하면 캠페인이 시작되기 전에 모든 브라우저에서 새 웹 경험을 미리 볼 수 있는 팀 및 관련자와 링크를 공유할 수 있습니다.
+
+>[!NOTE]
 >
->게재할 오퍼를 시뮬레이션할 수 있는 테스트 프로필이 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../audience/creating-test-profiles.md).
+>테스트 URL을 복사할 때 표시되는 콘텐츠는 콘텐츠 시뮬레이션이 생성되었을 때 사용된 테스트 프로필에 대해 개인화된 콘텐츠입니다 [!DNL Journey Optimizer].
 
-1. 웹 캠페인 콘텐츠 편집 화면 또는 웹 디자이너에서 을 선택합니다 **[!UICONTROL 콘텐츠 시뮬레이션]**.
-
-   <!--![](assets/web-designer-simulate.png)-->
-
-   ![](assets/web-campaign-simulate.png)
-
-1. 클릭 **[!UICONTROL 테스트 프로필 관리]** 테스트 프로필을 한 개 이상 선택합니다.
-1. 수정된 웹 페이지의 미리보기가 표시됩니다.
-
-   ![](assets/web-designer-preview.png)
-
-1. 기본 브라우저에서 열거나 테스트 URL을 복사하여 모든 브라우저에 붙여넣을 수도 있습니다. 이렇게 하면 캠페인이 시작되기 전에 모든 브라우저에서 새 웹 경험을 미리 볼 수 있는 팀 및 관련자와 링크를 공유할 수 있습니다.
-
-   >[!NOTE]
-   >
-   >테스트 URL을 복사할 때 표시되는 콘텐츠는 콘텐츠 시뮬레이션이 생성되었을 때 사용된 테스트 프로필에 대해 개인화된 콘텐츠입니다 [!DNL Journey Optimizer].
+테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 관리](../content-management/preview-test.md) 섹션.
 
 ## 웹 캠페인 활성화 {#activate-web-campaign}
 

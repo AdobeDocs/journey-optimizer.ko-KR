@@ -1,44 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 푸시 알림 미리 보기 및 테스트
-description: Journey Optimizer에서 푸시 알림을 미리 보고 테스트하는 방법을 알아봅니다
+title: 푸시 알림 확인 및 보내기
+description: Journey Optimizer에서 푸시 알림을 확인하고 전송하는 방법 알아보기
 feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 9%
+source-wordcount: '356'
+ht-degree: 5%
 
 ---
 
-# 푸시 알림 미리 보기 및 테스트 {#send-push}
+# 푸시 알림 확인 및 보내기 {#send-push}
 
 ## 푸시 알림 미리 보기 {#preview-push}
 
-메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
+메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 볼 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
 
-1. 클릭 **[!UICONTROL 콘텐츠 시뮬레이션]**.
+이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL 콘텐츠 시뮬레이션]** 그런 다음 테스트 프로필을 추가합니다. 그런 다음 콘텐츠를 미리 볼 장치 유형을 선택할 수 있습니다. **[!UICONTROL iOS]** 또는 **[!UICONTROL Android]**.
 
-1. 클릭 **[!UICONTROL 테스트 프로필 관리]** 테스트 프로필을 추가합니다.
+![](assets/push_preview_3.png)
 
-1. 을(를) 사용하여 테스트 프로필 찾기 **[!UICONTROL ID 네임스페이스]** 및 **[!UICONTROL ID 값]** 필드. 그런 다음 을 클릭합니다. **[!UICONTROL 프로필 추가]**.
-
-   ![](assets/push_preview_1.png)
-
-1. 테스트 프로필을 선택하면 **[!UICONTROL 테스트 프로필 추가]** 창.
-
-1. 다음에서 **미리 보기 및 테스트** 창, 테스트 프로필 데이터가 메시지 콘텐츠에 추가됩니다.
-
-   콘텐츠를 미리 볼 장치 유형 선택: **[!UICONTROL iOS]** 또는 **[!UICONTROL Android]**.
-
-   ![](assets/push_preview_3.png)
+테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 관리](../content-management/preview-test.md) 섹션.
 
 ## 푸시 알림 유효성 확인 {#push-validate}
-
 
 편집기의 위쪽 섹션에서 경고를 확인해야 합니다. 일부는 간단한 경고이지만 일부는 메시지를 보내지 못하게 할 수 있습니다. 경고와 오류의 두 가지 경고 유형이 발생할 수 있습니다.
 
