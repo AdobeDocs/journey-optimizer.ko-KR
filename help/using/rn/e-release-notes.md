@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 24%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 100%
 
 아래 초기 릴리스 정보는 릴리스를 사용할 수 있는 당일까지 사전 통지 없이 변경될 수 있습니다. 링크, 화면, 업데이트된 설명서는 릴리스 날짜의 [릴리스 정보](release-notes.md)에 게시됩니다.
 
-## 2023년 9월 초기 릴리스 정보 {#sept-rn-2023}
+## 2023년 10월 초기 릴리스 정보 {#oct-rn-2023}
 
-**릴리스 날짜**: 2023년 9월 26~27일
+**릴리스 날짜**: 2023년 10월 25~26일
 
-### 새로운 기능{#sept-2023-features}
+### 새로운 기능{#oct-2023-features}
 
 이번 릴리스에는 아래 목록에 있는 새로운 기능이 제공됩니다.
 
@@ -35,14 +35,14 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>통합 채널 보고서</strong><br/></th>
+<th><strong>SMS(베타)의 MMS(멀티미디어 메시지 서비스)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>채널 보고서 기능은 분석가와 마케팅 담당자에게 채널 수준의 트래픽 및 참여 지표에 대한 포괄적인 개요를 제공합니다. ‘보고서’ 메뉴에 액세스하려면 ‘채널 보고서 보기’ 권한이 있어야 합니다.</p>
-<img src="assets/channel-reports.png"/>
+<p>이제 SMS 채널을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 전송하여 고객과 이미지, GIF 또는 비디오를 공유할 수 있으므로 커뮤니케이션을 향상시킬 수 있습니다. 이 기능은 현재 Sinch의 Beta에서만 사용할 수 있습니다.</p>
+<!--img src="assets/channel-reports.png"/-->
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
@@ -52,97 +52,51 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>데이터 세트 내보내기 대상(GA)</strong><br/></th>
+<th><strong>샌드박스 도구</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 클라우드 스토리지 대상으로 Journey Optimizer 데이터 세트 내보내기를 일반적으로 사용할 수 있습니다. 이제 클라우드 스토리지 위치와 실시간 연결을 설정하여 데이터 세트의 콘텐츠를 내보낼 수 있습니다.</p>
-<img src="../data/assets/dataset-export-setup.png">
+<p>Adobe Journey Optimizer의 샌드박스 도구 기능을 사용하여 다른 개체를 선택하고 패키지로 내보낼 수 있습니다. 패키지는 단일 개체, 여러 개체 또는 전체 샌드박스로 구성될 수 있습니다. 패키지에 포함된 모든 객체는 동일한 샌드박스의 객체여야 합니다.</p>
+<!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>샌드박스당 모바일 애플리케이션 자격 증명 스토리지</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이 새로운 기능을 사용하면 푸시 자격 증명을 쉽게 관리하고 앱 표면의 전용 샌드박스와 연결할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../in-app/inapp-configuration.md">세부 설명서</a>를 참고하십시오.</p>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>계산된 속성</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>계산된 속성을 사용하면 향상된 동작 기반 세분화, 개인화 및 활성화를 위해 직관적인 사용자 인터페이스를 통해 이벤트 데이터를 프로필 속성으로 쉽게 요약할 수 있습니다. 이 기능을 사용하면 셀프서비스 방식으로 계산된 속성을 만들고 관리하여 세분화, 실시간 고객 프로필 대상 또는 Journey Optimizer에서 사용할 수 있습니다.<br/><br/>
-또한 계산된 속성은 세분화 및 여정 워크플로우를 간소화하여 관련 경험을 원활하게 전달할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=ko">세부 설명서</a>에서 자세히 알아보십시오.</p>
-<img src="assets/do-not-localize/computed-attributes.gif">
-</tr>
-</tbody>
-</table>
 
 
-### 개선 사항 {#sept-2023-improvements}
+### 개선 사항 {#oct-2023-improvements}
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-<!--**Audiences**
+**대상자**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences resulting from composition workflows into journeys. -->
+* 이제 CSV 파일에서 업로드한 대상을 여정 및 캠페인으로 타깃팅할 수 있습니다.
+* 이제 작성 워크플로우로 인해 발생하는 대상자를 여정에 타기팅할 수 있습니다.
 
-**개인화**
+**이메일에 대한 스팸 점수**
 
-* 이제 시각적 조각 외에도 표현식 편집기를 통해 Journey Optimizer 인터페이스에서 표현식 조각을 만들고, 저장하며, 다시 사용할 수 있습니다. 표현식 조각은 이전에 저장된 표현식을 대체합니다.
+* 이메일 콘텐츠를 시뮬레이션할 때 새로운 옵션을 사용하면 받은 편지함 스팸 필터링에 대한 콘텐츠의 성능을 확인할 수 있습니다. 이 기능은 현재 고객 집합(제한된 가용성)에만 제안되며 이메일 채널에 사용할 수 있습니다.
 
 **경고**
 
-* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 대상자 읽기가 실패하면 알림을 받을 수 있습니다.
+* 이제 Journey Optimizer 캠페인과 관련된 새 경고를 **경고** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-**웹 채널**
+**캠페인**
 
-* 이제 웹 디자이너 시각적 편집기에서 단일 페이지 애플리케이션(SPA)을 작성할 수 있으며, 이를 통해 웹 페이지 수정 사항을 적용할 특정 보기를 선택할 수 있습니다. 보기는 전체 사이트로 정의하거나 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다. SPA에서 Adobe Journey Optimizer 웹 캠페인을 만들고 실행하려면 Adobe Experience Platform 웹 SDK 구현에서 보기를 정의하는 일회용 개발자 설정이 필요합니다.
-
-* 웹 디자이너를 사용하여 페이지를 편집할 때 이제 구성 요소를 선택하고 디자이너 인터페이스에서 편집할 필요 없이 **수정** 창에서 직접 콘텐츠에 새로운 변경 사항을 추가할 수 있습니다.
-* 이제 웹 하위 도메인을 설정할 때 Adobe에 이미 위임된 하위 도메인을 사용할 수 있을 뿐만 아니라 고유한 하위 도메인을 추가할 수 있는 옵션이 제공됩니다.
+* 이제 실시간 1회 캠페인을 중지하고 수정하고 다시 시작할 수 있습니다. 이 개선 사항은 베타에서 사용할 수 있습니다.
 
 **여정**
 
-* 이제 사용자 정의 작업 응답에 대한 지원이 GA됩니다. 이제 사용자 정의 작업에서 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 또한 모든 사용자 정의 작업을 엔드포인트당 호출 수 5000회로 제한하는 가드레일이 새로 추가되었습니다.
-* 이제 여정을 복제할 때 여정 사본의 이름을 정의할 수 있습니다.
+* 대기 활동에서 정의할 수 있는 최대 기간은 이제 30일이 아니라 29일입니다.
 
-<!--
-* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
--->
+**랜딩 페이지**
 
-**이메일 채널**
+* 이제 랜딩 페이지 양식 구성 요소를 사용할 때 고유한 옵션이 있는 이메일 필드를 추가할 수 있습니다.
 
-이메일 표면 구성의 새 옵션을 사용하면 이메일 주소가 Adobe Journey Optimizer 금지 목록에 있는 경우에도 프로필에 트랜잭션 메시지를 보내도록 선택할 수 있습니다.
+**채널 구성의 동의**
 
-**SMS 채널**
-
-두 개의 새 필드인 **옵트인 메시지** 및 **도움말 메시지**&#x200B;가 API 구성 화면에 추가되어 사용자가 인바운드 키워드에 대한 응답을 사용자 정의할 수 있습니다. Sinch SMS 공급자만 사용할 수 있습니다.
-
-**보고**
-
-이제 Journey Optimizer 보고서를 PDF로 내보낼 수 있습니다. [자세히 알아보기](../reports/global-report.md#export-reports)
-
-<!--**Decision management**
-
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
+* 이제 채널 표면 수준에서 마케팅 작업을 선택할 수 있습니다. 표면에서 사용할 경우 고객의 선호도를 존중하기 위해 해당 마케팅 액션과 연결된 모든 동의 정책을 활용합니다.
