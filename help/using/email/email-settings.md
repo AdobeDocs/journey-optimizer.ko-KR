@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
+source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
 source-wordcount: '2340'
 ht-degree: 12%
@@ -123,10 +123,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 * **[!UICONTROL 오류 이메일]**: 메일이 게재된 후 며칠(비동기 바운스) ISP에서 생성한 모든 오류가 이 주소에서 수신됩니다. 부재 중 알림 및 문제 응답도 이 주소로 수신됩니다.
 
-  >[!NOTE]
-  >
-  >Adobe에게 위임되지 않은 특정 이메일 주소에 대한 부재 중 알림 및 질문 응답을 수신하려면 [전진 프로세스](#forward-email). 이 경우 이 받은 편지함에 도착하는 이메일을 처리할 수동 또는 자동화된 솔루션이 있는지 확인하십시오.
-
+  Adobe에게 위임되지 않은 특정 이메일 주소에 대한 부재 중 알림 및 질문 응답을 수신하려면 [전진 프로세스](#forward-email). 이 경우 이 받은 편지함에 도착하는 이메일을 처리할 수동 또는 자동화된 솔루션이 있는지 확인하십시오.
 
 >[!CAUTION]
 >
