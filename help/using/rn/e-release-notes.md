@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
+source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '414'
 ht-degree: 24%
 
 ---
@@ -31,24 +31,6 @@ ht-degree: 24%
 
 이번 릴리스에는 아래 목록에 있는 새로운 기능이 제공됩니다.
 
-
-<table>
-<thead>
-<tr>
-<th><strong>SMS(베타)의 MMS(멀티미디어 메시지 서비스)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 SMS 채널을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 전송하여 고객과 이미지, GIF 또는 비디오를 공유할 수 있으므로 커뮤니케이션을 향상시킬 수 있습니다. 이 기능은 현재 Sinch의 Beta에서만 사용할 수 있습니다.</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
-
 <table>
 <thead>
 <tr>
@@ -66,7 +48,38 @@ ht-degree: 24%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>여정의 구성된 대상</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정의 작성 워크플로우에서 생성된 대상자를 사용하여 고객을 타깃팅할 수 있습니다. 대상자 작성이 게시되고 대상자가 저장되면 대상자 읽기 활동을 사용하여 여정 캔버스에서 이 새로운 대상자를 선택합니다.</p>
+<!--img src="assets/channel-reports.png"/-->
+<p>자세한 내용은 <a href="../audience/get-started-audience-orchestration.md">세부 설명서</a>를 참고하십시오.</p>
+</tr>
+</tbody>
+</table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>SMS(베타)의 MMS(멀티미디어 메시지 서비스)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 SMS 채널을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 전송하여 고객과 이미지, GIF 또는 비디오를 공유할 수 있으므로 커뮤니케이션을 향상시킬 수 있습니다. 이 기능은 현재 Sinch의 Beta에서만 사용할 수 있습니다.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### 개선 사항 {#oct-2023-improvements}
 
@@ -75,7 +88,6 @@ ht-degree: 24%
 **대상자**
 
 * 이제 CSV 파일에서 업로드한 대상을 여정 및 캠페인으로 타깃팅할 수 있습니다.
-* 이제 작성 워크플로우로 인해 발생하는 대상자를 여정에 타기팅할 수 있습니다.
 
 **이메일에 대한 스팸 점수**
 
