@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1c7c854d9a9a316890380d9ff84de1d6b739b006
+source-git-commit: 70e507337c3eef1718de21c3c0199bda1b92db69
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 27%
+source-wordcount: '343'
+ht-degree: 28%
 
 ---
 
@@ -104,10 +104,6 @@ ht-degree: 27%
 **여정**
 
 * 대기 활동에서 정의할 수 있는 최대 기간은 이제 30일이 아니라 29일입니다.
-
-**랜딩 페이지**
-
-* 이제 랜딩 페이지 양식 구성 요소를 사용할 때 고유한 옵션이 있는 이메일 필드를 추가할 수 있습니다.
 
 **채널 구성의 동의**
 
