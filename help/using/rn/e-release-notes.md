@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bf85321377568aae1d28de8cd494d91d9eac601e
+source-git-commit: 1c7c854d9a9a316890380d9ff84de1d6b739b006
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 24%
+source-wordcount: '364'
+ht-degree: 27%
 
 ---
 
@@ -48,21 +48,21 @@ ht-degree: 24%
 </tbody>
 </table>
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>여정의 구성된 대상</strong><br/></th>
+<th><strong>Composed audiences in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 여정의 작성 워크플로우에서 생성된 대상자를 사용하여 고객을 타깃팅할 수 있습니다. 대상자 작성이 게시되고 대상자가 저장되면 대상자 읽기 활동을 사용하여 여정 캔버스에서 이 새로운 대상자를 선택합니다.</p>
+<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
 <!--img src="assets/channel-reports.png"/-->
 <p>자세한 내용은 <a href="../audience/get-started-audience-orchestration.md">세부 설명서</a>를 참고하십시오.</p>
 </tr>
 </tbody>
-</table>
+&lt;/table --&gt;
 
 
 <table>
