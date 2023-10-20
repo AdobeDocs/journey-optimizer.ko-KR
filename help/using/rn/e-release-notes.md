@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 70e507337c3eef1718de21c3c0199bda1b92db69
+source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 28%
+source-wordcount: '296'
+ht-degree: 33%
 
 ---
 
@@ -63,23 +63,6 @@ ht-degree: 28%
 </tr>
 </tbody>
 &lt;/table --&gt;
-
-
-<table>
-<thead>
-<tr>
-<th><strong>SMS(베타)의 MMS(멀티미디어 메시지 서비스)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 SMS 채널을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 전송하여 고객과 이미지, GIF 또는 비디오를 공유할 수 있으므로 커뮤니케이션을 향상시킬 수 있습니다. 이 기능은 현재 Sinch의 Beta에서만 사용할 수 있습니다.</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
 
 ### 개선 사항 {#oct-2023-improvements}
 
