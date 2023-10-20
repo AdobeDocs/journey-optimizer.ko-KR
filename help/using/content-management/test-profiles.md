@@ -4,14 +4,19 @@ description: 테스트 프로필을 선택하여 콘텐츠를 미리 보고 테�
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 3%
+source-wordcount: '230'
+ht-degree: 2%
 
 ---
 
 # 테스트 프로필 선택 {#select-test-profiles}
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_test_profiles"
+>title="테스트 프로필을 사용하여 콘텐츠 확인"
+>abstract="테스트 프로필을 사용하여 콘텐츠를 미리 보고 테스트합니다. 개인화된 필드를 추가한 경우 테스트 프로필 데이터를 사용하여 필드가 표시되는 방식을 확인할 수 있습니다."
 
 콘텐츠를 미리 보거나 테스트하기 전에 먼저 정의된 타겟팅 기준과 일치하지 않는 추가 수신자인 테스트 프로필을 선택해야 합니다. [테스트 프로필을 만드는 방법을 알아봅니다](../audience/creating-test-profiles.md)
 

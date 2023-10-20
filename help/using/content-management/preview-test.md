@@ -4,10 +4,10 @@ description: 콘텐츠를 미리 보고 테스트하는 방법을 알아봅니�
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 3%
+source-wordcount: '308'
+ht-degree: 1%
 
 ---
 
@@ -15,8 +15,13 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="메시지 미리보기 및 테스트"
->abstract="메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 볼 수 있습니다."
+>title="콘텐츠의 렌더링 방식 확인"
+>abstract="콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 보고 사용 중인 채널에 따라 렌더링이 올바른지 확인할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_simulate"
+>title="콘텐츠의 렌더링 방식 확인"
+>abstract="콘텐츠가 정의되면 콘텐츠를 미리 보고 사용 중인 채널에 따라 렌더링이 올바른지 확인할 수 있습니다."
 
 ## 콘텐츠 미리보기 및 테스트 기본 정보 {#about}
 
