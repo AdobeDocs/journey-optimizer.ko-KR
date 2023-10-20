@@ -9,14 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '1014'
 ht-degree: 8%
 
 ---
 
 # 결정 항목 {#items}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_items"
+>title="결정 항목 관리"
+>abstract="Journey Optimizer을 사용하면 의사 결정 항목으로 알려진 마케팅 오퍼를 만들어 중앙 집중식 카탈로그 및 컬렉션으로 만들고 구성할 수 있습니다. 현재 생성된 모든 의사 결정 항목은 단일 &quot;오퍼&quot; 카탈로그 내에 통합됩니다. 이 화면에서 다음을 사용하여 카탈로그의 스키마에 액세스할 수도 있습니다. **스키마 편집** 단추를 클릭하고 의사 결정 항목에 대한 사용자 지정 특성을 만듭니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="항목 카탈로그 구성"
 
 >[!BEGINSHADEBOX]
 
@@ -40,6 +46,24 @@ Journey Optimizer을 사용하면 의사 결정 항목으로 알려진 마케팅
 의사 결정 항목을 만들기 전에 **결정 규칙** 결정 항목을 표시할 대상을 결정하는 조건을 설정하려면 를 선택합니다. [의사 결정 규칙을 만드는 방법을 알아봅니다](rules.md).
 
 ## 첫 번째 결정 항목 만들기
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_priority"
+>title="결정 항목의 우선 순위 정의"
+>abstract="프로필이 여러 항목에 적격인 경우 우선순위에서 이 결정 항목을 다른 항목과 비교할 수 있습니다. 우선순위가 높을수록 항목이 다른 항목보다 우선합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="사용자 지정 속성 정의"
+>abstract="사용자 지정 속성은 의사 결정 항목에 할당할 수 있는 필요에 따라 맞춤화된 특정 속성입니다. 의사 결정 항목의 카탈로그 스키마에서 만들어집니다. 이 섹션은 카탈로그 스키마에 사용자 지정 특성을 하나 이상 추가한 경우에만 표시됩니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="항목 카탈로그 구성"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_constraints"
+>title="대상자 또는 의사 결정 규칙 추가"
+>abstract="기본적으로 모든 프로필은 의사 결정 항목을 받을 수 있지만, 대상이나 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="대상 사용"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="의사 결정 규칙 사용"
 
 의사 결정 항목을 만들려면 다음 단계를 수행합니다.
 

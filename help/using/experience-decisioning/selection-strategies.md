@@ -9,14 +9,27 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 8%
+source-wordcount: '788'
+ht-degree: 9%
 
 ---
 
 # 선택 전략 만들기 {#selection-strategies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_strategies"
+>title="선택 전략 정의"
+>abstract="선택 전략은 재사용 가능한 항목이며, 의사 결정 정책에서 선택할 때 표시할 오퍼를 결정하는 자격 제한 및 등급 방법과 연관된 컬렉션으로 구성됩니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="결정 정책 만들기"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_eligibility"
+>title="적격 프로필 제한"
+>abstract="이 선택 전략에 대해 오퍼 선택을 제한할 수 있습니다. 기본적으로 모든 프로필이 대상이지만 대상자 또는 규칙을 사용하여 오퍼 선택을 특정 프로필로만 제한할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="대상 사용"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="의사 결정 규칙 사용"
 
 >[!BEGINSHADEBOX]
 
@@ -69,7 +82,7 @@ ht-degree: 8%
 
    ![](assets/strategy-create-screen.png)
 
-1. 오퍼 선택 [컬렉션](collections.md) 고려할 오퍼가 포함되어 있습니다.
+1. 다음 항목 선택 [컬렉션](collections.md) 고려할 오퍼가 포함되어 있습니다.
 
 1. 사용 **[!UICONTROL 자격 요건]** 이 선택 전략에 대한 오퍼 선택을 제한하는 필드.
 
@@ -90,6 +103,12 @@ ht-degree: 8%
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 이제 사용할 준비가 되었습니다. [결정](create-decision.md)
 
 ## 등급 방법 선택 {#select-ranking-method}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_ranking"
+>title="오퍼 등급 지정 방법 정의"
+>abstract="여러 오퍼가 주어진 선택 전략에 적합한 경우 선택 전략을 생성할 때 각 프로필에 가장 적합한 오퍼를 선택하는 방법(우선 순위 또는 순위 공식)을 선택합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="결정 정책 만들기"
 
 여러 오퍼가 주어진 선택 전략에 적합한 경우 선택 전략을 생성할 때 각 프로필에 가장 적합한 오퍼를 선택하는 방법을 선택할 수 있습니다. 오퍼의 순위를 지정할 수 있는 기준:
 

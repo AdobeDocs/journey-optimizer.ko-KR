@@ -9,14 +9,29 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 17%
+source-wordcount: '393'
+ht-degree: 13%
 
 ---
 
 # 컬렉션 {#collections}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collections"
+>title="컬렉션 만들기"
+>abstract="컬렉션을 사용하면 환경 설정에 따라 결정 항목을 범주화하고 그룹화할 수 있습니다. 이러한 범주는 의사 결정 항목의 속성을 활용하는 규칙을 만들어 만듭니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collection_rules"
+>title="컬렉션에 대한 규칙 정의"
+>abstract="하나 이상의 규칙을 추가하여 컬렉션에 포함할 항목을 결정합니다. 기준으로 사용할 항목 속성을 선택합니다. 원하는 연산자를 선택하고 필터링할 값을 입력합니다. 필요한 만큼 규칙을 추가합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_collection"
+>title="컬렉션을 선택합니다"
+>abstract="고려할 오퍼가 포함된 컬렉션을 선택하십시오. 이 단계는 선택 전략을 작성할 때 필수입니다. 컬렉션을 사용하면 환경 설정에 따라 결정 항목을 범주화하고 그룹화할 수 있습니다. 예를 들어 &quot;Category&quot; 사용자 지정 특성에 &quot;Yoga&quot; 값이 있는 모든 결정 항목을 포함하는 컬렉션을 만들 수 있습니다."
 
 >[!BEGINSHADEBOX]
 

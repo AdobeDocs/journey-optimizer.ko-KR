@@ -9,14 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 17%
+source-wordcount: '323'
+ht-degree: 15%
 
 ---
 
 # 의사 결정 규칙 {#rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_rules"
+>title="의사 결정 규칙 만들기"
+>abstract="의사 결정 규칙을 사용하면 의사 결정 항목 수준에서 직접 또는 특정 선택 전략 내에서 제한을 적용하여 의사 결정 항목의 대상자를 정의할 수 있습니다. 이를 통해 어떤 항목을 누구에게 제시해야 하는지 정확하게 제어할 수 있습니다."
 
 >[!BEGINSHADEBOX]
 

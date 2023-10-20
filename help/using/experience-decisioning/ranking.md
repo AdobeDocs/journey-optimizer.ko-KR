@@ -9,14 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 25%
+source-wordcount: '229'
+ht-degree: 21%
 
 ---
 
 # 순위 방법 {#rankings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_formulas"
+>title="등급 수식 만들기"
+>abstract="공식을 사용하면 항목의 우선 순위 점수를 고려하지 않고 먼저 제시해야 하는 항목을 결정하는 규칙을 정의할 수 있습니다. 등급 지정 방법이 생성되면 먼저 선택해야 할 항목을 정의하는 의사 결정 전략에 지정할 수 있습니다."
 
 >[!BEGINSHADEBOX]
 
