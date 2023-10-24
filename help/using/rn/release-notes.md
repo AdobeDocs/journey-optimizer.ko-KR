@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 2776af02e88659a350dfa4126a73106753e079b2
 workflow-type: tm+mt
-source-wordcount: '4605'
+source-wordcount: '4584'
 ht-degree: 91%
 
 ---
@@ -120,10 +120,6 @@ ht-degree: 91%
    * 다음 **총 시간** 의 필드 [대기 활동](../building-journeys/wait-activity.md)
    * 다음 **재등록 대기 기간** 위치: [여정 속성](../building-journeys/journey-gs.md#entrance)
    * 다음 **대기** 의 시간 초과 정의에 있는 필드 [일반](../building-journeys/general-events.md#events-specific-time) 및 [반응](../building-journeys/reaction-events.md) 이벤트.
-
-**랜딩 페이지**
-
-* 이제 랜딩 페이지 양식 구성 요소를 사용할 때 고유한 옵션이 있는 이메일 필드를 추가할 수 있습니다.
 
 **채널 구성의 동의**
 
