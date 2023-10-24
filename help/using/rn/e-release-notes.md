@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
+source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 33%
+source-wordcount: '371'
+ht-degree: 24%
 
 ---
 
@@ -58,11 +58,27 @@ ht-degree: 33%
 <tr>
 <td>
 <p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<!--img src="assets/channel-reports.png"/-->
-<p>자세한 내용은 <a href="../audience/get-started-audience-orchestration.md">세부 설명서</a>를 참고하십시오.</p>
+<img src="assets/channel-reports.png"/>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-&lt;/table --&gt;
+</table -->
+
+<table>
+<thead>
+<tr>
+<th><strong>SMS(베타)의 MMS(멀티미디어 메시지 서비스)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 SMS 채널을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 전송하여 고객과 이미지, GIF 또는 비디오를 공유할 수 있으므로 커뮤니케이션을 향상시킬 수 있습니다. 이 기능은 현재 Sinch의 Beta에서만 사용할 수 있습니다.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### 개선 사항 {#oct-2023-improvements}
 
@@ -71,14 +87,20 @@ ht-degree: 33%
 **대상자**
 
 * 이제 CSV 파일에서 업로드한 대상을 여정 및 캠페인으로 타깃팅할 수 있습니다.
+* 이제 대상 구성을 통해 만든 대상을 타기팅하고 여정에서 데이터 보강 속성을 활용할 수 있습니다.
 
-**이메일에 대한 스팸 점수**
+>[!AVAILABILITY]
+>
+>이러한 기능은 현재 개인 베타로 사용할 수 있습니다.
 
-* 이메일 콘텐츠를 시뮬레이션할 때 새로운 옵션을 사용하면 받은 편지함 스팸 필터링에 대한 콘텐츠의 성능을 확인할 수 있습니다. 이 기능은 현재 고객 집합(제한된 가용성)에만 제안되며 이메일 채널에 사용할 수 있습니다.
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
 **경고**
 
-* 이제 Journey Optimizer 캠페인과 관련된 새 경고를 **경고** 메뉴 아래의 제품에서 사용할 수 있습니다.
+* 캠페인 중 하나에서 오류가 발생하면 이제 캠페인 목록에 캠페인 상태와 함께 경고 아이콘이 표시됩니다.
 
 **캠페인**
 
@@ -86,8 +108,16 @@ ht-degree: 33%
 
 **여정**
 
-* 대기 활동에서 정의할 수 있는 최대 기간은 이제 30일이 아니라 29일입니다.
+* 모든 대기 시간에 정의할 수 있는 최대 기간은 이제 30일이 아니라 29일입니다. 이는 다음 경우에 적용됩니다.
+
+   * 다음 **총 시간** 의 필드 [대기 활동](../building-journeys/wait-activity.md)
+   * 다음 **재등록 대기 기간** 위치: [여정 속성](../building-journeys/journey-gs.md#entrance)
+   * 다음 **대기** 의 시간 초과 정의에 있는 필드 [일반](../building-journeys/general-events.md#events-specific-time) 및 [반응](../building-journeys/reaction-events.md) 이벤트.
 
 **채널 구성의 동의**
 
 * 이제 채널 표면 수준에서 마케팅 작업을 선택할 수 있습니다. 표면에서 사용할 경우 고객의 선호도를 존중하기 위해 해당 마케팅 액션과 연결된 모든 동의 정책을 활용합니다.
+
+**의사 결정 관리**
+
+* 의사 결정 관리 인터페이스의 오퍼 한도 설정과 관련된 몇 가지 레이블이 업데이트되었습니다.
