@@ -10,9 +10,9 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
+source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1260'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,10 @@ ht-degree: 1%
 
    ![](assets/translation_project_2.png)
 
-1. 승인 후 번역이 자동으로 게시되는지, 검토 워크플로우를 활성화할지 여부를 선택합니다.
+1. 다음 옵션을 활성화하려면 선택합니다.
+
+   * **[!UICONTROL 승인된 번역 자동 게시]**: 번역이 승인되면 수동으로 개입할 필요 없이 캠페인에 자동으로 통합됩니다.
+   * **[!UICONTROL 검토 워크플로우 활성화]**: 사람이 번역한 로케일에만 적용됩니다. 이렇게 하면 내부 검토자가 번역된 콘텐츠를 효율적으로 평가하고 승인하거나 거부할 수 있습니다. [자세히 알아보기](#review-translation-project)
 
 1. 클릭 **[!UICONTROL 로케일 추가]** 메뉴에 액세스하고 번역 프로젝트의 언어를 정의합니다.
 
@@ -87,6 +90,8 @@ ht-degree: 1%
 1. 목록에서 을(를) 선택합니다 **[!UICONTROL 대상 로케일]** 및 선택 **[!UICONTROL 번역 공급업체]** 각 로케일에 를 사용합니다.
 
 1. 클릭 **[!UICONTROL 로케일 추가]** 를 클릭합니다. 이때 Target 로케일과 올바른 번역 공급업체를 연결했습니다. 그런 다음 을 클릭합니다. **[!UICONTROL 저장]**.
+
+   공급자가 대상 로케일에 대해 회색으로 표시된 경우 공급자가 해당 특정 로케일을 지원하지 않는다는 것을 나타냅니다.
 
    ![](assets/translation_project_4.png)
 
@@ -192,12 +197,33 @@ ht-degree: 1%
 
 전송되면 캠페인 보고서 내에서 캠페인의 영향을 측정할 수 있습니다.
 
+## 사내 번역 프로젝트 관리 {#manage-ht-project}
+
+언어 설정을 구성할 때 내부 번역을 선택한 경우 번역 프로젝트에서 직접 콘텐츠를 번역할 수 있습니다.
+
+1. 출처: **[!UICONTROL 번역 프로젝트]**, 액세스 **[!UICONTROL 추가 작업]** 메뉴 및 선택 **[!UICONTROL 사내 번역]**.
+
+   ![](assets/inhouse-translation-1.png)
+
+1. 외부 번역 소프트웨어를 사용하여 번역을 위해 CSV 파일을 내보낼 수 있습니다. 또는 를 클릭하여 CSV 파일을 번역 프로젝트로 다시 가져올 수 있습니다. **[!UICONTROL CSV 가져오기]** 단추를 클릭합니다.
+
+   ![](assets/inhouse-translation-3.png)
+
+1. 클릭 **[!UICONTROL 편집]** 을 클릭하여 번역 콘텐츠를 추가합니다.
+
+   ![](assets/inhouse-translation-2.png)
+
+1. 번역된 텍스트를 게시할 준비가 되면 **[!UICONTROL 완료]**.
+
 ## 번역 프로젝트 검토 {#review-translation-project}
 
 다음을 선택한 경우 **[!UICONTROL 검토 워크플로우 활성화]** (으)로 **[!UICONTROL 번역 프로젝트]**, 선택한 번역 공급업체에서 완료 후 Journey Optimizer에서 직접 번역을 검토할 수 있습니다.
-이 옵션이 비활성화되면 공급업체에서 번역을 완료하면 번역 작업 상태가 자동으로 다음으로 설정됩니다. **[!UICONTROL 검토됨]**&#x200B;를 클릭하여 빠르게 진행할 수 있습니다. **[!UICONTROL 제품으로 보내기]**.
+
+이 옵션이 비활성화되면 공급업체에서 번역을 완료하면 번역 작업 상태가 자동으로 다음으로 설정됩니다. **[!UICONTROL 검토됨]**&#x200B;를 클릭하여 빠르게 진행할 수 있습니다. **[!UICONTROL 게시]**.
 
 1. 서비스 공급업체로부터 번역을 완료한 후에는 번역을 액세스하여 검토할 수 있습니다. **[!UICONTROL 번역 프로젝트]** 또는 을 통해 직접 **[!UICONTROL 캠페인]**.
+
+   다음에서 **[!UICONTROL 추가 작업]** 메뉴, 클릭 **[!UICONTROL 리뷰]**.
 
    ![](assets/translation_review_1.png)
 
@@ -219,7 +245,7 @@ ht-degree: 1%
 
 1. 클릭 **[!UICONTROL 미리 보기]** 각 언어로 번역된 콘텐츠의 렌더링을 확인합니다.
 
-1. 번역이 만족스러우면 다음을 클릭하십시오. **[!UICONTROL 완료]**.
+1. 번역된 텍스트를 게시할 준비가 되면 **[!UICONTROL 완료]**.
 
    ![](assets/translation_review_5.png)
 
@@ -229,7 +255,7 @@ ht-degree: 1%
 
 1. 한 번 **[!UICONTROL 번역 프로젝트]** 상태가 검토됨으로 설정되어 있으면 캠페인에 보낼 수 있습니다.
 
-   고급 메뉴에서 **[!UICONTROL 게시]**.
+   다음에서 **[!UICONTROL 추가 작업]** 메뉴, 클릭 **[!UICONTROL 게시]**.
 
    ![](assets/translation_review_7.png)
 
