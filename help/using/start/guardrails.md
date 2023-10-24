@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
+source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 83%
+source-wordcount: '1650'
+ht-degree: 81%
 
 ---
 
@@ -124,7 +124,11 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 * 인앱 메시지 콘텐츠 크기는 2MB로 제한됩니다. 큰 이미지를 포함하면 게시 프로세스에 지장이 있을 수 있습니다.
 
-## 의사 결정 관리 {#decision-management}
+## 대상자 보호 {#audience}
+
+* 주어진 샌드박스에서 최대 10개의 대상 구성을 게시할 수 있습니다. 이 임계값에 도달한 경우 컴포지션을 삭제하여 공간을 확보하고 새 컴포지션을 게시해야 합니다.
+
+## 의사 결정 관리 보호 {#decision-management}
 
 ### 성능 보호 {#performance-guardrails}
 
