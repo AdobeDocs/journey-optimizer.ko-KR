@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_api_profile_creation"
 >title="캠페인 유형"
->abstract="프로필을 만들지 않고 메시지를 보낼 수 있는 제한된 가용성의 경우 설명서에 설명된 단계를 수행합니다."
+>abstract="프로필을 만들지 않고 메시지를 보내는 제한된 가용성 기능을 사용하려면 설명서에 기재되어 있는 단계를 따르십시오."
 
 ## API 트리거 캠페인 기본 정보 {#about}
 

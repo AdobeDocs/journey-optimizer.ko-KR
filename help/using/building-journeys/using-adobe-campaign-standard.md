@@ -12,7 +12,7 @@ exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="사용자 정의 작업"
->abstract="Adobe Campaign Standard이 있는 경우 통합을 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다."
+>abstract="Adobe Campaign Standard가 있는 경우 통합 기능을 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다."
 
 Adobe Campaign Standard이 있는 경우 다음과 같은 기본 제공 작업 활동을 사용할 수 있습니다. **[!UICONTROL 이메일]**, **[!UICONTROL 푸시]** 및 **[!UICONTROL SMS]**.
 
