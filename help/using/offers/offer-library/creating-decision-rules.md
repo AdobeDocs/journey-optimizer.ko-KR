@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 12%
+source-wordcount: '419'
+ht-degree: 13%
 
 ---
 
@@ -25,10 +25,9 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
 다음은 의사 결정 규칙 작업 시 알아야 할 제한 사항 목록입니다.
 
-* 규칙을 생성할 때 이전 이벤트를 사용할 수 있지만 이러한 규칙을 사용할 수 있는 시기에 대한 제한 사항이 있습니다.
 * Edge Decisioning은 이벤트를 저장하지 않는 Edge 프로필을 사용하므로 Edge Decisioning에 사용된 모든 규칙이 유효하지 않습니다.
-* 오퍼 결정을 사용하는 여정은 이전 이벤트를 보지 않으므로 이러한 규칙은 유효하지 않습니다.
-* 허브 프로필을 사용하는 의사 결정 요청은 프로필의 마지막 100개의 경험 이벤트를 확인하여, 내역 경험 이벤트를 참조하는 규칙을 평가합니다.
+* 의사 결정 규칙을 만들 때 이전 기간을 되돌아보는 기능은 지원되지 않습니다. 예를 들어, 지난 달 내에 발생한 경험 이벤트를 규칙의 구성 요소로 지정하는 경우. 규칙을 만드는 동안 전환 확인 기간을 포함하려고 하면 저장 시 오류가 트리거됩니다.
+  <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## 의사 결정 규칙 만들기 {#create}
 

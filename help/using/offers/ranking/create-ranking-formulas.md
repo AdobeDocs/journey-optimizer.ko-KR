@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 10%
+source-wordcount: '536'
+ht-degree: 9%
 
 ---
 
@@ -40,6 +40,10 @@ ht-degree: 10%
    이 예에서는 실제 날씨가 더운 경우 &quot;hot&quot; 속성을 가진 모든 오퍼의 우선 순위를 높이려고 합니다. 이렇게 하려면 **contextData.weather=hot** 가 의사 결정 호출에서 전달되었습니다.
 
    ![](../assets/ranking-syntax.png)
+
+   >[!IMPORTANT]
+   >
+   >순위 공식을 생성할 때 이전 기간을 되돌아보는 기능은 지원되지 않습니다. 예를 들어, 지난 달 내에 발생한 경험 이벤트를 공식의 구성 요소로 지정하는 경우. 공식을 만드는 동안 전환 확인 기간을 포함하려고 하면 저장 시 오류가 트리거됩니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 순위 공식이 생성되면 목록에서 선택하여 세부 정보를 얻고 편집하거나 삭제할 수 있습니다.
 

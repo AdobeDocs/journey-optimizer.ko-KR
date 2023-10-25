@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '631'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 5%
 다음 중 하나를 사용하여 오퍼를 게재할 수 있습니다. **의사 결정** 또는 **Edge Decisioning** API. 또한 **일괄 의사 결정** API를 사용하면 한 번의 호출로 주어진 대상의 모든 프로필에 오퍼를 게재할 수 있습니다. 대상의 각 프로필에 대한 오퍼 콘텐츠는 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
 
 이 페이지에서는 사용 가능한 특정 기능에 대한 정보를 확인할 수 있습니다. **의사 결정** 및 **Edge Decisioning** API. 둘 다 고객에게 오퍼를 게재할 수 있지만 **Edge Decisioning** 인바운드 사용 사례와 플랫폼에서 더 나은 지연 시간 및 처리량을 보장하기 위해 가능한 한 항상 API입니다.
-
 
 API 작업 방법에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 * [Decisioning API](decisioning-api.md)
@@ -127,7 +126,6 @@ Edge Decisioning API 요청을 사용하여 컨텍스트 데이터를 전달할 
 
 아래 나열된 기능은 Decisioning API를 통해서만 사용할 수 있습니다. 이들 중 하나를 활용하여 요구 사항을 충족해야 하는 경우 Decisioning API를 사용하십시오. 그렇지 않으면 Edge Decisioning API를 사용하는 것이 좋습니다.
 
-* **경험 이벤트**: 경험 이벤트를 활용하여 의사 결정 규칙을 만듭니다.
 * **오퍼 콘텐츠 및 특성**: 전용 옵션을 사용하여 오퍼의 콘텐츠 및 특성을 반환하지 않도록 선택할 수 있습니다.
 * **오퍼 메타데이터**: 오퍼의 메타데이터를 반환하는 옵션을 활성화합니다.
 * **병합 정책**: 샌드박스에 연결된 정책과 다른 병합 정책을 요청에 사용합니다.
