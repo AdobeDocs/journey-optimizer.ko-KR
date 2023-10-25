@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 24%
+source-wordcount: '350'
+ht-degree: 26%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 24%
 
 **캠페인**
 
-* 이제 실시간 1회 캠페인을 중지하고 수정하고 다시 시작할 수 있습니다. 이 개선 사항은 베타에서 사용할 수 있습니다.
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * 캠페인 중 하나에서 오류가 발생하면 이제 캠페인 목록에 캠페인 상태와 함께 경고 아이콘이 표시됩니다.
 
 **여정**
