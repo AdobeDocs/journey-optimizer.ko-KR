@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2776af02e88659a350dfa4126a73106753e079b2
+source-git-commit: ed42c04d8c653226e8512ced761519995ebd72c7
 workflow-type: tm+mt
-source-wordcount: '4584'
-ht-degree: 91%
+source-wordcount: '4537'
+ht-degree: 92%
 
 ---
 
@@ -74,16 +74,16 @@ ht-degree: 91%
 </tbody>
 </table -->
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>SMS(베타)의 MMS(멀티미디어 메시지 서비스)</strong><br/></th>
+<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 SMS 채널을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 전송하여 고객과 이미지, GIF 또는 비디오를 공유할 수 있으므로 커뮤니케이션을 향상시킬 수 있습니다. 이 기능은 현재 Sinch의 Beta에서만 사용할 수 있습니다.</p>
+<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>-->
 <!--img src="assets/channel-reports.png"/-->
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
