@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4178c9954e94b64954a8631a49dc0cffccbaaee
+source-git-commit: f9cb0156020fbf23a21c8840403230df77fad4a7
 workflow-type: tm+mt
-source-wordcount: '4477'
+source-wordcount: '4438'
 ht-degree: 94%
 
 ---
@@ -94,14 +94,14 @@ ht-degree: 94%
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-**대상자**
+<!--**Audiences**
 
-* 이제 CSV 파일에서 업로드한 대상을 여정 및 캠페인으로 타깃팅할 수 있습니다.
-* 이제 대상 구성을 통해 만든 대상을 타기팅하고 여정에서 데이터 보강 속성을 활용할 수 있습니다.
+* You can now target audiences uploaded from a CSV file into journeys and campaigns.
+* You can now target audiences created through audience composition and leverage enrichment attributes in Journeys. 
 
 >[!AVAILABILITY]
 >
->이러한 기능은 현재 개인 베타로 사용할 수 있습니다.
+>These capabilities are currently available as a private beta.-->
 
 <!--
 **Spam scoring for emails**
