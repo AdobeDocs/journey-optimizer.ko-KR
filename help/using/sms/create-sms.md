@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 18%
+source-wordcount: '707'
+ht-degree: 17%
 
 ---
 
@@ -108,7 +108,23 @@ ht-degree: 18%
 
    ![](assets/sms_tracking_2.png)
 
-1. 다음에서 `originalUrl` 필드에 단축할 URL을 붙여넣습니다.
+1. 다음에서 `originalUrl` 필드를, 단축할 URL을 붙여넣고 **[!UICONTROL 저장]**.
+
+1. SMS 콘텐츠에 미디어를 추가하려면 MMS 옵션을 활성화합니다.
+
+   MMS는에 나열된 몇 가지 제한 사항이 있습니다. [이 페이지](../start/guardrails.md#sms-guardrails).
+
+   >[!NOTE]
+   >
+   > MMS 옵션은 Sinch에서만 사용할 수 있습니다. MMS를 만들려면 특정 API 자격 증명을 만들어야 합니다. [자세히 알아보기](sms-configuration.md#create-new-api)
+
+   ![](assets/sms_create_6.png)
+
+1. 추가 **[!UICONTROL 제목]** 미디어.
+
+1. 에 미디어 URL을 입력합니다 **[!UICONTROL 미디어]** 필드.
+
+   ![](assets/sms_create_7.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리보기에서 메시지를 확인합니다. 다음을 사용할 수 있습니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 축약된 URL 또는 개인화된 콘텐츠를 미리 볼 수 있습니다.
 

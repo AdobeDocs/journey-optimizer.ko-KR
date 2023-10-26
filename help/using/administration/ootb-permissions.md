@@ -9,14 +9,16 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '726'
 ht-degree: 5%
 
 ---
 
 # 기본 권한 {#ootb-permissions}
+
+기본 제공 권한은 지정할 수 있는 다양한 권한을 나타냅니다. **[!UICONTROL 역할]** Journey Optimizer에 대한 사용자 액세스를 미세 조정하십시오. 높은 수준 권한은에 자세히 나와 있는 낮은 수준 권한을 포함합니다. [이 페이지](high-low-permissions.md).
 
 | 기능 | 권한 |
 |-|-|

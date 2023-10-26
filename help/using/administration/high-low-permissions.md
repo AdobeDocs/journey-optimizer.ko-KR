@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 각 역할은 사용자가 다양한 기능에 액세스할 수 있는 권한으로 구성됩니다.
 두 가지 유형으로 나눌 수 있습니다.
 
-* **높은 수준 권한**: 할당할 수 있는 다양한 권한을 나타냅니다. **[!UICONTROL 역할]** 다음에서 [!DNL Admin console], 예: **[!DNL Publish journeys]** 및 **[!DNL Manage subdomains delegation]**. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다.
+* **높은 수준 권한**: 할당할 수 있는 다양한 권한을 나타냅니다. **[!UICONTROL 역할]**, 예: **[!DNL Publish journeys]** 및 **[!DNL Manage subdomains delegation]**. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다. 높은 수준의 권한은에 자세히 설명되어 있습니다. [이 페이지](ootb-permissions.md).
 
 * **낮은 수준의 권한**: 상위 수준의 권한에서 나오는 다양한 권한을 나타냅니다.
 

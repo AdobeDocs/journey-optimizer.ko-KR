@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 10%
+source-wordcount: '1068'
+ht-degree: 9%
 
 ---
 
@@ -152,7 +152,7 @@ ht-degree: 10%
 </tr> 
   <tr> 
    <td> 고유 클릭 수<br/> </td> 
-   <td> 이메일에서 콘텐츠를 클릭한 수신자 수입니다.<br/> </td> 
+   <td> 이메일에서 콘텐츠를 클릭한 수신자 수입니다.<br> 고유 클릭수를 계산할 때에는 지난 10일이 고려됩니다. 프로필에서 10일 기간 내에 여러 번의 클릭을 등록하는 경우 고유 클릭으로 카운트됩니다. 그러나 프로필에서 10일 이상 떨어진 두 번의 클릭은 고유한 클릭으로 간주되지 않습니다.<br/> </td> 
 </tr> 
   <tr> 
    <td>고유 클릭률<br/> </td> 
@@ -160,7 +160,7 @@ ht-degree: 10%
 </tr>
   <tr> 
    <td> 고유 열기 수<br/> </td> 
-   <td>게재를 연 수신자 수.<br/> </td> 
+   <td>게재를 연 수신자 수. <br> 고유 열람 수를 계산할 때에는 지난 10일이 고려됩니다. 프로필에서 10일 기간 내에 여러 개의 열기를 등록하는 경우 고유 열림으로 계산됩니다. 그러나 프로필에 10일 이상 차이가 나는 2개의 열기가 있으면 고유한 열기로 간주되지 않습니다.<br/> </td> 
 </tr> 
   <tr> 
    <td> 구독 최소 건수<br/> </td> 

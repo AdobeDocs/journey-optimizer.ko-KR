@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 34%
+source-wordcount: '967'
+ht-degree: 33%
 
 ---
 
@@ -124,17 +124,17 @@ ht-degree: 34%
 
 다음을 클릭합니다. **[!UICONTROL 대상자 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 대상 목록을 표시합니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>현재, 대상 사용 [csv 파일에서 가져옴](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 캠페인에서 비공개 베타로 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 >
 >API 트리거 캠페인의 경우, API 호출을 통해 대상자를 설정해야 합니다. [자세히 알아보기](api-triggered-campaigns.md)
 
-다음에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
+다음에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다.
+
+다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타깃팅되지 않습니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
-
->[!NOTE]
->
->다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타깃팅되지 않습니다.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

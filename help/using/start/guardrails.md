@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 81%
+source-wordcount: '1698'
+ht-degree: 79%
 
 ---
 
@@ -39,6 +39,13 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * **양식** 구성 요소는 하위 페이지에서 사용할 수 없습니다.
 * 랜딩 페이지에 사전 헤더를 추가할 수 없습니다. 
 * 방문 기본 페이지를 디자인할 때 **자신만의 코드 작성** 옵션을 선택할 수 없습니다.
+
+## SMS 보호 기능 {#sms-guardrails}
+
+* MMS 기능은 Sinch에서만 사용할 수 있습니다.
+* 지원되는 URL을 통해 MMS용 미디어 파일을 포함할 수 있습니다. 미디어 파일이 별도로 업로드되었는지 확인하십시오.
+* 현재 MMS에서 메시지 피드백 동기화를 사용할 수 없습니다.
+* 동의 관리는 MMS에 대한 SMS 채널 수준에서 작동합니다.
 
 ## 여정 보호  {#journeys-guardrails}
 

@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e7b08db00ab6333bd5a20815e05bca48075dca3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '4477'
-ht-degree: 94%
+source-wordcount: '4558'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 94%
 <td>
 <p>샌드박스 도구를 사용하면 패키지 내보내기 및 가져오기를 활용하여 여러 샌드박스 간에 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함된 모든 객체는 동일한 샌드박스의 객체여야 합니다.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../building-journeys/copy-to-sandbox.md">세부 설명서</a>를 참고하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -74,18 +74,18 @@ ht-degree: 94%
 </tbody>
 </table -->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+<th><strong>SMS의 MMS(멀티미디어 메시지 서비스)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>-->
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>이제 SMS 채널을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 전송하여 고객과 이미지, GIF 또는 비디오를 공유할 수 있으므로 커뮤니케이션을 향상시킬 수 있습니다. 이 기능은 현재 Sinch에서만 사용할 수 있습니다.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>자세한 내용은 <a href="../sms/create-sms.md#sms-content">자세한 설명서</a>를 참조하세요.</p>
 </tr>
 </tbody>
 </table>
@@ -97,7 +97,7 @@ ht-degree: 94%
 **대상자**
 
 * 이제 CSV 파일에서 업로드한 대상을 여정 및 캠페인으로 타깃팅할 수 있습니다.
-* 이제 대상 구성을 통해 만든 대상을 타기팅하고 여정에서 데이터 보강 속성을 활용할 수 있습니다.
+* 이제 대상 구성을 통해 만든 대상을 타기팅하고 여정에서 데이터 보강 속성을 활용할 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -111,11 +111,11 @@ ht-degree: 94%
 **캠페인**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* 캠페인 중 하나에서 오류가 발생하면 이제 캠페인 목록에 캠페인 상태와 함께 경고 아이콘이 표시됩니다.
+* 캠페인 중 하나에서 오류가 발생하면 이제 캠페인 목록에 캠페인 상태와 함께 경고 아이콘이 표시됩니다. [자세히 보기](../campaigns/modify-stop-campaign.md#statuses)
 
 **여정**
 
-* 모든 대기 시간에 정의할 수 있는 최대 기간은 이제 30일이 아니라 29일입니다. 이는 다음 경우에 적용됩니다.
+* 모든 대기 시간에 정의할 수 있는 최대 기간은 이제 30일이 아니라 29일입니다. 대기 시간이 30일 여정 수명을 초과하지 않도록 하기 위해 이 개선 사항이 도입되었습니다. 이는 다음 경우에 적용됩니다.
 
    * 다음 **총 시간** 의 필드 [대기 활동](../building-journeys/wait-activity.md)
    * 다음 **재등록 대기 기간** 위치: [여정 속성](../building-journeys/journey-gs.md#entrance)
@@ -128,7 +128,7 @@ ht-degree: 94%
 
 **의사 결정 관리**
 
-* 의사 결정 관리 인터페이스의 오퍼 한도 설정과 관련된 몇 가지 레이블이 업데이트되었습니다.
+* 의사 결정 관리 인터페이스의 오퍼 한도 설정과 관련된 몇 가지 레이블이 업데이트되었습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023년 9월 릴리스 정보 {#sept-rn-2023}
 

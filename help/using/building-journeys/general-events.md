@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 사용자 정의, 일반, 이벤트, 여정
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '446'
 ht-degree: 20%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 20%
 
 1. 활성화 **[!UICONTROL 이벤트 시간 제한 정의]** 이벤트 속성의 옵션입니다.
 
-1. 여정이 이벤트를 기다리는 시간을 지정합니다.
+1. 여정이 이벤트를 기다리는 시간을 지정합니다. 최대 기간은 29일입니다.
 
 1. 지정된 시간 제한 내에 이벤트가 수신되지 않을 때 개인 사용자를 시간 제한 경로로 보내려면 **[!UICONTROL 시간 제한 경로 설정]** 옵션을 선택합니다. 이 옵션이 활성화되지 않으면 제한 시간에 도달하면 개인에 대한 여정이 종료됩니다.
 

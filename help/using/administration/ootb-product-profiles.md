@@ -9,14 +9,16 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1167'
 ht-degree: 6%
 
 ---
 
 # 기본 역할 {#ootb-product-profiles}
+
+기본 제공 역할은 사용자가 인터페이스의 특정 기능이나 개체에 액세스할 수 있도록 하는 통합된 권한 세트입니다. 을(를) 참조하십시오 [이 페이지](ootb-permissions.md) 역할 빌드에 사용 가능한 권한 목록입니다.
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 

@@ -1,44 +1,52 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 다른 샌드박스에 여정 복사
-description: 여정을 다른 샌드박스에 복사하는 방법 알아보기
+title: 다른 샌드박스로 여정 복사
+description: 여정을 다른 샌드박스로 복사하는 방법 알아보기
 feature: Journeys, Sandboxes
 topic: Content Management
 role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 20%
+source-wordcount: '612'
+ht-degree: 7%
 
 ---
 
 # 다른 샌드박스로 여정 복사 {#copy-to-sandbox}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="다른 샌드박스로 여정 복사"
->abstract="Journey Optimizer를 사용하여 한 샌드박스에서 다른 샌드박스로 전체 여정을 복사할 수 있습니다. 예를 들어 스테이지 샌드박스 환경에서 프로덕션 샌드박스로 여정을 복사할 수 있습니다. 여정 자체 외에도 Journey Optimizer는 여정이 사용하는 오브젝트 대부분을 복사하기도 합니다."
+>title="Copy a journey to another sandbox"
+>abstract="Journey Optimizer allows you to copy an entire journey from one sandbox to another. For example, you can copy a journey from the Stage sandbox environment to your Production sandbox. In addition to the Journey itself, Journey Optimizer also copies most of the objects the journey depends on."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
->title="샌드박스 세부 사항"
->abstract="여정을 복사할 대상 샌드박스를 선택합니다. 조직 내 샌드박스만 사용할 수 있습니다."
+>title="Sandbox details"
+>abstract="Select the destination sandbox you want to copy the journey to. Only sandboxes within your organization are available."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
->title="오브젝트 세부 사항"
->abstract="다음은 복사할 여정입니다."
+>title="Object details"
+>abstract="This is the journey you are going to copy."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
->title="종속 오브젝트"
->abstract="다음은 여정에 사용되는 연결된 오브젝트 목록입니다. 목록에 이름, 오브젝트 유형과 내부 Journey Optimizer ID가 표시됩니다."
+>title="Dependent objects"
+>abstract="This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID."
+-->
 
-Journey Optimizer를 사용하여 한 샌드박스에서 다른 샌드박스로 전체 여정을 복사할 수 있습니다. 예를 들어 Stage 샌드박스 환경에서 프로덕션 샌드박스로 여정을 복사할 수 있습니다. Journey Optimizer은 여정 자체 외에도 여정이 의존하는 대부분의 개체(예: 대상자, 표면(사전 설정), 스키마, 이벤트 및 작업)도 복사합니다. 복사된 객체에 대한 자세한 내용은 다음을 참조하십시오. [섹션](#limitations).
+샌드박스 도구 를 사용하면 패키지 내보내기 및 가져오기를 활용하여 여러 샌드박스 간에 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함된 모든 객체는 동일한 샌드박스의 객체여야 합니다.
+
+이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+
+## 샌드박스 도구 시작{#sandbox-gs}
+
+Journey Optimizer를 사용하여 한 샌드박스에서 다른 샌드박스로 전체 여정을 복사할 수 있습니다. 예를 들어 Stage 샌드박스 환경에서 프로덕션 샌드박스로 여정을 복사할 수 있습니다. Journey Optimizer은 여정 자체 외에도 여정이 의존하는 대부분의 개체(대상, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 객체에 대한 자세한 내용은 다음을 참조하십시오. [섹션](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 >[!CAUTION]
 >
@@ -46,66 +54,58 @@ Journey Optimizer를 사용하여 한 샌드박스에서 다른 샌드박스로 
 
 Target 샌드박스에서 복사되는 객체는 고유하며, 기존 요소를 덮어쓸 위험이 없습니다. 여정과 여정 내의 모든 메시지는 초안 모드에서 가져옵니다. 이렇게 하면 Target 샌드박스에서 게시하기 전에 전체 유효성 검사를 수행할 수 있습니다. 복사 프로세스는 여정 및 해당 여정의 객체에 대한 메타데이터에만 복사합니다. 이 프로세스의 일부로 프로필 또는 데이터 세트 데이터가 복사되지 않습니다.
 
+## 여정 내보내기 {#export}
+
 여정을 다른 샌드박스로 복사하려면 다음 단계를 수행하십시오.
 
 1. 여정 관리 메뉴 섹션에서 **[!UICONTROL 여정]**. 여정 목록이 표시됩니다.
 
-2. 복사할 여정을 검색하고 **추가 작업** 아이콘(여정 이름 옆에 있는 세 점)을 클릭하고 **샌드박스로 복사**.
+1. 복사할 여정을 검색하고 **추가 작업** 아이콘(여정 이름 옆에 있는 세 점)을 클릭하고 **패키지에 추가**.
 
-   ![](assets/copy-sandbox1.png)
+![](assets/journey-sandbox1.png)
 
-   다음 **샌드박스로 복사** 화면이 표시됩니다.
+다음 **패키지에 추가** 창이 표시됩니다.
 
-   ![](assets/copy-sandbox2.png)
+![](assets/journey-sandbox2.png)
 
-3. 다음 항목 선택 **Target 샌드박스** 을 클릭합니다. 조직 내 샌드박스만 사용할 수 있습니다.
+1. 기존 패키지에 여정을 추가하거나 새 패키지를 만들 것인지 선택합니다.
 
-4. 리뷰 **종속 오브젝트** 섹션. 다음은 여정에 사용되는 연결된 오브젝트 목록입니다. 목록에 이름, 오브젝트 유형과 내부 Journey Optimizer ID가 표시됩니다.
+   * **기존 패키지**: 드롭다운 메뉴에서 패키지를 선택합니다.
+   * **새 패키지 만들기**: 패키지 이름을 입력합니다. 설명을 추가할 수도 있습니다.
 
-5. 다음을 클릭합니다. **복사** 오른쪽 상단의 단추를 클릭하여 target 샌드박스에 여정 복사를 시작합니다.
+1. 관리 메뉴 섹션에서 **[!UICONTROL 샌드박스]**&#x200B;를 선택하고 **패키지** 를 탭하고 내보낼 패키지를 클릭합니다.
 
-   ![](assets/copy-sandbox3.png)
+   ![](assets/journey-sandbox3.png)
 
-   복사 프로세스가 시작되고 각 개별 객체의 진행률이 표시됩니다. 복사 프로세스는 여정의 복잡성과 복사해야 하는 개체 수에 따라 다릅니다. 오류가 발생하면 관련 개체에 대한 메시지가 표시됩니다.
+1. 내보낼 객체를 선택하고 **게시**
 
-   ![](assets/copy-sandbox4.png)
+   ![](assets/journey-sandbox4.png)
 
-6. 복사가 완료되면 다음을 클릭합니다. **닫기**.
+   게시에 실패한 경우 로그를 확인하여 실패 이유를 파악할 수 있습니다. 패키지를 열고 **실패한 작업 확인**, 가져오기 작업을 선택하고 **가져오기 세부 정보 보기**.
 
-7. 대상 샌드박스에 액세스하여 복사된 모든 객체를 철저히 검사합니다.
+   ![](assets/journey-sandbox9.png)
 
-## 복사 프로세스 및 제한 사항 {#limitations}
+## 여정 가져오기 {#export}
 
-연결된 모든 요소가 대상 샌드박스에 복사되지 않을 수 있습니다. Adobe은 철저한 검사를 수행할 것을 강력히 권장합니다. 여정을 게시하기 전에 누락된 잠재적인 오브젝트를 식별하고 수동으로 만듭니다.
+1. 패키지 목록에서 패키지 이름 옆에 있는 + 아이콘을 클릭합니다.
 
-다음 객체가 복사됩니다.
+   ![](assets/journey-sandbox5.png)
 
-* Audience
+1. 다음 항목 선택 **Target 샌드박스** 드롭다운 필드에서 을(를) 클릭하고 **다음**. 조직 내 샌드박스만 사용할 수 있습니다.
 
-  대상은 한 샌드박스에서 다른 샌드박스로 한 번만 복사할 수 있습니다. 대상이 복사되면 대상 샌드박스에서 편집할 수 없습니다.
+   ![](assets/journey-sandbox6.png)
 
-* 스키마
+1. 패키지 개체 및 종속성을 검토합니다. 다음은 여정에 사용되는 연결된 오브젝트 목록입니다. 이 목록에는 이름과 객체 유형이 표시됩니다. 각 개체에 대해 새 개체를 만들거나 대상 샌드박스에서 기존 개체를 사용하도록 선택할 수 있습니다.
 
-  이 여정에 사용된 스키마가 복사됩니다.
+   ![](assets/journey-sandbox7.png)
 
-* 메시지
+1. 다음을 클릭합니다. **완료** 오른쪽 상단 모서리에서 버튼을 눌러 대상 샌드박스에 패키지 복사를 시작합니다. 복사 프로세스는 여정의 복잡성과 복사해야 하는 개체 수에 따라 다릅니다.
 
-  여정에 사용되는 채널 작업 활동입니다. 메시지의 개인화에 사용되는 필드는 완전성을 검사하지 않습니다. 콘텐츠 블록은 복사되지 않습니다.
+1. 가져오기 작업을 클릭하여 복사 결과를 검토합니다.
 
-* 여정 - 캔버스 세부 정보
+   * 클릭 **가져온 개체 보기** 을 눌러 복사된 각 개별 객체를 표시합니다.
+   * 클릭 **가져오기 세부 정보 보기** 을 눌러 각 객체의 가져오기 결과를 확인합니다.
 
-  조건, 작업, 이벤트, 대상자 읽기 등과 같은 여정의 객체를 포함하는 캔버스의 여정 표시. 이동 활동이 복사본에서 제외됩니다.
+   ![](assets/journey-sandbox8.png)
 
-* 이벤트
-
-  여정에 사용된 이벤트 및 이벤트 세부 사항이 복사됩니다.
-
-* 작업
-
-  여정에 사용된 작업 및 작업 세부 사항이 복사됩니다.
-
-서피스(즉, 사전 설정)는 복사되지 않습니다. 시스템은 메시지 유형 및 표면 이름을 기반으로 대상 샌드박스에서 가장 가까운 일치 항목을 자동으로 선택합니다. 대상 샌드박스에 서피스가 없으면 서피스 복사가 실패합니다. 메시지를 설치하려면 표면을 사용해야 하므로 메시지 복사도 실패합니다. 이 경우 복사가 작동하려면 메시지의 오른쪽 채널에 대해 적어도 하나의 서피스를 생성해야 합니다.
-
-스키마, 병합 정책 및 대상의 경우 이러한 개체가 두 번째로 복사되면 참조됩니다. 이 개체는 이미 존재하는 개체로 처리되며 다시 복사됩니다. 즉, 이러한 객체는 한 번만 복사할 수 있습니다.
-
-Adobe Journey Optimizer에서 캔버스에 오류가 표시되지 않고 스키마, 병합 정책 및 대상을 참조하려면 5분의 지연이 있습니다. 5분 정도 기다리면 이 참조를 사용할 수 있습니다.
+1. 대상 샌드박스에 액세스하여 복사된 모든 객체를 철저히 검사합니다.

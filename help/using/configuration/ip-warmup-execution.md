@@ -11,9 +11,9 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1710'
 ht-degree: 19%
 
 ---
@@ -152,6 +152,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. 필요한 경우 다음을 선택합니다 **[!UICONTROL 실행 편집]** 추가 작업 아이콘에서 참조할 수 있습니다. 여기에서 각 열의 주소 수를 업데이트할 수 있습니다. 다음을 업데이트할 수도 있습니다. **[!UICONTROL 마지막 참여]** 지난 20일 동안의 브랜드와 관련된 사용자만 타겟팅하는 필드.
 
    ![](assets/ip-warmup-plan-edit-run.png)
+
+   >[!NOTE]
+   >
+   >적용하지 않으려는 경우 **[!UICONTROL 마지막 참여]** 매개 변수를 현재 실행으로 설정하고 0으로 설정합니다.
 
 1. 다음 항목 선택 **[!UICONTROL 오류 발생 시 일시 중지]** 대상이 해당 실행에 대해 평가된 후 자격이 있는 프로필이 타겟팅된 프로필보다 적은 경우 실행을 취소하는 옵션입니다.
 

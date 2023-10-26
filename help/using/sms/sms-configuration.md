@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1050'
 ht-degree: 16%
 
 ---
@@ -67,6 +67,12 @@ Journey Optimizer을 사용하여 SMS 공급업체를 구성하려면 다음 단
       * **[!UICONTROL 옵트인 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **[!UICONTROL 옵트인 메시지]**.
 
       * **[!UICONTROL 도움말 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **도움말 메시지**.
+
+   * 대상 **[!DNL Sinch MMS]**:
+
+      * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
+
+      * **[!UICONTROL 프로젝트 ID]**, **[!UICONTROL 앱 ID]** 및 **[!UICONTROL API 토큰]**: 대화 API 메뉴의 앱 메뉴에서 자격 증명을 찾을 수 있습니다.  [자세히 알아보기](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
 
    * 대상 **[!DNL Twilio]**:
 

@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 13%
+source-wordcount: '598'
+ht-degree: 5%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 13%
 
 기본적으로 새 여정은 다시 입력할 수 있습니다. 예를 들어 한 사람이 상점을 방문할 때 일회성 선물을 제공하려는 경우 &quot;일회성&quot; 여정에 대한 옵션을 선택 취소할 수 있습니다. 이 경우 고객은 여정에 다시 입장하여 오퍼를 다시 받을 수 없어야 합니다. 여정이 종료되면 상태는 다음과 같습니다. **[!UICONTROL 종료됨]**. 새 사용자는 더 이상 여정에 들어갈 수 없습니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다. [자세히 알아보기](journey-gs.md#entrance)
 
+다음의 경우 **재등록 허용** 옵션이 활성화되고 **재등록 대기 기간** 필드에서는 여정이 프로필을 다시 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 29일입니다.
+
 ![](assets/journey-re-entrance.png)
 
 기본값 뒤 [글로벌 시간 초과](journey-gs.md#global_timeout) 30일 동안 여정이 **완료됨** 상태. 이미 여정에 있는 프로필은 여정을 정상적으로 완료합니다. 새 프로필은 더 이상 여정에 들어갈 수 없습니다. 이 동작은 여정에 입력한 프로필에 대한 모든 정보가 입력한 후 30일 후에 제거되므로 30일 동안만(즉, 여정 시간 초과 기본값) 설정됩니다. 해당 기간이 지나면 프로필이 여정에 다시 들어갈 수 있습니다. 이를 방지하고 이러한 프로필에 대한 재입력을 완전히 비활성화하려면 프로필 또는 대상 데이터를 사용하여 프로필이 이미 입력되었는지 여부를 테스트하는 조건을 추가할 수 있습니다.
@@ -42,9 +44,7 @@ ht-degree: 13%
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
-단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하는 가드레일이 포함됩니다. 프로필 재입력은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03에 도착하는 경우(동일한 이벤트이든 동일한 여정을 트리거하는 다른 이벤트이든) 해당 여정은 이 프로필에 대해 다시 시작되지 않습니다.
-
-또한 이 키는 개인이 여정 내에 있는지 확인하는 데도 사용됩니다. 실제로, 한 사람은 같은 여정에서 두 개의 다른 장소에 있을 수 없다. 따라서 시스템은 동일한 키(예: 키 CRMID=3224)가 동일한 여정의 다른 위치에 있는 것을 허용하지 않습니다.
+키는 개인이 여정 내에 있는지 확인하는 데 사용됩니다. 실제로, 한 사람은 같은 여정에서 두 개의 다른 장소에 있을 수 없다. 따라서 시스템은 동일한 키(예: 키 CRMID=3224)가 동일한 여정의 다른 위치에 있는 것을 허용하지 않습니다.
 
 ## 대상자 여정 읽기{#entry-read-segment}
 

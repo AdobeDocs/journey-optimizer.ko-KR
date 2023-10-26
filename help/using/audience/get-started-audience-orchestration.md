@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->구성 워크플로우의 결과로 만들어진 대상자는 Journey Optimizer 캠페인에서만 타겟팅할 수 있습니다. 여정에서는 사용할 수 없습니다.
+>현재는 여정에 작성 워크플로우로 인한 대상자를 개인 베타로 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 >
 >Adobe Journey Optimizer의 캠페인은 아직 정책 시행 서비스와 통합되지 않았습니다. 따라서 대상자 속성에 적용하는 데이터 사용 레이블은 Journey Optimizer 캠페인에 적용되지 않습니다.
 

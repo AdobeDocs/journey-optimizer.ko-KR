@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1307'
 ht-degree: 13%
 
 ---
@@ -29,11 +29,13 @@ ht-degree: 13%
 
 다음에서 생성된 &quot;Luma 앱 열기 및 체크아웃&quot; 대상을 예로 들어 보겠습니다. [대상자 작성](../audience/about-audiences.md) 사용 사례. 대상자 읽기 활동을 사용하면 이 대상자에 속하는 모든 개인에게 여정을 입력하고 조건, 타이머, 이벤트, 작업과 같은 모든 여정 기능을 활용하는 개별화된 여정으로 흐르도록 할 수 있습니다.
 
->[!NOTE]
->
->대상자 읽기 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 여정의 최대 개수가 정해져 있습니다. 시스템에서 재시도를 수행하기는 하지만, 정확히 같은 시간에 다섯 개가 넘는 여정(대상자 읽기 활동이 있으며 예약했거나 “최대한 빨리” 시작하는 여정)을 실행하는 것을 피하기 위해 5~10분 간격을 두는 등 시간을 분산하는 것이 좋습니다.
->
->경험 이벤트 필드 그룹은 대상자 읽기, 대상자 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다.
+## 반드시 알아야 할 사항 {#must-read}
+
+* 대상자 읽기 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 여정의 최대 개수가 정해져 있습니다. 시스템에서 재시도를 수행하기는 하지만, 정확히 같은 시간에 다섯 개가 넘는 여정(대상자 읽기 활동이 있으며 예약했거나 “최대한 빨리” 시작하는 여정)을 실행하는 것을 피하기 위해 5~10분 간격을 두는 등 시간을 분산하는 것이 좋습니다.
+
+* 경험 이벤트 필드 그룹은 대상자 읽기, 대상자 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다.
+
+* 현재, 대상 사용 [csv 파일에서 가져옴](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 다음의 결과물 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md) 인앱 여정은 비공개 베타로 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
 ### 활동 구성 {#configuring-segment-trigger-activity}
 

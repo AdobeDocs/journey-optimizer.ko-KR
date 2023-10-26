@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 2%
+source-wordcount: '572'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 또한 캠페인 유형 및 채널 또는 캠페인 생성 시 캠페인에 할당된 태그를 기반으로 목록을 필터링할 수 있습니다. [캠페인에 태그를 할당하는 방법 알아보기](create-campaign.md#create)
 
-## 캠페인 상태 {#statuses}
+## 캠페인 상태 및 경고 {#statuses}
 
 캠페인은 여러 상태를 가질 수 있습니다.
 
@@ -47,6 +47,10 @@ ht-degree: 2%
 >[!NOTE]
 >
 >다음 옆에 있는 &quot;초안 버전 열기&quot; 아이콘 **[!UICONTROL 라이브]** 또는 **[!UICONTROL 예약됨]** 상태는 캠페인의 새 버전이 만들어지고 아직 활성화되지 않았음을 나타냅니다. [자세히 알아보기](modify-stop-campaign.md#modify).
+
+캠페인 중 하나에서 오류가 발생하면 캠페인 상태와 함께 경고 아이콘이 표시됩니다. 경고와 관련된 정보를 표시하려면 이 패널을 클릭합니다. 이러한 경고는 캠페인 메시지가 게시되지 않았거나 선택한 표면이 잘못된 경우와 같은 다양한 상황에서 발생할 수 있습니다.
+
+![](assets/campaign-alerts.png)
 
 ## 반복 캠페인 수정 {#modify}
 

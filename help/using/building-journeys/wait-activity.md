@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 18%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 18%
 
 ## 기간 대기{#duration}
 
-다음 활동을 실행하기 전 대기 기간을 선택합니다.
+다음 활동을 실행하기 전 대기 기간을 선택합니다. 최대 기간은 29일입니다.
 
 ![](assets/journey55.png)
 

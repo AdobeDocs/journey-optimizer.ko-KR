@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 다이내믹, 콘텐츠
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '564'
 ht-degree: 9%
 
 ---
@@ -60,13 +60,13 @@ Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 �
 
 이메일 디자이너에서 콘텐츠 구성 요소의 변형을 만드는 단계는 다음과 같습니다.
 
-1. 이메일 디자이너에서 콘텐츠 구성 요소를 선택한 다음 **[!UICONTROL 조건부 콘텐츠 활성화]**.
+1. 다음에서 [이메일 디자이너](../email/content-from-scratch.md)을 클릭하고 콘텐츠 구성 요소를 선택한 다음, **[!UICONTROL 조건부 콘텐츠 활성화]**.
 
    ![](assets/conditions-enable-conditional.png)
 
 1. 다음 **[!UICONTROL 조건부 콘텐츠]** 창이 왼쪽에 표시됩니다. 이 창에서는 조건을 사용하여 선택한 콘텐츠 구성 요소의 변형을 여러 개 만들 수 있습니다.
 
-   다음을 선택하여 첫 번째 변형을 구성합니다. **[!UICONTROL 조건 적용]** 단추를 클릭합니다.
+   다음을 선택하여 첫 번째 변형을 구성합니다. **[!UICONTROL 조건 선택]** 단추를 클릭합니다.
 
    ![](assets/conditions-apply.png)
 
@@ -76,9 +76,11 @@ Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 �
 
    을 클릭하여 새 규칙을 만들 수도 있습니다. **[!UICONTROL 새로 만들기]**. [조건을 만드는 방법 알아보기](create-conditions.md)
 
-1. 조건부 규칙은 변형과 관련되어 있습니다. 가독성을 높이기 위해 타원 메뉴를 클릭하여 변형 이름을 바꾸는 것이 좋습니다.
+1. 조건부 규칙은 변형과 관련되어 있습니다. 가독성을 높이기 위해 **[!UICONTROL 이름 바꾸기]** 추가 작업 아이콘의 작업
 
-   이제 메시지를 보낼 때 규칙이 충족되는 경우 구성 요소가 표시되는 방식을 구성합니다. 이 예제에서는 수신자의 선호 언어인 경우 프랑스어로 텍스트를 표시하려고 합니다.
+   ![](assets/conditions-rename.png)
+
+1. 메시지를 보낼 때 규칙이 충족되는 경우 구성 요소가 표시되는 방식을 구성합니다. 이 예제에서는 수신자의 선호 언어인 경우 프랑스어로 텍스트를 표시하려고 합니다.
 
    ![](assets/conditions-design.png)
 
@@ -88,3 +90,7 @@ Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 �
    >메시지를 보낼 때 변형에 정의된 규칙을 충족하지 않는 경우 콘텐츠 구성 요소는에 정의된 콘텐츠를 표시합니다. **[!UICONTROL 기본 변형]**.
    >
    >조건부 콘텐츠는 변형이 표시되는 순서로 연결된 규칙에 대해 평가됩니다. 다른 조건이 충족되지 않으면 기본 변형이 항상 표시됩니다.
+
+1. 변형을 삭제하려면 원하는 변형 옆에 있는 추가 작업 아이콘을 클릭하고 을 선택합니다 **[!UICONTROL 삭제]**.
+
+   ![](assets/conditions-delete.png)
