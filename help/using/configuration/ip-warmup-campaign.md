@@ -11,10 +11,10 @@ keywords: IP, 풀, 전달성
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 21%
+source-wordcount: '407'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 21%
 
 >[!ENDSHADEBOX]
 
-에서 IP 준비 계획 자체를 만들기 전에 [!DNL Journey Optimizer]에서는 먼저 IP 준비 계획에 사용할 수 있도록 전용 옵션이 활성화된 캠페인을 하나 이상 만들어야 합니다.
+에서 IP 준비 계획 자체를 만들기 전에 [!DNL Journey Optimizer], 먼저 IP 준비 계획에 사용하도록 특별히 설계된 캠페인을 하나 이상 만들어야 합니다<!--through a dedicated option-->.
 
 IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
@@ -48,8 +48,9 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
    >
    >게재 가능성 컨설턴트와 협력하여 IP 준비 계획에 사용할 도메인 및 IP를 식별합니다.<!--TBC-->
 
-1. 만들기 [campaign](../campaigns/create-campaign.md) 및 선택 [이메일](../email/create-email.md#create-email-journey-campaign) 작업.
+1. 예약된 마케팅 만들기 [campaign](../campaigns/create-campaign.md) 및 선택 [이메일](../email/create-email.md#create-email-journey-campaign) 작업.
 
+   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
 1. IP 웜업을 위해 생성한 서피스를 선택합니다.
 
    ![](assets/ip-warmup-campaign-surface.png)
@@ -70,7 +71,7 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
    >
    >캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../campaigns/get-started-with-campaigns.md).
 
-1. [활성화](../campaigns/review-activate-campaign.md) 캠페인.
+1. [활성화](../campaigns/review-activate-campaign.md) 캠페인. 상태가 다음으로 변경됨: **[!UICONTROL 라이브]**.
 
    >[!NOTE]
    >
@@ -82,4 +83,9 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
 라이브가 되면 캠페인이 IP 준비 계획에 사용할 준비가 되었습니다. [자세히 알아보기](ip-warmup-plan.md)
 
-<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
+IP 준비 캠페인은 하나의 IP 준비 계획에서만 사용할 수 있습니다. 그러나 동일한 IP 웜업 계획의 하나 이상의 단계에서 동일한 캠페인을 사용할 수 있습니다. [자세히 알아보기](ip-warmup-plan.md#define-phases)
+
+>[!NOTE]
+>
+>라이브 캠페인이 IP 준비 계획에 사용되는 경우 해당 계획은 다음과 같습니다. [완료됨으로 표시](ip-warmup-execution.md#mark-as-completed), 해당 캠페인의 상태가 다음으로 변경됨: **[!UICONTROL 중지됨]**.
+

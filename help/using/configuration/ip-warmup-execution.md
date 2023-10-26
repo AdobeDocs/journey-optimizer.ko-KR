@@ -11,9 +11,9 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1730'
 ht-degree: 19%
 
 ---
@@ -61,20 +61,21 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. 각 단계에 대해 이 IP 준비 계획 단계와 연결할 캠페인을 선택합니다.
 
+   >[!NOTE]
+   >
+   >다른 IP 준비 계획에서 이미 사용 중인 캠페인은 선택할 수 없습니다. 그러나 동일한 IP 웜업 계획의 하나 이상의 단계에서 동일한 캠페인을 사용할 수 있습니다.
+
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
-   >    * 이 포함된 캠페인만 **[!UICONTROL IP 준비 계획 활성화]** 옵션 활성화됨 <!--and live?--> 선택할 수 있습니다. [자세히 알아보기](#create-ip-warmup-campaign)
+   >* 이 포함된 캠페인만 **[!UICONTROL IP 준비 계획 활성화]** 활성화된 옵션은 선택할 수 있습니다. [자세히 알아보기](#create-ip-warmup-campaign)
    >
    >* 현재 IP 준비 계획에 대해 선택한 것과 동일한 표면을 사용하는 캠페인을 선택해야 합니다.
-   >
-   >* 다른 IP 준비 계획에서 이미 사용 중인 캠페인은 선택할 수 없습니다.
-
 
 1. 다음에서 **[!UICONTROL 프로필 제외]** 섹션에서 해당 단계의 이전 실행의 프로필이 항상 제외되어 있음을 확인할 수 있습니다. 예를 들어 실행 시 타겟팅되#1 처음 4800명에서 프로필이 포함된 경우 시스템은 동일한 프로필이 실행 시 이메일을 수신하지 않도록 자동으로 #2.
 
-1. 다음에서 **[!UICONTROL 캠페인 대상자 제외됨]** 섹션, 다른 항목에서 대상 선택 <!--executed/live?-->현재 단계에서 제외하려는 캠페인.
+1. 다음에서 **[!UICONTROL 캠페인 대상자 제외됨]** 섹션, 다른 항목에서 캠페인 대상자 선택 <!--executed/live?-->현재 단계에서 제외하려는 캠페인.
 
    ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
@@ -155,7 +156,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >적용하지 않으려는 경우 **[!UICONTROL 마지막 참여]** 매개 변수를 현재 실행으로 설정하고 0으로 설정합니다.
+   >실행에 참여 기간을 적용하지 않으려면 **[!UICONTROL 마지막 참여]** 필드.
 
 1. 다음 항목 선택 **[!UICONTROL 오류 발생 시 일시 중지]** 대상이 해당 실행에 대해 평가된 후 자격이 있는 프로필이 타겟팅된 프로필보다 적은 경우 실행을 취소하는 옵션입니다.
 

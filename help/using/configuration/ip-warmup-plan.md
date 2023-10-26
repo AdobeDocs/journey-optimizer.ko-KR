@@ -11,10 +11,10 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 18%
+source-wordcount: '1111'
+ht-degree: 11%
 
 ---
 
@@ -33,30 +33,46 @@ ht-degree: 18%
 
 한 개 이상 만든 경우 [IP 준비 캠페인](ip-warmup-campaign.md) 전용 서피스와 해당 옵션이 활성화되면 IP 준비 계획 작성을 시작할 수 있습니다.
 
+>[!CAUTION]
+>
+>IP 준비 계획에 액세스하고, 만들고, 편집하고, 삭제하려면 다음을 수행해야 합니다. **[!UICONTROL 전달성 컨설턴트]** 권한. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
 ## IP 준비 계획 파일 준비 {#prepare-file}
 
 IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP 및 도메인에서 주요 인터넷 서비스 공급자(ISP)로 나가는 이메일 양을 점차적으로 늘리는 작업입니다.
 
 이 활동은 업계 도메인, 사용 사례, 지역, ISP 및 다양한 기타 요소를 기반으로 잘 설계된 계획을 준비하는 데 도움을 주는 전달성 전문가의 도움을 받아 정기적으로 수행됩니다.
 
-를 사용하여 작업할 때 [!DNL Journey Optimizer] 이 플랜은 미리 정의된 열을 포함해야 하는 Excel 파일 형식을 사용합니다. 에서 IP 준비 계획을 만들기 전에 [!DNL Journey Optimizer] 인터페이스에서는 플랜에 도움이 될 모든 데이터를 이 템플릿에 입력해야 합니다.
+<!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
+
+에서 IP 준비 계획을 만들기 전에 [!DNL Journey Optimizer] 인터페이스에서는 계획을 제공할 모든 데이터를 Excel 템플릿에 입력해야 합니다.
 
 >[!CAUTION]
 >
 >게재 컨설턴트와 협력하여 IP 준비 계획 파일이 올바르게 설정되었는지 확인합니다.
+>
+>템플릿에 제공된 형식을 사용해야 합니다.
 
 다음은 IP 웜업 플랜이 포함된 파일의 예입니다.
 
 ![](assets/ip-warmup-sample-file.png)
 
-### IP 준비 계획 탭
+>[!NOTE]
+>
+>지금은 을(를) 떠나십시오. **속성** 및 **값** 만지지 않은 세포.
 
-* 이 예에서 계획은 17일 이상에 걸쳐 준비되었습니다(&quot;라고 함)**실행**&quot;) 100만 개가 넘는 프로필의 타겟 볼륨에 도달합니다.
+### IP 준비 계획 탭 {#ip-warmup-plan-tab}
 
-* 이 계획은 6까지 실행됩니다. **단계**, 각 행에 하나 이상의 실행이 포함됩니다.
+* 이 예에서 계획은 17일 이상에 걸쳐 준비되었습니다(&quot;라고 함)**실행**&quot;) 백만 개 이상의 프로필이 타겟인 볼륨에 도달하기 위해
 
-* 전달하려는 도메인에 대해 원하는 만큼 열을 가질 수 있습니다. 이 예제에서 플랜은 6개의 열로 나뉘며, 5개는 다음에 해당합니다. **주 도메인 그룹** 플랜(Gmail, Microsoft, Yahoo, Orange 및 Apple)과 여섯 번째 열에서 를 사용하려면 **기타**: 다른 도메인의 나머지 주소를 모두 포함합니다.
-* 다음 **참여 기간(일)** 열에는 지난 30일 동안 브랜드와 계약한 프로필만 타겟팅되었음을 보여 줍니다.
+* 이 계획은 6시까지 실행됩니다. **단계**, 각 행에 하나 이상의 실행이 포함됩니다.
+
+* 전달하려는 도메인에 대해 원하는 만큼 열을 가질 수 있습니다. 이 예에서 플랜은 6개의 열로 나뉩니다.
+
+   * 이 중 4개는 **기본 도메인 그룹** 플랜에 사용할 수 있습니다(Gmail, Microsoft, Yahoo 및 Orange).
+   * 하나는 사용자 정의 도메인 그룹에 해당합니다(다음을 사용하여 추가해야 함). [사용자 정의 도메인 그룹](#custom-domain-group-tab) 탭).
+   * 여섯 번째 열, **기타**&#x200B;에는 플랜에서 명시적으로 다루지 않는 다른 도메인의 나머지 주소가 모두 포함되어 있습니다. 이 열은 선택 사항입니다. 생략하면 이메일이 지정된 도메인으로만 이동합니다.
+* 다음 **참여 기간(일)** 열에는 입력한 지난 기간 동안 브랜드와 관련된 프로필만 타겟팅됨을 보여 줍니다.
 
 이 아이디어는 각 실행에서 타깃팅된 주소의 수를 점진적으로 늘리면서 각 단계에 대한 실행 수를 줄이는 것입니다.
 
@@ -78,7 +94,53 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 * 라 포스트
 * Apple
 
-### 사용자 정의 도메인 그룹 탭
+<!--
++++ Gmail
+gmail.com;gmail.fr;gmail.de;gmail.co.uk;gmail.it
++++
+
++++ Adobe
+adobe.com;adobe.fr;adobe.es
++++
+
++++WP
++++
+
++++Comcast
++++
+
++++Yahoo
++++
+
++++Bigpond
++++
+
++++Orange
++++
+
++++Softbank
++++
+
++++Docomo
++++
+
++++United Internet
++++
+
++++Microsoft
++++
+
++++KDDI
++++
+
++++Italia Online
++++
+
++++La Poste
++++
+-->
+
+### 사용자 정의 도메인 그룹 탭 {#custom-domain-group-tab}
 
 사용자 정의 도메인 그룹을 포함하여 플랜에 열을 더 추가할 수도 있습니다.
 
@@ -87,6 +149,51 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 예를 들어 사용자 정의 도메인 Luma를 추가하는 경우 luma.com, luma.co.uk, luma.it, luma.fr, luma.de 등의 하위 도메인을 포함하려고 합니다.
 
 ![](assets/ip-warmup-sample-file-custom.png)
+
+### 예 {#example}
+
+두 개의 사용자 정의 도메인 그룹을 원한다고 가정해 보겠습니다.
+
+* Hotmail 도메인에만 사용할 수 있습니다.
+* 도메인 그룹 Microsoft의 다른 모든 도메인에 대한 것입니다(따라서 모든 Hotmail 도메인 제외).
+
+다른 모든 도메인은 **[!UICONTROL 기타]** 열.
+
+1. 다음에서 **[!UICONTROL 사용자 정의 도메인 그룹]** 탭, 만들기 **핫메일** 도메인 그룹.
+
+1. 동일한 행에 모든 Hotmail 도메인을 추가합니다.
+
+   다음을 수행할 수 있습니다. [복사하여 붙여넣기](#copy-paste) 에 나열된 모든 Hotmail 도메인 [IP 준비 계획 탭](#ip-warmup-plan-tab) 섹션.
+
+1. 다른 행을 추가합니다.
+
+1. 만들기 **MICROSOFT X** 도메인 그룹.
+
+1. Hotmail이 아닌 모든 Microsoft 도메인을 같은 행에 추가합니다. 마찬가지로 위의 목록에서 복사하여 붙여넣을 수 있습니다. [자세히 알아보기](#copy-paste)
+
+1. 로 돌아가기 **[!UICONTROL IP 준비 계획]** 탭.
+
+1. 세 개의 열 만들기: **핫메일**, 1개 **MICROSOFT X** 다음에 대한 1개 **기타**.
+
+1. 필요에 따라 열을 입력합니다.
+
+>[!NOTE]
+>
+>IP 준비 계획이 (으)로 업로드되면 [!DNL Journey Optimizer], Microsoft 도메인 그룹을 제외할 필요가 없습니다.
+
+<!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
+
+### 기본 도메인 복사-붙여넣기 {#copy-paste}
+
+예를 들어 모든 Hotmail 도메인을 포함하는 사용자 정의 도메인 그룹을 만들려면 제공된 기본 목록에서 도메인을 복사하여 붙여 넣을 수 있습니다 [위](#ip-warmup-plan-tab).
+
+그런 다음 Excel 변환 도구를 사용하여 텍스트를 열로 변환합니다.
+
+1. 선택 **[!UICONTROL 데이터]** > **[!UICONTROL 텍스트를 열로 변환...]**, 선택 **[!UICONTROL 구분됨]** 및 선택 **[!UICONTROL 다음]**.
+
+1. 선택 **[!UICONTROL 세미콜론]**, 클릭 **[!UICONTROL 다음]** 및 **[!UICONTROL 완료]**.
+
+이제 각 도메인이 동일한 행의 다른 열에 표시됩니다.
 
 ## IP 준비 계획 액세스 및 관리 {#manage-ip-warmup-plans}
 
@@ -98,10 +205,14 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
    * **시작되지 않음**: 아직 활성화된 실행이 없습니다. [자세히 알아보기](ip-warmup-execution.md#define-runs)
    * **라이브**: 플랜은 첫 번째 단계의 첫 번째 실행이 성공적으로 활성화되는 즉시 이 상태로 변경됩니다. [자세히 알아보기](ip-warmup-execution.md#define-runs)
-   * **완료됨**: 플랜이 완료된 것으로 표시되었습니다. 이 옵션은 플랜의 모든 실행이 포함된 경우에만 사용할 수 있습니다. **[!UICONTROL 완료됨]** 또는 **[!UICONTROL 초안]** 상태(실행할 수 없음) **[!UICONTROL 라이브]**). [자세히 알아보기](ip-warmup-execution.md#mark-as-completed)
+   * **완료됨**: 플랜이 완료된 것으로 표시되었습니다. <!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [자세히 알아보기](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. IP 준비 계획을 삭제하려면 **[!UICONTROL 삭제]** 아이콘은 플랜의 이름 옆에 있으며 삭제를 확인합니다.
+
+   >[!NOTE]
+   >
+   >이 포함된 플랜만 **시작되지 않음** 상태를 삭제할 수 있습니다.
 
    ![](assets/ip-warmup-delete-plan.png)
 
@@ -123,11 +234,7 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="채널 표면 설정"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP 워밍업 캠페인 만들기"
 
-하나 이상의 라이브 캠페인이 **[!UICONTROL IP 준비 계획 활성화]** 활성화된 옵션이 활성화되면 IP 준비 계획과 연결할 수 있습니다.
-
->[!CAUTION]
->
->IP 준비 계획을 만들고, 편집하고, 삭제하려면 **[!UICONTROL 전달성 컨설턴트]** 권한. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 
 1. 액세스 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL IP 준비 계획]** 메뉴를 선택한 다음 **[!UICONTROL IP 준비 계획 만들기]**.
 
@@ -137,11 +244,11 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. 선택 [표면](channel-surfaces.md). 마케팅 표면만 선택할 수 있습니다. [이메일 유형에 대해 자세히 알아보기](../email/email-settings.md#email-type)
+1. 다음 항목 선택 [표면](channel-surfaces.md) 몸을 따뜻하게 하고 싶으시군요. 마케팅 표면만 선택할 수 있습니다. [이메일 유형에 대해 자세히 알아보기](../email/email-settings.md#email-type)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >IP 워밍업 플랜과 연결하려는 캠페인에서 선택한 것과 동일한 표면을 선택해야 합니다. [IP 준비 캠페인을 만드는 방법을 알아봅니다.](ip-warmup-campaign.md)
+   >IP 준비 계획과 연결할 캠페인은 동일한 표면을 사용해야 합니다. [IP 준비 캠페인을 만드는 방법을 알아봅니다.](ip-warmup-campaign.md)
 
 1. IP 준비 계획이 포함된 Excel 파일을 업로드합니다. [자세히 알아보기](#prepare-file)
 
@@ -150,6 +257,12 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
    ![](assets/ip-warmup-upload-success.png)
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 업로드한 파일에 정의된 모든 단계, 실행, 열 및 해당 콘텐츠가 [!DNL Journey Optimizer] 인터페이스. [자세히 알아보기](ip-warmup-execution.md)
+   >[!NOTE]
+   >
+   >업로드가 실패할 경우 올바른 형식 및 파일 형식(.xls 또는 .xlsx)을 사용하고 있는지 확인하십시오. 제공된 샘플을 Adobe으로 사용하십시오.
+
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 업로드한 파일에 정의된 모든 단계, 실행, 열 및 해당 콘텐츠가 [!DNL Journey Optimizer] 인터페이스.
 
    ![](assets/ip-warmup-plan-uploaded.png)
+
+이제 IP 준비 계획을 실행할 준비가 되었습니다. [자세히 알아보기](ip-warmup-execution.md)
