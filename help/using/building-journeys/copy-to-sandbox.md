@@ -9,7 +9,7 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 7%
@@ -85,7 +85,7 @@ Target 샌드박스에서 복사되는 객체는 고유하며, 기존 요소를 
 
    ![](assets/journey-sandbox9.png)
 
-## 여정 가져오기 {#export}
+## 여정 가져오기 {#import}
 
 1. 패키지 목록에서 패키지 이름 옆에 있는 + 아이콘을 클릭합니다.
 
