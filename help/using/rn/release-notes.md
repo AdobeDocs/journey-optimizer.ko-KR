@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ed42c04d8c653226e8512ced761519995ebd72c7
+source-git-commit: c4178c9954e94b64954a8631a49dc0cffccbaaee
 workflow-type: tm+mt
-source-wordcount: '4537'
-ht-degree: 92%
+source-wordcount: '4477'
+ht-degree: 94%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 92%
 
 **캠페인**
 
-* 이제 실시간 1회 캠페인을 중지하고 수정하고 다시 시작할 수 있습니다. 이 개선 사항은 베타에서 사용할 수 있습니다.
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * 캠페인 중 하나에서 오류가 발생하면 이제 캠페인 목록에 캠페인 상태와 함께 경고 아이콘이 표시됩니다.
 
 **여정**
@@ -121,9 +121,10 @@ ht-degree: 92%
    * 다음 **재등록 대기 기간** 위치: [여정 속성](../building-journeys/journey-gs.md#entrance)
    * 다음 **대기** 의 시간 초과 정의에 있는 필드 [일반](../building-journeys/general-events.md#events-specific-time) 및 [반응](../building-journeys/reaction-events.md) 이벤트.
 
-**채널 구성의 동의**
+<!--
+**Consent in channel configuration**
 
-* 이제 채널 표면 수준에서 마케팅 작업을 선택할 수 있습니다. 표면에서 사용할 경우 고객의 선호도를 존중하기 위해 해당 마케팅 액션과 연결된 모든 동의 정책을 활용합니다.
+* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
 
 **의사 결정 관리**
 
