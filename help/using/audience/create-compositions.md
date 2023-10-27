@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 17%
+source-wordcount: '461'
+ht-degree: 15%
 
 ---
 
@@ -74,7 +74,9 @@ ht-degree: 17%
 >title="대상자 게시"
 >abstract="구성을 게시하여 최종 대상자를 Adobe Experience Platform에 저장합니다."
 
-생성된 모든 컴포지션은 **[!UICONTROL 컴포지션]** 탭. 다음과 같은 여러 상태를 가질 수 있습니다.
+생성된 모든 컴포지션은 **[!UICONTROL 컴포지션]** 탭. 목록의 줄임표 버튼을 사용하여 언제든지 기존 컴포지션을 복제하거나 삭제할 수 있습니다.
+
+구성은 다음과 같은 여러 상태를 가질 수 있습니다.
 
 * **[!UICONTROL 초안]**: 컴포지션이 진행 중이며 게시되지 않았습니다.
 * **[!UICONTROL 게시됨]**: 컴포지션이 게시되어 결과 대상이 저장되고 사용할 수 있습니다.
@@ -83,4 +85,4 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->목록의 줄임표 버튼을 사용하여 언제든지 기존 컴포지션을 복제하거나 삭제할 수 있습니다.
+>대상 구성은 현재 샌드박스 재설정 기능과 통합되지 않았습니다. 샌드박스 재설정을 시작하기 전에 관련 대상 데이터가 제대로 정리되도록 컴포지션을 수동으로 삭제해야 합니다. 자세한 정보는 Adobe Experience Platform에서 확인할 수 있습니다 [샌드박스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
