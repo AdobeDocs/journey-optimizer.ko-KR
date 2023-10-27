@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 1%
+ht-degree: 22%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="콘텐츠의 렌더링 방식 확인"
+>title="콘텐츠 렌더링 방식 확인"
 >abstract="콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 보고 사용 중인 채널에 따라 렌더링이 올바른지 확인할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"
->title="콘텐츠의 렌더링 방식 확인"
->abstract="콘텐츠가 정의되면 콘텐츠를 미리 보고 사용 중인 채널에 따라 렌더링이 올바른지 확인할 수 있습니다."
+>title="콘텐츠 렌더링 방식 확인"
+>abstract="콘텐츠가 정의되면 미리 보고 사용 중인 채널에 따라 렌더링이 올바른지 확인할 수 있습니다."
 
 ## 콘텐츠 미리보기 및 테스트 기본 정보 {#about}
 

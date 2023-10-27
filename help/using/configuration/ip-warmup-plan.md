@@ -225,7 +225,7 @@ adobe.com;adobe.fr;adobe.es
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="IP 워밍업 플랜 지정"
->abstract="CSV 템플릿을 다운로드하고 IP 워밍업 단계와 타겟 프로필 수에 대한 데이터로 채우세요."
+>abstract="CSV 템플릿을 다운로드하고 IP 워밍업 단계와 대상 프로필 수에 대한 데이터로 채우십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"

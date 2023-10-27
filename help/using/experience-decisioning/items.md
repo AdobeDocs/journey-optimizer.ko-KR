@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 8%
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
 >title="결정 항목 관리"
->abstract="Journey Optimizer을 사용하면 의사 결정 항목으로 알려진 마케팅 오퍼를 만들어 중앙 집중식 카탈로그 및 컬렉션으로 만들고 구성할 수 있습니다. 현재 생성된 모든 의사 결정 항목은 단일 &quot;오퍼&quot; 카탈로그 내에 통합됩니다. 이 화면에서 다음을 사용하여 카탈로그의 스키마에 액세스할 수도 있습니다. **스키마 편집** 단추를 클릭하고 의사 결정 항목에 대한 사용자 지정 특성을 만듭니다."
+>abstract="Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼를 생성하여 중앙 집중식 카탈로그 및 컬렉션으로 구성할 수 있습니다. 현재 생성된 모든 결정 항목은 단일 “오퍼” 카탈로그 내에 통합되어 있습니다. 이 화면에서 **스키마 편집** 버튼을 사용하여 카탈로그의 스키마에 액세스하고 결정 항목에 대한 사용자 정의 속성을 생성할 수도 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="항목 카탈로그 구성"
 
 >[!BEGINSHADEBOX]
@@ -41,7 +41,7 @@ ht-degree: 8%
 
 >[!ENDSHADEBOX]
 
-Journey Optimizer을 사용하면 의사 결정 항목으로 알려진 마케팅 오퍼를 만들어 중앙 집중식 카탈로그 및 컬렉션으로 만들고 구성할 수 있습니다. 요구 사항에 맞게 정확하게 조정할 수 있도록 설계된 표준 및 맞춤형 특성으로 구성됩니다. 또한 의사 결정 항목을 표시할 대상을 정의할 수 있는 프로필 제약 조건을 통합합니다.
+Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼를 생성하여 중앙 집중식 카탈로그 및 컬렉션으로 구성할 수 있습니다. 요구 사항에 맞게 정확하게 조정할 수 있도록 설계된 표준 및 맞춤형 특성으로 구성됩니다. 또한 의사 결정 항목을 표시할 대상을 정의할 수 있는 프로필 제약 조건을 통합합니다.
 
 의사 결정 항목을 만들기 전에 **결정 규칙** 결정 항목을 표시할 대상을 결정하는 조건을 설정하려면 를 선택합니다. [의사 결정 규칙을 만드는 방법을 알아봅니다](rules.md).
 
@@ -50,19 +50,19 @@ Journey Optimizer을 사용하면 의사 결정 항목으로 알려진 마케팅
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
 >title="결정 항목의 우선 순위 정의"
->abstract="프로필이 여러 항목에 적격인 경우 우선순위에서 이 결정 항목을 다른 항목과 비교할 수 있습니다. 우선순위가 높을수록 항목이 다른 항목보다 우선합니다."
+>abstract="프로필이 여러 항목에 적합한 경우 우선 순위를 통해 이 결정 항목을 다른 항목과 비교할 수 있습니다. 우선 순위가 높을수록 해당 항목이 다른 항목보다 우선적으로 적용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
->title="사용자 지정 속성 정의"
->abstract="사용자 지정 속성은 의사 결정 항목에 할당할 수 있는 필요에 따라 맞춤화된 특정 속성입니다. 의사 결정 항목의 카탈로그 스키마에서 만들어집니다. 이 섹션은 카탈로그 스키마에 사용자 지정 특성을 하나 이상 추가한 경우에만 표시됩니다."
+>title="사용자 정의 속성 정의"
+>abstract="사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 이는 결정 항목의 카탈로그 스키마에 생성됩니다. 이 섹션은 카탈로그 스키마에 하나 이상의 사용자 정의 속성을 추가한 경우에만 표시됩니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="항목 카탈로그 구성"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="대상자 또는 의사 결정 규칙 추가"
->abstract="기본적으로 모든 프로필은 의사 결정 항목을 받을 수 있지만, 대상이나 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="대상 사용"
+>abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만, 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="대상자 사용"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="의사 결정 규칙 사용"
 
 의사 결정 항목을 만들려면 다음 단계를 수행합니다.
@@ -73,11 +73,11 @@ Journey Optimizer을 사용하면 의사 결정 항목으로 알려진 마케팅
 
    1. 이름과 설명을 입력합니다.
    1. 시작 및 종료 날짜를 지정합니다. 이 항목은 이 날짜 내에 의사 결정 엔진에서만 고려됩니다.
-   1. 설정 **[!UICONTROL 우선 순위]** 프로필이 여러 항목에 적합한 경우 다른 항목과 비교하여 결정 항목. 우선순위가 높을수록 항목이 다른 항목보다 우선합니다.
+   1. 설정 **[!UICONTROL 우선 순위]** 프로필이 여러 항목에 적합한 경우 다른 항목과 비교하여 결정 항목. 우선 순위가 높을수록 해당 항목이 다른 항목보다 우선적으로 적용됩니다.
 
    ![](assets/item-attributes.png)
 
-1. 사용자 지정 속성은 의사 결정 항목에 할당할 수 있는 필요에 따라 맞춤화된 특정 속성입니다. 의사 결정 항목의 카탈로그 스키마에 정의됩니다. [카탈로그 작업 방법 알아보기](catalogs.md)
+1. 사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 의사 결정 항목의 카탈로그 스키마에 정의됩니다. [카탈로그 작업 방법 알아보기](catalogs.md)
 
 1. 결정 항목의 속성이 정의되면 다음을 클릭합니다. **[!UICONTROL 다음]** 항목에 대한 프로파일 제약조건을 설정합니다.
 

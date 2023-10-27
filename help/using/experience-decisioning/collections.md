@@ -12,7 +12,7 @@ exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 13%
+ht-degree: 61%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_collections"
 >title="컬렉션 만들기"
->abstract="컬렉션을 사용하면 환경 설정에 따라 결정 항목을 범주화하고 그룹화할 수 있습니다. 이러한 범주는 의사 결정 항목의 속성을 활용하는 규칙을 만들어 만듭니다."
+>abstract="컬렉션을 사용하면 환경 설정에 따라 결정 항목을 분류하고 그룹화할 수 있습니다. 이러한 범주는 결정 항목의 속성을 활용하는 규칙을 작성하여 생성됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_collection_rules"
@@ -30,8 +30,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_collection"
->title="컬렉션을 선택합니다"
->abstract="고려할 오퍼가 포함된 컬렉션을 선택하십시오. 이 단계는 선택 전략을 작성할 때 필수입니다. 컬렉션을 사용하면 환경 설정에 따라 결정 항목을 범주화하고 그룹화할 수 있습니다. 예를 들어 &quot;Category&quot; 사용자 지정 특성에 &quot;Yoga&quot; 값이 있는 모든 결정 항목을 포함하는 컬렉션을 만들 수 있습니다."
+>title="컬렉션 선택"
+>abstract="고려할 오퍼가 포함된 컬렉션을 선택합니다. 이 단계는 선택 전략을 생성할 때 필수입니다. 컬렉션을 사용하면 환경 설정에 따라 결정 항목을 분류하고 그룹화할 수 있습니다. 예를 들어 “범주” 사용자 정의 속성에 “요가” 값이 있는 모든 결정 항목을 포함하는 컬렉션을 생성할 수 있습니다."
 
 >[!BEGINSHADEBOX]
 
@@ -50,7 +50,7 @@ ht-degree: 13%
 
 >[!ENDSHADEBOX]
 
-컬렉션을 사용하면 환경 설정에 따라 결정 항목을 범주화하고 그룹화할 수 있습니다. 이러한 범주는 의사 결정 항목의 속성을 활용하는 규칙을 만들어 만듭니다.
+컬렉션을 사용하면 환경 설정에 따라 결정 항목을 분류하고 그룹화할 수 있습니다. 이러한 범주는 결정 항목의 속성을 활용하는 규칙을 작성하여 생성됩니다.
 
 예를 들어 결정 항목의 카탈로그 스키마에 &quot;Category&quot; 사용자 지정 특성을 추가했다고 가정해 보겠습니다. 이렇게 하면 &quot;Category&quot; 특성에 &quot;Yoga&quot; 값이 있는 모든 결정 항목을 포함하는 컬렉션을 만들 수 있습니다.
 
