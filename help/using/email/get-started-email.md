@@ -10,9 +10,9 @@ level: Beginner
 keywords: 이메일, 시작, 만들기, 미리보기
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 99%
 </td>
 <td>
 <a href="get-started-email-design.md">
-<img alt="설계" src="../assets/do-not-localize/email-design.jpg">
+<img alt="디자인" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
 <a href="get-started-email-design.md"><strong>이메일 디자인</strong></a>
@@ -69,7 +69,7 @@ ht-degree: 99%
 </td>
 <td>
 <a href="email-settings.md">
-<img alt="메시지에 대한" src="../assets/do-not-localize/email-config.jpg">
+<img alt="구성" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
 <a href="email-settings.md"><strong>이메일 채널 구성</strong></a>
