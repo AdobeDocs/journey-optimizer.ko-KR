@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1710'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -448,8 +448,8 @@ ht-degree: 94%
             + [의사 결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
             + [의사 결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
             + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
-         + 이전 API {#legacy-api}
-            + [기존 API 정보](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+         + 레거시 API {#legacy-api}
+            + [레거시 API 정보](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
             + 배치 {#placements}
                + [배치 나열](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
                + [배치 조회](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)

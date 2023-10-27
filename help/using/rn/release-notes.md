@@ -11,7 +11,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
 workflow-type: tm+mt
 source-wordcount: '4525'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="새로운 기능"
->abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 노트에 통합됩니다."
+>abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
 
 [!DNL Adobe Journey Optimizer]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 노트에 통합됩니다.
 
@@ -205,7 +205,7 @@ ht-degree: 93%
 
 **의사 결정 관리**
 
-* 이제 의사 결정 관리 오브젝트를 생성하고 관리하기 위한 새로운 API를 사용할 수 있습니다. 이러한 API는 향상된 성능과 향상된 사용자 경험을 제공합니다. 레거시 API는 2024년 3월 27일까지 지원됩니다. [자세히 알아보기](../offers/api-reference/getting-started.md)
+* 이제 의사 결정 관리 개체를 생성하고 관리하기 위한 새로운 API를 사용할 수 있습니다. 이처럼 다양한 API로 성능과 사용자 경험을 개선할 수 있습니다. 레거시 API는 2024년 3월 27일까지 지원됩니다. [자세히 알아보기](../offers/api-reference/getting-started.md)
 
 **개인화**
 
@@ -213,7 +213,7 @@ ht-degree: 93%
 
 **경고**
 
-* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 다음 경우에 알림을 받을 수 있습니다. **대상자 읽기** 활동이 실패합니다. [자세히 알아보기](../reports/alerts.md).
+* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 **대상자 읽기** 활동이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md).
 
 **웹 채널**
 
@@ -229,7 +229,7 @@ ht-degree: 93%
 
 
 
-* 이제 사용자 정의 작업 응답에 대한 지원이 GA됩니다. 이 기능을 사용하면 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 또한 모든 통관 조치를 엔드포인트당 30초 이상 15만 건 호출로 제한하는 가드레일이 새로 추가됐다. [자세히 알아보기](../action/action-response.md)
+* 이제 사용자 정의 작업 응답에 대한 지원이 GA됩니다. 이 기능으로 사용자 정의 작업에서 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 또한 모든 사용자 정의 작업을 엔드포인트당 30초 간 호출 수 150,000회로 제한하는 가드레일을 새로 추가했습니다. [자세히 알아보기](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
@@ -246,7 +246,7 @@ ht-degree: 93%
 
 **DM 채널**
 
-* 이제 DM 공급자가 서버로 전송될 때 해당 파일을 암호화할 수 있습니다. 이렇게 하려면 파일 라우팅 구성 화면에서 새 필드를 사용하여 암호화 키를 복사하여 붙여넣을 수 있습니다. [자세히 알아보기](../direct-mail/direct-mail-configuration.md)
+* 이제 다이렉트 메일 공급자에게 보낼 파일을 서버로 전송할 때 암호화할 수 있습니다. 이렇게 하려면 파일 라우팅 구성 화면에서 새 필드를 사용하여 암호화 키를 복사하여 붙여넣을 수 있습니다. [자세히 알아보기](../direct-mail/direct-mail-configuration.md)
 
 **보고**
 

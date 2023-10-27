@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
 workflow-type: tm+mt
 source-wordcount: '4010'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 93%
 ## 2023년 10월 {#oct-2023}
 
 * 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2023년 10월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 다음과 같은 몇 가지 주요 기능을 설명하는 GIF이 추가되었습니다. [콘텐츠 템플릿](../content-management/content-templates.md), [조각](../content-management/fragments.md), [계산된 속성](../audience/computed-attributes.md), [다이렉트 메일](../direct-mail/get-started-direct-mail.md), [태그](../start/search-filter-categorize.md#tags), [의사 결정 관리 최적화 모델](../offers/ranking/personalized-optimization-model.md), [API 트리거된 캠페인](../campaigns/api-triggered-campaigns.md), 및 [콘텐츠 실험](../campaigns/content-experiment.md).
-* 스키마 만들기 프로세스가 Adobe Experience Platform 변경 사항과 함께 사용자 인터페이스의 최신 업데이트를 반영하도록 업데이트되었습니다. [자세히 보기](../audience/creating-test-profiles.md)
-* [의사 결정 관리] 보호 기능이 [보호 기능 및 제한 사항] 페이지에 추가되었습니다. [자세히 보기](../start/guardrails.md#decision-management)
+* [콘텐츠 템플릿](../content-management/content-templates.md), [조각](../content-management/fragments.md), [계산된 속성](../audience/computed-attributes.md), [다이렉트 메일](../direct-mail/get-started-direct-mail.md), [태그](../start/search-filter-categorize.md#tags), [의사 결정 관리 최적화 모델](../offers/ranking/personalized-optimization-model.md), [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md), [콘텐츠 실험](../campaigns/content-experiment.md) 등 몇 가지 주요 기능을 설명하는 GIF를 추가했습니다.
+* 스키마 만들기 프로세스에 Adobe Experience Platform 변화에 따른 사용자 인터페이스의 최신 업데이트를 반영하여 업데이트했습니다. [자세히 보기](../audience/creating-test-profiles.md)
+* 의사 결정 관리 가드레일을 가드레일 및 제한 사항 페이지에 추가했습니다. [자세히 보기](../start/guardrails.md#decision-management)
 * 헤더 매개 변수 섹션에 부재 중 알림 및 문제 응답이 처리되는 방법(에서 수신됨)을 반영하여 업데이트했습니다. **[!UICONTROL 오류 이메일]**). [자세히 보기](../email/email-settings.md#email-header)
 * 콘텐츠를 미리 보고 테스트하는 방법에 대한 새로운 섹션이 생성되었습니다. [자세히 보기](../content-management/preview-test.md)
 * 단일 페이지 애플리케이션 구현 페이지가 Experience Platform Web SDK Adobe 설명서로 이동되었습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
@@ -48,7 +48,7 @@ ht-degree: 93%
 * 액세스 제어 설명서에 대한 링크가 업데이트되었습니다. [자세히 보기](../administration/permissions.md)
 * Adobe Experience Platform 데이터 수집 세부 사항으로 인앱 채널 사전 요구 사항이 업데이트되었습니다. [자세히 보기](../in-app/inapp-configuration.md)
 * 등급 공식 예시에 제공된 일부 식이 유효성 검사 오류를 방지하기 위해 업데이트되었습니다. [자세히 보기](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* 의사 결정 범위 정의 섹션에 AI 모델을 평가 기준 그룹에서 사용하는 경우 해당 그룹의 모든 평가 기준에서 동일한 특정 AI 모델과 함께 AI 등급 방법을 사용해야 한다는 경고가 추가되었습니다. 더욱이 하나의 평가 기준 그룹만이 AI 모델을 사용할 수 있다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* 의사 결정 범위 정의 섹션에 AI 모델을 평가 기준 그룹에서 사용하는 경우 해당 그룹의 모든 평가 기준에서 동일한 특정 AI 모델과 함께 AI 등급 방법을 사용해야 한다는 경고가 추가되었습니다. 또한 평가 기준 그룹 하나에만 AI 모델을 사용할 수 있습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023년 8월 {#august-2023}
 
