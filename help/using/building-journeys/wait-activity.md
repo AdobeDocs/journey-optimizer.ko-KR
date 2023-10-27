@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 18%
@@ -35,7 +35,7 @@ ht-degree: 18%
 
 ## 대기 활동 정보{#about_wait}
 
-최대 대기 기간은 30일입니다. 테스트 모드에서 **[!UICONTROL 테스트의 대기 시간]** 매개 변수를 사용하면 각 대기 활동이 지속되는 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오.
+최대 대기 기간은 29일입니다. 테스트 모드에서 **[!UICONTROL 테스트의 대기 시간]** 매개 변수를 사용하면 각 대기 활동이 지속되는 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오.
 
 글로벌 여정 시간 제한이 30일이므로 여정에서 여러 대기 활동을 사용할 때는 주의하십시오. 즉, 프로필이 입력된 후 최대 30일 동안 여정에서 항상 드롭아웃됩니다. [이 페이지](../building-journeys/journey-gs.md#global_timeout)를 참조하십시오.
 
