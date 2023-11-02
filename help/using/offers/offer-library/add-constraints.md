@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 17%
+source-wordcount: '2396'
+ht-degree: 18%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 17%
 
    ![](../assets/offer-priority.png)
 
+   >[!NOTE]
+   >
+   >오퍼 우선 순위는 정수 값(소수점 없음)이어야 합니다.
+
 1. 오퍼의 **[!UICONTROL 캡핑]**: 오퍼가 표시되는 횟수를 의미합니다. [자세히 알아보기](#capping)
 
    ![](../assets/offer-capping.png)
@@ -59,7 +63,7 @@ ht-degree: 17%
 * 오퍼의 우선 순위는 &quot;50&quot;으로 설정되어 있습니다. 즉, 우선 순위가 1과 49 사이인 오퍼 앞에, 우선 순위가 최소 51인 오퍼 뒤에 오퍼가 표시됩니다.
 * 이 오퍼는 모든 배치에서 사용자당 한 달에 한 번만 제공됩니다.
 
-## 자격 요건 {#eligibility}
+## 적격성 {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
@@ -127,7 +131,7 @@ ht-degree: 17%
 
   에서 의사 결정 규칙에 대해 자세히 알아보기 [이 섹션](creating-decision-rules.md).
 
-## 캡핑 {#capping}
+## 한도 {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -172,7 +176,7 @@ ht-degree: 17%
 >
 >최대 가용량 카운터는 오퍼가 만료되거나 오퍼 시작 날짜 후 2년 중 먼저 도래하는 날짜에 재설정됩니다. 에서 오퍼의 날짜를 정의하는 방법 알아보기 [이 섹션](creating-personalized-offers.md#create-offer).
 
-### 최대 이벤트 {#capping-event}
+### 한도 이벤트 {#capping-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
@@ -280,7 +284,7 @@ ht-degree: 17%
 
   예를 들어 오퍼에 **이메일** 배치 및 **웹** 배치, 그리고 다음 위치에 캡핑 설정 **각 배치에 대해 프로필당 2개**&#x200B;를 설치한 후 각 프로필은 이메일 배치에 대해 최대 2회 오퍼를 수신하고 웹 배치에 대해 추가로 2회 오퍼를 수신할 수 있습니다.
 
-### 날짜 변경이 캡핑에 미치는 영향 {#capping-change-date}
+### 날짜 변경이 한도에 미치는 영향 {#capping-change-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"

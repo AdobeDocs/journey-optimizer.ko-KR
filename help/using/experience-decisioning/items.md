@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1034'
 ht-degree: 33%
 
 ---
@@ -45,7 +45,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
 의사 결정 항목을 만들기 전에 **결정 규칙** 결정 항목을 표시할 대상을 결정하는 조건을 설정하려면 를 선택합니다. [의사 결정 규칙을 만드는 방법을 알아봅니다](rules.md).
 
-## 첫 번째 결정 항목 만들기
+## 첫 결정 항목 만들기
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
@@ -76,6 +76,10 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
    1. 설정 **[!UICONTROL 우선 순위]** 프로필이 여러 항목에 적합한 경우 다른 항목과 비교하여 결정 항목. 우선 순위가 높을수록 해당 항목이 다른 항목보다 우선적으로 적용됩니다.
 
    ![](assets/item-attributes.png)
+
+   >[!NOTE]
+   >
+   >우선 순위는 정수 데이터 형식입니다. 정수 데이터 유형인 모든 속성에는 정수 값(소수점 없음)이 포함되어야 합니다.
 
 1. 사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 의사 결정 항목의 카탈로그 스키마에 정의됩니다. [카탈로그 작업 방법 알아보기](catalogs.md)
 
