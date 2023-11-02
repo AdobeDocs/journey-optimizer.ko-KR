@@ -9,7 +9,7 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
+source-git-commit: 40ac0915da75b0011899e336e5b0bacb5d166626
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 6%
@@ -42,7 +42,7 @@ ht-degree: 6%
 
 샌드박스 도구 를 사용하면 패키지 내보내기 및 가져오기를 활용하여 여러 샌드박스 간에 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함된 모든 객체는 동일한 샌드박스의 객체여야 합니다.
 
-이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
