@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 13%
+source-wordcount: '1356'
+ht-degree: 12%
 
 ---
 
@@ -47,13 +47,13 @@ ht-degree: 13%
 
 1. 추가 **[!UICONTROL 레이블]** (선택 사항).
 
-1. 다음에서 **[!UICONTROL 대상자]** 필드에서 여정을 입력할 Adobe Experience Platform 대상을 선택한 다음 을(를) 클릭합니다 **[!UICONTROL 저장]**.
-
-   목록에 표시되는 열을 사용자 정의하고 정렬할 수 있습니다.
+1. 다음에서 **[!UICONTROL 대상자]** 필드에서 여정을 입력할 Adobe Experience Platform 대상을 선택한 다음 을(를) 클릭합니다 **[!UICONTROL 저장]**. 을 사용하여 생성된 모든 Adobe Experience Platform 대상을 선택할 수 있습니다. [세그먼트 정의](../audience/creating-a-segment-definition.md).
 
    >[!NOTE]
    >
-   >다음을 보유한 개인만 **실현됨** 및 **기존 항목** 대상자 기여도 상태가 여정으로 들어갑니다. 대상을 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >또한 을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다. [대상자 구성](../audience/get-started-audience-orchestration.md) 또는 [csv 파일에서 업로드됨](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 이러한 기능은 현재 개인 베타로 사용할 수 있습니다.
+
+   목록에 표시되는 열을 사용자 정의하고 정렬할 수 있습니다.
 
    ![](assets/read-segment-selection.png)
 
@@ -62,6 +62,10 @@ ht-degree: 13%
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
+
+   >[!NOTE]
+   >
+   >다음을 보유한 개인만 **실현됨** 및 **기존 항목** 대상자 기여도 상태가 여정으로 들어갑니다. 대상을 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. 다음에서 **[!UICONTROL 네임스페이스]** 필드에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
 

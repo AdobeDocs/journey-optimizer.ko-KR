@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 92%
 
 ---
 
@@ -27,11 +27,15 @@ ht-degree: 100%
 >title="캠페인 대상자 선택"
 >abstract="이 목록에는 사용 가능한 모든 Adobe Experience Platform 대상자가 표시됩니다. 캠페인으로 타겟팅할 대상자를 선택합니다. 캠페인에 구성된 메시지는 선택한 대상자에 속한 모든 개인 사용자에게 전송됩니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)"
 
-[!DNL Journey Optimizer]의 **[!UICONTROL 대상자]** 메뉴에서 직접 실시간 고객 프로필 데이터를 사용하여 Adobe Experience Platform 대상자를 작성하고 활용하며 여정이나 캠페인에 사용할 수 있습니다.
-
-[Adobe Experience Platform Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko)에서 자세히 알아보세요.
+[!DNL Journey Optimizer]의 **[!UICONTROL 대상자]** 메뉴에서 직접 실시간 고객 프로필 데이터를 사용하여 Adobe Experience Platform 대상자를 작성하고 활용하며 여정이나 캠페인에 사용할 수 있습니다. [Adobe Experience Platform Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko)에서 자세히 알아보세요.
 
 ## [!DNL Journey Optimizer]에서 대상자 사용 {#segments-in-journey-optimizer}
+
+다음을 사용하여 생성된 Adobe Experience Platform 대상을 캠페인 및 여정에서 선택할 수 있습니다. [세그먼트 정의](../audience/creating-a-segment-definition.md).
+
+>[!NOTE]
+>
+>또한 을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다. [대상자 구성](../audience/get-started-audience-orchestration.md) 또는 [csv 파일에서 업로드됨](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 이러한 기능은 현재 개인 베타로 사용할 수 있습니다.
 
 **[!DNL Journey Optimizer]**&#x200B;에서 다양한 방법으로 대상자를 활용할 수 있습니다.
 
