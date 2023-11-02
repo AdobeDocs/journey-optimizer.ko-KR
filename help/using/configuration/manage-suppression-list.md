@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 제외, 목록, 바운스, 이메일, 최적화 도구, 격리
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 22%
+source-wordcount: '1595'
+ht-degree: 23%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 22%
 >[!NOTE]
 >
 >Adobe은 참여 및 메일링 평판에 유해한 것으로 입증된 알려진 잘못된 주소의 업데이트된 목록을 보관하고 이메일이 게재되지 않도록 합니다. 이 목록은 모든 Adobe 고객에게 공통으로 적용되는 글로벌 금지 목록에서 관리됩니다. 글로벌 금지 목록에 포함된 주소와 도메인 이름은 숨겨집니다. 게재 보고서에는 제외된 수신자 수만 표시됩니다.
+
+또한 Journey Optimizer을 활용할 수 있습니다 **비표시 REST API** 제외 및 허용 목록을 사용하여 보내는 메시지를 제어합니다. [Suppression REST API를 사용하여 작업하는 방법을 알아봅니다.](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
 
 ## 제외 목록 액세스 {#access-suppression-list}
 
@@ -89,7 +91,7 @@ ht-degree: 22%
 다음에서 **[!UICONTROL 비표시 목록]** 보기에서 비표시 규칙과 연결된 다시 시도 매개 변수를 편집할 수도 있습니다. **[!UICONTROL 비표시 규칙 편집]** 단추를 클릭합니다. 이 옵션을 사용하여 현재 샌드박스에 대한 재시도 임계값을 업데이트합니다. [다시 시도에 대해 자세히 알아보기](retries.md).
 
 
-## 비표시 목록에 주소 및 도메인 추가{#add-addresses-and-domains}
+## 금지 목록에 이메일 및 도메인 추가{#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
@@ -232,7 +234,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 그런 다음 다음을 사용하여 제외 목록에서 격리된 이메일 주소를 제거할 수 있습니다. **[!UICONTROL 삭제]** 단추를 클릭합니다.
 
-## 비표시 목록 다운로드 {#download-suppression-list}
+## 금지 목록 다운로드 {#download-suppression-list}
 
 <!--
 >[!CONTEXTUALHELP]

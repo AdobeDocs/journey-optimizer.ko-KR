@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 40ac0915da75b0011899e336e5b0bacb5d166626
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '750'
 ht-degree: 6%
 
 ---
@@ -62,6 +62,8 @@ Target 샌드박스에서 복사되는 객체는 고유하며, 기존 요소를 
 
 1. 소스 샌드박스에서 여정을 패키지로 추가합니다.
 1. 패키지를 대상 샌드박스로 내보냅니다.
+
+또한 Journey Optimizer을 활용할 수 있습니다 **개체 복사 서비스 REST API** 를 클릭하여 샌드박스 개체를 관리합니다. [Object Copy Service REST API를 사용하여 작업하는 방법을 알아봅니다.](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## 여정을 패키지로 추가{#export}
 

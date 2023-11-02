@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: ht
-source-wordcount: '1041'
-ht-degree: 100%
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+workflow-type: tm+mt
+source-wordcount: '1078'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,11 @@ ht-degree: 100%
 여정 또는 캠페인에서 메시지를 보낼 때 고객이 향후 커뮤니케이션에서 구독을 취소할 수 있도록 항상 확인해야 합니다. 구독이 취소되면 향후 마케팅 메시지 대상자에서 프로필이 자동으로 제거됩니다.
 
 **[!DNL Journey Optimizer]**&#x200B;는 이메일 및 SMS 메시지에서 옵트아웃을 관리하는 방법을 제공하지만, 푸시 알림은 수신자가 디바이스를 통해 직접 구독을 취소할 수 있으므로 별도의 작업이 필요하지 않습니다. 예를 들어, 앱을 다운로드하거나 사용하는 경우 알림을 중지하도록 선택할 수 있습니다. 마찬가지로 모바일 운영 체제를 통해 알림 설정을 변경할 수 있습니다.
+
+>[!NOTE]
+>
+>또한 Journey Optimizer을 활용할 수 있습니다 **비표시 REST API** 제외 및 허용 목록을 사용하여 보내는 메시지를 제어합니다. [Suppression REST API를 사용하여 작업하는 방법을 알아봅니다.](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
+
 
 다음 섹션에서 Journey Optimizer 이메일 및 SMS 메시지에서 옵트아웃을 관리하는 방법을 알아봅니다.
 
@@ -93,7 +98,7 @@ ht-degree: 100%
 >
 >프로필 데이터를 [데이터 모델링](../offers/ranking/ai-models.md)에 사용하는 데 대한 동의는 아직 [!DNL Journey Optimizer]에서 지원되지 않습니다.
 
-## 표현식 편집기에서 {#opt-out-expression-editor}
+### 표현식 편집기에서 {#opt-out-expression-editor}
 
 [표현식 편집기](../personalization/personalization-build-expressions.md) 자체는 동의 여부 확인이나 적용을 수행하지 않습니다. 메시지 게재 작업에 포함되지 않기 때문입니다.
 
