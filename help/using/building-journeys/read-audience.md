@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 13%
@@ -37,7 +37,7 @@ ht-degree: 13%
 
 * 현재, 대상 사용 [csv 파일에서 가져옴](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 다음의 결과물 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md) 인앱 여정은 비공개 베타로 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
-### 활동 구성 {#configuring-segment-trigger-activity}
+## 활동 구성 {#configuring-segment-trigger-activity}
 
 대상 읽기 활동을 구성하는 단계는 다음과 같습니다.
 
@@ -116,7 +116,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >
 >일회성 읽기 대상 여정은 여정 실행 후 30일 후에 완료됨 상태로 이동합니다. 예약된 대상자 읽기의 경우 마지막 읽기를 실행한 후 30일이 경과한 시점에 이동합니다.
 
-### 여정 테스트 및 게시 {#testing-publishing}
+## 여정 테스트 및 게시 {#testing-publishing}
 
 다음 **[!UICONTROL 대상자 읽기]** 활동을 사용하면 단일 프로필에서 여정을 테스트할 수 있습니다.
 
