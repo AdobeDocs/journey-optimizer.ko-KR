@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '347'
 ht-degree: 14%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 ➡️ [이 비디오에서 대상자를 만드는 방법을 알아봅니다.](#video-segment)
 
-1. 액세스 **[!UICONTROL 대상]** 메뉴를 클릭한 다음 **[!UICONTROL 대상자 만들기]** 단추를 클릭합니다.
+1. 다음에서 **[!UICONTROL 대상]** 메뉴에서 **[!UICONTROL 대상자 만들기]** 단추 및 선택 **[!UICONTROL 규칙 작성]**.
 
    ![](assets/create-segment.png)
 

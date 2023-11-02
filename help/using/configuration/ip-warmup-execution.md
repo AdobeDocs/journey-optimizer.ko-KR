@@ -11,7 +11,7 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 19%
@@ -190,7 +190,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >
 >각 실행은 실제 전송 시간보다 최소 12시간 전에 활성화되어야 합니다. 그렇지 않으면 세그먼테이션이 완료되지 않을 수 있습니다.
 
-실행을 활성화하면 여러 세그먼트가 자동으로 만들어집니다.
+실행을 활성화하면 여러 대상이 자동으로 만들어집니다.
 
 * 단계의 첫 번째 실행을 활성화하는 경우:
 
