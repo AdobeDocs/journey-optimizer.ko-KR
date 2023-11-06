@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -205,12 +205,12 @@ ht-degree: 96%
    + [인앱 채널 사전 요구 사항](using/in-app/inapp-configuration.md)
    + [인앱 메시지 만들기 ](using/in-app/create-in-app.md)
    + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
-   + [인앱 알림 확인 및 보내기](using/in-app/send-in-app.md)
+   + [인앱 알림 확인하고 보내기](using/in-app/send-in-app.md)
 + 푸시 알림 채널{#push}
    + [푸시 알림 시작](using/push/get-started-push.md)
    + [푸시 알림 만들기](using/push/create-push.md)
    + [푸시 알림 디자인](using/push/design-push.md)
-   + [푸시 알림 확인 및 보내기](using/push/send-push.md)
+   + [푸시 알림 확인하고 보내기](using/push/send-push.md)
    + 푸시 알림 구성{#push-config}
       + [푸시 알림 흐름](using/push/push-gs.md)
       + [푸시 알림 채널 구성](using/push/push-configuration.md)
@@ -218,15 +218,15 @@ ht-degree: 96%
 + SMS 채널{#sms}
    + [SMS 시작](using/sms/get-started-sms.md)
    + [SMS 메시지 만들기](using/sms/create-sms.md)
-   + [MMS 메시지 만들기](using/sms/create-mms.md)
-   + [SMS 확인 및 보내기](using/sms/send-sms.md)
+   + [MMS 메시지 만들기 ](using/sms/create-mms.md)
+   + [SMS 확인하고 보내기](using/sms/send-sms.md)
    + [SMS 옵트아웃 관리](using/sms/sms-opt-out.md)
    + [SMS 채널 구성](using/sms/sms-configuration.md)
    + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
 + 다이렉트 메일 {#direct-mail}
    + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)
    + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)
-   + [DM 메시지 확인 및 보내기](using/direct-mail/test-send-direct-mail.md)
+   + [다이렉트 메일 메시지 확인하고 보내기](using/direct-mail/test-send-direct-mail.md)
    + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
 + 웹 채널 {#web}
    + [웹 채널 시작하기](using/web/get-started-web.md)
@@ -301,10 +301,10 @@ ht-degree: 96%
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
-   + 콘텐츠 미리보기 및 테스트 {#preview-test}
-      + [미리보기 및 테스트 시작](using/content-management/preview-test.md)
+   + 콘텐츠 미리 보기 및 테스트 {#preview-test}
+      + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
       + [테스트 프로필 선택](using/content-management/test-profiles.md)
-      + [콘텐츠 미리보기](using/content-management/preview.md)
+      + [콘텐츠 미리 보기](using/content-management/preview.md)
       + [이메일 증명 보내기](using/content-management/proofs.md)
       + [이메일 렌더링 테스트](using/content-management/rendering.md)
       + [스팸 보고서 사용](using/content-management/spam-report.md)
