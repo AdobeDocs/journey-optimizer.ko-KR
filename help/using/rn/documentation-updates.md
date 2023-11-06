@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4010'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 94%
 
 ## 2023년 10월 {#oct-2023}
 
-* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2023년 10월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer] 2023년 10월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * [콘텐츠 템플릿](../content-management/content-templates.md), [조각](../content-management/fragments.md), [계산된 속성](../audience/computed-attributes.md), [다이렉트 메일](../direct-mail/get-started-direct-mail.md), [태그](../start/search-filter-categorize.md#tags), [의사 결정 관리 최적화 모델](../offers/ranking/personalized-optimization-model.md), [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md), [콘텐츠 실험](../campaigns/content-experiment.md) 등 몇 가지 주요 기능을 설명하는 GIF를 추가했습니다.
 * 스키마 만들기 프로세스에 Adobe Experience Platform 변화에 따른 사용자 인터페이스의 최신 업데이트를 반영하여 업데이트했습니다. [자세히 보기](../audience/creating-test-profiles.md)
 * 의사 결정 관리 가드레일을 가드레일 및 제한 사항 페이지에 추가했습니다. [자세히 보기](../start/guardrails.md#decision-management)
-* 헤더 매개 변수 섹션에 부재 중 알림 및 문제 응답이 처리되는 방법(에서 수신됨)을 반영하여 업데이트했습니다. **[!UICONTROL 오류 이메일]**). [자세히 보기](../email/email-settings.md#email-header)
-* 콘텐츠를 미리 보고 테스트하는 방법에 대한 새로운 섹션이 생성되었습니다. [자세히 보기](../content-management/preview-test.md)
-* 단일 페이지 애플리케이션 구현 페이지가 Experience Platform Web SDK Adobe 설명서로 이동되었습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
-* 한도 섹션은 의사 결정 관리 인터페이스의 오퍼 한도 설정과 관련된 레이블 변경 사항을 반영하도록 업데이트되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping)
-* 이메일에 다이내믹 콘텐츠 추가 를 업데이트했습니다. 변형을 삭제하는 방법에 대한 세부 정보를 추가했습니다. [자세히 보기](../personalization/dynamic-content.md#emails)
-* 최대 가용량 및 제한 구성의 예가 업데이트되었습니다. [자세히 보기](../configuration/external-systems.md)
-* 스칼라 배열에 대한 제한이 외부 데이터 소스 섹션에서 제거되었습니다. [자세히 보기](../datasource/external-data-sources.md)
-* 다중 채널 여정 사용 사례를 업데이트했습니다. [자세히 보기](../building-journeys/journeys-uc.md)
-* 새로운 Experience Platform 스키마 생성 프로세스를 반영하도록 Journey Optimizer 설명서 세트가 업데이트되었습니다.
+* 헤더 매개변수 섹션에 부재중 알림 및 시도 응답 처리 방식(**[!UICONTROL 오류 이메일]**&#x200B;로 수신)을 업데이트했습니다. [자세히 보기](../email/email-settings.md#email-header)
+* 콘텐츠를 미리 보고 테스트하는 방법에 대한 새 섹션을 만들었습니다. [자세히 보기](../content-management/preview-test.md)
+* 단일 페이지 애플리케이션 구현 페이지를 Experience Platform Web SDK 설명서로 옮겼습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko){target="_blank"}
+* 캡핑 섹션에 의사 결정 관리 인터페이스의 오퍼 캡핑과 관련된 레이블 변경 사항을 반영하여 업데이트했습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping)
+* 이메일에 다이내믹 콘텐츠 추가 섹션에 변형을 삭제하는 자세한 방법을 추가하여 업데이트했습니다. [자세히 보기](../personalization/dynamic-content.md#emails)
+* 캡핑 및 스로틀링 구성의 예시를 업데이트되었습니다. [자세히 보기](../configuration/external-systems.md)
+* 외부 데이터 소스 섹션에서 스칼라 배열에 대한 제한 사항을 삭제했습니다. [자세히 보기](../datasource/external-data-sources.md)
+* 멀티채널 여정 사용 사례를 업데이트했습니다. [자세히 보기](../building-journeys/journeys-uc.md)
+* Journey Optimizer 설명서 세트에 새로운 Experience Platform 스키마 만들기 프로세스를 반영하여 업데이트했습니다.
 
 ## 2023년 9월 {#september-2023}
 
@@ -48,7 +48,7 @@ ht-degree: 94%
 * 액세스 제어 설명서에 대한 링크가 업데이트되었습니다. [자세히 보기](../administration/permissions.md)
 * Adobe Experience Platform 데이터 수집 세부 사항으로 인앱 채널 사전 요구 사항이 업데이트되었습니다. [자세히 보기](../in-app/inapp-configuration.md)
 * 등급 공식 예시에 제공된 일부 식이 유효성 검사 오류를 방지하기 위해 업데이트되었습니다. [자세히 보기](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* 의사 결정 범위 정의 섹션에 AI 모델을 평가 기준 그룹에서 사용하는 경우 해당 그룹의 모든 평가 기준에서 동일한 특정 AI 모델과 함께 AI 등급 방법을 사용해야 한다는 경고가 추가되었습니다. 또한 평가 기준 그룹 하나에만 AI 모델을 사용할 수 있습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* 결정 범위 정의 섹션에 평가 기준 그룹에 AI 모델을 사용하는 경우 해당 그룹의 모든 평가 기준에는 동일한 특정 AI 모델 기반의 AI 등급 메소드를 사용해야 한다는 경고를 추가했습니다. 또한 평가 기준 그룹 하나에만 AI 모델을 사용할 수 있습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023년 8월 {#august-2023}
 
