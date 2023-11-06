@@ -8,9 +8,9 @@ level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->현재 Adobe을 구입한 조직에서는 DM 채널을 사용할 수 없습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
+>현재 Adobe **Healthcare Shield** 및 **Privacy and Security Shield** 추가 서비스를 구입한 조직에서는 [다이렉트 메일] 채널을 사용할 수 없습니다.
 
 다이렉트 메일은 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.
 
