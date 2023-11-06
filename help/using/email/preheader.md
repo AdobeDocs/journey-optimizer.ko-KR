@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer에 사전 헤더 추가
+title: Journey Optimizer에 프리 헤더 추가
 description: 이메일 콘텐츠 디자인 방법 알아보기
 feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 사전 머리글, 편집기, 요약, 이메일
+keywords: 프리 헤더, 편집기, 요약, 이메일
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 86%
 
    ![](assets/preheader_body.png)
 
-1. 다음에서 **[!UICONTROL 설정]** 탭에서 옆에 있는 개인화 아이콘을 클릭합니다. **[!UICONTROL 사전 머리글]** 컨텐츠를 추가할 필드입니다.
+1. **[!UICONTROL 설정]** 탭에서 **[!UICONTROL 프리 헤더]** 필드 옆에 있는 개인화 아이콘을 클릭하여 콘텐츠를 추가합니다.
 
    ![](assets/preheader_body_settings.png)
 
