@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 88%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer UI에서 주어진 배치에 대해 테스트 프로필에 게재할 오퍼를 시뮬레이션할 수 있습니다. 이를 통해 자격 제한 및 등급 알고리즘 등 의사 결정 논리를 프로덕션에 적용하기 전에 쉽게 확인할 수 있습니다. 기술 전문가 및 기술 전문가가 아닌 사용자도 신속하게 의사 결정 관리를 테스트하고 잠재적 문제를 해결할 수 있습니다.</p>
+<p>이제 Journey Optimizer UI에서 주어진 배치에 대해 테스트 프로필에 게재할 오퍼를 시뮬레이션할 수 있습니다. 이를 통해 자격 제한 및 등급 알고리즘 등 의사 결정 논리를 프로덕션에 적용하기 전에 쉽게 확인할 수 있습니다. 이 기능을 통해 기술 전문가 및 비전문가 사용자가 의사 결정 관리를 신속하게 테스트하고 잠재적 문제를 해결할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../offers/offer-activities/simulation.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -69,7 +69,7 @@ ht-degree: 88%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer UI 전체에서 찾을 수 있는 동일한 표현식 편집기 구성 요소를 사용하여 Adobe Experience Platform 프로필 속성 및 대상을 사용하여 오퍼의 콘텐츠를 개인화할 수 있습니다. </p>
+<p>이제 Adobe Experience Platform 프로필 속성 및 대상자를 사용하여 오퍼의 콘텐츠를 개인화할 수 있습니다. Journey Optimizer UI 전체에서 찾을 수 있는 동일한 표현식 편집기 구성 요소를 사용하여 간단하게 작업이 가능합니다. </p>
 <p>자세한 내용은 <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">세부 설명서</a>를 참고하십시오.</p>
 </td>
 </tr>
@@ -77,7 +77,7 @@ ht-degree: 88%
 </table>
 
 
-참조: [Adobe Experience Platform 10월 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=ko){target="_blank"} 추가 변경 사항.
+더 많은 변화에 대해 알아보려면 [Adobe Experience Platform 10월 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=ko){target="_blank"}도 참조하십시오.
 
 ### 개선 사항
 
@@ -184,7 +184,7 @@ ht-degree: 88%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer를 사용하여 모든 고객에게 최적의 시간에 푸시 또는 이메일을 자동으로 보냅니다. Adobe의 AI 서비스를 기반으로 하는 [전송 시간 최적화]는 기존의 오픈 및 클릭률 기록을 기반으로 참여를 극대화하기 위해 이메일 또는 푸시 메시지를 보내는 데 가장 적합한 시간을 예측합니다.</p>
+<p>Adobe Journey Optimizer를 사용하여 모든 고객에게 최적의 시간에 푸시 또는 이메일을 자동으로 보냅니다. Adobe의 AI 서비스를 기반으로 하는 [전송 시간 최적화]는 기존의 오픈 및 클릭률 기록을 기반으로 참여를 극대화하기 위해 이메일 또는 푸시 메시지를 보내기 가장 적합한 시간을 예측합니다.</p>
 <p>이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.</p>
 <p>자세한 내용은 <a href="../building-journeys/journeys-message.md#send-time-optimization">자세한 설명서</a>를 참조하세요.</p>
 </td>
@@ -266,12 +266,12 @@ ht-degree: 88%
 
 * **동적 헤더** - 이제 HTTP 헤더 매개 변수에서 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 여정 작업 HTTP 호출(예: 타임스탬프 또는 추적 ID)을 수신하는 통합 시스템에서 사용할 수 있습니다. [자세히 알아보기](../action/about-custom-action-configuration.md#url-configuration)
 * **동적 URL 경로** - 이제 사용자 지정 작업에 대해 동적 URL 경로를 설정할 수 있습니다. [자세히 알아보기](../action/about-custom-action-configuration.md#url-configuration)
-* 읽기 대상의 전체 전송률이 초당 메시지 17,000개에서 20,000개로 변경되었습니다. [자세히 알아보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 대상자 읽기의 전체 스로틀링 수가 초당 메시지 17,000개에서 20,000개로 변경되었습니다. [자세히 알아보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **사용자 인터페이스**
 
 * **검색** - 이제 모든 페이지에서 통합 Experience Cloud 검색 필드를 통해 직접 비즈니스 개체 및 도움말을 검색할 수 있습니다. [자세히 알아보기](../start/user-interface.md#unified-search)
-* **최근 항목** - 이제 Adobe Journey Optimizer 홈페이지에서 최근 항목 요소에 표시할 대상에 비즈니스 개체를 추가하여 확장했습니다. 이 업데이트를 사용하면 최근에 액세스한 항목에 메시지, 여정, 대상, 스키마, 데이터 세트, 데이터 소스, 이벤트, 작업, 소스 및 대상이 포함됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#passing-collection)
+* **최근 항목** - 이제 Adobe Journey Optimizer 홈페이지에서 최근 항목 요소에 표시할 대상에 비즈니스 개체를 추가하여 확장했습니다. 이 업데이트 이후에는 최근 액세스 항목에 [메시지], [여정], [대상자], [스키마], [데이터세트], [데이터 소스], [이벤트], [작업], [소스], [대상]이 포함됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#passing-collection)
 
 **콘텐츠 디자인**
 
@@ -280,7 +280,7 @@ ht-degree: 88%
 
 **개인화**
 
-* **표현식 편집기** - 이제 개인화를 정의할 때 폴백 값을 쉽게 추가할 수 있습니다. 프로필에 대한 개인화 필드가 비어 있으면 폴백 값이 표시됩니다. [자세히 알아보기](../personalization/functions/helpers.md)
+* **표현식 편집기** - 이제 개인화를 정의할 때 대체 값을 쉽게 추가할 수 있습니다. 프로필에 대한 개인화 필드가 비어 있으면 대체 값이 표시됩니다. [자세히 알아보기](../personalization/functions/helpers.md)
 
 **이메일 구성**
 
@@ -295,7 +295,7 @@ ht-degree: 88%
 
 * 메시지 탭 탐색에서 접근성 문제를 해결했습니다.
 * 이메일 디자이너 레이블의 현지화 문제를 해결했습니다.
-* 여정에서 두 개 이상의 노드를 선택하고 속성 창에서 &#39;삭제&#39;를 클릭할 때 발생하는 문제를 해결했습니다.
+* 여정에서 두 개 이상의 노드를 선택하고 속성 창에서 [삭제]를 클릭할 때 발생하는 문제를 해결했습니다.
 * 여정에 사용한 작업에 새 헤더를 추가할 수 없는 문제를 해결했습니다.
 * 이제 사용자 인터페이스에서 보다 명확한 경고를 통해 메시지 사전 설정을 만들지 못한 이유를 확인할 수 있습니다.
 
@@ -341,16 +341,16 @@ ht-degree: 88%
 
 **여정**
 
-* 동일한 샌드박스에서 동시에 실행되는 모든 읽기 대상의 전체 전송률은 초당 17,000개의 메시지로 제한됩니다. [자세히 보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 동일한 샌드박스에서 동시에 실행하는 모든 대상자 읽기의 전체 스로틀링 수는 초당 17,000개의 메시지로 제한됩니다. [자세히 보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * **캐시 기간** 필드가 데이터 소스 구성 창에서 제거되었습니다. [자세히 보기](../datasource/about-data-sources.md)
 * 이제 외부 데이터 소스의 경우 초당 최대 15회 호출할 수 있는 가용량 규칙이 자동으로 정의됩니다. [자세히 보기](../configuration/external-systems.md#capping)
 * 이제 실시간 여정의 여정 속성 화면에 게시 날짜와 여정을 게시한 사용자의 이름이 표시됩니다. [자세히 보기](../building-journeys/journey-gs.md#change-properties)
 * 여정 목록 화면에 여정 유형 필터를 추가했습니다. [자세히 보기](../start/user-interface.md#filter-lists)
-* 다음 **[!UICONTROL 조절률]** 대상자 읽기 활동에 매개 변수가 추가되었습니다. [자세히 보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* [대상자 읽기] 활동에 **[!UICONTROL 스로틀링 수]** 매개변수를 추가했습니다. [자세히 보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **미리 보기 및 테스트**
 
-* 이제 ID 및 네임스페이스가 **[!UICONTROL 미리 보기]** 화면. [자세히 보기](../content-management/preview-test.md#preview-your-messages)
+* 이제 신원과 네임스페이스가 **[!UICONTROL 미리보기]** 화면에 표시됩니다. [자세히 보기](../content-management/preview-test.md#preview-your-messages)
 * 이제 교정용 테스트 이메일 수가 10개로 제한됩니다.
 * 교정을 보낼 때 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](../content-management/preview-test.md#send-proofs)
 
@@ -363,6 +363,6 @@ ht-degree: 88%
 * 일괄 이메일 게재 시 중복 메시지를 게재하는 문제를 해결했습니다.
 * 이제 다시 시도 기간이 끝나고 이메일 전송을 수행하지 않을 때 그에 따라 이벤트가 생성됩니다.
 * [PTR 레코드] 화면에서 IP 정보가 누락되는 문제를 해결했습니다.
-* 이제 표현식 편집기 내 오퍼 레일의 현지화가 구현되었습니다.
+* 이제 [표현식 편집기] 내 오퍼 레일의 지역화가 구현되었습니다.
 * 정보 팝업의 간격이 잘못 설정된 문제를 해결했습니다.
 * [이메일 디자이너]에서 HTML 파일을 업로드할 때 `background-image` 속성이 있는 내부 스타일 시트를 지원하지 않는 문제를 해결했습니다.
