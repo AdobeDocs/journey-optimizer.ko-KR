@@ -12,11 +12,11 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
-# 실험에 대한 보고 구성 {#reporting-configuration}
+# 실험용 보고 구성 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"

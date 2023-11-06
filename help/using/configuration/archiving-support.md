@@ -30,7 +30,7 @@ HIPAA와 같은 규정에서는 [!DNL Journey Optimizer] 개인에게 전송된 
 >
 >[!DNL Journey Optimizer] 은(는) SMS 보관 요구 사항에 대한 지원을 소유하지 않습니다. 전용 아카이브 지원을 위해 SMS 공급업체(Synch 또는 Twilio)와 협력하십시오.
 
-## 이메일에 BCC를 사용하는 방법 {#bcc-email}
+## 이메일용 BCC 사용 방법 {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"

@@ -12,7 +12,7 @@ exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 �
 
    ![](assets/conditions-preview.png)
 
-## 이메일에 다이내믹 콘텐츠 추가 {#emails}
+## 이메일에 동적 콘텐츠 추가 {#emails}
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"

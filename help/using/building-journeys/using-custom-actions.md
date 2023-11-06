@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 사용자 지정 작업 사용
+title: 사용자 정의 작업 사용
 description: 사용자 지정 작업을 사용하는 방법 알아보기
 feature: Journeys, Actions, Custom Actions
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
-# 사용자 지정 작업 사용 {#use-custom-actions}
+# 사용자 정의 작업 사용 {#use-custom-actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"

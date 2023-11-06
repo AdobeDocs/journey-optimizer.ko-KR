@@ -1,5 +1,5 @@
 ---
-title: 순위 방법
+title: 순위 지정 방법
 description: 등급 메서드를 사용하여 작업하는 방법을 알아봅니다.
 feature: Experience Decisioning, Ranking
 topic: Integrations
@@ -12,11 +12,11 @@ exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 62%
+ht-degree: 64%
 
 ---
 
-# 순위 방법 {#rankings}
+# 순위 지정 방법 {#rankings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"

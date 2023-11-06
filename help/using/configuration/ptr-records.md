@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: PTR 레코드
+title: PTR 기록
 description: PTR 레코드 관리 방법 알아보기
 feature: Subdomains, Channel Configuration
 topic: Administration
@@ -12,11 +12,11 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
-# PTR 레코드 {#ptr-records}
+# PTR 기록 {#ptr-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"

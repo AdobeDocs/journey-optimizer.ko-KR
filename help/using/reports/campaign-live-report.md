@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -325,7 +325,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 다음 **[!UICONTROL 요소별 상호 작용]** 표에서는 웹 페이지의 다양한 요소에 대한 방문자의 참여도와 관련된 기본 정보를 자세히 설명합니다.
 +++
 
-## 다이렉트 메일 탭 {#direct-mail-tab}
+## DM 탭 {#direct-mail-tab}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"

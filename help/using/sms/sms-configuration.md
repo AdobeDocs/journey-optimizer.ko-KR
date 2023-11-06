@@ -32,7 +32,7 @@ SMS 서비스 사용에는 해당 SMS 공급자의 추가 약관이 적용됩니
 >
 >SMS 하위 도메인에 액세스하고 편집하려면 **[!UICONTROL SMS 하위 도메인 관리]** 프로덕션 샌드박스에 대한 권한.
 
-## 새 API 자격 증명 만들기 {#create-api}
+## API 자격 증명 만들기 {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"

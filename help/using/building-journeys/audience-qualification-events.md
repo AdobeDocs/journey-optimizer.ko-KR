@@ -12,13 +12,13 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
 # 대상 자격 이벤트 {#segment-qualification}
 
-## 대상 자격 이벤트 기본 정보{#about-segment-qualification}
+## 대상자 자격 이벤트 정보{#about-segment-qualification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"

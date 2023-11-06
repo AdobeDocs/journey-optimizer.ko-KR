@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 사용자 지정 작업 구성
+title: 사용자 정의 작업 구성
 description: 사용자 지정 작업을 구성하는 방법 알아보기
 feature: Journeys, Actions, Custom Actions
 topic: Administration
@@ -12,11 +12,11 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1278'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
-# 사용자 지정 작업 구성 {#configure-an-action}
+# 사용자 정의 작업 구성 {#configure-an-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
@@ -37,7 +37,7 @@ ht-degree: 14%
 
 ## 모범 사례{#custom-action-enhancements-best-practices}
 
-모든 사용자 지정 작업에 대해 30초 동안 150,000개의 호출 제한 이 정의됩니다. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 적절한 읽기 비율(사용자 지정 작업 사용 시 5000개 프로필/초)을 정의하여 대상 기반 여정에서 이를 고려해야 합니다. 필요한 경우 최대 가용량/최대 가용량 API를 통해 더 큰 최대 가용량 또는 최대 가용량 제한을 정의하여 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
+모든 사용자 정의 작업에 대해 30초간 150,000개의 호출 한도 제한이 정의됩니다. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 대상자 기반 여정에서 이를 고려하여 적절한 읽기 속도(사용자 정의 작업 사용 시 프로필 5,000개/초)를 정의해야 합니다. 필요한 경우 Capping/Throttling API를 통해 빈도 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
 
 다음과 같은 다양한 이유로 사용자 지정 작업으로 공개 끝점을 타깃팅해서는 안 됩니다.
 

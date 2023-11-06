@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 * [웹 캠페인 모니터링](monitor-web-campaigns.md)
 
-## 웹 디자이너 작업 {#work-with-web-designer}
+## 웹 디자이너를 사용하여 작업 {#work-with-web-designer}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
@@ -152,7 +152,7 @@ ht-degree: 17%
 
 1. 이를 사용하여 시각적 편집기 내에서 상위 요소, 동위 요소 또는 하위 요소로 쉽게 이동할 수 있습니다.
 
-### 찾아보기 모드로 전환 {#browse-mode}
+### 검색 모드로 전환 {#browse-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"

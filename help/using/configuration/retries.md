@@ -32,7 +32,7 @@ ht-degree: 13%
 
 다시 시도한 후 게재가 성공하면 주소의 오류 카운터가 다시 초기화됩니다.
 
-## 임계값 편집 다시 시도 {#edit-retry-threshold}
+## 재시도 임계값 버전 {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"

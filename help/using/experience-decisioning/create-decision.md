@@ -12,7 +12,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 19%
 >
 >다음에서 [!DNL Journey Optimizer] 사용자 인터페이스, 의사 결정 정책은 의사 결정으로 레이블이 지정됩니다.<!--but they are decision policies. TBC if this note is needed-->.
 
-## 코드 기반 캠페인에 의사 결정 정책 추가 {#add-decision}
+## 코드 기반 캠페인에 결정 정책 추가 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"

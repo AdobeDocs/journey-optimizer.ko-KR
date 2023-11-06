@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -66,7 +66,7 @@ Android 버전에서는 이미지 아이콘과 확장된 알림에 대한 이미
 
 미디어가 추가되면 알림 본문의 오른쪽에 표시됩니다.
 
-## 단추 추가 {#add-buttons-push}
+## 버튼 추가 {#add-buttons-push}
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"

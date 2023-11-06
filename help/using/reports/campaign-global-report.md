@@ -506,7 +506,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 다음 **[!UICONTROL 요소별 상호 작용]** 표에서는 웹 페이지의 다양한 요소에 대한 방문자의 참여도와 관련된 기본 정보를 자세히 설명합니다.
 +++
 
-## 다이렉트 메일 탭 {#direct-mail-global}
+## DM 탭 {#direct-mail-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_sending_statistics"

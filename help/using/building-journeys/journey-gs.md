@@ -43,7 +43,7 @@ ht-degree: 26%
 
    ![](assets/custom2.png)
 
-## 액세스 여정 {#journey-access}
+## 여정 액세스 {#journey-access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"

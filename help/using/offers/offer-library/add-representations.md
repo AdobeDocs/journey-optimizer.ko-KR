@@ -1,5 +1,5 @@
 ---
-title: 오퍼에 표시 추가
+title: 오퍼에 표현 추가
 description: 오퍼에 표시를 추가하는 방법을 알아봅니다
 feature: Decision Management
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
-# 오퍼에 표시 추가 {#add-representations}
+# 오퍼에 표현 추가 {#add-representations}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"

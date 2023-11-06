@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
 source-wordcount: '2340'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -192,7 +192,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 이메일 표면 제출 시 오류가 발생하면 입력한 주소의 하위 도메인에 대해 MX 레코드가 구성되지 않은 것입니다. 해당 MX 레코드를 구성하려면 관리자에게 문의하거나 다른 주소를 유효한 MX 레코드 구성과 함께 사용하십시오.
 
-## 억제된 이메일 주소로 보내기 {#send-to-suppressed-email-addresses}
+## 표시되지 않는 이메일 주소로 보내기 {#send-to-suppressed-email-addresses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
@@ -250,7 +250,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 의 여정 또는 캠페인에서 시드 목록을 사용하는 방법 알아보기 [이 섹션](../configuration/seed-lists.md#use-seed-list).
 
-## 이메일 재시도 매개 변수 {#email-retry}
+## 이메일 재시도 매개변수 {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"

@@ -12,7 +12,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 26%
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 이제 사용할 준비가 되었습니다. [결정](create-decision.md)
 
-## 등급 방법 선택 {#select-ranking-method}
+## 순위 지정 방법 선택 {#select-ranking-method}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_ranking"

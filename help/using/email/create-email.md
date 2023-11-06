@@ -20,7 +20,7 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
->title="이메일 만들기"
+>title="이메일 작성"
 >abstract="세 가지 간단한 단계로 이메일 매개변수를 정의합니다."
 
 에서 이메일을 만들려면 [!DNL Journey Optimizer]을(를) 통해 아래 단계를 수행합니다.

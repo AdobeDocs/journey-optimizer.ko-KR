@@ -70,7 +70,7 @@ ht-degree: 28%
 
 다음에서 **콘텐츠** 탭에서 알림의 콘텐츠와 스타일을 정의하고 개인화할 수 있습니다. **닫기** 단추를 클릭합니다. 인앱 알림에 미디어를 추가하고 이 탭에서 작업 버튼을 추가할 수도 있습니다.
 
-### 닫기 단추 {#close-button}
+### 닫기 버튼 {#close-button}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_close"
@@ -113,7 +113,7 @@ ht-degree: 28%
 
 +++
 
-### 머리글 및 본문 {#title-body}
+### 헤더 및 본문 {#title-body}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_content"
