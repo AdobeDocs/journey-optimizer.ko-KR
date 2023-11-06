@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 26%
 <tbody>
 <tr>
 <td>
-<p>샌드박스 도구를 사용하면 패키지 내보내기 및 가져오기를 활용하여 여러 샌드박스 간에 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함된 모든 객체는 동일한 샌드박스의 객체여야 합니다.</p>
+<p>샌드박스 도구를 사용하면 패키지 내보내기 및 가져오기를 활용하여 여러 샌드박스 간에 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -67,13 +67,13 @@ ht-degree: 26%
 <table>
 <thead>
 <tr>
-<th><strong>SMS(베타)의 MMS(멀티미디어 메시지 서비스)</strong><br/></th>
+<th><strong>SMS를 통한 MMS(멀티미디어 메시지 서비스)(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 SMS 채널을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 전송하여 고객과 이미지, GIF 또는 비디오를 공유할 수 있으므로 커뮤니케이션을 향상시킬 수 있습니다. 이 기능은 현재 Sinch의 Beta에서만 사용할 수 있습니다.</p>
+<p>이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 단, 이 기능은 현재 Sinch에서만 Beta 버전으로 사용할 수 있습니다.</p>
 <!--img src="assets/channel-reports.png"/-->
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -86,12 +86,12 @@ ht-degree: 26%
 
 **대상자**
 
-* 이제 CSV 파일에서 업로드한 대상을 여정 및 캠페인으로 타깃팅할 수 있습니다.
-* 이제 대상 구성을 통해 만든 대상을 타기팅하고 여정에서 데이터 보강 속성을 활용할 수 있습니다.
+* 이제 CSV 파일에서 여정 및 캠페인으로 업로드한 대상자를 타겟팅할 수 있습니다.
+* 이제 대상자 구성을 통해 만든 대상자를 타겟팅하고 [여정]에서 데이터 보강 속성을 활용할 수 있습니다.
 
 >[!AVAILABILITY]
 >
->이러한 기능은 현재 개인 베타로 사용할 수 있습니다.
+>이 기능은 현재 Private Beta로 사용할 수 있습니다.
 
 <!--
 **Spam scoring for emails**
@@ -101,20 +101,20 @@ ht-degree: 26%
 **캠페인**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* 캠페인 중 하나에서 오류가 발생하면 이제 캠페인 목록에 캠페인 상태와 함께 경고 아이콘이 표시됩니다.
+* 이제 캠페인 중 하나에서 오류가 발생하면 캠페인 목록의 캠페인 상태 옆에 경고 아이콘이 표시됩니다.
 
 **여정**
 
-* 모든 대기 시간에 정의할 수 있는 최대 기간은 이제 30일이 아니라 29일입니다. 이는 다음 경우에 적용됩니다.
+* 모든 대기 시간에 정의할 수 있는 최대 기간이 기존 30일에서 29일로 변경되었습니다. 이것은 다음에 적용됩니다.
 
-   * 다음 **총 시간** 의 필드 [대기 활동](../building-journeys/wait-activity.md)
-   * 다음 **재등록 대기 기간** 위치: [여정 속성](../building-journeys/journey-gs.md#entrance)
-   * 다음 **대기** 의 시간 초과 정의에 있는 필드 [일반](../building-journeys/general-events.md#events-specific-time) 및 [반응](../building-journeys/reaction-events.md) 이벤트.
+   * [대기 활동](../building-journeys/wait-activity.md)의 **시간** 필드
+   * [여정 속성](../building-journeys/journey-gs.md#entrance)의 **재진입 대기 기간** 
+   * [일반](../building-journeys/general-events.md#events-specific-time) 및 [반응](../building-journeys/reaction-events.md) 이벤트의 시간 초과 정의 내 **대기 시간** 필드.
 
-**채널 구성의 동의**
+**채널 구성 내 동의 정책**
 
-* 이제 채널 표면 수준에서 마케팅 작업을 선택할 수 있습니다. 표면에서 사용할 경우 고객의 선호도를 존중하기 위해 해당 마케팅 액션과 연결된 모든 동의 정책을 활용합니다.
+* 이제 채널 표면 수준에서 마케팅 작업을 선택할 수 있습니다. 표면에서 사용할 경우 고객의 동의 여부를 존중하기 위해 해당 마케팅 작업과 연결된 모든 동의 정책을 활용합니다.
 
 **의사 결정 관리**
 
-* 의사 결정 관리 인터페이스의 오퍼 한도 설정과 관련된 몇 가지 레이블이 업데이트되었습니다.
+* 의사 결정 관리 인터페이스의 오퍼 캡핑 설정과 관련된 몇 가지 레이블을 업데이트했습니다.
