@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 19%
+source-wordcount: '1342'
+ht-degree: 17%
 
 ---
 
@@ -37,7 +37,9 @@ ht-degree: 19%
 
 ## 모범 사례{#custom-action-enhancements-best-practices}
 
-모든 사용자 정의 작업에 대해 30초간 150,000개의 호출 한도 제한이 정의됩니다. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 대상자 기반 여정에서 이를 고려하여 적절한 읽기 속도(사용자 정의 작업 사용 시 프로필 5,000개/초)를 정의해야 합니다. 필요한 경우 Capping/Throttling API를 통해 빈도 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
+모든 사용자 지정 작업에 대해 1분 동안 30만 번의 최대 호출 제한이 정의됩니다. 또한 기본 캡핑은 호스트 및 샌드박스 별로 수행됩니다. 예를 들어 샌드박스에서 동일한 호스트를 사용하는 두 개의 엔드포인트가 있는 경우 (예: `https://www.adobe.com/endpoint1` 및 `https://www.adobe.com/endpoint2`), 캡핑은 adobe.com 호스트 아래의 모든 끝점에 적용됩니다. &quot;endpoint1&quot;과 &quot;endpoint2&quot;는 동일한 최대 가용량 구성을 공유하며 한 끝점이 한도에 도달하면 다른 끝점에 영향을 줍니다.
+
+이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 대상자 기반 여정에서 이를 고려하여 적절한 읽기 속도(사용자 정의 작업 사용 시 프로필 5,000개/초)를 정의해야 합니다. 필요한 경우 Capping/Throttling API를 통해 빈도 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
 
 다음과 같은 다양한 이유로 사용자 지정 작업으로 공개 끝점을 타깃팅해서는 안 됩니다.
 
