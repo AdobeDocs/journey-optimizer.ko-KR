@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,12 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 1. 글로벌 보고서에서 특정 데이터를 타겟팅할 시작 및 종료 시간을 선택합니다.
 
    ![](assets/report_modify_1.png)
+
+1. 여러 개의 구성이 포함된 여정 보고서의 경우 **[!UICONTROL 작업]**, 특정 선택 **[!UICONTROL 작업]** 드롭다운 메뉴에서 을(를) 선택합니다.
+
+1. 하나 또는 여러 개의 반복 메시지만 타겟팅하려면 **[!UICONTROL 실행 시간]** 드롭다운.
+
+   ![](assets/report_modify_12.png)
 
 1. 토글 막대를 사용하여 보고서에서 테스트 이벤트를 제외하려면 선택합니다. 테스트 이벤트에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../building-journeys/testing-the-journey.md).
 

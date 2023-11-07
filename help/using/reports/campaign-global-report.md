@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '3192'
-ht-degree: 25%
+source-wordcount: '3357'
+ht-degree: 24%
 
 ---
 
@@ -173,6 +173,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 다음 **[!UICONTROL 이메일 전송 통계]** 그래프는 이메일의 성공 여부를 자세히 설명합니다.
 
+* **[!UICONTROL 실행 시간]**: 반복 이메일을 실행할 때마다 시작 시간입니다. 하나 또는 여러 개의 반복 이메일만 타겟팅하려면 **[!UICONTROL 실행 시간]** 드롭다운.
+
 * **[!UICONTROL 타깃팅됨]**: 전송 프로세스 중에 처리된 총 메시지 수입니다.
 
 * **[!UICONTROL 전송됨]**: 이메일의 총 전송 수입니다.
@@ -194,6 +196,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL 제외됨]**: Adobe Journey Optimizer에서 제외된 프로필 수입니다.
 
 다음 **[!UICONTROL 이메일 - 추적 통계]** 위젯에는 이메일에 대한 프로필 활동에 사용 가능한 데이터가 포함되어 있습니다.
+
+* **[!UICONTROL 실행 시간]**: 반복 이메일을 실행할 때마다 시작 시간입니다. 하나 또는 여러 개의 반복 이메일만 타겟팅하려면 **[!UICONTROL 실행 시간]** 드롭다운.
 
 * **[!UICONTROL 열림]**: 이메일을 연 횟수입니다.
 
@@ -243,7 +247,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >
 > 다음 **[!UICONTROL 이메일 - 상위 수신자 도메인]** 위젯의 정확도는 99.95%입니다.
 
-다음 **[!UICONTROL 최적화 및 비최적화]** 그래프는 최적화 여부에 관계없이 메시지와 관련된 기본 정보를 자세히 설명합니다.
+다음 **[!UICONTROL 이메일 - 최적화 대 일반]** 그래프는 최적화 여부에 관계없이 메시지와 관련된 기본 정보를 자세히 설명합니다.
 
 * **[!UICONTROL 전송됨]**: 총 전송 수입니다.
 
@@ -251,7 +255,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 클릭수]**: 이메일에서 콘텐츠를 클릭한 횟수입니다.
 
-다음 **[!UICONTROL 전송 시간 최적화]** 전송 방법에 따라 이메일의 성공 여부를 세부적으로 설명합니다(최적화 또는 일반).
+다음 **[!UICONTROL 이메일 - 전송 시간 최적화]** 전송 방법에 따라 이메일의 성공 여부를 세부적으로 설명합니다(최적화 또는 일반).
 
 * **[!UICONTROL 전달됨]**: 성공적으로 전송된 메시지 수와 총 전송된 메시지 수
 
@@ -337,7 +341,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++푸시 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
 
-다음 **[!UICONTROL 푸시 알림 - 전송 통계]** 표에서 푸시 알림과 관련된 기본 정보를 자세히 설명합니다.
+다음 **[!UICONTROL 푸시 알림 - 전송 통계]** 표에서는 푸시 알림과 관련된 기본 정보를 자세히 설명합니다.
+
+* **[!UICONTROL 실행 시간]**: 되풀이하는 푸시 알림의 모든 실행 시작 시간입니다. 하나 또는 여러 개의 반복 푸시 알림만 타겟팅하려면 **[!UICONTROL 실행 시간]** 드롭다운.
 
 * **[!UICONTROL 타깃팅됨]**: 분석 중에 처리된 총 메시지 수입니다.
 
@@ -358,6 +364,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL 제외됨]**: Adobe Journey Optimizer에서 제외된 프로필 수입니다.
 
 다음 **[!UICONTROL 푸시 - 추적 통계]** 푸시 알림에 대한 프로필 활동에 사용 가능한 데이터를 포함합니다.
+
+* **[!UICONTROL 실행 시간]**: 되풀이하는 푸시 알림의 모든 실행 시작 시간입니다. 하나 또는 여러 개의 반복 푸시 알림만 타겟팅하려면 **[!UICONTROL 실행 시간]** 드롭다운.
 
 * **[!UICONTROL 열림]**: 푸시 알림이 열린 횟수입니다.
 
@@ -446,6 +454,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 다음 **[!UICONTROL SMS - 전송 통계]** 표에서 SMS 메시지의 성공 여부를 확인할 수 있습니다.
 
+* **[!UICONTROL 실행 시간]**: 반복 SMS 메시지의 모든 실행 시작 시간입니다. 하나 또는 여러 개의 반복 SMS 메시지만 타겟팅하려면 **[!UICONTROL 실행 시간]** 드롭다운.
+
 * **[!UICONTROL 타깃팅됨]**: 타겟 프로필로 적합한 사용자 프로필 수입니다.
 
 * **[!UICONTROL 제외됨]**: 타겟팅된 프로필에서 제외되고 메시지를 받지 못한 사용자 프로필 수입니다.
@@ -530,6 +540,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 +++DM 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
 
 다음 **[!UICONTROL DM - 전송 통계]** dm의 성공 여부는 다음 표에 자세히 설명되어 있습니다.
+
+* **[!UICONTROL 실행 시간]**: 되풀이하는 DM의 모든 실행 시작 시간. 하나 또는 여러 개의 반복 DM만 타겟팅하려면 **[!UICONTROL 실행 시간]** 드롭다운.
 
 * **[!UICONTROL 타깃팅됨]**: 이 DM의 대상 프로필로 적합한 사용자 프로필 수입니다.
 

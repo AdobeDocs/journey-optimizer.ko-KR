@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1100'
 ht-degree: 9%
 
 ---
@@ -89,6 +89,11 @@ ht-degree: 9%
   <tr> 
    <td> 오류율<br/> </td> 
    <td> 게재 중에 발생하여 보내지 못하는 오류의 백분율로, 보낸 이메일과 비교됩니다.<br/> </td> 
+</tr>
+</tr> 
+  <tr> 
+   <td> 오류 원인<br/> </td> 
+   <td> 오류의 특정 원래 원인 이름. <a href="error-list.md">오류 원인에 대해 자세히 알아보기</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> 제외됨<br/> </td> 
@@ -332,7 +337,11 @@ ht-degree: 9%
   <tr> 
    <td> 오류율<br/> </td> 
    <td> 게재 중에 발생하여 보내지 못하는 오류의 백분율과 전송된 푸시 알림의 백분율입니다.<br/> </td> 
-</tr> 
+</tr>
+  <tr> 
+   <td> 오류 원인<br/> </td> 
+   <td> 오류의 특정 원래 원인 이름. <a href="error-list.md">오류 원인에 대해 자세히 알아보기</a>.<br/> </td> 
+</tr>
   <tr> 
    <td> 제외됨<br/> </td> 
    <td> Adobe Journey Optimizer에서 제외된 프로필 수입니다.<br/> </td> 
@@ -356,7 +365,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-### 랜딩 페이지 지표 {#landing-page-metrics}
+## 랜딩 페이지 지표 {#landing-page-metrics}
 
 <table> 
  <thead> 
