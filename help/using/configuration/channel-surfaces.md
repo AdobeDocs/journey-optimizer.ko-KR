@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 8%
@@ -27,7 +27,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
-> * 채널 서피스를 생성, 편집 및 삭제하려면 [채널 표면 관리](../administration/high-low-permissions.md#manage-channel-surface) 권한.
+> * 채널 서피스를 생성, 편집 및 삭제하려면 [메시지 사전 설정 관리](../administration/high-low-permissions.md#administration-permissions) 권한.
 >
 > * 다음을 수행해야 합니다. [이메일 구성](../email/get-started-email-config.md), [푸시 구성](../push/push-configuration.md) 및 [SMS 구성](../sms/sms-configuration.md) 채널 서피스를 생성하기 전 단계입니다.
 
@@ -47,7 +47,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="채널 표면 설정"
->abstract="여정 또는 캠페인에서 이메일과 같은 작업을 만들 수 있도록 먼저 메시지에 필요한 모든 기술 설정을 정의하는 채널 표면을 만들어야 합니다. 채널 표면을 만들고, 편집하고 삭제하려면 채널 표면 관리 권한이 있어야 합니다."
+>abstract="여정 또는 캠페인에서 이메일과 같은 작업을 만들 수 있도록 먼저 메시지에 필요한 모든 기술 설정을 정의하는 채널 표면을 만들어야 합니다. 채널 표면을 생성, 편집 및 삭제하려면 메시지 사전 설정 관리 권한이 있어야 합니다."
 
 채널 표면을 만들려면 다음 단계를 수행합니다.
 

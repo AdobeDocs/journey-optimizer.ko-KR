@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, PTR, 레코드, DNS, 도메인, 메일
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 10%
+source-wordcount: '777'
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="하위 도메인의 PTR 기록"
->abstract="Journey Optimizer에서 하위 도메인이 Adobe에 위임되면 PTR 기록이 자동으로 만들어지고 이 하위 도메인에 연결됩니다."
+>abstract="첫 번째 하위 도메인이 Journey Optimizer의 Adobe에 위임되면 PTR 기록이 자동으로 생성됩니다."
 
 ## PTR 레코드 기본 정보 {#about-ptr-records}
 
@@ -36,7 +36,7 @@ PTR 기록을 사용하여 수신 메일 서버는 해당 IP 주소가 서버가
 
 ## 하위 도메인의 PTR 레코드 액세스 {#access-ptr-records}
 
-한 번 [하위 도메인이 위임됨](delegate-subdomain.md) Adobe Journey Optimizer에서 PTR 기록이 자동으로 생성되고 이 하위 도메인과 연결됩니다. 다음에서 액세스할 수 있습니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 이메일 구성]** > **[!UICONTROL PTR 레코드]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+한 번 [위임](delegate-subdomain.md) Adobe 대상 첫 번째 하위 도메인 [!DNL Journey Optimizer]: IP에 대해 PTR 기록이 자동으로 생성됩니다. 다음에서 액세스할 수 있습니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 이메일 구성]** > **[!UICONTROL PTR 레코드]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](assets/ptr-records.png)
 

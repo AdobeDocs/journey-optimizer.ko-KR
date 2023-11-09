@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -288,20 +288,6 @@ ht-degree: 0%
 
 ## 채널 구성 리소스 {#administration-permissions}
 
-* **[!DNL Manage channel surface]** 높은 수준 권한을 사용하면 샌드박스 수준에서 채널 간 채널 표면을 만들고, 편집하고, 삭제할 수 있습니다.
-
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
-
-   * Journey Optimizer 관련:
-      * messages_presets.read
-      * messages_presets.write
-      * messages_presets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
-      * mobile_setting.read (Adobe Experience Platform Launch에서)
-
-+++
-
 * **[!DNL Manage IP pools]** 높은 수준의 권한을 통해 사용자는 선호도 정의를 만들고, 편집하고, 삭제할 수 있습니다.
 
 +++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
@@ -341,7 +327,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage messages presets]** 높은 수준의 권한을 통해 사용자는 콘텐츠 브랜딩을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.
+* **[!DNL Manage messages presets]** 높은 수준 권한을 사용하면 샌드박스 수준에서 채널 간 채널 표면을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.
 
 +++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
@@ -353,7 +339,7 @@ ht-degree: 0%
       * IP_pools.read
 
    * 데이터 수집별:
-      * Mobile_setting.read
+      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
 +++
 
@@ -390,7 +376,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage subdomains delegation]** 높은 수준의 권한을 통해 사용자는 하위 도메인 위임을 만들고, 편집하고, 삭제할 수 있습니다(IP 풀 포함).
+* **[!DNL Manage subdomains delegations]** 높은 수준의 권한을 통해 사용자는 하위 도메인 위임을 만들고, 편집하고, 삭제할 수 있습니다(IP 풀 포함).
 
 +++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
    * Journey Optimizer 관련:
