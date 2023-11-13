@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, PTR, 레코드, DNS, 도메인, 메일
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '773'
 ht-degree: 7%
 
 ---
@@ -40,7 +40,7 @@ PTR 기록을 사용하여 수신 메일 서버는 해당 IP 주소가 서버가
 
 ![](assets/ptr-records.png)
 
-이 목록은 아래 구문을 사용하여 각 위임된 하위 도메인에 대해 생성된 PTR 레코드를 보여 줍니다.
+이 목록에는 아래 구문을 사용하여 생성된 PTR 기록이 표시됩니다.
 
 * &quot;r&quot; for record,
 * IP 주소의 마지막 두 숫자에 대해 &quot;xx&quot;
