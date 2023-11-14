@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 구성 요소, 이메일 디자이너, 편집기, 이메일
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 57%
+source-wordcount: '1405'
+ht-degree: 54%
 
 ---
 
@@ -167,11 +167,17 @@ ht-degree: 57%
 
    ![](assets/email_designer_image_content.png)
 
-1. **[!UICONTROL 찾아보기]**&#x200B;를 클릭하여 자산에서 이미지 파일을 선택합니다.
+1. 다음에서 **[!UICONTROL 설정]** 탭을 클릭하고 **[!UICONTROL 찾아보기]** 에셋에서 이미지 파일을 선택하거나 **[!UICONTROL 미디어 가져오기]** Assets Essentials에 에셋을 업로드하려면
 
    에 대해 자세히 알아보려면 [!DNL Assets Essentials], 참조 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. 새로 추가한 구성 요소를 클릭하고 다음에서 이미지 속성을 설정합니다. **[!UICONTROL 설정]** 탭:
+   >[!NOTE]
+   >
+   > 링크가 활성 상태를 유지하고 만료 문제를 방지하려면 이미지에 대한 소스 URL에 의존하지 않고 Adobe 에셋 을 사용하는 것이 좋습니다.
+
+1. 를 사용하여 Adobe Stock에서 직접 검색할 수도 있습니다. **[!UICONTROL Adobe Stock 사진 찾기]** 옵션을 선택합니다.
+
+1. 새로 추가한 구성 요소를 클릭하고 이미지 속성을 설정합니다.
 
    * **[!UICONTROL 이미지 제목]** 속성을 사용하면 이미지의 제목을 정의할 수 있습니다.
    * **[!UICONTROL 대체 텍스트]** 속성을 사용하면 이미지에 연결된 캡션을 정의할 수 있습니다. 이는 대체 HTML 속성에 해당합니다.
