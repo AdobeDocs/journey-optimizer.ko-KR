@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 96%
 
 ---
 
@@ -27,13 +27,9 @@ ht-degree: 100%
 
 푸시 알림은 다음 방법으로 만들 수 있습니다.
 
-* **여정**&#x200B;에서 만들기: 여정에 [푸시] 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: 푸시]** 창에서 [푸시 알림]의 내용을 작성합니다.
+* **여정**&#x200B;에서 만들기: 여정에 [푸시] 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: 푸시]** 창에서 [푸시 알림]의 내용을 작성합니다. [여정 생성 방법 알아보기](../building-journeys/journey-gs.md)
 
-  여정을 구성하는 자세한 방법은 이 [페이지](../building-journeys/journey-gs.md)를 참조하십시오.
-
-* **캠페인**&#x200B;에서 만들기: 캠페인을 만든 후 [푸시 알림]을 작업으로 선택하고 기본 설정을 정의합니다.
-
-  캠페인을 구성하는 자세한 방법은 이 [페이지](../campaigns/create-campaign.md#configure)를 참조하십시오.
+* **캠페인**&#x200B;에서 만들기: 캠페인을 만든 후 [푸시 알림]을 작업으로 선택하고 기본 설정을 정의합니다. [캠페인을 만드는 방법 알아보기](../campaigns/create-campaign.md#configure)
 
 전용 탭에서 **iOS**&#x200B;와 **Android** 운영 체제의 푸시 알림 설정을 정의합니다.
 

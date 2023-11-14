@@ -1,5 +1,5 @@
 ---
-title: 인앱 알림 확인 및 보내기
+title: 인앱 알림 확인하고 보내기
 description: Journey Optimizer에서 인앱 메시지를 확인하고 보내는 방법 알아보기
 feature: In App
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '362'
 ht-degree: 13%
 
 ---
 
-# 인앱 알림 확인 및 보내기 {#create-in-app}
+# 인앱 알림 확인하고 보내기 {#create-in-app}
 
 ## 디바이스에서 미리 보기 {#preview-device}
 
@@ -35,6 +35,14 @@ ht-degree: 13%
 1. 장치로 QR 코드를 스캔하고 표시된 PIN 코드를 입력합니다.
 
 이제 인앱 메시지를 장치에서 직접 트리거하여 실제 장치에서 메시지를 미리 보고 검토할 수 있습니다.
+
+## 테스트 프로필로 미리 보기 {#simulate}
+
+인앱 메시지가 정의되면 테스트 프로필을 사용하여 미리 볼 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
+
+이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL 콘텐츠 시뮬레이션]** 그런 다음 테스트 프로필을 추가하여 테스트 프로필 데이터를 사용하여 메시지를 확인합니다.
+
+테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 관리](../content-management/preview-test.md) 섹션.
 
 ## 인앱 알림 검토 및 활성화{#in-app-review}
 
