@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -288,6 +288,17 @@ ht-degree: 0%
 
 ## 채널 구성 리소스 {#administration-permissions}
 
+* **[!DNL Manage file routing]** 높은 수준의 사용 권한을 사용하면 파일 라우팅 구성을 만들고, 편집하고, 삭제할 수 있습니다.
+
++++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
+   * Journey Optimizer 관련:
+
+      * file_routing.read
+      * file_routing.write
+      * file_routing.delete
+
++++
+
 * **[!DNL Manage IP pools]** 높은 수준의 권한을 통해 사용자는 선호도 정의를 만들고, 편집하고, 삭제할 수 있습니다.
 
 +++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
@@ -399,13 +410,12 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 볼 수 있습니다.
+* **[!DNL View file routing]** 높은 수준의 사용 권한을 사용하면 파일 라우팅 구성을 볼 수 있습니다.
 
 +++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
    * Journey Optimizer 관련:
 
-      * PTR_records.read
-      * subdomains_delegation.read
+      * file_routing.read
 
 +++
 
@@ -434,6 +444,17 @@ ht-degree: 0%
       * Mobile_setting.read
 
 +++
+
+* **[!DNL View PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 볼 수 있습니다.
+
++++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
+   * Journey Optimizer 관련:
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
 <!--
 ### [!DNL View channel surface] permission {#view-channel-surface}
 
