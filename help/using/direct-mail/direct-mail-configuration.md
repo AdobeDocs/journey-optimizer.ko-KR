@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
+source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 31%
+source-wordcount: '929'
+ht-degree: 32%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 31%
 
 1. A [파일 라우팅 구성](#file-routing-configuration) 파일을 내보낼 서버를 지정하고 필요한 경우 파일을 암호화합니다.
 
-1. A [DM 표면](#direct-mail-surface) 그러면 파일 라우팅 구성을 참조합니다.
+   >[!CAUTION]
+   >
+   >파일 라우팅 구성을 만들려면 **[!DNL Manage file routing]** 기본 제공 권한. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager).
 
->[!CAUTION]
->
->파일 라우팅 옵션을 구성하지 않은 경우 DM 표면을 만들 수 없습니다.
+1. A [DM 표면](#direct-mail-surface) 그러면 파일 라우팅 구성을 참조합니다. 파일 라우팅 옵션을 구성하지 않은 경우 DM 표면을 만들 수 없습니다.
 
 ## 파일 라우팅 구성 {#file-routing-configuration}
 
@@ -121,7 +121,7 @@ DM을 게재하려면 [!DNL Journey Optimizer], 메일 공급자가 사용할 �
 
 DM 표면에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 구성도 포함되어야 합니다.
 
-1. 채널 표면을 만듭니다. [자세히 알아보기](../configuration/channel-surfaces.md)
+1. 채널 표면 만들기. [자세히 알아보기](../configuration/channel-surfaces.md)
 
 1. 다음 항목 선택 **[!UICONTROL 다이렉트 메일]** 채널.
 
