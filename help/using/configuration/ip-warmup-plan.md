@@ -11,10 +11,10 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 11%
+source-wordcount: '1275'
+ht-degree: 10%
 
 ---
 
@@ -33,9 +33,43 @@ ht-degree: 11%
 
 한 개 이상 만든 경우 [IP 준비 캠페인](ip-warmup-campaign.md) 전용 서피스와 해당 옵션이 활성화되면 IP 준비 계획 작성을 시작할 수 있습니다.
 
->[!CAUTION]
->
->IP 준비 계획에 액세스하고, 만들고, 편집하고, 삭제하려면 다음을 수행해야 합니다. **[!UICONTROL 전달성 컨설턴트]** 권한. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+IP 준비 계획에 액세스하고, 만들고, 편집하고, 삭제하려면 다음을 수행해야 합니다. **[!UICONTROL 전달성 컨설턴트]** 역할 또는 IP 웜업이 관련 권한을 계획합니다.
+
++++게재 가능성 컨설턴트 역할 또는 IP 웜업 계획 관련 권한을 할당하는 방법을 알아봅니다.
+
+특정 사용자에게 해당 권한을 할당하려면 **[!UICONTROL 역할]**:
+
+1. 다음에서 [!DNL Permissions] product에서 **[!UICONTROL 역할]** 을(를) 메뉴로 만들고 새 역할로 업데이트할 역할을 선택합니다 **[!UICONTROL IP 웜업 구성]** 사용 권한.
+
+1. 출처: **[!UICONTROL 역할]** 대시보드, 클릭 **[!UICONTROL 편집]**.
+
+   ![](assets/ip_permissions_1.png)
+
+1. 을(를) 끌어다 놓습니다. **[!UICONTROL IP 웜업 구성]** 권한을 할당할 리소스입니다.
+
+1. 다음에서 **[!UICONTROL IP 웜업 구성]** 리소스 드롭다운에서 사용자에게 필요한 권한을 선택합니다.
+
+   ![](assets/ip_permissions_2.png)
+
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+에 해당 역할을 할당하려면 **[!UICONTROL 사용자]**:
+
+1. 다음에서 [!DNL Permissions] product에서 **[!UICONTROL 역할]** 메뉴를 선택하고 **[!UICONTROL 전달성 컨설턴트]** 기본 제공 역할.
+
+1. 출처: **[!UICONTROL 역할]** 대시보드, 액세스 **[!UICONTROL 사용자]** 탭.
+
+   ![](assets/ip_permissions_3.png)
+
+1. 클릭 **[!UICONTROL 사용자 추가]** 을(를) 할당하려면 **[!UICONTROL 전달성 컨설턴트]** 기본 제공 역할.
+
+   ![](assets/ip_permissions_4.png)
+
+1. 다음 항목 선택 **[!UICONTROL 사용자]** 및 클릭 **[!UICONTROL 저장]**.
+
+   ![](assets/ip_permissions_5.png)
+
++++
 
 ## IP 준비 계획 파일 준비 {#prepare-file}
 
@@ -264,5 +298,9 @@ IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 업로드한 파일에 정의된 모든 단계, 실행, 열 및 해당 콘텐츠가 [!DNL Journey Optimizer] 인터페이스.
 
    ![](assets/ip-warmup-plan-uploaded.png)
+
+   >[!NOTE]
+   >
+   >다음 **[!UICONTROL 타깃팅됨]** 열에는 각 실행에 대해 타겟팅되는 모든 프로필의 합계가 표시됩니다. 즉, 다음을 포함하여 정의한 각 도메인 그룹의 모든 프로필을 의미합니다. **기타** 열이 있는 경우
 
 이제 IP 준비 계획을 실행할 준비가 되었습니다. [자세히 알아보기](ip-warmup-execution.md)
