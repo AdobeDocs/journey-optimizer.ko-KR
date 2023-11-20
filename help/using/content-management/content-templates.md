@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 12%
@@ -36,7 +36,7 @@ API를 사용하여 콘텐츠 템플릿을 만들고 관리할 수도 있습니�
 
 >[!CAUTION]
 >
->콘텐츠 템플릿을 작성, 편집 및 삭제하려면 **[!DNL Manage Library Items]** 에 포함된 권한 **[!DNL Content Library Manager]** 제품 프로필. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+>콘텐츠 템플릿을 작성, 편집 및 삭제하려면 **[!DNL Manage library items]** 에 포함된 권한 **[!DNL Content Library Manager]** 제품 프로필. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## 템플릿 액세스 및 관리 {#access-manage-templates}
 
