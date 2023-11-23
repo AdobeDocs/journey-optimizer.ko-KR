@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 최적화 도구, 위임
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 24%
+source-wordcount: '917'
+ht-degree: 28%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 24%
 * 방법 알아보기 [Google TXT 레코드 추가](google-txt.md) 이메일이 Gmail 주소로 성공적으로 전달되도록 하위 도메인
 * 방법 알아보기 [PTR 레코드 액세스](ptr-records.md) 메일 서버를 보내 하위 도메인을 확인할 수 있도록 하위 도메인용으로 생성됨
 
+>[!NOTE]
+>
+>하위 도메인용 DMARC를 구현하려면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+
 ## 하위 도메인 구성 메서드 {#subdomain-delegation-methods}
 
 하위 도메인 구성을 사용하면 Adobe Campaign에서 사용할 도메인의 하위 섹션(기술적 명칭은 &quot;DNS 영역&quot;)을 구성할 수 있습니다. 사용 가능한 설정 방법은 다음과 같습니다.
@@ -66,7 +70,7 @@ ht-degree: 24%
 | **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 Adobe Campaign에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서는 Adobe가 하위 도메인 및 모든 DNS 레코드를 관리를 전적으로 책임집니다. | 낮음 |
 | **CNAME, 사용자 지정 방법** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 DNS 서버에 배치할 레코드를 제공하고 Adobe Campaign DNS 서버에서 해당 값을 구성합니다.<br/><br/>이 설정에서는 사용자와 Adobe가 DNS 유지 관리를 공동으로 수행합니다. | 높음 |
 
-도메인 구성에 대한 추가 정보는에서 사용할 수 있습니다. [이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
+도메인 구성에 대한 추가 정보는 [이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ko)에서 확인할 수 있습니다.
 
 하위 Adobe 구성 방법에 대한 질문이 있는 경우 도메인에 문의하거나 고객 지원 센터에 연락하여 게재 가능성 컨설팅을 요청하십시오.
 
