@@ -4,222 +4,114 @@ title: Journey Orchestration 제품 설명서
 description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
-feature: Overview
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
-workflow-type: ht
-source-wordcount: '316'
-ht-degree: 100%
+source-git-commit: 94d91d423516535ca57f5e89f98abcbffd281897
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 40%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] 설명서 {#cjm-documentation}
 
+## 새로운 기능
+
+Journey Optimizer의 최신 개선 사항을 엿볼 수 있습니다! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세 정보를 확인하십시오 [릴리스 정보](using/rn/release-notes.md).
+
+>[!BEGINTABS]
+
+>[!TAB 샌드박스 도구]
+
+샌드박스 도구를 사용하면 패키지 내보내기 및 가져오기를 활용하여 여러 샌드박스 간에 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
+
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+
+>[!TAB SMS를 통한 MMS(멀티미디어 메시지 서비스)]
+
+이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 단, 이 기능은 현재 Sinch에서만 사용할 수 있습니다.
+
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#sms-content)
+
+>[!ENDTABS]
+
+## 기본 사항으로 시작
+
 <table style="table-layout:fixed">
-<tr style="border: 0;">
-  <td>
-    <div><strong>시작하기</strong>
-    </div>
-    <p>
-    <em></em>
-    <p>
-    <div>
-      <a href="using/start/get-started.md">[!DNL Journey Optimizer]란?</a>
-    </div>
-    <p>주요 기능 및 사용 사례 살펴보기
-    <p>
-    <div>
-      <a href="using/rn/release-notes.md">릴리스 정보</a>
-    </div>
-    <p>새로운 기능, 최신 개선 사항 및 문제 해결</p>
-   <p>
-    <div>
-      <a href="using/start/quick-start.md">빠른 시작 안내서</a>
-    </div>
-    <p>관리자, 데이터 엔지니어 또는 여정 실무자로 시작하는 방법 알아보기</p>
-    <p>
-    <p>
-    <div>
-      <a href="using/email/get-started-email-design.md">이메일 콘텐츠 디자인</a>
-    </div>
-    <p>새 이메일 디자인 또는 기존 HTML 콘텐츠 가져오기</p>
-    <p>
-    <div>
-    <a href="using/building-journeys/journey-gs.md">여정 처음 만들어 보기</a>
-    </div>
-    <p>고객 여정 작성 및 실행 방법 알아보기
-    <p>
-     <div>
-      <a href="using/campaigns/create-campaign.md">캠페인 만들고 관리하기</a>
-    </div>
-    <p>첫 번째 캠페인을 만들고 구성하고 보내기</p>
-    <p>
-    <div>
-    <div>
-    <a href="using/configuration/get-started-configuration.md">[!DNL Journey Optimizer]</a> 구성
-    </div>
-    <p>를 구성하는 주요 단계를 알아봅니다. [!DNL Journey Optimizer]</p>
-    <p>
-    <div>
-    <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]</a> 액세스 권한 부여
-    </div>
-    <p>[!DNL Journey Optimizer] 사용자에게 할당된 권한 정의 및 관리</p>
-    <p>
-    <div>
-    <a href="using/offers/get-started/starting-offer-decisioning.md">의사 결정 관리</a>
-    </div>
-    <p>오퍼를 만들고 최상의 오퍼와 경험을 게재하여 고객에게 전달</p>
-    <p>
-    <p>
-    <div><strong>추가 리소스</strong>
-    </div>
-    <p>
-    <p>
-    <div>
-    <li>
-      <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer 제품 설명</a>
-    </li>
-    </div>
-    <div>
-    <li>
-      <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Adobe Journey Optimizer 보안 개요</a>(PDF)
-    </li>
-    </div>
-    <div>
-    <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko" target="_blank">Adobe Experience Platform 설명서</a>
-    </li>
-    </div>
-    <div>
-      <li>
-      <a href="https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform 개발자 리소스</a>
-    </li>
-    </div>
-    <p>
-    </p>
-    <p>
-    </p>
-    <div>
-    </div>
-    <div><strong>뉴스레터</strong>
-    </div>
-    <p>
-    <p>
-    <div>
-    <p><a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Adobe Journey Optimizer 계간 뉴스레터</a>에 가입하세요.</p>
-    <p>분기마다 최신 제품 업데이트, 흥미로운 사례, 사용 사례, 팁 등을 받은 편지함에 바로 받을 수 있습니다. 각 뉴스레터에는 다음과 같은 내용이 포함됩니다.</p>
-    <li>최근 릴리스 기능 등 제품 뉴스와 업데이트</li>
-    <li>이벤트 및 웨비나 초대 및 최근 웨비나 녹화본</li>
-    <li>Adobe Journey Optimizer Experience League 커뮤니티의 주요 토론 </li>
-    <li>다른 Adobe Journey Optimizer 고객의 사례 연구 및 사용 사례</li>
-    <li>비즈니스 성공을 이끄는 고객 경험을 제공하는 데 도움이 되는 팁과 요령</li>
-  </td>
-   <td>
-   <div><strong>주요 리소스로 직접 가는 링크</strong>
-    </div>
-    <p>
-    <em></em>
-    <p>
-    <p>여정 관리</p>
-    <li>
-      <a href="using/campaigns/get-started-with-campaigns.md">캠페인</a>
-    </li>
-        <li>
-      <a href="using/building-journeys/journey-gs.md">여정</a>
-    </li>
-    <li>
-      <a href="using/landing-pages/get-started-lp.md">랜딩 페이지</a>
-    </li>
-    <p>
-    <p>의사 결정 관리</p>
-    <li>
-      <a href="using/offers/get-started/starting-offer-decisioning.md">오퍼</a>
-    </li>
-     <li>
-      <a href="using/offers/offer-library/key-steps.md">구성 요소</a>
-    </li>
-    <p>
-    <p>콘텐츠 관리</p>
-    <li>
-      <a href="using/content-management/assets-essentials.md">자산</a>
-    </li>
-    <li>
-      <a href="using/content-management/content-templates.md">콘텐츠 템플릿</a>
-    </li>
-      <li>
-      <a href="using/content-management/fragments.md">조각</a>
-    </li>
-    <p>
-    <p>데이터 관리</p>
-    <li>
-      <a href="using/data/get-started-schemas.md">스키마</a>
-    </li>
-     <li>
-      <a href="using/data/get-started-datasets.md">데이터 세트</a>
-    </li>
-        <li>
-      <a href="using/data/get-started-queries.md">쿼리</a>
-    </li>
-     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko" target="_blank">모니터링</a>
-    </li>
-    <p>
-    <p>연결</p>
-      <li>
-      <a href="using/data/export-datasets.md">대상</a>
-    </li>
-    <li>
-      <a href="using/start/get-started-sources.md">소스</a>
-    </li>
-    <p>
-    <p>고객</p>
-    <li>
-      <a href="using/audience/about-audiences.md">대상자</a>
-    </li>
-    </li>
-    <li>
-      <a href="using/landing-pages/subscription-list.md">구독 목록</a>
-    </li>     
-    <li>
-      <a href="using/audience/get-started-profiles.md">프로필</a>
-    </li>
-    <li>
-      <a href="using/audience/get-started-identity.md">신원</a>
-    </li>
-    <p>
-    <p>개인 정보 보호</p>
-    <li>
-      <a href="using/action/action-privacy.md">정책</a>
-    </li>
-    <li>
-      <a href="using/privacy/requests.md">요청</a>
-    </li>
-        <li>
-      <a href="using/privacy/audit-logs.md"target="_blank">감사</a>
-    </li>
-        <li>
-      <a href="using/privacy/data-hygiene.md"target="_blank">데이터 위생</a>
-    </li>
-    <p>
-    <p>관리</p>
-    <li>
-      <a href="using/configuration/about-data-sources-events-actions.md">구성</a>
-    </li>
-    <li>
-      <a href="using/configuration/frequency-rules.md">규칙</a>
-    </li>
-        <li>
-      <a href="using/reports/alerts.md">경고</a>
-    </li>
-    <li>
-      <a href="using/configuration/get-started-configuration.md">채널</a>
-    </li>
-     <li>
-      <a href="using/administration/sandboxes.md">샌드박스</a>
-    </li>
-     <li>
-      <a href="using/start/search-filter-categorize.md#work-with-unified-tags">태그</a>
-    </li>
-  </td>
-</tr>
+  <tr style="border: 0;">
+    <td>
+    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a></a>
+    <div><strong>빠른 시작 안내서</strong><br/>역할에 따라 개인화된 접근 방식으로 Journey Optimizer에서 더 빨리 목표를 달성하는 방법을 알아봅니다.</div>
+    </td>
+    <td>
+    <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
+    <div><strong>사용자 인터페이스</strong><br/>Journey Optimizer에서 경험을 탐색하고 최적화하는 방법을 알아봅니다.</div><br/>
+    </td>
+    <td>
+    <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
+    <div><strong>첫 번째 여정 만들기</strong><br/>개인화된 옴니채널 여정을 디자인하고 오케스트레이션하여 마케팅 활동과 일대일 고객 참여를 조화시킵니다. 
+    </div></td>
+    <td>
+    <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
+    <div><strong>첫 번째 캠페인 시작</strong><br/>Journey Optimizer에서 첫 번째 캠페인을 만들고 시작하여 타겟팅된 일회성 콘텐츠를 특정 대상자에게 전달할 수 있습니다.</div>
+    </td>
+  </tr>
 </table>
+
+## 설명서 살펴보기
+
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="70px">
+    <td>
+      <strong>고객 경험</strong><br/><a href="using/building-journeys/journey.md">여정</a> - <a href="using/campaigns/get-started-with-campaigns.md">캠페인</a> - <a href="using/landing-pages/get-started-lp.md">랜딩 페이지</a> - <a href="using/reports/live-report.md">보고</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">의사 결정 관리</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon-configure.svg" width="70px">
+    </td>
+    <td>
+      <strong>구성 및 관리</strong><br/><a href="using/configuration/channel-surfaces.md">채널 표면</a> - <a href="using/configuration/about-data-sources-events-actions.md">여정 구성</a>  - <a href="using/administration/permissions-overview.md">액세스 제어</a> - <a href="using/administration/sandboxes.md">샌드박스 관리</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon-campaign.svg" width="70px">
+    </td>
+    <td>
+      <strong>소통 채널</strong><br/><a href="using/email/get-started-email.md">이메일</a> - <a href="using/sms/get-started-sms.md">SMS</a> - <a href="using/in-app/get-started-in-app.md">인앱</a> - <a href="using/push/get-started-push.md">푸시 알림</a> - <a href="using/direct-mail/get-started-direct-mail.md">다이렉트 메일</a> - <a href="using/web/get-started-web.md">웹</a>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td>
+      <img src="using/assets/do-not-localize/icon-content.svg" width="70px">
+    </td>
+    <td>
+      <strong>콘텐츠 관리</strong><br/><a href="using/content-management/assets-essentials.md">에셋/이미지</a> - <a href="using/personalization/personalize.md">개인화</a> - <a href="using/content-management/content-templates.md">재사용 가능</a> 및 <a href="using/personalization/dynamic-content.md">동적</a> 콘텐츠 - <a href="using/content-management/preview-test.md">콘텐츠 테스트 및 미리보기</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="70px">
+    </td>
+    <td>
+      <strong>프로필 및 대상자</strong><br/><a href="using/audience/about-audiences.md">대상</a> - <a href="using/audience/get-started-profiles.md">프로필</a> - <a href="using/audience/get-started-identity.md">ID</a> - <a href="using/audience/license-usage.md">라이선스 사용</a> - <a href="using/privacy/get-started-privacy.md">개인 정보 관리</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon-data.svg" width="70px">
+    </td>
+    <td>
+      <strong>데이터 관리</strong><br/><a href="using/data/get-started-schemas.md">스키마</a> - <a href="using/data/get-started-datasets.md">데이터 세트</a> - <a href="using/data/get-started-queries.md">쿼리</a>
+    </td>
+  </tr>
+</table>
+
+## 추가 리소스
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><strong>Adobe Journey Optimizer</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko-KR" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">제품 설명</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">보안 개요(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API 참조</a>
+</td>
+<td><strong>Adobe Experience Platform</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko" target="_blank">설명서</a> - <a href="https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
+</td>
+</tr></table>
+
+<table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
+<b>최신 정보를 얻고 Adobe Journey Optimizer 환경을 향상시키십시오!</b><br/>분기별 뉴스레터에 등록하십시오. 분기마다 최신 제품 업데이트, 매력적인 사례, 실제 사용 사례, 유용한 팁 등을 받은 편지함에 직접 액세스할 수 있습니다. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">지금 등록하십시오!</a></td></tr></table>
+
