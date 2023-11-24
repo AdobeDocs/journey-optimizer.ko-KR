@@ -1,5 +1,5 @@
 ---
-title: DM 메시지 만들기
+title: 다이렉트 메일 메시지 만들기
 description: Journey Optimizer에서 DM 메시지를 만드는 방법을 알아봅니다
 feature: Direct Mail
 topic: Content Management
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 ---
 
-# DM 메시지 만들기 {#create-direct}
+# 다이렉트 메일 메시지 만들기 {#create-direct}
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
