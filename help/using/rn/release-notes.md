@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4527'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 95%
 <tbody>
 <tr>
 <td>
-<p>샌드박스 도구를 사용하면 패키지 내보내기 및 가져오기를 활용하여 여러 샌드박스 간에 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함된 모든 객체는 동일한 샌드박스의 객체여야 합니다.</p>
+<p>샌드박스 도구를 사용하면 패키지 내보내기 및 가져오기를 활용하여 여러 샌드박스 간에 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <p>자세한 내용은 <a href="../building-journeys/copy-to-sandbox.md">세부 설명서</a>를 참고하십시오.</p>
 </td>
@@ -73,13 +73,13 @@ ht-degree: 95%
 <table>
 <thead>
 <tr>
-<th><strong>SMS의 MMS(멀티미디어 메시지 서비스)</strong><br/></th>
+<th><strong>SMS를 통한 MMS(멀티미디어 메시지 서비스)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 SMS 채널을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 전송하여 고객과 이미지, GIF 또는 비디오를 공유할 수 있으므로 커뮤니케이션을 향상시킬 수 있습니다. 이 기능은 현재 Sinch에서만 사용할 수 있습니다.</p>
+<p>이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 단, 이 기능은 현재 Sinch에서만 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 <p>자세한 내용은 <a href="../sms/create-sms.md#sms-content">자세한 설명서</a>를 참조하세요.</p>
 </tr>
@@ -92,12 +92,12 @@ ht-degree: 95%
 
 **대상자**
 
-* 이제 CSV 파일에서 업로드한 대상을 여정 및 캠페인으로 타깃팅할 수 있습니다. [자세히 알아보기](../audience/about-audiences.md#segments-in-journey-optimizer)
-* 이제 대상 구성을 통해 만든 대상을 타기팅하고 여정에서 데이터 보강 속성을 활용할 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md)
+* 이제 CSV 파일에서 여정 및 캠페인으로 업로드한 대상자를 타겟팅할 수 있습니다. [자세히 알아보기](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 이제 대상자 구성을 통해 만든 대상자를 타겟팅하고 [여정]에서 데이터 보강 속성을 활용할 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
->이러한 기능은 현재 개인 베타로 사용할 수 있습니다.
+>이 기능은 현재 Private Beta로 사용할 수 있습니다.
 
 <!--
 **Spam scoring for emails**
@@ -107,15 +107,15 @@ ht-degree: 95%
 **캠페인**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* 캠페인 중 하나에서 오류가 발생하면 이제 캠페인 목록에 캠페인 상태와 함께 경고 아이콘이 표시됩니다. [자세히 보기](../campaigns/modify-stop-campaign.md#statuses)
+* 이제 캠페인 중 하나에서 오류가 발생하면 캠페인 목록의 캠페인 상태 옆에 경고 아이콘이 표시됩니다. [자세히 보기](../campaigns/modify-stop-campaign.md#statuses)
 
 **여정**
 
-* 모든 대기 시간에 정의할 수 있는 최대 기간은 이제 30일이 아니라 29일입니다. 대기 시간이 30일 여정 수명을 초과하지 않도록 하기 위해 이 개선 사항이 도입되었습니다. 이는 다음 경우에 적용됩니다.
+* 모든 대기 시간에 정의할 수 있는 최대 기간이 기존 30일에서 29일로 변경되었습니다. 대기 시간이 여정 수명 30일을 초과하지 않도록 하기 위해 도입한 개선 사항입니다. 이것은 다음에 적용됩니다.
 
-   * 다음 **총 시간** 의 필드 [대기 활동](../building-journeys/wait-activity.md)
-   * 다음 **재등록 대기 기간** 위치: [여정 속성](../building-journeys/journey-gs.md#entrance)
-   * 다음 **대기** 의 시간 초과 정의에 있는 필드 [이벤트 활동](../building-journeys/general-events.md#events-specific-time).
+   * [대기 활동](../building-journeys/wait-activity.md)의 **시간** 필드
+   * [여정 속성](../building-journeys/journey-gs.md#entrance)의 **재진입 대기 기간** 
+   * [이벤트 활동](../building-journeys/general-events.md#events-specific-time)의 시간 초과 정의 내 **대기 기간** 필드.
 
 <!--
 **Consent in channel configuration**
@@ -124,7 +124,7 @@ ht-degree: 95%
 
 **의사 결정 관리**
 
-* 의사 결정 관리 인터페이스의 오퍼 한도 설정과 관련된 몇 가지 레이블이 업데이트되었습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
+* 의사 결정 관리 인터페이스의 오퍼 캡핑 설정과 관련된 몇 가지 레이블을 업데이트했습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023년 9월 릴리스 정보 {#sept-rn-2023}
 
