@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: f64388673b5a3b2a8702026ce09b39e928ac2ab4
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 13%
+source-wordcount: '401'
+ht-degree: 18%
 
 ---
 
@@ -56,6 +56,10 @@ ht-degree: 13%
 
      ![](assets/add-events.png)
 
+     >[!NOTE]
+     >
+     >Adobe은 스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 않는 것을 권장합니다. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트를 보내는 대신 비즈니스 규칙을 사용합니다. [자세히 알아보기](about-audiences.md#open-and-send-event-guardrails)
+
 1. 작업 영역에서 새 필드를 추가하고 구성할 때 **[!UICONTROL 대상 속성]** 창은 대상자에 속한 예상 프로필에 대한 정보로 자동으로 업데이트됩니다.
 
    ![](assets/segment-estimate.png)
@@ -66,6 +70,6 @@ ht-degree: 13%
 
 ## 방법 비디오{#video-segment}
 
-Journey Optimizer에서 규칙을 사용하여 대상자를 생성하는 방법을 이해하고 속성, 이벤트 및 기존 대상자를 사용하여 대상자를 만드는 방법을 알아봅니다.
+Journey Optimizer에서 규칙을 사용하여 대상자를 생성하는 원리를 이해하고 속성, 이벤트, 기존 대상자를 사용하여 대상자를 만드는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
