@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4103'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 ## 2023년 11월 {#nov-2023}
 
-* 모든 사용자 지정 작업을 제한하는 가드레일이 30초 동안 15만 번의 호출에서 1분 동안 30만 번의 호출로 변경되었습니다. 또한 기본 캡핑은 각 끝점에 더 이상 적용되지 않습니다. 이제 호스트 및 샌드박스별로 수행됩니다. 예를 들어 샌드박스에서 동일한 호스트를 사용하는 두 개의 엔드포인트가 있는 경우 (예: `https://www.adobe.com/endpoint1` 및 `https://www.adobe.com/endpoint2`), 캡핑은 adobe.com 호스트 아래의 모든 끝점에 적용됩니다. &quot;endpoint1&quot;과 &quot;endpoint2&quot;는 동일한 최대 가용량 구성을 공유하며 한 끝점이 한도에 도달하면 다른 끝점에 영향을 줍니다. [자세히 보기](../action/about-custom-action-configuration.md)
+* 모든 사용자 정의 작업을 제한하는 가드레일이 30초 동안 호출 150,000회에서 1분 동안 호출 300,000회로 변경되었습니다. 또한 기본 빈도 설정이 더 이상 각 엔드포인트에 적용되지 않습니다. 이제 호스트 및 샌드박스별로 수행됩니다. 예를 들어 한 샌드박스에서 동일한 호스트를 사용하는 두 개의 엔드포인트가 있는 경우(예: `https://www.adobe.com/endpoint1` 및 `https://www.adobe.com/endpoint2`) 빈도 설정은 adobe.com 호스트 아래의 모든 엔드포인트에 대해 적용됩니다. “endpoint1”과 “endpoint2”가 동일한 빈도 설정 구성을 공유하며 한 엔드포인트에서 한도에 도달하면 다른 엔드포인트에도 영향을 줍니다. [자세히 보기](../action/about-custom-action-configuration.md)
 
 ## 2023년 10월 {#oct-2023}
 
