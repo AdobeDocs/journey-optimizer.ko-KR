@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 푸시 알림은 다음 방법으로 만들 수 있습니다.
 
-* **여정**&#x200B;에서 만들기: 여정에 [푸시] 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: 푸시]** 창에서 [푸시 알림]의 내용을 작성합니다. [여정 생성 방법 알아보기](../building-journeys/journey-gs.md)
+* **여정**&#x200B;에서 만들기: 여정에 [푸시] 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: 푸시]** 창에서 [푸시 알림]의 내용을 작성합니다. [여정을 만드는 방법 알아보기](../building-journeys/journey-gs.md)
 
 * **캠페인**&#x200B;에서 만들기: 캠페인을 만든 후 [푸시 알림]을 작업으로 선택하고 기본 설정을 정의합니다. [캠페인을 만드는 방법 알아보기](../campaigns/create-campaign.md#configure)
 
