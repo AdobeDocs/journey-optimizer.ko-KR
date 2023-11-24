@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '933'
 ht-degree: 52%
 
 ---
@@ -111,7 +111,7 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 
 * **메시지 전송됨** 피드백 상태 이벤트
 
-  다음 **메시지 전송됨** 피드백 이벤트는 종종 이메일을 보내기 전에 빈도 또는 제외 확인에 사용됩니다. Adobe은 초당 스트리밍할 수 있는 이벤트 수의 현재 전체 용량에 공간이 필요하므로 가능하면 피하는 것이 좋습니다.
+  다음 **메시지 전송됨** 피드백 이벤트는 종종 이메일을 보내기 전에 빈도 또는 제외 확인에 사용됩니다. Adobe은 성능에 부담을 주고 시스템 저하를 유발할 수 있으므로 피하는 것이 좋습니다.
 
   따라서 빈도 또는 제외 논리의 경우 대신 비즈니스 규칙을 사용하십시오. **메시지 전송됨** 피드백 이벤트. 비즈니스 규칙에 대한 기존 월별 케이던스를 보완하여 개별 프로필에 대한 일일 빈도 상한을 곧 사용할 수 있습니다.
 
