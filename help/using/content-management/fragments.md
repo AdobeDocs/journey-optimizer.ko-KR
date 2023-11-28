@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
+source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 15%
+source-wordcount: '1596'
+ht-degree: 14%
 
 ---
 
@@ -36,6 +36,10 @@ ht-degree: 15%
 * 나만의 조각을 만들어 보세요. 시각적 조각 또는 표현식 조각을 만들 수 있습니다. [자세히 알아보기](#create-fragments)
 
 * 콘텐츠에서 필요한 횟수만큼 사용하십시오. 다음을 참조하십시오 [시각적 조각 추가](../email/use-visual-fragments.md) 및 [표현식 조각 활용](../personalization/use-expression-fragments.md)
+
+>[!NOTE]
+>
+>**시각적 조각** 에서 사용할 수 있습니다. [이메일 디자이너](../email/get-started-email-design.md), 반면 **표현식 조각** 을 통해 액세스할 수 있습니다. [표현식 편집기](../personalization/personalization-build-expressions.md).
 
 또한 Journey Optimizer을 활용할 수 있습니다 **콘텐츠 REST API** 콘텐츠 조각을 관리합니다. 자세한 내용은 [Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 

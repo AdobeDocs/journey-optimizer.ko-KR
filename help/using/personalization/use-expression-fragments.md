@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # 표현식 조각 활용 {#use-expression-fragments}
 
-표현식 편집기를 사용할 때 현재 샌드박스에 생성되거나 저장된 모든 표현식 조각을 활용할 수 있습니다.
+사용 시 **표현식 편집기**, 현재 샌드박스에 생성되거나 저장된 모든 표현식 조각을 활용할 수 있습니다.
 
 에서 조각을 만들고 관리하는 방법 알아보기 [이 섹션](../content-management/fragments.md).
 
