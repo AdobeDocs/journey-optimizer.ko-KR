@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
-source-wordcount: '4120'
-ht-degree: 99%
+source-wordcount: '4174'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 99%
 
 * 모든 사용자 정의 작업을 제한하는 가드레일이 30초 동안 호출 150,000회에서 1분 동안 호출 300,000회로 변경되었습니다. 또한 기본 빈도 설정이 더 이상 각 엔드포인트에 적용되지 않습니다. 이제 호스트 및 샌드박스별로 수행됩니다. 예를 들어 한 샌드박스에서 동일한 호스트를 사용하는 두 개의 엔드포인트가 있는 경우(예: `https://www.adobe.com/endpoint1` 및 `https://www.adobe.com/endpoint2`) 빈도 설정은 adobe.com 호스트 아래의 모든 엔드포인트에 대해 적용됩니다. “endpoint1”과 “endpoint2”가 동일한 빈도 설정 구성을 공유하며 한 엔드포인트에서 한도에 도달하면 다른 엔드포인트에도 영향을 줍니다. [자세히 보기](../action/about-custom-action-configuration.md)
 * 이메일 캠페인에 대한 새 상태가 캠페인 상태 목록에 추가되었습니다. [자세히 보기](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
+* Adobe Experience Platform 대상자 시작 섹션이 사용 가능한 대상자 평가 방법 및 대상자 선택 방법을 반영하도록 업데이트되었습니다. [자세히 보기](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* 스트리밍 세분화 평가 방법을 사용하는 경우 대상을 작성할 때 피해야 하는 이벤트를 지정하는 새 하위 섹션이 추가되었습니다. [자세히 보기](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
 
 ## 2023년 10월 {#oct-2023}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 52%
@@ -51,7 +51,7 @@ ht-degree: 52%
 
 * 여정에 **조건** 활동을 사용하면 대상자 멤버십을 기반으로 조건을 작성할 수 있습니다. [조건에서 대상자를 사용하는 방법을 알아봅니다](../building-journeys/condition-activity.md#using-a-segment).
 
-## 대상자 평가 방법{#evaluation-method-in-journey-optimizer}
+## 대상자 평가 방법 {#evaluation-method-in-journey-optimizer}
 
 Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 하나를 사용하여 세그먼트 정의에서 생성됩니다.
 
@@ -97,11 +97,11 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 
 이전 데이터를 사용하여 대상자를 다시 채우는 데 최대 24시간이 걸릴 수 있습니다. 대상자를 다시 채운 후 대상자는 계속 최신 상태로 유지되며 언제든 타겟팅할 수 있습니다.
 
-### 스트리밍 세분화를 통한 이벤트 사용 {#open-and-send-event-guardrails}
+### 스트리밍 세분화를 통한 이벤트 사용 {#streaming-segmentation-events-guardrails}
 
 스트리밍 세분화는 가치가 높은 사용 사례를 사용하는 실시간 개인화에 유용합니다. 하지만, 옳은 것을 선택하는 것은 중요하다 [events](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} 을 세그먼테이션 기준으로 사용합니다.
 
-따라서 최적의 성능을 위해 세그먼테이션을 구성하려면 다음 이벤트를 사용하지 마십시오.
+따라서 스트리밍 세분화 최적 성능을 위해 다음 이벤트를 사용하지 마십시오.
 
 * **메시지 열림** 인터랙션 유형 이벤트
 
