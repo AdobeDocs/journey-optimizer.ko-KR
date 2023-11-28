@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 초안]**: 캠페인이 편집 중이며 활성화되지 않았습니다.
 * **[!UICONTROL 활성화 중]**: 캠페인이 활성화 중입니다.
+* **[!UICONTROL 처리 중]** *(이메일 캠페인만 해당)*: 대상자 내보내기가 완료되었으며 캠페인이 게시되고 있습니다.
 * **[!UICONTROL 라이브]**: 캠페인이 활성화되었습니다.
 * **[!UICONTROL 예약됨]**: 캠페인이 특정 시작 날짜에 활성화되도록 구성되어 있습니다.
 * **[!UICONTROL 중지됨]**: 캠페인이 수동으로 중지되었습니다. 더 이상 활성화하거나 재사용할 수 없습니다. [캠페인을 중지하는 방법 알아보기](modify-stop-campaign.md#stop)
