@@ -11,10 +11,10 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
+source-git-commit: ccee7f47301bf6ceb832b8586cccb30618e63955
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 10%
+source-wordcount: '1552'
+ht-degree: 8%
 
 ---
 
@@ -97,7 +97,7 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
 ### IP 준비 계획 탭 {#ip-warmup-plan-tab}
 
-* 이 예에서 계획은 17일 이상에 걸쳐 준비되었습니다(&quot;라고 함)**실행**&quot;) 백만 개 이상의 프로필이 타겟인 볼륨에 도달하기 위해
+* 이 예에서는 17일 이상 동안 계획이 준비되었습니다(&#39;라고 함).**실행**&#39;) 백만 개 이상의 프로필이 타겟인 볼륨에 도달하기 위해
 
 * 이 계획은 6시까지 실행됩니다. **단계**, 각 행에 하나 이상의 실행이 포함됩니다.
 
@@ -128,51 +128,48 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 * 라 포스트
 * Apple
 
-<!--
-+++ Gmail
-gmail.com;gmail.fr;gmail.de;gmail.co.uk;gmail.it
++++ Gmail gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
 +++ Adobe
-adobe.com;adobe.fr;adobe.es
+
 +++
 
-+++WP
++++WP wp.pl;o2.pl
 +++
 
-+++Comcast
++++Comcast comcast.net
 +++
 
-+++Yahoo
++++Yahoo aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoo.cn;yahoogroups.com.sg;yahoogroups.com.au;aol.pl;aolpoland.pl;aolnorge.no;yahoo.com.au;yahoo.fi;yahoo.com.vn;aol.co.nz;ehoo.hr;aol.cz;yahoo.ee;aol.be;aoolcom.tr;yahoo.si;yahoo.com.br;aol.it;yahoo.ne.jp;ymail.com;yahoo.edk;yahoohoogroups.ca;netscape.com;aol.kr;aol.ie;aol.jp;yahoo.com.pe;yahoo.lt;yahoo.co.id;aol.nl;yaol.bg;citlink.net;aol.nl;yahoo.nl aol.dk;wmconnect.com;aol.cl;yahoo.com.jp;yahoo.no;yahoo.com.hk;aol.com.br;yahoo.cz;yahoo.co.kr;yahoogroups.de;yahoo.gr;yahoo.com.ar;yahoo.ro;ygm.com;yahoo.co.nz;yahoo.at;aol.com;goowy.com;aol.fr;yahoo.in;aol.rs;aol.de;rocketmail.com;frontiernet.net;aim.com;yahoogroups.co.in;netscape.net;luckymail.com;yahoo.co.jp;yahoo.se;myaol.jp;yahoo.com.kr;yahoo.pt;yahoo.co.za;verizon.net;yahoogrupper.dk;yaol.fr;aol.com.ve;eoph.pl;aol.com.ar;yahoogruppi.it;yahoo.cl;aol.com.co;yahoo.be;wild4music.com;aol.tw;yahoogroups.com.cn;yahoo.com.co;wow.com;yahoo.com;yahooxtra.co.nz;yahoo.com.mx;yahoo.com.ph;sky.com;aol.com.mx;aol.com.au;aolchina.com;aol.ru;yahoo.com.net;yahoo.com.tw talk21.com compuserve.com yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
 +++
 
-+++Bigpond
++++Bigpond bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
 +++
 
-+++Orange
++++주황색 voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
 +++
 
-+++Softbank
++++Softbank c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp;jp-n.ne.jp;;;;;;;;;;;;;;
 +++
 
-+++Docomo
++++Docomo docomo.ne.jp
 +++
 
-+++United Internet
++++United Internet gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
-+++Microsoft
++++Microsoft hotmail.com.tr;live.de;live.ru;live.nl;windowslive.com;live.jp;mts.net;xbox.com;hotmail.fr;hotmail.cl;hotmail.jp;live.cl;live.at;live.com.au;hotmail.co.th;live.hk;hotmail.com.au;hotmail.com;live.com.my;live.ie;hotmail.co.kr;outlook.com.br;hotmail.dk;hotmail.co.il;live.co.kr;live.co.uk;outlook.ie;live.cn;live.com.mx;hotmail.co.uk;hotmail.es;live.fr;live.no;live.dk;hotmail.it;live.com.sg;live.se;msn.com;live.be;hotmail.co.jp;live.se;hotmail.se;live.co.za;hotmail.ch;live.com.pt;outlook.com;live.gr;live.it;hotmail.ca;live.com live.com.ar hotmail.com.br hotmail.com.ar;live.ca;hotmail.de
 +++
 
-+++KDDI
++++KDDI au.com;ezweb.ne.jp;uqmobile.jp
 +++
 
-+++Italia Online
++++이탈리아 온라인 inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
 +++
 
-+++La Poste
++++La Poste laposte.net
 +++
--->
 
 ### 사용자 정의 도메인 그룹 탭 {#custom-domain-group-tab}
 
