@@ -11,9 +11,9 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: ccee7f47301bf6ceb832b8586cccb30618e63955
+source-git-commit: 8eeceb48882ab6198628ce09a5a52aa8d8da4f26
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1535'
 ht-degree: 8%
 
 ---
@@ -112,27 +112,28 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
 플랜에 추가할 수 있는 기본 도메인 그룹은 다음과 같습니다.
 
+<!--
 * Gmail
 * Adobe
 * WP
-* 컴캐스트
+* Comcast
 * Yahoo
-* 빅폰드
-* 주황
-* 소프트뱅크
-* 도코모
-* 유나이티드 인터넷
+* Bigpond
+* Orange
+* Softbank
+* Docomo
+* United Internet
 * Microsoft
 * KDDI
-* 이탈리아 온라인
-* 라 포스트
+* Italia Online
+* La Poste
 * Apple
+-->
 
 +++ Gmail gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
-+++ Adobe
-
++++ Adobe adobe.com
 +++
 
 +++WP wp.pl;o2.pl
