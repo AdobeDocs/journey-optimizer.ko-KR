@@ -5,7 +5,7 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1e6068111edeb8a07125d71712b401a4b57e6eb6
+source-git-commit: 5e1f1aa76d03dd4a54267c09b75f7d165553d81e
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 38%
@@ -59,7 +59,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 ## 설명서 살펴보기
 
-<table style="table-layout:auto">
+<table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-quick-start.svg" width="70px">
