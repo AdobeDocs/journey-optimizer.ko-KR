@@ -40,7 +40,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="캠페인 대상자 제외"
->abstract="현재 단계에서 대상자를 제외할 캠페인을 선택하십시오. 이는 이전에 다른 단계에서 연락을 보낸 프로필이나 다른 IP 워밍업 플랜이 다시 대상으로 지정되는 것을 방지하기 위한 것입니다."
+>abstract="현재 단계에서 대상자를 제외할 캠페인을 선택합니다. 이는 이전에 다른 단계에서 연락을 보낸 프로필이나 다른 IP 워밍업 플랜이 다시 대상으로 지정되는 것을 방지하기 위한 것입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"

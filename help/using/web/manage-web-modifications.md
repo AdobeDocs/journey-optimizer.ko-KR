@@ -98,7 +98,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="사용자 정의 코드 추가"
->abstract="HEAD 요소는 메타데이터 컨테이너이며 HTML 태그와 BODY 태그 사이에 배치됩니다. SCRIPT 및 STYLE 요소만 추가하세요. DIV 태그 및 기타 요소를 추가하면 나머지 HEAD 요소가 BODY에 들어갈 수 있습니다."
+>abstract="HEAD 요소는 메타데이터 컨테이너이며 HTML 태그와 BODY 태그 사이에 배치됩니다. SCRIPT 및 STYLE 요소만 추가하십시오. DIV 태그 및 기타 요소를 추가하면 나머지 HEAD 요소가 BODY에 들어갈 수 있습니다."
 
 다음을 사용하여 사용자 지정 코드를 추가할 수 있습니다. **[!UICONTROL 페이지`<head>`]** 수정 유형.
 
