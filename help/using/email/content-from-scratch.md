@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 콘텐츠, 편집자, 이메일, 시작
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 55%
@@ -92,7 +92,7 @@ Adobe Journey Optimizer Designer를 사용하여 콘텐츠의 구조를 쉽게 �
 
    ![](assets/email_designer_structure_component.png)
 
-1. 다음에서 **[!UICONTROL 자산 선택기]**&#x200B;에 저장된 에셋을 직접 선택할 수 있습니다. **[!UICONTROL 자산 라이브러리]**. [에셋 관리에 대해 자세히 알아보기](../content-management/assets-essentials.md)
+1. 다음에서 **[!UICONTROL 자산 선택기]**&#x200B;에 저장된 에셋을 직접 선택할 수 있습니다. **[!UICONTROL 자산 라이브러리]**. [에셋 관리에 대해 자세히 알아보기](../content-management/assets.md)
 
    에셋이 포함된 폴더를 두 번 클릭합니다. 구조 구성 요소로 끌어다 놓습니다.
 

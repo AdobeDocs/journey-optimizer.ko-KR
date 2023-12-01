@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 28%
@@ -104,7 +104,7 @@ ht-degree: 28%
 
 ![](assets/in_app_content_3.png)
 
-미디어 URL을 입력하거나 **[!UICONTROL 에셋 선택]** 아이콘 : 자산 라이브러리에 저장된 자산을 인앱 메시지에 직접 추가합니다. [에셋 관리에 대해 자세히 알아보기](../content-management/assets-essentials.md).
+미디어 URL을 입력하거나 **[!UICONTROL 에셋 선택]** 아이콘 : 자산 라이브러리에 저장된 자산을 인앱 메시지에 직접 추가합니다. [에셋 관리에 대해 자세히 알아보기](../content-management/assets.md).
 다음을 추가할 수도 있습니다. **[!UICONTROL 대체 텍스트]** 화면 읽기 애플리케이션용.
 
 +++고급 서식이 있는 추가 옵션

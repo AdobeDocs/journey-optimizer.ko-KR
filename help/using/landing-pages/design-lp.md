@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 디자인, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '159'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 여기에서 다음을 수행할 수 있습니다.
 
-* **처음부터 랜딩 페이지 디자인** 컨텐츠 디자이너의 인터페이스를 통해 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). 콘텐츠 디자인 방법 알아보기 <!--or use built-in templates--> [이 섹션에서](../email/content-from-scratch.md).
+* **처음부터 랜딩 페이지 디자인** 컨텐츠 디자이너의 인터페이스를 통해 [Adobe Experience Manager Assets](../content-management/assets.md). 콘텐츠 디자인 방법 알아보기 <!--or use built-in templates--> [이 섹션에서](../email/content-from-scratch.md).
 
 * **원시 HTML 코드 또는 붙여넣기** 바로 콘텐츠 디자이너에 로그인합니다. 콘텐츠를 코딩하는 방법에 대해 알아봅니다. [이 섹션에서](../email/code-content.md).
 

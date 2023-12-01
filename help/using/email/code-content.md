@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 keywords: 코드, HTML, 편집기
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 67%
+source-wordcount: '194'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 67%
 
 >[!CAUTION]
 >
-> 이미지 출처: [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) 이 메서드를 사용할 때는 참조할 수 없습니다. HTML 코드에서 참조하는 이미지는 공개 위치에 저장해야 합니다.
+> 이미지 출처: [Adobe Experience Manager Assets](../content-management/assets.md) 이 메서드를 사용할 때는 참조할 수 없습니다. HTML 코드에서 참조하는 이미지는 공개 위치에 저장해야 합니다.
 
 1. Email Designer 홈 페이지에서 **[!UICONTROL 나만의 코드 작성]**.
 

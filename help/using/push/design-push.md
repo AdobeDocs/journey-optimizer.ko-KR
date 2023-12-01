@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 21%
@@ -58,9 +58,9 @@ Android 버전에서는 이미지 아이콘과 확장된 알림에 대한 이미
 
 두 가지 옵션을 사용할 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
 
-* 사용 **[!UICONTROL 미디어 추가]** 에서 에셋을 선택하는 버튼 **[!DNL Adobe Experience Manager Assets Essentials]**.
+* 사용 **[!UICONTROL 미디어 추가]** 에서 에셋을 선택하는 버튼 **[!DNL Adobe Experience Manager Assets]**.
 
-  사용 방법 알아보기 **[!DNL Adobe Experience Manager Assets Essentials]** 위치: [이 페이지](../content-management/assets-essentials.md).
+  사용 방법 알아보기 **[!DNL Adobe Experience Manager Assets]** 위치: [이 페이지](../content-management/assets.md).
 
 * 또는 미디어 URL을 **[!UICONTROL 미디어 추가]** 필드. 이 경우 URL에 개인화를 추가할 수 있습니다.
 

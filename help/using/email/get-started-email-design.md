@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
-workflow-type: ht
-source-wordcount: '480'
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 * [!DNL Journey Optimizer] **이메일 디자인 기능**&#x200B;으로 반응형 이메일을 디자인하거나 가져옵니다. [자세히 알아보기](content-from-scratch.md)
 
-* **Adobe Experience Manager Assets Essentials**&#x200B;를 활용하여 이메일을 보강하고 에셋 데이터베이스를 빌드하고 관리합니다. [자세히 알아보기](../content-management/assets-essentials.md)
+* **Adobe Experience Manager Assets Essentials**&#x200B;를 활용하여 이메일을 보강하고 에셋 데이터베이스를 빌드하고 관리합니다. [자세히 알아보기](../content-management/assets.md)
 
 * **Adobe Stock 사진**&#x200B;을 찾아 콘텐츠를 빌드하고 이메일 디자인을 개선합니다. [자세히 알아보기](../content-management/stock.md)
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 1. [이메일 디자이너] 홈페이지에서 다음 옵션 중 이메일을 디자인할 방법을 선택합니다.
 
-   * 이메일 디자이너의 인터페이스를 통해 **이메일을 처음부터 디자인**&#x200B;하고 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md)의 이미지를 활용합니다. 이메일 콘텐츠를 디자인하는 방법은 [이 섹션](content-from-scratch.md)을 참조하십시오 .
+   * 이메일 디자이너의 인터페이스를 통해 **이메일을 처음부터 디자인**&#x200B;하고 [Adobe Experience Manager Assets ](../content-management/assets.md)의 이미지를 활용합니다. 이메일 콘텐츠를 디자인하는 방법은 [이 섹션](content-from-scratch.md)을 참조하십시오 .
 
    * 이메일 디자이너에서 바로 **원시 HTML을 코딩하거나 붙여 넣습니다**. 콘텐츠를 직접 코딩하는 방법은 [이 섹션](code-content.md)을 참조하십시오.
 

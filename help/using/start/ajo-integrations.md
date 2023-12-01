@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 98%
 
 ---
 
@@ -40,13 +40,13 @@ Journey Optimizer에서 여정을 만든 후 Customer Journey Analytics는 플�
 [Journey Optimizer + Analytics](../event/about-analytics.md)에 대해 자세히 알아보세요.
 
 
-## Adobe Experience Manager Assets Essentials {#integration-assets}
+## Adobe Experience Manager Assets {#integration-assets}
 
-[!DNL Adobe Experience Manager Assets Essentials] 통합은 마케팅 워크플로우와 크리에이티브 워크플로우를 결합해 줍니다. [!DNL Adobe Journey Optimizer]에 기본적으로 통합된 [!DNL Assets Essentials]에 액세스하여 디지털 자산을 저장하고 관리하고 찾아내며 배포할 수 있습니다. 이 통합은 메시지의 내용을 채우는 데 사용할 수 있는 단일 중앙 집중식 자산 저장소 역할을 합니다.
+[!DNL Adobe Experience Manager Assets] 통합은 마케팅 워크플로우와 크리에이티브 워크플로우를 결합해 줍니다. [!DNL Adobe Journey Optimizer]에 기본적으로 통합된 [!DNL Adobe Experience Manager Assets]에 액세스하여 디지털 자산을 저장하고 관리하고 찾아내며 배포할 수 있습니다. 이 통합은 메시지의 내용을 채우는 데 사용할 수 있는 단일 중앙 집중식 자산 저장소 역할을 합니다.
 
-[!DNL Adobe Journey Optimizer]에서 왼쪽 메뉴의 **[!UICONTROL Assets]** 섹션을 통해 [!DNL Adobe Experience Manager Assets Essentials]에 바로 액세스할 수 있습니다.
+[!DNL Adobe Journey Optimizer]에서 왼쪽 메뉴의 **[!UICONTROL Assets]** 섹션을 통해 [!DNL Adobe Experience Manager Assets]에 바로 액세스할 수 있습니다.
 
-자세한 내용은 [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md)를 참고하.
+자세히 알아보기 [JOURNEY OPTIMIZER + ADOBE EXPERIENCE MANAGER ASSETS](../content-management/assets.md).
 
 
 ## Adobe Stock {#integration-stock}

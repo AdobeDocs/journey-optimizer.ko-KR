@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 10%
@@ -68,7 +68,7 @@ ht-degree: 10%
 
 ### 이미지 추가 {#images}
 
-선택한 배치가 이미지 유형인 경우 **Adobe Experience Cloud 자산** 라이브러리는 에서 제공하는 자산의 중앙 집중식 저장소입니다. [!DNL Adobe Experience Manager Assets Essentials].
+선택한 배치가 이미지 유형인 경우 **Adobe Experience Cloud 자산** 라이브러리는 에서 제공하는 자산의 중앙 집중식 저장소입니다. [!DNL Adobe Experience Manager Assets].
 
 >[!NOTE]
 >

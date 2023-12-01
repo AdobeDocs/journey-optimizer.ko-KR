@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 구성 요소, 이메일 디자이너, 편집기, 이메일
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1406'
 ht-degree: 54%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 54%
    * **글꼴 크기**: 텍스트의 글꼴 크기를 픽셀 단위로 선택합니다.
    * **[!UICONTROL 글꼴 색상 변경]**: 글꼴 색상을 선택합니다.
    * **[!UICONTROL 링크 삽입]**: 콘텐츠에 모든 유형의 링크를 추가합니다.
-   * **[!UICONTROL 이미지 편집]**: 텍스트 구성 요소에 이미지 또는 자산을 추가합니다. [에셋 관리에 대해 자세히 알아보기](../content-management/assets-essentials.md)
+   * **[!UICONTROL 이미지 편집]**: 텍스트 구성 요소에 이미지 또는 자산을 추가합니다. [에셋 관리에 대해 자세히 알아보기](../content-management/assets.md)
    * **[!UICONTROL 글꼴 색상 변경]**: 글꼴 색상을 선택합니다.
    * **[!UICONTROL 개인화 추가]**: 개인화 필드를 추가하여 프로필 데이터의 콘텐츠를 사용자 정의합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
    * **[!UICONTROL 소스 코드 표시]**: 텍스트의 소스 코드를 표시합니다. 소스 코드는 수정할 수 없습니다.
@@ -167,9 +167,9 @@ ht-degree: 54%
 
    ![](assets/email_designer_image_content.png)
 
-1. 다음에서 **[!UICONTROL 설정]** 탭을 클릭하고 **[!UICONTROL 찾아보기]** 에셋에서 이미지 파일을 선택하거나 **[!UICONTROL 미디어 가져오기]** Assets Essentials에 에셋을 업로드하려면
+1. 다음에서 **[!UICONTROL 설정]** 탭을 클릭하고 **[!UICONTROL 찾아보기]** 에셋에서 이미지 파일을 선택하거나 **[!UICONTROL 미디어 가져오기]** Adobe Experience Manager Assets에 에셋을 업로드합니다.
 
-   에 대해 자세히 알아보려면 [!DNL Assets Essentials], 참조 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   에 대해 자세히 알아보려면 [!DNL Adobe Experience Manager Assets], 참조 [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >

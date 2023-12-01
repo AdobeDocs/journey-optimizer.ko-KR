@@ -5,7 +5,7 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5dfdded39444678ef0266540d47e004b47f7e88d
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 38%
@@ -84,7 +84,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
       <img src="using/assets/do-not-localize/icon-content.svg" width="70px">
     </td>
     <td>
-      <strong>콘텐츠 관리</strong><br/><a href="using/content-management/assets-essentials.md">에셋/이미지</a> - <a href="using/personalization/personalize.md">개인화</a> - <a href="using/content-management/content-templates.md">재사용 가능</a> 및 <a href="using/personalization/dynamic-content.md">동적</a> 콘텐츠 - <a href="using/content-management/preview-test.md">콘텐츠 테스트 및 미리보기</a>
+      <strong>콘텐츠 관리</strong><br/><a href="using/content-management/assets.md">에셋/이미지</a> - <a href="using/personalization/personalize.md">개인화</a> - <a href="using/content-management/content-templates.md">재사용 가능</a> 및 <a href="using/personalization/dynamic-content.md">동적</a> 콘텐츠 - <a href="using/content-management/preview-test.md">콘텐츠 테스트 및 미리보기</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="70px">

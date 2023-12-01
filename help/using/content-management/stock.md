@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 스톡, 이미지, 통합, 사진
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 13%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 다음 **[!UICONTROL Adobe Stock 사진 찾기]** 및 **[!UICONTROL 유사한 이미지 찾기]** 옵션은 AEM Assets Essentials 제품 프로필에 대한 액세스 권한이 있는 사용자가 사용할 수 있습니다.
 
-자세한 내용은 다음을 참조하십시오. [Assets 필수 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
+자세한 내용은 다음을 참조하십시오. [Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## 에서 이미지 삽입 [!DNL Adobe Stock] {#add-stock-image}
 
@@ -96,7 +96,7 @@ ht-degree: 13%
 
    ![](assets/stock_6.png)
 
-1. 자산을 저장할 폴더를 선택합니다. 에 대한 자세한 내용 [!DNL Assets Essentials], 다음을 참조하십시오. [페이지](assets-essentials.md#get-started-assets-essentials).
+1. 자산을 저장할 폴더를 선택합니다. 에 대한 자세한 내용 [!DNL Experience Manager Assets], 다음을 참조하십시오. [페이지](assets.md#get-started-assets).
 
 ## 관련 항목{#stock-related-topics}
 
