@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '4527'
+source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 100%
 <td>
 <p>이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 단, 이 기능은 현재 Sinch에서만 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>자세한 내용은 <a href="../sms/create-sms.md#sms-content">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../sms/create-sms.md#mms-content">자세한 설명서</a>를 참조하세요.</p>
 </tr>
 </tbody>
 </table>
