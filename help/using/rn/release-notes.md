@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '4527'
 ht-degree: 100%
@@ -254,7 +254,7 @@ ht-degree: 100%
 
 **에셋**
 
-* 에셋에 대한 새 옵션을 사용하면 Journey Optimizer에서 에셋 저장소를 선택할 수 있습니다. 이 솔루션을 소유하고 있는 경우 Assets Essentials 저장소 또는 Assets as a Cloud Service 저장소를 선택할 수 있습니다. [자세히 알아보기](../content-management/assets-essentials.md)
+* 에셋에 대한 새 옵션을 사용하면 Journey Optimizer에서 에셋 저장소를 선택할 수 있습니다. 이 솔루션을 소유하고 있는 경우 Assets Essentials 저장소 또는 Assets as a Cloud Service 저장소를 선택할 수 있습니다. [자세히 알아보기](../content-management/assets.md)
 
 <!--**Decision management**
 
