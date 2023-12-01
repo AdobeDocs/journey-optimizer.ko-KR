@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS 메시지 만들기
-description: Journey Optimizer에서 SMS 메시지를 만드는 방법 알아보기
+title: SMS/MMS 메시지 만들기
+description: Journey Optimizer에서 SMS/MMS 메시지를 만드는 방법 알아보기
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 17%
+source-wordcount: '781'
+ht-degree: 15%
 
 ---
 
-# SMS 메시지 만들기 {#create-sms}
+# SMS/MMS 메시지 만들기 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="SMS 메시지 만들기"
 >abstract="SMS 메시지를 추가하고 표현식 편집기로 개인화를 시작합니다."
 
-## SMS 메시지 추가 {#create-sms-journey-campaign}
+## SMS/MMS 메시지 추가 {#create-sms-journey-campaign}
 
 아래 탭을 탐색하여 캠페인 또는 여정에 SMS 메시지를 추가하는 방법을 알아보십시오.
 
@@ -110,13 +110,30 @@ ht-degree: 17%
 
 1. 다음에서 `originalUrl` 필드를, 단축할 URL을 붙여넣고 **[!UICONTROL 저장]**.
 
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리보기에서 메시지를 확인합니다. 다음을 사용할 수 있습니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 축약된 URL 또는 개인화된 콘텐츠를 미리 볼 수 있습니다.
+
+   ![](assets/sms-content-preview.png)
+
+
+
+## MMS 콘텐츠 정의{#mms-content}
+
+SMS 채널을 사용하면 MMS(멀티미디어 메시지 서비스) 메시지를 전송하여 고객과 이미지, GIF 또는 비디오를 공유할 수 있으므로 커뮤니케이션을 향상시킬 수 있습니다.
+
+
+>[!NOTE]
+>
+> 이 기능은 현재 다음에서 사용할 수 있습니다. **Sinch** 만 해당.
+>
+> MMS 채널에는 다음과 같은 몇 가지 제한 사항이 있습니다. [이 페이지](../start/guardrails.md#sms-guardrails).
+
+MMS 콘텐츠를 만들려면 다음 단계를 수행합니다.
+
+1. 에 설명된 대로 SMS를 만듭니다 [이 섹션](#create-sms-journey-campaign).
+
+1. 에 자세히 설명된 대로 SMS 콘텐츠를 편집합니다. [이 섹션](#sms-content).
+
 1. SMS 콘텐츠에 미디어를 추가하려면 MMS 옵션을 활성화합니다.
-
-   MMS는에 나열된 몇 가지 제한 사항이 있습니다. [이 페이지](../start/guardrails.md#sms-guardrails).
-
-   >[!NOTE]
-   >
-   > MMS 옵션은 Sinch에서만 사용할 수 있습니다. MMS를 만들려면 특정 API 자격 증명을 만들어야 합니다. [자세히 알아보기](sms-configuration.md#create-new-api)
 
    ![](assets/sms_create_6.png)
 
@@ -128,15 +145,16 @@ ht-degree: 17%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리보기에서 메시지를 확인합니다. 다음을 사용할 수 있습니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 축약된 URL 또는 개인화된 콘텐츠를 미리 볼 수 있습니다.
 
-   ![](assets/sms-content-preview.png)
+## 메시지 테스트 및 보내기 {#sms-mms-test}
 
 이제 SMS 메시지를 테스트하고 대상자에게 보낼 수 있습니다. [자세히 알아보기](send-sms.md)
+
+
 전송되면 캠페인 또는 여정 보고서 내에서 SMS의 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../reports/campaign-global-report.md#sms-tab)을 참조하십시오.
 
 >[!NOTE]
 >
 >업계 표준 및 규정에 따라 모든 SMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이를 위해 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. [옵트아웃 관리 방법 알아보기](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
-
 **관련 항목**
 
 * [SMS 메시지 미리 보기, 테스트 및 보내기](send-sms.md)
