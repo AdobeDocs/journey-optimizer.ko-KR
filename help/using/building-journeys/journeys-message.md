@@ -9,21 +9,21 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 898ad9dadd2d9e71e6881113730ac469a36257bc
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 23%
+source-wordcount: '1167'
+ht-degree: 14%
 
 ---
 
-# 이메일, 인앱, 푸시, SMS{#add-a-message-in-a-journey}
+# 이메일, 인앱, 푸시, SMS/MMS{#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="메시지 활동"
->abstract="Journey Optimizer에는 메시지 기능이 내장되어 있습니다. 여정에 푸시, SMS, 인앱 또는 이메일 메시지 활동을 추가하고 설정과 콘텐츠를 정의하기만 하면 됩니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
+>abstract="Journey Optimizer에는 메시지 기능이 내장되어 있습니다. 여정에서 푸시, 문자 메시지(SMS/MMS), 인앱 또는 이메일 메시지 활동을 추가하고 설정 및 콘텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
 
-[!DNL Journey Optimizer] 에는 내장 메시지 기능이 함께 제공됩니다. 여정에 푸시, SMS, 인앱 또는 이메일 메시지 활동을 추가하고 설정과 콘텐츠를 정의하기만 하면 됩니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다.
+[!DNL Journey Optimizer] 에는 내장 메시지 기능이 함께 제공됩니다. 푸시, SMS/MMS, 인앱 또는 이메일 메시지 활동을 여정에 추가하고 설정 및 콘텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다.
 
 메시지를 보내기 위한 특정 작업을 설정할 수도 있습니다.
 
@@ -48,7 +48,7 @@ ht-degree: 23%
    <a href="../email/create-email.md">
    <img alt="리드" src="../assets/do-not-localize/email.jpg">
    </a>
-   <div><a href="../email/create-email.md"><strong>이메일 만들기</strong>
+   <div><a href="../email/create-email.md"><strong>이메일 작성</strong>
    </div>
    <p>
    </td>
@@ -74,7 +74,7 @@ ht-degree: 23%
    <img alt="유효성 검사" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>SMS 메시지 만들기</strong></a>
+   <a href="../sms/create-sms.md"><strong>문자 메시지(SMS/MMS) 만들기</strong></a>
    </div>
    <p>
    </td>
@@ -106,7 +106,7 @@ ht-degree: 23%
 
 ### 전송 시간 최적화 정보 {#about-send-time}
 
-Adobe의 AI 서비스에서 제공하는 Adobe Journey Optimizer의 전송 시간 최적화 기능은 기록 열기와 클릭률을 기반으로 이메일 또는 푸시 메시지를 전송하는 최적의 시간을 예측하여 참여도를 극대화할 수 있습니다. 머신 러닝 모델을 사용하여 각 사용자에 대해 개인화된 전송 시간을 예약하여 메시지 열람률과 클릭률을 높일 수 있습니다.
+Adobe의 AI 서비스를 기반으로 하는 Adobe Journey Optimizer의 전송 시간 최적화 기능을 사용하면 이메일 또는 푸시 메시지를 보내는 가장 적합한 시간을 예측하여 과거의 열기 및 클릭률을 기반으로 참여를 극대화할 수 있습니다. 머신 러닝 모델을 사용하여 각 사용자에 대해 개인화된 전송 시간을 예약하여 메시지 열람률과 클릭률을 높일 수 있습니다.
 
 전송 시간 최적화 모델은 Adobe Journey Optimizer 데이터를 수집하고 사용자 수준의 열기(이메일 및 푸시의 경우) 및 클릭(이메일의 경우) 비율을 확인하여 고객이 메시징에 가장 많이 참여할 가능성이 있는 시기를 결정합니다. 전송 시간 최적화를 사용하려면 정보에 입각한 권장 사항을 제공하기 위해 최소 1개월 이상의 메시지 추적 데이터가 필요합니다. 각 사용자에 대해 시스템은 다음 점수를 사용하여 최적의 시간을 자동으로 선택합니다.
 
@@ -159,7 +159,7 @@ Adobe의 AI 서비스에서 제공하는 Adobe Journey Optimizer의 전송 시�
 
 ![](../building-journeys/assets/jo-message5.png)
 
-이메일 메시지의 경우 적절한 라디오 버튼을 선택하여 이메일 열기에서 최적화할지 이메일 클릭스루에서 최적화할지 여부를 선택합니다. 클릭은 푸시 메시지에 적용할 수 없으므로 푸시 메시지의 기본값은 열기 옵션으로 설정됩니다.
+이메일 메시지의 경우 적절한 라디오 버튼을 선택하여 이메일 열기에서 최적화할지 이메일 클릭스루에서 최적화할지 여부를 선택합니다. 푸시 메시지에 클릭 수를 적용할 수 없으므로 푸시 메시지는 기본적으로 열기 옵션으로 설정됩니다.
 
 에 대한 값을 입력하여 시스템에서 사용하는 전송 시간의 대괄호를 지정하도록 선택할 수도 있습니다. **다음 날짜 이내에 전송** 옵션을 선택합니다. &quot;6시간&quot;을 값으로 선택하면 [!DNL Journey Optimizer] 은(는) 각 사용자 프로필을 확인하고 여정 실행 시간으로부터 6시간 이내에 최적의 전송 시간을 선택합니다.
 
