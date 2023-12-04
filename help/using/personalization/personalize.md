@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer에서 콘텐츠 개인화
-description: 개인화 시작.
+description: 개인화를 시작합니다.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 5ac3797db8115180094cc97f06ec330839a7a5ff
+source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 35%
+source-wordcount: '412'
+ht-degree: 33%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 35%
 >id="ajo_homepage_card5"
 >title="개인화 경험"
 >abstract="**Adobe Journey Optimizer**&#x200B;를 사용하면 수신자에 대한 데이터와 정보를 활용하여 각 수신자에 맞게 메시지를 적응할 수 있습니다. 이는 이름, 관심사, 거주지, 구입한 제품 등이 될 수 있습니다."
-
 
 검색 [!DNL Adobe Journey Optimizer] 관련된 데이터 및 정보를 활용하여 메시지를 각 특정 수신자에게 적용하는 개인화 기능. 이는 이름, 관심사, 거주지, 구입한 제품 등이 될 수 있습니다.
 
@@ -57,7 +56,7 @@ ht-degree: 35%
 
 [!DNL Journey Optimizer] 는 모든 데이터를 선택, 정렬, 사용자 지정 및 확인하여 콘텐츠에 대한 사용자 지정된 개인화를 만들 수 있는 표현식 편집기를 제공합니다.
 
-개인화 콘텐츠를 작성하는 데 도움이 되는 몇 가지 도구(도우미 함수, 사전 정의된 표현식 라이브러리, 속성 즐겨찾기...)를 사용할 수 있습니다.
+felper 함수, 사전 정의된 표현식 라이브러리, 속성 즐겨찾기 등과 같은 몇 가지 도구를 사용하여 개인화 콘텐츠를 작성할 수 있습니다.
 
 자세히 알아보기 [!DNL Journey Optimizer] 표현식 편집기 [이 섹션](personalization-build-expressions.md)
 

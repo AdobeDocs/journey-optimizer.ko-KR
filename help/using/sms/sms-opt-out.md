@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS 옵트아웃 관리
-description: SMS 메시지로 옵트아웃을 관리하는 방법 알아보기
+title: 텍스트 메시지에 대한 옵트아웃 관리
+description: SMS/MMS 메시지로 옵트아웃을 관리하는 방법 알아보기
 feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 26%
+source-wordcount: '452'
+ht-degree: 25%
 
 ---
 
-# SMS 옵트아웃 관리 {#sms-opt-out}
+# 텍스트 메시지에 대한 옵트아웃 관리 {#sms-opt-out}
 
 업계 표준 및 규정에 따라 모든 SMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. [개인 정보 및 옵트아웃 관리에 대해 자세히 알아보기](../privacy/opt-out.md)
 
@@ -46,7 +46,7 @@ Adobe Journey Optimizer이 옵트아웃 상태(Twilio 또는 Sinch와의 직접 
 
 ## 영문과 숫자로 구성된 발신자 ID {#alphanumeric}
 
-영문과 숫자로 구성된 발신자 ID는 단방향 통신 전용이며 인바운드 메시지를 받을 수 없습니다. 따라서 Adobe Journey Optimizer의 SMS STOP, START, HELP 키워드는 Alpha Sender ID에 적용할 수 없습니다. 사용자가 영문과 숫자로 구성된 발신자 ID를 통해 발송된 메시지를 거부할 수 있도록 지원 팀에 문의하거나, 지원 팀에 전화하거나, 다른 전화 번호 또는 코드를 문자로 보내는 등의 다른 지침을 제공해야 합니다.
+영문과 숫자로 구성된 발신자 ID는 단방향 통신 전용이며 인바운드 메시지를 받을 수 없습니다. 따라서 Adobe Journey Optimizer의 SMS STOP, START, HELP 키워드는 Alpha 발신자 ID에 적용할 수 없습니다. 사용자가 영문과 숫자로 구성된 발신자 ID를 통해 발송된 메시지를 거부할 수 있도록 지원 팀에 문의하거나, 지원 팀에 전화하거나, 다른 전화 번호 또는 코드를 문자로 보내는 등의 다른 지침을 제공해야 합니다.
 
 ## 비디오 {#video-sms}
 

@@ -5,16 +5,16 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 38%
+source-wordcount: '354'
+ht-degree: 30%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] 설명서 {#cjm-documentation}
 
-## 새로운 기능
+## 새로운 기능?
 
 Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세 정보를 확인하십시오 [릴리스 정보](using/rn/release-notes.md).  다음을 방문하여 설명서의 최신 변경 사항을 최신 상태로 유지하십시오. [설명서 업데이트 페이지](using/rn/documentation-updates.md).
 
@@ -24,13 +24,13 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 샌드박스 도구를 사용하면 패키지 내보내기 및 가져오기를 활용하여 여러 샌드박스 간에 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
 
-[![image](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+[![이미지](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB SMS를 통한 MMS(멀티미디어 메시지 서비스)]
+>[!TAB 멀티미디어 메시지 서비스(MMS)]
 
 이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 단, 이 기능은 현재 Sinch에서만 사용할 수 있습니다.
 
-[![image](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#sms-content)
+[![이미지](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#sms-content)
 
 >[!ENDTABS]
 

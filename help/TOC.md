@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 99%
+source-wordcount: '1717'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
    + [초기 릴리스 정보](using/rn/e-release-notes.md)
    + [최신 릴리스 정보](using/rn/release-notes.md)
    + 이전 릴리스 정보 {#previous-rn-new}
+      + [2023 릴리스 정보](using/rn/release-notes-2023.md)
       + [2022년 릴리스 정보](using/rn/release-notes-2022.md)
       + [2021년 릴리스 정보](using/rn/release-notes-2021.md)
    + [설명서 업데이트](using/rn/documentation-updates.md)
@@ -215,12 +216,12 @@ ht-degree: 99%
       + [푸시 알림 흐름](using/push/push-gs.md)
       + [푸시 알림 채널 구성](using/push/push-configuration.md)
       + [모바일 온보딩 빠른 시작 워크플로우](using/push/mobile-onboarding-wf.md)
-+ SMS 채널{#sms}
-   + [SMS 시작](using/sms/get-started-sms.md)
-   + [SMS 메시지 만들기](using/sms/create-sms.md)
++ SMS / MMS 채널{#sms}
+   + [문자 메시지 시작](using/sms/get-started-sms.md)
+   + [문자 메시지 만들기](using/sms/create-sms.md)
    + [MMS 메시지 만들기 ](using/sms/create-mms.md)
-   + [SMS 확인하고 보내기](using/sms/send-sms.md)
-   + [SMS 옵트아웃 관리](using/sms/sms-opt-out.md)
+   + [문자 메시지 확인 및 보내기](using/sms/send-sms.md)
+   + [문자 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
    + [SMS 채널 구성](using/sms/sms-configuration.md)
    + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
 + 다이렉트 메일 {#direct-mail}
@@ -234,7 +235,7 @@ ht-degree: 99%
       + [웹 채널 전제 조건](using/web/web-prerequisites.md)
       + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
    + [웹 경험 만들기 ](using/web/create-web.md)
-   + 웹 페이지 작성  {#author-web-pages}
+   + 웹 페이지 작성 {#author-web-pages}
       + [웹 페이지 콘텐츠 편집](using/web/edit-web-content.md)
       + [수정 사항 관리](using/web/manage-web-modifications.md)
       + [웹 캠페인 모니터링](using/web/monitor-web-campaigns.md)
