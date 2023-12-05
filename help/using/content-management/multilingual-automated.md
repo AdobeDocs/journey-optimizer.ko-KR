@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 다국어 콘텐츠 시작
-description: Journey Optimizer의 다국어 콘텐츠에 대해 자세히 알아보기
+description: Journey Optimizer 다국어 콘텐츠에 대해 자세히 알아보기
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -10,10 +10,11 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 hide: true
 hidefromtoc: true
-source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
+exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
+source-git-commit: 75dd439fc221257a2480ea7bdcb94f56227ce1d3
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 1%
+source-wordcount: '1315'
+ht-degree: 3%
 
 ---
 
@@ -88,6 +89,14 @@ ht-degree: 1%
    ![](assets/translation_project_3.png)
 
 1. 목록에서 을(를) 선택합니다 **[!UICONTROL 대상 로케일]** 및 선택 **[!UICONTROL 번역 공급업체]** 각 로케일에 를 사용합니다.
+
+   **[!UICONTROL 번역 공급업체]** 설정에서 액세스할 수 있습니다. **[!UICONTROL 번역]** 의 메뉴 **[!UICONTROL 관리]** 메뉴 섹션.
+
+   >[!NOTE]
+   >
+   >번역 공급업체와의 계약 관리는 이 기능의 범위를 벗어납니다. 지정된 번역 파트너와 유효하고 유효한 계약을 체결했는지 확인하십시오.
+   >
+   ></br>번역 제공업체는 번역된 콘텐츠의 품질에 대한 소유권을 갖습니다.
 
 1. 클릭 **[!UICONTROL 로케일 추가]** 를 클릭합니다. 이때 Target 로케일과 올바른 번역 공급업체를 연결했습니다. 그런 다음 을 클릭합니다. **[!UICONTROL 저장]**.
 
