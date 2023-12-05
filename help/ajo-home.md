@@ -5,7 +5,7 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 34bfaf6b161b13e881fbcb88c343c1b424072752
+source-git-commit: 565163872bcd88df50d464a42093f5523daa5eb1
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 30%
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 ## 새로운 기능?
 
-Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세 정보를 확인하십시오 [릴리스 정보](using/rn/release-notes.md).  다음을 방문하여 설명서의 최신 변경 사항을 최신 상태로 유지하십시오. [설명서 업데이트 페이지](using/rn/documentation-updates.md).
+Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세 정보를 확인하십시오 [릴리스 정보](using/rn/release-notes.md). 다음을 방문하여 설명서의 최신 변경 사항을 최신 상태로 유지하십시오. [설명서 업데이트 페이지](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -84,7 +84,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>콘텐츠 관리</strong><br/><a href="using/content-management/assets-essentials.md">에셋/이미지</a> - <a href="using/personalization/personalize.md">개인화</a> - <a href="using/content-management/content-templates.md">재사용 가능</a> 및 <a href="using/personalization/dynamic-content.md">동적</a> 콘텐츠 - <a href="using/content-management/preview-test.md">콘텐츠 테스트 및 미리보기</a>
+      <strong>콘텐츠 관리</strong><br/><a href="using/content-management/assets.md">에셋/이미지</a> - <a href="using/personalization/personalize.md">개인화</a> - <a href="using/content-management/content-templates.md">재사용 가능</a> 및 <a href="using/personalization/dynamic-content.md">동적</a> 콘텐츠 - <a href="using/content-management/preview-test.md">콘텐츠 테스트 및 미리보기</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
