@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
+source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '908'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->여정에서 이메일을 보내는 경우 Adobe Journey Optimizer의 전송 시간 최적화 기능을 활용하여 과거의 열기 및 클릭률을 기반으로 참여를 극대화하기 위해 메시지를 보내는 최상의 시간을 예측할 수 있습니다. [전송 시간 최적화를 사용하여 작업하는 방법에 대해 알아봅니다](../building-journeys/journeys-message.md#send-time-optimization)
+>전송 시간 최적화 옵션을 사용하여 메시지를 보내는 가장 적합한 시간을 예측하여 기록 열기 및 클릭률에 따라 참여를 극대화할 수 있습니다. [전송 시간 최적화를 사용하여 작업하는 방법에 대해 알아봅니다](../building-journeys/journeys-message.md#send-time-optimization)
 
 여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md).
 
