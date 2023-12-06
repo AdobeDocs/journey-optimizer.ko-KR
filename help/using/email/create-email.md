@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 8%
+source-wordcount: '919'
+ht-degree: 7%
 
 ---
 
@@ -21,13 +21,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="이메일 작성"
->abstract="세 가지 간단한 단계로 이메일 매개변수를 정의합니다."
+>abstract="이메일 제목 줄을 정의하고 이메일 디자이너를 열어 이메일 콘텐츠를 만듭니다."
 
-에서 이메일을 만들려면 [!DNL Journey Optimizer]을(를) 통해 아래 단계를 수행합니다.
 
-## 여정 또는 캠페인에서 이메일 만들기 {#create-email-journey-campaign}
+## 이메일 작업 추가 {#email-action}
 
-추가 **[!UICONTROL 이메일]** 여정 또는 캠페인에 대한 작업을 수행하고, 사용 사례에 따라 아래 단계를 수행합니다.
+에서 이메일을 만들려면 [!DNL Journey Optimizer], 추가 **[!UICONTROL 이메일]** 여정 또는 캠페인에 대한 작업입니다. 그런 다음 사용 사례에 따라 아래 단계를 수행합니다.
 
 >[!BEGINTABS]
 
@@ -86,13 +85,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-1. 다음에서 **[!UICONTROL 머리글]** 의 섹션 **[!UICONTROL 콘텐츠 편집]** screen, **[!UICONTROL 보낸 사람 이름]**, **[!UICONTROL 보낸 사람 이메일]** 및 **[!UICONTROL 숨은 참조]** 필드는 선택한 이메일 표면에서 가져옵니다. [자세히 알아보기](email-settings.md) <!--check if same for journey-->
+   다음에서 **[!UICONTROL 머리글]** 의 섹션 **[!UICONTROL 콘텐츠 편집]** screen, **[!UICONTROL 보낸 사람 이름]**, **[!UICONTROL 보낸 사람 이메일]** 및 **[!UICONTROL 숨은 참조]** 필드는 선택한 이메일 표면에 구성됩니다. [자세히 알아보기](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. 제목 줄을 추가할 수 있습니다. 해당 필드에 직접 일반 텍스트를 입력하거나 [표현식 편집기](../personalization/personalization-build-expressions.md) 제목 줄을 개인화합니다.
+1. 메시지의 제목 줄을 추가합니다. 표현식 편집기로 제목 줄을 구성하고 개인화하려면 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
-1. 다음을 클릭합니다. **[!UICONTROL 이메일 본문 편집]** 단추를 클릭하여 콘텐츠 작성을 시작하십시오. [!DNL Journey Optimizer] 이메일 디자이너. [자세히 알아보기](get-started-email-design.md)
+1. 다음을 클릭합니다. **[!UICONTROL 이메일 본문 편집]** 단추를 클릭하여 이메일 디자이너에 액세스하고 콘텐츠 작성을 시작합니다. [자세히 알아보기](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
