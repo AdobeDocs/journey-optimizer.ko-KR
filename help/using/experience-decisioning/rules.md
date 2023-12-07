@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 40%
+ht-degree: 31%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 40%
 >title="의사 결정 규칙 만들기"
 >abstract="의사 결정 규칙을 사용하면 결정 항목 수준에서 직접 또는 특정 선택 전략 내에서 제한 사항을 적용하여 결정 항목의 대상자를 정의할 수 있습니다. 이를 통해 어떤 항목을 어떤 대상에게 제공할지 정확하게 제어할 수 있습니다."
 
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
+>[!BEGINSHADEBOX &quot;이 설명서 안내서에서 확인할 수 있는 사항&quot;]
 
 * [Experience Decisioning 시작](gs-experience-decisioning.md)
-* 결정 항목 관리
-   * [항목 카탈로그 구성](catalogs.md)
-   * [결정 항목 만들기](items.md)
-   * [항목 컬렉션 관리](collections.md)
-* 항목 선택 구성
-   * **[의사 결정 규칙 만들기](rules.md)**
-   * [등급 메서드 만들기](ranking.md)
+* 의사 결정 항목 관리: [항목 카탈로그 구성](catalogs.md) - [의사 결정 항목 만들기](items.md) - [항목 컬렉션 관리](collections.md)
+* 항목의 선택 사항 구성: **[의사 결정 규칙 만들기](rules.md)** - [등급 메서드 만들기](ranking.md)
 * [선택 전략 만들기](selection-strategies.md)
 * [결정 정책 만들기](create-decision.md)
 

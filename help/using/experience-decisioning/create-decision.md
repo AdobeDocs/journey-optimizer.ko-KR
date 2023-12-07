@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 20%
+source-wordcount: '1290'
+ht-degree: 14%
 
 ---
 
@@ -24,20 +24,13 @@ ht-degree: 20%
 >abstract="결정 정책은 경험 결정 엔진을 활용하여 대상자에 따라 게재할 최고의 콘텐츠를 선택합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="경험 결정 정보"
 
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
+>[!BEGINSHADEBOX &quot;이 설명서 안내서에서 확인할 수 있는 사항&quot;]
 
 * [Experience Decisioning 시작](gs-experience-decisioning.md)
-* 결정 항목 관리
-   * [항목 카탈로그 구성](catalogs.md)
-   * [결정 항목 만들기](items.md)
-   * [항목 컬렉션 관리](collections.md)
-* 항목 선택 구성
-   * [의사 결정 규칙 만들기](rules.md)
-   * [등급 메서드 만들기](ranking.md)
+* 의사 결정 항목 관리: [항목 카탈로그 구성](catalogs.md) - [의사 결정 항목 만들기](items.md) - [항목 컬렉션 관리](collections.md)
+* 항목의 선택 사항 구성: [의사 결정 규칙 만들기](rules.md) - [등급 메서드 만들기](ranking.md)
 * [선택 전략 만들기](selection-strategies.md)
-* **[결정 정책 만들기](create-decision.md)**
+* **[의사 결정 정책 만들기](create-decision.md)**
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +79,7 @@ ht-degree: 20%
 
    ![](assets/decision-code-based-details.png)
 
-1. 반환할 항목 수를 선택합니다. 예를 들어 항목 2개를 선택하면 현재 표면에 대한 적격 제안 2개가 표시됩니다. **[!UICONTROL 다음]**&#x200B;을 클릭합니다
+1. 반환할 항목 수를 선택합니다. 예를 들어 2를 선택하면 현재 표면에 대해 가장 적합한 2개의 오퍼가 표시됩니다. 클릭 **[!UICONTROL 다음]**
 
 1. 사용 **[!UICONTROL 전략 추가]** 단추를 클릭하여 의사 결정 정책에 대한 선택 전략을 정의합니다. 각 전략은 자격 제한 사항과 관련된 오퍼 컬렉션 및 표시할 오퍼를 결정하는 등급 메서드로 구성됩니다. [자세히 알아보기](selection-strategies.md)
 

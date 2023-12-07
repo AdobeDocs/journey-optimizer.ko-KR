@@ -8,30 +8,22 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 18%
+source-wordcount: '394'
+ht-degree: 10%
 
 ---
 
 # Experience Decisioning 사용 사례 {#experience-decisioning-uc}
 
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
+>[!BEGINSHADEBOX &quot;이 설명서 안내서에서 확인할 수 있는 사항&quot;]
 
 * [Experience Decisioning 시작](gs-experience-decisioning.md)
-* 결정 항목 관리
-   * [항목 카탈로그 구성](catalogs.md)
-   * [결정 항목 만들기](items.md)
-   * [항목 컬렉션 관리](collections.md)
-* 항목 선택 구성
-   * [의사 결정 규칙 만들기](rules.md)
-   * [등급 메서드 만들기](ranking.md)
+* 의사 결정 항목 관리: [항목 카탈로그 구성](catalogs.md) -[의사 결정 항목 만들기](items.md) - [항목 컬렉션 관리](collections.md)
+* 항목의 선택 사항 구성: [의사 결정 규칙 만들기](rules.md) - [등급 메서드 만들기](ranking.md)
 * [선택 전략 만들기](selection-strategies.md)
 * [결정 정책 만들기](create-decision.md)
-* **[사용 사례를 통해 알아보기](experience-decisioning-uc.md)**
 
 >[!ENDSHADEBOX]
 
@@ -74,7 +66,7 @@ ht-degree: 18%
 
 1. 의사 결정에 대한 선택 전략을 정의합니다. 클릭 **[!UICONTROL 전략 추가]**.
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 새 결정은 아래에 추가됩니다. **[!UICONTROL 결정]**.
+1. Click **[!UICONTROL Create]**. 새 결정은 아래에 추가됩니다. **[!UICONTROL 결정]**.
 
    ![](assets/decision-code-based-decision-added.png)
 

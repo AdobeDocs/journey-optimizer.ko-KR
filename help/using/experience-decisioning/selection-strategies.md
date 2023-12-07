@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 27%
+source-wordcount: '773'
+ht-degree: 19%
 
 ---
 
@@ -31,18 +31,11 @@ ht-degree: 27%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="대상자 사용"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="의사 결정 규칙 사용"
 
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
+>[!BEGINSHADEBOX &quot;이 설명서 안내서에서 확인할 수 있는 사항&quot;]
 
 * [Experience Decisioning 시작](gs-experience-decisioning.md)
-* 결정 항목 관리
-   * [항목 카탈로그 구성](catalogs.md)
-   * [결정 항목 만들기](items.md)
-   * [항목 컬렉션 관리](collections.md)
-* 항목 선택 구성
-   * [의사 결정 규칙 만들기](rules.md)
-   * [등급 메서드 만들기](ranking.md)
+* 의사 결정 항목 관리: [항목 카탈로그 구성](catalogs.md) - [의사 결정 항목 만들기](items.md) - [항목 컬렉션 관리](collections.md)
+* 항목의 선택 사항 구성: [의사 결정 규칙 만들기](rules.md) - [등급 메서드 만들기](ranking.md)
 * **[선택 전략 만들기](selection-strategies.md)**
 * [결정 정책 만들기](create-decision.md)
 
@@ -84,6 +77,8 @@ ht-degree: 27%
 
 1. 다음 항목 선택 [컬렉션](collections.md) 고려할 오퍼가 포함되어 있습니다.
 
+1. 오퍼 선택 [컬렉션](collections.md) 고려할 오퍼가 포함되어 있습니다.
+
 1. 사용 **[!UICONTROL 자격 요건]** 이 선택 전략에 대한 오퍼 선택을 제한하는 필드.
 
    ![](assets/strategy-create-eligibility.png)
@@ -100,7 +95,7 @@ ht-degree: 27%
 
    * 특정 계산된 점수를 사용하여 게재할 적격 오퍼를 선택하려면 다음을 선택합니다. [공식](#ranking-formula) 또는 [AI 모델](#ai-ranking).
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 이제 사용할 준비가 되었습니다. [결정](create-decision.md)
+1. Click **[!UICONTROL Create]**. 이제 사용할 준비가 되었습니다. [결정](create-decision.md)
 
 ## 순위 지정 방법 선택 {#select-ranking-method}
 

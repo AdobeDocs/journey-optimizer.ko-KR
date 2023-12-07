@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 33%
+source-wordcount: '1007'
+ht-degree: 26%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 33%
 >abstract="Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼를 생성하여 중앙 집중식 카탈로그 및 컬렉션으로 구성할 수 있습니다. 현재 생성된 모든 결정 항목은 단일 “오퍼” 카탈로그 내에 통합되어 있습니다. 이 화면에서 **스키마 편집** 버튼을 사용하여 카탈로그의 스키마에 액세스하고 결정 항목에 대한 사용자 정의 속성을 생성할 수도 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="항목 카탈로그 구성"
 
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
+>[!BEGINSHADEBOX &quot;이 설명서 안내서에서 확인할 수 있는 사항&quot;]
 
 * [Experience Decisioning 시작](gs-experience-decisioning.md)
-* 결정 항목 관리
-   * [항목 카탈로그 구성](catalogs.md)
-   * **[결정 항목 만들기](items.md)**
-   * [항목 컬렉션 관리](collections.md)
-* 항목 선택 구성
-   * [의사 결정 규칙 만들기](rules.md)
-   * [등급 메서드 만들기](ranking.md)
+* 의사 결정 항목 관리: [항목 카탈로그 구성](catalogs.md) - **[의사 결정 항목 만들기](items.md)** - [항목 컬렉션 관리](collections.md)
+* 항목의 선택 사항 구성: [의사 결정 규칙 만들기](rules.md) - [등급 메서드 만들기](ranking.md)
 * [선택 전략 만들기](selection-strategies.md)
 * [결정 정책 만들기](create-decision.md)
 
@@ -103,7 +96,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
    * 특정 결정 규칙을 결정 항목에 연결하려면 다음을 선택합니다. **[!UICONTROL 규칙별]**&#x200B;을 클릭한 다음 왼쪽 창에서 중앙 영역으로 원하는 규칙을 드래그합니다. [의사 결정 규칙에 대해 자세히 알아보기](rules.md).
 
-   대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
+   대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
 
    >[!NOTE]
    >
@@ -130,6 +123,6 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
   >[!IMPORTANT]
   >
-  >삭제하면 결정 항목과 해당 콘텐츠에 더 이상 액세스할 수 없습니다. 이 작업은 실행 취소할 수 없습니다. 결정 항목이 컬렉션이나 결정에 사용되는 경우 삭제할 수 없습니다. 먼저 오브젝트에서 결정 항목을 제거해야 합니다.
+  >삭제하면 결정 항목과 해당 콘텐츠에 더 이상 액세스할 수 없습니다. 이 작업은 취소할 수 없습니다. 결정 항목이 컬렉션이나 결정에 사용되는 경우 삭제할 수 없습니다. 먼저 오브젝트에서 결정 항목을 제거해야 합니다.
 
 * **[!UICONTROL 보관]**: 결정 항목 상태를 다음으로 설정합니다. **[!UICONTROL 보관됨]**. 결정 항목은 여전히 목록에서 사용할 수 있지만 상태를 다시 로 설정할 수 없습니다. **[!UICONTROL 초안]** 또는 **[!UICONTROL 승인됨]**. 복제하거나 삭제할 수만 있습니다.

@@ -9,27 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 18%
+ht-degree: 7%
 
 ---
 
 # Experience Decisioning 시작 {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX &quot;이 설명서 안내서에서 확인할 수 있는 사항&quot;]
 
-이 설명서의 내용:
-
-* **[Experience Decisioning 시작](gs-experience-decisioning.md)**
-* 결정 항목 관리
-   * [항목 카탈로그 구성](catalogs.md)
-   * [결정 항목 만들기](items.md)
-   * [항목 컬렉션 관리](collections.md)
-* 항목 선택 구성
-   * [의사 결정 규칙 만들기](rules.md)
-   * [등급 메서드 만들기](ranking.md)
+* **[Experience Decisioning 시작하기](gs-experience-decisioning.md)**
+* 의사 결정 항목 관리: [항목 카탈로그 구성](catalogs.md) - [의사 결정 항목 만들기](items.md) - [항목 컬렉션 관리](collections.md)
+* 항목의 선택 사항 구성: [의사 결정 규칙 만들기](rules.md) - [등급 메서드 만들기](ranking.md)
 * [선택 전략 만들기](selection-strategies.md)
 * [결정 정책 만들기](create-decision.md)
 
