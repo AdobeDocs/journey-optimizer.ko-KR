@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 다국어 콘텐츠 시작
-description: Journey Optimizer의 다국어 콘텐츠에 대해 자세히 알아보기
+description: Journey Optimizer 다국어 콘텐츠에 대해 자세히 알아보기
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -10,10 +10,12 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
+exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
+badge: label="Beta" type="Informative"
+source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 1%
+source-wordcount: '660'
+ht-degree: 6%
 
 ---
 
