@@ -10,11 +10,12 @@ level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 94a3eb47d3b1cd8bafe146f65843acf8393fa69c
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 8%
+source-wordcount: '1522'
+ht-degree: 7%
 
 ---
 
@@ -296,7 +297,7 @@ IP 준비 계획을 만들려면 아래 단계를 수행합니다.
    >
    >업로드가 실패할 경우 올바른 형식 및 파일 형식(.xls 또는 .xlsx)을 사용하고 있는지 확인하십시오. 제공된 샘플을 Adobe으로 사용하십시오.
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 업로드한 파일에 정의된 모든 단계, 실행, 열 및 해당 콘텐츠가 [!DNL Journey Optimizer] 인터페이스.
+1. Click **[!UICONTROL Create]**. 업로드한 파일에 정의된 모든 단계, 실행, 열 및 해당 콘텐츠가 [!DNL Journey Optimizer] 인터페이스.
 
    ![](assets/ip-warmup-plan-uploaded.png)
 

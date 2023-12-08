@@ -10,11 +10,12 @@ level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 15%
+source-wordcount: '2141'
+ht-degree: 14%
 
 ---
 
@@ -332,7 +333,7 @@ IP 준비 계획이 예상대로 수행되지 않는 경우(예: 일부 ISP에�
 >
 >IP 준비 계획 세부 사항은 새로 업로드한 파일에 따라 변경됩니다. 이전에 실행된 실행(실행 수에 상관없이) [상태](#monitor-plan))은 영향을 받지 않습니다.
 
-예를 살펴보겠습니다:
+예를 들어 보겠습니다.
 
 * 초기 IP 웜업 계획으로 2단계는 9번의 실행을 수행했습니다.
 
