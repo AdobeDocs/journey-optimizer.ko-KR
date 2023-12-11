@@ -8,15 +8,15 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 30%
+ht-degree: 78%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] 설명서 {#cjm-documentation}
 
-## 새로운 기능?
+## 새로운 기능
 
-Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세 정보를 확인하십시오 [릴리스 정보](using/rn/release-notes.md). 다음을 방문하여 설명서의 최신 변경 사항을 최신 상태로 유지하십시오. [설명서 업데이트 페이지](using/rn/documentation-updates.md).
+Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세 정보를 확인하십시오 [릴리스 정보](using/rn/release-notes.md). 설명서의 최근 변경 사항은 [설명서 업데이트 페이지](using/rn/documentation-updates.md)를 방문하여 확인할 수 있습니다.
 
 >[!BEGINTABS]
 
@@ -34,26 +34,26 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!ENDTABS]
 
-## 기본 사항으로 시작
+## 기본 사항부터 시작
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
     <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
-    <div><strong>빠른 시작 안내서</strong><br/>역할에 따라 개인화된 접근 방식으로 Journey Optimizer에서 더 빨리 목표를 달성하는 방법을 알아봅니다.</div>
+    <div><strong>빠른 시작 안내서</strong><br/>사용자의 역할에 따라 개인화된 접근 방식으로 Journey Optimizer에서 더 빨리 목표를 달성하는 방법을 알아봅니다.</div>
     </td>
     <td>
     <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>사용자 인터페이스</strong><br/>Journey Optimizer에서 경험을 탐색하고 최적화하는 방법을 알아봅니다.</div>
+    <div><strong>사용자 인터페이스</strong><br/>Journey Optimizer 경험을 탐색하고 최적화하는 방법을 알아봅니다.</div>
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>첫 번째 여정 만들기</strong><br/>개인화된 옴니채널 여정을 디자인하고 오케스트레이션하여 마케팅 활동과 일대일 고객 참여를 조화시킵니다. 
+    <div><strong>첫 번째 여정 만들기</strong><br/>개인화된 옴니채널 여정을 디자인하고 오케스트레이션하여 마케팅 활동과 일대일 고객 참여를 조화롭게 조정합니다. 
     </div>
     </td>
     <td>
     <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong>첫 번째 캠페인 시작</strong><br/>Journey Optimizer에서 첫 번째 캠페인을 만들고 시작하여 타겟팅된 일회성 콘텐츠를 특정 대상자에게 전달할 수 있습니다.</div>
+    <div><strong>첫 번째 캠페인 시작</strong><br/>Journey Optimizer에서 첫 번째 캠페인을 만들고 시작하여 타겟팅에 적절하게 만든 일회성 콘텐츠를 특정 대상자에게 게재할 수 있습니다.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -101,7 +101,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko-KR" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">제품 설명</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">보안 개요(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API 참조</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko-KR" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">제품 설명</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">보안 개요(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API 참조</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko" target="_blank">설명서</a> - <a href="https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html" target="_blank">개발자 리소스</a>
@@ -109,4 +109,4 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 </tr></table>
 
 <table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>최신 정보를 얻고 Adobe Journey Optimizer 환경을 향상시키십시오!</b><br/>분기별 뉴스레터에 등록하십시오. 분기마다 최신 제품 업데이트, 매력적인 사례, 실제 사용 사례, 유용한 팁 등을 받은 편지함에 직접 액세스할 수 있습니다. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">지금 등록하십시오!</a></td></tr></table>
+<b>최신 정보를 확인해 더욱 편리한 Adobe Journey Optimizer 경험을 누리세요!</b><br/>계간 뉴스레터에 등록하세요. 분기마다 받은 편지함에 등록 고객 전용 최신 제품 업데이트, 매력적인 스토리, 실제 사용 사례, 유용한 팁 등이 직접 찾아옵니다. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">지금 등록하세요!</a></td></tr></table>

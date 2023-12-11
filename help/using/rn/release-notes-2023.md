@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 2023년 릴리스 정보
-description: Journey Optimizer 2023 릴리스 노트
+description: Journey Optimizer 2023년 릴리스 정보
 feature: Release Notes
 topic: Content Management
 role: User
@@ -11,13 +11,13 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
 workflow-type: tm+mt
 source-wordcount: '4125'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 2023년 릴리스 정보 {#release-notes-2023}
 
-이 페이지에는 의 기능 및 개선 사항이 모두 포함되어 있습니다. [!DNL Journey Optimizer] 2023년에 릴리스되었습니다.
+이 페이지에서는 2023년에 릴리스된 [!DNL Journey Optimizer]의 기능과 개선 사항 목록을 확인할 수 있습니다.
 
 ## 2023년 9월 릴리스 정보 {#sept-rn-2023}
 
