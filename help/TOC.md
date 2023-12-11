@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
    + [초기 릴리스 정보](using/rn/e-release-notes.md)
    + [최신 릴리스 정보](using/rn/release-notes.md)
    + 이전 릴리스 정보 {#previous-rn-new}
-      + [2023 릴리스 정보](using/rn/release-notes-2023.md)
+      + [2023년 릴리스 정보](using/rn/release-notes-2023.md)
       + [2022년 릴리스 정보](using/rn/release-notes-2022.md)
       + [2021년 릴리스 정보](using/rn/release-notes-2021.md)
    + [설명서 업데이트](using/rn/documentation-updates.md)
@@ -217,11 +217,11 @@ ht-degree: 97%
       + [푸시 알림 채널 구성](using/push/push-configuration.md)
       + [모바일 온보딩 빠른 시작 워크플로우](using/push/mobile-onboarding-wf.md)
 + SMS / MMS 채널{#sms}
-   + [문자 메시지 시작](using/sms/get-started-sms.md)
-   + [문자 메시지 만들기](using/sms/create-sms.md)
+   + [텍스트 메시지 시작](using/sms/get-started-sms.md)
+   + [텍스트 메시지 만들기](using/sms/create-sms.md)
    + [MMS 메시지 만들기 ](using/sms/create-mms.md)
-   + [문자 메시지 확인 및 보내기](using/sms/send-sms.md)
-   + [문자 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
+   + [텍스트 메시지 확인하고 보내기](using/sms/send-sms.md)
+   + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
    + [SMS 채널 구성](using/sms/sms-configuration.md)
    + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
 + 다이렉트 메일 {#direct-mail}
