@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 661ddb52e5264b5970a520bd27db0a81d5de4b7e
-workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1752'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 현재 MMS에는 메시지 피드백 동기화를 사용할 수 없습니다.
 * MMS에 대한 동의 관리는 SMS 채널 수준에서 작동합니다.
 
-## 단편 보호 기능 {#fragments-guardrails}
+## 조각 가드레일 {#fragments-guardrails}
 
 * 시각적 조각은 이메일 채널에만 사용할 수 있습니다.
 * 웹 및 인앱 채널에는 표현식 조각을 사용할 수 없습니다.
@@ -78,7 +78,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 사용자 정의 작업 {#custom-actions-g}
 
-* 모든 사용자 지정 작업, 호스트 및 샌드박스당 1분 간 300,000개의 호출 제한 이 정의됩니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 대상자 기반 여정에서 이를 고려하여 적절한 읽기 속도(사용자 정의 작업 사용 시 프로필 5,000개/초)를 정의해야 합니다. 필요한 경우 Capping/Throttling API를 통해 빈도 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
+* 모든 사용자 정의 작업의 호스트 및 샌드박스당 1분간 300,000개의 호출 빈도 제한이 정의됩니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 대상자 기반 여정에서 이를 고려하여 적절한 읽기 속도(사용자 정의 작업 사용 시 프로필 5,000개/초)를 정의해야 합니다. 필요한 경우 Capping/Throttling API를 통해 빈도 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
 * 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다. 
 * POST, PUT 및 GET 호출 메서드가 지원됩니다.
 * 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;로 시작해서는 안 됩니다.
