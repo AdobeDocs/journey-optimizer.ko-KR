@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '709'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Journey Optimizer에서 여정을 만든 후 Customer Journey Analytics는 플�
 
 [!DNL Adobe Journey Optimizer]에서 왼쪽 메뉴의 **[!UICONTROL Assets]** 섹션을 통해 [!DNL Adobe Experience Manager Assets]에 바로 액세스할 수 있습니다.
 
-자세히 알아보기 [JOURNEY OPTIMIZER + ADOBE EXPERIENCE MANAGER ASSETS](../content-management/assets.md).
+[Journey Optimizer + Adobe Experience Manager Assets](../content-management/assets.md)에 대해 자세히 알아봅니다.
 
 
 ## Adobe Stock {#integration-stock}
