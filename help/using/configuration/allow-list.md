@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 허용 목록, 목록, 안전, 구성
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1143'
 ht-degree: 15%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 15%
 
 >[!CAUTION]
 >
->현재 이 기능은 이메일 채널에만 적용됩니다. 프로덕션 및 비프로덕션 샌드박스에서 사용할 수 있습니다.
+>이 기능은 이메일 채널에만 적용됩니다. 프로덕션 및 비프로덕션 샌드박스에서 사용할 수 있습니다.
 
 예를 들어 실수가 발생할 수 있는 비프로덕션 인스턴스에서 허용 목록을 사용하면 원치 않는 메시지를 실제 고객 주소로 전송할 위험이 없으므로 테스트 목적으로 안전한 환경을 제공합니다.
 
 또한 허용 목록이 활성 상태이지만 비어 있는 경우 메일이 발송되지 않습니다. 따라서 중요한 문제가 발생하면 이 기능을 사용하여 모든 발신 커뮤니케이션을 중지할 수 있습니다. [!DNL Journey Optimizer] 문제를 해결할 때까지. 에 대해 자세히 알아보기 [허용 목록 논리](#logic).
 
-또한 Journey Optimizer을 활용할 수 있습니다 **비표시 REST API** 제외 및 허용 목록을 사용하여 보내는 메시지를 제어합니다. [Suppression REST API를 사용하여 작업하는 방법을 알아봅니다.](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
+또한 Journey Optimizer **Suppression REST API**&#x200B;를 활용하면 제외 및 허용 목록을 통해 보내는 메시지를 제어할 수 있습니다. [Suppression REST API를 사용하여 작업하는 방법을 알아봅니다.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 허용 목록 액세스 {#access-allowed-list}
 

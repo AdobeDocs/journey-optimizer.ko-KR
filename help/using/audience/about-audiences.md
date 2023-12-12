@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
+source-git-commit: 51c6717d5d5d317c4ff1040194f2e831bea89222
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 52%
+source-wordcount: '880'
+ht-degree: 48%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 52%
 >title="캠페인 대상자 선택"
 >abstract="이 목록에는 사용 가능한 모든 Adobe Experience Platform 대상자가 표시됩니다. 캠페인으로 타겟팅할 대상자를 선택합니다. 캠페인에 구성된 메시지는 선택한 대상자에 속한 모든 개인 사용자에게 전송됩니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)"
 
-[!DNL Journey Optimizer]의 **[!UICONTROL 대상자]** 메뉴에서 직접 실시간 고객 프로필 데이터를 사용하여 Adobe Experience Platform 대상자를 작성하고 활용하며 여정이나 캠페인에 사용할 수 있습니다. 다음에서 자세히 알아보기 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}.
+[!DNL Journey Optimizer] 을(를) 사용하면 다음에서 직접 실시간 고객 프로필 데이터를 사용하여 Adobe Experience Platform 대상을 구축하고 활용할 수 있습니다. **[!UICONTROL 대상]** 메뉴를 사용하여 여정 또는 캠페인에 사용할 수 있습니다. 다음에서 자세히 알아보기 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}.
 
 ## [!DNL Journey Optimizer]에서 대상자 사용 {#segments-in-journey-optimizer}
 
@@ -59,11 +59,11 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 
 대상에 대한 프로필 목록은 새 데이터가 시스템으로 유입될 때 실시간으로 최신 상태로 유지됩니다.
 
-스트리밍 세분화는 사용자 활동에 대응하여 대상자를 업데이트하는 진행형 데이터 선택 프로세스입니다. 세그먼트 정의를 작성하고 결과 대상자를 저장한 다음부터는 Journey Optimizer로 들어오는 데이터에 세그먼트 정의가 적용됩니다. 즉, 타겟팅 대상자의 관련성을 유지하기 위해 개인 사용자의 프로필 데이터가 변경될 때마다 해당 개인을 대상자에 추가하거나 대상자에서 제거합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html#query-types){target="_blank"}
+스트리밍 세분화는 사용자 활동에 대응하여 대상자를 업데이트하는 진행형 데이터 선택 프로세스입니다. 세그먼트 정의를 작성하고 결과 대상자를 저장한 다음부터는 Journey Optimizer로 들어오는 데이터에 세그먼트 정의가 적용됩니다. 즉, 프로필 데이터가 변경될 때 개인이 대상에서 추가되거나 제거되어 대상 대상이 항상 관련성이 있게 됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
 >[!NOTE]
 >
->스트리밍 세분화 기준으로 올바른 이벤트를 사용해야 합니다. [자세히 알아보기](#open-and-send-event-guardrails)
+>스트리밍 세분화 기준으로 올바른 이벤트를 사용해야 합니다. [자세히 알아보기](#streaming-segmentation-events-guardrails)
 
 +++
 
