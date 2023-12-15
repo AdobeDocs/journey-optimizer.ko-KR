@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: d8926076d30fb07ea10e06ea8ee025b04ba5bb85
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1370'
 ht-degree: 3%
 
 ---
@@ -182,9 +182,17 @@ ht-degree: 3%
 1. 이 페이지에서 번역 프로젝트의 상태를 따릅니다.
 
    * **[!UICONTROL 번역 진행 중]**: 서비스 공급자가 현재 번역 작업을 진행 중입니다.
+
+     다음을 선택한 경우 **사내 번역** 구성 시 **언어 설정**, 번역 프로젝트에서 콘텐츠를 직접 번역할 수 있습니다. [자세히 알아보기](#manage-ht-project)
+
    * **[!UICONTROL 검토 준비됨]**: 검토 프로세스를 시작할 준비가 되었으며 번역에 액세스하고 번역을 거부하거나 승인할 수 있습니다.
-   * **[!UICONTROL 검토됨]**: 번역이 승인되어 캠페인으로 보낼 준비가 되었습니다.
+
+     다음을 선택한 경우 **[!UICONTROL 검토 워크플로우 활성화]** (으)로 **[!UICONTROL 번역 프로젝트]**, 선택한 번역 공급업체에서 완료 후 Journey Optimizer에서 직접 번역을 검토할 수 있습니다. [자세히 알아보기](#review-translation-project)
+
+   * **[!UICONTROL 검토됨]**: 번역이 승인되었으며 게시 및 캠페인에 보낼 준비가 되었습니다.
+
    * **[!UICONTROL 게시 준비]**: 기계 번역이 완료되었으며 이제 캠페인으로 전송할 수 있습니다.
+
    * **[!UICONTROL 완료됨]**: 이제 캠페인에서 번역을 사용할 수 있습니다.
 
    ![](assets/multilingual-campaign-automated-6.png)
