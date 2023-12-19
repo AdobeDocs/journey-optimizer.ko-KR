@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -40,13 +40,13 @@ SMS 채널 구성 전에 이러한 공급자 중 하나로 계정을 만들어�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="Journey Optimizer을 사용하여 SMS/MMS 공급자 구성"
->abstract="Adobe Journey Optimizer은 SMS/MMS 서비스 공급자를 통해 문자 메시지를 보냅니다. 공급자를 선택하고 API 자격 증명을 채웁니다."
+>title="Journey Optimizer로 SMS/MMS 공급자 구성"
+>abstract="Adobe Journey Optimizer는 SMS/MMS 서비스 공급자를 통해 문자 메시지를 보냅니다. 공급자를 선택하고 API 자격 증명을 입력하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Journey Optimizer을 사용하여 SMS/MMS 공급자 구성"
->abstract="문자 메시지(SMS/MMS)를 보내기 전에 공급자 설정을 Journey Optimizer과 통합해야 합니다. 완료되면 SMS/MMS 표면을 만들어야 합니다. 이러한 단계는 Adobe Journey Optimizer 시스템 관리자가 수행해야 합니다."
+>title="Journey Optimizer로 SMS/MMS 공급자 구성"
+>abstract="문자 메시지(SMS/MMS)를 보내기 전에 공급자 설정을 Journey Optimizer와 통합해야 합니다. 완료되면 SMS/MMS 표면을 만들어야 합니다. 이 단계는 Adobe Journey Optimizer 시스템 관리자가 수행해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS 채널 표면 만들기"
 
 >[!CONTEXTUALHELP]
@@ -104,8 +104,8 @@ API 자격 증명을 만들고 구성한 후에는 SMS 메시지에 대한 채�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="메시지 범주 정의"
->abstract="이 표면을 사용하는 텍스트 메시지 유형을 선택합니다. 사용자 동의가 필요한 프로모션 메시지의 경우 마케팅, 암호 재설정과 같은 비상업적인 메시지의 경우 트랜잭션 중에서 선택할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="마케팅 텍스트 메시지의 옵트아웃"
+>abstract="이 표면을 사용하여 문자 메시지 유형 선택: 사용자 동의가 필요한 프로모션 메시지를 위한 마케팅 또는 암호 재설정과 같은 비상업적 메시지를 위한 트랜잭션."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="마케팅 문자 메시지 옵트아웃"
 
 SMS/MMS 채널이 구성되면 SMS 메시지를 보낼 수 있는 채널 표면을 만들어야 합니다. **[!DNL Journey Optimizer]**.
 

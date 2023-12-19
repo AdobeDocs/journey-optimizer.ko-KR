@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 14%
+ht-degree: 24%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
 >title="SMS/MMS 하위 도메인 위임"
->abstract="문자 메시지(SMS/MMS)에 대한 하위 도메인을 설정합니다. 이미 Adobe에 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
+>abstract="문자 메시지(SMS/MMS)용 하위 도메인을 설정합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
 >title="SMS/MMS 하위 도메인 위임"
->abstract="SMS 표면을 만들려면 이 하위 도메인이 필요하므로 텍스트 메시지에 사용할 하위 도메인을 구성해야 합니다. 이미 Adobe에게 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
+>abstract="문자 메시지에 사용할 하위 도메인을 구성해야 하는데, 이는 SMS 표면을 만들기 위해 이 하위 도메인이 필요하기 때문입니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS 표면 만들기"
 
 >[!CONTEXTUALHELP]
