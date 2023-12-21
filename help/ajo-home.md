@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 78%
 
 ## 새로운 기능
 
-Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세 정보를 확인하십시오 [릴리스 정보](using/rn/release-notes.md). 설명서의 최근 변경 사항은 [설명서 업데이트 페이지](using/rn/documentation-updates.md)를 방문하여 확인할 수 있습니다.
+Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](using/rn/release-notes.md)에서 자세히 확인할 수 있습니다.  설명서의 최근 변경 사항은 [설명서 업데이트 페이지](using/rn/documentation-updates.md)를 방문하여 확인할 수 있습니다.
 
 >[!BEGINTABS]
 
@@ -26,7 +26,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 [![이미지](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB SMS의 MMS(멀티미디어 메시지 서비스)]
+>[!TAB SMS를 통한 MMS(멀티미디어 메시지 서비스)]
 
 이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 단, 이 기능은 현재 Sinch에서만 사용할 수 있습니다.
 
@@ -84,11 +84,11 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>콘텐츠 관리</strong><br/><a href="using/content-management/assets.md">에셋/이미지</a> - <a href="using/personalization/personalize.md">개인화</a> - <a href="using/content-management/content-templates.md">재사용 가능</a> 및 <a href="using/personalization/dynamic-content.md">동적</a> 콘텐츠 - <a href="using/content-management/preview-test.md">콘텐츠 테스트 및 미리보기</a>
+      <strong>콘텐츠 관리</strong><br/><a href="using/content-management/assets.md">에셋/이미지</a> - <a href="using/personalization/personalize.md">개인화</a> - <a href="using/content-management/content-templates.md">재사용 가능</a> 및 <a href="using/personalization/dynamic-content.md">동적</a> 콘텐츠 - <a href="using/content-management/preview-test.md">콘텐츠 테스트 및 미리 보기</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>프로필 및 대상자</strong><br/><a href="using/audience/about-audiences.md">대상</a> - <a href="using/audience/get-started-profiles.md">프로필</a> - <a href="using/audience/get-started-identity.md">ID</a> - <a href="using/audience/license-usage.md">라이선스 사용</a> - <a href="using/privacy/get-started-privacy.md">개인 정보 관리</a>
+      <strong>프로필 및 대상자</strong><br/><a href="using/audience/about-audiences.md">대상자</a> - <a href="using/audience/get-started-profiles.md">프로필</a> - <a href="using/audience/get-started-identity.md">ID</a> - <a href="using/audience/license-usage.md">라이선스 사용</a> - <a href="using/privacy/get-started-privacy.md">개인 정보 관리</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
