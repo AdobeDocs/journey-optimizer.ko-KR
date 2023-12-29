@@ -11,8 +11,8 @@ keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 15%
+source-wordcount: '1606'
+ht-degree: 13%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 15%
 >title="단일 이벤트"
 >abstract="이벤트 구성에서는 Journey Optimizer가 이벤트로 수신할 정보를 정의할 수 있습니다. 여정의 각 단계에서 여러 이벤트를 사용할 수 있으며 여러 여정에서 같은 이벤트를 사용할 수도 있습니다. 단일 이벤트는 특정 프로필에 연결됩니다. 단일 이벤트는 규칙 기반이거나 시스템 생성일 수 있습니다."
 
-단일 이벤트는 특정 프로필에 연결됩니다. 단일 이벤트는 규칙 기반이거나 시스템 생성일 수 있습니다.  단일 이벤트에 대한 자세한 내용 [이 섹션](../event/about-events.md).
+단일 이벤트는 특정 프로필에 연결됩니다. 규칙 기반 또는 시스템 생성 방식일 수 있습니다.  단일 이벤트에 대한 자세한 내용 [이 섹션](../event/about-events.md).
 
 새 이벤트를 구성하는 첫 번째 단계는 다음과 같습니다.
 
-1. 관리 메뉴 섹션에서 다음을 선택합니다. **[!UICONTROL 구성]**. 다음에서  **[!UICONTROL 이벤트]** 섹션, 클릭 **[!UICONTROL 관리]**. 그러면 이벤트 목록이 표시됩니다.
+1. 관리 메뉴 섹션에서 다음을 선택합니다. **[!UICONTROL 구성]**. 다음에서  **[!UICONTROL 이벤트]** 섹션, 클릭 **[!UICONTROL 관리]**. 이벤트 목록이 표시됩니다.
 
    ![](assets/jo-event1.png)
 
@@ -41,7 +41,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >공백이나 특수 문자는 사용하지 마십시오. 이름은 30자까지만 입력하십시오.
+   >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
 
 1. 다음에서 **[!UICONTROL 유형]** 필드, 선택 **단일**.
 
@@ -159,7 +159,7 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 
    ![](assets/journey20.png)
 
-이벤트가 수신될 때, 키의 값은 시스템이 이벤트와 연관된 사람을 식별할 수 있게 한다. 네임스페이스에 연결됨( 참조) [이 섹션](../event/about-creating.md#select-the-namespace)) 키를 사용하여 Adobe Experience Platform에서 쿼리를 수행할 수 있습니다. [이 페이지](../building-journeys/about-journey-activities.md#orchestration-activities)를 참조하십시오.
+이벤트가 수신될 때, 키의 값은 시스템이 이벤트와 연관된 사람을 식별할 수 있게 한다. 네임스페이스에 연결됨( 참조) [이 섹션](../event/about-creating.md#select-the-namespace)) 키를 사용하여 Adobe Experience Platform에서 쿼리를 수행할 수 있습니다. 다음을 참조하십시오 [이 페이지](../building-journeys/about-journey-activities.md#orchestration-activities).
 또한 이 키는 개인이 여정 내에 있는지 확인하는 데도 사용됩니다. 실제로, 한 사람은 같은 여정에서 두 개의 다른 장소에 있을 수 없다. 따라서 시스템은 동일한 키(예: 키 CRMID=3224)가 동일한 여정의 다른 위치에 있는 것을 허용하지 않습니다.
 
 고급 표현식 함수()에 액세스할 수도 있습니다.**[!UICONTROL 고급 모드]**) 추가 조작을 수행하려는 경우. 이러한 함수를 사용하면 필드의 일부(예: 첫 번째 문자 10개)만 고려하여 필드 연결을 수행하는 등 형식 변경과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다. 이 [페이지](../building-journeys/expression/expressionadvanced.md)를 참조하십시오.

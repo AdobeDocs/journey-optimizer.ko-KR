@@ -9,12 +9,12 @@ level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 5%
+source-wordcount: '266'
+ht-degree: 2%
 
 ---
 
-# 데이터 컬렉션 구성 {#schema-requirements}
+# 데이터 수집 구성 {#schema-requirements}
 
 의사 결정 이벤트 이외의 이벤트 유형에 대한 피드백을 받으려면 의 각 이벤트 유형에 대해 올바른 값을 설정해야 합니다. **경험 이벤트** Adobe Experience Platform으로 전송됩니다.
 

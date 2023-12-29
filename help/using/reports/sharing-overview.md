@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 7%
+source-wordcount: '463'
+ht-degree: 3%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 7%
 Adobe Experience Platform에 전달된 XDM 필드 목록은 여기에 자세히 설명되어 있습니다.
 
 * [단계 이벤트 필드 목록](../reports/sharing-field-list.md)
-* [레거시 단계 이벤트 필드](../reports/sharing-legacy-fields.md)
+* [이전 단계 이벤트 필드](../reports/sharing-legacy-fields.md)
 
 ## Customer Journey Analytics과 통합 {#integration-cja}
 

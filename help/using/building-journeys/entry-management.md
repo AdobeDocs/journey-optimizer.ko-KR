@@ -10,8 +10,8 @@ keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 5%
+source-wordcount: '604'
+ht-degree: 4%
 
 ---
 
@@ -56,6 +56,6 @@ Due to the 30-day journey timeout, when journey re-entrance is not allowed, we c
 
 >[!NOTE]
 >
->반복 읽기 대상 여정에 두 가지 옵션을 사용할 수 있습니다. 다음 **재발 시 강제 재진입** 옵션을 사용하면 여정에 여전히 있는 모든 프로필이 다음 실행 시 자동으로 종료됩니다. 다음 **증분 읽기** 옵션은 여정의 마지막 실행 이후 대상자에 입력한 개인만 타겟팅합니다. 이 [섹션](../building-journeys/read-audience.md#configuring-segment-trigger-activity)을 참조하십시오
+>반복 읽기 대상 여정에 두 가지 옵션을 사용할 수 있습니다. 다음 **재발 시 강제 재진입** 옵션을 사용하면 여정에 여전히 있는 모든 프로필이 다음 실행 시 자동으로 종료됩니다. 다음 **증분 읽기** 옵션은 여정의 마지막 실행 이후 대상자에 입력한 개인만 타겟팅합니다. 다음을 참조하십시오. [섹션](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 비즈니스 이벤트 여정 **대상자 읽기** 활동: 이 여정은 비즈니스 이벤트 수신을 기반으로 한다는 것을 알고 있는 경우 프로필이 예상 대상에서 자격을 부여받으면 수신된 각 비즈니스 이벤트에 대한 여정을 입력합니다. 즉, 이 프로필은 동일한 여정에서 동시에 여러 번, 하지만 다른 비즈니스 이벤트의 컨텍스트에서 제공될 수 있습니다.

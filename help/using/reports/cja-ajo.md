@@ -10,12 +10,12 @@ level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 11%
+source-wordcount: '389'
+ht-degree: 7%
 
 ---
 
-# [!DNL Customer Journey Analytics]로 작업  {#cja-ajo}
+# 로 작업 [!DNL Customer Journey Analytics] {#cja-ajo}
 
 
 [!DNL Journey Optimizer] 과 통합 [!DNL Customer Journey Analytics] 에서는 자동화된 보고서 배포 및 데이터에 대한 사용자 지정 시각화를 통해 모든 여정을 전체적으로 볼 수 있습니다.

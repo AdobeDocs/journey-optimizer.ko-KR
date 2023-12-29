@@ -15,7 +15,7 @@ exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -74,6 +74,6 @@ IP 준비 계획을 구현하는 주요 단계는 다음과 같습니다.
 
 ## 방법 비디오 {#video}
 
-IP 준비 계획을 만들고 실행하는 방법에 대해 알아봅니다.
+IP 준비 계획을 만들고 실행하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)

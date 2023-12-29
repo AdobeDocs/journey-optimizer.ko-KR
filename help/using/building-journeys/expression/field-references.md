@@ -10,8 +10,8 @@ keywords: 여정, 필드, 표현식, 이벤트
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 3%
+source-wordcount: '562'
+ht-degree: 2%
 
 ---
 
@@ -109,7 +109,7 @@ expression examples:
 
 ## 맵에 정의된 필드 참조
 
-### `entry` 함수 위에 있어야 합니다
+### `entry` 함수
 
 맵에서 요소를 검색하기 위해 주어진 키와 함께 entry 함수를 사용한다. 예를 들어 선택한 네임스페이스에 따라 이벤트의 키를 정의할 때 사용됩니다. 자세한 내용은 [이 페이지](../../event/about-creating.md#select-the-namespace).
 
@@ -119,7 +119,7 @@ expression examples:
 
 이 표현식에서 이벤트의 &#39;IdentityMap&#39; 필드의 &#39;이메일&#39; 키 항목을 가져옵니다. &#39;Email&#39; 항목은 컬렉션이며, 여기에서 &#39;first()&#39;를 사용하여 첫 번째 요소의 &#39;id&#39;를 가져옵니다. 자세한 내용은 [이 페이지](../expression/collection-management-functions.md).
 
-### `firstEntryKey` 함수 위에 있어야 합니다
+### `firstEntryKey` 함수
 
 맵의 첫 번째 항목 키를 검색하려면 `firstEntryKey` 함수.
 
@@ -131,7 +131,7 @@ expression examples:
 
 이 예제에서 가입 목록의 이름은 입니다 `daily-email`. 이메일 주소는 의 키로 정의됨 `subscribers` 구독 목록 맵에 연결된 맵.
 
-### `keys` 함수 위에 있어야 합니다
+### `keys` 함수
 
 맵의 모든 키로 검색하려면 `keys` 함수.
 

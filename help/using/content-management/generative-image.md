@@ -14,7 +14,7 @@ exl-id: b5582601-5804-4413-b548-a0b34cc38090
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 11%
 
 * [콘텐츠 도우미 시작](gs-generative.md)
 * [콘텐츠 도우미로 텍스트 생성](generative-content.md)
-* **[콘텐츠 도우미로 이미지 생성](generative-image.md)**
+* **[콘텐츠 도우미를 사용하여 이미지 생성](generative-image.md)**
 
 >[!ENDSHADEBOX]
 

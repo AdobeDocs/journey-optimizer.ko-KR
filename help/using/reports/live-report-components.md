@@ -11,7 +11,7 @@ exl-id: 12168cdf-f517-49b5-958b-ba689ade6982
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
@@ -71,11 +71,11 @@ ht-degree: 7%
    <td> 보낸 이메일과 비교하여 반송된 이메일의 비율.<br/> </td> 
 </tr>
   <tr> 
-   <td> 클릭 수<br/> </td> 
+   <td> 클릭수<br/> </td> 
    <td> 이메일에서 콘텐츠를 클릭한 횟수입니다.<br/> </td> 
 </tr> 
   <tr> 
-   <td> 게재됨 <br/> </td> 
+   <td> 전달됨 <br/> </td> 
    <td> 정상적으로 전송된 메시지 수입니다.<br/></td> 
 </tr> 
   <tr> 
@@ -119,7 +119,7 @@ ht-degree: 7%
    <td>오퍼에 대한 총 전송 수입니다.<br/> </td> 
 </tr> 
   <tr>
-   <td>열람수<br/> </td> 
+   <td>열림<br/> </td> 
    <td> 메시지가 열린 횟수입니다.<br/> </td> 
 </tr> 
   <tr> 
@@ -135,7 +135,7 @@ ht-degree: 7%
    <td> 다시 시도 큐에 있는 이메일 수입니다.<br/> </td> 
 </tr> 
   <tr> 
-   <td> 보냄<br/> </td> 
+   <td> 전송됨<br/> </td> 
    <td> 게재에 대한 총 전송 수입니다.<br/> </td> 
 </tr>
   <tr> 
@@ -143,15 +143,15 @@ ht-degree: 7%
    <td> 전체 받은 편지함과 같은 총 임시 오류 수.<br/> </td> 
 </tr>
   <tr> 
-   <td> 스팸 불만 사항<br/> </td> 
+   <td> 스팸 고객 불만<br/> </td> 
    <td> 메시지가 스팸 또는 정크로 선언된 횟수입니다.<br/> </td> 
 </tr>
   <tr> 
    <td> 타깃팅됨<br/> </td> 
-   <td> 게재 분석 시 처리된 총 메시지 수입니다.<br/> </td> 
+   <td> 게재 분석 중 처리된 총 메시지 수입니다.<br/> </td> 
 </tr> 
   <tr> 
-   <td> 고유 클릭 수<br/> </td> 
+   <td> 고유 클릭수<br/> </td> 
    <td> 이메일에서 콘텐츠를 클릭한 수신자 수입니다.<br/> </td> 
 </tr> 
   <tr> 
@@ -159,11 +159,11 @@ ht-degree: 7%
    <td> 게재와 상호 작용한 사용자의 백분율입니다.<br/> </td> 
 </tr>
   <tr> 
-   <td> 고유 열기 수<br/> </td> 
+   <td> 고유 열람 수<br/> </td> 
    <td>게재를 연 수신자 수.<br/> </td> 
 </tr> 
   <tr> 
-   <td> 구독 최소 건수<br/> </td> 
+   <td> 구독 취소<br/> </td> 
    <td> 구독 취소 링크의 클릭 수입니다.<br/> </td> 
 </tr> 
  </tbody> 
@@ -185,7 +185,7 @@ ht-degree: 7%
 </tr>
  <tr>
   <tr> 
-   <td>클릭 수<br/> </td> 
+   <td>클릭수<br/> </td> 
    <td>랜딩 페이지에서 콘텐츠를 클릭한 횟수입니다.<br/> </td> 
 </tr>
 <tr>
@@ -234,7 +234,7 @@ ht-degree: 7%
    <td> 게재 및 자동 반환 처리 중 누적된 총 오류.<br/> </td> 
 </tr> 
   <tr> 
-   <td> 게재됨<br/> </td> 
+   <td> 전달됨<br/> </td> 
    <td> 정상적으로 전송된 메시지 수입니다.<br/> </td> 
 </tr> 
   <tr> 
@@ -250,11 +250,11 @@ ht-degree: 7%
    <td> Adobe Journey Optimizer에서 제외된 프로필 수입니다.<br/> </td> 
 </tr>
   <tr> 
-   <td> 열람수<br/> </td> 
+   <td> 열림<br/> </td> 
    <td> 장치로 전달되고 사용자가 클릭하여 앱을 여는 총 푸시 알림 수입니다. 알림이 해제된 경우 푸시 열기 가 트리거되지 않는다는 점을 제외하면 푸시 클릭과 유사합니다.<br/> </td> 
 </tr> 
   <tr> 
-   <td> 보냄<br/> </td> 
+   <td> 전송됨<br/> </td> 
    <td> 게재에 대한 총 전송 수입니다.<br/> </td> 
 </tr> 
   <tr> 

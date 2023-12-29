@@ -11,8 +11,8 @@ keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 33%
+source-wordcount: '960'
+ht-degree: 34%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 33%
 >
 >새 캠페인을 만들기 전에 표면 채널(즉, 메시지 사전 설정)과 Adobe Experience Platform 대상을 사용할 준비가 되어 있는지 확인하십시오. 다음 섹션에서 자세히 알아보기:
 >
->* [채널 표면 생성](../configuration/channel-surfaces.md)
+>* [채널 표면 만들기](../configuration/channel-surfaces.md)
 >* [대상자 시작](../audience/about-audiences.md)
 
 새 캠페인을 만들려면 **[!UICONTROL 캠페인]** 메뉴를 선택한 다음 **[!UICONTROL 캠페인 만들기]**. 기존 라이브 캠페인을 복제하여 새 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate)
@@ -85,7 +85,7 @@ ht-degree: 33%
     <a href="../email/create-email.md">
     <img alt="리드" src="../assets/do-not-localize/email.jpg">
     </a>
-    <div><a href="../email/create-email.md"><strong>이메일 만들기</strong>
+    <div><a href="../email/create-email.md"><strong>이메일 작성</strong>
     </div>
     <p>
     </td>

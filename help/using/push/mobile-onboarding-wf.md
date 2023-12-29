@@ -11,8 +11,8 @@ badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 9%
+source-wordcount: '357'
+ht-degree: 8%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 9%
 ![](assets/mobile-wf-valid.png)
 
 
-## 검토 {#review-mobile-wf}
+## 리뷰 {#review-mobile-wf}
 
 자동 설정이 완료되었습니다. 이제 태그 모바일 속성을 방문하여 규칙이나 데이터 요소를 구성하고 Adobe Journey Optimizer을 사용하여 푸시 알림을 전송할 수 있습니다.
 

@@ -11,14 +11,14 @@ keywords: 여정, 태그
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 42%
+source-wordcount: '229'
+ht-degree: 30%
 
 ---
 
 # 여정의 태그 관리 {#journey_tags}
 
-Journey Optimizer 전문가는 태그를 사용하여 여정을 구성할 수 있습니다. 태그를 사용하면 개체를 빠르고 간단하게 분류하여 검색을 개선할 수 있습니다.
+Journey Optimizer 전문가는 태그를 사용하여 여정을 구성할 수 있습니다. 태그는 검색을 개선하기 위해 개체를 빠르고 쉽게 분류하는 방법입니다.
 
 ## 여정에 태그 추가
 

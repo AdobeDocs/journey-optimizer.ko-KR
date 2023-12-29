@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 25%
+source-wordcount: '461'
+ht-degree: 17%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 25%
 
 [이 비디오에서는 단일 페이지 애플리케이션을 제작하는 방법에 대해 알아봅니다](#video)
 
-보기는 전체 사이트로 정의하거나 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다.
+보기는 전체 사이트 또는 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다.
 
 Adobe Experience Platform Web SDK 구현에서 보기를 정의하려면 일회용 개발자 설정이 필요합니다. 이렇게 하면 SPA에서 Adobe Journey Optimizer 웹 캠페인을 만들고 실행할 수 있습니다.
 
 ## 웹 SDK 구현에서 보기 정의 {#define-views}
 
-XDM 보기를 Adobe에서 활용할 수 있음 [!DNL Journey Optimizer] 마케터가 웹 비주얼 편집기를 통해 SPA에서 웹 개인화 및 실험 캠페인을 실행할 수 있도록 권한을 부여합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+XDM 보기를 Adobe에서 활용할 수 있음 [!DNL Journey Optimizer] 마케터가 웹 비주얼 편집기를 통해 SPA에서 웹 개인화 및 실험 캠페인을 실행할 수 있도록 권한을 부여합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko){target="_blank"}
 
 에서 보기에 액세스하고 보기를 작성하려면 다음과 같이 하십시오. [!DNL Journey Optimizer] 사용자 인터페이스에서에 나열된 단계를 따르는지 확인하십시오. [이 섹션](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 

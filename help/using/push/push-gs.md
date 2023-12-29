@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 8%
+source-wordcount: '729'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->새로운 **모바일 온보딩 빠른 시작 워크플로우** 을(를) 이제 사용할 수 있습니다. 이 새로운 제품 기능을 사용하여 모바일 이벤트 데이터 수집 및 유효성 검사를 시작하고 모바일 푸시 알림을 전송할 Mobile SDK를 신속하게 구성할 수 있습니다. 이 기능은 공개 Beta 중이며 [데이터 수집] 홈 페이지를 통해 액세스할 수 있습니다. [자세히 알아보기](mobile-onboarding-wf.md)
+>새로운 **모바일 온보딩 빠른 시작 워크플로우** 을(를) 이제 사용할 수 있습니다. 이 새로운 제품 기능을 사용하여 모바일 이벤트 데이터 수집 및 유효성 검사를 시작하고 모바일 푸시 알림을 전송할 Mobile SDK를 신속하게 구성할 수 있습니다. 이 기능은 데이터 수집 홈 페이지를 통해 공개 베타로 액세스할 수 있습니다. [자세히 알아보기](mobile-onboarding-wf.md)
 >
 
 에서 푸시 알림을 만드는 방법 알아보기 [이 페이지](create-push.md).
@@ -62,7 +62,7 @@ ht-degree: 8%
    * 클라이언트측 모바일 속성을 만들고 확장을 추가합니다. SDK는 이러한 확장과 긴밀하게 통합되어 원활한 데이터 수집 경험을 제공합니다.
    * 모바일 앱 번들 식별자 및 앱 자격 증명 등록
 
-* **Adobe Experience Platform 실시간 고객 프로필**  웹, 모바일, CRM 및 서드파티를 비롯한 여러 채널의 데이터를 결합하여 각 개별 고객에 대한 거시적인 보기를 유지합니다. 프로필을 사용하면 모든 고객 인터랙션에 대해 실행 가능한 타임스탬프 계정을 제공하는 통합 보기로 고객 데이터를 통합할 수 있습니다. 주어진 앱 사용자에 대한 푸시 토큰은 사용자의 프로필에 대해 레코드 데이터로 저장되는 반면 사용자가 푸시 알림과 수행하는 상호 작용은 시계열 이벤트 데이터로 추적됩니다. [Adobe Experience Platform 실시간 고객 프로필에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}.
+* **Adobe Experience Platform 실시간 고객 프로필**  웹, 모바일, CRM 및 서드파티를 비롯한 여러 채널의 데이터를 결합하여 각 개별 고객에 대한 거시적인 보기를 유지합니다. 프로필을 사용하면 모든 고객 상호 작용에 대해 실행 가능한 타임스탬프 계정을 제공하는 통합 보기로 고객 데이터를 통합할 수 있습니다. 주어진 앱 사용자에 대한 푸시 토큰은 사용자의 프로필에 대해 레코드 데이터로 저장되는 반면 사용자가 푸시 알림과 수행하는 상호 작용은 시계열 이벤트 데이터로 추적됩니다. [Adobe Experience Platform 실시간 고객 프로필에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}.
 
 * **[!DNL Adobe Journey Optimizer]** : Adobe Experience Platform에서 위에서 언급한 구성 요소와 모바일 앱 통합이 이루어지고 고객 프로필이 형성되면 푸시 알림을 작성하고 오케스트레이션할 수 있습니다 [!DNL Adobe Journey Optimizer] 을 클릭하여 사용자와 협력하십시오.
 

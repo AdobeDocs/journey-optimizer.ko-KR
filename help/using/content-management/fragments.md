@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 14%
+source-wordcount: '1569'
+ht-degree: 13%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 14%
 
    <!--Expression fragments can be used in any channel.-->
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 표현식 편집기가 열립니다.
+1. Click **[!UICONTROL Create]**. 표현식 편집기가 열립니다.
 
 1. 다음을 활용할 수 있습니다. [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
@@ -246,7 +246,7 @@ ht-degree: 14%
 
    ![](assets/fragment-save-as-screen.png)
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 조각 세부 사항, 즉 이름 및 설명(필요한 경우)을 입력합니다.
+1. Click **[!UICONTROL Create]**. 조각 세부 사항, 즉 이름 및 설명(필요한 경우)을 입력합니다.
 
 1. 조각에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 다음을 선택합니다. **[!UICONTROL 액세스 관리]**. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md).
 

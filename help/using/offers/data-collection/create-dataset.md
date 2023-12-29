@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 12%
+source-wordcount: '254'
+ht-degree: 7%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->에서 스키마 빌드에 대해 자세히 알아보기 [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR#understanding-schemas){target="_blank"}.
+>에서 스키마 빌드에 대해 자세히 알아보기 [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 이제 이 스키마를 사용하여 데이터 세트를 만들 준비가 되었습니다. 이렇게 하려면 아래 단계를 수행합니다.
 

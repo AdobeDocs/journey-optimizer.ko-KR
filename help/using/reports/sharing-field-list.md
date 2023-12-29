@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 19%
 | VersionID | 문자열 | 여정 버전 ID. 이 ID는 여정 ID를 나타냅니다. |
 | 이름 | 문자열 | 여정 이름 |
 | 설명 | 문자열 | 여정 설명 |
-| version | 문자열 | 버전, 다음으로 표시됨 `major`.`minor` |
+| 버전 | 문자열 | 버전, 다음으로 표시됨 `major`.`minor` |
 
 ## 프로필 {#profile-field}
 

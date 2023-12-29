@@ -11,8 +11,8 @@ keywords: 콘텐츠, 편집자, 이메일, 시작
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 55%
+source-wordcount: '670'
+ht-degree: 54%
 
 ---
 

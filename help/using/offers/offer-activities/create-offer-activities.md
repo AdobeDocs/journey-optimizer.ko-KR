@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 2%
+source-wordcount: '2355'
+ht-degree: 1%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
      에서 의사 결정 규칙을 만드는 방법을 알아봅니다. [이 섹션](../offer-library/creating-decision-rules.md).
 
-1. 대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
+1. 대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
 
    >[!NOTE]
    >
@@ -293,7 +293,7 @@ ht-degree: 2%
 >
 >다음을 클릭할 수 있습니다 **[!UICONTROL 오퍼 라이브러리 열기]** 새 탭에 오퍼 목록을 표시하는 링크.
 
-## 결정을 검토하고 저장합니다 {#review}
+## 결정 검토 및 저장 {#review}
 
 모든 것이 올바르게 구성된 경우 결정 속성에 대한 요약이 표시됩니다.
 

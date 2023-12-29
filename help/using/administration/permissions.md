@@ -11,8 +11,8 @@ level: Intermediate
 keywords: 제품, 프로필, 샌드박스
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 6%
+source-wordcount: '740'
+ht-degree: 4%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 6%
 
 1. 필요한 경우 **[!UICONTROL 포함된 권한 항목]**&#x200B;에 있는 X 아이콘을 클릭하여 역할에 대한 권한 또는 리소스를 제거합니다.
 
-1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 완료되면 다음을 클릭하십시오. **[!UICONTROL 저장]**.
 
 필요한 경우 특정 권한을 사용하여 새 역할을 만들 수도 있습니다. 자세한 내용은 다음을 참조하십시오. [새 역할 만들기](#create-product-profile).
 
@@ -121,7 +121,7 @@ ht-degree: 6%
 
    ![](assets/do-not-localize/access_control_12.png)
 
-1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 완료되면 다음을 클릭하십시오. **[!UICONTROL 저장]**.
 
 사용자 **[!UICONTROL 역할]** 이제 이(가) 생성되고 구성되었습니다. 이제 사용자에게 할당합니다.
 

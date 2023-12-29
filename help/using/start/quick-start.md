@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 빠른 시작
-description: 마케터, 관리자 또는 데이터 엔지니어를 위한 단계별 지침을 통해 Adobe Journey Optimizer의 강력한 기능을 살펴보십시오..
+description: 마케터, 관리자 또는 데이터 엔지니어를 위한 단계별 안내서를 통해 Adobe Journey Optimizer의 강력한 기능을 살펴보십시오.
 feature: Overview
 topic: Content Management
 role: User

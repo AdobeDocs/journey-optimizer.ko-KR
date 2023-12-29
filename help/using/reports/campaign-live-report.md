@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2095'
 ht-degree: 40%
 
 ---
@@ -34,7 +34,7 @@ Campaign 라이브 보고서는 캠페인에서 **[!UICONTROL 라이브 뷰]** �
 * [푸시](#push-live)
 * [SMS](#sms-live)
 * [웹](#web-tab)
-* [다이렉트 메일](#direct-mail-tab)
+* [DM](#direct-mail-tab)
 
 캠페인 **[!UICONTROL 라이브 보고서]** 은 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [섹션](../reports/live-report.md#modify-dashboard).
 

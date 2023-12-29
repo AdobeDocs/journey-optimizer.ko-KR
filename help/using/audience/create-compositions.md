@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 15%
+source-wordcount: '443'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-이 설명서에서는 Adobe Journey Optimizer 내에서 대상자 구성을 사용하는 방법에 대해 자세한 정보를 제공합니다. Adobe Journey Optimizer를 사용하지 않는 경우 [여기를 클릭하세요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko){target="_blank"}.
+이 설명서에서는 Adobe Journey Optimizer 내에서 대상자 구성을 사용하는 방법에 대해 자세한 정보를 제공합니다. Adobe Journey Optimizer을 사용하지 않는 경우 [여기를 클릭하십시오](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ ht-degree: 15%
 
    >[!IMPORTANT]
    >
-   >주어진 샌드박스에서 최대 10개의 컴포지션을 게시할 수 있습니다. 이 임계값에 도달한 경우 컴포지션을 삭제하여 공간을 확보하고 새 컴포지션을 게시해야 합니다.
+   >주어진 샌드박스에서 최대 10개의 컴포지션을 게시할 수 있습니다. 이 임계값에 도달한 경우 구성을 삭제하여 공간을 확보하고 새 구성을 게시해야 합니다.
 
    게시 중에 오류가 발생하면 문제 해결 방법에 대한 정보가 경고에 표시됩니다.
 

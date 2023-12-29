@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
@@ -80,7 +80,7 @@ AI 모델이 만들어지면 의사 결정의 배치에 할당할 수 있습니�
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. **[!UICONTROL 선택]**&#x200B;을 클릭합니다. 이제 AI 모델이 배치와 연결됩니다.
+1. 클릭 **[!UICONTROL 선택]**. 이제 AI 모델이 배치와 연결됩니다.
 
 여러 오퍼가 적합한 경우 교육된 모델 시스템은 주어진 배치에 대해 먼저 제시해야 하는 오퍼를 결정합니다.
 

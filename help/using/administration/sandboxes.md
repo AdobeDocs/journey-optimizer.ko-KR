@@ -11,8 +11,8 @@ keywords: 샌드박스, 가상, 환경, 조직, 플랫폼
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 61%
+source-wordcount: '325'
+ht-degree: 55%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 61%
 샌드박스는 권한에서 역할을 통해 할당됩니다. [샌드박스를 할당하는 방법을 알아봅니다](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] (은)는 해당 조직을 위해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
-Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. [자세한 내용은 샌드박스 사용 안내서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko){target="_blank"}.
+Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. [샌드박스 사용 안내서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko){target="_blank"}.
 
 화면의 오른쪽 상단에서 조직 이름 옆에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.
 
@@ -58,7 +58,7 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 콘텐츠 액세스 {#content-access}
+## 콘텐츠에 액세스 {#content-access}
 
 콘텐츠 액세스 가능성을 구성하려면 각 샌드박스에 콘텐츠 공유 폴더를 할당해야 합니다. 에서 공유 폴더를 만들고 구성할 수 있습니다. **[!UICONTROL 스토리지]** 탭에 표시됨 [!DNL Admin Console] 관리자용 시스템 관리자로서 [!DNL Admin Console]에 액세스할 수 있는 경우 공유 폴더를 만들고 다른 액세스 수준의 위임자를 공유 폴더에 추가할 수 있습니다.
 
@@ -66,7 +66,7 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 
 내용이 올바른 샌드박스와 동기화되도록 하려면 샌드박스와 동일한 구문을 따라야 합니다. 예를 들어 샌드박스가 개발이라고 하는 경우 공유 폴더의 이름이 같아야 합니다.
 
-[공유 폴더 관리 방법에 대해 알아봅니다](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
+[공유 폴더 관리 방법 알아보기](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
 
 ## 방법 비디오{#video}
 

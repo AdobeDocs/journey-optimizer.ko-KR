@@ -11,7 +11,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 18%
 
    선택한 하위 도메인에 해당하는 설정이 표시됩니다.
 
-1. 추적 URL에 대한 랜딩 페이지 하위 도메인을 선택하려면 다음을 확인하십시오. **[!UICONTROL 랜딩 페이지 하위 도메인과 동일]** 옵션을 선택합니다. [추적에 대해 자세히 알아보십시오](../email/message-tracking.md)
+1. 추적 URL에 대한 랜딩 페이지 하위 도메인을 선택하려면 다음을 확인하십시오. **[!UICONTROL 랜딩 페이지 하위 도메인과 동일]** 옵션을 선택합니다. [추적에 대해 자세히 알아보기](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

@@ -11,8 +11,8 @@ keywords: 전달성, 여정, 사용 사례, 이메일, 신뢰도
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 6%
+source-wordcount: '264'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ IP를 준비하려면 게재 수를 점차적으로 늘릴 수 있습니다. 자
 
 이 사용 사례의 목적은 이메일 게재를 가속화하는 여정을 만드는 것입니다. 이 여정을 구성하려면 다음 단계를 수행합니다.
 
-1. 여정 만들기. [자세히 보기](journey-gs.md).
+1. 여정 만들기 [자세히 보기](journey-gs.md).
 
 1. 추가 **[!UICONTROL 조건]** 활동을 여정에 추가합니다. [자세히 보기](condition-activity.md).
 

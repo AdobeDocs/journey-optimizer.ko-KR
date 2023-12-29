@@ -11,8 +11,8 @@ keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 12%
+source-wordcount: '1347'
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 12%
 
 * 대상자 읽기 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 여정의 최대 개수가 정해져 있습니다. 시스템에서 재시도를 수행하기는 하지만, 정확히 같은 시간에 다섯 개가 넘는 여정(대상자 읽기 활동이 있으며 예약했거나 “최대한 빨리” 시작하는 여정)을 실행하는 것을 피하기 위해 5~10분 간격을 두는 등 시간을 분산하는 것이 좋습니다.
 
-* 경험 이벤트 필드 그룹은 대상자 읽기, 대상자 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다.
+* 대상 읽기, 대상 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 경험 이벤트 필드 그룹을 사용할 수 없습니다.
 
 * 현재, 대상 사용 [csv 파일에서 가져옴](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 다음의 결과물 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md) 인앱 여정은 비공개 베타로 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
@@ -51,7 +51,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >또한 을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다. [대상자 구성](../audience/get-started-audience-orchestration.md) 또는 [csv 파일에서 업로드됨](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 이러한 기능은 현재 개인 베타로 사용할 수 있습니다.
+   >또한 을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다. [대상자 구성](../audience/get-started-audience-orchestration.md) 또는 [csv 파일에서 업로드됨](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 이 기능은 현재 Private Beta로 사용할 수 있습니다.
 
    목록에 표시되는 열을 사용자 정의하고 정렬할 수 있습니다.
 
@@ -118,7 +118,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->일회성 읽기 대상 여정은 여정 실행 후 30일 후에 완료됨 상태로 이동합니다. 예약된 대상자 읽기의 경우 마지막 읽기를 실행한 후 30일이 경과한 시점에 이동합니다.
+>일회성 읽기 대상 여정은 여정 실행 후 30일 후에 완료됨 상태로 이동합니다. 예약된 읽기 대상의 경우 마지막 항목이 실행된 후 30일이 경과해야 합니다.
 
 ## 여정 테스트 및 게시 {#testing-publishing}
 
@@ -130,7 +130,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 평소대로 테스트 모드를 구성하고 실행합니다. [여정 테스트 방법 알아보기](testing-the-journey.md).
 
-테스트가 실행되면 **[!UICONTROL 로그 표시]** 버튼을 사용하면 테스트 결과를 볼 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](testing-the-journey.md#viewing_logs)을 참조하십시오
+테스트가 실행되면 **[!UICONTROL 로그 표시]** 버튼을 사용하면 테스트 결과를 볼 수 있습니다. 자세한 내용은 다음을 참조하십시오. [이 섹션](testing-the-journey.md#viewing_logs)
 
 ![](assets/read-segment-log.png)
 

@@ -11,8 +11,8 @@ keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
-source-wordcount: '2340'
-ht-degree: 13%
+source-wordcount: '2322'
+ht-degree: 12%
 
 ---
 
@@ -127,7 +127,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 >[!CAUTION]
 >
->**[!UICONTROL 보내는 사람 이메일]**&#x200B;과 **[!UICONTROL 오류 이메일]**[ 주소는 현재 선택한 위임된 하위 도메인을 사용해야 합니다](../configuration/about-subdomain-delegation.md). 예를 들어 위임된 하위 도메인이 *marketing.luma.com*, 다음을 사용할 수 있습니다 *contact@marketing.luma.com* 및 *error@marketing.luma.com*.
+>다음 **[!UICONTROL 보낸 사람 이메일]** 및 **[!UICONTROL 오류 이메일]** 주소는 현재 선택된 항목을 사용해야 합니다. [위임된 하위 도메인](../configuration/about-subdomain-delegation.md). 예를 들어 위임된 하위 도메인이 *marketing.luma.com*, 다음을 사용할 수 있습니다 *contact@marketing.luma.com* 및 *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
@@ -198,7 +198,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 >id="ajo_surface_suppressed_addresses"
 >title="금지 목록 우선 순위 무시"
 >abstract="스팸 불만 사항으로 인해 이메일 주소가 Adobe Journey Optimizer 금지 목록에 포함된 경우에도 해당 프로필에 트랜잭션 메시지를 보내도록 결정할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="금지 목록 관리"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=ko" text="금지 목록 관리"
 
 >[!IMPORTANT]
 >

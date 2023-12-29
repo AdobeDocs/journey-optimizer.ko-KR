@@ -11,8 +11,8 @@ keywords: 이메일, 템플릿, 디자인
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 28%
+source-wordcount: '269'
+ht-degree: 21%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 28%
 
 1. [이메일 디자이너에 액세스](get-started-email-design.md) 이메일에서 **[!UICONTROL 콘텐츠 편집]** 화면.
 
-1. **[!UICONTROL 이메일 만들기]** 화면에는 **[!UICONTROL 샘플 템플릿]** 탭이 기본적으로 선택되어 있습니다.
+1. 다음에서 **[!UICONTROL 이메일 만들기]** screen, **[!UICONTROL 샘플 템플릿]** 기본적으로 탭이 선택되어 있습니다.
 
 1. 사용자 지정 템플릿을 사용하려면 **[!UICONTROL 저장된 템플릿]** 탭.
 

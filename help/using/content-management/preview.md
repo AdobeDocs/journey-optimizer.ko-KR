@@ -1,17 +1,18 @@
 ---
-title: 콘텐츠 미리보기
+title: 콘텐츠 미리 보기
 description: 콘텐츠를 미리 보는 방법에 대해 알아봅니다.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+exl-id: 6477270c-0309-411a-8254-c7ffc4419492
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
-# 콘텐츠 미리보기 {#preview}
+# 콘텐츠 미리 보기 {#preview}
 
 한 번 [테스트 프로필](test-profiles.md) 이 옵션을 선택하면 콘텐츠를 미리 볼 수 있습니다. 아래 단계를 따르십시오.
 

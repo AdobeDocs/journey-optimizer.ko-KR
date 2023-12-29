@@ -11,8 +11,8 @@ keywords: 랜딩, 랜딩 페이지, 작성, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 24%
+source-wordcount: '1716'
+ht-degree: 21%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 24%
 
    ![](assets/lp_open-designer.png)
 
-1. 랜딩 페이지 URL 정의. URL의 첫 번째 부분에서는 이전에 의 일부로 랜딩 페이지 하위 도메인을 설정해야 합니다. [사전 설정](../landing-pages/lp-presets.md#lp-create-preset) 을(를) 선택했습니다. [자세히 알아보기](../landing-pages/lp-subdomains.md)
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 의 일부로 랜딩 페이지 하위 도메인을 설정해야 합니다. [사전 설정](../landing-pages/lp-presets.md#lp-create-preset) 을(를) 선택했습니다. [자세히 알아보기](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -199,7 +199,7 @@ ht-degree: 24%
    >
    >동일한 랜딩 페이지의 하위 페이지에서 기본 페이지에 대한 링크를 삽입할 수 있습니다. 예를 들어, 실수를 하여 다시 구독하려는 사용자를 리디렉션하려면 확인 하위 페이지에서 구독 기본 페이지에 링크를 추가할 수 있습니다. 에 링크를 삽입하는 방법 알아보기 [이 섹션](../email/message-tracking.md#insert-links).
 
-1. 랜딩 페이지 URL 정의. URL의 첫 번째 부분을 사용하려면 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 알아보기](../landing-pages/lp-subdomains.md)
+1. 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분을 사용하려면 이전에 랜딩 페이지 하위 도메인을 설정해야 합니다. [자세히 알아보기](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >

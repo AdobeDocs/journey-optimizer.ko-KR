@@ -11,7 +11,7 @@ exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -50,5 +50,5 @@ ht-degree: 1%
 
 * [SMS 채널 구성](sms-configuration.md)
 * [SMS/MMS 보고서](../reports/journey-global-report.md#sms-global)
-* [문자 메시지 만들기](create-sms.md)
+* [텍스트 메시지 만들기](create-sms.md)
 * [여정에 메시지 추가](../building-journeys/journeys-message.md)

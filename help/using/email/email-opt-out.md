@@ -11,8 +11,8 @@ keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 78%
+source-wordcount: '1004'
+ht-degree: 77%
 
 ---
 

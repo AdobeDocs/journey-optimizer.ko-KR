@@ -11,8 +11,8 @@ keywords: 구성 요소, 이메일 디자이너, 편집기, 이메일
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 54%
+source-wordcount: '1401'
+ht-degree: 52%
 
 ---
 
@@ -121,11 +121,11 @@ ht-degree: 54%
    * **글꼴 크기**: 텍스트의 글꼴 크기를 픽셀 단위로 선택합니다.
    * **[!UICONTROL 글꼴 색상 변경]**: 글꼴 색상을 선택합니다.
    * **[!UICONTROL 링크 삽입]**: 콘텐츠에 모든 유형의 링크를 추가합니다.
-   * **[!UICONTROL 이미지 편집]**: 텍스트 구성 요소에 이미지 또는 자산을 추가합니다. [에셋 관리에 대해 자세히 알아보기](../content-management/assets.md)
+   * **[!UICONTROL 이미지 편집]**: 텍스트 구성 요소에 이미지 또는 에셋을 추가합니다. [에셋 관리에 대해 자세히 알아보기](../content-management/assets.md)
    * **[!UICONTROL 글꼴 색상 변경]**: 글꼴 색상을 선택합니다.
    * **[!UICONTROL 개인화 추가]**: 개인화 필드를 추가하여 프로필 데이터의 콘텐츠를 사용자 정의합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
    * **[!UICONTROL 소스 코드 표시]**: 텍스트의 소스 코드를 표시합니다. 소스 코드는 수정할 수 없습니다.
-   * **[!UICONTROL 조건부 콘텐츠 활성화]**: 조건부 콘텐츠를 추가하여 타겟팅된 프로필에 구성 요소의 콘텐츠를 적용합니다. [다이내믹 콘텐츠에 대해 자세히 알아보기](../personalization/get-started-dynamic-content.md)
+   * **[!UICONTROL 조건부 콘텐츠 활성화]**: 구성 요소의 콘텐츠를 타겟팅된 프로필로 조정하려면 조건부 콘텐츠를 추가하십시오. [다이내믹 콘텐츠에 대해 자세히 알아보기](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL 복제]**: 텍스트 구성 요소의 복사본을 추가합니다.
    * **[!UICONTROL 삭제]**: 이메일에서 선택한 텍스트 구성 요소를 삭제합니다.
 

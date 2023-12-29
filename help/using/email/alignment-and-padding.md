@@ -12,7 +12,7 @@ exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 25%
+ht-degree: 17%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 25%
 
 1. 도구 모음에서 를 클릭합니다 **[!UICONTROL 열 선택]** 편집할 항목을 선택합니다. 구조 트리에서 선택할 수도 있습니다.
 
-   **[!UICONTROL 스타일]** 탭에 해당 열에 대한 편집 가능한 매개변수가 표시됩니다.
+   해당 열에 대한 편집 가능한 매개 변수가 **[!UICONTROL 스타일]** 탭.
 
    ![](assets/alignment_2.png)
 

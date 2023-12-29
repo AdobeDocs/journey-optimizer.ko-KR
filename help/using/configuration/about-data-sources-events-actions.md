@@ -11,8 +11,8 @@ keywords: 구성, 여정, 대시보드, 데이터 소스, 이벤트, 작업
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 78%
+source-wordcount: '405'
+ht-degree: 65%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 78%
 
 ## 데이터 소스 {#data-sources}
 
-데이터 소스 구성을 사용하면 여정에 사용될 추가 정보를 검색하기 위해 시스템에 대한 연결을 정의할 수 있습니다. [자세히 알아보기](../../using/datasource/about-data-sources.md)
+데이터 소스 구성을 사용하면 여정에서 사용할 추가 정보를 검색하기 위해 시스템에 대한 연결을 정의할 수 있습니다. [자세히 알아보기](../../using/datasource/about-data-sources.md)
 
 ## 이벤트 {#events}
 
@@ -41,7 +41,7 @@ ht-degree: 78%
 
 Journey Optimizer 메시지 기능 기본 제공: 여정에 채널 작업 활동을 추가하기만 하면 됩니다. 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../../using/action/action.md)
 
-## Adobe Experience Platform 필드를 통한 검색 {#friendly-names-display}
+## Adobe Experience Platform 필드 검색 {#friendly-names-display}
 
 [이벤트 페이로드](../event/about-creating.md#define-the-payload-fields)와 [필드 그룹 페이로드](../datasource/configure-data-sources.md#define-field-groups)를 정의하고 [표현식 편집기](../building-journeys/expression/expressionadvanced.md)에서 필드를 선택할 때는 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
 

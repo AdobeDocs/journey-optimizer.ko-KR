@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 12%
+source-wordcount: '1105'
+ht-degree: 11%
 
 ---
 
@@ -109,7 +109,7 @@ API를 사용하여 콘텐츠 템플릿을 만들고 관리할 수도 있습니�
 
    * [코드 또는 복사하여 붙여넣기 원시 HTML](../email/code-content.md) 이메일 디자이너에 바로 로그인합니다.
 
-   * 파일이나 .zip 폴더의 [기존 HTML 콘텐츠를 가져옵니다](../email/existing-content.md).
+   * [기존 HTML 콘텐츠 가져오기](../email/existing-content.md) .zip 폴더 또는 파일로 내보낼 때 시간별 세부기간이 작동하지 않는 문제를 해결했습니다.
 
    * 기본 제공 또는 사용자 지정 템플릿 목록의 기존 콘텐츠를 사용합니다. 이메일에서 콘텐츠 템플릿을 사용하는 단계는에 설명되어 있습니다 [이 섹션](../email/use-email-templates.md).
 

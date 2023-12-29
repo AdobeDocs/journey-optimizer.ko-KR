@@ -9,18 +9,18 @@ level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 4%
+source-wordcount: '1544'
+ht-degree: 3%
 
 ---
 
 # 푸시 알림 채널 구성 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] 을(를) 통해 여정을 만들고 타겟팅된 대상자에게 메시지를 보낼 수 있습니다. 을(를) 사용하여 푸시 알림 전송을 시작하기 전에 [!DNL Journey Optimizer], Adobe Experience Platform의 태그와 모바일 앱에 대한 구성 및 통합이 제대로 되어 있는지 확인해야 합니다. 의 푸시 알림 데이터 흐름을 이해하려면 [!DNL Adobe Journey Optimizer] 다음을 참조하십시오. [이 페이지](push-gs.md).
+[!DNL Journey Optimizer]에서는 여정을 만들고 타겟팅한 대상자에게 메시지를 보낼 수 있습니다. 을(를) 사용하여 푸시 알림 전송을 시작하기 전에 [!DNL Journey Optimizer], Adobe Experience Platform의 태그와 모바일 앱에 대한 구성 및 통합이 제대로 되어 있는지 확인해야 합니다. [!DNL Adobe Journey Optimizer]의 푸시 알림 데이터 흐름을 파악하려면 [이 페이지](push-gs.md)를 참조하십시오.
 
 >[!AVAILABILITY]
 >
->새로운 **모바일 온보딩 빠른 시작 워크플로우** 을(를) 이제 사용할 수 있습니다. 이 새로운 제품 기능을 사용하여 모바일 이벤트 데이터 수집 및 유효성 검사를 시작하고 모바일 푸시 알림을 전송할 Mobile SDK를 신속하게 구성할 수 있습니다. 이 기능은 공개 Beta 중이며 [데이터 수집] 홈 페이지를 통해 액세스할 수 있습니다. [자세히 알아보기](mobile-onboarding-wf.md)
+>새로운 **모바일 온보딩 빠른 시작 워크플로우** 을(를) 이제 사용할 수 있습니다. 이 새로운 제품 기능을 사용하여 모바일 이벤트 데이터 수집 및 유효성 검사를 시작하고 모바일 푸시 알림을 전송할 Mobile SDK를 신속하게 구성할 수 있습니다. 이 기능은 데이터 수집 홈 페이지를 통해 공개 베타로 액세스할 수 있습니다. [자세히 알아보기](mobile-onboarding-wf.md)
 >
 
 

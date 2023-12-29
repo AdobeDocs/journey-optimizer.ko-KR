@@ -10,7 +10,7 @@ keywords: 표현식, 데이터, 데이터 유형, 여정
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '616'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ JSON 형식: 숫자
 
 **설명**
 
-십진수. 부동 값을 나타냅니다.
+10진수입니다. 부동 값을 나타냅니다.
 
 * double 유형의 가장 큰 양의 유한 값, (2-2^-52)x2^1023
 * double 유형의 가장 작은 양의 정규 값, 2-1022

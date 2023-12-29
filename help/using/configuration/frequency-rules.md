@@ -11,8 +11,8 @@ keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 13%
+source-wordcount: '990'
+ht-degree: 12%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 13%
 
    ![](assets/message-rules-details.png)
 
-1. 메시지 규칙 범주 선택.
+1. 메시지 규칙 범주를 선택합니다.
 
    >[!NOTE]
    >

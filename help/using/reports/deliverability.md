@@ -10,8 +10,8 @@ level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 2%
+source-wordcount: '690'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 의 전달성을 최적화하려면 [!DNL Journey Optimizer] 경험 에서는 이 섹션에 나열된 모범 사례를 사용하는 것이 좋습니다. 전달성 문제는 일반적으로 인터넷 서비스 공급자(ISP) 및 메일 서버 관리자가 구현하는 스팸을 방지하는 것과 관련이 있습니다.
 
-전달성의 의미에 대한 자세한 내용과 주요 전달성 용어, 개념 및 접근 방식에 대한 자세한 내용은 다음을 참조하십시오. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko-KR){target="_blank"}.
+전달성의 의미에 대한 자세한 내용과 주요 전달성 용어, 개념 및 접근 방식에 대한 자세한 내용은 다음을 참조하십시오. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target="_blank"}.
 
 ## 고객 불만 신고율 감소 {#reduce-complaint-rate}
 

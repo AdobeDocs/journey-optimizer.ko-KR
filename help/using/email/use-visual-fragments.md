@@ -10,12 +10,12 @@ level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '446'
 ht-degree: 4%
 
 ---
 
-# 이메일에 시각적 개체 조각 추가 {#use-visual-fragments}
+# 이메일에 비주얼 조각 추가 {#use-visual-fragments}
 
 에서 시각적 조각을 사용할 수 있습니다. [이메일](get-started-email-design.md) 여정, 캠페인 내 또는 [콘텐츠 템플릿](../content-management/content-templates.md).
 

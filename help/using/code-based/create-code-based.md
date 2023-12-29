@@ -11,8 +11,8 @@ badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 11%
+source-wordcount: '1026'
+ht-degree: 10%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 11%
 >
 >현재 위치 [!DNL Journey Optimizer] 다음을 사용하여 코드 기반 경험만 만들 수 있습니다. **캠페인**.
 
-1. 캠페인 만들기. [자세히 알아보기](../campaigns/create-campaign.md)
+1. 캠페인을 만듭니다. [자세히 알아보기](../campaigns/create-campaign.md)
 
 1. 다음 항목 선택 **[!UICONTROL 코드 기반 경험(베타)]** 작업.
 

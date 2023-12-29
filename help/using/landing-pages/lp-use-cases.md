@@ -11,8 +11,8 @@ keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 15%
+source-wordcount: '942'
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 15%
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [랜딩 페이지 게시.](create-lp.md#publish)
+1. [게시](create-lp.md#publish) 랜딩 페이지입니다.
 
 1. 다음 기간 [여정](../building-journeys/journey.md), 추가 **이메일** 활동을 통해 등록 랜딩 페이지로 트래픽을 유도합니다.
 
@@ -129,7 +129,7 @@ ht-degree: 15%
 
 1. [이메일 메시지 만들기](../email/get-started-email-design.md) 여정.
 
-1. 콘텐츠에서 텍스트를 선택하고 상황별 도구 모음을 사용하여 [링크를 삽입합니다. ](../email/message-tracking.md#insert-links) 버튼에 대한 링크를 사용할 수도 있습니다.
+1. 콘텐츠에서 텍스트를 선택하고 [링크 삽입](../email/message-tracking.md#insert-links) 상황별 도구 모음 사용. 버튼에 대한 링크를 사용할 수도 있습니다.
 
 1. 선택 **[!UICONTROL 랜딩 페이지]** 다음에서 **[!UICONTROL 링크 유형]** 드롭다운 목록 및 선택 [랜딩 페이지](create-lp.md#configure-primary-page) 옵트아웃을 위해 만든 것입니다.
 

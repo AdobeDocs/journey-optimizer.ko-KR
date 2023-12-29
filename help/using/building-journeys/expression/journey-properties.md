@@ -11,17 +11,17 @@ exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
 # 여정 속성 속성 {#journey-properties}
 
-고급 표현식 편집기에서 **여정 속성** 카테고리(이벤트 및 데이터 소스 카테고리 아래). 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다.
+고급 표현식 편집기에서 **여정 속성** 카테고리(이벤트 및 데이터 소스 카테고리 아래). 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 이는 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정에서 시스템이 검색한 정보입니다.
 
 >[!NOTE]
 >
->여정 속성 속성은 단순 표현식 편집기에서도 사용할 수 있습니다. 이 [섹션](../condition-activity.md#about_condition)을 참조하세요
+>여정 속성 속성은 단순 표현식 편집기에서도 사용할 수 있습니다. 이 [섹션](../condition-activity.md#about_condition)을 참조하십시오
 
 ![](../assets/journey-properties.png)
 

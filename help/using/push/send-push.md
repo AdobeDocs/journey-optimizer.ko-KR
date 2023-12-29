@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 푸시 알림 확인 및 보내기
+title: 푸시 알림 확인하고 보내기
 description: Journey Optimizer에서 푸시 알림을 확인하고 전송하는 방법 알아보기
 feature: Push
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# 푸시 알림 확인 및 보내기 {#send-push}
+# 푸시 알림 확인하고 보내기 {#send-push}
 
 ## 푸시 알림 미리 보기 {#preview-push}
 

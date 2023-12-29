@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 13%
+source-wordcount: '408'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 오퍼 의사 결정 규칙을 만들 수 있습니다. 의사 결정 규칙은 오퍼를 표시할 대상을 결정합니다.
 
-예를 들어 (Gender = &#39;Female&#39;) 및 (Region = &#39;Northeast&#39;)일 때만 &#39;여성용 겨울 의류 상품&#39;을 표시하도록 지정할 수 있습니다. 
+예를 들어 (Gender = &#39;Female&#39;) 및 (Region = &#39;Northeast&#39;)일 때만 &#39;여성용 겨울 의류 상품&#39;을 표시하도록 지정할 수 있습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -61,7 +61,7 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
    >
    >규칙 매개 변수에 컨텍스트 데이터와 같이 프로필에 없는 데이터가 포함되어 있으면 프로필 추정치를 사용할 수 없습니다. 예를 들어 현재 날씨가 ≥80도여야 하는 자격 규칙이 있습니다.
 
-1. 클릭 **[!UICONTROL 저장]** 확인할 수 있습니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 확인합니다.
 
 1. 규칙이 만들어지면에서 표시됩니다. **[!UICONTROL 규칙]** 목록을 표시합니다. 속성을 표시하도록 선택하고 편집하거나 삭제할 수 있습니다.
 

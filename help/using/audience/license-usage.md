@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 17%
+source-wordcount: '92'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,6 @@ ht-degree: 17%
 
 Adobe Experience Platform 설명서에서 자세히 알아보십시오.
 
-* [라이선스 사용 대시보드 개요](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko){target="_blank"}
+* [라이선스 사용 대시보드 개요](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
 * [라이선스 사용 대시보드 살펴보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [사용 가능한 지표](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko#available-metrics){target="_blank"}

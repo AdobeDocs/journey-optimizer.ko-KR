@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 23%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 23%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
->title="컬렉션 수식어"
+>title="컬렉션 한정자"
 >abstract="하나 또는 여러 컬렉션 한정자를 오퍼에 연결하여 오퍼 라이브러리를 구성하고 제안을 보다 쉽게 찾을 수 있습니다. 컬렉션 한정자는 “구성 요소” 메뉴에서 생성됩니다."
 
 컬렉션 한정자(이전의 &quot;태그&quot;라고 함)를 오퍼에 연결하면 보다 쉽게 정리할 수 있습니다. 예를 들어 블랙 프라이데이 오퍼에 &quot;블랙 프라이데이&quot; 컬렉션 한정자를 사용하여 레이블을 지정할 수 있습니다. 그런 다음 오퍼 라이브러리의 검색 기능을 사용하여 해당 컬렉션 한정자를 사용하는 모든 오퍼를 쉽게 찾을 수 있습니다.

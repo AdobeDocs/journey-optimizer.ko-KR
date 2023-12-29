@@ -8,7 +8,7 @@ level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '365'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 다음 `elseif` 문은 첫 번째 문이 false를 반환하는 경우 테스트할 새 조건을 지정합니다.
 
 
-**형식**
+**포맷**
 
 ```sql
 {

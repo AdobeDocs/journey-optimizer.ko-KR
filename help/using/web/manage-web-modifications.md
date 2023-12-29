@@ -8,8 +8,8 @@ level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 12%
+source-wordcount: '954'
+ht-degree: 11%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 12%
 
    >[!CAUTION]
    >
-   >만 추가할 수 있습니다. `<script>` 및 `<style>` 요소를 로 `<head>` 섹션. `<div>` 태그 및 기타 요소를 추가하면 나머지 `<head>` 요소가 `<body>`에 들어갈 수 있습니다. 
+   >만 추가할 수 있습니다. `<script>` 및 `<style>` 요소를 로 `<head>` 섹션. 추가 중 `<div>` 태그 및 기타 요소로 인해 남아 있을 수 있음 `<head>` 에 표시할 요소 `<body>`.
 
 1. 다음을 클릭합니다. **[!UICONTROL 고급 편집 옵션]** 단추를 클릭합니다. 표현식 편집기가 열립니다.
 

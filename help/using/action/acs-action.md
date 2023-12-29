@@ -11,8 +11,8 @@ keywords: 캠페인, 표준, 통합, 최대 가용량, 작업
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 5%
+source-wordcount: '431'
+ht-degree: 3%
 
 ---
 
@@ -38,7 +38,7 @@ Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지
 
 이를 구성하는 단계는 다음과 같습니다.
 
-1. 선택 **[!UICONTROL 구성]** 관리 메뉴 섹션에 있는 마지막 항목이 될 필요가 없습니다. 다음에서  **[!UICONTROL 작업]** 섹션, 클릭 **[!UICONTROL 관리]**. 그러면 작업 목록이 표시됩니다.
+1. 선택 **[!UICONTROL 구성]** 관리 메뉴 섹션에 있는 마지막 항목이 될 필요가 없습니다. 다음에서  **[!UICONTROL 작업]** 섹션, 클릭 **[!UICONTROL 관리]**. 작업 목록이 표시됩니다.
 
 1. 기본 제공 선택 **[!UICONTROL AdobeCampaignStandard]** 작업. 작업 구성 창이 화면 오른쪽에 열립니다.
 

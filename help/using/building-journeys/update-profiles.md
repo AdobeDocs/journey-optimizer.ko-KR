@@ -11,8 +11,8 @@ keywords: 프로필, 업데이트, 여정, 활동
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 9%
+source-wordcount: '476'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 사용 **[!UICONTROL 프로필 업데이트]** 작업 활동을 통해 이벤트, 데이터 소스 또는 특정 값에서 가져오는 정보로 기존 Adobe Experience Platform 프로필을 업데이트합니다.
 
-## Recommendations
+## 추천 항목
 
 * 다음 **프로필 업데이트** 작업은 네임스페이스가 있는 이벤트로 시작하는 여정에서만 사용할 수 있습니다.
 * 작업은 기존 필드만 업데이트하며 새 프로필 필드는 만들지 않습니다.

@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Adobe은 평균 추정치가 있는 개별 변형에 대해 점근 신뢰 시퀀
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
-수행:
+위치:
 
 * `N` 는 해당 변형의 단위 수입니다.
 * `σ` 는 표준 편차의 샘플 추정입니다(위에서 정의됨).

@@ -11,7 +11,7 @@ keywords: 보관, 메시지, HIPAA, BCC, 이메일
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1131'
 ht-degree: 7%
 
 ---

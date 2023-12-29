@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 12%
+source-wordcount: '743'
+ht-degree: 11%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
+   >대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 클릭 **[!UICONTROL 새로 고침]** 을 클릭하여 데이터를 업데이트합니다.
    >
    >규칙 매개 변수에 컨텍스트 데이터와 같이 프로필에 없는 데이터가 포함되어 있으면 프로필 추정치를 사용할 수 없습니다. 예를 들어 현재 날씨가 ≥80도여야 하는 자격 규칙이 있습니다.
 

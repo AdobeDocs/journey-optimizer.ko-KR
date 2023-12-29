@@ -11,8 +11,8 @@ keywords: 재시도, 바운스, 소프트, 최적화 프로그램, 오류
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 13%
+source-wordcount: '467'
+ht-degree: 11%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 13%
    >
    >값이 10보다 높을 경우 전달률에 문제가 발생하고 IP가 조절되거나 ISP에 의한 차단 목록에 추가가 발생할 수 있습니다. [전달성에 대해 자세히 알아보기](../reports/deliverability.md)
 
-## 다시 시도 기간 {#retry-duration}
+## 재시도 기간 {#retry-duration}
 
 다음 **재시도 기간** 일시적인 오류나 소프트 바운스가 발생한 게재의 이메일 메시지가 다시 시도하는 시간대입니다.
 

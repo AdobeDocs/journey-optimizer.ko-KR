@@ -11,8 +11,8 @@ keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 7%
+source-wordcount: '596'
+ht-degree: 4%
 
 ---
 
@@ -109,7 +109,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
-   API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다.
+   API가 호출될 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다.
 
 1. customerID를 쿼리 매개 변수로도 추가하겠습니다.
 

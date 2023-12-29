@@ -10,8 +10,8 @@ keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 3%
+source-wordcount: '619'
+ht-degree: 1%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 3%
 * 사용자가 경로의 마지막 활동에 도달합니다.
 * 개인이 다음에 도착함 **조건** 활동(또는 a) **대기** (조건이 있는 활동) 및 가 조건과 일치하지 않습니다.
 
-그런 다음 재입장이 허용되는 경우 여정에 다시 입장할 수 있습니다. [이 페이지](../building-journeys/journey-gs.md#change-properties)를 참조하십시오
+그런 다음 재입장이 허용되는 경우 여정에 다시 입장할 수 있습니다. 다음을 참조하십시오 [이 페이지](../building-journeys/journey-gs.md#change-properties)
 
-라이브 여정을 종료하려면 종료하는 것이 좋습니다. 그러면 신규 고객의 여정 도착이 차단됩니다. 이미 여정에 입점한 고객이 끝까지 체험할 수 있다. [이 섹션](../building-journeys/journey.md#close-journey)을 참조하십시오
+라이브 여정을 종료하려면 종료하는 것이 좋습니다. 그러면 신규 고객의 여정 도착이 차단됩니다. 이미 여정에 입점한 고객이 끝까지 체험할 수 있다. 다음을 참조하십시오 [이 섹션](../building-journeys/journey.md#close-journey)
 
-긴급 상황이 발생하여 여정에서 모든 처리를 즉시 종료해야 하는 경우에만 여정을 중지할 수 있습니다. 이미 여정에 들어간 사람은 모두 진행 중단이 됩니다. [이 섹션](../building-journeys/journey.md#stop-journey)을 참조하십시오
+긴급 상황이 발생하여 여정에서 모든 처리를 즉시 종료해야 하는 경우에만 여정을 중지할 수 있습니다. 이미 여정에 들어간 사람은 모두 진행 중단이 됩니다. 다음을 참조하십시오 [이 섹션](../building-journeys/journey.md#stop-journey)
 
 >[!NOTE]
 >

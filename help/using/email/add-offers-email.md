@@ -11,8 +11,8 @@ keywords: 오퍼, 결정, 이메일, 개인화, 결정
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 1%
+source-wordcount: '622'
+ht-degree: 0%
 
 ---
 

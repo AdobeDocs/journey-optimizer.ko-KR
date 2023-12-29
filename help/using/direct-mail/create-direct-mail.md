@@ -9,7 +9,7 @@ keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '723'
 ht-degree: 18%
 
 ---

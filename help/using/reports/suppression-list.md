@@ -11,7 +11,7 @@ exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 10%
 >
 >Adobe은 참여 및 메일링 평판에 유해한 것으로 입증된 알려진 잘못된 주소의 업데이트된 목록을 보관하고 이메일이 게재되지 않도록 합니다. 이 목록은 모든 Adobe 고객에게 공통으로 적용되는 글로벌 금지 목록에서 관리됩니다. 글로벌 금지 목록에 포함된 주소와 도메인 이름은 숨겨집니다. 게재 보고서에는 제외된 수신자 수만 표시됩니다.
 
-또한 Journey Optimizer **Suppression REST API**&#x200B;를 활용하면 제외 및 허용 목록을 통해 보내는 메시지를 제어할 수 있습니다. [Suppression REST API를 사용하여 작업하는 방법을 알아봅니다.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+또한 Journey Optimizer **Suppression REST API**&#x200B;를 활용하면 제외 및 허용 목록을 통해 보내는 메시지를 제어할 수 있습니다. [Suppression REST API 사용 방법 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 제외 목록이 필요한 이유 {#why-suppression-list}
 

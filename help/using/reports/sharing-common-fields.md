@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 9%
+source-wordcount: '609'
+ht-degree: 1%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 9%
 
 * 조건
 * 작업
-* 예약
+* 스케줄러
 * 타이머
 
 ## stepStatus {#stepstatus-field}

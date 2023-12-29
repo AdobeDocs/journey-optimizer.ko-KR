@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 32%
+source-wordcount: '918'
+ht-degree: 31%
 
 ---
 
@@ -92,7 +92,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 1. 파일을 암호화하려면 암호화 키를 **[!UICONTROL PGP/GPG 암호화 키]** 필드.
 
-1. **[!UICONTROL 제출]**&#x200B;을 선택합니다. 파일 라우팅 구성은 **[!UICONTROL 활성]** 상태. 이제 사용할 준비가 되었습니다. [DM 표면](#direct-mail-surface).
+1. 선택 **[!UICONTROL 제출]**. 파일 라우팅 구성은 **[!UICONTROL 활성]** 상태. 이제 사용할 준비가 되었습니다. [DM 표면](#direct-mail-surface).
 
    >[!NOTE]
    >
@@ -121,7 +121,7 @@ DM을 게재하려면 [!DNL Journey Optimizer], 메일 공급자가 사용할 �
 
 DM 표면에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 구성도 포함되어야 합니다.
 
-1. 채널 표면 만들기. [자세히 알아보기](../configuration/channel-surfaces.md)
+1. 채널 표면을 만듭니다. [자세히 알아보기](../configuration/channel-surfaces.md)
 
 1. 다음 항목 선택 **[!UICONTROL 다이렉트 메일]** 채널.
 

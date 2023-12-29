@@ -11,8 +11,8 @@ keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 3%
+source-wordcount: '952'
+ht-degree: 4%
 
 ---
 

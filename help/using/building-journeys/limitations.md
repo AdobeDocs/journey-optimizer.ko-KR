@@ -11,8 +11,8 @@ keywords: 여정, 제한
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 60%
+source-wordcount: '512'
+ht-degree: 47%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 60%
 
 * 전송 제한이 없습니다.  
 * 오류가 발생하면 시스템에서 세 번 다시 시도합니다. 수신된 오류 메시지에 따라 재시도 횟수를 조정할 수 없습니다. 
-* 기본 제공 **반응** 이벤트를 사용하면 즉시 사용 가능한 작업에 반응할 수 있습니다(다음 참조) [페이지](../building-journeys/reaction-events.md)). 사용자 지정 작업을 통해 보낸 메시지에 반응하려면 전용 이벤트를 구성해야 합니다. 
+* 기본 제공 **반응** 이벤트를 사용하면 즉시 사용 가능한 작업에 반응할 수 있습니다(다음 참조) [페이지](../building-journeys/reaction-events.md)). 사용자 지정 작업을 통해 전송된 메시지에 반응하려면 전용 이벤트를 구성해야 합니다. 
 * 두 가지 작업을 병렬로 배치할 수 없으며 하나씩 추가해야 합니다.
 
 ## 여정 버전 제한 사항 {#journey-versions-limitations}
@@ -39,13 +39,13 @@ ht-degree: 60%
 
 * 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다.  
 * POST 및 PUT 호출 메서드만 지원됩니다. 
-* 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;로 시작해서는 안 됩니다.. 
+* 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;입니다. 
 * IP 주소는 허용되지 않습니다. 
 * 내부 Adobe 주소(.adobe.)를 사용할 수 없습니다.
 
 ## 이벤트 제한 사항 {#events-limitations}
 
-* 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Optimizer 내에서 구성해야 합니다..  이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다. 
+* 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Optimizer 내에서 구성해야 합니다. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다. 
 
 ## 데이터 소스 제한 사항 {#data-sources-limitations}
 

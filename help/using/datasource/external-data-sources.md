@@ -11,8 +11,8 @@ keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 69%
+source-wordcount: '1471'
+ht-degree: 68%
 
 ---
 
@@ -54,7 +54,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
    >[!NOTE]
    >
-   >공백이나 특수 문자는 사용하지 마십시오. 이름은 30자까지만 입력하십시오.
+   >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
 
 1. 원하는 경우 데이터 소스에 이벤트에 설명을 추가합니다.
 1. 외부 서비스의 URL을 추가합니다. 이 예제에서는 _https://api.adobeweather.org/weather_&#x200B;를 추가합니다.

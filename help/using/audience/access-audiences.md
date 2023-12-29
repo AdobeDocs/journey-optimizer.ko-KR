@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 28%
+source-wordcount: '156'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 28%
 
 >[!BEGINSHADEBOX]
 
-이 설명서에서는 Adobe Journey Optimizer 내에서 대상자 구성을 사용하는 방법에 대해 자세한 정보를 제공합니다. Adobe Journey Optimizer를 사용하지 않는 경우 [여기를 클릭하세요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko){target="_blank"}.
+이 설명서에서는 Adobe Journey Optimizer 내에서 대상자 구성을 사용하는 방법에 대해 자세한 정보를 제공합니다. Adobe Journey Optimizer을 사용하지 않는 경우 [여기를 클릭하십시오](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

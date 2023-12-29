@@ -11,8 +11,8 @@ keywords: 여정, 메시지, 캠페인, 통합
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 3%
+source-wordcount: '413'
+ht-degree: 2%
 
 ---
 
@@ -99,7 +99,7 @@ Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십�
 
    ![](assets/accintegration-uc-10.png)
 
-1. 여정 테스트.
+1. 여정을 테스트합니다.
 
    ![](assets/accintegration-uc-11.png)
 

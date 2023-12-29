@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 11%
+source-wordcount: '308'
+ht-degree: 6%
 
 ---
 
@@ -152,7 +152,7 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### 미만{#lessthan}
+### 보다 작음{#lessthan}
 
 다음 `<` (작음) 비교 함수는 첫 번째 값이 두 번째 값보다 작은지 확인하는 데 사용합니다.
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 3f9d85dc77d3c572b1bad751646153874a5584c8
 workflow-type: tm+mt
-source-wordcount: '2664'
-ht-degree: 33%
+source-wordcount: '2665'
+ht-degree: 32%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 33%
 
 >[!IMPORTANT]
 >
-> **보고서** 메뉴에 액세스하려면 **[!UICONTROL 채널 보고서 보기]** 권한이 있어야 합니다. [자세히 알아보기](channel-report-gs.md#before-starting-manage-reports-prereq)
+> 에 액세스하려면 **보고서** 메뉴, 다음 항목이 있어야 합니다. **[!UICONTROL 채널 보고서 보기]** 권한. [자세히 알아보기](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 채널 보고서는 채널 수준의 트래픽 및 참여 지표에 대한 포괄적인 개요를 사용자에게 제공합니다. 지표는 다양한 캠페인 및 여정에 걸쳐 선택된 채널에서 시작된 작업에 대한 통합 값을 제시하기 위해 집계됩니다.
 
@@ -37,7 +37,7 @@ ht-degree: 33%
 * [SMS](#sms)
 * [인앱](#inapp)
 * [웹](#web)
-* [다이렉트 메일](#direct-mail)
+* [DM](#direct-mail)
 
 ➡️ [비디오에서 이 기능 살펴보기](#channel-report-video)
 
@@ -362,7 +362,7 @@ ht-degree: 33%
 
 +++
 
-## 다이렉트 메일 {#direct-mail}
+## DM {#direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_sending_statistics"

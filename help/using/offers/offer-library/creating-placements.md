@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 11%
+source-wordcount: '537'
+ht-degree: 12%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 11%
    >
    >을 사용하여 작업하는 경우 [일괄 의사 결정 API](../api-reference/offer-delivery-api/batch-decisioning-api.md), 이 화면 또는 API 요청에서 이러한 매개 변수를 설정할 수 있습니다. 화면과 APi 요청 사이에 매개 변수 값이 일치하지 않으면 요청 값이 사용됩니다.
 
-1. 클릭 **[!UICONTROL 저장]** 확인할 수 있습니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 확인합니다.
 
 1. 배치가 생성되면 배치 목록에 표시됩니다. 속성을 표시하고 편집할 수 있습니다.
 

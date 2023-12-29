@@ -10,8 +10,8 @@ keywords: 쿼리, 컬렉션, 함수, 페이로드, 여정
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 2%
+source-wordcount: '625'
+ht-degree: 3%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 데이터 소스 조건 활동에서 **[!UICONTROL 모두]** 함수가 null이거나 null이 아닙니다. 이를 결합할 수도 있습니다 **[!UICONTROL 모두]** 함수 및 기타 함수 **[!UICONTROL count]**. 자세한 내용은 [데이터 소스 조건 활동](../condition-activity.md#data_source_condition).
 
-**예 1:**
+**예제 1:**
 
 사용자가 특정 버전의 애플리케이션을 설치했는지 확인하려고 합니다. 이를 위해 버전이 1.0인 모바일 애플리케이션과 연결된 모든 푸시 알림 토큰을 가져옵니다. 그런 다음 조건을 수행합니다. **[!UICONTROL count]** 반환된 토큰 목록에 하나 이상의 요소가 포함되어 있는지 확인하는 함수입니다.
 
@@ -83,7 +83,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 결과는 true입니다.
 
-**예 2:**
+**예제 2:**
 
 여기에서는 **[!UICONTROL count]** 컬렉션에 푸시 알림 토큰이 있는지 확인하는 함수입니다.
 
@@ -127,7 +127,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 표현식의 결과는 다음과 같습니다. **3**.
 
-**예 3:**
+**예제 3:**
 
 여기에서는 개인이 지난 24시간 내에 어떤 연락도 받지 않았는지 확인합니다. 컬렉션의 두 요소를 기반으로 하는 두 개의 표현식을 사용하여 ExperiencePlatform 데이터 소스에서 검색된 경험 이벤트 컬렉션을 필터링합니다. 특히 이벤트의 타임스탬프는 가 반환하는 dateTime과 비교됩니다 **[!UICONTROL nowWithDelta]** 함수.
 
@@ -182,7 +182,7 @@ _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-**예 1:**
+**예제 1:**
 
 이 표현식은 버전이 1.0인 모바일 애플리케이션과 연결된 첫 번째 푸시 알림 토큰을 반환합니다.
 
@@ -192,7 +192,7 @@ _`<listExpression>.last(<condition>)`_
 
 결과는 &quot;token_1&quot;입니다.
 
-**예 2:**
+**예제 2:**
 
 이 표현식은 버전이 1.0인 모바일 애플리케이션과 연결된 마지막 푸시 알림 토큰을 반환합니다.
 
@@ -209,7 +209,7 @@ _`<listExpression>.last(<condition>)`_
 >* **[!UICONTROL 첫 번째]** 함수는 가장 최근 이벤트를 반환합니다.
 >* **[!UICONTROL 마지막]** 함수는 가장 오래된 것을 반환합니다.
 
-**예 3:**
+**예제 3:**
 
 DMA ID에 대해 0이 아닌 값이 있는 첫 번째(가장 최근) Adobe Analytics 이벤트의 값이 602와 같은지 확인합니다.
 

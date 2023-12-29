@@ -8,8 +8,8 @@ keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 11%
+source-wordcount: '642'
+ht-degree: 6%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 11%
 
 1. 새로 만든 속성의 확장 메뉴에서 다음 확장을 설치합니다.
 
-   * Adobe Experience Platform Edge Network
+   * Adobe Experience Platform 에지 네트워크
    * Adobe Journey Optimizer
    * AEP 보증
    * 동의
@@ -105,7 +105,7 @@ ht-degree: 11%
 
 ## 콘텐츠 실험 사전 요구 사항 {#experiment-prerequisites}
 
-인앱 채널에 대해 콘텐츠 실험을 활성화하려면 다음을 확인해야 합니다. [데이터 세트](../data/get-started-datasets.md) 인앱 구현에 사용됨 [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko-KR){target="_blank"} 는 보고 구성에도 포함됩니다.
+인앱 채널에 대해 콘텐츠 실험을 활성화하려면 다음을 확인해야 합니다. [데이터 세트](../data/get-started-datasets.md) 인앱 구현에 사용됨 [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} 는 보고 구성에도 포함됩니다.
 
 즉, 실험 보고를 구성할 때 웹 데이터 스트림에 없는 데이터 세트를 추가하면 웹 데이터가 콘텐츠 실험 보고서에 표시되지 않습니다.
 

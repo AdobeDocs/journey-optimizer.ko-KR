@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 3%
+source-wordcount: '1834'
+ht-degree: 2%
 
 ---
 
@@ -73,10 +73,10 @@ ht-degree: 3%
         <td><a href="arrays-list.md#last-n">배열의 마지막 n</a></td><td>이 함수는 특정 수식에 따라 내림차순으로 정렬되면 배열에서 마지막 'N' 항목을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#max">최대값</a></td><td>이 함수는 배열에서 선택한 모든 값 중 가장 큰 값을 반환합니다.</td>
+        <td><a href="aggregation.md#max">최대</a></td><td>이 함수는 배열에서 선택한 모든 값 중 가장 큰 값을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">최소값</a></td><td>이 함수는 배열에서 선택한 모든 값 중 가장 작은 값을 반환합니다.</td>
+        <td><a href="aggregation.md#min">최소</a></td><td>이 함수는 배열에서 선택한 모든 값 중 가장 작은 값을 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#notin">다음에 없음</a></td><td>이 함수는 항목이 배열의 멤버인지 또는 목록의 멤버가 아닌지 확인합니다.</td>
@@ -135,7 +135,7 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="maps.md#get">가져오기</a></td><td>이 함수는 특정 키에 대한 맵의 값을 검색하는 데 사용합니다.</td>
+        <td><a href="maps.md#get">Get</a></td><td>이 함수는 특정 키에 대한 맵의 값을 검색하는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">키</a></td><td>이 함수는 특정 맵에 대한 모든 키를 검색하는 데 사용합니다.</td>
@@ -155,7 +155,7 @@ ht-degree: 3%
         <td><a href="math.md#format-number">포맷 번호</a></td><td>이 함수는 모든 숫자를 해당 언어 구분 표현으로 서식을 지정합니다.</td>
     </tr>
     <tr>
-        <td><a href="math.md#random">Random</a></td><td>이 함수는 0과 1 사이의 임의 값을 반환합니다.</td>
+        <td><a href="math.md#random">무작위</a></td><td>이 함수는 0과 1 사이의 임의 값을 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="math.md#round-down">내림</a></td><td>이 함수는 숫자를 내림합니다</td>

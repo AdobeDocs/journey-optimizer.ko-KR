@@ -11,14 +11,14 @@ keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 17%
+source-wordcount: '538'
+ht-degree: 13%
 
 ---
 
 # 여정 활동 시작 {#about-journey-activities}
 
-다양한 이벤트, 오케스트레이션 및 작업 활동을 조합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
+다양한 이벤트, 오케스트레이션 및 작업 활동을 결합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
 
 ## 이벤트 활동 {#event-activities}
 

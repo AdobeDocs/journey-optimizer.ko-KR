@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 3%
+source-wordcount: '1016'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 
 +++
 
-+++ _경험
++++ 경험(_E)
 
 **필드:** 경험(_E)
 **유형:** 오브젝트
@@ -90,7 +90,7 @@ ht-degree: 3%
   **유형:** 오브젝트
   **필수 여부:** &quot;format&quot;
 
-   * **형식**
+   * **포맷**
 
      **필드:** 형식
      **제목:** 형식
@@ -111,7 +111,7 @@ ht-degree: 3%
   **필드:** _repo
   **유형:** 오브젝트
 
-   * **ID**
+   * **id**
 
      **필드:** id
      **설명:** 콘텐츠 저장소의 에셋을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을 사용하여 에셋을 검색할 수 있습니다.

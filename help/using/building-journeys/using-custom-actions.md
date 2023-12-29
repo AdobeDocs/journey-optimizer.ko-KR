@@ -11,8 +11,8 @@ keywords: 작업, 사용자 지정, API, 여정, 구성, 서비스
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 27%
+source-wordcount: '399'
+ht-degree: 26%
 
 ---
 

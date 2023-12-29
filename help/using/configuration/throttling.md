@@ -10,7 +10,7 @@ keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '769'
 ht-degree: 91%
 
 ---
@@ -143,7 +143,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 다운로드하여 Postman에 업로드한 다음에는 `{JO_HOST}`, `{BASE_PATH}`, `{SANDBOX_NAME}` 세 가지 변수를 추가해야 합니다.
 * `{JO_HOST}`: [!DNL Journey Optimizer] 게이트웨이 URL입니다.
-* `{BASE_PATH}`: API의 시작 지점입니다. 
+* `{BASE_PATH}` : API의 진입점입니다.
 * `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다.  자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)를 참조하십시오.
 
 다음 섹션에서는 사용 사례를 수행하기 위한 Rest API 호출 목록을 순서대로 확인할 수 있습니다.

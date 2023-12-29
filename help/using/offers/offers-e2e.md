@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 6%
+source-wordcount: '1100'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 6%
 
    * 배치 만들기
    * 의사 결정 규칙 만들기
-   * 컬렉션 수식어 만들기 (이전에 &quot;태그&quot;라고 함)
+   * 컬렉션 한정자 만들기(이전의 &quot;태그&quot;)
    * 등급 만들기(선택 사항)
 
 1. [오퍼 구성](#configure-offers)
@@ -114,7 +114,7 @@ ht-degree: 6%
 
 이제 오퍼를 만들고 구성할 수 있습니다. 이 예제에서는 각 특정 프로필에 따라 표시할 4개의 오퍼를 만듭니다.
 
-1. 오퍼 만들기. 자세한 내용은 [이 섹션](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)을 참조하십시오.
+1. 오퍼를 만듭니다. 자세한 내용은 [이 섹션](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)을 참조하십시오.
 
 1. 이 오퍼에서는 세 개의 표현을 만듭니다. 각 표현은 이전에 생성한 배치와 자산의 조합이어야 합니다.
 
@@ -155,7 +155,7 @@ ht-degree: 6%
 
 ## 대체 오퍼 만들기 {#create-fallback}
 
-1. 대체 오퍼 만들기.
+1. 대체 오퍼를 만듭니다.
 
 1. 적절한 자산을 사용하여 오퍼와 동일한 표현을 정의합니다(오퍼에 사용된 것과 달라야 함).
 
@@ -195,7 +195,7 @@ ht-degree: 6%
 
 오퍼 결정을 만들고 구성하려면 아래의 주요 단계를 수행합니다.
 
-1. 의사 결정 만들기. 자세한 내용은 [이 섹션](../../using/offers/offer-activities/create-offer-activities.md#create-activity)을 참조하십시오.
+1. 의사 결정을 만듭니다. 자세한 내용은 [이 섹션](../../using/offers/offer-activities/create-offer-activities.md#create-activity)을 참조하십시오.
 
 1. 다음 항목 선택 *웹 - 이미지*, *이메일 - 이미지* 및 *비디지털 - 텍스트* 배치.
 

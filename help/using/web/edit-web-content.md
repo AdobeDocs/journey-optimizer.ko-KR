@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 18%
+source-wordcount: '1101'
+ht-degree: 17%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 18%
 
 1. 캔버스에서 이미지, 단추, 단락, 텍스트, 컨테이너, 머리글, 링크 등과 같은 요소를 선택합니다. [자세히 알아보기](#content-components)
 
-1. :
+1. 사용:
 
    * 컨텍스트 메뉴 를 사용하여 콘텐츠, 레이아웃, 링크 또는 개인화 등을 편집할 수 있습니다.
 

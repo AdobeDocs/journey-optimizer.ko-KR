@@ -12,7 +12,7 @@ exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 21%
+ht-degree: 15%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 21%
 
 ## 오퍼 개인화 {#personalize-offers}
 
-오퍼 표시에 텍스트 유형의 콘텐츠를 추가할 때도 개인화 편집기에 액세스할 수 있습니다.
+오퍼 표현에 텍스트 유형 컨텐츠를 추가할 때 개인화 편집기에 액세스할 수도 있습니다.
 
 에서 의사 결정 관리를 사용하여 컨텐츠를 관리하는 방법에 대해 자세히 알아보십시오. [이 섹션](../offers/offer-library/creating-personalized-offers.md#custom-text).
 

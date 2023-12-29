@@ -8,7 +8,7 @@ level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '833'
 ht-degree: 17%
 
 ---
@@ -41,11 +41,11 @@ ht-degree: 17%
 >
 >웹 경험을 처음 만드는 경우에는 [이 섹션](web-prerequisites.md)에서 설명하는 전제 조건을 충족해야 한다는 점에 유의하십시오.
 
-1. 캠페인 만들기. [자세히 알아보기](../campaigns/create-campaign.md)
+1. 캠페인을 만듭니다. [자세히 알아보기](../campaigns/create-campaign.md)
 
 1. 다음 항목 선택 **[!UICONTROL 웹]** 작업.
 
-1. 웹 표면 정의.
+1. 웹 표면을 정의합니다.
 
    >[!NOTE]
    >

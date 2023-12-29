@@ -11,8 +11,8 @@ keywords: 단계, 구성, 여정, 이벤트, 스트림, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 5%
+source-wordcount: '284'
+ht-degree: 3%
 
 ---
 
