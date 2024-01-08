@@ -8,16 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
+source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
 workflow-type: tm+mt
-source-wordcount: '4216'
-ht-degree: 100%
+source-wordcount: '4236'
+ht-degree: 99%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2024년 1월 {#jan-2024}
+
+* 여정 시간 초과 관리가 자세히 설명되어 있음 [다음 섹션에서](../building-journeys/journey-gs.md#global_timeout).
+* Journey Optimizer [설명서 홈](../../ajo-home.md) 페이지가 다시 디자인되었습니다.
+
 
 ## 2023년 11월 {#nov-2023}
 
