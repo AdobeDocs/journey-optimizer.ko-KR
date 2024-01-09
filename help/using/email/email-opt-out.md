@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 77%
+source-wordcount: '1029'
+ht-degree: 76%
 
 ---
 
@@ -22,11 +22,15 @@ ht-degree: 77%
 
 이렇게 하려면 다음 작업을 수행할 수 있습니다.
 
-* 삽입 **외부 랜딩 페이지에 연결** 를 이메일에 추가하여 사용자가 브랜드로부터 커뮤니케이션 수신을 취소할 수 있습니다. [외부 옵트아웃 링크를 추가하는 방법 알아보기](#opt-out-external-lp)
+* 삽입 **랜딩 페이지 링크** 를 이메일에 추가하여 사용자가 브랜드로부터 커뮤니케이션 수신을 취소할 수 있습니다. 다음과 같을 수 있습니다.
+
+   * A **[!DNL Journey Optimizer]랜딩 페이지**. [옵트아웃 랜딩 페이지를 추가하는 방법 알아보기](../landing-pages/lp-use-cases.md#opt-out)
+
+   * A **외부 랜딩 페이지**. [외부 옵트아웃 링크를 추가하는 방법 알아보기](#opt-out-external-lp)
 
 * 추가 **원클릭 옵트아웃 링크** 을 이메일 콘텐츠에 추가합니다. 이 링크를 사용하면 수신자가 랜딩 페이지로 리디렉션되어 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있습니다. [원클릭 옵트아웃 링크를 추가하는 방법 알아보기](#one-click-opt-out)
 
-또한 **[!UICONTROL 목록-구독 취소]** 채널 표면 수준에서 옵션이 활성화되어 있으면 Journey Optimizer으로 전송된 해당 이메일의 헤더에 구독 취소 링크가 포함됩니다. [이메일 헤더의 옵트아웃에 대해 자세히 알아보기](#unsubscribe-header)
+* 이메일 헤더에 구독 취소 링크를 추가합니다. 다음과 같은 경우 **[!UICONTROL 목록-구독 취소]** 채널 표면 수준에서 옵션이 활성화되어 있으면 Journey Optimizer으로 전송된 해당 이메일의 헤더에 구독 취소 링크가 포함됩니다. [이메일 헤더의 옵트아웃에 대해 자세히 알아보기](#unsubscribe-header)
 
 >[!NOTE]
 >
@@ -161,7 +165,7 @@ ht-degree: 77%
 >abstract="[목록 구독 취소]를 활성화하여 이메일 헤더에 구독 취소 링크를 추가합니다. 구독 취소 URL을 설정하려면 원클릭 옵트아웃 링크를 이메일 콘텐츠에 삽입합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko#one-click-opt-out" text="원클릭 옵트아웃"
 
-채널 표면 수준에서 [목록 구독 취소 옵션](../configuration/channel-surfaces.md#list-unsubscribe)을 사용하도록 설정한 경우 [!DNL Journey Optimizer] (으)로 보낸 해당 이메일의 헤더에 구독 취소 링크가 포함됩니다.
+채널 표면 수준에서 [목록 구독 취소 옵션](email-settings.md#list-unsubscribe)을 사용하도록 설정한 경우 [!DNL Journey Optimizer] (으)로 보낸 해당 이메일의 헤더에 구독 취소 링크가 포함됩니다.
 
 예를 들어 구독 취소 링크는 Gmail에서 다음과 같이 표시됩니다.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '943'
 ht-degree: 12%
 
 ---
@@ -92,7 +92,9 @@ ht-degree: 12%
 
 수신자가 커뮤니케이션에서 구독을 취소할 수 있도록 이메일에 옵트아웃 랜딩 페이지 링크를 포함할 수 있습니다.
 
-수신자의 동의 관리에 대한 자세한 내용 및 이 문제가 중요한 이유 [이 섹션](../privacy/opt-out.md).
+>[!NOTE]
+>
+>수신자의 동의 관리에 대한 자세한 내용 및 이 문제가 중요한 이유 [이 섹션](../privacy/opt-out.md).
 
 ### 옵트아웃 관리 {#opt-out-management}
 
@@ -103,7 +105,7 @@ ht-degree: 12%
 * 이 링크를 클릭하면 수신자는 옵트아웃을 확인하는 버튼이 포함된 랜딩 페이지로 이동됩니다.
 * 옵트아웃 버튼을 클릭하면 프로필 데이터가 이 정보로 업데이트됩니다.
 
-### 옵트아웃 구성 {#configure-opt-out}
+### 이메일 옵트아웃 구성 {#configure-opt-out}
 
 이메일 수신자가 랜딩 페이지를 통해 커뮤니케이션 구독을 취소할 수 있도록 하려면 아래 단계를 수행합니다.
 
