@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
+source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
 workflow-type: tm+mt
-source-wordcount: '4125'
-ht-degree: 100%
+source-wordcount: '4121'
+ht-degree: 99%
 
 ---
 
@@ -118,11 +118,9 @@ ht-degree: 100%
 
 **여정**
 
-* 이제 여정을 복제할 때 여정 사본의 이름을 정의할 수 있습니다. [자세히 알아보기](../building-journeys/journey-gs.md#uplicate-a-journey)
+* 이제 여정을 복제할 때 여정 사본의 이름을 정의할 수 있습니다. [자세히 알아보기](../building-journeys/journey-gs.md#duplicate-a-여정
 
-
-
-* 이제 사용자 정의 작업 응답에 대한 지원이 GA됩니다. 이 기능으로 사용자 정의 작업에서 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 또한 모든 사용자 정의 작업을 엔드포인트당 30초 간 호출 수 150,000회로 제한하는 가드레일을 새로 추가했습니다. [자세히 알아보기](../action/action-response.md)
+* 이제 사용자 정의 작업 응답에 대한 지원이 GA됩니다. 이 기능으로 사용자 정의 작업에서 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 또한 [새 캡핑 보호 기능](../start/guardrails.md#custom-actions-g) 이(가) 사용자 지정 작업 호출을 자동으로 제한하도록 추가되었습니다. [자세히 알아보기](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
