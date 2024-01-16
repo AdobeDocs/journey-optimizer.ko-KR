@@ -190,7 +190,7 @@ ht-degree: 100%
          + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
          + [개인화된 오퍼 삽입](using/email/add-offers-email.md)
          + [텍스트 버전 생성](using/email/text-version-email.md)
-         + [사전 헤더 추가](using/email/preheader.md)
+         + [프리 헤더 추가](using/email/preheader.md)
       + 스타일 편집 {#edit-style}
          + [이메일 스타일 시작](using/email/get-started-email-style.md)
          + [배경 설정 편집](using/email/backgrounds.md)

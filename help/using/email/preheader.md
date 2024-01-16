@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# 사전 헤더 추가 {#preheader}
+# 프리 헤더 추가 {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
