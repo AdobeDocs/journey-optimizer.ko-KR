@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1011'
 ht-degree: 8%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 8%
 * 대상 읽기, 대상 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 경험 이벤트 필드 그룹을 사용할 수 없습니다.
 
 * 여정에서 대상자 자격을 사용할 때 해당 대상자 자격 활동이 활성화되고 대상자에 들어오거나 나가는 프로필을 듣는 데 최대 10분이 걸릴 수 있습니다.
+
+* 가장 좋은 방법은 스트리밍 대상자만 사용하는 것입니다. **대상 자격 조건** 활동. 배치 사용 사례의 경우 다음을 사용하십시오. **[대상자 읽기](read-audience.md)** 활동.
 
 ### 활동 구성{#cnfigure-segment-qualification}
 
