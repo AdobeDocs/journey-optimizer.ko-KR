@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
+source-git-commit: cdcce470481393c821d1c5df95639602510a690a
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 44%
+source-wordcount: '991'
+ht-degree: 43%
 
 ---
 
@@ -37,14 +37,17 @@ ht-degree: 44%
 * **CSV 파일 가져오기**: CSV 파일을 사용하여 대상자를 가져옵니다. Adobe Experience Platform에서 대상자를 가져오는 방법 알아보기 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 * **대상자 구성**: 컴포지션 워크플로를 만들어 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만듭니다. [대상자 구성 시작](get-started-audience-orchestration.md)
 
-## [!DNL Journey Optimizer]에서 대상자 사용 {#segments-in-journey-optimizer}
+## 에서 대상 지정 [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 다음을 사용하여 생성된 Adobe Experience Platform 대상을 캠페인 및 여정에서 선택할 수 있습니다. [세그먼트 정의](../audience/creating-a-segment-definition.md).
 
 >[!NOTE]
 >
->또한 을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다. [대상자 구성](../audience/get-started-audience-orchestration.md) 또는 [csv 파일에서 업로드됨](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 이 기능은 현재 Private Beta로 사용할 수 있습니다.
-
+>현재로서는 다음으로 인한 대상자 [대상자 구성](../audience/get-started-audience-orchestration.md) 캠페인에서만 타깃팅할 수 있습니다. 이 기능은 여정의 전용 베타로 사용할 수 있습니다.
+>
+>대상 사용 [csv 파일에서 업로드됨](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} 캠페인 및 여정에서 현재 개인 베타로 사용할 수 있습니다.
+>
+>자세한 내용은 Adobe 직원에게 문의하십시오.
 
 **[!DNL Journey Optimizer]**&#x200B;에서 다양한 방법으로 대상자를 활용할 수 있습니다.
 
