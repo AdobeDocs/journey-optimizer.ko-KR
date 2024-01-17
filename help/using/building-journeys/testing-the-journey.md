@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1535'
 ht-degree: 10%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 10%
 
 ## 중요 정보 {#important_notes}
 
-* 테스트 모드에서는 인터페이스를 사용하여 이벤트를 실행할 수 있습니다.
+* 테스트 모드에서는 인터페이스를 사용하여 이벤트를 실행할 수 있습니다. API를 사용하여 외부 시스템에서 이벤트를 실행할 수 없습니다.
 * 실시간 고객 프로필 서비스에서 &quot;테스트 프로필&quot;로 플래그가 지정된 개인만 테스트된 여정에 입력할 수 있습니다. 이 [섹션](../audience/creating-test-profiles.md)을 참조하십시오.
 * 테스트 모드는 네임스페이스를 사용하는 초안 여정에서만 사용할 수 있습니다. 테스트 모드는 여정에 들어가는 사람이 테스트 프로필인지 여부를 확인해야 하므로 Adobe Experience Platform에 연결할 수 있어야 합니다.
 * 테스트 세션 중에 여정을 입력할 수 있는 최대 테스트 프로필 수는 100개입니다.
@@ -137,7 +137,7 @@ ht-degree: 10%
 
 현재 여정 내에 있는 개인(기술적으로 인스턴스라고 함) 수가 표시됩니다. 다음은 각 개인에 대해 표시되는 유용한 정보입니다.
 
-* _Id_: 여정 내 개인의 내부 ID입니다. 이 함수는 디버깅 목적으로 사용할 수 있습니다.
+* _Id_: 여정에 있는 개인의 내부 ID입니다. 이 함수는 디버깅 목적으로 사용할 수 있습니다.
 * _currentstep_: 개인이 여정에서 있는 단계입니다. 활동을 더 쉽게 식별할 수 있도록 활동에 레이블을 추가하는 것이 좋습니다.
 * _currentstep_ > 단계: 개인의 여정 상태(실행 중, 완료됨, 오류 또는 시간 초과). 자세한 내용은 아래를 참조하십시오.
 * _currentstep_ > _extraInfo_: 오류 및 기타 컨텍스트 정보에 대한 설명.
