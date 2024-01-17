@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
+source-git-commit: bf7f09f644beb869cf30733e57754d8cf0408c9e
 workflow-type: tm+mt
-source-wordcount: '4236'
+source-wordcount: '4247'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 99%
 
 ## 2024년 1월 {#jan-2024}
 
+* 여정 크기에 대한 가드레일이 추가되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 * 여정 시간 초과 관리가 자세히 설명되어 있음 [다음 섹션에서](../building-journeys/journey-gs.md#global_timeout).
 * Journey Optimizer [설명서 홈](../../ajo-home.md) 페이지가 다시 디자인되었습니다.
 
