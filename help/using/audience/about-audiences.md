@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d18b24f6afcd64745fe7bd3b3bc9832342b91c7b
+source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 47%
+source-wordcount: '970'
+ht-degree: 44%
 
 ---
 
@@ -27,9 +27,15 @@ ht-degree: 47%
 >title="캠페인 대상자 선택"
 >abstract="이 목록에는 사용 가능한 모든 Adobe Experience Platform 대상자가 표시됩니다. 캠페인으로 타겟팅할 대상자를 선택합니다. 캠페인에 구성된 메시지는 선택한 대상자에 속한 모든 개인 사용자에게 전송됩니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)"
 
-대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 집합입니다. 세그먼트 정의 또는 대상 구성을 사용하여 Adobe Experience Platform에서 생성하거나 CSV 파일에서 가져올 수 있습니다. 에서 대상자에 대해 자세히 알아보기 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}.
+대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 집합입니다. 에서 대상자에 대해 자세히 알아보기 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}.
 
 [!DNL Journey Optimizer] 을(를) 사용하면 다음에서 직접 Adobe Experience Platform 대상을 작성할 수 있습니다. **[!UICONTROL 대상]** 메뉴를 사용하여 여정 또는 캠페인에 활용할 수 있습니다.
+
+다음과 같은 다양한 방법을 사용하여 대상을 생성할 수 있습니다.
+
+* **세그먼트 정의**: Adobe Experience Platform 세그멘테이션 서비스를 사용하여 새 대상 정의를 만듭니다. [세그먼트 정의를 작성하는 방법 알아보기](creating-a-segment-definition.md)
+* **CSV 파일 가져오기**: CSV 파일을 사용하여 대상자를 가져옵니다. Adobe Experience Platform에서 대상자를 가져오는 방법 알아보기 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+* **대상자 구성**: 컴포지션 워크플로를 만들어 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만듭니다. [대상자 구성 시작](get-started-audience-orchestration.md)
 
 ## [!DNL Journey Optimizer]에서 대상자 사용 {#segments-in-journey-optimizer}
 
