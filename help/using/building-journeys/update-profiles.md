@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 프로필, 업데이트, 여정, 활동
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 8%
+source-wordcount: '535'
+ht-degree: 7%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 8%
 * 다른 작업과 마찬가지로 오류나 시간 초과 시 대체 경로를 정의할 수 있으며 두 작업을 동시에 배치할 수는 없습니다.
 * Adobe Experience Platform에 전송된 업데이트 요청은 즉시/1초 이내에 수행됩니다. 보통 몇 초는 걸리지만, 어떤 때는 보장이 없이 더 걸릴 수도 있습니다. 그 결과, 예를 들어 작업에서 로 업데이트된 &quot;필드 1&quot;을 사용하는 경우 **프로필 업데이트** 바로 앞에 배치된 작업입니다. 작업에서 &quot;필드 1&quot;이 업데이트될 것으로 예상해서는 안 됩니다.
 * 다음 **프로필 업데이트** 활동이 열거형으로 정의된 XDM 필드를 지원하지 않습니다.
+* 다음 **[!UICONTROL 프로필 업데이트]** 활동은 다음만 업데이트합니다. [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, 데이터 레이크가 아님.
+* 에서 데이터 세트를 선택할 때 **[!UICONTROL 프로필 업데이트]** 활동으로, 데이터 수집 흐름에서 타깃팅되지 않은 것을 사용하는 것이 좋습니다. **[!UICONTROL 프로필 업데이트]** 업데이트는에만 저장됩니다. [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, 이러한 변경 사항을 데이터 수집 플로우로 덮어쓸 위험이 있습니다.
 
 ## 프로필 업데이트 사용
 

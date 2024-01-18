@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 16%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="규칙 만들기"
->abstract="규칙 빌드 만들기 메서드를 통해 Adobe Experience Platform 대상자 세분화 서비스를 사용하여 새 대상자 정의를 만들 수 있습니다."
+>abstract="규칙 작성 방법 빌드를 사용하면 Adobe Experience Platform 세분화 서비스를 사용하여 새 대상 정의를 만들 수 있습니다."
 
 이 예에서는 Atlanta, San Francisco 또는 Seattle에 거주하며 1980년 이후 출생한 모든 고객을 타깃팅하는 대상을 구성합니다. 이 모든 고객은 지난 7일 이내에 Luma 애플리케이션을 열었다가 애플리케이션을 연 후 2시간 이내에 구입했어야 합니다.
 
