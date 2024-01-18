@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: da90e817edac44712f6f137d13574165c834e53a
+source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 6%
+source-wordcount: '1577'
+ht-degree: 5%
 
 ---
 
@@ -82,9 +82,14 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
 에서 IP 준비 계획을 만들기 전에 [!DNL Journey Optimizer] 인터페이스에서는 계획을 제공할 모든 데이터를 Excel 템플릿에 입력해야 합니다.
 
-* 사용자 인터페이스에서 빈 Excel을 다운로드할 수 있습니다 [IP 준비 계획 템플릿](assets/IPWarmupPlan-Template.xlsx) 작성하려면 다음을 수행하십시오.
+<!--
+* From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
 
-* 다음을 다운로드할 수도 있습니다 [샘플 IP 준비 계획](assets/IPWarmupPlan-Sample.xlsx) 예제로 사용할 수 있는 일부 데이터가 이미 입력되었습니다.
+* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
+
+* 사용자 인터페이스에서 채울 빈 Excel IP 준비 계획 템플릿을 다운로드할 수 있습니다.
+
+* 예를 들어 사용할 수 있는 일부 데이터로 이미 채워진 샘플 IP 준비 계획을 다운로드할 수도 있습니다.
 
 >[!CAUTION]
 >
@@ -265,7 +270,8 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="IP 워밍업 플랜 지정"
->abstract="CSV 템플릿을 다운로드하고 IP 워밍업 단계와 대상 프로필 수에 대한 데이터로 채우십시오."
+>abstract="IP 웜업 단계 및 대상 프로필 수와 같이 계획에 도움이 되는 모든 데이터를 Excel 템플릿에 입력하고 여기에 업로드합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="IP 준비 계획 파일 준비"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
