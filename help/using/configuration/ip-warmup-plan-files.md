@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: a20318a2c38d3ee97e3347439e6b02e2ef04acf6
+source-git-commit: 922789a4dd439f3c3953f235ea2fc556bf929f33
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
@@ -26,4 +26,3 @@ This page is not supposed to be publicly accessible. Its only purpose is to make
 * 사용자 인터페이스에서 빈 Excel을 다운로드할 수 있습니다 [IP 준비 계획 템플릿](assets/IPWarmupPlan-Template.xlsx) 작성하려면 다음을 수행하십시오.
 
 * 다음을 다운로드할 수도 있습니다 [샘플 IP 준비 계획](assets/IPWarmupPlan-Sample.xlsx) 예제로 사용할 수 있는 일부 데이터가 이미 입력되었습니다.
-

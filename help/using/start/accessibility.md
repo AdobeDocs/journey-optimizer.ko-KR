@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
+source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -88,8 +88,7 @@ ht-degree: 100%
     <td>SHIFT+화살표 키</td>
   </tr>  
   <tr>
-
-<td rowspan="3">
+  <td rowspan="3">
   다음 요소의 구성 창:
 <ul>
   <li>여정의 활동</li>
@@ -97,8 +96,7 @@ ht-degree: 100%
   <li>데이터 소스</li>
   <li>작업</li>
 </ul>
-
-</td>
+  </td>
     <td>구성할 다음 필드로 이동</td>
     <td>탭</td>
   </tr>
@@ -120,11 +118,7 @@ ht-degree: 100%
     <td>E</td>
   </tr>
   <tr>
-    <td>
-
-**[!UICONTROL 한 번에 한 프로필]** 옵션이 켜진 대상자 기반 여정의 이벤트 트리거
-
-</td>
+    <td>**[!UICONTROL 한 번에 하나의 프로필] 옵션이 켜진 대상 기반 여정** 이벤트를 트리거합니다</td>
     <td>P</td>
   </tr>
   <tr>
