@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
+source-git-commit: 28c811c330d367c1a99bdd8184a62b1dd45b608d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 6%
@@ -33,7 +33,7 @@ GET /{ENDPOINT_PATH}/tags?{QUERY_PARAMS}
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | 결과를 필터링 기준으로 사용할 선택적 쿼리 매개 변수입니다. | `limit=2` |
 
-### 페이징 {#paging}
+## 페이징 {#paging}
 
 페이징에 가장 일반적인 쿼리 매개 변수는 다음과 같습니다.
 
