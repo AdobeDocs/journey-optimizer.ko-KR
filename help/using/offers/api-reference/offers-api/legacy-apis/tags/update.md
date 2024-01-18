@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 5%
@@ -58,7 +58,7 @@ curl -X PATCH \
 
 | 매개변수 | 설명 |
 | --------- | ----------- |
-| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업에는 다음이 포함됩니다. `add`, `replace`, 및 `remove`. |
+| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업에는 다음이 포함됩니다. `add`, `replace`, `remove`, `copy` 및 `test`. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 
