@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '743'
 ht-degree: 9%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->이 기능을 사용하려면 manage-sandbox(또는 view-sandbox) 및 manage-package 권한이 필요합니다.
+>이 기능을 사용하려면 의 다음 권한이 필요합니다. **샌드박스 관리** 기능: 샌드박스 관리(또는 샌드박스 보기) 및 패키지 관리. [자세히 알아보기](../administration/ootb-permissions.md)
 
 ## 샌드박스 도구 시작{#sandbox-gs}
 

@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,6 @@ ht-degree: 1%
 | 여정 | **[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제&#x200B;</br>**[!DNL View journeys]**: 여정에 대한 읽기 전용 액세스 권한</br>**[!DNL Publish journeys]**: 여정 게시.</br>**[!DNL Manage journeys events, data sources and actions]**: 이벤트, 소스 또는 작업을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View journeys events, data sources and actions]**: 여정 이벤트, 사용자 지정 작업 여정 및 여정 데이터 소스에 대한 읽기 전용 액세스 권한.</br>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</br> |
 | 프로필 관리 | **[!DNL Manage profiles]**: 고객 프로필에 사용되는 데이터 세트를 읽기, 만들기, 편집 및 삭제합니다. 사용 가능한 프로필에 대한 읽기 전용 액세스 권한.</br>**[!DNL View profiles]**: 사용 가능한 프로필에 대한 읽기 전용 액세스 권한.</br>**[!DNL Export audience segments]**: 평가된 대상 세그먼트를 데이터 세트로 내보냅니다.</br>**[!DNL View segments]**: 사용 가능한 대상자에 대한 읽기 전용 액세스 권한.</br>**[!DNL Evaluate a segment to an audience]**: 세그먼트 정의를 평가하여 대상에 대한 프로필을 생성합니다.</br>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</br>**[!DNL View merge policies]**: 사용 가능한 병합 정책에 대한 읽기 전용 액세스 권한. |
 | 쿼리 서비스 | **[!DNL Manage queries]**: Platform 데이터에 대한 구조화된 SQL 쿼리를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage query service integration]**: 쿼리 서비스 액세스에 대한 만료되지 않는 자격 증명을 만들고, 업데이트하고, 삭제합니다. |
-| 샌드박스 관리 | **[!DNL Manage sandboxes]**: 샌드박스 읽기, 만들기, 편집 및 삭제&#x200B;</br>**[!DNL View sandboxes]**: 조직에 속한 샌드박스에 대한 읽기 전용 액세스 권한.</br>**[!DNL Reset sandboxes]**: 샌드박스를 재설정하는 기능.</br>**[!DNL Export sandboxes]**: 샌드박스를 내보내는 기능. |
+| 샌드박스 관리 | **[!DNL Manage sandboxes]**: 샌드박스 읽기, 만들기, 편집 및 삭제&#x200B;</br>**[!DNL View sandboxes]**: 조직에 속한 샌드박스에 대한 읽기 전용 액세스 권한.</br>**[!DNL Reset sandboxes]**: 샌드박스를 재설정하는 기능.</br>**[!DNL Export sandboxes]**: 샌드박스를 내보내는 기능.</br>**[!DNL Manage packages]**: 패키지 읽기, 만들기, 편집 및 삭제 |
 
 {style="table-layout:fixed"}
