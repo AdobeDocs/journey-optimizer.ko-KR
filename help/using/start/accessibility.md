@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1f747604a8658a285c5ec67018c70cd58d2fb068
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 100%
@@ -55,7 +55,7 @@ ht-degree: 100%
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">초안 상태의 여정 캔버스</td>
+    <td rowspan="8">초안 상태의 여정 캔버스</td>
     <td>왼쪽 팔레트의 사용 가능한 첫 번째 위치에 활동 추가(위에서 아래로)</td>
     <td>활동 두 번 클릭</td>
   </tr>
