@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
+source-git-commit: 1a3a67571ef839bf8e1942e4c9599aa52ea7e2dc
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 13%
+source-wordcount: '1081'
+ht-degree: 12%
 
 ---
 
@@ -40,8 +40,13 @@ SMS 채널 구성 전에 이러한 공급자 중 하나로 계정을 만들어�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="Journey Optimizer로 SMS/MMS 공급자 구성"
->abstract="Adobe Journey Optimizer는 SMS/MMS 서비스 공급자를 통해 문자 메시지를 보냅니다. 공급자를 선택하고 API 자격 증명을 입력하십시오."
+>title="Journey Optimizer을 사용하여 SMS 공급자 구성"
+>abstract="Adobe Journey Optimizer은 SMS 서비스 공급자를 통해 문자 메시지를 보냅니다. 공급자를 선택하고 API 자격 증명을 입력하십시오."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mms_api_header"
+>title="Journey Optimizer을 사용하여 MMS 공급자 구성"
+>abstract="Adobe Journey Optimizer은 MMS 서비스 공급자를 통해 미디어 콘텐츠를 전송합니다. 공급자를 선택하고 API 자격 증명을 입력하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
