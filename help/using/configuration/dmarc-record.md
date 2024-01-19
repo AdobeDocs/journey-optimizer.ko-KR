@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -61,7 +61,7 @@ DMARC는 **도메인 기반 메시지 인증, 보고 및 적합성**&#x200B;는 
 
 DMARC 레코드 설정에는 도메인의 DNS 설정에 DNS TXT 레코드를 추가하는 작업이 포함됩니다. 이 레코드는 인증에 실패한 메시지를 격리할지 또는 거부할지 여부와 같이 DMARC 정책을 지정합니다. DMARC 구현은 이메일 보안을 강화하고 이메일 기반 위협으로부터 조직과 수신자 모두를 보호하기 위한 사전 예방적 단계입니다.
 
-[전달성 모범 사례 안내서에서 DMARC에 대해 자세히 알아보십시오.](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=ko){target="_blank"} 이메일 전달성에 미치는 DMARC의 영향을 더 잘 이해할 수 있습니다.
+[전달성 모범 사례 안내서에서 DMARC에 대해 자세히 알아보십시오.](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} 이메일 전달성에 미치는 DMARC의 영향을 더 잘 이해할 수 있습니다.
 
 DMARC를 추가하지 않으면 격리됩니다(최소).
 
