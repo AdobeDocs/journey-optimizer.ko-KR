@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 47598318d2d411d98aa9fa135679442f25b703c7
+source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1724'
 ht-degree: 99%
 
 ---
@@ -528,6 +528,7 @@ ht-degree: 99%
       + [Google TXT 레코드 추가](using/configuration/google-txt.md)
       + [PTR 레코드 액세스 및 편집](using/configuration/ptr-records.md)
       + [IP 풀 만들기](using/configuration/ip-pools.md)
+      + [DMARC 레코드 업데이트](using/configuration/dmarc-record-update.md)
    + IP 준비 계획 구현 {#implement-ip-warmup-plan}
       + [IP 준비 계획 시작](using/configuration/ip-warmup-gs.md)
       + [IP 워밍업 캠페인 만들기](using/configuration/ip-warmup-campaign.md)
