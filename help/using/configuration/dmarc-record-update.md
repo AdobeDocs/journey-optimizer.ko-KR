@@ -8,9 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
-source-git-commit: 7cbd6a9e80a8d6b87b3c3011db80549a3b5f6e73
+hide: true
+hidefromtoc: true
+source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="필수 DMARC 업데이트에 대한 자세한 내용"
->abstract="시행 중인 업계 모범 사례의 일부로서 Google과 Yahoo는 모두 다음을 보유해야 합니다. **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은에 시작됩니다. **2024년 2월 1일**. <br>따라서 Adobe에서는 Journey Optimizer의 Adobe으로 위임한 모든 하위 도메인에 대해 DMARC 레코드를 설정했는지 확인할 것을 강력히 권장합니다."
+>abstract="시행 중인 업계 모범 사례의 일부로서 Google과 Yahoo는 모두 다음을 보유해야 합니다. **레코드** (으)로 이메일을 보내는 데 사용하는 모든 도메인의 경우 시작 **2024년 2월 1일**. <br>따라서 Journey Optimizer에서 Adobe을 위임한 모든 하위 도메인에 대해 DMARC 레코드가 설정되어 있는지 확인해야 합니다."
 
 시행 중인 업계 모범 사례의 일부로서 Google과 Yahoo는 모두 다음을 보유해야 합니다. **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은에 시작됩니다. **2024년 2월 1일**.
 
@@ -32,9 +34,9 @@ ht-degree: 0%
 
 따라서 Adobe은에서 Adobe으로 위임한 모든 하위 도메인에 대해 DMARC 레코드를 설정했는지 확인할 것을 강력히 권장합니다 [!DNL Journey Optimizer]. 아래 두 옵션 중 하나를 따르십시오.
 
-* 하위 도메인 또는 하위 도메인의 상위 도메인에서 DMARC를 설정합니다. **호스팅 솔루션에서**.
+* 하위 도메인 또는 하위 도메인의 상위 도메인에서 DMARC를 설정합니다. **호스팅 솔루션에서**. 지금부터는 가능합니다
 
-* 위임된 하위 도메인에서 DMARC 설정 **에서 예정된 기능 사용 [!DNL Journey Optimizer] 관리 UI** - 호스팅 솔루션에 대한 추가 작업 없음.
+* 위임된 하위 도메인에서 DMARC 설정 **에서 예정된 기능 사용 [!DNL Journey Optimizer] 관리 UI** - 호스팅 솔루션에 대한 추가 작업 없음. 이 기능은 2024년 1월 30일에 사용할 수 있습니다.
 
   >[!CAUTION]
   >

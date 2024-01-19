@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -20,31 +20,44 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="DMARC 레코드 설정"
->abstract="ISP의 전달성 문제를 방지하기 위해 DMARC 레코드 설정"
+>abstract="ISP의 전달성 문제를 방지하려면 DMARC 레코드를 설정하십시오. 시행 업계 모범 사례의 일부로서, Google과 Yahoo는 모두 이메일을 보내는 데 사용하는 도메인에 대한 DMARC 레코드가 있어야 합니다."
 
 >[!CAUTION]
 >
->대량 발신자에 대한 최근 Gmail 및 Yahoo 공지에 이어 이제 Journey Optimizer에서 DMARC 인증 기술을 지원합니다. //DMARC 지원을 포함하려면 인스턴스에서 이미 만든 모든 하위 도메인을 업데이트해야 합니다.//
+>대량 발신자에 대한 최근 Gmail 및 Yahoo 공지에 이어 이제 Journey Optimizer에서 DMARC 인증 기술을 지원합니다.
 
-2월 1일까지 하는 게 중요한데 곧 의사가 올 거예요
+<!--TO ADD TO AJO HOME PAGE (first tab)
 
-시작 날짜
+>[!TAB Mandatory DMARC update]
 
-다음 두 가지 옵션이 있습니다.
+As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a DMARC record for any domain you use to send email to them, starting on **February 1st, 2024**. Make sure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer.
 
-* 지금 바로 직접 수행: 원하는 때에 언제든지 IT 부서와 설정하십시오.
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+-->
 
-* AJO에서 수행 - 그러나 이 경우 1월 30일까지 기다려야 합니다.
+시행 중인 업계 모범 사례의 일부로서 Google과 Yahoo는 모두 다음을 보유해야 합니다. **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은에 시작됩니다. **2024년 2월 1일**.
 
-   * 전체 위임: 1월 30일(AJO 릴리스)에 수행할 수 있습니다
+에서 Google 및 Yahoo 요구 사항에 대해 자세히 알아보십시오. [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
 
-   * CNAME은 IT 부서와 계획을 세워서 시간이 많이 소요되지 않지만 계획을 세워야 합니다
+>[!CAUTION]
+>
+>Gmail 및 Yahoo의 이 새로운 요구 사항을 준수하지 않으면 이메일이 스팸 폴더로 도착하거나 차단될 것으로 예상됩니다.
 
-시행 업계 모범 사례의 일부로서, Google과 Yahoo는 모두 이메일을 보내는 데 사용하는 모든 도메인에 대한 DMARC 레코드를 보유해야 합니다. 이 새 요구 사항은에 시작됩니다. **2024년 2월 1일**.
+따라서 Adobe은에서 Adobe으로 위임한 모든 하위 도메인에 대해 DMARC 레코드를 설정했는지 확인할 것을 강력히 권장합니다 [!DNL Journey Optimizer]. 아래 두 옵션 중 하나를 따르십시오.
 
-에서 DMARC 기록을 위한 Google 및 Yahoo의 요구 사항에 대해 자세히 알아보십시오. [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+* 하위 도메인 또는 하위 도메인의 상위 도메인에서 DMARC를 설정합니다. **호스팅 솔루션에서**.
 
-Google 및 Yahoo에서 발표된 변경 사항에 대해 자세히 알아보십시오. [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+* 위임된 하위 도메인에서 DMARC 설정 **의 새 기능 사용 [!DNL Journey Optimizer] 관리 UI** - 호스팅 솔루션에 대한 추가 작업 없음. [자세히 알아보기](#implement-dmarc)
+
+  >[!CAUTION]
+  >
+  >을 설정한 경우 [CNAME 위임](delegate-subdomain.md#cname-subdomain-delegation) 보내는 하위 도메인의 경우 호스팅 솔루션에도 일부 항목이 필요합니다. 최대한 빨리 업데이트를 수행할 수 있도록 IT 부서와 협력해야 합니다. [!DNL Journey Optimizer] 기능을 사용할 수 있습니다(2024년 1월 30일). <!--and be ready on February 1st, 2024-->
+
+>[!NOTE]
+>
+>에서 DMARC 구현에 대해 자세히 알아보기 [전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} 이메일 전달성에 미치는 영향을 더 잘 이해할 수 있습니다.
+
+## DMARC란?
 
 DMARC는 **도메인 기반 메시지 인증, 보고 및 적합성**&#x200B;는 이메일 스푸핑, 피싱 및 기타 사기 행위로부터 보호하는 이메일 인증 프로토콜입니다.
 
@@ -61,21 +74,26 @@ DMARC는 **도메인 기반 메시지 인증, 보고 및 적합성**&#x200B;는 
 
 DMARC 레코드 설정에는 도메인의 DNS 설정에 DNS TXT 레코드를 추가하는 작업이 포함됩니다. 이 레코드는 인증에 실패한 메시지를 격리할지 또는 거부할지 여부와 같이 DMARC 정책을 지정합니다. DMARC 구현은 이메일 보안을 강화하고 이메일 기반 위협으로부터 조직과 수신자 모두를 보호하기 위한 사전 예방적 단계입니다.
 
-[전달성 모범 사례 안내서에서 DMARC에 대해 자세히 알아보십시오.](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} 이메일 전달성에 미치는 DMARC의 영향을 더 잘 이해할 수 있습니다.
+## DMARC 구현 {#implement-dmarc}
 
-DMARC를 추가하지 않으면 격리됩니다(최소).
+* DMARC를 추가하지 않으면 격리됩니다(최소).
 
-제어에서 받을 수 있는 정품 받은 편지함이 있는지 확인하세요. 이 받은 편지함을 관리할 수 있습니다(Adobe 받은 편지함이 아님).
+* 제어에서 수신할 수 있는 정품 받은 편지함이 있는지 확인합니다. 이 받은 편지함을 관리하면 됩니다(Adobe 받은 편지함이 아니어야 함).
 
-일반적으로 더 적으면 용량을 평가 / > 채팅 GPT를 확인하기 때문에 권장 사항은 24입니다.
+일반적으로 ISP에는 이것이 있으므로 권장 사항은 24입니다.
+부족할 경우 용량을 평가하거나 > 채팅 GPT를 확인하십시오.
 
-Google, Yahoo 및 기타 모든 주요 ISP
+DMARC 레코드가 감지되면 나열된 값과 동일한 값을 복사하여 붙여넣거나 필요한 경우 변경할 수 있습니다.
+
+아무 것도 입력하지 않으면 기본값이 사용됩니다.
+
+### 완전히 위임된 하위 도메인
+
+### CNAME을 사용하여 위임된 하위 도메인
 
 에디션 플로우의 CNAME의 경우 CSV 파일을 다시 다운로드해야 합니다(완전히 위임되지 않은 경우)
 
-새로운 DMARC 레코드
 
-RN > put it first 모든 하위 도메인은 DMARC 지원을 통해 업데이트해야 합니다.
 
 
 
