@@ -10,7 +10,7 @@ level: Experienced
 keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
 hide: true
 hidefromtoc: true
-source-git-commit: b67b53b7a3ea6d2daee223a5579696d0e5637c44
+source-git-commit: a93f1c81cceaee4f55cd7555284c4d8016ed4e21
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -56,7 +56,7 @@ ht-degree: 0%
    * 하위 도메인 또는 하위 도메인의 상위 도메인에서 DMARC 설정 **호스팅 솔루션에서**.
    * 위임된 하위 도메인에서 DMARC 설정 **에서 예정된 기능 사용 [!DNL Journey Optimizer] 관리 UI**. 그러나 호스팅 솔루션에도 입력해야 합니다. 따라서 IT 부서가 최대한 빨리 업데이트를 수행할 수 있도록 조율하십시오. [!DNL Journey Optimizer] 기능을 사용할 수 있습니다(1월 30일). <!--and be ready on February 1st, 2024-->
 
-에 대한 자세한 내용 [!DNL Journey Optimizer] 곧 DMARC 예정된 기능이 제공될 예정입니다.
+**에 대한 자세한 내용 [!DNL Journey Optimizer] 곧 DMARC 예정된 기능이 제공될 예정입니다.**
 
 >[!NOTE]
 >
