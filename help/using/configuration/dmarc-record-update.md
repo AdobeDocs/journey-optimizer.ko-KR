@@ -10,9 +10,9 @@ level: Experienced
 keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
 hide: true
 hidefromtoc: true
-source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
+source-git-commit: b67b53b7a3ea6d2daee223a5579696d0e5637c44
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -32,30 +32,31 @@ ht-degree: 0%
 >
 >Gmail 및 Yahoo의 이 새로운 요구 사항을 준수하지 않으면 이메일이 스팸 폴더로 도착하거나 차단될 것으로 예상됩니다.
 
-따라서 Adobe은에서 Adobe으로 위임한 모든 하위 도메인에 대해 DMARC 레코드를 설정했는지 확인할 것을 강력히 권장합니다 [!DNL Journey Optimizer]. 아래 두 옵션 중 하나를 따르십시오.
-
-* 하위 도메인 또는 하위 도메인의 상위 도메인에서 DMARC를 설정합니다. **호스팅 솔루션에서**. 지금부터는 가능합니다
-
-* 위임된 하위 도메인에서 DMARC 설정 **에서 예정된 기능 사용 [!DNL Journey Optimizer] 관리 UI** - 호스팅 솔루션에 대한 추가 작업 없음. 이 기능은 2024년 1월 30일에 사용할 수 있습니다.
-
-  >[!CAUTION]
-  >
-  >을 설정한 경우 [CNAME 위임](delegate-subdomain.md#cname-subdomain-delegation) 보내는 하위 도메인의 경우 호스팅 솔루션에도 일부 항목이 필요합니다. 최대한 빨리 업데이트를 수행할 수 있도록 IT 부서와 협력해야 합니다. [!DNL Journey Optimizer] 기능을 사용할 수 있습니다(2024년 1월 30일). <!--and be ready on February 1st, 2024-->
-
-  에 대한 자세한 내용 [!DNL Journey Optimizer] 곧 DMARC 예정된 기능이 제공될 예정입니다.
+따라서 Adobe은에서 Adobe으로 위임한 모든 하위 도메인에 대해 DMARC 레코드를 설정했는지 확인할 것을 강력히 권장합니다 [!DNL Journey Optimizer]. 사용 사례에 적용되는 아래 단계를 따르십시오.
 
 <!--
-* If you have [fully delegated](delegate-subdomain.md#full-subdomain-delegation) your sending subdomains to Adobe, follow either one of the two options below:
+* Set up DMARC on your subdomains, or on the parent domain of your subdomains, **in your hosting solution**. You can do it as of now.
 
-    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
+* Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution. This feature will be available on January 30, 2024.
 
-    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution.
+    >[!CAUTION]
+    >
+    >If you have set up [CNAME delegation](delegate-subdomain.md#cname-subdomain-delegation) for your sending subdomains, it will also require some entry into your hosting solution. Make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January 30, 2024). (and be ready on February 1st, 2024)
 
-* If you have set up [CNAME delegation](delegate-subdomain.md#cname-subdomain-delegation) for your sending subdomains, follow either one of the two options below:
-    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
-    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI**. However, it will also require entry in your hosting solution. Consequently, make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January, 30) - and be ready on February 1st, 2024.
-    
+    More details on the [!DNL Journey Optimizer] DMARC upcoming feature will come soon.
 -->
+
+* 다음을 보유한 경우: [완전히 위임됨](delegate-subdomain.md#full-subdomain-delegation) 하위 도메인을 Adobe으로 보내려면 아래 두 옵션 중 하나를 따르십시오.
+
+   * 위임된 하위 도메인의 상위 도메인에 DMARC 설정 **호스팅 솔루션에서**.
+
+   * 위임된 하위 도메인에서 DMARC 설정 **에서 예정된 기능 사용 [!DNL Journey Optimizer] 관리 UI** - 호스팅 솔루션에 대한 추가 작업 없음.
+
+* 을 설정한 경우 [CNAME 위임](delegate-subdomain.md#cname-subdomain-delegation) 보내는 하위 도메인의 경우 아래 두 옵션 중 하나를 따르십시오.
+   * 하위 도메인 또는 하위 도메인의 상위 도메인에서 DMARC 설정 **호스팅 솔루션에서**.
+   * 위임된 하위 도메인에서 DMARC 설정 **에서 예정된 기능 사용 [!DNL Journey Optimizer] 관리 UI**. 그러나 호스팅 솔루션에도 입력해야 합니다. 따라서 IT 부서가 최대한 빨리 업데이트를 수행할 수 있도록 조율하십시오. [!DNL Journey Optimizer] 기능을 사용할 수 있습니다(1월 30일). <!--and be ready on February 1st, 2024-->
+
+에 대한 자세한 내용 [!DNL Journey Optimizer] 곧 DMARC 예정된 기능이 제공될 예정입니다.
 
 >[!NOTE]
 >
