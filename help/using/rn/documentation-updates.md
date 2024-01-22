@@ -22,8 +22,8 @@ ht-degree: 99%
 ## 2024년 1월 {#jan-2024}
 
 * 여정 크기에 대한 가드레일이 추가되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
-* 여정 시간 초과 관리가 자세히 설명되어 있음 [다음 섹션에서](../building-journeys/journey-gs.md#global_timeout).
-* Journey Optimizer [설명서 홈](../../ajo-home.md) 페이지가 다시 디자인되었습니다.
+* 여정 시간 초과 관리에 대한 자세한 설명을 [다음 섹션에](../building-journeys/journey-gs.md#global_timeout) 추가했습니다.
+* Journey Optimizer [설명서 홈](../../ajo-home.md)페이지를 다시 디자인했습니다.
 * 프로필 업데이트 활동에 대한 Recommendations이 추가되었습니다. [자세히 보기](../building-journeys/update-profiles.md)
 
 ## 2023년 11월 {#nov-2023}
