@@ -5,7 +5,7 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 8a2c17e7ae61812a52e5653119e269a5d0f6369e
+source-git-commit: 1124de3e38eee72eb545c6d5a40a5a8f5de80181
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 81%
@@ -20,7 +20,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
-[!TAB 필수 DMARC 업데이트]
+>[!TAB 필수 DMARC 업데이트]
 
 시행 중인 업계 모범 사례의 일부로서 Google과 Yahoo는 모두 다음을 보유해야 합니다. **레코드** (으)로 이메일을 보내는 데 사용하는 모든 도메인의 경우 시작 **2024년 2월 1일**. Journey Optimizer에서 Adobe을 위임한 모든 하위 도메인에 대해 DMARC 레코드가 설정되어 있는지 확인합니다.
 
