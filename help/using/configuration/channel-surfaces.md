@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: 00da20f3d51ce1032cb6908641048b377cc1a192
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1627'
 ht-degree: 8%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 8%
 >
 > * 채널 서피스를 생성, 편집 및 삭제하려면 [메시지 사전 설정 관리](../administration/high-low-permissions.md#administration-permissions) 권한.
 >
-> * 다음을 수행해야 합니다. [이메일 구성](../email/get-started-email-config.md), [푸시 구성](../push/push-configuration.md) 및 [SMS 구성](../sms/sms-configuration.md) 채널 서피스를 생성하기 전 단계입니다.
+> * 다음을 수행해야 합니다. [이메일 구성](../email/get-started-email-config.md), [푸시 구성](../push/push-configuration.md), [SMS 구성](../sms/sms-configuration.md) 및 [DM 구성](../direct-mail/direct-mail-configuration.md) 채널 서피스를 생성하기 전 단계입니다.
 
 채널 표면이 구성되면 여정 또는 캠페인에서 메시지를 만들 때 채널 표면을 선택할 수 있습니다.
 
