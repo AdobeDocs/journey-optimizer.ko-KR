@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 쿼리, 컬렉션, 함수, 페이로드, 여정
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2ab738463ebad087c9fe9768b7bc7f634cf46ea6
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '633'
 ht-degree: 3%
 
 ---
@@ -169,10 +169,11 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** 는 이벤트 컬렉션 및 를 조작할 때만 사용할 수 있습니다. **currentDataPackField**
->데이터 소스 컬렉션을 조작할 때. 다음을 사용하여 컬렉션을 처리할 때 **[!UICONTROL 모두]**, **[!UICONTROL 첫 번째]** 및 **[!UICONTROL 마지막]**, 우리
->컬렉션의 각 요소를 하나씩 반복합니다. **[!UICONTROL currentEventField]** 및 **currentDataPackField**
->루핑되는 요소에 해당합니다.
+>**[!UICONTROL currentEventField]** 은 이벤트 컬렉션을 조작할 때만 사용할 수 있습니다. **[!UICONTROL currentDataPackField]**
+데이터 소스 컬렉션 및 **[!UICONTROL currentActionField]** 사용자 지정 작업 응답 컬렉션을 조작할 때.
+>
+>다음을 사용하여 컬렉션을 처리할 때 **[!UICONTROL 모두]**, **[!UICONTROL 첫 번째]** 및 **[!UICONTROL 마지막]**, 우리
+>컬렉션의 각 요소를 하나씩 반복합니다. **[!UICONTROL currentEventField]**, **currentDataPackField** 및 **[!UICONTROL currentActionField]** 루핑되는 요소에 해당합니다.
 
 **함수 &quot;first(`<condition>`)&quot; 및 &quot;last(`<condition>`)&quot;**
 
