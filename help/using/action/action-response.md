@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 5d20a720ddfb2907a1f3ebaff3c67b9f5628f9d7
+source-git-commit: 410db8a56781c5442122f92fa692a3ce4e03a5f9
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 4%
+source-wordcount: '619'
+ht-degree: 5%
 
 ---
 
@@ -212,4 +212,9 @@ currentActionField.description == "abc"
 )
 ```
 
-필드 참조에 대한 자세한 내용은 [이 섹션](../building-journeys/expression/field-references.md).
+## 추가 리소스
+
+자세한 내용은 다음 페이지를 참조하십시오.
+
+* [필드 참조](../building-journeys/expression/field-references.md).
+* [컬렉션 관리 기능](../building-journeys/expression/collection-management-functions.md)
