@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
 workflow-type: tm+mt
-source-wordcount: '4258'
-ht-degree: 99%
+source-wordcount: '4295'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 99%
 * 여정 시간 초과 관리에 대한 자세한 설명을 [다음 섹션에](../building-journeys/journey-gs.md#global_timeout) 추가했습니다.
 * Journey Optimizer [설명서 홈](../../ajo-home.md)페이지를 다시 디자인했습니다.
 * 프로필 업데이트 활동에 대한 Recommendations이 추가되었습니다. [자세히 보기](../building-journeys/update-profiles.md)
+* 여정의 이벤트 활동에 대한 시간 초과 동작에 대한 정보가 추가되었습니다. 지정된 시간 제한 기간 동안 이벤트가 수신되지 않으면 시간 제한 경로가 정의되지 않은 경우 개인이 여정을 계속합니다. [자세히 보기](../building-journeys/general-events.md#events-specific-time)
 
 ## 2023년 11월 {#nov-2023}
 
