@@ -15,7 +15,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -269,8 +269,8 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
->title="IP 워밍업 플랜 지정"
->abstract="IP 웜업 단계 및 대상 프로필 수와 같이 계획에 도움이 되는 모든 데이터를 Excel 템플릿에 입력하고 여기에 업로드합니다."
+>title="IP 준비 계획 지정"
+>abstract="IP 준비 단계 및 목표 프로필 수와 같이 계획에 공급할 모든 데이터로 Excel 템플릿을 채우고 여기에 업로드합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="IP 준비 계획 파일 준비"
 
 >[!CONTEXTUALHELP]
