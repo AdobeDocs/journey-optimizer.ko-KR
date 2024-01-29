@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 필수 DMARC 업데이트
+title: 새로운 DMARC 요구 사항 준수
 description: Journey Optimizer에서 DMARC 레코드를 설정해야 하는 이유와 시기에 대해 알아봅니다
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
-source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 0%
+source-wordcount: '526'
+ht-degree: 7%
 
 ---
 
-# 필수 DMARC 업데이트 {#dmarc-record-update}
+# 새로운 DMARC 요구 사항 준수 {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
->title="필수 DMARC 업데이트에 대한 자세한 내용"
->abstract="시행 중인 업계 모범 사례의 일부로서 Google과 Yahoo는 모두 다음을 보유해야 합니다. **레코드** (으)로 이메일을 보내는 데 사용하는 모든 도메인의 경우 시작 **2024년 2월 1일**. <br>따라서 Journey Optimizer에서 Adobe을 위임한 모든 하위 도메인에 대해 DMARC 레코드가 설정되어 있는지 확인해야 합니다."
+>title="필수 DMARC 업데이트에 대해 자세히 알아보기"
+>abstract="시행 중인 업계 모범 사례의 일부로서 Google과 Yahoo는 모두 다음을 보유해야 합니다. **레코드** (으)로 이메일을 보내는 데 사용하는 모든 도메인의 경우 시작 **2024년 2월 1일**.<br>따라서 Journey Optimizer에서 Adobe에 위임한 모든 하위 도메인에 대해 DMARC 레코드가 설정되어 있는지 확인해야 합니다."
 
 시행 중인 업계 모범 사례의 일부로서 Google과 Yahoo는 모두 다음을 보유해야 합니다. **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은에 시작됩니다. **2024년 2월 1일**.
 
@@ -36,13 +36,15 @@ ht-degree: 0%
 
    * 위임된 하위 도메인의 상위 도메인에 DMARC 설정 **호스팅 솔루션에서**.
 
-   * 위임된 하위 도메인에서 DMARC 설정 **에서 예정된 기능 사용 [!DNL Journey Optimizer] 관리 UI** - 호스팅 솔루션에 대한 추가 작업 없음.
+   * 위임된 하위 도메인에서 DMARC 설정 **다음에서 [!DNL Journey Optimizer] 관리 UI** - 호스팅 솔루션에 대한 추가 작업 없음. [방법 알아보기](dmarc-record.md#implement-dmarc)
 
-* 을 설정한 경우 [CNAME 위임](delegate-subdomain.md#cname-subdomain-delegation) 보내는 하위 도메인의 경우 아래 두 옵션 중 하나를 따르십시오.
+* 을 사용하여 전송 하위 도메인을 설정한 경우 [CNAME](delegate-subdomain.md#cname-subdomain-delegation)를 클릭하고 아래 두 옵션 중 하나를 수행합니다.
    * 하위 도메인 또는 하위 도메인의 상위 도메인에서 DMARC 설정 **호스팅 솔루션에서**.
-   * 위임된 하위 도메인에서 DMARC 설정 **에서 예정된 기능 사용 [!DNL Journey Optimizer] 관리 UI**. 그러나 호스팅 솔루션에도 입력해야 합니다. 따라서 IT 부서가 최대한 빨리 업데이트를 수행할 수 있도록 조율하십시오. [!DNL Journey Optimizer] 기능을 사용할 수 있습니다(1월 30일). <!--and be ready on February 1st, 2024-->
+   * 위임된 하위 도메인에서 DMARC 설정 **다음에서 [!DNL Journey Optimizer] 관리 UI**. [방법 알아보기](dmarc-record.md#implement-dmarc)
 
-**에 대한 자세한 내용 [!DNL Journey Optimizer] 곧 DMARC 예정된 기능이 제공될 예정입니다.**
+     그러나 CNAME 위임을 사용하면 호스팅 솔루션에 항목을 입력해야 합니다. 따라서 IT 부서가 최대한 빨리 업데이트를 수행할 수 있도록 조율하십시오. [!DNL Journey Optimizer] 기능을 사용할 수 있습니다(1월 30일). [자세히 알아보기](dmarc-record.md#implement-dmarc)
+
+**에 대한 자세한 내용 [!DNL Journey Optimizer] DMARC의 향후 기능은 [이 섹션](dmarc-record.md).**
 
 >[!NOTE]
 >

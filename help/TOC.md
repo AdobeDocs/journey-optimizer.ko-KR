@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 99%
 
 ---
@@ -357,7 +357,7 @@ ht-degree: 99%
    + 전달성 {#deliverability}
       + [전달성 시작](using/reports/deliverability.md)
       + [금지 목록 이해하기](using/reports/suppression-list.md)
-      + [필수 DMARC 업데이트](using/configuration/dmarc-record-update.md)
+      + [새로운 DMARC 요구 사항](using/configuration/dmarc-record-update.md)
    + [오류 원인](using/reports/error-list.md)
    + [경고](using/reports/alerts.md)
    + [Customer Journey Analytics 작업](using/reports/cja-ajo.md)
@@ -526,6 +526,7 @@ ht-degree: 99%
    + 이메일 하위 도메인 위임 {#delegate-subdomains}
       + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
       + [하위 도메인 위임](using/configuration/delegate-subdomain.md)
+      + [DMARC 레코드 설정](using/configuration/dmarc-record.md)
       + [Google TXT 레코드 추가](using/configuration/google-txt.md)
       + [PTR 레코드 액세스 및 편집](using/configuration/ptr-records.md)
       + [IP 풀 만들기](using/configuration/ip-pools.md)

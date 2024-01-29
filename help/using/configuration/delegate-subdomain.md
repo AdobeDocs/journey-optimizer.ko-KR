@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: ff7494b5f9ece7943aecf2628c6a338e9ee7d4b0
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 22%
+source-wordcount: '1857'
+ht-degree: 21%
 
 ---
 
@@ -85,6 +85,12 @@ Adobe을 사용하여 이메일 마케팅 전송 도메인에 대한 업계 표�
    >
    >나중에 를 사용할 때 레코드를 만들고 하위 도메인 구성을 제출할 수 있습니다. **[!UICONTROL 초안으로 저장]** 단추를 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 하위 도메인 위임을 다시 시작할 수 있습니다.
 
+1. 하위 도메인에 DMARC 레코드가 없는 경우 여기에서 설정할 수 있습니다. 하위 도메인에 기존 DMARC 레코드가 있고 을(를) 가져오는 경우 [!DNL Journey Optimizer], 동일한 값을 사용하거나 필요에 따라 변경할 수 있습니다. 값을 추가하지 않으면 기본값이 사용됩니다. [자세히 알아보기](dmarc-record.md)
+
+   ![](assets/dmarc-record-found.png)
+
+   <!--update screen when available-->
+
 1. 전체 하위 도메인 위임이 제출되면 하위 도메인이 **[!UICONTROL 처리 중]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
@@ -154,6 +160,8 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따�
    >[!NOTE]
    >
    >나중에 를 사용하여 레코드를 만들 수 있습니다. **[!UICONTROL 초안으로 저장]** 단추를 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 이 단계에서 하위 도메인 위임을 다시 시작할 수 있습니다.
+
+1. 하위 도메인에 DMARC 레코드가 없는 경우 여기에서 설정할 수 있습니다. 하위 도메인에 기존 DMARC 레코드가 있고 을(를) 가져오는 경우 [!DNL Journey Optimizer], 동일한 값을 사용하거나 필요에 따라 변경할 수 있습니다. 값을 추가하지 않으면 기본값이 사용됩니다. [자세히 알아보기](dmarc-record.md)
 
 1. Adobe이 이러한 레코드가 호스팅 솔루션에서 오류 없이 생성되는지 확인할 때까지 기다립니다. 이 프로세스는 최대 2분 정도 소요될 수 있습니다.
 
