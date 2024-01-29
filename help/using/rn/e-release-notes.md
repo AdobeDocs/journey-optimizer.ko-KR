@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fae367cbbacffbbecde4cdbf7b39b1baeec452d1
+source-git-commit: a3591adf88ebd42031006c1e5a537e3247cecce8
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 20%
@@ -80,4 +80,4 @@ ht-degree: 20%
 
 **의사 결정 관리**
 
-* **에지에서 주파수 캡처** - 이제 빈도 제한 카운터가 업데이트되어 Edge Decisioning API 의사 결정에서 3초 이내에 사용할 수 있습니다.
+* **가장자리 빈도 설정** - 이제 빈도 제한 카운터가 업데이트되어 Edge Decisioning API 의사 결정에서 3초 이내에 사용할 수 있습니다.
