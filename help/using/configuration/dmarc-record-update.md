@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
-source-git-commit: e1fda25bb16f6d1e304d600dfce39df07fc570b0
+source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다. 이메일 공급자/ISP에 명확한 정책을 제공함으로써 악의적인 행위자가 도메인에서 온 것으로 주장하는 이메일을 보내지 못하게 하는 데 도움이 됩니다. DMARC를 구현하면 합법적인 이메일이 스팸으로 표시되거나 거부될 위험이 줄어들고 이메일 전달성이 향상됩니다.
 
 
-시행 중인 업계 모범 사례의 일부로서 Google 및 Yahoo! 둘 다 **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은 다음 항목부터 적용됩니다. **2024년 2월 1일**. [자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+시행 중인 업계 모범 사례의 일부로서 Google 및 Yahoo! 둘 다 **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은 다음 항목부터 적용됩니다. **2024년 2월 1일**. [자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ ht-degree: 6%
 
      그러나 CNAME 위임을 사용하면 호스팅 솔루션에 항목을 입력해야 합니다. 따라서 IT 부서가 최대한 빨리 업데이트를 수행할 수 있도록 조율하십시오. [!DNL Journey Optimizer] 기능을 사용할 수 있습니다(1월 30일). [자세히 알아보기](dmarc-record.md#implement-dmarc)
 
-**DMARC 구현을 위한 셀프 서비스 인터페이스는 1월 30일을 시작으로 제공됩니다. 다음에서 자세히 알아보기 [이 섹션](dmarc-record.md#implement-dmarc).**
+**DMARC 구현을 위한 셀프서비스 인터페이스는 1월 30일부터 사용할 수 있습니다. 다음에서 자세히 알아보기 [이 섹션](dmarc-record.md#implement-dmarc).**
 
 Google과 Yahoo가 공유하는 가장 최근 타임라인은 다음과 같습니다.
 
