@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 하위 도메인 위임
 description: 하위 도메인을 위임하는 방법을 알아봅니다.
-feature: Subdomains
+feature: Subdomains, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
+source-git-commit: 3b40087aeae2b0da789a90f45f2575beedf2b76d
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1797'
 ht-degree: 21%
 
 ---
@@ -77,21 +77,21 @@ Adobe을 사용하여 이메일 마케팅 전송 도메인에 대한 업계 표�
 
 1. DNS 서버에 배치할 레코드 목록이 표시됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 DNS 레코드를 생성합니다.
 
-1. 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 항목이 올바르게 구성된 경우 &quot;확인...&quot; 상자를 선택한 다음 을 클릭합니다. **[!UICONTROL 제출]**.
+1. 모든 DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인합니다. 모든 항목이 올바르게 구성된 경우 &quot;I confirm...&quot; 상자를 선택합니다.
 
    ![](assets/subdomain-submit.png)
+
+1. DMARC 레코드를 설정합니다. 하위 도메인에 기존 DMARC 레코드가 있고 을(를) 가져오는 경우 [!DNL Journey Optimizer], 동일한 값을 사용하거나 필요에 따라 변경할 수 있습니다. 값을 추가하지 않으면 기본값이 사용됩니다. [자세히 알아보기](dmarc-record.md)
+
+   ![](assets/dmarc-record-found.png)
+
+1. **[!UICONTROL 제출을 클릭합니다]**.
 
    >[!NOTE]
    >
    >나중에 를 사용할 때 레코드를 만들고 하위 도메인 구성을 제출할 수 있습니다. **[!UICONTROL 초안으로 저장]** 단추를 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 하위 도메인 위임을 다시 시작할 수 있습니다.
 
-1. 하위 도메인에 DMARC 레코드가 없는 경우 여기에서 설정할 수 있습니다. 하위 도메인에 기존 DMARC 레코드가 있고 을(를) 가져오는 경우 [!DNL Journey Optimizer], 동일한 값을 사용하거나 필요에 따라 변경할 수 있습니다. 값을 추가하지 않으면 기본값이 사용됩니다. [자세히 알아보기](dmarc-record.md)
-
-   ![](assets/dmarc-record-found.png)
-
-   <!--update screen when available-->
-
-1. 전체 하위 도메인 위임이 제출되면 하위 도메인이 **[!UICONTROL 처리 중]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](about-subdomain-delegation.md#access-delegated-subdomains).
+1. 하위 도메인은 목록에 과 함께 표시됩니다. **[!UICONTROL 처리 중]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
 
@@ -113,7 +113,7 @@ Adobe을 사용하여 이메일 마케팅 전송 도메인에 대한 업계 표�
 >
 >하위 도메인의 병렬 실행은 현재 다음에서 지원되지 않습니다. [!DNL Journey Optimizer]. 다른 사용자에게 위임용 하위 도메인이 있을 때 제출하려고 하는 경우 **[!UICONTROL 처리 중]** 상태, 오류 메시지가 표시됩니다.
 
-## CNAME 하위 도메인 위임 {#cname-subdomain-delegation}
+## CNAME 하위 도메인 설정 {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -127,7 +127,7 @@ Adobe을 사용하여 이메일 마케팅 전송 도메인에 대한 업계 표�
 
 도메인별 제한 정책이 있고 Adobe이 DNS에 대한 부분적인 제어만 하도록 하려면 사용자 측에서 모든 DNS 관련 활동을 수행하도록 선택할 수 있습니다.
 
-CNAME 하위 도메인을 위임하면 하위 도메인을 만들고 CNAME을 사용하여 Adobe 특정 레코드를 가리키도록 설정할 수 있습니다. 이 구성을 사용하면 사용자와 Adobe가 이메일을 보내고 렌더링 및 추적하기 위한 환경을 설정하기 위한 DNS 유지 관리를 공동으로 수행합니다.
+CNAME 하위 도메인 설정을 사용하면 하위 도메인을 만들고 CNAME을 사용하여 Adobe 관련 레코드를 지정할 수 있습니다. 이 구성을 사용하면 사용자와 Adobe가 이메일을 보내고 렌더링 및 추적하기 위한 환경을 설정하기 위한 DNS 유지 관리를 공동으로 수행합니다.
 
 >[!CAUTION]
 >
@@ -135,7 +135,7 @@ CNAME 하위 도메인을 위임하면 하위 도메인을 만들고 CNAME을 �
 
 ➡️ [이 비디오에서 CNAME을 사용하여 도메인별 레코드를 가리키도록 하위 Adobe을 만드는 방법을 알아봅니다](#video)
 
-CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따르십시오.
+CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따르십시오.
 
 1. 액세스 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 하위 도메인]** 메뉴를 선택한 다음 **[!UICONTROL 하위 도메인 설정]**.
 
@@ -157,13 +157,17 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따�
 
    ![](assets/subdomain-create-dns-confirm.png)
 
+1. DMARC 레코드를 설정합니다. 하위 도메인에 기존 DMARC 레코드가 있고 을(를) 가져오는 경우 [!DNL Journey Optimizer], 동일한 값을 사용하거나 필요에 따라 변경할 수 있습니다. 값을 추가하지 않으면 기본값이 사용됩니다. [자세히 알아보기](dmarc-record.md)
+
+   ![](assets/dmarc-record-found.png)
+
+1. **[!UICONTROL 계속을 클릭합니다]**.
+
    >[!NOTE]
    >
    >나중에 를 사용하여 레코드를 만들 수 있습니다. **[!UICONTROL 초안으로 저장]** 단추를 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 이 단계에서 하위 도메인 위임을 다시 시작할 수 있습니다.
 
-1. 하위 도메인에 DMARC 레코드가 없는 경우 여기에서 설정할 수 있습니다. 하위 도메인에 기존 DMARC 레코드가 있고 을(를) 가져오는 경우 [!DNL Journey Optimizer], 동일한 값을 사용하거나 필요에 따라 변경할 수 있습니다. 값을 추가하지 않으면 기본값이 사용됩니다. [자세히 알아보기](dmarc-record.md)
-
-1. Adobe이 이러한 레코드가 호스팅 솔루션에서 오류 없이 생성되는지 확인할 때까지 기다립니다. 이 프로세스는 최대 2분 정도 소요될 수 있습니다.
+1. Adobe이 호스팅 솔루션에서 레코드가 오류 없이 생성되는지 확인할 때까지 기다립니다. 이 프로세스는 최대 2분 정도 소요될 수 있습니다.
 
    >[!NOTE]
    >
@@ -172,10 +176,6 @@ CNAME을 사용하여 하위 도메인을 위임하려면 아래 단계를 따�
 1. Adobe은 SSL CDN URL 유효성 검사 레코드를 생성합니다. 이 유효성 검사 레코드를 호스팅 플랫폼에 복사합니다. 호스팅 솔루션에서 이 레코드를 제대로 만들었다면 &quot;확인...&quot; 상자를 선택한 다음 **[!UICONTROL 제출]**.
 
    <!--![](assets/subdomain-cdn-url-validation.png)-->
-
-   >[!NOTE]
-   >
-   >나중에 를 사용할 때 유효성 검사 레코드를 만들고 하위 도메인 구성을 제출할 수도 있습니다. **[!UICONTROL 초안으로 저장]** 단추를 클릭합니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 하위 도메인 위임을 다시 시작할 수 있습니다.
 
 1. CNAME 하위 도메인 위임이 제출되면 하위 도메인이 **[!UICONTROL 처리 중]** 상태. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](about-subdomain-delegation.md#access-delegated-subdomains).
 
