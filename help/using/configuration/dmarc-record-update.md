@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 새로운 DMARC 요구 사항 준수
 description: Journey Optimizer에서 DMARC 레코드를 설정해야 하는 이유와 시기에 대해 알아봅니다
-feature: Subdomains, Channel Configuration
+feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
-source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
+source-git-commit: e1fda25bb16f6d1e304d600dfce39df07fc570b0
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 7%
+source-wordcount: '604'
+ht-degree: 6%
 
 ---
 
@@ -22,33 +22,32 @@ ht-degree: 7%
 >title="필수 DMARC 업데이트에 대해 자세히 알아보기"
 >abstract="시행 중인 업계 모범 사례의 일부로서 Google과 Yahoo는 모두 다음을 보유해야 합니다. **레코드** (으)로 이메일을 보내는 데 사용하는 모든 도메인의 경우 시작 **2024년 2월 1일**.<br>따라서 Journey Optimizer에서 Adobe에 위임한 모든 하위 도메인에 대해 DMARC 레코드가 설정되어 있는지 확인해야 합니다."
 
-시행 중인 업계 모범 사례의 일부로서 Google과 Yahoo는 모두 다음을 보유해야 합니다. **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은에 시작됩니다. **2024년 2월 1일**.
+도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다. 이메일 공급자/ISP에 명확한 정책을 제공함으로써 악의적인 행위자가 도메인에서 온 것으로 주장하는 이메일을 보내지 못하게 하는 데 도움이 됩니다. DMARC를 구현하면 합법적인 이메일이 스팸으로 표시되거나 거부될 위험이 줄어들고 이메일 전달성이 향상됩니다.
 
-에서 Google 및 Yahoo 요구 사항에 대해 자세히 알아보십시오. [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+
+시행 중인 업계 모범 사례의 일부로서 Google 및 Yahoo! 둘 다 **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은 다음 항목부터 적용됩니다. **2024년 2월 1일**. [자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->Gmail 및 Yahoo의 이 새로운 요구 사항을 준수하지 않으면 이메일이 스팸 폴더로 도착하거나 차단될 것으로 예상됩니다.
+>Gmail 및 Yahoo의 새로운 요구 사항을 준수하지 못함! 이(가) 발생할 경우 이메일이 스팸 폴더로 도달하거나 차단됩니다.
 
 따라서 Adobe은에서 Adobe으로 위임한 모든 하위 도메인에 대해 DMARC 레코드를 설정했는지 확인할 것을 강력히 권장합니다 [!DNL Journey Optimizer]. 사용 사례에 적용되는 아래 단계를 따르십시오.
 
-* 다음을 보유한 경우: [완전히 위임됨](delegate-subdomain.md#full-subdomain-delegation) 하위 도메인을 Adobe으로 보내려면 아래 두 옵션 중 하나를 따르십시오.
+* 다음을 보유한 경우: [완전히 위임됨](delegate-subdomain.md#full-subdomain-delegation) 하위 도메인을 Adobe으로 보내려면 아래 옵션 중 하나를 따르십시오.
 
    * 위임된 하위 도메인의 상위 도메인에 DMARC 설정 **호스팅 솔루션에서**.
+또는
+   * 위임된 하위 도메인에서 DMARC 설정 **다음에서[!DNL Journey Optimizer]** 구성 사용자 인터페이스 - 호스팅 솔루션에 대한 추가 작업 없음. [방법 알아보기](dmarc-record.md#implement-dmarc)
 
-   * 위임된 하위 도메인에서 DMARC 설정 **다음에서 [!DNL Journey Optimizer] 관리 UI** - 호스팅 솔루션에 대한 추가 작업 없음. [방법 알아보기](dmarc-record.md#implement-dmarc)
+* 을 사용하여 전송 하위 도메인을 설정한 경우 [CNAME](delegate-subdomain.md#cname-subdomain-delegation)을(를) 클릭하고 아래 옵션 중 하나를 수행합니다.
 
-* 을 사용하여 전송 하위 도메인을 설정한 경우 [CNAME](delegate-subdomain.md#cname-subdomain-delegation)를 클릭하고 아래 두 옵션 중 하나를 수행합니다.
    * 하위 도메인 또는 하위 도메인의 상위 도메인에서 DMARC 설정 **호스팅 솔루션에서**.
-   * 위임된 하위 도메인에서 DMARC 설정 **다음에서 [!DNL Journey Optimizer] 관리 UI**. [방법 알아보기](dmarc-record.md#implement-dmarc)
+또는
+   * 위임된 하위 도메인에서 DMARC 설정 **다음에서[!DNL Journey Optimizer]** 사용자 인터페이스를 구성합니다. [방법 알아보기](dmarc-record.md#implement-dmarc)
 
      그러나 CNAME 위임을 사용하면 호스팅 솔루션에 항목을 입력해야 합니다. 따라서 IT 부서가 최대한 빨리 업데이트를 수행할 수 있도록 조율하십시오. [!DNL Journey Optimizer] 기능을 사용할 수 있습니다(1월 30일). [자세히 알아보기](dmarc-record.md#implement-dmarc)
 
-**에 대한 자세한 내용 [!DNL Journey Optimizer] DMARC의 향후 기능은 [이 섹션](dmarc-record.md).**
-
->[!NOTE]
->
->질문이 있거나 지원이 필요한 경우 Adobe 전달성 컨설턴트 또는 Adobe 담당자에게 문의하십시오.
+**DMARC 구현을 위한 셀프 서비스 인터페이스는 1월 30일을 시작으로 제공됩니다. 다음에서 자세히 알아보기 [이 섹션](dmarc-record.md#implement-dmarc).**
 
 Google과 Yahoo가 공유하는 가장 최근 타임라인은 다음과 같습니다.
 
@@ -64,4 +63,11 @@ Google과 Yahoo가 공유하는 가장 최근 타임라인은 다음과 같습�
 
 >[!NOTE]
 >
->에서 DMARC 구현에 대해 자세히 알아보기 [전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} 이메일 전달성에 미치는 영향을 더 잘 이해할 수 있습니다.
+>질문이 있거나 지원이 필요한 경우 Adobe 전달성 컨설턴트 또는 Adobe 담당자에게 문의하십시오.
+
+**유용한 링크**
+
+* 에서 DMARC에 대해 자세히 알아보기 [전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"}
+* 에서 이러한 변경 사항에 대한 추가 지침을 확인하십시오. [전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html){target="_blank"}
+* 읽기 [Google Gmail 공지](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* 읽기 [야후! 공지](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}

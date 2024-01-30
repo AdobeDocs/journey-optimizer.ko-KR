@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
-source-git-commit: b077a19b93d27205d0133372357ee48fa9caf527
+source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 1%
@@ -111,7 +111,7 @@ DMARC를 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 1. 변경 내용을 저장합니다.
 
-## 새 하위 도메인용 DMARC 설정 {#set-up-dmarc}
+### 새 하위 도메인용 DMARC 설정 {#set-up-dmarc}
 
 에서 Adobe에 새 하위 도메인을 위임할 때 [!DNL Journey Optimizer]를 입력하면 도메인의 DNS에 DMARC 레코드가 생성됩니다. DMARC를 구현하려면 아래 단계를 따르십시오.
 
