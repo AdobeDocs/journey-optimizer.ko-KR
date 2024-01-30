@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c650efb7a2ded5e78e3b11577a250773cec71fd3
+source-git-commit: 7cb00d2527780f14564890c1123a76aa55c7c088
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 17%
@@ -57,7 +57,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>Real-Time CDP 및 Journey Optimizer의 산업별 사용 사례 플레이북 카탈로그를 활용하여 Adobe Experience Platform 및 Adobe 여정 최적기를 사용하여 수행할 수 있는 일반적인 사용 사례를 해결합니다.</p><p>요구 사항에 가장 적합한 플레이북을 선택하면 여정, 메시지, 스키마 또는 세그먼트와 같은 사용 사례를 지원하는 데 필요한 자산을 생성하고, 가치 창출 시간을 단축하기 위해 스키마에 맞게 사용자 지정할 수 있습니다.</p>
-<img src="assets/playbooks-detail.png"/>
+<img src="assets/do-not-localize/playbooks.gif"/>
 <!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
 </tr>
 </tbody>
