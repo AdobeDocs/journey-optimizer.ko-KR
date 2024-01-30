@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2757da51cf2a75855c4136cc42e06a5a00237699
+source-git-commit: bb8afe94e3a2df2b52f5190acd82265c2f780b5e
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 20%
+source-wordcount: '537'
+ht-degree: 18%
 
 ---
 
@@ -42,12 +42,26 @@ ht-degree: 20%
 <p>이제 Journey Optimizer에서 DMARC 인증 기술을 지원합니다.</p>
 <p>2024년 2월 1일부터 Google 및 Yahoo! 은(는) 이메일을 보내는 데 사용하는 모든 도메인에 대한 DMARC 레코드가 있어야 합니다. Journey Optimizer에서 Adobe에게 위임했거나 위임하고 있는 모든 하위 도메인에 대해 DMARC 레코드가 설정되어 있는지 확인하십시오.</p>
 <!--img src="assets/channel-reports.png"/-->
-<p>자세한 내용은 <a href="../configuration/dmarc-record-update.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../configuration/dmarc-record-update.md">세부 설명서</a>를 참고하십시오.</p>
 </tr>
 </tbody>
 </table>
 
-
+<table>
+<thead>
+<tr>
+<th><strong>사용 사례 플레이북</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Real-Time CDP 및 Journey Optimizer의 산업별 사용 사례 플레이북 카탈로그를 활용하여 Adobe Experience Platform 및 Adobe 여정 최적기를 사용하여 수행할 수 있는 일반적인 사용 사례를 해결합니다.</p><p>요구 사항에 가장 적합한 플레이북을 선택하면 여정, 메시지, 스키마 또는 세그먼트와 같은 사용 사례를 지원하는 데 필요한 리소스를 생성할 수 있습니다.</p>
+<img src="assets/playbooks-detail.png"/>
+<!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
+</tr>
+</tbody>
+</table>
 
 ### 개선 사항 {#jan-2024-improvements}
 
