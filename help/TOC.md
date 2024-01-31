@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 01f1a8d27fcc22ad38d4a8d7714c7afdc84e9726
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 99%
@@ -359,9 +359,9 @@ ht-degree: 99%
       + [전달성 시작](using/reports/deliverability.md)
       + [금지 목록 이해하기](using/reports/suppression-list.md)
       + [새로운 DMARC 요구 사항](using/configuration/dmarc-record-update.md)
-   + [오류 원인](using/reports/error-list.md)
    + [경고](using/reports/alerts.md)
    + [Customer Journey Analytics 작업](using/reports/cja-ajo.md)
+   + [제외 이유](using/reports/exclusion-list.md)
 + 의사 결정 관리 {#offer-decisioning}
    + 의사 결정 관리 시작 {#get-started-decision}
       + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)

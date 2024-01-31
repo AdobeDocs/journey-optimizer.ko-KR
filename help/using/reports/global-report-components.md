@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td> 바운스<br/> </td> 
-   <td> 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류.<br/> </td> 
+   <td> 총 보낸 메시지 수와 관련하여 전송 프로세스 및 자동 반환 처리 중에 누적된 총 오류.<br/> </td> 
 </tr> 
   <tr> 
    <td> 바운스 비율<br/> </td> 
@@ -84,16 +84,16 @@ ht-degree: 0%
 </tr>
   <tr> 
    <td> 오류<br/> </td> 
-   <td> 게재 중에 발생하여 프로필로 전송되지 않은 총 오류 수입니다.<br/> </td> 
+   <td> 전송 프로세스 중에 발생하여 프로필로 전송되지 않은 총 오류 수입니다.<br/> </td> 
 </tr> 
   <tr> 
    <td> 오류율<br/> </td> 
-   <td> 게재 중에 발생하여 보내지 못하는 오류의 백분율로, 보낸 이메일과 비교됩니다.<br/> </td> 
+   <td> 전송 프로세스 중에 발생하여 전송되지 않은 오류의 백분율입니다.<br/> </td> 
 </tr>
 </tr> 
   <tr> 
    <td> 오류 원인<br/> </td> 
-   <td> 오류의 특정 원래 원인 이름. <a href="error-list.md">오류 원인에 대해 자세히 알아보기</a>.<br/> </td> 
+   <td> 오류의 특정 원래 원인 이름. <a href="exclusion-list.md">오류 원인에 대해 자세히 알아보기</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> 제외됨<br/> </td> 
@@ -340,7 +340,7 @@ ht-degree: 0%
 </tr>
   <tr> 
    <td> 오류 원인<br/> </td> 
-   <td> 오류의 특정 원래 원인 이름. <a href="error-list.md">오류 원인에 대해 자세히 알아보기</a>.<br/> </td> 
+   <td> 오류의 특정 원래 원인 이름. <a href="exclusion-list.md">오류 원인에 대해 자세히 알아보기</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> 제외됨<br/> </td> 
