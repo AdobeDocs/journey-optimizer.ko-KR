@@ -7,14 +7,22 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 96367ab7b3d272368b1241321932a5e53c0654d7
+source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # 사용 사례 플레이북 {#playbooks}
+
+>[!PREREQUISITES]
+>
+>사용 사례 플레이북을 사용하기 전에 다음 구성 단계가 필요합니다. 각 단계에 대한 자세한 내용은 사용 사례 플레이북 설명서에서 확인할 수 있습니다 [시작](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} 페이지를 가리키도록 업데이트하는 중입니다.
+>
+>* 샌드박스 만들기
+>* 사용자 권한 구성
+>* 이메일, 푸시 및 SMS 알림에 대한 Journey Optimizer 채널 표면 구성
 
 사용 사례 플레이북은 Adobe Experience Platform 및 Journey Optimizer을 사용하여 수행할 수 있는 일반적인 사용 사례를 처리하는 사전 정의된 워크플로우입니다.
 
