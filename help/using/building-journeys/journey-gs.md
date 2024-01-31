@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
+source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 23%
+source-wordcount: '1787'
+ht-degree: 16%
 
 ---
 
@@ -50,6 +50,8 @@ ht-degree: 23%
 >title="여정"
 >abstract="고객 여정 설계를 통해 개인화된 상황별 경험을 제공할 수 있습니다. Journey Optimizer를 사용하면 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다. **개요** 탭에는 여정과 관련된 주요 지표가 포함된 대시보드가 &#x200B;&#x200B;표시됩니다. **검색** 탭에는 기존 여정의 목록이 표시됩니다."
 
+### 주요 지표 및 여정 목록 {#access-metrics}
+
 여정 관리 메뉴 섹션에서 **[!UICONTROL 여정]**. 사용 가능한 두 가지 탭은 다음과 같습니다.
 
 **개요**: 이 탭에는 여정과 관련된 주요 지표가 있는 대시보드가 표시됩니다.
@@ -69,15 +71,27 @@ ht-degree: 23%
 
 ![](assets/journeys-browse.png)
 
-여정 목록의 **[!UICONTROL 상태 및 버전 필터]**&#x200B;에서 상태, 유형 및 버전에 따라 여정을 필터링할 수 있습니다. 유형은 다음과 같습니다. **[!UICONTROL 단일 이벤트]**, **[!UICONTROL 대상 자격 조건]**, **[!UICONTROL 대상자 읽기]**, **[!UICONTROL 비즈니스 이벤트]** 또는 **[!UICONTROL 버스트]**.
+### 필터 여정 {#filter}
 
-**[!UICONTROL 활동 필터]** 및 **[!UICONTROL 데이터 필터]**&#x200B;에서 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수 있습니다. 또한 **[!UICONTROL 게시 필터]** 발행 날짜 또는 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 경로의 최신 버전만 표시하도록 선택할 수 있습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md).
+여정 목록에서 다양한 필터를 활용하여 여정 목록을 세분화하여 가독성을 높일 수 있습니다.
 
 ![](assets/filter-journeys.png)
 
-**[!UICONTROL 마지막 업데이트]** 및 열별 **[!UICONTROL 마지막 업데이트]**&#x200B;를 사용하여 여정의 마지막 업데이트 및 저장한 사용자를 확인합니다.
+수행할 수 있는 다양한 필터링 작업은 다음과 같습니다.
 
-이벤트, 데이터 소스 및 작업 구성 창에서 **[!UICONTROL 사용 위치]** 필드를 적용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 경로 수가 표시됩니다. **[!UICONTROL 여정 보기]** 버튼을 클릭하여 해당 여정의 목록을 표시할 수 있습니다.
+* 에서 상태, 유형, 버전 및 할당된 태그에 따라 여정 필터링 **[!UICONTROL 상태 및 버전 필터]**.
+
+  유형은 다음과 같습니다. **[!UICONTROL 단일 이벤트]**, **[!UICONTROL 대상 자격 조건]**, **[!UICONTROL 대상자 읽기]**, **[!UICONTROL 비즈니스 이벤트]** 또는 **[!UICONTROL 버스트]**.
+
+* 사용 **[!UICONTROL 만들기 필터]** 만든 날짜 또는 만든 사용자에 따라 여정을 필터링합니다.
+
+* 에서 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정 표시 **[!UICONTROL 활동 필터]** 및 **[!UICONTROL 데이터 필터]**.
+
+* 사용 **[!UICONTROL 게시 필터]** 게시 날짜 또는 사용자를 선택합니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전을 표시하도록 선택할 수 있습니다.
+
+  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+
+또한 이벤트, 데이터 소스 및 작업 구성 창에서는 **[!UICONTROL 다음에서 사용됨]** 필드는 해당 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정 수를 표시합니다. **[!UICONTROL 여정 보기]** 버튼을 클릭하여 해당 여정의 목록을 표시할 수 있습니다.
 
 ![](assets/journey3bis.png)
 
@@ -134,7 +148,7 @@ ht-degree: 23%
 
 에서 프로필 시작 및 재시작 관리에 대해 자세히 알아보십시오. [이 섹션](entry-management.md).
 
-### 액세스 관리 {#access}
+### 액세스 관리 {#manage-access}
 
 여정에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]** 단추를 클릭합니다. [OLA(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md)
 
