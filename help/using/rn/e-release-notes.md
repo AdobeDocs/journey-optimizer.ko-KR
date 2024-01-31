@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 570f50a86288378c26f967f4861f19b9da9f96cf
+source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '558'
 ht-degree: 16%
 
 ---
@@ -88,6 +88,8 @@ ht-degree: 16%
 * **대상자 읽기**  - 이제 대상자 읽기 활동은 예약된 일별 배치 작업이 실행된 후 하루에 한 번만 생성되는 배치 세그먼트에 대한 프로필 스냅샷 데이터 세트를 사용하므로 데이터는 마지막 일별 배치 작업까지 새로 고쳐집니다.
 
 * **필드 그룹** - 특정 경우에 저장할 필드 그룹을 차단하는 문제를 수정했습니다.
+
+* **표현식 편집기** - 이제 모든 표현식과 추가 함수에서 listObject 데이터 형식을 지원합니다. [추가 정보](../building-journeys/expression/functions.md)
 
 **빈도 규칙**
 
