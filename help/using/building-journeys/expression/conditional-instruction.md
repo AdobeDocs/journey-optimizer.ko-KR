@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 고급, 조건, 작업, 여정
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -64,7 +64,7 @@ listString,listString : listString
 작업 활동의 예(조건부 명령의 결과로 문자열이 필요한 필드의 경우):
 
 ```json
-if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
+if (startWithIgnoreCase(@event{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@event{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
 then
    ('apns')
 else

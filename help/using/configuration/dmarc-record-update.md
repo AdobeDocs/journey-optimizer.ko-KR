@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
-source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
+source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '576'
 ht-degree: 6%
 
 ---
@@ -45,9 +45,8 @@ ht-degree: 6%
 또는
    * 위임된 하위 도메인에서 DMARC 설정 **다음에서[!DNL Journey Optimizer]** 사용자 인터페이스를 구성합니다. [방법 알아보기](dmarc-record.md#implement-dmarc)
 
-     그러나 CNAME 위임을 사용하면 호스팅 솔루션에 항목을 입력해야 합니다. 따라서 IT 부서가 최대한 빨리 업데이트를 수행할 수 있도록 조율하십시오. [!DNL Journey Optimizer] 기능을 사용할 수 있습니다(1월 30일). [자세히 알아보기](dmarc-record.md#implement-dmarc)
+  그러나 CNAME 위임을 사용하면 호스팅 솔루션에 항목을 입력해야 합니다. 따라서 IT 부서에서 세부 업데이트를 수행할 수 있도록 조율해야 합니다. [이 섹션](dmarc-record.md#implement-dmarc).
 
-**DMARC 구현을 위한 셀프서비스 인터페이스는 1월 30일부터 사용할 수 있습니다. 다음에서 자세히 알아보기 [이 섹션](dmarc-record.md#implement-dmarc).**
 
 Google과 Yahoo가 공유하는 가장 최근 타임라인은 다음과 같습니다.
 

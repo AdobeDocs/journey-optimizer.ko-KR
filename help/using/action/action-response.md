@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 410db8a56781c5442122f92fa692a3ce4e03a5f9
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '618'
 ht-degree: 5%
 
 ---
@@ -199,10 +199,10 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
  // action response field
  @action{<action name>.<path to the field>, defaultValue: <default value expression>}
  @action{ActionLoyalty.points, defaultValue: 0}
- @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
+ @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-사용자 지정 작업 응답에서 컬렉션을 조작하는 동안 &quot;currentActionField&quot;를 사용하여 현재 항목에 액세스할 수 있습니다.
+사용자 지정 작업 응답에서 컬렉션을 조작하는 동안 을 사용할 수 있습니다. `currentActionField` 현재 항목에 액세스하려면:
 
 ```json
 count(

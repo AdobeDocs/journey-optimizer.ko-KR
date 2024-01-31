@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: e411810196c591727fb1049826dc761e3807ed03
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 4%
+source-wordcount: '982'
+ht-degree: 3%
 
 ---
 
@@ -65,3 +65,5 @@ Adobe Journey Optimizer은 ID 서비스를 활용하여 사용자를 위해 프�
 * 여러 여정(동의 확인, 제외)에 걸쳐 동일한 조건이 반복되는 경우 세그먼트 정의의 일부로 이동하는 것이 좋습니다. 예를 들어 여러 여정에서 &quot;이메일 주소가 비어 있지 않습니다&quot;를 확인하는 조건이 있는 경우 해당 조건을 세그먼트 정의의 일부로 포함시킵니다.
 * 여정에 각 단계의 숫자를 보기 위해 대상을 분할하는 여러 조건이 있는 경우 분석에 더 적합한 Customer Journey Analytics 또는 기타 보고 솔루션을 사용하는 것이 좋습니다.
 * 캔버스에서 노드 제한에 근접하고 있다면 동적 매개 변수 또는 명시적 노드 대신 올바른 컨텐츠를 제공하는 컨텐츠와 작업을 통합하는 것이 좋습니다.
+
+* 다음 항목이 있는 경우: **대상자 읽기** 배치 세그먼트(A)를 사용하는 여정 및 여정 inAudience 스트리밍 세그먼트(B) 내에서 를 사용하여 제외(즉, A-B 수행)하는 경우 해당 논리를 세그멘테이션 논리로 이동하고 제외 를 세그멘테이션 논리 자체의 일부로 사용하십시오.

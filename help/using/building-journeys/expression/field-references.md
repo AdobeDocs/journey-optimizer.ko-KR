@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 여정, 필드, 표현식, 이벤트
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '557'
 ht-degree: 2%
 
 ---
@@ -29,8 +29,8 @@ ht-degree: 2%
 
 ```json
 // event field
-@{<event name>.<XDM path to the field>}
-@{LobbyBeacon.endUserIDs._experience.emailid.id}
+@event{<event name>.<XDM path to the field>}
+@event{LobbyBeacon.endUserIDs._experience.emailid.id}
 
 // field group
 #{<data source name>.<field group name>.<path to the field>}
@@ -47,8 +47,8 @@ ht-degree: 2%
 
 ```json
 // event field
-@{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
-@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
+@event{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
+@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
 // field group
 #{<data source name>.<field group name>.<path to the field>, defaultValue: <default value expression>}
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address, defaultValue: "example@adobe.com"}
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->필드 유형과 기본값은 동일해야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} 은(는) 기본값이 정수이므로 유효하지 않으며, 예상 값은 문자열이어야 합니다.
+>필드 유형과 기본값은 동일해야 합니다. 예를 들어, `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` 은(는) 기본값이 정수이지만 예상 값은 문자열이어야 하므로 유효하지 않습니다.
 
 예:
 
@@ -67,9 +67,9 @@ ht-degree: 2%
 }
  
 expression example:
-- @{OrderEvent.orderId}                                    -> "12345"
-- @{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
-- @{OrderEvent.productId}                                  -> null
+- @event{OrderEvent.orderId}                                    -> "12345"
+- @event{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
+- @event{OrderEvent.productId}                                  -> null
  
  
 // for an entity 'Profile' on datasource 'ACP' having fields person/lastName, with fetched data such as:
@@ -104,7 +104,7 @@ expression examples:
 예 :
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
 ## 맵에 정의된 필드 참조
@@ -114,10 +114,10 @@ expression examples:
 맵에서 요소를 검색하기 위해 주어진 키와 함께 entry 함수를 사용한다. 예를 들어 선택한 네임스페이스에 따라 이벤트의 키를 정의할 때 사용됩니다. 자세한 내용은 [이 페이지](../../event/about-creating.md#select-the-namespace).
 
 ```json
-@{MyEvent.identityMap.entry('Email').first().id}
+@event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-이 표현식에서 이벤트의 &#39;IdentityMap&#39; 필드의 &#39;이메일&#39; 키 항목을 가져옵니다. &#39;Email&#39; 항목은 컬렉션이며, 여기에서 &#39;first()&#39;를 사용하여 첫 번째 요소의 &#39;id&#39;를 가져옵니다. 자세한 내용은 [이 페이지](../expression/collection-management-functions.md).
+이 식에서 이벤트의 &#39;IdentityMap&#39; 필드의 &#39;이메일&#39; 키 항목을 가져옵니다. &#39;Email&#39; 항목은 컬렉션이며, 여기에서 &#39;first()&#39;를 사용하여 첫 번째 요소의 &#39;id&#39;를 가져옵니다. 자세한 내용은 [이 페이지](../expression/collection-management-functions.md).
 
 ### `firstEntryKey` 함수
 
@@ -163,6 +163,6 @@ expression examples:
 예:
 
 ```json
-#{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
-#{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
+#{Weather.main.temperature, params: {localisation: @event{Profile.address.localisation}}}
+#{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @event{Profile.address.city}}}}}
 ```

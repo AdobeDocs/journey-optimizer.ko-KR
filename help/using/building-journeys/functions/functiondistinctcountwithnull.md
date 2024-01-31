@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctCountWithNull, 함수, 표현식, 여정
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 22%
+source-wordcount: '57'
+ht-degree: 14%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 22%
 
 null 값을 포함하여 다른 값의 수를 계산합니다.
 
->[!NOTE]
->
->대상 목록이 listObject인 경우 이 함수는 사용자 지정 작업 표현식에서만 사용할 수 있습니다.
+매개 변수는 `<listObject>` 은(는) 이 함수에서 지원되지 않습니다.
 
 ## 카테고리
 
@@ -34,14 +32,7 @@ null 값을 포함하여 다른 값의 수를 계산합니다.
 
 | 매개변수 | 유형 |
 |-----------|------------------|
-| 목록 | listString |
-| 목록 | list부울 |
-| 목록 | list정수 |
-| 목록 | listDecimal |
-| 목록 | listDuration |
-| 목록 | listDateTime |
-| 목록 | listDateTimeOnly |
-| 목록 | listDateOnly |
+| listToprocess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly |
 
 ## 서명 및 반환된 유형
 

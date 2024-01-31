@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 통합, standard, campaign, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -102,7 +102,7 @@ Adobe Campaign Standard 메시지에서 예상하는 필드입니다. 이러한 
 또한 다음을 정의해야 합니다 **[!UICONTROL 등록 토큰]**. 표현식은 토큰이 이벤트 페이로드 또는 다른 페이로드에서 정의되는 방식에 따라 다릅니다 [!DNL Journey Optimizer] 정보. 토큰이 예를 들어 컬렉션에 정의된 경우 단순 필드 또는 더 복잡한 식이 될 수 있습니다.
 
 ```
-@{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+@event{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
 **[!UICONTROL 개인화 데이터]**

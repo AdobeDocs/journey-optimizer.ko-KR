@@ -7,20 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinct, 함수, 표현식, 여정
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 5%
+source-wordcount: '155'
+ht-degree: 6%
 
 ---
 
 # distinct {#distinct}
 
 주어진 목록의 고유 값 또는 개체를 반환합니다. Null 항목은 무시됩니다.
-
->[!NOTE]
->
->대상 목록이 listObject인 경우 이 함수는 사용자 지정 작업 표현식에서만 사용할 수 있습니다.
 
 ## 카테고리
 

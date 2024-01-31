@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctCount, 함수, 표현식, 여정
 exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 29%
+source-wordcount: '138'
+ht-degree: 7%
 
 ---
 
@@ -28,16 +28,10 @@ null 값을 무시하는 다른 값의 수를 계산합니다.
 
 ## 매개 변수
 
-| 매개변수 | 유형 |
-|-----------|------------------|
-| 목록 | listString |
-| 목록 | list부울 |
-| 목록 | list정수 |
-| 목록 | listDecimal |
-| 목록 | listDuration |
-| 목록 | listDateTime |
-| 목록 | listDateTimeOnly |
-| 목록 | listDateOnly |
+| 매개변수 | 유형 | 설명 |
+|-----------|------------------|------------------|
+| listToprocess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 처리할 목록. listObject의 경우 필드 참조여야 합니다. |
+| keyAttributeName | 문자열 | 이 매개 변수는 선택 사항이며 listObject에만 사용됩니다. 매개변수를 제공하지 않으면 모든 속성의 값이 동일한 경우 객체가 복제된 것으로 간주됩니다. 그렇지 않으면, 지정된 속성에 동일한 값이 있으면 객체가 복제된 것으로 간주됩니다. |
 
 ## 서명 및 반환된 유형
 
@@ -45,8 +39,23 @@ null 값을 무시하는 다른 값의 수를 계산합니다.
 
 정수 반환.
 
+`distinctCount(<listObject>)`
+
+`distinctCount(<listObject>,<string>)`
+
+개체 목록을 반환합니다.
+
+
 ## 예
 
 `distinctCount([10,2,10,null])`
 
 2를 반환합니다.
+
+`distinctCount(@event{my_event.productListItems})`
+
+지정된 개체 배열(listObject 형식)에서 엄격히 구별되는 개체 수를 반환합니다.
+
+`distinctCount(@event{my_event.productListItems}, "SKU")`
+
+고유한 &quot;SKU&quot; 속성 값이 있는 개체 수를 반환합니다.{}.

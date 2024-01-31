@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: d9d2e763b04ec725cc389b1d535df4df06103018
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '673'
 ht-degree: 4%
 
 ---
@@ -121,6 +121,10 @@ Edge Decisioning API 요청을 사용하여 컨텍스트 데이터를 전달할 
 >[!NOTE]
 >
 >컨텍스트 데이터를 저장하려면 전용 XDM 스키마가 구성되어 있어야 합니다.
+
+**빈도 제한 카운터 업데이트**
+
+일부 오퍼에 대해 게재 빈도 제한 기능이 활성화되어 캡핑 횟수가 재설정되는 빈도를 정의한 경우, 카운터는 3초 이내에 Edge Decisioning API 의사 결정에서 업데이트되고 사용할 수 있습니다. [오퍼에 제약 조건을 추가하는 방법 알아보기](../../offer-library/add-constraints.md)
 
 ## API 기능 결정 {#decisioning}
 

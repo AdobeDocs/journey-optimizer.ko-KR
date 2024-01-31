@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 18%
+source-wordcount: '489'
+ht-degree: 17%
 
 ---
 
@@ -64,7 +64,7 @@ Select the date for the execution of the next activity.
 
 >[!NOTE]
 >
->dateTimeOnly 식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), 이벤트의 필드는 양식 2016-08-12T09:46:6Z.
+>dateTimeOnly 식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예: toDateTimeOnly(@event{Event.offerOpened.activity.endTime}), 이벤트의 필드는 양식 2016-08-12T09:46:6Z.
 >
 >다음 **시간대** 은 여정 속성에서 필요합니다. 따라서 오늘 인터페이스에서 2016-08-12T09와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 지정하는 것은 불가능합니다:46:06.982-05. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
@@ -74,7 +74,7 @@ Select the date for the execution of the next activity.
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
-This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
+This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you'll be notified that the default time applies.
 
 >[!NOTE]
 >

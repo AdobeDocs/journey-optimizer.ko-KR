@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '663'
 ht-degree: 6%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 6%
 * 위치 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   이 병합 정책은 다음 사용자가 사용합니다. [!DNL Journey Optimizer] 인바운드 채널을 통해 에지에서 인바운드 캠페인을 올바르게 활성화하고 게시할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko){target="_blank"}
+
+  >[!NOTE]
+  >
+  >사용자 지정 사용 시 **[!UICONTROL 데이터 세트 환경 설정]** 병합 정책입니다. 다음을 추가하십시오. **[!UICONTROL 여정 인바운드]** 지정된 병합 정책 내의 데이터 세트입니다.
 
   ![](assets/inapp_config_8.png)
 

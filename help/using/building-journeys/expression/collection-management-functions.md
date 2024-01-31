@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 쿼리, 컬렉션, 함수, 페이로드, 여정
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 5812ca4974ca52073ede993063217ab4453ba2b7
+source-git-commit: b58d6bbcf2311be3f841f7eef0c0bf10692f1704
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -78,7 +78,7 @@ ht-degree: 3%
 사용자가 특정 버전의 애플리케이션을 설치했는지 확인하려고 합니다. 이를 위해 버전이 1.0인 모바일 애플리케이션과 연결된 모든 푸시 알림 토큰을 가져옵니다. 그런 다음 조건을 수행합니다. **[!UICONTROL count]** 반환된 토큰 목록에 하나 이상의 요소가 포함되어 있는지 확인하는 함수입니다.
 
 ```json
-count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
+count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
 ```
 
 결과는 true입니다.
@@ -88,7 +88,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 여기에서는 **[!UICONTROL count]** 컬렉션에 푸시 알림 토큰이 있는지 확인하는 함수입니다.
 
 ```json
-count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
+count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
 ```
 
 그 결과는 참이 될 것이다.
@@ -96,20 +96,20 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 <!--Alternatively, you can check if there is no token in the collection:
 
    ```json
-   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
+   count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
    ```
 
 The result will be false.
 
 Here we use the count function in a condition to count the number of push notification tokens in the event.
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token})`
+`count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token})`
 
 The result is true.
 
 Note that when the condition in the **all()** function is empty, the filter will return all the elements in the list. Hence, the expression above is equivalent to:
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.application.name})`
+`count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.application.name})`
 
 In both cases, the result of the expression is **3**.
 
@@ -122,7 +122,7 @@ earlier timestamp) in order to only consider prior events.-->
 
 
 ```json
-count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
+count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
 표현식의 결과는 다음과 같습니다. **3**.
@@ -153,7 +153,7 @@ count(
 
 <!--**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
+`count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
 
 The result will be:
 
@@ -161,7 +161,7 @@ The result will be:
 
 Alternatively, you can check if there is NO token in the collection:
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) =0`
+`count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) =0`
 
 The result will be:
 
@@ -186,7 +186,7 @@ _`<listExpression>.last(<condition>)`_
 이 표현식은 버전이 1.0인 모바일 애플리케이션과 연결된 첫 번째 푸시 알림 토큰을 반환합니다.
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
 ```
 
 결과는 &quot;token_1&quot;입니다.
@@ -196,7 +196,7 @@ _`<listExpression>.last(<condition>)`_
 이 표현식은 버전이 1.0인 모바일 애플리케이션과 연결된 마지막 푸시 알림 토큰을 반환합니다.
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last(currentEventField.application.version == "1.0").token}
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last(currentEventField.application.version == "1.0").token}
 ```
 
 결과는 &quot;token_2&quot;입니다.
@@ -229,7 +229,7 @@ _`<listExpression>`.at(`<index>`)_
 이 표현식은 목록의 두 번째 푸시 알림 토큰을 반환합니다.
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
 결과는 &quot;token_2&quot;입니다.

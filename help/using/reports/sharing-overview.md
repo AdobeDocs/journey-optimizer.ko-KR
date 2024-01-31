@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 3b1a359427a76780bd3130e292cf2658eb6df03c
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '469'
 ht-degree: 3%
 
 ---
@@ -65,4 +65,6 @@ Adobe Experience Platform에 전달된 XDM 필드 목록은 여기에 자세히 
 * [!DNL Customer Journey Analytics] &quot;여정 단계 이벤트&quot; 데이터 세트를 수집합니다.
 * 다음 **profileID** 연관된 &quot;Journey Orchestration에 대한 여정 단계 이벤트 스키마&quot;의 필드가 ID 필드로 정의됩니다. 위치 [!DNL Customer Journey Analytics]그런 다음 이 데이터 세트를 개인 기반 식별자와 동일한 값을 가진 다른 데이터 세트에 연결할 수 있습니다.
 * 에서 이 데이터 세트를 사용하려면 [!DNL Customer Journey Analytics], 크로스 채널 여정 분석은 를 참조하십시오. [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
+
+➡️ [Customer Journey Analytics 작업](cja-ajo.md){target="_blank"}
 

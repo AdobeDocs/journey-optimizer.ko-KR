@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 68%
+source-wordcount: '1489'
+ht-degree: 65%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 68%
 >[!NOTE]
 >
 >외부 시스템으로 작업할 때의 보호 기능 목록은 다음과 같습니다. [이 페이지](../configuration/external-systems.md).
+
+>[!NOTE]
+>
+>이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다.
 
 POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다. 그리고 API 키와 기본/사용자 지정 인증 모드가 지원됩니다.
 
@@ -122,9 +126,12 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 1. 끝점을 호출하여 액세스 토큰을 생성합니다.
 1. 올바른 방식으로 액세스 토큰을 삽입하여 REST API를 호출합니다.
 
-이 인증은 두 부분으로 구성되어 있습니다.
 
-액세스 토큰 생성을 위해 호출할 끝점의 정의:
+>[!NOTE]
+>
+>**이 인증에는 두 가지 부분이 있습니다.**
+
+### 액세스 토큰을 생성하기 위해 호출할 끝점의 정의
 
 * endpoint: 끝점을 생성하는 데 사용할 URL
 * 끝점에 대한 HTTP 요청 메서드(GET 또는 POST)
@@ -133,7 +140,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
    * &#39;form&#39;: 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키-값 쌍이 그대로 일련화됩니다(예: key1=value1&amp;key2=value2&amp;...).
    * &#39;json&#39;: 콘텐츠 유형은 application/json(charset UTF-8)이며 키-값 쌍이 json 개체 그대로 일련화됩니다. _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
-작업의 HTTP 요청에서 액세스 토큰을 삽입해야 하는 방식의 정의:
+### 작업의 HTTP 요청에 액세스 토큰을 삽입해야 하는 방식의 정의
 
 * authorizationType: 생성된 액세스 토큰을 작업의 HTTP 호출에 삽입해야 하는 방법을 정의합니다. 가능한 값은 다음과 같습니다.
 
@@ -150,8 +157,6 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 ```
 {
     "type": "customAuthorization",
-    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
-    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers": {
@@ -163,10 +168,16 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
         "bodyParams": {
             "param1": value1,
             ...
-
         }
     },
-    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
+    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'",
+    "cacheDuration": {
+        (optional, mutually exclusive with 'duration') "expiryInResponse": "<json selector in format 'json://<field path to expiry>'",
+        (optional, mutually exclusive with 'expiryInResponse') "duration": <integer value>,
+        "timeUnit": "<unit in 'milliseconds', 'seconds', 'minutes', 'hours', 'days', 'months', 'years'>"
+    },
+    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
+    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
 }
 ```
 
@@ -228,14 +239,19 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
       "username": "any value"
     }
   },
-  "tokenInResponse": "json://token"
-} 
+  "tokenInResponse": "json://token",
+  "cacheDuration": {
+    "expiryInResponse": "json://expiryDuration",
+    "timeUnit": "minutes"
+  }
+}
 ```
 
 다음은 로그인 API 호출의 응답의 예입니다.
 
 ```
 {
-  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
+  "expiryDuration" : 5
 }
 ```

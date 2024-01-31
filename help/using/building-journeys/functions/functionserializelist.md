@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: serializeList, 함수, 표현식, 여정
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 21%
+source-wordcount: '88'
+ht-degree: 12%
 
 ---
 
 # serializeList {#serializeList}
 
-첫 번째 매개 변수에 지정된 목록(모든 유형)을 문자열로 변환합니다. 두 번째 매개 변수는 사용할 구분 기호를 나타냅니다. 세 번째 매개 변수는 표현식의 각 요소에 따옴표가 포함되어야 하는지 여부를 나타내는 부울 값입니다.
+지정된 목록(listObject를 제외한 모든 유형)을 문자열로 변환합니다.
 
 ## 카테고리
 
@@ -28,19 +28,11 @@ ht-degree: 21%
 
 ## 매개 변수
 
-| 매개변수 | 유형 |
-|-----------|------------------|
-| 문자열 | 문자열 |
-| 부울 | 부울 |
-| 날짜/시간만 | 날짜/시간만 |
-| 목록 | listString |
-| 목록 | list부울 |
-| 목록 | listPoint |
-| 목록 | listDecimal |
-| 목록 | listDuration |
-| 목록 | listDateTime |
-| 목록 | listDateTimeOnly |
-| 목록 | listDateOnly |
+| 매개변수 | 유형 | 설명 |
+|-----------|------------------|------------------|
+| listToprocess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | 문자열로 변환할 목록입니다. |
+| 분리자 | 문자열 | 출력 문자열에서 각 목록 요소 사이의 구분 기호입니다. |
+| addQuotes | 부울 | 이 매개 변수는 출력 문자열의 각 요소에 따옴표(true)를 포함해야 하는지 여부를 나타냅니다(false). |
 
 ## 서명 및 반환된 유형
 
@@ -59,8 +51,6 @@ ht-degree: 21%
 `serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
-
-`serializeList(<listPoint>,<string>,<boolean>)`
 
 문자열을 반환합니다.
 

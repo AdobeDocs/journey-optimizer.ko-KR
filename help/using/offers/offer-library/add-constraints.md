@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2424'
 ht-degree: 16%
 
 ---
@@ -258,9 +258,12 @@ ht-degree: 16%
 
 ![](../assets/offer-capping-frequency.png)
 
+
 >[!NOTE]
 >
 >재설정은 정의한 당일 또는 해당되는 경우 주/월의 첫 번째 날에 오전 12시(UTC)에 수행됩니다. 주 시작일은 일요일입니다. 선택하는 기간은 2년(즉, 해당 개월, 주 또는 일 수)을 초과할 수 없습니다.
+>
+>빈도 제한 카운터는 3초 이내에 Edge Decisioning API 의사 결정에서 업데이트되고 사용할 수 있습니다.
 
 예를 들어, 2주마다 최대 가용량 수를 재설정하려면 을 선택합니다. **[!UICONTROL 매주]** 해당 드롭다운 목록 및 유형에서 **2** 다른 필드에서. 재설정은 매주 일요일 오후 12시 UTC에 진행됩니다.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 이벤트, 반응, 추적, 플랫폼
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 20%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 20%
 1. 추가 **[!UICONTROL 레이블]** 반응으로. 데이터 소스에 이벤트에 설명을 추가합니다.
 1. 드롭다운 목록에서 반응할 작업 활동을 선택합니다. 경로의 이전 단계에 배치된 모든 작업 활동을 선택할 수 있습니다.
 1. 선택한 작업에 따라 반응할 항목을 선택합니다.
-1. 이벤트 시간 제한(40초~30일)과 시간 제한 경로를 정의할 수 있습니다. 이렇게 하면 정의된 기간 내에 반응하지 않은 개인에 대한 두 번째 경로가 만들어집니다. 반응 이벤트를 사용하는 여정을 테스트할 때에는 테스트 모드 **[!UICONTROL 대기 시간]** 기본값과 최소값은 40초입니다. [이 섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
+1. 이벤트 시간 제한(40초~29일)과 시간 제한 경로를 정의할 수 있습니다. 이렇게 하면 정의된 기간 내에 반응하지 않은 개인에 대한 두 번째 경로가 만들어집니다. 반응 이벤트를 사용하는 여정을 테스트할 때에는 테스트 모드 **[!UICONTROL 대기 시간]** 기본값과 최소값은 40초입니다. [이 섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
 
 >[!NOTE]
 >

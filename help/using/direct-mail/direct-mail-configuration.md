@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
+source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '903'
 ht-degree: 31%
 
 ---
@@ -155,9 +155,7 @@ DM 표면에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 �
 
 >[!NOTE]
 >
->중복 행은 자동으로 제거됩니다.
->
->프로필 데이터가 포함된 각 파일의 최대 레코드 수(즉, 행)가 너무 많으면 나머지 레코드에 대해 다른 파일이 자동으로 만들어집니다.
+>행의 모든 값이 동일한 중복 행은 파일에서 자동으로 제거됩니다.
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.

@@ -7,16 +7,18 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: countWithNull, 함수, 표현식, 여정
 exl-id: 8d53b6d8-f00f-4d1a-b6df-951f84a15430
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 29%
+source-wordcount: '57'
+ht-degree: 14%
 
 ---
 
 # countWithNull {#countWithNull}
 
 null 값을 포함하여 목록의 모든 요소를 계산합니다.
+
+매개 변수는 `<listObject>` 은(는) 이 함수에서 지원되지 않습니다.
 
 ## 카테고리
 
@@ -30,14 +32,7 @@ null 값을 포함하여 목록의 모든 요소를 계산합니다.
 
 | 매개변수 | 유형 |
 |-----------|------------------|
-| 목록 | listString |
-| 목록 | list부울 |
-| 목록 | list정수 |
-| 목록 | listDecimal |
-| 목록 | listDuration |
-| 목록 | listDateTime |
-| 목록 | listDateTimeOnly |
-| 목록 | listDateOnly |
+| listToprocess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly |
 
 ## 서명 및 반환된 유형
 

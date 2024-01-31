@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sort, function, expression, 여정
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '144'
 ht-degree: 7%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 7%
 # sort {#sort}
 
 값 또는 개체 목록을 원래 순서로 정렬합니다.
-
->[!NOTE]
->
->대상 목록이 listObject인 경우 이 함수는 사용자 지정 작업 표현식에서만 사용할 수 있습니다.
 
 ## 카테고리
 
@@ -81,4 +77,8 @@ ht-degree: 7%
 `sort([1, 3, 2], false)`
 
 반환 `[3, 2, 1]`.
+
+`sort(@event{my_event.productListItems}, "SKU", true)`
+
+SKU 속성으로 정렬된 listObject 반환(오름차순)
 

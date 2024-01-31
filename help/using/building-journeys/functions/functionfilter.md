@@ -7,20 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 필터, 함수, 표현식, 여정
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 8%
+source-wordcount: '113'
+ht-degree: 9%
 
 ---
 
 # filter{#filter}
 
 지정된 키 값 중 하나와 일치하는 키 특성을 가진 개체와 함께 listObject를 반환합니다.
-
->[!NOTE]
->
->대상 목록이 listObject인 경우 이 함수는 사용자 지정 작업 표현식에서만 사용할 수 있습니다.
 
 ## 카테고리
 
@@ -82,7 +78,7 @@ listObject를 반환합니다.
 
 ```json
 filter(
- @{myevent.productListItems},
+ @event{myevent.productListItems},
  "id", 
  ["product2", "product3", "product4"]
 )

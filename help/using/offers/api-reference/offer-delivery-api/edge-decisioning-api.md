@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 359846ac00fc8e3ad16eca41b6b3c345cad4aa65
+source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '891'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Experience Platform 웹 SDK는 의사 결정 관리를 포함하여 Adobe 시 �
 
 를 사용하여 의사 결정 관리를 구현하는 방법에는 두 가지가 있습니다 [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 한 가지 방법은 개발자에 맞춰져 있고 웹 사이트와 프로그래밍에 대한 지식이 필요합니다. 또 다른 방법은 Adobe Experience Platform 사용자 인터페이스를 사용하여 HTML 페이지의 헤더에서 작은 스크립트만 참조하도록 오퍼를 설정하는 것입니다.
 
-의 설명서를 참조하십시오. [의사 결정 관리](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) Adobe Experience Platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대해 자세히 알아보십시오.
+다음에서 Adobe Experience Platform 설명서 참조: [의사 결정 관리](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) Adobe Experience Platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대해 자세히 알아보십시오.
 
 ## Adobe Experience Platform 웹 SDK {#aep-web-sdk}
 

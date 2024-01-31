@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: limit, function, expression, 여정
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '139'
 ht-degree: 7%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 7%
 # limit {#limit}
 
 목록의 첫 번째 또는 마지막 N 요소를 반환합니다.
-
->[!NOTE]
->
->대상 목록이 listObject인 경우 이 함수는 사용자 지정 작업 표현식에서만 사용할 수 있습니다.
 
 ## 카테고리
 

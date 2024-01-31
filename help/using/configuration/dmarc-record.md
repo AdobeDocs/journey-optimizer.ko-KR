@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: DMARC 레코드
 description: Journey Optimizer에서 DMARC 레코드를 설정하는 방법 알아보기
-feature: Subdomains, Channel Configuration
+feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
-source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
+source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1370'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## DMARC란? {#what-is-dmarc}
 
-DMARC는 **도메인 기반 메시지 인증, 보고 및 적합성**&#x200B;는 도메인 소유자가 도메인을 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다. 이메일 공급자/ISP에 명확한 정책을 제공함으로써 악의적인 행위자가 도메인에서 온 것으로 주장하는 이메일을 보내지 못하게 하는 데 도움이 됩니다. 이렇게 하면 합법적인 이메일이 스팸으로 표시되거나 거부될 가능성을 줄이고 이메일 전달성을 향상시킬 수 있습니다.
+도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다. 이메일 공급자/ISP에 명확한 정책을 제공함으로써 악의적인 행위자가 도메인에서 온 것으로 주장하는 이메일을 보내지 못하게 하는 데 도움이 됩니다. DMARC를 구현하면 합법적인 이메일이 스팸으로 표시되거나 거부될 위험이 줄어들고 이메일 전달성이 향상됩니다.
 
 또한 DMARC는 인증에 실패한 메시지에 대한 보고와 함께 DMARC 유효성 검사를 통과하지 않은 이메일 처리에 대한 제어를 제공합니다. 구현된 항목에 따라 [DMARC 정책](#dmarc-policies), 이러한 이메일은 모니터링, 격리 또는 거부될 수 있습니다. 이러한 기능을 통해 잠재적 오류를 완화하고 해결하기 위한 조치를 취할 수 있습니다.
 
@@ -65,7 +65,7 @@ DMARC를 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 시행 중인 업계 모범 사례의 일부로서 Google과 Yahoo는 모두 다음을 보유해야 합니다. **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은에 시작됩니다. **2024년 2월 1일**.
 
-에서 Google 및 Yahoo 요구 사항에 대해 자세히 알아보십시오. [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+에서 Google 및 Yahoo 요구 사항에 대해 자세히 알아보십시오. [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -79,7 +79,7 @@ DMARC를 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 ## 에서 DMARC 구현 [!DNL Journey Optimizer] {#implement-dmarc}
 
-시작 날짜 **2024년 1월 30일**, [!DNL Journey Optimizer] 관리 인터페이스를 사용하면 이미 Adobe에게 위임했거나 위임하고 있는 모든 하위 도메인에 대해 DMARC 레코드를 설정할 수 있습니다. 자세한 단계는 아래에 설명되어 있습니다.
+다음 [!DNL Journey Optimizer] 관리 인터페이스를 사용하면 이미 Adobe에게 위임했거나 위임하고 있는 모든 하위 도메인에 대해 DMARC 레코드를 설정할 수 있습니다. 자세한 단계는 아래에 설명되어 있습니다.
 
 ### DMARC에 대한 기존 하위 도메인 확인 {#check-subdomains-for-dmarc}
 

@@ -7,16 +7,18 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctWithNull, 함수, 표현식, 여정
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 5%
+source-wordcount: '123'
+ht-degree: 7%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
 주어진 목록의 고유 값 또는 개체를 반환합니다. 목록에 null 항목이 하나 이상 있으면 반환된 목록에 null 항목이 표시됩니다.
+
+매개 변수는 `<listObject>` 은(는) 이 함수에서 지원되지 않습니다.
 
 ## 카테고리
 
@@ -30,8 +32,7 @@ ht-degree: 5%
 
 | 매개변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
-| listToprocess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 처리할 목록. listObject의 경우 필드 참조여야 합니다. |
-| keyAttributeName | 문자열 | 이 매개 변수는 선택 사항이며 listObject에만 사용됩니다. 매개변수를 제공하지 않으면 모든 속성의 값이 동일한 경우 객체가 복제된 것으로 간주됩니다. 그렇지 않으면, 지정된 속성에 동일한 값이 있으면 객체가 복제된 것으로 간주됩니다. |
+| listToprocess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | 처리할 목록. |
 
 ## 서명 및 반환된 유형
 
@@ -66,12 +67,6 @@ ht-degree: 5%
 `distinctWithNull(<listDuration>)`
 
 기간 목록을 반환합니다.
-
-`distinctWithNull(<listObject>)`
-
-`distinctWithNull(<listObject>,<string>)`
-
-개체 목록을 반환합니다.
 
 ## 예시
 

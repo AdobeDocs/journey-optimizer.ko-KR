@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toString, 함수, 표현식, 여정
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '128'
 ht-degree: 7%
 
 ---
@@ -33,8 +33,8 @@ ht-degree: 7%
 | dateTime | 날짜를 UTC 날짜 형식으로 변환 |
 | dateTimeOnly | 날짜를 UTC 날짜 형식으로 변환 |
 | 지속 시간 | 문자열로 해당 시간(밀리초)으로 변환 |
-| 정수 | 를 값의 문자열 표현으로 변환합니다(1은 &quot;1&quot;이 됨). |
-| decimal | 를 값의 문자열 표현으로 변환(1.5가 &quot;1.5&quot;가 됨) |
+| 정수 | 값의 문자열 표현으로 변환(1이 &quot;1&quot;이 됨) |
+| decimal | 값의 문자열 표현으로 변환(1.5가 &quot;1.5&quot;가 됨) |
 | 부울 | true이면 &#39;true&#39;로, false이면 &#39;false&#39;로 부울 값 변환 |
 
 ## 서명 및 반환된 유형
@@ -62,3 +62,7 @@ ht-degree: 7%
 `toString(#{ExperiencePlatform.test_date.person.birthDate}))`
 
 지정된 dateOnly 필드(XDM 날짜 필드)의 문자열 표현을 반환합니다(예: &quot;2016-08-18&quot;).
+
+`toString(toDuration(1520))`
+
+&quot;PT1.52S&quot;를 반환합니다.

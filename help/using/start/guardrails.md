@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 94%
+source-wordcount: '1960'
+ht-degree: 89%
 
 ---
 
@@ -87,6 +87,10 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * IP 주소를 사용할 수 없습니다. 
 * 내부 Adobe 주소(`.adobe.*`)는 URL 및 API에 사용할 수 없습니다.
 * 기본 제공 사용자 정의 작업은 제거할 수 없습니다.
+* 사용자 지정 작업을 사용하여 타깃팅할 끝점을 선택할 때 다음을 확인하십시오.
+
+   * 이 끝점은 의 구성을 사용하여 여정의 처리량을 지원할 수 있습니다. [제한 API](../configuration/throttling.md) 또는 [최대 가용량 API](../configuration/capping.md) 제한. 제한 구성은 200TPS 미만으로 내려갈 수 없습니다. 타겟팅된 모든 엔드포인트는 최소 200개의 TPS를 지원해야 합니다.
+   * 이 끝점은 가능한 한 낮은 응답 시간을 가져야 합니다. 예상 처리량에 따라 응답 시간이 길면 실제 처리량에 영향을 줄 수 있습니다.
 
 ### 이벤트 {#events-g}
 
@@ -99,6 +103,10 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 * 고객 여정 내에서 외부 데이터 소스를 활용하여 실시간으로 외부 데이터를 조회할 수 있습니다. 이러한 소스는 REST API를 통해 사용할 수 있어야 하고 JSON을 지원하고 요청 볼륨을 처리할 수 있어야 합니다.
 * 내부 Adobe 주소(`.adobe.*`)는 URL 및 API에 사용할 수 없습니다.
+
+>[!NOTE]
+>
+>이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다.
 
 ### 여정 및 프로필 만들기  {#journeys-limitation-profile-creation}
 
