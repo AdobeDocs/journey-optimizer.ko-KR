@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7cb00d2527780f14564890c1123a76aa55c7c088
+source-git-commit: fe4c51a74431bf8ab66aa2c9c3bd07404d971bbf
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '562'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 17%
 
 * **날짜 필터** - 이제 미리 정의된 기존 날짜 필터 외에 사용자 지정 날짜를 사용하여 여정 인벤토리를 필터링할 수 있습니다. 이렇게 하면 특정 날짜, 특정 달 내, 전체 연도 또는 지정된 시간 범위에 게시된 여정을 표시하여 목록을 세분화할 수 있습니다.
 
-* **대상자 읽기**  - 이제 대상자 읽기 활동은 예약된 일별 일괄 처리 작업이 실행된 후 하루에 한 번만 생성되는 일괄 처리 세그먼트에 대한 프로필 스냅샷 데이터 세트를 사용합니다.
+* **대상자 읽기**  - 이제 대상자 읽기 활동은 예약된 일별 배치 작업이 실행된 후 하루에 한 번만 생성되는 배치 세그먼트에 대한 프로필 스냅샷 데이터 세트를 사용하므로 데이터는 마지막 일별 배치 작업까지 새로 고쳐집니다.
 
 **빈도 규칙**
 
