@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c428b18469eb98392fe6c49d5892a4699477457
+source-git-commit: 146a142afeb47debac0d56963e48225a85b0f2c4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 27%
+source-wordcount: '605'
+ht-degree: 28%
 
 ---
 
@@ -35,7 +35,6 @@ ht-degree: 27%
 ### 새로운 기능{#jan24-features}
 
 이번 릴리스에는 아래 목록에 있는 새로운 기능이 제공됩니다.
-
 
 <table>
 <thead>
@@ -90,7 +89,7 @@ ht-degree: 27%
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **대상자 읽기**  - **대상자 읽기** 이제 활동은 예약된 일별 배치 작업이 실행된 후 하루에 한 번만 생성되는 배치 세그먼트에 대한 프로필 스냅샷 데이터 세트를 사용하므로 데이터는 마지막 일별 배치 작업까지 새로 고쳐집니다.
+* **대상자 읽기**  - **대상자 읽기** 이제 활동은 예약된 일별 배치 작업이 실행된 후 하루에 한 번만 생성되는 배치 세그먼트에 대한 프로필 스냅샷 데이터 세트를 사용하므로 데이터는 마지막 일별 배치 작업까지 새로 고쳐집니다. [자세히 알아보기](../building-journeys/read-audience.md)
 
 * **필드 그룹** - 이 릴리스에서는 특정 경우에 필드 그룹이 저장되지 않는 문제를 해결했습니다.
 
@@ -100,4 +99,4 @@ ht-degree: 27%
 
 **의사 결정 관리**
 
-* **가장자리 빈도 설정** - 이제 빈도 제한 카운터가 업데이트되어 Edge Decisioning API 의사 결정에서 3초 이내에 사용할 수 있습니다.
+* **가장자리 빈도 설정** - 이제 빈도 제한 카운터가 업데이트되어 Edge Decisioning API 의사 결정에서 3초 이내에 사용할 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
