@@ -11,7 +11,7 @@ keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
 source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="DMARC 레코드 설정"
->abstract="DMARC는 도메인 소유자가 도메인을 무단 사용으로부터 보호하고 사서함 공급자의 게재 문제를 방지할 수 있는 이메일 인증 방법입니다.<br>시행 업계 모범 사례의 일부로서, Google과 Yahoo는 모두 이메일을 보내는 데 사용하는 도메인에 대한 DMARC 레코드가 있어야 합니다."
+>abstract="DMARC는 도메인 소유자가 자신의 도메인이 무단으로 사용되지 않도록 보호하고 사서함 서비스 제공업체와의 전달성 문제를 방지할 수 있는 이메일 인증 방법입니다.<br>업계 모범 사례 시행의 일환으로 Google와 Yahoo는 자사에 이메일을 보내는 데 사용하는 모든 도메인에 대해 DMARC 레코드를 의무화합니다."
 
 ## DMARC란? {#what-is-dmarc}
 
