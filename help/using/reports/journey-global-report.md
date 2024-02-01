@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 4%
+source-wordcount: '3523'
+ht-degree: 6%
 
 ---
 
@@ -46,11 +46,21 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 여정 성능 {#journey-perfomance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_performance"
+>title="여정 성능"
+>abstract="XX"
+
 ![](assets/journey_performance.png)
 
 다음 **[!UICONTROL 여정 성능]** 위젯을 사용하면 타겟팅된 프로필이 여정을 탐색할 때의 궤적을 시각적으로 추적할 수 있습니다.
 
 ### 여정 통계 {#journey-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_statistics"
+>title="여정 통계"
+>abstract="XX"
 
 ![](assets/journey_statistics.png)
 
@@ -68,11 +78,21 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 작업 성능 {#action-performance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_performance"
+>title="작업 성능"
+>abstract="XX"
+
 ![](assets/journey_action_performance.png)
 
 다음 **[!UICONTROL 작업 성능]** 위젯은 다음과 같은 경우에 가장 성공적인 작업을 나타냅니다. **[!UICONTROL 작업]** 이(가) 트리거되었습니다.
 
 ### 상위 작업 {#top-actions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_top_actions"
+>title="상위 작업"
+>abstract="XX"
 
 ![](assets/journey_top_actions.png)
 
@@ -88,11 +108,21 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 액션 오류 이유 {#action-error}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_actions_error_reasons"
+>title="액션 오류 이유"
+>abstract="XX"
+
 ![](assets/journey_action_error.png)
 
 다음 **[!UICONTROL 액션 오류 이유]**  표 및 그래프는 를 실행하는 동안 발생한 오류에 대한 포괄적인 개요를 제공합니다 **[!UICONTROL 작업]**.
 
 ### 원본을 통한 이벤트 {#events-origin}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_events_origin"
+>title="원본을 통한 이벤트"
+>abstract="XX"
 
 ![](assets/journey_events_origin.png)
 
@@ -100,17 +130,32 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 이벤트에 의해 수신된 이벤트 {#events-received}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_events_received"
+>title="이벤트에 의해 수신된 이벤트"
+>abstract="XX"
+
 ![](assets/journey_event_received.png)
 
 다음 **[!UICONTROL 이벤트에 의해 수신된 이벤트]** 그래프를 통해 특정 항목을 식별하고 분석할 수 있습니다 **[!UICONTROL 이벤트]** 여정 내에서 효과적으로 실행되어 개별 이벤트의 성능 및 성공률에 대한 중요한 통찰력을 제공합니다.
 
 ### 상위 이벤트 {#top-events}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_top_events"
+>title="상위 이벤트"
+>abstract="XX"
+
 ![](assets/journey_top_events.png)
 
 다음 **[!UICONTROL 상위 이벤트]** 표는 다음에 대한 필수 데이터를 컴파일합니다 **[!UICONTROL 이벤트]**. 각 의 빈도와 성능에 대한 간결한 통찰력을 제공합니다 **[!UICONTROL 이벤트]**.
 
 ### 동의 정책 {#consent-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_consent_policies"
+>title="동의 정책"
+>abstract="XX"
 
 ![](assets/journey_consent.png)
 
@@ -124,7 +169,12 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 여정에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 이메일]** 탭은 여정에 전송된 이메일과 관련된 기본 정보를 자세히 설명합니다.
 
-### 이메일 전송 통계 {#email-sending-statistics}
+### 이메일 - 전송 통계 {#email-sending-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sending_statistics"
+>title="이메일 - 전송 통계"
+>abstract="XX"
 
 ![](assets/journey_email_statistics.png)
 
@@ -158,6 +208,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 이메일 - 추적 통계 {#email-tracking}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_tracking_statistics"
+>title="이메일 - 추적 통계"
+>abstract="XX"
+
 ![](assets/journey_email_tracking.png)
 
 다음 **[!UICONTROL 이메일 - 추적 통계]** 표는 여정에 포함된 이메일과 관련된 프로필 활동에 대한 자세한 계정을 제공합니다. 여기에는 열람, 클릭 수 및 기타 관련 참여 지표에 대한 지표가 포함되며 프로필이 이메일 콘텐츠와 상호 작용하는 방식에 대한 포괄적인 보기를 제공합니다.
@@ -186,6 +241,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 이메일 - 전송 성능 {#email-performance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sending_performance"
+>title="이메일 - 전송 성능"
+>abstract="XX"
+
 ![](assets/journey_email_performance.png)
 
 다음 **[!UICONTROL 이메일 - 전송 성능]** graph에서는 여정에서 보낸 이메일과 관련된 데이터를 종합적으로 볼 수 있으므로 게재 및 바운스 수와 같은 주요 지표에 대한 통찰력을 제공합니다. 이를 통해 이메일 전송 프로세스를 자세히 분석할 수 있으므로 여정의 효율성과 성능에 대한 중요한 정보를 제공합니다.
@@ -203,6 +263,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 +++
 
 ### 이메일 - 반송 범주 및 이유 {#email-bounce-categories}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces"
+>title="이메일 - 반송 범주 및 이유"
+>abstract="XX"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -222,11 +287,21 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 이메일 - 오류 이유 {#email-errors}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_error_reasons"
+>title="이메일 - 오류 이유"
+>abstract="XX"
+
 ![](assets/journey_email_error.png)
 
 다음 **[!UICONTROL 오류 원인]** 그래프 및 표는 전송 프로세스 중에 발생한 특정 오류에 대한 가시성을 제공하여 오류의 특성 및 발생에 대한 중요한 정보를 제공합니다.
 
 ### 이메일 - 제외된 이유 {#email-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_excluded_reasons"
+>title="이메일 - 제외된 이유"
+>abstract="XX"
 
 ![](assets/journey_email_excluded.png)
 
@@ -235,6 +310,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 을(를) 참조하십시오 [이 페이지](exclusion-list.md) 포괄적인 제외 이유 목록.
 
 ### 도메인별로 전송 및 게재 {#sent-domains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sent_delivered_domains"
+>title="도메인별로 전송 및 게재"
+>abstract="XX"
 
 ![](assets/journey_email_sent_domains.png)
 
@@ -250,6 +330,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 도메인별 열기 및 클릭 {#open-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_open_clicks_domains"
+>title="도메인별 열기 및 클릭"
+>abstract="XX"
+
 ![](assets/journey_email_open_domains.png)
 
 다음  **[!UICONTROL 도메인별 열기 및 클릭]** 그래프와 표에는 프로필과 이메일의 참여도에 대한 도메인 수준의 분류가 표시되어 다양한 도메인이 콘텐츠와 상호 작용하는 방법에 대한 중요한 통찰력을 제공합니다.
@@ -263,6 +348,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 +++
 
 ### 도메인별 바운스 및 오류 {#bounces-domains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces_errors_domains"
+>title="도메인별 바운스 및 오류"
+>abstract="XX"
 
 ![](assets/journey_email_bounce_domains.png)
 
@@ -278,17 +368,34 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 도메인별 바운스 이유 {#bounce-reasons-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces_reasons_domains"
+>title="도메인별 반송 원인"
+>abstract="XX"
+
 ![](assets/journey_email_bounce_reasons_domain.png)
 
 다음  **[!UICONTROL 도메인별 바운스 원인]** 그래프 및 표는 일시적인 오류와 영구적인 오류에 관련된 데이터의 도메인 수준 분류를 제공하여, 반송된 메시지 이면의 이유에 대한 자세한 통찰력을 제공합니다.
 
 ### 이메일 - 상위 URL {#email-top}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_top_url"
+>title="이메일 - 상위 URL"
+>abstract="XX"
+
 ![](assets/journey_email_top.png)
 
 다음 **[!UICONTROL 이메일 - 상위 URL]** 그래프 및 표는 가장 높은 방문자 트래픽을 유도하는 이메일 내의 URL에 대한 포괄적인 개요를 제공합니다. 이를 통해 가장 인기 있는 링크를 식별하고 우선 순위를 지정할 수 있으므로 이메일의 특정 콘텐츠와 함께 프로필 참여를 보다 잘 이해할 수 있습니다.
 
 ### 이메일 - 최적화 {#email-sto}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_optimization"
+>title="이메일 - 최적화"
+>abstract="XX"
+
+![](assets/journey_email_sto.png)
 
 >[!NOTE]
 >
@@ -310,6 +417,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 +++
 
 ### 이메일 - 오퍼 {#email-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_offers"
+>title="이메일 - 오퍼"
+>abstract="XX"
 
 >[!NOTE]
 >
@@ -343,6 +455,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 푸시 알림 - 전송 통계 {#push-sending-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_sending_statistics"
+>title="푸시 알림 - 전송 통계"
+>abstract="XX"
+
 ![](assets/journey_push_sending.png)
 
 다음 **[!UICONTROL 푸시 알림 - 전송 통계]** 표는 타깃팅된 메시지 수 및 성공적으로 전달된 메시지 수와 같은 주요 지표를 포함하여 푸시 알림과 관련된 필수 데이터에 대한 간결한 요약을 제공합니다.
@@ -373,6 +490,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 푸시 알림 - 추적 통계 {#push-tracking-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_tracking_statistics"
+>title="푸시 알림 - 추적 통계"
+>abstract="XX"
+
 다음 **[!UICONTROL 푸시 - 추적 통계]** 위젯은 푸시 알림과 연결된 프로필 활동에 대한 자세한 스냅숏을 제공하여 참여 및 푸시 알림 효과에 대한 중요한 통찰력을 제공합니다.
 
 +++ 푸시 알림 - 추적 통계 지표에 대해 자세히 알아보기
@@ -386,6 +508,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 +++
 
 ### 푸시 알림 - 전송 요약 {#push-summary}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_sending_summary"
+>title="푸시 알림 - 전송 요약"
+>abstract="XX"
 
 ![](assets/journey_push_summary.png)
 
@@ -407,11 +534,21 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 푸시 알림 - 오류 이유 {#push-error-reasons}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_error_reasons"
+>title="푸시 알림 - 오류 이유"
+>abstract="XX"
+
 ![](assets/journey_push_error.png)
 
 다음 **[!UICONTROL 오류 원인]** 테이블 및 그래프는 푸시 알림 전송 프로세스 중에 발생한 특정 오류를 식별하는 기능을 제공하며 이 과정에서 발생한 문제에 대한 자세한 통찰력을 제공합니다.
 
 ### 푸시 알림 - 제외된 이유 {#push-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_excluded_reasons"
+>title="푸시 알림 - 제외된 이유"
+>abstract="XX"
 
 ![](assets/journey_push_excluded.png)
 
@@ -420,6 +557,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 을(를) 참조하십시오 [이 페이지](exclusion-list.md) 포괄적인 제외 이유 목록.
 
 ### 푸시 알림 - 플랫폼별 분류 {#push-breakdown}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_breakdown_platform"
+>title="푸시 알림 - 플랫폼별 분류"
+>abstract="XX"
 
 ![](assets/journey_push_breakdown.png)
 
@@ -451,6 +593,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### SMS - 전송 통계 {#sms-sending-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_sending_statistics"
+>title="SMS - 전송 통계"
+>abstract="XX"
+
 ![](assets/journey_sms_sending.png)
 
 다음 **[!UICONTROL SMS - 전송 통계]** 표에서는 타겟팅된 메시지 수 및 성공적으로 전달된 메시지 수와 같은 주요 지표를 포함하여 SMS 메시지와 관련된 필수 데이터에 대한 간략한 요약을 제공합니다.
@@ -473,6 +620,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### SMS - 추적 통계 {#sms-tracking-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_tracking_statistics"
+>title="SMS - 추적 통계"
+>abstract="XX"
+
 ![](assets/journey_sms_tracking.png)
 
 다음 **[!UICONTROL SMS - 추적 통계]** 위젯은 방문자의 URL 참여와 관련된 주요 정보에 대한 자세한 개요를 제공하여 SMS 메시지의 효과에 대한 통찰력을 제공합니다.
@@ -482,6 +634,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 * **[!UICONTROL 클릭수]**: SMS 메시지에서 콘텐츠를 클릭한 횟수입니다.
 
 ### SMS - 날짜별 성능 {#sms-performance-date}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_perfomance_date"
+>title="SMS - 날짜별 성능"
+>abstract="XX"
 
 ![](assets/journey_sms_performance.png)
 
@@ -499,17 +656,32 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### SMS - 바운스 이유 {#sms-bounce}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_bounces_reasons"
+>title="SMS - 바운스 이유"
+>abstract="XX"
+
 ![](assets/journey_sms_bounce_reasons.png)
 
 다음 **[!UICONTROL 반송 원인]** 그래프 및 표는 반송된 SMS 메시지와 관련된 데이터에 대한 포괄적인 개요를 제공하여 SMS 메시지 반송 인스턴스의 특정 이유에 대한 중요한 통찰력을 제공합니다.
 
 ### SMS - 오류 원인 {#sms-error}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_error_reasons"
+>title="SMS - 오류 원인"
+>abstract="XX"
+
 ![](assets/journey_sms_error.png)
 
 다음 **[!UICONTROL 오류 원인]** 그래프와 표를 사용하면 SMS 메시지를 보내는 동안 발생한 특정 오류를 식별할 수 있으므로 발생한 문제를 철저히 분석할 수 있습니다.
 
 ### SMS - 제외된 이유 {#sms-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_excluded_reasons"
+>title="SMS - 제외된 이유"
+>abstract="XX"
 
 ![](assets/journey_sms_excluded.png)
 
@@ -518,6 +690,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 을(를) 참조하십시오 [이 페이지](exclusion-list.md) 포괄적인 제외 이유 목록.
 
 ### SMS - 링크를 통한 클릭 {#sms-clicks}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_clicks"
+>title="SMS - 링크를 통한 클릭"
+>abstract="XX"
 
 ![](assets/journey_sms_clicks.png)
 
@@ -528,6 +705,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 여정에서 **[!UICONTROL 글로벌 보고서]**, **[!UICONTROL 인앱]** 탭에서는 여정에서 보낸 인앱 메시지와 관련된 기본 정보를 자세히 설명합니다.
 
 ### 인앱 성능 {#inapp-performance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_performance"
+>title="인앱 성능"
+>abstract="XX"
 
 ![](assets/journey_inapp_performance.png)
 
@@ -552,11 +734,21 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 인앱 요약 {#inapp-summary}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_summary"
+>title="인앱 요약"
+>abstract="XX"
+
 ![](assets/journey_inapp_summary.png)
 
 다음 **[!UICONTROL 인앱 요약]** 그래프는 지정된 기간 동안 인앱 노출 횟수 및 상호 작용의 진행 상황을 보여주며 인앱 메시지 성능에 대한 포괄적인 개요를 제공합니다.
 
 ### 유형별 상호 작용 {#interactions-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_interactions"
+>title="유형별 상호 작용"
+>abstract="XX"
 
 ![](assets/journey_inapp_interactions.png)
 
