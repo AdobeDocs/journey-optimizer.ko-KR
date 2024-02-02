@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
-source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
+source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 5%
+source-wordcount: '1364'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="DMARC 레코드 설정"
->abstract="DMARC는 도메인 소유자가 자신의 도메인이 무단으로 사용되지 않도록 보호하고 사서함 서비스 제공업체와의 전달성 문제를 방지할 수 있는 이메일 인증 방법입니다.<br>업계 모범 사례 시행의 일환으로 Google와 Yahoo는 자사에 이메일을 보내는 데 사용하는 모든 도메인에 대해 DMARC 레코드를 의무화합니다."
+>abstract="DMARC는 도메인 소유자가 자신의 도메인이 무단으로 사용되지 않도록 보호하고 사서함 서비스 제공업체와의 전달성 문제를 방지할 수 있는 이메일 인증 방법입니다.<br>시행 중인 업계 모범 사례의 일부로서 Google 및 Yahoo! 두 가지 모두 이메일을 보내는 데 사용하는 도메인에 대한 DMARC 레코드가 있어야 합니다."
 
 ## DMARC란? {#what-is-dmarc}
 
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 <!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
 
-인증에 실패한 메일을 제어하는 동안 게재 기능 문제를 방지하려면 [!DNL Journey Optimizer] 는 곧 관리 인터페이스에서 직접 DMARC 기술을 지원할 예정입니다. [자세히 알아보기](#implement-dmarc)
+인증에 실패한 메일을 제어하는 동안 게재 기능 문제를 방지하려면 [!DNL Journey Optimizer] 는 이제 관리 인터페이스에서 직접 DMARC 기술을 지원합니다. [자세히 알아보기](#implement-dmarc)
 
 ### DMARC는 어떻게 작동합니까? {#how-dmarc-works}
 
@@ -63,19 +63,19 @@ DMARC를 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 ## DMARC 요구 사항 업데이트 {#dmarc-update}
 
-시행 중인 업계 모범 사례의 일부로서 Google과 Yahoo는 모두 다음을 보유해야 합니다. **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은에 시작됩니다. **2024년 2월 1일**.
+시행 중인 업계 모범 사례의 일부로서 Google 및 Yahoo! 두 가지 모두 다음을 수행해야 합니다. **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은 다음 항목부터 적용됩니다. **2024년 2월 1일**.
 
-에서 Google 및 Yahoo 요구 사항에 대해 자세히 알아보십시오. [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+Google 및 Yahoo!&#39;에 대해 자세히 알아보기의 s 요구 사항 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->Gmail 및 Yahoo의 이 새로운 요구 사항을 준수하지 않으면 이메일이 스팸 폴더로 도착하거나 차단될 것으로 예상됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>Gmail 및 Yahoo의 새로운 요구 사항을 준수하지 못함! 이(가) 발생할 경우 이메일이 스팸 폴더로 도달하거나 차단됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
 
 따라서 Adobe에서는 다음 작업을 수행할 것을 강력히 권장합니다.
 
 * 다음을 수행했는지 확인합니다. **레코드** 다음에 대해 설정 **이미 위임한 모든 하위 도메인** 에서 Adobe [!DNL Journey Optimizer]. [방법 알아보기](#check-subdomains-for-dmarc)
 
-* 날짜 **새 하위 도메인 위임** 을(를) Adobe하려면 곧 다음 작업을 수행할 수 있습니다. **dmarc 설정** 직접 **다음에서 [!DNL Journey Optimizer] 관리 인터페이스**. [방법 알아보기](#implement-dmarc)
+* 날짜 **새 하위 도메인 위임** Adobe을 수행하려면 다음을 수행합니다. **dmarc 설정** 직접 **다음에서 [!DNL Journey Optimizer] 관리 인터페이스**. [방법 알아보기](#implement-dmarc)
 
 ## 에서 DMARC 구현 [!DNL Journey Optimizer] {#implement-dmarc}
 
@@ -93,7 +93,7 @@ DMARC를 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
    >[!CAUTION]
    >
-   >Gmail 및 Yahoo의 새로운 요구 사항을 준수하고 상위 ISP의 게재 문제를 방지하려면 위임된 모든 하위 도메인에 대해 DMARC 레코드를 설정하는 것이 좋습니다. [자세히 알아보기](dmarc-record-update.md)
+   >Gmail 및 Yahoo!의 새로운 요구 사항을 준수하고 상위 ISP의 게재 문제를 방지하려면 위임된 모든 하위 도메인에 대해 DMARC 레코드를 설정하는 것이 좋습니다. [자세히 알아보기](dmarc-record-update.md)
 
 1. 연결된 DMARC 레코드가 없는 하위 도메인을 선택하고 **[!UICONTROL 레코드]** 조직의 필요에 따라 섹션에 입력합니다. DMARC 레코드 필드를 채우는 단계는에 자세히 설명되어 있습니다. [이 섹션](#implement-dmarc).
 
@@ -117,9 +117,9 @@ DMARC를 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 >[!CAUTION]
 >
->Gmail 및 Yahoo의 새로운 요구 사항을 준수하고 상위 ISP의 게재 문제를 방지하려면 위임된 모든 하위 도메인에 대해 DMARC 레코드를 설정하는 것이 좋습니다. [자세히 알아보기](dmarc-record-update.md)
+>Gmail 및 Yahoo!의 새로운 요구 사항을 준수하고 상위 ISP의 게재 문제를 방지하려면 위임된 모든 하위 도메인에 대해 DMARC 레코드를 설정하는 것이 좋습니다. [자세히 알아보기](dmarc-record-update.md)
 
-<!--If you fail to comply with the new requirement from Gmail and Yahoo to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
+<!--If you fail to comply with the new requirement from Gmail and Yahoo! to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
 
 1. 새 하위 도메인을 설정합니다. [방법 알아보기](delegate-subdomain.md)
 
@@ -143,7 +143,7 @@ DMARC를 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
    >
    >에서 DMARC 정책을 단계적으로 개선하여 DMARC 구현을 천천히 배포하는 것이 좋습니다. **없음**, 대상 **격리**, 대상 **거부** DMARC의 잠재적인 영향을 이해하게 됩니다.
 
-1. 원할 경우 선택한 이메일 주소를 하나 이상 추가하여 위치를 지정합니다 **DMARC 보고서** 다음에 대한 이메일 [인증 실패](#how-dmarc-works) 조직 내에서 이동해야 합니다. 각 보고서에 대해 최대 5개의 주소를 추가할 수 있습니다.
+1. 필요한 경우 원하는 이메일 주소를 하나 이상 추가하여 위치를 지정합니다. **DMARC 보고서** 다음에 대한 이메일 [인증 실패](#how-dmarc-works) 조직 내에서 이동해야 합니다. 각 보고서에 대해 최대 5개의 주소를 추가할 수 있습니다.
 
    >[!NOTE]
    >
