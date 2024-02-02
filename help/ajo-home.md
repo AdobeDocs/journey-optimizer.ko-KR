@@ -5,7 +5,7 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
+source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 68%
@@ -28,7 +28,7 @@ Adobe Journey Optimizer 24.1 릴리스의 새로운 기능과 향상된 기능�
 
 >[!TAB 필수 DMARC 업데이트]
 
-업계 모범 사례 시행의 일환으로 Google과 Yahoo 모두 **2024년 2월 1일**&#x200B;부터 자사에 이메일을 보내는 데 사용하는 모든 도메인에 대해 **DMARC 레코드**&#x200B;를 보유할 것을 의무화할 예정입니다. Journey Optimizer에서 Adobe을 위임한 모든 하위 도메인에 대해 DMARC 레코드가 설정되어 있는지 확인합니다.
+시행 중인 업계 모범 사례의 일부로서 Google 및 Yahoo! 두 가지 모두 다음을 수행해야 합니다. **레코드** (으)로 이메일을 보내는 데 사용하는 모든 도메인의 경우 시작 **2024년 2월 1일**. Journey Optimizer에서 Adobe에 위임한 모든 하위 도메인에 DMARC 레코드가 설정되어 있는지 확인해 주세요.
 
 [![이미지](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
@@ -111,7 +111,7 @@ Real-Time CDP 및 Journey Optimizer의 산업별 사용 사례 플레이북 카�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko-KR" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">제품 설명</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">보안 개요(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API 참조</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer 스키마 사전</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko-KR" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">제품 설명</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">보안 개요(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API 참조</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer 스키마 사전</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
