@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
 workflow-type: tm+mt
-source-wordcount: '1939'
-ht-degree: 13%
+source-wordcount: '1961'
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 13%
 >abstract="메시지를 활성화할 특정 이벤트 및 기준을 선택하여 트리거를 효율적으로 제어합니다. 사용자는 규칙 빌더를 사용하여 정확한 조건 및 값을 정의할 수 있습니다. 이러한 조건이 충족되면 인앱 메시지 게재를 포함한 일련의 작업이 시작됩니다."
 
 캠페인 또는 여정에서 인앱 메시지를 추가할 수 있습니다. 아래 설명된 단계에 따라 두 컨텍스트에서 인앱 메시지를 만드십시오.
+
+인앱 메시지는 운영 체제에서 푸시 알림의 옵트인 또는 옵트아웃에 대한 사용자의 선택에 의해 영향을 받지 않습니다.
 
 >[!BEGINTABS]
 
