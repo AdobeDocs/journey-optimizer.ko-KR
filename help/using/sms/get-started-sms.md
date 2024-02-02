@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 8d1eb5a2c330575a88967bca8b0244caba358eb0
+source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '251'
+ht-degree: 86%
 
 ---
 
@@ -71,6 +71,19 @@ Adobe Journey Optimizer는 SMS 서비스 공급자(또는 SMS 게이트웨이 �
 
 ## 방법 비디오
 
-고객 여정에 SMS 메시지를 구성하고, 작성하고, 포함하는 방법을 알아봅니다.
+* 아래 비디오에서는 SMS 메시지를 구성하고, 작성하고, 고객 여정에 포함하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
++++
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++
+
+* 아래 비디오에서는 Adobe Journey Optimizer이 마케터에게 제공하는 모바일 기능을 더 잘 이해할 수 있도록 도와줍니다.
+
+
+  +++비디오 참조
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+
++++
