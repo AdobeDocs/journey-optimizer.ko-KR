@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
+source-git-commit: 718854c5ab51ad55fde7629415b954a079647c0b
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1137'
 ht-degree: 10%
 
 ---
@@ -174,14 +174,14 @@ ht-degree: 10%
 1. [규칙 만들기](#create-new-rule) 호출됨 *전체 마케팅 한도*:
 
    * 이메일 및 푸시 채널을 선택합니다.
-   * 캡핑을 12로 설정합니다.
+   * 캡핑을 매월 12로 설정합니다.
 
    ![](assets/message-rules-ex-overall-cap.png)
 
 1. 사용자가 전송되는 마케팅 기반 푸시 알림의 수를 추가로 제한하려면 라는 두 번째 규칙을 만듭니다. *푸시 마케팅 상한*:
 
    * 푸시 채널을 선택합니다.
-   * 캡핑을 4로 설정합니다.
+   * 캡핑을 매월 4로 설정합니다.
 
    ![](assets/message-rules-ex-push-cap.png)
 
