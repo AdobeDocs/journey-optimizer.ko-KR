@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
+source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
 workflow-type: tm+mt
-source-wordcount: '2866'
-ht-degree: 7%
+source-wordcount: '3668'
+ht-degree: 17%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
 >title="여정 성능"
->abstract="XX"
+>abstract="여정 성능 위젯을 사용하면 타겟팅된 프로필이 지난 24시간 동안 여정을 통해 진행할 때 해당 프로필의 경로를 시각적으로 추적할 수 있습니다."
 
 ![](assets/journey_live_performance.png)
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics_live"
 >title="여정 통계"
->abstract="XX"
+>abstract="여정 통계 주요 성과 지표(KPI)는 포괄적인 대시보드 역할을 하며, 여정과 관련된 지난 24시간 동안의 필수 지표에 대한 심층적인 분석을 제공합니다."
 
 ![](assets/journey_live_statistics.png)
 
@@ -80,7 +80,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed_live"
 >title="지난 24시간 동안 실행된 액션"
->abstract="XX"
+>abstract="지난 24시간 동안 실행된 작업 위젯은 최근 성능에 대한 스냅숏을 제공하여 지난 24시간 동안 실행된 작업의 효과를 보여 줍니다."
 
 ![](assets/journey_live_executed_24hours.png)
 
@@ -99,11 +99,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="실행된 액션 및 오류"
->abstract="XX"
+>abstract="실행된 작업 및 오류 위젯은 최근 24시간 동안 작업을 트리거하는 동안 발생한 모든 오류와 가장 성공한 작업을 표시합니다. 이 위젯은 성공적인 실행과 발생한 오류 모두에 대한 포괄적인 개요를 제공하여 작업의 최근 성능에 대한 중요한 통찰력을 제공합니다."
 
 ![](assets/journey_live_actions_errors.png)
 
-다음 **[!UICONTROL 실행된 액션 및 오류]** 위젯은 작업이 트리거될 때 발생한 가장 성공적인 작업 및 오류를 나타냅니다.
+다음 **[!UICONTROL 실행된 액션 및 오류]** 위젯은 지난 24시간 동안 작업이 트리거될 때 발생한 가장 성공적인 작업 및 오류를 나타냅니다.
 
 +++ 실행된 액션 및 오류 지표에 대해 자세히 알아보기
 
@@ -118,7 +118,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_errors_live"
 >title="액션 오류 이유"
->abstract="XX"
+>abstract="작업 오류 이유 테이블 및 그래프는 작업 실행 중에 발생한 오류에 대한 자세한 요약을 제공하여 지난 24시간 동안 발생했을 수 있는 문제에 대한 포괄적인 개요를 제공합니다."
 
 ![](assets/journey_live_error_reasons.png)
 
@@ -129,7 +129,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_type_live"
 >title="액션에 의한 오류 유형"
->abstract="XX"
+>abstract="작업 테이블 및 그래프별 오류 유형은 지난 24시간 내에 작업을 실행할 때마다 발생한 오류에 대한 전체 개요를 제공합니다."
 
 ![](assets/journey_live_error_type.png)
 
@@ -140,7 +140,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_24hours_live"
 >title="지난 24시간 동안 실행된 이벤트"
->abstract="XX"
+>abstract="지난 24시간 동안 실행된 이벤트 위젯을 사용하면 지난 24시간 내에 성공적으로 실행된 이벤트를 식별할 수 있습니다. "
 
 ![](assets/journey_live_event_24hours.png)
 
@@ -151,7 +151,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="이벤트"
->abstract="XX"
+>abstract="이벤트 위젯은 성공적으로 실행된 이벤트에 대한 포괄적인 보기를 제공하며 지난 24시간 동안의 세부 인사이트를 위한 요약 번호, 그래프 및 표를 제공합니다."
 
 ![](assets/journey_live_events.png)
 
@@ -162,7 +162,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
 >title="원본을 통한 이벤트"
->abstract="XX"
+>abstract="원점별 이벤트 테이블 및 그래프는 지난 24시간 동안 이벤트를 성공적으로 수신했는지 보여 줍니다. 이러한 시각적 표현을 사용하면 효과적으로 받은 이벤트를 정확하게 식별할 수 있으므로, 여정 내에서 각 이벤트의 성능과 영향에 대한 중요한 통찰력을 제공합니다."
 
 ![](assets/journey_events_origin.png)
 
@@ -177,7 +177,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance_live"
 >title="이메일 - 전송 성능"
->abstract="XX"
+>abstract="이메일 - 전송 통계 그래프에는 지난 24시간 동안의 대상 지정 또는 게재됨 등과 같은 이메일에 대한 필수 데이터가 요약되어 있습니다."
 
 ![](assets/journey_live_email_performance.png)
 
@@ -200,7 +200,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_statistics_live"
 >title="이메일 - 통계"
->abstract="XX"
+>abstract="이메일 - 통계 테이블은 지난 24시간 동안 이메일의 프로필 활동에 대한 데이터를 제공합니다."
 
 ![](assets/journey_live_email_statistics.png)
 
@@ -237,7 +237,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_performance_bydate_live"
 >title="이메일 - 날짜별 성능"
->abstract="XX"
+>abstract="이메일 - 일자별 성능 그래프는 전송된 이메일과 관련하여 지난 24시간 동안의 포괄적인 데이터를 제시하며 게재 및 바운스와 같은 주요 지표에 대한 통찰력을 제공하여 이메일 전송 프로세스를 자세히 분석할 수 있도록 합니다."
 
 ![](assets/journey_live_email_performance_date.png)
 
@@ -291,7 +291,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_errors_live"
 >title="이메일 - 오류 이유"
->abstract="XX"
+>abstract="이메일 - 오류 이유 그래프와 테이블을 통해 지난 24시간 동안 전송 프로세스 중에 발생한 특정 오류를 확인할 수 있습니다."
 
 ![](assets/journey_live_email_error_reasons.png)
 
@@ -302,7 +302,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_live"
 >title="이메일 - 제외된 이유"
->abstract="XX"
+>abstract="제외된 이유 그래프와 테이블에서는 타겟팅된 대상자에서 제외된 사용자 프로필이 지난 24시간 동안 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 ![](assets/journey_live_email_excluded.png)
 
@@ -315,7 +315,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_best_recipient_live"
 >title="이메일 - 최고 수신자 도메인"
->abstract="XX"
+>abstract="이메일 - 최고 수신자 도메인 그래프 및 테이블에서는 수신자가 이메일을 열 때 가장 자주 사용하는 도메인에 대한 자세한 분석을 통해 지난 24시간의 수신자 동작에 대한 귀중한 통찰력을 제공합니다."
 
 ![](assets/journey_live_email_best_recipient.png)
 
@@ -326,7 +326,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
 >title="이메일 - 오퍼"
->abstract="XX"
+>abstract="오퍼 통계 및 오퍼 세부 통계 위젯은 지난 24시간 동안의 오퍼의 성능에 대한 포괄적인 통찰력을 제공하여 시간 경과에 따른 영향을 자세히 분석하고 자세한 통계를 제시하여 보다 심층적으로 이해할 수 있도록 합니다."
 
 >[!NOTE]
 >
@@ -349,7 +349,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
 >title="이메일 - 최적화"
->abstract="XX"
+>abstract="전송 시간 최적화 및 최적화된 위젯과 최적화되지 않은 위젯은 최적화된 상태인지 여부를 강조 표시하여 메시지에 대한 지난 24시간의 자세한 정보를 제공합니다."
 
 ![](assets/journey_email_sto.png)
 
@@ -402,7 +402,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_statistics_live"
 >title="푸시 알림 - 통계"
->abstract="XX"
+>abstract="푸시 통계 테이블은 지난 24시간 동안의 푸시 알림 수신자 활동에 대한 데이터를 제공합니다."
 
 ![](assets/journey_live_push_statistics.png)
 
@@ -430,7 +430,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_live"
 >title="푸시 알림 - 플랫폼별 분류"
->abstract="XX"
+>abstract="플랫폼별 분류 그래프 및 테이블은 수신자의 운영 체제를 기준으로 지난 24시간 동안의 푸시 알림 성공 분류를 제공합니다."
 
 ![](assets/journey_push_breakdown.png)
 
@@ -441,7 +441,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_summary_live"
 >title="푸시 알림 - 전송 요약"
->abstract="XX"
+>abstract="푸시 알림 전송 요약 그래프에는 지난 24시간 동안 전송된 푸시 알림에 사용 가능한 데이터가 표시됩니다."
 
 ![](assets/journey_live_push_sending.png)
 
@@ -468,7 +468,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons_live"
 >title="푸시 알림 - 오류 이유"
->abstract="XX"
+>abstract="오류 이유 그래프와 테이블을 통해 전송 프로세스 중에 지난 24시간 동안 발생한 특정 오류를 확인할 수 있습니다."
 
 ![](assets/journey_live_push_error.png)
 
@@ -479,7 +479,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons_live"
 >title="푸시 알림 - 제외된 이유"
->abstract="XX"
+>abstract="제외된 이유 그래프와 테이블에서는 타겟팅된 대상자에서 제외된 사용자 프로필이 지난 24시간 동안 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 ![](assets/journey_live_push_excluded.png)
 
@@ -494,7 +494,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_statistics_live"
 >title="SMS - 통계"
->abstract="XX"
+>abstract="SMS 전송 통계 테이블에는 지난 24시간 동안의 대상 지정 메시지 또는 게재된 메시지 등과 같은 SMS 메시지에 대한 필수 데이터가 요약되어 있습니다."
 
 ![](assets/journey_live_sms_statistics.png)
 
@@ -523,7 +523,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_performance_live"
 >title="SMS - 날짜별 성능"
->abstract="XX"
+>abstract="SMS 날짜별 성능 위젯은 그래픽 표시를 통해 지난 24시간 동안의 메시지에 대한 주요 정보를 제공합니다."
 
 ![](assets/journey_live_sms_performance.png)
 
@@ -544,7 +544,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_bounces_live"
 >title="SMS - 바운스 이유"
->abstract="XX"
+>abstract="바운스 이유 그래프와 테이블에는 지난 24시간 동안 바운스된 메시지와 관련하여 사용 가능한 데이터가 있습니다."
 
 ![](assets/journey_sms_bounce_reasons.png)
 
@@ -555,7 +555,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_error_live"
 >title="SMS - 오류 원인"
->abstract="XX"
+>abstract="SMS - 오류 이유 그래프와 테이블을 통해 전송 프로세스 중에 지난 24시간 동안 발생한 특정 오류를 확인할 수 있습니다."
 
 ![](assets/journey_sms_error.png)
 
@@ -566,7 +566,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_live"
 >title="SMS - 제외된 이유"
->abstract="XX"
+>abstract="제외된 이유 그래프와 테이블에서는 타겟팅된 대상자에서 제외된 사용자 프로필이 지난 24시간 동안 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 ![](assets/journey_live_sms_excluded.png)
 
@@ -589,7 +589,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
 >title="인앱 성능"
->abstract="XX"
+>abstract="인앱 성과 KPI는 지난 24시간 동안의 방문자의 인앱 메시지 참여에 대한 중요한 통찰력을 제공합니다.&quot;"
 
 ![](assets/journey_live_inapp_performance.png)
 
@@ -616,7 +616,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_summary_live"
 >title="인앱 요약"
->abstract="XX"
+>abstract="인앱 요약 그래프에서는 지난 24시간 동안의 인앱 노출 횟수 및 상호 작용 진행 상황을 보여 줍니다."
 
 ![](assets/journey_live_inapp_summary.png)
 
@@ -643,7 +643,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_interactions_live"
 >title="유형별 상호 작용"
->abstract="XX"
+>abstract="유형별 상호 작용 그래프와 테이블에서는 지난 24시간 동안의 클릭, 해제 또는 상호 작용을 추적하여 사용자가 인앱 메시지와 상호 작용하는 방식을 자세히 설명합니다."
 
 ![](assets/journey_live_inapp_interactions.png)
 
