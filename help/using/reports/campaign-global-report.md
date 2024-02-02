@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
-source-wordcount: '4648'
-ht-degree: 19%
+source-wordcount: '4806'
+ht-degree: 17%
 
 ---
 
@@ -270,9 +270,14 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 도메인별로 전송 및 게재 {#sent-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sent_domains"
+>title="도메인별로 전송 및 게재"
+>abstract="도메인별로 전송 및 배달됨 테이블 및 그래프는 도메인별로 분류된 이메일 분류를 전달하여 이메일 커뮤니케이션의 전체 성능에 대한 심층적인 통찰력을 제공합니다."
+
 ![](assets/campaign_email_sent_domains.png)
 
-다음  **[!UICONTROL 도메인에서 전송 및 전달]** 테이블 및 그래프는 도메인 수준에서 이메일에 대한 자세한 분류를 제공하며, 이메일 성능에 대한 포괄적인 통찰력을 제공합니다.
+다음 **[!UICONTROL 도메인에서 전송 및 전달]** 테이블 및 그래프는 도메인 수준에서 이메일에 대한 자세한 분류를 제공하며, 이메일 성능에 대한 포괄적인 통찰력을 제공합니다.
 
 +++ 도메인에서 보낸 사람 및 배달한 사람 지표에 대해 자세히 알아보기
 
@@ -284,9 +289,14 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 도메인별 바운스 및 오류 {#bounces-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_domains"
+>title="도메인별 바운스 및 오류"
+>abstract="도메인별 바운스 및 오류 그래프 및 표는 도메인 수준에서 세분화된 분석을 제공하여 이메일 전송 프로세스 중에 발생한 특정 오류에 대한 통찰력을 제공합니다."
+
 ![](assets/campaign_email_bounce_domains.png)
 
-다음  **[!UICONTROL 도메인별 바운스 및 오류]** 그래프 및 표는 전송 프로세스 중에 발생한 특정 오류에 대한 도메인 수준 분석을 제공하여 발생한 문제에 대한 자세한 분석을 제공합니다.
+다음 **[!UICONTROL 도메인별 바운스 및 오류]** 그래프 및 표는 전송 프로세스 중에 발생한 특정 오류에 대한 도메인 수준 분석을 제공하여 발생한 문제에 대한 자세한 분석을 제공합니다.
 
 +++ 도메인별 바운스 및 오류에 대한 자세한 내용 지표
 
@@ -298,9 +308,14 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 도메인별 열기 및 클릭 {#opens-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_open_domains"
+>title="도메인별 열기 및 클릭"
+>abstract="도메인별 열기 및 클릭 수 그래프 및 표는 도메인 수준에서 세부 분류를 제공하며 대상자가 이메일을 작성하는 방식에 대한 포괄적인 보기를 제공합니다."
+
 ![](assets/campaign_email_open_domains.png)
 
-다음  **[!UICONTROL 도메인별 열기 및 클릭]** 그래프와 표에는 프로필과 이메일의 참여도에 대한 도메인 수준의 분류가 표시되어 다양한 도메인이 콘텐츠와 상호 작용하는 방법에 대한 중요한 통찰력을 제공합니다.
+다음 **[!UICONTROL 도메인별 열기 및 클릭]** 그래프와 표에는 프로필과 이메일의 참여도에 대한 도메인 수준의 분류가 표시되어 다양한 도메인이 콘텐츠와 상호 작용하는 방법에 대한 중요한 통찰력을 제공합니다.
 
 +++ 도메인별 열기 및 클릭 지표에 대해 자세히 알아보기
 
@@ -312,9 +327,14 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 도메인별 바운스 이유 {#bounce-reasons-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_reasons_domains"
+>title="도메인별 바운스 이유"
+>abstract="도메인별 바운스 원인 그래프 및 표는 도메인 수준 분류를 제공하여 임시 및 영구 오류 모두에 대한 포괄적인 통찰력을 제공합니다. 이 자세한 분석은 반송 메시지의 구체적인 이유에 대한 중요한 정보를 제공합니다."
+
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
-다음  **[!UICONTROL 도메인별 바운스 원인]** 그래프 및 표는 일시적인 오류와 영구적인 오류에 관련된 데이터의 도메인 수준 분류를 제공하여, 반송된 메시지 이면의 이유에 대한 자세한 통찰력을 제공합니다.
+다음 **[!UICONTROL 도메인별 바운스 원인]** 그래프 및 표는 일시적인 오류와 영구적인 오류에 관련된 데이터의 도메인 수준 분류를 제공하여, 반송된 메시지 이면의 이유에 대한 자세한 통찰력을 제공합니다.
 
 +++ 도메인 메트릭별 바운스 이유에 대해 자세히 알아보기
 
@@ -366,7 +386,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 >[!NOTE]
 >
->다음 **[!UICONTROL 최적화 및 비최적화]** 및 **[!UICONTROL 전송 시간 최적화]**  위젯은 이메일에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 을 참조하십시오. [이 페이지](../building-journeys/journeys-message.md#send-time-optimization).
+>다음 **[!UICONTROL 최적화 및 비최적화]** 및 **[!UICONTROL 전송 시간 최적화]** 위젯은 이메일에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 을 참조하십시오. [이 페이지](../building-journeys/journeys-message.md#send-time-optimization).
 
 다음 **[!UICONTROL 최적화 및 비최적화]** 및 **[!UICONTROL 전송 시간 최적화]** 위젯은 최적화 여부에 관계없이 메시지와 관련된 기본 정보를 자세히 설명합니다.
 
@@ -554,7 +574,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 >[!NOTE]
 >
->다음 **[!UICONTROL 최적화 및 비최적화]** 및 **[!UICONTROL 전송 시간 최적화]**  위젯은 푸시 알림에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 을 참조하십시오. [이 페이지](../building-journeys/journeys-message.md#send-time-optimization).
+>다음 **[!UICONTROL 최적화 및 비최적화]** 및 **[!UICONTROL 전송 시간 최적화]** 위젯은 푸시 알림에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 을 참조하십시오. [이 페이지](../building-journeys/journeys-message.md#send-time-optimization).
 
 다음 **[!UICONTROL 최적화 및 비최적화]** 및 **[!UICONTROL 전송 시간 최적화]** 위젯은 최적화 여부에 관계없이 메시지와 관련된 기본 정보를 자세히 설명합니다.
 
@@ -599,7 +619,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="푸시 알림 - 플랫폼별 분류"
->abstract="플랫폼별 분류 그래프 및 테이블에서는 프로필의 운영 체제를 기반으로 푸시 알림의 성공에 대한 분류를 제공합니다."
+>abstract="푸시 알림 - 플랫폼별 분류 그래프 및 표는 프로필의 운영 체제를 기반으로 푸시 알림의 성공 여부를 분류할 수 있습니다."
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -632,7 +652,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS - 전송 통계"
->abstract="SMS 전송 통계 테이블에는 대상 지정 메시지 또는 게재된 메시지 등과 같은 SMS 메시지에 대한 필수 데이터가 요약되어 있습니다."
+>abstract="SMS - 전송 통계 표에는 타겟팅 또는 게재된 메시지와 같은 SMS 메시지에 대한 필수 데이터가 요약되어 있습니다."
 
 ![](assets/campaign_sms_sending.png)
 
@@ -656,6 +676,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### SMS - 추적 통계 {#sms-tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_sms_tracking_statistics"
+>title="SMS - 추적 통계"
+>abstract="SMS - 추적 통계 위젯은 방문자와 URL의 상호 작용과 관련된 필수 정보에 대한 포괄적인 개요를 제공합니다."
+
 ![](assets/campaign_sms_tracking.png)
 
 다음 **[!UICONTROL SMS - 추적 통계]** 위젯은 방문자의 URL 참여와 관련된 주요 정보에 대한 자세한 개요를 제공하여 SMS 메시지의 효과에 대한 통찰력을 제공합니다.
@@ -673,7 +698,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="SMS - 날짜별 성능"
->abstract="SMS 날짜별 성능 위젯은 그래픽 표시를 통해 메시지에 대한 주요 정보를 제공합니다."
+>abstract="- 날짜별 SMS 성능 위젯은 그래픽 표시를 통해 메시지에 대한 주요 정보를 제공합니다."
 
 ![](assets/campaign_sms_performance.png)
 
@@ -727,7 +752,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="SMS - 링크를 통한 클릭"
->abstract="SMS - 링크를 통한 클릭 위젯은 메시지의 URL을 사용한 방문자 참여에 대한 필수 통찰력을 제공합니다."
+>abstract="SMS - 링크를 통한 클릭 수 위젯은 메시지의 URL에 대한 방문자의 참여에 대한 중요한 인사이트를 제공합니다."
 
 ![](assets/campaign_sms_clicks.png)
 
