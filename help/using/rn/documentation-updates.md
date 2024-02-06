@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 50ca60555c66a0a3f87c46301bb76545427c2780
+source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
 workflow-type: tm+mt
-source-wordcount: '4586'
-ht-degree: 93%
+source-wordcount: '4606'
+ht-degree: 92%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 의 모든 최신 업데이트가 나열됩니다. [!DNL Journey Optimizer] 설명서를 참조하십시오.
+
+## 2024년 2월(#feb-2024)
+
+* 컨텍스트 데이터를 기반으로 오퍼의 표시를 개인화하는 방법에 대한 정보가 추가되었습니다 [자세히 보기](../offers/offer-library/add-representations.md#context-data)
 
 ## 2024년 1월 {#jan-2024}
 

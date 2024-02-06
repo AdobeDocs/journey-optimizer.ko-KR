@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 10%
+source-wordcount: '730'
+ht-degree: 8%
 
 ---
 
@@ -136,3 +136,42 @@ ht-degree: 10%
    >
    >만 **[!UICONTROL 프로필 속성]**, **[!UICONTROL 대상]** 및 **[!UICONTROL 도우미 함수]** 소스는 의사 결정 관리에 사용할 수 있습니다.
 
+## 컨텍스트 데이터를 기반으로 표현 개인화{#context-data}
+
+컨텍스트 데이터가 [Edge 의사 결정](../api-reference/offer-delivery-api/edge-decisioning-api.md) 를 호출하면 이러한 데이터를 활용하여 표현을 동적으로 개인화할 수 있습니다. 예를 들어 결정이 내려지는 시점의 현재 날씨 상태와 같은 실시간 요인을 기반으로 오퍼 표시를 조정할 수 있습니다.
+
+이렇게 하려면 를 사용하여 컨텍스트 데이터 변수를 표시 컨텐츠 내에 직접 통합합니다 `profile.timeSeriesEvents.` 네임스페이스입니다.
+
+다음은 사용자의 운영 체제를 기반으로 오퍼의 표시를 개인화하는 데 사용되는 구문 예입니다.
+
+```
+ {%#if profile.timeSeriesEvents.device.model = "Apple"%}ios{%else%}android{%/if%} 
+```
+
+컨텍스트 데이터를 포함하는 해당 Edge Decisioning 요청은 다음과 같습니다.
+
+```
+{
+    "body": {
+        "xdm": {
+            "identityMap": {
+                "Email": [
+                    {
+                        "id": "xyz@abc.com"
+                    }
+                ]
+            },
+            "device": {
+                "model": "Apple"
+            }
+        },
+        "extra": {
+            "query": {
+                "decisionScopes": [
+                    "eyJ4ZG06..."
+                ]
+            }
+        }
+    }
+}
+```
