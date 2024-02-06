@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3484'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -128,7 +128,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL 다시 시도]**: 다시 시도 큐에 있는 이메일 수입니다.
 +++
 
-### 이메일 - 반송 범주 및 이유 {#bounce-categories}
+### 이메일 - 바운스 범주 및 이유 {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_categories"
@@ -161,7 +161,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
 >title="이메일 - 날짜별 성능"
->abstract="이메일 - 일자별 성능 그래프는 전송된 이메일과 관련하여 지난 24시간 동안의 포괄적인 데이터를 제시하며 게재 및 바운스와 같은 주요 지표에 대한 통찰력을 제공하여 이메일 전송 프로세스를 자세히 분석할 수 있도록 합니다."
+>abstract="이메일 - 날짜별 성능 그래프는 전송된 이메일에 관한 지난 24시간의 포괄적인 데이터를 제공하여 게재 및 바운스와 같은 주요 지표에 대한 통찰력을 제공하고 이메일 전송 프로세스를 자세하게 분석할 수 있습니다."
 
 ![](assets/campaign_email_live_performance.png)
 
@@ -187,7 +187,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 오류 원인 {#email-error-reasons}
+### 오류 이유 {#email-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_error_reasons"
@@ -467,11 +467,11 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### SMS - 오류 원인 {#sms-error-reasons}
+### SMS - 오류 이유 {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
->title="SMS - 오류 원인"
+>title="SMS - 오류 이유"
 >abstract="SMS - 오류 이유 그래프와 테이블을 통해 전송 프로세스 중에 지난 24시간 동안 발생한 특정 오류를 확인할 수 있습니다."
 
 다음 **[!UICONTROL 제외된 이유]** 그래프 및 표를 사용하면 지난 24시간 내에 SMS 메시지를 전송하는 동안 발생한 특정 오류를 식별할 수 있으므로 발생한 문제를 철저히 분석할 수 있습니다.
@@ -581,7 +581,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
 >title="다이렉트 메일 - 오류 이유"
->abstract="다이렉트 메일 - 오류 원인 그래프 및 테이블을 통해 지난 24시간 동안 발생한 특정 오류를 확인할 수 있습니다."
+>abstract="다이렉트 메일 - 오류 이유 그래프 및 테이블을 통해 지난 24시간 동안 발생한 특정 오류를 확인할 수 있습니다."
 
 ![](assets/campaign_live_error_reasons.png)
 

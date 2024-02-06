@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '4806'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -195,7 +195,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
 >title="이메일 - 전송 성능"
->abstract="이메일 - 전송 성능 그래프는 전송된 이메일에 대한 포괄적인 데이터를 제시하며 게재 및 바운스와 같은 주요 지표에 대한 통찰력을 제공하여 이메일 게재 프로세스를 자세히 분석할 수 있도록 합니다."
+>abstract="이메일 - 전송 성능 그래프는 전송된 이메일에 관한 포괄적인 데이터를 제공하여 게재 및 바운스와 같은 주요 지표에 대한 통찰력을 제공하고 이메일 게재 프로세스를 자세하게 분석할 수 있습니다."
 
 ![](assets/campaign_email_sending_performance.png)
 
@@ -213,7 +213,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-### 이메일 - 반송 이유 및 범주 {#bounces-email}
+### 이메일 - 바운스 이유 및 범주 {#bounces-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_categories"
@@ -714,11 +714,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-### SMS - 오류 원인 {#sms-error}
+### SMS - 오류 이유 {#sms-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
->title="SMS - 오류 원인"
+>title="SMS - 오류 이유"
 >abstract="SMS - 오류 이유 그래프와 테이블을 통해 전송 프로세스 중에 발생한 특정 오류를 확인할 수 있습니다."
 
 ![](assets/campaign_sms_error_reasons.png)

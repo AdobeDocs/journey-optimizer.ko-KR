@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3683'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
 >title="이메일 - 총 전송 통계"
->abstract="이메일 - 총 전송 통계 KPI는 타겟팅되거나 전달된 메시지와 같은 이메일에 대한 필수 데이터를 요약합니다."
+>abstract="이메일 - 총 전송 통계 KPI는 대상 지정 메시지 또는 게재된 메시지 등과 같은 이메일에 대한 필수 데이터를 요약합니다."
 
 ![](assets/channel_email_total_sending.png)
 
@@ -153,7 +153,7 @@ ht-degree: 25%
 
 +++
 
-### 이메일 - 반송 범주 및 이유 {#bounce-categories}
+### 이메일 - 바운스 범주 및 이유 {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
@@ -388,7 +388,7 @@ ht-degree: 25%
 
 을(를) 참조하십시오 [이 페이지](exclusion-list.md) 포괄적인 제외 이유 목록.
 
-### 푸시 알림 - 오류 원인 {#push-error-reasons}
+### 푸시 알림 - 오류 이유 {#push-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
@@ -597,7 +597,7 @@ ht-degree: 25%
 
 채널 보고서에서 인앱 메뉴는 캠페인 및 여정에서 보낸 인앱 메시지와 관련된 기본 정보를 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-### 인앱 총 참여 {#inapp-total-engagement}
+### 인앱 총 참여 수 {#inapp-total-engagement}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
@@ -616,7 +616,7 @@ ht-degree: 25%
 
 +++
 
-### 인앱 참여 초과 작업 {#inapp-engagement-overtime}
+### 인앱 참여 시간 초과 {#inapp-engagement-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"

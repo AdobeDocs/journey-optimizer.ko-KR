@@ -11,7 +11,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
 workflow-type: tm+mt
 source-wordcount: '3668'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -237,7 +237,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_performance_bydate_live"
 >title="이메일 - 날짜별 성능"
->abstract="이메일 - 일자별 성능 그래프는 전송된 이메일과 관련하여 지난 24시간 동안의 포괄적인 데이터를 제시하며 게재 및 바운스와 같은 주요 지표에 대한 통찰력을 제공하여 이메일 전송 프로세스를 자세히 분석할 수 있도록 합니다."
+>abstract="이메일 - 날짜별 성능 그래프는 전송된 이메일에 관한 지난 24시간의 포괄적인 데이터를 제공하여 게재 및 바운스와 같은 주요 지표에 대한 통찰력을 제공하고 이메일 전송 프로세스를 자세하게 분석할 수 있습니다."
 
 ![](assets/journey_live_email_performance_date.png)
 
@@ -263,11 +263,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 +++
 
-### 이메일 - 반송 범주 및 이유 {#email-bounce-categories}
+### 이메일 - 바운스 범주 및 이유 {#email-bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_live"
->title="이메일 - 반송 범주 및 이유"
+>title="이메일 - 바운스 범주 및 이유"
 >abstract="XX"
 
 ![](assets/journey_live_email_bounce.png)
@@ -550,11 +550,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 다음 **[!UICONTROL SMS - 반송 원인]** 그래프 및 표는 반송된 SMS 메시지와 관련된 데이터에 대한 포괄적인 개요를 제공하여 지난 24시간 동안 SMS 메시지 반송 인스턴스가 발생한 구체적 이유에 대한 중요한 통찰력을 제공합니다.
 
-### SMS - 오류 원인 {#sms-error}
+### SMS - 오류 이유 {#sms-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_error_live"
->title="SMS - 오류 원인"
+>title="SMS - 오류 이유"
 >abstract="SMS - 오류 이유 그래프와 테이블을 통해 전송 프로세스 중에 지난 24시간 동안 발생한 특정 오류를 확인할 수 있습니다."
 
 ![](assets/journey_sms_error.png)
