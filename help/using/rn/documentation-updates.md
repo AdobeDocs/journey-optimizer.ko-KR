@@ -11,13 +11,13 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
 workflow-type: tm+mt
 source-wordcount: '4604'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
-이 페이지에는 의 모든 최신 업데이트가 나열됩니다. [!DNL Journey Optimizer] 설명서를 참조하십시오.
+이 페이지에는 [!DNL Journey Optimizer] 설명서 최신 업데이트 내용이 모두 포함되어 있습니다.
 
 ## 2024년 2월 {#feb-2024}
 
@@ -25,27 +25,27 @@ ht-degree: 92%
 
 ## 2024년 1월 {#jan-2024}
 
-* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2024년 1월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer] 2024년 1월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 여정 크기에 대한 가드레일을 추가했습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 * 여정 시간 초과 관리에 대한 자세한 설명을 [다음 섹션에](../building-journeys/journey-gs.md#global_timeout) 추가했습니다.
 * Journey Optimizer [설명서 홈](../../ajo-home.md)페이지를 다시 디자인했습니다.
 * 프로필 업데이트 활동에 대한 권장 사항을 추가했습니다. [자세히 보기](../building-journeys/update-profiles.md)
-* 여정의 이벤트 활동에 대한 시간 초과 동작에 대한 정보가 추가되었습니다. 지정된 시간 제한 기간 동안 이벤트가 수신되지 않으면 시간 제한 경로가 정의되지 않은 경우 개인이 여정을 계속합니다. [자세히 보기](../building-journeys/general-events.md#events-specific-time)
-* 사용자 지정 데이터 세트 환경 설정 병합 정책 사용에 대한 메모로 인앱 채널 구성 사전 요구 사항이 업데이트되었습니다. [자세히 보기](../in-app/inapp-configuration.md)
-* 사용자 지정 작업 응답에서 컬렉션을 조작하는 방법에 대한 자세한 내용을 추가했습니다. [자세히 보기](../action/action-response.md#exp-syntax).
-* 링크: [Adobe Journey Optimizer용 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko) 이(가) 홈 페이지에 추가되었습니다.
-* AJO 메시지 리소스에 대한 오래된 참조가 감사 로그에서 사용 가능한 리소스 목록에서 제거되었습니다. 여정에서 메시지에 대한 업데이트가 완료되면 **여정** 로그가 만들어집니다. [자세히 보기](../privacy/audit-logs.md)
-* 의 사용에 대한 추가 권장 사항이 추가되었습니다. **대상자 읽기** 활동. [자세히 보기](../building-journeys/read-audience.md#must-read)
+* 여정의 이벤트 활동 관련 시간 초과 동작에 대한 정보가 추가되었습니다. 지정된 시간 제한 기간 동안 이벤트가 수신되지 않으면 시간 제한 경로가 정의되지 않은 경우 개인 사용자는 여정을 계속합니다. [자세히 보기](../building-journeys/general-events.md#events-specific-time)
+* 사용자 정의 데이터 세트 환경 설정 병합 정책 사용에 대한 메모에 기반하여 인앱 채널 구성 사전 요구 사항이 업데이트되었습니다. [자세히 보기](../in-app/inapp-configuration.md)
+* 사용자 정의 작업 응답에서 컬렉션을 조작하는 방법에 대한 자세한 내용이 추가되었습니다. [자세히 보기](../action/action-response.md#exp-syntax).
+* [Adobe Journey Optimizer용 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko) 링크가 홈페이지에 추가되었습니다.
+* AJO 메시지 리소스에 대한 오래된 참조가 감사 로그 중 사용 가능한 리소스 목록에서 제거되었습니다. 여정에서 메시지에 대한 업데이트가 완료되면 **여정** 로그가 만들어집니다. [자세히 보기](../privacy/audit-logs.md)
+* **대상자 읽기** 활동의 사용에 대한 추가 권장 사항이 추가되었습니다. [자세히 보기](../building-journeys/read-audience.md#must-read)
 * Adobe Experience Platform 대상자 시작 페이지가 대상자 생성 방법 목록으로 개선되었습니다. [자세히 보기](../audience/about-audiences.md)
-* 사용자 지정 작업을 사용하여 타깃팅할 끝점을 선택할 때 모범 사례가 추가되었습니다. [자세히 보기](../action/about-custom-action-configuration.md)
+* 사용자 정의 작업을 사용하여 타깃팅할 엔드포인트를 선택할 때 모범 사례가 추가되었습니다. [자세히 보기](../action/about-custom-action-configuration.md)
 * API를 사용하여 외부 시스템에서 이벤트를 실행할 수 없음을 사용자에게 알리는 메모가 추가되었습니다. [자세히 보기](../building-journeys/testing-the-journey.md#important-notes)
-* 다음에 대한 정보 **currentActionField** 함수가 다음 목록에 추가되었습니다. [컬렉션 관리 기능](../building-journeys/expression/collection-management-functions.md). 함수를 활용하는 표현식 샘플이 [사용자 지정 작업에서 API 호출 응답 사용](../action/action-response.md) 페이지를 가리키도록 업데이트하는 중입니다.
-* 캐시 기간과 관련하여 사용자 지정 인증 문서를 업데이트합니다. [자세히 보기] (../datasource/external-data-sources.md)
-* 지원 `<listObject>` 여러 함수에서 가 수정되었습니다.
-* 업데이트 **지속 시간** 의 매개 변수 `toString` 함수. [자세히 보기](../building-journeys/functions/functiontostring.md)
-* 일부 외부 데이터 소스 사용 사례의 경우 사용자 지정 작업 사용이 권장됩니다.
-* 이벤트 필드 구문이 업데이트되었습니다. 다음 구문은 사용되지 않습니다 `@(my_event.myfield}` 및 (으)로 대체됨 `@event{my_event.myfield}`. [자세히 보기](../building-journeys/expression/field-references.md)
-* 글로벌 보고서 및 라이브 보고서 가이드가 재구성되었습니다. [자세히 보기](../reports/campaign-global-report.md)
+* **currentActionField** 함수에 대한 정보가 [컬렉션 관리 기능](../building-journeys/expression/collection-management-functions.md) 목록에 추가되었습니다. 함수를 활용하는 표현식 샘플이 [사용자 정의 작업에서 API 호출 응답 사용](../action/action-response.md) 페이지에 업데이트되었습니다.
+* 캐시 기간과 관련한 사용자 정의 인증 문서를 업데이트합니다. [자세히 보기](../datasource/external-data-sources.md)
+* 여러 함수에서 `<listObject>` 지원이 수정되었습니다.
+* `toString` 함수에서 **기간** 매개 변수를 업데이트합니다. [자세히 보기](../building-journeys/functions/functiontostring.md)
+* 일부 외부 데이터 소스 사용 사례의 경우 사용자 정의 작업 사용이 권장됩니다.
+* 이벤트 필드 구문이 업데이트되었습니다. 다음 구문은 사용되지 않고 `@(my_event.myfield}` `@event{my_event.myfield}`(으)로 대체되었습니다. [자세히 보기](../building-journeys/expression/field-references.md)
+* 글로벌 보고서 및 실시간 보고서 안내서가 재구성되었습니다. [자세히 보기](../reports/campaign-global-report.md)
 
 
 ## 2023년 11월 {#nov-2023}
