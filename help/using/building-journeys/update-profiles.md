@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 프로필, 업데이트, 여정, 활동
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 7%
+source-wordcount: '614'
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,11 @@ ht-degree: 7%
 * Adobe Experience Platform에 전송된 업데이트 요청은 즉시/1초 이내에 수행됩니다. 보통 몇 초는 걸리지만, 어떤 때는 보장이 없이 더 걸릴 수도 있습니다. 그 결과, 예를 들어 작업에서 로 업데이트된 &quot;필드 1&quot;을 사용하는 경우 **프로필 업데이트** 바로 앞에 배치된 작업입니다. 작업에서 &quot;필드 1&quot;이 업데이트될 것으로 예상해서는 안 됩니다.
 * 다음 **프로필 업데이트** 활동이 열거형으로 정의된 XDM 필드를 지원하지 않습니다.
 * 다음 **[!UICONTROL 프로필 업데이트]** 활동은 다음만 업데이트합니다. [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, 데이터 레이크가 아님.
-* 에서 데이터 세트를 선택할 때 **[!UICONTROL 프로필 업데이트]** 활동으로, 데이터 수집 흐름에서 타깃팅되지 않은 것을 사용하는 것이 좋습니다. **[!UICONTROL 프로필 업데이트]** 업데이트는에만 저장됩니다. [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, 이러한 변경 사항을 데이터 수집 플로우로 덮어쓸 위험이 있습니다.
+* 에서 데이터 세트를 선택할 때 **[!UICONTROL 프로필 업데이트]** 활동으로, 데이터 수집 흐름에서 타깃팅되지 않은 것을 사용하는 것이 좋습니다. 이유 **프로필 업데이트** 업데이트는 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, 이러한 변경 사항을 데이터 수집 플로우로 덮어쓸 위험이 있습니다.
+
+  또한 **프로필 업데이트** 활동 구성에는 id 네임스페이스가 필요하지 않습니다. 따라서 선택한 데이터 세트가 이 업데이트에서 사용할 ID 네임스페이스와 동일한 ID 네임스페이스를 여정을 시작한 작업에서 사용하도록 합니다. 선택한 데이터 세트에서 ID 맵을 사용할 수도 있습니다. 올바른 네임스페이스가 있는 데이터 집합 또는 ID 맵을 사용하는 데이터 집합을 선택하지 않으면 **프로필 업데이트** 활동이 실패합니다.
+
+
 
 ## 프로필 업데이트 사용
 
