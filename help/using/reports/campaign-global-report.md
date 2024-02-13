@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '4806'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
 
@@ -195,7 +195,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
 >title="이메일 - 전송 성능"
->abstract="이메일 - 전송 성능 그래프는 전송된 이메일에 관한 포괄적인 데이터를 제공하여 게재 및 바운스와 같은 주요 지표에 대한 통찰력을 제공하고 이메일 게재 프로세스를 자세하게 분석할 수 있습니다."
+>abstract="이메일 - 전송 성능 그래프는 전송된 이메일에 관한 포괄적인 데이터를 제공하여 게재 및 바운스와 같은 주요 지표에 대한 인사이트를 제공하고 이메일 게재 프로세스를 자세하게 분석할 수 있습니다."
 
 ![](assets/campaign_email_sending_performance.png)
 
@@ -273,7 +273,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sent_domains"
 >title="도메인별로 전송 및 게재"
->abstract="도메인별로 전송 및 배달됨 테이블 및 그래프는 도메인별로 분류된 이메일 분류를 전달하여 이메일 커뮤니케이션의 전체 성능에 대한 심층적인 통찰력을 제공합니다."
+>abstract="도메인별로 전송 및 게재 테이블 및 그래프는 도메인별로 분류된 이메일 분석을 통해 이메일 커뮤니케이션의 전반적인 성능에 대한 심층적인 인사이트를 제공합니다."
 
 ![](assets/campaign_email_sent_domains.png)
 
@@ -292,7 +292,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_domains"
 >title="도메인별 바운스 및 오류"
->abstract="도메인별 바운스 및 오류 그래프 및 표는 도메인 수준에서 세분화된 분석을 제공하여 이메일 전송 프로세스 중에 발생한 특정 오류에 대한 통찰력을 제공합니다."
+>abstract="도메인별 바운스 및 오류 그래프와 테이블은 도메인 수준의 세분화된 분석을 통해 이메일 전송 프로세스 중에 발생한 특정 오류에 대한 인사이트를 제공합니다."
 
 ![](assets/campaign_email_bounce_domains.png)
 
@@ -311,7 +311,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_open_domains"
 >title="도메인별 열기 및 클릭"
->abstract="도메인별 열기 및 클릭 수 그래프 및 표는 도메인 수준에서 세부 분류를 제공하며 대상자가 이메일을 작성하는 방식에 대한 포괄적인 보기를 제공합니다."
+>abstract="도메인별 열기 및 클릭 그래프와 테이블은 도메인 수준의 자세한 분석을 통해 대상자가 이메일에 참여하는 방식을 포괄적으로 확인할 수 있습니다."
 
 ![](assets/campaign_email_open_domains.png)
 
@@ -330,7 +330,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_reasons_domains"
 >title="도메인별 바운스 이유"
->abstract="도메인별 바운스 원인 그래프 및 표는 도메인 수준 분류를 제공하여 임시 및 영구 오류 모두에 대한 포괄적인 통찰력을 제공합니다. 이 자세한 분석은 반송 메시지의 구체적인 이유에 대한 중요한 정보를 제공합니다."
+>abstract="도메인별 바운스 이유 그래프와 테이블은 도메인 수준의 분석을 통해 일시적 오류와 영구적 오류 모두에 대한 포괄적인 인사이트를 제공합니다. 자세한 분석은 바운스된 메시지의 구체적인 이유에 대한 유용한 정보를 제공합니다."
 
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
@@ -360,7 +360,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_best_recipient"
 >title="이메일 - 최고 수신자 도메인"
->abstract="이메일 - 최고 수신자 도메인 그래프 및 테이블에서는 수신자가 이메일을 열 때 가장 자주 사용하는 도메인에 대한 자세한 분석을 통해 수신자 동작에 대한 귀중한 통찰력을 제공합니다."
+>abstract="이메일 - 최고 수신자 도메인 그래프 및 테이블에서는 수신자가 이메일을 열 때 가장 자주 사용하는 도메인에 대한 자세한 분석을 통해 수신자 동작에 대한 귀중한 인사이트를 제공합니다."
 
 ![](assets/campaign_email_best_recipient.png)
 
@@ -437,7 +437,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_performance"
 >title="인앱 성능"
->abstract="인앱 성능 KPI는 방문자의 인앱 메시지 참여에 대한 필수 통찰력을 제공합니다."
+>abstract="인앱 성능 KPI는 방문자의 인앱 메시지 참여에 대한 필수 인사이트를 제공합니다."
 
 ![](assets/campaign_inapp_performance.png)
 
@@ -619,7 +619,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="푸시 알림 - 플랫폼별 분류"
->abstract="푸시 알림 - 플랫폼별 분류 그래프 및 표는 프로필의 운영 체제를 기반으로 푸시 알림의 성공 여부를 분류할 수 있습니다."
+>abstract="푸시 알림 - 플랫폼별 분류 그래프 및 테이블에서는 프로필의 운영 체제를 기반으로 푸시 알림의 성공에 대한 분류를 제공합니다."
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -652,7 +652,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS - 전송 통계"
->abstract="SMS - 전송 통계 표에는 타겟팅 또는 게재된 메시지와 같은 SMS 메시지에 대한 필수 데이터가 요약되어 있습니다."
+>abstract="SMS - 전송 통계 테이블에는 대상 지정 메시지 또는 게재된 메시지 등과 같은 SMS 메시지에 대한 필수 데이터가 요약되어 있습니다."
 
 ![](assets/campaign_sms_sending.png)
 
@@ -679,7 +679,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_sms_tracking_statistics"
 >title="SMS - 추적 통계"
->abstract="SMS - 추적 통계 위젯은 방문자와 URL의 상호 작용과 관련된 필수 정보에 대한 포괄적인 개요를 제공합니다."
+>abstract="SMS - 추적 통계 위젯은 방문자와 귀하 URL의 상호 작용과 관련된 필수 정보의 포괄적인 개요를 제공합니다."
 
 ![](assets/campaign_sms_tracking.png)
 
@@ -698,7 +698,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="SMS - 날짜별 성능"
->abstract="- 날짜별 SMS 성능 위젯은 그래픽 표시를 통해 메시지에 대한 주요 정보를 제공합니다."
+>abstract="SMS - 날짜별 성능 위젯은 그래픽 표시를 통해 메시지에 대한 주요 정보를 제공합니다."
 
 ![](assets/campaign_sms_performance.png)
 
@@ -752,7 +752,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="SMS - 링크를 통한 클릭"
->abstract="SMS - 링크를 통한 클릭 수 위젯은 메시지의 URL에 대한 방문자의 참여에 대한 중요한 인사이트를 제공합니다."
+>abstract="SMS - 링크를 통한 클릭 위젯은 메시지의 URL을 사용한 방문자 참여에 대한 필수 인사이트를 제공합니다."
 
 ![](assets/campaign_sms_clicks.png)
 

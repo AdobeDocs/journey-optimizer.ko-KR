@@ -161,7 +161,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
 >title="이메일 - 날짜별 성능"
->abstract="이메일 - 날짜별 성능 그래프는 전송된 이메일에 관한 지난 24시간의 포괄적인 데이터를 제공하여 게재 및 바운스와 같은 주요 지표에 대한 통찰력을 제공하고 이메일 전송 프로세스를 자세하게 분석할 수 있습니다."
+>abstract="이메일 - 날짜별 성능 그래프는 전송된 이메일에 관한 지난 24시간의 포괄적인 데이터를 제공하여 게재 및 바운스와 같은 주요 지표에 대한 인사이트를 제공하고 이메일 전송 프로세스를 자세하게 분석할 수 있습니다."
 
 ![](assets/campaign_email_live_performance.png)
 
@@ -216,7 +216,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_best_recipient"
 >title="이메일 - 최고 수신자 도메인"
->abstract="이메일 - 최고 수신자 도메인 그래프 및 테이블에서는 수신자가 이메일을 열 때 가장 자주 사용하는 도메인에 대한 자세한 분석을 통해 지난 24시간의 수신자 동작에 대한 귀중한 통찰력을 제공합니다."
+>abstract="이메일 - 최고 수신자 도메인 그래프 및 테이블에서는 수신자가 이메일을 열 때 가장 자주 사용하는 도메인에 대한 자세한 분석을 통해 지난 24시간의 수신자 동작에 대한 귀중한 인사이트를 제공합니다."
 
 ![](assets/campaign_email_live_recipient.png)
 
@@ -249,7 +249,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
 >title="인앱 성능"
->abstract="인앱 성능 KPI는 지난 24시간 동안 방문자의 인앱 메시지 참여에 대한 필수 통찰력을 제공합니다."
+>abstract="인앱 성능 KPI는 지난 24시간 동안 방문자의 인앱 메시지 참여에 대한 필수 인사이트를 제공합니다."
 
 다음 **[!UICONTROL 인앱 성능]** KPI는 지난 24시간 동안 인앱 메시지에 대한 프로필의 참여에 대한 중요한 통찰력을 제공하며, 인앱 캠페인의 효과와 영향을 평가하는 데 중요한 지표를 제공합니다.
 

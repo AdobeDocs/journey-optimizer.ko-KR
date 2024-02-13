@@ -7,11 +7,11 @@ feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
+keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
 source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="DMARC 레코드 설정"
->abstract="DMARC는 도메인 소유자가 자신의 도메인이 무단으로 사용되지 않도록 보호하고 사서함 서비스 제공업체와의 전달성 문제를 방지할 수 있는 이메일 인증 방법입니다.<br>시행 중인 업계 모범 사례의 일부로서 Google 및 Yahoo! 두 가지 모두 이메일을 보내는 데 사용하는 도메인에 대한 DMARC 레코드가 있어야 합니다."
+>abstract="DMARC는 도메인 소유자가 자신의 도메인이 무단으로 사용되지 않도록 보호하고 사서함 서비스 제공업체와의 전달성 문제를 방지할 수 있는 이메일 인증 방법입니다.<br>시행 중인 업계 모범 사례의 일부인 Google 및 Yahoo! 이메일을 보내는 데 사용하는 모든 도메인에 DMARC 레코드를 요구합니다."
 
 ## DMARC란? {#what-is-dmarc}
 
@@ -63,13 +63,13 @@ DMARC를 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 ## DMARC 요구 사항 업데이트 {#dmarc-update}
 
-시행 중인 업계 모범 사례의 일부로서 Google 및 Yahoo! 두 가지 모두 다음을 수행해야 합니다. **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은 다음 항목부터 적용됩니다. **2024년 2월 1일**.
+시행 중인 업계 모범 사례의 일부인 Google 및 Yahoo! 두 가지 모두 다음을 수행해야 합니다. **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은 다음 항목부터 적용됩니다. **2024년 2월 1일**.
 
-Google 및 Yahoo!&#39;에 대해 자세히 알아보기의 s 요구 사항 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+Google 및 Yahoo!&#39;에 대해 자세히 알아보기의 s 요구 사항 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ko#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->Gmail 및 Yahoo의 새로운 요구 사항을 준수하지 못함! 이(가) 발생할 경우 이메일이 스팸 폴더로 도달하거나 차단됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>Gmail 및 Yahoo!의 새로운 요구 사항을 준수하지 못하면 이(가) 발생할 경우 이메일이 스팸 폴더로 도달하거나 차단됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
 
 따라서 Adobe에서는 다음 작업을 수행할 것을 강력히 권장합니다.
 
