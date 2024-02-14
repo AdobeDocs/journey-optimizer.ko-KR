@@ -8,7 +8,7 @@ role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
 source-git-commit: a939d06d26d64a72eaec0ddc7f22b074ad463150
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Journey Optimizer의 설정 프로세스는 크게 두 부분으로 나뉩니다
 * [Adobe Experience Platform의 고객 관리형 키](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=ko-KR) 설명서의 단계를 따라 진행하십시오.
 * [Customer Journey Analytics의 고객 관리형 키](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html?lang=ko) 설명서의 단계를 따라 진행하십시오.
 
-  CJA(Customer Journey Analytics)를 구매하지 않은 경우에도 CJA의 특정 구성 요소를 백그라운드에서 사용하기 때문에 이 설정 프로세스를 완료해야 합니다.
+  CJA(Customer Journey Analytics)를 구매하지 않은 경우에도 CJA의 특정 구성 요소를 배경에서 사용하기 때문에 이 설정 프로세스를 완료해야 합니다.
 
 설정 프로세스를 진행할 때는 [Adobe Experience Platform의 고객 관리형 키](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=ko) 설명서에 자세히 나와 있는 단계별 지침을 참조할 수 있습니다.
 
