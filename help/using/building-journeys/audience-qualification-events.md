@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 8%
+source-wordcount: '1043'
+ht-degree: 11%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 8%
 “실버 고객”이라는 대상자가 있다고 가정해 보겠습니다. 이 활동을 사용하면 모든 신규 실버 고객이 여정을 입력하고 일련의 개인화된 메시지를 보내도록 할 수 있습니다.
 
 이 유형의 이벤트는 여정에서 첫 번째 단계 또는 그 이후로 배치할 수 있습니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ### 중요 정보{#important-notes-segment-qualification}
 
@@ -126,3 +128,9 @@ ht-degree: 8%
 프로덕션 여정에서 대상을 사용하기 전에 항상 먼저 매일 이 대상에 대해 자격이 있는 개인의 양을 평가하십시오. 이렇게 하려면 다음을 확인할 수 있습니다. **[!UICONTROL 대상자]** 메뉴를 열고 대상을 확인한 다음 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프.
 
 ![](assets/segment-overload.png)
+
+## 방법 비디오 {#video}
+
+대상자 자격 조건 여정의 사용 사례를 살펴봅니다. 대상자 자격 조건을 사용하여 여정을 작성하는 방법과 상황에 따라 적용할 모범 사례를 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

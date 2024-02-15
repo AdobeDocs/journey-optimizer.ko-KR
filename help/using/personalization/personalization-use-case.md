@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 사용 사례, 개인화
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: f6d56d1d23cca425f01e4c45532d500f3e2d4e2e
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 3%
@@ -111,4 +111,3 @@ ht-degree: 3%
 아래 비디오에서는 여정의 컨텍스트 데이터를 활용하여 이메일을 개인화하는 유사한 사용 사례를 보여줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
-
