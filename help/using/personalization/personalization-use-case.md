@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 사용 사례, 개인화
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
+source-git-commit: f6d56d1d23cca425f01e4c45532d500f3e2d4e2e
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 2%
+source-wordcount: '532'
+ht-degree: 3%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 2%
 
 * 주문 번호, 상태 및 품목 이름을 포함하는 주문 이벤트를 구성합니다. 이 [섹션](../event/about-events.md)을 참조하십시오.
 * 의사 결정 만들기, 다음을 참조하십시오. [섹션](../offers/offer-activities/create-offer-activities.md).
+
+➡️ [비디오에서 유사한 사용 사례 살펴보기](#video)
 
 ## 1단계 - 여정 만들기 {#create-journey}
 
@@ -103,3 +105,10 @@ ht-degree: 2%
    ![](assets/perso-uc19.png)
 
 1. 오류가 없는지 확인하고 여정을 게시합니다.
+
+## 방법 비디오 {#video}
+
+아래 비디오에서는 여정의 컨텍스트 데이터를 활용하여 이메일을 개인화하는 유사한 사용 사례를 보여줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+
