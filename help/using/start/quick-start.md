@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: acb4c2dce86afb0b85125413a42094f96366a57d
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 90%
 
 ---
 
@@ -36,3 +36,9 @@ ht-degree: 100%
 * **마케터**&#x200B;입니다
 
   메시지 디자인, 오퍼, 자산 추가, 고객 여정 작성. [자세히 알아보기](path/marketer.md)
+
+## 방법 비디오 {#video}
+
+Journey Optimizer의 주요 기능 및 가상 사용자를 이해합니다. 역할에 따라 사용자 인터페이스를 탐색하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
