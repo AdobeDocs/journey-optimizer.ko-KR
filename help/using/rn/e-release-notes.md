@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 51d07df4c1db10ea2e1ff76dbd29607c32fbd859
+source-git-commit: 8d3dac39a0f4ea9982c5a8475d310ae0c3be68b1
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 19%
+source-wordcount: '538'
+ht-degree: 18%
 
 ---
 
@@ -76,7 +76,11 @@ ht-degree: 19%
 이전에 Beta로 제공되었던 향상된 기능은 이제 모든 사용자가 사용할 수 있습니다.
 
 * 이제 타겟팅할 수 있습니다. **csv 파일에서 업로드한 대상자** 를 여정 및 캠페인에 포함시킵니다. [자세히 알아보기](../audience/about-audiences.md#segments-in-journey-optimizer)
-* 이제 타겟팅할 수 있습니다. **대상자 구성을 통해 생성된 대상자** 여정에서 데이터 보강 속성을 활용할 수 있습니다. [자세히 보기](../building-journeys/read-audience.md)
+* 이제 타겟팅할 수 있습니다. **대상자 구성을 통해 생성된 대상자** 여정에서 데이터 보강 속성을 활용할 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>대상 구성 및 사용자 지정 업로드(CSV 파일)의 대상 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
 
 **여정**
 
