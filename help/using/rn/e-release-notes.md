@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d945e22af664876bf5f5403e7e466a1e383e9501
+source-git-commit: 51d07df4c1db10ea2e1ff76dbd29607c32fbd859
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 19%
 
 ---
@@ -85,7 +85,6 @@ ht-degree: 19%
 * **구성** - stepEvents의 identityMap 속성이 이제 미리 채워져 있습니다. 기본 ID는 &quot;primary = true&quot;로 정의됩니다.
 * **사용자 인터페이스** - 여정 화면의 상단 표시줄이 향상된 경험을 위해 재구성되었습니다. 여러 업데이트 중 여정 속성에 액세스할 수 있는 &quot;연필&quot; 아이콘이 이제 여정 이름 옆의 상단 표시줄 왼쪽에 표시됩니다.
 
-
 **SMS 채널**
 
 * **옵트인/옵트아웃 키워드** - 이제 SMS 채널을 구성할 때 **옵트인 및 옵트아웃 키워드** 기본 설정에 따라. Journey Optimizer은 지정된 이러한 키워드를 기반으로 응답을 트리거합니다.
@@ -101,4 +100,4 @@ ht-degree: 19%
 **콘텐츠 템플릿**
 
 * **축소판** - A **썸네일 보기** 는 이제 개선된 시각적 액세스를 위해 콘텐츠 템플릿 및 조각에 사용할 수 있습니다.
-* **채널** - 이제 콘텐츠 템플릿을 사용할 수 있습니다. **모든 채널**, 웹 제외
+* **다중 채널 템플릿** - 이제 콘텐츠 템플릿을 사용할 수 있습니다. **모든 채널**, 웹 제외
