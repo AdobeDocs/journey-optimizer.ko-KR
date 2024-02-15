@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 5%
+source-wordcount: '1438'
+ht-degree: 7%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 5%
 사용 **대상자 읽기** 활동을 통해 대상자의 모든 개인이 여정에 들어오도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 
 다음에서 생성된 &quot;Luma 앱 열기 및 체크아웃&quot; 대상을 예로 들어 보겠습니다. [대상자 작성](../audience/about-audiences.md) 사용 사례. 대상자 읽기 활동을 사용하면 이 대상자에 속하는 모든 개인에게 여정을 입력하고 조건, 타이머, 이벤트, 작업과 같은 모든 여정 기능을 활용하는 개별화된 여정으로 흐르도록 할 수 있습니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 반드시 알아야 할 사항 {#must-read}
 
@@ -183,3 +185,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 결합 후 세분화 또는 제외를 수행하여 대상을 다시 분할할 수 있습니다.
 
 ![](assets/read-segment-audience3.png)
+
+## 방법 비디오 {#video}
+
+대상자 읽기 활동으로 트리거되는 여정에 적용할 수 있는 사용 사례를 이해합니다. 일괄 처리 단위 기반 여정을 작성하는 방법과 상황에 따라 적용할 모범 사례를 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
