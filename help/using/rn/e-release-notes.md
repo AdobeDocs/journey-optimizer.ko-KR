@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27ef6f591fdf5d8175b79bbbf3f59fe65e44106f
+source-git-commit: 9eb0e37b0547a3eb00802711825ecff63ab5f4a6
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 20%
@@ -41,8 +41,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>이제 새로운 웹 인앱 메시지 기능을 사용하여 양식 오버레이 메시지를 통해 웹 사이트에 직접 개인화된 콘텐츠를 표시할 수 있습니다. 이 기능을 사용하면 웹 방문자와 효과적으로 상호 작용하여 사용자 상호 작용, 보존 및 전환율을 향상시킬 수 있습니다.<br/><!--br/>
-Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<p>이제 새로운 웹 인앱 메시지 기능을 사용하여 양식 오버레이 메시지를 통해 웹 사이트에 직접 개인화된 콘텐츠를 표시할 수 있습니다. 이 기능을 사용하면 웹 방문자와 효과적으로 상호 작용하여 사용자 상호 작용, 보존 및 전환율을 향상시킬 수 있습니다.<br/><br/></p>
 <!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
@@ -58,8 +57,7 @@ Learn more in the <a href="../audience/computed-attributes.md">detailed document
 <tbody>
 <tr>
 <td>
-<p>이제 SMS 및 DM 채널에 적용되는 빈도 제한 규칙을 만들 수 있습니다. 또한 통신 유형별로 빈도 제한 규칙을 설정할 수 있습니다.<br/><!--br/>
-Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<p>이제 SMS 및 DM 채널에 적용되는 빈도 제한 규칙을 만들 수 있습니다. 또한 통신 유형별로 빈도 제한 규칙을 설정할 수 있습니다.<br/><br/></p>
 <!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
@@ -82,10 +80,11 @@ Learn more in the <a href="../audience/computed-attributes.md">detailed document
 
 **여정**
 
-* 여정 화면의 상단 표시줄이 향상된 경험을 위해 재구성되었습니다. 여러 업데이트 중 여정 속성에 액세스할 수 있는 &quot;연필&quot; 아이콘이 이제 여정 이름 옆의 상단 표시줄 왼쪽에 표시됩니다.
 * 이제 다음을 사용할 수 있습니다. **여정을 필터링할 사용자 정의 날짜** 기존 사전 정의된 날짜 필터 외에 인벤토리 이렇게 하면 특정 날짜, 특정 달 내, 전체 연도 또는 지정된 시간 범위에 게시된 여정을 표시하여 목록을 세분화할 수 있습니다.
 * 이제에서 &quot;content-type&quot; 헤더를 업데이트할 수 있습니다. **사용자 지정 작업**.
 * stepEvents의 identityMap 속성이 이제 미리 채워집니다. 기본 ID는 &quot;primary = true&quot;로 정의됩니다.
+* 여정 화면의 상단 표시줄이 향상된 경험을 위해 재구성되었습니다. 여러 업데이트 중 여정 속성에 액세스할 수 있는 &quot;연필&quot; 아이콘이 이제 여정 이름 옆의 상단 표시줄 왼쪽에 표시됩니다.
+
 
 **SMS 채널**
 
