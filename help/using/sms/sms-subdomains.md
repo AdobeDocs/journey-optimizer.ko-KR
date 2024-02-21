@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, 하위 도메인, 구성
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '740'
 ht-degree: 24%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 24%
 >abstract="SMS 표면을 만들려면 하위 도메인 이름 목록에서 선택할 SMS 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS 표면 만들기"
 
-SMS/MMS 메시지에 추가되는 URL을 단축하려면 다음의 경우에 선택할 하위 도메인을 설정해야 합니다 [sms 표면 만들기](sms-configuration.md#message-preset-sms).
+SMS 메시지에 추가되는 URL을 단축하려면 다음의 경우에 선택할 하위 도메인을 설정해야 합니다 [sms 표면 만들기](sms-configuration.md#message-preset-sms).
 
 이미 Adobe에 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다. 에서 Adobe에 하위 도메인 위임에 대해 자세히 알아보기 [이 섹션](../configuration/delegate-subdomain.md).
 

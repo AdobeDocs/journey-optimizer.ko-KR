@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
 workflow-type: tm+mt
-source-wordcount: '2141'
+source-wordcount: '2152'
 ht-degree: 14%
 
 ---
@@ -104,7 +104,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >에 추가된 도메인 그룹(기본값 또는 사용자 지정)만 제외할 수 있습니다. [IP 준비 계획 템플릿](ip-warmup-plan.md#prepare-file). 그렇지 않으면 제외할 도메인 그룹으로 템플릿을 업데이트하고 [플랜 다시 업로드](#re-upload-plan).
+      >에 추가된 사용자 정의 도메인 그룹만 제외할 수 있습니다. [IP 준비 계획 템플릿](ip-warmup-plan.md#prepare-file). 그렇지 않은 경우 제외할 사용자 정의 도메인 그룹으로 템플릿을 업데이트하고 [플랜 다시 업로드](#re-upload-plan).
 
 1. 필요한 경우 **[!UICONTROL 캠페인 바꾸기]** 단추를 클릭합니다.
 
@@ -162,6 +162,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
    ![](assets/ip-warmup-plan-send-time.png)
 
 1. 선택적으로, 다음에 지연이 있을 경우 IP 워밍업 캠페인을 실행할 수 있는 기간 을 정의할 수 있습니다. [대상자 평가](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. 이렇게 하려면 계획 이름 옆에 있는 왼쪽 상단의 등록 정보 아이콘을 누르고 **[!UICONTROL 재시도 실행 시간]** 드롭다운 목록에서 지속 시간을 선택합니다(최대 240분(4시간)).
+
+   >[!NOTE]
+   >
+   >정의된 기간이 끝날 때까지 30분마다 다시 시도합니다.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 

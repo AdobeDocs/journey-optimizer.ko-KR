@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
-workflow-type: ht
+source-git-commit: 21e7d416548dd9220d5535573bc6ff17dd0479ec
+workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!PREREQUISITES]
 >
->사용 사례 플레이북을 사용하기 전에 다음 구성 단계가 필요합니다. 각 단계에 대한 자세한 내용은 사용 사례 플레이북 설명서 [시작](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=ko){target="_blank"} 페이지에서 확인할 수 있습니다.
+>사용 사례 플레이북을 사용하기 전에 다음 구성 단계가 필요합니다. 각 단계에 대한 자세한 내용은 사용 사례 플레이북 설명서 [시작](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} 페이지에서 확인할 수 있습니다.
 >
 >* 샌드박스 만들기
 >* 사용자 권한 구성

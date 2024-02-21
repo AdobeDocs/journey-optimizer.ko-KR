@@ -1,37 +1,37 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS/MMS 메시지 만들기
-description: Journey Optimizer에서 SMS/MMS 메시지를 만드는 방법 알아보기
+title: SMS 메시지 만들기
+description: Journey Optimizer에서 SMS 메시지를 만드는 방법 알아보기
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 10%
+source-wordcount: '789'
+ht-degree: 9%
 
 ---
 
-# 문자 메시지(SMS/MMS) 만들기{#create-sms}
+# 텍스트 메시지 만들기 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="텍스트 메시지 만들기"
->abstract="문자 메시지(SMS/MMS)를 만들려면 여정이나 캠페인에 SMS 작업을 추가하고 표현식 편집기로 개인화를 시작합니다."
+>abstract="텍스트 메시지를 만들려면 여정 또는 캠페인에 SMS 작업을 추가하고 표현식 편집기를 사용하여 개인화를 시작합니다."
 
-Adobe Journey Optimizer을 사용하여 텍스트(SMS) 및 멀티미디어(MMS) 메시지를 디자인하고 보낼 수 있습니다. 먼저 여정 또는 캠페인에 SMS 작업을 추가한 다음 아래에 설명된 대로 텍스트 메시지의 콘텐츠를 정의해야 합니다. Adobe Journey Optimizer은 전송 전에 텍스트 메시지를 테스트하여 렌더링, 개인화 속성 및 기타 모든 설정을 확인할 수 있는 기능도 제공합니다.
+Adobe Journey Optimizer을 사용하여 텍스트(SMS)를 디자인하고 보낼 수 있습니다. 먼저 여정 또는 캠페인에 SMS 작업을 추가한 다음 아래에 설명된 대로 텍스트 메시지의 콘텐츠를 정의해야 합니다. Adobe Journey Optimizer은 전송 전에 텍스트 메시지를 테스트하여 렌더링, 개인화 속성 및 기타 모든 설정을 확인할 수 있는 기능도 제공합니다.
 
 >[!NOTE]
 >
->업계 표준 및 규정에 따라 모든 SMS/MMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이를 위해 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. [옵트아웃 관리 방법 알아보기](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>업계 표준 및 규정에 따라 모든 SMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이를 위해 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. [옵트아웃 관리 방법 알아보기](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 
 ## 문자 메시지 추가 {#create-sms-journey-campaign}
 
-아래 탭을 탐색하여 캠페인 또는 여정에서 문자 메시지(SMS/MMS)를 추가하는 방법을 알아봅니다.
+캠페인이나 여정에서 텍스트 메시지를 추가하는 방법을 배우려면 아래 탭을 살펴보십시오.
 
 >[!BEGINTABS]
 
@@ -91,9 +91,9 @@ Adobe Journey Optimizer을 사용하여 텍스트(SMS) 및 멀티미디어(MMS) 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="SMS 콘텐츠 정의"
->abstract="표현식 편집기를 사용하여 콘텐츠를 정의하고 동적 요소를 통합하여 문자 메시지(SMS/MMS)를 사용자 정의하고 개인화합니다."
+>abstract="표현식 편집기를 사용하여 콘텐츠를 정의하고 다이내믹 요소를 통합하여 텍스트 메시지를 사용자 정의하고 개인화합니다."
 
-SMS 콘텐츠를 구성하려면 아래 단계를 따르십시오. MMS 설정에 대한 자세한 내용은 [이 섹션](#mms-content).
+SMS 콘텐츠를 구성하려면 아래 단계를 따르십시오.
 
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 텍스트 메시지 콘텐츠를 구성합니다.
 
@@ -121,36 +121,37 @@ SMS 콘텐츠를 구성하려면 아래 단계를 따르십시오. MMS 설정에
 
 1. 클릭 **[!UICONTROL 저장]** 미리 보기에서 메시지를 확인합니다. 이제에 자세히 설명된 대로 메시지 콘텐츠를 테스트하고 확인할 수 있습니다. [이 섹션](#sms-mms-test).
 
+<!--
+## Define your MMS content{#mms-content}
 
-## MMS 콘텐츠 정의{#mms-content}
-
-MMS(멀티미디어 메시지 서비스) 메시지를 전송하여 비디오, 사진, 오디오 클립 및 GIF 등의 미디어를 공유할 수 있도록 함으로써 커뮤니케이션을 향상시킬 수 있습니다. 또한 MMS를 통해 메시지에 최대 1600자의 텍스트를 입력할 수 있습니다.
+You can enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of media such as videos, pictures, audio clips and GIFs, and more. Additionally, MMS allows for up to 1600 characters of text in your message.
 
 
 >[!NOTE]
 >
->* 이 기능은 현재 다음에서 사용할 수 있습니다. **Sinch** 만 해당.
+>* This feature is currently available with **Sinch** only.
 >
->* MMS 채널에는 다음과 같은 몇 가지 제한 사항이 있습니다. [이 페이지](../start/guardrails.md#sms-guardrails).
+>* MMS channel comes with a few limitations listed in [this page](../start/guardrails.md#sms-guardrails).
 >
 
-MMS 콘텐츠를 만들려면 다음 단계를 수행합니다.
+To create MMS content, follow these steps:
 
-1. 에 설명된 대로 SMS를 만듭니다 [이 섹션](#create-sms-journey-campaign).
+1. Create a SMS as described in [this section](#create-sms-journey-campaign).
 
-1. 에 자세히 설명된 대로 SMS 콘텐츠를 편집합니다. [이 섹션](#sms-content).
+1. Edit your SMS content as detailed in [this section](#sms-content).
 
-1. SMS 콘텐츠에 미디어를 추가하려면 MMS 옵션을 활성화합니다.
+1. Enable the MMS option to add media to your SMS content.
 
-   ![](assets/sms_create_6.png)
+    ![](assets/sms_create_6.png)
 
-1. 추가 **[!UICONTROL 제목]** 미디어.
+1. Add a **[!UICONTROL Title]** to your media.
 
-1. 에 미디어 URL을 입력합니다 **[!UICONTROL 미디어]** 필드.
+1. Enter the URL of your media in the **[!UICONTROL Media]** field.
 
-   ![](assets/sms_create_7.png)
+    ![](assets/sms_create_7.png)
 
-1. 클릭 **[!UICONTROL 저장]** 미리 보기에서 메시지를 확인합니다. 이제 아래에 자세히 설명된 대로 메시지 콘텐츠를 테스트하고 확인할 수 있습니다.
+1. Click **[!UICONTROL Save]** and check your message in the preview. You can now test and check your message content as detailed below.
+-->
 
 ## 메시지 테스트 및 보내기 {#sms-mms-test}
 
@@ -166,6 +167,6 @@ MMS 콘텐츠를 만들려면 다음 단계를 수행합니다.
 
 * [문자 메시지 미리 보기, 테스트 및 보내기](send-sms.md)
 * [SMS 채널 구성](sms-configuration.md)
-* [SMS/MMS 보고서](../reports/journey-global-report.md#sms-global)
+* [SMS 보고서](../reports/journey-global-report.md#sms-global)
 * [여정에 메시지 추가](../building-journeys/journeys-message.md)
 * [캠페인에 메시지 추가](../campaigns/create-campaign.md)

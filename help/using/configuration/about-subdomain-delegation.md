@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 최적화 도구, 위임
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
+source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '892'
 ht-degree: 27%
 
 ---
@@ -44,10 +44,6 @@ ht-degree: 27%
 * 방법 알아보기 [하위 도메인 위임](delegate-subdomain.md) 인터페이스에서 직접
 * 방법 알아보기 [Google TXT 레코드 추가](google-txt.md) 이메일이 Gmail 주소로 성공적으로 전달되도록 하위 도메인
 * 방법 알아보기 [PTR 레코드 액세스](ptr-records.md) 메일 서버를 보내 하위 도메인을 확인할 수 있도록 하위 도메인용으로 생성됨
-
->[!NOTE]
->
->하위 도메인용 DMARC를 구현하려면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 ## 하위 도메인 구성 메서드 {#subdomain-delegation-methods}
 

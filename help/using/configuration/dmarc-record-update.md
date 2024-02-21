@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
-source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
+source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 94%
+source-wordcount: '577'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
 
 도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다. 이메일 공급자/ISP에 명확한 정책을 제공함으로써 악의적인 행위자가 도메인에서 온 것으로 주장하는 이메일을 보내지 못하게 하는 데 도움이 됩니다. DMARC를 구현하면 합법적인 이메일이 스팸으로 표시되거나 거부될 위험이 줄어들고 이메일 전달성이 향상됩니다.
 
-시행 중인 업계 모범 사례의 일부인 Google 및 Yahoo! 둘 다 이메일을 전송하는 데 사용하는 모든 도메인에 **DMARC 레코드**&#x200B;가 필요합니다. 이 새 요구 사항은 **2024년 2월 1일**&#x200B;부터 적용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ko#dmarc){target="_blank"}
+시행 중인 업계 모범 사례의 일부인 Google 및 Yahoo! 둘 다 **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은 **2024년 2월 1일**&#x200B;부터 적용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ko#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -44,8 +44,9 @@ ht-degree: 94%
 또는
    * 구성 사용자 인터페이스&#x200B;**에서[!DNL Journey Optimizer]** 위임된 하위 도메인에 DMARC를 설정합니다. [방법 알아보기](dmarc-record.md#implement-dmarc)
 
-  그러나 CNAME 위임을 사용하면 호스팅 솔루션에 항목을 입력해야 합니다. 따라서 IT 부서에서 [이 섹션](dmarc-record.md#implement-dmarc)에 설명된 업데이트를 수행할 수 있게 해야 합니다. .
-
+  >[!IMPORTANT]
+  >
+  >그러나 CNAME 설정을 사용하려면 호스팅 솔루션에 몇 가지 추가 항목이 필요합니다. 따라서 IT 부서에서 [이 섹션](dmarc-record.md#implement-dmarc)에 설명된 업데이트를 수행할 수 있게 해야 합니다. .
 
 Google과 Yahoo!에서 공유한 가장 최근 타임라인 은 다음과 같습니다.
 
@@ -67,5 +68,5 @@ Google과 Yahoo!에서 공유한 가장 최근 타임라인 은 다음과 같습
 
 * [전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=ko#about){target="_blank"}에서 DMARC에 대해 자세히 알아보기
 * [전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ko){target="_blank"}에서 이러한 변경 사항에 대한 추가 지침을 확인하십시오.
-* [Google Gmail 공지](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"} 읽기
-* [Yahoo! 공지](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"} 참조
+* 다음을 읽어 보십시오. [Google Gmail 공지](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* 다음을 읽어 보십시오. [야후! 공지](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"} 참조

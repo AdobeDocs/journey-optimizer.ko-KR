@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 3%
 
 ---
 
-# 문자 메시지 확인 및 보내기(SMS/MMS) {#send-sms}
+# 문자 메시지 확인 및 보내기 {#send-sms}
 
 ## 문자 메시지 미리 보기 {#preview-sms}
 
@@ -49,6 +49,6 @@ ht-degree: 3%
 **관련 항목**
 
 * [SMS 채널 구성](sms-configuration.md)
-* [SMS/MMS 보고서](../reports/journey-global-report.md#sms-global)
+* [SMSS 보고서](../reports/journey-global-report.md#sms-global)
 * [텍스트 메시지 만들기](create-sms.md)
 * [여정에 메시지 추가](../building-journeys/journeys-message.md)

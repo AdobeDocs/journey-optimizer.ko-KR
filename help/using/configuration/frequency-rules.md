@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 1b831facc70f0be01c0358ca23942e848ff3b708
+source-git-commit: 09142fa8d8c48d9ba56ef03e6a97b0be3da45916
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1118'
 ht-degree: 10%
 
 ---
@@ -71,7 +71,8 @@ ht-degree: 10%
 
 1. 규칙 이름을 정의합니다.
 
-   ![](assets/message-rules-details.png)
+   <!--![](assets/message-rules-details.png)-->
+   ![](assets/message-rules-details-temp.png)
 
 1. 메시지 규칙 범주를 선택합니다.
 
@@ -79,9 +80,10 @@ ht-degree: 10%
    >
    >현재는 **[!UICONTROL 마케팅]** 카테고리를 사용할 수 있습니다.
 
-1. 다음에서 적용할 캡핑에 대한 시간대를 선택합니다. **[!UICONTROL 듀라액션]** 드롭다운 목록입니다.
+1. 다음에서 **[!UICONTROL 기간]** 드롭다운 목록에서 적용할 캡핑에 대한 시간대를 선택합니다.
 
-   <!--![](assets/message-rules-capping-duration.png) TO UPDATE ONCE DAILY REMOVED-->
+   <!--![](assets/message-rules-capping-duration.png)-->
+   ![](assets/message-rules-capping-duration-temp.png)
 
    빈도 상한은 선택한 달력 기간을 기반으로 합니다. 해당 시간대의 시작 부분에서 재설정됩니다.
 
@@ -93,12 +95,11 @@ ht-degree: 10%
 
    * **[!UICONTROL 월별]**: 빈도 상한은 월 마지막 날인 23일까지 유효합니다.:59:59 UTC입니다. 예를 들어 1월의 월별 만료일은 01-31 23입니다:59:59 UTC입니다.
 
-   <!-- NOTE
-   >When dealing with [batch segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} is recommended. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+   &lt;!—참고: [일괄 세분화](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 권장됩니다. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
 
-1. 규칙의 상한을 설정합니다. 즉, 위의 선택에 따라 월별, 주별 또는 일별로 개별 사용자 프로필에 보낼 수 있는 최대 메시지 수를 의미합니다.
+1. 규칙에 대한 상한을 설정합니다. 즉, 매월 또는 매주 개별 사용자 프로필에 보낼 수 있는 최대 메시지 수를 의미합니다 <!--or day--> - 위의 선택에 따라.
 
-   ![](assets/message-rules-capping.png)
+   <!--![](assets/message-rules-capping.png)-->
 
 1. 이 규칙에 사용할 채널 선택: **[!UICONTROL 이메일]** 또는 **[!UICONTROL 푸시 알림]**.
 

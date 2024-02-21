@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
-workflow-type: ht
-source-wordcount: '1960'
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+workflow-type: tm+mt
+source-wordcount: '1912'
 ht-degree: 100%
 
 ---
@@ -40,12 +40,14 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 랜딩 페이지에 사전 헤더를 추가할 수 없습니다. 
 * 방문 기본 페이지를 디자인할 때 **자신만의 코드 작성** 옵션을 선택할 수 없습니다.
 
-## SMS 가드레일 {#sms-guardrails}
+<!--
+## SMS guardrails {#sms-guardrails}
 
-* MMS 기능은 Sinch에서만 사용할 수 있습니다.
-* 지원 URL을 통해 MMS에 넣을 미디어 파일을 포함할 수 있습니다. 미디어 파일이 별도로 업로드되는지 확인해야 합니다.
-* 현재 MMS에는 메시지 피드백 동기화를 사용할 수 없습니다.
-* MMS에 대한 동의 관리는 SMS 채널 수준에서 작동합니다.
+* MMS Capability is only available for Sinch.
+* Media files for MMS can be included through a supported URL. Please ensure that the media file is uploaded separately.
+* Message feedback syncing is not currently available for MMS.
+* Consent management operates at the SMS channel level for MMS.
+-->
 
 ## 조각 가드레일 {#fragments-guardrails}
 
