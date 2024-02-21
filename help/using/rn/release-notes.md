@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13ee474819aa0b63561946d94111cd76f3d5689d
+source-git-commit: 38f85467256b22a6f05fee8137bc76b0d99c4e6e
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '610'
 ht-degree: 95%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
-## 2024년 1월 초기 릴리스 정보 {#jan-2024}
+## 2024년 1월 릴리스 정보 {#jan-2024}
 
 **릴리스 날짜**: 2024년 1월 30~31일
 
