@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1154'
 ht-degree: 28%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 28%
 
 다음에서 **[!UICONTROL 메시지 레이아웃]** 섹션에서, 메시징 요구 사항에 따라 선택할 네 가지 레이아웃 옵션 중 하나를 선택합니다.
 
-![](assets/in_app_content_1.png)
+![](assets/in_app_web_design_1.png)
 
 * **[!UICONTROL 전체 화면]**: 이 유형의 레이아웃은 대상 디바이스의 전체 화면을 포함합니다.
 
@@ -77,7 +77,7 @@ ht-degree: 28%
 >title="닫기 버튼의 스타일을 선택합니다."
 >abstract="닫기 버튼 섹션에서는 메시지 닫기 버튼의 변형을 선택할 수 있는 옵션과 사용자 정의 이미지를 업로드할 수 있는 옵션이 제공됩니다."
 
-![](assets/in_app_content_2.png)
+![](assets/in_app_web_design_2.png)
 
 다음을 선택합니다. **[!UICONTROL 스타일]** / **[!UICONTROL 닫기 단추]**.
 
@@ -102,7 +102,7 @@ ht-degree: 28%
 
 다음 **[!UICONTROL 미디어]** 필드를 사용하면 인앱 메시지에 미디어를 추가하여 최종 사용자를 위한 매력적인 경험을 만들 수 있습니다.
 
-![](assets/in_app_content_3.png)
+![](assets/in_app_web_design_3.png)
 
 미디어 URL을 입력하거나 **[!UICONTROL 에셋 선택]** 아이콘 : 자산 라이브러리에 저장된 자산을 인앱 메시지에 직접 추가합니다. [에셋 관리에 대해 자세히 알아보기](../content-management/assets.md).
 다음을 추가할 수도 있습니다. **[!UICONTROL 대체 텍스트]** 화면 읽기 애플리케이션용.
@@ -113,7 +113,7 @@ ht-degree: 28%
 
 +++
 
-### 헤더 및 본문 {#title-body}
+### 콘텐츠 {#title-body}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_content"
@@ -122,7 +122,7 @@ ht-degree: 28%
 
 메시지를 작성하려면 **[!UICONTROL 머리글]** 및 **[!UICONTROL 본문]** 필드.
 
-![](assets/in_app_content_4.png)
+![](assets/in_app_web_design_4.png)
 
 사용 **[!UICONTROL 개인화]** 아이콘을 클릭하여 개인화를 추가합니다. Adobe Journey Optimizer 표현식 편집기의 개인화에 대해 자세히 알아보기 [이 섹션에서](../personalization/personalize.md).
 
@@ -145,7 +145,7 @@ ht-degree: 28%
 
 사용자가 인앱 메시지와 상호 작용할 수 있는 버튼을 추가합니다.
 
-![](assets/in_app_content_5.png)
+![](assets/in_app_web_design_5.png)
 
 버튼을 개인화하려면
 
@@ -182,6 +182,10 @@ ht-degree: 28%
 >title="인앱 메시지를 미리 볼 수 있습니다."
 >abstract="메시지가 디바이스의 메시지 요약으로 전송될 때 표시되는 미리보기 이미지입니다."
 
+>[!NOTE]
+>
+>미리 보기는 모바일 인앱 메시지에만 사용할 수 있습니다.
+
 ![](assets/in_app_content_6.png)
 
 다음 **[!UICONTROL 앱 미리보기]** 인앱 메시지 뒤에 배경을 추가할 수 있습니다.
@@ -199,7 +203,7 @@ ht-degree: 28%
 >title="인앱 메시지의 메시지 레이아웃을 정의합니다."
 >abstract="이 섹션에서는 인앱 메시지에 배경을 추가할 수 있습니다. 이를 위해서는 UI 인계가 활성화되어야 합니다."
 
-![](assets/in_app_content_7.png)
+![](assets/in_app_web_design_6.png)
 
 다음 **[!UICONTROL 배경 이미지]** 필드를 사용하면 인앱 메시지에 배경을 추가할 수 있습니다.
 
@@ -214,7 +218,7 @@ ht-degree: 28%
 >title="메시지 고급 설정을 정의합니다."
 >abstract="이 섹션에서는 특히 고급 서식을 활성화한 경우 인앱 콘텐츠의 개인화를 향상할 수 있습니다."
 
-![](assets/in_app_content_8.png)
+![](assets/in_app_web_design_7.png)
 
 기본적으로 활성화되어 있는 UI 인계 옵션을 사용하면 인앱 메시지 뒤의 배경을 어둡게 하여 콘텐츠에 초점을 강조할 수 있습니다.
 
