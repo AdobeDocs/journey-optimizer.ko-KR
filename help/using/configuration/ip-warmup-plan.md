@@ -72,7 +72,7 @@ IP 준비 계획에 액세스하고, 만들고, 편집하고, 삭제하려면 �
 
 +++
 
-## IP 준비 계획 파일 준비 {#prepare-file}
+## IP 워밍업 플랜 파일 준비 {#prepare-file}
 
 IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP 및 도메인에서 주요 인터넷 서비스 공급자(ISP)로 나가는 이메일 양을 점차적으로 늘리는 작업입니다.
 
@@ -267,8 +267,8 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="IP 워밍업 플랜 지정"
->abstract="IP 준비 단계 및 목표 프로필 수와 같이 계획에 공급할 모든 데이터로 Excel 템플릿을 채우고 여기에 업로드합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="IP 준비 계획 파일 준비"
+>abstract="IP 워밍업 단계 및 목표 프로필 수와 같이 계획에 공급할 모든 데이터로 Excel 템플릿을 채우고 여기에 업로드합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="IP 워밍업 플랜 파일 준비"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
