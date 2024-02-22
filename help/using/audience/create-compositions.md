@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 16%
+source-wordcount: '444'
+ht-degree: 15%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 16%
 
    ![](assets/audiences-alerts.png)
 
-1. 컴포지션이 게시됩니다. 결과 대상자는 Adobe Experience Platform에 저장되고 Journey Optimizer 캠페인에서 타겟팅할 준비가 되었습니다. [캠페인 작업 방법 알아보기](../campaigns/get-started-with-campaigns.md)
+1. 컴포지션이 게시됩니다. 결과 대상자는 Adobe Experience Platform에 저장되며 Journey Optimizer에서 타깃팅할 준비가 되었습니다. [Journey Optimizer에서 대상을 타기팅하는 방법 알아보기](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ## 컴포지션 액세스 {#access}
 

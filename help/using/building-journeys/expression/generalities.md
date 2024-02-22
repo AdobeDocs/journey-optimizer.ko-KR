@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 구문, 편집기, 여정
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 3%
@@ -35,7 +35,7 @@ ht-degree: 3%
 다른 대소문자 구분 규칙은 다음과 같습니다.
 
 * 모든 연산자(및, 또는 등) 소문자로 작성해야 합니다. 예, _`<expression1>`및`<expression2>`_ 은 유효한 표현식이지만 표현식은 _`<expression1>`및`<expression2>`_ 아님.
-* 모든 함수 이름은 대소문자를 구분합니다. 예, _inSegment()_ 은 유효한 반면에 함수는 _INSEGMENT()_ 아님.
+* 모든 함수 이름은 대소문자를 구분합니다. 예, _inAudience()_ 은 유효한 반면에 함수는 _INAUDIENCE()_ 아님.
 * 필드 참조 및 상수 값은 대소문자를 구분합니다. 연산자 및 함수와 달리 언어의 기본 제공 요소가 아니며, 최종 사용자가 작성합니다.
 
 ## 반환된 표현식 유형{#returned-expression-type}

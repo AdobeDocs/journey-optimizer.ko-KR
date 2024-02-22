@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 시간대, 속성, 여정, 조건, 시간, 날짜, 사용자 정의
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 2%
 
 ---
@@ -32,11 +32,7 @@ ht-degree: 2%
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-시간대를 선택하거나 사용자 프로필에 정의된 시간대를 사용하도록 선택할 수 있습니다.
-
->[!NOTE]
->
->프로필 시간대는 **시간대** 에 있는 필드 **환경 설정 세부 정보** 필드 그룹입니다.
+다음을 선택할 수 있습니다. [고정 시간대](#fixed-timezone) 또는 표준 시간대를 사용하도록 선택 [사용자 프로필에 정의됨](#timezone-from-profiles).
 
 ## 고정 시간대 정의 {#fixed-timezone}
 
@@ -53,6 +49,10 @@ ht-degree: 2%
 여정에 대해 시간대가 정의된 경우 시간대를 검색하여 프로필에서 사용합니다. 시간대가 정의되어 있지 않으면 사용된 시간대는 시간대 필드에 정의된 시간대가 됩니다.
 
 ![](assets/journey73.png)
+
+>[!NOTE]
+>
+>프로필 시간대는 **시간대** 에 있는 필드 **환경 설정 세부 정보** 필드 그룹입니다.
 
 ## 표현식에 시간대 사용 {#timezone-in-expressions}
 

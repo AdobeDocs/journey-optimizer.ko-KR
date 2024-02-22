@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: cdcce470481393c821d1c5df95639602510a690a
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 43%
+source-wordcount: '1087'
+ht-degree: 38%
 
 ---
 
@@ -39,15 +39,11 @@ ht-degree: 43%
 
 ## 에서 대상 지정 [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-다음을 사용하여 생성된 Adobe Experience Platform 대상을 캠페인 및 여정에서 선택할 수 있습니다. [세그먼트 정의](../audience/creating-a-segment-definition.md).
+캠페인 및 여정에서 세그먼트 정의, CSV 파일 가져오기 또는 작성 워크플로우를 사용하여 생성된 대상을 선택할 수 있습니다.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->현재로서는 다음으로 인한 대상자 [대상자 구성](../audience/get-started-audience-orchestration.md) 캠페인에서만 타깃팅할 수 있습니다. 이 기능은 여정의 전용 베타로 사용할 수 있습니다.
->
->대상 사용 [csv 파일에서 업로드됨](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} 캠페인 및 여정에서 현재 개인 베타로 사용할 수 있습니다.
->
->자세한 내용은 Adobe 직원에게 문의하십시오.
+>대상 구성 및 사용자 지정 업로드(CSV 파일)의 대상 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다. [Journey Optimizer에서 대상자 강화 속성을 사용하는 방법 알아보기](../audience/about-audiences.md#enrichment)
 
 **[!DNL Journey Optimizer]**&#x200B;에서 다양한 방법으로 대상자를 활용할 수 있습니다.
 
@@ -62,6 +58,18 @@ ht-degree: 43%
   예를 들면 모든 신규 실버 고객이 여정에 입장하도록 하여 이들에게 메시지를 보낼 수 있습니다. 이 활동을 사용하는 자세한 방법은 [대상자 자격 조건 활동을 구성하는 방법 알아보기](../building-journeys/audience-qualification-events.md)를 참조하세요.
 
 * 여정에 **조건** 활동을 사용하면 대상자 멤버십을 기반으로 조건을 작성할 수 있습니다. [조건에서 대상자를 사용하는 방법을 알아봅니다](../building-journeys/condition-activity.md#using-a-segment).
+
+## Journey Optimizer에서 대상 강화 속성 사용 {#enrichment}
+
+작성 워크플로우 또는 사용자 지정 업로드(CSV 파일)를 사용하여 생성된 대상자를 타깃팅할 때 이러한 대상자의 데이터 보강 속성을 활용하여 여정을 구축하고 메시지를 개인화할 수 있습니다.
+
+* 타겟팅된 대상의 보강 속성을 활용하는 규칙을 기반으로 한 여정에 여러 경로를 만듭니다. 이렇게 하려면 다음을 사용하여 대상을 타깃팅합니다 [대상자 읽기](../building-journeys/read-audience.md) 활동 다음에 규칙 만들기 [조건](../building-journeys/condition-activity.md) 대상자의 데이터 보강 속성을 기반으로 한 활동.
+
+  ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
+
+* 표현식 편집기에서 타겟팅된 대상의 데이터 보강 속성을 추가하여 여정 또는 캠페인에서 메시지를 개인화할 수 있습니다. [표현식 편집기 작업 방법 알아보기](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 
 ## 대상자 평가 방법 {#evaluation-method-in-journey-optimizer}
 

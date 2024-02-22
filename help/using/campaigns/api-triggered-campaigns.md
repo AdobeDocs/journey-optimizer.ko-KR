@@ -9,19 +9,14 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 4%
+source-wordcount: '954'
+ht-degree: 2%
 
 ---
 
 # API를 사용하여 캠페인 트리거 {#trigger-campaigns}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_api_profile_creation"
->title="캠페인 유형"
->abstract="프로필을 만들지 않고 메시지를 보내는 제한된 가용성 기능을 사용하려면 설명서에 기재되어 있는 단계를 따르십시오."
 
 ## API 트리거 캠페인 기본 정보 {#about}
 
@@ -79,7 +74,7 @@ API 트리거 캠페인을 만들려면 아래 단계를 따르십시오. 캠페
 
 캠페인이 활성화되면 생성된 샘플 cURL 요청을 검색하고 API에 사용하여 페이로드를 빌드하고 캠페인을 트리거해야 합니다.
 
-1. 캠페인을 연 다음, 다음에서 샘플 요청을 복사하여 붙여넣습니다. **[!UICONTROL cURL 요청]** 섹션.
+1. 캠페인을 연 다음,에서 페이로드 요청을 복사하여 붙여넣습니다. **[!UICONTROL cURL 요청]** 섹션. 이 페이로드에는 메시지에 사용된 모든 개인화(프로필 및 컨텍스트) 변수가 포함됩니다. 캠페인이 라이브되면 사용할 수 있습니다.
 
    ![](assets/api-triggered-curl.png)
 

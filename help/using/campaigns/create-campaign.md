@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 34%
+source-wordcount: '969'
+ht-degree: 32%
 
 ---
 
@@ -126,9 +126,9 @@ ht-degree: 34%
 
 >[!IMPORTANT]
 >
->현재, 대상 사용 [csv 파일에서 가져옴](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 캠페인에서 비공개 베타로 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+>의 대상자 및 속성 사용 [대상자 구성](../audience/get-started-audience-orchestration.md) 및 [사용자 지정 업로드 (CSV 파일)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 는 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다. [Journey Optimizer에서 대상자 강화 속성을 사용하는 방법 알아보기](../audience/about-audiences.md#enrichment)
 >
->API 트리거 캠페인의 경우, API 호출을 통해 대상자를 설정해야 합니다. [자세히 알아보기](api-triggered-campaigns.md)
+>API 트리거 캠페인의 경우, API 호출을 통해 대상자를 설정해야 합니다.
 
 다음에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다.
 

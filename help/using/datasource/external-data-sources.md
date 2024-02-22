@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 65%
+source-wordcount: '1526'
+ht-degree: 64%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다.
+>이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 정의 작업을 사용해야 합니다.
 
 POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다. 그리고 API 키와 기본/사용자 지정 인증 모드가 지원됩니다.
 
@@ -69,7 +69,15 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
    ![](assets/journey27.png)
 
-1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL 인증 없음]**, **[!UICONTROL 기본]**, **[!UICONTROL 사용자 정의]** 또는 **[!UICONTROL API 키]**. 사용자 지정 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오. 이 예제에서는 다음 옵션을 선택합니다.
+1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL 인증 없음]**, **[!UICONTROL 기본]**, **[!UICONTROL 사용자 정의]** 또는 **[!UICONTROL API 키]**.
+
+   기본 인증 모드의 경우 사용자 이름과 암호를 입력해야 합니다.
+
+   >[!NOTE]
+   >
+   >인증 호출이 수행되면 `<username>:<password>` base64로 인코딩된 문자열이 Authentication 헤더에 추가됩니다.
+
+   사용자 지정 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오. 이 예제에서는 API 키 인증 모드를 선택합니다.
 
    * **[!UICONTROL 유형]**: &quot;API 키&quot;
    * **[!UICONTROL 이름]**: &quot;appid&quot;(API 키 매개 변수 이름)

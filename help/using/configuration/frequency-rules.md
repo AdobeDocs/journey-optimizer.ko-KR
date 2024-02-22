@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 09142fa8d8c48d9ba56ef03e6a97b0be3da45916
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1119'
 ht-degree: 10%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 10%
 
 [!DNL Journey Optimizer] 을 사용하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 크로스 채널 규칙을 설정하여 사용자가 메시지를 받거나 여정에 들어가는 빈도를 제어할 수 있습니다.
 
-예를 들어 브랜드의 경우 고객에게 매월 3개 이상의 마케팅 메시지를 보내지 않는 것이 규칙일 수 있습니다. 이렇게 하려면 월별 캘린더 기간 동안 하나 이상의 채널을 기반으로 전송된 메시지 수를 제한하는 빈도 규칙을 사용할 수 있습니다.
+예를 들어 브랜드의 경우 고객에게 매월 4개 이상의 마케팅 메시지를 보내지 않는 것이 규칙일 수 있습니다. 이렇게 하려면 월별 캘린더 기간 동안 하나 이상의 채널을 기반으로 전송된 메시지 수를 제한하는 빈도 규칙을 사용할 수 있습니다.
+
+![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
@@ -69,21 +71,17 @@ ht-degree: 10%
 
    ![](assets/message-rules-create.png)
 
-1. 규칙 이름을 정의합니다.
-
-   <!--![](assets/message-rules-details.png)-->
-   ![](assets/message-rules-details-temp.png)
-
-1. 메시지 규칙 범주를 선택합니다.
+1. 규칙 이름을 정의하고 메시지 규칙 범주를 선택합니다.
 
    >[!NOTE]
    >
    >현재는 **[!UICONTROL 마케팅]** 카테고리를 사용할 수 있습니다.
 
+   <!--![](assets/message-rules-details.png)-->
+
 1. 다음에서 **[!UICONTROL 기간]** 드롭다운 목록에서 적용할 캡핑에 대한 시간대를 선택합니다.
 
-   <!--![](assets/message-rules-capping-duration.png)-->
-   ![](assets/message-rules-capping-duration-temp.png)
+   ![](assets/message-rules-capping-duration.png)
 
    빈도 상한은 선택한 달력 기간을 기반으로 합니다. 해당 시간대의 시작 부분에서 재설정됩니다.
 
@@ -101,7 +99,7 @@ ht-degree: 10%
 
    <!--![](assets/message-rules-capping.png)-->
 
-1. 이 규칙에 사용할 채널 선택: **[!UICONTROL 이메일]** 또는 **[!UICONTROL 푸시 알림]**.
+1. 이 규칙에 사용할 채널 선택: **[!UICONTROL 이메일]**, **[!UICONTROL 푸시 알림]**, **[!UICONTROL SMS]** 또는 **[!UICONTROL 다이렉트 메일]**.
 
    ![](assets/message-rules-channels.png)
 
@@ -173,7 +171,7 @@ ht-degree: 10%
 
 1. [규칙 만들기](#create-new-rule) 호출됨 *전체 마케팅 한도*:
 
-   * 이메일 및 푸시 채널을 선택합니다.
+   * 모든 채널을 선택합니다.
    * 캡핑을 매월 12로 설정합니다.
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -187,9 +185,26 @@ ht-degree: 10%
 
 1. 저장 및 [활성화](#activate-rule) 규칙입니다.
 
-1. 이메일을 만들고 **[!UICONTROL 마케팅]** 해당 메시지의 범주. [자세히 알아보기](../email/create-email.md)
+1. [메시지 만들기](../building-journeys/journeys-message.md) 을(를) 통해 통신할 모든 채널에 대해 **[!UICONTROL 마케팅]** 각 메시지에 대한 범주 [빈도 규칙을 적용하는 방법 알아보기](#apply-frequency-rule)
 
-1. 푸시 알림을 만들고 **[!UICONTROL 마케팅]** 해당 메시지의 범주. [자세히 알아보기](../push/create-push.md)
+   ![](assets/journey-message-category.png)
+
+
+<!--
+Learn how to create a message for the different channels in the following sections:
+* [Create an email](../email/create-email.md)
+* [Create a push notification](../push/create-push.md)
+* [Create an SMS](../sms/create-sms.md)
+* [Create a direct mail](../direct-mail/create-direct-mail.md)
+
+Create an email and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../email/create-email.md)
+
+Create a push notification and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../push/create-push.md)
+
+Create an SMS and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../sms/create-sms.md)
+
+Create a direct mail and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../direct-mail/create-direct-mail.md)
+-->
 
 이 시나리오에서는 개별 프로필이
 * 은(는) 매월 최대 12개의 마케팅 메시지를 받을 수 있습니다.

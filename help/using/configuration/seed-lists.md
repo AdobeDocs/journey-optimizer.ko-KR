@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 시드 목록, 시드 목록, 시드, 구성
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '936'
 ht-degree: 16%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 16%
 >[!CAUTION]
 >
 >현재 이 기능은 이메일 채널에만 적용됩니다.
->
->변형은 현재 지원되지 않습니다. 타겟팅된 대상의 각 프로필과 마찬가지로, 시드 주소는 각 메시지의 단일 사본을 수신하지만 동일한 메시지의 모든 변형은 수신하지 않습니다(예: 의 다른 처리). [콘텐츠 실험](../campaigns/get-started-experiment.md)).
 
 시드 주소는 정의된 대상 기준과 일치하지 않는 수신자를 타겟팅 하는 데 사용됩니다. 이렇게 하면 게재 범위를 벗어난 수신자는 다른 대상 수신자와 마찬가지로 게재를 받을 수 있습니다.
 
@@ -47,6 +45,10 @@ ht-degree: 16%
 +++
 
 * 시드 목록을 사용하는 또 다른 이유는 메일링 목록 보호 때문입니다. 메일링 목록에 시드 주소를 삽입하면 포함된 시드 주소가 메일링 목록으로 전송된 게재를 수신하므로 타사에서 시드 주소를 사용하고 있는지 여부를 알 수 있습니다.
+
+>[!NOTE]
+>
+>변형이 지원됩니다. 시드 주소는 동일한 메시지의 각 변형(예: 의 다른 처리)의 단일 사본을 받습니다. [콘텐츠 실험](../campaigns/get-started-experiment.md)).
 
 ## 시드 목록 액세스 {#access-seed-lists}
 
@@ -128,7 +130,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->시드 주소로 전송된 메시지는 보고서에 포함되지 않습니다.
+>시드 주소로 전송된 메시지는 여정 또는 캠페인 보고서에 포함되지 않습니다.
 
 1. 서피스를 생성하고 **[!UICONTROL 이메일]** 채널. [자세히 알아보기](../email/email-settings.md)
 

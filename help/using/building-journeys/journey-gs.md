@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1803'
 ht-degree: 16%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 16%
 
 * 사용 **[!UICONTROL 게시 필터]** 게시 날짜 또는 사용자를 선택합니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전을 표시하도록 선택할 수 있습니다.
 
-  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+  특정 날짜 범위를 기준으로 여정을 필터링하려면 다음을 선택합니다. **[!UICONTROL 사용자 정의]** 다음에서 **[!UICONTROL 게시됨]** 드롭다운 목록입니다.
 
 또한 이벤트, 데이터 소스 및 작업 구성 창에서는 **[!UICONTROL 다음에서 사용됨]** 필드는 해당 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정 수를 표시합니다. **[!UICONTROL 여정 보기]** 버튼을 클릭하여 해당 여정의 목록을 표시할 수 있습니다.
 
@@ -130,7 +130,7 @@ ht-degree: 16%
 >title="여정 속성"
 >abstract="이 섹션은 여정 속성을 보여 줍니다. 기본적으로 읽기 전용 매개변수는 숨겨져 있습니다. 사용 가능한 설정은 여정 상태, 권한 및 제품 구성에 따라 다릅니다."
 
-오른쪽 상단의 연필 아이콘을 클릭하여 여정 속성에 액세스합니다.
+여정 이름 옆의 연필 아이콘을 클릭하여 속성에 액세스합니다.
 
 여정 이름을 변경하고, 설명을 추가하고, 재입력을 허용하고, 시작 및 종료 날짜를 선택하고, 관리자 권한으로 **[!UICONTROL 시간 제한 및 오류]** 기간. 여정에 Adobe Experience Platform 통합 태그를 할당할 수도 있습니다. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
 

@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f34eabfb4eb6d7486819cbc8435844b1ef983af3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 14%
+source-wordcount: '1518'
+ht-degree: 11%
 
 ---
 
@@ -59,7 +59,9 @@ SMS 채널 구성 전에 이러한 공급자 중 하나로 계정을 만들어�
 >title="SMS 공급업체 구성 선택"
 >abstract="SMS 공급업체에 맞게 구성된 API 자격 증명을 선택합니다."
 
-Journey Optimizer을 사용하여 SMS 공급자를 구성하려면 다음 단계를 수행합니다.
+### Sinch {#sinch-api}
+
+Journey Optimizer으로 Sinch를 구성하려면 다음 단계를 수행합니다.
 
 1. 왼쪽 레일에서 다음을 찾습니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 및 선택 **[!UICONTROL API 자격 증명]** 메뉴 아래의 제품에서 사용할 수 있습니다. 다음을 클릭합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
 
@@ -67,63 +69,98 @@ Journey Optimizer을 사용하여 SMS 공급자를 구성하려면 다음 단계
 
 1. 아래에 자세히 설명된 대로 SMS API 자격 증명을 구성합니다.
 
-   ![](assets/sms_7.png)
+   * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
 
-   * +++ 대상 **[!DNL Sinch]**
+   * **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**: API 페이지에 액세스하면 SMS 탭 아래에서 자격 증명을 찾을 수 있습니다. 다음에서 자세히 알아보기 [Sinch 설명서](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
 
-      * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
+   * **[!UICONTROL 옵트인 키워드]**: 를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. **[!UICONTROL 옵트인 메시지]**. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오.
 
-      * **[!UICONTROL 서비스 ID]** 및 **[!UICONTROL API 토큰]**: API 페이지에 액세스하면 SMS 탭 아래에서 자격 증명을 찾을 수 있습니다. 다음에서 자세히 알아보기 [Sinch 설명서](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+   * **[!UICONTROL 옵트인 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **[!UICONTROL 옵트인 메시지]**.
 
-      * **[!UICONTROL 옵트인 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **[!UICONTROL 옵트인 메시지]**.
+   * **[!UICONTROL 옵트아웃 키워드]**: 를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. **[!UICONTROL 옵트아웃 메시지]**. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오.
 
-      * **[!UICONTROL 옵트아웃 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **[!UICONTROL 옵트아웃 메시지]**.
+   * **[!UICONTROL 옵트아웃 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **[!UICONTROL 옵트아웃 메시지]**.
 
-      * **[!UICONTROL 도움말 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **도움말 메시지**.
+   * **[!UICONTROL 도움말 키워드]**: 를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. **도움말 메시지**. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오.
 
-      * **[!UICONTROL 이중 옵트인 키워드]**: 이중 옵트인 프로세스를 트리거하는 키워드를 입력합니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. [SMS 이중 옵트인에 대해 자세히 알아보기](https://video.tv.adobe.com/v/3427129/?learn=on).
+   * **[!UICONTROL 도움말 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **도움말 메시지**.
 
-      * **[!UICONTROL 이중 옵트인 메시지]**: 이중 옵트인 확인에 응답하여 자동으로 전송되는 사용자 지정 응답을 입력합니다.
-+++
+   * **[!UICONTROL 이중 옵트인 키워드]**: 이중 옵트인 프로세스를 트리거하는 키워드를 입력합니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. [SMS 이중 옵트인에 대해 자세히 알아보기](https://video.tv.adobe.com/v/3427129/?learn=on).
 
-   * +++ 대상 **[!DNL Twilio]**
+   * **[!UICONTROL 이중 옵트인 메시지]**: 이중 옵트인 확인에 응답하여 자동으로 전송되는 사용자 지정 응답을 입력합니다.
 
-      * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
+1. 클릭 **[!UICONTROL 제출]** api 자격 증명 구성을 완료한 경우입니다.
 
-      * **[!UICONTROL 계정 SID]** 및 **[!UICONTROL 인증 토큰]**: Twilio 콘솔 대시보드 페이지의 계정 정보 창에 액세스하여 자격 증명을 찾을 수 있습니다.
-
-      * **[!UICONTROL 메시지 SID]**: Twilio의 API에서 만든 모든 메시지에 할당된 고유 식별자를 입력합니다. 다음에서 자세히 알아보기 [Twilio 설명서](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
-
-+++
-
-   * +++ 대상 **[!DNL Infobip]**
-
-      * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
-
-      * **[!UICONTROL API 기본 URL]** 및 **[!UICONTROL API 토큰]**: 웹 인터페이스 홈 페이지 또는 API 키 관리 페이지에 액세스하여 자격 증명을 찾을 수 있습니다. 다음에서 자세히 알아보기 [Infobip 설명서](https://www.infobip.com/docs/api){target="_blank"}.
-
-      * **[!UICONTROL 이중 옵트인 키워드]**: 이중 옵트인 프로세스를 트리거하는 키워드를 입력합니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오.
-
-      * **[!UICONTROL 이중 옵트인 메시지]**: 이중 옵트인 확인에 응답하여 자동으로 전송되는 사용자 지정 응답을 입력합니다.
-
-      * **[!UICONTROL 주체 엔티티 ID]**: 할당된 DLT 주체 엔티티 ID를 입력합니다.
-
-      * **[!UICONTROL 컨텐츠 템플릿 ID]**: 등록된 DLT 콘텐츠 템플릿 ID를 입력합니다.
-
-      * **[!UICONTROL 유효 기간]**: 메시지 유효 기간을 시간 단위로 입력합니다. 이 기간 내에 메시지를 게재할 수 없는 경우 시스템에서 다시 전송을 시도합니다. 기본 유효 기간은 48시간으로 설정됩니다.
-
-      * **[!UICONTROL 콜백 데이터]**: 알림 URL에 전송할 추가 클라이언트 데이터를 입력합니다.
-+++
+API 자격 증명을 만들고 구성한 후에는 SMS 메시지에 대한 채널 표면(즉, 메시지 사전 설정)을 만들어야 합니다.
 
 <!--
-    * +++ For **[!DNL Sinch MMS]**
+### Sinch MMS
+
+For **[!DNL Sinch MMS]**
 
         * **[!UICONTROL Name]**: choose a name for your API Credential.
 
         * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
-
-        +++ 
 -->
+
+### 트빌리오 {#twilio-api}
+
+Journey Optimizer으로 Twilio를 구성하려면 다음 단계를 수행합니다.
+
+1. 왼쪽 레일에서 다음을 찾습니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 및 선택 **[!UICONTROL API 자격 증명]** 메뉴 아래의 제품에서 사용할 수 있습니다. 다음을 클릭합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
+
+   ![](assets/sms_6.png)
+
+1. 아래에 자세히 설명된 대로 SMS API 자격 증명을 구성합니다.
+
+   * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
+
+   * **[!UICONTROL 계정 SID]** 및 **[!UICONTROL 인증 토큰]**: 액세스 **계정 정보** 자격 증명을 찾을 수 있는 Twilio 콘솔 대시보드 페이지의 창입니다.
+
+   * **[!UICONTROL 메시지 SID]**: Twilio의 API에서 만든 모든 메시지에 할당된 고유 식별자를 입력합니다. 다음에서 자세히 알아보기 [Twilio 설명서](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+
+1. 클릭 **[!UICONTROL 제출]** api 자격 증명 구성을 완료한 경우입니다.
+
+API 자격 증명을 만들고 구성한 후에는 SMS 메시지에 대한 채널 표면(즉, 메시지 사전 설정)을 만들어야 합니다.
+
+### 정보 피드 {#infobip-api}
+
+Journey Optimizer을 사용하여 Infobip을 구성하려면 다음 단계를 수행합니다.
+
+1. 왼쪽 레일에서 다음을 찾습니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 및 선택 **[!UICONTROL API 자격 증명]** 메뉴 아래의 제품에서 사용할 수 있습니다. 다음을 클릭합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
+
+   ![](assets/sms_6.png)
+
+1. 아래에 자세히 설명된 대로 SMS API 자격 증명을 구성합니다.
+
+   * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
+
+   * **[!UICONTROL API 기본 URL]** 및 **[!UICONTROL API 키]**: 웹 인터페이스 홈 페이지 또는 API 키 관리 페이지에 액세스하여 자격 증명을 찾을 수 있습니다. 다음에서 자세히 알아보기 [Infobip 설명서](https://www.infobip.com/docs/api){target="_blank"}.
+
+   * **[!UICONTROL 옵트인 키워드]**: 를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. **[!UICONTROL 옵트인 메시지]**. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오.
+
+   * **[!UICONTROL 옵트인 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **[!UICONTROL 옵트인 메시지]**.
+
+   * **[!UICONTROL 옵트아웃 키워드]**: 를 자동으로 트리거할 기본 또는 키워드를 입력합니다. **[!UICONTROL 옵트아웃 메시지]**. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오.
+
+   * **[!UICONTROL 옵트아웃 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **[!UICONTROL 옵트아웃 메시지]**.
+
+   * **[!UICONTROL 도움말 키워드]**: 를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. **도움말 메시지**. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오.
+
+   * **[!UICONTROL 도움말 메시지]**: (으)로 자동으로 전송되는 사용자 지정 응답을 입력합니다. **도움말 메시지**.
+
+   * **[!UICONTROL 이중 옵트인 키워드]**: 이중 옵트인 프로세스를 트리거하는 키워드를 입력합니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오.
+
+   * **[!UICONTROL 이중 옵트인 메시지]**: 이중 옵트인 확인에 응답하여 자동으로 전송되는 사용자 지정 응답을 입력합니다.
+
+   * **[!UICONTROL 주체 엔티티 ID]**: 할당된 DLT 주체 엔티티 ID를 입력합니다.
+
+   * **[!UICONTROL 컨텐츠 템플릿 ID]**: 등록된 DLT 콘텐츠 템플릿 ID를 입력합니다.
+
+   * **[!UICONTROL 유효 기간]**: 메시지 유효 기간을 시간 단위로 입력합니다. 이 기간 내에 메시지를 게재할 수 없는 경우 시스템에서 다시 전송을 시도합니다. 기본 유효 기간은 48시간으로 설정됩니다.
+
+   * **[!UICONTROL 콜백 데이터]**: 알림 URL에 전송할 추가 클라이언트 데이터를 입력합니다.
+
 1. 클릭 **[!UICONTROL 제출]** api 자격 증명 구성을 완료한 경우입니다.
 
 API 자격 증명을 만들고 구성한 후에는 SMS 메시지에 대한 채널 표면(즉, 메시지 사전 설정)을 만들어야 합니다.

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1854'
 ht-degree: 2%
 
 ---
@@ -17,13 +17,19 @@ ht-degree: 2%
 
 사용 [!DNL Journey Optimizer] 계산, 데이터 서식 지정 또는 전환, 조건 등 데이터에 대한 작업을 수행하고 개인화 컨텍스트에서 이를 조작하기 위한 언어를 템플릿화합니다. 에서 개인화 구문 지침 알아보기 [이 페이지](../personalization-syntax.md).
 
+
+
 ➡️ [이 비디오에서 도우미 함수를 사용하는 방법에 대해 알아봅니다.](#video)
 
-템플릿 언어는 다음과 같이 표현식 편집기의 개인화 드롭다운 목록에서 사용할 수 있는 도우미 함수에서 활용됩니다.
+템플릿 언어는 아래와 같이 개인화 편집기의 개인화 드롭다운 목록에서 사용할 수 있는 도우미 함수에서 활용됩니다.
 
 ![](../assets/access-helper-functions.png)
 
-다음에서 [!DNL Journey Optimizer] 표현식 편집기, 도우미 함수는 다음 세 가지 범주로 그룹화됩니다. [함수](#functions-helper), [도우미](#helper-helper) 및 [연산자](#operators-helper).
+>[!NOTE]
+>
+>개인화 편집기에서 사용할 수 있는 기능 및 기능은에서 사용할 수 있는 기능과 다릅니다. [여정 고급 표현식 편집기](../../building-journeys/expression/expressionadvanced.md).
+
+다음에서 [!DNL Journey Optimizer] 개인화 편집기, 도우미 함수는 다음 세 가지 카테고리로 그룹화됩니다. [함수](#functions-helper), [도우미](#helper-helper) 및 [연산자](#operators-helper).
 
 카테고리를 선택하여 하위 카테고리 및 기능에 액세스합니다.
 

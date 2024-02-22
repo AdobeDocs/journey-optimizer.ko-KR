@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 18%
+source-wordcount: '320'
+ht-degree: 17%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 18%
 * 여정 필드
 * 프로필 필드
 * 서비스 이벤트 필드
+
+identityMap 속성의 경우 기본 ID는 기본적으로 &quot;primary = true&quot;로 정의됩니다.
 
 ## debugInfo {#debuginfo-field}
 

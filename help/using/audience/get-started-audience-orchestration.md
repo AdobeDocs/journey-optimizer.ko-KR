@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 67%
 
 ---
 
@@ -30,15 +30,15 @@ ht-degree: 100%
 
 대상자 구성 기능으로 **구성 워크플로우**&#x200B;를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 제외...)을 활용하여 새 대상자를 만들 수 있습니다.
 
-완료되면 **결과 대상자**&#x200B;는 기존 대상자와 함께 다시 Adobe Experience Platform에 저장되며, 이를 **캠페인에서 활용**&#x200B;하여 고객을 타겟팅할 수 있습니다. [캠페인 작업 방법 알아보기](../campaigns/get-started-with-campaigns.md)
+완료되면 **결과 대상자** 는 기존 대상과 함께 Adobe Experience Platform에 저장되며 Journey Optimizer 캠페인 및 여정에서 타겟 고객에게 활용될 수 있습니다. [Journey Optimizer에서 대상을 타기팅하는 방법 알아보기](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->현재 구성 워크플로우에서 만든 대상자를 여정에 사용하는 기능은 Private Beta로 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+>대상 구성 및 사용자 지정 업로드의 대상 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다. [Journey Optimizer에서 대상자 강화 속성을 사용하는 방법 알아보기](../audience/about-audiences.md#enrichment)
 >
->Adobe Journey Optimizer의 캠페인은 아직 정책 시행 서비스와 통합되지 않았습니다. 따라서 대상자 속성에 적용하는 데이터 사용 레이블은 Journey Optimizer 캠페인에 적용되지 않습니다.
+>데이터 보강 속성은 아직 정책 시행 서비스와 통합되지 않았습니다. 따라서 데이터 보강 속성에 적용하는 데이터 사용 레이블은 Journey Optimizer 캠페인 또는 여정에 적용되지 않습니다.
 
 대상자 구성 기능은 Adobe Journey Optimizer의 **[!UICONTROL 대상자]** 메뉴에서 액세스할 수 있습니다.
 

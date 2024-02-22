@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 7%
+source-wordcount: '1427'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 * 에서는 일괄 대상만 사용하는 것이 좋습니다. **대상자 읽기** 활동. 이렇게 하면 여정에 사용된 대상자에 대해 안정적이고 일관된 카운트를 제공합니다. 대상자 읽기는 일괄 사용 사례용으로 설계되었습니다. 사용 사례에 실시간 데이터가 필요한 경우 **[대상 자격 조건](audience-qualification-events.md)** 활동.
 
-* 현재, 대상 사용 [csv 파일에서 가져옴](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 다음의 결과물 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md) 인앱 여정은 비공개 베타로 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+* 대상 [csv 파일에서 가져옴](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 다음의 결과물 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md) 에서 선택할 수 있습니다. **대상자 읽기** 활동. 이들 대상자는 다음에서 사용할 수 없습니다. **대상 자격 조건** 활동.
 
 ## 활동 구성 {#configuring-segment-trigger-activity}
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >또한 을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다. [대상자 구성](../audience/get-started-audience-orchestration.md) 또는 [csv 파일에서 업로드됨](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 이 기능은 현재 Private Beta로 사용할 수 있습니다.
+   >또한 을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다. [대상자 구성](../audience/get-started-audience-orchestration.md) 또는 [csv 파일에서 업로드됨](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    목록에 표시되는 열을 사용자 정의하고 정렬할 수 있습니다.
 

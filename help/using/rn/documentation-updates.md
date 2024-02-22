@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '4604'
-ht-degree: 99%
+source-wordcount: '4729'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,13 @@ ht-degree: 99%
 ## 2024년 2월 {#feb-2024}
 
 * 컨텍스트 데이터를 기반으로 오퍼의 표현을 개인화하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../offers/offer-library/add-representations.md#context-data)
+* 보호 페이지에 요청 또는 응답 페이로드를 사용할 때만 JSON 형식을 지원하는 사용자 지정 작업에 대한 메모를 업데이트했습니다. [자세히 보기](../start/guardrails.md#custom-actions-g)
+* 외부 데이터 소스의 기본 인증 유형에 대한 추가 정보를 추가했습니다. [자세히 보기](../datasource/external-data-sources.md)
+* 을(를) 명확하게 구분할 수 있도록 메모가 추가되었습니다. [여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md) 다음에서 [개인화 편집기](../personalization/functions/functions.md).
+* 고급 표현식 편집기에서 사용할 수 있는 함수 목록이 업데이트되었습니다. [자세히 보기](../building-journeys/expression/functions.md)
+* 분할 함수의 페이지가 업데이트되었습니다. [자세히 보기](../building-journeys/functions/functioninaudience.md)
+* 푸시 알림의 옵트인 또는 옵트아웃이 인앱 메시지에 미치는 영향에 대한 정보를 추가했습니다. [자세히 보기](../in-app/create-in-app.md)
+* 사용자 인터페이스에서 사용 가능한 기간 옵션(주별 또는 월별)을 반영하도록 메시지 빈도 규칙 페이지가 업데이트되었습니다. [자세히 보기](../configuration/frequency-rules.md)
 
 ## 2024년 1월 {#jan-2024}
 
@@ -321,7 +328,7 @@ ht-degree: 99%
 
 ## 2021년 9월 {#september-2021}
 
-* 함수 페이지 업데이트: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninsegment.md)
+* 함수 페이지 업데이트: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninaudience.md)
 
 * 함수 추가: [filter](../building-journeys/functions/functionfilter.md), [intersect](../building-journeys/functions/functionintersect.md), [toDateOnly](../building-journeys/functions/functiontodateonly.md)
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 17%
+source-wordcount: '1451'
+ht-degree: 22%
 
 ---
 
@@ -35,12 +35,14 @@ ht-degree: 17%
 
 또한 사용자 지정 작업 매개 변수에는 예상 형식(예: 문자열, 십진수 등)이 있습니다. 이러한 예상 형식을 준수하도록 주의해야 합니다. 자세히 알아보기 [사용 사례](../building-journeys/collections.md).
 
+사용자 지정 작업은 을 사용하는 경우에만 JSON 형식을 지원합니다. [요청](../action/about-custom-action-configuration.md#define-the-message-parameters) 또는 [응답 페이로드](../action/action-response.md).
+
 ## 모범 사례{#custom-action-enhancements-best-practices}
 
-사용자 지정 작업을 사용하여 타깃팅할 끝점을 선택할 때 다음을 확인하십시오.
+사용자 정의 작업을 사용하여 타깃팅할 엔드포인트를 선택할 때 다음을 확인하십시오.
 
-* 이 끝점은 의 구성을 사용하여 여정의 처리량을 지원할 수 있습니다. [제한 API](../configuration/throttling.md) 또는 [최대 가용량 API](../configuration/capping.md) 제한. 제한 구성은 200TPS 미만으로 내려갈 수 없습니다. 타겟팅된 모든 엔드포인트는 최소 200개의 TPS를 지원해야 합니다.
-* 이 끝점은 가능한 한 낮은 응답 시간을 가져야 합니다. 예상 처리량에 따라 응답 시간이 길면 실제 처리량에 영향을 줄 수 있습니다.
+* 이 엔트포인트는 제한하는 [Throttling API](../configuration/throttling.md) 또는 [Capping API](../configuration/capping.md)의 구성을 사용하여 여정의 처리량을 지원할 수 있습니다. 스로틀링 구성은 200TPS 미만일 수 없습니다. 타겟팅된 모든 엔드포인트는 최소 200개의 TPS를 지원해야 합니다.
+* 이 엔드포인트는 가능한 한 낮은 응답 시간을 가져야 합니다. 예상 처리량에 따라 응답 시간이 길면 실제 처리량에 영향을 줄 수 있습니다.
 
 모든 사용자 지정 작업에 대해 1분 동안 30만 번의 최대 호출 제한이 정의됩니다. 또한 기본 캡핑은 호스트 및 샌드박스 별로 수행됩니다. 예를 들어 한 샌드박스에서 동일한 호스트를 사용하는 두 개의 엔드포인트가 있는 경우(예: `https://www.adobe.com/endpoint1` 및 `https://www.adobe.com/endpoint2`) 빈도 설정은 adobe.com 호스트 아래의 모든 엔드포인트에 대해 적용됩니다. &quot;endpoint1&quot;과 &quot;endpoint2&quot;는 동일한 최대 가용량 구성을 공유하며 한 끝점이 한도에 도달하면 다른 끝점에 영향을 줍니다.
 
@@ -117,7 +119,9 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
 
 1. 헤더 및 쿼리 매개 변수를 정의합니다.
 
-   * 다음에서 **[!UICONTROL 헤더]** 섹션, 클릭 **[!UICONTROL 헤더 필드 추가]** 외부 서비스로 보낼 요청 메시지의 HTTP 헤더를 정의합니다. 다음 **[!UICONTROL Content-Type]** 및 **[!UICONTROL Charset]** 헤더 필드는 기본적으로 설정됩니다. 이러한 필드는 수정하거나 삭제할 수 없습니다.
+   * 다음에서 **[!UICONTROL 헤더]** 섹션, 클릭 **[!UICONTROL 헤더 필드 추가]** 외부 서비스로 보낼 요청 메시지의 HTTP 헤더를 정의합니다. 다음 **[!UICONTROL Content-Type]** 및 **[!UICONTROL Charset]** 헤더 필드는 기본적으로 설정됩니다. 이러한 필드는 삭제할 수 없습니다. 만 **[!UICONTROL Content-Type]** 머리글은 수정할 수 있습니다. 해당 값은 JSON 형식을 준수해야 합니다. 기본값은 다음과 같습니다.
+
+   ![](assets/content-type-header.png)
 
    * 다음에서 **[!UICONTROL 쿼리 매개 변수]** 섹션, 클릭 **[!UICONTROL 쿼리 매개 변수 필드 추가]** 를 사용하여 URL에 추가할 매개 변수를 정의할 수 있습니다.
 

@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 함수, 표현식, 편집기, 여정
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 71%
+source-wordcount: '185'
+ht-degree: 70%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 71%
 
 | 카테고리 | 함수 |
 |-------------|-----------------------|
-| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| Adobe Experience Platform | [inAudience](../functions/functioninaudience.md) |
 | 집계 | [avg](../functions/functionavg.md) |
 | 집계 | [count](../functions/functioncount.md) |
 | 집계 | [countOnlyNull](../functions/functioncountonlynull.md) |
@@ -67,7 +67,7 @@ ht-degree: 71%
 | 목록 | [getListItem](../functions/functiongetlistitem.md) |
 | 목록 | [in](../functions/functionin.md) |
 | 목록 | [교차](../functions/functionintersect.md) |
-| 목록 | [listSize](../functions/functionlimit.md) |
+| 목록 | [제한](../functions/functionlimit.md) |
 | 목록 | [listSize](../functions/functionlistsize.md) |
 | 목록 | [serializeList](../functions/functionserializelist.md) |
 | 목록 | [sort](../functions/functionsort.md) |
@@ -89,6 +89,7 @@ ht-degree: 71%
 | 문자열 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | 문자열 | [replace](../functions/functionreplace.md) |
 | 문자열 | [replaceAll](../functions/functionreplaceall.md) |
+| 문자열 | [split](../functions/functionsplit.md) |
 | 문자열 | [startWith](../functions/functionstartwith.md) |
 | 문자열 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
 | 문자열 | [substr](../functions/functionsubstr.md) |

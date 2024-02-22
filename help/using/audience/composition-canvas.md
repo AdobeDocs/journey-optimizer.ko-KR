@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 29%
+source-wordcount: '1521'
+ht-degree: 28%
 
 ---
 
@@ -151,6 +151,7 @@ ht-degree: 29%
 * **데이터 세트** 데이터 보강의 경우 레코드 유형(이벤트 유형이 아님)이어야 하며 시스템 데이터 세트이거나 프로필로 표시할 수 없습니다. 1GB 미만이어야 합니다.
 * **데이터 보강 - 1:1 조인 지원**. 즉, 조인 키에 데이터 보강 데이터 세트에 대한 일치 항목이 두 개 이상 있으면 시스템에서 일치 항목 중 하나를 선택하여 1:1 조인에 사용합니다.
 * **RTCDP 대상에서 대상을 활성화할 수 있습니다.**, 하지만 데이터 보강 속성은 있을 경우 가능하지 않습니다.
+* 데이터 보강 속성은 아직 정책 시행 서비스와 통합되지 않았습니다. 따라서 데이터 보강 속성에 적용하는 데이터 사용 레이블은 Journey Optimizer 캠페인 또는 여정에 적용되지 않습니다.
 
 활동을 구성하려면 다음 단계를 수행합니다.
 
