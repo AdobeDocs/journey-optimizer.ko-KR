@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 9%
@@ -41,7 +41,7 @@ API를 사용하여 콘텐츠 템플릿을 만들고 관리할 수도 있습니�
 
 콘텐츠 템플릿 목록에 액세스하려면 다음을 선택합니다. **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 콘텐츠 템플릿]** 왼쪽 메뉴에서
 
-![](../email/assets/content-template-list.png)
+![](assets/content-template-list.png)
 
 현재 샌드박스에서 만든 모든 템플릿(여정 또는 을 사용하는 캠페인) **[!UICONTROL 템플릿으로 저장]** 다음 중 하나의 선택 사항: **[!UICONTROL 콘텐츠 템플릿]** 메뉴 - 가 표시됩니다. [템플릿을 만드는 방법 알아보기](#create-content-templates)
 
@@ -67,7 +67,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 * 템플릿 컨텐츠를 편집하려면 목록에서 원하는 항목을 클릭하고 다음을 선택합니다 **[!UICONTROL 콘텐츠 편집]**.
 
-  ![](../email/assets/content-template-edit.png)
+  ![](assets/content-template-edit.png)
 
 * 템플릿을 삭제하려면 **[!UICONTROL 추가 작업]** 원하는 템플릿 옆에 있는 버튼을 선택하고 **[!UICONTROL 삭제]**.
 
@@ -202,7 +202,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 1. 클릭 **[!UICONTROL 콘텐츠 시뮬레이션]** 그리고 테스트 프로필을 선택하여 렌더링을 확인합니다. [자세히 알아보기](../content-management/preview-test.md)
 
-   ![](../email/assets/content-template-stimulate.png)
+   ![](assets/content-template-stimulate.png)
 
 1. 여정 또는 캠페인에서 사용하기 전에 증명을 전송하여 콘텐츠를 테스트하고 일부 내부 사용자에 의해 승인받을 수 있습니다.
 
@@ -210,7 +210,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
    * 증명을 보내기 전에 [이메일 표면](../configuration/channel-surfaces.md) 콘텐츠를 테스트하는 데 사용됩니다.
 
-     ![](../email/assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 >[!CAUTION]
 >
