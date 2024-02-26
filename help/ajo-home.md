@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
+source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 68%
+source-wordcount: '385'
+ht-degree: 73%
 
 ---
 
@@ -20,27 +20,27 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB 1월 릴리스가 공개되었습니다!]
+>[!TAB 2월 릴리스 예정일]
 
-Adobe Journey Optimizer 24.1 릴리스의 새로운 기능과 향상된 기능을 살펴보십시오.
+Adobe Journey Optimizer 24.2 릴리스의 새로운 기능과 향상된 기능을 살펴보십시오.
 
-[![이미지](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 필수 DMARC 업데이트]
+>[!TAB 웹 인앱 메시지]
 
-시행 중인 업계 모범 사례의 일부로서 Google 및 Yahoo! 두 가지 모두 다음을 수행해야 합니다. **레코드** (으)로 이메일을 보내는 데 사용하는 모든 도메인의 경우 시작 **2024년 2월 1일**. Journey Optimizer에서 Adobe에 위임한 모든 하위 도메인에 DMARC 레코드가 설정되어 있는지 확인해 주세요.
+이제 새로운 웹 인앱 메시지 기능을 사용하여 양식 오버레이 메시지를 통해 웹 사이트에 직접 개인화된 콘텐츠를 표시할 수 있습니다. 이 기능을 사용하면 웹 방문자와 효과적으로 상호 작용하여 사용자 상호 작용, 보존 및 전환율을 향상시킬 수 있습니다.
 
-[![이미지](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+![](using/rn/assets/do-not-localize/web_inapp.gif)
 
->[!TAB 사용 사례 플레이북]
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
 
-Real-Time CDP 및 Journey Optimizer의 산업별 사용 사례 플레이북 카탈로그를 활용하여 Adobe Experience Platform 및 Adobe 여정 최적기를 사용하여 수행할 수 있는 일반적인 사용 사례를 해결합니다.
+>[!TAB 멀티채널 콘텐츠 템플릿]
 
-요구 사항에 가장 적합한 플레이북을 선택하면 여정, 메시지, 스키마 또는 세그먼트와 같은 사용 사례를 지원하는 데 필요한 자산을 생성하고, 가치 창출 시간을 단축하기 위해 스키마에 맞게 사용자 지정할 수 있습니다.
+이제 이메일 외에도 푸시, 인앱, SMS 및 DM 채널에 콘텐츠 템플릿을 사용할 수 있습니다. 각 채널에는 전용 템플릿 유형이 있습니다. 이메일의 경우 이제 제목 줄을 이메일 템플릿의 일부로 저장할 수 있는 콘텐츠 유형을 선택할 수 있습니다.
 
-![사용 사례 플레이북을 보여 주는 애니메이션 이미지](using/rn/assets/do-not-localize/playbooks.gif)
+![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 
-[![이미지](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
