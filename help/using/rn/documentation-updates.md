@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '4743'
-ht-degree: 97%
+source-wordcount: '4778'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 97%
 * 분할 함수의 페이지가 업데이트되었습니다. [자세히 보기](../building-journeys/functions/functioninaudience.md)
 * 푸시 알림의 옵트인 또는 옵트아웃이 인앱 메시지에 미치는 영향에 대한 정보를 추가했습니다. [자세히 보기](../in-app/create-in-app.md)
 * 사용자 인터페이스에서 사용 가능한 기간 옵션(주별 또는 월별)을 반영하도록 메시지 빈도 규칙 페이지가 업데이트되었습니다. [자세히 보기](../configuration/frequency-rules.md)
+* PTR 레코드 편집 섹션을 업데이트하여 PTR 레코드를 수동으로 만들 수 없으며 새 하위 도메인을 할당하기 위해 PTR 레코드를 편집해야 한다는 사실을 명확히 설명했습니다. [자세히 보기](using/configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024년 1월 {#jan-2024}
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, PTR, 레코드, DNS, 도메인, 메일
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '840'
 ht-degree: 9%
 
 ---
@@ -50,7 +50,11 @@ PTR 기록을 사용하여 수신 메일 서버는 해당 IP 주소가 서버가
 
 ## PTR 기록 편집 {#edit-ptr-record}
 
-PTR 레코드를 수정하여 IP 주소와 연결된 하위 도메인을 편집할 수 있습니다.
+위치 [!DNL Journey Optimizer], PTR 레코드를 수동으로 생성할 수 없습니다. 대신, [위임](delegate-subdomain.md) Adobe, PTR 레코드를 위한 첫 번째 하위 도메인이 IP에 대해 자동으로 생성됩니다.
+
+각 IP는 단일 PTR 레코드를 수신합니다. 모든 PTR 레코드의 형식은 &#39;rxx.subdomain&#39;입니다. 여기서 &#39;subdomain&#39;은 위임한 첫 번째 하위 도메인입니다. [!DNL Journey Optimizer].
+
+추가 하위 도메인을 만들 때 하나 이상의 PTR 레코드를 수정하고 새 하위 도메인을 할당해야 합니다. 그 방법은 다음과 같습니다.
 
 >[!CAUTION]
 >
