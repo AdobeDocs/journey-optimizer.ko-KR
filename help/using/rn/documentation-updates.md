@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
 workflow-type: tm+mt
-source-wordcount: '4729'
+source-wordcount: '4743'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 97%
 
 ## 2024년 2월 {#feb-2024}
 
+* Journey Optimizer + Workfront 통합이 통합 페이지에 추가되었습니다. [자세히 보기](../start/ajo-integrations.md)
 * 컨텍스트 데이터를 기반으로 오퍼의 표현을 개인화하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../offers/offer-library/add-representations.md#context-data)
 * 보호 페이지에 요청 또는 응답 페이로드를 사용할 때만 JSON 형식을 지원하는 사용자 지정 작업에 대한 메모를 업데이트했습니다. [자세히 보기](../start/guardrails.md#custom-actions-g)
 * 외부 데이터 소스의 기본 인증 유형에 대한 추가 정보를 추가했습니다. [자세히 보기](../datasource/external-data-sources.md)
