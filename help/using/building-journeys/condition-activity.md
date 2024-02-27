@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1484'
 ht-degree: 17%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 17%
 
 이렇게 하면 데이터 소스의 필드 또는 여정에 이전에 배치된 이벤트의 필드를 기반으로 조건을 정의할 수 있습니다. 에서 표현식 편집기를 사용하는 방법에 대해 알아봅니다. [이 섹션](expression/expressionadvanced.md).
 
-예를 들어, 작성 워크플로우 또는 사용자 지정 업로드(CSV 파일)를 사용하여 생성된 보강 속성으로 대상을 타깃팅하는 경우 이러한 보강 속성을 활용하여 조건을 작성할 수 있습니다. [Journey Optimizer에서 대상자 강화 속성을 사용하는 방법 알아보기](../audience/about-audiences.md#enrichment)
+예를 들어, 작성 워크플로우 또는 사용자 지정 업로드(CSV 파일)를 사용하여 생성된 보강 속성으로 대상을 타깃팅하는 경우 이러한 보강 속성을 활용하여 조건을 작성할 수 있습니다.
 
 고급 표현식 편집기를 사용하여 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하는 고급 조건을 설정할 수 있습니다. [자세히 알아보기](../datasource/external-data-sources.md).
 

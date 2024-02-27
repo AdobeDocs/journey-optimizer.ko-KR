@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 38%
+source-wordcount: '1083'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 38%
 
 >[!AVAILABILITY]
 >
->대상 구성 및 사용자 지정 업로드(CSV 파일)의 대상 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다. [Journey Optimizer에서 대상자 강화 속성을 사용하는 방법 알아보기](../audience/about-audiences.md#enrichment)
+>대상 구성 및 사용자 지정 업로드 (CSV 파일) 대상의 대상 및 속성을 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다. [Journey Optimizer에서 대상자 강화 속성을 사용하는 방법 알아보기](../audience/about-audiences.md#enrichment)
 
 **[!DNL Journey Optimizer]**&#x200B;에서 다양한 방법으로 대상자를 활용할 수 있습니다.
 
@@ -61,7 +61,7 @@ ht-degree: 38%
 
 ## Journey Optimizer에서 대상 강화 속성 사용 {#enrichment}
 
-작성 워크플로우 또는 사용자 지정 업로드(CSV 파일)를 사용하여 생성된 대상자를 타깃팅할 때 이러한 대상자의 데이터 보강 속성을 활용하여 여정을 구축하고 메시지를 개인화할 수 있습니다.
+작성 워크플로우를 사용하여 생성된 대상자를 타겟팅할 때 이러한 대상자의 데이터 보강 속성을 활용하여 여정을 구축하고 메시지를 개인화할 수 있습니다.
 
 * 타겟팅된 대상의 보강 속성을 활용하는 규칙을 기반으로 한 여정에 여러 경로를 만듭니다. 이렇게 하려면 다음을 사용하여 대상을 타깃팅합니다 [대상자 읽기](../building-journeys/read-audience.md) 활동 다음에 규칙 만들기 [조건](../building-journeys/condition-activity.md) 대상자의 데이터 보강 속성을 기반으로 한 활동.
 

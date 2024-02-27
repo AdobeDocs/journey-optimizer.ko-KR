@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 32%
+source-wordcount: '960'
+ht-degree: 33%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 32%
 
 >[!IMPORTANT]
 >
->의 대상자 및 속성 사용 [대상자 구성](../audience/get-started-audience-orchestration.md) 및 [사용자 지정 업로드 (CSV 파일)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 는 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다. [Journey Optimizer에서 대상자 강화 속성을 사용하는 방법 알아보기](../audience/about-audiences.md#enrichment)
+>의 대상자 및 속성 사용 [대상자 구성](../audience/get-started-audience-orchestration.md) 및 [사용자 지정 업로드 (CSV 파일) 대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 는 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
 >
 >API 트리거 캠페인의 경우, API 호출을 통해 대상자를 설정해야 합니다.
 
