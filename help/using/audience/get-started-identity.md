@@ -7,7 +7,7 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d9a3482d237c3080c060519dbdde9208c8c0befa
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 10%
@@ -21,7 +21,7 @@ ID는 엔티티에 고유한 데이터이며, 일반적으로 개인, 하드웨�
 * 다음 **id 네임스페이스** id가 연관되는 컨텍스트의 지표 역할을 합니다.
 * 다음 **id 값** 는 엔티티를 나타내는 문자열입니다.
 
-전화 번호 555-555-1234를 연결해 보겠습니다. 이 예에서 문자열 &quot;555-555-1234&quot;는 **id 값**&#x200B;로 분류할 수 있습니다 **전화** id 네임스페이스.
+전화 번호 555-555-1234를 연결해 보겠습니다. 이 예에서 문자열 &quot;555-555-1234&quot;는 **id 값**: &quot;전화&quot;로 분류할 수 있습니다. **id 네임스페이스**.
 
 다음 **ID** 의 메뉴 [!DNL Adobe Journey Optimizer] 를 사용하면 데이터베이스에서 고객을 구성하는 다양한 식별자를 효율적으로 검색할 수 있습니다.
 
