@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: acb4c2dce86afb0b85125413a42094f96366a57d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -39,6 +39,6 @@ ht-degree: 90%
 
 ## 방법 비디오 {#video}
 
-Journey Optimizer의 주요 기능 및 가상 사용자를 이해합니다. 역할에 따라 사용자 인터페이스를 탐색하는 방법을 알아봅니다.
+Journey Optimizer의 주요 기능 및 페르소나를 이해합니다. 역할에 따라 사용자 인터페이스를 탐색하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
