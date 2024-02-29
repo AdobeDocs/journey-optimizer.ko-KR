@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 이벤트 정보
-description: 이벤트에 대해 알아보기
+title: 여정 이벤트 작업
+description: 여정에서 이벤트를 사용하여 작업하는 방법을 알아봅니다
 feature: Journeys, Events
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 58%
+source-wordcount: '989'
+ht-degree: 55%
 
 ---
 
-# 이벤트 정보{#about-events}
+# 여정 이벤트 작업 {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
->title="이벤트 정보"
+>title="여정 이벤트"
 >abstract="특정 사용자에게 연결되는 이벤트는 해당 사용자의 제품 구매, 상점 방문, 웹 사이트 종료와 같은 행동과 관련된 항목일 수도 있고 해당 사용자와 관련하여 발생하는 상황일 수도 있습니다. 사용자가 충성도 점수 10,000점을 달성하는 등의 경우를 예로 들 수 있습니다. Journey Optimizer는 경로에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다."
 
 이벤트 구성에서는 [!DNL Journey Optimizer]이 이벤트로 수신할 정보를 정의할 수 있습니다. 여정의 여러 단계에서 여러 이벤트를 사용할 수 있으며, 여러 여정에서 동일한 이벤트를 사용할 수 있습니다.
@@ -64,7 +64,7 @@ ht-degree: 58%
 
 ## 데이터 주기 {#data-cycle}
 
-POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 Adobe Experience Platform으로 전송됩니다. 트랜잭션 메시징 API를 통해 전송되는 이벤트의 URL 대상은 &quot;인렛&quot;입니다. 이벤트의 페이로드는 XDM 형식을 따릅니다.
+POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 Adobe Experience Platform으로 전송됩니다. 트랜잭션 메시지 API를 통해 전송되는 이벤트의 URL 대상을 &quot;인렛&quot;이라고 합니다. 이벤트의 페이로드는 XDM 형식을 따릅니다.
 
 페이로드의 헤더에는 스트리밍 수집 API의 작동에 필요한 정보가 포함되어 있습니다. [!DNL Journey Optimizer] 여정에서 사용할 정보(예: 쇼핑을 중단한 장바구니의 금액)와 작업 스트리밍 수집에는 인증/미인증의 두 가지 모드가 있습니다. 스트리밍 수집 API에 대한 자세한 내용은 [이 링크](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하십시오.
 
