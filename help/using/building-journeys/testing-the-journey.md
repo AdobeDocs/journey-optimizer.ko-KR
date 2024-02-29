@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
+source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
 workflow-type: tm+mt
 source-wordcount: '1535'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="테스트 모드 로그"
->abstract="로그 표시 버튼에 테스트 결과가 JSON 형식으로 표시됩니다. 이 결과에 여정 내 개인 수와 개인 상태가 표시됩니다."
+>abstract="다음 **로그 표시** 버튼에 테스트 결과가 JSON 형식으로 표시됩니다. 이 결과에 여정 내 개인 수와 개인 상태가 표시됩니다."
 
 다음 **[!UICONTROL 로그 표시]** 버튼을 사용하면 테스트 결과를 볼 수 있습니다. 이 페이지에는 여정의 현재 정보가 JSON 형식으로 표시됩니다. 버튼을 사용하면 전체 노드를 복사할 수 있습니다. 여정의 테스트 결과를 업데이트하려면 페이지를 수동으로 새로 고쳐야 합니다.
 
