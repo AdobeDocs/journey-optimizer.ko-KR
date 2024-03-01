@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="사용할 주소 정의"
->abstract="우선 순위를 지정할 프로필의 이메일 주소 또는 전화 번호를 결정하는 데 사용되는 필드를 편집합니다."
+>abstract="프로필의 이메일 주소 또는 전화번호 확인에 사용되는 필드를 편집하여 전송의 우선 순위를 지정합니다."
 
 프로필을 타겟팅할 때 데이터베이스에서 여러 이메일 주소 또는 전화 번호(전문 이메일 주소, 개인 전화 번호 등)를 사용할 수 있습니다.
 
