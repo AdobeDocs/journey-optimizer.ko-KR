@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
+source-git-commit: e8a178ea337fb57f2c2460c9e3e53257787c7bfd
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1576'
 ht-degree: 8%
 
 ---
@@ -82,14 +82,15 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
 에서 IP 준비 계획을 만들기 전에 [!DNL Journey Optimizer] 인터페이스에서는 계획을 제공할 모든 데이터를 Excel 템플릿에 입력해야 합니다.
 
+* 사용자 인터페이스에서 빈 Excel을 다운로드할 수 있습니다 [IP 준비 계획 템플릿](assets/IPWarmupPlan-Template.xlsx) 작성하려면 다음을 수행하십시오.
+
+* 다음을 다운로드할 수도 있습니다 [샘플 IP 준비 계획](assets/IPWarmupPlan-Sample.xlsx) 예제로 사용할 수 있는 일부 데이터가 이미 입력되었습니다.
+
 <!--
-* From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
+* From the user interface you can download the blank Excel IP warmup plan template to fill in.
 
-* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
-
-* 사용자 인터페이스에서 채울 빈 Excel IP 준비 계획 템플릿을 다운로드할 수 있습니다.
-
-* 예를 들어 사용할 수 있는 일부 데이터로 이미 채워진 샘플 IP 준비 계획을 다운로드할 수도 있습니다.
+* You can also download a sample IP warmup plan already filled in with some data you can use as an example.
+-->
 
 >[!CAUTION]
 >
@@ -302,7 +303,7 @@ IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >업로드가 실패할 경우 올바른 형식 및 파일 형식(.xls 또는 .xlsx)을 사용하고 있는지 확인하십시오. 템플릿 사용<!--assets/IPWarmupPlan-Template.xlsx--> 은(는) Adobe으로 귀하에게 제공됩니다.
+   >업로드가 실패할 경우 올바른 형식 및 파일 형식(.xls 또는 .xlsx)을 사용하고 있는지 확인하십시오. 사용 [템플릿](assets/IPWarmupPlan-Template.xlsx) 은(는) Adobe으로 귀하에게 제공됩니다.
 
 1. Click **[!UICONTROL Create]**. 업로드한 파일에 정의된 모든 단계, 실행, 열 및 해당 콘텐츠가 [!DNL Journey Optimizer] 인터페이스.
 
