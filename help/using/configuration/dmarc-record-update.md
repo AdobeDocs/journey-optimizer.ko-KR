@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
-source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
-workflow-type: ht
-source-wordcount: '577'
-ht-degree: 100%
+source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다. 이메일 공급자/ISP에 명확한 정책을 제공함으로써 악의적인 행위자가 도메인에서 온 것으로 주장하는 이메일을 보내지 못하게 하는 데 도움이 됩니다. DMARC를 구현하면 합법적인 이메일이 스팸으로 표시되거나 거부될 위험이 줄어들고 이메일 전달성이 향상됩니다.
 
-시행 중인 업계 모범 사례의 일부인 Google 및 Yahoo! 의 경우 이메일을 전송하는 데 사용하는 모든 도메인에 **DMARC 레코드**&#x200B;가 필요합니다. 이 새 요구 사항은 **2024년 2월 1일**&#x200B;부터 적용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ko#dmarc){target="_blank"}
+시행 중인 업계 모범 사례의 일부인 Google 및 Yahoo! 의 경우 이메일을 전송하는 데 사용하는 모든 도메인에 **DMARC 레코드**&#x200B;가 필요합니다. 이 새 요구 사항은 다음 항목부터 적용됩니다. **2024년 2월 1일**.
 
 >[!CAUTION]
 >
@@ -67,6 +67,7 @@ Google과 Yahoo!가 공유하는 가장 최근 타임라인은 다음과 같습�
 **유용한 링크**
 
 * [전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=ko#about){target="_blank"}에서 DMARC에 대해 자세히 알아보기
-* [전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ko){target="_blank"}에서 이러한 변경 사항에 대한 추가 지침을 확인하십시오.
 * [Google Gmail 공지](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"} 읽기
 * [Yahoo! 공지](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"} 읽기
+
+<!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->
