@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 19%
+source-wordcount: '1169'
+ht-degree: 17%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="메시지 활동"
->abstract="Journey Optimizer에는 메시지 기능이 내장되어 있습니다. 푸시, 문자 메시지, 인앱 또는 이메일 메시지 활동을 추가하고 설정과 콘텐츠를 정의하기만 하면 됩니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
+>abstract="Journey Optimizer에는 메시지 기능이 내장되어 있습니다. 여정에 푸시, 문자 메시지(SMS/MMS), 인앱 또는 이메일 메시지 활동을 추가하고 설정과 콘텐츠를 정의하기만 하면 됩니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
 
-[!DNL Journey Optimizer] 에는 내장 메시지 기능이 함께 제공됩니다. 여정에 푸시, SMS, 인앱 또는 이메일 메시지 활동을 추가하고 설정과 콘텐츠를 정의하기만 하면 됩니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다.
+[!DNL Journey Optimizer] 에는 내장 메시지 기능이 함께 제공됩니다. 푸시, SMS/MMS, 인앱 또는 이메일 메시지 활동을 여정에 추가하고 설정 및 콘텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다.
 
 메시지를 보내기 위한 특정 작업을 설정할 수도 있습니다.
 
@@ -74,7 +74,7 @@ ht-degree: 19%
    <img alt="유효성 검사" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>텍스트 메시지 만들기</strong></a>
+   <a href="../sms/create-sms.md"><strong>문자 메시지(SMS/MMS) 만들기</strong></a>
    </div>
    <p>
    </td>
