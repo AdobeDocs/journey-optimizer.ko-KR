@@ -1,37 +1,35 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 문자 메시지 시작
+title: 텍스트 메시지(SMS/MMS) 시작
 description: Journey Optimizer에서 텍스트 메시지를 만들고 보내는 방법 알아보기
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 50%
+source-wordcount: '253'
+ht-degree: 86%
 
 ---
 
 # 텍스트 메시지 시작 {#get-started-sms}
 
-[!DNL Journey Optimizer]를 사용하여 고객의 모바일 장치로 텍스트 메시지를 보냅니다. SMS 편집기에서 텍스트 형식으로 메시지를 만들고 개인화하고 미리 볼 수 있습니다.
+[!DNL Journey Optimizer]를 사용하여 고객의 모바일 디바이스로 텍스트 메시지(SMS/MMS)를 보냅니다. SMS/MMS 편집기에서 텍스트 형식으로 메시지를 만들고 개인화하고 미리 볼 수 있습니다.
 
-텍스트 메시지는 여정 또는 캠페인에서 만들고 보낼 수 있습니다. SMS의 경우 SMS 작업을 사용합니다.
+텍스트 메시지는 여정 또는 캠페인에서 만들고 보낼 수 있습니다. MMS 및 SMS의 경우 SMS 작업을 사용합니다.
 
-* **여정**&#x200B;에서 만들기. 여정을 만들고, SMS 활동을 추가하고, 기본 설정을 정의한 다음 **[!UICONTROL 작업: SMS]** sms 메시지의 콘텐츠를 만드는 오른쪽 창입니다. [이 페이지](../building-journeys/journey-gs.md)에서 여정을 만드는 방법을 알아봅니다.
+* **여정**&#x200B;에서 만들기. 여정을 만들고, SMS 활동을 추가하고, 기본 설정을 정의한 다음 **[!UICONTROL 작업: SMS]** 오른쪽 창으로 이동하여 SMS/MMS 메시지의 콘텐츠를 만들 수 있습니다. [이 페이지](../building-journeys/journey-gs.md)에서 여정을 만드는 방법을 알아봅니다.
 
-* **캠페인**&#x200B;에서 만들기. 캠페인을 만들고 SMS를 작업으로 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 전송할 SMS 메시지를 정의합니다. [이 페이지](../campaigns/create-campaign.md#configure)에서 캠페인을 만드는 방법을 알아봅니다.
+* **캠페인**&#x200B;에서 만들기. 캠페인을 만들고 작업으로 SMS를 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 보낼 SMS/MMS 메시지를 정의합니다. [이 페이지](../campaigns/create-campaign.md#configure)에서 캠페인을 만드는 방법을 알아봅니다.
 
-Adobe Journey Optimizer는 SMS 서비스 공급자(또는 SMS 게이트웨이 공급자)를 통해 텍스트 메시지를 보냅니다. SMS 메시지를 만들기 전에 Journey Optimizer에서 문자 메시지를 보내도록 서비스 공급자를 구성하십시오. [자세히 알아보기](sms-configuration.md).
+Adobe Journey Optimizer는 SMS 서비스 공급자(또는 SMS 게이트웨이 공급자)를 통해 텍스트 메시지를 보냅니다. SMS/MMS 메시지를 만들기 전에 Journey Optimizer로 문자 메시지를 보낼 때 사용할 서비스 공급자를 구성해야 합니다. [자세히 알아보기](sms-configuration.md).
 
-<!--
->[!IMPORTANT] 
+>[!IMPORTANT]
 >
-> Sending Multimedia Message Service (MMS) with Adobe Journey Optimizer is only supported when integrating with **Sinch**.
--->
+> Adobe Journey Optimizer로 MMS(멀티미디어 메시지 서비스)를 보내는 작업은 **Sinch** 통합 시에만 지원됩니다.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

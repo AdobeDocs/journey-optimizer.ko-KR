@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '4346'
+source-wordcount: '4398'
 ht-degree: 100%
 
 ---
@@ -43,23 +43,21 @@ ht-degree: 100%
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) in SMS</strong><br/></th>
+<th><strong>SMS를 통한 MMS(멀티미디어 메시지 서비스)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available with Sinch only.</p>
+<p>이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 단, 이 기능은 현재 Sinch에서만 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>For more information, refer to the <a href="../sms/create-sms.md#mms-content">detailed documentation</a>.</p>
+<p>자세한 내용은 <a href="../sms/create-sms.md#mms-content">자세한 설명서</a>를 참조하세요.</p>
 </tr>
 </tbody>
 </table>
--->
 
 ### 개선 사항 {#oct-2023-improvements}
 
