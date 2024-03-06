@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
 workflow-type: tm+mt
 source-wordcount: '1629'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
 >title="채널 표면"
->abstract="채널 표면은 시스템 관리자가 정의한 구성입니다. 여기에는 헤더 매개변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개변수가 포함되어 있습니다."
+>abstract="채널 표면은 시스템 관리자에 의해 정의된 구성입니다. 여기에는 헤더 매개변수, 하위 도메인, 모바일 애플리케이션 등과 같이 메시지를 전송하기 위한 모든 기술 매개변수가 포함되어 있습니다."
 
 포함 [!DNL Journey Optimizer], 메시지에 필요한 모든 기술 매개 변수(이메일 유형, 보낸 사람 이메일 및 이름, 모바일 앱, SMS 구성 등)를 정의하는 채널 표면(즉, 메시지 사전 설정)을 설정할 수 있습니다.
 

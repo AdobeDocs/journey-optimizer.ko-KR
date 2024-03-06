@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="규칙의 상한 설정"
->abstract="선택한 시간대 내에 고객 프로필로 전송되는 최대 메시지 수를 지정합니다. 주파수 캡은 선택된 캘린더 기간을 기초로 할 것이고, 대응하는 시간 프레임의 시작 부분에서 리셋될 것이다."
+>abstract="선택한 시간대 내에 고객 프로필로 전송되는 최대 메시지 수를 지정합니다. 빈도 캡은 선택된 캘린더 기간에 기반하고 대응하는 시간대가 시작될 때 재설정됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
