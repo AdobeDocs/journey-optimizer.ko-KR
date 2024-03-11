@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 70%
+ht-degree: 96%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 70%
 <tr>
 <td>
 <p>이제 새로운 웹 인앱 메시지 기능을 사용하면 모달 오버레이 메시지를 통해 웹 사이트에 직접 개인화된 콘텐츠를 표시할 수 있습니다. 이 기능을 사용하면 웹 방문자와 효과적으로 상호 작용하여 사용자 상호 작용, 보존 및 전환율을 향상할 수 있습니다.<br/><br/></p>
-<p>자세한 내용은 <a href="../in-app/create-in-app-web.md">세부 설명서</a>를 참고하십시오.<br></br></p>
+<p>자세한 내용은 <a href="../in-app/create-in-app-web.md">세부 설명서</a>를 참조하십시오.<br></br></p>
 <img src="assets/do-not-localize/web_inapp.gif">
 </tr>
 </tbody>
@@ -55,7 +55,7 @@ ht-degree: 70%
 <table>
 <thead>
 <tr>
-<th><strong>멀티채널 콘텐츠 템플릿</strong><br/></th>
+<th><strong>다중 채널 콘텐츠 템플릿</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -75,7 +75,7 @@ ht-degree: 70%
 
 **대상자**
 
-* **시드 목록** - 이제 **시드 목록**&#x200B;을 사용할 때 변형이 지원됩니다. 시드 주소는 동일한 메시지의 모든 변형(예: 콘텐츠 실험의 다양한 처리)의 사본을 받습니다. [자세히 보기](../configuration/seed-lists.md)
+* **시드 목록** - 이제 **시드 목록**&#x200B;을 사용할 때 변형이 지원됩니다. 시드 주소는 동일한 메시지의 모든 변형(예: 콘텐츠 실험의 다양한 처리) 사본을 받습니다. [자세히 보기](../configuration/seed-lists.md)
 
 이전에 Beta로 제공되었던 향상된 기능은 이제 모든 사용자가 사용할 수 있습니다.
 
@@ -86,18 +86,18 @@ ht-degree: 70%
   >[!AVAILABILITY]
   >
   >* 대상자 구성 및 사용자 정의 업로드(CSV 파일)의 대상자 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
-  >* 다음 **csv 파일에서 대상 업로드** 개선 사항은 최초 출시 이후 수일에 걸쳐 점진적으로 출시되고 있습니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기 전에 지연이 발생할 수 있습니다.
+  >* **CSV 파일의 대상자 업로드** 개선 사항은 초기 릴리스 이후 며칠 동안 점진적으로 롤아웃됩니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기까지 지연이 발생할 수 있습니다.
 
 **여정**
 
-* **여정 필터링** - 이제 기존의 사전 정의된 날짜 필터 외에도 **사용자 정의 날짜를 사용하여 여정** 인벤토리를 필터링할 수 있습니다. 이렇게 하면 특정 날짜, 특정 달 내, 전체 연도 또는 지정된 시간 범위 내에서 만들거나 게시한 여정을 표시하여 목록을 개선할 수 있습니다. [자세히 보기](../building-journeys/journey-gs.md#filter)
-* **사용자 지정 작업** - 이제 다음을 업데이트할 수 있습니다. **content-type** 머리글입니다. 이 새로운 항목 **content-type** 는 JSON 콘텐츠를 참조해야 합니다. [자세히 보기](../action/about-custom-action-configuration.md#url-configuration)
-* **구성** - stepEvents의 identityMap 속성이 이제 미리 채워져 있습니다. 기본 ID는 &quot;primary = true&quot;로 정의됩니다. [자세히 보기](../reports/sharing-field-list.md)
-* **사용자 인터페이스** - 여정 화면의 상단 표시줄이 향상된 경험을 위해 재구성되었습니다. 여러 업데이트 중 여정 속성에 액세스할 수 있는 &quot;연필&quot; 아이콘이 이제 여정 이름 옆의 상단 표시줄 왼쪽에 표시됩니다. [자세히 보기](../building-journeys/journey-gs.md#change-properties)
+* **여정 필터링** - 이제 기존의 사전 정의된 날짜 필터 외에도 **사용자 정의 날짜를 사용하여 여정** 인벤토리를 필터링할 수 있습니다. 이렇게 하면 특정 날짜, 특정 달 내, 전체 연도 또는 지정된 시간 범위에 작성되었거나 게시된 여정을 표시하여 목록을 세분화할 수 있습니다. [자세히 보기](../building-journeys/journey-gs.md#filter)
+* **사용자 정의 작업** - 이제 **content-type** 헤더를 업데이트할 수 있습니다. 이 새로운 **content-type**&#x200B;은 JSON 콘텐츠를 참조해야 합니다. [자세히 보기](../action/about-custom-action-configuration.md#url-configuration)
+* **구성** - stepEvents의 identityMap 속성이 이제 미리 채워져 있습니다. 기본 신원은 “primary = true”로 정의됩니다. [자세히 보기](../reports/sharing-field-list.md)
+* **사용자 인터페이스** - 여정 화면의 상단 표시줄이 향상된 경험을 위해 재구성되었습니다. 여러 업데이트 중 여정 속성에 액세스할 수 있는 &#39;연필&#39; 아이콘이 이제 여정 이름 옆의 상단 표시줄 왼쪽에 표시됩니다. [자세히 보기](../building-journeys/journey-gs.md#change-properties)
 
 **SMS 채널**
 
-* **옵트인/옵트아웃 키워드** - 이제 SMS 채널을 구성할 때 원하는 대로 **옵트인 및 옵트아웃 키워드**&#x200B;를 사용자 정의할 수 있습니다. Journey Optimizer은 지정된 이러한 키워드를 기반으로 응답을 트리거합니다. [자세히 알아보기](../sms/sms-configuration.md#create-api)
+* **옵트인/옵트아웃 키워드** - 이제 SMS 채널을 구성할 때 원하는 대로 **옵트인 및 옵트아웃 키워드**&#x200B;를 사용자 정의할 수 있습니다. Journey Optimizer는 지정된 이러한 키워드를 기반으로 응답을 트리거합니다. [자세히 알아보기](../sms/sms-configuration.md#create-api)
 
 **캠페인**
 
@@ -156,7 +156,7 @@ ht-degree: 70%
 <tbody>
 <tr>
 <td>
-<p>Real-Time CDP 및 Journey Optimizer의 산업별 사용 사례 플레이북 카탈로그를 활용하여 Adobe Experience Platform 및 Adobe Journey Optimizer을 사용하여 수행할 수 있는 일반적인 사용 사례를 해결합니다.</p><p>요구 사항에 가장 적합한 플레이북을 선택하면 여정, 메시지, 스키마 또는 세그먼트와 같은 사용 사례를 지원하는 데 필요한 자산을 생성하고, 가치 창출 시간을 단축하기 위해 스키마에 맞게 사용자 지정할 수 있습니다.</p>
+<p>Real-Time CDP 및 Journey Optimizer의 산업별 사용 사례 플레이북 카탈로그를 활용하여 Adobe Experience Platform 및 Adobe Journey Optimizer를 사용하여 수행할 수 있는 일반적인 사용 사례를 해결합니다.</p><p>요구 사항에 가장 적합한 플레이북을 선택하면 여정, 메시지, 스키마 또는 세그먼트와 같은 사용 사례를 지원하는 데 필요한 자산을 생성하고, 가치 창출 시간을 단축하기 위해 스키마에 맞게 사용자 지정할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../start/playbooks.md">자세한 설명서</a>를 참조하세요.</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
