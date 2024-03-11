@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1563'
 ht-degree: 13%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 13%
 
 * 사용 **[!UICONTROL 참조 탐색]** 옵션을 사용하여 여정, 캠페인 또는 템플릿이 사용되는 위치를 확인합니다. [자세히 알아보기](#explore-references)
 
-* 다른 샌드박스에 조각을 복사합니다. <!--Learn more?-->
+<!--Copy a fragment to another sandbox.-->
 
 * 조각 보관 [자세히 알아보기](#archive-fragments)
 
