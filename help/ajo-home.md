@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB 2월 릴리스 예정일]
+>[!TAB 2월 릴리스가 공개되었습니다!]
 
 Adobe Journey Optimizer 24.2 릴리스의 새로운 기능과 향상된 기능을 살펴보십시오.
 
@@ -28,13 +28,13 @@ Adobe Journey Optimizer 24.2 릴리스의 새로운 기능과 향상된 기능�
 
 >[!TAB 웹 인앱 메시지]
 
-이제 새로운 웹 인앱 메시지 기능을 사용하여 양식 오버레이 메시지를 통해 웹 사이트에 직접 개인화된 콘텐츠를 표시할 수 있습니다. 이 기능을 사용하면 웹 방문자와 효과적으로 상호 작용하여 사용자 상호 작용, 보존 및 전환율을 향상시킬 수 있습니다.
+이제 새로운 웹 인앱 메시지 기능을 사용하면 모달 오버레이 메시지를 통해 웹 사이트에 직접 개인화된 콘텐츠를 표시할 수 있습니다. 이 기능을 사용하면 웹 방문자와 효과적으로 상호 작용하여 사용자 상호 작용, 보존 및 전환율을 향상할 수 있습니다.
 
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
 
->[!TAB 멀티채널 콘텐츠 템플릿]
+>[!TAB 다중 채널 콘텐츠 템플릿]
 
 이제 이메일 외에도 푸시, 인앱, SMS 및 DM 채널에 콘텐츠 템플릿을 사용할 수 있습니다. 각 채널에는 전용 템플릿 유형이 있습니다. 이메일의 경우 이제 제목 줄을 이메일 템플릿의 일부로 저장할 수 있는 콘텐츠 유형을 선택할 수 있습니다.
 

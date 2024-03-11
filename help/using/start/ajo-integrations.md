@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -80,11 +80,11 @@ Adobe Campaign Standard과 통합하여 여정에서 메시지를 보내도록 �
 
 ## Adobe Workfront {#integration-workfront}
 
-Adobe Workfront의 Adobe Journey Optimizer 모듈을 사용하여 레코드를 생성, 읽기, 업데이트 또는 삭제하거나 Adobe Journey Optimizer API에 대한 사용자 지정 API 호출을 수행할 수 있습니다.
+Adobe Workfront의 Adobe Journey Optimizer 모듈을 사용하여 레코드를 생성하고 읽거나 업데이트 또는 삭제하거나 Adobe Journey Optimizer API에 대한 사용자 정의 API 호출을 수행할 수 있습니다.
 
-이 통합의 주요 단계에 대한 개요를 사용할 수 있습니다 [이 블로그 게시물](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+이 통합의 주요 단계에 대한 개요는 [이 블로그 게시물](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}에서 확인할 수 있습니다.
 
-Journey Optimizer + Adobe Workfront에 대해 자세히 알아보기 [Adobe Workfront 설명서에서](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
+[Adobe Workfront 설명서에서](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=ko){target="_blank"} Journey Optimizer + Adobe Workfront에 대해 자세히 알아보세요.
 
 ## 사용자 지정 채널 {#integration-custom}
 

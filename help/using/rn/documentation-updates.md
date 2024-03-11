@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4778'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 96%
 
 * Journey Optimizer + Workfront 통합이 통합 페이지에 추가되었습니다. [자세히 보기](../start/ajo-integrations.md)
 * 컨텍스트 데이터를 기반으로 오퍼의 표현을 개인화하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../offers/offer-library/add-representations.md#context-data)
-* 보호 페이지에 요청 또는 응답 페이로드를 사용할 때만 JSON 형식을 지원하는 사용자 지정 작업에 대한 메모를 업데이트했습니다. [자세히 보기](../start/guardrails.md#custom-actions-g)
-* 외부 데이터 소스의 기본 인증 유형에 대한 추가 정보를 추가했습니다. [자세히 보기](../datasource/external-data-sources.md)
-* 을(를) 명확하게 구분할 수 있도록 메모가 추가되었습니다. [여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md) 다음에서 [개인화 편집기](../personalization/functions/functions.md).
+* 보호 페이지에 요청 또는 응답 페이로드를 사용할 때만 JSON 형식을 지원하는 사용자 정의 작업에 대한 메모를 업데이트했습니다. [자세히 보기](../start/guardrails.md#custom-actions-g)
+* 외부 데이터 소스의 기본 인증 유형에 대한 정보를 추가했습니다. [자세히 보기](../datasource/external-data-sources.md)
+* [여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md)와 [개인화 편집기](../personalization/functions/functions.md)를 명확하게 구분하기 위해 메모가 추가되었습니다.
 * 고급 표현식 편집기에서 사용할 수 있는 함수 목록이 업데이트되었습니다. [자세히 보기](../building-journeys/expression/functions.md)
 * 분할 함수의 페이지가 업데이트되었습니다. [자세히 보기](../building-journeys/functions/functioninaudience.md)
 * 푸시 알림의 옵트인 또는 옵트아웃이 인앱 메시지에 미치는 영향에 대한 정보를 추가했습니다. [자세히 보기](../in-app/create-in-app.md)
 * 사용자 인터페이스에서 사용 가능한 기간 옵션(주별 또는 월별)을 반영하도록 메시지 빈도 규칙 페이지가 업데이트되었습니다. [자세히 보기](../configuration/frequency-rules.md)
-* PTR 레코드 편집 섹션을 업데이트하여 PTR 레코드를 수동으로 만들 수 없으며 새 하위 도메인을 할당하기 위해 PTR 레코드를 편집해야 한다는 사실을 명확히 설명했습니다. [자세히 보기](../configuration/ptr-records.md#edit-ptr-record)
+* PTR 기록을 수동으로 만들 수 없으며 새 하위 도메인을 할당하기 위해 PTR 기록을 편집해야 한다는 사실을 명확히 설명하도록 PTR 기록 편집 섹션이 업데이트되었습니다. [자세히 보기](../configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024년 1월 {#jan-2024}
 

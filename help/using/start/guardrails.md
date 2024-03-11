@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1975'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * IP 주소를 사용할 수 없습니다. 
 * 내부 Adobe 주소(`.adobe.*`)는 URL 및 API에 사용할 수 없습니다.
 * 기본 제공 사용자 정의 작업은 제거할 수 없습니다.
-* 사용자 지정 작업은 요청 또는 응답 페이로드를 사용하는 경우에만 JSON 형식을 지원합니다. [이 페이지](../action/about-custom-action-configuration.md#custom-actions-limitations)를 참조하십시오.
+* 사용자 정의 작업은 요청 또는 응답 페이로드를 사용하는 경우에만 JSON 형식을 지원합니다. [이 페이지](../action/about-custom-action-configuration.md#custom-actions-limitations)를 참조하십시오.
 * 사용자 정의 작업을 사용하여 타깃팅할 엔드포인트를 선택할 때 다음을 확인하십시오.
 
    * 이 엔트포인트는 제한하는 [Throttling API](../configuration/throttling.md) 또는 [Capping API](../configuration/capping.md)의 구성을 사용하여 여정의 처리량을 지원할 수 있습니다. 스로틀링 구성은 200TPS 미만일 수 없습니다. 타겟팅된 모든 엔드포인트는 최소 200개의 TPS를 지원해야 합니다.
