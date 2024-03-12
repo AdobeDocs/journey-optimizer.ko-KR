@@ -12,16 +12,16 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: c80fecf1373528c8b46f76ee6a6eaafbcda58892
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 27%
+ht-degree: 30%
 
 ---
 
-# 의 하위 도메인 위임 [!DNL Journey Optimizer] {#subdomain-delegation}
+# [!DNL Journey Optimizer]에서 하위 도메인 위임 {#subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_delegated_subdomains"
 >title="위임된 하위 도메인이 여기에 표시됩니다."
->abstract="첫 번째 하위 도메인을 위임합니다. 위임이 완료되면 PTR 기록이 생성되고, 이메일 채널이 활성화됩니다."
+>abstract="첫 번째 하위 도메인을 위임하십시오. 위임이 완료되면 PTR 기록이 생성되고 이메일 채널이 활성화됩니다."
 
 이메일 캠페인용 하위 도메인을 생성하면 브랜드가 다양한 유형의 트래픽(예: 마케팅과 기업)을 특정 IP 풀과 특정 도메인으로 분리할 수 있으므로 IP 준비 프로세스가 빨라지고 전달성이 전반적으로 향상됩니다.
 
