@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
+source-git-commit: 949e7cd05a2b1125e13615814f6501b3906e470c
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1212'
 ht-degree: 10%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >현재는 **[!UICONTROL 마케팅]** 카테고리를 사용할 수 있습니다.
+   >만 **[!UICONTROL 마케팅]** 카테고리를 사용할 수 있습니다.
 
    ![](assets/message-rules-details.png)
 
