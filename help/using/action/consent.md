@@ -9,27 +9,33 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, Healthcare Shield, 동의
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d549e4fdb7cd71e450cd00e4fa8707ae03ce0aff
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 82%
 
 ---
 
 # 동의 정책 사용 {#consent-management}
 
-Adobe Experience Platform을 사용하면 고객의 동의 환경 설정을 준수하도록 마케팅 정책을 쉽게 채택하고 적용할 수 있습니다. 동의 정책은 Adobe Experience Platform에 정의되어 있습니다. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#consent-policy)를 참조하세요.
+<!--Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
 
-Journey Optimizer에서는 이러한 동의 정책을 사용자 지정 작업에 적용할 수 있습니다. 예를 들어, 이메일, 푸시 또는 SMS 커뮤니케이션에 동의하지 않은 고객을 제외하는 동의 정책을 정의할 수 있습니다.
+In Journey Optimizer, you can apply these consent policies to your custom actions. For example, you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication.-->
 
->[!NOTE]
+데이터는 조직 또는 법적 규정에 의해 정의된 사용 제한을 받을 수 있습니다. 따라서 Journey Optimizer 내의 데이터 작업이 을 준수하는지 확인하는 것이 중요합니다 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"} 데이터에 대해 수행할 수 있습니다.
+
+사용 가능한 데이터 사용 정책 유형 중 하나는 다음과 같습니다 **동의 정책**. 이를 통해 고객의 동의 환경 설정을 준수하도록 마케팅 정책을 쉽게 채택하고 적용할 수 있습니다. [정책 집행에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html){target="_blank"}
+
+>[!IMPORTANT]
 >
->현재 동의 정책은 Healthcare Shield 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.
+>동의 정책은 현재 Adobe을 구입한 조직에서만 사용할 수 있습니다 **헬스케어 실드** 또는 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
 
-Journey Optimizer에서 동의는 다음 몇 가지 수준에서 정의됩니다.
+예를 들어 다음과 같은 작업을 수행할 수 있습니다 [동의 정책 만들기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#consent-policy){target="_blank"} 이메일, 푸시 또는 SMS 커뮤니케이션 수신에 동의하지 않은 고객을 제외하는 Experience Platform.
 
-* **사용자 정의 작업을 구성**&#x200B;할 때 채널 및 마케팅 작업을 정의할 수 있습니다. 이 [섹션](../action/consent.md#consent-custom-action)을 참조하세요.
-* **여정에 사용자 정의 작업**&#x200B;을 추가할 때 추가적인 마케팅 작업을 정의할 수 있습니다. 이 [섹션](../action/consent.md#consent-journey)을 참조하세요.
+Journey Optimizer에서 동의는 여러 수준에서 정의됩니다. 동의 정책을 여정 사용자 지정 작업에 적용할 수 있습니다.
+
+* 날짜 **사용자 지정 작업 구성**, 채널 및 마케팅 작업을 정의할 수 있습니다. [자세히 알아보기](#consent-custom-action)
+* 추가 시 **여정의 사용자 지정 작업**, 추가 마케팅 작업을 정의할 수 있습니다. [자세히 알아보기](#consent-journey)
 
 ## 중요 정보 {#important-notes}
 
