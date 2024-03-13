@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: now, 함수, 표현식, 여정
 exl-id: 16dcc772-e48d-4f10-be75-62dd39473556
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 14%
@@ -44,12 +44,12 @@ dateTime을 반환합니다.
 
 `now()`
 
-2019-06-03T06:30Z를 반환합니다.
+2023-06-03T06:30Z를 반환합니다.
 
 `toString(now())`
 
-&quot;2019-06-03T06:30Z&quot; 반환
+&quot;2023-06-03T06:30Z&quot; 반환
 
 `now("Europe/Paris")`
 
-2019-06-03T08:30+02:00을 반환합니다.
+2023-06-03T08:30+02:00을 반환합니다.

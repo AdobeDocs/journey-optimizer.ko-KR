@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toString, 함수, 표현식, 여정
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 7%
@@ -61,7 +61,7 @@ ht-degree: 7%
 
 `toString(#{ExperiencePlatform.test_date.person.birthDate}))`
 
-지정된 dateOnly 필드(XDM 날짜 필드)의 문자열 표현을 반환합니다(예: &quot;2016-08-18&quot;).
+지정된 dateOnly 필드(XDM 날짜 필드)의 문자열 표현을 반환합니다(예: &quot;2023-08-18&quot;).
 
 `toString(toDuration(1520))`
 

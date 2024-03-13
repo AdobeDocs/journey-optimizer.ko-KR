@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 17%
@@ -60,13 +60,13 @@ Select the date for the execution of the next activity.
 
 ## 사용자 지정 대기{#custom}
 
-이 옵션을 사용하면 이벤트 또는 데이터 소스에서 가져온 필드를 기반으로 하는 고급 표현식을 사용하여 사용자 정의 날짜(예: 2020년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 정의 기간(예: 7일)을 정의할 수는 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. 다음을 참조하십시오. [페이지](expression/expressionadvanced.md). dateTimeOnly 형식에 대한 자세한 내용은 다음을 참조하십시오 [페이지](expression/data-types.md).
+이 옵션을 사용하면 이벤트 또는 데이터 소스에서 가져온 필드를 기반으로 하는 고급 표현식을 사용하여 사용자 정의 날짜(예: 2023년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 정의 기간(예: 7일)을 정의할 수는 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. 다음을 참조하십시오. [페이지](expression/expressionadvanced.md). dateTimeOnly 형식에 대한 자세한 내용은 다음을 참조하십시오 [페이지](expression/data-types.md).
 
 >[!NOTE]
 >
->dateTimeOnly 식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예: toDateTimeOnly(@event{Event.offerOpened.activity.endTime}), 이벤트의 필드는 양식 2016-08-12T09:46:6Z.
+>dateTimeOnly 식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예: toDateTimeOnly(@event{Event.offerOpened.activity.endTime}), 이벤트의 필드는 양식 2023-08-12T09:46:6Z.
 >
->다음 **시간대** 은 여정 속성에서 필요합니다. 따라서 오늘 인터페이스에서 2016-08-12T09와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 지정하는 것은 불가능합니다:46:06.982-05. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
+>다음 **시간대** 은 여정 속성에서 필요합니다. 따라서 오늘 인터페이스에서 2023-08-12T09와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 지정하는 것은 불가능합니다:46:06.982-05. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
 ![](assets/journey57.png)
 
