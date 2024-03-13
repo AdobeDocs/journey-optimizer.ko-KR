@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 9%
+source-wordcount: '1425'
+ht-degree: 10%
 
 ---
 
@@ -55,16 +55,6 @@ API를 사용하여 콘텐츠 템플릿을 만들고 관리할 수도 있습니�
 
 ![](assets/content-template-list-filters.png)
 
-<!--Select the **[!UICONTROL Grid view]** mode to display each template as a thumbnail. 
-
->[!NOTE]
->
->Currently proper thumbnails can only be generated for HTML-type email content templates.
-
-When you update a content, you may have to wait a few seconds before the changes are reflected in the thumbnail.
-
-![](assets/content-template-grid-view.png)-->
-
 * 템플릿 컨텐츠를 편집하려면 목록에서 원하는 항목을 클릭하고 다음을 선택합니다 **[!UICONTROL 콘텐츠 편집]**.
 
   ![](assets/content-template-edit.png)
@@ -76,6 +66,22 @@ When you update a content, you may have to wait a few seconds before the changes
 >[!NOTE]
 >
 >템플릿을 편집하거나 삭제할 때 이 템플릿을 사용하여 만든 콘텐츠가 포함된 캠페인 또는 여정은 영향을 받지 않습니다.
+
+### 템플릿을 썸네일로 표시 {#template-thumbnails}
+
+다음 항목 선택 **[!UICONTROL 격자 보기]** 각 템플릿을 썸네일로 표시하는 모드.
+
+>[!AVAILABILITY]
+>
+>이 기능은 소규모 고객을 위해 LA(Limited Availability)에서 출시됩니다.
+
+![](assets/content-template-grid-view.png)
+
+>[!NOTE]
+>
+>현재 HTML 유형 이메일 콘텐츠 템플릿에 대해서만 적절한 썸네일을 생성할 수 있습니다.
+
+콘텐츠를 업데이트할 때 변경 사항이 썸네일에 반영되기 전에 몇 초 정도 기다려야 할 수 있습니다.
 
 ## 콘텐츠 템플릿 만들기 {#create-content-templates}
 

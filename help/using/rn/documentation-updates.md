@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 62124981df61960fcf61d404481417c70413a2a6
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
 workflow-type: tm+mt
 source-wordcount: '4831'
 ht-degree: 99%
@@ -23,6 +23,7 @@ ht-degree: 99%
 
 * 메시지 빈도 규칙 페이지가 일별 빈도 상한에 대한 새 하위 섹션으로 업데이트되었습니다(주별 또는 월별 한도 외에도 필요에 따라 사용할 수 있음). [자세히 보기](../configuration/frequency-rules.md#daily-frequency-cap)
 * 동의 정책 작업 페이지를 개선하고 Experience Platform 설명서에 대한 유용한 링크로 업데이트했습니다. [자세히 보기](../action/consent.md)
+  <!--* The Access and manage templates section has been updated to reflect the fact that you can display content templates as a thumbnails with the Grid view mode. [Read more](../content-management/content-templates.md#template-thumbnails)-->
 
 ## 2024년 2월 {#feb-2024}
 
