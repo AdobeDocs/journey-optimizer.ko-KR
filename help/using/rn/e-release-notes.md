@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b3ec38154d01eb3f15c30c26b427ee34a324be7
+source-git-commit: 4f7a62cdfbd90b2d33341342f6fba769e8bf0132
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 27%
+source-wordcount: '289'
+ht-degree: 26%
 
 ---
 
@@ -64,3 +64,5 @@ ht-degree: 27%
 * **게시** 다음 사이의 상태: **초안** 상태 및 **라이브** 상태
 * **중지 중** 다음 사이의 상태: **라이브** 상태 및 **중지됨** 상태
 * **테스트 모드 활성화 중** 또는 **테스트 모드 비활성화** 다음 사이의 상태 **초안** 상태 및 **초안(테스트)** 상태
+
+여정이 중간 상태일 때는 읽기 전용입니다.
