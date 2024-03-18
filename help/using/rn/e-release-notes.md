@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4f7a62cdfbd90b2d33341342f6fba769e8bf0132
+source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 26%
+source-wordcount: '311'
+ht-degree: 29%
 
 ---
 
@@ -55,7 +55,11 @@ ht-degree: 26%
 
 **콘텐츠 템플릿**
 
-* **축소판** - A **썸네일 보기** 는 이제 개선된 시각적 액세스를 위해 콘텐츠 템플릿 및 조각에 사용할 수 있습니다. [자세히 보기](../content-management/content-templates.md#template-thumbnails)
+* **축소판** - A **격자 보기** 이제 콘텐츠 템플릿에 모드를 사용할 수 있으며, 시각적 액세스 향상을 위한 썸네일을 표시합니다. 현재는 이메일 HTML 템플릿만 지원됩니다. [자세히 알아보기](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >이 기능은 소규모 고객을 위해 LA(Limited Availability)에서 출시됩니다.
 
 **여정**
 
