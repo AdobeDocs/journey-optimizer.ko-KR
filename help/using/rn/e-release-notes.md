@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 02b5886dc9d32d3b06dd4930da882019e344bab3
+source-git-commit: 4b3ec38154d01eb3f15c30c26b427ee34a324be7
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 27%
@@ -44,7 +44,7 @@ ht-degree: 27%
 <li>세분화된 편집 정밀도: 앱 또는 웹 페이지 내의 개별 위치에서 특정 콘텐츠 편집</li>
 <li>다목적 구현: 개발 환경과 원활하게 통합하기 위해 서버측, API 기반 또는 SDK 기반 구현 방법을 지원합니다.</li></ul></p>
 <p>자세한 내용은 <a href="../code-based/get-started-code-based.md">자세한 설명서</a>를 참조하세요.</p>
-<!--img src="assets/do-not-localize/web_inapp.gif"-->
+<img src="assets/do-not-localize/code-based.gif">
 </tr>
 </tbody>
 </table>
