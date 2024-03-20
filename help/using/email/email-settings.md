@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 12%
+source-wordcount: '2378'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 12%
 
 이메일 만들기를 시작하려면 메시지에 필요한 모든 기술 매개 변수를 정의하는 이메일 채널 표면을 설정해야 합니다. [표면 생성 방법 알아보기](../configuration/channel-surfaces.md)
 
-채널 표면 구성의 전용 섹션에서 이메일 설정을 정의합니다.
+>[!NOTE]
+>
+>평판을 유지하고 전달성을 향상시키려면 이메일 표면을 만들기 전에 이메일 전송에 사용할 하위 도메인을 설정합니다. [자세히 알아보기](../configuration/about-subdomain-delegation.md)
+
+아래에 자세히 설명된 대로 채널 표면 구성의 전용 섹션에서 이메일 설정을 정의합니다.
 
 ![](assets/preset-email-settings.png)
 
@@ -51,27 +55,29 @@ ht-degree: 12%
 
 ## 하위 도메인 및 IP 풀 {#subdomains-and-ip-pools}
 
-다음에서 **하위 도메인 및 IP 풀** 섹션, 다음 작업을 수행해야 합니다.
+다음에서 **하위 도메인 및 IP 풀** 섹션에 아래 지시대로 필수 필드를 입력합니다.
 
-1. 이메일을 보내는 데 사용할 하위 도메인을 선택합니다. [자세히 알아보기](../configuration/about-subdomain-delegation.md)
+1. 이메일을 보내는 데 사용할 하위 도메인을 선택합니다.
+
+   도메인의 평판을 유지하려면 IP 준비 프로세스를 가속화하고 게재 능력을 향상시키려면 보내는 하위 도메인을 Adobe에 위임하십시오. [자세히 알아보기](../configuration/about-subdomain-delegation.md)
 
 1. 표면과 연결할 IP 풀을 선택합니다. [자세히 알아보기](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
-선택한 IP 풀이 아래에 있는 동안에는 표면 생성을 계속할 수 없습니다. [에디션](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 처리 중]** 상태) 및 은(는) 선택한 하위 도메인과 연결된 적이 없습니다. 그렇지 않으면 가장 오래된 버전의 IP 풀/하위 도메인 연결이 계속 사용됩니다. 이 경우 표면을 초안으로 저장하고 IP 풀에 가 있으면 다시 시도하십시오. **[!UICONTROL 성공]** 상태.
+   선택한 IP 풀이 아래에 있는 동안에는 표면 생성을 계속할 수 없습니다. [에디션](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 처리 중]** 상태) 및 은(는) 선택한 하위 도메인과 연결된 적이 없습니다. 그렇지 않으면 가장 오래된 버전의 IP 풀/하위 도메인 연결이 계속 사용됩니다. 이 경우 표면을 초안으로 저장하고 IP 풀에 가 있으면 다시 시도하십시오. **[!UICONTROL 성공]** 상태.
 
->[!NOTE]
->
->비프로덕션 환경의 경우, Adobe은 기본 제공 테스트 하위 도메인을 만들거나 공유 전송 IP 풀에 대한 액세스 권한을 부여하지 않습니다. 다음을 수행해야 합니다. [자신의 하위 도메인 위임](../configuration/delegate-subdomain.md) 및 조직에 할당된 풀의 IP를 사용합니다.
+   >[!NOTE]
+   >
+   >비프로덕션 환경의 경우, Adobe은 기본 제공 테스트 하위 도메인을 만들거나 공유 전송 IP 풀에 대한 액세스 권한을 부여하지 않습니다. 다음을 수행해야 합니다. [자신의 하위 도메인 위임](../configuration/delegate-subdomain.md) 및 조직에 할당된 풀의 IP를 사용합니다.
 
-IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소 위로 마우스를 가져가면 PTR 정보가 표시됩니다. [PTR 레코드에 대한 자세한 정보](../configuration/ptr-records.md)
+1. IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소 위로 마우스를 가져가면 PTR 정보가 표시됩니다. [PTR 레코드에 대한 자세한 정보](../configuration/ptr-records.md)
 
-![](assets/email-surface-ptr-record.png)
+   ![](assets/email-surface-ptr-record.png)
 
->[!NOTE]
->
->PTR 기록이 구성되지 않은 경우 Adobe 담당자에게 문의하십시오.
+   >[!NOTE]
+   >
+   >PTR 기록이 구성되지 않은 경우 Adobe 담당자에게 문의하십시오.
 
 ## 목록-구독 취소 {#list-unsubscribe}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 12%
+source-wordcount: '828'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 12%
 
 주소는 다음과 같이 제외 목록에 추가됩니다.
 
-* 모두 **하드 바운스** 및 **스팸 고객 불만** 한 번 발생 후 해당 주소를 제외 목록에 자동으로 보냅니다.
+* 모두 **하드 바운스** 및 **스팸 고객 불만** 한 번 발생 후 해당 주소를 제외 목록에 자동으로 보냅니다. 에서 스팸 불만에 대해 자세히 알아보기 [이 섹션](#spam-complaints).
 
 * **소프트 바운스** 주소를 즉시 제외 목록으로 보내지 마십시오. 그러나 오류 카운터가 증가합니다. 여러 개 [다시 시도](../configuration/retries.md) 그런 다음 이 수행되고, 오류 카운터가 임계값에 도달하면 주소가 제외 목록에 추가됩니다.
 
@@ -81,3 +81,5 @@ A **소프트 바운스** <!--or an **ignored** error--> 이 문제가 너무 �
 스팸 불만을 제출한 후 수신자에게 보내는 것은 ISP에 원치 않는 이메일을 보내고 수신자의 의견을 듣지 않을 수 있음을 알려 주기 때문에 전송 평판에 큰 영향을 미칠 수 있습니다.
 
 이로 인해 IP 주소 또는 전송 도메인이 차단될 수 있으며, 이러한 주소는 제외 목록에 있으므로 방지할 수 있습니다.
+
+일부 ISP에서는 이메일을 받은 사용자가 이메일을 스팸으로 표시하기로 선택하면 이메일 발신자에게 자동으로 알림을 보낼 수 있는 피드백 루프(FBL)를 제공합니다. [자세히 알아보기](deliverability.md#feedback-loops)

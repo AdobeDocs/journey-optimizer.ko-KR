@@ -9,27 +9,27 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, 통합
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 22%
+source-wordcount: '496'
+ht-degree: 20%
 
 ---
 
-# Adobe Campaign v7/v8과 통합 {#integrating-with-adobe-campaign-classic}
+# Adobe Campaign v7/v8과 통합 {#integrating-with-adobe-campaign-v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Adobe Campaign v7/v8 작업"
->abstract="이러한 통합은 Adobe Campaign Classic v7 및 v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다. Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다."
+>abstract="이 통합은 Adobe Campaign v7 및 v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다. Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다."
 
-이 통합은 7.1 릴리스부터 Adobe Campaign Classic v7 및 Adobe Campaign v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다.
+이 통합은 7.1 릴리스부터 Adobe Campaign v7/v8 및 Adobe Campaign v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다.
 
 Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다.
 
 이 슬라이드에는 엔드 투 엔드 활용 사례가 나와 있습니다 [섹션](../building-journeys/ajo-ac.md).
 
-구성된 각 작업에 대해 여정 디자이너 팔레트에서 작업 활동을 사용할 수 있습니다. 이 [섹션](../building-journeys/using-adobe-campaign-classic.md)을 참조하십시오.
+구성된 각 작업에 대해 여정 디자이너 팔레트에서 작업 활동을 사용할 수 있습니다. 이 [섹션](../building-journeys/using-adobe-campaign-v7-v8.md)을 참조하십시오.
 
 ## 중요 정보 {#important-notes}
 

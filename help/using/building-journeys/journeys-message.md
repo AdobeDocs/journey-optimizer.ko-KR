@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 17%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 * Campaign과 Journey Optimizer을 함께 사용하는 경우 다음 섹션을 참조하십시오.
 
-   * [[!DNL Journey Optimizer] 및 Campaign Classic v7/Campaign v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] 및 Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] 및 Campaign Standard](../action/acs-action.md)
 
 여정에 메시지를 추가하려면 아래 단계를 수행합니다.

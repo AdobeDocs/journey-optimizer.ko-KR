@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 96%
+source-wordcount: '1392'
+ht-degree: 82%
 
 ---
 
@@ -25,6 +25,56 @@ ht-degree: 96%
 [!DNL Adobe Journey Optimizer]은(는) 기본적으로 [!DNL Adobe Experience Platform] 기반으로 구축되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
+
+## 2024년 3월 릴리스 정보 {#mar-2024}
+
+**릴리스 날짜**: 2024년 3월 19~20일
+
+### 새로운 기능 {#mar-features}
+
+이번 릴리스에는 아래에 자세히 설명된 새로운 기능이 제공됩니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>코드 기반 경험</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>새로운 코드 기반 경험 채널을 사용하면 Adobe Journey Optimizer을 통해 인바운드 속성에 대해 고급 개인화 및 테스트를 수행할 수 있으므로 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV 연결 장치, 스마트 TV, 키오스크, ATM, IoT 장치 등과 같은 다양한 접점에서 맞춤형 경험을 원활하게 전달할 수 있습니다.</p>
+<P>주요 기능은 다음을 포함합니다.</p>
+<ul><li> 범용 개인화: 모든 접점에서 개인화된 경험을 확장하여 통합적이고 맞춤화된 사용자 여정을 보장합니다</li>
+<li>세분화된 편집 정밀도: 앱 또는 웹 페이지 내의 개별 위치에서 특정 콘텐츠 편집</li>
+<li>다목적 구현: 개발 환경과 원활하게 통합하기 위해 서버측, API 기반 또는 SDK 기반 구현 방법을 지원합니다.</li></ul></p>
+<p>자세한 내용은 <a href="../code-based/get-started-code-based.md">자세한 설명서</a>를 참조하세요.</p>
+<img src="assets/do-not-localize/code-based.gif">
+</tr>
+</tbody>
+</table>
+
+### 개선 사항 {#mar-improvements}
+
+이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
+
+**콘텐츠 템플릿**
+
+* **축소판** - A **격자 보기** 이제 콘텐츠 템플릿에 모드를 사용할 수 있으며, 시각적 액세스 향상을 위한 썸네일을 표시합니다. 현재는 이메일 HTML 템플릿만 지원됩니다. [자세히 알아보기](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >이 기능은 소규모 고객을 위해 LA(Limited Availability)에서 출시됩니다.
+
+**여정**
+
+여정 작성 라이프사이클에 새로운 중간 상태가 추가되었습니다.
+
+* **게시** 다음 사이의 상태: **초안** 상태 및 **라이브** 상태
+* **중지 중** 다음 사이의 상태: **라이브** 상태 및 **중지됨** 상태
+* **테스트 모드 활성화 중** 또는 **테스트 모드 비활성화** 다음 사이의 상태 **초안** 상태 및 **초안(테스트)** 상태
+
+여정이 중간 상태일 때는 읽기 전용입니다. [자세히 알아보기](../building-journeys/journey-gs.md#filter)
 
 ## 2024년 2월 릴리스 정보 {#feb-2024}
 

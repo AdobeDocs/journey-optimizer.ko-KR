@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '966'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ## 고객 불만 신고율 감소 {#reduce-complaint-rate}
 
-ISP에는 일반적으로 수신된 메시지를 스팸으로 보고하는 눈에 띄는 수단이 있습니다. 이로 인해 신뢰할 수 없는 출처를 식별할 수 있다. 옵트아웃 요청을 신속하게 준수하여 신뢰할 수 있는 발신자임을 보임으로써 고객 불만 비율을 줄일 수 있습니다. [옵트아웃 관리에 대해 자세히 알아보기](../privacy/opt-out.md#opt-out-management).
+ISP에는 일반적으로 수신된 메시지를 스팸으로 보고하는 눈에 띄는 수단이 있습니다. 이로 인해 신뢰할 수 없는 출처를 식별할 수 있다. 옵트아웃 요청을 신속하게 준수하여 신뢰할 수 있는 발신자임을 보임으로써 고객 불만 비율을 줄일 수 있습니다. [옵트아웃 관리에 대해 자세히 알아보기](../privacy/opt-out.md#opt-out-management)
 
 일반적으로 옵트아웃을 원하는 수신자에게 이메일 주소 또는 이름 등의 필드를 작성하도록 요구하여 방해를 받지 마십시오. 구독 취소 랜딩 페이지에는 유효성 검사 버튼이 하나만 있어야 합니다.
 
@@ -51,7 +51,7 @@ ISP에는 일반적으로 수신된 메시지를 스팸으로 보고하는 눈�
 
 게재 가능성을 보호하기 위해 주소가 제외 목록에 있는 수신자는 이후 모든 게재에서 기본적으로 제외됩니다. 이러한 연락처로 보내면 전송 평판이 손상될 수 있기 때문입니다.
 
-[제외 목록에 대해 자세히 알아보기](suppression-list.md).
+[제외 목록에 대해 자세히 알아보기](suppression-list.md)
 
 ## 모니터링 도구 사용 {#monitoring-tools}
 
@@ -71,10 +71,88 @@ ISP에는 일반적으로 수신된 메시지를 스팸으로 보고하는 눈�
 
 * **구독 취소 링크 및 랜딩 페이지**: 구독 취소 링크는 필수 사항입니다. 표시 및 유효해야 하며 양식이 제대로 작동해야 합니다.
 
-[이메일 콘텐츠 디자인에 대해 자세히 알아보기](../email/get-started-email-design.md).
+[이메일 콘텐츠 디자인에 대해 자세히 알아보기](../email/get-started-email-design.md)
 
-## 보낸 사람으로서의 평판 확립
+## 보낸 사람으로서의 평판 확립 {#reputation}
 
 최근 다른 이메일 서비스 공급자, IP 주소, 이메일 도메인 또는 하위 도메인으로 이동한 경우 발신자로서의 신뢰도를 설정해야 합니다. 그렇지 않으면 게재가 차단되거나 수신자 사서함의 스팸 폴더로 이동될 수 있습니다.
 
-IP를 준비하려면 게재 수를 점차적으로 늘릴 수 있습니다. 이 항목 보기 [사용 사례](../building-journeys/ramp-up-deliveries-uc.md).
+IP를 준비하려면 게재 수를 점차적으로 늘릴 수 있습니다. 자세히 알아보기 [사용 사례](../building-journeys/ramp-up-deliveries-uc.md).
+
+## DMARC 구현 {#dmarc}
+
+합법적인 이메일이 스팸 또는 거부로 표시되는 위험을 완화하고 게재 가능성 문제를 방지하기 위해 [!DNL Journey Optimizer] 을(를) 사용하면 Adobe에 위임하는 모든 하위 도메인에 대해 DMARC 레코드를 설정할 수 있습니다.
+
+도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 악의적인 행위자의 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다.
+
+[DMARC 레코드에 대한 자세한 내용](../configuration/dmarc-record.md)
+
+## 피드백 루프에 대해 알아보기 {#feedback-loops}
+
+FBL(피드백 루프)은 일부 ISP에서 제공하는 서비스로, 이메일을 받은 사용자가 이메일을 스팸으로 표시하도록 선택하면 이메일 발신자에게 자동으로 알림을 보낼 수 있습니다(&quot;컴플레인&quot;이라고도 함).
+
+최종 사용자가 ISP에서 다시 Adobe에게 보내는 컴플레인을 생성하면 이메일 주소가 자동으로 다음에 추가됩니다. [비표시 목록](../reports/suppression-list.md) 이후 게재에서 제외됩니다. 실제로 스팸으로 표시된 사용자에게 이메일을 보내면 보낸 사람의 신뢰도에 부정적인 영향을 미쳐 게재 가능성 문제가 발생할 수 있습니다. [스팸 불만에 대해 자세히 알아보기](../reports/suppression-list.md#spam-complaints)
+
+>[!IMPORTANT]
+>
+>모든 ISP가 Gmail과 같은 기존 FBL을 제공하는 것은 아닙니다. Gmail은 개별 수준 피드백을 제공하지 않으며, Google Postmaster 도구 내의 집계 수준 보고에 중점을 두고 개별 수신자에게 스팸 불만을 추적하는 데 사용할 수 없습니다. [자세히 알아보기](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
+
+모든 Adobe 고객은 자동으로 다음 ISP의 기존 FBL에 등록됩니다.
+
+* 1&amp;1
+
+* AOL
+
+* 블루타이
+
+* 컴캐스트
+
+* Fastmail
+
+* 간디
+
+* 이탈리아 온라인
+
+* 라 포스트
+
+* 리버티 글로벌 (첼로, UPC, 유니티 미디어)
+
+* Locaweb
+
+* Mail.RU
+
+* Microsoft
+
+* OpenSRS
+
+* 랙 공간
+
+* SEZNM
+
+* SFR
+
+* 실버스카이
+
+* 스위스컴
+
+* 시나코
+
+* 텔레콤 이탈리아
+
+* 텔레넷
+
+* 텔레노르
+
+* 텔스트라
+
+* 테라
+
+* UOL
+
+* 버진 미디어
+
+* Yahoo
+
+* 직고
+
+Adobe은 이러한 FBL을 정기적으로 감사하여 사용 가능한 최신 FBL이 추가되었는지 확인합니다.

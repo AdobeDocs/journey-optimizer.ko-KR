@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 사용자 지정 작업 경고에 해당하는 I/O 이벤트 구독 이름은 입니다. **여정 사용자 지정 작업 실패**.
 
-## 세그먼트 읽기 트리거 실패 {#alert-read-audiences}
+## 대상자 읽기 트리거 실패 {#alert-read-audiences}
 
 이 경고는 다음과 같은 경우 경고합니다. **대상자 읽기** 활동이 예약된 실행 시간 10분 후에 어떤 프로필도 처리하지 않았습니다. 이 실패는 기술 문제 또는 대상이 비어 있기 때문에 발생할 수 있습니다.
 
@@ -68,3 +68,24 @@ ht-degree: 0%
 경고 대상 **대상자 읽기** 프로필이 **대상자 읽기** 노드.
 
 에 해당하는 I/O 이벤트 구독 이름 **세그먼트 읽기 트리거 실패** 경고: **여정 읽기 세그먼트 지연, 실패 및 오류**.
+
+## 문제 해결 {#alert-troubleshooting}
+
+문제를 해결하려면 **대상자 읽기** 경고, Experience Platform 인터페이스에서 대상자 수를 확인합니다.
+
+![](assets/alert-troubleshooting-0.png)
+
+![](assets/alert-troubleshooting-1.png)
+
+문제를 해결하려면 **사용자 지정 작업** 경고:
+
+* 다른 여정에서 테스트 모드를 사용하여 사용자 지정 작업을 확인하십시오.
+
+  ![](assets/alert-troubleshooting-2.png)
+
+* 여정 보고서를 확인하여 작업에 대한 오류 원인을 확인하십시오.
+
+  ![](assets/alert-troubleshooting-3.png)
+
+* 여정 stepEvents를 확인하여 &quot;failureReason&quot;에 대한 자세한 정보를 찾으십시오.
+* 사용자 지정 작업 구성을 확인하고 인증이 여전히 유효한지 확인합니다. 예를 들어 Postman을 사용하여 수동 검사를 수행합니다.

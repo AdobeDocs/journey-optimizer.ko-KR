@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 11%
+source-wordcount: '766'
+ht-degree: 10%
 
 ---
 
@@ -47,6 +47,10 @@ ht-degree: 11%
 
 1. 오퍼의 이름과 시작 및 종료 날짜 및 시간을 지정합니다. 이 날짜 이외에는 Decisioning 엔진에서 오퍼를 선택하지 않습니다.
 
+   >[!NOTE]
+   >
+   >시간을 선택할 때는 현재 시간대를 고려합니다.
+
    ![](../assets/offer_details.png)
 
    >[!CAUTION]
@@ -64,6 +68,10 @@ ht-degree: 11%
 1. 표현을 추가하여 메시지에 오퍼가 표시될 위치를 정의합니다. [자세히 알아보기](add-representations.md)
 
    ![](../assets/channel-placement.png)
+
+   >[!CAUTION]
+   >
+   >모든 표현을 포함하는 오퍼의 크기는 300KB를 초과할 수 없습니다.
 
 1. 표시할 오퍼에 대한 조건을 설정하려면 제약 조건을 추가하십시오. [자세히 알아보기](add-constraints.md)
 

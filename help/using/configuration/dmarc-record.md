@@ -8,10 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
-source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
+exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 13%
+source-wordcount: '1353'
+ht-degree: 12%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 13%
 
 ## DMARC란? {#what-is-dmarc}
 
-도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다. 이메일 공급자/ISP에 명확한 정책을 제공함으로써 악의적인 행위자가 도메인에서 온 것으로 주장하는 이메일을 보내지 못하게 하는 데 도움이 됩니다. DMARC를 구현하면 합법적인 이메일이 스팸으로 표시되거나 거부될 위험이 줄어들고 이메일 전달성이 향상됩니다.
+도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다. 이메일 공급자 및 인터넷 서비스 공급자(ISP)에게 명확한 정책을 제공함으로써 악의적인 행위자가 도메인에서 온 것이라고 주장하는 이메일을 보내지 못하게 하는 데 도움이 됩니다. DMARC를 구현하면 합법적인 이메일이 스팸으로 표시되거나 거부될 위험이 줄어들고 이메일 전달성이 향상됩니다.
 
 또한 DMARC는 인증에 실패한 메시지에 대한 보고와 함께 DMARC 유효성 검사를 통과하지 않은 이메일 처리에 대한 제어를 제공합니다. 구현된 항목에 따라 [DMARC 정책](#dmarc-policies), 이러한 이메일은 모니터링, 격리 또는 거부될 수 있습니다. 이러한 기능을 통해 잠재적 오류를 완화하고 해결하기 위한 조치를 취할 수 있습니다.
 
@@ -61,7 +62,7 @@ DMARC를 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 ## DMARC 요구 사항 업데이트 {#dmarc-update}
 
-시행 중인 업계 모범 사례의 일부인 Google 및 Yahoo! 두 가지 모두 다음을 수행해야 합니다. **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은 다음 항목부터 적용됩니다. **2024년 2월 1일**.
+시행 중인 업계 모범 사례의 일부인 Google 및 Yahoo! 두 가지 모두 다음을 수행해야 합니다. **레코드** (으)로 이메일을 전송하는 데 사용하는 모든 도메인의 경우 이 새 요구 사항은 **2024년 2월 1일**&#x200B;부터 적용됩니다.
 
 >[!CAUTION]
 >
@@ -194,10 +195,3 @@ The key benefits or DMARC are as folllows:
 * This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.
 
 -->
-
-
-
-
-
-
-

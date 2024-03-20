@@ -7,9 +7,9 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: ht
-source-wordcount: '535'
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
@@ -49,11 +49,6 @@ ht-degree: 100%
       <th>단축키</th>
     </tr>
   </thead>
-  <tr>
-    <td>여정, 작업, 데이터 소스 또는 이벤트의 목록</td>
-    <td>여정, 작업, 데이터 소스 또는 이벤트 만들기</td>
-    <td>C</td>
-  </tr>
   <tr>
     <td rowspan="8">초안 상태의 여정 캔버스</td>
     <td>왼쪽 팔레트의 사용 가능한 첫 번째 위치에 활동 추가(위에서 아래로)</td>
@@ -107,23 +102,6 @@ ht-degree: 100%
   <tr>
     <td>변경 내용을 취소하고 구성 창 닫기</td>
     <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">테스트 모드 여정</td>
-    <td>테스트 모드 활성화 또는 비활성화</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>이벤트 기반 여정에서 이벤트 트리거</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>**[!UICONTROL Single profile at a time]** 옵션이 켜진 대상자 기반 여정의 이벤트 트리거</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>테스트 로그 표시</td>
-    <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>

@@ -5,29 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 12%
+source-wordcount: '430'
+ht-degree: 3%
 
 ---
 
 # 사전 요구 사항 및 보호 기능 {#web-prerequisites}
-
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* [코드 기반 채널 시작](get-started-code-based.md)
-* **[코드 기반 사전 요구 사항](code-based-prerequisites.md)**
-* [코드 기반 구현 샘플](code-based-implementation-samples.md)
-* [코드 기반 경험 만들기](create-code-based.md)
-
->[!ENDSHADEBOX]
 
 에서 코드 기반 경험 작업을 사용하려면 [!DNL Journey Optimizer] 애플리케이션에서 사용할 수 있는 코드 컨텐츠 페이로드를 전달하려면 아래 사전 요구 사항을 따르십시오.
 
@@ -37,9 +23,11 @@ ht-degree: 12%
 
 ## 주의 사항 {#caution-notes-web}
 
-* 코드 기반 경험 채널은 현재 일부 사용자에게만 Beta 버전으로 제공됩니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
-
 * 현재 위치 [!DNL Journey Optimizer] 에서는 코드 기반 경험만 만들 수 있습니다. **캠페인**. [자세히 알아보기](../campaigns/create-campaign.md#configure)
+
+>[!AVAILABILITY]
+>
+>현재 Adobe을 구입한 조직에서는 코드 기반 경험 채널을 사용할 수 없습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
 
 ## 구현 사전 요구 사항 {#implementation-prerequisites}
 

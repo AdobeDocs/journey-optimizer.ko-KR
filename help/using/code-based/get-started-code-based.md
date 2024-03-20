@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User, Developer, Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 100%
+source-wordcount: '1205'
+ht-degree: 88%
 
 ---
 
 # 코드 기반 채널 시작 {#get-sarted-code-based}
 
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* **[코드 기반 채널 시작](get-started-code-based.md)**
-* [코드 기반 사전 요구 사항](code-based-prerequisites.md)
-* [코드 기반 구현 샘플](code-based-implementation-samples.md)
-* [코드 기반 경험 만들기](create-code-based.md)
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->코드 기반 경험 채널은 현재 일부 사용자에게만 Beta 버전으로 제공됩니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
+>현재 Adobe을 구입한 조직에서는 코드 기반 경험 채널을 사용할 수 없습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
 
 [!DNL Journey Optimizer]을(를) 사용하면 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV 연결 장치, 스마트 TV, 키오스크, ATM, 음성 지원, IoT 장치 등과 같은 모든 터치포인트에서 고객에게 제공할 경험을 개인화하고 테스트할 수 있습니다.
 
@@ -39,11 +25,15 @@ ht-degree: 100%
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
-[캠페인을 만드는](../campaigns/create-campaign.md#configure) 경우, **코드 기반 경험(Beta)**&#x200B;을 작업으로 선택하고 기본 설정을 정의합니다.
+>[!CAUTION]
+>
+>현재 위치 [!DNL Journey Optimizer] 다음을 사용하여 코드 기반 경험만 만들 수 있습니다. **캠페인**.
+
+다음을 수행하는 경우 [캠페인 만들기](../campaigns/create-campaign.md#configure), 선택 **코드 기반 경험** 를 작업으로 만들고 기본 설정을 정의합니다.
 
 >[!NOTE]
 >
->웹 경험을 처음 만드는 경우에는 [이 섹션](code-based-prerequisites.md)에서 설명하는 전제 조건을 충족해야 한다는 점에 유의하십시오.
+>코드 기반 경험을 처음 만드는 경우 다음에 설명된 전제 조건을 따라야 합니다 [이 섹션](code-based-prerequisites.md).
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -74,17 +64,15 @@ ht-degree: 100%
 </div>
 <p></td>
 <td>
-<a href="create-code-based.md#edit-code">
+<a href="code-based-implementation-samples.md">
 <img alt="유효성 검사" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="create-code-based.md#edit-code"><strong>코드 편집</strong></a>
+<a href="code-based-implementation-samples.md"><strong>구현 샘플</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
-
-
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
@@ -156,25 +144,42 @@ ht-degree: 100%
 * 또한 다양한 클라이언트 표면 정의와 일치하는 와일드카드 표면일 수도 있습니다. 예를 들어 웹 사이트의 모든 페이지에 있는 히어로 이미지 위치는 web://mydomain.com/*#hero_image 와 같은 표면 URI로 변환될 수 있습니다.
 
 기본적으로 표면 URI는 여러 섹션으로 구성됩니다.
-1. **유형**: 웹, 모바일 앱, 서비스, 키오스크, tvcd 등
-1. **속성**: 도메인 또는 앱 번들
-1. **경로**: 페이지/앱 활동 ± 페이지/앱 활동의 위치 <!--to clarify-->
+1. **유형**: 웹, ios, android, atm, kiosk, tvcd, 서비스 등
+1. **속성**: 페이지 URL 또는 앱 번들
+1. **컨테이너**: 페이지/앱 활동의 위치
 
 아래 표에는 다양한 장치에 대한 일부 표면 URI 정의 예가 나와 있습니다.
 
+**웹 및 모바일**
+
 | 유형 | URI | 설명 |
-| --------- | ----------- | ------- |   
+| --------- | ----------- | ------- | 
 | 웹 | web://domain.com/path/page.html | 웹 사이트의 개별 경로 및 페이지를 나타냅니다. |
 | 웹 | web://domain.com/path/page.html#element | 특정 도메인의 특정 페이지 내에 있는 개별 요소를 나타냅니다. |
 | 웹 | web://domain.com/*#element | 와일드카드 표면 - 특정 도메인 아래의 각 페이지에 있는 개별 요소를 나타냅니다. |
-| 데스크탑 | desktop://com.vendor.bundle | 특정 데스크탑 애플리케이션을 나타냅니다. |
-| 데스크탑 | desktop://com.vendor.bundle#element | 버튼, 메뉴, 히어로 배너 등과 같은 애플리케이션 내의 특정 요소를 나타냅니다. |
 | iOS 앱 | mobileapp://com.vendor.bundle | 단일 플랫폼에 대한 특정 모바일 애플리케이션을 나타냅니다(이 경우 iOS 앱). |
 | iOS 앱 | mobileapp://com.vendor.bundle/activity | 모바일 애플리케이션 내의 특정 활동(보기)을 나타냅니다. |
 | iOS 앱 | mobileapp://com.vendor.bundle/activity#element | 활동 내의 특정 요소(예: 버튼 또는 기타 보기 요소)를 나타냅니다. |
 | Android 앱 | mobileapp://com.vendor.bundle | 단일 플랫폼에 대한 특정 모바일 애플리케이션(이 경우 Android 앱)을 나타냅니다. |
+
+**기타 디바이스 유형**
+
+| 유형 | URI | 설명 |
+| --------- | ----------- | ------- | 
+| 데스크탑 | desktop://com.vendor.bundle | 특정 데스크탑 애플리케이션을 나타냅니다. |
+| 데스크탑 | desktop://com.vendor.bundle#element | 버튼, 메뉴, 히어로 배너 등과 같은 애플리케이션 내의 특정 요소를 나타냅니다. |
 | tvOS 앱 | tvos://com.vendor.bundle | 특정 tvOS 앱을 나타냅니다. |
 | TV 앱 | tvcd://com.vendor.bundle | 특정 스마트 TV 또는 TV 연결 장치 앱 - 번들 ID를 나타냅니다. |
 | 서비스 | service://servicename | 서버측 프로세스 또는 기타 수동 엔티티를 나타냅니다. |
 | 키오스크 | kiosk://location/screen | 쉽게 추가될 수 있는 잠재적인 추가 서피스 유형의 예. |
 | ATM | atm://location/screen | 쉽게 추가될 수 있는 잠재적인 추가 서피스 유형의 예. |
+
+**와일드카드 표면**
+
+| 유형 | URI | 설명 |
+| --------- | ----------- | ------- | 
+| 와일드카드 웹 | 와일드카드:web://domain.com/`*`#element | 와일드카드 표면 - 특정 도메인 아래의 각 페이지에 있는 개별 요소를 나타냅니다. |
+| 와일드카드 웹 | 와일드카드:web://`*`domain.com/`*`#element | 와일드카드 표면 - &quot;domain.com&quot;으로 끝나는 모든 도메인 아래의 각 페이지에서 개별 요소를 나타냅니다. |
+
+
+

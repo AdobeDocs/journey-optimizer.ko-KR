@@ -7,10 +7,11 @@ feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
+exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 4%
+source-wordcount: '522'
+ht-degree: 3%
 
 ---
 
@@ -25,6 +26,11 @@ ht-degree: 4%
 예를 들어 여러 이메일을 전송하는 여정을 설정했습니다. 이 기능을 사용하면 을 결합할 수 있습니다 [!DNL Journey Optimizer] 전환이 발생한 횟수, 웹 사이트에서 참여가 발생한 횟수 또는 스토어에서 발생한 거래 수와 같은 다운스트림 이벤트 데이터가 포함된 데이터. 여정 정보는 다른 디지털 속성 또는 오프라인 속성에서 Adobe Experience Platform의 데이터와 결합하여 성능을 보다 종합적으로 볼 수 있습니다.
 
 [!DNL Journey Optimizer] 는 개인이 여정에서 수행하는 각 단계에 대해 필요한 스키마와 스트림을 Adobe Experience Platform의 데이터 세트에 자동으로 생성합니다. 단계 이벤트는 여정 내의 한 노드에서 다른 노드로 이동하는 개인에 해당합니다. 예를 들어 이벤트, 조건 및 작업이 있는 여정에서 3단계 이벤트가 Adobe Experience Platform으로 전송됩니다.
+
+동일한 노드에 대해 여러 이벤트를 만들 수 있는 경우가 있습니다. 예를 들어 대기 활동의 경우:
+
+* 프로필이 대기를 입력할 때 하나의 이벤트가 생성됩니다(journeyNodeProcessed 속성은 false와 같음).
+* 프로필이 종료되면 하나의 이벤트가 생성됩니다(journeyNodeProcessed 속성은 true와 같음).
 
 전달되는 XDM 필드 목록은 포괄적입니다. 일부는 시스템 생성 코드를 포함하고 다른 것은 사람이 읽을 수 있는 친근한 이름을 갖는다. 예를 들어 여정 활동의 레이블 또는 단계 상태(작업이 시간 초과되거나 오류로 종료되는 횟수)가 있습니다.
 
@@ -66,4 +72,3 @@ Adobe Experience Platform에 전달된 XDM 필드 목록은 여기에 자세히 
 * 에서 이 데이터 세트를 사용하려면 [!DNL Customer Journey Analytics], 크로스 채널 여정 분석은 를 참조하십시오. [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [Customer Journey Analytics 작업](cja-ajo.md){target="_blank"}
-

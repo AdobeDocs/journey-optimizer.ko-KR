@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1630'
 ht-degree: 8%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >선택한 IP 풀이 아래에 있는 동안에는 표면 생성을 계속할 수 없습니다. [에디션](ip-pools.md#edit-ip-pool) (**[!UICONTROL 처리 중]** 상태) 및 은(는) 선택한 하위 도메인과 연결된 적이 없습니다. [자세히 알아보기](#subdomains-and-ip-pools)
+   >선택한 IP 풀이 아래에 있는 동안에는 이메일 표면 생성을 계속할 수 없습니다. [에디션](ip-pools.md#edit-ip-pool) (**[!UICONTROL 처리 중]** 상태) 및 은(는) 선택한 하위 도메인과 연결된 적이 없습니다. [자세히 알아보기](#subdomains-and-ip-pools)
    >
    >표면을 초안으로 저장하고 IP 풀이 다음을 가질 때까지 기다립니다. **[!UICONTROL 성공]** 서피스 생성을 재개하는 상태입니다.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '3602'
-ht-degree: 100%
+source-wordcount: '3603'
+ht-degree: 99%
 
 ---
 
@@ -765,7 +765,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **여정**
 
 * 성능을 최적화하기 위해 1주일 동안 트리거되지 않은 테스트 모드의 모든 여정이 이제 초안 상태로 다시 전환합니다. [자세히 보기](../building-journeys/testing-the-journey.md#important_notes)
-* Journey Optimizer과 Adobe Campaign Classic 간 통합이 성능을 개선하기 위해 최적화되었습니다. 최대 가능한 기본 구성이 4,000회 호출/5분으로 변경되었습니다.    [자세히 보기](../action/acc-action.md#important-notes)
+* Journey Optimizer과 Adobe Campaign v7/v8 간의 통합이 성능을 향상시키도록 최적화되었습니다. 최대 허용 기본 구성이 호출 수 4,000회/5분으로 변경되었습니다. [자세히 보기](../action/acc-action.md#important-notes)
 
 **보고**
 

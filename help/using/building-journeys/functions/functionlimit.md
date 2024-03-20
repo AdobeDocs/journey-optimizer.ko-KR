@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: limit, function, expression, 여정
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 | 매개변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
-| listToprocess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 정렬할 목록입니다. listObject의 경우 필드 참조여야 합니다. |
+| listToprocess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 고려할 목록입니다. listObject의 경우 필드 참조여야 합니다. |
 | numberOfItems | 정수 | 해당 목록에서 반환할 항목 수. |
 | 첫 번째 또는 마지막 항목 | 부울 | 이 매개 변수는 선택 사항입니다(기본값: true). true는 첫 번째 항목을 반환합니다. false는 마지막 항목을 반환합니다. |
 

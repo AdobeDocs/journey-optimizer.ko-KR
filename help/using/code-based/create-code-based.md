@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 10%
+source-wordcount: '993'
+ht-degree: 7%
 
 ---
 
 # 코드 기반 경험 만들기 {#create-code-based}
 
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* [코드 기반 채널 시작](get-started-code-based.md)
-* [코드 기반 사전 요구 사항](code-based-prerequisites.md)
-* [코드 기반 구현 샘플](code-based-implementation-samples.md)
-* **[코드 기반 경험 만들기](create-code-based.md)**
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->코드 기반 경험 채널은 현재 일부 사용자에게만 Beta 버전으로 제공됩니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
+>현재 Adobe을 구입한 조직에서는 코드 기반 경험 채널을 사용할 수 없습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
 
 ## 코드 기반 캠페인 만들기 {#create-code-based-campaign}
 
@@ -43,7 +29,7 @@ ht-degree: 10%
 
 1. 캠페인을 만듭니다. [자세히 알아보기](../campaigns/create-campaign.md)
 
-1. 다음 항목 선택 **[!UICONTROL 코드 기반 경험(베타)]** 작업.
+1. 다음 항목 선택 **[!UICONTROL 코드 기반 경험]** 작업.
 
 1. 코드 기반 경험 표면을 입력합니다. [자세히 알아보기](#surface-definition)
 
@@ -81,21 +67,27 @@ ht-degree: 10%
 
 1. 작성 모드를 HTML에서 JSON으로 전환하거나 그 반대로 전환할 수 있습니다.
 
+   ![](assets/code-based-campaign-code-editor.png)
+
    >[!CAUTION]
    >
    >작성 모드를 변경하면 현재 코드가 모두 손실되므로 작성을 시작하기 전에 모드를 전환해야 합니다.
 
 1. 필요에 따라 코드를 입력합니다. 다음을 활용할 수 있습니다. [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
-   ![](assets/code-based-campaign-code-editor.png)
+1. 필요한 경우 HTML 또는 JSON 표현식 조각을 추가할 수 있습니다. [방법 알아보기](../personalization/use-expression-fragments.md)
 
-1. 코드 기반 캠페인에서는 Experience Decisioning 기능을 사용할 수 있습니다. 다음 항목 선택 **[!UICONTROL 결정]** 왼쪽 막대에서 아이콘을 클릭하고 **[!UICONTROL 결정 만들기]**. [자세히 알아보기](../experience-decisioning/create-decision.md)
+   코드 콘텐츠의 일부를 조각으로 저장할 수도 있습니다. [방법 알아보기](../content-management/fragments.md#save-as-expression-fragment)
 
-   ![](assets/code-based-campaign-create-decision.png)
+<!--
+1. In code-based campaigns, you can use the experience decisioning feature. Select the **[!UICONTROL Decisions]** icon from the left bar and click **[!UICONTROL Create decision]**. [Learn more](../experience-decisioning/create-decision.md)
 
-   >[!NOTE]
-   >
-   >Experience Decisioning 기능은 현재 사용자를 선택하는 베타 버전으로 사용할 수 있습니다.
+    ![](assets/code-based-campaign-create-decision.png)
+
+    >[!NOTE]
+    >
+    >The experience decisioning feature is currently available as a beta to select users only.
+-->
 
 1. 클릭 **[!UICONTROL 저장 및 닫기]** 을 클릭하여 변경 내용을 확인합니다.
 
