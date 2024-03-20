@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
+source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '864'
 ht-degree: 9%
 
 ---
@@ -67,7 +67,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 ## 전제 조건 {#prerequisites}
 
-데이터 세트를 내보내려면 [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions) 아래에 나열됩니다. 읽기 [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) 필요한 권한을 얻으려면 제품 관리자에게 문의하십시오.
+데이터 세트를 내보내려면 [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} 필요한 권한을 얻으려면 제품 관리자에게 문의하십시오.
 
 | 카테고리 | 사용 권한 |
 |--|--|
@@ -81,9 +81,9 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 ![](assets/dataset-export-process.png)
 
-각 단계에 대한 자세한 내용은 Adobe Experience Platform 설명서에서 확인할 수 있습니다. [클라우드 스토리지 대상으로 데이터 세트 내보내기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html).
+각 단계에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
 
-1. **클라우드 스토리지 대상 설정**. 아직 연결하지 않은 경우 대상 카탈로그에서 클라우드 스토리지 대상에 연결합니다. [새 대상 연결을 만드는 방법 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
+1. **클라우드 스토리지 대상 설정**. 아직 연결하지 않은 경우 대상 카탈로그에서 클라우드 스토리지 대상에 연결합니다. 에서 새 대상 연결을 만드는 방법을 알아봅니다 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -93,7 +93,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
    >[!NOTE]
    >
-   >실시간 고객 프로필과 함께 Adobe Journey Optimizer을 사용하는 경우 대상 카드에 &quot;활성화&quot; 버튼이 표시되어 활성화된 권한에 따라 데이터 세트를 내보내고 이 대상에 대한 대상을 활성화할 수 있습니다.
+   >실시간 고객 프로필과 함께 Adobe Journey Optimizer을 사용하는 경우 대상 카드에 **활성화** 단추를 사용하여 데이터 세트를 내보내고 활성화한 권한에 따라 이 대상에 대한 대상을 활성화할 수 있습니다.
 
 1. **데이터 세트 선택** 을(를) 선택한 대상으로 내보냅니다. [내보내기에 사용할 수 있는 Journey Optimizer 데이터 세트에 대한 자세한 정보](#datasets)
 
@@ -107,4 +107,4 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
    <!--![](assets/dataset-export-review.png)-->
 
-내보내기가 완료되면 데이터 세트의 콘텐츠가 사용자가 구성한 일정에 따라 클라우드 저장소 위치에 저장됩니다. [성공적인 데이터 세트 내보내기를 확인하는 방법 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify)
+내보내기가 완료되면 데이터 세트의 콘텐츠가 사용자가 구성한 일정에 따라 클라우드 저장소 위치에 저장됩니다. [성공적인 데이터 세트 내보내기를 확인하는 방법 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
