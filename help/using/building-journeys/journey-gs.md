@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1983'
 ht-degree: 15%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 15%
 >id="ajo_homepage_card2"
 >title="여정 만들기"
 >abstract="**Adobe Journey Optimizer**&#x200B;를 통해 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다."
+
+
 
 ## 전제 조건{#start-prerequisites}
 
@@ -111,6 +113,8 @@ ht-degree: 15%
 ## 여정 빌드{#jo-build}
 
 이 단계는 **비즈니스 사용자**. 여기에서 여정을 만들 수 있습니다. 다양한 이벤트, 오케스트레이션 및 작업 활동을 결합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
+
+➡️ [비디오에서 이 기능 살펴보기](journey.md#video)
 
 여정을 통해 메시지를 보내는 주요 단계는 다음과 같습니다.
 

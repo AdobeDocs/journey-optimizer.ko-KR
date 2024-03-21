@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '613'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,6 @@ ht-degree: 100%
 
 * **여정 디자이너**&#x200B;를 사용하면 여러 단계로 이루어진 사용 사례를 구축할 수 있습니다. 간단하게 시작 이벤트나 대상자 읽기 활동을 끌어다 놓고 조건을 추가하며 개인화된 메시지를 보내세요.
 
-
 >[!NOTE]
 >
 >[이 페이지](../start/guardrails.md)에서 여정 가드레일 및 제한 사항을 자세히 확인할 수 있습니다.
@@ -40,6 +39,8 @@ ht-degree: 100%
 Adobe Journey Optimizer를 사용하여 단일 캔버스에서 개인화된 여정을 디자인하고 오케스트레이션할 수 있습니다. 캠페인을 만드는 주요 단계는 다음과 같습니다.
 
 ![](assets/journey-creation-process.png)
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조화롭게 조정할 수 있는 옴니채널 오케스트레이션 캔버스가 포함되어 있습니다. 사용자 인터페이스를 사용하면 팔레트에서 캔버스로 활동을 쉽게 드래그 앤 드롭하여 여정을 작성할 수 있습니다.
 
@@ -103,3 +104,9 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 여정 버전은 개별적으로 중지할 수 있습니다. 여정의 모든 버전은 이름이 같습니다.
 
 새 여정 버전을 게시하면 이전 버전이 자동으로 종료되고 **닫힌** 상태로 전환됩니다. 여정 출입이 있을 수 없습니다. 최신 버전을 중지해도 이전 버전은 닫힌 상태로 유지됩니다.
+
+## 방법 비디오 {#video}
+
+여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성하는 기본 사항을 이해합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

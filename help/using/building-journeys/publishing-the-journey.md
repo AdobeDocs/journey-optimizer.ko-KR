@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: 06166dbecc11abe81dadb467c302336c64672a39
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 5%
@@ -35,10 +35,10 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->여정 메시지에 사용 중인 여정 결정이 변경되는 경우 오퍼 게시를 취소하고 다시 게시해야 합니다.  이렇게 하면 변경 사항이 여정 메시지에 통합되고 메시지가 최신 업데이트와 일관되게 표시됩니다.
+>여정의 메시지에 사용 중인 오퍼 의사 결정이 변경되는 경우 여정 게시를 취소하고 다시 게시해야 합니다.  이렇게 하면 변경 사항이 여정 메시지에 통합되고 메시지가 최신 업데이트와 일관되게 표시됩니다.
 
 ## 방법 비디오 {#video}
 
 여정 게시 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334238?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

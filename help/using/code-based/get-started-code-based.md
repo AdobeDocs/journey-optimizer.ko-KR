@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
+source-git-commit: 430af6da50e74c7375be92242ca869d187b63a54
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 80%
@@ -150,7 +150,7 @@ ht-degree: 80%
 
 아래 표에는 다양한 장치에 대한 일부 표면 URI 정의 예가 나와 있습니다.
 
-### 웹 및 모바일
+**웹 및 모바일**
 
 | 유형 | URI | 설명 |
 | --------- | ----------- | ------- | 
@@ -158,7 +158,7 @@ ht-degree: 80%
 | iOS 앱 | mobileapp://com.vendor.bundle/activity#element | 버튼 또는 기타 보기 요소와 같이 기본 앱 활동 내의 특정 요소를 나타냅니다. |
 | Android 앱 | mobileapp://com.vendor.bundle#element | 기본 앱 내의 특정 요소를 나타냅니다. |
 
-### 기타 디바이스 유형
+**기타 디바이스 유형**
 
 | 유형 | URI | 설명 |
 | --------- | ----------- | ------- | 
@@ -168,7 +168,7 @@ ht-degree: 80%
 | 키오스크 | kiosk://location/screen#element | 쉽게 추가될 수 있는 잠재적인 추가 서피스 유형의 예. |
 | ATM | atm://location/screen#element | 쉽게 추가될 수 있는 잠재적인 추가 서피스 유형의 예. |
 
-### 와일드카드 표면
+**와일드카드 표면**
 
 | 유형 | URI | 설명 |
 | --------- | ----------- | ------- | 
