@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 콘텐츠 지원을 사용하여 이미지 생성
-description: 콘텐츠 지원 시작
+title: AI Assistant를 사용하여 이미지 생성
+description: AI Assistant 시작
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,32 +11,32 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 10%
+source-wordcount: '346'
+ht-degree: 3%
 
 ---
 
-# 콘텐츠 지원을 사용하여 이미지 생성 {#image-content-assistant}
+# AI Assistant를 사용하여 이미지 생성 {#image-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **목차**
 
-* [콘텐츠 도우미 시작](gs-generative.md)
-* [콘텐츠 도우미로 텍스트 생성](generative-content.md)
-* **[콘텐츠 도우미를 사용하여 이미지 생성](generative-image.md)**
+* [AI Assistant 시작](gs-generative.md)
+* [AI Assistant를 사용하여 텍스트 생성](generative-content.md)
+* **[AI Assistant를 사용하여 이미지 생성](generative-image.md)**
 
 >[!ENDSHADEBOX]
 
-이메일 또는 웹 페이지를 만들고 개인화한 후에는 콘텐츠 도우미를 통해 콘텐츠를 한 차원 높입니다. 이 강력한 도구를 사용하면 콘텐츠를 손쉽게 개인화하고 향상시킬 수 있습니다.
+이메일 또는 웹 페이지를 만들고 개인화한 후에는 Journey Optimizer AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다. 이 강력한 도구를 사용하면 콘텐츠를 손쉽게 개인화하고 향상시킬 수 있습니다.
 
-아래 예제에서는 콘텐츠 도우미를 사용하여 더 나은 사용자 경험을 위해 에셋을 업데이트하고 개선하는 방법을 알아봅니다. 다음 단계를 수행하십시오.
+아래 예에서는 AI Assistant를 사용하여 에셋을 업데이트하고 개선하여 더 나은 사용자 경험을 제공하는 방법에 대해 알아봅니다. 다음 단계를 수행하십시오.
 
 1. 메시지를 만들고 구성한 후 **[!UICONTROL 콘텐츠 만들기]** 필요에 따라 개인화합니다.
 
-1. 콘텐츠 도우미로 변경할 에셋을 선택합니다.
+1. AI Assistant를 사용하여 변경할 에셋을 선택합니다.
 
 1. 오른쪽 메뉴에서 **[!UICONTROL 경험 생성]**.
 
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 1. 결과를 보다 세밀하게 조정하기 위한 프롬프트를 추가하고 을 클릭합니다. **[!UICONTROL 생성]**.
 
-   활성화 **[!UICONTROL 현재 콘텐츠로 개선]** 콘텐츠 도우미가 메시지, 캠페인 이름 및 선택한 대상을 기반으로 새 에셋을 개인화할 수 있는 옵션입니다.
+   활성화 **[!UICONTROL 현재 콘텐츠로 개선]** 메시지, 캠페인 이름 및 선택한 대상을 기반으로 새 에셋을 개인화할 수 있는 AI 길잡이 옵션입니다.
 
    ![](assets/gen-ai-image-2.png)
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 콘텐츠 도우미를 사용하여 콘텐츠 생성
-description: 콘텐츠 지원 시작
+title: AI Assistant를 사용하여 콘텐츠 생성
+description: AI Assistant 시작
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 6%
+source-wordcount: '408'
+ht-degree: 3%
 
 ---
 
-# 콘텐츠 도우미를 사용하여 콘텐츠 생성 {#title-content-assistant}
+# AI Assistant를 사용하여 콘텐츠 생성 {#title-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **목차**
 
-* [콘텐츠 도우미 시작](gs-generative.md)
-* **[콘텐츠 도우미를 사용하여 콘텐츠 생성](generative-content.md)**
-* [콘텐츠 도우미로 이미지 생성](generative-image.md)
+* [AI Assistant 시작](gs-generative.md)
+* **[AI Assistant를 사용하여 콘텐츠 생성](generative-content.md)**
+* [AI Assistant를 사용하여 이미지 생성](generative-image.md)
 
 >[!ENDSHADEBOX]
 
-메시지를 만들고 개인화했으면 콘텐츠 도우미를 통해 콘텐츠를 한 단계 더 발전시킵니다.
+메시지를 만들고 개인화한 후에는 Journey Optimizer AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다.
 
-콘텐츠 도우미를 활용하여 다양한 콘텐츠로 실험함으로써 메시지의 효과를 최적화할 수 있습니다. 각 변형은 더 많은 클릭을 효과적으로 생성하는 콘텐츠를 측정하고 비교하기 위한 고유한 처리로 간주됩니다.
+AI Assistant를 활용함으로써 다양한 콘텐츠로 실험하여 메시지의 효과를 최적화할 수 있습니다. 각 변형은 더 많은 클릭을 효과적으로 생성하는 콘텐츠를 측정하고 비교하기 위한 고유한 처리로 간주됩니다.
 
 이 특정 예에서는 콘텐츠 실험을 사용하여 매력적인 푸시 알림을 보내는 방법을 알아봅니다. 다음 단계를 수행하십시오.
 
@@ -48,7 +48,7 @@ ht-degree: 6%
 
    * **[!UICONTROL 요약]**: 이 옵션을 사용하여 텍스트 길이를 줄이고 필수 항목을 유지합니다.
 
-   * **[!UICONTROL 정교하]**: 이 옵션을 사용하여 콘텐츠 도우미의 추가 크리에이티브 변형으로 콘텐츠를 확장할 수 있습니다.
+   * **[!UICONTROL 정교하]**: 이 옵션을 사용하여 AI Assistant의 추가 크리에이티브 변형으로 콘텐츠를 확장할 수 있습니다.
 
    ![](assets/gen-ai-title-2.png)
 
@@ -62,7 +62,7 @@ ht-degree: 6%
 
    ![](assets/gen-ai-title-4.png)
 
-1. 개인화 후 **[!UICONTROL 본문]** 푸시 알림에서 다음을 선택합니다. **[!UICONTROL 콘텐츠 지원 표시]**.
+1. 개인화 후 **[!UICONTROL 본문]** 푸시 알림에서 다음을 선택합니다. **[!UICONTROL AI Assistant 표시]**.
 
    여기서 변형 목록은 원본 콘텐츠를 사용하여 이미 사용할 수 있습니다.
 
@@ -70,7 +70,7 @@ ht-degree: 6%
 
 1. 생성하려는 내용을 설명하여 콘텐츠를 미세 조정합니다.
 
-   활성화 **[!UICONTROL 현재 콘텐츠로 개선]** 콘텐츠 도우미가 메시지, 캠페인 이름 및 선택한 대상을 기반으로 새 콘텐츠를 개인화할 수 있는 옵션입니다.
+   활성화 **[!UICONTROL 현재 콘텐츠로 개선]** 메시지, 캠페인 이름 및 선택한 대상을 기반으로 새 콘텐츠를 개인화할 수 있는 AI 길잡이 옵션입니다.
 
 1. 클릭 **[!UICONTROL 바꾸기]** 콘텐츠를 변경하거나 다중 선택 **[!UICONTROL 변형]** 만들려면 **[!UICONTROL 처리]** 을(를) 실험에 사용하고 **X 처리 추가**.
 
