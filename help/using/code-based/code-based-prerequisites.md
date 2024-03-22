@@ -1,14 +1,14 @@
 ---
-title: 코드 기반 경험 사전 요구 사항
+title: 코드 기반 경험 보호 및 사전 요구 사항
 description: Journey Optimizer 코드 기반 기능을 사용하여 앱 및 웹 페이지를 편집하려면 이 페이지의 사전 요구 사항을 따르십시오
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 3%
 
 ---
@@ -21,14 +21,12 @@ ht-degree: 3%
 
 * 코드 기반 경험이 올바로 제공되도록 하려면 Adobe Experience Platform 설정 을 자세히 정의해야 합니다 [여기](#delivery-prerequisites).
 
-
-## 주의 사항 {#caution-notes-web}
-
-* 현재 위치 [!DNL Journey Optimizer] 에서는 코드 기반 경험만 만들 수 있습니다. **캠페인**. [자세히 알아보기](../campaigns/create-campaign.md#configure)
-
->[!AVAILABILITY]
+>[!CAUTION]
 >
->현재 Adobe을 구입한 조직에서는 코드 기반 경험 채널을 사용할 수 없습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
+>* Adobe을 구입한 조직에서는 코드 기반 경험 채널을 사용할 수 없습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
+>
+>* 에서는 코드 기반 경험만 만들 수 있습니다. **캠페인**. [자세히 알아보기](../campaigns/create-campaign.md#configure
+
 
 ## 구현 사전 요구 사항 {#implementation-prerequisites}
 

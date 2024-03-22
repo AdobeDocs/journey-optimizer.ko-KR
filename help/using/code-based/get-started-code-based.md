@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1123'
 ht-degree: 81%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 81%
 >
 >* 현재 위치 [!DNL Journey Optimizer] 다음을 사용하여 코드 기반 경험만 만들 수 있습니다. **캠페인**.
 >
->>* Adobe을 구입한 조직에서는 코드 기반 경험 채널을 사용할 수 없습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
+>* 코드 기반 경험 채널은 **사용할 수 없음** Adobe을 구입한 조직의 경우 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -45,7 +45,7 @@ ht-degree: 81%
 <img alt="유효성 검사" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div>
-<a href="code-based-prerequisites.md"><strong>전제 조건</strong></a>
+<a href="code-based-prerequisites.md"><strong>보호 기능 및 사전 요구 사항</strong></a>
 </div>
 <p>
 </td>
