@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 16%
+source-wordcount: '409'
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 
 이 설명서의 내용:
 
-* [IP 준비 시작](ip-warmup-gs.md)
+* [IP 준비 계획 시작](ip-warmup-gs.md)
 * **[IP 준비 캠페인 만들기](ip-warmup-campaign.md)**
 * [IP 준비 계획 만들기](ip-warmup-plan.md)
 * [IP 준비 계획 실행](ip-warmup-execution.md)
