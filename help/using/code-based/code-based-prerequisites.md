@@ -6,20 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 3%
 
 ---
 
-# 사전 요구 사항 및 보호 기능 {#web-prerequisites}
+# 보호 기능 및 사전 요구 사항 {#web-prerequisites}
 
 에서 코드 기반 경험 작업을 사용하려면 [!DNL Journey Optimizer] 애플리케이션에서 사용할 수 있는 코드 컨텐츠 페이로드를 전달하려면 아래 사전 요구 사항을 따르십시오.
 
 * 응용 프로그램에 수정 사항을 추가하려면 특정 구현이 있어야 합니다. [자세히 알아보기](#implementation-prerequisites)
 
 * 코드 기반 경험이 올바로 제공되도록 하려면 Adobe Experience Platform 설정 을 자세히 정의해야 합니다 [여기](#delivery-prerequisites).
+
 
 ## 주의 사항 {#caution-notes-web}
 

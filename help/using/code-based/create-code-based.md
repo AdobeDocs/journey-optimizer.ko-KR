@@ -6,14 +6,18 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1001'
 ht-degree: 7%
 
 ---
 
 # 코드 기반 경험 만들기 {#create-code-based}
+
+현재 위치 [!DNL Journey Optimizer] 에서는 코드 기반 경험만 만들 수 있습니다. **캠페인**.
+
+보호 기능 및 권장 사항은에 자세히 설명되어 있습니다. [이 페이지](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >
@@ -22,10 +26,6 @@ ht-degree: 7%
 ## 코드 기반 캠페인 만들기 {#create-code-based-campaign}
 
 캠페인을 통해 코드 기반 경험을 구축하려면 아래 단계를 따르십시오.
-
->[!CAUTION]
->
->현재 위치 [!DNL Journey Optimizer] 다음을 사용하여 코드 기반 경험만 만들 수 있습니다. **캠페인**.
 
 1. 캠페인을 만듭니다. [자세히 알아보기](../campaigns/create-campaign.md)
 
@@ -41,11 +41,7 @@ ht-degree: 7%
 
 1. **[!UICONTROL 만들기]**&#x200B;를 선택합니다.
 
-1. 캠페인 속성 등 캠페인을 만드는 단계를 완료합니다. [대상자](../audience/about-audiences.md), 및 [예약](../campaigns/create-campaign.md#schedule).
-
-   >[!NOTE]
-   >
-   >캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../campaigns/get-started-with-campaigns.md).
+1. 캠페인 속성 등 캠페인을 만드는 단계를 완료합니다. [대상자](../audience/about-audiences.md), 및 [예약](../campaigns/create-campaign.md#schedule). 캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../campaigns/get-started-with-campaigns.md).
 
 1. 표현식 편집기를 사용하여 원하는 대로 콘텐츠를 편집합니다. [자세히 알아보기](#edit-code)
 
@@ -100,7 +96,7 @@ ht-degree: 7%
 >title="코드 기반 경험 미리보기"
 >abstract="코드 기반 경험이 어떻게 시각화되는지 시뮬레이션을 수행합니다."
 
-수정된 코드 기반 경험의 미리보기를 표시하려면 아래 단계를 따르십시오. 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은  [콘텐츠 페이지 미리보기 및 테스트](../content-management/preview-test.md).
+수정된 코드 기반 경험의 미리보기를 표시하려면 아래 단계를 따르십시오. 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 페이지 미리보기 및 테스트](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

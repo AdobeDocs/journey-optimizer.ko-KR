@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 100%
+source-wordcount: '1740'
+ht-degree: 99%
 
 ---
 
@@ -244,8 +244,8 @@ ht-degree: 100%
       + [단일 페이지 애플리케이션 작성](using/web/web-spa.md)
 + 코드 기반 경험 {#code-based-experience}
    + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)
-   + [코드 기반 사전 요구 사항](using/code-based/code-based-prerequisites.md)
-   + [코드 기반 구현 샘플](using/code-based/code-based-implementation-samples.md)
+   + [보호 기능 및 사전 요구 사항](using/code-based/code-based-prerequisites.md)
+   + [구현 방법 샘플](using/code-based/code-based-implementation-samples.md)
    + [코드 기반 경험 만들기](using/code-based/create-code-based.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
