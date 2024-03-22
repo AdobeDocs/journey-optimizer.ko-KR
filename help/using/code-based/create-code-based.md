@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
+source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '980'
 ht-degree: 7%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 7%
 현재 위치 [!DNL Journey Optimizer] 에서는 코드 기반 경험만 만들 수 있습니다. **캠페인**.
 
 코드 기반 경험에 대한 특정 보호 기능 및 권장 사항이에 자세히 설명되어 있습니다. [이 페이지](code-based-prerequisites.md).
-
->[!AVAILABILITY]
->
->현재 Adobe을 구입한 조직에서는 코드 기반 경험 채널을 사용할 수 없습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
 
 ## 코드 기반 캠페인 만들기 {#create-code-based-campaign}
 

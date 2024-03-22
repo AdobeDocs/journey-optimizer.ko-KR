@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
+source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '425'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 >
 >* Adobe을 구입한 조직에서는 코드 기반 경험 채널을 사용할 수 없습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
 >
->* 에서는 코드 기반 경험만 만들 수 있습니다. **캠페인**. [자세히 알아보기](../campaigns/create-campaign.md#configure
+>* 에서는 코드 기반 경험만 만들 수 있습니다. **캠페인**. [자세히 알아보기](../campaigns/create-campaign.md#configure).
 
 
 ## 구현 사전 요구 사항 {#implementation-prerequisites}
