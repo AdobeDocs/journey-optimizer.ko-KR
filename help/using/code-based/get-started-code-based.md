@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
+source-git-commit: bb9ebf5900f38c3729321330eee176489a86cd8e
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 81%
+source-wordcount: '1082'
+ht-degree: 84%
 
 ---
 
@@ -21,13 +21,10 @@ ht-degree: 81%
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
->[!NOTE]
+>[!IMPORTANT]
 >
->* 코드 기반 경험을 처음 만드는 경우 다음에 설명된 전제 조건을 따라야 합니다 [이 섹션](code-based-prerequisites.md).
->
->* 현재 위치 [!DNL Journey Optimizer] 다음을 사용하여 코드 기반 경험만 만들 수 있습니다. **캠페인**.
->
->* 코드 기반 경험 채널은 **사용할 수 없음** Adobe을 구입한 조직의 경우 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
+>코드 기반 경험에 대한 특정 보호 기능 및 권장 사항이에 자세히 설명되어 있습니다. [이 페이지](code-based-prerequisites.md).
+
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
