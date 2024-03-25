@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '5046'
-ht-degree: 96%
+source-wordcount: '5073'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 96%
 
 ## 2024년 3월 {#march-2024}
 
+* Journey Optimizer에서의 대상 구성 및 사용자 지정 업로드 대상 사용에 대한 일반적인 질문을 해결하기 위해 FAQ 섹션이 추가되었습니다. [자세히 보기](../audience/about-audiences.md#faq)
 * 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2024년 3월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 프로필 입장 관리의 페이지를 개선했습니다. [자세히 보기](../building-journeys/entry-management.md)
 * 문제 해결 정보가 경고 페이지에 추가되었습니다. [자세히 보기](../reports/alerts.md#alert-troubleshooting)

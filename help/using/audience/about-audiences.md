@@ -7,11 +7,12 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
+mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 39%
+source-wordcount: '1835'
+ht-degree: 20%
 
 ---
 
@@ -34,12 +35,12 @@ ht-degree: 39%
 다음과 같은 다양한 방법을 사용하여 대상을 생성할 수 있습니다.
 
 * **세그먼트 정의**: Adobe Experience Platform 세그멘테이션 서비스를 사용하여 새 대상 정의를 만듭니다. [세그먼트 정의를 작성하는 방법 알아보기](creating-a-segment-definition.md)
-* **CSV 파일 가져오기**: CSV 파일을 사용하여 대상자를 가져옵니다. Adobe Experience Platform에서 대상자를 가져오는 방법 알아보기 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+* **사용자 정의 업로드**: CSV 파일을 사용하여 대상자를 가져옵니다. Adobe Experience Platform에서 대상자를 가져오는 방법 알아보기 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 * **대상자 구성**: 컴포지션 워크플로를 만들어 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만듭니다. [대상자 구성 시작](get-started-audience-orchestration.md)
 
 ## 에서 대상 지정 [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-캠페인 및 여정에서 세그먼트 정의, CSV 파일 가져오기 또는 작성 워크플로우를 사용하여 생성된 대상을 선택할 수 있습니다.
+캠페인 및 여정에서 세그먼트 정의, 사용자 지정 업로드 또는 작성 워크플로우를 사용하여 생성된 대상자를 선택할 수 있습니다.
 
 >[!AVAILABILITY]
 >
@@ -49,27 +50,49 @@ ht-degree: 39%
 
 * **캠페인** 대상자를 선택하면 선택한 대상자에 속하는 모든 개인에게 메시지를 보냅니다. [캠페인의 대상자를 정의하는 방법을 알아봅니다](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* 여정에서 **대상자 읽기** 오케스트레이션 활동을 사용하면 대상자에 속하는 모든 개인이 여정을 시작하면 여정에 포함된 메시지를 받도록 할 수 있습니다.
-
-  “실버 고객”이라는 대상자가 있다고 가정해 보겠습니다. 이 활동으로 모든 실버 고객이 여정에 입장하도록 하여 이들에게 연속으로 이어지는 개인화된 메시지를 보낼 수 있습니다. [대상자 읽기 활동을 구성하는 방법을 알아봅니다](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
-
-* 여정에 **대상자 자격 조건** 이벤트 활동을 사용하면 Adobe Experience Platform 대상자 입장 및 퇴장을 기준으로 여정에 개인 사용자가 입장하거나 다음 단계로 진행하도록 할 수 있습니다.
-
-  예를 들면 모든 신규 실버 고객이 여정에 입장하도록 하여 이들에게 메시지를 보낼 수 있습니다. 이 활동을 사용하는 자세한 방법은 [대상자 자격 조건 활동을 구성하는 방법 알아보기](../building-journeys/audience-qualification-events.md)를 참조하세요.
+* 사용 **대상자 읽기** 여정의 오케스트레이션 활동을 통해 대상에 있는 모든 개인이 여정에 들어가 여정에 포함된 메시지를 수신하도록 할 수 있습니다. “실버 고객”이라는 대상자가 있다고 가정해 보겠습니다. 이 활동으로 모든 실버 고객이 여정에 입장하도록 하여 이들에게 연속으로 이어지는 개인화된 메시지를 보낼 수 있습니다. [대상자 읽기 활동을 구성하는 방법을 알아봅니다](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
 * 여정에 **조건** 활동을 사용하면 대상자 멤버십을 기반으로 조건을 작성할 수 있습니다. [조건에서 대상자를 사용하는 방법을 알아봅니다](../building-journeys/condition-activity.md#using-a-segment).
 
-## Journey Optimizer에서 대상 강화 속성 사용 {#enrichment}
+* 사용 **대상 자격 조건** 여정 이벤트 활동 을 통해 Adobe Experience Platform 대상자 출입구를 기준으로 여정에서 개인 사용자가 들어오거나 앞으로 이동하도록 할 수 있습니다. 예를 들면 모든 신규 실버 고객이 여정에 입장하도록 하여 이들에게 메시지를 보낼 수 있습니다. 이 활동을 사용하는 자세한 방법은 [대상자 자격 조건 활동을 구성하는 방법 알아보기](../building-journeys/audience-qualification-events.md)를 참조하세요.
+
+  >[!NOTE]
+  >
+  >작성 워크플로 및 사용자 지정 업로드를 사용하여 생성된 대상자의 배치 특성으로 인해 &quot;대상자 자격&quot; 활동에서 이러한 대상자를 타깃팅할 수 없습니다. 세그먼트 정의를 사용하여 생성된 대상만 이 활동에서 활용할 수 있습니다.
+
+## 대상자 강화 속성 사용 {#enrichment}
 
 작성 워크플로우를 사용하여 생성된 대상자를 타겟팅할 때 이러한 대상자의 데이터 보강 속성을 활용하여 여정을 구축하고 메시지를 개인화할 수 있습니다.
 
-* 타겟팅된 대상의 보강 속성을 활용하는 규칙을 기반으로 한 여정에 여러 경로를 만듭니다. 이렇게 하려면 다음을 사용하여 대상을 타깃팅합니다 [대상자 읽기](../building-journeys/read-audience.md) 활동 다음에 규칙 만들기 [조건](../building-journeys/condition-activity.md) 대상자의 데이터 보강 속성을 기반으로 한 활동.
+여정에서 데이터 보강 속성을 사용하려면 해당 속성이 &quot;ExperiencePlatform&quot; 데이터 소스 내의 필드 그룹에 추가되어 있는지 확인하십시오.
 
-  ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
++++ 필드 그룹에 데이터 보강 속성을 추가하는 방법 알아보기
 
-* 표현식 편집기에서 타겟팅된 대상의 데이터 보강 속성을 추가하여 여정 또는 캠페인에서 메시지를 개인화할 수 있습니다. [표현식 편집기 작업 방법 알아보기](../personalization/personalization-build-expressions.md)
+1. &quot;관리&quot; > &quot;구성&quot; > &quot;데이터 소스&quot;로 이동합니다.
+1. &quot;Experience Platform&quot;를 선택하고 필드 그룹을 만들거나 편집합니다.
+1. 필드 선택기를 열고 추가할 데이터 보강 속성을 찾은 다음 해당 속성 옆의 확인란을 선택합니다.
+1. 변경 내용을 저장합니다.
 
-  ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
+데이터 소스에 대한 자세한 내용은 다음 섹션에서 확인할 수 있습니다.
+
+* [Adobe Experience Platform 데이터 소스 작업](../datasource/adobe-experience-platform-data-source.md)
+* [데이터 소스 구성](../datasource/configure-data-sources.md)
+
++++
+
+데이터 보강 속성이 필드 그룹에 추가되면 Journey Optimizer의 다른 위치에서 이를 활용할 수 있습니다.
+
+* **여정에 여러 경로 만들기** 타겟팅된 대상의 보강 속성을 활용하는 규칙을 기반으로 합니다. 이렇게 하려면 다음을 사용하여 대상을 타깃팅합니다 [대상자 읽기](../building-journeys/read-audience.md) 활동 다음에 규칙 만들기 [조건](../building-journeys/condition-activity.md) 대상자의 데이터 보강 속성을 기반으로 한 활동.
+
+  ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
+
+* **메시지 개인화** 표현식 편집기에서 타겟팅된 대상의 데이터 보강 속성을 추가하여 여정 또는 캠페인에서. [표현식 편집기 작업 방법 알아보기](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
+
+>[!AVAILABILITY]
+>
+>사용자 지정 업로드 보강 속성은 아직 Journey Optimizer에서 사용할 수 없습니다.
 
 ## 대상자 평가 방법 {#evaluation-method-in-journey-optimizer}
 
@@ -125,16 +148,95 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 
 * **메시지 열림** 인터랙션 유형 이벤트
 
-  대상을 구축할 때 **메시지 열림** 상호 작용 이벤트는 사용자 활동의 실제 지표가 아니며 세그멘테이션 성능에 부정적인 영향을 줄 수 있으므로 신뢰할 수 없게 되었습니다. 여기에서 그 이유를 알아보십시오. [Adobe 블로그 게시물](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}.
-
-  따라서 Adobe은 를 사용하지 않는 것을 권장합니다 **메시지 열림** 스트리밍 세그먼테이션과 상호 작용 이벤트. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다.
+  대상을 구축할 때 **메시지 열림** 상호 작용 이벤트는 사용자 활동의 실제 지표가 아니며 세그멘테이션 성능에 부정적인 영향을 줄 수 있으므로 신뢰할 수 없게 되었습니다. 여기에서 그 이유를 알아보십시오. [Adobe 블로그 게시물](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}. 따라서 Adobe은 를 사용하지 않는 것을 권장합니다 **메시지 열림** 스트리밍 세그먼테이션과 상호 작용 이벤트. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다.
 
 * **메시지 전송됨** 피드백 상태 이벤트
 
-  다음 **메시지 전송됨** 피드백 이벤트는 종종 이메일을 보내기 전에 빈도 또는 제외 확인에 사용됩니다. Adobe은 성능에 부담을 주고 시스템 저하를 유발할 수 있으므로 피하는 것이 좋습니다.
-
-  따라서 빈도 또는 제외 논리의 경우 대신 비즈니스 규칙을 사용하십시오. **메시지 전송됨** 피드백 이벤트. 비즈니스 규칙에 대한 기존 월별 케이던스를 보완하여 개별 프로필에 대한 일일 빈도 상한을 곧 사용할 수 있습니다.
+  다음 **메시지 전송됨** 피드백 이벤트는 종종 이메일을 보내기 전에 빈도 또는 제외 확인에 사용됩니다. Adobe은 성능에 부담을 주고 시스템 저하를 유발할 수 있으므로 피하는 것이 좋습니다. 따라서 빈도 또는 제외 논리의 경우 대신 비즈니스 규칙을 사용하십시오. **메시지 전송됨** 피드백 이벤트. 비즈니스 규칙에 대한 기존 월별 케이던스를 보완하여 개별 프로필에 대한 일일 빈도 상한을 곧 사용할 수 있습니다.
 
 >[!NOTE]
 >
 >다음을 사용할 수 있습니다. **메시지 열림** 및 **메시지 전송됨** 성능 문제 없이 일괄 세분화된 이벤트.
+
+
+## 대상 구성 및 사용자 지정 업로드 FAQ {#faq}
+
+다음 섹션에는 작성 워크플로우 및 사용자 지정 업로드(CSV 파일)로 생성된 대상의 Journey Optimizer 사용에 대한 FAQ가 나열되어 있습니다.
+
++++ Journey Optimizer 내에서 대상 구성 및 사용자 지정 업로드의 대상을 사용할 수 있는 곳은 어디입니까?
+
+대상자 구성 및 사용자 지정 업로드의 대상자를 캠페인 및 여정 중 하나에서 타깃팅할 수 있습니다. [에서 대상을 타기팅하는 방법 알아보기 [!DNL Journey Optimizer]](#segments-in-journey-optimizer)
+
+* 위치 **캠페인**, 이러한 대상은 &quot;대상 선택&quot; 단추를 클릭한 후 대상 선택기에 표시됩니다.
+
+* 위치 **여정**, 대상 선택 중 &quot;대상 읽기&quot; 활동에서 및 대상 멤버십 확인을 위한 &quot;조건&quot; 활동에서 이러한 대상을 사용할 수 있습니다. 그러나 이러한 대상은 배치 특성으로 인해 &quot;대상 자격&quot; 활동에 표시되지 않습니다.
+
+  >[!NOTE]
+  >
+  >사용자 지정 업로드 대상의 경우, 반복 여정에서 &quot;증분 읽기&quot;가 활성화되면 이러한 대상이 수정되므로 프로필은 첫 번째 반복에서만 검색됩니다.
+
+또한 이러한 대상은 표현식 편집기에서 여정 및 캠페인에서 메시지를 개인화하는 데 사용할 수 있습니다. [표현식 편집기 작업 방법 알아보기](../personalization/personalization-build-expressions.md)
+
++++
+
++++ 데이터 보강 속성이란 무엇입니까?
+
+데이터 보강 속성은 상황에 맞는 추가 속성이며 대상에만 국한됩니다. 프로필과 연결되어 있지 않으며 일반적으로 개인화 목적으로 사용됩니다.
+
+데이터 보강 속성은 다음을 통해 대상자에 연결됩니다. [강화](composition-canvas.md#enrich) 활동은 대상자 작성 또는 사용자 지정 업로드 프로세스를 통해 수행됩니다.
+
++++
+
++++ Journey Optimizer 내에서 데이터 보강 속성을 사용할 수 있는 곳은 어디입니까?
+
+대상자 구성의 데이터 보강 속성은 다음 영역에서 활용할 수 있습니다. [대상자 강화 속성을 사용하는 방법 알아보기](#enrichment)
+
+* 조건 활동(여정)
+* 사용자 지정 작업 특성(여정)
+* 메시지 개인화(여정 및 캠페인)
+
+>[!AVAILABILITY]
+>
+>사용자 지정 업로드 보강 속성은 아직 Journey Optimizer에서 사용할 수 없습니다.
+
++++
+
++++ 여정에서 데이터 보강 속성을 활성화하려면 어떻게 해야 합니까?
+
+여정에서 데이터 보강 속성을 사용하려면 해당 속성이 &quot;ExperiencePlatform&quot; 데이터 소스 내의 필드 그룹에 추가되어 있는지 확인하십시오. 필드 그룹에 데이터 보강 속성을 추가하는 방법에 대한 정보는에서 사용할 수 있습니다 [이 섹션](#enrichment)
+
++++
+
++++ Journey Optimizer에서 대상 구성 또는 사용자 지정 업로드의 대상을 게시한 후 얼마나 빨리 사용할 수 있습니까?
+
+* 의 대상자 **대상자 구성** 은 매일 실행되므로 Journey Optimizer에서 사용하려면 최대 24시간을 기다려야 할 수 있습니다.
+* 의 대상자 **사용자 지정 업로드** 게시 후 약 2시간 후에 Journey Optimizer에서 사용할 수 있습니다.
+
++++
+
++++ 여정이 시작된 후 데이터 보강 속성 값이 업데이트됩니까?
+
+현재는 없습니다. 대기 노드나 이벤트 여정 후에도 데이터 보강 속성 값은 이벤트가 시작될 때와 동일하게 유지됩니다.
+
++++
+
++++ 사용자 지정 업로드 대상은 어떻게 프로필과 결합합니까?
+
+사용자 지정 업로드 프로세스 중에 ID 및 매핑되는 프로필 ID로 사용할 CSV 속성을 지정합니다. 이렇게 하면 대상 데이터와 프로필 간에 링크가 설정됩니다. CSV 파일에 프로필에서 찾을 수 없는 ID 값이 포함되어 있는 경우 해당 ID 값으로 새 프로필이 만들어집니다.
+
+사용자 지정 업로드 프로세스에 대한 자세한 내용은 Adobe Experience Platform에서 확인할 수 있습니다 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+
++++
+
++++ Journey Optimizer에서 내 데이터가 얼마나 최신 상태입니까?
+
+대상 구성 및 사용자 지정 업로드의 대상 데이터는 대상 내보내기 서비스(AES)로 채워집니다. AES는 프로필 속성 및 대상자 멤버십을 읽으며, 다음과 같은 타임라인을 통해 이러한 대상자에게 사용할 수 있습니다.
+
+* **대상자 구성**: 매일 내보내기(24시간 이하)
+* **사용자 정의 업로드**: 전용 내보내기 작업(~2시간)
+
+대상 읽기 활동의 대상 구성 또는 사용자 지정 업로드에서 대상을 활용하는 모든 여정은 마지막 일괄 처리 평가만큼 새로운 프로필 속성을 갖게 됩니다. 여기에는 여정의 동의/억제도 포함됩니다.
+
+또한 대상 구성 대상의 풍부한 속성은 마지막 구성 실행만큼 신선하며 과거에는 최대 24시간까지 소요될 수 있습니다.
+
++++

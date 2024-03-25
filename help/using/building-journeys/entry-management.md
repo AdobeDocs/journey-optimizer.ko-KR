@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '680'
 ht-degree: 5%
 
 ---
@@ -78,6 +78,10 @@ Business events follow re-entrance rules in the same way as for unitary events. 
 반복 대상자 읽기 여정에 두 가지 옵션을 사용할 수 있습니다.
 
 * **증분 읽기** 옵션: 여정에 반복이 있는 경우 **대상자 읽기** 은 처음으로 실행되며 대상자의 모든 프로필이 여정에 들어갑니다. 이 옵션을 사용하면 여정의 마지막 실행 이후 대상에 들어온 개인만 첫 번째 발생 이후에 타깃팅할 수 있습니다.
+
+  >[!NOTE]
+  >
+  >을(를) 타겟팅하는 경우 [사용자 지정 업로드 대상자](../audience/about-audiences.md#segments-in-journey-optimizer) 여정에서 프로필은 반복 여정에서 이 옵션이 활성화된 경우 이러한 대상이 수정되므로 첫 번째 반복에서만 검색됩니다.
 
 * **재발 시 강제 재진입**: 이 옵션을 사용하면 여정에 여전히 있는 모든 프로필이 다음 실행 시 자동으로 종료되도록 할 수 있습니다. 이 여정에서 프로필의 수명이 반복 빈도보다 길 수 있는 경우(예: 대기 활동을 사용하는 경우) 프로필이 여정을 완료할 수 있도록 이 옵션을 활성화하지 마십시오.
 
