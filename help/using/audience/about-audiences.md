@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: eb0ba1cfca10aea7dc0c0f8d1243bb8b7e5c0e0f
 workflow-type: tm+mt
 source-wordcount: '1835'
 ht-degree: 20%
@@ -240,3 +240,4 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 또한 대상 구성 대상의 풍부한 속성은 마지막 구성 실행만큼 신선하며 과거에는 최대 24시간까지 소요될 수 있습니다.
 
 +++
+
