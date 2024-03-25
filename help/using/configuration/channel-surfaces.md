@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1651'
 ht-degree: 8%
 
 ---
@@ -49,6 +49,11 @@ ht-degree: 8%
 >title="채널 표면 설정"
 >abstract="여정 또는 캠페인에서 이메일과 같은 작업을 만들 수 있도록 먼저 메시지에 필요한 모든 기술 설정을 정의하는 채널 표면을 만들어야 합니다. 채널 표면을 만들고, 편집하고, 삭제하려면 메시지 사전 설정 관리 권한이 있어야 합니다."
 
+>[!CONTEXTUALHELP]
+>id="ajo_surface_marketing_action"
+>title="마케팅 액션 선택"
+>abstract="동의 정책을 메시지와 연결하려면 표면에 있는 마케팅 작업을 선택하십시오."
+
 채널 표면을 만들려면 다음 단계를 수행합니다.
 
 1. 액세스 **[!UICONTROL 채널]** > **[!UICONTROL 브랜딩]** > **[!UICONTROL 채널 표면]** 메뉴를 선택한 다음 **[!UICONTROL 채널 표면 만들기]**.
@@ -82,6 +87,19 @@ ht-degree: 8%
    >[!NOTE]
    >
    >SMS 메시지를 보내도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../sms/sms-configuration.md).
+
+<!--
+1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+
+    >[!NOTE]
+    >
+    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+
+    ![](assets/surface-marketing-action.png)
+
+    >[!NOTE]
+    >
+    >You can only select one marketing action.-->
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]** 확인할 수 있습니다. 채널 서피스를 구배로 저장하고 나중에 구성을 재개할 수도 있습니다.
 
