@@ -9,18 +9,14 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, Healthcare Shield, 동의
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: d549e4fdb7cd71e450cd00e4fa8707ae03ce0aff
-workflow-type: ht
-source-wordcount: '961'
-ht-degree: 100%
+source-git-commit: 334527cbad3363b77d14dd447e06d4e8da79daec
+workflow-type: tm+mt
+source-wordcount: '956'
+ht-degree: 87%
 
 ---
 
 # 동의 정책 사용 {#consent-management}
-
-<!--Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
-
-In Journey Optimizer, you can apply these consent policies to your custom actions. For example, you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication.-->
 
 사용자의 데이터에는 조직 규정이나 법적 규정에 따른 사용 제한이 적용될 수 있습니다. 따라서 Journey Optimizer 내의 데이터 작업이 사용자가 데이터에 대해 수행할 수 있는 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#marketing-actions){target="_blank"}을 준수하는지 확인하는 것이 중요합니다
 
@@ -32,14 +28,66 @@ In Journey Optimizer, you can apply these consent policies to your custom action
 
 예를 들어 Experience Platform에서 이메일, 푸시 또는 SMS 커뮤니케이션에 동의하지 않은 고객을 제외하는 [동의 정책을 만들](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#consent-policy){target="_blank"} 수 있습니다.
 
-Journey Optimizer에서 동의는 몇 가지 수준에서 정의됩니다. 동의 정책을 다음과 같이 여정의 사용자 정의 작업에 적용할 수 있습니다.
+<!--* For the native outbound channels (Email, Push, SMS, Direct mail), the logic is as follows:
+
+    * By default, if a profile has opted out from receiving communications from you, the corresponding profile is excluded from subsequent deliveries.
+
+    * If you have the Adobe **Healthcare Shield** or **Privacy and Security Shield**, you can create a custom consent policy that overrides the default logic. For example, you can define a policy to only send email messages to all individuals who have opted in. In the absence of a custom policy, the default policy applies.
+    
+    To apply a custom policy, you need to define a marketing action in that policy and associate it to a channel surface. [Learn more](#marketing-actions)-->
+
+여정 수준에서 사용자 지정 작업에 동의 정책을 적용할 수 있습니다.
 
 * **사용자 정의 작업을 구성**&#x200B;할 때 채널 및 마케팅 작업을 정의할 수 있습니다. [자세히 알아보기](#consent-custom-action)
 * **여정에 사용자 정의 작업**&#x200B;을 추가할 때 추가적인 마케팅 작업을 정의할 수 있습니다. [자세히 알아보기](#consent-journey)
 
-## 중요 정보 {#important-notes}
+<!--
 
-Journey Optimizer에서는 사용자 정의 작업에 동의를 활용할 수 있습니다. 기본 제공 메시지 기능에 동의를 사용하려면 조건 활동을 사용하여 여정에서 고객을 필터링해야 합니다.
+## Leverage consent policies through channel surfaces {#marketing-actions}
+
+In [!DNL Journey Optimizer], consent is handled by the Experience Platform [Consent schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
+
+To modify the consent field value, you can create a custom consent policy in which you define a marketing action and the conditions under which that action is performed. [Learn more on marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"}
+
+For example, if you want to create a consent policy to target only profiles who have consented to receive email communications, follow the steps below.
+
+1. Make sure your organization has purchased the Adobe **Healthcare Shield** or **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+
+1. In Adobe Experience Platform, create a custom policy (from the **[!UICONTROL Privacy]** > **[!UICONTROL Policies]** menu). [Learn how](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
+
+    ![](assets/consent-policy-create.png)
+
+1. Choose the **[!UICONTROL Consent policy]** type and configure a condition as follows. [Learn how to configure consent policies](https://experienceleague-review.corp.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy){target="_blank"}
+
+    1. Under the **[!UICONTROL If]** section, select the **[!UICONTROL Email Targeting]** default marketing action.
+
+        ![](assets/consent-policy-marketing-action.png)
+
+        >[!NOTE]
+        >
+        >The core marketing actions provided out-of-the-box by Adobe are listed in [this table](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-marketing-action){target="_blank"}.
+
+    1. Select what happens when the marketing action applies. In this example, select **[!UICONTROL Email Marketing Consent]**.
+
+    ![](assets/consent-policy-then.png)
+
+1. Save and [enable](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#enable){target="_blank"} this policy.
+
+1. In Journey Optimizer, create an email surface. [Learn how](../configuration/channel-surfaces.md#create-channel-surface)
+
+1. In the email surface details, select the **[!UICONTROL Email Targeting]** marketing action.
+
+    ![](assets/surface-marketing-action.png)
+
+All consent policies associated with that marketing action are automatically leveraged in order to respect the preferences of your customers.
+
+Therefore, in this example, any [email](../email/create-email.md) using that surface in a campaign or a journey is only sent to the profiles who have consented to receive emails from you. Profiles who have not consented to receive email communications are excluded.-->
+
+## 사용자 지정 작업을 통해 동의 정책 활용 {#journey-custom-actions}
+
+### 중요 정보 {#important-notes}
+
+Journey Optimizer에서 동의는 <!--also -->사용자 지정 작업에 활용됩니다. 기본 제공 메시지 기능에 동의를 사용하려면 조건 활동을 사용하여 여정에서 고객을 필터링해야 합니다.
 
 동의 관리에서는 두 가지 여정 활동을 분석합니다.
 
@@ -61,7 +109,7 @@ There are two types of latency regarding the use of consent policies:
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
 -->
 
-## 사용자 정의 작업 구성하기 {#consent-custom-action}
+### 사용자 정의 작업 구성하기 {#consent-custom-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action"
@@ -70,11 +118,11 @@ There are two types of latency regarding the use of consent policies:
 
 사용자 정의 작업을 구성할 때는 동의 관리에 두 필드를 사용할 수 있습니다.
 
-**채널** 필드에서는 다음 사용자 지정 작업과 관련된 채널 즉, **이메일**, **SMS**, 또는 **푸시 알림**&#x200B;을 선택할 수 있습니다. **필수 마케팅 작업** 필드에 선택한 채널에 대한 기본 마케팅 작업을 미리 채웁니다. **기타**&#x200B;를 선택하는 경우 기본적으로 마케팅 작업이 정의되지 않습니다.
+**채널** 필드에서는 다음 사용자 지정 작업과 관련된 채널 즉, **이메일**, **SMS**, 또는 **푸시 알림**&#x200B;을 선택할 수 있습니다. 다음을 미리 채웁니다. **필수 마케팅 액션** 선택한 채널에 대한 기본 마케팅 작업이 포함된 필드. 다음을 선택하는 경우 **기타**, 기본적으로 정의된 마케팅 작업이 없습니다.
 
 ![](assets/consent1.png)
 
-**필수 마케팅 작업**&#x200B;으로 사용자 지정 작업과 관련된 마케팅 작업을 정의할 수 있습니다. 예를 들어 해당 사용자 정의 작업을 사용하여 이메일을 보내는 경우 **이메일 타겟팅**&#x200B;을 선택할 수 있습니다. 마케팅 작업을 여정에서 사용하면 해당 마케팅 작업과 연결된 동의 정책을 모두 검색 및 활용합니다. 기본 마케팅 작업이 선택되지만 아래쪽 화살표를 클릭하여 목록에서 사용 가능한 마케팅 작업 중 원하는 것을 선택할 수 있습니다.
+**필수 마케팅 작업**&#x200B;으로 사용자 지정 작업과 관련된 마케팅 작업을 정의할 수 있습니다. 예를 들어 해당 사용자 정의 작업을 사용하여 이메일을 보내는 경우 **이메일 타겟팅**&#x200B;을 선택할 수 있습니다. 여정에서 사용하는 경우 해당 마케팅 작업과 관련된 모든 동의 정책을 검색하고 활용합니다. 기본 마케팅 작업이 선택되지만 아래쪽 화살표를 클릭하여 목록에서 사용 가능한 마케팅 작업 중 원하는 것을 선택할 수 있습니다.
 
 ![](assets/consent2.png)
 
@@ -105,7 +153,7 @@ There are two types of latency regarding the use of consent policies:
 
 ![](assets/consent4.png)
 
-사용자 지정 작업의 유형을 설정하여 **추가 마케팅 작업**&#x200B;을 정의할 수 있습니다. 이를 통해 이 여정에서 사용자 지정 작업의 목적을 정의할 수 있습니다. 일반적으로 채널에만 해당되는 필수 마케팅 작업 외에도 이 특정 여정에서 사용자 지정 작업에 해당하는 추가 마케팅 작업을 정의할 수 있습니다. 예: 운동 통신, 뉴스레터, 피트니스 커뮤니케이션 등. 필수 마케팅 작업과 추가 마케팅 작업이 모두 적용됩니다.
+사용자 지정 작업의 유형을 설정하여 **추가 마케팅 작업**&#x200B;을 정의할 수 있습니다. 이를 통해 이 여정에서 사용자 지정 작업의 목적을 정의할 수 있습니다. 일반적으로 채널에만 해당되는 필수 마케팅 작업 외에도 이 특정 여정의 사용자 지정 작업에 해당하는 추가 마케팅 작업을 정의할 수 있습니다. 예: 운동 통신, 뉴스레터, 피트니스 커뮤니케이션 등. 필수 마케팅 작업과 추가 마케팅 작업이 모두 적용됩니다.
 
 ![](assets/consent3.png)
 
