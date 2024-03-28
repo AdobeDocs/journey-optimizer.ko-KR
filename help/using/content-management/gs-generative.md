@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI Assistant 시작
+title: AI 어시스턴트 시작하기
 description: Journey Optimizer의 AI Assistant에 액세스하고 작업하는 방법을 알아봅니다
 feature: Content Assistant
 topic: Content Management
@@ -14,16 +14,16 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 57%
+ht-degree: 68%
 
 ---
 
-# AI Assistant 시작 {#gs-content-assistant}
+# AI 어시스턴트 시작하기 {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="이메일 콘텐츠 만들기"
->abstract="Adobe 여정 Optimizer AI Assistant는 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 제공합니다. 이메일, 푸시, SMS 및 웹 채널에 사용 가능합니다. 이 새로운 기능은 프롬프트 기반의 텍스트 및 이미지 생성을 제공합니다."
+>abstract="Adobe Journey Optimizer AI 어시스턴트는 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 제공합니다. 이메일, 푸시, SMS 및 웹 채널에 사용 가능합니다. 이 새로운 기능은 프롬프트 기반의 텍스트 및 이미지 생성을 제공합니다."
 
 >[!BEGINSHADEBOX]
 

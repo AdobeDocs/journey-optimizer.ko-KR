@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
 >title="마케팅 액션 선택"
->abstract="동의 정책을 메시지와 연결하려면 표면에 있는 마케팅 작업을 선택하십시오."
+>abstract="동의 정책을 메시지와 연결하려면 표면에서 마케팅 액션을 선택하십시오."
 
 채널 표면을 만들려면 다음 단계를 수행합니다.
 
