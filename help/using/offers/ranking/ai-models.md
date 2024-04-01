@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 3%
+source-wordcount: '371'
+ht-degree: 4%
 
 ---
 
@@ -27,6 +27,12 @@ ht-degree: 3%
 >현재 Journey Optimizer 작성 채널에서는 등급 모델이 지원되지 않습니다.
 
 ## AI 모델 유형 {#ai-model-types}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_ai_model_type"
+>title="모델 유형 선택"
+>abstract="만들려는 AI 모델의 유형을 선택합니다. **자동 최적화** 은 과거의 오퍼 성능을 기반으로 오퍼를 최적화합니다. **개인화된 최적화** 대상과 오퍼 성능을 기반으로 오퍼를 최적화하고 개인화합니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="AI 모델 만들기"
 
 에서 두 가지 유형의 AI 모델을 사용할 수 있습니다. [!DNL Journey Optimizer]:
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 949e7cd05a2b1125e13615814f6501b3906e470c
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 10%
+source-wordcount: '1219'
+ht-degree: 11%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->요청 시 일일 빈도 상한제도 이용하실 수 있습니다. [자세히 알아보기](#daily-frequency-cap)
+>필요에 따라 일일 빈도 상한도 이용하실 수 있습니다. [자세히 알아보기](#daily-frequency-cap)
 
 빈도 상한은 선택한 달력 기간을 기반으로 합니다. 해당 시간대의 시작 부분에서 재설정됩니다.
 
@@ -127,7 +127,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->처리 시 [일괄 세분화](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 권장됩니다. 에서 대상 평가 방법에 대해 자세히 알아보기 [이 섹션](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>일별 빈도 제한 규칙의 정확도를 보장하기 위해 [스트리밍 세분화](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 권장됩니다. 에서 대상 평가 방법에 대해 자세히 알아보기 [이 섹션](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## 규칙 활성화 {#activate-rule}
 
