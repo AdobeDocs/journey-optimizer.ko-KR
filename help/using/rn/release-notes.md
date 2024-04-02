@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 98%
@@ -49,7 +49,7 @@ ht-degree: 98%
 <li>세분화된 편집 정밀도: 앱 또는 웹 페이지 내의 개별 위치에서 있는 특정 콘텐츠를 편집할 수 있습니다.</li>
 <li>다목적 구현: 개발 환경과 원활하게 통합할 수 있도록 서버측, API 기반 또는 SDK 기반 구현 방법을 지원합니다.</li></ul></p>
 <p>자세한 내용은 <a href="../code-based/get-started-code-based.md">자세한 설명서</a>를 참조하세요.</p>
-<img src="assets/do-not-localize/code-based.gif">
+<img src="assets/do-not-localize/code-based.gif"> 
 </tr>
 </tbody>
 </table>
@@ -113,7 +113,7 @@ ht-degree: 98%
 <td>
 <p>이제 이메일 외에도 푸시, 인앱, SMS 및 DM 채널에 콘텐츠 템플릿을 사용할 수 있습니다. 각 채널에는 전용 템플릿 유형이 있습니다. 이메일의 경우 이제 제목 줄을 이메일 템플릿의 일부로 저장할 수 있는 콘텐츠 유형을 선택할 수 있습니다. <br/><br/></p>
 <p>자세한 내용은 <a href="../content-management/content-templates.md">자세한 설명서</a>를 참조하세요.<br></br></p>
-<img src="assets/do-not-localize/multi-chan-templates.gif">
+<img src="assets/do-not-localize/multi-chan-templates.gif"> 
 </tr>
 </tbody>
 </table>
