@@ -9,7 +9,7 @@ exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->코드 기반 경험에 대한 특정 보호 기능 및 권장 사항이에 자세히 설명되어 있습니다. [이 페이지](code-based-prerequisites.md).
+>코드 기반 경험에 적용되는 가드레일 및 권장 사항은 [이 페이지](code-based-prerequisites.md)에서 자세히 설명합니다.
 
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
@@ -42,7 +42,7 @@ ht-degree: 85%
 <img alt="유효성 검사" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div>
-<a href="code-based-prerequisites.md"><strong>보호 기능 및 사전 요구 사항</strong></a>
+<a href="code-based-prerequisites.md"><strong>가드레일 및 사전 지식</strong></a>
 </div>
 <p>
 </td>
@@ -139,14 +139,14 @@ ht-degree: 85%
 1. **속성**: 페이지 URL 또는 앱 번들
 1. **컨테이너**: 페이지/앱 활동의 위치
 
-아래 표에는 다양한 장치에 대한 일부 표면 URI 정의 예가 나와 있습니다.
+아래 표에는 다양한 디바이스의 표면 URI 정의 예시가 일부 나와 있습니다.
 
 **웹 및 모바일**
 
 | 유형 | URI | 설명 |
 | --------- | ----------- | ------- | 
-| 웹 | `web://domain.com/path/page.html#element` | 특정 도메인의 특정 페이지 내에서 개별 요소를 나타냅니다. 여기서 요소는 다음 예와 같이 레이블이 될 수 있습니다. hero_banner, top_nav, menu, footer 등 |
-| iOS 앱 | `mobileapp://com.vendor.bundle/activity#element` | 버튼 또는 기타 보기 요소와 같이 기본 앱 활동 내의 특정 요소를 나타냅니다. |
+| 웹 | `web://domain.com/path/page.html#element` | 특정 도메인의 특정 페이지 내 개별 요소를 나타냅니다. 여기서 요소는 hero_banner, top_nav, menu, footer 등의 예시와 같은 레이블이 될 수 있습니다. |
+| iOS 앱 | `mobileapp://com.vendor.bundle/activity#element` | 기본 앱 활동 내의 특정 요소(예: 버튼 또는 기타 보기 요소)를 나타냅니다. |
 | Android 앱 | `mobileapp://com.vendor.bundle/#element` | 기본 앱 내의 특정 요소를 나타냅니다. |
 
 **기타 디바이스 유형**
@@ -154,14 +154,14 @@ ht-degree: 85%
 | 유형 | URI | 설명 |
 | --------- | ----------- | ------- | 
 | 데스크탑 | `desktop://com.vendor.bundle/#element` | 버튼, 메뉴, 히어로 배너 등과 같은 애플리케이션 내의 특정 요소를 나타냅니다. |
-| TV 앱 | `tvcd://com.vendor.bundle/#element` | 스마트 TV 또는 TV 연결 장치 앱 - 번들 ID 내의 특정 요소를 나타냅니다. |
+| TV 앱 | `tvcd://com.vendor.bundle/#element` | 스마트 TV 또는 TV 연결 디바이스 앱 내 특정 요소, 번들 ID를 나타냅니다. |
 | 서비스 | `service://servicename/#element` | 서버측 프로세스 또는 기타 수동 엔티티를 나타냅니다. |
-| 키오스크 | `kiosk://location/screen#element` | 쉽게 추가될 수 있는 잠재적인 추가 서피스 유형의 예. |
-| ATM | `atm://location/screen#element` | 쉽게 추가될 수 있는 잠재적인 추가 서피스 유형의 예. |
+| 키오스크 | `kiosk://location/screen#element` | 쉽게 추가할 수 있는 잠재적인 추가 표면 유형의 예. |
+| ATM | `atm://location/screen#element` | 쉽게 추가할 수 있는 잠재적인 추가 표면 유형의 예. |
 
 **와일드카드 표면**
 
 | 유형 | URI | 설명 |
 | --------- | ----------- | ------- | 
 | 와일드카드 웹 | `wildcard:web://domain.com/*#element` | 와일드카드 표면 - 특정 도메인 아래의 각 페이지에 있는 개별 요소를 나타냅니다. |
-| 와일드카드 웹 | `wildcard:web://*domain.com/*#element` | 와일드카드 표면 - &quot;domain.com&quot;으로 끝나는 모든 도메인 아래의 각 페이지에서 개별 요소를 나타냅니다. |
+| 와일드카드 웹 | `wildcard:web://*domain.com/*#element` | 와일드카드 표면 - &quot;domain.com&quot;으로 끝나는 모든 도메인 아래의 각 페이지에 있는 개별 요소를 나타냅니다. |

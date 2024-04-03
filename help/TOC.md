@@ -245,7 +245,7 @@ ht-degree: 99%
       + [단일 페이지 애플리케이션 작성](using/web/web-spa.md)
 + 코드 기반 경험 {#code-based-experience}
    + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)
-   + [보호 기능 및 사전 요구 사항](using/code-based/code-based-prerequisites.md)
+   + [가드레일 및 사전 지식](using/code-based/code-based-prerequisites.md)
    + [구현 방법 샘플](using/code-based/code-based-implementation-samples.md)
    + [코드 기반 경험 만들기](using/code-based/create-code-based.md)
 + 랜딩 페이지 {#landing-pages}

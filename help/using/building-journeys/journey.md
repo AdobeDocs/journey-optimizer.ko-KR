@@ -11,7 +11,7 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -107,6 +107,6 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 ## 방법 비디오 {#video}
 
-여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성하는 기본 사항을 이해합니다.
+여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성할 때의 기본을 이해합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
