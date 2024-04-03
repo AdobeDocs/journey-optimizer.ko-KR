@@ -10,9 +10,9 @@ level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, Healthcare Shield, 동의
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 334527cbad3363b77d14dd447e06d4e8da79daec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,10 @@ ht-degree: 87%
     
     To apply a custom policy, you need to define a marketing action in that policy and associate it to a channel surface. [Learn more](#marketing-actions)-->
 
-여정 수준에서 사용자 지정 작업에 동의 정책을 적용할 수 있습니다.
+여정 수준에서 동의 정책을 사용자 정의 액션에 적용할 수 있습니다.
 
-* **사용자 정의 작업을 구성**&#x200B;할 때 채널 및 마케팅 작업을 정의할 수 있습니다. [자세히 알아보기](#consent-custom-action)
-* **여정에 사용자 정의 작업**&#x200B;을 추가할 때 추가적인 마케팅 작업을 정의할 수 있습니다. [자세히 알아보기](#consent-journey)
+* **사용자 정의 액션을 구성**&#x200B;할 때 채널 및 마케팅 액션을 정의할 수 있습니다. [자세히 알아보기](#consent-custom-action)
+* **여정에 사용자 정의 액션**&#x200B;을 추가할 때 추가적인 마케팅 액션을 정의할 수 있습니다. [자세히 알아보기](#consent-journey)
 
 <!--
 
@@ -83,11 +83,11 @@ All consent policies associated with that marketing action are automatically lev
 
 Therefore, in this example, any [email](../email/create-email.md) using that surface in a campaign or a journey is only sent to the profiles who have consented to receive emails from you. Profiles who have not consented to receive email communications are excluded.-->
 
-## 사용자 지정 작업을 통해 동의 정책 활용 {#journey-custom-actions}
+## 사용자 정의 액션을 통한 동의 정책 활용 {#journey-custom-actions}
 
 ### 중요 정보 {#important-notes}
 
-Journey Optimizer에서 동의는 <!--also -->사용자 지정 작업에 활용됩니다. 기본 제공 메시지 기능에 동의를 사용하려면 조건 활동을 사용하여 여정에서 고객을 필터링해야 합니다.
+Journey Optimizer에서는 사용자 정의 <!--also -->액션에 동의를 활용할 수 있습니다. 기본 제공 메시지 기능에 동의를 사용하려면 조건 활동을 사용하여 여정에서 고객을 필터링해야 합니다.
 
 동의 관리에서는 두 가지 여정 활동을 분석합니다.
 
@@ -113,16 +113,16 @@ There are two types of latency regarding the use of consent policies:
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action"
->title="필요한 마케팅 작업 정의하기"
->abstract="필수 마케팅 작업으로 사용자 지정 작업과 관련된 마케팅 작업을 정의할 수 있습니다. 예를 들어 해당 사용자 정의 작업을 사용하여 이메일을 보내는 경우 이메일 타겟팅을 선택할 수 있습니다. 마케팅 작업을 여정에서 사용하면 해당 마케팅 작업과 연결된 동의 정책을 모두 검색 및 활용합니다. 이는 캔버스에서 수정할 수 없습니다."
+>title="필요한 마케팅 액션 정의하기"
+>abstract="필수 마케팅 액션으로 사용자 정의 액션과 관련된 마케팅 액션을 정의할 수 있습니다. 예를 들어 해당 사용자 정의 액션을 사용하여 이메일을 보내는 경우 이메일 타겟팅을 선택할 수 있습니다. 마케팅 액션을 여정에서 사용하면 해당 마케팅 액션과 연결된 동의 정책을 모두 검색 및 활용합니다. 이는 캔버스에서 수정할 수 없습니다."
 
-사용자 정의 작업을 구성할 때는 동의 관리에 두 필드를 사용할 수 있습니다.
+사용자 정의 액션을 구성할 때는 동의 관리에 두 필드를 사용할 수 있습니다.
 
-**채널** 필드에서는 다음 사용자 지정 작업과 관련된 채널 즉, **이메일**, **SMS**, 또는 **푸시 알림**&#x200B;을 선택할 수 있습니다. 다음을 미리 채웁니다. **필수 마케팅 액션** 선택한 채널에 대한 기본 마케팅 작업이 포함된 필드. 다음을 선택하는 경우 **기타**, 기본적으로 정의된 마케팅 작업이 없습니다.
+**채널** 필드에서는 다음 사용자 지정 작업과 관련된 채널 즉, **이메일**, **SMS**, 또는 **푸시 알림**&#x200B;을 선택할 수 있습니다. 그렇게 하면 **필수 마케팅 액션** 필드에 선택한 채널에 대한 기본 마케팅 작업을 미리 채웁니다. **기타**&#x200B;를 선택하는 경우 마케팅 액션이 기본적으로 정의되지 않습니다.
 
 ![](assets/consent1.png)
 
-**필수 마케팅 작업**&#x200B;으로 사용자 지정 작업과 관련된 마케팅 작업을 정의할 수 있습니다. 예를 들어 해당 사용자 정의 작업을 사용하여 이메일을 보내는 경우 **이메일 타겟팅**&#x200B;을 선택할 수 있습니다. 여정에서 사용하는 경우 해당 마케팅 작업과 관련된 모든 동의 정책을 검색하고 활용합니다. 기본 마케팅 작업이 선택되지만 아래쪽 화살표를 클릭하여 목록에서 사용 가능한 마케팅 작업 중 원하는 것을 선택할 수 있습니다.
+**필수 마케팅 작업**&#x200B;으로 사용자 지정 작업과 관련된 마케팅 작업을 정의할 수 있습니다. 예를 들어 해당 사용자 정의 작업을 사용하여 이메일을 보내는 경우 **이메일 타겟팅**&#x200B;을 선택할 수 있습니다. 마케팅 액션을 여정에서 사용하면 해당 마케팅 액션과 연결된 동의 정책을 모두 검색 및 활용합니다. 기본 마케팅 작업이 선택되지만 아래쪽 화살표를 클릭하여 목록에서 사용 가능한 마케팅 작업 중 원하는 것을 선택할 수 있습니다.
 
 ![](assets/consent2.png)
 
@@ -153,7 +153,7 @@ There are two types of latency regarding the use of consent policies:
 
 ![](assets/consent4.png)
 
-사용자 지정 작업의 유형을 설정하여 **추가 마케팅 작업**&#x200B;을 정의할 수 있습니다. 이를 통해 이 여정에서 사용자 지정 작업의 목적을 정의할 수 있습니다. 일반적으로 채널에만 해당되는 필수 마케팅 작업 외에도 이 특정 여정의 사용자 지정 작업에 해당하는 추가 마케팅 작업을 정의할 수 있습니다. 예: 운동 통신, 뉴스레터, 피트니스 커뮤니케이션 등. 필수 마케팅 작업과 추가 마케팅 작업이 모두 적용됩니다.
+사용자 지정 작업의 유형을 설정하여 **추가 마케팅 작업**&#x200B;을 정의할 수 있습니다. 이를 통해 이 여정에서 사용자 지정 작업의 목적을 정의할 수 있습니다. 일반적으로 특정 채널에 적용되는 필수 마케팅 액션 외에도 이 특정 여정의 사용자 정의 액션에 적용할 추가 마케팅 액션을 정의할 수 있습니다. 예를 들어 운동 관련 커뮤니케이션, 뉴스레터, 피트니스 커뮤니케이션 등이 있습니다. 필수 마케팅 액션과 추가 마케팅 액션이 모두 적용됩니다.
 
 ![](assets/consent3.png)
 

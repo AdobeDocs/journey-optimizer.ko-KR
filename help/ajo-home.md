@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB 3월 릴리스가 시작되었습니다.]
+>[!TAB 3월 릴리스가 공개되었습니다!]
 
 Adobe Journey Optimizer 24.3 릴리스의 새로운 기능과 향상된 기능을 살펴보십시오.
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer 24.3 릴리스의 새로운 기능과 향상된 기능�
 
 >[!TAB 코드 기반 경험]
 
-새로운 코드 기반 경험 채널을 사용하면 Adobe Journey Optimizer을 통해 인바운드 속성에 대해 고급 개인화 및 테스트를 수행할 수 있으므로 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV 연결 장치, 스마트 TV, 키오스크, ATM, IoT 장치 등과 같은 다양한 접점에서 맞춤형 경험을 원활하게 전달할 수 있습니다.
+새로운 [코드 기반 경험] 채널로 Adobe Journey Optimizer에서 원하는 인바운드 속성에 대해 고급 개인화 및 테스트를 수행할 수 있으므로 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV에 연결된 디바이스, 스마트 TV, 키오스크, ATM, IoT 디바이스 등과 같은 다양한 접점에서 맞춤형 경험을 원활하게 전달할 수 있습니다.
 
 ![](using/rn/assets/do-not-localize/code-based.gif)
 
