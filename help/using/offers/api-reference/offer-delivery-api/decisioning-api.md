@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2ef555bd10d7b8fa32c1324b201d55d2a4b1aec7
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 3%
+source-wordcount: '1025'
+ht-degree: 2%
 
 ---
 
@@ -23,33 +23,39 @@ ht-degree: 3%
 
 ➡️  [비디오에서 이 기능 살펴보기](#video)
 
-## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
+## 필수 헤더 {#required-headers}
 
 다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 및 *Accept* 요청 헤더의 필드:
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
+| 수락 | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
+| Authorization | `Bearer {ACCESS_TOKEN}` |
+| x-gw-ims-org-id | `{IMS_ORG}` |
+| x-sandbox-name | `{SANDBOX_NAME}` |
+| x-api-key | `{API_KEY}` |
+
+* 페이로드(POST, PUT, PATCH)가 포함된 모든 요청에는 content-type 헤더가 필요합니다
 
 ## API 요청 {#request}
 
 ### API 형식
 
 ```https
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
+POST /{ENDPOINT_PATH}/decisions
 ```
 
 | 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/ode/` |
+| `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/ods` |
 | `{CONTAINER_ID}` | 결정이 위치한 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 ### 요청
 
 ```shell
 curl -X POST \
-  'https://platform.adobe.io/data/core/ode/e0bd8463-0913-4ca1-bd84-6309134ca1f6/decisions' \
+  'https://platform.adobe.io/data/core/ods/decisions' \
   -H 'Accept: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"' \
   -H 'Content-Type: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"'
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
@@ -209,15 +215,15 @@ curl -X POST \
 | 500 | 내부 서버 오류. 서버에서 예기치 않은 상태가 발생하여 요청을 수행할 수 없습니다. |
 | 503 | 서버 오버로드로 인해 서비스를 사용할 수 없습니다. 현재 일시적인 오버로드로 인해 서버에서 요청을 처리할 수 없습니다. |
 
-## 튜토리얼 비디오 {#video}
+<!-- ## Tutorial video {#video}
 
-다음 비디오는 의사 결정 관리의 구성 요소에 대한 이해를 돕기 위한 것입니다.
+The following video is intended to support your understanding of the components of Decision Management.
 
 >[!NOTE]
 >
->이 비디오는 Adobe Experience Platform을 기반으로 구축된 Offer decisioning 애플리케이션 서비스에 적용됩니다. 그러나 Journey Optimizer 컨텍스트에서 오퍼를 사용하기 위한 일반적인 지침을 제공합니다.
+>This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 다음 단계 {#next-steps}
 
