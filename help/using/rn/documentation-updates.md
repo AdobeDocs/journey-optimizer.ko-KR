@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
+source-git-commit: 042c8a08597c800e64751f16f792954007ed0c08
 workflow-type: tm+mt
-source-wordcount: '5101'
+source-wordcount: '5123'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,10 @@ ht-degree: 99%
 
 ## 2024년 4월 {#april-2024}
 
+* 인앱 메시지에 대한 구성 단계가 자세히 설명되어 있습니다. [자세히 보기](../in-app/inapp-configuration.md)
+* 설명서 [OFFER DECISIONING API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 및 [일괄 의사 결정 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 이(가) 업데이트되었습니다.
 * Edge Decisioning API로 빈도 제한을 사용할 때 에지 및 허브 영역 관리에 대한 정보가 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
+
 
 ## 2024년 3월 {#march-2024}
 
