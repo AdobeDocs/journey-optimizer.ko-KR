@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bb7b79286514dcc6931f7ba8dbf2542076d754fe
+source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '729'
 ht-degree: 3%
 
 ---
@@ -127,7 +127,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `@id` | 단일 워크로드를 식별하는 의사 결정 관리에 의해 생성된 UUID입니다. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | 조직 ID입니다. | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | 컨테이너 ID입니다. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 결정 워크로드 요청이 생성된 시간. | `1648078924834` |
 | `ode:status` | 작업 로드 상태입니다. | `ode:status: "QUEUED"` |
 
@@ -174,7 +173,6 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 | -------- | ----------- | ------- |
 | `@id` | 단일 워크로드를 식별하는 의사 결정 관리에 의해 생성된 UUID입니다. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | 조직 ID | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | 컨테이너 ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 의사 결정 작업 로드 요청이 생성된 시간입니다. | `1648076994405` |
 | `ode:status` | 작업 로드 상태가 &quot;대기 중&quot;으로 시작하며 &quot;처리 중&quot;, &quot;수집 중&quot;, &quot;완료됨&quot; 또는 &quot;오류&quot;로 변경됩니다. | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | 상태가 &quot;PROCESSING&quot; 또는 &quot;INGESTING&quot;인 경우 sparkJobId 및 batchID와 같은 자세한 정보를 표시합니다. 상태가 &quot;ERROR&quot;인 경우 오류 세부 정보가 표시됩니다. |  |
