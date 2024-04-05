@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
 workflow-type: tm+mt
-source-wordcount: '3659'
-ht-degree: 31%
+source-wordcount: '3703'
+ht-degree: 30%
 
 ---
 
@@ -54,6 +54,8 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 ![](assets/journey_live_performance.png)
 
 **[!UICONTROL 여정 성능]** 에서는 여정을 단계별로 타겟팅된 프로필의 경로를 볼 수 있습니다.
+
+노드에 대한 프로필 수는 노드가 완료된 후에만 업데이트되며, 노드를 입력할 때는 업데이트되지 않습니다. 예를 들어 의 프로필은 **대기** 노드는 지정된 날짜에 도달하고 프로필이 노드를 종료한 경우에만 계산됩니다.
 
 ### 여정 통계 {#journey-statistics}
 
