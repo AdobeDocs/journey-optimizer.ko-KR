@@ -1,19 +1,29 @@
 ---
-title: 인앱 채널 사전 요구 사항
+title: 인앱 채널 사전 요구 사항 및 구성
 description: Journey Optimizer을 사용하여 인앱 메시지를 보내도록 환경을 구성하는 방법에 대해 알아봅니다
 role: Admin
 feature: In App
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 6%
+source-wordcount: '819'
+ht-degree: 10%
 
 ---
 
-# 인앱 채널 사전 요구 사항 {#inapp-configuration}
+# 사전 요구 사항 및 구성 {#inapp-configuration}
+
+에서 인앱 메시지 여정 및 캠페인을 보내려면 [!DNL Journey Optimizer], 다음 구성 단계를 수행해야 합니다.
+
+1. 시작하기 전에 적절한 Journey Optimizer 캠페인 권한이 있는지 확인해야 합니다. 인앱 메시지를 여정에서만 사용하려는 경우에도 마찬가지입니다. 이 경우에도 Campaign 권한이 필요합니다. [자세히 알아보기](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+1. Adobe Experience Platform 데이터 수집 데이터스트림에서 Adobe Journey Optimizer을 활성화하고 다음에 설명된 대로 Adobe Experience Platform에서 기본 병합 정책을 확인합니다. [게재 사전 요구 사항](#delivery-prerequisites) 아래요.
+1. 다음에 자세히 설명된 대로 Adobe Experience Platform 데이터 수집에서 앱 표면 을 만들고 구성합니다. [이 섹션](#channel-prerequisites). 에 액세스하려면 특정 권한이 부여되어야 합니다. **앱 표면** Adobe Experience Platform 메뉴 아래의 제품에서 사용할 수 있습니다. [이 비디오](#video)에서 자세히 알아보십시오.
+1. 콘텐츠 실험을 사용하는 경우 다음에 나열된 요구 사항을 따라야 합니다. [이 섹션](#experiment-prerequisite).
+
+권한 부여가 완료되면 첫 인앱 메시지를 만들고 구성하고 전송할 수 있습니다. 방법은 [이 섹션](create-in-app.md)을 참조하십시오.
+
 
 ## 게재 사전 요구 사항 {#delivery-prerequisites}
 
@@ -127,13 +137,11 @@ ht-degree: 6%
 
 ## 방법 비디오{#video}
 
-* 아래 비디오에서는 를 할당하는 방법을 보여 줍니다. **앱 구성 관리** 앱 표면 메뉴에 대한 액세스 권한.
+아래 비디오에서는 를 할당하는 방법을 보여 줍니다. **앱 구성 관리** 앱 표면 메뉴에 대한 액세스 권한.
 
-  +++비디오 참조
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
 
-+++
 
 **관련 항목:**
 
