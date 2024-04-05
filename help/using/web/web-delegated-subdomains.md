@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: 웹, 하위 도메인, 구성
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 21%
+source-wordcount: '894'
+ht-degree: 20%
 
 ---
 
@@ -105,6 +105,10 @@ ht-degree: 21%
 
 새 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 
+>[!NOTE]
+>
+>기본적으로, [!DNL Journey Optimizer] 에서는 총 10개의 하위 도메인을 위임할 수 있습니다(이메일 및 웹 채널 모두 포함). 그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 권한이 부여된 하위 도메인 수에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
+
 1. 액세스 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴, 선택 **[!UICONTROL 웹 구성]** > **[!UICONTROL 웹 하위 도메인]**.
 
 1. 클릭 **[!UICONTROL 하위 도메인 설정]**.
@@ -152,7 +156,6 @@ ht-degree: 21%
 1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태. 웹 채널 표면을 만드는 데 사용할 준비가 되었습니다.
 
    하위 도메인은 로 표시됩니다. **[!UICONTROL 실패]** 호스팅 솔루션에서 유효성 검사 레코드를 만들지 못한 경우.
-
 
 <!--
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.

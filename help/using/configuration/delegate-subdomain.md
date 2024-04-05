@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3b40087aeae2b0da789a90f45f2575beedf2b76d
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1816'
 ht-degree: 21%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->기본적으로, [!DNL Journey Optimizer] 라이선스 계약을 통해 최대 10개의 하위 도메인을 위임할 수 있습니다. 이 제한을 늘리려면 Adobe 담당자에게 문의하십시오.
+>기본적으로, [!DNL Journey Optimizer] 최대 10개의 하위 도메인을 위임할 수 있습니다. 그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 권한이 부여된 하위 도메인 수에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 하위 도메인을 완전히 위임하거나 CNAME을 사용하여 하위 도메인을 만들어 Adobe 관련 레코드를 가리키도록 할 수 있습니다.
 

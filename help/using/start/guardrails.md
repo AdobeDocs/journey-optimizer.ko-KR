@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 100%
+source-wordcount: '2029'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,6 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * [!DNL Journey Optimizer]에서는 이메일에 첨부 파일을 추가할 수 없습니다.
 * 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.
 
-
 ## 랜딩 페이지 보호 {#lp-guardrails}
 
 * 하나의 기본 페이지에서 하나의 **양식** 구성 요소만 사용할 수 있습니다.
@@ -46,6 +45,12 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 지원 URL을 통해 MMS에 넣을 미디어 파일을 포함할 수 있습니다. 미디어 파일이 별도로 업로드되는지 확인해야 합니다.
 * 현재 MMS에는 메시지 피드백 동기화를 사용할 수 없습니다.
 * MMS에 대한 동의 관리는 SMS 채널 수준에서 작동합니다.
+
+## 하위 도메인 보호 {#subdomain-guardrails}
+
+기본적으로, [!DNL Journey Optimizer] 에서는 총 10개의 하위 도메인을 위임할 수 있습니다(이메일 및 웹 채널 모두 포함).
+
+그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 권한이 부여된 하위 도메인 수에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 ## 조각 가드레일 {#fragments-guardrails}
 
