@@ -36,7 +36,7 @@ Campaign 글로벌 보고서는 Campaign에서 **[!UICONTROL 보고서 보기]**
 * [푸시](#push-global)
 * [SMS](#sms-global)
 * [웹](#web-tab)
-* [DM](#direct-mail-global)
+* [다이렉트 메일](#direct-mail-global)
 
 캠페인 **[!UICONTROL 글로벌 보고서]** 은 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [섹션](../reports/global-report.md#modify-dashboard).
 

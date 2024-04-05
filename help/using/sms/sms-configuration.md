@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
 source-wordcount: '1676'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ SMS 채널 구성 전에 이러한 공급자 중 하나로 계정을 만들어�
 
 >[!CAUTION]
 >
->SMS 하위 도메인에 액세스하고 편집하려면 **[!UICONTROL SMS 하위 도메인 관리]** 프로덕션 샌드박스에 대한 권한. 의 권한에 대해 자세히 알아보기 [이 페이지](../administration/high-low-permissions.md#administration-permissions).
+>SMS 하위 도메인에 액세스하고 편집하려면 **[!UICONTROL SMS 하위 도메인 관리]** 프로덕션 샌드박스에 대한 권한. 권한에 대한 자세한 내용은 [이 페이지](../administration/high-low-permissions.md#administration-permissions)를 참조하십시오.
 >
 
 ## 새 API 자격 증명 만들기 {#create-api}

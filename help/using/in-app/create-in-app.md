@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
 workflow-type: tm+mt
 source-wordcount: '1961'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -59,11 +59,11 @@ ht-degree: 12%
       | 코어 추적 | 작업 추적 | 모바일 코드 API에서 제공되는 이전 기능인 경우 트리거됩니다. [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) 이(가) 호출되었습니다. |
       | 코어 추적 | 상태 추적 | 모바일 코드 API에서 제공되는 이전 기능인 경우 트리거됩니다. [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) 이(가) 호출되었습니다. |
       | 코어 추적 | PII 수집 | 모바일 코드 API에서 제공되는 이전 기능인 경우 트리거됩니다. [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) 이(가) 호출되었습니다. |
-      | 응용 프로그램 수명 주기 | 애플리케이션 실행 | 충돌 및 설치를 포함하여 실행 시마다 트리거됩니다. 라이프사이클 세션 시간이 초과되면 백그라운드에서 다시 시작할 때도 트리거됩니다. |
+      | 응용 프로그램 수명 주기 | 애플리케이션 실행 | 충돌 및 설치를 포함하여 실행 시마다 트리거됩니다. 라이프사이클 세션 시간이 초과되면 배경에서 다시 시작할 때도 트리거됩니다. |
       | 응용 프로그램 수명 주기 | 애플리케이션 설치 | 설치 또는 재설치 후 처음 실행할 때 트리거됩니다. |
       | 응용 프로그램 수명 주기 | 애플리케이션 업데이트 | 업그레이드 후 또는 버전 번호가 변경되고 처음 실행할 때 트리거됩니다. |
       | 응용 프로그램 수명 주기 | 애플리케이션 닫기 | 애플리케이션이 닫히면 트리거됩니다. |
-      | 응용 프로그램 수명 주기 | 애플리케이션 충돌 | 애플리케이션이 닫기 전에 백그라운드에 있지 않을 경우 트리거됩니다. 이 이벤트는 충돌 후 애플리케이션이 시작될 때 전송됩니다. Adobe Mobile 충돌 보고는 발견되지 않은 전역 예외 핸들러를 구현하지 않습니다. |
+      | 응용 프로그램 수명 주기 | 애플리케이션 충돌 | 애플리케이션이 닫기 전에 배경에 있지 않을 경우 트리거됩니다. 이 이벤트는 충돌 후 애플리케이션이 시작될 때 전송됩니다. Adobe Mobile 충돌 보고는 발견되지 않은 전역 예외 핸들러를 구현하지 않습니다. |
       | 장소 | POI 입력 | 고객이 사용자가 구성한 관심 영역(POI)에 들어갈 때 위치 SDK에 의해 트리거됩니다. |
       | 장소 | POI 종료 | 고객이 사용자가 구성한 관심 영역(POI)을 종료할 때 위치 SDK에 의해 트리거됩니다. |
 
@@ -157,11 +157,11 @@ ht-degree: 12%
       | 코어 추적 | 작업 추적 | 모바일 코드 API에서 제공되는 이전 기능인 경우 트리거됩니다. [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) 이(가) 호출되었습니다. |
       | 코어 추적 | 상태 추적 | 모바일 코드 API에서 제공되는 이전 기능인 경우 트리거됩니다. [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) 이(가) 호출되었습니다. |
       | 코어 추적 | PII 수집 | 모바일 코드 API에서 제공되는 이전 기능인 경우 트리거됩니다. [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) 이(가) 호출되었습니다. |
-      | 응용 프로그램 수명 주기 | 애플리케이션 실행 | 충돌 및 설치를 포함하여 실행 시마다 트리거됩니다. 라이프사이클 세션 시간이 초과되면 백그라운드에서 다시 시작할 때도 트리거됩니다. |
+      | 응용 프로그램 수명 주기 | 애플리케이션 실행 | 충돌 및 설치를 포함하여 실행 시마다 트리거됩니다. 라이프사이클 세션 시간이 초과되면 배경에서 다시 시작할 때도 트리거됩니다. |
       | 응용 프로그램 수명 주기 | 애플리케이션 설치 | 설치 또는 재설치 후 처음 실행할 때 트리거됩니다. |
       | 응용 프로그램 수명 주기 | 애플리케이션 업데이트 | 업그레이드 후 또는 버전 번호가 변경되고 처음 실행할 때 트리거됩니다. |
       | 응용 프로그램 수명 주기 | 애플리케이션 닫기 | 애플리케이션이 닫히면 트리거됩니다. |
-      | 응용 프로그램 수명 주기 | 애플리케이션 충돌 | 애플리케이션이 닫기 전에 백그라운드에 있지 않을 경우 트리거됩니다. 이 이벤트는 충돌 후 애플리케이션이 시작될 때 전송됩니다. Adobe Mobile 충돌 보고는 발견되지 않은 전역 예외 핸들러를 구현하지 않습니다. |
+      | 응용 프로그램 수명 주기 | 애플리케이션 충돌 | 애플리케이션이 닫기 전에 배경에 있지 않을 경우 트리거됩니다. 이 이벤트는 충돌 후 애플리케이션이 시작될 때 전송됩니다. Adobe Mobile 충돌 보고는 발견되지 않은 전역 예외 핸들러를 구현하지 않습니다. |
       | 장소 | POI 입력 | 고객이 사용자가 구성한 관심 영역(POI)에 들어갈 때 위치 SDK에 의해 트리거됩니다. |
       | 장소 | POI 종료 | 고객이 사용자가 구성한 관심 영역(POI)을 종료할 때 위치 SDK에 의해 트리거됩니다. |
 

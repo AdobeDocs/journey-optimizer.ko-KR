@@ -125,4 +125,4 @@ ht-degree: 4%
 
 사용자 **[!UICONTROL 역할]** 이제 이(가) 생성되고 구성되었습니다. 이제 사용자에게 할당합니다.
 
-역할 생성 및 관리에 대한 자세한 내용은 [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).
+역할 생성 및 관리에 대한 자세한 내용은 [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=ko-KR).

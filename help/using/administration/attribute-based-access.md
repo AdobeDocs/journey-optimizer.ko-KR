@@ -38,7 +38,7 @@ ABAC에 사용되는 용어의 자세한 목록은 다음을 참조하십시오.
 
 >[!IMPORTANT]
 >
->역할에 대한 권한을 관리하려면 먼저 정책을 만들어야 합니다. 자세한 내용은 다음을 참조하십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
+>역할에 대한 권한을 관리하려면 먼저 정책을 만들어야 합니다. 자세한 내용은 다음을 참조하십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=ko-KR).
 
 **[!UICONTROL 역할]** 는 조직 내에서 동일한 권한, 레이블 및 샌드박스를 공유하는 사용자 세트입니다. 에 속한 각 사용자 **[!UICONTROL 역할]** 은 제품에 포함된 Adobe 앱 및 서비스를 이용할 수 있습니다.
 자신만의 고유한 을 만들 수도 있습니다 **[!UICONTROL 역할]** 인터페이스에서 특정 기능 또는 개체에 대한 사용자 액세스를 미세 조정하려는 경우.

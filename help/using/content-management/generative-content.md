@@ -14,7 +14,7 @@ exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 3%
 
 **목차**
 
-* [AI Assistant 시작](gs-generative.md)
+* [AI 어시스턴트 시작하기](gs-generative.md)
 * **[AI Assistant를 사용하여 콘텐츠 생성](generative-content.md)**
-* [AI Assistant를 사용하여 이미지 생성](generative-image.md)
+* [AI 어시스턴트로 이미지 생성](generative-image.md)
 
 >[!ENDSHADEBOX]
 

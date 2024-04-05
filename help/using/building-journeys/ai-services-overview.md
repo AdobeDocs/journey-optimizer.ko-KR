@@ -7,10 +7,11 @@ feature: Journeys, Integrations
 role: User
 level: Intermediate
 keywords: 인공, AI, 지능형, 여정, 서비스
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
+exl-id: 20da09e1-0611-4d27-a589-30552011e06c
+source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -29,4 +30,3 @@ ht-degree: 12%
 따라서 Journey Optimizer의 조건(최상의 의사 결정을 위해), 작업 또는 세그먼트 빌드에 있는 다른 프로필 속성으로 사용할 수 있습니다.
 
 ![](assets/customer-ai.png)
-
