@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 36%
+source-wordcount: '1053'
+ht-degree: 35%
 
 ---
 
@@ -162,7 +162,7 @@ ht-degree: 36%
 
 열기 및 클릭에 대한 보고는 [라이브 보고서](../reports/live-report.md) 및 [글로벌 보고서](../reports/global-report.md).
 
-## URL 추적 {#url-tracking}
+## URL 추적 개인화 {#url-tracking}
 
 보통 [URL 추적](email-settings.md#url-tracking) 는 서피스 수준에서 관리되지만 프로필 속성은 지원되지 않습니다. 현재 이 작업을 수행하는 유일한 방법은 [URL 개인화](../personalization/personalization-syntax.md#perso-urls) 이메일 디자이너에서.
 

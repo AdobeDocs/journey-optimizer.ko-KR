@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 76%
@@ -175,7 +175,7 @@ ht-degree: 76%
 >
 >이메일 헤더에 구독 취소 링크를 표시하려면 수신자의 이메일 클라이언트가 이 기능을 지원해야 합니다.
 
-구독 취소 주소는 해당 채널 표면에 표시되는 기본 **[!UICONTROL Mailto(구독 취소)]** 주소입니다. [자세히 알아보기](../configuration/channel-surfaces.md#list-unsubscribe).
+구독 취소 주소는 해당 채널 표면에 표시되는 기본 **[!UICONTROL Mailto(구독 취소)]** 주소입니다. [자세히 알아보기](email-settings.md#list-unsubscribe)
 
 개인화된 구독 취소 URL을 설정하려면 이메일 메시지 콘텐츠에 원클릭 옵트아웃 링크를 삽입하고 원하는 URL을 입력합니다. [자세히 알아보기](#one-click-opt-out)
 
