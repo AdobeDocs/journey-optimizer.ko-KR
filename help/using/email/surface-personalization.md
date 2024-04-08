@@ -10,16 +10,21 @@ level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 hide: true
 hidefromtoc: true
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+badge: label="Beta"
+source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
-# 이메일 동적 하위 도메인 구성 {#surface-personalization}
+# 이메일 표면 설정 개인화 {#surface-personalization}
 
-이메일 표면을 생성할 때 이메일 설정을 보다 유연하게 제어하고, [!DNL Journey Optimizer] 하위 도메인, 헤더 및 URL 추적 매개 변수에 대해 개인화된 값을 정의할 수 있습니다.
+이메일 설정을 보다 유연하게 제어하고, [!DNL Journey Optimizer] 하위 도메인 및 헤더에 대해 개인화된 값을 정의할 수 있습니다.<!--and URL tracking parameters--> 이메일 표면을 만들 때.
+
+>[!AVAILABILITY]
+>
+>이 기능은 현재 사용자를 선택하는 베타 버전으로만 사용할 수 있습니다. <!--To join the beta program, contact Adobe Customer Care.-->
 
 ## 동적 하위 도메인 추가 {#dynamic-subdomains}
 
@@ -42,7 +47,11 @@ ht-degree: 0%
 
 예를 들어 국가별 전용 이메일 주소에서 메시지를 보낼 수 있는 법적 제한이 있는 경우 동적 하위 도메인을 사용할 수 있습니다. 이렇게 하면 국가별로 여러 표면을 만드는 대신, 여러 전송 하위 도메인이 다른 국가에 해당하는 단일 표면을 만들 수 있습니다. 그런 다음 하나의 캠페인으로 통합된 다양한 국가의 고객을 타겟팅할 수 있습니다.
 
-동적 하위 도메인을 정의하려면 아래 단계를 따르십시오.
+이메일 채널 표면에 동적 하위 도메인을 정의하려면 아래 단계를 따르십시오.
+
+1. 표면을 만들기 전에 사용 사례에 따라 이메일 전송에 사용할 하위 도메인을 설정합니다. [방법 알아보기](../configuration/about-subdomain-delegation.md)
+
+   예를 들어 국가마다 다른 하위 도메인을 사용한다고 가정해 보겠습니다. 예를 들어 미국에 고유한 하위 도메인 하나, 영국에 고유한 하위 도메인 하나를 설정합니다.
 
 1. 채널 표면을 만듭니다. [방법 알아보기](../configuration/channel-surfaces.md)
 
@@ -72,7 +81,9 @@ ht-degree: 0%
 
    ![](assets/surface-email-add-dynamic-subdomain.png)
 
-1. 다음 항목 선택 [IP 풀](../configuration/ip-pools.md) 서피스와 연관시킬 수 있습니다. [자세히 알아보기](email-settings.md#subdomains-and-ip-pools)
+<!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
+
+1. 다른 모든 항목 정의 [이메일 설정](email-settings.md) 및 [제출](../configuration/channel-surfaces.md#create-channel-surface) 당신 표면
 
 서피스에 동적 하위 도메인을 하나 이상 추가하면 다음 항목이 이 서피스에 대해 해결된 동적 하위 도메인을 기반으로 채워집니다.
 
@@ -82,7 +93,11 @@ ht-degree: 0%
 
 * 다음 **보낸 사람 이메일** 및 **오류 이메일** 접미사
 
-## 헤더 개인화(#personalize-header)
+>[!NOTE]
+>
+>동적 하위 도메인을 설정한 다음 **[!UICONTROL 동적 하위 도메인]** 옵션을 선택하면 모든 동적 값이 제거됩니다. 하위 도메인을 선택하고 변경 사항을 적용할 서피스를 제출합니다.
+
+## 헤더 개인화 {#personalize-header}
 
 표면에 정의된 모든 헤더 매개 변수에 개인화를 사용할 수도 있습니다.
 
@@ -90,13 +105,20 @@ ht-degree: 0%
 
 서피스 헤더 매개변수에 개인화된 변수를 사용하려면 아래 단계를 따르십시오.
 
+>[!NOTE]
+>
+>다음을 모두 개인화할 수 있습니다. **[!UICONTROL 헤더 매개 변수]** 필드, 제외 **[!UICONTROL 오류 이메일 접두사]** 필드.
+
+
 1. 일반적인 방법으로 헤더 매개 변수를 정의합니다. [방법 알아보기](email-settings.md#email-header)
 
 1. 각 필드에 대해 편집 아이콘을 선택합니다.
 
    ![](assets/surface-email-personalize-header.png)
 
-1. 다음 [표현식 편집기](../personalization/personalization-build-expressions.md) 열림. 조건을 원하는 대로 정의하고 변경 사항을 저장합니다.<!--In this example, set a condition such as -->
+1. 다음 [표현식 편집기](../personalization/personalization-build-expressions.md) 열림. 조건을 원하는 대로 정의하고 변경 사항을 저장합니다.
+
+   예를 들어, 각 수신자가 자신의 브랜드 담당자로부터 이메일을 받는 것과 같은 조건을 설정합니다.
 
    >[!NOTE]
    >
@@ -104,18 +126,41 @@ ht-degree: 0%
 
 1. 개인화를 추가할 각 매개 변수에 대해 위의 단계를 반복합니다.
 
-   >[!NOTE]
-   >
-   >화면에 동적 하위 도메인을 한 개 이상 추가한 경우 **보낸 사람 이메일** 및 **오류 이메일** 해결된 내용에 따라 접미사가 채워집니다. [동적 하위 도메인](#dynamic-subdomains).
+>[!NOTE]
+>
+>화면에 동적 하위 도메인을 한 개 이상 추가한 경우 **보낸 사람 이메일** 및 **오류 이메일** 해결된 내용에 따라 접미사가 채워집니다. [동적 하위 도메인](#dynamic-subdomains).
 
 <!--
 ## Use personalized URL tracking {#personalize-url-tracking}
 
 To use personalized URL tracking prameters, follow the steps below.
 
-select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the expression editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 
 Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
 -->
+
+## 표면 세부 사항 보기 {#view-surface-details}
+
+캠페인이나 서피스에서 개인화된 설정이 있는 서피스를 사용할 경우 캠페인이나 서피스 내에서 직접 서피스 세부 정보를 표시할 수 있습니다. 아래 단계를 수행합니다.
+
+1. 이메일 만들기 [campaign](../campaigns/create-campaign.md) 또는 [여정](../building-journeys/journey-gs.md).
+
+1. 다음 항목 선택 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
+
+1. 다음을 클릭합니다. **[!UICONTROL 표면 세부 사항 보기]** 단추를 클릭합니다.
+
+   ![](assets/campaign-view-surface-details.png)
+
+1. 다음 **[!UICONTROL 게재 설정]** 창이 표시됩니다. 동적 하위 도메인 및 개인화된 헤더 매개 변수를 포함하여 모든 표면 설정을 볼 수 있습니다.
+
+   >[!NOTE]
+   >
+   >이 화면의 모든 정보는 읽기 전용입니다.
+
+1. 선택 **[!UICONTROL 확장]** 동적 하위 도메인의 세부 사항을 표시합니다.
+
+   ![](assets/campaign-delivery-settings-subdomain-expand.png)
+

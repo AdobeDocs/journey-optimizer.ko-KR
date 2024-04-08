@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2373'
 ht-degree: 11%
 
 ---
@@ -239,8 +239,6 @@ ht-degree: 11%
 >title="시드 목록 추가"
 >abstract="특정 내부 주소를 대상자에게 자동으로 추가하려면 원하는 시드 목록을 선택하십시오. 이들 시드 주소는 게재 실행 시간에 포함되며 보증 목적으로 정확한 메시지의 사본을 수신하게 됩니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="시드 목록이란 무엇입니까?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="시드 목록 만들기"
-
 
 의 시드 목록 [!DNL Journey Optimizer] 을 사용하면 게재에 특정 이메일 시드 주소를 자동으로 포함할 수 있습니다. [자세히 알아보기](../configuration/seed-lists.md)
 
