@@ -206,7 +206,7 @@ ht-degree: 99%
       + [이메일 동적 하위 도메인 구성](using/email/surface-personalization.md)
 + 인앱 채널{#in-app}
    + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
-   + [사전 요구 사항 및 구성](using/in-app/inapp-configuration.md)
+   + [전제 조건 및 구성](using/in-app/inapp-configuration.md)
    + [Mobile 인앱 메시지 만들기](using/in-app/create-in-app.md)
    + [웹 인앱 메시지 만들기](using/in-app/create-in-app-web.md)
    + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
