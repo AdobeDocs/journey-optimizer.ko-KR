@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
+source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 16%
+source-wordcount: '2005'
+ht-degree: 15%
 
 ---
 
@@ -146,6 +146,11 @@ ht-degree: 16%
 >id="ajo_journey_properties"
 >title="여정 속성"
 >abstract="이 섹션은 여정 속성을 보여 줍니다. 기본적으로 읽기 전용 매개변수는 숨겨져 있습니다. 사용 가능한 설정은 여정 상태, 권한 및 제품 구성에 따라 다릅니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="여정 종료 기준"
+>abstract="이 섹션에는 종료 기준 옵션이 표시됩니다. 여정에 대해 하나 이상의 종료 기준 규칙을 만들 수 있습니다."
 
 여정 이름 옆의 연필 아이콘을 클릭하여 속성에 액세스합니다.
 
