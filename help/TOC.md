@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: 81d54c026c52fe78b1b725d67da15505907b8bb9
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1746'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 99%
       + [2022년 릴리스 정보](using/rn/release-notes-2022.md)
       + [2021년 릴리스 정보](using/rn/release-notes-2021.md)
    + [설명서 업데이트](using/rn/documentation-updates.md)
+   + [새 여정 캔버스](using/rn/news-canvas.md)
 + 시작{#get-started}
    + [Journey Optimizer 소개](using/start/get-started.md)
    + 빠른 시작{#quick-start}
@@ -203,10 +204,9 @@ ht-degree: 99%
    + 이메일 채널 구성 {#configure-email}
       + [이메일 구성 시작](using/email/get-started-email-config.md)
       + [이메일 표면 설정 구성](using/email/email-settings.md)
-      + [이메일 동적 하위 도메인 구성](using/email/surface-personalization.md)
 + 인앱 채널{#in-app}
    + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
-   + [전제 조건 및 구성](using/in-app/inapp-configuration.md)
+   + [인앱 채널 사전 요구 사항](using/in-app/inapp-configuration.md)
    + [Mobile 인앱 메시지 만들기](using/in-app/create-in-app.md)
    + [웹 인앱 메시지 만들기](using/in-app/create-in-app-web.md)
    + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
