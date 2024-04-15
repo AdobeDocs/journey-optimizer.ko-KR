@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '783'
 ht-degree: 3%
 
 ---
@@ -27,9 +27,17 @@ ht-degree: 3%
 
 ## 클라이언트측 구현 {#client-side-implementation}
 
-클라이언트측 구현이 있는 경우 AEP 클라이언트 SDK 중 하나인 AEP Web SDK 또는 AEP Mobile SDK 를 사용할 수 있습니다. 아래 단계에서는 샘플 웹 SDK 구현에서 코드 기반 경험 캠페인에 의해 에지에 게시된 콘텐츠를 가져오고 개인화된 콘텐츠를 표시하는 프로세스를 설명합니다.
+클라이언트측 구현이 있는 경우 AEP 클라이언트 SDK 중 하나인 AEP Web SDK 또는 AEP Mobile SDK 를 사용할 수 있습니다.
 
-### 작동 방식
+* 단계 [아래](#client-side-how) 샘플에서 코드 기반 경험 캠페인이 에지에 게시한 콘텐츠를 가져오는 프로세스를 설명합니다 **웹 SDK** 을 구현하고 개인화된 콘텐츠를 표시합니다.
+
+* 를 사용하여 코드 기반 채널을 구현하는 절차 **Mobile SDK** 다음에 설명되어 있습니다. [이 자습서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+
+  >[!NOTE]
+  >
+  >모바일 사용 사례에 대한 샘플 구현은 다음에서 사용할 수 있습니다. [iOS 앱](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+
+### 작동 방법 - 웹 SDK {#client-side-how}
 
 1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko-KR){target="_blank"} 페이지에 포함됩니다.
 
@@ -48,61 +56,61 @@ ht-degree: 3%
 
 1. 코드 기반 경험 캠페인의 경우 콘텐츠가 표시된 시기를 나타내기 위해 표시 이벤트를 수동으로 보내야 합니다. 이 작업은 다음을 통해 수행됩니다. `sendEvent` 명령입니다.
 
-```javascript
-function sendDisplayEvent(decision) {
-  const { id, scope, scopeDetails = {} } = decision;
-
-  alloy("sendEvent", {
-
-    xdm: {
-      eventType: "decisioning.propositionDisplay",
-      _experience: {
-        decisioning: {
-          propositions: [
-            {
-              id: id,
-              scope: scope,
-              scopeDetails: scopeDetails,
-            },
-          ],
-        },
-      },
-    },
-  });
-}
-```
+   ```javascript
+   function sendDisplayEvent(decision) {
+     const { id, scope, scopeDetails = {} } = decision;
+   
+     alloy("sendEvent", {
+   
+       xdm: {
+         eventType: "decisioning.propositionDisplay",
+         _experience: {
+           decisioning: {
+             propositions: [
+               {
+                 id: id,
+                 scope: scope,
+                 scopeDetails: scopeDetails,
+               },
+             ],
+           },
+         },
+       },
+     });
+   }
+   ```
 
 1. 코드 기반 경험 캠페인의 경우, 사용자가 콘텐츠와 상호 작용한 시기를 나타내기 위해 상호 작용 이벤트를 수동으로 전송해야 합니다. 이 작업은 다음을 통해 수행됩니다. `sendEvent` 명령입니다.
 
-```javascript
-function sendInteractEvent(label, proposition) {
-  const { id, scope, scopeDetails = {} } = proposition;
-
-  alloy("sendEvent", {
-    
-    xdm: {
-      eventType: "decisioning.propositionInteract",
-      _experience: {
-        decisioning: {
-          propositions: [
-            {
-              id: id,
-              scope: scope,
-              scopeDetails: scopeDetails,
-            },
-          ],
-          propositionEventType: {
-            interact: 1
-          },
-          propositionAction: {
-            label: label
-          },
-        },
-      },
-    },
-  });
-}
-```
+   ```javascript
+   function sendInteractEvent(label, proposition) {
+     const { id, scope, scopeDetails = {} } = proposition;
+   
+     alloy("sendEvent", {
+   
+       xdm: {
+         eventType: "decisioning.propositionInteract",
+         _experience: {
+           decisioning: {
+             propositions: [
+               {
+                 id: id,
+                 scope: scope,
+                 scopeDetails: scopeDetails,
+               },
+             ],
+             propositionEventType: {
+               interact: 1
+             },
+             propositionAction: {
+               label: label
+             },
+           },
+         },
+       },
+     });
+   }
+   ```
 
 ### 주요 관찰
 
@@ -130,7 +138,9 @@ function sendInteractEvent(label, proposition) {
 
 ## 서버측 구현 {#server-side-implementation}
 
-서버측 구현이 있는 경우 AEP Edge Network API 중 하나를 사용할 수 있습니다. 아래 단계에서는 웹 페이지에 대한 샘플 Edge Network API 구현에서 코드 기반 경험 캠페인에 의해 Edge에 게시된 콘텐츠를 가져오고 개인화된 콘텐츠를 표시하는 프로세스를 설명합니다.
+서버측 구현이 있는 경우 AEP Edge Network API 중 하나를 사용할 수 있습니다.
+
+아래 단계에서는 웹 페이지에 대한 샘플 Edge Network API 구현에서 코드 기반 경험 캠페인에 의해 Edge에 게시된 콘텐츠를 가져오고 개인화된 콘텐츠를 표시하는 프로세스를 설명합니다.
 
 ### 작동 방식
 
