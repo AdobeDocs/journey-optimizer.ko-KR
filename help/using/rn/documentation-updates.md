@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5140'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 99%
 
 ## 2024년 4월 {#april-2024}
 
-* 인앱 메시지에 대한 구성 단계가 자세히 설명되어 있습니다. [자세히 보기](../in-app/inapp-configuration.md)
-* 설명서 [OFFER DECISIONING API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 및 [일괄 의사 결정 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 이(가) 업데이트되었습니다.
+* 인앱 메시지를 구성하는 단계가 자세히 설명되어 있습니다. [자세히 보기](../in-app/inapp-configuration.md)
+* [Offer Decisioning API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 및 [Batch decisioning API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 설명서가 업데이트되었습니다.
 * Edge Decisioning API로 빈도 제한을 사용할 때 에지 및 허브 영역 관리에 대한 정보가 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
 * API 트리거 캠페인을 사용할 때 사용자 지정 네임스페이스로 ID를 만드는 방법에 대한 정보를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md)
 

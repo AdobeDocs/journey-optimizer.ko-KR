@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2029'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,11 +46,11 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 현재 MMS에는 메시지 피드백 동기화를 사용할 수 없습니다.
 * MMS에 대한 동의 관리는 SMS 채널 수준에서 작동합니다.
 
-## 하위 도메인 보호 {#subdomain-guardrails}
+## 하위 도메인 가드레일 {#subdomain-guardrails}
 
-기본적으로, [!DNL Journey Optimizer] 에서는 총 10개의 하위 도메인을 위임할 수 있습니다(이메일 및 웹 채널 모두 포함).
+기본적으로,[!DNL Journey Optimizer] 총 10개까지 하위 도메인을 위임할 수 있습니다(이메일 및 웹 채널 모두 포함).
 
-그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 권한이 부여된 하위 도메인 수에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
+그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 부여된 하위 도메인 수에 대해 자세히 알아보려면 Adobe 담당자에게 문의하십시오.
 
 ## 조각 가드레일 {#fragments-guardrails}
 
