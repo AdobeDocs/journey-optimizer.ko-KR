@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c7dca8dd0d2761b204636020b427d76b617da26c
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1600'
 ht-degree: 8%
 
 ---
@@ -48,7 +48,7 @@ IP 준비 계획에 액세스하고, 만들고, 편집하고, 삭제하려면 �
 
 1. 을(를) 끌어다 놓습니다. **[!UICONTROL IP 웜업 구성]** 권한을 할당할 리소스입니다.
 
-1. 다음에서 **[!UICONTROL IP 웜업 구성]** 리소스 드롭다운에서 사용자에게 필요한 권한을 선택합니다.
+1. 다음에서 **[!UICONTROL IP 웜업 구성]** 리소스 드롭다운에서 사용자에게 필요한 권한을 선택합니다. **[!UICONTROL IP 준비 계획 보기]**, **[!UICONTROL IP 준비 계획 관리]**, 및/또는 **[!UICONTROL IP 준비 보고서 보기]**. 필요한 경우 한 번에 모두 선택할 수 있습니다.
 
    ![](assets/ip_permissions_2.png)
 
