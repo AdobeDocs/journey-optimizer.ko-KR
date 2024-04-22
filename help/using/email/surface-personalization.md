@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 이메일 동적 하위 도메인 구성
-description: 이메일 채널 표면 수준에서 동적 하위 도메인을 구성하는 방법을 알아봅니다
+title: 이메일 표면 설정 개인화
+description: 이메일 채널 표면 수준에서 설정에 대한 개인화된 값을 정의하는 방법을 알아봅니다
 feature: Surface, Subdomains
 topic: Administration
 role: Admin
@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
+source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '818'
 ht-degree: 13%
 
 ---
