@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
-workflow-type: tm+mt
+source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
+workflow-type: ht
 source-wordcount: '533'
 ht-degree: 100%
 
@@ -67,6 +67,7 @@ Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/doc
 * [조각](../content-management/fragments.md)
 * [구독 목록](../landing-pages/subscription-list.md)
 * [랜딩 페이지](../landing-pages/create-lp.md)
+* 
 
 기존 태그를 선택하거나 새 태그를 만들 수 있습니다. 그 방법은 다음과 같습니다.
 
