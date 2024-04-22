@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 26%
+source-wordcount: '1039'
+ht-degree: 25%
 
 ---
 
@@ -67,6 +67,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
    1. 이름과 설명을 입력합니다.
    1. 시작 및 종료 날짜를 지정합니다. 이 항목은 이 날짜 내에 의사 결정 엔진에서만 고려됩니다.
    1. 설정 **[!UICONTROL 우선 순위]** 프로필이 여러 항목에 적합한 경우 다른 항목과 비교하여 결정 항목. 우선 순위가 높을수록 해당 항목이 다른 항목보다 우선적으로 적용됩니다.
+   1. 다음 **태그** 필드를 사용하면 Adobe Experience Platform 통합 태그를 의사 결정 항목에 할당할 수 있습니다. 이를 통해 손쉽게 분류하고 검색을 개선할 수 있습니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
 
    ![](assets/item-attributes.png)
 
