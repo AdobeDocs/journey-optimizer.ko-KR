@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
+source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '824'
 ht-degree: 13%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 13%
 >id="ajo_surface_dynamic_subdomain_list"
 >title="일부 하위 도메인은 사용하지 못할 수 있습니다."
 >abstract="현재 피드백 루프 등록이 보류되어 특정 하위 도메인을 선택할 수 없습니다. 이 과정은 영업일 기준 최대 10일 정도 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="하위 도메인 위임 시작"
 
 이메일 표면을 만들 때 특정 조건을 기반으로 동적 하위 도메인을 설정할 수 있습니다.
 
