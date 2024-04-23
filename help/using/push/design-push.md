@@ -87,11 +87,11 @@ iOS 버전에서는 알림 범주 식별자가 지정됩니다. 표시할 버튼
 
    ![](assets/push_buttons.png)
 
-## 자동 알림 보내기 {#silent-notification}
+## 사일런트 알림 보내기 {#silent-notification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"
->title="자동 알림 정보"
+>title="사일런트 알림 정보"
 >abstract="사용자를 방해하지 않고 알림을 전송합니다. 알림 센터나 알림 표시줄에 알림이 표시되지 않습니다."
 
 자동 푸시 알림(또는 백그라운드 알림)은 애플리케이션에 전달되는 숨겨진 명령입니다. 예를 들어 애플리케이션에 새 콘텐츠의 가용성에 대해 알리거나 백그라운드에서 다운로드를 시작하는 데 사용됩니다.

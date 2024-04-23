@@ -152,7 +152,7 @@ ht-degree: 17%
 
 1. 이를 사용하여 시각적 편집기 내에서 상위 요소, 동위 요소 또는 하위 요소로 쉽게 이동할 수 있습니다.
 
-### 검색 모드로 전환 {#browse-mode}
+### 찾아보기 모드로 전환 {#browse-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"

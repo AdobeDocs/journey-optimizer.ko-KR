@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
 source-wordcount: '2005'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="여정"
->abstract="고객 여정 설계를 통해 개인화된 상황별 경험을 제공할 수 있습니다. Journey Optimizer를 사용하면 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다. **개요** 탭에는 여정과 관련된 주요 지표가 포함된 대시보드가 &#x200B;&#x200B;표시됩니다. **검색** 탭에는 기존 여정의 목록이 표시됩니다."
+>abstract="고객 여정 설계를 통해 개인화된 상황별 경험을 제공할 수 있습니다. Journey Optimizer를 사용하면 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다. **개요** 탭에는 여정과 관련된 주요 지표가 포함된 대시보드가 &#x200B;&#x200B;표시됩니다. **찾아보기** 탭에는 기존 여정의 목록이 표시됩니다."
 
 ### 주요 지표 및 여정 목록 {#access-metrics}
 
