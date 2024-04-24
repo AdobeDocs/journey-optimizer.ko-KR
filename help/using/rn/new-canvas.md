@@ -8,9 +8,9 @@ description: 새 여정 인터페이스
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
+source-git-commit: 596426f3b75a2e6f2d68e5b9218863c2d8887cca
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 1%
 
 * A **다시 디자인된 여정 캔버스** 현대화된 UI 경험을 위해 만들어짐
 * A **라이브 보고** 여정 캔버스에서 직접 사용할 수 있는 UI
+
+>[!AVAILABILITY]
+>
+>이 기능의 롤아웃은 점진적입니다. 변경 사항이 바로 표시되지 않을 수 있습니다.
 
 ## 여정 모델에 대한 업데이트
 
@@ -76,18 +80,26 @@ v1의 모든 여정은 v1에 유지됩니다. 편집하거나, 테스트하거�
 
 향상된 여정 캔버스 디자인과 함께 다음을 볼 수 있는 기능을 도입합니다 **지난 24시간 보고 지표** (&quot;라이브 보고&quot;라고 함) 여정 캔버스에서 바로 사용할 수 있습니다.
 
-![](assets/new-canvas6.png)
+![](assets/new-canvas6bis.png)
 
-새 모델에 대한 모든 라이브 여정을 사용하면 두 가지 유형의 &quot;최근 24시간&quot; 보고 정보를 볼 수 있습니다.
+새 모델에 대한 모든 라이브 여정을 통해 다음을 확인할 수 있습니다. **각 활동에서**&#x200B;활동에 입력한 프로필 수와 오류로 인해 종료한 프로필 수:
 
-* 다음에서: **새 삽입**, 다음이 표시됩니다.
-   * 대상자가 트리거된 여정에 대해 내보낸 프로필 수입니다. 마지막 내보내기 작업에서 사용할 수 있는 프로필 수와 해당 내보내기가 수행된 시간이 나란히 표시됩니다.
-   * 여정을 종료한 프로필 수
-   * 오류 비율
-     ![](assets/new-canvas7.png)
-* **각 활동 시**에 해당 활동에 입력한 프로필 수와 오류로 인해 종료한 프로필 수가 표시됩니다.
-  ![](assets/new-canvas8.png)
+![](assets/new-canvas8.png)
+
+<!--`
+With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
+
+* On a **new insert**, you will see:
+    * The number of profiles that have been exported for audience-triggered journeys. You will see the number of profiles available in the last export job alongside the time when that export has been made.
+    * The number of profiles who exited the journey
+    * The percentage of errors
+    ![](assets/new-canvas7.png)
+* **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
+    ![](assets/new-canvas8.png)
+-->
 
 사용자 인터페이스는 매 분마다 자동으로 새로 고쳐집니다.
 
-내보낸 프로필 수와 여정을 통해 흐르는 프로필 수 간에 차이가 표시될 수 있습니다. 내보낸 프로필 수는 수행된 마지막 내보내기 작업에 대한 정보만 제공하며 활동을 입력하는 프로필 수에는 지난 24시간 동안 작업을 수행한 프로필만 포함됩니다. 이틀에 걸쳐 데이터가 겹칠 수 있으므로 이 기능은 특히 반복 일별 여정에서 볼 수 있습니다.
+<!--
+Please note that you may see differences between the number of exported profiles and the number of profiles flowing through the journey. The exported profiles count only provides information about the last export job being made while the number of profiles entering an activity only contains profiles who did it in the last 24 hours. This can especially be visible on recurring daily journeys as there could be a data overlap between two days.
+-->
