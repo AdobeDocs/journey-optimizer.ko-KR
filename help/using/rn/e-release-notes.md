@@ -8,7 +8,7 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 409aaf7f8458a118e0f8d3aae481c2af047b3251
+source-git-commit: 3c9619c25f3e70e492e3fbb35521e10a66537a6a
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 32%
@@ -141,10 +141,6 @@ ht-degree: 32%
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-<!--
-* **ExD reporting in AEP**: TBD
--->
-
 **대상자**
 
 * 이제 Healthcare Shield 및 Privacy &amp; Security Shield를 사용하여 대상 구성의 대상 및 속성을 사용할 수 있습니다.
@@ -175,9 +171,6 @@ ht-degree: 32%
 
 Beta부터 LA까지, 다음과 같이 개선되었습니다.
 
-<!-- TO CONFIRM * Experience Decisioning left navigation menus have been renamed:
-    * "Items" is now "Catalogs"
-    * "Configuration" is now "Strategy setup"-->
 * 이제 를 사용하여 의사 결정 규칙에서 Adobe Experience Platform의 컨텍스트 데이터를 활용할 수 있습니다. **컨텍스트 데이터** 탭.
 * 이제 의사 결정 관리 리소스에 대해 새로운 &quot;경험 의사 결정 관리&quot; 권한을 사용할 수 있습니다. 이를 통해 Experience Decisioning과 관련된 권한을 관리할 수 있습니다.
 * 이제 하나의 오퍼에 여러 개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 높일 수 있습니다.
