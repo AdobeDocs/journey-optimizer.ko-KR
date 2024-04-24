@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 542716f61e5e8d1aa4964fabc98bc4a938f41169
+source-git-commit: 409aaf7f8458a118e0f8d3aae481c2af047b3251
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '546'
 ht-degree: 32%
 
 ---
@@ -175,10 +175,14 @@ ht-degree: 32%
 
 Beta부터 LA까지, 다음과 같이 개선되었습니다.
 
+<!-- TO CONFIRM * Experience Decisioning left navigation menus have been renamed:
+    * "Items" is now "Catalogs"
+    * "Configuration" is now "Strategy setup"-->
 * 이제 를 사용하여 의사 결정 규칙에서 Adobe Experience Platform의 컨텍스트 데이터를 활용할 수 있습니다. **컨텍스트 데이터** 탭.
 * 이제 의사 결정 관리 리소스에 대해 새로운 &quot;경험 의사 결정 관리&quot; 권한을 사용할 수 있습니다. 이를 통해 Experience Decisioning과 관련된 권한을 관리할 수 있습니다.
 * 이제 하나의 오퍼에 여러 개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 높일 수 있습니다.
 * 이제 Experience Decisioning에서 지정된 의사 결정 항목에 대해 여러 개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 높일 수 있습니다.
+* 이제 를 사용하여 Experience Decisioning 캠페인의 사용자 지정 보고 대시보드를 만들 수 있습니다 [!DNL Customer Journey Analytics].
 
 **여정**
 
