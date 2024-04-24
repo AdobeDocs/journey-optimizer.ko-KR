@@ -8,7 +8,7 @@ description: 새 여정 인터페이스
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 596426f3b75a2e6f2d68e5b9218863c2d8887cca
+source-git-commit: eb964ee9fb0891692adf5b5a9143ef2d6ad450ac
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 * A **다시 디자인된 여정 캔버스** 현대화된 UI 경험을 위해 만들어짐
 * A **라이브 보고** 여정 캔버스에서 직접 사용할 수 있는 UI
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >이 기능의 롤아웃은 점진적입니다. 변경 사항이 바로 표시되지 않을 수 있습니다.
 
