@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '485'
 ht-degree: 19%
 
 ---
@@ -45,7 +45,7 @@ Infobip을 사용할 때 전달 작업이 끌어오기 구성으로 설정되어
 
 ## 차단 목록 {#sms-blocklists}
 
-Adobe Journey Optimizer이 옵트아웃 상태(Twilio 또는 Sinch와의 직접 통합을 위해)에 따라 전송을 중지하는 것 외에도 대부분의 SMS 게이트웨이 공급자는 차단 목록에 추가하다 메시지를 유지 관리하여 옵트아웃을 선택한 개인에게 SMS가 전달되지 않도록 합니다. Sinch 또는 Twilio 이외의 공급자를 사용하고 있으며 [사용자 지정 채널](../building-journeys/using-custom-actions.md), 공급자에게 확인해야 합니다.
+Adobe Journey Optimizer에서 옵트아웃 상태(Twilio, Infoip 또는 Sinch와의 직접 통합을 위해)에 따라 전송을 중지하는 것 외에도 대부분의 SMS 게이트웨이 공급자는 SMS 메시지가 옵트아웃을 선택한 개인에게 전달되지 않도록 하는 차단 목록에 추가하다도 유지 관리합니다. Sinch 또는 Twilio 이외의 공급자를 사용하고 있으며 [사용자 지정 채널](../building-journeys/using-custom-actions.md), 공급자에게 확인해야 합니다.
 
 
 ## 짧은 코드 {#short-codes}
