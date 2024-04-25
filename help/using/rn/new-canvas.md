@@ -8,21 +8,14 @@ description: 새 여정 인터페이스
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: eb964ee9fb0891692adf5b5a9143ef2d6ad450ac
+source-git-commit: 59f41003183e155632124fde294bea575fb0f493
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '558'
 ht-degree: 1%
 
 ---
 
 # 향상된 여정 디자이너 시작 {#new-canvas}
-
->[!CONTEXTUALHELP]
->id="ajo_new_canvas"
->title="새로운 기능"
->abstract="새 캔버스"
-
-향상된 여정 디자이너에 오신 것을 환영합니다!
 
 다음 항목을 개발했습니다. **간소화된 여정 모델** 내부 프로세스를 개선하는 것이 목표입니다. 이 새로운 모델은 백엔드 개선 사항이지만, 우리 팀은 Journey Optimizer 사용자에게 가시적이고 유익한 기능을 추가할 수 있는 기회를 가졌습니다.
 
