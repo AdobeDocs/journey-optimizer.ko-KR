@@ -8,10 +8,10 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 3c9619c25f3e70e492e3fbb35521e10a66537a6a
+source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 32%
+source-wordcount: '513'
+ht-degree: 34%
 
 ---
 
@@ -140,11 +140,6 @@ ht-degree: 32%
 ### 개선 사항 {#e-improvements}
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
-
-**대상자**
-
-* 이제 Healthcare Shield 및 Privacy &amp; Security Shield를 사용하여 대상 구성의 대상 및 속성을 사용할 수 있습니다.
-* 이제 Healthcare Shield 및 Privacy &amp; Security Shield와 함께 사용자 지정 업로드(CSV 파일)를 사용할 수 있습니다.
 
 <!--
 * **Experience Decisioning + Code-based experiences (LA)**: You can now leverage the Experience decisioning feature to use decision items in your code-based campaigns. Note: The Code-based experience channel and Experience decisioning are not available for organizations that have purchased the Adobe Healthcare Shield and Privacy and Security Shield add-on offerings.
