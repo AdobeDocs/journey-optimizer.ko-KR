@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
+source-git-commit: 882af161383a54a1f9b09d2a8d0cab84abbf7dcd
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '502'
 ht-degree: 34%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 34%
 
 **경험 의사 결정**
 
-Beta부터 LA까지, 다음과 같이 개선되었습니다.
+Beta에서 LA까지 다음과 같은 개선 사항이 추가되었습니다.
 
 * 이제 를 사용하여 의사 결정 규칙에서 Adobe Experience Platform의 컨텍스트 데이터를 활용할 수 있습니다. **컨텍스트 데이터** 탭.
 * 이제 의사 결정 관리 리소스에 대해 새로운 &quot;경험 의사 결정 관리&quot; 권한을 사용할 수 있습니다. 이를 통해 Experience Decisioning과 관련된 권한을 관리할 수 있습니다.
@@ -174,12 +174,12 @@ Beta부터 LA까지, 다음과 같이 개선되었습니다.
 
 **여정**
 
-* **향상된 여정 디자이너**:
+* **향상된 여정 디자이너**
 
    * 향상된 캔버스 UI는 보다 직관적이고 효율적인 사용자 경험을 제공합니다.
    * 활동은 더 명확하고 클릭 수로 여정 캔버스에 더 많은 정보를 제공합니다.
 
-* **새로운 라이브 보고**: 이제 애플리케이션 라이브 보고서를 통해 여정 보고에 액세스할 수 있습니다. 여정 실행에 많은 통찰력을 제공하는 애플리케이션입니다.
+* **새로운 라이브 보고**: 이제 지난 24시간 여정 보고에 여정 캔버스에서 직접 액세스할 수 있습니다.
 
 **구성**
 
