@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 15%
@@ -51,7 +51,7 @@ ht-degree: 15%
 
    ![](assets/audiences-properties.png)
 
-1. 사이에 필요한 만큼 활동을 추가하여 컴포지션을 구성합니다. **[!UICONTROL 대상자]** 및 **[!UICONTROL 저장]** 활동. [컴포지션 캔버스 작업 방법 알아보기](composition-canvas.md)
+1. 사이에 필요한 만큼 활동을 추가하여 구성을 구성합니다. **[!UICONTROL 대상자]** 및 **[!UICONTROL 저장]** 활동. [컴포지션 캔버스 작업 방법 알아보기](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 69%
+ht-degree: 51%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="구성 만들기"
->abstract="구성 워크플로를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만듭니다."
+>abstract="기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하는 작성 워크플로를 만들고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만듭니다."
 
 >[!BEGINSHADEBOX]
 
@@ -28,7 +28,7 @@ ht-degree: 69%
 
 >[!ENDSHADEBOX]
 
-대상자 구성 기능으로 **구성 워크플로우**&#x200B;를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 제외...)을 활용하여 새 대상자를 만들 수 있습니다.
+대상 구성을 사용하여 다음을 만들 수 있습니다. **컴포지션 워크플로**: 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만들 수 있습니다.
 
 완료되면 **결과 대상자** 는 기존 대상과 함께 Adobe Experience Platform에 저장되며 Journey Optimizer 캠페인 및 여정에서 타겟 고객에게 활용될 수 있습니다. [Journey Optimizer에서 대상을 타기팅하는 방법 알아보기](../audience/about-audiences.md#segments-in-journey-optimizer)
 
