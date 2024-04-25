@@ -8,9 +8,9 @@ description: 새 여정 인터페이스
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 59f41003183e155632124fde294bea575fb0f493
+source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ v1의 모든 여정은 v1에 유지됩니다. 편집하거나, 테스트하거�
 
 ![](assets/new-canvas.png)
 
-그러나 다음을 수행하는 경우&#x200B;**새 여정 만들기** 또는 **기존 항목 복제**, v2 여정이 됩니다.  대부분의 고객이 v2 여정으로 전환될 때까지 v1 여정을 계속 지원할 계획입니다.
+그러나 다음을 수행하는 경우 **새 여정 만들기** 또는 **기존 항목 복제**, v2 여정이 됩니다.  대부분의 고객이 v2 여정으로 전환될 때까지 v1 여정을 계속 지원할 계획입니다.
 
 새로운 여정 모델에는 한 가지 제한이 있습니다. **v1 여정에서 v2로 또는 그 반대로 활동을 복사하여 붙여넣을 수 없습니다.**. 이 작업을 수행하려면 v1 여정을 복제하여 v2로 만든 다음 활동을 복사하는 것이 좋습니다.
 
