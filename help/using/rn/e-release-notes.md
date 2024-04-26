@@ -6,10 +6,10 @@ description: Journey Optimizer 초기 릴리스 정보
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: f133a33237fccacbf800de445c27684de4f42453
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 34%
+source-wordcount: '478'
+ht-degree: 33%
 
 ---
 
@@ -166,7 +166,6 @@ Beta에서 LA까지 다음과 같은 개선 사항이 추가되었습니다.
 
 * 이제 를 사용하여 의사 결정 규칙에서 Adobe Experience Platform의 컨텍스트 데이터를 활용할 수 있습니다. **컨텍스트 데이터** 탭.
 * 이제 의사 결정 관리 리소스에 대해 새로운 &quot;경험 의사 결정 관리&quot; 권한을 사용할 수 있습니다. 이를 통해 Experience Decisioning과 관련된 권한을 관리할 수 있습니다.
-* 이제 하나의 오퍼에 여러 개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 높일 수 있습니다.
 * 이제 Experience Decisioning에서 지정된 의사 결정 항목에 대해 여러 개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 높일 수 있습니다.
 * 이제 를 사용하여 Experience Decisioning 캠페인의 사용자 지정 보고 대시보드를 만들 수 있습니다 [!DNL Customer Journey Analytics].
 
