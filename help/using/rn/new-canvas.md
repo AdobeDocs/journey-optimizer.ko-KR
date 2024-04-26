@@ -8,9 +8,9 @@ description: 새 여정 인터페이스
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
+source-git-commit: b40ca1f681ebbaf976ab211c96eb2987cc44f5b8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 1%
 
 이제 활동이 다음 기능의 사각형 상자로 표시됩니다.
 
-* 활동 유형을 나타내는 첫 번째 줄은 더 많은 컨텍스트 정보(예: 대상자 읽기의 경우 선택한 대상자의 이름이 포함됨)로 덮어쓰거나, 하나를 정의하는 경우 사용자 지정 레이블로 덮어쓰는 경우가 많습니다.
+* 활동 유형을 나타내는 첫 번째 줄은 더 많은 컨텍스트 정보(대상 읽기에서 선택한 대상의 이름이 포함됨)로 덮어쓰거나, 하나를 정의하는 경우 사용자 지정 레이블로 덮어쓰는 경우가 많습니다.
 * 두 번째 줄은 항상 활동 유형을 나타냅니다.
 
 ![](assets/new-canvas4.png)
