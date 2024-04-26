@@ -6,10 +6,10 @@ description: Journey Optimizer 초기 릴리스 정보
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4257fafef5d6c6f5f9c7f4af9c9b06510b1e9037
+source-git-commit: d5fa80ee2823131bb69bae0f366b92bf1fae3020
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 57%
+source-wordcount: '280'
+ht-degree: 53%
 
 ---
 
@@ -103,6 +103,7 @@ ht-degree: 57%
 <img src="assets/new-canvas3.gif"/>
 <p>향상된 여정 캔버스 디자인과 함께 지난 24시간 보고 지표를 여정 캔버스에서 직접 볼 수 있는 기능을 도입했습니다. </p>
 <img src="assets/new-canvas6bis.png"/>
+<p><br>참고</br>:이 변경 사항은 점진적으로 롤아웃됩니다. 환경에 변경 사항이 즉시 표시되지 않을 수 있습니다.</p>
 <p>자세한 내용은 <a href="new-canvas.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
