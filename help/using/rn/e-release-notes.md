@@ -6,10 +6,10 @@ description: Journey Optimizer 초기 릴리스 정보
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f133a33237fccacbf800de445c27684de4f42453
+source-git-commit: 4257fafef5d6c6f5f9c7f4af9c9b06510b1e9037
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 33%
+source-wordcount: '261'
+ht-degree: 57%
 
 ---
 
@@ -42,22 +42,22 @@ ht-degree: 33%
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Experience Decisioning - 제한된 가용성</strong><br/></th>
+<th><strong>Experience Decisioning - Limited Availability</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Experience Decisioning은 '의사 결정 항목'이라고 하는 마케팅 오퍼의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 등급 기준을 활용하여 각 개인에게 가장 관련성이 높은 결정 항목을 선택하고 제공합니다.</p>
-<p>이러한 의사 결정 항목은 이제 Journey Optimizer 캠페인 내에서 액세스할 수 있는 새로운 코드 기반 경험 채널을 통해 광범위한 인바운드 표면에 원활하게 통합됩니다. Experience Decisioning 의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.</p>
-<p>Experience Decisioning은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스하려면 Adobe 담당자에게 문의하십시오.</p>
+<p>Experience Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual.</p>
+<p>These decision items are seamlessly integrated into a wide range of inbound surfaces through the new code-based experience channel, now accessible within Journey Optimizer campaigns. Experience Decisioning decision policies are available for use in code-based experience campaigns only.</p>
+<p>Experience Decisioning is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -85,6 +85,25 @@ ht-degree: 33%
 <td>
 <p>이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 처음에는 Sinch에서만 사용할 수 있으며, MMS는 이제 Infobip 및 Twilio에서도 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/mms.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>향상된 여정 디자이너 및 라이브 보고</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이 릴리스는 여정을 위한 향상된 캔버스 사용자 인터페이스와 함께 제공되며 보다 직관적이고 효율적인 사용자 경험을 제공합니다. 활동은 더 명확하고 클릭 수로 여정 캔버스에 더 많은 정보를 제공합니다.</p>
+<img src="assets/new-canvas3.gif"/>
+<p>향상된 여정 캔버스 디자인과 함께 지난 24시간 보고 지표를 여정 캔버스에서 직접 볼 수 있는 기능을 도입했습니다. </p>
+<img src="assets/new-canvas6bis.png"/>
+<p>자세한 내용은 <a href="new-canvas.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -156,27 +175,22 @@ ht-degree: 33%
 * **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
 -->
 
-**의사 결정 관리**
+<!--
+**Decision management** 
 
-* 다음 **변경 로그** 오퍼 또는 의사 결정에 대한 모든 변경 사항이 제거된 것을 볼 수 있는 탭입니다. 이제 오퍼 및 의사 결정과 관련된 변경 사항을 **감사** 메뉴 아래의 제품에서 사용할 수 있습니다.
+* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.
 
-**경험 의사 결정**
+**Experience decisionning**
 
-Beta에서 LA까지 다음과 같은 개선 사항이 추가되었습니다.
+From beta to LA, the following improvements that have been added:
 
-* 이제 를 사용하여 의사 결정 규칙에서 Adobe Experience Platform의 컨텍스트 데이터를 활용할 수 있습니다. **컨텍스트 데이터** 탭.
-* 이제 의사 결정 관리 리소스에 대해 새로운 &quot;경험 의사 결정 관리&quot; 권한을 사용할 수 있습니다. 이를 통해 Experience Decisioning과 관련된 권한을 관리할 수 있습니다.
-* 이제 Experience Decisioning에서 지정된 의사 결정 항목에 대해 여러 개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 높일 수 있습니다.
-* 이제 를 사용하여 Experience Decisioning 캠페인의 사용자 지정 보고 대시보드를 만들 수 있습니다 [!DNL Customer Journey Analytics].
+* You can now leverage context data from Adobe Experience Platform in your decision rules using the **Context data** tab.  
+* A new "Manage Experience decisions" permission is now available for the Decision Management resource. It allows you to manage rights related to Experience Decisioning.   
+* You can now add multiple capping rules for a given decision item in Experience Decisioning. This allows you to increase the level of control over the way offers are sent.
+* You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
+-->
 
-**여정**
 
-* **향상된 여정 디자이너**
-
-   * 향상된 캔버스 UI는 보다 직관적이고 효율적인 사용자 경험을 제공합니다.
-   * 활동은 더 명확하고 클릭 수로 여정 캔버스에 더 많은 정보를 제공합니다.
-
-* **새로운 라이브 보고**: 이제 지난 24시간 여정 보고에 여정 캔버스에서 직접 액세스할 수 있습니다.
 
 **구성**
 
