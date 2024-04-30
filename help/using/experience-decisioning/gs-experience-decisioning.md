@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 27%
+source-wordcount: '437'
+ht-degree: 23%
 
 ---
 
@@ -43,6 +43,28 @@ Experience Decisioning은 &#39;의사 결정 항목&#39;으로 알려진 마케�
 ## Experience Decisioning 주요 단계 {#steps}
 
 Experience Decisioning을 사용하는 주요 단계는 다음과 같습니다.
+
+1. **적절한 권한 할당**. 의사 결정은 Experience Decisioning 관련 액세스 권한이 있는 사용자만 사용할 수 있습니다. **[!UICONTROL 역할]** 의사 결정 관리자 등. 의사 결정에 액세스할 수 없는 경우 권한을 확장해야 합니다.
+
+   +++의사 결정 관리자 역할을 할당하는 방법 알아보기
+
+   1. 에서 사용자에게 역할을 할당하려면 다음을 수행하십시오. [!DNL Permissions] product에서 **[!UICONTROL 역할]** 을 탭하고 [의사 결정 관리자]를 선택합니다.
+
+      ![](assets/decision_permission_1.png)
+
+   1. 다음에서 **[!UICONTROL 사용자]** 탭을 클릭하고 **[!UICONTROL 사용자 추가]**.
+
+      ![](assets/decision_permission_2.png)
+
+   1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**.
+
+      사용자가 이전에 만들어지지 않은 경우 [사용자 설명서 추가](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+
+      ![](assets/decision_permission_3.png)
+
+   그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
+
++++
 
 1. **사용자 지정 속성 구성**: 사용자 지정 특성을 카탈로그의 스키마에 설정하여 결정 항목의 카탈로그를 특정 요구 사항에 맞게 조정할 수 있습니다.
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 74%
 
 ---
 
@@ -46,29 +46,19 @@ Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 대상
 
 Journey Optimizer에서 캠페인을 처음으로 만들 때는 먼저 다음 전제 조건을 확인해야 합니다.
 
-1. **적절한 권한이 필요합니다**. 캠페인은 캠페인 전체 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 확인자 등 캠페인 관련 **[!UICONTROL 제품 프로필]**&#x200B;에 액세스 권한이 있는 사용자만 사용할 수 있습니다.
+1. **적절한 권한이 필요합니다**. 캠페인은 캠페인 관련 액세스 권한이 있는 사용자만 사용할 수 있습니다. **[!UICONTROL 제품 프로필]** 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 뷰어 등. 캠페인에 액세스할 수 없는 경우 사용 권한을 확장해야 합니다.
 
-   캠페인에 액세스할 수 없는 경우 권한을 확장해야 합니다. 조직의 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}에 액세스할 권한이 있는 경우 아래 단계를 따르십시오. 없는 경우 조직의 Journey Optimizer 관리자에게 문의하십시오.
+   +++캠페인 관련 역할을 할당하는 방법 알아보기
 
-   +++캠페인 권한을 할당하는 방법 알아보기
+   1. 에서 사용자에게 역할을 할당하려면 다음을 수행하십시오. [!DNL Permissions] product에서 **[!UICONTROL 역할]** 탭을 클릭하고 기본 제공 캠페인 중 하나를 선택합니다. **[!UICONTROL 역할]**: 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 또는 캠페인 뷰어.
 
-   **[!UICONTROL 제품 프로필]**&#x200B;을 사용자에게 할당하는 방법:
+   1. 다음에서 **[!UICONTROL 사용자]** 탭을 클릭하고 **[!UICONTROL 사용자 추가]**.
 
-   1. [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}에서 [!DNL Adobe Experience Platform] 제품을 선택합니다.
+   1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**.
 
-   1. **[!UICONTROL 제품 프로필]** 탭으로 이동하여 기본적으로 제공되는 캠페인 관련 **[!UICONTROL 제품 프로필]**(캠페인 전체 관리자나 캠페인 승인자, 캠페인 관리자 또는 캠페인 확인자) 중 하나를 선택합니다.
+      사용자가 이전에 만들어지지 않은 경우 [사용자 설명서 추가](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-      Journey Optimizer 캠페인의 **[!UICONTROL 제품 프로필]**&#x200B;과 **[!UICONTROL 권한]**&#x200B;에 대한 자세한 내용은 [이 페이지를 참조하십시오](../administration/ootb-product-profiles.md).
-
-      ![](assets/do-not-localize/admin_1.png)
-
-   1. **[!UICONTROL 사용자 추가]**&#x200B;를 클릭하여 사용자에게 선택한 **[!UICONTROL 제품 프로필]**&#x200B;을 할당합니다.
-
-      ![](assets/do-not-localize/admin_2.png)
-
-   1. 사용자 이름이나 그룹 또는 이메일 주소를 입력하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-   이제 사용자가 **[!UICONTROL 캠페인]**&#x200B;에 액세스할 수 있습니다.
+   그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
 
 +++
 
