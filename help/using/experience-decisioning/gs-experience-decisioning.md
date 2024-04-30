@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 7%
+source-wordcount: '329'
+ht-degree: 27%
 
 ---
 
@@ -33,15 +33,12 @@ ht-degree: 7%
 >[!AVAILABILITY]
 >
 >Experience Decisioning 기능은 현재 사용자를 선택하는 베타 버전으로 사용할 수 있습니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
+>
+>의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.
 
-Experience Decisioning은 &#39;의사 결정 항목&#39;이라고 하는 마케팅 오퍼의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 등급 기준을 활용하여 각 개인에게 가장 관련성이 높은 결정 항목을 선택하고 제공합니다.
+Experience Decisioning은 &#39;의사 결정 항목&#39;으로 알려진 마케팅 의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.
 
-이러한 의사 결정 항목은 이제 Journey Optimizer 캠페인 내에서 액세스할 수 있는 새로운 코드 기반 경험 채널을 통해 광범위한 인바운드 표면에 원활하게 통합됩니다.
-
-**제한 사항:**
-
-* 의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.
-* 현재 Experience Decisioning에서는 빈도 제한 기능을 사용할 수 없습니다.
+이러한 의사 결정 항목은 이제 Journey Optimizer 캠페인 에서 액세스 가능한 새로운 코드 기반 경험 채널을 통해 광범위한 인바운드 표면에 원활하게 통합됩니다.
 
 ## Experience Decisioning 주요 단계 {#steps}
 
