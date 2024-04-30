@@ -8,14 +8,14 @@ description: 새 여정 인터페이스
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: f9183f0ef3dbc13f39e5442405e7b0011621e773
+source-git-commit: b6b3f710d08fb7f0949e75521ce126fa43d6cdc5
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 1%
+source-wordcount: '556'
+ht-degree: 2%
 
 ---
 
-# 향상된 여정 디자이너 시작 {#new-canvas}
+# 향상된 Journey Designer 시작하기 {#new-canvas}
 
 이제 Journey Optimizer에서 **간소화된 여정 모델** 이는 사용자 경험과 내부 프로세스를 개선하는 것을 목표로 합니다. 4월 릴리스부터 다음과 같은 기능을 사용할 수 있습니다.
 
@@ -71,13 +71,14 @@ ht-degree: 1%
 
 ## 여정 캔버스에서 라이브 보고
 
-향상된 여정 캔버스 디자인과 함께 다음을 볼 수 있는 기능을 도입합니다 **지난 24시간 보고 지표** (&quot;라이브 보고&quot;라고 함) 여정 캔버스에서 바로 사용할 수 있습니다.
+향상된 여정 캔버스 레이아웃 외에도 사용자가 다음에서 실시간 보고 지표를 볼 수 있는 새로운 기능이 도입되었습니다 **지난 24시간**&#x200B;라이브 보고라고 하며 여정 캔버스 내에서 바로 사용됩니다.
+
+새 모델을 사용하는 모든 라이브 여정 내의 각 활동에 대해 다음에 액세스할 수 있습니다.
+
+* 이 활동에 들어가는 프로필 수입니다.
+* 오류로 인해 이 활동을 종료하는 프로필 수입니다.
 
 ![](assets/new-canvas6bis.png)
-
-새 모델에 대한 모든 라이브 여정을 통해 다음을 확인할 수 있습니다. **각 활동에서**&#x200B;활동에 입력한 프로필 수와 오류로 인해 종료한 프로필 수:
-
-![](assets/new-canvas8.png)
 
 <!--`
 With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
@@ -90,9 +91,6 @@ With every live journey on the new model, you will be able to see two types of "
 * **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
     ![](assets/new-canvas8.png)
 -->
-
-사용자 인터페이스는 매 분마다 자동으로 새로 고쳐집니다.
-
 <!--
 Please note that you may see differences between the number of exported profiles and the number of profiles flowing through the journey. The exported profiles count only provides information about the last export job being made while the number of profiles entering an activity only contains profiles who did it in the last 24 hours. This can especially be visible on recurring daily journeys as there could be a data overlap between two days.
 -->
