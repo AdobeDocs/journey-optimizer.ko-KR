@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 Experience Decisioning에서 카탈로그는 의사 결정 항목을 구성하는 중앙 컨테이너 역할을 합니다. 각 카탈로그는 의사 결정 항목에 할당할 수 있는 모든 속성을 포함하는 Adobe Experience Platform 스키마에 연결됩니다.
 
-지금은 생성된 모든 의사 결정 항목이 단일 &quot;오퍼&quot; 카탈로그 내에 통합되어 를 통해 액세스할 수 있습니다. **[!UICONTROL 항목]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+지금은 생성된 모든 의사 결정 항목이 단일 &quot;오퍼&quot; 카탈로그 내에 통합되어 를 통해 액세스할 수 있습니다. **[!UICONTROL 카탈로그]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](assets/catalogs-list.png)
 

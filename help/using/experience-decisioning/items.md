@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
 ht-degree: 14%
@@ -38,7 +38,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
 의사 결정 항목을 만들기 전에 **결정 규칙** 결정 항목을 표시할 대상을 결정하는 조건을 설정하려면 를 선택합니다. [의사 결정 규칙을 만드는 방법을 알아봅니다](rules.md).
 
-의사 결정 항목을 만들려면 다음 위치로 이동합니다. **[!UICONTROL 경험 의사 결정]** > **[!UICONTROL 항목]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 항목 만들기]** 그런 다음 아래 섹션에 자세히 설명된 단계를 수행합니다.
+의사 결정 항목을 만들려면 다음 위치로 이동합니다. **[!UICONTROL 경험 의사 결정]** > **[!UICONTROL 카탈로그]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 항목 만들기]** 그런 다음 아래 섹션에 자세히 설명된 단계를 수행합니다.
 
 ## 결정 항목의 속성 정의 {#attributes}
 

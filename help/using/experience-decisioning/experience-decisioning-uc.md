@@ -8,7 +8,7 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 10%
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 먼저 항목을 만들고, 컬렉션에서 함께 그룹화하고, 규칙과 등급 지정 방법을 설정해야 합니다. 이러한 요소를 사용하여 선택 전략을 작성할 수 있습니다.
 
-1. 다음으로 이동 **[!UICONTROL 경험 의사 결정]** > **[!UICONTROL 항목]** 여러 오퍼 항목을 만들 수 있습니다. 대상자 또는 규칙을 사용하여 제한을 설정하여 각 항목을 특정 프로필로만 제한합니다. [자세히 알아보기](items.md)
+1. 다음으로 이동 **[!UICONTROL 경험 의사 결정]** > **[!UICONTROL 카탈로그]** 여러 오퍼 항목을 만들 수 있습니다. 대상자 또는 규칙을 사용하여 제한을 설정하여 각 항목을 특정 프로필로만 제한합니다. [자세히 알아보기](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->

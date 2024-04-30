@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d26b35ea680eae0e71eb3164b4225a49610e1563
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1444'
 ht-degree: 12%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 12%
    >
    >적어도 한 개의 전략이 필요합니다. 10개 이상의 전략을 추가할 수 없습니다.
 
-1. 다음에서 **[!UICONTROL 전략 추가]** 화면에서 전략을 만들 수도 있습니다. 다음 **[!UICONTROL 선택 전략 만들기]** 버튼은 사용자를 로 리디렉션합니다. **[!UICONTROL Experience decisioning]** > **[!UICONTROL 구성]** 메뉴 아래의 제품에서 사용할 수 있습니다. [자세히 알아보기](selection-strategies.md)
+1. 다음에서 **[!UICONTROL 전략 추가]** 화면에서 전략을 만들 수도 있습니다. 다음 **[!UICONTROL 선택 전략 만들기]** 버튼은 사용자를 로 리디렉션합니다. **[!UICONTROL Experience decisioning]** > **[!UICONTROL 전략 설정]** 메뉴 아래의 제품에서 사용할 수 있습니다. [자세히 알아보기](selection-strategies.md)
 
    ![](assets/decision-code-based-add-strategy.png)
 

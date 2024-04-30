@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 50%
@@ -47,11 +47,11 @@ ht-degree: 50%
 
 예를 들어 결정 항목의 카탈로그 스키마에 &quot;Category&quot; 사용자 지정 특성을 추가했다고 가정해 보겠습니다. 이렇게 하면 &quot;Category&quot; 특성에 &quot;Yoga&quot; 값이 있는 모든 결정 항목을 포함하는 컬렉션을 만들 수 있습니다.
 
-컬렉션 목록은 다음 위치에서 액세스할 수 있습니다. **[!UICONTROL 항목]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+컬렉션 목록은 다음 위치에서 액세스할 수 있습니다. **[!UICONTROL 카탈로그]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 컬렉션을 만들려면 다음 단계를 수행하십시오.
 
-1. 다음으로 이동 **[!UICONTROL 항목]** > **[!UICONTROL 컬렉션]** 및 클릭 **[!UICONTROL 컬렉션 만들기]**.
+1. 다음으로 이동 **[!UICONTROL 카탈로그]** > **[!UICONTROL 컬렉션]** 및 클릭 **[!UICONTROL 컬렉션 만들기]**.
 1. 컬렉션에 사용할 이름과 설명을 입력합니다.
 1. 하나 이상의 규칙을 추가하여 컬렉션에 포함할 항목을 결정합니다. 다음 작업을 수행하십시오.
 
