@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
+source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '362'
 ht-degree: 4%
 
 ---
@@ -202,7 +202,7 @@ Some edu specific content Content
 
 **예**
 
-다음 예에서는 거래와 함께 제품 합계의 모든 합계를 USD로 사용할 수 있습니다. 여기서 합계는 $100보다 크고 $1000보다 작습니다.
+다음 예에서는 장바구니에 있는 제품의 가격 합계를 100에서 1000 사이로 계산할 수 있습니다.
 
 ```sql
 {% let sum = 0%}
