@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1738'
 ht-degree: 9%
 
 ---
@@ -68,6 +68,8 @@ ht-degree: 9%
    >
    > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄을 사용할 수도 있습니다 `_`, 점`.` 및 하이픈 `-` 자.
 
+1. 사용자 지정 또는 핵심 데이터 사용 레이블을 표면에 할당하려면 다음을 선택할 수 있습니다. **[!UICONTROL 액세스 관리]**. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md).
+
 1. 다음을 선택한 경우 **[!UICONTROL 이메일]** 채널,에 설명된 대로 설정 구성 [이 섹션](../email/email-settings.md).
 
    ![](assets/preset-email.png)
@@ -80,7 +82,7 @@ ht-degree: 9%
    >
    >푸시 알림을 전송하도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../push/push-gs.md).
 
-1. 의 경우 **[!UICONTROL SMS]** 채널,에 자세히 설명된 대로 설정 정의 [이 섹션](../sms/sms-configuration.md#message-preset-sms).
+1. 의 경우 **[!UICONTROL SMS]** 채널,에 자세히 설명된 대로 설정 정의 [이 섹션](../sms/sms-configuration.md).
 
    ![](assets/preset-sms.png)
 
@@ -88,18 +90,17 @@ ht-degree: 9%
    >
    >SMS 메시지를 보내도록 환경을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../sms/sms-configuration.md).
 
-<!--
-1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+1. 선택 **[!UICONTROL 마케팅 액션]** 이 화면을 사용하여 메시지에 동의 정책을 연결합니다. 해당 마케팅 활동과 연관된 모든 동의 정책은 고객의 선호도를 존중하기 위해 활용됩니다. [자세히 알아보기](../action/consent.md#surface-marketing-actions)
 
-    >[!NOTE]
-    >
-    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+   >[!NOTE]
+   >
+   >동의 정책은 현재 를 구입한 조직에서만 사용할 수 있습니다. **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
 
-    ![](assets/surface-marketing-action.png)
+   ![](assets/surface-marketing-action.png)
 
-    >[!NOTE]
-    >
-    >You can only select one marketing action.-->
+   >[!NOTE]
+   >
+   >마케팅 액션은 하나만 선택할 수 있습니다.
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]** 확인할 수 있습니다. 채널 서피스를 구배로 저장하고 나중에 구성을 재개할 수도 있습니다.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 디자인, 캔버스, 여정, 인터페이스, 드래그, 놓기
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1644'
 ht-degree: 5%
 
 ---
@@ -59,7 +59,7 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 ![](assets/journey59bis.png)
 
-여정의 상태에 따라 오른쪽 상단 모서리에 있는 단추를 사용하여 여정에서 다양한 작업을 수행할 수 있습니다. **[!UICONTROL 게시]**, **[!UICONTROL 복제]**, **[!UICONTROL 삭제]**, **[!UICONTROL 여정 속성]**, **[!UICONTROL 테스트]**. 이 단추는 활동을 선택하지 않은 경우에 나타납니다. 일부 단추가 컨텍스트에 따라 나타납니다. 테스트 모드가 활성화되면 테스트 모드 로그 버튼이 표시됩니다.
+여정의 상태에 따라 오른쪽 상단 모서리에 있는 단추를 사용하여 여정에서 다양한 작업을 수행할 수 있습니다. **[!UICONTROL 게시]**, **[!UICONTROL 복제]**, **[!UICONTROL 삭제]**, **[!UICONTROL 테스트 모드]**, **[!UICONTROL 액세스 관리]**, **[!UICONTROL 경고]**. 이 단추는 활동을 선택하지 않은 경우에 나타납니다. 일부 단추가 컨텍스트에 따라 나타납니다. 테스트 모드가 활성화되면 테스트 모드 로그 버튼이 표시됩니다.
 
 ![](assets/journey41.png)
 

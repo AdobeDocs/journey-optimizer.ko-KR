@@ -9,7 +9,7 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
+source-git-commit: 5d214812b1d7e189fe8a964f445545916d00c0a4
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 0%
@@ -287,6 +287,28 @@ ht-degree: 0%
 +++
 
 ## 채널 구성 리소스 {#administration-permissions}
+
+<!--
+* **[!DNL Manage Experience decisions]** high-level permission allows users to read, create, edit, and delete Experience decisioning entities.
+
+  +++ It includes the following low-level permissions:  
+
+  * Experience decisions specific:
+    * ranking_strategy.read
+    * offeritem.read
+    * offeritem.write
+    * offeritem.delete
+    * itemCollection.read
+    * itemCollection.write
+    * itemCollection.delete
+    * SelectionStrategy.read
+    * SelectionStrategy.write
+    * SelectionStrategy.delete
+    * Decisionpolicy.read
+    * Decisionpolicy.write
+    * Decisionpolicy.delete
+  +++
+-->
 
 * **[!DNL Manage file routing]** 높은 수준의 사용 권한을 사용하면 파일 라우팅 구성을 만들고, 편집하고, 삭제할 수 있습니다.
 

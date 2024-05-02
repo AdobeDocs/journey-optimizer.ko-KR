@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 11%
+source-wordcount: '2415'
+ht-degree: 10%
 
 ---
 
@@ -42,10 +42,10 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="이메일 범주 정의"
+>title="이메일 유형 정의"
 >abstract="이 표면 사용 시 전송할 이메일 유형 선택. 사용자 동의가 필요한 프로모션 이메일을 위한 마케팅 또는 특정 컨텍스트에서 구독 해지 프로필로 전송할 수도 있는 비상업적 이메일을 위한 트랜잭션."
 
-다음에서 **이메일 유형** 섹션에서 서피스로 보낼 메시지 유형을 선택합니다. **[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**.
+다음에서 **이메일 유형** 섹션에서 서피스에 대한 메시지 유형을 선택합니다. **[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**.
 
 * 선택 **마케팅** 소매점의 주별 프로모션과 같은 프로모션 이메일의 경우. 이러한 메시지에는 사용자의 동의가 필요합니다.
 
@@ -53,47 +53,45 @@ ht-degree: 11%
 
 메시지를 만들 때 이메일에 대해 선택한 범주와 일치하는 유효한 채널 표면을 선택해야 합니다.
 
-## 하위 도메인 및 IP 풀 {#subdomains-and-ip-pools}
+## 하위 도메인 {#subdomains}
 
-다음에서 **하위 도메인 및 IP 풀** 섹션에 아래 지시대로 필수 필드를 입력합니다.
+이메일을 보내는 데 사용할 하위 도메인을 선택합니다.
 
-1. 이메일을 보내는 데 사용할 하위 도메인을 선택합니다.
-
-   도메인의 평판을 유지하려면 IP 준비 프로세스를 가속화하고 게재 능력을 향상시키려면 보내는 하위 도메인을 Adobe에 위임하십시오. [자세히 알아보기](../configuration/about-subdomain-delegation.md)
+도메인의 평판을 유지하려면 IP 준비 프로세스를 가속화하고 게재 능력을 향상시키려면 보내는 하위 도메인을 Adobe에 위임하십시오. [자세히 알아보기](../configuration/about-subdomain-delegation.md)
 
 <!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
-1. 표면과 연결할 IP 풀을 선택합니다. [자세히 알아보기](../configuration/ip-pools.md)
 
-   ![](assets/preset-subdomain-ip-pool.png)
+## IP 풀 세부 정보 {#ip-pools}
 
-   선택한 IP 풀이 아래에 있는 동안에는 표면 생성을 계속할 수 없습니다. [에디션](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 처리 중]** 상태) 및 은(는) 선택한 하위 도메인과 연결된 적이 없습니다. 그렇지 않으면 가장 오래된 버전의 IP 풀/하위 도메인 연결이 계속 사용됩니다. 이 경우 표면을 초안으로 저장하고 IP 풀에 가 있으면 다시 시도하십시오. **[!UICONTROL 성공]** 상태.
 
-   >[!NOTE]
-   >
-   >비프로덕션 환경의 경우, Adobe은 기본 제공 테스트 하위 도메인을 만들거나 공유 전송 IP 풀에 대한 액세스 권한을 부여하지 않습니다. 다음을 수행해야 합니다. [자신의 하위 도메인 위임](../configuration/delegate-subdomain.md) 및 조직에 할당된 풀의 IP를 사용합니다.
+표면과 연결할 IP 풀을 선택합니다. [자세히 알아보기](../configuration/ip-pools.md)
 
-1. IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소 위로 마우스를 가져가면 PTR 정보가 표시됩니다. [PTR 레코드에 대한 자세한 정보](../configuration/ptr-records.md)
+![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
 
-   ![](assets/email-surface-ptr-record.png)
+선택한 IP 풀이 아래에 있는 동안에는 표면 생성을 계속할 수 없습니다. [에디션](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 처리 중]** 상태) 및 은(는) 선택한 하위 도메인과 연결된 적이 없습니다. 그렇지 않으면 가장 오래된 버전의 IP 풀/하위 도메인 연결이 계속 사용됩니다. 이 경우 표면을 초안으로 저장하고 IP 풀에 가 있으면 다시 시도하십시오. **[!UICONTROL 성공]** 상태.
 
-   >[!NOTE]
-   >
-   >PTR 기록이 구성되지 않은 경우 Adobe 담당자에게 문의하십시오.
+>[!NOTE]
+>
+>비프로덕션 환경의 경우, Adobe은 기본 제공 테스트 하위 도메인을 만들거나 공유 전송 IP 풀에 대한 액세스 권한을 부여하지 않습니다. 다음을 수행해야 합니다. [자신의 하위 도메인 위임](../configuration/delegate-subdomain.md) 및 조직에 할당된 풀의 IP를 사용합니다.
 
-## 목록-구독 취소 {#list-unsubscribe}
+IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소 위로 마우스를 가져가면 PTR 정보가 표시됩니다. [PTR 레코드에 대한 자세한 정보](../configuration/ptr-records.md)
+
+>[!NOTE]
+>
+>PTR 기록이 구성되지 않은 경우 Adobe 담당자에게 문의하십시오.
+
+## 목록 구독 취소 {#list-unsubscribe}
 
 다음 일자에 [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTROL 목록 구독 취소 활성화]** 옵션이 표시됩니다.
 
-![](assets/preset-list-unsubscribe.png)
-
-이 옵션은 기본적으로 활성화되어 있습니다.
-
-구독 취소 링크를 활성화하면 다음과 같이 이메일 헤더에 자동으로 포함됩니다.
+이 옵션은 기본적으로 활성화되어 있습니다. 구독 취소 링크를 활성화하면 다음과 같이 이메일 헤더에 자동으로 포함됩니다.
 
 ![](assets/preset-list-unsubscribe-header.png)
 
 이 옵션을 비활성화하면 이메일 헤더에 구독 취소 링크가 표시되지 않습니다.
+
+다음에서 동의 수준을 선택할 수 있습니다. **동의 수준** 드롭다운 목록입니다. 채널 또는 프로필 ID에만 해당될 수 있습니다. 이 설정을 기반으로 사용자가 이메일의 목록 구독 취소 헤더 링크를 사용하여 구독을 취소하면 Adobe Journey Optimizer에서 채널 수준 또는 ID 수준에서 동의가 업데이트됩니다.
 
 구독 취소 링크는 다음 두 가지 요소로 구성됩니다.
 
@@ -101,7 +99,7 @@ ht-degree: 11%
 
   위치 [!DNL Journey Optimizer], 구독 취소 이메일 주소가 기본값입니다 **[!UICONTROL Mailto(구독 취소)]** 를 기반으로 하여 채널 표면에 표시되는 주소 [선택한 하위 도메인](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
 
 * 다음 **구독 취소 URL**: 사용자가 가입 해지되면 리디렉션되는 랜딩 페이지의 URL입니다.
 
@@ -124,13 +122,9 @@ ht-degree: 11%
 다음에서 **[!UICONTROL 헤더 매개 변수]** 섹션에는 해당 표면을 사용하여 보낸 이메일 유형과 연관된 발신자 이름 및 이메일 주소를 입력합니다.
 
 * **[!UICONTROL 보낸 사람 이름]**: 보낸 사람의 이름(예: 브랜드 이름)
-
 * **[!UICONTROL 보낸 사람 이메일]**: 커뮤니케이션에 사용할 이메일 주소입니다.
-
 * **[!UICONTROL (이름)에게 회신]**: 수신자가 를 클릭할 때 사용할 이름 **답변** 이메일 클라이언트 소프트웨어의 버튼입니다.
-
 * **[!UICONTROL 회신 대상(이메일)]**: 수신자가 을(를) 클릭할 때 사용할 이메일 주소 **답변** 이메일 클라이언트 소프트웨어의 버튼입니다. [자세히 알아보기](#reply-to-email)
-
 * **[!UICONTROL 오류 이메일]**: 메일이 게재된 후 며칠(비동기 바운스) ISP에서 생성한 모든 오류가 이 주소에서 수신됩니다. 부재 중 알림 및 문제 응답도 이 주소로 수신됩니다.
 
   Adobe에게 위임되지 않은 특정 이메일 주소에 대한 부재 중 알림 및 질문 응답을 수신하려면 [전진 프로세스](#forward-email). 이 경우 이 받은 편지함에 도착하는 이메일을 처리할 수동 또는 자동화된 솔루션이 있는지 확인하십시오.

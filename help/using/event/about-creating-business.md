@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 여정, 비즈니스, 구성
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 13%
+source-wordcount: '1126'
+ht-degree: 12%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
+   >영숫자와 밑줄만 허용됩니다. 최대 길이는 30자입니다.
 
 1. 다음에서 **[!UICONTROL 유형]** 필드, 선택 **비즈니스**.
 

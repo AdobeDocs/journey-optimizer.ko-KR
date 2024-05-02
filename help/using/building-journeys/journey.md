@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 100%
@@ -96,8 +96,6 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
    >최신 버전의 여정에서만 새 버전을 만들 수 있습니다.
 
 1. 수정하고 **[!UICONTROL 게시]**&#x200B;를 클릭한 후 확인합니다.
-
-   ![](assets/journeyversions3.png)
 
 여정이 게시되는 순간부터 개인 사용자는 최신 버전의 여정으로 유입되기 시작합니다. 이미 이전 버전으로 진입한 사람은 여정이 완료될 때까지 해당 버전을 유지합니다. 나중에 동일한 여정으로 다시 진입하면 최신 버전으로 이동합니다.
 

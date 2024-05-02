@@ -5,10 +5,8 @@ title: 새 여정 인터페이스
 feature: Release Notes
 topic: Content Management
 description: 새 여정 인터페이스
-hide: true
-hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: b6b3f710d08fb7f0949e75521ce126fa43d6cdc5
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 2%
@@ -68,12 +66,12 @@ ht-degree: 2%
 
 ![](assets/new-canvas5.png)
 
-
 ## 여정 캔버스에서 라이브 보고
 
 향상된 여정 캔버스 레이아웃 외에도 사용자가 다음에서 실시간 보고 지표를 볼 수 있는 새로운 기능이 도입되었습니다 **지난 24시간**&#x200B;라이브 보고라고 하며 여정 캔버스 내에서 바로 사용됩니다.
 
 새 모델을 사용하는 모든 라이브 여정 내의 각 활동에 대해 다음에 액세스할 수 있습니다.
+
 
 * 이 활동에 들어가는 프로필 수입니다.
 * 오류로 인해 이 활동을 종료하는 프로필 수입니다.

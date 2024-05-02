@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 도우미, 사용 사례, 개인화
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 02fc8825f61bd365b02788bbcd3e0647f5842bfa
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1038'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 2%
 1. 스키마에 가 포함된 이벤트 만들기 `productListItems` 배열입니다.
 1. 이 배열의 모든 필드를 이 이벤트의 페이로드 필드로 정의합니다.
 
-   제품 목록 항목 데이터 유형에 대해 자세히 알아보기 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
+   에서 제품 목록 항목 데이터 유형에 대해 자세히 알아봅니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. 이 이벤트로 시작하는 여정을 만듭니다.
 1. 추가 **이메일** 활동을 여정에 추가합니다.

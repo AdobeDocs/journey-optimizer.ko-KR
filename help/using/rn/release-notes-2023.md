@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '4398'
 ht-degree: 100%
@@ -213,9 +213,9 @@ ht-degree: 100%
 
 **SMS 채널**
 
-* 두 개의 새 필드인 **옵트인 메시지** 및 **도움말 메시지**&#x200B;가 API 구성 화면에 추가되어 사용자가 인바운드 키워드에 대한 응답을 사용자 지정할 수 있습니다. Sinch SMS 공급자만 사용할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md#create-api)
+* 두 개의 새 필드인 **옵트인 메시지** 및 **도움말 메시지**&#x200B;가 API 구성 화면에 추가되어 사용자가 인바운드 키워드에 대한 응답을 사용자 지정할 수 있습니다. Sinch SMS 공급자만 사용할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md)
 
-* SMS 옵트아웃은 더 이상 채널 수준에서 관리되지 않습니다. 이제는 번호별로 지정됩니다. 즉, 일부 프로필이 지정된 번호나 짧은 코드에서 옵트아웃해도 SMS 메시지를 보내는 데 사용할 수 있는 다른 번호에서 메시지를 보낼 수 있습니다. 새 옵션을 사용하면 특정 표면에 사용할 **옵트아웃 번호**&#x200B;를 선택할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md#message-preset-sms)
+* SMS 옵트아웃은 더 이상 채널 수준에서 관리되지 않습니다. 이제는 번호별로 지정됩니다. 즉, 일부 프로필이 지정된 번호나 짧은 코드에서 옵트아웃해도 SMS 메시지를 보내는 데 사용할 수 있는 다른 번호에서 메시지를 보낼 수 있습니다. 새 옵션을 사용하면 특정 표면에 사용할 **옵트아웃 번호**&#x200B;를 선택할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md)
 
 **DM 채널**
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '940'
 ht-degree: 10%
 
 ---
@@ -126,8 +126,6 @@ SMS 콘텐츠를 구성하려면 아래 단계를 따르십시오. MMS 설정에
 MMS(멀티미디어 메시지 서비스) 메시지를 전송하여 비디오, 사진, 오디오 클립 및 GIF 등의 미디어를 공유할 수 있도록 함으로써 커뮤니케이션을 향상시킬 수 있습니다. 또한 MMS를 통해 메시지에 최대 1600자의 텍스트를 입력할 수 있습니다.
 
 >[!NOTE]
->
->* 이 기능은 현재 다음에서 사용할 수 있습니다. **Sinch** 만 해당.
 >
 >* MMS 채널에는 다음과 같은 몇 가지 제한 사항이 있습니다. [이 페이지](../start/guardrails.md#sms-guardrails).
 

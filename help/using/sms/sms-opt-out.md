@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '467'
 ht-degree: 19%
 
 ---
@@ -59,14 +59,6 @@ Adobe Journey Optimizer에서 옵트아웃 상태(Twilio, Infoip 또는 Sinch와
 영문과 숫자로 구성된 발신자 ID는 단방향 통신 전용이며 인바운드 메시지를 받을 수 없습니다. 따라서 Adobe Journey Optimizer의 SMS STOP, START, HELP 키워드는 Alpha 발신자 ID에 적용할 수 없습니다. 사용자가 영문과 숫자로 구성된 발신자 ID를 통해 발송된 메시지를 거부할 수 있도록 지원 팀에 문의하거나, 지원 팀에 전화하거나, 다른 전화 번호 또는 코드를 문자로 보내는 등의 다른 지침을 제공해야 합니다.
 
 ## 비디오 {#video-sms}
-
-* 아래 비디오에서는 SMS에 대한 기본 인바운드 키워드 지원(START, STOP 및 UNSTOP)이 작동하는 방식을 보여 줍니다.
-
-+++ 비디오 보기
-
-  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
-
-+++
 
 * 아래 비디오에서는 SMS에 대한 이중 옵트인을 구성하는 방법을 알아봅니다.
 

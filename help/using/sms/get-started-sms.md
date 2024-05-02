@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -26,10 +26,6 @@ ht-degree: 100%
 * **캠페인**&#x200B;에서 만들기. 캠페인을 만들고 작업으로 SMS를 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 보낼 SMS/MMS 메시지를 정의합니다. [이 페이지](../campaigns/create-campaign.md#configure)에서 캠페인을 만드는 방법을 알아봅니다.
 
 Adobe Journey Optimizer는 SMS 서비스 공급자(또는 SMS 게이트웨이 공급자)를 통해 텍스트 메시지를 보냅니다. SMS/MMS 메시지를 만들기 전에 Journey Optimizer로 문자 메시지를 보낼 때 사용할 서비스 공급자를 구성해야 합니다. [자세히 알아보기](sms-configuration.md).
-
->[!IMPORTANT]
->
-> Adobe Journey Optimizer로 MMS(멀티미디어 메시지 서비스)를 보내는 작업은 **Sinch** 통합 시에만 지원됩니다.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

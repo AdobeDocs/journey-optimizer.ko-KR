@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 프로필, 업데이트, 여정, 활동
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 ## 추천 항목
 
-* 다음 **프로필 업데이트** 작업은 네임스페이스가 있는 이벤트로 시작하는 여정에서만 사용할 수 있습니다.
+* 다음 **프로필 업데이트** 작업은 네임스페이스가 있는 여정에서만 사용할 수 있습니다.
 * 작업은 기존 필드만 업데이트하며 새 프로필 필드는 만들지 않습니다.
 * 를 사용할 수 없습니다. **프로필 업데이트** 경험 이벤트를 생성하는 액션(예: 구매).
 * 다른 작업과 마찬가지로 오류나 시간 초과 시 대체 경로를 정의할 수 있으며 두 작업을 동시에 배치할 수는 없습니다.

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1177'
 ht-degree: 17%
 
 ---
@@ -104,6 +104,10 @@ ht-degree: 17%
 >title="전송된 시간 최적화 정보"
 >abstract="Adobe의 AI 서비스에서 제공하는 Adobe Journey Optimizer의 전송 시간 최적화 기능은 기록 열기와 클릭률을 기반으로 이메일 또는 푸시 메시지를 전송하는 최적의 시간을 예측하여 참여도를 극대화할 수 있습니다."
 
+>[!NOTE]
+>
+>이 기능은 기본적으로 활성화되어 있지 않습니다. Adobe 담당자에게 연락하여 활성화할 수 있습니다.
+
 ### 전송 시간 최적화 정보 {#about-send-time}
 
 Adobe의 AI 서비스를 기반으로 하는 Adobe Journey Optimizer의 전송 시간 최적화 기능을 사용하면 이메일 또는 푸시 메시지를 보내는 가장 적합한 시간을 예측하여 과거의 열기 및 클릭률을 기반으로 참여를 극대화할 수 있습니다. 머신 러닝 모델을 사용하여 각 사용자에 대해 개인화된 전송 시간을 예약하여 메시지 열람률과 클릭률을 높일 수 있습니다.
@@ -120,10 +124,6 @@ Adobe의 AI 서비스를 기반으로 하는 Adobe Journey Optimizer의 전송 �
 * 채점 - 훈련된 모델을 기반으로 개별 프로필에 점수 적용
 
 이 정보는 사용자의 프로필과 함께 저장되며 여정 실행 시 참조되어 Adobe Journey Optimizer에 메시지를 보낼 시기를 알립니다.
-
->[!CAUTION]
->
->이 기능은 버스트 모드와 호환되지 않습니다.
 
 ### 자주 묻는 질문 {#faq-send-time}
 

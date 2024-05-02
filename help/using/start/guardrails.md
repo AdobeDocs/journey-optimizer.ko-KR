@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
-workflow-type: ht
-source-wordcount: '2029'
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
+source-wordcount: '2022'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ## SMS 가드레일 {#sms-guardrails}
 
-* MMS 기능은 Sinch에서만 사용할 수 있습니다.
 * 지원 URL을 통해 MMS에 넣을 미디어 파일을 포함할 수 있습니다. 미디어 파일이 별도로 업로드되는지 확인해야 합니다.
 * 현재 MMS에는 메시지 피드백 동기화를 사용할 수 없습니다.
 * MMS에 대한 동의 관리는 SMS 채널 수준에서 작동합니다.

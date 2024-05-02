@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2004'
 ht-degree: 16%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 16%
 
 에서 상태, 유형, 버전 및 할당된 태그에 따라 여정 필터링 **[!UICONTROL 상태 및 버전 필터]**.
 
-유형은 다음과 같습니다. **[!UICONTROL 단일 이벤트]**, **[!UICONTROL 대상 자격 조건]**, **[!UICONTROL 대상자 읽기]**, **[!UICONTROL 비즈니스 이벤트]** 또는 **[!UICONTROL 버스트]**.
+유형은 다음과 같습니다. **[!UICONTROL 단일 이벤트]**, **[!UICONTROL 대상 자격 조건]**, **[!UICONTROL 대상자 읽기]** 또는 **[!UICONTROL 비즈니스 이벤트]**.
 
 상태는 다음과 같을 수 있습니다.
 

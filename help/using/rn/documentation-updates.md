@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
-workflow-type: ht
-source-wordcount: '5140'
-ht-degree: 100%
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
+source-wordcount: '5230'
+ht-degree: 98%
 
 ---
 
@@ -19,12 +19,21 @@ ht-degree: 100%
 
 이 페이지에는 [!DNL Journey Optimizer] 설명서 최신 업데이트 내용이 모두 포함되어 있습니다.
 
+## 2024년 5월 {#may-2024}
+
+* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2024년 4월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+
+
 ## 2024년 4월 {#april-2024}
 
 * 인앱 메시지를 구성하는 단계가 자세히 설명되어 있습니다. [자세히 보기](../in-app/inapp-configuration.md)
 * [Offer Decisioning API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 및 [Batch decisioning API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 설명서가 업데이트되었습니다.
 * Edge Decisioning API로 빈도 제한을 사용할 때 에지 및 허브 영역 관리에 대한 정보가 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
 * API 트리거 캠페인을 사용할 때 사용자 지정 네임스페이스로 ID를 만드는 방법에 대한 정보를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md)
+* 향상된 여정 캔버스를 반영하도록 스크린샷이 업데이트되었습니다.
+* 다음 페이지에서 이름 지정 제한이 업데이트되었습니다. [단일 이벤트 구성](../event/about-creating.md), [비즈니스 이벤트 구성](../event/about-creating-business.md#gs-business-events), [사용자 지정 작업 구성](../action/about-custom-action-configuration.md#configuration-steps), [외부 데이터 소스](../datasource/external-data-sources.md)
+* 전송 시간 최적화 가용성에 대한 메모를 추가했습니다. [자세히 보기](../building-journeys/journeys-message.md#send-time-optimization)
+* Experience Platform에 데이터를 보내기 위한 사용자 지정 작업을 만드는 방법에 대한 새로운 기술 사용 사례가 추가되었습니다. [자세히 보기](../building-journeys/custom-action-aep.md)
 
 ## 2024년 3월 {#march-2024}
 
@@ -82,6 +91,7 @@ ht-degree: 100%
 * 이벤트 필드 구문이 업데이트되었습니다. 다음 구문은 사용되지 않고 `@(my_event.myfield}` `@event{my_event.myfield}`(으)로 대체되었습니다. [자세히 보기](../building-journeys/expression/field-references.md)
 * 글로벌 보고서 및 실시간 보고서 안내서가 재구성되었습니다. [자세히 보기](../reports/campaign-global-report.md)
 
++++ 2023
 
 ## 2023년 11월 {#nov-2023}
 
@@ -206,6 +216,8 @@ ht-degree: 100%
 * 오브젝트 배열을 사용한 조회 제한에 대한 메모가 추가되었습니다. [자세히 보기](../event/experience-event-schema.md#relationships_limitations)
 * [!DNL Journey Optimizer]에 데이터 관리에 대한 새 페이지를 추가했습니다. [자세히 보기](../data/gs-data.md)
 * Decisioning API를 사용하여 오퍼를 전달할 때 응답에서 반환할 수 있는 모든 코드를 나열하는 표를 추가했습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++
 
 +++ 2022
 

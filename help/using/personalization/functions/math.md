@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '243'
 ht-degree: 6%
 
 ---
@@ -95,6 +95,24 @@ ht-degree: 6%
 
 ```sql
 {%= toHexString(158) %}
+```
+
+## 끝 정수 {#to-int}
+
+다음 `toInt` 함수는 이러한 유형(숫자, 더블, int, long, float, short, 바이트, 부울, 문자열) 중 하나를 정수로 변환하는 데 사용됩니다.
+
+**구문**
+
+```sql
+{%= toInt(<valueToConvert>) %}: integer
+```
+
+**예**
+
+이 쿼리는 42,6의 정수 값, 즉 42를 반환합니다.
+
+```sql
+{%= toInt(42.6) %}: integer
 ```
 
 ## 백분율로 변환 {#to-percentage}

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 이동, 활동, 여정, 분할, 분할
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 9%
+source-wordcount: '842'
+ht-degree: 10%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 9%
 
 ## 문제 해결
 
-여정이 게시되거나 테스트 모드에 있는 경우 다음과 같은 경우 오류가 발생합니다.
+다음과 같은 경우 오류가 발생합니다.
 * 대상 여정이 더 이상 존재하지 않음
 * 대상 여정이 초안, 마감 또는 정지됨
 * 대상 여정의 첫 번째 이벤트가 변경되고 매핑이 끊어진 경우

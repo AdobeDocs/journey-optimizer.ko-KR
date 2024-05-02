@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 22%
+source-wordcount: '1450'
+ht-degree: 21%
 
 ---
 
@@ -74,7 +74,7 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
 
    >[!NOTE]
    >
-   >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
+   >영숫자와 밑줄만 허용됩니다. 최대 길이는 30자입니다.
 
 1. 작업에 설명을 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
 1. 이 작업을 사용하는 여정 수는 **[!UICONTROL 다음에서 사용됨]** 필드. 다음을 클릭할 수 있습니다 **[!UICONTROL 여정 보기]** 단추를 클릭하여 이 작업을 사용하는 여정 목록을 표시합니다.

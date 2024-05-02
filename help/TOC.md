@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 99%
+source-wordcount: '1786'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
    + [초기 릴리스 정보](using/rn/early-release-notes.md)
    + [최신 릴리스 정보](using/rn/release-notes.md)
    + 이전 릴리스 정보 {#previous-rn-new}
+      + [2024 릴리스 정보](using/rn/release-notes-2024.md)
       + [2023년 릴리스 정보](using/rn/release-notes-2023.md)
       + [2022년 릴리스 정보](using/rn/release-notes-2022.md)
       + [2021년 릴리스 정보](using/rn/release-notes-2021.md)
@@ -165,6 +166,7 @@ ht-degree: 99%
          + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
          + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
          + [외부 데이터 원본 및 사용자 지정 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
+         + [사용자 지정 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 캠페인{#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)
@@ -224,12 +226,16 @@ ht-degree: 99%
       + [모바일 온보딩 빠른 시작 워크플로우](using/push/mobile-onboarding-wf.md)
 + SMS / MMS 채널{#sms}
    + [텍스트 메시지 시작](using/sms/get-started-sms.md)
-   + [텍스트 메시지 만들기](using/sms/create-sms.md)
-   + [MMS 메시지 만들기 ](using/sms/create-mms.md)
+   + [문자 메시지(SMS/MMS) 만들기](using/sms/create-sms.md)
    + [텍스트 메시지 확인하고 보내기](using/sms/send-sms.md)
    + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
-   + [SMS 채널 구성](using/sms/sms-configuration.md)
    + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
+   + SMS/MMS 채널 구성{#configure-sms}
+      + [SMS 구성 시작](using/sms/sms-configuration.md)
+      + [Sinch 공급자 구성](using/sms/sms-configuration-sinch.md)
+      + [Infobip 공급자 구성](using/sms/sms-configuration-infobip.md)
+      + [Twilio 공급자 구성](using/sms/sms-configuration-twilio.md)
+      + [SMS 표면 만들기](using/sms/sms-configuration-surface.md)
 + 다이렉트 메일 {#direct-mail}
    + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)
    + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)

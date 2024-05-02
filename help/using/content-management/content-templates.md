@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1411'
 ht-degree: 10%
 
 ---
@@ -197,10 +197,6 @@ API를 사용하여 콘텐츠 템플릿을 만들고 관리할 수도 있습니�
 ## 이메일 콘텐츠 템플릿 테스트 {#test-template}
 
 처음부터 만들거나 기존 콘텐츠에서 만든 일부 이메일 템플릿의 렌더링을 테스트할 수 있습니다. 그 방법은 다음과 같습니다.
-
->[!CAUTION]
->
->현재 테스트 콘텐츠 템플릿은에 대해서만 사용할 수 있습니다. **[!UICONTROL 이메일]** 를 포함하는 템플릿 **[!UICONTROL HTML]** 유형.
 
 1. 다음을 통해 콘텐츠 템플릿 목록에 액세스 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 콘텐츠 템플릿]** 을(를) 메뉴에서 선택하고 이메일 템플릿을 선택합니다.
 

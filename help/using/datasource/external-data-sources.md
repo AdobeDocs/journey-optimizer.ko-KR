@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 64%
+source-wordcount: '1531'
+ht-degree: 62%
 
 ---
 
@@ -58,7 +58,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
    >[!NOTE]
    >
-   >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
+   >영숫자와 밑줄만 허용됩니다. 최대 길이는 30자입니다.
 
 1. 원하는 경우 데이터 소스에 이벤트에 설명을 추가합니다.
 1. 외부 서비스의 URL을 추가합니다. 이 예제에서는 _https://api.adobeweather.org/weather_&#x200B;를 추가합니다.
@@ -86,7 +86,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
    ![](assets/journey28.png)
 
-1. 를 클릭하여 각 API 매개 변수 세트에 대한 새 필드 그룹을 추가합니다. **[!UICONTROL 새 필드 그룹 추가]**. 필드 그룹 이름에는 공백이나 특수 문자를 사용하지 마십시오. 이 예제에서는 각 매개 변수 세트(city, long/lat)용으로 하나씩 두 개의 필드 그룹을 만들어야 합니다.
+1. 를 클릭하여 각 API 매개 변수 세트에 대한 새 필드 그룹을 추가합니다. **[!UICONTROL 새 필드 그룹 추가]**. 필드 그룹 이름에는 영숫자와 밑줄만 허용됩니다. 최대 길이는 30자입니다. 이 예제에서는 각 매개 변수 세트(city, long/lat)용으로 하나씩 두 개의 필드 그룹을 만들어야 합니다.
 
 &quot;long/lat&quot; 매개 변수 세트의 경우 다음 정보를 사용하여 필드 그룹을 만듭니다.
 

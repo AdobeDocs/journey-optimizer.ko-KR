@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 6%
@@ -132,7 +132,7 @@ ht-degree: 6%
 
 | 기능 | 권한 |
 |-|-|
-| 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL View decisions]**: 의사 결정 엔티티에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li><li>**[!DNL Publish decisions]**: 의사 결정 활동을 활성화하거나 비활성화합니다.</li></ul> |
+| 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL View decisions]**: 의사 결정 엔티티에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li><li>**[!DNL Publish decisions]**: 의사 결정 활동을 활성화하거나 비활성화합니다.</li><!--li>**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</li--></ul> |
 
 ## [!DNL Content Library Manager] {#content-library-manager}
 

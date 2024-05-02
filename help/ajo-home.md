@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 88%
 
 ---
 
@@ -20,27 +20,27 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB 3월 릴리스가 공개되었습니다!]
+>[!TAB 4월 릴리스 예정일]
 
 Adobe Journey Optimizer 24.3 릴리스의 새로운 기능과 향상된 기능을 살펴보십시오.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 코드 기반 경험]
+>[!TAB 새로운 여정 경험]
 
-새로운 [코드 기반 경험] 채널로 Adobe Journey Optimizer에서 원하는 인바운드 속성에 대해 고급 개인화 및 테스트를 수행할 수 있으므로 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV에 연결된 디바이스, 스마트 TV, 키오스크, ATM, IoT 디바이스 등과 같은 다양한 접점에서 맞춤형 경험을 원활하게 전달할 수 있습니다.
+이 릴리스는 여정을 위한 향상된 캔버스 사용자 인터페이스와 함께 제공되며 보다 직관적이고 효율적인 사용자 경험을 제공합니다. 활동은 더 적은 클릭 수로 여정 캔버스에 더 명확하고 많은 정보를 제공합니다.
 
-![](using/rn/assets/do-not-localize/code-based.gif)
+![](using/rn/assets/new-canvas3.gif)
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
 
->[!TAB 웹 인앱 메시지]
+>[!TAB 모든 공급자에 대한 MMS]
 
-이제 새로운 웹 인앱 메시지 기능을 사용하면 모달 오버레이 메시지를 통해 웹 사이트에 직접 개인화된 콘텐츠를 표시할 수 있습니다. 이 기능을 사용하면 웹 방문자와 효과적으로 상호 작용하여 사용자 상호 작용, 보존 및 전환율을 향상할 수 있습니다.
+이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 처음에는 Sinch에서만 사용할 수 있으며, MMS는 이제 Infobip 및 Twilio에서도 사용할 수 있습니다.
 
-![](using/rn/assets/do-not-localize/web_inapp.gif)
+![](using/rn/assets/do-not-localize/mms.gif)
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/sms/get-started-sms.md)
 
 >[!ENDTABS]
 

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1872'
 ht-degree: 2%
 
 ---
@@ -171,6 +171,9 @@ ht-degree: 2%
     </tr>
     <tr>
     <td><a href="math.md#to-hex-string">16진수 문자열로 변환</a></td><td>는 임의의 숫자를 16진수 문자열로 변환합니다.</td>
+    </tr>
+    <tr>
+    <td><a href="math.md#to-int">대상 정수</a></td><td>이러한 유형(숫자, 더블, int, long, float, short, 바이트, 부울, 문자열) 중 하나를 정수로 변환합니다.</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">백분율로 변환</a></td><td>이 함수는 숫자를 백분율로 변환합니다.</td>

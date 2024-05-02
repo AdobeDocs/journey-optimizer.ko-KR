@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1536'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 테스트 모드를 사용하려면 다음 단계를 수행하십시오.
 
-1. 테스트 모드를 활성화하려면 **[!UICONTROL 테스트]** 오른쪽 상단 모서리에 있는 toggle.
+1. 테스트 모드를 활성화하려면 **[!UICONTROL 테스트 모드]** 오른쪽 상단 모서리에 있는 단추입니다.
 
    ![](assets/journeytest1.png)
 

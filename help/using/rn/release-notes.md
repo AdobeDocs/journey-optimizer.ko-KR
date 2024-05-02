@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 52%
 
 ---
 
@@ -26,217 +26,190 @@ ht-degree: 100%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
-## 2024년 3월 릴리스 정보 {#mar-2024}
+## 2024년 4월 릴리스 정보 {#apr-2024}
 
-**릴리스 날짜**: 2024년 3월 19~20일
+**릴리스 날짜**: 2024년 5월 2일
 
-### 새로운 기능 {#mar-features}
+### 새로운 기능 {#apr-features}
 
-이번 릴리스에서 제공하는 새로운 기능을 아래에서 자세히 설명합니다.
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>코드 기반 경험</strong><br/></th>
+<th><strong>Business rules - Private Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>새로운 [코드 기반 경험] 채널로 Adobe Journey Optimizer에서 원하는 인바운드 속성에 대해 고급 개인화 및 테스트를 수행할 수 있으므로 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV에 연결된 디바이스, 스마트 TV, 키오스크, ATM, IoT 디바이스 등과 같은 다양한 접점에서 맞춤형 경험을 원활하게 전달할 수 있습니다.</p>
-<P>주요 기능은 다음을 포함합니다.</p>
-<ul><li> 범용 개인화: 개인화된 경험을 모든 접점으로 확장하여 통합적이고 맞춤화된 사용자 여정을 보장합니다.</li>
-<li>세분화된 편집 정밀도: 앱 또는 웹 페이지 내의 개별 위치에서 있는 특정 콘텐츠를 편집할 수 있습니다.</li>
-<li>다목적 구현: 개발 환경과 원활하게 통합할 수 있도록 서버측, API 기반 또는 SDK 기반 구현 방법을 지원합니다.</li></ul></p>
-<p>자세한 내용은 <a href="../code-based/get-started-code-based.md">자세한 설명서</a>를 참조하세요.</p>
-<img src="assets/do-not-localize/code-based.gif"> 
+<p>It is now possible to create and apply rule sets to your marketing communications.  </p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Experience Decisioning - Limited Availability</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Experience Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual.</p>
+<p>These decision items are seamlessly integrated into a wide range of inbound surfaces through the new code-based experience channel, now accessible within Journey Optimizer campaigns. Experience Decisioning decision policies are available for use in code-based experience campaigns only.</p>
+<p>Experience Decisioning is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Personalization - Local Lookups - Multi-Entity Support - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>TBD</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+이번 릴리스에는 아래에 있는 새로운 기능이 제공됩니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>MMS(멀티미디어 메시지 서비스) - 모든 공급자</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 처음에는 Sinch에서만 사용할 수 있으며, MMS는 이제 Infobip 및 Twilio에서도 사용할 수 있습니다.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+</td>
 </tr>
 </tbody>
 </table>
 
-### 개선 사항 {#mar-improvements}
+<table>
+<thead>
+<tr>
+<th><strong>향상된 여정 디자이너 및 라이브 보고</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이 릴리스는 여정을 위한 향상된 캔버스 사용자 인터페이스와 함께 제공되며 보다 직관적이고 효율적인 사용자 경험을 제공합니다. 활동은 더 적은 클릭 수로 여정 캔버스에 더 명확하고 많은 정보를 제공합니다.</p>
+<img src="assets/new-canvas3.gif"/>
+<p>향상된 여정 캔버스 디자인과 함께 지난 24시간 보고 지표를 여정 캔버스에서 직접 볼 수 있는 기능을 도입했습니다. </p>
+<img src="assets/new-canvas6bis.png"/>
+<p><strong>참고</strong>: 이러한 변경 사항은 4월 릴리스부터 모든 환경으로 점진적으로 롤아웃됩니다.</p>
+<p>자세한 내용은 <a href="new-canvas.md">자세한 설명서</a>를 참조하세요.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>AI Assistant - Experience Variant Generation - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Once you have created and personalized your message, take your content to the next level with the AI assistant. You can now use the AI assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>IP Warmup Workflow - LA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now easily perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### 개선 사항 {#apr-improvements}
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-**콘텐츠 템플릿**
-
-* **썸네일** - 이제 콘텐츠 템플릿을 시각적 접근성을 개선하기 위해 썸네일을 표시하는 **그리드 보기** 모드로 볼 수 있습니다. 현재는 이메일 HTML 템플릿만 지원됩니다. [자세히 알아보기](../content-management/content-templates.md#template-thumbnails)
-
-  >[!AVAILABILITY]
-  >
-  >이 기능은 소규모 고객을 위해 LA(Limited Availability)에서 출시됩니다.
-
-**여정**
-
-여정 작성 라이프사이클에 새로운 중간 상태가 추가되었습니다.
-
-* **초안** 상태와 **라이브** 상태 사이의 **게시 중** 상태
-* **라이브** 상태와 **정지됨** 상태 사이의 **멈추는 중** 상태
-* **초안** 상태와 **초안(테스트)** 상태 사이의 **테스트 모드 활성화 중** 또는 **테스트 모드 비활성화 중** 
-
-여정이 중간 상태일 때는 읽기 전용입니다. [자세히 알아보기](../building-journeys/journey-gs.md#filter)
-
-## 2024년 2월 릴리스 정보 {#feb-2024}
-
-**릴리스 날짜**: 2024년 2월 21~22일
-
-### 새로운 기능{#feb-features}
-
-이번 릴리스에는 아래 목록에 있는 새로운 기능이 제공됩니다.
+<!--
+* **Experience Decisioning + Code-based experiences (LA)**: You can now leverage the Experience decisioning feature to use decision items in your code-based campaigns. Note: The Code-based experience channel and Experience decisioning are not available for organizations that have purchased the Adobe Healthcare Shield and Privacy and Security Shield add-on offerings.
+-->
+<!--
+* **Expression Fragments supported for Web and In-App**: Expression fragments are now available for the Web and In-app channels. 
+-->
 
 
-<table>
-<thead>
-<tr>
-<th><strong>웹 인앱 메시지</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 새로운 웹 인앱 메시지 기능을 사용하면 모달 오버레이 메시지를 통해 웹 사이트에 직접 개인화된 콘텐츠를 표시할 수 있습니다. 이 기능을 사용하면 웹 방문자와 효과적으로 상호 작용하여 사용자 상호 작용, 보존 및 전환율을 향상할 수 있습니다.<br/><br/></p>
-<p>자세한 내용은 <a href="../in-app/create-in-app-web.md">세부 설명서</a>를 참조하십시오.<br></br></p>
-<img src="assets/do-not-localize/web_inapp.gif">
-</tr>
-</tbody>
-</table>
+<!--
+* **DULE for AJO Channel Surface**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel surface through marketing actions.
+-->
 
 
-<table>
-<thead>
-<tr>
-<th><strong>다중 채널 콘텐츠 템플릿</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 이메일 외에도 푸시, 인앱, SMS 및 DM 채널에 콘텐츠 템플릿을 사용할 수 있습니다. 각 채널에는 전용 템플릿 유형이 있습니다. 이메일의 경우 이제 제목 줄을 이메일 템플릿의 일부로 저장할 수 있는 콘텐츠 유형을 선택할 수 있습니다. <br/><br/></p>
-<p>자세한 내용은 <a href="../content-management/content-templates.md">자세한 설명서</a>를 참조하세요.<br></br></p>
-<img src="assets/do-not-localize/multi-chan-templates.gif"> 
-</tr>
-</tbody>
-</table>
+<!--
+* **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
+-->
+
+<!--
 
 
-### 개선 사항 {#feb-improvements}
+**Experience decisionning**
 
-이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
+From beta to LA, the following improvements that have been added:
 
-**대상자**
+* You can now leverage context data from Adobe Experience Platform in your decision rules using the **Context data** tab.  
+* A new "Manage Experience decisions" permission is now available for the Decision Management resource. It allows you to manage rights related to Experience Decisioning.   
+* You can now add multiple capping rules for a given decision item in Experience Decisioning. This allows you to increase the level of control over the way offers are sent.
+* You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
+-->
 
-* **시드 목록** - 이제 **시드 목록**&#x200B;을 사용할 때 변형이 지원됩니다. 시드 주소는 동일한 메시지의 모든 변형(예: 콘텐츠 실험의 다양한 처리) 사본을 받습니다. [자세히 보기](../configuration/seed-lists.md)
+<!--**Decision management** 
 
-이전에 Beta로 제공되었던 향상된 기능은 이제 모든 사용자가 사용할 수 있습니다.
+* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.-->
 
-* 이제 **대상자 구성을 통해 생성된** 대상자를 타겟팅하고 여정에서 데이터 보강 속성을 활용할 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md)
+**구성**
 
-* 이제 여정과 캠페인에 **CSV 파일에서 업로드된 대상자**&#x200B;를 타겟팅할 수 있습니다. [자세히 알아보기](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 이제 채널 표면 수준에서 마케팅 작업을 선택할 수 있습니다. 표면에서 사용할 경우 고객의 선호도를 존중하기 위해 해당 마케팅 액션과 연결된 모든 동의 정책을 활용합니다. [자세히 보기](../action/consent.md#surface-marketing-actions)
+* 이제 채널 표면에 대해 객체 레벨 액세스 제어를 사용할 수 있습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
+* 이제 채널 표면에서 목록 구독 취소를 활성화하면서 다른 모든 소스의 동의를 관리하는 방식에 맞게 동의 수준을 정의할 수 있습니다. [자세히 보기](../email/email-settings.md#list-unsubscribe)
 
-  >[!AVAILABILITY]
-  >
-  >* 대상자 구성 및 사용자 정의 업로드(CSV 파일)의 대상자 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
-  >* **CSV 파일의 대상자 업로드** 개선 사항은 초기 릴리스 이후 며칠 동안 점진적으로 롤아웃됩니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기까지 지연이 발생할 수 있습니다.
+**콘텐츠 관리**
 
-**여정**
+* 이제 모든 채널에 대한 콘텐츠 템플릿을 시뮬레이션할 수 있습니다. [자세히 보기](../content-management/content-templates.md#test-templates)
 
-* **여정 필터링** - 이제 기존의 사전 정의된 날짜 필터 외에도 **사용자 정의 날짜를 사용하여 여정** 인벤토리를 필터링할 수 있습니다. 이렇게 하면 특정 날짜, 특정 달 내, 전체 연도 또는 지정된 시간 범위에 작성되었거나 게시된 여정을 표시하여 목록을 세분화할 수 있습니다. [자세히 보기](../building-journeys/journey-gs.md#filter)
-* **사용자 정의 작업** - 이제 **content-type** 헤더를 업데이트할 수 있습니다. 이 새로운 **content-type**&#x200B;은 JSON 콘텐츠를 참조해야 합니다. [자세히 보기](../action/about-custom-action-configuration.md#url-configuration)
-* **구성** - stepEvents의 identityMap 속성이 이제 미리 채워져 있습니다. 기본 신원은 “primary = true”로 정의됩니다. [자세히 보기](../reports/sharing-field-list.md)
-* **사용자 인터페이스** - 여정 화면의 상단 표시줄이 향상된 경험을 위해 재구성되었습니다. 여러 업데이트 중 여정 속성에 액세스할 수 있는 &#39;연필&#39; 아이콘이 이제 여정 이름 옆의 상단 표시줄 왼쪽에 표시됩니다. [자세히 보기](../building-journeys/journey-gs.md#change-properties)
+**개인화**
 
-**SMS 채널**
-
-* **옵트인/옵트아웃 키워드** - 이제 SMS 채널을 구성할 때 원하는 대로 **옵트인 및 옵트아웃 키워드**&#x200B;를 사용자 정의할 수 있습니다. Journey Optimizer는 지정된 이러한 키워드를 기반으로 응답을 트리거합니다. [자세히 알아보기](../sms/sms-configuration.md#create-api)
-
-**캠페인**
-
-* **API 트리거 캠페인** - API 트리거 캠페인을 활성화한 후 생성된 cURL 코드가 향상되었습니다. 이제 메시지에 사용된 모든 개인화(프로필 및 컨텍스트) 변수가 포함됩니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#execute)
-
-**빈도 규칙**
-
-* 이제 이메일 및 푸시 외에도 SMS 및 DM 채널에 대한 빈도 규칙을 만들 수 있습니다. 빈도 규칙은 빈도 상한에 도달하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외합니다. [자세히 보기](../configuration/frequency-rules.md)
-
-<!--**Decision management**
-
-* **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
-
-
-## 2024년 1월 릴리스 정보 {#jan-2024}
-
-**릴리스 날짜**: 2024년 1월 30~31일
-
-### 새로운 기능{#jan24-features}
-
-이번 릴리스에는 아래 목록에 있는 새로운 기능이 제공됩니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>전달성 업데이트</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer에서 DMARC 인증 기술을 지원합니다.</p>
-<p>2024년 2월 1일부터 Google 및 Yahoo!에서 이메일을 보내는 데 사용하는 모든 도메인에 DMARC 레코드를 요구합니다. Journey Optimizer에서 Adobe에 위임한 모든 하위 도메인에 DMARC 레코드가 설정되어 있는지 확인해 주세요.</p>
-<p>자세한 내용은 <a href="../configuration/dmarc-record-update.md">세부 설명서</a>를 참고하십시오.</p>
-<br/><img src="assets/do-not-localize/dmarc.gif"/>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>사용 사례 플레이북</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Real-Time CDP 및 Journey Optimizer의 산업별 사용 사례 플레이북 카탈로그를 활용하여 Adobe Experience Platform 및 Adobe Journey Optimizer를 사용하여 수행할 수 있는 일반적인 사용 사례를 해결합니다.</p><p>요구 사항에 가장 적합한 플레이북을 선택하면 여정, 메시지, 스키마 또는 세그먼트와 같은 사용 사례를 지원하는 데 필요한 자산을 생성하고, 가치 창출 시간을 단축하기 위해 스키마에 맞게 사용자 지정할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../start/playbooks.md">자세한 설명서</a>를 참조하세요.</p>
-<br/><img src="assets/do-not-localize/playbooks.gif"/>
-</tr>
-</tbody>
-</table>
-
-### 개선 사항 {#jan24-improvements}
-
-이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
-
-**보고**
-
-* **새 도메인 기반 분류 위젯** - 캠페인 및 여정 보고서를 개선하기 위해 새 위젯이 추가되었습니다. **도메인별 바운스 이유**, **도메인에서 전송 및 전달**, **도메인별 열기 및 클릭 수** 및 **도메인별 바운스 및 오류** 위젯은 도메인 수준에서 주요 이메일 게재 및 추적 지표에 대한 세부 분류를 제공합니다. [자세히 알아보기](../reports/channel-report.md)
-
-**SMS 채널**
-
-* **이중 옵트인** - SMS에 대한 이중 옵트인 워크플로우를 사용하면 장치에서 요청을 시작할 때 사용자가 메시지를 수신하도록 명시적으로 옵트인할 수 있습니다. 사용자는 인바운드 SMS 메시지를 전송하여 동의 프로세스를 시작합니다. 동의를 확인하면 최종 확인을 요청하는 후속 메시지가 발송됩니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. [자세히 알아보기](../sms/sms-configuration.md#create-api)
-
-  이 기능은 Sinch 및 Infobip SMS 공급자만 사용할 수 있습니다.
-
-**여정**
-
-* **반응 이벤트 기간** - **반응 이벤트**&#x200B;에서 정의할 수 있는 최대 기간은 이제 30일이 아니라 29일입니다. [자세히 알아보기](../building-journeys/reaction-events.md)
-
-<!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
-
-* **대상자 읽기**  - **대상자 읽기** 활동은 이제 예약된 일별 배치 작업이 실행된 후 하루에 한 번만 생성되는 배치 세그먼트에 대한 프로필 스냅샷 데이터 세트를 사용하므로 데이터는 마지막 일별 배치 작업까지 새로 고쳐집니다. [자세히 알아보기](../building-journeys/read-audience.md)
-
-* **필드 그룹** - 이 릴리스에서는 특정 경우에 필드 그룹이 저장되지 않는 문제를 해결했습니다.
-
-* 여러 함수에서 `<listObject>` 지원이 수정되었습니다.
-
-**빈도 규칙**
-
-* **주별 빈도 상한** - 이제 월별 외에 일주일 단위로 고객 프로필에 전송되는 최대 메시지 수를 지정할 수 있습니다. 빈도 캡은 선택된 캘린더 기간에 기반하고 대응하는 시간대가 시작될 때 재설정됩니다. [자세히 알아보기](../configuration/frequency-rules.md#create-new-rule)
-
-  >[!NOTE]
-  >
-  >필요에 따라 일일 빈도 상한도 이용하실 수 있습니다. Adobe 담당자에게 문의하십시오.
-
-**의사 결정 관리**
-
-* **Edge 빈도 설정** - 이제 빈도 제한 카운터가 업데이트되어 Edge Decisioning API 결정에서 3초 이내에 사용할 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+* 새로운 **toInt** 도우미 함수는 표현식 편집기에서 사용할 수 있습니다. 이 옵션을 사용하면 이러한 유형(숫자, 더블, int, long, float, short, 바이트, 부울, 문자열) 중 하나를 정수로 변환할 수 있습니다. [자세히 보기](../personalization/functions/math.md#to-int)

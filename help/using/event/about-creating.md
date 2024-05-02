@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 13%
+source-wordcount: '1605'
+ht-degree: 12%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
+   >영숫자와 밑줄만 허용됩니다. 최대 길이는 30자입니다.
 
 1. 다음에서 **[!UICONTROL 유형]** 필드, 선택 **단일**.
 

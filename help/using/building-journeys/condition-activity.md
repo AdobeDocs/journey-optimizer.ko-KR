@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 17%
@@ -154,11 +154,10 @@ ht-degree: 17%
 여정 조건에서 대상을 사용하려면 다음 단계를 수행합니다.
 
 1. 여정을 열고 **[!UICONTROL 조건]** 활동 및 선택 **데이터 소스 조건**.
-   ![](assets/journey47.png)
-
-1. 클릭 **[!UICONTROL 경로 추가]** 각 추가 경로에 대해 필요합니다. 각 경로에 대해 **[!UICONTROL 표현식]** 필드.
 
    ![](assets/segment3.png)
+
+1. 클릭 **[!UICONTROL 경로 추가]** 각 추가 경로에 대해 필요합니다. 각 경로에 대해 **[!UICONTROL 표현식]** 필드.
 
 1. 왼쪽에서 펼칩니다. **[!UICONTROL 대상]** 노드. 조건에 사용할 대상을 끌어다 놓습니다. 기본적으로 대상의 조건은 true입니다.
 
