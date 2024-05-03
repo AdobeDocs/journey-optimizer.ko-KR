@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 39b2f9efcf84bba5e40ce999950346221a6eb699
 workflow-type: tm+mt
-source-wordcount: '1786'
-ht-degree: 97%
+source-wordcount: '1794'
+ht-degree: 96%
 
 ---
 
@@ -271,10 +271,12 @@ ht-degree: 97%
       + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
 + 콘텐츠 관리 {#content-management}
-   + 콘텐츠 도우미 작업{#content-assistant}
-      + [콘텐츠 도우미 시작](using/content-management/gs-generative.md)
-      + [콘텐츠 생성](using/content-management/generative-content.md)
-      + [이미지 생성](using/content-management/generative-image.md)
+   + AI 비서 작업{#ai-assistant}
+      + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
+      + [이메일 생성](using/content-management/generative-email.md)
+      + [푸시 생성](using/content-management/generative-push.md)
+      + [SMS 생성](using/content-management/generative-sms.md)
+      + [AI Assistant를 사용한 콘텐츠 실험](using/content-management/generative-experimentation.md)
    + 다국어 콘텐츠 작업{#content-multilingual}
       + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
       + [수동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-manual.md)
