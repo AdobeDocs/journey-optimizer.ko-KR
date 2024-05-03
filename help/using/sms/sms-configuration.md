@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 36%
@@ -30,7 +30,7 @@ ht-degree: 36%
 >id="ajo_admin_sms_api"
 >title="Journey Optimizer로 SMS/MMS 공급자 구성"
 >abstract="문자 메시지(SMS/MMS)를 보내기 전에 공급자 설정을 Journey Optimizer와 통합해야 합니다. 완료되면 SMS/MMS 표면을 만들어야 합니다. 이 단계는 Adobe Journey Optimizer 시스템 관리자가 수행해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS 채널 표면 만들기"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="SMS 채널 표면 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
