@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -70,7 +70,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
 1. 결정 항목의 속성이 정의되면 다음을 클릭합니다. **[!UICONTROL 다음]**.
 
-## 의사 결정 항목의 자격 구성 {#eligibility}
+## 결정 항목의 적격성 구성 {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
