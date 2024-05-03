@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fd58a52a652243a411e61c5b83a329f988348265
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 10%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 10%
 
 >[!ENDSHADEBOX]
 
-메시지를 만들고 개인화한 후에는 콘텐츠 실험 기능이 포함된 Journey Optimizer AI Assistant를 사용하여 콘텐츠를 향상시킵니다. 이 도구를 사용하면 다양한 콘텐츠에서 여러 게재 처리를 정의하여 타겟 대상의 성능을 측정할 수 있습니다.
+메시지를 만들고 개인화한 후에는 콘텐츠 실험 기능이 포함된 Adobe Journey Optimizer의 AI Assistant를 사용하여 콘텐츠를 향상시킵니다. 이 도구를 사용하면 다양한 콘텐츠에서 여러 게재 처리를 정의하여 타겟 대상의 성능을 측정할 수 있습니다.
 
 1. 캠페인을 만들고 AI Assistant를 사용하여 변형을 생성합니다.
 

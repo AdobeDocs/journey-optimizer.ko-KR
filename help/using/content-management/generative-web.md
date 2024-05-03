@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fc6d1caacae3574cc7400ed9c9c634e3ff3cae5a
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1319'
 ht-degree: 5%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 >[!ENDSHADEBOX]
 
-이메일을 만들고 개인화한 후에는 생성 AI에서 제공하는 Campaign의 Journey Optimizer AI Assistant를 사용하여 콘텐츠를 한 차원 끌어올리십시오.
+이메일을 만들고 개인화한 후에는 생성 AI에서 제공하는 Adobe Journey Optimizer의 AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다.
 
 AI 도우미는 대상자에게 반향을 일으킬 가능성이 높은 다양한 콘텐츠를 제안하여 게재의 영향을 최적화하는 데 도움이 됩니다.
 

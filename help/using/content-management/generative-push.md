@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 45332e96477f83cd1ae9833472a97d2c45bb6ac4
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '976'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 6%
 >
 >이 기능의 사용을 시작하기 전에 관련 항목을 읽어 보십시오. [보호 및 제한 사항](gs-generative.md#generative-guardrails).
 
-메시지를 만들고 개인화한 후에는 Journey Optimizer AI Assistant를 사용하여 푸시 알림 콘텐츠를 한 차원 높입니다.
+메시지를 만들고 개인화한 후에는 Adobe Journey Optimizer의 AI Assistant를 사용하여 푸시 알림 콘텐츠를 한 차원 높입니다.
 
 Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 탭을 살펴보십시오.
 
