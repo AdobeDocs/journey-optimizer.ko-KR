@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 51%
+ht-degree: 59%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="구성 만들기"
->abstract="기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하는 작성 워크플로를 만들고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만듭니다."
+>abstract="구성 워크플로를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용하여 새 대상자를 생성합니다."
 
 >[!BEGINSHADEBOX]
 

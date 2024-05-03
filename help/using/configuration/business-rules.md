@@ -11,7 +11,8 @@ keywords: 메시지, 빈도, 규칙, 압력
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: c1eef06b0edc4e1bcd1b145f8f822295924b205c
+exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
+source-git-commit: f8d257b04d8682bb16fcccd3fd0ef9d5389a058d
 workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 10%
@@ -153,7 +154,7 @@ Learn more about permissions in [this section](../administration/high-low-permis
 >
 >메시지에서 규칙 세트를 선택할 수 있도록 규칙 세트도 활성화되었는지 확인합니다.
 
-### 빈도 상한 {#frequency-cap}
+### 빈도 상한 설정 {#frequency-cap}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -294,4 +295,3 @@ In this scenario, an individual profile:
 * but will be excluded from marketing push notifications after they have received 4 push notifications.-->
 
 빈도 규칙을 테스트할 때에는 새로 만든 를 사용하는 것이 좋습니다 [테스트 프로필](../audience/creating-test-profiles.md), 프로필의 빈도 상한에 도달하면 다음 기간까지 카운터를 재설정할 방법이 없기 때문입니다. 규칙을 비활성화하면 캡핑된 프로필에서 메시지를 받을 수 있지만 카운터 증분은 제거되거나 삭제되지 않습니다.
-
