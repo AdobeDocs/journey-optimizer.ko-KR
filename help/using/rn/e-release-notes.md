@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 69%
 
 ## 2024년 4월 초기 릴리스 정보 {#e-2024}
 
-**릴리스 날짜**: 2024년 5월 2일
+**릴리스 일자**: 2024년 5월 2일
 
 ### 새로운 기능 {#e-features}
 
@@ -85,7 +85,7 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 처음에는 Sinch에서만 사용할 수 있으며, MMS는 이제 Infobip 및 Twilio에서도 사용할 수 있습니다.</p>
+<p>이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 이전에는 Sinch에서만 사용할 수 있었지만, 이제 MMS는 Infobip 및 Twilio에서도 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>
@@ -101,7 +101,7 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>이 릴리스는 여정을 위한 향상된 캔버스 사용자 인터페이스와 함께 제공되며 보다 직관적이고 효율적인 사용자 경험을 제공합니다. 활동은 더 적은 클릭 수로 여정 캔버스에 더 명확하고 많은 정보를 제공합니다.</p>
+<p>이번 릴리스는 여정을 위한 캔버스 사용자 인터페이스가 개선되어 보다 직관적이고 효율적인 사용자 경험을 제공합니다. 활동은 더 적은 클릭 수로 여정 캔버스에 더 명확하고 많은 정보를 제공합니다.</p>
 <img src="assets/new-canvas3.gif"/>
 <p>향상된 여정 캔버스 디자인과 함께 지난 24시간 보고 지표를 여정 캔버스에서 직접 볼 수 있는 기능을 도입했습니다. </p>
 <img src="assets/new-canvas6bis.png"/>
