@@ -1,18 +1,16 @@
 ---
-title: 의사 결정 만들기
-description: 의사 결정을 만드는 방법 알아보기
+title: 의사 결정 정책 만들기
+description: 의사 결정 정책을 만드는 방법 알아보기
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 12%
+source-wordcount: '1481'
+ht-degree: 10%
 
 ---
 
@@ -21,20 +19,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="의사 결정은 무엇입니까?"
->abstract="결정 정책은 경험 결정 엔진을 활용하여 대상자에 따라 게재할 최고의 콘텐츠를 선택합니다."
+>abstract="의사 결정 정책에는 의사 결정 엔진이 최상의 콘텐츠를 선택하는 모든 선택 논리가 포함되어 있습니다. 의사 결정 정책은 캠페인별로 다릅니다. 이 솔루션의 목표는 각 프로필에 대해 최상의 오퍼를 선택하는 것이며, 캠페인 작성에서는 메시지에 포함할 항목 속성을 포함하여 선택한 의사 결정 항목을 표시하는 방법을 나타낼 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=ko-KR" text="경험 결정 정보"
 
->[!BEGINSHADEBOX &quot;이 설명서 안내서에서 확인할 수 있는 사항&quot;]
-
-* [Experience Decisioning 시작](gs-experience-decisioning.md)
-* 의사 결정 항목 관리: [항목 카탈로그 구성](catalogs.md) - [의사 결정 항목 만들기](items.md) - [항목 컬렉션 관리](collections.md)
-* 항목의 선택 사항 구성: [의사 결정 규칙 만들기](rules.md) - [등급 메서드 만들기](ranking.md)
-* [선택 전략 만들기](selection-strategies.md)
-* **[의사 결정 정책 만들기](create-decision.md)**
-
->[!ENDSHADEBOX]
-
 의사 결정 정책은 대상자에 따라 제공할 최상의 콘텐츠를 선택하기 위해 경험 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
+
+의사 결정 정책에는 의사 결정 엔진이 최상의 콘텐츠를 선택하는 모든 선택 논리가 포함되어 있습니다. 의사 결정 정책은 캠페인별로 다릅니다. 이 솔루션의 목표는 각 프로필에 대해 최상의 오퍼를 선택하는 것이며, 캠페인 작성에서는 메시지에 포함할 항목 속성을 포함하여 선택한 의사 결정 항목을 표시하는 방법을 나타낼 수 있습니다.
 
 >[!NOTE]
 >
@@ -61,13 +51,9 @@ ht-degree: 12%
 
 웹 사이트 또는 모바일 앱에서 방문자에게 최고의 동적 오퍼 및 경험을 제공하려면 코드 기반 캠페인에 의사 결정 정책을 추가하십시오. 그 방법은 다음과 같습니다.
 
-1. 캠페인을 만들고 다음을 선택합니다. **[!UICONTROL 코드 기반 경험(베타)]** 작업. [자세히 알아보기](../code-based/create-code-based.md)
+1. 캠페인을 만들고 다음을 선택합니다. **[!UICONTROL 코드 기반 경험]** 작업. [자세히 알아보기](../code-based/create-code-based.md)
 
-   >[!NOTE]
-   >
-   >코드 기반 경험 기능은 현재 사용자를 선택하는 베타 버전으로만 사용할 수 있습니다.
-
-1. 다음에서 [코드 편집기](../code-based/create-code-based.md#edit-code)를 선택하고 **[!UICONTROL 결정]** 아이콘 및 클릭 **[!UICONTROL 의사 결정 만들기]**.
+1. 다음에서 [코드 편집기](../code-based/create-code-based.md#edit-code)를 선택하고 **[!UICONTROL 결정 정책]** 아이콘 및 클릭 **[!UICONTROL 결정 정책 추가]**.
 
    ![](assets/decision-code-based-create.png)
 
@@ -109,11 +95,9 @@ ht-degree: 12%
    >
    >대체 항목은 선택 사항입니다. 대체 을 선택하지 않고 적합한 전략이 없으면 다음 기준에 따라 아무것도 표시되지 않습니다. [!DNL Journey Optimizer].
 
-1. 선택 내용을 저장하고 **[!UICONTROL 만들기]**. 새 결정 정책은 아래에 추가됩니다. **[!UICONTROL 결정]**.
+1. 선택 내용을 저장하고 **[!UICONTROL 만들기]**. 의사 결정 정책이 만들어졌으므로 이제 코드 기반 경험 콘텐츠 내에서 의사 결정 특성을 사용할 수 있습니다. [자세히 알아보기](#use-decision-policy)
 
    ![](assets/decision-code-based-decision-added.png)
-
-의사 결정 정책이 만들어졌으므로 이제 코드 기반 경험 콘텐츠 내에서 의사 결정 특성을 사용할 수 있습니다. [자세히 알아보기](#use-decision-policy)
 
 ## 평가 순서 {#evaluation-order}
 
@@ -181,7 +165,7 @@ ht-degree: 12%
 >
 >코드 기반 경험은 [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
-1. + 아이콘을 클릭합니다. 결정 정책에 해당하는 코드가 추가됩니다. 이제 해당 코드 내에 원하는 모든 결정 특성을 추가할 수 있습니다.
+1. 다음을 클릭합니다. **[!UICONTROL 정책 삽입]** 단추를 클릭합니다. 결정 정책에 해당하는 코드가 추가됩니다.
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -189,19 +173,18 @@ ht-degree: 12%
    >
    >이 순서는 결정 정책이 반환될 횟수를 반복합니다. 예를 들어 다음과 같은 경우에 2개의 항목을 반환하도록 선택한 경우 [의사 결정 만들기](#add-decision), 동일한 시퀀스가 두 번 반복됩니다.
 
-1. 결정 정책을 클릭합니다. 결정 속성이 표시됩니다.
-
-   이러한 속성은에 저장됩니다. **[!UICONTROL 오퍼]** 카탈로그의 스키마. 사용자 지정 속성은 **`_<imsOrg`>** 의 폴더 및 표준 속성 **`_experience`** 폴더를 삭제합니다. [오퍼 카탈로그의 스키마에 대해 자세히 알아보기](catalogs.md)
+1. 이제 해당 코드 내에 원하는 모든 결정 특성을 추가할 수 있습니다. 사용 가능한 속성은에 저장됩니다. **[!UICONTROL 오퍼]** 카탈로그의 스키마. 사용자 지정 속성은 **`_<imsOrg`>** 의 폴더 및 표준 속성 **`_experience`** 폴더를 삭제합니다. [오퍼 카탈로그의 스키마에 대해 자세히 알아보기](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
+
+   >[!NOTE]
+   >
+   >의사 결정 정책 항목 추적의 경우 `trackingToken`결정 정책 콘텐츠에 대해 속성을 다음과 같이 추가해야 합니다.
+   >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 각 폴더를 클릭하여 확장합니다. 원하는 위치에 마우스 커서를 놓고 추가하려는 속성 옆에 있는 + 아이콘을 클릭합니다. 코드에 원하는 수만큼 속성을 추가할 수 있습니다.
 
    ![](assets/decision-code-based-add-decision-attributes.png)
-
-1. 결정 정책 루트로 돌아가려면 폴더 아이콘을 클릭합니다.
-
-   ![](assets/decision-code-based-decision-folder.png)
 
 1. 표현식 편집기에서 사용할 수 있는 다른 속성(예: 프로필 속성)을 추가할 수도 있습니다.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: aa53f96068e0cfa84c1ac5ddd32d36b3fb4bbd03
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -61,12 +61,13 @@ Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/doc
 
 다음 **[!UICONTROL 태그]** 필드에서는 오브젝트에 대한 태그를 정의할 수 있습니다. 태그는 다음 오브젝트에 사용할 수 있습니다.
 
-* [여정](../building-journeys/journey-gs.md#change-properties)
 * [캠페인](../campaigns/create-campaign.md#create)
-* [템플릿](../content-management/content-templates.md)
+* [결정 항목](../experience-decisioning/items.md)
 * [조각](../content-management/fragments.md)
-* [구독 목록](../landing-pages/subscription-list.md)
+* [여정](../building-journeys/journey-gs.md#change-properties)
 * [랜딩 페이지](../landing-pages/create-lp.md)
+* [구독 목록](../landing-pages/subscription-list.md)
+* [템플릿](../content-management/content-templates.md)
 
 기존 태그를 선택하거나 새 태그를 만들 수 있습니다. 그 방법은 다음과 같습니다.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1018'
 ht-degree: 8%
 
 ---
@@ -71,15 +71,14 @@ ht-degree: 8%
 
    코드 콘텐츠의 일부를 조각으로 저장할 수도 있습니다. [방법 알아보기](../content-management/fragments.md#save-as-expression-fragment)
 
-<!--
-1. In code-based campaigns, you can use the experience decisioning feature. Select the **[!UICONTROL Decisions]** icon from the left bar and click **[!UICONTROL Create decision]**. [Learn more](../experience-decisioning/create-decision.md)
+1. 코드 기반 캠페인에서는 Experience Decisioning 기능을 사용할 수 있습니다. 다음 항목 선택 **[!UICONTROL 결정]** 왼쪽 막대에서 아이콘을 클릭하고 **[!UICONTROL 결정 만들기]**. [자세히 알아보기](../experience-decisioning/create-decision.md)
 
-    ![](assets/code-based-campaign-create-decision.png)
+   ![](assets/code-based-campaign-create-decision.png)
 
-    >[!NOTE]
-    >
-    >The experience decisioning feature is currently available as a beta to select users only.
--->
+   >[!NOTE]
+   >
+   >Experience Decisioning 기능은 현재 사용자를 선택하는 베타 버전으로 사용할 수 있습니다.
+
 
 1. 클릭 **[!UICONTROL 저장 및 닫기]** 을 클릭하여 변경 내용을 확인합니다.
 

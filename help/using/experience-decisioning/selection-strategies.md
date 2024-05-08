@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 19%
+source-wordcount: '722'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="선택 전략 정의"
->abstract="선택 전략은 재사용 가능한 항목으로, 결정 정책에서 선택 시 표시할 제안을 결정하기 위한 자격 조건 및 순위 지정 방법과 관련된 컬렉션으로 구성됩니다."
+>abstract="선택 전략은 재사용이 가능하며 의사 결정 정책에서 선택할 때 표시할 오퍼를 결정하는 자격 제한 및 등급 방법과 관련된 컬렉션으로 구성됩니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="결정 정책 만들기"
 
 >[!CONTEXTUALHELP]
@@ -31,21 +29,11 @@ ht-degree: 19%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="대상자 사용"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="의사 결정 규칙 사용"
 
->[!BEGINSHADEBOX &quot;이 설명서 안내서에서 확인할 수 있는 사항&quot;]
-
-* [Experience Decisioning 시작](gs-experience-decisioning.md)
-* 의사 결정 항목 관리: [항목 카탈로그 구성](catalogs.md) - [의사 결정 항목 만들기](items.md) - [항목 컬렉션 관리](collections.md)
-* 항목의 선택 사항 구성: [의사 결정 규칙 만들기](rules.md) - [등급 메서드 만들기](ranking.md)
-* **[선택 전략 만들기](selection-strategies.md)**
-* [결정 정책 만들기](create-decision.md)
-
->[!ENDSHADEBOX]
-
-선택 전략은 재사용 가능한 항목이며, 다음에서 선택할 때 표시할 오퍼를 결정하는 자격 제한 및 등급 방법과 연관된 컬렉션으로 구성됩니다. [결정 방침](create-decision.md).
+선택 전략은 재사용이 가능하며, 자격 제한 사항과 연관된 컬렉션과 다음에 선택할 때 표시할 오퍼를 결정하는 등급 메서드로 구성됩니다. [결정 방침](create-decision.md).
 
 ## 선택 전략 액세스 및 관리
 
-1. 다음으로 이동 **[!UICONTROL 경험 의사 결정]** > **[!UICONTROL 구성]** > **[!UICONTROL 선택 전략]**.
+1. 다음으로 이동 **[!UICONTROL 경험 의사 결정]** > **[!UICONTROL 전략 설정]** > **[!UICONTROL 선택 전략]**.
 
 1. 지금까지 만든 모든 선택 전략이 나열됩니다. 필터를 사용하여 등급 방법에 따라 전략을 검색할 수 있습니다.
 
@@ -77,8 +65,6 @@ ht-degree: 19%
 
 1. 다음 항목 선택 [컬렉션](collections.md) 고려할 오퍼가 포함되어 있습니다.
 
-1. 오퍼 선택 [컬렉션](collections.md) 고려할 오퍼가 포함되어 있습니다.
-
 1. 사용 **[!UICONTROL 자격 요건]** 이 선택 전략에 대한 오퍼 선택을 제한하는 필드.
 
    ![](assets/strategy-create-eligibility.png)
@@ -95,7 +81,7 @@ ht-degree: 19%
 
    * 특정 계산된 점수를 사용하여 게재할 적격 오퍼를 선택하려면 다음을 선택합니다. [공식](#ranking-formula) 또는 [AI 모델](#ai-ranking).
 
-1. Click **[!UICONTROL Create]**. 이제 사용할 준비가 되었습니다. [결정](create-decision.md)
+1. Click **[!UICONTROL Create]**. 이제 사용할 준비가 되었습니다. [결정 방침](create-decision.md)
 
 ## 순위 지정 방법 선택 {#select-ranking-method}
 
@@ -113,7 +99,7 @@ ht-degree: 19%
 
 ### 오퍼 우선 순위 {#offer-priority}
 
-기본적으로 여러 오퍼가 의사 결정에서 주어진 배치에 적합한 경우 가장 높은 수치를 보이는 항목입니다 **우선 순위** 는 고객에게 먼저 제공됩니다.
+기본적으로 의사 결정 정책에서 여러 오퍼를 지정된 배치에 사용할 수 있는 경우 오퍼가 가장 높은 항목 **우선 순위** 는 고객에게 먼저 제공됩니다.
 
 ![](assets/item-priority.png)
 

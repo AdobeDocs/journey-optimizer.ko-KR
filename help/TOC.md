@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 39b2f9efcf84bba5e40ce999950346221a6eb699
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1794'
-ht-degree: 97%
+source-wordcount: '1804'
+ht-degree: 96%
 
 ---
 
@@ -375,156 +375,159 @@ ht-degree: 97%
    + [경고](using/reports/alerts.md)
    + [Customer Journey Analytics 작업](using/reports/cja-ajo.md)
    + [제외 이유](using/reports/exclusion-list.md)
-+ 의사 결정 관리 {#offer-decisioning}
-   + 의사 결정 관리 시작 {#get-started-decision}
-      + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
-      + [사용자 인터페이스](using/offers/get-started/user-interface.md)
-      + [오퍼를 만들고 관리하는 주요 단계](using/offers/offer-library/key-steps.md)
-      + [사용 사례: 이메일에 오퍼 삽입](using/offers/offers-e2e.md)
-   + 구성 요소 만들기 {#create-components}
-      + [배치 만들기](using/offers/offer-library/creating-placements.md)
-      + [의사 결정 규칙 만들기](using/offers/offer-library/creating-decision-rules.md)
-      + [컬렉션 수식어 만들기](using/offers/offer-library/creating-tags.md)
-   + {#rankings} 등급 만들기
-      + [등급 시작](using/offers/ranking/get-started-rankings.md)
-      + [등급 공식](using/offers/ranking/create-ranking-formulas.md)
-      + AI 모델 {#ai-models}
-         + [AI 모델 정보](using/offers/ranking/ai-models.md)
-         + AI 모델 유형 {#ai-model-types}
++ 의사 결정 {#decisioning}
+   + 의사 결정 관리 {#offer-decisioning}
+      + 의사 결정 관리 시작 {#get-started-decision}
+         + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
+         + [사용자 인터페이스](using/offers/get-started/user-interface.md)
+         + [오퍼를 만들고 관리하는 주요 단계](using/offers/offer-library/key-steps.md)
+         + [사용 사례: 이메일에 오퍼 삽입](using/offers/offers-e2e.md)
+      + 구성 요소 만들기 {#create-components}
+         + [배치 만들기](using/offers/offer-library/creating-placements.md)
+         + [의사 결정 규칙 만들기](using/offers/offer-library/creating-decision-rules.md)
+         + [컬렉션 수식어 만들기](using/offers/offer-library/creating-tags.md)
+      + {#rankings} 등급 만들기
+         + [등급 시작](using/offers/ranking/get-started-rankings.md)
+         + [등급 공식](using/offers/ranking/create-ranking-formulas.md)
+         + AI 모델 {#ai-models}
+            + [AI 모델 정보](using/offers/ranking/ai-models.md)
+            + AI 모델 유형 {#ai-model-types}
             + [자동 최적화 모델](using/offers/ranking/auto-optimization-model.md)
             + [개인화된 최적화 모델](using/offers/ranking/personalized-optimization-model.md)
-         + [AI 모델 만들기](using/offers/ranking/create-ranking-strategies.md)
-   + 오퍼 만들기 및 관리 {#managing-offers-in-the-offer-library}
-      + 오퍼 구성 {#configure-offers}
-         + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
-         + [표시 추가](using/offers/offer-library/add-representations.md)
-         + [제한 추가](using/offers/offer-library/add-constraints.md)
-      + [대체 오퍼 만들기](using/offers/offer-library/creating-fallback-offers.md)
-      + [컬렉션 만들기](using/offers/offer-library/creating-collections.md)
-   + 의사 결정을 만들고 관리하기 {#create-manage-activities}
-      + [의사 결정 만들기](using/offers/offer-activities/create-offer-activities.md)
-      + [의사 결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
-      + [시뮬레이션 만들기](using/offers/offer-activities/simulation.md)
-   + [일괄 의사 결정 사용](using/offers/batch-delivery.md)
-   + 이벤트 데이터 수집 {#collect-event-data}
-      + [데이터 수집 시작하기](using/offers/data-collection/data-collection.md)
-      + [이벤트를 수집할 데이터 세트 만들기](using/offers/data-collection/create-dataset.md)
-      + [이벤트 캡처 구성](using/offers/data-collection/schema-requirement.md)
-   + 의사 결정 관리 보고서 만들기 {#create-reports}
-      + [의사 결정 관리 이벤트 작업](using/offers/reports/get-started-events.md)
-      + [이벤트 XDM 필드 액세스](using/offers/reports/xdm-fields.md)
-   + 오퍼 카탈로그 내보내기 {#export-catalog}
-      + [오퍼 카탈로그 내보내기 시작](using/offers/export-catalog/get-started-export.md)
-      + [내보낸 오퍼 카탈로그에 액세스하기](using/offers/export-catalog/access-dataset.md)
-      + [개인화된 오퍼 데이터 세트](using/offers/export-catalog/export-offers.md)
-      + [의사 결정 데이터 세트](using/offers/export-catalog/export-decisions.md)
-      + [배치 데이터 세트](using/offers/export-catalog/export-placements.md)
-      + [대체 데이터 세트](using/offers/export-catalog/export-fallback.md)
-   + API 참조 {#api-reference}
-      + [시작](using/offers/api-reference/getting-started.md)
-      + API를 사용하여 오퍼 만들기 및 관리 {#offers-api}
-         + 배치 {#placements}
-            + [배치 나열](using/offers/api-reference/offers-api/placements/placements-list.md)
-            + [배치 조회](using/offers/api-reference/offers-api/placements/lookup.md)
-            + [배치 만들기](using/offers/api-reference/offers-api/placements/create.md)
-            + [배치 업데이트](using/offers/api-reference/offers-api/placements/update.md)
-            + [배치 삭제](using/offers/api-reference/offers-api/placements/delete.md)
-         + 의사 결정 규칙 {#decision-rules}
-            + [의사 결정 규칙 나열](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
-            + [의사 결정 규칙 조회](using/offers/api-reference/offers-api/decision-rules/lookup.md)
-            + [의사 결정 규칙 만들기](using/offers/api-reference/offers-api/decision-rules/create.md)
-            + [의사 결정 규칙 업데이트](using/offers/api-reference/offers-api/decision-rules/update.md)
-            + [의사 결정 규칙 삭제](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + 컬렉션 수식어 {#tags}
-            + [컬렉션 수식어 목록 만들기](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [컬렉션 수식어 조회](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [컬렉션 수식어 만들기](using/offers/api-reference/offers-api/tags/create.md)
-            + [컬렉션 수식어 업데이트](using/offers/api-reference/offers-api/tags/update.md)
-            + [컬렉션 수식어 삭제](using/offers/api-reference/offers-api/tags/delete.md)
-         + 개인화된 오퍼 {#personalized-offers}
-            + [개인화된 오퍼 나열](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
-            + [개인화된 오퍼 조회](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
-            + [개인화된 오퍼 만들기](using/offers/api-reference/offers-api/personalized-offers/create.md)
-            + [개인화된 오퍼 업데이트](using/offers/api-reference/offers-api/personalized-offers/update.md)
-            + [개인화된 오퍼 삭제](using/offers/api-reference/offers-api/personalized-offers/delete.md)
-         + 컬렉션 {#collections}
-            + [컬렉션 나열](using/offers/api-reference/offers-api/collections/collections-list.md)
-            + [컬렉션 조회](using/offers/api-reference/offers-api/collections/lookup.md)
-            + [컬렉션 만들기](using/offers/api-reference/offers-api/collections/create.md)
-            + [컬렉션 업데이트](using/offers/api-reference/offers-api/collections/update.md)
-            + [컬렉션 삭제](using/offers/api-reference/offers-api/collections/delete.md)
-         + 대체 오퍼 {#fallback-offers}
-            + [대체 오퍼 나열](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
-            + [대체 오퍼 조회](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
-            + [대체 오퍼 만들기](using/offers/api-reference/offers-api/fallback-offers/create.md)
-            + [대체 오퍼 업데이트](using/offers/api-reference/offers-api/fallback-offers/update.md)
-            + [대체 오퍼 삭제](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-         + 결정 {#decisions-api}
-            + [의사 결정 나열](using/offers/api-reference/activities-api/activities/activities-list.md)
-            + [의사 결정 조회](using/offers/api-reference/activities-api/activities/lookup.md)
-            + [의사 결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
-            + [의사 결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
-            + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
-         + 레거시 API {#legacy-api}
-            + [레거시 API 정보](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+            + [AI 모델 만들기](using/offers/ranking/create-ranking-strategies.md)
+      + 오퍼 만들기 및 관리 {#managing-offers-in-the-offer-library}
+         + 오퍼 구성 {#configure-offers}
+            + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
+            + [표시 추가](using/offers/offer-library/add-representations.md)
+            + [제한 추가](using/offers/offer-library/add-constraints.md)
+         + [대체 오퍼 만들기](using/offers/offer-library/creating-fallback-offers.md)
+         + [컬렉션 만들기](using/offers/offer-library/creating-collections.md)
+      + 의사 결정을 만들고 관리하기 {#create-manage-activities}
+         + [의사 결정 만들기](using/offers/offer-activities/create-offer-activities.md)
+         + [의사 결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
+         + [시뮬레이션 만들기](using/offers/offer-activities/simulation.md)
+      + [일괄 의사 결정 사용](using/offers/batch-delivery.md)
+      + 이벤트 데이터 수집 {#collect-event-data}
+         + [데이터 수집 시작하기](using/offers/data-collection/data-collection.md)
+         + [이벤트를 수집할 데이터 세트 만들기](using/offers/data-collection/create-dataset.md)
+         + [이벤트 캡처 구성](using/offers/data-collection/schema-requirement.md)
+      + 의사 결정 관리 보고서 만들기 {#create-reports}
+         + [의사 결정 관리 이벤트 작업](using/offers/reports/get-started-events.md)
+         + [이벤트 XDM 필드 액세스](using/offers/reports/xdm-fields.md)
+      + 오퍼 카탈로그 내보내기 {#export-catalog}
+         + [오퍼 카탈로그 내보내기 시작](using/offers/export-catalog/get-started-export.md)
+         + [내보낸 오퍼 카탈로그에 액세스하기](using/offers/export-catalog/access-dataset.md)
+         + [개인화된 오퍼 데이터 세트](using/offers/export-catalog/export-offers.md)
+         + [의사 결정 데이터 세트](using/offers/export-catalog/export-decisions.md)
+         + [배치 데이터 세트](using/offers/export-catalog/export-placements.md)
+         + [대체 데이터 세트](using/offers/export-catalog/export-fallback.md)
+      + API 참조 {#api-reference}
+         + [시작](using/offers/api-reference/getting-started.md)
+         + API를 사용하여 오퍼 만들기 및 관리 {#offers-api}
             + 배치 {#placements}
-               + [배치 나열](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
-               + [배치 조회](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
-               + [배치 만들기](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
-               + [배치 업데이트](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
-               + [배치 삭제](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
+               + [배치 나열](using/offers/api-reference/offers-api/placements/placements-list.md)
+               + [배치 조회](using/offers/api-reference/offers-api/placements/lookup.md)
+               + [배치 만들기](using/offers/api-reference/offers-api/placements/create.md)
+               + [배치 업데이트](using/offers/api-reference/offers-api/placements/update.md)
+               + [배치 삭제](using/offers/api-reference/offers-api/placements/delete.md)
             + 의사 결정 규칙 {#decision-rules}
-               + [의사 결정 규칙 나열](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
-               + [의사 결정 규칙 조회](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
-               + [의사 결정 규칙 만들기](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
-               + [의사 결정 규칙 업데이트](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
-               + [의사 결정 규칙 삭제](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
+               + [의사 결정 규칙 나열](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
+               + [의사 결정 규칙 조회](using/offers/api-reference/offers-api/decision-rules/lookup.md)
+               + [의사 결정 규칙 만들기](using/offers/api-reference/offers-api/decision-rules/create.md)
+               + [의사 결정 규칙 업데이트](using/offers/api-reference/offers-api/decision-rules/update.md)
+               + [의사 결정 규칙 삭제](using/offers/api-reference/offers-api/decision-rules/delete.md)
             + 컬렉션 수식어 {#tags}
-               + [컬렉션 수식어 목록 만들기](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
-               + [컬렉션 수식어 조회](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
-               + [컬렉션 수식어 만들기](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
-               + [컬렉션 수식어 업데이트](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
-               + [컬렉션 수식어 삭제](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
+               + [컬렉션 수식어 목록 만들기](using/offers/api-reference/offers-api/tags/tags-list.md)
+               + [컬렉션 수식어 조회](using/offers/api-reference/offers-api/tags/lookup.md)
+               + [컬렉션 수식어 만들기](using/offers/api-reference/offers-api/tags/create.md)
+               + [컬렉션 수식어 업데이트](using/offers/api-reference/offers-api/tags/update.md)
+               + [컬렉션 수식어 삭제](using/offers/api-reference/offers-api/tags/delete.md)
             + 개인화된 오퍼 {#personalized-offers}
-               + [개인화된 오퍼 나열](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
-               + [개인화된 오퍼 조회](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
-               + [개인화된 오퍼 만들기](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
-               + [개인화된 오퍼 업데이트](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
-               + [개인화된 오퍼 삭제](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
-            + 대체 오퍼 {#fallback-offers}
-               + [대체 오퍼 나열](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
-               + [대체 오퍼 조회](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
-               + [대체 오퍼 만들기](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
-               + [대체 오퍼 업데이트](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
-               + [대체 오퍼 삭제](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
+               + [개인화된 오퍼 나열](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
+               + [개인화된 오퍼 조회](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
+               + [개인화된 오퍼 만들기](using/offers/api-reference/offers-api/personalized-offers/create.md)
+               + [개인화된 오퍼 업데이트](using/offers/api-reference/offers-api/personalized-offers/update.md)
+               + [개인화된 오퍼 삭제](using/offers/api-reference/offers-api/personalized-offers/delete.md)
             + 컬렉션 {#collections}
-               + [컬렉션 나열](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
-               + [컬렉션 조회](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
-               + [컬렉션 만들기](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
-               + [컬렉션 업데이트](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
-               + [컬렉션 삭제](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
+               + [컬렉션 나열](using/offers/api-reference/offers-api/collections/collections-list.md)
+               + [컬렉션 조회](using/offers/api-reference/offers-api/collections/lookup.md)
+               + [컬렉션 만들기](using/offers/api-reference/offers-api/collections/create.md)
+               + [컬렉션 업데이트](using/offers/api-reference/offers-api/collections/update.md)
+               + [컬렉션 삭제](using/offers/api-reference/offers-api/collections/delete.md)
+            + 대체 오퍼 {#fallback-offers}
+               + [대체 오퍼 나열](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
+               + [대체 오퍼 조회](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
+               + [대체 오퍼 만들기](using/offers/api-reference/offers-api/fallback-offers/create.md)
+               + [대체 오퍼 업데이트](using/offers/api-reference/offers-api/fallback-offers/update.md)
+               + [대체 오퍼 삭제](using/offers/api-reference/offers-api/fallback-offers/delete.md)
             + 결정 {#decisions-api}
-               + [의사 결정 나열](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
-               + [의사 결정 조회](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
-               + [의사 결정 만들기](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
-               + [의사 결정 업데이트](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
-               + [의사 결정 삭제](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
-      + API를 사용하여 오퍼 게재 {#offer-delivery-api}
-         + [오퍼 게재 API 시작](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
-         + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
-         + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
-         + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Experience Decisioning {#experience-decisioning}
-   + [Experience Decisioning 시작](using/experience-decisioning/gs-experience-decisioning.md)
-   + 결정 항목 관리 {#decision-items}
-      + [항목 카탈로그 구성](using/experience-decisioning/catalogs.md)
-      + [결정 항목 만들기](using/experience-decisioning/items.md)
-      + [항목 컬렉션 관리](using/experience-decisioning/collections.md)
-   + 항목 선택 구성 {#selection}
-      + [의사 결정 규칙 만들기](using/experience-decisioning/rules.md)
-      + [등급 메서드 만들기](using/experience-decisioning/ranking.md)
-   + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
-   + [결정 정책 만들기](using/experience-decisioning/create-decision.md)
+               + [의사 결정 나열](using/offers/api-reference/activities-api/activities/activities-list.md)
+               + [의사 결정 조회](using/offers/api-reference/activities-api/activities/lookup.md)
+               + [의사 결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
+               + [의사 결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
+               + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
+            + 레거시 API {#legacy-api}
+               + [레거시 API 정보](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+               + 배치 {#placements}
+                  + [배치 나열](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
+                  + [배치 조회](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
+                  + [배치 만들기](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
+                  + [배치 업데이트](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
+                  + [배치 삭제](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
+               + 의사 결정 규칙 {#decision-rules}
+                  + [의사 결정 규칙 나열](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
+                  + [의사 결정 규칙 조회](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
+                  + [의사 결정 규칙 만들기](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
+                  + [의사 결정 규칙 업데이트](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
+                  + [의사 결정 규칙 삭제](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
+               + 컬렉션 수식어 {#tags}
+                  + [컬렉션 수식어 목록 만들기](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
+                  + [컬렉션 수식어 조회](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
+                  + [컬렉션 수식어 만들기](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
+                  + [컬렉션 수식어 업데이트](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
+                  + [컬렉션 수식어 삭제](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
+               + 개인화된 오퍼 {#personalized-offers}
+                  + [개인화된 오퍼 나열](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
+                  + [개인화된 오퍼 조회](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
+                  + [개인화된 오퍼 만들기](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
+                  + [개인화된 오퍼 업데이트](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
+                  + [개인화된 오퍼 삭제](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
+               + 대체 오퍼 {#fallback-offers}
+                  + [대체 오퍼 나열](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
+                  + [대체 오퍼 조회](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
+                  + [대체 오퍼 만들기](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
+                  + [대체 오퍼 업데이트](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
+                  + [대체 오퍼 삭제](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
+               + 컬렉션 {#collections}
+                  + [컬렉션 나열](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
+                  + [컬렉션 조회](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
+                  + [컬렉션 만들기](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
+                  + [컬렉션 업데이트](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
+                  + [컬렉션 삭제](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
+               + 결정 {#decisions-api}
+                  + [의사 결정 나열](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
+                  + [의사 결정 조회](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
+                  + [의사 결정 만들기](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
+                  + [의사 결정 업데이트](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
+                  + [의사 결정 삭제](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
+         + API를 사용하여 오퍼 게재 {#offer-delivery-api}
+            + [오퍼 게재 API 시작](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+            + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+            + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+            + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+   + Experience Decisioning (LA) {#experience-decisioning}
+      + [Experience Decisioning 시작](using/experience-decisioning/gs-experience-decisioning.md)
+      + 결정 항목 관리 {#decision-items}
+         + [항목 카탈로그 구성](using/experience-decisioning/catalogs.md)
+         + [결정 항목 만들기](using/experience-decisioning/items.md)
+         + [항목 컬렉션 관리](using/experience-decisioning/collections.md)
+      + 항목 선택 구성 {#selection}
+         + [의사 결정 규칙 만들기](using/experience-decisioning/rules.md)
+         + [등급 메서드 만들기](using/experience-decisioning/ranking.md)
+         + [컨텍스트 데이터 활용](using/experience-decisioning/context-data.md)
+      + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
+      + [결정 정책 만들기](using/experience-decisioning/create-decision.md)
+      + [Customer Journey Analytics에서 보고](using/experience-decisioning/cja-reporting.md)
 + 데이터 관리 {#data-management}
    + [데이터 관리 시작](using/data/gs-data.md)
    + [스키마 작업](using/data/get-started-schemas.md)

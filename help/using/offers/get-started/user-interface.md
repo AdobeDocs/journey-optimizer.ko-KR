@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 35%
+source-wordcount: '636'
+ht-degree: 33%
 
 ---
 
@@ -88,8 +88,4 @@ ht-degree: 35%
 
 ## 오퍼 및 의사 결정 변경 로그 {#changes-logs}
 
-오퍼 라이브러리를 사용하면 오퍼 또는 의사 결정에 수행된 모든 변경 사항을 시각화할 수 있습니다. 이렇게 하려면 목록에서 해당 이름을 클릭하여 오퍼 또는 의사 결정을 연 다음 **[!UICONTROL 변경 로그]** 탭.
-
-변경한 모든 내용은 이 화면과 변경 작업을 수행한 사용자의 이름이 표시됩니다.
-
-![](../assets/change-logs.png)
+[!DNL Journey Optimizer] 오퍼 또는 의사 결정에 대한 모든 변경 사항을 시각화할 수 있습니다. 이렇게 하려면 **[!UICONTROL 감사]** 왼쪽 메뉴에 있는 메뉴입니다. [리소스에 대한 작업을 감사하는 방법 알아보기](../../privacy/audit-logs.md)

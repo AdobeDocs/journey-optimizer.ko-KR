@@ -5,27 +5,15 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+badge: label="제한 공개"
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 10%
+source-wordcount: '330'
+ht-degree: 6%
 
 ---
 
 # Experience Decisioning 사용 사례 {#experience-decisioning-uc}
-
->[!BEGINSHADEBOX &quot;이 설명서 안내서에서 확인할 수 있는 사항&quot;]
-
-* [Experience Decisioning 시작](gs-experience-decisioning.md)
-* 의사 결정 항목 관리: [항목 카탈로그 구성](catalogs.md) -[의사 결정 항목 만들기](items.md) - [항목 컬렉션 관리](collections.md)
-* 항목의 선택 사항 구성: [의사 결정 규칙 만들기](rules.md) - [등급 메서드 만들기](ranking.md)
-* [선택 전략 만들기](selection-strategies.md)
-* [결정 정책 만들기](create-decision.md)
-
->[!ENDSHADEBOX]
 
 이 사용 사례에서는 타겟 대상자에게 가장 성과가 좋은 결정 정책을 측정하기 위해 각각 다른 결정 정책을 포함하는 두 개의 게재 처리를 정의합니다.
 
@@ -52,11 +40,7 @@ ht-degree: 10%
 
 각각 다른 결정 정책이 포함된 두 가지 게재 처리를 정의합니다.
 
-1. 캠페인을 만들고 다음을 선택합니다. **[!UICONTROL 코드 기반 경험(베타)]** 작업. [자세히 알아보기](../code-based/create-code-based.md)
-
-   >[!NOTE]
-   >
-   >코드 기반 경험 기능은 현재 사용자를 선택하는 베타 버전으로만 사용할 수 있습니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
+1. 캠페인을 만들고 다음을 선택합니다. **[!UICONTROL 코드 기반 경험]** 작업. [자세히 알아보기](../code-based/create-code-based.md)
 
 1. 캠페인 요약 페이지에서 **[!UICONTROL 실험 만들기]** 콘텐츠 실험 구성을 시작합니다. [자세히 알아보기](../campaigns/content-experiment.md)
 

@@ -1,32 +1,20 @@
 ---
 title: 항목 카탈로그
-description: 항목 카탈로그 작업 방법 알아보기
+description: 항목 카탈로그로 작업하는 방법을 알아봅니다.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 5%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
 # 항목 카탈로그 {#catalog}
-
->[!BEGINSHADEBOX &quot;이 설명서 안내서에서 확인할 수 있는 사항&quot;]
-
-* [Experience Decisioning 시작](gs-experience-decisioning.md)
-* 의사 결정 항목 관리: **[항목 카탈로그 구성](catalogs.md)** - [의사 결정 항목 만들기](items.md) - [항목 컬렉션 관리](collections.md)
-* 항목의 선택 사항 구성: [의사 결정 규칙 만들기](rules.md) - [등급 메서드 만들기](ranking.md)
-* [선택 전략 만들기](selection-strategies.md)
-* [결정 정책 만들기](create-decision.md)
-
->[!ENDSHADEBOX]
 
 Experience Decisioning에서 카탈로그는 의사 결정 항목을 구성하는 중앙 컨테이너 역할을 합니다. 각 카탈로그는 의사 결정 항목에 할당할 수 있는 모든 속성을 포함하는 Adobe Experience Platform 스키마에 연결됩니다.
 
@@ -53,10 +41,9 @@ Experience Decisioning에서 카탈로그는 의사 결정 항목을 구성하�
 
    >[!CAUTION]
    >
-   >현재 Experience Decisioning은 아래에 나열된 데이터 유형만 지원합니다. 이러한 데이터 형식을 벗어나는 필드는 의사 결정 항목을 만들 때 사용할 수 없습니다.
-   >* 문자열
-   >* 부울
-   >* 숫자
+   >현재 Experience Decisioning은 String, Integer, Boolean, Date, DateTime 및 Decisioning 자산과 같은 데이터 유형만 지원합니다. 이러한 데이터 형식을 벗어나는 필드는 의사 결정 항목이나 카탈로그를 작성할 때 사용할 수 없습니다.
+
+   자산 속성을 결정하는 속성에 입력되는 값은 공개 URL입니다. 대부분의 경우 이미지를 가리킵니다.
 
    Adobe Experience Platform 스키마로 작업하는 방법에 대한 자세한 내용은 [XDM 시스템 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko).
 
