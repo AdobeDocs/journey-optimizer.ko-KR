@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 다국어 콘텐츠 시작
-description: Journey Optimizer 다국어 콘텐츠에 대해 자세히 알아보기
+title: 수동 번역을 사용하여 다국어 콘텐츠 만들기
+description: Journey Optimizer에서 수동 번역을 사용하여 다국어 콘텐츠를 만드는 방법을 알아봅니다
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '665'
 ht-degree: 6%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 6%
 **목차**
 
 * [다국어 콘텐츠 시작](multilingual-gs.md)
-* **[수동 번역을 사용하여 다국어 콘텐츠 만들기](multilingual-manual.md)**
+* 수동 번역을 사용하여 다국어 콘텐츠 만들기
 * [자동 번역을 사용하여 다국어 콘텐츠 만들기](multilingual-automated.md)
 * [다국어 캠페인 보고서](multilingual-report.md)
 
