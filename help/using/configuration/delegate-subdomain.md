@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
+source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->기본적으로, [!DNL Journey Optimizer] 최대 10개의 하위 도메인을 위임할 수 있습니다. 그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 권한이 부여된 하위 도메인 수에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>기본적으로, [!DNL Journey Optimizer] 최대 10개의 하위 도메인을 위임할 수 있습니다. 그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 부여된 하위 도메인 수에 대해 자세히 알아보려면 Adobe 담당자에게 문의하십시오.
 
 하위 도메인을 완전히 위임하거나 CNAME을 사용하여 하위 도메인을 만들어 Adobe 관련 레코드를 가리키도록 할 수 있습니다.
 
@@ -49,7 +49,7 @@ ht-degree: 21%
 >id="ajo_admin_subdomain_dns"
 >title="일치하는 DNS 레코드 생성"
 >abstract="새 하위 도메인을 Adobe에 완전히 위임하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. CNAME을 사용하여 하위 도메인을 위임하려면 SSL CDN URL 인증 레코드도 복사하여 붙여넣어야 합니다. 확인이 완료되면 메시지 게재에 하위 도메인을 사용할 준비가 되었습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="CNAME 하위 도메인 위임"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME 하위 도메인 위임"
 
 [!DNL Journey Optimizer] 을 사용하면 하위 도메인을 제품 인터페이스에서 직접 Adobe에 완전히 위임할 수 있습니다. 이렇게 하면 Adobe은 이메일 캠페인 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리하여 메시지를 관리 서비스로 전달할 수 있습니다.
 
