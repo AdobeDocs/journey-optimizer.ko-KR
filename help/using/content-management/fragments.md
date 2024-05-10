@@ -21,7 +21,7 @@ ht-degree: 13%
 >id="ajo_create_fragment"
 >title="나만의 조각 정의"
 >abstract="여러 여정과 캠페인 전반에서 콘텐츠를 재사용할 수 있도록 독립 실행형 조각을 만들고 관리합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="조각 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html?lang=ko-KR#create-fragments" text="조각 만들기"
 
 조각은 의 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다 [!DNL Journey Optimizer] 캠페인 및 여정.
 
@@ -170,7 +170,7 @@ ht-degree: 13%
 >id="ajo_create_visual_fragment"
 >title="비주얼 유형 선택"
 >abstract="여정 또는 캠페인 내의 이메일이나 콘텐츠 템플릿에서 콘텐츠를 재사용할 수 있도록 독립 실행형 시각적 조각을 만듭니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="이메일에 비주얼 조각 추가"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=ko-KR" text="이메일에 비주얼 조각 추가"
 
 1. [조각 만들기](#create-from-scratch) 다음에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴에서 **[!UICONTROL 시각적 조각]** 유형.
 
@@ -200,7 +200,7 @@ ht-degree: 13%
 >id="ajo_create_expression_fragment"
 >title="표현식 유형 선택"
 >abstract="여러 여정과 캠페인 전반에서 콘텐츠를 재사용할 수 있도록 독립 실행형 표현식 조각을 만듭니다. 표현식 편집기를 사용하면 현재 샌드박스에서 생성된 모든 표현식 조각을 활용할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="표현식 조각 활용"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=ko-KR" text="표현식 조각 활용"
 
 1. [조각 만들기](#create-from-scratch) 다음에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴에서 **[!UICONTROL 표현식 조각]** 유형.
 

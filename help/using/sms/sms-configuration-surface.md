@@ -6,10 +6,11 @@ description: Journey Optimizer에서 문자 메시지를 보내도록 SMS/MMS �
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 0d541520-016e-468f-b011-808712847556
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 7%
 >id="ajo_admin_surface_sms_type"
 >title="메시지 범주 정의"
 >abstract="이 표면을 사용하여 문자 메시지 유형 선택: 사용자 동의가 필요한 프로모션 메시지를 위한 마케팅 또는 암호 재설정과 같은 비상업적 메시지를 위한 트랜잭션."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="마케팅 문자 메시지 옵트아웃"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko-KR#sms-opt-out-management" text="마케팅 문자 메시지 옵트아웃"
 
 SMS/MMS 채널이 구성되면 SMS 및 MMS 메시지를 보낼 수 있는 채널 표면을 만들어야 합니다. **[!DNL Journey Optimizer]**.
 
@@ -87,4 +88,3 @@ SMS/MMS 채널이 구성되면 SMS 및 MMS 메시지를 보낼 수 있는 채널
    ![](assets/preset-active.png)
 
 이제 Journey Optimizer에서 문자 메시지를 보낼 준비가 되었습니다.
-

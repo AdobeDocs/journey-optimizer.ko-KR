@@ -36,7 +36,7 @@ ht-degree: 31%
 >id="ajo_dm_file_routing_details"
 >title="파일 라우팅 구성 정의"
 >abstract="DM 메시지를 만든 후에는 타겟팅된 대상자 데이터가 포함된 파일을 생성하여 서버로 내보냅니다. DM 공급자가 DM 게재를 위해 해당 파일에 액세스하여 사용할 수 있도록 서버 세부 사항을 지정해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="다이렉트 메일 메시지 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html?lang=ko-KR" text="다이렉트 메일 메시지 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -104,7 +104,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 >id="ajo_dm_surface_settings"
 >title="DM 설정 정의"
 >abstract="DM 표면에는 타겟팅된 대상자 데이터가 있고 메일 공급자가 사용할 수 있는 파일 형식에 대한 설정이 포함됩니다. 파일 라우팅 구성을 선택하여 파일을 내보낼 위치도 정의해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="파일 라우팅 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=ko-KR#file-routing-configuration" text="파일 라우팅 구성"
 
 <!--
 >[!CONTEXTUALHELP]

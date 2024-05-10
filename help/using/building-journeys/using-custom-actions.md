@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 사용자 정의 작업 사용
+title: 사용자 정의 액션 사용
 description: 사용자 지정 작업을 사용하는 방법 알아보기
 feature: Journeys, Actions, Custom Actions
 topic: Content Management
@@ -16,14 +16,14 @@ ht-degree: 26%
 
 ---
 
-# 사용자 정의 작업 사용 {#use-custom-actions}
+# 사용자 정의 액션 사용 {#use-custom-actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"
 >title="사용자 정의 작업"
->abstract="사용자 정의 작업에서는 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다. JSON 형식 페이로드를 사용하여 REST API를 통해 호출할 수 있는 모든 공급자의 어떤 서비스로든 작업을 구성할 수 있습니다."
+>abstract="사용자 정의 액션에서는 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다. JSON 형식 페이로드를 사용하여 REST API를 통해 호출할 수 있는 모든 공급자의 어떤 서비스로든 작업을 구성할 수 있습니다."
 
-사용자 정의 작업에서는 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다. JSON 형식 페이로드를 사용하여 REST API를 통해 호출할 수 있는 모든 공급자의 어떤 서비스로든 작업을 구성할 수 있습니다.
+사용자 정의 액션에서는 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다. JSON 형식 페이로드를 사용하여 REST API를 통해 호출할 수 있는 모든 공급자의 어떤 서비스로든 작업을 구성할 수 있습니다.
 
 ## 동의 및 데이터 거버넌스 {#privacy}
 

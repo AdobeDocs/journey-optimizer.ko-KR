@@ -269,7 +269,7 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 >id="ajo_admin_ip_warmup_upload"
 >title="IP 워밍업 플랜 지정"
 >abstract="IP 워밍업 단계 및 목표 프로필 수와 같이 계획에 공급할 모든 데이터로 Excel 템플릿을 채우고 여기에 업로드합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="IP 워밍업 플랜 파일 준비"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=ko-KR#prepare-file" text="IP 워밍업 플랜 파일 준비"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"

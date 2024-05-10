@@ -22,7 +22,7 @@ ht-degree: 21%
 >id="ajo_use_template"
 >title="템플릿으로 콘텐츠 빌드"
 >abstract="이메일 콘텐츠 만들기를 시작하려면 기본 제공 템플릿, 아니면 새로 만들거나 기존 이메일을 템플릿으로 저장한 사용자 정의 템플릿을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html#create-content-templates" text="콘텐츠 템플릿 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html?lang=ko-KR#create-content-templates" text="콘텐츠 템플릿 만들기"
 
 다음에서 **[!UICONTROL 이메일 만들기]** 화면, 사용 **[!UICONTROL 디자인 템플릿 선택]** 템플릿에서 콘텐츠 작성을 시작하는 섹션입니다.
 

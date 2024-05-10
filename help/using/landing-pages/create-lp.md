@@ -60,14 +60,14 @@ ht-degree: 21%
 >id="ajo_lp_create"
 >title="랜딩 페이지 정의 및 구성"
 >abstract="랜딩 페이지를 만들려면 사전 설정을 선택한 다음 기본 페이지와 하위 페이지를 구성하고 게시하기 전에 마지막으로 테스트해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="랜딩 페이지 게시"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=ko-KR#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html?lang=ko-KR#publish-landing-page" text="랜딩 페이지 게시"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
 >title="랜딩 페이지에 레이블 지정"
 >abstract="민감한 디지털 자산을 보호하기 위해 레이블을 사용하여 랜딩 페이지에 대한 데이터 액세스를 관리하는 권한을 정의할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="오브젝트 수준 액세스 제어"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=ko-KR" text="오브젝트 수준 액세스 제어"
 
 랜딩 페이지를 만드는 주요 단계는 다음과 같습니다.
 
@@ -111,14 +111,14 @@ ht-degree: 21%
 >id="ajo_lp_primary_page"
 >title="기본 페이지 설정 정의"
 >abstract="사용자가 이메일 또는 웹 사이트 등 랜딩 페이지 링크를 클릭하면 기본 페이지가 바로 표시됩니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="랜딩 페이지 콘텐츠 디자인"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=ko-KR" text="랜딩 페이지 콘텐츠 디자인"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
 >title="랜딩 페이지 URL 정의"
 >abstract="이 섹션에서는 고유 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 이전에 설정해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="랜딩 페이지 하위 도메인 구성"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=ko-KR" text="랜딩 페이지 하위 도메인 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=ko-KR#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 기본 페이지는 이메일이나 웹 사이트 등과 같이 사용자가 랜딩 페이지에 대한 링크를 클릭한 후 즉시 표시되는 페이지입니다.
 
@@ -178,14 +178,14 @@ ht-degree: 21%
 >id="ajo_lp_subpage"
 >title="하위 페이지 설정 정의"
 >abstract="최대 2개의 하위 페이지를 추가할 수 있습니다. 예를 들어 사용자가 양식을 제출하면 표시되는 “감사” 페이지를 만들고, 랜딩 페이지에 문제가 발생하는 경우 호출되는 오류 페이지를 정의할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="랜딩 페이지 콘텐츠 디자인"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=ko-KR" text="랜딩 페이지 콘텐츠 디자인"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
 >title="랜딩 페이지 URL 정의"
 >abstract="이 섹션에서는 고유 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 이전에 설정해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="랜딩 페이지 하위 도메인 구성"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=ko-KR" text="랜딩 페이지 하위 도메인 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=ko-KR#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 최대 2개의 하위 페이지를 추가할 수 있습니다. 예를 들어 사용자가 양식을 제출하면 표시되는 “감사” 페이지를 만들고, 랜딩 페이지에 문제가 발생하는 경우 호출되는 오류 페이지를 정의할 수 있습니다.
 
@@ -215,7 +215,7 @@ ht-degree: 21%
 >id="ac_preview_lp_profiles"
 >title="랜딩 페이지 미리보기 및 테스트"
 >abstract="랜딩 페이지 설정 및 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리보기할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="테스트 프로필 선택"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=ko-KR" text="테스트 프로필 선택"
 
 랜딩 페이지 설정 및 콘텐츠를 정의하고 나면 테스트 프로필을 사용하여 미리 볼 수 있습니다. 를 삽입한 경우 [개인화된 콘텐츠](../personalization/personalize.md), 테스트 프로필 데이터를 사용하여 이 콘텐츠가 랜딩 페이지에 표시되는 방식을 확인할 수 있습니다.
 
