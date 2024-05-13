@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '2022'
-ht-degree: 100%
+source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 ## 조각 가드레일 {#fragments-guardrails}
 
 * 시각적 조각은 이메일 채널에만 사용할 수 있습니다.
-* 웹 및 인앱 채널에는 표현식 조각을 사용할 수 없습니다.
+* 인앱 채널에는 표현식 조각을 사용할 수 없습니다.
 
 ## 여정 보호  {#journeys-guardrails}
 

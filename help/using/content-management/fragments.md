@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: dbe8ea3a8655f180576dafc5d1a65feb58fb57df
+source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1561'
 ht-degree: 13%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 13%
 
 * 시각적 조각은 이메일 채널에만 사용할 수 있습니다.
 
-* 웹 및 인앱 채널에는 표현식 조각을 사용할 수 없습니다.
+* 인앱 채널에는 표현식 조각을 사용할 수 없습니다.
 
 ## 조각 액세스 및 관리 {#access-manage-fragments}
 
