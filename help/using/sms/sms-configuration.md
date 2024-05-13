@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
+source-git-commit: a08a28d7bfe912ff545ca559bd04b70642fe2ab5
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 37%
@@ -43,7 +43,7 @@ SMS 또는 MMS를 보내기 전에 Adobe Journey Optimizer 환경을 구성해�
    * [Sinch 포함](sms-configuration-sinch.md)
    * [Infobip 사용](sms-configuration-infobip.md)
    * [Twilio 사용](sms-configuration-twilio.md)
-1. [SMS 표면 만들기](#message-preset-sms)
+1. [SMS 표면 만들기](sms-configuration-surface.md)
 
 이 단계는 Adobe Journey Optimizer에서 수행해야 합니다 [시스템 관리자](../start/path/administrator.md).
 
