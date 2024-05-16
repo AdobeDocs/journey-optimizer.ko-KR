@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 628d49ee45ce161fc5e213bda60cb44d41223369
+source-git-commit: c667d04e22ad3addb35b1508366295a89751d8f0
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 26%
@@ -137,6 +137,6 @@ Beta에서 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 **여정**
 
-* **병합 정책** (제한된 가용성) - 이제 여정에서 사용하는 병합 정책이 여정 전체에서 일관되게 표시됩니다.
+* **병합 정책** (제한된 가용성) - 이제 여정에서 사용하는 병합 정책이 여정 전체에서 볼 수 있으며 일관됩니다.
 * **mTLS 지원** - 이제 mTLS 프로토콜이 Journey Optimizer API 및 사용자 지정 작업에서 지원됩니다.
 * **이벤트의 조회 테이블** - 이제 개체 배열 내의 특성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값은 여정(조건, 사용자 지정 작업 등)에서 사용할 수 있습니다. 및 메시지 개인화를 참조하십시오.
