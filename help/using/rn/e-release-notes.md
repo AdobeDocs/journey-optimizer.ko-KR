@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 34%
+source-wordcount: '764'
+ht-degree: 31%
 
 ---
 
@@ -85,33 +85,17 @@ ht-degree: 34%
 <table>
 <thead>
 <tr>
-<th><strong>로컬 조회 - Beta에 대한 다중 엔티티 지원</strong><br/></th>
+<th><strong>확장된 개인화 데이터 - 베타</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>TBD</p>
+<p>이제 Adobe Experience Platform 데이터 세트 내에서 데이터 값을 조회 및 가져오고 이러한 값을 사용하여 Adobe Journey Optimizer에서 조건을 작성할 수 있습니다. 개체 배열 내의 특성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값은 여정 조건, 사용자 지정 작업 및 메시지 개인화에서 사용할 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 ### 개선 사항 {#e-improvements}
 
@@ -137,7 +121,7 @@ Beta에서 LA까지 다음과 같은 개선 사항이 추가되었습니다.
 **이메일 채널**
 
 * **목록 구독 취소** - 대량 발신자에 대한 최근 Gmail 및 Yahoo 공지에 따라 Journey Optimizer은 &quot;게시/1클릭&quot; 목록 구독 취소 옵션을 지원합니다.
-* **스팸 점수** - 이제 전용 스팸 보고서에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 공급자가 스팸으로 간주할지 여부를 나타내는 점수를 제공할 수 있습니다. [자세히 보기](../content-management/spam-report.md)
+* **스팸 점수** (베타) - 이제 전용 스팸 보고서에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 공급자가 스팸으로 간주할지 여부를 나타내는 점수를 제공할 수 있습니다. [자세히 보기](../content-management/spam-report.md)
 
 
 **대상자**
@@ -146,10 +130,10 @@ Beta에서 LA까지 다음과 같은 개선 사항이 추가되었습니다.
 
 **개인화**
 
-* **조회 테이블** - 이제 개체 배열 내의 특성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값은 여정(조건, 사용자 지정 작업 등)에서 사용할 수 있습니다. 및 메시지 개인화를 참조하십시오.
-* **표현식 조각** - 이제 인앱 채널에 표현식 조각을 사용할 수 있습니다.
+* **표현식 조각** - 이제 표현식 조각을 사용할 수 있습니다. **인앱 채널**. [자세히 보기](../personalization/use-expression-fragments.md)
 
 **여정**
 
 * **병합 정책** - 이제 병합 정책을 구성하고 여정에서 사용할 수 있습니다.
 * **mTLS 지원** - 이제 mTLS 프로토콜이 Journey Optimizer API 및 사용자 지정 작업에서 지원됩니다.
+* **이벤트의 조회 테이블** - 이제 개체 배열 내의 특성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값은 여정(조건, 사용자 지정 작업 등)에서 사용할 수 있습니다. 및 메시지 개인화를 참조하십시오.
