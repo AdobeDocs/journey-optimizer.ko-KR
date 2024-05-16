@@ -28,7 +28,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="오퍼 우선 순위 정보"
->abstract="이 필드에서 오퍼에 대한 우선 순위 설정을 지정할 수 있습니다. 우선 순위는 적격성, 날짜 및 한도와 같은 모든 제한 조건을 충족하는 오퍼 순위를 매기는 데 사용되는 숫자입니다."
+>abstract="이 필드에서 오퍼에 대한 우선 순위 설정을 지정할 수 있습니다. 우선 순위는 적격성, 날짜 및 상한 설정과 같은 모든 제한 조건을 충족하는 오퍼 순위를 매기는 데 사용되는 숫자입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
@@ -131,18 +131,18 @@ ht-degree: 15%
 
   에서 의사 결정 규칙에 대해 자세히 알아보기 [이 섹션](creating-decision-rules.md).
 
-## 한도 {#capping}
+## 상한 설정 {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
->title="오퍼 한도 정보"
+>title="오퍼 상한 설정 정보"
 >abstract="이 필드에서 오퍼를 제시할 수 있는 횟수를 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="한도 사용"
->abstract="고객에게 과도하게 요청하지 않으려면 한도를 사용하여 오퍼를 제시할 수 있는 최대 횟수를 정의합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="날짜 변경은 한도에 영향을 미칠 수 있음"
+>title="상한 설정 사용"
+>abstract="고객에게 과도하게 요청하지 않으려면 상한 설정을 사용하여 오퍼를 제시할 수 있는 최대 횟수를 정의합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="날짜 변경은 상한 설정에 영향을 미칠 수 있음"
 
 한도는 오퍼를 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다.
 
@@ -176,12 +176,12 @@ ht-degree: 15%
 >
 >최대 가용량 카운터는 오퍼가 만료되거나 오퍼 시작 날짜 후 2년 중 먼저 도래하는 날짜에 재설정됩니다. 에서 오퍼의 날짜를 정의하는 방법 알아보기 [이 섹션](creating-personalized-offers.md#create-offer).
 
-### 한도 이벤트 {#capping-event}
+### 상한 설정 이벤트 {#capping-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
 >title="노출 횟수"
->abstract="한도 이벤트로 노출 횟수를 사용하는 것은 인바운드 채널에서만 사용할 수 있습니다."
+>abstract="상한 설정 이벤트로 노출 횟수를 사용하는 것은 인바운드 채널에서만 사용할 수 있습니다."
 
 다음 **[!UICONTROL 최대 이벤트]** 필드를 사용하면 카운터를 증가시키기 위해 고려할 이벤트를 정의할 수 있습니다.
 
@@ -252,7 +252,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="상한 빈도 설정"
->abstract="오퍼 한도 카운터를 매일, 매주 또는 매월 재설정하도록 선택할 수 있습니다. 빈도 설정이 활성화된 오퍼를 게시한 후에는 이미 정의된 빈도를 변경할 수 없다는 점을 참고하십시오."
+>abstract="오퍼 상한 설정 카운터를 매일, 매주 또는 매월 재설정하도록 선택할 수 있습니다. 빈도 설정이 활성화된 오퍼를 게시한 후에는 이미 정의된 빈도를 변경할 수 없다는 점을 참고하십시오."
 
 다음 **[!UICONTROL 빈도]** 섹션에서는 캡핑 횟수가 재설정되는 빈도를 정의할 수 있습니다. 이렇게 하려면 계산 기간(일별, 주별 또는 월별)을 정의하고 선택한 일/주/개월을 입력합니다. 예를 들어, 2주마다 최대 가용량 수를 재설정하려면 을 선택합니다. **[!UICONTROL 매주]** 해당 드롭다운 목록 및 유형에서 **2** 다른 필드에서.
 
@@ -293,12 +293,12 @@ ht-degree: 15%
 
   예를 들어 오퍼에 **이메일** 배치 및 **웹** 배치, 그리고 다음 위치에 캡핑 설정 **각 배치에 대해 프로필당 2개**&#x200B;를 설치한 후 각 프로필은 이메일 배치에 대해 최대 2회 오퍼를 수신하고 웹 배치에 대해 추가로 2회 오퍼를 수신할 수 있습니다.
 
-### 날짜 변경이 한도에 미치는 영향 {#capping-change-date}
+### 날짜 변경이 상한 설정에 미치는 영향 {#capping-change-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="날짜 변경은 한도에 영향을 미칠 수 있음"
->abstract="이 오퍼에 한도가 적용되면 시작 날짜 또는 종료 날짜를 변경할 때 영향을 받을 수 있습니다."
+>title="날짜 변경은 상한 설정에 영향을 미칠 수 있음"
+>abstract="이 오퍼에 상한 설정이 적용되면 시작 날짜 또는 종료 날짜를 변경할 때 영향을 받을 수 있습니다."
 
 다음 조건이 충족되는 경우 캡핑에 영향을 줄 수 있으므로 오퍼 날짜를 변경할 때 주의하여 진행해야 합니다.
 

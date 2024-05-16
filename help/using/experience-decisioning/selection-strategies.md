@@ -10,7 +10,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="선택 전략 정의"
->abstract="선택 전략은 재사용이 가능하며 의사 결정 정책에서 선택할 때 표시할 오퍼를 결정하는 자격 제한 및 등급 방법과 관련된 컬렉션으로 구성됩니다."
+>abstract="선택 전략은 재사용 가능하며, 결정 정책에서 선택 시 표시할 제안을 결정하기 위한 자격 조건 및 순위 지정 방법과 관련된 컬렉션으로 구성됩니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="결정 정책 만들기"
 
 >[!CONTEXTUALHELP]
