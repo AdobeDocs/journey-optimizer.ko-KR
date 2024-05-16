@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
+source-git-commit: 628d49ee45ce161fc5e213bda60cb44d41223369
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '844'
 ht-degree: 26%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>이제 세분화된 빈도 제한 규칙을 만들어 규칙 세트를 통해 다양한 유형의 마케팅 커뮤니케이션에 적용할 수 있습니다. 이 새로운 기능을 사용하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 크로스 채널 규칙을 설정하여 대상자가 메시지를 받는 빈도를 제어할 수 있습니다.</p>
-<p>비즈니스 규칙 기능은 현재 공개 베타로만 사용할 수 있습니다.</p>
+<p>비즈니스 규칙 기능은 현재 공개 베타로 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../configuration/business-rules.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -94,6 +94,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>이제 Adobe Experience Platform 데이터 세트 내에서 데이터 값을 조회 및 가져오고 이러한 값을 사용하여 Adobe Journey Optimizer에서 조건을 작성할 수 있습니다. 개체 배열 내의 특성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회를 위해 비프로필 지원 데이터 세트를 지정할 수 있습니다. 활성화되면 프로필 속성을 지정된 데이터 세트에 대한 조인 키로 사용하여 개인화를 위한 추가 데이터를 검색할 수 있습니다.</p>
+<p>이 기능은 현재 공개 베타로 사용할 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
