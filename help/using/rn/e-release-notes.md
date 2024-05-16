@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
+source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 31%
+source-wordcount: '836'
+ht-degree: 26%
 
 ---
 
@@ -75,7 +75,9 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p>이제 세분화된 빈도 제한 규칙을 만들어 규칙 세트를 통해 다양한 유형의 마케팅 커뮤니케이션에 적용할 수 있습니다. </p>
+<p>이제 세분화된 빈도 제한 규칙을 만들어 규칙 세트를 통해 다양한 유형의 마케팅 커뮤니케이션에 적용할 수 있습니다. 이 새로운 기능을 사용하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 크로스 채널 규칙을 설정하여 대상자가 메시지를 받는 빈도를 제어할 수 있습니다.</p>
+<p>비즈니스 규칙 기능은 현재 공개 베타로만 사용할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../configuration/business-rules.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -103,16 +105,16 @@ ht-degree: 31%
 
 **경험 의사 결정**
 
-Beta에서 LA까지 다음과 같은 개선 사항이 추가되었습니다.
+Beta에서 이 릴리스까지 다음과 같은 개선 사항이 추가되었습니다.
 
-* **Experience Decisioning + 코드 기반 경험(LA)**: 이제 Experience Decisioning 기능을 활용하여 코드 기반 캠페인에서 의사 결정 항목을 사용할 수 있습니다. 참고: 코드 기반 경험 채널 및 Experience Decisioning은 Adobe Healthcare Shield 및 Privacy and Security Shield 추가 기능 서비스를 구입한 조직에서는 사용할 수 없습니다. [자세히 보기](../code-based/get-started-code-based.md)
-* 이제 의사 결정 규칙 및 등급 지정에서 Adobe Experience Platform의 컨텍스트 데이터를 활용할 수 있습니다. [자세히 보기](../experience-decisioning/context-data.md)
-* 이제 의사 결정 관리 리소스에 대해 새로운 “경험 의사 결정 관리” 권한을 사용할 수 있습니다. 이를 통해 Experience Decisioning과 관련된 권한을 관리할 수 있습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md)
-* 이제 Experience Decisioning에서 지정된 의사 결정 항목에 대해 여러 개의 최대 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 높일 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping)
-* 이제 를 사용하여 Experience Decisioning 캠페인의 사용자 지정 보고 대시보드를 만들 수 있습니다 [!DNL Customer Journey Analytics]. [자세히 보기](../experience-decisioning/cja-reporting.md)
+* **Experience Decisioning + 코드 기반 경험(LA)** - 이제 Experience Decisioning 기능을 활용하여 코드 기반 캠페인에서 의사 결정 항목을 사용할 수 있습니다. 참고: 코드 기반 경험 채널 및 Experience Decisioning은 Adobe Healthcare Shield 및 Privacy and Security Shield 추가 기능 서비스를 구입한 조직에서는 사용할 수 없습니다. [자세히 보기](../code-based/get-started-code-based.md)
+* **컨텍스트 데이터** - 이제 의사 결정 규칙 및 등급 지정에서 Adobe Experience Platform의 컨텍스트 데이터를 활용할 수 있습니다. [자세히 보기](../experience-decisioning/context-data.md)
+* **새 권한** - 이제 의사 결정 관리 리소스에 대한 새로운 &#39;경험 의사 결정 관리&#39; 권한을 사용할 수 있습니다. 이를 통해 Experience Decisioning과 관련된 권한을 관리할 수 있습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md)
+* **최대 가용량 규칙** - 이제 Experience Decisioning에서 지정된 의사 결정 항목에 대해 여러 개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 높일 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping)
+* **보고** - 이제 를 사용하여 Experience Decisioning 캠페인의 사용자 지정 보고 대시보드를 만들 수 있습니다. [!DNL Customer Journey Analytics]. [자세히 보기](../experience-decisioning/cja-reporting.md)
 
 
-**Offer Decisioning**
+**의사 결정 관리**
 
 * **다중 규칙 지원** - 이제 의사 결정 관리에서 주어진 오퍼에 대해 최대 10개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다.
 * **감사** - **변경 로그** 오퍼 또는 의사 결정에 대한 모든 변경 사항이 제거된 것을 볼 수 있는 탭입니다. 이제 오퍼 및 의사 결정과 관련된 변경 사항을 **감사** 메뉴 아래 제품에서 사용할 수 있습니다.
@@ -134,6 +136,6 @@ Beta에서 LA까지 다음과 같은 개선 사항이 추가되었습니다.
 
 **여정**
 
-* **병합 정책** - 이제 병합 정책을 구성하고 여정에서 사용할 수 있습니다.
+* **병합 정책** (제한된 가용성) - 이제 여정에서 사용하는 병합 정책이 여정 전체에서 일관되게 표시됩니다.
 * **mTLS 지원** - 이제 mTLS 프로토콜이 Journey Optimizer API 및 사용자 지정 작업에서 지원됩니다.
 * **이벤트의 조회 테이블** - 이제 개체 배열 내의 특성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값은 여정(조건, 사용자 지정 작업 등)에서 사용할 수 있습니다. 및 메시지 개인화를 참조하십시오.
