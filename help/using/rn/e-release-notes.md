@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b779d297769bd7a0b6913a0142ee7be7775ba04
+source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 36%
+source-wordcount: '699'
+ht-degree: 34%
 
 ---
 
@@ -134,9 +134,11 @@ Beta에서 LA까지 다음과 같은 개선 사항이 추가되었습니다.
 * **감사** - **변경 로그** 오퍼 또는 의사 결정에 대한 모든 변경 사항이 제거된 것을 볼 수 있는 탭입니다. 이제 오퍼 및 의사 결정과 관련된 변경 사항을 **감사** 메뉴 아래 제품에서 사용할 수 있습니다.
 
 
-**목록 구독 취소**
+**이메일 채널**
 
-* 대량 발신자에 대한 최근 Gmail 및 Yahoo 공지에 이어 Journey Optimizer에서는 &quot;게시/1클릭&quot; 목록 구독 취소 옵션을 지원합니다.
+* **목록 구독 취소** - 대량 발신자에 대한 최근 Gmail 및 Yahoo 공지에 따라 Journey Optimizer은 &quot;게시/1클릭&quot; 목록 구독 취소 옵션을 지원합니다.
+* **스팸 점수** - 이제 전용 스팸 보고서에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 공급자가 스팸으로 간주할지 여부를 나타내는 점수를 제공할 수 있습니다. [자세히 보기](../content-management/spam-report.md)
+
 
 **대상자**
 
