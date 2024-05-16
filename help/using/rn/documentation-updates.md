@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '5230'
 ht-degree: 98%
@@ -87,7 +87,7 @@ ht-degree: 98%
 * 캐시 기간과 관련한 사용자 정의 인증 문서를 업데이트합니다. [자세히 보기](../datasource/external-data-sources.md)
 * 여러 함수에서 `<listObject>` 지원이 수정되었습니다.
 * `toString` 함수에서 **기간** 매개 변수를 업데이트합니다. [자세히 보기](../building-journeys/functions/functiontostring.md)
-* 일부 외부 데이터 소스 사용 사례의 경우 사용자 정의 작업 사용이 권장됩니다.
+* 일부 외부 데이터 소스 사용 사례의 경우 사용자 지정 작업을 사용하는 것이 좋습니다.
 * 이벤트 필드 구문이 업데이트되었습니다. 다음 구문은 사용되지 않고 `@(my_event.myfield}` `@event{my_event.myfield}`(으)로 대체되었습니다. [자세히 보기](../building-journeys/expression/field-references.md)
 * 글로벌 보고서 및 실시간 보고서 안내서가 재구성되었습니다. [자세히 보기](../reports/campaign-global-report.md)
 

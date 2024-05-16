@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '2415'
 ht-degree: 11%
@@ -145,7 +145,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 회신에 사용되는 받은 편지함은 부재 중 알림 및 챌린지 응답을 제외하고 모든 회신 이메일을 수신합니다. **[!UICONTROL 오류 이메일]** 주소.
 
-올바른 회신 관리를 위해 아래 지침을 따르십시오.
+올바른 회신 관리를 위해 아래 권장 사항을 따르십시오.
 
 * 전용 받은 편지함이 이메일 표면을 사용하여 보내는 모든 회신 이메일을 받을 수 있는 충분한 수신 용량을 갖추고 있는지 확인합니다. 받은 편지함이 반송되면 고객으로부터 일부 답글이 수신되지 않을 수 있습니다.
 
