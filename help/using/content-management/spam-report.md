@@ -8,7 +8,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: 4c1dca7815594bbbf5a2d84682338e8b2d743965
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -30,8 +30,7 @@ ht-degree: 0%
 >
 >* 현재 스팸 보고서 분석은 영어로 된 콘텐츠에 대해서만 수행할 수 있습니다.
 >
->* >
->스팸 보고서는 유용한 항목이며 점수가 잘못된 메시지를 보내는 것을 방지하지 않습니다.
+>* 스팸 보고서는 유용한 항목이며 점수가 잘못된 메시지를 보내는 것을 방지하지 않습니다.
 
 에 액세스하려면 **[!UICONTROL 스팸 보고서]**&#x200B;을(를) 통해 아래 단계를 수행합니다.
 
