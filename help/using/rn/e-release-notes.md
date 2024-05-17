@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c667d04e22ad3addb35b1508366295a89751d8f0
+source-git-commit: b5e66c18590a452e582bd8727d957e6c721abe4a
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 26%
+source-wordcount: '825'
+ht-degree: 24%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>완전히 새로운 IP 주소로 이메일을 보내는 경우 이제 사용자 인터페이스에서 직접 IP 준비 워크플로우를 쉽게 수행할 수 있습니다. Adobe Journey Optimizer은 최적의 전달성을 위한 모범 사례를 따르는 IP 주소를 데워 올리는 표준화되고 효율적인 방법을 제공합니다.</p>
-<p>자세한 내용은 <a href="../configuration/ip-warmup-gs.md">세부 설명서</a>를 참조하십시오.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -77,7 +77,7 @@ ht-degree: 26%
 <td>
 <p>이제 세분화된 빈도 제한 규칙을 만들어 규칙 세트를 통해 다양한 유형의 마케팅 커뮤니케이션에 적용할 수 있습니다. 이 새로운 기능을 사용하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 크로스 채널 규칙을 설정하여 대상자가 메시지를 받는 빈도를 제어할 수 있습니다.</p>
 <p>비즈니스 규칙 기능은 현재 공개 베타로 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../configuration/business-rules.md">세부 설명서</a>를 참조하십시오.</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -124,7 +124,8 @@ Beta에서 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 **이메일 채널**
 
 * **목록 구독 취소** - 대량 발신자에 대한 최근 Gmail 및 Yahoo 공지에 따라 Journey Optimizer은 &quot;게시/1클릭&quot; 목록 구독 취소 옵션을 지원합니다.
-* **스팸 점수** (베타) - 이제 전용 스팸 보고서에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 공급자가 스팸으로 간주할지 여부를 나타내는 점수를 제공할 수 있습니다. [자세히 보기](../content-management/spam-report.md)
+* **스팸 점수** (베타) - 이제 전용 스팸 보고서에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 공급자가 스팸으로 간주할지 여부를 나타내는 점수를 제공할 수 있습니다.
+  <!--[Read more](../content-management/spam-report.md)-->
 
 
 **대상자**
@@ -133,10 +134,11 @@ Beta에서 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 **개인화**
 
-* **표현식 조각** - 이제 표현식 조각을 사용할 수 있습니다. **인앱 채널**. [자세히 보기](../personalization/use-expression-fragments.md)
+* **표현식 조각** - 이제 표현식 조각을 사용할 수 있습니다. **인앱 채널**.
+  <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 **여정**
 
-* **병합 정책** (제한된 가용성) - 이제 여정에서 사용하는 병합 정책이 여정 전체에서 볼 수 있으며 일관됩니다.
-* **mTLS 지원** - 이제 mTLS 프로토콜이 Journey Optimizer API 및 사용자 지정 작업에서 지원됩니다.
+<!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
+* **mTLS 지원** - 이제 사용자 지정 작업에서 mTLS 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 지정 작업 또는 여정에 필요한 추가 구성은 없습니다. mTLS 활성화 끝점이 감지되면 자동으로 발생합니다.
 * **이벤트의 조회 테이블** - 이제 개체 배열 내의 특성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값은 여정(조건, 사용자 지정 작업 등)에서 사용할 수 있습니다. 및 메시지 개인화를 참조하십시오.
