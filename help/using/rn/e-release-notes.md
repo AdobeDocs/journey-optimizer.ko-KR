@@ -5,13 +5,11 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 feature: Release Notes
 topic: Content Management
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 91a687563ecd989c89061996b5906bcc77e82e23
+source-git-commit: 1a9254ea7390be02210d770f657b1abb82d9e544
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 27%
+source-wordcount: '708'
+ht-degree: 26%
 
 ---
 
@@ -19,7 +17,7 @@ ht-degree: 27%
 
 [!DNL Adobe Journey Optimizer]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매월 말 [릴리스 정보](release-notes.md)에 통합됩니다.
 
-아래 초기 릴리스 정보는 릴리스를 사용할 수 있는 당일까지 사전 통지 없이 변경될 수 있습니다. 링크, 화면, 업데이트된 설명서는 릴리스 날짜의 [릴리스 정보](release-notes.md)에 게시됩니다.
+**아래의 초기 릴리스 노트는 릴리스 사용 가능 날짜까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 날짜의 [릴리스 정보](release-notes.md)에 게시됩니다.
 
 ## 2024년 5월 초기 릴리스 정보 {#e-2024}
 
@@ -127,10 +125,10 @@ Beta에서 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 * **스팸 점수** (베타) - 이제 전용 스팸 보고서에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 공급자가 스팸으로 간주할지 여부를 나타내는 점수를 제공할 수 있습니다.
   <!--[Read more](../content-management/spam-report.md)-->
 
+<!--
+**Audiences**
 
-**대상자**
-
-* 이제 Healthcare Shield 또는 Privacy and Security Shield에서 대상 구성 및 사용자 지정 업로드(CSV 파일)의 대상 및 속성을 사용할 수 있습니다.
+* The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **개인화**
 
