@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5e66c18590a452e582bd8727d957e6c721abe4a
+source-git-commit: 21b4c3dbdb4b26caa64104319d9f79e489bb5925
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 24%
+source-wordcount: '735'
+ht-degree: 27%
 
 ---
 
@@ -84,21 +84,21 @@ ht-degree: 24%
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>확장된 개인화 데이터 - 베타</strong><br/></th>
+<th><strong>Extended personalization data - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Experience Platform 데이터 세트 내에서 데이터 값을 조회 및 가져오고 이러한 값을 사용하여 Adobe Journey Optimizer에서 조건을 작성할 수 있습니다. 개체 배열 내의 특성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회를 위해 비프로필 지원 데이터 세트를 지정할 수 있습니다. 활성화되면 프로필 속성을 지정된 데이터 세트에 대한 조인 키로 사용하여 개인화를 위한 추가 데이터를 검색할 수 있습니다.</p>
-<p>이 기능은 현재 공개 베타로 사용할 수 있습니다.</p>
+<p>You can now lookup and fetch data values within Adobe Experience Platform datasets, and use these values to build conditions in Adobe Journey Optimizer. You can leverage data from a lookup dataset when a relationship has been defined using an attribute inside of an array of objects. You can specify non-profile enabled datasets for lookup. Once enabled, you can use a profile attribute as a join key to the specified dataset to retrive further data for personalization.</p>
+<p>This capability is currently available as a public beta.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 ### 개선 사항 {#e-improvements}
 
