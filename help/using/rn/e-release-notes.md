@@ -6,10 +6,10 @@ description: Journey Optimizer 초기 릴리스 정보
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7addbcaf12611860c0dde239b68be54493b99bb9
+source-git-commit: 72bf2933ad8e6a627b762c2eec62191d85d7e0cf
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 25%
+source-wordcount: '649'
+ht-degree: 28%
 
 ---
 
@@ -64,22 +64,22 @@ ht-degree: 25%
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>비즈니스 규칙 - 베타</strong><br/></th>
+<th><strong>Business rules - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 세분화된 빈도 제한 규칙을 만들어 규칙 세트를 통해 다양한 유형의 마케팅 커뮤니케이션에 적용할 수 있습니다. 이 새로운 기능을 사용하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 크로스 채널 규칙을 설정하여 대상자가 메시지를 받는 빈도를 제어할 수 있습니다.</p>
-<p>비즈니스 규칙 기능은 현재 Beta로 사용할 수 있습니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<p>You can now create granular frequency capping rules, and apply them to different types of marketing communications through rule sets. This new capability lets you control how often your audiences receive a message by setting cross-channel rules, that automatically exclude over-solicited profiles from messages and actions.</p>
+<p>Business rules capability is currently available as a beta. To join the beta program, contact your Adobe representative.</p>
+<p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <!--table>
