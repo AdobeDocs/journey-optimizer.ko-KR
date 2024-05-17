@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 21b4c3dbdb4b26caa64104319d9f79e489bb5925
+source-git-commit: 91a687563ecd989c89061996b5906bcc77e82e23
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '736'
 ht-degree: 27%
 
 ---
@@ -104,11 +104,11 @@ ht-degree: 27%
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-**경험 의사 결정**
+**경험 의사 결정** (제한된 가용성)
 
 Beta에서 이 릴리스까지 다음과 같은 개선 사항이 추가되었습니다.
 
-* **Experience Decisioning + 코드 기반 경험(LA)** - 이제 Experience Decisioning 기능을 활용하여 코드 기반 캠페인에서 의사 결정 항목을 사용할 수 있습니다. 참고: 코드 기반 경험 채널 및 Experience Decisioning은 Adobe Healthcare Shield 및 Privacy and Security Shield 추가 기능 서비스를 구입한 조직에서는 사용할 수 없습니다. [자세히 보기](../code-based/get-started-code-based.md)
+* **Experience Decisioning + 코드 기반 경험** - 이제 Experience Decisioning 기능을 활용하여 코드 기반 캠페인에서 의사 결정 항목을 사용할 수 있습니다. 참고: 코드 기반 경험 채널 및 Experience Decisioning은 Adobe Healthcare Shield 및 Privacy and Security Shield 추가 기능 서비스를 구입한 조직에서는 사용할 수 없습니다. [자세히 보기](../code-based/get-started-code-based.md)
 * **컨텍스트 데이터** - 이제 의사 결정 규칙 및 등급 지정에서 Adobe Experience Platform의 컨텍스트 데이터를 활용할 수 있습니다. [자세히 보기](../experience-decisioning/context-data.md)
 * **새 권한** - 이제 의사 결정 관리 리소스에 대한 새로운 &#39;경험 의사 결정 관리&#39; 권한을 사용할 수 있습니다. 이를 통해 Experience Decisioning과 관련된 권한을 관리할 수 있습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md)
 * **최대 가용량 규칙** - 이제 Experience Decisioning에서 지정된 의사 결정 항목에 대해 여러 개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 높일 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping)
