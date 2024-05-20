@@ -6,10 +6,10 @@ description: Journey Optimizer 초기 릴리스 정보
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 72bf2933ad8e6a627b762c2eec62191d85d7e0cf
+source-git-commit: bf098c2b8c1eeb48b4c2a2857db9946c32533ffe
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 28%
+source-wordcount: '705'
+ht-degree: 26%
 
 ---
 
@@ -140,3 +140,7 @@ Beta에서 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **mTLS 지원** - 이제 사용자 지정 작업에서 mTLS 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 지정 작업 또는 여정에 필요한 추가 구성은 없습니다. mTLS 활성화 끝점이 감지되면 자동으로 발생합니다.
 * **이벤트의 조회 테이블** - 이제 개체 배열 내의 특성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값은 여정(조건, 사용자 지정 작업 등)에서 사용할 수 있습니다. 및 메시지 개인화를 참조하십시오.
+
+**세계화**
+
+통합 사용자 경험을 제공하기 위한 지속적인 노력으로 Adobe Experience Cloud 제품 및 앱에서 사용되는 용어를 조화롭게 작성합니다. 이것은 객체의 이름과 관련된 경우 &quot;레이블&quot;로 변경되는 독일어 &quot;제목&quot;에 영향을 줍니다. 변경 사항은 UI 및 설명서에서 점진적으로 롤아웃됩니다.
