@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: e80148e9678e71329f8711dd201c7531b4f9aeae
+source-git-commit: fd0c1cc5b80b2f850599341953013410816cc2e7
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1224'
 ht-degree: 11%
 
 ---
@@ -22,11 +22,6 @@ ht-degree: 11%
 >id="ajo_business_rules_message_frequency_rules"
 >title="비즈니스 규칙"
 >abstract="비즈니스 규칙 설명"
-
->[!CONTEXTUALHELP]
->id="ajo_business_rules_rule_sets"
->title="규칙 세트"
->abstract="규칙 세트 설명"
 
 [!DNL Journey Optimizer] 을 사용하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 크로스 채널 규칙을 설정하여 사용자가 메시지를 받거나 여정에 들어가는 빈도를 제어할 수 있습니다.
 
