@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 표현식, 편집기
 hidefromtoc: true
 hide: true
-source-git-commit: ae26dfdf77433882dc57e5518a2ff5e0f7e3a3ce
+source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Journey Optimizer을 사용하면 표현식 편집기에서 Adobe Experience Pla
 
 1. 메시지와 같은 개인화를 정의할 수 있는 모든 컨텍스트에서 사용할 수 있는 표현식 편집기를 엽니다. [표현식 편집기 작업 방법 알아보기](../personalization/personalization-build-expressions.md)
 
-1. 도우미 함수 목록으로 이동하여 **다중 엔티티** 코드 창에 도우미 함수를 추가합니다.
+1. 도우미 함수 목록으로 이동하여 **datasetLookup** 코드 창에 도우미 함수를 추가합니다.
 
    ![](assets/aep-data-helper.png)
 
@@ -41,6 +41,11 @@ Journey Optimizer을 사용하면 표현식 편집기에서 Adobe Experience Pla
 
    * **entity.datasetId** 는 작업 중인 데이터 세트의 ID입니다.
    * **id** 는 데이터 세트에서 기본 ID로 사용되는 필드입니다.
+
+     >[!NOTE]
+     >
+     >이 필드에 입력한 값은 필드 ID( )일 수 있습니다.*profile.couponValue*), 여정 이벤트에서 전달된 필드(*여정 context.event.events.event_ID.couponValue*) 또는 정적 값(*쿠폰쿠폰쿠폰*). 어떤 경우든 시스템은 값을 사용하고 데이터 세트에 대한 조회를 사용하여 키가 일치하는지 확인합니다.
+
    * **결과** 는 데이터 집합에서 검색할 모든 필드 값을 참조하기 위해 제공해야 하는 임의의 이름입니다. 이 값은 코드에서 각 필드를 호출하는 데 사용됩니다.
 
    +++데이터 세트 ID를 검색할 위치
