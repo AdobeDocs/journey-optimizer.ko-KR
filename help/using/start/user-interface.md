@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: e9a32d396b3ebca1e0c7d115f12024eef55aeaa4
 workflow-type: tm+mt
 source-wordcount: '1317'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="Assurance를 통해 유효성 검사"
+>title="보증을 통해 유효성 검사"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -222,17 +222,17 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
->title="사이트 시작 및 유효성 검사"
+>title="사이트 실행 및 유효성 검사"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
->title="장치 토큰 검색"
+>title="디바이스 토큰 가져오기"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
->title="Xcode에서 응용 프로그램 실행"
+>title="Xcode에서 애플리케이션 실행"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
