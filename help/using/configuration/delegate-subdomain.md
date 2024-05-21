@@ -49,7 +49,7 @@ ht-degree: 23%
 >id="ajo_admin_subdomain_dns"
 >title="일치하는 DNS 레코드 생성"
 >abstract="새 하위 도메인을 Adobe에 완전히 위임하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. CNAME을 사용하여 하위 도메인을 위임하려면 SSL CDN URL 인증 레코드도 복사하여 붙여넣어야 합니다. 확인이 완료되면 메시지 게재에 하위 도메인을 사용할 준비가 되었습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME 하위 도메인 위임"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME 하위 도메인 위임"
 
 [!DNL Journey Optimizer] 을 사용하면 하위 도메인을 제품 인터페이스에서 직접 Adobe에 완전히 위임할 수 있습니다. 이렇게 하면 Adobe은 이메일 캠페인 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리하여 메시지를 관리 서비스로 전달할 수 있습니다.
 
