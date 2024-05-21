@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 96%
+source-wordcount: '1808'
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 96%
          + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
          + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
          + [외부 데이터 원본 및 사용자 지정 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
-         + [사용자 지정 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
+         + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 캠페인{#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)
@@ -230,7 +230,7 @@ ht-degree: 96%
    + [텍스트 메시지 확인하고 보내기](using/sms/send-sms.md)
    + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
    + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
-   + SMS/MMS 채널 구성{#configure-sms}
+   + SMS / MMS 채널 구성{#configure-sms}
       + [SMS 구성 시작](using/sms/sms-configuration.md)
       + [Sinch 공급자 구성](using/sms/sms-configuration-sinch.md)
       + [Infobip 공급자 구성](using/sms/sms-configuration-infobip.md)
@@ -271,12 +271,12 @@ ht-degree: 96%
       + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
 + 콘텐츠 관리 {#content-management}
-   + AI 비서 작업{#ai-assistant}
+   + AI 어시스턴트 작업{#ai-assistant}
       + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
       + [이메일 생성](using/content-management/generative-email.md)
-      + [푸시 생성](using/content-management/generative-push.md)
+      + [CSR 생성](using/content-management/generative-push.md)
       + [SMS 생성](using/content-management/generative-sms.md)
-      + [AI Assistant를 사용한 콘텐츠 실험](using/content-management/generative-experimentation.md)
+      + [AI 어시스턴트로 콘텐츠 실험](using/content-management/generative-experimentation.md)
    + 다국어 콘텐츠 작업{#content-multilingual}
       + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
       + [수동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-manual.md)
@@ -515,7 +515,7 @@ ht-degree: 96%
             + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Experience Decisioning (LA) {#experience-decisioning}
+   + 경험 결정(LA) {#experience-decisioning}
       + [Experience Decisioning 시작](using/experience-decisioning/gs-experience-decisioning.md)
       + 결정 항목 관리 {#decision-items}
          + [항목 카탈로그 구성](using/experience-decisioning/catalogs.md)
@@ -524,7 +524,7 @@ ht-degree: 96%
       + 항목 선택 구성 {#selection}
          + [의사 결정 규칙 만들기](using/experience-decisioning/rules.md)
          + [등급 메서드 만들기](using/experience-decisioning/ranking.md)
-         + [컨텍스트 데이터 활용](using/experience-decisioning/context-data.md)
+         + [컨텍스트 데이터 ](using/experience-decisioning/context-data.md)
       + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
       + [결정 정책 만들기](using/experience-decisioning/create-decision.md)
       + [Customer Journey Analytics에서 보고](using/experience-decisioning/cja-reporting.md)
@@ -562,6 +562,7 @@ ht-degree: 96%
    + [실행 주소 변경](using/configuration/primary-email-addresses.md)
    + [빈도 규칙 구성](using/configuration/frequency-rules.md)
    + [비즈니스 규칙 작업](using/configuration/business-rules.md)
+   + [규칙 집합 작업](using/configuration/rule-sets.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
       + 외부 시스템과 통합 {#external-systems}
