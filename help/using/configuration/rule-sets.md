@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
+source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1605'
 ht-degree: 8%
 
 ---
@@ -157,8 +157,6 @@ ht-degree: 8%
 캠페인/여정에서 규칙 세트에 액세스하고 메시지에 적용하려면 규칙 세트를 활성화해야 합니다.
 
 ![](assets/rule-set-activate-set.png)
-
-규칙 세트를 활성화하면 규칙 세트가 다음 실행에 적용되는 모든 메시지에 영향을 줍니다. 방법 알아보기 [메시지에 규칙 세트 적용](#apply-rule-set).
 
 >[!NOTE]
 >
