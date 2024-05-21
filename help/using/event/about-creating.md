@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 0f1c4b96e930e8e473463002c1d8ef66341a07c4
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1609'
 ht-degree: 12%
 
 ---
@@ -61,14 +61,18 @@ ht-degree: 12%
    >
    >다음을 선택하면 **[!UICONTROL 시스템 생성됨]** type을 입력하면 eventID type 필드가 있는 스키마만 사용할 수 있습니다. 다음을 선택하면 **[!UICONTROL 규칙 기반]** 유형, 모든 경험 이벤트 스키마를 사용할 수 있습니다.
 
-1. 규칙 기반 이벤트의 경우 **[!UICONTROL 이벤트 ID 조건]** 필드. 단순 표현식 편집기를 사용하여 여정을 트리거할 이벤트를 식별하는 데 시스템에서 사용할 조건을 정의합니다.
+1. 규칙 기반 이벤트의 경우 **[!UICONTROL 이벤트 ID 조건]** 필드. 단순 또는 고급 표현식 편집기를 사용하여 여정을 트리거할 이벤트를 식별하는 데 시스템에서 사용할 조건을 정의합니다.
    ![](assets/jo-event6.png)
+
+   >[!NOTE]
+   >
+   >이벤트 구성의 고급 표현식 편집기는 선택한 고객에게 제한된 가용성으로 사용할 수 있습니다.
 
    이 예제에서는 프로필의 도시를 기반으로 조건을 작성했습니다. 즉, 시스템이 이 조건(**[!UICONTROL 도시]** 필드 및 **[!UICONTROL 파리]** value)를 입력하면 여정에게 전달됩니다.
 
    >[!NOTE]
    >
-   >고급 표현식 편집기는 를 정의할 때 사용할 수 없습니다. **[!UICONTROL 이벤트 ID 조건]**. 단순 표현식 편집기에서 모든 연산자를 사용할 수 있는 것은 아니며, 데이터 유형에 따라 다릅니다. 예를 들어 필드의 문자열 유형의 경우 &quot;포함&quot; 또는 &quot;같음&quot;을 사용할 수 있습니다.
+   >단순 표현식 편집기에서 모든 연산자를 사용할 수 있는 것은 아니며, 데이터 유형에 따라 다릅니다. 예를 들어 필드의 문자열 유형의 경우 &quot;포함&quot; 또는 &quot;같음&quot;을 사용할 수 있습니다.
    >
    >이벤트를 만든 후 새 열거형 값으로 스키마를 수정하는 경우, 다음 단계에 따라 변경 사항을 기존 이벤트에 적용해야 합니다. 이벤트 필드에서 열거형 필드를 선택 취소하고, 선택을 확인한 다음 열거형 필드를 다시 선택합니다. 이제 새 열거형 값이 표시됩니다.
 

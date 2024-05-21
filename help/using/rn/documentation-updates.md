@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '5230'
+source-wordcount: '5290'
 ht-degree: 98%
 
 ---
@@ -21,8 +21,11 @@ ht-degree: 98%
 
 ## 2024년 5월 {#may-2024}
 
-* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2024년 4월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-
+* 2023년 4월 릴리스의 새로운 기능과 개선 사항에 [!DNL Journey Optimizer]대한 자세한 내용은 설명서에 있습니다. [자세히 보기](release-notes.md)
+* 시드 목록의 섹션이 반복 여정에 대해 업데이트되었습니다. [자세히 보기](../configuration/seed-lists.md#use-seed-list)
+* 외부 데이터 소스에 대한 섹션이 업데이트되었습니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-access-token)
+* 30일의 전역 여정 시간 제한이 보호 및 제한 페이지에 추가되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
+* Adobe Campaign v7/v8 통합에 대한 섹션이 프로비저닝에 대한 정보로 업데이트되었습니다. [자세히 보기](../action/acc-action.md#access)
 
 ## 2024년 4월 {#april-2024}
 
@@ -31,9 +34,9 @@ ht-degree: 98%
 * Edge Decisioning API로 빈도 제한을 사용할 때 에지 및 허브 영역 관리에 대한 정보가 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
 * API 트리거 캠페인을 사용할 때 사용자 지정 네임스페이스로 ID를 만드는 방법에 대한 정보를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md)
 * 향상된 여정 캔버스를 반영하도록 스크린샷이 업데이트되었습니다.
-* 다음 페이지에서 이름 지정 제한이 업데이트되었습니다. [단일 이벤트 구성](../event/about-creating.md), [비즈니스 이벤트 구성](../event/about-creating-business.md#gs-business-events), [사용자 지정 작업 구성](../action/about-custom-action-configuration.md#configuration-steps), [외부 데이터 소스](../datasource/external-data-sources.md)
+* 다음 페이지에서 이름 지정 제한이 업데이트되었습니다. [단일 이벤트 구성](../event/about-creating.md), [비즈니스 이벤트 구성](../event/about-creating-business.md#gs-business-events), [사용자 정의 작업 구성](../action/about-custom-action-configuration.md#configuration-steps), [외부 데이터 소스](../datasource/external-data-sources.md)
 * 전송 시간 최적화 가용성에 대한 메모를 추가했습니다. [자세히 보기](../building-journeys/journeys-message.md#send-time-optimization)
-* Experience Platform에 데이터를 보내기 위한 사용자 지정 작업을 만드는 방법에 대한 새로운 기술 사용 사례가 추가되었습니다. [자세히 보기](../building-journeys/custom-action-aep.md)
+* Experience Platform에 데이터를 보내기 위한 사용자 정의 작업을 만드는 방법에 대한 새로운 기술 사용 사례가 추가되었습니다. [자세히 보기](../building-journeys/custom-action-aep.md)
 
 ## 2024년 3월 {#march-2024}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2086'
 ht-degree: 16%
 
 ---
@@ -211,6 +211,21 @@ ht-degree: 16%
 30일 여정 시간 제한으로 인해 여정 재입력이 허용되지 않는 경우 재입력 차단이 30일 이상 작동하도록 할 수 없습니다. 실제로 여정에 입장한 후 30일이 지난 사람에 대한 정보를 모두 삭제하기 때문에 30일 이상 전에 입력한 사람을 알 수 없습니다.
 
 개인은 30일 여정 제한 시간 전에 대기 기간을 완료할 수 있는 충분한 시간이 여정에 남아 있는 경우에만 대기 활동을 입력할 수 있습니다. [이 페이지](../building-journeys/wait-activity.md)를 참조하십시오.
+
+### 병합 정책 {#merge-policies}
+
+여정은 Adobe Experience Platform에서 프로필 데이터를 검색하는 동안 병합 정책을 사용합니다. 여정 유형에 따라 서로 다른 병합 정책이 사용됩니다.
+
+* 대상자 읽기 또는 대상자 자격 여정: 대상자의 병합 정책이 사용됩니다
+* 이벤트가 트리거된 여정: 기본 병합 정책이 사용됩니다
+
+여정은 전체 여정 동안 사용된 병합 정책을 적용합니다.
+
+>[!NOTE]
+>
+>이 기능은 선택한 고객의 LA(Limited Availability)에서만 사용할 수 있습니다.
+
+병합 정책에 대한 자세한 내용은 다음을 참조하십시오. [페이지](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ## 여정 복제 {#duplicate-a-journey}
 

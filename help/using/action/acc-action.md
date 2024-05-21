@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, 통합
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 22%
+source-wordcount: '540'
+ht-degree: 18%
 
 ---
 
@@ -25,11 +25,24 @@ ht-degree: 22%
 
 이 통합은 7.1 릴리스부터 Adobe Campaign v7/v8 및 Adobe Campaign v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다.
 
-Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다.
-
 이 슬라이드에는 엔드 투 엔드 활용 사례가 나와 있습니다 [섹션](../building-journeys/ajo-ac.md).
 
 구성된 각 작업에 대해 여정 디자이너 팔레트에서 작업 활동을 사용할 수 있습니다. 이 [섹션](../building-journeys/using-adobe-campaign-v7-v8.md)을 참조하십시오.
+
+## 액세스 {#access}
+
+Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 필요한 경우 프로비저닝 시 Adobe에 의해 설정됩니다. 프로비저닝 시 연결을 요청하지 않은 경우 Adobe Journey Optimizer 지원에 문의하고 다음 세부 정보를 제공하여 활성화를 요청하십시오.
+
+Adobe Journey Optimizer에서:
+
+* 조직 ID (Adobe OrgID)
+* 샌드박스
+
+Adobe Campaign에서:
+
+* 캠페인 URL
+* RT URL
+* Campaign 버전
 
 ## 중요 정보 {#important-notes}
 

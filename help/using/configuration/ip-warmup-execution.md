@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '2153'
-ht-degree: 14%
+source-wordcount: '2487'
+ht-degree: 11%
 
 ---
 
@@ -80,18 +80,6 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >실행이 활성화되면 사용자가 아닌 이상 제외를 수정할 수 없습니다. [실행 분할](#split-phase) 새로운 단계로 넘어갑니다.
 
-   1. 다음에서 **[!UICONTROL 프로필 제외]** 섹션에서 해당 단계의 이전 실행의 프로필이 항상 제외되어 있음을 확인할 수 있습니다. 예를 들어 실행 시 타겟팅되#1 처음 4800명에서 프로필이 포함된 경우 시스템은 동일한 프로필이 실행 시 이메일을 수신하지 않도록 자동으로 #2.
-
-      >[!NOTE]
-      >
-      >이 섹션은 편집할 수 없습니다.
-
-   1. 다음에서 **[!UICONTROL 캠페인 대상자 제외됨]** 섹션에서 현재 단계에서 제외할 대상자에 해당하는 캠페인을 선택합니다.
-
-      ![](assets/ip-warmup-plan-exclude-campaigns.png)
-
-      예를 들어 1단계를 실행하는 동안 [분할하기](#split-phase) 어떤 이유에서든. 따라서 1단계에서 사용된 캠페인을 제외하여 1단계에서 이전에 연락한 프로필이 2단계에 포함되지 않도록 할 수 있습니다. 다른 IP 준비 계획에서 캠페인을 제외할 수도 있습니다.
-
    1. 다음에서 **[!UICONTROL 도메인 그룹 제외됨]** 섹션에서 해당 단계에서 제외할 도메인을 선택합니다.
 
       >[!NOTE]
@@ -106,7 +94,30 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >에 추가된 사용자 정의 도메인 그룹만 제외할 수 있습니다. [IP 준비 계획 템플릿](ip-warmup-plan.md#prepare-file). 그렇지 않은 경우 제외할 사용자 정의 도메인 그룹으로 템플릿을 업데이트하고 [플랜 다시 업로드](#re-upload-plan).
 
-1. 필요한 경우 **[!UICONTROL 캠페인 바꾸기]** 단추를 클릭합니다.
+   1. 다음에서 **[!UICONTROL 프로필 제외 캠페인]** 섹션에서 현재 단계에서 제외할 대상자에 해당하는 캠페인을 선택합니다.
+
+      ![](assets/ip-warmup-plan-exclude-campaigns.png)
+
+      예를 들어 1단계를 실행하는 동안 [분할하기](#split-phase) 어떤 이유에서든. 따라서 1단계에서 사용된 캠페인을 제외하여 1단계에서 이전에 연락한 프로필이 2단계에 포함되지 않도록 할 수 있습니다. 다른 IP 준비 계획에서 캠페인을 제외할 수도 있습니다.
+
+   1. 다음에서 **[!UICONTROL 프로필 제외 여정]** 섹션에서 현재 단계에서 제외할 대상이 있는 여정을 선택합니다.
+
++++ 프로필 제외 여정 옵션을 사용하려면 AJO 메시지 피드백 이벤트와 AJO 엔티티 레코드 스키마 간의 관계를 설정해야 합니다.
+
+      1. 사용자 지정 만들기 **네임스페이스** 아래 단계의 id 유형으로 사용됩니다.
+
+      1. 다음에서 Adobe Experience Platform에 액세스: **스키마** 메뉴에서 **AJO 엔티티 레코드 스키마** 및 설정 **_id** 필드를 기본 id로 사용하고, 앞에서 만든 네임스페이스를 **ID 네임스페이스**.
+
+      1. 다음에서 **스키마** 메뉴에서 **AJO 메시지 피드백 이벤트 스키마**&#x200B;로 이동한 다음 **_messageID** 필드. 선택 **관계 추가** 및 선택 **AJO 엔티티 레코드 스키마** (으)로 **참조 스키마** 및 이전에 만든 네임스페이스를 **참조 ID 네임스페이스**.
++++
+
+   1. 다음에서 **[!UICONTROL 이전 실행에서 타겟팅된 프로필]** 섹션에서 해당 단계의 이전 실행의 프로필이 항상 제외되어 있음을 확인할 수 있습니다. 예를 들어 실행 시 타겟팅되#1 처음 4800명에서 프로필이 포함된 경우 시스템은 동일한 프로필이 실행 시 이메일을 수신하지 않도록 자동으로 #2.
+
+      >[!NOTE]
+      >
+      >이 섹션은 편집할 수 없습니다.
+
+1. 필요한 경우 **[!UICONTROL 바꾸기]** 단추를 클릭합니다. 다음을 사용하여 선택한 캠페인을 지울 수도 있습니다. **[!UICONTROL 지우기]** 단추를 클릭합니다. 그런 다음 즉시 또는 나중에 새 캠페인을 선택할 수 있습니다.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -122,7 +133,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!CAUTION]
    >
-   >실행을 취소할 수 없습니다. **[!UICONTROL 삭제]** 작업.
+   >실행을 취소할 수 없습니다. **[!UICONTROL 단계 삭제]** 작업.
 
    ![](assets/ip-warmup-plan-delete-phase.png)
 
@@ -155,7 +166,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="적격 프로필 보기"
->abstract="이 열에 적격 프로필 수가 표시됩니다. 대상자가 실행에 대해 평가된 후 적격 프로필보다 대상이 되는 프로필이 더 많은 경우 **Pause for errors(오류로 인해 일시 중지)** 옵션이 활성화된 경우가 아니라면 실행은 계속 실행됩니다. 해당 경우 실행은 취소됩니다."
+>abstract="이 열에 적격 프로필 수가 표시됩니다. 대상자에 대한 실행이 평가되면 적격 프로필보다 타겟팅된 프로필이 더 많은 경우 다음을 수행하지 않는 한 실행이 계속 실행됩니다. **오류 발생 시 활성화된 실행 취소** 옵션이 활성화되어 있습니다. 해당 경우 실행은 취소됩니다."
 
 1. 지정된 시간에 실행되도록 각 실행에 대한 일정을 선택합니다.
 
@@ -187,7 +198,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >실행에 참여 기간을 적용하지 않으려면 **[!UICONTROL 마지막 참여]** 필드.
 
-1. 다음 항목 선택 **[!UICONTROL 오류 발생 시 일시 중지]** 대상이 해당 실행에 대해 평가된 후 자격이 있는 프로필이 타겟팅된 프로필보다 적은 경우 실행을 취소하는 옵션입니다. 이 경우 실행은 **[!UICONTROL 실패]** 상태.
+1. 다음 항목 선택 **[!UICONTROL 오류 발생 시 활성화된 실행 취소]** 대상이 해당 실행에 대해 평가된 후 자격이 있는 프로필이 타겟팅된 프로필보다 적은 경우 실행을 취소하는 옵션입니다. 이 경우 실행은 **[!UICONTROL 실패]** 상태.
 
    ![](assets/ip-warmup-plan-pause.png)
 
@@ -199,21 +210,19 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >다양한 실행 상태가 다음에 나열됩니다. [이 섹션](#monitor-plan).
 
-1. 캠페인 실행이 시작되지 않은 경우 라이브 실행을 중단할 수 있습니다. 이 작업 액션은 실행 일정을 취소하며 전송을 중지하지 않습니다.
+1. 캠페인 실행이 시작되지 않은 경우 라이브 실행을 취소할 수 있습니다. 이 작업은 실행 일정을 실제로 취소하므로 전송을 중지하지 않습니다.
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
-   >[!NOTE]
-   >
-   >캠페인 실행이 시작되면 **[!UICONTROL 중지]** 버튼을 사용할 수 없게 됩니다.
+1. 초안, 라이브 또는 완료된 실행을 복제하려면 **[!UICONTROL 중복 실행]**. 복제 시 사용자가 다음을 조정할 수 있는 실행 편집 메뉴가 나타납니다. **[!UICONTROL 총 대상 프로필]** 및 **[!UICONTROL 전송 시간]** 필요한 경우.
 
-1. 실행을 추가하려면 다음을 선택합니다. **[!UICONTROL 아래에 실행 추가]** 추가 작업 아이콘에서 참조할 수 있습니다.
-
-   ![](assets/ip-warmup-plan-run-more-actions.png)
+   ![](assets/ip-warmup-duplicate.png)
 
 ## 실행 활성화 {#activate-run}
 
 실행을 활성화하려면 **[!UICONTROL 활성화]** 단추를 클릭합니다. 그런 다음 매일 다음 실행을 활성화할 수 있습니다.
+
+여러 IP 준비 계획을 동시에 실행할 때 모두 동일한 IP 풀 및 도메인을 대상으로 하므로 잠재적 결과를 예상하는 것이 중요합니다. 예를 들어 ISP에서 하루에 100개의 이메일 제한을 적용하는 경우 동일한 도메인을 대상으로 여러 플랜을 실행하면 이 임계값을 초과할 수 있습니다.
 
 을(를) 허용할 충분한 시간을 예약했는지 확인하십시오. [대상자 평가](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} 실행할 수 있습니다.
 
@@ -251,7 +260,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
      >[!NOTE]
      >
-     >실행 시마다 새 대상자 작성이 생성됩니다.
+     >실행 시마다 새 대상자 작성이 생성됩니다. 10개로 제한된 경우, 게시된 대상자 구성을 사용하여 여러 캠페인, 여정 및 IP 준비 계획을 동시에 실행하는 사용자는 병렬 작업을 위해 이 한도 내에서 계획해야 합니다.
      >
      >다음 반복이 활성화될 때 대상 구성(및 출력 대상)이 정리됩니다.
 
@@ -284,9 +293,9 @@ IP 워밍업 계획 자체가 한 곳에서 통합 보고서 역할을 한다. �
 실행은 다음과 같은 상태를 가질 수 있습니다.
 
 * **[!UICONTROL 초안]** : 실행이 생성될 때마다 [새 계획 생성](ip-warmup-plan.md) 또는 [실행 추가](#define-runs) 사용자 인터페이스에서 **[!UICONTROL 초안]** 상태.
-* **[!UICONTROL 라이브]**: 실행을 활성화할 때마다 **[!UICONTROL 라이브]** 상태. 즉, 전송이 시작된 것이 아니라 시스템이 실행 예약 요청을 수락했습니다.
-* **[!UICONTROL 완료됨]**: 이 실행에 대한 캠페인 실행이 완료되었습니다. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL 취소됨]**: a **[!UICONTROL 라이브]** 을(를) 사용하여 실행이 취소되었습니다. **[!UICONTROL 중지]** 단추 또는 를 활성화한 경우 **[!UICONTROL 오류 발생 시 일시 중지]** 옵션과 오류가 발생했습니다. [자세히 알아보기](#define-runs)
+* **[!UICONTROL 라이브]**: 실행을 활성화할 때마다 **[!UICONTROL 라이브]** 상태. 즉, 전송이 시작된 것이 아니라 시스템이 실행 예약 요청을 수락했습니다. 이 단계에서 를 클릭하여 라이브 실행의 상태를 확인할 수 있습니다. **[!UICONTROL 상태 보기]** 테이블 내 단추 이를 통해 실제로 적격한 타겟팅된 프로필의 수를 추적할 수 있습니다.
+* **[!UICONTROL 완료됨]**: 이 실행에 대한 캠페인 실행이 완료되었습니다. 다음을 클릭하여 자세한 실행 보고서에 액세스할 수 있습니다. **[!UICONTROL 보고서 보기]** 단추입니다. 이 옵션을 사용하면 향상된 모니터링을 위해 도메인 그룹 관련 분류를 포함하여 실행의 이메일 게재 상태를 추적할 수 있습니다. [자세히 알아보기](#reports)
+* **[!UICONTROL 취소됨]**: a **[!UICONTROL 라이브]** 을(를) 사용하여 실행이 취소되었습니다. **[!UICONTROL 중지]** 단추 또는 를 활성화한 경우 **[!UICONTROL 오류 발생 시 활성화된 실행 취소]** 옵션과 오류가 발생했습니다. [자세히 알아보기](#define-runs)
 * **[!UICONTROL 실패]**: 시스템에서 오류가 발생하거나 현재 단계에 사용되는 캠페인이 중지되었습니다. 실행이 실패할 경우 다음 날 다른 실행을 예약할 수 있습니다.
 
 ### 보고서 사용 {#reports}
@@ -297,13 +306,14 @@ IP 워밍업 계획 자체가 한 곳에서 통합 보고서 역할을 한다. �
 
 다음에서 보고서에 액세스할 수도 있습니다 [캠페인 메뉴](../campaigns/modify-stop-campaign.md#access) 다른 캠페인을 사용할 수 있습니다.
 
+
 ## 플랜 관리 {#manage-plan}
 
 어느 시점에서 IP 준비 계획이 예상대로 수행되지 않으면 아래 작업을 수행할 수 있습니다.
 
 ### 단계 분할 {#split-phase}
 
-특정 실행에서 시작하는 새 단계를 추가하려면 다음을 선택합니다. **[!UICONTROL 새 단계로 분할 옵션]** 추가 작업 아이콘에서 참조할 수 있습니다.
+특정 실행에서 시작하는 새 단계를 추가하려면 다음을 선택합니다. **[!UICONTROL 새 단계로 실행 분할]** 추가 작업 아이콘의 옵션입니다.
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -313,7 +323,7 @@ IP 워밍업 계획 자체가 한 곳에서 통합 보고서 역할을 한다. �
 
 다음 단계 [위](#define-phases) 새 단계를 정의합니다.
 
-* 다음을 사용할 수 있습니다. **[!UICONTROL 캠페인 바꾸기]** 새로운 단계에 대한 옵션입니다.
+* 다음을 사용할 수 있습니다. **[!UICONTROL 바꾸기]** 또는 **[!UICONTROL 지우기]** 새로운 단계에 대한 옵션.
 
 * 이전 캠페인이나 성과가 좋지 않은 도메인을 제외할 수도 있습니다. 에서 방법 알아보기 [이 섹션](#define-phases).
 

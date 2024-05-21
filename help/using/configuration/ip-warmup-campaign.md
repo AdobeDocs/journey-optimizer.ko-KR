@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 18%
+source-wordcount: '451'
+ht-degree: 17%
 
 ---
 
@@ -69,11 +69,15 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
 1. 캠페인 속성 정의와 같은 이메일 캠페인을 만드는 단계를 완료합니다. [대상자](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->, 및 [콘텐츠](../email/get-started-email-design.md#key-steps).
 
+   IP 준비 캠페인에 대한 규칙 기반 대상자를 선택해야 합니다. [자세히 알아보기](../audience/creating-a-segment-definition.md)
+
    >[!NOTE]
    >
    >캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../campaigns/get-started-with-campaigns.md).
 
 1. [활성화](../campaigns/review-activate-campaign.md) 캠페인. 상태가 다음으로 변경됨: **[!UICONTROL 라이브]**.
+
+   비즈니스 규칙은 IP 준비 계획에 사용해서는 안 됩니다. 이러한 규칙을 적용하면 캠페인에 대해 원하는 수의 타겟팅된 프로필에 도달하지 못할 수 있습니다.
 
    >[!NOTE]
    >

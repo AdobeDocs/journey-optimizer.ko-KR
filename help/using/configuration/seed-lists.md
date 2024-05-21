@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 시드 목록, 시드 목록, 시드, 구성
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '945'
 ht-degree: 16%
 
 ---
@@ -156,4 +156,4 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->여정의 경우 이메일 게재는 여정 첫 실행 시에만 시드 주소로 전송됩니다.
+>반복 여정의 경우 하나 이상의 프로필이 이메일 노드에 도달하면 여정 실행 시 시드 주소로 이메일 게재가 전송됩니다.

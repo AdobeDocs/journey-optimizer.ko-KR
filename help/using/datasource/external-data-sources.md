@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1541'
 ht-degree: 62%
 
 ---
@@ -139,7 +139,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 >
 >**이 인증에는 두 가지 부분이 있습니다.**
 
-### 액세스 토큰을 생성하기 위해 호출할 끝점의 정의
+### 액세스 토큰을 생성하기 위해 호출할 끝점의 정의{#custom-authentication-endpoint}
 
 * endpoint: 끝점을 생성하는 데 사용할 URL
 * 끝점에 대한 HTTP 요청 메서드(GET 또는 POST)
@@ -148,7 +148,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
    * &#39;form&#39;: 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키-값 쌍이 그대로 일련화됩니다(예: key1=value1&amp;key2=value2&amp;...).
    * &#39;json&#39;: 콘텐츠 유형은 application/json(charset UTF-8)이며 키-값 쌍이 json 개체 그대로 일련화됩니다. _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
-### 작업의 HTTP 요청에 액세스 토큰을 삽입해야 하는 방식의 정의
+### 작업의 HTTP 요청에 액세스 토큰을 삽입해야 하는 방식의 정의{#custom-authentication-access-token}
 
 * authorizationType: 생성된 액세스 토큰을 작업의 HTTP 호출에 삽입해야 하는 방법을 정의합니다. 가능한 값은 다음과 같습니다.
 
@@ -189,6 +189,10 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 }
 ```
 
+>[!NOTE]
+>
+>Encode64는 인증 페이로드에서 사용할 수 있는 유일한 함수입니다.
+
 사용자 지정 인증 데이터 소스에 대해 토큰의 캐시 기간을 변경할 수 있습니다. 아래는 사용자 지정 인증 페이로드의 예입니다. 캐시 기간은 &quot;cacheDuration&quot; 매개 변수에서 정의됩니다. 캐시에서 생성된 토큰의 보존 기간을 지정합니다. 단위는 밀리초, 초, 분, 시간, 일, 개월, 년일 수 있습니다.
 
 다음은 전달자 인증 유형의 예입니다.
@@ -198,7 +202,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
   "authentication": {
     "type": "customAuthorization",
     "authorizationType": "Bearer",
-    "endpoint": "https://localhost:${port}/epsilon/oauth2/access_token",
+    "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
       "Authorization": "Basic EncodeBase64(<epsilon Client Id>:<epsilon Client Secret>)"
