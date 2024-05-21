@@ -9,14 +9,24 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
+source-git-commit: e80148e9678e71329f8711dd201c7531b4f9aeae
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1229'
 ht-degree: 11%
 
 ---
 
 # 메시지 빈도 규칙 {#frequency-rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_message_frequency_rules"
+>title="비즈니스 규칙"
+>abstract="비즈니스 규칙 설명"
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_rule_sets"
+>title="규칙 세트"
+>abstract="규칙 세트 설명"
 
 [!DNL Journey Optimizer] 을 사용하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 크로스 채널 규칙을 설정하여 사용자가 메시지를 받거나 여정에 들어가는 빈도를 제어할 수 있습니다.
 
@@ -101,7 +111,7 @@ ht-degree: 11%
 
    ![](assets/message-rules-created.png)
 
-### 빈도 상한 {#frequency-cap}
+### 빈도 상한 설정 {#frequency-cap}
 
 다음에서 **[!UICONTROL 기간]** 월별 또는 주별 한도 설정을 적용하려면 드롭다운 목록을 선택합니다.
 
