@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7cef45750889572f1684aa2b98c1eab1d668896a
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 98%
+source-wordcount: '1359'
+ht-degree: 91%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 98%
 
   **보고** 섹션에 액세스하여 캠페인 실험 보고를 구성할 수도 있습니다. [자세히 알아보기](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL 규칙]** - 이 섹션에서는 크로스 채널 빈도 규칙을 만들어 사용자가 메시지를 받거나 여정에 입장하는 빈도를 제어합니다. [자세히 보기](../configuration/frequency-rules.md)
+* **[!UICONTROL 비즈니스 규칙]** - 이 섹션을 사용하여 사용자가 메시지를 받거나 여정에 입력하는 빈도를 제어하는 크로스 채널 비즈니스 규칙을 만듭니다. [자세히 보기](../configuration/frequency-rules.md)
 
 * **[!UICONTROL 경고]** - 사용자 인터페이스를 사용하면 Adobe Experience Platform Observability Insights에서 공개한 지표를 기반으로 받은 경고 내역을 볼 수 있습니다. 또한 UI에서 사용 가능한 경고 규칙을 보고, 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](../reports/alerts.md)
 
@@ -212,27 +212,27 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="보증을 통해 유효성 검사"
+>title="Assurance를 통해 유효성 검사"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
->title="JavaScript 코드"
+>title="Javascript 코드"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
->title="사이트 실행 및 유효성 검사"
+>title="사이트 시작 및 유효성 검사"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
->title="디바이스 토큰 가져오기"
+>title="장치 토큰 검색"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
->title="Xcode에서 애플리케이션 실행"
+>title="Xcode에서 응용 프로그램 실행"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -277,12 +277,12 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance_android"
->title="보증을 통해 유효성 검사"
+>title="Assurance를 통해 유효성 검사"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token_android"
->title="디바이스 토큰 가져오기"
+>title="장치 토큰 검색"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]

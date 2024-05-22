@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
 source-wordcount: '1811'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 99%
             + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
             + [distinctCountWithNull](using/building-journeys/functions/functiondistinctcountwithnull.md)
             + [max](using/building-journeys/functions/functionmax.md)
-            + [min](using/building-journeys/functions/functionmin.md)
+            + [분](using/building-journeys/functions/functionmin.md)
             + [sum](using/building-journeys/functions/functionsum.md)
          + 전환 {#conversion}
             + [toBool](using/building-journeys/functions/functiontobool.md)
@@ -105,14 +105,14 @@ ht-degree: 99%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + 날짜 {#date}
-            + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
+            + [currentTime &#x200B; InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
-            + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
+            + [in마지막 시간](using/building-journeys/functions/functioninlasthours.md)
             + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
-            + [inLastYears](using/building-journeys/functions/functioninlastyears.md)
+            + [inlastYears](using/building-journeys/functions/functioninlastyears.md)
             + [inNextDays](using/building-journeys/functions/functioninnextdays.md)
             + [inNextHours](using/building-journeys/functions/functioninnexthours.md)
-            + [inNextMonths](using/building-journeys/functions/functioninnextmonths.md)
+            + [inNextMonters](using/building-journeys/functions/functioninnextmonths.md)
             + [inNextYears](using/building-journeys/functions/functioninnextyears.md)
             + [now](using/building-journeys/functions/functionnow.md)
             + [nowWithDelta](using/building-journeys/functions/functionnowwithdelta.md)
@@ -151,7 +151,7 @@ ht-degree: 99%
             + [replace](using/building-journeys/functions/functionreplace.md)
             + [replaceAll](using/building-journeys/functions/functionreplaceall.md)
             + [split](using/building-journeys/functions/functionsplit.md)
-            + [startWith](using/building-journeys/functions/functionstartwith.md)
+            + [시작 문자](using/building-journeys/functions/functionstartwith.md)
             + [startWithIgnoreCase](using/building-journeys/functions/functionstartwithignorecase.md)
             + [substr](using/building-journeys/functions/functionsubstr.md)
             + [trim](using/building-journeys/functions/functiontrim.md)
@@ -561,7 +561,7 @@ ht-degree: 99%
    + [시드 목록 사용](using/configuration/seed-lists.md)
    + [아카이브 지원](using/configuration/archiving-support.md)
    + [실행 주소 변경](using/configuration/primary-email-addresses.md)
-   + [빈도 규칙 구성](using/configuration/frequency-rules.md)
+   + [비즈니스 규칙 구성](using/configuration/frequency-rules.md)
    + [규칙 집합 작업](using/configuration/rule-sets.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
