@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 100%
+ht-degree: 67%
 
 ---
 
@@ -23,28 +23,28 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="AI 어시스턴트"
->abstract="게재 내용을 작성하고 개인화한 후 AI 어시스턴트를 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 생성하려는 내용을 설명하여 콘텐츠를 미세 조정할 수 있도록 함으로써 개인화 및 콘텐츠 개선 프로세스를 간소화합니다."
+>abstract="게재를 제작하고 개인화하면 AI Assistant를 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 생성하려는 내용을 설명하여 콘텐츠를 미세 조정할 수 있도록 함으로써 개인화 및 콘텐츠 개선 프로세스를 간소화합니다."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="AI 어시스턴트로 컨텍스트 정의"
->abstract="선택한 콘텐츠를 콘텐츠 생성을 위한 입력으로 사용하려면 **원본 콘텐츠 사용** 토글을 활성화하십시오. 또한 브랜드 자산을 업로드하여 소스로 사용할 수도 있습니다. 선택한 콘텐츠를 사용하지 않는 경우 브랜드 자산 업로드와 브랜드 자산 선택이 필수입니다."
+>title="AI Assistant를 사용하여 컨텍스트 정의"
+>abstract="선택한 컨텐츠를 컨텐츠 생성에 대한 입력으로 사용하려면 **원본 컨텐츠 사용** 토글. 브랜드 자산을 업로드하여 소스로 사용할 수도 있습니다. 선택한 콘텐츠를 사용하지 않는 경우에는 브랜드 자산을 업로드하고 선택해야 합니다."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Adobe 생성형 AI 약관"
->abstract="이 기능의 이용에는 Adobe Experience Cloud 생성형 AI 사용자 가이드라인에 대한 계약이 적용됩니다. 이 기능에 제공하는 모든 프롬프트, 컨텍스트, 추가 정보 또는 기타 입력 내용은 특정 컨텍스트와 연결되어야 하며, 여기에는 브랜딩 자료, 웹 사이트 콘텐츠, 데이터, 해당 데이터에 대한 스키마, 템플릿 또는 기타 신뢰할 수 있는 문서가 포함될 수 있으나 개인 정보는 포함되지 않아야 합니다(개인 정보에는 특정 개인 사용자와 다시 연결될 수 있는 모든 항목이 포함됨). 이 기능을 통한 모든 출력 내용이 정확한지 검토하고 사용 사례에 적합한지 확인해 보시기 바랍니다."
->additional-url="https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 생성형 AI 사용자 가이드라인"
+>title="Adobe 생성 AI 용어"
+>abstract="이 기능에 대한 액세스는 Adobe Experience Cloud 생성 AI 사용자 지침에 대한 귀하의 동의에 따라 달라집니다. 이 기능에 제공하는 모든 프롬프트, 컨텍스트 또는 보충 정보 또는 기타 입력은 특정 컨텍스트에 연결되어야 하며, 여기에는 브랜딩 자료, 웹 사이트 콘텐츠, 데이터, 이러한 데이터에 대한 스키마, 템플릿 또는 기타 신뢰할 수 있는 문서가 포함될 수 있으며 어떠한 개인 정보(개인 정보에는 특정 개인에게 다시 연결될 수 있는 모든 것이 포함됨)도 포함되어서는 안 됩니다. 이 기능의 출력을 정확하게 검토하고 사용 사례에 적합한지 확인해야 합니다"
+>additional-url="https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 생성 AI 사용자 지침"
 
 >[!BEGINSHADEBOX]
 
 **목차**
 
 * AI 어시스턴트 시작하기
-* [AI 어시스턴트로 이메일 생성](generative-email.md)
-* [AI 어시스턴트와 함께하는 SMS 세대](generative-sms.md)
+* [AI Assistant를 사용하여 이메일 생성](generative-email.md)
+* [AI Assistant를 사용하여 SMS 생성](generative-sms.md)
 * [AI 어시스턴트와 함께하는 푸시 세대](generative-push.md)
 * [AI 어시스턴트로 콘텐츠 실험](generative-experimentation.md)
 
