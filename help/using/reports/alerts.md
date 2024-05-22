@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 에서 Adobe Experience Platform의 경고에 대해 자세히 알아봅니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko){target="_blank"}.
 
-왼쪽 메뉴에서 **관리**, 클릭 **경고**. Journey Optimizer에 대해 두 개의 사전 구성된 경고를 사용할 수 있습니다. [여정 사용자 지정 작업 실패](#alert-custom-actions) 경고 및 [세그먼트 읽기 트리거 실패](#alert-read-audiences) 경고. 이러한 경고는 아래에 자세히 설명되어 있습니다.
+왼쪽 메뉴에서 **관리**, 클릭 **경고**. Journey Optimizer에 대해 두 개의 사전 구성된 경고를 사용할 수 있습니다. [여정 사용자 지정 작업 실패](#alert-custom-actions) 경고 및 [대상자 읽기 트리거 실패](#alert-read-audiences) 경고. 이러한 경고는 아래에 자세히 설명되어 있습니다.
 
 사용자 인터페이스에서 다음을 선택하여 각 경고를 개별적으로 구독할 수 있습니다. **구독** 옵션에서 **경고** 대시보드입니다. 가입을 해지하려면 동일한 방법을 사용하십시오.
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 경고 대상 **대상자 읽기** 프로필이 **대상자 읽기** 노드.
 
-에 해당하는 I/O 이벤트 구독 이름 **세그먼트 읽기 트리거 실패** 경고: **여정 읽기 세그먼트 지연, 실패 및 오류**.
+에 해당하는 I/O 이벤트 구독 이름 **대상자 읽기 트리거 실패** 경고: **여정 읽기 대상 지연, 실패 및 오류**.
 
 ## 문제 해결 {#alert-troubleshooting}
 
