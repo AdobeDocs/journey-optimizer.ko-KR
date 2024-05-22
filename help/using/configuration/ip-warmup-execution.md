@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
 workflow-type: tm+mt
-source-wordcount: '2487'
-ht-degree: 11%
+source-wordcount: '2513'
+ht-degree: 1%
 
 ---
 
@@ -34,25 +34,25 @@ ht-degree: 11%
 
 다음 작업을 완료하면 [ip 준비 계획을 만들었습니다.](ip-warmup-plan.md) 게재 컨설턴트와 함께 준비한 파일을 업로드하면 플랜에서 단계 및 실행을 정의할 수 있습니다.
 
-각 단계는 단일 캠페인으로 할당되는 여러 실행으로 구성됩니다.
+각 단계는 단일 캠페인을 할당할 수 있는 여러 실행으로 구성됩니다.
 
 ## 단계 정의 {#define-phases}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="캠페인 대상자 제외"
->abstract="현재 단계에서 대상자를 제외할 캠페인을 선택합니다. 이는 이전에 다른 단계에서 연락을 보낸 프로필이나 다른 IP 워밍업 플랜이 다시 대상으로 지정되는 것을 방지하기 위한 것입니다."
+>abstract="현재 단계에서 대상자를 제외할 캠페인을 선택하십시오. 다른 단계 또는 다른 IP 준비 계획에서 이전에 연락한 프로필이 다시 타겟팅되지 않도록 하기 위한 것입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="도메인 그룹 제외"
->abstract="현재 단계에서 제외하려는 도메인을 선택합니다. 도메인 제외에는 미실행 단계가 필요하므로 제외를 추가하려면 실행 단계를 분할해야 할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=ko-KR#split-phase" text="단계 분할"
+>abstract="현재 단계에서 제외할 도메인을 선택합니다. 도메인 제외에는 실행되지 않는 단계가 필요하므로 제외를 추가하려면 실행 단계를 분할해야 할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="단계 분할"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
->title="플랜의 단계 정의"
->abstract="각 단계는 단일 캠페인으로 할당되는 여러 실행으로 구성됩니다."
+>title="플랜 단계 정의"
+>abstract="각 단계는 단일 캠페인을 할당할 수 있는 여러 실행으로 구성됩니다."
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -146,27 +146,27 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_run"
 >title="각 실행 정의"
->abstract="모든 단계에 대해 각각의 실행을 정의하고 활성화합니다."
+>abstract="모든 단계에 대해 각 실행을 정의하고 활성화합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
 >title="참여 필터링"
->abstract="이 열은 예를 들어 지난 20일 동안 해당 브랜드에 참여한 사용자만 대상으로 하는 필터입니다. **실행 편집** 옵션을 통해 이 설정을 변경할 수도 있습니다."
+>abstract="이 열은 예를 들어 지난 20일 동안 브랜드에 참여한 사용자만 타겟팅하는 필터입니다. 다음을 통해 이 설정을 변경할 수도 있습니다. **실행 편집** 옵션을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
 >title="기간 설정"
->abstract="세분화 작업에서 지연이 발생하는 경우 IP 워밍업 캠페인을 실행할 수 있는 기간을 정의할 수 있습니다."
+>abstract="세분화 작업이 지연되는 경우 IP 준비 캠페인을 실행할 수 있는 기간을 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="대상자 오류가 있는 실행 취소"
->abstract="해당 실행에 대해 대상자가 평가된 후 적격 프로필이 대상이 되는 프로필보다 적은 경우에 실행을 취소하려면 이 옵션을 선택합니다."
+>title="대상 오류가 있는 실행 취소"
+>abstract="해당 실행에 대해 대상을 평가한 후 자격 조건을 갖춘 프로필이 타겟팅된 프로필보다 적은 경우 실행을 취소하려면 이 옵션을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="적격 프로필 보기"
->abstract="이 열에 적격 프로필 수가 표시됩니다. 대상자에 대한 실행이 평가되면 적격 프로필보다 타겟팅된 프로필이 더 많은 경우 다음을 수행하지 않는 한 실행이 계속 실행됩니다. **오류 발생 시 활성화된 실행 취소** 옵션이 활성화되어 있습니다. 해당 경우 실행은 취소됩니다."
+>abstract="이 열에는 적격 프로필의 수가 표시됩니다. 대상자에 대한 실행이 평가되면 적격 프로필보다 타겟팅된 프로필이 더 많은 경우 다음을 수행하지 않는 한 실행이 계속 실행됩니다. **오류 발생 시 활성화된 실행 취소** 옵션이 활성화되어 있습니다. 이 경우 실행이 취소되었습니다."
 
 1. 지정된 시간에 실행되도록 각 실행에 대한 일정을 선택합니다.
 
@@ -238,7 +238,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    * An [대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} 제외된 캠페인 대상자(있는 경우)에 대해 다음 명명 규칙을 사용하여 만들어집니다. `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
 
-   * 제외된 도메인 그룹(있는 경우)에 대해 다음 명명 규칙을 사용하여 다른 대상이 만들어집니다. `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+   * 제외된 도메인 그룹(있는 경우)에 대해 다음 명명 규칙을 사용하여 대상자가 만들어집니다. `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+
+   * 제외된 여정 대상(있는 경우)에 대해 다음 명명 규칙을 사용하여 다른 대상이 만들어집니다. `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
   >[!NOTE]
   >
@@ -263,6 +265,8 @@ At phase level, system ensures that previously targeted + new profiles are picke
      >실행 시마다 새 대상자 작성이 생성됩니다. 10개로 제한된 경우, 게시된 대상자 구성을 사용하여 여러 캠페인, 여정 및 IP 준비 계획을 동시에 실행하는 사용자는 병렬 작업을 위해 이 한도 내에서 계획해야 합니다.
      >
      >다음 반복이 활성화될 때 대상 구성(및 출력 대상)이 정리됩니다.
+
+   * 출력 대상은 다음 명명 규칙을 사용하여 만들어집니다. `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
