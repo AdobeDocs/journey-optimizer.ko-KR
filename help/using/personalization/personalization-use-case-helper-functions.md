@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 도우미, 사용 사례, 개인화
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: c9627cfd1d717d56744f0287738b1303194c23e1
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 * 여정 내 이메일 메시지. [자세히 알아보기](../email/create-email.md)
 * 이메일의 본문. [자세히 알아보기](../email/content-from-scratch.md).
 
-다음 단계를 수행하십시오.
+다음 단계를 수행합니다.
 
 1. [초기 이벤트와 여정 만들기](#create-context).
 1. [이메일 메시지 만들기](#configure-email).
@@ -199,9 +199,9 @@ ht-degree: 2%
       <table>
          <tbody>
             <tr>
-               <td><b>{{context.journey.events.event_ID.productListItems.name}}</b></td>
-               <td><b>{{context.journey.events.event_ID.productListItems.quantity}}</b></td>
-               <td><b>${{context.journey.events.event_ID.productListItems.priceTotal}}</b></td>
+            <td><b>{{product.name}}</b></td>
+            <td><b>{{product.quantity}}</b></td>
+            <td><b>${{product.priceTotal}}</b></td>
             </tr>
          </tbody>
       </table>
