@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4396'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->이러한 기능은 현재 베타로 사용할 수 있습니다.
+>이 기능은 현재 Beta로 사용할 수 있습니다.
 
 <!--
 **Spam scoring for emails**
@@ -309,7 +309,7 @@ A new option is available in the email surface settings to include email address
 
 **여정**
 
-* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 베타로 사용할 수 있습니다. [자세히 알아보기](../action/action-response.md).
+* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Beta로 사용할 수 있습니다. [자세히 알아보기](../action/action-response.md).
 * 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 정의 작업이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 

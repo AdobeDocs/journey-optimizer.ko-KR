@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Journey Optimizer를 사용하면 시스템에서 여정, 메시지, 랜딩 페�
 
 ## 감사 로그로 캡처된 이벤트 유형 {#events}
 
-다음 표에서는 감사 로그에서 Journey Optimizer 리소스를 기록하는 작업을 설명합니다. 감사 로그에 캡처된 전체 작업 목록은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=ko#category)를 참조하십시오.
+다음 표에서는 감사 로그에서 Journey Optimizer 리소스를 기록하는 작업을 간략하게 설명합니다. 감사 로그에 캡처된 전체 작업 목록은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=ko#category)를 참조하십시오.
 
 >[!NOTE]
 >
->관련된 감사 로그 **의사 결정 관리** 를 사용하여 다운로드할 수 있는 CSV 파일에서만 볼 수 있습니다. **[!UICONTROL 로그 다운로드]** 단추를 클릭합니다.
+>**의사 결정 관리**&#x200B;와 관련된 감사 로그는 **[!UICONTROL 로그 다운로드]** 버튼을 사용하여 다운로드할 수 있는 CSV 파일에서만 볼 수 있습니다.
 
 | 리소스 | 작업 |
 |-----------|------------------|
