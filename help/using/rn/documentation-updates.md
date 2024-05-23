@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
-source-wordcount: '5290'
-ht-degree: 98%
+source-wordcount: '5335'
+ht-degree: 97%
 
 ---
 
@@ -21,14 +21,16 @@ ht-degree: 98%
 
 ## 2024년 5월 {#may-2024}
 
-* 2023년 4월 릴리스의 새로운 기능과 개선 사항에 [!DNL Journey Optimizer]대한 자세한 내용은 설명서에 있습니다. [자세히 보기](release-notes.md)
+* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2024년 5월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 시드 목록의 섹션이 반복 여정에 대해 업데이트되었습니다. [자세히 보기](../configuration/seed-lists.md#use-seed-list)
 * 외부 데이터 소스에 대한 섹션이 업데이트되었습니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-access-token)
 * 30일의 전역 여정 시간 제한이 보호 및 제한 페이지에 추가되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 * Adobe Campaign v7/v8 통합에 대한 섹션이 프로비저닝에 대한 정보로 업데이트되었습니다. [자세히 보기](../action/acc-action.md#access)
+* 콘텐츠를 개인화하는 데 사용되는 표현식 편집기의 이름이 설명서에서 &quot;개인화 편집기&quot;로 변경되었습니다. [여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md). [자세히 보기](../personalization/personalization-build-expressions.md)
 
 ## 2024년 4월 {#april-2024}
 
+* 2023년 4월 릴리스의 새로운 기능과 개선 사항에 [!DNL Journey Optimizer]대한 자세한 내용은 설명서에 있습니다. [자세히 보기](release-notes.md#apr-2024)
 * 인앱 메시지를 구성하는 단계가 자세히 설명되어 있습니다. [자세히 보기](../in-app/inapp-configuration.md)
 * [Offer Decisioning API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 및 [Batch decisioning API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 설명서가 업데이트되었습니다.
 * Edge Decisioning API로 빈도 제한을 사용할 때 에지 및 허브 영역 관리에 대한 정보가 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -41,7 +43,7 @@ ht-degree: 98%
 ## 2024년 3월 {#march-2024}
 
 * Journey Optimizer의 대상자 구성 및 사용자 정의 업로드 대상자 사용에 대한 일반적인 질문에 답하기 위한 FAQ 섹션을 추가했습니다. [자세히 보기](../audience/about-audiences.md#faq)
-* [!DNL Journey Optimizer] 2024년 3월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer] 2024년 3월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md#mar-2024)
 * 프로필 진입 관리 페이지를 개선했습니다. [자세히 보기](../building-journeys/entry-management.md)
 * 경고 페이지에 문제 해결 정보를 추가했습니다. [자세히 보기](../reports/alerts.md#alert-troubleshooting)
 * 여정 보고서 페이지에 대기 활동에 대한 정보를 추가했습니다. [자세히 보기](../reports/sharing-overview.md)
@@ -58,12 +60,12 @@ ht-degree: 98%
 
 ## 2024년 2월 {#feb-2024}
 
-* [!DNL Journey Optimizer] 2024년 2월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer] 2024년 2월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md#feb-2024)
 * Journey Optimizer + Workfront 통합이 통합 페이지에 추가되었습니다. [자세히 보기](../start/ajo-integrations.md)
 * 컨텍스트 데이터를 기반으로 오퍼의 표현을 개인화하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../offers/offer-library/add-representations.md#context-data)
 * 보호 페이지에 요청 또는 응답 페이로드를 사용할 때만 JSON 형식을 지원하는 사용자 정의 작업에 대한 메모를 업데이트했습니다. [자세히 보기](../start/guardrails.md#custom-actions-g)
 * 외부 데이터 소스의 기본 인증 유형에 대한 정보를 추가했습니다. [자세히 보기](../datasource/external-data-sources.md)
-* [여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md)와 [개인화 편집기](../personalization/functions/functions.md)를 명확하게 구분하기 위해 메모가 추가되었습니다.
+* 을(를) 명확하게 구분할 수 있도록 메모가 추가되었습니다. [여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md) 다음에서 [개인화 편집기](../personalization/functions/functions.md).
 * 고급 표현식 편집기에서 사용할 수 있는 함수 목록이 업데이트되었습니다. [자세히 보기](../building-journeys/expression/functions.md)
 * 분할 함수의 페이지가 업데이트되었습니다. [자세히 보기](../building-journeys/functions/functioninaudience.md)
 * 푸시 알림의 옵트인 또는 옵트아웃이 인앱 메시지에 미치는 영향에 대한 정보를 추가했습니다. [자세히 보기](../in-app/create-in-app.md)
