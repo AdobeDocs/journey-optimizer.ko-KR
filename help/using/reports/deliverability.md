@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 의 전달성을 최적화하려면 [!DNL Journey Optimizer] 경험 에서는 이 섹션에 나열된 모범 사례를 사용하는 것이 좋습니다. 전달성 문제는 일반적으로 인터넷 서비스 공급자(ISP) 및 메일 서버 관리자가 구현하는 스팸을 방지하는 것과 관련이 있습니다.
 
-전달성의 의미에 대한 자세한 내용과 주요 전달성 용어, 개념 및 접근 방식에 대한 자세한 내용은 다음을 참조하십시오. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target="_blank"}.
+전달성의 의미에 대한 자세한 내용과 주요 전달성 용어, 개념 및 접근 방식에 대한 자세한 내용은 다음을 참조하십시오. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}.
 
 ## 고객 불만 신고율 감소 {#reduce-complaint-rate}
 
@@ -77,7 +77,7 @@ ISP에는 일반적으로 수신된 메시지를 스팸으로 보고하는 눈�
 
 최근 다른 이메일 서비스 공급자, IP 주소, 이메일 도메인 또는 하위 도메인으로 이동한 경우 발신자로서의 신뢰도를 설정해야 합니다. 그렇지 않으면 게재가 차단되거나 수신자 사서함의 스팸 폴더로 이동될 수 있습니다.
 
-IP를 준비하려면 게재 수를 점차적으로 늘릴 수 있습니다. 자세히 알아보기 [사용 사례](../building-journeys/ramp-up-deliveries-uc.md).
+<!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
 ## DMARC 구현 {#dmarc}
 

@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '613'
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+workflow-type: tm+mt
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,6 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 기술 사용 사례:
 
 * [사용자 지정 작업으로 컬렉션을 동적으로 보내기](collections.md)
-* [게재 램프 업](ramp-up-deliveries-uc.md)
 * [외부 데이터 원본 및 사용자 지정 작업으로 처리량 제한](limit-throughput.md)
 
 ## 여정 버전{#journey-versions}
