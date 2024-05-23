@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec3d49dbd8587c788b67a9172205a8688088837e
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 47%
+source-wordcount: '768'
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="새로운 기능"
->abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
+>abstract="**Adobe Journey Optimizer** 는 새로운 기능, 기존 기능의 개선 사항 및 버그 수정 사항을 지속적으로 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
 
 [!DNL Adobe Journey Optimizer]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 노트에 통합됩니다.
 
@@ -50,6 +50,24 @@ ht-degree: 47%
 <p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>자세한 내용은 <a href="../experience-decisioning/gs-experience-decisioning.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 표면 개인화 - 제한된 가용성</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이메일 채널 표면을 만들 때 동적 하위 도메인 및 개인화된 헤더 매개 변수를 정의하여 이메일 설정을 보다 유연하게 제어하고 있습니다.</p>
+<p>이메일 표면 개인화는 현재 조직 세트에만 사용할 수 있습니다(제한된 가용성). 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
+<p>자세한 내용은 <a href="../email/surface-personalization.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +155,7 @@ Beta에서 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
   >[!AVAILABILITY]
   >
-  >이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
+  >이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.
 
 <!--
 **Audiences**

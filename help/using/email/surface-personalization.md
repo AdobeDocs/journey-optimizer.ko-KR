@@ -8,14 +8,12 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="제한된 가용성"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 2%
+source-wordcount: '834'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +23,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->이 기능은 현재 사용자를 선택하는 베타 버전으로만 사용할 수 있습니다. <!--To join the beta program, contact Adobe Customer Care.-->
+>이메일 표면 개인화는 현재 조직 세트에만 사용할 수 있습니다(제한된 가용성). 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 ## 동적 하위 도메인 추가 {#dynamic-subdomains}
 
