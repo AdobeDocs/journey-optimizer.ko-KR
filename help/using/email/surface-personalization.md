@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 15%
+ht-degree: 2%
 
 ---
 
@@ -32,18 +32,18 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="개인화를 사용할 수 없음"
->abstract="이 표면은 개인화 속성 없이 생성되었습니다. 개인화가 필요한 경우 해결 단계는 설명서를 참조하십시오."
+>abstract="이 표면은 개인화 속성 없이 만들어졌습니다. 개인화가 필요한 경우 해결할 수 있는 단계에 대해서는 설명서를 참조하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="동적 하위 도메인 활성화"
->abstract="이메일 표면을 생성할 때 표현식 편집기를 사용하여 정의한 조건을 기반으로 동적 하위 도메인을 설정할 수 있습니다. 최대 50개의 동적 하위 도메인을 추가할 수 있습니다."
+>abstract="이메일 표면을 만들 때 개인화 편집기를 사용하여 정의하는 조건에 따라 동적 하위 도메인을 설정할 수 있습니다. 최대 50개의 동적 하위 도메인을 추가할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="일부 하위 도메인은 사용하지 못할 수 있습니다."
->abstract="현재 피드백 루프 등록이 보류되어 특정 하위 도메인을 선택할 수 없습니다. 이 과정은 영업일 기준 최대 10일 정도 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="하위 도메인 위임 시작"
+>title="일부 하위 도메인은 사용할 수 없습니다."
+>abstract="일부 하위 도메인은 피드백 루프 등록 보류 중으로 인해 현재 선택할 수 없습니다. 이 프로세스는 영업일 기준으로 최대 10일이 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="하위 도메인 위임 시작"
 
 이메일 표면을 만들 때 특정 조건을 기반으로 동적 하위 도메인을 설정할 수 있습니다.
 
@@ -65,7 +65,7 @@ ht-degree: 15%
 
 1. 첫 번째 옆에 있는 편집 아이콘을 선택합니다 **[!UICONTROL 조건]** 필드.
 
-1. 다음 [표현식 편집기](../personalization/personalization-build-expressions.md) 열림. 이 예에서는 다음과 같은 조건을 설정합니다. `Country` 다음과 같음 `US`.
+1. 다음 [개인화 편집기](../personalization/personalization-build-expressions.md) 열림. 이 예에서는 다음과 같은 조건을 설정합니다. `Country` 다음과 같음 `US`.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -73,7 +73,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >일부 하위 도메인은 보류 중으로 인해 현재 선택할 수 없습니다. [되먹임 루프](../reports/deliverability.md#feedback-loops) 등록. 이 과정은 영업일 기준 최대 10일 정도 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >일부 하위 도메인은 보류 중으로 인해 현재 선택할 수 없습니다. [되먹임 루프](../reports/deliverability.md#feedback-loops) 등록. 이 프로세스는 영업일 기준으로 최대 10일이 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -118,7 +118,7 @@ ht-degree: 15%
 
    ![](assets/surface-email-personalize-header.png)
 
-1. 다음 [표현식 편집기](../personalization/personalization-build-expressions.md) 열림. 조건을 원하는 대로 정의하고 변경 사항을 저장합니다.
+1. 다음 [개인화 편집기](../personalization/personalization-build-expressions.md) 열림. 조건을 원하는 대로 정의하고 변경 사항을 저장합니다.
 
    예를 들어, 각 수신자가 자신의 브랜드 담당자로부터 이메일을 받는 것과 같은 조건을 설정합니다.
 
@@ -137,7 +137,7 @@ ht-degree: 15%
 
 To use personalized URL tracking prameters, follow the steps below.
 
-1. Select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the personalization editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 

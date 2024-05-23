@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 표현식 편집기 정보
-description: 표현식 편집기로 작업하는 방법을 알아봅니다.
+title: 개인화 편집기 정보
+description: 개인화 편집기로 작업하는 방법을 알아봅니다.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 10%
+ht-degree: 2%
 
 ---
 
-# 표현식 편집기 시작하기 {#build-personalization-expressions}
+# 개인화 편집기 시작 {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="표현식 편집기 정보"
->abstract="표현식 편집기를 통해 모든 데이터를 선택하고, 배열하고, 사용자 정의하고 검증하여 개인 맞춤화 콘텐츠를 만들 수 있습니다."
+>title="개인화 편집기 정보"
+>abstract="개인화 편집기를 사용하면 모든 데이터를 선택하고, 정렬하고, 맞춤화하고, 유효성을 검사하여 콘텐츠에 대한 맞춤화된 개인화를 만들 수 있습니다."
 
-표현식 편집기는 의 개인화의 중심입니다 [!DNL Journey Optimizer]. 이메일, 푸시 및 오퍼와 같은 개인화를 정의해야 하는 모든 컨텍스트에서 사용할 수 있습니다.
+개인화 편집기는에서 개인화의 핵심입니다. [!DNL Journey Optimizer]. 이메일, 푸시 및 오퍼와 같은 개인화를 정의해야 하는 모든 컨텍스트에서 사용할 수 있습니다.
 
-표현식 편집기 인터페이스에서 모든 데이터를 선택하고, 정렬하고, 사용자 정의하고, 유효성을 검사하여 콘텐츠에 대한 사용자 지정된 개인화를 만듭니다.
+개인화 편집기 인터페이스에서 모든 데이터를 선택하고, 정렬하고, 맞춤화하고, 유효성을 검사하여 콘텐츠에 대한 맞춤화된 개인화를 만듭니다.
 
 ![](assets/perso_ee1.png)
 
@@ -53,8 +53,8 @@ ht-degree: 10%
 
 ![](assets/attribute-details.png)
 
-다음 예에서는 표현식 편집기를 사용하여 오늘 생일이 있는 프로필을 선택한 다음 해당 날짜에 해당하는 특정 오퍼를 삽입하여 맞춤화를 완료할 수 있습니다.
+다음 예에서는 개인화 편집기를 사용하여 생일이 오늘 인 프로필을 선택한 다음 해당 요일에 해당하는 특정 오퍼를 삽입하여 맞춤화를 완료할 수 있습니다.
 
 ![](assets/perso_ee2.png)
 
-개인화 표현식이 준비되면 표현식 편집기에서 유효성을 검사해야 합니다. 자세한 내용은 [이 섹션](personalization-validation.md)을 참조하십시오.
+개인화 표현식이 준비되면 개인화 편집기에서 유효성을 검사해야 합니다. 자세한 내용은 [이 섹션](personalization-validation.md)을 참조하십시오.

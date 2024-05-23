@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 7122dff12aea6c5954087e2667b28bbc9f7695de
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 2%
@@ -158,7 +158,7 @@ ht-degree: 2%
 
    ![](assets/lp_expiry-date.png)
 
-1. 다음에서 **[!UICONTROL 추가 데이터]** 섹션에서 하나 이상의 키와 해당 매개 변수 값을 정의합니다. 를 사용하여 기본 페이지 및 하위 페이지의 콘텐츠에서 이러한 키를 활용할 수 있습니다. [표현식 편집기](../personalization/personalization-build-expressions.md). 자세한 내용은 [이 섹션](lp-content.md#use-form-component#use-additional-data)을 참조하십시오.
+1. 다음에서 **[!UICONTROL 추가 데이터]** 섹션에서 하나 이상의 키와 해당 매개 변수 값을 정의합니다. 를 사용하여 기본 페이지 및 하위 페이지의 콘텐츠에서 이러한 키를 활용할 수 있습니다. [개인화 편집기](../personalization/personalization-build-expressions.md). 자세한 내용은 [이 섹션](lp-content.md#use-form-component#use-additional-data)을 참조하십시오.
 
    ![](assets/lp_create-lp-additional-data.png)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 11%
+ht-degree: 6%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
->title="푸시 메시지 생성"
->abstract="푸시 메시지를 추가하고 표현식 편집기로 개인화를 시작합니다."
+>title="푸시 메시지 작성"
+>abstract="푸시 메시지를 추가하고 개인화 편집기를 사용하여 개인화를 시작합니다."
 
 ## 여정 또는 캠페인에서 푸시 알림 만들기 {#create}
 
@@ -78,7 +78,7 @@ ht-degree: 11%
 
    * 한 번
    * 일별
-   * 주별
+   * 주간
    * 월별
 
 1. 캠페인 구성 화면에서 다음을 클릭합니다. **[!UICONTROL 콘텐츠 편집]** 푸시 콘텐츠 구성 단추 [푸시 알림 디자인](design-push.md)
@@ -101,7 +101,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="빠른 전송 모드"
->abstract="빠른 전송 모드를 사용하면 푸시 채널에서 3000만 명 미만의 대상자에게 고속 메시지 전송 작업을 수행할 수 있습니다."
+>abstract="빠른 전송 모드를 사용하면 푸시 채널에서 30M 미만의 대상자에게 고속 메시지 전송을 수행할 수 있습니다."
 
 빠른 전송 모드는 [!DNL Journey Optimizer] 캠페인을 통해 매우 빠른 푸시 메시지를 대량으로 전송할 수 있는 추가 기능입니다.
 

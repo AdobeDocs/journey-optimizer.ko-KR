@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 13%
+ht-degree: 3%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
 >title="나만의 조각 정의"
->abstract="여러 여정과 캠페인 전반에서 콘텐츠를 재사용할 수 있도록 독립 실행형 조각을 만들고 관리합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html?lang=ko-KR#create-fragments" text="조각 만들기"
+>abstract="독립형 조각을 만들고 관리하여 여러 여정 및 캠페인에서 콘텐츠를 재사용할 수 있도록 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="조각 만들기"
 
 조각은 의 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다 [!DNL Journey Optimizer] 캠페인 및 여정.
 
@@ -39,7 +39,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->**시각적 조각** 에서 사용할 수 있습니다. [이메일 디자이너](../email/get-started-email-design.md), 반면 **표현식 조각** 을 통해 액세스할 수 있습니다. [표현식 편집기](../personalization/personalization-build-expressions.md).
+>**시각적 조각** 에서 사용할 수 있습니다. [이메일 디자이너](../email/get-started-email-design.md), 반면 **표현식 조각** 을 통해 액세스할 수 있습니다. [개인화 편집기](../personalization/personalization-build-expressions.md).
 
 또한 Journey Optimizer을 활용할 수 있습니다 **콘텐츠 REST API** 콘텐츠 조각을 관리합니다. 자세한 내용은 [Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
@@ -168,9 +168,9 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="비주얼 유형 선택"
->abstract="여정 또는 캠페인 내의 이메일이나 콘텐츠 템플릿에서 콘텐츠를 재사용할 수 있도록 독립 실행형 시각적 조각을 만듭니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=ko-KR" text="이메일에 비주얼 조각 추가"
+>title="시각적 유형 선택"
+>abstract="독립 실행형 시각적 조각을 만들어 여정 또는 캠페인 내의 이메일이나 콘텐츠 템플릿에서 콘텐츠를 재사용할 수 있도록 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="이메일에 시각적 조각 추가"
 
 1. [조각 만들기](#create-from-scratch) 다음에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴에서 **[!UICONTROL 시각적 조각]** 유형.
 
@@ -199,8 +199,8 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="표현식 유형 선택"
->abstract="여러 여정과 캠페인 전반에서 콘텐츠를 재사용할 수 있도록 독립 실행형 표현식 조각을 만듭니다. 표현식 편집기를 사용하면 현재 샌드박스에서 생성된 모든 표현식 조각을 활용할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=ko-KR" text="표현식 조각 활용"
+>abstract="독립 실행형 표현식 조각을 만들어 여러 여정 및 캠페인에서 콘텐츠를 재사용할 수 있도록 합니다. 개인화 편집기를 사용할 때 현재 샌드박스에서 만든 모든 표현식 조각을 활용할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="표현식 조각 활용"
 
 1. [조각 만들기](#create-from-scratch) 다음에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴에서 **[!UICONTROL 표현식 조각]** 유형.
 
@@ -210,9 +210,9 @@ ht-degree: 13%
 
    <!--Expression fragments can be used in any channel.-->
 
-1. Click **[!UICONTROL Create]**. 표현식 편집기가 열립니다.
+1. 클릭 **[!UICONTROL 만들기]**. 개인화 편집기가 열립니다.
 
-1. 다음을 활용할 수 있습니다. [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
+1. 다음을 활용할 수 있습니다. [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 개인화 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
    ![](assets/fragment-expression-editor.png)
 
@@ -220,7 +220,7 @@ ht-degree: 13%
 
 1. 필요한 경우 조각 이름 옆에 있는 화살표를 클릭하여 로 돌아갑니다. **[!UICONTROL 세부 사항]** 화면을 표시하고 편집합니다.
 
-이제 이 조각을 사용하여 내에서 콘텐츠를 작성할 수 있습니다. [!DNL Journey Optimizer] 표현식 편집기. [방법 알아보기](../personalization/use-expression-fragments.md)
+이제 이 조각을 사용하여 내에서 콘텐츠를 작성할 수 있습니다. [!DNL Journey Optimizer] 개인화 편집기. [방법 알아보기](../personalization/use-expression-fragments.md)
 
 ## 조각으로 저장 {#save-as-fragment}
 
@@ -244,7 +244,7 @@ ht-degree: 13%
 
    ![](assets/fragment-save-as-screen.png)
 
-1. Click **[!UICONTROL Create]**. 조각 세부 사항, 즉 이름 및 설명(필요한 경우)을 입력합니다.
+1. 클릭 **[!UICONTROL 만들기]**. 조각 세부 사항, 즉 이름 및 설명(필요한 경우)을 입력합니다.
 
 1. 조각에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 다음을 선택합니다. **[!UICONTROL 액세스 관리]**. [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md).
 
@@ -265,13 +265,13 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="표현식 조각으로 저장"
->abstract="[!DNL Journey Optimizer] 표현식 편집기를 사용하면 콘텐츠를 표현식 조각으로 저장할 수 있습니다. 그런 다음 이러한 표현식을 사용하여 개인화된 콘텐츠를 빌드할 수 있습니다."
+>abstract="다음 [!DNL Journey Optimizer] 개인화 편집기를 사용하면 콘텐츠를 표현식 조각으로 저장할 수 있습니다. 그런 다음 이러한 표현식을 사용하여 개인화된 콘텐츠를 작성할 수 있습니다."
 
-[!DNL Journey Optimizer] 표현식 편집기를 사용하면 콘텐츠를 표현식 조각으로 저장할 수 있습니다. 그런 다음 이러한 표현식을 사용하여 개인화된 콘텐츠를 빌드할 수 있습니다.
+다음 [!DNL Journey Optimizer] 개인화 편집기를 사용하면 콘텐츠를 표현식 조각으로 저장할 수 있습니다. 그런 다음 이러한 표현식을 사용하여 개인화된 콘텐츠를 작성할 수 있습니다.
 
 콘텐츠를 표현식 조각으로 저장하려면 아래 단계를 수행합니다.
 
-1. 다음에서 [표현식 편집기](../personalization/personalization-build-expressions.md) 인터페이스를 만들고 표현식을 작성한 다음 **[!UICONTROL 조각으로 저장]**.
+1. 다음에서 [개인화 편집기](../personalization/personalization-build-expressions.md) 인터페이스를 만들고 표현식을 작성한 다음 **[!UICONTROL 조각으로 저장]**.
 
 1. 오른쪽 창에서 사용자가 쉽게 찾을 수 있도록 표현식의 이름과 설명을 입력합니다.
 

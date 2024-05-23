@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 8%
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 8%
 
 1. 캠페인 속성 등 캠페인을 만드는 단계를 완료합니다. [대상자](../audience/about-audiences.md), 및 [예약](../campaigns/create-campaign.md#schedule). 캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../campaigns/get-started-with-campaigns.md).
 
-1. 표현식 편집기를 사용하여 원하는 대로 콘텐츠를 편집합니다. [자세히 알아보기](#edit-code)
+1. 개인화 편집기를 사용하여 원하는 대로 콘텐츠를 편집합니다. [자세히 알아보기](#edit-code)
 
    ![](assets/code-based-campaign-edit-content.png)
 
@@ -47,15 +47,15 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="표현식 편집기 사용"
->abstract="이 코드 기반 경험 액션의 일부로 게재하려는 코드를 삽입하고 편집합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=ko-KR" text="표현식 편집기 시작하기"
+>title="개인화 편집기 사용"
+>abstract="이 코드 기반 경험 작업의 일부로 제공할 코드를 삽입하고 편집합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="개인화 편집기 시작"
 
 1. Campaign Edition 화면에서 다음을 선택합니다. **[!UICONTROL 코드 편집]**.
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. 다음 [표현식 편집기](../personalization/personalization-build-expressions.md) 열림. 코드를 작성할 수 있는 비시각적 경험 만들기 인터페이스입니다.
+1. 다음 [개인화 편집기](../personalization/personalization-build-expressions.md) 열림. 코드를 작성할 수 있는 비시각적 경험 만들기 인터페이스입니다.
 
 1. 작성 모드를 HTML에서 JSON으로 전환하거나 그 반대로 전환할 수 있습니다.
 
@@ -65,7 +65,7 @@ ht-degree: 8%
    >
    >작성 모드를 변경하면 현재 코드가 모두 손실되므로 작성을 시작하기 전에 모드를 전환해야 합니다.
 
-1. 필요에 따라 코드를 입력합니다. 다음을 활용할 수 있습니다. [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
+1. 필요에 따라 코드를 입력합니다. 다음을 활용할 수 있습니다. [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 개인화 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
 1. 필요한 경우 HTML 또는 JSON 표현식 조각을 추가할 수 있습니다. [방법 알아보기](../personalization/use-expression-fragments.md)
 
@@ -88,8 +88,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="코드 기반 경험 미리보기"
->abstract="코드 기반 경험이 어떻게 시각화되는지 시뮬레이션을 수행합니다."
+>title="코드 기반 경험 미리 보기"
+>abstract="코드 기반 환경의 모습을 시뮬레이션해 봅니다."
 
 수정된 코드 기반 경험의 미리보기를 표시하려면 아래 단계를 따르십시오. 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 페이지 미리보기 및 테스트](../content-management/preview-test.md).
 
@@ -97,7 +97,7 @@ ht-degree: 8%
 >
 >게재할 오퍼를 시뮬레이션할 수 있는 테스트 프로필이 있어야 합니다. 방법 알아보기 [테스트 프로필 만들기](../audience/creating-test-profiles.md).
 
-1. 표현식 편집기 또는 콘텐츠 편집 화면에서 다음을 선택합니다. **[!UICONTROL 콘텐츠 시뮬레이션]**.
+1. 개인화 편집기 또는 콘텐츠 편집 화면에서 다음을 선택합니다. **[!UICONTROL 콘텐츠 시뮬레이션]**.
 
    ![](assets/code-based-campaign-simulate.png)
 
