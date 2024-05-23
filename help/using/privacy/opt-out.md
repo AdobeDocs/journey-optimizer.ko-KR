@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 100%
+source-wordcount: '1066'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"}가 처리합니다.
+>위치 [!DNL Journey Optimizer], 동의는 Experience Platform에 의해 처리됩니다 [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다. 온보딩하는 동안 나열된 가능한 값 중 하나로 이 기본값을 수정할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"}.
 
 ## 개인화 동의 구현 {#opt-out-personalization}
 
@@ -98,9 +98,9 @@ ht-degree: 100%
 >
 >프로필 데이터를 [데이터 모델링](../offers/ranking/ai-models.md)에 사용하는 데 대한 동의는 아직 [!DNL Journey Optimizer]에서 지원되지 않습니다.
 
-### 표현식 편집기에서 {#opt-out-expression-editor}
+### 개인화 편집기에서 {#opt-out-expression-editor}
 
-[표현식 편집기](../personalization/personalization-build-expressions.md) 자체는 동의 여부 확인이나 적용을 수행하지 않습니다. 메시지 게재 작업에 포함되지 않기 때문입니다.
+다음 [개인화 편집기](../personalization/personalization-build-expressions.md) 메시지 게재와 관련이 없으므로 그 자체로 동의 확인 또는 시행을 수행하지 않습니다.
 
 그러나 권한 기반 액세스 제어 레이블을 사용하면 개인화에 사용할 수 있는 필드를 제한할 수 있습니다. [메시지 미리 보기](../content-management/preview.md) 및 [이메일 렌더링 서비스](../content-management/rendering.md)가 중요한 정보로 식별된 필드를 마스킹합니다.
 

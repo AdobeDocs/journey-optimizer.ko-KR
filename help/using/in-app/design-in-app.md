@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 28%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
 >title="인앱 콘텐츠 정의"
->abstract="인앱 메시지의 콘텐츠 및 스타일을 사용자 정의합니다. 또한 미디어 및 작업 버튼을 추가하여 메시지를 더욱 매력적이고 효과적으로 만들 수 있습니다."
+>abstract="인앱 메시지의 콘텐츠와 스타일을 사용자 지정합니다. 미디어 및 작업 버튼을 추가하여 메시지를 보다 매력적이고 효과적으로 만들 수도 있습니다."
 
 인앱 컨텐츠를 편집하여 경험 선택 사항을 구성할 수 있습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_layout"
 >title="인앱 콘텐츠 정의"
->abstract="메시지 레이아웃에서는 메시지를 구성하는 데 일반적으로 사용되는 템플릿을 제공합니다. 사용자 정의 레이아웃에서는 사용자 정의 HTML 메시지를 업로드하거나 작성할 수 있는 옵션을 제공합니다."
+>abstract="메시지 레이아웃은 메시지 프레임을 만드는 데 일반적으로 사용되는 템플릿을 제공합니다. 사용자 지정 레이아웃 은 사용자 지정 HTML 메시지를 업로드하거나 작성하는 옵션을 제공합니다."
 
 다음에서 **[!UICONTROL 메시지 레이아웃]** 섹션에서, 메시징 요구 사항에 따라 선택할 네 가지 레이아웃 옵션 중 하나를 선택합니다.
 
@@ -74,8 +74,8 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_close"
->title="닫기 버튼의 스타일을 선택합니다."
->abstract="닫기 버튼 섹션에서는 메시지 닫기 버튼의 변형을 선택할 수 있는 옵션과 사용자 정의 이미지를 업로드할 수 있는 옵션이 제공됩니다."
+>title="[닫기] 단추의 스타일을 선택합니다."
+>abstract="닫기 단추 섹션은 메시지 닫기 단추의 변형을 선택하는 옵션과 사용자 지정 이미지를 업로드하는 옵션을 제공합니다."
 
 ![](assets/in_app_web_design_2.png)
 
@@ -97,8 +97,8 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_media"
->title="인앱 메시지에 미디어를 추가하여 최종 사용자에게 매력적인 경험을 제공하십시오."
->abstract="콘텐츠에 직접 연결되는 링크를 제공하거나 자산 선택기를 사용하여 Asset Essentials에서 메시지에 추가할 미디어를 선택합니다."
+>title="인앱 메시지에 미디어를 추가하여 최종 사용자를 위한 매력적인 경험을 만듭니다."
+>abstract="컨텐츠에 대한 직접 링크를 제공하거나 에셋 선택기를 사용하여 Asset Essentials의 미디어를 선택하여 메시지에 추가합니다."
 
 다음 **[!UICONTROL 미디어]** 필드를 사용하면 인앱 메시지에 미디어를 추가하여 최종 사용자를 위한 매력적인 경험을 만들 수 있습니다.
 
@@ -117,14 +117,14 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_content"
->title="메시지를 작성하려면 헤더 및 본문 필드에 내용을 입력합니다."
->abstract="여기에서 헤더 및 본문 텍스트를 모두 추가할 수 있습니다. 개인화 토큰을 포함하려면 개인화 대화 상자를 엽니다."
+>title="메시지를 작성하려면 머리글 및 본문 필드에 내용을 입력합니다."
+>abstract="여기에 머리글과 본문을 모두 추가할 수 있습니다. 개인화 토큰을 포함하려면 개인화 대화 상자를 엽니다."
 
 메시지를 작성하려면 **[!UICONTROL 머리글]** 및 **[!UICONTROL 본문]** 필드.
 
 ![](assets/in_app_web_design_4.png)
 
-사용 **[!UICONTROL 개인화]** 아이콘을 클릭하여 개인화를 추가합니다. Adobe Journey Optimizer 표현식 편집기의 개인화에 대해 자세히 알아보기 [이 섹션에서](../personalization/personalize.md).
+사용 **[!UICONTROL 개인화]** 아이콘을 클릭하여 개인화를 추가합니다. Adobe Journey Optimizer 개인화 편집기의 개인화에 대해 자세히 알아보기 [이 섹션에서](../personalization/personalize.md).
 
 +++고급 서식이 있는 추가 옵션
 
@@ -140,10 +140,10 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_buttons"
->title="사용자가 인앱 메시지와 상호 작용할 수 있는 버튼을 추가합니다."
->abstract="이 섹션에서는 메시지에 클릭 유도 버튼을 추가할 수 있습니다. 각 버튼에 대해 사용자 정의 텍스트 및 대상을 포함할 수 있습니다."
+>title="사용자가 인앱 메시지와 상호 작용할 수 있는 단추를 추가합니다."
+>abstract="이 섹션에서는 클릭 유도 문안 단추를 메시지에 추가할 수 있습니다. 각 단추에 사용자 지정 텍스트 및 대상을 포함할 수 있습니다."
 
-사용자가 인앱 메시지와 상호 작용할 수 있는 버튼을 추가합니다.
+사용자가 인앱 메시지와 상호 작용할 수 있는 단추를 추가합니다.
 
 ![](assets/in_app_web_design_5.png)
 
@@ -179,8 +179,8 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_preview"
->title="인앱 메시지를 미리 볼 수 있습니다."
->abstract="메시지가 디바이스의 메시지 요약으로 전송될 때 표시되는 미리보기 이미지입니다."
+>title="인앱 메시지를 미리 봅니다."
+>abstract="장치의 메시지 요약으로 메시지를 보낼 때 표시되는 미리 보기 이미지입니다."
 
 >[!NOTE]
 >
@@ -201,7 +201,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_layout"
 >title="인앱 메시지의 메시지 레이아웃을 정의합니다."
->abstract="이 섹션에서는 인앱 메시지에 배경을 추가할 수 있습니다. 이를 위해서는 UI 인계가 활성화되어야 합니다."
+>abstract="이 섹션에서는 인앱 메시지에 배경을 추가할 수 있습니다. 이를 위해서는 UI 인계를 활성화해야 합니다."
 
 ![](assets/in_app_web_design_6.png)
 
@@ -216,7 +216,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_advanced"
 >title="메시지 고급 설정을 정의합니다."
->abstract="이 섹션에서는 특히 고급 서식을 활성화한 경우 인앱 콘텐츠의 개인화를 향상할 수 있습니다."
+>abstract="이 섹션에서는 특히 고급 서식을 활성화한 경우 인앱 콘텐츠의 개인화를 향상시킬 수 있습니다."
 
 ![](assets/in_app_web_design_7.png)
 

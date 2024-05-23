@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 조건부, 규칙
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 조건부 규칙은 프로필의 속성, 대상자 멤버십 또는 컨텍스트 이벤트와 같은 다양한 기준에 따라 메시지에 표시할 콘텐츠를 정의하는 규칙 세트입니다.
 
-조건부 규칙은 표현식 편집기를 사용하여 작성되며, 콘텐츠에서 재사용하려는 경우 저장할 수 있습니다. [조건부 규칙을 라이브러리에 저장하는 방법 알아보기](#save)
+조건부 규칙은 개인화 편집기를 사용하여 생성되며 콘텐츠 간에 재사용하려는 경우 저장할 수 있습니다. [조건부 규칙을 라이브러리에 저장하는 방법 알아보기](#save)
 
 >[!NOTE]
 >
@@ -28,13 +28,13 @@ ht-degree: 8%
 
 ## 조건부 규칙 빌더에 액세스 {#access}
 
-조건부 규칙은 **[!UICONTROL 조건]** 다음 중 한 방법으로 액세스할 수 있는 표현식 편집기 내의 메뉴
+조건부 규칙은 **[!UICONTROL 조건]** 다음 중 한 방법으로 액세스할 수 있는 개인화 편집기 내의 메뉴
 
 * 이메일 디자이너에서 이메일 본문의 구성 요소에 대해 동적 콘텐츠를 활성화하는 경우. [이메일에 다이내믹 콘텐츠를 추가하는 방법 알아보기](dynamic-content.md#emails)
 
   ![](assets/conditions-access-email.png)
 
-* 을 사용하여 개인화를 추가할 수 있는 모든 필드에서 [표현식 편집기](personalization-build-expressions.md).
+* 을 사용하여 개인화를 추가할 수 있는 모든 필드에서 [개인화 편집기](personalization-build-expressions.md).
 
   ![](assets/conditions-access-editor.png)
 
@@ -43,16 +43,16 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="조건 만들기"
->abstract="프로필 속성, 상황별 이벤트 또는 대상자를 결합하여 메시지에 표시되어야 하는 콘텐츠를 정의하는 규칙을 작성합니다."
+>abstract="프로필 속성, 컨텍스트 기반 이벤트 또는 대상을 결합하여 메시지에 표시해야 하는 콘텐츠를 정의하는 규칙을 만듭니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="조건 만들기"
->abstract="프로필 속성, 상황별 이벤트 또는 대상자를 결합하여 메시지에 표시되어야 하는 콘텐츠를 정의하는 규칙을 작성합니다."
+>abstract="프로필 속성, 컨텍스트 기반 이벤트 또는 대상을 결합하여 메시지에 표시해야 하는 콘텐츠를 정의하는 규칙을 만듭니다."
 
 조건부 규칙을 만드는 단계는 다음과 같습니다.
 
-1. 액세스 **[!UICONTROL 조건]** 표현식 편집기 또는 이메일 디자이너의 메뉴를 클릭한 다음 **[!UICONTROL 새로 만들기]**.
+1. 액세스 **[!UICONTROL 조건]** 개인화 편집기 또는 이메일 디자이너의 메뉴를 클릭한 다음 **[!UICONTROL 새로 만들기]**.
 
 1. 필요에 따라 조건부 규칙을 만듭니다. 이렇게 하려면 왼쪽 메뉴에서 원하는 속성을 캔버스로 드래그 앤 드롭하고 정렬합니다.
 

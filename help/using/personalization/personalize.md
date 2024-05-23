@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 33%
+source-wordcount: '387'
+ht-degree: 21%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
->title="개인화 경험"
->abstract="**Adobe Journey Optimizer**&#x200B;를 사용하면 수신자에 대한 데이터와 정보를 활용하여 각 수신자에 맞게 메시지를 적응할 수 있습니다. 이는 이름, 관심사, 거주지, 구입한 제품 등이 될 수 있습니다."
+>title="경험 개인화"
+>abstract="사용 **Adobe Journey Optimizer** 에 대해 가지고 있는 데이터 및 정보를 활용하여 메시지를 각 수신자에게 맞게 조정할 수 있습니다. 이름, 관심사, 사는 곳, 산 물건 등이 될 수 있다."
 
-검색 [!DNL Adobe Journey Optimizer] 관련된 데이터 및 정보를 활용하여 메시지를 각 특정 수신자에게 적용하는 개인화 기능. 이는 이름, 관심사, 거주지, 구입한 제품 등이 될 수 있습니다.
+검색 [!DNL Adobe Journey Optimizer] 관련된 데이터 및 정보를 활용하여 메시지를 각 특정 수신자에게 적용하는 개인화 기능. 이름, 관심사, 사는 곳, 산 물건 등이 될 수 있다.
 
 ➡️ [다음 비디오에서는 메시지를 개인화하는 방법을 알아봅니다](#video-perso)
 ➡️ [개인화를 활용하는 사용 사례 살펴보기](personalization-use-case.md)
 
 ## 전용 구문을 사용하여 개인화 표현식 작성 {#syntax}
 
-[!DNL Journey Optimizer] 다음 사용: **인라인** 중괄호로 묶은 내용이 포함된 표현식을 만들 수 있는 Handlebars를 기반으로 한 단순 개인화 구문 **{{}}**. 동일한 콘텐츠 또는 필드에 제한 없이 여러 식을 추가할 수 있습니다. 다음에서 자세히 알아보기 [개인화 구문](personalization-syntax.md).
+[!DNL Journey Optimizer] 다음 사용: **인라인** 중괄호로 묶은 내용이 포함된 표현식을 만들 수 있는 Handlebars를 기반으로 한 단순 개인화 구문 **{{}}**. 동일한 콘텐츠 또는 필드에 제한 없이 여러 식을 추가할 수 있습니다. [개인화 구문에 대해 자세히 알아보기](personalization-syntax.md).
 
 **예:**
 
@@ -48,17 +48,12 @@ ht-degree: 33%
 
 또한 **계산된 속성** 을 클릭하여 콘텐츠를 개인화할 수 있습니다. 계산된 속성은 Adobe Experience Platform에 수집된 프로필 사용 경험 이벤트 데이터 세트를 기반으로 하며 개별 행동 이벤트를 요약하는 고객 프로필 내에 저장된 집계된 데이터 포인트 역할을 합니다 [계산된 속성으로 작업하는 방법 알아보기](../audience/computed-attributes.md)
 
-## 다른 컨텍스트에서 개인화 추가 {#contexts}
+## 개인화 편집기 작업 {#editor}
 
-[!DNL Journey Optimizer] 에서는 여러 가지 방법으로 메시지 콘텐츠와 표시를 개인화할 수 있습니다. 에서 개인화를 수행할 수 있는 컨텍스트에 대해 자세히 알아보십시오 [이 섹션](personalization-contexts.md).
+[!DNL Journey Optimizer] 은 모든 데이터를 선택, 정렬, 사용자 지정 및 확인하여 콘텐츠에 대한 사용자 지정된 개인화를 만들 수 있는 개인화 편집기를 제공합니다. felper 함수, 사전 정의된 표현식 라이브러리, 속성 즐겨찾기 등과 같은 몇 가지 도구를 사용하여 개인화 콘텐츠를 작성할 수 있습니다.
 
-## 표현식 편집기 작업 {#editor}
-
-[!DNL Journey Optimizer] 는 모든 데이터를 선택, 정렬, 사용자 지정 및 확인하여 콘텐츠에 대한 사용자 지정된 개인화를 만들 수 있는 표현식 편집기를 제공합니다.
-
-felper 함수, 사전 정의된 표현식 라이브러리, 속성 즐겨찾기 등과 같은 몇 가지 도구를 사용하여 개인화 콘텐츠를 작성할 수 있습니다.
-
-자세히 알아보기 [!DNL Journey Optimizer] 표현식 편집기 [이 섹션](personalization-build-expressions.md)
+* [개인화 편집기 작업 방법 알아보기](personalization-build-expressions.md)
+* [개인화를 수행할 수 있는 위치 알아보기](personalization-contexts.md).
 
 ## 방법 비디오{#video-perso}
 

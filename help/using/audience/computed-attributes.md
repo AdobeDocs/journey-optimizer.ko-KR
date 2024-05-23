@@ -7,10 +7,10 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -70,6 +70,6 @@ Adobe Experience Platform 데이터 소스에 필드 그룹을 추가하는 방�
 
 계산된 속성은 여정 최적화 도구에서 다양한 기능 세트를 제공합니다. 메시지 콘텐츠를 개인화하거나, 새 대상을 만들거나, 특정 계산된 속성을 기반으로 여정을 분할하는 등 다양한 용도로 사용할 수 있습니다. 예를 들어, 조건 활동에 계산된 단일 속성을 추가하여 지난 3주 동안의 여정 총 구매를 기반으로 프로필의 경로를 분할할 수 있습니다. 각 프로필에 대해 가장 최근에 본 항목을 표시하여 이메일을 개인화할 수도 있습니다.
 
-계산된 속성은 프로필 결합 스키마에서 생성된 프로필 속성 필드이므로 **SystemComputedAttributes** 필드 그룹입니다. 여기에서 계산된 속성을 다른 프로필 속성과 마찬가지로 취급하여 표현식에 추가하여 원하는 작업을 수행할 수 있습니다.
+계산된 속성은 프로필 결합 스키마에서 생성된 프로필 속성 필드이므로 의 개인화 편집기에서 액세스할 수 있습니다. **SystemComputedAttributes** 필드 그룹입니다. 여기에서 계산된 속성을 다른 프로필 속성과 마찬가지로 취급하여 표현식에 추가하여 원하는 작업을 수행할 수 있습니다.
 
 ![](assets/computed-attributes-ajo.png)

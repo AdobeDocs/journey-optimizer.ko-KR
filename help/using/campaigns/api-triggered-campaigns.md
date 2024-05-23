@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 2%
@@ -97,7 +97,7 @@ API 트리거 캠페인을 사용하면 API 페이로드에서 추가 데이터�
 >
 >프로필 활성화 이벤트와 달리 REST API에서 전달된 컨텍스트 데이터는 일회성 통신에 사용되며 프로필에 대해 저장되지 않습니다. 네임스페이스가 누락된 경우 최대 네임스페이스 세부 정보로 프로필이 만들어집니다.
 
-캠페인에서 이러한 데이터를 사용하려면 해당 데이터를 API 페이로드에 전달하고 표현식 편집기를 사용하여 메시지에 추가해야 합니다. 이렇게 하려면 `{{context.<contextualAttribute>}}` 구문, 여기서 `<contextualAttribute>` 은 전달할 데이터를 포함하는 API 페이로드의 변수 이름과 일치해야 합니다.
+캠페인에서 이러한 데이터를 사용하려면 해당 데이터를 API 페이로드에 전달하고 개인화 편집기를 사용하여 메시지에 추가해야 합니다. 이렇게 하려면 `{{context.<contextualAttribute>}}` 구문, 여기서 `<contextualAttribute>` 은 전달할 데이터를 포함하는 API 페이로드의 변수 이름과 일치해야 합니다.
 
 다음 `{{context.<contextualAttribute>}}` 구문은 문자열 데이터 형식에만 매핑됩니다.
 

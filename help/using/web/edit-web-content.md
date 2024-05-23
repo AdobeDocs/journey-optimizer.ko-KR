@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 17%
+ht-degree: 2%
 
 ---
 
@@ -31,18 +31,18 @@ ht-degree: 17%
 
 * [웹 캠페인 모니터링](monitor-web-campaigns.md)
 
-## 웹 디자이너를 사용하여 작업 {#work-with-web-designer}
+## 웹 디자이너 작업 {#work-with-web-designer}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="편집할 URL 확인"
->abstract="위에 정의된 웹 표면에 적용되는 콘텐츠 편집에 사용할 특정 웹 페이지의 URL을 확인합니다. Adobe Experience Platform Web SDK를 사용하여 웹 페이지를 구현해야 합니다."
+>abstract="위에서 정의한 웹 표면에 적용될 콘텐츠를 편집하는 데 사용할 특정 웹 페이지의 URL을 확인합니다. 웹 페이지는 Adobe Experience Platform Web SDK를 사용하여 구현해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="추가 정보"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="편집할 URL 입력"
->abstract="규칙과 일치하는 모든 페이지에 적용되는 콘텐츠 편집에 사용할 특정 웹 페이지의 URL을 입력합니다. Adobe Experience Platform Web SDK를 사용하여 웹 페이지를 구현해야 합니다."
+>abstract="규칙과 일치하는 모든 페이지에 적용할 콘텐츠를 편집하는 데 사용할 특정 웹 페이지의 URL을 입력합니다. 웹 페이지는 Adobe Experience Platform Web SDK를 사용하여 구현해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="추가 정보"
 
 웹 캠페인 작성을 시작하려면 아래 단계를 따르십시오.
@@ -96,11 +96,11 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
 >title="웹 페이지에 구성 요소 추가"
->abstract="여러 구성 요소를 웹 페이지에 추가하고 필요에 따라 편집할 수 있습니다."
+>abstract="웹 페이지에 여러 구성 요소를 추가하고 필요에 따라 편집할 수 있습니다."
 
 1. 다음에서 **[!UICONTROL 구성 요소]** 왼쪽의 창에서 항목을 선택합니다. 웹 페이지에 다음 구성 요소를 추가하고 필요에 따라 편집할 수 있습니다.
 
-   * [구분선](../email/content-components.md#divider)
+   * [분할자](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [이미지](../email/content-components.md#image)
    * 제목 - 이 구성 요소를 사용하는 것은 다음을 사용하는 것과 비슷합니다. **[!UICONTROL 텍스트]** 이메일 디자이너의 구성 요소입니다. [자세히 알아보기](../email/content-components.md#text)
@@ -128,7 +128,7 @@ ht-degree: 17%
 
 ## 개인화 및 오퍼 추가
 
-개인화를 추가하려면 컨테이너를 선택하고 표시되는 상황별 메뉴 모음에서 개인화 아이콘을 선택합니다. 표현식 편집기를 사용하여 변경 사항을 추가합니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
+개인화를 추가하려면 컨테이너를 선택하고 표시되는 상황별 메뉴 모음에서 개인화 아이콘을 선택합니다. 개인화 편집기를 사용하여 변경 사항을 추가합니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
@@ -157,7 +157,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="찾아보기 모드 사용"
->abstract="이 모드의 선택한 표면에서 개인화하려는 정확한 페이지로 이동할 수 있습니다."
+>abstract="이 모드에서 개인화할 선택한 서피스에서 정확한 페이지로 이동할 수 있습니다."
 
 기본값에서 바꿀 수 있습니다. **[!UICONTROL 디자인]** 모드: **[!UICONTROL 찾아보기]** 전용 버튼을 사용하는 모드입니다.
 

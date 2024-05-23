@@ -8,10 +8,10 @@ level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 hide: true
 hidefromtoc: true
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 7%
 
 ![](assets/in_app_web_design_4.png)
 
-사용 **[!UICONTROL 개인화]** 아이콘을 클릭하여 개인화를 추가합니다. Adobe Journey Optimizer 표현식 편집기의 개인화에 대해 자세히 알아보기 [이 섹션에서](../personalization/personalize.md).
+사용 **[!UICONTROL 개인화]** 아이콘을 클릭하여 개인화를 추가합니다. Adobe Journey Optimizer 개인화 편집기의 개인화에 대해 자세히 알아보기 [이 섹션에서](../personalization/personalize.md).
 
 +++고급 서식이 있는 추가 옵션
 
@@ -118,7 +118,7 @@ ht-degree: 7%
 
 ### 버튼 {#add-buttons}
 
-사용자가 인앱 메시지와 상호 작용할 수 있는 버튼을 추가합니다.
+사용자가 인앱 메시지와 상호 작용할 수 있는 단추를 추가합니다.
 
 ![](assets/in_app_web_design_5.png)
 

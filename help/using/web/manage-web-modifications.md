@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
->title="손쉽게 모든 변경 내용 관리"
->abstract="이 창을 사용하여 웹 페이지에 추가된 모든 조정 내용 및 스타일을 탐색하고 관리할 수 있습니다."
+>title="모든 변경 사항을 손쉽게 관리"
+>abstract="이 창을 사용하면 웹 페이지에 추가한 모든 조정 및 스타일을 탐색하고 관리할 수 있습니다."
 
 웹 페이지에 추가한 모든 구성 요소, 조정 및 스타일을 쉽게 관리할 수 있습니다. 전용 창에서 직접 수정 사항을 추가할 수도 있습니다.
 
@@ -97,14 +97,14 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
->title="사용자 정의 코드 추가"
->abstract="HEAD 요소는 메타데이터 컨테이너이며 HTML 태그와 BODY 태그 사이에 배치됩니다. SCRIPT 및 STYLE 요소만 추가하십시오. DIV 태그 및 기타 요소를 추가하면 나머지 HEAD 요소가 BODY에 들어갈 수 있습니다."
+>title="사용자 지정 코드 추가"
+>abstract="HEAD 요소는 메타데이터의 컨테이너이며 HTML 태그와 BODY 태그 사이에 배치됩니다. SCRIPT 및 STYLE 요소만 추가합니다. DIV 태그와 기타 요소를 추가하면 나머지 HEAD 요소가 BODY에 들어갈 수 있습니다."
 
 다음을 사용하여 사용자 지정 코드를 추가할 수 있습니다. **[!UICONTROL 페이지`<head>`]** 수정 유형.
 
 다음 `<head>` 요소는 메타데이터(데이터에 대한 데이터)의 컨테이너이며 `<html>` 태그 및 `<body>` 태그에 가깝게 배치하십시오. 이 경우 코드는 본문 또는 페이지 로드 이벤트를 기다리지 않고 페이지 로드 시작 시 실행됩니다.
 
-다음 `<head>` 요소는 일반적으로 페이지의 맨 위에 JavaScript 또는 CSS 코드를 추가하는 데 사용됩니다. 이어지는 시각적 작업을 위한 선택기는 이 탭에 추가된 HTML 요소에 따라 다릅니다.
+다음 `<head>` 요소는 일반적으로 페이지의 맨 위에 JavaScript 또는 CSS 코드를 추가하는 데 사용됩니다. 이후 시각적 작업을 위한 선택기는 이 탭에 추가된 HTML 요소에 따라 다릅니다.
 
 을(를) 추가하려면 **페이지`<head>`** 수정 사항을 입력하고 아래 단계를 수행합니다.
 
@@ -118,11 +118,11 @@ ht-degree: 11%
    >
    >만 추가할 수 있습니다. `<script>` 및 `<style>` 요소를 로 `<head>` 섹션. 추가 중 `<div>` 태그 및 기타 요소로 인해 남아 있을 수 있음 `<head>` 에 표시할 요소 `<body>`.
 
-1. 다음을 클릭합니다. **[!UICONTROL 고급 편집 옵션]** 단추를 클릭합니다. 표현식 편집기가 열립니다.
+1. 다음을 클릭합니다. **[!UICONTROL 고급 편집 옵션]** 단추를 클릭합니다. 개인화 편집기가 열립니다.
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   다음을 활용할 수 있습니다. [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
+   다음을 활용할 수 있습니다. [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 개인화 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
 #### 사용자 지정 코드 예 {#custom-code-examples}
 

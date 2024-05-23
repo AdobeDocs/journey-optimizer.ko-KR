@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 20%
+source-wordcount: '1855'
+ht-degree: 17%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="캠페인 대상자 선택"
->abstract="이 목록에는 사용 가능한 모든 Adobe Experience Platform 대상자가 표시됩니다. 캠페인으로 타겟팅할 대상자를 선택합니다. 캠페인에 구성된 메시지는 선택한 대상자에 속한 모든 개인 사용자에게 전송됩니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)"
+>abstract="이 목록에는 사용 가능한 모든 Adobe Experience Platform 대상이 표시됩니다. 캠페인으로 타깃팅할 대상을 선택합니다. 캠페인에 구성된 메시지는 선택한 대상자에 속하는 모든 개인에게 전송됩니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)"
 
 대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 집합입니다. 에서 대상자에 대해 자세히 알아보기 [Adobe Experience Platform 세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}.
 
@@ -86,7 +86,7 @@ ht-degree: 20%
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **메시지 개인화** 표현식 편집기에서 타겟팅된 대상의 데이터 보강 속성을 추가하여 여정 또는 캠페인에서. [표현식 편집기 작업 방법 알아보기](../personalization/personalization-build-expressions.md)
+* **메시지 개인화** 개인화 편집기에서 타겟팅된 대상의 데이터 보강 속성을 추가하여 여정 또는 캠페인에서. [개인화 편집기 작업 방법 알아보기](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -110,7 +110,7 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 
 +++
 
-+++ 배치 세분화
++++ 일괄 처리 세분화
 
 대상자에 대한 프로필 목록은 24시간마다 평가됩니다.
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 
 +++ 에지 세분화
 
-에지 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 평가하는 기능입니다 [가장자리에](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko-KR){target="_blank"}, enabling same-page and next-page personalization use cases. Currently only select query types can be evaluated with edge segmentation. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+에지 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 평가하는 기능입니다 [가장자리에](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}, 동일한 페이지 및 다음 페이지 개인화 사용 사례를 활성화합니다. 현재 선택한 쿼리 유형만 가장자리 세분화를 통해 평가할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
@@ -175,7 +175,7 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
   >
   >사용자 지정 업로드 대상의 경우, 반복 여정에서 &quot;증분 읽기&quot;가 활성화되면 이러한 대상이 수정되므로 프로필은 첫 번째 반복에서만 검색됩니다.
 
-또한 이러한 대상은 표현식 편집기에서 여정 및 캠페인에서 메시지를 개인화하는 데 사용할 수 있습니다. [표현식 편집기 작업 방법 알아보기](../personalization/personalization-build-expressions.md)
+또한 이러한 대상은 개인화 편집기에서 여정 및 캠페인에서 메시지를 개인화하는 데 사용할 수 있습니다. [개인화 편집기 작업 방법 알아보기](../personalization/personalization-build-expressions.md)
 
 +++
 

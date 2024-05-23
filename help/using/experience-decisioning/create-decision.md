@@ -5,12 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
-badge: label="제한 공개"
+badge: label="제한된 가용성"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 18%
+ht-degree: 2%
 
 ---
 
@@ -18,34 +18,34 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
->title="의사 결정은 무엇입니까?"
->abstract="결정 정책에는 결정 엔진이 최상의 콘텐츠를 선택하기 위한 모든 선택 논리가 포함되어 있습니다. 결정 정책은 캠페인별로 다릅니다. 목표는 각 프로필에 가장 적합한 제안을 선택하는 것이며, 캠페인 작성을 통해서는 메시지에 포함될 항목 속성을 포함하여 선택한 결정 항목이 표시될 방법을 지정할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="경험 결정 정보"
+>title="결정이란 무엇입니까?"
+>abstract="의사 결정 정책에는 의사 결정 엔진이 최상의 콘텐츠를 선택하는 모든 선택 논리가 포함되어 있습니다. 의사 결정 정책은 캠페인별로 다릅니다. 이 솔루션의 목표는 각 프로필에 대해 최상의 오퍼를 선택하는 것이며, 캠페인 작성에서는 메시지에 포함할 항목 속성을 포함하여 선택한 의사 결정 항목을 표시하는 방법을 나타낼 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Experience Decisioning 정보"
 
 의사 결정 정책은 대상자에 따라 제공할 최상의 콘텐츠를 선택하기 위해 경험 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
 
-결정 정책에는 결정 엔진이 최상의 콘텐츠를 선택하기 위한 모든 선택 논리가 포함되어 있습니다. 결정 정책은 캠페인별로 다릅니다. 목표는 각 프로필에 가장 적합한 제안을 선택하는 것이며, 캠페인 작성을 통해서는 메시지에 포함될 항목 속성을 포함하여 선택한 결정 항목이 표시될 방법을 지정할 수 있습니다.
+의사 결정 정책에는 의사 결정 엔진이 최상의 콘텐츠를 선택하는 모든 선택 논리가 포함되어 있습니다. 의사 결정 정책은 캠페인별로 다릅니다. 이 솔루션의 목표는 각 프로필에 대해 최상의 오퍼를 선택하는 것이며, 캠페인 작성에서는 메시지에 포함할 항목 속성을 포함하여 선택한 의사 결정 항목을 표시하는 방법을 나타낼 수 있습니다.
 
 >[!NOTE]
 >
 >다음에서 [!DNL Journey Optimizer] 사용자 인터페이스, 의사 결정 정책은 의사 결정으로 레이블이 지정됩니다.<!--but they are decision policies. TBC if this note is needed-->.
 
-## 코드 기반 캠페인에 결정 정책 추가 {#add-decision}
+## 코드 기반 캠페인에 의사 결정 정책 추가 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="반환할 항목 수 정의"
->abstract="반환하려는 결정 항목의 수를 선택합니다. 예를 들어 항목 2개를 선택하면 현재 표면에 대한 적격 제안 2개가 표시됩니다."
+>abstract="반환할 결정 항목의 수를 선택합니다. 예를 들어 2를 선택하면 현재 표면에 대해 가장 적합한 2개의 오퍼가 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
 >title="대체 항목 선택"
->abstract="해당 결정 정책에 정의된 선택 전략 중 어느 것도 적합하지 않은 경우 사용자에게 대체 항목이 표시됩니다."
+>abstract="해당 결정 정책에 대해 정의된 선택 전략 중 어느 것도 충족되지 않은 경우 대체 항목이 사용자에게 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
->title="전략이란?"
->abstract="선택 전략의 순서에 따라 먼저 평가할 전략을 결정합니다. 적어도 한 개의 전략이 필요합니다. 결합된 전략의 결정 항목을 동시에 평가합니다."
+>title="전략이란 무엇입니까?"
+>abstract="선택 전략의 순서에 따라 어떤 전략을 먼저 평가할지 결정됩니다. 하나 이상의 전략이 필요합니다. 결합된 전략의 의사 결정 항목을 함께 평가할 것이다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="전략 만들기"
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="평가 순서"
 
@@ -73,7 +73,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >적어도 한 개의 전략이 필요합니다. 10개 이상의 전략을 추가할 수 없습니다.
+   >하나 이상의 전략이 필요합니다. 10개 이상의 전략을 추가할 수 없습니다.
 
 1. 다음에서 **[!UICONTROL 전략 추가]** 화면에서 전략을 만들 수도 있습니다. 다음 **[!UICONTROL 선택 전략 만들기]** 버튼은 사용자를 로 리디렉션합니다. **[!UICONTROL Experience decisioning]** > **[!UICONTROL 전략 설정]** 메뉴 아래의 제품에서 사용할 수 있습니다. [자세히 알아보기](selection-strategies.md)
 
@@ -159,11 +159,11 @@ ht-degree: 18%
 
 ## 코드 편집기에서 의사 결정 정책 사용 {#use-decision-policy}
 
-의사 결정 정책을 만들면 [표현식 편집기](../code-based/create-code-based.md#edit-code). 그 방법은 다음과 같습니다.
+의사 결정 정책을 만들면 [개인화 편집기](../code-based/create-code-based.md#edit-code). 그 방법은 다음과 같습니다.
 
 >[!NOTE]
 >
->코드 기반 경험은 [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 표현식 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
+>코드 기반 경험은 [!DNL Journey Optimizer] 모든 개인화 및 작성 기능이 있는 개인화 편집기. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
 1. 다음을 클릭합니다. **[!UICONTROL 정책 삽입]** 단추를 클릭합니다. 결정 정책에 해당하는 코드가 추가됩니다.
 
@@ -186,7 +186,7 @@ ht-degree: 18%
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. 표현식 편집기에서 사용할 수 있는 다른 속성(예: 프로필 속성)을 추가할 수도 있습니다.
+1. 프로필 속성과 같이 개인화 편집기에서 사용할 수 있는 다른 속성을 추가할 수도 있습니다.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

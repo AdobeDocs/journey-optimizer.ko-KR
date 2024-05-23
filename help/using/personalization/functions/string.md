@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1846'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
 # 문자열 함수 {#string}
 
-표현식 편집기에서 String 함수를 사용하는 방법을 알아봅니다.
+개인화 편집기에서 String 함수를 사용하는 방법을 알아봅니다.
 
 ## 카멜 대/소문자 {#camelCase}
 
@@ -101,7 +101,7 @@ ht-degree: 6%
   {%= contains(profile.person.emailAddress,"2010@gm") %}
   ```
 
-## 다음을 포함하지 않음{#doesNotContain}
+## 포함하지 않음{#doesNotContain}
 
 다음 `doesNotContain` 함수는 문자열에 지정된 하위 문자열이 포함되어 있지 않은지 확인하는 데 사용합니다.
 
@@ -209,7 +209,7 @@ doesNotEndWith(person.emailAddress,".com")
 ```
 
 
-## 다음과 같음{#equals}
+## 같음{#equals}
 
 다음 `equals` 함수는 대/소문자를 구분하고 문자열이 지정된 문자열과 같은지 확인하는 데 사용합니다.
 
@@ -232,7 +232,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%=equals(profile.person.name,"John") %}
 ```
 
-## 같음 대/소문자 무시{#equalsIgnoreCase}
+## 대/소문자 무시와 같음{#equalsIgnoreCase}
 
 다음 `equalsIgnoreCase` 함수는 대/소문자를 구분하지 않고 문자열이 지정된 문자열과 같은지 확인하는 데 사용합니다.
 
@@ -291,7 +291,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= formatCurrency(56L,"en_GB") %}
 ```
 
-## URL 호스트 가져오기 {#get-url-host}
+## URL 호스트 다운로드 {#get-url-host}
 
 다음 `getUrlHost` 함수는 URL의 호스트 이름을 검색하는 데 사용됩니다.
 
@@ -309,7 +309,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 &quot;www.myurl.com&quot; 반환
 
-## URL 경로 가져오기 {#get-url-path}
+## URL 경로 다운로드 {#get-url-path}
 
 다음 `getUrlPath` 함수는 URL의 도메인 이름 뒤에 있는 경로를 검색하는 데 사용됩니다.
 
@@ -327,7 +327,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 &quot;/contact.html&quot; 반환
 
-## URL 프로토콜 가져오기 {#get-url-protocol}
+## URL 프로토콜 다운로드 {#get-url-protocol}
 
 다음 `getUrlProtocol` 함수는 URL의 프로토콜을 검색하는 데 사용됩니다.
 
@@ -707,7 +707,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= startsWith(person.name,"Joe") %}
 ```
 
-## 문자열을 현재까지 {#string-to-date}
+## 문자열을 날짜로 변환 {#string-to-date}
 
 다음 `stringToDate` 함수는 문자열 값을 날짜-시간 값으로 변환합니다. 이 메서드에는 날짜-시간의 문자열 표현과 포맷터의 문자열 표현이라는 두 가지 인수가 사용됩니다.
 
@@ -770,7 +770,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## 부울로 {#to-bool}
+## 부울로 변환 {#to-bool}
 
 다음 `toBool` 함수는 인수 유형에 따라 인수 값을 부울 값으로 변환하는 데 사용합니다.
 
@@ -780,7 +780,7 @@ doesNotEndWith(person.emailAddress,".com")
 {= toBool(string) %}: boolean
 ```
 
-## 종료 날짜/시간 {#to-date-time}
+## 날짜로 변환 {#to-date-time}
 
 다음 `toDateTime` 함수는 문자열을 날짜로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.
 
@@ -790,7 +790,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## 종료 날짜/시간만 {#to-date-time-only}
+## 날짜/시간로만 변환 {#to-date-time-only}
 
 다음 `toDateTimeOnly` 함수는 인수 값을 날짜/시간 전용 값으로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다. 이 함수는 문자열, 날짜, long 및 int 필드 유형을 수락합니다.
 
@@ -838,7 +838,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= urlDecode(string) %}: string
 ```
 
-## Url 인코딩 {#url-encode}
+## URL 인코드 {#url-encode}
 
 다음 `Count only null` 함수는 문자열을 url 인코딩하는 데 사용합니다.
 

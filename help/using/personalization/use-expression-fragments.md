@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 표현식 조각 사용
-description: 에서 표현식 조각을 사용하는 방법을 알아봅니다. [!DNL Journey Optimizer] 표현식 편집기.
+description: 에서 표현식 조각을 사용하는 방법을 알아봅니다. [!DNL Journey Optimizer] 개인화 편집기.
 feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # 표현식 조각 활용 {#use-expression-fragments}
 
-사용 시 **표현식 편집기**, 현재 샌드박스에 생성되거나 저장된 모든 표현식 조각을 활용할 수 있습니다.
+사용 시 **개인화 편집기**, 현재 샌드박스에 생성되거나 저장된 모든 표현식 조각을 활용할 수 있습니다.
 
 에서 조각을 만들고 관리하는 방법 알아보기 [이 섹션](../content-management/fragments.md).
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 콘텐츠에 표현식 조각을 추가하려면 아래 단계를 수행합니다.
 
-1. 를 엽니다. [표현식 편집기](personalization-build-expressions.md) 및 선택 **[!UICONTROL 조각]** 왼쪽 창의 단추.
+1. 를 엽니다. [개인화 편집기](personalization-build-expressions.md) 및 선택 **[!UICONTROL 조각]** 왼쪽 창의 단추.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
    ![](assets/expression-fragment-open.png)
 
-1. 그런 다음 의 모든 개인화 및 작성 기능을 사용하여 평소와 같이 콘텐츠를 맞춤화하고 유효성을 검사할 수 있습니다. [표현식 편집기](personalization-build-expressions.md).
+1. 그런 다음 의 모든 개인화 및 작성 기능을 사용하여 평소와 같이 콘텐츠를 맞춤화하고 유효성을 검사할 수 있습니다. [개인화 편집기](personalization-build-expressions.md).
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 ## 상속 중단 {#break-inheritance}
 
-표현식 편집기에 조각 ID를 추가하면 원래 표현식 조각에 대한 변경 사항이 동기화됩니다.
+개인화 편집기에 조각 ID를 추가하면 원본 표현식 조각에 대한 변경 사항이 동기화됩니다.
 
 그러나 표현식 조각의 콘텐츠를 편집기에 붙여넣을 수도 있습니다. 상황별 메뉴에서 **[!UICONTROL 조각 붙여넣기]** 을 클릭하여 해당 컨텐츠를 삽입합니다.
 

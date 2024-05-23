@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 유효성 검사, 오류, 개인화
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## 유효성 검사 메커니즘 {#validation-mechanisms}
 
-다음에서 **표현식 편집기** 화면, 사용 **유효성 검사** 단추를 클릭하여 개인화 구문을 확인합니다.
+다음에서 **개인화 편집기** 화면, 사용 **유효성 검사** 단추를 클릭하여 개인화 구문을 확인합니다.
 
 >[!NOTE]
 > 유효성 검사는 다음을 클릭하면 자동으로 실행됩니다. **추가** 단추를 클릭하여 편집기 창을 닫습니다.
@@ -29,7 +29,7 @@ ht-degree: 1%
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> 개인화 구문이 유효하지 않은 경우 표현식 편집기 창을 닫을 수 없습니다.
+> 개인화 구문이 유효하지 않은 경우 개인화 편집기 창을 닫을 수 없습니다.
 >
 
 ## 일반적인 오류 {#common-errors}
@@ -80,7 +80,7 @@ No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-유효성 검사는 표현식 편집기에서 개인화 콘텐츠를 확인하는 동안 수행됩니다.
+유효성 검사는 개인화 편집기에서 개인화 콘텐츠를 확인하는 동안 수행됩니다.
 
 <table> 
  <thead> 

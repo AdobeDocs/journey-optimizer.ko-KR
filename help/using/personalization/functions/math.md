@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
 # 수학 함수 {#math}
 
-표현식 편집기에서 수학 함수를 사용하는 방법에 대해 알아봅니다.
+개인화 편집기에서 수학 함수를 사용하는 방법에 대해 알아봅니다.
 
 ## 절대 {#absolute}
 
@@ -97,7 +97,7 @@ ht-degree: 6%
 {%= toHexString(158) %}
 ```
 
-## 끝 정수 {#to-int}
+## 정수로 {#to-int}
 
 다음 `toInt` 함수는 이러한 유형(숫자, 더블, int, long, float, short, 바이트, 부울, 문자열) 중 하나를 정수로 변환하는 데 사용됩니다.
 
@@ -125,7 +125,7 @@ ht-degree: 6%
 {%= toPercentage(double) %}: string
 ```
 
-## 전체 자릿수로 {#to-precision}
+## 전체 자릿수로 변환 {#to-precision}
 
 다음 `toPrecision` 함수는 숫자를 필요한 전체 자릿수로 변환하는 데 사용합니다.
 

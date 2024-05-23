@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식, 구성 요소
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 10%
+ht-degree: 1%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="콘텐츠 구성 요소 사용"
->abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다. 사용자가 선택 사항을 선택하고 제출할 수 있는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=ko-KR#add-content-components" text="콘텐츠 구성 요소 추가"
+>abstract="콘텐츠 구성 요소는 랜딩 페이지의 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다. 사용자가 선택 항목을 선택하고 제출할 수 있도록 해 주는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용하십시오."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="콘텐츠 구성 요소 추가"
 
 랜딩 페이지 콘텐츠를 디자인하기 위해 이메일과 동일한 구성 요소를 사용할 수 있습니다. [자세히 알아보기](../email/content-components.md#add-content-components)
 
@@ -39,13 +39,13 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="양식 구성 요소 필드 설정"
->abstract="수신자가 랜딩 페이지에서 선택 사항을 표시하고 제출하는 방법을 정의합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=ko-KR#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
+>abstract="수신자가 랜딩 페이지에서 선택한 항목을 보고 제출하는 방법을 정의합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="버튼 클릭 시 나타나는 결과"
->abstract="사용자가 랜딩 페이지 양식을 제출할 때 나타나는 결과를 정의합니다."
+>title="버튼을 클릭하면 발생하는 작업"
+>abstract="사용자가 랜딩 페이지 양식을 제출할 때 어떤 일이 발생하는지 정의합니다."
 
 사용자가 랜딩 페이지에서 선택 사항을 선택하고 제출할 수 있도록 하는 특정 콘텐츠를 정의하려면 **[!UICONTROL 양식]** 구성 요소. 그 방법은 다음과 같습니다.
 
@@ -57,7 +57,7 @@ ht-degree: 10%
    >
    >다음 **[!UICONTROL 양식]** 구성 요소는 동일한 페이지에서 한 번만 사용할 수 있습니다.
 
-1. 패턴을 선택합니다. 다음 **[!UICONTROL 양식 콘텐츠]** 양식의 여러 필드를 편집할 수 있는 탭이 오른쪽 팔레트에 표시됩니다.
+1. 선택합니다. 다음 **[!UICONTROL 양식 콘텐츠]** 양식의 여러 필드를 편집할 수 있는 탭이 오른쪽 팔레트에 표시됩니다.
 
    ![](assets/lp_designer-form-content-options.png)
 
@@ -172,7 +172,7 @@ ht-degree: 10%
 
 기본 페이지의 두 확인란을 두 개의 다른 구독 목록에 연결한다고 가정해 보겠습니다. 사용자가 이 중 하나를 구독하면 선택한 확인란에 따라 양식 제출 시 특정 메시지를 표시할 수 있습니다.
 
-이렇게 하려면 아래 절차를 따르십시오.
+이렇게 하려면 아래 단계를 수행합니다.
 
 1. 기본 페이지에서 의 각 확인란을 연결합니다. **[!UICONTROL 양식]** 관련 구독 목록에 대한 구성 요소. [자세히 알아보기](#use-form-component).
 
@@ -188,7 +188,7 @@ ht-degree: 10%
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. 표현식 편집기 도우미 함수를 사용하여 관련 조건을 추가합니다. [자세히 알아보기](../personalization/functions/functions.md)
+1. 개인화 편집기 도우미 기능을 사용하여 관련 조건을 추가합니다. [자세히 알아보기](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 
@@ -221,7 +221,7 @@ When [configuring the primary page](create-lp.md#configure-primary-page), you ca
 >
 >This data may not be visible to users who visit the page.
 
-If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
+If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md).
 
 ///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 

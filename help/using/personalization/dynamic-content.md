@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 다이내믹, 콘텐츠
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 10%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 
 Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 규칙을 활용하여 다이내믹 콘텐츠를 메시지에 추가할 수 있습니다.
 
-다이내믹 콘텐츠는 표현식 편집기를 사용하여 개인화를 추가할 수 있는 모든 필드에 만들 수 있습니다. 제목란, 링크, 푸시 알림 콘텐츠 또는 텍스트 유형 오퍼 표현이 여기에 포함됩니다. [개인화 컨텍스트에 대해 자세히 알아보기](personalization-contexts.md)
+다이내믹 콘텐츠는 개인화 편집기를 사용하여 개인화를 추가할 수 있는 모든 필드에 만들 수 있습니다. 제목란, 링크, 푸시 알림 콘텐츠 또는 텍스트 유형 오퍼 표현이 여기에 포함됩니다. [개인화 컨텍스트에 대해 자세히 알아보기](personalization-contexts.md)
 
 또한 이메일 디자이너에 조건부 규칙을 사용하여 콘텐츠 구성 요소의 여러 변형을 만들 수 있습니다.
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 �
 
 표현식에 동적 콘텐츠를 추가하는 단계는 다음과 같습니다.
 
-1. 다이내믹 콘텐츠를 추가할 필드로 이동한 다음 표현식 편집기를 엽니다.
+1. 다이내믹 콘텐츠를 추가할 필드로 이동한 다음 개인화 편집기를 엽니다.
 
 1. 다음 항목 선택 **[!UICONTROL 조건]** 메뉴를 사용하여 사용 가능한 조건부 규칙 목록을 표시할 수 있습니다. 규칙 옆에 있는 + 단추를 클릭하여 현재 표현식에 추가합니다.
 
@@ -46,17 +46,17 @@ Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 �
 
    ![](assets/conditions-preview.png)
 
-## 이메일에 동적 콘텐츠 추가 {#emails}
+## 이메일에 다이내믹 콘텐츠 추가 {#emails}
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
 >title="조건부 콘텐츠"
->abstract="조건부 규칙을 사용하여 여러 콘텐츠 구성 요소 변형을 만듭니다. 메시지를 전송할 때 다음 조건 중 어느 것도 충족되지 않으면 기본 변형의 콘텐츠가 표시됩니다."
+>abstract="조건부 규칙을 사용하여 콘텐츠 구성 요소의 변형을 여러 개 만듭니다. 메시지를 보낼 때 어느 조건도 충족되지 않으면 기본 변형의 콘텐츠가 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"
 >title="조건부 콘텐츠"
->abstract="라이브러리에 저장된 조건부 규칙을 사용하거나 새로 만듭니다."
+>abstract="라이브러리에 저장된 조건부 규칙을 사용하거나 새 규칙을 만듭니다."
 
 이메일 디자이너에서 콘텐츠 구성 요소의 변형을 만드는 단계는 다음과 같습니다.
 

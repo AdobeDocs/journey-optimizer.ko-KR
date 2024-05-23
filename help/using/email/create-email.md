@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: f2037f559826d7cca243092de200c97841c49b35
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 9%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
->title="이메일 작성"
+>title="이메일 만들기"
 >abstract="이메일 제목 줄을 정의하고 이메일 디자이너를 열어 이메일 콘텐츠를 만듭니다."
 
 
@@ -89,7 +89,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. 메시지의 제목 줄을 추가합니다. 표현식 편집기로 제목 줄을 구성하고 개인화하려면 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘. [자세히 알아보기](../personalization/personalization-build-expressions.md)
+1. 메시지의 제목 줄을 추가합니다. 개인화 편집기로 제목 줄을 구성하고 개인화하려면 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
 1. 다음을 클릭합니다. **[!UICONTROL 이메일 본문 편집]** 단추를 클릭하여 이메일 디자이너에 액세스하고 콘텐츠 작성을 시작합니다. [자세히 알아보기](get-started-email-design.md)
 
@@ -169,7 +169,7 @@ Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](
 
 [!DNL Journey Optimizer] comes with a set of [built-in templates](email-templates.md) to help you start. Any email can also be saved as a template.
 
-Use [!DNL Journey Optimizer] Expression editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
+Use [!DNL Journey Optimizer] personalization editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
 
 Adapt the content of your messages to the targeted profiles by using [!DNL Journey Optimizer] dynamic content capabilities. [Get started with dynamic content](../personalization/get-started-dynamic-content.md)
 

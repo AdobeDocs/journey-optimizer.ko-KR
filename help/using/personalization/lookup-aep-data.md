@@ -10,7 +10,8 @@ level: Intermediate
 keywords: 표현식, 편집기
 hidefromtoc: true
 hide: true
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -25,9 +26,9 @@ ht-degree: 0%
 >
 >현재는 Adobe에 제공한 비프로덕션 샌드박스와 베타를 위해 요청된 데이터 세트에서만 테스트 목적으로 사용할 수 있습니다.
 
-Journey Optimizer을 사용하면 표현식 편집기에서 Adobe Experience Platform의 데이터를 활용하여 [콘텐츠 개인화](../personalization/personalize.md). 단계는 다음과 같습니다.
+Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 [콘텐츠 개인화](../personalization/personalize.md). 단계는 다음과 같습니다.
 
-1. 메시지와 같은 개인화를 정의할 수 있는 모든 컨텍스트에서 사용할 수 있는 표현식 편집기를 엽니다. [표현식 편집기 작업 방법 알아보기](../personalization/personalization-build-expressions.md)
+1. 메시지와 같은 개인화를 정의할 수 있는 모든 컨텍스트에서 사용할 수 있는 개인화 편집기를 엽니다. [개인화 편집기 작업 방법 알아보기](../personalization/personalization-build-expressions.md)
 
 1. 도우미 함수 목록으로 이동하여 **datasetLookup** 코드 창에 도우미 함수를 추가합니다.
 

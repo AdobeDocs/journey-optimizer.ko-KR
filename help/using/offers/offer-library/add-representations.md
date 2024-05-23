@@ -1,26 +1,26 @@
 ---
-title: 오퍼에 표현 추가
+title: 오퍼에 표시 추가
 description: 오퍼에 표시를 추가하는 방법을 알아봅니다
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 8%
+source-wordcount: '763'
+ht-degree: 0%
 
 ---
 
-# 오퍼에 표현 추가 {#add-representations}
+# 오퍼에 표시 추가 {#add-representations}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="표시"
->abstract="표현을 추가하여 메시지에 오퍼가 표시될 위치를 정의합니다. 오퍼에 표현이 많을수록 오퍼를 다양한 배치 컨텍스트에서 사용할 기회가 많아집니다."
+>abstract="표시를 추가하여 오퍼가 메시지에 표시되는 위치를 정의합니다. 오퍼에 대한 표시가 많을수록 다른 배치 컨텍스트에서 오퍼를 사용할 수 있는 기회가 많아집니다."
 
-오퍼는 메시지의 다른 위치에 표시될 수 있습니다. 이미지가 있는 상단 배너에서 단락 내 텍스트, HTML 블록 등으로 표시됩니다. 오퍼에 표현이 많을수록 오퍼를 다양한 배치 컨텍스트에서 사용할 기회가 많아집니다.
+오퍼는 메시지의 다른 위치에 표시될 수 있습니다. 이미지가 있는 상단 배너에서 단락 내 텍스트, HTML 블록 등으로 표시됩니다. 오퍼에 대한 표시가 많을수록 다른 배치 컨텍스트에서 오퍼를 사용할 수 있는 기회가 많아집니다.
 
 ## 오퍼의 표시 구성 {#representations}
 
@@ -72,7 +72,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
-> 작업 대상 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> 작업 대상 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, 를 배포해야 합니다. [!DNL Assets Essentials] 조직의 경우 및 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필. 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. 다음을 선택합니다. **[!UICONTROL 자산 라이브러리]** 옵션을 선택합니다.
 
@@ -82,7 +82,7 @@ ht-degree: 8%
 
 1. 에셋을 탐색하여 선택한 이미지 선택
 
-1. **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL 선택]**.
 
    ![](../assets/offer-select-asset.png)
 
@@ -100,13 +100,13 @@ ht-degree: 8%
 
 외부 공개 위치에서 컨텐츠를 추가하려면 다음을 선택합니다. **[!UICONTROL URL]**&#x200B;를 클릭한 다음 추가할 콘텐츠의 URL 주소를 입력합니다.
 
-표현식 편집기를 사용하여 URL을 개인화할 수 있습니다. 자세히 알아보기 [개인화](../../personalization/personalize.md#use-expression-editor).
+개인화 편집기를 사용하여 URL을 개인화할 수 있습니다. 자세히 알아보기 [개인화](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
 예를 들어 오퍼로 표시되는 이미지를 개인화하려고 합니다. 뉴욕시의 스카이라인을 보기 위해 도시 휴가를 선호하는 이용자들과 하와이 북해안을 보기 위해 해변 휴가를 선호하는 이용자들을 원한다는 것이다.
 
-표현식 편집기를 사용하여 유니온 스키마를 사용하여 Adobe Experience Platform에 저장된 프로필 속성을 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+개인화 편집기를 사용하여 유니온 스키마를 사용하여 Adobe Experience Platform에 저장된 프로필 속성을 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -128,7 +128,7 @@ ht-degree: 8%
 
    ![](../assets/offer-text-content.png)
 
-   표현식 편집기를 사용하여 콘텐츠를 개인화할 수 있습니다. 자세히 알아보기 [개인화](../../personalization/personalize.md#use-expression-editor).
+   개인화 편집기를 사용하여 콘텐츠를 개인화할 수 있습니다. 자세히 알아보기 [개인화](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

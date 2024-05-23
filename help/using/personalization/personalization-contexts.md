@@ -9,18 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 컨텍스트, 개인화
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
 # 개인화 컨텍스트{#personalization-areas}
 
-에서 게재한 메시지 콘텐츠 및 표시 [!DNL Journey Optimizer] 은 몇 가지 다양한 방법으로 개인화할 수 있습니다.
-
-편집기 아이콘이 있는 모든 필드에서 개인화 편집기(표현식 편집기라고도 함)를 열고 개인화를 정의할 수 있습니다.
+에서 게재한 메시지 콘텐츠 및 표시 [!DNL Journey Optimizer] 은 몇 가지 다양한 방법으로 개인화할 수 있습니다. 편집기 아이콘이 있는 모든 필드에서 개인화 편집기(개인화 편집기라고도 함)를 열고 개인화를 정의할 수 있습니다.
 
 ![](assets/perso_icon.png)
 

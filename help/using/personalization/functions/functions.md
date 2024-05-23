@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1872'
-ht-degree: 2%
+ht-degree: 22%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 >
 >개인화 편집기에서 사용할 수 있는 기능 및 기능은에서 사용할 수 있는 기능과 다릅니다. [여정 고급 표현식 편집기](../../building-journeys/expression/expressionadvanced.md).
 
-다음에서 [!DNL Journey Optimizer] 개인화 편집기, 도우미 함수는 다음 세 가지 카테고리로 그룹화됩니다. [함수](#functions-helper), [도우미](#helper-helper) 및 [연산자](#operators-helper).
+다음에서 [!DNL Journey Optimizer] 개인화 편집기, 도우미 함수는 다음 세 가지 범주로 그룹화됩니다. [함수](#functions-helper), [도우미](#helper-helper) 및 [연산자](#operators-helper).
 
 카테고리를 선택하여 하위 카테고리 및 기능에 액세스합니다.
 
@@ -46,10 +46,10 @@ ht-degree: 2%
         <td><a href="aggregation.md#average">평균</a></td><td>이 함수는 배열에서 선택한 모든 값의 산술 평균을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">카운트</a></td><td>이 함수는 특정 배열에서 요소의 수를 반환합니다.</td>
+        <td><a href="aggregation.md#count">횟수</a></td><td>이 함수는 특정 배열에서 요소의 수를 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-only-null">null만 계산</a></td><td>이 함수는 목록의 null 값 수를 계산합니다.</td>
+        <td><a href="aggregation.md#count-only-null">null만 계산</a></td><td>이 함수는 목록의 null 값 숫자를 계산합니다.</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-with-null">null이 포함된 개수</a></td><td>이 함수는 null 값을 포함하여 목록의 모든 요소를 계산합니다.</td>
@@ -58,7 +58,7 @@ ht-degree: 2%
         <td><a href="arrays-list.md#distinct">고유</a></td><td>이 함수는 중복 값이 제거된 배열 또는 목록에서 값을 가져옵니다.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct-count-with-null">Null이 포함된 고유 개수</a></td><td>이 함수는 null 값을 포함한 다른 값의 수를 계산합니다.</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">null이 포함된 고유 개수</a></td><td>이 함수는 null 값을 포함한 다른 값의 수를 계산합니다.</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#head">첫 번째 항목</a></td><td>이 함수는 배열 또는 목록의 첫 번째 항목을 반환합니다.</td>
@@ -67,10 +67,10 @@ ht-degree: 2%
         <td><a href="arrays-list.md#first-n">배열의 첫 번째 n</a></td><td>이 함수는 특정 수식에 따라 내림차순으로 정렬되면 배열에서 첫 번째 'N' 항목을 반환합니다</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">위치</a></td><td>이 함수는 항목이 배열의 멤버인지 또는 목록의 멤버인지 확인하는 데 사용합니다.</td>
+        <td><a href="arrays-list.md#in">안에 있음</a></td><td>이 함수는 항목이 배열의 멤버인지 또는 목록의 멤버인지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">포함</a></td><td>이 함수는 배열 또는 목록에 지정된 항목이 포함되어 있는지 확인합니다.</td>
+        <td><a href="arrays-list.md#includes">다음을 포함</a></td><td>이 함수는 배열 또는 목록에 지정된 항목이 포함되어 있는지 확인합니다.</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#intersects">교차</a></td><td>이 함수는 두 배열 또는 목록에 최소 하나 이상의 공통 멤버가 있는지 확인합니다.</td>
@@ -85,7 +85,7 @@ ht-degree: 2%
         <td><a href="aggregation.md#min">최소</a></td><td>이 함수는 배열에서 선택한 모든 값 중 가장 작은 값을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">다음에 없음</a></td><td>이 함수는 항목이 배열의 멤버인지 또는 목록의 멤버가 아닌지 확인합니다.</td>
+        <td><a href="arrays-list.md#notin">안에 없음</a></td><td>이 함수는 항목이 배열의 멤버인지 또는 목록의 멤버가 아닌지 확인합니다.</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#subset">하위 집합</a></td><td>이 함수는 특정 배열(배열 A)이 다른 배열(배열 B)의 하위 집합인지 여부, 즉 배열 A의 모든 요소가 배열 B의 요소인지 여부를 결정합니다</td>
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 <table>
     <tr>
-        <td><a href="dates.md#age">연령</a></td><td>이 함수는 특정 날짜의 연령을 검색합니다.</td>
+        <td><a href="dates.md#age">처리 시간</a></td><td>이 함수는 특정 날짜의 연령을 검색합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#current">현재 시간(밀리초)</a></td><td>이 함수는 현재 시간을 에포크 밀리초 단위로 검색합니다.</td>
@@ -114,25 +114,25 @@ ht-degree: 2%
         <td><a href="dates.md#day-week">요일</a></td><td>이 함수는 요일을 검색합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">일(한 해 기준)</a></td><td>이 함수는 연간 일자를 검색합니다.</td>
+        <td><a href="dates.md#day-year">연간 일자</a></td><td>이 함수는 연간 일자를 검색합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">날짜 형식 지정</a></td><td>이 함수는 날짜/시간 값의 형식을 지정합니다.</td>
+        <td><a href="dates.md#format-date">날짜 포맷</a></td><td>이 함수는 날짜/시간 값의 형식을 지정합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date-locale">로케일 지원을 사용하여 날짜 형식 지정</a></td><td>이 함수는 날짜 시간 값의 형식을 해당 언어 구분 표시, 즉 원하는 로케일로 지정합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">일 설정</a></td><td>이 함수는 특정 날짜-시간에 대한 월 중 특정 일을 설정합니다.</td>
+        <td><a href="dates.md#set-days">요일 설정</a></td><td>이 함수는 특정 날짜-시간에 대한 월 중 특정 일을 설정합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#set-hours">시간 설정</a></td><td>이 함수는 날짜-시간의 시간을 설정합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-utc">UTC로</a></td><td>이 함수는 날짜/시간을 UTC로 변환합니다.</td>
+        <td><a href="dates.md#to-utc">UTC로 변환</a></td><td>이 함수는 날짜/시간을 UTC로 변환합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#week-of-year">주(한 해 기준)</a></td><td>이 함수는 연간 주를 반환합니다.</td>
+        <td><a href="dates.md#week-of-year">연간 주</a></td><td>이 함수는 연간 주를 반환합니다.</td>
     </tr>
 </table>
 </table>
@@ -141,7 +141,7 @@ ht-degree: 2%
 
 <table>
     <tr>
-        <td><a href="maps.md#get">Get</a></td><td>이 함수는 특정 키에 대한 맵의 값을 검색하는 데 사용합니다.</td>
+        <td><a href="maps.md#get">다운로드</a></td><td>이 함수는 특정 키에 대한 맵의 값을 검색하는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">키</a></td><td>이 함수는 특정 맵에 대한 모든 키를 검색하는 데 사용합니다.</td>
@@ -164,7 +164,7 @@ ht-degree: 2%
         <td><a href="math.md#random">무작위</a></td><td>이 함수는 0과 1 사이의 임의 값을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="math.md#round-down">내림</a></td><td>이 함수는 숫자를 내림합니다</td>
+        <td><a href="math.md#round-down">내림</a></td><td>이 함수는 숫자를 내림합니다.</td>
     </tr>
     <tr>
         <td><a href="math.md#round-up">올림</a></td><td>이 함수는 숫자를 올림합니다.</td>
@@ -186,7 +186,7 @@ ht-degree: 2%
     </tr>
 </table>
 
-### 개체 함수 {#object-functions}
+### 오브젝트 함수 {#object-functions}
 
 <table>
     <tr>
@@ -213,7 +213,7 @@ ht-degree: 2%
         <td><a href="string.md#contains">다음 포함</a></td><td>이 함수는 문자열에 지정된 하위 문자열이 포함되어 있는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotContain">다음을 포함하지 않음</a></td><td>이 함수는 문자열에 지정된 하위 문자열이 포함되어 있지 않은지 확인하는 데 사용합니다.</td>
+        <td><a href="string.md#doesNotContain">포함하지 않음</a></td><td>이 함수는 문자열에 지정된 하위 문자열이 포함되어 있지 않은지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotEndWith">다음으로 끝나지 않음</a></td><td>이 함수는 문자열이 지정된 하위 문자열로 끝나지 않은지 확인하는 데 사용합니다.</td>
@@ -229,10 +229,10 @@ ht-degree: 2%
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">다음과 같음</a></td><td>이 함수는 대/소문자 구분을 통해 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.</td>
+        <td><a href="string.md#equals">같음</a></td><td>이 함수는 대/소문자 구분을 통해 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#equalsIgnoreCase">같음 대/소문자 무시</a></td><td>이 함수는 대/소문자를 구분하지 않고 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.</td>
+        <td><a href="string.md#equalsIgnoreCase">대/소문자 무시와 같음</a></td><td>이 함수는 대/소문자를 구분하지 않고 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">이메일 도메인 추출</a></td><td>이 함수는 이메일 주소의 도메인을 추출하는 데 사용합니다.</td>
@@ -241,13 +241,13 @@ ht-degree: 2%
         <td><a href="string.md#format-currency">통화 포맷</a></td><td>이 함수는 두 번째 인수에서 문자열로 전달된 로케일에 따라 모든 숫자를 해당 언어 구분 통화 표시로 변환합니다</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-host">URL 호스트 가져오기</a></td><td>이 함수는 URL 호스트를 가져오는 데 사용합니다.</td>
+        <td><a href="string.md#get-url-host">URL 호스트 다운로드</a></td><td>이 함수는 URL 호스트를 다운로드하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-path">URL 경로 가져오기</a></td><td>이 함수는 URL 경로를 가져오는 데 사용합니다.</td>
+        <td><a href="string.md#get-url-path">URL 경로 다운로드</a></td><td>이 함수는 URL 경로를 가져오는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-protocol">URL 프로토콜 가져오기</a></td><td>이 함수는 URL 프로토콜을 가져오는 데 사용합니다.</td>
+        <td><a href="string.md#get-url-protocol">URL 프로토콜 다운로드</a></td><td>이 함수는 URL 프로토콜을 가져오는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#index-of">색인</a></td><td>이 함수는 (첫 번째 인수에서) 두 번째 매개 변수의 첫 번째 발생 횟수 위치를 반환합니다. 일치하는 항목이 없으면 -1을 반환합니다.</td>
@@ -259,7 +259,7 @@ ht-degree: 2%
         <td><a href="string.md#is-not-empty">비어 있지 않음</a></td><td>이 함수는 매개 변수의 문자열이 비어 있지 않으면 true를 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#last-index-of">마지막 색인</a></td><td>이 함수는 (첫 번째 인수에서) 두 번째 매개 변수의 마지막 발생 횟수 위치를 반환합니다. 일치하는 항목이 없으면 -1을 반환합니다.</td>
+        <td><a href="string.md#last-index-of">마지막 색인</a></td><td>이 함수는 (첫 번째 인수에서) 두 번째 매개 변수의 마지막 발생 횟수 위치를 반환합니다. 일치하는 위치가 없는 경우 -1을 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#leftTrim">Left trim</a></td><td>이 함수는 문자열의 시작에서 공백을 제거합니다.</td>
@@ -280,7 +280,7 @@ ht-degree: 2%
         <td><a href="string.md#matches">일치</a></td><td>이 함수는 문자열이 특정 정규 표현식과 일치하는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#md5">MD5</a></td><td>이 함수는 입력 문자열의 md5 해시를 반환합니다.</td>
+        <td><a href="string.md#md5">MD5</a></td><td>이 함수는 입력 문자열의 MD5 해시를 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#notEqualTo">다음과 같지 않음</a></td><td>이 함수는 문자열이 지정된 문자열과 같지 않은지 확인하는 데 사용합니다.</td>
@@ -307,25 +307,25 @@ ht-degree: 2%
         <td><a href="string.md#startsWith">다음으로 시작</a></td><td>이 함수는 문자열이 지정된 하위 문자열로 시작하는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">문자열을 현재까지</a></td><td>이 함수는 문자열 값을 날짜-시간 값으로 변환합니다.</td>
+        <td><a href="string.md#string-to-date">문자열을 날짜로 변환</a></td><td>이 함수는 문자열 값을 날짜-시간 값으로 변환합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">문자열을 정수로 변환</a></td><td>이 함수는 문자열 값을 정수 값으로 변환합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-number">문자열을 숫자로 변환</a></td><td>이 함수는 문자열을 숫자로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력과 동일한 문자열을 반환합니다.</td>
+        <td><a href="string.md#string-to-number">문자열을 숫자로 변환</a></td><td>이 함수는 문자열을 숫자로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 동일한 문자열을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#sub-string">하위 문자열</a></td><td>이 함수는 시작 색인과 종료 색인 사이에 있는 문자열 식의 하위 문자열을 반환합니다.</td>
+        <td><a href="string.md#sub-string">하위 문자열</a></td><td>이 함수는 시작 색인과 종료 색인 사이에서 문자열 표현식의 하위 문자열을 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#titleCase">제목 대/소문자</a></td><td>이 함수는 문자열의 각 단어의 첫 문자를 대문자로 사용하는 데 사용합니다</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-bool">부울로</a></td><td>이 함수는 인수 유형에 따라 인수 값을 부울 값으로 변환합니다.</td>
+        <td><a href="string.md#to-bool">부울로 변환</a></td><td>이 함수는 인수 유형에 따라 인수 값을 부울 값으로 변환합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time">종료 날짜/시간</a></td><td>이 함수는 문자열을 날짜로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.</td>
+        <td><a href="string.md#to-date-time">날짜로 변환</a></td><td>이 함수는 문자열을 날짜로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#to-date-time-only">종료 날짜/시간만</a></td><td>이 함수는 인수 값을 날짜/시간 전용 값으로 변환합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.</td>
@@ -340,7 +340,7 @@ ht-degree: 2%
         <td><a href="string.md#url-decode">URL 디코드</a></td><td>이 함수는 URL로 인코딩된 문자열을 디코딩하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">Url 인코딩</a></td><td>이 함수는 문자열을 URL 인코딩하는 데 사용합니다.</td>
+        <td><a href="string.md#url-encode">URL 인코드</a></td><td>이 함수는 문자열을 URL 인코딩하는 데 사용합니다.</td>
     </tr>
 </table>
 
@@ -355,7 +355,7 @@ ht-degree: 2%
         <td><a href="helpers.md#default">기본 대체 값</a></td><td>이 함수는 기본값으로 변수를 렌더링하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#each">각</a></td><td>이 함수는 배열을 반복하는 데 사용합니다.</td>
+        <td><a href="helpers.md#each">Each</a></td><td>이 함수는 배열을 반복하는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="helpers.md#if-function">If</a></td><td>이 함수는 조건부 블록을 정의하는 데 사용합니다. 식 계산이 true를 반환하면 블록이 렌더링됩니다.</td>
@@ -367,7 +367,7 @@ ht-degree: 2%
         <td><a href="helpers.md#unless">Unless</a></td><td>이 함수는 조건부 블록을 정의하는 데 사용합니다. 표현식 평가에서 false를 반환하면 블록이 렌더링됩니다.</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#with">포함</a></td><td>이 함수는 템플릿 일부의 평가 토큰을 변경하는 데 사용합니다.</td>
+        <td><a href="helpers.md#with">With</a></td><td>이 함수는 템플릿 일부의 평가 토큰을 변경하는 데 사용합니다.</td>
     </tr>
 </table>
 
@@ -379,7 +379,7 @@ ht-degree: 2%
 
 <table>
     <tr>
-        <td><a href="arithmetic-functions.md#add">추가</a></td><td>이 연산자는 두 인수 표현식의 합을 찾는 데 사용됩니다.</td>
+        <td><a href="arithmetic-functions.md#add">더하기</a></td><td>이 연산자는 두 인수 표현식의 합을 찾는 데 사용됩니다.</td>
     </tr>
     <tr>
         <td><a href="arithmetic-functions.md#divide">나누기</a></td><td>이 연산자는 두 인수 표현식의 몫을 찾는 데 사용됩니다</td>
@@ -416,7 +416,7 @@ ht-degree: 2%
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">다음과 같음</a></td><td>이 작업은 값이 같은지 확인합니다.</td>
+        <td><a href="operators.md#equals">같음</a></td><td>이 작업은 값이 같은지 확인합니다.</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthan">보다 큼</a></td><td>이 연산자는 첫 번째 값이 두 번째 값보다 큰지 확인합니다</td>

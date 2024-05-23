@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 구문, 개인화
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ Handlebars 구문에 대한 전체 설명은 다음을 참조하십시오. [Hand
 
 `{{profile.person.name}}`
 
-여기에서
+여기서:
 
 * `profile` 는 네임스페이스입니다.
 * `person.name` 는 속성으로 구성된 토큰입니다. 속성 구조는 Adobe Experience Platform XDM 스키마에서 정의됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}.
@@ -92,7 +92,7 @@ Handlebars에서 반환된 값은 {{expression}} 은(는) **HTML 이스케이프
 
 `offers.Type.[Placement Id].[Activity Id].Attribute`
 
-여기에서
+여기서:
 
 * `offers` 는 오퍼 네임스페이스에 속하는 경로 표현식을 식별합니다
 * `Type`  오퍼 표시 유형을 결정합니다. 가능한 값: `image`, `html` 및 `text`
@@ -164,7 +164,7 @@ Journey Optimizer을 사용하면 개인화 필드를 추가하여 메시지에 
 
 >[!NOTE]
 >
->표현식 편집기에서 개인화된 URL을 편집하면 보안상의 이유로 도우미 함수와 대상 멤버십이 비활성화됩니다.
+>개인화 편집기에서 개인화된 URL을 편집하면 보안상의 이유로 도우미 함수와 대상자 멤버십이 비활성화됩니다.
 >
 
 **개인화된 샘플 URL**
