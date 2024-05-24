@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1262'
 ht-degree: 6%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="비즈니스 규칙"
->abstract="비즈니스 규칙을 사용하여 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 크로스 채널 규칙을 설정하여 사용자가 메시지를 받거나 여정에 들어가는 빈도를 제어합니다."
+>abstract="메시지 빈도 규칙은 사용자가 하나 이상의 채널에서 메시지를 받거나 여정에 입력하는 횟수를 제한하는 비즈니스 규칙 유형입니다. 이러한 크로스 채널 규칙은 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외합니다."
 
-[!DNL Journey Optimizer] 을 사용하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 크로스 채널 규칙을 설정하여 사용자가 메시지를 받거나 여정에 들어가는 빈도를 제어할 수 있습니다.
+[!DNL Journey Optimizer] 을 통해 사용자가 하나 또는 여러 채널에서 메시지를 받거나 여정에 입력하는 빈도를 제어할 수 있습니다. 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 메시지 빈도 규칙입니다.
 
 예를 들어 브랜드의 경우 고객에게 매월 4개 이상의 마케팅 메시지를 보내지 않는 것이 규칙일 수 있습니다. 이렇게 하려면 월별 캘린더 기간 동안 하나 이상의 채널을 기반으로 전송된 메시지 수를 제한하는 비즈니스 규칙을 사용할 수 있습니다.
 

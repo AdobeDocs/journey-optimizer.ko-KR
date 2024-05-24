@@ -12,10 +12,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 8%
+source-wordcount: '1593'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="규칙 세트"
->abstract="규칙 세트를 사용하여 빈도 제한을 다양한 유형의 마케팅 커뮤니케이션에 적용합니다. 예를 들어 의 수를 제한하는 규칙 세트를 만들 수 있습니다. **프로모션 커뮤니케이션** (으)로 보낸 다음 수를 제한하는 다른 규칙 세트를 만듭니다. **뉴스레터** 보내졌습니다. 규칙 세트는 현재 사용자를 선택하는 데타로만 사용할 수 있습니다."
+>abstract="규칙 세트를 사용하여 빈도 제한을 다양한 유형의 마케팅 커뮤니케이션에 적용합니다. 예를 들어 의 수를 제한하는 규칙 세트를 만들 수 있습니다. **프로모션 커뮤니케이션** (으)로 보낸 다음 수를 제한하는 다른 규칙 세트를 만듭니다. **뉴스레터** 보내졌습니다."
 
 >[!AVAILABILITY]
 >
@@ -79,22 +79,22 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_category"
 >title="메시지 규칙 범주 선택"
->abstract="활성화되어 메시지에 적용되면 선택한 범주와 일치하는 모든 빈도 규칙은 이 메시지에 자동으로 적용됩니다. 현재 마케팅 범주만 사용할 수 있습니다."
+>abstract="활성화하여 메시지에 적용하면 선택한 카테고리와 일치하는 모든 빈도 규칙이 이 메시지에 자동으로 적용됩니다. 현재 마케팅 카테고리만 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="규칙의 상한 설정"
->abstract="선택한 시간대 내에 고객 프로필로 전송되는 최대 메시지 수를 지정합니다. 빈도 캡은 선택된 캘린더 기간에 기반하고 대응하는 시간대가 시작될 때 재설정됩니다."
+>title="규칙의 최대 가용량 설정"
+>abstract="선택한 기간 내에 고객 프로필로 전송되는 메시지의 최대 수를 지정하십시오. 빈도 상한은 선택한 캘린더 기간을 기준으로 하며 해당 기간이 시작될 때 재설정됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
 >title="규칙이 적용되는 채널 정의"
->abstract="하나 이상의 채널을 선택합니다. 상한 설정은 채널에서 총 횟수로 적용됩니다."
+>abstract="최소 하나 이상의 채널을 선택하십시오. 캡핑은 채널 전체에 걸쳐 총 카운트로 적용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
 >title="메시지 규칙 범주 선택"
->abstract="활성화되어 메시지에 적용되면 선택한 범주와 일치하는 모든 빈도 규칙은 이 메시지에 자동으로 적용됩니다. 현재 마케팅 범주만 사용할 수 있습니다."
+>abstract="활성화하여 메시지에 적용하면 선택한 카테고리와 일치하는 모든 빈도 규칙이 이 메시지에 자동으로 적용됩니다. 현재 마케팅 카테고리만 사용할 수 있습니다."
 
 규칙 세트에 규칙을 추가하려면 아래 단계를 수행합니다.
 
