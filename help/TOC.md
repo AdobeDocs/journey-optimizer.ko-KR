@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: d1eeb72bfe5a621a5814790c785eac399534e011
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1803'
 ht-degree: 95%
 
 ---
@@ -20,10 +20,10 @@ ht-degree: 95%
    + [초기 릴리스 정보](using/rn/early-release-notes.md)
    + [최신 릴리스 정보](using/rn/release-notes.md)
    + 이전 릴리스 정보 {#previous-rn-new}
-      + [2024 릴리스 정보](using/rn/release-notes-2024.md)
-      + [2023년 릴리스 정보](using/rn/release-notes-2023.md)
-      + [2022년 릴리스 정보](using/rn/release-notes-2022.md)
-      + [2021년 릴리스 정보](using/rn/release-notes-2021.md)
+      + [2024](using/rn/release-notes-2024.md)
+      + [2023](using/rn/release-notes-2023.md)
+      + [2022](using/rn/release-notes-2022.md)
+      + [2021](using/rn/release-notes-2021.md)
    + [설명서 업데이트](using/rn/documentation-updates.md)
    + [향상된 여정 캔버스](using/rn/new-canvas.md)
 + 시작{#get-started}
