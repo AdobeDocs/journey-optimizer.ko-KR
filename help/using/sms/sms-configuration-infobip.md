@@ -6,10 +6,11 @@ description: Infobip을 사용하여 Journey Optimizer으로 문자 메시지 �
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 4%
+source-wordcount: '357'
+ht-degree: 5%
 
 ---
 
@@ -19,9 +20,9 @@ Journey Optimizer을 사용하여 Infobip을 구성하려면 다음 단계를 �
 
 1. 왼쪽 레일에서 다음을 찾습니다. **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]** 및 선택 **[!UICONTROL API 자격 증명]** 메뉴 아래의 제품에서 사용할 수 있습니다. 다음을 클릭합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
 
-   ![](assets/sms_6.png)
-
 1. 아래 설명된 대로 API 자격 증명을 구성합니다.
+
+   * **[!UICONTROL SMS 공급업체]**: Infobip.
 
    * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
 

@@ -6,10 +6,11 @@ description: Sinch를 사용하여 Journey Optimizer에서 텍스트 메시지�
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 3%
+source-wordcount: '557'
+ht-degree: 4%
 
 ---
 
@@ -27,9 +28,9 @@ Journey Optimizer에서 SMS 메시지 및 MMS를 전송하도록 Sinch 공급자
 
 1. 왼쪽 레일에서 다음을 찾습니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 및 선택 **[!UICONTROL API 자격 증명]** 메뉴 아래의 제품에서 사용할 수 있습니다. 다음을 클릭합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
 
-   ![](assets/sms_6.png)
-
 1. 아래에 자세히 설명된 대로 SMS API 자격 증명을 구성합니다.
+
+   * **[!UICONTROL SMS 공급업체]**: Sinch
 
    * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
 
@@ -65,13 +66,16 @@ Journey Optimizer을 사용하여 MMS를 전송하도록 Sinch MMS를 구성하�
 
 1. 왼쪽 레일에서 다음을 찾습니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 및 선택 **[!UICONTROL API 자격 증명]** 메뉴 아래의 제품에서 사용할 수 있습니다. 다음을 클릭합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
 
-   ![](assets/sms_6.png)
+1. 아래에 자세히 설명된 대로 MMS API 자격 증명을 구성합니다.
 
-1. 아래에 자세히 설명된 대로 SMS API 자격 증명을 구성합니다.
+   * **[!UICONTROL SMS 공급업체]**: Sinch MMS
 
    * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
 
-   * **[!UICONTROL 프로젝트 ID]**, **[!UICONTROL 앱 ID]** 및 **[!UICONTROL API 토큰]**: 대화 API 메뉴의 앱 메뉴에서 자격 증명을 찾을 수 있습니다. 다음에서 자세히 알아보기 [Sinch 설명서](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+   * **[!UICONTROL 프로젝트 ID]**, **[!UICONTROL 앱 ID]** 및 **[!UICONTROL API 토큰]**: 아래 단계에 따라 MMS API 자격 증명을 수집합니다.
+
+      * 대상 **[!UICONTROL 프로젝트 ID]** 및 **[!UICONTROL 앱 ID]**: 액세스 **대화 API 개요** Sinch 대시보드의 Sinch 프로젝트 페이지입니다.
+      * 대상 **[!UICONTROL API 토큰]**: 가져오기 **액세스 키** Sinch 프로젝트용 및 **Base64 API 토큰** 사용 중인 Sinch 프로젝트에서 **액세스 키**.
 
    * **[!UICONTROL 서비스 계획 ID]** 및 **[!UICONTROL SMS API 토큰]**: 사용자 **[!UICONTROL 서비스 계획 ID]** 및 **[!UICONTROL SMS API 토큰]** 는 API 페이지의 SMS 탭에 있습니다.
 
