@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 글로벌 보고서
+title: 전역 보고서
 description: 글로벌 보고서의 데이터를 사용하는 방법을 알아봅니다
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: 46d69dd422090a67c377acd6c8f44c4468e27f69
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '828'
+ht-degree: 3%
 
 ---
 
@@ -127,3 +127,220 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
 
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_CTR"
+>title="CTR"
+>abstract="CTR 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_clicks"
+>title="클릭 수"
+>abstract="클릭 수 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_delivered"
+>title="게재됨"
+>abstract="게재된 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_overview"
+>title="Campaign 개요"
+>abstract="Campaign 개요 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_funnel"
+>title="캠페인 단계 결과"
+>abstract="캠페인 단계 결과 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_tracking_link"
+>title="추적된 링크 레이블"
+>abstract="추적된 링크 레이블 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_displays"
+>title="표시"
+>abstract="위젯 표시"
+
+<!--campaign email-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_delivered_click"
+>title="게재됨 및 클릭 트렌드"
+>abstract="게재됨 및 클릭 트렌드 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_delivery_status"
+>title="게재 상태"
+>abstract="게재 상태 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_sending_statistics"
+>title="전송 통계"
+>abstract="통계 위젯 전송"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracking_statistics"
+>title="추적 통계"
+>abstract="추적 통계 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_domains"
+>title="이메일 도메인"
+>abstract="이메일 도메인 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracked_link"
+>title="추적된 링크 레이블"
+>abstract="링크 레이블 추적 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracked_link_urls"
+>title="추적된 링크 URL"
+>abstract="추적된 링크 URL 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_subjects"
+>title="전자 메일 제목"
+>abstract="이메일 주제 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_bounce_reasons"
+>title="바운스 원인"
+>abstract="바운스 이유 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_exclude"
+>title="제외 이유"
+>abstract="제외 이유 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_error"
+>title="오류 원인"
+>abstract="오류 원인 위젯"
+
+
+<!--campaign push-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_sending_statistics"
+>title="전송 통계"
+>abstract="통계 위젯 전송"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracking_statistics"
+>title="추적 통계"
+>abstract="추적 통계 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracked_link"
+>title="추적된 링크 레이블"
+>abstract="링크 레이블 추적 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracked_link_urls"
+>title="추적된 링크 URL"
+>abstract="추적된 링크 URL 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_bounce_reasons"
+>title="바운스 원인"
+>abstract="바운스 이유 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_exclude"
+>title="제외 원인"
+>abstract="제외된 이유 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_email_error"
+>title="오류 원인"
+>abstract="오류 원인 위젯"
+
+<!--campaign inapp-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_impression"
+>title="노출 및 클릭 트렌드"
+>abstract="노출 및 클릭 트렌드 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_clicks"
+>title="클릭 수"
+>abstract="클릭 수 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_displays"
+>title="표시"
+>abstract="위젯 표시"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracking_data"
+>title="추적 데이터"
+>abstract="데이터 추적 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracked_link"
+>title="추적된 링크 레이블"
+>abstract="추적된 링크 레이블 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracked_link_urls"
+>title="추적된 링크 URL"
+>abstract="추적된 링크 URL 위젯"
+
+<!--campaign sms-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_delivered_click"
+>title="게재됨 및 클릭 트렌드"
+>abstract="게재됨 및 클릭 트렌드 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_delivery_status"
+>title="게재 상태"
+>abstract="게재 상태 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_tracked_link"
+>title="추적된 링크 레이블"
+>abstract="링크 레이블 추적 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_tracked_link_urls"
+>title="추적된 링크 URL"
+>abstract="추적된 링크 URL 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_inbound"
+>title="SMS 인바운드 메시지"
+>abstract="SMS 인바운드 메시지 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_message_type"
+>title="SMS 메시지 유형"
+>abstract="SMS 메시지 유형 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_providers"
+>title="SMS 공급자"
+>abstract="SMS 공급자 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_bounce"
+>title="바운스 원인"
+>abstract="바운스 이유 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_exclude"
+>title="제외 이유"
+>abstract="제외 이유 위젯"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_error"
+>title="오류 원인"
+>abstract="오류 원인 위젯"
