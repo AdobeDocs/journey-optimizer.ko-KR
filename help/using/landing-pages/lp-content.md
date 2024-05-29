@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식, 구성 요소
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 050253e0f74f506649540ae3656a3a1f050331cb
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 >id="ac_lp_formfield"
 >title="양식 구성 요소 필드 설정"
 >abstract="수신자가 랜딩 페이지에서 선택한 항목을 보고 제출하는 방법을 정의합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
