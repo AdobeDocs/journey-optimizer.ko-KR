@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 43adfef7632e7c9ad4c79544286b210abe5a964f
+source-git-commit: 8cd9374130725a89208acadc3a02574408f98599
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -46,11 +46,11 @@ Adobe Journey Optimizer에서는 다음 사용 사례에 액세스할 수 있습
 
 질문을 하려면 화면 하단의 필드에 질문을 입력하고 Enter 키를 누릅니다.
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="40%" align="left"}
 
 답변을 확인하고 다음을 사용합니다. **소스 표시** 버튼을 클릭하여 제품 설명서에 직접 연결하고 자세히 알아보십시오.
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
 
 엄지 손가락을 위로 또는 아래로 사용하여 답을 평가하십시오.
 
