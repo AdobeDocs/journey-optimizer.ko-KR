@@ -9,9 +9,9 @@ hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: ae9a315f6c9d2c2408788a7e4b32cdbd516f41d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 40%
 
 [!DNL Adobe Journey Optimizer]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매월 말 [릴리스 정보](release-notes.md)에 통합됩니다.
 
-**아래의 초기 릴리스 노트는 릴리스 사용 가능 날짜까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 날짜의 [릴리스 정보](release-notes.md)에 게시됩니다.
+**아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 날짜의 [릴리스 정보](release-notes.md)에 게시됩니다.
 
 ## 2024년 5월 초기 릴리스 정보 {#e-2024}
 
@@ -104,15 +104,15 @@ ht-degree: 40%
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-**경험 의사 결정** (제한된 가용성)
+**경험 결정**(제한된 가용성)
 
-Beta에서 이 릴리스까지 다음과 같은 개선 사항이 추가되었습니다.
+Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습니다.
 
-* **Experience Decisioning + 코드 기반 경험** - 이제 Experience Decisioning 기능을 활용하여 코드 기반 캠페인에서 의사 결정 항목을 사용할 수 있습니다. 참고: Adobe Healthcare Shield 및 Privacy and Security Shield 추가 기능을 구매한 조직에서는 코드 기반 경험 채널 및 경험 결정을 사용할 수 없습니다. [자세히 보기](../code-based/get-started-code-based.md)
-* **컨텍스트 데이터** - 이제 의사 결정 규칙 및 등급 지정에서 Adobe Experience Platform의 컨텍스트 데이터를 활용할 수 있습니다. [자세히 보기](../experience-decisioning/context-data.md)
-* **새 권한** - 이제 의사 결정 관리 리소스에 대한 새로운 &#39;경험 의사 결정 관리&#39; 권한을 사용할 수 있습니다. 이를 통해 경험 결정과 관련된 권한을 관리할 수 있습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md)
-* **최대 가용량 규칙** - 이제 Experience Decisioning에서 지정된 의사 결정 항목에 대해 여러 개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping)
-* **보고** - 이제 를 사용하여 Experience Decisioning 캠페인의 사용자 지정 보고 대시보드를 만들 수 있습니다. [!DNL Customer Journey Analytics]. [자세히 보기](../experience-decisioning/cja-reporting.md)
+* **경험 결정 + 코드 기반 경험** - 이제 경험 결정 기능을 활용하여 코드 기반 캠페인에서 의사 결정 항목을 사용할 수 있습니다. 참고: Adobe Healthcare Shield 및 Privacy and Security Shield 추가 기능을 구매한 조직에서는 코드 기반 경험 채널 및 경험 결정을 사용할 수 없습니다. [자세히 보기](../code-based/get-started-code-based.md)
+* **컨텍스트 데이터** - 이제 의사 결정 규칙 및 등급 수식에서 Adobe Experience Platform의 컨텍스트 데이터를 활용할 수 있습니다. [자세히 보기](../experience-decisioning/context-data.md)
+* **새로운 권한** - 이제 의사 결정 관리 리소스에 대해 새로운 ‘경험 결정 관리’ 권한을 사용할 수 있습니다. 이를 통해 경험 결정과 관련된 권한을 관리할 수 있습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md)
+* **캡핑 규칙** - 이제 경험 결정에서 지정된 의사 결정 항목에 대해 여러 개의 캡핑 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping)
+* **보고** - 이제 [!DNL Customer Journey Analytics]를 사용하여 경험 결정 캠페인의 사용자 정의 보고 대시보드를 만들 수 있습니다. [자세히 보기](../experience-decisioning/cja-reporting.md)
 
 
 <!--**Decision Management**
@@ -127,11 +127,11 @@ Beta에서 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 * **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)
 -->
 
-* **스팸 점수** (베타) - 이제 전용 스팸 보고서에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 또는 사서함 공급자가 이를 스팸으로 간주할지 여부를 나타내는 점수를 제공할 수 있습니다. [자세히 보기](../content-management/spam-report.md)
+* **스팸 점수**(Beta) - 이제 전용 스팸 보고서를 통해 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 또는 사서함 공급자가 이를 스팸으로 간주할지 여부를 나타내는 점수를 매길 수 있습니다. [자세히 보기](../content-management/spam-report.md)
 
   >[!AVAILABILITY]
   >
-  >이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
+  >이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
 
 <!--
 **Audiences**
@@ -145,14 +145,14 @@ Beta에서 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 **여정**
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
-* **mTLS 지원** - 이제 사용자 지정 작업에서 mTLS 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 지정 작업 또는 여정에 필요한 추가 구성은 없습니다. mTLS 활성화 끝점이 감지되면 자동으로 발생합니다. [자세히 보기](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **이벤트의 조회 테이블** - 이제 개체 배열 내의 특성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값은 여정(조건, 사용자 지정 작업 등)에서 사용할 수 있습니다. 및 메시지 개인화를 참조하십시오. [자세히 보기](../event/experience-event-schema.md#relationships_limitations)
-* **이벤트 구성의 고급 표현식 편집기** (LA) - 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 이벤트 id 조건에서 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. 이 기능은 선택한 고객에 대해 제한된 가용성으로 릴리스됩니다. [자세히 보기](../event/about-creating.md)
-* **병합 정책** (LA) - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 볼 수 있으며 일관됩니다. 이 기능은 선택한 고객에 대해 제한된 가용성으로 릴리스됩니다. [자세히 보기](../building-journeys/journey-gs.md#merge-policies)
+* **mTLS 지원** - 이제 사용자 정의 작업에 mTLS 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 보기](../action/about-custom-action-configuration.md#mtls-protocol-support)
+* **이벤트의 조회 테이블** - 이제 개체 배열 내의 속성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값을 여정(조건, 사용자 정의 작업 등) 및 메시지 개인화에 사용할 수 있습니다. [자세히 보기](../event/experience-event-schema.md#relationships_limitations)
+* **이벤트 구성의 고급 표현식 편집기**(LA) - 이제 이벤트를 구성할 때 고급 표현식 편집기를 활용하여 이벤트 ID 조건에 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../event/about-creating.md)
+* **병합 정책**(LA) - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../building-journeys/journey-gs.md#merge-policies)
 
 **세계화**
 
-통합 사용자 경험을 제공하기 위한 지속적인 노력의 일환으로 Adobe Experience Cloud 제품 및 앱에서 사용되는 용어를 조화롭게 작성합니다. 이것은 객체의 이름과 관련된 경우 &quot;레이블&quot;로 변경되는 독일어 &quot;제목&quot;에 영향을 줍니다. 변경 사항은 UI 및 설명서에서 점진적으로 롤아웃됩니다.
+통일성 있는 사용자 경험을 제공하기 위한 지속적인 노력의 일환으로 Adobe Experience Cloud 제품 및 앱에서 사용되는 용어를 서로 맞추는 작업을 합니다. 이에 따라 독일어 서비스에서 “Titel”이라는 용어가 개체와 관련된 상황의 경우 “Label”로 변경됩니다. 이 변경 사항은 UI 및 설명서에 점진적으로 적용됩니다.
 
 
 

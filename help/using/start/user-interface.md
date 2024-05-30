@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 92%
 
   **보고** 섹션에 액세스하여 캠페인 실험 보고를 구성할 수도 있습니다. [자세히 알아보기](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL 비즈니스 규칙]** - 이 섹션을 사용하여 사용자가 메시지를 받거나 여정에 입력하는 빈도를 제어하는 크로스 채널 비즈니스 규칙을 만듭니다. [자세히 보기](../configuration/frequency-rules.md)
+* **[!UICONTROL 비즈니스 규칙]** - 이 섹션에서는 크로스 채널 비즈니스 규칙을 만들어 사용자가 메시지를 받거나 여정에 입장하는 빈도를 제어합니다. [자세히 보기](../configuration/frequency-rules.md)
 
 * **[!UICONTROL 경고]** - 사용자 인터페이스를 사용하면 Adobe Experience Platform Observability Insights에서 공개한 지표를 기반으로 받은 경고 내역을 볼 수 있습니다. 또한 UI에서 사용 가능한 경고 규칙을 보고, 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](../reports/alerts.md)
 
@@ -198,95 +198,95 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="모바일 및 웹 구성 이름"
->abstract="TBC"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_add"
 >title="종속성 추가"
->abstract="TBC"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="초기화 코드 추가"
->abstract="TBC"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="Assurance를 통해 유효성 검사"
->abstract="TBC"
+>title="Assurance를 사용한 유효성 검사"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Javascript 코드"
->abstract="TBC"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
 >title="사이트 시작 및 유효성 검사"
->abstract="TBC"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
->title="장치 토큰 검색"
->abstract="TBC"
+>title="디바이스 토큰 가져오기"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
->title="Xcode에서 응용 프로그램 실행"
->abstract="TBC"
+>title="Xcode에서 애플리케이션 실행"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
->title="푸시 인증서 제공"
->abstract="TBC"
+>title="푸시 인증서 입력"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
 >title="키 ID"
->abstract="TBC"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
 >title="팀 ID"
->abstract="TBC"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
 >title="태그 속성 선택"
->abstract="TBC"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
->title="푸시 인증서 제공"
->abstract="TBC"
+>title="푸시 인증서 입력"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
 >title="종속성 추가"
->abstract="TBC"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"
 >title="종속성 가져오기"
->abstract="TBC"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
 >title="종속성 가져오기"
->abstract="TBC"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="초기화 코드 추가"
->abstract="TBC"
+>abstract="추가 예정"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token_android"
->title="장치 토큰 검색"
->abstract="TBC"
+>title="디바이스 토큰 가져오기"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="Android Studio에서 애플리케이션 실행"
->abstract="TBC"
+>abstract="추가 예정"

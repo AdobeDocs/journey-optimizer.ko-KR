@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB 5월 릴리스 예정일]
+>[!TAB 5월 릴리스가 공개되었습니다!]
 
-Adobe Journey Optimizer 5월 릴리스의 새로운 기능 및 향상된 기능을 살펴보십시오.
+Adobe Journey Optimizer 5월 릴리스의 새로운 기능과 개선 사항을 살펴보십시오.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Experience decisioning]
+>[!TAB 경험 결정]
 
-Experience Decisioning은 &#39;의사 결정 항목&#39;이라고 하는 마케팅 오퍼의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다.
+경험 결정은 ‘의사 결정 항목’이라는 중앙 집중형 마케팅 오퍼 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화 작업을 간소화합니다. 
 
 ![](using/rn/assets/do-not-localize/gif-exd.gif)
 
