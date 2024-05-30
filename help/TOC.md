@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 93%
    + 표현식 작성 {#building-advanced-conditions-journeys}
       + [개요](using/building-journeys/expression/expressionadvanced.md)
       + 구문 {#syntax}
-         + [일반성](using/building-journeys/expression/generalities.md)
+         + [일반 사항](using/building-journeys/expression/generalities.md)
          + [조건부 지침](using/building-journeys/expression/conditional-instruction.md)
          + [데이터 유형](using/building-journeys/expression/data-types.md)
          + [필드 참조](using/building-journeys/expression/field-references.md)
@@ -83,18 +83,18 @@ ht-degree: 93%
          + [여정 속성](using/building-journeys/expression/journey-properties.md)
          + [예시](using/building-journeys/expression/advanced-editor-use-cases.md)
       + 함수 {#main-functions-journey}
-         + [기본 함수](using/building-journeys/expression/functions.md)
+         + [주요 함수](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
             + [inAudience](using/building-journeys/functions/functioninaudience.md)
          + 집계 {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
-            + [횟수](using/building-journeys/functions/functioncount.md)
+            + [count](using/building-journeys/functions/functioncount.md)
             + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
             + [countWithNull](using/building-journeys/functions/functioncountwithnull.md)
             + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
             + [distinctCountWithNull](using/building-journeys/functions/functiondistinctcountwithnull.md)
             + [max](using/building-journeys/functions/functionmax.md)
-            + [분](using/building-journeys/functions/functionmin.md)
+            + [min](using/building-journeys/functions/functionmin.md)
             + [sum](using/building-journeys/functions/functionsum.md)
          + 전환 {#conversion}
             + [toBool](using/building-journeys/functions/functiontobool.md)
@@ -106,14 +106,14 @@ ht-degree: 93%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + 날짜 {#date}
-            + [currentTime &#x200B; InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
+            + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
-            + [in마지막 시간](using/building-journeys/functions/functioninlasthours.md)
+            + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
             + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
-            + [inlastYears](using/building-journeys/functions/functioninlastyears.md)
+            + [inLastYears](using/building-journeys/functions/functioninlastyears.md)
             + [inNextDays](using/building-journeys/functions/functioninnextdays.md)
             + [inNextHours](using/building-journeys/functions/functioninnexthours.md)
-            + [inNextMonters](using/building-journeys/functions/functioninnextmonths.md)
+            + [inNextMonths](using/building-journeys/functions/functioninnextmonths.md)
             + [inNextYears](using/building-journeys/functions/functioninnextyears.md)
             + [now](using/building-journeys/functions/functionnow.md)
             + [nowWithDelta](using/building-journeys/functions/functionnowwithdelta.md)
@@ -152,7 +152,7 @@ ht-degree: 93%
             + [replace](using/building-journeys/functions/functionreplace.md)
             + [replaceAll](using/building-journeys/functions/functionreplaceall.md)
             + [split](using/building-journeys/functions/functionsplit.md)
-            + [시작 문자](using/building-journeys/functions/functionstartwith.md)
+            + [startWith](using/building-journeys/functions/functionstartwith.md)
             + [startWithIgnoreCase](using/building-journeys/functions/functionstartwithignorecase.md)
             + [substr](using/building-journeys/functions/functionsubstr.md)
             + [trim](using/building-journeys/functions/functiontrim.md)
@@ -428,7 +428,7 @@ ht-degree: 93%
          + [대체 데이터 세트](using/offers/export-catalog/export-fallback.md)
       + API 참조 {#api-reference}
          + [시작](using/offers/api-reference/getting-started.md)
-         + API를 사용하여 오퍼 만들기 및 관리 {#offers-api}
+         + API를 사용하여 오퍼를 만들고 관리 {#offers-api}
             + 배치 {#placements}
                + [배치 나열](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [배치 조회](using/offers/api-reference/offers-api/placements/lookup.md)

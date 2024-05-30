@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
 source-wordcount: '5335'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 97%
 ## 2024년 5월 {#may-2024}
 
 * 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2024년 5월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 시드 목록의 섹션이 반복 여정에 대해 업데이트되었습니다. [자세히 보기](../configuration/seed-lists.md#use-seed-list)
-* 외부 데이터 소스에 대한 섹션이 업데이트되었습니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-access-token)
-* 30일의 전역 여정 시간 제한이 보호 및 제한 페이지에 추가되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
-* Adobe Campaign v7/v8 통합에 대한 섹션이 프로비저닝에 대한 정보로 업데이트되었습니다. [자세히 보기](../action/acc-action.md#access)
+* 시드 목록 섹션의 반복 여정에 대한 정보가 업데이트되었습니다. [자세히 보기](../configuration/seed-lists.md#use-seed-list)
+* 외부 데이터 소스 섹션이 업데이트되었습니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-access-token)
+* 가드레일 및 제한 사항 페이지에 30일의 전역 여정 시간 초과가 추가되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
+* Adobe Campaign v7/v8 통합 섹션에 프로비저닝에 대한 정보를 업데이트했습니다. [자세히 보기](../action/acc-action.md#access)
 * 콘텐츠를 개인화하는 데 사용되는 표현식 편집기의 이름이 설명서에서 &quot;개인화 편집기&quot;로 변경되었습니다. [여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md). [자세히 보기](../personalization/personalization-build-expressions.md)
 
 ## 2024년 4월 {#april-2024}
@@ -92,7 +92,7 @@ ht-degree: 97%
 * 캐시 기간과 관련한 사용자 정의 인증 문서를 업데이트합니다. [자세히 보기](../datasource/external-data-sources.md)
 * 여러 함수에서 `<listObject>` 지원이 수정되었습니다.
 * `toString` 함수에서 **기간** 매개 변수를 업데이트합니다. [자세히 보기](../building-journeys/functions/functiontostring.md)
-* 일부 외부 데이터 소스 사용 사례의 경우 사용자 지정 작업을 사용하는 것이 좋습니다.
+* 일부 외부 데이터 소스 사용 사례의 경우 사용자 정의 작업 사용이 권장됩니다.
 * 이벤트 필드 구문이 업데이트되었습니다. 다음 구문은 사용되지 않고 `@(my_event.myfield}` `@event{my_event.myfield}`(으)로 대체되었습니다. [자세히 보기](../building-journeys/expression/field-references.md)
 * 글로벌 보고서 및 실시간 보고서 안내서가 재구성되었습니다. [자세히 보기](../reports/campaign-global-report.md)
 
