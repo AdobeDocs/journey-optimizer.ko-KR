@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 4%
 
 ---
@@ -74,8 +74,8 @@ Journey Optimizer을 사용하여 MMS를 전송하도록 Sinch MMS를 구성하�
 
    * **[!UICONTROL 프로젝트 ID]**, **[!UICONTROL 앱 ID]** 및 **[!UICONTROL API 토큰]**: 아래 단계에 따라 MMS API 자격 증명을 수집합니다.
 
-      * 대상 **[!UICONTROL 프로젝트 ID]** 및 **[!UICONTROL 앱 ID]**: 액세스 **대화 API 개요** Sinch 대시보드의 Sinch 프로젝트 페이지입니다.
-      * 대상 **[!UICONTROL API 토큰]**: 가져오기 **액세스 키** Sinch 프로젝트용 및 **Base64 API 토큰** 사용 중인 Sinch 프로젝트에서 **액세스 키**.
+      * 대상 **[!UICONTROL 프로젝트 ID]** 및 **[!UICONTROL 앱 ID]**: 액세스 [대화 API 개요](https://dashboard.sinch.com/convapi/overview) Sinch 대시보드의 Sinch 프로젝트 페이지입니다.
+      * 대상 **[!UICONTROL API 토큰]**: 가져오기 [액세스 키](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) Sinch 프로젝트용 및 **Base64 API 토큰** 사용 중인 Sinch 프로젝트에서 **액세스 키**.
 
    * **[!UICONTROL 서비스 계획 ID]** 및 **[!UICONTROL SMS API 토큰]**: 사용자 **[!UICONTROL 서비스 계획 ID]** 및 **[!UICONTROL SMS API 토큰]** 는 API 페이지의 SMS 탭에 있습니다.
 

@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 객체, 레벨, 액세스, 제어, 레이블, olac, 인증
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 12%
+source-wordcount: '413'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="오브젝트 수준 액세스 제어"
->abstract="액세스 권한이 없는 레이블을 적용하면 이 오브젝트에 대한 액세스 권한이 해지됩니다."
+>abstract="이 객체에 대한 액세스를 유지하려면 권한이 있는 레이블만 적용합니다."
 
 OLAC(Object Level Access Control)를 사용하면 다양한 객체에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다.
 
