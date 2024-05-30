@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43adfef7632e7c9ad4c79544286b210abe5a964f
+source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 94%
+source-wordcount: '1817'
+ht-degree: 93%
 
 ---
 
@@ -311,9 +311,12 @@ ht-degree: 94%
       + 개인화 사용 사례{#personalization-use-cases}
          + [주문 상태 알림](using/personalization/personalization-use-case.md)
          + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
-   + 재사용 가능한 콘텐츠 관리 {#reusable-content}
-      + [콘텐츠 템플릿 작업](using/content-management/content-templates.md)
-      + [조각을 사용한 작업](using/content-management/fragments.md)
+   + [콘텐츠 템플릿](using/content-management/content-templates.md)
+   + 재사용 가능한 콘텐츠 조각 {#fragments}
+      + [조각 시작](using/content-management/fragments.md)
+      + [조각 만들기](using/content-management/create-fragments.md)
+      + [기존 콘텐츠를 조각으로 저장](using/content-management/save-fragments.md)
+      + [조각 관리](using/content-management/manage-fragments.md)
    + 다이내믹 콘텐츠 {#dynamic}
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
