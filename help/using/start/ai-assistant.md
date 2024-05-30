@@ -1,22 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizer에서 AI Assistant 작업
-description: Adobe 여정 Optimizer에서 Adobe Experience Platform AI Assistant를 활용하는 방법을 알아봅니다.
+title: AI Assistant 작업
+description: AI Assistant를 활용하는 방법 알아보기
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8cd9374130725a89208acadc3a02574408f98599
+exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
+source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# Adobe Journey Optimizer에서 AI Assistant 작업 {#ai-assistant}
+# AI Assistant 작업 {#ai-assistant}
 
 AI Assistant는 Adobe 개념을 탐색 및 이해하고 특정 환경에 대한 운영 통찰력을 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Journey Optimizer을 비롯한 Adobe Experience Cloud 전역의 여러 제품에서 사용할 수 있습니다.
 
@@ -26,7 +27,7 @@ AI 도우미에 액세스하려면 상단 막대의 아이콘을 클릭합니다
 
 Adobe Journey Optimizer에서는 다음 사용 사례에 액세스할 수 있습니다.
 
-* 개념 질문(일반 가용성) 개념 질문은 Adobe Journey Optimizer의 측면과 관련된 Adobe 개념에 대한 것입니다. 개념 질문의 몇 가지 예는 다음과 같습니다.
+* 제품 지식(일반 가용성) 제품 지식 질문은 Adobe Journey Optimizer의 측면과 관련된 Adobe 개념에 대한 것입니다. 제품 지식 질문에 대한 몇 가지 예는 다음과 같습니다.
 
    * 하나의 Adobe Journey Optimizer 샌드박스에서 몇 개의 라이브 활동을 가질 수 있습니까?
    * Adobe Journey Optimizer에서 캠페인을 설정하려면 어떻게 합니까?
