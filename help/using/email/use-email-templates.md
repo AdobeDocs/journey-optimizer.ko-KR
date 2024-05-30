@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 이메일, 템플릿, 디자인
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 08f12adf384b98dfa1d69cbc2d684c3bf58d31fa
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 21%
+ht-degree: 3%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 21%
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
->title="템플릿으로 콘텐츠 빌드"
->abstract="이메일 콘텐츠 만들기를 시작하려면 기본 제공 템플릿, 아니면 새로 만들거나 기존 이메일을 템플릿으로 저장한 사용자 정의 템플릿을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html?lang=ko-KR#create-content-templates" text="콘텐츠 템플릿 만들기"
+>title="템플릿에서 컨텐츠 작성"
+>abstract="이메일 콘텐츠를 만들려면 기본 제공 템플릿 또는 기존 사용자 지정 템플릿(처음부터 만들거나 이전 이메일의 템플릿으로 저장)을 선택합니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates#create-content-templates" text="콘텐츠 템플릿 만들기"
 
 다음에서 **[!UICONTROL 이메일 만들기]** 화면, 사용 **[!UICONTROL 디자인 템플릿 선택]** 템플릿에서 콘텐츠 작성을 시작하는 섹션입니다.
 
@@ -48,7 +48,7 @@ ht-degree: 21%
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 모든 항목 목록 [콘텐츠 템플릿](../content-management/content-templates.md#create-content-templates) 이(가) 현재 샌드박스 표시에 생성됩니다. **[!UICONTROL 이름]**, **[!UICONTROL 마지막 수정일]** 및 **[!UICONTROL 마지막 생성일]**&#x200B;을 기준으로 템플릿을 정렬할 수 있습니다.
+1. 모든 항목 목록 [콘텐츠 템플릿](../content-management/content-templates.md#create-content-templates) 이(가) 현재 샌드박스 표시에 생성됩니다. 정렬할 수 있습니다 **[!UICONTROL 이름별]**, **[!UICONTROL 마지막 수정일]** 및 **[!UICONTROL 마지막으로 생성됨]**.
 
    ![](assets/email_designer-saved-templates-filter.png)
 
