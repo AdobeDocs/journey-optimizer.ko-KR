@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 3%
@@ -187,3 +187,4 @@ ht-degree: 3%
 >[!NOTE]
 >
 >최종 URL을 확인하려면 [증명 보내기](../content-management/preview-test.md#send-proofs) 증명을 받은 후 이메일 콘텐츠의 링크를 클릭합니다. URL에 추적 매개 변수가 표시되어야 합니다. 위의 예에서 최종 URL은 다음과 같습니다. <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+

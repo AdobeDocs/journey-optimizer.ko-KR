@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 12%
@@ -166,8 +166,6 @@ ht-degree: 12%
 >기본 병합 메서드인 경우 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책: **[!UICONTROL 데이터 세트 우선 순위]**, 를 활성화해야 합니다. **[!UICONTROL AJO 동의 서비스 데이터 세트]** 병합 정책에서 우선 순위를 지정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >이 데이터 세트에 일괄 처리가 추가되지 않았더라도 여전히 옵트인/옵트아웃 정보가 포함됩니다.
-
-
 
 **다음도 참조하십시오.**
 

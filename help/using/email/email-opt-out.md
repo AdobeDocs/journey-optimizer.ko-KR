@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 26%
@@ -31,7 +31,6 @@ ht-degree: 26%
 * 활성화 **원클릭 옵트아웃 링크** 이메일.  [원클릭 옵트아웃 링크를 추가하는 방법 알아보기](#one-click-opt-out)
 
 * 삽입 **랜딩 페이지 링크**. [옵트아웃 랜딩 페이지를 추가하는 방법 알아보기](#opt-out-external-lp)
-
 
 ## 1단계 옵트아웃 {#opt-out-one-step}
 

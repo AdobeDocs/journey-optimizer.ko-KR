@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: 이메일, 구성, 표면, 하위 도메인
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
@@ -29,7 +29,6 @@ ht-degree: 100%
    ![](../configuration/assets/ip-pool-create.png)
 
 1. 채널 표면을 만들고 **[!UICONTROL 이메일]** 채널을 선택합니다. [자세히 알아보기](../configuration/channel-surfaces.md)
-
 
    ![](../configuration/assets/preset-general.png)
 
