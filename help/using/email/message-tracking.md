@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 3%
@@ -158,7 +158,7 @@ ht-degree: 3%
    * **[!UICONTROL 추적됨]**: 이 URL에 대한 추적을 활성화합니다.
    * **[!UICONTROL 옵트아웃]**: 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
    * **[!UICONTROL 미러 페이지]**: 이 URL을 미러 페이지 URL로 간주합니다.
-   * **[!UICONTROL 사용 안 함]**: 이 URL의 추적을 활성화하지 않습니다.
+   * **[!UICONTROL 사용 안 함]**: 이 URL의 추적을 활성화하지 않습니다. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 열기 및 클릭에 대한 보고는 [라이브 보고서](../reports/live-report.md) 및 [글로벌 보고서](../reports/global-report.md).
 

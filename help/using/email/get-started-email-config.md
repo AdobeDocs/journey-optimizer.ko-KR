@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: 이메일, 구성, 표면, 하위 도메인
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
@@ -37,7 +37,7 @@ ht-degree: 100%
 
    * 이때 이메일을 보내는 데 사용할 하위 도메인과, 표면에 연결할 IP 풀을 선택합니다. [자세히 알아보기](email-settings.md#subdomains-and-ip-pools)
 
-   ![](assets/surface-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
    * **[!UICONTROL 보내는 사람 이메일]**&#x200B;과 **[!UICONTROL 오류 이메일]** 주소는 현재 선택한 위임된 하위 도메인을 사용해야 합니다. [자세히 알아보기](email-settings.md#email-header)
 

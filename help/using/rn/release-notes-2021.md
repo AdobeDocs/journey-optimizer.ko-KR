@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 529a8ab0bf0c0496996183a56269d9f566e48bcb
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '2078'
 ht-degree: 100%
 
 ---
@@ -276,7 +276,7 @@ ht-degree: 100%
 **콘텐츠 디자인**
 
 * **배경** - 이제 배경 이미지가 실시간 미리 보기에서 지원됩니다. [자세히 알아보기](../content-management/preview-test.md)
-  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
+* **원클릭 옵트아웃 링크** - 이메일 콘텐츠에 새로운 유형의 링크를 삽입할 수 있습니다. **옵트아웃** 링크를 사용하면 옵트아웃을 확인하기 위해 랜딩 페이지로 리디렉션되지 않고 한 번의 클릭으로 커뮤니케이션 구독을 취소할 수 있습니다. [자세히 알아보기](../privacy/opt-out.md#one-click-opt-out-link)
 
 **개인화**
 

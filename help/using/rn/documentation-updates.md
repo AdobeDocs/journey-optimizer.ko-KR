@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
-source-wordcount: '5317'
+source-wordcount: '5335'
 ht-degree: 98%
 
 ---
@@ -412,6 +412,7 @@ ht-degree: 98%
 * 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
 * 메시지 사전 설정 모니터링 섹션을 업데이트했습니다. 가능한 사전 설정 작성 실패 이유 및 이러한 오류에 대한 세부 정보를 추가했습니다. [자세히 보기](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * 이제 메시지 사전 설정에서 이메일 다시 시도 설정을 조정할 수 있다는 사실을 반영하도록 다시 시도 기간 섹션을 업데이트하고 이름을 변경했습니다. [자세히 보기](../configuration/retries.md#retry-duration)
+* 이메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../privacy/opt-out.md#one-click-opt-out-link)
 * 하위 도메인 위임 섹션을 업데이트하여 Adobe가 수행한 유효성 검사 프로세스에 대한 자세한 정보를 추가했습니다. [자세히 보기](../configuration/delegate-subdomain.md#subdomain-validation)
 * 이메일 주소 및 도메인을 금지 목록에 수동으로 추가하는 방법을 설명하는 섹션을 추가했습니다. [자세히 보기](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * [금지 목록 액세스](../configuration/manage-suppression-list.md#access-suppression-list) 섹션 및 [다시 시도](../configuration/retries.md) 섹션을 업데이트하여 새 사용자 인터페이스를 반영했습니다.
