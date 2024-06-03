@@ -11,9 +11,9 @@ keywords: 표현식, 편집기
 hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: d2bebc33b6afde51cef12049cfafc8217c377f9d
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >이 기능은 현재 비공개 베타로만 사용할 수 있습니다.
 >
->현재는 Adobe에 제공한 비프로덕션 샌드박스와 베타를 위해 요청된 데이터 세트에서만 테스트 목적으로 사용할 수 있습니다.
+>현재는 에만 사용할 수 있습니다. **이메일 채널** 비프로덕션 샌드박스에서 테스트하기 위해 및 beta에 대해 요청된 데이터 세트에 제공한 Adobe.
 
 Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 [콘텐츠 개인화](../personalization/personalize.md). 단계는 다음과 같습니다.
 
