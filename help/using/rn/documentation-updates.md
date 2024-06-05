@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
+source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
 workflow-type: tm+mt
-source-wordcount: '5334'
+source-wordcount: '5355'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 98%
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer] 설명서 최신 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2024년 6월 {#june-2024}
+
+* 구성 방법에 대한 페이지 **대기** 여정의 활동이 재구성되고 개선되었습니다. [자세히 보기](../building-journeys/wait-activity.md)
 
 ## 2024년 5월 {#may-2024}
 
