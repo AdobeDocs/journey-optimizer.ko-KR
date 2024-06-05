@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '5335'
+source-wordcount: '5334'
 ht-degree: 98%
 
 ---
@@ -391,7 +391,7 @@ ht-degree: 98%
 
 * 다양한 성향에 대한 여러 단계를 넣어서 **빠른 시작** 페이지를 개선했습니다. [자세히 보기](../start/quick-start.md)
 
-* 이제 전용 섹션에 설명된 모든 의사 결정 관리 기능이 제안 결정 애플리케이션 서비스를 활용하는 Adobe Experience Platform 사용자에게도 적용됩니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
+* 이제 전용 섹션에 설명된 모든 의사 결정 관리 기능이 Offer decisioning 애플리케이션을 활용하는 Adobe Experience Platform 사용자에게도 적용됩니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
 
 * 지정된 배치에 대한 오퍼 선택을 통제하는 제한을 적용할 때 대상자 사용과 결정 규칙 간의 차이점을 명확하게 하기 위한 하위 섹션을 추가했습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 

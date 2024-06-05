@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d4a91dcd032af03504ab7bbf97b2e19338c32397
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 70%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target="_blank"} 사용자가 **Offer Decisioning** 애플리케이션 서비스를 활용하면 이 섹션에서 설명하는 [의사 결정 관리] 기능을 모두 사용할 수 있습니다.
+>다음과 같은 경우 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target="_blank"} 을(를) 활용하는 사용자 **Offer decisioning** 이 섹션에서 설명하는 [의사 결정 관리] 기능은 모두 귀하에게도 적용됩니다.
 
 ## 오퍼 및 의사 결정 정보 {#about-offers-and-decisions}
 
@@ -79,13 +79,13 @@ ht-degree: 100%
 
 의사 결정 관리 사용 시 사용할 주요 개념 목록을 아래에서 확인할 수 있습니다.
 
-* **한도** 또는 **게재 빈도 설정**: 한도는 오퍼가 표시되는 횟수를 정의하는 제약 조건으로 사용됩니다. 두 가지 유형의 최대 가용량이 있습니다. “총 최대 가용량”이라고도 하는 결합된 타겟 대상자 전체에 오퍼를 제안할 수 있는 횟수를 나타내는 최대 가용량과 &quot;프로필 최대 가용량&quot;이라고도 하는 동일한 최종 사용자에게 오퍼를 제안할 수 있는 횟수를 나타내는 최대 가용량이 있습니다.
+* **캡핑** 또는 **빈도 설정**: 한도 지정은 오퍼가 표시되는 횟수를 정의하는 제약 조건으로 사용됩니다. 두 가지 유형의 최대 가용량이 있습니다. &quot;총 최대 가용량&quot;이라고도 하는 결합된 타겟 대상 전체에 오퍼를 제안할 수 있는 횟수를 나타내는 최대 가용량과 &quot;프로필 최대 가용량&quot;이라고도 하는 동일한 최종 사용자에게 오퍼를 제안할 수 있는 횟수를 나타내는 최대 가용량이 있습니다.
 
 * **컬렉션**: 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 하는 오퍼의 하위 집합입니다.
 
 * **결정**: 결정에는 오퍼의 선택을 알리는 논리가 포함되어 있습니다.
 
-* **의사 결정 규칙**: 의사 결정 규칙은 개인화된 오퍼에 추가되고 자격을 결정하기 위해 프로필에 적용되는 제약 조건입니다.
+* **결정 규칙**: 의사 결정 규칙은 개인화된 오퍼에 추가되고 자격을 결정하기 위해 프로필에 적용되는 제약 조건입니다.
 
 * **적격 오퍼**: 적격 오퍼는 프로필에 일관되게 오퍼할 수 있는 업스트림에 정의된 제약 조건을 충족합니다.
 
@@ -103,7 +103,7 @@ ht-degree: 100%
 
 * **우선 순위**: 우선 순위는 자격, 일정 및 한도 등과 같은 모든 제약 조건을 충족하는 오퍼의 등급을 지정하는 데 사용됩니다.
 
-* **표시**: 표시란 오퍼를 표시하는 데 사용되는 위치 또는 언어와 같은 채널에서 사용하는 정보입니다.
+* **표시**: 표현은 오퍼를 표시하는 데 사용되는 위치 또는 언어와 같은 채널에서 사용하는 정보입니다.
 
 ## 방법 비디오{#video}
 
