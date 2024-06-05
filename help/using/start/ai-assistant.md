@@ -10,9 +10,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
+source-git-commit: a6b7dce05dbcc9c12595646eac47295f4db3aea3
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,11 @@ AI Assistant는 Adobe 개념을 탐색 및 이해하고 특정 환경에 대한 
 AI 도우미에 액세스하려면 상단 막대의 아이콘을 클릭합니다. AI Assistant가 화면의 오른쪽 섹션에 표시됩니다.
 
 ![](assets/do-not-localize/ai-assistant-open.png)
+
+
+>[!CAUTION]
+>
+>AI 어시스턴트를 사용하려면 먼저 Adobe Experience Cloud 생성 AI 사용 지침에 동의해야 합니다. 에서 계약에 대해 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
 
 Adobe Journey Optimizer에서는 다음 사용 사례에 액세스할 수 있습니다.
 
