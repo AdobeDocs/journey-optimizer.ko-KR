@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 2e0c8dbe40e953ceb59df43c91bcd12a07e048e9
+source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -26,7 +26,7 @@ AI 도우미에 액세스하려면 상단 막대의 아이콘을 클릭합니다
 
 >[!CAUTION]
 >
->AI 어시스턴트를 사용하려면 먼저 Adobe Experience Cloud 생성 AI 사용 지침에 동의해야 합니다. 에서 계약에 대해 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+>AI 어시스턴트를 사용하려면 먼저 Adobe Experience Cloud 생성 AI 사용 지침에 동의해야 합니다. 에서 계약에 대해 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 Adobe Journey Optimizer에서는 다음 사용 사례에 액세스할 수 있습니다.
 
@@ -58,4 +58,4 @@ Adobe Journey Optimizer에서는 다음 사용 사례에 액세스할 수 있습
 
 엄지 손가락을 위로 또는 아래로 사용하여 답을 평가하십시오.
 
-AI Assistant 사용 방법에 대해 알아보려면 AI Assistant를 사용하여 달성할 수 있는 목표 예제를 참조하고 AI Assistant의 작동 방식에 대해 알아보십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+AI Assistant 사용 방법에 대해 알아보려면 AI Assistant를 사용하여 달성할 수 있는 목표 예제를 참조하고 AI Assistant의 작동 방식에 대해 알아보십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
