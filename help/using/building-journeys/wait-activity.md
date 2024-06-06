@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
+source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 6%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 5%
 
 다음을 사용할 수 있습니다. **[!UICONTROL 대기]** 활동: 다음 활동을 실행하기 전에 기간을 정의합니다.  최대 대기 기간은 입니다. **29일**.
 
-다음 유형을 사용할 수 있습니다.
+다음 두 가지 유형을 설정할 수 있습니다 **대기** 활동:
 
-* [기간](#duration)
-* [사용자 지정](#custom)
+* 수정 기간에 따른 대기. [자세히 알아보기](#duration)
+* 함수를 사용하여 계산하는 사용자 지정 대기. [자세히 알아보기](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -51,8 +51,9 @@ ht-degree: 5%
 
 테스트 모드에서 **[!UICONTROL 테스트의 대기 시간]** 매개 변수를 사용하면 각 시간을 정의할 수 있습니다 **대기** 활동이 지속됩니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)에서 자세히 알아보십시오.
 
+## 구성 {#wait-configuration}
 
-## 기간 대기 {#duration}
+### 기간 대기 {#duration}
 
 다음 항목 선택 **기간** 을 입력하여 다음 활동을 실행하기 전 대기 시간을 설정합니다. 최대 기간은 다음과 같습니다. **29일**.
 
@@ -67,9 +68,9 @@ Select the date for the execution of the next activity.
 
 -->
 
-## 사용자 지정 대기 {#custom}
+### 사용자 지정 대기 {#custom}
 
-다음 항목 선택 **사용자 정의** 이벤트에서 가져온 필드 또는 사용자 지정 작업 응답을 기반으로 하는 고급 표현식을 사용하여 사용자 지정 날짜를 정의합니다. 상대적 기간(예: 7일)을 직접 정의할 수는 없지만, 필요한 경우 함수를 사용하여 계산할 수 있습니다(예: 구매 후 2일).
+다음 항목 선택 **사용자 정의** 를 입력하여 이벤트에서 가져온 필드 또는 사용자 지정 작업 응답을 기반으로 하는 고급 표현식을 사용하여 사용자 지정 기간을 정의합니다. 상대적 기간(예: 7일)을 직접 정의할 수는 없지만, 필요한 경우 함수를 사용하여 계산할 수 있습니다(예: 구매 후 2일).
 
 ![표현식으로 사용자 지정 대기 정의](assets/journey57.png)
 
