@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '804'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 사용 사례 목록과 쿼리 예제는 [여기](../data/datasets-query-examples.md)에서 확인할 수 있습니다.
 
-**참조**
-
-* [스트리밍 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko){target="_blank"}
-* [데이터를 Adobe Experience Platform으로 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ko){target="_blank"}
+>[!MORELIKETHIS]
+>
+>* [스트리밍 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko){target="_blank"}
+>* [데이터를 Adobe Experience Platform으로 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ko){target="_blank"}

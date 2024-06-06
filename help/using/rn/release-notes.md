@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 40e4aaa93400daf52c96aa5ac2de17151cdbb07f
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 93%
+source-wordcount: '788'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,9 @@ ht-degree: 93%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
+## 2024년 6월 업데이트
+
+이제 Adobe Journey Optimizer에서 Adobe Experience Platform AI Assistant를 사용하여 작업할 수 있습니다. [자세히 알아보기](../start/ai-assistant.md)
 
 ## 2024년 5월 릴리스 정보 {#may-2024}
 

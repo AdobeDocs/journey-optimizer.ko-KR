@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 스키마, 플랫폼, 데이터, 구조
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '286'
+ht-degree: 94%
 
 ---
 
@@ -42,10 +42,10 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
-**참조**
-
-* [Journey Optimizer에서 스키마와 데이터 세트를 만들고 데이터를 수집하여 테스트 프로필 추가하기](../audience/creating-test-profiles.md)
-* [XDM 시스템 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}
-* [데이터 모델링 모범 사례](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=ko){target="_blank"}
-* [Schema Registry API를 사용하여 스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=ko){target="_blank"}
-* [스키마 편집기로 두 스키마의 관계 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=ko){target="_blank"}
+>[!MORELIKETHIS]
+>
+>* [스키마, 데이터 세트를 만들고 데이터를 수집하여 Journey Optimizer에서 테스트 프로필 추가](../audience/creating-test-profiles.md)
+>* [XDM 시스템 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}
+>* [데이터 모델링 모범 사례](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=ko){target="_blank"}
+>* [Schema Registry API를 사용하여 스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=ko){target="_blank"}
+>* [스키마 편집기로 두 스키마의 관계 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=ko){target="_blank"}

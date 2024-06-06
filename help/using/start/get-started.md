@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 98%
 
 ---
 
@@ -61,9 +61,9 @@ ht-degree: 100%
 > [시작 전 실시간 고객 프로필 데이터 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)에 대해 알고 있어야 합니다.
 
 
-**참조 -**
-
-* [시작하는 주요 단계](quick-start.md)
-* [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md)
-* [라이브 보고서](../reports/live-report.md)
-* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)(PDF)
+>[!MORELIKETHIS]
+>
+>* [시작하는 주요 단계](quick-start.md)
+>* [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md)
+>* [라이브 보고서](../reports/live-report.md)
+>* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)(PDF)

@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 쿼리, Platform, 데이터, 탐색
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 [쿼리 편집기]를 사용하는 방법은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=ko){target="_blank"}를 참조하십시오.
 
-**참조**
-
-* [쿼리 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"}
-* [쿼리 서비스 개요 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ko-KR){target="_blank"}
+>[!MORELIKETHIS]
+>
+>* [쿼리 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"}
+>* [쿼리 서비스 개요 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ko-KR){target="_blank"}
