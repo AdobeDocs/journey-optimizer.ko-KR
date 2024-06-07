@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
+source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '567'
 ht-degree: 6%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 6%
 
 다음 두 가지 유형을 설정할 수 있습니다 **대기** 활동:
 
-* 수정 기간에 따른 대기. [자세히 알아보기](#duration)
-* 함수를 사용하여 계산하는 사용자 지정 대기. [자세히 알아보기](#custom)
+* 상대적 기간을 기반으로 한 대기. [자세히 알아보기](#duration)
+* 함수를 사용하여 계산하는 사용자 지정 날짜입니다. [자세히 알아보기](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -55,7 +55,7 @@ ht-degree: 6%
 
 ### 기간 대기 {#duration}
 
-다음 항목 선택 **기간** 을 입력하여 다음 활동을 실행하기 전 대기 시간을 설정합니다. 최대 기간은 다음과 같습니다. **29일**.
+다음 항목 선택 **기간** 을 입력하여 다음 활동을 실행하기 전 대기 시간의 상대적 기간을 설정합니다. 최대 기간은 다음과 같습니다. **29일**.
 
 ![대기 기간 정의](assets/journey55.png)
 
@@ -70,7 +70,7 @@ Select the date for the execution of the next activity.
 
 ### 사용자 지정 대기 {#custom}
 
-다음 항목 선택 **사용자 정의** 를 입력하여 이벤트에서 가져온 필드 또는 사용자 지정 작업 응답을 기반으로 하는 고급 표현식을 사용하여 사용자 지정 기간을 정의합니다. 상대적 기간(예: 7일)을 직접 정의할 수는 없지만, 필요한 경우 함수를 사용하여 계산할 수 있습니다(예: 구매 후 2일).
+다음 항목 선택 **사용자 정의** 이벤트에서 가져온 필드 또는 사용자 지정 작업 응답을 기반으로 하는 고급 표현식을 사용하여 사용자 지정 날짜를 정의합니다. 상대적 기간(예: 7일)을 직접 정의할 수는 없지만, 필요한 경우 함수를 사용하여 계산할 수 있습니다(예: 구매 후 2일).
 
 ![표현식으로 사용자 지정 대기 정의](assets/journey57.png)
 
