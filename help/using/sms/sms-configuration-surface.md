@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+source-git-commit: 82c58753b0beb1c6c60b4e1a8188725b3cb83390
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 8%
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="메시지 범주 정의"
->abstract="이 표면을 사용하여 문자 메시지 유형 선택: 사용자 동의가 필요한 프로모션 메시지를 위한 마케팅 또는 암호 재설정과 같은 비상업적 메시지를 위한 트랜잭션."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko-KR#sms-opt-out-management" text="마케팅 문자 메시지 옵트아웃"
+>abstract="이 표면을 사용하는 텍스트 메시지 유형을 선택합니다. 사용자 동의가 필요한 프로모션 메시지의 경우 마케팅, 암호 재설정과 같은 비상업적인 메시지의 경우 트랜잭션 중에서 선택할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="마케팅 텍스트 메시지의 옵트아웃"
 
 SMS/MMS 채널이 구성되면 SMS 및 MMS 메시지를 보낼 수 있는 채널 표면을 만들어야 합니다. **[!DNL Journey Optimizer]**.
 
@@ -67,12 +67,13 @@ SMS/MMS 채널이 구성되면 SMS 및 MMS 메시지를 보낼 수 있는 채널
    >
    >하위 도메인을 선택하려면 최소 하나 이상의 SMS/MMS 하위 도메인을 이전에 구성했는지 확인하십시오. [방법 알아보기](sms-subdomains.md)
 
-1. 다음을 입력합니다. **[!UICONTROL 옵트아웃 번호]** 이 서피스에 를 사용합니다. 프로필이 이 번호에서 옵트아웃해도 문자 메시지를 보낼 때 사용할 수 있는 다른 번호에서 메시지를 보낼 수 있습니다. [!DNL Journey Optimizer].
+<!--
+1. Enter the **[!UICONTROL Opt-out number]** you want to use for this surface. When profiles opt out from this number, you are still able to send them messages from other numbers you may be using to send out text messages with [!DNL Journey Optimizer].
 
-   >[!NOTE]
-   >
-   >위치 [!DNL Journey Optimizer], 텍스트 메시지에 대한 옵트아웃은 더 이상 채널 수준에서 관리되지 않습니다. 이제 숫자에 따라 다릅니다.
-
+    >[!NOTE]
+    >
+    >In [!DNL Journey Optimizer], opt-out for text messages is no longer managed at the channel level. It is now specific to a number.
+-->
 1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]** 확인할 수 있습니다. 채널 서피스를 구배로 저장하고 나중에 구성을 재개할 수도 있습니다.
 
    ![](assets/sms-submit-surface.png)
