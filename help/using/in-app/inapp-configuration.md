@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
+source-git-commit: 07c453366280b21f5546322430a90752fd996099
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 9%
@@ -26,7 +26,6 @@ ht-degree: 9%
 1. 콘텐츠 실험을 사용하는 경우 다음에 나열된 요구 사항을 따라야 합니다. [이 섹션](#experiment-prerequisite).
 
 권한 부여가 완료되면 첫 인앱 메시지를 만들고 구성하고 전송할 수 있습니다. 방법은 [이 섹션](create-in-app.md)을 참조하십시오.
-
 
 ## 게재 사전 요구 사항 {#delivery-prerequisites}
 
