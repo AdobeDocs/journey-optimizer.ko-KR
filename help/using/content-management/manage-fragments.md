@@ -7,15 +7,20 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
+exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
+source-git-commit: e35f6b8ddc1e7bb8a737b33be200115a3022c99c
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
 
-
 # 조각 관리 {#manage-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragment_statuses"
+>title="새 조각 상태"
+>abstract="다음 이후 **초안** 및 **라이브** Journey Optimizer 6월 릴리스와 함께 상태가 도입되었습니다. 이 릴리스 전에 생성된 모든 조각은 여정 또는 캠페인에서 사용되더라도 &quot;초안&quot; 상태를 갖습니다. 이러한 조각을 변경하는 경우 해당 조각을 &quot;라이브&quot;로 만들고 관련 캠페인 및 여정에 변경 사항을 전파하도록 게시해야 합니다."
 
 조각을 관리하려면 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴.
 
