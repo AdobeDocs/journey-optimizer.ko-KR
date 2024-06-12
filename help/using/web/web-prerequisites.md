@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 6%
+source-wordcount: '1157'
+ht-degree: 2%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 6%
   >
   >AEP 웹 SDK 버전이 2.16 이상인지 확인하십시오.
 
-* 하이브리드 모드 - 다음을 사용할 수 있습니다. [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko-KR){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* 하이브리드 모드 - 다음을 사용할 수 있습니다. [AEP Edge Network 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} 개인화 서버측을 요청합니다. 응답은 수정 클라이언트측을 렌더링하도록 Adobe Experience Platform Web SDK에 제공됩니다. Adobe Experience Platform에서 자세히 알아보기 [Edge Network 서버 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. 하이브리드 모드에 대한 자세한 내용은에서 확인하고 일부 구현 샘플을 확인할 수 있습니다. [이 블로그 게시물](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ Visual Editing Helper 브라우저 확장 기능을 다운로드하여 설치하
 
 1. 검색 후 다음 위치로 이동 [Adobe Experience Cloud Visual Edit Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 브라우저 확장.
 
-1. **[!UICONTROL Chrome에 추가]** > **[!UICONTROL 확장 기능 추가]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Chrome에 추가]** > **[!UICONTROL 확장 추가]**.
 
    >[!NOTE]
    >
@@ -92,9 +92,9 @@ Visual Editing Helper 브라우저 확장 기능을 다운로드하여 설치하
 >
 >일부 웹 사이트는 [!DNL Journey Optimizer] 다음 이유 중 하나로 인한 웹 디자이너:
 >
-> * 웹 사이트에 엄격한 보안 정책이 있습니다.
+> * 웹 사이트에는 엄격한 보안 정책이 있습니다.
 > * 웹 사이트가 iframe으로 되어 있습니다.
-> * 고객의 QA 또는 스테이지 사이트는 외부에서 사용할 수 없습니다(사이트는 내부 사이트임).
+> * 고객의 QA 또는 스테이지 사이트를 외부 세계(사이트가 내부적임)에서 사용할 수 없습니다.
 
 ### 웹 사이트 로드 문제 해결 {#troubleshooting}
 
@@ -116,15 +116,21 @@ Adobe 사용 시 [!DNL Journey Optimizer] 웹 디자이너 로드에 실패한 �
 
 * 다음에서 [Adobe Experience Platform 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko-KR){target="_blank"}와 같은 데이터 스트림이 아래에 정의되어 있는지 확인합니다. **[!UICONTROL Adobe Experience Platform]** 서비스 보유: **[!UICONTROL Adobe Journey Optimizer]** 옵션이 활성화되었습니다.
 
-  이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR){target="_blank"}
+  이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](assets/web-aep-datastream-ajo.png)
 
-* 위치 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* 위치 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}을(를) 사용하여 하나의 병합 정책을 **[!UICONTROL Active-On-Edge 병합 정책]** 옵션이 활성화되었습니다. 이렇게 하려면 **[!UICONTROL 고객]** > **[!UICONTROL 프로필]** > **[!UICONTROL 병합 정책]** Experience Platform 메뉴. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   이 병합 정책은 다음 사용자가 사용합니다. [!DNL Journey Optimizer] 인바운드 채널을 통해 에지에서 인바운드 캠페인을 올바르게 활성화하고 게시할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko){target="_blank"}
 
   ![](assets/web-aep-merge-policy.png)
+
+* Journey Optimizer 웹 경험의 전달 문제를 해결하려면 다음을 사용할 수 있습니다. **Edge 게재** 다음 범위 내 보기 **Adobe Experience Platform 보증**. 이 플러그인을 사용하면 요청 호출을 자세히 검사하고, 예상 Edge 호출이 예상대로 발생하는지 확인하고, ID 맵, 세그먼트 멤버십 및 동의 설정을 포함한 프로필 데이터를 검사할 수 있습니다. 또한 요청이 자격을 부여한 활동을 검토하고 자격이 없는 활동을 식별할 수 있습니다.
+
+  사용 **Edge 게재** 플러그인은 인바운드 구현을 효과적으로 이해하고 문제를 해결하는 데 필요한 인사이트를 얻을 수 있도록 도와줍니다.
+
+  [Edge 게재 보기에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## 콘텐츠 실험 사전 요구 사항 {#experiment-prerequisites}
 
@@ -138,7 +144,7 @@ Adobe 사용 시 [!DNL Journey Optimizer] 웹 디자이너 로드에 실패한 �
 >
 >데이터 집합은 [!DNL Journey Optimizer] 보고 시스템이며, 데이터 수집이나 데이터 수집에는 영향을 주지 않습니다.
 
-다음과 같은 경우 **아님** 다음 사전 정의 사용 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}) 다음 필드 그룹을 추가해야 합니다. `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, 및 `Web Details`. 이러한 요구 사항은 [!DNL Journey Optimizer] 콘텐츠 실험 보고는 각 프로필이 참여하고 있는 실험 및 처리를 추적합니다.
+다음과 같은 경우 **아님** 다음 사전 정의 사용 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"} 데이터 세트 스키마의 경우: `AEP Web SDK ExperienceEvent` 및 `Consumer Experience Event` (에 정의됨) [이 페이지](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}) 다음 필드 그룹을 추가해야 합니다. `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, 및 `Web Details`. 이러한 요구 사항은 [!DNL Journey Optimizer] 콘텐츠 실험 보고는 각 프로필이 참여하고 있는 실험 및 처리를 추적합니다.
 
 >[!NOTE]
 >

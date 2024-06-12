@@ -6,21 +6,21 @@ feature: In App
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 10%
+source-wordcount: '956'
+ht-degree: 9%
 
 ---
 
-# 사전 요구 사항 및 구성 {#inapp-configuration}
+# 전제 조건 및 구성 {#inapp-configuration}
 
 ## 구성 단계 {#inapp-steps}
 
 을 사용하여 여정 및 캠페인에서 인앱 메시지를 보내려면 [!DNL Journey Optimizer], 다음 구성 단계를 수행해야 합니다.
 
 1. 시작하기 전에 적절한 Journey Optimizer 캠페인 권한이 있는지 확인해야 합니다. 인앱 메시지를 여정에서만 사용하려는 경우에도 마찬가지입니다. 이 경우에도 Campaign 권한이 필요합니다. [자세히 알아보기](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
-에 액세스하려면 특정 권한이 부여되어야 합니다. **앱 표면** Adobe Experience Platform 메뉴 아래의 제품에서 사용할 수 있습니다. [이 비디오](#video)에서 자세히 알아보십시오.
+에 액세스하려면 특정 권한이 부여되어야 합니다. **앱 표면** Adobe Experience Platform 메뉴 아래의 제품에서 사용할 수 있습니다. 다음에서 자세히 알아보기 [이 비디오](#video).
 1. Adobe Experience Platform 데이터 수집 데이터스트림에서 Adobe Journey Optimizer을 활성화하고 다음에 설명된 대로 Adobe Experience Platform에서 기본 병합 정책을 확인합니다. [게재 사전 요구 사항](#delivery-prerequisites) 아래요.
 1. 다음에 자세히 설명된 대로 Adobe Experience Platform 데이터 수집에서 앱 표면 을 만들고 구성합니다. [이 섹션](#channel-prerequisites).
 1. 콘텐츠 실험을 사용하는 경우 다음에 나열된 요구 사항을 따라야 합니다. [이 섹션](#experiment-prerequisite).
@@ -34,11 +34,11 @@ ht-degree: 10%
 
 * 다음에서 [Adobe Experience Platform 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko-KR){target="_blank"}와 같은 데이터 스트림이 아래에 정의되어 있는지 확인합니다. **[!UICONTROL Adobe Experience Platform]** Adobe Experience Platform Edge 및 **[!UICONTROL Adobe Journey Optimizer]** 옵션이 활성화되었습니다.
 
-  이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR){target="_blank"}
+  이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](assets/inapp_config_6.png)
 
-* 위치 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* 위치 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}을(를) 사용하여 기본 병합 정책이 있는지 확인합니다. **[!UICONTROL Active-On-Edge 병합 정책]** 옵션이 활성화되었습니다. 이렇게 하려면 **[!UICONTROL 고객]** > **[!UICONTROL 프로필]** > **[!UICONTROL 병합 정책]** Experience Platform 메뉴. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   이 병합 정책은 다음 사용자가 사용합니다. [!DNL Journey Optimizer] 인바운드 채널을 통해 에지에서 인바운드 캠페인을 올바르게 활성화하고 게시할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko){target="_blank"}
 
@@ -47,6 +47,12 @@ ht-degree: 10%
   >사용자 지정 사용 시 **[!UICONTROL 데이터 세트 환경 설정]** 병합 정책입니다. 다음을 추가하십시오. **[!UICONTROL 여정 인바운드]** 지정된 병합 정책 내의 데이터 세트입니다.
 
   ![](assets/inapp_config_8.png)
+
+* Journey Optimizer 모바일 경험 전달 문제를 해결하려면 다음을 사용할 수 있습니다. **Edge 게재** 다음 범위 내 보기 **Adobe Experience Platform 보증**. 이 플러그인을 사용하면 요청 호출을 자세히 검사하고, 예상 Edge 호출이 예상대로 발생하는지 확인하고, ID 맵, 세그먼트 멤버십 및 동의 설정을 포함한 프로필 데이터를 검사할 수 있습니다. 또한 요청이 자격을 부여한 활동을 검토하고 자격이 없는 활동을 식별할 수 있습니다.
+
+  사용 **Edge 게재** 플러그인은 인바운드 구현을 효과적으로 이해하고 문제를 해결하는 데 필요한 인사이트를 얻을 수 있도록 도와줍니다.
+
+  [Edge 게재 보기에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## 채널 구성 사전 요구 사항 {#channel-prerequisites}
 
@@ -132,7 +138,7 @@ ht-degree: 10%
 >
 >데이터 집합은 [!DNL Journey Optimizer] 보고 시스템이며, 데이터 수집이나 데이터 수집에는 영향을 주지 않습니다.
 
-다음과 같은 경우 **아님** 다음 사전 정의 사용 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}) 다음 필드 그룹을 추가해야 합니다. `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, 및 `Web Details`. 이러한 요구 사항은 [!DNL Journey Optimizer] 콘텐츠 실험 보고는 각 프로필이 참여하고 있는 실험 및 처리를 추적합니다.
+다음과 같은 경우 **아님** 다음 사전 정의 사용 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"} 데이터 세트 스키마의 경우: `AEP Web SDK ExperienceEvent` 및 `Consumer Experience Event` (에 정의됨) [이 페이지](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}) 다음 필드 그룹을 추가해야 합니다. `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, 및 `Web Details`. 이러한 요구 사항은 [!DNL Journey Optimizer] 콘텐츠 실험 보고는 각 프로필이 참여하고 있는 실험 및 처리를 추적합니다.
 
 >[!NOTE]
 >

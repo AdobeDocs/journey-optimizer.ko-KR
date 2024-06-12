@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 4%
+source-wordcount: '610'
+ht-degree: 2%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 4%
 
 코드 기반 경험은 아래 옵션에 표시된 대로 모든 유형의 고객 구현을 지원합니다. 속성에 클라이언트측, 서버측 또는 하이브리드 구현 방법을 사용할 수 있습니다.
 
-* 클라이언트측 전용 - 웹 페이지 또는 모바일 앱에 수정 사항을 추가하려면 다음 중 하나를 구현해야 합니다. [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} on your website or [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} 모바일 앱에서.
+* 클라이언트측 전용 - 웹 페이지 또는 모바일 앱에 수정 사항을 추가하려면 다음 중 하나를 구현해야 합니다. [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} 웹 사이트 또는 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} 모바일 앱에서.
 
-* 하이브리드 모드 - 다음을 사용할 수 있습니다. [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko-KR){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* 하이브리드 모드 - 다음을 사용할 수 있습니다. [AEP Edge Network 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} 개인화 서버측을 요청합니다. 응답은 수정 클라이언트측을 렌더링하도록 Adobe Experience Platform Web SDK에 제공됩니다. Adobe Experience Platform에서 자세히 알아보기 [Edge Network 서버 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. 하이브리드 모드에 대한 자세한 내용은에서 확인하고 일부 구현 샘플을 확인할 수 있습니다. [이 블로그 게시물](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
-* 서버측 - 다음을 사용할 수 있습니다. [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} 을 입력하여 서버측에 개인화를 요청합니다. 개발 팀은 응답을 처리하고 앱 구현에서 클라이언트측에서 수정 사항을 렌더링해야 합니다.
+* 서버측 - 다음을 사용할 수 있습니다. [AEP Edge Network 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} 을 입력하여 서버측에 개인화를 요청합니다. 개발 팀은 응답을 처리하고 앱 구현에서 클라이언트측에서 수정 사항을 렌더링해야 합니다.
 
 위의 각 구현 방법에 대한 샘플은에서 찾을 수 있습니다. [이 섹션](code-based-implementation-samples.md).
 
@@ -46,15 +46,21 @@ ht-degree: 4%
 
 * 다음에서 [Adobe Experience Platform 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko-KR){target="_blank"}와 같은 데이터 스트림이 아래에 정의되어 있는지 확인합니다. **[!UICONTROL Adobe Experience Platform]** 서비스 보유: **[!UICONTROL Adobe Journey Optimizer]** 옵션이 활성화되었습니다.
 
-  이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR){target="_blank"}
+  이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](../web/assets/web-aep-datastream-ajo.png)
 
-* 위치 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* 위치 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}을(를) 사용하여 하나의 병합 정책을 **[!UICONTROL Active-On-Edge 병합 정책]** 옵션이 활성화되었습니다. 이렇게 하려면 **[!UICONTROL 고객]** > **[!UICONTROL 프로필]** > **[!UICONTROL 병합 정책]** Experience Platform 메뉴. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   이 병합 정책은 다음 사용자가 사용합니다. [!DNL Journey Optimizer] 인바운드 채널을 통해 에지에서 인바운드 캠페인을 올바르게 활성화하고 게시할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko){target="_blank"}
 
   ![](../web/assets/web-aep-merge-policy.png)
+
+* Journey Optimizer 웹 경험 전달 문제를 해결하려면 다음을 사용할 수 있습니다. **Edge 게재** 다음 범위 내 보기 **Adobe Experience Platform 보증**. 이 플러그인을 사용하면 요청 호출을 자세히 검사하고, 예상 Edge 호출이 예상대로 발생하는지 확인하고, ID 맵, 세그먼트 멤버십 및 동의 설정을 포함한 프로필 데이터를 검사할 수 있습니다. 또한 요청이 자격을 부여한 활동을 검토하고 자격이 없는 활동을 식별할 수 있습니다.
+
+  사용 **Edge 게재** 플러그인은 인바운드 구현을 효과적으로 이해하고 문제를 해결하는 데 필요한 인사이트를 얻을 수 있도록 도와줍니다.
+
+  [Edge 게재 보기에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## 콘텐츠 실험 사전 요구 사항 {#experiment-prerequisites}
 
