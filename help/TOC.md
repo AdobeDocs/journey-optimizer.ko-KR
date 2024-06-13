@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1817'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
    + [검색, 필터, 분류](using/start/search-filter-categorize.md)
    + [접근성](using/start/accessibility.md)
    + [사용 사례 플레이북](using/start/playbooks.md)
-   + [AI Assistant 작업](using/start/ai-assistant.md)
+   + [AI 어시스턴트 작업](using/start/ai-assistant.md)
    + [통합](using/start/ajo-integrations.md)
    + [가드레일](using/start/guardrails.md)
    + [모범 사례](using/start/best-practices.md)
@@ -164,9 +164,9 @@ ht-degree: 98%
          + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/ajo-ac.md)
          + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
       + 기술 사용 사례 {#technical-use-cases} 
-         + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
+         + [사용자 정의 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
          + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [외부 데이터 원본 및 사용자 지정 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
+         + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
          + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 캠페인{#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
@@ -313,7 +313,7 @@ ht-degree: 98%
          + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
    + [콘텐츠 템플릿](using/content-management/content-templates.md)
    + 재사용 가능한 콘텐츠 조각 {#fragments}
-      + [조각 시작](using/content-management/fragments.md)
+      + [조각으로 시작](using/content-management/fragments.md)
       + [조각 만들기](using/content-management/create-fragments.md)
       + [기존 콘텐츠를 조각으로 저장](using/content-management/save-fragments.md)
       + [조각 관리](using/content-management/manage-fragments.md)

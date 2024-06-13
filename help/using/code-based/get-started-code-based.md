@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1086'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -73,9 +73,9 @@ ht-degree: 86%
 
 기타 [!DNL Journey Optimizer] 채널 대신 코드 기반 채널을 언제 사용합니까?
 
-* 웹 브라우저나 모바일 앱을 통해 디지털 속성에 액세스하지 않는 경우 언제든지 코드 기반 경험 사용을 고려할 수 있습니다. 이러한 경우 를 더 잘 사용할 수 있습니다. [!DNL Journey Optimizer] [웹 채널](../web/get-started-web.md){target="_blank"} 또는 [!DNL Journey Optimizer] [인앱 메시징](../in-app/get-started-in-app.md){target="_blank"} 채널.
+* 웹 브라우저나 모바일 앱을 통해 디지털 속성에 액세스하지 않는 경우 언제든지 코드 기반 경험 사용을 고려할 수 있습니다. 이 경우 [!DNL Journey Optimizer] [웹 채널](../web/get-started-web.md){target="_blank"}또는 [!DNL Journey Optimizer] [인앱 메시징](../in-app/get-started-in-app.md){target="_blank"} 채널을 사용하는 것이 더 좋을 수 있습니다.
 
-* 코드 기반 채널을 다음에 대한 대체 요소로 사용할 수 있습니다. [!DNL Journey Optimizer] 웹 채널 : 웹 사이트를 로 로드할 수 없는 경우 [웹 디자이너](../web/edit-web-content.md#work-with-web-designer){target="_blank"} 비주얼 편집기 또는 [브라우저 확장](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} 웹 채널에 대한 시각적 작성을 지원합니다.
+* 웹 사이트를 [웹 디자이너](../web/edit-web-content.md#work-with-web-designer){target="_blank"} 비주얼 편집기에 로드할 수 없거나 웹 채널의 시각적 작성을 지원하는 [브라우저 확장](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}을 사용할 수 없는 경우 [!DNL Journey Optimizer] 웹 채널 대신 코드 기반 채널을 사용할 수 있습니다.
 
 * API 기반, 헤드리스 또는 서버 측 구현이 있는 경우 [!DNL Journey Optimizer] 웹 또는 인앱 채널 대신 코드 기반 채널을 사용할 수도 있습니다.
 
@@ -85,13 +85,13 @@ ht-degree: 86%
 
 **웹**
 * [웹 디자이너](../web/edit-web-content.md#work-with-web-designer){target="_blank"} 시각적 편집기를 사용하여 콘텐츠를 편집합니다.
-* 다음이 필요합니다. [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} 구현 및 [Adobe Experience Cloud Visual Edit Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 웹 브라우저에 설치된 확장 프로그램. [자세히 알아보기](../web/web-prerequisites.md){target="_blank"}
+* 웹 브라우저에 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} 구현과 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 확장 프로그램이 설치되어 있어야 합니다. [자세히 알아보기](../web/web-prerequisites.md){target="_blank"}
 * 웹 채널에서는 페이지의 모든 내용을 수정할 수 있으며 변경할 수 있는 사전 정의된 작업 목록이 있습니다. [자세히 알아보기](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * 쉽게 설정하고 빠르게 진행할 수 있습니다.
 * 마케팅 담당자 중심입니다.
 
 **코드 기반 경험**
-* 다음을 사용하여 콘텐츠 편집 [개인화 편집기](create-code-based.md#edit-code).
+* [개인화 편집기](create-code-based.md#edit-code)를 사용하여 콘텐츠를 편집합니다.
 * 코드 기반 경험에서는 표면이 이러한 표면에 대해 [!DNL Journey Optimizer]에 의해 에지에 게시된 콘텐츠를 해석하고 전달할 수 있는지 확인하기 위해 구현에 대한 이전 개발 작업이 필요합니다. [자세히 알아보기](#surface-definition)
 * 더 많은 계획이 필요하고 개발자가 지정하는 사항만 변경할 수 있습니다. 따라서 개인화 또는 테스트를 위해 수정해야 하는 표면의 구성 요소(홈 배너, 히어로 이미지, 메뉴 표시줄 등)를 식별하고 개발 팀과 협력하여 이러한 변경 사항을 처리하는 데 필요한 구현을 구축하는 것이 중요합니다.
 * JSON 코드 콘텐츠를 사용할 수 있습니다.
@@ -113,7 +113,7 @@ ht-degree: 86%
 
 1. 기본적으로 코드 기반 경험을 추가하려는 위치인 [표면](#surface-definition)을 정의하고 이 표면을 사용하여 [!DNL Journey Optimizer]에서 캠페인을 만듭니다. [방법 알아보기](create-code-based.md#create-code-based-campaign)
 
-1. 다음을 사용하여 선택한 표면에 대한 콘텐츠를 지정하여 경험 구성 [!DNL Journey Optimizer] 개인화 편집기. [방법 알아보기](create-code-based.md#edit-code)
+1. [!DNL Journey Optimizer] 개인화 편집기를 사용하여 선택한 표면에 대한 콘텐츠를 지정하여 경험을 만드세요. [방법 알아보기](create-code-based.md#edit-code)
 
 1. 앱 구현 팀은 “배너 텍스트” 또는 “권장 사항 트레이 1”과 같은 이름이 지정된 표면에 대한 콘텐츠나 “검색 알고리즘 매개변수”와 같은 애플리케이션의 비UI 관련 결정 지점에 대한 콘텐츠를 가져오기 위해 명시적 API 또는 SDK 호출을 수행합니다. 이 경우 구현 팀은 반환된 콘텐츠를 렌더링하거나 해석하고 그에 따라 조치를 취할 책임이 있습니다.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 
@@ -122,7 +122,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
 >title="코드 기반 경험 표면 정의"
->abstract="코드 기반 표면은 URI에 의해 고유하게 식별되는 사용자 또는 시스템 상호 작용을 위해 설계된 임의의 엔티티입니다."
+>abstract="코드 기반 경험 표면은 URI로 고유하게 식별되는 사용자 또는 시스템 상호 작용을 위해 설계된 모든 엔티티입니다."
 
 **코드 기반 경험 표면**&#x200B;은 **URI**&#x200B;로 고유하게 식별되는 사용자 또는 시스템 상호 작용<!--ask Robert to explain further-->을 위해 설계된 모든 엔티티입니다.
 

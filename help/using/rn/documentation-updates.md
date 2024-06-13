@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5355'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 98%
 
 ## 2024년 6월 {#june-2024}
 
-* 구성 방법에 대한 페이지 **대기** 여정의 활동이 재구성되고 개선되었습니다. [자세히 보기](../building-journeys/wait-activity.md)
+* 여정에서 **대기** 활동을 구성하는 방법에 대한 페이지가 재구성되고 개선되었습니다. [자세히 보기](../building-journeys/wait-activity.md)
 
 ## 2024년 5월 {#may-2024}
 
-* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2024년 5월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer] 2024년 5월 릴리스의 모든 새로운 기능 및 개선 사항에 대한 자세한 설명은 설명서에서 확인할 수 있습니다. [자세히 보기](release-notes.md)
 * 시드 목록 섹션의 반복 여정에 대한 정보가 업데이트되었습니다. [자세히 보기](../configuration/seed-lists.md#use-seed-list)
 * 외부 데이터 소스 섹션이 업데이트되었습니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-access-token)
 * 가드레일 및 제한 사항 페이지에 30일의 전역 여정 시간 초과가 추가되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 * Adobe Campaign v7/v8 통합 섹션에 프로비저닝에 대한 정보를 업데이트했습니다. [자세히 보기](../action/acc-action.md#access)
-* 콘텐츠를 개인화하는 데 사용되는 표현식 편집기의 이름이 설명서에서 &quot;개인화 편집기&quot;로 변경되었습니다. [여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md). [자세히 보기](../personalization/personalization-build-expressions.md)
+* 콘텐츠를 개인화하는 데 사용되는 표현식 편집기는 [여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md)와 명확하게 구별하기 위해 문서에서 “개인화 편집기”로 이름이 변경되었습니다. [자세히 보기](../personalization/personalization-build-expressions.md)
 
 ## 2024년 4월 {#april-2024}
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 * 컨텍스트 데이터를 기반으로 오퍼의 표현을 개인화하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../offers/offer-library/add-representations.md#context-data)
 * 보호 페이지에 요청 또는 응답 페이로드를 사용할 때만 JSON 형식을 지원하는 사용자 정의 작업에 대한 메모를 업데이트했습니다. [자세히 보기](../start/guardrails.md#custom-actions-g)
 * 외부 데이터 소스의 기본 인증 유형에 대한 정보를 추가했습니다. [자세히 보기](../datasource/external-data-sources.md)
-* 을(를) 명확하게 구분할 수 있도록 메모가 추가되었습니다. [여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md) 다음에서 [개인화 편집기](../personalization/functions/functions.md).
+* [여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md)와 [개인화 편집기](../personalization/functions/functions.md)를 명확하게 구분하기 위해 메모가 추가되었습니다.
 * 고급 표현식 편집기에서 사용할 수 있는 함수 목록이 업데이트되었습니다. [자세히 보기](../building-journeys/expression/functions.md)
 * 분할 함수의 페이지가 업데이트되었습니다. [자세히 보기](../building-journeys/functions/functioninaudience.md)
 * 푸시 알림의 옵트인 또는 옵트아웃이 인앱 메시지에 미치는 영향에 대한 정보를 추가했습니다. [자세히 보기](../in-app/create-in-app.md)
@@ -395,7 +395,7 @@ ht-degree: 98%
 
 * 다양한 성향에 대한 여러 단계를 넣어서 **빠른 시작** 페이지를 개선했습니다. [자세히 보기](../start/quick-start.md)
 
-* 이제 전용 섹션에 설명된 모든 의사 결정 관리 기능이 Offer decisioning 애플리케이션을 활용하는 Adobe Experience Platform 사용자에게도 적용됩니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
+* 이제 전용 섹션에 설명된 모든 의사 결정 관리 기능이 제안 결정 애플리케이션 서비스를 활용하는 Adobe Experience Platform 사용자에게도 적용됩니다. [자세히 보기](../offers/get-started/starting-offer-decisioning.md)
 
 * 지정된 배치에 대한 오퍼 선택을 통제하는 제한을 적용할 때 대상자 사용과 결정 규칙 간의 차이점을 명확하게 하기 위한 하위 섹션을 추가했습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
