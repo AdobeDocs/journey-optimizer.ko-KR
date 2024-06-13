@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 91%
+source-wordcount: '826'
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 91%
 
 ## 2024년 6월 업데이트
 
-이제 Adobe Journey Optimizer에서 Adobe Experience Platform AI Assistant를 사용하여 작업할 수 있습니다. [자세히 알아보기](../start/ai-assistant.md)
+* 이제 Adobe Journey Optimizer에서 Adobe Experience Platform AI Assistant를 사용하여 작업할 수 있습니다. [자세히 알아보기](../start/ai-assistant.md)
+
+* **의사 결정 관리의 다중 규칙 지원** - 이제 의사 결정 관리에서 주어진 오퍼에 대해 최대 10개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
 ## 2024년 5월 릴리스 정보 {#may-2024}
 
@@ -37,7 +39,6 @@ ht-degree: 91%
 ### 새로운 기능 {#e-features}
 
 이번 릴리스에는 아래에 있는 새로운 기능이 제공됩니다.
-
 
 <table>
 <thead>

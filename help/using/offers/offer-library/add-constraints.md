@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 260b9ec0a70526ac37da444e183fc1d01b97b22b
+source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
-source-wordcount: '2617'
-ht-degree: 15%
+source-wordcount: '2636'
+ht-degree: 3%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
 >title="오퍼 제한 정보"
->abstract="제한 조건을 사용하면 다른 오퍼와 비교하여 오퍼의 우선 순위를 지정하고 사용자에게 표시하는 방법을 지정할 수 있습니다."
+>abstract="제약 조건을 사용하면 다른 오퍼와 비교하여 오퍼의 우선 순위가 지정되고 사용자에게 표시되는 방법을 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
 >title="오퍼 제한 정보"
->abstract="제한 조건을 사용하면 다른 오퍼와 비교하여 오퍼의 우선 순위를 지정하고 사용자에게 표시하는 방법을 지정할 수 있습니다."
+>abstract="제약 조건을 사용하면 다른 오퍼와 비교하여 오퍼의 우선 순위가 지정되고 사용자에게 표시되는 방법을 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="오퍼 우선 순위 정보"
->abstract="이 필드에서 오퍼에 대한 우선 순위 설정을 지정할 수 있습니다. 우선 순위는 적격성, 날짜 및 상한 설정과 같은 모든 제한 조건을 충족하는 오퍼 순위를 매기는 데 사용되는 숫자입니다."
+>abstract="이 필드에서는 오퍼에 대한 우선 순위 설정을 지정할 수 있습니다. 우선 순위는 자격, 날짜 및 한도 등과 같은 모든 제약 조건을 충족하는 오퍼의 등급을 지정하는 데 사용되는 번호입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="우선 순위 설정"
->abstract="사용자는 우선 순위를 통해 둘 이상의 오퍼에 대한 자격이 있는 경우 다른 오퍼와 비교하여 오퍼의 우선 순위를 정의할 수 있습니다. 오퍼의 우선 순위가 높을수록 다른 오퍼와 비교할 때 우선 순위가 높아집니다."
+>abstract="우선 순위는 사용자가 둘 이상의 오퍼에 대한 자격이 있는 경우 다른 오퍼와 비교하여 오퍼의 우선 순위를 정의하는 데 도움이 됩니다. 오퍼의 우선 순위가 높을수록 다른 오퍼와 비교하여 우선 순위가 높습니다."
 
 제약 조건을 사용하면 오퍼가 표시될 조건을 정의할 수 있습니다.
 
@@ -41,7 +41,7 @@ ht-degree: 15%
 
    ![](../assets/offer-eligibility.png)
 
-1. 다음을 정의합니다. **[!UICONTROL 우선 순위]** 사용자가 둘 이상의 오퍼에 적격인 경우, 다른 오퍼와 비교하여 오퍼. 오퍼의 우선 순위가 높을수록 다른 오퍼와 비교할 때 우선 순위가 높아집니다.
+1. 다음을 정의합니다. **[!UICONTROL 우선 순위]** 사용자가 둘 이상의 오퍼에 적격인 경우, 다른 오퍼와 비교하여 오퍼. 오퍼의 우선 순위가 높을수록 다른 오퍼와 비교하여 우선 순위가 높습니다.
 
    ![](../assets/offer-priority.png)
 
@@ -63,23 +63,23 @@ ht-degree: 15%
 * 오퍼의 우선 순위는 &quot;50&quot;으로 설정되어 있습니다. 즉, 우선 순위가 1과 49 사이인 오퍼 앞에, 우선 순위가 최소 51인 오퍼 뒤에 오퍼가 표시됩니다.
 * 이 오퍼는 모든 배치에서 사용자당 한 달에 한 번만 제공됩니다.
 
-## 적격성 {#eligibility}
+## 자격 요건 {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="적격성 정의"
->abstract="기본적으로 모든 프로필에 오퍼가 표시될 수 있지만, 대상자 또는 결정 규칙을 사용하여 오퍼를 특정 프로필로 제한할 수 있습니다."
+>title="자격 정의"
+>abstract="기본적으로 모든 프로필은 오퍼를 제공할 수 있지만, 대상자 또는 의사 결정 규칙을 사용하여 오퍼를 특정 프로필로 제한할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
 >title="오퍼 적격성 정보"
->abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
+>abstract="이 섹션에서는 의사 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
 >additional-url="https://video.tv.adobe.com/v/329373" text="데모 비디오 보기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="총 프로필 예상"
->abstract="대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다."
+>abstract="대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 확인할 수 있습니다."
 
 다음 **[!UICONTROL 오퍼 자격 요건]** 섹션에서는 대상자 또는 의사 결정 규칙을 사용하여 정의하는 특정 프로필로 오퍼를 제한할 수 있습니다.
 
@@ -131,36 +131,32 @@ ht-degree: 15%
 
   에서 의사 결정 규칙에 대해 자세히 알아보기 [이 섹션](creating-decision-rules.md).
 
-## 상한 설정 {#capping}
+## 캡핑 {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
->title="오퍼 상한 설정 정보"
->abstract="이 필드에서 오퍼를 제시할 수 있는 횟수를 지정할 수 있습니다."
+>title="오퍼 한도 정보"
+>abstract="이 필드에서는 오퍼를 표시할 수 있는 횟수를 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="상한 설정 사용"
->abstract="고객에게 과도하게 요청하지 않으려면 상한 설정을 사용하여 오퍼를 제시할 수 있는 최대 횟수를 정의합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="날짜 변경은 상한 설정에 영향을 미칠 수 있음"
+>title="한도 사용"
+>abstract="고객을 너무 많이 모집하지 않도록 하려면 최대 가용량(captivate)을 사용하여 오퍼를 표시할 수 있는 최대 횟수를 정의합니다. 주어진 오퍼에 대해 최대 10개의 최대 가용량 규칙을 만들 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="날짜 변경은 캡핑에 영향을 줄 수 있습니다."
 
-한도는 오퍼를 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다.
+한도는 오퍼를 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다. 사용자가 특정 오퍼를 받는 횟수를 제한하면 고객에게 과다 청탁을 하지 않고 최상의 오퍼로 각 접점을 최적화할 수 있습니다.
 
-사용자가 특정 오퍼를 받는 횟수를 제한하면 고객에게 과다 청탁을 하지 않고 최상의 오퍼로 각 접점을 최적화할 수 있습니다.
+주어진 오퍼에 대해 최대 10개의 최대 가용량 규칙을 추가할 수 있습니다. 최대 가용량 규칙을 설정하려면 **[!UICONTROL 캡핑 만들기]** 버튼을 누른 후 아래 단계를 수행합니다.
 
-캡핑을 설정하려면 아래의 주요 단계를 따르십시오.
-
-1. 다음을 확인합니다. **[!UICONTROL 한도 사용]** 토글 버튼이 선택되어 있습니다. 캡핑은 기본적으로 활성화되어 있습니다.
-
-   >[!CAUTION]
-   >
-   >이전에 만든 오퍼에 대해 빈도 제한을 활성화하거나 비활성화할 수 없습니다. 이렇게 하려면 새 오퍼를 만들어야 합니다.
+>[!CAUTION]
+>
+>이전에 만든 오퍼에 대해 빈도 제한을 활성화하거나 비활성화할 수 없습니다. 이렇게 하려면 새 오퍼를 만들어야 합니다.
 
 1. 정의 **[!UICONTROL 최대 이벤트]** 계산기를 늘리기 위해 고려될 것입니다. [자세히 알아보기](#capping-event)
 
-1. 오퍼를 표시할 수 있는 횟수를 설정합니다. [자세히 알아보기](#capping-count)
-
 1. 캡핑을 모든 사용자에게 적용할지 또는 하나의 프로필에만 적용할지 선택합니다. [자세히 알아보기](#capping-type)
+
+1. 오퍼를 표시할 수 있는 횟수를 설정합니다. [자세히 알아보기](#capping-count)
 
 1. 설정 **[!UICONTROL 빈도]** 최대 가용량 수가 재설정되는 빈도를 정의합니다. [자세히 알아보기](#frequency-capping)
 
@@ -176,25 +172,25 @@ ht-degree: 15%
 >
 >최대 가용량 카운터는 오퍼가 만료되거나 오퍼 시작 날짜 후 2년 중 먼저 도래하는 날짜에 재설정됩니다. 에서 오퍼의 날짜를 정의하는 방법 알아보기 [이 섹션](creating-personalized-offers.md#create-offer).
 
-### 상한 설정 이벤트 {#capping-event}
+### 캡핑 이벤트 {#capping-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
->title="노출 횟수"
->abstract="상한 설정 이벤트로 노출 횟수를 사용하는 것은 인바운드 채널에서만 사용할 수 있습니다."
+>title="노출"
+>abstract="최대 가용량 이벤트로 노출 횟수를 사용하는 것은 인바운드 채널에만 사용할 수 있습니다."
 
-다음 **[!UICONTROL 최대 이벤트]** 필드를 사용하면 카운터를 증가시키기 위해 고려할 이벤트를 정의할 수 있습니다.
+다음 **[!UICONTROL 최대 가용량 이벤트 선택]** 필드를 사용하면 카운터를 증가시키기 위해 고려할 이벤트를 정의할 수 있습니다.
 
 ![](../assets/offer-capping-event.png)
 
 * **[!UICONTROL 결정 이벤트]** (기본값): 오퍼를 표시할 수 있는 최대 횟수입니다.
+* **[!UICONTROL 클릭수]**: 사용자가 오퍼를 클릭할 수 있는 최대 횟수입니다.
 * **[!UICONTROL 노출 횟수]**: 사용자에게 오퍼를 표시할 수 있는 최대 횟수입니다.
 
   >[!NOTE]
   >
   >노출을 최대 가용량 이벤트로 사용하기는에서 사용할 수 있습니다. **인바운드 채널** 만 해당.
 
-* **[!UICONTROL 클릭수]**: 사용자가 오퍼를 클릭할 수 있는 최대 횟수입니다.
 * **[!UICONTROL 사용자 지정 이벤트]**: 전송된 오퍼 수를 제한하는 데 사용할 사용자 지정 이벤트를 정의할 수 있습니다. 예를 들어 환매가 10000 때까지 또는 주어진 프로필이 1회 환매될 때까지 환매 수를 제한할 수 있습니다. 이렇게 하려면 다음을 사용합니다. [Adobe Experience Platform Xdm](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"} 사용자 지정 이벤트 규칙을 작성할 스키마.
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
@@ -202,8 +198,6 @@ ht-degree: 15%
   아래 예제에서는 체크아웃 수를 제한하려고 합니다.
 
    1. 선택 **[!UICONTROL 사용자 지정 이벤트]** 목록에서 을(를) 만들고 **[!UICONTROL 사용자 지정 이벤트 추가]** 단추를 클릭합니다.
-
-      ![](../assets/offer-capping-custom-event-add.png)
 
    1. 사용 **[!UICONTROL 사용자 지정 이벤트 규칙 만들기]** 빌더에서 관련 이벤트를 선택합니다. 오퍼를 제한할 사용자 작업을 선택할 수 있습니다.
 
@@ -221,21 +215,9 @@ ht-degree: 15%
 >
 >각 최대 가용량 이벤트가 최대 가용량 카운터에서 추적 및 처리되도록 하려면 경험 이벤트를 수집하는 데 사용되는 스키마에 해당 이벤트에 대한 올바른 필드 그룹이 포함되어 있는지 확인하십시오. [자세히 알아보기](../data-collection/schema-requirement.md)
 
-### 최대 가용량 {#capping-count}
-
-다음 **[!UICONTROL 최대 개수 제한]** 필드를 사용하면 오퍼를 표시할 수 있는 횟수를 지정할 수 있습니다.
-
-![](../assets/offer-capping-times.png)
-
->[!NOTE]
->
->숫자는 0보다 큰 정수여야 합니다.
-
-예를 들어, 체크아웃 수를 고려하는 사용자 정의 캡핑 이벤트를 정의했습니다. 에 10을 입력하면 **[!UICONTROL 최대 개수 제한]** 필드에서는 10회 체크아웃 후에는 더 이상 오퍼가 전송되지 않습니다.
-
 ### 캡핑 유형 {#capping-type}
 
-캡핑을 모든 사용자 간에 적용할지 또는 하나의 특정 프로필에 적용할지를 지정할 수도 있습니다.
+캡핑을 모든 사용자 간에 적용할지 또는 하나의 특정 프로필에 적용할지를 지정할 수 있습니다.
 
 ![](../assets/offer-capping-total.png)
 
@@ -247,14 +229,26 @@ ht-degree: 15%
 
   예를 들어 &#39;플래티넘 신용카드&#39; 오퍼가 있는 은행인 경우 이 오퍼가 프로필당 5회 이상 표시되지 않도록 할 수 있습니다. 실제로, 사용자가 오퍼를 5번 보고 실행하지 않은 경우 다음 최상의 오퍼에 대해 조치를 취할 수 있는 기회가 더 높다고 판단합니다.
 
+### 캡핑 수 {#capping-count}
+
+다음 **[!UICONTROL 최대 개수 제한]** 필드를 사용하면 오퍼를 표시할 수 있는 횟수를 지정할 수 있습니다.
+
+![](../assets/offer-capping-times.png)
+
+>[!NOTE]
+>
+>숫자는 0보다 큰 정수여야 합니다.
+
+예를 들어, 체크아웃 수를 고려하는 사용자 정의 캡핑 이벤트를 정의했습니다. 에 10을 입력하면 **[!UICONTROL 최대 개수 제한]** 필드에서는 10회 체크아웃 후에는 더 이상 오퍼가 전송되지 않습니다.
+
 ### 빈도 설정 {#frequency-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="상한 빈도 설정"
->abstract="오퍼 상한 설정 카운터를 매일, 매주 또는 매월 재설정하도록 선택할 수 있습니다. 빈도 설정이 활성화된 오퍼를 게시한 후에는 이미 정의된 빈도를 변경할 수 없다는 점을 참고하십시오."
+>title="캡핑 빈도 설정"
+>abstract="오퍼 한도 카운터를 일별, 주별 또는 월별 기준으로 재설정하도록 선택할 수 있습니다. 빈도 제한이 활성화된 오퍼를 게시한 후에는 정의된 빈도를 변경할 수 없습니다."
 
-다음 **[!UICONTROL 빈도]** 섹션에서는 캡핑 횟수가 재설정되는 빈도를 정의할 수 있습니다. 이렇게 하려면 계산 기간(일별, 주별 또는 월별)을 정의하고 선택한 일/주/개월을 입력합니다. 예를 들어, 2주마다 최대 가용량 수를 재설정하려면 을 선택합니다. **[!UICONTROL 매주]** 해당 드롭다운 목록 및 유형에서 **2** 다른 필드에서.
+다음 **[!UICONTROL 캡핑 빈도 재설정]** 필드에서는 최대 가용량 수가 재설정되는 빈도를 정의할 수 있습니다. 이렇게 하려면 계산 기간(일별, 주별 또는 월별)을 정의하고 선택한 일/주/개월을 입력합니다. 예를 들어, 2주마다 최대 가용량 수를 재설정하려면 을 선택합니다. **[!UICONTROL 매주]** 해당 드롭다운 목록 및 유형에서 **2** 다른 필드에서.
 
 ![](../assets/offer-capping-frequency.png)
 
@@ -293,12 +287,12 @@ ht-degree: 15%
 
   예를 들어 오퍼에 **이메일** 배치 및 **웹** 배치, 그리고 다음 위치에 캡핑 설정 **각 배치에 대해 프로필당 2개**&#x200B;를 설치한 후 각 프로필은 이메일 배치에 대해 최대 2회 오퍼를 수신하고 웹 배치에 대해 추가로 2회 오퍼를 수신할 수 있습니다.
 
-### 날짜 변경이 상한 설정에 미치는 영향 {#capping-change-date}
+### 날짜 변경이 캡핑에 미치는 영향 {#capping-change-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="날짜 변경은 상한 설정에 영향을 미칠 수 있음"
->abstract="이 오퍼에 상한 설정이 적용되면 시작 날짜 또는 종료 날짜를 변경할 때 영향을 받을 수 있습니다."
+>title="날짜 변경은 캡핑에 영향을 줄 수 있습니다."
+>abstract="캡핑이 이 오퍼에 적용되는 경우 시작 또는 종료 날짜를 변경할 때 영향을 받을 수 있습니다."
 
 다음 조건이 충족되는 경우 캡핑에 영향을 줄 수 있으므로 오퍼 날짜를 변경할 때 주의하여 진행해야 합니다.
 
