@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c6daa2aef557943374a3eff005eda34dad214a5d
+source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 23%
+source-wordcount: '640'
+ht-degree: 24%
 
 ---
 
@@ -169,6 +169,9 @@ ht-degree: 23%
 * 여정 전역 시간 제한이 30일에서 91일로 늘어났습니다.
 * 이제 Adobe Journey Optimizer에서 개인 정보 삭제/액세스 요청을 지원합니다.
 * 이제 여정 인벤토리에서 열의 크기를 조정할 수 있습니다.
+* **이벤트 구성의 고급 표현식 편집기** 이제 GA입니다. - 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 보다 복잡한 표현식을 정의하거나 이벤트 id 조건에서 함수를 사용할 수 있습니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../event/about-creating.md)
+* **병합 정책** 이제 GA 상태임 - 여정에서 사용하는 병합 정책이 이제 여정 전체에 표시되고 일관됩니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../building-journeys/journey-gs.md#merge-policies)
+
 
 
 **캠페인**
@@ -183,7 +186,7 @@ ht-degree: 23%
 **SMS 채널**
 
 * 이제 단일 API 구성을 통해 각 샌드박스에 고유한 짧은 코드를 추가할 수 있으므로 프로세스가 보다 효율적이고 간소화됩니다.
-* 이제 기존 SMS 구성을 수정할 수 있습니다.
+  <!--* You can now modify existing SMS configurations.-->
 
 **인앱 채널**
 
