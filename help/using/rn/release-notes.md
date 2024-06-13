@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 ## 2024년 6월 업데이트
 
-* 이제 Adobe Journey Optimizer에서 Adobe Experience Platform AI Assistant를 사용하여 작업할 수 있습니다. [자세히 알아보기](../start/ai-assistant.md)
+* 이제 Adobe Journey Optimizer에서 Adobe Experience Platform AI 어시스턴트를 사용하여 작업할 수 있습니다. [자세히 알아보기](../start/ai-assistant.md)
 
 * **의사 결정 관리의 다중 규칙 지원** - 이제 의사 결정 관리에서 주어진 오퍼에 대해 최대 10개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
@@ -51,7 +51,7 @@ ht-degree: 88%
 <td>
 <p>Experience Decisioning은 '의사 결정 항목'으로 알려진 마케팅 의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.</p>
 <p>이러한 의사 결정 항목은 이제 Journey Optimizer 캠페인에서 액세스할 수 있는 새로운 코드 기반 경험 채널을 통해 광범위한 인바운드 표면에 원활하게 통합됩니다. 경험 결정 의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.</p>
-<p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
+<p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>자세한 내용은 <a href="../experience-decisioning/gs-experience-decisioning.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -68,8 +68,8 @@ ht-degree: 88%
 <tbody>
 <tr>
 <td>
-<p>이제 이메일 채널 표면을 만들 때 동적 하위 도메인 및 개인화된 헤더 매개 변수를 정의하여 이메일 설정을 보다 유연하게 제어하고 있습니다.</p>
-<p>이메일 표면 개인화는 현재 조직 세트에만 사용할 수 있습니다(제한된 가용성). 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
+<p>이제 이메일 채널 표면을 만들 때 동적 하위 도메인과 개인화된 헤더 매개 변수를 정의하여 이메일 설정을 더욱 유연하게 제어하고 있습니다.</p>
+<p>이메일 표면 개인화는 현재 조직 집합에만 사용할 수 있습니다(제한된 가용성). 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="../email/surface-personalization.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
