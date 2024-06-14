@@ -6,10 +6,10 @@ description: Journey Optimizer 초기 릴리스 정보
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
+source-git-commit: f34e7e246339371be8c19c54b9fff921177f5ace
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 25%
+source-wordcount: '454'
+ht-degree: 22%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 25%
 * 여정 전역 시간 제한이 30일에서 91일로 늘어났습니다.
 * Adobe Journey Optimizer은 이제 데이터 수명 주기 관리 요청뿐만 아니라 개인 정보 삭제/액세스 요청도 지원합니다.
 * 이제 여정 인벤토리에서 열의 크기를 조정할 수 있습니다.
-* **이벤트 구성의 고급 표현식 편집기** 이제 GA입니다. - 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 보다 복잡한 표현식을 정의하거나 이벤트 id 조건에서 함수를 사용할 수 있습니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../event/about-creating.md)
+* **이벤트 구성의 고급 표현식 편집기** 이제 GA입니다. - 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 보다 복잡한 표현식을 정의하거나 이벤트 id 조건에서 함수를 사용할 수 있습니다. 이 기능은 선택한 고객에 대해 제한된 가용성으로 릴리스됩니다. <!--[Read more](../event/about-creating.md)-->
 * **병합 정책** 이제 GA 상태임 - 여정에서 사용하는 병합 정책이 이제 여정 전체에 표시되고 일관됩니다. 이 기능은 선택한 고객에 대해 제한된 가용성으로 릴리스됩니다. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
@@ -188,7 +188,7 @@ ht-degree: 25%
 
 **인앱 채널**
 
-* **표현식 조각** - 이제 표현식 조각을 사용할 수 있습니다. **인앱 채널**. [자세히 보기](../personalization/use-expression-fragments.md)
+* **표현식 조각** - 이제 표현식 조각을 사용할 수 있습니다. **인앱 채널**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
 * 이제 Edge 게재 플러그인을 사용하여 인바운드 구현을 이해하고 문제를 해결하는 데 필요한 정보를 얻을 수 있습니다.
