@@ -4,14 +4,12 @@ product: journey optimizer
 title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 feature: Release Notes
-hide: true
-hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d27689b2b89374859a045a09bbfc41bdf70f750e
+source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 32%
+source-wordcount: '458'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +37,7 @@ ht-degree: 32%
 <tr>
 <td>
 <p>완전히 새로운 IP 주소로 이메일을 보내는 경우 이제 사용자 인터페이스에서 직접 IP 준비 워크플로우를 쉽게 수행할 수 있습니다. Adobe Journey Optimizer은 최적의 전달성을 위한 모범 사례를 따르는 IP 주소를 데워 올리는 표준화되고 효율적인 방법을 제공합니다.</p>
-<p>자세한 내용은 <a href="../configuration/ip-warmup-gs.md">세부 설명서</a>를 참조하십시오.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -152,7 +150,7 @@ ht-degree: 32%
 
 **의사 결정 관리**
 
-* **의사 결정 관리의 다중 규칙 지원** - 이제 의사 결정 관리에서 주어진 오퍼에 대해 최대 10개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping)
+* **의사 결정 관리의 다중 규칙 지원** - 이제 의사 결정 관리에서 주어진 오퍼에 대해 최대 10개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 높일 수 있습니다. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -170,7 +168,7 @@ ht-degree: 32%
 * Adobe Journey Optimizer은 이제 데이터 수명 주기 관리 요청뿐만 아니라 개인 정보 삭제/액세스 요청도 지원합니다.
 * 이제 여정 인벤토리에서 열의 크기를 조정할 수 있습니다.
 * **이벤트 구성의 고급 표현식 편집기** 이제 GA입니다. - 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 보다 복잡한 표현식을 정의하거나 이벤트 id 조건에서 함수를 사용할 수 있습니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../event/about-creating.md)
-* **병합 정책** 이제 GA 상태임 - 여정에서 사용하는 병합 정책이 이제 여정 전체에 표시되고 일관됩니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../building-journeys/journey-gs.md#merge-policies)
+* **병합 정책** 이제 GA 상태임 - 여정에서 사용하는 병합 정책이 이제 여정 전체에 표시되고 일관됩니다. 이 기능은 선택한 고객에 대해 제한된 가용성으로 릴리스됩니다. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
