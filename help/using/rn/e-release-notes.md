@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
+source-git-commit: 1804eb38c6c0ffd41aedebf612048e7aee90a54c
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '648'
 ht-degree: 24%
 
 ---
@@ -167,7 +167,7 @@ ht-degree: 24%
 **여정**
 
 * 여정 전역 시간 제한이 30일에서 91일로 늘어났습니다.
-* 이제 Adobe Journey Optimizer에서 개인 정보 삭제/액세스 요청을 지원합니다.
+* Adobe Journey Optimizer은 이제 데이터 수명 주기 관리 요청뿐만 아니라 개인 정보 삭제/액세스 요청도 지원합니다.
 * 이제 여정 인벤토리에서 열의 크기를 조정할 수 있습니다.
 * **이벤트 구성의 고급 표현식 편집기** 이제 GA입니다. - 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 보다 복잡한 표현식을 정의하거나 이벤트 id 조건에서 함수를 사용할 수 있습니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../event/about-creating.md)
 * **병합 정책** 이제 GA 상태임 - 여정에서 사용하는 병합 정책이 이제 여정 전체에 표시되고 일관됩니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../building-journeys/journey-gs.md#merge-policies)
