@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 2%
+source-wordcount: '1057'
+ht-degree: 3%
 
 ---
 
@@ -106,7 +106,6 @@ ht-degree: 2%
    * 제목 - 이 구성 요소를 사용하는 것은 다음을 사용하는 것과 비슷합니다. **[!UICONTROL 텍스트]** 이메일 디자이너의 구성 요소입니다. [자세히 알아보기](../email/content-components.md#text)
    * 단락 - 이 구성 요소를 사용하는 것은 다음을 사용하는 것과 비슷합니다. **[!UICONTROL 텍스트]** 이메일 디자이너의 구성 요소입니다. [자세히 알아보기](../email/content-components.md#text)
    * 링크
-   * [오퍼 결정](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -126,15 +125,11 @@ ht-degree: 2%
 
    ![](assets/web-designer-header-style.png)
 
-## 개인화 및 오퍼 추가
+## 개인화 추가
 
 개인화를 추가하려면 컨테이너를 선택하고 표시되는 상황별 메뉴 모음에서 개인화 아이콘을 선택합니다. 개인화 편집기를 사용하여 변경 사항을 추가합니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
-
-사용 **[!UICONTROL 오퍼 결정]** 삽입할 구성 요소 [오퍼](../offers/get-started/starting-offer-decisioning.md) 을 클릭하여 웹 페이지에 추가합니다. 프로세스는 다음과 동일합니다 [이메일에 오퍼 추가](../email/add-offers-email.md). 의사 결정 관리를 활용하여 고객에게 제공할 최상의 오퍼를 선택합니다.
-
-![](assets/web-designer-offer.png)
 
 ## 웹 디자이너 탐색 {#navigate-web-designer}
 
