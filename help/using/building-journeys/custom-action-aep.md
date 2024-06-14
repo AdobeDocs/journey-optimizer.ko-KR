@@ -7,13 +7,13 @@ feature: Journeys, Use Cases, Custom Actions
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
+source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
-
 
 # 사용 사례: 사용자 지정 작업을 사용하여 Experience Platform에 여정 이벤트 작성{#custom-action-aep}
 
@@ -36,6 +36,10 @@ ht-degree: 0%
 ```
 curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: application/x-www-form-urlencoded' -d 'grant_type=client_credentials&client_id=1234&client_secret=5678&scope=openid,AdobeID,read_organizations,additional_info.projectedProductContext,session'
 ```
+
+>[!CAUTION]
+>
+>Adobe Developer 콘솔에서 프로젝트를 만든 다음에는 적절한 권한으로 개발자 및 API 액세스 제어를 부여해야 합니다. 다음에서 자세히 알아보기 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## HTTP API Inlet을 사용하여 소스 구성
 
@@ -172,5 +176,3 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 1. 사용 사례에 따라 여정 버전 ID, 노드 ID, 노드 이름 및 기타 속성을 채웁니다.
 
    ![](assets/custom-action-aep-9.png)
-
-
