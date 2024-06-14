@@ -5,10 +5,10 @@ title: 릴리스 정보
 description: Journey Optimizer 초기 릴리스 정보
 feature: Release Notes
 topic: Content Management
-source-git-commit: 1840e32efbea7aaff50c497d6387232a4e02d2c9
+source-git-commit: 50b0a2eb8794c79d10f09dd12fd6f996402d72ea
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 26%
+source-wordcount: '434'
+ht-degree: 27%
 
 ---
 
@@ -175,9 +175,9 @@ ht-degree: 26%
 
 * 이제 Adobe Journey Optimizer에서 캠페인을 생성할 때 새 모달에서 캠페인 유형(예약됨 또는 트리거됨)을 선택할 수 있습니다.
 
-**이메일 채널**
+<!--**Email channel**
 
-* **목록 구독 취소** - 대량 발신자에 대한 최근 Gmail 및 Yahoo 공지에 따라 Journey Optimizer은 &quot;게시/1클릭&quot; 목록 구독 취소 옵션을 지원합니다. <!--Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
+* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
 
 
 **SMS 채널**
