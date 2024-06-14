@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1804eb38c6c0ffd41aedebf612048e7aee90a54c
+source-git-commit: d27689b2b89374859a045a09bbfc41bdf70f750e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 24%
+source-wordcount: '470'
+ht-degree: 32%
 
 ---
 
@@ -46,21 +46,21 @@ ht-degree: 24%
 </table>
 
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>콘텐츠 조각 사용자 지정</strong><br/></th>
+<th><strong>Content Fragments customization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 캠페인 또는 여정에 조각을 추가할 때 편집할 수 있는 조각의 특정 필드를 정의할 수 있습니다. 이를 통해 사용 시 컨텐츠 부분을 조정할 수 있으므로 컨텍스트 특정 세부 사항으로 기본값을 대체할 수 있는 유연성을 제공합니다.</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>You can now define specific fields in a fragment that can be edited when the fragment is added to a campaign or journey. This allows for the adjustment of content portions at the time of use, providing flexibility to override default values with context-specific details.</p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 
 <table>
@@ -152,17 +152,17 @@ ht-degree: 24%
 
 **의사 결정 관리**
 
-* **의사 결정 관리의 다중 규칙 지원** - 이제 의사 결정 관리에서 주어진 오퍼에 대해 최대 10개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
+* **의사 결정 관리의 다중 규칙 지원** - 이제 의사 결정 관리에서 주어진 오퍼에 대해 최대 10개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-**콘텐츠 조각**
+<!--**Content fragments**
 
-* 이제 조각을 편집할 수 있으며 변경 사항을 해당 조각이 사용되는 모든 라이브 여정 및 캠페인에 전파할 수 있습니다.
-* 콘텐츠 조각에 대한 새로운 상태가 도입되었습니다. **초안**, **라이브**, **게시**, 및 **보관됨**.
-* 여정 또는 캠페인에서 조각을 사용하려면 이제 다음 위치에 있어야 합니다 **라이브** 상태. 조각 생성 프로세스에 새 단계를 추가하여 조각을 게시하고 여정 및 캠페인에서 사용할 수 있도록 했습니다. 조각을 게시하려면 새 권한이 필요합니다.
-
-  **주의** - 이후 **초안** 및 **라이브** Journey Optimizer 6월 릴리스와 함께 상태가 도입되었으며 이 릴리스 전에 생성된 모든 조각은 **초안** 상태(여정 또는 캠페인에서 사용되더라도). 이 섹션에서 기존 조각을 업데이트하는 방법을 알아봅니다.
+* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
+* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
+* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
+   
+   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
 
 **여정**
 
