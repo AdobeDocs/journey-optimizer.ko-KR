@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 68c09769a32aeb1132f09e0f9082c7ccb6d17a8b
+source-git-commit: 0e5d1e7a7520579b1fae7898f67cb10ee3915e1c
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 71%
@@ -33,7 +33,7 @@ ht-degree: 71%
 
 **릴리스 날짜**: 2024년 6월 18~19일
 
-### 새로운 기능 {#june24-features}
+### 새로운 기능 {#june-24-features}
 
 이번 릴리스에는 아래에 있는 새로운 기능이 제공됩니다.
 
@@ -114,6 +114,7 @@ ht-degree: 71%
 <tr>
 <td>
 <p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
+<p>Multilingual content is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -130,6 +131,7 @@ ht-degree: 71%
 <tr>
 <td>
 <p>Already available in campaigns, Adobe Journey Optimizer now supports experiments in journeys. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
+<p>Experimentation in journeys is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -174,7 +176,7 @@ ht-degree: 71%
 
 **여정**
 
-* 여정 전역 시간 제한이 30일에서 91일로 늘어났습니다.
+* 여정 전역 시간 제한이 30일에서 90일로 늘어났습니다.
 * Adobe Journey Optimizer은 이제 데이터 수명 주기 관리 요청뿐만 아니라 개인 정보 삭제/액세스 요청도 지원합니다.
 * 이제 여정 인벤토리에서 열의 크기를 조정할 수 있습니다.
 * **이벤트 구성의 고급 표현식 편집기** 이제 GA입니다. - 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 보다 복잡한 표현식을 정의하거나 이벤트 id 조건에서 함수를 사용할 수 있습니다. 이 기능은 선택한 고객에 대해 제한된 가용성으로 릴리스됩니다. <!--[Read more](../event/about-creating.md)-->
