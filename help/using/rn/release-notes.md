@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0e5d1e7a7520579b1fae7898f67cb10ee3915e1c
+source-git-commit: 354c05746b6aa45356969fab9af6ffdcee6b9e66
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 71%
@@ -205,7 +205,11 @@ ht-degree: 71%
 
 * 이제 Edge 게재 플러그인을 사용하여 인바운드 구현을 이해하고 문제를 해결하는 데 필요한 정보를 얻을 수 있습니다.
 
+<!--
+**Direct mail channel**
 
+* Direct mail channel is now available for organizations that have purchased the Adobe **Healthcare Shield** and **Privacy and Security Shield** add-on offerings.
+-->
 
 ## 2024년 5월 릴리스 정보 {#may-2024}
 
