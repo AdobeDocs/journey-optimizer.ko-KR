@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 354c05746b6aa45356969fab9af6ffdcee6b9e66
+source-git-commit: d2e53b85638a7ca5defcbe67aff6e19bc029f9a0
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 71%
+source-wordcount: '1321'
+ht-degree: 62%
 
 ---
 
@@ -162,17 +162,21 @@ ht-degree: 71%
 
 **의사 결정 관리**
 
-* **의사 결정 관리의 다중 규칙 지원** - 이제 의사 결정 관리에서 주어진 오퍼에 대해 최대 10개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping)
+* **의사 결정 관리의 다중 규칙 지원** - 이제 의사 결정 관리에서 주어진 오퍼에 대해 최대 10개의 최대 가용량 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-<!--**Content fragments**
+**콘텐츠 조각**
 
-* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
-* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
-* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
-   
-   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
+>[!AVAILABILITY]
+>
+>이러한 개선 사항은 초기 릴리스 이후 며칠 동안 점진적으로 출시될 예정입니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기 전에 지연이 발생할 수 있습니다.
+
+* 이제 조각을 편집할 수 있으며 변경 사항을 해당 조각이 사용되는 모든 라이브 여정 및 캠페인에 전파할 수 있습니다.
+* 콘텐츠 조각에 대한 새로운 상태가 도입되었습니다. **초안**, **라이브**, **게시**, 및 **보관됨**.
+* 여정 또는 캠페인에서 조각을 사용하려면 이제 다음 위치에 있어야 합니다 **라이브** 상태. 조각 생성 프로세스에 새 단계를 추가하여 조각을 게시하고 여정 및 캠페인에서 사용할 수 있도록 했습니다. 조각을 게시하려면 새 권한이 필요합니다.
+
+  **주의** - 이후 **초안** 및 **라이브** Journey Optimizer 6월 릴리스와 함께 상태가 도입되었으며 이 릴리스 전에 생성된 모든 조각은 **초안** 상태(여정 또는 캠페인에서 사용되더라도). 이 섹션에서 기존 조각을 업데이트하는 방법을 알아봅니다.
 
 **여정**
 
