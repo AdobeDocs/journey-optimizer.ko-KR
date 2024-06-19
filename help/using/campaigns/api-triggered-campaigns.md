@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1005'
 ht-degree: 2%
 
 ---
@@ -59,6 +59,10 @@ API 트리거 캠페인을 만들려면 아래 단계를 따르십시오. 캠페
 1. 다음에서 **[!UICONTROL 대상자]** 섹션에서 개인을 식별하는 데 사용할 네임스페이스를 지정합니다.
 
    * 다음을 만드는 경우 **트랜잭션**-type campaign을 사용하면 API 호출에서 타겟팅된 프로필을 정의해야 합니다. 다음 **[!UICONTROL 새 프로필 만들기]** 옵션을 사용하면 데이터베이스에 없는 프로필을 자동으로 만들 수 있습니다. [캠페인 실행 시 프로필 만들기에 대해 자세히 알아보기](#profile-creation)
+
+     >[!NOTE]
+     >
+     >단일 API 호출은 최대 20개의 고유 수신자를 지원합니다. 각 수신자는 고유한 사용자 ID를 가져야 하며, 중복된 사용자 ID는 허용되지 않습니다. 다음에서 자세히 알아보기 [대화형 메시지 실행 API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
 
    * 대상 **마케팅**-type campaigns, 클릭 **[!UICONTROL 대상자]** 타깃팅할 대상을 선택하는 단추입니다.
 
