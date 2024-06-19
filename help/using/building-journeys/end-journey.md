@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 여정을 수동으로 닫으면 여정에 이미 입력한 고객이 경로를 완료할 수 있지만 새 사용자가 여정을 입력할 수 없게 됩니다. 여정이 닫히면 (위의 경우) 상태가 됩니다 **[!UICONTROL 종료됨]**. 이 여정은 새로운 개인이 여정에 입력하는 것을 중단합니다. 이미 여정에 있는 사람은 여정을 정상적으로 완료할 수 있습니다.
 
-30일 후 대상자 읽기 여정이 **완료됨** 상태. 이 동작은 여정에 입력한 프로필에 대한 모든 정보가 입력한 후 30일 후에 제거되므로 30일 동안만(즉, 여정 시간 초과 기본값) 설정됩니다. 아직 여정에 있는 사람은 자동으로 영향을 받습니다. 30일 제한 시간이 지나면 여정을 종료합니다.
+91일 후 [기본 시간 초과](journey-gs.md#global_timeout), 대상자 읽기 여정이 **완료됨** 상태. 이 동작은 91일 동안만 설정됩니다 (즉, [여정 시간 초과 기본값](journey-gs.md#global_timeout))를 입력하여 여정에 입력한 프로필에 대한 모든 정보가 입력한 후 91일 후에 제거됩니다. 아직 여정에 있는 사람은 자동으로 영향을 받습니다. 91일 제한 시간이 지나면 여정을 종료합니다.
 
 이 [섹션](../building-journeys/journey-gs.md#global_timeout)을 참조하세요.
 

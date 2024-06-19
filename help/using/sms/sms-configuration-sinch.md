@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 4%
+source-wordcount: '584'
+ht-degree: 3%
 
 ---
 
@@ -51,6 +51,8 @@ Journey Optimizer에서 SMS 메시지 및 MMS를 전송하도록 Sinch 공급자
    * **[!UICONTROL 이중 옵트인 키워드]**: 이중 옵트인 프로세스를 트리거하는 키워드를 입력합니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. [SMS 이중 옵트인에 대해 자세히 알아보기](https://video.tv.adobe.com/v/3427129/?learn=on).
 
    * **[!UICONTROL 이중 옵트인 메시지]**: 이중 옵트인 확인에 응답하여 자동으로 전송되는 사용자 지정 응답을 입력합니다.
+
+   * **[!UICONTROL 인바운드 번호]**: 고유 인바운드 번호를 추가합니다. 이를 통해 서로 다른 샌드박스에서 동일한 API 자격 증명을 사용할 수 있으며, 각 샌드박스는 고유한 인바운드 번호를 가지고 있습니다.
 
 1. 클릭 **[!UICONTROL 제출]** api 자격 증명 구성을 완료한 경우입니다.
 

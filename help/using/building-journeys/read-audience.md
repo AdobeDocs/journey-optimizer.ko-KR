@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->일회성 읽기 대상 여정은 여정 실행 후 30일 후에 완료됨 상태로 이동합니다. 예약된 읽기 대상의 경우 마지막 항목이 실행된 후 30일이 경과해야 합니다.
+>일회성 읽기 대상 여정이 다음으로 이동 **완료됨** 상태 91일 ([기본 시간 초과](journey-gs.md#global_timeout))를 클릭하여 여정을 실행하십시오. 예약된 읽기 대상의 경우 마지막 항목이 실행된 후 91일이 경과해야 합니다.
 
 ## 여정 테스트 및 게시 {#testing-publishing}
 
@@ -178,7 +178,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ![](assets/read-segment-audience2.png)
 
-**합집합**
+**결합**
 
 여정을 사용하면 N개의 분기를 만들고 세그멘테이션 후 서로 연결할 수 있습니다.
 

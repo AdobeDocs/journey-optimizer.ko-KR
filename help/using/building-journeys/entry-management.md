@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '682'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 * 재입력이 비활성화된 경우 프로필은 글로벌 여정 시간 제한 기간 내에 동일한 여정을 여러 번 입력할 수 없습니다. 이 [섹션](../building-journeys/journey-gs.md#global_timeout)을 참조하세요.
 
-기본적으로 여정은 다시 입력할 수 있습니다. 다음의 경우 **재등록 허용** 옵션이 활성화되고 **재등록 대기 기간** 필드가 표시됩니다. 프로필에서 여정을 다시 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 29일입니다.
+기본적으로 여정은 다시 입력할 수 있습니다. 다음의 경우 **재등록 허용** 옵션이 활성화되고 **재등록 대기 기간** 필드가 표시됩니다. 프로필에서 여정을 다시 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 91일([기본 시간 초과](journey-gs.md#global_timeout)).
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. [Learn more](journey-gs.md#entrance)
@@ -49,7 +49,7 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 재입장 기간이 지나면 프로필이 여정에 재입장할 수 있다. 이를 방지하고 이러한 프로필에 대한 재입력을 완전히 비활성화하려면 프로필 또는 대상 데이터를 사용하여 프로필이 이미 입력되었는지 여부를 테스트하는 조건을 추가할 수 있습니다.
 
 <!--
-Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
+Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
 ## 비즈니스 여정{#entry-business}
 
@@ -90,5 +90,5 @@ Business events follow re-entrance rules in the same way as for unitary events. 
 자세한 내용은 다음을 참조하십시오. [섹션](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 <!--
-After 30 days, a Read audience journey switches to the **Finished** status. This behavior is set for 30 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 30 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
+After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
 -->

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
+source-git-commit: f24d638711c9fd755dad1553fcbfa82810eaaab6
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 23%
@@ -22,7 +22,7 @@ ht-degree: 23%
 >id="ajo_admin_subdomainname"
 >title="하위 도메인 위임"
 >abstract="Journey Optimizer를 통해 하위 도메인을 Adobe에 위임할 수 있습니다. 하위 도메인을 Adobe에 완전히 위임할 수 있으며 이는 권장 메서드입니다. Adobe의 특정 레코드를 가리키도록 CNAME을 사용하여 하위 도메인을 만들 수도 있지만 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지하고 관리해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation.html?lang=ko-KR#subdomain-delegation-methods" text="하위 도메인 구성 메서드"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="하위 도메인 구성 메서드"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"

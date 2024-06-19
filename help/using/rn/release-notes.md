@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d2e53b85638a7ca5defcbe67aff6e19bc029f9a0
+source-git-commit: fc7675e4d9a16fa932f27e28bf7e4f6da03a198e
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 92%
+source-wordcount: '716'
+ht-degree: 60%
 
 ---
 
@@ -37,21 +37,21 @@ ht-degree: 92%
 
 이번 릴리스에는 아래에 있는 새로운 기능이 제공됩니다.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>IP 준비 워크플로</strong><br/></th>
+<th><strong>IP Warmup Workflow</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>완전히 새로운 IP 주소로 이메일을 보내는 경우 이제 사용자 인터페이스에서 직접 IP 준비 워크플로를 쉽게 수행할 수 있습니다. Adobe Journey Optimizer는 최적의 전달성을 위한 모범 사례에 따라 IP 주소를 준비하는 표준화되고 효율적인 방법을 제공합니다.</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <!--<table>
@@ -71,6 +71,24 @@ ht-degree: 92%
 </table>-->
 
 
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Customer Journey Analytics을 사용한 보고(베타)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성 및 안정성을 개선합니다. Journey Optimizer과 Customer Journey Analytics 간의 이러한 원활한 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으므로 사용자가 보다 정보에 입각한 결정을 내릴 수 있습니다.</p>
+<p>자세한 내용은 <a href="../reports/report-gs-cja.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 <table>
 <thead>
 <tr>
@@ -87,27 +105,10 @@ ht-degree: 92%
 </tbody>
 </table>
 
-
 <!--table>
 <thead>
 <tr>
-<th><strong>Reporting with Customer Journey Analytics (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer reporting is now fully integrated with Customer Journey Analytics capabilities, standardizing reporting across both platforms and improving data consistency and reliability. This seamless integration between Journey Optimizer and Customer Journey Analytics provides a clearer view of performance metrics, enabling users to make more informed decisions.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Multilingual messages in journeys and campaigns  (Limited Availability)</strong><br/></th>
+<th><strong>Multilingual messages in journeys and campaigns (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -178,19 +179,25 @@ ht-degree: 92%
 
   **주의** - **초안** 및 **라이브** 상태는 Journey Optimizer 6월 릴리스에서 도입되었으므로 이 릴리스 이전에 만든 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 기존 조각을 업데이트하는 방법은 이 섹션을 참조하십시오.
 
+자세한 내용 [컨텐츠 조각](../content-management/fragments.md) 설명서를 참조하십시오.
+
 **여정**
 
-* 여정 전역 시간 제한이 30일에서 90일로 늘어났습니다.
-* Adobe Journey Optimizer가 이제 데이터 수명 주기 관리 요청뿐만 아니라 개인 정보 삭제/액세스 요청도 지원합니다.
+* 여정의 전역 시간 제한이 91일로 연장되었습니다. [자세히 보기](../building-journeys/journey-gs.md#global_timeout)
+
+  새로 만든 모든 여정에 이 새 시간 초과가 반영됩니다. 이 내용을 참조하시기 바랍니다 [FAQ 섹션](../building-journeys/journey-gs.md#timeout-faq) 자세히 알아보십시오. 이러한 변경 사항은 6월 한 달 동안 점진적으로 적용될 예정입니다.
+
+
+* Adobe Journey Optimizer은 이제 데이터 수명 주기 관리 요청뿐만 아니라 개인 정보 삭제/액세스 요청도 지원합니다. [자세히 보기](../privacy/requests.md)
 * 이제 여정 인벤토리에서 열의 크기를 조정할 수 있습니다.
-* **이벤트 구성의 고급 표현식 편집기** GA 변경 - 이제 이벤트를 구성할 때 고급 표현식 편집기를 활용하여 이벤트 ID 조건에 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. 이 기능은 선택한 고객에 대해 제한된 가용성으로 릴리스됩니다. <!--[Read more](../event/about-creating.md)-->
-* **병합 정책** GA 변경 - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. 이 기능은 선택한 고객에 대해 제한된 가용성으로 릴리스됩니다. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+  <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
+* **병합 정책** GA 변경 - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. [자세히 보기](../building-journeys/journey-gs.md#merge-policies)
 
 
 
 **캠페인**
 
-* 이제 Adobe Journey Optimizer에서 캠페인을 만들 때 새로운 모달에서 캠페인 유형(예약됨 또는 트리거됨)을 선택할 수 있습니다.
+* 이제 Adobe Journey Optimizer에서 캠페인을 생성할 때 새 모달에서 캠페인 유형(예약됨 또는 트리거됨)을 선택할 수 있습니다. [자세히 보기](../campaigns/create-campaign.md)
 
 <!--**Email channel**
 
@@ -199,169 +206,19 @@ ht-degree: 92%
 
 **SMS 채널**
 
-* 이제 한 번의 API 구성으로 각 샌드박스마다 고유한 짧은 코드를 추가할 수 있어 프로세스가 보다 효율적이고 간소화됩니다.
-  <!--* You can now modify existing SMS configurations.-->
+* 이제 단일 API 구성을 통해 각 샌드박스에 고유한 짧은 코드를 추가할 수 있으므로 프로세스가 보다 효율적이고 간소화됩니다. [자세히 알아보기](../sms/sms-configuration.md)
+
+* 생성 후 **API 토큰** 의 필드 **API 자격 증명 세부 정보** 이제 페이지가 마스킹됩니다.
+
+<!--* You can now modify existing SMS configurations.-->
 
 **인앱 채널**
 
-* **표현식 조각** - 이제 표현식 조각을 사용할 수 있습니다. **인앱 채널**. <!--[Read more](../personalization/use-expression-fragments.md)-->
+<!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
+
+* 이제 Edge 게재 플러그인을 사용하여 인바운드 구현을 이해하고 문제를 해결하는 데 필요한 정보를 얻을 수 있습니다. [Edge 게재 보기에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
-* 이제 Edge Delivery 플러그인을 사용하여 인바운드 구현을 이해하고 문제를 해결하는 데 필요한 정보를 얻을 수 있습니다.
+**DM 채널**
 
-<!--
-**Direct mail channel**
-
-* Direct mail channel is now available for organizations that have purchased the Adobe **Healthcare Shield** and **Privacy and Security Shield** add-on offerings.
--->
-
-## 2024년 5월 릴리스 정보 {#may-2024}
-
-**릴리스 날짜**: 2024년 5월 21~22일
-
-### 새로운 기능 {#e-features}
-
-이번 릴리스에는 아래에 있는 새로운 기능이 제공됩니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>Experience Decisioning - 제한된 가용성</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Experience Decisioning은 '의사 결정 항목'으로 알려진 마케팅 의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.</p>
-<p>이러한 의사 결정 항목은 이제 Journey Optimizer 캠페인에서 액세스할 수 있는 새로운 코드 기반 경험 채널을 통해 광범위한 인바운드 표면에 원활하게 통합됩니다. 경험 결정 의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.</p>
-<p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<img src="assets/do-not-localize/gif-exd.gif"/>
-<p>자세한 내용은 <a href="../experience-decisioning/gs-experience-decisioning.md">세부 설명서</a>를 참조하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>이메일 표면 개인화 - 제한된 가용성</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 이메일 채널 표면을 만들 때 동적 하위 도메인과 개인화된 헤더 매개 변수를 정의하여 이메일 설정을 더욱 유연하게 제어하고 있습니다.</p>
-<p>이메일 표면 개인화는 현재 조직 집합에만 사용할 수 있습니다(제한된 가용성). 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../email/surface-personalization.md">세부 설명서</a>를 참조하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>IP Warmup Workflow</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Business rules - Beta</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create granular frequency capping rules, and apply them to different types of marketing communications through rule sets. This new capability lets you control how often your audiences receive a message by setting cross-channel rules, that automatically exclude over-solicited profiles from messages and actions.</p>
-<p>Business rules capability is currently available as a beta. To join the beta program, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Extended personalization data - Beta</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now lookup and fetch data values within Adobe Experience Platform datasets, and use these values to build conditions in Adobe Journey Optimizer. You can leverage data from a lookup dataset when a relationship has been defined using an attribute inside of an array of objects. You can specify non-profile enabled datasets for lookup. Once enabled, you can use a profile attribute as a join key to the specified dataset to retrive further data for personalization.</p>
-<p>This capability is currently available as a public beta.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-### 개선 사항 {#e-improvements}
-
-이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
-
-**경험 결정**(제한된 가용성)
-
-Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습니다.
-
-* **경험 결정+코드 기반 경험(LA)**: 이제 경험 결정 기능을 활용하여 코드 기반 캠페인에서 의사 결정 항목을 사용할 수 있습니다. 참고: Adobe Healthcare Shield 및 Privacy and Security Shield 추가 기능을 구매한 조직에서는 코드 기반 경험 채널 및 경험 결정을 사용할 수 없습니다. [자세히 보기](../code-based/get-started-code-based.md)
-* **컨텍스트 데이터** - 이제 의사 결정 규칙 및 등급 수식에서 Adobe Experience Platform의 컨텍스트 데이터를 활용할 수 있습니다. [자세히 보기](../experience-decisioning/context-data.md)
-* **새로운 권한** - 이제 의사 결정 관리 리소스에 대해 새로운 ‘경험 결정 관리’ 권한을 사용할 수 있습니다. 이를 통해 경험 결정과 관련된 권한을 관리할 수 있습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md)
-* **캡핑 규칙** - 이제 경험 결정에서 지정된 의사 결정 항목에 대해 여러 개의 캡핑 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping)
-* **보고** - 이제 [!DNL Customer Journey Analytics]를 사용하여 경험 결정 캠페인의 사용자 정의 보고 대시보드를 만들 수 있습니다. [자세히 보기](../experience-decisioning/cja-reporting.md)
-
-
-<!--**Decision Management**
-
-* **Multi-rule support** - You can now add up to 10 capping rules for a given offer in Decision Management. This allows you to increase the level of control over the way offers are sent.
-* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
-
-
-**이메일 채널**
-
-<!--
-* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)
--->
-
-* **스팸 점수**(Beta) - 이제 전용 스팸 보고서에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 또는 사서함 공급자가 이를 스팸으로 간주할지 여부를 나타내는 점수를 매길 수 있습니다. [자세히 보기](../content-management/spam-report.md)
-
-  >[!AVAILABILITY]
-  >
-  >이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.
-
-<!--
-**Audiences**
-
-* The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.-->
-
-<!--**Personalization**
-
-* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
-
-**여정**
-
-<!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
-* **mTLS 지원** - 이제 사용자 정의 작업에 mTLS 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 보기](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **이벤트의 조회 테이블** - 이제 개체 배열 내의 속성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값을 여정(조건, 사용자 정의 작업 등) 및 메시지 개인화에 사용할 수 있습니다. [자세히 보기](../event/experience-event-schema.md#relationships_limitations)
-* **이벤트 구성의 고급 표현식 편집기**(LA) - 이제 이벤트를 구성할 때 고급 표현식 편집기를 활용하여 이벤트 ID 조건에 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../event/about-creating.md)
-* **병합 정책**(LA) - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../building-journeys/journey-gs.md#merge-policies)
-
-**세계화**
-
-통일성 있는 사용자 경험을 제공하기 위한 지속적인 노력의 일환으로 Adobe Experience Cloud 제품 및 앱에서 사용되는 용어를 서로 맞추는 작업을 합니다. 이에 따라 독일어 서비스에서 “Titel”이라는 용어가 개체와 관련된 상황의 경우 “Label”로 변경됩니다. 이 변경 사항은 UI 및 설명서에 점진적으로 적용됩니다.
-
-
-
+* 이제 Adobe을 구입한 조직에 대해 DM 채널을 사용할 수 있습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.

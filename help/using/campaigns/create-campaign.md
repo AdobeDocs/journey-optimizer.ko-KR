@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: c58fda6a59daae7a404058609bce01623064f9fb
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 33%
+source-wordcount: '925'
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 33%
 
 새 캠페인을 만들려면 **[!UICONTROL 캠페인]** 메뉴를 선택한 다음 **[!UICONTROL 캠페인 만들기]**. 기존 라이브 캠페인을 복제하여 새 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate)
 
-## 캠페인 유형 및 채널 선택 {#campaigntype}
+## 캠페인 유형 선택 {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -39,25 +39,13 @@ ht-degree: 33%
 >title="캠페인 범주"
 >abstract="예약된 캠페인을 생성하면 **마케팅** 유형이 자동으로 선택됩니다. API로 트리거되는 캠페인의 경우 **마케팅** 메시지(사용자 동의가 필요한 프로모션 메시지)를 보낼 것인지 또는 **트랜잭션** 메시지(특정 상황에서 구독하지 않은 프로필에도 보낼 수 있는 비상업적 메시지)를 보낼 것인지 선택하십시오."
 
-1. 다음에서 **[!UICONTROL 속성]** 섹션에서 캠페인을 실행할 방법을 지정합니다. 두 가지 유형의 캠페인을 사용할 수 있습니다.
+1. 실행할 캠페인 유형 선택
 
-   * **[!UICONTROL 예약됨]**: 캠페인을 즉시 또는 지정된 날짜에 실행합니다. 예약된 캠페인은 전송을 목표로 합니다. **마케팅** 메시지. 사용자 인터페이스에서 구성 및 실행됩니다.
+   * **[!UICONTROL 예약됨 - 마케팅]**: 캠페인을 즉시 또는 지정된 날짜에 실행합니다. 예약된 캠페인은 전송을 목표로 합니다. **마케팅** 메시지. 사용자 인터페이스에서 구성 및 실행됩니다.
 
-   * **[!UICONTROL API 트리거됨]**: API 호출을 사용하여 캠페인을 실행합니다. API 트리거 캠페인은 다음 중 하나를 전송하는 것을 목표로 합니다. **마케팅**, 또는 **트랜잭션** 메시지 (예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 전송된 메시지) [API를 사용하여 캠페인을 트리거하는 방법 알아보기](api-triggered-campaigns.md)
+   * **[!UICONTROL API 트리거됨 - 마케팅/트랜잭션]**: API 호출을 사용하여 캠페인을 실행합니다. API 트리거 캠페인은 다음 중 하나를 전송하는 것을 목표로 합니다. **마케팅**, 또는 **트랜잭션** 메시지 (예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 전송된 메시지) [API를 사용하여 캠페인을 트리거하는 방법 알아보기](api-triggered-campaigns.md)
 
-1. 예약된 캠페인을 생성하면 **마케팅** 유형이 자동으로 선택됩니다. API 트리거 캠페인의 경우 다음을 전송할지 여부를 선택합니다. **마케팅** 또는 **트랜잭션** 메시지.&quot;
-
-1. 다음에서 **[!UICONTROL 작업]** 섹션에서 메시지를 보내는 데 사용할 채널과 채널 표면을 선택합니다.
-
-   표면은 [시스템 관리자](../start/path/administrator.md)에 의해 정의된 구성입니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md).
-
-   마케팅 캠페인 유형과 호환되는 채널 표면만 드롭다운 목록에 나열됩니다.
-
-   ![](assets/create-campaign-action.png)
-
-   >[!NOTE]
-   >
-   >푸시 알림 캠페인을 만드는 경우 **[!UICONTROL 빠른 전송 모드]**: 대량으로 매우 빠른 푸시 메시지 전송을 허용하는 Journey Optimizer 추가 기능입니다. [자세히 알아보기](../push/create-push.md#rapid-delivery)
+   ![](assets/create-campaign-modal.png)
 
 1. 클릭 **[!UICONTROL 만들기]** 캠페인을 만들기 위해 사용됩니다.
 
@@ -71,13 +59,41 @@ ht-degree: 33%
 
 1. 사용자 지정 또는 핵심 데이터 사용 레이블을 캠페인에 할당하려면 **[!UICONTROL 액세스 관리]** 단추를 클릭합니다. [OLA(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md)
 
+## 캠페인 대상자 정의 {#audience}
+
+캠페인으로 타겟팅된 모집단을 정의하고 다음 단계를 수행합니다.
+
+>[!IMPORTANT]
+>
+>의 대상자 및 속성 사용 [대상자 구성](../audience/get-started-audience-orchestration.md) 및 [사용자 지정 업로드 (CSV 파일) 대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 는 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
+>
+>API 트리거 캠페인의 경우, API 호출을 통해 대상자를 설정해야 합니다.
+
+1. 다음에서 **대상자** 섹션에서 **[!UICONTROL 대상자 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 대상 목록을 표시합니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)
+
+1. 다음에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다.
+
+   다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타깃팅되지 않습니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
+
+   ![](assets/create-campaign-namespace.png)
+
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
 ## 메시지 만들기 및 추적 구성 {#content}
 
-다음에서 **[!UICONTROL 작업]** 섹션, 캠페인과 함께 보낼 메시지를 만듭니다.
+1. 다음에서 **[!UICONTROL 작업]** 섹션에서 메시지를 보내는 데 사용할 채널 및 표면을 선택합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 편집]** 단추를 클릭한 다음 메시지 콘텐츠를 만들고 디자인합니다.
+   표면은 [시스템 관리자](../start/path/administrator.md)에 의해 정의된 구성입니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md).
 
-   다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
+   마케팅 캠페인 유형과 호환되는 채널 표면만 드롭다운 목록에 나열됩니다.
+
+   ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >푸시 알림 캠페인을 만드는 경우 **[!UICONTROL 빠른 전송 모드]**: 대량으로 매우 빠른 푸시 메시지 전송을 허용하는 Journey Optimizer 추가 기능입니다. [자세히 알아보기](../push/create-push.md#rapid-delivery)
+
+1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 메시지를 만들고 디자인합니다. 다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -119,24 +135,6 @@ ht-degree: 33%
 1. 다음에서 **[!UICONTROL 작업 추적]** 섹션, 수신자가 게재에 반응하는 방식을 추적할지 여부를 지정합니다. 클릭 및/또는 열기를 추적할 수 있습니다.
 
    캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../reports/campaign-global-report.md)
-
-## 대상자 정의 {#audience}
-
-다음을 클릭합니다. **[!UICONTROL 대상자 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 대상 목록을 표시합니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)
-
->[!IMPORTANT]
->
->의 대상자 및 속성 사용 [대상자 구성](../audience/get-started-audience-orchestration.md) 및 [사용자 지정 업로드 (CSV 파일) 대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 는 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
->
->API 트리거 캠페인의 경우, API 호출을 통해 대상자를 설정해야 합니다.
-
-다음에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다.
-
-다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타깃팅되지 않습니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
-
-![](assets/create-campaign-namespace.png)
-
-<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## 캠페인 예약 {#schedule}
 

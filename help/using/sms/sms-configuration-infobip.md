@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '382'
 ht-degree: 5%
 
 ---
@@ -51,6 +51,8 @@ Journey Optimizer을 사용하여 Infobip을 구성하려면 다음 단계를 �
    * **[!UICONTROL 유효 기간]**: 메시지 유효 기간을 시간 단위로 입력합니다. 이 기간 내에 메시지를 게재할 수 없는 경우 시스템에서 다시 전송을 시도합니다. 기본 유효 기간은 48시간으로 설정됩니다.
 
    * **[!UICONTROL 콜백 데이터]**: 알림 URL에 전송할 추가 클라이언트 데이터를 입력합니다.
+
+   * **[!UICONTROL 인바운드 번호]**: 고유 인바운드 번호를 추가합니다. 이를 통해 서로 다른 샌드박스에서 동일한 API 자격 증명을 사용할 수 있으며, 각 샌드박스는 고유한 인바운드 번호를 가지고 있습니다.
 
 1. 클릭 **[!UICONTROL 제출]** api 자격 증명 구성을 완료한 경우입니다.
 

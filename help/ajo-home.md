@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
-workflow-type: ht
-source-wordcount: '354'
-ht-degree: 100%
+source-git-commit: 6b9044117dcdd7554dea0c5f791a6dcfb0218010
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 83%
 
 ---
 
@@ -20,27 +20,29 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB 5월 릴리스가 공개되었습니다!]
+>[!TAB 6월 릴리스 예정일]
 
 Adobe Journey Optimizer 5월 릴리스의 새로운 기능과 개선 사항을 살펴보십시오.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 경험 결정]
+>[!TAB Customer Journey Analytics을 사용한 보고(베타)]
 
-경험 결정은 ‘의사 결정 항목’이라는 중앙 집중형 마케팅 오퍼 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화 작업을 간소화합니다. 
+이제 Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성 및 안정성을 개선합니다.
 
-![](using/rn/assets/do-not-localize/gif-exd.gif)
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
+>[!TAB AI Assistant]
 
->[!TAB 새로운 여정 경험]
+AI Assistant는 Adobe 개념을 탐색 및 이해하고 특정 환경에 대한 운영 통찰력을 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다.
 
-이번 릴리스는 여정을 위한 캔버스 사용자 인터페이스가 개선되어 보다 직관적이고 효율적인 사용자 경험을 제공합니다. 활동은 더 적은 클릭 수로 여정 캔버스에 더 명확하고 많은 정보를 제공합니다.
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
-![](using/rn/assets/new-canvas3.gif)
+>[!TAB 콘텐츠 조각]
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
+이제 조각을 편집할 수 있으며 변경 사항을 해당 조각이 사용되는 모든 라이브 여정 및 캠페인에 전파할 수 있습니다.
+
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
 
 >[!ENDTABS]
 

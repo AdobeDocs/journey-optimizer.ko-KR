@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
-workflow-type: ht
-source-wordcount: '1817'
-ht-degree: 100%
+source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+workflow-type: tm+mt
+source-wordcount: '1843'
+ht-degree: 99%
 
 ---
 
@@ -380,6 +380,14 @@ ht-degree: 100%
    + [경고](using/reports/alerts.md)
    + [Customer Journey Analytics 작업](using/reports/cja-ajo.md)
    + [제외 이유](using/reports/exclusion-list.md)
++ 새 보고 인터페이스(베타){#channel-report}
+   + [새 보고 인터페이스 시작](using/reports/report-gs-cja.md)
+   + [보고서 관리](using/reports/report-cja-manage.md)
+   + [여정 보고서](using/reports/journey-global-report-cja.md)
+   + [캠페인 보고서](using/reports/campaign-global-report-cja.md)
+   + [개요 보고서](using/reports/channel-report-cja.md)
+   + [랜딩 페이지 보고서](using/reports/lp-report-global-cja.md)
+   + [구독 목록 보고서](using/reports/subscription-report-global-cja.md)
 + 의사 결정 {#decisioning}
    + 의사 결정 관리 {#offer-decisioning}
       + 의사 결정 관리 시작 {#get-started-decision}

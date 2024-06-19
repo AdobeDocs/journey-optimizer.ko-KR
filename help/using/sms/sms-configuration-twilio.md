@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 5%
+source-wordcount: '176'
+ht-degree: 4%
 
 ---
 
@@ -29,6 +29,8 @@ Journey Optimizer으로 Twilio를 구성하려면 Twilio에 사용되는 새 API
    * **[!UICONTROL 계정 SID]** 및 **[!UICONTROL 인증 토큰]**: 액세스 **계정 정보** 자격 증명을 찾을 수 있는 Twilio 콘솔 대시보드 페이지의 창입니다.
 
    * **[!UICONTROL 메시지 SID]**: Twilio의 API에서 만든 모든 메시지에 할당된 고유 식별자를 입력합니다. 다음에서 자세히 알아보기 [Twilio 설명서](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+
+   * **[!UICONTROL 인바운드 번호]**: 고유 인바운드 번호를 추가합니다. 이를 통해 서로 다른 샌드박스에서 동일한 API 자격 증명을 사용할 수 있으며, 각 샌드박스는 고유한 인바운드 번호를 가지고 있습니다.
 
 1. 클릭 **[!UICONTROL 제출]** api 자격 증명 구성을 완료한 경우입니다.
 

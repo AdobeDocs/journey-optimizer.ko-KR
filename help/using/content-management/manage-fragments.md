@@ -8,70 +8,97 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 16c079bbb4c6847720716bcbaf1937d1c401aeae
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 2%
+source-wordcount: '968'
+ht-degree: 1%
 
 ---
 
 # 조각 관리 {#manage-fragments}
+
+조각을 관리하려면 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴.
+
+현재 샌드박스에서 생성된 모든 조각 - 다음 중 하나 [다음에서 **[!UICONTROL 조각]** 메뉴](#create-fragments), 다음 중 하나를 사용하여 [조각으로 저장](#save-as-fragment) option - 이 표시됩니다.
+
+![](assets/fragment-list-filters.png)
+
+조각에서 조각을 필터링할 수 있습니다.
+
+* 상태(초안 또는 라이브)
+* 유형(시각적 또는 표현식)
+* 생성 또는 수정 날짜
+* 상태(보관 여부)
+* 태그
+
+모든 조각을 표시하도록 선택하거나 현재 사용자가 만들거나 수정한 항목만 표시하도록 선택할 수도 있습니다.
+
+다음에서 **[!UICONTROL 추가 작업]** 각 조각 옆에 있는 버튼을 사용하여 다음을 수행할 수 있습니다.
+
+* 조각을 복제합니다.
+* 사용 **[!UICONTROL 참조 탐색]** 옵션을 사용하여 여정, 캠페인 또는 템플릿이 사용되는 위치를 확인합니다. [자세히 알아보기](#explore-references)
+* 조각 보관 [자세히 알아보기](#archive-fragments)
+* 조각의 태그 편집 [통합 태그를 사용한 작업 방법 알아보기](../start/search-filter-categorize.md#tags).
+
+![](assets/fragment-list-more-actions.png)
+
+## 조각 상태
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="새 조각 상태"
 >abstract="다음 이후 **초안** 및 **라이브** Journey Optimizer 6월 릴리스와 함께 상태가 도입되었습니다. 이 릴리스 전에 생성된 모든 조각은 여정 또는 캠페인에서 사용되더라도 &quot;초안&quot; 상태를 갖습니다. 이러한 조각을 변경하는 경우 해당 조각을 &quot;라이브&quot;로 만들고 관련 캠페인 및 여정에 변경 사항을 전파하도록 게시해야 합니다. 또한 새 여정/캠페인 버전을 만들고 게시해야 합니다. 게시하려면 사용자 권한이 필요합니다."
 
-조각을 관리하려면 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴.
+>[!AVAILABILITY]
+>
+> 조각 상태가 Journey Optimizer 6월 릴리스 이후 며칠 동안 점진적으로 롤아웃되고 있습니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기 전에 지연이 발생할 수 있습니다. 사용자 환경에서 이 개선 사항을 아직 사용할 수 없는 경우 조각은 다음이 필요하지 않습니다. **라이브** 여정 및 캠페인에 사용할 수 있습니다.
 
-![](assets/fragment-list.png)
+조각에는 여러 상태가 있을 수 있습니다.
 
-현재 샌드박스에서 생성된 모든 조각 - 다음 중 하나 [다음에서 **[!UICONTROL 조각]** 메뉴](#create-fragments), 다음 중 하나를 사용하여 [조각으로 저장](#save-as-fragment) option - 이 표시됩니다.
+* **[!UICONTROL 초안]**: 조각이 편집 중이며 승인되지 않았습니다.
 
-조각에서 조각을 필터링할 수 있습니다.
+* **[!UICONTROL 라이브]**: 조각이 승인되었으며 라이브 상태입니다. [조각 게시 방법 알아보기](../content-management/create-fragments.md#publish)
 
-* 유형: **[!UICONTROL 비주얼]** 또는 **[!UICONTROL 표현식]**
-* 태그
-* 생성 또는 수정 날짜
+  라이브 조각을 편집하는 동안 상태 옆에 특정 아이콘이 표시됩니다. 조각의 초안 버전을 열려면 이 아이콘을 클릭하십시오.
 
-모든 조각을 표시하도록 선택하거나 현재 사용자가 만들거나 수정한 항목만 표시하도록 선택할 수 있습니다.
+* **[!UICONTROL 게시]**: 조각이 승인되어 게시 중입니다.
+* **[!UICONTROL 보관됨]**: 조각이 보관되었습니다. [조각을 보관하는 방법 알아보기](#archive-fragments)
 
-다음을 표시할 수도 있습니다 **[!UICONTROL 보관됨]** 조각. [자세히 알아보기](#archive-fragments)
-
-![](assets/fragment-list-filters.png)
-
-다음에서 **[!UICONTROL 추가 작업]** 각 조각 옆에 있는 버튼을 사용하여 다음을 수행할 수 있습니다.
-
-* 조각을 복제합니다.
-
-* 사용 **[!UICONTROL 참조 탐색]** 옵션을 사용하여 여정, 캠페인 또는 템플릿이 사용되는 위치를 확인합니다. [자세히 알아보기](#explore-references)
-
-* 조각 보관 [자세히 알아보기](#archive-fragments)
-
-* 조각 편집 [태그](../start/search-filter-categorize.md#tags).
-
-![](assets/fragment-list-more-actions.png)
+>[!CAUTION]
+>
+>다음 이후 **초안** 및 **라이브** Journey Optimizer 6월 릴리스와 함께 상태가 도입되었습니다. 이 릴리스 전에 생성된 모든 조각은 여정 또는 캠페인에서 사용되더라도 &quot;초안&quot; 상태를 갖습니다. 이러한 조각을 변경하는 경우 해당 조각을 &quot;라이브&quot;로 만들고 관련 캠페인 및 여정에 변경 사항을 전파하도록 게시해야 합니다. 또한 새 여정/캠페인 버전을 만들고 게시해야 합니다. 게시하려면 사용자 권한이 필요합니다.
 
 ## 조각 편집 {#edit-fragments}
 
 조각을 편집하려면 아래 단계를 따르십시오.
 
-1. 에서 원하는 항목을 클릭합니다. **[!UICONTROL 조각]** 목록을 표시합니다.
-1. 조각 속성에서 다음을 수행할 수 있습니다. [참조 살펴보기](#explore-references), [액세스 관리](../administration/object-based-access.md)및 다음을 포함한 조각 세부 사항 업데이트 [태그](../start/search-filter-categorize.md#tags).
+1. 에서 원하는 조각을 클릭합니다. **[!UICONTROL 조각]** 목록을 표시합니다.
 
-   ![](../email/assets/fragment-edit-content.png)
+1. 조각 속성이 콘텐츠 미리보기와 함께 열립니다.
 
-1. 조각을 처음부터 만들 때와 마찬가지로 해당 버튼을 선택하여 콘텐츠를 편집합니다. [자세히 알아보기](#create-from-scratch)
+1. 편집 중인 조각에 **라이브** 상태를 보려면 **수정** 버튼을 클릭하여 조각의 초안 버전을 만듭니다. 조각의 현재 버전은 초안 버전을 게시하기 전까지 계속 활성 상태가 됩니다.
 
->[!NOTE]
+1. 원하는 대로 조각을 변경합니다. 콘텐츠를 편집하려면 **편집** 버튼을 클릭한 다음 조각을 처음부터 만들 때와 마찬가지로 콘텐츠를 편집합니다. [조각을 만드는 방법 알아보기](#create-from-scratch)
+
+   >[!NOTE]
+   >
+   >표현식 조각을 편집할 때 개인화 필드를 제거할 수 있지만 조각 콘텐츠에 새 개인화 필드를 추가할 수 없습니다. 개인화 필드를 추가하려면 조각을 복제하여 새 조각을 만드십시오.
+
+   을(를) 선택하여 조각이 현재 사용 중인 여정, 캠페인 및 콘텐츠 템플릿 목록을 확인할 수도 있습니다. **탐색기 참조** 옵션을 선택합니다. [자세히 알아보기](#explore-references)
+
+   ![](assets/fragment-edit.png)
+
+1. 변경 사항이 준비되면 **게시** 버튼을 클릭하여 수정 사항을 실시간으로 적용합니다.
+
+조각을 편집하면 원본 조각의 상속을 중단한 콘텐츠를 제외하고 라이브 여정 및 캠페인을 포함하여 해당 조각을 사용하는 모든 콘텐츠에 변경 사항이 자동으로 전파됩니다. 에서 상속을 중단하는 방법을 알아봅니다. [이메일에 시각적 조각 추가](../email/use-visual-fragments.md#break-inheritance) 및 [표현식 조각 활용](../personalization/use-expression-fragments.md#break-inheritance) 섹션.
+
+>[!AVAILABILITY]
 >
->조각을 편집할 때 해당 조각을 사용하는 모든 콘텐츠에 변경 사항이 자동으로 전파됩니다. 단, 에서 사용하는 콘텐츠는 제외됩니다. **[!UICONTROL 라이브]** 여정 또는 캠페인. 원본 조각에서 상속을 중단할 수도 있습니다. 다음에서 자세히 알아보기 [이메일에 시각적 조각 추가](../email/use-visual-fragments.md#break-inheritance) 및 [표현식 조각 활용](../personalization/use-expression-fragments.md#break-inheritance) 섹션.
+>라이브 여정 및 캠페인의 조각 변경 사항 전달은 Journey Optimizer 6월 릴리스 이후 며칠 동안 점진적으로 롤아웃되고 있습니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기 전에 지연이 발생할 수 있습니다. 사용자 환경에서 이 개선 사항을 아직 사용할 수 없는 경우 변경 사항이 라이브 여정 또는 캠페인에 사용되는 콘텐츠에 전파되지 않습니다.
 
 ## 참조 탐색 {#explore-references}
 
-현재 조각을 사용 중인 여정, 캠페인 및 콘텐츠 템플릿 목록을 표시할 수 있습니다.
-
-이렇게 하려면 을(를) 선택합니다 **[!UICONTROL 참조 탐색]** 다음 중 하나에서 **[!UICONTROL 추가 작업]** 조각 목록 또는 조각 속성 화면의 메뉴
+현재 조각을 사용 중인 여정, 캠페인 및 콘텐츠 템플릿 목록을 표시할 수 있습니다. 이렇게 하려면 을(를) 선택합니다 **[!UICONTROL 참조 탐색]** 다음 중 하나에서 **[!UICONTROL 추가 작업]** 조각 목록 또는 조각 속성 화면의 메뉴
 
 ![](assets/fragment-explore-references.png)
 
