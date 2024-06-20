@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -74,6 +74,22 @@ ht-degree: 2%
 1. 필요한 경우 원본 조각으로 상속을 중단할 수 있습니다. [자세히 알아보기](#break-inheritance)
 
 1. 원하는 만큼 조각을 추가하고 **[!UICONTROL 저장]** 변경 사항.
+
+## 편집 가능한 필드 사용자 지정 {#customize-fields}
+
+선택한 조각의 특정 부분을 편집할 수 있게 만든 경우 조각을 콘텐츠에 추가한 후 기본값을 무시할 수 있습니다. [조각을 사용자 지정할 수 있게 하는 방법에 대해 알아봅니다](../content-management/customizable-fragments.md)
+
+조각에서 편집 가능한 필드를 사용자 정의하려면 다음 단계를 수행합니다.
+
+1. 콘텐츠에 조각을 추가하고 선택하여 오른쪽의 속성 창을 엽니다.
+
+1. 조각의 모든 편집 가능한 필드가 **설정** 탭, **조각** 섹션.
+
+   편집 가능한 필드는 오른쪽 창에서 선택하면 미리 보기 창에 녹색으로 강조 표시되어 콘텐츠에서 해당 위치를 쉽게 식별할 수 있습니다.
+
+   아래 예에서는 다음과 같습니다 **소스** 및 **대체 텍스트** 편집할 수 있을 뿐만 아니라 &quot;여기를 클릭&quot; 버튼도 편집할 수 있습니다. **URL**.
+
+   ![](assets/fragment-editable.png)
 
 ## 상속 중단 {#break-inheritance}
 

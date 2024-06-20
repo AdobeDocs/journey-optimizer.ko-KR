@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 59%
+source-wordcount: '771'
+ht-degree: 62%
 
 ---
 
@@ -54,21 +54,22 @@ ht-degree: 59%
 </table-->
 
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Content Fragments customization</strong><br/></th>
+<th><strong>콘텐츠 조각 사용자 정의</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now define specific fields in a fragment that can be edited when the fragment is added to a campaign or journey. This allows for the adjustment of content portions at the time of use, providing flexibility to override default values with context-specific details.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
+<p>이제 캠페인 또는 여정에 조각을 추가할 때 해당 조각에서 편집할 수 있는 특정 필드를 정의할 수 있습니다. 이를 통해 콘텐츠의 일부분을 사용 시 조정할 수 있으므로 유연하게 맥락에 따라 달라지는 세부 사항을 기본값 대신 사용할 수 있습니다.</p>
+<img src="../content-management/assets/do-not-localize/gif-fragments.gif"/>
+<p>자세한 내용은 <a href="../content-management/customizable-fragments.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 
 

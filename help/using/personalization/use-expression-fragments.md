@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,22 @@ ht-degree: 0%
 >[!NOTE]
 >
 >여러 줄 바꿈이 포함된 표현식 조각을 만들어 [SMS](../sms/create-sms.md#sms-content) 또는 [푸시](../push/design-push.md) 내용, 줄 바꿈이 유지됩니다. 따라서 다음을 테스트하십시오. [SMS](../sms/send-sms.md) 또는 [푸시](../push/send-push.md) 메시지를 보내기 전에 메시지를 보냈습니다.
+
+## 편집 가능한 필드 사용자 지정 {#customize-fields}
+
+변수를 사용하여 표현식 조각의 특정 부분을 편집할 수 있게 만든 경우 특정 구문을 사용하여 해당 기본값을 무시할 수 있습니다. [조각을 사용자 지정할 수 있게 하는 방법에 대해 알아봅니다](../content-management/customizable-fragments.md)
+
+필드를 사용자 정의하려면 다음 단계를 수행합니다.
+
+1. 코드에서 조각을 코드에 삽입합니다. **조각** 메뉴 아래의 제품에서 사용할 수 있습니다.
+
+1. 사용 `<fieldId>="<value>"` 구문의 끝에 코드를 추가하여 변수의 기본값을 재정의합니다.
+
+   아래 예에서는 ID가 &quot;sports&quot;인 변수의 값을 &quot;yoga&quot; 값으로 재정의합니다. 스포츠 변수가 참조되는 모든 곳에서 조각 콘텐츠에 &quot;요가&quot;가 표시됩니다.
+
+   ![](../content-management/assets/fragment-expression-use.png)
+
+이메일을 만들 때 편집 가능한 필드를 표현식 조각에 추가하고 해당 값을 오버라이드하는 방법을 보여주는 예는에서 사용할 수 있습니다. [이 섹션](../content-management/customizable-fragments.md#example).
 
 ## 상속 중단 {#break-inheritance}
 
