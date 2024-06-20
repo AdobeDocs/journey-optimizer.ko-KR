@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1668'
 ht-degree: 8%
 
 ---
@@ -112,7 +112,7 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
 * 이 계획은 6시까지 실행됩니다. **단계**, 각 행에 하나 이상의 실행이 포함됩니다.
 
-* 전달하려는 도메인에 대해 원하는 만큼 열을 가질 수 있습니다. 이 예에서 플랜은 6개의 열로 나뉩니다.
+* 최대 6개의 열(도메인 그룹의 경우 5개 열, 의 경우 1개 열)을 가질 수 있습니다. **기타** 열). 이 예에서 플랜은 6개의 열로 나뉩니다.
 
    * 이 중 4개는 **기본 도메인 그룹** 플랜에 사용할 수 있습니다(Gmail, Microsoft, Yahoo 및 Orange).
    * 하나는 사용자 정의 도메인 그룹에 해당합니다(다음을 사용하여 추가해야 함). [사용자 정의 도메인 그룹](#custom-domain-group-tab) 탭).
@@ -188,7 +188,7 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
 사용 **[!UICONTROL 사용자 정의 도메인 그룹]** 탭으로 이동하여 새 도메인 그룹을 정의합니다. 각 도메인에 대해 포함되는 모든 하위 도메인을 추가할 수 있습니다.<!--TBC-->
 
-각 도메인이 해당 도메인 그룹에 고유하고 다른 도메인 그룹과 겹치지 않는지 확인합니다. 전역 도메인 그룹은 자동으로 정의되므로 사용자는 사용자 정의 도메인 그룹을 만들 때 이를 고려해야 합니다.
+해당 플랜에 사용된 도메인 그룹의 경우 각 도메인이 해당 도메인 그룹에 고유하고 다른 도메인 그룹과 겹치지 않는지 확인하십시오. 전역 도메인 그룹은 자동으로 정의되므로 사용자는 사용자 정의 도메인 그룹을 만들 때 이를 고려해야 합니다.
 
 예를 들어 사용자 정의 도메인 Luma를 추가하는 경우 luma.com, luma.co.uk, luma.it, luma.fr, luma.de 등의 하위 도메인을 포함하려고 합니다.
 
@@ -201,7 +201,7 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 * Hotmail 도메인에만 사용할 수 있습니다.
 * 도메인 그룹 Microsoft의 다른 모든 도메인에 대한 것입니다(따라서 모든 Hotmail 도메인 제외).
 
-다른 모든 도메인은 **[!UICONTROL 기타]** 열.
+Hotmail 외부 도메인 및 도메인 그룹 Microsoft의 도메인은 **[!UICONTROL 기타]** 열.
 
 1. 다음에서 **[!UICONTROL 사용자 정의 도메인 그룹]** 탭, 만들기 **핫메일** 도메인 그룹.
 
@@ -220,10 +220,6 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 1. 세 개의 열 만들기: **핫메일**, 1개 **MICROSOFT X** 다음에 대한 1개 **기타**.
 
 1. 필요에 따라 열을 입력합니다.
-
->[!NOTE]
->
->IP 준비 계획이 (으)로 업로드되면 [!DNL Journey Optimizer], Microsoft 도메인 그룹을 제외할 필요가 없습니다.
 
 <!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
 

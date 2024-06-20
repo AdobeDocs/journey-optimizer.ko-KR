@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 1%
+source-wordcount: '2558'
+ht-degree: 11%
 
 ---
 
@@ -34,25 +34,25 @@ ht-degree: 1%
 
 다음 작업을 완료하면 [ip 준비 계획을 만들었습니다.](ip-warmup-plan.md) 게재 컨설턴트와 함께 준비한 파일을 업로드하면 플랜에서 단계 및 실행을 정의할 수 있습니다.
 
-각 단계는 단일 캠페인을 할당할 수 있는 여러 실행으로 구성됩니다.
+각 단계는 단일 캠페인으로 할당되는 여러 실행으로 구성됩니다.
 
 ## 단계 정의 {#define-phases}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="캠페인 대상자 제외"
->abstract="현재 단계에서 대상자를 제외할 캠페인을 선택하십시오. 다른 단계 또는 다른 IP 준비 계획에서 이전에 연락한 프로필이 다시 타겟팅되지 않도록 하기 위한 것입니다."
+>abstract="현재 단계에서 대상자를 제외할 캠페인을 선택합니다. 이렇게 하면 이전에 연락한 프로필이 다시 타겟팅되지 않습니다. 여정을 통해 커뮤니케이션을 받은 사람만 제외됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="도메인 그룹 제외"
->abstract="현재 단계에서 제외할 도메인을 선택합니다. 도메인 제외에는 실행되지 않는 단계가 필요하므로 제외를 추가하려면 실행 단계를 분할해야 할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="단계 분할"
+>abstract="현재 단계에서 제외하려는 도메인을 선택합니다. 도메인 제외에는 미실행 단계가 필요하므로 제외를 추가하려면 실행 단계를 분할해야 할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=ko-KR#split-phase" text="단계 분할"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
->title="플랜 단계 정의"
->abstract="각 단계는 단일 캠페인을 할당할 수 있는 여러 실행으로 구성됩니다."
+>title="플랜의 단계 정의"
+>abstract="각 단계는 단일 캠페인으로 할당되는 여러 실행으로 구성됩니다."
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -60,7 +60,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
 
-1. 각 단계에 대해 이 IP 준비 계획 단계와 연결할 캠페인을 선택합니다.
+1. IP 준비 계획의 첫 번째 단계와 연결할 캠페인을 선택합니다.
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* 이 포함된 캠페인만 **[!UICONTROL IP 준비 계획 활성화]** 활성화된 옵션은 선택할 수 있습니다. [자세히 알아보기](#create-ip-warmup-campaign)
    >
-   >* 현재 IP 준비 계획에 대해 선택한 것과 동일한 표면을 사용하는 캠페인을 선택해야 합니다.
+   >* 선택한 IP 웜업 플랜과 동일한 표면을 사용하는 캠페인만 선택할 수 있습니다.
 
 1. 현재 단계에 대해 캠페인을 선택하면 프로필, 캠페인 대상자 및 도메인 그룹을 제외하는 섹션이 표시됩니다.
 
@@ -84,7 +84,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >도메인 제외에는 실행되지 않는 단계가 필요하므로 다음을 수행해야 할 수 있습니다. [실행 단계 분할](#split-phase) 제외를 추가합니다.
+      >도메인 제외에는 실행 취소 단계가 필요하므로 다음을 수행해야 할 수 있습니다. [실행 단계 분할](#split-phase) 제외를 추가합니다.
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
@@ -117,7 +117,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >이 섹션은 편집할 수 없습니다.
 
-1. 필요한 경우 **[!UICONTROL 바꾸기]** 단추를 클릭합니다. 다음을 사용하여 선택한 캠페인을 지울 수도 있습니다. **[!UICONTROL 지우기]** 단추를 클릭합니다. 그런 다음 즉시 또는 나중에 새 캠페인을 선택할 수 있습니다.
+1. 필요한 경우 **[!UICONTROL 바꾸기]** 단추를 클릭합니다. 다음을 수행할 수도 있습니다. **[!UICONTROL 지우기]** 다음을 사용하여 선택한 캠페인 **[!UICONTROL 지우기]** 단추를 클릭합니다. 이 작업을 수행하면 캠페인뿐만 아니라 도메인 그룹 제외, 캠페인, 여정 제외 등과 같은 기타 단계 수준 속성이 지워집니다. 지운 후 즉시 또는 나중에 새 캠페인을 선택할 수 있습니다.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -125,7 +125,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >이 작업은 단계의 첫 번째 실행을 활성화하기 전에만 가능합니다. 실행이 활성화되면 다음을 수행하지 않는 한 캠페인을 교체할 수 없습니다. [실행 분할](#split-phase) 새로운 단계로 넘어갑니다.
 
-1. 필요한 경우 단계를 추가할 수 있습니다. 마지막 현재 단계 이후에 추가됩니다.
+1. 필요한 경우 단계를 추가할 수 있습니다. 마지막 단계 후에 추가됩니다.
 
    ![](assets/ip-warmup-plan-add-phase.png)
 
@@ -146,27 +146,27 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_run"
 >title="각 실행 정의"
->abstract="모든 단계에 대해 각 실행을 정의하고 활성화합니다."
+>abstract="모든 단계에 대해 각각의 실행을 정의하고 활성화합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
 >title="참여 필터링"
->abstract="이 열은 예를 들어 지난 20일 동안 브랜드에 참여한 사용자만 타겟팅하는 필터입니다. 다음을 통해 이 설정을 변경할 수도 있습니다. **실행 편집** 옵션을 선택합니다."
+>abstract="이 열은 예를 들어 지난 20일 동안 해당 브랜드에 참여한 사용자만 대상으로 하는 필터입니다. **실행 편집** 옵션을 통해 이 설정을 변경할 수도 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
 >title="기간 설정"
->abstract="세분화 작업이 지연되는 경우 IP 준비 캠페인을 실행할 수 있는 기간을 정의할 수 있습니다."
+>abstract="세분화 작업에서 지연이 발생하는 경우 IP 워밍업 캠페인을 실행할 수 있는 기간을 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="대상 오류가 있는 실행 취소"
->abstract="해당 실행에 대해 대상을 평가한 후 자격 조건을 갖춘 프로필이 타겟팅된 프로필보다 적은 경우 실행을 취소하려면 이 옵션을 선택합니다."
+>title="대상자 오류가 있는 실행 취소"
+>abstract="해당 실행에 대해 대상자가 평가된 후 적격 프로필이 대상이 되는 프로필보다 적은 경우에 실행을 취소하려면 이 옵션을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="적격 프로필 보기"
->abstract="이 열에는 적격 프로필의 수가 표시됩니다. 대상자에 대한 실행이 평가되면 적격 프로필보다 타겟팅된 프로필이 더 많은 경우 다음을 수행하지 않는 한 실행이 계속 실행됩니다. **오류 발생 시 활성화된 실행 취소** 옵션이 활성화되어 있습니다. 이 경우 실행이 취소되었습니다."
+>abstract="이 열에 적격 프로필 수가 표시됩니다. 대상자가 실행에 대해 평가된 후 적격 프로필보다 대상이 되는 프로필이 더 많은 경우, **Cancel activated runs in case of errors(오류 발생 시 활성화된 실행 취소)** 옵션이 활성화된 경우가 아니라면 실행은 계속 실행됩니다. 해당 경우 실행은 취소됩니다."
 
 1. 지정된 시간에 실행되도록 각 실행에 대한 일정을 선택합니다.
 
@@ -236,9 +236,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 단계의 첫 번째 실행을 활성화하는 경우:
 
-   * An [대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} 제외된 캠페인 대상자(있는 경우)에 대해 다음 명명 규칙을 사용하여 만들어집니다. `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
+   * An [대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} 제외된 캠페인 대상자(있는 경우)에 대해 다음 명명 규칙을 사용하여 만들어집니다. `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
 
-   * 제외된 도메인 그룹(있는 경우)에 대해 다음 명명 규칙을 사용하여 대상자가 만들어집니다. `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+   * 제외된 도메인 그룹(있는 경우)에 대해 다음 명명 규칙을 사용하여 대상자가 만들어집니다. `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
    * 제외된 여정 대상(있는 경우)에 대해 다음 명명 규칙을 사용하여 다른 대상이 만들어집니다. `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
@@ -246,11 +246,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
   >
   >대상자는 준비 계획이 완료된 것으로 표시된 후에 정리됩니다.
   >
-  >후속 단계에 대해 제외된 캠페인 대상이나 도메인 그룹에 변경 사항이 없는 경우 새 대상자가 만들어지지 않습니다.
+  >제외된 캠페인 대상, 제외된 여정 대상 또는 후속 단계의 도메인 그룹에 변경 사항이 없는 경우 시스템에서 새 대상을 만들지 않습니다.
 
 * 모든 실행을 활성화할 때:
 
-   * 다음 명명 규칙을 사용하여 마지막 참여 필터에 대해 다른 대상자가 만들어집니다. `<warmupName>_Phase<phaseNo>_Run<runNo>-Engagement Filter`.
+   * 다음 명명 규칙을 사용하여 마지막 참여 필터에 대해 다른 대상자가 만들어집니다. `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`.
 
      >[!NOTE]
      >
@@ -298,9 +298,9 @@ IP 워밍업 계획 자체가 한 곳에서 통합 보고서 역할을 한다. �
 
 * **[!UICONTROL 초안]** : 실행이 생성될 때마다 [새 계획 생성](ip-warmup-plan.md) 또는 [실행 추가](#define-runs) 사용자 인터페이스에서 **[!UICONTROL 초안]** 상태.
 * **[!UICONTROL 라이브]**: 실행을 활성화할 때마다 **[!UICONTROL 라이브]** 상태. 즉, 전송이 시작된 것이 아니라 시스템이 실행 예약 요청을 수락했습니다. 이 단계에서 를 클릭하여 라이브 실행의 상태를 확인할 수 있습니다. **[!UICONTROL 상태 보기]** 테이블 내 단추 이를 통해 실제로 적격한 타겟팅된 프로필의 수를 추적할 수 있습니다.
-* **[!UICONTROL 완료됨]**: 이 실행에 대한 캠페인 실행이 완료되었습니다. 다음을 클릭하여 자세한 실행 보고서에 액세스할 수 있습니다. **[!UICONTROL 보고서 보기]** 단추입니다. 이 옵션을 사용하면 향상된 모니터링을 위해 도메인 그룹 관련 분류를 포함하여 실행의 이메일 게재 상태를 추적할 수 있습니다. [자세히 알아보기](#reports)
-* **[!UICONTROL 취소됨]**: a **[!UICONTROL 라이브]** 을(를) 사용하여 실행이 취소되었습니다. **[!UICONTROL 중지]** 단추 또는 를 활성화한 경우 **[!UICONTROL 오류 발생 시 활성화된 실행 취소]** 옵션과 오류가 발생했습니다. [자세히 알아보기](#define-runs)
-* **[!UICONTROL 실패]**: 시스템에서 오류가 발생하거나 현재 단계에 사용되는 캠페인이 중지되었습니다. 실행이 실패할 경우 다음 날 다른 실행을 예약할 수 있습니다.
+* **[!UICONTROL 완료됨]**: 이 실행에 대한 캠페인 실행이 완료되었습니다. 다음을 클릭하여 자세한 실행 보고서에 액세스할 수 있습니다. **[!UICONTROL 보고서 보기]** 단추입니다. 이 옵션을 사용하면 향상된 모니터링을 위해 도메인 그룹 관련 분류를 포함하여 실행의 이메일 게재 상태를 추적할 수 있습니다. 연결된 Campaign은 중지됨으로 설정됩니다.[자세히 알아보기](#reports)
+* **[!UICONTROL 취소됨]**: a **[!UICONTROL 라이브]** 을(를) 사용하여 실행이 취소되었습니다. **[!UICONTROL 취소]** 단추를 클릭합니다.[자세히 알아보기](#define-runs)
+* **[!UICONTROL 실패]**: 시스템에서 오류가 발생했거나 현재 단계에 사용되는 캠페인이 중단되었거나 다음 항목을 활성화했습니다. **[!UICONTROL 오류 발생 시 활성화된 실행 취소]** 옵션과 오류가 발생했습니다. 실행이 실패할 경우 다음 날 다른 실행을 예약할 수 있습니다.
 
 ### 보고서 사용 {#reports}
 
@@ -363,7 +363,7 @@ IP 준비 계획이 예상대로 수행되지 않는 경우(예: 일부 ISP에�
 
 ### 계획을 완료됨으로 표시 {#mark-as-completed}
 
-플랜이 제대로 수행되지 않거나 다른 플랜을 만들기 위해 드롭하려는 경우 완료된 플랜으로 표시할 수 있습니다.
+원하는 볼륨으로 IP가 워밍업된 경우 또는 플랜이 제대로 수행되지 않거나 다른 IP를 만들기 위해 IP를 드롭하려는 경우 완료된 IP로 표시할 수 있습니다.
 
 이렇게 하려면 **[!UICONTROL 자세히]** IP 웜업 계획의 오른쪽 상단에 있는 단추이며 **[!UICONTROL 완료로 표시]**.
 
