@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: db841b1378a6b897c68809fe19f1f0b90d7fd9c5
 workflow-type: tm+mt
-source-wordcount: '2623'
+source-wordcount: '2642'
 ht-degree: 12%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 12%
 >id="ajo_homepage_card2"
 >title="여정 만들기"
 >abstract="**Adobe Journey Optimizer**&#x200B;를 통해 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다."
-
 
 
 ## 전제 조건{#start-prerequisites}
@@ -326,6 +325,7 @@ ht-degree: 12%
 
 * 대상자 읽기 또는 대상자 자격 여정: 대상자의 병합 정책이 사용됩니다
 * 이벤트가 트리거된 여정: 기본 병합 정책이 사용됩니다
+* 비즈니스 이벤트 여정: 다음 대상 읽기 활동에서 타깃팅된 대상의 병합 정책이 사용됩니다
 
 여정은 전체 여정 동안 사용된 병합 정책을 적용합니다. 따라서 한 여정에 여러 대상이 사용되는 경우(예: &quot;inAudience&quot; 함수에서) 여정이 사용한 병합 정책과 일치하지 않으면 오류가 발생하고 게시가 차단됩니다. 하지만 메시지 개인화에 일관되지 않은 대상이 사용되면 불일치에도 불구하고 경고가 발생하지 않습니다. 이러한 이유로, 메시지 개인화에 이 대상자를 사용할 때에는 대상자와 연결된 병합 정책을 확인하는 것이 좋습니다.
 
