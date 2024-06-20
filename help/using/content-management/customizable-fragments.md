@@ -7,9 +7,9 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: c84c09aac2d888c689591f2517269c88bee0cda6
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
 
 예를 들어 아래 코드에서 빨간색으로 강조 표시된 각 요소는 속성이 될 수 있습니다.
 
-![](assets/fragment-html.png){width=&quot;70%}
+![](assets/fragment-html.png){width="70%"}
 
 +++
 
