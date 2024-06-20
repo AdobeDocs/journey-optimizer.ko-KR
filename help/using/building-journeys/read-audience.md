@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1466'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->일회성 읽기 대상 여정이 다음으로 이동 **완료됨** 상태 91일 ([기본 시간 초과](journey-gs.md#global_timeout))를 클릭하여 여정을 실행하십시오. 예약된 읽기 대상의 경우 마지막 항목이 실행된 후 91일이 경과해야 합니다.
+>일회성 읽기 대상 여정이 다음으로 이동 **완료됨** 상태 91일 ([여정 글로벌 시간 초과](journey-properties.md#global_timeout))를 클릭하여 여정을 실행하십시오. 예약된 읽기 대상의 경우 마지막 항목이 실행된 후 91일이 경과해야 합니다.
 
 ## 여정 테스트 및 게시 {#testing-publishing}
 

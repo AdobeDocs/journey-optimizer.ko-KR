@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fc7675e4d9a16fa932f27e28bf7e4f6da03a198e
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 60%
+source-wordcount: '715'
+ht-degree: 59%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 60%
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
 
-## 2024년 6월 초기 릴리스 정보 {#24-6-2024}
+## 2024년 6월 릴리스 정보 {#24-6-2024}
 
 **아래의 초기 릴리스 노트는 릴리스 사용 가능 날짜까지 사전 통지 없이 변경될 수 있습니다**.
 
@@ -183,15 +183,15 @@ ht-degree: 60%
 
 **여정**
 
-* 여정의 전역 시간 제한이 91일로 연장되었습니다. [자세히 보기](../building-journeys/journey-gs.md#global_timeout)
+* 여정의 전역 시간 제한이 91일로 연장되었습니다. [자세히 보기](../building-journeys/journey-properties.md#global_timeout)
 
-  새로 만든 모든 여정에 이 새 시간 초과가 반영됩니다. 이 내용을 참조하시기 바랍니다 [FAQ 섹션](../building-journeys/journey-gs.md#timeout-faq) 자세히 알아보십시오. 이러한 변경 사항은 6월 한 달 동안 점진적으로 적용될 예정입니다.
+  새로 만든 모든 여정에 이 새 시간 초과가 반영됩니다. 이 내용을 참조하시기 바랍니다 [FAQ 섹션](../building-journeys/journey-properties.md#timeout-faq) 자세히 알아보십시오. 이러한 변경 사항은 6월 한 달 동안 점진적으로 적용될 예정입니다.
 
 
 * Adobe Journey Optimizer은 이제 데이터 수명 주기 관리 요청뿐만 아니라 개인 정보 삭제/액세스 요청도 지원합니다. [자세히 보기](../privacy/requests.md)
 * 이제 여정 인벤토리에서 열의 크기를 조정할 수 있습니다.
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
-* **병합 정책** GA 변경 - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. [자세히 보기](../building-journeys/journey-gs.md#merge-policies)
+* **병합 정책** GA 변경 - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. [자세히 보기](../building-journeys/journey-properties.md#merge-policies)
 
 
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+source-git-commit: 15b0e69a823cc30589608995a5138340e263b227
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 99%
+source-wordcount: '1847'
+ht-degree: 98%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 99%
    + [여정 시작](using/building-journeys/journey.md)
    + 여정 만들기{#create-journey}
       + [첫 여정 만들기](using/building-journeys/journey-gs.md)
+      + [여정 속성 설정](using/building-journeys/journey-properties.md)
       + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 시뮬레이션](using/building-journeys/journey-simulation.md)

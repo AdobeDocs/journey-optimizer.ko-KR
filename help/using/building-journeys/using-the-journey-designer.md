@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 디자인, 캔버스, 여정, 인터페이스, 드래그, 놓기
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -47,7 +47,7 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 ![](assets/journey39.png)
 
-다음 **도구 모음**&#x200B;캔버스의 오른쪽 위 모서리에 있는 를 사용하여 그리드를 표시/숨기고, 캔버스의 스크린샷을 확대/축소하고 다운로드할 수 있습니다. 이 [섹션](../building-journeys/journey-gs.md#timeout_and_error)을 참조하세요.
+다음 **도구 모음**&#x200B;캔버스의 오른쪽 위 모서리에 있는 를 사용하여 그리드를 표시/숨기고, 캔버스의 스크린샷을 확대/축소하고 다운로드할 수 있습니다. 이 [섹션](../building-journeys/journey-properties.md#timeout_and_error)을 참조하세요.
 
 <!--and show/hide timeout and error paths-->
 
@@ -107,7 +107,7 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 다음 여정 활동에 대한 오류 또는 시간 초과 시 폴백 작업을 정의할 수 있습니다. **[!UICONTROL 조건]** 및 **[!UICONTROL 작업]**.
 
-활동에 대한 대체 작업을 추가하려면 다음을 선택합니다. **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로 추가]** 활동 속성의 상자: 활동 뒤에 다른 경로가 추가됩니다. 시간 제한 기간은 관리자 사용자가에서 정의됩니다. [여정 속성](../building-journeys/journey-gs.md#change-properties). 예를 들어 이메일을 보내는 데 너무 오래 걸리거나 오류가 있는 경우 푸시 알림을 전송하도록 결정할 수 있습니다.
+활동에 대한 대체 작업을 추가하려면 다음을 선택합니다. **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로 추가]** 활동 속성의 상자: 활동 뒤에 다른 경로가 추가됩니다. 시간 제한 기간은 관리자 사용자가에서 정의됩니다. [여정 속성](../building-journeys/journey-properties.md). 예를 들어 이메일을 보내는 데 너무 오래 걸리거나 오류가 있는 경우 푸시 알림을 전송하도록 결정할 수 있습니다.
 
 ![](assets/journey42.png)
 

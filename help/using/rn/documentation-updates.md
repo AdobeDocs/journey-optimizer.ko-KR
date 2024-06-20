@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '5389'
 ht-degree: 99%
@@ -22,7 +22,7 @@ ht-degree: 99%
 ## 2024년 6월 {#june-2024}
 
 * 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2024년 6월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 여정의 병합 정책 사용에 대한 참고가 추가되었습니다. [이 페이지](../building-journeys/journey-gs.md#merge-policies).
+* 여정의 병합 정책 사용에 대한 참고가 추가되었습니다. [이 페이지](../building-journeys/journey-properties.md#merge-policies).
 * 여정에서 **대기** 활동을 구성하는 방법에 대한 페이지가 재구성되고 개선되었습니다. [자세히 보기](../building-journeys/wait-activity.md)
 
 ## 2024년 5월 {#may-2024}
@@ -82,7 +82,7 @@ ht-degree: 99%
 
 * [!DNL Journey Optimizer] 2024년 1월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 여정 크기에 대한 가드레일을 추가했습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
-* 여정 시간 초과 관리에 대한 자세한 설명을 [다음 섹션에](../building-journeys/journey-gs.md#global_timeout) 추가했습니다.
+* 여정 시간 초과 관리에 대한 자세한 설명을 [다음 섹션에](../building-journeys/journey-properties.md#global_timeout) 추가했습니다.
 * Journey Optimizer [설명서 홈](../../ajo-home.md)페이지를 다시 디자인했습니다.
 * 프로필 업데이트 활동에 대한 권장 사항을 추가했습니다. [자세히 보기](../building-journeys/update-profiles.md)
 * 여정의 이벤트 활동 관련 시간 초과 동작에 대한 정보가 추가되었습니다. 지정된 시간 제한 기간 동안 이벤트가 수신되지 않으면 시간 제한 경로가 정의되지 않은 경우 개인 사용자는 여정을 계속합니다. [자세히 보기](../building-journeys/general-events.md#events-specific-time)

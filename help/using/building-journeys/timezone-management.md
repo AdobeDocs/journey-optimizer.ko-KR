@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 시간대, 속성, 여정, 조건, 시간, 날짜, 사용자 정의
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 시간대 관리 {#timezone_management}
 
-에서 시간대를 정의할 수 있습니다. [속성](../building-journeys/journey-gs.md#change-properties) 여정.
+에서 시간대를 정의할 수 있습니다. [속성](../building-journeys/journey-properties.md#timezone) 여정.
 
 여정 속성에 액세스하려면 화면 오른쪽 상단의 연필 아이콘을 클릭합니다.
 

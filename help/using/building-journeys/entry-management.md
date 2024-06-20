@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 5%
@@ -36,12 +36,12 @@ ht-degree: 5%
 
 * 재입력이 활성화된 경우 프로필은 여정을 여러 번 입력할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 다시 입력할 수 없습니다.
 
-* 재입력이 비활성화된 경우 프로필은 글로벌 여정 시간 제한 기간 내에 동일한 여정을 여러 번 입력할 수 없습니다. 이 [섹션](../building-journeys/journey-gs.md#global_timeout)을 참조하세요.
+* 재입력이 비활성화된 경우 프로필은 글로벌 여정 시간 제한 기간 내에 동일한 여정을 여러 번 입력할 수 없습니다. 이 [섹션](../building-journeys/journey-properties.md#global_timeout)을 참조하세요.
 
-기본적으로 여정은 다시 입력할 수 있습니다. 다음의 경우 **재등록 허용** 옵션이 활성화되고 **재등록 대기 기간** 필드가 표시됩니다. 프로필에서 여정을 다시 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 91일([기본 시간 초과](journey-gs.md#global_timeout)).
+기본적으로 여정은 다시 입력할 수 있습니다. 다음의 경우 **재등록 허용** 옵션이 활성화되고 **재등록 대기 기간** 필드가 표시됩니다. 프로필에서 여정을 다시 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 91일([글로벌 시간 초과](journey-properties.md#global_timeout)).
 
 <!--
-When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. [Learn more](journey-gs.md#entrance)
+When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
 -->
 
 ![](assets/journey-re-entrance.png)

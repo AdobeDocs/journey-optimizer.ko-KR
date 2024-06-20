@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 23%
@@ -72,7 +72,7 @@ API에 대한 자세한 설명은에서 확인할 수 있습니다. [Adobe Journ
 
 최대 가용량 또는 제한 규칙이 충족되면 시간 초과 규칙이 적용됩니다.
 
-각 여정에서 시간 제한 기간을 정의할 수 있습니다. 이렇게 하면 외부 시스템을 호출할 때 최대 기간을 설정할 수 있습니다. 시간 제한 기간은 여정 속성에 구성됩니다. [이 페이지](../building-journeys/journey-gs.md#timeout_and_error)를 참조하십시오.
+각 여정에서 시간 제한 기간을 정의할 수 있습니다. 이렇게 하면 외부 시스템을 호출할 때 최대 기간을 설정할 수 있습니다. 시간 제한 기간은 여정 속성에 구성됩니다. [이 페이지](../building-journeys/journey-properties.md#timeout_and_error)를 참조하십시오.
 
 이 시간 제한은 모든 외부 호출(사용자 지정 작업 및 사용자 지정 데이터 소스의 외부 API 호출)에 적용됩니다. 기본적으로 30초로 설정되어 있습니다.
 
@@ -102,4 +102,4 @@ API에 대한 자세한 설명은에서 확인할 수 있습니다. [Adobe Journ
 
 **시간 초과는 어디에서 구성할 수 있습니까? 최대값이 있습니까?**
 
-각 여정에서 시간 제한 기간을 정의할 수 있습니다. 시간 제한 기간은 여정 속성에 구성됩니다. 시간 제한 기간은 1초에서 30초 사이여야 합니다. 을(를) 참조하십시오 [이 섹션](../configuration/external-systems.md#timeout) 및 [이 페이지](../building-journeys/journey-gs.md#timeout_and_error).
+각 여정에서 시간 제한 기간을 정의할 수 있습니다. 시간 제한 기간은 여정 속성에 구성됩니다. 시간 제한 기간은 1초에서 30초 사이여야 합니다. 을(를) 참조하십시오 [이 섹션](../configuration/external-systems.md#timeout) 및 [이 페이지](../building-journeys/journey-properties.md#timeout_and_error).

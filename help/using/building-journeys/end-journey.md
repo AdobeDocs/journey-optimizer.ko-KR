@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 * 사용자가 경로의 마지막 활동에 도달합니다.
 * 개인이 다음에 도착함 **조건** 활동(또는 a) **대기** (조건이 있는 활동) 및 가 조건과 일치하지 않습니다.
 
-그런 다음 재입장이 허용되는 경우 여정에 다시 입장할 수 있습니다. 다음을 참조하십시오 [이 페이지](../building-journeys/journey-gs.md#change-properties)
+그런 다음 재입장이 허용되는 경우 여정에 다시 입장할 수 있습니다. 다음을 참조하십시오 [이 페이지](../building-journeys/journey-properties.md#entrance)
 
 라이브 여정을 종료하려면 종료하는 것이 좋습니다. 그러면 신규 고객의 여정 도착이 차단됩니다. 이미 여정에 입점한 고객이 끝까지 체험할 수 있다. 다음을 참조하십시오 [이 섹션](../building-journeys/journey.md#close-journey)
 
@@ -58,9 +58,9 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 여정을 수동으로 닫으면 여정에 이미 입력한 고객이 경로를 완료할 수 있지만 새 사용자가 여정을 입력할 수 없게 됩니다. 여정이 닫히면 (위의 경우) 상태가 됩니다 **[!UICONTROL 종료됨]**. 이 여정은 새로운 개인이 여정에 입력하는 것을 중단합니다. 이미 여정에 있는 사람은 여정을 정상적으로 완료할 수 있습니다.
 
-91일 후 [기본 시간 초과](journey-gs.md#global_timeout), 대상자 읽기 여정이 **완료됨** 상태. 이 동작은 91일 동안만 설정됩니다 (즉, [여정 시간 초과 기본값](journey-gs.md#global_timeout))를 입력하여 여정에 입력한 프로필에 대한 모든 정보가 입력한 후 91일 후에 제거됩니다. 아직 여정에 있는 사람은 자동으로 영향을 받습니다. 91일 제한 시간이 지나면 여정을 종료합니다.
+91일 후 [글로벌 시간 초과](journey-properties.md#timeout), 대상자 읽기 여정이 **완료됨** 상태. 이 동작은 91일 동안만 설정됩니다 (즉, [여정 글로벌 시간 초과 값](journey-properties.md#global_timeout))를 입력하여 여정에 입력한 프로필에 대한 모든 정보가 입력한 후 91일 후에 제거됩니다. 아직 여정에 있는 사람은 자동으로 영향을 받습니다. 91일 제한 시간이 지나면 여정을 종료합니다.
 
-이 [섹션](../building-journeys/journey-gs.md#global_timeout)을 참조하세요.
+이 [섹션](../building-journeys/journey-properties.md#global_timeout)을 참조하세요.
 
 종료된 여정 버전은 다시 시작하거나 삭제할 수 없습니다. 새 버전을 만들거나 복제할 수 있습니다. 완료된 여정만 삭제할 수 있습니다.
 

@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: c1dc3f3805bc0677a24466687026fac0d4990a5b
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 3%
@@ -98,7 +98,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 1. 이전에 구성한 항목 선택 **[!UICONTROL 제품 프로필]**.
 
-1. 다음에서 **[!UICONTROL 사용자]** 탭을 클릭하고 **[!UICONTROL 사용자 추가]**.
+1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/push_product_6.png)
 
@@ -332,7 +332,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 클릭 **[!UICONTROL 여정 만들기]** 새 여정 만들기
 
-1. 오른쪽에 표시되는 구성 창에서 여정의 속성을 편집합니다. 자세히 알아보기 [섹션](../building-journeys/journey-gs.md#change-properties).
+1. 오른쪽에 표시되는 구성 창에서 여정의 속성을 편집합니다. 자세히 알아보기 [섹션](../building-journeys/journey-properties.md).
 
 1. 의 이전 단계에서 만든 이벤트를 끌어서 놓는 것으로 시작합니다. **[!UICONTROL 이벤트]** 드롭다운.
 
@@ -350,7 +350,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_13.png)
 
-1. **[!UICONTROL 보내기]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL 보내기]**.
 
 이벤트가 트리거되고 모바일 앱에 대한 푸시 알림을 받게 됩니다.
 

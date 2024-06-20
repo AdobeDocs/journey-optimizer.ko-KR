@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 100%
+source-wordcount: '456'
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
    * 이벤트의 **컨텍스트 기반 데이터**, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용합니다.
 
-   * **기본 제공 채널 작업**(이메일, SMS, 푸시)을 사용하여 [!DNL Journey Optimizer] (으)로 디자인된 메시지를 보내거나 서드파티 시스템을 사용하여 메시지를 전송하는 경우 **사용자 지정 작업**&#x200B;을 만듭니다.
+   * 사용 **기본 제공 채널 작업** (이메일, SMS, 푸시, InApp): [!DNL Journey Optimizer] 또는 만들기 **사용자 지정 작업** 서드파티 시스템을 사용하여 메시지를 전송하는 경우
 
    * **여정 디자이너**&#x200B;를 사용하면 여러 단계로 이루어진 사용 사례를 구축할 수 있습니다. 간단하게 시작 이벤트나 대상자 읽기 활동을 끌어다 놓고 조건을 추가하며 개인화된 메시지를 보내세요.
 
