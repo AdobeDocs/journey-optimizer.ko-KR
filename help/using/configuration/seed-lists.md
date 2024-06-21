@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 시드 목록, 시드 목록, 시드, 구성
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 16%
@@ -48,7 +48,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->변형이 지원됩니다. 시드 주소는 동일한 메시지의 각 변형(예: 의 다른 처리)의 단일 사본을 받습니다. [콘텐츠 실험](../campaigns/get-started-experiment.md)).
+>변형이 지원됩니다. 시드 주소는 동일한 메시지의 각 변형(예: 의 다른 처리)의 단일 사본을 받습니다. [콘텐츠 실험](../content-management/get-started-experiment.md)).
 
 ## 시드 목록 액세스 {#access-seed-lists}
 

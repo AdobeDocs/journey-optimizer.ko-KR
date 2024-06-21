@@ -5,11 +5,11 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-badge: label="제한된 가용성"
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+badge: label="제한 공개"
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 5%
 
 1. 캠페인을 만들고 다음을 선택합니다. **[!UICONTROL 코드 기반 경험]** 작업. [자세히 알아보기](../code-based/create-code-based.md)
 
-1. 캠페인 요약 페이지에서 **[!UICONTROL 실험 만들기]** 콘텐츠 실험 구성을 시작합니다. [자세히 알아보기](../campaigns/content-experiment.md)
+1. 캠페인 요약 페이지에서 **[!UICONTROL 실험 만들기]** 콘텐츠 실험 구성을 시작합니다. [자세히 알아보기](../content-management/content-experiment.md)
 
 1. 다음 항목 선택 **[!UICONTROL 결정]** 아이콘, 클릭 **[!UICONTROL 의사 결정 만들기]** 그리고 결정 세부 사항을 입력합니다. [자세히 알아보기](create-decision.md)
 
@@ -50,7 +50,7 @@ ht-degree: 5%
 
 1. 의사 결정에 대한 선택 전략을 정의합니다. 클릭 **[!UICONTROL 전략 추가]**.
 
-1. 클릭 **[!UICONTROL 만들기]**. 새 결정은 아래에 추가됩니다. **[!UICONTROL 결정]**.
+1. Click **[!UICONTROL Create]**. 새 결정은 아래에 추가됩니다. **[!UICONTROL 결정]**.
 
    ![](assets/decision-code-based-decision-added.png)
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI Assistant를 사용한 콘텐츠 실험
-description: AI Assistant를 사용한 콘텐츠 실험
+title: AI 어시스턴트로 콘텐츠 실험
+description: AI 어시스턴트로 콘텐츠 실험
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,24 +11,24 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
-# AI Assistant를 사용한 콘텐츠 실험 {#generative-experimentation}
+# AI 어시스턴트로 콘텐츠 실험 {#generative-experimentation}
 
 >[!BEGINSHADEBOX]
 
 **목차**
 
 * [AI 어시스턴트 시작하기](gs-generative.md)
-* [AI 어시스턴트로 이메일 생성](generative-email.md)
-* [AI 어시스턴트와 함께하는 SMS 세대](generative-sms.md)
-* [AI Assistant를 사용하여 푸시 생성](generative-push.md)
-* AI Assistant를 사용한 콘텐츠 실험
+* [AI 어시스턴트를 통한 이메일 생성](generative-email.md)
+* [AI 어시스턴트를 통한 SMS 생성](generative-sms.md)
+* [AI 어시스턴트와 함께하는 푸시 세대](generative-push.md)
+* AI 어시스턴트로 콘텐츠 실험
 
 >[!ENDSHADEBOX]
 
@@ -52,11 +52,11 @@ ht-degree: 10%
 
    ![](assets/experiment-genai-3.png)
 
-1. 콘텐츠 실험 창에서 **[!UICONTROL 실험 설정]** 단추를 클릭하여 실험을 구성합니다. [콘텐츠 실험에 대해 자세히 알아보기](../campaigns/content-experiment.md)
+1. 콘텐츠 실험 창에서 **[!UICONTROL 실험 설정]** 단추를 클릭하여 실험을 구성합니다. [콘텐츠 실험에 대해 자세히 알아보기](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. 콘텐츠 실험이 준비되면 캠페인 요약 페이지에서 다음을 클릭할 수 있습니다. **[!UICONTROL 활성화하려면 검토]** 캠페인 요약을 표시합니다. 매개 변수가 잘못되거나 누락된 경우 경고가 표시됩니다. [자세히 알아보기](../campaigns/content-experiment.md#treatment-experiment)
+1. 콘텐츠 실험이 준비되면 캠페인 요약 페이지에서 다음을 클릭할 수 있습니다. **[!UICONTROL 활성화하려면 검토]** 캠페인 요약을 표시합니다. 매개 변수가 잘못되거나 누락된 경우 경고가 표시됩니다. [자세히 알아보기](../content-management/content-experiment.md#treatment-experiment)
 
 1. 캠페인을 시작하기 전에 모든 구성이 올바른지 다시 한 번 확인한 다음 를 클릭합니다. **[!UICONTROL 활성화]**.
 

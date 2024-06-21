@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1848'
 ht-degree: 98%
 
 ---
@@ -174,13 +174,6 @@ ht-degree: 98%
    + [캠페인 만들기](using/campaigns/create-campaign.md)
    + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
    + [캠페인 관리](using/campaigns/modify-stop-campaign.md)
-   + 콘텐츠 실험 {#content-experiment}
-      + [콘텐츠 실험 시작](using/campaigns/get-started-experiment.md)
-      + [콘텐츠 실험 만들기](using/campaigns/content-experiment.md)
-      + [실험 보고서 구성](using/campaigns/reporting-configuration.md)
-      + 기술 노트 {#technotes}
-         + [통계 계산 이해](using/campaigns/experiment-calculations.md)
-         + [실험 보고서의 통계 계산 이해](using/campaigns/experiment-report-calculations.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
 + 이메일 채널 {#email}
    + [이메일 시작](using/email/get-started-email.md)
@@ -283,6 +276,13 @@ ht-degree: 98%
       + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
       + [수동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-manual.md)
       + [자동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-automated.md)
+   + 콘텐츠 실험 작업 {#content-experiment}
+      + [콘텐츠 실험 시작](using/content-management/get-started-experiment.md)
+      + [콘텐츠 실험 만들기](using/content-management/content-experiment.md)
+      + [실험 보고서 구성](using/content-management/reporting-configuration.md)
+      + 기술 노트 {#technotes}
+         + [통계 계산 이해](using/content-management/experiment-calculations.md)
+         + [실험 보고서의 통계 계산 이해](using/content-management/experiment-report-calculations.md)
    + 에셋/이미지 {#assets-images}
       + [Experience Manager Assets 작업](using/content-management/assets.md)
       + [Adobe Stock 작업](using/content-management/stock.md)

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '5371'
 ht-degree: 99%
@@ -114,7 +114,7 @@ ht-degree: 99%
 ## 2023년 10월 {#oct-2023}
 
 * [!DNL Journey Optimizer] 2023년 10월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* [콘텐츠 템플릿](../content-management/content-templates.md), [조각](../content-management/fragments.md), [계산된 속성](../audience/computed-attributes.md), [다이렉트 메일](../direct-mail/get-started-direct-mail.md), [태그](../start/search-filter-categorize.md#tags), [의사 결정 관리 최적화 모델](../offers/ranking/personalized-optimization-model.md), [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md), [콘텐츠 실험](../campaigns/content-experiment.md) 등 몇 가지 주요 기능을 설명하는 GIF를 추가했습니다.
+* [콘텐츠 템플릿](../content-management/content-templates.md), [조각](../content-management/fragments.md), [계산된 속성](../audience/computed-attributes.md), [다이렉트 메일](../direct-mail/get-started-direct-mail.md), [태그](../start/search-filter-categorize.md#tags), [의사 결정 관리 최적화 모델](../offers/ranking/personalized-optimization-model.md), [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md), [콘텐츠 실험](../content-management/content-experiment.md) 등 몇 가지 주요 기능을 설명하는 GIF를 추가했습니다.
 * 스키마 만들기 프로세스에 Adobe Experience Platform 변화에 따른 사용자 인터페이스의 최신 업데이트를 반영하여 업데이트했습니다. [자세히 보기](../audience/creating-test-profiles.md)
 * 의사 결정 관리 가드레일을 가드레일 및 제한 사항 페이지에 추가했습니다. [자세히 보기](../start/guardrails.md#decision-management)
 * 헤더 매개변수 섹션에 부재중 알림 및 시도 응답 처리 방식(**[!UICONTROL 오류 이메일]**&#x200B;로 수신)을 업데이트했습니다. [자세히 보기](../email/email-settings.md#email-header)

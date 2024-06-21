@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '4251'
 ht-degree: 2%
@@ -134,7 +135,7 @@ KPI는 캠페인에 사용된 채널에 따라 달라집니다.
 
 * **[!UICONTROL 상승도]**: 기준선에 대한 해당 처리의 전환율 개선 비율을 측정합니다.
 
-* **[!UICONTROL 신뢰도]**: 주어진 치료가 기준 치료와 동일하다는 증거. [자세히 알아보기](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 신뢰도]**: 주어진 치료가 기준 치료와 동일하다는 증거. [자세히 알아보기](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
 
@@ -143,7 +144,7 @@ KPI는 캠페인에 사용된 채널에 따라 달라집니다.
 ![](assets/cja-experimentation-variants.png)
 
 다음 **[!UICONTROL 인바운드 클릭수로 변형]** 위젯은 각 변형의 성능을 자세히 설명합니다.
-이러한 결과에 대한 자세한 내용과 해석 방법은 다음을 참조하십시오. [이 페이지](../campaigns/get-started-experiment.md#interpret-results).
+이러한 결과에 대한 자세한 내용과 해석 방법은 다음을 참조하십시오. [이 페이지](../content-management/get-started-experiment.md#interpret-results).
 
 +++ 인바운드 클릭수로 인한 변형 지표에 대해 자세히 알아보기
 
@@ -155,7 +156,7 @@ KPI는 캠페인에 사용된 채널에 따라 달라집니다.
 
 * **[!UICONTROL 상승도]**: 기준선에 대한 해당 처리의 전환율 개선 비율을 측정합니다.
 
-* **[!UICONTROL 신뢰도]**: 주어진 치료가 기준 치료와 동일하다는 증거. [자세히 알아보기](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 신뢰도]**: 주어진 치료가 기준 치료와 동일하다는 증거. [자세히 알아보기](../content-management/experiment-calculations.md#understand-confidence)
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
@@ -167,7 +168,7 @@ KPI는 캠페인에 사용된 채널에 따라 달라집니다.
 
 ![](assets/cja-experimentation-conversion.png)
 
-다음 **[!UICONTROL 신뢰 구간]** 그래프는 개선 관련 불확실성을 측정합니다. 기준 처리와 최상의 성능 처리 사이의 성능 차이를 백분율로 자세히 설명합니다. [자세히 알아보기](../campaigns/experiment-calculations.md#confidence-intervals).
+다음 **[!UICONTROL 신뢰 구간]** 그래프는 개선 관련 불확실성을 측정합니다. 기준 처리와 최상의 성능 처리 사이의 성능 차이를 백분율로 자세히 설명합니다. [자세히 알아보기](../content-management/experiment-calculations.md#confidence-intervals).
 
 ## 이메일 {#email-global}
 
@@ -784,4 +785,3 @@ KPI는 캠페인에 사용된 채널에 따라 달라집니다.
 * **[!UICONTROL 고유 디스플레이]**: 메시지가 열린 횟수로서, 한 프로필의 여러 상호 작용을 고려하지 않습니다.
 
 +++
-

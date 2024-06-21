@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="텍스트 메시지 만들기"
->abstract="문자 메시지(SMS/MMS)를 만들려면 여정 또는 캠페인에 SMS 작업을 추가하고 개인화 편집기로 개인화를 시작합니다."
+>abstract="문자 메시지(SMS/MMS)를 만들려면 여정이나 캠페인에 SMS 작업을 추가하고 개인화 편집기로 개인화를 시작합니다."
 
 Adobe Journey Optimizer을 사용하여 텍스트(SMS) 및 멀티미디어(MMS) 메시지를 디자인하고 보낼 수 있습니다. 먼저 여정 또는 캠페인에 SMS 작업을 추가한 다음 아래에 설명된 대로 텍스트 메시지의 콘텐츠를 정의해야 합니다. Adobe Journey Optimizer은 전송 전에 텍스트 메시지를 테스트하여 렌더링, 개인화 속성 및 기타 모든 설정을 확인할 수 있는 기능도 제공합니다.
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer을 사용하여 텍스트(SMS) 및 멀티미디어(MMS) 
 
    ![](assets/sms_create_5.png)
 
-1. 클릭 **[!UICONTROL 실험 만들기]** 콘텐츠 실험 구성을 시작하고 처리를 만들어 성능을 측정하고 타겟 대상자에 대한 최상의 옵션을 식별합니다. [자세히 알아보기](../campaigns/content-experiment.md)
+1. 클릭 **[!UICONTROL 실험 만들기]** 콘텐츠 실험 구성을 시작하고 처리를 만들어 성능을 측정하고 타겟 대상자에 대한 최상의 옵션을 식별합니다. [자세히 알아보기](../content-management/content-experiment.md)
 
 1. 다음에서 **[!UICONTROL 작업 추적]** 섹션에서 SMS 메시지의 링크 클릭을 추적할지 여부를 지정합니다.
 
@@ -91,7 +91,7 @@ Adobe Journey Optimizer을 사용하여 텍스트(SMS) 및 멀티미디어(MMS) 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="SMS 콘텐츠 정의"
->abstract="개인화 편집기를 사용하여 콘텐츠를 정의하고 동적 요소를 통합하여 텍스트 메시지(SMS/MMS)를 사용자 정의하고 개인화할 수 있습니다."
+>abstract="개인화 편집기를 사용하여 콘텐츠를 정의하고 동적 요소를 통합하여 문자 메시지(SMS/MMS)를 사용자 정의하고 개인화합니다."
 
 SMS 콘텐츠를 구성하려면 아래 단계를 따르십시오. MMS 설정에 대한 자세한 내용은 [이 섹션](#mms-content).
 
@@ -109,7 +109,7 @@ SMS 콘텐츠를 구성하려면 아래 단계를 따르십시오. MMS 설정에
 
    >[!CAUTION]
    >
-   > SMS 하위 도메인에 액세스하고 편집하려면 **[!UICONTROL SMS 하위 도메인 관리]** 프로덕션 샌드박스에 대한 권한. 의 권한에 대해 자세히 알아보기 [이 섹션](../administration/high-low-permissions.md).
+   > SMS 하위 도메인에 액세스하고 편집하려면 **[!UICONTROL SMS 하위 도메인 관리]** 프로덕션 샌드박스에 대한 권한. [이 섹션](../administration/high-low-permissions.md)에서 권한에 대해 자세히 알아보십시오.
 
    ![](assets/sms_tracking_1.png)
 
@@ -155,7 +155,7 @@ MMS 콘텐츠를 만들려면 다음 단계를 수행합니다.
 
 테스트를 수행하고 콘텐츠의 유효성을 검사하면 대상자에게 문자 메시지를 보낼 수 있습니다. 다음 단계는에 자세히 설명되어 있습니다. [이 페이지](send-sms.md)
 
-전송되면 캠페인 또는 여정 보고서 내에서 SMS의 영향을 측정할 수 있습니다. 보고에 대한 자세한 내용은 [이 섹션](../reports/campaign-global-report.md#sms-tab).
+전송되면 캠페인 또는 여정 보고서 내에서 SMS의 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../reports/campaign-global-report.md#sms-tab)을 참조하십시오.
 
 **관련 항목**
 

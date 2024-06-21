@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
->title="푸시 메시지 작성"
->abstract="푸시 메시지를 추가하고 개인화 편집기를 사용하여 개인화를 시작합니다."
+>title="푸시 메시지 생성"
+>abstract="푸시 메시지를 추가하고 개인화 편집기로 개인화를 시작합니다."
 
 ## 여정 또는 캠페인에서 푸시 알림 만들기 {#create}
 
@@ -70,7 +70,7 @@ ht-degree: 6%
 
    ![](assets/push_create_5.png)
 
-1. 클릭 **[!UICONTROL 실험 만들기]** 콘텐츠 실험 구성을 시작하고 처리를 만들어 성능을 측정하고 타겟 대상자에 대한 최상의 옵션을 식별합니다. [자세히 알아보기](../campaigns/content-experiment.md)
+1. 클릭 **[!UICONTROL 실험 만들기]** 콘텐츠 실험 구성을 시작하고 처리를 만들어 성능을 측정하고 타겟 대상자에 대한 최상의 옵션을 식별합니다. [자세히 알아보기](../content-management/content-experiment.md)
 
 1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. 구성 방법 알아보기 **[!UICONTROL 예약]** 의 내 캠페인 [이 섹션](../campaigns/create-campaign.md#schedule).
 
@@ -101,7 +101,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="빠른 전송 모드"
->abstract="빠른 전송 모드를 사용하면 푸시 채널에서 30M 미만의 대상자에게 고속 메시지 전송을 수행할 수 있습니다."
+>abstract="빠른 전송 모드를 사용하면 푸시 채널에서 3000만 명 미만의 대상자에게 고속 메시지 전송 작업을 수행할 수 있습니다."
 
 빠른 전송 모드는 [!DNL Journey Optimizer] 캠페인을 통해 매우 빠른 푸시 메시지를 대량으로 전송할 수 있는 추가 기능입니다.
 
