@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1722'
 ht-degree: 8%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="재등록 허용"
->abstract="기본적으로 새 여정은 다시 입력할 수 있습니다. 다음을 선택 취소할 수 있습니다. **재등록 허용** 예를 들어 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 방&quot; 여정에 대한 옵션을 선택합니다."
+>abstract="기본적으로 새 여정은 다시 입력할 수 있습니다. 다음을 선택 취소할 수 있습니다. **재등록 허용** 예를 들어 한 사람이 상점에 입장할 때 일회성 선물을 제공하려는 경우 옵션을 선택합니다."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
 
 기본적으로 새 여정은 다시 입력할 수 있습니다. 다음을 선택 취소할 수 있습니다. **재등록 허용** 예를 들어 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 방&quot; 여정에 대한 옵션을 선택합니다.
@@ -107,7 +107,7 @@ ht-degree: 8%
 ### 여정 활동의 시간 초과 또는 오류 {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timout"
+>id="ajo_journey_properties_timeout"
 >title="시간 초과"
 >abstract="시간 초과로 간주하기 전에 여정이 작업을 실행하거나 조건을 확인하는 데 사용할 시간을 정의합니다."
 
