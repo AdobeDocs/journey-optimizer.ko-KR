@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: 522f1815ae6de33f9e0a7ea598d52c8e88d2ff0d
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 62%
+source-wordcount: '760'
+ht-degree: 63%
 
 ---
 
@@ -222,4 +222,4 @@ ht-degree: 62%
 
 **DM 채널**
 
-* 이제 Adobe을 구입한 조직에 대해 DM 채널을 사용할 수 있습니다 **헬스케어 실드** 및 **개인 정보 보호 및 보안 보호** 추가 기능 제공.
+* 이제 모든 고객이 DM 채널을 사용할 수 있습니다. [자세히 보기](../direct-mail/get-started-direct-mail.md)
