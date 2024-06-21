@@ -8,29 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
-hide: true
-hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 16%
+source-wordcount: '191'
+ht-degree: 5%
 
 ---
 
 # 다국어 캠페인 보고서 {#multilingual-campaign-report}
-
->[!BEGINSHADEBOX]
-
-**목차**
-
-* [다국어 콘텐츠 시작](multilingual-gs.md)
-* [수동 번역을 사용하여 다국어 콘텐츠 만들기](multilingual-manual.md)
-* [자동 번역을 사용하여 다국어 콘텐츠 만들기](multilingual-automated.md)
-* 다국어 캠페인 보고서
-
->[!ENDSHADEBOX]
 
 전역 보고서, 다음에서 액세스 가능: **모든 시간** 탭에는 최소 2시간 전에 발생한 이벤트가 표시되며, 선택한 기간 동안의 이벤트도 표시됩니다. Campaign 글로벌 보고서는 Campaign에서 **[!UICONTROL 보고서 보기]** 단추를 클릭합니다.
 

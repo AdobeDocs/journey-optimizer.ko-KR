@@ -8,31 +8,22 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
-hide: true
-hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+badge: label="제한된 가용성" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 6%
+source-wordcount: '615'
+ht-degree: 4%
 
 ---
 
 # 수동 번역을 사용하여 다국어 콘텐츠 만들기 {#multilingual-manual}
 
->[!BEGINSHADEBOX]
+>[!AVAILABILITY]
+>
+>다국어 컨텐츠는 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
-**목차**
-
-* [다국어 콘텐츠 시작](multilingual-gs.md)
-* 수동 번역을 사용하여 다국어 콘텐츠 만들기
-* [자동 번역을 사용하여 다국어 콘텐츠 만들기](multilingual-automated.md)
-* [다국어 캠페인 보고서](multilingual-report.md)
-
->[!ENDSHADEBOX]
-
-수동 흐름을 사용하면 이메일, 푸시 알림 또는 SMS 캠페인에서 바로 콘텐츠를 손쉽게 번역할 수 있으므로 다국어 메시지에 대한 정확한 제어 및 사용자 지정 옵션을 제공합니다. 또한 HTML 가져오기 옵션을 사용하여 기존 다국어 콘텐츠를 쉽게 가져올 수 있습니다.
+수동 흐름을 사용하면 이메일, 푸시 알림 또는 SMS 캠페인 및 여정에서 콘텐츠를 손쉽게 직접 번역할 수 있으므로 다국어 메시지에 대한 정확한 제어 및 사용자 지정 옵션을 제공합니다. 또한 HTML 가져오기 옵션을 사용하여 기존 다국어 콘텐츠를 쉽게 가져올 수 있습니다.
 
 수동 번역을 사용하여 다국어 콘텐츠를 만들려면 다음 단계를 따르십시오.
 
@@ -40,15 +31,13 @@ ht-degree: 6%
 
 1. [언어 설정 만들기](#create-language-settings).
 
-1. [다국어 캠페인 만들기](#create-a-multilingual-campaign).
+1. [다국어 콘텐츠 만들기](#create-a-multilingual-campaign).
 
 ## 로케일 만들기 {#create-locale}
 
 다음에 설명된 대로 언어 설정을 구성할 때 [언어 설정 만들기](#language-settings) 섹션, 특정 로케일을 다국어 콘텐츠에 사용할 수 없는 경우 **[!UICONTROL 번역]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-1. 다음에서 **[!UICONTROL 관리]** 메뉴, 액세스 **[!UICONTROL 채널]**.
-
-   번역 메뉴를 통해 활성화된 로케일 목록에 액세스할 수 있습니다.
+1. 다음에서 **[!UICONTROL 콘텐츠 관리]** 메뉴, 액세스 **[!UICONTROL 번역]**.
 
 1. 다음에서 **[!UICONTROL 로케일 사전]** 탭을 클릭하고 **[!UICONTROL 로케일 추가]**.
 
@@ -104,15 +93,15 @@ ht-degree: 6%
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## 다국어 캠페인 만들기 {#create-multilingual-campaign}
+## 다국어 콘텐츠 만들기 {#create-multilingual-campaign}
 
-다국어 콘텐츠를 설정한 후에는 캠페인을 제작하고 선택한 각 로케일에 대한 콘텐츠를 사용자 지정할 수 있습니다.
+다국어 콘텐츠를 설정한 후에는 캠페인이나 여정을 제작하고 선택한 각 로케일에 대한 콘텐츠를 사용자 지정할 수 있습니다.
 
-1. 먼저 요구 사항에 따라 이메일, SMS 또는 푸시 알림 캠페인을 만들고 구성합니다. [자세히 알아보기](../campaigns/create-campaign.md)
+1. 이메일, SMS 또는 푸시 알림을 만들고 구성하는 것으로 시작합니다 [campaign](../campaigns/create-campaign.md) 또는 [여정](../building-journeys/journeys-message.md) 귀하의 요구 사항에 따라.
 
-1. 다음 위치로 이동 **[!UICONTROL 작업]** 메뉴 및 선택 **[!UICONTROL 콘텐츠 편집]**.
-
-   ![](assets/multilingual-campaign-1.png)
+   >[!AVAILABILITY]
+   >
+   >여정 당 하나의 번역 프로젝트만 포함하는 것이 좋습니다.
 
 1. 원래 콘텐츠를 만들거나 가져온 후 필요에 따라 개인화합니다.
 
@@ -148,11 +137,7 @@ ht-degree: 6%
 
    ![](assets/multilingual-campaign-8.png)
 
-1. 캠페인이 올바르게 구성되었는지 확인한 다음, **[!UICONTROL 활성화]**.
-
-이제 캠페인이 활성화되었습니다. 캠페인에 구성된 메시지는 즉시 전송되거나 지정된 날짜에 전송됩니다. Campaign이 라이브되는 즉시 수정할 수 없습니다. 콘텐츠를 재사용하기 위해 캠페인을 복제할 수 있습니다.
-
-전송되면 캠페인 보고서 내에서 캠페인의 영향을 측정할 수 있습니다.
+이제 캠페인이나 여정을 활성화할 수 있습니다. 전송되면 보고서 내에서 다국어 여정 또는 캠페인의 영향을 측정할 수 있습니다.
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

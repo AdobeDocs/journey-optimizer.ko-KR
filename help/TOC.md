@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1846'
 ht-degree: 98%
 
 ---
@@ -283,7 +283,6 @@ ht-degree: 98%
       + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
       + [수동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-manual.md)
       + [자동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-automated.md)
-      + [다국어 캠페인 보고서](using/content-management/multilingual-report.md)
    + 에셋/이미지 {#assets-images}
       + [Experience Manager Assets 작업](using/content-management/assets.md)
       + [Adobe Stock 작업](using/content-management/stock.md)
