@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 메시지 추적
-description: 링크를 추가하고 보낸 메시지를 추적하는 방법에 대해 알아보기
+description: 링크를 추가하고 전송된 메시지를 추적하는 방법 알아보기
 feature: Email Design, Monitoring
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 3%
+ht-degree: 35%
 
 ---
 
@@ -53,9 +53,9 @@ ht-degree: 3%
 >
 >날짜 [추적이 활성화됨](#enable-tracking), 메시지 콘텐츠에 포함된 모든 링크가 추적됩니다.
 
-이메일 콘텐츠에 링크를 삽입하려면 아래 단계를 따르십시오.
+이메일 콘텐츠에 링크를 삽입하려면 다음 단계를 따르십시오.
 
-1. 요소를 선택하고 **[!UICONTROL 링크 삽입]** 상황별 도구 모음에서 작성합니다.
+1. 요소를 선택하고 상황별 도구 모음에서 **[!UICONTROL 링크 삽입]**&#x200B;을 클릭합니다.
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -95,15 +95,15 @@ ht-degree: 3%
 
 다음을 사용하여 링크를 조정할 수 있습니다. **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 오른쪽 창. 링크에 밑줄을 긋고 색상을 편집한 다음 대상을 선택할 수 있습니다.
 
-1. 다음 기간 **[!UICONTROL 텍스트]** 링크가 삽입된 구성 요소에서 링크를 선택합니다.
+1. 링크가 삽입된 **[!UICONTROL 텍스트]** 구성 요소에서 링크를 선택합니다.
 
 1. 다음에서 **[!UICONTROL 설정]** 탭에서 대상자를 리디렉션할 방법을 선택합니다. **[!UICONTROL Target]** 드롭다운:
 
-   * **[!UICONTROL 없음]**: 클릭한 프레임과 동일한 프레임에서 링크를 엽니다(기본값).
-   * **[!UICONTROL 비어 있음]**: 새 창이나 탭에서 링크를 엽니다.
-   * **[!UICONTROL 자가]**: 클릭한 프레임과 동일한 프레임에서 링크를 엽니다.
-   * **[!UICONTROL 상위]**: 상위 프레임에서 링크를 엽니다.
-   * **[!UICONTROL 상단]**: 창의 전체 본문에서 링크를 엽니다.
+   * **[!UICONTROL None]**: 링크를 클릭한 프레임과 동일한 프레임에서 링크를 엽니다(기본값).
+   * **[!UICONTROL Blank]**: 새 창이나 탭에서 링크를 엽니다.
+   * **[!UICONTROL Self]**: 링크를 클릭한 프레임과 동일한 프레임에서 링크를 엽니다.
+   * **[!UICONTROL Parent]**: 상위 프레임에서 링크를 엽니다.
+   * **[!UICONTROL Top]**: 최상위 창에서 링크를 엽니다.
 
    ![](assets/link_2.png)
 
@@ -111,7 +111,7 @@ ht-degree: 3%
 
    ![](assets/link_1.png)
 
-1. 링크의 색상을 변경하려면 를 클릭합니다. **[!UICONTROL 링크 색상]** 다음에서 **[!UICONTROL 스타일]** 탭.
+1. 링크 색상을 변경하려면 **[!UICONTROL 스타일]** 탭에서 **[!UICONTROL 링크 색상]**&#x200B;을 클릭합니다.
 
    ![](assets/link_3.png)
 
@@ -129,9 +129,9 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->미러 페이지 링크는 자동 생성되며 편집할 수 없습니다. 여기에는 원본 이메일을 렌더링하는 데 필요한 암호화된 개인화된 모든 데이터가 포함됩니다. 그 결과, 값이 큰 개인화된 속성을 사용하면 미러 페이지 URL이 길어질 수 있으므로 최대 URL 길이를 갖는 웹 브라우저에서 링크가 작동하지 않을 수 있습니다.
+>미러 페이지 링크는 자동 생성되며 편집할 수 없습니다. 여기에는 원본 이메일을 렌더링하는 데 필요한 모든 암호화 및 개인화된 데이터가 포함되어 있습니다. 따라서 값이 큰 개인화된 속성을 사용하면 미러 페이지 URL이 길어질 수 있으며 이로 인해 최대 URL 길이 제한이 있는 웹 브라우저에서 링크가 작동하지 않을 수 있습니다.
 
-이메일이 전송되면 수신자가 미러 페이지 링크를 클릭하면 이메일의 콘텐츠가 기본 웹 브라우저에 표시됩니다.
+이메일이 전송된 후 수신자가 미러 페이지 링크를 클릭하면 이메일 콘텐츠가 기본 웹 브라우저에 표시됩니다.
 
 >[!NOTE]
 >
@@ -141,24 +141,24 @@ ht-degree: 3%
 
 ## 추적 관리 {#manage-tracking}
 
-다음 [이메일 디자이너](content-from-scratch.md) 에서는 각 링크에 대한 추적 유형 편집과 같이 추적된 URL을 관리할 수 있습니다.
+[이메일 디자이너](content-from-scratch.md)를 통해 각 링크에 대한 추적 유형을 편집하는 등 추적된 URL을 관리할 수 있습니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL 링크]** 왼쪽 창의 아이콘을 클릭하면 추적할 콘텐츠의 모든 URL 목록이 표시됩니다.
 
-   이 목록을 사용하면 중앙에서 볼 수 있으며 이메일 콘텐츠에서 각 URL을 찾을 수 있습니다.
+   이 목록을 통해 URL을 중앙 집중식으로 볼 수 있으며 이메일 콘텐츠에서 각 URL을 찾을 수 있습니다.
 
 1. 링크를 편집하려면 해당 연필 아이콘을 클릭합니다.
 
-1. 다음을 수정할 수 있습니다. **[!UICONTROL 추적 유형]** 필요한 경우:
+1. 필요한 경우 **[!UICONTROL 추적 유형]**&#x200B;을 수정할 수 있습니다.
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   추적된 각 URL에 대해 추적 모드를 다음 값 중 하나로 설정할 수 있습니다.
+   추적된 각 URL에 대해 추적 모드를 다음 중 원하는 값으로 설정할 수 있습니다.
 
    * **[!UICONTROL 추적됨]**: 이 URL에 대한 추적을 활성화합니다.
    * **[!UICONTROL 옵트아웃]**: 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
    * **[!UICONTROL 미러 페이지]**: 이 URL을 미러 페이지 URL로 간주합니다.
-   * **[!UICONTROL 사용 안 함]**: 이 URL의 추적을 활성화하지 않습니다. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL 사용 안 함]**: 이 URL의 추적을 활성화하지 않습니다.
 
 열기 및 클릭에 대한 보고는 [라이브 보고서](../reports/live-report.md) 및 [글로벌 보고서](../reports/global-report.md).
 

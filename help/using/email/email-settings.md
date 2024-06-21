@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '2415'
-ht-degree: 1%
+source-wordcount: '2532'
+ht-degree: 10%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 1%
 
 아래에 자세히 설명된 대로 채널 표면 구성의 전용 섹션에서 이메일 설정을 정의합니다.
 
-![](assets/preset-email-settings.png)
+![](assets/surface-email-settings.png){width="50%" align="left"}
 
 아래 논리에 따라 통신을 전송하기 위해 이메일 표면 구성이 선택됩니다.
 
-* 배치 여정의 경우 이메일 표면 구성이 만들어지기 전에 이미 시작된 배치 실행에는 적용되지 않습니다. 변경 사항은 다음 반복 또는 새 실행 시 선택됩니다.
+* 배치 여정의 경우 이메일 표면 구성이 만들어지기 전에 이미 시작된 배치 실행에는 적용되지 않습니다. 다음 반복 또는 새 실행 시 변경 사항이 선택됩니다.
 
 * 트랜잭션 메시지의 경우 다음 통신(최대 5분 지연)을 위해 변경 사항이 즉시 선택됩니다.
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="이메일 유형 정의"
->abstract="이 표면을 사용할 때 보낼 이메일 유형을 선택합니다. 사용자 동의가 필요한 홍보 이메일의 마케팅 또는 특정 컨텍스트의 구독 취소 프로필에도 보낼 수 있는 비상업적 이메일의 트랜잭션."
+>abstract="이 표면 사용 시 전송할 이메일 유형 선택. 사용자 동의가 필요한 프로모션 이메일을 위한 마케팅 또는 특정 컨텍스트에서 구독 해지 프로필로 전송할 수도 있는 비상업적 이메일을 위한 트랜잭션."
 
 다음에서 **이메일 유형** 섹션에서 서피스에 대한 메시지 유형을 선택합니다. **[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**.
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 표면과 연결할 IP 풀을 선택합니다. [자세히 알아보기](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 선택한 IP 풀이 아래에 있는 동안에는 표면 생성을 계속할 수 없습니다. [에디션](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 처리 중]** 상태) 및 은(는) 선택한 하위 도메인과 연결된 적이 없습니다. 그렇지 않으면 가장 오래된 버전의 IP 풀/하위 도메인 연결이 계속 사용됩니다. 이 경우 표면을 초안으로 저장하고 IP 풀에 가 있으면 다시 시도하십시오. **[!UICONTROL 성공]** 상태.
 
@@ -81,41 +81,48 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 >
 >PTR 기록이 구성되지 않은 경우 Adobe 담당자에게 문의하십시오.
 
-## 목록 구독 취소 {#list-unsubscribe}
+## 목록 구독 취소 헤더{#list-unsubscribe}
+
+<!--Do not modify - Legal Review Done -->
+
 
 다음 일자에 [하위 도메인 선택](#subdomains-and-ip-pools) 목록에서 **[!UICONTROL 목록 구독 취소 활성화]** 옵션이 표시됩니다.
 
-이 옵션은 기본적으로 활성화되어 있습니다. 구독 취소 링크를 활성화하면 다음과 같이 이메일 헤더에 자동으로 포함됩니다.
+이 옵션은 기본적으로 활성화되어 이메일 헤더에 다음과 같은 원클릭 구독 취소 URL을 포함합니다.
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-이 옵션을 비활성화하면 이메일 헤더에 구독 취소 링크가 표시되지 않습니다.
+이 옵션을 비활성화하면 원클릭 구독 취소 URL이 이메일 헤더에 표시되지 않습니다.
 
-다음에서 동의 수준을 선택할 수 있습니다. **동의 수준** 드롭다운 목록입니다. 채널 또는 프로필 ID에만 해당될 수 있습니다. 이 설정을 기반으로 사용자가 이메일의 목록 구독 취소 헤더 링크를 사용하여 구독을 취소하면 Adobe Journey Optimizer에서 채널 수준 또는 ID 수준에서 동의가 업데이트됩니다.
+다음에서 동의 수준을 선택할 수 있습니다. **[!UICONTROL 동의 수준]** 드롭다운 목록입니다. 채널 또는 프로필 ID에만 해당될 수 있습니다. 이 설정을 기반으로 사용자가 이메일 헤더에 있는 구독 취소 URL 목록을 사용하여 구독을 취소하면 Adobe Journey Optimizer에서 채널 수준 또는 ID 수준에서 동의가 업데이트됩니다.
 
-구독 취소 링크는 다음 두 가지 요소로 구성됩니다.
+목록 구독 취소 헤더에는 두 개의 기능(Mailto 및 아래 설명된 대로 원클릭 구독 취소 URL)이 포함되어 있으며, 이 기능은 한 개 또는 두 개의 기능을 모두 선택 취소하지 않는 한 기본적으로 활성화됩니다.
 
-* An **이메일 주소 구독 취소**- 모든 구독 취소 요청이 전송됩니다.
+* A **Mailto(구독 취소)** address - 자동 처리를 위해 구독 취소 요청이 라우팅되는 대상 주소입니다.
 
-  위치 [!DNL Journey Optimizer], 구독 취소 이메일 주소가 기본값입니다 **[!UICONTROL Mailto(구독 취소)]** 를 기반으로 하여 채널 표면에 표시되는 주소 [선택한 하위 도메인](#subdomains-and-ip-pools).
+  Journey Optimizer에서 구독 취소 이메일 주소가 기본값입니다 **Mailto(구독 취소)** 다음에 준하여 채널 표면에 표시되는 주소 [선택한 하위 도메인](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
 
-* 다음 **구독 취소 URL**: 사용자가 가입 해지되면 리디렉션되는 랜딩 페이지의 URL입니다.
 
-  을(를) 추가하는 경우 [원클릭 옵트아웃 링크](../privacy/opt-out.md#one-click-opt-out) 이 표면을 사용하여 만든 메시지의 구독 취소 URL은 원클릭 옵트아웃 링크에 대해 정의된 URL이 됩니다.
+* 다음 **한 번의 클릭으로 구독 취소 URL**, 기본적으로 사용자가 설정하고 채널 표면 설정에서 구성한 하위 도메인을 기반으로 한 원클릭 선택 URL 생성 목록 구독 취소 헤더입니다.
 
-  ![](assets/preset-list-unsubscribe-opt-out-url.png)
+<!--
+    >[!AVAILABILITY]
+    >
+    >One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
+    >
+-->
 
-  >[!NOTE]
-  >
-  >메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않으면 랜딩 페이지가 사용자에게 표시되지 않습니다.
+다음 **[!UICONTROL Mailto(구독 취소)]** 기능 및 **[!UICONTROL 한 번의 클릭으로 구독 취소 URL]** 기능은 선택 사항입니다. 생성된 기본 원클릭 구독 취소 URL을 사용하지 않으려면 이 기능을 선택 취소할 수 있습니다. 다음과 같은 시나리오에서 **[!UICONTROL 옵트아웃 구성]** 옵션이 켜지고 **[!UICONTROL 한 번의 클릭으로 구독 취소 URL]** 을(를) 추가하면 기능이 선택 취소됩니다. [원클릭 옵트아웃 링크](../privacy/opt-out.md#one-click-opt-out) 이 표면을 사용하여 만든 메시지에 대해 구독 취소 헤더 목록은 이메일 본문에 삽입한 원클릭 옵트아웃 링크를 선택하고 이를 원클릭 구독 취소 URL 값으로 사용합니다.
 
-메시지에 헤더 구독 취소 링크를 추가하는 방법에 대해 자세히 알아보기 [이 섹션](../privacy/opt-out.md#unsubscribe-header).
+![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+>[!NOTE]
+>
+>메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 표면 설정에서 기본 원클릭 구독 취소 URL이 선택 취소된 경우 URL이 목록 구독 취소 헤더의 일부로 이메일 헤더에 전달되지 않습니다.
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
+메시지에서 구독 취소 기능을 관리하는 방법에 대해 자세히 알아보기 [이 섹션](../email/email-opt-out.md#unsubscribe-header).
 
 ## 헤더 매개 변수 {#email-header}
 
@@ -196,13 +203,13 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 이메일 표면 제출 시 오류가 발생하면 입력한 주소의 하위 도메인에 대해 MX 레코드가 구성되지 않은 것입니다. 해당 MX 레코드를 구성하려면 관리자에게 문의하거나 다른 주소를 유효한 MX 레코드 구성과 함께 사용하십시오.
 
-## 억제된 이메일 주소로 보내기 {#send-to-suppressed-email-addresses}
+## 표시되지 않는 이메일 주소로 보내기 {#send-to-suppressed-email-addresses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
->title="제외 목록 우선 순위 재정의"
->abstract="스팸 고객 불만으로 인해 해당 이메일 주소가 Adobe Journey Optimizer 제외 목록에 있는 경우에도 프로필로 트랜잭션 메시지를 보내도록 결정할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=ko" text="제외 목록 관리"
+>title="금지 목록 우선 순위 무시"
+>abstract="스팸 불만 사항으로 인해 이메일 주소가 Adobe Journey Optimizer 금지 목록에 포함된 경우에도 해당 프로필에 트랜잭션 메시지를 보내도록 결정할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=ko" text="금지 목록 관리"
 
 >[!IMPORTANT]
 >
@@ -231,8 +238,8 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="시드 목록 추가"
->abstract="대상의 특정 내부 주소를 자동으로 추가하려면 선택한 시드 목록을 선택하십시오. 이러한 시드 주소는 게재 실행 시 포함되며 확인을 위해 메시지의 정확한 사본을 받게 됩니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="시드 목록이란 무엇입니까?"
+>abstract="특정 내부 주소를 대상자에게 자동으로 추가하려면 원하는 시드 목록을 선택하십시오. 이들 시드 주소는 게재 실행 시간에 포함되며 보증 목적으로 정확한 메시지의 사본을 수신하게 됩니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=ko-KR#use-seed-list" text="시드 목록이란 무엇입니까?"
 
 의 시드 목록 [!DNL Journey Optimizer] 을 사용하면 게재에 특정 이메일 시드 주소를 자동으로 포함할 수 있습니다. [자세히 알아보기](../configuration/seed-lists.md)
 
@@ -252,13 +259,13 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 의 여정 또는 캠페인에서 시드 목록을 사용하는 방법 알아보기 [이 섹션](../configuration/seed-lists.md#use-seed-list).
 
-## 이메일 재시도 매개 변수 {#email-retry}
+## 이메일 재시도 매개변수 {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="재시도 기간 조정"
->abstract="임시 소프트 바운스 오류로 인해 이메일 게재에 실패하면 3.5일(84시간) 동안 다시 시도합니다. 필요에 따라 이 기본 재시도 기간을 조정할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="다시 시도 정보"
+>abstract="일시적인 소프트 바운스 오류로 인해 이메일을 게재하지 못하면 3.5일(84시간)간 재시도를 수행합니다. 필요에 맞게 이 기본 재시도 기간을 조정할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=ko-KR" text="재시도 정보"
 
 다음을 구성할 수 있습니다. **이메일 재시도 매개 변수**.
 
@@ -278,13 +285,13 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="URL 추적 매개 변수 정의"
->abstract="이 섹션을 사용하여 추적 매개 변수를 이메일 콘텐츠에 있는 URL에 자동으로 추가합니다. 이 기능은 선택 사항입니다."
+>title="URL 추적 매개변수 정의"
+>abstract="이 섹션을 사용하여 추적 매개변수를 이메일 콘텐츠에 있는 URL에 자동으로 추가합니다. 이 기능은 선택 사항입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="URL 추적 매개 변수 미리 보기"
->abstract="추적 매개 변수가 이메일 콘텐츠에 있는 URL에 추가되는 방법을 검토하십시오."
+>title="URL 추적 매개변수 미리보기"
+>abstract="추적 매개변수를 이메일 콘텐츠에 있는 URL에 추가하는 방법을 확인합니다."
 
 다음을 사용할 수 있습니다. **[!UICONTROL URL 추적 매개 변수]** 채널 전반에서 마케팅 활동의 효과를 측정합니다. 이 기능은 선택 사항입니다.
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+source-git-commit: da5b8d6c95e76af98b27ffcff11e75c26b90200a
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '431'
 ht-degree: 100%
 
 ---
@@ -45,21 +45,20 @@ ht-degree: 100%
 또는
    * 구성 사용자 인터페이스&#x200B;**에서[!DNL Journey Optimizer]** 위임된 하위 도메인에 DMARC를 설정합니다. [방법 알아보기](dmarc-record.md#implement-dmarc)
 
-  >[!IMPORTANT]
-  >
-  >그러나 CNAME 설정을 사용하려면 호스팅 솔루션에 몇 가지 추가 항목이 필요합니다. 따라서 IT 부서에서 [이 섹션](dmarc-record.md#implement-dmarc)에 설명된 업데이트를 수행할 수 있게 해야 합니다.
+  그러나 CNAME 설정을 사용하려면 호스팅 솔루션에 몇 가지 추가 항목이 필요합니다. 따라서 IT 부서에서 [이 섹션](dmarc-record.md#implement-dmarc)에 설명된 업데이트를 수행할 수 있게 해야 합니다.
 
-Google과 Yahoo!가 공유하는 가장 최근 타임라인은 다음과 같습니다.
+<!--The most recent timelines shared by Google and Yahoo! are as follows:
 
 * Google:
 
-   * **2024년 2월** - 규정 미준수를 경고하기 위해 고안된 임시 바운스가 시작됩니다. 아직 규정을 준수하지 않는 경우 짧은 지연 후에도 이메일은 정상적으로 배달됩니다. 완전히 준수하는 경우 일시적인 바운스가 발생하지 않으며 영향을 받지 않습니다.
+    * **February 2024** – Temporary bounces designed to provide warning of non-compliance will begin. Emails will still be delivered as normal after a short delay if you are not yet in compliance. If you are fully in compliance there will be no temporary bounces and you will not be affected.
 
-   * **2024년 4월** - DMARC 요구 사항을 준수하지 않는 발신자에 대한 차단이 시작됩니다. 호환되지 않는 이메일은 일부만 차단되며 차단되는 비율은 시간이 지남에 따라 증가합니다.
+    * **April 2024** – Blocks will begin for senders who are not in compliance with DMARC requirement. Only a portion of non-compliant email will be blocked at first, with the percentage blocked increasing over time.
 
-   * **2024년 6월 1일** - 규정을 준수하지 않는 모든 발신자는 차단됩니다.
+    * **June 1st, 2024** – Any sender not in full compliance will experience blocking.
 
-* Yahoo! 는 정확한 시행일을 밝히지 않았지만 “시행이 2024년 2월부터 시작될 것이며, 시행은 점진적으로 이루어질 것입니다”라고 했습니다.
+* Yahoo! has not provided exact dates, but has said "the rollout of enforcement will begin in February 2024. Enforcement will be gradually rolled out".
+-->
 
 >[!NOTE]
 >

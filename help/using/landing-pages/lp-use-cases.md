@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '979'
 ht-degree: 12%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 12%
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## 옵트아웃 {#opt-out}
+## 옵트아웃 랜딩 페이지 {#opt-out}
 
 수신자가 커뮤니케이션에서 구독을 취소할 수 있도록 이메일에 옵트아웃 랜딩 페이지 링크를 포함할 수 있습니다.
 
@@ -167,6 +167,12 @@ ht-degree: 12%
 >
 >이 데이터 세트에 일괄 처리가 추가되지 않았더라도 여전히 옵트인/옵트아웃 정보가 포함됩니다.
 
+
+
+**다음도 참조하십시오.**
+
+* [원클릭 옵트아웃](../email/email-opt-out.md#one-click-opt-out-link)
+* [이메일 헤더의 옵트아웃 링크](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
 
