@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
-source-git-commit: 67032a4bcbfd56552d783f3ef78593375bfcc378
+exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
+source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1726'
 ht-degree: 8%
 
 ---
@@ -50,7 +51,23 @@ ht-degree: 8%
 
 ## 입장 및 재입장 {#entrance}
 
+### 재등록 허용  {#allow-re-entrance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_entrance"
+>title="재등록 허용"
+>abstract="기본적으로 새 여정은 다시 입력할 수 있습니다. 다음을 선택 취소할 수 있습니다. **재등록 허용** 예를 들어 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 방&quot; 여정에 대한 옵션을 선택합니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
+
 기본적으로 새 여정은 다시 입력할 수 있습니다. 다음을 선택 취소할 수 있습니다. **재등록 허용** 예를 들어 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 방&quot; 여정에 대한 옵션을 선택합니다.
+
+### 재등록 대기 기간  {#re-entrance-wait}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_re-entrance_wait"
+>title="재등록 대기 기간"
+>abstract=" 프로필이 단일 여정에서 여정을 다시 입력하도록 허용하기 전에 대기할 시간을 설정합니다. 이렇게 하면 사용자가 선택한 기간 동안 여정에 다시 입력할 수 없습니다. 최대 기간: 29일."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
 
 다음의 경우 **재등록 허용** 옵션이 활성화되고 **재등록 대기 기간** 필드가 표시됩니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 29일입니다.
 
@@ -70,6 +87,17 @@ ht-degree: 8%
 
 ## 시작 및 종료 날짜 {#dates}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_start_date"
+>title="시작 날짜"
+>abstract="여정을 시작할 수 있는 날짜 항목을 선택합니다. 시작 날짜를 지정하지 않으면 게시 시간에 자동으로 설정됩니다."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_end_date"
+>title="종료 날짜"
+>abstract="여정 종료 날짜를 선택합니다. 해당 날짜가 되면 해당 여정의 프로필이 자동으로 종료되고 새 프로필이 더 이상 해당 날짜를 입력할 수 없습니다."
+
 다음을 정의할 수 있습니다. **시작일**. 지정하지 않은 경우 게시 시 자동으로 정의됩니다.
 
 다음을 추가할 수도 있습니다. **종료일**. 이렇게 하면 해당 일자가 되었을 때 프로필이 자동으로 종료됩니다. 종료 날짜를 지정하지 않으면 프로필은 [글로벌 여정 시간 초과](#global_timeout) (일반적으로 91일이며, Healthcare Shield 추가 기능 서비스를 통해 7일로 단축됩니다.) 유일한 예외는 다음과 같은 반복 대상자 읽기 여정입니다. **재발 시 강제 재진입** 활성화됨, 다음 발생의 시작 날짜에 종료.
@@ -77,6 +105,12 @@ ht-degree: 8%
 ## 시간 초과 {#timeout}
 
 ### 여정 활동의 시간 초과 또는 오류 {#timeout_and_error}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_timout"
+>title="시간 초과"
+>abstract="시간 초과로 간주하기 전에 여정이 작업을 실행하거나 조건을 확인하는 데 사용할 시간을 정의합니다."
+
 
 작업 또는 조건 활동을 편집할 때 오류 또는 시간 초과가 발생하는 경우 대체 경로를 정의할 수 있습니다. 서드파티 시스템을 문의하는 활동 처리가에 정의된 시간 초과 기간을 초과하는 경우 **[!UICONTROL 시간 초과 또는 오류]** 여정 속성의 필드에서는 잠재적인 대체 작업을 수행하도록 두 번째 경로가 선택됩니다.
 
@@ -221,4 +255,3 @@ ht-degree: 8%
 여정은 전체 여정 동안 사용된 병합 정책을 적용합니다. 따라서 한 여정에 여러 대상이 사용되는 경우(예: &quot;inAudience&quot; 함수에서) 여정이 사용한 병합 정책과 일치하지 않으면 오류가 발생하고 게시가 차단됩니다. 하지만 메시지 개인화에 일관되지 않은 대상이 사용되면 불일치에도 불구하고 경고가 발생하지 않습니다. 이러한 이유로, 메시지 개인화에 이 대상자를 사용할 때에는 대상자와 연결된 병합 정책을 확인하는 것이 좋습니다.
 
 병합 정책에 대한 자세한 내용은 을 참조하십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
-
