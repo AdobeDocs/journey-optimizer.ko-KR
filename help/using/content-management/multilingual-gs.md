@@ -10,7 +10,7 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 25%
@@ -30,6 +30,7 @@ Journey Optimizer을 사용하면 두 가지 서로 다른 방법을 통해 다�
 * **수동 번역**: 이메일 Designer에서 직접 콘텐츠를 번역하거나 기존 다국어 콘텐츠를 가져옵니다. [자세히 알아보기](multilingual-manual.md)
 
 * **자동 번역**: 자동 번역을 위해 원하는 언어 공급자에게 콘텐츠를 전송합니다. [자세히 알아보기](multilingual-automated.md)
+
 
 </br>
 
