@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '701'
 ht-degree: 5%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 5%
 
 # 프로필 시작 관리 {#entry-management}
 
-네 가지 유형의 여정이 있습니다.
+여정 등록 관리는 프로필 유형에 따라 다릅니다. Adobe Journey Optimizer에서는 다음 유형의 여정을 사용할 수 있습니다.
 
 * **단일 이벤트** 여정: 이러한 여정은 단일 이벤트로 시작합니다. 이벤트가 수신되면 관련 프로필이 여정에 들어갑니다. [자세히 보기](#entry-unitary)
 
-* **비즈니스 이벤트** 여정: 이러한 여정은 비즈니스 이벤트로 시작하고 그 뒤에 대상자 읽기가 옵니다. 이벤트가 수신되면 타겟팅된 대상에 속하는 프로필이 여정에 들어갑니다. 각 프로필에 대해 이 여정의 인스턴스가 하나씩 생성됩니다. [자세히 보기](#entry-business)
+* **비즈니스 이벤트** 여정: 이러한 여정은 비즈니스 이벤트로 즉시 시작하며 그 뒤에는 **대상자 읽기** 활동. 이벤트가 수신되면 타겟팅된 대상에 속하는 프로필이 여정에 들어갑니다. 각 프로필에 대해 이 여정의 인스턴스가 하나씩 생성됩니다. [자세히 보기](#entry-business)
 
-* **대상자 읽기** 여정: 이러한 여정은 읽기 대상자로 시작합니다. 여정이 실행되면 타겟팅된 대상에 속하는 프로필이 여정에 들어갑니다. 각 프로필에 대해 이 여정의 인스턴스가 하나씩 생성됩니다. 이러한 여정은 반복 또는 일회성일 수 있습니다. [자세히 보기](#entry-read-audience)
+* **대상자 읽기** 여정: 이러한 여정은 **대상자 읽기** 활동. 여정이 실행되면 타겟팅된 대상에 속하는 프로필이 여정에 들어갑니다. 각 프로필에 대해 이 여정의 인스턴스가 하나씩 생성됩니다. 이러한 여정은 반복 또는 &quot;일회성&quot;일 수 있습니다. [자세히 보기](#entry-read-audience)
 
 * **대상 자격 조건** 여정: 이러한 여정은 대상 자격 이벤트로 시작합니다. 이러한 여정은 대상자의 프로필 출입구를 수신합니다. 이런 경우 관련 프로필이 여정에 들어갑니다. [자세히 보기](#entry-unitary)
 
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 ## 단일 이벤트 및 대상 자격 여정{#entry-unitary}
 
-단일 이벤트 및 대상 자격 여정에서 재등록을 활성화하거나 비활성화할 수 있습니다.
+위치 **단일 이벤트** 및 **대상 자격 조건** 여정은 재등록을 활성화하거나 비활성화할 수 있습니다.
 
 * 재입력이 활성화된 경우 프로필은 여정을 여러 번 입력할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 다시 입력할 수 없습니다.
 
@@ -51,13 +51,13 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
-## 비즈니스 여정{#entry-business}
+## 비즈니스 여정 {#entry-business}
 
 <!--
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 -->
 
-여러 비즈니스 이벤트 실행을 허용하려면 **[!UICONTROL 실행]** 여정 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+위치 **비즈니스 여정**&#x200B;를 사용하여 여러 비즈니스 이벤트 실행을 허용하려면에서 해당 옵션을 활성화합니다 **[!UICONTROL 실행]** 여정 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
 ![](assets/business-entry.png)
 
@@ -67,11 +67,11 @@ Business events follow re-entrance rules in the same way as for unitary events. 
 
 자세한 내용은 다음을 참조하십시오. [섹션](../event/about-creating-business.md)
 
-## 대상자 여정 읽기{#entry-read-audience}
+## 대상자 여정 읽기 {#entry-read-audience}
 
-대상자 읽기 여정은 반복 또는 일회성일 수 있습니다.
+**대상자 읽기** 여정은 반복 또는 &quot;일회성&quot;일 수 있습니다.
 
-* 반복되지 않는 여정의 경우: 프로필은 여정에 한 번만 입력합니다.
+* 반복되지 않는/&quot;단발성&quot; 여정의 경우: 프로필은 여정에 한 번만 입력합니다.
 
 * 반복 여정의 경우: 기본적으로 대상에 속하는 모든 프로필은 각 반복에 여정을 입력합니다. 다른 경우에 다시 입력하기 전에 여정을 완료해야 합니다.
 

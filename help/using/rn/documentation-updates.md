@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '5371'
+source-wordcount: '5383'
 ht-degree: 99%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 99%
 * 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2024년 6월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 여정의 병합 정책 사용에 대한 참고가 추가되었습니다. [이 페이지](../building-journeys/journey-properties.md#merge-policies).
 * 여정에서 **대기** 활동을 구성하는 방법에 대한 페이지가 재구성되고 개선되었습니다. [자세히 보기](../building-journeys/wait-activity.md)
+* 여정 속성을 자세히 설명하는 새 페이지가 작성되었습니다. [자세히 보기](../building-journeys/journey-properties.md)
 
 ## 2024년 5월 {#may-2024}
 
