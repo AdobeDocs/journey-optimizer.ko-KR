@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
+source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 >
 > Journey Optimizer의 기존 보고로 되돌리려면 **[!UICONTROL 새 경험 사용]** 옵션을 선택합니다.
 
-이제 Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성 및 안정성을 개선합니다. Journey Optimizer과 Customer Journey Analytics 간의 이러한 원활한 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으므로 사용자가 보다 정보에 입각한 결정을 내릴 수 있습니다.
+Journey Optimizer 보고에는 Customer Journey Analytics 기능과의 상호 운용성이 개선되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 향상시킵니다. Journey Optimizer과 Customer Journey Analytics 간의 이러한 원활한 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으므로 사용자가 보다 정보에 입각한 결정을 내릴 수 있습니다.
 
 * 여정 컨텍스트에서 여정 또는 게재를 타겟팅하려면 **[!UICONTROL 여정]** 메뉴에서 여정에 액세스하고 **[!UICONTROL 보고서 보기]** 단추를 클릭합니다.
 
@@ -47,4 +48,3 @@ ht-degree: 0%
 * Journey Optimizer 내에서 Customer Journey Analytics 대시보드에 액세스하려면 **[!UICONTROL 새 경험 사용]** 보고서에서 전환합니다.
 
   ![](assets/cja-option.png)
-
