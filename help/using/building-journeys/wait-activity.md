@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 14%
+source-wordcount: '508'
+ht-degree: 15%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 14%
 
 ### 여러 대기 활동 {#multiple-wait-activities}
 
-여러 개 사용 시 **대기** 여정의 활동입니다. [글로벌 시간 초과](journey-properties.md#global_timeout) 여정의 경우 91일입니다. 즉, 프로필은 입력한 후 항상 최대 91일 후에 여정에서 삭제됩니다. [이 페이지](journey-properties.md#global_timeout)에서 자세히 알아보십시오.
+여러 개 사용 시 **대기** 여정의 활동입니다. [글로벌 시간 초과](journey-properties.md#global_timeout) 여정의 경우 90일입니다. 즉, 프로필은 입력한 후 최대 90일 경과하면 항상 여정에서 삭제됩니다. [이 페이지](journey-properties.md#global_timeout)에서 자세히 알아보십시오.
 
-개인이 다음을 입력할 수 있음: **대기** 활동은 여정에 91일 여정 제한 시간 이전에 대기 기간을 완료할 수 있는 충분한 시간이 있는 경우에만 작동합니다. 예를 들어, 두 개를 추가하는 경우 **대기** 각 20일로 설정된 활동은 두 번째 활동을 감지합니다. **대기** 활동은 91일 제한 시간 후에 종료됩니다. 두 번째 **대기** 따라서 활동이 무시되고 개인이 여정을 시작하기 전에 종료됩니다. 이 예에서는 고객이 여정에 총 20일 동안 머무르게 됩니다.
+개인이 다음을 입력할 수 있음: **대기** 활동은 여정에 90일 여정 제한 시간 전까지 대기 기간을 완료할 수 있는 충분한 시간이 있는 경우에만 작동합니다.
 
 ### 대기 후 재입장 {#wait-re-entrance}
 
