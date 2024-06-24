@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1486'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다.
+>문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 여정 속성 속성에 대해 자세히 알아보기 [이 섹션에서](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 ## 기본 사용 사례/일반 쿼리 {#common-queries}
 

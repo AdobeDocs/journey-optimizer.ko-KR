@@ -8,16 +8,22 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 26%
+source-wordcount: '78'
+ht-degree: 10%
 
 ---
 
 # 여정 필드 {#sharing-journey-fields}
 
-이 필드 그룹은 journeyStepEvent와 관련하여 여정 스키마에서 사용됩니다. 여기에는 다음 필드가 포함되어 있습니다.
+이 필드 그룹은 **여정** 스키마 (관련 항목) **journeyStepEvent**). 여기에는 아래 나열된 필드가 포함되어 있습니다.
+
+
+>[!NOTE]
+>
+>여정 속성 속성에 대해 자세히 알아보기 [이 섹션에서](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+
 
 ## journeyID {#journeyid-field}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1777'
 ht-degree: 7%
 
 ---
@@ -49,6 +49,8 @@ ht-degree: 7%
 >라이브 여정의 경우 이 화면에는 게시 날짜와 여정을 게시한 사용자의 이름만 표시됩니다.
 
 다음 **기술 세부 정보 복사** 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정에 대한 기술 정보를 복사할 수 있습니다. 다음 정보가 복사됩니다. `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+
+특정 프로필의 여정과 관련된 기술 필드 및 사용 방법에 대해 자세히 알아보십시오 [이 페이지에서](expression/journey-properties.md).
 
 
 ## 입장 및 재입장 {#entrance}

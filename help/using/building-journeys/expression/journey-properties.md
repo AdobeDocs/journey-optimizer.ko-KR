@@ -8,29 +8,27 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 여정, 표현식, 편집기, 속성
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
 
 # 여정 속성 속성 {#journey-properties}
 
-고급 표현식 편집기에서 **여정 속성** 카테고리(이벤트 및 데이터 소스 카테고리 아래). 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 이는 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정에서 시스템이 검색한 정보입니다.
-
->[!NOTE]
->
->여정 속성 속성은 단순 표현식 편집기에서도 사용할 수 있습니다. 이 [섹션](../condition-activity.md#about_condition)을 참조하십시오
+다음에서 [단순 표현식 편집기](../condition-activity.md#about_condition), 및 [고급 표현식 편집기](../expression/expressionadvanced.md), 아래 **이벤트** 및 **데이터 소스** 범주, 다음에 액세스할 수 있습니다. **여정 속성** 범주. 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 이는 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정에서 시스템이 검색한 정보입니다.
 
 ![](../assets/journey-properties.png)
 
-예를 들어 다음 정보를 찾을 수 있습니다.
+여기에는 다음과 같은 정보가 포함됩니다.
 
 * 여정 버전: 여정 uid, 여정 버전 uid, 인스턴스 uid 등
 * 오류: 데이터 가져오기, 작업 실행 등
 * 현재 단계, 마지막 현재 단계 등
 * 삭제된 프로필
+
+  필드 목록을 사용할 수 있습니다 [이 섹션에서](#journey-properties-fields).
 
 이러한 필드를 사용하여 표현식을 작성할 수 있습니다. 여정 실행 중에 여정에서 직접 값을 검색합니다.
 
@@ -56,7 +54,7 @@ ht-degree: 2%
 | | organizationId | 조직 식별자 | 브랜드 조직 |
 | | sandboxName | 샌드박스 이름 | 샌드박스 이름 |
 | 신원 | profileId | 프로필 ID 식별자 | 여정 내 프로필 식별자 |
-| | namespace | 프로필 ID 네임스페이스 | 여정 내 프로필의 네임스페이스(예: ECID) |
+| | 네임스페이스 | 프로필 ID 네임스페이스 | 여정 내 프로필의 네임스페이스(예: ECID) |
 | 현재 노드 | currentNodeId | 현재 노드 식별자 | 현재 활동의 식별자(노드) |
 | | currentNodeName | 현재 노드 이름 | 현재 활동의 이름(노드) |
 | 이전 노드 | previousNodeId | 이전 노드 식별자 | 이전 활동의 식별자(노드) |
