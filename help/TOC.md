@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1848'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 98%
    + [여정 시작](using/building-journeys/journey.md)
    + 여정 만들기{#create-journey}
       + [첫 여정 만들기](using/building-journeys/journey-gs.md)
-      + [여정 속성 설정](using/building-journeys/journey-properties.md)
+      + [여정 속성 정의](using/building-journeys/journey-properties.md)
       + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 시뮬레이션](using/building-journeys/journey-simulation.md)
@@ -381,8 +381,8 @@ ht-degree: 98%
    + [경고](using/reports/alerts.md)
    + [Customer Journey Analytics 작업](using/reports/cja-ajo.md)
    + [제외 이유](using/reports/exclusion-list.md)
-+ 새 보고 인터페이스(베타){#channel-report}
-   + [새 보고 인터페이스 시작](using/reports/report-gs-cja.md)
++ 새로운 보고 인터페이스(Beta){#channel-report}
+   + [새로운 보고 인터페이스 시작](using/reports/report-gs-cja.md)
    + [보고서 관리](using/reports/report-cja-manage.md)
    + [여정 보고서](using/reports/journey-global-report-cja.md)
    + [캠페인 보고서](using/reports/campaign-global-report-cja.md)

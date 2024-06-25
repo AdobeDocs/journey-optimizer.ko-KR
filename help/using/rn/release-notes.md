@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 58%
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 58%
 
 ## 2024년 6월 릴리스 정보 {#24-6-2024}
 
-**아래의 초기 릴리스 노트는 릴리스 사용 가능 날짜까지 사전 통지 없이 변경될 수 있습니다**.
+**아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**.
 
 **릴리스 날짜**: 2024년 6월 18~19일
 
@@ -77,13 +77,13 @@ ht-degree: 58%
 <table>
 <thead>
 <tr>
-<th><strong>Customer Journey Analytics을 사용한 보고(베타)</strong><br/></th>
+<th><strong>Customer Journey Analytics를 사용한 보고(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 보고에는 Customer Journey Analytics 기능과의 상호 운용성이 개선되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 향상시킵니다. Journey Optimizer과 Customer Journey Analytics 간의 이러한 원활한 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으므로 사용자가 보다 정보에 입각한 결정을 내릴 수 있습니다.</p>
+<p>Journey Optimizer 보고에는 Customer Journey Analytics 기능과의 상호 운용성이 개선되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 향상시킵니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 확실한 정보에 근거한 결정을 내릴 수 있습니다.</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>자세한 내용은 <a href="../reports/report-gs-cja.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -170,7 +170,7 @@ ht-degree: 58%
 
 >[!AVAILABILITY]
 >
->이러한 개선 사항은 초기 릴리스 이후 며칠 동안 점진적으로 출시될 예정입니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기 전에 지연이 발생할 수 있습니다.
+>단, 이러한 개선 사항은 초기 릴리스 후 며칠에 걸쳐 점진적으로 적용됩니다. 일부 사용자는 즉시 액세스할 수 있지만, 일부 사용자는 자신의 환경에서 사용할 수 있게 될 때까지 지연될 수 있습니다.
 
 * 이제 조각을 편집할 수 있으며 변경 사항을 해당 조각이 사용되는 모든 라이브 여정 및 캠페인에 전파할 수 있습니다.
 * 콘텐츠 조각에 대해 상태 설정이 새로 도입되었습니다. **초안**, **라이브**, **게시 중**, **보관됨** 상태를 설정할 수 있습니다.
@@ -178,16 +178,16 @@ ht-degree: 58%
 
   **주의** - **초안** 및 **라이브** 상태는 Journey Optimizer 6월 릴리스에서 도입되었으므로 이 릴리스 이전에 만든 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 기존 조각을 업데이트하는 방법은 이 섹션을 참조하십시오.
 
-자세한 내용 [컨텐츠 조각](../content-management/fragments.md) 설명서를 참조하십시오.
+자세한 내용은 [콘텐츠 조각](../content-management/fragments.md) 설명서를 참조하십시오.
 
 **여정**
 
 * 여정의 전역 시간 제한이 91일로 연장되었습니다. [자세히 보기](../building-journeys/journey-properties.md#global_timeout)
 
-  새로 만든 모든 여정에 이 새 시간 초과가 반영됩니다. 이 내용을 참조하시기 바랍니다 [FAQ 섹션](../building-journeys/journey-properties.md#timeout-faq) 자세히 알아보십시오. 이러한 변경 사항은 6월 한 달 동안 점진적으로 적용될 예정입니다.
+  새로 만드는 모든 여정에 이 새로운 시간 제한이 반영됩니다. 자세한 내용은 이 [FAQ 섹션](../building-journeys/journey-properties.md#timeout-faq)을 참조하십시오. 단, 이 변경 사항은 6월 한 달 동안 점진적으로 적용될 예정입니다.
 
 
-* Adobe Journey Optimizer은 이제 데이터 수명 주기 관리 요청뿐만 아니라 개인 정보 삭제/액세스 요청도 지원합니다. [자세히 보기](../privacy/requests.md)
+* Adobe Journey Optimizer가 이제 데이터 수명 주기 관리 요청뿐만 아니라 개인 정보 삭제/액세스 요청도 지원합니다. [자세히 보기](../privacy/requests.md)
 * 이제 여정 인벤토리에서 열의 크기를 조정할 수 있습니다.
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **병합 정책** GA 변경 - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. [자세히 보기](../building-journeys/journey-properties.md#merge-policies)
@@ -196,7 +196,7 @@ ht-degree: 58%
 
 **캠페인**
 
-* 이제 Adobe Journey Optimizer에서 캠페인을 생성할 때 새 모달에서 캠페인 유형(예약됨 또는 트리거됨)을 선택할 수 있습니다. [자세히 보기](../campaigns/create-campaign.md)
+* 이제 Adobe Journey Optimizer에서 캠페인을 만들 때 새로운 모달에서 캠페인 유형(예약됨 또는 트리거됨)을 선택할 수 있습니다. [자세히 보기](../campaigns/create-campaign.md)
 
 **이메일 채널**
 
@@ -205,9 +205,9 @@ ht-degree: 58%
 
 **SMS 채널**
 
-* 이제 단일 API 구성을 통해 각 샌드박스에 고유한 짧은 코드를 추가할 수 있으므로 프로세스가 보다 효율적이고 간소화됩니다. [자세히 알아보기](../sms/sms-configuration.md)
+* 이제 한 번의 API 구성으로 각 샌드박스마다 고유한 짧은 코드를 추가할 수 있어 프로세스가 효율화, 간소화됩니다. [자세히 알아보기](../sms/sms-configuration.md)
 
-* 생성 후 **API 토큰** 의 필드 **API 자격 증명 세부 정보** 이제 페이지가 마스킹됩니다.
+* 이제 **API 자격 증명 세부 정보** 페이지의 **API 토큰** 필드가 토큰을 만든 후 마스킹됩니다.
 
 <!--* You can now modify existing SMS configurations.-->
 
@@ -215,7 +215,7 @@ ht-degree: 58%
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* 이제 Edge 게재 플러그인을 사용하여 인바운드 구현을 이해하고 문제를 해결하는 데 필요한 정보를 얻을 수 있습니다. [Edge 게재 보기에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* 이제 Edge Delivery 플러그인을 사용하여 인바운드 구현을 이해하고 문제를 해결하는 데 필요한 정보를 얻을 수 있습니다. [Edge Delivery 보기에서 자세히 알아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 **DM 채널**

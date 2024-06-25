@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 83%
+ht-degree: 93%
 
 ---
 
@@ -20,21 +20,21 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB 6월 릴리스 예정일]
+>[!TAB 6월 릴리스가 공개되었습니다!]
 
 Adobe Journey Optimizer 5월 릴리스의 새로운 기능과 개선 사항을 살펴보십시오.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Customer Journey Analytics을 사용한 보고(베타)]
+>[!TAB Customer Journey Analytics를 사용한 보고(Beta)]
 
 Journey Optimizer 보고에는 Customer Journey Analytics 기능과의 상호 운용성이 개선되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 향상시킵니다.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
->[!TAB AI Assistant]
+>[!TAB AI 어시스턴트]
 
-AI Assistant는 Adobe 개념을 탐색 및 이해하고 특정 환경에 대한 운영 통찰력을 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다.
+AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 환경에 적절한 작업 인사이트를 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. 
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 

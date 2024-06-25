@@ -21,8 +21,8 @@ ht-degree: 99%
 
 ## 2024년 6월 {#june-2024}
 
-* 의 모든 새로운 기능 및 개선 사항 [!DNL Journey Optimizer] 2024년 6월 릴리스는 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 여정의 병합 정책 사용에 대한 참고가 추가되었습니다. [이 페이지](../building-journeys/journey-properties.md#merge-policies).
+* [!DNL Journey Optimizer] 2024년 6월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 여정에서 병합 정책을 사용할 때 유의할 사항이 [이 페이지](../building-journeys/journey-properties.md#merge-policies)에 추가되었습니다.
 * 여정에서 **대기** 활동을 구성하는 방법에 대한 페이지가 재구성되고 개선되었습니다. [자세히 보기](../building-journeys/wait-activity.md)
 * 여정 속성을 자세히 설명하는 새 페이지가 작성되었습니다. [자세히 보기](../building-journeys/journey-properties.md)
 

@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -156,8 +156,8 @@ ht-degree: 92%
 * 여정의 전역 시간 제한이 30일에서 91일로 늘어났습니다.
 * Adobe Journey Optimizer가 이제 데이터 수명 주기 관리 요청뿐만 아니라 개인 정보 삭제/액세스 요청도 지원합니다.
 * 이제 여정 인벤토리에서 열의 크기를 조정할 수 있습니다.
-* **이벤트 구성의 고급 표현식 편집기** GA 변경 - 이제 이벤트를 구성할 때 고급 표현식 편집기를 활용하여 이벤트 ID 조건에 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. 이 기능은 선택한 고객에 대해 제한된 가용성으로 릴리스됩니다. <!--[Read more](../event/about-creating.md)-->
-* **병합 정책** GA 변경 - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. 이 기능은 선택한 고객에 대해 제한된 가용성으로 릴리스됩니다. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* **이벤트 구성의 고급 표현식 편집기** GA 변경 - 이제 이벤트를 구성할 때 고급 표현식 편집기를 활용하여 이벤트 ID 조건에 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. 이 기능은 일부 고객을 대상으로 한 제한된 가용성으로 릴리스됩니다. <!--[Read more](../event/about-creating.md)-->
+* **병합 정책** GA 변경 - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. 이 기능은 일부 고객을 대상으로 한 제한된 가용성으로 릴리스됩니다. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
@@ -177,7 +177,7 @@ ht-degree: 92%
 
 **인앱 채널**
 
-* **표현식 조각** - 이제 표현식 조각을 사용할 수 있습니다. **인앱 채널**. <!--[Read more](../personalization/use-expression-fragments.md)-->
+* **표현식 조각** - 이제 표현식 조각을 **인앱 채널**&#x200B;에서 사용할 수 있습니다. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
 * 이제 Edge Delivery 플러그인을 사용하여 인바운드 구현을 이해하고 문제를 해결하는 데 필요한 정보를 얻을 수 있습니다.
