@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
+source-git-commit: 59f23fb297180a65e1ced50ce1597d6ccb8f14e1
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 83%
+source-wordcount: '1039'
+ht-degree: 75%
 
 ---
 
@@ -28,8 +28,6 @@ ht-degree: 83%
 
 
 ## 2024년 6월 릴리스 정보 {#24-6-2024}
-
-**아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**.
 
 **릴리스 날짜**: 2024년 6월 18~19일
 
@@ -53,6 +51,7 @@ ht-degree: 83%
 </tbody>
 </table-->
 
+#### 콘텐츠 조각 사용자 정의
 
 <table>
 <thead>
@@ -72,7 +71,7 @@ ht-degree: 83%
 </table>
 
 
-
+#### Customer Journey Analytics을 사용한 보고
 
 <table>
 <thead>
@@ -160,13 +159,13 @@ ht-degree: 83%
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-**의사 결정 관리**
+#### 의사 결정 관리
 
 * **의사 결정 관리의 다중 규칙 지원** - 이제 의사 결정 관리에서 주어진 오퍼에 대해 최대 10개의 캡핑 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-**콘텐츠 조각**
+#### 콘텐츠 조각
 
 >[!AVAILABILITY]
 >
@@ -180,7 +179,7 @@ ht-degree: 83%
 
 자세한 내용은 [콘텐츠 조각](../content-management/fragments.md) 설명서를 참조하십시오.
 
-**여정**
+#### 여정
 
 * 여정의 전역 시간 제한이 91일로 연장되었습니다. [자세히 보기](../building-journeys/journey-properties.md#global_timeout)
 
@@ -194,16 +193,17 @@ ht-degree: 83%
 
 
 
-**캠페인**
+#### 캠페인
 
 * 이제 Adobe Journey Optimizer에서 캠페인을 만들 때 새로운 모달에서 캠페인 유형(예약됨 또는 트리거됨)을 선택할 수 있습니다. [자세히 보기](../campaigns/create-campaign.md)
 
-**이메일 채널**
+#### 이메일 채널
 
 * **목록 구독 취소** - 대량 발신자에 대한 최근 Gmail 및 Yahoo 공지에 따라 Journey Optimizer은 &quot;게시/1클릭&quot; 목록 구독 취소 옵션을 지원합니다. 다음 페이지를 참조하십시오. [이메일 옵트아웃 관리](../email/email-opt-out.md#unsubscribe-header) 및 [이메일 설정 구성](../email/email-settings.md#list-unsubscribe).
 
+  **참고** - 새 채널 표면에 대해 기본적으로 목록 구독 취소 헤더 옵션이 활성화됩니다. 기존 서피스의 경우 기본적으로 채널 서피스 설정의 한 번 클릭 구독 취소 URL 옵션이 선택되어 있지 않습니다. 이전 이메일 본문에서 원클릭 옵트아웃 URL을 사용하는 경우 이 설정은 여전히 유효합니다. 채널 표면 설정에서 한 번의 클릭으로 구독 취소 URL을 선택한 경우 Adobe Journey Optimizer은 오히려 채널 표면 설정에서 기본 생성된 한 번의 클릭으로 구독 취소 URL을 사용합니다.
 
-**SMS 채널**
+#### SMS 채널
 
 * 이제 한 번의 API 구성으로 각 샌드박스마다 고유한 짧은 코드를 추가할 수 있어 프로세스가 효율화, 간소화됩니다. [자세히 알아보기](../sms/sms-configuration.md)
 
@@ -211,13 +211,13 @@ ht-degree: 83%
 
 <!--* You can now modify existing SMS configurations.-->
 
-**인앱 채널**
+#### 인앱 채널
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
 * 이제 Edge Delivery 플러그인을 사용하여 인바운드 구현을 이해하고 문제를 해결하는 데 필요한 정보를 얻을 수 있습니다. [Edge Delivery 보기에서 자세히 알아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
-**DM 채널**
+#### DM 채널
 
 * 이제 모든 고객이 DM 채널을 사용할 수 있습니다. [자세히 보기](../direct-mail/get-started-direct-mail.md)

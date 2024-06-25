@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 10%
@@ -102,7 +102,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
   Journey Optimizer에서 구독 취소 이메일 주소가 기본값입니다 **Mailto(구독 취소)** 다음에 준하여 채널 표면에 표시되는 주소 [선택한 하위 도메인](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
 * 다음 **한 번의 클릭으로 구독 취소 URL**, 기본적으로 사용자가 설정하고 채널 표면 설정에서 구성한 하위 도메인을 기반으로 한 원클릭 선택 URL 생성 목록 구독 취소 헤더입니다.
