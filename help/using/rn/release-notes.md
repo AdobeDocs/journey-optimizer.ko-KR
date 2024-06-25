@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 024e43468cade1f2ac4ca6f8e21bcbc71f6c771b
+source-git-commit: 3d3714675833f685c0775be68a403f4e9de3ce27
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 75%
+source-wordcount: '1031'
+ht-degree: 76%
 
 ---
 
@@ -51,7 +51,6 @@ ht-degree: 75%
 </tbody>
 </table-->
 
-#### 콘텐츠 조각 사용자 정의
 
 <table>
 <thead>
@@ -71,7 +70,6 @@ ht-degree: 75%
 </table>
 
 
-#### Customer Journey Analytics을 사용한 보고
 
 <table>
 <thead>
@@ -90,7 +88,6 @@ ht-degree: 75%
 </tbody>
 </table>
 
-#### AI 어시스턴트
 
 <table>
 <thead>
@@ -108,7 +105,6 @@ ht-degree: 75%
 </tbody>
 </table>
 
-#### 여정 및 캠페인의 다국어 메시지
 
 <table>
 <thead>
@@ -126,7 +122,6 @@ ht-degree: 75%
 </tbody>
 </table>
 
-#### 여정에서의 실험
 
 <table>
 <thead>
