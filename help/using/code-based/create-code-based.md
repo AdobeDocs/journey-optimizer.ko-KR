@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1024'
+ht-degree: 10%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
 >title="개인화 편집기 사용"
->abstract="이 코드 기반 경험 작업의 일부로 제공할 코드를 삽입하고 편집합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="개인화 편집기 시작"
+>abstract="이 코드 기반 경험 액션의 일부로 게재하려는 코드를 삽입하고 편집합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=ko-KR" text="개인화 편집기 시작하기"
 
 1. Campaign Edition 화면에서 다음을 선택합니다. **[!UICONTROL 코드 편집]**.
 
@@ -77,7 +77,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >Experience Decisioning 기능은 현재 사용자를 선택하는 베타 버전으로 사용할 수 있습니다.
+   >SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
 
 1. 클릭 **[!UICONTROL 저장 및 닫기]** 을 클릭하여 변경 내용을 확인합니다.
@@ -88,8 +88,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="코드 기반 경험 미리 보기"
->abstract="코드 기반 환경의 모습을 시뮬레이션해 봅니다."
+>title="코드 기반 경험 미리보기"
+>abstract="코드 기반 경험이 어떻게 시각화되는지 시뮬레이션을 수행합니다."
 
 수정된 코드 기반 경험의 미리보기를 표시하려면 아래 단계를 따르십시오. 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 페이지 미리보기 및 테스트](../content-management/preview-test.md).
 
