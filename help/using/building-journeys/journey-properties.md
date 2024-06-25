@@ -16,7 +16,7 @@ ht-degree: 8%
 
 ---
 
-# 여정 속성 설정 {#jo-properties}
+# 여정 속성 정의 {#jo-properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
