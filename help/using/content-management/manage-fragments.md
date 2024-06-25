@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: d9942f578db6ef42a801c0e62a4c3e6a4a72ce71
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 17%
+source-wordcount: '1032'
+ht-degree: 16%
 
 ---
 
@@ -69,6 +69,16 @@ ht-degree: 17%
 >**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 “초안” 상태입니다. 이러한 조각을 변경할 경우 해당 조각을 게시하여 “라이브”로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 사용자 권한이 필요합니다.
 
 ## 조각 편집 {#edit-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_campaigns"
+>title="캠페인의 조각 업데이트"
+>abstract="조각에 변경 사항을 게시하는 경우 이 캠페인은 업데이트되지 않습니다. 조각 업데이트 기능을 지원할 수 있도록 새 버전을 게시해야 합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_journeys"
+>title="여정의 조각 업데이트"
+>abstract="조각에 변경 사항을 게시하는 경우 이 여정은 업데이트되지 않습니다. 조각 업데이트 기능을 지원할 수 있도록 새 버전을 게시해야 합니다."
 
 조각을 편집하려면 아래 단계를 따르십시오.
 
