@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 59f23fb297180a65e1ced50ce1597d6ccb8f14e1
+source-git-commit: 024e43468cade1f2ac4ca6f8e21bcbc71f6c771b
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1050'
 ht-degree: 75%
 
 ---
@@ -90,6 +90,8 @@ ht-degree: 75%
 </tbody>
 </table>
 
+#### AI 어시스턴트
+
 <table>
 <thead>
 <tr>
@@ -105,6 +107,8 @@ ht-degree: 75%
 </tr>
 </tbody>
 </table>
+
+#### 여정 및 캠페인의 다국어 메시지
 
 <table>
 <thead>
@@ -122,6 +126,7 @@ ht-degree: 75%
 </tbody>
 </table>
 
+#### 여정에서의 실험
 
 <table>
 <thead>
