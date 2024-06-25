@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: d9942f578db6ef42a801c0e62a4c3e6a4a72ce71
+source-git-commit: 8ca75a149db65ee65bf28fe6c0688ee18488fcec
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1039'
 ht-degree: 16%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 16%
 >id="ajo_fragment_statuses"
 >title="새로운 조각 상태"
 >abstract="**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 “초안” 상태입니다. 이러한 조각을 변경할 경우 해당 조각을 게시하여 “라이브”로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 사용자 권한이 필요합니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="콘텐츠 조각 권한에 대해 자세히 알아보기"
 
 >[!AVAILABILITY]
 >
