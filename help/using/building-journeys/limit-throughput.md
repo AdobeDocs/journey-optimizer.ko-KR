@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
-title: 외부 데이터 원본 및 사용자 지정 작업으로 처리량 제한
-description: 외부 데이터 원본 및 사용자 지정 작업으로 처리량 제한
+title: 외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한
+description: 외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한
 feature: Journeys, Use Cases, Custom Actions, Data Sources
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 keywords: 여정, 데이터 소스, 제한, 처리량, 사용자 지정, 작업
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: bf937d9c7198c3a9d31fe93d0cfec6f41df70e28
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '754'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,10 @@ Adobe Journey Optimizer을 사용하면 전문가가 사용자 지정 작업 및
 * **데이터 소스**: 외부 시스템에서 정보를 수집하여 여정 컨텍스트에서 사용합니다. 예를 들어 프로필 도시에 대한 날씨 정보를 가져오고 이를 기반으로 전용 여정 흐름을 가질 수 있습니다.
 
 * **사용자 지정 작업**: 외부 시스템에 정보를 보냅니다. 예를 들어 프로필 정보, 대상 데이터 및 여정 컨텍스트와 함께 Journey Optimizer의 오케스트레이션 기능을 사용하여 외부 솔루션을 통해 이메일을 보내는 경우입니다.
+
+>[!NOTE]
+>
+>이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다. 응답에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../action/action-response.md)
 
 외부 데이터 소스 또는 사용자 지정 작업으로 작업하는 경우 여정 처리량을 제한하여 외부 시스템을 보호할 수 있습니다(단일 여정의 경우 최대 5000개 인스턴스/초, 대상자에서 트리거된 인스턴스의 경우 최대 20000개 인스턴스/초).
 

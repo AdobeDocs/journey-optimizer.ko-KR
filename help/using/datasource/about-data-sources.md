@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 데이터, 소스, 여정, 플랫폼
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 74%
+source-wordcount: '339'
+ht-degree: 66%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 정의 작업을 사용해야 합니다.
+>이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다. 응답에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../action/action-response.md)
 
 각 데이터 소스에서는 필드 그룹을 사용하여 검색할 정보를 정의합니다. 필드 그룹은 데이터 소스에서 검색할 수 있는 필드 세트입니다. [이 페이지](../datasource/configure-data-sources.md#define-field-groups)를 참조하십시오.
 
