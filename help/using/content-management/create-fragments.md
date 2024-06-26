@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c843ca5bda10aa5f3ee8a676630d78c5ec092b14
+source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 13%
@@ -21,7 +21,7 @@ ht-degree: 13%
 >id="ajo_create_visual_fragment"
 >title="비주얼 유형 선택"
 >abstract="여정 또는 캠페인 내의 이메일이나 콘텐츠 템플릿에서 콘텐츠를 재사용할 수 있도록 독립 실행형 시각적 조각을 만듭니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=ko-KR" text="이메일에 비주얼 조각 추가"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="이메일에 비주얼 조각 추가"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -61,7 +61,7 @@ ht-degree: 13%
 
 ## 조각 콘텐츠 디자인 {#content}
 
-조각의 속성을 구성하면 만들고 있는 조각 유형에 따라 이메일 디자이너 또는 개인화 편집기가 열립니다.
+조각의 속성을 구성하면 생성 중인 조각 유형에 따라 이메일 Designer 또는 개인화 편집기가 열립니다.
 
 * 시각적 조각의 경우 여정 또는 캠페인 내의 이메일에 대해 수행하는 것과 동일한 방식으로 콘텐츠를 필요에 따라 편집합니다. [자세히 알아보기](../email/get-started-email-design.md)
 
@@ -81,17 +81,17 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->조각을 게시하려면 **조각 게시** 관련 권한. [권한에 대해 자세히 알아보기](../administration/ootb-permissions.md)
+>조각을 게시하려면 **Publish 조각** 관련 권한. [권한에 대해 자세히 알아보기](../administration/ootb-permissions.md)
 
 조각의 실행이 준비되면 미리 보고 게시하여 여정 및 캠페인에서 사용할 수 있도록 할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
 
 1. 콘텐츠를 디자인한 후 조각 만들기 화면으로 돌아가거나 조각 목록에서 엽니다.
 
-1. 조각 미리보기는 **태그** 필드, 렌더링 확인 가능 변경해야 하는 경우 **편집** 조각 유형에 따라 이메일 디자이너 또는 개인화 편집기를 열려면 화면 상단에 있는 단추를 누릅니다.
+1. 조각 미리보기는 **태그** 필드, 렌더링 확인 가능 변경해야 하는 경우 **편집** 조각 유형에 따라 이메일 Designer 또는 개인화 편집기를 열려면 화면 상단에 있는 버튼을 클릭합니다.
 
    ![](assets/fragment-preview.png)
 
-1. 다음을 클릭합니다. **게시** 오른쪽 상단 모서리에 있는 버튼을 클릭하여 조각을 게시합니다.
+1. 다음을 클릭합니다. **Publish** 오른쪽 상단 모서리에 있는 버튼을 클릭하여 조각을 게시합니다.
 
    조각이 라이브 여정 또는 캠페인에서 사용 중인 경우 알려주는 메시지가 열립니다. 다음을 클릭합니다. **더 보기** 참조되는 여정 및/또는 캠페인 목록에 액세스하기 위한 링크입니다. [조각의 참조를 탐색하는 방법 알아보기](../content-management/manage-fragments.md#explore-references)
 
@@ -99,7 +99,7 @@ ht-degree: 13%
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-이제 조각이 **라이브**&#x200B;에서 콘텐츠를 빌드할 때 및 을 사용할 수 있게 됩니다. [!DNL Journey Optimizer] 이메일 디자이너 또는 개인화 편집기:
+이제 조각이 **라이브**&#x200B;에서 콘텐츠를 빌드할 때 및 을 사용할 수 있게 됩니다. [!DNL Journey Optimizer] 이메일 Designer 또는 개인화 편집기:
 
 * [시각적 조각 사용 방법 알아보기](../email/use-visual-fragments.md)
 * [표현식 조각 사용 방법 알아보기](../personalization/use-expression-fragments.md)
