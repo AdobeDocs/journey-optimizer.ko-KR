@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5b76b6a2129b3ef5bd39c5fe122811acf09afd23
+source-git-commit: 13628736c2946cf3fbab8deb7b80f80cabecdb16
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '758'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
 | 의사 결정 관리 | **[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage offers]**: 모든 오퍼, 구성 요소, 의사 결정 및 컬렉션을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</br>**[!DNL View decisions]**: 오퍼 엔티티에 대한 읽기 전용 액세스 권한.<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</br>--> |
 | 대상 | **[!DNL Activate destinations]**: 사용자에게 기존 대상에 대한 대상을 활성화할 수 있는 기능을 제공합니다.</br>**[!DNL Activate segment without mapping]**: 매핑 단계를 표시하지 않고 기존 대상에 대한 대상을 활성화할 수 있는 기능을 사용자에게 제공합니다. 사용자는 활성화 워크플로에서 대상을 추가하거나 제거할 수 있지만 매핑된 속성 또는 ID를 추가하거나 제거할 수 없습니다.</br>**[!DNL Destination authoring]**: Adobe Experience Platform Destination SDK을 사용하는 작성자 대상.</br>**[!DNL Manage and activate dataset destination]**: 데이터 세트 내보내기 흐름을 읽고, 만들고, 편집하고, 비활성화합니다. 생성된 활성 데이터 세트에 대한 데이터도 활성화할 수 있습니다.</br>**[!DNL Manage destinations]**: 대상 활성화 플로우 및 대상 계정을 읽고 만들고 삭제합니다.</br>**[!DNL View destinations]**: 카탈로그 탭의 사용 가능한 대상 및 찾아보기 탭의 인증된 대상에 대한 읽기 전용 액세스 권한. |
 | ID 관리 | **[!DNL Manage identity namespaces]**: id 네임스페이스를 읽고, 만들고, 편집합니다.</br>**[!DNL Manage identity settings]**: id 설정을 읽고, 만들고, 편집합니다.</br>**[!DNL View identity namespaces]**: id 네임스페이스에 대한 읽기 전용 액세스 권한.</br>**[!DNL View identity settings]**: id 설정에 대한 읽기 전용 액세스 권한.</br>**[!DNL View identity graph]**: id 그래프에 대한 읽기 전용 액세스 권한. |
-| Journey Optimizer 라이브러리 | **[!DNL Manage Library Items]**: 저장된 표현식을 추가하고 삭제합니다. [!DNL Journey Optimizer] 라이브러리.</br>**[!DNL Simulate content]**: 미리 보기 및 증명을 위한 콘텐츠 시뮬레이션 옵션에 액세스</br>**[!DNL Publish fragments]**: 조각을 게시합니다. |
+| Journey Optimizer 라이브러리 | **[!DNL Manage Library Items]**: 저장된 표현식을 추가하고 삭제합니다. [!DNL Journey Optimizer] 라이브러리.</br>**[!DNL Simulate content]**: 미리 보기 및 증명을 위한 콘텐츠 시뮬레이션 옵션에 액세스</br>**[!DNL Publish fragments]**: 콘텐츠 조각을 게시합니다. |
 | Journey Optimizer 규칙 | **[!DNL Manage frequency rules]**: 메시지 빈도 규칙에 액세스, 만들기, 편집 또는 삭제&#x200B;</br>**[!DNL View frequency rules]**: 규칙에 대한 읽기 전용 액세스 권한 |
 | 여정 | **[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제 여정에 액세스하고 관리하려면 이 권한을 와 결합합니다 **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]**: 이벤트, 소스 또는 작업을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Publish journeys]**: 여정 게시.</br>**[!DNL View journeys]**: 여정에 대한 읽기 전용 액세스 권한</br>**[!DNL View journeys events, data sources and actions]**: 여정 이벤트, 사용자 지정 작업 여정 및 여정 데이터 소스에 대한 읽기 전용 액세스 권한.</br>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</br> |
 | 프로필 관리 | **[!DNL Evaluate a segment to an audience]**: 세그먼트 정의를 평가하여 대상에 대한 프로필을 생성합니다.</br>**[!DNL Export audience segments]**: 평가된 대상 세그먼트를 데이터 세트로 내보냅니다.</br>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</br>**[!DNL Manage profiles]**: 고객 프로필에 사용되는 데이터 세트를 읽기, 만들기, 편집 및 삭제합니다. 사용 가능한 프로필에 대한 읽기 전용 액세스 권한.</br>**[!DNL View merge policies]**: 사용 가능한 병합 정책에 대한 읽기 전용 액세스 권한.</br>**[!DNL View profiles]**: 사용 가능한 프로필에 대한 읽기 전용 액세스 권한.</br>**[!DNL View segments]**: 사용 가능한 대상자에 대한 읽기 전용 액세스 권한. |
