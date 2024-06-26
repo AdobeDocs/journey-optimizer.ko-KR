@@ -14,8 +14,8 @@ badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="캠페인 대상자 제외"
->abstract="현재 단계에서 대상자를 제외할 캠페인을 선택합니다. 이렇게 하면 이전에 연락한 프로필이 다시 타겟팅되지 않습니다. 여정을 통해 커뮤니케이션을 받은 사람만 제외됩니다."
+>abstract="현재 단계에서 대상자를 제외할 캠페인을 선택합니다. 이렇게 하면 이전에 메시지가 전송된 프로필이 다시 타겟팅되는 것을 방지할 수 있습니다. 여정을 통해 커뮤니케이션을 수신한 프로필만 제외됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
