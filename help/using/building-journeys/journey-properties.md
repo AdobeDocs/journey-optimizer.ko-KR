@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a43179e67a7d5387e67bd3f6bb3ac3f24dd6325a
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 8%
@@ -74,7 +74,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="재등록 대기 기간"
->abstract=" 프로필이 단일 여정에서 여정을 다시 입력하도록 허용하기 전에 대기할 시간을 설정합니다. 이렇게 하면 사용자가 선택한 기간 동안 여정에 다시 입력할 수 없습니다. 최대 기간: 29일."
+>abstract=" 프로필이 단일 여정에서 여정을 다시 입력하도록 허용하기 전에 대기할 시간을 설정합니다. 이렇게 하면 사용자가 선택한 기간 동안 여정에 다시 입력할 수 없습니다. 최대 기간: 90일."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
 
 다음의 경우 **재등록 허용** 옵션이 활성화되고 **재등록 대기 기간** 필드가 표시됩니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 90일입니다.
