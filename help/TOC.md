@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
-source-wordcount: '1848'
-ht-degree: 99%
+source-wordcount: '1865'
+ht-degree: 98%
 
 ---
 
@@ -311,7 +311,12 @@ ht-degree: 99%
       + 개인화 사용 사례{#personalization-use-cases}
          + [주문 상태 알림](using/personalization/personalization-use-case.md)
          + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
-   + [콘텐츠 템플릿](using/content-management/content-templates.md)
+   + 콘텐츠 템플릿 {#content-templates}
+      + [콘텐츠 템플릿 시작](using/content-management/content-templates.md)
+      + [템플릿 액세스 및 관리](using/content-management/access-content-templates.md)
+      + [콘텐츠 템플릿 만들기](using/content-management/create-content-templates.md)
+      + [콘텐츠 템플릿 테스트](using/content-management/test-content-templates.md)
+      + [콘텐츠 템플릿 사용](using/content-management/use-content-templates.md)
    + 재사용 가능한 콘텐츠 조각 {#fragments}
       + [조각으로 시작](using/content-management/fragments.md)
       + [조각 만들기](using/content-management/create-fragments.md)
