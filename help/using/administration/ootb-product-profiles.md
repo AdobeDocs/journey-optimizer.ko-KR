@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: fd8835b1f9bffd887758e4015171074c5dfc16c0
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1175'
 ht-degree: 6%
 
 ---
@@ -142,6 +142,6 @@ ht-degree: 6%
 
 | 기능 | 권한 |
 |-|-|
-| Journey Optimizer 라이브러리 | <ul><li>**[!DNL Manage library items]**: 콘텐츠 템플릿 및 조각을 포함한 Journey Optimizer 라이브러리 항목을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage simulate content]**: 액세스 권한 **[!UICONTROL 콘텐츠 시뮬레이션]** 미리보기 및 증명 옵션</li></ul> |
+| Journey Optimizer 라이브러리 | <ul><li>**[!DNL Manage library items]**: 콘텐츠 템플릿 및 조각을 포함한 Journey Optimizer 라이브러리 항목을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage simulate content]**: 액세스 권한 **[!UICONTROL 콘텐츠 시뮬레이션]** 미리보기 및 증명 옵션</li><li>**[!DNL Publish Fragment]**: 콘텐츠 조각을 게시합니다.</li></ul> |
 | 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔티티를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: 세그먼트 정의를 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage profiles]**: 프로필 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</li></ul> |
