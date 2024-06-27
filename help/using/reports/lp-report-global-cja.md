@@ -7,10 +7,11 @@ feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="제한된 가용성" type="Informative"
+exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---
@@ -67,7 +68,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 랜딩 페이지 전환율]**: 총 방문 횟수와 관련하여 랜딩 페이지와 상호 작용한(예: 양식에 구독한) 사람의 수입니다.
 
-## 랜딩 페이지 성능 {#lp-performance}
+## 랜딩 페이지 성과 {#lp-performance}
 
 ![](assets/cja-lp-performance.png)
 
@@ -114,10 +115,3 @@ ht-degree: 2%
 다음 **[!UICONTROL 가장 많이 클릭한 링크]** 이 표에서는 방문자가 전달과 상호 작용하는 방식에 대한 통찰력을 제공하여 대상자로부터 가장 많은 참여와 관심을 받는 링크를 강조 표시합니다.
 
 * **[!UICONTROL 랜딩 페이지 클릭수]**: 랜딩 페이지에서 콘텐츠를 클릭한 횟수입니다.
-
-
-
-
-
-
-

@@ -7,11 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
+badge: label="제한된 가용성" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '373'
 ht-degree: 7%
 
 ---
@@ -51,6 +51,6 @@ Journey Optimizer 보고에는 Customer Journey Analytics 기능과의 상호 �
 
 ## 방법 비디오{#video}
 
-아래 비디오에서는 를 할당하는 방법을 보여 줍니다. **앱 구성 관리** 앱 표면 메뉴에 대한 액세스 권한.
+아래 비디오에서는 Customer Journey Analytics과 함께 향상된 Journey Optimizer 보고를 사용하는 방법을 보여 줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430413)

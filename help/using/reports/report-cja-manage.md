@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="제한된 가용성" type="Informative"
+exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
@@ -70,5 +71,3 @@ ht-degree: 1%
 이제 보고서를 pdf 파일에서 보거나 다운로드하거나 공유할 수 있습니다.
 
 >[!ENDTABS]
-
-
