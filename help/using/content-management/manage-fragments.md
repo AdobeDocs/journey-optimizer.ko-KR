@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 8ca75a149db65ee65bf28fe6c0688ee18488fcec
+source-git-commit: 09287aaa41664cc497060df9a10a7d46985e4ae4
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 16%
+source-wordcount: '1044'
+ht-degree: 15%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="새로운 조각 상태"
->abstract="**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 “초안” 상태입니다. 이러한 조각을 변경할 경우 해당 조각을 게시하여 “라이브”로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 사용자 권한이 필요합니다."
+>abstract="**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 “초안” 상태입니다. 이러한 조각을 변경할 경우 해당 조각을 게시하여 “라이브”로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 &quot;Publish 조각&quot; 사용자 권한이 필요합니다."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="콘텐츠 조각 권한에 대해 자세히 알아보기"
 
 >[!AVAILABILITY]
@@ -67,7 +67,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 “초안” 상태입니다. 이러한 조각을 변경할 경우 해당 조각을 게시하여 “라이브”로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 사용자 권한이 필요합니다.
+>**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 “초안” 상태입니다. 이러한 조각을 변경할 경우 해당 조각을 게시하여 “라이브”로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 [Publish 조각](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager)** 사용 권한.
 
 ## 조각 편집 {#edit-fragments}
 
@@ -99,7 +99,7 @@ ht-degree: 16%
 
    ![](assets/fragment-edit.png)
 
-1. 변경 사항이 준비되면 **게시** 버튼을 클릭하여 수정 사항을 실시간으로 적용합니다.
+1. 변경 사항이 준비되면 **Publish** 버튼을 클릭하여 수정 사항을 실시간으로 적용합니다.
 
 조각을 편집하면 원본 조각의 상속을 중단한 콘텐츠를 제외하고 라이브 여정 및 캠페인을 포함하여 해당 조각을 사용하는 모든 콘텐츠에 변경 사항이 자동으로 전파됩니다. 에서 상속을 중단하는 방법을 알아봅니다. [이메일에 시각적 조각 추가](../email/use-visual-fragments.md#break-inheritance) 및 [표현식 조각 활용](../personalization/use-expression-fragments.md#break-inheritance) 섹션.
 
