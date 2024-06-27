@@ -1,23 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 구문
-description: 고급 표현식 편집기에 대해 알아보기
+title: 고급 표현식 편집기 구문
+description: 고급 표현식 편집기에 사용되는 구문에 대해 알아봅니다
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: 구문, 편집기, 여정
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '262'
+ht-degree: 2%
 
 ---
 
 # 고급 표현식 편집기 구문 {#syntax}
 
-## 괄호 및 표현식 우선 순위{#parentheses-and-expression-priority}
+를 사용할 때의 구문 기본 사항 [고급 표현식 편집기](expressionadvanced.md) 아래에 나열되어 있습니다. 고급 표현식 편집기의 사용 샘플은에서 사용할 수 있습니다 [이 페이지](advanced-editor-use-cases.md).
+
+## 괄호 및 표현식 우선 순위 {#parentheses-and-expression-priority}
 
 괄호는 복잡한 표현식을 더 읽기 쉽게 하는 데 사용할 수 있습니다. _(&lt;expression>)_ 은(는) 과(와) 동일합니다. _&lt;expression>_. 괄호는 또한 평가 순서 및 연관성을 정의하는 데 사용될 수 있다.
 
@@ -30,7 +32,7 @@ ht-degree: 3%
 | `4 + 2 * 10` | <ul><li>&#39;*&#39;가 &#39;+&#39;보다 우선함: 2 * 10은 20→ 평가됨</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>괄호는 우선 순위를 변경합니다. (4 + 2)는 6→ 평가됩니다.</li><li> 6 * 10 → 60</li></ul> |
 
-## 대/소문자 구분{#case-sensitivity}
+## 대/소문자 구분 {#case-sensitivity}
 
 다른 대소문자 구분 규칙은 다음과 같습니다.
 
@@ -38,7 +40,7 @@ ht-degree: 3%
 * 모든 함수 이름은 대소문자를 구분합니다. 예, _inAudience()_ 은 유효한 반면에 함수는 _INAUDIENCE()_ 아님.
 * 필드 참조 및 상수 값은 대소문자를 구분합니다. 연산자 및 함수와 달리 언어의 기본 제공 요소가 아니며, 최종 사용자가 작성합니다.
 
-## 반환된 표현식 유형{#returned-expression-type}
+## 반환된 표현식 유형 {#returned-expression-type}
 
 사용 컨텍스트에 따라 표현식 편집기에서 다른 값을 반환할 수 있습니다.
 
@@ -46,4 +48,4 @@ ht-degree: 3%
 |--- |--- |
 | 조건(데이터 소스 조건, 날짜 조건) | 부울 |
 | 사용자 지정 타이머 | dateTimeOnly |
-| 작업 매개 변수 매핑 | 임의 |
+| 작업 매개 변수 매핑 | 모두 |
