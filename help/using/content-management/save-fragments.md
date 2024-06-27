@@ -8,22 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 8%
+source-wordcount: '460'
+ht-degree: 11%
 
 ---
 
 # 콘텐츠를 조각으로 저장 {#save-as-fragment}
 
-에서 콘텐츠를 편집할 때 [!DNL Journey Optimizer], 콘텐츠의 전부 또는 일부를 조각으로 저장하여 나중에 다시 사용할 수 있습니다. 콘텐츠를 조각으로 저장할 수 있습니다. [이메일 디자이너에서](#save-as-visual-fragment), 또는 [표현식 편집기에서](#save-as-expression-fragment).
+에서 콘텐츠를 편집할 때 [!DNL Journey Optimizer], 콘텐츠의 전부 또는 일부를 조각으로 저장하여 나중에 다시 사용할 수 있습니다. 콘텐츠를 조각으로 저장할 수 있습니다. [이메일 Designer에서](#save-as-visual-fragment), 또는 [표현식 편집기에서](#save-as-expression-fragment).
 
 ## 시각적 조각으로 저장 {#save-as-visual-fragment}
 
-이메일 디자이너의 콘텐츠를 조각으로 저장하려면 다음 단계를 수행합니다.
+이메일 Designer의 콘텐츠를 조각으로 저장하려면 다음 단계를 수행합니다.
 
-1. 다음에서 [이메일 디자이너](../email/get-started-email-design.md)을 클릭하고 화면 오른쪽 위의 생략 부호를 클릭합니다.
+1. 다음에서 [이메일 Designer](../email/get-started-email-design.md)을 클릭하고 화면 오른쪽 위의 생략 부호를 클릭합니다.
 
 1. 선택 **[!UICONTROL 조각으로 저장]** 드롭다운 메뉴에서 을(를) 선택합니다.
 
@@ -50,10 +50,6 @@ ht-degree: 8%
    >해당 새 조각에 대한 모든 변경 사항은 원래 이메일이나 템플릿에 전파되지 않습니다. 마찬가지로 원래 콘텐츠가 해당 이메일 또는 템플릿 내에서 편집되는 경우 새 조각은 수정되지 않습니다.
 
 1. 여정 및 캠페인에서 조각을 사용하려면 해당 조각을 라이브로 만들어야 합니다. [조각 미리보기 및 게시 방법 알아보기](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->조각 게시는 Journey Optimizer 6월 릴리스 이후 며칠 동안 점진적으로 롤아웃됩니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기 전에 지연이 발생할 수 있습니다. 사용자 환경에서 이 개선 사항을 아직 사용할 수 없는 경우 조각 게시가 여정 및 캠페인에서 조각을 사용하는 데 필요하지 않습니다.
 
 ## 표현식 조각으로 저장 {#save-as-expression-fragment}
 
@@ -83,7 +79,3 @@ ht-degree: 8%
 1. 조각이에 추가됩니다. [조각 목록](#access-manage-fragments) (으)로 **초안** 상태. 해당 목록에서 다른 표현식 조각으로 사용할 수 있는 독립형 조각이 됩니다.
 
 1. 여정 및 캠페인에서 조각을 사용하려면 해당 조각을 라이브로 만들어야 합니다. [조각 미리보기 및 게시 방법 알아보기](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->조각 게시는 Journey Optimizer 6월 릴리스 이후 며칠 동안 점진적으로 롤아웃됩니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기 전에 지연이 발생할 수 있습니다. 사용자 환경에서 이 개선 사항을 아직 사용할 수 없는 경우 조각 게시가 여정 및 캠페인에서 조각을 사용하는 데 필요하지 않습니다.

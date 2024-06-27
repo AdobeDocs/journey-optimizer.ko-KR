@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 152d637b631650e99c67df9be179ab1f5b5e682b
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 15%
+source-wordcount: '905'
+ht-degree: 18%
 
 ---
 
@@ -49,10 +49,6 @@ ht-degree: 15%
 >title="새로운 조각 상태"
 >abstract="**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 “초안” 상태입니다. 이러한 조각을 변경할 경우 해당 조각을 게시하여 “라이브”로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 Publish 조각 사용자 권한이 필요합니다."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="콘텐츠 조각 권한에 대해 자세히 알아보기"
-
->[!AVAILABILITY]
->
-> 조각 상태가 Journey Optimizer 6월 릴리스 이후 며칠 동안 점진적으로 롤아웃되고 있습니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기 전에 지연이 발생할 수 있습니다. 사용자 환경에서 이 개선 사항을 아직 사용할 수 없는 경우 조각은 다음이 필요하지 않습니다. **라이브** 여정 및 캠페인에 사용할 수 있습니다.
 
 조각에는 여러 상태가 있을 수 있습니다.
 
@@ -102,10 +98,6 @@ ht-degree: 15%
 1. 변경 사항이 준비되면 **Publish** 버튼을 클릭하여 수정 사항을 실시간으로 적용합니다.
 
 조각을 편집하면 원본 조각의 상속을 중단한 콘텐츠를 제외하고 라이브 여정 및 캠페인을 포함하여 해당 조각을 사용하는 모든 콘텐츠에 변경 사항이 자동으로 전파됩니다. 에서 상속을 중단하는 방법을 알아봅니다. [이메일에 시각적 조각 추가](../email/use-visual-fragments.md#break-inheritance) 및 [표현식 조각 활용](../personalization/use-expression-fragments.md#break-inheritance) 섹션.
-
->[!AVAILABILITY]
->
->라이브 여정 및 캠페인의 조각 변경 사항 전달은 Journey Optimizer 6월 릴리스 이후 며칠 동안 점진적으로 롤아웃되고 있습니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기 전에 지연이 발생할 수 있습니다. 사용자 환경에서 이 개선 사항을 아직 사용할 수 없는 경우 변경 사항이 라이브 여정 또는 캠페인에 사용되는 콘텐츠에 전파되지 않습니다.
 
 ## 참조 탐색 {#explore-references}
 

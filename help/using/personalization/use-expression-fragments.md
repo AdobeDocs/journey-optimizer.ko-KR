@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,6 @@ ht-degree: 0%
    >[!CAUTION]
    >
    >다음을 추가할 수 있습니다. **초안** 또는 **라이브** 콘텐츠를 조각화합니다. 하지만 초안 상태의 조각을 사용 중인 경우에는 여정 또는 캠페인을 활성화할 수 없습니다. 여정 또는 캠페인 게시 시 초안 조각에 오류가 표시되며 이를 승인해야 게시할 수 있습니다.
-   >
-   > 조각 상태가 Journey Optimizer 6월 릴리스 이후 며칠 동안 점진적으로 롤아웃되고 있습니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기 전에 지연이 발생할 수 있습니다. 사용자 환경에서 이 개선 사항을 아직 사용할 수 없는 경우 조각은 다음이 필요하지 않습니다. **라이브** 여정 및 캠페인에 사용할 수 있습니다.
 
 1. 조각 ID가 추가되면 해당 표현식 조각을 열고 [편집](../content-management/fragments.md#edit-fragments) 인터페이스에서 변경 사항이 동기화됩니다. 해당 조각 ID를 포함하는 모든 초안 또는 라이브 여정/캠페인에 자동으로 전파됩니다.
 

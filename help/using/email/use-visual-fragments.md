@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '669'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 2%
 >주어진 게재에서 최대 30개의 조각을 추가할 수 있습니다. 조각은 최대 1개 수준까지만 중첩할 수 있습니다.
 
 
-1. 을(를) 사용하여 이메일 또는 템플릿 콘텐츠를 엽니다. [이메일 디자이너](get-started-email-design.md).
+1. 을(를) 사용하여 이메일 또는 템플릿 콘텐츠를 엽니다. [이메일 Designer](get-started-email-design.md).
 
 1. 다음 항목 선택 **[!UICONTROL 조각]** 왼쪽 레일의 아이콘
 
@@ -54,8 +54,6 @@ ht-degree: 2%
    >[!CAUTION]
    >
    >다음을 추가할 수 있습니다. **초안** 또는 **라이브** 콘텐츠를 조각화합니다. 하지만 초안 상태의 조각을 사용 중인 경우에는 여정 또는 캠페인을 활성화할 수 없습니다. 여정 또는 캠페인 게시 시 초안 조각에 오류가 표시되며 이를 승인해야 게시할 수 있습니다.
-   >
-   > 조각 상태가 Journey Optimizer 6월 릴리스 이후 며칠 동안 점진적으로 롤아웃되고 있습니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기 전에 지연이 발생할 수 있습니다. 사용자 환경에서 이 개선 사항을 아직 사용할 수 없는 경우 조각은 다음이 필요하지 않습니다. **라이브** 여정 및 캠페인에 사용할 수 있습니다.
 
 1. 다른 구성 요소와 마찬가지로 콘텐츠에서 조각을 이동할 수 있습니다.
 

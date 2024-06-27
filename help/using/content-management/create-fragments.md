@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 13%
+source-wordcount: '646'
+ht-degree: 14%
 
 ---
 
@@ -72,10 +72,6 @@ ht-degree: 13%
   ![](assets/fragment-expression-editor.png)
 
 콘텐츠가 준비되면 **저장** 단추를 클릭합니다. 조각이 만들어지고 을 사용하여 조각 목록에 추가됩니다. **초안** 상태. 이를 미리 보고 게시하여 여정 및 캠페인에서 사용할 수 있도록 할 수 있습니다.
-
->[!NOTE]
->
->조각 게시는 Journey Optimizer 6월 릴리스 이후 며칠 동안 점진적으로 롤아웃됩니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기 전에 지연이 발생할 수 있습니다. 사용자 환경에서 이 개선 사항을 아직 사용할 수 없는 경우 조각 게시가 여정 및 캠페인에서 조각을 사용하는 데 필요하지 않습니다.
 
 ## 조각 미리보기 및 게시 {#publish}
 
