@@ -175,7 +175,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="프로필 제한 추가"
->abstract="이 옵션을 설정하여 이 구성에 포함할 최대 프로필 수를 지정합니다."
+>abstract="이 옵션을 토글하여 이 구성에 포함할 최대 프로필 수를 지정합니다."
 
 다음 **[!UICONTROL 등급]** 활동을 사용하면 특정 속성에 따라 프로필의 등급을 매기고 컴포지션에 포함할 수 있습니다. 예를 들어 충성도 점수가 가장 큰 50개의 프로필을 포함할 수 있습니다.
 
@@ -209,7 +209,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
 >title="기타 프로필"
->abstract="이 옵션을 설정하여 다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만듭니다."
+>abstract="이 옵션을 토글하여 다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만듭니다."
 
 다음 **[!UICONTROL 분할]** 활동을 사용하면 컴포지션을 여러 경로로 나눌 수 있습니다.
 
