@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 14%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->조각을 게시하려면 **Publish 조각** 관련 권한. [권한에 대해 자세히 알아보기](../administration/ootb-permissions.md)
+>조각을 게시하려면 [Publish 조각](../administration/ootb-product-profiles.md#content-library-manager) 사용자 권한.
 
 조각의 실행이 준비되면 미리 보고 게시하여 여정 및 캠페인에서 사용할 수 있도록 할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
 
