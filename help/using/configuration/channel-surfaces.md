@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 9%
+source-wordcount: '1758'
+ht-degree: 10%
 
 ---
 
@@ -22,6 +22,36 @@ ht-degree: 9%
 >id="ajo_admin_channel_surfaces"
 >title="채널 표면"
 >abstract="채널 표면은 시스템 관리자에 의해 정의된 구성입니다. 여기에는 헤더 매개변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개변수가 포함되어 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_marketing_action"
+>title="마케팅 액션"
+>abstract="추가 예정"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_app_id"
+>title="앱 ID"
+>abstract="추가 예정"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_location"
+>title="페이지 상의 위치"
+>abstract="추가 예정"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="페이지 일치 규칙"
+>abstract="추가 예정"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="기본 URL"
+>abstract="추가 예정"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_uri"
+>title="표면 URI"
+>abstract="추가 예정"
 
 포함 [!DNL Journey Optimizer], 메시지에 필요한 모든 기술 매개 변수(이메일 유형, 보낸 사람 이메일 및 이름, 모바일 앱, SMS 구성 등)를 정의하는 채널 표면(즉, 메시지 사전 설정)을 설정할 수 있습니다.
 
