@@ -11,8 +11,8 @@ keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1724'
+ht-degree: 17%
 
 ---
 
@@ -59,23 +59,23 @@ ht-degree: 0%
 
 여정 등록 관리는 프로필 유형에 따라 다릅니다. 에서 프로필 시작 및 재시작 관리에 대해 자세히 알아보십시오. [이 페이지](entry-management.md).
 
-### 재등록 허용  {#allow-re-entrance}
+### 재진입 허용  {#allow-re-entrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="재등록 허용"
->abstract="기본적으로 새 여정은 다시 입력할 수 있습니다. 다음을 선택 취소할 수 있습니다. **재등록 허용** 예를 들어 한 사람이 상점에 입장할 때 일회성 선물을 제공하려는 경우 옵션을 선택합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
+>title="재진입 허용"
+>abstract="기본적으로 새 여정에서는 재진입이 허용됩니다. 예를 들어 사용자가 상점에 입장할 때 일회성 선물을 제공하려 한다면 **재진입 허용** 옵션을 선택 해제하면 됩니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
 
-기본적으로 새 여정은 다시 입력할 수 있습니다. 다음을 선택 취소할 수 있습니다. **재등록 허용** 예를 들어 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 방&quot; 여정에 대한 옵션을 선택합니다.
+기본적으로 새 여정에서는 재진입이 허용됩니다. 다음을 선택 취소할 수 있습니다. **재등록 허용** 예를 들어 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 방&quot; 여정에 대한 옵션을 선택합니다.
 
-### 재등록 대기 기간  {#re-entrance-wait}
+### 재진입 대기 기간  {#re-entrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
->title="재등록 대기 기간"
->abstract=" 프로필이 단일 여정에서 여정을 다시 입력하도록 허용하기 전에 대기할 시간을 설정합니다. 이렇게 하면 사용자가 선택한 기간 동안 여정에 다시 입력할 수 없습니다. 최대 기간: 90일."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
+>title="재진입 대기 기간"
+>abstract=" 프로필이 단일 여정에서 다시 여정에 진입할 수 있도록 허용하기 전에 대기할 시간을 설정하십시오. 이렇게 하면 선택한 기간 동안 사용자가 여정에 다시 진입하는 것을 방지할 수 있습니다. 최대 기간은 90일입니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
 
 다음의 경우 **재등록 허용** 옵션이 활성화되고 **재등록 대기 기간** 필드가 표시됩니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 90일입니다.
 
@@ -92,18 +92,18 @@ ht-degree: 0%
 
 시간대 관리에 대한 자세한 내용은 [이 페이지](../building-journeys/timezone-management.md).
 
-## 시작 및 종료 날짜 {#dates}
+## 시작 및 종료 일자 {#dates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="시작 날짜"
->abstract="여정을 시작할 수 있는 날짜 항목을 선택합니다. 시작 날짜를 지정하지 않으면 게시 시간에 자동으로 설정됩니다."
+>abstract="여정이 시작될 날짜를 선택하십시오. 시작 일자를 지정하지 않으면 게시 시점에 자동으로 설정됩니다."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="종료 날짜"
->abstract="여정 종료 날짜를 선택합니다. 해당 날짜가 되면 해당 여정의 프로필이 자동으로 종료되고 새 프로필이 더 이상 해당 날짜를 입력할 수 없습니다."
+>abstract="여정의 종료 일자를 선택하십시오. 해당 일자에 도달하면 여정의 프로필이 자동으로 종료되며 새 프로필은 더 이상 진입할 수 없습니다."
 
 다음을 정의할 수 있습니다. **시작일**. 지정하지 않은 경우 게시 시 자동으로 정의됩니다.
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="시간 초과"
->abstract="시간 초과로 간주하기 전에 여정이 작업을 실행하거나 조건을 확인하는 데 사용할 시간을 정의합니다."
+>abstract="여정에서 시간 초과로 간주되기 전에 조치를 취하거나 조건을 확인하는 데 사용할 총 시간을 정의합니다."
 
 
 작업 또는 조건 활동을 편집할 때 오류 또는 시간 초과가 발생하는 경우 대체 경로를 정의할 수 있습니다. 서드파티 시스템을 문의하는 활동 처리가에 정의된 시간 초과 기간을 초과하는 경우 **[!UICONTROL 시간 초과 또는 오류]** 여정 속성의 필드에서는 잠재적인 대체 작업을 수행하도록 두 번째 경로가 선택됩니다.

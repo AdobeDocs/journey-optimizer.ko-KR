@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 38496b93f073c0e9cb208b0c62e6c4cb8a2d8c03
 workflow-type: tm+mt
 source-wordcount: '1341'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 26%
 
 ## 1단계 옵트아웃 {#opt-out-one-step}
 
-### 이메일 헤더의 구독 취소 URL 한 번 클릭 {#unsubscribe-header}
+### 이메일 헤더의 원클릭 구독 취소 URL {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="이메일 헤더에 구독 취소 URL 추가"
->abstract="List-Unsubscribe Header를 활성화하여 이메일 헤더에 구독 취소 URL을 추가합니다. 구독 취소 URL을 설정하려면 원클릭 옵트아웃 링크를 이메일 콘텐츠에 삽입합니다."
+>title="이메일 헤더의 구독 취소 URL 추가"
+>abstract="목록 구독 취소 헤더를 활성화하여 이메일 헤더에 구독 취소 URL을 추가합니다. 구독 취소 URL을 설정하려면 원클릭 옵트아웃 링크를 이메일 콘텐츠에 삽입합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko#one-click-opt-out" text="원클릭 옵트아웃"
 
 원클릭 목록 구독 취소 URL은 이메일 발신자 정보 옆에 표시되는 구독 취소 링크 또는 단추이며 한 번의 클릭으로 수신자가 메일링 목록에서 즉시 옵트아웃할 수 있습니다. Adobe Journey Optimizer에서 **목록 구독 취소 활성화** 옵션이 켜지면 이메일 헤더에 기본적으로 수신자가 메일링 목록에서 구독을 취소하는 데 사용할 수 있는 mailto 및/또는 URL이 모두 포함됩니다.

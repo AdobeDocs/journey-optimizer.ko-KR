@@ -21,7 +21,7 @@ ht-degree: 14%
 >id="ajo_create_visual_fragment"
 >title="비주얼 유형 선택"
 >abstract="여정 또는 캠페인 내의 이메일이나 콘텐츠 템플릿에서 콘텐츠를 재사용할 수 있도록 독립 실행형 시각적 조각을 만듭니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="이메일에 비주얼 조각 추가"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="이메일에 비주얼 조각 추가"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
