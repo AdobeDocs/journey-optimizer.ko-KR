@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 0454008d81a5aebccbbf75b0ef723fa869589597
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 75%
+source-wordcount: '1062'
+ht-degree: 72%
 
 ---
 
@@ -175,7 +175,7 @@ ht-degree: 75%
 * 콘텐츠 조각에 대해 상태 설정이 새로 도입되었습니다. **초안**, **라이브**, **게시 중**, **보관됨** 상태를 설정할 수 있습니다.
 * 이제 여정 또는 캠페인에서 조각을 사용하려면 해당 조각이 **라이브** 상태여야 합니다. 조각을 만드는 프로세스에 새로운 단계를 추가하여 조각을 게시하고 여정 및 캠페인에서 사용할 수 있도록 했습니다. 단, 조각을 게시하려면 새로운 권한이 필요합니다.
 
-  **주의** - **초안** 및 **라이브** 상태는 Journey Optimizer 6월 릴리스에서 도입되었으므로 이 릴리스 이전에 만든 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 기존 조각을 업데이트하는 방법은 이 섹션을 참조하십시오.
+  **주의** - **초안** 및 **라이브** 상태는 Journey Optimizer 6월 릴리스에서 도입되었으므로 이 릴리스 이전에 만든 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 이러한 조각을 변경하는 경우 다음을 수행해야 합니다 [게시](../content-management/create-fragments.md#publish) 를 &quot;라이브&quot;로 만들고 변경 사항을 연결된 캠페인 및 여정에 전파할 수 있습니다. 또한 새 여정/캠페인 버전을 만들고 게시해야 합니다.
 
 자세한 내용은 [콘텐츠 조각](../content-management/fragments.md) 설명서를 참조하십시오.
 
