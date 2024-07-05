@@ -68,7 +68,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="적격성 정의"
->abstract="기본적으로 모든 프로필에 오퍼가 표시될 수 있지만, 대상자 또는 결정 규칙을 사용하여 오퍼를 특정 프로필로 제한할 수 있습니다."
+>abstract="기본적으로 모든 프로필에 오퍼가 표시될 수 있지만 대상자 또는 결정 규칙을 사용하여 오퍼를 특정 프로필로 제한할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -201,7 +201,7 @@ ht-degree: 16%
 
    1. 사용 **[!UICONTROL 사용자 지정 이벤트 규칙 만들기]** 빌더에서 관련 이벤트를 선택합니다. 오퍼를 제한할 사용자 작업을 선택할 수 있습니다.
 
-      여기에서 선택 **[!UICONTROL 상거래]** > **[!UICONTROL 체크아웃]** > **[!UICONTROL 값]** 및 선택 **[!UICONTROL 존재함]** 을 클릭합니다.
+      여기에서 선택 **[!UICONTROL Commerce]** > **[!UICONTROL 체크아웃]** > **[!UICONTROL 값]** 및 선택 **[!UICONTROL 존재함]** 을 클릭합니다.
 
       ![](../assets/offer-capping-custom-event.png)
 
@@ -260,7 +260,7 @@ ht-degree: 16%
 
 +++ **반드시 알아야 할 사항: 빈도 설정 및 Edge Decisioning API**
 
-빈도 제한 카운터는 3초 이내에 Edge Decisioning API 의사 결정에서 업데이트되고 사용할 수 있습니다.
+빈도 제한 카운터는 업데이트되며 3초 이내에 Edge Decisioning API 의사 결정에서 사용할 수 있습니다.
 
 각각의 허브 영역은 하나 이상의 에지 영역들과 연관된다. 빈도 제한 규칙이 생성되고 각 허브 영역에서 연관된 에지 영역으로 내보내집니다. Edge Decisioning API를 사용하여 결정이 내려질 때마다 시스템은 동일한 에지 영역에서 사용할 수 있는 규칙을 적용합니다.
 

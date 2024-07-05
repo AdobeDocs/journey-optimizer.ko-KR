@@ -35,7 +35,7 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="페이지 상의 위치"
+>title="페이지에서의 위치"
 >abstract="추가 예정"
 
 >[!CONTEXTUALHELP]

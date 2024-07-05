@@ -63,7 +63,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="대상자 또는 의사 결정 규칙 추가"
->abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만, 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
+>abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="대상자 사용"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="의사 결정 규칙 사용"
 
