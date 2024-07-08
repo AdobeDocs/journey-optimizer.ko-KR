@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 2edb6f9d9b359293afcf5409b8b18068f43a38ec
+source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1608'
 ht-degree: 12%
 
 ---
@@ -161,9 +161,9 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 이벤트가 수신될 때, 키의 값은 시스템이 이벤트와 연관된 사람을 식별할 수 있게 한다. 네임스페이스에 연결됨( 참조) [이 섹션](../event/about-creating.md#select-the-namespace)) 키를 사용하여 Adobe Experience Platform에서 쿼리를 수행할 수 있습니다. 다음을 참조하십시오 [이 페이지](../building-journeys/about-journey-activities.md#orchestration-activities).
 또한 이 키는 개인이 여정 내에 있는지 확인하는 데도 사용됩니다. 실제로, 한 사람은 같은 여정에서 두 개의 다른 장소에 있을 수 없다. 따라서 시스템은 동일한 키(예: 키 CRMID=3224)가 동일한 여정의 다른 위치에 있는 것을 허용하지 않습니다.
 
-### 고급 표현식 편집기 {#adv-exp-editor}
+## 고급 표현식 편집기 {#adv-exp-editor}
 
-프로필 식별자를 정의할 때 고급 표현식 편집기로 전환하여 더 복잡한 키(예: 이벤트의 두 필드 연결)를 만들 수 있습니다.
+이벤트 ID 조건 또는 프로필 식별자를 정의할 때 고급 표현식 편집기로 전환하여 보다 복잡한 키(예: 두 필드의 이벤트 연결)를 만들 수 있습니다.
 
 ![](assets/journey20.png)
 
