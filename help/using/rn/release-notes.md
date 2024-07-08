@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 18fca9796e40d43f886ad8d53ef7d1b6b6642aa6
+source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 69%
@@ -30,7 +30,7 @@ ht-degree: 69%
 
 **최신 업데이트**: 2024년 7월 8일
 
-**여정 이벤트 구성의 고급 표현식 편집기** - 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 보다 복잡한 표현식을 정의하거나 이벤트 id 조건에서 함수를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md#adv-exp-editor)
+**여정 이벤트 구성의 고급 표현식 편집기** - 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 이벤트 ID 조건에서 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md#adv-exp-editor)
 
 
 ## 2024년 6월 릴리스 정보 {#24-6-2024}
