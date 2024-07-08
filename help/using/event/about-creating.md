@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
+source-git-commit: 60a7e79a5a40eada7645c1b6b94d8b165d2453b4
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1616'
 ht-degree: 12%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 12%
    >
    >다음을 선택하면 **[!UICONTROL 시스템 생성됨]** type을 입력하면 eventID type 필드가 있는 스키마만 사용할 수 있습니다. 다음을 선택하면 **[!UICONTROL 규칙 기반]** 유형, 모든 경험 이벤트 스키마를 사용할 수 있습니다.
 
-1. 규칙 기반 이벤트의 경우 **[!UICONTROL 이벤트 ID 조건]** 필드. 사용 <!--simple or advanced--> 표현식 편집기에서 여정을 트리거할 이벤트를 식별하는 데 사용할 조건을 정의합니다.
+1. 규칙 기반 이벤트의 경우 **[!UICONTROL 이벤트 ID 조건]** 필드. 단순 또는 고급 표현식 편집기를 사용하여 여정을 트리거할 이벤트를 식별하는 데 시스템에서 사용할 조건을 정의합니다.
 
 ![](assets/jo-event6.png)
 
