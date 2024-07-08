@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0454008d81a5aebccbbf75b0ef723fa869589597
+source-git-commit: fa4bcf281e9d58f5291a0128d0d33884016f407b
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 72%
+source-wordcount: '1118'
+ht-degree: 69%
 
 ---
 
@@ -25,6 +25,12 @@ ht-degree: 72%
 [!DNL Adobe Journey Optimizer]은(는) 기본적으로 [!DNL Adobe Experience Platform] 기반으로 구축되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
+
+## 2024년 7월 업데이트 {#24-7-2024}
+
+**최신 업데이트**: 2024년 7월 8일
+
+**여정 이벤트 구성의 고급 표현식 편집기** - 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 보다 복잡한 표현식을 정의하거나 이벤트 id 조건에서 함수를 사용할 수 있습니다. 이전에 LA(Limited Availability)에서 릴리스된 이 개선 사항은 이제 모든 고객이 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md#adv-exp-editor)
 
 
 ## 2024년 6월 릴리스 정보 {#24-6-2024}
