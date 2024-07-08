@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
+source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1610'
 ht-degree: 12%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 12%
 
 단일 이벤트는 특정 프로필에 연결됩니다. 규칙 기반 또는 시스템 생성 방식일 수 있습니다.  단일 이벤트에 대한 자세한 내용 [이 섹션](../event/about-events.md).
 
-새 이벤트를 구성하는 첫 번째 단계는 다음과 같습니다.
+다음은 새 이벤트를 구성하는 첫 번째 단계입니다.
 
-1. 관리 메뉴 섹션에서 다음을 선택합니다. **[!UICONTROL 구성]**. 다음에서  **[!UICONTROL 이벤트]** 섹션, 클릭 **[!UICONTROL 관리]**. 이벤트 목록이 표시됩니다.
+1. 관리 메뉴 섹션에서 다음 위치로 이동합니다. **[!UICONTROL 구성]**, 및  **[!UICONTROL 이벤트]** 섹션, 클릭 **[!UICONTROL 관리]**. 이벤트 목록이 표시됩니다.
 
    ![](assets/jo-event1.png)
 
