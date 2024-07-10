@@ -10,9 +10,9 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '151'
 ht-degree: 25%
 
 ---
@@ -35,3 +35,9 @@ Journey Optimizer을 사용하면 두 가지 서로 다른 방법을 통해 다�
 </br>
 
 ![](assets/translation_schema.png)
+
+## 방법 비디오 {#video}
+
+단일 캠페인 또는 여정 내에서 여러 언어로 콘텐츠를 만드는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)
