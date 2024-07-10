@@ -1,14 +1,14 @@
 ---
-keywords: Journey Optimizer;홈;인기 항목
+keywords: Journey Optimizer, 홈, 인기 항목
 title: Journey Optimizer 제품 설명서
 description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 695296b6aa6f2da0390648be13efb8a83fe287ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer 5월 릴리스의 새로운 기능과 개선 사항을 �
 
 >[!TAB Customer Journey Analytics를 사용한 보고(Beta)]
 
-Journey Optimizer 보고에는 Customer Journey Analytics 기능과의 상호 운용성이 개선되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 향상시킵니다.
+Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개선된 상호 운용성과 함께 양 플랫폼의 보고를 표준화하고 데이터의 일관성과 안정성을 개선합니다. 
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 

@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1873'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -321,7 +321,7 @@ ht-degree: 98%
       + [조각으로 시작](using/content-management/fragments.md)
       + [조각 만들기](using/content-management/create-fragments.md)
       + [기존 콘텐츠를 조각으로 저장](using/content-management/save-fragments.md)
-      + [사용자 지정 가능한 조각](using/content-management/customizable-fragments.md)
+      + [사용자 정의 가능한 조각](using/content-management/customizable-fragments.md)
       + [조각 관리](using/content-management/manage-fragments.md)
    + 다이내믹 콘텐츠 {#dynamic}
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
