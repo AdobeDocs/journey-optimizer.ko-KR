@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 69%
+ht-degree: 92%
 
 ---
 
@@ -80,13 +80,13 @@ ht-degree: 69%
 <table>
 <thead>
 <tr>
-<th><strong>Customer Journey Analytics을 사용한 보고(제한된 가용성)</strong><br/></th>
+<th><strong>Customer Journey Analytics를 사용한 보고(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 보고에는 Customer Journey Analytics 기능과의 상호 운용성이 개선되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 향상시킵니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 확실한 정보에 근거한 결정을 내릴 수 있습니다.</p>
+<p>Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개선된 상호 운용성과 함께 양 플랫폼의 보고를 표준화하고 데이터의 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 확실한 정보에 근거한 결정을 내릴 수 있습니다.</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>자세한 내용은 <a href="../reports/report-gs-cja.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -121,8 +121,8 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>이제 단일 캠페인 또는 여정 내에서 여러 언어로 간편하게 콘텐츠를 만들 수 있습니다. 이 기능을 사용하면 캠페인이나 여정을 편집할 때 언어 간에 전환할 수 있으므로 전체 편집 프로세스를 간소화하고 다국어 콘텐츠를 효율적으로 관리할 수 있습니다.</p>
-<p>다국어 컨텐츠는 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>이제 단일 캠페인 또는 여정 내에서 간편하게 여러 언어로 콘텐츠를 만들 수 있습니다. 이 기능을 사용하면 캠페인이나 여정을 편집할 때 언어를 전환할 수 있으므로 전체 편집 프로세스를 간소화하고 다국어 콘텐츠를 더욱 효율적으로 관리할 수 있습니다.</p>
+<p>다국어 콘텐츠는 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -132,14 +132,14 @@ ht-degree: 69%
 <table>
 <thead>
 <tr>
-<th><strong>여정에서의 실험(제한된 가용성)</strong><br/></th>
+<th><strong>여정 내 실험(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>캠페인에서 이미 사용 가능한 Adobe Journey Optimizer은 이제 여정에서 실험을 지원합니다. 실험은 무작위화한 시험 회기 여러 개를 모아 놓은 것입니다. 온라인 테스팅 맥락에서는 무작위로 선택한 사용자 일부를 특정한 버전의 메시지에 노출하고, 무작위로 선택한 다른 사용자들을 다른 처리 버전에 노출하는 것을 말합니다. 노출 후에는 이메일 열람, 구독 또는 구매 등 궁금한 결과 지표를 측정할 수 있습니다.</p>
-<p>여정에서의 실험은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>Adobe Journey Optimizer가 이제 여정에서도 실험을 지원합니다. 캠페인에서는 이미 실험을 사용할 수 있습니다. 실험은 무작위화한 시험 회기 여러 개를 모아 놓은 것입니다. 온라인 테스팅 맥락에서는 무작위로 선택한 사용자 일부를 특정한 버전의 메시지에 노출하고, 무작위로 선택한 다른 사용자들을 다른 처리 버전에 노출하는 것을 말합니다. 노출 후에는 이메일 열람, 구독 또는 구매 등 궁금한 결과 지표를 측정할 수 있습니다.</p>
+<p>여정 내 실험은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -205,9 +205,9 @@ ht-degree: 69%
 
 #### 이메일 채널
 
-* **목록 구독 취소** - 대량 발신자에 대한 최근 Gmail 및 Yahoo 공지에 따라 Journey Optimizer은 &quot;게시/1클릭&quot; 목록 구독 취소 옵션을 지원합니다. 다음 페이지를 참조하십시오. [이메일 옵트아웃 관리](../email/email-opt-out.md#unsubscribe-header) 및 [이메일 설정 구성](../email/email-settings.md#list-unsubscribe).
+* **목록 구독 취소** - 대량 발신자에 대한 최근 Gmail 및 Yahoo의 공지에 따라 Journey Optimizer는 “게시/원클릭” 목록 구독 취소 옵션을 지원합니다. [이메일 옵트아웃 관리](../email/email-opt-out.md#unsubscribe-header) 및 [이메일 설정 구성](../email/email-settings.md#list-unsubscribe) 페이지를 참조하십시오.
 
-  **참고** - 새 채널 표면에 대해 기본적으로 목록 구독 취소 헤더 옵션이 활성화됩니다. 기존 서피스의 경우 기본적으로 채널 서피스 설정의 한 번 클릭 구독 취소 URL 옵션이 선택되어 있지 않습니다. 이전 이메일 본문에서 원클릭 옵트아웃 URL을 사용하는 경우 이 설정은 여전히 유효합니다. 채널 표면 설정에서 한 번의 클릭으로 구독 취소 URL을 선택한 경우 Adobe Journey Optimizer은 오히려 채널 표면 설정에서 기본 생성된 한 번의 클릭으로 구독 취소 URL을 사용합니다.
+  **참고** - 새로 만든 채널 표면의 경우 기본적으로 목록 구독 취소 헤더 옵션이 활성화되어 있습니다. 기존 표면의 경우 기본적으로 채널 표면 설정의 [원클릭 구독 취소 URL] 옵션이 선택되어 있지 않습니다. 이전에 이메일 본문에서 원클릭 옵트아웃 URL을 사용하고 있었던 경우 해당 설정은 여전히 유효합니다. 채널 표면 설정에서 [원클릭 구독 취소 URL]을 선택한 경우 Adobe Journey Optimizer는 채널 표면 설정에서 생성된 기본 [원클릭 구독 취소 URL]을 사용합니다.
 
 #### SMS 채널
 
@@ -226,4 +226,4 @@ ht-degree: 69%
 
 #### DM 채널
 
-* 이제 모든 고객이 DM 채널을 사용할 수 있습니다. [자세히 보기](../direct-mail/get-started-direct-mail.md)
+* 이제 모든 고객이 다이렉트 메일 채널을 사용할 수 있습니다. [자세히 보기](../direct-mail/get-started-direct-mail.md)
