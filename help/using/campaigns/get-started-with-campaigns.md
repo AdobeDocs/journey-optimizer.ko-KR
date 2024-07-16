@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+source-git-commit: 50473c401e05b483387f8ff3c5c480020e8d5c14
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="캠페인"
->abstract="캠페인을 만들어 다양한 채널에서 일회성 콘텐츠를 특정 대상자에게 게재할 수 있습니다. 캠페인을 만들기 전 사용할 수 있는 채널 표면(즉, 메시지 사전 설정)과 Adobe Experience Platform 대상자가 있는지 확인합니다."
+>abstract="캠페인을 만들어 다양한 채널에서 일회성 콘텐츠를 특정 대상자에게 게재할 수 있습니다. 캠페인을 만들기 전에 채널 표면과 Adobe Experience Platform 대상자를 사용할 준비가 되어 있는지 확인하십시오."
 
 Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 대상자에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다.
 
