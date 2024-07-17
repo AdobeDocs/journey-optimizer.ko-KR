@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
-workflow-type: ht
-source-wordcount: '1873'
-ht-degree: 100%
+source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
+workflow-type: tm+mt
+source-wordcount: '1877'
+ht-degree: 99%
 
 ---
 
@@ -311,6 +311,7 @@ ht-degree: 100%
       + 개인화 사용 사례{#personalization-use-cases}
          + [주문 상태 알림](using/personalization/personalization-use-case.md)
          + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
+         + [의료 서비스 플랜 처방 전자 메일](using/personalization/perso-uc-plan-prescriptions.md)
    + 콘텐츠 템플릿 {#content-templates}
       + [콘텐츠 템플릿 시작](using/content-management/content-templates.md)
       + [템플릿 액세스 및 관리](using/content-management/access-content-templates.md)
