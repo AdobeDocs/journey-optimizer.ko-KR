@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 4dc269b0671b99eaddeebf358ebe4e45f5c4c721
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 30%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 **아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 날짜의 [릴리스 정보](release-notes.md)에 게시됩니다.
 
-## 2024년 6월 초기 릴리스 정보 {#e-2024}
+## 2024년 7월 초기 릴리스 정보 {#e-2024}
 
-**릴리스 날짜**: 2024년 6월 18~19일
+**릴리스 날짜**: 2024년 7월 30~31일
 
 ### 새로운 기능 {#e-features}
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>IP 준비 워크플로</strong><br/></th>
+<th><strong>IP 웜업 워크플로(GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -46,34 +46,17 @@ ht-degree: 100%
 </table>
 
 
-<!--<table>
-<thead>
-<tr>
-<th><strong>Content Fragments customization</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now define specific fields in a fragment that can be edited when the fragment is added to a campaign or journey. This allows for the adjustment of content portions at the time of use, providing flexibility to override default values with context-specific details.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Journey Optimizer의 AI 어시스턴트</strong><br/></th>
+<th><strong>모든 공급자의 SMS 채널</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 환경에 적절한 작업 인사이트를 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Journey Optimizer를 비롯한 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../start/ai-assistant.md">자세한 설명서</a>를 참조하세요.</p>
+<p>이제 기본 공급자 Sinch, Infobip 및 Twilio 외에 Journey Optimizer 내에서 추가 SMS 공급자를 구성할 수 있습니다.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -81,39 +64,44 @@ ht-degree: 100%
 
 
 
-
-
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Multilingual messages in journeys and campaigns  (Limited Availability)</strong><br/></th>
+<th><strong>사용자 지정 작업 Marketo Engage</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
+<p>이제 Adobe Journey Optimizer을 Adobe Marketo Engage과 통합하여 B2B 사용 사례를 빌드할 수 있습니다. 여정에서 새로운 사용자 지정 작업을 통해 데이터를 Marketo으로 수집할 수 있습니다.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Experimentation in journeys (Limited Availability)</strong><br/></th>
+<th><strong>향상된 채널 구성</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Already available in campaigns, Adobe Journey Optimizer now supports experiments in journeys. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
+<p>현재 채널 표면 기능은 모든 채널에서 일관된 접근 방식을 위해 향상되었습니다. 이제 모든 채널에서 이러한 구성을 정의, 관리 및 재사용할 수 있습니다.</p>
+<p><ul>
+<li>이제 채널 표면 이름이 <strong>채널 구성</strong>(으)로 변경되었습니다.</li>
+<li>이제 채널 구성 인벤토리에서 이제 웹, 인앱 메시징 또는 코드 기반 경험을 포함하여 모든 채널에 대해 재사용 가능한 채널 구성을 만들 수 있습니다</li>
+<li>이제 각 채널 구성에 OLAC(개체 수준 액세스 제어)를 사용할 수 있으므로 특정 구성을 만들거나 사용할 수 있는 사용자를 결정할 수 있습니다</li>
+<li>일부 채널의 경우 여러 플랫폼을 대상으로 하는 채널 구성을 만들 수 있습니다. 웹 페이지, iOS 앱 및 Android 앱을 타깃팅할 수 있는 인앱 메시지 채널 구성이 여기에 해당합니다.</li>
+</ul></p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
-</table-->
-
+</table>
 
 
 <!--table>
@@ -136,48 +124,24 @@ ht-degree: 100%
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-
-**의사 결정 관리**
-
-* **의사 결정 관리의 다중 규칙 지원** - 이제 의사 결정 관리에서 주어진 오퍼에 대해 최대 10개의 캡핑 규칙을 추가할 수 있습니다. 이를 통해 오퍼를 전송하는 방식에 대한 제어 수준을 향상시킬 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
-
-<!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
-
-<!--**Content fragments**
-
-* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
-* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
-* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
-   
-   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
-
 **여정**
 
-* 여정의 전역 시간 제한이 30일에서 91일로 늘어났습니다.
-* Adobe Journey Optimizer가 이제 데이터 수명 주기 관리 요청뿐만 아니라 개인 정보 삭제/액세스 요청도 지원합니다.
-* 이제 여정 인벤토리에서 열의 크기를 조정할 수 있습니다.
-* **이벤트 구성의 고급 표현식 편집기** GA 변경 - 이제 이벤트를 구성할 때 고급 표현식 편집기를 활용하여 이벤트 ID 조건에 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. 이 기능은 일부 고객을 대상으로 한 제한된 가용성으로 릴리스됩니다. <!--[Read more](../event/about-creating.md)-->
-* **병합 정책** GA 변경 - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. 이 기능은 일부 고객을 대상으로 한 제한된 가용성으로 릴리스됩니다. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* (가용성: 7월 8일) 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 이벤트 ID 조건에서 더 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md#adv-exp-editor)
 
-
-
-**캠페인**
-
-* 이제 Adobe Journey Optimizer에서 캠페인을 만들 때 새로운 모달에서 캠페인 유형(예약됨 또는 트리거됨)을 선택할 수 있습니다.
-
-<!--**Email channel**
-
-* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
-
+* 이제 테스트 모드 중에 `event-id` 조건이 자동으로 채워집니다.
 
 **SMS 채널**
 
-* 이제 한 번의 API 구성으로 각 샌드박스마다 고유한 짧은 코드를 추가할 수 있어 프로세스가 보다 효율적이고 간소화됩니다.
-  <!--* You can now modify existing SMS configurations.-->
+* 이제 기존 SMS 구성을 수정할 수 있습니다.
 
 **인앱 채널**
 
-* **표현식 조각** - 이제 표현식 조각을 **인앱 채널**&#x200B;에서 사용할 수 있습니다. <!--[Read more](../personalization/use-expression-fragments.md)-->
+* 이제 인앱 채널에 표현식 조각을 사용할 수 있습니다.
 
+**푸시 채널**
 
-* 이제 Edge Delivery 플러그인을 사용하여 인바운드 구현을 이해하고 문제를 해결하는 데 필요한 정보를 얻을 수 있습니다.
+* 이제 Adobe Journey Optimizer 채널 구성 설정 내에 모바일 애플리케이션 푸시 자격 증명을 추가할 수 있습니다. Adobe Experience Platform 데이터 수집에서 앱 표면 생성이 더 이상 필요하지 않습니다.
+
+**대상자**
+
+* 이제 Healthcare Shield 또는 Privacy and Security Shield에서 대상 구성 및 사용자 지정 업로드(CSV 파일)의 대상 및 속성을 사용할 수 있습니다.
