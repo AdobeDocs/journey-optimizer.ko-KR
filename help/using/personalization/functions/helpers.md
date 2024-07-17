@@ -9,7 +9,7 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## 기본 대체 값{#default-value}
 
-다음 `Default Fallback Value` 속성이 비어 있거나 null인 경우 도우미가 기본 대체 값을 반환하는 데 사용됩니다. 이 메커니즘은 프로필 속성 및 여정 이벤트에 대해 작동합니다.
+`Default Fallback Value` 도우미는 특성이 비어 있거나 null인 경우 기본 대체 값을 반환하는 데 사용됩니다. 이 메커니즘은 프로필 속성 및 여정 이벤트에 대해 작동합니다.
 
 **구문**
 
@@ -25,11 +25,11 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-이 예에서 값은 `there` 다음 경우에 표시됩니다. `firstName` 이 프로필의 속성이 비어 있거나 null입니다.
+이 예제에서는 이 프로필의 `firstName` 특성이 비어 있거나 null인 경우 값 `there`이(가) 표시됩니다.
 
 ## 조건{#if-function}
 
-다음 `if` 헬퍼를 사용하여 조건부 블록을 정의합니다.
+`if` 도우미는 조건부 블록을 정의하는 데 사용됩니다.
 표현식 계산이 true를 반환하면 블록이 렌더링되고 그렇지 않으면 건너뜁니다.
 
 **구문**
@@ -39,11 +39,11 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-팔로우 중 `if` 도우미에서 다음을 입력할 수 있습니다. `else` 동일한 조건이 false인 경우 실행할 코드 블록을 지정하는 문입니다.
-다음 `elseif` 문은 첫 번째 문이 false를 반환하는 경우 테스트할 새 조건을 지정합니다.
+`if` 도우미 다음에 `else` 문을 입력하여 동일한 조건이 false인 경우 실행할 코드 블록을 지정할 수 있습니다.
+`elseif` 문은 첫 번째 문이 false를 반환하는 경우 테스트할 새 조건을 지정합니다.
 
 
-**포맷**
+**형식**
 
 ```sql
 {
@@ -58,7 +58,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 **예**
 
-1. **조건부 표현식을 기반으로 다양한 스토어 링크 렌더링**
+1. **조건부 표현식을 기반으로 다른 스토어 링크 렌더링**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -68,7 +68,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **이메일 주소 확장 확인**
+1. **전자 메일 주소 확장 확인**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -94,7 +94,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **대상자 멤버십을 기반으로 한 조건부 콘텐츠**
+1. **대상자 멤버십을 기반으로 하는 조건부 콘텐츠**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,12 +106,12 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->대상자 및 세분화 서비스에 대한 자세한 내용은 다음을 참조하십시오. [섹션](../../audience/about-audiences.md).
+>대상 및 세분화 서비스에 대한 자세한 내용은 이 [섹션](../../audience/about-audiences.md)을 참조하세요.
 
 
 ## Unless{#unless}
 
-다음 `unless` 헬퍼를 사용하여 조건부 블록을 정의합니다. 에 대한 반대로 `if`  도우미, 표현식 계산에서 false를 반환하면 블록이 렌더링됩니다.
+`unless` 도우미는 조건부 블록을 정의하는 데 사용됩니다. `if` 헬퍼와 반대로 식 계산이 false를 반환하는 경우 블록이 렌더링됩니다.
 
 **구문**
 
@@ -131,11 +131,11 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-## 각{#each}
+## Each{#each}
 
-다음 `each` helper는 배열을 반복하는 데 사용됩니다.
-헬퍼의 구문은 다음과 같습니다. ```{{#each ArrayName}}``` 귀하의 콘텐츠 {{/each}}
-키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다 **이** 블록 안에요 를 사용하여 배열 요소의 인덱스를 렌더링할 수 있습니다. {{@index}}.
+`each` 도우미는 배열을 반복하는 데 사용됩니다.
+도우미의 구문은 ```{{#each ArrayName}}``` YourContent {{/each}}입니다.
+블록 내에서 **this** 키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다. {{@index}}을(를) 사용하여 배열 요소의 인덱스를 렌더링할 수 있습니다.
 
 **구문**
 
@@ -165,9 +165,9 @@ Some edu specific content Content
 {{/each}}
 ```
 
-## 포함{#with}
+## With{#with}
 
-다음 `with` helper를 사용하여 템플릿 부분의 평가 토큰을 변경합니다.
+`with` 도우미는 템플릿 부분의 평가 토큰을 변경하는 데 사용됩니다.
 
 **구문**
 
@@ -177,7 +177,7 @@ Some edu specific content Content
 {{/with}}
 ```
 
-다음 `with` 도우미는 바로 가기 변수를 정의하는 데에도 유용합니다.
+`with` 도우미는 바로 가기 변수를 정의하는 데에도 유용합니다.
 
 **예**
 
@@ -192,7 +192,7 @@ Some edu specific content Content
 
 ## Let{#let}
 
-다음 `let` 함수를 사용하면 표현식을 나중에 쿼리에서 사용할 변수로 저장할 수 있습니다.
+`let` 함수를 사용하면 나중에 쿼리에서 사용할 변수로 식을 저장할 수 있습니다.
 
 **구문**
 

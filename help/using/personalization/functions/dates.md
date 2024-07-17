@@ -9,7 +9,7 @@ exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3a4a58f8601c67e8e9a2b606a47c6b4bcc2dab05
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 날짜 및 시간 함수는 Journey Optimizer 내의 값에 대해 날짜 및 시간 작업을 수행하는 데 사용됩니다.
 
-## 연령{#age}
+## 처리 시간{#age}
 
-다음 `age` 함수는 특정 날짜의 기간을 검색하는 데 사용됩니다.
+`age` 함수는 특정 날짜에서 기간을 검색하는 데 사용됩니다.
 
 **구문**
 
@@ -39,7 +39,7 @@ The following operation gets the value of the identity map for the key `example@
 
 ## 현재 시간(밀리초){#current-time}
 
-다음 `currentTimeInMillis` 함수는 에포크 밀리초로 현재 시간을 검색하는 데 사용됩니다.
+`currentTimeInMillis` 함수는 에포크 밀리초로 현재 시간을 검색하는 데 사용됩니다.
 
 **구문**
 
@@ -59,7 +59,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 ## 날짜 차이{#date-diff}
 
-다음 `dateDiff` 함수는 일 수로 두 날짜 간의 차이를 검색하는 데 사용됩니다.
+`dateDiff` 함수는 일 수로 두 날짜 간의 차이를 검색하는 데 사용됩니다.
 
 **구문**
 
@@ -80,7 +80,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 요일{#day-week}
 
-다음 `dayOfWeek` 함수는 요일을 검색하는 데 사용됩니다.
+`dayOfWeek` 함수는 요일을 검색하는 데 사용됩니다.
 
 **구문**
 
@@ -98,9 +98,9 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 일(한 해 기준){#day-year}
+## 연간 일자{#day-year}
 
-다음 `dayOfYear` 함수는 연간 일자를 검색하는 데 사용됩니다.
+`dayOfYear` 함수는 연간 일자를 검색하는 데 사용됩니다.
 
 **구문**
 
@@ -118,9 +118,9 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 날짜 형식 지정{#format-date}
+## 날짜 포맷{#format-date}
 
-다음 `formatDate` 함수는 날짜 및 시간 값의 형식을 지정하는 데 사용됩니다. 형식은 유효한 Java DateTimeFormat 패턴이어야 합니다.
+`formatDate` 함수는 날짜/시간 값의 형식을 지정하는 데 사용됩니다. 형식은 유효한 Java DateTimeFormat 패턴이어야 합니다.
 
 **구문**
 
@@ -134,7 +134,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 날짜 패턴이 올바르지 않으면 날짜는 ISO 표준 형식으로 대체됩니다.
 >
-> 에 요약된 대로 Java 날짜 형식 지정 함수를 사용할 수 있습니다. [Oracle 설명서](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> [Oracle 설명서](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}에 요약된 대로 Java 날짜 서식 함수를 사용할 수 있습니다.
 
 **예**
 
@@ -146,7 +146,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 로케일 지원을 사용하여 날짜 형식 지정{#format-date-locale}
 
-다음 `formatDate` 함수는 날짜 시간 값을 해당 언어 구분 표시(즉, 원하는 로케일로)로 포맷하는 데 사용됩니다. 형식은 유효한 Java DateTimeFormat 패턴이어야 합니다.
+`formatDate` 함수는 날짜 시간 값의 형식을 해당 언어 구분 표시(즉, 원하는 로케일)로 지정하는 데 사용합니다. 형식은 유효한 Java DateTimeFormat 패턴이어야 합니다.
 
 **구문**
 
@@ -160,9 +160,9 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 날짜 패턴이 올바르지 않으면 날짜는 ISO 표준 형식으로 대체됩니다.
 >
-> 에 요약된 대로 Java 날짜 형식 지정 함수를 사용할 수 있습니다. [Oracle 설명서](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> [Oracle 설명서](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)에 요약된 대로 Java 날짜 서식 함수를 사용할 수 있습니다.
 >
-> 에 요약된 대로 형식 지정 및 유효한 로케일을 사용할 수 있습니다. [Oracle 설명서](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 및 [지원되는 로케일](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> [Oracle 설명서](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 및 [지원되는 로케일](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html)에 요약된 대로 서식 및 올바른 로케일을 사용할 수 있습니다.
 
 
 **예**
@@ -175,7 +175,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 일 설정{#set-days}
 
-다음 `setDays` 함수는 특정 날짜-시간에 대한 월의 일을 설정하는 데 사용됩니다.
+`setDays` 함수는 특정 날짜-시간에 대한 날짜의 날짜를 설정하는 데 사용됩니다.
 
 **구문**
 
@@ -195,7 +195,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 시간 설정{#set-hours}
 
-다음 `setHours` 함수는 날짜-시간의 시간을 설정하는 데 사용됩니다.
+`setHours` 함수는 날짜-시간의 시간을 설정하는 데 사용됩니다.
 
 **구문**
 
@@ -214,9 +214,9 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## UTC로{#to-utc}
+## UTC로 변환{#to-utc}
 
-다음 `toUTC` 날짜/시간을 UTC로 변환하는 데 함수를 사용합니다.
+`toUTC` 함수는 날짜/시간을 UTC로 변환하는 데 사용됩니다.
 
 
 **구문**
@@ -238,7 +238,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 주(UTC){#week-of-year}
 
-다음 `weekOfYear` 함수는 연간 주를 검색하는 데 사용됩니다.
+`weekOfYear` 함수는 연간 주를 검색하는 데 사용됩니다.
 
 **구문**
 

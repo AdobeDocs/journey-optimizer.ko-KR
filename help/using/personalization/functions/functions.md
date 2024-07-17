@@ -15,11 +15,11 @@ ht-degree: 22%
 
 # 도우미 함수 시작{#functions}
 
-사용 [!DNL Journey Optimizer] 계산, 데이터 서식 지정 또는 전환, 조건 등 데이터에 대한 작업을 수행하고 개인화 컨텍스트에서 이를 조작하기 위한 언어를 템플릿화합니다. 에서 개인화 구문 지침 알아보기 [이 페이지](../personalization-syntax.md).
+[!DNL Journey Optimizer] 템플릿 언어를 사용하여 계산, 데이터 형식 지정 또는 전환, 조건 등 데이터에 대한 작업을 수행하고, 개인화의 컨텍스트에서 이를 조작합니다. [이 페이지](../personalization-syntax.md)에서 개인화 구문 지침을 알아보세요.
 
 
 
-➡️ [이 비디오에서 도우미 함수를 사용하는 방법에 대해 알아봅니다.](#video)
+➡️[이 비디오에서 도우미 함수를 사용하는 방법을 알아보세요](#video)
 
 템플릿 언어는 아래와 같이 개인화 편집기의 개인화 드롭다운 목록에서 사용할 수 있는 도우미 함수에서 활용됩니다.
 
@@ -27,15 +27,15 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->개인화 편집기에서 사용할 수 있는 기능 및 기능은에서 사용할 수 있는 기능과 다릅니다. [여정 고급 표현식 편집기](../../building-journeys/expression/expressionadvanced.md).
+>개인화 편집기에서 사용할 수 있는 기능 및 기능은 [여정 고급 표현식 편집기](../../building-journeys/expression/expressionadvanced.md)에서 사용할 수 있는 기능 및 기능과 다릅니다.
 
-다음에서 [!DNL Journey Optimizer] 개인화 편집기, 도우미 함수는 다음 세 가지 범주로 그룹화됩니다. [함수](#functions-helper), [도우미](#helper-helper) 및 [연산자](#operators-helper).
+[!DNL Journey Optimizer] 개인화 편집기에서 도우미 함수는 [함수](#functions-helper), [도우미](#helper-helper) 및 [연산자](#operators-helper)의 세 가지 범주로 그룹화됩니다.
 
 카테고리를 선택하여 하위 카테고리 및 기능에 액세스합니다.
 
-을 클릭하여 하위 카테고리에 액세스 `>` 아이콘. 을(를) 클릭하여 함수 선택 `+` icon: 함수가 개인화 화면에 자동으로 추가됩니다.
+`>` 아이콘을 클릭하여 하위 범주에 액세스합니다. `+` 아이콘을 클릭하여 함수를 선택하십시오. 함수는 자동으로 개인화 화면에 추가됩니다.
 
-다음을 클릭합니다. `...` 아이콘 - 함수에 대한 설명을 보고 즐겨찾기에 추가합니다. [자세히 알아보기](../personalize.md#fav)
+`...` 아이콘을 클릭하여 함수에 대한 설명을 보고 즐겨찾기에 추가합니다. [자세히 알아보기](../personalize.md#fav)
 
 ## 함수{#functions-helper}
 
@@ -347,7 +347,7 @@ ht-degree: 22%
 
 ## 도우미{#helper-helper}
 
-도우미는 다음에 자세히 설명되어 있습니다. [이 페이지](helpers.md).
+도우미는 [이 페이지](helpers.md)에 자세히 설명되어 있습니다.
 
 
 <table>
@@ -425,7 +425,7 @@ ht-degree: 22%
         <td><a href="operators.md#greaterthanorequal">크거나 같음</a></td><td>이 연산자는 첫 번째 값이 두 번째 값보다 크거나 같은지 확인합니다</td>
     </tr>
     <tr>
-        <td><a href="operators.md#lessthanorequal">보다 작거나 같음</a> </td><td>이 연산자는 첫 번째 값이 두 번째 값보다 작거나 같은지 확인합니다</td>
+        <td><a href="operators.md#lessthanorequal">작거나 같음</a> </td><td>이 연산자는 첫 번째 값이 두 번째 값보다 작거나 같은지 확인합니다</td>
     </tr>
     <tr>
         <td><a href="operators.md#notequal">다음과 같지 않음</a></td><td>이 연산자는 특정 표현식이 특정 값과 같지 않은지 확인합니다.</td>

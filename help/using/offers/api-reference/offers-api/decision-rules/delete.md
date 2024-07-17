@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 의사 결정 규칙 삭제 {#delete-decision-rule}
 
-때때로 결정 규칙을 제거(DELETE)해야 할 수 있습니다. 이 작업은 다음에 대한 DELETE 요청을 수행함으로써 수행됩니다. [!DNL Offer Library] 를 사용하는 API `id` 삭제할 결정 규칙.
+때때로 결정 규칙을 제거(DELETE)해야 할 수 있습니다. 이 작업은 삭제할 결정 규칙의 `id`을(를) 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행함으로써 수행됩니다.
 
 **API 형식**
 

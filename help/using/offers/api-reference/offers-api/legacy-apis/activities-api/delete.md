@@ -9,13 +9,13 @@ exl-id: 36a87d98-fd61-416e-83a1-e267a7b4d455
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 # 의사 결정 삭제 {#delete-decision}
 
-결정을 제거(DELETE)해야 하는 경우도 있습니다. 테넌트 컨테이너에서 만드는 의사 결정만 삭제할 수 있습니다. 이 작업은 다음에 대한 DELETE 요청을 수행함으로써 수행됩니다. [!DNL Offer Library] 삭제하려는 대체 오퍼의 $id를 사용하는 API입니다.
+결정을 제거(DELETE)해야 하는 경우도 있습니다. 테넌트 컨테이너에서 만드는 의사 결정만 삭제할 수 있습니다. 이 작업은 삭제하려는 대체 오퍼의 $id를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행함으로써 수행됩니다.
 
 **API 형식**
 

@@ -19,7 +19,7 @@ ht-degree: 11%
 
 ## 절대 {#absolute}
 
-다음 `absolute` 함수는 숫자를 숫자의 절대값으로 변환하는 데 사용됩니다.
+`absolute` 함수는 숫자의 절대값을 변환하는 데 사용합니다.
 
 **구문**
 
@@ -29,7 +29,7 @@ ht-degree: 11%
 
 ## formatNumber {#format-number}
 
-다음 `formatNumber` 함수는 숫자를 언어에 민감한 표현으로 서식을 지정하는 데 사용됩니다.
+`formatNumber` 함수는 숫자를 언어 구분 표현으로 서식을 지정하는 데 사용합니다.
 
 숫자와 로케일을 나타내는 문자열을 수락하고 원하는 로케일에서 숫자의 서식 있는 문자열을 반환합니다.
 
@@ -39,7 +39,7 @@ ht-degree: 11%
 {%= formatNumber(number/double,string) %}: string
 ```
 
-에 요약된 대로 형식 지정 및 유효한 로케일을 사용할 수 있습니다. [Oracle 설명서](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 및 [지원되는 로케일](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+[Oracle 설명서](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 및 [지원되는 로케일](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}에 요약된 대로 서식 및 올바른 로케일을 사용할 수 있습니다.
 
 **예**
 
@@ -51,7 +51,7 @@ ht-degree: 11%
 
 ## 무작위 {#random}
 
-다음 `random` 함수는 0과 1 사이의 임의의 값을 반환하는 데 사용됩니다.
+`random` 함수는 0과 1 사이의 임의의 값을 반환하는 데 사용됩니다.
 
 **구문**
 
@@ -61,7 +61,7 @@ ht-degree: 11%
 
 ## 내림 {#round-down}
 
-다음 `roundDown` 함수는 숫자를 내림하는 데 사용됩니다.
+`roundDown` 함수는 숫자를 내림하는 데 사용됩니다.
 
 **구문**
 
@@ -71,7 +71,7 @@ ht-degree: 11%
 
 ## 올림 {#round-up}
 
-다음 `Count only null` 함수는 숫자를 올림하는 데 사용됩니다.
+`Count only null` 함수는 숫자를 반올림하는 데 사용됩니다.
 
 **구문**
 
@@ -81,7 +81,7 @@ ht-degree: 11%
 
 ## 16진수 문자열로 변환 {#to-hex-string}
 
-다음 `toHexString` 함수는 임의의 숫자를 16진수 문자열로 변환합니다.
+`toHexString` 함수는 임의의 숫자를 16진수 문자열로 변환합니다.
 
 **구문**
 
@@ -99,7 +99,7 @@ ht-degree: 11%
 
 ## 정수로 {#to-int}
 
-다음 `toInt` 함수는 이러한 유형(숫자, 더블, int, long, float, short, 바이트, 부울, 문자열) 중 하나를 정수로 변환하는 데 사용됩니다.
+`toInt` 함수는 이러한 형식(숫자, double, int, long, float, short, 바이트, 부울, 문자열)을 정수로 변환하는 데 사용합니다.
 
 **구문**
 
@@ -117,7 +117,7 @@ ht-degree: 11%
 
 ## 백분율로 변환 {#to-percentage}
 
-다음 `toPercentage` 함수는 숫자를 백분율로 변환하는 데 사용합니다.
+`toPercentage` 함수는 숫자를 백분율로 변환하는 데 사용합니다.
 
 **구문**
 
@@ -127,7 +127,7 @@ ht-degree: 11%
 
 ## 전체 자릿수로 변환 {#to-precision}
 
-다음 `toPrecision` 함수는 숫자를 필요한 전체 자릿수로 변환하는 데 사용합니다.
+`toPrecision` 함수는 숫자를 필요한 전체 자릿수로 변환하는 데 사용합니다.
 
 **구문**
 
@@ -137,7 +137,7 @@ ht-degree: 11%
 
 ## 대상 문자열 {#to-string}
 
-다음 **toString** 함수는 임의의 숫자를 문자열 표현으로 변환합니다.
+**toString** 함수는 모든 숫자를 문자열 표시로 변환합니다.
 
 **구문**
 

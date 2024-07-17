@@ -40,24 +40,24 @@ ht-degree: 22%
 
    ![](assets/experiment-genai-1.png)
 
-1. 생성된 를 통해 찾아보기 **[!UICONTROL 변형]** 및 클릭 **[!UICONTROL 미리 보기]** 선택한 변형의 전체 화면 버전을 보려면 다음과 같이 하십시오.
+1. 생성된 **[!UICONTROL 변형]**&#x200B;을 찾은 다음 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 선택한 변형의 전체 화면 버전을 봅니다.
 
    ![](assets/experiment-genai-2.png)
 
-1. 선택 **[!UICONTROL 실험 활성화]** 만들기를 시작하려면 **[!UICONTROL 처리]** 실험에 사용됩니다.
+1. 실험에 사용할 **[!UICONTROL 처리]**&#x200B;를 만들려면 **[!UICONTROL 실험 사용]**&#x200B;을 선택하세요.
 
 1. 실험에 포함할 변형을 선택합니다.
 
-1. 클릭 **X 처리 추가**.
+1. **X개 처리 추가**&#x200B;를 클릭합니다.
 
    ![](assets/experiment-genai-3.png)
 
-1. 콘텐츠 실험 창에서 **[!UICONTROL 실험 설정]** 단추를 클릭하여 실험을 구성합니다. [콘텐츠 실험에 대해 자세히 알아보기](../content-management/content-experiment.md)
+1. 콘텐츠 실험 창에서 **[!UICONTROL 실험 설정]** 단추에 액세스하여 실험을 구성합니다. [콘텐츠 실험에 대해 자세히 알아보기](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. 콘텐츠 실험이 준비되면 캠페인 요약 페이지에서 다음을 클릭할 수 있습니다. **[!UICONTROL 활성화하려면 검토]** 캠페인 요약을 표시합니다. 매개 변수가 잘못되거나 누락된 경우 경고가 표시됩니다. [자세히 알아보기](../content-management/content-experiment.md#treatment-experiment)
+1. 콘텐츠 실험이 준비되면 캠페인 요약 페이지에서 **[!UICONTROL 활성화 검토]**&#x200B;를 클릭하여 캠페인 요약을 표시할 수 있습니다. 매개 변수가 잘못되거나 누락된 경우 경고가 표시됩니다. [자세히 알아보기](../content-management/content-experiment.md#treatment-experiment)
 
-1. 캠페인을 시작하기 전에 모든 구성이 올바른지 다시 한 번 확인한 다음 를 클릭합니다. **[!UICONTROL 활성화]**.
+1. 캠페인을 시작하기 전에 모든 구성이 올바른지 다시 확인한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭하세요.
 
 캠페인을 정상적으로 구성하고 개인화한 후에는 캠페인 보고서에서 캠페인을 추적할 수 있습니다. [자세히 알아보기](../reports/campaign-global-report.md)

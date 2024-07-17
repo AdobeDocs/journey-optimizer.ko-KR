@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. 사용자 지정 작업을 만듭니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
 
-1. 내부를 클릭합니다. **응답** 필드.
+1. **응답** 필드 내부를 클릭합니다.
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -127,15 +127,15 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. 이전에 만든 이벤트와 충성도 사용자 지정 작업을 추가합니다.
 
-1. 충성도 사용자 지정 작업에서 고객 ID 쿼리 매개 변수를 프로필 ID에 매핑합니다. 옵션을 선택합니다. **시간 초과 또는 오류 발생 시 대체 경로 추가**.
+1. 충성도 사용자 지정 작업에서 고객 ID 쿼리 매개 변수를 프로필 ID에 매핑합니다. **시간 초과 또는 오류 발생 시 대체 경로를 추가** 옵션을 선택합니다.
 
    ![](assets/action-response10.png)
 
-1. 첫 번째 분기에서 조건을 추가하고 고급 편집기를 사용하여 아래의 작업 응답 필드를 활용합니다. **컨텍스트** 노드.
+1. 첫 번째 분기에서 조건을 추가하고 고급 편집기를 사용하여 **Context** 노드 아래의 작업 응답 필드를 활용합니다.
 
    ![](assets/action-response6.png)
 
-1. 그런 다음 푸시를 추가하고 응답 필드를 사용하여 메시지를 개인화합니다. 이 예제에서는 충성도 포인트 수와 고객 상태를 사용하여 콘텐츠를 개인화합니다. 작업 응답 필드는 다음에서 사용할 수 있습니다. **컨텍스트 속성** > **Journey Orchestration** > **작업**.
+1. 그런 다음 푸시를 추가하고 응답 필드를 사용하여 메시지를 개인화합니다. 이 예제에서는 충성도 포인트 수와 고객 상태를 사용하여 콘텐츠를 개인화합니다. 작업 응답 필드는 **컨텍스트 특성** > **Journey Orchestration** > **작업**&#x200B;에서 사용할 수 있습니다.
 
    ![](assets/action-response8.png)
 
@@ -143,8 +143,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >사용자 지정 작업을 입력하는 각 프로필은 호출을 트리거합니다. 응답이 항상 동일하더라도 여정은 프로필당 한 번의 호출을 수행합니다.
 
-1. 시간 제한 및 오류 분기에 조건을 추가하고 기본 제공 기능을 활용합니다 **jo_status_code** 필드. 이 예제에서는
-   **http_400** 오류 유형. [이 섹션](#error-status)을 참조하십시오.
+1. 시간 제한 및 오류 분기에 조건을 추가하고 기본 제공 **jo_status_code** 필드를 활용하십시오. 이 예제에서는
+   **http_400** 오류 유형입니다. [이 섹션](#error-status)을 참조하십시오.
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"
@@ -158,17 +158,17 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 ## 테스트 모드 로그 {#test-mode-logs}
 
-테스트 모드를 통해 사용자 지정 작업 응답과 관련된 상태 로그에 액세스할 수 있습니다. 여정에서 응답이 있는 사용자 지정 작업을 정의한 경우 **actionsHistory** 섹션에 외부 끝점이 반환한 페이로드를 해당 사용자 지정 작업의 응답으로서 표시하는 작업이 표시됩니다. 이 기능은 디버깅 측면에서 매우 유용할 수 있습니다.
+테스트 모드를 통해 사용자 지정 작업 응답과 관련된 상태 로그에 액세스할 수 있습니다. 여정에서 응답이 있는 사용자 지정 작업을 정의한 경우 해당 로그에 외부 끝점에서 반환된 페이로드를 표시하는 **actionsHistory** 섹션이 표시됩니다(해당 사용자 지정 작업의 응답). 이 기능은 디버깅 측면에서 매우 유용할 수 있습니다.
 
 ![](assets/action-response12.png)
 
 ## 오류 상태 {#error-status}
 
-다음 **jo_status_code** 응답 페이로드가 정의되지 않은 경우에도 필드는 항상 사용할 수 있습니다.
+응답 페이로드가 정의되지 않은 경우에도 **jo_status_code** 필드를 항상 사용할 수 있습니다.
 
 다음은 이 필드에 사용할 수 있는 값입니다.
 
-* http 상태 코드: http_`<HTTP API call returned code>`예: http_200 또는 http_400
+* http 상태 코드: http_`<HTTP API call returned code>`(예: http_200 또는 http_400)
 * 시간 초과 오류: **시간 초과**
 * 최대 가용량 오류: **제한됨**
 * 내부 오류: **internalError**
@@ -177,7 +177,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 >[!WARNING]
 >
->새로 생성된 사용자 지정 작업에만 다음이 포함됩니다. **jo_status_code** 기본 제공 필드. 기존 사용자 지정 작업에 사용하려면 작업을 업데이트해야 합니다. 예를 들어 설명을 업데이트하고 저장할 수 있습니다.
+>새로 만든 사용자 지정 작업에만 **jo_status_code** 필드가 기본적으로 포함됩니다. 기존 사용자 지정 작업에 사용하려면 작업을 업데이트해야 합니다. 예를 들어 설명을 업데이트하고 저장할 수 있습니다.
 
 ## 표현식 구문 {#exp-syntax}
 
@@ -202,7 +202,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
  @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-사용자 지정 작업 응답에서 컬렉션을 조작하는 동안 을 사용할 수 있습니다. `currentActionField` 현재 항목에 액세스하려면:
+사용자 지정 작업 응답에서 컬렉션을 조작하는 동안 `currentActionField`을(를) 사용하여 현재 항목에 액세스할 수 있습니다.
 
 ```json
 count(

@@ -25,9 +25,9 @@ ht-degree: 17%
 
 다음 유형의 조건을 사용할 수 있습니다.
 
-* [데이터 소스 조건](#data_source_condition)
+* [데이터 Source 조건](#data_source_condition)
 * [시간 조건](#time_condition)
-* [비율 분할](#percentage_split)
+* [분할 비율](#percentage_split)
 * [날짜 조건](#date_condition)
 * [프로필 상한](#profile_cap)
 
@@ -42,7 +42,7 @@ ht-degree: 17%
 
 여정에서 여러 조건을 사용할 때 각 조건에 대한 레이블을 정의하여 보다 쉽게 식별할 수 있습니다.
 
-클릭 **[!UICONTROL 경로 추가]** 여러 조건을 정의하려는 경우. 각 조건에 대해 활동 후에 캔버스에 새 경로가 추가됩니다.
+여러 조건을 정의하려면 **[!UICONTROL 경로 추가]**&#x200B;를 클릭합니다. 각 조건에 대해 활동 후에 캔버스에 새 경로가 추가됩니다.
 
 ![](assets/journey47.png)
 
@@ -52,7 +52,7 @@ ht-degree: 17%
 
 ![](assets/journey48.png)
 
-을(를) 확인하여 정의된 조건에 적합하지 않은 대상에 대해 다른 경로를 만들 수 있습니다 **[!UICONTROL 위의 사례 이외의 다른 사례에 대한 경로 표시]**. 분할 조건에서는 이 옵션을 사용할 수 없습니다. 다음을 참조하십시오 [비율 분할](#percentage_split).
+**[!UICONTROL 위의 사례 이외의 다른 사례에 대한 경로 표시]**&#x200B;를 선택하여 정의된 조건에 적합하지 않은 대상에 대해 다른 경로를 만들 수 있습니다. 분할 조건에서는 이 옵션을 사용할 수 없습니다. [분할 비율](#percentage_split)을 참조하세요.
 
 단순 모드에서는 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 기본 영역으로 드래그 앤 드롭합니다. 다양한 요소를 결합하려면 서로 인터로크하여 다른 그룹 및/또는 그룹 수준을 만듭니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다.
 
@@ -61,20 +61,20 @@ ht-degree: 17%
 
 ![](assets/journey64.png)
 
-를 사용하는 경우 [Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"} 대상을 만들려면 여정 조건에서 대상을 활용할 수 있습니다. 을(를) 참조하십시오 [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment).
+[Adobe Experience Platform 세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 사용하여 대상을 만드는 경우 여정 조건에서 이를 활용할 수 있습니다. [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment)을 참조하세요.
 
 
 >[!NOTE]
 >
 >단순 편집기로 시계열에서는 쿼리(예: 구매 목록, 과거 메시지 클릭)를 수행할 수 없습니다. 이 경우 고급 편집기를 사용해야 합니다. [이 페이지](expression/expressionadvanced.md)를 참조하십시오.
 
-작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속하는 유일한 방법은 상자를 선택하는 것입니다 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로 추가]**. [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
+작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 확인란을 선택하여 계속하는 방법만 있습니다. [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 
 단순 편집기에서는 이벤트 및 데이터 소스 카테고리 아래에 여정 속성 카테고리도 있습니다. 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다. [자세히 알아보기](expression/journey-properties.md)
 
-## 데이터 소스 조건 {#data_source_condition}
+## 데이터 Source 조건 {#data_source_condition}
 
-이렇게 하면 데이터 소스의 필드 또는 여정에 이전에 배치된 이벤트의 필드를 기반으로 조건을 정의할 수 있습니다. 에서 표현식 편집기를 사용하는 방법에 대해 알아봅니다. [이 섹션](expression/expressionadvanced.md).
+이렇게 하면 데이터 소스의 필드 또는 여정에 이전에 배치된 이벤트의 필드를 기반으로 조건을 정의할 수 있습니다. [이 섹션](expression/expressionadvanced.md)에서 표현식 편집기를 사용하는 방법을 알아봅니다.
 
 예를 들어, 작성 워크플로우 또는 사용자 지정 업로드(CSV 파일)를 사용하여 생성된 보강 속성으로 대상을 타깃팅하는 경우 이러한 보강 속성을 활용하여 조건을 작성할 수 있습니다.
 
@@ -100,7 +100,7 @@ ht-degree: 17%
 
 ## 비율 분할 {#percentage_split}
 
-이 옵션을 사용하면 대상을 임의로 분할하여 각 그룹에 대해 다른 작업을 정의할 수 있습니다. 각 경로에 대해 분할 수와 재분할 을 정의합니다. 시스템에서 이 여정 활동에서 유입되는 인원을 예상할 수 없으므로 분할 계산은 통계적입니다. 그 결과, 분할은 매우 낮은 오차 마진을 갖는다. 이 함수는 Java 무작위 메커니즘을 기반으로 합니다(이 참조). [페이지](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+이 옵션을 사용하면 대상을 임의로 분할하여 각 그룹에 대해 다른 작업을 정의할 수 있습니다. 각 경로에 대해 분할 수와 재분할 을 정의합니다. 시스템에서 이 여정 활동에서 유입되는 인원을 예상할 수 없으므로 분할 계산은 통계적입니다. 그 결과, 분할은 매우 낮은 오차 마진을 갖는다. 이 함수는 Java 임의 메커니즘을 기반으로 합니다([페이지](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html) 참조).
 
 테스트 모드에서는 분할에 도달할 때 항상 상단 분기가 선택됩니다. 검사에서 다른 경로를 선택하려는 경우 분할된 분기의 위치를 재구성할 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오
 
@@ -149,20 +149,20 @@ ht-degree: 17%
 
 ## 조건에서 대상 사용 {#using-a-segment}
 
-이 섹션에서는 여정 조건에서 대상을 사용하는 방법을 설명합니다. 대상자 및 대상자 빌드 방법에 대한 자세한 내용은 [이 섹션](../audience/about-audiences.md).
+이 섹션에서는 여정 조건에서 대상을 사용하는 방법을 설명합니다. 대상 및 빌드 방법에 대한 자세한 내용은 [이 섹션](../audience/about-audiences.md)을 참조하세요.
 
 여정 조건에서 대상을 사용하려면 다음 단계를 수행합니다.
 
-1. 여정을 열고 **[!UICONTROL 조건]** 활동 및 선택 **데이터 소스 조건**.
+1. 여정을 열고 **[!UICONTROL 조건]** 활동을 삭제하고 **데이터 Source 조건**&#x200B;을 선택하세요.
 
    ![](assets/segment3.png)
 
-1. 클릭 **[!UICONTROL 경로 추가]** 각 추가 경로에 대해 필요합니다. 각 경로에 대해 **[!UICONTROL 표현식]** 필드.
+1. 필요한 각 추가 경로에 대해 **[!UICONTROL 경로 추가]**&#x200B;를 클릭합니다. 각 경로에 대해 **[!UICONTROL 식]** 필드를 클릭합니다.
 
-1. 왼쪽에서 펼칩니다. **[!UICONTROL 대상]** 노드. 조건에 사용할 대상을 끌어다 놓습니다. 기본적으로 대상의 조건은 true입니다.
+1. 왼쪽에서 **[!UICONTROL 대상]** 노드를 펼칩니다. 조건에 사용할 대상을 끌어다 놓습니다. 기본적으로 대상의 조건은 true입니다.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >을(를) 가진 개인만 **실현됨** 및 **기존 항목** 대상자 참여 상태는 대상자의 구성원으로 간주됩니다. 대상을 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >대상자 참여 상태가 **실현됨** 및 **기존**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.

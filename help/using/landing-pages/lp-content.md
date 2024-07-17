@@ -12,7 +12,7 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: 050253e0f74f506649540ae3656a3a1f050331cb
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="콘텐츠 구성 요소 사용"
->abstract="콘텐츠 구성 요소는 랜딩 페이지의 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다. 사용자가 선택 항목을 선택하고 제출할 수 있도록 해 주는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용하십시오."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="콘텐츠 구성 요소 추가"
+>abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다. 사용자가 선택 사항을 선택하고 제출할 수 있는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=ko-KR#add-content-components" text="콘텐츠 구성 요소 추가"
 
 랜딩 페이지 콘텐츠를 디자인하기 위해 이메일과 동일한 구성 요소를 사용할 수 있습니다. [자세히 알아보기](../email/content-components.md#add-content-components)
 
-사용자가 선택 항목을 선택하고 제출할 수 있도록 특정 콘텐츠를 디자인하려면 [양식 구성 요소 사용](#use-form-component) 및 정의 [랜딩 페이지별 스타일](#lp-form-styles).
+사용자가 선택 항목을 선택하고 제출할 수 있도록 특정 콘텐츠를 디자인하려면 [양식 구성 요소를 사용](#use-form-component)하고 [랜딩 페이지별 스타일](#lp-form-styles)을(를) 정의하세요.
 
 >[!NOTE]
 >
->를 사용하지 않고 클릭스루 랜딩 페이지를 만들 수도 있습니다. **[!UICONTROL 양식]** 구성 요소. 이 경우 랜딩 페이지가 사용자에게 표시되지만 양식을 제출할 필요는 없습니다. 이 기능은 옵트인 또는 옵트아웃과 같은 수신자의 작업 없이 랜딩 페이지를 표시하거나 사용자 입력이 필요하지 않은 정보를 제공하려는 경우에만 유용할 수 있습니다.
+>**[!UICONTROL 양식]** 구성 요소 없이 클릭스루 랜딩 페이지를 만들 수도 있습니다. 이 경우 랜딩 페이지가 사용자에게 표시되지만 양식을 제출할 필요는 없습니다. 이 기능은 옵트인 또는 옵트아웃과 같은 수신자의 작업 없이 랜딩 페이지를 표시하거나 사용자 입력이 필요하지 않은 정보를 제공하려는 경우에만 유용할 수 있습니다.
 
 랜딩 페이지 콘텐츠 디자이너를 사용하여 하위 페이지의 기본 페이지에서 가져온 컨텍스트 데이터를 활용할 수도 있습니다. [자세히 알아보기](#use-primary-page-context)
 
@@ -39,33 +39,33 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="양식 구성 요소 필드 설정"
->abstract="수신자가 랜딩 페이지에서 선택한 항목을 보고 제출하는 방법을 정의합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
+>abstract="수신자가 랜딩 페이지에서 선택 사항을 표시하고 제출하는 방법을 정의합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="버튼을 클릭하면 발생하는 작업"
->abstract="사용자가 랜딩 페이지 양식을 제출할 때 어떤 일이 발생하는지 정의합니다."
+>title="버튼 클릭 시 나타나는 결과"
+>abstract="사용자가 랜딩 페이지 양식을 제출할 때 나타나는 결과를 정의합니다."
 
-사용자가 랜딩 페이지에서 선택 사항을 선택하고 제출할 수 있도록 하는 특정 콘텐츠를 정의하려면 **[!UICONTROL 양식]** 구성 요소. 그 방법은 다음과 같습니다.
+사용자가 랜딩 페이지에서 선택한 항목을 선택하고 제출할 수 있도록 특정 콘텐츠를 정의하려면 **[!UICONTROL 양식]** 구성 요소를 사용합니다. 그 방법은 다음과 같습니다.
 
-1. 랜딩 페이지별 드래그 앤 드롭 **[!UICONTROL 양식]** 왼쪽 팔레트에서 기본 작업 영역으로 구성 요소.
+1. 왼쪽 팔레트에서 랜딩 페이지별 **[!UICONTROL 양식]** 구성 요소를 기본 작업 영역으로 끌어다 놓습니다.
 
    ![](assets/lp_designer-form-component.png)
 
    >[!NOTE]
    >
-   >다음 **[!UICONTROL 양식]** 구성 요소는 동일한 페이지에서 한 번만 사용할 수 있습니다.
+   >**[!UICONTROL Form]** 구성 요소는 같은 페이지에서 한 번만 사용할 수 있습니다.
 
-1. 선택합니다. 다음 **[!UICONTROL 양식 콘텐츠]** 양식의 여러 필드를 편집할 수 있는 탭이 오른쪽 팔레트에 표시됩니다.
+1. 선택합니다. 양식의 여러 필드를 편집할 수 있도록 **[!UICONTROL 양식 콘텐츠]** 탭이 오른쪽 팔레트에 표시됩니다.
 
    ![](assets/lp_designer-form-content-options.png)
 
    >[!NOTE]
    >
-   >다음으로 전환 **[!UICONTROL 스타일]** 언제든지 탭을 클릭하여 양식 구성 요소 콘텐츠의 스타일을 편집할 수 있습니다. [자세히 알아보기](#define-lp-styles)
+   >언제든지 **[!UICONTROL 스타일]** 탭으로 전환하여 양식 구성 요소 콘텐츠의 스타일을 편집합니다. [자세히 알아보기](#define-lp-styles)
 
-1. 다음에서 **[!UICONTROL 확인란 1]** 섹션에서 이 확인란에 해당하는 레이블을 편집할 수 있습니다.
+1. **[!UICONTROL 확인란 1]** 섹션에서 이 확인란에 해당하는 레이블을 편집할 수 있습니다.
 
 1. 이 확인란이 사용자를 옵트인 또는 옵트아웃할지 여부를 정의합니다. 커뮤니케이션 수신에 동의합니까? 또는 더 이상 연락하지 않도록 요청합니까?
 
@@ -74,93 +74,93 @@ ht-degree: 1%
    아래 세 가지 옵션 중에서 선택하십시오.
 
    * **[!UICONTROL 선택한 경우 옵트인]**: 사용자가 동의(옵트인)하려면 확인란을 선택해야 합니다.
-   * **[!UICONTROL 선택한 경우 옵트아웃]**: 사용자는 동의(옵트아웃)를 제거하려면 확인란을 선택해야 합니다.
+   * **[!UICONTROL 선택한 경우 옵트아웃]**: 사용자가 동의(옵트아웃)를 제거하려면 확인란을 선택해야 합니다.
    * **[!UICONTROL 선택한 경우 옵트인, 선택하지 않은 경우 옵트아웃]**: 이 옵션을 사용하면 옵트인/옵트아웃에 대한 단일 확인란을 삽입할 수 있습니다. 사용자는 동의(옵트인)하려면 이 확인란을 선택하고 동의를 제거(옵트아웃)하려면 선택을 해제해야 합니다.
 
 1. 다음 세 가지 옵션 중 업데이트할 옵션을 선택합니다.
 
    ![](assets/lp_designer-form-update-options.png)
 
-   * **[!UICONTROL 구독 목록]**: 프로필에서 이 확인란을 선택하면 업데이트될 구독 목록을 선택해야 합니다. 자세히 알아보기 [구독 목록](subscription-list.md).
+   * **[!UICONTROL 구독 목록]**: 프로필에서 이 확인란을 선택하면 업데이트할 구독 목록을 선택해야 합니다. [구독 목록](subscription-list.md)에 대해 자세히 알아보세요.
 
      <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL 채널(이메일)]**: 옵트인 또는 옵트아웃이 전체 채널에 적용됩니다. 예를 들어 옵트아웃하는 프로필에 두 개의 이메일 주소가 있는 경우 두 주소가 모두 모든 통신에서 제외됩니다.
 
-   * **[!UICONTROL 이메일 ID]**: 옵트인 또는 옵트아웃은 랜딩 페이지에 액세스하는 데 사용한 이메일 주소에만 적용됩니다. 예를 들어 프로필에 두 개의 이메일 주소가 있는 경우 옵트인하는 데 사용된 이메일 주소만 브랜드의 커뮤니케이션을 수신합니다.
+   * **[!UICONTROL 전자 메일 ID]**: 옵트인 또는 옵트아웃은 랜딩 페이지에 액세스하는 데 사용한 전자 메일 주소에만 적용됩니다. 예를 들어 프로필에 두 개의 이메일 주소가 있는 경우 옵트인하는 데 사용된 이메일 주소만 브랜드의 커뮤니케이션을 수신합니다.
 
-1. 클릭 **[!UICONTROL 필드 추가]** > **[!UICONTROL 확인란]** 다른 확인란을 추가합니다. 위의 단계를 반복하여 속성을 정의합니다.
+1. 다른 확인란을 추가하려면 **[!UICONTROL 필드 추가]** > **[!UICONTROL 확인란]**&#x200B;을 클릭합니다. 위의 단계를 반복하여 속성을 정의합니다.
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. 다음을 추가할 수도 있습니다. **[!UICONTROL 텍스트 필드]**.
+1. **[!UICONTROL 텍스트 필드]**&#x200B;를 추가할 수도 있습니다.
 
    ![](assets/lp_designer-form-add-text-field.png)
 
-   * 다음을 입력합니다. **[!UICONTROL 레이블]** 양식에서 필드 맨 위에 표시됩니다.
+   * 양식의 필드 위에 표시할 **[!UICONTROL 레이블]**&#x200B;을(를) 입력하십시오.
 
-   * 입력 **[!UICONTROL 자리 표시자]** 텍스트를 입력하십시오. 사용자가 필드를 채우기 전에 필드 내부에 표시됩니다.
+   * **[!UICONTROL 자리 표시자]** 텍스트를 입력하십시오. 사용자가 필드를 채우기 전에 필드 내부에 표시됩니다.
 
-   * 다음 확인: **[!UICONTROL 양식 필드를 필수 항목으로 설정]** 필요한 경우 옵션을 선택합니다. 이 경우 랜딩 페이지는 사용자가 이 필드를 입력한 경우에만 제출할 수 있습니다. 필수 필드를 입력하지 않으면 사용자가 페이지를 제출할 때 오류 메시지가 표시됩니다.
+   * 필요한 경우 **[!UICONTROL 양식 필드 필수]** 옵션을 선택하십시오. 이 경우 랜딩 페이지는 사용자가 이 필드를 입력한 경우에만 제출할 수 있습니다. 필수 필드를 입력하지 않으면 사용자가 페이지를 제출할 때 오류 메시지가 표시됩니다.
 
    ![](assets/lp_designer-form-text-field.png)
 
-1. 원하는 확인란 및/또는 텍스트 필드를 모두 추가한 후 **[!UICONTROL 클릭 유도 문안]** 를 클릭하여 해당 섹션을 확장합니다. 에서 버튼의 동작을 정의할 수 있습니다 **[!UICONTROL 양식]** 구성 요소.
+1. 원하는 확인란 및/또는 텍스트 필드를 모두 추가했으면 **[!UICONTROL 콜 투 액션을 클릭하여 해당 섹션을 확장합니다.]** 이를 통해 **[!UICONTROL Form]** 구성 요소에서 단추의 동작을 정의할 수 있습니다.
 
    ![](assets/lp_designer-form-call-to-action.png)
 
 1. 버튼을 클릭하면 발생할 작업을 정의합니다.
 
-   * **[!UICONTROL 리디렉션 URL]**: 사용자를 리디렉션할 페이지의 URL을 입력합니다.
-   * **[!UICONTROL 확인 텍스트]**: 표시되는 확인 텍스트를 입력합니다.
-   * **[!UICONTROL 하위 페이지 링크]**: 구성 [하위 페이지](create-lp.md#configure-subpages) 표시되는 드롭다운 목록에서 선택합니다.
+   * **[!UICONTROL 리디렉션 URL]**: 사용자가 리디렉션될 페이지의 URL을 입력하십시오.
+   * **[!UICONTROL 확인 텍스트]**: 표시할 확인 텍스트를 입력하십시오.
+   * **[!UICONTROL 하위 페이지에 연결]**: [하위 페이지](create-lp.md#configure-subpages)를 구성하고 표시되는 드롭다운 목록에서 선택하십시오.
 
    ![](assets/lp_designer-form-confirmation-action.png)
 
 1. 오류가 발생하는 경우 버튼을 클릭하면 발생할 작업을 정의합니다.
 
-   * **[!UICONTROL 리디렉션 URL]**: 사용자를 리디렉션할 페이지의 URL을 입력합니다.
-   * **[!UICONTROL 오류 텍스트]**: 표시할 오류 텍스트를 입력합니다. 다음을 정의할 때 오류 텍스트 미리 보기 [양식 스타일](#define-lp-styles).
+   * **[!UICONTROL 리디렉션 URL]**: 사용자가 리디렉션될 페이지의 URL을 입력하십시오.
+   * **[!UICONTROL 오류 텍스트]**: 표시할 오류 텍스트를 입력하십시오. [양식 스타일](#define-lp-styles)을 정의할 때 오류 텍스트를 미리 볼 수 있습니다.
 
-   * **[!UICONTROL 하위 페이지 링크]**: 구성 [하위 페이지](create-lp.md#configure-subpages) 표시되는 드롭다운 목록에서 선택합니다.
+   * **[!UICONTROL 하위 페이지에 연결]**: [하위 페이지](create-lp.md#configure-subpages)를 구성하고 표시되는 드롭다운 목록에서 선택하십시오.
 
    ![](assets/lp_designer-form-error.png)
 
-1. 양식을 제출할 때 추가로 업데이트하려면 을(를) 선택합니다 **[!UICONTROL 옵트인]** 또는 **[!UICONTROL 옵트아웃]**&#x200B;을 클릭하고 구독 목록을 업데이트하려는 경우 사용되는 채널 또는 이메일 주소만 정의합니다.
+1. 양식을 제출할 때 추가 업데이트를 하려면 **[!UICONTROL 옵트인]** 또는 **[!UICONTROL 옵트아웃]**&#x200B;을 선택하고 구독 목록을 업데이트할지, 사용한 채널 또는 이메일 주소만 업데이트할지를 정의합니다.
 
    ![](assets/lp_designer-form-additionnal-update.png)
 
-1. 콘텐츠를 저장하고 페이지 이름 옆에 있는 화살표를 클릭하여 [랜딩 페이지 속성](create-lp.md#configure-primary-page).
+1. 콘텐츠를 저장하고 페이지 이름 옆에 있는 화살표를 클릭하여 [랜딩 페이지 속성](create-lp.md#configure-primary-page)(으)로 돌아갑니다.
 
    ![](assets/lp_designer-form-save.png)
 
 ## 랜딩 페이지 양식 스타일 정의 {#lp-form-styles}
 
-1. 양식 구성 요소 콘텐츠의 스타일을 수정하려면 언제든지 **[!UICONTROL 스타일]** 탭.
+1. 양식 구성 요소 콘텐츠의 스타일을 수정하려면 언제든지 **[!UICONTROL 스타일]** 탭으로 전환하십시오.
 
    ![](assets/lp_designer-form-style.png)
 
-1. 다음 **[!UICONTROL 필드]** 섹션은 기본적으로 확장되며 레이블 및 자리 표시자 글꼴, 레이블의 위치, 필드 배경색 또는 필드 테두리와 같은 텍스트 필드의 모양을 편집할 수 있습니다.
+1. **[!UICONTROL 필드]** 섹션은 기본적으로 확장되어 레이블 및 자리 표시자 글꼴, 레이블의 위치, 필드 배경색 또는 필드 테두리와 같은 텍스트 필드의 모양을 편집할 수 있습니다.
 
    ![](assets/lp_designer-form-style-fields.png)
 
-1. 확장 **[!UICONTROL 확인란]** 확인란 및 해당 텍스트의 모양을 정의하는 섹션입니다. 예를 들어 글꼴 모음이나 크기 또는 확인란 테두리 색상을 조정할 수 있습니다.
+1. **[!UICONTROL 확인란]** 섹션을 확장하여 확인란 모양과 해당 텍스트를 정의합니다. 예를 들어 글꼴 모음이나 크기 또는 확인란 테두리 색상을 조정할 수 있습니다.
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. 확장 **[!UICONTROL 단추]** 구성 요소 양식에서 단추의 모양을 수정하는 섹션입니다. 예를 들어 글꼴을 변경하거나, 테두리를 추가하거나, 마우스로 가리키면 레이블 색상을 편집하거나, 단추의 정렬을 조정할 수 있습니다.
+1. **[!UICONTROL 단추]** 섹션을 확장하여 구성 요소 양식의 단추 모양을 수정합니다. 예를 들어 글꼴을 변경하거나, 테두리를 추가하거나, 마우스로 가리키면 레이블 색상을 편집하거나, 단추의 정렬을 조정할 수 있습니다.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   마우스로 가리키면 표시되는 단추 레이블 색상과 같은 일부 설정을 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다. 랜딩 페이지 테스트에 대한 자세한 정보 [여기](create-lp.md#test-landing-page).
+   **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용하여 마우스로 가리키면 단추 레이블 색상과 같은 일부 설정을 미리 볼 수 있습니다. 랜딩 페이지 테스트에 대한 자세한 내용은 [여기](create-lp.md#test-landing-page)를 참조하세요.
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
-1. 확장 **[!UICONTROL 양식 레이아웃]** 섹션 : 배경색, 패딩 또는 여백 등 레이아웃 설정을 편집합니다.
+1. **[!UICONTROL 양식 레이아웃]** 섹션을 확장하여 배경색, 패딩 또는 여백과 같은 레이아웃 설정을 편집합니다.
 
    ![](assets/lp_designer-form-style-layout.png)
 
-1. 확장 **[!UICONTROL 양식 오류]** 섹션에 문제가 발생할 경우 표시되는 오류 메시지의 표시를 조정합니다. 해당 옵션을 선택하여 양식의 오류 텍스트를 미리 봅니다.
+1. **[!UICONTROL 양식 오류]** 섹션을 확장하여 문제가 발생할 경우에 표시되는 오류 메시지의 표시를 조정합니다. 해당 옵션을 선택하여 양식의 오류 텍스트를 미리 봅니다.
 
    ![](assets/lp_designer-form-error-preview.png)
 
@@ -168,21 +168,21 @@ ht-degree: 1%
 
 동일한 랜딩 페이지 내에서 다른 페이지에서 가져온 상황별 데이터를 사용할 수 있습니다.
 
-예를 들어 확인란을 연결하는 경우 <!-- or the submission of the page--> (으)로 [구독 목록](subscription-list.md) 기본 랜딩 페이지에서 &quot;감사합니다&quot; 하위 페이지의 구독 목록을 사용할 수 있습니다.
+예를 들어 <!-- or the submission of the page--> 확인란을 기본 랜딩 페이지의 [구독 목록](subscription-list.md)에 연결하는 경우 &quot;감사합니다&quot; 하위 페이지에서 해당 구독 목록을 사용할 수 있습니다.
 
 기본 페이지의 두 확인란을 두 개의 다른 구독 목록에 연결한다고 가정해 보겠습니다. 사용자가 이 중 하나를 구독하면 선택한 확인란에 따라 양식 제출 시 특정 메시지를 표시할 수 있습니다.
 
-이렇게 하려면 아래 단계를 수행합니다.
+이렇게 하려면 아래 절차를 따르십시오.
 
-1. 기본 페이지에서 의 각 확인란을 연결합니다. **[!UICONTROL 양식]** 관련 구독 목록에 대한 구성 요소. [자세히 알아보기](#use-form-component).
+1. 기본 페이지에서 **[!UICONTROL Form]** 구성 요소의 각 확인란을 관련 구독 목록에 연결합니다. [자세히 알아보기](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
-1. 하위 페이지에서 텍스트를 삽입할 위치에 마우스 포인터를 놓고 을 선택합니다 **[!UICONTROL 개인화 추가]** 상황별 도구 모음에서 작성합니다.
+1. 하위 페이지에서 텍스트를 삽입할 위치에 마우스 포인터를 놓고 상황별 도구 모음에서 **[!UICONTROL 개인화 추가]**&#x200B;를 선택합니다.
 
    ![](assets/lp_designer-form-subpage-perso.png)
 
-1. 다음에서 **[!UICONTROL 개인화 편집]** 창, 선택 **[!UICONTROL 컨텍스트 속성]** > **[!UICONTROL 랜딩 페이지]** > **[!UICONTROL 기본 페이지 컨텍스트]** > **[!UICONTROL 구독]**.
+1. **[!UICONTROL 개인화 편집]** 창에서 **[!UICONTROL 컨텍스트 특성]** > **[!UICONTROL 랜딩 페이지]** > **[!UICONTROL 기본 페이지 컨텍스트]** > **[!UICONTROL 구독]**&#x200B;을 선택합니다.
 
 1. 기본 페이지에서 선택한 모든 구독 목록이 나열됩니다. + 아이콘을 사용하여 관련 항목을 선택합니다.
 

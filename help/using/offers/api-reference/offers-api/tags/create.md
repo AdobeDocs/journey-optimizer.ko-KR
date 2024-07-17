@@ -9,7 +9,7 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -53,7 +53,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 
 **응답**
 
-성공한 응답은 고유한 값을 포함하여 새로 생성된 컬렉션 한정자에 대한 정보를 반환합니다 `id`. 다음을 사용할 수 있습니다. `id` 나중에 컬렉션 한정자를 업데이트하거나 삭제하는 단계에서. 고유한 컬렉션 한정자를 사용할 수 있습니다. `id` 컬렉션 및 개인화된 오퍼를 만드는 데 도움이 되는 나중 튜토리얼에 추가했습니다.
+응답이 성공하면 고유한 `id`을(를) 포함하여 새로 만든 컬렉션 한정자에 대한 정보가 반환됩니다. 이후 단계에서 `id`을(를) 사용하여 컬렉션 한정자를 업데이트하거나 삭제할 수 있습니다. 나중 튜토리얼에서 고유한 컬렉션 한정자 `id`을(를) 사용하여 컬렉션 및 맞춤형 오퍼를 만들 수 있습니다.
 
 ```json
 {

@@ -21,13 +21,13 @@ ht-degree: 0%
 
 ## IO 프로젝트 구성
 
-1. Adobe Developer 콘솔에서 **프로젝트** IO 프로젝트를 여십시오.
+1. Adobe Developer Console에서 **프로젝트**&#x200B;를 클릭하고 IO 프로젝트를 엽니다.
 
-1. 다음에서 **자격 증명** 섹션, 클릭 **OAuth 서버 간**.
+1. **자격 증명** 섹션에서 **OAuth 서버 간**&#x200B;을(를) 클릭합니다.
 
    ![](assets/custom-action-aep-1.png)
 
-1. 클릭 **cURL 보기 명령**.
+1. **cURL 명령 보기**&#x200B;를 클릭합니다.
 
    ![](assets/custom-action-aep-2.png)
 
@@ -39,21 +39,21 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Adobe Developer 콘솔에서 프로젝트를 만든 다음에는 적절한 권한으로 개발자 및 API 액세스 제어를 부여해야 합니다. 다음에서 자세히 알아보기 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Adobe Developer Console에서 프로젝트를 작성한 후 올바른 권한을 사용하여 개발자 및 API 액세스 제어를 부여해야 합니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}를 참조하세요
 
-## HTTP API Inlet을 사용하여 소스 구성
+## HTTP API Inlet을 사용하여 Source 구성
 
 1. Adobe Experience Platform에서 엔드포인트를 만들어 여정에서 데이터를 기록합니다.
 
-1. Adobe Experience Platform에서 **소스**, 아래 **연결** 왼쪽 메뉴에서 을 클릭합니다. 아래 **HTTP API**, 클릭 **데이터 추가**.
+1. Adobe Experience Platform의 왼쪽 메뉴에서 **연결** 아래의 **원본**&#x200B;을 클릭합니다. **HTTP API**&#x200B;에서 **데이터 추가**&#x200B;를 클릭합니다.
 
    ![](assets/custom-action-aep-3.png)
 
-1. 선택 **새 계정** 인증을 활성화하십시오. 클릭 **소스에 연결**.
+1. **새 계정**&#x200B;을 선택하고 인증을 사용하도록 설정합니다. **Source에 연결**&#x200B;을 클릭합니다.
 
    ![](assets/custom-action-aep-4.png)
 
-1. 클릭 **다음** 데이터를 쓸 데이터 세트를 선택합니다. 클릭 **다음** 및 **완료**.
+1. **다음**&#x200B;을 클릭하고 데이터를 쓸 데이터 집합을 선택하십시오. **다음** 및 **마침**&#x200B;을 클릭합니다.
 
    ![](assets/custom-action-aep-5.png)
 
@@ -96,7 +96,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## 사용자 지정 작업 구성
 
-1. Adobe Journey Optimizer을 열고 **구성**, 아래 **관리** 왼쪽 메뉴에서 을 클릭합니다. 아래 **작업**, 클릭 **관리** 및 클릭 **작업 만들기**.
+1. Adobe Journey Optimizer을 열고 왼쪽 메뉴에서 **관리** 아래의 **구성**&#x200B;을 클릭합니다. **작업**&#x200B;에서 **관리**&#x200B;를 클릭하고 **작업 만들기**&#x200B;를 클릭합니다.
 
 1. URL을 설정하고 Post 메서드를 선택합니다.
 
@@ -108,7 +108,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ### 인증 설정
 
-1. 다음 항목 선택 **유형** 다음으로: **사용자 정의** 다음 페이로드와 함께 사용됩니다.
+1. 다음 페이로드를 사용하여 **Type**&#x200B;을(를) **Custom**(으)로 선택하십시오.
 
 1. (이전에 사용한 IO 프로젝트 페이로드에서) client_secret, client_id, scope 및 grant_type을 붙여넣습니다.
 
@@ -136,13 +136,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. 사용 **클릭하여 인증 테스트** 단추를 클릭하여 연결을 테스트합니다.
+1. **인증을 테스트하려면 클릭** 단추를 사용하여 연결을 테스트하십시오.
 
    ![](assets/custom-action-aep-8.png)
 
 ### 페이로드 설정
 
-1. 다음에서 **요청** 및 **응답** 필드에 이전에 사용한 소스 연결의 페이로드를 붙여 넣습니다.
+1. **요청** 및 **응답** 필드에 이전에 사용한 원본 연결에서 페이로드를 붙여 넣으십시오.
 
    ```
    {
@@ -167,7 +167,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. 다음에서 필드 구성 변경 **상수** 끝 **변수** 동적으로 채워지는 필드용입니다. 사용자 지정 작업을 저장합니다.
+1. 동적으로 채워질 필드에 대한 필드 구성을 **상수**&#x200B;에서 **변수**(으)로 변경합니다. 사용자 지정 작업을 저장합니다.
 
 ## 여정
 

@@ -9,13 +9,13 @@ exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 # 의사 결정 삭제 {#delete-decision}
 
-결정을 제거(DELETE)해야 하는 경우도 있습니다. 이 작업은 다음에 대한 DELETE 요청을 수행함으로써 수행됩니다. [!DNL Offer Library] 를 사용하는 API `id` 을(를) 삭제하려는 결정입니다.
+결정을 제거(DELETE)해야 하는 경우도 있습니다. 이 작업은 삭제할 결정의 `id`을(를) 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행함으로써 수행됩니다.
 
 **API 형식**
 

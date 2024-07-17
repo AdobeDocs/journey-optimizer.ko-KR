@@ -17,9 +17,9 @@ ht-degree: 3%
 
 ## 등급 수식 기본 정보 {#about-ranking-formulas}
 
-**등급 수식** 오퍼의 우선 순위 점수를 고려하지 않고, 주어진 배치에 대해 먼저 제시해야 할 오퍼를 결정하는 규칙을 정의할 수 있습니다.
+**등급 수식**&#x200B;을 사용하면 오퍼의 우선 순위 점수를 고려하지 않고 주어진 배치에 대해 먼저 제시해야 할 오퍼를 결정하는 규칙을 정의할 수 있습니다.
 
-등급 수식은 다음과 같이 표시됩니다. **PQL 구문** 프로필 속성, 컨텍스트 데이터 및 오퍼 속성을 활용할 수 있습니다. PQL 구문을 사용하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ko).
+등급 수식은 **PQL 구문**&#x200B;으로 표시되며 프로필 특성, 컨텍스트 데이터 및 오퍼 특성을 활용할 수 있습니다. PQL 구문을 사용하는 방법에 대한 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ko)를 참조하세요.
 
 등급 공식이 생성되면 의사 결정의 배치에 지정할 수 있습니다. 자세한 내용은 [결정의 오퍼 선택 구성](../offer-activities/configure-offer-selection.md)을 참조하십시오.
 
@@ -27,17 +27,17 @@ ht-degree: 3%
 
 순위 공식을 만들려면 아래 단계를 수행합니다.
 
-1. 액세스 **[!UICONTROL 구성 요소]** 메뉴를 선택한 다음 **[!UICONTROL 순위]** 탭. 다음 **[!UICONTROL 공식]** 기본적으로 탭이 선택되어 있습니다. 이전에 만든 수식의 목록이 표시됩니다.
+1. **[!UICONTROL 구성 요소]** 메뉴에 액세스한 다음 **[!UICONTROL 순위]** 탭을 선택합니다. 기본적으로 **[!UICONTROL 수식]** 탭이 선택되어 있습니다. 이전에 만든 수식의 목록이 표시됩니다.
 
    ![](../assets/rankings-list.png)
 
-1. 클릭 **[!UICONTROL 순위 만들기]** 을 눌러 새 등급 공식을 생성합니다.
+1. 새 순위 공식을 만들려면 **[!UICONTROL 순위 만들기]**&#x200B;를 클릭하십시오.
 
    ![](../assets/ranking-create-formula.png)
 
 1. 공식 이름, 설명 및 공식을 지정합니다.
 
-   이 예에서는 실제 날씨가 더운 경우 &quot;hot&quot; 속성을 가진 모든 오퍼의 우선 순위를 높이려고 합니다. 이렇게 하려면 **contextData.weather=hot** 가 의사 결정 호출에서 전달되었습니다.
+   이 예에서는 실제 날씨가 더운 경우 &quot;hot&quot; 속성을 가진 모든 오퍼의 우선 순위를 높이려고 합니다. 이를 위해 **contextData.weather=hot**&#x200B;이(가) 의사 결정 호출에서 전달되었습니다.
 
    ![](../assets/ranking-syntax.png)
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 순위 공식이 생성되면 목록에서 선택하여 세부 정보를 얻고 편집하거나 삭제할 수 있습니다.
 
-   이제 배치에 적합한 오퍼의 등급을 지정하는 데 사용할 준비가 되었습니다(참조). [의사 결정에서 오퍼 선택 구성](../offer-activities/configure-offer-selection.md)).
+   이제 배치에 적합한 오퍼의 등급을 결정하는 데 사용할 준비가 되었습니다([의사 결정에서 오퍼 선택 구성](../offer-activities/configure-offer-selection.md) 참조).
 
    ![](../assets/ranking-formula-created.png)
 
@@ -91,7 +91,7 @@ if( segmentMembership.get("ups").get(offer.characteristics.get("prioritySegmentI
 
 프로필이 오퍼에 해당하는 도시에 거주하는 경우 해당 도시의 모든 오퍼에 대한 우선 순위를 두 배로 늘립니다.
 
-**순위 공식:**
+**순위 수식:**
 
 ```
 if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
@@ -99,7 +99,7 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 
 ### 종료 날짜가 지금부터 24시간 미만인 오퍼 증폭
 
-**순위 공식:**
+**순위 수식:**
 
 ```
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
@@ -107,9 +107,9 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### 컨텍스트 데이터를 기반으로 특정 오퍼 속성으로 오퍼 증폭
 
-의사 결정 호출에서 전달되는 컨텍스트 데이터를 기반으로 특정 오퍼를 증폭합니다. 예를 들어 `contextData.weather=hot` 이 결정 호출에서 전달됩니다. 이 있는 모든 오퍼의 우선 순위입니다. `attribute=hot` 은(는) 승격되어야 합니다.
+의사 결정 호출에서 전달되는 컨텍스트 데이터를 기반으로 특정 오퍼를 증폭합니다. 예를 들어 결정 호출에서 `contextData.weather=hot`이(가) 전달되면 `attribute=hot`을(를) 사용하는 모든 오퍼의 우선 순위를 높여야 합니다.
 
-**순위 공식:**
+**순위 수식:**
 
 ```
 if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
@@ -145,7 +145,7 @@ Decisioning API를 사용할 때 컨텍스트 데이터가 아래 예와 같이 
 
 고객 성향 점수를 기반으로 오퍼에 대한 점수를 높일 수 있습니다.
 
-이 예제에서 인스턴스 테넌트는 *_salesvelocity* 프로필 스키마에는 배열에 저장된 다양한 점수가 포함됩니다.
+이 예제에서 인스턴스 테넌트는 *_salesvelocity*&#x200B;이고 프로필 스키마에는 배열에 저장된 다양한 점수가 포함되어 있습니다.
 
 ![](../assets/ranking-example-schema.png)
 
@@ -169,11 +169,11 @@ Decisioning API를 사용할 때 컨텍스트 데이터가 아래 예와 같이 
 }
 ```
 
-오퍼에 대한 속성이 포함됩니다. *성향 유형* 점수의 범주와 일치하는 항목:
+오퍼에는 점수의 범주와 일치하는 *propensityType*&#x200B;에 대한 특성이 포함됩니다.
 
 ![](../assets/ranking-example-propensityType.png)
 
-그러면 등급 공식에서 각 오퍼의 우선 순위를 고객과 동일하게 설정할 수 있습니다 *성향 점수* 에 대해 *성향 유형*. 점수가 없으면 오퍼에 설정된 정적 우선 순위를 사용하십시오.
+그러면 순위 공식에서 각 오퍼의 우선 순위를 해당 *성향 유형*&#x200B;에 대한 고객 *성향 점수*&#x200B;와 동일하게 설정할 수 있습니다. 점수가 없으면 오퍼에 설정된 정적 우선 순위를 사용하십시오.
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

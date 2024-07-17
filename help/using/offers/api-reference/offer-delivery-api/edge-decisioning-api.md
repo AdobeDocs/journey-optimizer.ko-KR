@@ -17,13 +17,13 @@ ht-degree: 1%
 
 ## 시작하기 및 사전 요구 사항 {#edge-overview-and-prerequisites}
 
-다음 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) 는 Adobe Experience Cloud 고객이 Experience Platform Edge Network를 통해 Experience Cloud에서 다양한 서비스와 상호 작용할 수 있도록 하는 클라이언트측 JavaScript 라이브러리입니다.
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview)는 Adobe Experience Cloud 고객이 Experience Platform Edge Network을 통해 Experience Cloud에서 다양한 서비스와 상호 작용할 수 있도록 하는 클라이언트측 JavaScript 라이브러리입니다.
 
-Experience Platform 웹 SDK는 의사 결정 관리를 포함하여 Adobe 시 개인화 솔루션 쿼리를 지원하므로 API 또는 오퍼 라이브러리를 사용하여 만든 개인화된 오퍼를 검색하고 렌더링할 수 있습니다. 자세한 지침은 다음 문서 를 참조하십시오. [오퍼 만들기](../../get-started/starting-offer-decisioning.md).
+Experience Platform 웹 SDK는 의사 결정 관리를 포함하여 Adobe 시 개인화 솔루션 쿼리를 지원하므로 API 또는 오퍼 라이브러리를 사용하여 만든 개인화된 오퍼를 검색하고 렌더링할 수 있습니다. 자세한 지침은 [오퍼 만들기](../../get-started/starting-offer-decisioning.md)에 대한 설명서를 참조하세요.
 
-를 사용하여 의사 결정 관리를 구현하는 방법에는 두 가지가 있습니다 [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 한 가지 방법은 개발자에 맞춰져 있고 웹 사이트와 프로그래밍에 대한 지식이 필요합니다. 또 다른 방법은 Adobe Experience Platform 사용자 인터페이스를 사용하여 HTML 페이지의 헤더에서 작은 스크립트만 참조하도록 오퍼를 설정하는 것입니다.
+[Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview)를 사용하여 의사 결정 관리를 구현하는 방법에는 두 가지가 있습니다. 한 가지 방법은 개발자에 맞춰져 있고 웹 사이트와 프로그래밍에 대한 지식이 필요합니다. 또 다른 방법은 Adobe Experience Platform 사용자 인터페이스를 사용하여 HTML 페이지의 헤더에서 작은 스크립트만 참조하도록 오퍼를 설정하는 것입니다.
 
-다음에서 Adobe Experience Platform 설명서 참조: [의사 결정 관리](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) Adobe Experience Platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대해 자세히 알아보십시오.
+Adobe Experience Platform Web SDK를 사용하여 개인화된 오퍼를 제공하는 방법에 대한 자세한 내용은 [의사 결정 관리](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning)의 Adobe Experience Platform 설명서를 참조하십시오.
 
 ## Adobe Experience Platform 웹 SDK {#aep-web-sdk}
 
@@ -40,11 +40,11 @@ SDK는 이러한 라이브러리를 결합하지 않았으며 처음부터 새�
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) Adobe Experience Cloud에서 사용자 계정의 데이터 수집 탭 내.
+1. Adobe Experience Cloud의 계정에 있는 데이터 수집 탭에서 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)합니다.
 
-1. SDK를 설치합니다. 이렇게 하는 방법에는 여러 가지가 있으며 다음에서 다룹니다. [SDK 페이지 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko-KR?lang=ko-KR). 이 페이지는 서로 다른 각 구현 방법을 사용하여 계속됩니다.
+1. SDK를 설치합니다. 이렇게 하는 방법에는 [SDK 페이지 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)에 설명된 여러 가지가 있습니다. 이 페이지는 서로 다른 각 구현 방법을 사용하여 계속됩니다.
 
-SDK를 사용하려면 [스키마](../../../data/get-started-schemas.md) 및 a [데이터스트림](../../../data/get-started-datasets.md) 정의됨.
+SDK를 사용하려면 [스키마](../../../data/get-started-schemas.md)와 [데이터스트림](../../../data/get-started-datasets.md)이 정의되어 있어야 합니다.
 
 <!-- ****TODO - Configure schema**** -->
 
@@ -62,19 +62,19 @@ SDK를 사용하려면 [스키마](../../../data/get-started-schemas.md) 및 a [
 
 1. [포함 코드 추가](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html)
 
-1. &quot;데이터스트림&quot; 드롭다운에서 구성을 선택하여 생성한 데이터스트림으로 Adobe Experience Platform Web SDK 확장을 설치하고 구성합니다. 다음에서 설명서를 참조하십시오. [확장](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html).
+1. &quot;데이터스트림&quot; 드롭다운에서 구성을 선택하여 생성한 데이터스트림으로 Adobe Experience Platform Web SDK 확장을 설치하고 구성합니다. [확장](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html)에 대한 설명서를 참조하세요.
 
    ![Adobe Experience Platform 웹 SDK](../../assets/installed-catalog-web-sdk.png)
 
    ![확장 구성](../../assets/configure-sdk-extension.png)
 
-1. 필요한 항목 만들기 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html). 최소한 Platform Web SDK ID 맵 및 Platform Web SDK XDM 개체 데이터 요소를 만들어야 합니다.
+1. 필요한 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html)를 만듭니다. 최소한 Platform Web SDK ID 맵 및 Platform Web SDK XDM 개체 데이터 요소를 만들어야 합니다.
 
    ![ID 맵](../../assets/sdk-identity-map.png)
 
    ![XDM 개체](../../assets/xdm-object.png)
 
-1. 사용자 만들기 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html):
+1. [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) 만들기:
 
    Platform Web SDK 이벤트 보내기 작업을 추가하고 해당 작업의 구성에 관련 결정 범위를 추가합니다.
 
@@ -82,13 +82,13 @@ SDK를 사용하려면 [스키마](../../../data/get-started-schemas.md) 및 a [
 
    ![오퍼 요청](../../assets/rule-request-offer.png)
 
-1. [만들기 및 게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html) 구성한 모든 관련 규칙, 데이터 요소 및 확장이 포함된 라이브러리입니다.
+1. 구성한 모든 관련 규칙, 데이터 요소 및 확장이 포함된 라이브러리를 [만들고 게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html)합니다.
 
 ## 옵션 2 - 사전 설치된 독립 실행형 버전을 사용하여 수동으로 구현
 
 다음은 웹 SDK의 미리 빌드된 독립 실행형 설치를 사용하여 의사 결정 관리를 사용하는 데 필요한 단계입니다. 이 안내서에서는 SDK를 처음 구현하는 단계이므로 모든 단계를 적용할 수 없다고 가정합니다. 이 안내서에서는 일부 개발 경험도 가정합니다.
 
-옵션 2의 다음 JavaScript 코드 조각 포함: 의 사전 빌드된 독립 실행형 버전 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko-KR?lang=ko-KR) 다음에서 `<head>` HTML 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+옵션 2의 다음 JavaScript 코드 조각 포함: HTML 페이지의 `<head>` 섹션에 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)에 미리 빌드된 독립 실행형 버전.
 
 ```
 javascript
@@ -121,11 +121,11 @@ javascript
     });
 ```
 
-디버깅에 사용할 디버거 Chrome 확장을 설치합니다. 여기에서 확인할 수 있습니다. <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
+디버깅에 사용할 디버거 Chrome 확장을 설치합니다. 다음 위치에서 찾을 수 있음: <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
 
 그런 다음 디버거 내에서 계정에 로그인합니다. 그런 다음 로그로 이동하여 올바른 작업 영역에 연결되어 있는지 확인하십시오. 이제 오퍼에서 의사 결정 범위의 base64 인코딩 버전을 복사합니다.
 
-웹 사이트를 편집할 때 구성 및 `sendEvent` Adobe에 결정 범위를 보내는 기능입니다.
+웹 사이트를 편집할 때 결정 범위를 Adobe으로 보내려면 구성 및 `sendEvent` 함수가 포함된 스크립트를 포함하십시오.
 
 **예**:
 
@@ -175,7 +175,7 @@ json
 }
 ```
 
-응답 개체를 처리하고 필요한 데이터를 구문 분석합니다. 여러 결정 범위를 하나로 보낼 수 있으므로 `sendEvent` 호출하십시오. 응답이 약간 달라 보일 수 있습니다.
+응답 개체를 처리하고 필요한 데이터를 구문 분석합니다. 한 번의 `sendEvent` 호출로 여러 결정 범위를 보낼 수 있으므로 응답이 약간 다르게 보일 수 있습니다.
 
 ```
 json
@@ -233,7 +233,7 @@ json
 }
 ```
 
-이 예제에서 웹 페이지에서 오퍼 관련 세부 사항을 처리하고 사용하는 데 필요한 경로는 다음과 같습니다. `result['decisions'][0]['items'][0]['data']['content']`
+이 예제에서 웹 페이지에서 오퍼 관련 세부 정보를 처리하고 사용하는 데 필요한 경로는 `result['decisions'][0]['items'][0]['data']['content']`입니다.
 
 JS 변수를 설정하려면 다음을 수행하십시오.
 

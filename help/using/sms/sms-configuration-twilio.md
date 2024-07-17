@@ -18,20 +18,20 @@ ht-degree: 4%
 
 Journey Optimizer으로 Twilio를 구성하려면 Twilio에 사용되는 새 API 자격 증명을 만들어야 합니다.
 
-1. 왼쪽 레일에서 다음을 찾습니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 및 선택 **[!UICONTROL API 자격 증명]** 메뉴 아래의 제품에서 사용할 수 있습니다. 다음을 클릭합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
+1. 왼쪽 레일에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동한 다음 **[!UICONTROL API 자격 증명]** 메뉴를 선택합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
 
 1. 아래에 자세히 설명된 대로 SMS API 자격 증명을 구성합니다.
 
    * **[!UICONTROL SMS 공급업체]**: Twilio.
 
-   * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택합니다.
+   * **[!UICONTROL 이름]**: API 자격 증명의 이름을 선택하십시오.
 
-   * **[!UICONTROL 계정 SID]** 및 **[!UICONTROL 인증 토큰]**: 액세스 **계정 정보** 자격 증명을 찾을 수 있는 Twilio 콘솔 대시보드 페이지의 창입니다.
+   * **[!UICONTROL 계정 SID]** 및 **[!UICONTROL 인증 토큰]**: Twilio 콘솔 대시보드 페이지의 **계정 정보** 창에 액세스하여 자격 증명을 찾습니다.
 
-   * **[!UICONTROL 메시지 SID]**: Twilio의 API에서 만든 모든 메시지에 할당된 고유 식별자를 입력합니다. 다음에서 자세히 알아보기 [Twilio 설명서](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+   * **[!UICONTROL 메시지 SID]**: Twilio의 API로 만든 모든 메시지에 할당된 고유 식별자를 입력하십시오. 자세한 내용은 [Twilio 설명서](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}를 참조하세요.
 
-   * **[!UICONTROL 인바운드 번호]**: 고유 인바운드 번호를 추가합니다. 이를 통해 서로 다른 샌드박스에서 동일한 API 자격 증명을 사용할 수 있으며, 각 샌드박스는 고유한 인바운드 번호를 가지고 있습니다.
+   * **[!UICONTROL 인바운드 번호]**: 고유한 인바운드 번호를 추가합니다. 이를 통해 서로 다른 샌드박스에서 동일한 API 자격 증명을 사용할 수 있으며, 각 샌드박스는 고유한 인바운드 번호를 가지고 있습니다.
 
-1. 클릭 **[!UICONTROL 제출]** api 자격 증명 구성을 완료한 경우입니다.
+1. API 자격 증명 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
 API 자격 증명을 만들고 구성한 후에는 SMS 및 MMS 메시지에 대한 채널 표면을 만들어야 합니다. [자세히 알아보기](sms-configuration-surface.md)

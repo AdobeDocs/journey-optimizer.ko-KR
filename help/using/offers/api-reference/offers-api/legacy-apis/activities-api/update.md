@@ -9,20 +9,20 @@ exl-id: 63a6b50b-9e42-43c0-87ee-19fcb6ecdd98
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
 
 # 의사 결정 업데이트 {#update-decision}
 
-에 PATCH 요청을 하여 컨테이너에서 결정을 수정하거나 업데이트할 수 있습니다. [!DNL Offer Library] API.
+[!DNL Offer Library] API에 대한 PATCH 요청을 통해 컨테이너에서 결정을 수정하거나 업데이트할 수 있습니다.
 
-사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 다음을 참조하십시오. [JSON 패치 설명서](https://jsonpatch.com/).
+사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 공식 [JSON 패치 설명서](https://jsonpatch.com/)를 참조하세요.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 및 *Accept* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 및 *Accept* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -63,13 +63,13 @@ curl -X PATCH \
 
 | 매개변수 | 설명 |
 | --------- | ----------- |
-| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업에는 다음이 포함됩니다. `add`, `replace`, 및 `remove`. |
+| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업에는 `add`, `replace` 및 `remove`이(가) 포함됩니다. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 
 **응답**
 
-성공적인 응답은 고유 인스턴스 ID 및 의사 결정을 포함하여 업데이트된 의사 결정 세부 정보를 반환합니다 `@id`.
+성공한 응답은 고유 인스턴스 ID 및 결정 `@id`을(를) 포함하여 결정의 업데이트된 세부 정보를 반환합니다.
 
 ```json
 {

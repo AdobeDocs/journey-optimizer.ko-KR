@@ -9,17 +9,17 @@ exl-id: 1a9c074a-187a-45b1-9ad0-378aeef0d03d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
 # 대체 오퍼 만들기 {#create-fallback-offer}
 
-에 대한 POST 요청을 하여 대체 오퍼를 만들 수 있습니다. [!DNL Offer Library] 컨테이너 ID를 제공하는 동안 API.
+POST ID를 제공하는 동안 [!DNL Offer Library] API에 대한 컨테이너를 요청하여 대체 오퍼를 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 및 *Accept* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 및 *Accept* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -71,7 +71,7 @@ curl -X POST \
 
 **응답**
 
-성공적인 응답은 고유한 인스턴스 ID와 배치를 포함하여 새로 생성된 대체 오퍼에 대한 정보를 반환합니다 `@id`. 이후 단계에서 인스턴스 ID를 사용하여 대체 오퍼를 업데이트하거나 삭제할 수 있습니다. 고유한 대체 오퍼를 사용할 수 있습니다. `@id` 을(를) 참조하십시오.
+성공적인 응답이 고유 인스턴스 ID 및 배치 `@id`을(를) 포함하여 새로 만든 대체 오퍼에 대한 정보를 반환합니다. 이후 단계에서 인스턴스 ID를 사용하여 대체 오퍼를 업데이트하거나 삭제할 수 있습니다. 이후 자습서에서 고유한 대체 오퍼 `@id`을(를) 사용하여 결정을 만들 수 있습니다.
 
 
 ```json

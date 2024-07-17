@@ -23,13 +23,13 @@ ht-degree: 65%
 >title="여정 구성 정보"
 >abstract="여정과 함께 메시지를 전송하려면 데이터 원본, 이벤트 및 작업을 구성해야 합니다. 데이터 원본을 사용하여 여정에 사용할 조건 등의 추가 정보를 검색하려면 시스템에 대한 연결을 정의해야 합니다. 이벤트를 수신하면 이벤트를 사용하여 여정을 트리거할 수 있습니다. 사용자 정의 액션을 통해 서드파티 시스템에 연결하여 메시지를 전송할 수 있습니다. Journey Optimizer 내장 메시지 기능을 사용하는 경우 작업을 구성할 필요가 없습니다."
 
-여정과 함께 메시지를 보내려면 다음을 구성해야 합니다. **[!UICONTROL 데이터 소스]**, **[!UICONTROL 이벤트]** 및 **[!UICONTROL 작업]**.
+여정이 있는 메시지를 보내려면 **[!UICONTROL 데이터 원본]**, **[!UICONTROL 이벤트]** 및 **[!UICONTROL 작업]**&#x200B;을 구성해야 합니다.
 
 ![](assets/admin-menu.png)
 
 ## 데이터 소스 {#data-sources}
 
-데이터 소스 구성을 사용하면 여정에서 사용할 추가 정보를 검색하기 위해 시스템에 대한 연결을 정의할 수 있습니다. [자세히 알아보기](../../using/datasource/about-data-sources.md)
+Data Source 구성을 사용하면 여정에서 사용할 추가 정보를 검색하기 위해 시스템에 대한 연결을 정의할 수 있습니다. [자세히 알아보기](../../using/datasource/about-data-sources.md)
 
 ## 이벤트 {#events}
 
@@ -45,7 +45,7 @@ Journey Optimizer 메시지 기능 기본 제공: 여정에 채널 작업 활동
 
 [이벤트 페이로드](../event/about-creating.md#define-the-payload-fields)와 [필드 그룹 페이로드](../datasource/configure-data-sources.md#define-field-groups)를 정의하고 [표현식 편집기](../building-journeys/expression/expressionadvanced.md)에서 필드를 선택할 때는 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
 
-스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 입력하면 사용자에게 친숙한 이름이 표시 이름 대신 표시됩니다. &quot;eVars&quot; 및 일반 필드로 작업할 때 특히 유용합니다. API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko){target="_blank"}.
+스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 입력하면 사용자에게 친숙한 이름이 표시 이름 대신 표시됩니다. &quot;eVars&quot; 및 일반 필드로 작업할 때 특히 유용합니다. API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ![](assets/xdm-from-descriptors.png)
 

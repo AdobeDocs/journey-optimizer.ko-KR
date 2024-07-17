@@ -24,15 +24,15 @@ ht-degree: 68%
 
 >[!CAUTION]
 >
-> 이미지 출처: [Adobe Experience Manager Assets](../content-management/assets.md) 이 메서드를 사용할 때는 참조할 수 없습니다. HTML 코드에서 참조하는 이미지는 공개 위치에 저장해야 합니다.
+> 이 메서드를 사용할 때는 [Adobe Experience Manager Assets](../content-management/assets.md)의 이미지를 참조할 수 없습니다. HTML 코드에서 참조하는 이미지는 공개 위치에 저장해야 합니다.
 
-1. Email Designer 홈 페이지에서 **[!UICONTROL 나만의 코드 작성]**.
+1. 이메일 Designer 홈 페이지에서 **[!UICONTROL 직접 코드 작성]**&#x200B;을 선택합니다.
 
    ![](assets/code-your-own.png)
 
 1. 원시 HTML 코드를 입력하거나 붙여넣습니다.
 
-1. 왼쪽 창에서 다음을 활용하십시오. [!DNL Journey Optimizer] 개인화 기능. [자세히 알아보기](../personalization/personalize.md)
+1. 왼쪽 창에서 [!DNL Journey Optimizer] 개인화 기능을 활용하십시오. [자세히 알아보기](../personalization/personalize.md)
 
    ![](assets/code-editor.png)
 
@@ -44,7 +44,7 @@ ht-degree: 68%
    >
    >이 작업을 수행하면 이메일 디자이너에서 선택한 템플릿이 열립니다. 여기에서 이메일 디자인을 완료하거나 **[!UICONTROL 코드 편집기로 전환]** 옵션을 사용하여 코드 편집기로 돌아갈 수 있습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 미리 보기]** 테스트 프로필을 사용하여 메시지 디자인 및 개인화를 확인하는 버튼입니다. [자세히 알아보기](../content-management/preview-test.md)
+1. 테스트 프로필을 사용한 메시지 디자인 및 개인화를 확인하려면 **[!UICONTROL 미리 보기]** 단추를 클릭하세요. [자세히 알아보기](../content-management/preview-test.md)
 
    ![](assets/code-editor-preview.png)
 

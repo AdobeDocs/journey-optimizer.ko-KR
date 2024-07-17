@@ -38,9 +38,9 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## 중요 정보{#important-notes}
 
-* 곱셈 사용 시(`*`)에서 두 작업 필드는 정수나 십진수로 같은 형식을 가져야 합니다. 예 :
-   * 다음 예는 올바릅니다. `3.0 * 4.0`
-   * `3 * 4.0` 오류가 발생합니다.
+* 곱셈(`*`)을 사용할 때는 두 연산 필드의 형식이 같아야 합니다(정수 또는 십진수). 예 :
+   * 다음 예제는 올바릅니다. `3.0 * 4.0`
+   * `3 * 4.0`에 오류가 발생합니다.
 
 ## 논리적  {#logical}
 
@@ -50,7 +50,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> and <expression2>
 ```
 
-모두 &lt;expression1> 및 &lt;expression2> 은(는) 부울이어야 합니다. 결과는 부울입니다.
+&lt;expression1>과 &lt;expression2> 모두 부울이어야 합니다. 결과는 부울입니다.
 
 예:
 
@@ -64,7 +64,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> or <expression2>
 ```
 
-모두 &lt;expression1> 및 &lt;expression2> 은(는) 부울이어야 합니다. 결과는 부울입니다.
+&lt;expression1>과 &lt;expression2> 모두 부울이어야 합니다. 결과는 부울입니다.
 
 예:
 
@@ -78,7 +78,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 not <expression>
 ```
 
-&lt;expression> 은(는) 부울이어야 합니다. 결과는 부울입니다.
+&lt;expression>은(는) 부울이어야 합니다. 결과는 부울입니다.
 
 예:
 
@@ -126,7 +126,7 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 <expression> has null
 ```
 
-&lt;expression> 목록이어야 합니다. 결과는 부울입니다.
+&lt;expression>은(는) 목록이어야 합니다. 결과는 부울입니다.
 
 목록에 Null 값이 하나 이상 포함되어 있음을 식별하는 데 유용합니다.
 
@@ -152,7 +152,7 @@ true 반환
 
 >[!NOTE]
 >
->대상 &lt;expression1> 및 &lt;expression2> 데이터 형식 컨트롤이 없습니다.
+>&lt;expression1> 및 &lt;expression2>에 대한 데이터 형식 컨트롤이 없습니다.
 
 예:
 
@@ -172,7 +172,7 @@ true 반환
 
 >[!NOTE]
 >
-대상 &lt;expression1> 및 &lt;expression2> 데이터 형식 컨트롤이 없습니다.
+&lt;expression1> 및 &lt;expression2>에 대한 데이터 형식 컨트롤이 없습니다.
 
 결과는 부울입니다.
 
@@ -322,7 +322,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
 결과도 숫자입니다.
 
-&lt;expression2> 은(는) 0이 아니어야 합니다(반환 0).
+&lt;expression2>는 0이 아니어야 합니다(반환 0).
 
 예:
 
@@ -434,13 +434,13 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 "the current time is " + (now())
 ```
 
-&quot;현재 시간은 2023-09-23T09임&quot; 반환:30:06.693Z&quot;
+&quot;현재 시간은 2023-09-23T09:30:06.693Z&quot;를 반환합니다.&quot;
 
 ```json
 (now()) + " is the current time"
 ```
 
-&quot;2023-09-23T09 반환:30:06.693Z는 현재 시간입니다.&quot;
+&quot;2023-09-23T09:30:06.693Z는 현재 시간&quot; 반환
 
 ```json
 "a" + "b" + "c" + 1234
@@ -464,22 +464,22 @@ dateTime, dateTimeOnly 또는 duration에 duration을 추가합니다.
 (toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-를 반환합니다. _dateTime_ 2023-12-03T15:30:30Z
+_dateTime_ 2023-12-03T15:30:30Z 반환
 
 ```json
 (toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-를 반환합니다. _dateTimeOnly_ 2023-12-03T15:30:30
+_dateTimeOnly_ 2023-12-03T15:30:30 반환
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-를 반환합니다. _dateTime_ (UTC 시간대 사용) 현재 시간으로부터 1시간 후
+현재 시간으로부터 1시간 후 _dateTime_(UTC 시간대 포함)을 반환합니다.
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-를 반환합니다. _지속 시간_ PT2H
+_duration_ PT2H 반환

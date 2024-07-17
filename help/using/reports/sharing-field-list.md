@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -42,7 +42,7 @@ identityMap 속성의 경우 기본 ID는 기본적으로 &quot;primary = true&q
 | VersionID | 문자열 | 여정 버전 ID. 이 ID는 여정 ID를 나타냅니다. |
 | 이름 | 문자열 | 여정 이름 |
 | 설명 | 문자열 | 여정 설명 |
-| 버전 | 문자열 | 버전, 다음으로 표시됨 `major`.`minor` |
+| 버전 | 문자열 | 버전, `major`.`minor`(으)로 표시됨 |
 
 ## 프로필 {#profile-field}
 
@@ -53,7 +53,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 | 필드 이름 | 유형 | 설명 |
 |---|---|------------|
 | ID | 문자열 | 프로필 식별자는 여정에서 전송/사용되는 프로필을 식별합니다. 예: foo@adobe.com. |
-| namespace | 문자열 | 이 필드에서는 여정에 사용된 프로필에서 참조하는 네임스페이스에 대해 설명합니다. 예: 이메일, ECID |
+| 네임스페이스 | 문자열 | 이 필드에서는 여정에 사용된 프로필에서 참조하는 네임스페이스에 대해 설명합니다. 예: 이메일, ECID |
 
 ## 서비스 이벤트 {#servicevents-field}
 

@@ -21,18 +21,18 @@ ht-degree: 6%
 
 먼저 항목을 만들고, 컬렉션에서 함께 그룹화하고, 규칙과 등급 지정 방법을 설정해야 합니다. 이러한 요소를 사용하여 선택 전략을 작성할 수 있습니다.
 
-1. 다음으로 이동 **[!UICONTROL 경험 의사 결정]** > **[!UICONTROL 카탈로그]** 여러 오퍼 항목을 만들 수 있습니다. 대상자 또는 규칙을 사용하여 제한을 설정하여 각 항목을 특정 프로필로만 제한합니다. [자세히 알아보기](items.md)
+1. **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 카탈로그]**(으)로 이동하여 여러 오퍼 항목을 만듭니다. 대상자 또는 규칙을 사용하여 제한을 설정하여 각 항목을 특정 프로필로만 제한합니다. [자세히 알아보기](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
 
-1. 만들기 **컬렉션** 을 클릭하여 환경 설정에 따라 결정 항목을 분류하고 그룹화합니다. [자세히 알아보기](collections.md)
+1. **컬렉션**&#x200B;을 만들어 환경 설정에 따라 결정 항목을 분류하고 그룹화합니다. [자세히 알아보기](collections.md)
 
-1. 만들기 **의사 결정 규칙** 결정 항목을 표시할 대상을 결정합니다. [자세히 알아보기](rules.md)
+1. 결정 항목을 표시할 대상을 결정하려면 **결정 규칙**&#x200B;을 만드십시오. [자세히 알아보기](rules.md)
 
-1. 만들기 **등급 메서드** 의사 결정 전략 내에서 적용하여 의사 결정 항목을 선택하는 우선 순위를 결정합니다. [자세히 알아보기](ranking.md)
+1. **순위 메서드**&#x200B;를 만들고 결정 전략 내에서 적용하여 결정 항목을 선택하는 우선 순위를 결정합니다. [자세히 알아보기](ranking.md)
 
-1. 빌드 **선택 전략** 컬렉션, 의사 결정 규칙 및 등급 방법을 활용하여 프로필에 표시하는 데 적합한 의사 결정 항목을 식별합니다. [자세히 알아보기](selection-strategies.md)
+1. 컬렉션, 의사 결정 규칙 및 순위 방법을 활용하여 프로필에 표시하는 데 적합한 의사 결정 항목을 식별하는 **선택 전략**&#x200B;을 작성하십시오. [자세히 알아보기](selection-strategies.md)
 
 ## 결정 정책 만들기
 
@@ -40,21 +40,21 @@ ht-degree: 6%
 
 각각 다른 결정 정책이 포함된 두 가지 게재 처리를 정의합니다.
 
-1. 캠페인을 만들고 다음을 선택합니다. **[!UICONTROL 코드 기반 경험]** 작업. [자세히 알아보기](../code-based/create-code-based.md)
+1. 캠페인을 만들고 **[!UICONTROL 코드 기반 경험]** 작업을 선택하십시오. [자세히 알아보기](../code-based/create-code-based.md)
 
-1. 캠페인 요약 페이지에서 **[!UICONTROL 실험 만들기]** 콘텐츠 실험 구성을 시작합니다. [자세히 알아보기](../content-management/content-experiment.md)
+1. 캠페인 요약 페이지에서 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하여 콘텐츠 실험 구성을 시작합니다. [자세히 알아보기](../content-management/content-experiment.md)
 
-1. 다음 항목 선택 **[!UICONTROL 결정]** 아이콘, 클릭 **[!UICONTROL 의사 결정 만들기]** 그리고 결정 세부 사항을 입력합니다. [자세히 알아보기](create-decision.md)
+1. **[!UICONTROL 결정]** 아이콘을 선택하고 **[!UICONTROL 결정 만들기]**&#x200B;를 클릭한 다음 결정 세부 정보를 입력하십시오. [자세히 알아보기](create-decision.md)
 
    ![](assets/decision-code-based-create.png)
 
-1. 의사 결정에 대한 선택 전략을 정의합니다. 클릭 **[!UICONTROL 전략 추가]**.
+1. 의사 결정에 대한 선택 전략을 정의합니다. **[!UICONTROL 전략 추가]**&#x200B;를 클릭합니다.
 
-1. Click **[!UICONTROL Create]**. 새 결정은 아래에 추가됩니다. **[!UICONTROL 결정]**.
+1. Click **[!UICONTROL Create]**. 새 결정은 **[!UICONTROL 결정]**&#x200B;에 추가됩니다.
 
    ![](assets/decision-code-based-decision-added.png)
 
-1. 추가 작업 아이콘(세 점)을 클릭하고 을 선택합니다 **[!UICONTROL 추가]**. 이제 이 내에 원하는 모든 결정 특성을 추가할 수 있습니다.
+1. 추가 작업 아이콘(세 점)을 클릭하고 **[!UICONTROL 추가]**&#x200B;를 선택합니다. 이제 이 내에 원하는 모든 결정 특성을 추가할 수 있습니다.
 
    ![](assets/decision-code-based-add-decision.png)
 

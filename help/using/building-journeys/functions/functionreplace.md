@@ -33,7 +33,7 @@ ht-degree: 11%
 | 매개변수 | 유형 |
 |-----------|--------------|
 | 기본 | 문자열 |
-| target | 문자열(RegExp) |
+| 대상 | 문자열(RegExp) |
 | 교체 | 문자열 |
 
 ## 서명 및 반환된 유형
@@ -53,16 +53,16 @@ ht-degree: 11%
 대상 매개 변수는 RegExp이므로 바꿀 문자열에 따라 일부 문자를 이스케이프해야 할 수 있습니다. 다음은 한 예입니다.
 
 * 평가할 문자열: `|OFFER_A|OFFER_B`
-* 프로필 속성에서 제공 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
-* 대체할 문자열: `|OFFER_A`
-* 문자열이 다음으로 대체됨: `''`
-* 다음을 추가해야 합니다. `\\` 다음 이전 `|` 문자.
+* 프로필 특성 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`에서 제공함
+* 바꿀 문자열: `|OFFER_A`
+* 문자열을 `''`(으)로 대체함
+* `|`자 앞에 `\\`을(를) 추가해야 합니다.
 
 표현식:
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
 
-반환된 문자열은 다음과 같습니다. `|OFFER_B`
+반환된 문자열: `|OFFER_B`
 
 지정된 속성에서 대체할 문자열을 빌드할 수도 있습니다.
 

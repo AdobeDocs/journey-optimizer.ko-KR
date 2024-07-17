@@ -9,7 +9,7 @@ exl-id: ea79add2-1ea7-4c5c-ba67-f99d10975c4f
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 8%
 
 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 하는 오퍼의 하위 집합입니다.
 
-에 POST 요청을 하여 컬렉션을 만들 수 있습니다. [!DNL Offer Library] 컨테이너 ID를 제공하는 동안 API.
+POST ID를 제공하는 동안 [!DNL Offer Library] API에 대한 컨테이너를 요청하여 컬렉션을 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 및 *Accept* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 및 *Accept* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -61,7 +61,7 @@ curl -X POST \
 
 **응답**
 
-응답이 성공하면 고유한 인스턴스 ID 및 배치를 포함하여 새로 만든 컬렉션에 대한 정보가 반환됩니다 `@id`. 이후 단계에서 인스턴스 ID를 사용하여 컬렉션을 업데이트하거나 삭제할 수 있습니다. 고유한 컬렉션을 사용할 수 있습니다. `@id` 을(를) 참조하십시오.
+응답이 성공하면 고유한 인스턴스 ID와 배치 `@id`을(를) 포함하여 새로 만든 컬렉션에 대한 정보가 반환됩니다. 이후 단계에서 인스턴스 ID를 사용하여 컬렉션을 업데이트하거나 삭제할 수 있습니다. 이후 자습서에서 고유한 컬렉션 `@id`을(를) 사용하여 결정을 만들 수 있습니다.
 
 ```json
 {

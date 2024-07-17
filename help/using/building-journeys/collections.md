@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 사용자 지정 작업으로 컬렉션을 동적으로 보내기
+title: 사용자 정의 작업으로 컬렉션을 동적으로 보내기
 description: Campaign v7/v8을 사용하여 메시지 보내기
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
@@ -106,7 +106,7 @@ ht-degree: 6%
 
 1. 사용자 지정 작업을 만듭니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
 
-1. 다음에서 **[!UICONTROL 작업 매개 변수]** 섹션에서 JSON 예제를 붙여 넣습니다. 표시된 구조는 정적입니다. 페이로드를 붙여 넣을 때 모든 필드가 상수로 정의됩니다.
+1. **[!UICONTROL 작업 매개 변수]** 섹션에 JSON 예제를 붙여 넣습니다. 표시된 구조는 정적입니다. 페이로드를 붙여 넣을 때 모든 필드가 상수로 정의됩니다.
 
    ![](assets/uc-collection-1.png)
 
@@ -128,7 +128,7 @@ ht-degree: 6%
 
 1. 여정을 만들고 만든 사용자 지정 작업을 추가합니다. [이 페이지](../building-journeys/using-custom-actions.md)를 참조하십시오.
 
-1. 다음에서 **[!UICONTROL 작업 매개 변수]** 섹션에서 고급 표현식 편집기를 사용하여 배열 매개 변수(&quot;예제: products&quot;)를 정의합니다.
+1. **[!UICONTROL 작업 매개 변수]** 섹션에서 고급 표현식 편집기를 사용하여 배열 매개 변수(이 예제에서는 &quot;products&quot;)를 정의합니다.
 
    ![](assets/uc-collection-3.png)
 
@@ -136,7 +136,7 @@ ht-degree: 6%
 
    ![](assets/uc-collection-4.png)
 
-배열 필드의 경우 고급 표현식 편집기를 사용하여 데이터 조작을 수행할 수도 있습니다. 다음 예제에서는 [필터](functions/functionfilter.md) 및 [교차](functions/functionintersect.md) 함수:
+배열 필드의 경우 고급 표현식 편집기를 사용하여 데이터 조작을 수행할 수도 있습니다. 다음 예제에서는 [filter](functions/functionfilter.md) 및 [intersect](functions/functionintersect.md) 함수를 사용합니다.
 
 ![](assets/uc-collection-5.png)
 
@@ -175,4 +175,4 @@ ht-degree: 6%
 
 **관련 항목**
 
-[사용자 정의 작업 사용](../building-journeys/using-custom-actions.md)
+[사용자 정의 액션 사용](../building-journeys/using-custom-actions.md)

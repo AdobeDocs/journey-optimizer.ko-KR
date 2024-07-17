@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 의사 결정 규칙 조회 {#lookup-decision-rule}
 
-에 GET 요청을 하여 특정 의사 결정 규칙을 조회할 수 있습니다. [!DNL Offer Library] 의사 결정 규칙을 포함하는 API `id` 요청 경로에서.
+요청 경로에 결정 규칙 `id`을(를) 포함하는 [!DNL Offer Library] API에 대한 GET 요청을 수행하여 특정 결정 규칙을 조회할 수 있습니다.
 
 **API 형식**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' 
 
 **응답**
 
-성공적인 응답은 고유 결정 규칙에 대한 정보를 포함하여 조회한 특정 결정 규칙의 세부 정보를 반환합니다 `id`.
+성공한 응답은 고유 결정 규칙 `id`에 대한 정보를 포함하여 조회한 특정 결정 규칙의 세부 정보를 반환합니다.
 
 ```json
   {

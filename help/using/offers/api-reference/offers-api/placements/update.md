@@ -9,19 +9,19 @@ exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 # 배치 업데이트 {#update-placement}
 
-에 PATCH 요청을 하여 배치를 수정하거나 업데이트할 수 있습니다. [!DNL Offer Library] API.
+[!DNL Offer Library] API에 PATCH 요청을 하여 배치를 수정하거나 업데이트할 수 있습니다.
 
-사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 다음을 참조하십시오. [JSON 패치 설명서](https://jsonpatch.com/).
+사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 공식 [JSON 패치 설명서](https://jsonpatch.com/)를 참조하세요.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -63,13 +63,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/placements/offerPlacement
 
 | 매개변수 | 설명 |
 | --------- | ----------- |
-| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업에는 다음이 포함됩니다. `add`, `replace`, `remove`, `copy` 및 `test`. |
+| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업은 `add`, `replace`, `remove`, `copy` 및 `test`입니다. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 
 **응답**
 
-성공한 응답은 고유한 배치를 포함하여 업데이트된 배치 세부 정보를 반환합니다 `id`.
+성공한 응답은 고유한 배치 `id`을(를) 포함하여 업데이트된 배치 세부 정보를 반환합니다.
 
 ```json
 {

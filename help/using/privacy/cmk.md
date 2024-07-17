@@ -10,7 +10,7 @@ exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
 source-git-commit: a939d06d26d64a72eaec0ddc7f22b074ad463150
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 >
 >[!DNL Customer Managed Keys] 기능은 현재 [Healthcare Shield 또는 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=ko) 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.
 
-[Healthcare Shield](https://www.adobe.com/kr/trust/compliance/hipaa-ready.html) 및 Privacy &amp; Security Shield 고객은 Adobe Journey Optimizer를 통해 Azure CMK(고객 관리형 키)를 활용하고 데이터에 적용할 수 있습니다.
+[Healthcare Shield](https://www.adobe.com/trust/compliance/hipaa-ready.html) 및 Privacy &amp; Security Shield 고객은 Adobe Journey Optimizer를 통해 Azure CMK(고객 관리형 키)를 활용하고 데이터에 적용할 수 있습니다.
 
 Journey Optimizer의 설정 프로세스는 크게 두 부분으로 나뉩니다. Adobe Experience Platform과 CJA(Customer Journey Analytics)의 기술을 모두 활용하기 때문입니다.
 
-* [Adobe Experience Platform의 고객 관리형 키](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=ko-KR) 설명서의 단계를 따라 진행하십시오.
+* [Adobe Experience Platform의 고객 관리형 키](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html) 설명서의 단계를 따라 진행하십시오.
 * [Customer Journey Analytics의 고객 관리형 키](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html?lang=ko) 설명서의 단계를 따라 진행하십시오.
 
   CJA(Customer Journey Analytics)를 구매하지 않은 경우에도 CJA의 특정 구성 요소를 배경에서 사용하기 때문에 이 설정 프로세스를 완료해야 합니다.

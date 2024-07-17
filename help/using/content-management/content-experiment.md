@@ -38,19 +38,19 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 * 새 컬렉션과 이미지에 대한 10% 오퍼를 직접 홍보합니다.
 * 나머지 한 곳은 이미지 없이 10% 할인을 명시하지 않고 스페셜 오퍼만 광고하고 있습니다.
 
-여기의 목표는 받은 실험에 따라 수신자가 이메일과 상호 작용하는지 확인하는 것입니다. 따라서 우리는 선택할 것입니다 **[!UICONTROL 이메일 열람수]** 를 이 콘텐츠 실험의 기본 목표 지표로 사용합니다.
+여기의 목표는 받은 실험에 따라 수신자가 이메일과 상호 작용하는지 확인하는 것입니다. 따라서 이 콘텐츠 실험의 기본 목표 지표로 **[!UICONTROL 이메일 열기]**&#x200B;를 선택합니다.
 
 ![](assets/content_experiment.png)
 
 ## 콘텐츠 만들기 {#campaign-experiment}
 
-1. 이메일, SMS 또는 푸시 알림을 만들고 구성하는 것으로 시작합니다 [campaign](../campaigns/create-campaign.md) 또는 [여정](../building-journeys/journeys-message.md) 귀하의 요구 사항에 따라.
+1. 요구 사항에 따라 이메일, SMS 또는 푸시 알림 [campaign](../campaigns/create-campaign.md) 또는 [여정](../building-journeys/journeys-message.md)을(를) 만들고 구성하는 것부터 시작합니다.
 
    >[!AVAILABILITY]
    >
-   >여정에서의 실험은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+   >여정에서의 실험은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-1. 다음에서 **[!UICONTROL 콘텐츠 편집]** 창자, 치료 A를 개인화하기 시작하세요.
+1. **[!UICONTROL 콘텐츠 편집]** 창에서 치료 A 개인화를 시작하십시오.
 
    이 처리를 위해 제목 줄에 직접 특별 오퍼를 지정하고 개인화를 추가합니다.
 
@@ -70,27 +70,27 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 >title="성공 지표"
 >abstract="성공 지표는 실험에서 최상의 성능 처리를 추적하고 평가하는 데 사용됩니다. 데이터 세트를 사용하기 전에 특정 지표에 대해 해당 데이터 세트를 설정해야 합니다."
 
-1. 메시지가 개인화되면 캠페인 요약 페이지에서 **[!UICONTROL 실험 만들기]** 콘텐츠 실험 구성을 시작합니다.
+1. 메시지가 개인화되면 캠페인 요약 페이지에서 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하여 콘텐츠 실험 구성을 시작합니다.
 
    ![](assets/content_experiment_3.png)
 
-1. 다음 항목 선택 **[!UICONTROL 성공 지표]** 실험을 위해 을(를) 설정합니다.
+1. 실험에 대해 설정할 **[!UICONTROL 성공 지표]**&#x200B;를 선택하십시오.
 
-   이 예에서는 을 선택합니다. **[!UICONTROL 이메일 열기]** 프로모션 코드가 제목 줄에 있는 경우 프로필이 이메일을 여는지 테스트합니다.
+   이 예제에서는 **[!UICONTROL 이메일 열기]**&#x200B;를 선택하여 프로모션 코드가 제목 줄에 있는 경우 프로필이 이메일을 열는지 테스트합니다.
 
    ![](assets/content_experiment_11.png)
 
-1. 인앱 또는 웹 채널을 사용하여 실험을 설정하고 **[!UICONTROL 인바운드 클릭수]**, **[!UICONTROL 고유 인바운드 클릭수]** , **[!UICONTROL 페이지 보기 수]** , 또는 **[!UICONTROL 고유 페이지 조회수 지표]** , **[!UICONTROL 클릭 동작]**  드롭다운을 사용하면 특정 페이지의 클릭 수 및 보기를 정확하게 추적하고 모니터링할 수 있습니다.
+1. 인앱 또는 웹 채널을 사용하여 실험을 설정하고 **[!UICONTROL 인바운드 클릭수]**, **[!UICONTROL 고유 인바운드 클릭수]**, **[!UICONTROL 페이지 보기 수]** 또는 **[!UICONTROL 고유 페이지 보기 수 지표]** 및 **[!UICONTROL 클릭 동작]** 드롭다운을 사용하면 특정 페이지에서 클릭수 및 보기를 정확하게 추적하고 모니터링할 수 있습니다.
 
    ![](assets/content_experiment_20.png)
 
-1. 클릭 **[!UICONTROL 처리 추가]** 필요한 만큼 새로운 치료법을 만들다.
+1. **[!UICONTROL 치료 추가]**&#x200B;를 클릭하여 필요한 수만큼 새 치료를 만듭니다.
 
    ![](assets/content_experiment_8.png)
 
-1. 변경 **[!UICONTROL 제목]** 그들을 더 잘 구별하기 위해 당신의 치료의.
+1. 구분을 더 잘 하려면 치료의 **[!UICONTROL 제목]**&#x200B;을 변경하십시오.
 
-1. 을(를) 추가하도록 선택 **[!UICONTROL 유지]** 게재를 그룹화합니다. 이 그룹은 이 캠페인으로부터 어떤 콘텐트도 받지 않습니다.
+1. **[!UICONTROL 보류 중]** 그룹을 게재에 추가하도록 선택하십시오. 이 그룹은 이 캠페인으로부터 어떤 콘텐트도 받지 않습니다.
 
    토글 막대를 켜면 인구의 10%가 자동으로 사용됩니다. 필요한 경우 이 비율을 조정할 수 있습니다.
 
@@ -100,32 +100,32 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 
    ![](assets/content_experiment_12.png)
 
-1. 그런 다음 각 항목에 정확한 백분율을 할당하도록 선택할 수 있습니다 **[!UICONTROL 처리]** 또는 간단히 **[!UICONTROL 균등 분배]** 토글 막대.
+1. 그런 다음 각 **[!UICONTROL 처리]**&#x200B;에 정확한 백분율을 할당하거나 **[!UICONTROL 균등 분포]** 토글 막대를 전환하도록 선택할 수 있습니다.
 
    ![](assets/content_experiment_13.png)
 
-1. 클릭 **[!UICONTROL 만들기]** 구성을 설정할 때입니다.
+1. 구성이 설정되면 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
 ## 트리트먼트 디자인 {#treatment-experiment}
 
-1. 다음에서 **[!UICONTROL 콘텐츠 편집]** 창에서 치료 B를 선택하여 내용을 변경합니다.
+1. **[!UICONTROL 콘텐츠 편집]** 창에서 치료 B를 선택하여 콘텐츠를 변경합니다.
 
-   여기에서는 오퍼를 **[!UICONTROL 제목 줄]**.
+   여기서는 **[!UICONTROL 제목 줄]**&#x200B;에 오퍼를 지정하지 않도록 선택합니다.
 
    ![](assets/content_experiment_18.png)
 
-1. 클릭 **[!UICONTROL 이메일 본문 편집]** 을 추가하여 치료 B를 개인화합니다.
+1. **[!UICONTROL 전자 메일 본문 편집]**&#x200B;을 클릭하여 치료 B를 추가로 개인화합니다.
 
    ![](assets/content_experiment_9.png)
 
-1. 치료를 디자인한 후 다음을 클릭하십시오. **[!UICONTROL 추가 작업]** 처리와 관련된 옵션에 액세스하려면: **[!UICONTROL 이름 바꾸기]**, **[!UICONTROL 복제]** 및 **[!UICONTROL 삭제]**.
+1. 치료를 디자인한 후 **[!UICONTROL 추가 작업]**&#x200B;을(를) 클릭하여 치료와 관련된 옵션에 액세스합니다. **[!UICONTROL 이름 바꾸기]**, **[!UICONTROL 복제]** 및 **[!UICONTROL 삭제]**.
 
    ![](assets/content_experiment_7.png)
 
-1. 필요한 경우 **[!UICONTROL 실험 설정]** 메뉴: 처리 구성을 변경합니다.
+1. 필요한 경우 **[!UICONTROL 실험 설정]** 메뉴에 액세스하여 처리 구성을 변경합니다.
 
    ![](assets/content_experiment_19.png)
 
-1. 메시지 콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 게재 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인하는 버튼입니다. [자세히 알아보기](../content-management/preview-test.md)
+1. 메시지 콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 게재 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../content-management/preview-test.md)
 
 실험을 구성한 다음에는 보고서를 통해 게재의 성공을 추적할 수 있습니다. [자세히 알아보기](../reports/campaign-global-report.md#experimentation-report)

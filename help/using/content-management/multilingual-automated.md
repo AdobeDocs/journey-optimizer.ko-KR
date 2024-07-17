@@ -13,7 +13,7 @@ badge: label="제한된 가용성" type="Informative"
 source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
 workflow-type: tm+mt
 source-wordcount: '1331'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -21,35 +21,35 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->다국어 컨텐츠는 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>다국어 콘텐츠는 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 자동화된 흐름을 사용하여 대상 언어 및 언어 공급자를 선택하면 됩니다. 그러면 콘텐츠가 번역으로 바로 전송되어 완료 시 최종 검토를 위해 준비됩니다.
 
 다음 단계에 따라 자동화된 번역을 사용하여 다국어 콘텐츠를 만듭니다.
 
-1. [로케일 만들기](#create-locale).
+1. [로케일을 만듭니다](#create-locale).
 
-1. [언어 프로젝트 만들기](#create-translation-project).
+1. [언어 프로젝트를 만듭니다](#create-translation-project).
 
-1. [언어 설정 만들기](#create-language-settings).
+1. [언어 설정을 만듭니다](#create-language-settings).
 
-1. [다국어 콘텐츠 만들기](#create-a-multilingual-campaign).
+1. [다국어 콘텐츠를 만듭니다](#create-a-multilingual-campaign).
 
-1. [번역 작업 검토(선택 사항)](#review-translation-project).
+1. [번역 작업을 검토합니다(선택 사항)](#review-translation-project).
 
 ## 로케일 만들기 {#create-locale}
 
-다음에 설명된 대로 언어 설정을 구성할 때 [언어 설정 만들기](#language-settings) 섹션, 특정 로케일을 다국어 콘텐츠에 사용할 수 없는 경우 **[!UICONTROL 번역]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+[언어 설정 만들기](#language-settings) 섹션에 설명된 대로 언어 설정을 구성할 때 특정 로케일을 다국어 콘텐츠에 사용할 수 없는 경우 **[!UICONTROL 번역]** 메뉴를 사용하여 필요한 수만큼 새 로케일을 만들 수 있습니다.
 
-1. 다음에서 **[!UICONTROL 콘텐츠 관리]** 메뉴, 액세스 **[!UICONTROL 번역]**.
+1. **[!UICONTROL 콘텐츠 관리]** 메뉴에서 **[!UICONTROL 번역]**&#x200B;에 액세스합니다.
 
-1. 다음에서 **[!UICONTROL 로케일 사전]** 탭을 클릭하고 **[!UICONTROL 로케일 추가]**.
+1. **[!UICONTROL 로케일 사전]** 탭에서 **[!UICONTROL 로케일 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/locale_1.png)
 
-1. 에서 로케일 코드를 선택합니다. **[!UICONTROL 언어]** 목록 및 관련 항목 **[!UICONTROL 지역]**.
+1. **[!UICONTROL 언어]** 목록 및 관련 **[!UICONTROL 지역]**&#x200B;에서 로케일 코드를 선택합니다.
 
-1. 클릭 **[!UICONTROL 저장]** 로케일을 만들 수 있습니다.
+1. 로케일을 만들려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
    ![](assets/locale_2.png)
 
@@ -57,44 +57,44 @@ ht-degree: 3%
 
 콘텐츠의 특정 언어 또는 지역을 나타내는 Target 로케일을 지정하여 번역 프로젝트를 시작합니다. 그런 다음 번역 공급업체를 선택할 수 있습니다.
 
-1. 다음에서 **[!UICONTROL 번역]** 아래 메뉴 **[!UICONTROL 콘텐츠 관리]**, 클릭 **[!UICONTROL 프로젝트 만들기]** 다음에서 **[!UICONTROL 프로젝트]** 탭.
+1. **[!UICONTROL 콘텐츠 관리]**&#x200B;의 **[!UICONTROL 번역]** 메뉴에서 **[!UICONTROL 프로젝트]** 탭의 **[!UICONTROL 프로젝트 만들기]**&#x200B;를 클릭합니다.
 
    ![](assets/translation_project_1.png)
 
-1. 입력 a **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]**.
+1. **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]**&#x200B;을(를) 입력하세요.
 
-1. 다음 항목 선택 **[!UICONTROL 소스 로케일]**.
+1. **[!UICONTROL Source 로케일]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/translation_project_2.png)
 
 1. 다음 옵션을 활성화하려면 선택합니다.
 
-   * **[!UICONTROL 승인된 번역 자동 게시]**: 번역이 승인되면 수동으로 개입할 필요 없이 캠페인에 자동으로 통합됩니다.
-   * **[!UICONTROL 검토 워크플로우 활성화]**: 사람이 번역한 로케일에만 적용됩니다. 이렇게 하면 내부 검토자가 번역된 콘텐츠를 효율적으로 평가하고 승인하거나 거부할 수 있습니다. [자세히 알아보기](#review-translation-project)
+   * **[!UICONTROL 승인된 번역을 자동으로 게시]**: 번역이 승인되면 수동으로 개입할 필요 없이 캠페인에 자동으로 통합됩니다.
+   * **[!UICONTROL 검토 작업 과정을 사용하도록 설정]**: 사람이 번역한 로케일에만 적용됩니다. 이렇게 하면 내부 검토자가 번역된 콘텐츠를 효율적으로 평가하고 승인하거나 거부할 수 있습니다. [자세히 알아보기](#review-translation-project)
 
-1. 클릭 **[!UICONTROL 로케일 추가]** 메뉴에 액세스하고 번역 프로젝트의 언어를 정의합니다.
+1. 메뉴에 액세스하고 번역 프로젝트의 언어를 정의하려면 **[!UICONTROL 로케일 추가]**&#x200B;를 클릭하십시오.
 
-   다음과 같은 경우 **[!UICONTROL 로케일]** 이(가) 누락되었습니다. 다음에서 미리 수동으로 생성할 수 있습니다. **[!UICONTROL 번역]** 메뉴 또는 API별 을(를) 참조하십시오 [새 로케일 만들기](#create-locale).
+   **[!UICONTROL 로케일]**&#x200B;이(가) 누락된 경우 **[!UICONTROL 번역]** 메뉴에서 또는 API별로 미리 수동으로 만들 수 있습니다. [새 로케일 만들기](#create-locale)를 참조하세요.
 
    ![](assets/translation_project_3.png)
 
-1. 목록에서 을(를) 선택합니다 **[!UICONTROL 대상 로케일]** 및 선택 **[!UICONTROL 번역 공급업체]** 각 로케일에 를 사용합니다.
+1. 목록에서 **[!UICONTROL 대상 로케일]**&#x200B;을(를) 선택하고 각 로케일에 사용할 **[!UICONTROL 번역 공급자]**&#x200B;를 선택하십시오.
 
-   **[!UICONTROL 번역 공급업체]** 설정에서 액세스할 수 있습니다. **[!UICONTROL 번역]** 의 메뉴 **[!UICONTROL 관리]** 메뉴 섹션.
+   **[!UICONTROL 번역 공급자]** 설정은 **[!UICONTROL 관리]** 메뉴 섹션의 **[!UICONTROL 번역]** 메뉴에서 액세스할 수 있습니다.
 
    >[!NOTE]
    >
    >번역 공급업체와의 계약 관리는 이 기능의 범위를 벗어납니다. 지정된 번역 파트너와 유효하고 유효한 계약을 체결했는지 확인하십시오.
    >
-   ></br>번역 제공업체는 번역된 콘텐츠의 품질에 대한 소유권을 갖습니다.
+   ></br>번역 공급업체가 번역된 콘텐츠의 품질에 대한 소유권을 갖습니다.
 
-1. 클릭 **[!UICONTROL 로케일 추가]** 를 클릭합니다. 이때 Target 로케일과 올바른 번역 공급업체를 연결했습니다. 그런 다음 을 클릭합니다. **[!UICONTROL 저장]**.
+1. 올바른 번역 공급업체와 대상 로케일 연결을 마치면 **[!UICONTROL 로케일 추가]**&#x200B;를 클릭합니다. 그런 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    공급자가 대상 로케일에 대해 회색으로 표시된 경우 공급자가 해당 특정 로케일을 지원하지 않는다는 것을 나타냅니다.
 
    ![](assets/translation_project_4.png)
 
-1. 클릭 **[!UICONTROL 저장]** 번역 프로젝트가 구성되는 경우.
+1. 번역 프로젝트가 구성되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 이제 번역 프로젝트가 생성되었으며 다국어 캠페인에서 사용할 수 있습니다.
 
@@ -102,33 +102,33 @@ ht-degree: 3%
 
 이 섹션에서는 다국어 콘텐츠 관리를 위한 기본 언어 및 관련 로케일을 설정할 수 있습니다. 프로필 언어와 관련된 정보를 조회하는 데 사용할 속성을 선택할 수도 있습니다.
 
-1. 다음에서 **[!UICONTROL 관리]** 메뉴, 액세스 **[!UICONTROL 채널]**.
+1. **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 채널]**&#x200B;에 액세스합니다.
 
-1. 다음에서 **[!UICONTROL 언어 설정]** 메뉴, 클릭 **[!UICONTROL 언어 설정 만들기]**.
+1. **[!UICONTROL 언어 설정]** 메뉴에서 **[!UICONTROL 언어 설정 만들기]**&#x200B;를 클릭합니다.
 
    ![](assets/language_settings_1.png)
 
-1. 의 이름을 입력합니다. **[!UICONTROL 언어 설정]**.
+1. **[!UICONTROL 언어 설정]**&#x200B;의 이름을 입력하세요.
 
-1. 다음을 선택합니다. **[!UICONTROL 번역 프로젝트]** 옵션을 선택합니다.
+1. **[!UICONTROL 번역 프로젝트]** 옵션을 선택하십시오.
 
-1. 다음에서 **[!UICONTROL 번역 프로젝트]** 필드, 클릭 **[!UICONTROL 편집]** 및 앞에서 만든 항목 선택 **[!UICONTROL 번역 프로젝트]**.
+1. **[!UICONTROL 번역 프로젝트]** 필드에서 **[!UICONTROL 편집]**&#x200B;을 클릭하고 이전에 만든 **[!UICONTROL 번역 프로젝트]**&#x200B;을(를) 선택합니다.
 
    이전에 구성한 로케일을 자동으로 가져옵니다.
 
    ![](assets/language_settings_2.png)
 
-1. 다음에서 **[!UICONTROL 전송 환경 설정]** 메뉴에서 찾을 속성을 선택하여 프로필 언어에 대한 정보를 찾습니다.
+1. **[!UICONTROL 기본 설정 보내기]** 메뉴에서 프로필 언어에 대한 정보를 찾기 위해 조회할 특성을 선택합니다.
 
-1. 클릭 **[!UICONTROL 편집]** 옆에 있는 **[!UICONTROL 로케일]** 추가 개인화 및 추가 **[!UICONTROL 프로필 환경 설정]**.
+1. **[!UICONTROL 로케일]** 옆에 있는 **[!UICONTROL 편집]**&#x200B;을 클릭하여 추가로 개인화하고 **[!UICONTROL 프로필 환경 설정]**&#x200B;을(를) 추가하십시오.
 
    ![](assets/language_settings_3.png)
 
-1. 다음의 경우 **[!UICONTROL 번역 프로젝트]** 업데이트한 다음 **[!UICONTROL 새로 고침]** 에 이러한 변경 사항을 반영하려면 **[!UICONTROL 언어 설정]**.
+1. **[!UICONTROL 번역 프로젝트]**&#x200B;가 업데이트된 경우 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하여 **[!UICONTROL 언어 설정]**&#x200B;에 이러한 변경 내용을 반영하세요.
 
    ![](assets/language_settings_4.png)
 
-1. 클릭 **[!UICONTROL 제출]** 다음을 만들려면: **[!UICONTROL 언어 설정]**.
+1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 **[!UICONTROL 언어 설정]**&#x200B;을 만듭니다.
 
 <!--
 1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
@@ -143,19 +143,19 @@ ht-degree: 3%
 
 번역 프로젝트 및 언어 설정을 완료하고 나면 캠페인이나 여정을 만들고 다른 로케일에 맞게 콘텐츠를 맞춤화할 수 있습니다.
 
-1. 이메일, SMS 또는 푸시 알림을 만들고 구성하는 것으로 시작합니다 [campaign](../campaigns/create-campaign.md) 또는 [여정](../building-journeys/journeys-message.md) 귀하의 요구 사항에 따라.
+1. 요구 사항에 따라 이메일, SMS 또는 푸시 알림 [campaign](../campaigns/create-campaign.md) 또는 [여정](../building-journeys/journeys-message.md)을(를) 만들고 구성하는 것부터 시작합니다.
 
-1. 기본 컨텐츠가 만들어지면 **[!UICONTROL 저장]** campaign 구성 화면으로 돌아갑니다.
+1. 기본 콘텐츠가 만들어지면 **[!UICONTROL 저장]**&#x200B;을 클릭하고 캠페인 구성 화면으로 돌아갑니다.
 
-1. 클릭 **[!UICONTROL 언어 추가]**.  [자세히 알아보기](#create-language-settings)
+1. **[!UICONTROL 언어 추가]**&#x200B;를 클릭합니다.  [자세히 알아보기](#create-language-settings)
 
    ![](assets/multilingual-campaign-automated-1.png)
 
-1. 이전에 만든 항목 선택 **[!UICONTROL 언어 설정]**.
+1. 이전에 만든 **[!UICONTROL 언어 설정]**&#x200B;을 선택하세요.
 
    ![](assets/multilingual-campaign-automated-2.png)
 
-1. 로케일을 가져왔으므로 **[!UICONTROL 번역하도록 전송]** 이전에 선택한 번역 공급업체에 콘텐츠를 전달합니다.
+1. 로케일을 가져왔으므로 **[!UICONTROL 번역하도록 보내기]**&#x200B;를 클릭하여 콘텐츠를 이전에 선택한 번역 공급업체에 전달합니다.
 
    ![](assets/multilingual-campaign-automated-3.png)
 
@@ -165,7 +165,7 @@ ht-degree: 3%
 
    ![](assets/multilingual-campaign-automated-4.png)
 
-1. 클릭 **[!UICONTROL 번역 열기]** 을 클릭하여 번역 프로젝트에 액세스하고 프로젝트를 검토합니다.
+1. **[!UICONTROL 번역 열기]**&#x200B;를 클릭하여 번역 프로젝트에 액세스하고 이를 검토합니다.
 
    ![](assets/multilingual-campaign-automated-5.png)
 
@@ -173,17 +173,17 @@ ht-degree: 3%
 
    * **[!UICONTROL 번역 진행 중]**: 서비스 공급자가 현재 번역 작업을 진행 중입니다.
 
-     다음을 선택한 경우 **사내 번역** 구성 시 **언어 설정**, 번역 프로젝트에서 콘텐츠를 직접 번역할 수 있습니다. [자세히 알아보기](#manage-ht-project)
+     **언어 설정**&#x200B;을 구성할 때 **사내 번역**&#x200B;을 선택한 경우 번역 프로젝트에서 직접 콘텐츠를 번역할 수 있습니다. [자세히 알아보기](#manage-ht-project)
 
-   * **[!UICONTROL 검토 준비됨]**: 검토 프로세스를 시작할 준비가 되었으며 번역에 액세스하고 번역을 거부하거나 승인할 수 있습니다.
+   * **[!UICONTROL 검토 준비됨]**: 검토 프로세스를 시작할 준비가 되었으며, 이를 통해 번역에 액세스하고 이를 거부하거나 승인할 수 있습니다.
 
-     다음을 선택한 경우 **[!UICONTROL 검토 워크플로우 활성화]** (으)로 **[!UICONTROL 번역 프로젝트]**, 선택한 번역 공급업체에서 완료 후 Journey Optimizer에서 직접 번역을 검토할 수 있습니다. [자세히 알아보기](#review-translation-project)
+     **[!UICONTROL 번역 프로젝트]**&#x200B;에서 **[!UICONTROL 검토 워크플로우 사용]**&#x200B;을(를) 선택한 경우 선택한 번역 공급업체에서 완료한 후 Journey Optimizer에서 직접 번역을 검토할 수 있습니다. [자세히 알아보기](#review-translation-project)
 
-   * **[!UICONTROL 검토됨]**: 번역이 승인되었으며 게시 및 캠페인에 보낼 준비가 되었습니다.
+   * **[!UICONTROL 검토됨]**: 번역이 승인되었으며 게시 및 캠페인으로 전송될 준비가 되었습니다.
 
-   * **[!UICONTROL 게시 준비]**: 기계 번역이 완료되었으며 이제 캠페인으로 전송할 수 있습니다.
+   * **[!UICONTROL 게시 준비됨]**: 기계 번역이 완료되었으며 이제 캠페인으로 보낼 수 있습니다.
 
-   * **[!UICONTROL 완료됨]**: 이제 캠페인에서 번역을 사용할 수 있습니다.
+   * **[!UICONTROL 완료]**: 이제 캠페인에서 번역을 사용할 수 있습니다.
 
    ![](assets/multilingual-campaign-automated-6.png)
 
@@ -191,7 +191,7 @@ ht-degree: 3%
 
    ![](assets/translation_review_9.png)
 
-1. 클릭 **[!UICONTROL 활성화하려면 검토]** 캠페인 요약을 표시합니다.
+1. **[!UICONTROL 활성화하려면 검토]**&#x200B;를 클릭하여 캠페인 요약을 표시합니다.
 
    요약을 사용하면 필요한 경우 캠페인을 수정하고 매개 변수가 틀리거나 누락되었는지 확인할 수 있습니다.
 
@@ -199,7 +199,7 @@ ht-degree: 3%
 
    ![](assets/multilingual-campaign-automated-7.png)
 
-1. 캠페인이 올바르게 구성되었는지 확인한 다음, **[!UICONTROL 활성화]**.
+1. 캠페인이 올바르게 구성되었는지 확인한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
 
 이제 캠페인이나 여정을 활성화할 수 있습니다. 전송되면 보고서 내에서 다국어 여정 또는 캠페인의 영향을 측정할 수 있습니다.
 
@@ -207,29 +207,29 @@ ht-degree: 3%
 
 언어 설정을 구성할 때 내부 번역을 선택한 경우 번역 프로젝트에서 직접 콘텐츠를 번역할 수 있습니다.
 
-1. 출처: **[!UICONTROL 번역 프로젝트]**, 액세스 **[!UICONTROL 추가 작업]** 메뉴 및 선택 **[!UICONTROL 사내 번역]**.
+1. **[!UICONTROL 번역 프로젝트]**&#x200B;에서 **[!UICONTROL 추가 작업]** 메뉴에 액세스하고 **[!UICONTROL 사내 번역]**&#x200B;을 선택하세요.
 
    ![](assets/inhouse-translation-1.png)
 
-1. 외부 번역 소프트웨어를 사용하여 번역을 위해 CSV 파일을 내보낼 수 있습니다. 또는 를 클릭하여 CSV 파일을 번역 프로젝트로 다시 가져올 수 있습니다. **[!UICONTROL CSV 가져오기]** 단추를 클릭합니다.
+1. 외부 번역 소프트웨어를 사용하여 번역을 위해 CSV 파일을 내보낼 수 있습니다. 또는 **[!UICONTROL CSV 가져오기]** 단추를 클릭하여 CSV 파일을 번역 프로젝트로 다시 가져올 수 있습니다.
 
    ![](assets/inhouse-translation-3.png)
 
-1. 클릭 **[!UICONTROL 편집]** 을 클릭하여 번역 콘텐츠를 추가합니다.
+1. 번역 콘텐츠를 추가하려면 **[!UICONTROL 편집]**&#x200B;을 클릭하세요.
 
    ![](assets/inhouse-translation-2.png)
 
-1. 번역된 텍스트를 게시할 준비가 되면 **[!UICONTROL 완료]**.
+1. 번역된 텍스트를 게시할 준비가 되었으면 **[!UICONTROL 완료]**&#x200B;를 클릭하십시오.
 
 ## 번역 프로젝트 검토 {#review-translation-project}
 
-다음을 선택한 경우 **[!UICONTROL 검토 워크플로우 활성화]** (으)로 **[!UICONTROL 번역 프로젝트]**, 선택한 번역 공급업체에서 완료 후 Journey Optimizer에서 직접 번역을 검토할 수 있습니다.
+**[!UICONTROL 번역 프로젝트]**&#x200B;에서 **[!UICONTROL 검토 워크플로우 사용]**&#x200B;을(를) 선택한 경우 선택한 번역 공급업체에서 완료한 후 Journey Optimizer에서 직접 번역을 검토할 수 있습니다.
 
-이 옵션이 비활성화되면 공급업체에서 번역을 완료하면 번역 작업 상태가 자동으로 다음으로 설정됩니다. **[!UICONTROL 검토됨]**&#x200B;를 클릭하여 빠르게 진행할 수 있습니다. **[!UICONTROL 게시]**.
+이 옵션이 비활성화되면 공급자가 번역을 완료하면 번역 작업 상태가 자동으로 **[!UICONTROL 검토됨]**(으)로 설정되므로 **[!UICONTROL Publish]**&#x200B;을(를) 클릭하여 빠르게 진행할 수 있습니다.
 
-1. 서비스 공급업체로부터 번역을 완료한 후에는 번역을 액세스하여 검토할 수 있습니다. **[!UICONTROL 번역 프로젝트]** 또는 을 통해 직접 **[!UICONTROL 캠페인]**.
+1. 서비스 공급자로부터 번역을 완료하면 **[!UICONTROL 번역 프로젝트]**&#x200B;에서 또는 **[!UICONTROL 캠페인]**&#x200B;에서 직접 번역에 액세스하여 검토할 수 있습니다.
 
-   다음에서 **[!UICONTROL 추가 작업]** 메뉴, 클릭 **[!UICONTROL 리뷰]**.
+   **[!UICONTROL 추가 작업]** 메뉴에서 **[!UICONTROL 검토]**&#x200B;를 클릭합니다.
 
    ![](assets/translation_review_1.png)
 
@@ -237,35 +237,35 @@ ht-degree: 3%
 
    ![](assets/translation_review_3.png)
 
-1. 클릭 **[!UICONTROL 편집]** 번역 문자열의 콘텐츠를 변경합니다.
+1. 번역 문자열의 콘텐츠를 변경하려면 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
    ![](assets/translation_review_2.png)
 
-1. 업데이트된 번역을 입력하고 **[!UICONTROL 확인]** 완료 시.
+1. 업데이트된 번역을 입력하고 완료되면 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
    ![](assets/translation_review_4.png)
 
-1. 다음을 선택할 수도 있습니다. **[!UICONTROL 모두 거부]** 또는 **[!UICONTROL 모두 승인]** 직접.
+1. **[!UICONTROL 모두 거부]** 또는 **[!UICONTROL 모두 승인]**&#x200B;을 직접 선택할 수도 있습니다.
 
-   선택 시 **[!UICONTROL 모두 거부]**, 댓글 추가 및 클릭 **[!UICONTROL 거부]**.
+   **[!UICONTROL 모두 거부]**&#x200B;를 선택할 때는 댓글을 추가하고 **[!UICONTROL 거부]**&#x200B;을 클릭하세요.
 
-1. 클릭 **[!UICONTROL 미리 보기]** 각 언어로 번역된 콘텐츠의 렌더링을 확인합니다.
+1. **[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 각 언어로 번역된 콘텐츠의 렌더링을 확인합니다.
 
-1. 번역된 텍스트를 게시할 준비가 되면 **[!UICONTROL 완료]**.
+1. 번역된 텍스트를 게시할 준비가 되었으면 **[!UICONTROL 완료]**&#x200B;를 클릭하십시오.
 
    ![](assets/translation_review_5.png)
 
-1. 출처: **[!UICONTROL 번역 프로젝트]**&#x200B;프로젝트 중 하나를 선택하여 세부 정보에 액세스합니다. 번역을 거부한 경우 번역으로 다시 전송하도록 선택할 수 있습니다.
+1. **[!UICONTROL 번역 프로젝트]**&#x200B;에서 프로젝트 중 하나를 선택하여 자세한 정보에 액세스합니다. 번역을 거부한 경우 번역으로 다시 전송하도록 선택할 수 있습니다.
 
    ![](assets/translation_review_6.png)
 
-1. 한 번 **[!UICONTROL 번역 프로젝트]** 상태가 검토됨으로 설정되어 있으면 캠페인에 보낼 수 있습니다.
+1. **[!UICONTROL 번역 프로젝트]** 상태가 [검토됨]으로 설정되면 이를 캠페인으로 보낼 수 있습니다.
 
-   다음에서 **[!UICONTROL 추가 작업]** 메뉴, 클릭 **[!UICONTROL 게시]**.
+   **[!UICONTROL 추가 작업]** 메뉴에서 **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/translation_review_7.png)
 
-1. 캠페인에서 번역 상태가 (으)로 변경되었는지 확인합니다. **[!UICONTROL 번역 완료]**. 이제 다국어 콘텐츠를 보낼 수 있습니다. 의 10단계를 참조하십시오. [이 섹션](#create-multilingual-campaign).
+1. Campaign에서 번역 상태가 **[!UICONTROL 번역 완료]**(으)로 변경되었는지 확인하십시오. 이제 다국어 콘텐츠를 보낼 수 있습니다. [이 섹션](#create-multilingual-campaign)의 10단계를 참조하세요.
 
    ![](assets/translation_review_9.png)
 

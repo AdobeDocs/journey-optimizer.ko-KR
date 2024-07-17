@@ -31,21 +31,21 @@ ht-degree: 13%
 
 여정에 인앱 메시지를 추가하려면 다음 단계를 수행합니다.
 
-1. 여정을 연 다음 **[!UICONTROL 인앱]** 의 활동 **[!UICONTROL 작업]** 팔레트의 섹션입니다.
+1. 여정을 열고 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 인앱]** 활동을 끌어서 놓습니다.
 
    프로필이 여정 끝에 도달하면 표시되는 모든 인앱 메시지가 자동으로 만료됩니다. 이러한 이유로, 적절한 타이밍을 보장하기 위해 인앱 활동 후에 대기 활동이 자동으로 추가됩니다.
 
    ![](assets/in_app_journey_1.png)
 
-1. 입력 **[!UICONTROL 레이블]** 및 **[!UICONTROL 설명]** 메시지를 표시합니다.
+1. 메시지에 대해 **[!UICONTROL 레이블]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 
-1. 다음을 선택합니다. [인앱 표면](inapp-configuration.md) 사용할 수 있습니다.
+1. 사용할 [인앱 표면](inapp-configuration.md)을(를) 선택하십시오.
 
    ![](assets/in_app_journey_2.png)
 
-1. 이제 를 사용하여 콘텐츠 디자인을 시작할 수 있습니다. **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다. [자세히 알아보기](design-in-app.md)
+1. 이제 **[!UICONTROL 콘텐츠 편집]** 버튼을 사용하여 콘텐츠 디자인을 시작할 수 있습니다. [자세히 알아보기](design-in-app.md)
 
-1. 클릭 **[!UICONTROL 트리거 편집]** 메시지를 트리거할 이벤트 및 기준을 선택합니다. 규칙 빌더를 사용하면 충족될 경우 인앱 메시지 전송과 같은 작업 세트를 트리거하는 기준과 값을 지정할 수 있습니다.
+1. 메시지를 트리거할 이벤트 및 조건을 선택하려면 **[!UICONTROL 트리거 편집]**&#x200B;을 클릭하세요. 규칙 빌더를 사용하면 충족될 경우 인앱 메시지 전송과 같은 작업 세트를 트리거하는 기준과 값을 지정할 수 있습니다.
 
    ![](assets/in_app_journey_4.png)
 
@@ -55,10 +55,10 @@ ht-degree: 13%
 
       | 패키지 | 트리거 | 정의 |
       |---|---|---|
-      | 플랫폼으로 데이터 보내기 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 API 호출 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) AEP Edge 확장 |
-      | 코어 추적 | 작업 추적 | 모바일 코드 API에서 제공되는 이전 기능인 경우 트리거됩니다. [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) 이(가) 호출되었습니다. |
-      | 코어 추적 | 상태 추적 | 모바일 코드 API에서 제공되는 이전 기능인 경우 트리거됩니다. [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) 이(가) 호출되었습니다. |
-      | 코어 추적 | PII 수집 | 모바일 코드 API에서 제공되는 이전 기능인 경우 트리거됩니다. [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) 이(가) 호출되었습니다. |
+      | 플랫폼으로 데이터 보내기 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 API는 AEP Edge 확장에서 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)를 호출합니다. |
+      | 코어 추적 | 작업 추적 | 모바일 코드 API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
+      | 코어 추적 | 상태 추적 | 모바일 코드 API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
+      | 코어 추적 | PII 수집 | 모바일 코드 API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
       | 응용 프로그램 수명 주기 | 애플리케이션 실행 | 충돌 및 설치를 포함하여 실행 시마다 트리거됩니다. 라이프사이클 세션 시간이 초과되면 배경에서 다시 시작할 때도 트리거됩니다. |
       | 응용 프로그램 수명 주기 | 애플리케이션 설치 | 설치 또는 재설치 후 처음 실행할 때 트리거됩니다. |
       | 응용 프로그램 수명 주기 | 애플리케이션 업데이트 | 업그레이드 후 또는 버전 번호가 변경되고 처음 실행할 때 트리거됩니다. |
@@ -69,13 +69,13 @@ ht-degree: 13%
 
 +++
 
-   1. 클릭 **[!UICONTROL 조건 추가]** 트리거에서 여러 이벤트 또는 기준을 고려하도록 하려는 경우.
+   1. 트리거에서 여러 이벤트 또는 조건을 고려하려면 **[!UICONTROL 조건 추가]**&#x200B;를 클릭하십시오.
 
-   1. 다음을 선택합니다. **[!UICONTROL 또는]** 조건을 더 추가하려면 **[!UICONTROL 트리거]** 를 사용하여 규칙을 추가로 확장할 수 있습니다.
+   1. **[!UICONTROL 트리거]**&#x200B;를 더 추가하여 규칙을 확장하려면 **[!UICONTROL Or]** 조건을 선택하십시오.
 
       ![](assets/in_app_create_3.png)
 
-   1. 다음을 선택합니다. **[!UICONTROL 및]** 조건을 추가하려면 **[!UICONTROL 트레이트]** 그리고 규칙을 더 잘 세밀하게 조정하십시오.
+   1. **[!UICONTROL 트레이트]**&#x200B;를 추가하고 규칙을 보다 세밀하게 조정하려면 **[!UICONTROL And]** 조건을 선택하십시오.
 
       +++사용 가능한 트레이트 를 참조하십시오.
 
@@ -103,49 +103,49 @@ ht-degree: 13%
 
       ![](assets/in_app_create_8.png)
 
-   1. 클릭 **[!UICONTROL 그룹 만들기]** 트리거를 함께 그룹화합니다.
+   1. 트리거를 함께 그룹화하려면 **[!UICONTROL 그룹 만들기]**&#x200B;를 클릭하세요.
 
       ![](assets/in_app_journey_3.png)
 
    1. 인앱 메시지가 활성 상태일 때 트리거 빈도를 선택합니다.
 
-      * **[!UICONTROL 모든 시간 표시]**: 다음에서 이벤트가 선택될 때 항상 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
-      * **[!UICONTROL 한 번 표시]**: 다음에서 이벤트를 처음 선택할 때만 이 메시지 표시 **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
-      * **[!UICONTROL 클릭스루까지 표시]**: 다음에서 이벤트를 선택하면 이 메시지 표시: **[!UICONTROL 모바일 앱 트리거]** 드롭다운은 SDK에서 &quot;클릭됨&quot; 동작을 사용하여 상호 작용 이벤트를 전송할 때까지 발생합니다.
+      * **[!UICONTROL 항상 표시]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 발생하면 항상 메시지를 표시합니다.
+      * **[!UICONTROL 한 번 표시]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 처음 발생할 때만 이 메시지를 표시합니다.
+      * **[!UICONTROL 클릭할 때까지 표시]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 &quot;클릭함&quot; 동작을 사용하여 SDK에서 상호 작용 이벤트를 보낼 때까지 발생할 때 이 메시지를 표시합니다.
 
 1. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
 
 1. 인앱 메시지가 준비되면 구성을 완료하고 여정을 게시하여 활성화합니다.
 
-여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md).
+여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
 
->[!TAB 캠페인에 인앱 메시지 추가]
+>[!TAB 인앱 메시지를 캠페인에 추가]
 
 캠페인에 인앱 메시지를 추가하려면 다음 단계를 수행합니다.
 
-1. 액세스 **[!UICONTROL 캠페인]** 메뉴를 선택한 다음 **[!UICONTROL 캠페인 만들기]**.
+1. **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다.
 
-1. 다음에서 **[!UICONTROL 속성]** 섹션에서 캠페인 실행 유형(예약됨 또는 API 트리거됨)이 실행되는 시점을 선택합니다. 에서 캠페인 유형에 대해 자세히 알아보기 [이 페이지](../campaigns/create-campaign.md#campaigntype).
+1. **[!UICONTROL 속성]** 섹션에서 캠페인 실행 유형(예약됨 또는 API 트리거됨)을 선택합니다. [이 페이지](../campaigns/create-campaign.md#campaigntype)에서 캠페인 유형에 대해 자세히 알아보세요.
 
-1. 다음에서 **[!UICONTROL 작업]** 섹션에서 다음을 선택합니다. **[!UICONTROL 인앱 메시지]** 및 **[!UICONTROL 앱 표면]** 인앱 메시지에 대해 이전에 구성되었습니다. 그런 다음 을 클릭합니다. **[!UICONTROL 만들기]**.
+1. **[!UICONTROL 작업]** 섹션에서 인앱 메시지에 대해 이전에 구성된 **[!UICONTROL 인앱 메시지]** 및 **[!UICONTROL 앱 표면]**&#x200B;을 선택합니다. 그런 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-   에서 인앱 구성에 대해 자세히 알아보기 [이 페이지](inapp-configuration.md).
+   [이 페이지](inapp-configuration.md)에서 인앱 구성에 대해 자세히 알아보세요.
 
    ![](assets/in_app_create_1.png)
 
-1. 다음에서 **[!UICONTROL 속성]** 섹션에서 다음을 입력합니다. **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]** 설명.
+1. **[!UICONTROL 속성]** 섹션에서 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]** 설명을 입력하십시오.
 
-1. 인앱 메시지에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 다음을 선택합니다. **[!UICONTROL 액세스 관리]**. [자세히 알아보기](../administration/object-based-access.md).
+1. 인앱 메시지에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택하세요. [자세히 알아보기](../administration/object-based-access.md).
 
-1. 다음을 클릭합니다. **[!UICONTROL 대상자 선택]** 사용 가능한 Adobe Experience Platform 대상 목록에서 타깃팅할 대상을 정의하는 단추입니다. [자세히 알아보기](../audience/about-audiences.md).
+1. 사용 가능한 Adobe Experience Platform 대상 목록에서 타깃팅할 대상을 정의하려면 **[!UICONTROL 대상 선택]** 단추를 클릭하십시오. [자세히 알아보기](../audience/about-audiences.md).
 
    ![](assets/in_app_create_2.png)
 
-1. 다음에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
+1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
-1. 클릭 **[!UICONTROL 실험 만들기]** 콘텐츠 실험 구성을 시작하고 처리를 만들어 성능을 측정하고 타겟 대상자에 대한 최상의 옵션을 식별합니다. [자세히 알아보기](../content-management/content-experiment.md)
+1. 콘텐츠 실험 구성을 시작하고 처리를 만들어 성능을 측정하고 대상 대상에 가장 적합한 옵션을 식별하려면 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하십시오. [자세히 알아보기](../content-management/content-experiment.md)
 
-1. 클릭 **[!UICONTROL 트리거 편집]** 메시지를 트리거할 이벤트 및 기준을 선택합니다. 규칙 빌더를 사용하면 충족될 경우 인앱 메시지 전송과 같은 작업 세트를 트리거하는 기준과 값을 지정할 수 있습니다.
+1. 메시지를 트리거할 이벤트 및 조건을 선택하려면 **[!UICONTROL 트리거 편집]**&#x200B;을 클릭하세요. 규칙 빌더를 사용하면 충족될 경우 인앱 메시지 전송과 같은 작업 세트를 트리거하는 기준과 값을 지정할 수 있습니다.
 
    1. 필요한 경우 이벤트 드롭다운을 클릭하여 트리거 를 변경합니다.
 
@@ -153,10 +153,10 @@ ht-degree: 13%
 
       | 패키지 | 트리거 | 정의 |
       |---|---|---|
-      | 플랫폼으로 데이터 보내기 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 API 호출 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) AEP Edge 확장 |
-      | 코어 추적 | 작업 추적 | 모바일 코드 API에서 제공되는 이전 기능인 경우 트리거됩니다. [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) 이(가) 호출되었습니다. |
-      | 코어 추적 | 상태 추적 | 모바일 코드 API에서 제공되는 이전 기능인 경우 트리거됩니다. [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) 이(가) 호출되었습니다. |
-      | 코어 추적 | PII 수집 | 모바일 코드 API에서 제공되는 이전 기능인 경우 트리거됩니다. [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) 이(가) 호출되었습니다. |
+      | 플랫폼으로 데이터 보내기 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 API는 AEP Edge 확장에서 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)를 호출합니다. |
+      | 코어 추적 | 작업 추적 | 모바일 코드 API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
+      | 코어 추적 | 상태 추적 | 모바일 코드 API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
+      | 코어 추적 | PII 수집 | 모바일 코드 API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
       | 응용 프로그램 수명 주기 | 애플리케이션 실행 | 충돌 및 설치를 포함하여 실행 시마다 트리거됩니다. 라이프사이클 세션 시간이 초과되면 배경에서 다시 시작할 때도 트리거됩니다. |
       | 응용 프로그램 수명 주기 | 애플리케이션 설치 | 설치 또는 재설치 후 처음 실행할 때 트리거됩니다. |
       | 응용 프로그램 수명 주기 | 애플리케이션 업데이트 | 업그레이드 후 또는 버전 번호가 변경되고 처음 실행할 때 트리거됩니다. |
@@ -167,13 +167,13 @@ ht-degree: 13%
 
 +++
 
-   1. 클릭 **[!UICONTROL 조건 추가]** 트리거에서 여러 이벤트 또는 기준을 고려하도록 하려는 경우.
+   1. 트리거에서 여러 이벤트 또는 조건을 고려하려면 **[!UICONTROL 조건 추가]**&#x200B;를 클릭하십시오.
 
-   1. 다음을 선택합니다. **[!UICONTROL 또는]** 조건을 더 추가하려면 **[!UICONTROL 트리거]** 를 사용하여 규칙을 추가로 확장할 수 있습니다.
+   1. **[!UICONTROL 트리거]**&#x200B;를 더 추가하여 규칙을 확장하려면 **[!UICONTROL Or]** 조건을 선택하십시오.
 
       ![](assets/in_app_create_3.png)
 
-   1. 다음을 선택합니다. **[!UICONTROL 및]** 조건을 추가하려면 **[!UICONTROL 트레이트]** 그리고 규칙을 더 잘 세밀하게 조정하십시오.
+   1. **[!UICONTROL 트레이트]**&#x200B;를 추가하고 규칙을 보다 세밀하게 조정하려면 **[!UICONTROL And]** 조건을 선택하십시오.
 
       +++사용 가능한 트레이트 를 참조하십시오.
 
@@ -201,22 +201,22 @@ ht-degree: 13%
 
       ![](assets/in_app_create_8.png)
 
-   1. 클릭 **[!UICONTROL 그룹 만들기]** 트리거를 함께 그룹화합니다.
+   1. 트리거를 함께 그룹화하려면 **[!UICONTROL 그룹 만들기]**&#x200B;를 클릭하세요.
 
 1. 인앱 메시지가 활성 상태일 때 트리거 빈도를 선택합니다. 다음 옵션을 사용할 수 있습니다.
 
-   * **[!UICONTROL 항상]**: 다음에서 이벤트가 선택될 때 항상 메시지를 표시합니다. **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
-   * **[!UICONTROL 한 번]**: 다음에서 이벤트를 처음 선택할 때만 이 메시지 표시 **[!UICONTROL 모바일 앱 트리거]** 드롭다운이 발생합니다.
-   * **[!UICONTROL 클릭스루할 때까지]**: 다음에서 이벤트를 선택하면 이 메시지 표시: **[!UICONTROL 모바일 앱 트리거]** 드롭다운은 SDK에서 &quot;클릭됨&quot; 동작을 사용하여 상호 작용 이벤트를 전송할 때까지 발생합니다.
-   * **[!UICONTROL X 회]**: 이 메시지를 X회 표시합니다.
+   * **[!UICONTROL 항상]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 발생하면 항상 메시지를 표시합니다.
+   * **[!UICONTROL 한 번]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 처음 발생할 때만 이 메시지를 표시합니다.
+   * **[!UICONTROL 클릭할 때까지]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 SDK에서 &quot;클릭함&quot; 동작을 사용하여 상호 작용 이벤트를 보낼 때까지 발생할 때 이 메시지를 표시합니다.
+   * **[!UICONTROL X회]**: 이 메시지를 X회 표시합니다.
 
-1. 필요한 경우 다음 중 하나를 선택합니다 **[!UICONTROL 요일]** 또는 **[!UICONTROL 하루 중 시간]** 인앱 메시지가 표시됩니다.
+1. 필요한 경우 인앱 메시지를 표시할 **[!UICONTROL 요일]** 또는 **[!UICONTROL 시간]**&#x200B;을(를) 선택하십시오.
 
-1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. 구성 방법 알아보기 **[!UICONTROL 예약]** 의 내 캠페인 [이 섹션](../campaigns/create-campaign.md#schedule).
+1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. [이 섹션](../campaigns/create-campaign.md#schedule)에서 캠페인의 **[!UICONTROL 일정]**&#x200B;을 구성하는 방법을 알아보세요.
 
    ![](assets/in-app-schedule.png)
 
-1. 이제 를 사용하여 콘텐츠 디자인을 시작할 수 있습니다. **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다. [자세히 알아보기](design-in-app.md)
+1. 이제 **[!UICONTROL 콘텐츠 편집]** 버튼을 사용하여 콘텐츠 디자인을 시작할 수 있습니다. [자세히 알아보기](design-in-app.md)
 
    ![](assets/in_app_create_4.png)
 

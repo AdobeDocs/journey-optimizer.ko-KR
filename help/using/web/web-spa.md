@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 17%
 >abstract="선택된 보기에만 변경 사항이 적용됩니다. 보기는 **찾아보기** 모드를 사용하여 검색하고 해당 항목으로 이동할 수 있습니다. 원하는 보기를 찾으실 수 없습니까?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="추가 정보"
 
-**단일 페이지 애플리케이션** (SPA)는 이제 웹 디자이너 비주얼 편집기에서 작성할 수 있습니다. 이를 통해 특정 항목을 선택할 수 있습니다 **조회수** 웹 페이지 수정 사항을에 적용하려고 합니다.
+이제 웹 디자이너 비주얼 편집기에서 **단일 페이지 응용 프로그램**(SPA)을 작성할 수 있습니다. 이를 통해 웹 페이지 수정 사항을 적용할 특정 **보기**&#x200B;를 선택할 수 있습니다.
 
 [이 비디오에서는 단일 페이지 애플리케이션을 제작하는 방법에 대해 알아봅니다](#video)
 
@@ -33,21 +33,21 @@ Adobe Experience Platform Web SDK 구현에서 보기를 정의하려면 일회�
 
 ## 웹 SDK 구현에서 보기 정의 {#define-views}
 
-XDM 보기를 Adobe에서 활용할 수 있음 [!DNL Journey Optimizer] 마케터가 웹 비주얼 편집기를 통해 SPA에서 웹 개인화 및 실험 캠페인을 실행할 수 있도록 권한을 부여합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko){target="_blank"}
+[!DNL Journey Optimizer] Adobe에서 XDM 보기를 활용하여 마케터가 웹 비주얼 편집기를 통해 SPA에서 웹 개인화 및 실험 캠페인을 실행할 수 있도록 할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko){target="_blank"}
 
-에서 보기에 액세스하고 보기를 작성하려면 다음과 같이 하십시오. [!DNL Journey Optimizer] 사용자 인터페이스에서에 나열된 단계를 따르는지 확인하십시오. [이 섹션](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
+[!DNL Journey Optimizer] 사용자 인터페이스에서 보기에 액세스하고 보기를 작성하려면 [이 섹션](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}에 나열된 단계를 따라야 합니다.
 
 ## 웹 디자이너에서 보기 살펴보기 {#discover-views}
 
 Adobe Experience Platform Web SDK 구현에서 SPA 설정이 완료되면 수정 사항을 적용할 웹 사이트의 모든 보기를 탐색해야 합니다. 아래 단계를 수행합니다.
 
-1. [웹 캠페인 만들기](create-web.md) 및 액세스 [웹 디자이너](edit-web-content.md).
+1. [웹 캠페인을 만들고](create-web.md) [웹 디자이너에 액세스합니다](edit-web-content.md).
 
    현재 있는 보기는 왼쪽 상단에 표시됩니다.
 
    ![](assets/web-designer-view-home.png)
 
-1. 다음으로 교체 **[!UICONTROL 찾아보기]** 모드. [자세히 알아보기](../web/edit-web-content.md#browse-mode)
+1. **[!UICONTROL 찾아보기]** 모드로 전환합니다. [자세히 알아보기](../web/edit-web-content.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 
@@ -61,13 +61,13 @@ Adobe Experience Platform Web SDK 구현에서 SPA 설정이 완료되면 수정
 
 >[!CAUTION]
 >
->를 사용하여 보기를 검색하지 못한 경우 **[!UICONTROL 찾아보기]** 모드에서는 수정 사항을 적용할 항목을 선택할 수 없습니다. [자세히 알아보기](#discover-views)
+>**[!UICONTROL 찾아보기]** 모드를 사용하여 보기를 검색하지 못한 경우 수정 사항을 적용할 보기를 선택할 수 없습니다. [자세히 알아보기](#discover-views)
 
-1. 다음 항목 선택 **[!UICONTROL 수정 사항]** 아이콘을 클릭하면 해당 창이 왼쪽에 표시됩니다.
+1. **[!UICONTROL 수정 사항]** 아이콘을 선택하여 왼쪽에 해당 창을 표시합니다.
 
    ![](assets/web-designer-view-modifications-pane.png)
 
-1. 수정 사항을 선택하고 **[!UICONTROL 추가 작업]** 옆에 있는 단추입니다. 선택 **[!UICONTROL 더 많은 보기에 적용]**.
+1. 수정 사항을 선택하고 옆에 있는 **[!UICONTROL 추가 작업]** 단추를 클릭합니다. **[!UICONTROL 더 많은 보기에 적용]**&#x200B;을 선택합니다.
 
    ![](assets/web-designer-modifications-more-actions.png)
 
@@ -77,7 +77,7 @@ Adobe Experience Platform Web SDK 구현에서 SPA 설정이 완료되면 수정
 
 1. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
-1. 다음으로 교체 **[!UICONTROL 찾아보기]** 원하는 페이지에 수정 사항이 적용되었는지 확인하는 모드입니다.
+1. **[!UICONTROL 찾아보기]** 모드로 전환하여 원하는 페이지에 수정 사항이 적용되었는지 확인하십시오.
 
    ![](assets/web-designer-modifications-applied-view.png)
 
@@ -85,7 +85,7 @@ Adobe Experience Platform Web SDK 구현에서 SPA 설정이 완료되면 수정
 
 이 비디오에서는 다음을 하는 방법을 설명합니다.
 
-* 다음을 사용하여 SPA 보기 검색 **[!UICONTROL 찾아보기]** 모드
+* **[!UICONTROL 찾아보기]** 모드를 사용하여 SPA 보기 검색
 * 현재 보기에서 작성
 * 여러 보기 또는 검색된 모든 보기에 웹 사이트 수정 사항 적용
 * 수정 시 일괄 작업 수행

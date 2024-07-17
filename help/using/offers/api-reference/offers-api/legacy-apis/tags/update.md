@@ -9,19 +9,19 @@ exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
 # 컬렉션 수식어 업데이트 {#update-collection-qualifier}
 
-에 PATCH 요청을 하여 컨테이너에서 컬렉션 한정자(이전의 &quot;태그&quot;라고 함)를 수정하거나 업데이트할 수 있습니다. [!DNL Offer Library] API.
+[!DNL Offer Library] API에 대한 PATCH 요청을 통해 컨테이너에서 컬렉션 한정자(이전에 &quot;태그&quot;라고 함)를 수정하거나 업데이트할 수 있습니다.
 
-사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 다음을 참조하십시오. [JSON 패치 설명서](https://jsonpatch.com/).
+사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 공식 [JSON 패치 설명서](https://jsonpatch.com/)를 참조하세요.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 및 *Accept* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 및 *Accept* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -34,7 +34,10 @@ ht-degree: 5%
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| 매개 변수 | 설명 | 예 | | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` | | `{CONTAINER_ID}` | 태그가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` | | `{INSTANCE_ID}` | 업데이트하려는 태그의 인스턴스 ID입니다. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| 매개 변수 | 설명 | 예 |
+| `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 태그가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 업데이트하려는 태그의 인스턴스 ID입니다. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **요청**
 
@@ -58,13 +61,13 @@ curl -X PATCH \
 
 | 매개변수 | 설명 |
 | --------- | ----------- |
-| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업에는 다음이 포함됩니다. `add`, `replace`, `remove`, `copy` 및 `test`. |
+| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업은 `add`, `replace`, `remove`, `copy` 및 `test`입니다. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 
 **응답**
 
-성공적인 응답은 고유한 인스턴스 ID와 컬렉션 한정자를 포함하여 업데이트된 컬렉션 한정자 세부 정보를 반환합니다 `@id`.
+성공적인 응답은 컬렉션 한정자의 업데이트된 세부 정보를 반환합니다(고유한 인스턴스 ID 및 컬렉션 한정자 `@id` 포함).
 
 ```json
 {

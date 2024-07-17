@@ -9,17 +9,17 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
 # 대체 오퍼 만들기 {#create-fallback-offer}
 
-에 대한 POST 요청을 하여 대체 오퍼를 만들 수 있습니다. [!DNL Offer Library] API.
+[!DNL Offer Library] API에 대한 POST 요청을 통해 대체 오퍼를 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -74,7 +74,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback
 
 **응답**
 
-성공적인 응답은 고유한 대체 오퍼를 포함하여 새로 생성된 대체 오퍼에 대한 정보를 반환합니다 `id`. 다음을 사용할 수 있습니다. `id` 이후 단계에서는 대체 오퍼를 업데이트 또는 삭제하거나 이후 튜토리얼에서 의사 결정을 만듭니다.
+성공한 응답이 고유한 대체 오퍼 `id`을(를) 포함하여 새로 만든 대체 오퍼에 대한 정보를 반환합니다. 이후 단계에서 `id`을(를) 사용하여 대체 오퍼를 업데이트 또는 삭제하거나 이후 자습서에서 결정을 만들 수 있습니다.
 
 
 ```json

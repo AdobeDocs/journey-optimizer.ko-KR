@@ -38,7 +38,7 @@ ht-degree: 52%
 >title="콘텐츠 구성 요소 정보"
 >abstract="콘텐츠 구성 요소는 템플릿 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
-이메일 콘텐츠를 만들 때, **[!UICONTROL 콘텐츠 구성 요소]** 에서는 이메일에 배치되면 편집할 수 있는 원시 구성 요소를 사용하여 이메일을 추가로 개인화할 수 있습니다.
+전자 메일 콘텐츠를 만들 때 **[!UICONTROL 콘텐츠 구성 요소]**&#x200B;를 사용하면 전자 메일에 배치되면 편집할 수 있는 원시 구성 요소를 사용하여 전자 메일을 추가로 개인화할 수 있습니다.
 
 하나 이상의 구조 구성 요소 내에 필요한 만큼 콘텐츠 구성 요소를 추가하여 이메일의 레이아웃을 정의할 수 있습니다.
 
@@ -60,17 +60,17 @@ ht-degree: 52%
    >
    >단일 구조 구성 요소와 구조 구성 요소의 각 열에 여러 구성 요소를 추가할 수 있습니다.
 
-1. 를 사용하여 각 구성 요소의 속성 및 스타일 조정 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 오른쪽 탭 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보기](alignment-and-padding.md)
+1. 오른쪽의 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭을 사용하여 각 구성 요소의 특성과 스타일을 조정합니다. 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보기](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
-1. 의 고급 메뉴에서 **[!UICONTROL 콘텐츠 구성 요소]**, 필요에 따라 모든 콘텐츠 구성 요소를 쉽게 삭제하거나 복제할 수 있습니다.
+1. **[!UICONTROL 콘텐츠 구성 요소]**&#x200B;의 고급 메뉴에서 필요에 따라 콘텐츠 구성 요소를 쉽게 삭제하거나 복제할 수 있습니다.
 
    ![](assets/email_designer_content_components_settings_2.png)
 
 ## 컨테이너 {#container}
 
-콘텐츠 구성 요소 그룹에 특정 스타일을 적용하려면 **[!UICONTROL 컨테이너]** 구성 요소를 선택한 다음, 내부에 원하는 콘텐츠 구성 요소를 추가합니다. 이렇게 하면 컨테이너에 고유한 스타일을 적용할 수 있습니다. 이는 내부의 콘텐츠 구성 요소에 적용된 스타일과 다릅니다.
+콘텐츠 구성 요소 그룹에 특정 스타일을 적용하려면 **[!UICONTROL Container]** 구성 요소를 추가한 다음 원하는 콘텐츠 구성 요소를 추가할 수 있습니다. 이렇게 하면 컨테이너에 고유한 스타일을 적용할 수 있습니다. 이는 내부의 콘텐츠 구성 요소에 적용된 스타일과 다릅니다.
 
 예를 들어 **[!UICONTROL 컨테이너]** 구성 요소를 추가한 다음 해당 컨테이너 내부에 [버튼](#button) 구성 요소를 추가하면 컨테이너에 특정 배경을 사용하고 버튼에 다른 배경을 사용할 수 있습니다.
 
@@ -82,13 +82,13 @@ ht-degree: 52%
 
 1. **[!UICONTROL 콘텐츠 구성 요소]**&#x200B;에서 **[!UICONTROL 버튼]** 구성 요소를 드래그하여 **[!UICONTROL 구조 구성 요소]**&#x200B;에 놓습니다.
 
-1. 새로 추가한 버튼을 클릭하여 텍스트를 개인화하고 다음에 액세스할 수 있습니다. **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 이메일 디자이너 오른쪽 창의 탭입니다.
+1. 새로 추가한 단추를 클릭하여 텍스트를 개인화하고 이메일 Designer 오른쪽 창의 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭에 액세스할 수 있습니다.
 
    ![](assets/email_designer_button_component.png)
 
-1. 다음에서 **[!UICONTROL 링크]** 메뉴를 클릭하고 단추를 클릭할 때 리디렉션할 URL을 추가합니다.
+1. **[!UICONTROL 링크]** 메뉴에서 단추를 클릭할 때 리디렉션할 URL을 추가합니다.
 
-1. 대상자를 다음으로 리디렉션하는 방법 선택 **[!UICONTROL Target]** 드롭다운 목록:
+1. 대상자를 **[!UICONTROL Target]** 드롭다운 목록으로 리디렉션하는 방법을 선택하십시오.
 
    * **[!UICONTROL None]**: 링크를 클릭한 프레임과 동일한 프레임에서 링크를 엽니다(기본값).
    * **[!UICONTROL Blank]**: 새 창이나 탭에서 링크를 엽니다.
@@ -102,13 +102,13 @@ ht-degree: 52%
 
 ## 텍스트 {#text}
 
-**[!UICONTROL 텍스트]** 구성 요소를 사용하여 이메일에 텍스트를 삽입하고 사용 **[!UICONTROL 스타일]** 탭.
+**[!UICONTROL 텍스트]** 구성 요소를 사용하여 이메일에 텍스트를 삽입하고 **[!UICONTROL 스타일]** 탭을 사용합니다.
 
 ![](assets/email_designer_text_component.png)
 
-1. 출처: **[!UICONTROL 콘텐츠 구성 요소]**, 을(를) 끌어다 놓습니다. **[!UICONTROL 텍스트]** 구성 요소를 로 **[!UICONTROL 구조 구성 요소]**.
+1. **[!UICONTROL 콘텐츠 구성 요소]**&#x200B;에서 **[!UICONTROL Text]** 구성 요소를 **[!UICONTROL 구조 구성 요소]**(으)로 끌어다 놓습니다.
 
-1. 새로 추가한 구성 요소를 클릭하여 텍스트를 개인화하고 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭(이메일 디자이너 오른쪽 창)
+1. 텍스트를 개인화하고 이메일 Designer 오른쪽 창의 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭에 액세스하려면 새로 추가한 구성 요소를 클릭하십시오.
 
 1. 도구 모음에서는 다음과 같은 옵션을 사용하여 텍스트를 변경할 수 있습니다.
 
@@ -119,17 +119,17 @@ ht-degree: 52%
    * **[!UICONTROL 목록 만들기]**: 텍스트에 글머리 기호 또는 번호 목록을 추가합니다.
    * **[!UICONTROL 제목 설정]**: 텍스트에 최대 6개의 제목 수준을 추가합니다.
    * **글꼴 크기**: 텍스트의 글꼴 크기를 픽셀 단위로 선택합니다.
-   * **[!UICONTROL 글꼴 색상 변경]**: 글꼴 색상을 선택합니다.
+   * **[!UICONTROL 글꼴 색 변경]**: 글꼴 색을 선택합니다.
    * **[!UICONTROL 링크 삽입]**: 콘텐츠에 모든 유형의 링크를 추가합니다.
-   * **[!UICONTROL 이미지 편집]**: 텍스트 구성 요소에 이미지 또는 에셋을 추가합니다. [에셋 관리에 대해 자세히 알아보기](../content-management/assets.md)
-   * **[!UICONTROL 글꼴 색상 변경]**: 글꼴 색상을 선택합니다.
-   * **[!UICONTROL 개인화 추가]**: 개인화 필드를 추가하여 프로필 데이터의 콘텐츠를 사용자 정의합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
+   * **[!UICONTROL 이미지 편집]**: 텍스트 구성 요소에 이미지 또는 자산을 추가합니다. [자산 관리에 대해 자세히 알아보기](../content-management/assets.md)
+   * **[!UICONTROL 글꼴 색 변경]**: 글꼴 색을 선택합니다.
+   * **[!UICONTROL 개인화 추가]**: 프로필 데이터에서 콘텐츠를 사용자 지정할 개인화 필드를 추가합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
    * **[!UICONTROL 소스 코드 표시]**: 텍스트의 소스 코드를 표시합니다. 소스 코드는 수정할 수 없습니다.
-   * **[!UICONTROL 조건부 콘텐츠 활성화]**: 구성 요소의 콘텐츠를 타겟팅된 프로필로 조정하려면 조건부 콘텐츠를 추가하십시오. [다이내믹 콘텐츠에 대해 자세히 알아보기](../personalization/get-started-dynamic-content.md)
+   * **[!UICONTROL 조건부 콘텐츠 사용]**: 조건부 콘텐츠를 추가하여 구성 요소의 콘텐츠를 타겟팅된 프로필로 조정하십시오. [다이내믹 콘텐츠에 대해 자세히 알아보기](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL 복제]**: 텍스트 구성 요소의 복사본을 추가합니다.
    * **[!UICONTROL 삭제]**: 이메일에서 선택한 텍스트 구성 요소를 삭제합니다.
 
-1. 다음에서 텍스트 색상, 글꼴 패밀리, 테두리, 패딩, 여백 등 다른 스타일 속성을 조정합니다. 다음에서 **[!UICONTROL 스타일]** 탭.
+1. 다음에서 텍스트 색상, 글꼴 패밀리, 테두리, 패딩, 여백 등 다른 스타일 속성을 조정합니다. **[!UICONTROL 스타일]** 탭에서
 
    ![](assets/email_designer_text_component_2.png)
 
@@ -151,7 +151,7 @@ ht-degree: 52%
 
    ![](assets/email_designer_html_component.png)
 
-1. 이메일에 추가할 HTML 코드를 복사하여 붙여넣은 다음 **[!UICONTROL 저장]**.
+1. 전자 메일에 추가할 HTML 코드를 복사하여 붙여 넣은 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![](assets/email_designer_html_content.png)
 
@@ -161,21 +161,21 @@ ht-degree: 52%
 
 ## 이미지 {#image}
 
-사용 **[!UICONTROL 이미지]** 컴퓨터의 이미지 파일을 이메일 콘텐츠에 삽입할 구성 요소입니다.
+**[!UICONTROL 이미지]** 구성 요소를 사용하여 컴퓨터의 이미지 파일을 전자 메일 콘텐츠에 삽입합니다.
 
-1. 출처: **[!UICONTROL 콘텐츠 구성 요소]**, 을(를) 끌어다 놓습니다. **[!UICONTROL 이미지]** 구성 요소를 로 **[!UICONTROL 구조 구성 요소]**.
+1. **[!UICONTROL 콘텐츠 구성 요소]**&#x200B;에서 **[!UICONTROL 이미지]** 구성 요소를 **[!UICONTROL 구조 구성 요소]**(으)로 끌어서 놓습니다.
 
    ![](assets/email_designer_image_content.png)
 
-1. 다음에서 **[!UICONTROL 설정]** 탭을 클릭하고 **[!UICONTROL 찾아보기]** 에셋에서 이미지 파일을 선택하거나 **[!UICONTROL 미디어 가져오기]** Adobe Experience Manager Assets에 에셋을 업로드합니다.
+1. **[!UICONTROL 설정]** 탭에서 **[!UICONTROL 찾아보기]**&#x200B;를 클릭하여 에셋에서 이미지 파일을 선택하거나 **[!UICONTROL 미디어 가져오기]**&#x200B;를 클릭하여 에셋을 Adobe Experience Manager Assets에 업로드합니다.
 
-   에 대해 자세히 알아보려면 [!DNL Adobe Experience Manager Assets], 참조 [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   [!DNL Adobe Experience Manager Assets]에 대한 자세한 내용은 [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}를 참조하세요.
 
    >[!NOTE]
    >
-   > 링크가 활성 상태를 유지하고 만료 문제를 방지하려면 이미지에 대한 소스 URL에 의존하지 않고 Adobe 에셋 을 사용하는 것이 좋습니다.
+   > 링크가 활성 상태를 유지하고 만료 문제를 방지하려면 이미지에 대한 소스 URL에 의존하는 대신 Adobe Assets을 사용하는 것이 좋습니다.
 
-1. 를 사용하여 Adobe Stock에서 직접 검색할 수도 있습니다. **[!UICONTROL Adobe Stock 사진 찾기]** 옵션을 선택합니다.
+1. **[!UICONTROL Adobe Stock 사진 찾기]** 옵션을 사용하여 Adobe Stock에서 직접 검색할 수도 있습니다.
 
 1. 새로 추가한 구성 요소를 클릭하고 이미지 속성을 설정합니다.
 
@@ -184,9 +184,9 @@ ht-degree: 52%
 
    ![](assets/email_designer_10.png)
 
-1. 다음을 선택할 수도 있습니다. **[!UICONTROL 유사한 Stock 사진 찾기]**. [자세히 알아보기](../content-management/stock.md)
+1. **[!UICONTROL 유사한 스톡 사진 찾기]**&#x200B;를 선택할 수도 있습니다. [자세히 알아보기](../content-management/stock.md)
 
-1. 다음에서 **[!UICONTROL 스타일]** 탭에서 여백, 테두리 등의 다른 스타일 특성을 조정합니다. 대상자를 다른 콘텐츠로 리디렉션하도록 링크를 추가할 수 있습니다.****
+1. **[!UICONTROL 스타일]** 탭에서 여백, 테두리 등의 다른 스타일 특성을 조정합니다. 대상자를 다른 콘텐츠로 리디렉션하도록 링크를 추가할 수 있습니다.****
 
 ## Social {#social}
 
@@ -202,31 +202,31 @@ ht-degree: 52%
 
 1. 전용 필드를 통해 아이콘 크기를 선택합니다.
 
-1. 각 소셜 미디어 아이콘을 클릭하여 다음을 구성합니다. **[!UICONTROL URL]** 대상자를 리디렉션할 대상.
+1. 각 소셜 미디어 아이콘을 클릭하여 대상자를 리디렉션할 **[!UICONTROL URL]**&#x200B;을(를) 구성하십시오.
 
    ![](assets/email_designer_21.png)
 
-1. 필요한 경우 에셋에서 각 소셜 미디어의 아이콘을 변경할 수도 있습니다.
+1. 필요한 경우 Assets에서 각 소셜 미디어의 아이콘을 변경할 수도 있습니다.
 
-1. 다음에서 스타일, 여백, 테두리 등 다른 스타일 속성을 조정합니다. 다음에서 **[!UICONTROL 스타일]** 탭.
+1. 다음에서 스타일, 여백, 테두리 등 다른 스타일 속성을 조정합니다. **[!UICONTROL 스타일]** 탭에서
 
 ## 오퍼 결정 {#offer-decision}
 
-사용 **[!UICONTROL 오퍼 결정]** 오퍼를 메시지에 삽입할 구성 요소입니다. 다음 [의사 결정 관리](../offers/get-started/starting-offer-decisioning.md) 엔진은 고객에게 제공할 최상의 오퍼를 선택합니다.
+**[!UICONTROL 오퍼 결정]** 구성 요소를 사용하여 메시지에 오퍼를 삽입합니다. [의사 결정 관리](../offers/get-started/starting-offer-decisioning.md) 엔진은 고객에게 제공할 최상의 오퍼를 선택합니다.
 
-1. 출처: **[!UICONTROL 콘텐츠 구성 요소]**, 을(를) 끌어다 놓습니다. **[!UICONTROL 오퍼 결정]** 구성 요소를 로 **[!UICONTROL 구조 구성 요소]**.
+1. **[!UICONTROL 콘텐츠 구성 요소]**&#x200B;에서 **[!UICONTROL 오퍼 결정]** 구성 요소를 **[!UICONTROL 구조 구성 요소]**(으)로 끌어다 놓습니다.
 
-1. 클릭 **[!UICONTROL 추가]** 을(를) 선택하려면 **[!UICONTROL 오퍼 결정]**.
+1. **[!UICONTROL 추가]**&#x200B;를 클릭하여 **[!UICONTROL 오퍼 결정]**&#x200B;을 선택합니다.
 
    ![](assets/component_offers.png)
 
-1. 드롭다운에서 다음을 선택합니다. **[!UICONTROL 배치]**.  그런 다음 **[!UICONTROL 오퍼 결정]** 을(를) 콘텐츠에 추가하고 을(를) 클릭합니다. **[!UICONTROL 추가]**.
+1. 드롭다운에서 **[!UICONTROL 배치]**&#x200B;를 선택합니다.  그런 다음 콘텐츠에 추가할 **[!UICONTROL 오퍼 결정]**&#x200B;을 선택하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/component_offers_2.png)
 
-1. 다음에서 **[!UICONTROL 오퍼 결정]** 탭에서는 삽입된 오퍼를 미리 보거나 변경할 수 있습니다.
+1. **[!UICONTROL 오퍼 결정]** 탭에서 삽입된 오퍼를 미리 보거나 변경할 수 있습니다.
 
-의 이메일에 개인화된 오퍼를 추가하는 방법을 알아봅니다. [이 섹션](add-offers-email.md).
+[이 섹션](add-offers-email.md)에서 전자 메일에 개인화된 오퍼를 추가하는 방법을 알아봅니다.
 
 >[!IMPORTANT]
 >

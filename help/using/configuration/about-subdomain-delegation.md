@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 의 하위 도메인 위임 [!DNL Journey Optimizer]
+title: ' [!DNL Journey Optimizer]의 하위 도메인 위임'
 description: 하위 도메인을 위임하는 방법 알아보기
 feature: Subdomains
 topic: Administration
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->동일한 발신 도메인을 사용하여 메시지를 보낼 수 없습니다. [!DNL Adobe Journey Optimizer] 및 다른 제품에서 가져온 다음과 같은 [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage].
+>동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.
 
 ## 하위 도메인을 설정하는 이유  {#why-set-up-subdomains}
 
@@ -48,15 +48,15 @@ ht-degree: 30%
 
 **자세히 알아보기**
 
-* 방법 알아보기 [하위 도메인 위임](delegate-subdomain.md) 인터페이스에서 직접
-* 방법 알아보기 [Google TXT 레코드 추가](google-txt.md) 이메일이 Gmail 주소로 성공적으로 전달되도록 하위 도메인
-* 방법 알아보기 [PTR 레코드 액세스](ptr-records.md) 메일 서버를 보내 하위 도메인을 확인할 수 있도록 하위 도메인용으로 생성됨
+* 인터페이스에서 직접 [하위 도메인을 위임](delegate-subdomain.md)하는 방법을 알아봅니다.
+* Gmail 주소로 이메일이 성공적으로 배달되도록 하기 위해 하위 도메인에 [Google TXT 레코드를 추가](google-txt.md)하는 방법을 알아봅니다
+* 메일 서버를 전송하여 하위 도메인을 확인할 수 있도록 [생성된 PTR 레코드에 액세스](ptr-records.md)하는 방법을 알아봅니다
 
 ## 하위 도메인 구성 메서드 {#subdomain-delegation-methods}
 
 하위 도메인 구성을 사용하면 Adobe Campaign에서 사용할 도메인의 하위 섹션(기술적 명칭은 &quot;DNS 영역&quot;)을 구성할 수 있습니다. 사용 가능한 설정 방법은 다음과 같습니다.
 
-* **Adobe에 전체 하위 도메인 위임** (권장): 하위 도메인이 Adobe에 완전히 위임됩니다. Adobe은 메시지 전달, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리할 수 있습니다. [전체 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#full-subdomain-delegation)
+* **Adobe에 전체 하위 도메인 위임**(권장): 하위 도메인이 Adobe에 완전히 위임됩니다. Adobe은 메시지 전달, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리할 수 있습니다. [전체 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#full-subdomain-delegation)
 
 * **CNAME 사용**: 하위 도메인을 만들고 CNAME을 사용하여 Adobe 관련 레코드를 가리킵니다. 이 설정을 사용하면 사용자와 Adobe이 DNS 유지 관리를 공동으로 수행합니다. [CNAME 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#cname-subdomain-delegation)
 
@@ -79,18 +79,18 @@ ht-degree: 30%
 
 ## 위임된 하위 도메인 액세스 {#access-delegated-subdomains}
 
-위임된 모든 하위 도메인은 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 하위 도메인]** 메뉴 아래의 제품에서 사용할 수 있습니다. 필터를 사용하여 목록(위임 날짜, 사용자 또는 상태)을 구체화할 수 있습니다.
+위임된 모든 하위 도메인은 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 하위 도메인]** 메뉴에 표시됩니다. 필터를 사용하여 목록(위임 날짜, 사용자 또는 상태)을 구체화할 수 있습니다.
 
 ![](assets/subdomain-list.png)
 
-다음 **[!UICONTROL 상태]** 열은 하위 도메인 위임 프로세스에 대한 정보를 제공합니다.
+**[!UICONTROL Status]** 열은 하위 도메인 위임 프로세스에 대한 정보를 제공합니다.
 
 * **[!UICONTROL 초안]**: 하위 도메인 위임이 초안으로 저장되었습니다. 위임 프로세스를 재개하려면 하위 도메인 이름을 클릭하십시오.
-* **[!UICONTROL 처리 중]**: 하위 도메인을 사용하기 전에 몇 가지 구성 검사를 수행하고 있습니다.
-* **[!UICONTROL 성공]**: 하위 도메인이 정상적으로 검사를 통과했으며 메시지를 전달하는 데 사용할 수 있습니다.
+* **[!UICONTROL 처리 중]**: 하위 도메인을 사용하기 전에 여러 가지 구성 검사를 수행하고 있습니다.
+* **[!UICONTROL 성공]**: 하위 도메인이 검사를 완료했으며 메시지를 전달하는 데 사용할 수 있습니다.
 * **[!UICONTROL 실패]**: 하위 도메인 위임을 제출한 후 하나 이상의 검사가 실패했습니다.
 
-을(를) 사용하여 하위 도메인에 대한 세부 정보에 액세스하려면 **[!UICONTROL 성공]** 상태, 목록에서 엽니다.
+**[!UICONTROL 성공]** 상태의 하위 도메인에 대한 자세한 정보에 액세스하려면 목록에서 해당 하위 도메인을 여십시오.
 
 ![](assets/subdomain-delegated.png)
 
@@ -98,7 +98,7 @@ ht-degree: 30%
 
 * 위임 프로세스 중에 구성된 하위 도메인 이름(읽기 전용)과 생성된 URL(리소스, 미러 페이지, 추적 URL) 검색
 
-* 하위 도메인에 Google 사이트 확인 TXT 레코드를 추가하여 확인합니다(참조) [하위 도메인에 Google TXT 레코드 추가](google-txt.md)).
+* 하위 도메인에 Google 사이트 확인 TXT 레코드를 추가하여 확인합니다([하위 도메인에 Google TXT 레코드 추가](google-txt.md) 참조).
 
 
 >[!CAUTION]

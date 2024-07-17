@@ -20,8 +20,8 @@ ht-degree: 0%
 조건부 지침(if, then, else)은 고급 편집기에서 지원됩니다. 이를 통해 보다 복잡한 표현식을 정의할 수 있습니다. 이 구성 요소는 다음 요소로 구성됩니다.
 
 * **[!UICONTROL if]**: 먼저 평가할 조건입니다.
-* **[!UICONTROL 그러면]**: 조건 평가의 결과가 true인 경우 평가할 식입니다.
-* **[!UICONTROL else]**: 조건 평가의 결과가 false인 경우 평가할 식입니다.
+* **[!UICONTROL then]**: 조건 평가 결과가 true인 경우 평가할 식입니다.
+* **[!UICONTROL else]**: 조건 평가 결과가 false인 경우 평가할 식입니다.
 
 >[!NOTE]
 >
@@ -35,9 +35,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` 은(는) 다음을 반환해야 합니다. **부울**.
+`<expression1>`은(는) **부울**&#x200B;을 반환해야 합니다.
 
-`<expression2>` 및 `<expression3>` 은(는) 동일한 유형 또는 호환되는 유형을 포함해야 합니다. 지원되는 서명 및 반환된 유형은 다음과 같습니다.
+`<expression2>`과(와) `<expression3>`은(는) 같은 형식이거나 호환되는 형식이어야 합니다. 지원되는 서명 및 반환된 유형은 다음과 같습니다.
 
 ```json
 boolean,boolean : boolean

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여정 게시
+title: 여정 Publish
 description: 여정 게시 방법 알아보기
 feature: Journeys
 topic: Content Management
@@ -22,12 +22,12 @@ ht-degree: 5%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-게시된 여정을 수정해야 하는 경우 여정의 새 버전을 만들어야 합니다. 다음을 참조하십시오 [이 페이지](../building-journeys/journey.md). 여정이 읽기 전용인 경우 활동 레이블 및 설명, 여정 이름 및 여정 설명만 수정할 수 있습니다.
+게시된 여정을 수정해야 하는 경우 여정의 새 버전을 만들어야 합니다. [이 페이지](../building-journeys/journey.md)를 참조하세요. 여정이 읽기 전용인 경우 활동 레이블 및 설명, 여정 이름 및 여정 설명만 수정할 수 있습니다.
 
 여정을 중지하면 영구적으로 중지됩니다. 여정에 들어오는 모든 사람이 영구적으로 정지되며 여정은 새 입장을 허용하지 않습니다. 여정을 다시 사용해야 하는 경우 복제하고 게시해야 합니다.
 
-1. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다. 다음을 참조하십시오 [이 섹션](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). 게시 전에 여정을 테스트하는 것도 좋습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오.
-1. 여정을 게시하려면 **[!UICONTROL 게시]** 오른쪽 상단 드롭다운 메뉴에 있는 옵션입니다.
+1. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다. [이 섹션](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)을 참조하세요. 게시 전에 여정을 테스트하는 것도 좋습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오.
+1. 여정을 게시하려면 오른쪽 상단 드롭다운 메뉴에 있는 **[!UICONTROL Publish]** 옵션을 클릭합니다.
 
    ![](assets/journeyuc1_18.png)
 

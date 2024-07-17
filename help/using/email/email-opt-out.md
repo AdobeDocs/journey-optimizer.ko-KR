@@ -22,15 +22,15 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->모든 마케팅 메시지에는 옵트아웃 링크가 포함되어야 합니다. 트랜잭션 메시지에는 필요하지 않습니다. 메시지 범주 - **[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]** - 는에서 정의됩니다. [채널 표면](../configuration/channel-surfaces.md#email-type) 레벨 및 메시지를 만들 때.
+>모든 마케팅 메시지에는 옵트아웃 링크가 포함되어야 합니다. 트랜잭션 메시지에는 필요하지 않습니다. 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 표면](../configuration/channel-surfaces.md#email-type) 수준에서 메시지를 만들 때 정의됩니다.
 
 이메일 콘텐츠에 구독 취소 링크를 삽입하려면 다음을 수행할 수 있습니다.
 
-* 이메일 헤더에 한 번의 클릭으로 구독 취소 URL을 추가합니다. 활성화 **[!UICONTROL 목록-구독 취소 헤더]** 채널 표면 수준의 옵션은 이메일 헤더에 옵트아웃 링크를 추가합니다. [이메일 헤더의 옵트아웃에 대해 자세히 알아보기](#unsubscribe-header)
+* 이메일 헤더에 한 번의 클릭으로 구독 취소 URL을 추가합니다. 채널 표면 수준에서 **[!UICONTROL 목록 구독 취소 헤더]** 옵션을 사용하도록 설정하면 전자 메일 헤더에 옵트아웃 링크가 추가됩니다. [전자 메일 헤더의 옵트아웃에 대해 자세히 알아보기](#unsubscribe-header)
 
-* 활성화 **원클릭 옵트아웃 링크** 이메일.  [원클릭 옵트아웃 링크를 추가하는 방법 알아보기](#one-click-opt-out)
+* 전자 메일에 대해 **한 번의 클릭으로 옵트아웃할 수 있는 링크**&#x200B;를 사용하도록 설정하십시오.  [원클릭 옵트아웃 링크를 추가하는 방법 알아보기](#one-click-opt-out)
 
-* 삽입 **랜딩 페이지 링크**. [옵트아웃 랜딩 페이지를 추가하는 방법 알아보기](#opt-out-external-lp)
+* **랜딩 페이지 링크**&#x200B;를 삽입합니다. [옵트아웃 랜딩 페이지를 추가하는 방법 알아보기](#opt-out-external-lp)
 
 
 ## 1단계 옵트아웃 {#opt-out-one-step}
@@ -45,9 +45,9 @@ ht-degree: 28%
 >abstract="목록 구독 취소 헤더를 활성화하여 이메일 헤더에 구독 취소 URL을 추가합니다. 구독 취소 URL을 설정하려면 원클릭 옵트아웃 링크를 이메일 콘텐츠에 삽입합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko#one-click-opt-out" text="원클릭 옵트아웃"
 
-원클릭 목록 구독 취소 URL은 이메일 발신자 정보 옆에 표시되는 구독 취소 링크 또는 단추이며 한 번의 클릭으로 수신자가 메일링 목록에서 즉시 옵트아웃할 수 있습니다. Adobe Journey Optimizer에서 **목록 구독 취소 활성화** 옵션이 켜지면 이메일 헤더에 기본적으로 수신자가 메일링 목록에서 구독을 취소하는 데 사용할 수 있는 mailto 및/또는 URL이 모두 포함됩니다.
+원클릭 목록 구독 취소 URL은 이메일 발신자 정보 옆에 표시되는 구독 취소 링크 또는 단추이며 한 번의 클릭으로 수신자가 메일링 목록에서 즉시 옵트아웃할 수 있습니다. Adobe Journey Optimizer에서 **목록 구독 취소 사용** 옵션이 전환되면 이메일 헤더에 기본적으로 수신자가 메일링 목록에서 구독을 취소하는 데 사용할 수 있는 mailto 및/또는 URL이 모두 포함됩니다.
 
-다음 [목록 구독 취소 활성화](email-settings.md#list-unsubscribe) 토글을 채널 표면 수준에서 활성화해야 이 표면을 사용하는 이메일에 이메일 헤더에 한 번 클릭 구독 취소 URL이 포함됩니다.
+[목록 구독 취소 사용](email-settings.md#list-unsubscribe) 토글을 채널 표면 수준에서 활성화해야 이 표면을 사용하는 이메일에 이메일 헤더에 원클릭 구독 취소 URL이 포함됩니다.
 
 >[!NOTE]
 >
@@ -68,22 +68,22 @@ Adobe Journey Optimizer을 사용하면 이메일 헤더에 자동 생성된 원
 >
 -->
 
-이메일 클라이언트에 따라 및 [이메일 표면 구독 취소 설정](email-settings.md#list-unsubscribe)이메일 헤더에서 구독 취소 링크를 클릭하면 다음과 같은 영향을 받을 수 있습니다.
+이메일 클라이언트와 [이메일 표면 구독 취소 설정](email-settings.md#list-unsubscribe)에 따라 이메일 헤더의 구독 취소 링크를 클릭하면 다음과 같은 영향을 받을 수 있습니다.
 
-* 다음의 경우 **Mailto(구독 취소)** 이 기능은 사용자가 활성화하면 사용자가 만든 하위 도메인을 기반으로 기본 구독 취소 주소로 구독 취소 요청이 전송됩니다.
-* 다음의 경우 **한 번의 클릭으로 구독 취소 URL** 사용자가 기능을 활성화하거나 이메일 본문 콘텐츠에 구독 취소 URL을 삽입한 경우 수신자가 사용자가 만든 하위 도메인을 기반으로 하는 한 번의 클릭으로 구독 취소 URL을 클릭하면 수신자가 채널 수준이나 ID 수준(동의 설정 방법에 따라 다름)에서 직접 옵트아웃됩니다.
+* 사용자가 **Mailto(구독 취소)** 기능을 사용하도록 설정하면 사용자가 만든 하위 도메인을 기반으로 기본 구독 취소 주소로 구독 취소 요청이 전송됩니다.
+* 사용자가 **한 번의 클릭으로 구독 취소 URL** 기능을 활성화하거나 이메일 본문 콘텐츠에 구독 취소 URL을 삽입한 경우, 수신자가 사용자가 만든 하위 도메인을 기반으로 하는 한 번의 클릭으로 구독 취소 URL을 클릭하면 채널 수준이나 ID 수준(동의 설정 방법에 따라 다름)에서 수신자가 직접 옵트아웃됩니다.
 
-두 경우 모두 수신자에 대한 해당 프로필이 즉시 옵트아웃되고 이 선택이 Experience Platform에서 업데이트됩니다. 다음에서 자세히 알아보기 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}.
+두 경우 모두 수신자에 대한 해당 프로필이 즉시 옵트아웃되고 이 선택이 Experience Platform에서 업데이트됩니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
 
-을(를) 토글한 경우 **[!UICONTROL 목록 구독 취소 활성화]** 목록 구독 취소 헤더와 관련하여 두 방법 모두 활성화하는 것이 좋습니다. **Mailto(구독 취소)** 및 **한 번의 클릭으로 구독 취소 URL**. 모든 이메일 클라이언트가 HTTP 메서드를 지원하는 것은 아닙니다. 대체 항목을 선택할 수 있는 기능으로 제공되는 Mailto 목록 구독 취소 기능을 사용하면 보낸 사람의 평판을 더 잘 보호할 수 있고 모든 받는 사람이 구독 취소 기능을 사용할 수 있습니다. [자세히 알아보기](email-settings.md#list-unsubscribe)
+목록 구독 취소 헤더와 관련하여 **[!UICONTROL 목록 구독 취소 활성화]** 옵션을 전환한 경우 **Mailto(구독 취소)** 및 **한 번 클릭으로 구독 취소 URL** 두 방법을 모두 사용하는 것이 좋습니다. 모든 이메일 클라이언트가 HTTP 메서드를 지원하는 것은 아닙니다. 대체 항목을 선택할 수 있는 기능으로 제공되는 Mailto 목록 구독 취소 기능을 사용하면 보낸 사람의 평판을 더 잘 보호할 수 있고 모든 받는 사람이 구독 취소 기능을 사용할 수 있습니다. [자세히 알아보기](email-settings.md#list-unsubscribe)
 
 
 ### 이메일 콘텐츠에서 원클릭 옵트아웃 {#one-click-opt-out}
 
 개인화된 구독 취소 URL을 설정하려면 원클릭 옵트아웃 링크를 이메일 메시지 콘텐츠에 삽입하고 아래에 설명된 대로 원하는 URL을 입력합니다.
 
-1. 이메일 콘텐츠에 액세스하고 [링크 삽입](../email/message-tracking.md#insert-links).
-1. 선택 **[!UICONTROL 한 번의 클릭으로 옵트아웃]** 를 링크의 유형으로 사용하십시오.
+1. 전자 메일 콘텐츠에 액세스하고 [링크를 삽입](../email/message-tracking.md#insert-links)합니다.
+1. 링크 유형으로 **[!UICONTROL 한 번의 클릭으로 옵트아웃]**&#x200B;을 선택합니다.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -91,7 +91,7 @@ Adobe Journey Optimizer을 사용하면 이메일 헤더에 자동 생성된 원
 
    >[!NOTE]
    >
-   >을 활성화한 경우 **[!UICONTROL 목록-구독 취소]** 옵션: [채널 표면 레벨](email-settings.md#list-unsubscribe) 및 기본 원클릭 옵트아웃 URL 옵션이 선택 취소되어 있는 경우, 사용자가 이메일 헤더의 구독 취소 링크를 클릭할 때 이 URL이 사용됩니다. [자세히 알아보기](#unsubscribe-header)
+   >[채널 표면 수준](email-settings.md#list-unsubscribe)에서 **[!UICONTROL 목록 구독 취소]** 옵션을 사용하도록 설정하고 기본 원클릭 옵트아웃 URL 옵션을 선택하지 않은 경우 사용자가 이메일 헤더의 구독 취소 링크를 클릭할 때 이 URL이 사용됩니다. [자세히 알아보기](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -120,13 +120,13 @@ Adobe Journey Optimizer을 사용하면 이메일 헤더에 자동 생성된 원
 
 2단계 옵트아웃 메커니즘을 설정하려면 고유한 구독 취소 랜딩 페이지를 만들어야 합니다. 첫 번째 랜딩 페이지는 메시지에서 연결되며 콜 투 액션 버튼을 포함해야 합니다. 사용자가 버튼을 클릭하면 확인 메시지가 표시됩니다.
 
-Adobe Journey Optimizer에서 랜딩 페이지를 만들어 구독 취소를 관리하는 방법을 알아봅니다. [이 페이지](../landing-pages/lp-use-cases.md#opt-out).
+Adobe Journey Optimizer에서 랜딩 페이지를 만들어 [이 페이지](../landing-pages/lp-use-cases.md#opt-out)에서 구독 취소를 관리하는 방법을 알아봅니다.
 
 외부 랜딩 페이지를 사용할 수도 있습니다. 이 경우 수신자가 구독을 취소한 경우 Adobe Journey Optimizer에 정보를 보내도록 API를 구성합니다.
 
 +++ 옵트아웃 API 호출을 구현하는 방법 알아보기
 
-수신자가 랜딩 페이지에서 선택한 항목을 제출할 때 옵트아웃하도록 하려면 다음을 구현해야 합니다. **구독 API 호출** 에서 [Adobe Developer](https://developer.adobe.com){target="_blank"} 를 클릭하여 해당 프로필의 기본 설정을 업데이트합니다.
+수신자가 랜딩 페이지에서 선택한 항목을 제출할 때 옵트아웃하도록 하려면 **구독 API 호출**&#x200B;부터 [Adobe Developer](https://developer.adobe.com){target="_blank"}까지 구현하여 해당 프로필의 환경 설정을 업데이트해야 합니다.
 
 이 POST 호출은 다음과 같습니다.
 
@@ -163,7 +163,7 @@ Adobe Journey Optimizer에서 랜딩 페이지를 만들어 구독 취소를 관
 }
 ```
 
-[!DNL Journey Optimizer] 에서는 이러한 매개 변수를 사용하여 다음을 통해 해당 프로필의 선택을 업데이트합니다. [Adobe Developer](https://developer.adobe.com){target="_blank"} API 호출.
+[!DNL Journey Optimizer]은(는) 이러한 매개 변수를 사용하여 [Adobe Developer](https://developer.adobe.com){target="_blank"} API 호출을 통해 해당 프로필의 선택을 업데이트합니다.
 
 +++
 
@@ -172,13 +172,13 @@ Adobe Journey Optimizer에서 랜딩 페이지를 만들어 구독 취소를 관
 
 먼저 메시지에 구독 취소 링크를 추가해야 합니다. 이렇게 하려면 아래 단계를 수행합니다:
 
-1. 메시지 만들기 및 [링크 삽입](../email/message-tracking.md#insert-links) 상황별 도구 모음 사용.
+1. 상황별 도구 모음을 사용하여 메시지를 만들고 [링크를 삽입](../email/message-tracking.md#insert-links)합니다.
 
    ![](assets/opt-out-insert-link.png)
 
-1. 다음 항목 선택 **[!UICONTROL 랜딩 페이지]** 다음에서 **[!UICONTROL 유형]** 드롭다운 목록에서 옵트아웃 랜딩 페이지를 선택합니다. **[!UICONTROL 랜딩 페이지]** 필드.
+1. **[!UICONTROL 유형]** 드롭다운 목록에서 **[!UICONTROL 랜딩 페이지]**&#x200B;를 선택하고 **[!UICONTROL 랜딩 페이지]** 필드에서 옵트아웃 랜딩 페이지를 선택합니다.
 
-   외부 랜딩 페이지를 사용하는 경우 다음을 선택합니다. **[!UICONTROL 외부 옵트아웃/구독 취소]** 다음에서 **[!UICONTROL 유형]** 드롭다운 목록입니다.
+   외부 랜딩 페이지를 사용하는 경우 **[!UICONTROL 유형]** 드롭다운 목록에서 **[!UICONTROL 외부 옵트아웃/구독 취소]**&#x200B;를 선택하십시오.
 
    ![](assets/opt-out-link-type.png)
 
@@ -199,7 +199,7 @@ Adobe Journey Optimizer에서 랜딩 페이지를 만들어 구독 취소를 관
 
    ![](assets/opt-out-lp-example.png)
 
-1. 수신자가 양식을 제출하는 경우 - 여기에서 **[!UICONTROL 구독 취소]** 랜딩 페이지의 단추 - 프로필 데이터는 API 호출을 통해 업데이트됩니다.
+1. 수신자가 양식을 제출하는 경우(여기에서는 랜딩 페이지의 **[!UICONTROL 구독 취소]** 버튼을 누르는 경우), 프로필 데이터는 API 호출을 통해 업데이트됩니다.
 
 1. 옵트아웃 수신자는 옵트아웃에 성공했음을 나타내는 확인 메시지 화면으로 리디렉션됩니다.
 
@@ -207,7 +207,7 @@ Adobe Journey Optimizer에서 랜딩 페이지를 만들어 구독 취소를 관
 
    따라서 이 사용자는 다시 구독하지 않으면 브랜드에서 보내는 커뮤니케이션을 받지 않습니다.
 
-1. 해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 다음에서 자세히 알아보기 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}.
+1. 해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
 
    ![](assets/opt-out-profile-choice.png)
 

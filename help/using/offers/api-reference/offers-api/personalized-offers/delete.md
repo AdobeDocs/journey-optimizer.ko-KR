@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 개인화된 오퍼 삭제 {#delete-personalized-offer}
 
-개인화된 오퍼를 제거(DELETE)해야 하는 경우가 있습니다. 이 작업은 다음에 대한 DELETE 요청을 수행함으로써 수행됩니다. [!DNL Offer Library] 삭제하려는 개인화된 오퍼의 ID를 사용하는 API입니다.
+개인화된 오퍼를 제거(DELETE)해야 하는 경우가 있습니다. 이 작업은 삭제하려는 개인화된 오퍼의 ID를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행함으로써 수행됩니다.
 
 **API 형식**
 

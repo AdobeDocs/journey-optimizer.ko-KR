@@ -87,7 +87,7 @@ ht-degree: 18%
 
 `split(@event{event.appVersion}, "\\.")`
 
-반환 `["20", "45", "2", "3434"]`
+`["20", "45", "2", "3434"]` 반환
 
 `getListItem(split(@event{event.appVersion}, "\\."), 0)`
 

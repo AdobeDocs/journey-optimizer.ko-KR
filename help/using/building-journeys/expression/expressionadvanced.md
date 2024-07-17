@@ -11,7 +11,7 @@ exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 61%
+ht-degree: 63%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->여정 고급 표현식 편집기에서 사용할 수 있는 함수 및 기능은 [개인화 편집기](../../personalization/functions/functions.md).
+>여정 고급 표현식 편집기에서 사용할 수 있는 기능 및 기능은 [개인화 편집기](../../personalization/functions/functions.md)에서 사용할 수 있는 기능 및 기능과 다릅니다.
 
 ## 고급 표현식 편집기 액세스 {#accessing-the-advanced-expression-editor}
 
@@ -43,7 +43,7 @@ ht-degree: 61%
 * 사용자 지정 [대기 활동](../wait-activity.md#custom) 정의
 * 작업 매개 변수 매핑 정의
 
-가능한 경우 **[!UICONTROL 고급 모드]** / **[!UICONTROL 단순 모드]** 단추를 클릭합니다. 단순 모드는 [여기](../condition-activity.md#about_condition)에 설명되어 있습니다.
+가능한 경우 **[!UICONTROL 고급 모드]** / **[!UICONTROL 단순 모드]** 단추를 사용하여 두 모드 간을 전환할 수 있습니다. 단순 모드는 [여기](../condition-activity.md#about_condition)에 설명되어 있습니다.
 
 >[!NOTE]
 >
@@ -53,12 +53,12 @@ ht-degree: 61%
 
 다양한 방법으로 고급 표현식 편집기에 액세스할 수 있습니다.
 
-* 데이터 소스 조건을 만들 때 을 클릭하여 고급 편집기에 액세스할 수 있습니다. **[!UICONTROL 고급 모드]**.
+* 데이터 원본 조건을 만들 때 **[!UICONTROL 고급 모드]**&#x200B;를 클릭하여 고급 편집기에 액세스할 수 있습니다.
 
   ![](../assets/journeyuc2_33.png)
 
 * 사용자 지정 타이머를 만들 때 고급 편집기가 바로 나타납니다.
-* 작업 매개 변수를 매핑할 때 를 클릭합니다. **[!UICONTROL 고급 모드]**.
+* 작업 매개 변수를 매핑할 때 **[!UICONTROL 고급 모드]**&#x200B;를 클릭합니다.
 
 ## 인터페이스 살펴보기 {#discovering-the-interface}
 
@@ -68,10 +68,10 @@ ht-degree: 61%
 
 화면 왼쪽에 사용 가능한 필드와 함수가 표시됩니다.
 
-* **[!UICONTROL 이벤트]**: 인바운드 이벤트에서 받은 필드 중 하나를 선택합니다. 상황에 맞는 이벤트 필드 목록이 표시되며, 이 목록은 여정에 추가된 이벤트에 따라 달라집니다. [자세히 보기](../../event/about-events.md)
-* **[!UICONTROL 대상]**: 을(를) 드롭한 경우 **[!UICONTROL 대상 자격 조건]** 이벤트에서 표현식에 사용할 대상을 선택합니다. [자세히 보기](../condition-activity.md#using-a-segment)
-* **[!UICONTROL 데이터 소스]**: 데이터 소스의 필드 그룹에서 사용 가능한 필드 목록 중에서 선택합니다. [자세히 보기](../../datasource/about-data-sources.md)
-* **[!UICONTROL 여정 속성]**: 이 섹션에서는 특정 프로필에 대한 여정과 관련된 기술 필드를 다시 그룹화합니다. [자세히 보기](journey-properties.md)
+* **[!UICONTROL 이벤트]**: 인바운드 이벤트에서 받은 필드 중 하나를 선택하십시오. 상황에 맞는 이벤트 필드 목록이 표시되며, 이 목록은 여정에 추가된 이벤트에 따라 달라집니다. [자세히 보기](../../event/about-events.md)
+* **[!UICONTROL 대상]**: **[!UICONTROL 대상 자격]** 이벤트를 삭제한 경우 표현식에 사용할 대상을 선택하십시오. [자세히 보기](../condition-activity.md#using-a-segment)
+* **[!UICONTROL 데이터 원본]**: 데이터 원본의 필드 그룹에서 사용 가능한 필드 목록에서 선택하십시오. [자세히 보기](../../datasource/about-data-sources.md)
+* **[!UICONTROL 여정 속성]**: 이 섹션에서는 지정된 프로필의 여정과 관련된 기술 필드를 다시 그룹화합니다. [자세히 보기](journey-properties.md)
 * **[!UICONTROL 함수]**: 복잡한 필터링을 수행할 수 있는 기본 함수 목록 중에서 선택합니다. 함수는 카테고리별로 구성됩니다. [자세히 보기](functions.md)
 
 ![](../assets/journey65.png)
@@ -86,7 +86,7 @@ ht-degree: 61%
 
 **고급 표현식 편집기를 사용하여 조건을 작성할 때의 매개 변수 필요성**
 
-매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하는 경우( 참조) [이 페이지](../../datasource/external-data-sources.md)) 새 탭이 오른쪽에 표시되어 이 매개 변수를 지정할 수 있습니다. 매개 변수 값은 여정 또는 Experience Platform 데이터 소스에 있는 이벤트에서 가져올 수 있으며 다른 외부 데이터 소스에서 가져올 수 없습니다. 예를 들어 날씨 관련 데이터 소스에서 자주 사용되는 매개 변수는 &quot;city&quot;입니다. 따라서 이 city 매개 변수를 가져올 위치를 선택해야 합니다. 매개 변수에 함수를 적용하여 형식 변경 또는 연결을 수행할 수도 있습니다.
+매개 변수를 호출해야 하는 외부 데이터 원본에서 필드를 선택하는 경우([이 페이지](../../datasource/external-data-sources.md) 참조), 이 매개 변수를 지정할 수 있도록 오른쪽에 새 탭이 나타납니다. 매개 변수 값은 여정 또는 Experience Platform 데이터 소스에 있는 이벤트에서 가져올 수 있으며 다른 외부 데이터 소스에서 가져올 수 없습니다. 예를 들어 날씨 관련 데이터 소스에서 자주 사용되는 매개 변수는 &quot;city&quot;입니다. 따라서 이 city 매개 변수를 가져올 위치를 선택해야 합니다. 매개 변수에 함수를 적용하여 형식 변경 또는 연결을 수행할 수도 있습니다.
 
 ![](../assets/journeyuc2_19.png)
 

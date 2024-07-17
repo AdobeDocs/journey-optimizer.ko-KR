@@ -47,7 +47,7 @@ ht-degree: 14%
 
 `toDateTimeOnly ("2023-08-18")`
 
-2023-08-18T00을 나타내는 dateTime 반환:00:00.000
+2023-08-18T00:00:00.000을 나타내는 dateTime을 반환합니다
 
 `toDateTimeOnly(now())`
 

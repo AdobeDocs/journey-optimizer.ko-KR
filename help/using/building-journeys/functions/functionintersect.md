@@ -37,12 +37,12 @@ ht-degree: 11%
 
 `intersect(listString,listString)`: listString
 `intersect(listDecimal,listDecimal)`: listDecimal
-`intersect(listInteger,listInteger)`: listInteger
+`intersect(listInteger,listInteger)`: list정수
 `intersect(listDateTime,listDateTime)`: listDateTime
 `intersect(listDateTimeOnly,listDateTimeOnly)`: listDateTimeOnly
 `intersect(listDateOnly,listDateOnly)`: listDateOnly
 `intersect(listDuration,listDuration)`: listDuration
-`intersect(listBoolean,listBoolean)`: listBoolean
+`intersect(listBoolean,listBoolean)`: list부울
 
 목록을 반환합니다.
 
@@ -55,7 +55,7 @@ intersect(
 )
 ```
 
-반환 [&quot;sports&quot;, &quot;news&quot;]
+[&quot;sports&quot;, &quot;news&quot;] 반환
 
 ```json
 intersect(

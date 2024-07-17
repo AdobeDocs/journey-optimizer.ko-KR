@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 컬렉션 한정자 조회 {#look-up-tag}
 
-에 GET 요청을 하여 특정 컬렉션 한정자(이전의 &quot;태그&quot;라고 함)를 조회할 수 있습니다. [!DNL Offer Library] 컬렉션 한정자를 포함하는 API `id` 요청 경로에서.
+요청 경로에 컬렉션 한정자 `id`이(가) 포함된 [!DNL Offer Library] API에 대한 GET 요청을 수행하면 특정 컬렉션 한정자(이전의 &quot;태그&quot;)를 조회할 수 있습니다.
 
 **API 형식**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **응답**
 
-성공적인 응답은 고유한 수집 구분자에 대한 정보를 포함하여 수집 구분자의 상세내역을 반환합니다 `id`.
+성공한 응답은 고유한 컬렉션 한정자 `id`에 대한 정보를 포함하여 컬렉션 한정자의 세부 정보를 반환합니다.
 
 ```json
 {

@@ -18,11 +18,11 @@ ht-degree: 7%
 
 ## 콘텐츠 템플릿 액세스 {#access}
 
-콘텐츠 템플릿 목록에 액세스하려면 다음을 선택합니다. **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 콘텐츠 템플릿]** 왼쪽 메뉴에서
+콘텐츠 템플릿 목록에 액세스하려면 왼쪽 메뉴에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 콘텐츠 템플릿]**&#x200B;을 선택하십시오.
 
 ![](assets/content-template-list.png)
 
-현재 샌드박스에서 만든 모든 템플릿(여정 또는 을 사용하는 캠페인) **[!UICONTROL 템플릿으로 저장]** 다음 중 하나의 선택 사항: **[!UICONTROL 콘텐츠 템플릿]** 메뉴 - 가 표시됩니다. [템플릿을 만드는 방법 알아보기](#create-content-templates)
+**[!UICONTROL 콘텐츠 템플릿]** 메뉴에서 **[!UICONTROL 템플릿으로 저장]** 옵션을 사용하는 여정 또는 캠페인에서 만든 모든 템플릿이 표시됩니다. [템플릿을 만드는 방법을 알아봅니다](#create-content-templates)
 
 다음과 같은 방법으로 콘텐츠 템플릿을 정렬할 수 있습니다.
 * 유형
@@ -40,7 +40,7 @@ ht-degree: 7%
 
   ![](assets/content-template-edit.png)
 
-* 템플릿을 삭제하려면 **[!UICONTROL 추가 작업]** 원하는 템플릿 옆에 있는 버튼을 선택하고 **[!UICONTROL 삭제]**.
+* 템플릿을 삭제하려면 원하는 템플릿 옆에 있는 **[!UICONTROL 추가 작업]** 버튼을 선택하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
   ![](assets/content-template-list-delete.png)
 
@@ -50,7 +50,7 @@ ht-degree: 7%
 
 ## 템플릿을 썸네일로 표시 {#template-thumbnails}
 
-다음 항목 선택 **[!UICONTROL 격자 보기]** 각 템플릿을 썸네일로 표시하는 모드.
+각 템플릿을 썸네일로 표시하려면 **[!UICONTROL 표 보기]** 모드를 선택하십시오.
 
 >[!AVAILABILITY]
 >

@@ -45,7 +45,7 @@ Infobip을 사용할 때 전달 작업이 끌어오기 구성으로 설정되어
 
 ## 차단 목록 {#sms-blocklists}
 
-Adobe Journey Optimizer에서 옵트아웃 상태(Twilio, Infoip 또는 Sinch와의 직접 통합을 위해)에 따라 전송을 중지하는 것 외에도 대부분의 SMS 게이트웨이 공급자는 SMS 메시지가 옵트아웃을 선택한 개인에게 전달되지 않도록 하는 차단 목록에 추가하다도 유지 관리합니다. Sinch 또는 Twilio 이외의 공급자를 사용하고 있으며 [사용자 지정 채널](../building-journeys/using-custom-actions.md), 공급자에게 확인해야 합니다.
+Adobe Journey Optimizer에서 옵트아웃 상태(Twilio, Infoip 또는 Sinch와의 직접 통합을 위해)에 따라 전송을 중지하는 것 외에도 대부분의 SMS 게이트웨이 공급자는 SMS 메시지가 옵트아웃을 선택한 개인에게 전달되지 않도록 하는 차단 목록에 추가하다도 유지 관리합니다. Sinch 또는 Twilio 이외의 공급자를 사용하고 [사용자 지정 채널](../building-journeys/using-custom-actions.md)을 통해 SMS를 전송하는 경우 공급자에게 확인해야 합니다.
 
 
 ## 짧은 코드 {#short-codes}

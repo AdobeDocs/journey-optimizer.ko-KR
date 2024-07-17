@@ -11,7 +11,7 @@ exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 6%
 * http
 * 캡핑
 * 시간 초과
-* 라는 오류가 표시됩니다
+* 오류
 
 ## fetchErrorCode {#fetcherrorcode-field}
 
@@ -77,7 +77,7 @@ ht-degree: 6%
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
-시스템에서 제공한 오류 코드 [!DNL Journey Optimizer] 을(를) 쿼리하고 있습니다. 예를 들어 404, 500 등이 될 수 있습니다.
+시스템 [!DNL Journey Optimizer]에서 제공한 오류 코드를 쿼리하는 중입니다. 예를 들어 404, 500 등이 될 수 있습니다.
 
 유형: 문자열
 

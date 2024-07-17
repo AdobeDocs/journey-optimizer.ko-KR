@@ -17,7 +17,7 @@ ht-degree: 2%
 
 맞춤형 오퍼는 자격 규칙 및 제한에 따라 사용자 정의 가능한 마케팅 메시지입니다.
 
-에 GET 요청을 하여 개인화된 특정 오퍼를 조회할 수 있습니다. **오퍼 라이브러리** 개인화된 오퍼를 포함하는 API `@id` 또는 요청 경로에 있는 개인화된 오퍼의 이름입니다.
+개인화된 오퍼 `@id`을(를) 포함하는 **GET 라이브러리** API에 대한 요청 또는 요청 경로에 개인화된 오퍼의 이름을 요청하여 개인화된 오퍼를 조회할 수 있습니다.
 
 **API 형식**
 
@@ -30,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 개인화된 오퍼가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | 개인화된 오퍼와 연결된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | 를 일치시키는 데 사용되는 문자열 `@id` 엔티티의 속성입니다. 문자열이 정확하게 일치합니다. 매개 변수 &quot;id&quot;와 &quot;name&quot;은 함께 사용할 수 없습니다. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 `id` 및 `name` 함께 사용할 수 없음 | `Discount offer` |
+| `id` | 엔터티의 `@id` 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확하게 일치합니다. 매개 변수 &quot;id&quot;와 &quot;name&quot;은 함께 사용할 수 없습니다. | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. `id` 및 `name` 매개 변수는 함께 사용할 수 없습니다. | `Discount offer` |
 
 **요청**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **응답**
 
-성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유한 개인화된 오퍼에 대한 정보를 포함하여 배치 세부 정보를 반환합니다 `@id`.
+성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유한 개인화된 오퍼 `@id`에 대한 정보를 포함하여 배치 세부 정보를 반환합니다.
 
 ```json
 {

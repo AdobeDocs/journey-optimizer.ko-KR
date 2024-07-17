@@ -58,4 +58,4 @@ null 값을 무시하는 다른 값의 수를 계산합니다.
 
 `distinctCount(@event{my_event.productListItems}, "SKU")`
 
-고유한 &quot;SKU&quot; 속성 값이 있는 개체 수를 반환합니다.{}.
+고유한 &quot;SKU&quot; 특성 값 {}이(가) 있는 개체 수를 반환합니다.

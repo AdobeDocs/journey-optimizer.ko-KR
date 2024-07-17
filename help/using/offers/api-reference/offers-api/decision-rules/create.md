@@ -9,7 +9,7 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 11%
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -68,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **응답**
 
-성공적인 응답은 새로 생성된 결정 규칙에 대한 정보를 반환합니다 `id`. 다음을 사용할 수 있습니다. `id` 의사 결정 규칙을 업데이트하거나 삭제하거나 나중에 사용하는 자습서에서 의사 결정, 의사 결정 규칙 및 대체 오퍼를 만드는 방법을 참조하십시오.
+성공한 응답이 새로 만든 결정 규칙 `id`에 대한 정보를 반환합니다. 이후 단계에서 `id`을(를) 사용하여 의사 결정 규칙을 업데이트하거나 삭제하거나 이후 자습서에서 사용하여 의사 결정, 의사 결정 규칙 및 대체 오퍼를 만들 수 있습니다.
 
 ```json
 {

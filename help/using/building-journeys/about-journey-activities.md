@@ -12,7 +12,7 @@ exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 개인화된 여정은 온라인 구매와 같은 이벤트에 의해 트리거됩니다. 프로필이 여정에 들어오면 한 개인으로 이동하며 두 개인이 동일한 속도로 또는 동일한 경로를 따라 이동하지 않습니다. 이벤트로 여정을 시작하면 이벤트가 수신될 때 여정이 트리거됩니다. 그런 다음 여정의 각 사람은 여정에 정의된 다음 단계를 개별적으로 따릅니다.
 
-기술 사용자가 구성한 이벤트(참조) [이 페이지](../event/about-events.md))은 모두 팔레트의 첫 번째 카테고리인 화면 왼쪽에 표시됩니다. 다음 이벤트 활동을 사용할 수 있습니다.
+기술 사용자가 구성한 이벤트([이 페이지](../event/about-events.md) 참조)는 모두 화면 왼쪽의 팔레트의 첫 번째 범주에 표시됩니다. 다음 이벤트 활동을 사용할 수 있습니다.
 
 * [일반 이벤트](../building-journeys/general-events.md)
 * [반응](../building-journeys/reaction-events.md)
@@ -52,7 +52,7 @@ ht-degree: 8%
 
 작업은 메시지 전송과 같은 일종의 트리거 결과로 발생하고자 하는 작업입니다. 이는 고객이 경험하는 여정 중 하나입니다.
 
-팔레트에서 아래 화면의 왼쪽에 **[!UICONTROL 이벤트]** 및 **[!UICONTROL 오케스트레이션]**, 다음을 찾을 수 있습니다. **[!UICONTROL 작업]** 범주. 다음 작업 활동을 사용할 수 있습니다.
+화면 왼쪽의 팔레트에서 **[!UICONTROL 이벤트]** 및 **[!UICONTROL 오케스트레이션]** 아래에 **[!UICONTROL 작업]** 범주가 있습니다. 다음 작업 활동을 사용할 수 있습니다.
 
 * [이메일, SMS, 푸시](../building-journeys/journeys-message.md)
 * [사용자 정의 작업](../building-journeys/using-custom-actions.md)
@@ -60,7 +60,7 @@ ht-degree: 8%
 
 ![](assets/journey58.png)
 
-이러한 활동은 사용 가능한 다양한 통신 채널을 나타냅니다. 이러한 세그먼트를 결합하여 크로스채널 시나리오를 만들 수 있습니다.
+이곳에는 사용 가능한 다양한 통신 채널의 활동이 표시됩니다. 이러한 세그먼트를 결합하여 크로스채널 시나리오를 만들 수 있습니다.
 
 사용자 지정 작업을 구성한 경우 여기에 표시됩니다. [자세히 알아보기](../building-journeys/using-custom-actions.md)).
 
@@ -68,7 +68,7 @@ ht-degree: 8%
 
 ### 레이블 추가
 
-대부분의 활동을 통해 **[!UICONTROL 레이블]**. 캔버스에서 활동 아래에 표시되는 이름에 접미사를 추가합니다. 이 기능은 여정에서 동일한 활동을 여러 번 사용하고 이러한 활동을 보다 쉽게 식별하려는 경우 유용합니다. 또한 오류의 경우 디버깅이 더 쉬워지고 보고서를 더 쉽게 읽을 수 있습니다. 선택 사항을 추가할 수도 있습니다 **[!UICONTROL 설명]**.
+대부분의 활동을 통해 **[!UICONTROL 레이블]**&#x200B;을(를) 정의할 수 있습니다. 캔버스에서 활동 아래에 표시되는 이름에 접미사를 추가합니다. 이 기능은 여정에서 동일한 활동을 여러 번 사용하고 이러한 활동을 보다 쉽게 식별하려는 경우 유용합니다. 또한 오류의 경우 디버깅이 더 쉬워지고 보고서를 더 쉽게 읽을 수 있습니다. 선택적 **[!UICONTROL 설명]**&#x200B;을 추가할 수도 있습니다.
 
 ![](assets/journey-action-label.png)
 
@@ -82,7 +82,7 @@ ht-degree: 8%
 
 ![](assets/journey-advanced-parameters.png)
 
-가독성을 높이기 위해 **[!UICONTROL 읽기 전용 필드 숨기기]** 단추를 클릭합니다.
+가독성을 높이기 위해 **[!UICONTROL 읽기 전용 필드 숨기기]** 단추를 사용하여 이러한 매개 변수를 숨길 수 있습니다.
 
 ![](assets/journey-hide-read-only-fields.png)
 
@@ -92,6 +92,6 @@ ht-degree: 8%
 
 ### 대체 경로 추가
 
-작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속하는 유일한 방법은 상자를 선택하는 것입니다 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로 추가]**. 다음을 참조하십시오 [이 섹션](../building-journeys/using-the-journey-designer.md#paths).
+작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 확인란을 선택하여 계속하는 방법만 있습니다. [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 
 ![](assets/journey42.png)

@@ -17,7 +17,7 @@ ht-degree: 98%
 
 # 2024년 릴리스 정보 {#release-notes-2024}
 
-이 페이지에는 의 기능 및 개선 사항이 모두 포함되어 있습니다. [!DNL Journey Optimizer] 2024년에 릴리스되었습니다.
+이 페이지에는 2024년에 릴리스된 [!DNL Journey Optimizer]의 모든 기능과 개선 사항이 나와 있습니다.
 
 
 

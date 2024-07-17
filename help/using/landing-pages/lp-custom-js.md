@@ -18,31 +18,31 @@ ht-degree: 2%
 
 # 랜딩 페이지에서 사용자 지정 JavaScript 사용 {#lp-custom-js}
 
-사용자 지정 JavaScript를 사용하여 랜딩 페이지 콘텐츠를 정의할 수 있습니다. 예를 들어 고급 스타일을 수행해야 하거나 랜딩 페이지에 사용자 지정 동작을 추가하려는 경우, 고유한 컨트롤을 빌드하고에서 실행할 수 있습니다. [!DNL Journey Optimizer].
+사용자 지정 JavaScript을 사용하여 랜딩 페이지 콘텐츠를 정의할 수 있습니다. 예를 들어 고급 스타일을 수행해야 하거나 랜딩 페이지에 사용자 지정 동작을 추가하려는 경우, 고유한 컨트롤을 빌드하여 [!DNL Journey Optimizer]에서 실행할 수 있습니다.
 
 ## 랜딩 페이지에 JavaScript 코드 삽입
 
-사용자 지정 JavaScript를 랜딩 페이지 콘텐츠에 삽입하려면 다음 중 하나를 수행할 수 있습니다.
+사용자 지정 JavaScript을 랜딩 페이지 콘텐츠에 삽입하려면 다음 중 하나를 수행할 수 있습니다.
 
-* 콘텐츠 만들기를 시작할 때 기존 HTML 콘텐츠를 가져온 다음 사용자 지정 JavaScript 코드가 포함된 파일을 선택합니다. 콘텐츠를 가져오는 방법 알아보기 [이 섹션에서](../email/existing-content.md).
+* 콘텐츠 만들기를 시작할 때 기존 HTML 콘텐츠를 가져온 다음 사용자 지정 JavaScript 코드가 포함된 파일을 선택합니다. 이 섹션](../email/existing-content.md)에서 [ 콘텐츠를 가져오는 방법을 알아보세요.
 
-* 랜딩 페이지를 처음부터 디자인하거나 저장된 템플릿에서 디자인할 수 있습니다. 을(를) 끌어다 놓습니다. **[!UICONTROL HTML]** 콘텐츠 구성 요소를 캔버스에 표시하고 소스 코드를 표시하여 구성 요소에 JavaSCript를 추가합니다. 에서 HTML 구성 요소를 사용하는 방법 알아보기 [이 섹션](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* 랜딩 페이지를 처음부터 디자인하거나 저장된 템플릿에서 디자인할 수 있습니다. **[!UICONTROL HTML]** 콘텐츠 구성 요소를 캔버스로 드래그 앤 드롭하고 소스 코드를 표시하여 JavaScript을 구성 요소에 추가하십시오. [이 섹션](../email/content-components.md#HTML)에서 HTML 구성 요소를 사용하는 방법을 알아봅니다. <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* 콘텐츠 디자이너에 JavaScript 코드를 직접 입력하거나 붙여 넣습니다. 콘텐츠를 코딩하는 방법에 대해 알아봅니다. [이 섹션에서](../email/code-content.md).
+* 콘텐츠 디자이너에 바로 JavaScript 코드를 입력하거나 붙여 넣습니다. 이 섹션](../email/code-content.md)에서 자신의 콘텐츠 [을(를) 코딩하는 방법을 알아보세요.
 
 >[!NOTE]
 >
->현재 다음과 같은 경우에는 JavaScript를 실제로 표시할 수 없습니다. [랜딩 페이지 미리 보기](create-lp.md#test-landing-page).
+>현재 [랜딩 페이지를 미리 볼 때](create-lp.md#test-landing-page)에 JavaScript을 표시할 수 없습니다.
 
 랜딩 페이지를 올바르게 표시하려면 아래 섹션에 설명된 대로 다음 구문을 사용합니다.
 
 ## 코드 초기화
 
-JavaScript 코드를 초기화하려면 `lpRuntimeReady` 이벤트. 이 이벤트는 라이브러리의 초기화 성공 후 트리거됩니다. 콜백은 `lpRuntime` 라이브러리 메서드 및 후크를 노출하는 개체입니다.
+JavaScript 코드를 초기화하려면 `lpRuntimeReady` 이벤트를 사용해야 합니다. 이 이벤트는 라이브러리의 초기화 성공 후 트리거됩니다. `lpRuntime` 개체와 함께 콜백을 실행하여 라이브러리 메서드 및 후크를 노출합니다.
 
-`LpRuntime` 는 &quot;랜딩 페이지 런타임&quot;을 나타냅니다. 이 개체는 기본 라이브러리 식별자입니다. 사용자 지정 JavaScript에서 사용할 수 있는 후크, 양식 제출 방법 및 기타 유틸리티 방법이 표시됩니다.
+`LpRuntime`은(는) &quot;랜딩 페이지 런타임&quot;을 의미합니다. 이 개체는 기본 라이브러리 식별자입니다. 사용자 지정 JavaScript에서 사용할 수 있는 후크, 양식 제출 방법 및 기타 유틸리티 방법이 표시됩니다.
 
 **예:**
 
@@ -87,7 +87,7 @@ lpRuntime.hooks.addBeforeSubmitHook(function(){
 
 >[!NOTE]
 >
->양식 제출은 사용자 지정 JavaScript에 의해 처리되므로 글로벌 변수를 설정하여 기본 제출을 명시적으로 비활성화해야 합니다 `disableDefaultFormSubmission` 끝 `true`.
+>양식 제출은 사용자 지정 JavaScript에서 처리되므로 전역 변수 `disableDefaultFormSubmission`을(를) `true`(으)로 설정하여 기본 제출을 명시적으로 비활성화해야 합니다.
 
 | 이름 | 설명 |
 |--- |--- |
@@ -113,7 +113,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 
 | 이름 | 설명 |
 |--- |--- |
-| getFormData | 이 메서드는 를 가져오는 데 사용할 수 있습니다. `formData` JSON 개체의 형식입니다. 이 개체는에 전달할 수 있습니다. `submitForm` 양식 제출용. |
+| getFormData | 이 메서드는 JSON 개체의 형식으로 `formData`을(를) 가져오는 데 사용할 수 있습니다. 이 개체는 양식을 제출하기 위해 `submitForm`에 전달할 수 있습니다. |
 
 **예:**
 
@@ -195,7 +195,7 @@ lpRuntime.submitForm(formData);
 
 ### 사용 사례 3: 사용자 지정 분석 태그
 
-JavaScript를 사용하여 입력 필드의 리스너를 추가하고 사용자 지정 분석 호출 트리거를 첨부할 수 있습니다.
+JavaScript을 사용하여 입력 필드의 리스너를 추가하고 사용자 지정 분석 호출 트리거를 첨부할 수 있습니다.
 
 ```
 <html>

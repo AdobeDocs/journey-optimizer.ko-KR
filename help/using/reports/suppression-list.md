@@ -19,7 +19,7 @@ ht-degree: 11%
 
 제외 목록은 게재에서 제외하려는 주소 및 도메인으로 구성됩니다. 이러한 연락처로 보내면 전송 평판과 게재 속도가 떨어질 수 있기 때문입니다.
 
-다음 [!DNL Journey Optimizer] 비표시 목록은 고유한 환경 수준(예: 주어진 샌드박스에 대해)에서 관리됩니다.
+[!DNL Journey Optimizer] 비표시 목록은 고유한 환경 수준(예: 지정된 샌드박스에 대해 관리됨)에서 관리됩니다.
 
 샌드박스 ID와 연관된 조직 ID와 관련된 것을 의미하는 단일 클라이언트 환경의 모든 메일링에서 억제되는 이메일 주소 및 도메인을 수집합니다.
 
@@ -41,25 +41,25 @@ ht-degree: 11%
 
 주소는 다음과 같이 제외 목록에 추가됩니다.
 
-* 모두 **하드 바운스** 및 **스팸 고객 불만** 한 번 발생 후 해당 주소를 제외 목록에 자동으로 보냅니다. 에서 스팸 불만에 대해 자세히 알아보기 [이 섹션](#spam-complaints).
+* 모든 **하드 바운스** 및 **스팸 불만**&#x200B;은(는) 한 번 발생한 후에 해당 주소를 제외 목록에 자동으로 보냅니다. [이 섹션](#spam-complaints)에서 스팸 불만 사항에 대해 자세히 알아보세요.
 
-* **소프트 바운스** 주소를 즉시 제외 목록으로 보내지 마십시오. 그러나 오류 카운터가 증가합니다. 여러 개 [다시 시도](../configuration/retries.md) 그런 다음 이 수행되고, 오류 카운터가 임계값에 도달하면 주소가 제외 목록에 추가됩니다.
+* **소프트 바운스**&#x200B;는 주소를 제외 목록에 즉시 보내지 않지만 오류 카운터를 증가시킵니다. 그런 다음 여러 [다시 시도](../configuration/retries.md)를 수행하고 오류 카운터가 임계값에 도달하면 주소가 제외 목록에 추가됩니다.
 
-* 다음을 수행할 수도 있습니다. [**수동** 주소 또는 도메인 추가](../configuration/manage-suppression-list.md#add-addresses-and-domains) 제외 목록으로 이동합니다.
+* 주소 또는 도메인을 [**수동으로**](../configuration/manage-suppression-list.md#add-addresses-and-domains)할 수도 있습니다.
 
-하드 바운스 및 소프트 바운스에 대한 자세한 내용 [이 섹션](#delivery-failures).
-
->[!NOTE]
->
->가입 해지된 사용자의 주소는에서 이메일을 받지 않으므로 제외 목록으로 보낼 수 없습니다. [!DNL Journey Optimizer]. 이러한 선택은 Experience Platform 수준에서 처리됩니다. 자세히 알아보기 [옵트아웃](../privacy/opt-out.md).
-
-각 주소에 대해 제외되는 기본 이유와 제외 범주(소프트, 하드 등) 제외 목록에 표시됩니다. 에서 제외 목록 액세스 및 관리에 대해 자세히 알아보기 [이 섹션](../configuration/manage-suppression-list.md).
+[이 섹션](#delivery-failures)에서 하드 바운스 및 소프트 바운스에 대해 자세히 알아보세요.
 
 >[!NOTE]
 >
->이 있는 프로필 **[!UICONTROL 억제됨]** 메시지 전송 프로세스 중에는 상태가 제외됩니다. 따라서 **여정 보고서** 은 이 프로필이 여정([대상자 읽기](../building-journeys/read-audience.md) 및 [메시지 활동](../building-journeys/journeys-message.md)), **이메일 보고서** 에는 포함되지 않습니다. **[!UICONTROL 전송됨]** 지표는 이메일을 보내기 전에 필터링됩니다.
+>[!DNL Journey Optimizer]에서 전자 메일을 받지 않으므로 구독 취소된 사용자의 주소를 제외 목록으로 보낼 수 없습니다. 이러한 선택은 Experience Platform 수준에서 처리됩니다. [옵트아웃](../privacy/opt-out.md)에 대해 자세히 알아보세요.
+
+각 주소에 대해 제외되는 기본 이유와 제외 범주(소프트, 하드 등) 제외 목록에 표시됩니다. [이 섹션](../configuration/manage-suppression-list.md)에서 제외 목록에 액세스하고 관리하는 방법에 대해 자세히 알아보세요.
+
+>[!NOTE]
 >
->에 대해 자세히 알아보기 [라이브 보고서](../reports/live-report.md) 및 [글로벌 보고서](../reports/global-report.md). 모든 제외 사례에 대한 이유를 알아보려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
+>메시지 전송 프로세스 중에 **[!UICONTROL 제외됨]** 상태의 프로필은 제외됩니다. 따라서 **여정 보고서**&#x200B;에는 이러한 프로필이 여정([대상자 읽기](../building-journeys/read-audience.md) 및 [메시지 활동](../building-journeys/journeys-message.md))을 통해 이동한 것으로 표시되지만, 전자 메일을 보내기 전에 필터링되므로 **전자 메일 보고서**&#x200B;에는 이러한 프로필이 **[!UICONTROL 전송됨]** 지표에 포함되지 않습니다.
+>
+>[실시간 보고서](../reports/live-report.md) 및 [글로벌 보고서](../reports/global-report.md)에 대해 자세히 알아보세요. 모든 제외 사례에 대한 이유를 알아보려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용할 수 있습니다.
 
 ### 게재 실패 {#delivery-failures}
 
@@ -68,13 +68,13 @@ ht-degree: 11%
 * **하드 바운스**. 하드 바운스는 잘못된 이메일 주소(즉, 존재하지 않는 이메일 주소)를 나타냅니다. 여기에는 주소가 유효하지 않다는 것을 명시적으로 설명하는 수신 이메일 서버의 바운스 메시지가 포함됩니다.
 * **소프트 바운스**. 유효한 이메일 주소에 대해 발생한 임시 이메일 바운스입니다.
 
-A **하드 바운스** 이메일 주소를 제외 목록에 자동으로 추가합니다.
+**하드 바운스**&#x200B;는 메일 주소를 제외 목록에 자동으로 추가합니다.
 
-A **소프트 바운스** <!--or an **ignored** error--> 이 문제가 너무 많이 발생하면 몇 번 다시 시도한 후 금지 목록에 이메일 주소도 전송됩니다. [다시 시도에 대해 자세히 알아보기](../configuration/retries.md)
+너무 많이 발생하는 **소프트 바운스** <!--or an **ignored** error-->도 여러 번 다시 시도한 후 비표시 목록으로 전자 메일 주소를 보냅니다. [다시 시도에 대해 자세히 알아보기](../configuration/retries.md)
 
 이러한 주소로 계속 전송하는 경우 이메일 주소 목록 유지 관리 모범 사례를 따르지 않을 수 있으므로 신뢰할 수 없는 발신자일 수 있음을 ISP에 알려 주기 때문에 전송 속도에 영향을 줄 수 있습니다.
 
-### 스팸 불만 사항 {#spam-complaints}
+### 스팸 고객 불만 {#spam-complaints}
 
 제외 목록은 메시지를 스팸으로 표시하는 이메일 주소를 수집합니다. 예를 들어, 누군가가 고객 서비스에 귀하로부터 메일을 다시 받지 않도록 요청하는 메시지를 보내는 경우, 해당 사용자의 이메일 주소는 인스턴스 전체에 표시되지 않으며, 해당 주소로 더 이상 배달할 수 없습니다.
 

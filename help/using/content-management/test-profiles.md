@@ -23,19 +23,19 @@ ht-degree: 16%
 
 테스트 프로필을 선택하려면 다음 단계를 수행합니다.
 
-1. 메시지의 콘텐츠 편집 화면이나 이메일 디자이너에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
+1. 메시지의 콘텐츠 편집 화면 또는 이메일 Designer에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 테스트 프로필 관리]** 버튼을 클릭한 다음 을(를) 클릭하여 테스트 프로필을 식별하는 데 사용할 네임스페이스를 선택합니다 **[!UICONTROL ID 네임스페이스]** 선택 아이콘입니다. [Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보기](../audience/get-started-identity.md).
+1. **[!UICONTROL 테스트 프로필 관리]** 단추를 클릭한 다음 **[!UICONTROL ID 네임스페이스]** 선택 아이콘을 클릭하여 테스트 프로필을 식별하는 데 사용할 네임스페이스를 선택하십시오. [Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보기](../audience/get-started-identity.md).
 
-   아래 예에서는 **이메일** 네임스페이스입니다.
+   아래 예제에서는 **이메일** 네임스페이스를 사용합니다.
 
    ![](../email/assets/previewselect-namespace.png)
 
-1. 검색 필드를 사용하여 네임스페이스를 찾아 선택한 다음 를 클릭합니다. **[!UICONTROL 선택]**
+1. 검색 필드를 사용하여 네임스페이스를 찾은 다음 **[!UICONTROL 선택]**&#x200B;을(를) 클릭합니다.
 
    ![](../email/assets/preview-email-namespace.png)
 
-1. 다음에서 **[!UICONTROL ID 값]** 필드에 테스트 프로필을 식별할 값(여기서는 이메일 주소)을 입력하고 를 클릭합니다. **[!UICONTROL 프로필 추가]**.
+1. **[!UICONTROL ID 값]** 필드에 테스트 프로필을 식별할 값(여기서는 전자 메일 주소)을 입력하고 **[!UICONTROL 프로필 추가]**&#x200B;를 클릭합니다.
 
    <!--![](assets/preview-identity-value.png)-->
 

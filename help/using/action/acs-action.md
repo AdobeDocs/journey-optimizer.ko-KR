@@ -26,7 +26,7 @@ Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지
 
 ## 중요 정보 {#important-notes}
 
-* Adobe Campaign Standard 작업에 대해 5분당 4000회의 최대 가용량 규칙이 자동으로 정의됩니다. 이는 Adobe Campaign Standard 트랜잭션 메시지의 공식 규모에 해당합니다. 트랜잭션 메시지 SLA에 대해 자세히 알아보기 [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html).
+* Adobe Campaign Standard 작업에 대해 5분당 4000회의 최대 가용량 규칙이 자동으로 정의됩니다. 이는 Adobe Campaign Standard 트랜잭션 메시지의 공식 규모에 해당합니다. [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)에서 트랜잭션 메시지 SLA에 대해 자세히 알아보세요.
 
 * Adobe Campaign Standard 통합은 작업 목록에서 전용 기본 제공 작업을 통해 설정됩니다. 각 샌드박스에 대해 구성해야 합니다.
 
@@ -38,15 +38,15 @@ Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지
 
 이를 구성하는 단계는 다음과 같습니다.
 
-1. 선택 **[!UICONTROL 구성]** 관리 메뉴 섹션에 있는 마지막 항목이 될 필요가 없습니다. 다음에서  **[!UICONTROL 작업]** 섹션, 클릭 **[!UICONTROL 관리]**. 작업 목록이 표시됩니다.
+1. 관리 메뉴 섹션에서 **[!UICONTROL 구성]**&#x200B;을(를) 선택합니다. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 관리]**&#x200B;를 클릭합니다. 작업 목록이 표시됩니다.
 
-1. 기본 제공 선택 **[!UICONTROL AdobeCampaignStandard]** 작업. 작업 구성 창이 화면 오른쪽에 열립니다.
+1. 기본 제공 **[!UICONTROL AdobeCampaignStandard]** 액션을 선택하십시오. 작업 구성 창이 화면 오른쪽에 열립니다.
 
    ![](assets/actioncampaign.png)
 
-1. Adobe Campaign Standard 인스턴스 URL을 복사하여 **[!UICONTROL URL]** 필드.
+1. Adobe Campaign Standard 인스턴스 URL을 복사하여 **[!UICONTROL URL]** 필드에 붙여넣습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 인스턴스 URL 테스트]** 인스턴스의 유효성을 테스트합니다.
+1. **[!UICONTROL 인스턴스 URL 테스트]**&#x200B;를 클릭하여 인스턴스의 유효성을 테스트합니다.
 
    >[!NOTE]
    >
@@ -58,10 +58,10 @@ Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지
    >
    >이 Adobe Campaign Standard의 인스턴스와 연결된 조직이 Journey Optimizer 조직과 동일합니다.
 
-여정을 디자인할 때에서 세 가지 작업을 사용할 수 있습니다. **[!UICONTROL 작업]** 범주: **[!UICONTROL 이메일]**, **[!UICONTROL 푸시]**, **[!UICONTROL SMS]** (참조 [Adobe Campaign 작업 사용](../building-journeys/using-adobe-campaign-standard.md)).
+여정을 디자인할 때 **[!UICONTROL 작업]** 범주에서 다음 세 가지 작업을 사용할 수 있습니다. **[!UICONTROL 전자 메일]**, **[!UICONTROL 푸시]**, **[!UICONTROL SMS]**([Adobe Campaign 작업 사용](../building-journeys/using-adobe-campaign-standard.md) 참조).
 
 ![](assets/journey58.png)
 
-다음을 사용할 수 있습니다. **반응** 동일한 여정 내에서 전송된 Campaign Standard 메시지와 관련된 추적 데이터에 반응할 이벤트입니다. 푸시 알림의 경우 클릭, 전송 또는 실패한 메시지에 반응할 수 있습니다. SMS 메시지의 경우, 전송 또는 실패한 메시지에 반응할 수 있습니다. 이메일의 경우 클릭, 전송, 열림 또는 실패한 메시지에 반응할 수 있습니다. 다음을 참조하십시오 [반응 이벤트](../building-journeys/reaction-events.md).
+**반응** 이벤트를 사용하여 동일한 여정 내에서 보낸 Campaign Standard 메시지와 관련된 추적 데이터에 반응할 수 있습니다. 푸시 알림의 경우 클릭, 전송 또는 실패한 메시지에 반응할 수 있습니다. SMS 메시지의 경우, 전송 또는 실패한 메시지에 반응할 수 있습니다. 이메일의 경우 클릭, 전송, 열림 또는 실패한 메시지에 반응할 수 있습니다. [반응 이벤트](../building-journeys/reaction-events.md)를 참조하세요.
 
-서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 추가하고 구성해야 합니다. 다음을 참조하십시오 [사용자 지정 작업 구성 정보](../action/about-custom-action-configuration.md).
+서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 추가하고 구성해야 합니다. [사용자 지정 작업 구성 정보](../action/about-custom-action-configuration.md)를 참조하세요.

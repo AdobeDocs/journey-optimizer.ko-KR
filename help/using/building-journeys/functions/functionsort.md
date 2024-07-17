@@ -72,11 +72,11 @@ ht-degree: 7%
 
 `sort(["A", "C", "B"], true)`
 
-반환 `["A","B","C"]`.
+`["A","B","C"]`을(를) 반환합니다
 
 `sort([1, 3, 2], false)`
 
-반환 `[3, 2, 1]`.
+`[3, 2, 1]`을(를) 반환합니다
 
 `sort(@event{my_event.productListItems}, "SKU", true)`
 

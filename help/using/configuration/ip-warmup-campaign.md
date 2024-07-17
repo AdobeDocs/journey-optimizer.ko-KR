@@ -37,19 +37,19 @@ ht-degree: 17%
 
 >[!ENDSHADEBOX]
 
-에서 IP 준비 계획 자체를 만들기 전에 [!DNL Journey Optimizer], 먼저 IP 준비 계획에 사용하도록 특별히 설계된 캠페인을 하나 이상 만들어야 합니다<!--through a dedicated option-->.
+[!DNL Journey Optimizer]에서 IP 준비 계획 자체를 만들기 전에 먼저 IP 준비 계획<!--through a dedicated option-->에서 사용하도록 특별히 디자인된 캠페인을 하나 이상 만들어야 합니다.
 
 IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
-1. 만들기 [이메일](../email/email-settings.md) channel [표면](channel-surfaces.md) 준비 계획에 대해 식별한 도메인 및 IP에 대해 해당됩니다.
+1. 준비 계획에 대해 식별한 도메인 및 IP에 대해 [이메일](../email/email-settings.md) 채널 [표면](channel-surfaces.md)을(를) 만듭니다.
 
    >[!NOTE]
    >
-   >의 이메일 표면에서 사용할 도메인 및 IP를 선택하는 방법을 알아봅니다. [이 섹션](../email/email-settings.md#subdomains-and-ip-pools).
+   >[이 섹션](../email/email-settings.md#subdomains-and-ip-pools)에서 전자 메일 표면에 사용할 도메인 및 IP를 선택하는 방법을 알아봅니다.
    >
-   >게재 가능성 컨설턴트와 협력하여 IP 준비 계획에 사용할 도메인 및 IP를 식별합니다.<!--TBC-->
+   >게재 컨설턴트와 협력하여 IP 준비 계획에 사용할 도메인 및 IP를 식별하십시오.<!--TBC-->
 
-1. 예약된 마케팅 만들기 [campaign](../campaigns/create-campaign.md) 및 선택 [이메일](../email/create-email.md#create-email-journey-campaign) 작업.
+1. 예약된 마케팅 [캠페인](../campaigns/create-campaign.md)을(를) 만들고 [이메일](../email/create-email.md#create-email-journey-campaign) 작업을 선택합니다.
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
@@ -61,29 +61,29 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-1. 다음에서 **[!UICONTROL 예약]** 섹션, 선택 **[!UICONTROL IP 준비 계획 활성화]**.
+1. **[!UICONTROL 일정]** 섹션에서 **[!UICONTROL IP 준비 계획 활성화]**&#x200B;를 선택합니다.
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   캠페인 [예약](../campaigns/create-campaign.md#schedule) 은 와(은) 연관될 IP 준비 계획에 따라 구동되며, 이는 캠페인 자체에 더 이상 일정이 정의되지 않음을 의미합니다.
+   [일정](../campaigns/create-campaign.md#schedule) 캠페인은 연결된 IP 준비 계획에 따라 진행됩니다. 즉, 캠페인 자체에 더 이상 일정이 정의되지 않습니다.
 
-1. 캠페인 속성 정의와 같은 이메일 캠페인을 만드는 단계를 완료합니다. [대상자](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->, 및 [콘텐츠](../email/get-started-email-design.md#key-steps).
+1. 캠페인 속성, [대상자](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> 및 [콘텐츠](../email/get-started-email-design.md#key-steps)를 정의하는 등 이메일 캠페인을 만드는 단계를 완료하십시오.
 
    IP 준비 캠페인에 대한 규칙 기반 대상자를 선택해야 합니다. [자세히 알아보기](../audience/creating-a-segment-definition.md)
 
    >[!NOTE]
    >
-   >캠페인 구성 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../campaigns/get-started-with-campaigns.md).
+   >캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
-1. [활성화](../campaigns/review-activate-campaign.md) 캠페인. 상태가 다음으로 변경됨: **[!UICONTROL 라이브]**.
+1. 캠페인을 [활성화](../campaigns/review-activate-campaign.md)합니다. 상태가 **[!UICONTROL Live]**(으)로 변경됩니다.
 
    비즈니스 규칙은 IP 준비 계획에 사용해서는 안 됩니다. 이러한 규칙을 적용하면 캠페인에 대해 원하는 수의 타겟팅된 프로필에 도달하지 못할 수 있습니다.
 
    >[!NOTE]
    >
-   >IP 준비 계획이 활성화된 라이브 캠페인의 경우 **[!UICONTROL 삭제]** 단추는 IP 준비 계획과 연결될 때까지 사용할 수 있습니다. 플랜에 사용된 후에는 캠페인을 더 이상 삭제할 수 없습니다.
+   >IP 준비 계획이 활성화된 라이브 캠페인의 경우 **[!UICONTROL 삭제]** 단추를 IP 준비 계획과 연결할 때까지 사용할 수 있습니다. 플랜에 사용된 후에는 캠페인을 더 이상 삭제할 수 없습니다.
 
-1. 캠페인이에 표시됩니다. **[!UICONTROL 캠페인]** 목록을 표시합니다. 현재 샌드박스에서 만든 모든 IP 웜업 캠페인을 쉽게 검색하려면 **[!UICONTROL IP 준비]** 캠페인 옵션.
+1. 캠페인이 **[!UICONTROL 캠페인]** 목록에 표시됩니다. 현재 샌드박스에서 만든 모든 IP 준비 캠페인을 쉽게 검색하려면 **[!UICONTROL IP 준비]** 캠페인 옵션을 필터링하면 됩니다.
 
    ![](assets/ip-warmup-campaign-filter.png)
 
@@ -93,5 +93,5 @@ IP 준비 캠페인은 하나의 IP 준비 계획에서만 사용할 수 있습�
 
 >[!NOTE]
 >
->라이브 캠페인이 IP 준비 계획에 사용되는 경우 해당 계획은 다음과 같습니다. [완료됨으로 표시](ip-warmup-execution.md#mark-as-completed), 해당 캠페인의 상태가 다음으로 변경됨: **[!UICONTROL 중지됨]**.
+>IP 준비 계획에 라이브 캠페인을 사용할 때 플랜이 [완료된 것으로 표시](ip-warmup-execution.md#mark-as-completed)된 후 해당 캠페인의 상태가 **[!UICONTROL 중지됨]**(으)로 변경됩니다.
 

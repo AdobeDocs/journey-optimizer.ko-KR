@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 배치 조회 {#look-up-placement}
 
-에 GET 요청을 하여 특정 배치를 조회할 수 있습니다. [!DNL Offer Library] 배치를 포함하는 API `id`.
+`id` 배치를 포함하는 [!DNL Offer Library] API에 대한 GET 요청을 수행하여 특정 배치를 조회할 수 있습니다.
 
 **API 형식**
 
@@ -39,7 +39,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement12
 
 **응답**
 
-성공적인 응답은 고유한 배치에 대한 정보를 포함하여 배치 세부 정보를 반환합니다 `id`.
+응답이 성공하면 고유한 배치 `id`에 대한 정보를 포함하여 배치 세부 정보가 반환됩니다.
 
 ```json
 {

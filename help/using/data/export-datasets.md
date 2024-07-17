@@ -10,8 +10,8 @@ keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 9%
+source-wordcount: '871'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 ## 사용 가능한 클라우드 스토리지 대상 {#destinations}
 
-에서 액세스할 수 있는 6개의 클라우드 스토리지 대상으로 데이터 세트를 내보낼 수 있습니다. **[!UICONTROL 대상]** 메뉴, **[!UICONTROL 카탈로그]** 탭.
+**[!UICONTROL 카탈로그]** 탭의 **[!UICONTROL 대상]** 메뉴에서 액세스할 수 있는 6개의 클라우드 저장소 대상으로 데이터 세트를 내보낼 수 있습니다.
 
 ![](assets/dataset-export-setup.png)
 
@@ -34,7 +34,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 * [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html)
 * [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html)
 * [데이터 랜딩 영역](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html)
-* [Google 클라우드 스토리지](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
+* [Google 클라우드 저장소](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html)
 
 ## 내보내기에 사용 가능한 데이터 세트 {#datasets}
@@ -67,7 +67,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 ## 전제 조건 {#prerequisites}
 
-데이터 세트를 내보내려면 [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} 필요한 권한을 얻으려면 제품 관리자에게 문의하십시오.
+데이터 세트를 내보내려면 아래에 나열된 [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"}이 필요합니다. [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"}를 읽거나 제품 관리자에게 문의하여 필요한 권한을 받으십시오.
 
 | 카테고리 | 사용 권한 |
 |--|--|
@@ -81,30 +81,30 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 ![](assets/dataset-export-process.png)
 
-각 단계에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
+각 단계에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}를 참조하세요.
 
-1. **클라우드 스토리지 대상 설정**. 아직 연결하지 않은 경우 대상 카탈로그에서 클라우드 스토리지 대상에 연결합니다. 에서 새 대상 연결을 만드는 방법을 알아봅니다 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
+1. **클라우드 저장소 대상을 설정**&#x200B;합니다. 아직 연결하지 않은 경우 대상 카탈로그에서 클라우드 스토리지 대상에 연결합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}에서 새 대상 연결을 만드는 방법을 알아보세요.
 
    <!--![](assets/dataset-export-setup.png)-->
 
-1. **클라우드 스토리지 대상 선택** 데이터 세트를 내보낼 위치입니다. 대상 카탈로그에서 **[!UICONTROL 데이터 세트 내보내기]** 원하는 카드를 누르고 사용할 연결을 선택합니다.
+1. 데이터 세트를 내보낼 **클라우드 저장소 대상을 선택하십시오**. 대상 카탈로그에서 원하는 카드의 **[!UICONTROL 데이터 세트 내보내기]** 단추를 클릭하고 사용할 연결을 선택합니다.
 
    <!--![](assets/dataset-export-destination.png)-->
 
    >[!NOTE]
    >
-   >실시간 고객 프로필과 함께 Adobe Journey Optimizer을 사용하는 경우 대상 카드에 **활성화** 단추를 사용하여 데이터 세트를 내보내고 활성화한 권한에 따라 이 대상에 대한 대상을 활성화할 수 있습니다.
+   >실시간 고객 프로필과 함께 Adobe Journey Optimizer을 사용하는 경우 대상 카드에 **활성화** 단추가 표시되므로, 활성화한 권한에 따라 이 대상에 대한 데이터 세트를 내보내고 대상을 활성화할 수 있습니다.
 
-1. **데이터 세트 선택** 을(를) 선택한 대상으로 내보냅니다. [내보내기에 사용할 수 있는 Journey Optimizer 데이터 세트에 대한 자세한 정보](#datasets)
+1. **선택한 대상으로 내보낼 데이터 세트를 선택**&#x200B;합니다. [내보낼 수 있는 Journey Optimizer 데이터 세트에 대해 자세히 알아보기](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 
-1. **내보내기 예약** 데이터 세트. 내보내기를 시작해야 하는 시기와 실행 빈도를 지정합니다.
+1. 데이터 집합의 **내보내기를 예약**&#x200B;합니다. 내보내기를 시작해야 하는 시기와 실행 빈도를 지정합니다.
 
    <!--![](assets/dataset-export-schedule.png)-->
 
-1. **내보내기 검토 및 확인** 구성 끝에 표시되는 요약을 확인합니다.
+1. 구성 끝에 표시되는 요약을 확인하여 **내보내기를 검토하고 확인**&#x200B;합니다.
 
    <!--![](assets/dataset-export-review.png)-->
 
-내보내기가 완료되면 데이터 세트의 콘텐츠가 사용자가 구성한 일정에 따라 클라우드 저장소 위치에 저장됩니다. [성공적인 데이터 세트 내보내기를 확인하는 방법 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
+내보내기가 완료되면 데이터 세트의 콘텐츠가 사용자가 구성한 일정에 따라 클라우드 저장소 위치에 저장됩니다. [데이터 세트 내보내기가 성공했는지 확인하는 방법을 알아보세요](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.

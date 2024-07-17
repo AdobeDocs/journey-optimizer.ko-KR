@@ -20,11 +20,11 @@ ht-degree: 2%
 
 이 페이지에서는 Adobe Journey Optimizer 데이터 세트 목록 및 관련 사용 사례를 확인할 수 있습니다.
 
-[이메일 추적 경험 이벤트 데이터 세트](#email-tracking-experience-event-dataset)
+[전자 메일 추적 경험 이벤트 데이터 세트](#email-tracking-experience-event-dataset)
 [메시지 피드백 이벤트 데이터 세트](#message-feedback-event-dataset)
 [푸시 추적 경험 이벤트 데이터 세트](#push-tracking-experience-event-dataset)
 [여정 단계 이벤트](#journey-step-event)
-[의사 결정 이벤트 데이터 세트](#ode-decisionevents)
+[이벤트 데이터 세트 결정](#ode-decisionevents)
 [BCC 피드백 이벤트 데이터 세트](#bcc-feedback-event-dataset)
 [엔티티 데이터 세트](#entity-dataset)
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 ## 이메일 추적 경험 이벤트 데이터 세트{#email-tracking-experience-event-dataset}
 
-_인터페이스의 이름 : AJO 이메일 추적 경험 이벤트 데이터 세트_
+_인터페이스의 이름: AJO 전자 메일 추적 경험 이벤트 데이터 세트_
 
 Journey Optimizer에서 이메일 추적 경험 이벤트를 수집하기 위한 시스템 데이터 세트입니다.
 
@@ -164,7 +164,7 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-여기서 날짜 형식은 다음과 같습니다. `YYYY-MM-DD HH:MM:SS`.
+여기서 날짜 형식은 `YYYY-MM-DD HH:MM:SS`입니다.
 
 식별되면 Journey Optimizer 제외 목록에서 해당 주소를 제거합니다. [자세히 알아보기](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
@@ -352,7 +352,7 @@ _인터페이스의 이름: ajo_entity_dataset(시스템 데이터 세트)_
 >
 >당분간 호환성을 위해 엔티티 데이터 세트에 각 메시지 게시에 대한 두 개의 항목이 있습니다. 이는 데이터 세트 간에 필요에 따라 조인 쿼리를 사용하여 원하는 정보를 가져오는 기능에 영향을 주지 않습니다.
 
-보고서에서 특정 여정이 보낸 이메일을 전송한 작업에 따라 정렬하려는 경우 메시지 피드백 데이터 세트를 엔티티 데이터 세트와 결합할 수 있습니다. 사용할 필드는 다음과 같습니다. `_experience.decisioning.propositions.scopeDetails.correlationID` 및 `_id field in entity dataset`.
+보고서에서 특정 여정이 보낸 이메일을 전송한 작업에 따라 정렬하려는 경우 메시지 피드백 데이터 세트를 엔티티 데이터 세트와 결합할 수 있습니다. 사용할 필드는 `_experience.decisioning.propositions.scopeDetails.correlationID` 및 `_id field in entity dataset`입니다.
 
 다음 쿼리는 주어진 캠페인에 대한 관련 메시지 템플릿을 가져오는 데 도움이 됩니다.
 

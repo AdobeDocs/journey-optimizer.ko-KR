@@ -12,13 +12,13 @@ exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
 # 시드 목록 사용 {#seed-lists}
 
-의 시드 목록 [!DNL Journey Optimizer] 게재에 특정 시드 주소를 자동으로 포함할 수 있습니다.
+[!DNL Journey Optimizer]의 시드 목록을 사용하면 게재에 특정 시드 주소를 자동으로 포함할 수 있습니다.
 
 >[!CAUTION]
 >
@@ -48,11 +48,11 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->다국어 및 실험 변형을 포함하여 변형이 지원됩니다. 각 시드 주소는 동일한 메시지의 모든 변형(예: 의 다른 버전)의 단일 사본을 수신함 [콘텐츠 실험](../content-management/get-started-experiment.md). 조건부 콘텐츠에 대해서는 별도의 시드 이메일이 전송되지 않습니다.
+>다국어 및 실험 변형을 포함하여 변형이 지원됩니다. 각 시드 주소는 동일한 메시지의 모든 변형에 대해 하나의 복사본을 받습니다(예: [콘텐츠 실험](../content-management/get-started-experiment.md)의 다른 버전). 조건부 콘텐츠에 대해서는 별도의 시드 이메일이 전송되지 않습니다.
 
 ## 시드 목록 액세스 {#access-seed-lists}
 
-이미 만들어진 시드 목록에 액세스하려면 다음으로 이동합니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 이메일 구성]**, 및 선택 **[!UICONTROL 시드 목록]**.
+이미 만들어진 시드 목록에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 구성]**&#x200B;으로 이동한 다음 **[!UICONTROL 시드 목록]**&#x200B;을 선택하십시오.
 
 <!--
 >[!CAUTION]
@@ -61,7 +61,7 @@ ht-degree: 15%
 
 >[!CAUTION]
 >
->시드 목록을 보고, 편집하고, 관리하려면 **[!UICONTROL 시드 목록 관리]** 권한.
+>시드 목록을 보고 편집하고 관리하려면 **[!UICONTROL 시드 목록 관리]** 권한이 있어야 합니다.
 
 ![](assets/seed-list-access.png)
 
@@ -69,11 +69,11 @@ ht-degree: 15%
 
 ![](assets/seed-list-filtering.png)
 
-사용 **[!UICONTROL 삭제]** 단추를 클릭하여 항목을 영구적으로 제거합니다.
+**[!UICONTROL 삭제]** 단추를 사용하여 항목을 영구적으로 제거하십시오.
 
 >[!CAUTION]
 >
->활성 상태에서 사용되는 시드 목록은 삭제할 수 없습니다. [campaign](../campaigns/review-activate-campaign.md) 또는 [여정](../building-journeys/publishing-the-journey.md). 캠페인/여정을 비활성화하거나, 시드 목록이 선택되지 않은 다른 표면을 사용하도록 편집해야 합니다. [시드 목록 사용에 대해 자세히 알아보기](#use-seed-list)
+>활성 [여정](../campaigns/review-activate-campaign.md) 또는 [캠페인](../building-journeys/publishing-the-journey.md)에서 사용되는 시드 목록을 삭제할 수 없습니다. 캠페인/여정을 비활성화하거나, 시드 목록이 선택되지 않은 다른 표면을 사용하도록 편집해야 합니다. [시드 목록 사용에 대해 자세히 알아보기](#use-seed-list)
 
 시드 목록 이름을 클릭하여 편집할 수 있습니다. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -92,9 +92,9 @@ ht-degree: 15%
 
 시드 목록을 만들려면 아래 단계를 수행합니다.
 
-1. 액세스 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 이메일 구성]** > **[!UICONTROL 시드 목록]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 구성]** > **[!UICONTROL 시드 목록]** 메뉴에 액세스합니다.
 
-1. 다음 항목 선택 **[!UICONTROL 시드 목록 만들기]** 단추를 클릭합니다.
+1. **[!UICONTROL 시드 목록 만들기]** 단추를 선택하십시오.
 
    ![](assets/seed-list-create-button.png)
 
@@ -122,7 +122,7 @@ ht-degree: 15%
    >
    >두 옵션을 모두 결합할 수 있지만 시드 목록의 총 주소 수는 50개를 초과할 수 없습니다.
 
-1. 클릭 **[!UICONTROL 만들기]** 확인할 수 있습니다. 새로 생성된 시드 목록은에 표시됩니다. [시드 목록 화면](#access-seed-lists).
+1. 확인하려면 **[!UICONTROL 만들기]**&#x200B;를 클릭하세요. 새로 만든 시드 목록이 [시드 목록 화면](#access-seed-lists)에 표시됩니다.
 
 ## 캠페인 또는 여정에서 시드 목록 사용 {#use-seed-list}
 
@@ -132,9 +132,9 @@ ht-degree: 15%
 >
 >시드 주소로 전송된 메시지는 여정 또는 캠페인 보고서에 포함되지 않습니다.
 
-1. 서피스를 생성하고 **[!UICONTROL 이메일]** 채널. [자세히 알아보기](../email/email-settings.md)
+1. 표면을 만들고 **[!UICONTROL 전자 메일]** 채널을 선택하십시오. [자세히 알아보기](../email/email-settings.md)
 
-1. 에서 선택한 시드 목록을 선택합니다. [해당 섹션](../email/email-settings.md#seed-list).
+1. [해당 섹션](../email/email-settings.md#seed-list)에서 선택한 시드 목록을 선택하십시오.
 
    >[!NOTE]
    >
@@ -144,13 +144,13 @@ ht-degree: 15%
 
 1. 표면을 제출합니다.
 
-1. 만들기 [campaign](../campaigns/create-campaign.md) 또는 [여정](../building-journeys/journey-gs.md).
+1. [여정](../campaigns/create-campaign.md) 또는 [캠페인](../building-journeys/journey-gs.md)을 만듭니다.
 
-1. 다음 항목 선택 **[!UICONTROL 이메일]** 작업을 수행한 다음 을(를) 선택합니다 [표면](channel-surfaces.md) 와 관련된 시드 목록을 포함합니다.
+1. **[!UICONTROL 전자 메일]** 작업을 선택하고 관련된 시드 목록을 포함하는 [표면](channel-surfaces.md)을(를) 선택하십시오.
 
    ![](assets/seed-list-campaign-email.png)
 
-1. 활성화 [campaign](../campaigns/review-activate-campaign.md) 또는 을 게시합니다. [여정](../building-journeys/publishing-the-journey.md).
+1. [campaign](../campaigns/review-activate-campaign.md)을(를) 활성화하거나 [여정](../building-journeys/publishing-the-journey.md)을(를) 게시하세요.
 
 이제 해당 캠페인이나 여정을 통해 고객에게 이메일 메시지를 보낼 때마다 선택한 시드 목록의 이메일 주소도 타겟팅된 수신자와 동일한 조건으로 동시에 동일한 콘텐츠로 수신됩니다.
 

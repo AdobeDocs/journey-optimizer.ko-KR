@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 전역 보고서
+title: 글로벌 보고서
 description: 글로벌 보고서의 데이터를 사용하는 방법을 알아봅니다
 feature: Reporting
 topic: Content Management
@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 3%
+ht-degree: 28%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 3%
 >
 > 쿼리 서비스를 사용할 때 API를 통해 사용자 지정 쿼리가 만들어지는 경우 보고서에 약간의 지연이 있을 것으로 예상하십시오.
 
-사용 **[!UICONTROL 글로벌 보고서]** 을 사용하여 선택한 기간 동안 여정 및 게재의 영향을 측정합니다.
+**[!UICONTROL 전역 보고서]**&#x200B;를 사용하여 선택한 기간 동안 여정 및 게재의 영향을 측정합니다.
 
-* 여정 컨텍스트에서 여정 또는 게재를 타겟팅하려면 **[!UICONTROL 여정]** 메뉴에서 여정에 액세스하고 **[!UICONTROL 보고서 보기]** 단추를 클릭합니다. 그런 다음 여정, 이메일, SMS 및 푸시 글로벌 보고서를 찾을 수 있습니다.
+* 여정의 컨텍스트에서 여정 또는 게재를 타겟팅하려면 **[!UICONTROL 여정]** 메뉴에서 여정에 액세스하고 **[!UICONTROL 보고서 보기]** 단추를 클릭합니다. 그런 다음 여정, 이메일, SMS 및 푸시 글로벌 보고서를 찾을 수 있습니다.
 
   ![](assets/report_journey.png)
 
-* 캠페인을 타깃팅하려면 **[!UICONTROL 캠페인]** 메뉴에서 캠페인에 액세스하고 **[!UICONTROL 보고서]** 단추를 클릭합니다.
+* 캠페인을 타깃팅하려면 **[!UICONTROL 캠페인]** 메뉴에서 캠페인에 액세스하고 **[!UICONTROL 보고서]** 단추를 클릭하십시오.
 
   ![](assets/report_campaign.png)
 
-* 에서 전환하려면 다음을 수행하십시오. **[!UICONTROL 라이브 보고서]** (으)로 **[!UICONTROL 글로벌 보고서]** 게재를 위해 **[!UICONTROL 모든 시간]** ( 탭 전환기에서)
+* 게재할 **[!UICONTROL 실시간 보고서]**&#x200B;에서 **[!UICONTROL 전역 보고서]**(으)로 전환하려면 탭 전환기에서 **[!UICONTROL 항상]**&#x200B;을(를) 클릭하십시오.
 
   ![](assets/report_5.png)
 
-Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 을 참조하십시오. [이 페이지](#list-of-components-global)
+Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 [이 페이지](#list-of-components-global)를 참조하세요.
 
 ## 대시보드 맞춤화 {#modify-dashboard}
 
@@ -45,19 +45,19 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
    ![](assets/report_modify_1.png)
 
-1. 여러 개의 구성이 포함된 여정 보고서의 경우 **[!UICONTROL 작업]**, 특정 선택 **[!UICONTROL 작업]** 드롭다운 메뉴에서 을(를) 선택합니다.
+1. 구성된 여러 **[!UICONTROL 작업]**&#x200B;이 포함된 여정 보고서의 경우 드롭다운 메뉴에서 특정 **[!UICONTROL 작업]**&#x200B;을(를) 선택하십시오.
 
-1. 하나 또는 여러 개의 반복 메시지만 타겟팅하려면 **[!UICONTROL 실행 시간]** 드롭다운.
+1. 하나 또는 여러 개의 반복 메시지만 대상으로 지정하려면 **[!UICONTROL 실행 시간]** 드롭다운에서 선택합니다.
 
    ![](assets/report_modify_12.png)
 
-1. 토글 막대를 사용하여 보고서에서 테스트 이벤트를 제외하려면 선택합니다. 테스트 이벤트에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../building-journeys/testing-the-journey.md).
+1. 토글 막대를 사용하여 보고서에서 테스트 이벤트를 제외하려면 선택합니다. 테스트 이벤트에 대한 자세한 내용은 [이 페이지](../building-journeys/testing-the-journey.md)를 참조하세요.
 
-   다음 사항에 주의하십시오. **[!UICONTROL 테스트 이벤트 제외]** 옵션은 여정 보고서에만 사용할 수 있습니다.
+   **[!UICONTROL 테스트 이벤트 제외]** 옵션은 여정 보고서에만 사용할 수 있습니다.
 
    ![](assets/report_modify_2.png)
 
-1. 클릭 **[!UICONTROL 수정]** 을 클릭하여 대시보드 맞춤화를 시작할 수 있습니다.
+1. 대시보드 사용자 지정을 시작하려면 **[!UICONTROL 수정]**&#x200B;을 클릭하세요.
 
    ![](assets/report_modify_3.png)
 
@@ -65,17 +65,17 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
    ![](assets/report_modify_4.png)
 
-1. 클릭 **[!UICONTROL 제거]** 필요하지 않은 위젯을 제거합니다.
+1. 필요하지 않은 위젯을 제거하려면 **[!UICONTROL 제거]**&#x200B;를 클릭하십시오.
 
    ![](assets/report_modify_5.png)
 
-1. 표시 순서 및 위젯 크기에 만족하면 을 클릭합니다. **[!UICONTROL 저장]**.
+1. 표시 순서 및 위젯 크기에 만족하면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 1. 데이터 표시 방식을 사용자 정의하기 위해 그래프, 표, 도넛 차트 등 다양한 시각화 옵션에서 전환할 수 있습니다.
 
    ![](assets/report_modify_10.png)
 
-이제 대시보드가 저장되었습니다. 다른 변경 사항은 나중에 라이브 보고서를 사용할 수 있도록 다시 적용됩니다. 필요한 경우 **[!UICONTROL 재설정]** 기본 위젯 및 위젯의 순서를 복원하는 옵션입니다.
+이제 대시보드가 저장되었습니다. 다른 변경 사항은 나중에 라이브 보고서를 사용할 수 있도록 다시 적용됩니다. 필요한 경우 **[!UICONTROL 재설정]** 옵션을 사용하여 기본 위젯 및 위젯의 순서를 복원합니다.
 
 ## 보고서 내보내기 {#export-reports}
 
@@ -88,11 +88,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 >[!TAB 보고서를 CSV 파일로 내보내기]
 
-1. 보고서에서 **[!UICONTROL 내보내기]** 및 선택 **[!UICONTROL CSV 파일]** 전체 보고서 수준에서 CSV 파일을 생성합니다.
+1. 보고서에서 **[!UICONTROL 내보내기]**&#x200B;를 클릭하고 **[!UICONTROL CSV 파일]**&#x200B;을 선택하여 전체 보고서 수준에서 CSV 파일을 생성합니다.
 
    ![](assets/export_1.png)
 
-1. 특정 위젯에서 데이터를 내보내도록 선택할 수도 있습니다. 클릭 **[!UICONTROL 위젯 데이터를 CSV로 내보내기]** 선택한 위젯 옆에 있습니다.
+1. 특정 위젯에서 데이터를 내보내도록 선택할 수도 있습니다. 선택한 위젯 옆에 있는 **[!UICONTROL 위젯 데이터를 CSV로 내보내기]**&#x200B;를 클릭합니다.
 
    ![](assets/export_3.png)
 
@@ -104,7 +104,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 >[!TAB 보고서를 PDF 파일로 내보내기]
 
-1. 보고서에서 **[!UICONTROL 내보내기]** 및 선택 **[!UICONTROL PDF 파일]**.
+1. 보고서에서 **[!UICONTROL 내보내기]**&#x200B;를 클릭하고 **[!UICONTROL 파일 PDF]**&#x200B;을 선택합니다.
 
    ![](assets/export_2.png)
 
@@ -121,7 +121,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!ENDTABS]
 
 
-### 보고서 내보내기(비디오) {#video-csv}
+### 보고서 내보내기 (비디오) {#video-csv}
 
 다음 방법 비디오에서 보고서 및 단일 위젯에 대한 CSV 보고서를 다운로드하는 방법을 알아봅니다.
 
@@ -136,8 +136,8 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_clicks"
->title="클릭 수"
->abstract="클릭 수 위젯"
+>title="클릭수"
+>abstract="클릭수 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_delivered"
@@ -146,8 +146,8 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_overview"
->title="Campaign 개요"
->abstract="Campaign 개요 위젯"
+>title="캠페인 개요"
+>abstract="캠페인 개요 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_funnel"
@@ -161,14 +161,14 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_displays"
->title="표시"
->abstract="위젯 표시"
+>title="디스플레이"
+>abstract="디스플레이 위젯"
 
 <!--campaign email-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivered_click"
->title="게재됨 및 클릭 트렌드"
+>title="게재 및 클릭 트렌드"
 >abstract="게재됨 및 클릭 트렌드 위젯"
 
 >[!CONTEXTUALHELP]
@@ -179,7 +179,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_sending_statistics"
 >title="전송 통계"
->abstract="통계 위젯 전송"
+>abstract="전송 통계 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracking_statistics"
@@ -194,7 +194,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link"
 >title="추적된 링크 레이블"
->abstract="링크 레이블 추적 위젯"
+>abstract="추적된 링크 레이블 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link_urls"
@@ -203,12 +203,12 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_subjects"
->title="전자 메일 제목"
->abstract="이메일 주제 위젯"
+>title="이메일 제목"
+>abstract="이메일 제목 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_bounce_reasons"
->title="바운스 원인"
+>title="바운스 이유"
 >abstract="바운스 이유 위젯"
 
 >[!CONTEXTUALHELP]
@@ -219,7 +219,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_error"
 >title="오류 원인"
->abstract="오류 원인 위젯"
+>abstract="오류 이유 위젯"
 
 
 <!--campaign push-->
@@ -227,7 +227,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_sending_statistics"
 >title="전송 통계"
->abstract="통계 위젯 전송"
+>abstract="전송 통계 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracking_statistics"
@@ -237,7 +237,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link"
 >title="추적된 링크 레이블"
->abstract="링크 레이블 추적 위젯"
+>abstract="추적된 링크 레이블 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link_urls"
@@ -246,41 +246,41 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_bounce_reasons"
->title="바운스 원인"
+>title="바운스 이유"
 >abstract="바운스 이유 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_exclude"
->title="제외 원인"
->abstract="제외된 이유 위젯"
+>title="제외된 이유"
+>abstract="제외됨 이유 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_email_error"
 >title="오류 원인"
->abstract="오류 원인 위젯"
+>abstract="오류 이유 위젯"
 
 <!--campaign inapp-->
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_impression"
->title="노출 및 클릭 트렌드"
->abstract="노출 및 클릭 트렌드 위젯"
+>title="노출 횟수 및 클릭 트렌드"
+>abstract="노출 횟수 및 클릭 트렌드 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_clicks"
->title="클릭 수"
->abstract="클릭 수 위젯"
+>title="클릭수"
+>abstract="클릭수 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_displays"
->title="표시"
->abstract="위젯 표시"
+>title="디스플레이"
+>abstract="디스플레이 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracking_data"
 >title="추적 데이터"
->abstract="데이터 추적 위젯"
+>abstract="추적 데이터 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracked_link"
@@ -297,7 +297,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivered_click"
->title="게재됨 및 클릭 트렌드"
+>title="게재 및 클릭 트렌드"
 >abstract="게재됨 및 클릭 트렌드 위젯"
 
 >[!CONTEXTUALHELP]
@@ -308,7 +308,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link"
 >title="추적된 링크 레이블"
->abstract="링크 레이블 추적 위젯"
+>abstract="추적된 링크 레이블 위젯"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link_urls"
@@ -332,7 +332,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_bounce"
->title="바운스 원인"
+>title="바운스 이유"
 >abstract="바운스 이유 위젯"
 
 >[!CONTEXTUALHELP]
@@ -343,4 +343,4 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_error"
 >title="오류 원인"
->abstract="오류 원인 위젯"
+>abstract="오류 이유 위젯"

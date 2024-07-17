@@ -12,7 +12,7 @@ exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 55%
+ht-degree: 54%
 
 ---
 
@@ -30,29 +30,29 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 
 ![](assets/sandbox_5.png)
 
-➡️ [이 비디오에서 샌드박스에 대해 자세히 알아보기](#video)
+➡️0}이 비디오에서 샌드박스에 대한 자세한 정보](#video)[
 
 ## 샌드박스 할당 {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
-> 샌드박스 관리는 **[!UICONTROL 제품]** 또는 **[!UICONTROL 시스템]** 관리자.
+> 샌드박스 관리는 **[!UICONTROL 제품]** 또는 **[!UICONTROL 시스템]** 관리자만 수행할 수 있습니다.
 
-기본 제공 또는 사용자 지정에 다른 샌드박스를 할당하도록 선택할 수 있습니다 **[!UICONTROL 역할]**.
+기본 제공 또는 사용자 지정 **[!UICONTROL 역할]**&#x200B;에 다른 샌드박스를 할당하도록 선택할 수 있습니다.
 
 샌드박스를 할당하려면
 
-1. 위치 [!DNL Permissions], **[!UICONTROL 역할]** 탭에서 다음을 선택합니다. **[!UICONTROL 역할]**.
+1. [!DNL Permissions]의 **[!UICONTROL 역할]** 탭에서 **[!UICONTROL 역할]**&#x200B;을(를) 선택합니다.
 
    ![](assets/sandbox_1.png)
 
 1. **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
-1. 다음에서 **[!UICONTROL 샌드박스]** 리소스 드롭다운에서 역할에 할당할 샌드박스를 선택합니다.
+1. **[!UICONTROL 샌드박스]** 리소스 드롭다운에서 역할에 할당할 샌드박스를 선택합니다.
 
    ![](assets/sandbox_3.png)
 
-1. 필요한 경우 옆에 있는 X 아이콘을 클릭하여 샌드박스 액세스 제거 **[!UICONTROL 역할]**.
+1. 필요한 경우 **[!UICONTROL 역할]**&#x200B;에 대한 액세스 권한을 제거하기 위해 옆에 있는 X 아이콘을 클릭합니다.
 
    ![](assets/sandbox_4.png)
 
@@ -60,13 +60,13 @@ Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박
 
 ## 콘텐츠에 액세스 {#content-access}
 
-콘텐츠 액세스 가능성을 구성하려면 각 샌드박스에 콘텐츠 공유 폴더를 할당해야 합니다. 에서 공유 폴더를 만들고 구성할 수 있습니다. **[!UICONTROL 스토리지]** 탭에 표시됨 [!DNL Admin Console] 관리자용 시스템 관리자로서 [!DNL Admin Console]에 액세스할 수 있는 경우 공유 폴더를 만들고 다른 액세스 수준의 위임자를 공유 폴더에 추가할 수 있습니다.
+콘텐츠 액세스 가능성을 구성하려면 각 샌드박스에 콘텐츠 공유 폴더를 할당해야 합니다. 관리자용 [!DNL Admin Console]에 표시된 **[!UICONTROL 저장소]** 탭에서 공유 폴더를 만들고 구성할 수 있습니다. 시스템 관리자로서 [!DNL Admin Console]에 액세스할 수 있는 경우 공유 폴더를 만들고 다른 액세스 수준의 위임자를 공유 폴더에 추가할 수 있습니다.
 
 ![](assets/do-not-localize/content_access.png)
 
 내용이 올바른 샌드박스와 동기화되도록 하려면 샌드박스와 동일한 구문을 따라야 합니다. 예를 들어 샌드박스가 개발이라고 하는 경우 공유 폴더의 이름이 같아야 합니다.
 
-[공유 폴더 관리 방법 알아보기](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
+[공유 폴더를 관리하는 방법을 알아보세요](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
 
 ## 방법 비디오{#video}
 

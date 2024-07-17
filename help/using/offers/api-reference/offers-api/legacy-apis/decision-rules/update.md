@@ -9,17 +9,17 @@ exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
 # 의사 결정 규칙 업데이트 {#update-decision-rule}
 
-에 대한 POST 요청을 하여 대체 오퍼를 만들 수 있습니다. [!DNL Offer Library] 컨테이너 ID를 제공하는 동안 API.
+POST ID를 제공하는 동안 [!DNL Offer Library] API에 대한 컨테이너를 요청하여 대체 오퍼를 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 및 *Accept* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 및 *Accept* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -60,7 +60,7 @@ curl -X PATCH \
 
 **응답**
 
-성공적인 응답은 고유 인스턴스 ID 및 의사 결정 규칙을 포함하여 의사 결정 규칙의 업데이트된 세부 정보를 반환합니다 `@id`.
+성공한 응답은 고유 인스턴스 ID 및 결정 규칙 `@id`을(를) 포함하여 결정 규칙의 업데이트된 세부 정보를 반환합니다.
 
 
 ```json

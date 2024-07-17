@@ -12,7 +12,7 @@ exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 1%
 
 ![](assets/cja-analyze.png)
 
-를 통해 데이터 분석 경험 향상 **[!DNL Customer Journey Analytics]** 을 활용하여 라이센스 부여 **[!UICONTROL CJA에서 분석]** 모든 보고서에서 사용할 수 있는 기능입니다.
+모든 보고서에서 사용할 수 있는 **[!UICONTROL CJA에서 분석]** 기능을 활용하여 **[!DNL Customer Journey Analytics]** 라이선스로 데이터 분석 환경을 향상시킵니다.
 
-이 강력한 옵션을 사용하면 리디렉션이 **[!DNL Customer Journey Analytics]** 환경 - 보고서를 광범위하게 개인화할 수 있습니다. 전문 Customer Journey Analytics 지표로 위젯을 보강하여 통찰력을 완전히 새로운 수준으로 끌어올릴 수 있습니다.
+이 강력한 옵션을 사용하면 **[!DNL Customer Journey Analytics]** 환경으로 원활하게 리디렉션되어 보고서를 광범위하게 개인화할 수 있습니다. 전문 Customer Journey Analytics 지표로 위젯을 보강하여 통찰력을 완전히 새로운 수준으로 끌어올릴 수 있습니다.
 
-[Customer Journey Analytics 인터페이스에 대해 자세히 알아보십시오.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[Customer Journey Analytics 인터페이스에 대해 자세히 알아보세요.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## 보고서 기간 정의 {#report-period}
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 >[!TAB 보고서를 CSV 파일로 내보내기]
 
-1. 보고서에서 **[!UICONTROL 내보내기]** 및 선택 **[!UICONTROL CSV 파일]** 전체 보고서 수준에서 CSV 파일을 생성합니다.
+1. 보고서에서 **[!UICONTROL 내보내기]**&#x200B;를 클릭하고 **[!UICONTROL CSV 파일]**&#x200B;을 선택하여 전체 보고서 수준에서 CSV 파일을 생성합니다.
 
    ![](assets/export_cja_csv.png)
 
@@ -58,11 +58,11 @@ ht-degree: 1%
 
 >[!TAB 보고서를 PDF 파일로 내보내기]
 
-1. 보고서에서 **[!UICONTROL 내보내기]** 및 선택 **[!UICONTROL PDF 파일]**.
+1. 보고서에서 **[!UICONTROL 내보내기]**&#x200B;를 클릭하고 **[!UICONTROL 파일 PDF]**&#x200B;을 선택합니다.
 
    ![](assets/export_cja_pdf.png)
 
-1. 다운로드가 요청되면 **[!UICONTROL 다운로드]**.
+1. 다운로드를 요청한 후 **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다.
 
    ![](assets/export_cja_pdf_2.png)
 

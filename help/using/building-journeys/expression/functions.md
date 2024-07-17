@@ -11,7 +11,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 70%
+ht-degree: 68%
 
 ---
 
@@ -60,10 +60,10 @@ ht-degree: 70%
 | 날짜 | [nowWithDelta](../functions/functionnowwithdelta.md) |
 | 날짜 | [setHours](../functions/functionsethours.md) |
 | 날짜 | [setDays](../functions/functionsetdays.md) |
-| 날짜 | [updateTimezone](../functions/functionupdatetimezone.md) |
+| 날짜 | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 목록 | [distinct](../functions/functiondistinct.md) |
 | 목록 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| 목록 | [필터링](../functions/functionfilter.md) |
+| 목록 | [필터](../functions/functionfilter.md) |
 | 목록 | [getListItem](../functions/functiongetlistitem.md) |
 | 목록 | [in](../functions/functionin.md) |
 | 목록 | [교차](../functions/functionintersect.md) |

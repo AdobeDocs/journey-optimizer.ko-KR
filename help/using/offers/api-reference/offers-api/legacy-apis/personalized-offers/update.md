@@ -9,19 +9,19 @@ exl-id: 3ef785c6-06b4-40ce-a8e5-6a9d5101a408
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
 # 개인화된 오퍼 업데이트 {#update-personalized-offer}
 
-에 PATCH 요청을 하여 개인화된 오퍼를 수정하거나 업데이트할 수 있습니다. [!DNL Offer Library] API
+[!DNL Offer Library] API에 대한 PATCH 요청을 통해 개인화된 오퍼를 수정하거나 업데이트할 수 있습니다.
 
-사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 다음을 참조하십시오. [JSON 패치 설명서](https://jsonpatch.com/).
+사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 공식 [JSON 패치 설명서](https://jsonpatch.com/)를 참조하세요.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 및 *Accept* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 및 *Accept* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -71,13 +71,13 @@ curl -X PATCH \
 
 | 매개변수 | 설명 |
 | --------- | ----------- |
-| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업에는 다음이 포함됩니다. `add`, `replace`, 및 `remove`. |
+| `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업에는 `add`, `replace` 및 `remove`이(가) 포함됩니다. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 
 **응답**
 
-성공적인 응답은 다음을 포함하여 개인화된 오퍼의 업데이트된 세부 정보를 반환합니다. `id`.
+응답이 성공하면 `id`을(를) 포함하여 개인화된 오퍼의 업데이트된 세부 정보가 반환됩니다.
 
 ```json
 {

@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # 여정 필드 {#sharing-journey-fields}
 
-이 필드 그룹은 **여정** 스키마 (관련 항목) **journeyStepEvent**). 여기에는 아래 나열된 필드가 포함되어 있습니다.
+이 필드 그룹은 **journeyStepEvent**&#x200B;과(와) 관련하여 **여정** 스키마에서 사용됩니다. 여기에는 아래 나열된 필드가 포함되어 있습니다.
 
 
 >[!NOTE]
 >
->여정 속성 속성에 대해 자세히 알아보기 [이 섹션에서](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>이 섹션](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에서 여정 속성 특성 [에 대해 자세히 알아보세요.
 
 
 ## journeyID {#journeyid-field}
@@ -51,6 +51,6 @@ ht-degree: 10%
 
 ## 버전 {#version-field}
 
-버전, 다음으로 표시 `major`.`minor`
+버전, `major`.`minor`(으)로 표시됨
 
 유형: 문자열

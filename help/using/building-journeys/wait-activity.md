@@ -23,9 +23,9 @@ ht-degree: 15%
 >title="대기 활동"
 >abstract="경로에서 다음 활동을 실행할 때까지 대기하려면 대기 활동을 사용할 수 있습니다. 이를 통해 다음 활동이 실행되는 시점을 정의할 수 있습니다. 지속 기간과 사용자 정의와 같은 두 가지 옵션을 사용할 수 있습니다."
 
-다음을 사용할 수 있습니다. **[!UICONTROL 대기]** 활동: 다음 활동을 실행하기 전에 기간을 정의합니다.  최대 대기 기간은 입니다. **90일**.
+다음 활동을 실행하기 전에 **[!UICONTROL 대기]** 활동을 사용하여 기간을 정의할 수 있습니다.  최대 대기 기간은 **90일**&#x200B;입니다.
 
-다음 두 가지 유형을 설정할 수 있습니다 **대기** 활동:
+두 가지 유형의 **대기** 활동을 설정할 수 있습니다.
 
 * 상대적 기간을 기반으로 한 대기. [자세히 알아보기](#duration)
 * 함수를 사용하여 계산하는 사용자 지정 날짜입니다. [자세히 알아보기](#custom)
@@ -39,23 +39,23 @@ ht-degree: 15%
 
 ### 여러 대기 활동 {#multiple-wait-activities}
 
-여러 개 사용 시 **대기** 여정의 활동입니다. [글로벌 시간 초과](journey-properties.md#global_timeout) 여정의 경우 91일입니다. 즉, 프로필은 입력한 후 항상 최대 91일 후에 여정에서 삭제됩니다. [이 페이지](journey-properties.md#global_timeout)에서 자세히 알아보십시오.
+여정에서 여러 **대기** 활동을 사용하는 경우 여정의 [전역 시간 초과](journey-properties.md#global_timeout)가 91일이므로 프로필이 입력한 후 항상 최대 91일 후에 여정에서 삭제됩니다. [이 페이지](journey-properties.md#global_timeout)에서 자세히 알아보십시오.
 
-개인이 다음을 입력할 수 있음: **대기** 활동은 여정에 91일 여정 제한 시간 이전에 대기 기간을 완료할 수 있는 충분한 시간이 있는 경우에만 작동합니다.
+개인은 91일 여정 제한 시간 전에 대기 기간을 완료할 수 있는 충분한 시간이 여정에 남아 있는 경우에만 **대기** 활동을 입력할 수 있습니다.
 
 ### 대기 후 재입장 {#wait-re-entrance}
 
-사용하지 않는 모범 사례 **대기** 재입장을 차단하는 활동. 대신 **재등록 허용** 여정 속성 수준의 옵션입니다. [이 페이지](../building-journeys/journey-properties.md#entrance)에서 자세히 알아보십시오.
+다시 시작을 차단하기 위해 **대기** 활동을 사용하지 않는 것이 좋습니다. 대신 여정 속성 수준에서 **다시 입력 허용** 옵션을 사용하십시오. [이 페이지](../building-journeys/journey-properties.md#entrance)에서 자세히 알아보십시오.
 
 ### 대기 및 테스트 모드 {#wait-test-modd}
 
-테스트 모드에서 **[!UICONTROL 테스트의 대기 시간]** 매개 변수를 사용하면 각 시간을 정의할 수 있습니다 **대기** 활동이 지속됩니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)에서 자세히 알아보십시오.
+테스트 모드에서 **[!UICONTROL 테스트의 대기 시간]** 매개 변수를 사용하면 각 **대기** 활동이 지속되는 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)에서 자세히 알아보십시오.
 
 ## 구성 {#wait-configuration}
 
 ### 기간 대기 {#duration}
 
-다음 항목 선택 **기간** 을 입력하여 다음 활동을 실행하기 전 대기 시간의 상대적 기간을 설정합니다. 최대 기간은 다음과 같습니다. **90일**.
+**Duration** 유형을 선택하여 다음 활동을 실행하기 전 대기 시간의 상대적 기간을 설정하십시오. 최대 기간은 **90일**&#x200B;입니다.
 
 ![대기 기간 정의](assets/journey55.png)
 
@@ -70,20 +70,20 @@ Select the date for the execution of the next activity.
 
 ### 사용자 지정 대기 {#custom}
 
-다음 항목 선택 **사용자 정의** 이벤트에서 가져온 필드 또는 사용자 지정 작업 응답을 기반으로 하는 고급 표현식을 사용하여 사용자 지정 날짜를 정의합니다. 상대적 기간(예: 7일)을 직접 정의할 수는 없지만, 필요한 경우 함수를 사용하여 계산할 수 있습니다(예: 구매 후 2일).
+이벤트에서 가져온 필드 또는 사용자 지정 작업 응답을 기반으로 하는 고급 식을 사용하여 사용자 지정 날짜를 정의하려면 **Custom** 유형을 선택하십시오. 상대적 기간(예: 7일)을 직접 정의할 수는 없지만, 필요한 경우 함수를 사용하여 계산할 수 있습니다(예: 구매 후 2일).
 
-![표현식으로 사용자 지정 대기 정의](assets/journey57.png)
+![식을 사용하여 사용자 지정 대기 정의](assets/journey57.png)
 
-편집기의 표현식에서 다음을 제공해야 합니다. `dateTimeOnly` 포맷. [이 페이지](expression/expressionadvanced.md)를 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 [이 페이지](expression/data-types.md).
+편집기의 식은 `dateTimeOnly` 형식을 제공해야 합니다. [이 페이지](expression/expressionadvanced.md)를 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 [이 페이지](expression/data-types.md)를 참조하세요.
 
-가장 좋은 방법은 프로필에만 해당되는 사용자 지정 날짜를 사용하고 모든 항목에 동일한 날짜를 사용하지 않는 것입니다. 예를 들어 다음을 정의하지 마십시오 `toDateTimeOnly('2024-01-01T01:11:00Z')` 오히려 `toDateTimeOnly(@event{Event.productDeliveryDate})` 각 프로필에 따라 다릅니다. 고정 날짜를 사용하면 여정 실행에 문제가 발생할 수 있습니다.
+가장 좋은 방법은 프로필에만 해당되는 사용자 지정 날짜를 사용하고 모든 항목에 동일한 날짜를 사용하지 않는 것입니다. 예를 들어 `toDateTimeOnly('2024-01-01T01:11:00Z')`을(를) 정의하지 않고 각 프로필에 해당하는 `toDateTimeOnly(@event{Event.productDeliveryDate})`을(를) 정의하십시오. 고정 날짜를 사용하면 여정 실행에 문제가 발생할 수 있습니다.
 
 
 >[!NOTE]
 >
->다음을 활용할 수 있습니다. `dateTimeOnly` 표현식 또는 함수를 사용하여 `dateTimeOnly`. 예: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, 이벤트의 필드가 2023-08-12T09 양식임:46:6Z.
+>`dateTimeOnly` 식을 활용하거나 함수를 사용하여 `dateTimeOnly`(으)로 변환할 수 있습니다. 예: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`. 이벤트의 필드는 2023-08-12T09:46:06Z 형식입니다.
 >
->다음 **시간대** 은 여정 속성에서 필요합니다. 그 결과, 사용자 인터페이스에서, 2023-08-12T09와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 지정할 수 없습니다:46:06.982-05. [자세히 알아보기](../building-journeys/timezone-management.md).
+>여정 속성에 **표준 시간대**&#x200B;이(가) 필요합니다. 따라서 사용자 인터페이스에서 2023-08-12T09:46:06.982-05와 같이 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 지정할 수 없습니다. [자세히 알아보기](../building-journeys/timezone-management.md).
 
 
 대기 활동이 예상대로 작동하는지 확인하려면 단계 이벤트를 사용할 수 있습니다. [자세히 알아보기](../reports/query-examples.md#common-queries).

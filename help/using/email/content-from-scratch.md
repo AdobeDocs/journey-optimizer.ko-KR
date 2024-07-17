@@ -60,15 +60,15 @@ ht-degree: 54%
 >abstract="디자이너를 통해 열 구조를 선택하여 템플릿 레이아웃을 쉽게 정의할 수 있습니다."
 
 
-Adobe Journey Optimizer Designer를 사용하여 콘텐츠의 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하여 콘텐츠의 형태를 몇 초 이내에 디자인할 수 있습니다.
+Adobe Journey Optimizer Designer을 사용하여 콘텐츠의 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하여 콘텐츠의 형태를 몇 초 이내에 디자인할 수 있습니다.
 
 콘텐츠 작성을 시작하려면 아래 단계를 따르십시오.
 
-1. Designer 홈 페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다.
+1. Designer 홈페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다.
 
    ![](assets/email_designer.png)
 
-1. 드래그 앤 드롭으로 콘텐츠 디자인 시작 **[!UICONTROL 구조]** 을 캔버스에 추가하여 이메일 레이아웃을 정의할 수 있습니다.
+1. **[!UICONTROL Structures]**&#x200B;을(를) 캔버스로 끌어다 놓아 전자 메일의 레이아웃을 정의하여 콘텐츠 디자인을 시작합니다.
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ Adobe Journey Optimizer Designer를 사용하여 콘텐츠의 구조를 쉽게 �
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. 개수만큼 추가 **[!UICONTROL 구조]** 필요에 따라 오른쪽의 전용 창에서 설정을 편집합니다.
+1. 필요에 따라 **[!UICONTROL 구조]**&#x200B;를 추가하고 오른쪽의 전용 창에서 해당 설정을 편집합니다.
 
    ![](assets/email_designer_structure_components.png)
 
@@ -86,13 +86,13 @@ Adobe Journey Optimizer Designer를 사용하여 콘텐츠의 구조를 쉽게 �
    >
    >각 열 크기는 구조 구성 요소 전체 폭의 10% 이상이어야 합니다. 비어 있는 열만 제거할 수 있습니다.
 
-1. 확장 **[!UICONTROL 내용]** 요소를 필요한 수만큼 하나 이상의 구조 구성 요소에 추가합니다. [콘텐츠 구성 요소에 대해 자세히 알아보기](content-components.md)
+1. **[!UICONTROL 내용]** 섹션을 확장하고 하나 이상의 구조 구성 요소에 필요한 만큼 요소를 추가합니다. [콘텐츠 구성 요소에 대해 자세히 알아보기](content-components.md)
 
-1. 다음을 사용하여 각 구성 요소를 추가로 사용자 정의할 수 있습니다. **[!UICONTROL 설정]** 또는 **[!UICONTROL 스타일]** 오른쪽 메뉴에 있는 탭. 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보기](alignment-and-padding.md)
+1. 오른쪽 메뉴의 **[!UICONTROL 설정]** 또는 **[!UICONTROL 스타일]** 탭을 사용하여 각 구성 요소를 추가로 사용자 지정할 수 있습니다. 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보기](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
-1. 다음에서 **[!UICONTROL 자산 선택기]**&#x200B;에 저장된 에셋을 직접 선택할 수 있습니다. **[!UICONTROL 자산 라이브러리]**. [에셋 관리에 대해 자세히 알아보기](../content-management/assets.md)
+1. **[!UICONTROL 자산 선택기]**&#x200B;에서 **[!UICONTROL Assets 라이브러리]**&#x200B;에 저장된 자산을 직접 선택할 수 있습니다. [자산 관리에 대해 자세히 알아보기](../content-management/assets.md)
 
    에셋이 포함된 폴더를 두 번 클릭합니다. 구조 구성 요소로 끌어다 놓습니다.
 
@@ -102,11 +102,11 @@ Adobe Journey Optimizer Designer를 사용하여 콘텐츠의 구조를 쉽게 �
 
    ![](assets/email_designer_personalization.png)
 
-1. 클릭 **[!UICONTROL 조건 콘텐츠 활성화]** 조건부 규칙에 따라 다이내믹 콘텐츠를 추가하고 콘텐츠를 타겟팅된 프로필로 조정합니다. [다이내믹 콘텐츠 시작](../personalization/get-started-dynamic-content.md)
+1. 조건부 규칙에 따라 다이내믹 콘텐츠를 추가하고 타겟팅된 프로필에 콘텐츠를 적용하려면 **[!UICONTROL 조건 콘텐츠 사용]**&#x200B;을 클릭하십시오. [다이내믹 콘텐츠 시작](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. 다음을 클릭합니다. **[!UICONTROL 링크]** 추적할 콘텐츠의 모든 URL을 표시하려면 왼쪽 창의 탭을 클릭합니다. 수정할 수 있습니다 **[!UICONTROL 추적 유형]** 또는 **[!UICONTROL 레이블]** 및 추가 **[!UICONTROL 태그]** 필요한 경우. [링크 및 추적에 대해 자세히 알아보기](message-tracking.md)
+1. 추적할 콘텐츠의 모든 URL을 표시하려면 왼쪽 창에서 **[!UICONTROL 링크]** 탭을 클릭하십시오. **[!UICONTROL 추적 유형]** 또는 **[!UICONTROL 레이블]**&#x200B;을 수정하고 필요한 경우 **[!UICONTROL 태그]**&#x200B;를 추가할 수 있습니다. [링크 및 추적에 대해 자세히 알아보기](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 
@@ -116,8 +116,8 @@ Adobe Journey Optimizer Designer를 사용하여 콘텐츠의 구조를 쉽게 �
    >
    >코드 편집기로 전환한 후에는 이 이메일의 비주얼 디자이너로 되돌릴 수 없습니다.
 
-1. 콘텐츠가 준비되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 확인합니다. 데스크탑 또는 모바일 보기 중 선택할 수 있습니다. 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 관리](../content-management/preview-test.md) 섹션.
+1. 콘텐츠가 준비되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 확인합니다. 데스크탑 또는 모바일 보기 중 선택할 수 있습니다. 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 관리](../content-management/preview-test.md) 섹션에서 확인할 수 있습니다.
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 콘텐츠가 준비되면 **[!UICONTROL 저장]**.
+1. 콘텐츠가 준비되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

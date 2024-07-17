@@ -9,7 +9,7 @@ exl-id: 234bee17-c830-4bc0-b258-182804df4cb3
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 8%
 
 맞춤형 오퍼는 자격 규칙 및 제한에 따라 사용자 정의 가능한 마케팅 메시지입니다.
 
-에 POST 요청을 하여 개인화된 오퍼를 만들 수 있습니다. [!DNL Offer Library] 컨테이너 ID를 제공하는 동안 API.
+컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 대한 POST 요청을 만들어 개인화된 오퍼를 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 및 *Accept* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 및 *Accept* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -86,7 +86,7 @@ curl -X POST \
 
 **응답**
 
-성공적인 응답은 고유한 인스턴스 ID와 배치를 포함하여 새로 생성된 개인화된 오퍼에 대한 정보를 반환합니다 `@id`. 이후 단계에서 인스턴스 ID를 사용하여 개인화된 오퍼를 업데이트하거나 삭제할 수 있습니다.
+성공적인 응답은 고유한 인스턴스 ID와 배치 `@id`을(를) 포함하여 새로 만든 개인화된 오퍼에 대한 정보를 반환합니다. 이후 단계에서 인스턴스 ID를 사용하여 개인화된 오퍼를 업데이트하거나 삭제할 수 있습니다.
 
 ```json
 {
@@ -104,4 +104,4 @@ curl -X POST \
 
 ## 제한 사항 {#limitations}
 
-오퍼 표시 및 일부 오퍼 제한 사항은 현재 모바일에서 지원되지 않습니다. [!DNL Experience Edge] 워크플로(예: ) `Capping`. 다음 `Capping` 필드 값은 모든 사용자에게 오퍼를 제공할 수 있는 횟수를 지정합니다. 자세한 내용은 [오퍼 자격 규칙 및 제한 설명서](../../../../offer-library/creating-personalized-offers.md).
+오퍼 표시 및 일부 오퍼 제약 조건은 현재 모바일 [!DNL Experience Edge] 워크플로에서 지원되지 않습니다(예: `Capping`). `Capping` 필드 값은 모든 사용자에게 오퍼를 제공할 수 있는 횟수를 지정합니다. 자세한 내용은 [오퍼 자격 규칙 및 제약 조건 설명서](../../../../offer-library/creating-personalized-offers.md)를 참조하세요.

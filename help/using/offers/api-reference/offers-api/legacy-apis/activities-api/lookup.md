@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 결정 조회 {#look-up-decision}
 
-에 GET 요청을 하여 특정 결정을 조회할 수 있습니다. [!DNL Offer Library] 다음 결정 중 하나를 포함하는 API `@id` 또는 요청 경로에 있는 결정의 이름입니다.
+`@id` 결정 또는 요청 경로에 있는 결정의 이름을 포함하는 [!DNL Offer Library] API에 대한 GET 요청을 수행하여 특정 결정을 조회할 수 있습니다.
 
 **API 형식**
 
@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 결정이 위치한 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | 의사 결정과 연관된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | 를 일치시키는 데 사용되는 문자열 `@id` 엔티티의 속성입니다. 문자열이 정확하게 일치합니다. 매개 변수 `id` 및 `name` 함께 사용할 수 없습니다. | `xcore:offer-activity:124527ab00b2ebbc` |
+| `id` | 엔터티의 `@id` 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확하게 일치합니다. `id` 및 `name` 매개 변수는 함께 사용할 수 없습니다. | `xcore:offer-activity:124527ab00b2ebbc` |
 | `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. 매개 변수 &quot;id&quot;와 &quot;name&quot;은 함께 사용할 수 없습니다. | `LBAR` |
 
 **요청**
@@ -45,7 +45,7 @@ curl -X GET \
 
 **응답**
 
-성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유 의사 결정에 대한 정보를 포함하여 배치 세부 정보를 반환합니다 `@id`.
+성공적인 응답은 컨테이너 ID, 인스턴스 ID 및 고유 결정 `@id`에 대한 정보를 포함하여 배치 세부 정보를 반환합니다.
 
 ```json
 {

@@ -9,7 +9,7 @@ exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 8%
 
 오퍼 라이브러리 API에 PATCH 요청을 하여 컬렉션 한정자(이전의 &quot;태그&quot;)를 수정하거나 업데이트할 수 있습니다.
 
-사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 다음을 참조하십시오. [JSON 패치 설명서](https://jsonpatch.com/).
+사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 공식 [JSON 패치 설명서](https://jsonpatch.com/)를 참조하세요.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -64,7 +64,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **응답**
 
-성공한 응답은 고유한 값을 포함하여 업데이트된 컬렉션 한정자 세부 정보를 반환합니다 `id`.
+성공한 응답이 컬렉션 한정자의 고유한 `id`을(를) 포함하여 업데이트된 세부 정보를 반환합니다.
 
 ```json
 {

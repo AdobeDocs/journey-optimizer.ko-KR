@@ -41,7 +41,7 @@ ht-degree: 97%
 
    * 개인 사용자에게 보내는 메시지의 사본을 보관하려면 **BBC 이메일 옵션**&#x200B;을 활성화합니다. [자세히 알아보기](archiving-support.md#enable-bcc)
 
-   * 구성 **비즈니스 규칙** 받는 사람에게 과도한 요청을 보내는 것을 방지하기 위해. [자세히 알아보기](frequency-rules.md)
+   * 받는 사람을 너무 많이 사용하지 않도록 **비즈니스 규칙**&#x200B;을 구성하세요. [자세히 알아보기](frequency-rules.md)
 
    * Adobe Experience Platform에서 수신자의 주소/전화번호를 여러 개 사용할 수 있는 경우 어느 주소/전화번호를 우선으로 사용할지 정합니다. [자세히 알아보기](primary-email-addresses.md)
 

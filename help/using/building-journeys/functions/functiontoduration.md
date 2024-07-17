@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # toDuration {#toDuration}
 
-인수 값을 duration으로 변환합니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md).
+인수 값을 duration으로 변환합니다. 데이터 형식에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하세요.
 
 ## 카테고리
 

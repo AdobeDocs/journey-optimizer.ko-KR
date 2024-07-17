@@ -25,7 +25,7 @@ ht-degree: 32%
 >* [채널 표면 만들기](../configuration/channel-surfaces.md)
 >* [대상자 시작](../audience/about-audiences.md)
 
-새 캠페인을 만들려면 **[!UICONTROL 캠페인]** 메뉴를 선택한 다음 **[!UICONTROL 캠페인 만들기]**. 기존 라이브 캠페인을 복제하여 새 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate)
+새 캠페인을 만들려면 **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭하십시오. 기존 라이브 캠페인을 복제하여 새 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate)
 
 ## 캠페인 유형 선택 {#campaigntype}
 
@@ -41,23 +41,23 @@ ht-degree: 32%
 
 1. 실행할 캠페인 유형 선택
 
-   * **[!UICONTROL 예약됨 - 마케팅]**: 캠페인을 즉시 또는 지정된 날짜에 실행합니다. 예약된 캠페인은 전송을 목표로 합니다. **마케팅** 메시지. 사용자 인터페이스에서 구성 및 실행됩니다.
+   * **[!UICONTROL 예약됨 - 마케팅]**: 캠페인을 즉시 또는 지정한 날짜에 실행합니다. 예약된 캠페인은 **마케팅** 메시지를 보내는 것을 목표로 합니다. 사용자 인터페이스에서 구성 및 실행됩니다.
 
-   * **[!UICONTROL API 트리거됨 - 마케팅/트랜잭션]**: API 호출을 사용하여 캠페인을 실행합니다. API 트리거 캠페인은 다음 중 하나를 전송하는 것을 목표로 합니다. **마케팅**, 또는 **트랜잭션** 메시지 (예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 전송된 메시지) [API를 사용하여 캠페인을 트리거하는 방법 알아보기](api-triggered-campaigns.md)
+   * **[!UICONTROL API 트리거됨 - 마케팅/트랜잭션]**: API 호출을 사용하여 캠페인을 실행하십시오. API 트리거 캠페인은 **마케팅** 또는 **트랜잭션** 메시지(예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업 후 발송된 메시지)를 보내는 것을 목표로 합니다. [API를 사용하여 캠페인을 트리거하는 방법을 알아봅니다](api-triggered-campaigns.md)
 
    ![](assets/create-campaign-modal.png)
 
-1. 클릭 **[!UICONTROL 만들기]** 캠페인을 만들기 위해 사용됩니다.
+1. 캠페인을 만들려면 **[!UICONTROL 만들기]**&#x200B;를 클릭하십시오.
 
 ## 캠페인 속성 정의 {#create}
 
-1. 다음에서 **[!UICONTROL 속성]** 섹션에서 캠페인의 이름과 설명을 지정합니다.
+1. **[!UICONTROL 속성]** 섹션에서 캠페인의 이름과 설명을 지정하십시오.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. 다음 **태그** 필드를 사용하면 Adobe Experience Platform 통합 태그를 캠페인에 할당할 수 있습니다. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
+1. **태그** 필드를 사용하면 Adobe Experience Platform 통합 태그를 캠페인에 할당할 수 있습니다. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
 
-1. 사용자 지정 또는 핵심 데이터 사용 레이블을 캠페인에 할당하려면 **[!UICONTROL 액세스 관리]** 단추를 클릭합니다. [OLA(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md)
+1. 사용자 지정 또는 핵심 데이터 사용 레이블을 캠페인에 할당하려면 **[!UICONTROL 액세스 관리]** 단추를 클릭하세요. [OLA(개체 수준 액세스 제어)에 대해 자세히 알아보기](../administration/object-based-access.md)
 
 ## 캠페인 대상자 정의 {#audience}
 
@@ -65,13 +65,13 @@ ht-degree: 32%
 
 >[!IMPORTANT]
 >
->의 대상자 및 속성 사용 [대상자 구성](../audience/get-started-audience-orchestration.md) 및 [사용자 지정 업로드 (CSV 파일) 대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 는 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
+>[대상 구성](../audience/get-started-audience-orchestration.md) 및 [사용자 지정 업로드(CSV 파일) 대상](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)의 대상 및 특성을 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
 >
 >API 트리거 캠페인의 경우, API 호출을 통해 대상자를 설정해야 합니다.
 
-1. 다음에서 **대상자** 섹션에서 **[!UICONTROL 대상자 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 대상 목록을 표시합니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)
+1. **대상** 섹션에서 **[!UICONTROL 대상 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 대상 목록을 표시합니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)
 
-1. 다음에서 **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다.
+1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다.
 
    다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타깃팅되지 않습니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
 
@@ -81,7 +81,7 @@ ht-degree: 32%
 
 ## 메시지 만들기 및 추적 구성 {#content}
 
-1. 다음에서 **[!UICONTROL 작업]** 섹션에서 메시지를 보내는 데 사용할 채널 및 표면을 선택합니다.
+1. **[!UICONTROL 작업]** 섹션에서 메시지를 보내는 데 사용할 채널과 표면을 선택합니다.
 
    표면은 [시스템 관리자](../start/path/administrator.md)에 의해 정의된 구성입니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md).
 
@@ -91,9 +91,9 @@ ht-degree: 32%
 
    >[!NOTE]
    >
-   >푸시 알림 캠페인을 만드는 경우 **[!UICONTROL 빠른 전송 모드]**: 대량으로 매우 빠른 푸시 메시지 전송을 허용하는 Journey Optimizer 추가 기능입니다. [자세히 알아보기](../push/create-push.md#rapid-delivery)
+   >푸시 알림 캠페인을 만드는 경우 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 Journey Optimizer 추가 기능인 **[!UICONTROL 빠른 전송 모드]**&#x200B;를 사용하도록 설정할 수 있습니다. [자세히 알아보기](../push/create-push.md#rapid-delivery)
 
-1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 메시지를 만들고 디자인합니다. 다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
+1. 메시지를 만들고 디자인하려면 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하세요. 다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -126,13 +126,13 @@ ht-degree: 32%
     </tr>
     </table>
 
-1. 콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 테스트 프로필로 콘텐츠를 미리 보고 테스트하는 버튼입니다. [자세히 알아보기](../content-management/preview-test.md).
+1. 콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 테스트 프로필로 콘텐츠를 미리 보고 테스트하십시오. [자세히 알아보기](../content-management/preview-test.md).
 
 1. 화살표를 클릭하여 캠페인 만들기 화면으로 돌아갑니다.
 
    ![](assets/create-campaign-design.png)
 
-1. 다음에서 **[!UICONTROL 작업 추적]** 섹션, 수신자가 게재에 반응하는 방식을 추적할지 여부를 지정합니다. 클릭 및/또는 열기를 추적할 수 있습니다.
+1. **[!UICONTROL 작업 추적]** 섹션에서 수신자가 게재에 반응하는 방식을 추적할지 여부를 지정합니다. 클릭 및/또는 열기를 추적할 수 있습니다.
 
    캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../reports/campaign-global-report.md)
 
@@ -160,9 +160,9 @@ ht-degree: 32%
 
 기본적으로 캠페인은 수동으로 활성화되면 시작되고 메시지가 한 번 전송되는 즉시 종료됩니다.
 
-캠페인 메시지를 전송해야 하는 빈도를 정의할 수 있습니다. 이렇게 하려면 **[!UICONTROL 작업 트리거]** 캠페인 만들기 화면의 옵션을 사용하여 캠페인을 일별, 주별 또는 월별 단위로 실행할지 지정할 수 있습니다.
+캠페인 메시지를 전송해야 하는 빈도를 정의할 수 있습니다. 이렇게 하려면 캠페인 만들기 화면에서 **[!UICONTROL 작업 트리거]** 옵션을 사용하여 캠페인을 매일, 매주 또는 매월 실행할지 여부를 지정합니다.
 
-활성화 직후 캠페인을 실행하지 않으려면 다음을 사용하여 메시지를 전송해야 하는 날짜 및 시간을 지정할 수 있습니다. **[!UICONTROL 캠페인 시작]** 옵션을 선택합니다. 다음 **[!UICONTROL 캠페인 종료]** 옵션을 사용하면 반복 캠페인의 실행을 중지해야 하는 시기를 지정할 수 있습니다.
+활성화 직후 캠페인을 실행하지 않으려면 **[!UICONTROL 캠페인 시작]** 옵션을 사용하여 메시지를 보낼 날짜와 시간을 지정할 수 있습니다. **[!UICONTROL 캠페인 끝]** 옵션을 사용하면 반복 캠페인의 실행을 중지해야 하는 시기를 지정할 수 있습니다.
 
 ![](assets/create-campaign-schedule.png)
 

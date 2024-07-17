@@ -17,7 +17,7 @@ ht-degree: 4%
 
 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 하는 오퍼의 하위 집합입니다.
 
-에 GET 요청을 하여 특정 컬렉션을 조회할 수 있습니다. [!DNL Offer Library] 컬렉션을 포함하는 API `id` 요청 경로에서.
+요청 경로에 `id` 컬렉션을 포함하는 [!DNL Offer Library] API에 대한 GET 요청을 수행하여 특정 컬렉션을 조회할 수 있습니다.
 
 **API 형식**
 
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-collections/offerColl
 
 **응답**
 
-성공적인 응답은 고유 컬렉션에 대한 정보를 포함하여 컬렉션 세부 정보를 반환합니다 `id`.
+성공한 응답은 고유 컬렉션 `id`에 대한 정보를 포함하여 컬렉션 세부 정보를 반환합니다.
 
 ```json
 {

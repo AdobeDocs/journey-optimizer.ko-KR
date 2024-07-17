@@ -9,17 +9,17 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
 # 배치 만들기 {#create-placement}
 
-에 POST 요청을 하여 배치를 생성할 수 있습니다. [!DNL Offer Library] API.
+[!DNL Offer Library] API에 대한 POST 요청을 수행하여 배치를 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
-다음 표는 다음을 구성하는 유효한 값을 보여줍니다. *Content-Type* 요청 헤더의 필드:
+다음 표는 요청 헤더의 *Content-Type* 필드를 구성하는 올바른 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
@@ -66,7 +66,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/placements' \
 
 **응답**
 
-성공적으로 응답하면 새로 만든 배치 및 배치의 세부 정보가 반환됩니다 `id`. 이후 단계를 사용하여 배치를 업데이트하거나 삭제할 수 있습니다. 고유한 배치를 사용할 수 있습니다 `id` 의사 결정, 의사 결정 규칙 및 대체 오퍼를 만드는 데 사용할 수 있는 나중 튜토리얼에서.
+응답이 성공하면 새로 만든 배치 및 배치 `id`의 세부 정보가 반환됩니다. 이후 단계를 사용하여 배치를 업데이트하거나 삭제할 수 있습니다. 나중 자습서에서 고유한 배치 `id`을(를) 사용하여 의사 결정, 의사 결정 규칙 및 대체 오퍼를 만들 수 있습니다.
 
 ```json
 {

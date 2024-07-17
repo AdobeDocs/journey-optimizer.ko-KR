@@ -16,7 +16,7 @@ ht-degree: 10%
 
 # toDateOnly{#toDateOnly}
 
-인수를 dateOnly 형식 값으로 변환합니다. 데이터 유형에 대한 자세한 내용은 다음을 참조하십시오. [섹션](../expression/data-types.md).
+인수를 dateOnly 형식 값으로 변환합니다. 데이터 형식에 대한 자세한 내용은 이 [섹션](../expression/data-types.md)을 참조하세요.
 
 ## 카테고리
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 | 매개변수 | 유형 |
 |-----------|------------------|
-| 날짜를 &quot;YYYY-MM-DD&quot;로 나타내는 문자열 표현(XDM 형식). 또한 ISO-8601 형식만 지원합니다. **전체 날짜** 부품이 고려됩니다(참조). [RFC 3339, 섹션 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | 문자열 |
+| 날짜를 &quot;YYYY-MM-DD&quot;로 나타내는 문자열 표현(XDM 형식). 또한 ISO-8601 형식을 지원합니다. **전체 날짜** 부분만 고려됩니다([RFC 3339, 섹션 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) 참조). | 문자열 |
 | 날짜 시간 | dateTime |
 | 시간대 없는 날짜 시간 | dateTimeOnly |
 | 에포크의 정수 값(밀리초) | 정수 |

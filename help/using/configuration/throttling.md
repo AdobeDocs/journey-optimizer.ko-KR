@@ -19,7 +19,7 @@ ht-degree: 91%
 
 Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제한 구성을 만들고 구성하고 모니터링하는 데 도움이 됩니다.
 
-이 섹션에서는 API 작업 방법에 대한 전역 정보를 제공합니다. 자세한 API 설명은에서 사용할 수 있습니다. [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/).
+이 섹션에서는 API 작업 방법에 대한 전역 정보를 제공합니다. 자세한 API 설명은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/)에서 확인할 수 있습니다.
 
 >[!IMPORTANT]
 >

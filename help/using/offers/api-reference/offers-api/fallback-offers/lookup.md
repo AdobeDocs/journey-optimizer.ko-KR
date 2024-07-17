@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 대체 오퍼 조회 {#look-up-fallback-offers}
 
-에 GET 요청을 하여 특정 대체 오퍼를 조회할 수 있습니다. [!DNL Offer Library] 요청 경로에 대체 오퍼 ID를 포함하는 API입니다.
+요청 경로에 대체 오퍼 ID가 포함된 [!DNL Offer Library] API에 대한 GET 요청을 수행하면 특정 대체 오퍼를 조회할 수 있습니다.
 
 **API 형식**
 

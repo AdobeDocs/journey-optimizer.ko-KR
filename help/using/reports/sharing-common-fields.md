@@ -17,16 +17,16 @@ ht-degree: 0%
 
 # journeysteps 이벤트 공통 필드 {#sharing-common-fields}
 
-이 필드 그룹은 다음 이벤트에 의해 공유됩니다. **journeyStepEvent** 및 **journeyStepProfileEvent**.
+이 필드 그룹은 **journeyStepEvent** 및 **journeyStepProfileEvent** 이벤트에 의해 공유됩니다.
 
-이는 다음과 같은 일반적인 XDM 필드입니다. [!DNL Journey Optimizer] 는 Adobe Experience Platform으로 전송합니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 사용자 지정 작업 및 보강에는 더 구체적인 필드가 사용됩니다.
+[!DNL Journey Optimizer]이(가) Adobe Experience Platform으로 보내는 일반적인 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 사용자 지정 작업 및 보강에는 더 구체적인 필드가 사용됩니다.
 
 이러한 필드 중 일부는 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다 이벤트 크기를 제한하기 위해
 
 
 >[!NOTE]
 >
->여정 속성 속성에 대해 자세히 알아보기 [이 섹션에서](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>이 섹션](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에서 여정 속성 특성 [에 대해 자세히 알아보세요.
 
 
 ## 입구 {#entrance-field}

@@ -18,10 +18,10 @@ ht-degree: 33%
 
 # 이메일 콘텐츠 가져오기 {#existing-content}
 
-[!DNL Journey Optimizer] 기존 HTML 콘텐츠를 가져와서 이메일을 디자인할 수 있습니다. 이 콘텐츠는 다음 중 하나일 수 있습니다.
+[!DNL Journey Optimizer]을(를) 사용하면 기존 HTML 콘텐츠를 가져와서 전자 메일을 디자인할 수 있습니다. 이 콘텐츠는 다음 중 하나일 수 있습니다.
 
-* An **HTML 파일** 통합 스타일 시트 포함
-* A **.zip 폴더** HTML 파일, 스타일 시트(.css) 및 이미지를 포함합니다.
+* 통합 스타일시트가 있는 **HTML 파일**;
+* HTML 파일, 스타일 시트(.css) 및 이미지를 포함하는 **.zip 폴더**.
 
   >[!NOTE]
   >
@@ -29,7 +29,7 @@ ht-degree: 33%
 
 HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십시오.
 
-1. Email Designer 홈 페이지에서 **[!UICONTROL 가져오기 HTML]**.
+1. 이메일 Designer 홈 페이지에서 **[!UICONTROL HTML 가져오기]**&#x200B;를 선택합니다.
 
    ![](assets/import-html_2.png)
 
@@ -37,19 +37,19 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십
 
    ![](assets/html-imported_2.png)
 
-1. HTML 콘텐츠가 업로드되면 해당 콘텐츠가 **[!UICONTROL 호환성 모드]**.
+1. HTML 콘텐츠를 업로드하면 콘텐츠가 **[!UICONTROL 호환성 모드]**&#x200B;에 있게 됩니다.
 
    이 모드에서는 텍스트를 개인화하거나, 링크를 추가하거나, 콘텐츠에 에셋을 포함할 수 있습니다.
 
-1. 이메일 디자이너 콘텐츠 구성 요소를 활용하려면 **[!UICONTROL HTML 변환기]** tab 키를 누른 다음 클릭 **[!UICONTROL 전환]**.
+1. 이메일 Designer 콘텐츠 구성 요소를 활용하려면 **[!UICONTROL HTML 변환기]** 탭에 액세스하여 **[!UICONTROL 변환]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/html-imported.png)
 
    >[!NOTE]
    >
-   > 사용 `<table>` 태그는 HTML 파일의 첫 번째 레이어로, 맨 위 레이어 태그의 배경 및 너비 설정을 포함하여 스타일이 손실될 수 있습니다.
+   > `<table>` 태그를 HTML 파일의 첫 번째 레이어로 사용하면 맨 위 레이어 태그의 배경 및 너비 설정을 포함하여 스타일이 손실될 수 있습니다.
 
-1. 이제 이메일 디자이너 기능을 사용하여 필요에 따라 가져온 파일을 개인화할 수 있습니다 [자세히 알아보기](content-from-scratch.md).
+1. 이제 필요에 따라 가져온 파일을 전자 메일 Designer 기능 [자세히 알아보기](content-from-scratch.md)을 통해 개인화할 수 있습니다.
 
 ## 방법 비디오 {#video}
 

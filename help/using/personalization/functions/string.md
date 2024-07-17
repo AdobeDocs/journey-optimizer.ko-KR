@@ -19,7 +19,7 @@ ht-degree: 9%
 
 ## 카멜 대/소문자 {#camelCase}
 
-다음 `camelCase` 함수는 문자열의 각 단어의 첫 번째 문자를 대문자로 바꿉니다.
+`camelCase` 함수는 문자열의 각 단어의 첫 번째 문자를 대문자로 바꿉니다.
 
 **구문**
 
@@ -37,7 +37,7 @@ ht-degree: 9%
 
 ## 의 문자 코드 {#char-code-at}
 
-다음 `charCodeAt` 함수는 JavaScript의 charCodeAt 함수와 같은 문자의 ASCII 값을 반환합니다. 이 메서드는 문자열과 정수(문자 위치를 정의함)를 입력 인수로 사용하고 해당 ASCII 값을 반환합니다.
+`charCodeAt` 함수는 JavaScript의 charCodeAt 함수와 같은 문자의 ASCII 값을 반환합니다. 이 메서드는 문자열과 정수(문자 위치를 정의함)를 입력 인수로 사용하고 해당 ASCII 값을 반환합니다.
 
 **구문**
 
@@ -55,7 +55,7 @@ ht-degree: 9%
 
 ## Concat {#concate}
 
-다음 `concat` 함수는 2개의 문자열을 하나로 결합합니다.
+`concat` 함수는 2개의 문자열을 하나로 결합합니다.
 
 **구문**
 
@@ -73,7 +73,7 @@ ht-degree: 9%
 
 ## 다음 포함 {#contains}
 
-다음 `contains` 함수는 문자열에 지정된 하위 문자열이 포함되어 있는지 확인하는 데 사용합니다.
+`contains` 함수는 문자열에 지정된 하위 문자열이 포함되어 있는지 확인하는 데 사용합니다.
 
 **구문**
 
@@ -103,7 +103,7 @@ ht-degree: 9%
 
 ## 포함하지 않음{#doesNotContain}
 
-다음 `doesNotContain` 함수는 문자열에 지정된 하위 문자열이 포함되어 있지 않은지 확인하는 데 사용합니다.
+`doesNotContain` 함수는 문자열에 지정된 하위 문자열이 포함되어 있지 않은지 확인하는 데 사용합니다.
 
 **구문**
 
@@ -128,7 +128,7 @@ ht-degree: 9%
 
 ## 다음으로 끝나지 않음{#doesNotEndWith}
 
-다음 `doesNotEndWith` 함수는 문자열이 지정된 하위 문자열로 끝나지 않은지 확인하는 데 사용합니다.
+`doesNotEndWith` 함수는 문자열이 지정된 하위 문자열로 끝나지 않은지 확인하는 데 사용합니다.
 
 **구문**
 
@@ -152,7 +152,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 다음으로 시작하지 않음{#doesNotStartWith}
 
-다음 `doesNotStartWith` 함수는 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.
+`doesNotStartWith` 함수는 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.
 
 **구문**
 
@@ -176,7 +176,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 인코딩 64{#encode64}
 
-다음 `encode64` 함수는 예를 들어 URL에 포함할 경우 PI(개인 정보)를 보존하기 위해 문자열을 인코딩하는 데 사용됩니다.
+`encode64` 함수는 URL에 포함될 경우 PI(개인 정보)를 보존하기 위해 문자열을 인코딩하는 데 사용됩니다.
 
 **구문**
 
@@ -186,7 +186,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 다음으로 끝남{#endsWith}
 
-다음 `endsWith` 함수는 문자열이 지정된 하위 문자열로 끝나는지 확인하는 데 사용합니다.
+`endsWith` 함수는 문자열이 지정된 하위 문자열로 끝나는지 확인하는 데 사용합니다.
 
 **구문**
 
@@ -211,7 +211,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 같음{#equals}
 
-다음 `equals` 함수는 대/소문자를 구분하고 문자열이 지정된 문자열과 같은지 확인하는 데 사용합니다.
+`equals` 함수는 문자열이 지정된 문자열과 같은지 대/소문자를 구분합니다.
 
 **구문**
 
@@ -234,7 +234,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 대/소문자 무시와 같음{#equalsIgnoreCase}
 
-다음 `equalsIgnoreCase` 함수는 대/소문자를 구분하지 않고 문자열이 지정된 문자열과 같은지 확인하는 데 사용합니다.
+`equalsIgnoreCase` 함수는 대/소문자를 구분하지 않고 문자열이 지정된 문자열과 같은지 확인하는 데 사용합니다.
 
 **구문**
 
@@ -257,7 +257,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 이메일 도메인 추출 {#extractEmailDomain}
 
-다음 `extractEmailDomain` 함수는 이메일 주소의 도메인을 추출하는 데 사용합니다.
+`extractEmailDomain` 함수는 전자 메일 주소의 도메인을 추출하는 데 사용됩니다.
 
 **구문**
 
@@ -275,7 +275,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 통화 포맷 {#format-currency}
 
-다음 `formatCurrency` 함수는 두 번째 인수에서 문자열로 전달된 로케일에 따라 모든 숫자를 해당 언어 구분 통화 표시로 변환하는 데 사용합니다.
+`formatCurrency` 함수는 두 번째 인수에서 문자열로 전달된 로케일에 따라 모든 숫자를 해당 언어 구분 통화 표시로 변환하는 데 사용합니다.
 
 **구문**
 
@@ -293,7 +293,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## URL 호스트 다운로드 {#get-url-host}
 
-다음 `getUrlHost` 함수는 URL의 호스트 이름을 검색하는 데 사용됩니다.
+`getUrlHost` 함수는 URL의 호스트 이름을 검색하는 데 사용됩니다.
 
 **구문**
 
@@ -311,7 +311,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## URL 경로 다운로드 {#get-url-path}
 
-다음 `getUrlPath` 함수는 URL의 도메인 이름 뒤에 있는 경로를 검색하는 데 사용됩니다.
+`getUrlPath` 함수는 URL의 도메인 이름 뒤에 있는 경로를 검색하는 데 사용됩니다.
 
 **구문**
 
@@ -329,7 +329,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## URL 프로토콜 다운로드 {#get-url-protocol}
 
-다음 `getUrlProtocol` 함수는 URL의 프로토콜을 검색하는 데 사용됩니다.
+`getUrlProtocol` 함수는 URL의 프로토콜을 검색하는 데 사용됩니다.
 
 **구문**
 
@@ -347,7 +347,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 색인 {#index-of}
 
-다음 `indexOf` 함수는 (첫 번째 인수에서) 두 번째 매개 변수의 첫 번째 발생 횟수 위치를 반환하는 데 사용됩니다. 일치하는 항목이 없으면 -1을 반환합니다.
+`indexOf` 함수는 첫 번째 인수에서 두 번째 매개 변수의 첫 번째 발생 횟수 위치를 반환하는 데 사용됩니다. 일치하는 항목이 없으면 -1을 반환합니다.
 
 **구문**
 
@@ -370,7 +370,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 비어 있음 {#isEmpty}
 
-다음 `isEmpty` 문자열이 비어 있는지 확인하는 데 함수를 사용합니다.
+`isEmpty` 함수는 문자열이 비어 있는지 확인하는 데 사용합니다.
 
 **구문**
 
@@ -388,7 +388,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 비어 있지 않음 {#is-not-empty}
 
-다음 `isNotEmpty` 문자열이 비어 있지 않은지 확인하는 데 함수를 사용합니다.
+`isNotEmpty` 함수는 문자열이 비어 있지 않은지 확인하는 데 사용합니다.
 
 **구문**
 
@@ -406,7 +406,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 마지막 색인 {#last-index-of}
 
-다음 `lastIndexOf` 함수는 (첫 번째 인수에서) 두 번째 매개 변수의 마지막 발생 횟수 위치를 반환하는 데 사용합니다. 일치하는 항목이 없으면 -1을 반환합니다.
+`lastIndexOf` 함수는 두 번째 매개 변수의 마지막 발생 횟수 위치(첫 번째 인수에서)를 반환하는 데 사용됩니다. 일치하는 항목이 없으면 -1을 반환합니다.
 
 **구문**
 
@@ -429,7 +429,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Left trim {#leftTrim}
 
-다음 `leftTrim` 함수는 문자열의 시작에서 공백을 제거하는 데 사용합니다.
+`leftTrim` 함수는 문자열의 시작에서 공백을 제거하는 데 사용합니다.
 
 **구문**
 
@@ -439,7 +439,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 길이 {#length}
 
-다음 `length` 함수는 문자열 또는 표현식의 문자 수를 가져오는 데 사용합니다.
+`length` 함수는 문자열 또는 식의 문자 수를 가져오는 데 사용됩니다.
 
 **구문**
 
@@ -457,7 +457,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 좋아요{#like}
 
-다음 `like` 함수는 문자열이 지정된 패턴과 일치하는지 확인하는 데 사용합니다.
+`like` 함수는 문자열이 지정된 패턴과 일치하는지 확인하는 데 사용합니다.
 
 **구문**
 
@@ -468,7 +468,7 @@ doesNotEndWith(person.emailAddress,".com")
 | 인수 | 설명 |
 | --------- | ----------- |
 | `{STRING_1}` | 확인을 수행하는 문자열입니다. |
-| `{STRING_2}` | 첫 번째 문자열과 일치하는 표현식. 표현식을 만드는 데 지원되는 두 가지 특수 문자는 다음과 같습니다. `%` 및 `_`. <ul><li>`%` 는 0개 이상의 문자를 나타내는 데 사용됩니다.</li><li>`_` 는 정확히 하나의 문자를 나타내는 데 사용됩니다.</li></ul> |
+| `{STRING_2}` | 첫 번째 문자열과 일치하는 표현식. 식을 만드는 데 지원되는 특수 문자 `%`과(와) `_`이(가) 있습니다. <ul><li>`%`은(는) 0개 이상의 문자를 나타내는 데 사용됩니다.</li><li>`_`은(는) 정확히 하나의 문자를 나타내는 데 사용됩니다.</li></ul> |
 
 **예**
 
@@ -480,7 +480,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 소문자{#lower}
 
-다음 `lowerCase` 함수는 문자열을 소문자로 변환합니다.
+`lowerCase` 함수는 문자열을 소문자로 변환합니다.
 
 **구문**
 
@@ -498,7 +498,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 일치{#matches}
 
-다음 `matches` 함수는 문자열이 특정 정규 표현식과 일치하는지 확인하는 데 사용합니다. 다음을 참조하십시오. [이 문서](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) 를 참조하십시오.
+`matches` 함수는 문자열이 특정 정규 표현식과 일치하는지 확인하는 데 사용합니다. 정규식의 일치 패턴에 대한 자세한 내용은 [이 문서](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)를 참조하십시오.
 
 **구문**
 
@@ -516,7 +516,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 마스크 {#mask}
 
-다음 `Mask` 함수는 문자열의 일부를 &quot;X&quot; 문자로 바꾸는 데 사용합니다.
+`Mask` 함수는 문자열의 일부를 &quot;X&quot; 문자로 바꾸는 데 사용합니다.
 
 **구문**
 
@@ -532,11 +532,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= mask("123456789",1,2) %}
 ```
 
-쿼리가 반환함 `1XXXXXX89`.
+쿼리가 `1XXXXXX89`을(를) 반환합니다.
 
 ## MD5 {#md5}
 
-다음 `md5` 함수는 문자열의 md5 해시를 계산하고 반환하는 데 사용합니다.
+`md5` 함수는 문자열의 md5 해시를 계산하고 반환하는 데 사용됩니다.
 
 **구문**
 
@@ -554,7 +554,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 다음과 같지 않음{#notEqualTo}
 
-다음 `notEqualTo` 함수는 문자열이 지정된 문자열과 같지 않은지 확인하는 데 사용합니다.
+`notEqualTo` 함수는 문자열이 지정된 문자열과 같지 않은지 확인하는 데 사용합니다.
 
 **구문**
 
@@ -577,7 +577,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 대/소문자 무시와 같지 않음 {#not-equal-with-ignore-case}
 
-다음 `notEqualWithIgnoreCase` 함수는 대/소문자를 무시하는 2개의 문자열을 비교하는 데 사용합니다.
+`notEqualWithIgnoreCase` 함수는 대/소문자를 무시하는 두 문자열을 비교하는 데 사용됩니다.
 
 **구문**
 
@@ -600,7 +600,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 정규 표현식 그룹{#regexGroup}
 
-다음 `Group` 제공된 정규 표현식을 기반으로 특정 정보를 추출하는 데 함수를 사용합니다.
+`Group` 함수는 제공된 정규 표현식을 기반으로 특정 정보를 추출하는 데 사용됩니다.
 
 **구문**
 
@@ -624,7 +624,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 바꾸기 {#replace}
 
-다음 `replace` 함수는 문자열에서 지정된 하위 문자열을 다른 하위 문자열로 바꾸는 데 사용합니다.
+`replace` 함수는 문자열에서 지정된 하위 문자열을 다른 하위 문자열로 바꾸는 데 사용합니다.
 
 **구문**
 
@@ -648,7 +648,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 모두 바꾸기{#replaceAll}
 
-다음 `replaceAll` 함수는 &quot;regex&quot; 표현식과 일치하는 텍스트의 모든 하위 문자열을 지정된 리터럴 &quot;replacement&quot; 문자열로 바꾸는 데 사용합니다. Regex에는 &quot;\&quot; 및 &quot;+&quot;를 특수 처리하는 기능이 있으며 모든 regex 표현식은 PQL 이스케이프 전략을 따릅니다. 교체는 문자열 시작부터 끝까지 진행됩니다. 예를 들어, 문자열 &quot;aaa&quot;에서 &quot;aa&quot;를 &quot;b&quot;로 바꾸면 &quot;ab&quot;가 아닌 &quot;ba&quot;가 생성됩니다.
+`replaceAll` 함수는 &quot;regex&quot; 식과 일치하는 텍스트의 모든 하위 문자열을 지정된 리터럴 &quot;replacement&quot; 문자열로 바꾸는 데 사용됩니다. Regex에는 &quot;\&quot; 및 &quot;+&quot;를 특별히 처리하는 기능이 있으며 모든 regex 표현식은 PQL 이스케이프 전략을 따릅니다. 교체는 문자열 시작부터 끝까지 진행됩니다. 예를 들어, 문자열 &quot;aaa&quot;에서 &quot;aa&quot;를 &quot;b&quot;로 바꾸면 &quot;ab&quot;가 아닌 &quot;ba&quot;가 생성됩니다.
 
 **구문**
 
@@ -658,14 +658,14 @@ doesNotEndWith(person.emailAddress,".com")
 
 >[!NOTE]
 >
-> 두 번째 인수로 취한 표현식이 특수 정규 표현식인 경우 이중 백슬래시(`//`).  특수 정규 표현식 문자는 [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
+> 두 번째 인수로 사용된 식이 특수 정규 표현식 문자인 경우 이중 백슬래시(`//`)를 사용합니다.  특수 정규 표현식 문자는 [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
-> 다음에서 자세히 알아보기 [Oracle 설명서](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> 자세한 내용은 [Oracle 설명서](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}를 참조하세요.
 >
 
 ## 오른쪽 트림 {#rightTrim}
 
-다음 `rightTrim` 이 함수는 문자열 끝에서 공백을 제거합니다.
+`rightTrim` 함수를 사용하면 문자열 끝에서 공백이 제거됩니다.
 
 **구문**
 
@@ -675,7 +675,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 분할 {#split}
 
-다음 `split` 함수는 특정 문자로 문자열을 분할하는 데 사용합니다.
+`split` 함수는 특정 문자로 문자열을 분할하는 데 사용합니다.
 
 **구문**
 
@@ -685,7 +685,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 다음으로 시작{#startsWith}
 
-다음 `startsWith` 함수는 문자열이 지정된 하위 문자열로 시작하는지 확인하는 데 사용합니다.
+`startsWith` 함수는 문자열이 지정된 하위 문자열로 시작하는지 확인하는 데 사용합니다.
 
 **구문**
 
@@ -709,7 +709,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 문자열을 날짜로 변환 {#string-to-date}
 
-다음 `stringToDate` 함수는 문자열 값을 날짜-시간 값으로 변환합니다. 이 메서드에는 날짜-시간의 문자열 표현과 포맷터의 문자열 표현이라는 두 가지 인수가 사용됩니다.
+`stringToDate` 함수는 문자열 값을 날짜-시간 값으로 변환합니다. 이 메서드에는 날짜-시간의 문자열 표현과 포맷터의 문자열 표현이라는 두 가지 인수가 사용됩니다.
 
 **구문**
 
@@ -725,7 +725,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 문자열을 정수로 변환 {#string-to-integer}
 
-다음 `string_to_integer` 함수는 문자열 값을 정수 값으로 변환하는 데 사용합니다.
+`string_to_integer` 함수는 문자열 값을 정수 값으로 변환하는 데 사용합니다.
 
 **구문**
 
@@ -735,7 +735,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 문자열을 숫자로 변환 {#string-to-number}
 
-다음 `stringToNumber` 함수는 문자열을 숫자로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력과 동일한 문자열을 반환합니다.
+`stringToNumber` 함수는 문자열을 숫자로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력과 동일한 문자열을 반환합니다.
 
 **구문**
 
@@ -745,7 +745,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 하위 문자열 {#sub-string}
 
-다음 `Count string` 함수는 시작 색인과 종료 색인 사이에 있는 문자열 표현식의 하위 문자열을 반환하는 데 사용합니다.
+`Count string` 함수는 시작 인덱스와 끝 인덱스 사이에 문자열 식의 하위 문자열을 반환하는 데 사용됩니다.
 **구문**
 
 ```sql
@@ -754,7 +754,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 제목 대/소문자{#titleCase}
 
-다음 **titleCase** 함수는 문자열의 각 단어의 첫 문자를 대문자로 사용하는 데 사용합니다.
+**titleCase** 함수는 문자열의 각 단어의 첫 글자를 대문자로 사용하는 데 사용됩니다.
 
 **구문**
 
@@ -772,7 +772,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 부울로 변환 {#to-bool}
 
-다음 `toBool` 함수는 인수 유형에 따라 인수 값을 부울 값으로 변환하는 데 사용합니다.
+`toBool` 함수는 인수 유형에 따라 인수 값을 부울 값으로 변환하는 데 사용합니다.
 
 **구문**
 
@@ -782,7 +782,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 날짜로 변환 {#to-date-time}
 
-다음 `toDateTime` 함수는 문자열을 날짜로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.
+`toDateTime` 함수는 문자열을 날짜로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.
 
 **구문**
 
@@ -792,7 +792,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 날짜/시간로만 변환 {#to-date-time-only}
 
-다음 `toDateTimeOnly` 함수는 인수 값을 날짜/시간 전용 값으로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다. 이 함수는 문자열, 날짜, long 및 int 필드 유형을 수락합니다.
+`toDateTimeOnly` 함수는 인수 값을 날짜/시간 전용 값으로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다. 이 함수는 문자열, 날짜, long 및 int 필드 유형을 수락합니다.
 
 **구문**
 
@@ -802,7 +802,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 트리밍 {#trim}
 
-다음 **trim** 함수는 문자열의 시작과 끝에서 모든 공백을 제거합니다.
+**trim** 함수는 문자열의 시작과 끝에서 모든 공백을 제거합니다.
 
 **구문**
 
@@ -812,7 +812,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 대문자{#upper}
 
-다음 **upperCase** 함수는 문자열을 대문자로 변환합니다.
+**upperCase** 함수는 문자열을 대문자로 변환합니다.
 
 **구문**
 
@@ -830,7 +830,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## URL 디코드 {#url-decode}
 
-다음 `urlDecode` 함수는 url로 인코딩된 문자열을 디코딩하는 데 사용합니다.
+`urlDecode` 함수는 URL로 인코딩된 문자열을 디코딩하는 데 사용됩니다.
 
 **구문**
 
@@ -840,7 +840,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## URL 인코드 {#url-encode}
 
-다음 `Count only null` 함수는 문자열을 url 인코딩하는 데 사용합니다.
+`Count only null` 함수는 문자열을 URL 인코딩하는 데 사용됩니다.
 
 **구문**
 

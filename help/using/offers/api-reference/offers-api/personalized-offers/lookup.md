@@ -17,7 +17,7 @@ ht-degree: 4%
 
 맞춤형 오퍼는 자격 규칙 및 제한에 따라 사용자 정의 가능한 마케팅 메시지입니다.
 
-에 GET 요청을 하여 개인화된 특정 오퍼를 조회할 수 있습니다. [!DNL Offer Library] 요청 경로에 개인화된 오퍼 ID를 포함하는 API입니다.
+요청 경로에 개인화된 GET ID가 포함된 [!DNL Offer Library] API에 대한 요청을 수행하면 개인화된 특정 오퍼를 조회할 수 있습니다.
 
 **API 형식**
 
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer123
 
 **응답**
 
-성공적인 응답은 고유한 개인화된 오퍼에 대한 정보를 포함하여 개인화된 오퍼의 세부 정보를 반환합니다 `id`.
+응답이 성공하면 고유한 맞춤형 오퍼 `id`에 대한 정보를 포함하여 맞춤형 오퍼의 세부 정보가 반환됩니다.
 
 ```json
 {
