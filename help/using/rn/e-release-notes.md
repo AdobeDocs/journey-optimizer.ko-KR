@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4dc269b0671b99eaddeebf358ebe4e45f5c4c721
+source-git-commit: f0b08b9cb9c12f7920e5a26a565b34b4bec8c84a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 30%
+source-wordcount: '446'
+ht-degree: 31%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 30%
 
 * (가용성: 7월 8일) 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 이벤트 ID 조건에서 더 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md#adv-exp-editor)
 
-* 이제 테스트 모드 중에 `event-id` 조건이 자동으로 채워집니다.
+<!--* The `event-id` condition is now automatically filled during test mode. -->
 
 **SMS 채널**
 
