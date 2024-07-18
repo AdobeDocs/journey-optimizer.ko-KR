@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
+source-git-commit: 7dfedb1b66101204b4923ddeb7793c80887ebdc0
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '590'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ Journey Optimizer에서 SMS 메시지 및 MMS를 전송하도록 Sinch 공급자
 
    * **[!UICONTROL 이중 옵트인 메시지]**: 이중 옵트인 확인에 대한 응답으로 자동으로 전송되는 사용자 지정 응답을 입력하십시오.
 
-   * **[!UICONTROL 인바운드 번호]**: 고유한 인바운드 번호를 추가합니다. 이를 통해 서로 다른 샌드박스에서 동일한 API 자격 증명을 사용할 수 있으며, 각 샌드박스는 고유한 인바운드 번호를 가지고 있습니다.
+   * **[!UICONTROL 인바운드 번호]**: 고유한 인바운드 번호 또는 짧은 코드를 추가합니다. 이를 통해 서로 다른 샌드박스에서 동일한 API 자격 증명을 사용할 수 있습니다. 각 샌드박스는 고유한 인바운드 번호 또는 짧은 코드를 갖습니다.
 
 1. API 자격 증명 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
