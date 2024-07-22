@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9a00387d0f44fd989dd9019cef33e3223b1701de
+source-git-commit: c64d0dbc41089fa50f0fbc4829ba60818dd25a37
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 44%
+source-wordcount: '281'
+ht-degree: 49%
 
 ---
 
@@ -138,10 +138,10 @@ ht-degree: 44%
 
 * 이제 인앱 채널에 표현식 조각을 사용할 수 있습니다.
 
-**푸시 채널**
-
-* 이제 Adobe Journey Optimizer 채널 구성 설정 내에 모바일 애플리케이션 푸시 자격 증명을 추가할 수 있습니다. Adobe Experience Platform 데이터 수집에서 앱 표면 생성이 더 이상 필요하지 않습니다.
-
 **대상자**
 
 * 이제 사용자 지정 업로드(CSV 파일)의 대상을 Privacy 및 Security Shield와 함께 사용할 수 있습니다.
+<!--
+**Push channel**
+
+* You can now add your mobile application push credentials inside Adobe Journey Optimizer channel configuration settings. Creating an App surface in Adobe Experience Platform Data Collection is no longer required.-->
