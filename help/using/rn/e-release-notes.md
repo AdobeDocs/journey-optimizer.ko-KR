@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2387b9912b1c4c2272643a85de6f5dcc9477b2cd
+source-git-commit: 9a00387d0f44fd989dd9019cef33e3223b1701de
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 43%
+source-wordcount: '313'
+ht-degree: 44%
 
 ---
 
@@ -144,4 +144,4 @@ ht-degree: 43%
 
 **대상자**
 
-* 이제 대상 구성 및 사용자 지정 업로드(CSV 파일)의 대상 및 속성을 Healthcare Shield 및 Privacy &amp; Security Shield 추가 기능과 함께 사용할 수 있습니다.
+* 이제 사용자 지정 업로드(CSV 파일)의 대상을 Privacy 및 Security Shield와 함께 사용할 수 있습니다.
