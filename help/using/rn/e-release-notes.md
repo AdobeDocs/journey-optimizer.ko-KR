@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c64d0dbc41089fa50f0fbc4829ba60818dd25a37
+source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 49%
+source-wordcount: '237'
+ht-degree: 58%
 
 ---
 
@@ -62,24 +62,20 @@ ht-degree: 49%
 </tbody>
 </table>
 
-
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>사용자 지정 작업 Marketo Engage</strong><br/></th>
+<th><strong>Marketo Engage custom action</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer을 Adobe Marketo Engage과 통합하여 B2B 사용 사례를 빌드할 수 있습니다. 여정에서 새로운 사용자 지정 작업을 통해 데이터를 Marketo으로 수집할 수 있습니다.</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>You can now integrate Adobe Journey Optimizer with Adobe Marketo Engage to build your B2B use cases. From a journey, a new custom action allows you to ingest data into Marketo.</p>
 </td>
 </tr>
 </tbody>
-</table>
-
+</table-->
 
 <!--table>
 <thead>
@@ -130,9 +126,9 @@ ht-degree: 49%
 
 <!--* The `event-id` condition is now automatically filled during test mode. -->
 
-**SMS 채널**
+<!--**SMS channel**
 
-* 이제 기존 SMS 구성을 수정할 수 있습니다.
+* You can now modify existing SMS configurations.-->
 
 **인앱 채널**
 
