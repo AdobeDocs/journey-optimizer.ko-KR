@@ -10,10 +10,10 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
+source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 33%
+source-wordcount: '252'
+ht-degree: 20%
 
 ---
 
@@ -31,10 +31,19 @@ Journey Optimizer을 사용하면 두 가지 서로 다른 방법을 통해 다�
 
 * **자동 번역**: 자동 번역을 위해 선호하는 언어 공급자에게 콘텐츠를 보냅니다. [자세히 알아보기](multilingual-automated.md)
 
-
 </br>
 
 ![](assets/translation_schema.png)
+
+## 전제 조건 {#prerequisites}
+
+Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서드파티 번역 서비스(기계 번역 또는 사람 번역)를 제공하는 번역 공급업체와 통합됩니다.
+
+선택한 번역 공급업체를 추가하기 전에 해당 공급업체에 계정을 만들어야 합니다.
+
+번역 공급업체의 번역 서비스를 사용하는 경우 해당 공급업체의 추가 약관이 적용됩니다.  타사 솔루션인 번역 서비스는 통합을 통해 Adobe Journey Optimizer 사용자에게 제공됩니다.  Adobe은 타사 제품을 제어하지 않으며 책임도 지지 않습니다.
+
+번역과 관련된 문제 또는 지원 요청은 해당 번역 공급업체에 문의하십시오.
 
 ## 방법 비디오 {#video}
 
