@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 58%
 
 ## 2024년 7월 초기 릴리스 정보 {#e-2024}
 
-**릴리스 날짜**: 2024년 7월 30~31일
+**릴리스 일자**: 2024년 7월 30~31일
 
 ### 새로운 기능 {#e-features}
 
@@ -32,7 +32,7 @@ ht-degree: 58%
 <table>
 <thead>
 <tr>
-<th><strong>IP 웜업 워크플로(GA)</strong><br/></th>
+<th><strong>IP 준비 워크플로우(GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -55,7 +55,7 @@ ht-degree: 58%
 <tbody>
 <tr>
 <td>
-<p>이제 기본 공급자 Sinch, Infobip 및 Twilio 외에 Journey Optimizer 내에서 추가 SMS 공급자를 구성할 수 있습니다.</p>
+<p>이제 Journey Optimizer 내에서 기본 공급자인 Sinch, Infobip, Twilio 외 추가 SMS 공급자를 구성할 수 있습니다.</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -122,7 +122,7 @@ ht-degree: 58%
 
 **여정**
 
-* (가용성: 7월 8일) 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 이벤트 ID 조건에서 더 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md#adv-exp-editor)
+* (사용 가능: 7월 8일)이제 이벤트를 구성할 때 고급 표현식 편집기를 활용하여 이벤트 ID 조건에 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md#adv-exp-editor)
 
 <!--* The `event-id` condition is now automatically filled during test mode. -->
 
@@ -136,7 +136,7 @@ ht-degree: 58%
 
 **대상자**
 
-* 이제 사용자 지정 업로드(CSV 파일)의 대상을 Privacy 및 Security Shield와 함께 사용할 수 있습니다.
+* 이제 사용자 정의 업로드(CSV 파일)에서 가져온 대상자를 Privacy 및 Security Shield에도 사용할 수 있습니다.
 <!--
 **Push channel**
 
