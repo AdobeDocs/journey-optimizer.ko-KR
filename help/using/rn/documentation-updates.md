@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5407'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 ## 2024년 7월 {#july-2024}
 
-* 상태 계획 및 처방과 관련된 정보를 사용하여 이메일을 개인화하는 방법에 대한 개인화 사용 사례가 추가되었습니다. [자세히 보기](../personalization/perso-uc-plan-prescriptions.md)
+* 건강 계획 및 처방과 관련된 정보가 있는 이메일을 개인화하는 방법에 대한 개인화 사용 사례를 추가했습니다. [자세히 보기](../personalization/perso-uc-plan-prescriptions.md)
 
 ## 2024년 6월 {#june-2024}
 

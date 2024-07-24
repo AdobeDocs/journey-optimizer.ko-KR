@@ -10,7 +10,7 @@ level: Beginner
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 50473c401e05b483387f8ff3c5c480020e8d5c14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
 ht-degree: 100%
 
