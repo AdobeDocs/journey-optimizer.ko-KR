@@ -6,7 +6,7 @@ description: Journey Optimizer 초기 릴리스 정보
 hide: true
 hidefromtoc: true
 exl-id: 841122b9-04f6-4250-b0a5-e61f470787f7
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -198,3 +198,4 @@ From beta to LA, the following improvements that have been added:
 
 * 이제 채널 표면 수준에서 마케팅 작업을 선택할 수 있습니다. 표면에서 사용할 경우 고객의 동의 여부를 존중하기 위해 해당 마케팅 작업과 연결된 모든 동의 정책을 활용합니다.
 * 이제 채널 표면에 대해 객체 수준 액세스 제어를 사용할 수 있습니다.
+

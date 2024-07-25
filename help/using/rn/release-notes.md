@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
+source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 100%
@@ -227,3 +227,4 @@ ht-degree: 100%
 #### DM 채널
 
 * 이제 모든 고객이 다이렉트 메일 채널을 사용할 수 있습니다. [자세히 보기](../direct-mail/get-started-direct-mail.md)
+
