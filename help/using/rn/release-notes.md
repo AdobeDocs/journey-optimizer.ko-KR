@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
+source-git-commit: 4748090660b39c93522e5bd30a77542481f53bfa
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 91%
+source-wordcount: '1328'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 
 ## 2024년 7월 초기 릴리스 정보 {#27-4-2024}
 
-**아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 날짜의 [릴리스 정보](release-notes.md)에 게시됩니다.
+**아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 이 페이지에 게시됩니다.
 
 **릴리스 일자**: 2024년 7월 30~31일
 
