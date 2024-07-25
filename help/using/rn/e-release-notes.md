@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
+source-git-commit: bb7806cea0b485fd53055d8e596513cfbc592620
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '303'
+ht-degree: 77%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>IP 준비 워크플로우(GA)</strong><br/></th>
+<th><strong>IP 준비 워크플로</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -57,6 +57,23 @@ ht-degree: 100%
 <td>
 <p>이제 Journey Optimizer 내에서 기본 공급자인 Sinch, Infobip, Twilio 외 추가 SMS 공급자를 구성할 수 있습니다.</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Federated Audience 구성(제한된 가용성)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer에서 Federated Audience Composition을 사용할 수 있습니다. 이를 통해 기업은 다양한 사용 사례에서 더 나은 활용도를 위해 데이터를 구성할 수 있습니다. Adobe Real-time Customer Data Platform 및/또는 Adobe Journey Optimizer 사용자는 이 새로운 접근 방식을 통해 기존 데이터 웨어하우스에서 직접 데이터 세트를 페더레이션하여 Adobe Experience Platform 대상과 속성을 하나의 시스템에 풍성하게 만들 수 있습니다.</p>
+<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
