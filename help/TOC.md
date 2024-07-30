@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
+source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1888'
 ht-degree: 99%
 
 ---
@@ -230,6 +230,7 @@ ht-degree: 99%
       + [Sinch 공급자 구성](using/sms/sms-configuration-sinch.md)
       + [Infobip 공급자 구성](using/sms/sms-configuration-infobip.md)
       + [Twilio 공급자 구성](using/sms/sms-configuration-twilio.md)
+      + [사용자 지정 공급자 구성(Beta)](using/sms/sms-configuration-custom.md)
       + [SMS 표면 만들기](using/sms/sms-configuration-surface.md)
 + 다이렉트 메일 {#direct-mail}
    + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)
