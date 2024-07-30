@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: ht
-source-wordcount: '1877'
-ht-degree: 100%
+source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
+workflow-type: tm+mt
+source-wordcount: '1883'
+ht-degree: 99%
 
 ---
 
@@ -344,6 +344,7 @@ ht-degree: 100%
          + [컴포지션 워크플로우 만들기](using/audience/create-compositions.md)
          + [컴포지션 캔버스 작업](using/audience/composition-canvas.md)
          + [대상자 액세스 및 관리](using/audience/access-audiences.md)
+      + [페더레이션 대상 구성(제한된 가용성)](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)
    + 프로필{#profiles}
       + [프로필 시작](using/audience/get-started-profiles.md)
       + [테스트 프로필 만들기](using/audience/creating-test-profiles.md)
