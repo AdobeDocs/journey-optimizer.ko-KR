@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0fc693054ad7931545e0053249f310aed031c8c4
+source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1244'
 ht-degree: 90%
 
 ---
@@ -26,10 +26,7 @@ ht-degree: 90%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
-
-## 2024년 7월 초기 릴리스 정보 {#27-4-2024}
-
-**아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 이 페이지에 게시됩니다.
+## 2024년 7월 릴리스 정보 {#27-4-2024}
 
 **릴리스 일자**: 2024년 7월 30~31일
 
@@ -94,9 +91,9 @@ ht-degree: 90%
 
 * (사용 가능한 날짜: 7월 8일) **여정 이벤트 구성의 고급 표현식 편집기** - 이제 이벤트를 구성하는 동안 고급 표현식 편집기를 활용하여 보다 복잡한 표현식을 정의하거나 이벤트 ID 조건에서 함수를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md#adv-exp-editor)
 
-**대상자**
+<!--**Audiences**
 
-* 이제 사용자 정의 업로드(CSV 파일)에서 가져온 대상자를 Privacy 및 Security Shield에도 사용할 수 있습니다.
+* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield.-->
 
 ## 2024년 6월 릴리스 정보 {#24-6-2024}
 
