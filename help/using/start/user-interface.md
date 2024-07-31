@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
+source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 92%
@@ -301,4 +301,4 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="우선 순위"
->abstract="&quot;여정에 0에서 100 사이의 우선 순위 점수를 할당합니다. 숫자가 높을수록 우선 순위가 높다는 것을 나타냅니다. 두 여정이 동일한 표면을 사용하면 Journey Optimizer에서 우선 순위 점수가 가장 높은 여정을 선택합니다. 여정의 점수가 동일한 경우, 가장 최근에 수정된 여정이 선택됩니다."
+>abstract="여정에 0~100 범위의 우선 순위 점수를 지정합니다. 숫자가 높을수록 우선 순위가 높다는 것을 나타냅니다. 두 여정이 동일한 표면을 사용하면 Journey Optimizer에서 우선 순위 점수가 가장 높은 여정을 선택합니다. 여정의 점수가 동일한 경우, 가장 최근에 수정된 여정이 선택됩니다."
