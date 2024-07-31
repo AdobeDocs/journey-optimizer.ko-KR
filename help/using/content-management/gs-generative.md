@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
-workflow-type: ht
+source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
+workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="AI 어시스턴트의 컨텍스트 정의"
->abstract="선택한 콘텐츠를 콘텐츠 생성을 위한 입력으로 사용하려면 **원본 콘텐츠 사용** 토글을 활성화합니다. 브랜드 에셋을 업로드하여 소스로 사용할 수도 있습니다. 선택한 콘텐츠를 사용하지 않는 경우 브랜드 에셋 업로드 및 선택이 필수 작업으로 설정됩니다."
+>title="브랜드 자산 업로드"
+>abstract="브랜드 자산 업로드 메뉴를 사용하면 AI Assistant에 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하거나 이전에 업로드한 자산을 선택할 수 있습니다. 이 옵션을 사용하면 AI Assistant가 필요한 모든 자료에 액세스하여 기능과 연관성을 향상시킬 수 있습니다."
 
 
 >[!CONTEXTUALHELP]
