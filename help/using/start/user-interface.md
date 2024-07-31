@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
+source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '1458'
+ht-degree: 92%
 
 ---
 
@@ -290,3 +290,15 @@ ht-degree: 100%
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="Android Studio에서 애플리케이션 실행"
 >abstract="추가 예정"
+
+<!-- priority scores-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="우선 순위"
+>abstract="캠페인에 0에서 100 사이의 우선 순위 점수를 할당합니다. 숫자가 높을수록 우선 순위가 높다는 것을 나타냅니다. 두 캠페인이 동일한 표면을 사용하면 Journey Optimizer에서 우선 순위 점수가 가장 높은 캠페인을 선택합니다. 캠페인의 점수가 동일한 경우, 가장 최근에 수정된 캠페인이 선택됩니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="우선 순위"
+>abstract="&quot;여정에 0에서 100 사이의 우선 순위 점수를 할당합니다. 숫자가 높을수록 우선 순위가 높다는 것을 나타냅니다. 두 여정이 동일한 표면을 사용하면 Journey Optimizer에서 우선 순위 점수가 가장 높은 여정을 선택합니다. 여정의 점수가 동일한 경우, 가장 최근에 수정된 여정이 선택됩니다."
