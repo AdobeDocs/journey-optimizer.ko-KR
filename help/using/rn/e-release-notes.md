@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -65,13 +65,13 @@ ht-degree: 76%
 <table>
 <thead>
 <tr>
-<th><strong>Federated Audience 구성(제한된 가용성)</strong><br/></th>
+<th><strong>페더레이션된 대상자 구성(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer에서 Federated Audience Composition을 사용할 수 있습니다. 이를 통해 기업은 다양한 사용 사례에서 더 나은 활용도를 위해 데이터를 구성할 수 있습니다. Adobe Real-time Customer Data Platform 및/또는 Adobe Journey Optimizer 사용자는 이 새로운 접근 방식을 통해 기존 데이터 웨어하우스에서 직접 데이터 세트를 페더레이션하여 하나의 시스템에 Adobe Experience Platform 대상 및 속성을 모두 구축하고 보강할 수 있습니다.</p>
+<p>이제 Adobe Journey Optimizer에서 [페더레이션된 대상자 구성]을 사용할 수 있습니다. 이 기능으로 기업이 다양한 사용 사례에서 데이터를 더 잘 활용할 수 있습니다. 이 새로운 접근 방식을 사용하면 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer 사용자로서 기존 데이터 웨어하우스에서 직접 데이터 세트를 페더레이션하여 Adobe Experience Platform 대상자와 속성을 모두 하나의 시스템에 작성하고 강화할 수 있습니다.</p>
 <!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
 </td>
 </tr>

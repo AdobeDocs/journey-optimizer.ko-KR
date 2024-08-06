@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1888'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 99%
       + [Sinch 공급자 구성](using/sms/sms-configuration-sinch.md)
       + [Infobip 공급자 구성](using/sms/sms-configuration-infobip.md)
       + [Twilio 공급자 구성](using/sms/sms-configuration-twilio.md)
-      + [사용자 지정 공급자 구성(Beta)](using/sms/sms-configuration-custom.md)
+      + [사용자 정의 공급자 구성(Beta)](using/sms/sms-configuration-custom.md)
       + [SMS 표면 만들기](using/sms/sms-configuration-surface.md)
 + 다이렉트 메일 {#direct-mail}
    + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)
@@ -345,7 +345,7 @@ ht-degree: 99%
          + [컴포지션 워크플로우 만들기](using/audience/create-compositions.md)
          + [컴포지션 캔버스 작업](using/audience/composition-canvas.md)
          + [대상자 액세스 및 관리](using/audience/access-audiences.md)
-      + [페더레이션 대상 구성(제한된 가용성)](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)
+      + [페더레이션 대상 구성(제한된 가용성)](https://experienceleague.adobe.com/ko/docs/federated-audience-composition/using/home)
    + 프로필{#profiles}
       + [프로필 시작](using/audience/get-started-profiles.md)
       + [테스트 프로필 만들기](using/audience/creating-test-profiles.md)
