@@ -49,7 +49,7 @@ ht-degree: 10%
 >id="ajo_code_based_experience"
 >title="개인화 편집기 사용"
 >abstract="이 코드 기반 경험 액션의 일부로 게재하려는 코드를 삽입하고 편집합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=ko-KR" text="개인화 편집기 시작하기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=ko" text="개인화 편집기 시작하기"
 
 1. 캠페인 편집 화면에서 **[!UICONTROL 코드 편집]**&#x200B;을 선택합니다.
 

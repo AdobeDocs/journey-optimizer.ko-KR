@@ -21,7 +21,7 @@ ht-degree: 16%
 >id="ajo_web_designer_modifications_views"
 >title="선택된 보기에 변경 사항 적용"
 >abstract="선택된 보기에만 변경 사항이 적용됩니다. 보기는 **찾아보기** 모드를 사용하여 검색하고 해당 항목으로 이동할 수 있습니다. 원하는 보기를 찾으실 수 없습니까?"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="추가 정보"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="자세히 알아보기"
 
 이제 웹 디자이너 비주얼 편집기에서 **단일 페이지 응용 프로그램**(SPA)을 작성할 수 있습니다. 이를 통해 웹 페이지 수정 사항을 적용할 특정 **보기**&#x200B;를 선택할 수 있습니다.
 

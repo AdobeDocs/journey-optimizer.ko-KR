@@ -10,7 +10,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 20%
 
    ![](assets/strategy-create-eligibility.png)
 
-   * Experience Platform 대상의 구성원으로 오퍼 선택을 제한하려면 **[!UICONTROL 대상]**&#x200B;을(를) 선택하고 목록에서 대상을 선택하십시오. [대상자를 사용하여 작업하는 방법을 알아봅니다](../audience/about-audiences.md)
+   * Experience Platform 대상의 구성원으로 오퍼 선택을 제한하려면 **[!UICONTROL 대상]**&#x200B;을(를) 선택하고 목록에서 대상을 선택하십시오. [대상자를 사용한 작업 방법 알아보기](../audience/about-audiences.md)
 
    * 결정 규칙과 함께 선택 제한을 추가하려면 **[!UICONTROL 결정 규칙]** 옵션을 사용하고 선택한 규칙을 선택하십시오. [규칙을 만드는 방법 알아보기](rules.md)
 

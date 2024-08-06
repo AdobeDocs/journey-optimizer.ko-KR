@@ -20,7 +20,7 @@ ht-degree: 10%
 >id="ajo_admin_surface_sms_type"
 >title="메시지 범주 정의"
 >abstract="이 표면을 사용하여 문자 메시지 유형 선택: 사용자 동의가 필요한 프로모션 메시지를 위한 마케팅 또는 암호 재설정과 같은 비상업적 메시지를 위한 트랜잭션."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko-KR#sms-opt-out-management" text="마케팅 문자 메시지 옵트아웃"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko#sms-opt-out-management" text="마케팅 문자 메시지 옵트아웃"
 
 SMS/MMS 채널이 구성되면 **[!DNL Journey Optimizer]**&#x200B;에서 SMS 및 MMS 메시지를 보낼 수 있는 채널 표면을 만들어야 합니다.
 

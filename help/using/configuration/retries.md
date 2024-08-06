@@ -46,7 +46,7 @@ ht-degree: 9%
 >id="ajo_admin_suppression_list_bounces"
 >title="재시도 임계값 업데이트"
 >abstract="기본값이 사용자 요구에 맞지 않으면 허용되는 연속 소프트 바운스 수를 수정할 수 있습니다. 재시도 카운터가 특정 이메일 주소에 대한 오류 임계값에 도달하면 이 주소를 금지 목록에 추가합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=ko-KR" text="금지 목록 이해하기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=ko" text="금지 목록 이해하기"
 
 기본값 5가 사용자의 요구 사항에 맞지 않는 경우 아래 단계에 따라 오류 임계값을 수정할 수 있습니다.
 

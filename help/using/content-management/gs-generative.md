@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="브랜드 자산 업로드"
->abstract="브랜드 자산 업로드 메뉴를 사용하면 AI Assistant에 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하거나 이전에 업로드한 자산을 선택할 수 있습니다. 이 옵션을 사용하면 AI Assistant가 필요한 모든 자료에 액세스하여 기능과 연관성을 향상시킬 수 있습니다."
+>abstract="브랜드 자산 업로드 메뉴를 이용하면 AI 어시스턴트에 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하거나 이전에 업로드한 자산을 선택할 수 있습니다. 이 옵션을 사용하면 AI 어시스턴트가 기능과 관련성을 개선하는 데 필요한 모든 자료에 액세스할 수 있습니다."
 
 
 >[!CONTEXTUALHELP]
