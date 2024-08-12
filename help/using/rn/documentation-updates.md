@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: ht
-source-wordcount: '5407'
-ht-degree: 100%
+source-git-commit: 0d93e2a3a5707c6229894459348378a0ae538db1
+workflow-type: tm+mt
+source-wordcount: '5447'
+ht-degree: 99%
 
 ---
 
@@ -19,8 +19,13 @@ ht-degree: 100%
 
 이 페이지에는 [!DNL Journey Optimizer] 설명서 최신 업데이트 내용이 모두 포함되어 있습니다.
 
+## 2024년 8월 {#aug-2024}
+
+* 의사 결정 관리에 대한 성능 보호 기능이 Edge 세그먼테이션을 사용하는/사용하지 않는 의사 결정 API 게재 처리량을 언급하도록 업데이트되었습니다. [자세히 보기](../start/guardrails.md#decision-management)
+
 ## 2024년 7월 {#july-2024}
 
+* [!DNL Journey Optimizer] 2024년 7월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 건강 계획 및 처방과 관련된 정보가 있는 이메일을 개인화하는 방법에 대한 개인화 사용 사례를 추가했습니다. [자세히 보기](../personalization/perso-uc-plan-prescriptions.md)
 
 ## 2024년 6월 {#june-2024}
@@ -166,7 +171,7 @@ ht-degree: 100%
 * 항목 관리 페이지를 개선했습니다. [자세히 보기](../building-journeys/entry-management.md)
 * 대상자 읽기 활동 설명서에 조절률에 대한 정보를 추가했습니다. [자세히 보기](../building-journeys/read-audience.md)
 * 재시도에 대한 추가 정보를 추가했습니다. [자세히 보기](../start/guardrails.md#general-actions-g)
-* **개인화 동의 구현** 섹션에 캠페인에 개인화 동의 여부를 수동으로 적용하는 방법에 대한 설명을 업데이트했습니다. 세그먼트 규칙 빌더를 사용하여 옵트아웃한 프로필이 포함된 대상자를 만들거나 구성 워크플로우에 분할 활동을 추가할 수 있습니다. [자세히 보기](../privacy/opt-out.md#opt-out-expression-editor)
+* **개인화 동의 구현** 섹션에 캠페인에 개인화 동의 여부를 수동으로 적용하는 방법에 대한 설명을 업데이트했습니다. 세그먼트 규칙 빌더를 사용하여 옵트아웃한 프로필이 포함된 대상자를 만들거나 구성 워크플로에 분할 활동을 추가할 수 있습니다. [자세히 보기](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## 2023년 6월 {#june-2023}
 
@@ -377,7 +382,7 @@ ht-degree: 100%
 * 새 **메시지 사전 설정 편집** 섹션. [자세히 보기](../configuration/channel-surfaces.md#edit-channel-surface)
 * 새 **PTR 레코드 편집** 섹션. [자세히 보기](../configuration/ptr-records.md#edit-ptr-record)
 * 새 **메시지 사전 설정 비활성화** 섹션. [자세히 보기](../configuration/channel-surfaces.md#edit-channel-surface#deactivate-a-surface)
-* 모바일 [!DNL Experience Edge] 워크플로우에서 지원되지 않는 오퍼 제한에 대한 **의사 결정 관리 API 개발자 안내서**&#x200B;에 새 제한 사항을 추가했습니다. [자세히 보기](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
+* 모바일 [!DNL Experience Edge] 워크플로에서 지원되지 않는 오퍼 제한에 대한 **의사 결정 관리 API 개발자 안내서**&#x200B;에 새 제한 사항을 추가했습니다. [자세히 보기](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * 새 **시뮬레이션 만들기** 섹션. [자세히 보기](../offers/offer-activities/simulation.md)
 * **결정 범위 추가** 섹션을 업데이트했습니다. [자세히 보기](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * 사용자 정의 텍스트를 정의하고 개인화하는 방법에 대한 새 [하위 섹션](../offers/offer-library/creating-personalized-offers.md#custom-text)을 포함하여 **표현 내용 정의** 섹션을 업데이트했습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md#content)
