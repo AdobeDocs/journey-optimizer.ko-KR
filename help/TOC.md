@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a285e39abc96159b393d430b3a5ce8aceb3b32f5
+source-git-commit: 9add1b2a5f6941773416daea2366f58851a6028a
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1889'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 99%
 + [Journey Optimizer 설명서](ajo-home.md)
 + 새로운 기능 {#whats-new}
    + [초기 릴리스 정보](using/rn/e-release-notes.md)
-   + [초기 릴리스 정보](using/rn/early-release-notes.md)
    + [최신 릴리스 정보](using/rn/release-notes.md)
    + 이전 릴리스 정보 {#previous-rn-new}
       + [2024](using/rn/release-notes-2024.md)
