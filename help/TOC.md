@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
-workflow-type: ht
-source-wordcount: '1888'
-ht-degree: 100%
+source-git-commit: a285e39abc96159b393d430b3a5ce8aceb3b32f5
+workflow-type: tm+mt
+source-wordcount: '1892'
+ht-degree: 99%
 
 ---
 
@@ -218,7 +218,7 @@ ht-degree: 100%
    + 푸시 알림 구성{#push-config}
       + [푸시 알림 흐름](using/push/push-gs.md)
       + [푸시 알림 채널 구성](using/push/push-configuration.md)
-      + [모바일 온보딩 빠른 시작 워크플로우](using/push/mobile-onboarding-wf.md)
+      + [모바일 온보딩 빠른 시작 워크플로](using/push/mobile-onboarding-wf.md)
 + SMS / MMS 채널{#sms}
    + [텍스트 메시지 시작](using/sms/get-started-sms.md)
    + [문자 메시지(SMS/MMS) 만들기](using/sms/create-sms.md)
@@ -342,7 +342,7 @@ ht-degree: 100%
       + [세그먼트 정의 작성](using/audience/creating-a-segment-definition.md)
       + 대상자 구성 {#audience-orchestration}
          + [대상자 구성 시작](using/audience/get-started-audience-orchestration.md)
-         + [컴포지션 워크플로우 만들기](using/audience/create-compositions.md)
+         + [컴포지션 워크플로 만들기](using/audience/create-compositions.md)
          + [컴포지션 캔버스 작업](using/audience/composition-canvas.md)
          + [대상자 액세스 및 관리](using/audience/access-audiences.md)
       + [페더레이션 대상 구성(제한된 가용성)](https://experienceleague.adobe.com/ko/docs/federated-audience-composition/using/home)
@@ -609,6 +609,7 @@ ht-degree: 100%
          + [Adobe Campaign Standard 통합](using/action/acs-action.md)
          + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
          + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
+         + [Marketo Engage과 통합](using/action/marketo-engage.md)
    + [소스](using/start/get-started-sources.md)
 + 액세스 제어 {#access-control}
    + 액세스 제어 개요 {#privacy}
