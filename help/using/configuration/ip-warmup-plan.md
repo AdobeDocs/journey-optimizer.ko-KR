@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 8%
+source-wordcount: '1665'
+ht-degree: 6%
 
 ---
 
 # IP 준비 계획 만들기 {#ip-warmup}
-
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* [IP 준비 계획 시작](ip-warmup-gs.md)
-* [IP 워밍업 캠페인 만들기](ip-warmup-campaign.md)
-* **[IP 준비 계획 만들기](ip-warmup-plan.md)**
-* [IP 준비 계획 실행](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
 
 전용 표면 및 해당 옵션이 활성화된 하나 이상의 [IP 준비 캠페인](ip-warmup-campaign.md)을(를) 만들면 IP 준비 계획을 만들 수 있습니다.
 
@@ -112,11 +98,12 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
 * 이 계획은 여섯 개의 **단계**&#x200B;를 통해 실행되며, 각 단계에는 하나 이상의 실행이 포함됩니다.
 
-* 최대 6개의 열(도메인 그룹의 경우 5개 열, **기타** 열의 경우 1개 열)을 가질 수 있습니다. 이 예에서 플랜은 6개의 열로 나뉩니다.
+* 최대 6개의 열이 있을 수 있습니다(도메인 그룹의 경우 4개 열, **기타** 열 및 **참여 일수** 열의 경우 1개). 이 예에서 플랜은 6개의 열로 나뉩니다.
 
-   * 이 중 네 개는 플랜에서 사용할 **기본 제공 도메인 그룹**&#x200B;에 해당합니다(Gmail, Microsoft, Yahoo 및 Orange).
+   * 이 중 3개는 플랜에서 사용할 **기본 제공 도메인 그룹**&#x200B;에 해당합니다(Gmail, Microsoft 및 주황색).
    * 하나는 사용자 지정 도메인 그룹([사용자 지정 도메인 그룹](#custom-domain-group-tab) 탭을 사용하여 추가해야 함)에 해당합니다.
-   * 여섯 번째 열인 **기타**&#x200B;에는 계획에서 명시적으로 다루지 않는 다른 도메인의 나머지 주소가 모두 포함되어 있습니다. 이 열은 선택 사항입니다. 생략하면 이메일이 지정된 도메인으로만 이동합니다.
+   * 다섯 번째 열인 **기타**&#x200B;에는 계획에 명시적으로 포함되지 않은 다른 도메인의 나머지 주소가 모두 포함되어 있습니다. 이 열은 선택 사항입니다. 생략하면 이메일이 지정된 도메인으로만 이동합니다.
+   * 마지막 열인 **참여 일**&#x200B;을(를) 사용하면 참여를 추적하거나 평가할 일수를 지정할 수 있습니다.
 
 이 아이디어는 각 실행에서 타깃팅된 주소의 수를 점진적으로 늘리면서 각 단계에 대한 실행 수를 줄이는 것입니다.
 

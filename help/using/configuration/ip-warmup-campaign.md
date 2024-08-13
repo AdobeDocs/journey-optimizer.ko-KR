@@ -8,14 +8,11 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: IP, 풀, 전달성
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 17%
+source-wordcount: '423'
+ht-degree: 12%
 
 ---
 
@@ -26,17 +23,6 @@ ht-degree: 17%
 >title="IP 워밍업 플랜 활성화 옵션"
 >abstract="이 옵션을 선택하면 IP 워밍업 플랜에서 캠페인을 사용할 수 있습니다. 그런 다음 캠페인 일정은 관련 IP 워밍업 플랜에 따라 결정됩니다."
 
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* [IP 준비 계획 시작](ip-warmup-gs.md)
-* **[IP 준비 캠페인 만들기](ip-warmup-campaign.md)**
-* [IP 준비 계획 만들기](ip-warmup-plan.md)
-* [IP 준비 계획 실행](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
 [!DNL Journey Optimizer]에서 IP 준비 계획 자체를 만들기 전에 먼저 IP 준비 계획<!--through a dedicated option-->에서 사용하도록 특별히 디자인된 캠페인을 하나 이상 만들어야 합니다.
 
 IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
@@ -45,9 +31,9 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >[이 섹션](../email/email-settings.md#subdomains-and-ip-pools)에서 전자 메일 표면에 사용할 도메인 및 IP를 선택하는 방법을 알아봅니다.
+   >* [이 섹션](../email/email-settings.md#subdomains-and-ip-pools)에서 전자 메일 표면에 사용할 도메인 및 IP를 선택하는 방법을 알아봅니다.
    >
-   >게재 컨설턴트와 협력하여 IP 준비 계획에 사용할 도메인 및 IP를 식별하십시오.<!--TBC-->
+   >* 게재 컨설턴트와 협력하여 IP 준비 계획에 사용할 도메인 및 IP를 식별하십시오.<!--TBC-->
 
 1. 예약된 마케팅 [캠페인](../campaigns/create-campaign.md)을(를) 만들고 [이메일](../email/create-email.md#create-email-journey-campaign) 작업을 선택합니다.
 
@@ -71,17 +57,13 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
    IP 준비 캠페인에 대한 규칙 기반 대상자를 선택해야 합니다. [자세히 알아보기](../audience/creating-a-segment-definition.md)
 
-   >[!NOTE]
-   >
-   >캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
+   캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
 1. 캠페인을 [활성화](../campaigns/review-activate-campaign.md)합니다. 상태가 **[!UICONTROL Live]**(으)로 변경됩니다.
 
    비즈니스 규칙은 IP 준비 계획에 사용해서는 안 됩니다. 이러한 규칙을 적용하면 캠페인에 대해 원하는 수의 타겟팅된 프로필에 도달하지 못할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >IP 준비 계획이 활성화된 라이브 캠페인의 경우 **[!UICONTROL 삭제]** 단추를 IP 준비 계획과 연결할 때까지 사용할 수 있습니다. 플랜에 사용된 후에는 캠페인을 더 이상 삭제할 수 없습니다.
+   IP 준비 계획이 활성화된 라이브 캠페인의 경우 **[!UICONTROL 삭제]** 단추를 IP 준비 계획과 연결할 때까지 사용할 수 있습니다. 플랜에 사용된 후에는 캠페인을 더 이상 삭제할 수 없습니다.
 
 1. 캠페인이 **[!UICONTROL 캠페인]** 목록에 표시됩니다. 현재 샌드박스에서 만든 모든 IP 준비 캠페인을 쉽게 검색하려면 **[!UICONTROL IP 준비]** 캠페인 옵션을 필터링하면 됩니다.
 

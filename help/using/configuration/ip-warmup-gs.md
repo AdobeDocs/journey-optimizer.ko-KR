@@ -8,45 +8,29 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, 전달성
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: 34c1180e3ba5b6b39287e70651c45351fa71e6b1
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 94%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
 # IP 준비 계획 시작 {#ip-warmup-gs}
 
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* **[IP 준비 시작](ip-warmup-gs.md)**
-* [IP 워밍업 캠페인 만들기](ip-warmup-campaign.md)
-* [IP 준비 계획 만들기](ip-warmup-plan.md)
-* [IP 준비 계획 실행](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
-[!DNL Journey Optimizer]를 사용하면 최적의 전달성을 위한 모범 사례를 따르는 표준화되고 효율적인 방식으로 사용자 인터페이스에서 직접 IP 준비 워크플로우를 쉽게 수행할 수 있습니다.
-
-➡️[이 비디오에서 IP 준비 계획을 만들고 실행하는 방법을 알아봅니다](#video)
-
->[!CAUTION]
->
->현재 이 기능은 이메일 채널에만 적용됩니다.
-
-새로운 플랫폼을 사용하여 이메일이 전송되면 인터넷 서비스 공급자(ISP)는 인식되지 않는 IP 주소를 의심합니다. 대량의 이메일이 갑자기 전송되면 ISP는 해당 이메일을 스팸으로 표시하는 경우가 많습니다.
+[!DNL Journey Optimizer]을(를) 사용하면 최적의 전달성을 위한 모범 사례를 따르는 표준화되고 효율적인 방식으로 사용자 인터페이스에서 직접 IP 워밍업 워크플로우를 쉽게 수행할 수 있습니다. 새로운 플랫폼을 사용하여 이메일이 전송되면 인터넷 서비스 공급자(ISP)는 인식되지 않는 IP 주소를 의심합니다. 대량의 이메일이 갑자기 전송되면 ISP는 해당 이메일을 스팸으로 표시하는 경우가 많습니다.
 
 스팸으로 표시되지 않도록 하기 위해 IP 준비 계획 기능을 사용하여 전송되는 볼륨을 점진적으로 늘릴 수 있습니다. **[!UICONTROL 관리]** 메뉴의 이 새로운 옵션을 사용하면 복잡한 일일 여정을 만드는 대신 통합된 방식으로 더 쉽게 작업을 수행할 수 있습니다.
 
->[!NOTE]
+<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+
+>[!AVAILABILITY]
 >
->[전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ko)에서 IP 준비를 통해 이메일 평판을 높이는 방법에 대해 자세히 알아보세요.
+>이 기능은 프로덕션 유형 샌드박스에서만 활성화할 수 있습니다.
+>
+>Adobe **Healthcare Shield** 또는 **Privacy and Security Shield** 추가 기능 서비스를 구입한 조직에서는 사용할 수 없습니다.
+
+
 
 <!--
 Benefits
@@ -68,8 +52,15 @@ IP 준비 계획을 구현하는 주요 단계는 다음과 같습니다.
 
 1. 계획의 각 단계에 대한 캠페인을 선택하고 해당 실행을 활성화합니다. [자세히 알아보기](ip-warmup-execution.md)
 
-## 방법 비디오 {#video}
+<!--Old UI
+## How-to video {#video}
 
-IP 준비 계획을 만들고 실행하는 방법을 알아봅니다.
+Learn how to create and execute an IP warmup plan.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
+-->
+
+
+>[!NOTE]
+>
+>[게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ko)에서 IP warming으로 전자 메일 평판을 높이는 방법에 대해 자세히 알아보세요.

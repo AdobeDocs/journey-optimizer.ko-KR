@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 12%
+source-wordcount: '2530'
+ht-degree: 11%
 
 ---
 
 # IP 준비 계획 실행 {#ip-warmup-running}
-
->[!BEGINSHADEBOX]
-
-이 설명서의 내용:
-
-* [IP 준비 계획 시작](ip-warmup-gs.md)
-* [IP 워밍업 캠페인 만들기](ip-warmup-campaign.md)
-* [IP 준비 계획 만들기](ip-warmup-plan.md)
-* **[IP 준비 계획 실행](ip-warmup-execution.md)**
-
->[!ENDSHADEBOX]
 
 [IP 준비 계획을 만들고](ip-warmup-plan.md)게재 컨설턴트와 함께 준비한 파일을 업로드하면 플랜에서 단계 및 실행을 정의할 수 있습니다.
 
