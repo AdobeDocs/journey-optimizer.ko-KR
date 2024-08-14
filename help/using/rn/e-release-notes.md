@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdaff7a4364bb7ecfeec27446ed8f4b4ce34488
+source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 49%
+source-wordcount: '571'
+ht-degree: 26%
 
 ---
 
@@ -32,13 +32,45 @@ ht-degree: 49%
 <table>
 <thead>
 <tr>
-<th><strong>Marketo Engage 사용자 정의 작업</strong><br/></th>
+<th><strong>Marketo Engage 사용자 지정 작업</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>이제 Adobe Journey Optimizer를 Adobe Marketo Engage와 통합하여 B2B 사용 사례를 작성할 수 있습니다. 여정에서 새로운 사용자 정의 작업을 통해 데이터를 Marketo로 수집할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>안내식 채널 설정</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>안내식 채널 설정 을 사용하면 통합 환경에서 모바일 채널 설정 단계를 자동화하여 Journey Optimizer을 보다 빠르게 시작할 수 있습니다. 이 설정을 사용하면 마케팅 채널을 신속하게 구성할 수 있으므로 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 쉽게 사용할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정 생성을 즉시 시작할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>컨텐츠 카드</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>콘텐츠 카드는 모바일 앱 및 웹 사이트에서 직접 개인화되고 흥미로운 콘텐츠를 제공하는 Adobe Journey Optimizer의 새로운 디지털 메시징 기능입니다. 기존 푸시 알림과 달리 Content Card는 사용자 인터페이스에 원활하게 통합되어 사용자 상호 작용과 경험을 향상시키는 지속적이고 비침입적인 업데이트를 제공합니다.</p>
+<p>이 기능을 통해 마케터는 사용자에게 관련성이 높은 리치 미디어 콘텐츠를 제공할 수 있으므로 참여도가 높아지고 사용자 여정을 중단하지 않고도 중요한 메시지를 볼 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
@@ -60,7 +92,24 @@ ht-degree: 49%
 <li>이제 각 채널 구성에 OLAC(개체 수준 액세스 제어)를 사용할 수 있으므로 특정 구성을 만들거나 사용할 수 있는 사용자를 결정할 수 있습니다</li>
 <li>일부 채널의 경우 여러 플랫폼을 대상으로 하는 채널 구성을 만들 수 있습니다. 웹 페이지, iOS 앱 및 Android 앱을 타깃팅할 수 있는 인앱 메시지 채널 구성이 여기에 해당합니다.</li>
 </ul></p>
-<p>자세한 내용은 <a href="../configuration/ip-warmup-gs.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../configuration/ip-warmup-gs.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>콘텐츠 조각의 변수</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 조각은 <a href="../personalization/use-expression-fragments.md">식 조각</a> 및 <a href="../email/use-visual-fragments.md">시각적 조각</a>에서 모두 입력 변수를 사용할 수 있습니다. 이러한 변수를 사용하여 캠페인 및 여정에서 메시지 콘텐츠 및 매개 변수를 개인화할 수 있습니다.</p>
+</p>
 </td>
 </tr>
 </tbody>
@@ -90,10 +139,13 @@ ht-degree: 49%
 **여정**
 
 * **조건** 활동에서 기본적으로 시간 조건은 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
+* 이제 여정을 작성할 때 캠페인 경고에 맞게 정렬하고 일관된 사용자 경험을 제공하기 위해 경고가 드롭다운 목록에 표시됩니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 100%로 쉽게 재설정할 수 있습니다.
 
 **대상자**
 
 * 이제 사용자 정의 업로드(CSV 파일)에서 가져온 대상자를 Privacy 및 Security Shield에도 사용할 수 있습니다.
+* 이제 사용자 지정 업로드(CSV 파일) 대상을 타기팅할 때 캠페인 및 여정에 있는 파일의 속성을 사용할 수 있습니다. 이러한 속성은 개인화 편집기에서 메시지를 개인화하는 데 사용할 수 있으며 여정 고급 표현식 편집기에서 사용할 수 있습니다.
 
 <!--
 **Push channel**
