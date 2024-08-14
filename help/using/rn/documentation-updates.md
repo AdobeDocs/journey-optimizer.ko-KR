@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0d93e2a3a5707c6229894459348378a0ae538db1
+source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
 workflow-type: tm+mt
-source-wordcount: '5447'
+source-wordcount: '5454'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 99%
 ## 2024년 8월 {#aug-2024}
 
 * 의사 결정 관리에 대한 성능 보호 기능이 Edge 세그먼테이션을 사용하는/사용하지 않는 의사 결정 API 게재 처리량을 언급하도록 업데이트되었습니다. [자세히 보기](../start/guardrails.md#decision-management)
+* 여정 보호 기능이 업데이트되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
+
 
 ## 2024년 7월 {#july-2024}
 
