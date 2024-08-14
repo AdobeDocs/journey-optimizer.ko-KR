@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1091'
 ht-degree: 10%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ### 중요 정보{#important-notes-segment-qualification}
 
-* Adobe Experience Platform 대상은 하루에 한 번(**일괄 처리**&#x200B;개 대상) 또는 실시간으로(**스트리밍됨**&#x200B;개 대상, Adobe Experience Platform의 고주파 대상 옵션을 사용)계산됩니다.
+* Adobe Experience Platform 대상은 하루에 한 번(**일괄 처리**&#x200B;개 대상) 또는 실시간으로 계산됩니다(**스트리밍**&#x200B;개 대상의 경우 Adobe Experience Platform의 고주파 대상 옵션 사용).
 
    * 선택한 대상자가 스트리밍되는 경우 이 대상자에 속한 개인이 잠재적으로 실시간으로 여정에 입장할 수 있습니다.
    * 대상이 일괄 처리인 경우 Adobe Experience Platform에서 대상 계산이 실행될 때 이 대상에 대해 새로 자격을 얻은 사람이 여정에 들어올 수 있습니다.
@@ -51,6 +51,8 @@ ht-degree: 10%
 * 여정에서 대상자 자격을 사용할 때 해당 대상자 자격 활동이 활성화되고 대상자에 들어오거나 나가는 프로필을 듣는 데 최대 10분이 걸릴 수 있습니다.
 
 ### 활동 구성{#cnfigure-segment-qualification}
+
+**[!UICONTROL 대상 자격]** 활동을 구성하려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL 이벤트]** 범주를 펼친 후 **[!UICONTROL 대상 자격]** 활동을 캔버스에 드롭하십시오.
 

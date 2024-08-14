@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 이동, 활동, 여정, 분할, 분할
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 10%
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 대상 여정에서 **[!UICONTROL Jump]** 활동에 의해 내부적으로 트리거된 첫 번째 이벤트는 여정에서 개별 흐름을 만듭니다.
 
-## 라이프사이클
+## 라이프사이클 {#jump-lifecycle}
 
 여정 A의 **[!UICONTROL Jump]** 활동을 여정 B에 추가했다고 가정해 보겠습니다. 여정 A는 **원본 여정**&#x200B;이고 여정 B, **대상 여정**입니다.
 실행 프로세스의 여러 단계는 다음과 같습니다.
@@ -52,9 +52,9 @@ ht-degree: 10%
 >
 >여정 B는 외부 이벤트를 통해 트리거될 수도 있습니다.
 
-## 모범 사례 및 제한 사항
+## 모범 사례 및 제한 사항 {#jump-limitations}
 
-### 작성
+### 작성 {#jump-limitations-authoring}
 
 * **[!UICONTROL Jump]** 활동은 네임스페이스를 사용하는 여정에서만 사용할 수 있습니다.
 * 원본 여정과 동일한 네임스페이스를 사용하는 여정으로만 이동할 수 있습니다.
@@ -65,12 +65,12 @@ ht-degree: 10%
 * 대상 여정은 필요한 수만큼 **[!UICONTROL Jump]** 활동을 포함할 수도 있습니다.
 * 루프 패턴은 지원되지 않습니다. 무한 루프를 만드는 두 개 이상의 여정을 연결하는 방법은 없습니다. **[!UICONTROL Jump]** 활동 구성 화면에서 이 작업을 수행할 수 없습니다.
 
-### 실행
+### 실행 {#jump-limitations-exec}
 
 * **[!UICONTROL Jump]** 활동이 실행되면 대상 여정의 최신 버전이 트리거됩니다.
 * 평소와 같이 고유한 개인은 동일한 여정에서 한 번만 있을 수 있습니다. 따라서 원본 여정에서 푸시된 개인이 이미 대상 여정에 있는 경우 해당 개인은 대상 여정에 들어오지 않습니다. **[!UICONTROL Jump]** 활동은 정상적인 동작이므로 오류가 보고되지 않습니다.
 
-## 점프 활동 구성
+## 점프 활동 구성 {#jump-configure}
 
 1. **원본 여정**&#x200B;을 디자인합니다.
 
@@ -110,7 +110,7 @@ ht-degree: 10%
 
 ![](assets/jump7.png)
 
-## 문제 해결
+## 문제 해결 {#jump-troubleshoot}
 
 다음과 같은 경우 오류가 발생합니다.
 * 대상 여정이 더 이상 존재하지 않음
