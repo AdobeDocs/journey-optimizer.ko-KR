@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 26%
+source-wordcount: '633'
+ht-degree: 32%
 
 ---
 
@@ -28,21 +28,6 @@ ht-degree: 26%
 ### 새로운 기능 {#e-features}
 
 이번 릴리스에는 아래에 있는 새로운 기능이 제공됩니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>Marketo Engage 사용자 지정 작업</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Adobe Journey Optimizer를 Adobe Marketo Engage와 통합하여 B2B 사용 사례를 작성할 수 있습니다. 여정에서 새로운 사용자 정의 작업을 통해 데이터를 Marketo로 수집할 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 <table>
@@ -102,6 +87,22 @@ ht-degree: 26%
 <table>
 <thead>
 <tr>
+<th><strong>Marketo Engage 사용자 지정 작업</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer를 Adobe Marketo Engage와 통합하여 B2B 사용 사례를 작성할 수 있습니다. 여정에서 새로운 사용자 정의 작업을 통해 데이터를 Marketo로 수집할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
 <th><strong>콘텐츠 조각의 변수</strong><br/></th>
 </tr>
 </thead>
@@ -115,6 +116,22 @@ ht-degree: 26%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>IP 준비 워크플로</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>사용 가능한 날짜: 13년 8월</p>
+<p>완전히 새로운 IP 주소로 이메일을 보내는 경우 이제 사용자 인터페이스에서 직접 IP 준비 워크플로를 쉽게 수행할 수 있습니다. Adobe Journey Optimizer는 최적의 전달성을 위한 모범 사례에 따라 IP 주소를 준비하는 표준화되고 효율적인 방법을 제공합니다.</p>
+<p>자세한 내용은 <a href="../configuration/ip-warmup-gs.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <!--table>
 <thead>

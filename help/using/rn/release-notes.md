@@ -4,12 +4,12 @@ product: journey optimizer
 title: 릴리스 정보
 feature: Release Notes
 topic: Content Management
-description: Journey Optimizer 릴리스 정보
+description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 98%
+source-wordcount: '1830'
+ht-degree: 73%
 
 ---
 
@@ -26,9 +26,104 @@ ht-degree: 98%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
-## 8월 업데이트 {#24-8-2024}
+## 2024년 8월 초기 릴리스 정보 {#e-2024}
 
-다음 변경 사항이 8월에 릴리스되었습니다.
+**릴리스 날짜**: 2024년 8월 20~21일
+
+>[!CAUTION]
+>
+>**아래의 초기 릴리스 노트는 릴리스 날짜까지 사전 통보 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
+>
+
+### 새로운 기능 {#e-features}
+
+이번 릴리스에는 아래에 있는 새로운 기능이 제공됩니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>안내식 채널 설정</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>안내식 채널 설정 을 사용하면 통합 환경에서 모바일 채널 설정 단계를 자동화하여 Journey Optimizer을 보다 빠르게 시작할 수 있습니다. 이 설정을 사용하면 마케팅 채널을 신속하게 구성할 수 있으므로 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 쉽게 사용할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정 생성을 즉시 시작할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>컨텐츠 카드</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>콘텐츠 카드는 모바일 앱 및 웹 사이트에서 직접 개인화되고 흥미로운 콘텐츠를 제공하는 Adobe Journey Optimizer의 새로운 디지털 메시징 기능입니다. 기존 푸시 알림과 달리 Content Card는 사용자 인터페이스에 원활하게 통합되어 사용자 상호 작용과 경험을 향상시키는 지속적이고 비침입적인 업데이트를 제공합니다.</p>
+<p>이 기능을 통해 마케터는 사용자에게 관련성이 높은 리치 미디어 콘텐츠를 제공할 수 있으므로 참여도가 높아지고 사용자 여정을 중단하지 않고도 중요한 메시지를 볼 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>향상된 채널 구성</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>현재 채널 표면 기능은 모든 채널에서 일관된 접근 방식을 위해 향상되었습니다. 이제 모든 채널에서 이러한 구성을 정의, 관리 및 재사용할 수 있습니다.</p>
+<p><ul>
+<li>이제 채널 표면 이름이 <strong>채널 구성</strong>(으)로 변경되었습니다.</li>
+<li>이제 채널 구성 인벤토리에서 이제 웹, 인앱 메시징 또는 코드 기반 경험을 포함하여 모든 채널에 대해 재사용 가능한 채널 구성을 만들 수 있습니다</li>
+<li>이제 각 채널 구성에 OLAC(개체 수준 액세스 제어)를 사용할 수 있으므로 특정 구성을 만들거나 사용할 수 있는 사용자를 결정할 수 있습니다</li>
+<li>일부 채널의 경우 여러 플랫폼을 대상으로 하는 채널 구성을 만들 수 있습니다. 웹 페이지, iOS 앱 및 Android 앱을 타깃팅할 수 있는 인앱 메시지 채널 구성이 여기에 해당합니다.</li>
+</ul></p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Marketo Engage 사용자 지정 작업</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer를 Adobe Marketo Engage와 통합하여 B2B 사용 사례를 작성할 수 있습니다. 여정에서 새로운 사용자 정의 작업을 통해 데이터를 Marketo로 수집할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>콘텐츠 조각의 변수</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 조각은 <a href="../personalization/use-expression-fragments.md">식 조각</a> 및 <a href="../email/use-visual-fragments.md">시각적 조각</a>에서 모두 입력 변수를 사용할 수 있습니다. 이러한 변수를 사용하여 캠페인 및 여정에서 메시지 콘텐츠 및 매개 변수를 개인화할 수 있습니다.</p>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -46,6 +141,22 @@ ht-degree: 98%
 </tr>
 </tbody>
 </table>
+
+
+### 개선 사항 {#e-improvements}
+
+이번 릴리스에서는 아래 나열된 개선 사항이 제공됩니다.
+
+**여정**
+
+* **조건** 활동에서 기본적으로 시간 조건은 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
+* 이제 여정을 작성할 때 캠페인 경고에 맞게 정렬하고 일관된 사용자 경험을 제공하기 위해 경고가 드롭다운 목록에 표시됩니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 100%로 쉽게 재설정할 수 있습니다.
+
+**대상자**
+
+* 이제 사용자 지정 업로드(CSV 파일)의 대상을 Privacy 및 Security Shield 추가 기능과 함께 사용할 수 있습니다.
+* 이제 사용자 지정 업로드(CSV 파일) 대상을 타기팅할 때 캠페인 및 여정에 있는 파일의 속성을 사용할 수 있습니다. 이러한 속성은 개인화 편집기에서 메시지를 개인화하는 데 사용할 수 있으며 여정 고급 표현식 편집기에서 사용할 수 있습니다.
 
 ## 2024년 7월 릴리스 정보 {#24-7-2024}
 
@@ -96,8 +207,6 @@ ht-degree: 98%
 
 * (공개일: 7월 8일)**여정 이벤트 구성의 고급 표현식 편집기** - 이제 이벤트를 구성할 때 고급 표현식 편집기를 활용하여 이벤트 ID 조건에 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md#adv-exp-editor)
 
-
-
 ## 2024년 6월 릴리스 정보 {#24-6-2024}
 
 **릴리스 날짜**: 2024년 6월 18~19일
@@ -105,23 +214,6 @@ ht-degree: 98%
 ### 새로운 기능 {#june-24-features}
 
 이번 릴리스에는 아래에 있는 새로운 기능이 제공됩니다.
-
-<!--table>
-<thead>
-<tr>
-<th><strong>IP Warmup Workflow</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 
 <table>
 <thead>
@@ -158,7 +250,6 @@ ht-degree: 98%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -174,7 +265,6 @@ ht-degree: 98%
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
