@@ -10,9 +10,9 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: 8484c39cf610fc4044e656243eba88deb8c50867
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1326'
 ht-degree: 4%
 
 ---
@@ -173,7 +173,7 @@ ht-degree: 4%
 
    * **[!UICONTROL 번역 진행 중]**: 서비스 공급자가 현재 번역 작업을 진행 중입니다.
 
-     **언어 설정**&#x200B;을 구성할 때 **사내 번역**&#x200B;을 선택한 경우 번역 프로젝트에서 직접 콘텐츠를 번역할 수 있습니다. [자세히 알아보기](#manage-ht-project)
+     **언어 설정**&#x200B;을 구성할 때 **인소싱**&#x200B;을 선택한 경우 번역 프로젝트에서 직접 콘텐츠를 번역할 수 있습니다. [자세히 알아보기](#manage-ht-project)
 
    * **[!UICONTROL 검토 준비됨]**: 검토 프로세스를 시작할 준비가 되었으며, 이를 통해 번역에 액세스하고 이를 거부하거나 승인할 수 있습니다.
 
@@ -203,11 +203,11 @@ ht-degree: 4%
 
 이제 캠페인이나 여정을 활성화할 수 있습니다. 전송되면 보고서 내에서 다국어 여정 또는 캠페인의 영향을 측정할 수 있습니다.
 
-## 사내 번역 프로젝트 관리 {#manage-ht-project}
+## 인소싱 번역 프로젝트 관리 {#manage-ht-project}
 
-언어 설정을 구성할 때 내부 번역을 선택한 경우 번역 프로젝트에서 직접 콘텐츠를 번역할 수 있습니다.
+언어 설정을 구성할 때 인소싱을 선택한 경우 번역 프로젝트에서 직접 콘텐츠를 번역할 수 있습니다.
 
-1. **[!UICONTROL 번역 프로젝트]**&#x200B;에서 **[!UICONTROL 추가 작업]** 메뉴에 액세스하고 **[!UICONTROL 사내 번역]**&#x200B;을 선택하세요.
+1. **[!UICONTROL 번역 프로젝트]**&#x200B;에서 **[!UICONTROL 추가 작업]** 메뉴에 액세스하고 **[!UICONTROL 인소싱]**&#x200B;을 선택하세요.
 
    ![](assets/inhouse-translation-1.png)
 
