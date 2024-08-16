@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc6a91e4999bd8dfb51372f6b4aca47b14fe4029
+source-git-commit: a326d0869f5d195c4a2b4be930e981c11a15afd9
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 46%
@@ -48,7 +48,7 @@ ht-degree: 46%
 <tbody>
 <tr>
 <td>
-<p>안내식 채널 설정 을 사용하면 통합 환경에서 모바일 채널 설정 단계를 자동화하여 Journey Optimizer을 보다 빠르게 시작할 수 있습니다. 이 설정을 사용하면 마케팅 채널을 신속하게 구성할 수 있으므로 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 쉽게 사용할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정 생성을 즉시 시작할 수 있습니다.</p>
+<p>가이드 채널 설정을 사용하면 통합 환경에서 채널 설정을 자동화하여 Journey Optimizer 시작 프로세스를 가속화할 수 있습니다. 이 새로운 가이드 설정을 통해 신속한 채널 구성을 간소화하여 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 즉시 사용할 수 있습니다. 이를 통해 마케팅, 제품 및 데이터 엔지니어링 팀은 캠페인 및 여정 생성을 신속하게 시작할 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
