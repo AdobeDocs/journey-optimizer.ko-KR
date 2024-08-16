@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 470a1a999eeedd94a20bc1b0a49b0f0bce472a1c
+source-git-commit: dc6a91e4999bd8dfb51372f6b4aca47b14fe4029
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '888'
 ht-degree: 46%
 
 ---
@@ -79,10 +79,10 @@ ht-degree: 46%
 <tbody>
 <tr>
 <td>
-<p>현재 채널 표면 기능은 모든 채널에서 일관된 접근 방식을 위해 향상되었습니다. 이제 모든 채널에서 이러한 구성을 정의, 관리 및 재사용할 수 있습니다.</p>
+<p>현재 채널 표면 기능은 모든 채널에서 일관된 접근 방식을 위해 향상되었습니다. 이제 웹, 인앱 메시지 또는 코드 기반 경험을 포함하여 모든 채널에 대해 이러한 구성을 정의, 관리 및 재사용할 수 있습니다.</p>
 <p><ul>
 <li>이제 채널 표면 이름이 <strong>채널 구성</strong>(으)로 변경되었습니다.</li>
-<li>이제 채널 구성 인벤토리에서 이제 웹, 인앱 메시징 또는 코드 기반 경험을 포함하여 모든 채널에 대해 재사용 가능한 채널 구성을 만들 수 있습니다</li>
+<li>동의 및 데이터 거버넌스 정책을 시행하기 위해 하나 이상의 마케팅 작업을 첨부할 수 있습니다</li>
 <li>이제 각 채널 구성에 OLAC(개체 수준 액세스 제어)를 사용할 수 있으므로 특정 구성을 만들거나 사용할 수 있는 사용자를 결정할 수 있습니다</li>
 <li>일부 채널의 경우 여러 플랫폼을 대상으로 하는 채널 구성을 만들 수 있습니다. 웹 페이지, iOS 앱 및 Android 앱을 타깃팅할 수 있는 인앱 메시지 채널 구성이 여기에 해당합니다.</li>
 </ul></p>
@@ -91,7 +91,6 @@ ht-degree: 46%
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
