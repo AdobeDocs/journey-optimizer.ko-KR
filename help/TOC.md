@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9add1b2a5f6941773416daea2366f58851a6028a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1889'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 99%
       + [대기](using/building-journeys/wait-activity.md)
       + [대상자 읽기](using/building-journeys/read-audience.md)
       + [이메일, 인앱, 푸시, SMS](using/building-journeys/journeys-message.md)
-      + [사용자 정의 작업](using/building-journeys/using-custom-actions.md)
+      + [사용자 정의 액션](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 작업](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 작업](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [점프](using/building-journeys/jump.md)
@@ -608,7 +608,7 @@ ht-degree: 99%
          + [Adobe Campaign Standard 통합](using/action/acs-action.md)
          + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
          + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
-         + [Marketo Engage과 통합](using/action/marketo-engage.md)
+         + [Marketo Engage와 통합](using/action/marketo-engage.md)
    + [소스](using/start/get-started-sources.md)
 + 액세스 제어 {#access-control}
    + 액세스 제어 개요 {#privacy}
