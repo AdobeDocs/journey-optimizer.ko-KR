@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f0a131313eb96ef50b5a27011d67e59eb730b108
+source-git-commit: 3f6d1026d78584e21e03d3ef5c1bc37b59168176
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 97%
@@ -538,20 +538,20 @@ ht-degree: 97%
             + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
    + 경험 결정(LA) {#experience-decisioning}
       + [Experience Decisioning 시작](using/experience-decisioning/gs-experience-decisioning.md)
-      + [API 참조]{#api-reference}
-         + [결정 항목]{#decision-items}
+      + API 참조{#api-reference}
+         + 결정 항목{#decision-items}
             + [결정 항목 만들기](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [결정 항목 목록](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
             + [결정 항목 삭제](/help/using/experience-decisioning/api-reference/decisions-items/delete.md)
             + [의사 결정 항목 조회](/help/using/experience-decisioning/api-reference/decisions-items/lookup.md)
             + [결정 항목 업데이트](/help/using/experience-decisioning/api-reference/decisions-items/update.md)
-         + [항목 컬렉션]{#items-collections}
+         + 항목 컬렉션{#items-collections}
             + [항목 컬렉션 만들기](/help/using/experience-decisioning/api-reference/items-collections/create.md)
             + [항목 컬렉션 삭제](/help/using/experience-decisioning/api-reference/items-collections/delete.md)
             + [항목 컬렉션 목록](/help/using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
             + [항목 컬렉션 조회](/help/using/experience-decisioning/api-reference/items-collections/lookup.md)
             + [항목 컬렉션 업데이트](/help/using/experience-decisioning/api-reference/items-collections/update.md)
-         + [선택 전략]{#selection-strategies}
+         + 선택 전략{#selection-strategies}
             + [선택 전략 만들기](/help/using/experience-decisioning/api-reference/selection-strategies/create.md)
             + [선택 전략 삭제](/help/using/experience-decisioning/api-reference/selection-strategies/delete.md)
             + [조회 선택 전략](/help/using/experience-decisioning/api-reference/selection-strategies/lookup.md)
