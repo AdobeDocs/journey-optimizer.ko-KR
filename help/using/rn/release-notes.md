@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 2fe963b43f08a99e000a916571f5b04a4a96c845
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 45%
+ht-degree: 59%
 
 ---
 
@@ -81,9 +81,9 @@ ht-degree: 45%
 <td>
 <p>현재 채널 표면 기능은 모든 채널에서 일관된 접근 방식을 위해 향상되었습니다. 이제 웹, 인앱 메시지 또는 코드 기반 경험을 포함하여 모든 채널에 대해 이러한 구성을 정의, 관리 및 재사용할 수 있습니다.</p>
 <p><ul>
-<li>이제 채널 표면 이름이 <strong>채널 구성</strong>(으)로 변경되었습니다.</li>
+<li>이제 채널 표면 이름이 <strong>채널 구성</strong>으로 변경되었습니다.</li>
 <li>동의 및 데이터 거버넌스 정책을 시행하기 위해 하나 이상의 마케팅 작업을 첨부할 수 있습니다</li>
-<li>이제 각 채널 구성에 OLAC(개체 수준 액세스 제어)를 사용할 수 있으므로 특정 구성을 만들거나 사용할 수 있는 사용자를 결정할 수 있습니다</li>
+<li>이제 각 채널 구성에 OLAC(개체 수준 액세스 제어)를 사용할 수 있으므로 특정 구성을 만들거나 사용할 수 있는 사용자를 결정할 수 있습니다.</li>
 <li>일부 채널의 경우 여러 플랫폼을 대상으로 하는 채널 구성을 만들 수 있습니다. 웹 페이지, iOS 앱 및 Android 앱을 타깃팅할 수 있는 인앱 메시지 채널 구성이 여기에 해당합니다.</li>
 </ul></p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
@@ -133,7 +133,7 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>사용 가능한 날짜: 13년 8월</p>
+<p>사용 가능한 날짜: 2013년 8월</p>
 <p>완전히 새로운 IP 주소로 이메일을 보내는 경우 이제 사용자 인터페이스에서 직접 IP 준비 워크플로를 쉽게 수행할 수 있습니다. Adobe Journey Optimizer는 최적의 전달성을 위한 모범 사례에 따라 IP 주소를 준비하는 표준화되고 효율적인 방법을 제공합니다.</p>
 <p>자세한 내용은 <a href="../configuration/ip-warmup-gs.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -148,7 +148,7 @@ ht-degree: 45%
 
 **여정**
 
-* **조건** 활동에서 기본적으로 시간 조건은 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
+* 이제 **조건** 활동에서 시간 조건은 기본적으로 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
 * 이제 여정을 작성할 때 캠페인 경고에 맞게 정렬하고 일관된 사용자 경험을 제공하기 위해 경고가 드롭다운 목록에 표시됩니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 100%로 쉽게 재설정할 수 있습니다.
 

@@ -21,13 +21,13 @@ ht-degree: 99%
 
 ## 2024년 8월 {#aug-2024}
 
-* 의사 결정 관리에 대한 성능 보호 기능이 Edge 세그먼테이션을 사용하는/사용하지 않는 의사 결정 API 게재 처리량을 언급하도록 업데이트되었습니다. [자세히 보기](../start/guardrails.md#decision-management)
+* 의사 결정 관리에 대한 성능 보호 기능이 Edge 세분화를 사용하거나 사용하지 않는 의사 결정 API 게재 처리량을 언급하도록 업데이트되었습니다. [자세히 보기](../start/guardrails.md#decision-management)
 * 여정 보호 기능이 업데이트되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## 2024년 7월 {#july-2024}
 
-* [!DNL Journey Optimizer] 2024년 7월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 2024년 7월 릴리스의 모든 새로운 기능 및 개선 사항은 [!DNL Journey Optimizer]설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 건강 계획 및 처방과 관련된 정보가 있는 이메일을 개인화하는 방법에 대한 개인화 사용 사례를 추가했습니다. [자세히 보기](../personalization/perso-uc-plan-prescriptions.md)
 
 ## 2024년 6월 {#june-2024}
