@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '112'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 결정 항목 삭제 {#delete-decision-item}
 
-때때로 결정 항목을 제거(DELETE)해야 할 수 있습니다. 이 작업은 삭제하려는 결정 항목의 ID를 사용하여 오퍼 라이브러리 API에 대한 DELETE 요청을 수행함으로써 수행됩니다.
+의사 결정 항목을 제거하려면 삭제할 의사 결정 항목의 ID를 사용하여 오퍼 라이브러리 API에 대한 DELETE 요청을 수행합니다.
 
 **API 형식**
 

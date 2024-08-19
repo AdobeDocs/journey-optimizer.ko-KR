@@ -1,14 +1,14 @@
 ---
 title: 의사 결정 항목 만들기
-description: 의사 결정 항목은 만들고 컬렉션 및 카탈로그로 구성할 수 있는 마케팅 오퍼입니다.
+description: 오퍼 라이브러리 API를 사용하여 의사 결정 항목을 만드는 방법을 알아봅니다.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 7%
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 7%
 # 의사 결정 항목 만들기 {#create-decision-items}
 
 오퍼 라이브러리 API에 POST 요청을 하여 의사 결정 항목을 만들 수 있습니다.
-
-**Accept 및 Content-Type 헤더**
-
-다음 표는 요청 헤더의 콘텐츠 유형 필드를 구성하는 유효한 값을 보여 줍니다.
-
-| 헤더 이름 | 값 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API 형식**
 
@@ -68,7 +60,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-items' \
         }
     },
     "_<imsOrg>": {
-        "some_field": "some value"
+        "foo": "bar"
     }
 }'
 ```

@@ -5,10 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 7%
+source-wordcount: '81'
+ht-degree: 6%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 7%
 # 선택 전략 만들기 {#create-selection-strategy}
 
 오퍼 라이브러리 API에 POST 요청을 하여 선택 전략을 만들 수 있습니다.
-
-**Accept 및 Content-Type 헤더**
-
-다음 표는 요청 헤더의 콘텐츠 유형 필드를 구성하는 유효한 값을 보여 줍니다.
-
-| 헤더 이름 | 값 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API 형식**
 

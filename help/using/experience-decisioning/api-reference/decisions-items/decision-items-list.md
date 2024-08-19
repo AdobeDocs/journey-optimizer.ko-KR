@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dc47e2835379fbb2afb768beea6e4a1596f70ee9
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 12%
 
 ---
@@ -58,7 +58,7 @@ curl -X GET '<https://platform.adobe.io/data/core/dps/offer-items?limit=2>' \
 
 **응답**
 
-성공적인 응답은 액세스 권한이 있는 오퍼 항목 목록을 반환합니다. 다음 _<imsOrg> 노드에는 사용자 지정 의사 결정 항목 속성이 있습니다.
+성공적인 응답은 액세스 권한이 있는 오퍼 항목 목록을 반환합니다. `_<imsOrg>` 노드에는 사용자 지정 결정 항목 특성이 있습니다.
 
 ```json
 {
@@ -131,7 +131,7 @@ curl -X GET '<https://platform.adobe.io/data/core/dps/offer-items?limit=2>' \
                     }
                 }
             },
-            "_<imsOrg>": {
+            "YOUR_CUSTOM_ATTRIBUTES": {
                 "some_field": "some value",
                 "some_boolean_field": true
             }

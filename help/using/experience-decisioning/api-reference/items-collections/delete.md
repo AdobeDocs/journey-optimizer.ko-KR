@@ -1,13 +1,13 @@
 ---
 title: 항목 컬렉션 삭제
-description: 컬렉션을 사용하면 환경 설정에 따라 결정 항목을 분류하고 그룹화할 수 있습니다.
+description: 그룹 결정을 컬렉션으로 분류하는 방법을 알아봅니다.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dc47e2835379fbb2afb768beea6e4a1596f70ee9
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '116'
 ht-degree: 4%
 
 ---

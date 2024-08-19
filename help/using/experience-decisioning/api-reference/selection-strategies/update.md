@@ -1,12 +1,14 @@
 ---
 title: 선택 전략 업데이트
+description: 선택 전략은 오퍼를 결정하기 위한 제약 조건 및 등급 방법과 연관된 컬렉션으로 구성됩니다.
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 7%
+source-wordcount: '127'
+ht-degree: 5%
 
 ---
 
@@ -16,14 +18,6 @@ ht-degree: 7%
 오퍼 라이브러리 API에 PATCH 요청을 하여 선택 전략을 수정하거나 업데이트할 수 있습니다.
 
 사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 공식 [JSON 패치 설명서](http://jsonpatch.com/)를 참조하세요.
-
-**Accept 및 Content-Type 헤더**
-
-다음 표는 요청 헤더의 콘텐츠 유형 필드를 구성하는 유효한 값을 보여 줍니다.
-
-| 헤더 이름 | 값 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API 형식**
 

@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '80'
 ht-degree: 6%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 의사 결정 항목 조회 {#lookup-decision-items}
 
-요청 경로에 ID가 포함된 GET 라이브러리 API에 대한 오퍼 요청을 수행하여 특정 의사 결정 항목을 조회할 수 있습니다.
+요청 경로에 ID가 포함된 GET 라이브러리 API에 대한 오퍼 요청을 수행하여 특정 의사 결정 항목을 조회하려면 다음을 수행하십시오.
 
 **API 형식**
 
