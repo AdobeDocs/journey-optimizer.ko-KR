@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fe963b43f08a99e000a916571f5b04a4a96c845
+source-git-commit: d971d857a480868f5ef502f3a3f2c209afc93cca
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 59%
+source-wordcount: '604'
+ht-degree: 70%
 
 ---
 
@@ -39,58 +39,57 @@ ht-degree: 59%
 
 이번 릴리스에는 아래에 있는 새로운 기능이 제공됩니다.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>안내식 채널 설정</strong><br/></th>
+<th><strong>Guided Channel Setup</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>가이드 채널 설정 을 사용하면 통합 환경에서 채널 설정을 자동화하고 유효성을 검사하여 Journey Optimizer 시작 프로세스를 가속화할 수 있습니다. 이 새로운 가이드 설정을 통해 신속한 채널 구성을 간소화하므로 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 쉽게 설치하고 작업할 수 있습니다. 이를 통해 마케팅, 제품 및 데이터 엔지니어링 팀은 캠페인 및 여정 생성을 신속하게 시작할 수 있습니다.</p>
+<p>Guided Channel Setup enables you to automate and validate channel setup in a unified experience, speeding up the process of getting started with Journey Optimizer. This new guided setup streamlines rapid channel configuration, ensuring all necessary resources are readily installed and working within Experience Platform, Journey Optimizer, and Data Collection. This enables marketing, product and data engineering teams to quickly begin with campaign and journey creation.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>컨텐츠 카드</strong><br/></th>
+<th><strong>Content Cards</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>콘텐츠 카드는 모바일 앱 및 웹 사이트에서 직접 개인화되고 흥미로운 콘텐츠를 제공하는 Adobe Journey Optimizer의 새로운 디지털 메시징 기능입니다. 기존 푸시 알림과 달리 Content Card는 사용자 인터페이스에 원활하게 통합되어 사용자 상호 작용과 경험을 향상시키는 지속적이고 비침입적인 업데이트를 제공합니다.</p>
-<p>이 기능을 통해 마케터는 사용자에게 관련성이 높은 리치 미디어 콘텐츠를 제공할 수 있으므로 참여도가 높아지고 사용자 여정을 중단하지 않고도 중요한 메시지를 볼 수 있습니다.</p>
+<p>Content card is a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>향상된 채널 구성</strong><br/></th>
+<th><strong>Improved Channel Configurations</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>현재 채널 표면 기능은 모든 채널에서 일관된 접근 방식을 위해 향상되었습니다. 이제 웹, 인앱 메시지 또는 코드 기반 경험을 포함하여 모든 채널에 대해 이러한 구성을 정의, 관리 및 재사용할 수 있습니다.</p>
+<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels, including Web, In-app messaging, or Code-based experience.</p>
 <p><ul>
-<li>이제 채널 표면 이름이 <strong>채널 구성</strong>으로 변경되었습니다.</li>
-<li>동의 및 데이터 거버넌스 정책을 시행하기 위해 하나 이상의 마케팅 작업을 첨부할 수 있습니다</li>
-<li>이제 각 채널 구성에 OLAC(개체 수준 액세스 제어)를 사용할 수 있으므로 특정 구성을 만들거나 사용할 수 있는 사용자를 결정할 수 있습니다.</li>
-<li>일부 채널의 경우 여러 플랫폼을 대상으로 하는 채널 구성을 만들 수 있습니다. 웹 페이지, iOS 앱 및 Android 앱을 타깃팅할 수 있는 인앱 메시지 채널 구성이 여기에 해당합니다.</li>
+<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
+<li>You can attach one or multiple marketing actions to enforce consent and data governance policies</li>
+<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
+<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
 </ul></p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -148,7 +147,7 @@ ht-degree: 59%
 
 **여정**
 
-* 이제 **조건** 활동에서 시간 조건은 기본적으로 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
+<!--* In the **Condition** activity, by default, the Time condition is now set by hour, from 00:00 to 12:00. [Read more](../building-journeys/condition-activity.md#time_condition)-->
 * 이제 여정을 작성할 때 캠페인 경고에 맞게 정렬하고 일관된 사용자 경험을 제공하기 위해 경고가 드롭다운 목록에 표시됩니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 100%로 쉽게 재설정할 수 있습니다.
 
