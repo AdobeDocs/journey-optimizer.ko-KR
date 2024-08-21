@@ -6,14 +6,14 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
 
-# 사전 요구 사항 및 보호 기능 {#web-prerequisites}
+# 사전 요구 사항 및 가드레일 {#web-prerequisites}
 
 [!DNL Journey Optimizer] 사용자 인터페이스에서 웹 페이지에 액세스하고 웹 페이지를 작성하려면 아래 사전 요구 사항을 따르십시오.
 
@@ -35,13 +35,13 @@ ht-degree: 2%
 
 ## 구현 사전 요구 사항 {#implementation-prerequisites}
 
-현재 웹 속성에서 웹 채널 캠페인을 작성 및 게재할 수 있도록 두 가지 유형의 구현이 지원됩니다.
+웹 속성에서 웹 채널 캠페인을 작성 및 게재할 수 있도록 두 가지 유형의 구현이 지원됩니다.
 
 * 클라이언트측 전용 - 웹 사이트에 수정 사항을 추가하려면 웹 사이트에서 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}를 구현해야 합니다.
 
   >[!NOTE]
   >
-  >AEP 웹 SDK 버전이 2.16 이상인지 확인하십시오.
+  >[Adobe Experience Platform 웹 SDK 버전](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"}이(가) 2.16 이상인지 확인하십시오.
 
 * 하이브리드 모드 - [AEP Edge Network 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"}를 사용하여 개인화 서버측을 요청할 수 있습니다. 수정 사항을 클라이언트측에서 렌더링하도록 Adobe Experience Platform Web SDK에 응답이 제공됩니다. 자세한 내용은 Adobe Experience Platform [Edge Network 서버 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}를 참조하세요. 하이브리드 모드에 대한 자세한 정보를 확인하고 [이 블로그 게시물](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}에서 일부 구현 샘플을 확인할 수 있습니다.
 

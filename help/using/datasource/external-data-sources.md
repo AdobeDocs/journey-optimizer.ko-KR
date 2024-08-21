@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 60%
+source-wordcount: '1535'
+ht-degree: 49%
 
 ---
 
@@ -102,7 +102,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 * 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL 동적 값]** 필드에 포함합니다. 아래 예제에서는 매개 변수가 &quot;identifier&quot;입니다.
 * 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수의 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
 
-  ```
+  ```json
   {"id":{"param":"identifier"}}
   ```
 
@@ -141,28 +141,28 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 ### 액세스 토큰을 생성하기 위해 호출할 끝점의 정의{#custom-authentication-endpoint}
 
-* endpoint: 끝점을 생성하는 데 사용할 URL
-* 끝점에 대한 HTTP 요청 메서드(GET 또는 POST)
-* header: 필요한 경우 이 호출에서 헤더로 삽입할 키-값 쌍
-* body: 메서드가 POST인 경우 호출의 본문을 설명하는 요소. bodyParams(키-값 쌍)에 정의된 제한된 본문 구조가 지원됩니다. bodyType은 호출 본문의 형식과 인코딩을 설명합니다.
-   * &#39;form&#39;: 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키-값 쌍이 그대로 일련화됩니다(예: key1=value1&amp;key2=value2&amp;...).
-   * &#39;json&#39;: 콘텐츠 유형은 application/json(charset UTF-8)이며 키-값 쌍이 json 개체 그대로 일련화됩니다(예: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;...}_).
+* `endpoint`: 끝점을 생성하는 데 사용할 URL
+* 끝점(`GET` 또는 `POST`)에 대한 HTTP 요청의 메서드
+* `headers`: 필요한 경우 이 호출에서 헤더로 삽입할 키-값 쌍입니다
+* `body`: 메서드가 POST 상태인 경우 호출의 본문을 설명합니다. bodyParams(키-값 쌍)에 정의된 제한된 본문 구조가 지원됩니다. bodyType은 호출 본문의 형식과 인코딩을 설명합니다.
+   * `form`: 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키-값 쌍이 그대로 일련화됩니다(예: key1=value1&amp;key2=value2&amp;...).
+   * `json`: 콘텐츠 유형은 application/json(charset UTF-8)이며 키-값 쌍이 json 개체 그대로 일련화됩니다(예: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;...}_).
 
 ### 작업의 HTTP 요청에 액세스 토큰을 삽입해야 하는 방식의 정의{#custom-authentication-access-token}
 
-* authorizationType: 생성된 액세스 토큰을 작업의 HTTP 호출에 삽입해야 하는 방법을 정의합니다. 가능한 값은 다음과 같습니다.
+* **authorizationType**: 생성된 액세스 토큰을 작업의 HTTP 호출에 삽입해야 하는 방법을 정의합니다. 가능한 값은 다음과 같습니다.
 
-   * bearer: _Authorization: Bearer &lt;액세스 토큰>_&#x200B;과 같이 액세스 토큰을 권한 부여 헤더에 삽입해야 함을 나타냅니다.
-   * header: 액세스 토큰을 header(tokenTarget 속성으로 정의된 헤더 이름)로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myHeader이면 액세스 토큰은 _myHeader: &lt;액세스 토큰>_&#x200B;과 같이 헤더로 삽입됩니다.
-   * queryParam: access 토큰을 queryParam(tokenTarget 속성으로 정의되는 쿼리 매개 변수 이름)으로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myQueryParam이면 작업 호출의 URL은 _&lt;url>?myQueryParam=&lt;액세스 토큰>_&#x200B;이 됩니다.
+   * `bearer`: _인증: 전달자 &lt;액세스 토큰>_&#x200B;과 같이 액세스 토큰을 인증 헤더에 삽입해야 함을 나타냅니다.
+   * `header`: 액세스 토큰을 `tokenTarget` 속성으로 정의된 헤더 이름인 헤더로 삽입해야 함을 나타냅니다. 예를 들어 `tokenTarget`이(가) `myHeader`이면 액세스 토큰은 _myHeader: &lt;액세스 토큰>_(으)로 헤더로 삽입됩니다.
+   * `queryParam`: 액세스 토큰을 queryParam(tokenTarget 속성으로 정의된 쿼리 매개 변수 이름)으로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myQueryParam이면 작업 호출의 URL은 _&lt;url>?myQueryParam=&lt;액세스 토큰>_&#x200B;이 됩니다.
 
-* tokenInResponse: 인증 호출에서 액세스 토큰을 추출하는 방법을 나타냅니다. 이 속성은 다음 중 하나일 수 있습니다.
-   * &#39;response&#39;: HTTP 응답이 액세스 토큰임을 나타냅니다.
-   * json의 선택기. 응답이 json이면 XML 등의 기타 형식은 지원되지 않습니다. 이 선택기의 형식은 _json://&lt;액세스 토큰 속성의 여정>_&#x200B;입니다. 예를 들어 호출의 응답이 _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_&#x200B;이면 tokenInResponse는 _json: //access_token_&#x200B;이 됩니다.
+* **tokenInResponse**: 인증 호출에서 액세스 토큰을 추출하는 방법을 나타냅니다. 이 속성은 다음 중 하나일 수 있습니다.
+   * `response`: HTTP 응답이 액세스 토큰임을 나타냅니다.
+   * json의 선택기. 응답이 json이면 XML 등의 다른 형식은 지원되지 않습니다. 이 선택기의 형식은 _json://&lt;액세스 토큰 속성의 여정>_&#x200B;입니다. 예를 들어 호출의 응답이 _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_&#x200B;이면 tokenInResponse는 _json: //access_token_&#x200B;이 됩니다.
 
 이 인증의 형식은 다음과 같습니다.
 
-```
+```json
 {
     "type": "customAuthorization",
     "endpoint": "<URL of the authentication endpoint>",
@@ -193,15 +193,13 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 >
 >Encode64는 인증 페이로드에서 사용할 수 있는 유일한 함수입니다.
 
-사용자 지정 인증 데이터 소스에 대해 토큰의 캐시 기간을 변경할 수 있습니다. 아래는 사용자 지정 인증 페이로드의 예입니다. 캐시 기간은 &quot;cacheDuration&quot; 매개 변수에서 정의됩니다. 캐시에서 생성된 토큰의 보존 기간을 지정합니다. 단위는 밀리초, 초, 분, 시간, 일, 개월, 년일 수 있습니다.
+사용자 지정 인증 데이터 소스에 대해 토큰의 캐시 기간을 변경할 수 있습니다. 아래는 사용자 지정 인증 페이로드의 예입니다. 캐시 기간은 `cacheDuration` 매개 변수에 정의되어 있습니다. 캐시에서 생성된 토큰의 보존 기간을 지정합니다. 단위는 밀리초, 초, 분, 시간, 일, 개월, 년일 수 있습니다.
 
 다음은 전달자 인증 유형의 예입니다.
 
-```
+```json
 {
-  "authentication": {
     "type": "customAuthorization",
-    "authorizationType": "Bearer",
     "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
@@ -220,9 +218,8 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
     "cacheDuration": {
       "duration": 5,
       "timeUnit": "minutes"
-    }
-  }
-}
+    },
+  },
 ```
 
 >[!NOTE]
@@ -234,11 +231,9 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 다음은 헤더 인증 유형의 예입니다.
 
-```
+```json
 {
   "type": "customAuthorization",
-  "authorizationType": "header",
-  "tokenTarget": "x-auth-token",
   "endpoint": "https://myapidomain.com/v2/user/login",
   "method": "POST",
   "headers": {
@@ -255,13 +250,15 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
   "cacheDuration": {
     "expiryInResponse": "json://expiryDuration",
     "timeUnit": "minutes"
-  }
-}
+  },
+  "authorizationType": "header",
+  "tokenTarget": "x-auth-token"
+} 
 ```
 
 다음은 로그인 API 호출의 응답의 예입니다.
 
-```
+```json
 {
   "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
   "expiryDuration" : 5

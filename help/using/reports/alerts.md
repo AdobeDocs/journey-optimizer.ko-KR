@@ -8,14 +8,18 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # 경고 시작 {#alerts}
+
+여정 및 캠페인을 작성할 때 실행 또는 게시하기 전에 **경고** 단추를 사용하여 오류를 확인하고 해결하십시오. [이 페이지](../building-journeys/troubleshooting.md)에서 여정 문제를 해결하는 방법을 알아보세요. [이 페이지](../campaigns/review-activate-campaign.md)에서 캠페인을 검토하는 방법을 알아보세요.
+
+이 페이지에 설명된 대로 Adobe Journey Optimizer 시스템 경고를 구독할 수도 있습니다.
 
 ## 경고 액세스 및 구독 {#alerting-capabilities}
 
@@ -88,5 +92,5 @@ ht-degree: 0%
   ![](assets/alert-troubleshooting-3.png)
 
 * 여정 stepEvents를 확인하여 &quot;failureReason&quot;에 대한 자세한 정보를 찾으십시오.
-* 사용자 지정 작업 구성을 확인하고 인증이 여전히 유효한지 확인합니다. Postman으로 수동 검사 수행,
-예.
+
+* 사용자 지정 작업 구성을 확인하고 인증이 여전히 유효한지 확인합니다. 예를 들어 Postman을 사용하여 수동 검사를 수행합니다.

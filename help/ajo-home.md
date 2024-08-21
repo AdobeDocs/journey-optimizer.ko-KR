@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 10f11728653c8bed8a768f6d7d106ccfa47eb7e1
-workflow-type: ht
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -20,11 +20,11 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB 7월 릴리스가 공개되었습니다!]
+>[!TAB 8월 릴리스가 공개되었습니다!]
 
-Adobe Journey Optimizer 7월 릴리스의 새로운 기능과 개선 사항을 살펴보십시오.
+Adobe Journey Optimizer 8월 릴리스의 새로운 기능 및 향상된 기능을 살펴보십시오.
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md#24-7-2024)
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB Customer Journey Analytics를 사용한 보고(Beta)]
 

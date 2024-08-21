@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 문제 해결, 문제 해결, 여정, 확인, 오류
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 63%
+source-wordcount: '957'
+ht-degree: 53%
 
 ---
 
@@ -24,25 +24,37 @@ ht-degree: 63%
 
 여정을 테스트하고 게시하기 전에 모든 활동이 올바르게 구성되었는지 확인하십시오. 시스템에서 오류가 계속 감지되면 테스트나 게시를 수행할 수 없습니다.
 
-캔버스에서 활동 자체에 경고 기호가 표시되면서 오류가 나타납니다. 커서를 느낌표 위에 놓으면 오류 메시지가 표시됩니다. 활동을 클릭하면 오류가 발생한 줄이 경고와 함께 표시됩니다. 예를 들어 필수 필드가 비어 있으면 오류가 표시됩니다.
 
-![](assets/journey63.png)
+### 활동 오류 {#activity-errors}
 
-예를 들어 캔버스에서 두 활동이 끊어져 있으면 경고가 표시됩니다.
+캔버스에서 활동 자체에 경고 기호가 표시되면서 오류가 나타납니다. 커서를 느낌표 위에 놓으면 오류 메시지가 표시됩니다. 활동을 클릭하면 오류가 발생한 줄이 경고와 함께 표시됩니다. 예:
 
-![](assets/canvas-disconnected.png)
+* 필수 필드가 비어 있으면 오류가 표시됩니다
 
-**[!UICONTROL 테스트]** 토글 및 **[!UICONTROL Publish]** 단추 옆에 경고 기호가 표시될 수 있습니다. 이 경고 표시는 시스템에서 감지된 오류를 표시하며 테스트 모드가 활성화되거나 여정이 게시되는 것을 방지합니다. 대부분의 경우 시스템에서 감지된 오류는 활동에서 확인할 수 있는 오류와 연결되어 있지만, 때로는 다른 문제와 연결되어 있습니다. 그럴 경우에는 오류를 표시하고 오류 설명을 통해 문제를 파악할 수 있습니다. 문제를 파악할 수 없는 경우 세부 정보를 복사하여 관리자나 지원 팀에 보낼 수 있습니다. 테스트를 차단하는 오류와 게시를 차단하는 오류는 비슷합니다.
+  ![](assets/journey63.png)
 
-시스템에서는 오류와 경고의 두 가지 문제를 감지합니다. 오류는 게시 및 테스트 활성화를 차단합니다. 경고는 테스트 활성화 또는 게시를 차단하지 않는 잠재적인 문제를 나타냅니다. 문제에 대한 설명 그리고 ERR_XXX_XXX 유형의 문제 로그 ID가 표시됩니다. 이 정보는 기술 지원 팀에서 문제를 파악하는 데 도움이 됩니다.
+* 캔버스에서 두 활동의 연결이 끊기면 경고가 표시됩니다
 
-**[!UICONTROL Test]** 토글 및 **[!UICONTROL Publish]** 단추 옆의 기호에 두 가지 색상이 표시될 수 있습니다. 오류의 경우 기호가 빨간색으로 표시됩니다. 경고의 경우 주황색으로 표시됩니다.
+  ![](assets/canvas-disconnected.png)
 
-![](assets/journey75.png)
+### 여정 오류 {#canvas-errors}
 
-여정에서 전체적으로 발생하는 오류와 경고가 목록에 먼저 나타납니다. 특정 활동과 관련된 오류와 경고는 그 뒤에 활동 순서별로 또는 여정 내 등장 순서별로 왼쪽에서 오른쪽으로 나열됩니다. **[!UICONTROL 세부 정보 복사]** 단추는 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정에 대한 기술 정보를 복사합니다.
+캔버스 위의 **[!UICONTROL 경고]** 단추에서도 오류가 표시됩니다. 이 단추를 사용하면 시스템에서 감지된 오류와 테스트 모드 활성화 또는 여정 게시를 방지할 수 있습니다.
 
-작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 확인란을 선택하여 계속하는 방법만 있습니다. [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
+시스템에서 두 종류의 문제를 감지합니다. **오류** 및 **경고**. 오류는 게시 및 테스트 활성화를 차단합니다. 경고는 테스트 활성화 또는 게시를 차단하지 않는 잠재적인 문제를 나타냅니다. 문제에 대한 설명 그리고 ERR_XXX_XXX 유형의 문제 로그 ID가 표시됩니다. 이렇게 하면 문제를 식별하는 데 도움이 될 수 있습니다.
+
+![](assets/journey-error-and-warning.png)
+
+<!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
+
+여정에서 전체적으로 발생하는 오류와 경고가 목록에 먼저 나타납니다. 특정 활동과 관련된 오류와 경고는 그 뒤에 활동 순서별로 또는 여정 내 등장 순서별로 왼쪽에서 오른쪽으로 나열됩니다. 경고 목록의 맨 아래에 있는 **[!UICONTROL 세부 정보 복사]** 단추를 사용하여 문제를 해결하는 데 유용한 여정에 대한 기술 정보를 복사할 수 있습니다.
+
+### 대체 경로 추가 {#canvas-add-path}
+
+다음 여정 활동에 대해 오류가 발생한 경우 대체 동작을 정의할 수 있습니다. **[!UICONTROL 조건]** 및 **[!UICONTROL 동작]**.
+
+작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이를 지속할 수 있는 유일한 방법은 문제를 해결하는 것이다. 여정이 중단되지 않도록 하기 위해 **[!UICONTROL 활동 속성에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 옵션을 선택할 수도 있습니다. 자세한 내용은 [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
+
 
 ## 이벤트가 제대로 전송되었는지 확인 {#checking-that-events-are-properly-sent}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
-workflow-type: ht
-source-wordcount: '2239'
-ht-degree: 100%
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+workflow-type: tm+mt
+source-wordcount: '2295'
+ht-degree: 97%
 
 ---
 
@@ -44,6 +44,11 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 지원 URL을 통해 MMS에 넣을 미디어 파일을 포함할 수 있습니다. 미디어 파일이 별도로 업로드되는지 확인해야 합니다.
 * 현재 MMS에는 메시지 피드백 동기화를 사용할 수 없습니다.
 * MMS에 대한 동의 관리는 SMS 채널 수준에서 작동합니다.
+
+### 웹 채널 보호 기능 {#web-guardrails}
+
+[!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타겟팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로 구입한 계약 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 각 패키지에 대한 라이선스 지표는 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에 나와 있습니다.
+
 
 ## 하위 도메인 가드레일 {#subdomain-guardrails}
 
@@ -174,9 +179,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 * 인앱 메시지 콘텐츠 크기는 2MB로 제한됩니다. 큰 이미지를 포함하면 게시 프로세스에 지장이 있을 수 있습니다.
 
-## 대상자 가드레일 {#audience}
 
-* 주어진 샌드박스 하나에 최대 10개의 대상자 구성을 게시할 수 있습니다. 이 임계값에 도달한 경우 구성을 삭제하여 공간을 확보하고 새 구성을 게시해야 합니다.
 
 ### 이동 활동 {#jump-g}
 
@@ -188,6 +191,10 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 * Adobe Campaign 활동은 [대상자 읽기] 또는 [대상자 선별] 활동과 함께 사용할 수 없습니다.
 * 이 활동은 [인앱] 활동과 함께 사용할 수 없습니다.
+
+## 대상자 가드레일 {#audience}
+
+주어진 샌드박스 하나에 최대 10개의 대상자 구성을 게시할 수 있습니다. 이 임계값에 도달한 경우 구성을 삭제하여 공간을 확보하고 새 구성을 게시해야 합니다.
 
 ## 의사 결정 관리 보호 {#decision-management}
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d971d857a480868f5ef502f3a3f2c209afc93cca
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 70%
+source-wordcount: '482'
+ht-degree: 53%
 
 ---
 
@@ -26,16 +26,18 @@ ht-degree: 70%
 
 ![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
 
-## 2024년 8월 초기 릴리스 정보 {#e-2024}
+## 2024년 8월 릴리스 정보 {#8-2024}
 
 **릴리스 날짜**: 2024년 8월 20~21일
 
+<!--
 >[!CAUTION]
 >
->**아래의 초기 릴리스 노트는 릴리스 날짜까지 사전 통보 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
+>**Early release notes below are subject to change without prior notice until the release date**. Links, screens and updated documentation are published at the release date.
 >
+-->
 
-### 새로운 기능 {#e-features}
+### 새로운 기능 {#8-features}
 
 이번 릴리스에는 아래에 있는 새로운 기능이 제공됩니다.
 
@@ -57,14 +59,16 @@ ht-degree: 70%
 <!--table>
 <thead>
 <tr>
-<th><strong>Content Cards</strong><br/></th>
+<th><strong>Content Cards (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Content card is a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
 <p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+</br>
+<p>Content card are currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -86,6 +90,7 @@ ht-degree: 70%
 <li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
 <li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
 </ul></p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -101,6 +106,7 @@ ht-degree: 70%
 <tr>
 <td>
 <p>이제 Adobe Journey Optimizer를 Adobe Marketo Engage와 통합하여 B2B 사용 사례를 작성할 수 있습니다. 여정에서 새로운 사용자 정의 작업을 통해 데이터를 Marketo로 수집할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../action/marketo-engage.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -116,7 +122,8 @@ ht-degree: 70%
 <tbody>
 <tr>
 <td>
-<p>이제 조각은 <a href="../personalization/use-expression-fragments.md">식 조각</a> 및 <a href="../email/use-visual-fragments.md">시각적 조각</a>에서 모두 입력 변수를 사용할 수 있습니다. 이러한 변수를 사용하여 캠페인 및 여정에서 메시지 콘텐츠 및 매개 변수를 개인화할 수 있습니다.</p>
+<p>조각 전역 변수는 기존 조각 기능을 향상시켜 콘텐츠 재사용 가능성 및 스크립팅 사용 사례의 효율성을 개선합니다. 이제 조각에서 입력 변수를 사용하고 캠페인 및 여정 콘텐츠에 사용할 수 있는 출력 변수를 만들 수 있습니다. 조각은 <a href="../personalization/use-expression-fragments.md">표현식 조각</a> 및 <a href="../email/use-visual-fragments.md">시각적 조각</a>에서 모두 입력 변수를 사용할 수 있습니다. 이러한 변수를 사용하여 캠페인 및 여정에서 메시지 콘텐츠 및 매개 변수를 개인화할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../personalization/use-expression-fragments.md">세부 설명서</a>를 참조하십시오.</p>
 </p>
 </td>
 </tr>
@@ -141,67 +148,31 @@ ht-degree: 70%
 </table>
 
 
-### 개선 사항 {#e-improvements}
+### 개선 사항 {#8-improvements}
 
 이번 릴리스에서는 아래 나열된 개선 사항이 제공됩니다.
 
 **여정**
 
-<!--* In the **Condition** activity, by default, the Time condition is now set by hour, from 00:00 to 12:00. [Read more](../building-journeys/condition-activity.md#time_condition)-->
-* 이제 여정을 작성할 때 캠페인 경고에 맞게 정렬하고 일관된 사용자 경험을 제공하기 위해 경고가 드롭다운 목록에 표시됩니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 100%로 쉽게 재설정할 수 있습니다.
+* **조건** 활동에서 기본적으로 **[!UICONTROL 시간 조건]**&#x200B;이(가) 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
+* 이제 여정을 작성할 때 **경고** 단추에서 경고가 표시되므로 다른 경고와 일치하고 일관된 사용자 환경을 제공합니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 보다 쉽게 재설정할 수 있습니다.
 
-**대상자**
+<!--**Audiences and Profiles**-->
 
-* 이제 사용자 지정 업로드(CSV 파일)의 대상을 Privacy 및 Security Shield 추가 기능과 함께 사용할 수 있습니다.
-* 이제 사용자 지정 업로드(CSV 파일) 대상을 타기팅할 때 캠페인 및 여정에 있는 파일의 속성을 사용할 수 있습니다. 이러한 속성은 개인화 편집기에서 메시지를 개인화하는 데 사용할 수 있으며 여정 고급 표현식 편집기에서 사용할 수 있습니다.
+<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
+<!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
+<!--* The License usage dashboard now shows the count of Engageable Profiles. [Read more](../audience/license-usage.md)-->
 
-## 2024년 7월 릴리스 정보 {#24-7-2024}
 
-**릴리스 일자**: 2024년 7월 30~31일
+**푸시 채널**
 
-### 새로운 기능 {#27-4-features}
+* 이제 Adobe Journey Optimizer 채널 구성 설정 내에 모바일 애플리케이션 푸시 자격 증명을 추가할 수 있습니다. Adobe Experience Platform 데이터 수집에서 앱 표면 생성이 더 이상 필요하지 않습니다.
 
-이번 릴리스에는 아래 목록에 있는 새로운 기능이 제공됩니다.
+### 기타 변경 사항 {#changes}
 
-<table>
-<thead>
-<tr>
-<th><strong>모든 공급자의 SMS 채널(Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer 내에서 기본 공급자인 Sinch, Infobip, Twilio 외 추가 SMS 공급자를 구성할 수 있습니다.</p>
-<img src="assets/do-not-localize/byo_sms.gif"/>
-<p>자세한 내용은 <a href="../sms/sms-configuration-custom.md">세부 설명서</a>를 참조하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
+**보고**
 
-<table>
-<thead>
-<tr>
-<th><strong>페더레이션된 대상자 구성(제한된 가용성)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Adobe Journey Optimizer에서 [페더레이션된 대상자 구성]을 사용할 수 있습니다. 이 기능으로 기업이 다양한 사용 사례에서 데이터를 더 잘 활용할 수 있습니다. 이 새로운 접근 방식을 사용하면 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer 사용자로서 기존 데이터 웨어하우스에서 직접 데이터 세트를 페더레이션하여 Adobe Experience Platform 대상자와 속성을 모두 하나의 시스템에 작성하고 강화할 수 있습니다.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/federated-audience-composition/using/home"  target="_blank">자세한 설명서</a>를 참조하세요.</p>
-</td>
-</tr>
-</tbody>
-</table>
+* 현재 보고 경험은 10월 릴리스부터 종료됩니다. 이 날짜 이후, 새로운 보고 환경이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다.
 
-### 개선 사항 {#27-4-improvements}
-
-이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
-
-**여정**
-
-* (공개일: 7월 8일)**여정 이벤트 구성의 고급 표현식 편집기** - 이제 이벤트를 구성할 때 고급 표현식 편집기를 활용하여 이벤트 ID 조건에 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md#adv-exp-editor)
-
+[Journey Optimizer 새 보고 인터페이스 시작](../reports/report-gs-cja.md)

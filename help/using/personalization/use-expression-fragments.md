@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,39 @@ ht-degree: 0%
 >[!NOTE]
 >
 >여러 줄 바꿈이 포함된 식 조각을 만들어 [SMS](../sms/create-sms.md#sms-content) 또는 [푸시](../push/design-push.md) 콘텐츠에서 사용하면 줄 바꿈이 유지됩니다. 따라서 메시지를 보내기 전에 [SMS](../sms/send-sms.md) 또는 [푸시](../push/send-push.md) 메시지를 테스트하십시오.
+
+## 암시적 변수 사용 {#implicit-variables}
+
+암시적 변수는 기존 조각 기능을 향상시켜 콘텐츠 재사용 가능성 및 스크립팅 사용 사례의 효율성을 개선합니다. 조각은 입력 변수를 사용하고 캠페인 및 여정 콘텐츠에 사용할 수 있는 출력 변수를 만들 수 있습니다.
+
+예를 들어 이 기능은 현재 캠페인 또는 여정을 기반으로 이메일의 추적 매개 변수를 초기화하고 이러한 매개 변수를 이메일 콘텐츠에 추가된 개인화된 링크에 사용하는 데 사용할 수 있습니다.
+
+다음과 같은 사용 사례가 가능합니다.
+
+1. 조각에서 입력 변수 사용
+
+   조각이 캠페인/여정 작업 컨텐츠에서 사용되는 경우 조각 외부에 선언된 변수를 활용할 수 있습니다. 아래는 한 예입니다.
+
+   ![](../personalization/assets/variable-in-a-fragment.png)
+
+   캠페인 콘텐츠에서 선언된 `utm_content` 변수 위에 있는 것을 볼 수 있습니다. **Hero 블록** 조각을 사용하면 `utm_content` 매개 변수 값을 추가할 링크가 표시됩니다. 최종 결과는 `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`입니다.
+
+1. 조각의 출력 변수 사용
+
+   조각 내에서 계산되거나 정의된 변수는 콘텐츠에서 사용할 수 있습니다. 다음 예에서 조각 **F1**&#x200B;은(는) 변수 집합을 선언합니다.
+
+   ![](../personalization/assets/personalize-with-variables.png)
+
+   이메일 콘텐츠에서는 다음과 같은 개인화를 가질 수 있습니다.
+
+   ![](../personalization/assets/use-fragment-variable.png)
+
+   조각 F1은 `utm_campaign` 및 `utm_content` 변수를 초기화합니다. 그러면 메시지 콘텐츠의 링크에 이러한 매개 변수가 추가됩니다. 최종 결과는 `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`입니다.
+
+>[!NOTE]
+>
+>런타임 시 시스템은 조각 내의 항목을 확장한 다음 개인화 코드를 위쪽에서 아래쪽으로 해석합니다. 이를 염두에 두면 보다 복잡한 사용 사례를 달성할 수 있습니다. 예를 들어 아래에 있는 다른 조각 F2에 변수를 전달하는 조각 F1이 있을 수 있습니다. 시각적 조각 F1이 중첩된 표현식 조각 F2에 변수를 전달할 수도 있습니다.
+
 
 ## 편집 가능한 필드 사용자 지정 {#customize-fields}
 

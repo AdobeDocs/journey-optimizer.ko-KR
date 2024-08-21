@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '713'
 ht-degree: 2%
 
 ---
@@ -72,6 +72,12 @@ ht-degree: 2%
 1. 필요한 경우 원본 조각으로 상속을 중단할 수 있습니다. [자세히 알아보기](#break-inheritance)
 
 1. 원하는 만큼 조각을 추가하고 변경 내용을 **[!UICONTROL 저장]**&#x200B;합니다.
+
+## 암시적 변수 사용 {#implicit-variables-in-fragments}
+
+암시적 변수는 기존 조각 기능을 향상시켜 콘텐츠 재사용 가능성 및 스크립팅 사용 사례의 효율성을 개선합니다. 조각은 입력 변수를 사용하고 캠페인 및 여정 콘텐츠에 사용할 수 있는 출력 변수를 만들 수 있습니다.
+
+[이 섹션](../personalization/use-expression-fragments.md#implicit-variables)에서 암시적 변수를 사용하는 방법을 알아봅니다.
 
 ## 편집 가능한 필드 사용자 지정 {#customize-fields}
 

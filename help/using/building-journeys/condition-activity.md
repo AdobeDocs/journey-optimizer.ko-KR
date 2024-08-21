@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1493'
 ht-degree: 17%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 17%
 
 ## 데이터 Source 조건 {#data_source_condition}
 
-이렇게 하면 데이터 소스의 필드 또는 여정에 이전에 배치된 이벤트의 필드를 기반으로 조건을 정의할 수 있습니다. [이 섹션](expression/expressionadvanced.md)에서 표현식 편집기를 사용하는 방법을 알아봅니다.
+**[!UICONTROL 데이터 Source 조건]**&#x200B;을 사용하여 데이터 원본 또는 여정에 이전에 배치된 이벤트의 필드를 기반으로 조건을 정의합니다. 이 유형의 조건은 표현식 편집기로 정의됩니다. [이 섹션](expression/expressionadvanced.md)에서 표현식 편집기를 사용하는 방법을 알아봅니다.
 
 예를 들어, 작성 워크플로우 또는 사용자 지정 업로드(CSV 파일)를 사용하여 생성된 보강 속성으로 대상을 타깃팅하는 경우 이러한 보강 속성을 활용하여 조건을 작성할 수 있습니다.
 
@@ -82,13 +82,15 @@ ht-degree: 17%
 
 ![](assets/journey50.png)
 
-## 시간 조건{#time_condition}
+## 시간 조건 {#time_condition}
 
-이를 통해 시간 및/또는 요일에 따라 다른 작업을 수행할 수 있습니다. 예를 들어 주간에는 푸시 알림을 보내고, 주중에는 이메일을 밤에 보내도록 결정할 수 있습니다.
+**[!UICONTROL 시간 조건]**&#x200B;을 사용하여 요일 및/또는 요일에 따라 다른 작업을 수행하십시오. 예를 들어 주간에는 푸시 알림을 보내고, 주중에는 이메일을 밤에 보내도록 결정할 수 있습니다.
 
 >[!NOTE]
 >
->시간대는 조건에 따라 달라지지 않으며 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
+>* 시간대는 조건에 따라 달라지지 않으며 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)에서 자세히 알아보십시오.
+>
+>* 기본적으로 **[!UICONTROL 시간 조건]**&#x200B;은(는) 00:00부터 12:00까지 시간 단위로 설정됩니다.
 
 ![](assets/journey51.png)
 

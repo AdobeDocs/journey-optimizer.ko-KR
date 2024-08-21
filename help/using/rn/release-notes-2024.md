@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 51924e403741829f068675eaa94ccbd63cc2b206
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '3170'
+source-wordcount: '3352'
 ht-degree: 99%
 
 ---
@@ -18,6 +18,58 @@ ht-degree: 99%
 # 2024년 릴리스 정보 {#release-notes-2024}
 
 이 페이지에는 2024년에 릴리스된 [!DNL Journey Optimizer]의 모든 기능과 개선 사항이 나와 있습니다.
+
+
+## 2024년 7월 릴리스 정보 {#24-7-2024}
+
+**릴리스 일자**: 2024년 7월 30~31일
+
+### 새로운 기능 {#27-4-features}
+
+이번 릴리스에는 아래 목록에 있는 새로운 기능이 제공됩니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>모든 공급자의 SMS 채널(Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer 내에서 기본 공급자인 Sinch, Infobip, Twilio 외 추가 SMS 공급자를 구성할 수 있습니다.</p>
+<img src="assets/do-not-localize/byo_sms.gif"/>
+<p>자세한 내용은 <a href="../sms/sms-configuration-custom.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>페더레이션된 대상자 구성(제한된 가용성)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer에서 [페더레이션된 대상자 구성]을 사용할 수 있습니다. 이 기능으로 기업이 다양한 사용 사례에서 데이터를 더 잘 활용할 수 있습니다. 이 새로운 접근 방식을 사용하면 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer 사용자로서 기존 데이터 웨어하우스에서 직접 데이터 세트를 페더레이션하여 Adobe Experience Platform 대상자와 속성을 모두 하나의 시스템에 작성하고 강화할 수 있습니다.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/federated-audience-composition/using/home"  target="_blank">자세한 설명서</a>를 참조하세요.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항 {#27-4-improvements}
+
+이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
+
+**여정**
+
+* (공개일: 7월 8일)**여정 이벤트 구성의 고급 표현식 편집기** - 이제 이벤트를 구성할 때 고급 표현식 편집기를 활용하여 이벤트 ID 조건에 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md#adv-exp-editor)
+
+
 
 ## 2024년 6월 릴리스 정보 {#24-6-2024}
 

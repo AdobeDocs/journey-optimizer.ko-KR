@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 디자인, 캔버스, 여정, 인터페이스, 드래그, 놓기
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -103,7 +103,7 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 작업 활동에서 사용자 지정 작업을 사용하여 서드파티 시스템에서 메시지를 보냅니다. [사용자 지정 작업에 대해 자세히 알아보세요](about-journey-activities.md#action-activities).
 
-## 대체 경로 추가{#paths}
+## 대체 경로 추가 {#paths}
 
 다음 여정 활동에 대한 오류 또는 시간 초과 시 대체 동작을 정의할 수 있습니다. **[!UICONTROL 조건]** 및 **[!UICONTROL 동작]**.
 
