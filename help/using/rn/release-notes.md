@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 56%
@@ -147,7 +147,6 @@ ht-degree: 56%
 </tbody>
 </table>
 
-
 ### 개선 사항 {#8-improvements}
 
 이번 릴리스에서는 아래 나열된 개선 사항이 제공됩니다.
@@ -167,7 +166,6 @@ ht-degree: 56%
 **푸시 채널**
 
 * 이제 Adobe Journey Optimizer 채널 구성 설정 내에 모바일 애플리케이션 푸시 자격 증명을 추가할 수 있습니다. Adobe Experience Platform 데이터 수집에서 앱 표면 생성이 더 이상 필요하지 않습니다.
-
 
 ### 기타 변경 사항 {#changes}
 

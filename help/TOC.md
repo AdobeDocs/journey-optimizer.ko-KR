@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 97%
+source-wordcount: '1949'
+ht-degree: 96%
 
 ---
 
@@ -200,8 +200,8 @@ ht-degree: 97%
    + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
    + 이메일 채널 구성 {#configure-email}
       + [이메일 구성 시작](using/email/get-started-email-config.md)
-      + [이메일 표면 설정 구성](using/email/email-settings.md)
-      + [이메일 표면 설정 개인화](using/email/surface-personalization.md)
+      + [이메일 구성 설정 구성](using/email/email-settings.md)
+      + [이메일 구성 개인화](using/email/surface-personalization.md)
 + 인앱 채널{#in-app}
    + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
    + [인앱 채널 사전 요구 사항](using/in-app/inapp-configuration.md)
@@ -230,7 +230,7 @@ ht-degree: 97%
       + [Infobip 공급자 구성](using/sms/sms-configuration-infobip.md)
       + [Twilio 공급자 구성](using/sms/sms-configuration-twilio.md)
       + [사용자 정의 공급자 구성(Beta)](using/sms/sms-configuration-custom.md)
-      + [SMS 표면 만들기](using/sms/sms-configuration-surface.md)
+      + [SMS 구성 만들기](using/sms/sms-configuration-surface.md)
 + 다이렉트 메일 {#direct-mail}
    + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)
    + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)
@@ -581,7 +581,7 @@ ht-degree: 97%
    + [쿼리](using/data/get-started-queries.md)
 + 구성 {#configuration}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
-   + [채널 표면 설정](using/configuration/channel-surfaces.md)
+   + [채널 구성 설정](using/configuration/channel-surfaces.md)
    + 이메일 하위 도메인 위임 {#delegate-subdomains}
       + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
       + [하위 도메인 위임](using/configuration/delegate-subdomain.md)
