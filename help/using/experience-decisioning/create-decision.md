@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="제한 공개"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="반환할 항목 수 정의"
->abstract="반환하려는 결정 항목의 수를 선택합니다. 예를 들어 항목 2개를 선택하면 현재 표면에 대한 적격 제안 2개가 표시됩니다."
+>abstract="반환하려는 결정 항목의 수를 선택합니다. 예를 들어 2를 선택하면 현재 구성에 가장 적합한 2개의 오퍼가 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
@@ -65,7 +65,7 @@ ht-degree: 18%
 
    ![](assets/decision-code-based-details.png)
 
-1. 반환할 항목 수를 선택합니다. 예를 들어 2를 선택하면 현재 표면에 대해 가장 적합한 2개의 오퍼가 표시됩니다. **[!UICONTROL 다음]** 클릭
+1. 반환할 항목 수를 선택합니다. 예를 들어 2를 선택하면 현재 구성에 가장 적합한 2개의 오퍼가 표시됩니다. **[!UICONTROL 다음]** 클릭
 
 1. **[!UICONTROL 전략 추가]** 단추를 사용하여 의사 결정 정책에 대한 선택 전략을 정의합니다. 각 전략은 자격 제한 사항과 관련된 오퍼 컬렉션 및 표시할 오퍼를 결정하는 등급 메서드로 구성됩니다. [자세히 알아보기](selection-strategies.md)
 

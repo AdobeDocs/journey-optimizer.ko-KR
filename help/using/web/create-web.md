@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 17%
+source-wordcount: '747'
+ht-degree: 15%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="웹 표면 정의"
->abstract="웹 표면이 단일 페이지 URL 또는 여러 페이지와 일치하면 하나 또는 여러 웹 페이지에 콘텐츠 수정 내용을 전달할 수 있습니다."
+>title="웹 구성 정의"
+>abstract="웹 구성은 단일 페이지 URL 또는 여러 페이지와 일치할 수 있으므로 하나 또는 여러 웹 페이지에서 콘텐츠 수정 사항을 전달할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
@@ -41,39 +41,20 @@ ht-degree: 17%
 >
 >웹 경험을 처음 만드는 경우에는 [이 섹션](web-prerequisites.md)에서 설명하는 전제 조건을 충족해야 한다는 점에 유의하십시오.
 
-1. 캠페인을 만듭니다. [자세히 알아보기](../campaigns/create-campaign.md)
+1. **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다.[자세히 알아보기](../campaigns/create-campaign.md)
+
+
+1. 실행할 캠페인 유형 선택
+
+   * **예약됨 - 마케팅**: 캠페인을 즉시 또는 지정한 날짜에 실행합니다. 예약된 캠페인은 마케팅 메시지 전송을 목적으로 합니다. 사용자 인터페이스에서 구성 및 실행됩니다.
+
+   * **API 트리거됨 - 마케팅/트랜잭션**: API 호출을 사용하여 캠페인을 실행하십시오. API 트리거 캠페인은 마케팅 또는 트랜잭션 메시지(예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 전송된 메시지)를 보내는 것을 목표로 합니다.
+
+1. 캠페인 속성, [대상자](../audience/about-audiences.md) 및 [일정](../campaigns/create-campaign.md#schedule)과 같은 웹 캠페인을 만드는 단계를 완료합니다.
 
 1. **[!UICONTROL 웹]** 작업을 선택하십시오.
 
-1. 웹 표면을 정의합니다.
-
-   >[!NOTE]
-   >
-   >웹 표면은 콘텐츠가 전달될 URL로 식별되는 웹 속성입니다. 단일 페이지 URL 또는 여러 페이지를 일치시킬 수 있으므로 하나 또는 여러 웹 페이지에서 수정 사항을 전달할 수 있습니다.
-
-   변경 내용을 단일 페이지에만 적용하려면 **[!UICONTROL 페이지 URL]**&#x200B;을(를) 입력할 수 있습니다.
-
-   ![](assets/web-campaign-surface.png)
-
-1. 또는 **[!UICONTROL 페이지 일치 규칙]**&#x200B;을(를) 만들어 동일한 규칙과 일치하는 여러 URL을 대상으로 할 수 있습니다. 예를 들어, 전체 웹 사이트에서 히어로 배너에 변경 사항을 적용하거나 웹 사이트의 모든 제품 페이지에 표시되는 상위 이미지를 추가하려는 경우입니다.
-
-   이렇게 하려면 **[!UICONTROL 규칙과 일치하는 페이지]**&#x200B;를 선택하고 **[!UICONTROL 규칙 만들기]**&#x200B;를 클릭합니다.
-
-   ![](assets/web-campaign-matching-rule.png)
-
-1. **[!UICONTROL 도메인]** 및 **[!UICONTROL 페이지]** 필드에 대한 조건을 정의합니다.
-
-   예를 들어 Luma 웹 사이트의 모든 여성 제품 페이지에 표시되는 요소를 편집하려면 **[!UICONTROL 도메인]** > **[!UICONTROL 다음으로 시작]** > `luma` 및 **[!UICONTROL 페이지]** > **[!UICONTROL 포함]** > `women`을(를) 선택합니다.
-
-   ![](assets/web-pages-matching-rule.png)
-
-1. 변경 내용을 저장합니다. 규칙이 **[!UICONTROL 캠페인 만들기]** 화면에 표시됩니다.
-
-   ![](assets/web-pages-matching-rule-example.png)
-
-1. 웹 표면을 정의했으면 **[!UICONTROL 만들기]**&#x200B;를 선택합니다.
-
-1. 캠페인 속성, [대상자](../audience/about-audiences.md) 및 [일정](../campaigns/create-campaign.md#schedule)과 같은 웹 캠페인을 만드는 단계를 완료합니다.
+1. 새 구성을 선택하거나 만듭니다. [웹 구성에 대해 자세히 알아보기](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
@@ -111,7 +92,7 @@ ht-degree: 17%
 
 1. 웹 캠페인에서 **[!UICONTROL 활성화 검토]**&#x200B;를 선택합니다.
 
-1. 필요한 경우 콘텐츠, 속성, 표면, 대상자 및 일정을 확인하고 편집합니다.
+1. 필요한 경우 컨텐츠, 속성, 구성, 대상자 및 일정을 확인하고 편집합니다.
 
 1. **[!UICONTROL 활성화]**&#x200B;를 선택합니다.
 

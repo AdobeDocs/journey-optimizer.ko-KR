@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1665'
-ht-degree: 6%
+source-wordcount: '1669'
+ht-degree: 5%
 
 ---
 
 # IP 준비 계획 만들기 {#ip-warmup}
 
-전용 표면 및 해당 옵션이 활성화된 하나 이상의 [IP 준비 캠페인](ip-warmup-campaign.md)을(를) 만들면 IP 준비 계획을 만들 수 있습니다.
+전용 구성과 해당 옵션이 활성화된 하나 이상의 [IP 준비 캠페인](ip-warmup-campaign.md)을(를) 만들면 IP 준비 계획을 만들 수 있습니다.
 
 IP 준비 계획에 액세스, 만들기, 편집 및 삭제하려면 **[!UICONTROL 게재 가능성 컨설턴트]** 역할 또는 IP 준비 계획 관련 권한이 있어야 합니다.
 
@@ -238,7 +238,7 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 
 ## IP 준비 계획 액세스 및 관리 {#manage-ip-warmup-plans}
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL IP 준비 계획]** 메뉴에 액세스합니다. 지금까지 만든 모든 IP 준비 계획이 표시됩니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL IP 준비 계획]** 메뉴에 액세스합니다. 지금까지 만든 모든 IP 준비 계획이 표시됩니다.
 
    ![](assets/ip-warmup-filter-list.png)
 
@@ -271,14 +271,14 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
->title="마케팅 표면 선택"
->abstract="IP 워밍업 플랜과 연결하려는 캠페인에서 선택한 것과 동일한 표면을 선택해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="채널 표면 설정"
+>title="마케팅 구성 선택"
+>abstract="IP 준비 계획과 연결할 캠페인에서 선택한 구성과 동일한 구성을 선택해야 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="채널 구성 설정"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP 워밍업 캠페인 만들기"
 
 IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL IP 준비 계획]** 메뉴에 액세스한 다음 **[!UICONTROL IP 준비 계획 만들기]**&#x200B;를 클릭하십시오.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]**> **[!UICONTROL IP 준비 계획]** 메뉴에 액세스한 다음 **[!UICONTROL IP 준비 계획 만들기]**&#x200B;를 클릭합니다.
 
    ![](assets/ip-warmup-create-plan.png)
 
@@ -286,11 +286,11 @@ IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. 예열할 [표면](channel-surfaces.md)을(를) 선택하십시오. 마케팅 표면만 선택할 수 있습니다. [전자 메일 유형에 대해 자세히 알아보기](../email/email-settings.md#email-type)
+1. 준비 중인 [구성](channel-surfaces.md)을(를) 선택하십시오. 마케팅 구성만 선택할 수 있습니다. [전자 메일 유형에 대해 자세히 알아보기](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
-   >IP 준비 계획과 연결할 캠페인은 동일한 표면을 사용해야 합니다. [IP 준비 캠페인을 만드는 방법을 알아봅니다](ip-warmup-campaign.md)
+   >IP 준비 계획과 연결할 캠페인은 동일한 구성을 사용해야 합니다. [IP 준비 캠페인을 만드는 방법을 알아봅니다](ip-warmup-campaign.md)
 
 1. IP 준비 계획이 포함된 Excel 파일을 업로드합니다. [자세히 알아보기](#prepare-file)
 

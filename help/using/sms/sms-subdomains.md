@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, 하위 도메인, 구성
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 24%
+ht-degree: 15%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
 >title="SMS/MMS 하위 도메인 위임"
->abstract="문자 메시지에 사용할 하위 도메인을 구성해야 하는데, 이는 SMS 표면을 만들기 위해 이 하위 도메인이 필요하기 때문입니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
+>abstract="SMS 구성을 만들려면 이 하위 도메인이 필요하므로 텍스트 메시지에 사용할 하위 도메인을 구성해야 합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="SMS 표면 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="SMS/MMS 하위 도메인 선택"
->abstract="SMS 표면을 만들려면 하위 도메인 이름 목록에서 선택할 SMS 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
+>abstract="SMS 구성을 만들려면 이전에 하위 도메인 이름 목록에서 선택할 하나 이상의 SMS 하위 도메인을 구성했는지 확인하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="SMS 표면 만들기"
 
-SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 표면을 만들 때](sms-configuration.md#message-preset-sms)선택할 하위 도메인을 설정해야 합니다.
+SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 구성을 만들 때](sms-configuration.md#message-preset-sms)선택할 하위 도메인을 설정해야 합니다.
 
 이미 Adobe에 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다. [이 섹션](../configuration/delegate-subdomain.md)에서 하위 도메인을 Adobe으로 위임하는 방법에 대해 자세히 알아보세요.
 
@@ -49,9 +49,7 @@ SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 표면을 만들 �
 
 이미 Adobe에게 위임된 하위 도메인을 사용하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴로 이동한 다음 **[!UICONTROL SMS 구성]** > **[!UICONTROL SMS 하위 도메인]**&#x200B;을 선택합니다.
-
-   ![](assets/sms_access-subdomains.png)
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴로 이동한 다음 **[!UICONTROL SMS 설정]** > **[!UICONTROL SMS 하위 도메인]**&#x200B;을 선택합니다.
 
 1. **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭합니다.
 
@@ -91,20 +89,22 @@ SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 표면을 만들 �
    >
    >해당 하위 도메인을 사용하여 메시지를 보내려면 Adobe에서 필요한 검사를 수행할 때까지 기다려야 하며 최대 4시간이 걸릴 수 있습니다.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. SMS 채널 표면을 만드는 데 사용할 준비가 되었습니다.
+1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. SMS 채널 구성을 만드는 데 사용할 준비가 되었습니다.
 
 ## 새 하위 도메인 구성 {#sms-configure-new-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_subdomain_dns"
 >title="일치하는 DNS 레코드 생성"
->abstract="새 SMS 하위 도메인을 구성하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 완료되면 SMS 표면 만들기에 하위 도메인을 사용할 준비가 된 것입니다."
+>abstract="새 SMS 하위 도메인을 구성하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 성공하면 하위 도메인을 사용하여 SMS 구성을 만들 수 있습니다."
 
 새 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴로 이동한 다음 **[!UICONTROL SMS 구성]** > **[!UICONTROL SMS 하위 도메인]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴로 이동한 다음 **[!UICONTROL SMS 설정]** > **[!UICONTROL SMS 하위 도메인]**&#x200B;을 선택합니다.
 
 1. **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭합니다.
+
+   ![](assets/sms_set-up-subdomain.png)
 
 1. **[!UICONTROL 구성 유형]** 섹션에서 **[!UICONTROL 고유한 도메인 추가]**&#x200B;를 선택합니다.
 
@@ -136,6 +136,6 @@ SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 표면을 만들 �
 
 1. 하위 도메인 위임이 제출되면 하위 도메인이 목록에 **[!UICONTROL 처리]** 상태로 표시됩니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->을 참조하세요.
 
-하위 도메인을 사용하여 SMS 메시지를 보내기 전에 Adobe에서 필요한 검사를 수행할 때까지 기다려야 하며 최대 4시간이 걸릴 수 있습니다.<!--Learn more in [this section](#subdomain-validation).--> 검사가 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. SMS 채널 표면을 만드는 데 사용할 준비가 되었습니다.
+하위 도메인을 사용하여 SMS 메시지를 보내기 전에 Adobe에서 필요한 검사를 수행할 때까지 기다려야 하며 최대 4시간이 걸릴 수 있습니다.<!--Learn more in [this section](#subdomain-validation).--> 검사가 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. SMS 채널 구성을 만드는 데 사용할 준비가 되었습니다.
 
 호스팅 솔루션에서 유효성 검사 레코드를 만들지 못하면 하위 도메인이 **[!UICONTROL 실패]**(으)로 표시됩니다.

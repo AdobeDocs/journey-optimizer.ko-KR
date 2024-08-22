@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 16%
+ht-degree: 12%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="편집할 URL 확인"
->abstract="위에 정의된 웹 표면에 적용되는 콘텐츠 편집에 사용할 특정 웹 페이지의 URL을 확인합니다. Adobe Experience Platform Web SDK를 사용하여 웹 페이지를 구현해야 합니다."
+>abstract="위에서 정의한 웹 구성에 적용될 콘텐츠를 편집하는 데 사용할 특정 웹 페이지의 URL을 확인합니다. Adobe Experience Platform Web SDK를 사용하여 웹 페이지를 구현해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="자세히 알아보기"
 
 >[!CONTEXTUALHELP]
@@ -55,7 +55,7 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >단일 URL을 웹 표면으로 입력한 경우 개인화할 URL이 이미 채워져 있습니다.
+   >단일 URL을 웹 구성으로 입력한 경우 개인화할 URL이 이미 채워져 있습니다.
 
    ![](assets/web-edit-enter-url.png)
 
@@ -152,13 +152,13 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="찾아보기 모드 사용"
->abstract="이 모드의 선택한 표면에서 개인화하려는 정확한 페이지로 이동할 수 있습니다."
+>abstract="이 모드에서 개인화할 선택한 구성에서 정확한 페이지로 이동할 수 있습니다."
 
 전용 단추를 사용하여 기본 **[!UICONTROL 디자인]** 모드에서 **[!UICONTROL 찾아보기]** 모드로 전환할 수 있습니다.
 
 ![](assets/web-designer-browse-mode.png)
 
-**[!UICONTROL 찾아보기]** 모드에서 개인화할 선택한 표면에서 정확한 페이지로 이동할 수 있습니다.
+**[!UICONTROL 찾아보기]** 모드에서 개인화할 선택한 구성에서 정확한 페이지로 이동할 수 있습니다.
 
 이 메서드는 인증이 지연되거나 특정 URL에서 처음부터 사용할 수 없는 페이지를 처리할 때 특히 유용합니다. 예를 들어, 원하는 페이지에서 변경을 수행하기 위해 인증하고, 계정 페이지 또는 장바구니 페이지로 이동한 다음, **[!UICONTROL 디자인]** 모드로 다시 전환할 수 있습니다.
 
