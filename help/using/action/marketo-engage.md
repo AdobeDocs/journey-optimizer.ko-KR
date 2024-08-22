@@ -1,24 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Marketo Engage과 통합
+title: Marketo Engage와 통합
 description: Marketo Engage 작업 사용 방법 알아보기
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: marketo, marketo engage 통합
-source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
+source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '247'
+ht-degree: 4%
 
 ---
 
 
-# Marketo Engage과 통합 {#integrating-with-marketo-engage}
+# Marketo Engage와 통합 {#integrating-with-marketo-engage}
 
 Marketo Engage과의 원활한 데이터 통합 여정을 시작하십시오. Journey Optimizer의 이 특정 사용자 지정 작업은 두 가지 주요 데이터 유형 수집을 지원합니다.
 
@@ -28,13 +26,13 @@ Marketo Engage과의 원활한 데이터 통합 여정을 시작하십시오. Jo
 ## 전제 조건 {#prerequisites}
 
 * Marketo Engage의 고객 인스턴스는 IMS를 사용할 수 있어야 합니다.
-* Marketo Engage 인스턴스와 AEP/AJO 인스턴스가 동일한 IMS 조직에 있어야 합니다. +링크
-* 고객은 MktoSync: 수집 서비스 액세스 권한을 제공받아야 합니다(여기에 추가하기 참고 + 링크).
+* Marketo Engage 인스턴스와 AEP/AJO 인스턴스가 동일한 IMS 조직에 있어야 합니다.
+* 고객은 **MktoSync: 수집 서비스 액세스**(으)로 프로비저닝되어야 합니다.
 
 ## 작업 구성 {#configure-marketo-action}
 
 * 관리 > 구성 > 작업 으로 이동한 다음 관리 를 클릭합니다
-* 작업 목록에서 작업 생성을 누릅니다. 사용자 지정 작업 만들기에 대한 자세한 내용은 여기(+link)를 참조하십시오.
+* 작업 목록에서 작업 생성을 누릅니다. [사용자 지정 작업](../building-journeys/using-custom-actions.md){target="_blank"}에 대해 자세히 알아보세요.
 * 이름, 설명을 입력하고 작업 유형으로 Adobe Marketo Engage 를 선택합니다.
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
@@ -111,8 +109,8 @@ Marketo Engage과의 원활한 데이터 통합 여정을 시작하십시오. Jo
 
 ## 작업 사용 {#engage-using}
 
-* 사용자 지정 작업을 여정 캔버스로 드래그합니다. (사용자 지정 작업/링크를 사용하는 방법 참조)
-* 요청 매개 변수에서 페이로드에 구성한 동적 값이 있는 각 매개 변수에 대해 편집 을 클릭합니다.
+* 사용자 지정 작업을 여정 캔버스로 드래그합니다.
+* **요청 매개 변수** 섹션에서 페이로드에 구성한 동적 값이 있는 각 매개 변수에 대해 [편집]을 클릭합니다.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
 
