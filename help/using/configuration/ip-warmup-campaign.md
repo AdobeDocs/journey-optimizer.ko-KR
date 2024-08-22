@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, 풀, 전달성
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 12%
@@ -27,11 +27,11 @@ ht-degree: 12%
 
 IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
-1. 준비 계획에 대해 식별한 도메인 및 IP에 대해 [이메일](../email/email-settings.md) 채널 [표면](channel-surfaces.md)을(를) 만듭니다.
+1. 준비 계획에 대해 식별한 도메인 및 IP에 대해 [전자 메일](../email/email-settings.md) 채널 [구성](channel-surfaces.md)을 만듭니다.
 
    >[!NOTE]
    >
-   >* [이 섹션](../email/email-settings.md#subdomains-and-ip-pools)에서 전자 메일 표면에 사용할 도메인 및 IP를 선택하는 방법을 알아봅니다.
+   >[이 섹션](../email/email-settings.md#subdomains-and-ip-pools)에서 전자 메일 구성에 사용할 도메인 및 IP를 선택하는 방법을 알아봅니다.
    >
    >* 게재 컨설턴트와 협력하여 IP 준비 계획에 사용할 도메인 및 IP를 식별하십시오.<!--TBC-->
 
@@ -39,11 +39,11 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
-1. IP 웜업을 위해 생성한 서피스를 선택합니다.
+1. IP 웜업을 위해 만든 구성을 선택합니다.
 
    ![](assets/ip-warmup-campaign-surface.png)
 
-   <!--You must use the same surface as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
+   <!--You must use the same configuration as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 

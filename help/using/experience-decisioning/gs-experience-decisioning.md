@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 badge: label="제한 공개"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 1d8ea66425b21ec831542bb36bb283c23760e94f
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 32%
@@ -27,6 +27,7 @@ ht-degree: 32%
 Experience Decisioning은 &#39;의사 결정 항목&#39;으로 알려진 마케팅 의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.
 
 이러한 결정 항목은 [새 코드 기반 경험 채널](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)을 통해 광범위한 인바운드 표면에 원활하게 통합되어 이제 Journey Optimizer 캠페인 내에서 액세스할 수 있습니다. 경험 결정 의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.
+
 
 ## Experience Decisioning 주요 단계 {#steps}
 

@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -44,7 +44,7 @@ API 트리거 캠페인을 만들려면 아래 단계를 따르십시오. 캠페
 
 1. 보내려는 통신 유형에 따라 **[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]** 범주를 선택하십시오.
 
-1. 메시지를 보내는 데 사용할 지원되는 채널 및 관련 채널 표면 중 하나를 선택한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+1. 메시지를 보내는 데 사용할 지원되는 채널 및 관련 채널 구성 중 하나를 선택한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
    ![](assets/api-triggered-type.png)
 

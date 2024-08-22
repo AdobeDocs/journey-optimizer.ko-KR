@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '912'
 ht-degree: 9%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 9%
 >id="ajo_message_email"
 >title="이메일 작성"
 >abstract="이메일 제목 줄을 정의하고 이메일 디자이너를 열어 이메일 콘텐츠를 만듭니다."
-
 
 ## 이메일 작업 추가 {#email-action}
 
@@ -36,11 +35,11 @@ ht-degree: 9%
 
 1. 메시지에 대한 기본 정보(레이블, 설명, 카테고리)를 제공합니다.
 
-1. 사용할 [전자 메일 표면](email-settings.md)을(를) 선택하십시오.
+1. [전자 메일 구성](email-settings.md)을 선택하거나 만듭니다.
 
    ![](assets/email_journey.png)
 
-   필드는 기본적으로 미리 채워져 있으며 사용자가 해당 채널에 대해 마지막으로 사용한 서페이스가 있습니다.
+   필드는 기본적으로 미리 채워져 있으며 사용자가 해당 채널에 대해 마지막으로 사용한 구성이 있습니다.
 
 >[!NOTE]
 >
@@ -52,15 +51,15 @@ ht-degree: 9%
 
 1. 새 예약된 캠페인 또는 API 트리거 캠페인을 만들고 **[!UICONTROL 전자 메일]**&#x200B;을(를) 작업으로 선택합니다.
 
-1. 사용할 [전자 메일 표면](email-settings.md)을(를) 선택하십시오.
-
-   ![](assets/email_campaign.png)
-
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
-
 1. 캠페인 속성, [대상자](../audience/about-audiences.md) 및 [일정](../campaigns/create-campaign.md#schedule)과 같은 전자 메일 캠페인을 만드는 단계를 완료하십시오.
 
    ![](assets/email_campaign_steps.png)
+
+1. **[!UICONTROL 전자 메일]** 작업을 선택하십시오.
+
+1. 이메일 구성을 선택하거나 만듭니다. [자세히 알아보기](email-settings.md)
+
+   ![](assets/email_campaign.png)
 
 <!--
 From the **[!UICONTROL Action]** section, specify if you want to track how your recipients react to your delivery: you can track email opens, and/or clicks on links and buttons in your email.
@@ -85,7 +84,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-   **[!UICONTROL 콘텐츠 편집]** 화면의 **[!UICONTROL 헤더]** 섹션에서 **[!UICONTROL 보낸 사람 이름]**, **[!UICONTROL 보낸 사람 전자 메일]** 및 **[!UICONTROL 숨은 참조]** 필드가 선택한 전자 메일 표면에 구성됩니다. [자세히 알아보기](email-settings.md) <!--check if same for journey-->
+   **[!UICONTROL 콘텐츠 편집]** 화면의 **[!UICONTROL 헤더]** 섹션에서 **[!UICONTROL 보낸 사람 이름]**, **[!UICONTROL 보낸 사람 전자 메일]** 및 **[!UICONTROL 숨은 참조]** 필드가 선택한 전자 메일 구성에 구성되어 있습니다. [자세히 알아보기](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -123,7 +122,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
      >[!NOTE]
      >
-     >마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 표면](email-settings.md#email-type) 수준에서 [여정 또는 캠페인에서 메시지를 만드는](#create-email-journey-campaign)때 정의됩니다.
+     >마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 구성](email-settings.md#email-type) 수준에서 [여정 또는 캠페인에서 메시지를 만드는](#create-email-journey-campaign)때 정의됩니다.
 
    * **[!UICONTROL 텍스트 버전의 HTML이 비어 있음]**: HTML 내용을 표시할 수 없을 때 사용할 텍스트 버전의 전자 메일 본문을 정의하는 것을 잊지 마십시오. [이 섹션](text-version-email.md)에서 텍스트 버전을 만드는 방법을 알아봅니다.
 
@@ -139,7 +138,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 메시지의 전자 메일 버전이 비어 있습니다]**: 전자 메일 콘텐츠가 구성되지 않은 경우 이 오류가 표시됩니다. [이 섹션](get-started-email-design.md)에서 전자 메일 콘텐츠를 디자인하는 방법을 알아봅니다.
 
-   * **[!UICONTROL 표면이 없습니다]**: 메시지를 만든 후 선택한 표면이 삭제되면 메시지를 사용할 수 없습니다. 이 오류가 발생하면 **[!UICONTROL 속성]** 메시지에서 다른 표면을 선택하십시오. [이 섹션](../configuration/channel-surfaces.md)에서 채널 표면에 대해 자세히 알아보세요.
+   * **[!UICONTROL 구성이 없습니다]**: 선택한 구성이 메시지 작성 후 삭제되면 메시지를 사용할 수 없습니다. 이 오류가 발생하면 **[!UICONTROL 속성]** 메시지에서 다른 구성을 선택하십시오. [이 섹션](../configuration/channel-surfaces.md)에서 채널 구성에 대해 자세히 알아보세요.
 
 >[!CAUTION]
 >

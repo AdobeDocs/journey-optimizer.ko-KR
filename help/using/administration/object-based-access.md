@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 객체, 레벨, 액세스, 제어, 레이블, olac, 인증
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ OLAC(Object Level Access Control)를 사용하면 다양한 객체에 대한 데
 * 오퍼
 * 정적 오퍼 컬렉션
 * 오퍼 결정
-* 채널 표면
+* 채널 구성
 * IP 준비 계획
 
 그 목적은 개인 데이터를 더 이상 보호할 수 있도록 권한이 없는 사용자로부터 민감한 디지털 자산을 보호하는 것입니다.

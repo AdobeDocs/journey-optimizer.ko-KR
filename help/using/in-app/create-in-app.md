@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 13%
+source-wordcount: '2009'
+ht-degree: 12%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 13%
 
 1. 메시지에 대해 **[!UICONTROL 레이블]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 
-1. 사용할 [인앱 표면](inapp-configuration.md)을(를) 선택하십시오.
+1. 사용할 [인앱 구성](inapp-configuration.md#channel-prerequisites)을 선택하세요.
 
    ![](assets/in_app_journey_2.png)
 
@@ -125,13 +125,11 @@ ht-degree: 13%
 
 1. **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다.
 
-1. **[!UICONTROL 속성]** 섹션에서 캠페인 실행 유형(예약됨 또는 API 트리거됨)을 선택합니다. [이 페이지](../campaigns/create-campaign.md#campaigntype)에서 캠페인 유형에 대해 자세히 알아보세요.
+1. 실행할 캠페인 유형 선택
 
-1. **[!UICONTROL 작업]** 섹션에서 인앱 메시지에 대해 이전에 구성된 **[!UICONTROL 인앱 메시지]** 및 **[!UICONTROL 앱 표면]**&#x200B;을 선택합니다. 그런 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+   * **예약됨 - 마케팅**: 캠페인을 즉시 또는 지정한 날짜에 실행합니다. 예약된 캠페인은 마케팅 메시지 전송을 목적으로 합니다. 사용자 인터페이스에서 구성 및 실행됩니다.
 
-   [이 페이지](inapp-configuration.md)에서 인앱 구성에 대해 자세히 알아보세요.
-
-   ![](assets/in_app_create_1.png)
+   * **API 트리거됨 - 마케팅/트랜잭션**: API 호출을 사용하여 캠페인을 실행하십시오. API 트리거 캠페인은 마케팅 또는 트랜잭션 메시지(예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 전송된 메시지)를 보내는 것을 목표로 합니다.
 
 1. **[!UICONTROL 속성]** 섹션에서 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]** 설명을 입력하십시오.
 
@@ -142,6 +140,12 @@ ht-degree: 13%
    ![](assets/in_app_create_2.png)
 
 1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
+
+1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 인앱 메시지]**&#x200B;를 선택하고 새 구성을 선택하거나 만드십시오.
+
+   [이 페이지](inapp-configuration.md)에서 인앱 구성에 대해 자세히 알아보세요.
+
+   ![](assets/in_app_create_1.png)
 
 1. 콘텐츠 실험 구성을 시작하고 처리를 만들어 성능을 측정하고 대상 대상에 가장 적합한 옵션을 식별하려면 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하십시오. [자세히 알아보기](../content-management/content-experiment.md)
 

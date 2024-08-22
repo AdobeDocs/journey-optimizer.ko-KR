@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 1. Apple의 APNs 및 Google FCM 푸시 메시지 서비스에 브랜드 모바일 앱(Android 또는 iOS)을 등록합니다
 1. 메시징 서비스는 [!DNL Adobe Journey Optimizer]이(가) 푸시 알림으로 특정 장치를 타깃팅하는 데 사용할 식별자인 푸시 토큰을 생성합니다.
 1. 이전에 생성된 푸시 토큰은 Adobe Experience Platform으로 전달되고 실시간 고객 프로필과 동기화됩니다. 이 작업은 쉽게 통합할 수 있는 클라이언트 SDK를 사용하여 OOTB에서 수행됩니다
-1. 푸시 메시지는 [!DNL Adobe Journey Optimizer]에 작성되고, 푸시 메시지는 채널 표면에 대해 만들어집니다(예: 메시지 사전 설정).
+1. 푸시 메시지는 [!DNL Adobe Journey Optimizer]에 작성되고, 푸시 메시지는 채널 구성(예: 메시지 사전 설정)에 대해 만들어집니다.
 1. 푸시 메시지는 여정의 오케스트레이션 캔버스에 포함될 수 있습니다
 1. 여정 게시 시 여정 조건을 기반으로 하는 고객 프로필은 푸시 알림을 수신할 자격이 있으며 이 단계에서 푸시 메시지 페이로드가 개인화됩니다
 1. 개인화된 푸시 페이로드는 내부 푸시 메시지 전송 서비스로 전달됩니다

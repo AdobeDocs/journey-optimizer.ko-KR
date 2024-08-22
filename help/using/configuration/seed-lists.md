@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 시드 목록, 시드 목록, 시드, 구성
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 16%
@@ -52,7 +52,7 @@ ht-degree: 16%
 
 ## 시드 목록 액세스 {#access-seed-lists}
 
-이미 만들어진 시드 목록에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 구성]**&#x200B;으로 이동한 다음 **[!UICONTROL 시드 목록]**&#x200B;을 선택하십시오.
+이미 만들어진 시드 목록에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]**&#x200B;으로 이동한 다음 **[!UICONTROL 시드 목록]**&#x200B;을 선택하십시오.
 
 <!--
 >[!CAUTION]
@@ -73,7 +73,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->활성 [여정](../campaigns/review-activate-campaign.md) 또는 [캠페인](../building-journeys/publishing-the-journey.md)에서 사용되는 시드 목록을 삭제할 수 없습니다. 캠페인/여정을 비활성화하거나, 시드 목록이 선택되지 않은 다른 표면을 사용하도록 편집해야 합니다. [시드 목록 사용에 대해 자세히 알아보기](#use-seed-list)
+>활성 [여정](../campaigns/review-activate-campaign.md) 또는 [캠페인](../building-journeys/publishing-the-journey.md)에서 사용되는 시드 목록을 삭제할 수 없습니다. 선택한 시드 목록이 없는 다른 구성을 사용하려면 캠페인/여정을 비활성화하거나 편집해야 합니다. [시드 목록 사용에 대해 자세히 알아보기](#use-seed-list)
 
 시드 목록 이름을 클릭하여 편집할 수 있습니다. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -92,7 +92,7 @@ ht-degree: 16%
 
 시드 목록을 만들려면 아래 단계를 수행합니다.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 구성]** > **[!UICONTROL 시드 목록]** 메뉴에 액세스합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL 시드 목록]** 메뉴에 액세스합니다.
 
 1. **[!UICONTROL 시드 목록 만들기]** 단추를 선택하십시오.
 
@@ -132,7 +132,7 @@ ht-degree: 16%
 >
 >시드 주소로 전송된 메시지는 여정 또는 캠페인 보고서에 포함되지 않습니다.
 
-1. 표면을 만들고 **[!UICONTROL 전자 메일]** 채널을 선택하십시오. [자세히 알아보기](../email/email-settings.md)
+1. 구성을 만들고 **[!UICONTROL 전자 메일]** 채널을 선택하십시오. [자세히 알아보기](../email/email-settings.md)
 
 1. [해당 섹션](../email/email-settings.md#seed-list)에서 선택한 시드 목록을 선택하십시오.
 
@@ -142,11 +142,11 @@ ht-degree: 16%
 
    ![](assets/seed-list-surface.png)
 
-1. 표면을 제출합니다.
+1. 구성을 제출합니다.
 
 1. [여정](../campaigns/create-campaign.md) 또는 [캠페인](../building-journeys/journey-gs.md)을 만듭니다.
 
-1. **[!UICONTROL 전자 메일]** 작업을 선택하고 관련된 시드 목록을 포함하는 [표면](channel-surfaces.md)을(를) 선택하십시오.
+1. **[!UICONTROL 전자 메일]** 작업을 선택하고 관련된 시드 목록을 포함하는 [구성](channel-surfaces.md)을(를) 선택하십시오.
 
    ![](assets/seed-list-campaign-email.png)
 

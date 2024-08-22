@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 구성, 환경, 하위 도메인, 사전 설정
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 17%
+source-wordcount: '351'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 17%
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스합니다.
 
-1. **[!UICONTROL 브랜딩]** > **[!UICONTROL 랜딩 페이지 사전 설정]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 랜딩 페이지 설정]** > **[!UICONTROL 랜딩 페이지 사전 설정]**&#x200B;을 선택합니다.
 
    ![](assets/lp_presets-access.png)
 
@@ -46,7 +46,7 @@ ht-degree: 17%
 >
 >사전 설정을 만들려면 적어도 하나 이상의 랜딩 페이지 하위 도메인을 이전에 구성했는지 확인하십시오. [방법 알아보기](lp-subdomains.md)
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스한 다음 **[!UICONTROL 브랜딩]** > **[!UICONTROL 랜딩 페이지 사전 설정]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스한 다음 **[!UICONTROL 랜딩 페이지 설정]** > **[!UICONTROL 랜딩 페이지 사전 설정]**&#x200B;을 선택합니다.
 
 1. **[!UICONTROL 랜딩 페이지 사전 설정 만들기]**&#x200B;를 선택합니다.
 
@@ -80,13 +80,11 @@ ht-degree: 17%
 
 1. 랜딩 페이지 사전 설정이 만들어지면 목록에 **[!UICONTROL 활성]** 상태로 표시됩니다. 랜딩 페이지에 사용할 준비가 되었습니다.
 
-   ![](assets/lp-preset-active-temp.png)
-
 이제 [!DNL Journey Optimizer]에서 [랜딩 페이지를 만들](../landing-pages/create-lp.md)할 준비가 되었습니다.
 <!--
 >[!NOTE]
 >
->Learn how to create channel surfaces for push notifications and emails in [this section](channel-surfaces.md).-->
+>Learn how to create channel configurations for push notifications and emails in [this section](channel-surfaces.md).-->
 
 **관련 항목**:
 

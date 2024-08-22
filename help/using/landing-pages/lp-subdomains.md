@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 하위 도메인, 구성
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 23%
 
 ---
@@ -50,9 +50,7 @@ ht-degree: 23%
 
 이미 Adobe에게 위임된 하위 도메인을 사용하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스한 다음 **[!UICONTROL 전자 메일 구성]** > **[!UICONTROL 랜딩 페이지 하위 도메인]**&#x200B;을 선택합니다.
-
-   ![](assets/lp_access-subdomains.png)
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스한 다음 **[!UICONTROL 랜딩 페이지 설정]** > **[!UICONTROL 랜딩 페이지 하위 도메인]**&#x200B;을 선택합니다.
 
 1. **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭합니다.
 
@@ -105,7 +103,7 @@ ht-degree: 23%
 
 새 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스한 다음 **[!UICONTROL 전자 메일 구성]** > **[!UICONTROL 랜딩 페이지 하위 도메인]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스한 다음 **[!UICONTROL 랜딩 페이지 설정]** > **[!UICONTROL 랜딩 페이지 하위 도메인]**&#x200B;을 선택합니다.
 
 1. **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭합니다.
 

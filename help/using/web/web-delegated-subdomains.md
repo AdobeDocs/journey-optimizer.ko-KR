@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: 웹, 하위 도메인, 구성
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 24%
@@ -48,7 +48,7 @@ ht-degree: 24%
 
 ## 웹 하위 도메인 액세스 및 관리 {#access-web-subdomains}
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴로 이동한 다음 **[!UICONTROL 웹 구성]** > **[!UICONTROL 웹 하위 도메인]**&#x200B;을 선택합니다. 현재 샌드박스로 설정된 모든 하위 도메인이 표시됩니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴로 이동한 다음 **[!UICONTROL 웹 설정]** > **[!UICONTROL 웹 하위 도메인]**&#x200B;을 선택합니다. 현재 샌드박스로 설정된 모든 하위 도메인이 표시됩니다.
 
    ![](assets/web-access-subdomains.png)
 
@@ -68,7 +68,7 @@ ht-degree: 24%
 
 이미 Adobe에게 위임된 하위 도메인을 사용하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스한 다음 **[!UICONTROL 웹 구성]** > **[!UICONTROL 웹 하위 도메인]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스한 다음 **[!UICONTROL 웹 설정]** > **[!UICONTROL 웹 하위 도메인]**&#x200B;을 선택합니다.
 
 1. **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭합니다.
 
@@ -109,7 +109,7 @@ ht-degree: 24%
 >
 >기본적으로 [!DNL Journey Optimizer]에서는 전자 메일과 웹 채널을 모두 포함하는 총 10개의 하위 도메인을 위임할 수 있습니다. 그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 부여된 하위 도메인 수에 대해 자세히 알아보려면 Adobe 담당자에게 문의하십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스한 다음 **[!UICONTROL 웹 구성]** > **[!UICONTROL 웹 하위 도메인]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스한 다음 **[!UICONTROL 웹 설정]** > **[!UICONTROL 웹 하위 도메인]**&#x200B;을 선택합니다.
 
 1. **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭합니다.
 
@@ -153,7 +153,7 @@ ht-degree: 24%
    >
    >해당 하위 도메인을 사용하여 웹 메시지를 보내려면 먼저 Adobe이 필요한 검사를 수행할 때까지 기다려야 하며 최대 4시간이 걸릴 수 있습니다.
 
-1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. 웹 채널 표면을 만드는 데 사용할 준비가 되었습니다.
+1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. 웹 채널 구성을 만드는 데 사용할 준비가 되었습니다.
 
    호스팅 솔루션에서 유효성 검사 레코드를 만들지 못하면 하위 도메인이 **[!UICONTROL 실패]**(으)로 표시됩니다.
 

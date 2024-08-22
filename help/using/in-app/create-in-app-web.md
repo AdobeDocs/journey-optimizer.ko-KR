@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 85aee5c5ff9ceee10b2dc01ef9e31947cef9daae
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 5%
+source-wordcount: '634'
+ht-degree: 7%
 
 ---
 
@@ -24,43 +24,19 @@ ht-degree: 5%
 
 * 트리거를 사용자 지정합니다. 웹 인앱 메시지는 플랫폼으로 데이터를 전송하는 트리거와 수동 트리거의 두 가지 유형을 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
 
+* 웹 인앱 구성을 만듭니다. [자세히 알아보기](inapp-configuration.md)
+
 ## 웹 인앱 메시지 캠페인 만들기 {#create-inapp-web-campaign}
 
 1. **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다.
 
-1. **[!UICONTROL 속성]** 섹션에서 캠페인 실행 유형(예약됨 또는 API 트리거됨)을 선택합니다. [이 페이지](../campaigns/create-campaign.md#campaigntype)에서 캠페인 유형에 대해 자세히 알아보세요.
+1. 캠페인 실행 유형(예약됨 또는 API 트리거됨)을 선택합니다. [이 페이지](../campaigns/create-campaign.md#campaigntype)에서 캠페인 유형에 대해 자세히 알아보세요.
 
-1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 인앱 메시지]**&#x200B;를 선택하세요. **[!UICONTROL 전송 대상]** 드롭다운에서 웹을 선택합니다.
+1. **[!UICONTROL 작업]** 드롭다운에서 **[!UICONTROL 인앱 메시지]**&#x200B;를 선택합니다.
 
    ![](assets/in_app_web_surface_1.png)
 
-1. 앱 표면을 정의합니다. 두 가지 옵션을 사용하여 변경할 수 있습니다.
-
-   * **[!UICONTROL 페이지 URL]**&#x200B;을 입력하여 특정 페이지에 변경 내용을 적용할 수 있습니다.
-
-   * 동일한 패턴을 따르는 여러 URL을 타겟팅하는 규칙을 만들 수 있습니다.
-
-+++ 페이지 일치 규칙을 작성하는 방법입니다.
-
-      1. **[!UICONTROL 페이지 일치 규칙]**&#x200B;을(를) 앱 표면으로 선택합니다.
-      1. **[!UICONTROL 규칙 만들기]**&#x200B;를 클릭합니다.
-
-         ![](assets/in_app_web_surface_3.png)
-
-      1. **[!UICONTROL 표면 규칙 편집]** 창에서 **[!UICONTROL 도메인]** 및 **[!UICONTROL 페이지]** 필드에 대한 기준을 정의합니다.
-      1. 조건 드롭다운에서 기준을 추가로 개인화합니다.
-
-         예를 들어, 여기에서 Luma 웹 사이트의 모든 판매 제품 페이지에 표시되는 요소를 편집하려면 도메인 > 다음으로 시작 > luma 및 페이지 > 포함 > 판매 를 선택합니다.
-
-         ![](assets/in_app_web_surface_4.png)
-
-      1. 변경 내용을 저장합니다. 규칙이 **[!UICONTROL 캠페인 만들기]** 화면에 표시됩니다.
-
-+++
-
-   ![](assets/in_app_web_surface_2.png)
-
-1. 앱 표면을 선택하고 구성한 후 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+1. 앱 구성을 선택하거나 만듭니다. [자세히 알아보기](inapp-configuration.md#channel-prerequisites)
 
 ## 웹 인앱 메시지 캠페인 정의 {#configure-inapp}
 
@@ -74,7 +50,7 @@ ht-degree: 5%
 
 1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
-1. **[!UICONTROL 작업]** 메뉴에서 이전에 **[!UICONTROL 앱 표면]**(으)로 구성된 설정을 찾을 수 있습니다. 필요한 경우 여기에서 변경하거나 **[!UICONTROL 규칙 편집]**&#x200B;을 클릭하여 규칙을 업데이트할 수 있습니다.
+1. **[!UICONTROL 작업]** 메뉴에서 이전에 **[!UICONTROL 앱 구성]**(으)로 구성된 설정을 찾을 수 있습니다. 필요한 경우 여기에서 변경하거나 **[!UICONTROL 규칙 편집]**&#x200B;을 클릭하여 규칙을 업데이트할 수 있습니다.
 
 1. 콘텐츠 실험 구성을 시작하고 처리를 만들어 성능을 측정하고 대상 대상에 가장 적합한 옵션을 식별하려면 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하십시오. [자세히 알아보기](../content-management/content-experiment.md)
 

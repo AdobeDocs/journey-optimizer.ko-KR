@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 허용 목록, 목록, 안전, 구성
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 16%
@@ -34,7 +34,7 @@ ht-degree: 16%
 
 ## 허용 목록 액세스 {#access-allowed-list}
 
-허용된 전자 메일 주소 및 도메인의 세부 목록에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 구성]**&#x200B;으로 이동한 다음 **[!UICONTROL 허용 목록]**&#x200B;을 선택하세요.
+허용된 전자 메일 주소 및 도메인의 세부 목록에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]**&#x200B;으로 이동한 다음 **[!UICONTROL 허용 목록]**&#x200B;을 선택하세요.
 
 ![](assets/allow-list-access.png)
 

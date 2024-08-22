@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 1%
@@ -49,7 +49,7 @@ ht-degree: 1%
 >
 >**[!UICONTROL Live]** 또는 **[!UICONTROL 예약됨]** 상태 옆에 있는 &quot;초안 버전 열기&quot; 아이콘은 캠페인의 새 버전이 만들어졌고 아직 활성화되지 않았음을 나타냅니다. [자세히 알아보기](modify-stop-campaign.md#modify).
 
-캠페인 중 하나에서 오류가 발생하면 캠페인 상태와 함께 경고 아이콘이 표시됩니다. 경고와 관련된 정보를 표시하려면 이 패널을 클릭합니다. 이러한 경고는 캠페인 메시지가 게시되지 않았거나 선택한 표면이 잘못된 경우와 같은 다양한 상황에서 발생할 수 있습니다.
+캠페인 중 하나에서 오류가 발생하면 캠페인 상태와 함께 경고 아이콘이 표시됩니다. 경고와 관련된 정보를 표시하려면 이 패널을 클릭합니다. 이러한 경고는 캠페인 메시지가 게시되지 않았거나 선택한 구성이 잘못된 경우와 같은 다양한 상황에서 발생할 수 있습니다.
 
 ![](assets/campaign-alerts.png)
 

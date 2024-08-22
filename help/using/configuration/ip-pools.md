@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, 풀, 그룹, 하위 도메인, 전달성
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 10%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 IP 풀을 만들려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL IP 풀]** 메뉴에 액세스한 다음 **[!UICONTROL IP 풀 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL IP 풀]** 메뉴에 액세스한 다음 **[!UICONTROL IP 풀 만들기]**&#x200B;를 클릭합니다.
 
    ![](assets/ip-pool-create.png)
 
@@ -74,17 +74,13 @@ IP 풀이 만들어지면 IP 풀 드롭다운 목록 아래에 표시된 IP 주�
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-이제 IP 풀이 만들어지고 목록에 표시됩니다. 해당 속성에 액세스하고 관련 채널 표면(즉, 메시지 사전 설정)을 표시하도록 선택할 수 있습니다. 채널 표면을 IP 풀과 연결하는 방법에 대한 자세한 내용은 [이 섹션](channel-surfaces.md)을 참조하세요.
-
-![](assets/ip-pool-created.png)
+이제 IP 풀이 만들어지고 목록에 표시됩니다. 해당 속성에 액세스하고 관련 채널 구성(즉, 메시지 사전 설정)을 표시하도록 선택할 수 있습니다. 채널 구성을 IP 풀과 연결하는 방법에 대한 자세한 내용은 [이 섹션](channel-surfaces.md)을 참조하세요.
 
 ## IP 풀 편집 {#edit-ip-pool}
 
 IP 풀을 편집하려면 아래 단계를 따르십시오.
 
 1. 목록에서 IP 풀 이름을 클릭하여 엽니다.
-
-   ![](assets/ip-pool-list.png)
 
 1. 원하는 대로 속성을 편집합니다. 설명을 수정하고 IP 주소를 추가하거나 제거할 수 있습니다.
 
@@ -100,14 +96,14 @@ IP 풀을 편집하려면 아래 단계를 따르십시오.
 
 1. 변경 내용을 저장합니다.
 
-업데이트는 [채널 표면](channel-surfaces.md)에 연결된 IP 풀에 따라 즉시 또는 비동기적으로 적용됩니다.
+업데이트는 [채널 구성](channel-surfaces.md)에 연결된 IP 풀에 따라 즉시 또는 비동기적으로 적용됩니다.
 
-* IP 풀이 채널 표면과 연결되어 있지 **않은**&#x200B;인 경우 즉시 업데이트됩니다(**[!UICONTROL 성공]** 상태).
-* IP 풀 **이(가) 채널 표면과 연결된 경우** 업데이트는 최대 3시간(**[!UICONTROL 처리]** 상태)이 걸릴 수 있습니다.
+* IP 풀이 채널 구성과 연결되어 있지 **않은**&#x200B;인 경우 즉시(**[!UICONTROL 성공]** 상태) 업데이트됩니다.
+* IP 풀 **이(가) 채널 구성과 연결되어 있는 경우** 업데이트는 최대 3시간(**[!UICONTROL 처리]** 상태)이 걸릴 수 있습니다.
 
 >[!NOTE]
 >
->[채널 표면을 만드는 중](channel-surfaces.md#create-channel-surface)에 편집 중인 IP 풀(**[!UICONTROL 처리 중]** 상태)을 선택하고 해당 표면에 대해 선택한 하위 도메인과 연결된 적이 없으면 표면 만들기를 진행할 수 없습니다. [자세히 알아보기](channel-surfaces.md#subdomains-and-ip-pools)
+>[채널 구성을 만드는 중](channel-surfaces.md#create-channel-surface)에 편집 중인 IP 풀(**[!UICONTROL 처리 중]** 상태)을 선택하고 해당 구성에 대해 선택한 하위 도메인과 연결된 적이 없으면 구성 만들기를 진행할 수 없습니다. [자세히 알아보기](channel-surfaces.md#subdomains-and-ip-pools)
 
 IP 풀 업데이트 상태를 확인하려면 **[!UICONTROL 추가 작업]** 단추를 클릭하고 **[!UICONTROL 최근 업데이트]**&#x200B;를 선택하십시오.
 
@@ -119,5 +115,5 @@ IP 풀 업데이트 상태를 확인하려면 **[!UICONTROL 추가 작업]** 단
 >* 단일 메시지에 소비되기 몇 분 전에
 >* 다음 배치(IP 풀 배치 시)가 배치 메시지에 유효할 때까지.
 
-**[!UICONTROL 삭제]** 단추를 사용하여 IP 풀을 삭제할 수도 있습니다. 채널 표면과 연결된 IP 풀은 삭제할 수 없습니다.
+**[!UICONTROL 삭제]** 단추를 사용하여 IP 풀을 삭제할 수도 있습니다. 채널 구성과 연결된 IP 풀은 삭제할 수 없습니다.
 

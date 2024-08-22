@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '681'
 ht-degree: 2%
 
 ---
@@ -110,3 +110,49 @@ ht-degree: 2%
 
    ![](assets/configure_web_inapp_14.png)
 
+## 인앱 웹 구성 만들기 {#in-app-config}
+
+1. **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 채널 구성]** 메뉴에 액세스한 다음 **[!UICONTROL 채널 구성 만들기]**&#x200B;를 클릭하십시오.
+
+   ![](assets/in-app-web-config-1.png)
+
+1. 구성의 이름 및 설명(선택 사항)을 입력한 다음 구성할 채널을 선택합니다.
+
+   >[!NOTE]
+   >
+   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-`자를 사용할 수도 있습니다.
+
+1. 구성에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택할 수 있습니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요](../administration/object-based-access.md).
+
+1. 이 구성을 사용하여 동의 정책을 메시지에 연결하려면 **[!UICONTROL 마케팅 액션]**&#x200B;을 선택하십시오. 마케팅 액션과 관련된 모든 동의 정책은 고객의 선호도를 존중하기 위해 활용됩니다. [자세히 알아보기](../action/consent.md#surface-marketing-actions)
+
+1. **인앱 메시지** 채널을 선택하십시오.
+
+1. 앱 구성을 정의합니다. 두 가지 옵션을 사용하여 변경할 수 있습니다.
+
+   * **[!UICONTROL 페이지 URL]**&#x200B;을 입력하여 특정 페이지에 변경 내용을 적용할 수 있습니다.
+
+   * 동일한 패턴을 따르는 여러 URL을 타겟팅하는 규칙을 만들 수 있습니다.
+
++++ 페이지 일치 규칙을 작성하는 방법입니다.
+
+      1. **[!UICONTROL 규칙과 일치하는 페이지]**&#x200B;을(를) 앱 구성으로 선택하고 **[!UICONTROL 페이지 URL]**&#x200B;을(를) 입력하십시오.
+
+      1. **[!UICONTROL 구성 규칙 편집]** 창에서 **[!UICONTROL 도메인]** 및 **[!UICONTROL 페이지]** 필드에 대한 조건을 정의합니다.
+      1. 조건 드롭다운에서 기준을 추가로 개인화합니다.
+
+         예를 들어, 여기에서 Luma 웹 사이트의 모든 판매 제품 페이지에 표시되는 요소를 편집하려면 도메인 > 다음으로 시작 > luma 및 페이지 > 포함 > 판매 를 선택합니다.
+
+         ![](assets/in_app_web_surface_4.png)
+
+      1. 필요한 경우 다른 규칙을 만들려면 **[!UICONTROL 다른 페이지 규칙 추가]**&#x200B;를 클릭합니다.
+
+      1. **[!UICONTROL 기본 작성 및 미리 보기 URL]**&#x200B;을(를) 선택하십시오.
+
+      1. 변경 내용을 저장합니다. 규칙이 **[!UICONTROL 캠페인 만들기]** 화면에 표시됩니다.
+
++++
+
+1. 인앱 웹 구성을 제출합니다.
+
+이제 캠페인 내에서 [웹 인앱을 만들기](../in-app/create-in-app-web.md)할 수 있습니다.

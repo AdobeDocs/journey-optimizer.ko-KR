@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 068714fc2cae501fcc13a7f3112e5c1f3a3470bb
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '615'
 ht-degree: 56%
 
 ---
@@ -74,27 +74,27 @@ ht-degree: 56%
 </tbody>
 </table-->
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Improved Channel Configurations</strong><br/></th>
+<th><strong>향상된 채널 구성</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels, including Web, In-app messaging, or Code-based experience.</p>
+<p>현재 채널 표면 기능은 모든 채널에서 일관된 접근 방식을 위해 향상되었습니다. 이제 웹, 인앱 메시지 또는 코드 기반 경험을 포함하여 모든 채널에 대해 이러한 구성을 정의, 관리 및 재사용할 수 있습니다.</p>
 <p><ul>
-<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
-<li>You can attach one or multiple marketing actions to enforce consent and data governance policies</li>
-<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
-<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
+<li>이제 채널 표면 이름이 <strong>채널 구성</strong>으로 변경되었습니다.</li>
+<li>동의 및 데이터 거버넌스 정책을 시행하기 위해 하나 이상의 마케팅 작업을 첨부할 수 있습니다</li>
+<li>이제 각 채널 구성에 OLAC(개체 수준 액세스 제어)를 사용할 수 있으므로 특정 구성을 만들거나 사용할 수 있는 사용자를 결정할 수 있습니다.</li>
+<li>일부 채널의 경우 여러 플랫폼을 대상으로 하는 채널 구성을 만들 수 있습니다. 웹 페이지, iOS 앱 및 Android 앱을 타깃팅할 수 있는 인앱 메시지 채널 구성이 여기에 해당합니다.</li>
 </ul></p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
+<p>자세한 내용은 <a href="../configuration/channel-surfaces.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
@@ -162,12 +162,12 @@ ht-degree: 56%
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
 <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
-<!--* The License usage dashboard now shows the count of Engageable Profiles. [Read more](../audience/license-usage.md)
+<!--* The License usage dashboard now shows the count of Engageable Profiles. [Read more](../audience/license-usage.md)-->
 
-**Push channel**
+**푸시 채널**
 
-* You can now add your mobile application push credentials inside Adobe Journey Optimizer channel configuration settings. Creating an App surface in Adobe Experience Platform Data Collection is no longer required.
--->
+* 이제 Adobe Journey Optimizer 채널 구성 설정 내에 모바일 애플리케이션 푸시 자격 증명을 추가할 수 있습니다. Adobe Experience Platform 데이터 수집에서 앱 표면 생성이 더 이상 필요하지 않습니다.
+
 
 ### 기타 변경 사항 {#changes}
 

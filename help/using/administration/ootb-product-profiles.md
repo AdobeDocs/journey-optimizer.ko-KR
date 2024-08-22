@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: c2d9fde723c8dab28faf84152bfbaab437430ca9
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 6%
@@ -79,7 +79,7 @@ ht-degree: 6%
 | 리소스 | 권한 |
 |-|-|
 | 여정 | <ul><li> **[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Publish journeys]**: 여정 게시.</li><li>**[!DNL Manage journeys events, data sources and actions]**: 이벤트, 소스 또는 작업을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</li></ul> |
-| 채널 구성 | <ul><li>**[!DNL Manage subdomains delegation]**: 하위 도메인 위임을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage IP pools]**: ip 풀을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage PTR records]**: PTR 레코드를 읽고 편집합니다.</li><li>**[!DNL View PTR records]**: PTR 레코드에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage messages presets]**: 콘텐츠 브랜딩을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage Landing page settings]**: 랜딩 페이지 하위 도메인 및 랜딩 페이지 사전 설정을 만들고, 편집하고, 삭제합니다.</li><li> **[!DNL Manage messages general settings]**: 메시지 일반 설정을 읽고 만들고 편집하고 삭제합니다.</li><li>**[!DNL Manage SMS settings]**: SMS 채널을 사용하는 데 필요한 API 자격 증명 및 SMS 채널 표면을 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage suppression rules]**: 비표시 규칙에 액세스, 만들기, 편집 및 삭제</li><li>**[!DNL View suppression list]**: 로컬 비표시 목록을 읽고 내보냅니다.</li><li>**[!DNL Manage alerts]**: 여정 및 자격에 대한 경고를 활성화/비활성화합니다.</li></ul> |
+| 채널 구성 | <ul><li>**[!DNL Manage subdomains delegation]**: 하위 도메인 위임을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage IP pools]**: ip 풀을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage PTR records]**: PTR 레코드를 읽고 편집합니다.</li><li>**[!DNL View PTR records]**: PTR 레코드에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage messages presets]**: 콘텐츠 브랜딩을 읽고, 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage Landing page settings]**: 랜딩 페이지 하위 도메인 및 랜딩 페이지 사전 설정을 만들고, 편집하고, 삭제합니다.</li><li> **[!DNL Manage messages general settings]**: 메시지 일반 설정을 읽고 만들고 편집하고 삭제합니다.</li><li>**[!DNL Manage SMS settings]**: SMS 채널을 사용하도록 설정하는 데 필요한 API 자격 증명 및 SMS 채널 구성을 만들고, 편집하고, 삭제합니다.</li><li>**[!DNL Manage suppression rules]**: 비표시 규칙에 액세스, 만들기, 편집 및 삭제</li><li>**[!DNL View suppression list]**: 로컬 비표시 목록을 읽고 내보냅니다.</li><li>**[!DNL Manage alerts]**: 여정 및 자격에 대한 경고를 활성화/비활성화합니다.</li></ul> |
 | 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 결정을 읽고 만들고 편집하고 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 등급 전략을 읽고, 만들고, 편집하고, 삭제합니다.</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Sandbox]**: 샌드박스에 대한 액세스 권한을 부여합니다.</li><li>**[!DNL Manage segments]**: 세그먼트 정의를 읽고 만들고 편집하고 삭제합니다.</li><li>**[!DNL Manage profiles]**: 프로필을 읽고 만들고 편집하고 삭제합니다.</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read Identity namespace]**: id 네임스페이스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽고 만들고 편집하고 삭제합니다.</li></ul> |
 | Journey Optimizer 라이브러리 | <ul><li>**[!DNL Manage Library Items]**: [!DNL Journey Optimizer] 라이브러리에 저장된 식을 추가하고 삭제합니다.</li></ul> |
@@ -96,7 +96,7 @@ ht-degree: 6%
 | 여정 | <ul><li>**[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL Publish journey]**: 여정 게시.</li><li>**[!DNL View journeys events, data sources and actions]**: 여정 이벤트, 여정 지정 작업 및 여정 데이터 소스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</li></ul> |
 | 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔터티를 읽고 만들고 편집하고 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**: 세그먼트 정의를 읽고 만들고 편집하고 삭제합니다.</li><li>**[!DNL Manage profiles]**: 프로필을 읽고 만들고 편집하고 삭제합니다.</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽고 만들고 편집하고 삭제합니다.</li></ul> |
-| 채널 구성 | <ul><li>**[!DNL View channel surfaces]**: 채널 표면에 대한 읽기 전용 액세스입니다.</li></ul> |
+| 채널 구성 | <ul><li>**[!DNL View channel configurations]**: 채널 구성에 대한 읽기 전용 액세스 권한.</li></ul> |
 
 ## [!DNL Journey Manager] {#journey-manager}
 
@@ -109,7 +109,7 @@ ht-degree: 6%
 | 여정 | <ul><li>**[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제</li><li>**[!DNL View journeys events]**: 여정 이벤트, 여정 지정 작업 및 여정 데이터 소스에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</li></ul> |
 | 의사 결정 관리 | <ul><li>**[!DNL Manage decisions]**: 의사 결정 엔터티를 읽고 만들고 편집하고 삭제합니다.</li><li>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: 세그먼트 정의를 읽고 만들고 편집하고 삭제합니다.</li><li>**[!DNL Manage profiles]**: 프로필을 읽고 만들고 편집하고 삭제합니다.</li><li>**[!DNL Read datasets]**: 데이터 세트에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Read schemas]**: 스키마에 대한 읽기 전용 액세스 권한.</li><li>**[!DNL Manage merge policies]**: 병합 정책을 읽고 만들고 편집하고 삭제합니다.</li></ul> |
-| 채널 구성 | <ul><li>**[!DNL View channel surfaces]**: 채널 표면에 대한 읽기 전용 액세스입니다.</li></ul> |
+| 채널 구성 | <ul><li>**[!DNL View channel configurations]**: 채널 구성에 대한 읽기 전용 액세스 권한.</li></ul> |
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 

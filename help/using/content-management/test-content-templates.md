@@ -7,7 +7,8 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 6%
@@ -30,7 +31,7 @@ ht-degree: 6%
 
    * 이렇게 하려면 **[!UICONTROL 증명 보내기]** 단추를 클릭하고 [이 섹션](../content-management/proofs.md)에 설명된 단계를 수행합니다.
 
-   * 증명을 보내기 전에 콘텐츠를 테스트하는 데 사용할 [이메일 표면](../configuration/channel-surfaces.md)을(를) 선택해야 합니다.
+   * 증명을 보내기 전에 콘텐츠를 테스트하는 데 사용할 [전자 메일 구성](../configuration/channel-surfaces.md)을(를) 선택해야 합니다.
 
      ![](assets/content-template-stimulate-proof-surface.png)
 

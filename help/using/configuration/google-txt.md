@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, google, txt, 레코드, gmail, 게재 기능
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '210'
 ht-degree: 30%
 
 ---
@@ -33,7 +33,7 @@ TXT 레코드는 외부 소스에서 읽을 수 있는 도메인에 대한 텍�
 
 하위 도메인에 Google TXT 레코드를 추가하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL 채널]** / **[!UICONTROL 하위 도메인]** 메뉴에서 하위 도메인을 엽니다.
+1. **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL 하위 도메인]** 메뉴에서 하위 도메인을 엽니다.
 
 1. **[!UICONTROL Google txt 레코드]** 섹션에서 [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->에서 생성된 확인 코드를 입력한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

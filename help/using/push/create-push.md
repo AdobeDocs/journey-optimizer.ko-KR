@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 11%
+source-wordcount: '775'
+ht-degree: 10%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 11%
 
    ![](assets/push_create_1.png)
 
-1. 메시지에 대한 기본 정보(레이블, 설명, 카테고리)를 입력한 다음 사용할 메시지 표면을 선택합니다. **[!UICONTROL 표면]** 필드는 기본적으로 미리 채워져 있으며 사용자가 해당 채널에 대해 마지막으로 사용한 표면입니다.
+1. 메시지에 대한 기본 정보(레이블, 설명, 카테고리)를 입력한 다음 사용할 메시지 구성을 선택합니다.
 
    ![](assets/push_create_2.png)
 
@@ -54,21 +54,25 @@ ht-degree: 11%
 
 >[!TAB Campaign에 푸시 추가]
 
-1. 새 예약된 캠페인 또는 API 트리거된 캠페인을 만들고, **[!UICONTROL 푸시 알림]**&#x200B;을(를) 작업으로 선택한 다음 사용할 **[!UICONTROL 앱 표면]**&#x200B;을(를) 선택하십시오. [푸시 구성에 대해 자세히 알아보기](push-configuration.md).
+1. **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다.
 
-   ![](assets/push_create_3.png)
+1. 실행할 캠페인 유형 선택
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+   * **예약됨 - 마케팅**: 캠페인을 즉시 또는 지정한 날짜에 실행합니다. 예약된 캠페인은 마케팅 메시지 전송을 목적으로 합니다. 사용자 인터페이스에서 구성 및 실행됩니다.
+
+   * **API 트리거됨 - 마케팅/트랜잭션**: API 호출을 사용하여 캠페인을 실행하십시오. API 트리거 캠페인은 마케팅 또는 트랜잭션 메시지(예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 전송된 메시지)를 보내는 것을 목표로 합니다.
 
 1. **[!UICONTROL 속성]** 섹션에서 Campaign의 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**&#x200B;을(를) 편집합니다.
-
-   ![](assets/push_create_4.png)
 
 1. 사용 가능한 Adobe Experience Platform 대상 목록에서 타깃팅할 대상을 정의하려면 **[!UICONTROL 대상 선택]** 단추를 클릭하십시오. [자세히 알아보기](../audience/about-audiences.md).
 
 1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
-   ![](assets/push_create_5.png)
+1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 푸시 알림]**&#x200B;을 선택하고 새 구성을 선택하거나 만드십시오.
+
+   [이 페이지](push-configuration.md)에서 푸시 구성에 대해 자세히 알아보세요.
+
+   ![](assets/push_create_3.png)
 
 1. 콘텐츠 실험 구성을 시작하고 처리를 만들어 성능을 측정하고 대상 대상에 가장 적합한 옵션을 식별하려면 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하십시오. [자세히 알아보기](../content-management/content-experiment.md)
 
@@ -122,7 +126,7 @@ ht-degree: 11%
 
 1. 푸시 알림 캠페인을 만들고 **[!UICONTROL 빠른 게재]** 옵션을 켭니다.
 
-![](assets/create-campaign-burst.png)
+   ![](assets/create-campaign-burst.png)
 
 1. 메시지 콘텐츠를 구성하고 타겟팅할 대상을 선택합니다. [캠페인을 만드는 방법 알아보기](#create)
 

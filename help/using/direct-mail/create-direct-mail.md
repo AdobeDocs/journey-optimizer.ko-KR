@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 18%
+source-wordcount: '803'
+ht-degree: 16%
 
 ---
 
@@ -28,18 +28,20 @@ DM 메시지를 만들려면 예약된 캠페인을 만들고 추출 파일을 �
 >DM 메시지를 만들기 전에 다음을 구성했는지 확인하십시오.
 >
 >1. 추출 파일을 업로드하고 저장할 서버를 지정하는 [파일 라우팅 구성](../direct-mail/direct-mail-configuration.md#file-routing-configuration),
->1. 파일 라우팅 구성을 참조할 [DM 메시지 표면](../direct-mail/direct-mail-configuration.md#direct-mail-surface)입니다.
+>1. 파일 라우팅 구성을 참조하는 [DM 메시지 구성](../direct-mail/direct-mail-configuration.md#direct-mail-surface).
 
 
 ## DM 캠페인 만들기{#create-dm-campaign}
 
 DM 캠페인을 만들려면 다음 단계를 수행합니다.
 
-1. 예약된 새 캠페인을 만들고 **[!UICONTROL DM]**&#x200B;을(를) 작업으로 선택합니다.
+1. **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다.
 
-1. 사용할 **[!UICONTROL DM 표면]**&#x200B;을(를) 선택하고 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. [DM 표면을 만드는 방법을 알아보세요](direct-mail-configuration.md#direct-mail-surface).
+1. 실행할 캠페인 유형 선택
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   * **예약됨 - 마케팅**: 캠페인을 즉시 또는 지정한 날짜에 실행합니다. 예약된 캠페인은 마케팅 메시지 전송을 목적으로 합니다. 사용자 인터페이스에서 구성 및 실행됩니다.
+
+   * **API 트리거됨 - 마케팅/트랜잭션**: API 호출을 사용하여 캠페인을 실행하십시오. API 트리거 캠페인은 마케팅 또는 트랜잭션 메시지(예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 전송된 메시지)를 보내는 것을 목표로 합니다.
 
 1. **[!UICONTROL 속성]** 섹션에서 Campaign의 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**&#x200B;을(를) 편집합니다.
 
@@ -51,7 +53,11 @@ DM 캠페인을 만들려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상 내의 개인을 식별할 적절한 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
-   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
+1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL DM]**&#x200B;을(를) 선택하세요.
+
+1. 사용할 **[!UICONTROL DM 구성]**&#x200B;을(를) 선택하거나 새 구성을 만드십시오. [DM 구성을 만드는 방법을 알아보세요](direct-mail-configuration.md#direct-mail-surface).
+
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
 1. 특정 날짜에 대해 캠페인을 예약하거나 정기적으로 반복하도록 설정할 수 있습니다. [이 섹션](../campaigns/create-campaign.md#schedule)에서 캠페인의 **[!UICONTROL 일정]**&#x200B;을 구성하는 방법을 알아보세요.
 
@@ -78,12 +84,6 @@ DM 캠페인을 만들려면 다음 단계를 수행합니다.
    1. **[!UICONTROL 데이터]** 필드에서 [개인화 편집기](../personalization/personalization-build-expressions.md)를 사용하여 표시할 프로필 특성을 선택합니다.
 
    1. 열을 사용하여 추출 파일을 정렬하려면 열을 선택하고 **[!UICONTROL 정렬 기준]** 옵션을 켜십시오. **[!UICONTROL 데이터 필드]** 섹션에서 열 레이블 옆에 **[!UICONTROL 정렬 기준]** 아이콘이 표시됩니다.
-
-
-
-
-
-
 
 DM 공급자가 고객에게 메일을 보낼 때 추출 파일이 필요합니다. 추출 파일 구성을 정의하려면 다음 단계를 수행합니다.
 

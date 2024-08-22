@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '4394'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 <!--
 **Consent in channel configuration**
 
-* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
 
 **의사 결정 관리**
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>계산된 속성을 사용하면 향상된 동작 기반 세분화, 개인화 및 활성화를 위해 직관적인 사용자 인터페이스를 통해 이벤트 데이터를 프로필 속성으로 쉽게 요약할 수 있습니다. 이 기능을 사용하면 셀프서비스 방식으로 계산된 속성을 만들고 관리하여 세분화, 실시간 고객 프로필 대상 또는 Journey Optimizer에서 사용할 수 있습니다.<br/><br/>
-또한 계산된 속성은 세분화 및 여정 워크플로우를 간소화하여 관련 경험을 원활하게 전달할 수 있습니다. <a href="../audience/computed-attributes.md">상세 설명서</a>에서 자세히 알아보십시오.</p>
+또한 계산된 속성은 세분화 및 여정 워크플로를 간소화하여 관련 경험을 원활하게 전달할 수 있습니다. <a href="../audience/computed-attributes.md">상세 설명서</a>에서 자세히 알아보십시오.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -335,10 +335,10 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>이제 구성 워크플로우를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 강화...)을 활용하여 새 대상자를 만들 수 있습니다. 새로 만든 대상자는 기존 대상자와 함께 다시 Adobe Experience Platform에 저장되며, 이를 Journey Optimizer 캠페인에서 활용하여 고객을 타겟팅할 수 있습니다.</p>
+<p>이제 구성 워크플로를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 강화...)을 활용하여 새 대상자를 만들 수 있습니다. 새로 만든 대상자는 기존 대상자와 함께 다시 Adobe Experience Platform에 저장되며, 이를 Journey Optimizer 캠페인에서 활용하여 고객을 타겟팅할 수 있습니다.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>자세한 내용은 <a href="../audience/get-started-audience-orchestration.md">세부 설명서</a>를 참조하세요.</p>
-<p>대상자 구성은 대상자에게 중앙 포털 역할을 하는 새 Adobe Experience Platform "대상자" 메뉴와 완전히 통합됩니다. 이제 브라우저 페이지에서 새 대시보드를 사용할 수 있습니다. 새 대시보드에는 세그먼트 트렌드와 중복 사항이 표시되어 새로운 인사이트를 얻을 수 있고 폴더링과 태깅을 통해 조직 툴을 탐색할 수 있습니다. 여기에는 워크플로우를 관리하기 위한 대상 라이프사이클 관리 기능과 표준화된 대상 레이블 지정을 위한 거버넌스 컨트롤이 포함되어 있습니다. 이 같은 새로운 관리 경험을 통해 한 곳에서 대상을 쉽고 안전하게 관리할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko" target="_blank">Adobe Experience Platform 설명서</a>를 참고하세요.</p></p>
+<p>대상자 구성은 대상자에게 중앙 포털 역할을 하는 새 Adobe Experience Platform "대상자" 메뉴와 완전히 통합됩니다. 이제 브라우저 페이지에서 새 대시보드를 사용할 수 있습니다. 새 대시보드에는 세그먼트 트렌드와 중복 사항이 표시되어 새로운 인사이트를 얻을 수 있고 폴더링과 태깅을 통해 조직 툴을 탐색할 수 있습니다. 여기에는 워크플로를 관리하기 위한 대상자 라이프사이클 관리 기능과 표준화된 대상자 레이블 지정을 위한 거버넌스 컨트롤이 포함되어 있습니다. 이 같은 새로운 관리 경험을 통해 한 곳에서 대상자를 쉽고 안전하게 관리할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko" target="_blank">Adobe Experience Platform 설명서</a>를 참고하세요.</p></p>
 </td>
 </tr>
 </tbody>
@@ -426,7 +426,7 @@ A new option is available in the email surface settings to include email address
 
 **대상자**
 
-대상의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상 선택기가 개선되었습니다. 대상자 구성 포털이 릴리스됨에 따라 Adobe Experience Platform 및 Adobe Journey Optimizer는 시스템 및 설명서 내에서 ‘대상자’ 및 ‘세그먼트’라는 용어의 사용을 업데이트했습니다.
+대상자의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상자 선택기가 개선되었습니다. 대상자 구성 포털이 릴리스됨에 따라 Adobe Experience Platform 및 Adobe Journey Optimizer는 시스템 및 설명서 내에서 ‘대상자’ 및 ‘세그먼트’라는 용어의 사용을 업데이트했습니다.
 
 * 대상자: 사람이나 계정, 가구 또는 기타 공통된 특성과 행동을 공유하는 엔티티의 집합입니다.
 * 세그먼트 정의: Adobe Experience Platform에서 타겟 대상자의 주요 특성 또는 행동을 설명하는 데 사용되는 규칙입니다. 전에는 이 용어를 그냥 “세그먼트”라고만 지칭했습니다.
@@ -616,7 +616,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **SMS 채널**
 
-* SMS 채널 표면을 구성할 때 공급업체 목록에 Infobip을 추가했습니다. [자세히 보기](../sms/sms-configuration.md)
+* SMS 채널 구성을 구성할 때 공급업체 공급업체로 Infobip가 추가되었습니다. [자세히 보기](../sms/sms-configuration.md)
 * Twillio - 이제 API 자격 증명 설정에 Twillio 계정과의 원활한 통합을 위해 메시징 서비스 SID를 추가하는 기능이 포함됩니다. [자세히 보기](../sms/sms-configuration.md)
 
 **인앱 채널**
@@ -676,13 +676,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <table>
 <thead>
 <tr>
-<th><strong>모바일 온보딩 빠른 시작 워크플로우(Beta)</strong><br/></th>
+<th><strong>모바일 온보딩 빠른 시작 워크플로(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 새로운 모바일 온보딩 빠른 시작 워크플로우를 사용할 수 있습니다. 이 새로운 제품 기능으로 Mobile SDK를 빠르게 구성하여 모바일 이벤트 데이터를 수집, 확인하고 Adobe Journey Optimizer에서 모바일 푸시 알림을 보낼 수 있습니다. 이 기능은 공개 Beta 중이며 [데이터 수집] 홈 페이지를 통해 액세스할 수 있습니다.</p>
+<p>이제 새로운 모바일 온보딩 빠른 시작 워크플로를 사용할 수 있습니다. 이 새로운 제품 기능으로 Mobile SDK를 빠르게 구성하여 모바일 이벤트 데이터를 수집, 확인하고 Adobe Journey Optimizer에서 모바일 푸시 알림을 보낼 수 있습니다. 이 기능은 공개 Beta 중이며 [데이터 수집] 홈 페이지를 통해 액세스할 수 있습니다.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
 <p>자세한 내용은 <a href="../push/mobile-onboarding-wf.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -1012,7 +1012,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **IP 풀**&#x200B;을 만들거나 편집할 때 이제 연결된 PTR 레코드가 IP 목록에 표시되며 선택한 IP 주소 위에 커서를 올렸을 때도 표시됩니다. [자세히 알아보기](../configuration/ip-pools.md#create-ip-pool)
 
-* 이제 채널 표면에서 IP 풀을 선택한 후 IP 주소 위에 커서를 올리면 PTR 레코드 정보가 표시됩니다. [자세히 알아보기](../email/email-settings.md#subdomains-and-ip-pools)
+* 채널 구성에서 IP 풀을 선택한 후 IP 주소 위로 마우스를 가져가면 PTR 기록 정보가 표시됩니다. [자세히 알아보기](../email/email-settings.md#subdomains-and-ip-pools)
 
 * [PTR 레코드](../configuration/ptr-records.md#edit-ptr-record) 및 [실행 필드](../configuration/primary-email-addresses.md) 편집 사용자 인터페이스를 업데이트했습니다.
 

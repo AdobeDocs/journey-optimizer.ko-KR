@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, Healthcare Shield, 동의
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 95%
 
    * Adobe **Healthcare Shield** 또는 **Privacy and Security Shield**&#x200B;가 있다면 기본 로직을 재정의하는 사용자 정의 동의 정책을 만들 수 있습니다. 예를 들어, 선택한 모든 개인에게만 이메일 메시지를 보내도록 정책을 정의할 수 있습니다. 사용자 정의 정책이 없으면 기본 정책이 적용됩니다.
 
-  사용자 정의 정책을 적용하려면 해당 정책에서 마케팅 액션을 정의하고 이를 채널 표면에 연결해야 합니다. [자세히 알아보기](#surface-marketing-actions)
+  사용자 지정 정책을 적용하려면 해당 정책에서 마케팅 작업을 정의하고 채널 구성에 연결해야 합니다. [자세히 알아보기](#surface-marketing-actions)
 
 여정 수준에서 동의 정책을 사용자 정의 액션에 적용할 수 있습니다.
 
 * **사용자 정의 액션을 구성**&#x200B;할 때 채널 및 마케팅 액션을 정의할 수 있습니다. [자세히 알아보기](#consent-custom-action)
 * **여정에 사용자 정의 액션**&#x200B;을 추가할 때 추가적인 마케팅 액션을 정의할 수 있습니다. [자세히 알아보기](#consent-journey)
 
-## 채널 표면을 통한 동의 정책 활용 {#surface-marketing-actions}
+## 채널 구성을 통한 동의 정책 활용 {#surface-marketing-actions}
 
 [!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}가 처리합니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다. 온보딩하는 동안 [여기](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"} 나열된 가능한 값 중 하나로 이 기본값을 수정할 수 있습니다.
 
@@ -73,13 +73,13 @@ ht-degree: 95%
 
 1. Journey Optimizer에서 이메일 표면을 생성합니다. [방법 알아보기](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. 이메일 표면 세부 정보에서 **[!UICONTROL 이메일 타겟팅]** 마케팅 액션을 선택합니다.
+1. 전자 메일 구성 세부 정보에서 **[!UICONTROL 전자 메일 타깃팅]** 마케팅 작업을 선택합니다.
 
    ![](assets/surface-marketing-action.png)
 
 해당 마케팅 액션과 관련된 모든 동의 정책은 고객의 환경 설정을 존중하기 위해 자동으로 활용됩니다.
 
-따라서 이 예제에서는 캠페인 또는 여정에서 해당 표면을 사용하는 모든 [이메일](../email/create-email.md)은 귀하의 이메일 수신에 동의한 프로필에만 전송됩니다. 이메일 수신에 동의하지 않은 프로필은 제외됩니다.
+따라서 이 예제에서는 캠페인 또는 여정에서 해당 구성을 사용하는 모든 [이메일](../email/create-email.md)이(가) 사용자의 이메일 수신에 동의한 프로필로만 전송됩니다. 이메일 수신에 동의하지 않은 프로필은 제외됩니다.
 
 ## 사용자 정의 액션을 통한 동의 정책 활용 {#journey-custom-actions}
 

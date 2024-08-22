@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 기본, 실행, 이메일, 타겟, 프로필, 최적화 도구
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '433'
 ht-degree: 18%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 18%
 
 이 경우 [!DNL Journey Optimizer]은(는) **[!UICONTROL 실행 필드]**&#x200B;를 사용하여 우선 순위의 프로필 서비스에서 사용할 전자 메일 주소 또는 전화 번호를 결정합니다.
 
-현재 기본적으로 사용되는 필드를 확인하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 일반]** > **[!UICONTROL 실행 필드]** 메뉴에 액세스합니다.
+현재 기본적으로 사용되는 필드를 확인하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 실행 필드]** 메뉴에 액세스합니다.
 
 ![](assets/primary-address-execution-fields.png)
 
@@ -46,7 +46,7 @@ ht-degree: 18%
 
 샌드박스 수준에서 실행 필드를 전체적으로 변경하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 채널]** > **[!UICONTROL 일반]** > **[!UICONTROL 실행 필드]** 메뉴에 액세스합니다.
+1. **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 실행 필드]** 메뉴에 액세스합니다.
 
 1. 기본값을 변경하려면 **[!UICONTROL 편집]**&#x200B;을 클릭하세요.
 

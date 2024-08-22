@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 7%
@@ -37,7 +37,7 @@ ht-degree: 7%
 
    * **[!UICONTROL 메시지의 푸시 버전이 비어 있습니다]**: 푸시 알림 본문이나 제목이 누락된 경우 이 오류가 표시됩니다. [이 섹션](create-push.md)에서 푸시 알림 콘텐츠를 정의하는 방법을 알아보세요.
 
-   * **[!UICONTROL 표면이 없습니다]**: 메시지를 만든 후 선택한 표면이 삭제되면 메시지를 사용할 수 없습니다. 이 오류가 발생하면 **[!UICONTROL 속성]** 메시지에서 다른 표면을 선택하십시오. [이 섹션](../configuration/channel-surfaces.md)에서 채널 표면에 대해 자세히 알아보세요.
+   * **[!UICONTROL 구성이 없습니다]**: 선택한 구성이 메시지 작성 후 삭제되면 메시지를 사용할 수 없습니다. 이 오류가 발생하면 **[!UICONTROL 속성]** 메시지에서 다른 구성을 선택하십시오. [이 섹션](../configuration/channel-surfaces.md)에서 채널 구성에 대해 자세히 알아보세요.
 
    * **[!UICONTROL 푸시 iOS/Android 페이로드가 4KB의 제한을 초과했습니다]**: 푸시 알림 크기는 4KB를 초과할 수 없습니다. 이 제한을 준수하려면 이미지 또는 이모지의 사용을 줄이십시오. [이 섹션](../push/create-push.md)에서 푸시 알림 콘텐츠를 관리하는 방법을 알아봅니다.
 

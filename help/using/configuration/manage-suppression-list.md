@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 제외, 목록, 바운스, 이메일, 최적화 도구, 격리
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 21%
@@ -32,7 +32,7 @@ ht-degree: 21%
 
 ## 제외 목록 액세스 {#access-suppression-list}
 
-제외된 전자 메일 주소 및 도메인의 세부 목록에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 구성]**&#x200B;으로 이동한 다음 **[!UICONTROL 제외 목록]**&#x200B;을 선택하세요.
+제외된 전자 메일 주소 및 도메인의 세부 목록에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]**&#x200B;으로 이동한 다음 **[!UICONTROL 제외 목록]**&#x200B;을 선택하세요.
 
 
 ![](assets/suppression-list-access.png)
@@ -66,8 +66,6 @@ ht-degree: 21%
 * **수동**: 수동 오류가 제외 목록에 수동으로 추가되었습니다. [자세히 알아보기](#add-addresses-and-domains)
 
 나열된 각 전자 메일 주소에 대해 **[!UICONTROL Type]**(전자 메일 또는 도메인), 제외할 **[!UICONTROL 이유]**, 추가한 사람, 제외 목록에 추가한 날짜/시간도 확인할 수 있습니다.
-
-![](assets/suppression-list.png)
 
 게재 실패의 가능한 원인은 다음과 같습니다.
 
@@ -230,8 +228,6 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 영향을 받는 이메일 주소가 식별되면 제외 목록을 필터링하여 표시합니다. 예를 들어 **test.com** 도메인에서 2022년 11월 11일부터 2022년 11월 13일까지 ISP 중단이 발생한 경우 다음과 같이 해당 일정의 제외 목록에 추가된 주소를 필터링합니다.
 
-![](assets/remove-from-supp-list.png)
-
 그런 다음 **[!UICONTROL 삭제]** 단추를 사용하여 제외 목록에서 격리된 전자 메일 주소를 제거할 수 있습니다.
 
 ## 금지 목록 다운로드 {#download-suppression-list}
@@ -250,8 +246,6 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
    ![](assets/suppression-list-download-csv.png)
 
 1. 파일이 생성될 때까지 기다립니다.
-
-   ![](assets/suppression-list-download-generate.png)
 
    >[!NOTE]
    >

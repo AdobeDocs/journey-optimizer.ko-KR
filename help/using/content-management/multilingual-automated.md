@@ -10,9 +10,9 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 8484c39cf610fc4044e656243eba88deb8c50867
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1328'
 ht-degree: 4%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 이 섹션에서는 다국어 콘텐츠 관리를 위한 기본 언어 및 관련 로케일을 설정할 수 있습니다. 프로필 언어와 관련된 정보를 조회하는 데 사용할 속성을 선택할 수도 있습니다.
 
-1. **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 채널]**&#x200B;에 액세스합니다.
+1. **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]**&#x200B;에 액세스합니다.
 
 1. **[!UICONTROL 언어 설정]** 메뉴에서 **[!UICONTROL 언어 설정 만들기]**&#x200B;를 클릭합니다.
 
@@ -131,7 +131,7 @@ ht-degree: 4%
 1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 **[!UICONTROL 언어 설정]**&#x200B;을 만듭니다.
 
 <!--
-1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
+1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
 
 1. In the **[!UICONTROL Header parameters]** section, select the **[!UICONTROL Enable multilingual]** option.
 

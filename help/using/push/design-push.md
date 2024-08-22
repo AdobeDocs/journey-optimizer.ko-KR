@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 17%
@@ -39,7 +39,7 @@ ht-degree: 17%
 
 ![](assets/title-body-push.png)
 
-* 앱을 열려면 **[!UICONTROL 앱 열기]** 옵션을 선택합니다. 알림과 연결된 앱이 [채널 표면](../configuration/channel-surfaces.md)에 정의되어 있습니다(즉, 메시지 사전 설정).
+* 앱을 열려면 **[!UICONTROL 앱 열기]** 옵션을 선택합니다. 알림과 연결된 앱이 [채널 구성](../configuration/channel-surfaces.md)(예: 메시지 사전 설정)에 정의되어 있습니다.
 * 사용자를 앱 내의 특정 콘텐츠로 리디렉션하려면 **[!UICONTROL 딥링크]** 옵션을 선택하십시오.  특정 콘텐츠는 특정 보기, 페이지의 특정 섹션 또는 특정 탭일 수 있습니다. 옵션을 선택한 후 관련 필드에 딥 링크를 입력합니다.
 * 사용자를 외부 URL로 리디렉션하려면 **[!UICONTROL 웹 URL]** 옵션을 사용하십시오. 옵션을 선택한 다음 관련 필드에 URL을 입력합니다.
 

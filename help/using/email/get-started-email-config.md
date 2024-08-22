@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: 이메일, 구성, 표면, 하위 도메인
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: bd5e5e501d557e11fb0c1c71a0f9289f39601348
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 100%
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. 채널 표면을 만들고 **[!UICONTROL 이메일]** 채널을 선택합니다. [자세히 알아보기](../configuration/channel-surfaces.md)
+1. 채널 구성을 만들고 **[!UICONTROL 전자 메일]** 채널을 선택합니다. [자세히 알아보기](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. 각 이메일 채널 표면에서 이메일을 게재하는 데 필요한 기술 매개 변수를 모두 구성합니다. [자세히 알아보기](email-settings.md)
+1. 각 이메일 채널 구성에서 이메일을 게재하는 데 필요한 모든 기술 매개 변수를 구성합니다. [자세히 알아보기](email-settings.md)
 
-   * 이때 이메일을 보내는 데 사용할 하위 도메인과, 표면에 연결할 IP 풀을 선택합니다. [자세히 알아보기](email-settings.md#subdomains-and-ip-pools)
+   * 여기에서 구성과 연결할 이메일 및 IP 풀을 전송하는 데 사용할 하위 도메인을 선택합니다. [자세히 알아보기](email-settings.md#subdomains-and-ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

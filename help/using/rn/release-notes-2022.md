@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '3598'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -181,7 +181,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 사용자는 이제 여정이 예상대로 작동하지 않을 때 사용자 인터페이스를 통해 시스템 경고에 액세스하여 알림을 받을 수 있습니다. 사용 가능한 경고를 보고 구독할 수 있습니다. 이 릴리스 후에 대상자 읽기 활동이 정의된 시간대 내에 프로필을 처리하지 않은 경우 첫 번째 경고가 표시됩니다. 이 워크플로우의 잠금이 해제되어 더 많은 작업이 제공됩니다.</p>
+<p>Journey Optimizer 사용자는 이제 여정이 예상대로 작동하지 않을 때 사용자 인터페이스를 통해 시스템 경고에 액세스하여 알림을 받을 수 있습니다. 사용 가능한 경고를 보고 구독할 수 있습니다. 이 릴리스 후에 대상자 읽기 활동이 정의된 시간대 내에 프로필을 처리하지 않은 경우 첫 번째 경고가 표시됩니다. 이 워크플로의 잠금이 해제되어 더 많은 작업이 제공됩니다.</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -217,8 +217,8 @@ ht-degree: 100%
 **관리**
 
 * 허용 목록을 활성화하거나 비활성화할 때 이제 각 작업의 영향을 자세히 설명하는 새로운 경고가 표시됩니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
-* 채널 표면 생성, IP 풀 생성, 금지 목록 및 허용 목록 관리 및 SMS 채널 구성을 위한 사용자 인터페이스가 업데이트되었습니다.
-* 이제 주어진 하위 도메인에 대한 첫 번째 채널 표면을 생성할 때 처리 시간은 10분에서 10일정도 소요되며, 해당 하위 도메인을 사용하는 후속 표면에 대해 최대 3시간만 소요됩니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
+* 채널 구성 만들기, IP 풀 만들기, 제외 목록 및 허용 목록 관리 및 SMS 채널 구성을 위한 사용자 인터페이스가 업데이트되었습니다.
+* 이제 주어진 하위 도메인에 대한 첫 번째 채널 구성을 만들 때 처리 시간은 10분에서 10일정도 소요되며, 해당 하위 도메인을 사용하는 후속 표면에 대해 최대 3시간만 소요됩니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
 * 랜딩 페이지 사전 설정 및 랜딩 페이지 하위 도메인을 만들기 위한 사용자 인터페이스가 업데이트되었습니다. [자세히 보기](../landing-pages/lp-subdomains.md)
 
 **감사 제어**
@@ -328,7 +328,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer는 여정에서 메시지를 작성할 수 있는 새로운 흐름을 제공합니다. 인라인 메시징을 사용하면 사용자가 상당한 시간을 절약하고 Journey Optimizer에서 이메일, 푸시 알림 또는 SMS를 만들고 전달하는 워크플로우 프로세스를 간소화할 수 있습니다. 메시지를 별도의 단계로 제거하고 대신 여정 캔버스에서 작업의 일부로 편집할 수 있는 인라인으로 만들어 사용자는 버튼을 더 적게 클릭하고 화면을 더 적게 탐색하여 콘텐츠를 디자인하고 편집해야 합니다.</p>
+<p>Journey Optimizer는 여정에서 메시지를 작성할 수 있는 새로운 흐름을 제공합니다. 인라인 메시징을 사용하면 사용자가 상당한 시간을 절약하고 Journey Optimizer에서 이메일, 푸시 알림 또는 SMS를 만들고 전달하는 워크플로 프로세스를 간소화할 수 있습니다. 메시지를 별도의 단계로 제거하고 대신 여정 캔버스에서 작업의 일부로 편집할 수 있는 인라인으로 만들어 사용자는 버튼을 더 적게 클릭하고 화면을 더 적게 탐색하여 콘텐츠를 디자인하고 편집해야 합니다.</p>
 <img src="assets/do-not-localize/inline.gif"/>
 </td>
 </tr>
@@ -399,7 +399,7 @@ ht-degree: 100%
 
 **메시지**
 
-* 이제 메시지 사전 설정은 **채널 표면**&#x200B;입니다. [자세히 알아보기](../configuration/channel-surfaces.md)
+* 이제 메시지 사전 설정이 **채널 구성**&#x200B;입니다. [자세히 알아보기](../configuration/channel-surfaces.md)
 
 **관리**
 
@@ -678,7 +678,7 @@ ht-degree: 100%
 **의사 결정 관리**
 
 * 이제 오퍼 한도 설정이 모든 사용자 간에 적용되는지, 아니면 하나의 특정 프로필, 모든 배치 또는 배치마다 적용되는지를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
-* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 대상자 내 모든 프로필에 의사 결정 관리 기능을 사용할 수 있습니다. 대상자 내 각 프로필의 오퍼 콘텐츠가 AEP 데이터 세트에 배치되어 사용자 정의 일괄 처리 워크플로우에 사용할 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* Batch Decisioning API를 사용하면 한 번의 호출로 주어진 대상자 내 모든 프로필에 의사 결정 관리 기능을 사용할 수 있습니다. 대상자 내 각 프로필의 오퍼 콘텐츠가 AEP 데이터 세트에 배치되어 사용자 정의 일괄 처리 워크플로에 사용할 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **관리**
 

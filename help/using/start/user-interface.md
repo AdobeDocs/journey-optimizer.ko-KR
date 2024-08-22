@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 샌드박스]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. 이 섹션에서 샌드박스를 관리할 수 있습니다. [자세히 알아보기](../administration/sandboxes.md)
 
-* **[!UICONTROL 채널]** - 이 섹션에서 하위 도메인, 표면, 전달성 설정 등을 지정하여 채널을 구성할 수 있습니다. [자세히 알아보기](../configuration/get-started-configuration.md)
+* **[!UICONTROL 채널]** - 이 섹션을 사용하여 하위 도메인, 구성 및 게재 기능 설정을 포함한 채널을 구성하십시오. [자세히 알아보기](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL 태그]** - [통합 태그]를 사용하면 여정과 캠페인을 쉽게 분류하여 목록에서 보다 편하게 검색할 수 있습니다. [자세히 알아보기](../start/search-filter-categorize.md#work-with-unified-tags)
 

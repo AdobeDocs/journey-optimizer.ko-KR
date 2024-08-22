@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 10%
+source-wordcount: '1083'
+ht-degree: 9%
 
 ---
 
@@ -23,21 +23,21 @@ ht-degree: 10%
 
 캠페인을 통해 코드 기반 경험을 구축하려면 아래 단계를 따르십시오.
 
-1. 캠페인을 만듭니다. [자세히 알아보기](../campaigns/create-campaign.md)
+1. **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다. [자세히 알아보기](../campaigns/create-campaign.md)
+
+1. 실행할 캠페인 유형 선택
+
+   * **예약됨 - 마케팅**: 캠페인을 즉시 또는 지정한 날짜에 실행합니다. 예약된 캠페인은 마케팅 메시지 전송을 목적으로 합니다. 사용자 인터페이스에서 구성 및 실행됩니다.
+
+   * **API 트리거됨 - 마케팅/트랜잭션**: API 호출을 사용하여 캠페인을 실행하십시오. API 트리거 캠페인은 마케팅 또는 트랜잭션 메시지(예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 전송된 메시지)를 보내는 것을 목표로 합니다.
+
+1. 캠페인 속성, [대상자](../audience/about-audiences.md) 및 [일정](../campaigns/create-campaign.md#schedule)과 같은 캠페인을 만드는 단계를 완료합니다. 캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
 1. **[!UICONTROL 코드 기반 경험]** 작업을 선택하십시오.
 
-1. 코드 기반 경험 표면을 입력합니다. [자세히 알아보기](#surface-definition)
+1. 코드 기반 경험 구성을 선택하거나 만듭니다. [자세히 알아보기](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
-
-   >[!CAUTION]
-   >
-   >코드 기반 캠페인에 사용된 표면 URI가 자체 구현에 사용된 표면 URI와 일치하는지 확인합니다. 그렇지 않으면 변경 사항이 전달되지 않습니다.
-
-1. **[!UICONTROL 만들기]**&#x200B;를 선택합니다.
-
-1. 캠페인 속성, [대상자](../audience/about-audiences.md) 및 [일정](../campaigns/create-campaign.md#schedule)과 같은 캠페인을 만드는 단계를 완료합니다. 캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
 1. 개인화 편집기를 사용하여 원하는 대로 콘텐츠를 편집합니다. [자세히 알아보기](#edit-code)
 
@@ -82,7 +82,7 @@ ht-degree: 10%
 
 1. 변경 내용을 확인하려면 **[!UICONTROL 저장 후 닫기]**&#x200B;를 클릭하십시오.
 
-이제 개발자가 선택한 표면에 대한 콘텐츠를 가져오기 위해 API 또는 SDK를 호출하는 즉시 변경 사항이 웹 페이지 또는 앱에 적용됩니다.
+이제 개발자가 채널 구성에 정의된 표면에 대한 콘텐츠를 가져오기 위해 API 또는 SDK를 호출하는 즉시 변경 사항이 웹 페이지 또는 앱에 적용됩니다.
 
 ## 코드 기반 캠페인 테스트 {#test-code-based-campaign}
 
@@ -124,7 +124,7 @@ ht-degree: 10%
 
    ![](assets/code-based-campaign-review.png)
 
-1. 필요한 경우 콘텐츠, 속성, 표면, 대상자 및 일정을 확인하고 편집합니다.
+1. 필요한 경우 컨텐츠, 속성, 구성, 대상자 및 일정을 확인하고 편집합니다.
 
 1. **[!UICONTROL 활성화]**&#x200B;를 선택합니다.
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 31%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->새 캠페인을 만들기 전에 표면 채널(즉, 메시지 사전 설정)과 Adobe Experience Platform 대상을 사용할 준비가 되어 있는지 확인하십시오. 다음 섹션에서 자세히 알아보기:
+>새 캠페인을 만들기 전에 채널 구성(즉, 메시지 표면)과 Adobe Experience Platform 대상을 사용할 준비가 되어 있는지 확인하십시오. 다음 섹션에서 자세히 알아보기:
 >
->* [채널 표면 만들기](../configuration/channel-surfaces.md)
+>* [채널 구성 만들기](../configuration/channel-surfaces.md)
 >* [대상자 시작](../audience/about-audiences.md)
 
 새 캠페인을 만들려면 **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭하십시오. 기존 라이브 캠페인을 복제하여 새 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate)
@@ -81,11 +81,11 @@ ht-degree: 32%
 
 ## 메시지 만들기 및 추적 구성 {#content}
 
-1. **[!UICONTROL 작업]** 섹션에서 메시지를 보내는 데 사용할 채널과 표면을 선택합니다.
+1. **[!UICONTROL 작업]** 섹션에서 새 구성을 선택하거나 만듭니다.
 
-   표면은 [시스템 관리자](../start/path/administrator.md)에 의해 정의된 구성입니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md).
+   [시스템 관리자](../start/path/administrator.md)에 의해 구성이 정의되었습니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md).
 
-   마케팅 캠페인 유형과 호환되는 채널 표면만 드롭다운 목록에 나열됩니다.
+   마케팅 캠페인 유형과 호환되는 채널 구성만 드롭다운 목록에 나열됩니다.
 
    ![](assets/create-campaign-action.png)
 

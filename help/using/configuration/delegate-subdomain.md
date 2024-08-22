@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f24d638711c9fd755dad1553fcbfa82810eaaab6
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1820'
 ht-degree: 23%
 
 ---
@@ -57,7 +57,7 @@ Adobe을 사용하여 이메일 마케팅 전송 도메인에 대한 업계 표�
 
 새 하위 도메인을 Adobe에 완전히 위임하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 하위 도메인]** 메뉴에 액세스한 다음 **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL 하위 도메인]** 메뉴에 액세스한 다음 **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭하세요.
 
    ![](assets/subdomain-delegate.png)
 
@@ -137,7 +137,7 @@ CNAME 하위 도메인 설정을 사용하면 하위 도메인을 만들고 CNAM
 
 CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 하위 도메인]** 메뉴에 액세스한 다음 **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL 하위 도메인]** 메뉴에 액세스한 다음 **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭하세요.
 
 1. **[!UICONTROL CNAME 설정]** 메서드를 선택하십시오.
 

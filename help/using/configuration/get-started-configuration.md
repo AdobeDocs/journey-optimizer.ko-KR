@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 구성, 구성하기, 메시지, 채널, 샌드박스, optimizer
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 
    * **SMS** 채널의 경우 공급자 설정을 [!DNL Journey Optimizer]에 통합하는 등 SMS를 보내는 인스턴스를 구성해야 합니다. [자세히 알아보기](../sms/sms-configuration.md)
 
-1. 준비를 마친 다음에는 **채널 표면**&#x200B;을 만들어 메시지를 게재하는 데 필요한 기술 매개 변수를 모두 구성해야 합니다. [자세히 알아보기](channel-surfaces.md)
+1. 완료되면 메시지를 전달하는 데 필요한 모든 기술 매개 변수를 구성하려면 **채널 구성**&#x200B;을 만들어야 합니다. [자세히 알아보기](channel-surfaces.md)
 
 1. 다음 작업도 수행할 수 있습니다.
 

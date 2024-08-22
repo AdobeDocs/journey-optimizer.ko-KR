@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer]에 처음 액세스하면 프로덕션 샌드박스가 프로비저닝되고 계약에 따라 특정 수의 IP가 할당됩니다.
 
-여정을 만들고 메시지를 보내려면 **관리** 메뉴에 액세스합니다. **[!UICONTROL 채널]** 메뉴를 탐색하여 메시지와 채널 표면(예: 메시지 사전 설정)을 구성합니다.
+여정을 만들고 메시지를 보내려면 **관리** 메뉴에 액세스합니다. **[!UICONTROL 채널]** 메뉴를 탐색하여 메시지와 채널 구성(예: 메시지 사전 설정)을 구성하십시오.
 
 >[!NOTE]
 >**시스템 관리자**&#x200B;인데 [!DNL Journey Optimizer]의 **[!UICONTROL 채널]** 메뉴를 확인할 수 없는 경우 [Admin Console](https://adminconsole.adobe.com/){target="_blank"}에서 권한을 업데이트합니다. [이 페이지](../../administration/permissions.md#edit-product-profile)에서 제품 프로필을 업데이트하는 방법을 알아보세요.
@@ -50,11 +50,11 @@ ht-degree: 100%
 
 아래 단계를 따릅니다.
 
-1. **메시지 및 채널 구성**: 표면 정의, 이메일, SMS 및 푸시 메시지 설정 조정 및 사용자 정의
+1. **메시지 및 채널 구성**: 구성을 정의하고, 전자 메일, SMS 및 푸시 메시지 설정을 조정하고 사용자 지정합니다.
 
    * [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch] 모두에서 **푸시 알림 설정**&#x200B;을 정의합니다. [자세히 알아보기](../../push/push-gs.md)
 
-   * 이메일, SMS 및 푸시 알림에 필요한 모든 기술 매개 변수를 구성하려면 **채널 표면**(즉, 메시지 사전 설정)을 만듭니다. [자세히 알아보기](../../configuration/channel-surfaces.md)
+   * 이메일, SMS 및 푸시 알림에 필요한 모든 기술 매개 변수를 구성하려면 **채널 구성**(즉, 메시지 사전 설정)을 만듭니다. [자세히 알아보기](../../configuration/channel-surfaces.md)
 
    * SMS에 필요한 모든 기술 매개 변수를 구성하려면 **SMS 채널**&#x200B;을 구성합니다. [자세히 알아보기](../../sms/sms-configuration.md)
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2530'
 ht-degree: 11%
@@ -58,7 +58,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* **[!UICONTROL IP 준비 계획 활성화]** 옵션이 활성화된 캠페인만 선택할 수 있습니다. [자세히 알아보기](#create-ip-warmup-campaign)
    >
-   >* 선택한 IP 웜업 플랜과 동일한 표면을 사용하는 캠페인만 선택할 수 있습니다.
+   >* 선택한 IP 준비 계획과 동일한 구성을 사용하는 캠페인만 선택할 수 있습니다.
 
 1. 현재 단계에 대해 캠페인을 선택하면 프로필, 캠페인 대상자 및 도메인 그룹을 제외하는 섹션이 표시됩니다.
 

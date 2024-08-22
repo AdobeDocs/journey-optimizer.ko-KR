@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '3352'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -266,7 +266,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>Experience Decisioning은 '의사 결정 항목'으로 알려진 마케팅 의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.</p>
-<p>이러한 의사 결정 항목은 이제 Journey Optimizer 캠페인에서 액세스할 수 있는 새로운 코드 기반 경험 채널을 통해 광범위한 인바운드 표면에 원활하게 통합됩니다. 경험 결정 의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.</p>
+<p>이러한 의사 결정 항목은 이제 Journey Optimizer 캠페인 내에서 액세스할 수 있는 새로운 코드 기반 경험 채널을 통해 광범위한 인바운드 구성에 원활하게 통합됩니다. 경험 결정 의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.</p>
 <p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>자세한 내용은 <a href="../experience-decisioning/gs-experience-decisioning.md">세부 설명서</a>를 참조하십시오.</p>
@@ -278,14 +278,14 @@ ht-degree: 99%
 <table>
 <thead>
 <tr>
-<th><strong>이메일 표면 개인화 - 제한된 가용성</strong><br/></th>
+<th><strong>이메일 구성 개인화 - 제한된 가용성</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 이메일 채널 표면을 만들 때 동적 하위 도메인과 개인화된 헤더 매개 변수를 정의하여 이메일 설정을 더욱 유연하게 제어하고 있습니다.</p>
-<p>이메일 표면 개인화는 현재 조직 집합에만 사용할 수 있습니다(제한된 가용성). 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>이제 이메일 채널 구성을 만들 때 동적 하위 도메인 및 개인화된 헤더 매개 변수를 정의하여 이메일 설정을 보다 유연하게 제어하고 있습니다.</p>
+<p>이메일 구성 개인화는 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="../email/surface-personalization.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -468,7 +468,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 <tbody>
 <tr>
 <td>
-<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
+<p>You can now define dynamic subdomains and personalized header parameters when creating email channel configurations, for increased flexibility and control over your email settings.</p>
 </td>
 </tr>
 </tbody>
@@ -484,7 +484,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 
 <!--
-* **DULE for AJO Channel Surface**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel surface through marketing actions.
+* **DULE for AJO channel configuration**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel configuration through marketing actions.
 -->
 
 
@@ -494,9 +494,9 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 **구성**
 
-* 이제 채널 표면 수준에서 마케팅 작업을 선택할 수 있습니다. 표면에서 사용할 경우 고객의 환경 설정을 존중하기 위해 해당 마케팅 액션과 관련된 모든 동의 정책을 활용합니다. [자세히 보기](../action/consent.md#surface-marketing-actions)
-* 이제 채널 표면에 대해 객체 수준 액세스 제어를 사용할 수 있습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
-* 이제 채널 표면에서 목록 구독 취소를 활성화하면서 다른 모든 소스의 동의를 관리하는 방식에 맞게 동의 수준을 정의할 수 있습니다. [자세히 보기](../email/email-settings.md#list-unsubscribe)
+* 이제 채널 구성 수준에서 마케팅 작업을 선택할 수 있습니다. 구성에서 사용하는 경우 해당 마케팅 활동과 연관된 모든 동의 정책을 활용하여 고객의 선호도를 존중합니다. [자세히 보기](../action/consent.md#surface-marketing-actions)
+* 이제 채널 구성에 개체 수준 액세스 제어 를 사용할 수 있습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
+* 이제 채널 구성에서 목록 구독 취소를 활성화하면서 다른 모든 소스의 동의를 관리하는 방법에 맞게 동의 수준을 정의할 수 있습니다. [자세히 보기](../email/email-settings.md#list-unsubscribe)
 
 **콘텐츠 관리**
 

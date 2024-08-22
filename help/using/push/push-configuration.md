@@ -7,9 +7,9 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: c1dc3f3805bc0677a24466687026fac0d4990a5b
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1677'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    * **[!UICONTROL 앱 구성 관리]**
    * **[!UICONTROL 속성 관리]**
 
-   이러한 권한은 모바일 앱 개발자가 **Adobe Experience Platform 데이터 수집**&#x200B;에서 푸시 자격 증명을 설정하고 **Adobe Journey Optimizer**&#x200B;에서 푸시 알림 채널 표면(즉, 메시지 사전 설정)을 정의하는 데 필요합니다.
+   이러한 권한은 모바일 앱 개발자가 **Adobe Experience Platform 데이터 수집**&#x200B;에서 푸시 자격 증명을 설정하고 **Adobe Journey Optimizer**&#x200B;에서 푸시 알림 채널 구성(즉, 메시지 사전 설정)을 정의하는 데 필요합니다.
 
    ![](assets/push_product_5.png)
 
@@ -112,7 +112,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 앱 구성 {#configure-app}
 
-기술 설정에는 앱 개발자와 비즈니스 관리자 간의 긴밀한 협업이 포함됩니다. [!DNL Journey Optimizer]을(를) 사용하여 푸시 알림 전송을 시작하기 전에 [!DNL Adobe Experience Platform Data Collection]에서 설정을 정의하고 모바일 앱을 Adobe Experience Platform Mobile SDK와 통합해야 합니다.
+기술 설정에는 앱 개발자와 비즈니스 관리자 간의 긴밀한 협업이 포함됩니다. [!DNL Journey Optimizer]을(를) 사용하여 푸시 알림 전송을 시작하기 전에 푸시 자격 증명, Adobe Journey Optimizer의 푸시 채널 구성을 만들고 모바일 앱을 Adobe Experience Platform Mobile SDK와 통합해야 합니다.
 
 아래 링크에 자세히 설명된 구현 단계를 따르십시오.
 
@@ -126,29 +126,27 @@ Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모
 이 작업이 끝날 때까지 [!DNL Adobe Experience Platform Data Collection]에서 모바일 속성도 만들고 구성해야 합니다. 일반적으로 관리하려는 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}에서 모바일 속성을 만들고 구성하는 방법에 대해 알아봅니다.
 
 
-## 1단계: Adobe Experience Platform 데이터 수집에서 앱 푸시 자격 증명 추가 {#push-credentials-launch}
+## 1단계: Journey Optimizer에서 앱 푸시 자격 증명 추가 {#push-credentials-launch}
 
-올바른 사용자 권한을 부여한 후 이제 [!DNL Adobe Experience Platform Data Collection]에 모바일 응용 프로그램 푸시 자격 증명을 추가해야 합니다.
+올바른 사용자 권한을 부여한 후 이제 Journey Optimizer에서 모바일 애플리케이션 푸시 자격 증명을 추가해야 합니다.
 
 사용자를 대신하여 푸시 알림을 보낼 Adobe을 승인하려면 모바일 앱 푸시 자격 증명 등록이 필요합니다. 아래에 자세히 설명된 단계를 참조하십시오.
 
-1. [!DNL Adobe Experience Platform Data Collection]에서 왼쪽 패널의 **[!UICONTROL 앱 표면]** 탭을 선택합니다.
+1. **[!UICONTROL 채널]** > **[!UICONTROL 푸시 설정]** > **[!UICONTROL 푸시 자격 증명]** 메뉴에 액세스합니다.
 
-1. 새 구성을 만들려면 **[!UICONTROL 앱 표면 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 푸시 자격 증명 만들기]**&#x200B;를 클릭합니다.
 
-   ![](assets/add-app-config.png)
-
-1. 구성에 대한 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오.
-
-1. **[!UICONTROL 모바일 응용 프로그램 구성]**&#x200B;에서 운영 체제를 선택하십시오.
+1. **[!UICONTROL 플랫폼]** 드롭다운에서 운영 체제를 선택합니다.
 
    * **iOS용**
 
      ![](assets/add-app-config-ios.png)
 
-      1. **[!UICONTROL 앱 ID(iOS 번들 ID)]** 필드에 모바일 앱 **번들 ID**&#x200B;를 입력합니다. 앱 번들 ID는 **XCode**&#x200B;에 있는 기본 대상의 **일반** 탭에서 찾을 수 있습니다.
+      1. 모바일 앱 **[!UICONTROL 앱 ID]**&#x200B;를 입력하세요.
 
-      1. 자격 증명을 추가하려면 **[!UICONTROL 자격 증명 푸시]** 단추를 켭니다.
+      1. **[!UICONTROL 모든 샌드박스에 적용]** 옵션을 활성화하여 모든 샌드박스에서 푸시 자격 증명을 사용할 수 있도록 합니다. 특정 샌드박스에 동일한 플랫폼 및 앱 ID 쌍에 대한 자체 자격 증명이 있는 경우 해당 샌드박스별 자격 증명이 우선합니다.
+
+      1. 자격 증명을 추가하려면 **[!UICONTROL 푸시 자격 증명 수동 입력]** 단추를 켭니다.
 
       1. .p8 Apple 푸시 알림 인증 키 파일을 끌어서 놓습니다. 이 키는 **인증서**, **식별자** 및 **프로필** 페이지에서 가져올 수 있습니다.
 
@@ -160,14 +158,16 @@ Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모
 
      ![](assets/add-app-config-android.png)
 
-      1. **[!UICONTROL 앱 ID(Android 패키지 이름)]**&#x200B;를 제공하십시오. 일반적으로 패키지 이름은 `build.gradle` 파일의 앱 ID입니다.
+      1. **[!UICONTROL 앱 ID]**&#x200B;를 제공하십시오. 일반적으로 패키지 이름은 `build.gradle` 파일의 앱 ID입니다.
 
-      1. 자격 증명을 추가하려면 **[!UICONTROL 자격 증명 푸시]** 단추를 켭니다.
+      1. **[!UICONTROL 모든 샌드박스에 적용]** 옵션을 활성화하여 모든 샌드박스에서 푸시 자격 증명을 사용할 수 있도록 합니다. 특정 샌드박스에 동일한 플랫폼 및 앱 ID 쌍에 대한 자체 자격 증명이 있는 경우 해당 샌드박스별 자격 증명이 우선합니다.
+
+      1. 자격 증명을 추가하려면 **[!UICONTROL 푸시 자격 증명을 수동으로 입력]** 단추를 켭니다.
 
       1. FCM 푸시 자격 증명을 끌어서 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}를 참조하세요.
 
 
-1. 앱 구성을 만들려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 앱 구성을 만들려면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
 <!--
 ## Step 2: Set up a mobile property in Adobe Experience Platform Launch {#launch-property}
@@ -187,7 +187,38 @@ To get the SDKs needed for push notification to work you will need the following
 Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
-## 2단계: 모바일 속성에서 Adobe Journey Optimizer 확장 구성 {#configure-journey-optimizer-extension}
+## 2단계: 푸시할 채널 구성 만들기{#message-preset}
+
+푸시 자격 증명을 만든 후에는 **[!DNL Journey Optimizer]**&#x200B;에서 푸시 알림을 전송할 수 있는 구성을 만들어야 합니다.
+
+1. **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 채널 구성]** 메뉴에 액세스한 다음 **[!UICONTROL 채널 구성 만들기]**&#x200B;를 클릭하십시오.
+
+   ![](assets/push-config-9.png)
+
+1. 구성의 이름 및 설명(선택 사항)을 입력합니다.
+
+   >[!NOTE]
+   >
+   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-`자를 사용할 수도 있습니다.
+
+
+1. 구성에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택할 수 있습니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요](../administration/object-based-access.md).
+
+1. **푸시** 채널을 선택하십시오.
+
+   ![](assets/push-config-10.png)
+
+1. 이 구성을 사용하여 동의 정책을 메시지에 연결하려면 **[!UICONTROL 마케팅 액션]**&#x200B;을 선택하십시오. 마케팅 액션과 관련된 모든 동의 정책은 고객의 선호도를 존중하기 위해 활용됩니다. [자세히 알아보기](../action/consent.md#surface-marketing-actions)
+
+1. **[!UICONTROL 플랫폼]**&#x200B;을 선택하세요.
+
+1. 위에 구성된 [푸시 자격 증명](#push-credentials-launch)과 동일한 **[!UICONTROL 앱 ID]**&#x200B;을(를) 선택하십시오.
+
+1. 변경 내용을 저장합니다.
+
+이제 푸시 알림을 만들 때 구성을 선택할 수 있습니다.
+
+## 3단계: 모바일 속성에서 Adobe Journey Optimizer 확장 구성 {#configure-journey-optimizer-extension}
 
 Adobe Experience Platform Mobile SDK용 **Adobe Journey Optimizer 확장**&#x200B;은(는) 모바일 앱에 대한 푸시 알림을 실행하고 사용자 푸시 토큰을 수집하고 Adobe Experience Platform 서비스와의 상호 작용 측정을 관리하는 데 도움이 됩니다.
 
@@ -258,7 +289,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## 3단계: 이벤트로 모바일 앱 테스트 {#mobile-app-test}
+## 4단계: 이벤트로 모바일 앱 테스트 {#mobile-app-test}
 
 이제 Adobe Experience Platform과 [!DNL Adobe Experience Platform Data Collection]에서 모두 모바일 앱을 구성한 후 프로필로 푸시 알림을 보내기 전에 테스트할 수 있습니다. 이 사용 사례에서는 모바일 앱을 타깃팅하는 여정을 만들고 푸시 알림을 트리거하는 이벤트를 설정합니다.
 
@@ -354,13 +385,3 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 이벤트가 트리거되고 모바일 앱에 대한 푸시 알림을 받게 됩니다.
 
-## 4단계: 푸시할 채널 표면 만들기{#message-preset}
-
-모바일 앱을 [!DNL Adobe Experience Platform Data Collection]에서 설정한 후에는 **[!DNL Journey Optimizer]**&#x200B;에서 푸시 알림을 전송할 수 있는 표면을 만들어야 합니다.
-
-[이 섹션](../configuration/channel-surfaces.md)에서 채널 표면을 만들고 구성하는 방법에 대해 알아봅니다.
-
-이제 Journey Optimizer을 사용하여 푸시 알림을 전송할 준비가 되었습니다.
-
-* [이 페이지](create-push.md)에서 푸시 메시지를 만드는 방법을 알아봅니다.
-* [이 섹션](../building-journeys/journeys-message.md)에서 여정에 메시지를 추가하는 방법을 알아보세요.

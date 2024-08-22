@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1355'
 ht-degree: 12%
 
 ---
@@ -82,7 +82,7 @@ DMARC를 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 [!DNL Journey Optimizer]에서 위임한 모든 하위 도메인에 대해 DMARC 레코드를 설정하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 하위 도메인]** 메뉴에 액세스한 다음 **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL 하위 도메인]** 메뉴에 액세스한 다음 **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭하세요.
 
 1. 위임된 각 하위 도메인에 대해 **[!UICONTROL DMARC 레코드]** 열을 확인하십시오. 주어진 하위 도메인에 대한 레코드가 없으면 경고가 표시됩니다.
 

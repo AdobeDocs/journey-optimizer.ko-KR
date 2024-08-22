@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 10%
+source-wordcount: '1016'
+ht-degree: 9%
 
 ---
 
@@ -41,33 +41,37 @@ Adobe Journey Optimizer을 사용하여 텍스트(SMS) 및 멀티미디어(MMS) 
 
    ![](assets/sms_create_1.png)
 
-1. 메시지에 대한 기본 정보(레이블, 설명, 카테고리)를 입력한 다음 사용할 메시지 표면을 선택합니다.
+1. 메시지에 대한 기본 정보(레이블, 설명, 카테고리)를 입력한 다음 사용할 메시지 구성을 선택합니다.
 
    ![](assets/sms_create_2.png)
 
    여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
 
-   **[!UICONTROL 표면]** 필드는 기본적으로 미리 채워져 있으며 사용자가 해당 채널에 대해 마지막으로 사용한 표면입니다.
+   **[!UICONTROL 구성]** 필드는 기본적으로 미리 채워져 있으며 사용자가 해당 채널에 대해 마지막으로 사용한 구성입니다.
 
 이제 **[!UICONTROL 콘텐츠 편집]** 단추에서 SMS 메시지의 콘텐츠 디자인을 시작할 수 있습니다. 자세한 내용은 다음과 같습니다.
 
 >[!TAB 캠페인에 문자 메시지 추가]
 
-1. 새 예약된 캠페인 또는 API 트리거된 캠페인을 만들고, **[!UICONTROL SMS]**&#x200B;을(를) 작업으로 선택한 다음 사용할 **[!UICONTROL 앱 표면]**&#x200B;을(를) 선택하십시오. [이 페이지](sms-configuration.md)에서 SMS 구성에 대해 자세히 알아보세요.
+1. **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다.
 
-   ![](assets/sms_create_3.png)
+1. 실행할 캠페인 유형 선택
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+   * **예약됨 - 마케팅**: 캠페인을 즉시 또는 지정한 날짜에 실행합니다. 예약된 캠페인은 마케팅 메시지 전송을 목적으로 합니다. 사용자 인터페이스에서 구성 및 실행됩니다.
+
+   * **API 트리거됨 - 마케팅/트랜잭션**: API 호출을 사용하여 캠페인을 실행하십시오. API 트리거 캠페인은 마케팅 또는 트랜잭션 메시지(예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 전송된 메시지)를 보내는 것을 목표로 합니다.
 
 1. **[!UICONTROL 속성]** 섹션에서 Campaign의 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**&#x200B;을(를) 편집합니다.
-
-   ![](assets/sms_create_4.png)
 
 1. 사용 가능한 Adobe Experience Platform 대상 목록에서 타깃팅할 대상을 정의하려면 **[!UICONTROL 대상 선택]** 단추를 클릭하십시오. [자세히 알아보기](../audience/about-audiences.md).
 
 1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
-   ![](assets/sms_create_5.png)
+1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL SMS]**&#x200B;을(를) 선택하고 새 구성을 선택하거나 만드세요.
+
+   [이 페이지](sms-configuration.md)에서 SMS 구성에 대해 자세히 알아보세요.
+
+   ![](assets/sms_create_3.png)
 
 1. 콘텐츠 실험 구성을 시작하고 처리를 만들어 성능을 측정하고 대상 대상에 가장 적합한 옵션을 식별하려면 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하십시오. [자세히 알아보기](../content-management/content-experiment.md)
 
@@ -105,7 +109,7 @@ SMS 콘텐츠를 구성하려면 아래 단계를 따르십시오. MMS 설정에
 
 1. 콘텐츠를 정의한 후 추적된 URL을 메시지에 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL 도우미 함수]** 메뉴에 액세스하고 **[!UICONTROL 도우미]**&#x200B;를 선택하세요.
 
-   URL 단축 기능을 사용하려면 먼저 표면에 연결될 하위 도메인을 구성해야 합니다. [자세히 알아보기](sms-subdomains.md)
+   URL 단축 기능을 사용하려면 먼저 구성에 연결될 하위 도메인을 구성해야 합니다. [자세히 알아보기](sms-subdomains.md)
 
    >[!CAUTION]
    >

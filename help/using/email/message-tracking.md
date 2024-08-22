@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 35%
@@ -89,7 +89,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-management)가 포함되어야 합니다. 이는 트랜잭션 메시지에는 필요하지 않습니다. 메시지를 만들 때 [채널 표면](../configuration/channel-surfaces.md#email-type)에 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)가 정의되어 있습니다.
+>마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-management)가 포함되어야 합니다. 이는 트랜잭션 메시지에는 필요하지 않습니다. 메시지를 만들 때 [채널 구성](../configuration/channel-surfaces.md#email-type)에 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)가 정의되어 있습니다.
 
 ## 링크 조정 {#adjust-links}
 
@@ -164,7 +164,7 @@ ht-degree: 35%
 
 ## URL 추적 개인화 {#url-tracking}
 
-일반적으로 [URL 추적](email-settings.md#url-tracking)은(는) 표면 수준에서 관리되지만 프로필 특성은 지원되지 않습니다. 현재 전자 메일 디자이너에서 [URL을 개인 설정](../personalization/personalization-syntax.md#perso-urls)하는 방법만 있습니다.
+일반적으로 [URL 추적](email-settings.md#url-tracking)은(는) 구성 수준에서 관리되지만 프로필 특성은 지원되지 않습니다. 현재 전자 메일 디자이너에서 [URL을 개인 설정](../personalization/personalization-syntax.md#perso-urls)하는 방법만 있습니다.
 
 개인화된 URL 추적 매개 변수를 링크에 추가하려면 아래 단계를 따르십시오.
 
