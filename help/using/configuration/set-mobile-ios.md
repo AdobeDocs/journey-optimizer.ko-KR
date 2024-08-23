@@ -10,9 +10,9 @@ level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1058'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="초기화 코드 추가"
->abstract="추가 예정"
+>abstract="앱을 제대로 초기화하려면 제공된 초기화 코드를 AppDelegate 파일의 **didFinishLaunchWithOptions** 메서드에 삽입하십시오. 이렇게 하면 앱이 시작되는 동안 적절한 시간에 실행되도록 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"

@@ -10,10 +10,10 @@ level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 4%
+source-wordcount: '1042'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="초기화 코드 추가"
->abstract="추가 예정"
+>abstract="초기화 코드를 응용 프로그램의 **onCreate()** 메서드에 통합합니다. 이 메서드는 애플리케이션이 처음 생성될 때 실행되어 코드가 초기 설정 단계 동안 실행됩니다. 여기에서 코드를 적절하게 배치하는 것은 후속 작업이 수행되기 전에 애플리케이션이 올바르게 구성되고 초기화되도록 하는 데 중요합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
@@ -206,10 +206,12 @@ ht-degree: 4%
 
 ## 인앱 채널 설정 {#inapp-channel}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="태그 속성 선택"
->abstract="추가 예정"
+>title="Choose your tag property"
+>abstract="TBC"
+-->
 
 인앱 채널을 사용하려면 추가 설정이 필요하지 않습니다. 구성이 정확한지 확인하기 위해 Assurance 기능을 사용하여 테스트 메시지를 쉽게 보낼 수 있습니다. 이렇게 하면 인앱 메시지를 효과적으로 전달할 수 있는 시스템의 준비 상태에 대한 즉각적인 피드백을 제공합니다.
 
@@ -229,7 +231,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="Xcode에서 애플리케이션 실행"
->abstract="추가 예정"
+>abstract="푸시 토큰을 얻으려면 먼저 Xcode를 사용하여 애플리케이션을 시작합니다. 응용 프로그램이 시작된 후 응용 프로그램을 다시 시작하여 유효성 검사 프로세스가 완료되었는지 확인합니다. 그러면 Adobe이 유효성 검사 결과의 일부로 푸시 토큰을 제공합니다. 이 토큰은 푸시 알림을 활성화하는 데 필수적이며 설정의 유효성을 검사하면 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"

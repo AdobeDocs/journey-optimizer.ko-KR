@@ -10,10 +10,10 @@ level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 5%
+source-wordcount: '523'
+ht-degree: 3%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Javascript 코드"
->abstract="추가 예정"
+>abstract="`<head>` 태그에는 웹 페이지의 기본 콘텐츠 앞에 로드되는 필수 메타데이터와 리소스가 포함되어 있습니다. 이 섹션에 코드를 삽입하면 조기에 제대로 초기화되고 실행되므로 웹 페이지를 효율적으로 로드하고 사용할 수 있습니다. `<head>` 섹션에 코드를 추가하면 사이트의 구조, 성능 및 전반적인 사용자 경험을 향상시킬 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
 >title="사이트 시작 및 유효성 검사"
->abstract="추가 예정"
+>abstract="코드가 성공적으로 구현되고 웹 사이트에서 라이브가 되면 기본 URL을 제공합니다. 필요한 경우 나중에 이 페이지로 돌아와 설정이 예상대로 작동하는지 다시 확인하고 확인할 수 있습니다."
 
 이 설정을 사용하면 마케팅 채널을 신속하게 구성할 수 있으므로 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 쉽게 사용할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정 생성을 즉시 시작할 수 있습니다.
 
