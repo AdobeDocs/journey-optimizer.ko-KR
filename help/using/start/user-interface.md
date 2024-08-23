@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 99%
+source-wordcount: '1266'
+ht-degree: 98%
 
 ---
 
@@ -194,111 +194,3 @@ ht-degree: 99%
 * 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
   ![](assets/select-language.png)
 
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_name"
->title="모바일 및 웹 구성 이름"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_add"
->title="종속성 추가"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_initialization_code"
->title="초기화 코드 추가"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_validate_assurance"
->title="Assurance를 사용한 유효성 검사"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_code"
->title="Javascript 코드"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_site"
->title="사이트 시작 및 유효성 검사"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token"
->title="디바이스 토큰 가져오기"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_xcode"
->title="Xcode에서 애플리케이션 실행"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_certificate"
->title="푸시 인증서 입력"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_key_id"
->title="키 ID"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_team_id"
->title="팀 ID"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_inapp_tag_property"
->title="태그 속성 선택"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_push_certificate_fcm"
->title="푸시 인증서 입력"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_add"
->title="종속성 추가"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_import"
->title="종속성 가져오기"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_import"
->title="종속성 가져오기"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_initialization_code"
->title="초기화 코드 추가"
->abstract="추가 예정"
-
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token_android"
->title="디바이스 토큰 가져오기"
->abstract="추가 예정"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_android_studio"
->title="Android Studio에서 애플리케이션 실행"
->abstract="추가 예정"
-
-<!-- priority scores-->
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="우선 순위"
->abstract="캠페인에 0~00 사이의 우선 순위 점수를 할당합니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 두 캠페인이 동일한 표면을 사용하면 Journey Optimizer에서 우선 순위 점수가 가장 높은 캠페인을 선택합니다. 캠페인의 점수가 동일한 경우, 가장 최근에 수정한 캠페인을 선택합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="우선 순위"
->abstract="여정에 0~100 사이의 우선 순위 점수를 할당합니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 두 여정이 동일한 표면을 사용하면 Journey Optimizer에서 우선 순위 점수가 가장 높은 여정을 선택합니다. 여정의 점수가 동일한 경우, 가장 최근에 수정한 여정을 선택합니다."

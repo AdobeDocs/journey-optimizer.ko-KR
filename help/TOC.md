@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 96%
+source-wordcount: '1972'
+ht-degree: 95%
 
 ---
 
@@ -582,6 +582,11 @@ ht-degree: 96%
 + 구성 {#configuration}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
    + [채널 구성 설정](using/configuration/channel-surfaces.md)
+   + 가이드 채널 설정 {#guided-setup}
+      + [가이드 채널 설정 시작](using/configuration/set-mobile-config.md)
+      + [Android 모바일 채널 설정](using/configuration/set-mobile-android.md)
+      + [iOS 모바일 채널 설정](using/configuration/set-mobile-ios.md)
+      + [웹 채널 설정](using/configuration/set-mobile-web.md)
    + 이메일 하위 도메인 위임 {#delegate-subdomains}
       + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
       + [하위 도메인 위임](using/configuration/delegate-subdomain.md)

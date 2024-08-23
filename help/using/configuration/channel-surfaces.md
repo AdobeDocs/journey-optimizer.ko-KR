@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1721'
 ht-degree: 2%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 2%
 > * 채널 구성을 만들기 전에 [이메일 구성](../email/get-started-email-config.md), [푸시 구성](../push/push-configuration.md), [SMS 구성](../sms/sms-configuration.md), [인앱 구성](../in-app/inapp-configuration.md), [코드 기반 구성](../code-based/code-based-configuration.md), [웹 구성](../web/web-configuration.md) 및 [DM 구성](../direct-mail/direct-mail-configuration.md) 단계를 수행해야 합니다.
 
 채널 구성이 구성되면 여정 또는 캠페인에서 메시지를 만들 때 선택할 수 있습니다.
+
+가이드 채널 설정을 사용하여 통합 환경에서 채널 설정을 자동화하고 유효성을 검사하여 Journey Optimizer 시작 프로세스 속도를 높일 수도 있습니다. [자세히 알아보기](set-mobile-config.md)
 
 <!--
 ➡️ [Learn how to create and use email configurations in this video](#video-presets)
