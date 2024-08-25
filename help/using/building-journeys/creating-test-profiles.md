@@ -12,7 +12,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1328'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -181,7 +181,7 @@ Adobe Experience Platform에서는 다른 프로필 필드가 포함된 csv 파�
 
 ## API 호출을 사용하여 테스트 프로필 만들기{#create-test-profiles-api}
 
-API 호출을 통해 테스트 프로필을 만들 수도 있습니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}를 참조하세요.
+API 호출을 통해 테스트 프로필을 만들 수도 있습니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}를 참조하십시오.
 
 &quot;프로필 테스트 세부 정보&quot; 필드 그룹을 포함하는 프로필 스키마를 사용해야 합니다. testProfile 플래그는 이 필드 그룹의 일부입니다.
 프로필을 만들 때 다음 값을 전달하십시오. testProfile = true.

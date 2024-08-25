@@ -5,15 +5,15 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
+exl-id: 832b0bfa-ec74-4b1d-ad85-d4e4ea2f8863
+source-git-commit: c7ecfdbc9c97c49c77f3c4fb8bcb1656e04819a8
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-
-# 의료 서비스 플랜 처방 전자 메일 {#plan-prescription}
+# 건강 계획 처방 이메일 {#plan-prescription}
 
 프로필에는 상태 플랜이 포함되어 있으며 각 플랜에는 처방이 포함됩니다. 처방에는 &quot;준비됨&quot;, &quot;회수&quot; 또는 &quot;수거&quot;와 같이 다양한 상태가 있습니다.
 

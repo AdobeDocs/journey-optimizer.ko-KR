@@ -20,7 +20,7 @@ ht-degree: 7%
 
 ## [!DNL Experience Manager Assets] 시작 {#get-started-assets}
 
-**[!DNL Adobe Experience Manager Assets]** 통합은 마케팅 워크플로우와 크리에이티브 워크플로우를 결합해 줍니다. 기본적으로 **[!DNL Adobe Journey Optimizer]**&#x200B;과(와) 통합되어 디지털 자산을 저장, 관리, 검색 및 배포하려면 **[!DNL Assets Essentials]** 또는 **[!DNL Assets as a Cloud Service]**&#x200B;에 액세스하십시오. 이 통합은 메시지의 내용을 채우는 데 사용할 수 있는 단일 중앙 집중식 자산 저장소 역할을 합니다.
+**[!DNL Adobe Experience Manager Assets]** 통합은 마케팅 워크플로와 크리에이티브 워크플로를 결합해 줍니다. 기본적으로 **[!DNL Adobe Journey Optimizer]**&#x200B;과(와) 통합되어 디지털 자산을 저장, 관리, 검색 및 배포하려면 **[!DNL Assets Essentials]** 또는 **[!DNL Assets as a Cloud Service]**&#x200B;에 액세스하십시오. 이 통합은 메시지의 내용을 채우는 데 사용할 수 있는 단일 중앙 집중식 자산 저장소 역할을 합니다.
 
 **[!DNL Adobe Experience Manager Assets]**&#x200B;은(는) 크리에이티브 시스템을 확장하고 경험 전달을 위해 디지털 에셋을 통합하는 두 개의 공동 작업 및 중앙 집중식 에셋 작업 공간을 제공합니다.
 

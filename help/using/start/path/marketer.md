@@ -22,13 +22,13 @@ ht-degree: 100%
 
 1. **대상자 만들기**. Journey Optimizer의 **대상자** 메뉴에서 직접 대상자 정의를 통해 대상자를 만들어 여정에 활용할 수 있습니다.  [이 페이지에서](../../audience/about-audiences.md) 대상자에 대해 자세히 알아보세요. [이 샘플에서](../../audience/creating-a-segment-definition.md) 세그먼트 정의를 만드는 방법을 살펴보세요.
 
-1. **개인화 및 다이내믹 콘텐츠 추가**. Journey Optimizer 개인화 및 다이내믹 콘텐츠 기능을 활용하여 메시지를 대상에 맞게 조정하십시오. [개인화](../../personalization/personalize.md) 및 [다이내믹 콘텐츠](../../personalization/get-started-dynamic-content.md)에 대해 자세히 알아보십시오.
+1. **개인화 및 다이내믹 콘텐츠 추가**. Journey Optimizer 개인화 및 다이내믹 콘텐츠 기능을 활용하여 메시지를 대상자에 맞게 조정하십시오. [개인화](../../personalization/personalize.md) 및 [다이내믹 콘텐츠](../../personalization/get-started-dynamic-content.md)에 대해 자세히 알아보십시오.
 
    ![](../assets/perso_ee2.png)
 
 1. **자산 만들고 관리하기**. [!DNL Adobe Experience Manager Assets]은(는) 메시지를 채우는 데 사용할 수 있는 자산의 단일 중앙 집중식 저장소입니다. 자세한 내용은 [이 섹션](../../content-management/assets.md)을 참조하세요.
 
-1. **오퍼 추가**. [!DNL Journey Optimizer]을(를) 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 오퍼 및 경험을 제공하십시오. 디자인한 후에는 개인화된 오퍼를 통해 대상을 타기팅하십시오. Decisioning 관리에 대한 자세한 내용은 [이 섹션](../../offers/get-started/starting-offer-decisioning.md)을 참조하세요.
+1. **오퍼 추가**. [!DNL Journey Optimizer]을(를) 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 오퍼 및 경험을 제공하십시오. 디자인한 후에는 개인화된 오퍼를 통해 대상자를 타기팅하십시오. Decisioning 관리에 대한 자세한 내용은 [이 섹션](../../offers/get-started/starting-offer-decisioning.md)을 참조하세요.
 
    ![](../assets/offers-e2e-offers-displayed.png)
 

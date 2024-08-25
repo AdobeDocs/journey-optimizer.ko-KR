@@ -20,7 +20,7 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
->title="사용자 정의 작업"
+>title="사용자 정의 액션"
 >abstract="Adobe Campaign v7 또는 v8이 있는 경우 통합을 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다."
 
 Adobe Campaign v7 또는 v8이 있는 경우 통합을 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.

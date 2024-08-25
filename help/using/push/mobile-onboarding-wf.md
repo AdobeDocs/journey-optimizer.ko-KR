@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 모바일 온보딩 빠른 시작 워크플로우
+title: 모바일 온보딩 빠른 시작 워크플로
 description: 모바일 온보딩 빠른 시작 워크플로우를 사용하는 방법을 알아봅니다
 topic: Mobile
 feature: Push
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 ---
 
-# 모바일 온보딩 빠른 시작 워크플로우 {#mobile-wf}
+# 모바일 온보딩 빠른 시작 워크플로 {#mobile-wf}
 
 새로운 **모바일 온보딩 빠른 시작 워크플로**&#x200B;는 Adobe Experience Platform Mobile SDK를 빠르게 구성하고, 모바일 이벤트 데이터의 수집 및 유효성 검사를 시작하고, [!DNL Journey Optimizer]을(를) 사용하여 푸시 알림을 전송하는 새로운 제품 기능입니다.
 

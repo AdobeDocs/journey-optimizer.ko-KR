@@ -42,7 +42,7 @@ Journey Optimizer에서 여정을 만든 후 Customer Journey Analytics는 플�
 
 ## Adobe Experience Manager Assets {#integration-assets}
 
-[!DNL Adobe Experience Manager Assets] 통합은 마케팅 워크플로우와 크리에이티브 워크플로우를 결합해 줍니다. [!DNL Adobe Journey Optimizer]에 기본적으로 통합된 [!DNL Adobe Experience Manager Assets]에 액세스하여 디지털 자산을 저장하고 관리하고 찾아내며 배포할 수 있습니다. 이 통합은 메시지의 내용을 채우는 데 사용할 수 있는 단일 중앙 집중식 자산 저장소 역할을 합니다.
+[!DNL Adobe Experience Manager Assets] 통합은 마케팅 워크플로와 크리에이티브 워크플로를 결합해 줍니다. [!DNL Adobe Journey Optimizer]에 기본적으로 통합된 [!DNL Adobe Experience Manager Assets]에 액세스하여 디지털 자산을 저장하고 관리하고 찾아내며 배포할 수 있습니다. 이 통합은 메시지의 내용을 채우는 데 사용할 수 있는 단일 중앙 집중식 자산 저장소 역할을 합니다.
 
 [!DNL Adobe Journey Optimizer]에서 왼쪽 메뉴의 **[!UICONTROL Assets]** 섹션을 통해 [!DNL Adobe Experience Manager Assets]에 바로 액세스할 수 있습니다.
 

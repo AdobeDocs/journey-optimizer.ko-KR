@@ -20,7 +20,7 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
->title="사용자 정의 작업"
+>title="사용자 정의 액션"
 >abstract="Adobe Campaign Standard가 있는 경우 통합 기능을 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다."
 
 Adobe Campaign Standard이 있는 경우 다음과 같은 기본 제공 작업 활동을 사용할 수 있습니다. **[!UICONTROL 이메일]**, **[!UICONTROL 푸시]** 및 **[!UICONTROL SMS]**.

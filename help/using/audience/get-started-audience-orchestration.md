@@ -48,13 +48,13 @@ ht-degree: 59%
 
 * **[!UICONTROL 찾아보기]** 탭에는 Adobe Experience Platform에 저장된 기존 대상자의 전체 목록이 있습니다.
 
-* **[!UICONTROL 컴포지션]** 탭에서는 구성 워크플로우를 만들 수 있습니다. 만든 워크플로우로 대상자를 결합하고 배열하여 새로운 대상자를 만들 수 있습니다.
+* **[!UICONTROL 컴포지션]** 탭에서는 구성 워크플로를 만들 수 있습니다. 만든 워크플로로 대상자를 결합하고 배열하여 새로운 대상자를 만들 수 있습니다.
 
 각 카드를 클릭하여 대상자 구성 작업 방법을 알아보십시오.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="create-compositions.md"><img alt="컴포지션 워크플로우 만들기" src="../assets/do-not-localize/ao-workflows.jpg"></a>
-<div><a href="create-compositions.md"><strong>컴포지션 워크플로우 처음 만들기</strong></a></div></td>
+<td><a href="create-compositions.md"><img alt="컴포지션 워크플로 만들기" src="../assets/do-not-localize/ao-workflows.jpg"></a>
+<div><a href="create-compositions.md"><strong>컴포지션 워크플로 처음 만들기</strong></a></div></td>
 <td><a href="composition-canvas.md"><img alt="컴포지션 캔버스 작업" src="../assets/do-not-localize/ao-canvas.jpg"></a>
 <div><a href="composition-canvas.md"><strong>컴포지션 캔버스 작업</strong></a></div></td>
 <td><a href="access-audiences.md"><img alt="대상자 액세스 및 관리" src="../assets/do-not-localize/ao-audiences.jpeg"></a>

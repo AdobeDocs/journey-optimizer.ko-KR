@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 컴포지션 워크플로우 처음 만들기
+title: 컴포지션 워크플로 처음 만들기
 description: 기존 대상자를 결합하고 정렬하는 작성 워크플로우를 만드는 방법을 알아봅니다.
 feature: Audiences, Profiles
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
-# 컴포지션 워크플로우 처음 만들기 {#create-compositions}
+# 컴포지션 워크플로 처음 만들기 {#create-compositions}
 
 >[!BEGINSHADEBOX]
 
@@ -76,7 +76,7 @@ ht-degree: 15%
 
 **[!UICONTROL 구성]** 탭에서 만든 모든 구성에 액세스할 수 있습니다. 목록의 줄임표 버튼을 사용하여 언제든지 기존 컴포지션을 복제하거나 삭제할 수 있습니다.
 
-구성은 다음과 같은 여러 상태를 가질 수 있습니다.
+구성에는 여러 가지 상태가 있을 수 있습니다.
 
 * **[!UICONTROL 초안]**: 작성이 진행 중이고 게시되지 않았습니다.
 * **[!UICONTROL 게시됨]**: 컴포지션이 게시되어 결과 대상이 저장되었으며 사용할 수 있습니다.
