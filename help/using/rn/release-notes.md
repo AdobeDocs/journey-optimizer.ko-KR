@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 56%
+ht-degree: 62%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 56%
 <table>
 <thead>
 <tr>
-<th><strong>Marketo Engage 사용자 지정 작업</strong><br/></th>
+<th><strong>Marketo Engage 사용자 정의 작업</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -152,7 +152,7 @@ ht-degree: 56%
 
 ### 개선 사항 {#8-improvements}
 
-이번 릴리스에서는 아래 나열된 개선 사항이 제공됩니다.
+이번 릴리스에는 아래 목록에 있는 개선 사항이 제공됩니다.
 
 **여정**
 

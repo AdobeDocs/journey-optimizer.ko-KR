@@ -10,8 +10,8 @@ hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 61%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 61%
 <tbody>
 <tr>
 <td>
-<p>이제 조각은 <a href="../personalization/use-expression-fragments.md">식 조각</a> 및 <a href="../email/use-visual-fragments.md">시각적 조각</a>에서 모두 입력 변수를 사용할 수 있습니다. 이러한 변수를 사용하여 캠페인 및 여정에서 메시지 콘텐츠 및 매개 변수를 개인화할 수 있습니다.</p>
+<p>이제 조각은 <a href="../personalization/use-expression-fragments.md">표현식 조각</a> 및 <a href="../email/use-visual-fragments.md">시각적 조각</a> 모두에서 입력 변수를 사용할 수 있습니다. 이러한 변수를 사용하여 캠페인 및 여정에서 메시지 콘텐츠 및 매개 변수를 개인화할 수 있습니다.</p>
 </p>
 </td>
 </tr>
@@ -85,13 +85,13 @@ ht-degree: 61%
 **여정**
 
 * 이제 **조건** 활동에서 시간 조건은 기본적으로 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
-* 이제 여정을 작성할 때 캠페인 경고에 맞게 정렬하고 일관된 사용자 경험을 제공하기 위해 경고가 드롭다운 목록에 표시됩니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 이제 여정을 설정할 때 경고가 드롭다운 목록에 표시되어 캠페인 경고와 일치하고 일관된 사용자 경험을 제공합니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 100%로 쉽게 재설정할 수 있습니다.
 
 **대상자**
 
 * 이제 사용자 정의 업로드(CSV 파일)에서 가져온 대상자를 Privacy 및 Security Shield에도 사용할 수 있습니다.
-* 이제 사용자 지정 업로드(CSV 파일) 대상을 타기팅할 때 캠페인 및 여정에 있는 파일의 속성을 사용할 수 있습니다. 이러한 속성은 개인화 편집기에서 메시지를 개인화하는 데 사용할 수 있으며 여정 고급 표현식 편집기에서 사용할 수 있습니다.
+* 이제 사용자 지정 업로드(CSV 파일) 대상자를 타기팅할 때 캠페인 및 여정에 있는 파일의 속성을 사용할 수 있습니다. 이러한 속성은 개인화 편집기에서 메시지를 개인화하는 데 사용할 수 있으며 여정 고급 표현식 편집기에서 사용할 수 있습니다.
 
 
 <!--

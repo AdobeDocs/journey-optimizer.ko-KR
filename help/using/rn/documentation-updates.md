@@ -22,7 +22,7 @@ ht-degree: 99%
 ## 2024년 8월 {#aug-2024}
 
 * 의사 결정 관리에 대한 성능 보호 기능이 Edge 세분화를 사용하거나 사용하지 않는 의사 결정 API 게재 처리량을 언급하도록 업데이트되었습니다. [자세히 보기](../start/guardrails.md#decision-management)
-* 여정 보호 기능이 업데이트되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
+* 여정 보호가 업데이트되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## 2024년 7월 {#july-2024}

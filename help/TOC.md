@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
 source-wordcount: '1972'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -545,7 +545,7 @@ ht-degree: 95%
             + [결정 항목 만들기](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [결정 항목 목록](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
             + [결정 항목 삭제](using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [의사 결정 항목 조회](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [결정 항목 조회](using/experience-decisioning/api-reference/decisions-items/lookup.md)
             + [결정 항목 업데이트](using/experience-decisioning/api-reference/decisions-items/update.md)
          + 항목 컬렉션{#items-collections}
             + [항목 컬렉션 만들기](using/experience-decisioning/api-reference/items-collections/create.md)
@@ -556,7 +556,7 @@ ht-degree: 95%
          + 선택 전략{#selection-strategies}
             + [선택 전략 만들기](using/experience-decisioning/api-reference/selection-strategies/create.md)
             + [선택 전략 삭제](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [조회 선택 전략](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [선택 전략 조회](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
             + [선택 전략 목록](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
             + [선택 전략 업데이트](using/experience-decisioning/api-reference/selection-strategies/update.md)
       + 결정 항목 관리 {#decision-items}
