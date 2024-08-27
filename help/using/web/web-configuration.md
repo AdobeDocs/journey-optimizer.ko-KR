@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
 >title="페이지 일치 규칙"
->abstract="동일한 기준을 공유하는 URL 그룹을 효율적으로 관리하고 타깃팅하려면 페이지 일치 규칙을 만듭니다. 이 규칙을 사용하면 여러 URL을 하나의 지침에 따라 통합할 수 있으므로 이러한 페이지에서 일관된 설정 및 작업의 적용을 단순화합니다."
+>abstract="동일한 기준을 공유하는 URL 그룹을 효율적으로 관리하고 타겟팅하려면 페이지 일치 규칙을 만드십시오. 이 규칙을 사용하면 여러 URL을 하나의 가이드라인으로 통합하여 이러한 페이지 전체에서 쉽게 일관된 설정과 액션을 적용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
 >title="기본 작성 및 미리보기 URL"
->abstract="이 필드에서는 규칙을 통해 생성되거나 일치된 페이지에 콘텐츠를 효과적으로 만들고 미리 보는 데 필수적인 지정된 URL이 포함되도록 할 수 있습니다."
+>abstract="이 필드는 규칙에 의해 생성되거나 규칙과 일치하는 페이지에 지정된 URL이 있는지 확인하는 데 필요한데, 이는 콘텐츠를 효과적으로 만들고 미리 보는 데 필수적입니다."
 
 웹 구성은 콘텐츠가 전달될 URL로 식별되는 웹 속성입니다. 단일 페이지 URL 또는 여러 페이지를 일치시킬 수 있으므로 하나 또는 여러 웹 페이지에서 수정 사항을 전달할 수 있습니다.
 

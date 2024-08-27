@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 39%
+ht-degree: 55%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
 >title="앱 ID"
->abstract="앱의 운영 환경 내에서 정확한 식별 및 구성을 위해 앱 ID를 제공하여 원활한 통합과 기능을 보장합니다."
+>abstract="앱의 운영 환경 내에서 정확한 식별과 구성을 위해 앱 ID를 제공하여 원활한 통합과 기능을 보장합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
 >title="페이지에서의 위치"
->abstract="앱 필드 내의 위치 또는 경로는 사용자가 액세스하려는 앱 내의 정확한 대상을 지정합니다. 앱의 탐색 구조 내에 있는 특정 섹션이나 페이지일 수 있습니다."
+>abstract="앱 필드 내의 위치 또는 경로는 사용자가 앱 내에서 액세스하기를 원하는 정확한 대상을 지정합니다. 이는 앱의 탐색 구조 내 특정 섹션이나 페이지일 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="표면 URI"
->abstract="표면 URI는 애플리케이션 내의 개별 사용자 인터페이스 요소 또는 구성 요소로 이동하는 정확한 식별자 역할을 합니다."
+>abstract="표면 URI는 애플리케이션 내의 고유한 사용자 인터페이스 요소나 구성 요소를 가리키는 정확한 식별자 역할을 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
 >title="기본 작성 및 미리보기 URL"
->abstract="이 필드에서는 규칙을 통해 생성되거나 일치된 페이지에 콘텐츠를 효과적으로 만들고 미리 보는 데 필수적인 지정된 URL이 포함되도록 할 수 있습니다."
+>abstract="이 필드는 규칙에 의해 생성되거나 규칙과 일치하는 페이지에 지정된 URL이 있는지 확인하는 데 필요한데, 이는 콘텐츠를 효과적으로 만들고 미리 보는 데 필수적입니다."
 
 ## 채널 구성 만들기 {#reatte-code-based-configuration}
 
@@ -88,7 +88,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
 >title="코드 기반 경험 구성 정의"
->abstract="코드 기반 구성은 애플리케이션 구현의 URI로 고유하게 식별되는 애플리케이션 내에서, 콘텐츠가 전달되고 사용되는 경로와 위치를 정의합니다."
+>abstract="코드 기반 구성은 콘텐츠가 게재되고 사용되는 애플리케이션 내부의 경로와 위치를 정의하며 애플리케이션 구현의 URI로 고유하게 식별됩니다."
 
 **코드 기반 경험 표면**&#x200B;은(는) URI로 고유하게 식별되는 사용자 또는 시스템 상호 작용을 위해 디자인된 모든 엔터티입니다. 표면은 애플리케이션 구현에 지정되며, 코드 기반 경험 채널 구성에서 구성된 표면에 해당해야 합니다.
 

@@ -13,7 +13,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="개인화를 사용할 수 없음"
->abstract="이 구성은 개인화 속성 없이 만들어졌습니다. 개인화가 필요한 경우 해결 단계는 설명서를 참조하십시오."
+>abstract="이 구성은 개인화 속성 없이 생성되었습니다. 개인화가 필요한 경우 해결 단계는 설명서를 참조하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="동적 하위 도메인 활성화"
->abstract="이메일 구성을 만들 때 개인화 편집기를 사용하여 정의하는 조건에 따라 동적 하위 도메인을 설정할 수 있습니다. 최대 50개의 동적 하위 도메인을 추가할 수 있습니다."
+>abstract="이메일 구성을 생성할 때 개인화 편집기를 사용하여 정의한 조건을 기반으로 동적 하위 도메인을 설정할 수 있습니다. 최대 50개의 동적 하위 도메인을 추가할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"

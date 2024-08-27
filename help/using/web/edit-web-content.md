@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="편집할 URL 확인"
->abstract="위에서 정의한 웹 구성에 적용될 콘텐츠를 편집하는 데 사용할 특정 웹 페이지의 URL을 확인합니다. Adobe Experience Platform Web SDK를 사용하여 웹 페이지를 구현해야 합니다."
+>abstract="위에 정의된 웹 구성에 적용되는 콘텐츠 편집에 사용할 특정 웹 페이지의 URL을 확인합니다. Adobe Experience Platform Web SDK를 사용하여 웹 페이지를 구현해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="자세히 알아보기"
 
 >[!CONTEXTUALHELP]
@@ -152,7 +152,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="찾아보기 모드 사용"
->abstract="이 모드에서 개인화할 선택한 구성에서 정확한 페이지로 이동할 수 있습니다."
+>abstract="이 모드의 선택한 구성에서 개인화하려는 정확한 페이지로 이동할 수 있습니다."
 
 전용 단추를 사용하여 기본 **[!UICONTROL 디자인]** 모드에서 **[!UICONTROL 찾아보기]** 모드로 전환할 수 있습니다.
 

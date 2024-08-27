@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -167,8 +167,8 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="DM 설정 정의"
->abstract="DM 구성에는 타겟팅된 대상 데이터를 포함하고 메일 공급자가 사용할 파일의 형식 지정에 대한 설정이 포함되어 있습니다. 파일 라우팅 구성을 선택하여 파일을 내보낼 위치도 정의해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=ko#file-routing-configuration" text="파일 라우팅 구성"
+>abstract="DM 구성에는 타겟팅된 대상자 데이터가 있고 메일 공급자가 사용할 수 있는 파일 형식에 대한 설정이 포함됩니다. 파일 라우팅 구성을 선택하여 파일을 내보낼 위치도 정의해야 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="파일 라우팅 구성"
 
 <!--
 >[!CONTEXTUALHELP]

@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '747'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
 >title="웹 구성 정의"
->abstract="웹 구성은 단일 페이지 URL 또는 여러 페이지와 일치할 수 있으므로 하나 또는 여러 웹 페이지에서 콘텐츠 수정 사항을 전달할 수 있습니다."
+>abstract="웹 구성이 단일 페이지 URL 또는 여러 페이지와 일치하면 하나 또는 여러 웹 페이지에 콘텐츠 수정 내용을 전달할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"

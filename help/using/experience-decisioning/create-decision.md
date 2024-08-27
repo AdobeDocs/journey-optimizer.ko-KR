@@ -10,7 +10,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="반환할 항목 수 정의"
->abstract="반환하려는 결정 항목의 수를 선택합니다. 예를 들어 2를 선택하면 현재 구성에 가장 적합한 2개의 오퍼가 표시됩니다."
+>abstract="반환하려는 결정 항목의 수를 선택합니다. 예를 들어 항목 2개를 선택하면 현재 구성에 대한 적격 제안 2개가 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
