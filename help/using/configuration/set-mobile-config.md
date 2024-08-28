@@ -10,10 +10,10 @@ level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 8%
+source-wordcount: '261'
+ht-degree: 25%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Assurance를 사용한 유효성 검사"
->abstract="Assurance를 통해 모바일 앱의 데이터 수집 및 사용자 경험의 품질을 확인합니다. 이 도구는 철저한 분석, 검증 및 최적화를 제공합니다. 또한 앱을 직접 연결하여 정확한 SDK 통합을 확인할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance" text="Assurance 설명서 참조"
+>abstract="Adobe Experience Platform Assurance는 이 워크플로에 포함되어 있어 SDK 구현을 검사하고 애플리케이션 이벤트를 시뮬레이션하고 확인하는 데 도움이 됩니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 개요"
 
 
 이 설정을 사용하면 마케팅 채널을 신속하게 구성할 수 있으므로 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 쉽게 사용할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정 생성을 즉시 시작할 수 있습니다.

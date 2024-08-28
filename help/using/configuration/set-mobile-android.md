@@ -10,9 +10,9 @@ level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '934'
 ht-degree: 3%
 
 ---
@@ -29,34 +29,6 @@ ht-degree: 3%
 이 Android 설정은 마케팅 채널의 빠른 구성을 간소화하므로 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 앱 내에서 쉽게 액세스할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정 만들기를 신속하게 시작할 수 있습니다.
 
 ## 새 Android 설정 만들기 {#new-setup-android}
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_initialization_code"
->title="초기화 코드 추가"
->abstract="초기화 코드를 응용 프로그램의 **onCreate()** 메서드에 통합합니다. 이 메서드는 애플리케이션이 처음 생성될 때 실행되어 코드가 초기 설정 단계 동안 실행됩니다. 여기에서 코드를 적절하게 배치하는 것은 후속 작업이 수행되기 전에 애플리케이션이 올바르게 구성되고 초기화되도록 하는 데 중요합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_add"
->title="종속성 추가"
->abstract="앱의 Gradle 파일을 사용하여 프로젝트에 코어, 보증, Edge, Edge ID 및 메시징의 라이브러리를 추가해야 합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_import"
->title="종속성 가져오기"
->abstract="앱의 Application 클래스에서 Mobile Core, Assurance, Edge, Edge Identity 및 Messaging 패키지를 가져옵니다."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#import-extensions" text="데이터 수집 설명서 참조"
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token_android"
->title="Retrieve the device token"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_android_studio"
->title="Launch the application from Android Studio"
->abstract="TBC"
--->
 
 1. Journey Optimizer 홈페이지에서 **[!UICONTROL 모바일 및 웹 채널 설정]** 카드에서 **[!UICONTROL 시작]**&#x200B;을 클릭합니다.
 

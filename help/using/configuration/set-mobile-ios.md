@@ -10,10 +10,10 @@ level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 3%
+source-wordcount: '958'
+ht-degree: 2%
 
 ---
 
@@ -29,23 +29,6 @@ ht-degree: 3%
 이 iOS 설정은 마케팅 채널의 빠른 구성을 단순화하여 Experience Platform, Journey Optimizer 및 데이터 수집 앱에서 모든 필수 리소스를 쉽게 사용할 수 있도록 합니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정 만들기를 빠르게 시작할 수 있습니다.
 
 ## 새 iOS 설정 만들기 {#new-setup-ios}
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_add"
->title="종속성 추가"
->abstract="Xcode에서 앱의 데이터 수집 및 경험을 검사, 증명, 시뮬레이션 및 검증하기 위한 Assurance 패키지를 추가합니다. 또한 AEP Messaging을 추가하여 푸시 알림 토큰 및 클릭스루 피드백을 Adobe Experience Platform으로 전송합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#swift-package-manager" text="데이터 수집 설명서 참조"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_initialization_code"
->title="초기화 코드 추가"
->abstract="앱을 제대로 초기화하려면 제공된 초기화 코드를 AppDelegate 파일의 **didFinishLaunchWithOptions** 메서드에 삽입하십시오. 이렇게 하면 앱이 시작되는 동안 적절한 시간에 실행되도록 합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_import"
->title="종속성 가져오기"
->abstract="응용 프로그램의 **AppDelegate** 클래스에서 AEPCore, AEPAssurance, AEPEdge, AEPEdgeIdentity 및 AEPMessaging 종속성을 가져옵니다."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#import-extensions" text="데이터 수집 설명서 참조"
 
 1. Journey Optimizer 홈페이지에서 **[!UICONTROL 모바일 및 웹 채널 설정]** 카드에서 **[!UICONTROL 시작]**&#x200B;을 클릭합니다.
 
