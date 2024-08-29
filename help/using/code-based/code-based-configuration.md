@@ -5,10 +5,10 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 55%
+source-wordcount: '1125'
+ht-degree: 48%
 
 ---
 
@@ -33,6 +33,16 @@ ht-degree: 55%
 >id="ajo_admin_default_mobile_url"
 >title="기본 작성 및 미리보기 URL"
 >abstract="이 필드는 규칙에 의해 생성되거나 규칙과 일치하는 페이지에 지정된 URL이 있는지 확인하는 데 필요한데, 이는 콘텐츠를 효과적으로 만들고 미리 보는 데 필수적입니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_web_url"
+>title="기본 작성 및 미리보기 URL"
+>abstract="이 필드는 규칙에 의해 생성되거나 규칙과 일치하는 페이지에 지정된 URL이 있는지 확인하는 데 필요한데, 이는 콘텐츠를 효과적으로 만들고 미리 보는 데 필수적입니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mobile_url_preview"
+>title="미리보기 URL"
+>abstract="이 필드는 애플리케이션 내에서 장치에서 직접 콘텐츠의 시뮬레이션 및 미리보기를 활성화하는 데 필수적입니다."
 
 ## 채널 구성 만들기 {#reatte-code-based-configuration}
 
@@ -68,6 +78,8 @@ ht-degree: 55%
 
    * **[!UICONTROL 앱 ID]** 및 **[!UICONTROL 앱 내부의 위치 또는 경로]**&#x200B;를 입력하세요.
 
+     ![](assets/code_config_3.png)
+
 1. 구현이 웹, iOS 또는 Android용이 아니거나 특정 URI를 타깃팅해야 하는 경우 플랫폼으로 기타 를 선택합니다. 여러 플랫폼을 선택하거나 여러 URI를 추가하면 콘텐츠가 선택한 모든 페이지 또는 앱에 전달됩니다.
 
    * **[!UICONTROL 표면 URI]**&#x200B;를 입력하십시오.
@@ -75,6 +87,35 @@ ht-degree: 55%
    >[!CAUTION]
    >
    >코드 기반 캠페인에 사용된 표면 URI가 자체 구현에 사용된 표면 URI와 일치하는지 확인합니다. 그렇지 않으면 변경 사항이 전달되지 않습니다.
+
+1. **[!UICONTROL 미리 보기 URL]** 필드를 입력하여 온디바이스 미리 보기를 사용하도록 설정합니다. 이 URL은 미리보기를 트리거할 때 사용할 특정 URL을 미리보기 서비스에 알립니다.
+
+   * 웹:
+
+      * 단일 페이지 URL을 입력하면 해당 URL이 미리보기에 사용됩니다.
+      * 페이지 일치 규칙을 선택한 경우 브라우저에서 환경을 미리 보는 데 사용할 기본 미리 보기 URL을 입력해야 합니다.
+
+   * 모바일 플랫폼(iOS / Android)의 경우:
+
+      * 미리보기 URL은 앱 내의 앱 개발자가 구성한 딥링크입니다. 이렇게 하면 딥링크 체계와 일치하는 모든 URL이 모바일 웹 브라우저가 아닌 앱 내에서 열립니다. 앱에 대해 구성된 딥링크 체계를 얻으려면 앱 개발자에게 문의하십시오.
+
++++  다음 리소스는 앱 구현에 대한 딥링크를 구성하는 데 도움이 될 수 있습니다
+
+      * Android의 경우
+
+         * [앱 컨텍스트에 대한 딥 링크 만들기](https://developer.android.com/training/app-links/deep-linking)
+
+      * iOS의 경우
+
+         * [앱에 대한 사용자 정의 URL 체계 정의](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+
+         * [앱에서 범용 링크 지원](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+
++++
+
+   >[!NOTE]
+   >
+   >환경을 미리 보는 동안 문제가 발생하는 경우 [이 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)를 참조하세요.
 
 1. 특정 위치에 있는 응용 프로그램에서 예상하는 형식을 선택합니다. 이 템플릿은 캠페인 및 여정에서 코드 기반 경험을 작성할 때 사용됩니다.
 

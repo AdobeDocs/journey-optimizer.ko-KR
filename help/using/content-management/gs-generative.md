@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ AI 어시스턴트를 사용하여 다양한 중심 제목과 이미지를 실�
 * 업로드되는 브랜드 자산의 최대 크기는 50MB입니다. 더 큰 파일이나 많은 이미지를 사용할 수 있지만 처리 시간이 늘어납니다.
 * Adobe Campaign으로 작성된 이메일 템플릿을 사용하는 것이 좋습니다. [기본 제공 이메일 템플릿](../email/use-email-templates.md), 브랜드별 템플릿 또는 사용자 정의 템플릿을 사용하여 이메일 콘텐츠를 생성하세요. 최대 8~10개의 이미지가 포함된 이메일 템플릿을 권장합니다.
 * 변형을 선택할 때 엄지손가락 위로, 엄지손가락 아래로 또는 플래그 아이콘을 사용하여 문제가 있는 출력을 보고하십시오.
-* AI 어시스턴트 사용 시 Adobe Experience Cloud 생성형 AI 사용자 지침이 적용됩니다. [자세히 알아보기](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
+* AI 어시스턴트 사용 시 Adobe Experience Cloud 생성형 AI 사용자 지침이 적용됩니다. [자세히 알아보기](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 
 Journey Optimizer의 AI 어시스턴트에는 다음 제한 사항이 적용됩니다.
 
