@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 377f75a67f3a392957cefb7b2ba9347c364c11a1
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 62%
+source-wordcount: '665'
+ht-degree: 59%
 
 ---
 
@@ -177,3 +177,11 @@ ht-degree: 62%
 * 현재 보고 경험은 10월 릴리스부터 종료됩니다. 이 날짜 이후, 새로운 보고 환경이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다.
 
 [Journey Optimizer 새 보고 인터페이스 시작](../reports/report-gs-cja.md)
+
+* 새로운 사용 사례가 새로운 보고 환경에 추가되었습니다.
+
+   * 보고서 내에서 직접 사용자 지정 계산된 지표를 만듭니다.
+   * 보고 데이터에서 대상을 만듭니다.
+   * Exploratory Analysis 도구를 사용하여 선택한 **[!UICONTROL Dimension]** 및 **[!UICONTROL 지표]**&#x200B;에서 표와 시각화를 쉽게 만들 수 있습니다.
+
+  자세한 내용은 [세부 설명서](../reports/report-cja-manage.md)를 참조하십시오.
