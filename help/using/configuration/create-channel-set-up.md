@@ -10,9 +10,9 @@ level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 hide: true
 hidefromtoc: true
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
+source-git-commit: d7a1384ee83f81060333ca02c97b1db67427fbe5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 39%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Javascript 코드"
->abstract="다음 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> 태그에는 웹 페이지의 기본 콘텐츠 앞에 로드되는 필수 메타데이터와 리소스가 포함되어 있습니다. 이 섹션에 코드를 배치하면 코드가 적절하게 초기화되고 조기에 실행되어 웹 페이지가 효율적으로 로드되고 기능할 수 있습니다. 에 코드를 추가하여 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> 섹션에서는 사이트의 구조, 성능 및 전반적인 사용자 경험을 개선하는 데 도움이 됩니다."
+>abstract="헤드 태그에는 웹 페이지의 기본 콘텐츠 전에 로드되는 필수 메타데이터와 리소스가 포함되어 있습니다. 이 섹션에 코드를 배치하면 코드가 적절하게 초기화되고 조기에 실행되어 웹 페이지가 효율적으로 로드되고 기능할 수 있습니다. head 섹션에 코드를 추가하면 사이트의 구조, 성능 및 전반적인 사용자 경험을 향상시킬 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
