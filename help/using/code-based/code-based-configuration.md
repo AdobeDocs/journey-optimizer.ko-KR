@@ -5,7 +5,8 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
+exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
+source-git-commit: a025a269353d7451ff0426895688f62211768383
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 48%
@@ -78,7 +79,7 @@ ht-degree: 48%
 
    * **[!UICONTROL 앱 ID]** 및 **[!UICONTROL 앱 내부의 위치 또는 경로]**&#x200B;를 입력하세요.
 
-     ![](assets/code_config_3.png)
+     ![](assets/code_config_3.png){width="500"}
 
 1. 구현이 웹, iOS 또는 Android용이 아니거나 특정 URI를 타깃팅해야 하는 경우 플랫폼으로 기타 를 선택합니다. 여러 플랫폼을 선택하거나 여러 URI를 추가하면 콘텐츠가 선택한 모든 페이지 또는 앱에 전달됩니다.
 
@@ -174,4 +175,3 @@ ht-degree: 48%
 | --------- | ----------- | ------- | 
 | 와일드카드 웹 | `wildcard:web://domain.com/*#element` | 와일드카드 표면 - 특정 도메인 아래의 각 페이지에 있는 개별 요소를 나타냅니다. |
 | 와일드카드 웹 | `wildcard:web://*domain.com/*#element` | 와일드카드 표면 - &quot;domain.com&quot;으로 끝나는 모든 도메인 아래의 각 페이지에 있는 개별 요소를 나타냅니다. |
-
