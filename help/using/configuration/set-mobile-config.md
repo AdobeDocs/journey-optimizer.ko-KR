@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 17%
@@ -48,6 +48,7 @@ ht-degree: 17%
    * 모바일 푸시 메시지
 
    * 웹 기본
+
 
 설정하려는 각 플랫폼에 대해 별도의 구성을 만들어야 합니다. 각 앱에는 고유한 채널 구성이 필요하며, 이를 통해 각 플랫폼에 대해 원하는 채널을 유연하게 결정할 수 있기 때문입니다.
 

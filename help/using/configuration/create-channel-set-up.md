@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, 최적기
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 39%
@@ -51,6 +51,7 @@ ht-degree: 39%
 >id="ajo_mobile_web_setup_push_team_id"
 >title="팀 ID"
 >abstract="팀을 식별하는 데 사용되는 문자열 값인 팀 ID는 개발자 계정의 **멤버십** 탭에서 찾을 수 있습니다."
+
 
 이 설정을 사용하면 마케팅 채널의 빠른 구성이 간소화되어 Experience Platform, Journey Optimizer 및 데이터 수집 앱에서 모든 필수 리소스를 쉽게 사용할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정 만들기를 빠르게 시작할 수 있습니다.
 
