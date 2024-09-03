@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
+source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 98%
+source-wordcount: '1412'
+ht-degree: 96%
 
 ---
 
@@ -196,6 +196,8 @@ ht-degree: 98%
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
+<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="우선 순위"
@@ -205,3 +207,33 @@ ht-degree: 98%
 >id="ajo_campaigns_campaign_priority"
 >title="우선 순위"
 >abstract="캠페인에 0~00 사이의 우선 순위 점수를 할당합니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 두 캠페인이 동일한 표면을 사용하면 Journey Optimizer에서 우선 순위 점수가 가장 높은 캠페인을 선택합니다. 캠페인의 점수가 동일한 경우, 가장 최근에 수정한 캠페인을 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="캠페인의 충돌 뷰어"
+>abstract="캠페인의 충돌 뷰어"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="여정에서 뷰어 전환"
+>abstract="여정에서 뷰어 전환"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_object_type"
+>title="오브젝트 유형"
+>abstract="오브젝트 유형"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_rule_set"
+>title="여정에 규칙 세트 적용"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rule_set"
+>title="캠페인에 규칙 세트 적용"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="우선 순위 지정의 요소"
+>abstract="TBD"
