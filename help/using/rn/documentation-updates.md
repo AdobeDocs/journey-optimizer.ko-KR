@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5454'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 99%
 * 여정의 메시지에 사용하고 있는 오퍼 의사 결정을 변경하는 경우 여정의 게시를 취소하고 다시 게시해야 한다는 점을 설명하는 메모를 추가했습니다. [자세히 보기](../building-journeys/publishing-the-journey.md)
 * 한도 설정 카운터에서 이벤트를 올바르게 계산하도록 설정하는 방법에 대해 의사 결정 관리 **이벤트 한도 설정** 섹션에 명확하게 설명했습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping-event)
 * **실행 주소 변경** 페이지에 새로운 섹션을 추가했습니다. 여정 고급 매개 변수에서 전역적으로 설정된 실행 필드를 무시할 수 있지만 이메일 주소 무시는 특정 사용 사례에만 사용해야 한다는 점을 설명하는 섹션입니다. 대부분의 경우 **실행 필드**&#x200B;에서 기본 주소로 정의된 값을 사용해야 합니다. [자세히 알아보기](../configuration/primary-email-addresses.md#journey-parameters)
-* 이제 **URL 추적** 섹션에서 전자 메일 채널 구성에서 URL 추적을 위해 설정할 수 있는 모든 컨텍스트 특성 목록과 설명을 제공합니다. [자세히 보기](../email/email-settings.md#url-tracking)
+* 이제 **URL 추적** 섹션에서 이메일 채널 구성의 URL 추적에 대해 설정할 수 있는 상황별 속성 전체의 목록과 설명을 확인할 수 있습니다. [자세히 보기](../email/email-settings.md#url-tracking)
 
 ## 2023년 3월 {#march-2023}
 
@@ -296,7 +296,7 @@ ht-degree: 99%
 ## 2022년 7월 {#july-2022}
 
 * [!DNL Journey Optimizer] 2022년 7월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* **채널 구성 설정** 섹션을 명료하게 보이도록 업데이트하고 SMS 채널을 구성하는 방법을 설명하는 페이지 링크를 추가했습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
+* **채널 구성 설정** 섹션의 설명을 보다 명확하게 업데이트하고 SMS 채널을 구성하는 방법을 설명하는 페이지 링크를 추가했습니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
 * 여정 속성에서 **프로필 시간대** 옵션이 이제 기본적으로 비활성화됩니다. [자세히 보기](../building-journeys/timezone-management.md#timezone-from-profiles)
 * **대기** 활동에서, **고정 날짜** 옵션을 더 이상 사용할 수 없습니다. [자세히 보기](../building-journeys/wait-activity.md)
 * **대상자 읽기** 활동의 **증분 읽기** 옵션에 대한 정보를 추가했습니다. [자세히 보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)

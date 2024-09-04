@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -217,8 +217,8 @@ ht-degree: 98%
 **관리**
 
 * 허용 목록을 활성화하거나 비활성화할 때 이제 각 작업의 영향을 자세히 설명하는 새로운 경고가 표시됩니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
-* 채널 구성 만들기, IP 풀 만들기, 제외 목록 및 허용 목록 관리 및 SMS 채널 구성을 위한 사용자 인터페이스가 업데이트되었습니다.
-* 이제 주어진 하위 도메인에 대한 첫 번째 채널 구성을 만들 때 처리 시간은 10분에서 10일정도 소요되며, 해당 하위 도메인을 사용하는 후속 표면에 대해 최대 3시간만 소요됩니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
+* 채널 구성 만들기, IP 풀 만들기, 금지 목록 및 허용 목록 관리, SMS 채널 구성을 위한 사용자 인터페이스가 업데이트되었습니다.
+* 이제 특정 하위 도메인에 대한 첫 번째 채널 구성을 만들 때 처리 시간이 10분에서 10일정도 소요되며, 해당 하위 도메인을 사용하는 후속 구성을 만들 때는 최대 3시간만 소요됩니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
 * 랜딩 페이지 사전 설정 및 랜딩 페이지 하위 도메인을 만들기 위한 사용자 인터페이스가 업데이트되었습니다. [자세히 보기](../landing-pages/lp-subdomains.md)
 
 **감사 제어**
@@ -399,7 +399,7 @@ ht-degree: 98%
 
 **메시지**
 
-* 이제 메시지 사전 설정이 **채널 구성**&#x200B;입니다. [자세히 알아보기](../configuration/channel-surfaces.md)
+* 이제 메시지 사전 설정은 **채널 구성**&#x200B;이 되었습니다. [자세히 알아보기](../configuration/channel-surfaces.md)
 
 **관리**
 

@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2035'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -285,7 +285,7 @@ ht-degree: 98%
 **이메일 구성**
 
 * **허용 목록** - 이제 API 호출을 통해 비프로덕션 샌드박스에서 허용 목록을 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](../configuration/allow-list.md#enable-allow-list)
-* **탐색** - **관리 > 채널 > 전자 메일 설정 > 일반** 메뉴 아래에서 액세스할 수 있었던 제외 목록이 이제 새로운 **제외 목록** 하위 메뉴로 옮겨졌습니다. 해당 하위 메뉴 아래에 모든 관련 기능을 모아 두어 보다 쉽게 액세스할 수 있습니다. [자세히 알아보기](../configuration/manage-suppression-list.md#access-suppression-list)
+* **탐색** - **관리 > 채널 > 이메일 설정 > 일반** 메뉴 아래에서 액세스할 수 있었던 금지 목록이 이제 새로운 **금지 목록** 하위 메뉴로 옮겨졌습니다. 해당 하위 메뉴 아래에 모든 관련 기능을 모아 두어 보다 쉽게 액세스할 수 있습니다. [자세히 알아보기](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **의사 결정 관리**
 

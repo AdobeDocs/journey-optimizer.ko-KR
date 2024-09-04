@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -94,8 +94,8 @@ ht-degree: 82%
 **코드 기반 경험**
 
 * [개인화 편집기](create-code-based.md#edit-code)를 사용하여 콘텐츠를 편집합니다.
-* 코드 기반 환경을 사용하려면 응용 프로그램에서 이러한 위치에 대해 [!DNL Journey Optimizer]이(가) 에지에 게시한 콘텐츠를 해석하고 전달할 수 있도록 구현에 대한 이전 개발 작업이 필요합니다. [자세히 알아보기](code-based-configuration.md#surface-definition)
-* 더 많은 계획이 필요하고 개발자가 지정하는 사항만 변경할 수 있습니다. 따라서 개인화 또는 테스트를 위해 수정해야 하는 표면의 구성 요소(홈 배너, 히어로 이미지, 메뉴 표시줄 등)를 식별하고 개인화 또는 테스트를 위해 수정해야 하는 애플리케이션에서 개발 팀과 협력하여 이러한 변경 사항을 처리하는 데 필요한 구현을 빌드합니다.
+* 코드 기반 경험에서는 구현에 대해 기존 개발 작업이 필요합니다. 이는 애플리케이션이 [!DNL Journey Optimizer]에서 해당 위치에 대해 Edge로 게시된 콘텐츠를 해석 및 게재할 수 있게 하기 위해서입니다. [자세히 알아보기](code-based-configuration.md#surface-definition)
+* 더 많은 계획이 필요하고 개발자가 지정하는 사항만 변경할 수 있습니다. 따라서 개인화 또는 테스트를 위해 수정해야 하는 애플리케이션의 구성 요소(홈 배너, 히어로 이미지, 메뉴 표시줄 등)를 식별하고 개발 팀과 협력하여 이러한 변경 사항을 처리하는 데 필요한 구현을 구축하는 것이 중요합니다.
 * JSON 코드 콘텐츠를 사용할 수 있습니다.
 * 개발자에 초점을 맞춥니다.
 
@@ -109,12 +109,12 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->현재 구성에 연결된 콘텐츠는 HTML 또는 JSON만 될 수 있습니다. <!--WILL COME LATER: text, image or another format depending on the application-->
+>현재 구성과 연결된 콘텐츠는 HTML 또는 JSON으로만 설정할 수 있습니다. <!--WILL COME LATER: text, image or another format depending on the application-->
 
 코드 기반 캠페인을 구현하는 주요 단계는 다음과 같습니다.
 
-1. 응용 프로그램 구현에서 코드 기반 경험을 추가할 위치인 [surface](code-based-configuration.md#surface-definition)을(를) 정의한 다음 해당 위치를 참조하는 코드 기반 경험 채널 구성을 만든 다음 이 구성을 사용하여 [!DNL Journey Optimizer]에서 캠페인을 만드십시오. [방법 알아보기](create-code-based.md#create-code-based-campaign)
+1. 애플리케이션 구현에서 코드 기반 경험을 추가할 위치인 [표면](code-based-configuration.md#surface-definition)을 정의한 다음 해당 위치를 참조하는 코드 기반 경험 채널 구성을 만들고 이 구성을 사용하여 [!DNL Journey Optimizer]에서 캠페인을 만듭니다. [방법 알아보기](create-code-based.md#create-code-based-campaign)
 
-1. [!DNL Journey Optimizer] 개인화 편집기를 사용하여 선택한 구성에 대한 콘텐츠를 지정하여 경험을 구성하십시오. [방법 알아보기](create-code-based.md#edit-code)
+1. [!DNL Journey Optimizer] 개인화 편집기로 선택한 구성에 대한 콘텐츠를 지정하여 경험을 만듭니다. [방법 알아보기](create-code-based.md#edit-code)
 
 1. 앱 구현 팀은 “배너 텍스트” 또는 “권장 사항 트레이 1”과 같은 이름이 지정된 표면에 대한 콘텐츠나 “검색 알고리즘 매개변수”와 같은 애플리케이션의 비UI 관련 결정 지점에 대한 콘텐츠를 가져오기 위해 명시적 API 또는 SDK 호출을 수행합니다. 이 경우 구현 팀은 반환된 콘텐츠를 렌더링하거나 해석하고 그에 따라 조치를 취할 책임이 있습니다.<!--TBC with Robert - should link to a new section with API/SDK call samples-->

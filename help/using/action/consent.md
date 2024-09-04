@@ -10,15 +10,15 @@ level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, Healthcare Shield, 동의
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1388'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # 동의 정책 사용 {#consent-management}
 
-사용자의 데이터에는 조직 규정이나 법적 규정에 따른 사용 제한이 적용될 수 있습니다. 따라서 Journey Optimizer 내의 데이터 작업이 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko){target="_blank"}을 준수하는지 확인하는 것이 중요합니다. 이러한 정책은 데이터에 대해 수행할 수 있는 [마케팅 작업](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#marketing-actions){target="_blank"}을(를) 정의하는 Adobe Experience Platform 규칙입니다.
+사용자의 데이터에는 조직 규정이나 법적 규정에 따른 사용 제한이 적용될 수 있습니다. 따라서 Journey Optimizer 내 데이터 작업 시에는 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko){target="_blank"}을 준수해야 합니다. 정책은 데이터에 대해 수행할 수 있는 [마케팅 액션](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#marketing-actions){target="_blank"}을 정의하는 Adobe Experience Platform의 규칙입니다.
 
 활용 가능한 데이터 사용 정책 유형 중 하나는 **동의 정책**&#x200B;입니다. 이 정책을 통해 쉽게 고객의 동의 설정을 지키는 마케팅 정책을 채택하고 적용할 수 있습니다. [정책 집행에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=ko){target="_blank"}
 
@@ -34,7 +34,7 @@ ht-degree: 90%
 
    * Adobe **Healthcare Shield** 또는 **Privacy and Security Shield**&#x200B;가 있다면 기본 로직을 재정의하는 사용자 정의 동의 정책을 만들 수 있습니다. 예를 들어, 선택한 모든 개인에게만 이메일 메시지를 보내도록 정책을 정의할 수 있습니다. 사용자 정의 정책이 없으면 기본 정책이 적용됩니다.
 
-  사용자 지정 정책을 적용하려면 해당 정책에서 마케팅 작업을 정의하고 채널 구성에 연결해야 합니다. [자세히 알아보기](#surface-marketing-actions)
+  사용자 정의 정책을 적용하려면 해당 정책에서 마케팅 액션을 정의하고 이를 채널 구성에 연결해야 합니다. [자세히 알아보기](#surface-marketing-actions)
 
 여정 수준에서 동의 정책을 사용자 정의 액션에 적용할 수 있습니다.
 
@@ -63,7 +63,7 @@ ht-degree: 90%
 
       >[!NOTE]
       >
-      >Adobe에서 기본적으로 제공하는 핵심 마케팅 작업은 [이 테이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#core-actions){target="_blank"}에 나열되어 있습니다. 사용자 지정 마케팅 작업을 만드는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#create-marketing-action){target="_blank"}에 나열되어 있습니다.
+      >Adobe에서 기본적으로 제공하는 핵심 마케팅 액션은 [이 테이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#core-actions){target="_blank"}에서 확인할 수 있습니다. 사용자 정의 마케팅 액션을 만드는 단계의 목록은 [이 섹션](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#create-marketing-action){target="_blank"}에서 확인할 수 있습니다.
 
    1. 마케팅 액션이 적용될 때 실행할 작업을 선택합니다. 이 예제에서는 **[!UICONTROL 이메일 마케팅 동의]**&#x200B;를 선택합니다.
 
@@ -73,13 +73,13 @@ ht-degree: 90%
 
 1. Journey Optimizer에서 이메일 표면을 생성합니다. [방법 알아보기](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. 전자 메일 구성 세부 정보에서 **[!UICONTROL 전자 메일 타깃팅]** 마케팅 작업을 선택합니다.
+1. 이메일 구성 세부 정보에서 **[!UICONTROL 이메일 타기팅]** 마케팅 액션을 선택합니다.
 
    ![](assets/surface-marketing-action.png)
 
 해당 마케팅 액션과 관련된 모든 동의 정책은 고객의 환경 설정을 존중하기 위해 자동으로 활용됩니다.
 
-따라서 이 예제에서는 캠페인 또는 여정에서 해당 구성을 사용하는 모든 [이메일](../email/create-email.md)이(가) 사용자의 이메일 수신에 동의한 프로필로만 전송됩니다. 이메일 수신에 동의하지 않은 프로필은 제외됩니다.
+따라서 이 예제의 경우 캠페인 또는 여정에서 해당 구성을 사용하는 모든 [이메일](../email/create-email.md)은 사용자의 이메일을 받겠다고 동의한 프로필에만 전송됩니다. 이메일 수신에 동의하지 않은 프로필은 제외됩니다.
 
 ## 사용자 정의 액션을 통한 동의 정책 활용 {#journey-custom-actions}
 

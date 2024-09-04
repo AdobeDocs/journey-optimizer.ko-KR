@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 >
 >* 샌드박스 만들기
 >* 사용자 권한 구성
->* 이메일, 푸시 및 SMS 알림에 대한 Journey Optimizer 채널 구성
+>* 이메일, 푸시, SMS 알림에 대한 Journey Optimizer 채널 구성을 구성
 
 사용 사례 플레이북은 Adobe Experience Platform 및 Journey Optimizer을 사용하여 수행할 수 있는 일반적인 사용 사례를 처리하는 사전 정의된 워크플로입니다.
 

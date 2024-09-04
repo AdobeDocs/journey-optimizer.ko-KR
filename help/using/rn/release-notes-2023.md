@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4394'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -616,7 +616,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **SMS 채널**
 
-* SMS 채널 구성을 구성할 때 공급업체 공급업체로 Infobip가 추가되었습니다. [자세히 보기](../sms/sms-configuration.md)
+* SMS 채널 구성을 구성할 때 공급업체 목록에 Infobip을 추가했습니다. [자세히 보기](../sms/sms-configuration.md)
 * Twillio - 이제 API 자격 증명 설정에 Twillio 계정과의 원활한 통합을 위해 메시징 서비스 SID를 추가하는 기능이 포함됩니다. [자세히 보기](../sms/sms-configuration.md)
 
 **인앱 채널**
@@ -1012,7 +1012,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **IP 풀**&#x200B;을 만들거나 편집할 때 이제 연결된 PTR 레코드가 IP 목록에 표시되며 선택한 IP 주소 위에 커서를 올렸을 때도 표시됩니다. [자세히 알아보기](../configuration/ip-pools.md#create-ip-pool)
 
-* 채널 구성에서 IP 풀을 선택한 후 IP 주소 위로 마우스를 가져가면 PTR 기록 정보가 표시됩니다. [자세히 알아보기](../email/email-settings.md#subdomains-and-ip-pools)
+* 이제 채널 구성에서 IP 풀을 선택한 후 IP 주소 위에 커서를 올리면 PTR 레코드 정보가 표시됩니다. [자세히 알아보기](../email/email-settings.md#subdomains-and-ip-pools)
 
 * [PTR 레코드](../configuration/ptr-records.md#edit-ptr-record) 및 [실행 필드](../configuration/primary-email-addresses.md) 편집 사용자 인터페이스를 업데이트했습니다.
 
