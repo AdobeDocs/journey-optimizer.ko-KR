@@ -8,8 +8,8 @@ description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 902458ec78df9a885b144bf19425c7865c208c28
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -88,10 +88,10 @@ ht-degree: 54%
 <tbody>
 <tr>
 <td>
-<p>현재 채널 표면 기능은 모든 채널에서 일관된 접근 방식을 위해 향상되었습니다. 이제 웹, 인앱 메시지 또는 코드 기반 경험을 포함하여 모든 채널에 대해 이러한 구성을 정의, 관리 및 재사용할 수 있습니다.</p>
+<p>현재 채널 표면 기능은 모든 채널에서 일관된 접근 방식을 위해 향상되었습니다. 이제 [웹], [인앱 메시지] 또는 [코드 기반 경험]을 포함하여 모든 채널에 대해 구성을 정의, 관리, 재사용할 수 있습니다.</p>
 <p><ul>
 <li>이제 채널 표면 이름이 <strong>채널 구성</strong>으로 변경되었습니다.</li>
-<li>동의 및 데이터 거버넌스 정책을 시행하기 위해 하나 이상의 마케팅 작업을 첨부할 수 있습니다</li>
+<li>동의 및 데이터 거버넌스 정책을 시행하기 위해 하나 이상의 마케팅 액션을 첨부할 수 있습니다.</li>
 <li>이제 각 채널 구성에 OLAC(개체 수준 액세스 제어)를 사용할 수 있으므로 특정 구성을 만들거나 사용할 수 있는 사용자를 결정할 수 있습니다.</li>
 <li>일부 채널의 경우 여러 플랫폼을 대상으로 하는 채널 구성을 만들 수 있습니다. 웹 페이지, iOS 앱 및 Android 앱을 타깃팅할 수 있는 인앱 메시지 채널 구성이 여기에 해당합니다.</li>
 </ul></p>
@@ -127,7 +127,7 @@ ht-degree: 54%
 <tbody>
 <tr>
 <td>
-<p>조각 전역 변수는 기존 조각 기능을 향상시켜 콘텐츠 재사용 가능성 및 스크립팅 사용 사례의 효율성을 개선합니다. 이제 조각에서 입력 변수를 사용하고 캠페인 및 여정 콘텐츠에 사용할 수 있는 출력 변수를 만들 수 있습니다. 조각은 <a href="../personalization/use-expression-fragments.md">표현식 조각</a> 및 <a href="../email/use-visual-fragments.md">시각적 조각</a>에서 모두 입력 변수를 사용할 수 있습니다. 이러한 변수를 사용하여 캠페인 및 여정에서 메시지 콘텐츠 및 매개 변수를 개인화할 수 있습니다.</p>
+<p>조각 전역 변수로 기존 조각 기능을 향상시켜 콘텐츠 재사용과 스크립팅 사용 사례의 효율성을 개선합니다. 이제 조각에서 입력 변수를 사용하고 캠페인 및 여정 콘텐츠에 사용할 수 있는 출력 변수를 만들 수 있습니다. 조각이 입력 변수를 <a href="../personalization/use-expression-fragments.md">표현식 조각</a> 및 <a href="../email/use-visual-fragments.md">시각적 조각</a> 모두에서 사용할 수 있습니다. 이러한 변수를 사용하여 캠페인 및 여정에서 메시지 콘텐츠 및 매개 변수를 개인화할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../personalization/use-expression-fragments.md">세부 설명서</a>를 참조하십시오.</p>
 </p>
 </td>
@@ -158,8 +158,8 @@ ht-degree: 54%
 
 **여정**
 
-* **조건** 활동에서 기본적으로 **[!UICONTROL 시간 조건]**&#x200B;이(가) 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
-* 이제 여정을 작성할 때 **경고** 단추에서 경고가 표시되므로 다른 경고와 일치하고 일관된 사용자 환경을 제공합니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 이제 **조건** 활동에서 **[!UICONTROL 시간 조건]**&#x200B;은 기본적으로 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
+* 이제 여정을 작성할 때에도 경고가 다른 경고와 마찬가지로 **경고** 버튼에서 표시되어 일관된 사용자 경험을 제공합니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 보다 쉽게 재설정할 수 있습니다.
 
 <!--**Audiences and Profiles**-->
@@ -170,15 +170,15 @@ ht-degree: 54%
 
 **푸시 채널**
 
-* 이제 Adobe Journey Optimizer 채널 구성 설정 내에 모바일 애플리케이션 푸시 자격 증명을 추가할 수 있습니다. Adobe Experience Platform 데이터 수집에서 앱 표면 생성이 더 이상 필요하지 않습니다.
+* 이제 Adobe Journey Optimizer 채널 구성 설정 내에 모바일 애플리케이션 푸시 자격 증명을 추가할 수 있습니다. 더 이상 Adobe Experience Platform 데이터 수집에서 앱 표면을 만들 필요가 없습니다.
 
 ### 기타 변경 사항 {#changes}
 
 **보고**
 
-* 현재 보고 경험은 10월 릴리스부터 종료됩니다. 이 날짜 이후, 새로운 보고 환경이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다.
+* 현재 보고 경험은 10월 릴리스부터 사용이 종료됩니다. 이 날짜 이후에는 새로운 보고 경험이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다.
 
-[Journey Optimizer 새 보고 인터페이스 시작](../reports/report-gs-cja.md)
+[Journey Optimizer의 새로운 보고 인터페이스 시작](../reports/report-gs-cja.md)
 
 * 새로운 사용 사례가 새로운 보고 환경에 추가되었습니다.
 

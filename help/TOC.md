@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
-source-wordcount: '1963'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -582,8 +582,8 @@ ht-degree: 98%
 + 구성 {#configuration}
    + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
    + [채널 구성 설정](using/configuration/channel-surfaces.md)
-   + 가이드 채널 설정 {#guided-setup}
-      + [안내 채널 설정 시작하기](using/configuration/set-mobile-config.md)
+   + 안내형 채널 설정 {#guided-setup}
+      + [안내형 채널 설정 시작](using/configuration/set-mobile-config.md)
       + [채널 설정 만들기](using/configuration/create-channel-set-up.md)
    + 이메일 하위 도메인 위임 {#delegate-subdomains}
       + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
