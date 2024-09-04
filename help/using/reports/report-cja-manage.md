@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 3098b63ef643da63a205f539ac48f902e823bbd1
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '889'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,10 @@ d. Open the report for the journey that you added the metric to and ensure that 
 -->
 
 ## 보고 데이터에서 대상자 만들기 {#create-audience}
+
+>[!IMPORTANT]
+>
+>각 조직은 25개의 대상자를 게시하는 것으로 제한됩니다. 또한 사용자는 시간당 최대 5개, 일별 20개의 대상을 게시할 수 있습니다
 
 이제 테이블 내에서 특정 데이터를 선택하고 이러한 선택 항목으로 대상을 직접 만들 수 있으므로 대상 만들기 프로세스를 간소화하고 단순화할 수 있습니다.
 

@@ -5,10 +5,11 @@ feature: Web Channel, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -81,15 +82,46 @@ ht-degree: 10%
 
 * **경로**
 
-  | | | |
-  |-|-|-|
-  | 연산자  | 설명  | 예  |
-  | 다음과 같음  | 경로의 정확한 일치.  |    |
-  | 다음으로 시작  | 입력한 문자열로 시작하는 모든 경로(하위 경로 포함)와 일치합니다.  |    |
-  | 다음으로 끝남  | 입력한 문자열로 끝나는 모든 경로(하위 경로 포함)와 일치합니다.  |    |
-  | 임의  | 모든 경로와 일치합니다. 하나 또는 여러 도메인에서 모든 경로를 타깃팅할 때 유용합니다.  |    |
-  | 와일드카드 일치  | &quot;와일드카드 일치&quot; 연산자를 사용하면 사용자가 &quot;/products/*/detail&quot;과 같은 내부 와일드카드를 경로 내에 정의할 수 있습니다.  경로 ** 구성 요소의 와일드카드 문자 *는 첫 번째 / 문자가 발견될 때까지 문자 시퀀스를 일치시킵니다.  /*/ 모든 문자 시퀀스(하위 경로 포함)와 일치  | 예: &quot;와일드카드 일치: /products/*/detail&quot;, 다음과 같은 모든 경로와 일치:  example.com/products/yoga/detail  example.com/products/surf/detail  example.com/products/tennis/detail  example.com/products/yoga/pants/detail   예: &quot;일치함: /prod*/detail, 다음과 같은 모든 경로와 일치함:  example.com/products/detail  example.com/production/detail   다음과 같은 경로와 일치하지 않음:  example.com/products/yoga/detail  |
-  | 다음 포함  | &quot;포함&quot;은 &quot;mystring&quot;과 같은 와일드카드로 변환되고 이 문자 시퀀스를 포함하는 모든 경로와 일치합니다.  | 예: &quot;Contains: product&quot;, example.com/products, example.com/yoga/perfproduct, example.com/surf/productdescription, example.com/home/product/page 등과 같이 문자열 product가 포함된 모든 경로와 일치  |
-
+<table>
+    <thead>
+    <tr>
+        <th><strong>연산자</th>
+        <th><strong>설명</th>
+        <th><strong>예시</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>같음</td>
+        <td>경로의 정확한 일치. </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>다음으로 시작</td>
+        <td>입력한 문자열로 시작하는 모든 경로(하위 경로 포함)와 일치합니다.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>다음으로 끝남</td>
+        <td>입력한 문자열로 끝나는 모든 경로(하위 경로 포함)와 일치합니다.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>모두</td>
+        <td>모든 경로와 일치합니다. 하나 또는 여러 도메인에서 모든 경로를 타깃팅할 때 유용합니다.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>와일드카드 일치</td>
+        <td>"와일드카드 일치" 연산자를 사용하면 "/products/*/detail"과 같은 내부 와일드카드를 경로 내에 정의할 수 있습니다.  경로 ** 구성 요소의 와일드카드 문자 *는 첫 번째 / 문자가 발견될 때까지 문자 시퀀스를 일치시킵니다.  /*/ 모든 문자 시퀀스(하위 경로 포함)와 일치</td>
+        <td>예: "와일드카드 일치: /products/*/detail", 다음과 같은 모든 경로를 일치시킵니다. <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>예: "일치함: /prod*/detail, 다음과 같은 모든 경로와 일치합니다.  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  다음과 같은 경로와 일치하지 않음: <ul>example.com/products/yoga/detail</ul></td>
+    </tr>
+    <tr>
+        <td>다음 포함</td>
+        <td>"포함"은 "mystring"과 같은 와일드카드로 변환되고 이 문자 시퀀스를 포함하는 모든 경로와 일치합니다.</td>
+        <td>예: "Contains: product", 다음과 같이 문자열 product가 포함된 모든 경로와 일치 <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+    </tr>
+    </tbody>
+</table>
 
 하나의 규칙을 사용하여 사용 사례를 모델링할 수 없는 경우 여러 페이지 규칙을 추가할 수 있는 옵션이 있으며 이들 사이에 &#39;Or&#39; 또는 &#39;Exclude&#39; 연산자를 사용할 수 있습니다. &#39;제외&#39;는 정의된 규칙과 일치하는 페이지 중 하나를 타깃팅해서는 안 되는 경우에 유용합니다. 예를 들어 `https://example.com/blogs/productinfo` 페이지를 제외하고 &quot;product&quot;가 포함된 모든 &quot;example.com&quot; 페이지입니다.
