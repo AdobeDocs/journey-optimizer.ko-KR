@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
+source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 11%
@@ -114,12 +114,12 @@ ht-degree: 11%
     <tr>
         <td>와일드카드 일치</td>
         <td>"와일드카드 일치" 연산자를 사용하면 "/products/*/detail"과 같은 내부 와일드카드를 경로 내에 정의할 수 있습니다.  경로 ** 구성 요소의 와일드카드 문자 *는 첫 번째 / 문자가 발견될 때까지 문자 시퀀스를 일치시킵니다.  /*/ 모든 문자 시퀀스(하위 경로 포함)와 일치</td>
-        <td>예: "와일드카드 일치: /products/*/detail", 다음과 같은 모든 경로를 일치시킵니다. <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>예: "일치함: /prod*/detail, 다음과 같은 모든 경로와 일치합니다.  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  다음과 같은 경로와 일치하지 않음: <ul>example.com/products/yoga/detail</ul></td>
+        <td>예: "와일드카드 일치: /products/*/detail", 다음과 같은 모든 경로를 일치시킵니다. <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>예: "일치함: /prod*/detail, 다음과 같은 모든 경로와 일치합니다. <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>다음과 같은 경로와 일치하지 않음: <ul><li>example.com/products/yoga/detail</li></ul></td>
     </tr>
     <tr>
         <td>다음 포함</td>
         <td>"포함"은 "mystring"과 같은 와일드카드로 변환되고 이 문자 시퀀스를 포함하는 모든 경로와 일치합니다.</td>
-        <td>예: "Contains: product", 다음과 같이 문자열 product가 포함된 모든 경로와 일치 <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+        <td>예: "Contains: product", 다음과 같이 문자열 product가 포함된 모든 경로와 일치 <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
     </tr>
     </tbody>
 </table>
