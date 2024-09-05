@@ -11,7 +11,7 @@ keywords: 채널, 표면, 기술, 매개변수, 최적기
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 39%
+ht-degree: 47%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Javascript 코드"
->abstract="헤드 태그에는 웹 페이지의 기본 콘텐츠 전에 로드되는 필수 메타데이터와 리소스가 포함되어 있습니다. 이 섹션에 코드를 배치하면 코드가 적절하게 초기화되고 조기에 실행되어 웹 페이지가 효율적으로 로드되고 기능할 수 있습니다. head 섹션에 코드를 추가하면 사이트의 구조, 성능 및 전반적인 사용자 경험을 향상시킬 수 있습니다."
+>abstract="헤드 태그에는 웹 페이지의 주요 콘텐츠보다 먼저 로드되는 필수 메타데이터 및 리소스가 포함되어 있습니다. 이 섹션에 코드를 배치하면 코드가 적절하게 초기화되고 조기에 실행되어 웹 페이지가 효율적으로 로드되고 기능할 수 있습니다. 헤드 섹션에 코드를 추가하면 사이트의 구조, 성능 및 전반적인 사용자 환경을 향상시킬 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"

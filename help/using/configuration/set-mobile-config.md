@@ -12,11 +12,11 @@ exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
-# 안내 채널 설정 시작하기 {#set-mobile-config}
+# 안내형 채널 설정 시작 {#set-mobile-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
@@ -26,8 +26,8 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Assurance를 사용한 유효성 검사"
->abstract="Adobe Experience Platform Assurance는 이 워크플로에 포함되어 있어 SDK 구현을 검사하고 애플리케이션 이벤트를 시뮬레이션하고 확인하는 데 도움이 됩니다."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 개요"
+>abstract="Adobe Experience Platform Assurance가 이 워크플로에 임베드되어 있어 SDK 구현을 검사하고 애플리케이션 이벤트를 시뮬레이션 및 검증하는 데 도움이 됩니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 개요"
 
 이 설정을 사용하면 마케팅 채널을 신속하게 구성할 수 있으므로 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 쉽게 사용할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정 생성으로 시작할 수 있습니다.
 
