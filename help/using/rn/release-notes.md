@@ -8,8 +8,8 @@ description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 85%
 <tbody>
 <tr>
 <td>
-<p>가이드 채널 설정 을 사용하면 통합 환경에서 채널 설정을 자동화하고 유효성을 검사하여 Journey Optimizer 시작 프로세스를 가속화할 수 있습니다. 이 새로운 가이드 설정을 통해 신속한 채널 구성을 간소화하므로 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 쉽게 설치하고 작업할 수 있습니다. 이를 통해 마케팅, 제품 및 데이터 엔지니어링 팀은 캠페인 및 여정 생성을 신속하게 시작할 수 있습니다.</p>
+<p>[안내식 채널 설정]을 사용하면 통합 환경에서 채널 설정을 자동화하고 유효성을 검사하여 Journey Optimizer를 보다 빠르게 시작할 수 있습니다. 이 새로운 안내식 설정으로 빠른 채널 구성을 간소화하여 필요한 리소스를 모두 손쉽게 설치하고 Experience Platform, Journey Optimizer, 데이터 수집 내에서 사용할 수 있습니다. 이를 통해 마케팅, 제품, 데이터 엔지니어링 팀이 캠페인 및 여정 만들기를 신속하게 시작할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../configuration/set-mobile-config.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
 </br>
@@ -181,10 +181,10 @@ ht-degree: 85%
 
 [Journey Optimizer의 새로운 보고 인터페이스 시작](../reports/report-gs-cja.md)
 
-* 새로운 사용 사례가 새로운 보고 환경에 추가되었습니다.
+* 새로운 보고 경험에 다음과 같이 새로운 사용 사례가 추가되었습니다.
 
-   * 보고서 내에서 직접 사용자 지정 계산된 지표를 만듭니다.
-   * 보고 데이터에서 대상을 만듭니다.
-   * Exploratory Analysis 도구를 사용하여 선택한 **[!UICONTROL Dimension]** 및 **[!UICONTROL 지표]**&#x200B;에서 표와 시각화를 쉽게 만들 수 있습니다.
+   * 보고서 내에서 직접 사용자 정의한 계산된 지표를 만듭니다.
+   * 보고 데이터를 사용하여 대상자를 만듭니다.
+   * [탐색적 분석] 도구를 사용하여 선택한 **[!UICONTROL 차원]** 및 **[!UICONTROL 지표]**&#x200B;로 손쉽게 테이블과 시각화 자료를 만듭니다.
 
   자세한 내용은 [세부 설명서](../reports/report-cja-manage.md)를 참조하십시오.

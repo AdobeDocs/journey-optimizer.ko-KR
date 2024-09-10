@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -215,8 +215,8 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="여정에서 뷰어 전환"
->abstract="여정에서 뷰어 전환"
+>title="여정의 충돌 뷰어"
+>abstract="여정의 충돌 뷰어"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_object_type"
@@ -226,17 +226,17 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_rule_set"
 >title="여정에 규칙 세트 적용"
->abstract="TBD"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rule_set"
 >title="캠페인에 규칙 세트 적용"
->abstract="TBD"
+>abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"
 >title="우선 순위 지정 요소"
->abstract="TBD"
+>abstract="추가 예정"
 
 <!--CONTENT LOCKING-->
 
@@ -258,12 +258,12 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
 >title="콘텐츠 고정 구조"
->abstract="구조에서 컨텐츠 잠금"
+>abstract="콘텐츠 고정 구조"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_component"
 >title="특정 고정 구성 요소 사용"
->abstract="구성 요소에서 특정 잠금 사용"
+>abstract="특정 고정 구성 요소 사용"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_editable_areas"
