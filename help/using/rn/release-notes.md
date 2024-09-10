@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
+source-git-commit: 5fd0ad50a39fbb57a2dd11ddb84f1d5b2598bcea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '824'
+ht-degree: 90%
 
 ---
 
@@ -40,11 +40,16 @@ ht-degree: 0%
 <p>[안내식 채널 설정]을 사용하면 통합 환경에서 채널 설정을 자동화하고 유효성을 검사하여 Journey Optimizer를 보다 빠르게 시작할 수 있습니다. 이 새로운 안내식 설정으로 빠른 채널 구성을 간소화하여 필요한 리소스를 모두 손쉽게 설치하고 Experience Platform, Journey Optimizer, 데이터 수집 내에서 사용할 수 있습니다. 이를 통해 마케팅, 제품, 데이터 엔지니어링 팀이 캠페인 및 여정 만들기를 신속하게 시작할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../configuration/set-mobile-config.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
+<p>사용 가능한 날짜: 9월 3일</p>
 </br>
 </td>
 </tr>
 </tbody>
 </table>
+
+**여정**
+
+(사용 가능한 날짜: 9월 10일) **다시 시도 기능** - 이제 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상 읽기** 또는 **비즈니스 이벤트**)에 대해 기본적으로 다시 시도가 적용됩니다. 내보내기 작업을 만드는 동안 오류가 발생하면 10밀리초마다 최대 1시간 동안 다시 시도됩니다. 그 후에는 실패로 간주할 것입니다. 따라서 이러한 유형의 여정은 예약된 시간보다 최대 1시간 후에 실행될 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md#retries)
 
 ## 2024년 8월 릴리스 정보 {#8-2024}
 
