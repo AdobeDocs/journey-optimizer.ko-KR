@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: ae92a1e950822d4a0dbac1aa535078fe535113c0
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 22%
+source-wordcount: '1343'
+ht-degree: 24%
 
 ---
 
@@ -98,7 +98,7 @@ API에 대한 자세한 설명은 [Adobe Journey Optimizer API 설명서](https:
 
 **최대 가용량 또는 제한 규칙을 구성하려면 어떻게 해야 합니까? 기본 규칙이 있습니까?**
 
-기본적으로 제한 또는 제한 규칙이 없습니다. 규칙은 제한 또는 제한 API를 사용하여 특정 끝점(URL 호출됨)에 대한 샌드박스 수준에서 정의됩니다. [이 섹션](../configuration/external-systems.md#capping)을 참조하십시오.
+제한 또는 제한 규칙을 만들려면 [이 섹션](../configuration/external-systems.md#capping)을 참조하세요. 기본적으로 제한 규칙은 없으며 모든 사용자 지정 작업, 호스트 및 샌드박스에 대해 1분 동안 정의된 최대 호출 수인 300,000개입니다. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 대상자 기반 여정에서 이를 고려하여 적절한 읽기 속도(사용자 정의 작업 사용 시 프로필 5,000개/초)를 정의해야 합니다. 필요한 경우 최대 가용량/최대 가용량 API를 통해 더 큰 최대 가용량 또는 최대 가용량 제한을 정의하여 이 설정을 재정의할 수 있습니다.
 
 **몇 번 다시 시도합니까? 다시 시도 횟수를 변경하거나 다시 시도 사이의 최소 대기 기간을 정의할 수 있습니까?**
 
