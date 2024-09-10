@@ -11,19 +11,19 @@ keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 대상 자격 이벤트 {#segment-qualification}
 
-## 대상자 자격 이벤트 정보{#about-segment-qualification}
+## 대상자 선별 이벤트 정보{#about-segment-qualification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
->title="대상자 자격 이벤트"
->abstract="이 활동을 통해 Adobe Experience Platform 대상자의 프로필의 처음과 끝에서 의견을 수렴하여 개인 사용자가 여정으로 들어오거나 이동할 수 있습니다."
+>title="대상자 선별 이벤트"
+>abstract="이 활동으로 Adobe Experience Platform 대상자에 프로필이 포함, 제외되는지 확인하여 개인 사용자가 여정에 진입하거나 여정을 진행할 수 있도록 합니다."
 
 이 활동을 통해 여정은 Adobe Experience Platform 대상의 프로필 출입구에서 수신 대기함으로써 개인이 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다. 대상자 만들기에 대한 자세한 내용은 이 [섹션](../audience/about-audiences.md)을 참조하세요.
 

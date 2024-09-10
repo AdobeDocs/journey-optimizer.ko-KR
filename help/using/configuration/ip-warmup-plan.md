@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: IP 준비 계획 만들기
+title: IP 워밍업 플랜 만들기
 description: Journey Optimizer에서 IP 준비 계획을 만드는 방법을 알아봅니다.
 feature: IP Warmup Plans
 topic: Administration
@@ -11,12 +11,12 @@ keywords: IP, 그룹, 하위 도메인, 전달성
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# IP 준비 계획 만들기 {#ip-warmup}
+# IP 워밍업 플랜 만들기 {#ip-warmup}
 
 전용 구성과 해당 옵션이 활성화된 하나 이상의 [IP 준비 캠페인](ip-warmup-campaign.md)을(를) 만들면 IP 준비 계획을 만들 수 있습니다.
 
@@ -261,12 +261,12 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
    >
    >선택한 IP 준비 계획이 영구적으로 삭제됩니다.
 
-## IP 준비 계획 만들기 {#create-ip-warmup-plan}
+## IP 워밍업 플랜 만들기 {#create-ip-warmup-plan}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="IP 워밍업 플랜 지정"
->abstract="IP 워밍업 단계 및 목표 프로필 수와 같이 플랜에 공급할 모든 데이터로 Excel 템플릿을 채우고 여기에 업로드합니다."
+>abstract="IP 워밍업 단계, 목표 프로필 수와 같이 플랜에 필요한 모든 데이터를 입력하여 Excel 템플릿을 작성하고 여기에 업로드합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="IP 워밍업 플랜 파일 준비"
 
 >[!CONTEXTUALHELP]
