@@ -10,14 +10,24 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 4%
+source-wordcount: '1617'
+ht-degree: 3%
 
 ---
 
 # 자동 번역을 사용하여 다국어 콘텐츠 만들기 {#multilingual-automated}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_provider"
+>title="공급자 추가"
+>abstract="필요에 따라 번역 공급업체 및 로케일을 추가합니다. 이를 통해 프로젝트에 대해 활성화된 공급자와 로케일을 관리할 수 있으므로 현재 요구 사항 및 프로젝트 범위를 기반으로 리소스 및 타겟 대상을 유연하게 조정할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_provider"
+>title="공급자 편집"
+>abstract="기존 번역 공급업체를 수정하고 필요에 따라 로케일을 추가합니다. 이 기능을 사용하면 프로젝트에서 활성화된 공급자와 로케일을 제어할 수 있으므로, 현재 요구 사항과 프로젝트 목표에 따라 리소스를 조정하고 특정 대상을 타기팅할 수 있는 유연성을 제공합니다."
 
 >[!AVAILABILITY]
 >
@@ -39,6 +49,11 @@ ht-degree: 4%
 
 ## 로케일 만들기 {#create-locale}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_locale"
+>title="로케일 추가"
+>abstract="언어 환경 설정을 구성할 때 원하는 로케일을 다국어 콘텐츠에 사용할 수 없는 경우 추가 로케일을 만들 수 있는 옵션이 있습니다."
+
 [언어 설정 만들기](#language-settings) 섹션에 설명된 대로 언어 설정을 구성할 때 특정 로케일을 다국어 콘텐츠에 사용할 수 없는 경우 **[!UICONTROL 번역]** 메뉴를 사용하여 필요한 수만큼 새 로케일을 만들 수 있습니다.
 
 1. **[!UICONTROL 콘텐츠 관리]** 메뉴에서 **[!UICONTROL 번역]**&#x200B;에 액세스합니다.
@@ -54,6 +69,16 @@ ht-degree: 4%
    ![](assets/locale_2.png)
 
 ## 번역 프로젝트 만들기 {#translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_create_project"
+>title="프로젝트 만들기"
+>abstract="다국어 콘텐츠를 만들려면 대상 로케일을 식별하고 대상에 적합한 언어 또는 지역 언어를 선택하여 번역 프로젝트를 시작합니다. 그런 다음 프로젝트의 요구 사항에 맞는 번역 공급업체를 선택하십시오."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_project"
+>title="프로젝트 편집"
+>abstract="번역 프로젝트를 업데이트하여 추가 로케일을 통합하므로 콘텐츠를 확장하여 더 광범위한 대상자에게 도달할 수 있습니다."
 
 콘텐츠의 특정 언어 또는 지역을 나타내는 Target 로케일을 지정하여 번역 프로젝트를 시작합니다. 그런 다음 번역 공급업체를 선택할 수 있습니다.
 
@@ -205,6 +230,11 @@ ht-degree: 4%
 
 ## 인소싱 번역 프로젝트 관리 {#manage-ht-project}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_insourcing_project"
+>title="번역 프로젝트 인소싱"
+>abstract="인소싱 번역 프로젝트를 사용하면 번역 프로젝트 내에서 직접 번역을 관리하고 실행할 수 있으므로 프로세스를 간소화하고 번역 품질과 일관성에 대한 더 높은 통제력을 유지할 수 있습니다."
+
 언어 설정을 구성할 때 인소싱을 선택한 경우 번역 프로젝트에서 직접 콘텐츠를 번역할 수 있습니다.
 
 1. **[!UICONTROL 번역 프로젝트]**&#x200B;에서 **[!UICONTROL 추가 작업]** 메뉴에 액세스하고 **[!UICONTROL 인소싱]**&#x200B;을 선택하세요.
@@ -222,6 +252,16 @@ ht-degree: 4%
 1. 번역된 텍스트를 게시할 준비가 되었으면 **[!UICONTROL 완료]**&#x200B;를 클릭하십시오.
 
 ## 번역 프로젝트 검토 {#review-translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_review_project"
+>title="번역 프로젝트 검토"
+>abstract="선택한 번역 공급업체에서 번역을 완료하면 Journey Optimizer 내에서 직접 결과를 검토할 수 있습니다. 이를 통해 번역의 정확도와 품질을 평가하여 최종 완성하기 전에 기대치와 프로젝트 요구 사항에 맞게 번역을 조정할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_preview_project"
+>title="번역 프로젝트 미리 보기"
+>abstract="미리보기 창을 사용하면 번역된 콘텐츠가 각 언어로 표시되는 방식을 볼 수 있습니다. 이 기능은 렌더링을 검사하고 선택한 모든 언어에 콘텐츠가 정확하고 효과적으로 표시되는지 확인하는 데 도움이 됩니다."
 
 **[!UICONTROL 번역 프로젝트]**&#x200B;에서 **[!UICONTROL 검토 워크플로우 사용]**&#x200B;을(를) 선택한 경우 선택한 번역 공급업체에서 완료한 후 Journey Optimizer에서 직접 번역을 검토할 수 있습니다.
 
