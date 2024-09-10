@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 6%
+source-wordcount: '1635'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-## 반드시 알아야 할 사항 {#must-read}
+## 보호 기능 및 모범 사례 {#must-read}
 
 * **대상 읽기** 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 최대 여정 수가 있습니다. 다시 시도는 시스템에서 수행되지만 정확히 같은 시간에 시작하여 5개 이상의 여정(**대상자 읽기** 사용, 예약됨 또는 &quot;가능한 한 빨리&quot; 시작)가 시작되지 않도록 합니다. 가장 좋은 방법은 예를 들어 5분에서 10분 간격과 같이 시간이 지남에 따라 이를 분산시키는 것입니다.
 
@@ -40,6 +40,7 @@ ht-degree: 6%
 * 가장 좋은 방법은 **대상자 읽기** 활동에서만 일괄 대상자를 사용하는 것입니다. 이렇게 하면 여정에 사용된 대상자에 대해 안정적이고 일관된 카운트를 제공합니다. 대상자 읽기는 일괄 사용 사례용으로 설계되었습니다. 사용 사례에 실시간 데이터가 필요한 경우 **[대상 자격](audience-qualification-events.md)** 활동을 사용하십시오.
 
 * CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
+
 
 **대상자 읽기** 활동과 관련된 보호 기능은 [이 페이지](../start/guardrails.md#read-segment-g)에 나열되어 있습니다.
 
@@ -192,6 +193,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 결합 후 세분화 또는 제외를 수행하여 대상을 다시 분할할 수 있습니다.
 
 ![](assets/read-segment-audience3.png)
+
+
+## 다시 시도 {#read-audience-retry}
+
+내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상자 읽기** 또는 **비즈니스 이벤트**)에서 기본적으로 다시 시도가 적용됩니다. 내보내기 작업을 만드는 동안 오류가 발생하면 10밀리초마다 최대 1시간 동안 다시 시도됩니다. 그 후에는 실패로 간주할 것입니다. 따라서 이러한 유형의 여정은 예약된 시간보다 최대 1시간 후에 실행될 수 있습니다.
+
+실패한 **대상자 읽기** 트리거가 캡처되어 **경고**&#x200B;에 표시됩니다. **대상자 읽기 경고**&#x200B;은(는) **대상자 읽기** 활동이 예약된 실행 시간 10분 후에 어떤 프로필도 처리하지 않은 경우 경고합니다. 이 실패는 기술 문제 또는 대상이 비어 있기 때문에 발생할 수 있습니다. 이 실패가 기술적인 문제로 인해 발생한 경우 문제 유형에 따라 다시 시도가 계속 발생할 수 있습니다(예: 내보내기 작업 만들기가 실패한 경우 최대 1시간 동안 10밀리초마다 다시 시도). [자세히 알아보기](../reports/alerts.md#alert-read-audiences)
 
 ## 방법 비디오 {#video}
 
