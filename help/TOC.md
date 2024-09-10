@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
+source-git-commit: ca28d323a2ef310ec82c732484c8aed1e2641135
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1965'
+ht-degree: 99%
 
 ---
 
@@ -174,6 +174,14 @@ ht-degree: 0%
    + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
    + [캠페인 관리](using/campaigns/modify-stop-campaign.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
++ 게재 테스트 {#test}
+   + {#preview-test} 콘텐츠 미리 보기 및 테스트
+      + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
+      + [테스트 프로필 선택](using/content-management/test-profiles.md)
+      + [콘텐츠 미리 보기](using/content-management/preview.md)
+      + [이메일 증명 보내기](using/content-management/proofs.md)
+      + [이메일 렌더링 테스트](using/content-management/rendering.md)
+      + [이메일 스팸 보고서](using/content-management/spam-report.md)
 + 이메일 채널 {#email}
    + [이메일 시작](using/email/get-started-email.md)
    + [이메일 만들기](using/email/create-email.md)
@@ -330,13 +338,6 @@ ht-degree: 0%
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
-   + 콘텐츠 미리 보기 및 테스트 {#preview-test}
-      + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
-      + [테스트 프로필 선택](using/content-management/test-profiles.md)
-      + [콘텐츠 미리 보기](using/content-management/preview.md)
-      + [이메일 증명 보내기](using/content-management/proofs.md)
-      + [이메일 렌더링 테스트](using/content-management/rendering.md)
-      + [이메일 스팸 보고서](using/content-management/spam-report.md)
 + 대상자, 프로필, 신원{#audiences-profiles-identities}
    + 대상자 {#audiences}
       + [대상자 시작](using/audience/about-audiences.md)
@@ -595,7 +596,7 @@ ht-degree: 0%
    + IP 준비 계획 구현 {#implement-ip-warmup-plan}
       + [IP 준비 계획 시작](using/configuration/ip-warmup-gs.md)
       + [IP 워밍업 캠페인 만들기](using/configuration/ip-warmup-campaign.md)
-      + [IP 준비 계획 만들기](using/configuration/ip-warmup-plan.md)
+      + [IP 워밍업 플랜 만들기](using/configuration/ip-warmup-plan.md)
       + [IP 준비 계획 실행](using/configuration/ip-warmup-execution.md)
       + [IP 준비 계획 파일](using/configuration/ip-warmup-plan-files.md)
    + 이메일 주소 모니터링 {#monitor-reputation}
