@@ -235,7 +235,7 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"
->title="우선 순위 지정의 요소"
+>title="우선 순위 지정 요소"
 >abstract="TBD"
 
 <!--CONTENT LOCKING-->
@@ -257,12 +257,12 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
->title="구조에서 컨텐츠 잠금"
+>title="콘텐츠 고정 구조"
 >abstract="구조에서 컨텐츠 잠금"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_component"
->title="구성 요소에서 특정 잠금 사용"
+>title="특정 고정 구성 요소 사용"
 >abstract="구성 요소에서 특정 잠금 사용"
 
 >[!CONTEXTUALHELP]
@@ -273,7 +273,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="거버넌스 활성화됨"
->abstract="컨텐츠 잠금이 활성화되고 수정하지 못하도록 할 수 있습니다."
+>abstract="콘텐츠 잠금이 활성화되어 수정이 불가할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
