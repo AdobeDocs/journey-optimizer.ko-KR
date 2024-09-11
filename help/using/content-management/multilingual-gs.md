@@ -10,7 +10,7 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
+source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 12%
@@ -58,7 +58,9 @@ Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서
 
    ![](assets/multi-troubleshoot.png)
 
-1. 관리자가 왼쪽 사이드바의 **[!UICONTROL 번역]** 메뉴로 이동해야 합니다. 번역 기능이 자동으로 활성화됩니다.
+1. 관리자가 왼쪽 사이드바의 **[!UICONTROL 번역]** 메뉴로 이동해야 합니다.
+
+   번역 기능이 자동으로 활성화됩니다.
 
 1. 기능을 활성화하면 **[!UICONTROL 프로젝트]**, **[!UICONTROL 공급자]** 및 **[!UICONTROL 로케일]** 탭과 함께 **[!UICONTROL 번역]** 페이지에 액세스할 수 있습니다.
 
