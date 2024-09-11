@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 448568ff9ee96d4fa6dbaaa43ce2d45e38d6b920
+source-git-commit: 616a9c30da4558d1e8b71733732dd4fd1f531ef8
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 42%
@@ -35,7 +35,7 @@ ht-degree: 42%
 
 >[!INFO]
 >
->기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [대화형 데모](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)를 통해 실습 경험에 몰입하세요.
+>기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [대화형 데모](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}를 통해 실습 경험에 몰입하십시오.
 
 
 Microsoft Azure OpenAI 및 Adobe Firefly에서 제공하는 Adobe Journey Optimizer for Content Acceleration의 AI Assistant는 텍스트 및 이미지에 대한 사전 예방적 콘텐츠 변형 제안을 제공합니다. 이메일, 푸시, SMS 채널에 사용 가능합니다. 이 새로운 기능은 프롬프트 기반의 텍스트 및 이미지 생성을 제공합니다. 이미지 생성은 Adobe Firefly로 관리됩니다.
@@ -47,7 +47,7 @@ Adobe Journey Optimizer for Content Acceleration의 AI Assistant를 사용하여
 >* 이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](#generative-guardrails)을 읽어 보십시오.
 >
 >
->* 콘텐츠 가속화를 위해 Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+>* 콘텐츠 가속화를 위해 Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
 ## AI Assistant Content Accelerator 액세스 {#generative-access}
 
