@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
+source-git-commit: 15fd327db3753dfec608bd39344d86cabd5df994
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 97%
+source-wordcount: '1531'
+ht-degree: 96%
 
 ---
 
@@ -219,24 +219,38 @@ ht-degree: 97%
 >abstract="여정의 충돌 뷰어"
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_object_type"
+>id="ajo_rule_set_domain"
 >title="오브젝트 유형"
 >abstract="오브젝트 유형"
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_rule_set"
+>id="ajo_journey_capping_rule"
 >title="여정에 규칙 세트 적용"
 >abstract="추가 예정"
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_rule_set"
+>id="ajo_rule_set_rule_type"
+>title="규칙 유형"
+>abstract="규칙 유형"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="우선 순위 지정 미리 보기"
+>abstract="우선 순위 지정 미리 보기"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_capping_rule"
 >title="캠페인에 규칙 세트 적용"
 >abstract="추가 예정"
+
+<!--TO REMOVE?-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"
 >title="우선 순위 지정 요소"
 >abstract="추가 예정"
+
+<!--TO REMOVE?-->
 
 <!--CONTENT LOCKING-->
 
