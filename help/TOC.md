@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 33dd0568ff55750d0f067e51442b5187820ec36a
+source-git-commit: 17b05590d1518b5cc6aa33a45619c96d6bd4a78e
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '1979'
 ht-degree: 98%
 
 ---
@@ -278,11 +278,11 @@ ht-degree: 98%
 + 콘텐츠 관리 {#content-management}
    + AI 어시스턴트 작업{#ai-assistant}
       + [AI Assistant - Content Accelerator 시작하기](using/content-management/gs-generative.md)
-      + [이메일 생성](using/content-management/generative-email.md)
-      + [CSR 생성](using/content-management/generative-push.md)
-      + [SMS 생성](using/content-management/generative-sms.md)
-      + [웹 생성](using/content-management/generative-web.md)
-      + [AI 어시스턴트로 콘텐츠 실험](using/content-management/generative-experimentation.md)
+      + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
+      + [AI를 사용한 푸시 생성](using/content-management/generative-push.md)
+      + [AI를 사용한 SMS 생성](using/content-management/generative-sms.md)
+      + [AI를 사용한 웹 생성](using/content-management/generative-web.md)
+      + [AI로 콘텐츠 실험](using/content-management/generative-experimentation.md)
       + [AI 길잡이 사용 사례](using/content-management/generative-uc.md)
    + 다국어 콘텐츠 작업{#content-multilingual}
       + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
