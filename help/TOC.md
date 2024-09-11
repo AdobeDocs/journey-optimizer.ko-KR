@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 633d2f423301680a7aff83b748a08a6f1a1bbf16
+source-git-commit: 33dd0568ff55750d0f067e51442b5187820ec36a
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 99%
+source-wordcount: '1973'
+ht-degree: 98%
 
 ---
 
@@ -277,7 +277,7 @@ ht-degree: 99%
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
 + 콘텐츠 관리 {#content-management}
    + AI 어시스턴트 작업{#ai-assistant}
-      + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
+      + [AI Assistant - Content Accelerator 시작하기](using/content-management/gs-generative.md)
       + [이메일 생성](using/content-management/generative-email.md)
       + [CSR 생성](using/content-management/generative-push.md)
       + [SMS 생성](using/content-management/generative-sms.md)
