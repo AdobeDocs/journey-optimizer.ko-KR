@@ -10,10 +10,10 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
+source-git-commit: e3685815dfed23c9fefa148e0025181258537135
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 20%
+source-wordcount: '414'
+ht-degree: 12%
 
 ---
 
@@ -37,6 +37,11 @@ Journey Optimizer을 사용하면 두 가지 서로 다른 방법을 통해 다�
 
 ## 전제 조건 {#prerequisites}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_error"
+>title="번역 오류
+>abstract="번역 페이지에 액세스할 수 없는 경우 번역 기능이 활성화되지 않았기 때문일 수 있습니다. 이 문제를 해결하려면 조직 및 샌드박스 관리자가 번역 기능을 활성화해야 합니다."
+
 Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서드파티 번역 서비스(기계 번역 또는 사람 번역)를 제공하는 번역 공급업체와 통합됩니다.
 
 선택한 번역 공급업체를 추가하기 전에 해당 공급업체에 계정을 만들어야 합니다.
@@ -44,6 +49,22 @@ Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서
 번역 공급업체의 번역 서비스를 사용하는 경우 해당 공급업체의 추가 약관이 적용됩니다.  타사 솔루션인 번역 서비스는 통합을 통해 Adobe Journey Optimizer 사용자에게 제공됩니다.  Adobe은 타사 제품을 제어하지 않으며 책임도 지지 않습니다.
 
 번역과 관련된 문제 또는 지원 요청은 해당 번역 공급업체에 문의하십시오.
+
+번역 페이지에 액세스할 수 없는 경우 번역 기능을 활성화해야 합니다.
+
++++ 번역 기능 활성화 방법 알아보기
+
+1. 다음 오류 페이지가 표시되면 **[!UICONTROL 번역]** 기능이 아직 활성화되지 않았음을 나타냅니다. 조직 및 샌드박스 관리자에게 문의하십시오. 액세스 권한 요청.
+
+   ![](assets/multi-troubleshoot.png)
+
+1. 관리자가 왼쪽 사이드바의 **[!UICONTROL 번역]** 메뉴로 이동해야 합니다. 번역 기능이 자동으로 활성화됩니다.
+
+1. 기능을 활성화하면 **[!UICONTROL 프로젝트]**, **[!UICONTROL 공급자]** 및 **[!UICONTROL 로케일]** 탭과 함께 **[!UICONTROL 번역]** 페이지에 액세스할 수 있습니다.
+
+1. 이 절차가 실패해도 동일한 오류 페이지가 표시됩니다. 이 경우 추가 지원이 필요한 경우 Adobe 담당자에게 문의하십시오.
+
++++
 
 ## 방법 비디오 {#video}
 
