@@ -1,40 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI 어시스턴트로 콘텐츠 실험
-description: AI 어시스턴트로 콘텐츠 실험
+title: Journey Optimizer - Content Accelerator의 AI Assistant를 사용한 콘텐츠 실험
+description: Journey Optimizer for Content Acceleration의 AI Assistant를 사용한 콘텐츠 실험
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d331c475f2460facf33ed275131f0c2e9517e27c
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 22%
+source-wordcount: '274'
+ht-degree: 4%
 
 ---
 
-# AI 어시스턴트로 콘텐츠 실험 {#generative-experimentation}
+# Journey Optimizer - Content Accelerator의 AI Assistant를 사용한 콘텐츠 실험 {#generative-experimentation}
 
->[!BEGINSHADEBOX]
+>[!IMPORTANT]
+>
+>이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어 보십시오.
+></br>
+>
+>콘텐츠 가속화를 위해 Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
 
-**목차**
+메시지를 만들고 개인화한 후에는 콘텐츠 실험 기능이 포함된 Adobe Journey Optimizer for Content Acceleration의 AI Assistant를 사용하여 콘텐츠를 향상시킵니다. 이 도구를 사용하면 다양한 콘텐츠에서 여러 게재 처리를 정의하여 타겟 대상의 성능을 측정할 수 있습니다.
 
-* [AI 어시스턴트 시작하기](gs-generative.md)
-* [AI 어시스턴트를 통한 이메일 생성](generative-email.md)
-* [AI 어시스턴트를 통한 SMS 생성](generative-sms.md)
-* [AI 어시스턴트와 함께하는 푸시 세대](generative-push.md)
-* AI 어시스턴트로 콘텐츠 실험
-
->[!ENDSHADEBOX]
-
-메시지를 만들고 개인화한 후에는 콘텐츠 실험 기능이 포함된 Adobe Journey Optimizer의 AI Assistant를 사용하여 콘텐츠를 향상시킵니다. 이 도구를 사용하면 다양한 콘텐츠에서 여러 게재 처리를 정의하여 타겟 대상의 성능을 측정할 수 있습니다.
-
-1. 캠페인을 만들고 AI Assistant를 사용하여 변형을 생성합니다.
+1. 캠페인을 만들고 AI Assistant for Content Acceleration을 사용하여 변형을 생성합니다.
 
    이 예에서는 프로모션 코드가 포함된 구독 확인 이메일을 생성했습니다.
 
@@ -48,7 +40,7 @@ ht-degree: 22%
 
 1. 실험에 포함할 변형을 선택합니다.
 
-1. **X개 처리 추가**&#x200B;를 클릭합니다.
+1. **실험에 추가**&#x200B;를 클릭합니다.
 
    ![](assets/experiment-genai-3.png)
 

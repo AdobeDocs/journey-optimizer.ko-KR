@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: a3a0a1515823995e16865bfee9757f995b97c821
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '771'
 ht-degree: 2%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 2%
 
 | 기능 | 권한 |
 |-|-|
+| AI 어시스턴트 | **[!DNL Generate content]**: 콘텐츠 가속화를 위해 Journey Optimizer의 AI 도우미에 액세스합니다. |
 | 캠페인 | **[!DNL Manage campaigns]**: 캠페인을 읽고, 만들고, 편집하고, 삭제합니다. </br>**[!DNL Publish campaigns]**: 캠페인을 게시할 수 있는 권한.</br>**[!DNL View campaigns]**: 캠페인에 대한 읽기 전용 액세스 권한. </br>**[!DNL View campaigns report]**: 캠페인 보고서를 읽고 편집합니다. |
-| 보고서 | **[!DNL View channel reports]**: 채널 보고서를 읽고 편집합니다. |
 | 채널 구성 | **[!DNL Export suppression list]**: 비표시 목록을 CSV 파일로 내보내기에 액세스할 수 있습니다.</br>**[!DNL Manage alerts]**: 캠페인, 메시지 및 권한에 대한 경고를 활성화/비활성화합니다.</br> **[!DNL Manage file routing]**: 파일 라우팅 구성을 읽고 만들고 편집하고 삭제합니다. </br> **[!DNL Manage IP pools]**: ip 풀을 읽고, 만들고, 편집하고, 삭제합니다. </br>**[!DNL Manage landing page settings]**: 랜딩 페이지 설정을 읽고, 만들고, 편집하고, 삭제합니다.</br> **[!DNL Manage messages general settings]**: 메시지 일반 설정을 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage messages presets]**: 콘텐츠 브랜딩을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage PTR records]**: PTR 레코드를 읽고 편집합니다. </br>**[!DNL Manage SMS settings]**: SMS 설정을 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage SMS subdomains]**: SMS 하위 도메인을 읽고, 만들고, 편집하고, 삭제합니다.</br> **[!DNL Manage Seedlist]**: Seedlist 읽기, 만들기, 편집 및 삭제 </br> **[!DNL Manage subdomains delegation]**: 하위 도메인 위임을 읽고, 만들고, 편집하고, 삭제합니다. </br>**[!DNL Manage suppression rules]**: 비표시 규칙에 액세스, 만들기, 편집 및 삭제.</br> **[!DNL View channel surfaces]**: 채널 표면에 대한 읽기 전용 액세스입니다.</br>**[!DNL View file routing]**: 파일 라우팅 구성에 대한 읽기 전용 액세스입니다.</br>**[!DNL View messages general settings]**: 메시지 일반 설정에 대한 읽기 전용 액세스입니다.</br> **[!DNL View messages presets]**: 메시지 사전 설정에 대한 읽기 전용 액세스 권한. </br> **[!DNL View PTR records]**: PTR 레코드에 대한 읽기 전용 액세스 권한.</br>**[!DNL View suppression list]**: 로컬 비표시 목록을 읽고 내보냅니다. |
 | 대시보드 | **[!DNL View license usage dashboards]**: [라이선스 사용 대시보드](../audience/license-usage.md)에 대한 읽기 전용 액세스 권한입니다. </br>**[!DNL Manage custom dashboards]**: 새 대시보드를 만들거나 기존 대시보드를 편집할 수 있습니다.</br>**[!DNL Manage standard dashboards]**: 위젯 라이브러리를 통해 사용자 정의 위젯을 만들고 위젯 스키마를 편집할 수 있습니다.</br>**[!DNL View custom dashboards]**: 사용자 정의 대시보드에 대한 읽기 전용 액세스 권한.</br>**[!DNL View standard dashboards]**: 프로필, 대상 및 대상 대시보드에 대한 읽기 전용 액세스 권한. |
 | 데이터 수집 | **[!DNL Manage datastream]**: 데이터 스트림을 읽고 만들고 편집합니다.</br>**[!DNL View datastream]**: 데이터스트림에 대한 읽기 전용 액세스입니다. |
@@ -40,6 +40,7 @@ ht-degree: 2%
 | 여정 | **[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제 여정에 액세스하고 관리하려면 이 권한을 **[!DNL View journeys events, data sources and actions]**&#x200B;과(와) 결합하십시오.</br>**[!DNL Manage journeys events, data sources and actions]**: 이벤트, 소스 또는 작업을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Publish journeys]**: 여정 게시.</br>**[!DNL View journeys]**: 여정에 대한 읽기 전용 액세스 권한.</br>**[!DNL View journeys events, data sources and actions]**: 여정 이벤트, 여정 지정 작업 및 여정 데이터 소스에 대한 읽기 전용 액세스 권한.</br>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</br> |
 | 프로필 관리 | **[!DNL Evaluate a segment to an audience]**: 세그먼트 정의를 평가하여 대상에 대한 프로필을 생성합니다.</br>**[!DNL Export audience segments]**: 평가된 대상 세그먼트를 데이터 세트로 내보냅니다.</br>**[!DNL Manage merge policies]**: 병합 정책을 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage profiles]**: 고객 프로필에 사용되는 데이터 세트를 읽고, 만들고, 편집하고, 삭제합니다. 사용 가능한 프로필에 대한 읽기 전용 액세스 권한.</br>**[!DNL View merge policies]**: 사용 가능한 병합 정책에 대한 읽기 전용 액세스입니다.</br>**[!DNL View profiles]**: 사용 가능한 프로필에 대한 읽기 전용 액세스 권한.</br>**[!DNL View segments]**: 사용 가능한 대상에 대한 읽기 전용 액세스 권한. |
 | 쿼리 서비스 | **[!DNL Manage queries]**: Platform 데이터에 대한 구조화된 SQL 쿼리를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage query service integration]**: 쿼리 서비스 액세스에 대한 만료되지 않는 자격 증명을 만들고, 업데이트하고, 삭제합니다. |
+| 보고서 | **[!DNL View channel reports]**: 채널 보고서를 읽고 편집합니다. |
 | 샌드박스 관리 | **[!DNL Export sandboxes]**: 샌드박스를 내보내는 기능.</br>**[!DNL Manage packages]**: 패키지를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage sandboxes]**: 샌드박스를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View sandboxes]**: 조직에 속한 샌드박스에 대한 읽기 전용 액세스 권한.</br>**[!DNL Reset sandboxes]**: 샌드박스를 재설정하는 기능. |
 
 {style="table-layout:fixed"}
