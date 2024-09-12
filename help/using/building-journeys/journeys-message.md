@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
+source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1195'
 ht-degree: 17%
 
 ---
@@ -40,7 +40,9 @@ ht-degree: 17%
 
 1. 팔레트의 **작업** 섹션에서 **이메일**, **인앱**, **SMS** 또는 **푸시** 활동을 캔버스로 드래그하여 놓습니다.
 
-1. 활동을 구성합니다. 다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
+1. 활동을 구성합니다.
+
+   다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
@@ -80,6 +82,11 @@ ht-degree: 17%
    </td>
    </tr>
    </table>
+
+>[!NOTE]
+>
+>각 인바운드 메시지 활동(인앱 메시지, 코드 기반 경험 또는 카드)에는 3일 **대기** 활동이 제공됩니다. [자세히 알아보기](../building-journeys/wait-activity.md#auto-wait-node)
+>
 
 ## 라이브 콘텐츠 업데이트{#update-live-content}
 
