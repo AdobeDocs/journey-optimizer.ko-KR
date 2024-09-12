@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer - Content Accelerator의 AI Assistant를 사용한 콘텐츠 실험
+title: Journey Optimizer Content Accelerator의 AI Assistant를 사용한 콘텐츠 실험
 description: Journey Optimizer for Content Acceleration의 AI Assistant를 사용한 콘텐츠 실험
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
+source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 4%
 
 ---
 
-# AI Assistant - Content Accelerator로 콘텐츠 실험 {#generative-experimentation}
+# AI Assistant Content Accelerator로 콘텐츠 실험 {#generative-experimentation}
 
 >[!IMPORTANT]
 >
