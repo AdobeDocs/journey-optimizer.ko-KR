@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 067c990f7f82594418d59c3b1587a62a04799c09
+source-git-commit: 3d79eca67dbfe5011a4bbc4955bbbfb5d6c17b38
 workflow-type: tm+mt
-source-wordcount: '1561'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -150,10 +150,6 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
 1. **[!UICONTROL 요청]** 섹션에 외부 서비스로 전송할 JSON 페이로드의 예제를 붙여 넣으십시오. 이 필드는 선택 사항이며 POST 및 PUT 호출 메서드에만 사용할 수 있습니다.
 
 1. **[!UICONTROL 응답]** 섹션에 호출에서 반환된 페이로드의 예제를 붙여 넣습니다. 이 필드는 선택 사항이며 모든 호출 방법에서 사용할 수 있습니다. 사용자 지정 작업에서 API 호출 응답을 활용하는 방법에 대한 자세한 내용은 [이 페이지](../action/action-response.md)를 참조하세요.
-
->[!NOTE]
->
->응답 기능은 현재 Beta 버전으로 제공됩니다.
 
 ![](assets/action-response2bis.png){width="70%" align="left"}
 
