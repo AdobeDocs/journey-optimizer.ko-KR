@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 98%
+source-wordcount: '2010'
+ht-degree: 96%
 
 ---
 
@@ -262,6 +262,14 @@ ht-degree: 98%
    + [코드 기반 경험 구성 만들기](using/code-based/code-based-configuration.md)
    + [구현 방법 샘플](using/code-based/code-based-implementation-samples.md)
    + [코드 기반 경험 만들기](using/code-based/create-code-based.md)
++ 콘텐츠 카드(LA){#content-card}
+   + [콘텐츠 카드 시작](using/content-card/get-started-content-card.md)
+   + 콘텐츠 카드 채널 {#configure} 구성
+      + [콘텐츠 카드 사전 요구 사항](using/content-card/content-card-configuration-prereq.md)
+      + [Journey Optimizer에서 컨텐츠 카드 채널 구성](using/content-card/content-card-configuration.md)
+   + [콘텐츠 카드 만들기](using/content-card/create-content-card.md)
+   + [콘텐츠 카드 디자인](using/content-card/design-content-card.md)
+   + [컨텐츠 카드 보고서](using/content-card/content-card-report.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
