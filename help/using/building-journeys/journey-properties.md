@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: c15894e0d474fbf3a8aa789632719b2c4c8d9612
+source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 17%
@@ -24,7 +24,7 @@ ht-degree: 17%
 >abstract="이 섹션은 여정 속성을 보여 줍니다. 기본적으로 읽기 전용 매개변수는 숨겨져 있습니다. 사용 가능한 설정은 여정 상태, 권한 및 제품 구성에 따라 다릅니다."
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_exit_criteria"
+>id="ajo_journey_exit_criterias"
 >title="여정 종료 기준"
 >abstract="이 섹션에는 종료 기준 옵션이 표시됩니다. 여정에 대해 하나 이상의 종료 기준 규칙을 만들 수 있습니다."
 
