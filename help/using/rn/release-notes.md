@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b560c88bf97143ca9dadf1399862165cb3f7bc62
+source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 82%
+source-wordcount: '950'
+ht-degree: 80%
 
 ---
 
@@ -71,9 +71,15 @@ ht-degree: 82%
 </tbody>
 </table>
 
+**대상자**
+
+(사용 가능한 날짜: 9월 17일) **라이선스 사용** - 이제 라이선스 사용 대시보드에 참여 가능한 대상 대신 참여 가능한 프로필이 표시됩니다. [자세히 보기](../audience/license-usage.md)
+
 **여정**
 
 (사용 가능한 날짜: 9월 10일) **다시 시도 기능** - 이제 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상 읽기** 또는 **비즈니스 이벤트**)에 대해 기본적으로 다시 시도가 적용됩니다. 내보내기 작업을 만드는 동안 오류가 발생하면 10밀리초마다 최대 1시간 동안 다시 시도됩니다. 그 후에는 실패로 간주할 것입니다. 따라서 이러한 유형의 여정은 예약된 시간보다 최대 1시간 후에 실행될 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md#retries)
+
+
 
 ## 2024년 8월 릴리스 정보 {#8-2024}
 
