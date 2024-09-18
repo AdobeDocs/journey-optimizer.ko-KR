@@ -13,7 +13,7 @@ badge: label="제한된 가용성" type="Informative"
 source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 12%
+ht-degree: 22%
 
 ---
 
@@ -40,7 +40,7 @@ Journey Optimizer을 사용하면 두 가지 서로 다른 방법을 통해 다�
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
 >title="번역 오류"
->abstract="번역 페이지에 액세스할 수 없는 경우 번역 기능이 활성화되지 않았기 때문일 수 있습니다. 이 문제를 해결하려면 조직 및 샌드박스 관리자가 번역 기능을 활성화해야 합니다."
+>abstract="번역 페이지에 액세스할 수 없다면 번역 기능이 활성화되어 있지 않기 때문일 수 있습니다. 이 문제를 해결하려면 조직 및 샌드박스 관리자가 번역 기능을 활성화했는지 확인해야 합니다."
 
 Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서드파티 번역 서비스(기계 번역 또는 사람 번역)를 제공하는 번역 공급업체와 통합됩니다.
 
