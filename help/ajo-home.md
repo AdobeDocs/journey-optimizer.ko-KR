@@ -24,7 +24,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 ✨ 기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [AI Assistant Content Accelerator](../help/using/content-management/gs-generative.md) 라이브 기능 미리 보기를 통해 실습 경험에 몰입하십시오.
 
-[![자세히 알아보기](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![자세히 알아보기](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Customer Journey Analytics를 사용한 보고(Beta)]
 

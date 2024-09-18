@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 80%
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant Content Accelerator </strong><br/></th>
+<th><strong>AI 어시스턴트 콘텐츠 가속기 </strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>메시지를 만들고 개인화한 후에는 Journey Optimizer for Content Acceleration의 AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다. 이제 AI 비서를 사용하여 다양한 주요 제목과 이미지를 실험하여 메시지의 영향을 최적화할 수 있습니다. 각 변형 버전이 고유한 처리 항목으로 관리되어 어떤 제목이 더 많은 클릭으로 이어지는지 측정하고 비교할 수 있습니다.</p>
-<p>기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">라이브 기능 미리 보기</a>를 통해 실습 경험에 몰입하세요.</a>.</p>
+<p>메시지를 만들고 개인화한 뒤 콘텐츠 가속을 위한 Journey Optimizer의 AI 어시스턴트로 콘텐츠를 한 단계 더 발전시켜 보세요. 이제 Al 어시스턴트를 사용하여 다양한 주요 제목과 이미지를 실험해 보며 메시지의 영향을 최적화할 수 있습니다. 각 변형 버전이 고유한 처리 항목으로 관리되어 어떤 제목이 더 많은 클릭으로 이어지는지 측정하고 비교할 수 있습니다.</p>
+<p>기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 <a href="https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator">라이브 기능 미리 보기</a>를 통해 실습 경험에 몰입하세요.</a>.</p>
 <p>자세한 내용은 <a href="../content-management/gs-generative.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
 <p>사용 가능한 날짜: 9월 12일</p>
@@ -77,7 +77,7 @@ ht-degree: 80%
 
 **여정**
 
-(사용 가능한 날짜: 9월 10일) **다시 시도 기능** - 이제 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상 읽기** 또는 **비즈니스 이벤트**)에 대해 기본적으로 다시 시도가 적용됩니다. 내보내기 작업을 만드는 동안 오류가 발생하면 10밀리초마다 최대 1시간 동안 다시 시도됩니다. 그 후에는 실패로 간주할 것입니다. 따라서 이러한 유형의 여정은 예약된 시간보다 최대 1시간 후에 실행될 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md#retries)
+(사용 가능한 날짜: 9월 10일) **다시 시도 기능** - 이제 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에 대해 기본적으로 다시 시도가 적용됩니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md#retries)
 
 
 

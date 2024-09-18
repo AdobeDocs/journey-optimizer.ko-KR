@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
 workflow-type: tm+mt
 source-wordcount: '2010'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -175,7 +175,7 @@ ht-degree: 96%
    + [캠페인 관리](using/campaigns/modify-stop-campaign.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
 + 게재 테스트 {#test}
-   + {#preview-test} 콘텐츠 미리 보기 및 테스트
+   + 콘텐츠 미리 보기 및 테스트 {#preview-test}
       + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
       + [테스트 프로필 선택](using/content-management/test-profiles.md)
       + [콘텐츠 미리 보기](using/content-management/preview.md)
@@ -291,7 +291,7 @@ ht-degree: 96%
       + [AI를 사용한 SMS 생성](using/content-management/generative-sms.md)
       + [AI를 사용한 웹 생성](using/content-management/generative-web.md)
       + [AI로 콘텐츠 실험](using/content-management/generative-experimentation.md)
-      + [AI 길잡이 사용 사례](using/content-management/generative-uc.md)
+      + [AI 어시스턴트 사용 사례](using/content-management/generative-uc.md)
    + 다국어 콘텐츠 작업{#content-multilingual}
       + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
       + [수동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-manual.md)
