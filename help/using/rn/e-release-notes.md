@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d2d4667d9d2297004905d77f2a8f03fd6758f90f
+source-git-commit: d998a66421c277b7a46e5f15585a9768bc360a7a
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 44%
+source-wordcount: '1264'
+ht-degree: 43%
 
 ---
 
@@ -187,9 +187,9 @@ ht-degree: 44%
 
 **API**
 
-* [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/simulations/)는 이제 대화형입니다. 설명서 페이지에서 직접 API 끝점을 탐색하여 즉각적인 피드백을 받고 기술 구현 속도를 높이십시오.
+* [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}는 이제 대화형입니다. 설명서 페이지에서 직접 API 끝점을 탐색하여 즉각적인 피드백을 받고 기술 구현 속도를 높이십시오.
 
-  이제 모든 API 참조 페이지에 설명서 웹 사이트 페이지에서 직접 API 호출을 테스트하는 데 사용할 수 있는 **사용해 보기** 기능이 있습니다. [필요한 인증 자격 증명을 얻고](/help/landing/api-authentication.md) 이 기능을 사용하여 API 엔드포인트를 탐색하기 시작합니다.
+  이제 모든 API 참조 페이지에 설명서 웹 사이트 페이지에서 직접 API 호출을 테스트하는 데 사용할 수 있는 **사용해 보기** 기능이 있습니다. [필요한 인증 자격 증명을 가져오고](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"} 기능을 사용하여 API 끝점을 살펴보십시오.
 
   이 새로운 기능을 사용하여 API 끝점에 대한 요청과 응답을 탐색하고, 즉각적인 피드백을 얻으며 기술 구현 속도를 높입니다.
 
@@ -198,5 +198,5 @@ ht-degree: 44%
   >설명서 페이지의 대화형 API 기능을 사용하면 엔드포인트에 실제 API 호출을 할 수 있다는 점에 유의하십시오. 프로덕션 샌드박스를 실험할 때는 이 점을 명심하십시오.
 
 
-* **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 증명 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/)
+* **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 증명 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
