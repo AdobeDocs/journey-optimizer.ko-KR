@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
+source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 99%
+source-wordcount: '1591'
+ht-degree: 95%
 
 ---
 
@@ -299,7 +299,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="데이터 거버넌스 정책 위반"
->abstract="데이터 거버넌스 정책 위반"
+>abstract="시스템이 여정/캠페인에서 제한된 필드 또는 사용자 지정 작업을 식별하는 경우 게시할 수 없는 오류가 표시됩니다. 이 대화 상자의 데이터 계보 다이어그램을 사용하여 여정 또는 캠페인을 활성화하기 전에 다른 구성 변경 작업을 수행해야 하는 사항을 이해합니다."
 
 <!--APPROVAL POLICIES-->
 
