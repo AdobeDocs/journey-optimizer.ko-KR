@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 23ff5c26620c8d7119abec5994c7ac3e7e2a208d
+source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 45%
+source-wordcount: '1008'
+ht-degree: 44%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>이제 여정에 대한 종료 기준 규칙을 정의하고 결합할 수 있습니다.</p>
+<p>이제 여정 수준에서 종료 기준을 정의합니다. 종료 기준을 추가하면, 프로필이 이벤트가 발생하는 즉시(예: 구매) 여정을 종료하거나 대상에 적격이 됩니다. 이렇게 하면 사용자가 여정에서 더 이상 커뮤니케이션을 받지 못하게 됩니다.</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
