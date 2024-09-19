@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
+source-git-commit: f5bcafb0963c5adf4a0ab307f611fd9cc0b34005
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 95%
+source-wordcount: '1797'
+ht-degree: 80%
 
 ---
 
@@ -201,22 +201,22 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="우선 순위"
->abstract="여정에 0~100 사이의 우선 순위 점수를 할당합니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 두 여정이 동일한 표면을 사용하면 Journey Optimizer에서 우선 순위 점수가 가장 높은 여정을 선택합니다. 여정의 점수가 동일한 경우, 가장 최근에 수정한 여정을 선택합니다."
+>abstract="여정에 0~100 사이의 우선 순위 점수를 할당합니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 여기에 삽입된 우선 순위 값은 이 여정에 포함된 모든 인바운드 작업(예: 인앱)에 상속됩니다. 다른 캠페인이나 여정에서 이 동일한 인바운드 표면이 사용되는 상황의 경우 우선 순위 점수가 가장 높은 인바운드 작업이 수신자에게 표시됩니다. 여러 여정 또는 캠페인의 점수가 동일한 경우, 가장 최근에 수정된 요소가 선택됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="우선 순위"
->abstract="캠페인에 0~00 사이의 우선 순위 점수를 할당합니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 두 캠페인이 동일한 표면을 사용하면 Journey Optimizer에서 우선 순위 점수가 가장 높은 캠페인을 선택합니다. 캠페인의 점수가 동일한 경우, 가장 최근에 수정한 캠페인을 선택합니다."
+>abstract="캠페인에 0~00 사이의 우선 순위 점수를 할당합니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 동일한 인바운드 표면(예: 인앱)이 다른 캠페인이나 여정에서 사용되는 상황의 경우, 우선 순위 점수가 가장 높은 인바운드 작업이 수신자에게 표시됩니다. 여러 여정 또는 캠페인의 점수가 동일한 경우, 가장 최근에 수정된 요소가 선택됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="캠페인의 충돌 뷰어"
->abstract="캠페인의 충돌 뷰어"
+>abstract="이 도구를 사용하면 다른 여정, 캠페인 또는 서피스와의 겹침을 확인할 수 있습니다. 대상, 시작 및 종료 날짜, 채널 구성, 채널 또는 규칙 세트에 대한 겹침을 식별하려면 여기에서 잠재적인 충돌을 볼 수 있습니다. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="여정의 충돌 뷰어"
->abstract="여정의 충돌 뷰어"
+>abstract="이 도구를 사용하면 다른 여정, 캠페인 또는 서피스와의 겹침을 확인할 수 있습니다. 대상, 시작 및 종료 날짜, 채널 구성, 채널 또는 규칙 세트에 대한 겹침을 식별하려면 여기에서 잠재적인 충돌을 볼 수 있습니다. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -226,7 +226,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="여정에 규칙 세트 적용"
->abstract="추가 예정"
+>abstract="규칙 세트를 적용하여 빈도 제한 규칙에 따라 대상의 일부에 이 여정을 제외합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -236,7 +236,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="우선 순위 지정 미리 보기"
->abstract="우선 순위 지정 미리 보기"
+>abstract=" 여기에 지정된 기간 내에 우선순위가 더 높은 여정이 예약되는 경우 고객은 이 여정에 참여할 수 없습니다. 선착순으로 여정을 입력하려는 상황의 경우, 먼저 일별 예상 기간을 선택하고 해당 일에 다른 여정의 우선 순위 점수가 여정의 우선 순위 점수보다 작도록 하는 것이 좋습니다. 우선 순위 점수 100을 여정에 제공하면에 반드시 입력되도록 할 수도 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
