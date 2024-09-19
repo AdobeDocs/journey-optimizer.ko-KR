@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
+source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 48%
+source-wordcount: '956'
+ht-degree: 49%
 
 ---
 
@@ -193,6 +193,7 @@ ht-degree: 48%
 **이메일 채널**
 
 * **BCC 메시지 헤더** - 모든 전자 메일 메시지에 새 헤더가 추가되었습니다. 이 헤더의 값은 보낸 각 이메일과 해당 BCC 이메일 사본에 대해 고유합니다. 이 헤더는 메시지 및 BCC 피드백 데이터 세트에도 저장되며, 이를 통해 BCC 사본과 해당 전송된 이메일 정보를 조정할 수 있습니다.
+* **스팸 점수**(GA) - 이제 전용 스팸 보고서에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 또는 사서함 공급자가 이를 스팸으로 간주할지 여부를 나타내는 점수를 매길 수 있습니다. [자세히 보기](../content-management/spam-report.md)
 
 **SMS 채널**
 
