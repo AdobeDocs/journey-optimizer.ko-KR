@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
+source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '907'
+ht-degree: 48%
 
 ---
 
@@ -29,23 +29,21 @@ ht-degree: 0%
 
 이번 릴리스에는 아래에 있는 새로운 기능이 제공됩니다.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>모바일 앱 및 웹 사이트용 컨텐츠 카드</strong><br/></th>
+<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>콘텐츠 카드는 모바일 앱 및 웹 사이트에서 직접 개인화되고 흥미로운 콘텐츠를 제공하는 Adobe Journey Optimizer의 새로운 디지털 메시지 기능입니다. 기존 푸시 알림과 달리 콘텐츠 카드는 사용자 인터페이스에 원활하게 통합되어 사용자 상호 작용과 경험을 향상시키고 방해하지 않는 지속적인 업데이트를 제공합니다.</p>
-<p>이 기능을 통해 마케터는 사용자에게 관련성이 높은 리치 미디어 콘텐츠를 제공할 수 있으므로 참여도가 높아지고 사용자 여정을 중단하지 않고도 중요한 메시지를 볼 수 있습니다.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -82,22 +80,37 @@ ht-degree: 0%
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
-<th><strong>여정의 코드 기반 경험</strong><br/></th>
+<th><strong>여정의 전역 종료 기준</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>코드 기반 경험 채널을 사용하면 Adobe Journey Optimizer을 통해 인바운드 속성에 대해 고급 개인화 및 테스트를 수행할 수 있으므로 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV 연결 장치, 스마트 TV, 키오스크, ATM, IoT 장치 등과 같은 다양한 접점에서 맞춤형 경험을 원활하게 전달할 수 있습니다. 이제 여정 캔버스에서 코드 기반 경험 채널을 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../code-based/get-started-code-based.md">세부 설명서</a>를 참조하십시오.</p>
+<p>이제 여정에 대한 종료 기준 규칙을 정의하고 결합할 수 있습니다.</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
 </tr>
 </tbody>
 </table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Code-based experiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
+<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table-->
 
 
 <table>
@@ -151,25 +164,25 @@ ht-degree: 0%
 **대상자**
 
 * 이제 사용자 정의 업로드(CSV 파일)에서 가져온 대상자를 Privacy 및 Security Shield 추가 기능에도 사용할 수 있습니다.
-* 이제 사용자 지정 업로드(CSV 파일) 대상자를 타기팅할 때 캠페인 및 여정에 있는 파일의 속성을 사용할 수 있습니다. 이러한 속성은 개인화 편집기에서 메시지를 개인화하는 데 사용할 수 있으며 여정 고급 표현식 편집기에서 사용할 수 있습니다.
+  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * (사용 가능한 날짜: 9월 17일) **라이선스 사용** - 이제 라이선스 사용 대시보드에 참여 가능한 대상 대신 참여 가능한 프로필이 표시됩니다. [자세히 알아보기](../audience/license-usage.md)
 
 **데이터 거버넌스**
 
 * 이제 여정 내의 사용자 지정 작업 외에도 Journey Optimizer 채널에 데이터 거버넌스 정책을 적용할 수 있습니다. 이러한 개선된 기능은 채널 구성 내에서 직접 마케팅 작업을 적용하여 커뮤니케이션에서 민감한 필드를 사용하지 않도록 합니다.
 
+<!--
+**Frequency and priority management**
 
-**빈도 및 우선 순위 관리**
+* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
 
-* **캠페인이나 여정에 따른 빈도 제한** - 이제 여정에 적용할 빈도 규칙을 만들 수 있으므로 일별, 주별 또는 월별 여정 수를 제한하고 동시에 실행되는 동시 여정 수를 제어할 수 있습니다.
+* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
 
-* **우선 순위 점수** - 이제 0에서 100 범위의 우선 순위 점수를 캠페인이나 여정에 할당할 수 있습니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 두 개의 캠페인 또는 여정이 동일한 표면을 사용하는 경우 Journey Optimizer에서 우선순위 점수가 가장 높은 것을 선택합니다. 캠페인의 점수가 동일한 경우, 가장 최근에 수정된 캠페인이 선택됩니다. 우선 순위 점수는 캠페인의 모든 인바운드 채널에 사용할 수 있으며 여정의 인앱 채널에 사용할 수 있습니다.
+* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
+-->
 
-* **충돌 보기** - 이제 여정 및 캠페인의 새 **충돌 보기** 단추를 사용하여 시작 날짜, 타깃팅된 대상 또는 선택한 여정 구성과 같은 다른 채널 또는 캠페인과 겹칠 가능성이 있을 때마다 확인할 수 있습니다.
 
 **여정**
-
-* **전역 종료 기준** - 이제 여정에 대한 종료 기준 규칙을 정의하고 결합할 수 있습니다.
 
 * **최대 라이브 여정 수** - 이제 Journey Optimizer에는 프로덕션 샌드박스에서 100개가 아닌 500개의 라이브 여정이 있습니다. 라이브 여정 수는 여정 캔버스에 표시됩니다.
 
