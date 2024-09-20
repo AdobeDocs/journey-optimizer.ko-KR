@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
+source-git-commit: 88e85f79cc55899f8b803c37f660971751353e30
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
@@ -174,8 +174,8 @@ ht-degree: 64%
 
 **대상자**
 
-* 이제 사용자 정의 업로드(CSV 파일)에서 가져온 대상자를 Privacy 및 Security Shield 추가 기능에도 사용할 수 있습니다.
-  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
+<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.
+* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * (사용 가능한 날짜: 9월 17일) **라이선스 사용** - 이제 라이선스 사용 대시보드에 참여 가능한 대상 대신 참여 가능한 프로필이 표시됩니다. [자세히 알아보기](../audience/license-usage.md)
 
 **데이터 거버넌스**
@@ -210,9 +210,12 @@ ht-degree: 64%
 
 **SMS 채널**
 
-* 이제 기존 SMS 구성을 수정할 수 있습니다
+* **API 자격 증명 편집** - 이제 옵트인/옵트아웃 키워드 및 답글 업데이트를 포함하여 SMS API 자격 증명의 설정을 편집할 수 있습니다.
+* 이제 기존 SMS 구성을 수정할 수 있습니다.
 
 **API**
+
+* **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 증명 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 * [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}는 이제 대화형입니다. 설명서 페이지에서 직접 API 끝점을 탐색하여 즉각적인 피드백을 받고 기술 구현 속도를 높이십시오.
 
@@ -223,9 +226,6 @@ ht-degree: 64%
   >[!CAUTION]
   >
   >설명서 페이지의 대화형 API 기능을 사용하면 엔드포인트에 실제 API 호출을 할 수 있다는 점에 유의하십시오. 프로덕션 샌드박스를 실험할 때는 이 점을 명심하십시오.
-
-
-* **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 증명 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 
 ## 2024년 8월 릴리스 정보 {#8-2024}
