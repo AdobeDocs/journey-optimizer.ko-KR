@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6229f295b961b0535139b64928216e40c3759947
+source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 80%
+source-wordcount: '1558'
+ht-degree: 89%
 
 ---
 
@@ -197,26 +197,6 @@ ht-degree: 80%
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 <!--PRIORITIZATION & CONFLICT MANAGEMENT-->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="우선 순위"
->abstract="여정에 0~100 사이의 우선 순위 점수를 할당합니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 여기에 삽입된 우선 순위 값은 이 여정에 포함된 모든 인바운드 작업(예: 인앱)에 상속됩니다. 다른 캠페인이나 여정에서 이 동일한 인바운드 표면이 사용되는 상황의 경우 우선 순위 점수가 가장 높은 인바운드 작업이 수신자에게 표시됩니다. 여러 여정 또는 캠페인의 점수가 동일한 경우, 가장 최근에 수정된 요소가 선택됩니다."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="우선 순위"
->abstract="캠페인에 0~00 사이의 우선 순위 점수를 할당합니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 동일한 인바운드 표면(예: 인앱)이 다른 캠페인이나 여정에서 사용되는 상황의 경우, 우선 순위 점수가 가장 높은 인바운드 작업이 수신자에게 표시됩니다. 여러 여정 또는 캠페인의 점수가 동일한 경우, 가장 최근에 수정된 요소가 선택됩니다."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_conflict"
->title="캠페인의 충돌 뷰어"
->abstract="이 도구를 사용하면 다른 여정, 캠페인 또는 서피스와의 겹침을 확인할 수 있습니다. 대상, 시작 및 종료 날짜, 채널 구성, 채널 또는 규칙 세트에 대한 겹침을 식별하려면 여기에서 잠재적인 충돌을 볼 수 있습니다. "
-
->[!CONTEXTUALHELP]
->id="ajo_journey_conflict"
->title="여정의 충돌 뷰어"
->abstract="이 도구를 사용하면 다른 여정, 캠페인 또는 서피스와의 겹침을 확인할 수 있습니다. 대상, 시작 및 종료 날짜, 채널 구성, 채널 또는 규칙 세트에 대한 겹침을 식별하려면 여기에서 잠재적인 충돌을 볼 수 있습니다. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
