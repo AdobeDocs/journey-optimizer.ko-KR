@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -339,5 +339,5 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Experience Decisioning 활성화"
->abstract="Experience Decisioning 활성화"
+>title="경험 결정 활성화"
+>abstract="경험 결정 활성화"
