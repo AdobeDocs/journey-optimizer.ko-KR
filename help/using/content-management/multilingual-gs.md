@@ -10,14 +10,19 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
+source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 22%
+source-wordcount: '449'
+ht-degree: 21%
 
 ---
 
 # 다국어 콘텐츠 시작 {#multilingual-gs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_homepage"
+>title="번역"
+>abstract="다국어 기능을 사용하면 단일 캠페인 또는 여정 내에서 여러 언어로 콘텐츠를 쉽게 만들 수 있습니다. 번역 페이지를 통해 프로젝트를 설정하거나 번역 공급자를 선택하거나 로케일별 사전을 관리할 수 있습니다"
 
 >[!AVAILABILITY]
 >
