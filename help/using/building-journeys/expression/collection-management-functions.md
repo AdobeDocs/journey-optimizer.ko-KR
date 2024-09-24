@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 쿼리, 컬렉션, 함수, 페이로드, 여정
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: b58d6bbcf2311be3f841f7eef0c0bf10692f1704
+source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -236,10 +236,14 @@ _`<listExpression>`.at(`<index>`)_
 
 **다른 예**
 
+이 표현식은 SKU 값을 기반으로 제품 이름을 반환합니다. 이러한 제품 목록은 이벤트 목록에 포함되며 조건은 이벤트 ID입니다.
+
 ```json
-#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent. all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
-_aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
+_aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
 ```
+
+이 식은 이벤트 유형이 &#39;productListAdds&#39;이고 총 가격이 150보다 크거나 같은 상거래 이벤트의 제품 목록에서 마지막 제품의 이름을 검색합니다.
 
 ```json
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
