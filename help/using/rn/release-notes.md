@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a33b1f0323efd0a482781d21fded66c9c8dd6360
+source-git-commit: 2efff12350ffeada28728ef32cf59bfb0f5d5c49
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1600'
 ht-degree: 63%
 
 ---
@@ -177,6 +177,10 @@ ht-degree: 63%
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.
 * When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * (사용 가능한 날짜: 9월 17일) **라이선스 사용** - 이제 라이선스 사용 대시보드에 참여 가능한 대상 대신 참여 가능한 프로필이 표시됩니다. [자세히 알아보기](../audience/license-usage.md)
+
+**콘텐츠 관리**
+
+* 이제 샌드박스 간에 콘텐츠 템플릿과 조각을 내보낼 수 있습니다.
 
 **데이터 거버넌스**
 
