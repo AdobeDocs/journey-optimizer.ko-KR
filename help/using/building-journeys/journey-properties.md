@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
 workflow-type: tm+mt
 source-wordcount: '1983'
 ht-degree: 12%
@@ -66,7 +66,7 @@ ht-degree: 12%
 ### 재등록 대기 기간  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_reentrance_wait"
+>id="ajo_journey_properties_re-entrance_wait"
 >title="재등록 대기 기간"
 >abstract="프로필이 단일 여정에서 다시 여정에 진입할 수 있도록 허용하기 전에 대기할 시간을 설정하십시오. 이렇게 하면 사용자가 선택한 기간 동안 여정으로 다시 들어가는 것이 방지됩니다. 최대 기간은 90일입니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
