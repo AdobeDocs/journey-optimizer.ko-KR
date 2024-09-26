@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '598'
+ht-degree: 18%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 개인은 91일 여정 제한 시간 전에 대기 기간을 완료할 수 있는 충분한 시간이 여정에 남아 있는 경우에만 **대기** 활동을 입력할 수 있습니다.
 
-### 대기 후 재입장 {#wait-re-entrance}
+### 대기 및 재입장 {#wait-reentrance}
 
-다시 시작을 차단하기 위해 **대기** 활동을 사용하지 않는 것이 좋습니다. 대신 여정 속성 수준에서 **다시 입력 허용** 옵션을 사용하십시오. [이 페이지](../building-journeys/journey-properties.md#entrance)에서 자세히 알아보십시오.
+**대기** 활동을 사용하여 다시 시작을 차단하지 않는 것이 좋습니다. 대신 여정 속성 수준에서 **재입력 허용** 옵션을 사용하십시오. [이 페이지](../building-journeys/journey-properties.md#entrance)에서 자세히 알아보십시오.
 
 ### 대기 및 테스트 모드 {#wait-test-modd}
 

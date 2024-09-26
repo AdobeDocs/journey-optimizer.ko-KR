@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 27%
+source-wordcount: '980'
+ht-degree: 25%
 
 ---
 
@@ -128,3 +128,9 @@ ht-degree: 27%
 조각을 보관 해제하려면 **[!UICONTROL 보관됨]** 항목을 필터링하고 **[!UICONTROL 추가 작업]** 메뉴에서 **[!UICONTROL 보관 해제]**&#x200B;을(를) 선택하십시오. 이제 조각 목록에서 다시 액세스할 수 있으며 모든 이메일 또는 템플릿에서 사용할 수 있습니다.
 
 ![](assets/fragment-list-unarchive.png)
+
+## 다른 샌드박스로 조각 내보내기 {#export}
+
+Journey Optimizer을 사용하면 한 샌드박스에서 다른 샌드박스로 조각을 복사할 수 있습니다. 예를 들어 Stage 샌드박스 환경에서 프로덕션 샌드박스로 조각을 복사할 수 있습니다.
+
+복사 프로세스는 원본 샌드박스와 대상 샌드박스 간에 **패키지 내보내기 및 가져오기**&#x200B;를 통해 수행됩니다. 개체를 내보내고 대상 샌드박스로 가져오는 방법에 대한 자세한 내용은 [다른 샌드박스로 개체 복사](../configuration/copy-objects-to-sandbox.md) 섹션을 참조하십시오.

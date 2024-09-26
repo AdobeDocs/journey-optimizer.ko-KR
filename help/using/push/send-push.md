@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 7%
+source-wordcount: '400'
+ht-degree: 6%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 7%
 > 더 나은 전달성을 위해 공급자가 지원하는 형식의 전화 번호를 항상 사용해야 합니다. 예를 들어 Twilio와 Sinch는 E.164 형식의 전화 번호만 지원합니다.
 
 ## 푸시 알림 보내기{#push-send}
+
+>[!IMPORTANT]
+>
+>9월 릴리스부터 새로운 캠페인 및 여정 활성화 환경을 사용하면 전체 승인 프로세스를 관리할 수 있으므로 캠페인 및 여정이 시작하기 전에 해당 관련자로부터 철저하게 검토 및 승인되도록 합니다. 이 기능은 제한된 가용성으로 사용할 수 있습니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
 푸시 메시지가 준비되면 [여정](../building-journeys/journey-gs.md) 또는 [캠페인](../campaigns/create-campaign.md)의 구성을 완료하여 보내십시오.
 

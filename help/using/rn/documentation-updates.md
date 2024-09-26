@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+workflow-type: tm+mt
 source-wordcount: '5454'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 100%
 ## 2023년 7월 {#july-2023}
 
 * [!DNL Journey Optimizer] 2023년 7월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 대기 활동 설명서 페이지에 전역 시간 초과 및 재입력 사용과 관련된 정보 및 우수 사례를 추가하여 개선했습니다. [자세히 보기](../building-journeys/wait-activity.md)
+* 대기 활동 설명서 페이지가 전역 시간 초과 및 재입력 사용과 관련된 추가 정보 및 우수 사례와 함께 개선되었습니다. [자세히 보기](../building-journeys/wait-activity.md)
 * 항목 관리 페이지를 개선했습니다. [자세히 보기](../building-journeys/entry-management.md)
 * 대상자 읽기 활동 설명서에 조절률에 대한 정보를 추가했습니다. [자세히 보기](../building-journeys/read-audience.md)
 * 재시도에 대한 추가 정보를 추가했습니다. [자세히 보기](../start/guardrails.md#general-actions-g)

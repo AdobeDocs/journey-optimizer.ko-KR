@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 96%
+source-wordcount: '2042'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 96%
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 시뮬레이션](using/building-journeys/journey-simulation.md)
       + [여정 게시](using/building-journeys/publishing-the-journey.md)
+      + [여정의 라이브 보고서](using/building-journeys/report-journey.md)
    + 여정 관리{#manage-journey}
       + [프로필 시작 관리](using/building-journeys/entry-management.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
@@ -174,7 +175,7 @@ ht-degree: 96%
    + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
    + [캠페인 관리](using/campaigns/modify-stop-campaign.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
-+ 게재 테스트 {#test}
++ {#test} 테스트 및 승인
    + [충돌 관리 및 우선 순위 지정](using/test-approve/conflict-prioritization.md)
    + 콘텐츠 미리 보기 및 테스트 {#preview-test}
       + [샘플 입력 데이터를 사용하여 콘텐츠 테스트](using/test-approve/simulate-sample-input.md)
@@ -184,6 +185,11 @@ ht-degree: 96%
       + [이메일 증명 보내기](using/content-management/proofs.md)
       + [이메일 렌더링 테스트](using/content-management/rendering.md)
       + [이메일 스팸 보고서](using/content-management/spam-report.md)
+   + 여정 및 캠페인 승인 {#approve}
+      + [승인 시작](using/test-approve/gs-approval.md)
+      + [승인 정책 만들기 및 관리](using/test-approve/approval-policies.md)
+      + [승인 요청](using/test-approve/request-approval.md)
+      + [요청 승인](using/test-approve/review-approve-request.md)
 + 이메일 채널 {#email}
    + [이메일 시작](using/email/get-started-email.md)
    + [이메일 만들기](using/email/create-email.md)
@@ -264,14 +270,13 @@ ht-degree: 96%
    + [코드 기반 경험 구성 만들기](using/code-based/code-based-configuration.md)
    + [구현 방법 샘플](using/code-based/code-based-implementation-samples.md)
    + [코드 기반 경험 만들기](using/code-based/create-code-based.md)
-+ 콘텐츠 카드(LA){#content-card}
++ 콘텐츠 카드{#content-card}
    + [콘텐츠 카드 시작](using/content-card/get-started-content-card.md)
    + 콘텐츠 카드 채널 {#configure} 구성
       + [콘텐츠 카드 사전 요구 사항](using/content-card/content-card-configuration-prereq.md)
       + [Journey Optimizer에서 컨텐츠 카드 채널 구성](using/content-card/content-card-configuration.md)
    + [콘텐츠 카드 만들기](using/content-card/create-content-card.md)
    + [콘텐츠 카드 디자인](using/content-card/design-content-card.md)
-   + [컨텐츠 카드 보고서](using/content-card/content-card-report.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
@@ -647,6 +652,7 @@ ht-degree: 96%
          + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
          + [Marketo Engage와 통합](using/action/marketo-engage.md)
    + [소스](using/start/get-started-sources.md)
+   + [다른 샌드박스로 개체 내보내기](using/configuration/copy-objects-to-sandbox.md)
 + 액세스 제어 {#access-control}
    + 액세스 제어 개요 {#privacy}
       + [사용자 관리 시작](using/administration/permissions-overview.md)

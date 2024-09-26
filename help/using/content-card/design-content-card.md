@@ -4,34 +4,14 @@ description: 콘텐츠 카드 콘텐츠를 디자인하는 방법 알아보기
 topic: Content Management
 role: User
 level: Beginner
-badge: label="제한된 가용성" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 4%
+source-wordcount: '511'
+ht-degree: 2%
 
 ---
 
 # 콘텐츠 카드 콘텐츠 디자인 {#design-content-card}
-
->[!BEGINSHADEBOX]
-
-**목차**
-
-* [콘텐츠 카드 시작](get-started-content-card.md)
-* [콘텐츠 카드 사전 요구 사항](content-card-configuration-prereq.md)
-* [Journey Optimizer에서 컨텐츠 카드 채널 구성](content-card-configuration.md)
-* [콘텐츠 카드 만들기](create-content-card.md)
-* **콘텐츠 카드 디자인**
-* [컨텐츠 카드 보고서](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->콘텐츠 카드는 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 카드용 작성 구문은 마케터에게 개발자가 렌더링하는 데 사용할 수 있는 기본 입력을 제공하는 양식 기반 작성 경험을 제공합니다.
 

@@ -4,12 +4,11 @@ description: 이메일 스팸 보고서를 사용하는 방법을 알아봅니�
 feature: Preview
 role: User
 level: Beginner
-badge: label="Beta"
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
+source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 24%
+source-wordcount: '365'
+ht-degree: 17%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 24%
 >abstract="스팸 보고서를 사용하면 이메일 콘텐츠 스팸 점수를 확인할 수 있습니다. 이 점수는 ISP 또는 사서함 제공업체가 귀하의 메시지를 스팸으로 간주할지 여부를 나타냅니다. 점수가 낮을수록 좋습니다. 이메일 콘텐츠 점수가 2보다 높으면 테스트 실패 문제를 해결하는 것이 좋습니다."
 
 전용 스팸 보고서에서 이메일 콘텐츠 스팸 점수를 확인할 수 있습니다. Adobe Journey Optimizer은 [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}을 사용하여 전자 메일 콘텐츠를 테스트하고 ISP 또는 사서함 공급자가 해당 콘텐츠를 스팸으로 간주할지 여부를 나타내는 점수를 제공할 수 있습니다.
-
->[!AVAILABILITY]
->
->이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주십시오.
 
 이메일 콘텐츠를 편집하거나 미리 볼 때 **[!UICONTROL 스팸 보고서]** 단추는 나열된 각 개별 항목에 대한 점수를 향상시키기 위한 점수 및 조언을 제공합니다.
 
@@ -49,6 +44,11 @@ ht-degree: 24%
 1. 각 항목에 대한 점수와 설명을 확인합니다.
 
    점수가 낮을수록 좋습니다. 점수가 5보다 높으면 일부 메시지가 차단되거나 수신 시 스팸으로 표시될 수 있다는 경고가 표시됩니다. 가장 좋은 방법은 점수가 2보다 낮은 것입니다.
+
+   >[!NOTE]
+   >
+   >스팸 점수는 [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}을 통해 파생되며 Adobe은 규칙을 소유하지 않습니다. 이러한 규칙에 대한 자세한 내용은 SpamAssassin 설명서를 참조하십시오.
+   >
 
 1. 해당 점수를 기반으로 일부 요소를 개선할 수 있다고 판단되면 [전자 메일 Designer](../email/content-from-scratch.md)에서 콘텐츠를 편집하고 필요한 업데이트를 수행합니다.
 

@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: c7ecfdbc9c97c49c77f3c4fb8bcb1656e04819a8
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 7%
+source-wordcount: '317'
+ht-degree: 5%
 
 ---
 
@@ -63,3 +63,9 @@ ht-degree: 7%
 >현재 HTML 유형 이메일 콘텐츠 템플릿에 대해서만 적절한 썸네일을 생성할 수 있습니다.
 
 콘텐츠를 업데이트할 때 변경 사항이 썸네일에 반영되기 전에 몇 초 정도 기다려야 할 수 있습니다.
+
+## 다른 샌드박스로 콘텐츠 템플릿 내보내기 {#export}
+
+Journey Optimizer을 사용하면 한 샌드박스에서 다른 샌드박스로 콘텐츠 템플릿을 복사할 수 있습니다. 예를 들어 Stage 샌드박스 환경에서 프로덕션 샌드박스로 템플릿을 복사할 수 있습니다.
+
+복사 프로세스는 원본 샌드박스와 대상 샌드박스 간에 **패키지 내보내기 및 가져오기**&#x200B;를 통해 수행됩니다. 개체를 내보내고 대상 샌드박스로 가져오는 방법에 대한 자세한 내용은 [다른 샌드박스로 개체 복사](../configuration/copy-objects-to-sandbox.md) 섹션을 참조하십시오.

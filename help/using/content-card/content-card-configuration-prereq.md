@@ -5,40 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="제한된 가용성" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 7%
+source-wordcount: '265'
+ht-degree: 4%
 
 ---
 
 # 콘텐츠 카드 사전 요구 사항 {#content-card-configuration-prereq}
 
->[!BEGINSHADEBOX]
-
-**목차**
-
-* [콘텐츠 카드 시작](get-started-content-card.md)
-* **콘텐츠 카드 필수 구성 요소**
-* [Journey Optimizer에서 컨텐츠 카드 채널 구성](content-card-configuration.md)
-* [콘텐츠 카드 만들기](create-content-card.md)
-* [콘텐츠 카드 디자인](design-content-card.md)
-* [컨텐츠 카드 보고서](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->콘텐츠 카드는 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
-
 Adobe Journey Optimizer에서 컨텐츠 카드를 올바르게 표시하려면 다음 Adobe Experience Platform 설정을 구성해야 합니다.
 
 * **Adobe Experience Platform 데이터 수집**
 
-  [데이터 스트림을 만들고](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) [Experience Platform 서비스를 추가](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep)합니다. **[!UICONTROL Edge 세그멘테이션]** 및 **[!UICONTROL Adobe Journey Optimizer]** 옵션을 사용하도록 설정하십시오. 이렇게 하면 Journey Optimizer 이벤트가 Adobe Experience Platform Edge Network에서 처리됩니다. 데이터 스트림을 구성하는 방법에 대한 자세한 내용은 [데이터 스트림 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)를 참조하십시오.
+  [데이터 스트림을 만들고](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) [Experience Platform 서비스를 추가](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep)합니다. **[!UICONTROL Edge 세그멘테이션]** 및 **[!UICONTROL Adobe Journey Optimizer]** 옵션을 사용하도록 설정하십시오. 이렇게 하면 Journey Optimizer 이벤트가 Adobe Experience Platform Edge Network에서 처리됩니다.
+보고서에 이 데이터를 포함하려면 데이터 집합에 **경험 이벤트 - 제안 상호 작용** 필드 그룹을 추가하십시오. [데이터스트림에 대한 자세한 정보](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 

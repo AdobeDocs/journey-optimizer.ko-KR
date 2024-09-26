@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 보관, 메시지, HIPAA, BCC, 이메일
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 794724670c41e5d36ff063072a2e29c37dd5fadd
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 7%
+source-wordcount: '1337'
+ht-degree: 6%
 
 ---
 
@@ -119,9 +119,9 @@ GDPR과 같은 규정에서는 데이터 주체가 언제든지 동의를 수정
 
 BCC에 대한 보고는 여정 및 메시지 보고서에서 사용할 수 없습니다. 그러나 정보는 **[!UICONTROL AJO BCC 피드백 이벤트 데이터 세트]**&#x200B;라는 시스템 데이터 세트에 저장됩니다. 이 데이터 세트에 대해 쿼리를 실행하여 디버깅 목적에 유용한 정보(예: )를 찾을 수 있습니다.
 
-사용자 인터페이스를 통해 이 데이터 세트에 액세스할 수 있습니다. **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 세트]** > **[!UICONTROL 찾아보기]**&#x200B;를 선택하고 필터에서 **[!UICONTROL 시스템 데이터 세트 표시]** 전환을 활성화하여 시스템에서 생성한 데이터 세트를 표시합니다. [이 섹션](../data/get-started-datasets.md#access-datasets)의 데이터 세트에 액세스하는 방법에 대해 자세히 알아보세요.
+사용자 인터페이스를 통해 이 데이터 세트에 액세스하려면 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 세트]** > **[!UICONTROL 찾아보기]**&#x200B;를 선택하십시오. [이 섹션](../data/get-started-datasets.md#access-datasets)의 데이터 세트에 액세스하는 방법에 대해 자세히 알아보세요.
 
-![](assets/preset-bcc-dataset.png)
+<!--![](assets/preset-bcc-dataset.png)-->
 
 이 데이터 세트에 대해 쿼리를 실행하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}에서 제공하는 쿼리 편집기를 사용할 수 있습니다. 액세스하려면 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 쿼리]**&#x200B;를 선택하고 **[!UICONTROL 쿼리 만들기]**&#x200B;를 클릭하십시오. [자세히 알아보기](../data/get-started-queries.md)
 
@@ -223,3 +223,65 @@ BCC에 대한 보고는 여정 및 메시지 보고서에서 사용할 수 없�
    mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus IN ('bounce', 'out_of_band') 
     WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
    ```
+
+### 메시지 헤더를 사용하여 BCC 사본 및 전송된 이메일 정보 조정 {#bcc-header}
+
+예를 들어 이메일 BCC 복사본이 외부 시스템에 보관된 경우 메시지에 포함된 헤더를 사용하여 해당 전송된 이메일에 대한 정보를 검색할 수 있습니다.
+
+이제 모든 전자 메일 메시지에 `x-message-profile-id`(이)라는 헤더가 포함됩니다. 이 헤더의 값은 각 프로필에 대해 다릅니다. 전송된 각 이메일과 해당 BCC 이메일 사본에 대해 고유합니다.
+
+`x-message-profile-id` 헤더도 시스템 데이터 세트 [AJO 메시지 피드백 이벤트 데이터 세트](../data/datasets-query-examples.md#message-feedback-event-dataset)(보낸 이메일) 및 [AJO BCC 피드백 이벤트 데이터 세트](#bcc-reporting)(BCC 복사본)에 저장됩니다. 이러한 데이터 세트를 쿼리하여 BCC 사본과 해당 실제 이메일을 조정할 수 있습니다.
+
+* 사용자 인터페이스를 통해 이러한 데이터 세트에 액세스하려면 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 세트]** > **[!UICONTROL 찾아보기]**&#x200B;를 선택하십시오. [이 섹션](../data/get-started-datasets.md#access-datasets)의 데이터 세트에 액세스하는 방법에 대해 자세히 알아보세요.
+
+* [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}에서 제공하는 쿼리 편집기를 사용하십시오. 액세스하려면 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 쿼리]**&#x200B;를 선택하고 **[!UICONTROL 쿼리 만들기]**&#x200B;를 클릭하십시오. [자세히 알아보기](../data/get-started-queries.md)
+
+다음은 BCC 사본에 해당하는 정보를 검색하기 위해 실행할 수 있는 몇 가지 샘플 쿼리입니다.
+
+**쿼리 1**
+
+BCC 이벤트를 캠페인 작업 세부 정보가 있는 실제 이메일에 대한 해당 피드백 이벤트와 연결하려면 다음을 수행하십시오.
+
+```
+SELECT
+  mfe.timestamp as OriginalRecipientFeedbackEventTime,
+  mfe._experience.customerJourneyManagement.emailChannelContext.address AS OriginalRecipientEmailAddress,
+  mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS OriginalRecipientMessageFeedbackStatus,
+  mfe._experience.customerJourneyManagement.messageExecution.campaignID AS CampaignID,
+  mfe._experience.customerJourneyManagement.messageExecution.campaignActionID AS CampaignActionID,
+  mfe._experience.customerJourneyManagement.messageExecution.batchInstanceID AS BatchInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.messageID AS MessageID AS MessageID
+FROM ajo_bcc_feedback_event_dataset bcc
+LEFT JOIN cjm_message_feedback_event_dataset mfe
+ON bcc._experience.customerJourneyManagement.messageProfile.messageProfileID =
+    mfe._experience.customerJourneyManagement.messageProfile.messageProfileID AND 
+    mfe.timestamp > now() - INTERVAL '30' day
+WHERE 
+  bcc.timestamp > now() - INTERVAL '30' DAY AND 
+  bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = 'x-message-profile-id'
+ORDER BY timestamp DESC;
+```
+
+**쿼리 2**
+
+여정 작업 세부 사항이 있는 실제 이메일에 대한 해당 피드백 이벤트와 BCC 이벤트를 결합하는 방법:
+
+```
+SELECT
+  mfe.timestamp as OriginalRecipientFeedbackEventTime,
+  mfe._experience.customerJourneyManagement.emailChannelContext.address AS OriginalRecipientEmailAddress,
+  mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS OriginalRecipientMessageFeedbackStatus,
+  mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID,
+  mfe._experience.customerJourneyManagement.messageExecution.journeyVersionInstanceID AS JourneyVersionInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.batchInstanceID AS BatchInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.messageID AS MessageID AS MessageID
+FROM ajo_bcc_feedback_event_dataset bcc
+LEFT JOIN cjm_message_feedback_event_dataset mfe
+ON bcc._experience.customerJourneyManagement.messageProfile.messageProfileID =
+    mfe._experience.customerJourneyManagement.messageProfile.messageProfileID AND 
+    mfe.timestamp > now() - INTERVAL '30' day
+WHERE 
+  bcc.timestamp > now() - INTERVAL '30' DAY AND 
+  bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = 'x-message-profile-id'
+ORDER BY timestamp DESC;
+```

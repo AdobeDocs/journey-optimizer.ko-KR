@@ -5,30 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="제한된 가용성" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 46%
+source-wordcount: '595'
+ht-degree: 47%
 
 ---
 
 # 콘텐츠 카드 구성 {#content-card-configuration}
-
->[!BEGINSHADEBOX]
-
-**목차**
-
-* [콘텐츠 카드 시작](get-started-content-card.md)
-* [콘텐츠 카드 사전 요구 사항](content-card-configuration-prereq.md)
-* **콘텐츠 카드 채널 구성**
-* [콘텐츠 카드 만들기](create-content-card.md)
-* [콘텐츠 카드 디자인](design-content-card.md)
-* [컨텐츠 카드 보고서](content-card-report.md)
-
->[!ENDSHADEBOX]
 
 ## 구성이란 무엇입니까? {#surface-definition}
 

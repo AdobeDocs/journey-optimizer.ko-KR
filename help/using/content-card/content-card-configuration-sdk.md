@@ -5,21 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="제한된 가용성" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 3%
+source-wordcount: '485'
+ht-degree: 1%
 
 ---
 
 # Web SDK에서 콘텐츠 카드 지원 구성 {#content-card-configuration-sdk}
-
->[!AVAILABILITY]
->
->콘텐츠 카드는 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 이 샘플은 Adobe Experience Platform을 사용하여 Adobe Journey Optimizer(AJO)에서 컨텐츠 카드를 검색하는 방법을 보여 줍니다. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)를 활용하여 개인화 콘텐츠를 가져와서 전적으로 클라이언트측에서 렌더링합니다.
 

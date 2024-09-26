@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: e411810196c591727fb1049826dc761e3807ed03
+source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 3%
@@ -50,9 +50,14 @@ Adobe Journey Optimizer은 ID 서비스를 활용하여 사용자를 위해 프�
 
 * 여정을 게시하면 Journey Optimizer이 자동으로 확장 및 조정되어 최대 처리량과 안정성을 보장합니다. 샌드박스에서 한 번에 100개의 라이브 여정의 이정표에 가까워지면 주황색 오버레이가 표시되고 이 도전 과제의 인터페이스에 경고 기호가 나타납니다. 이 알림을 받았는데 실시간 여정을 100개 넘게 실행하도록 현재 여정의 수를 확장해야 하는 경우, 고객 지원 센터에 보내는 티켓을 개설해 주시면 Adobe가 목표 달성을 도와 드리겠습니다.
 
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
+
 여러 가지 모범 사례를 채택하여 보호 기능 내에서 유지하고 시스템을 효율적으로 사용하는 데 도움이 됩니다.
 
-* 실시간 여정의 한도에 가까워지면, 먼저 **여정**&#x200B;의 **개요** 탭으로 이동하여 지난 24시간 동안 활성화된 여정(활성화된 프로필이 있는 여정)의 수를 확인할 수 있습니다. 이 섹션에서 여정을 시작 및 종료하는 프로필 수를 확인하여 확인할 수 있습니다.
+* 라이브 여정 한도에 가까워지면 **여정**&#x200B;의 **개요** 탭으로 이동하여 최근 24시간 동안 활성화된 프로필이 있는 여정 내에 활성화된 여정 수를 확인하는 것이 첫 번째 단계입니다. 이 섹션에서 여정을 시작 및 종료하는 프로필 수를 확인하여 확인할 수 있습니다.
 
   ![](assets/journey-guardrails2.png)
 

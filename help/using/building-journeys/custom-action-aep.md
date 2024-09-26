@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
+source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
-# 사용 사례: 사용자 지정 작업을 사용하여 Experience Platform에 여정 이벤트 작성{#custom-action-aep}
+# 사용 사례: 사용자 지정 작업을 사용하여 Experience Platform에 여정 이벤트 작성 {#custom-action-aep}
 
 이 사용 사례에서는 사용자 지정 작업 및 인증된 호출을 사용하여 여정에서 Adobe Experience Platform에 사용자 지정 이벤트를 작성하는 방법을 설명합니다.
 
-## IO 프로젝트 구성
+## IO 프로젝트 구성 {#custom-action-aep-IO}
 
 1. Adobe Developer Console에서 **프로젝트**&#x200B;를 클릭하고 IO 프로젝트를 엽니다.
 
@@ -94,7 +94,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 }
 ```
 
-## 사용자 지정 작업 구성
+## 사용자 지정 작업 구성 {#custom-action-config}
+
+사용자 지정 작업 구성은 [이 페이지](../action/about-custom-action-configuration.md)에 자세히 설명되어 있습니다.
+
+이 예제의 경우 다음 단계를 수행합니다.
 
 1. Adobe Journey Optimizer을 열고 왼쪽 메뉴에서 **관리** 아래의 **구성**&#x200B;을 클릭합니다. **작업**&#x200B;에서 **관리**&#x200B;를 클릭하고 **작업 만들기**&#x200B;를 클릭합니다.
 
@@ -106,7 +110,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-7bis.png)
 
-### 인증 설정
+### 인증 설정 {#custom-action-aep-authentication}
 
 1. 다음 페이로드를 사용하여 **Type**&#x200B;을(를) **Custom**(으)로 선택하십시오.
 
@@ -140,7 +144,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-8.png)
 
-### 페이로드 설정
+### 페이로드 설정 {#custom-action-aep-payload}
 
 1. **요청** 및 **응답** 필드에 이전에 사용한 원본 연결에서 페이로드를 붙여 넣으십시오.
 
@@ -167,7 +171,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. 동적으로 채워질 필드에 대한 필드 구성을 **상수**&#x200B;에서 **변수**(으)로 변경합니다. 사용자 지정 작업을 저장합니다.
+1. 동적으로 채워질 필드에 대한 필드 구성을 **상수**&#x200B;에서 **변수**(으)로 변경합니다.
+
+1. 사용자 지정 작업을 저장합니다.
 
 ## 여정
 
