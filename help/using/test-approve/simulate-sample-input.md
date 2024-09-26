@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 샘플 입력 데이터를 사용하여 콘텐츠 테스트
-description: 샘플 입력을 사용하여 이메일 콘텐츠를 미리 보고 증명을 보내는 방법을 알아봅니다.
+description: 샘플 입력 데이터를 사용하여 이메일 콘텐츠를 미리 보고 증명을 보내는 방법을 알아봅니다.
 feature: Overview, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
+source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,6 @@ Beta 이 경험에 액세스하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**
 * 받은 편지함 렌더링, 스팸 보고서, 다국어 콘텐츠 및 콘텐츠 실험과 같은 기능은 현재 경험에서 사용할 수 없습니다. 이러한 기능을 사용하려면 콘텐츠에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 선택하여 이전 사용자 인터페이스에 액세스합니다.
 * 프로필 속성만 현재 지원됩니다. 개인화를 위해 콘텐츠에 컨텍스트 속성을 사용하는 경우 이러한 속성을 사용하여 콘텐츠를 테스트할 수 없습니다.
 * 변형에 대한 데이터를 입력할 때 숫자(정수 및 십진수), 문자열, 부울 및 날짜 유형 데이터 유형만 지원됩니다. 다른 데이터 유형에는 오류가 표시됩니다.
-
-
-아크라이트가 아닌 것
 
 ## 변형 추가 {#profiles}
 
