@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b89bb9791d8b8e34a598b1044c495a439f6107b4
+source-git-commit: 8cadb10c635e59fcdc55ad31d7881bad90e95ee7
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 67%
@@ -376,3 +376,4 @@ ht-degree: 67%
    * [탐색적 분석] 도구를 사용하여 선택한 **[!UICONTROL 차원]** 및 **[!UICONTROL 지표]**&#x200B;로 손쉽게 테이블과 시각화 자료를 만듭니다.
 
   자세한 내용은 [세부 설명서](../reports/report-cja-manage.md)를 참조하십시오.
+
