@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 1e4bff3e69cd70fd1f6e13cb582de4700bddd6d1
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 67%
@@ -223,7 +223,7 @@ ht-degree: 67%
 
 * **보낸 전자 메일 및 BCC 사본의 메시지 헤더** - 모든 전자 메일 메시지에 새 헤더가 추가되었습니다. 이 헤더의 값은 보낸 각 이메일과 해당 BCC 이메일 사본에 대해 고유합니다. 이 헤더는 메시지 및 BCC 피드백 데이터 세트에도 저장되며, 이를 통해 BCC 사본과 해당 전송된 이메일 정보를 조정할 수 있습니다. [자세히 보기](../configuration/archiving-support.md#bcc-header)
 
-* **스팸 점수**(GA) - 이제 전용 스팸 보고서에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 또는 사서함 공급자가 이를 스팸으로 간주할지 여부를 나타내는 점수를 매길 수 있습니다. [자세히 보기](../content-management/spam-report.md)
+* **스팸 점수**(GA)- 이제 전용 **스팸 보고서**&#x200B;에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 또는 사서함 공급자가 이를 스팸으로 간주할지 여부를 나타내는 점수를 매길 수 있습니다. [자세히 보기](../content-management/spam-report.md)
 
 **SMS 채널**
 
