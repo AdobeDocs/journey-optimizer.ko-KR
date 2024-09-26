@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 5%
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 * 재입력이 비활성화된 경우 프로필은 글로벌 여정 시간 제한 기간 내에 동일한 여정을 여러 번 입력할 수 없습니다. 이 [섹션](../building-journeys/journey-properties.md#global_timeout)을 참조하세요.
 
-기본적으로 여정은 다시 입력할 수 있습니다. **다시 입력 허용** 옵션이 활성화되면 **다시 입력 대기 기간** 필드가 표시됩니다. 프로필에서 여정을 다시 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 91일([전역 시간 초과](journey-properties.md#global_timeout))입니다.
+기본적으로 여정은 재입력을 허용합니다. **재입력 허용** 옵션이 활성화되면 **재입력 대기 기간** 필드가 표시됩니다. 프로필에서 여정을 다시 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 91일([전역 시간 초과](journey-properties.md#global_timeout))입니다.
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
@@ -49,12 +49,12 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 재입장 기간이 지나면 프로필이 여정에 재입장할 수 있다. 이를 방지하고 이러한 프로필에 대한 재입력을 완전히 비활성화하려면 프로필 또는 대상 데이터를 사용하여 프로필이 이미 입력되었는지 여부를 테스트하는 조건을 추가할 수 있습니다.
 
 <!--
-Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
+Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
 ## 비즈니스 여정 {#entry-business}
 
 <!--
-Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
+Business events follow reentrance rules in the same way as for unitary events. If a journey allows reentrance, the next business event will be processed.
 -->
 
 **비즈니스 여정**&#x200B;에서 여러 비즈니스 이벤트 실행을 허용하려면 여정 속성의 **[!UICONTROL 실행]** 섹션에서 해당 옵션을 활성화합니다.
@@ -83,7 +83,7 @@ Business events follow re-entrance rules in the same way as for unitary events. 
   >
   >여정에서 [사용자 지정 업로드 대상](../audience/about-audiences.md#segments-in-journey-optimizer)을(를) 대상으로 하는 경우, 이러한 대상이 수정되므로 반복 여정에서 이 옵션이 활성화된 경우 프로필은 첫 번째 반복에서만 검색됩니다.
 
-* **반복 시 다시 시작 강제**: 이 옵션을 사용하면 여정에 여전히 있는 모든 프로필이 다음 실행 시 자동으로 종료되도록 할 수 있습니다. 이 여정에서 프로필의 수명이 반복 빈도보다 길 수 있는 경우(예: 대기 활동을 사용하는 경우) 프로필이 여정을 완료할 수 있도록 이 옵션을 활성화하지 마십시오.
+* **반복 시 강제 재입력**: 이 옵션을 사용하면 여정에 여전히 있는 모든 프로필이 다음 실행 시 자동으로 종료되도록 할 수 있습니다. 이 여정에서 프로필의 수명이 반복 빈도보다 길 수 있는 경우(예: 대기 활동을 사용하는 경우) 프로필이 여정을 완료할 수 있도록 이 옵션을 활성화하지 마십시오.
 
 ![](assets/read-audience-options.png)
 
