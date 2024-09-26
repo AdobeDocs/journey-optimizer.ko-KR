@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '1983'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -63,12 +63,12 @@ ht-degree: 13%
 
 기본적으로 새 여정은 재입력을 허용합니다. 예를 들어, 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 번&quot; 여정에 대해 **재입장 허용** 옵션의 선택을 취소할 수 있습니다.
 
-### 재진입 대기 기간  {#reentrance-wait}
+### 재등록 대기 기간  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_reentrance_wait"
->title="재진입 대기 기간"
->abstract=" 프로필이 단일 여정에서 다시 여정에 진입할 수 있도록 허용하기 전에 대기할 시간을 설정하십시오. 이렇게 하면 선택한 기간 동안 사용자가 여정에 다시 진입하는 것을 방지할 수 있습니다. 최대 기간은 90일입니다."
+>title="재등록 대기 기간"
+>abstract="프로필이 단일 여정에서 다시 여정에 진입할 수 있도록 허용하기 전에 대기할 시간을 설정하십시오. 이렇게 하면 사용자가 선택한 기간 동안 여정으로 다시 들어가는 것이 방지됩니다. 최대 기간은 90일입니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
 
 **재입력 허용** 옵션이 활성화되면 **재입력 대기 기간** 필드가 표시됩니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 90일입니다.
