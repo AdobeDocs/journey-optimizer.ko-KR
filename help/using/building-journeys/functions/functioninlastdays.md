@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inLastDays, 함수, 표현식, 여정
 exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: e0a942f4dc84b41882b3c12dd47f5931a8a34a2b
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 18%
+source-wordcount: '46'
+ht-degree: 19%
 
 ---
 
 # inLastDays {#inLastDays}
 
-지정된 date 또는 dateTime이 now와 now 사이에 있으면 true를 반환합니다(델타 일).
+지정된 dateTime이 now와 now 사이에 있으면 true를 반환합니다(델타 일).
 
 ## 카테고리
 
