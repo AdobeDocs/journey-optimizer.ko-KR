@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 0cdf61bc97baaa8df08822d62a5b9f658c44c117
+source-git-commit: 59a597a563074fa4daa74c64e97f6bb5c0f6834d
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 * **[!UICONTROL 삭제된 프로필]**: 다음 이유 중 하나로 여정에서 삭제된 총 개인 수:
 
    * **대상 자격** 활동의 경우 대상 자격에 대한 예상 동사가 여정이 받은 내용과 일치하지 않으면(예: &quot;실현됨&quot; 대신 &quot;종료됨&quot;) 취소가 발생할 수 있습니다.
-   * **event-triggered** 여정의 경우, 개인이 너무 빨리 여정을 다시 시작하려고 시도하거나 다시 시작이 허용되지 않는 경우 취소가 발생할 수 있습니다.
+   * **event-triggered** 여정의 경우, 개인이 너무 빨리 여정을 다시 입력하려고 시도하거나 다시 입력이 허용되지 않는 경우 취소가 발생할 수 있습니다.
    * **반복** 여정에서 개인이 이미 여정에 있고 재입력 정책이 &quot;강제 재입력&quot;으로 설정되어 있지 않은 경우 각 반복에서 취소가 계산됩니다.
    * **대상자 읽기** 활동에서 내보낸 개인에 대해 ID가 설정되지 않았거나 수신된 ID 네임스페이스가 여정의 예상 ID와 일치하지 않으면 무시됩니다.
 
