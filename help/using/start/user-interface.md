@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1558'
+ht-degree: 100%
 
 ---
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="여정에 규칙 세트 적용"
->abstract="규칙 세트를 적용하여 빈도 제한 규칙에 따라 대상의 일부에 이 여정을 제외합니다."
+>abstract="규칙 세트를 적용하여 빈도 상한 설정 규칙에 따라 대상자의 일부에서 이 여정을 제외합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -216,7 +216,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="우선 순위 지정 미리 보기"
->abstract=" 여기에 지정된 기간 내에 우선순위가 더 높은 여정이 예약되는 경우 고객은 이 여정에 참여할 수 없습니다. 선착순으로 여정을 입력하려는 상황의 경우, 먼저 일별 예상 기간을 선택하고 해당 일에 다른 여정의 우선 순위 점수가 여정의 우선 순위 점수보다 작도록 하는 것이 좋습니다. 우선 순위 점수 100을 여정에 제공하면에 반드시 입력되도록 할 수도 있습니다."
+>abstract=" 여기에 지정된 기간 내에 더 높은 우선 순위의 여정이 예약된 경우, 고객은 이 여정에 참여할 수 없습니다. 여정을 순서대로 입력하려는 상황에서는 일일 예상 기간을 선택하고 해당 날짜에 다른 여정의 우선 순위 점수가 해당 여정의 우선 순위 점수보다 낮은지 확인하는 것이 좋습니다. 여정에 100점의 우선 순위 점수를 부여하면 해당 여정은 입력됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
@@ -279,7 +279,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="데이터 거버넌스 정책 위반"
->abstract="시스템이 여정/캠페인에서 제한된 필드 또는 사용자 지정 작업을 식별하는 경우 게시할 수 없는 오류가 표시됩니다. 이 대화 상자의 데이터 계보 다이어그램을 사용하여 여정 또는 캠페인을 활성화하기 전에 다른 구성 변경 작업을 수행해야 하는 사항을 이해합니다."
+>abstract="시스템이 여정/캠페인에서 제한된 필드나 사용자 정의 액션을 식별하는 경우 오류가 표시되어 게시할 수 없습니다. 이 대화 상자의 데이터 계보 다이어그램을 사용하여 여정이나 캠페인을 활성화하기 전에 어떤 다른 구성을 변경해야 하는지 이해할 수 있습니다."
 
 <!--APPROVAL POLICIES-->
 
