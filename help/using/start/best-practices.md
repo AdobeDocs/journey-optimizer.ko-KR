@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: bd5b32049e9cfbbccaf6b12c98a8f4dfcc8d14ac
+source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -48,7 +48,12 @@ Adobe Journey Optimizer은 ID 서비스를 활용하여 사용자를 위해 프�
 
 * Journey Optimizer에는 여정 캔버스에 50개의 활동 보호 기능이 있습니다. 이 가드레일은 가독성, QA 및 문제 해결에 도움이 되도록 설계되었습니다. 여정의 활동 수는 이 제한의 10개 활동 이내에 도달하면 여정 캔버스의 왼쪽 상단 섹션에 표시됩니다.
 
-* 여정을 게시하면 Journey Optimizer이 자동으로 확장 및 조정되어 최대 처리량과 안정성을 보장합니다. 샌드박스에서 한 번에 500개의 라이브 여정의 이정표에 가까워지면 주황색 오버레이가 표시되고 이 도전 과제의 인터페이스에 경고 기호가 나타납니다. 이 알림이 표시되고 여정을 한 번에 500개의 라이브 여정 이상으로 확장해야 하는 경우 고객 지원 센터에 대한 티켓을 만드십시오. 그러면 목표를 달성할 수 있도록 돕겠습니다.
+* 여정을 게시하면 Journey Optimizer이 자동으로 확장 및 조정되어 최대 처리량과 안정성을 보장합니다. 샌드박스에서 한 번에 100개의 라이브 여정의 이정표에 가까워지면 주황색 오버레이가 표시되고 이 도전 과제의 인터페이스에 경고 기호가 나타납니다. 이 알림을 받았는데 실시간 여정을 100개 넘게 실행하도록 현재 여정의 수를 확장해야 하는 경우, 고객 지원 센터에 보내는 티켓을 개설해 주시면 Adobe가 목표 달성을 도와 드리겠습니다.
+
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
 
 여러 가지 모범 사례를 채택하여 보호 기능 내에서 유지하고 시스템을 효율적으로 사용하는 데 도움이 됩니다.
 

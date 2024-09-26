@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bd5b32049e9cfbbccaf6b12c98a8f4dfcc8d14ac
+source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 66%
+source-wordcount: '1571'
+ht-degree: 67%
 
 ---
 
@@ -211,7 +211,7 @@ ht-degree: 66%
 
 **여정**
 
-* **최대 라이브 여정 수** - 이제 Journey Optimizer에는 프로덕션 샌드박스에서 100개가 아닌 500개의 라이브 여정이 있습니다. 라이브 여정 수는 여정 캔버스에 표시됩니다. [이 페이지](../start/guardrails.md#journeys-guardrails)에서 여정 보호 기능에 대해 자세히 알아보세요.
+<!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
 * **실시간 보고 개선 사항** - 실시간 보고에서는 지난 24시간 동안의 여정 성능에 대한 통찰력을 제공합니다. 새 지표(입력, 종료, 삭제된 프로필 및 오류가 있는 프로필)를 추가하여 여정 캔버스에서 직접 사용자 동작 및 성능을 더 깊이 있게 이해할 수 있도록 개선했습니다. [자세히 알아보기](../building-journeys/report-journey.md)
 
