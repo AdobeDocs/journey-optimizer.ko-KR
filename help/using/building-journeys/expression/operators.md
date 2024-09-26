@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 표현식, 구문, 연산자, 편집기, 여정
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 20dfd2a0c5e660601e6a0acea661eadfd42423d7
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '551'
 ht-degree: 5%
 
 ---
@@ -41,6 +41,10 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 * 곱셈(`*`)을 사용할 때는 두 연산 필드의 형식이 같아야 합니다(정수 또는 십진수). 예 :
    * 다음 예제는 올바릅니다. `3.0 * 4.0`
    * `3 * 4.0`에 오류가 발생합니다.
+
+* `+` 연산자를 사용하는 경우 괄호 사이에 식을 캡슐화해야 합니다. 예:
+   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`이(가) 올바릅니다.
+   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`에 오류가 발생합니다.
 
 ## 논리적  {#logical}
 
