@@ -11,10 +11,10 @@ keywords: 정책, 거버넌스, 플랫폼, Healthcare Shield, 동의
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: b783832bc43e6a12d97b210e7d4441381eac63a2
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 79%
+source-wordcount: '1260'
+ht-degree: 77%
 
 ---
 
@@ -128,21 +128,6 @@ There are two types of latency regarding the use of consent policies:
 사용자 지정 작업을 구성하는 다른 단계는 [이 섹션](../action/about-custom-action-configuration.md#consent-management)에 자세히 설명되어 있습니다.
 
 ### 여정에서 사용자 지정 작업을 추가할 때 동의 정책 활용 {#consent-journey}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_canvas"
->title="필수 마케팅 작업"
->abstract="필수 마케팅 작업은 사용자 정의 작업을 만들 때 정의하게 됩니다. 이 필수 마케팅 작업은 작업에서 제거하거나 수정할 수 없습니다."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_additional_marketing_action_canvas"
->title="추가 마케팅 작업"
->abstract="필수 작업에 더해 다른 마케팅 작업을 추가합니다. 두 마케팅 작업과 관련된 동의 정책이 적용됩니다."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_refresh_policies_canvas"
->title="런타임 시 적용되는 동의 정책 시각화"
->abstract="마케팅 작업은 작업 매개 변수와 개별 프로필 동의 값을 결합하여 사용자를 필터링하는 동의 정책을 가져옵니다. 새로 고치려면 버튼을 클릭하여 이 정책에 대한 최신 정의를 가져옵니다."
 
 여정에 사용자 정의 작업을 추가할 때 동의를 관리할 수 있는 몇 가지 옵션이 있습니다. **읽기 전용 필드 표시**&#x200B;를 눌러 모든 매개 변수를 표시합니다.
 
