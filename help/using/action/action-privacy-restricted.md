@@ -11,7 +11,7 @@ keywords: 데이터, 거버넌스, DULE, 레이블, 레이블 지정, 플랫폼,
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: 7384bcbba3e9793018628a66bb683c381d00e87a
+source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 33%
