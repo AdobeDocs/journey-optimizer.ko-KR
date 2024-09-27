@@ -11,7 +11,7 @@ keywords: 데이터, 거버넌스, DULE, 레이블, 레이블 지정, 플랫폼,
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7384bcbba3e9793018628a66bb683c381d00e87a
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 33%
@@ -90,7 +90,7 @@ Journey Optimizer에서 데이터 거버넌스 정책을 적용하려면 여정,
 
 시스템이 제한된 필드를 식별하면 여정 또는 캠페인을 게시하지 못하는 오류가 표시됩니다. [거버넌스 정책 위반을 감지하는 방법 알아보기](#violation)
 
-![](../privacy/assets/governance-policy-schema.png){zoomable="yes"}
+![](assets/governance-policy-schema.png){zoomable="yes"}
 
 *여정 및 캠페인에 대한 정책 위반 분석 단계*
 
@@ -126,7 +126,7 @@ Journey Optimizer에서 데이터 거버넌스 정책을 적용하려면 여정,
 
 필드 중 하나에서 _ePHI1_(이 예제의 혈액 유형 필드)은 작업 매개 변수에서 검색되고 오류가 표시되므로 여정을 게시할 수 없습니다. [거버넌스 정책 위반을 감지하는 방법 알아보기](#violation)
 
-![](../privacy/assets/governance-policy-custom-action-schema.png){zoomable="yes"}
+![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 
 *여정 사용자 지정 작업에 대한 정책 위반 분석 단계*
 
