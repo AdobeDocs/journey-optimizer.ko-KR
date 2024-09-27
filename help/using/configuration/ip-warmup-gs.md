@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, 전달성
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: d880d38784c2687f9710e6733c1489601e6760ba
+source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 71%
+source-wordcount: '246'
+ht-degree: 73%
 
 ---
 
@@ -22,15 +22,11 @@ ht-degree: 71%
 
 스팸으로 표시되지 않도록 하기 위해 IP 준비 계획 기능을 사용하여 전송되는 볼륨을 점진적으로 늘릴 수 있습니다. **[!UICONTROL 관리]** 메뉴의 이 새로운 옵션을 사용하면 복잡한 일일 여정을 만드는 대신 통합된 방식으로 더 쉽게 작업을 수행할 수 있습니다.
 
-<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+➡️[이 비디오에서 IP 준비 계획을 만들고 실행하는 방법을 알아봅니다](#video)
 
 >[!AVAILABILITY]
 >
 >이 기능은 프로덕션 유형 샌드박스에서만 활성화할 수 있습니다.
->
->Adobe **Healthcare Shield** 또는 **Privacy and Security Shield** 추가 기능 서비스를 구입한 조직에서는 사용할 수 없습니다.
-
-
 
 <!--
 Benefits
