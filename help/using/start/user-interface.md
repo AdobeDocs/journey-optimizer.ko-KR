@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1504'
 ht-degree: 100%
 
 ---
@@ -273,13 +273,6 @@ ht-degree: 100%
 >id="ajo_email_locking_read_only"
 >title="읽기 전용"
 >abstract="이 콘텐츠는 읽기 전용이며 수정할 수 없습니다."
-
-<!--GOVERNANCE POLICIES-->
-
->[!CONTEXTUALHELP]
->id="ajo_data_governance_policy_violation"
->title="데이터 거버넌스 정책 위반"
->abstract="시스템이 여정/캠페인에서 제한된 필드나 사용자 정의 액션을 식별하는 경우 오류가 표시되어 게시할 수 없습니다. 이 대화 상자의 데이터 계보 다이어그램을 사용하여 여정이나 캠페인을 활성화하기 전에 어떤 다른 구성을 변경해야 하는지 이해할 수 있습니다."
 
 <!--APPROVAL POLICIES-->
 
