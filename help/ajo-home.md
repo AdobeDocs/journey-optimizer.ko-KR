@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 68cf533bb459f33d2ebf951624b9a05910003fbb
+source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 90%
+source-wordcount: '392'
+ht-degree: 83%
 
 ---
 
@@ -20,13 +20,19 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB AI Assistant Content Accelerator]
+>[!TAB 9월 릴리스]
+
+모바일 앱 및 웹 사이트용 컨텐츠 카드, 여정 및 캠페인(LA)의 승인 정책, 여정의 전역 종료 기준 등을 포함하여 9월 릴리스가 공개되었습니다.
+
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB AI 어시스턴트]
 
 ✨ 기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [AI Assistant Content Accelerator](../help/using/content-management/gs-generative.md) 라이브 기능 미리 보기를 통해 실습 경험에 몰입하십시오.
 
 [![자세히 알아보기](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Customer Journey Analytics를 사용한 보고(Beta)]
+>[!TAB Customer Journey Analytics으로 보고]
 
 Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개선된 상호 운용성과 함께 양 플랫폼의 보고를 표준화하고 데이터의 일관성과 안정성을 개선합니다. 
 
