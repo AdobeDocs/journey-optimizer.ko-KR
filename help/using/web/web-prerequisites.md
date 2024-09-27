@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 6adad3dfc9a0ec23c26be2027b0e1b3e2b757f6a
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 2%
+source-wordcount: '1136'
+ht-degree: 7%
 
 ---
 
@@ -27,11 +27,7 @@ ht-degree: 2%
 
 * 현재 [!DNL Journey Optimizer]에서는 **캠페인**&#x200B;에서만 웹 경험을 만들 수 있습니다. [자세히 알아보기](../campaigns/create-campaign.md#configure)
 
-* [!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타겟팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로 구입한 계약 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 각 패키지에 대한 라이선스 지표는 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에 나와 있습니다.
-
->[!AVAILABILITY]
->
->지금은 Adobe **Healthcare Shield** 및 **Privacy and Security Shield** 추가 기능 서비스를 구입한 조직에서는 웹 채널을 사용할 수 없습니다.
+* [!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타기팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로, 사용자가 계약 시 구입한 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 각 패키지별 라이선스 지표 목록은 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에서 확인할 수 있습니다.
 
 ## 구현 사전 요구 사항 {#implementation-prerequisites}
 
