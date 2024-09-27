@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 02c4b61f22591a99824eb727aaccfd0cbe1facfc
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,10 @@ ht-degree: 1%
 
 ## 샘플 실행 {#run-sample}
 
-전제 조건: 노드 및 npm을 설치해야 합니다. [이 설명서를 참조하세요](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>[!PREREQUISITES]
+>
+>노드 및 npm을 설치해야 합니다. [이 설명서를 참조하세요](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
 
 1. HTTPS에 대한 로컬 SSL 인증서를 설정합니다. 다음 샘플은 HTTPS를 통해 콘텐츠를 제공하기 위해 로컬로 서명된 SSL 인증서가 필요합니다.
 
