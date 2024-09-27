@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1c22985b32e6441791740e779b6acc44639301eb
+source-git-commit: d1f9b9ef52727877a43b8c09cb38c8b634261584
 workflow-type: tm+mt
-source-wordcount: '2042'
+source-wordcount: '2049'
 ht-degree: 95%
 
 ---
@@ -275,6 +275,7 @@ ht-degree: 95%
    + 콘텐츠 카드 채널 {#configure} 구성
       + [콘텐츠 카드 사전 요구 사항](using/content-card/content-card-configuration-prereq.md)
       + [Journey Optimizer에서 컨텐츠 카드 채널 구성](using/content-card/content-card-configuration.md)
+      + [Web SDK에서 콘텐츠 카드 지원 구성](using/content-card/content-card-configuration-sdk.md)
    + [콘텐츠 카드 만들기](using/content-card/create-content-card.md)
    + [콘텐츠 카드 디자인](using/content-card/design-content-card.md)
 + 랜딩 페이지 {#landing-pages}
