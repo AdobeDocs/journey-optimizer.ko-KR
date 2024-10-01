@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 14%
+source-wordcount: '365'
+ht-degree: 16%
 
 ---
 
@@ -42,9 +42,18 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 
 ## 전제 조건 {#prerequisites}
 
-* Customer Journey Analytics을 **not**&#x200B;하거나 소유하고 있지만 **not**&#x200B;하면 Customer Journey Analytics 제품 프로필에 액세스할 수 있습니다. 권한은 Journey Optimizer에서 관리됩니다. 이 경우 **[!UICONTROL 채널 보고서 보기]** 권한이나 관련 역할만 있으면 됩니다. [Journey Optimizer 권한에 대해 자세히 알아보기](../administration/permissions.md)
-* Customer Journey Analytics을 소유하고 있고 Customer Journey Analytics 제품 프로필에 대한 액세스 권한이 있는 경우 표준 Customer Journey Analytics 권한이 적용됩니다. Customer Journey Analytics 관리자는 적절한 사용자 액세스를 유지 관리할 책임이 있습니다. [Customer Journey Analytics 권한에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+* Customer Journey Analytics을 **not**&#x200B;하거나 소유하고 있지만 **not**&#x200B;하면 Customer Journey Analytics 제품 프로필에 액세스할 수 있습니다. 권한은 Journey Optimizer에서 관리됩니다. 이 경우 다음이 필요합니다.
+
+   * **[!UICONTROL 채널 보고서 보기]** 권한 또는 관련 역할. [자세히 알아보기](../administration/permissions.md)
+
+* Customer Journey Analytics을 **소유**&#x200B;하고 Customer Journey Analytics 제품 프로필에 액세스할 수 있는 경우 다음이 필요합니다.
+
+   * Customer Journey Analytics에 대한 **[!UICONTROL 대상 만들기]** 및 **[!UICONTROL 대상 보기]** 권한. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+
+   * Adobe Journey Optimizer에 대한 **[!UICONTROL 프로필 관리]** 권한. [자세히 알아보기](../administration/permissions.md)
+
 * **Adobe Journey Optimizer에서 기본 데이터 보기로 설정** 설정을 사용하여 Customer Journey Analytics 데이터 보기를 구성해야 합니다. [데이터 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+
 * Journey Optimizer 내에서 Customer Journey Analytics 대시보드에 액세스하려면 보고서에서 **[!UICONTROL 새 경험 사용]** 토글을 활성화하면 됩니다.
 
   ![](assets/cja-option.png)
