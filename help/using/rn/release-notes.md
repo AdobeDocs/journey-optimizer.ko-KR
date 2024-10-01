@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4101f03862a8bd7fd531c80e6ecc62932aa94c6
+source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 51%
@@ -71,6 +71,7 @@ ht-degree: 51%
 <p>이제 승인 정책을 사용하여 마케팅 팀이 캠페인 및 여정이 라이브로 전환되기 전에 적절한 이해 관계자로부터 검토 및 승인 받았음을 확인할 수 있는 Journey Optimizer 내의 승인 프로세스를 설정할 수 있습니다.</p>
 <p>승인 정책은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="../test-approve/gs-approval.md">세부 설명서</a>를 참조하십시오.</p>
+<img src="assets/do-not-localize/approval.gif"/>
 </td>
 </tr>
 </tbody>
