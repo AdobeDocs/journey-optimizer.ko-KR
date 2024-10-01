@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="샘플 입력을 사용하여 시뮬레이션"
->abstract="이 화면에서는 CSV 템플릿(CSV 다운로드)을 통해 개인화 필드에 대한 값을 제공하거나 값을 수동으로 입력하여 이메일 콘텐츠의 다양한 변형을 테스트할 수 있습니다."
+>abstract="이 화면에서는 CSV 템플릿(CSV 다운로드)을 통해 개인화 필드에 값을 제공하거나 수동으로 값을 입력하여 이메일 콘텐츠의 다양한 변형을 테스트할 수 있습니다."
 
 >[!AVAILABILITY]
 >
