@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 14%
@@ -116,7 +116,7 @@ ht-degree: 14%
      >
      >각 인바운드 메시지 활동은 3일 **대기** 활동과 함께 제공됩니다. [자세히 알아보기](../building-journeys/wait-activity.md#auto-wait-node)
 
-### 권장 사항 {#recommendation}
+## 권장 사항 {#recommendation}
 
 [!DNL Journey Optimizer]에는 기본 메시지 기능이 포함되어 있습니다. 그러나 사용자 지정 작업을 사용하면 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다.
 
