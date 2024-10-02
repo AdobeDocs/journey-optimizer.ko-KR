@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 51%
+ht-degree: 81%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 51%
 >
 -->
 
-**릴리스 날짜**: 2024년 9월 24~26일
+**릴리스 일자**: 2024년 9월 24~25일
 
 ### 새로운 기능 {#24-9-features}
 
@@ -68,7 +68,7 @@ ht-degree: 51%
 <tbody>
 <tr>
 <td>
-<p>이제 승인 정책을 사용하여 마케팅 팀이 캠페인 및 여정이 라이브로 전환되기 전에 적절한 이해 관계자로부터 검토 및 승인 받았음을 확인할 수 있는 Journey Optimizer 내의 승인 프로세스를 설정할 수 있습니다.</p>
+<p>이제 승인 정책을 사용하여 Journey Optimizer 내 승인 프로세스를 설정할 수 있습니다. 이를 통해 마케팅 팀에서 캠페인 및 여정을 라이브로 전환하기 전에 적절한 이해 관계자의 검토 및 승인을 놓치지 않을 수 있습니다.</p>
 <p>승인 정책은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="../test-approve/gs-approval.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/approval.gif"/>
@@ -103,7 +103,7 @@ ht-degree: 51%
 <tbody>
 <tr>
 <td>
-<p>이제 여정 수준에서 종료 기준을 정의합니다. 종료 기준을 추가하면, 프로필이 이벤트가 발생하는 즉시(예: 구매) 여정을 종료하거나 대상에 적격이 됩니다. 이렇게 하면 사용자가 여정에서 더 이상 커뮤니케이션을 받지 못하게 됩니다.</p>
+<p>이제 여정 수준에서 종료 기준을 정의합니다. 종료 기준을 추가하면 이벤트가 발생(예: 구매)하거나 프로필이 대상자 자격에 해당하는 즉시 해당 프로필의 여정을 종료합니다. 그러면 해당 사용자가 더 이상 해당 여정의 커뮤니케이션을 받지 않게 됩니다.</p>
 <p>자세한 내용은 <a href="../building-journeys/journey-properties.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -192,7 +192,7 @@ ht-degree: 51%
 **대상자**
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* (사용 가능한 날짜: 9월 17일) **라이선스 사용** - 이제 라이선스 사용 대시보드에 참여 가능한 대상 대신 참여 가능한 프로필이 표시됩니다. [자세히 알아보기](../audience/license-usage.md)
+* (사용 가능한 날짜: 9월 17일) **라이선스 사용** - 이제 라이선스 사용 대시보드에 참여 가능한 대상자 대신 참여 가능한 프로필이 표시됩니다. [자세히 알아보기](../audience/license-usage.md)
 
 **콘텐츠 관리**
 
@@ -214,32 +214,32 @@ ht-degree: 51%
 
 <!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
-* **실시간 보고 개선 사항** - 실시간 보고에서는 지난 24시간 동안의 여정 성능에 대한 통찰력을 제공합니다. 새 지표(입력, 종료, 삭제된 프로필 및 오류가 있는 프로필)를 추가하여 여정 캔버스에서 직접 사용자 동작 및 성능을 더 깊이 있게 이해할 수 있도록 개선했습니다. [자세히 알아보기](../building-journeys/report-journey.md)
+* **실시간 보고 개선** - 실시간 보고에서는 지난 24시간 동안의 여정 성과에 대한 인사이트를 제공합니다. 새 지표(입력, 종료, 삭제된 프로필 및 오류가 있는 프로필)를 추가하여 여정 캔버스에서 직접 사용자 동작 및 성능을 더 깊이 있게 이해할 수 있도록 개선했습니다. [자세히 알아보기](../building-journeys/report-journey.md)
 
 <!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
-* (사용 가능한 날짜: 9월 10일) **대상자 읽기에서 자동 다시 시도** - 이제 내보내기 작업을 검색하는 동안 대상자가 트리거한 여정(**대상자 읽기** 또는 **비즈니스 이벤트**)에서 기본적으로 다시 시도가 적용됩니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md#retries)
+* (사용 가능한 날짜: 9월 10일) **대상자 읽기 자동 재시도** -이제 내보내기 작업을 검색하는 동안 대상자에 의해 트리거되는 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에 대해 기본적으로 재시도를 적용합니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md#retries)
 
 **이메일 채널**
 
-* **보낸 전자 메일 및 BCC 사본의 메시지 헤더** - 모든 전자 메일 메시지에 새 헤더가 추가되었습니다. 이 헤더의 값은 보낸 각 이메일과 해당 BCC 이메일 사본에 대해 고유합니다. 이 헤더는 메시지 및 BCC 피드백 데이터 세트에도 저장되며, 이를 통해 BCC 사본과 해당 전송된 이메일 정보를 조정할 수 있습니다. [자세히 보기](../configuration/archiving-support.md#bcc-header)
+* **보낸 전자 메일 및 BCC 사본의 메시지 헤더** - 모든 전자 메일 메시지에 새 헤더가 추가되었습니다. 이 헤더는 보낸 각 이메일과 해당 BCC 이메일 사본에 대해 고유한 값을 가집니다. 이 헤더는 메시지 및 BCC 피드백 데이터 세트에도 저장되며, 이를 통해 BCC 사본과 해당 전송된 이메일 정보를 조정할 수 있습니다. [자세히 보기](../configuration/archiving-support.md#bcc-header)
 
 * **스팸 점수**(GA)- 이제 전용 **스팸 보고서**&#x200B;에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 또는 사서함 공급자가 이를 스팸으로 간주할지 여부를 나타내는 점수를 매길 수 있습니다. [자세히 보기](../content-management/spam-report.md)
 
 **SMS 채널**
 
-* **API 자격 증명 편집** - 이제 옵트인/옵트아웃 키워드 및 답글 업데이트를 포함하여 SMS API 자격 증명의 설정을 편집할 수 있습니다.
+* **API 자격 증명 편집** - 이제 SMS API 자격 증명의 옵트인/옵트아웃 키워드 업데이트 및 답장 등 설정을 편집할 수 있습니다.
 
 **API**
 
-* **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 증명 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 증명 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 이 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* (사용 가능한 날짜: 9월 10일) [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}가 이제 대화형입니다. 설명서 페이지에서 직접 API 끝점을 탐색하여 즉각적인 피드백을 받고 기술 구현 속도를 높이십시오.
+* (사용 가능한 날짜: 9월 10일) [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}가 이제 대화형입니다. 설명서 페이지에서 직접 API 엔드포인트를 탐색하여 즉각적인 피드백을 얻고 기술 구현 속도를 높일 수 있습니다. 
 
 
-  이제 모든 API 참조 페이지에 설명서 웹 사이트 페이지에서 직접 API 호출을 테스트하는 데 사용할 수 있는 **사용해 보기** 기능이 있습니다. [필요한 인증 자격 증명을 가져오고](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} 기능을 사용하여 API 끝점을 살펴보십시오.
+  이제 모든 API 참조 페이지에는 설명서 웹 사이트 페이지에서 직접 API 호출을 테스트하는 데 사용할 수 있는 **사용해 보기** 기능이 있습니다. [필요한 인증 자격 증명을 획득](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}하면 이 기능을 사용하여 API 엔드포인트 탐색을 시작할 수 있습니다.
 
-  이 새로운 기능을 사용하여 API 끝점에 대한 요청과 응답을 탐색하고, 즉각적인 피드백을 얻으며 기술 구현 속도를 높입니다.
+  이 새로운 기능을 사용하여 API 엔드포인트에 대한 요청과 응답을 살펴보고 즉각적인 피드백을 받고 기술 구현 속도를 높일 수 있습니다.
 
   >[!CAUTION]
   >

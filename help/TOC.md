@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
 source-wordcount: '2055'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -272,11 +272,11 @@ ht-degree: 95%
    + [코드 기반 경험 만들기](using/code-based/create-code-based.md)
 + 콘텐츠 카드{#content-card}
    + [콘텐츠 카드 시작](using/content-card/get-started-content-card.md)
-   + 콘텐츠 카드 채널 {#configure} 구성
+   + 콘텐츠 카드 채널 구성 {#configure}
       + [콘텐츠 카드 사전 요구 사항](using/content-card/content-card-configuration-prereq.md)
-      + [Journey Optimizer에서 컨텐츠 카드 채널 구성](using/content-card/content-card-configuration.md)
+      + [Journey Optimizer에서 콘텐츠 카드 채널 구성](using/content-card/content-card-configuration.md)
       + [Web SDK에서 콘텐츠 카드 지원 구성](using/content-card/content-card-configuration-sdk.md)
-   + [콘텐츠 카드 만들기](using/content-card/create-content-card.md)
+   + [콘텐츠 템플릿 만들기](using/content-card/create-content-card.md)
    + [콘텐츠 카드 디자인](using/content-card/design-content-card.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
@@ -293,12 +293,12 @@ ht-degree: 95%
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
 + 콘텐츠 관리 {#content-management}
    + AI 어시스턴트 작업{#ai-assistant}
-      + [AI 어시스턴트 콘텐츠 가속기 시작하기](using/content-management/gs-generative.md)
+      + [AI 어시스턴트 콘텐츠 가속기 시작](using/content-management/gs-generative.md)
       + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
       + [AI를 사용한 푸시 생성](using/content-management/generative-push.md)
       + [AI를 사용한 SMS 생성](using/content-management/generative-sms.md)
       + [AI를 사용한 웹 생성](using/content-management/generative-web.md)
-      + [AI로 콘텐츠 실험](using/content-management/generative-experimentation.md)
+      + [AI를 사용한 콘텐츠 실험](using/content-management/generative-experimentation.md)
       + [AI 어시스턴트 사용 사례](using/content-management/generative-uc.md)
    + 다국어 콘텐츠 작업{#content-multilingual}
       + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
