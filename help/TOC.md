@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 98%
+source-wordcount: '2054'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 98%
       + [조건](using/building-journeys/condition-activity.md)
       + [대기](using/building-journeys/wait-activity.md)
       + [대상자 읽기](using/building-journeys/read-audience.md)
-      + [이메일, 인앱, 푸시, SMS](using/building-journeys/journeys-message.md)
+      + [기본 제공 채널 작업](using/building-journeys/journeys-message.md)
       + [사용자 정의 액션](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 작업](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 작업](using/building-journeys/using-adobe-campaign-v7-v8.md)
@@ -262,7 +262,7 @@ ht-degree: 98%
    + 웹 페이지 작성 {#author-web-pages}
       + [웹 페이지 콘텐츠 편집](using/web/edit-web-content.md)
       + [수정 사항 관리](using/web/manage-web-modifications.md)
-      + [웹 캠페인 모니터링](using/web/monitor-web-campaigns.md)
+      + [웹 경험 모니터링](using/web/monitor-web-experiences.md)
       + [단일 페이지 애플리케이션 작성](using/web/web-spa.md)
 + 코드 기반 경험 {#code-based-experience}
    + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)

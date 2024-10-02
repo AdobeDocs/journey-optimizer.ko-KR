@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 13%
+source-wordcount: '577'
+ht-degree: 12%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 13%
 
 화면 왼쪽의 팔레트에서 **[!UICONTROL 이벤트]** 및 **[!UICONTROL 오케스트레이션]** 아래에 **[!UICONTROL 작업]** 범주가 있습니다. 다음 작업 활동을 사용할 수 있습니다.
 
-* [이메일, SMS, 푸시](../building-journeys/journeys-message.md)
+* [기본 제공 채널 작업](../building-journeys/journeys-message.md)
 * [사용자 정의 작업](../building-journeys/using-custom-actions.md)
 * [점프](../building-journeys/jump.md)
 
@@ -62,7 +62,16 @@ ht-degree: 13%
 
 이곳에는 사용 가능한 다양한 통신 채널의 활동이 표시됩니다. 이러한 세그먼트를 결합하여 크로스채널 시나리오를 만들 수 있습니다.
 
-사용자 지정 작업을 구성한 경우 여기에 표시됩니다. [자세히 알아보기](../building-journeys/using-custom-actions.md)).
+<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
+
+메시지를 보내기 위한 특정 작업을 설정할 수도 있습니다.
+
+* 서드파티 시스템을 사용하여 메시지를 전송하는 경우 특정 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../action/action.md)
+
+* Campaign과 Journey Optimizer을 함께 사용하는 경우 다음 섹션을 참조하십시오.
+
+   * [[!DNL Journey Optimizer] 및 Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] 및 Campaign Standard](../action/acs-action.md)
 
 ## 모범 사례 {#best-practices}
 

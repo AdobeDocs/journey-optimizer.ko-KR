@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1068'
 ht-degree: 16%
 
 ---
 
 # 웹 콘텐츠 편집 {#edit-web-content}
 
-[웹 작업을 캠페인에 추가](create-web.md#create-web-campaign)하면 웹 디자이너를 사용하여 사이트의 콘텐츠를 편집할 수 있습니다.
+[웹 경험을 여정 또는 캠페인에 추가](create-web.md#create-web-experience)하면 웹 디자이너를 사용하여 사이트의 콘텐츠를 편집할 수 있습니다.
 
 [이 비디오에서는 웹 캠페인을 만드는 방법을 알아봅니다.](#video)
 
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 * [수정 사항 관리](manage-web-modifications.md)
 
-* [웹 캠페인 모니터링](monitor-web-campaigns.md)
+* [웹 캠페인 모니터링](monitor-web-experiences.md)
 
 ## 웹 디자이너를 사용하여 작업 {#work-with-web-designer}
 
@@ -45,9 +45,9 @@ ht-degree: 16%
 >abstract="규칙과 일치하는 모든 페이지에 적용되는 콘텐츠 편집에 사용할 특정 웹 페이지의 URL을 입력합니다. Adobe Experience Platform Web SDK를 사용하여 웹 페이지를 구현해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="자세히 알아보기"
 
-웹 캠페인 작성을 시작하려면 아래 단계를 따르십시오.
+웹 경험 작성을 시작하려면 아래 단계를 따르십시오.
 
-1. [campaign](create-web.md#create-web-campaign)의 **[!UICONTROL Action]** 탭에서 **[!UICONTROL 콘텐츠 편집]**&#x200B;을(를) 선택합니다.<!--change screen with rule-->
+1. 여정 또는 캠페인의 웹 경험 활동의 **[!UICONTROL 작업]** 탭에서 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 선택합니다.<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 

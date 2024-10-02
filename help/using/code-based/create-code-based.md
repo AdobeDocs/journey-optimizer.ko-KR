@@ -6,30 +6,66 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1172'
 ht-degree: 9%
 
 ---
 
 # 코드 기반 경험 만들기 {#create-code-based}
 
-현재 [!DNL Journey Optimizer]에서는 **캠페인**&#x200B;에서만 코드 기반 경험을 만들 수 있습니다.
+[!DNL Journey Optimizer]에서 여정 또는 캠페인에서 코드 기반 경험을 만들 수 있습니다.
 
 코드 기반 경험에 적용되는 가드레일 및 권장 사항은 [이 페이지](code-based-prerequisites.md)에서 자세히 설명합니다.
 
-## 코드 기반 캠페인 만들기 {#create-code-based-campaign}
+## 여정 또는 캠페인을 통해 코드 기반 경험 추가 {#create-code-based-experience}
 
-캠페인을 통해 코드 기반 경험을 구축하려면 아래 단계를 따르십시오.
+여정 또는 캠페인을 통해 코드 기반 경험을 구축하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다. [자세히 알아보기](../campaigns/create-campaign.md)
+>[!BEGINTABS]
+
+>[!TAB 여정에 코드 기반 경험 추가]
+
+여정에 **코드 기반 경험** 활동을 추가하려면 다음 단계를 따르십시오.
+
+1. [여정 만들기](../building-journeys/journey-gs.md).
+
+1. [이벤트](../building-journeys/general-events.md) 또는 [대상자 읽기](../building-journeys/read-audience.md) 활동으로 여정을 시작하십시오.
+
+1. 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 코드 기반 경험]** 활동을 끌어서 놓습니다.
+
+   ![](assets/code-based-activity-journey.png)
+
+   >[!NOTE]
+   >
+   >**코드 기반 경험**&#x200B;은(는) 인바운드 메시지 활동이므로 3일 **대기** 활동과 함께 제공됩니다. [자세히 알아보기](../building-journeys/wait-activity.md#auto-wait-node)
+
+1. 메시지에 대해 **[!UICONTROL 레이블]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
+
+1. 사용할 [코드 기반 경험 구성](code-based-configuration.md)을 선택하거나 만드십시오.
+
+   ![](assets/code-based-activity-config.png)
+
+1. **[!UICONTROL 콘텐츠 편집]** 단추를 선택하고 개인화 편집기를 사용하여 원하는 대로 콘텐츠를 편집하십시오. [자세히 알아보기](#edit-code)
+
+1. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
+
+1. 코드 기반 경험이 준비되면 구성을 완료하고 여정을 게시하여 활성화합니다. [자세히 알아보기](../building-journeys/publishing-the-journey.md)
+
+여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
+
+>[!TAB 코드 기반 경험 캠페인 만들기]
+
+캠페인을 통해 **코드 기반 경험** 빌드를 시작하려면 아래 단계를 따르십시오.
+
+1. 캠페인을 만듭니다. [자세히 알아보기](../campaigns/create-campaign.md)
 
 1. 실행할 캠페인 유형 선택
 
-   * **예약됨 - 마케팅**: 캠페인을 즉시 또는 지정한 날짜에 실행합니다. 예약된 캠페인은 마케팅 메시지 전송을 목적으로 합니다. 사용자 인터페이스에서 구성 및 실행됩니다.
+   * **[!UICONTROL 예약됨 - 마케팅]**: 캠페인을 즉시 또는 지정한 날짜에 실행합니다. 예약된 캠페인은 **마케팅** 메시지를 보내는 것을 목표로 합니다. 사용자 인터페이스에서 구성 및 실행됩니다.
 
-   * **API 트리거됨 - 마케팅/트랜잭션**: API 호출을 사용하여 캠페인을 실행하십시오. API 트리거 캠페인은 마케팅 또는 트랜잭션 메시지(예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 전송된 메시지)를 보내는 것을 목표로 합니다.
+   * **[!UICONTROL API 트리거됨 - 마케팅/트랜잭션]**: API 호출을 사용하여 캠페인을 실행하십시오. API 트리거 캠페인은 **마케팅** 또는 **트랜잭션** 메시지(예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업 후 발송된 메시지)를 보내는 것을 목표로 합니다. [API를 사용하여 캠페인을 트리거하는 방법을 알아봅니다](../campaigns/api-triggered-campaigns.md)
 
 1. 캠페인 속성, [대상자](../audience/about-audiences.md) 및 [일정](../campaigns/create-campaign.md#schedule)과 같은 캠페인을 만드는 단계를 완료합니다. 캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
@@ -41,7 +77,11 @@ ht-degree: 9%
 
 1. 개인화 편집기를 사용하여 원하는 대로 콘텐츠를 편집합니다. [자세히 알아보기](#edit-code)
 
-   ![](assets/code-based-campaign-edit-content.png)
+   <!--![](assets/code-based-campaign-edit-content.png)-->
+
+캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
+
+>[!ENDTABS]
 
 ## 코드 콘텐츠 편집 {#edit-code}
 
@@ -51,7 +91,7 @@ ht-degree: 9%
 >abstract="이 코드 기반 경험 액션의 일부로 게재하려는 코드를 삽입하고 편집합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=ko" text="개인화 편집기 시작하기"
 
-1. 캠페인 편집 화면에서 **[!UICONTROL 코드 편집]**&#x200B;을 선택합니다.
+1. 여정 활동 또는 캠페인 버전 화면에서 **[!UICONTROL 코드 편집]**&#x200B;을 선택합니다.
 
    ![](assets/code-based-campaign-edit-code.png)
 
@@ -71,7 +111,7 @@ ht-degree: 9%
 
    코드 콘텐츠의 일부를 조각으로 저장할 수도 있습니다. [방법 알아보기](../content-management/fragments.md#save-as-expression-fragment)
 
-1. 코드 기반 캠페인에서는 Experience Decisioning 기능을 사용할 수 있습니다. 왼쪽 막대에서 **[!UICONTROL 결정]** 아이콘을 선택하고 **[!UICONTROL 결정 만들기]**&#x200B;를 클릭합니다. [자세히 알아보기](../experience-decisioning/create-decision.md)
+1. 코드 기반 경험을 사용하면 experience decisioning 기능을 사용할 수 있습니다. 왼쪽 막대에서 **[!UICONTROL 결정 정책]** 아이콘을 선택하고 **[!UICONTROL 결정 정책 추가]**&#x200B;를 클릭합니다. [자세히 알아보기](../experience-decisioning/create-decision.md) <!--UI labels TBC + TBC for journeys (visible in UI so probably confirmed) -->
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -84,7 +124,7 @@ ht-degree: 9%
 
 이제 개발자가 채널 구성에 정의된 표면에 대한 콘텐츠를 가져오기 위해 API 또는 SDK를 호출하는 즉시 변경 사항이 웹 페이지 또는 앱에 적용됩니다.
 
-## 코드 기반 캠페인 테스트 {#test-code-based-campaign}
+## 코드 기반 경험 테스트 {#test-code-based-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
@@ -97,7 +137,7 @@ ht-degree: 9%
 >
 >게재할 오퍼를 시뮬레이션할 수 있는 테스트 프로필이 있어야 합니다. [테스트 프로필을 만드는](../audience/creating-test-profiles.md) 방법을 알아봅니다.
 
-1. 개인화 편집기 또는 콘텐츠 편집 화면에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 선택합니다.
+1. 여정 또는 캠페인의 개인화 편집기 또는 콘텐츠 편집 화면에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 선택합니다.
 
    ![](assets/code-based-campaign-simulate.png)
 
@@ -112,17 +152,43 @@ ht-degree: 9%
 
     When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
 
-## 코드 기반 캠페인 활성화 {#activate-code-based-campaign}
+## 코드 기반 경험 라이브로 만들기 {#code-based-experience-live}
 
 >[!IMPORTANT]
 >
 >9월 릴리스부터 새로운 캠페인 및 여정 활성화 환경을 사용하면 전체 승인 프로세스를 관리할 수 있으므로 캠페인 및 여정이 시작하기 전에 해당 관련자로부터 철저하게 검토 및 승인되도록 합니다. 이 기능은 제한된 가용성으로 사용할 수 있습니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
-코드 기반 캠페인을 정의하고 [코드 기반 편집기](#edit-code)를 사용하여 원하는 대로 콘텐츠를 편집한 후에는 해당 캠페인을 검토하고 활성화할 수 있습니다. 아래 단계를 수행합니다.
+코드 기반 경험을 정의하고 [코드 기반 편집기](#edit-code)를 사용하여 원하는 대로 콘텐츠를 편집한 후에는 여정 또는 캠페인을 활성화하여 변경 내용을 대상자에게 표시할 수 있습니다.
+
+코드 기반 경험 콘텐츠를 라이브로 만들기 전에 미리 볼 수도 있습니다. [자세히 알아보기](#test-code-based-experience)
 
 >[!NOTE]
 >
->캠페인 콘텐츠를 활성화하기 전에 미리 볼 수도 있습니다. [자세히 알아보기](#test-code-based-campaign)
+>이미 라이브 상태인 다른 여정 또는 캠페인과 동일한 페이지에 영향을 주는 코드 기반 여정/캠페인을 활성화하면 모든 변경 사항이 콘텐츠에 적용됩니다.
+>
+>여러 코드 기반 여정 또는 캠페인이 콘텐츠의 동일한 요소를 업데이트하는 경우, 우선 순위가 가장 높은 여정/캠페인이 우선합니다.
+
+### Publish a 코드 기반 여정 {#publish-code-based-journey}
+
+여정에서 코드 기반 경험을 라이브로 만들려면 아래 단계를 따르십시오.
+
+1. 여정이 유효하고 오류가 없는지 확인합니다. [자세히 알아보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+
+1. 여정에서 오른쪽 상단 드롭다운 메뉴에 있는 **[!UICONTROL Publish]** 옵션을 선택합니다.
+
+   ![](assets/code-based-journey-publish.png)
+
+   >[!NOTE]
+   >
+   >[이 섹션](../building-journeys/publishing-the-journey.md)에서 여정 게시에 대해 자세히 알아보세요.
+
+코드 기반 여정은 **[!UICONTROL Live]** 상태를 사용하며 이제 선택한 대상자에게 표시됩니다. 여정의 각 수신자는 수정 사항을 볼 수 있습니다.
+
+>[!NOTE]
+>
+>**[!UICONTROL Publish]**&#x200B;을(를) 클릭하면 변경 내용을 실시간으로 사용할 수 있게 되는 데 최대 15분이 걸릴 수 있습니다.
+
+### 코드 기반 캠페인 활성화 {#activate-code-based-campaign}
 
 1. 코드 기반 캠페인에서 **[!UICONTROL 활성화 검토]**&#x200B;를 선택합니다.
 
@@ -136,83 +202,94 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 활성화]**&#x200B;를 클릭하면 코드 기반 캠페인 변경 내용을 해당 위치에서 라이브로 사용할 수 있게 되는 데 최대 1분이 걸릴 수 있습니다.
+   >[이 섹션](../campaigns/review-activate-campaign.md)에서 캠페인을 활성화하는 방법에 대해 자세히 알아보세요.
 
-코드 기반 캠페인은 **[!UICONTROL Live]** 상태를 사용하며 이제 선택한 대상자에게 표시됩니다. 캠페인의 각 수신자는 수정 사항을 볼 수 있습니다.
+코드 기반 캠페인은 **[!UICONTROL Live]** 상태를 사용하며 이제 선택한 대상자에게 표시됩니다. 캠페인의 각 수신자는 콘텐츠에 추가한 수정 사항을 볼 수 있습니다.
 
 >[!NOTE]
 >
->코드 기반 캠페인에 대한 일정을 정의한 경우 시작 날짜 및 시간에 도달할 때까지 **[!UICONTROL 예약됨]** 상태가 됩니다.
+>**[!UICONTROL 활성화]**&#x200B;를 클릭하면 변경 내용을 실시간으로 사용할 수 있게 되는 데 최대 15분이 걸릴 수 있습니다.
 >
->이미 라이브 상태인 다른 캠페인과 동일한 위치에 영향을 주는 코드 기반 캠페인을 활성화하면 모든 변경 내용이 해당 위치에 적용됩니다.
+>코드 기반 캠페인에 대한 일정을 정의한 경우 시작 날짜 및 시간에 도달할 때까지 **[!UICONTROL 예약됨]** 상태가 됩니다.
 
-[이 섹션](../campaigns/review-activate-campaign.md)에서 캠페인을 활성화하는 방법에 대해 자세히 알아보세요.
+## 코드 기반 여정 또는 캠페인 중지 {#stop-code-based-experience}
 
-## 코드 기반 캠페인 중지 {#stop-code-based-campaign}
+코드 기반 환경이 라이브 상태일 때 이를 중지하여 대상자가 수정 사항을 보지 못하도록 할 수 있습니다. 아래 단계를 수행합니다.
 
-코드 기반 캠페인이 라이브인 경우 이를 중지하여 대상자가 수정 사항을 보지 못하도록 할 수 있습니다. 아래 단계를 수행합니다.
+1. 해당 목록에서 라이브 여정 또는 캠페인을 선택합니다.
 
-1. 목록에서 라이브 캠페인을 선택합니다.
+1. 사용 사례에 따라 관련 작업을 수행합니다.
 
-1. 상단 메뉴에서 **[!UICONTROL 캠페인 중지]**&#x200B;를 선택합니다.
+   * 캠페인 상단 메뉴에서 **[!UICONTROL 캠페인 중지]**&#x200B;를 선택합니다.
 
-   ![](assets/code-based-campaign-stop.png)
+     ![](assets/code-based-campaign-stop.png)
+
+   * 여정 상단 메뉴에서 **[!UICONTROL 자세히]** 단추를 클릭하고 **[!UICONTROL 중지]**&#x200B;를 선택합니다.
+
+     ![](assets/code-based-journey-stop.png)
 
 1. 추가한 수정 사항은 정의한 대상자에게 더 이상 표시되지 않습니다.
 
 >[!NOTE]
 >
->코드 기반 캠페인이 중지되면 다시 편집하거나 활성화할 수 없습니다. 복제하고 복제된 캠페인을 활성화할 수만 있습니다.
+>코드 기반 여정 또는 캠페인이 중지되면 다시 편집하거나 활성화할 수 없습니다. 복제하고 복제된 여정/캠페인만 활성화할 수 있습니다.
 
-## 코드 기반 캠페인 보고서
+<!--Reporting TBC
 
-캠페인 요약 화면에서 코드 기반 캠페인 보고서에 액세스할 수 있습니다.
+## Check the code-based experience reports {#check-code-based-reports}
 
-글로벌 보고서는 최소 2시간 전에 발생한 이벤트를 표시하고 선택한 기간 동안의 이벤트를 다룹니다. 반면 라이브 보고서는 이벤트 발생으로부터 최소 2분의 시간 간격을 가지고 지난 24시간 내에 발생한 이벤트에 중점을 둡니다.
+Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.-->
 
-### 코드 기반 라이브 보고서 {#live-report-code-based}
+<!--## Code-based reports
 
-**[!UICONTROL 코드 기반 경험]** 탭은 캠페인 **[!UICONTROL 라이브 보고서]**&#x200B;에서 앱 또는 웹 페이지와 관련된 기본 정보를 자세히 설명합니다. [실시간 보고서에 대한 자세한 정보](../reports/campaign-live-report.md)
+You can access code-based journey or campaign reports from the summary screen.
 
-+++코드 기반 경험 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
+Global reports display events that occurred at least two hours ago and cover events over a selected time period. In comparison, Live reports focus on events that took place within the past 24 hours, with a minimum time interval of two minutes from the event occurrence.
 
-**[!UICONTROL 코드 기반 경험 성과]** KPI는 다음과 같이 방문자의 코드 기반 경험 참여와 관련된 주요 정보를 자세히 설명합니다.
+### Code-based live report {#live-report-code-based}
 
-* **[!UICONTROL 노출 수]**: 모든 사용자에게 전달된 총 경험 수입니다.
+From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more on live report](../reports/campaign-live-report.md)
 
-* **[!UICONTROL 상호 작용]**: 앱/페이지의 총 참여 수입니다. 여기에는 클릭 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
++++Learn more on the different metrics and widgets available for the Code-based experience report.
 
-**[!UICONTROL 코드 기반 경험 요약]** 그래프는 지난 24시간 동안 경험의 진화(노출 횟수, 고유 노출 횟수 및 상호 작용)를 보여 줍니다.
+The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your code-based experiences, such as:
 
-<!--The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your app/pages.-->
+* **[!UICONTROL Impressions]**: total number of experiences delivered to all users.
+
+* **[!UICONTROL Interactions]**:  total number of engagements with your app/page. This includes any actions taken by the users, such as clicks or any other interactions.
+
+The **[!UICONTROL Code-based experience summary]** graph shows the evolution of your experiences (impressions, unique impressions and interactions) for the last 24 hours.
+
+TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your app/pages.
 +++
 
-### 코드 기반 글로벌 보고서 {#global-report-code-based}
+### Code-based global report {#global-report-code-based}
 
-**[!UICONTROL 보고서 보기]** 단추를 사용하면 캠페인에서 코드 기반 캠페인 글로벌 보고서에 직접 액세스할 수 있습니다. [글로벌 보고서에 대해 자세히 알아보기](../reports/campaign-global-report.md)
+Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report.md)
 
-**[!UICONTROL 코드 기반 경험]** 탭은 Campaign **[!UICONTROL 전역 보고서]**&#x200B;에서 앱이나 웹 페이지와 관련된 기본 정보를 자세히 설명합니다.
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
 
 ![](assets/code-based-campaign-global-report.png)
 
-<!--image-->
+Add image TBC
 
-+++코드 기반 경험 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
++++Learn more on the different metrics and widgets available for the Code-based experience report.
 
-**[!UICONTROL 코드 기반 경험 성과]** KPI는 다음과 같이 방문자의 경험 참여와 관련된 주요 정보를 자세히 설명합니다.
+The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your experiences, such as:
 
-* **[!UICONTROL 고유 노출 수]**: 경험이 전달된 고유 사용자 수.
+* **[!UICONTROL Unique impressions]**: number of unique users to whom the experience was delivered.
 
-* **[!UICONTROL 노출 수]**: 모든 사용자에게 전달된 총 경험 수입니다.
+* **[!UICONTROL Impressions]**: total number of experiences delivered to all users.
 
-* **[!UICONTROL 상호 작용]**: 앱/페이지에 대한 참여 비율. 여기에는 클릭 또는 기타 상호 작용과 같이 사용자가 수행한 모든 작업이 포함됩니다.
+* **[!UICONTROL Interactions]**: percentage of engagements with your app/page. This includes any actions taken by the users, such as clicks or any other interactions.
 
-**[!UICONTROL 코드 기반 경험 요약]** 그래프는 관련 기간 동안 경험의 진화(고유한 노출 횟수, 노출 횟수 및 상호 작용)를 보여 줍니다.
+The **[!UICONTROL Code-based experience summary]** graph shows the evolution of your experiences (unique impressions, impressions and interactions) for the concerned period.
 
-<!--The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.-->
+TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.
 +++
 
-<!--
+TBC video if existing
+
 ## How-to video{#video}
 
 The video below shows how to create a code-based campaign, configure its properties, review, and publish it.
