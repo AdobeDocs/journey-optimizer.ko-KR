@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1008'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 44%
 
 ## 2024년 9월 초기 릴리스 정보 {#e-2024}
 
-**릴리스 날짜**: 2024년 9월 24~25일
+**릴리스 일자**: 2024년 9월 24~25일
 
 ### 새로운 기능 {#e-features}
 
@@ -54,7 +54,7 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>이제 승인 정책을 사용하여 마케팅 팀이 캠페인 및 여정이 라이브로 전환되기 전에 적절한 이해 관계자로부터 검토 및 승인 받았음을 확인할 수 있는 Journey Optimizer 내의 승인 프로세스를 설정할 수 있습니다.</p>
+<p>이제 승인 정책을 사용하여 Journey Optimizer 내 승인 프로세스를 설정할 수 있습니다. 이를 통해 마케팅 팀에서 캠페인 및 여정을 라이브로 전환하기 전에 적절한 이해 관계자의 검토 및 승인을 놓치지 않을 수 있습니다.</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -66,13 +66,13 @@ ht-degree: 44%
 <table>
 <thead>
 <tr>
-<th><strong>이메일 콘텐츠 잠금</strong><br/></th>
+<th><strong>이메일 콘텐츠 잠그기</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer을 사용하여 전체 템플릿 또는 특정 구조 및 구성 요소를 잠궈 이메일 템플릿의 콘텐츠를 잠글 수 있습니다. 이를 통해 의도하지 않은 편집 또는 삭제를 방지할 수 있으므로 템플릿 사용자 지정을 더욱 강력하게 제어할 수 있으며 이메일 캠페인의 효율성과 안정성을 향상시킬 수 있습니다.</p>
+<p>이제 Journey Optimizer에서 이메일 템플릿의 콘텐츠를 잠글 수 있습니다. 템플릿 전체를 잠그거나 특정 구조 및 구성 요소를 잠그는 것이 가능합니다. 이를 통해 의도하지 않은 편집 또는 삭제를 방지할 수 있으므로 템플릿의 사용자 정의 기능을 더욱 강력하게 제어하고 이메일 캠페인의 효율성과 안정성을 향상시킬 수 있습니다.</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -89,7 +89,7 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>이제 여정 수준에서 종료 기준을 정의합니다. 종료 기준을 추가하면, 프로필이 이벤트가 발생하는 즉시(예: 구매) 여정을 종료하거나 대상에 적격이 됩니다. 이렇게 하면 사용자가 여정에서 더 이상 커뮤니케이션을 받지 못하게 됩니다.</p>
+<p>이제 여정 수준에서 종료 기준을 정의합니다. 종료 기준을 추가하면 이벤트가 발생(예: 구매)하거나 프로필이 대상자 자격에 해당하는 즉시 해당 프로필의 여정을 종료합니다. 그러면 해당 사용자가 더 이상 해당 여정의 커뮤니케이션을 받지 않게 됩니다.</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -154,7 +154,7 @@ ht-degree: 44%
 >[!IMPORTANT]
 >
 >현재 보고 경험은 10월 릴리스부터 사용이 종료됩니다. 이 날짜 이후에는 새로운 보고 경험이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다.
-> [Journey Optimizer 새 보고 인터페이스 시작](../reports/report-gs-cja.md)
+> [Journey Optimizer의 새로운 보고 인터페이스 시작](../reports/report-gs-cja.md)
 
 
 ### 개선 사항 {#e-improvements}
@@ -165,11 +165,11 @@ ht-degree: 44%
 
 * 이제 사용자 정의 업로드(CSV 파일)에서 가져온 대상자를 Privacy 및 Security Shield 추가 기능에도 사용할 수 있습니다.
   <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
-* (사용 가능한 날짜: 9월 17일) **라이선스 사용** - 이제 라이선스 사용 대시보드에 참여 가능한 대상 대신 참여 가능한 프로필이 표시됩니다. [자세히 알아보기](../audience/license-usage.md)
+* (사용 가능한 날짜: 9월 17일) **라이선스 사용** - 이제 라이선스 사용 대시보드에 참여 가능한 대상자 대신 참여 가능한 프로필이 표시됩니다. [자세히 알아보기](../audience/license-usage.md)
 
 **데이터 거버넌스**
 
-* 이제 여정 내의 사용자 지정 작업 외에도 Journey Optimizer 채널에 데이터 거버넌스 정책을 적용할 수 있습니다. 이러한 개선된 기능은 채널 구성 내에서 직접 마케팅 작업을 적용하여 커뮤니케이션에서 민감한 필드를 사용하지 않도록 합니다.
+* 이제 여정 내의 사용자 정의 작업에 더해 Journey Optimizer 채널에도 데이터 거버넌스 정책을 적용할 수 있습니다. 이 개선으로 채널 구성 내에서 직접 마케팅 작업을 적용할 수 있으므로 커뮤니케이션에서 민감한 필드를 사용하는 문제를 예방할 수 있습니다.
 
 <!--
 **Frequency and priority management**
@@ -184,35 +184,35 @@ ht-degree: 44%
 
 **여정**
 
-* **최대 라이브 여정 수** - 이제 Journey Optimizer에는 프로덕션 샌드박스에서 100개가 아닌 500개의 라이브 여정이 있습니다. 라이브 여정 수는 여정 캔버스에 표시됩니다.
+* **최대 라이브 여정 수** - 이제 Journey Optimizer의 프로덕션 샌드박스에 100개가 아닌 500개 라이브 여정의 가드레일이 있습니다. 라이브 여정 수는 여정 캔버스에 표시됩니다.
 
-* **실시간 보고 개선 사항** - 실시간 보고에서는 지난 24시간 동안의 여정 성능에 대한 통찰력을 제공합니다. 새 지표(입력, 종료, 삭제된 프로필 및 오류가 있는 프로필)를 추가하여 여정 캔버스에서 직접 사용자 동작 및 성능을 더 깊이 있게 이해할 수 있도록 개선했습니다.
+* **실시간 보고 개선** - 실시간 보고에서는 지난 24시간 동안의 여정 성과에 대한 인사이트를 제공합니다. 새로운 지표(입장, 종료, 삭제 프로필 및 오류 프로필)를 추가하여 여정 캔버스에서 직접 사용자 동작 및 성과를 더 깊이 있게 이해할 수 있도록 개선했습니다.
 
-* 사용자 지정 작업의 **매개 변수** - 이제 사용자 지정 작업에서 NULL 및 선택적 매개 변수가 지원됩니다.
+* **사용자 정의 작업의 매개 변수** - 이제 사용자 정의 작업에서 NULL 및 선택적 매개 변수가 지원됩니다.
 
-* (사용 가능한 날짜: 9월 10일) **대상자 읽기에서 자동 다시 시도** - 이제 내보내기 작업을 검색하는 동안 대상자가 트리거한 여정(**대상자 읽기** 또는 **비즈니스 이벤트**)에서 기본적으로 다시 시도가 적용됩니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md#retries)
+* (사용 가능한 날짜: 9월 10일) **대상자 읽기 자동 재시도** -이제 내보내기 작업을 검색하는 동안 대상자에 의해 트리거되는 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에 대해 기본적으로 재시도를 적용합니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md#retries)
 
 **이메일 채널**
 
-* **BCC 메시지 헤더** - 모든 전자 메일 메시지에 새 헤더가 추가되었습니다. 이 헤더의 값은 보낸 각 이메일과 해당 BCC 이메일 사본에 대해 고유합니다. 이 헤더는 메시지 및 BCC 피드백 데이터 세트에도 저장되며, 이를 통해 BCC 사본과 해당 전송된 이메일 정보를 조정할 수 있습니다.
-* **스팸 점수**(GA) - 이제 전용 스팸 보고서에서 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 또는 사서함 공급자가 이를 스팸으로 간주할지 여부를 나타내는 점수를 매길 수 있습니다. [자세히 보기](../content-management/spam-report.md)
+* **BCC 메시지 헤더** - 모든 이메일 메시지에 새 헤더가 추가되었습니다. 이 헤더는 보낸 각 이메일과 해당 BCC 이메일 사본에 대해 고유한 값을 가집니다. 이 헤더는 메시지 및 BCC 피드백 데이터 세트에도 저장되며, 이를 통해 BCC 사본과 이에 해당하는 전송된 이메일 정보를 조정할 수 있습니다.
+* **스팸 점수**(GA) - 이제 전용 스팸 보고서를 통해 콘텐츠 스팸 점수를 확인할 수 있습니다. 이제 Adobe Journey Optimizer에서 SpamAssassin을 사용하여 이메일 콘텐츠를 테스트하고 ISP 또는 사서함 공급자가 이를 스팸으로 간주할지 여부를 나타내는 점수를 매길 수 있습니다. [자세히 보기](../content-management/spam-report.md)
 
 **SMS 채널**
 
-* 이제 기존 SMS 구성을 수정할 수 있습니다
+* 이제 기존 SMS 구성을 수정할 수 있습니다.
 
 **API**
 
-* [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}는 이제 대화형입니다. 설명서 페이지에서 직접 API 끝점을 탐색하여 즉각적인 피드백을 받고 기술 구현 속도를 높이십시오.
+* [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}가 이제 대화형으로 전환되었습니다. 설명서 페이지에서 직접 API 엔드포인트를 탐색하여 즉각적인 피드백을 얻고 기술 구현 속도를 높일 수 있습니다. 
 
-  이제 모든 API 참조 페이지에 설명서 웹 사이트 페이지에서 직접 API 호출을 테스트하는 데 사용할 수 있는 **사용해 보기** 기능이 있습니다. [필요한 인증 자격 증명을 가져오고](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} 기능을 사용하여 API 끝점을 살펴보십시오.
+  이제 모든 API 참조 페이지에는 설명서 웹 사이트 페이지에서 직접 API 호출을 테스트하는 데 사용할 수 있는 **사용해 보기** 기능이 있습니다. [필요한 인증 자격 증명을 획득](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}하면 이 기능을 사용하여 API 엔드포인트 탐색을 시작할 수 있습니다.
 
-  이 새로운 기능을 사용하여 API 끝점에 대한 요청과 응답을 탐색하고, 즉각적인 피드백을 얻으며 기술 구현 속도를 높입니다.
+  이 새로운 기능을 사용하여 API 엔드포인트에 대한 요청과 응답을 살펴보고 즉각적인 피드백을 받고 기술 구현 속도를 높일 수 있습니다.
 
   >[!CAUTION]
   >
   >설명서 페이지의 대화형 API 기능을 사용하면 엔드포인트에 실제 API 호출을 할 수 있다는 점에 유의하십시오. 프로덕션 샌드박스를 실험할 때는 이 점을 명심하십시오.
 
 
-* **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 증명 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 증명 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 이 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 

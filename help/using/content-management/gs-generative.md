@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer Content Accelerator에서 AI Assistant 시작
-description: Journey Optimizer Content Accelerator에서 AI Assistant에 액세스하고 사용하는 방법을 알아봅니다
+title: Journey Optimizer 콘텐츠 가속기의 AI 어시스턴트 시작
+description: Journey Optimizer 콘텐츠 가속기의 AI 어시스턴트에 액세스하고 작업하는 방법을 알아봅니다.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '884'
+ht-degree: 100%
 
 ---
 
-# AI 어시스턴트 콘텐츠 가속기 시작하기 {#gs-content-assistant}
+# AI 어시스턴트 콘텐츠 가속기 시작 {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [라이브 기능 미리 보기](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}를 통해 실습 경험에 몰입하십시오.
+>기능을 직접 탐색하고 완전히 이해할 수 있도록 설계된 [라이브 기능 미리 보기](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}를 통해 몰입형 실습 경험을 제공합니다.
 
 
 콘텐츠 가속을 위한 Adobe Journey Optimizer의 Microsoft Azure OpenAI 및 Adobe Firefly 기반 AI 어시스턴트는 텍스트 및 이미지 콘텐츠 변형을 적극적으로 제안합니다. 이메일, 푸시, SMS 채널에 사용 가능합니다. 이 새로운 기능은 프롬프트 기반의 텍스트 및 이미지 생성을 제공합니다. 이미지 생성은 Adobe Firefly로 관리됩니다.
