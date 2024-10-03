@@ -73,7 +73,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_create_project"
 >title="프로젝트 만들기"
->abstract="다국어 콘텐츠를 만들려면 먼저 대상 로케일을 식별하고 대상자에게 적합한 언어나 지역 방언을 선택하여 번역 프로젝트를 시작합니다. 그 후, 프로젝트의 필요에 맞는 번역 공급업체를 선택합니다."
+>abstract="다국어 콘텐츠를 만들려면 먼저 대상 로케일을 식별하고 대상자에게 적합한 언어나 지역 방언을 선택하여 번역 프로젝트를 시작합니다. 그 후, 프로젝트의 필요에 맞는 번역 제공자를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_project"
