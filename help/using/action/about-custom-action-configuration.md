@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: b429082f44090033e0fdef64f05ab1e9964297b6
+source-git-commit: 9059e3192170681293816a78703e39a60127a112
 workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 20%
@@ -153,7 +153,7 @@ mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용
 
    외부 호출에서 Null 값을 유지하려면 **[!UICONTROL NULL 값 허용]** 옵션을 활성화하십시오. int, string 등의 배열을 전송하는 것을 참고하십시오. 내의 Null 값이 있는 은(는) 완전히 지원되지 않습니다. 예를 들어, 다음 정수 배열 `[1, null, 2, 3]`은(는) 이 옵션이 선택된 경우에도 `[1, 2, 3]`(으)로 전송됩니다. 또한 이러한 배열이 null이면 빈 배열로 전송됩니다.
 
-   ![](assets/null-values.png)
+   ![](assets/null-values.png){width="70%" align="left"}
 
 1. **[!UICONTROL 응답]** 섹션에 호출에서 반환된 페이로드의 예제를 붙여 넣습니다. 이 필드는 선택 사항이며 모든 호출 방법에서 사용할 수 있습니다. 사용자 지정 작업에서 API 호출 응답을 활용하는 방법에 대한 자세한 내용은 [이 페이지](../action/action-response.md)를 참조하세요.
 
