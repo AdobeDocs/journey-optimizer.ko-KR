@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
+source-git-commit: e6d6fe4ef068f806126de1c9a417fa0155bdc25d
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1266'
 ht-degree: 72%
 
 ---
@@ -28,11 +28,7 @@ ht-degree: 72%
 
 ## 2024년 10월 업데이트 {#24-10-rn}
 
-**릴리스 일자**: 2024년 10월 1일 수요일
-
-### 새로운 기능 {#24-10-features}
-
-이 업데이트는 아래에 설명된 새로운 기능을 제공합니다.
+Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 나와 있습니다.
 
 <table>
 <thead>
