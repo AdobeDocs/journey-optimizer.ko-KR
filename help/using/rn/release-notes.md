@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 74%
+source-wordcount: '1269'
+ht-degree: 72%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 74%
 <p>코드 기반 경험 채널을 사용하면 Adobe Journey Optimizer을 통해 인바운드 속성에 대해 고급 개인화 및 테스트를 수행할 수 있으므로 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV 연결 장치, 스마트 TV, 키오스크, ATM, IoT 장치 등과 같은 다양한 접점에서 맞춤형 경험을 원활하게 전달할 수 있습니다. 이제 여정 캔버스에서 코드 기반 경험 채널을 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../code-based/create-code-based.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>사용 가능한 날짜: 10월 1일</p>
 </tr>
 </tbody>
 </table>
@@ -62,9 +63,17 @@ ht-degree: 74%
 <p>Adobe Journey Optimizer을 사용하면 웹 여정을 통해 인바운드 웹 채널을 통해 고객에게 제공하는 웹 경험을 개인화할 수 있습니다. 이제 웹 채널을 여정 캔버스에서 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../web/create-web.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
+<p>사용 가능한 날짜: 10월 1일</p>
 </tr>
 </tbody>
 </table>
+
+
+**여정 개선 사항**
+
+* (사용 가능한 날짜: 10월 3일) **사용자 지정 작업의 매개 변수** - 이제 사용자 지정 작업에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+
 
 ## 2024년 9월 릴리스 정보 {#24-9-rn}
 
@@ -256,7 +265,6 @@ ht-degree: 74%
 
 * **실시간 보고 개선** - 실시간 보고에서는 지난 24시간 동안의 여정 성과에 대한 인사이트를 제공합니다. 새 지표(입력, 종료, 삭제된 프로필 및 오류가 있는 프로필)를 추가하여 여정 캔버스에서 직접 사용자 동작 및 성능을 더 깊이 있게 이해할 수 있도록 개선했습니다. [자세히 알아보기](../building-journeys/report-journey.md)
 
-<!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
 * (사용 가능한 날짜: 9월 10일) **대상자 읽기 자동 재시도** -이제 내보내기 작업을 검색하는 동안 대상자에 의해 트리거되는 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에 대해 기본적으로 재시도를 적용합니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md#retries)
 
