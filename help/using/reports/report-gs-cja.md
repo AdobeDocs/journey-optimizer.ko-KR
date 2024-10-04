@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
+source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 16%
+source-wordcount: '389'
+ht-degree: 15%
 
 ---
 
 # 새 보고 인터페이스 시작 {#channel-report-gs-cja}
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Journey Optimizer의 기존 보고로 되돌리려면 **[!UICONTROL 새 경험 사용]** 옵션을 전환하면 됩니다.
+>Adobe Journey Optimizer의 보고는 현재 UTC로 표준화되었습니다. 보고 시간대를 사용자 지정하는 기능은 향후 릴리스에 도입될 예정입니다.
 
 Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개선된 상호 운용성과 함께 양 플랫폼의 보고를 표준화하고 데이터의 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 확실한 정보에 근거한 결정을 내릴 수 있습니다.
 
@@ -39,6 +39,10 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 * 환경 내의 모든 캠페인과 여정에 대한 지표를 타깃팅하려면 **[!UICONTROL 여정 관리]** 섹션 내의 **[!UICONTROL 보고서]** 메뉴로 이동하여 **개요** 보고서에 액세스하십시오. [개요 보고서에 대해 자세히 알아보기](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
+
+>[!NOTE]
+>
+> Journey Optimizer의 기존 보고로 되돌리려면 **[!UICONTROL 새 경험 사용]** 옵션을 전환하면 됩니다.
 
 ## 전제 조건 {#prerequisites}
 
