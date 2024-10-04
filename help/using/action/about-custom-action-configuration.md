@@ -9,14 +9,14 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 9059e3192170681293816a78703e39a60127a112
+source-git-commit: f706a7b2511d6d0314e3b6df4cd08d44abf29a5e
 workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 20%
 
 ---
 
-# 사용자 정의 액션 구성 {#configure-an-action}
+# 사용자 정의 액션 구성 {#configure-a-custom-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
