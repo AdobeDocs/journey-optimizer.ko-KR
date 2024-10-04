@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
+source-git-commit: 67f1b70d4f55a0bfb289720c43b1ac8b336ab380
 workflow-type: tm+mt
 source-wordcount: '4802'
 ht-degree: 2%
@@ -763,7 +763,7 @@ Workspace Customer Journey Analytics 및 데이터를 필터링하고 분석하�
 
 포괄적인 제외 이유 목록은 [이 페이지](exclusion-list.md)를 참조하세요.
 
-## 코드 기반 경험
+## 코드 기반 경험 {#code-based}
 
 ### 표시 및 클릭 {#impressions-code}
 
