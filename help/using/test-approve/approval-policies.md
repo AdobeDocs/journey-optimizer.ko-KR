@@ -3,8 +3,9 @@ title: 승인 정책 만들기 및 관리
 description: 승인 정책을 만들고 관리하는 방법을 알아봅니다.
 role: User
 level: Beginner
+feature: Approval
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 5%

@@ -3,8 +3,9 @@ title: 승인 요청
 description: 여정 및 캠페인을 게시하기 전에 승인을 요청하는 방법을 알아봅니다.
 role: User
 level: Beginner
+feature: Approval
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 3%

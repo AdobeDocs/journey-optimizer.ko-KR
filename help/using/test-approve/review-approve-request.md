@@ -3,8 +3,9 @@ title: 요청 검토 및 승인
 description: 여정 및 캠페인 게시에 대한 요청을 검토하고 승인하는 방법을 알아봅니다.
 role: User
 level: Beginner
+feature: Approval
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 2%
