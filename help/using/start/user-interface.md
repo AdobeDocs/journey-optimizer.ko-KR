@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 100%
@@ -60,7 +60,7 @@ ht-degree: 100%
 * **[!UICONTROL 랜딩 페이지]** - 랜딩 페이지를 만들고 디자인하고 테스트 및 게시합니다. 사용자에게 커뮤니케이션 수신을 옵트인 또는 옵트아웃하거나 특정 서비스를 구독할 수 있는 온라인 양식으로 가는 링크를 보냅니다. [자세히 보기](../landing-pages/get-started-lp.md)
 
 
-### [!UICONTROL 의사 결정 관리] {#left-nav-offers}
+### [!UICONTROL 의사 결정 관리] {#left-nav-decision}
 
 이 섹션에서는 오퍼와 구성 요소를 만듭니다.
 
