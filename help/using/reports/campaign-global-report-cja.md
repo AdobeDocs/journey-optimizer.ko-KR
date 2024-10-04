@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4540'
 ht-degree: 2%
 
 ---
@@ -844,14 +844,3 @@ KPI는 캠페인에 사용된 채널에 따라 달라집니다.
 
 +++
 
-### 추적된 링크 URL {#tracked-link-url}
-
-**[!UICONTROL 추적된 링크 URL]** 테이블은 가장 높은 방문자 트래픽을 유도하는 콘텐츠 카드 내의 URL에 대한 포괄적인 개요를 제공합니다. 이를 통해 가장 인기 있는 링크를 식별하고 우선 순위를 지정할 수 있으므로 콘텐츠 카드의 특정 콘텐츠와 관련한 프로필 참여에 대한 이해를 높일 수 있습니다.
-
-+++ 추적된 링크 URL 지표에 대해 자세히 알아보기
-
-* **[!UICONTROL 고유 클릭 수]**: 콘텐츠 카드의 콘텐츠를 클릭한 프로필 수입니다.
-
-* **[!UICONTROL 클릭 수]**: 콘텐츠 카드에서 콘텐츠를 클릭한 횟수입니다.
-
-+++
