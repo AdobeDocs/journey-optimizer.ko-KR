@@ -4,10 +4,10 @@ description: 콘텐츠 카드 콘텐츠를 디자인하는 방법 알아보기
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 96a218d54851cc9b309e08e120e9a4bca5c4e74f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 2%
+source-wordcount: '418'
+ht-degree: 4%
 
 ---
 
@@ -39,17 +39,19 @@ ht-degree: 2%
 
 ![](assets/content-card-design-2.png)
 
-+++고급 서식이 있는 추가 옵션
-
-**[!UICONTROL 고급 서식 모드]**&#x200B;가 켜져 있으면 **[!UICONTROL 머리글]** 및 **[!UICONTROL 본문]**&#x200B;을 선택할 수 있습니다.
-
-* **[!UICONTROL 글꼴]**
-* **[!UICONTROL Pt 크기]**
-* **[!UICONTROL 글꼴 색상]**
-* **[!UICONTROL 정렬]**
-+++
-
 메시지를 추가로 맞춤화하려면 **[!UICONTROL Personalization]** 아이콘을 사용하여 개인화된 요소를 추가하십시오. 개인화 기능을 사용하는 방법에 대한 자세한 지침은 [이 섹션](../personalization/personalize.md)을 참조하세요.
+
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Header]** and **[!UICONTROL Body]**:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
++++
+-->
 
 ### 미디어 {#add-media}
 
@@ -59,11 +61,13 @@ ht-degree: 2%
 
 미디어를 포함하려면 사용할 미디어의 URL을 입력하거나 **[!UICONTROL Assets 선택]** 아이콘을 클릭하여 Assets 라이브러리에 저장된 에셋 중에서 선택합니다. [자산 관리에 대해 자세히 알아보세요](../content-management/assets.md).
 
-+++고급 서식이 있는 추가 옵션
+<!--
++++More options with advanced formatting
 
-**[!UICONTROL 고급 서식 모드]**&#x200B;가 켜져 있으면 **[!UICONTROL 어두운 모드 미디어 URL]** 필드에 화면 읽기 응용 프로그램 및 다른 에셋에 대해 **[!UICONTROL 대체 텍스트]**&#x200B;를 추가할 수 있습니다.
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
 
 +++
+-->
 
 ### 버튼 {#add-buttons}
 
@@ -79,16 +83,18 @@ ht-degree: 2%
 
 1. 버튼과 상호 작용한 후 사용자가 이동할 웹 URL 또는 딥 링크를 **[!UICONTROL Target]** 필드에 입력합니다.
 
-+++고급 서식이 있는 추가 옵션
+<!--
++++More options with advanced formatting
 
-**[!UICONTROL 고급 서식 모드]**&#x200B;가 켜져 있으면 **[!UICONTROL 단추]**&#x200B;를 선택할 수 있습니다.
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
 
-* **[!UICONTROL 글꼴]**
-* **[!UICONTROL Pt 크기]**
-* **[!UICONTROL 글꼴 색상]**
-* **[!UICONTROL 정렬]**
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
 
 +++
+-->
 
 ### 클릭 시 동작
 
