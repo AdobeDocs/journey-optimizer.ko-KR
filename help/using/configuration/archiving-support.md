@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 보관, 메시지, HIPAA, BCC, 이메일
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 794724670c41e5d36ff063072a2e29c37dd5fadd
+source-git-commit: bbc64b4274cee083e6c35147314b230391b35317
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -28,7 +28,7 @@ HIPAA와 같은 규정에서는 [!DNL Journey Optimizer]이(가) 개인에게 �
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]은(는) SMS 보관 요구 사항에 대한 지원을 소유하고 있지 않습니다. 전용 아카이브 지원이 필요하면 SMS 공급업체(Synch, Infobip 또는 Twilio)와 협력하십시오.
+>[!DNL Journey Optimizer]은(는) SMS 보관 요구 사항에 대한 지원을 소유하고 있지 않습니다. 전용 아카이브 지원이 필요하면 SMS 공급업체(Sinch, Infobip 또는 Twilio)와 협력하십시오.
 
 ## 이메일용 BCC 사용 방법 {#bcc-email}
 
