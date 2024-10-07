@@ -5,10 +5,10 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -45,4 +45,4 @@ Adobe Journey Optimizer에서 컨텐츠 카드를 올바르게 표시하려면 �
 
   앱의 [데이터 스트림](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank)에 사용된 데이터 집합도 콘텐츠 실험 보고 구성에 포함되어 있는지 확인하십시오. 데이터 세트가 일치하지 않으면 앱 데이터가 보고서에 표시되지 않습니다.
 
-  [이 섹션](../content-management/reporting-configuration.md)에서 콘텐츠 실험 보고를 위한 데이터 세트를 추가하는 방법을 알아보세요.
+  [이 섹션](../reports/reporting-configuration.md)에서 콘텐츠 실험 보고를 위한 데이터 세트를 추가하는 방법을 알아보세요.

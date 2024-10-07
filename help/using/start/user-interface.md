@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 100%
+source-wordcount: '1507'
+ht-degree: 98%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 구성]** - 이 메뉴에서는 여정에서 사용할 [이벤트](../event/about-events.md), [데이터 소스](../datasource/about-data-sources.md), [작업](../action/action.md)을 구성할 수 있습니다.
 
-  **보고** 섹션에 액세스하여 캠페인 실험 보고를 구성할 수도 있습니다. [자세히 알아보기](../content-management/reporting-configuration.md)
+  **보고** 섹션에 액세스하여 캠페인 실험 및 웹/모바일에 대한 보고를 구성할 수도 있습니다. [자세히 알아보기](../reports/reporting-configuration.md)
 
 * **[!UICONTROL 비즈니스 규칙]** - 이 섹션에서는 크로스 채널 비즈니스 규칙을 만들어 사용자가 메시지를 받거나 여정에 입장하는 빈도를 제어합니다. [자세히 보기](../configuration/frequency-rules.md)
 

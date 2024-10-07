@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1134'
 ht-degree: 7%
 
 ---
@@ -127,19 +127,21 @@ Adobe [!DNL Journey Optimizer] 웹 디자이너를 사용할 때 로드하지 �
 
   [Edge Delivery 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/view/edge-delivery)
 
-## 콘텐츠 실험 사전 요구 사항 {#experiment-prerequisites}
+## 보고 사전 요구 사항 {#experiment-prerequisites}
 
-웹 채널에 대해 콘텐츠 실험을 활성화하려면 웹 구현 [데이터 스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}에 사용된 [데이터 세트](../data/get-started-datasets.md)도 보고 구성에 포함되어 있는지 확인해야 합니다.
+웹 채널에 대한 보고를 사용하려면 웹 구현 [데이터 스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}에서 사용되는 [데이터 세트](../data/get-started-datasets.md)도 보고 구성에 포함되어 있는지 확인해야 합니다.
 
-즉, 실험 보고를 구성할 때 웹 데이터 스트림에 없는 데이터 세트를 추가하면 웹 데이터가 콘텐츠 실험 보고서에 표시되지 않습니다.
+즉, 보고를 구성할 때 웹 데이터 스트림에 없는 데이터 세트를 추가하면 웹 데이터가 보고서에 표시되지 않습니다.
 
-[이 섹션](../content-management/reporting-configuration.md#add-datasets)에서 콘텐츠 실험 보고를 위한 데이터 세트를 추가하는 방법을 알아보세요.
+[이 섹션](../reports/reporting-configuration.md#add-datasets)에서 보고할 데이터 세트를 추가하는 방법을 알아보세요.
 
 >[!NOTE]
 >
 >데이터 집합은 [!DNL Journey Optimizer] 보고 시스템에서 읽기 전용으로 사용되며 데이터 수집이나 데이터 수집에는 영향을 주지 않습니다.
 
 데이터 세트 스키마 `AEP Web SDK ExperienceEvent` 및 `Consumer Experience Event`([이 페이지](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}에 정의됨)에 대해 미리 정의된 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}을(를) 사용하여 **not**&#x200B;하는 경우 `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` 및 `Web Details` 필드 그룹을 추가해야 합니다. 각 프로필이 참여하고 있는 실험과 처리를 추적하는 [!DNL Journey Optimizer] 콘텐츠 실험 보고에서 이러한 항목이 필요합니다.
+
+[보고 구성에 대해 자세히 알아보기](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

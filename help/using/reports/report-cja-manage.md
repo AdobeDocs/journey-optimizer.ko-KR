@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -143,7 +143,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->각 조직은 25개의 대상자를 게시하는 것으로 제한됩니다. 또한 사용자는 시간당 최대 5개, 일별 20개의 대상을 게시할 수 있습니다
+>각 조직은 25개의 대상자를 게시하는 것으로 제한됩니다. 또한 사용자는 시간당 최대 5개, 일별 20개의 대상을 게시할 수 있습니다.
+> 일회성 대상의 수명은 48시간입니다. 따라서 25개의 대상이 해당 기간 내에 게시되는 경우 추가 대상은 48시간 기간이 경과한 후에만 게시할 수 있습니다.
 
 이제 테이블 내에서 특정 데이터를 선택하고 이러한 선택 항목으로 대상을 직접 만들 수 있으므로 대상 만들기 프로세스를 간소화하고 단순화할 수 있습니다.
 

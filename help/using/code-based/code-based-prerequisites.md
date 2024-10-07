@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '580'
 ht-degree: 3%
 
 ---
@@ -59,13 +59,13 @@ ht-degree: 3%
 
   [Edge Delivery 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/view/edge-delivery)
 
-## 콘텐츠 실험 사전 요구 사항 {#experiment-prerequisites}
+## 보고 사전 요구 사항 {#experiment-prerequisites}
 
-코드 기반 채널에 대해 콘텐츠 실험을 활성화하려면 앱 구현 [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}에 사용된 [데이터 세트](../data/get-started-datasets.md)도 보고 구성에 포함되어 있는지 확인해야 합니다.
+코드 기반 채널에 대한 보고를 사용하려면 앱 구현 [데이터 스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}에 사용된 [데이터 세트](../data/get-started-datasets.md)도 보고 구성에 포함되어 있는지 확인해야 합니다.
 
-즉, 실험 보고를 구성할 때 앱 데이터 스트림에 없는 데이터 세트를 추가하면 앱 데이터가 콘텐츠 실험 보고서에 표시되지 않습니다.
+즉, 보고를 구성할 때 앱 데이터 스트림에 없는 데이터 세트를 추가하면 앱 데이터가 보고서에 표시되지 않습니다.
 
-[이 섹션](../content-management/reporting-configuration.md#add-datasets)에서 콘텐츠 실험 보고를 위한 데이터 세트를 추가하는 방법을 알아보세요.
+[이 섹션](../reports/reporting-configuration.md#add-datasets)에서 보고할 데이터 세트를 추가하는 방법을 알아보세요.
 
 >[!NOTE]
 >

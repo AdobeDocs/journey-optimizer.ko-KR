@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2055'
 ht-degree: 97%
 
 ---
@@ -307,7 +307,6 @@ ht-degree: 97%
    + 콘텐츠 실험 작업 {#content-experiment}
       + [콘텐츠 실험 시작](using/content-management/get-started-experiment.md)
       + [콘텐츠 실험 만들기](using/content-management/content-experiment.md)
-      + [실험 보고서 구성](using/content-management/reporting-configuration.md)
       + 기술 노트 {#technotes}
          + [통계 계산 이해](using/content-management/experiment-calculations.md)
          + [실험 보고서의 통계 계산 이해](using/content-management/experiment-report-calculations.md)
@@ -411,6 +410,7 @@ ht-degree: 97%
    + [제외 이유](using/reports/exclusion-list.md)
 + 새로운 보고 인터페이스(LA){#channel-report}
    + [새로운 보고 인터페이스 시작](using/reports/report-gs-cja.md)
+   + [보고 및 실험 사전 요구 사항](using/reports/reporting-configuration.md)
    + [보고서 관리](using/reports/report-cja-manage.md)
    + [여정 보고서](using/reports/journey-global-report-cja.md)
    + [캠페인 보고서](using/reports/campaign-global-report-cja.md)
