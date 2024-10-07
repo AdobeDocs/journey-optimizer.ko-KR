@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e6d6fe4ef068f806126de1c9a417fa0155bdc25d
+source-git-commit: 02df00b74dd07ff422f26f16120233b17a342c21
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 72%
+source-wordcount: '1277'
+ht-degree: 71%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 72%
 
 ## 2024년 10월 업데이트 {#24-10-rn}
 
+### 새로운 기능 {#24-10-features}
+
 Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 나와 있습니다.
 
 <table>
@@ -39,6 +41,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 �
 <tbody>
 <tr>
 <td>
+<p>사용 가능한 날짜: 10월 1일</p>
 <p>코드 기반 경험 채널을 사용하면 Adobe Journey Optimizer을 통해 인바운드 속성에 대해 고급 개인화 및 테스트를 수행할 수 있으므로 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV 연결 장치, 스마트 TV, 키오스크, ATM, IoT 장치 등과 같은 다양한 접점에서 맞춤형 경험을 원활하게 전달할 수 있습니다. 이제 여정 캔버스에서 코드 기반 경험 채널을 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../code-based/create-code-based.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
@@ -56,6 +59,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 �
 <tbody>
 <tr>
 <td>
+<p>사용 가능한 날짜: 10월 1일</p>
 <p>Adobe Journey Optimizer을 사용하면 웹 여정을 통해 인바운드 웹 채널을 통해 고객에게 제공하는 웹 경험을 개인화할 수 있습니다. 이제 웹 채널을 여정 캔버스에서 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../web/create-web.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
@@ -64,8 +68,9 @@ Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 �
 </tbody>
 </table>
 
+### 개선 사항 {#24-10-improvements}
 
-**여정 개선 사항**
+**여정**
 
 * (사용 가능한 날짜: 10월 3일) **사용자 지정 작업의 매개 변수** - 이제 사용자 지정 작업에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
