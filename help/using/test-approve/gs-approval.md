@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Approval
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 18%
@@ -85,6 +85,6 @@ Journey Optimizer을 사용하면 마케팅 팀이 캠페인 및 여정이 라�
 
 ## 승인 요청 모니터링 {#monitor}
 
-주어진 여정 또는 캠페인에 대해 제출된 모든 승인 및 변경 요청을 모니터링할 수 있습니다. 이렇게 하려면 여정 캔버스 또는 캠페인 검토 화면의 오른쪽 상단에 있는 **[!UICONTROL 감사 추적 표시]** 단추를 클릭합니다.
+주어진 여정 또는 캠페인에 대해 제출된 모든 승인 및 변경 요청을 모니터링할 수 있습니다. 이렇게 하려면 여정 캔버스 또는 캠페인 검토 화면의 오른쪽 상단에 있는 **[!UICONTROL 감사 추적 표시]** 아이콘을 클릭합니다.
 
 ![](assets/monitor-requests.png)

@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 02df00b74dd07ff422f26f16120233b17a342c21
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 71%
@@ -154,7 +154,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 �
 <tr>
 <td>
 <p>이제 여정 수준에서 종료 기준을 정의합니다. 종료 기준을 추가하면 이벤트가 발생(예: 구매)하거나 프로필이 대상자 자격에 해당하는 즉시 해당 프로필의 여정을 종료합니다. 그러면 해당 사용자가 더 이상 해당 여정의 커뮤니케이션을 받지 않게 됩니다.</p>
-<p>자세한 내용은 <a href="../building-journeys/journey-properties.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-properties.md#exit-criteria">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
