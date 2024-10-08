@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, Healthcare Shield, 동의
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: f61bd7d8d03ba2fd4e92c277f0cbfb730b3703c1
+source-git-commit: 21b30d75bac657acb28500b143b7b1f9018a13ff
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 99%
 
 ---
 
@@ -172,3 +172,9 @@ The following data is taken into account for consent:
 -->
 
 여정에서 사용자 지정 작업을 구성하는 다른 단계는 [이 섹션](../building-journeys/using-custom-actions.md)에 자세히 설명되어 있습니다.
+
+## 방법 비디오 {#video}
+
+Journey Optimizer 채널에서 데이터 사용 레이블 지정이 적용되는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3434901/?learn=on)
