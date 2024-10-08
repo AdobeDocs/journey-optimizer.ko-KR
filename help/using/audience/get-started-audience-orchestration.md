@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 59%
+source-wordcount: '307'
+ht-degree: 60%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 59%
 
 >[!IMPORTANT]
 >
->대상 구성 및 사용자 지정 업로드 대상의 대상 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
+>대상자 작성의 대상자 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
 >
 >데이터 보강 속성은 아직 정책 시행 서비스와 통합되지 않았습니다. 따라서 데이터 보강 속성에 적용하는 데이터 사용 레이블은 Journey Optimizer 캠페인 또는 여정에 적용되지 않습니다.
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 70%
+source-wordcount: '1329'
+ht-degree: 69%
 
 ---
 
@@ -77,6 +77,8 @@ Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 �
 **대상자**
 
 * 이제 CSV 파일 대상을 타기팅할 때 개인화 편집기 및 여정 및 캠페인 규칙 빌더에서 파일의 속성을 사용할 수 있습니다. [자세히 알아보기](../audience/about-audiences.md)
+
+* 이제 사용자 지정 업로드(CSV 파일)의 대상 및 속성을 Healthcare Shield 또는 Privacy and Security Shield와 함께 사용할 수 있습니다.
 
 ## 2024년 9월 릴리스 정보 {#24-9-rn}
 
