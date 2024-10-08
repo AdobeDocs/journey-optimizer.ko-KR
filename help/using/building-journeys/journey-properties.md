@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2048'
 ht-degree: 14%
 
 ---
@@ -278,18 +278,15 @@ ht-degree: 14%
 종료 기준을 **만들기**&#x200B;하려면 다음 단계를 수행합니다.
 
 1. 여정을 엽니다.
+
 1. 여정 캔버스의 오른쪽 위 섹션에 있는 **[!UICONTROL 종료 조건 표시]** 아이콘을 클릭합니다.
-
-![](assets/exitcriteria_icon.png){width="40%" align="left"}
-
+   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
 1. **[!UICONTROL 종료 기준 추가]** 단추를 클릭합니다.
-
-![](assets/exitcriteria.png){width="40%" align="left"}
-
-1. **레이블**&#x200B;을(를) 입력하고 종료 기준이 이벤트나 대상을 기반으로 하는지 선택합니다.
+   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. **레이블**&#x200B;을(를) 입력하고 종료 기준이 **이벤트** 또는 **대상자**&#x200B;를 기반으로 하는지 선택합니다.
 
 * 이벤트를 기반으로 한 종료 기준의 경우 단일 이벤트만 선택합니다.
-* 대상을 기반으로 한 종료 기준에 대해 대상을 선택합니다. 참고: 대상을 사용한 종료 기준은 작동하는 데 최대 10분이 걸릴 수 있습니다.
+* 대상을 기반으로 한 종료 기준에 대해 대상을 선택합니다. 참고: 대상을 사용하여 종료 기준을 적용하려면 최대 10분이 걸릴 수 있습니다.
 
 여러 종료 기준을 추가할 수 있습니다.
 
