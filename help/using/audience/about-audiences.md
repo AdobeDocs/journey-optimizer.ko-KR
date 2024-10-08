@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
+source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
 workflow-type: tm+mt
 source-wordcount: '2272'
 ht-degree: 17%
@@ -93,7 +93,7 @@ ht-degree: 17%
 >
 1. &quot;관리&quot; > &quot;구성&quot; > &quot;데이터 소스&quot;로 이동합니다.
 1. &quot;Experience Platform&quot;를 선택하고 필드 그룹을 만들거나 편집합니다.
-2. 스키마 선택기에서 적절한 스키마를 선택합니다. 스키마 이름은 &#39;Schema for audienceId:&#39; + 대상 ID 형식으로 이루어집니다. 대상자 인벤토리의 대상자 세부 사항 화면에서 대상자 ID를 찾을 수 있습니다.
+1. 스키마 선택기에서 적절한 스키마를 선택합니다. 스키마 이름은 &#39;Schema for audienceId:&#39; + 대상 ID 형식으로 이루어집니다. 대상자 인벤토리의 대상자 세부 사항 화면에서 대상자 ID를 찾을 수 있습니다.
 1. 필드 선택기를 열고 추가할 데이터 보강 속성을 찾은 다음 해당 속성 옆의 확인란을 선택합니다.
 1. 변경 내용을 저장합니다.
 1. 데이터 보강 속성이 필드 그룹에 추가되면 위에 나열된 위치의 Journey Optimizer에서 이를 활용할 수 있습니다.
