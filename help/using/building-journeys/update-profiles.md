@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 프로필, 업데이트, 여정, 활동
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 3639a1b23ce259d0a8af5f4e801f8c54eb6b3b3c
+source-git-commit: dc226803d2df198bde9c525f82431161734f53f8
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '630'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 6%
 * **프로필 업데이트** 액션을 사용하여 구매 등의 경험 이벤트를 생성할 수 없습니다.
 * 다른 작업과 마찬가지로 오류나 시간 초과 시 대체 경로를 정의할 수 있으며 두 작업을 동시에 배치할 수는 없습니다.
 * Adobe Experience Platform에 전송된 업데이트 요청은 즉시/1초 이내에 수행됩니다. 보통 몇 초는 걸리지만, 어떤 때는 보장이 없이 더 걸릴 수도 있습니다. 따라서, 예를 들어 작업이 바로 앞에 배치된 **프로필 업데이트** 작업에 의해 업데이트된 &quot;필드 1&quot;을 사용하는 경우 작업에서 &quot;필드 1&quot;이 업데이트될 것으로 예상해서는 안 됩니다.
-* **프로필 업데이트** 활동은 열거형으로 정의된 XDM 필드를 지원하지 않습니다.
+* **프로필 업데이트** 활동은 열거형 또는 제안 값으로 정의된 XDM 필드를 지원하지 않습니다.
 * **[!UICONTROL 프로필 업데이트]** 활동은 데이터 레이크가 아닌 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}만 업데이트합니다.
 
 ## 데이터 세트 선택 {#dataset-selection}
