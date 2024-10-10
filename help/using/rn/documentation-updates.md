@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
 workflow-type: tm+mt
-source-wordcount: '5454'
-ht-degree: 99%
+source-wordcount: '5555'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,18 @@ ht-degree: 99%
 
 이 페이지에는 [!DNL Journey Optimizer] 설명서 최신 업데이트 내용이 모두 포함되어 있습니다.
 
+## 2024년 9월 {#sept-2024}
+
+* 2024년 9월 릴리스 [!DNL Journey Optimizer]의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* 여정 다시 시도 관리에 대한 섹션을 추가했습니다. [자세히 보기](../building-journeys/read-audience.md#read-audience-retry)
+* 사용자 지정 작업에 대한 제한/조절 규칙에 대한 FAQ가 기본 제한 규칙을 언급하도록 업데이트되었습니다. [자세히 보기](../configuration/external-systems.md#faq)
+* 제어 액세스 섹션이 AI 어시스턴트 콘텐츠 생성기와 관련된 권한으로 업데이트되었습니다. [자세히 보기](../administration/high-low-permissions.md#ai-permission)
+* AI 비서 콘텐츠 생성기 fir 이메일 생성에 대한 비디오가 추가되었습니다. [자세히 보기](../content-management/generative-email.md#video)
+
+
 ## 2024년 8월 {#aug-2024}
 
+* [!DNL Journey Optimizer] 2024년 8월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * 의사 결정 관리에 대한 성능 보호 기능이 Edge 세분화를 사용하거나 사용하지 않는 의사 결정 API 게재 처리량을 언급하도록 업데이트되었습니다. [자세히 보기](../start/guardrails.md#decision-management)
 * 여정 보호가 업데이트되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 
