@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
 workflow-type: tm+mt
-source-wordcount: '4394'
-ht-degree: 99%
+source-wordcount: '4384'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 이 페이지에서는 2023년에 릴리스된 [!DNL Journey Optimizer]의 기능과 개선 사항 목록을 확인할 수 있습니다.
 
 
-## 2023년 10월 릴리스 정보 {#oct-rn-2023}
+## 2023년 10월 릴리스 {#oct-rn-2023}
 
 ### 새로운 기능{#oct-2023-features}
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 
 
 
-## 2023년 9월 릴리스 정보 {#sept-rn-2023}
+## 2023년 9월 릴리스 {#sept-rn-2023}
 
 ### 새로운 기능{#sept-2023-features}
 
@@ -233,7 +233,7 @@ ht-degree: 99%
 
 Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
-## 2023년 8월 릴리스 정보 {#aug-rn-2023}
+## 2023년 8월 릴리스 {#aug-rn-2023}
 
 ### 새로운 기능{#aug-2023-features}
 
@@ -322,7 +322,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## 2023년 7월 릴리스 정보 {#july-rn-2023}
+## 2023년 7월 릴리스 {#july-rn-2023}
 
 ### 새로운 기능{#july-2023-features}
 
@@ -446,7 +446,7 @@ Adobe Journey Optimizer APIsauthentication용 액세스 토큰을 생성하는 J
 
 
 
-## 2023년 6월 릴리스 정보 {#june-rn-2023}
+## 2023년 6월 릴리스 {#june-rn-2023}
 
 <table>
 <thead>
@@ -496,7 +496,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
-## 2023년 5월 릴리스 정보 {#may-rn-2023}
+## 2023년 5월 릴리스 {#may-rn-2023}
 
 ### 새로운 기능{#may-2023-features}
 
@@ -649,7 +649,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * 인앱 메시지 - 캠페인 일정 예약이 메시지 빈도 설정과 충돌하는 문제를 해결했습니다.
 
 
-## 2023년 4월 릴리스 정보 {#apr-rn-2023}
+## 2023년 4월 릴리스 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -730,7 +730,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-## 2023년 3월 릴리스 정보 {#mar-2023}
+## 2023년 3월 릴리스 {#mar-2023}
 
 ### 새로운 기능{#mar-2023-features}
 
@@ -826,7 +826,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/global-report.md#modify-dashboard)를 참조하십시오.
 
-## 2023년 2월 릴리스 정보 {#feb-2023}
+## 2023년 2월 릴리스 {#feb-2023}
 
 ### 새로운 기능{#feb-2023-features}
 
@@ -954,7 +954,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL 개인화** - 이제 URL을 오퍼 표시의 콘텐츠로 추가할 때 표현식 편집기를 사용하여 해당 URL을 개인화할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-representations.md)
 
-## 2023년 1월 릴리스 정보{#jan-2023-release}
+## 2023년 1월 릴리스 {#jan-2023-release}
 
 ### 새로운 기능{#jan-2023-features}
 

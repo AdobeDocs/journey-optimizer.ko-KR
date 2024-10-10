@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
 workflow-type: tm+mt
-source-wordcount: '3850'
+source-wordcount: '3842'
 ht-degree: 95%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 95%
 이 페이지에는 2024년에 릴리스된 [!DNL Journey Optimizer]의 모든 기능과 개선 사항이 나와 있습니다.
 
 
-## 2024년 8월 릴리스 정보 {#8-2024}
+## 2024년 8월 릴리스 {#8-2024}
 
 **릴리스 날짜**: 2024년 8월 20~21일
 
@@ -148,7 +148,7 @@ ht-degree: 95%
 
 
 
-## 2024년 7월 릴리스 정보 {#24-7-2024}
+## 2024년 7월 릴리스 {#24-7-2024}
 
 **릴리스 일자**: 2024년 7월 30~31일
 
@@ -199,7 +199,7 @@ ht-degree: 95%
 
 
 
-## 2024년 6월 릴리스 정보 {#24-6-2024}
+## 2024년 6월 릴리스 {#24-6-2024}
 
 **릴리스 날짜**: 2024년 6월 18~19일
 
@@ -344,7 +344,6 @@ ht-degree: 95%
 * **병합 정책** GA 변경 - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. [자세히 보기](../building-journeys/journey-properties.md#merge-policies)
 
 
-
 #### 캠페인
 
 * 이제 Adobe Journey Optimizer에서 캠페인을 만들 때 새로운 모달에서 캠페인 유형(예약됨 또는 트리거됨)을 선택할 수 있습니다. [자세히 보기](../campaigns/create-campaign.md)
@@ -376,7 +375,7 @@ ht-degree: 95%
 
 
 
-## 2024년 5월 릴리스 정보 {#may-2024}
+## 2024년 5월 릴리스 {#may-2024}
 
 **릴리스 날짜**: 2024년 5월 21~22일
 
@@ -525,9 +524,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 통일성 있는 사용자 경험을 제공하기 위한 지속적인 노력의 일환으로 Adobe Experience Cloud 제품 및 앱에서 사용되는 용어를 서로 맞추는 작업을 합니다. 이에 따라 독일어 서비스에서 “Titel”이라는 용어가 개체와 관련된 상황의 경우 “Label”로 변경됩니다. 이 변경 사항은 UI 및 설명서에 점진적으로 적용됩니다.
 
 
-
-
-## 2024년 4월 릴리스 정보 {#apr-2024}
+## 2024년 4월 릴리스 {#apr-2024}
 
 **릴리스 일자**: 2024년 5월 2일
 
@@ -636,7 +633,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 
 
-## 2024년 3월 릴리스 정보 {#mar-2024}
+## 2024년 3월 릴리스 {#mar-2024}
 
 **릴리스 날짜**: 2024년 3월 19~20일
 
@@ -686,7 +683,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 여정이 중간 상태일 때는 읽기 전용입니다. [자세히 알아보기](../building-journeys/journey-gs.md#filter)
 
-## 2024년 2월 릴리스 정보 {#feb-2024}
+## 2024년 2월 릴리스 {#feb-2024}
 
 **릴리스 날짜**: 2024년 2월 21~22일
 
@@ -772,7 +769,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 * **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
 
 
-## 2024년 1월 릴리스 정보 {#jan-2024}
+## 2024년 1월 릴리스 {#jan-2024}
 
 **릴리스 날짜**: 2024년 1월 30~31일
 
