@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c9802eaa3fa35a43f53ef5dd86495b502149a04
+source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 69%
+source-wordcount: '1331'
+ht-degree: 67%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 69%
 
 ### 새로운 기능 {#24-10-features}
 
-Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 나와 있습니다.
+Adobe Journey Optimizer에서 사용할 수 있는 새로운 기능은 아래에 나와 있습니다.
 
 <table>
 <thead>
@@ -41,11 +41,10 @@ Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 �
 <tbody>
 <tr>
 <td>
-<p>사용 가능한 날짜: 10월 1일</p>
 <p>코드 기반 경험 채널을 사용하면 Adobe Journey Optimizer을 통해 인바운드 속성에 대해 고급 개인화 및 테스트를 수행할 수 있으므로 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV 연결 장치, 스마트 TV, 키오스크, ATM, IoT 장치 등과 같은 다양한 접점에서 맞춤형 경험을 원활하게 전달할 수 있습니다. 이제 여정 캔버스에서 코드 기반 경험 채널을 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../code-based/create-code-based.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>사용 가능한 날짜: 10월 1일</p>
+<p>사용 가능한 날짜: 2024년 10월 1일</p>
 </tr>
 </tbody>
 </table>
@@ -59,28 +58,27 @@ Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 �
 <tbody>
 <tr>
 <td>
-<p>사용 가능한 날짜: 10월 1일</p>
 <p>Adobe Journey Optimizer을 사용하면 웹 여정을 통해 인바운드 웹 채널을 통해 고객에게 제공하는 웹 경험을 개인화할 수 있습니다. 이제 웹 채널을 여정 캔버스에서 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../web/create-web.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>사용 가능한 날짜: 10월 1일</p>
+<p>사용 가능한 날짜: 2024년 10월 1일</p>
 </tr>
 </tbody>
 </table>
 
 ### 개선 사항 {#24-10-improvements}
 
-**여정**
+**여정** - 사용 가능한 날짜: 2024년 10월 3일
 
-* (사용 가능한 날짜: 10월 3일) **사용자 지정 작업의 매개 변수** - 이제 사용자 지정 작업에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* 사용자 지정 작업의 **매개 변수** - 이제 사용자 지정 작업에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**대상** - 사용 가능한 날짜: 10월 8일
+**대상** - 사용 가능한 날짜: 2024년 10월 8일
 
 * 이제 CSV 파일 대상을 타기팅할 때 개인화 편집기 및 여정 및 캠페인 규칙 빌더에서 파일의 속성을 사용할 수 있습니다. [자세히 알아보기](../audience/about-audiences.md)
 
 * 이제 사용자 지정 업로드(CSV 파일)의 대상 및 속성을 Healthcare Shield 또는 Privacy and Security Shield와 함께 사용할 수 있습니다.
 
-## 2024년 9월 릴리스 정보 {#24-9-rn}
+## 2024년 9월 릴리스 {#24-9-rn}
 
 <!--
 >[!CAUTION]
@@ -164,36 +162,6 @@ Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 �
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Code-based experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Web experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Web channel, Adobe Journey Optimizer allows you to personalize the web experience you deliver to your customers through inbound web journeys. The Web channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
@@ -207,7 +175,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 �
 <p>기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 <a href="https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator">라이브 기능 미리 보기</a>를 통해 실습 경험에 몰입하세요.</a>.</p>
 <p>자세한 내용은 <a href="../content-management/gs-generative.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>사용 가능한 날짜: 9월 12일</p>
+<p>사용 가능한 날짜: 2024년 9월 12일</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +193,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 �
 <p>[안내식 채널 설정]을 사용하면 통합 환경에서 채널 설정을 자동화하고 유효성을 검사하여 Journey Optimizer를 보다 빠르게 시작할 수 있습니다. 이 새로운 안내식 설정으로 빠른 채널 구성을 간소화하여 필요한 리소스를 모두 손쉽게 설치하고 Experience Platform, Journey Optimizer, 데이터 수집 내에서 사용할 수 있습니다. 이를 통해 마케팅, 제품, 데이터 엔지니어링 팀이 캠페인 및 여정 만들기를 신속하게 시작할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../configuration/set-mobile-config.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
-<p>사용 가능한 날짜: 9월 3일</p>
+<p>사용 가능한 날짜: 2024년 9월 3일</p>
 </br>
 </td>
 </tr>
@@ -243,10 +211,10 @@ Adobe Journey Optimizer에서 사용할 수 있는 최신 기능은 아래에 �
 
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
-**대상자**
+**대상** - 사용 가능한 날짜: 2024년 9월 17일
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* (사용 가능한 날짜: 9월 17일) **라이선스 사용** - 이제 라이선스 사용 대시보드에 참여 가능한 대상자 대신 참여 가능한 프로필이 표시됩니다. [자세히 알아보기](../audience/license-usage.md)
+* **라이선스 사용** - 이제 라이선스 사용 대시보드에 참여 가능한 대상이 아닌 참여 가능한 프로필이 표시됩니다. [자세히 알아보기](../audience/license-usage.md)
 
 **콘텐츠 관리**
 
