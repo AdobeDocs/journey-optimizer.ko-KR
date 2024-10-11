@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 31%
+source-wordcount: '858'
+ht-degree: 27%
 
 ---
 
@@ -33,11 +33,6 @@ ht-degree: 31%
 >id="ajo_campaigns_campaign_type"
 >title="캠페인 유형"
 >abstract="**예약된 캠페인**&#x200B;은 즉시 또는 지정된 날짜에 실행되며 마케팅 유형 메시지 전송을 의미합니다. **API 트리거** 캠페인은 API 호출을 사용하여 실행됩니다. 이는 마케팅 메시지(사용자 동의가 필요한 프로모션 메시지) 또는 트랜잭션 메시지(특정 상황에서 구독하지 않은 프로필에도 보낼 수 있는 비상업적 메시지)를 전송하는 것을 목표로 합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_category"
->title="캠페인 범주"
->abstract="예약된 캠페인을 생성하면 **마케팅** 유형이 자동으로 선택됩니다. API로 트리거되는 캠페인의 경우 **마케팅** 메시지(사용자 동의가 필요한 프로모션 메시지)를 보낼 것인지 또는 **트랜잭션** 메시지(특정 상황에서 구독하지 않은 프로필에도 보낼 수 있는 비상업적 메시지)를 보낼 것인지 선택합니다."
 
 1. 실행할 캠페인 유형 선택
 
