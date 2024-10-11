@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: cd46b3346e284958e6f3f9fa641b548f68672000
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '435'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 ## 승인 정책 만들기 {#create-policies}
 
-1. **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 권한]** 및 **[!UICONTROL 정책]**&#x200B;에 액세스합니다.
+1. Journey Optimizer의 **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 권한]** 및 **[!UICONTROL 정책]**&#x200B;에 액세스합니다.
 
    ![](assets/policy_create_1.png)
 
