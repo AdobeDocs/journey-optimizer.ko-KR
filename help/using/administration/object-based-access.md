@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="오브젝트 수준 액세스 제어"
->abstract="이 오브젝트에 대한 액세스 권한을 유지하려면 권한이 있는 레이블만 적용하십시오."
+>abstract="이 오브젝트에 대한 액세스 권한을 유지하려면 권한이 있는 레이블만 적용합니다."
 
 OLAC(Object Level Access Control)를 사용하면 다양한 객체에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다.
 

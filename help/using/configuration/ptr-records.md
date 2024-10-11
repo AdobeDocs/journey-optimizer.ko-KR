@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
 >title="하위 도메인의 PTR 기록"
->abstract="포인터 레코드(PTR)는 IP 주소에 연결된 도메인 이름을 제공하는 DNS 레코드 유형으로 수신 메일 서버가 발신자의 IP 주소를 확인하는 데 도움을 줍니다. 전달성 전문가의 심사와 충분한 논의를 거친 후에만 PTR 기록을 편집하십시오."
+>abstract="포인터 레코드(PTR)는 IP 주소에 연결된 도메인 이름을 제공하는 DNS 레코드 유형으로 수신 메일 서버가 발신자의 IP 주소를 확인하는 데 도움을 줍니다. 전달성 전문가의 심사와 충분한 논의를 거친 후에만 PTR 기록을 편집합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"

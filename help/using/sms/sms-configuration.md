@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 33%
+ht-degree: 37%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Journey Optimizer로 SMS 공급자 구성"
->abstract="Adobe Journey Optimizer는 SMS 서비스 공급자를 통해 문자 메시지를 보냅니다. 공급자를 선택하고 API 자격 증명을 입력하십시오."
+>abstract="Adobe Journey Optimizer는 SMS 서비스 공급자를 통해 문자 메시지를 보냅니다. 공급자를 선택하고 API 자격 증명을 입력합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
 >title="Journey Optimizer로 MMS 공급자 구성"
->abstract="Adobe Journey Optimizer는 MMS 서비스 공급자를 통해 미디어 콘텐츠를 보냅니다. 공급자를 선택하고 API 자격 증명을 입력하십시오."
+>abstract="Adobe Journey Optimizer는 MMS 서비스 공급자를 통해 미디어 콘텐츠를 보냅니다. 공급자를 선택하고 API 자격 증명을 입력합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"

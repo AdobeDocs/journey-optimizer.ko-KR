@@ -97,7 +97,7 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_media"
->title="인앱 메시지에 미디어를 추가하여 최종 사용자에게 매력적인 경험을 제공하십시오."
+>title="인앱 메시지에 미디어를 추가하여 최종 사용자에게 매력적인 경험을 제공합니다."
 >abstract="콘텐츠에 직접 연결되는 링크를 제공하거나 자산 선택기를 사용하여 Asset Essentials에서 메시지에 추가할 미디어를 선택합니다."
 
 **[!UICONTROL 미디어]** 필드를 사용하면 인앱 메시지에 미디어를 추가하여 최종 사용자를 위한 매력적인 환경을 만들 수 있습니다.

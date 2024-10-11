@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
 >title="마케팅 액션 선택"
->abstract="동의 정책을 메시지와 연결하려면 구성에서 마케팅 액션을 선택하십시오."
+>abstract="동의 정책을 메시지와 연결하려면 구성에서 마케팅 액션을 선택합니다."
 
 채널 구성을 만들려면 다음 단계를 수행하십시오.
 
@@ -274,6 +274,6 @@ ht-degree: 11%
 
 ## 방법 비디오{#video-presets}
 
-채널 구성이 무엇이며 Adobe Journey Optimizer에서 어떻게 사용되는지 알아봅니다.
+채널 구성의 정의와 Adobe Journey Optimizer에서 이를 사용하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
