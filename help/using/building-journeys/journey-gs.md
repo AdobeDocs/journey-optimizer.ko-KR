@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 첫 여정 만들기
-description: Adobe Journey Optimizer를 사용하여 첫 번째 여정을 구축하기 위한 주요 단계
+description: Adobe Journey Optimizer를 사용하여 첫 번째 여정을 빌드하기 위한 주요 단계
 feature: Journeys, Get Started
 topic: Content Management
 role: User
