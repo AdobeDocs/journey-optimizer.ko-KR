@@ -8,38 +8,35 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, Healthcare Shield, 동의
-exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 21b30d75bac657acb28500b143b7b1f9018a13ff
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 99%
+source-wordcount: '1242'
+ht-degree: 79%
 
 ---
 
 # 동의 정책 사용 {#consent-management}
 
-사용자의 데이터에는 조직 규정이나 법적 규정에 따른 사용 제한이 적용될 수 있습니다. 따라서 Journey Optimizer 내 데이터 작업 시에는 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko){target="_blank"}을 준수해야 합니다. 정책은 데이터에 대해 수행할 수 있는 [마케팅 액션](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#marketing-actions){target="_blank"}을 정의하는 Adobe Experience Platform의 규칙입니다.
+사용자의 데이터에는 조직 규정이나 법적 규정에 따른 사용 제한이 적용될 수 있습니다. 따라서 Journey Optimizer 내 데이터 작업 시에는 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko){target="_blank"}을 준수해야 합니다. 이러한 정책은 데이터에 대해 수행할 수 있는 마케팅 작업을 정의하는 Adobe Experience Platform 규칙입니다.
 
-활용 가능한 데이터 사용 정책 유형 중 하나는 **동의 정책**&#x200B;입니다. 이 정책을 통해 쉽게 고객의 동의 설정을 지키는 마케팅 정책을 채택하고 적용할 수 있습니다. [정책 집행에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=ko){target="_blank"}
+기본적으로 프로필이 사용자로부터 커뮤니케이션 수신을 옵트아웃한 경우 해당 프로필은 후속 게재에서 제외됩니다. 이 기본 논리를 재정의하는 **동의 정책**&#x200B;을 만들 수 있습니다. 예를 들어, Experience Platform에서 지정된 채널에 대한 커뮤니케이션 수신에 동의하지 않은 고객을 제외하는 동의 정책을 만들 수 있습니다. 사용자 정의 정책이 없으면 기본 정책이 적용됩니다.
 
 >[!IMPORTANT]
 >
 >동의 정책 기능은 현재 **Healthcare Shield** 또는 **Privacy and Security Shield** 추가 기능 서비스를 구매한 조직에만 제공됩니다.
 
-예를 들어 Experience Platform에서 이메일, 푸시 또는 SMS 커뮤니케이션에 동의하지 않은 고객을 제외하는 [동의 정책을 만들](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#consent-policy){target="_blank"} 수 있습니다.
+동의 정책을 적용하는 주요 단계는 다음과 같습니다.
 
-* 기본 아웃바운드 채널(이메일, 푸시, SMS, DM)의 경우 로직은 다음과 같습니다.
+1. 연관된 마케팅 작업으로 Adobe Experience Platform에서 동의 정책을 만듭니다. [동의 정책을 만드는 방법을 알아보세요](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#consent-policy){target="_blank"}
 
-   * 기본적으로 프로필이 사용자로부터의 커뮤니케이션 수신을 옵트아웃한 경우 해당 프로필은 후속 전송에서 제외됩니다.
+2. 채널 구성 또는 여정 사용자 지정 작업을 사용하여 Adobe Journey Optimizer에서 동의 정책을 적용합니다.
 
-   * Adobe **Healthcare Shield** 또는 **Privacy and Security Shield**&#x200B;가 있다면 기본 로직을 재정의하는 사용자 정의 동의 정책을 만들 수 있습니다. 예를 들어, 선택한 모든 개인에게만 이메일 메시지를 보내도록 정책을 정의할 수 있습니다. 사용자 정의 정책이 없으면 기본 정책이 적용됩니다.
+   * 연결된 마케팅 작업으로 채널 구성을 만듭니다. 채널 구성을 사용하여 커뮤니케이션을 만들면 연결된 마케팅 작업을 상속하고 Adobe Experience Platform에 정의된 해당 동의 정책을 적용합니다. [채널 구성을 통해 동의 정책을 활용하는 방법을 알아보세요](#surface-marketing-actions)
 
-  사용자 정의 정책을 적용하려면 해당 정책에서 마케팅 액션을 정의하고 이를 채널 구성에 연결해야 합니다. [자세히 알아보기](#surface-marketing-actions)
+   * 여정 수준에서 다음 중 하나를 수행할 수 있습니다.
 
-여정 수준에서 동의 정책을 사용자 정의 액션에 적용할 수 있습니다.
-
-* **사용자 정의 액션을 구성**&#x200B;할 때 채널 및 마케팅 액션을 정의할 수 있습니다. [자세히 알아보기](#consent-custom-action)
-* **여정에 사용자 정의 액션**&#x200B;을 추가할 때 추가적인 마케팅 액션을 정의할 수 있습니다. [자세히 알아보기](#consent-journey)
+      * 구성할 때 채널 및 마케팅 작업을 사용자 지정 작업에 연결합니다. [사용자 지정 작업을 구성할 때 동의 정책을 활용하는 방법을 알아보세요](#consent-custom-action)
+      * 여정에서 사용자 지정 작업을 추가할 때 추가 마케팅 작업을 정의합니다. [여정에 사용자 지정 작업을 추가할 때 동의 정책을 활용하는 방법을 알아봅니다.](#consent-journey)
 
 ## 채널 구성을 통한 동의 정책 활용 {#surface-marketing-actions}
 
@@ -107,16 +104,11 @@ There are two types of latency regarding the use of consent policies:
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
 -->
 
-### 사용자 정의 작업 구성하기 {#consent-custom-action}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action"
->title="필요한 마케팅 액션 정의하기"
->abstract="필수 마케팅 액션으로 사용자 정의 액션과 관련된 마케팅 액션을 정의할 수 있습니다. 예를 들어 해당 사용자 정의 액션을 사용하여 이메일을 보내는 경우 이메일 타겟팅을 선택할 수 있습니다. 마케팅 액션을 여정에서 사용하면 해당 마케팅 액션과 연결된 동의 정책을 모두 검색 및 활용합니다. 이는 캔버스에서 수정할 수 없습니다."
+### 사용자 지정 작업을 구성할 때 동의 정책 활용{#consent-custom-action}
 
 사용자 정의 액션을 구성할 때는 동의 관리에 두 필드를 사용할 수 있습니다.
 
-**채널** 필드에서는 다음 사용자 지정 작업과 관련된 채널 즉, **이메일**, **SMS**, 또는 **푸시 알림**&#x200B;을 선택할 수 있습니다. 그렇게 하면 **필수 마케팅 액션** 필드에 선택한 채널에 대한 기본 마케팅 작업을 미리 채웁니다. **기타**&#x200B;를 선택하는 경우 마케팅 액션이 기본적으로 정의되지 않습니다.
+**채널** 필드를 사용하면 이 사용자 지정 작업과 관련된 채널을 선택할 수 있습니다. 그렇게 하면 **필수 마케팅 액션** 필드에 선택한 채널에 대한 기본 마케팅 작업을 미리 채웁니다. **기타**&#x200B;를 선택하는 경우 마케팅 액션이 기본적으로 정의되지 않습니다.
 
 ![](assets/consent1.png)
 
@@ -128,22 +120,7 @@ There are two types of latency regarding the use of consent policies:
 
 사용자 지정 작업을 구성하는 다른 단계는 [이 섹션](../action/about-custom-action-configuration.md#consent-management)에 자세히 설명되어 있습니다.
 
-### 여정 구축 {#consent-journey}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_canvas"
->title="필수 마케팅 작업"
->abstract="필수 마케팅 작업은 사용자 정의 작업을 만들 때 정의하게 됩니다. 이 필수 마케팅 작업은 작업에서 제거하거나 수정할 수 없습니다."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_additional_marketing_action_canvas"
->title="추가 마케팅 작업"
->abstract="필수 작업에 더해 다른 마케팅 작업을 추가합니다. 두 마케팅 작업과 관련된 동의 정책이 적용됩니다."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_refresh_policies_canvas"
->title="런타임 시 적용되는 동의 정책 시각화"
->abstract="마케팅 작업은 작업 매개 변수와 개별 프로필 동의 값을 결합하여 사용자를 필터링하는 동의 정책을 가져옵니다. 새로 고치려면 버튼을 클릭하여 이 정책에 대한 최신 정의를 가져옵니다."
+### 여정에서 사용자 지정 작업을 추가할 때 동의 정책 활용 {#consent-journey}
 
 여정에 사용자 정의 작업을 추가할 때 동의를 관리할 수 있는 몇 가지 옵션이 있습니다. **읽기 전용 필드 표시**&#x200B;를 눌러 모든 매개 변수를 표시합니다.
 
@@ -172,9 +149,3 @@ The following data is taken into account for consent:
 -->
 
 여정에서 사용자 지정 작업을 구성하는 다른 단계는 [이 섹션](../building-journeys/using-custom-actions.md)에 자세히 설명되어 있습니다.
-
-## 방법 비디오 {#video}
-
-Journey Optimizer 채널에서 데이터 사용 레이블 지정이 적용되는 방법을 알아봅니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/3434901/?learn=on)

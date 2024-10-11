@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 67%
+source-wordcount: '1489'
+ht-degree: 61%
 
 ---
 
@@ -71,6 +71,16 @@ Adobe Journey Optimizer에서 사용할 수 있는 새로운 기능은 아래에
 **여정** - 사용 가능한 날짜: 2024년 10월 3일
 
 * 사용자 지정 작업의 **매개 변수** - 이제 사용자 지정 작업에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**데이터 거버넌스 및 동의 정책** - 사용 가능한 날짜: 2024년 10월 7일
+
+* **데이터 거버넌스 정책** 적용은 이제 Journey Optimizer의 모든 채널에서 수행됩니다. Adobe Experience Platform에서 정책을 만든 고객의 경우 이는 채널 구성 설정의 일부로 마케팅 작업에 적용됩니다. 구성을 사용하여 콘텐츠를 만들 때 시스템은 모든 개인화 필드에 데이터 거버넌스 위반이 있는지 확인합니다. 위반이 발견되면 여정 또는 캠페인을 게시할 수 없습니다. [자세히 알아보기](../action/action-privacy.md)
+
+* 이제 **사용자 지정 동의 정책**&#x200B;이 모든 Journey Optimizer 채널에 적용됩니다. 메시지가 전송되거나 인바운드 경험이 배달되기 전에 적용 시 시스템은 사용자가 수신할 콘텐츠의 개인화 필드 사용에 동의했는지 확인합니다. 동의를 하지 않으면 경험이 표시되지 않습니다. [자세히 알아보기](../action/consent.md)
+
+  >[!NOTE]
+  >
+  >동의 정책 기능은 현재 **Healthcare Shield** 또는 **Privacy and Security Shield** 추가 기능 서비스를 구매한 조직에만 제공됩니다.
 
 **대상** - 사용 가능한 날짜: 2024년 10월 8일
 

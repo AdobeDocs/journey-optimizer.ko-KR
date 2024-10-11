@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '2049'
 ht-degree: 97%
 
 ---
@@ -672,7 +672,5 @@ ht-degree: 97%
    + 동의 관리 {#consent}
       + [옵트아웃 관리](using/privacy/opt-out.md)
       + [동의 정책 사용](using/action/consent.md)
-      + [동의 정책 사용](using/action/consent-restricted.md)
    + [데이터 거버넌스](using/action/action-privacy.md)
-   + [데이터 거버넌스](using/action/action-privacy-restricted.md)
    + [고객 관리형 키 설정 및 관리](using/privacy/cmk.md)
