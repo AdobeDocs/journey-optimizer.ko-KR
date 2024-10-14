@@ -1,15 +1,15 @@
 ---
 title: 충돌 관리 및 우선 순위 지정
-description: xxxx를 사용하는 방법에 대해 알아봅니다.
+description: Journey Optimizer 충돌 및 우선 순위 지정 도구를 활용하는 방법을 알아봅니다.
 role: User
 level: Beginner
 badge: label="제한 공개"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 3438a5edceacab13c7241e18454d84228579ebc4
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 6%
+source-wordcount: '351'
+ht-degree: 5%
 
 ---
 
