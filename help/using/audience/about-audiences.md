@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 1e46321de543196277613889c438dc6756e45652
 workflow-type: tm+mt
 source-wordcount: '2266'
 ht-degree: 17%
@@ -35,7 +35,7 @@ ht-degree: 17%
 다음과 같은 다양한 방법을 사용하여 대상을 생성할 수 있습니다.
 
 * **세그먼트 정의**: Adobe Experience Platform 세분화 서비스를 사용하여 새 대상 정의를 만듭니다. [세그먼트 정의를 만드는 방법을 알아봅니다](creating-a-segment-definition.md)
-* **사용자 지정 업로드**: CSV 파일을 사용하여 대상을 가져옵니다. Adobe Experience Platform [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}에서 대상을 가져오는 방법을 알아보세요.
+* **사용자 지정 업로드**: CSV 파일을 사용하여 대상을 가져옵니다. Adobe Experience Platform [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}에서 대상을 가져오는 방법을 알아보세요.
 * **대상 구성**: 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만드는 구성 워크플로를 만듭니다. [대상자 구성 시작](get-started-audience-orchestration.md)
 * **페더레이션 대상 구성**: 기존 데이터 웨어하우스에서 직접 데이터 세트를 페더레이션하여 하나의 시스템에 Adobe Experience Platform 대상 및 특성을 모두 빌드하고 보강합니다. [Federated Audience Composition](https://experienceleague.adobe.com/ko/docs/federated-audience-composition/using/home)에 대한 안내서를 읽어 보십시오.
 
