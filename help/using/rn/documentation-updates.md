@@ -8,16 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '5555'
-ht-degree: 98%
+source-wordcount: '5610'
+ht-degree: 97%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer] 설명서 최신 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2024년 10월 {#oct-2024}
+
+* 표면 URI를 설명하는 섹션을 포함하여 프로세스를 더 명확하게 하도록 코드 기반 경험 구성 페이지가 개선되었습니다. [자세히 보기](../code-based/code-based-configuration.md)
+
+* 웹 채널 구성 만들기 페이지를 업데이트하여 페이지 일치 규칙을 만들 때 단계를 명확히 설명했습니다. 이 규칙은 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
 
 ## 2024년 9월 {#sept-2024}
 

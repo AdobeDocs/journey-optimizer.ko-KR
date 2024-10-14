@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1215'
 ht-degree: 9%
 
 ---
@@ -167,6 +167,8 @@ ht-degree: 9%
 >이미 라이브 상태인 다른 여정 또는 캠페인과 동일한 페이지에 영향을 주는 코드 기반 여정/캠페인을 활성화하면 모든 변경 사항이 콘텐츠에 적용됩니다.
 >
 >여러 코드 기반 여정 또는 캠페인이 콘텐츠의 동일한 요소를 업데이트하는 경우, 우선 순위가 가장 높은 여정/캠페인이 우선합니다.
+
+코드 기반 여정 또는 캠페인이 실행되면 앱 구현 팀이 선택한 [코드 기반 경험 구성](code-based-configuration.md)에 정의된 표면에 대한 콘텐츠를 가져오기 위해 명시적인 API 또는 SDK 호출을 담당합니다. [이 섹션](code-based-implementation-samples.md)에서 다양한 고객 구현에 대해 자세히 알아보세요.
 
 ### Publish a 코드 기반 여정 {#publish-code-based-journey}
 

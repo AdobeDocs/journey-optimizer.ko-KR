@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 7%
+source-wordcount: '1145'
+ht-degree: 6%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 7%
 * 웹 경험이 올바르게 배달되도록 하려면 [여기](#delivery-prerequisites)에서 자세히 설명하는 Adobe Experience Platform 설정을 정의하십시오.
 
 ## 주의 사항 {#caution-notes-web}
-
-* 현재 [!DNL Journey Optimizer]에서는 **캠페인**&#x200B;에서만 웹 경험을 만들 수 있습니다. [자세히 알아보기](../campaigns/create-campaign.md#configure)
 
 * [!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타기팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로, 사용자가 계약 시 구입한 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 각 패키지별 라이선스 지표 목록은 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에서 확인할 수 있습니다.
 
@@ -43,7 +41,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->서버측 전용 구현은 현재 지원되지 않습니다.
+>현재 웹 채널에서는 서버측 전용 구현이 지원되지 않습니다. 웹 페이지에 대한 서버측 전용 구현이 있는 경우 대신 [코드 기반 경험 채널](../code-based/get-started-code-based.md)을 사용할 수 있습니다.
 
 <!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 

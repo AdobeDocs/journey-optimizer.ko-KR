@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 3%
+source-wordcount: '570'
+ht-degree: 2%
 
 ---
 
@@ -20,10 +20,6 @@ ht-degree: 3%
 * 응용 프로그램에 수정 사항을 추가하려면 특정 구현이 있어야 합니다. [자세히 알아보기](#implementation-prerequisites)
 
 * 코드 기반 경험이 올바르게 배달되도록 하려면 [여기](#delivery-prerequisites)에서 자세히 설명하는 Adobe Experience Platform 설정을 정의해야 합니다.
-
->[!CAUTION]
->
->**캠페인**&#x200B;에서만 코드 기반 경험을 만들 수 있습니다. [자세히 알아보기](../campaigns/create-campaign.md#configure).
 
 ## 구현 사전 요구 사항 {#implementation-prerequisites}
 
