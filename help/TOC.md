@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
+source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 97%
+source-wordcount: '2067'
+ht-degree: 96%
 
 ---
 
@@ -177,6 +177,11 @@ ht-degree: 97%
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
 + {#test} 테스트 및 승인
    + [충돌 관리 및 우선 순위 지정](using/test-approve/conflict-prioritization.md)
+   + 충돌 관리 및 우선 순위 {#conflict-prioritization}
+      + [충돌 관리 및 우선 순위 지정 시작](using/test-approve/gs-conflict-prioritization.md)
+      + [잠재적인 충돌 파악](using/test-approve/conflicts.md)
+      + [우선 순위 점수 할당](using/test-approve/priority-scores.md)
+      + [여정 한도 및 중재](using/test-approve/journey-capping.md)
    + 콘텐츠 미리 보기 및 테스트 {#preview-test}
       + [샘플 입력 데이터를 사용하여 콘텐츠 테스트](using/test-approve/simulate-sample-input.md)
       + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
