@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
 workflow-type: tm+mt
-source-wordcount: '5610'
-ht-degree: 97%
+source-wordcount: '5626'
+ht-degree: 96%
 
 ---
 
@@ -21,9 +21,10 @@ ht-degree: 97%
 
 ## 2024년 10월 {#oct-2024}
 
-* 표면 URI를 설명하는 섹션을 포함하여 프로세스를 더 명확하게 하도록 코드 기반 경험 구성 페이지가 개선되었습니다. [자세히 보기](../code-based/code-based-configuration.md)
+* 표면 URI를 설명하는 섹션을 포함하여 프로세스를 더 명확하게 하기 위해 **코드 기반 경험 구성** 페이지가 개선되었습니다. [자세히 보기](../code-based/code-based-configuration.md)
+* **웹 채널 구성 만들기** 페이지가 업데이트되어 페이지 일치 규칙을 만들 때 단계를 명확하게 했습니다. 이 규칙은 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
+* 시스템 생성 데이터 세트에 대해 예정된 TTL(time-to-live) 보안에 대한 메모를 추가했습니다. [자세히 보기](../data/get-started-datasets.md)
 
-* 웹 채널 구성 만들기 페이지를 업데이트하여 페이지 일치 규칙을 만들 때 단계를 명확히 설명했습니다. 이 규칙은 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
 
 ## 2024년 9월 {#sept-2024}
 
@@ -31,7 +32,7 @@ ht-degree: 97%
 * 여정 다시 시도 관리에 대한 섹션을 추가했습니다. [자세히 보기](../building-journeys/read-audience.md#read-audience-retry)
 * 사용자 지정 작업에 대한 제한/조절 규칙에 대한 FAQ가 기본 제한 규칙을 언급하도록 업데이트되었습니다. [자세히 보기](../configuration/external-systems.md#faq)
 * 제어 액세스 섹션이 AI 어시스턴트 콘텐츠 생성기와 관련된 권한으로 업데이트되었습니다. [자세히 보기](../administration/high-low-permissions.md#ai-permission)
-* AI 비서 콘텐츠 생성기 fir 이메일 생성에 대한 비디오가 추가되었습니다. [자세히 보기](../content-management/generative-email.md#video)
+* 이메일 생성을 위한 AI 도우미 콘텐츠 생성기에 대한 비디오가 추가되었습니다. [자세히 보기](../content-management/generative-email.md#video)
 
 
 ## 2024년 8월 {#aug-2024}
