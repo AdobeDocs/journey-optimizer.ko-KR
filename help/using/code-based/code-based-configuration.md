@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1531'
 ht-degree: 30%
 
 ---
@@ -160,7 +160,7 @@ ht-degree: 30%
 
 1. 구현이 Web, iOS 또는 Android용이 아니거나 특정 URI를 대상으로 해야 하는 경우 플랫폼으로 **[!UICONTROL 기타]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 표면 URI]**&#x200B;를 입력하십시오. [자세히 알아보기](#surface-definition)
+1. **[!UICONTROL 표면 URI]**&#x200B;를 입력하십시오. 표면 URI는 경험을 전달하려는 엔티티에 해당하는 고유 식별자입니다. [자세히 알아보기](#surface-definition)
 
    ![](assets/code_config_5.png)
 
@@ -174,7 +174,7 @@ ht-degree: 30%
    >
    >여러 URI를 추가하면 콘텐츠가 나열된 모든 구성 요소에 전달됩니다.
 
-## 표면 URI란 무엇입니까? {#surface-definition}
+## 표면이란 무엇입니까? {#surface-definition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
