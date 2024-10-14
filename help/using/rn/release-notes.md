@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
+source-git-commit: b5528c50a04de73a0af3d7ea2ba21fd562a88e1a
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 61%
+source-wordcount: '1496'
+ht-degree: 60%
 
 ---
 
@@ -20,17 +20,15 @@ ht-degree: 61%
 >title="새로운 기능"
 >abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선, 버그 수정을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
 
-[!DNL Adobe Journey Optimizer]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 노트에 통합됩니다.
-
-[!DNL Adobe Journey Optimizer]은(는) 기본적으로 [!DNL Adobe Experience Platform] 기반으로 구축되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하세요.
-
-![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
+[!DNL Adobe Journey Optimizer]는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 이 릴리스 정보에서 매월 마지막 주에 통합됩니다. [!DNL Adobe Journey Optimizer]은(는) 기본적으로 [!DNL Adobe Experience Platform] 기반으로 구축되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
 ## 2024년 10월 업데이트 {#24-10-rn}
 
-### 새로운 기능 {#24-10-features}
+예정된 **릴리스 날짜**: 2024년 10월 28~30일
 
-Adobe Journey Optimizer에서 사용할 수 있는 새로운 기능은 아래에 나와 있습니다.
+아래에 나열된 [기능](#24-10-features) 및 [개선 사항](#24-10-improvements)이 이번 달에 릴리스되었습니다.
+
+### 새로운 기능 {#24-10-features}
 
 <table>
 <thead>
@@ -279,3 +277,6 @@ Adobe Journey Optimizer에서 사용할 수 있는 새로운 기능은 아래에
 **구성**
 
 * **IP 준비 계획** - 이제 Adobe **Healthcare Shield** 또는 **개인 정보 보호 및 보안 보호** 추가 기능 서비스를 구입한 조직을 포함하여 모든 고객이 이 기능을 사용할 수 있습니다. [자세히 알아보기](../configuration/ip-warmup-gs.md)
+
+
+![뉴스레터](../assets/do-not-localize/nl-icon.png) 오늘 [Adobe Journey Optimizer 분기별 뉴스레터](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}에 등록하여 분기마다 최신 제품 업데이트, 재미있는 이야기, 사용 사례, 팁 등을 메일로 직접 받아 보세요.
