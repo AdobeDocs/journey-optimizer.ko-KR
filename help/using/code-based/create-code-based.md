@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 3c4aef3e062eb6a8b106ce00b86cd0594e94d7b0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1731'
 ht-degree: 7%
 
 ---
@@ -213,7 +213,7 @@ ht-degree: 7%
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   다른 테스트 프로필 또는 처리를 선택하면 각 테스트 프로필 및/또는 처리에 대한 링크를 확보하고 경험을 비교할 수 있도록 미리보기 링크가 변경됩니다.
+   콘텐츠를 업데이트하거나 다른 테스트 프로필 또는 처리를 선택하면 미리 보기 링크가 자동으로 새로 고쳐집니다. 링크를 다른 브라우저 탭에 복사하고 경험을 비교할 수 있습니다.
 
 ## 코드 기반 경험 라이브로 만들기 {#code-based-experience-live}
 
