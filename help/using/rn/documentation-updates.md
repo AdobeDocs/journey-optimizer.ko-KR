@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '5626'
+source-wordcount: '5667'
 ht-degree: 96%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 96%
 * **웹 채널 구성 만들기** 페이지가 업데이트되어 페이지 일치 규칙을 만들 때 단계를 명확하게 했습니다. 이 규칙은 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
 * 시스템 생성 데이터 세트에 대해 예정된 TTL(time-to-live) 보안에 대한 메모를 추가했습니다. [자세히 보기](../data/get-started-datasets.md)
 
+
+* 여정 또는 캠페인에서 콘텐츠를 시뮬레이션할 때 디바이스에서 미리 보기 옵션을 사용하여 브라우저 또는 모바일 디바이스에서 코드 기반의 개인화된 경험을 올바르게 미리 보는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../code-based/create-code-based.md#preview-on-device)
 
 ## 2024년 9월 {#sept-2024}
 

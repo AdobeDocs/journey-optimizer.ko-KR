@@ -5,14 +5,16 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 7%
+source-wordcount: '196'
+ht-degree: 5%
 
 ---
 
-# 콘텐츠 미리 보기 {#preview}
+# 콘텐츠 확인 {#preview}
+
+<!--## Preview your content {#preview-content}-->
 
 [테스트 프로필](test-profiles.md)을 선택하면 콘텐츠를 미리 볼 수 있습니다. 아래의 단계를 수행하십시오.
 
@@ -37,3 +39,8 @@ ht-degree: 7%
    ![](../email/assets/preview-test-profile.png)
 
 1. 다른 테스트 프로필을 선택하여 메시지의 각 변형에 대한 이메일을 미리 봅니다.
+
+>[!NOTE]
+>
+>코드 기반 경험을 만들 때, 실제 시뮬레이션을 위해 브라우저 또는 모바일 장치에서 개인화된 콘텐츠를 바로 미리 볼 수 있습니다. [자세히 알아보기](../code-based/create-code-based.md#preview-on-device)
+

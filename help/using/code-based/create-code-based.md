@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 9%
+source-wordcount: '1729'
+ht-degree: 7%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 9%
 
    코드 콘텐츠의 일부를 조각으로 저장할 수도 있습니다. [방법 알아보기](../content-management/fragments.md#save-as-expression-fragment)
 
-1. 코드 기반 경험을 사용하면 experience decisioning 기능을 사용할 수 있습니다. 왼쪽 막대에서 **[!UICONTROL 결정 정책]** 아이콘을 선택하고 **[!UICONTROL 결정 정책 추가]**&#x200B;를 클릭합니다. [자세히 알아보기](../experience-decisioning/create-decision.md) <!--UI labels TBC + TBC for journeys (visible in UI so probably confirmed) -->
+1. 코드 기반 경험을 사용하면 experience decisioning 기능을 사용할 수 있습니다. 왼쪽 막대에서 **[!UICONTROL 결정 정책]** 아이콘을 선택하고 **[!UICONTROL 결정 정책 추가]**&#x200B;를 클릭합니다. [자세히 알아보기](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -131,7 +131,7 @@ ht-degree: 9%
 >title="코드 기반 경험 미리보기"
 >abstract="코드 기반 경험이 어떻게 시각화되는지 시뮬레이션을 수행합니다."
 
-수정된 코드 기반 경험의 미리보기를 표시하려면 아래 단계를 따르십시오. 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 페이지 미리 보기 및 테스트](../content-management/preview-test.md)를 참조하세요.
+수정된 코드 기반 경험의 미리보기를 표시하려면 아래 단계를 따르십시오.
 
 >[!CAUTION]
 >
@@ -145,12 +145,75 @@ ht-degree: 9%
 
 1. 수정된 코드 기반 경험의 미리보기가 표시됩니다.
 
-<!--
-    ![](assets/code-based-designer-preview.png)
+테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 정보는 [이 섹션](../content-management/preview.md)에서 확인할 수 있습니다.
 
-    You can also open it in the default browser, or copy the test URI to paste it in any browser. This allows you to share the link with your team and stakeholders who will be able to preview the new web experience in any browser before the campaign goes live.
+### 디바이스에서 미리보기 {#preview-on-device}
 
-    When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device"
+>title="실제 디바이스에서 코드 기반 경험 미리 보기"
+>abstract="브라우저 또는 모바일 장치에서 개인화된 경험의 미리 보기를 통해 실제 장치에서 어떻게 표시되는지 확인할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_web"
+>title="장치에서 코드 기반 웹 경험 미리 보기"
+>abstract="QR 코드를 스캔하거나 링크를 복사하여 장치에서 미리 봅니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_mobile"
+>title="장치에서 코드 기반 모바일 경험 미리 보기"
+>abstract="QR 코드를 스캔하거나 링크를 복사하여 장치에서 미리 봅니다. 연결되면 장치의 핀을 입력합니다. 미리 보기 링크를 업데이트할 때마다 변경 사항을 보려면 앱을 다시 시작해야 할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_refresh"
+>title="현재 보기를 반영하도록 미리 보기 링크를 새로 고칩니다."
+>abstract="장치 내 미리 보기에는 미리 보기 링크를 만들거나 새로 고친 시점의 콘텐츠가 표시됩니다. 콘텐츠를 수정하거나 다른 테스트 프로필 또는 처리를 선택한 경우 미리보기를 새로 고쳐 현재 보기를 반영하도록 합니다."
+
+웹 페이지 또는 모바일 앱에 대한 코드 기반 경험을 작성할 때 브라우저 또는 모바일 디바이스에서 개인화된 경험을 바로 미리 보고 이러한 경험이 실제 디바이스에서 어떻게 표시되는지 확인할 수 있습니다.
+
+>[!WARNING]
+>
+>[의사 결정 정책](../experience-decisioning/create-decision.md) 또는 [개인화](../personalization/personalization-build-expressions.md) 컨텍스트 특성을 사용할 때는 장치에서 미리 보기를 사용할 수 없습니다.
+
+1. **[!UICONTROL 시뮬레이션]** 화면에서 **[!UICONTROL 미리 보기 옵션 열기]** 단추를 클릭합니다. 미리 보기 옵션은 [코드 기반 구성](code-based-configuration.md#create-code-based-configuration)에서 선택한 플랫폼에 따라 다릅니다.
+
+1. 코드 기반 구성에서 [웹 플랫폼](code-based-configuration.md#web)을 사용하는 경우 **[!UICONTROL 장치 미리 보기 URL]** 읽기 전용 필드가 현재 채널 구성에 대해 입력한 URL로 미리 채워집니다.
+
+   ![](assets/preview-on-device-web.png)
+
+   다음 중 하나를 수행할 수 있습니다.
+
+   * **[!UICONTROL 링크 복사]** 단추를 선택하고 링크를 브라우저 탭에 붙여 넣습니다. 또한 팀 및 이해 당사자와 링크를 공유할 수 있으며, 변경 사항이 적용되기 전에 모든 브라우저에서 새 경험을 미리 볼 수 있습니다.
+
+   * **[!UICONTROL 새 탭에서 열기]**&#x200B;를 클릭하여 현재 브라우저에서 링크를 엽니다.
+
+   * 모바일 장치로 QR 코드를 스캔하여 모바일 브라우저에서 미리 보기 링크를 엽니다.
+
+1. 코드 기반 구성에서 [모바일 플랫폼](code-based-configuration.md#mobile)(iOS/Android)을 사용하는 경우 **[!UICONTROL 딥링크]** 읽기 전용 필드가 선택한 플랫폼에 대한 채널 구성에 입력한 **[!UICONTROL 미리 보기 URL]** 값으로 미리 채워집니다.
+
+   **[!UICONTROL iOS]** 탭과 **[!DNL Android]** 탭 간을 전환하여 선택한 플랫폼에 대한 환경을 미리 봅니다.
+
+   ![](assets/preview-on-device-mobile.png)
+
+   다음 중 하나를 수행할 수 있습니다.
+
+   * **[!UICONTROL 링크 복사]** 단추를 선택하고 링크를 팀 및 관련자와 공유하십시오. 관련자는 변경 내용이 실행되기 전에 모든 모바일 브라우저에서 새 환경을 미리 볼 수 있습니다.
+
+   * 모바일 장치로 QR 코드를 스캔하여 모바일 애플리케이션에서 바로 미리보기 링크를 엽니다. [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} 세션을 설정하려면 장치에 PIN을 입력해야 합니다.
+
+     >[!NOTE]
+     >
+     >**Adobe Experience Platform Assurance**&#x200B;은(는) 모바일 앱에서 데이터를 수집하거나 경험을 제공하는 방법을 검사, 증명, 시뮬레이션 및 확인하는 데 도움이 되는 Adobe Experience Cloud의 제품입니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/home){target="_blank"}
+
+1. 선택한 테스트 프로필에 대한 미리 보기 링크가 생성되며, 여정 또는 캠페인에서 [콘텐츠 실험](../content-management/content-experiment.md)을(를) 사용하는 경우 선택한 처리에 대해 미리 보기 링크가 생성됩니다.
+
+   <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
+
+   ![](assets/preview-on-device-refresh.png)-->
+
+   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+
+   다른 테스트 프로필 또는 처리를 선택하면 각 테스트 프로필 및/또는 처리에 대한 링크를 확보하고 경험을 비교할 수 있도록 미리보기 링크가 변경됩니다.
 
 ## 코드 기반 경험 라이브로 만들기 {#code-based-experience-live}
 
@@ -168,7 +231,7 @@ ht-degree: 9%
 >
 >여러 코드 기반 여정 또는 캠페인이 콘텐츠의 동일한 요소를 업데이트하는 경우, 우선 순위가 가장 높은 여정/캠페인이 우선합니다.
 
-코드 기반 여정 또는 캠페인이 실행되면 앱 구현 팀이 선택한 [코드 기반 경험 구성](code-based-configuration.md)에 정의된 표면에 대한 콘텐츠를 가져오기 위해 명시적인 API 또는 SDK 호출을 담당합니다. [이 섹션](code-based-implementation-samples.md)에서 다양한 고객 구현에 대해 자세히 알아보세요.
+코드 기반 여정 또는 캠페인이 실행되면 앱 구현 팀이 명시적 API 또는 SDK 호출을 수행하여 선택한 [코드 기반 경험 구성](code-based-configuration.md)에 정의된 표면에 대한 콘텐츠를 가져옵니다. [이 섹션](code-based-implementation-samples.md)에서 다양한 고객 구현에 대해 자세히 알아보세요.
 
 ### Publish a 코드 기반 여정 {#publish-code-based-journey}
 

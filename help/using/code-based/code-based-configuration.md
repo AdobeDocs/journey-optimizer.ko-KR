@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1537'
 ht-degree: 30%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 30%
 1. 다음은 미리보기 URL에 적용됩니다.
 
    * 단일 페이지 URL을 입력하면 해당 URL이 미리보기에 사용되며 다른 URL을 입력할 필요가 없습니다.
-   * [페이지와 일치하는 규칙](../web/web-configuration.md#web-page-matching-rule)을(를) 선택한 경우 브라우저에서 환경을 미리 보는 데 사용할 **[!UICONTROL 기본 작성 및 미리 보기 URL]**&#x200B;을(를) 입력해야 합니다.
+   * [페이지와 일치하는 규칙](../web/web-configuration.md#web-page-matching-rule)을(를) 선택한 경우 브라우저에서 환경을 미리 보는 데 사용할 **[!UICONTROL 기본 작성 및 미리 보기 URL]**&#x200B;을(를) 입력해야 합니다. [자세히 알아보기](../code-based/create-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -132,7 +132,7 @@ ht-degree: 30%
 
    ![](assets/code_config_3.png){width="500"}
 
-1. **[!UICONTROL 미리 보기 URL]** 필드를 입력하여 온디바이스 미리 보기를 사용하도록 설정합니다. 이 URL은 미리 보기<!--on device. Learn more-->을(를) 트리거할 때 사용할 특정 URL을 미리 보기 서비스에 알립니다.
+1. **[!UICONTROL 미리 보기 URL]** 필드를 입력하여 온디바이스 미리 보기를 사용하도록 설정합니다. 이 URL은 장치에서 미리보기를 트리거할 때 사용할 특정 URL을 미리보기 서비스에 알립니다. [자세히 알아보기](../code-based/create-code-based.md#preview-on-device)
 
    미리보기 URL은 앱 내의 앱 개발자가 구성한 딥링크입니다. 이렇게 하면 딥링크 체계와 일치하는 모든 URL이 모바일 웹 브라우저가 아닌 앱 내에서 열립니다. 앱에 대해 구성된 딥링크 체계를 얻으려면 앱 개발자에게 문의하십시오.
 
