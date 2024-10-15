@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 허용 목록, 목록, 안전, 구성
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 16%
@@ -140,7 +140,7 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Reason]** 필드에는 32에서 126 사이의 모든 ASCII 문자가 허용됩니다. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}에서 확인할 수 있습니다.
+   >**[!UICONTROL Reason]** 필드에는 32에서 126 사이의 모든 ASCII 문자가 허용됩니다. 전체 목록은 [이 페이지](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}에서 확인할 수 있습니다.
 
 1. **[!UICONTROL 제출을 클릭합니다]**.
 
