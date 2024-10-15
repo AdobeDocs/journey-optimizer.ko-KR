@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 573d6e8611e90df2390576912929d5f85e386537
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 6%
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 * 웹 사이트에 수정 사항을 추가하려면 특정 구현이 있어야 합니다. [자세히 알아보기](#implementation-prerequisites)
 
-* [!DNL Journey Optimizer] 웹 디자이너에 액세스하려면 특정 Google Chrome 브라우저 확장이 설치되어 있어야 합니다. [자세히 알아보기](#visual-authoring-prerequesites)
+* [!DNL Journey Optimizer] 웹 디자이너에 액세스하려면 특정 Google Chrome 브라우저 확장이 설치되어 있어야 합니다. [자세히 알아보기](#visual-authoring-prerequisites)
 
 * 웹 경험이 올바르게 배달되도록 하려면 [여기](#delivery-prerequisites)에서 자세히 설명하는 Adobe Experience Platform 설정을 정의하십시오.
 
