@@ -10,10 +10,10 @@ level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 badge: label="제한된 가용성"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 14%
+source-wordcount: '792'
+ht-degree: 10%
 
 ---
 
@@ -36,12 +36,6 @@ ht-degree: 14%
 >id="ajo_surface_dynamic_subdomain"
 >title="동적 하위 도메인 활성화"
 >abstract="이메일 구성을 생성할 때 개인화 편집기를 사용하여 정의한 조건을 기반으로 동적 하위 도메인을 설정할 수 있습니다. 최대 50개의 동적 하위 도메인을 추가할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo_surface_dynamic_subdomain_list"
->title="일부 하위 도메인은 사용하지 못할 수 있습니다."
->abstract="현재 피드백 루프 등록이 보류되어 특정 하위 도메인을 선택할 수 없습니다. 이 과정은 영업일 기준 최대 10일 정도 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="하위 도메인 위임 시작"
 
 이메일 구성을 만들 때 특정 조건에 따라 동적 하위 도메인을 설정할 수 있습니다.
 

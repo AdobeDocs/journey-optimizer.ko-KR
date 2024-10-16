@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 1%
+source-wordcount: '987'
+ht-degree: 5%
 
 ---
 
@@ -81,13 +81,19 @@ ISP에는 일반적으로 수신된 메시지를 스팸으로 보고하는 눈�
 
 ## DMARC 구현 {#dmarc}
 
-[!DNL Journey Optimizer]을(를) 사용하면 합법적인 이메일이 스팸 또는 거부로 표시될 위험을 완화하고 게재 가능성 문제를 방지할 수 있습니다. 이를 통해 Adobe에 위임하는 모든 하위 도메인에 대한 DMARC 레코드를 설정할 수 있습니다.
+[!DNL Journey Optimizer]을(를) 사용하면 합법적인 이메일이 스팸 또는 거부로 표시될 위험을 완화하고 게재 가능성 문제를 방지할 수 있습니다. 이를 통해 Adobe에 위임하는 모든 하위 도메인에 대해 DMARC 레코드를 설정할 수 있습니다.
 
 도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 악의적인 행위자의 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다.
 
 [DMARC 레코드에 대한 자세한 내용](../configuration/dmarc-record.md)
 
 ## 피드백 루프에 대해 알아보기 {#feedback-loops}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_subdomain_list"
+>title="일부 하위 도메인은 사용하지 못할 수 있습니다."
+>abstract="현재 피드백 루프 등록이 보류되어 특정 하위 도메인을 선택할 수 없습니다. 이 과정은 영업일 기준 최대 10일 정도 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="하위 도메인 위임 시작"
 
 FBL(피드백 루프)은 일부 ISP에서 제공하는 서비스로, 이메일을 받은 사용자가 이메일을 스팸으로 표시하도록 선택하면 이메일 발신자에게 자동으로 알림을 보낼 수 있습니다(&quot;컴플레인&quot;이라고도 함).
 

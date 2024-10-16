@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 허용 목록, 목록, 안전, 구성
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
+source-git-commit: a7347c57bb82de5181df87e8ab816de392ef97a3
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1145'
 ht-degree: 16%
 
 ---
@@ -201,7 +201,7 @@ ht-degree: 16%
 >
 >메시지 전송 프로세스 중에 **[!UICONTROL 허용되지 않음]** 상태의 프로필이 제외됩니다. 따라서 **여정 보고서**&#x200B;에는 이러한 프로필이 여정([대상자 읽기](../building-journeys/read-audience.md) 및 [메시지 활동](../building-journeys/journeys-message.md))을 통해 이동한 것으로 표시되지만, 전자 메일을 보내기 전에 필터링되므로 **전자 메일 보고서**&#x200B;에는 이러한 프로필이 **[!UICONTROL 전송됨]** 지표에 포함되지 않습니다.
 >
->[실시간 보고서](../reports/live-report.md) 및 [글로벌 보고서](../reports/global-report.md)에 대해 자세히 알아보세요.
+>[실시간 보고서](../reports/live-report.md) 및 [Customer Journey Analytics 보고서](../reports/report-gs-cja.md)에 대해 자세히 알아보세요.
 
 허용 목록이 [비활성화됨](#deactivate-allow-list)일 때 현재 샌드박스에서 보내는 모든 전자 메일은 실제 고객 주소를 포함하여 모든 수신자(제외 목록에 없는 경우)에게 전송됩니다.
 
