@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b5528c50a04de73a0af3d7ea2ba21fd562a88e1a
+source-git-commit: ac2e0eb18e21c79ba44a76eb6bd1258eccaaa10c
 workflow-type: tm+mt
 source-wordcount: '1496'
-ht-degree: 60%
+ht-degree: 59%
 
 ---
 
@@ -63,6 +63,12 @@ ht-degree: 60%
 </tr>
 </tbody>
 </table>
+
+>[!IMPORTANT]
+>
+>현재 보고 경험은 2025년 1월부터 종료됩니다. 이 날짜 이후에는 새로운 보고 경험이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다.
+>
+> [Journey Optimizer 새 보고 인터페이스를 시작하는 방법 알아보기](../reports/report-gs-cja.md)
 
 ### 개선 사항 {#24-10-improvements}
 
@@ -207,12 +213,6 @@ ht-degree: 60%
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->현재 보고 경험은 10월 릴리스부터 사용이 종료됩니다. 이 날짜 이후에는 새로운 보고 경험이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다.
->
-> [Journey Optimizer 새 보고 인터페이스를 시작하는 방법 알아보기](../reports/report-gs-cja.md)
 
 
 ### 개선 사항 {#24-9-improvements}
