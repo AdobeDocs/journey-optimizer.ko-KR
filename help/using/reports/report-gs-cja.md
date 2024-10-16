@@ -2,16 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 새 UI 보고
-description: 보고 새 인터페이스 시작
+description: CJA 보고서 시작
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="제한된 가용성" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '357'
 ht-degree: 15%
 
 ---
@@ -30,7 +29,7 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 
   ![](assets/gs-cja-report-3.png)
 
-* 캠페인을 타깃팅하려면 **[!UICONTROL 캠페인]** 메뉴에서 캠페인에 액세스하고 **[!UICONTROL 보고서]** 단추를 클릭하십시오.
+* 캠페인을 타깃팅하려면 **[!UICONTROL 캠페인]** 메뉴에서 캠페인에 액세스하고 **[!UICONTROL 보고서]** 버튼을 클릭한 다음 **[!UICONTROL 모든 시간 보고서 보기]**&#x200B;를 클릭합니다.
 
   기존 캠페인 목록에서 선택한 캠페인의 고급 메뉴에서 **[!UICONTROL 보고서]**&#x200B;를 선택할 수도 있습니다. [Campaign 보고서에 대해 자세히 알아보기](campaign-global-report-cja.md)
 
@@ -39,10 +38,6 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 * 환경 내의 모든 캠페인과 여정에 대한 지표를 타깃팅하려면 **[!UICONTROL 여정 관리]** 섹션 내의 **[!UICONTROL 보고서]** 메뉴로 이동하여 **개요** 보고서에 액세스하십시오. [개요 보고서에 대해 자세히 알아보기](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
-
->[!NOTE]
->
-> Journey Optimizer의 기존 보고로 되돌리려면 **[!UICONTROL 새 경험 사용]** 옵션을 전환하면 됩니다.
 
 ## 전제 조건 {#prerequisites}
 
@@ -57,10 +52,6 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
    * Adobe Journey Optimizer에 대한 **[!UICONTROL 프로필 관리]** 권한. [자세히 알아보기](../administration/permissions.md)
 
 * **Adobe Journey Optimizer에서 기본 데이터 보기로 설정** 설정을 사용하여 Customer Journey Analytics 데이터 보기를 구성해야 합니다. [데이터 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-
-* Journey Optimizer 내에서 Customer Journey Analytics 대시보드에 액세스하려면 보고서에서 **[!UICONTROL 새 경험 사용]** 토글을 활성화하면 됩니다.
-
-  ![](assets/cja-option.png)
 
 ## 방법 비디오{#video}
 

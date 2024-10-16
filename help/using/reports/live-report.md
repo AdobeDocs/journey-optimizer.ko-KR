@@ -8,33 +8,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
 
 # 라이브 보고서 시작 {#live-report}
 
->[!AVAILABILITY]
->
->현재 보고 경험은 10월 릴리스부터 종료됩니다. 이 날짜 이후, 새로운 보고 환경이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다. [Journey Optimizer 새 보고 인터페이스를 시작합니다.](report-gs-cja.md)
-
 **[!UICONTROL 라이브 보고서]**를 사용하여 기본 제공 대시보드에서 여정 및 메시지의 영향과 성능을 실시간으로 측정하고 시각화할 수 있습니다.
 게재를 보내거나 **[!UICONTROL 최근 24시간]** 탭에서 여정을 실행하는 즉시 **[!UICONTROL 실시간 보고서]**&#x200B;에서 데이터를 사용할 수 있습니다.
 
-* 여정의 컨텍스트에서 여정을 타깃팅하려면 **[!UICONTROL 여정]** 메뉴에서 여정에 액세스하고 **[!UICONTROL 보고서 보기]** 단추를 클릭합니다.
+* 여정의 컨텍스트에서 여정을 타깃팅하려면 **[!UICONTROL 여정]** 메뉴에서 여정의 **[!UICONTROL 추가 작업]** 메뉴에 액세스하고 **[!UICONTROL 최근 24시간 보고서 보기]** 단추를 클릭하십시오.
 
   ![](assets/report_journey.png)
 
-* 캠페인을 타깃팅하려면 **[!UICONTROL 캠페인]** 메뉴에서 캠페인에 액세스하고 **[!UICONTROL 보고서]** 단추를 클릭하십시오.
+* 캠페인을 타깃팅하려면 **[!UICONTROL 캠페인]** 메뉴에서 캠페인에 액세스하고 **[!UICONTROL 보고서]** 버튼을 클릭한 다음 **[!UICONTROL 최근 24시간 보고서 보기]**&#x200B;를 클릭합니다.
 
   ![](assets/report_campaign.png)
-
-* 게재를 위해 **[!UICONTROL 글로벌 보고서]**&#x200B;에서 **[!UICONTROL 라이브 보고서]**(으)로 전환하려면 탭 전환기에서 **[!UICONTROL 최근 24시간]**&#x200B;을 클릭하세요.
-
-  ![](assets/report_3.png)
 
 Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 [이 페이지](#list-of-components-live)를 참조하세요.
 
@@ -96,7 +88,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
    ![](assets/export_4.png)
 
-1. 특정 위젯에서 데이터를 내보내도록 선택할 수도 있습니다. 선택한 위젯 옆에 있는 **[!UICONTROL 위젯 데이터를 CSV로 내보내기]**&#x200B;를 클릭합니다.
+1. 특정 위젯에서 데이터를 내보내도록 선택할 수도 있습니다. 선택한 위젯 옆에 있는 **[!UICONTROL CSV 파일 다운로드]**&#x200B;를 클릭합니다.
 
    ![](assets/export_5.png)
 
