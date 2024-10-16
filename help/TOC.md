@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 96%
+source-wordcount: '2136'
+ht-degree: 93%
 
 ---
 
@@ -384,17 +384,47 @@ ht-degree: 96%
       + [캠페인 실시간 보고서](using/reports/campaign-live-report.md)
       + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
       + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
-   + 글로벌 보고서 {#global-report}
-      + [글로벌 보고서 시작](using/reports/global-report.md)
-      + [구성 요소 목록](using/reports/global-report-components.md)
-      + [여정 글로벌 보고서](using/reports/journey-global-report.md)
-      + [캠페인 글로벌 보고서](using/reports/campaign-global-report.md)
-      + [목표 보고서](using/reports/objective-report.md)
-      + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)
-      + [구독 목록 글로벌 보고서](using/reports/subscription-report-global.md)
-   + 채널 보고서 {#channel-report}
-      + [동적 보고서 시작](using/reports/channel-report-gs.md)
-      + [채널 보고서](using/reports/channel-report.md)
+   + Customer Journey Analytics 보고서{#channel-report}
+      + [Customer Journey Analytics 보고서 시작](using/reports/report-gs-cja.md)
+      + [수동 구성 Customer Journey Analytics](using/reports/cja-ajo.md)
+      + [보고서 관리](using/reports/report-cja-manage.md)
+      + [보고 및 실험 사전 요구 사항](using/reports/reporting-configuration.md)
+      + 캠페인 보고서{#reporting}
+         + [캠페인 보고서](using/reports/campaign-global-report-cja.md)
+         + [코드 기반 캠페인 보고서](using/reports/campaign-global-report-cja-code.md)
+         + [콘텐츠 카드 캠페인 보고서](using/reports/campaign-global-report-cja-content.md)
+         + [다이렉트 메일 캠페인 보고서](using/reports/campaign-global-report-cja-direct.md)
+         + [이메일 캠페인 보고서](using/reports/campaign-global-report-cja-email.md)
+         + [실험 캠페인 보고서](using/reports/campaign-global-report-cja-experimentation.md)
+         + [인앱 캠페인 보고서](using/reports/campaign-global-report-cja-inapp.md)
+         + [푸시 알림 캠페인 보고서](using/reports/campaign-global-report-cja-push.md)
+         + [SMS 캠페인 보고서](using/reports/campaign-global-report-cja-sms.md)
+         + [웹 캠페인 보고서](using/reports/campaign-global-report-cja-web.md)
+      + 여정 보고서{#reporting}
+         + [여정 보고서](using/reports/journey-global-report-cja.md)
+         + [코드 기반 여정 보고서](using/reports/journey-global-report-cja-code.md)
+         + [컨텐츠 카드 여정 보고서](using/reports/journey-global-report-cja-content.md)
+         + [다이렉트 메일 여정 보고서](using/reports/journey-global-report-cja-direct.md)
+         + [이메일 여정 보고서](using/reports/journey-global-report-cja-email.md)
+         + [인앱 여정 보고서](using/reports/journey-global-report-cja-inapp.md)
+         + [푸시 여정 보고서](using/reports/journey-global-report-cja-push.md)
+         + [SMS 여정 보고서](using/reports/journey-global-report-cja-sms.md)
+         + [웹 여정 보고서](using/reports/journey-global-report-cja-web.md)
+      + [개요 보고서](using/reports/channel-report-cja.md)
+      + [랜딩 페이지 보고서](using/reports/lp-report-global-cja.md)
+      + [구독 목록 보고서](using/reports/subscription-report-global-cja.md)
+   + 이전 보고 대시보드 {#reports}
+      + 글로벌 보고서 {#global-report}
+         + [글로벌 보고서 시작](using/reports/global-report.md)
+         + [구성 요소 목록](using/reports/global-report-components.md)
+         + [여정 글로벌 보고서](using/reports/journey-global-report.md)
+         + [캠페인 글로벌 보고서](using/reports/campaign-global-report.md)
+         + [목표 보고서](using/reports/objective-report.md)
+         + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)
+         + [구독 목록 글로벌 보고서](using/reports/subscription-report-global.md)
+      + 채널 보고서 {#channel-report}
+         + [동적 보고서 시작](using/reports/channel-report-gs.md)
+         + [채널 보고서](using/reports/channel-report.md)
    + 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
@@ -411,17 +441,7 @@ ht-degree: 96%
       + [금지 목록 이해하기](using/reports/suppression-list.md)
       + [새로운 DMARC 요구 사항](using/configuration/dmarc-record-update.md)
    + [경고](using/reports/alerts.md)
-   + [Customer Journey Analytics 작업](using/reports/cja-ajo.md)
    + [제외 이유](using/reports/exclusion-list.md)
-+ 새로운 보고 인터페이스(LA){#channel-report}
-   + [새로운 보고 인터페이스 시작](using/reports/report-gs-cja.md)
-   + [보고 및 실험 사전 요구 사항](using/reports/reporting-configuration.md)
-   + [보고서 관리](using/reports/report-cja-manage.md)
-   + [여정 보고서](using/reports/journey-global-report-cja.md)
-   + [캠페인 보고서](using/reports/campaign-global-report-cja.md)
-   + [개요 보고서](using/reports/channel-report-cja.md)
-   + [랜딩 페이지 보고서](using/reports/lp-report-global-cja.md)
-   + [구독 목록 보고서](using/reports/subscription-report-global-cja.md)
 + 의사 결정 {#decisioning}
    + 의사 결정 관리 {#offer-decisioning}
       + 의사 결정 관리 시작 {#get-started-decision}
