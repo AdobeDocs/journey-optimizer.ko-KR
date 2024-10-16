@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: a04f60d946845725e09855b4aa19bc6ef4b4db99
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 >[!TAB 보고서를 CSV 파일로 내보내기]
 
-1. 보고서에서 **[!UICONTROL 내보내기]**&#x200B;를 클릭하고 **[!UICONTROL CSV 파일]**&#x200B;을 선택하여 전체 보고서 수준에서 CSV 파일을 생성합니다.
+1. 보고서에서 **[!UICONTROL 공유]**&#x200B;를 클릭하고 **[!UICONTROL CSV 다운로드]**&#x200B;를 선택하여 전체 보고서 수준에서 CSV 파일을 생성합니다.
 
    ![](assets/export_cja_csv.png)
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 >[!TAB 보고서를 PDF 파일로 내보내기]
 
-1. 보고서에서 **[!UICONTROL 내보내기]**&#x200B;를 클릭하고 **[!UICONTROL 파일 PDF]**&#x200B;을 선택합니다.
+1. 보고서에서 **[!UICONTROL 공유]**&#x200B;를 클릭하고 **[!UICONTROL 다운로드 PDF]**&#x200B;을 선택합니다.
 
    ![](assets/export_cja_pdf.png)
 
@@ -71,6 +71,52 @@ ht-degree: 1%
 이제 보고서를 pdf 파일에서 보거나 다운로드하거나 공유할 수 있습니다.
 
 >[!ENDTABS]
+
+
+## 내보내기 예약 {#schedule-export}
+
+**내보내기 예약**&#x200B;을 사용하면 주별, 월별 또는 연간 간격으로 최대 10개의 보고서 배달을 자동화할 수 있습니다. 또한 예약된 내보내기를 업데이트, 편집, 취소 또는 삭제하는 옵션을 사용하여 예약된 보고서를 쉽게 관리할 수 있습니다.
+
+1. 보고서에서 **[!UICONTROL 공유]**&#x200B;를 클릭하고 **[!UICONTROL 내보내기 예약]**&#x200B;을 선택합니다.
+
+   ![](assets/export-schedule-1.png)
+
+1. CSV와 PDF 중에서 **[!UICONTROL 파일 형식]**&#x200B;을 선택하세요.
+
+1. 필요한 경우 내보내기에 **[!UICONTROL 설명]**&#x200B;을(를) 추가할 수 있습니다.
+
+1. 이 자동 게재를 받을 수신자의 이름을 입력합니다.
+
+   ![](assets/export-schedule-2.png)
+
+1. **[!UICONTROL 빈도]**&#x200B;를 선택하십시오.
+
+1. 선택한 빈도를 기반으로 다음과 같은 관련 일정 세부 정보를 제공합니다.
+
+   * 시작 및 종료 일자
+
+   * 간격(예: 몇 주마다)
+
+   * 특정 요일
+
+   * 해당 월의 주
+
+   * 해당 월의 일
+
+   * 월(한 해 기준)
+
+1. **[!UICONTROL 일정에 따라 보내기]**&#x200B;를 클릭합니다.
+
+1. 이전에 만든 예약된 내보내기를 편집하려면 **[!UICONTROL 공유]**&#x200B;를 클릭하고 **[!UICONTROL 일정 관리]**&#x200B;를 선택하십시오.
+
+   ![](assets/export-schedule-3.png)
+
+1. 예약된 내보내기 목록에서 업데이트할 내보내기를 선택하고 필요한 사항을 변경합니다.
+
+1. 예약된 보고서를 삭제하려면 관리 일정 목록에서 하나를 선택하고 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
+
+   ![](assets/export-schedule-4.png)
+
 
 ## 간단한 지표 만들기 {#create-simple-metric}
 
