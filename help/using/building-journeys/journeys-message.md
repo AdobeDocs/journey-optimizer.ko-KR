@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="기본 제공 채널 작업"
->abstract="Journey Optimizer에는 채널 작업 기능이 내장되어 있습니다. 아웃바운드(이메일, 문자 메시지(SMS/MMS), 푸시) 또는 인바운드(인앱, 웹, 코드 기반 경험, 컨텐츠 카드) 활동을 여정에 추가하고 설정 및 컨텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
+>abstract="Journey Optimizer에는 채널 작업 기능이 빌트인되어 있습니다. 여정에 아웃바운드(이메일, 문자 메시지(SMS/MMS), 푸시) 또는 인바운드(인앱, 웹, 코드 기반 경험, 콘텐츠 카드) 활동을 간단히 추가하고 설정과 콘텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
 
-[!DNL Journey Optimizer]에는 채널 작업 기능이 내장되어 있습니다. 아웃바운드(이메일, 문자 메시지(SMS/MMS), 푸시) 또는 인바운드(인앱, 웹, 코드 기반 경험, 컨텐츠 카드) 활동을 여정에 추가하고 설정 및 컨텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다.
+[!DNL Journey Optimizer]에는 채널 작업 기능이 내장되어 있습니다. 여정에 아웃바운드(이메일, 문자 메시지(SMS/MMS), 푸시) 또는 인바운드(인앱, 웹, 코드 기반 경험, 콘텐츠 카드) 활동을 간단히 추가하고 설정과 콘텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다.
 
 >[!NOTE]
 >
@@ -190,7 +190,7 @@ Adobe의 AI 서비스를 기반으로 하는 Adobe Journey Optimizer의 전송 �
 
 +++어떤 보고를 사용할 수 있습니까?
 
-여정에 액세스하여 오른쪽 상단의 **보고서 보기** 버튼을 클릭하고 왼쪽의 **여정** 탭을 선택합니다. [자세히 보기](../reports/journey-global-report.md)
+여정에 액세스하여 오른쪽 상단의 **보고서 보기** 버튼을 클릭하고 왼쪽의 **여정** 탭을 선택합니다. [자세히 보기](../reports/journey-global-report-cja.md)
 
 +++
 

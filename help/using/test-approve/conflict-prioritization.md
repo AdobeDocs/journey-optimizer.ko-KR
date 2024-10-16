@@ -23,7 +23,7 @@ ht-degree: 21%
 
 Journey Optimizer에서 너무 많은 상호 작용으로 압도적인 고객을 피하려면 캠페인 및 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 다음 두 섹션에서는 균형을 유지하고 커뮤니케이션의 우선순위를 효과적으로 지정하는 데 도움이 되는 주요 도구를 소개합니다
 
-## 여정 및 캠페인에서 발생할 수 있는 충돌 파악 {#conflict}
+## 여정 및 캠페인의 잠재적인 충돌 식별 {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"

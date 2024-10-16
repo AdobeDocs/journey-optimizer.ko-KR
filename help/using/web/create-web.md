@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 [!DNL Journey Optimizer]을(를) 사용하면 인바운드 여정 또는 캠페인을 통해 고객에게 제공하는 웹 경험을 개인화할 수 있습니다.
 
-## 여정 또는 캠페인을 통해 웹 경험 추가 {#create-web-experience}
+## 여정 또는 캠페인을 통한 웹 경험 추가 {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
