@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
-source-wordcount: '5667'
-ht-degree: 96%
+source-wordcount: '5672'
+ht-degree: 95%
 
 ---
 
@@ -24,9 +24,8 @@ ht-degree: 96%
 * 표면 URI를 설명하는 섹션을 포함하여 프로세스를 더 명확하게 하기 위해 **코드 기반 경험 구성** 페이지가 개선되었습니다. [자세히 보기](../code-based/code-based-configuration.md)
 * **웹 채널 구성 만들기** 페이지가 업데이트되어 페이지 일치 규칙을 만들 때 단계를 명확하게 했습니다. 이 규칙은 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
 * 시스템 생성 데이터 세트에 대해 예정된 TTL(time-to-live) 보안에 대한 메모를 추가했습니다. [자세히 보기](../data/get-started-datasets.md)
-
-
 * 여정 또는 캠페인에서 콘텐츠를 시뮬레이션할 때 디바이스에서 미리 보기 옵션을 사용하여 브라우저 또는 모바일 디바이스에서 코드 기반의 개인화된 경험을 올바르게 미리 보는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../code-based/create-code-based.md#preview-on-device)
+* 의사 결정을 위해 사용자 지정 업로드 대상을 활용하는 방법에 대한 새 페이지가 추가되었습니다. [자세히 보기](../offers/custom-upload-decisioning.md)
 
 ## 2024년 9월 {#sept-2024}
 
@@ -131,7 +130,6 @@ ht-degree: 96%
 * `toString` 함수에서 **기간** 매개 변수를 업데이트합니다. [자세히 보기](../building-journeys/functions/functiontostring.md)
 * 일부 외부 데이터 소스 사용 사례의 경우 사용자 정의 작업 사용이 권장됩니다.
 * 이벤트 필드 구문이 업데이트되었습니다. 다음 구문은 사용되지 않고 `@(my_event.myfield}` `@event{my_event.myfield}`(으)로 대체되었습니다. [자세히 보기](../building-journeys/expression/field-references.md)
-* 글로벌 보고서 및 실시간 보고서 안내서가 재구성되었습니다. [자세히 보기](../reports/campaign-global-report.md)
 
 +++ 2023
 
@@ -179,7 +177,7 @@ ht-degree: 96%
 * 여정의 **인증 캐시 관리**&#x200B;에서 다른 여정 간에는 토큰이 공유되지 않는다는 점을 설명하는 메모를 업데이트했습니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-mode)
 * **항목 관리** 여정에 대한 페이지에서 동작을 명확하게 설명하도록 업데이트했습니다. [자세히 보기](../building-journeys/entry-management.md)
 * Offer Decisioning **데이터 세트 내보내기**&#x200B;가 이제 기본적으로 활성화되어 있습니다. 이전 동작에 대한 메모는 제거했습니다.  [자세히 보기](../offers/export-catalog/get-started-export.md)
-* 라이브 및 글로벌 보고서 모두에서 다양한 **캠페인 보고서 지표**&#x200B;의 이름이 변경되었습니다. [자세히 보기](../reports/campaign-global-report.md)
+* 라이브 및 글로벌 보고서 모두에서 다양한 **캠페인 보고서 지표**&#x200B;의 이름이 변경되었습니다. [자세히 보기](../reports/campaign-live-report.md)
 * 웹 채널의 콘텐츠 실험 전제 조건에 새 섹션이 추가되었습니다. [자세히 보기](../web/web-prerequisites.md#experiment-prerequisites)
 * **콘텐츠 템플릿으로 작업하기** 페이지에 이메일 콘텐츠 템플릿을 테스트할 때 현재 추적이 지원되지 않음을 나타내는 경고가 추가되었습니다. 추적을 테스트하려면 이메일의 콘텐츠 템플릿을 사용하고 증명을 보내야 합니다. [자세히 보기](../content-management/content-templates.md#test-template)
 * **랜딩 페이지 만들기 및 게시** 섹션에 몇 가지 경고가 추가되었습니다. 페이지가 게시되었더라도 페이지를 만들 때 정의된 URL을 웹 브라우저에 단순히 복사하여 붙여넣으면 랜딩 페이지에 액세스할 수 없음을 명시하고 있습니다. 대신 미리보기 기능을 사용하여 테스트할 수 있습니다. [자세히 보기](../landing-pages/create-lp.md)
@@ -297,9 +295,9 @@ ht-degree: 96%
 * [toDateOnly](../building-journeys/functions/functiontodateonly.md) 및 [toString](../building-journeys/functions/functiontostring.md) 함수와 관련된 페이지를 업데이트했습니다.
 * 시간 조건 매개 변수에 대한 세부 사항을 추가했습니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
 * 기본 제공 데이터 세트에 대한 정보를 추가했습니다. [자세히 보기](../data/get-started-datasets.md#access-datasets)
-* 글로벌 보고서 및 실시간 보고서 섹션이 개선되고 재구성되었습니다. [자세히 보기](../reports/global-report.md)
+* 글로벌 보고서 및 실시간 보고서 섹션이 개선되고 재구성되었습니다. [자세히 보기](../reports/report-gs-cja.md)
 * Adobe Journey Optimizer에서 사용할 수 있는 모든 보고 지표 목록을 추가했습니다.
-  [자세히 보기](../reports/global-report.md#email-and-sms-metrics)
+  [자세히 보기](../reports/report-gs-cja.md#email-and-sms-metrics)
 * BCC 이메일 섹션이 새 아카이브 지원 페이지로 이동되었습니다. [자세히 보기](../configuration/archiving-support.md)
 
 ## 2022년 8월 {#august-2022}
@@ -444,7 +442,7 @@ ht-degree: 96%
 * 동적 URL 경로 및 동적 헤더가 있는 사용자 지정 작업을 구성하는 절차를 업데이트했습니다. [자세히 보기](../action/about-custom-action-configuration.md#url-configuration)
 * 액세스 가능성 기능 및 바로 가기에 대한 섹션을 추가했습니다. [자세히 보기](../start/user-interface.md#accessibility)
 * 대상자 평가 방법에 대한 섹션을 추가했습니다. [자세히 보기](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* 금지 목록, 허용 목록 및 이메일 글로벌/라이브 보고서 섹션에 금지됨 및 허용되지 않음 상태의 프로필이 전송된 이메일 보고서에서 제외되도록 지정하는 메모를 추가했습니다. [자세히 보기](../reports/global-report.md)
+* 금지 목록, 허용 목록 및 이메일 글로벌/라이브 보고서 섹션에 금지됨 및 허용되지 않음 상태의 프로필이 전송된 이메일 보고서에서 제외되도록 지정하는 메모를 추가했습니다. [자세히 보기](../reports/report-gs-cja.md)
 * 허용 목록에 없어서 전송에서 제외된 이메일 주소 또는 도메인을 검색하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../configuration/allow-list.md#reporting)
 * 허용 목록 활성화 섹션을 업데이트했습니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
 * 메시지 사전 설정 모니터링 섹션을 업데이트했습니다. 가능한 사전 설정 작성 실패 이유 및 이러한 오류에 대한 세부 정보를 추가했습니다. [자세히 보기](../configuration/channel-surfaces.md#monitor-channel-surfaces)
