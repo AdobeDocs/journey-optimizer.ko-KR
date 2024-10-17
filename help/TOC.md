@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
 source-wordcount: '2136'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 93%
       + [조건](using/building-journeys/condition-activity.md)
       + [대기](using/building-journeys/wait-activity.md)
       + [대상자 읽기](using/building-journeys/read-audience.md)
-      + [기본 제공 채널 작업](using/building-journeys/journeys-message.md)
+      + [기본 제공 채널 액션](using/building-journeys/journeys-message.md)
       + [사용자 정의 액션](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 작업](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 작업](using/building-journeys/using-adobe-campaign-v7-v8.md)
@@ -175,7 +175,7 @@ ht-degree: 93%
    + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
    + [캠페인 관리](using/campaigns/modify-stop-campaign.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
-+ {#test} 테스트 및 승인
++ 테스트 및 승인 {#test}
    + [충돌 관리 및 우선 순위 지정](using/test-approve/conflict-prioritization.md)
    + 충돌 관리 및 우선 순위 {#conflict-prioritization}
       + [충돌 관리 및 우선 순위 지정 시작](using/test-approve/gs-conflict-prioritization.md)
@@ -388,7 +388,7 @@ ht-degree: 93%
       + [Customer Journey Analytics 보고서 시작](using/reports/report-gs-cja.md)
       + [수동 구성 Customer Journey Analytics](using/reports/cja-ajo.md)
       + [보고서 관리](using/reports/report-cja-manage.md)
-      + [보고 및 실험 사전 요구 사항](using/reports/reporting-configuration.md)
+      + [보고 및 실험 전제 조건](using/reports/reporting-configuration.md)
       + 캠페인 보고서{#reporting}
          + [캠페인 보고서](using/reports/campaign-global-report-cja.md)
          + [코드 기반 캠페인 보고서](using/reports/campaign-global-report-cja-code.md)

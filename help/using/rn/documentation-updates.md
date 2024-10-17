@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
 source-wordcount: '5672'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -29,16 +29,16 @@ ht-degree: 95%
 
 ## 2024년 9월 {#sept-2024}
 
-* 2024년 9월 릴리스 [!DNL Journey Optimizer]의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer] 24년 9월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
 * 여정 다시 시도 관리에 대한 섹션을 추가했습니다. [자세히 보기](../building-journeys/read-audience.md#read-audience-retry)
-* 사용자 지정 작업에 대한 제한/조절 규칙에 대한 FAQ가 기본 제한 규칙을 언급하도록 업데이트되었습니다. [자세히 보기](../configuration/external-systems.md#faq)
-* 제어 액세스 섹션이 AI 어시스턴트 콘텐츠 생성기와 관련된 권한으로 업데이트되었습니다. [자세히 보기](../administration/high-low-permissions.md#ai-permission)
+* 사용자 정의 액션의 캡핑/스로틀링 규칙에 대한 FAQ에서 기본 캡핑 규칙을 언급하도록 업데이트했습니다. [자세히 보기](../configuration/external-systems.md#faq)
+* 액세스 제어 섹션에 AI 어시스턴트 콘텐츠 생성기와 관련된 권한에 대한 정보를 업데이트했습니다. [자세히 보기](../administration/high-low-permissions.md#ai-permission)
 * 이메일 생성을 위한 AI 도우미 콘텐츠 생성기에 대한 비디오가 추가되었습니다. [자세히 보기](../content-management/generative-email.md#video)
 
 
 ## 2024년 8월 {#aug-2024}
 
-* [!DNL Journey Optimizer] 2024년 8월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer] 24년 8월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
 * 의사 결정 관리에 대한 성능 보호 기능이 Edge 세분화를 사용하거나 사용하지 않는 의사 결정 API 게재 처리량을 언급하도록 업데이트되었습니다. [자세히 보기](../start/guardrails.md#decision-management)
 * 여정 보호가 업데이트되었습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 
@@ -186,7 +186,7 @@ ht-degree: 95%
 ## 2023년 7월 {#july-2023}
 
 * [!DNL Journey Optimizer] 2023년 7월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 대기 활동 설명서 페이지가 전역 시간 초과 및 재입력 사용과 관련된 추가 정보 및 우수 사례와 함께 개선되었습니다. [자세히 보기](../building-journeys/wait-activity.md)
+* 대기 활동 설명서 페이지에 전역 시간 초과 및 재진입 사용과 관련된 정보 및 모범 사례를 추가하여 개선했습니다. [자세히 보기](../building-journeys/wait-activity.md)
 * 항목 관리 페이지를 개선했습니다. [자세히 보기](../building-journeys/entry-management.md)
 * 대상자 읽기 활동 설명서에 조절률에 대한 정보를 추가했습니다. [자세히 보기](../building-journeys/read-audience.md)
 * 재시도에 대한 추가 정보를 추가했습니다. [자세히 보기](../start/guardrails.md#general-actions-g)

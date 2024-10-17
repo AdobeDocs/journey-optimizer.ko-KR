@@ -11,7 +11,7 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '4377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 이 페이지에서는 2023년에 릴리스된 [!DNL Journey Optimizer]의 기능과 개선 사항 목록을 확인할 수 있습니다.
 
 
-## 2023년 10월 릴리스 {#oct-rn-2023}
+## 23년 10월 릴리스 {#oct-rn-2023}
 
 ### 새로운 기능{#oct-2023-features}
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 * 모든 대기 시간에 정의할 수 있는 최대 기간이 기존 30일에서 29일로 변경되었습니다. 대기 시간이 여정 수명 30일을 초과하지 않도록 하기 위해 도입한 개선 사항입니다. 이것은 다음에 적용됩니다.
 
    * [대기 활동](../building-journeys/wait-activity.md)의 **시간** 필드
-   * [여정 속성](../building-journeys/journey-properties.md#entrance)의 **재등록 대기 기간**
+   * [여정 속성](../building-journeys/journey-properties.md#entrance)의 **재진입 대기 기간** 
    * [이벤트 활동](../building-journeys/general-events.md#events-specific-time)의 시간 초과 정의 내 **대기 기간** 필드.
 
 <!--
@@ -101,7 +101,7 @@ ht-degree: 98%
 
 
 
-## 2023년 9월 릴리스 {#sept-rn-2023}
+## 23년 9월 릴리스 {#sept-rn-2023}
 
 ### 새로운 기능{#sept-2023-features}
 
@@ -233,7 +233,7 @@ ht-degree: 98%
 
 Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
-## 2023년 8월 릴리스 {#aug-rn-2023}
+## 23년 8월 릴리스 {#aug-rn-2023}
 
 ### 새로운 기능{#aug-2023-features}
 
@@ -322,7 +322,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## 2023년 7월 릴리스 {#july-rn-2023}
+## 23년 7월 릴리스 {#july-rn-2023}
 
 ### 새로운 기능{#july-2023-features}
 
@@ -446,7 +446,7 @@ Adobe Journey Optimizer APIsauthentication용 액세스 토큰을 생성하는 J
 
 
 
-## 2023년 6월 릴리스 {#june-rn-2023}
+## 23년 6월 릴리스 {#june-rn-2023}
 
 <table>
 <thead>
@@ -496,7 +496,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
-## 2023년 5월 릴리스 {#may-rn-2023}
+## 23년 5월 릴리스 {#may-rn-2023}
 
 ### 새로운 기능{#may-2023-features}
 
@@ -649,7 +649,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * 인앱 메시지 - 캠페인 일정 예약이 메시지 빈도 설정과 충돌하는 문제를 해결했습니다.
 
 
-## 2023년 4월 릴리스 {#apr-rn-2023}
+## 23년 4월 릴리스 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -730,7 +730,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-## 2023년 3월 릴리스 {#mar-2023}
+## 23년 3월 릴리스 {#mar-2023}
 
 ### 새로운 기능{#mar-2023-features}
 
@@ -826,7 +826,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/report-gs-cja.md)를 참조하십시오.
 
-## 2023년 2월 릴리스 {#feb-2023}
+## 23년 2월 릴리스 {#feb-2023}
 
 ### 새로운 기능{#feb-2023-features}
 
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **여정**
 
-* **재입력 대기 기간** 필드가 여정 속성에 추가되었습니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. [자세히 알아보기](../building-journeys/journey-properties.md#entrance)
+* 여정 속성에 **재진입 대기 기간** 필드가 추가되었습니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. [자세히 알아보기](../building-journeys/journey-properties.md#entrance)
 
 * **여정 시작 및 종료 일자**&#x200B;를 개선했습니다. 이제 시작 일자를 지정하지 않은 경우 게시할 때 자동으로 추가됩니다. 이제 **대상자 읽기** 여정에 종료 일자를 추가할 수 있습니다. 이렇게 하면 해당 일자가 되었을 때 프로필이 자동으로 종료됩니다. [자세히 알아보기](../building-journeys/journey-gs.md#dates)
 
@@ -954,7 +954,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL 개인화** - 이제 URL을 오퍼 표시의 콘텐츠로 추가할 때 표현식 편집기를 사용하여 해당 URL을 개인화할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-representations.md)
 
-## 2023년 1월 릴리스 {#jan-2023-release}
+## 23년 1월 릴리스 {#jan-2023-release}
 
 ### 새로운 기능{#jan-2023-features}
 
