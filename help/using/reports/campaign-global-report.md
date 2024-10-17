@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 94d6ebe6e0ad5fa48eaad9d8cfa8cff584f2b819
+source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4552'
+ht-degree: 24%
 
 ---
 
@@ -47,6 +47,10 @@ Campaign **[!UICONTROL 글로벌 보고서]**&#x200B;는 캠페인의 성공 및
 Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 [이 페이지](global-report.md#list-of-components-global.md)를 참조하세요.
 
 ## 캠페인 탭 {#campaign-global}
+
+>[!NOTE]
+>
+>실험 보고서는 Customer Journey Analytics 보고서 내에서만 액세스할 수 있습니다. [자세히 알아보기](campaign-global-report-cja-experimentation.md)
 
 ### 게재 {#delivery-global}
 
