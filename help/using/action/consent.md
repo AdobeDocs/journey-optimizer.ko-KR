@@ -9,17 +9,17 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, Healthcare Shield, 동의
 source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # 동의 정책 사용 {#consent-management}
 
-사용자의 데이터에는 조직 규정이나 법적 규정에 따른 사용 제한이 적용될 수 있습니다. 따라서 Journey Optimizer 내 데이터 작업 시에는 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko){target="_blank"}을 준수해야 합니다. 이러한 정책은 데이터에 대해 수행할 수 있는 마케팅 작업을 정의하는 Adobe Experience Platform 규칙입니다.
+사용자의 데이터에는 조직 규정이나 법적 규정에 따른 사용 제한이 적용될 수 있습니다. 따라서 Journey Optimizer 내 데이터 작업 시에는 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko){target="_blank"}을 준수해야 합니다. 정책은 데이터에 대해 수행할 수 있는 마케팅 액션을 정의하는 Adobe Experience Platform의 규칙입니다.
 
-기본적으로 프로필이 사용자로부터 커뮤니케이션 수신을 옵트아웃한 경우 해당 프로필은 후속 게재에서 제외됩니다. 이 기본 논리를 재정의하는 **동의 정책**&#x200B;을 만들 수 있습니다. 예를 들어, Experience Platform에서 지정된 채널에 대한 커뮤니케이션 수신에 동의하지 않은 고객을 제외하는 동의 정책을 만들 수 있습니다. 사용자 정의 정책이 없으면 기본 정책이 적용됩니다.
+기본적으로 프로필이 사용자의 커뮤니케이션 수신을 옵트아웃한 경우 해당 프로필은 후속 게재 대상에서 제외됩니다. 이 기본 논리를 재정의하는 **동의 정책**&#x200B;을 만들 수 있습니다. 예를 들어 Experience Platform에서 동의 정책을 만들어 특정 채널의 커뮤니케이션 수신에 동의하지 않은 고객을 제외할 수 있습니다. 사용자 정의 정책이 없으면 기본 정책이 적용됩니다.
 
 >[!IMPORTANT]
 >
@@ -27,16 +27,16 @@ ht-degree: 79%
 
 동의 정책을 적용하는 주요 단계는 다음과 같습니다.
 
-1. 연관된 마케팅 작업으로 Adobe Experience Platform에서 동의 정책을 만듭니다. [동의 정책을 만드는 방법을 알아보세요](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#consent-policy){target="_blank"}
+1. Adobe Experience Platform에서 연결된 마케팅 액션이 있는 동의 정책을 만듭니다. [동의 정책을 만드는 방법 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#consent-policy){target="_blank"}
 
-2. 채널 구성 또는 여정 사용자 지정 작업을 사용하여 Adobe Journey Optimizer에서 동의 정책을 적용합니다.
+2. Adobe Journey Optimizer에서 채널 구성 또는 여정 사용자 정의 액션을 사용하여 동의 정책을 적용합니다.
 
-   * 연결된 마케팅 작업으로 채널 구성을 만듭니다. 채널 구성을 사용하여 커뮤니케이션을 만들면 연결된 마케팅 작업을 상속하고 Adobe Experience Platform에 정의된 해당 동의 정책을 적용합니다. [채널 구성을 통해 동의 정책을 활용하는 방법을 알아보세요](#surface-marketing-actions)
+   * 연결된 마케팅 액션이 있는 채널 구성을 만듭니다. 채널 구성을 사용하여 커뮤니케이션을 만들면 이 커뮤니케이션은 연결된 마케팅 액션을 상속하고 Adobe Experience Platform에 정의된 해당 동의 정책을 적용하게 됩니다. [채널 구성을 통해 동의 정책을 활용하는 방법 알아보기](#surface-marketing-actions)
 
-   * 여정 수준에서 다음 중 하나를 수행할 수 있습니다.
+   * 여정 수준에서 다음 작업 중 하나를 수행할 수 있습니다.
 
-      * 구성할 때 채널 및 마케팅 작업을 사용자 지정 작업에 연결합니다. [사용자 지정 작업을 구성할 때 동의 정책을 활용하는 방법을 알아보세요](#consent-custom-action)
-      * 여정에서 사용자 지정 작업을 추가할 때 추가 마케팅 작업을 정의합니다. [여정에 사용자 지정 작업을 추가할 때 동의 정책을 활용하는 방법을 알아봅니다.](#consent-journey)
+      * 사용자 정의 액션을 구성할 때 채널과 마케팅 액션을 사용자 정의 액션에 연결합니다. [사용자 정의 액션을 구성할 때 동의 정책을 활용하는 방법 알아보기](#consent-custom-action)
+      * 여정에 사용자 정의 액션을 추가할 때 추가로 마케팅 액션을 정의합니다. [여정에 사용자 정의 액션을 추가할 때 동의 정책을 활용하는 방법 알아보기](#consent-journey)
 
 ## 채널 구성을 통한 동의 정책 활용 {#surface-marketing-actions}
 
@@ -104,11 +104,11 @@ There are two types of latency regarding the use of consent policies:
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
 -->
 
-### 사용자 지정 작업을 구성할 때 동의 정책 활용{#consent-custom-action}
+### 사용자 정의 액션을 구성할 때 동의 정책 활용{#consent-custom-action}
 
 사용자 정의 액션을 구성할 때는 동의 관리에 두 필드를 사용할 수 있습니다.
 
-**채널** 필드를 사용하면 이 사용자 지정 작업과 관련된 채널을 선택할 수 있습니다. 그렇게 하면 **필수 마케팅 액션** 필드에 선택한 채널에 대한 기본 마케팅 작업을 미리 채웁니다. **기타**&#x200B;를 선택하는 경우 마케팅 액션이 기본적으로 정의되지 않습니다.
+**채널** 필드에서는 이 사용자 정의 액션과 관련된 채널을 선택할 수 있습니다. 그렇게 하면 **필수 마케팅 액션** 필드에 선택한 채널에 대한 기본 마케팅 작업을 미리 채웁니다. **기타**&#x200B;를 선택하는 경우 마케팅 액션이 기본적으로 정의되지 않습니다.
 
 ![](assets/consent1.png)
 
@@ -120,7 +120,7 @@ There are two types of latency regarding the use of consent policies:
 
 사용자 지정 작업을 구성하는 다른 단계는 [이 섹션](../action/about-custom-action-configuration.md#consent-management)에 자세히 설명되어 있습니다.
 
-### 여정에서 사용자 지정 작업을 추가할 때 동의 정책 활용 {#consent-journey}
+### 여정에 사용자 정의 액션을 추가할 때 동의 정책 활용 {#consent-journey}
 
 여정에 사용자 정의 작업을 추가할 때 동의를 관리할 수 있는 몇 가지 옵션이 있습니다. **읽기 전용 필드 표시**&#x200B;를 눌러 모든 매개 변수를 표시합니다.
 

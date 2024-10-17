@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 모바일 및 웹 설정
-description: 모바일 및 웹 채널을 구성하고 모니터링하는 방법에 대해 알아봅니다
+description: 모바일 및 웹 채널을 구성하고 모니터링하는 방법에 대해 알아보기
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 채널, 표면, 기술, 매개변수, 최적기
+keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
@@ -29,15 +29,15 @@ ht-degree: 20%
 >abstract="Adobe Experience Platform Assurance가 이 워크플로에 임베드되어 있어 SDK 구현을 검사하고 애플리케이션 이벤트를 시뮬레이션 및 검증하는 데 도움이 됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 개요"
 
-이 설정을 사용하면 마케팅 채널을 신속하게 구성할 수 있으므로 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 쉽게 사용할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정 생성으로 시작할 수 있습니다.
+이 설정을 사용하면 마케팅 채널을 신속하게 구성할 수 있으므로 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 쉽게 사용할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정을 만들기 시작할 수 있습니다.
 
-안내식 채널 설정은 다음 플랫폼 및 채널을 지원합니다.
+안내형 채널 설정은 다음 플랫폼 및 채널을 지원합니다.
 
 * 플랫폼 및 SDK:
 
-   * Swift by Apple, iOS
+   * Apple의 Swift, iOS
 
-   * 코틀린, Android
+   * Kotlin, Android
 
    * Javascript, 웹
 
@@ -50,13 +50,13 @@ ht-degree: 20%
    * 웹 기본
 
 
-설정하려는 각 플랫폼에 대해 별도의 구성을 만들어야 합니다. 각 앱에는 고유한 채널 구성이 필요하며, 이를 통해 각 플랫폼에 대해 원하는 채널을 유연하게 결정할 수 있기 때문입니다.
+설정하려는 각 플랫폼마다 별도의 구성을 만들어야 합니다. 각 앱마다 고유한 채널 구성이 필요하기 때문이며, 이를 통해 각 플랫폼마다 어떤 채널을 설정할지 유연하게 결정할 수 있습니다.
 
 ## 전제 조건 {#prereq}
 
 * 이를 효과적으로 구현하려면 웹 사이트 또는 모바일 코드를 수정할 수 있는 권한과 기술 능력을 갖춘 조직 구성원이 설정을 감독해야 합니다.
 
-  다음은 안내가 있는 채널 설정을 실행하는 데 필요한 권한입니다.
+  다음은 안내형 채널 설정을 실행하는 데 필요한 권한입니다.
 
 +++ 필요한 권한
 
@@ -86,10 +86,10 @@ ht-degree: 20%
         </td>
         <td>
         <ul>
-            <li>데이터 수집: 데이터스트림 관리</li>
+            <li>데이터 수집: 데이터 스트림 관리</li>
            <li>샌드박스: 샌드박스에 대한 액세스 권한 부여</li>
-            <li>세그먼트 관리: 세그먼트 정의 읽기, 만들기, 편집 및 삭제</li>
-            <li>프로필 관리: 프로필 읽기, 만들기, 편집 및 삭제</li>
+            <li>세그먼트 관리: 세그먼트 정의 읽기, 만들기, 편집, 삭제</li>
+            <li>프로필 관리: 프로필 읽기, 만들기, 편집, 삭제</li>
             <li>데이터 세트 읽기: 데이터 세트에 대한 읽기 전용 액세스</li>
             <li>스키마 읽기: 스키마에 대한 읽기 전용 액세스</li>
             <li>ID 네임스페이스 읽기: ID 네임스페이스에 대한 읽기 전용 액세스</li>
@@ -109,7 +109,7 @@ ht-degree: 20%
 
 +++
 
-* 기존 구성 옵션을 사용 중인 경우 다음 Adobe Experience Platform Mobile SDK 확장 버전을 사용 중인지 확인하십시오. 필요한 종속성 및 초기화 코드를 포함하여 SDK 설정에 대한 자세한 내용은 [다음 설명서](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=en)를 참조하십시오.
+* 기존 구성 옵션을 사용 중인 경우 다음 Adobe Experience Platform Mobile SDK 확장 버전을 사용 중인지 확인해야 합니다. 필요한 종속성 및 초기화 코드를 포함한 SDK 설정에 대한 자세한 내용은 [다음 설명서](https://experienceleague.adobe.com/ko/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=ko)를 참조하십시오.
 
   Android용
 
@@ -121,23 +121,23 @@ ht-degree: 20%
    * Mobile Core v5.2.0 이상
    * Adobe Journey Optimizer v5.1.1 이상
 
-## 자동 생성된 리소스 {#auto-create-resources}
+## 자동 생성 리소스 {#auto-create-resources}
 
-가이드 채널 설정 은 마케팅 채널의 빠른 구성을 단순화하여 Experience Platform, Journey Optimizer 및 데이터 수집 앱에서 모든 필수 리소스를 쉽게 사용할 수 있도록 합니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정 만들기를 빠르게 시작할 수 있습니다. 다음은 안내식 채널 설정의 일부로 자동 생성되고 구성된 리소스 목록입니다.
+안내형 채널 설정을 사용하면 마케팅 채널을 간단하고 빠르게 구성하여 Experience Platform, Journey Optimizer, 데이터 수집 앱에서 모든 기본 리소스를 바로 사용할 수 있습니다. 따라서 마케팅 팀이 캠페인 및 여정 만들기를 빠르게 시작할 수 있습니다. 다음은 안내형 채널 설정의 일부로 자동 생성 및 구성되는 리소스 목록입니다.
 
-아래 탭을 탐색하여 자동으로 생성되는 모든 리소스의 포괄적인 목록에 액세스합니다.
+아래 탭을 탐색하여 자동으로 생성되는 모든 리소스를 종합한 목록에 액세스할 수 있습니다.
 
 >[!BEGINTABS]
 
 >[!TAB iOS]
 
-**초기 구성**&#x200B;의 경우 **리소스 자동 만들기**&#x200B;를 클릭하면 **구성 세부 정보** 화면에서 만든 모든 리소스의 전체 목록이 아래에 표시됩니다.
+**초기 구성**&#x200B;의 경우, **리소스 자동 생성**&#x200B;을 클릭하면 **구성 세부 정보** 화면에 만들어지는 모든 리소스의 전체 목록은 아래와 같습니다.
 
 <table>
   <thead>
   <tr>
   <th><strong>솔루션</strong></th>
-  <th><strong>자동 생성된 리소스</strong></th>
+  <th><strong>자동 생성 리소스</strong></th>
   </tr>
   </thead>
   <tbody>
@@ -163,27 +163,27 @@ ht-degree: 20%
   <ul>
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
-  <li>AEP 보증</li>
-  <li>동의(기본 동의 정책이 활성화됨)</li>
-  <li>ID(기본 ECID 사용, 기본 결합 규칙 사용)</li>
-  <li>모바일 코어</li>
+  <li>AEP Assurance</li>
+  <li>동의(기본 동의 정책 활성화)</li>
+  <li>신원(기본 ECID 사용, 기본 결합 규칙 사용)</li>
+  <li>Mobile Core</li>
   </ul>
   </td>
   </tr>
   <tr>
   <td>
-  <p>보증</p>
+  <p>Assurance</p>
   </td>
   <td>
-  <p>보증 세션</p>
+  <p>Assurance 세션</p>
   </td>
   </tr>
   <tr>
   <td>
-  <p>데이터스트림</p>
+  <p>데이터 스트림</p>
   </td>
   <td>
-  <p>서비스가 포함된 데이터 스트림</p>
+  <p>서비스 데이터 스트림</p>
   </td>
   </tr>
   <tr>
@@ -200,13 +200,13 @@ ht-degree: 20%
   </tbody>
   </table>
 
-**채널 설정**&#x200B;의 경우 **채널 추가** 화면에서 만든 모든 리소스의 전체 목록은 다음과 같습니다.
+**채널 설정**&#x200B;의 경우 **채널 추가** 화면에 만들어지는 모든 리소스의 전체 목록은 아래와 같습니다.
 
 <table>
   <thead>
   <tr>
   <th><strong>솔루션</strong></th>
-  <th><strong>자동 생성된 리소스</strong></th>
+  <th><strong>자동 생성 리소스</strong></th>
   </tr>
   </thead>
   <tbody>
@@ -226,13 +226,13 @@ ht-degree: 20%
 
 >[!TAB Android]
 
-**초기 구성**&#x200B;의 경우 **리소스 자동 만들기**&#x200B;를 클릭하면 **구성 세부 정보** 화면에서 만든 모든 리소스의 전체 목록이 아래에 표시됩니다.
+**초기 구성**&#x200B;의 경우, **리소스 자동 생성**&#x200B;을 클릭하면 **구성 세부 정보** 화면에 만들어지는 모든 리소스의 전체 목록은 아래와 같습니다.
 
 <table>
   <thead>
   <tr>
   <th><strong>솔루션</strong></th>
-  <th><strong>자동 생성된 리소스</strong></th>
+  <th><strong>자동 생성 리소스</strong></th>
   </tr>
   </thead>
   <tbody>
@@ -258,27 +258,27 @@ ht-degree: 20%
   <ul>
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
-  <li>AEP 보증</li>
-  <li>동의(기본 동의 정책이 활성화됨)</li>
-  <li>ID(기본 ECID 사용, 기본 결합 규칙 사용)</li>
-  <li>모바일 코어</li>
+  <li>AEP Assurance</li>
+  <li>동의(기본 동의 정책 활성화)</li>
+  <li>신원(기본 ECID 사용, 기본 결합 규칙 사용)</li>
+  <li>Mobile Core</li>
   </ul>
   </td>
   </tr>
   <tr>
   <td>
-  <p>보증</p>
+  <p>Assurance</p>
   </td>
   <td>
-  <p>보증 세션</p>
+  <p>Assurance 세션</p>
   </td>
   </tr>
   <tr>
   <td>
-  <p>데이터스트림</p>
+  <p>데이터 스트림</p>
   </td>
   <td>
-  <p>서비스가 포함된 데이터 스트림</p>
+  <p>서비스 데이터 스트림</p>
   </td>
   </tr>
   <tr>
@@ -295,13 +295,13 @@ ht-degree: 20%
   </tbody>
   </table>
 
-**채널 설정**&#x200B;의 경우 **채널 추가** 화면에서 만든 모든 리소스의 전체 목록은 다음과 같습니다.
+**채널 설정**&#x200B;의 경우 **채널 추가** 화면에 만들어지는 모든 리소스의 전체 목록은 아래와 같습니다.
 
 <table>
   <thead>
   <tr>
   <th><strong>솔루션</strong></th>
-  <th><strong>자동 생성된 리소스</strong></th>
+  <th><strong>자동 생성 리소스</strong></th>
   </tr>
   </thead>
   <tbody>
@@ -321,13 +321,13 @@ ht-degree: 20%
 
 >[!TAB 웹]
 
-**초기 구성**&#x200B;의 경우 **리소스 자동 만들기**&#x200B;를 클릭하면 **구성 세부 정보** 화면에서 만든 모든 리소스의 전체 목록이 아래에 표시됩니다.
+**초기 구성**&#x200B;의 경우, **리소스 자동 생성**&#x200B;을 클릭하면 **구성 세부 정보** 화면에 만들어지는 모든 리소스의 전체 목록은 아래와 같습니다.
 
 <table>
   <thead>
   <tr>
   <th><strong>솔루션</strong></th>
-  <th><strong>자동 생성된 리소스</strong></th>
+  <th><strong>자동 생성 리소스</strong></th>
   </tr>
   </thead>
   <tbody>
@@ -353,27 +353,27 @@ ht-degree: 20%
   <ul>
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
-  <li>AEP 보증</li>
-  <li>동의(기본 동의 정책이 활성화됨)</li>
-  <li>ID(기본 ECID 사용, 기본 결합 규칙 사용)</li>
-  <li>모바일 코어</li>
+  <li>AEP Assurance</li>
+  <li>동의(기본 동의 정책 활성화)</li>
+  <li>신원(기본 ECID 사용, 기본 결합 규칙 사용)</li>
+  <li>Mobile Core</li>
   </ul>
   </td>
   </tr>
   <tr>
   <td>
-  <p>보증</p>
+  <p>Assurance</p>
   </td>
   <td>
-  <p>보증 세션</p>
+  <p>Assurance 세션</p>
   </td>
   </tr>
   <tr>
   <td>
-  <p>데이터스트림</p>
+  <p>데이터 스트림</p>
   </td>
   <td>
-  <p>서비스가 포함된 데이터 스트림</p>
+  <p>서비스 데이터 스트림</p>
   </td>
   </tr>
   <tr>

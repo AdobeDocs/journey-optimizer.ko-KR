@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 채널 설정 만들기
-description: 채널 설정을 만드는 방법을 알아봅니다
+description: 채널 설정을 만드는 방법 알아보기
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 채널, 표면, 기술, 매개변수, 최적기
-source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: tm+mt
+keywords: 채널, 표면, 기술, 매개변수, optimizer
+exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
+source-git-commit: 24a178839e29dccffde683a958ccc74da4180a73
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
->title="Javascript 코드"
+>title="JavaScript 코드"
 >abstract="헤드 태그에는 웹 페이지의 주요 콘텐츠보다 먼저 로드되는 필수 메타데이터 및 리소스가 포함되어 있습니다. 이 섹션에 코드를 배치하면 코드가 적절하게 초기화되고 조기에 실행되어 웹 페이지가 효율적으로 로드되고 기능할 수 있습니다. 헤드 섹션에 코드를 추가하면 사이트의 구조, 성능 및 전반적인 사용자 환경을 향상시킬 수 있습니다."
 
 >[!CONTEXTUALHELP]
@@ -53,55 +54,54 @@ ht-degree: 47%
 >abstract="팀을 식별하는 데 사용되는 문자열 값인 팀 ID는 개발자 계정의 **멤버십** 탭에서 찾을 수 있습니다."
 
 
-이 설정을 사용하면 마케팅 채널의 빠른 구성이 간소화되어 Experience Platform, Journey Optimizer 및 데이터 수집 앱에서 모든 필수 리소스를 쉽게 사용할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정 만들기를 빠르게 시작할 수 있습니다.
+이 설정을 사용하면 마케팅 채널을 간단하고 빠르게 구성하여 Experience Platform, Journey Optimizer, 데이터 수집 앱에서 모든 기본 리소스를 바로 사용할 수 있습니다. 따라서 마케팅 팀이 캠페인 및 여정 만들기를 빠르게 시작할 수 있습니다.
 
-1. Journey Optimizer 홈페이지에서 **[!UICONTROL 모바일 및 웹 채널 설정]** 카드에서 **[!UICONTROL 시작]**&#x200B;을 클릭합니다.
+1. Journey Optimizer 홈페이지의 **[!UICONTROL 모바일 및 웹 채널 설정]** 카드에서 **[!UICONTROL 시작]**&#x200B;을 클릭합니다.
 
    ![](assets/guided-setup-config-1.png)
 
 1. **[!UICONTROL 새]** 구성을 만듭니다.
 
-   기존 구성이 있는 경우 하나를 선택하거나 새 구성을 만들 수 있습니다.
+   기존 구성이 있다면 해당 구성을 선택하거나 새 구성을 만들 수 있습니다.
 
    ![](assets/guided-setup-config-2.png)
 
-1. 새 구성에 대한 **[!UICONTROL 이름]**&#x200B;을(를) 입력하고 **[!UICONTROL 데이터 스트림]**&#x200B;을(를) 선택하거나 만드세요. 이 **[!UICONTROL 이름]**&#x200B;은(는) 자동으로 만든 모든 리소스에 사용됩니다.
+1. 새 구성의 **[!UICONTROL 이름]**&#x200B;을 입력하고 **[!UICONTROL 데이터 스트림]**&#x200B;을 선택하거나 만듭니다. 이 **[!UICONTROL 이름]**&#x200B;은 자동으로 만든 모든 리소스에 사용됩니다.
 
-1. 조직에 여러 데이터 스트림이 있는 경우 기존 옵션 중에서 하나를 선택하십시오. 데이터 스트림이 없는 경우 자동으로 만들어집니다.
+1. 조직에 여러 데이터스트림이 있는 경우 기존 옵션 중에서 하나를 선택합니다. 데이터 스트림이 없는 경우 자동으로 만들어집니다.
 
-1. 플랫폼을 선택하고 **[!UICONTROL 리소스 자동 만들기]**&#x200B;를 클릭합니다.
+1. 플랫폼을 선택하고 **[!UICONTROL 리소스 자동 생성]**&#x200B;을 클릭합니다.
 
-1. 설치 프로세스를 간소화하기 위해 시작하는 데 도움이 되는 필수 리소스가 자동으로 생성됩니다. 여기에는 새 **[!UICONTROL Mobile 태그 속성]**&#x200B;을 만들고 확장을 설치하는 작업이 포함됩니다.
+1. 설정 프로세스를 간소화하기 위해 시작하는 데 도움이 되는 필수 리소스가 자동으로 만들어집니다. 여기에는 새 **[!UICONTROL 모바일 태그 속성]**&#x200B;을 만들고 확장을 설치하는 작업이 포함됩니다.
 
-[자동 생성된 리소스에 대한 자세한 정보](set-mobile-config.md#auto-create-resources)
+[자동 생성 리소스에 대해 자세히 알아보기](set-mobile-config.md#auto-create-resources)
 
 1. 리소스 생성이 완료되면 사용자 인터페이스의 지침에 따라 SDK 및 채널을 설정하고 확인합니다.
 
-1. 구성을 완료한 후 자동 생성된 **[!UICONTROL 채널 구성]**&#x200B;을(를) 여정 및 캠페인 생성을 담당하는 팀원과 공유합니다.
+1. 구성을 완료한 후 자동 생성된 **[!UICONTROL 채널 구성]**&#x200B;을 여정 및 캠페인 만들기를 담당하는 팀원과 공유합니다.
 
    ![](assets/guided-setup-config-ios-8.png){zoomable="yes"}
 
-1. 이제 캠페인 또는 여정 인터페이스에서 **[!UICONTROL 채널 구성]**&#x200B;을(를) 참조할 수 있으므로 설정과 타깃팅된 여정 및 캠페인의 실행 간에 원활한 연결이 가능합니다.
+1. 이제 캠페인 또는 여정 인터페이스에서 **[!UICONTROL 채널 구성]**&#x200B;을 참조할 수 있으므로 설정과 타기팅된 여정 및 캠페인의 실행 간에 원활한 연결이 가능합니다.
 
 ## 모바일 기존 구성 수정 {#reconnect}
 
-구성을 만든 후 언제든지 쉽게 다시 방문하여 채널을 추가하거나 필요에 따라 추가 조정할 수 있습니다
+구성을 만든 후 언제든지 쉽게 다시 방문하여 채널을 더 추가하거나 필요에 따라 추가 조정할 수 있습니다
 
-1. Journey Optimizer 홈페이지에서 **[!UICONTROL 모바일 및 웹 채널 설정]** 카드에서 **[!UICONTROL 시작]**&#x200B;을 클릭합니다.
+1. Journey Optimizer 홈페이지의 **[!UICONTROL 모바일 및 웹 채널 설정]** 카드에서 **[!UICONTROL 시작]**&#x200B;을 클릭합니다.
 
    ![](assets/guided-setup-config-1.png)
 
-1. **[!UICONTROL 기존]**&#x200B;을(를) 선택하고 드롭다운에서 기존 **[!UICONTROL Tag 속성]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 기존]**&#x200B;을 선택하고 드롭다운에서 기존 **[!UICONTROL 태그 속성]**&#x200B;을 선택합니다.
 
    ![](assets/guided-setup-config-ios-9.png)
 
-1. 기존 구성에 액세스할 때는 Adobe 보증을 사용하여 다시 연결해야 합니다. SDK 설정 메뉴에서 **[!UICONTROL 다시 연결]**&#x200B;을 클릭합니다.
+1. 기존 구성에 액세스할 때는 Adobe Experience Platform Assurance를 사용하여 다시 연결해야 합니다. SDK 설정 메뉴에서 **[!UICONTROL 다시 연결]**&#x200B;을 클릭합니다.
 
    ![](assets/guided-setup-config-ios-10.png)
 
-1. **[!UICONTROL 사용 가능한 장치]** 드롭다운에서 장치를 선택하고 **[!UICONTROL 연결]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 사용 가능한 디바이스]** 드롭다운에서 디바이스를 선택하고 **[!UICONTROL 연결]**&#x200B;을 클릭합니다.
 
    ![](assets/guided-setup-config-ios-11.png){zoomable="yes"}
 
 1. 이제 필요에 따라 구성을 업데이트할 수 있습니다.
-
