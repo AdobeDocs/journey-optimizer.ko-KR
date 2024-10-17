@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '3529'
-ht-degree: 26%
+source-wordcount: '3485'
+ht-degree: 27%
 
 ---
 
@@ -22,11 +22,7 @@ ht-degree: 26%
 >title="캠페인 라이브 보고서"
 >abstract="캠페인 라이브 보고서를 통해 지난 24시간의 캠페인 영향과 성과만 실시간으로 측정하고 시각화할 수 있습니다. 보고서는 캠페인 성공 사례와 오류를 자세히 설명하는 여러 위젯으로 나눠집니다. 위젯 크기를 조정하거나 위젯을 제거하여 각 보고 대시보드를 수정할 수 있습니다."
 
->[!AVAILABILITY]
->
->현재 보고 경험은 10월 릴리스부터 종료됩니다. 이 날짜 이후, 새로운 보고 환경이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다. [Journey Optimizer 새 보고 인터페이스를 시작합니다.](report-gs-cja.md)
-
-[최근 24시간] 탭에서 액세스할 수 있는 라이브 보고서에는 지난 24시간 내에 발생한 이벤트를 표시하며 이벤트 발생에서 최소 2분 간격이 있습니다. 이에 비해 글로벌 보고서는 최소 2시간 전에 발생한 이벤트에 중점을 두며 선택한 기간 동안의 이벤트를 다룹니다.
+[최근 24시간] 탭에서 액세스할 수 있는 라이브 보고서에는 지난 24시간 내에 발생한 이벤트를 표시하며 이벤트 발생에서 최소 2분 간격이 있습니다. 반면 Customer Journey Analytics 보고서는 최소 2시간 전에 발생한 이벤트에 중점을 두고 선택한 기간 동안의 이벤트를 다룹니다.
 
 **[!UICONTROL 실시간 보기]** 단추를 사용하면 캠페인에서 캠페인 실시간 보고서에 직접 액세스할 수 있습니다.
 
@@ -610,4 +606,4 @@ Campaign **[!UICONTROL 라이브 보고서]**&#x200B;에서 **[!UICONTROL DM]** 
 * [캠페인 만들기](../campaigns/create-campaign.md)
 * [API 트리거 캠페인 만들기](../campaigns/api-triggered-campaigns.md)
 * [캠페인 수정 또는 중지](../campaigns/modify-stop-campaign.md)
-* [캠페인 글로벌 보고서](campaign-global-report.md)
+* [캠페인 보고서](campaign-global-report-cja.md)

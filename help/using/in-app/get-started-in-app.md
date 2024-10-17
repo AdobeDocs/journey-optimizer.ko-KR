@@ -7,8 +7,8 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
-workflow-type: ht
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
 
@@ -47,11 +47,11 @@ Journey Optimizer를 사용하여 인앱 알림을 만들고 경험 옵션(메�
 </div>
 <p></td>
 <td>
-<a href="../reports/campaign-global-report.md#inapp-global">
+<a href="../reports/campaign-global-report-cja-inapp.md">
 <img alt="유효성 검사" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>인앱 보고서 액세스</strong></a>
+<a href="../reports/campaign-global-report-cja-inapp.md"><strong>인앱 보고서 액세스</strong></a>
 </div>
 <p>
 </td>

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어 보십시오.
+>이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
 ></br>
 >
->콘텐츠 가속화를 위해 Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+>콘텐츠 가속화를 위해 Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 메시지를 만들고 개인화한 후에는 콘텐츠 실험 기능이 포함된 Adobe Journey Optimizer for Content Acceleration의 AI Assistant를 사용하여 콘텐츠를 향상시킵니다. 이 도구를 사용하면 다양한 콘텐츠에서 여러 게재 처리를 정의하여 타겟 대상의 성능을 측정할 수 있습니다.
 
@@ -52,4 +52,4 @@ ht-degree: 4%
 
 1. 캠페인을 시작하기 전에 모든 구성이 올바른지 다시 확인한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭하세요.
 
-캠페인을 정상적으로 구성하고 개인화한 후에는 캠페인 보고서에서 캠페인을 추적할 수 있습니다. [자세히 알아보기](../reports/campaign-global-report.md)
+캠페인을 정상적으로 구성하고 개인화한 후에는 캠페인 보고서에서 캠페인을 추적할 수 있습니다. [자세히 알아보기](../reports/campaign-global-report-cja.md)

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 캠페인, 검토, 유효성 검사, 활성화, 활성화, 최적화
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 6%
@@ -48,6 +48,6 @@ ht-degree: 6%
 
 1. 캠페인이 활성화되면 언제든지 해당 정보를 열어 확인할 수 있습니다. 이 요약을 사용하면 타겟팅된 프로필 수와 게재됨 및 실패한 작업 수에 대한 통계를 가져올 수 있습니다.
 
-   **[!UICONTROL 보고서]** 단추를 클릭하여 전용 보고서에서 추가 통계를 얻을 수도 있습니다. [자세히 알아보기](../reports/campaign-global-report.md)
+   **[!UICONTROL 보고서]** 단추를 클릭하여 전용 보고서에서 추가 통계를 얻을 수도 있습니다. [자세히 알아보기](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)

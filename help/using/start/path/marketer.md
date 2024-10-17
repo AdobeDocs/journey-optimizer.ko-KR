@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
@@ -48,4 +48,4 @@ ht-degree: 100%
 
    여정 디자인 및 실행 방법에 대한 자세한 내용은 [이 섹션](../../building-journeys/journey-gs.md)을 참조하세요.
 
-1. **메시지 및 여정 모니터링**. 메시지가 성공적으로 실행, 전송 및 게재되는지 확인하기 위해 [!DNL Journey Optimizer]은(는) 현재 게시되고 트리거된 메시지를 모니터링하는 기능을 제공합니다. 성과 모니터링 방법에 대한 자세한 내용은 [이 섹션](../../reports/global-report.md)을 참조하세요.
+1. **메시지 및 여정 모니터링**. 메시지가 성공적으로 실행, 전송 및 게재되는지 확인하기 위해 [!DNL Journey Optimizer]은(는) 현재 게시되고 트리거된 메시지를 모니터링하는 기능을 제공합니다. 성과 모니터링 방법에 대한 자세한 내용은 [이 섹션](../../reports/report-gs-cja.md)을 참조하세요.

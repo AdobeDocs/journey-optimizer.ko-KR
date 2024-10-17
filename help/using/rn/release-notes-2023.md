@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '4384'
+source-wordcount: '4377'
 ht-degree: 98%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 98%
 <p>채널 보고서 기능은 분석가와 마케터에게 채널 수준의 트래픽 및 참여 지표에 대한 포괄적인 개요를 제공합니다.</p>
 <p><b>보고서</b> 메뉴에 액세스하려면 <b>채널 보고서 보기</b> 권한이 있어야 합니다.</p>
 <img src="assets/channel-reports.png"/>
-<p>자세한 내용은 <a href="../reports/channel-report.md">세부 설명서</a> 및 <a href="../reports/channel-report.md#channel-report-video">방법 비디오</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../reports/channel-report-cja.md">세부 설명서</a>를 참조하십시오.</p>
 </tr>
 </tbody>
 </table>
@@ -223,7 +223,7 @@ ht-degree: 98%
 
 **보고**
 
-* 이제 Journey Optimizer 보고서를 PDF로 내보낼 수 있습니다. [세부 설명서](../reports/global-report.md#export-reports) 및 [방법 비디오](../reports/global-report.md#video-csv)에서 자세히 알아보십시오.
+* 이제 Journey Optimizer 보고서를 PDF로 내보낼 수 있습니다. [세부 설명서](../reports/report-gs-cja.md)에서 자세히 알아보십시오.
 
 **에셋**
 
@@ -531,7 +531,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
 <img src="assets/do-not-localize/performance_report.gif"/>
-<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../reports/campaign-global-report-cja.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -722,7 +722,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **보고**
 
-* 이제 Journey Optimizer 보고서를 PDF로 내보낼 수 있습니다. [자세히 알아보기](../reports/global-report.md#export-reports)
+* 이제 Journey Optimizer 보고서를 PDF로 내보낼 수 있습니다. [자세히 알아보기](../reports/report-gs-cja.md)
 
 **콘텐츠 디자이너**
 
@@ -824,7 +824,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * 보고 위젯 기능을 개선했습니다. 이제 사용자가 데이터를 보는 방식을 사용자 정의할 수 있습니다. 이 개선으로 이제 사용자가 그래프, 테이블, 도넛 차트 등 여러 시각화 옵션 중 원하는 것을 선택할 수 있습니다.
 
-  최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/global-report.md#modify-dashboard)를 참조하십시오.
+  최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/report-gs-cja.md)를 참조하십시오.
 
 ## 2023년 2월 릴리스 {#feb-2023}
 

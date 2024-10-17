@@ -8,16 +8,16 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
 
 # 여정 보고서 만들기 {#design-jo-reports}
 
-[실시간 보고서](live-report.md) 및 기본 제공 [전역 보고 기능](global-report.md) 외에도 [!DNL Journey Optimizer]에서는 여정 성능 데이터를 Adobe Experience Platform에 자동으로 전송할 수 있으므로 분석 목적으로 다른 데이터와 결합할 수 있습니다.
+[실시간 보고서](live-report.md) 및 기본 제공 [보고 기능](report-gs-cja.md) 외에도 [!DNL Journey Optimizer]은(는) 여정 성능 데이터를 Adobe Experience Platform에 자동으로 전송할 수 있으므로 분석 목적으로 다른 데이터와 결합할 수 있습니다.
 
 >[!NOTE]
 >

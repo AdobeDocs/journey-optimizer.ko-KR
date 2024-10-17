@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 9%
@@ -159,12 +159,12 @@ MMS 콘텐츠를 만들려면 다음 단계를 수행합니다.
 
 테스트를 수행하고 콘텐츠의 유효성을 검사하면 대상자에게 문자 메시지를 보낼 수 있습니다. 이러한 단계는 [이 페이지](send-sms.md)에 자세히 설명되어 있습니다
 
-전송되면 캠페인 또는 여정 보고서 내에서 SMS의 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../reports/campaign-global-report.md#sms-tab)을 참조하십시오.
+전송되면 캠페인 또는 여정 보고서 내에서 SMS의 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../reports/campaign-global-report-cja-sms.md)을 참조하십시오.
 
 **관련 항목**
 
 * [문자 메시지 미리 보기, 테스트 및 보내기](send-sms.md)
 * [SMS 채널 구성](sms-configuration.md)
-* [SMS/MMS 보고서](../reports/journey-global-report.md#sms-global)
+* [SMS/MMS 보고서](../reports/journey-global-report-cja-sms.md)
 * [여정에 메시지 추가](../building-journeys/journeys-message.md)
 * [캠페인에 메시지 추가](../campaigns/create-campaign.md)

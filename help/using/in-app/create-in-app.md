@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 12%
@@ -256,5 +256,5 @@ ht-degree: 12%
 
 * [인앱 메시지 디자인](design-in-app.md)
 * [인앱 메시지 테스트 및 보내기](send-in-app.md)
-* [인앱 보고서 ](../reports/campaign-global-report.md#inapp-report)
+* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)

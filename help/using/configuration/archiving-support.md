@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 보관, 메시지, HIPAA, BCC, 이메일
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: de90083d67787495a28ee45f5912d2cbb0c0ff0c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -79,7 +79,7 @@ BCC 이메일 주소 설정은 구성 수준에서 즉시 저장되고 처리됩
 
   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* BCC 주소로 전송된 전자 메일을 열거나 클릭하지 마십시오. 전송 분석의 총 열기와 클릭수로 계산되면 [보고서](../reports/global-report.md)에서 계산 착오가 발생할 수 있습니다.
+* BCC 주소로 전송된 전자 메일을 열거나 클릭하지 마십시오. 전송 분석의 총 열기와 클릭수로 계산되면 [보고서](../reports/report-gs-cja.md)에서 계산 착오가 발생할 수 있습니다.
 
 * BCC 받은 편지함에서 메시지를 스팸으로 표시하지 마십시오. 스팸은 이 주소로 전송되는 다른 모든 이메일에 영향을 미칩니다.
 

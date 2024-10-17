@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 12%
@@ -64,11 +64,11 @@ ht-degree: 12%
 
 이제 캠페인이 활성화되었습니다. 캠페인에 구성된 인앱 알림은 즉시 전송되거나 지정된 날짜에 전송됩니다.
 
-전송되면 Campaign 또는 여정 보고서 내에서 인앱 메시지의 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../reports/campaign-global-report.md#inapp-report)을 참조하십시오.
+전송되면 Campaign 또는 여정 보고서 내에서 인앱 메시지의 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../reports/campaign-global-report-cja-inapp.md)을 참조하십시오.
 
 **관련 항목:**
 
 * [인앱 메시지 만들기 ](create-in-app.md)
 * [인앱 메시지 디자인](design-in-app.md)
-* [인앱 보고서 ](../reports/campaign-global-report.md#inapp-report)
+* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)

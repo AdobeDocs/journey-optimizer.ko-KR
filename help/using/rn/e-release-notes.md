@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
-workflow-type: ht
-source-wordcount: '1008'
-ht-degree: 100%
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -150,12 +150,6 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->현재 보고 경험은 10월 릴리스부터 사용이 종료됩니다. 이 날짜 이후에는 새로운 보고 경험이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다.
-> [Journey Optimizer의 새로운 보고 인터페이스 시작](../reports/report-gs-cja.md)
-
 
 ### 개선 사항 {#e-improvements}
 

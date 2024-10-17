@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ ht-degree: 100%
 <td>
 <p>보고에서 새 지표를 사용할 수 있습니다. 이메일 및 푸시 메시지에 대한 [타겟팅] 및 [제외]가 실시간 보고서와 글로벌 보고서 모두에 표시됩니다. </br> 최신 지표에 액세스하려면 각 채널 및 보고 유형에 대해 서로 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 지정에 대한 자세한 내용은 <a href="../reports/live-report.md">자세한 설명서</a>를 참조하세요.</p>
 <p>각 메시지 실행에 대해 타겟팅한 프로필 수가 표시되는 열이 메시지 실행 목록에 새로 생겼습니다. </p>
-<p>자세한 내용은 <a href="../reports/global-report.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../reports/report-gs-cja.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

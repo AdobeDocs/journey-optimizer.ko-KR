@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 99%
@@ -306,9 +306,9 @@ ht-degree: 99%
 
 **보고**
 
-* 이제 [여정] 글로벌 보고서에서 동의 정책 테이블 및 그래프를 사용할 수 있습니다. 이 위젯을 사용하여 사용자 정의 작업의 정책에서 제외된 프로필을 추적할 수 있습니다. [자세히 보기](../reports/journey-global-report.md#journey-global)
+* 이제 [여정] 글로벌 보고서에서 동의 정책 테이블 및 그래프를 사용할 수 있습니다. 이 위젯을 사용하여 사용자 정의 작업의 정책에서 제외된 프로필을 추적할 수 있습니다. [자세히 보기](../reports/journey-global-report-cja.md#journey-global)
 
-  최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/global-report.md)를 참조하세요.
+  최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/report-gs-cja.md)를 참조하세요.
 
 **관리**
 

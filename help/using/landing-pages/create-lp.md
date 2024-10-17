@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ab4219c7045f9c4ba77fceb2cbb46fbbe6f536ac
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1715'
 ht-degree: 21%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 21%
 
 ![](assets/lp_access-list-filter.png)
 
-이 목록에서 게시된 항목의 [랜딩 페이지 라이브 보고서](../reports/lp-report-live.md) 또는 [랜딩 페이지 글로벌 보고서](../reports/lp-report-global.md)에 액세스할 수 있습니다.
+이 목록에서 게시된 항목의 [랜딩 페이지 라이브 보고서](../reports/lp-report-live.md) 또는 [랜딩 페이지 보고서](../reports/lp-report-global-cja.md)에 액세스할 수 있습니다.
 
 랜딩 페이지를 삭제, 복제 및 게시 취소할 수도 있습니다.
 

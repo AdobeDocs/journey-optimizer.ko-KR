@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '2530'
+source-wordcount: '2532'
 ht-degree: 11%
 
 ---
@@ -290,7 +290,7 @@ IP 워밍업 계획 자체가 한 곳에서 통합 보고서 역할을 한다. �
 
 ### 보고서 사용 {#reports}
 
-보다 일반적으로 플랜의 영향을 측정하기 위해 [!DNL Journey Optimizer] 캠페인 보고서를 사용하여 IP 준비 캠페인의 성과를 확인할 수 있습니다. 이렇게 하려면 완료된 각 실행에 대해 **[!UICONTROL 보고서 보기]** 단추를 클릭할 수 있습니다. 캠페인 이메일 [라이브 보고서](../reports/campaign-live-report.md#email-live) 및 [글로벌 보고서](../reports/campaign-global-report.md#email-global)에 대해 자세히 알아보세요.
+보다 일반적으로 플랜의 영향을 측정하기 위해 [!DNL Journey Optimizer] 캠페인 보고서를 사용하여 IP 준비 캠페인의 성과를 확인할 수 있습니다. 이렇게 하려면 완료된 각 실행에 대해 **[!UICONTROL 보고서 보기]** 단추를 클릭할 수 있습니다. 캠페인 이메일 [라이브 보고서](../reports/campaign-live-report.md#email-live) 및 [Customer Journey Analytics 보고서](../reports/campaign-global-report-cja-email.md)에 대해 자세히 알아보세요.
 
 ![](assets/ip-warmup-plan-reports.png)
 

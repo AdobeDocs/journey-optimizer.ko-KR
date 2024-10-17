@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '830'
 ht-degree: 11%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 11%
 >
 >메시지 전송 프로세스 중에 **[!UICONTROL 제외됨]** 상태의 프로필은 제외됩니다. 따라서 **여정 보고서**&#x200B;에는 이러한 프로필이 여정([대상자 읽기](../building-journeys/read-audience.md) 및 [메시지 활동](../building-journeys/journeys-message.md))을 통해 이동한 것으로 표시되지만, 전자 메일을 보내기 전에 필터링되므로 **전자 메일 보고서**&#x200B;에는 이러한 프로필이 **[!UICONTROL 전송됨]** 지표에 포함되지 않습니다.
 >
->[실시간 보고서](../reports/live-report.md) 및 [글로벌 보고서](../reports/global-report.md)에 대해 자세히 알아보세요. 모든 제외 사례에 대한 이유를 알아보려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용할 수 있습니다.
+>[실시간 보고서](../reports/live-report.md) 및 [Customer Journey Analytics 보고서](../reports/report-gs-cja.md)에 대해 자세히 알아보세요. 모든 제외 사례에 대한 이유를 알아보려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용할 수 있습니다.
 
 ### 게재 실패 {#delivery-failures}
 

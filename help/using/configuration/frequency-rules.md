@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1264'
 ht-degree: 14%
 
 ---
@@ -176,7 +176,7 @@ ht-degree: 14%
    >
    >선택한 범주가 **[!UICONTROL 트랜잭션]**&#x200B;인 메시지는 빈도 규칙에 대해 평가되지 않습니다.
 
-1. [글로벌 보고서](../reports/global-report.md)와 [라이브 보고서](../reports/live-report.md)에서 배달에서 제외된 프로필 수를 볼 수 있습니다. 여기에서 비즈니스 규칙은 배달에서 제외된 사용자의 가능한 이유로 나열됩니다.
+1. [Customer Journey Analytics 보고서](../reports/report-gs-cja.md)와 [실시간 보고서](../reports/live-report.md)에서 배달에서 제외된 프로필 수를 볼 수 있습니다. 여기에서 비즈니스 규칙은 배달에서 제외된 사용자에 대한 가능한 이유로 나열됩니다.
 
 >[!NOTE]
 >

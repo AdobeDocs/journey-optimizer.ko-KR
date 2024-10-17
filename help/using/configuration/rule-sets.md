@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1595'
 ht-degree: 12%
 
 ---
@@ -230,7 +230,7 @@ Learn more about permissions in [this section](../administration/high-low-permis
 
    ![](assets/rule-set-schedule-campaign.png)
 
-1. [글로벌 보고서](../reports/global-report.md)와 [라이브 보고서](../reports/live-report.md)에서 배달에서 제외된 프로필 수를 볼 수 있습니다. 여기서 사용자가 배달에서 제외되는 가능한 이유로 빈도 규칙이 나열됩니다.
+1. [Customer Journey Analytics 보고서](../reports/report-gs-cja.md)와 [실시간 보고서](../reports/live-report.md)에서 배달에서 제외된 프로필 수를 볼 수 있습니다. 이 경우 사용자가 배달에서 제외되는 가능한 이유로 빈도 규칙이 나열됩니다.
 
 >[!NOTE]
 >

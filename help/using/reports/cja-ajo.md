@@ -8,23 +8,24 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '418'
 ht-degree: 6%
 
 ---
 
-# [!DNL Customer Journey Analytics](으)로 작업 {#cja-ajo}
-
+# 수동으로 [!DNL Customer Journey Analytics] 구성 {#cja-ajo}
 
 [!DNL Journey Optimizer]과(와) [!DNL Customer Journey Analytics]의 통합은 자동화된 보고서 배포와 데이터의 사용자 지정 시각화를 통해 모든 여정을 전체적으로 볼 수 있도록 합니다.
+
+다음 섹션에서는 Customer Journey Analytics 내에서 심층적인 분석을 위해 Journey Optimizer에서 생성한 데이터를 수동으로 활용하는 방법에 대해 설명합니다. 이 통합은 자동으로 설정할 수 있습니다. [자세히 알아보기](report-gs-cja.md)
 
 ![](assets/cja.png)
 
 [!DNL Journey Optimizer]에서 여정을 만든 후 고객 데이터를 [!DNL Customer Journey Analytics](으)로 가져와서 보고를 시작하고 고객이 여정과 갖는 모든 상호 작용의 영향을 이해할 수 있습니다.
 
-➡️0}검색 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target="_blank"}[
+➡️0}검색 Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}[
 
 >[!NOTE]
 >

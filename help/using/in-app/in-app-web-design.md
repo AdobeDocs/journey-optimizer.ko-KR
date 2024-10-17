@@ -8,7 +8,7 @@ level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 hide: true
 hidefromtoc: true
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 7%
@@ -183,5 +183,5 @@ ht-degree: 7%
 **관련 항목:**
 
 * [인앱 메시지 테스트 및 보내기](send-in-app.md)
-* [인앱 보고서 ](../reports/campaign-global-report.md#inapp-report)
+* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)

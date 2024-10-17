@@ -8,9 +8,9 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
 1. 개인화된 푸시 페이로드는 내부 푸시 메시지 전송 서비스로 전달됩니다
 1. 그런 다음 이 내부 서비스는 메시지와 연관된 앱의 자격 증명을 확인합니다.
 1. 최종 게재를 위해 Apple 및 Google 메시징 서비스에 메시지를 전송합니다.
-1. 메시징 서비스의 피드백이 기록되고, 여정 라이브 및 글로벌 보고서의 보고에 대한 오류 및 성공 사례가 기록됩니다
+1. 메시징 서비스의 피드백이 기록되고, 여정 라이브 및 Customer Journey Analytics 보고서에 대한 보고와 관련된 오류 및 성공 사례가 기록됩니다
 1. 푸시 알림이 최종 사용자 장치로 전달됨
 1. 최종 사용자 푸시 알림 상호 작용은 SDK 통합을 통해 최종 사용자 클라이언트에서 경험 이벤트 로 전송됩니다
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 **관련 항목**
 
 * [푸시 채널 구성](push-configuration.md)
-* [푸시 알림 보고서](../reports/journey-global-report.md#push-global)
+* [푸시 알림 보고서](../reports/journey-global-report-cja-push.md)
 * [푸시 알림 만들기](create-push.md)
 * [여정에 메시지 추가](../building-journeys/journeys-message.md)
 * [캠페인에 메시지 추가](../campaigns/create-campaign.md)

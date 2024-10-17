@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '3842'
 ht-degree: 95%
@@ -816,7 +816,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 **보고**
 
-* **새 도메인 기반 분류 위젯** - 캠페인 및 여정 보고서를 개선하기 위해 새 위젯이 추가되었습니다. **도메인별 바운스 이유**, **도메인에서 전송 및 전달**, **도메인별 열기 및 클릭 수** 및 **도메인별 바운스 및 오류** 위젯은 도메인 수준에서 주요 이메일 게재 및 추적 지표에 대한 세부 분류를 제공합니다. [자세히 알아보기](../reports/channel-report.md)
+* **새 도메인 기반 분류 위젯** - 캠페인 및 여정 보고서를 개선하기 위해 새 위젯이 추가되었습니다. **도메인별 바운스 이유**, **도메인에서 전송 및 전달**, **도메인별 열기 및 클릭 수** 및 **도메인별 바운스 및 오류** 위젯은 도메인 수준에서 주요 이메일 게재 및 추적 지표에 대한 세부 분류를 제공합니다. [자세히 알아보기](../reports/channel-report-cja.md)
 
 **SMS 채널**
 
