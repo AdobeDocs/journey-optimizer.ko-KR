@@ -5,7 +5,7 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 1%
@@ -28,7 +28,7 @@ API를 사용하여 일괄 게재를 수행할 수도 있습니다. 자세한 �
 
 * Adobe Experience Platform의 **데이터 세트**. 이 데이터 세트는 &quot;ODE DecisionEvents&quot; 스키마를 사용하여 결정 결과를 저장하는 데 사용됩니다. 자세한 내용은 [데이터 세트 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko)를 참조하세요.
 
-* Adobe Experience Platform의 **대상자** 대상자를 평가한 다음 업데이트해야 합니다. [세분화 서비스 설명서](http://www.adobe.com/go/segmentation-overview-en)에서 대상 멤버십 평가를 업데이트하는 방법을 알아보세요
+* Adobe Experience Platform의 **대상자** 대상자를 평가한 다음 업데이트해야 합니다. [세분화 서비스 설명서](https://www.adobe.com/go/segmentation-overview-en)에서 대상 멤버십 평가를 업데이트하는 방법을 알아보세요
 
   >[!NOTE]
   >

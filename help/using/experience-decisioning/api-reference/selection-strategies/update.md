@@ -5,19 +5,19 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 060f8c5f-4750-44dc-83aa-630afbc180eb
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
-
 
 # 선택 전략 업데이트 {#update-selection-strategy}
 
 오퍼 라이브러리 API에 PATCH 요청을 하여 선택 전략을 수정하거나 업데이트할 수 있습니다.
 
-사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 공식 [JSON 패치 설명서](http://jsonpatch.com/)를 참조하세요.
+사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 공식 [JSON 패치 설명서](https://jsonpatch.com/)를 참조하세요.
 
 **API 형식**
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 28%
@@ -130,7 +130,7 @@ ht-degree: 28%
 
 1. **[!UICONTROL 앱 내의 위치 또는 경로를 입력하십시오]**. 이 필드는 사용자가 액세스할 앱 내의 정확한 대상을 지정합니다. &#39;히어로-배너&#39; 또는 &#39;제품-레일&#39;과 같은 앱의 탐색 구조 내에 있는 특정 섹션이나 페이지일 수 있습니다.
 
-   ![](assets/code_config_3.png){width="500"}
+   ![](assets/code_config_3.png)
 
 1. **[!UICONTROL 미리 보기 URL]** 필드를 입력하여 온디바이스 미리 보기를 사용하도록 설정합니다. 이 URL은 장치에서 미리보기를 트리거할 때 사용할 특정 URL을 미리보기 서비스에 알립니다. [자세히 알아보기](../code-based/create-code-based.md#preview-on-device)
 
