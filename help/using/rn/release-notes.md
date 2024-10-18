@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1602'
 ht-degree: 92%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>Customer Journey Analytics 보고서(일반 가용성)</strong><br/></th>
+<th><strong>업데이트된 보고 환경(일반 공급)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -43,7 +43,7 @@ ht-degree: 92%
 <p>일반 공급 기능에는 간단한 지표 만들기, 대상자 만들기 및 게시, Insight Builder를 사용하여 임시 질문하기, 주요 수신자에게 자동으로 이메일로 전송할 보고서 예약 등의 네 가지 새로운 기능이 도입되었습니다.</p>
 <p>자세한 내용은 <a href="../reports/report-cja-manage.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>사용 가능한 날짜: 2024년 10월 1일</p>
+<p>사용 가능한 날짜: 2024년 10월 16일</p>
 </tr>
 </tbody>
 </table>

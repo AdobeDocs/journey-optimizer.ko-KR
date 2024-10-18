@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
+source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2135'
 ht-degree: 95%
 
 ---
@@ -384,8 +384,8 @@ ht-degree: 95%
       + [캠페인 실시간 보고서](using/reports/campaign-live-report.md)
       + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
       + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
-   + Customer Journey Analytics 보고서{#channel-report}
-      + [Customer Journey Analytics 보고서 시작](using/reports/report-gs-cja.md)
+   + 업데이트된 보고 환경{#channel-report}
+      + [업데이트된 보고 경험 시작](using/reports/report-gs-cja.md)
       + [수동 구성 Customer Journey Analytics](using/reports/cja-ajo.md)
       + [보고서 관리](using/reports/report-cja-manage.md)
       + [보고 및 실험 전제 조건](using/reports/reporting-configuration.md)
@@ -413,7 +413,7 @@ ht-degree: 95%
       + [개요 보고서](using/reports/channel-report-cja.md)
       + [랜딩 페이지 보고서](using/reports/lp-report-global-cja.md)
       + [구독 목록 보고서](using/reports/subscription-report-global-cja.md)
-   + 이전 보고 대시보드 {#reports}
+   + 이전 보고 경험 {#reports}
       + 글로벌 보고서 {#global-report}
          + [글로벌 보고서 시작](using/reports/global-report.md)
          + [구성 요소 목록](using/reports/global-report-components.md)
