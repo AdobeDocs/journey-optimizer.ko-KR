@@ -5,8 +5,8 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b29179518dec9a4c034e6dd21972aa2145839739
-workflow-type: ht
+source-git-commit: 3235d53b09d140e61a9e83f6b07ce8351f0fa245
+workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개선된 상호 운용성과 함께 양 플랫폼의 보고를 표준화하고 데이터의 일관성과 안정성을 개선합니다. 
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
 >[!TAB 콘텐츠 조각]
 
