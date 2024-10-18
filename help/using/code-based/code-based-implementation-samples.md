@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 클라이언트측 구현이 있는 경우 AEP 클라이언트 SDK 중 하나인 AEP Web SDK 또는 AEP Mobile SDK 를 사용할 수 있습니다.
 
-* [아래](#client-side-how) 단계에서는 샘플 **Web SDK** 구현의 코드 기반 경험 캠페인이 Edge에 게시한 콘텐츠를 가져오고 개인화된 콘텐츠를 표시하는 프로세스를 설명합니다.
+* [아래](#client-side-how) 단계에서는 샘플 **Web SDK** 구현의 코드 기반 경험 여정 및 캠페인이 Edge에 게시한 콘텐츠를 가져오고 개인화된 콘텐츠를 표시하는 프로세스를 설명합니다.
 
 * **Mobile SDK**&#x200B;를 사용하여 코드 기반 채널을 구현하는 단계는 [이 자습서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}에 설명되어 있습니다.
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 1. 결정에 따라 DOM을 업데이트하려면 구현 코드([`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} 메서드 사용)에서 코드 기반 경험 항목을 수동으로 적용해야 합니다.
 
-1. 코드 기반 경험 캠페인의 경우 콘텐츠가 표시된 시기를 나타내기 위해 표시 이벤트를 수동으로 보내야 합니다. 이 작업은 `sendEvent` 명령을 통해 수행됩니다.
+1. 코드 기반 경험 여정 및 캠페인의 경우 콘텐츠가 표시된 시기를 나타내기 위해 표시 이벤트를 수동으로 보내야 합니다. 이 작업은 `sendEvent` 명령을 통해 수행됩니다.
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ ht-degree: 2%
    }
    ```
 
-1. 코드 기반 경험 캠페인의 경우, 사용자가 콘텐츠와 상호 작용한 시기를 나타내기 위해 상호 작용 이벤트를 수동으로 전송해야 합니다. 이 작업은 `sendEvent` 명령을 통해 수행됩니다.
+1. 코드 기반 경험 여정 및 캠페인의 경우 사용자가 콘텐츠와 상호 작용한 시기를 나타내기 위해 상호 작용 이벤트를 수동으로 전송해야 합니다. 이 작업은 `sendEvent` 명령을 통해 수행됩니다.
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -140,7 +140,7 @@ ht-degree: 2%
 
 서버측 구현이 있는 경우 AEP Edge Network API 중 하나를 사용할 수 있습니다.
 
-아래 단계에서는 웹 페이지에 대한 샘플 Edge Network API 구현에서 코드 기반 경험 캠페인에 의해 에지에 게시된 콘텐츠를 가져오고 개인화된 콘텐츠를 표시하는 프로세스를 설명합니다.
+아래 단계에서는 웹 페이지에 대한 샘플 Edge Network API 구현에서 코드 기반 경험 여정 및 캠페인에 의해 에지에 게시된 콘텐츠를 가져오고 개인화된 콘텐츠를 표시하는 프로세스를 설명합니다.
 
 ### 작동 방식
 
@@ -226,8 +226,9 @@ ht-degree: 2%
    ).then((res) => res.json());
    ```
 
-1. 코드 기반 경험 캠페인의 JSON 경험은 응답에서 읽으며 HTML 응답을 생성할 때 사용됩니다.
-1. 코드 기반 경험 캠페인의 경우, 캠페인 콘텐츠가 표시된 시기를 나타내려면 표시 이벤트를 구현에서 수동으로 전송해야 합니다. 이 예에서는 요청 라이프사이클 동안 알림이 서버측에서 전송됩니다.
+1. 코드 기반 경험 여정 및 캠페인의 JSON 경험은 응답에서 읽히고 HTML 응답을 생성할 때 사용됩니다.
+
+1. 코드 기반 경험 여정 및 캠페인의 경우 여정 또는 캠페인 컨텐츠가 표시된 시기를 나타내기 위해 표시 이벤트를 구현에서 수동으로 보내야 합니다. 이 예에서 알림은 요청 라이프사이클 동안 서버측에서 전송됩니다.
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {

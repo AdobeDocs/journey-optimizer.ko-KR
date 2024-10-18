@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 30%
+source-wordcount: '1558'
+ht-degree: 28%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="특정 위치 입력"
->abstract="이 필드는 사용자가 액세스할 페이지 또는 앱 내의 정확한 대상을 지정합니다. 탐색 구조 내의 특정 섹션이나 페이지 깊이가 될 수 있습니다."
+>title="페이지 또는 앱 내의 특정 위치 표시"
+>abstract="이 필드는 사용자가 액세스할 페이지 또는 앱 내의 정확한 대상을 지정합니다. 웹 페이지 내의 특정 섹션이나 앱의 탐색 구조 내의 깊이 있는 페이지일 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -108,7 +108,7 @@ ht-degree: 30%
 
      ![](assets/code_config_matching_rules_preview.png)
 
-1. **[!UICONTROL 페이지의 위치]** 필드는 사용자가 액세스할 웹 사이트 내의 정확한 대상을 지정합니다. 사이트의 탐색 구조 내에서 특정 섹션이나 페이지 깊이가 될 수 있습니다.
+1. **[!UICONTROL 페이지의 위치]** 필드는 사용자가 액세스하려는 페이지 내의 정확한 대상을 지정합니다. &#39;히어로-배너&#39; 또는 &#39;제품-레일&#39;과 같은 사이트의 탐색 구조 내에 있는 페이지의 특정 섹션일 수 있습니다.
 
    ![](assets/code_config_location_on_page.png)
 
@@ -128,7 +128,7 @@ ht-degree: 30%
 
 1. **[!UICONTROL 앱 ID]**&#x200B;를 입력하세요. 이를 통해 앱의 운영 환경 내에서 정확한 식별 및 구성이 가능하며 원활한 통합과 기능을 보장합니다.
 
-1. **[!UICONTROL 앱 내의 위치 또는 경로를 입력하십시오]**. 이 필드는 사용자가 액세스할 앱 내의 정확한 대상을 지정합니다. 이는 앱의 탐색 구조 내 특정 섹션이나 페이지일 수 있습니다.
+1. **[!UICONTROL 앱 내의 위치 또는 경로를 입력하십시오]**. 이 필드는 사용자가 액세스할 앱 내의 정확한 대상을 지정합니다. &#39;히어로-배너&#39; 또는 &#39;제품-레일&#39;과 같은 앱의 탐색 구조 내에 있는 특정 섹션이나 페이지일 수 있습니다.
 
    ![](assets/code_config_3.png){width="500"}
 
