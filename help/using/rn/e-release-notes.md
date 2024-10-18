@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
+source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 47%
@@ -176,7 +176,7 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>업데이트된 보고 환경(일반 공급)</strong><br/></th>
+<th><strong>업데이트된 보고 환경(일반 가용성)</strong><br/>2024년 10월 16일 이후 사용 가능<br/></th>
 </tr>
 </thead>
 <tbody>
@@ -186,7 +186,6 @@ ht-degree: 47%
 <p>일반 공급 기능에는 간단한 지표 만들기, 대상자 만들기 및 게시, Insight Builder를 사용하여 임시 질문하기, 주요 수신자에게 자동으로 이메일로 전송할 보고서 예약 등의 네 가지 새로운 기능이 도입되었습니다.</p>
 <p>자세한 내용은 <a href="../reports/report-cja-manage.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>사용 가능한 날짜: 2024년 10월 16일</p>
 </tr>
 </tbody>
 </table>
