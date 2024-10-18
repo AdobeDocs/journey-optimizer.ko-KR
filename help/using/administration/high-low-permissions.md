@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: e18c3ecdd78565277c3661bfab282b4f241ab378
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -511,7 +511,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## AI 지원 리소스 {#ai-permissions}
 
-* **[!DNL Generate content]** 높은 수준의 권한을 통해 사용자가 Journey Optimizer의 AI Assistant에 액세스하여 콘텐츠를 가속화할 수 있습니다.
+* **[!DNL Generate content]** 높은 수준의 권한을 통해 사용자가 Journey Optimizer의 AI Assistant Content Accelerator에 액세스할 수 있습니다.
 
 +++ 여기에는 다음과 같은 낮은 수준 권한이 포함됩니다.
 

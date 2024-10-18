@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: AI 어시스턴트를 통한 SMS 생성
-description: Journey Optimizer for Content Acceleration의 AI Assistant를 사용하여 SMS 콘텐츠 생성 시작
+description: Journey Optimizer의 AI Assistant Content Accelerator를 사용하여 SMS 콘텐츠 생성 시작
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 4%
+source-wordcount: '904'
+ht-degree: 5%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어 보십시오.
+>이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
 ></br>
 >
->콘텐츠 가속화를 위해 Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+>Journey Optimizer에서 AI Assistant Content Accelerator를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-대상의 환경 설정에 맞게 SMS 메시지를 작성하고 맞춤화한 후 Journey Optimizer for Content Acceleration의 AI Assistant와의 의사 소통을 강화합니다.
+대상의 환경 설정에 맞게 SMS 메시지를 만들고 맞춤화한 후 Journey Optimizer의 AI Assistant Content Accelerator와의 커뮤니케이션을 향상시키십시오.
 
 이 리소스는 콘텐츠를 세밀하게 조정할 수 있는 통찰력 있는 권장 사항을 제공하여 메시지가 공감하고 참여를 극대화할 수 있도록 지원합니다.
 
-Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 방법을 알려면 아래 탭을 살펴보십시오.
+Journey Optimizer에서 AI Assistant Content Accelerator를 사용하는 방법을 알려면 아래 탭을 살펴보십시오.
 
 >[!BEGINTABS]
 
@@ -105,7 +105,7 @@ Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 �
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. Content Acceleration용 AI Assistant에서 **[!UICONTROL 참조 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화합니다.
+1. AI Assistant Content Accelerator에서 **[!UICONTROL 참조 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화할 수 있습니다.
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 

@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '962'
+ht-degree: 95%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>메시지를 만들고 개인화한 뒤 콘텐츠 가속을 위한 Journey Optimizer의 AI 어시스턴트로 콘텐츠를 한 단계 더 발전시켜 보세요. 이제 Al 어시스턴트를 사용하여 다양한 주요 제목과 이미지를 실험해 보며 메시지의 영향을 최적화할 수 있습니다. 각 변형 버전이 고유한 처리 항목으로 관리되어 어떤 제목이 더 많은 클릭으로 이어지는지 측정하고 비교할 수 있습니다.</p>
+<p>메시지를 만들고 개인화한 후에는 Journey Optimizer의 AI Assistant Content Accelerator를 사용하여 콘텐츠를 한 차원 높입니다. 이제 AI Assistant를 사용하여 다양한 주요 제목 및 이미지를 실험하여 메시지의 영향을 최적화할 수 있습니다. 각 변형 버전이 고유한 처리 항목으로 관리되어 어떤 제목이 더 많은 클릭으로 이어지는지 측정하고 비교할 수 있습니다.</p>
 <p>기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 <a href="https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator">라이브 기능 미리 보기</a>를 통해 실습 경험에 몰입하세요.</a>.</p>
 <p>자세한 내용은 <a href="../content-management/gs-generative.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>

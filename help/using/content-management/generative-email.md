@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer Content Accelerator의 AI Assistant를 사용하여 이메일 생성
-description: Journey Optimizer for Content Acceleration의 AI Assistant를 사용하여 이메일 콘텐츠 및 에셋 생성 시작
+description: Journey Optimizer의 AI Assistant Content Accelerator를 사용하여 이메일 콘텐츠 및 에셋 생성 시작
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 1%
+source-wordcount: '1593'
+ht-degree: 2%
 
 ---
 
@@ -19,22 +19,22 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어 보십시오.
+>이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
 ></br>
 >
->콘텐츠 가속화를 위해 Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+>Journey Optimizer에서 AI Assistant Content Accelerator를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-이메일을 만들고 맞춤화한 후에는 생성 AI를 기반으로 하는 Journey Optimizer for Content Acceleration의 AI Assistant를 활용하여 콘텐츠를 높일 수 있습니다.
+이메일을 만들고 맞춤화한 후에는 생성 AI를 기반으로 한 Journey Optimizer의 AI Assistant Content Accelerator의 기능을 활용하여 콘텐츠를 높일 수 있습니다.
 
-Journey Optimizer for Content Acceleration의 AI Assistant를 사용하여 완벽한 이메일, 맞춤화된 텍스트 조각 및 대상자에게 직접 전달하는 맞춤형 이미지를 제작하여 참여도와 상호 작용을 향상시켜 캠페인의 효과를 높일 수 있습니다.
+Journey Optimizer의 AI Assistant 콘텐츠 가속기를 사용하여 완벽한 이메일, 맞춤화된 텍스트 조각 및 대상자에게 직접 전달하는 맞춤형 이미지를 제작하여 참여도와 상호 작용을 향상시켜 캠페인의 효과를 높일 수 있습니다.
 
-Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 방법을 알려면 아래 탭을 살펴보십시오.
+Journey Optimizer에서 AI Assistant Content Accelerator를 사용하는 방법을 알려면 아래 탭을 살펴보십시오.
 
 >[!BEGINTABS]
 
 >[!TAB 전체 전자 메일 생성]
 
-다음 예에서는 Content Acceleration용 AI Assistant를 활용하여 기존 이메일 템플릿을 구체화합니다.
+다음 예제에서는 AI Assistant Content Accelerator 를 활용하여 기존 이메일 템플릿을 구체화합니다.
 
 1. 전자 메일 캠페인을 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
@@ -44,7 +44,7 @@ Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 �
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. Content Acceleration용 AI Assistant에서 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화할 수 있습니다.
+1. AI Assistant Content Accelerator에서 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화합니다.
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
@@ -101,7 +101,7 @@ Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 �
 
 >[!TAB 텍스트 전용 생성]
 
-다음 예제에서는 Content Acceleration용 AI Assistant를 활용하여 이메일 콘텐츠를 향상시킵니다.
+다음 예제에서는 AI Assistant Content Accelerator 를 활용하여 이메일 콘텐츠를 향상시킵니다.
 
 1. 전자 메일 캠페인을 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
@@ -111,7 +111,7 @@ Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 �
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. Content Acceleration용 AI Assistant에서 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화할 수 있습니다.
+1. AI Assistant Content Accelerator에서 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화합니다.
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
@@ -163,19 +163,19 @@ Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 �
 
 >[!TAB 이미지 전용 생성]
 
-아래 예에서는 Content Acceleration용 AI Assistant를 활용하여 에셋을 최적화하고 개선하여 보다 사용자 친화적인 경험을 보장하는 방법을 알아봅니다.
+아래 예에서는 AI Assistant Content Accelerator를 활용하여 에셋을 최적화하고 개선하여 보다 사용자 친화적인 환경을 구현하는 방법을 알아봅니다.
 
 1. 전자 메일 캠페인을 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
    전자 메일 캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../email/create-email.md)를 참조하세요.
 
-1. AI Assistant for Content Acceleration을 사용하여 변경할 에셋을 선택합니다.
+1. AI Assistant Content Accelerator 로 변경할 에셋을 선택합니다.
 
 1. 오른쪽 메뉴에서 **[!UICONTROL AI 길잡이]**&#x200B;를 선택합니다.
 
    ![](assets/image-genai-1.png){zoomable="yes"}
 
-1. Content Acceleration용 AI Assistant에서 **[!UICONTROL 참조 스타일]** 옵션을 활성화하여 참조 콘텐츠를 기반으로 새 콘텐츠를 개인화합니다. 이미지를 업로드하여 변형에 컨텍스트를 추가할 수도 있습니다.
+1. AI Assistant Content Accelerator에서 **[!UICONTROL 참조 스타일]** 옵션을 활성화하여 참조 콘텐츠를 기반으로 새 콘텐츠를 개인화할 수 있습니다. 이미지를 업로드하여 변형에 컨텍스트를 추가할 수도 있습니다.
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
@@ -219,6 +219,6 @@ Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 �
 
 ## 방법 비디오 {#video}
 
-Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하여 전체 이메일, 텍스트 또는 이미지를 생성하는 방법에 대해 알아봅니다.
+Journey Optimizer에서 AI Assistant Content Accelerator 를 사용하여 전체 이메일, 텍스트 또는 이미지를 생성하는 방법에 대해 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433552)

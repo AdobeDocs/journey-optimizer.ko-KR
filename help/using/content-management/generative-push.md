@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer for Content Acceleration의 AI Assistant를 사용하여 푸시 생성
-description: Journey Optimizer for Content Acceleration의 AI Assistant를 사용하여 푸시 콘텐츠 생성 시작
+title: Journey Optimizer의 AI Assistant Content Accelerator를 사용하여 푸시 생성
+description: Journey Optimizer의 AI Assistant Content Accelerator를 사용하여 푸시 콘텐츠 생성 시작
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 2%
+source-wordcount: '1487'
+ht-degree: 3%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어 보십시오.
+>이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
 ></br>
 >
->콘텐츠 가속화를 위해 Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 직원에게 문의하십시오.
+>Journey Optimizer에서 AI Assistant Content Accelerator를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-메시지를 만들고 개인화한 후에는 Journey Optimizer for Content Acceleration의 AI Assistant를 사용하여 푸시 알림 콘텐츠를 한 차원 높입니다.
+메시지를 만들고 개인화한 후에는 Journey Optimizer의 AI Assistant Content Accelerator를 사용하여 푸시 알림 콘텐츠를 한 차원 높입니다.
 
-Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 방법을 알려면 아래 탭을 살펴보십시오.
+Journey Optimizer에서 AI Assistant Content Accelerator를 사용하는 방법을 알려면 아래 탭을 살펴보십시오.
 
 >[!BEGINTABS]
 
 >[!TAB 전체 푸시 생성]
 
-이 특정 예에서는 Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하여 매력적인 푸시 알림을 전송하는 방법을 알아봅니다.
+이 특별한 예에서는 Journey Optimizer에서 AI Assistant Content Accelerator를 사용하여 매력적인 푸시 알림을 보내는 방법을 알아봅니다.
 
 다음 단계를 수행하십시오.
 
@@ -48,7 +48,7 @@ Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 �
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. Content Acceleration용 AI Assistant에서 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠 옵션을 개인화합니다.
+1. AI Assistant Content Accelerator에서 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠 옵션을 개인화합니다.
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
@@ -105,7 +105,7 @@ Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 �
 
 >[!TAB 텍스트 전용 생성]
 
-이 특정 예에서는 Journey Optimizer for Content Acceleration에서 특정 콘텐츠를 위해 AI Assistant를 사용하는 방법을 알아봅니다. 다음 단계를 수행하십시오.
+이 예제에서는 특정 콘텐츠를 위해 Journey Optimizer의 AI Assistant Content Accelerator를 사용하는 방법을 알아봅니다. 다음 단계를 수행하십시오.
 
 1. 푸시 알림 캠페인을 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
@@ -119,7 +119,7 @@ Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 �
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Content Acceleration용 AI Assistant에서 **[!UICONTROL 참조 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화합니다.
+1. AI Assistant Content Accelerator에서 **[!UICONTROL 참조 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화할 수 있습니다.
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
@@ -179,7 +179,7 @@ Journey Optimizer for Content Acceleration에서 AI Assistant를 사용하는 �
 
    ![](assets/push-gen-img.png){zoomable="yes"}
 
-1. Content Acceleration용 AI Assistant에서 **[!UICONTROL 참조 스타일]** 옵션을 활성화하여 참조 콘텐츠를 기반으로 새 콘텐츠를 개인화합니다. 이미지를 업로드하여 변형에 컨텍스트를 추가할 수도 있습니다.
+1. AI Assistant Content Accelerator에서 **[!UICONTROL 참조 스타일]** 옵션을 활성화하여 참조 콘텐츠를 기반으로 새 콘텐츠를 개인화할 수 있습니다. 이미지를 업로드하여 변형에 컨텍스트를 추가할 수도 있습니다.
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
