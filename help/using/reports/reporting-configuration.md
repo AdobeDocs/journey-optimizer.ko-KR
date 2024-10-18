@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: 구성, 실험, 보고, 최적화 도구
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: f7a0feb38b902b14c402f631cb5c77c1e329886e
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '585'
 ht-degree: 29%
 
 ---
 
-# 보고 및 실험 사전 요구 사항 {#reporting-configuration}
+# 보고 및 실험 전제 조건 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
@@ -77,6 +77,10 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 -->
 
 ## 데이터 세트 추가 {#add-datasets}
+
+>[!NOTE]
+>
+>새로 만든 모든 데이터 세트는 Customer Journey Analytics 보고서에서만 사용할 수 있습니다.
 
 1. **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 구성]**&#x200B;을 선택합니다. **[!UICONTROL 보고]** 섹션에서 **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
 
