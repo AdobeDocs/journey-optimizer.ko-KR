@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 89%
@@ -239,28 +239,13 @@ ht-degree: 89%
 
 **대상저** - 사용 가능한 날짜: 2024년 9월 17일
 
-<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* **라이선스 사용** - 이제 라이선스 사용 대시보드에 참여 가능한 대상자 대신 참여 가능한 프로필이 표시됩니다. [자세히 알아보기](../audience/license-usage.md)
+**라이선스 사용** - 이제 라이선스 사용 대시보드에 참여 가능한 대상자 대신 참여 가능한 프로필이 표시됩니다. [자세히 알아보기](../audience/license-usage.md)
 
 **콘텐츠 관리**
 
-* 이제 샌드박스 간에 콘텐츠 템플릿과 조각을 내보낼 수 있습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
-
-<!--**Data Governance**
-
-* You can now apply data governance policies to Journey Optimizer channels, in addition to custom actions within journeys. This enhancement helps prevent the use of sensitive fields in communications by applying marketing actions directly within your channel configurations.    -->
-
-<!--
-**Conflict and priority management**
-
-* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
-
-* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
--->
+이제 샌드박스 간에 콘텐츠 템플릿과 조각을 내보낼 수 있습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
 
 **여정**
-
-<!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
 * **실시간 보고 개선** - 실시간 보고에서는 지난 24시간 동안의 여정 성과에 대한 인사이트를 제공합니다. 새로운 지표(입장함, 퇴장함, 삭제 프로필, 오류 프로필)를 추가하여 여정 캔버스에서 직접 사용자 동작 및 성과를 더 깊이 있게 이해할 수 있도록 개선했습니다. [자세히 알아보기](../building-journeys/report-journey.md)
 
