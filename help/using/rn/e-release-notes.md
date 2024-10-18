@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
+source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
 workflow-type: tm+mt
-source-wordcount: '1671'
-ht-degree: 47%
+source-wordcount: '1672'
+ht-degree: 45%
 
 ---
 
@@ -100,26 +100,6 @@ ht-degree: 47%
 </tbody>
 </table>
 
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Movable Ink 및 Adobe Journey Optimizer 통합</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Movable Ink Da Vinci와 Adobe Journey Optimizer을 통합할 수 있습니다. 이 새로운 통합을 통해 다음과 같은 작업을 수행할 수 있습니다. </p>
-<p><ul><li>Movable Ink의 Da Vinci 제품에 포함된 강력한 기능을 활용하여 일괄 캠페인을 위한 이메일 변형을 취합하고 개인화합니다</li>
-<li>작성을 위해 Da Vinci를 사용하고 최적화 및 전달을 위해 AJO을 사용하는 Journey Optimizer 고객을 위한 실용적인 워크플로 가속화</li>
-<li>Adobe 데이터로 다빈치 모델 최적화.</li></ul></p>
-<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
@@ -172,20 +152,39 @@ ht-degree: 47%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>업데이트된 보고 환경(일반 가용성)</strong><br/>2024년 10월 16일 이후 사용 가능<br/></th>
+<th><strong>Movable Ink 및 Adobe Journey Optimizer 통합</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>이제 Movable Ink Da Vinci와 Adobe Journey Optimizer을 통합할 수 있습니다. 이 새로운 통합을 통해 다음과 같은 작업을 수행할 수 있습니다. </p>
+<p><ul><li>Movable Ink의 Da Vinci 제품에 포함된 강력한 기능을 활용하여 일괄 캠페인을 위한 이메일 변형을 취합하고 개인화합니다</li>
+<li>작성을 위해 Da Vinci를 사용하고 최적화 및 전달을 위해 AJO을 사용하는 Journey Optimizer 고객을 위한 실용적인 워크플로 가속화</li>
+<li>Adobe 데이터로 다빈치 모델 최적화.</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>업데이트된 보고 환경(일반 공급)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>2024년 10월 16일 이후 사용 가능</p>
 <p>이제 Journey Optimizer 보고가 GA(General Availability)되었으며 Customer Journey Analytics 기능과의 상호 운용성이 개선되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 향상시킵니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 확실한 정보에 근거한 결정을 내릴 수 있습니다.</p>
 <p>일반 공급 기능에는 간단한 지표 만들기, 대상자 만들기 및 게시, Insight Builder를 사용하여 임시 질문하기, 주요 수신자에게 자동으로 이메일로 전송할 보고서 예약 등의 네 가지 새로운 기능이 도입되었습니다.</p>
 <p>자세한 내용은 <a href="../reports/report-cja-manage.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
+<p>중요: 현재 보고 경험은 2025년 1월부터 종료됩니다. 이 날짜 이후에는 새로운 보고 경험이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다. <a href="../reports/report-gs-cja.md">Journey Optimizer의 새로운 보고 인터페이스를 시작하는 방법 알아보기</a></p>
 </tr>
 </tbody>
 </table>
@@ -199,10 +198,10 @@ ht-degree: 47%
 <tbody>
 <tr>
 <td>
+<p>2024년 10월 1일 이후 사용 가능</p>
 <p>코드 기반 경험 채널에서는 Adobe Journey Optimizer에서 원하는 인바운드 속성에 대해 고급 개인화 및 테스트를 수행할 수 있으므로 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV에 연결된 디바이스, 스마트 TV, 키오스크, ATM, IoT 디바이스 등과 같은 다양한 접점에서 맞춤형 경험을 원활하게 전달할 수 있습니다. 이제 여정 캔버스에서 코드 기반 경험 채널을 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../code-based/create-code-based.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>사용 가능한 날짜: 2024년 10월 1일</p>
 </tr>
 </tbody>
 </table>
@@ -216,20 +215,13 @@ ht-degree: 47%
 <tbody>
 <tr>
 <td>
+<p>2024년 10월 1일 이후 사용 가능</p>
 <p>웹 채널을 사용하면 Adobe Journey Optimizer에서 인바운드 웹 채널을 통해 고객에게 제공하는 웹 경험을 개인화할 수 있습니다. 이제 여정 캔버스에서 웹 채널을 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../web/create-web.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>사용 가능한 날짜: 2024년 10월 1일</p>
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->현재 보고 경험은 2025년 1월부터 종료됩니다. 이 날짜 이후에는 새로운 보고 경험이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다.
->
-> [Journey Optimizer의 새로운 보고 인터페이스를 시작하는 방법 알아보기](../reports/report-gs-cja.md)
-
 
 ### 개선 사항 {#e-improvements}
 
@@ -270,11 +262,11 @@ ht-degree: 47%
    * 프로필 스토어의 데이터에 대해 90일
    * 13개월 데이터 레이크
 
-또한 이 시점에서는 스트리밍 세분화가 더 이상 추적 및 피드백 데이터 세트의 전송 및 피드백 이벤트 사용을 지원하지 않습니다. 한동안 스트리밍 세분화에 이러한 이벤트를 사용하지 않도록 권장했었는데, 이제 이러한 이벤트를 모두 비활성화합니다.
+  또한 이 시점에서는 스트리밍 세분화가 더 이상 추적 및 피드백 데이터 세트의 전송 및 피드백 이벤트 사용을 지원하지 않습니다. 한동안 스트리밍 세분화에 이러한 이벤트를 사용하지 않도록 권장했었는데, 이제 이러한 이벤트를 모두 비활성화합니다.
 
-* 이 변경 사항은 스트리밍 세분화에서 전송/열기 이벤트 사용만 제한합니다. 클릭 이벤트는 여전히 스트리밍 세그먼트에서 사용할 수 있습니다. 또한 보내기/열기 이벤트는 일괄 처리 세그먼트에서 계속 사용할 수 있습니다.
-* 추적 데이터는 계속 수집됩니다. 이 변경 사항은 추적에 영향을 주지 않습니다. 이메일을 보낸 사람과 이메일을 클릭한 사람을 계속 추적할 수 있습니다.
-* 여정의 반응 이벤트는 이 변경의 영향을 받지 않습니다.
+   * 이 변경 사항은 스트리밍 세분화에서 전송/열기 이벤트 사용만 제한합니다. 클릭 이벤트는 여전히 스트리밍 세그먼트에서 사용할 수 있습니다. 또한 보내기/열기 이벤트는 일괄 처리 세그먼트에서 계속 사용할 수 있습니다.
+   * 추적 데이터는 계속 수집됩니다. 이 변경 사항은 추적에 영향을 주지 않습니다. 이메일을 보낸 사람과 이메일을 클릭한 사람을 계속 추적할 수 있습니다.
+   * 여정의 반응 이벤트는 이 변경의 영향을 받지 않습니다.
 
 * **사용자 지정 작업의 매개 변수**(사용 가능한 날짜: 2024년 10월 3일) - 이제 사용자 지정 작업에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
