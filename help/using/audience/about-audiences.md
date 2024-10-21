@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: b09a66743770eff9da7f183a1bf8de0d241db3d0
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2279'
 ht-degree: 17%
 
 ---
@@ -45,11 +45,12 @@ ht-degree: 17%
 
 ## [!DNL Journey Optimizer]의 대상 {#segments-in-journey-optimizer}
 
-캠페인 및 여정에서 세그먼트 정의, 사용자 지정 업로드 또는 작성 워크플로우를 사용하여 생성된 대상자를 선택할 수 있습니다.
+캠페인 및 여정에서 세그먼트 정의, 사용자 지정 업로드, 작성 워크플로우 또는 페더레이션 대상 작성을 사용하여 생성된 대상을 선택할 수 있습니다.
 
 >[!AVAILABILITY]
 >
->대상자 작성의 대상자 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다. [Journey Optimizer에서 대상 데이터 보강 특성을 사용하는 방법을 알아보세요](../audience/about-audiences.md#enrichment)
+>
+대상자 작성의 대상자 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다. [Journey Optimizer에서 대상 데이터 보강 특성을 사용하는 방법을 알아보세요](../audience/about-audiences.md#enrichment)
 
 **[!DNL Journey Optimizer]**&#x200B;에서 다양한 방법으로 대상자를 활용할 수 있습니다.
 
@@ -63,11 +64,11 @@ ht-degree: 17%
 
   >[!NOTE]
   >
-  >작성 워크플로 및 사용자 지정 업로드를 사용하여 생성된 대상자의 배치 특성으로 인해 &quot;대상자 자격&quot; 활동에서 이러한 대상자를 타깃팅할 수 없습니다. 세그먼트 정의를 사용하여 생성된 대상만 이 활동에서 활용할 수 있습니다.
+  >작성 워크플로우, 사용자 지정 업로드 또는 연합 대상 작성을 사용하여 만든 대상의 일괄 처리 특성으로 인해, &quot;대상 자격&quot; 활동에서 이러한 대상을 타깃팅할 수 없습니다. 세그먼트 정의를 사용하여 생성된 대상만 이 활동에서 활용할 수 있습니다.
 
 ## 대상자 강화 속성 사용 {#enrichment}
 
-작성 워크플로우 또는 사용자 지정(CSV 파일) 대상자를 사용하여 생성된 대상자를 타깃팅할 때 이러한 대상자의 데이터 보강 속성을 활용하여 여정을 구축하고 메시지를 개인화할 수 있습니다.
+작성 워크플로우, 사용자 지정(CSV 파일) 대상 또는 통합 대상 작성을 사용하여 생성된 대상을 타깃팅할 때 이러한 대상의 보강 속성을 활용하여 여정을 작성하고 메시지를 개인화할 수 있습니다.
 
 >[!NOTE]
 >
@@ -105,21 +106,21 @@ ht-degree: 17%
 >
 +++
 
-## 사용자 지정 업로드(CSV 파일) 대상 {#csv}
+## 사용자 지정 업로드 및 페더레이션 대상 구성 대상 {#csv}
 
-이 섹션에서는 사용자 지정 업로드(CSV 파일) 대상자로 작업하는 동안 유의해야 할 주요 정보를 제공합니다.
+이 섹션에서는 사용자 지정 업로드(CSV 파일) 및 Federated Audience Composition 대상으로 작업하는 동안 유의해야 할 주요 정보를 제공합니다.
 
-* **CSV 대상에 대한 미리 보기 및 증명 지원:** 현재 미리 보기 및 증명은 CSV 업로드를 사용하여 만든 대상에 대해 지원되지 않습니다. 캠페인을 계획할 때는 이 점을 염두에 두십시오.
+* **미리 보기 및 증명 지원:** 현재 미리 보기 및 증명은 CSV 업로드 또는 Federated Audience Composition을 사용하여 만든 대상에 대해 지원되지 않습니다. 캠페인을 계획할 때는 이 점을 염두에 두십시오.
 
-* **빠른 활성화 및 ID 결합 지연:** Adobe Experience Platform 아키텍처는 다음과 같은 영향을 미치며 ID 결합을 지연시켜 Journey Optimizer에서 사용자 지정 업로드 대상을 즉시 활성화할 수 있도록 합니다.
+* **빠른 활성화 및 ID 결합 지연:** Adobe Experience Platform 아키텍처가 ID 결합을 지연시켜 Journey Optimizer에서 사용자 지정 업로드 및 Federated Audience Composition 대상을 즉시 활성화할 수 있게 만듭니다. 다음과 같은 영향이 있습니다.
 
    * 대상자는 수집이 완료된 후 바로 Journey Optimizer에서 사용할 준비가 되었습니다. 일반적으로 1시간 이내이지만 약간의 변동성이 있습니다.
    * 활성화된 레코드 수는 ID 결합 후 프로필 수와 다를 수 있습니다.
-   * 중복 항목을 포함하여 CSV 파일의 모든 레코드가 활성화됩니다. 다음 UPS 프로필 내보내기 동안 이러한 레코드는 ID 결합을 거칩니다.
+   * 중복 항목을 포함하여 대상의 모든 레코드가 활성화됩니다. 다음 UPS 프로필 내보내기 동안 이러한 레코드는 ID 결합을 거칩니다.
 
-* **CSV 업로드에서 새 프로필 타기팅:** CSV 레코드와 UPS 프로필 간에 일치하는 항목을 찾을 수 없으면 새 빈 프로필이 만들어집니다. 이 프로필은 데이터 레이크에 저장된 데이터 보강 속성에 연결됩니다. 이 새 프로필은 비어 있으므로 Journey Optimizer에서 일반적으로 사용되는 타겟팅 필드(예: personalEmail.address, mobilePhone.number)는 비어 있으므로 타겟팅에 사용할 수 없습니다.
+* **새 프로필 타깃팅:** 레코드와 UPS 프로필 간에 일치하는 항목을 찾을 수 없으면 새 빈 프로필이 만들어집니다. 이 프로필은 데이터 레이크에 저장된 데이터 보강 속성에 연결됩니다. 이 새 프로필은 비어 있으므로 Journey Optimizer에서 일반적으로 사용되는 타겟팅 필드(예: personalEmail.address, mobilePhone.number)는 비어 있으므로 타겟팅에 사용할 수 없습니다.
 
-  이를 해결하려면 채널 구성에서 &quot;실행 필드&quot;(또는 채널에 따른 &quot;실행 주소&quot;)를 &quot;identityMap&quot;으로 지정할 수 있습니다. 이렇게 하면 CSV 업로드 중에 ID로 선택된 속성이 Journey Optimizer에서 타깃팅에 사용되는 속성이 됩니다.
+  이를 해결하려면 채널 구성에서 &quot;실행 필드&quot;(또는 채널에 따른 &quot;실행 주소&quot;)를 &quot;identityMap&quot;으로 지정할 수 있습니다. 이렇게 하면 대상을 만들 때 ID로 선택한 속성이 Journey Optimizer에서 타깃팅에 사용되는 속성이 됩니다.
 
 ## 대상자 평가 방법 {#evaluation-method-in-journey-optimizer}
 
