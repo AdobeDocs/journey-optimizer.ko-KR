@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: c5308cfdb237fcf563886db1dfca257d23bb4449
+source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1183'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 3%
 * [!DNL Journey Optimizer] 웹 디자이너에 액세스하려면 특정 Google Chrome 브라우저 확장이 설치되어 있어야 합니다. [자세히 알아보기](#visual-authoring-prerequisites)
 
 * 웹 경험이 올바르게 배달되도록 하려면 [여기](#delivery-prerequisites)에서 자세히 설명하는 Adobe Experience Platform 설정을 정의하십시오.
+
+* 웹 채널에 대한 보고를 활성화하려면 웹 구현 데이터 스트림에 사용된 데이터 세트도 보고 구성에 포함되어야 합니다. [자세히 알아보기](#experiment-prerequisites)
 
 >[!IMPORTANT]
 >
@@ -138,13 +140,13 @@ Adobe [!DNL Journey Optimizer] 웹 디자이너를 사용할 때 로드하지 �
 >
 >데이터 집합은 [!DNL Journey Optimizer] 보고 시스템에서 읽기 전용으로 사용되며 데이터 수집이나 데이터 수집에는 영향을 주지 않습니다.
 
-데이터 세트 스키마 `AEP Web SDK ExperienceEvent` 및 `Consumer Experience Event`([이 페이지](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}에 정의됨)에 대해 미리 정의된 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}을(를) 사용하여 **not**&#x200B;하는 경우 `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` 및 `Web Details` 필드 그룹을 추가해야 합니다. 각 프로필이 참여하고 있는 실험과 처리를 추적하는 [!DNL Journey Optimizer] 콘텐츠 실험 보고에서 이러한 항목이 필요합니다.
+데이터 세트 스키마 `AEP Web SDK ExperienceEvent` 및 `Consumer Experience Event`([이 페이지](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}에 정의됨)에 대해 미리 정의된 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}을(를) 사용하여 **not**&#x200B;하는 경우 `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` 및 `Web Details` 필드 그룹을 추가해야 합니다. [!DNL Journey Optimizer] 보고에서는 각 프로필이 참여하고 있는 캠페인과 여정을 추적하므로 이러한 항목이 필요합니다.
 
 [보고 구성에 대해 자세히 알아보기](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
->이러한 필드 그룹을 추가해도 일반 데이터 수집에는 영향을 주지 않습니다. 실험이 실행 중인 페이지에만 추가되며 다른 모든 추적은 그대로 유지됩니다.
+>이러한 필드 그룹을 추가해도 일반 데이터 수집에는 영향을 주지 않습니다. 다른 모든 추적은 그대로 두고 캠페인이나 여정이 실행 중인 페이지에만 추가됩니다.
 
 ## 에셋용 브랜드 도메인 {#branded-domains-for-assets}
 

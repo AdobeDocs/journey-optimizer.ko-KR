@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '866'
 ht-degree: 9%
 
 ---
@@ -121,13 +121,13 @@ ht-degree: 9%
 
 [이 섹션](../reports/reporting-configuration.md#add-datasets)에서 보고할 데이터 세트를 추가하는 방법을 알아보세요.
 
-데이터 세트 스키마 `AEP Web SDK ExperienceEvent` 및 `Consumer Experience Event`([이 페이지](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}에 정의됨)에 대해 미리 정의된 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}을(를) 사용하여 **not**&#x200B;하는 경우 `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` 및 `Web Details` 필드 그룹을 추가해야 합니다. 각 프로필이 참여하고 있는 실험과 처리를 추적하는 [!DNL Journey Optimizer] 콘텐츠 실험 보고에서 이러한 항목이 필요합니다.
+데이터 세트 스키마 `AEP Web SDK ExperienceEvent` 및 `Consumer Experience Event`([이 페이지](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}에 정의됨)에 대해 미리 정의된 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}을(를) 사용하여 **not**&#x200B;하는 경우 `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` 및 `Web Details` 필드 그룹을 추가해야 합니다. [!DNL Journey Optimizer] 보고에서는 각 프로필이 참여하고 있는 캠페인과 여정을 추적하므로 이러한 항목이 필요합니다.
 
 [보고 구성에 대해 자세히 알아보기](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
->이러한 필드 그룹을 추가해도 일반 데이터 수집에는 영향을 주지 않습니다. 실험이 실행 중인 페이지에만 추가되며 다른 모든 추적은 그대로 유지됩니다.
+>이러한 필드 그룹을 추가해도 일반 데이터 수집에는 영향을 주지 않습니다. 다른 모든 추적은 그대로 두고 캠페인이나 여정이 실행 중인 페이지에만 추가됩니다
 
 **관련 항목:**
 
