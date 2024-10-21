@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: b09a66743770eff9da7f183a1bf8de0d241db3d0
+source-git-commit: 0da5f10953ca3b5e14ddd2dd41eac14d5edca767
 workflow-type: tm+mt
 source-wordcount: '2279'
 ht-degree: 17%
@@ -49,8 +49,7 @@ ht-degree: 17%
 
 >[!AVAILABILITY]
 >
->
-대상자 작성의 대상자 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다. [Journey Optimizer에서 대상 데이터 보강 특성을 사용하는 방법을 알아보세요](../audience/about-audiences.md#enrichment)
+>대상자 작성의 대상자 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다. [Journey Optimizer에서 대상 데이터 보강 특성을 사용하는 방법을 알아보세요](../audience/about-audiences.md#enrichment)
 
 **[!DNL Journey Optimizer]**&#x200B;에서 다양한 방법으로 대상자를 활용할 수 있습니다.
 
