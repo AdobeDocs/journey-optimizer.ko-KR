@@ -6,7 +6,7 @@ level: Beginner
 badge: label="제한 공개"
 hide: true
 hidefromtoc: true
-source-git-commit: d53d4ee40771e3f74ccd801cf22598b69661a403
+source-git-commit: 9e7c70c45fc49946c18617c6a5b81383b73da248
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 2%
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 1. 화면 오른쪽 상단에 있는 규칙 추가 버튼 옆에 있는 줄임표 버튼을 클릭하여 전체 규칙 세트를 활성화합니다.
 
-   ![](assets/journey-capping-activate-rule-set.png){width="50%" zommable="yes"}
+   ![](assets/journey-capping-activate-rule-set.png)
 
 ## 여정에 최대 가용량 규칙 적용 {#apply-capping}
 
