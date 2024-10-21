@@ -8,10 +8,10 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 데이터, 거버넌스, DULE, 레이블, 레이블 지정, 플랫폼, 정책
-source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
-workflow-type: ht
-source-wordcount: '1293'
-ht-degree: 100%
+source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+workflow-type: tm+mt
+source-wordcount: '1292'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 데이터 거버넌스 정책 시작 {#gs}
 
-Adobe Experience Platform의 [DULE(데이터 사용 레이블 지정 및 적용) 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko){_blank} 프레임워크를 통해 **필드에 레이블을 지정**&#x200B;하고 각 채널별로 **마케팅 액션**&#x200B;을 만들어 채널 전반에 걸친 데이터 거버넌스 정책을 관리하고 적용할 수 있습니다.
+Adobe Experience Platform은 [DULE(데이터 사용 레이블 및 적용) 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko){target="_blank"} 프레임워크를 사용하여 **필드에 레이블을 지정하고** 각 채널에 대해 **마케팅 작업**&#x200B;을 만들어 채널 전반에서 데이터 거버넌스 정책을 관리하고 적용할 수 있습니다.
 
 레이블 및 마케팅 액션이 정의되면 이 두 요소를 연결하는 **데이터 거버넌스 정책**&#x200B;을 만들 수 있습니다. 예를 들어 &#39;ePHI&#39; 레이블을 &#39;이메일 타기팅&#39; 마케팅 액션과 연결하여 &#39;ePHI&#39;로 레이블이 지정된 필드가 이메일 메시지를 개인화하는 데 사용되지 않도록 하는 정책을 설정할 수 있습니다. [데이터 거버넌스 정책을 만드는 방법 알아보기](#governance-policies)
 
