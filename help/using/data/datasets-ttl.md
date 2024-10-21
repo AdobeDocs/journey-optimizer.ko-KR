@@ -7,9 +7,9 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '401'
 ht-degree: 5%
 
 ---
@@ -49,8 +49,7 @@ CJA의 데이터는 Experience Platform과 계속 동기화됩니다. 따라서 
 
 ## 스트리밍 세분화 업데이트 {#segmentation-update}
 
-또한 11월 1일부터 스트리밍 세분화는 추적 및 피드백 데이터 세트의 전송 및 피드백 이벤트 사용을 더 이상 지원하지 않습니다.  이 연습이 이전에 권장되지 않은 이유에 대한 정보는 [여기](../audience/about-audiences.md#streaming-segmentation-events-guardrails)에서 확인할 수 있습니다.
-
+또한 11월 1일부터 스트리밍 세분화는 추적 및 피드백 데이터 세트의 전송 및 피드백 이벤트 사용을 더 이상 지원하지 않습니다.  이 연습이 이전에 권장되지 않은 이유에 대한 정보는 [여기](../audience/about-audiences.md#streaming-segmentation-events-guardrails)에서 확인할 수 있습니다. 이 변경 사항은 해당 시점에 모든 고객 샌드박스 및 조직에 적용됩니다.
 
 **자주 묻는 질문**
 
