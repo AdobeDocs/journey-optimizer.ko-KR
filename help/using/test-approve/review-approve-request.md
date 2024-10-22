@@ -4,20 +4,15 @@ description: 여정 및 캠페인 게시에 대한 요청을 검토하고 승인
 role: User
 level: Beginner
 feature: Approval
-badge: label="제한된 가용성" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 2%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
 
 # 요청 검토 및 승인 {#approve-requests}
-
->[!AVAILABILITY]
->
-> 승인 정책은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 승인 정책이 여정 또는 캠페인에 적용되는 경우 게시하려면 승인을 위해 제출해야 합니다. 이를 위해 여정/캠페인 작성자가 승인 정책에 정의된 승인자에게 요청을 보내고 여정/캠페인이 **[!UICONTROL 검토 중]** 상태를 가져옵니다.
 
@@ -51,3 +46,7 @@ ht-degree: 2%
 ![](assets/request-changes.png)
 
 요청을 보낸 후 여정/캠페인 작성자는 이메일과 Journey Optimizer 경고를 통해 알림을 받습니다. 캠페인이 &quot;초안&quot; 상태로 돌아갑니다. 변경 사항이 통합되면 여정/캠페인 작성자가 승인을 위해 다시 제출할 수 있습니다.
+
+>[!NOTE]
+>
+> 이메일을 통해 승인 알림을 받지 못하는 경우 Experience Cloud 프로필에서 구독 환경 설정을 업데이트해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences)

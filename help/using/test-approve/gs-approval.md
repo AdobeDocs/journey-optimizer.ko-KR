@@ -4,20 +4,15 @@ description: 여정 및 캠페인에 대한 승인 프로세스를 설정하는 
 role: User
 level: Beginner
 feature: Approval
-badge: label="제한된 가용성" type="Informative"
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
-workflow-type: ht
-source-wordcount: '583'
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+workflow-type: tm+mt
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
 
 # 여정 및 캠페인 승인 시작 {#send-proofs}
-
->[!AVAILABILITY]
->
-> 승인 정책은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 ## 승인 정책 시작 {#gs}
 

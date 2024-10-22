@@ -4,20 +4,15 @@ description: 여정 및 캠페인을 게시하기 전에 승인을 요청하는 
 role: User
 level: Beginner
 feature: Approval
-badge: label="제한된 가용성" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 3%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
 
 # 승인 요청 {#request-approval}
-
->[!AVAILABILITY]
->
-> 승인 정책은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 조직에 대해 승인 워크플로 기능이 활성화된 경우 **[!UICONTROL 활성화]** 및 **[!UICONTROL Publish]** 단추를 각각 캠페인 만들기 및 여정 워크플로 만들기에서 더 이상 사용할 수 없습니다. 이 단추는 **[!UICONTROL 승인 요청]** 단추로 대체되었습니다.
 

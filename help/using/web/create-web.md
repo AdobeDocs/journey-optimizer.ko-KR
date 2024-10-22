@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1150'
 ht-degree: 13%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->9월 릴리스부터 새로운 캠페인 및 여정 활성화 환경을 사용하면 전체 승인 프로세스를 관리할 수 있으므로 캠페인 및 여정이 시작하기 전에 해당 관련자로부터 철저하게 검토 및 승인되도록 합니다. 이 기능은 제한된 가용성으로 사용할 수 있습니다. [자세히 알아보기](../test-approve/gs-approval.md)
+> 캠페인이 승인 정책의 적용을 받는 경우 웹 경험을 활성화하려면 승인을 요청해야 합니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
 웹 경험을 정의하고 [웹 디자이너](edit-web-content.md#work-with-web-designer)을(를) 사용하여 원하는 대로 콘텐츠를 편집한 후에는 여정 또는 캠페인을 활성화하여 대상자에게 변경 사항을 표시할 수 있습니다.
 

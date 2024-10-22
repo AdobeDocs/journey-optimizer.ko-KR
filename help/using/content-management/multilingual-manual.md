@@ -10,9 +10,9 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '646'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->다국어 콘텐츠는 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>다국어 콘텐츠는 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 수동 흐름을 사용하면 이메일, 푸시 알림 또는 SMS 캠페인 및 여정에서 콘텐츠를 손쉽게 직접 번역할 수 있으므로 다국어 메시지에 대한 정확한 제어 및 사용자 지정 옵션을 제공합니다. 또한 HTML 가져오기 옵션을 사용하여 기존 다국어 콘텐츠를 쉽게 가져올 수 있습니다.
 
@@ -142,7 +142,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->9월 릴리스부터 새로운 캠페인 및 여정 활성화 환경을 사용하면 전체 승인 프로세스를 관리할 수 있으므로 캠페인 및 여정이 시작하기 전에 해당 관련자로부터 철저하게 검토 및 승인되도록 합니다. 이 기능은 제한된 가용성으로 사용할 수 있습니다. [자세히 알아보기](../test-approve/gs-approval.md)
+> 캠페인이 승인 정책의 적용을 받는 경우 다국어 캠페인 또는 여정을 전송하려면 승인을 요청해야 합니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}
