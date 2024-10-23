@@ -201,7 +201,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
 >title="제외된 이유"
->abstract="제외된 이유 그래프와 테이블에서는 타겟팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
+>abstract="제외된 이유 그래프와 테이블에서는 타기팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 ![](assets/channel_email_excluded.png)
 
@@ -384,7 +384,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
 >title="제외된 이유"
->abstract="제외된 이유 그래프와 테이블에서는 타겟팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
+>abstract="제외된 이유 그래프와 테이블에서는 타기팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 ![](assets/channel_push_excluded.png)
 
@@ -514,7 +514,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
 >title="제외된 이유"
->abstract="제외된 이유 그래프와 테이블에서는 타겟팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
+>abstract="제외된 이유 그래프와 테이블에서는 타기팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 ![](assets/channel_sms_excluded.png)
 
@@ -578,7 +578,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
 >title="제외된 이유"
->abstract="제외된 이유 그래프와 테이블에서는 타겟팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
+>abstract="제외된 이유 그래프와 테이블에서는 타기팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 ![](assets/channel_direct_excluded.png)
 

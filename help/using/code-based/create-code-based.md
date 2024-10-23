@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 7%
+ht-degree: 15%
 
 ---
 
@@ -147,27 +147,27 @@ ht-degree: 7%
 
 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 정보는 [이 섹션](../content-management/preview.md)에서 확인할 수 있습니다.
 
-### 디바이스에서 미리보기 {#preview-on-device}
+### 디바이스에서 미리 보기 {#preview-on-device}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device"
 >title="실제 디바이스에서 코드 기반 경험 미리 보기"
->abstract="브라우저 또는 모바일 장치에서 개인화된 경험의 미리 보기를 통해 실제 장치에서 어떻게 표시되는지 확인할 수 있습니다."
+>abstract="브라우저나 모바일 디바이스에서 개인화된 경험을 미리 보고 실제 디바이스에서 어떻게 보이는지 확인합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
->title="장치에서 코드 기반 웹 경험 미리 보기"
->abstract="QR 코드를 스캔하거나 링크를 복사하여 장치에서 미리 봅니다."
+>title="디바이스에서 코드 기반 웹 경험 미리 보기"
+>abstract="디바이스에서 미리 보려면 QR 코드를 스캔하거나 링크를 복사합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
->title="장치에서 코드 기반 모바일 경험 미리 보기"
->abstract="QR 코드를 스캔하거나 링크를 복사하여 장치에서 미리 봅니다. 연결되면 장치의 핀을 입력합니다. 미리 보기 링크를 업데이트할 때마다 변경 사항을 보려면 앱을 다시 시작해야 할 수 있습니다."
+>title="디바이스에서 코드 기반 모바일 경험 미리 보기"
+>abstract="디바이스에서 미리 보려면 QR 코드를 스캔하거나 링크를 복사합니다. 연결되면 디바이스에 PIN을 입력합니다. 미리보기 링크를 업데이트할 때마다 변경 사항을 확인하려면 앱을 다시 시작해야 할 수도 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
->title="현재 보기를 반영하도록 미리 보기 링크를 새로 고칩니다."
->abstract="장치 내 미리 보기에는 미리 보기 링크를 만들거나 새로 고친 시점의 콘텐츠가 표시됩니다. 콘텐츠를 수정하거나 다른 테스트 프로필 또는 처리를 선택한 경우 미리보기를 새로 고쳐 현재 보기를 반영하도록 합니다."
+>title="현재 보기를 반영하도록 미리보기 링크 새로 고침"
+>abstract="디바이스 미리보기에는 미리보기 링크를 만들거나 새로 고친 시점의 콘텐츠가 표시됩니다. 콘텐츠를 수정하거나 다른 테스트 프로필 또는 처리를 선택한 경우 미리보기를 새로 고쳐 현재 보기에 반영되도록 하십시오."
 
 웹 페이지 또는 모바일 앱에 대한 코드 기반 경험을 작성할 때 브라우저 또는 모바일 디바이스에서 개인화된 경험을 바로 미리 보고 이러한 경험이 실제 디바이스에서 어떻게 표시되는지 확인할 수 있습니다.
 

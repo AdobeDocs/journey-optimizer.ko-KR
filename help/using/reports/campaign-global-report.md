@@ -269,7 +269,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_excluded_reasons"
 >title="이메일 - 제외된 이유"
->abstract="제외된 이유 그래프와 테이블에서는 타겟팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
+>abstract="제외된 이유 그래프와 테이블에서는 타기팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 ![](assets/campaign_email_excluded.png)
 
@@ -615,7 +615,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_excluded_reasons"
 >title="푸시 알림 - 제외된 이유"
->abstract="제외된 이유 그래프와 테이블에서는 타겟팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
+>abstract="제외된 이유 그래프와 테이블에서는 타기팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 ![](assets/campaign_push_excluded.png)
 
@@ -739,7 +739,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
 >title="SMS - 제외된 이유"
->abstract="제외된 이유 그래프와 테이블에서는 타겟팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
+>abstract="제외된 이유 그래프와 테이블에서는 타기팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 ![](assets/campaign_sms_excluded.png)
 
@@ -877,7 +877,7 @@ Campaign **[!UICONTROL 전역 보고서]**&#x200B;에서 **[!UICONTROL DM]** 탭
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
 >title="다이렉트 메일 - 제외된 이유"
->abstract="다이렉트 메일 제외된 이유 그래프와 테이블에서는 타겟팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
+>abstract="다이렉트 메일 제외된 이유 그래프와 테이블에서는 타기팅된 대상자에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 요인을 보여 줍니다."
 
 ![](assets/campaign_direct_excluded.png)
 

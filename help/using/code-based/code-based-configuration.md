@@ -9,7 +9,7 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 28%
+ht-degree: 40%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="페이지 또는 앱 내의 특정 위치 표시"
->abstract="이 필드는 사용자가 액세스할 페이지 또는 앱 내의 정확한 대상을 지정합니다. 웹 페이지 내의 특정 섹션이나 앱의 탐색 구조 내의 깊이 있는 페이지일 수 있습니다."
+>title="페이지 또는 앱 내부의 특정 위치 표시"
+>abstract="이 필드는 사용자가 액세스하기를 원하는 페이지 내부 또는 앱 내의 정확한 대상을 지정합니다. 이는 웹 페이지 내 특정 섹션이나 앱의 탐색 구조 내 페이지일 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="콘텐츠 생성 및 미리보기에 대한 URL 정의"
+>title="콘텐츠 만들기 및 미리보기를 위한 URL 정의"
 >abstract="이 필드는 규칙에 의해 생성되거나 규칙과 일치하는 페이지에 지정된 URL이 있는지 확인하는 데 필요한데, 이는 콘텐츠를 효과적으로 만들고 미리 보는 데 필수적입니다."
 
 코드 기반 경험 채널 구성을 만들려면 다음 단계를 수행하십시오.
@@ -82,7 +82,7 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_web_url"
->title="콘텐츠 작성 및 미리보기에 대한 URL 정의"
+>title="콘텐츠 작성 및 미리보기를 위한 URL 정의"
 >abstract="이 필드는 규칙에 의해 생성되거나 규칙과 일치하는 페이지에 지정된 URL이 있는지 확인하는 데 필요한데, 이는 콘텐츠를 효과적으로 만들고 미리 보는 데 필수적입니다."
 
 웹 플랫폼에 대한 코드 기반 경험 구성 설정을 정의하려면 아래 단계를 따르십시오.
@@ -116,12 +116,12 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
->title="앱 ID 제공"
->abstract="애플리케이션의 운영 환경 내에서 정확한 식별 및 구성을 위한 앱 ID를 입력하여 원활한 통합과 기능을 보장합니다."
+>title="앱 ID 입력"
+>abstract="애플리케이션의 운영 환경 내에서 정확한 식별과 구성을 위해 앱 ID를 입력하여 원활한 통합과 기능을 보장합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
->title="콘텐츠 미리보기를 위한 URL 입력"
+>title="콘텐츠 미리 보기를 위한 URL 입력"
 >abstract="이 필드는 디바이스의 애플리케이션 내에서 직접 콘텐츠의 시뮬레이션과 미리보기를 활성화하는 데 반드시 필요합니다."
 
 모바일 플랫폼에 대한 코드 기반 경험 구성 설정을 정의하려면 아래 단계를 따르십시오.
@@ -179,8 +179,8 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="구성 요소에 대한 표면 URI 추가"
->abstract="구현이 웹, iOS 또는 Android용이 아니거나 특정 URI를 타깃팅해야 하는 경우, 경험을 전달할 엔터티로 향하는 고유 식별자인 표면 URI를 입력합니다. 자체 구현에 사용된 것과 일치하는 표면 URI를 입력해야 합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="기타 플랫폼에 대한 코드 기반 경험 구성 만들기"
+>abstract="구현이 웹, iOS 또는 Android용이 아니거나 특정 URI를 타기팅해야 하는 경우, 경험을 게재하려는 엔티티를 가리키는 고유 식별자인 표면 URI를 입력하십시오. 자체 구현에 사용된 것과 일치하는 표면 URI를 입력해야 합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="다른 플랫폼을 위한 코드 기반 경험 구성 만들기"
 
 코드 기반 경험 **surface**&#x200B;은(는) 사용자 또는 시스템 상호 작용을 위해 디자인된 모든 엔터티이며 **URI**&#x200B;에 의해 고유하게 식별됩니다. 표면은 애플리케이션 구현에 지정되며 코드 기반 경험 채널 구성에서 참조되는 표면과 일치해야 합니다.
 
