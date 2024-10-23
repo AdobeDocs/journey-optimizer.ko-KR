@@ -6,7 +6,7 @@ level: Beginner
 badge: label="제한 공개"
 hide: true
 hidefromtoc: true
-source-git-commit: 9e7c70c45fc49946c18617c6a5b81383b73da248
+source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 2%
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 규칙이 활성화되면 여정 세트에 정의된 최대 가용량 규칙이 적용됩니다.
 
-![](assets/journey-capping-apply.png)
+![](../test-approve/assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >
