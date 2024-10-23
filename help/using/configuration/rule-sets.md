@@ -12,7 +12,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
+source-git-commit: d458cf01c9d14682deb080083ab8bb468b3b4fd7
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 10%
@@ -306,7 +306,7 @@ In this scenario, an individual profile:
 
 여정에 최대 가용량 규칙을 적용하려면 여정에 액세스하여 해당 속성을 엽니다. **[!UICONTROL 최대 가용량 규칙]** 드롭다운에서 관련 규칙 집합을 선택합니다.
 
-![](assets/journey-capping-apply.png)
+![](../test-approve/assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >
