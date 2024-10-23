@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
+source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 43%
+source-wordcount: '1793'
+ht-degree: 42%
 
 ---
 
@@ -273,6 +273,10 @@ ht-degree: 43%
    * 여정의 반응 이벤트는 이 변경의 영향을 받지 않습니다.
 
 * **사용자 지정 작업의 매개 변수**(사용 가능한 날짜: 2024년 10월 3일) - 이제 사용자 지정 작업에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**보고**
+
+* 이제 **Experience Decisioning 보고**&#x200B;를 사용할 수 있으므로 방문자가 경험과 상호 작용하는 방식에 대한 필수 통찰력을 제공합니다.
 
 **데이터 거버넌스 및 동의 정책** - 사용 가능한 날짜: 2024년 10월 7일
 
