@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ab4e6a7ff6c7e0ec97ee2021eb8b38e321b138c
+source-git-commit: 5ffa0937bd9f23f29c8f02d2951cccac73d75f1b
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 89%
+source-wordcount: '1717'
+ht-degree: 86%
 
 ---
 
@@ -127,6 +127,10 @@ ht-degree: 89%
 * 이제 CSV 파일 대상자를 타기팅할 때 개인화 편집기와 여정 및 캠페인 규칙 빌더에서 파일의 속성을 사용할 수 있습니다. [자세히 알아보기](../audience/about-audiences.md)
 
 * 이제 사용자 정의 업로드(CSV 파일)의 대상자 및 속성을 Healthcare Shield 또는 Privacy and Security Shield에서도 사용할 수 있습니다.
+
+**Decisioning** - 사용 가능한 날짜: 2024년 10월 8일
+
+이제 의사 결정을 사용하여 코드 기반 캠페인(이전의 경험 의사 결정)에 의사 결정 정책을 추가할 때 선택 전략 외에 단일 의사 결정 항목을 수동으로 선택할 수 있습니다. 또한 이제 두 개 이상의 대체 오퍼를 선택할 수 있습니다. 이렇게 하면 일정 수의 결정 항목이 반환되는 것을 보장할 수 있습니다. [자세히 알아보기](../experience-decisioning/create-decision.md)
 
 ## 24년 9월 릴리스 {#24-9-rn}
 
