@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
+source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 42%
+source-wordcount: '1854'
+ht-degree: 40%
 
 ---
 
@@ -111,6 +111,26 @@ ht-degree: 42%
 <td>
 <p>Adobe Journey Optimizer가 이제 여정에서도 실험을 지원합니다. 캠페인에서는 이미 실험을 사용할 수 있습니다. 실험은 무작위화한 시험 회기 여러 개를 모아 놓은 것입니다. 온라인 테스팅 맥락에서는 무작위로 선택한 사용자 일부를 특정한 버전의 메시지에 노출하고, 무작위로 선택한 다른 사용자들을 다른 처리 버전에 노출하는 것을 말합니다. 노출 후에는 이메일 열람, 구독 또는 구매 등 궁금한 결과 지표를 측정할 수 있습니다.</p>
 <p>이전에는 조직 집합(LA)에서 사용할 수 있었지만, 이제 모든 사용자(GA)가 여정에서 실험을 사용할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>의사 결정(일반 가용성)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이전에 LA(조직) 세트에서 사용할 수 있고 Experience Decisioning으로 알려진 Decisioning은 이제 모든 사용자(GA)가 사용할 수 있습니다. '의사 결정 항목'이라고 하는 마케팅 오퍼의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 등급 기준을 활용하여 각 개인에게 가장 관련성이 높은 결정 항목을 선택하고 제공합니다. 이러한 의사 결정 항목은 코드 기반 경험 채널을 통해 광범위한 인바운드 표면에 원활하게 통합됩니다.</p>
+
+<p>현재 Healthcare Shield 및 Privacy and Security Shield 추가 기능 Adobe을 구입한 고객은 Decisioning을 사용할 수 없습니다.</p>
+
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -245,11 +265,6 @@ ht-degree: 42%
 >[!AVAILABILITY]
 >
 >충돌 및 우선 순위 관리 기능은 일부 고객이 제한된 가용성으로 사용할 수 있습니다. 이러한 기능은 향후 더 많은 사용자에게 점진적으로 배포될 예정입니다. 이 기능의 대기자 명단에 추가하려면 계정 팀에 문의하십시오.
-
-**의사 결정 관리**
-
-* **감사** - 오퍼 또는 의사 결정에 대한 모든 변경 내용을 볼 수 있는 **변경 로그** 탭입니다. 이제 오퍼 및 의사 결정과 관련된 변경 사항을 **감사** 메뉴 아래 제품에서 사용할 수 있습니다.
-
 
 **구성**
 
