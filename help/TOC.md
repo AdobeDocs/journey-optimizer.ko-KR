@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2147'
 ht-degree: 94%
 
 ---
@@ -195,94 +195,96 @@ ht-degree: 94%
       + [승인 정책 만들기 및 관리](using/test-approve/approval-policies.md)
       + [승인 요청](using/test-approve/request-approval.md)
       + [요청 승인](using/test-approve/review-approve-request.md)
-+ 이메일 채널 {#email}
-   + [이메일 시작](using/email/get-started-email.md)
-   + [이메일 만들기](using/email/create-email.md)
-   + 이메일 콘텐츠 디자인 {#design-email}
-      + [이메일 디자인 시작](using/email/get-started-email-design.md)
-      + 콘텐츠 만들기 시작 {#start-creating-content}
-         + [처음부터 컨텐츠 만들기](using/email/content-from-scratch.md)
-         + [콘텐츠 가져오기](using/email/existing-content.md)
-         + [나만의 콘텐츠 코딩](using/email/code-content.md)
-         + [이메일 템플릿 사용](using/email/use-email-templates.md)
-      + 콘텐츠 디자인 {#add-content}
-         + [콘텐츠 구성 요소 사용](using/email/content-components.md)
-         + [시각적 조각 활용](using/email/use-visual-fragments.md)
-         + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
-         + [개인화된 오퍼 삽입](using/email/add-offers-email.md)
-         + [텍스트 버전 생성](using/email/text-version-email.md)
-         + [프리 헤더 추가](using/email/preheader.md)
-      + 스타일 편집 {#edit-style}
-         + [이메일 스타일 시작](using/email/get-started-email-style.md)
-         + [배경 설정 편집](using/email/backgrounds.md)
-         + [세로 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
-         + [인라인 스타일 속성 추가](using/email/inline-styling.md)
-   + [Experience Manager 템플릿 사용](using/email/aem-templates.md)
-   + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
-   + 이메일 채널 구성 {#configure-email}
-      + [이메일 구성 시작](using/email/get-started-email-config.md)
-      + [이메일 구성 설정 구성](using/email/email-settings.md)
-      + [이메일 구성 개인화](using/email/surface-personalization.md)
-+ 인앱 채널{#in-app}
-   + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
-   + [인앱 채널 사전 요구 사항](using/in-app/inapp-configuration.md)
-   + [모바일 인앱 메시지 만들기](using/in-app/create-in-app.md)
-   + [웹 인앱 메시지 만들기](using/in-app/create-in-app-web.md)
-   + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
-   + [인앱 알림 확인하고 보내기](using/in-app/send-in-app.md)
-+ 푸시 알림 채널{#push}
-   + [푸시 알림 시작](using/push/get-started-push.md)
-   + [푸시 알림 만들기](using/push/create-push.md)
-   + [푸시 알림 디자인](using/push/design-push.md)
-   + [푸시 알림 확인하고 보내기](using/push/send-push.md)
-   + 푸시 알림 구성{#push-config}
-      + [푸시 알림 흐름](using/push/push-gs.md)
-      + [푸시 알림 채널 구성](using/push/push-configuration.md)
-      + [모바일 온보딩 빠른 시작 워크플로](using/push/mobile-onboarding-wf.md)
-+ SMS / MMS 채널{#sms}
-   + [텍스트 메시지 시작](using/sms/get-started-sms.md)
-   + [문자 메시지(SMS/MMS) 만들기](using/sms/create-sms.md)
-   + [텍스트 메시지 확인하고 보내기](using/sms/send-sms.md)
-   + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
-   + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
-   + SMS / MMS 채널 구성{#configure-sms}
-      + [SMS 구성 시작](using/sms/sms-configuration.md)
-      + [Sinch 공급자 구성](using/sms/sms-configuration-sinch.md)
-      + [Infobip 공급자 구성](using/sms/sms-configuration-infobip.md)
-      + [Twilio 공급자 구성](using/sms/sms-configuration-twilio.md)
-      + [사용자 정의 공급자 구성(Beta)](using/sms/sms-configuration-custom.md)
-      + [SMS 구성 만들기](using/sms/sms-configuration-surface.md)
-+ 다이렉트 메일 {#direct-mail}
-   + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)
-   + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)
-   + [다이렉트 메일 메시지 확인하고 보내기](using/direct-mail/test-send-direct-mail.md)
-   + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
-+ 웹 채널 {#web}
-   + [웹 채널 시작하기](using/web/get-started-web.md)
-   + 웹 채널 구성 {#configure-web-channel}
-      + [웹 채널 전제 조건](using/web/web-prerequisites.md)
-      + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
-      + [웹 채널 구성 만들기](using/web/web-configuration.md)
-   + [웹 경험 만들기 ](using/web/create-web.md)
-   + 웹 페이지 작성 {#author-web-pages}
-      + [웹 페이지 콘텐츠 편집](using/web/edit-web-content.md)
-      + [수정 사항 관리](using/web/manage-web-modifications.md)
-      + [웹 경험 모니터링](using/web/monitor-web-experiences.md)
-      + [단일 페이지 애플리케이션 작성](using/web/web-spa.md)
-+ 코드 기반 경험 {#code-based-experience}
-   + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)
-   + [가드레일 및 사전 지식](using/code-based/code-based-prerequisites.md)
-   + [코드 기반 경험 구성 만들기](using/code-based/code-based-configuration.md)
-   + [구현 방법 샘플](using/code-based/code-based-implementation-samples.md)
-   + [코드 기반 경험 만들기](using/code-based/create-code-based.md)
-+ 콘텐츠 카드{#content-card}
-   + [콘텐츠 카드 시작](using/content-card/get-started-content-card.md)
-   + 콘텐츠 카드 채널 구성 {#configure}
-      + [콘텐츠 카드 사전 요구 사항](using/content-card/content-card-configuration-prereq.md)
-      + [Journey Optimizer에서 콘텐츠 카드 채널 구성](using/content-card/content-card-configuration.md)
-      + [Web SDK에서 콘텐츠 카드 지원 구성](using/content-card/content-card-configuration-sdk.md)
-   + [콘텐츠 템플릿 만들기](using/content-card/create-content-card.md)
-   + [콘텐츠 카드 디자인](using/content-card/design-content-card.md)
++ 소통 채널 {#communication-channels}
+   + [소통 채널 시작](using/channels/gs-channels.md)
+   + 이메일 채널 {#email}
+      + [이메일 시작](using/email/get-started-email.md)
+      + [이메일 만들기](using/email/create-email.md)
+      + 이메일 콘텐츠 디자인 {#design-email}
+         + [이메일 디자인 시작](using/email/get-started-email-design.md)
+         + 콘텐츠 만들기 시작 {#start-creating-content}
+            + [처음부터 컨텐츠 만들기](using/email/content-from-scratch.md)
+            + [콘텐츠 가져오기](using/email/existing-content.md)
+            + [나만의 콘텐츠 코딩](using/email/code-content.md)
+            + [이메일 템플릿 사용](using/email/use-email-templates.md)
+         + 콘텐츠 디자인 {#add-content}
+            + [콘텐츠 구성 요소 사용](using/email/content-components.md)
+            + [시각적 조각 활용](using/email/use-visual-fragments.md)
+            + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
+            + [개인화된 오퍼 삽입](using/email/add-offers-email.md)
+            + [텍스트 버전 생성](using/email/text-version-email.md)
+            + [프리 헤더 추가](using/email/preheader.md)
+         + 스타일 편집 {#edit-style}
+            + [이메일 스타일 시작](using/email/get-started-email-style.md)
+            + [배경 설정 편집](using/email/backgrounds.md)
+            + [세로 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
+            + [인라인 스타일 속성 추가](using/email/inline-styling.md)
+      + [Experience Manager 템플릿 사용](using/email/aem-templates.md)
+      + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
+      + 이메일 채널 구성 {#configure-email}
+         + [이메일 구성 시작](using/email/get-started-email-config.md)
+         + [이메일 구성 설정 구성](using/email/email-settings.md)
+         + [이메일 구성 개인화](using/email/surface-personalization.md)
+   + 인앱 채널{#in-app}
+      + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
+      + [인앱 채널 사전 요구 사항](using/in-app/inapp-configuration.md)
+      + [모바일 인앱 메시지 만들기](using/in-app/create-in-app.md)
+      + [웹 인앱 메시지 만들기](using/in-app/create-in-app-web.md)
+      + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
+      + [인앱 알림 확인하고 보내기](using/in-app/send-in-app.md)
+   + 푸시 알림 채널{#push}
+      + [푸시 알림 시작](using/push/get-started-push.md)
+      + [푸시 알림 만들기](using/push/create-push.md)
+      + [푸시 알림 디자인](using/push/design-push.md)
+      + [푸시 알림 확인하고 보내기](using/push/send-push.md)
+      + 푸시 알림 구성{#push-config}
+         + [푸시 알림 흐름](using/push/push-gs.md)
+         + [푸시 알림 채널 구성](using/push/push-configuration.md)
+         + [모바일 온보딩 빠른 시작 워크플로](using/push/mobile-onboarding-wf.md)
+   + SMS / MMS 채널{#sms}
+      + [텍스트 메시지 시작](using/sms/get-started-sms.md)
+      + [문자 메시지(SMS/MMS) 만들기](using/sms/create-sms.md)
+      + [텍스트 메시지 확인하고 보내기](using/sms/send-sms.md)
+      + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
+      + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
+      + SMS / MMS 채널 구성{#configure-sms}
+         + [SMS 구성 시작](using/sms/sms-configuration.md)
+         + [Sinch 공급자 구성](using/sms/sms-configuration-sinch.md)
+         + [Infobip 공급자 구성](using/sms/sms-configuration-infobip.md)
+         + [Twilio 공급자 구성](using/sms/sms-configuration-twilio.md)
+         + [사용자 정의 공급자 구성(Beta)](using/sms/sms-configuration-custom.md)
+         + [SMS 구성 만들기](using/sms/sms-configuration-surface.md)
+   + 다이렉트 메일 {#direct-mail}
+      + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)
+      + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)
+      + [다이렉트 메일 메시지 확인하고 보내기](using/direct-mail/test-send-direct-mail.md)
+      + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
+   + 웹 채널 {#web}
+      + [웹 채널 시작하기](using/web/get-started-web.md)
+      + 웹 채널 구성 {#configure-web-channel}
+         + [웹 채널 전제 조건](using/web/web-prerequisites.md)
+         + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
+         + [웹 채널 구성 만들기](using/web/web-configuration.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
+      + 웹 페이지 작성 {#author-web-pages}
+         + [웹 페이지 콘텐츠 편집](using/web/edit-web-content.md)
+         + [수정 사항 관리](using/web/manage-web-modifications.md)
+         + [웹 경험 모니터링](using/web/monitor-web-experiences.md)
+         + [단일 페이지 애플리케이션 작성](using/web/web-spa.md)
+   + 코드 기반 경험 {#code-based-experience}
+      + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)
+      + [가드레일 및 사전 지식](using/code-based/code-based-prerequisites.md)
+      + [코드 기반 경험 구성 만들기](using/code-based/code-based-configuration.md)
+      + [구현 방법 샘플](using/code-based/code-based-implementation-samples.md)
+      + [코드 기반 경험 만들기](using/code-based/create-code-based.md)
+   + 콘텐츠 카드{#content-card}
+      + [콘텐츠 카드 시작](using/content-card/get-started-content-card.md)
+      + 콘텐츠 카드 채널 구성 {#configure}
+         + [콘텐츠 카드 사전 요구 사항](using/content-card/content-card-configuration-prereq.md)
+         + [Journey Optimizer에서 콘텐츠 카드 채널 구성](using/content-card/content-card-configuration.md)
+         + [Web SDK에서 콘텐츠 카드 지원 구성](using/content-card/content-card-configuration-sdk.md)
+      + [콘텐츠 템플릿 만들기](using/content-card/create-content-card.md)
+      + [콘텐츠 카드 디자인](using/content-card/design-content-card.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
@@ -701,3 +703,4 @@ ht-degree: 94%
       + [동의 정책 사용](using/action/consent.md)
    + [데이터 거버넌스](using/action/action-privacy.md)
    + [고객 관리형 키 설정 및 관리](using/privacy/cmk.md)
+
