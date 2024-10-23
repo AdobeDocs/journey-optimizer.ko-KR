@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
+source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
 workflow-type: tm+mt
-source-wordcount: '1854'
-ht-degree: 40%
+source-wordcount: '1885'
+ht-degree: 39%
 
 ---
 
@@ -309,5 +309,6 @@ ht-degree: 40%
 
 * 이제 사용자 정의 업로드(CSV 파일)의 대상자 및 속성을 Healthcare Shield 또는 Privacy and Security Shield에서도 사용할 수 있습니다.
 
+**코드 기반 채널**
 
-
+이제 코드 기반 경험 캠페인을 편집하는 동안 선택할 수 있는 템플릿의 범위가 이전에 선택한 HTML 구성을 기반으로 채널 또는 JSON으로 지정됩니다.
