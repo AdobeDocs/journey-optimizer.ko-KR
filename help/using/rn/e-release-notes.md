@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
+source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 39%
+source-wordcount: '1937'
+ht-degree: 38%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 39%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer에서 너무 많은 상호 작용으로 압도적인 고객을 피하려면 캠페인 및 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer은 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다.</p><p><ul><li><b>여정 빈도 제한</b>: 이제 여정에 적용할 규칙 집합을 만들어 일, 주 또는 월당 여정 수를 제한하고 동시에 실행되는 동시 여정 수를 제어할 수 있습니다.</li>
+<p>Journey Optimizer에서 너무 많은 상호 작용으로 압도적인 고객을 피하려면 캠페인 및 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer은 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다.</p><p><ul><li><b>여정 빈도 제한</b>: 이제 여정에 적용할 규칙 집합을 만들어 프로필의 여정 수를 일, 주 또는 월로 제한하고 동시에 실행되는 동시 여정 수를 제어할 수 있습니다.</li>
 <li><b>우선 순위 점수</b>: 이제 0에서 100 사이의 우선 순위 점수를 캠페인이나 여정에 할당할 수 있습니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 두 캠페인 또는 여정 작업이 동일한 채널 구성을 사용하는 경우 Journey Optimizer에서 우선 순위 점수가 가장 높은 캠페인을 선택합니다. 캠페인의 점수가 동일한 경우, 가장 최근에 수정되지 않은 캠페인이 선택됩니다.</li>
 <li><b>잠재적 충돌 보기</b>: 이제 여정 및 캠페인의 새로운 "잠재적 충돌 보기" 단추를 사용하여 시작 날짜, 대상 또는 선택한 여정 구성과 같은 다른 채널 또는 캠페인과 겹치는 부분을 식별할 수 있습니다.</li>
 <li><b>여정 중재</b>: 이 새로운 기능을 사용하면 고객에게 가장 중요한 여정의 우선 순위를 지정할 수 있습니다. 고객이 더 높은 우선순위의 예정된 여정에 대한 자격이 있을 때 더 낮은 우선순위의 여정에 들어가지 않도록 규칙을 만들 수 있습니다.</li></ul></p>
@@ -144,7 +144,7 @@ ht-degree: 39%
 <table>
 <thead>
 <tr>
-<th><strong>여정에서의 실험(일반 가용성)</strong><br/></th>
+<th><strong>여정에서의 콘텐츠 실험(일반 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -295,11 +295,13 @@ ht-degree: 39%
 * SMS 캠페인 및 여정에 대한 고유 키워드를 정의하고 관리하여 보다 개인화되고 효율적인 커뮤니케이션을 가능하게 할 수 있습니다.
 * 키워드가 인식되지 않을 때 기본 SMS 메시지를 만들고 전달할 수 있습니다.
 
-**여정**
+<!--**Journeys**-->
 
-* **여정의 경로 실험** - 이제 여정 경로 실험을 통해 여정 경로에 대한 주요 지표를 정의하고 추적할 수 있으므로 활동의 영향을 측정하고 성능에 대한 보다 명확한 통찰력을 제공할 수 있습니다.
+<!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
 
-* **최대 라이브 여정 수** - 이제 Journey Optimizer의 프로덕션 샌드박스에 100개가 아닌 500개 라이브 여정의 가드레일이 있습니다. 라이브 여정 수는 여정 캔버스에 표시됩니다. <!-- DOCAC-10977-->
+&lt;!—* **최대 라이브 여정 수** - 이제 Journey Optimizer에는 프로덕션 샌드박스에서 100개가 아닌 500개의 라이브 여정이 있습니다. 라이브 여정 수는 여정 캔버스에 표시됩니다. <!-- DOCAC-10977-->
+
+**데이터 세트**
 
 * **Time-to-Live 보호** - 2024년 11월 1일부터 TTL(Time-to-Live) 보호가 다음과 같이 새 샌드박스 및 새 조직의 Journey Optimizer 시스템 생성 데이터 세트로 롤아웃됩니다.
 
