@@ -10,20 +10,16 @@ level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 badge: label="제한된 가용성"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 10%
+source-wordcount: '1057'
+ht-degree: 7%
 
 ---
 
 # 이메일 구성 설정 개인화 {#surface-personalization}
 
 유연성을 높이고 이메일 설정을 제어할 수 있도록 [!DNL Journey Optimizer]을(를) 사용하면 이메일 구성을 만들 때 하위 도메인 및 헤더에 대해 개인화된 값을 정의<!--and URL tracking parameters-->할 수 있습니다.
-
->[!AVAILABILITY]
->
->이메일 구성 개인화는 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 ## 동적 하위 도메인 추가 {#dynamic-subdomains}
 
@@ -110,13 +106,19 @@ ht-degree: 10%
 
    ![](assets/surface-email-personalize-header.png)
 
-1. [개인화 편집기](../personalization/personalization-build-expressions.md)가 열립니다. 조건을 원하는 대로 정의하고 변경 사항을 저장합니다.
+1. [개인화 편집기](../personalization/personalization-build-expressions.md)가 열립니다. 원하는 대로 조건을 정의하고 변경 사항을 저장합니다.
 
-   예를 들어, 각 수신자가 자신의 브랜드 담당자로부터 이메일을 받는 것과 같은 조건을 설정합니다.
+   <!--For example, set a condition such as each recipient receives an email from their own brand representative.-->
 
    >[!NOTE]
    >
    >**[!UICONTROL 프로필 특성]** 및 **[!UICONTROL 도우미 함수]**&#x200B;만 선택할 수 있습니다.
+
+   판매 도우미를 대신하여 전송된 다이내믹한 이메일을 처리하고 싶은데, 여기서 판매 도우미는 이벤트 또는 캠페인 컨텍스트 매개 변수에서 검색됩니다. 예:
+
+   * [여정](../building-journeys/journey-gs.md)에서 구매 이벤트가 특정 매장의 영업 도우미에 연결된 경우 이벤트 특성에서 가져온 영업 도우미 매개 변수를 사용하여 전자 메일 머리글(보낸 사람 이름, 보낸 사람 전자 메일, 회신 주소)을 개인화할 수 있습니다.
+
+   * 판매 도우미가 외부에서 시작한 [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md)에서, 캠페인 컨텍스트 매개 변수에서 가져온 판매 도우미와 헤더 개인화 값을 대신하여 트리거된 이메일을 보낼 수 있습니다.
 
 1. 개인화를 추가할 각 매개 변수에 대해 위의 단계를 반복합니다.
 
@@ -138,7 +140,7 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## 구성 세부 정보 보기 {#view-surface-details}
 
-캠페인이나 구성에 개인화된 설정이 있는 구성을 사용하는 경우 캠페인 또는 구성 내에서 직접 구성 세부 정보를 표시할 수 있습니다. 아래 단계를 수행합니다.
+캠페인이나 여정에서 개인화된 설정이 있는 구성을 사용할 때 캠페인이나 여정 내에서 직접 구성 세부 정보를 표시할 수 있습니다. 아래 단계를 수행합니다.
 
 1. [여정](../campaigns/create-campaign.md) 또는 [캠페인](../building-journeys/journey-gs.md) 전자 메일을 만듭니다.
 
@@ -157,3 +159,33 @@ Now when the email is sent out, this parameter will be automatically appended to
 1. 동적 하위 도메인의 세부 정보를 표시하려면 **[!UICONTROL 확장]**&#x200B;을 선택하십시오.
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
+
+## 구성 확인 {#check-configuration}
+
+캠페인 또는 여정에서 개인화된 구성을 사용할 때 이메일 콘텐츠를 미리 보고 정의한 동적 설정으로 잠재적인 오류가 있는지 확인할 수 있습니다. 아래 단계를 수행합니다.
+
+1. 메시지의 콘텐츠 편집 화면 또는 이메일 Designer에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다. [자세히 알아보기](../content-management/preview.md)
+
+1. [테스트 프로필](../content-management/test-profiles.md)을 선택하세요.
+
+1. 오류가 표시되면 **[!UICONTROL 구성 세부 정보 보기]** 단추를 클릭합니다.
+
+   ![](assets/campaign-simulate-config-error.png)
+
+1. 오류 세부 정보는 **[!UICONTROL 게재 설정]** 화면을 확인하십시오.
+
+   ![](assets/campaign-simulate-config-details.png)
+
+가능한 오류는 다음과 같습니다.
+
+* 선택한 테스트 프로필에 대해 **하위 도메인**&#x200B;이(가) 확인되지 않았습니다. 예를 들어 구성에 다른 국가에 해당하는 여러 전송 하위 도메인이 사용되지만 선택한 프로필에 `Country` 특성에 대해 정의된 값이 없거나 특성이 `France`(으)로 설정되어 있지만 이 값은 해당 구성의 하위 도메인과 연결되어 있지 않습니다.
+
+* 선택한 프로필에 하나 이상의 **헤더 매개 변수**&#x200B;에 대해 연결된 값이 없습니다.
+
+이러한 오류가 발생하면 선택한 테스트 프로필로 이메일이 전송되지 않습니다.
+
+이러한 유형의 오류를 방지하려면 정의하는 헤더 매개 변수가 대부분의 프로필에 대한 값과 함께 개인화된 속성을 사용하는지 확인하십시오. 값이 누락되면 이메일 전달성에 영향을 줄 수 있습니다.
+
+>[!NOTE]
+>
+>[이 섹션](../reports/deliverability.md)에서 전달성에 대해 자세히 알아보기
