@@ -7,10 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 0%
 
 ---
 
@@ -82,6 +82,12 @@ Workspace Customer Journey Analytics 및 데이터를 필터링하고 분석하�
 * **[!UICONTROL 백분율 값]**&#x200B;을(를) 조정하여 다른 여정 경로 간의 흐름 분포를 결정합니다.
 * 레이블, 조건을 포함하거나 깔끔한 표시를 선택하도록 **[!UICONTROL 화살표 설정]**&#x200B;을(를) 사용자 지정합니다.
 * **[!UICONTROL 폴아웃 표시]** 옵션을 활성화하여 캔버스에서 직접 여정을 종료한 프로필을 시각화하십시오.
+
+**[!UICONTROL 노드 유형]** 필터링을 사용할 때 다음 규칙이 적용됩니다.
+
+* 노드에서 여정을 만들 때 해당 노드가 **[!UICONTROL 노드 유형]** 필터를 통해 제외된 경우에도 세그먼트의 이전 단계의 노드를 포함합니다.
+
+* **[!UICONTROL 여정 형식]** 필터를 통해 노드의 이전 단계에 있는 노드가 제외된 경우 화살표로 구성된 세그먼트를 만들 수 없습니다. 이 경우 해당 화살표에서 마우스 오른쪽 버튼 클릭 기능이 비활성화됩니다.
 
 ## 액션 성능 {#action-performance}
 
