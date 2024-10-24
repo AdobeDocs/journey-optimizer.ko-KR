@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -180,7 +180,7 @@ ht-degree: 40%
 >id="ajo_admin_surface_uri"
 >title="구성 요소에 대한 표면 URI 추가"
 >abstract="구현이 웹, iOS 또는 Android용이 아니거나 특정 URI를 타기팅해야 하는 경우, 경험을 게재하려는 엔티티를 가리키는 고유 식별자인 표면 URI를 입력하십시오. 자체 구현에 사용된 것과 일치하는 표면 URI를 입력해야 합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="다른 플랫폼을 위한 코드 기반 경험 구성 만들기"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/code-based-experience/code-based-configuration#other" text="다른 플랫폼을 위한 코드 기반 경험 구성 만들기"
 
 코드 기반 경험 **surface**&#x200B;은(는) 사용자 또는 시스템 상호 작용을 위해 디자인된 모든 엔터티이며 **URI**&#x200B;에 의해 고유하게 식별됩니다. 표면은 애플리케이션 구현에 지정되며 코드 기반 경험 채널 구성에서 참조되는 표면과 일치해야 합니다.
 
