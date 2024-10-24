@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
+source-git-commit: 92ecd1261e6c734743c4ab5173969da6e54cd15a
 workflow-type: tm+mt
-source-wordcount: '1942'
-ht-degree: 38%
+source-wordcount: '1990'
+ht-degree: 37%
 
 ---
 
@@ -341,5 +341,6 @@ ht-degree: 38%
 
 * 이제 콘텐츠 템플릿을 사용할 수 있습니다. 개발자가 작성한 콘텐츠 템플릿에서 시작하여 코드 기반 경험을 빠르게 작성할 수 있습니다. 마케터는 컨텐츠 템플릿을 사용하면 전체 HTML 또는 JSON 컨텐츠 페이로드를 작성하는 대신 일부 값 또는 필드를 수정할 수 있습니다.
 
+**의사 결정**
 
-
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko) 사용자는 이제 의사 결정(이전 Experience Decisioning)에서 AI 모델을 설정할 때 최적화할 사용자 지정 모델을 선택할 수 있습니다. 예를 들어 클릭스루 비율과 같은 정의된 제한 대신 사용자 정의 &quot;구매&quot; 테이블에서 최적화할 수 있습니다.&quot;
