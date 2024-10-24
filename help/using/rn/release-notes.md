@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
+source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
 workflow-type: tm+mt
-source-wordcount: '3162'
-ht-degree: 54%
+source-wordcount: '3096'
+ht-degree: 56%
 
 ---
 
@@ -44,8 +44,8 @@ ht-degree: 54%
 <tr>
 <td>
 <p>이제 Journey Optimizer에서 이메일 템플릿의 콘텐츠를 잠글 수 있습니다. 템플릿 전체를 잠그거나 특정 구조 및 구성 요소를 잠그는 것이 가능합니다. 이를 통해 의도하지 않은 편집 또는 삭제를 방지할 수 있으므로 템플릿의 사용자 정의 기능을 더욱 강력하게 제어하고 이메일 캠페인의 효율성과 안정성을 향상시킬 수 있습니다.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>-->
-<img src="assets/do-not-localize/ai-content.gif">
+<p>자세한 내용은 <a href="../content-management/content-locking.md">세부 설명서</a>를 참조하십시오.</p>
+<img src="assets/do-not-localize/gif-content-locking.gif">
 </td>
 </tr>
 </tbody>
@@ -138,10 +138,10 @@ ht-degree: 54%
 <p>Journey Optimizer에서 너무 많은 상호 작용으로 압도적인 고객을 피하려면 캠페인 및 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer은 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다.</p><p><ul><li><b>여정 빈도 제한</b>: 이제 여정에 적용할 규칙 집합을 만들어 프로필의 여정 수를 일, 주 또는 월로 제한하고 동시에 실행되는 동시 여정 수를 제어할 수 있습니다.</li>
 <li><b>우선 순위 점수</b>: 이제 0에서 100 사이의 우선 순위 점수를 캠페인이나 여정에 할당할 수 있습니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 두 캠페인 또는 여정 작업이 동일한 채널 구성을 사용하는 경우 Journey Optimizer에서 우선 순위 점수가 가장 높은 캠페인을 선택합니다. 캠페인의 점수가 동일한 경우, 가장 최근에 수정되지 않은 캠페인이 선택됩니다.</li>
 <li><b>잠재적 충돌 보기</b>: 이제 여정 및 캠페인의 새로운 "잠재적 충돌 보기" 단추를 사용하여 시작 날짜, 대상 또는 선택한 여정 구성과 같은 다른 채널 또는 캠페인과 겹치는 부분을 식별할 수 있습니다.</li>
-<li><b>여정 중재</b>: 이 새로운 기능을 사용하면 고객에게 가장 중요한 여정의 우선 순위를 지정할 수 있습니다. 고객이 더 높은 우선순위의 예정된 여정에 대한 자격이 있을 때 더 낮은 우선순위의 여정에 들어가지 않도록 규칙을 만들 수 있습니다.</li></ul></p>
+<li><b>여정 중재</b>: 이 새로운 기능을 사용하면 고객에게 가장 중요한 여정의 우선 순위를 지정할 수 있습니다. 고객이 더 높은 우선순위의 예정된 여정에 대한 자격이 있을 때 더 낮은 우선순위의 여정에 들어가지 않도록 규칙을 만들 수 있습니다.</li>
+<li><b>통신 유형별 빈도 제한: </b>이제 규칙 집합을 사용하여 통신 유형별로 세분화된 규칙(예: 판매, 프로모션)을 설정하여 유사한 메시지가 있는 고객을 오버로드할 수 있습니다. 여러 채널에서 빈도를 제어할 수 있으며, 과도하게 요청된 프로필을 자동으로 제외하여 고객 경험을 개선할 수 있습니다.</li></ul>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 <p>충돌 및 우선 순위 관리 기능은 일부 고객이 제한된 가용성으로 사용할 수 있습니다. 이러한 기능은 향후 더 많은 사용자에게 점진적으로 배포될 예정입니다. 이러한 기능에 대한 대기자 명단에 추가하려는 경우 계정 팀에 문의하십시오.</p>
-
 </td>
 </tr>
 </tbody>
@@ -191,34 +191,13 @@ ht-degree: 54%
 <tbody>
 <tr>
 <td>
-<p>이전에 LA(조직) 세트에서 사용할 수 있고 Experience Decisioning으로 알려진 Decisioning은 이제 모든 사용자(GA)가 사용할 수 있습니다. '의사 결정 항목'이라고 하는 마케팅 오퍼의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 등급 기준을 활용하여 각 개인에게 가장 관련성이 높은 결정 항목을 선택하고 제공합니다. 이러한 의사 결정 항목은 코드 기반 경험 채널을 통해 광범위한 인바운드 표면에 원활하게 통합됩니다.</p>
+<p>이전에 LA(조직)에서 사용할 수 있고 Experience Decisioning이라고 했던 Decisioning은 이제 Healthcare Shield 또는 Privacy and Security Shield 추가 기능 서비스를 구입한 조직을 포함한 모든 Adobe(GA)가 사용할 수 있습니다.</p><p>Decisioning은 '의사 결정 항목'이라고 하는 마케팅 오퍼의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 등급 기준을 활용하여 각 개인에게 가장 관련성이 높은 결정 항목을 선택하고 제공합니다. 이러한 의사 결정 항목은 코드 기반 경험 채널을 통해 광범위한 인바운드 표면에 원활하게 통합됩니다.</p>
 
-<p>현재 Healthcare Shield 및 Privacy and Security Shield 추가 기능 Adobe을 구입한 고객은 Decisioning을 사용할 수 없습니다.</p>
-
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../experience-decisioning/gs-experience-decisioning.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>규칙 세트(제한된 가용성)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 세분화된 빈도 제한 규칙을 만들어 규칙 세트를 통해 메시지 또는 여정에 적용할 수 있습니다. 이 새로운 기능을 사용하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 크로스 채널 규칙을 설정하여 대상자가 메시지를 받는 빈도를 제어할 수 있습니다.</p><p>또한 일, 주 또는 개월당 여정 수를 제한하고 동시에 실행되는 동시 여정 수를 제어할 수 있습니다.</p>
-<p>규칙 세트는 선택한 고객 그룹에 대해 제한된 가용성으로 사용할 수 있습니다. 이러한 기능은 향후 더 많은 사용자에게 점진적으로 배포될 예정입니다. 이 기능의 대기자 명단에 추가하려면 계정 팀에 문의하십시오.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
