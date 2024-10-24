@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c9943f9b8dbd7668bf520c9e3e7a26251d6d3f0b
+source-git-commit: ff18cda7556240b9770639edca42ea9321d00d7a
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3066'
 ht-degree: 55%
 
 ---
@@ -211,7 +211,7 @@ ht-degree: 55%
 <tr>
 <td>
 <p>이제 단일 캠페인 또는 여정 내에서 간편하게 여러 언어로 콘텐츠를 만들 수 있습니다. 이 기능을 사용하면 캠페인이나 여정을 편집할 때 언어를 전환할 수 있으므로 전체 편집 프로세스를 간소화하고 다국어 콘텐츠를 더욱 효율적으로 관리할 수 있습니다.</p>
-<p>이제 일반 출시로 모든 채널에서 다국어 콘텐츠를 액세스할 수 있습니다. </p>
+<p>이전에는 조직 집합(LA)에서 사용할 수 있었지만, 이제 모든 사용자(GA)가 다국어 메시지를 사용할 수 있습니다.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
