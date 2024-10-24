@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 40%
+source-wordcount: '1971'
+ht-degree: 39%
 
 ---
 
@@ -78,6 +78,24 @@ ht-degree: 40%
 <p>이제 이메일 채널 구성을 만들 때 동적 하위 도메인과 개인화된 헤더 매개 변수를 정의하여 이메일 설정을 더욱 유연하게 제어할 수 있습니다.</p><p>캠페인 또는 여정에서 개인화된 구성을 사용하면 이메일 콘텐츠를 미리 보고 정의한 동적 설정으로 잠재적인 오류가 있는지 확인할 수 있습니다.</p>
 <p>이전에는 조직 집합(LA)에서 사용할 수 있었으나, 이제 모든 사용자(GA)가 이메일 구성 개인화를 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../email/surface-personalization.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>샘플 입력 데이터를 사용하여 콘텐츠 테스트(Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정 최적기를 사용하여 이메일 콘텐츠를 미리 보고 CSV 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 증명을 전송하여 다양한 유형의 이메일 콘텐츠를 테스트할 수 있습니다. 개인화를 위한 콘텐츠에 사용되는 모든 프로필 속성은 시스템에서 자동으로 감지되며 테스트에 사용하여 여러 변형을 만들 수 있습니다.</p>
+<p>이 기능은 현재 베타로 사용할 수 있습니다.</p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
