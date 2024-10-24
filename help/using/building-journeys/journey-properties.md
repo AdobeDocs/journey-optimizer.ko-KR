@@ -58,10 +58,10 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="재진입 허용"
->abstract="기본적으로 새 여정에서는 재진입이 허용됩니다. 예를 들어 사용자가 상점에 입장할 때 일회성 선물을 제공하려 한다면 **재진입 허용** 옵션을 선택 해제하면 됩니다."
+>abstract="기본적으로 새 여정은 재진입을 허용합니다. 예를 들어 사용자가 상점에 입장할 때 일회성 선물을 제공하려 한다면 **재진입 허용** 옵션을 선택 해제하면 됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
 
-기본적으로 새 여정에서는 재진입이 허용됩니다. 예를 들어, 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 번&quot; 여정에 대해 **재입장 허용** 옵션의 선택을 취소할 수 있습니다.
+기본적으로 새 여정은 재진입을 허용합니다. 예를 들어, 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 번&quot; 여정에 대해 **재입장 허용** 옵션의 선택을 취소할 수 있습니다.
 
 ### 재진입 대기 기간  {#reentrance-wait}
 
