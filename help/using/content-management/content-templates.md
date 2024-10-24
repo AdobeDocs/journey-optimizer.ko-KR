@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '214'
 ht-degree: 7%
 
 ---
@@ -26,15 +26,19 @@ ht-degree: 7%
 
 예를 들어 회사 내의 사용자는 콘텐츠만 담당하므로 캠페인이나 여정에 액세스할 수 없습니다. 그러나 이 사용자는 조직의 마케터가 모든 이메일에서 시작점으로 사용하기 위해 선택할 수 있는 이메일 템플릿을 만들 수 있습니다.
 
-API를 사용하여 콘텐츠 템플릿을 만들고 관리할 수도 있습니다. 자세한 내용은 [Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}를 참조하세요.
+이메일, 푸시, 인앱, SMS 및 DM 채널에 대한 콘텐츠 템플릿을 만들 수 있습니다.
+
+>[!AVAILABILITY]
+>
+>현재 웹 채널에는 콘텐츠 템플릿을 사용할 수 없습니다.
+
+콘텐츠 템플릿을 만들고 편집하고 삭제하려면 **[!DNL Content Library Manager]** 제품 프로필에 **[!DNL Manage library items]** 권한이 포함되어 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
 ➡️[이 비디오에서 템플릿을 만들고 사용하는 방법을 알아보세요](#video-templates)
 
->[!CAUTION]
+>[!NOTE]
 >
->현재 웹 채널에는 콘텐츠 템플릿을 사용할 수 없습니다.
->
->콘텐츠 템플릿을 만들고 편집하고 삭제하려면 **[!DNL Content Library Manager]** 제품 프로필에 **[!DNL Manage library items]** 권한이 포함되어 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+>API를 사용하여 콘텐츠 템플릿을 만들고 관리할 수도 있습니다. 자세한 내용은 [Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}를 참조하세요.
 
 ## 방법 비디오 {#video-templates}
 

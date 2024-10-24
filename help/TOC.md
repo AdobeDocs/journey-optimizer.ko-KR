@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
+source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2152'
 ht-degree: 94%
 
 ---
@@ -350,6 +350,7 @@ ht-degree: 94%
       + [콘텐츠 템플릿 시작](using/content-management/content-templates.md)
       + [템플릿 액세스 및 관리](using/content-management/access-content-templates.md)
       + [콘텐츠 템플릿 만들기](using/content-management/create-content-templates.md)
+      + [전자 메일 템플릿의 콘텐츠 잠금](using/content-management/content-locking.md)
       + [콘텐츠 템플릿 테스트](using/content-management/test-content-templates.md)
       + [콘텐츠 템플릿 사용](using/content-management/use-content-templates.md)
    + 재사용 가능한 콘텐츠 조각 {#fragments}
