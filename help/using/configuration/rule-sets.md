@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d458cf01c9d14682deb080083ab8bb468b3b4fd7
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1968'
 ht-degree: 10%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 10%
 사용자가 하나 또는 여러 채널에서 메시지를 받는 횟수를 제한하는 글로벌 비즈니스 규칙 외에도 규칙 세트를 사용하면 **여러 규칙을 함께 규칙 세트로 그룹화**&#x200B;하여 선택한 캠페인에 적용할 수 있습니다. 이를 통해 통신 유형에 따라 사용자가 메시지를 받는 빈도를 제어할 수 있는 세부 기간을 개선할 수 있습니다.
 
 예를 들어 고객에게 전송되는 **프로모션 커뮤니케이션**&#x200B;의 수를 제한하는 규칙 세트와 고객에게 전송되는 **뉴스레터**&#x200B;의 수를 제한하는 규칙 세트를 만들 수 있습니다. 생성 중인 캠페인 유형에 따라 프로모션 커뮤니케이션 또는 뉴스레터 규칙 세트를 적용하도록 선택할 수 있습니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ### 글로벌 및 사용자 지정 규칙 세트 {#global-custom}
 
@@ -313,3 +315,7 @@ In this scenario, an individual profile:
 >여정이 즉시 활성화되면 시스템이 고객 억제를 시작하는 데 최대 15분이 걸릴 수 있습니다. 이러한 가능성을 방지하기 위해 적어도 15분 후에 여정을 시작하도록 예약할 수 있습니다.
 
 +++
+
+## 방법 비디오 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

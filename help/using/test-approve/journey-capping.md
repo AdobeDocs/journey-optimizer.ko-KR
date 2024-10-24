@@ -6,10 +6,10 @@ level: Beginner
 badge: label="제한 공개"
 hide: true
 hidefromtoc: true
-source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -37,6 +37,8 @@ ht-degree: 2%
 * **동시성 한도**&#x200B;는 프로필을 동시에 등록할 수 있는 여정 수를 제한합니다.
 
 두 가지 유형의 여정 제한 모두 우선 순위 점수를 활용하여 항목을 중재합니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 여정 최대 가용량 규칙 만들기 {#create-rule}
 
@@ -115,3 +117,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >여정이 즉시 활성화되면 시스템이 고객 억제를 시작하는 데 최대 15분이 걸릴 수 있습니다. 이러한 가능성을 방지하기 위해 적어도 15분 후에 여정을 시작하도록 예약할 수 있습니다.
+
+## 방법 비디오 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
