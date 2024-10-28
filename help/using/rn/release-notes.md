@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2ea81c13e25f1b5a3808bd956a588794f460a521
+source-git-commit: bfd0c7c976146c0cccdb51a720c27653b3e5a7b4
 workflow-type: tm+mt
 source-wordcount: '3104'
 ht-degree: 55%
@@ -343,7 +343,8 @@ ht-degree: 55%
 **구성** - 사용 가능한 날짜: 2024년 10월 23일
 
 * 이제 캠페인 또는 여정에서 개인화된 구성을 사용할 때 이메일 콘텐츠를 미리 보고 정의한 동적 설정으로 잠재적인 오류가 있는지 확인할 수 있습니다. [자세히 알아보기](../email/surface-personalization.md#check-configuration)
-  **코드 기반 채널**
+
+**코드 기반 채널**
 
 * 이제 콘텐츠 템플릿을 사용할 수 있습니다. 개발자가 작성한 콘텐츠 템플릿에서 시작하여 코드 기반 경험을 빠르게 작성할 수 있습니다. 마케터는 컨텐츠 템플릿을 사용하면 전체 HTML 또는 JSON 컨텐츠 페이로드를 작성하는 대신 일부 값 또는 필드를 수정할 수 있습니다.
 
