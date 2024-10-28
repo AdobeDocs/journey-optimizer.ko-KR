@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '3096'
-ht-degree: 56%
+source-wordcount: '3101'
+ht-degree: 55%
 
 ---
 
@@ -309,14 +309,14 @@ ht-degree: 56%
 
 **데이터 세트**
 
-* **Time-to-Live 보호** - 2024년 11월 1일부터 TTL(Time-to-Live) 보호가 다음과 같이 새 샌드박스 및 새 조직의 Journey Optimizer 시스템 생성 데이터 세트로 롤아웃됩니다.
+* **이벤트 전송 및 열기** - 2024년 11월 1일부터 스트리밍 세분화는 더 이상 Journey Optimizer 추적 및 피드백 데이터 세트에서 전송 및 열기 이벤트를 사용할 수 없습니다. 이 변경 사항은 모든 고객 샌드박스 및 조직에 적용됩니다. [자세히 알아보기](../data/datasets-ttl.md#segmentation-update)
+
+* **TTL(Time-to-Live)** - 2025년 2월부터 TTL(Time-to-Live) 가드레일이 다음과 같이 새 샌드박스 및 새 조직의 Journey Optimizer 시스템 생성 데이터 세트로 롤아웃됩니다.
 
    * 프로필 스토어의 데이터에 대해 90일
    * 데이터 레이크의 데이터에 대해 13개월
 
-  이 변경 사항은 이후 두 번째 단계에서 기존 고객 샌드박스로 롤아웃됩니다.
-
-  또한 11월 1일부터 스트리밍 세분화는 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트 사용을 더 이상 지원하지 않습니다. 이 변경 사항은 해당 시점에 모든 고객 샌드박스 및 조직에 적용됩니다. [자세히 알아보기](../data/datasets-ttl.md)
+  이 변경 사항은 후속 단계에서 기존 고객 샌드박스로 롤아웃됩니다. [자세히 알아보기](../data/datasets-ttl.md#ttl)
 
 * **사용자 지정 작업의 매개 변수**(사용 가능한 날짜: 2024년 10월 3일) - 이제 사용자 지정 작업에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
