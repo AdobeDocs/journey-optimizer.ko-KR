@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 59a597a563074fa4daa74c64e97f6bb5c0f6834d
+source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 라이브 여정의 경우 다음에 액세스할 수 있습니다.
 
-* **[!UICONTROL 입력한 프로필]**: 이 활동에 입력한 총 개인 수입니다.
+* **[!UICONTROL 입력한 프로필]**: 여정을 종료한 총 개인 수(오류 포함).
 * **[!UICONTROL 프로파일링된 종료됨]**: 종료 조건으로 인해 해당 활동에서 여정을 종료한 총 개인 수.
 * **[!UICONTROL 오류가 있는 프로필]**: 여정 중에 오류가 발생한 개인의 총 수입니다.
 * **[!UICONTROL 삭제된 프로필]**: 다음 이유 중 하나로 여정에서 삭제된 총 개인 수:
@@ -41,6 +41,6 @@ ht-degree: 0%
 
 모든 라이브 여정 내의 각 활동에 대해 다음에 액세스할 수 있습니다.
 
-* **[!UICONTROL 입력한 프로필]**: 이 활동에 입력한 총 개인 수입니다.
-* **[!UICONTROL 종료된 여정]**: 종료 조건으로 인해 해당 활동에서 프로필을 종료한 총 개인 수
+* **[!UICONTROL 입력됨]**: 이 활동에 입력한 총 개인 수입니다.
+* **[!UICONTROL 종료됨(종료 기준을 충족함)]**: 종료 기준으로 인해 해당 활동에서 여정을 종료한 총 개인 수.
 * **[!UICONTROL 오류]**: 해당 활동에 오류가 있는 개인의 총 수입니다.
