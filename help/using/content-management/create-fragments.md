@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 2df350352a44bff2cb5475d3968aa127da6a27bf
+source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 14%
@@ -21,7 +21,7 @@ ht-degree: 14%
 >id="ajo_create_visual_fragment"
 >title="비주얼 유형 선택"
 >abstract="여정 또는 캠페인 내의 이메일이나 콘텐츠 템플릿에서 콘텐츠를 재사용할 수 있도록 독립 실행형 시각적 조각을 만듭니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/email/design-email/add-content/use-visual-fragments" text="이메일에 비주얼 조각 추가"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="이메일에 비주얼 조각 추가"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
