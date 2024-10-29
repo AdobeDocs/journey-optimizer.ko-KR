@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 13%
+source-wordcount: '1363'
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 [!DNL Journey Optimizer]을(를) 사용하면 인바운드 여정 또는 캠페인을 통해 고객에게 제공하는 웹 경험을 개인화할 수 있습니다.
 
-## 여정 또는 캠페인을 통한 웹 경험 추가 {#create-web-experience}
+## 여정 또는 캠페인을 통한 웹 경험 정의 {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -59,7 +59,7 @@ ht-degree: 13%
 
    ![](assets/web-activity-configuration.png)
 
-1. **[!UICONTROL 콘텐츠 편집]** 단추를 선택하고 웹 디자이너를 사용하여 원하는 대로 콘텐츠를 편집하십시오. [자세히 알아보기](edit-web-content.md)
+1. **[!UICONTROL 콘텐츠 편집]** 단추를 선택하고 원하는 대로 콘텐츠를 편집하십시오. [자세히 알아보기](#edit-web-content)
 
 1. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
 
@@ -87,7 +87,7 @@ ht-degree: 13%
 
    ![](assets/web-campaign-steps.png)
 
-1. 웹 디자이너를 사용하여 원하는 대로 콘텐츠를 편집하려면 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하십시오. [자세히 알아보기](edit-web-content.md)
+1. 콘텐츠를 원하는 대로 편집하려면 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하십시오. [자세히 알아보기](#edit-web-content)
 
    <!--![](assets/web-campaign-edit-content.png)-->
 
@@ -97,6 +97,41 @@ ht-degree: 13%
 
 >[!ENDTABS]
 
+## 웹 콘텐츠 편집 {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_surface"
+>title="편집할 URL 확인"
+>abstract="위에 정의된 웹 구성에 적용되는 콘텐츠 편집에 사용할 특정 웹 페이지의 URL을 확인합니다. Adobe Experience Platform Web SDK를 사용하여 웹 페이지를 구현해야 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="자세히 알아보기"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_rule"
+>title="편집할 URL 입력"
+>abstract="규칙과 일치하는 모든 페이지에 적용되는 콘텐츠 편집에 사용할 특정 웹 페이지의 URL을 입력합니다. Adobe Experience Platform Web SDK를 사용하여 웹 페이지를 구현해야 합니다."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR" text="자세히 알아보기"
+
+[여정 또는 캠페인에 웹 작업을 추가](#create-web-experience)하면 다음 중 하나를 사용하여 사이트의 콘텐츠를 편집할 수 있습니다.
+
+* [웹 디자이너](web-visual-editor.md)을(를) 사용하여 시각적 편집기를 사용하여 환경을 작성합니다.
+* 또는 [비시각적 편집기](web-non-visual-editor.md)입니다.
+
+웹 경험 작성을 시작하려면 아래 단계를 따르십시오.
+
+1. 여정 또는 캠페인의 **[!UICONTROL Web]** 활동에서 **[!UICONTROL Action]** 탭에서 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 선택합니다.
+
+   ![](assets/web-campaign-edit-content.png)
+
+1. 버전 화면이 표시됩니다. 다음 중 하나를 수행할 수 있습니다.
+
+   * 시각적 경험을 위해 웹 디자이너를 사용하여 콘텐츠 작성을 시작하려면 **[!UICONTROL 웹 페이지 편집]** 단추를 클릭하십시오. [자세히 알아보기](web-visual-editor.md)
+
+     ![](assets/web-campaign-edit-web-page.png)
+
+   * **[!UICONTROL 시각적 편집기]** 옵션을 선택 취소하여 비시각적 편집 모드를 대신 사용하고 **[!UICONTROL 수정 추가]**&#x200B;를 클릭하여 시각적 편집기를 로드하지 않고 웹 콘텐츠 편집을 시작합니다. [자세히 알아보기](web-non-visual-editor.md)
+
+     ![](assets/web-campaign-add-modification.png)
+
 ## 웹 경험 테스트 {#test-web-experience}
 
 >[!CONTEXTUALHELP]
@@ -104,7 +139,7 @@ ht-degree: 13%
 >title="웹 경험 미리보기"
 >abstract="웹 경험이 어떻게 시각화되는지 시뮬레이션을 수행합니다."
 
-웹 디자이너를 사용하여 [웹 경험을 작성](edit-web-content.md)하면 테스트 프로필을 사용하여 수정된 웹 페이지를 미리 볼 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 어떻게 표시되는지 확인할 수 있습니다.
+웹 디자이너를 사용하여 [웹 경험을 작성](web-visual-editor.md)하면 테스트 프로필을 사용하여 수정된 웹 페이지를 미리 볼 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 어떻게 표시되는지 확인할 수 있습니다.
 
 이렇게 하려면 여정 또는 캠페인 콘텐츠 편집 화면에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 테스트 프로필을 추가하여 테스트 프로필 데이터를 사용하여 웹 페이지를 확인합니다.
 
@@ -124,7 +159,7 @@ ht-degree: 13%
 >
 > 캠페인이 승인 정책의 적용을 받는 경우 웹 경험을 활성화하려면 승인을 요청해야 합니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
-웹 경험을 정의하고 [웹 디자이너](edit-web-content.md#work-with-web-designer)을(를) 사용하여 원하는 대로 콘텐츠를 편집한 후에는 여정 또는 캠페인을 활성화하여 대상자에게 변경 사항을 표시할 수 있습니다.
+웹 경험을 정의하고 원하는 대로 콘텐츠를 편집한 후에는 여정 또는 캠페인을 활성화하여 변경 사항을 대상자에게 표시할 수 있습니다.
 
 웹 경험 콘텐츠를 라이브로 전환하기 전에 미리 볼 수도 있습니다. [자세히 알아보기](#test-web-experience)
 
@@ -156,7 +191,7 @@ ht-degree: 13%
 
 ### 웹 캠페인 활성화 {#activate-web-campaign}
 
-웹 캠페인 설정을 정의하고 [웹 디자이너](edit-web-content.md#work-with-web-designer)을(를) 사용하여 원하는 대로 콘텐츠를 편집한 후에는 웹 캠페인을 검토하고 활성화할 수 있습니다. 아래 단계를 수행합니다.
+웹 캠페인 설정을 정의하고 원하는 대로 콘텐츠를 편집한 후에는 웹 캠페인을 검토하고 활성화할 수 있습니다. 아래 단계를 수행합니다.
 
 1. 웹 캠페인에서 **[!UICONTROL 활성화 검토]**&#x200B;를 선택합니다.
 
@@ -177,6 +212,8 @@ ht-degree: 13%
 >**[!UICONTROL 활성화]**&#x200B;를 클릭하면 웹 캠페인 변경 내용을 웹 사이트에서 실시간으로 사용할 수 있게 되는 데 최대 15분이 걸릴 수 있습니다.
 >
 >웹 캠페인에 대한 일정을 정의한 경우 시작 날짜 및 시간에 도달할 때까지 **[!UICONTROL 예약됨]** 상태가 됩니다.
+
+경험이 생동하면 웹 여정 및 캠페인을 모니터링할 수 있습니다. [자세히 알아보기](monitor-web-experiences.md)
 
 ## 웹 여정 또는 캠페인 중지 {#stop-web-experience}
 
