@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 3235d53b09d140e61a9e83f6b07ce8351f0fa245
+source-git-commit: c1bbd1c8dae6de4b1fac416fd4b7c0b7be7a07ca
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 86%
 
 ---
 
@@ -20,9 +20,9 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB 24년 9월 릴리스]
+>[!TAB 24년 10월 릴리스]
 
-모바일 앱 및 웹 사이트용 콘텐츠 카드, 여정 및 캠페인의 승인 정책(LA), 여정의 전역 종료 기준 등이 포함된 9월 릴리스가 공개되었습니다.
+이메일 콘텐츠 잠금, 충돌 및 우선 순위 관리(LA), Movable Ink와의 통합을 포함하여 10월 릴리스가 공개되었습니다. 이전에 LA(Limited Availability)에서는 이제 모든 사용자가 이메일 구성 개인화, 승인 정책, 여정의 콘텐츠 실험, 향상된 보고 경험과 같은 기능을 사용할 수 있습니다.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -38,11 +38,11 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB 콘텐츠 조각]
+>[!TAB 여정의 웹 경험]
 
-이제 조각을 편집할 수 있으며 변경 사항을 해당 조각이 사용되는 모든 라이브 여정 및 캠페인에 전파할 수 있습니다.
+웹 채널을 사용하면 Adobe Journey Optimizer에서 인바운드 웹 채널을 통해 고객에게 제공하는 웹 경험을 개인화할 수 있습니다. 이제 여정 캔버스에서 웹 채널을 사용할 수 있습니다.
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 
@@ -121,5 +121,5 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 </td>
 </tr></table>
 
-<table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>최신 정보를 확인해 더욱 편리한 Adobe Journey Optimizer 경험을 누리세요!</b><br/>계간 뉴스레터에 등록하세요. 분기마다 받은 편지함에 등록 고객 전용 최신 제품 업데이트, 매력적인 스토리, 실제 사용 사례, 유용한 팁 등이 직접 찾아옵니다. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">지금 등록하세요!</a></td></tr></table>
+<!--table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
+<b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr></table-->
