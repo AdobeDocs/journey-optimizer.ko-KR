@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
+source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
-source-wordcount: '5672'
+source-wordcount: '5707'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 97%
 
 ## 2024년 10월 {#oct-2024}
 
+* [!DNL Journey Optimizer] 2024년 10월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer]에서 사용할 수 있는 모든 통신 채널이 이제 설명서의 전용 섹션에 그룹화되었습니다. [자세히 보기](../channels/gs-channels.md)
 * 표면 URI를 설명하는 섹션을 포함하여 프로세스를 더 명확하게 하기 위해 **코드 기반 경험 구성** 페이지가 개선되었습니다. [자세히 보기](../code-based/code-based-configuration.md)
 * **웹 채널 구성 만들기** 페이지가 업데이트되어 페이지 일치 규칙을 만들 때 단계를 명확하게 했습니다. 이 규칙은 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
 * 시스템 생성 데이터 세트에 대해 예정된 TTL(time-to-live) 보안에 대한 메모를 추가했습니다. [자세히 보기](../data/get-started-datasets.md)
