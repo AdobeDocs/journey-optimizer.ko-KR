@@ -1,19 +1,19 @@
 ---
-title: Experience Decisioning 사용 사례
+title: 의사 결정 사용 사례
 description: 코드 기반 채널을 사용한 실험을 사용하여 의사 결정을 만드는 방법에 대해 알아봅니다
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="제한 공개"
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 6%
+source-wordcount: '327'
+ht-degree: 7%
 
 ---
 
-# Experience Decisioning 사용 사례 {#experience-decisioning-uc}
+# 의사 결정 사용 사례 {#experience-decisioning-uc}
 
 이 사용 사례에서는 타겟 대상자에게 가장 성과가 좋은 결정 정책을 측정하기 위해 각각 다른 결정 정책을 포함하는 두 개의 게재 처리를 정의합니다.
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 먼저 항목을 만들고, 컬렉션에서 함께 그룹화하고, 규칙과 등급 지정 방법을 설정해야 합니다. 이러한 요소를 사용하여 선택 전략을 작성할 수 있습니다.
 
-1. **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 카탈로그]**(으)로 이동하여 여러 오퍼 항목을 만듭니다. 대상자 또는 규칙을 사용하여 제한을 설정하여 각 항목을 특정 프로필로만 제한합니다. [자세히 알아보기](items.md)
+1. **[!UICONTROL Decisioning]** > **[!UICONTROL 카탈로그]**(으)로 이동하여 여러 오퍼 항목을 만듭니다. 대상자 또는 규칙을 사용하여 제한을 설정하여 각 항목을 특정 프로필로만 제한합니다. [자세히 알아보기](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->

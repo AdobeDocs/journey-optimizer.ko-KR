@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 42b9bfcc9079570a047462c23001d102abda58c9
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '1999'
 ht-degree: 37%
 
 ---
@@ -323,7 +323,7 @@ ht-degree: 37%
 
 **보고**
 
-* 이제 **Experience Decisioning 보고**&#x200B;를 사용할 수 있으므로 방문자가 경험과 상호 작용하는 방식에 대한 필수 통찰력을 제공합니다.
+* 이제 **Decisioning 보고**&#x200B;를 사용할 수 있으므로 방문자가 경험과 상호 작용하는 방식에 대한 필수 통찰력을 제공합니다.
 
 **데이터 거버넌스 및 동의 정책** - 사용 가능한 날짜: 2024년 10월 7일
 

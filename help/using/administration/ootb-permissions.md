@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 | 데이터 수집 | **[!DNL Manage sources]**: 소스를 읽고 만들고 편집하고 사용하지 않도록 설정합니다.</br>**[!DNL View sources]**: [카탈로그] 탭의 사용 가능한 소스와 [찾아보기] 탭의 인증된 소스에 대한 읽기 전용 액세스 권한 |
 | 데이터 관리 | **[!DNL Data monitoring]**: 데이터 세트 및 스트림 모니터링에 대한 읽기 전용 액세스 권한.</br>**[!DNL Manage datasets]**: 데이터 세트를 읽고, 만들고, 편집하고, 삭제합니다. 스키마에 대한 읽기 전용 액세스 권한.</br>**[!DNL View datasets]**: 데이터 세트 및 스키마에 대한 읽기 전용 액세스입니다. |
 | 데이터 모델링 | **[!DNL Manage identity metadata]**: 스키마에 대한 id 메타데이터를 읽고, 만들고, 편집하고, 삭제합니다.</br> **[!DNL Manage relationships]**: 스키마 관계를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage schemas]**: XDM(경험 데이터 모델) 스키마를 읽고 만들고 편집합니다.</br>**[!DNL View schemas]**: 스키마에 대한 읽기 전용 액세스 권한. |
-| 의사 결정 관리 | **[!DNL Manage decisions]**: 의사 결정 엔터티를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage offers]**: 모든 오퍼, 구성 요소, 읽기 결정 및 컬렉션을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</br>**[!DNL View decisions]**: 오퍼 엔터티에 대한 읽기 전용 액세스입니다.<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</br>--> |
+| 의사 결정 관리 | **[!DNL Manage decisions]**: 의사 결정 엔터티를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage offers]**: 모든 오퍼, 구성 요소, 읽기 결정 및 컬렉션을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</br>**[!DNL View decisions]**: 오퍼 엔터티에 대한 읽기 전용 액세스입니다.<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Decisioning entities.</br>--> |
 | 대상 | **[!DNL Activate destinations]**: 사용자에게 기존 대상에 대한 대상을 활성화할 수 있는 기능을 제공합니다.</br>**[!DNL Activate segment without mapping]**: 매핑 단계를 표시하지 않고 기존 대상에 대해 대상을 활성화할 수 있는 기능을 사용자에게 제공합니다. 사용자는 활성화 워크플로에서 대상을 추가하거나 제거할 수 있지만 매핑된 속성 또는 ID를 추가하거나 제거할 수 없습니다.</br>**[!DNL Destination authoring]**: Adobe Experience Platform Destination SDK을 사용하는 작성자 대상입니다.</br>**[!DNL Manage and activate dataset destination]**: 데이터 집합 내보내기 흐름을 읽고 만들고 편집하고 사용하지 않도록 설정합니다. 생성된 활성 데이터 세트에 대한 데이터도 활성화할 수 있습니다.</br>**[!DNL Manage destinations]**: 대상 활성화 흐름 및 대상 계정을 읽고 만들고 삭제합니다.</br>**[!DNL View destinations]**: [카탈로그] 탭의 사용 가능한 대상 및 [찾아보기] 탭의 인증된 대상에 대한 읽기 전용 액세스 권한 |
 | ID 관리 | **[!DNL Manage identity namespaces]**: id 네임스페이스를 읽고 만들고 편집합니다.</br>**[!DNL Manage identity settings]**: id 설정을 읽고 만들고 편집합니다.</br>**[!DNL View identity namespaces]**: id 네임스페이스에 대한 읽기 전용 액세스 권한.</br>**[!DNL View identity settings]**: id 설정에 대한 읽기 전용 액세스 권한.</br>**[!DNL View identity graph]**: id 그래프에 대한 읽기 전용 액세스 권한. |
 | Journey Optimizer 라이브러리 | **[!DNL Manage Library Items]**: [!DNL Journey Optimizer] 라이브러리에 저장된 식을 추가하고 삭제합니다.</br>**[!DNL Simulate content]**: 미리 보기 및 증명을 위해 콘텐츠 시뮬레이션 옵션에 액세스합니다.</br>**[!DNL Publish fragments]**: 콘텐츠 조각을 게시합니다. |

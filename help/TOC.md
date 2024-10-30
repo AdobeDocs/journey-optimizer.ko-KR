@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2156'
 ht-degree: 94%
 
 ---
@@ -446,7 +446,7 @@ ht-degree: 94%
       + [새로운 DMARC 요구 사항](using/configuration/dmarc-record-update.md)
    + [경고](using/reports/alerts.md)
    + [제외 이유](using/reports/exclusion-list.md)
-+ 의사 결정 {#decisioning}
++ 결정 기능 {#decisioning}
    + 의사 결정 관리 {#offer-decisioning}
       + 의사 결정 관리 시작 {#get-started-decision}
          + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
@@ -587,8 +587,8 @@ ht-degree: 94%
             + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + 경험 결정(LA) {#experience-decisioning}
-      + [Experience Decisioning 시작](using/experience-decisioning/gs-experience-decisioning.md)
+   + LA(의사 결정) {#experience-decisioning}
+      + [Decisioning 시작하기](using/experience-decisioning/gs-experience-decisioning.md)
       + API 참조{#api-reference}
          + 결정 항목{#decision-items}
             + [결정 항목 만들기](using/experience-decisioning/api-reference/decisions-items/create.md)

@@ -1,39 +1,39 @@
 ---
-title: Experience Decisioning 시작
-description: Experience Decisioning에 대한 자세한 내용
+title: Decisioning 시작하기
+description: Decisioning에 대한 자세한 내용
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="제한 공개"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 32%
+source-wordcount: '408'
+ht-degree: 19%
 
 ---
 
-# Experience Decisioning 시작 {#get-started-experience-decisioning}
+# Decisioning 시작하기 {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>의사 결정은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 >
 >지금은 Adobe **Healthcare Shield** 및 **Privacy and Security Shield** 추가 기능 서비스를 구입한 고객은 이 기능을 사용할 수 없습니다.
 
-## Experience Decisioning 소개 {#about}
+## Decisioning 소개 {#about}
 
-Experience Decisioning은 &#39;의사 결정 항목&#39;으로 알려진 마케팅 의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.
+Decisioning은 &#39;의사 결정 항목&#39;이라고 하는 마케팅 오퍼의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.
 
-이러한 결정 항목은 [새 코드 기반 경험 채널](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)을 통해 광범위한 인바운드 표면에 원활하게 통합되어 이제 Journey Optimizer 캠페인 내에서 액세스할 수 있습니다. 경험 결정 의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.
+이러한 결정 항목은 [새 코드 기반 경험 채널](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)을 통해 광범위한 인바운드 표면에 원활하게 통합되어 이제 Journey Optimizer 캠페인 내에서 액세스할 수 있습니다. 의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.
 
 
-## Experience Decisioning 주요 단계 {#steps}
+## 의사 결정 주요 단계 {#steps}
 
-Experience Decisioning을 사용하는 주요 단계는 다음과 같습니다.
+Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
-1. **적절한 사용 권한을 할당**&#x200B;합니다. Experience Decisioning은 의사 결정 관리자 등 Experience Decisioning 관련 **[!UICONTROL 역할]**&#x200B;에 대한 액세스 권한이 있는 사용자만 사용할 수 있습니다. Experience Decisioning에 액세스할 수 없는 경우 권한을 확장해야 합니다.
+1. **적절한 사용 권한을 할당**&#x200B;합니다. 의사 결정 관리자는 의사 결정 관리자와 같은 의사 결정 관련 **[!UICONTROL 역할]**&#x200B;에 액세스할 수 있는 사용자만 사용할 수 있습니다. Decisioning에 액세스할 수 없는 경우 권한을 확장해야 합니다.
 
    +++의사 결정 관리자 역할을 할당하는 방법 알아보기
 

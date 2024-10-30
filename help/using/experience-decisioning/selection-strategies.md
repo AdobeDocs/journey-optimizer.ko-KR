@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 badge: label="제한 공개"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 21%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 21%
 
 ## 선택 전략 액세스 및 관리
 
-1. **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 전략 설정]** > **[!UICONTROL 선택 전략]**(으)로 이동합니다.
+1. **[!UICONTROL Decisioning]** > **[!UICONTROL 전략 설정]** > **[!UICONTROL 선택 전략]**(으)로 이동합니다.
 
 1. 지금까지 만든 모든 선택 전략이 나열됩니다. 필터를 사용하여 등급 방법에 따라 전략을 검색할 수 있습니다.
 

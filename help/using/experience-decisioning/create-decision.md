@@ -7,9 +7,9 @@ role: User
 level: Experienced
 badge: label="제한 공개"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 5ffa0937bd9f23f29c8f02d2951cccac73d75f1b
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '1794'
+source-wordcount: '1790'
 ht-degree: 14%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 14%
 >id="ajo_code_based_decision"
 >title="의사 결정은 무엇입니까?"
 >abstract="결정 정책에는 결정 엔진이 최상의 콘텐츠를 선택하기 위한 모든 선택 논리가 포함되어 있습니다. 결정 정책은 캠페인별로 다릅니다. 목표는 각 프로필에 가장 적합한 제안을 선택하는 것이며, 캠페인 작성을 통해서는 메시지에 포함될 항목 속성을 포함하여 선택한 결정 항목이 표시될 방법을 지정할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="경험 결정 정보"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="의사 결정 정보"
 
-의사 결정 정책은 대상자에 따라 제공할 최상의 콘텐츠를 선택하기 위해 경험 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
+의사 결정 정책은 대상자에 따라 제공할 최상의 콘텐츠를 선택하기 위해 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
 
 결정 정책에는 결정 엔진이 최상의 콘텐츠를 선택하기 위한 모든 선택 논리가 포함되어 있습니다. 결정 정책은 캠페인별로 다릅니다. 목표는 각 프로필에 가장 적합한 제안을 선택하는 것이며, 캠페인 작성을 통해서는 메시지에 포함될 항목 속성을 포함하여 선택한 결정 항목이 표시될 방법을 지정할 수 있습니다.
 
@@ -214,12 +214,12 @@ ht-degree: 14%
 
 ## Customer Journey Analytics에서 보고 {#cja}
 
-Customer Journey Analytics으로 작업하는 경우 Experience Decisioning을 활용하는 코드 기반 캠페인에 대한 사용자 지정 보고 대시보드를 만들 수 있습니다.
+Decisioning을 사용하여 작업하는 경우 Decisioning을 활용하는 코드 기반 Customer Journey Analytics에 대한 사용자 지정 보고 대시보드를 만들 수 있습니다.
 
 주요 단계는 아래에 나와 있습니다. Customer Journey Analytics 작업 방법에 대한 자세한 내용은 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}를 참조하세요.
 
 1. Customer Journey Analytics에서 **연결**&#x200B;을 만들고 구성하십시오. 이렇게 하면 보고서를 보낼 데이터 세트에 연결할 수 있습니다. [연결을 만드는 방법을 알아보세요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
 
-1. **데이터 보기**&#x200B;를 만들어 이전에 만든 연결에 연결합니다. **[!UICONTROL 구성 요소]** 탭에서 보고에 표시할 관련 스키마 필드를 선택합니다. Experience Decisioning의 경우 **propositioninteract** 및 **propositiondisplay** 필드를 포함해야 합니다. [데이터 보기를 만들고 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+1. **데이터 보기**&#x200B;를 만들어 이전에 만든 연결에 연결합니다. **[!UICONTROL 구성 요소]** 탭에서 보고에 표시할 관련 스키마 필드를 선택합니다. Decisioning의 경우 **propositioninteract** 및 **propositiondisplay** 필드를 포함해야 합니다. [데이터 보기를 만들고 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
 1. **작업 영역 프로젝트**&#x200B;에서 데이터 구성 요소, 테이블 및 시각화를 결합하여 코드 기반 캠페인에 대한 보고서를 만들고 공유할 수 있습니다.[작업 영역 프로젝트를 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}

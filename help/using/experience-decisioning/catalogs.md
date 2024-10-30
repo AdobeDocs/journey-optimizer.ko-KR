@@ -7,16 +7,16 @@ role: User
 level: Intermediate
 badge: label="제한 공개"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
 # 항목 카탈로그 {#catalog}
 
-Experience Decisioning에서 카탈로그는 의사 결정 항목을 구성하는 중앙 컨테이너 역할을 합니다. 각 카탈로그는 의사 결정 항목에 할당할 수 있는 모든 속성을 포함하는 Adobe Experience Platform 스키마에 연결됩니다.
+Decisioning에서 카탈로그는 의사 결정 항목을 구성하는 중앙 컨테이너 역할을 합니다. 각 카탈로그는 의사 결정 항목에 할당할 수 있는 모든 속성을 포함하는 Adobe Experience Platform 스키마에 연결됩니다.
 
 지금은 생성된 모든 결정 항목이 단일 &quot;오퍼&quot; 카탈로그 내에 통합되어 **[!UICONTROL 카탈로그]** 메뉴를 통해 액세스할 수 있습니다.
 
@@ -41,7 +41,7 @@ Experience Decisioning에서 카탈로그는 의사 결정 항목을 구성하�
 
    >[!CAUTION]
    >
-   >현재 Experience Decisioning은 String, Integer, Boolean, Date, DateTime 및 Decisioning 자산과 같은 데이터 유형만 지원합니다. 이러한 데이터 형식을 벗어나는 필드는 의사 결정 항목이나 카탈로그를 작성할 때 사용할 수 없습니다.
+   >현재 Decisioning은 String, Integer, Boolean, Date, DateTime 및 Decisioning 자산과 같은 데이터 유형만 지원합니다. 이러한 데이터 형식을 벗어나는 필드는 의사 결정 항목이나 카탈로그를 작성할 때 사용할 수 없습니다.
 
    자산 속성을 결정하는 속성에 입력되는 값은 공개 URL입니다. 대부분의 경우 이미지를 가리킵니다.
 
