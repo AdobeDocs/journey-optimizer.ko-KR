@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 16%
+source-wordcount: '2233'
+ht-degree: 18%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 16%
 * 여정 활동에서 [시간 제한 기간](#timeout)을(를) 정의합니다(관리자 전용).
 * 여정 및 프로필 [시간대](#timezone) 선택
 * Adobe Experience Platform 통합 태그를 여정에 할당하여 캠페인 목록에서 쉽게 분류하고 검색을 개선합니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
+* [충돌 관리 도구](#conflict)를 사용하여 충돌을 모니터링하고 여정 우선 순위를 지정합니다.
 
 ![](assets/journey32.png)
 
@@ -45,7 +46,6 @@ ht-degree: 16%
 **기술 세부 정보 복사**&#x200B;를 통해 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정에 대한 기술 정보를 복사할 수 있습니다. `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt` 정보가 복사되었습니다.
 
 특정 프로필의 여정과 관련된 기술 필드 및 [이 페이지에서 사용하는 방법](expression/journey-properties.md)에 대해 자세히 알아보세요.
-
 
 ## 입장 및 재입장 {#entrance}
 
@@ -299,3 +299,14 @@ ht-degree: 16%
 * 종료 기준은 초안 상태에서만 정의됩니다
 * 이벤트와 이벤트 기반 종료 기준 간의 네임스페이스 일관성 여정
 
+## 충돌 관리 {#conflict}
+
+여정 속성의 **[!UICONTROL 충돌 관리]** 섹션에서 충돌을 모니터링하고 여정의 우선 순위를 지정할 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
+
+* 최대 가용량 규칙에 따라 이 여정을 대상의 일부에 제외하려면 **규칙 집합**&#x200B;을 적용하세요. [규칙 집합 작업 방법 알아보기](../configuration/rule-sets.md)
+
+* 여정에 0에서 100 사이의 **우선 순위 점수**&#x200B;를 지정하십시오. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 여기에 삽입된 우선 순위 값은 이 여정에 포함된 모든 인바운드 액션(예: 인앱)에 상속됩니다. [우선 순위 점수를 사용하여 작업하는 방법을 알아봅니다](../conflict-prioritization/priority-scores.md)
+
+  동일한 인바운드 채널 구성이 다른 캠페인이나 여정에 사용되는 경우, 우선 순위 점수가 가장 높은 인바운드 액션이 수신자에게 표시됩니다. 여러 여정이나 캠페인의 점수가 동일한 경우, 가장 최근에 수정된 요소가 선택됩니다.
+
+* 다른 여정, 캠페인 또는 채널 구성과의 **충돌 보기**. 대상, 시작 및 종료 날짜, 채널 구성, 채널 또는 규칙 세트에 대한 겹침을 식별하려면 여기에서 잠재적인 충돌을 볼 수 있습니다. [여정에서 잠재적인 충돌을 식별하는 방법에 대해 알아봅니다](../conflict-prioritization/conflicts.md)

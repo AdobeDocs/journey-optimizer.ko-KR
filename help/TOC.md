@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2161'
 ht-degree: 93%
 
 ---
@@ -175,13 +175,12 @@ ht-degree: 93%
    + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
    + [캠페인 관리](using/campaigns/modify-stop-campaign.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
++ 충돌 관리 및 우선 순위 {#conflict-prioritization}
+   + [충돌 관리 및 우선 순위 지정 시작](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [잠재적인 충돌 파악](using/conflict-prioritization/conflicts.md)
+   + [우선 순위 점수 할당](using/conflict-prioritization/priority-scores.md)
+   + [여정 한도 및 중재](using/conflict-prioritization/journey-capping.md)
 + 테스트 및 승인 {#test}
-   + [충돌 관리 및 우선 순위 지정](using/test-approve/conflict-prioritization.md)
-   + 충돌 관리 및 우선 순위 {#conflict-prioritization}
-      + [충돌 관리 및 우선 순위 지정 시작](using/test-approve/gs-conflict-prioritization.md)
-      + [잠재적인 충돌 파악](using/test-approve/conflicts.md)
-      + [우선 순위 점수 할당](using/test-approve/priority-scores.md)
-      + [여정 한도 및 중재](using/test-approve/journey-capping.md)
    + 콘텐츠 미리 보기 및 테스트 {#preview-test}
       + [샘플 입력 데이터를 사용하여 콘텐츠 테스트](using/test-approve/simulate-sample-input.md)
       + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
@@ -658,7 +657,7 @@ ht-degree: 93%
    + [아카이브 지원](using/configuration/archiving-support.md)
    + [실행 주소 변경](using/configuration/primary-email-addresses.md)
    + [비즈니스 규칙 구성](using/configuration/frequency-rules.md)
-   + [규칙 집합 작업](using/configuration/rule-sets.md)
+   + [규칙 세트(LA) 작업](using/configuration/rule-sets.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
       + 외부 시스템과 통합 {#external-systems}

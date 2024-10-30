@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 규칙 집합 작업
+title: 규칙 세트(LA) 작업
 description: 규칙 세트를 만들고 적용하는 방법 알아보기
 feature: Rules
 topic: Content Management
@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '1968'
+source-wordcount: '1988'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 10%
 
 >[!AVAILABILITY]
 >
->규칙 세트는 현재 선택한 사용자만 베타 버전으로 사용할 수 있습니다. Beta에 포함하려면 Adobe 담당자에게 문의하십시오.
+>규칙 세트는 현재 선택한 고객 그룹에 대해 제한된 가용성으로 사용할 수 있습니다. 이 기능은 앞으로 더 많은 사용자에게 점진적으로 배포될 예정입니다. 대기자 명단에 추가하려면 계정 팀에 문의하십시오.
 
 ## 규칙 세트 시작 {#gs}
 
@@ -167,7 +167,7 @@ ht-degree: 10%
    * **[!UICONTROL 여정 시작 상한]**: 프로필에 지정된 기간 동안 여정에 들어오는 항목 수를 제한합니다.
    * **[!UICONTROL 여정 동시성 상한]**: 프로필을 동시에 등록할 수 있는 여정 수를 제한합니다.
 
-1. 여정 한도 규칙을 구성하는 방법에 대한 자세한 내용은 [여정 한도 및 중재](../test-approve/journey-capping.md) 섹션에서 확인할 수 있습니다.
+1. 여정 한도 규칙을 구성하는 방법에 대한 자세한 내용은 [여정 한도 및 중재](../conflict-prioritization/journey-capping.md) 섹션에서 확인할 수 있습니다.
 
 +++
 
@@ -306,7 +306,7 @@ In this scenario, an individual profile:
 
 여정에 최대 가용량 규칙을 적용하려면 여정에 액세스하여 해당 속성을 엽니다. **[!UICONTROL 최대 가용량 규칙]** 드롭다운에서 관련 규칙 집합을 선택합니다.
 
-![](../test-approve/assets/journey-capping-apply.png)
+![](../conflict-prioritization//assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >
