@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 83%
@@ -75,7 +75,7 @@ ht-degree: 83%
 
 * 웹 브라우저나 모바일 앱을 통해 디지털 속성에 액세스하지 않는 경우 언제든지 코드 기반 경험 사용을 고려할 수 있습니다. 이 경우 [!DNL Journey Optimizer] [웹 채널](../web/get-started-web.md){target="_blank"}또는 [!DNL Journey Optimizer] [인앱 메시징](../in-app/get-started-in-app.md){target="_blank"} 채널을 사용하는 것이 더 좋을 수 있습니다.
 
-* 웹 사이트를 [웹 디자이너](../web/edit-web-content.md#work-with-web-designer){target="_blank"} 비주얼 편집기에 로드할 수 없거나 웹 채널의 시각적 작성을 지원하는 [브라우저 확장](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}을 사용할 수 없는 경우 [!DNL Journey Optimizer] 웹 채널 대신 코드 기반 채널을 사용할 수 있습니다.
+* 웹 사이트를 [웹 디자이너](../web/web-visual-editor.md){target="_blank"} 비주얼 편집기에 로드할 수 없거나 웹 채널의 시각적 작성을 지원하는 [브라우저 확장](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}을 사용할 수 없는 경우 [!DNL Journey Optimizer] 웹 채널 대신 코드 기반 채널을 사용할 수 있습니다.
 
 * API 기반, 헤드리스 또는 서버 측 구현이 있는 경우 [!DNL Journey Optimizer] 웹 또는 인앱 채널 대신 코드 기반 채널을 사용할 수도 있습니다.
 
@@ -85,9 +85,9 @@ ht-degree: 83%
 
 **웹**
 
-* [웹 디자이너](../web/edit-web-content.md#work-with-web-designer){target="_blank"} 시각적 편집기를 사용하여 콘텐츠를 편집합니다.
+* [웹 디자이너](../web/web-visual-editor.md){target="_blank"} 시각적 편집기를 사용하여 콘텐츠를 편집합니다.
 * 웹 브라우저에 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} 구현과 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 확장 프로그램이 설치되어 있어야 합니다. [자세히 알아보기](../web/web-prerequisites.md){target="_blank"}
-* 웹 채널에서는 페이지의 모든 내용을 수정할 수 있으며 변경할 수 있는 사전 정의된 작업 목록이 있습니다. [자세히 알아보기](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
+* 웹 채널에서는 페이지의 모든 내용을 수정할 수 있으며 변경할 수 있는 사전 정의된 작업 목록이 있습니다. [자세히 알아보기](../web/web-visual-editor.md){target="_blank"}
 * 쉽게 설정하고 빠르게 진행할 수 있습니다.
 * 마케팅 담당자 중심입니다.
 

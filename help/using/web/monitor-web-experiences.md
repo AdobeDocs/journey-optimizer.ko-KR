@@ -1,19 +1,19 @@
 ---
-title: 웹 캠페인 모니터링
-description: Journey Optimizer에서 웹 캠페인을 모니터링하는 방법 알아보기
+title: 웹 경험 모니터링
+description: Journey Optimizer에서 웹 경험을 모니터링하는 방법 알아보기
 feature: Web Channel, Reporting
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 3%
 
 ---
 
-# 웹 캠페인 모니터링 {#monitor-web-experiences}
+# 웹 경험 모니터링 {#monitor-web-experiences}
 
 ## 웹 보고서 확인 {#check-web-reports}
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 웹 경험 모니터링을 더욱 개선하기 위해 웹 사이트의 특정 요소에 대한 클릭 수를 추적할 수도 있습니다. 이렇게 하면 웹 보고서에서 해당 요소의 클릭 수를 표시할 수 있습니다. [방법 알아보기](#use-click-tracing)
 
-## 클릭 추적 사용 {#use-click-tracing}
+## 클릭 추적 사용 {#use-click-tracking}
 
 웹 디자이너를 사용하면 웹 사이트의 요소를 선택하고 해당 요소에 대한 클릭 수를 추적할 수 있습니다.
 

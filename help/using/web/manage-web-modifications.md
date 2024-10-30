@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '971'
 ht-degree: 8%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 8%
    >[!CAUTION]
    >
    >후속 작업에 영향을 미칠 수 있으므로 작업을 삭제할 때 주의하여 진행하십시오.
+
+1. [단일 페이지 응용 프로그램](web-spa.md)을 작성하는 경우 다른 보기에 수정 사항을 적용할 수 있습니다. [자세히 알아보기](web-spa.md#apply-modifications-views)
 
 1. 동시에 여러 수정 사항을 삭제하려면 **[!UICONTROL 수정 사항]** 창 상단의 **[!UICONTROL 선택]** 단추를 클릭하고 선택한 수정 사항을 확인한 다음 **[!UICONTROL 삭제]** 아이콘을 클릭합니다.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 16%
 
 ---
@@ -41,13 +41,13 @@ Adobe Experience Platform Web SDK 구현에서 보기를 정의하려면 일회�
 
 Adobe Experience Platform Web SDK 구현에서 SPA 설정이 완료되면 수정 사항을 적용할 웹 사이트의 모든 보기를 탐색해야 합니다. 아래 단계를 수행합니다.
 
-1. [웹 캠페인을 만들고](create-web.md) [웹 디자이너에 액세스합니다](edit-web-content.md).
+1. [웹 여정 또는 캠페인을 만들고](create-web.md) [웹 디자이너에 액세스합니다](web-visual-editor.md).
 
    현재 있는 보기는 왼쪽 상단에 표시됩니다.
 
    ![](assets/web-designer-view-home.png)
 
-1. **[!UICONTROL 찾아보기]** 모드로 전환합니다. [자세히 알아보기](../web/edit-web-content.md#browse-mode)
+1. **[!UICONTROL 찾아보기]** 모드로 전환합니다. [자세히 알아보기](web-visual-editor.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 

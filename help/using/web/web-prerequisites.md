@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -80,7 +80,7 @@ Visual Editing Helper 브라우저 확장 기능을 다운로드하여 설치하
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-작성 기능을 향상시키기 위해 [!DNL Journey Optimizer] [웹 디자이너](edit-web-content.md#work-with-web-designer)에서 웹 사이트를 열면 이제 Adobe Experience Cloud Visual Editing Helper가 자동으로 활성화됩니다.
+작성 기능을 향상시키기 위해 [!DNL Journey Optimizer] [웹 디자이너](web-visual-editor.md)에서 웹 사이트를 열면 이제 Adobe Experience Cloud Visual Editing Helper가 자동으로 활성화됩니다.
 
 확장 기능에는 조건부 설정이 없으며 SameSite 쿠키 설정을 포함하여 모든 설정을 자동으로 처리합니다.
 
@@ -122,7 +122,7 @@ Adobe [!DNL Journey Optimizer] 웹 디자이너를 사용할 때 로드하지 �
 
   ![](assets/web-aep-merge-policy.png)
 
-* Journey Optimizer 웹 경험의 배달 문제를 해결하려면 **Adobe Experience Platform Assurance** 내에서 **Edge Delivery** 보기를 사용할 수 있습니다. 이 플러그인을 사용하면 요청 호출을 자세히 검사하고, 예상 Edge 호출이 예상대로 발생하는지 확인하고, ID 맵, 세그먼트 멤버십 및 동의 설정을 포함한 프로필 데이터를 검사할 수 있습니다. 또한 요청이 자격을 부여한 활동을 검토하고 자격이 없는 활동을 식별할 수 있습니다.
+* Journey Optimizer 웹 경험의 배달 문제를 해결하려면 **Adobe Experience Platform Assurance**&#x200B;에서 **Edge Delivery** 보기를 사용할 수 있습니다. 이 플러그인을 사용하면 요청 호출을 자세히 검사하고, 예상 Edge 호출이 예상대로 발생하는지 확인하고, ID 맵, 세그먼트 멤버십 및 동의 설정을 포함한 프로필 데이터를 검사할 수 있습니다. 또한 요청이 자격을 부여한 활동을 검토하고 자격이 없는 활동을 식별할 수 있습니다.
 
   **Edge Delivery** 플러그인을 사용하면 인바운드 구현을 효과적으로 이해하고 문제를 해결하는 데 필요한 인사이트를 얻을 수 있습니다.
 

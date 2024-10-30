@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 5%
+source-wordcount: '485'
+ht-degree: 4%
 
 ---
 
@@ -54,6 +54,14 @@ Journey Optimizer을 사용하여 Infobip을 구성하려면 다음 단계를 �
 
    * **[!UICONTROL 인바운드 번호]**: 고유한 인바운드 번호를 추가합니다. 이를 통해 서로 다른 샌드박스에서 동일한 API 자격 증명을 사용할 수 있으며, 각 샌드박스는 고유한 인바운드 번호를 가지고 있습니다.
 
+   * **[!UICONTROL 사용자 지정 인바운드 키워드]**: 특정 작업(예: DISCOUNT, OFFERS, ENROLL)에 대해 고유한 키워드를 정의합니다. 이러한 키워드는 프로필의 속성으로 캡처 및 저장되므로 여정 내에서 스트리밍 세그먼트 자격을 트리거하고 사용자 지정된 응답 또는 작업을 제공할 수 있습니다.
+
+   * **[!UICONTROL 기본 인바운드 회신 메시지]**: 최종 사용자가 정의된 키워드와 일치하지 않는 인바운드 SMS를 보낼 때 보내는 기본 답변을 입력하십시오.
+
 1. API 자격 증명 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+
+1. **[!UICONTROL API 자격 증명]** 메뉴에서 bin 아이콘을 클릭하여 API 자격 증명을 삭제합니다.
+
+1. 기존 자격 증명을 수정하려면 원하는 API 자격 증명을 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 변경을 수행합니다.
 
 API 자격 증명을 만들고 구성한 후에는 SMS 및 MMS 메시지에 대한 채널 구성을 만들어야 합니다. [자세히 알아보기](sms-configuration-surface.md)

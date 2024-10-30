@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 2a7707f5538a8d01a7b0d7e531d94d9ef922097a
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1804'
 ht-degree: 15%
 
 ---
@@ -49,6 +49,8 @@ ht-degree: 15%
 
 1. **[!UICONTROL 콘텐츠 편집]** 단추를 선택하고 개인화 편집기를 사용하여 원하는 대로 콘텐츠를 편집하십시오. [자세히 알아보기](#edit-code)
 
+   기존 콘텐츠 템플릿을 코드 콘텐츠의 기반으로 사용할 수도 있습니다. 선택할 수 있는 템플릿은 이전에 선택한 채널 구성을 기반으로 HTML 또는 JSON으로 범위가 지정됩니다. [콘텐츠 템플릿을 사용하는 방법 알아보기](../content-management/use-content-templates.md)
+
 1. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
 
 1. 코드 기반 경험이 준비되면 구성을 완료하고 여정을 게시하여 활성화합니다. [자세히 알아보기](../building-journeys/publishing-the-journey.md)
@@ -76,6 +78,8 @@ ht-degree: 15%
    ![](assets/code-based-campaign-surface.png)
 
 1. 개인화 편집기를 사용하여 원하는 대로 콘텐츠를 편집합니다. [자세히 알아보기](#edit-code)
+
+   기존 콘텐츠 템플릿을 코드 콘텐츠의 기반으로 사용할 수도 있습니다. 선택할 수 있는 템플릿은 이전에 선택한 채널 구성을 기반으로 HTML 또는 JSON으로 범위가 지정됩니다. [콘텐츠 템플릿을 사용하는 방법 알아보기](../content-management/use-content-templates.md)
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 

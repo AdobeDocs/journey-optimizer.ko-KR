@@ -6,9 +6,10 @@ description: 사용자 지정 공급자를 통해 Journey Optimizer에서 텍스
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
+exl-id: fd713864-96b9-4687-91bd-84e3533273ff
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '283'
 ht-degree: 3%
 
 ---
@@ -50,6 +51,10 @@ Adobe으로 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, I
      페이로드에 `{{toNumber}}`, `{{fromNumber}}`, `{{message}}`이(가) 포함되어 있는지 확인하십시오.
 
 1. API 자격 증명 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+
+1. **[!UICONTROL API 자격 증명]** 메뉴에서 bin 아이콘을 클릭하여 API 자격 증명을 삭제합니다.
+
+1. 기존 자격 증명을 수정하려면 원하는 API 자격 증명을 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 변경을 수행합니다.
 
 API 자격 증명을 만들고 구성한 후에는 SMS 메시지에 대한 채널 표면을 만들어야 합니다. [자세히 알아보기](sms-configuration-surface.md)
 

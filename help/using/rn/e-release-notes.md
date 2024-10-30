@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 92ecd1261e6c734743c4ab5173969da6e54cd15a
+source-git-commit: 42b9bfcc9079570a047462c23001d102abda58c9
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2000'
 ht-degree: 37%
 
 ---
@@ -289,6 +289,10 @@ ht-degree: 37%
 이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
 
 **SMS 채널**
+
+>[!AVAILABILITY]
+>
+>다음 개선 사항은 Sinch 및 Infobip 공급자에서만 사용할 수 있습니다.
 
 메시징 기능을 개선하기 위해 SMS 개선 사항이 도입되었습니다.
 

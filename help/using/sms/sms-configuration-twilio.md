@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 4%
+source-wordcount: '211'
+ht-degree: 3%
 
 ---
 
@@ -33,5 +33,9 @@ Journey Optimizer으로 Twilio를 구성하려면 Twilio에 사용되는 새 API
    * **[!UICONTROL 인바운드 번호]**: 고유한 인바운드 번호를 추가합니다. 이를 통해 서로 다른 샌드박스에서 동일한 API 자격 증명을 사용할 수 있으며, 각 샌드박스는 고유한 인바운드 번호를 가지고 있습니다.
 
 1. API 자격 증명 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+
+1. **[!UICONTROL API 자격 증명]** 메뉴에서 bin 아이콘을 클릭하여 API 자격 증명을 삭제합니다.
+
+1. 기존 자격 증명을 수정하려면 원하는 API 자격 증명을 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 변경을 수행합니다.
 
 API 자격 증명을 만들고 구성한 후에는 SMS 및 MMS 메시지에 대한 채널 구성을 만들어야 합니다. [자세히 알아보기](sms-configuration-surface.md)

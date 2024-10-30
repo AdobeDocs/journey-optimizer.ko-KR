@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: ht
-source-wordcount: '1505'
+source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
+workflow-type: tm+mt
+source-wordcount: '1446'
 ht-degree: 100%
 
 ---
@@ -232,45 +232,7 @@ ht-degree: 100%
 
 <!--CONTENT LOCKING-->
 
->[!CONTEXTUALHELP]
->id="ajo_locking_governance"
->title="거버넌스"
->abstract="거버넌스"
 
->[!CONTEXTUALHELP]
->id="ajo_locking_mode"
->title="모드"
->abstract="모드"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_content_addition"
->title="콘텐츠 추가 활성화"
->abstract="콘텐츠 추가 활성화"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_structure"
->title="콘텐츠 고정 구조"
->abstract="콘텐츠 고정 구조"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_component"
->title="특정 고정 구성 요소 사용"
->abstract="특정 고정 구성 요소 사용"
-
->[!CONTEXTUALHELP]
->id="ajo_email_editable_areas"
->title="편집 가능한 영역 강조 표시"
->abstract="편집 가능한 영역 강조 표시"
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_activated"
->title="거버넌스 활성화됨"
->abstract="콘텐츠 잠금이 활성화되어 수정이 불가할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_read_only"
->title="읽기 전용"
->abstract="이 콘텐츠는 읽기 전용이며 수정할 수 없습니다."
 
 <!--APPROVAL POLICIES-->
 
