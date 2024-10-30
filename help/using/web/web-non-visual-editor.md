@@ -5,9 +5,9 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
+source-git-commit: 23ce5d1f2bafcb3ef37e2351efb8edc6da1ce805
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,14 @@ ht-degree: 0%
 
    ![](assets/web-non-visual-editor.png)
 
-1. 수정 유형을 선택합니다.
+1. 드롭다운 목록에서 수정 유형을 선택합니다.
+
+   두 가지 유형을 사용할 수 있습니다. 다양한 옵션이 제공됩니다. 자세한 내용은 아래 링크를 참조하십시오.
 
    * **[!UICONTROL CSS 선택기]** - [자세히 알아보기](manage-web-modifications.md#css-selector)
-   * **[!UICONTROL 페이지`<Head>`]** - [자세히 알아보기](manage-web-modifications.md#page-head)
+   * **[!UICONTROL 페이지`<head>`]** - [자세히 알아보기](manage-web-modifications.md#page-head)
 
-1. **[!UICONTROL 고급 편집 옵션]** 단추를 클릭합니다. 개인화 편집기가 열립니다.
+1. **[!UICONTROL 개인화 추가]** 단추를 클릭합니다. 개인화 편집기가 열립니다.
 
    [!DNL Journey Optimizer] 개인화 편집기를 모든 개인화 및 작성 기능과 함께 활용할 수 있습니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
@@ -47,7 +49,7 @@ ht-degree: 0%
 
 1. 첫 번째 수정 사항이 **[!UICONTROL 수정 사항]** 창 위에 표시됩니다.
 
-   수정 내용 옆에 있는 **[!UICONTROL 추가 작업]** 단추를 클릭하고 **[!UICONTROL 정보]**&#x200B;를 선택하여 세부 정보를 표시합니다. 수정 사항을 **[!UICONTROL 편집]**&#x200B;하거나 **[!UICONTROL 삭제]**&#x200B;할 수도 있습니다.
+   수정 내용 옆에 있는 **[!UICONTROL 추가 작업]** 단추를 클릭하고 **[!UICONTROL 정보]**&#x200B;를 선택하여 세부 정보를 표시합니다. 필요한 경우 **[!UICONTROL 수정 내용을 삭제]**&#x200B;할 수도 있습니다.
 
    ![](assets/web-non-visual-editor-ex-more.png)
 
@@ -55,19 +57,18 @@ ht-degree: 0%
    >
    >**[!UICONTROL 수정 사항]** 창은 [웹 디자이너](web-visual-editor.md)을 사용할 때와 동일합니다. 수행할 수 있는 모든 작업은 [이 섹션](manage-web-modifications.md#use-modifications-pane)에 자세히 설명되어 있습니다.
 
-1. **[!UICONTROL 수정 사항 추가]**&#x200B;에 대한 **[!UICONTROL 수정 사항]** 창 상단의 **[!UICONTROL 추가 작업]** 단추를 클릭하고 위의 단계를 반복합니다. [자세히 알아보기](manage-web-modifications.md#add-modifications)
-
-   ![](assets/web-non-visual-editor-more.png)
-
-1. 화면 왼쪽 위의 화살표를 선택하여 여정 또는 캠페인 버전 화면으로 돌아갑니다. 현재 변경 사항 수를 보고 더 많은 수정 사항을 추가할 수 있습니다.
-
-   ![](assets/web-campaign-modifications.png)
-
-   원하는 경우 웹 디자이너로 전환할 수도 있습니다. 수정 사항이 모두 유지됩니다.
+1. **[!UICONTROL 수정 사항]** 창 상단의 **[!UICONTROL 추가]** 단추를 클릭하여 다른 수정 사항을 추가하고 위의 단계를 반복합니다.
 
 
-1. 웹 사이트의 요소를 선택하고 해당 요소에 대한 클릭 수를 추적할 수 있습니다. 클릭 추적을 활성화하고 추적할 작업을 정의하려면 아래와 같이 왼쪽 레일에서 두 번째 아이콘을 클릭합니다.
+1. 또한 웹 사이트의 요소를 선택하고 해당 요소에 대한 클릭 수를 추적할 수 있습니다. 클릭 추적을 활성화하고 추적할 작업을 정의하려면 아래와 같이 왼쪽 레일에서 두 번째 아이콘을 클릭합니다.
 
    ![](assets/web-campaign-click.png)
 
    **구성 요소 추가** 단추를 사용하여 추적할 새 작업을 선택하십시오. [이 섹션](monitor-web-experiences.md#use-click-tracking)에서 클릭 추적 사용에 대해 자세히 알아보세요.
+
+
+1. 화면 왼쪽 위의 화살표를 클릭하여 여정 또는 캠페인 버전 화면으로 다시 이동합니다. 현재 변경 사항 수를 보고 더 많은 수정 사항을 추가할 수 있습니다.
+
+   ![](assets/web-campaign-modifications.png)
+
+   원하는 경우 웹 디자이너로 전환할 수도 있습니다. 수정 사항이 모두 유지됩니다.
