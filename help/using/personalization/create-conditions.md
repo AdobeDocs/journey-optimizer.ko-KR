@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 조건부, 규칙
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 6f9bdb179f2bfff30494495b68a15aaac77d6b9e
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 8%
+source-wordcount: '571'
+ht-degree: 9%
 
 ---
 
@@ -56,17 +56,17 @@ ht-degree: 8%
 
 1. 필요에 따라 조건부 규칙을 만듭니다. 이렇게 하려면 왼쪽 메뉴에서 원하는 속성을 캔버스로 드래그 앤 드롭하고 정렬합니다.
 
-속성을 캔버스에 결합하는 단계는 세그먼트 빌드 경험과 유사합니다. 규칙 빌더 캔버스로 작업하는 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas)를 참조하세요.
+   속성을 캔버스에 결합하는 단계는 세그먼트 빌드 경험과 유사합니다. 규칙 빌더 캔버스로 작업하는 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas)를 참조하세요.
 
-    ![](assets/conditions-create.png)
-    
-    특성은 세 개의 탭으로 구성됩니다.
-    
-    * **[!UICONTROL 프로필]**:
-    * **[!UICONTROL 대상]**은 모든 대상 특성(예: 상태, 버전 등)을 나열합니다. [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)의 경우 
-    * **[!UICONTROL XDM 개별 프로필]**은 Adobe Experience Platform에 정의된 [Experience Data Model(XDM) 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)와 관련된 모든 프로필 속성을 나열합니다.
-    * **[!UICONTROL 상황별]**: 메시지를 여정에 사용하면 이 탭을 통해 상황별 여정 필드를 사용할 수 있습니다.
-    * **[!UICONTROL 대상]**: [Adobe Experience Platform 세그먼테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)에서 만든 세그먼트 정의에서 생성된 모든 대상을 나열합니다.
+   ![](assets/conditions-create.png)
+
+   속성은 다음 세 가지 탭으로 구성됩니다.
+
+   * **[!UICONTROL 프로필]**:
+      * **[!UICONTROL 대상]**&#x200B;에 모든 대상 특성(예: 상태, 버전 등)이 나열됩니다. [Adobe Experience Platform 세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko)의 경우,
+      * **[!UICONTROL XDM 개별 프로필]**&#x200B;은(는) Adobe Experience Platform에 정의된 [XDM(Experience Data Model) 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)와(과) 관련된 모든 프로필 특성을 나열합니다.
+   * **[!UICONTROL 상황별]**: 메시지를 여정에 사용하면 이 탭을 통해 상황별 여정 필드를 사용할 수 있습니다.
+   * **[!UICONTROL 대상]**: [Adobe Experience Platform 세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko)에서 만든 세그먼트 정의에서 생성된 모든 대상을 나열합니다.
 
 1. 조건부 규칙이 준비되면 메시지에 추가하여 다이내믹 콘텐츠를 만들 수 있습니다. [다이내믹 콘텐츠를 추가하는 방법 알아보기](dynamic-content.md)
 
