@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 62bc99bcd4bd3174ffc93c3ae604f901fa0f1570
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 49%
+source-wordcount: '1812'
+ht-degree: 41%
 
 ---
 
@@ -83,26 +83,26 @@ ht-degree: 49%
 </table>
 
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Conflict and priority management (Limited Availability)</strong><br/></th>
+<th><strong>충돌 및 우선 순위 관리(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer, managing the volume and timing of campaigns and journeys is essential to avoid overwhelming customers with too many interactions. Journey Optimizer now offers several tools for conflict management and prioritization.</p><p><ul><li><b>Journey frequency capping</b>: You can now create rule sets to apply to your journeys, allowing you to limit the number of journeys for a profile per day, week, or month, as well as control the number of concurrent journeys running simultaneously.</li>
-<li><b>Priority score</b>: You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journey actions use the same channel configuration, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was least recently modified will be chosen.</li>
-<li><b>View potential conflicts</b>: A new "View potential conflicts" button in journeys and campaigns now allows you to identify overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.</li>
-<li><b>Journey Arbitration</b>: This new capability enables you to prioritize the most important journeys for your customers. You can create a rule to suppress entry into a lower priority journey when a customer qualifies for an upcoming journey of higher priority.</li>
-<li><b>Frequency capping by communication type: </b>With rule sets, you can now set granular rules by communication type (e.g., Sales, Promotional) to prevent overloading customers with similar messages. You can control frequency across multiple channels, automatically excluding over-solicited profiles to ensure a better customer experience.</li></ul>
-<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>
-<p>Conflict and priority management capabilities are available in Limited Availability to a select group of customers. Please note that these features will be gradually rolled out to more users in the future. Reach out to your account team if interested in being added to the waitlist for these features.</p>
+<p>Journey Optimizer에서 너무 많은 상호 작용으로 압도적인 고객을 피하려면 캠페인 및 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer은 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다.</p><p><ul><li><b>여정 빈도 제한</b>: 이제 여정에 적용할 규칙 집합을 만들어 프로필의 여정 수를 일, 주 또는 월로 제한하고 동시에 실행되는 동시 여정 수를 제어할 수 있습니다.</li>
+<li><b>우선 순위 점수</b>: 이제 0에서 100 사이의 우선 순위 점수를 캠페인이나 여정에 할당할 수 있습니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 두 캠페인 또는 여정 작업이 동일한 채널 구성을 사용하는 경우 Journey Optimizer에서 우선 순위 점수가 가장 높은 캠페인을 선택합니다. 캠페인의 점수가 동일한 경우, 가장 최근에 수정되지 않은 캠페인이 선택됩니다.</li>
+<li><b>잠재적 충돌 보기</b>: 이제 여정 및 캠페인의 새로운 "잠재적 충돌 보기" 단추를 사용하여 시작 날짜, 대상 또는 선택한 여정 구성과 같은 다른 채널 또는 캠페인과 겹치는 부분을 식별할 수 있습니다.</li>
+<li><b>여정 중재</b>: 이 새로운 기능을 사용하면 고객에게 가장 중요한 여정의 우선 순위를 지정할 수 있습니다. 고객이 더 높은 우선순위의 예정된 여정에 대한 자격이 있을 때 더 낮은 우선순위의 여정에 들어가지 않도록 규칙을 만들 수 있습니다.</li>
+<li><b>통신 유형별 빈도 제한: </b>이제 규칙 집합을 사용하여 통신 유형별로 세분화된 규칙(예: 판매, 프로모션)을 설정하여 유사한 메시지가 있는 고객을 오버로드할 수 있습니다. 여러 채널에서 빈도를 제어할 수 있으며, 과도하게 요청된 프로필을 자동으로 제외하여 고객 경험을 개선할 수 있습니다.</li></ul>
+<p>자세한 내용은 <a href="../email/surface-personalization.md">세부 설명서</a>를 참조하십시오.</p>
+<p>충돌 및 우선 순위 관리 기능은 일부 고객이 제한된 가용성으로 사용할 수 있습니다. 이러한 기능은 향후 더 많은 사용자에게 점진적으로 배포될 예정입니다. 이러한 기능에 대한 대기자 명단에 추가하려는 경우 계정 팀에 문의하십시오.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 
 <table>
