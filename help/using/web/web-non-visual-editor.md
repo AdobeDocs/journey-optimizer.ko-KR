@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 6f517ca209ae992f8daf3b285ccabebac100081b
+source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
@@ -66,8 +66,8 @@ ht-degree: 1%
    원하는 경우 웹 디자이너로 전환할 수도 있습니다. 수정 사항이 모두 유지됩니다.
 
 
-1. 클릭 추적을 활성화하고 아래와 같이 왼쪽 레일의 두 번째 아이콘에서 추적할 작업을 정의할 수 있습니다.
+1. 웹 사이트의 요소를 선택하고 해당 요소에 대한 클릭 수를 추적할 수 있습니다. 클릭 추적을 활성화하고 추적할 작업을 정의하려면 아래와 같이 왼쪽 레일에서 두 번째 아이콘을 클릭합니다.
 
    ![](assets/web-campaign-click.png)
 
-   추적할 새 작업을 선택하려면 **구성 요소 추가** 단추를 클릭하십시오.
+   **구성 요소 추가** 단추를 사용하여 추적할 새 작업을 선택하십시오. [이 섹션](monitor-web-experiences.md#use-click-tracking)에서 클릭 추적 사용에 대해 자세히 알아보세요.
