@@ -9,11 +9,10 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="제한된 가용성" type="Informative"
-source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 28%
+source-wordcount: '487'
+ht-degree: 22%
 
 ---
 
@@ -24,9 +23,10 @@ ht-degree: 28%
 >title="번역"
 >abstract="다국어 기능을 사용하면 단일 캠페인 또는 여정 내에 여러 언어로 된 콘텐츠를 손쉽게 만들 수 있습니다. 번역 페이지를 통해 프로젝트를 설정하거나 번역 제공자를 선택하거나 로케일별 사전을 관리할 수 있습니다."
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->다국어 콘텐츠는 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>다국어 콘텐츠 만들기를 시작하려면 사용자에게 **[!UICONTROL 언어 설정 관리]** 권한이 부여되어야 합니다.
+>자동 흐름의 경우 사용자는 **[!UICONTROL 번역 서비스]** 기능과 관련된 권한도 필요합니다. [권한에 대해 자세히 알아보기](../administration/permissions.md)
 
 다국어 기능을 사용하면 단일 캠페인 또는 여정 내에서 손쉽게 여러 언어로 콘텐츠를 만들 수 있습니다. 이 기능을 사용하면 캠페인을 편집할 때 언어 간에 전환할 수 있으므로 전체 편집 프로세스를 간소화하고 다국어 콘텐츠를 효율적으로 관리할 수 있습니다.
 
@@ -55,7 +55,9 @@ Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서
 
 번역과 관련된 문제 또는 지원 요청은 해당 번역 공급업체에 문의하십시오.
 
-번역 페이지에 액세스할 수 없는 경우 번역 기능을 활성화해야 합니다.
+Journey Optimizer에서 번역 기능을 사용하려면 해당 역할에 API를 할당해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+
+번역 페이지에 액세스할 수 없는 경우 번역 기능을 활성화하고 **[!UICONTROL 번역 서비스]** 관련 권한을 부여해야 합니다. [자세히 알아보기](../administration/ootb-permissions.md)
 
 +++ 번역 기능 활성화 방법 알아보기
 

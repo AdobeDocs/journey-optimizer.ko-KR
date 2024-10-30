@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '905'
 ht-degree: 2%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 2%
 | 의사 결정 관리 | **[!DNL Manage decisions]**: 의사 결정 엔터티를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage offers]**: 모든 오퍼, 구성 요소, 읽기 결정 및 컬렉션을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage ranking strategies]**: 사용자 지정 보고서를 읽고, 만들고, 편집하고, 삭제하고, 작업 기능을 사용합니다.</br>**[!DNL View decisions]**: 오퍼 엔터티에 대한 읽기 전용 액세스입니다.<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Decisioning entities.</br>--> |
 | 대상 | **[!DNL Activate destinations]**: 사용자에게 기존 대상에 대한 대상을 활성화할 수 있는 기능을 제공합니다.</br>**[!DNL Activate segment without mapping]**: 매핑 단계를 표시하지 않고 기존 대상에 대해 대상을 활성화할 수 있는 기능을 사용자에게 제공합니다. 사용자는 활성화 워크플로에서 대상을 추가하거나 제거할 수 있지만 매핑된 속성 또는 ID를 추가하거나 제거할 수 없습니다.</br>**[!DNL Destination authoring]**: Adobe Experience Platform Destination SDK을 사용하는 작성자 대상입니다.</br>**[!DNL Manage and activate dataset destination]**: 데이터 집합 내보내기 흐름을 읽고 만들고 편집하고 사용하지 않도록 설정합니다. 생성된 활성 데이터 세트에 대한 데이터도 활성화할 수 있습니다.</br>**[!DNL Manage destinations]**: 대상 활성화 흐름 및 대상 계정을 읽고 만들고 삭제합니다.</br>**[!DNL View destinations]**: [카탈로그] 탭의 사용 가능한 대상 및 [찾아보기] 탭의 인증된 대상에 대한 읽기 전용 액세스 권한 |
 | ID 관리 | **[!DNL Manage identity namespaces]**: id 네임스페이스를 읽고 만들고 편집합니다.</br>**[!DNL Manage identity settings]**: id 설정을 읽고 만들고 편집합니다.</br>**[!DNL View identity namespaces]**: id 네임스페이스에 대한 읽기 전용 액세스 권한.</br>**[!DNL View identity settings]**: id 설정에 대한 읽기 전용 액세스 권한.</br>**[!DNL View identity graph]**: id 그래프에 대한 읽기 전용 액세스 권한. |
+| IP 웜업 구성 | **[!DNL Manage IP warmup plans]**: IP 준비 계획을 읽고 만들고 편집합니다.</br>**[!DNL View IP warmup plans]**: IP 준비 계획에 대한 읽기 전용 액세스 권한.</br>**[!DNL View IP warmup reports]**: IP 준비 보고서를 읽고 편집합니다. |
 | Journey Optimizer 라이브러리 | **[!DNL Manage Library Items]**: [!DNL Journey Optimizer] 라이브러리에 저장된 식을 추가하고 삭제합니다.</br>**[!DNL Simulate content]**: 미리 보기 및 증명을 위해 콘텐츠 시뮬레이션 옵션에 액세스합니다.</br>**[!DNL Publish fragments]**: 콘텐츠 조각을 게시합니다. |
 | Journey Optimizer 규칙 | **[!DNL Manage frequency rules]**: 메시지 빈도 규칙에 액세스, 만들기, 편집 또는 삭제합니다.</br>**[!DNL View frequency rules]**: 규칙에 대한 읽기 전용 액세스 권한. |
 | 여정 | **[!DNL Approve & publish Journeys]**: 정책이 적용될 때 여정을 승인하고 게시할 수 있는 권한. </br> **[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제 여정에 액세스하고 관리하려면 이 권한을 **[!DNL View journeys events, data sources and actions]**&#x200B;과(와) 결합하십시오.</br>**[!DNL Manage journeys events, data sources and actions]**: 이벤트, 소스 또는 작업을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Publish journeys]**: 여정 게시.</br>**[!DNL View journeys]**: 여정에 대한 읽기 전용 액세스 권한.</br>**[!DNL View journeys events, data sources and actions]**: 여정 이벤트, 여정 지정 작업 및 여정 데이터 소스에 대한 읽기 전용 액세스 권한.</br>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</br> |
@@ -42,7 +43,8 @@ ht-degree: 2%
 | 쿼리 서비스 | **[!DNL Manage queries]**: Platform 데이터에 대한 구조화된 SQL 쿼리를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage query service integration]**: 쿼리 서비스 액세스에 대한 만료되지 않는 자격 증명을 만들고, 업데이트하고, 삭제합니다. |
 | 보고서 | **[!DNL View channel reports]**: 채널 보고서를 읽고 편집합니다. |
 | 샌드박스 관리 | **[!DNL Export sandboxes]**: 샌드박스를 내보내는 기능.</br>**[!DNL Manage packages]**: 패키지를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage sandboxes]**: 샌드박스를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View sandboxes]**: 조직에 속한 샌드박스에 대한 읽기 전용 액세스 권한.</br>**[!DNL Reset sandboxes]**: 샌드박스를 재설정하는 기능. |
+| 샌드박스 관리 | **[!DNL Export sandboxes]**: 샌드박스를 내보내는 기능.</br>**[!DNL Manage packages]**: 패키지를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage sandboxes]**: 샌드박스를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View sandboxes]**: 조직에 속한 샌드박스에 대한 읽기 전용 액세스 권한.</br>**[!DNL Reset sandboxes]**: 샌드박스를 재설정하는 기능. |
+| 번역 서비스 | **[!DNL Manage translation projects]**: 번역 프로젝트를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View translation projects]**: 번역 프로젝트에 대한 읽기 전용 액세스입니다.</br>**[!DNL Manage translation tasks]**: 번역 작업을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View translation tasks]**: 번역 작업에 대한 읽기 전용 액세스입니다.</br> **[!DNL Manage translation reviews]**: 번역 리뷰를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View translation reviews]**: 번역 검토를 위한 읽기 전용 액세스 권한입니다.</br>**[!DNL Manage translation in house]**: 집에서 번역을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View translation in house]**: 사내에서 번역할 수 있는 읽기 전용 액세스입니다.</br>**[!DNL Manage translation settings]**: 번역 설정을 읽고, 만들고, 편집하고, 삭제합니다. |
 
 {style="table-layout:fixed"}
 
-<!--|IP warmup configurations|**[!DNL Manage IP warmup plans]**: read, create, and edit IP warmup plans.</br>**[!DNL View IP warmup plans]**: read-only access to IP warmup plans.</br>**[!DNL View IP warmup reports]**: read and edit IP Warmup reports. |-->

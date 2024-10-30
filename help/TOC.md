@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 94%
+source-wordcount: '2163'
+ht-degree: 93%
 
 ---
 
@@ -310,6 +310,8 @@ ht-degree: 94%
       + [AI 어시스턴트 사용 사례](using/content-management/generative-uc.md)
    + 다국어 콘텐츠 작업{#content-multilingual}
       + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
+      + [로케일 만들기](using/content-management/multilingual-locale.md)
+      + [언어 공급자 만들기](using/content-management/multilingual-provider.md)
       + [수동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-manual.md)
       + [자동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-automated.md)
    + 콘텐츠 실험 작업 {#content-experiment}

@@ -9,11 +9,10 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-badge: label="제한된 가용성" type="Informative"
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 21%
+source-wordcount: '2041'
+ht-degree: 15%
 
 ---
 
@@ -29,44 +28,25 @@ ht-degree: 21%
 >title="공급업체 편집"
 >abstract="필요에 따라 기존 번역 공급업체를 수정하고 로케일을 추가합니다. 이 기능을 사용하면 프로젝트에 참여 중인 공급업체와 로케일을 관리할 수 있어 현재 요구 사항과 프로젝트 목표에 따라 유연하게 리소스를 조정하고 특정 대상자를 타기팅할 수 있습니다."
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->다국어 콘텐츠는 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+>자동 흐름의 경우 사용자는 **[!UICONTROL 번역 서비스]** 기능과 관련된 권한이 필요합니다. [권한에 대해 자세히 알아보기](../administration/permissions.md)
 
 자동화된 흐름을 사용하여 대상 언어 및 언어 공급자를 선택하면 됩니다. 그러면 콘텐츠가 번역으로 바로 전송되어 완료 시 최종 검토를 위해 준비됩니다.
 
 다음 단계에 따라 자동화된 번역을 사용하여 다국어 콘텐츠를 만듭니다.
 
-1. [로케일을 만듭니다](#create-locale).
+1. [공급자 추가](multilingual-provider.md)
 
-1. [언어 프로젝트를 만듭니다](#create-translation-project).
+1. [로케일 추가(선택 사항)](multilingual-locale.md)
 
-1. [언어 설정을 만듭니다](#create-language-settings).
+1. [언어 프로젝트 만들기](#create-translation-project)
 
-1. [다국어 콘텐츠를 만듭니다](#create-a-multilingual-campaign).
+1. [언어 설정 만들기](#create-language-settings)
 
-1. [번역 작업을 검토합니다(선택 사항)](#review-translation-project).
+1. [다국어 콘텐츠 만들기](#create-a-multilingual-campaign)
 
-## 로케일 만들기 {#create-locale}
-
->[!CONTEXTUALHELP]
->id="ajo_multi_add_locale"
->title="로케일 추가"
->abstract="언어 환경 설정을 구성할 때 다국어 콘텐츠에서 원하는 로케일을 사용할 수 없는 경우 추가 로케일을 만들 수 있습니다."
-
-[언어 설정 만들기](#language-settings) 섹션에 설명된 대로 언어 설정을 구성할 때 특정 로케일을 다국어 콘텐츠에 사용할 수 없는 경우 **[!UICONTROL 번역]** 메뉴를 사용하여 필요한 수만큼 새 로케일을 만들 수 있습니다.
-
-1. **[!UICONTROL 콘텐츠 관리]** 메뉴에서 **[!UICONTROL 번역]**&#x200B;에 액세스합니다.
-
-1. **[!UICONTROL 로케일 사전]** 탭에서 **[!UICONTROL 로케일 추가]**&#x200B;를 클릭합니다.
-
-   ![](assets/locale_1.png)
-
-1. **[!UICONTROL 언어]** 목록 및 관련 **[!UICONTROL 지역]**&#x200B;에서 로케일 코드를 선택합니다.
-
-1. 로케일을 만들려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
-
-   ![](assets/locale_2.png)
+1. [번역 작업 검토(선택 사항)](#review-translation-project)
 
 ## 번역 프로젝트 만들기 {#translation-project}
 
@@ -125,7 +105,17 @@ ht-degree: 21%
 
 ## 언어 설정 만들기 {#language-settings}
 
-이 섹션에서는 다국어 콘텐츠 관리를 위한 기본 언어 및 관련 로케일을 설정할 수 있습니다. 프로필 언어와 관련된 정보를 조회하는 데 사용할 속성을 선택할 수도 있습니다.
+>[!CONTEXTUALHELP]
+>id="ajo_multi_custom_conditional"
+>title="사용자 지정 조건부 설정"
+>abstract="사용자 지정 조건부 설정은 특정 기준에 따라 콘텐츠가 표시될 로케일을 결정하는 규칙 세트입니다. 이러한 설정을 통해 사용자 위치, 언어 환경 설정 또는 기타 컨텍스트 요소와 같은 요소를 기반으로 콘텐츠 표시를 제어할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_fallback"
+>title="대체 환경 설정"
+>abstract="대체 환경 설정을 선택하는 것은 사용자 경험을 개선하는 데 매우 중요합니다. 폴백을 선택하지 않고 프로필이 필요한 요구 사항을 충족하지 않으면 콘텐츠가 전달되지 않습니다. 적절한 대체 을 선택하면 프로필이 초기 기준과 일치하지 않는 경우에도 일관된 컨텐츠 전달이 보장됩니다."
+
+이 섹션에서는 다국어 콘텐츠를 관리하기 위해 다양한 로케일을 설정할 수 있습니다. 프로필 언어와 관련된 정보를 조회하는 데 사용할 속성을 선택할 수도 있습니다.
 
 1. **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]**&#x200B;에 액세스합니다.
 
@@ -133,27 +123,86 @@ ht-degree: 21%
 
    ![](assets/language_settings_1.png)
 
-1. **[!UICONTROL 언어 설정]**&#x200B;의 이름을 입력하세요.
-
-1. **[!UICONTROL 번역 프로젝트]** 옵션을 선택하십시오.
+1. **[!UICONTROL 언어 설정]**&#x200B;의 이름을 입력하고 **[!UICONTROL 번역 프로젝트]**&#x200B;를 선택하세요.
 
 1. **[!UICONTROL 번역 프로젝트]** 필드에서 **[!UICONTROL 편집]**&#x200B;을 클릭하고 이전에 만든 **[!UICONTROL 번역 프로젝트]**&#x200B;을(를) 선택합니다.
 
-   이전에 구성한 로케일을 자동으로 가져옵니다.
+   이전에 구성한 **[!UICONTROL 로케일]**&#x200B;을(를) 자동으로 가져옵니다.
+
+1. 프로필이 컨텐츠 전달에 필요한 기준을 충족하지 않을 경우에 대한 백업 옵션을 정의하려면 **[!UICONTROL 대체 환경 설정]**&#x200B;을(를) 선택하십시오.
+
+   대체 옵션을 선택하지 않으면 캠페인이나 여정이 전송되지 않습니다.
 
    ![](assets/language_settings_2.png)
 
-1. **[!UICONTROL 기본 설정 보내기]** 메뉴에서 프로필 언어에 대한 정보를 찾기 위해 조회할 특성을 선택합니다.
+1. 다음 옵션 중에서 전송 기본 설정을 선택합니다.
 
-1. **[!UICONTROL 로케일]** 옆에 있는 **[!UICONTROL 편집]**&#x200B;을 클릭하여 추가로 개인화하고 **[!UICONTROL 프로필 환경 설정]**&#x200B;을(를) 추가하십시오.
+   * **[!UICONTROL 프로필 언어 환경 설정 특성 선택]**
+   * **[!UICONTROL 사용자 지정 조건부 규칙 만들기]**
+
+1. **[!UICONTROL 프로필 언어 기본 설정 특성 선택]**&#x200B;을 선택한 경우 **[!UICONTROL 프로필 언어 기본 설정 특성]** 메뉴에서 관련 특성을 선택하여 프로필 언어 정보를 조회합니다.
+
+   ![](assets/multilingual-settings-3.png)
+
+1. **[!UICONTROL 사용자 지정 조건부 규칙 만들기]**&#x200B;를 선택한 경우 조건을 만들 로케일을 선택하십시오. 그런 다음 사용자 위치, 언어 환경 설정 또는 기타 컨텍스트 요소와 같은 요소를 기반으로 규칙을 빌드합니다.
 
    ![](assets/language_settings_3.png)
 
-1. **[!UICONTROL 번역 프로젝트]**&#x200B;가 업데이트된 경우 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하여 **[!UICONTROL 언어 설정]**&#x200B;에 이러한 변경 내용을 반영하세요.
+1. 속성, 이벤트 또는 대상자를 추가하여 조건 작성을 시작하고 대상 그룹을 정의합니다.
 
-   ![](assets/language_settings_4.png)
+   >[!IMPORTANT]
+   >
+   >컨텍스트 기반 데이터는 웹, 인앱, 코드 기반 경험 및 콘텐츠 카드 채널에만 사용할 수 있습니다. 이메일, SMS, 푸시 알림 또는 DM 채널에 추가 속성 없이 사용하는 경우 캠페인 또는 여정은 목록의 첫 번째 옵션 언어로 전송됩니다.
+
+   ![](assets/multilingual-settings-6.png)
+
+   +++조건에서 컨텍스트 이벤트를 사용하기 위한 사전 요구 사항
+
+   사용자가 콘텐츠를 표시하면 경험 이벤트와 함께 개인화 요청이 전송됩니다. 조건에 컨텍스트 기반 데이터를 활용하려면 개인화 요청 페이로드에 추가 데이터를 첨부해야 합니다. 이렇게 하려면 Adobe Experience Platform 데이터 수집에서 규칙을 만들어 다음을 지정해야 합니다. 개인화 요청이 전송되는 경우 요청에 추가 데이터를 첨부하여 스키마의 언어 필드와 일치하는 속성을 정의합니다.
+
+   >[!NOTE]
+   >
+   >이러한 사전 요구 사항은 인앱 및 콘텐츠 카드 채널에만 필요합니다.
+
+   1. Adobe Experience Platform 데이터 수집에서 **[!UICONTROL 규칙]** 메뉴에 액세스하고 새 규칙을 만듭니다. 규칙을 만드는 방법에 대한 자세한 내용은 [!DNL Adobe Experience Platform] [데이터 수집 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}를 참조하세요.
+
+   2. 규칙의 **[!UICONTROL IF]** 섹션에서 아래와 같이 구성된 이벤트를 추가합니다.
+
+      ![](assets/multilingual-experience-events-rule-if.png)
+
+      * 작업 중인 **[!UICONTROL 확장]**&#x200B;을(를) 선택하십시오.
+      * **[!UICONTROL 이벤트 유형]** 필드에서 &quot;AEP 요청 이벤트&quot;를 선택합니다.
+      * 오른쪽 창에서 &quot;XDM 이벤트 유형이 personalization.request와 같음&quot;을 선택합니다.
+      * 확인하려면 **[!UICONTROL 변경 내용 유지]** 단추를 클릭하세요.
+
+   3. 규칙의 **[!UICONTROL THEN]** 섹션에서 아래와 같이 구성된 작업을 추가합니다.
+
+      ![](assets/multilingual-experience-events-rule-then.png)
+
+      * 작업 중인 **[!UICONTROL 확장]**&#x200B;을(를) 선택하십시오.
+      * **[!UICONTROL 작업 유형]** 필드에서 &quot;데이터 첨부&quot;를 선택합니다.
+      * JSON 페이로드 섹션에서 사용할 언어를 검색하는 데 사용되는 속성(&quot;언어&quot; 아래 예에서)이 데이터 수집 데이터스트림이 유입되는 스키마에 지정된 속성의 이름과 일치하는지 확인합니다.
+
+        ```JSON
+        {
+            "xdm":{
+                "application":{
+                    "_dc":{
+                        "language":"{%%Language%%}"
+                    }
+                }
+            }
+        }
+        ```
+      * **[!UICONTROL 변경 내용 유지]** 단추를 클릭하여 규칙을 확인하고 저장합니다.
+
++++
+
+1. 로케일을 드래그 앤 드롭하여 재정렬하고 목록에서 해당 우선 순위를 관리합니다.
 
 1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 **[!UICONTROL 언어 설정]**&#x200B;을 만듭니다.
+
+언어 환경 설정을 지정하면, 더 이상 언어 환경 설정을 편집할 수 없습니다.
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
@@ -165,6 +214,10 @@ ht-degree: 21%
 -->
 
 ## 다국어 콘텐츠 만들기 {#create-multilingual-campaign}
+
+>[!AVAILABILITY]
+>
+> 코드 기반 경험 및 콘텐츠 카드에 대한 미리 보기는 현재 자동화된 흐름에서 사용할 수 없습니다.
 
 번역 프로젝트 및 언어 설정을 완료하고 나면 캠페인이나 여정을 만들고 다른 로케일에 맞게 콘텐츠를 맞춤화할 수 있습니다.
 
