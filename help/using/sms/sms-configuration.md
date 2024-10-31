@@ -30,7 +30,7 @@ ht-degree: 37%
 >id="ajo_admin_sms_api"
 >title="Journey Optimizer로 SMS/MMS 공급자 구성"
 >abstract="문자 메시지(SMS/MMS)를 보내기 전에 공급자 설정을 Journey Optimizer와 통합해야 합니다. 완료되면 SMS/MMS 구성을 만들어야 합니다. 이 단계는 Adobe Journey Optimizer 시스템 관리자가 수행해야 합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 채널 구성 만들기"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 채널 구성 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"

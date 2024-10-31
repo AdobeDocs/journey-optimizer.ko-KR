@@ -53,7 +53,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_create_project"
 >title="프로젝트 만들기"
->abstract="다국어 콘텐츠를 만들려면 먼저 대상 로케일을 식별하고 대상자에게 적합한 언어나 지역 방언을 선택하여 번역 프로젝트를 시작합니다. 그 후, 프로젝트의 필요에 맞는 번역 제공자를 선택합니다."
+>abstract="다국어 콘텐츠를 만들려면 먼저 대상 로케일을 식별하고 대상자에게 적합한 언어나 지역 방언을 선택하여 번역 프로젝트를 시작합니다. 그런 다음 프로젝트의 필요에 맞는 번역 제공자를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_project"
@@ -318,7 +318,7 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_preview_project"
->title="번역 프로젝트 미리 보기"
+>title="번역 프로젝트 미리보기"
 >abstract="미리보기 창에서 번역된 콘텐츠가 각 언어로 어떻게 표시되는지 확인할 수 있습니다. 이 기능을 사용하면 렌더링을 검사하고 콘텐츠가 선택한 모든 언어로 올바르고 효과적으로 표시되는지 확인할 수 있습니다."
 
 **[!UICONTROL 번역 프로젝트]**&#x200B;에서 **[!UICONTROL 검토 워크플로우 사용]**&#x200B;을(를) 선택한 경우 선택한 번역 공급업체에서 완료한 후 Journey Optimizer에서 직접 번역을 검토할 수 있습니다.

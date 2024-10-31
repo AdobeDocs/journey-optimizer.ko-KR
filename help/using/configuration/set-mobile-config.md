@@ -10,7 +10,7 @@ level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="모바일 및 웹 구성 이름"
->abstract="모바일이나 웹 구성의 이름을 입력합니다. 이 이름은 안내 채널 설정을 통해 자동으로 생성되는 모든 리소스에 사용됩니다."
+>abstract="모바일이나 웹 구성의 이름을 입력합니다. 이 이름은 가이드 채널 설정을 통해 자동으로 생성되는 모든 리소스에 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"

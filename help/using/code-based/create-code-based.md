@@ -151,21 +151,21 @@ ht-degree: 14%
 
 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 정보는 [이 섹션](../content-management/preview.md)에서 확인할 수 있습니다.
 
-### 디바이스에서 미리 보기 {#preview-on-device}
+### 디바이스에서 미리보기 {#preview-on-device}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device"
->title="실제 디바이스에서 코드 기반 경험 미리 보기"
+>title="실제 디바이스에서 코드 기반 경험 미리보기"
 >abstract="브라우저나 모바일 디바이스에서 개인화된 경험을 미리 보고 실제 디바이스에서 어떻게 보이는지 확인합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
->title="디바이스에서 코드 기반 웹 경험 미리 보기"
+>title="디바이스에서 코드 기반 웹 경험 미리보기"
 >abstract="디바이스에서 미리 보려면 QR 코드를 스캔하거나 링크를 복사합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
->title="디바이스에서 코드 기반 모바일 경험 미리 보기"
+>title="디바이스에서 코드 기반 모바일 경험 미리보기"
 >abstract="디바이스에서 미리 보려면 QR 코드를 스캔하거나 링크를 복사합니다. 연결되면 디바이스에 PIN을 입력합니다. 미리보기 링크를 업데이트할 때마다 변경 사항을 확인하려면 앱을 다시 시작해야 할 수도 있습니다."
 
 >[!CONTEXTUALHELP]
