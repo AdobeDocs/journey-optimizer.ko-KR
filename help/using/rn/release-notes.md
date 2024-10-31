@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ab6289ff4b1a9302adb94d9cdf150210eece3a27
+source-git-commit: 850aacd1873a63b6ff2010f097655244b9dea027
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1911'
 ht-degree: 39%
 
 ---
@@ -236,6 +236,8 @@ ht-degree: 39%
 </tbody>
 </table>
 
+<!--The following capabilities are available to all customers in public beta:-->
+
 <table>
 <thead>
 <tr>
@@ -245,15 +247,15 @@ ht-degree: 39%
 <tbody>
 <tr>
 <td>
-<p>이제 여정 최적기를 사용하여 컨텐츠를 미리 보고 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 증명을 보냄으로써 컨텐츠의 다양한 변형을 테스트할 수 있습니다. 개인화를 위한 콘텐츠에 사용되는 모든 프로필 속성은 시스템에서 자동으로 감지되며 테스트에 사용하여 여러 변형을 만들 수 있습니다.</p>
+<p>이제 여정 최적기를 사용하여 미리 보고 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 전자 메일 증명을 전송하여 콘텐츠의 다양한 변형을 테스트할 수 있습니다. 개인화를 위한 콘텐츠에 사용되는 모든 프로필 속성은 시스템에서 자동으로 감지되며 테스트에 사용하여 여러 변형을 만들 수 있습니다.</p>
 <p>이 기능은 현재 모든 고객이 이메일, SMS 및 푸시 알림 채널에 공개 베타 버전으로 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../test-approve/simulate-sample-input.md">자세한 설명서</a>를 참조하세요.</p>
+<img src="assets/do-not-localize/gif-simulate.gif">
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--The following capabilities are available to all customers in public beta:
 
 <!--<table>
 <thead>
