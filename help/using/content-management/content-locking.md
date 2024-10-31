@@ -6,9 +6,9 @@ description: 이메일 템플릿에서 콘텐츠를 잠그는 방법에 대해 �
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 38aaa3005e72a8300cef0e28a6fecd9f5d06c1f1
+source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1269'
 ht-degree: 7%
 
 ---
@@ -42,9 +42,9 @@ ht-degree: 7%
 
 Journey Optimizer을 사용하면 전체 템플릿 또는 특정 구조 및 구성 요소를 잠궈 이메일 템플릿의 콘텐츠를 잠글 수 있습니다. 이를 통해 의도하지 않은 편집 또는 삭제를 방지할 수 있으므로 템플릿의 사용자 정의 기능을 더욱 강력하게 제어하고 이메일 캠페인의 효율성과 안정성을 향상시킬 수 있습니다.
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->콘텐츠 템플릿을 만들 수 있는 권한이 있는 사용자가 콘텐츠 잠금을 활성화할 수 있습니다.
+>컨텐츠 잠금은 작성자를 위한 편집기 수준의 기능이며, API를 통해 가져오거나 만들 때 컨텐츠가 편집되지 않을 것임을 보장하지는 않습니다.
 
 콘텐츠 잠금은 **구조** 수준 또는 **구성 요소** 수준에서 적용할 수 있습니다. 다음은 템플릿에서 콘텐츠를 잠글 때 구조 및 구성 요소 수준에서 적용되는 기본 원칙입니다.
 
@@ -59,6 +59,10 @@ Journey Optimizer을 사용하면 전체 템플릿 또는 특정 구조 및 구�
 
    * 개별 콘텐츠 구성 요소를 해당 구조 내에서 잠글 수 있습니다.
    * 기본적으로 구성 요소가 잠겨 있거나 &quot;편집 가능한 컨텐츠 잠금만&quot;이 선택되어 있으면 삭제할 수 없습니다. &quot;삭제 허용&quot; 옵션을 활성화하여 이 제한을 재정의할 수 있습니다.
+
+>[!AVAILABILITY]
+>
+>콘텐츠 템플릿을 만들 수 있는 권한이 있는 사용자가 콘텐츠 잠금을 활성화할 수 있습니다.
 
 ## 이메일 템플릿 잠금 {#define}
 
