@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 94ac5fda2d10beb1fd016f41aa298a82694043c3
+source-git-commit: 35b0304df8bdb885ca494b561cb6a0eaa5e96545
 workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 39%
@@ -311,7 +311,7 @@ ht-degree: 39%
 
 **보고**
 
-* 이제 **Experience Decisioning 보고**&#x200B;를 사용할 수 있으므로 방문자가 경험과 상호 작용하는 방식에 대한 필수 통찰력을 제공합니다. [자세히 알아보기](../reports/campaign-global-report-cja-code.md##decisioning-kpis)
+* 이제 **Experience Decisioning 보고**&#x200B;를 사용할 수 있으므로 방문자가 경험과 상호 작용하는 방식에 대한 필수 통찰력을 제공합니다. [자세히 알아보기](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **데이터 거버넌스 및 동의 정책** - 사용 가능한 날짜: 2024년 10월 7일
 
