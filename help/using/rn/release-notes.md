@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 35b0304df8bdb885ca494b561cb6a0eaa5e96545
+source-git-commit: 7f7edaa8d3bb917e7020bb79eb72f7807cf46622
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1910'
 ht-degree: 39%
 
 ---
@@ -275,15 +275,16 @@ ht-degree: 39%
 
 **SMS 채널**
 
-메시징 기능을 개선하기 위해 SMS 개선 사항이 도입되었습니다.
-
-* SMS 캠페인 및 여정에 대한 고유 키워드를 정의하고 관리하여 보다 개인화되고 효율적인 커뮤니케이션을 가능하게 할 수 있습니다.
-
-* 키워드가 인식되지 않을 때 기본 SMS 메시지를 만들고 전달할 수 있습니다.
-
 * 이제 SMS API 채널 구성을 편집하거나 삭제할 수 있습니다.
 
-[Infoip](../sms/sms-configuration-infobip.md) 및 [Sinch](../sms/sms-configuration-sinch.md)에 대한 SMS 구성 설명서에서 이러한 개선 사항에 대해 자세히 알아보세요.
+* Infobip 및 Sinch를 통해 SMS 메시지 기능을 개선하기 위해 다음과 같은 개선 사항이 도입되었습니다.
+
+   * SMS 캠페인 및 여정에 대한 고유 키워드를 정의하고 관리하여 보다 개인화되고 효율적인 커뮤니케이션을 가능하게 할 수 있습니다.
+
+   * 키워드가 인식되지 않을 때 기본 SMS 메시지를 만들고 전달할 수 있습니다.
+
+  [Infoip](../sms/sms-configuration-infobip.md) 및 [Sinch](../sms/sms-configuration-sinch.md)에 대한 SMS 구성 설명서에서 이러한 개선 사항에 대해 자세히 알아보세요.
+
 
 <!--**Journeys**-->
 
