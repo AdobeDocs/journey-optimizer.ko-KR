@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 96ae7baf50f262aac86f86ecb04cc98b57968c28
+source-git-commit: ab6289ff4b1a9302adb94d9cdf150210eece3a27
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 39%
@@ -98,7 +98,10 @@ ht-degree: 39%
 <li><b>여정 중재</b>: 이 새로운 기능을 사용하면 고객에게 가장 중요한 여정의 우선 순위를 지정할 수 있습니다. 고객이 더 높은 우선순위의 예정된 여정에 대한 자격이 있을 때 더 낮은 우선순위의 여정에 들어가지 않도록 규칙을 만들 수 있습니다.</li>
 <li><b>통신 유형별 빈도 제한: </b>이제 규칙 집합을 사용하여 통신 유형별로 세분화된 규칙(예: 판매, 프로모션)을 설정하여 유사한 메시지가 있는 고객을 오버로드할 수 있습니다. 여러 채널에서 빈도를 제어할 수 있으며, 과도하게 요청된 프로필을 자동으로 제외하여 고객 경험을 개선할 수 있습니다.</li></ul>
 
+<img src="assets/do-not-localize/gif-conflict.gif">
+
 <p>충돌 및 우선 순위 관리 기능은 일부 고객이 제한된 가용성으로 사용할 수 있습니다. 이러한 기능은 향후 더 많은 사용자에게 점진적으로 배포될 예정입니다. 이러한 기능에 대한 대기자 명단에 추가하려는 경우 계정 팀에 문의하십시오.</p>
+
 </td>
 </tr>
 </tbody>
