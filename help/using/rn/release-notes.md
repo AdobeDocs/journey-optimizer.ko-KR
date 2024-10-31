@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7f7edaa8d3bb917e7020bb79eb72f7807cf46622
+source-git-commit: 96ae7baf50f262aac86f86ecb04cc98b57968c28
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 39%
@@ -308,7 +308,7 @@ ht-degree: 39%
 
   이 변경 사항은 후속 단계에서 기존 고객 샌드박스로 롤아웃됩니다. [자세히 알아보기](../data/datasets-ttl.md#ttl)
 
-* **사용자 지정 작업의 매개 변수**(사용 가능한 날짜: 2024년 10월 3일) - 이제 사용자 지정 작업에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **사용자 지정 작업의 매개 변수** - 사용 가능한 날짜: 2024년 10월 3일 - 이제 사용자 지정 작업에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **보고**
 
