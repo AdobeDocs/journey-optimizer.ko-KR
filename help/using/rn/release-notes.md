@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 850aacd1873a63b6ff2010f097655244b9dea027
+source-git-commit: 4de613f38865a3b4f177ce809e1e051f9211e86e
 workflow-type: tm+mt
 source-wordcount: '1911'
 ht-degree: 39%
@@ -280,7 +280,7 @@ ht-degree: 39%
 
 **SMS 채널**
 
-* 이제 SMS API 채널 구성을 편집하거나 삭제할 수 있습니다.
+* 이제 SMS API 채널 구성을 편집하거나 삭제할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md)
 
 * Infobip 및 Sinch를 통해 SMS 메시지 기능을 개선하기 위해 다음과 같은 개선 사항이 도입되었습니다.
 
@@ -317,7 +317,7 @@ ht-degree: 39%
 
 **보고**
 
-* 이제 **Experience Decisioning 보고**&#x200B;를 사용할 수 있으므로 방문자가 경험과 상호 작용하는 방식에 대한 필수 통찰력을 제공합니다. [자세히 알아보기](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
+* 이제 **Decisioning 보고**&#x200B;를 사용할 수 있으므로 방문자가 경험과 상호 작용하는 방식에 대한 필수 통찰력을 제공합니다. [자세히 알아보기](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **데이터 거버넌스 및 동의 정책** - 사용 가능한 날짜: 2024년 10월 7일
 
@@ -347,4 +347,4 @@ ht-degree: 39%
 
 <!--* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) users can now choose custom models to optimize on when setting up an AI model in Decisioning (formerly known as Experience Decisioning). This allows you, for example, to optimize on a custom "purchases" table rather than defined constraints such as clickthrough rate."-->
 
-* 이제 Experience Decisioning이 있는 코드 기반 캠페인에 의사 결정 정책을 추가할 때 선택 전략 외에 단일 의사 결정 항목을 수동으로 선택할 수 있습니다. 또한 이제 두 개 이상의 대체 오퍼를 선택할 수 있습니다. 이렇게 하면 일정 수의 결정 항목이 반환되는 것을 보장할 수 있습니다. [자세히 알아보기](../experience-decisioning/create-decision.md)
+* 이제 Decisioning을 사용하여 코드 기반 캠페인에 의사 결정 정책을 추가할 때 선택 전략과 함께 단일 의사 결정 항목을 수동으로 선택할 수 있습니다. 또한 이제 두 개 이상의 대체 오퍼를 선택할 수 있습니다. 이렇게 하면 일정 수의 결정 항목이 반환되는 것을 보장할 수 있습니다. [자세히 알아보기](../experience-decisioning/create-decision.md)
