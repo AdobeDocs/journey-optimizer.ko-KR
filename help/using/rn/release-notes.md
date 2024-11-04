@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4de613f38865a3b4f177ce809e1e051f9211e86e
+source-git-commit: 018ff365780c5064afd94c8f842ca0498fe06065
 workflow-type: tm+mt
-source-wordcount: '1911'
-ht-degree: 79%
+source-wordcount: '1960'
+ht-degree: 78%
 
 ---
 
@@ -345,6 +345,6 @@ ht-degree: 79%
 
 **의사 결정**
 
-<!--* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) users can now choose custom models to optimize on when setting up an AI model in Decisioning (formerly known as Experience Decisioning). This allows you, for example, to optimize on a custom "purchases" table rather than defined constraints such as clickthrough rate."-->
+* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko) 사용자는 이제 의사 결정(이전 이름: 경험 결정)에서 AI 모델을 설정할 때 최적화할 사용자 정의 모델을 선택할 수 있습니다. 예를 들어 클릭스루 비율과 같은 정의된 제약 조건이 아닌 사용자 정의 &quot;구매&quot; 테이블에서 최적화할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking.md)
 
 * 이제 Decisioning을 사용하여 코드 기반 캠페인에 의사 결정 정책을 추가할 때 선택 전략과 함께 단일 의사 결정 항목을 수동으로 선택할 수 있습니다. 또한 이제 두 개 이상의 대체 오퍼를 선택하는 것도 가능합니다. 이 방법으로 일정 수의 결정 항목이 반환되도록 보장할 수 있습니다. [자세히 알아보기](../experience-decisioning/create-decision.md)
