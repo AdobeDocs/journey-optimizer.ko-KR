@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 샘플 입력 데이터를 사용하여 콘텐츠 테스트(Beta)
-description: 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 이메일 증명을 보내는 방법을 알아봅니다.
-feature: Overview, Get Started
+description: CSV 또는 JSON 파일의 샘플 입력 데이터를 사용하거나 수동으로 추가하여 콘텐츠를 미리 보고 이메일 증명을 보내는 방법에 대해 알아봅니다.
+feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta"
-source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
+source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >이 기능은 현재 모든 고객이 공개 베타로 사용할 수 있습니다.
 
-여정 최적기를 사용하면 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형을 테스트할 수 있습니다. 개인화를 위한 콘텐츠에 사용되는 모든 프로필 속성은 시스템에서 자동으로 감지되며 테스트에 사용하여 여러 변형을 만들 수 있습니다.
+여정 최적기를 사용하면 CSV 또는 JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형을 테스트할 수 있습니다. 개인화를 위한 콘텐츠에 사용되는 모든 프로필 속성은 시스템에서 자동으로 감지되며 테스트에 사용하여 여러 변형을 만들 수 있습니다.
 
 >[!NOTE]
 >
