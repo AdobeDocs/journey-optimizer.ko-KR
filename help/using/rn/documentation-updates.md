@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
 source-wordcount: '5707'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 97%
 
 * [!DNL Journey Optimizer] 2024년 10월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
 * [!DNL Journey Optimizer]에서 사용할 수 있는 모든 통신 채널이 이제 설명서의 전용 섹션에 그룹화되었습니다. [자세히 보기](../channels/gs-channels.md)
-* 표면 URI를 설명하는 섹션을 포함하여 프로세스를 더 명확하게 하기 위해 **코드 기반 경험 구성** 페이지가 개선되었습니다. [자세히 보기](../code-based/code-based-configuration.md)
-* **웹 채널 구성 만들기** 페이지가 업데이트되어 페이지 일치 규칙을 만들 때 단계를 명확하게 했습니다. 이 규칙은 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
-* 시스템 생성 데이터 세트에 대해 예정된 TTL(time-to-live) 보안에 대한 메모를 추가했습니다. [자세히 보기](../data/get-started-datasets.md)
-* 여정 또는 캠페인에서 콘텐츠를 시뮬레이션할 때 디바이스에서 미리 보기 옵션을 사용하여 브라우저 또는 모바일 디바이스에서 코드 기반의 개인화된 경험을 올바르게 미리 보는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../code-based/create-code-based.md#preview-on-device)
-* 의사 결정을 위해 사용자 지정 업로드 대상을 활용하는 방법에 대한 새 페이지가 추가되었습니다. [자세히 보기](../offers/custom-upload-decisioning.md)
+* 프로세스를 보다 명확하게 설명하도록 **코드 기반 경험 구성** 페이지를 개선했습니다. 표면 URI의 정의를 설명하는 섹션이 포함됩니다. [자세히 보기](../code-based/code-based-configuration.md)
+* **웹 채널 구성 만들기** 페이지에서 페이지 일치 규칙을 만드는 단계를 명확하게 설명하도록 업데이트했습니다. 이는 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
+* 시스템 생성 데이터 세트에 적용될 예정인 TTL(Time-to-Live) 가드레일에 대한 메모를 추가했습니다. [자세히 보기](../data/get-started-datasets.md)
+* 여정 또는 캠페인의 콘텐츠를 시뮬레이션할 때 디바이스에서 미리 보기 옵션을 사용하여 브라우저 또는 모바일 디바이스에서 코드 기반의 개인화된 경험을 편리하게 미리 보는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../code-based/create-code-based.md#preview-on-device)
+* 의사 결정에 사용자 정의 업로드 대상자를 활용하는 방법에 대한 새 페이지를 추가했습니다. [자세히 보기](../offers/custom-upload-decisioning.md)
 
 ## 2024년 9월 {#sept-2024}
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 * 여정 다시 시도 관리에 대한 섹션을 추가했습니다. [자세히 보기](../building-journeys/read-audience.md#read-audience-retry)
 * 사용자 정의 액션의 캡핑/스로틀링 규칙에 대한 FAQ에서 기본 캡핑 규칙을 언급하도록 업데이트했습니다. [자세히 보기](../configuration/external-systems.md#faq)
 * 액세스 제어 섹션에 AI 어시스턴트 콘텐츠 생성기와 관련된 권한에 대한 정보를 업데이트했습니다. [자세히 보기](../administration/high-low-permissions.md#ai-permission)
-* 이메일 생성을 위한 AI 도우미 콘텐츠 생성기에 대한 비디오가 추가되었습니다. [자세히 보기](../content-management/generative-email.md#video)
+* 이메일 생성을 위한 AI 어시스턴트 콘텐츠 생성기에 대한 비디오를 추가했습니다. [자세히 보기](../content-management/generative-email.md#video)
 
 
 ## 2024년 8월 {#aug-2024}

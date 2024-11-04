@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
 workflow-type: tm+mt
 source-wordcount: '2161'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -175,11 +175,11 @@ ht-degree: 93%
    + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
    + [캠페인 관리](using/campaigns/modify-stop-campaign.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
-+ 충돌 관리 및 우선 순위 {#conflict-prioritization}
++ 충돌 관리 및 우선 순위 지정 {#conflict-prioritization}
    + [충돌 관리 및 우선 순위 지정 시작](using/conflict-prioritization/gs-conflict-prioritization.md)
-   + [잠재적인 충돌 파악](using/conflict-prioritization/conflicts.md)
+   + [잠재적 충돌 확인](using/conflict-prioritization/conflicts.md)
    + [우선 순위 점수 할당](using/conflict-prioritization/priority-scores.md)
-   + [여정 한도 및 중재](using/conflict-prioritization/journey-capping.md)
+   + [여정 캡핑 및 중재](using/conflict-prioritization/journey-capping.md)
 + 테스트 및 승인 {#test}
    + 콘텐츠 미리 보기 및 테스트 {#preview-test}
       + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
@@ -299,7 +299,7 @@ ht-degree: 93%
       + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
 + 콘텐츠 관리 {#content-management}
-   + AI Assistant를 사용하여 작업{#ai-assistant}
+   + AI 어시스턴트 작업{#ai-assistant}
       + [AI 어시스턴트 콘텐츠 가속기 시작](using/content-management/gs-generative.md)
       + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
       + [AI를 사용한 푸시 생성](using/content-management/generative-push.md)
@@ -352,7 +352,7 @@ ht-degree: 93%
       + [콘텐츠 템플릿 시작](using/content-management/content-templates.md)
       + [템플릿 액세스 및 관리](using/content-management/access-content-templates.md)
       + [콘텐츠 템플릿 만들기](using/content-management/create-content-templates.md)
-      + [전자 메일 템플릿의 콘텐츠 잠금](using/content-management/content-locking.md)
+      + [이메일 템플릿의 콘텐츠 잠그기](using/content-management/content-locking.md)
       + [콘텐츠 템플릿 테스트](using/content-management/test-content-templates.md)
       + [콘텐츠 템플릿 사용](using/content-management/use-content-templates.md)
    + 재사용 가능한 콘텐츠 조각 {#fragments}
@@ -389,9 +389,9 @@ ht-degree: 93%
       + [캠페인 실시간 보고서](using/reports/campaign-live-report.md)
       + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
       + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
-   + 업데이트된 보고 환경{#channel-report}
+   + 업데이트된 보고 경험{#channel-report}
       + [업데이트된 보고 경험 시작](using/reports/report-gs-cja.md)
-      + [수동 구성 Customer Journey Analytics](using/reports/cja-ajo.md)
+      + [Customer Journey Analytics 수동 구성](using/reports/cja-ajo.md)
       + [보고서 관리](using/reports/report-cja-manage.md)
       + [보고 및 실험 전제 조건](using/reports/reporting-configuration.md)
       + 캠페인 보고서{#reporting}
@@ -408,7 +408,7 @@ ht-degree: 93%
       + 여정 보고서{#reporting}
          + [여정 보고서](using/reports/journey-global-report-cja.md)
          + [코드 기반 여정 보고서](using/reports/journey-global-report-cja-code.md)
-         + [컨텐츠 카드 여정 보고서](using/reports/journey-global-report-cja-content.md)
+         + [콘텐츠 카드 여정 보고서](using/reports/journey-global-report-cja-content.md)
          + [다이렉트 메일 여정 보고서](using/reports/journey-global-report-cja-direct.md)
          + [이메일 여정 보고서](using/reports/journey-global-report-cja-email.md)
          + [인앱 여정 보고서](using/reports/journey-global-report-cja-inapp.md)
@@ -453,7 +453,7 @@ ht-degree: 93%
          + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
          + [사용자 인터페이스](using/offers/get-started/user-interface.md)
          + [오퍼를 만들고 관리하는 주요 단계](using/offers/offer-library/key-steps.md)
-         + [의사 결정을 위해 사용자 정의 업로드 대상 활용](using/offers/custom-upload-decisioning.md)
+         + [의사 결정에 사용자 정의 업로드 대상자 활용](using/offers/custom-upload-decisioning.md)
          + [사용 사례: 이메일에 오퍼 삽입](using/offers/offers-e2e.md)
       + 구성 요소 만들기 {#create-components}
          + [배치 만들기](using/offers/offer-library/creating-placements.md)
@@ -625,7 +625,7 @@ ht-degree: 93%
    + [스키마 작업](using/data/get-started-schemas.md)
    + Journey Optimizer 데이터셋 {#datasets}
       + [데이트 세트 시작](using/data/get-started-datasets.md)
-      + [TTL(Time-to-Live) 및 스트리밍 세분화 업데이트](using/data/datasets-ttl.md)
+      + [Time-to-Live 및 스트리밍 세분화 업데이트](using/data/datasets-ttl.md)
       + [Journey Optimizer 데이터 세트 내보내기](using/data/export-datasets.md)
       + [쿼리 예](using/data/datasets-query-examples.md)
       + [기본 스키마 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
