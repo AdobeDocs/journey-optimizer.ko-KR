@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2511'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,11 @@ ht-degree: 1%
 
 ## 의사 결정 만들기 {#create-activity}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_details"
+>title="오퍼 결정 세부 정보"
+>abstract="의사 결정 이름을 지정하고 필요한 경우 시작 및 종료 날짜 및 시간을 정의합니다. 사용자 지정 또는 핵심 데이터 사용 레이블을 결정에 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택하세요."
+
 1. 결정 목록에 액세스한 다음 **[!UICONTROL 결정 만들기]**&#x200B;를 클릭합니다.
 
 1. 결정의 이름을 지정합니다.
@@ -43,6 +48,21 @@ ht-degree: 1%
 1. 사용자 지정 또는 핵심 데이터 사용 레이블을 결정에 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택하세요. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../../administration/object-based-access.md)
 
 ## 결정 범위 정의 {#add-decision-scopes}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_scopes"
+>title="결정 범위"
+>abstract="오퍼 결정에 대해 하나 이상의 범위를 구성하여 표시할 오퍼를 결정합니다. 이 작업은 배치 및 이 배치에 대한 연관된 평가 기준을 선택하여 수행됩니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_placement"
+>title="배치"
+>abstract="오퍼를 제공할 배치를 선택하십시오."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_evaluation"
+>title="평가 기준"
+>abstract="평가 기준은 자격 제한 사항과 연관된 오퍼 컬렉션 및 배치에 표시할 오퍼를 결정하는 순위 메서드로 구성됩니다. 평가 기준의 시퀀스에 따라 먼저 평가될 컬렉션이 결정됩니다. 하나 이상의 평가 기준이 필요합니다."
 
 1. 드롭다운 목록에서 배치를 선택합니다. 귀하의 결정 중 첫 번째 결정 범위에 추가됩니다.
 
@@ -285,6 +305,11 @@ ht-degree: 1%
 +++
 
 ## 대체 오퍼 추가 {#add-fallback}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_fallback"
+>title="Factkback 오퍼 추가"
+>abstract="결정 범위를 정의한 후 오퍼 자격 규칙 및 제약 조건과 일치하지 않는 고객에게 마지막 수단으로 제공될 대체 오퍼를 정의합니다."
 
 결정 범위를 정의한 후 오퍼 자격 규칙 및 제약 조건과 일치하지 않는 고객에게 마지막 수단으로 제공될 대체 오퍼를 정의합니다.
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 8%
+source-wordcount: '463'
+ht-degree: 7%
 
 ---
 
@@ -19,6 +19,26 @@ ht-degree: 8%
 >id="ajo_decisioning_decision_collection"
 >title="오퍼 컬렉션 정보"
 >abstract="오퍼 컬렉션을 사용하면 선택한 범주로 다시 그룹화하여 오퍼를 구성할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic"
+>title="동적 컬렉션"
+>abstract="컬렉션 한정자를 사용하여 컬렉션에 대한 오퍼를 동적으로 한정합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static"
+>title="정적 컬렉션"
+>abstract="상태, 컬렉션 한정자, 날짜 및 채널과 같은 기준을 사용하여 오퍼를 수동으로 선택하고 함께 그룹화합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static_select"
+>title="정적 컬렉션 미리 보기"
+>abstract="정적 컬렉션은 컬렉션에 포함할 개별 오퍼를 수동으로 선택하여 빌드됩니다. 수동으로 오퍼를 더 추가하여 컬렉션을 업데이트할 수 없습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic_select"
+>title="동적 컬렉션 미리 보기"
+>abstract="동적 컬렉션은 컬렉션 한정자를 기반으로 오퍼를 수집합니다. 이러한 컬렉션은 자동으로 업데이트됩니다. 예를 들어 &quot;sports&quot; 컬렉션 한정자를 사용하여 새 오퍼를 만든 경우 해당 컬렉션에 자동으로 추가됩니다."
 
 컬렉션을 사용하면 오퍼를 선택한 카테고리로 다시 그룹화하여 오퍼를 구성할 수 있습니다. 예를 들어 스포츠 관련 오퍼만 포함하는 &quot;sport&quot; 컬렉션을 만들 수 있습니다.
 

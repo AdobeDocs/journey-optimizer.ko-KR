@@ -7,9 +7,9 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '480'
 ht-degree: 6%
 
 ---
@@ -23,6 +23,11 @@ ht-degree: 6%
 >AI 모델을 만들거나 편집하거나 삭제하려면 **순위 전략 관리** 권한이 있어야 합니다. [자세히 알아보기](../../administration/high-low-permissions.md#manage-ranking-strategies)
 
 ## AI 모델 만들기 {#create-ranking-strategy}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_ai_model_metric"
+>title="최적화 지표"
+>abstract="[!DNL Journey Optimizer] **전환율**&#x200B;을(를) 기반으로 하는 등급 오퍼입니다(전환율 = 총 전환 이벤트 수 / 총 노출 이벤트 수). 전환율은 두 가지 유형의 지표를 사용하여 계산됩니다. **노출 이벤트**(표시되는 오퍼)와 **전환 이벤트**(전자 메일 또는 웹을 통한 클릭으로 이어지는 오퍼). 이러한 이벤트는 제공된 Web SDK 또는 Mobile SDK를 사용하여 자동으로 캡처됩니다."
 
 AI 모델을 만들려면 아래 단계를 수행합니다.
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 10%
+source-wordcount: '804'
+ht-degree: 11%
 
 ---
 
@@ -38,6 +38,16 @@ ht-degree: 10%
 >id="ajo_decisioning_offer_attributes"
 >title="오퍼 속성"
 >abstract="오퍼 속성을 사용하면 보고 및 분석을 위해 키 값 쌍을 오퍼와 연결할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_personalized"
+>title="맞춤형 오퍼"
+>abstract="맞춤형 오퍼는 자격 규칙 및 제한에 따라 사용자 정의 가능한 메시지입니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="대체 오퍼"
+>abstract="대체 오퍼는 최종 사용자가 개인화된 오퍼에 대한 자격이 없을 때 표시되는 기본 오퍼입니다."
 
 **오퍼**&#x200B;를 만들려면 다음 단계를 수행하십시오.
 

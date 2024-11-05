@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 12%
+source-wordcount: '630'
+ht-degree: 11%
 
 ---
 
@@ -19,6 +19,16 @@ ht-degree: 12%
 >id="ajo_decisioning_placement"
 >title="배치"
 >abstract="배치는 오퍼를 표시하는 데 사용되는 컨테이너입니다. 올바른 오퍼 콘텐츠가 메시지 내의 적합한 위치에 표시되도록 할 수 있습니다. 배치는 “구성 요소” 메뉴에서 생성됩니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_request"
+>title="요청 설정"
+>abstract="**[!UICONTROL 배치 간 중복 허용]** 옵션을 활성화하여 시스템이 여러 배치에 대해 동일한 오퍼를 고려하도록 합니다. **[!UICONTROL 오퍼 요청]** 필드를 사용하여 반환된 오퍼의 수를 조정하십시오. 예를 들어 2를 선택하면 선택한 결정 범위에 대해 최상의 2 오퍼가 표시됩니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_response"
+>title="응답 형식"
+>abstract="**[!UICONTROL 콘텐츠 포함]** 및 **[!UICONTROL 메타데이터 포함]** 옵션을 사용하면 오퍼의 콘텐츠와 메타데이터를 API 응답에서 반환할지 여부를 지정할 수 있습니다. 모든 메타데이터 또는 특정 필드만 포함할 수 있습니다. 기본적으로 메타데이터 포함 값은 true로 설정됩니다."
 
 배치는 올바른 오퍼 콘텐츠가 메시지 내의 올바른 위치에 표시되도록 하는 데 도움이 됩니다. 오퍼에 컨텐츠를 추가할 때 해당 컨텐츠가 표시될 수 있는 배치를 선택하라는 메시지가 표시됩니다.
 
@@ -46,7 +56,6 @@ ht-degree: 12%
    * **[!UICONTROL 설명]**: 배치에 대한 설명입니다(선택 사항).
 
    ![](../assets/offers_placement_creation_properties.png)
-
 
 1. **[!UICONTROL 요청 설정]** 및 **[!UICONTROL 응답 형식]** 섹션에서 추가 매개 변수를 제공합니다.
 
