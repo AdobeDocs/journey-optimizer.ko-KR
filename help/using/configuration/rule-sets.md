@@ -10,14 +10,29 @@ level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 badge: label="제한 공개"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9c49786385db782bd2fa70b19003261284e980a5
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '1924'
-ht-degree: 10%
+source-wordcount: '1936'
+ht-degree: 11%
 
 ---
 
 # 규칙 집합 작업 {#rule-sets}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="오브젝트 유형"
+>abstract="오브젝트 유형"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_type"
+>title="규칙 유형"
+>abstract="규칙 유형"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="규칙 캡핑"
+>abstract="규칙 캡핑"
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"

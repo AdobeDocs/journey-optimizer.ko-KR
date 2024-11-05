@@ -1,22 +1,37 @@
 ---
-title: 여정 한도 및 중재
+title: 여정 캡핑 및 중재
 description: 여정에 대한 최대 가용량 규칙을 만드는 방법과 여정 항목을 중재하는 방법을 알아봅니다
 role: User
 level: Beginner
 badge: label="제한 공개"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 1%
+source-wordcount: '864'
+ht-degree: 19%
 
 ---
 
 
-# 여정 한도 및 중재 {#journey-capping}
+# 여정 캡핑 및 중재 {#journey-capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="여정에 규칙 세트 적용"
+>abstract="규칙 세트를 적용하여 빈도 설정 규칙에 따라 대상자의 일부에서 이 여정을 제외합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="우선 순위 지정 미리 보기"
+>abstract=" 여기에서 지정한 기간 내에 우선순위가 더 높은 여정이 예약되어 있는 경우 고객은 이 여정에 참여할 수 없습니다. 여정 입장을 선착순으로 진행하려는 경우 먼저 일 단위로 예상 기간을 선택하고 해당 날짜에 있는 다른 여정의 우선 순위 점수가 설정 중인 여정의 우선 순위 점수보다 낮은지 확인하는 것이 좋습니다. 여정에 우선 순위 점수 100을 입력하는 방법으로 해당 여정에 반드시 입장하도록 할 수도 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="우선 순위 지정 요소"
+>abstract="추가 예정"
 
 >[!AVAILABILITY]
 >
->충돌 및 우선 순위 지정 기능은 현재 선택한 고객 그룹에 대해 제한된 가용성으로 사용할 수 있습니다. 이러한 기능은 향후 더 많은 사용자에게 점진적으로 배포될 예정입니다. 이러한 기능에 대한 대기자 명단에 추가하려는 경우 계정 팀에 문의하십시오.
+>충돌 및 우선 순위 지정 기능은 현재 선택한 고객 그룹에 대해 제한된 가용성으로 사용할 수 있습니다. 이 기능은 향후 더 많은 사용자에게 점진적으로 배포될 예정입니다. 이 기능에 대한 대기자 명단에 등록하려면 계정 팀에 문의하십시오.
 
 여정 캡핑은 프로필이 등록할 수 있는 여정 수를 제한하는 데 도움이 되며, 이를 통해 통신 과부하를 방지할 수 있습니다. Journey Optimizer에서는 두 가지 유형의 가용량 규칙을 설정할 수 있습니다.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1305'
 ht-degree: 99%
 
 ---
@@ -196,39 +196,7 @@ ht-degree: 99%
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
-<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
 
->[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="오브젝트 유형"
->abstract="오브젝트 유형"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="여정에 규칙 세트 적용"
->abstract="규칙 세트를 적용하여 빈도 설정 규칙에 따라 대상자의 일부에서 이 여정을 제외합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="규칙 유형"
->abstract="규칙 유형"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="규칙 캡핑"
->abstract="규칙 캡핑"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="우선 순위 지정 미리 보기"
->abstract=" 여기에서 지정한 기간 내에 우선순위가 더 높은 여정이 예약되어 있는 경우 고객은 이 여정에 참여할 수 없습니다. 여정 입장을 선착순으로 진행하려는 경우 먼저 일 단위로 예상 기간을 선택하고 해당 날짜에 있는 다른 여정의 우선 순위 점수가 설정 중인 여정의 우선 순위 점수보다 낮은지 확인하는 것이 좋습니다. 여정에 우선 순위 점수 100을 입력하는 방법으로 해당 여정에 반드시 입장하도록 할 수도 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="우선 순위 지정 요소"
->abstract="추가 예정"
-
-<!--TO REMOVE?-->
 
 <!--CONTENT LOCKING-->
 
