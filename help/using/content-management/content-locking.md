@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 전자 메일 템플릿의 콘텐츠 잠금
+title: 이메일 템플릿의 콘텐츠 잠그기
 description: 이메일 템플릿에서 콘텐츠를 잠그는 방법에 대해 알아봅니다.
 topic: Content Management
 role: User
@@ -9,11 +9,11 @@ level: Beginner, Intermediate
 source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# 전자 메일 템플릿의 콘텐츠 잠금 {#lock-content-email-templates}
+# 이메일 템플릿의 콘텐츠 잠그기 {#lock-content-email-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
