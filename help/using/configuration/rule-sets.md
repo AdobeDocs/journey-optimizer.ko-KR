@@ -10,34 +10,19 @@ level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 badge: label="제한 공개"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '1936'
-ht-degree: 11%
+source-wordcount: '1950'
+ht-degree: 6%
 
 ---
 
 # 규칙 집합 작업 {#rule-sets}
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="오브젝트 유형"
->abstract="오브젝트 유형"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="규칙 유형"
->abstract="규칙 유형"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="규칙 캡핑"
->abstract="규칙 캡핑"
-
->[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="규칙 세트"
->abstract="규칙 세트를 사용하여 다양한 유형의 마케팅 커뮤니케이션에 빈도 상한 설정을 적용합니다. 예를 들어 고객에게 전송되는 **홍보 커뮤니케이션** 수를 제한하는 규칙 세트를 만들고 전송되는 **뉴스레터** 수를 제한하는 또 다른 규칙 세트를 만들 수 있습니다."
+>abstract="규칙 세트를 사용하여 다양한 유형의 마케팅 커뮤니케이션에 빈도 상한 설정을 적용합니다. 빈도 제한 규칙에 따라 대상의 일부에 대한 여정을 제외하는 규칙 세트를 만들 수도 있습니다."
 
 >[!AVAILABILITY]
 >
@@ -65,7 +50,12 @@ ht-degree: 11%
 
 ### 채널 및 여정 최대 가용량 규칙 {#domain}
 
-규칙 세트를 생성할 때 규칙 세트 내의 규칙이 통신 채널 또는 여정에 고유한 제한 규칙을 적용할지 여부를 지정해야 합니다.  규칙 세트를 만들 때 규칙 세트에 대한 채널 또는 여정 도메인을 선택하여 이 작업을 수행합니다. [규칙 집합을 만드는 방법을 알아봅니다](#create)
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="규칙 세트 도메인"
+>abstract="규칙 세트를 생성할 때 규칙 세트 내의 규칙이 통신 채널 또는 여정에 고유한 제한 규칙을 적용할지 여부를 지정해야 합니다."
+
+규칙 세트를 생성할 때 규칙 세트 내의 규칙이 통신 채널 또는 여정에 고유한 제한 규칙을 적용할지 여부를 지정해야 합니다. 규칙 세트를 만들 때 규칙 세트에 대한 채널 또는 여정 도메인을 선택하여 이 작업을 수행합니다. [규칙 집합을 만드는 방법을 알아봅니다](#create)
 
 * **채널** 도메인: 통신 채널의 최대 가용량 규칙을 적용합니다. 예를 들어 하루에 1개 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 마십시오.
 * **여정** 여정: 시작 및 동시성 제한 규칙을 도메인에 적용합니다. 예를 들어 두 개 이상의 여정에 동시에 프로필을 입력하지 마십시오.
@@ -101,10 +91,11 @@ ht-degree: 11%
 >title="메시지 규칙 범주 선택"
 >abstract="활성화되어 메시지에 적용되면 선택한 범주와 일치하는 모든 빈도 규칙은 이 메시지에 자동으로 적용됩니다. 현재 마케팅 범주만 사용할 수 있습니다."
 
->[!CONTEXTUALHELP]
+<!--NOT USED?
+[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="규칙의 상한 설정"
->abstract="선택한 시간대 내에 고객 프로필로 전송되는 최대 메시지 수를 지정합니다. 빈도 캡은 선택된 캘린더 기간에 기반하고 대응하는 시간대가 시작될 때 재설정됩니다."
+>title="Set the capping for your rule"
+>abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -115,6 +106,11 @@ ht-degree: 11%
 >id="ajo_rule_sets_duration"
 >title="메시지 규칙 범주 선택"
 >abstract="활성화되어 메시지에 적용되면 선택한 범주와 일치하는 모든 빈도 규칙은 이 메시지에 자동으로 적용됩니다. 현재 마케팅 범주만 사용할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="규칙 캡핑"
+>abstract="규칙의 상한을 설정합니다. 규칙 세트 도메인과 규칙 유형 필드의 선택에 따라 이 필드는 프로필로 보낼 수 있는 최대 메시지 수 또는 프로필이 동시에 입력하거나 등록할 수 있는 최대 여정 수를 정의할 수 있습니다."
 
 규칙 집합에 규칙을 추가하려면 규칙 집합에 액세스하고 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
 
