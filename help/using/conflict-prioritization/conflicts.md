@@ -4,9 +4,9 @@ description: 여정 및 캠페인에서 발생할 수 있는 충돌을 식별하
 role: User
 level: Beginner
 badge: label="제한 공개"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '817'
 ht-degree: 7%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 7%
 * **채널**: 같은 일정에 예약된 다른 통신이 있으며, 예약된 경우 몇 개나 됩니까?
 * **최대 가용량 여정 집합**: 최대 가용량 규칙 유형은 무엇이며 해당 규칙 내에서 겹칩니까?
 * **채널 구성**: 동일한 여정 또는 캠페인에서 사용 중인 채널 구성을 사용하여 여정 또는 캠페인이 최종 사용자에게 표시되지 않도록 하는 다른 여정 또는 캠페인이 있습니까?
+
+>[!NOTE]
+>
+>캠페인에서는 웹, 인앱 및 코드 기반 인바운드 채널에 대해서만 우선순위 점수를 사용할 수 있습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 

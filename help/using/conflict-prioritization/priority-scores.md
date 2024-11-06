@@ -4,10 +4,10 @@ description: 여정 및 캠페인에 우선 순위 점수를 할당하는 방법
 role: User
 level: Beginner
 badge: label="제한 공개"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 12%
+source-wordcount: '438'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Journey Optimizer을 사용하면 여정 또는 캠페인에 우선 순위 점�
 
 >[!NOTE]
 >
->우선 순위 점수는 인바운드 채널(웹, 인앱 및 코드 기반 채널)에 사용할 수 있습니다. 여정에서 우선 순위 점수는 **인앱** 및 **코드 기반** 채널에서만 사용할 수 있습니다.
+>캠페인에서는 웹, 인앱 및 코드 기반 인바운드 채널에 대해서만 우선순위 점수를 사용할 수 있습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
