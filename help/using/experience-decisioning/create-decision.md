@@ -20,7 +20,7 @@ ht-degree: 14%
 >id="ajo_code_based_decision"
 >title="의사 결정은 무엇입니까?"
 >abstract="결정 정책에는 결정 엔진이 최상의 콘텐츠를 선택하기 위한 모든 선택 논리가 포함되어 있습니다. 결정 정책은 캠페인별로 다릅니다. 목표는 각 프로필에 가장 적합한 제안을 선택하는 것이며, 캠페인 작성을 통해서는 메시지에 포함될 항목 속성을 포함하여 선택한 결정 항목이 표시될 방법을 지정할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="의사 결정 정보"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="결정 정보"
 
 의사 결정 정책은 대상자에 따라 제공할 최상의 콘텐츠를 선택하기 위해 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
 

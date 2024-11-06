@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
 source-wordcount: '1305'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -248,5 +248,5 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="의사 결정 활성화"
->abstract="의사 결정 활성화"
+>title="결정 활성화"
+>abstract="결정 활성화"
