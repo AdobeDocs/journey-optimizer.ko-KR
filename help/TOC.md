@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2166'
 ht-degree: 98%
 
 ---
@@ -368,6 +368,7 @@ ht-degree: 98%
 + 대상자, 프로필, 신원{#audiences-profiles-identities}
    + 대상자 {#audiences}
       + [대상자 시작](using/audience/about-audiences.md)
+      + [사용자 지정 업로드(CSV) 및 페더레이션 대상 구성](using/audience/custom-upload-fac.md)
       + [세그먼트 정의 작성](using/audience/creating-a-segment-definition.md)
       + 대상자 구성 {#audience-orchestration}
          + [대상자 구성 시작](using/audience/get-started-audience-orchestration.md)

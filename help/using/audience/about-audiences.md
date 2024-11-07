@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0da5f10953ca3b5e14ddd2dd41eac14d5edca767
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 17%
+source-wordcount: '2049'
+ht-degree: 19%
 
 ---
 
@@ -35,13 +35,18 @@ ht-degree: 17%
 다음과 같은 다양한 방법을 사용하여 대상을 생성할 수 있습니다.
 
 * **세그먼트 정의**: Adobe Experience Platform 세분화 서비스를 사용하여 새 대상 정의를 만듭니다. [세그먼트 정의를 만드는 방법을 알아봅니다](creating-a-segment-definition.md)
+
 * **사용자 지정 업로드**: CSV 파일을 사용하여 대상을 가져옵니다. Adobe Experience Platform [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}에서 대상을 가져오는 방법을 알아보세요.
+
 * **대상 구성**: 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만드는 구성 워크플로를 만듭니다. [대상자 구성 시작](get-started-audience-orchestration.md)
+
 * **페더레이션 대상 구성**: 기존 데이터 웨어하우스에서 직접 데이터 세트를 페더레이션하여 하나의 시스템에 Adobe Experience Platform 대상 및 특성을 모두 빌드하고 보강합니다. [Federated Audience Composition](https://experienceleague.adobe.com/ko/docs/federated-audience-composition/using/home)에 대한 안내서를 읽어 보십시오.
 
   >[!AVAILABILITY]
   >
   >페더레이션된 대상자 구성은 현재 조직 집합에만 사용할 수 있습니다(제한된 가용성). 자세한 내용은 Adobe 담당자에게 문의하십시오.
+
+[!DNL Journey Optimizer]에서 사용자 지정 업로드 및 Federated Audience Composition 대상을 사용하는 방법에 대한 자세한 내용은 [이 섹션](custom-upload-fac.md)을 참조하세요.
 
 ## [!DNL Journey Optimizer]의 대상 {#segments-in-journey-optimizer}
 
@@ -104,22 +109,6 @@ ht-degree: 17%
 * [데이터 원본 구성](../datasource/configure-data-sources.md)
 >
 +++
-
-## 사용자 지정 업로드 및 페더레이션 대상 구성 대상 {#csv}
-
-이 섹션에서는 사용자 지정 업로드(CSV 파일) 및 Federated Audience Composition 대상으로 작업하는 동안 유의해야 할 주요 정보를 제공합니다.
-
-* **미리 보기 및 증명 지원:** 현재 미리 보기 및 증명은 CSV 업로드 또는 Federated Audience Composition을 사용하여 만든 대상에 대해 지원되지 않습니다. 캠페인을 계획할 때는 이 점을 염두에 두십시오.
-
-* **빠른 활성화 및 ID 결합 지연:** Adobe Experience Platform 아키텍처가 ID 결합을 지연시켜 Journey Optimizer에서 사용자 지정 업로드 및 Federated Audience Composition 대상을 즉시 활성화할 수 있게 만듭니다. 다음과 같은 영향이 있습니다.
-
-   * 대상자는 수집이 완료된 후 바로 Journey Optimizer에서 사용할 준비가 되었습니다. 일반적으로 1시간 이내이지만 약간의 변동성이 있습니다.
-   * 활성화된 레코드 수는 ID 결합 후 프로필 수와 다를 수 있습니다.
-   * 중복 항목을 포함하여 대상의 모든 레코드가 활성화됩니다. 다음 UPS 프로필 내보내기 동안 이러한 레코드는 ID 결합을 거칩니다.
-
-* **새 프로필 타깃팅:** 레코드와 UPS 프로필 간에 일치하는 항목을 찾을 수 없으면 새 빈 프로필이 만들어집니다. 이 프로필은 데이터 레이크에 저장된 데이터 보강 속성에 연결됩니다. 이 새 프로필은 비어 있으므로 Journey Optimizer에서 일반적으로 사용되는 타겟팅 필드(예: personalEmail.address, mobilePhone.number)는 비어 있으므로 타겟팅에 사용할 수 없습니다.
-
-  이를 해결하려면 채널 구성에서 &quot;실행 필드&quot;(또는 채널에 따른 &quot;실행 주소&quot;)를 &quot;identityMap&quot;으로 지정할 수 있습니다. 이렇게 하면 대상을 만들 때 ID로 선택한 속성이 Journey Optimizer에서 타깃팅에 사용되는 속성이 됩니다.
 
 ## 대상자 평가 방법 {#evaluation-method-in-journey-optimizer}
 
@@ -184,7 +173,6 @@ Edge 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 [
 >[!NOTE]
 >
 성능 문제 없이 일괄 세분화에서 **열린 메시지** 및 **보낸 메시지** 이벤트를 사용할 수 있습니다.
-
 
 ## 대상 구성 및 사용자 지정 업로드 FAQ {#faq}
 
@@ -264,3 +252,8 @@ Edge 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 [
 
 +++
 
+## 방법 비디오 {#video}
+
+Journey Optimizer의 통합 고객 프로필 및 대상자에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432671?quality=12)
