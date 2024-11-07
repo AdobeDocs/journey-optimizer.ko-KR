@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2160'
 ht-degree: 98%
 
 ---
@@ -448,6 +448,38 @@ ht-degree: 98%
    + [경고](using/reports/alerts.md)
    + [제외 이유](using/reports/exclusion-list.md)
 + 결정 기능 {#decisioning}
+   + 의사 결정 {#experience-decisioning}
+      + [Decisioning 시작하기](using/experience-decisioning/gs-experience-decisioning.md)
+      + API 참조{#api-reference}
+         + 결정 항목{#decision-items}
+            + [결정 항목 만들기](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [결정 항목 목록](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [결정 항목 삭제](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [결정 항목 조회](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [결정 항목 업데이트](using/experience-decisioning/api-reference/decisions-items/update.md)
+         + 항목 컬렉션{#items-collections}
+            + [항목 컬렉션 만들기](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [항목 컬렉션 삭제](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [항목 컬렉션 목록](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [항목 컬렉션 조회](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [항목 컬렉션 업데이트](using/experience-decisioning/api-reference/items-collections/update.md)
+         + 선택 전략{#selection-strategies}
+            + [선택 전략 만들기](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [선택 전략 삭제](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [선택 전략 조회](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [선택 전략 목록](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [선택 전략 업데이트](using/experience-decisioning/api-reference/selection-strategies/update.md)
+      + 결정 항목 관리 {#decision-items}
+         + [항목 카탈로그 구성](using/experience-decisioning/catalogs.md)
+         + [결정 항목 만들기](using/experience-decisioning/items.md)
+         + [항목 컬렉션 관리](using/experience-decisioning/collections.md)
+      + 항목 선택 구성 {#selection}
+         + [의사 결정 규칙 만들기](using/experience-decisioning/rules.md)
+         + [등급 메서드 만들기](using/experience-decisioning/ranking.md)
+         + [컨텍스트 데이터 ](using/experience-decisioning/context-data.md)
+      + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
+      + [결정 정책 만들기](using/experience-decisioning/create-decision.md)
+      + [Customer Journey Analytics에서 보고](using/experience-decisioning/cja-reporting.md)
    + 의사 결정 관리 {#offer-decisioning}
       + 의사 결정 관리 시작 {#get-started-decision}
          + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
@@ -588,38 +620,6 @@ ht-degree: 98%
             + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + LA(의사 결정) {#experience-decisioning}
-      + [Decisioning 시작하기](using/experience-decisioning/gs-experience-decisioning.md)
-      + API 참조{#api-reference}
-         + 결정 항목{#decision-items}
-            + [결정 항목 만들기](using/experience-decisioning/api-reference/decisions-items/create.md)
-            + [결정 항목 목록](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-            + [결정 항목 삭제](using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [결정 항목 조회](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [결정 항목 업데이트](using/experience-decisioning/api-reference/decisions-items/update.md)
-         + 항목 컬렉션{#items-collections}
-            + [항목 컬렉션 만들기](using/experience-decisioning/api-reference/items-collections/create.md)
-            + [항목 컬렉션 삭제](using/experience-decisioning/api-reference/items-collections/delete.md)
-            + [항목 컬렉션 목록](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [항목 컬렉션 조회](using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [항목 컬렉션 업데이트](using/experience-decisioning/api-reference/items-collections/update.md)
-         + 선택 전략{#selection-strategies}
-            + [선택 전략 만들기](using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [선택 전략 삭제](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [선택 전략 조회](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-            + [선택 전략 목록](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [선택 전략 업데이트](using/experience-decisioning/api-reference/selection-strategies/update.md)
-      + 결정 항목 관리 {#decision-items}
-         + [항목 카탈로그 구성](using/experience-decisioning/catalogs.md)
-         + [결정 항목 만들기](using/experience-decisioning/items.md)
-         + [항목 컬렉션 관리](using/experience-decisioning/collections.md)
-      + 항목 선택 구성 {#selection}
-         + [의사 결정 규칙 만들기](using/experience-decisioning/rules.md)
-         + [등급 메서드 만들기](using/experience-decisioning/ranking.md)
-         + [컨텍스트 데이터 ](using/experience-decisioning/context-data.md)
-      + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
-      + [결정 정책 만들기](using/experience-decisioning/create-decision.md)
-      + [Customer Journey Analytics에서 보고](using/experience-decisioning/cja-reporting.md)
 + 데이터 관리 {#data-management}
    + [데이터 관리 시작](using/data/gs-data.md)
    + [스키마 작업](using/data/get-started-schemas.md)

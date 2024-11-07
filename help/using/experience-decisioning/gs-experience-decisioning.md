@@ -5,26 +5,19 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="제한 공개"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 19%
+source-wordcount: '365'
+ht-degree: 24%
 
 ---
 
 # Decisioning 시작하기 {#get-started-experience-decisioning}
 
->[!AVAILABILITY]
->
->의사 결정은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
->
->지금은 Adobe **Healthcare Shield** 및 **Privacy and Security Shield** 추가 기능 서비스를 구입한 고객은 이 기능을 사용할 수 없습니다.
-
 ## Decisioning 소개 {#about}
 
-Decisioning은 &#39;의사 결정 항목&#39;이라고 하는 마케팅 오퍼의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.
+의사 결정 기능은 &#39;의사 결정 항목&#39;이라는 중앙 집중식 마케팅 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.
 
 이러한 결정 항목은 [새 코드 기반 경험 채널](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)을 통해 광범위한 인바운드 표면에 원활하게 통합되어 이제 Journey Optimizer 캠페인 내에서 액세스할 수 있습니다. 의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.
 
