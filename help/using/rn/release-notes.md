@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: cb7842209e03c579904979480304e543a6b50f50
 workflow-type: tm+mt
-source-wordcount: '2065'
-ht-degree: 80%
+source-wordcount: '2135'
+ht-degree: 78%
 
 ---
 
@@ -249,7 +249,7 @@ ht-degree: 80%
 <td>
 <p>이제 여정 최적기를 사용하여 미리 보고 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 전자 메일 증명을 전송하여 콘텐츠의 다양한 변형을 테스트할 수 있습니다. 콘텐츠에서 개인화를 위해 사용되는 모든 프로필 속성은 시스템에서 자동으로 감지되며, 이를 테스트에 사용하여 여러 변형을 만들 수 있습니다.</p>
 <p>이 기능은 현재 모든 고객이 이메일, SMS 및 푸시 알림 채널에 공개 베타 버전으로 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../test-approve/simulate-sample-input.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../test-approve/simulate-sample-input.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/gif-simulate.gif">
 </td>
 </tr>
@@ -257,22 +257,22 @@ ht-degree: 80%
 </table>
 
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Use Adobe Experience Platform data for personalization (Beta)</strong><br/></th>
+<th><strong>개인화에 Adobe Experience Platform 데이터 사용(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Leverage data from Adobe Experience Platform in the personalization editor to personalize your content. To do this, datasets needed for lookup personalization must first be enabled through an API call. Once done, you can use their data to personalize your content into [!DNL Journey Optimizer].</p>
-<p>This capability is currently available to all customers as a public beta.</p>
-<p>For more information, refer to the <a href="../personalization/lookup-aep-data.md"</a>.</p>
+<p>개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 콘텐츠를 개인화할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer](으)로 개인화할 수 있습니다.</p>
+<p>이 기능은 모든 고객이 Public Beta로 사용할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../personalization/lookup-aep-data.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 ### 개선 사항 {#24-10-improvements}
 

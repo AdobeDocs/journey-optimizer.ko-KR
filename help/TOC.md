@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+source-git-commit: cb7842209e03c579904979480304e543a6b50f50
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2167'
 ht-degree: 98%
 
 ---
@@ -326,7 +326,7 @@ ht-degree: 98%
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
       + [개인화 구문](using/personalization/personalization-syntax.md)
-      + [개인화에 Adobe Experience Platform 데이터 사용](using/personalization/lookup-aep-data.md)
+      + [개인화에 Adobe Experience Platform 데이터 사용(Beta)](using/personalization/lookup-aep-data.md)
       + 개인화 편집기 작업 {#expression-editor}
          + [개인화 편집기 정보](using/personalization/personalization-build-expressions.md)
          + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
