@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: d9fde8bfc7fd3ab3139c4212e2fef490dd9a8cce
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 100%
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
@@ -250,3 +250,18 @@ ht-degree: 100%
 >id="ajo_email_enable_experience_decisioning"
 >title="결정 활성화"
 >abstract="결정 활성화"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="카탈로그에서 의사 결정 속성 선택"
+>abstract="결정 속성은 카탈로그의 스키마에 저장됩니다. 선택한 카탈로그에서 여기에서 사용할 속성을 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="결정 정책"
+>abstract="의사 결정 정책을 사용하면 의사 결정 엔진에서 최상의 항목을 선택하여 각 대상자에게 전달할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_attribute"
+>title="배치"
+>abstract="배치"
