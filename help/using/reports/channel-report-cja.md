@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Workspace Customer Journey Analytics 및 데이터를 필터링하고 분석하�
 
 +++ 하이라이트 지표에 대해 자세히 알아보기
 
-* **[!UICONTROL 여정 참여]**: 여정에서 보낸 메시지와 상호 작용한 총 개인 수
+* **[!UICONTROL 여정 참여]**: 여정에서 보낸 메시지를 받은 총 고유 개인 수로, 여정에서 지정된 작업 지점에 도달한 고유한 프로필을 나타냅니다.
 
 * **[!UICONTROL 여정 입력]**: 여정의 시작 이벤트에 도달한 총 개인 수입니다.
 
