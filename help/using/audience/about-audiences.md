@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2032'
 ht-degree: 19%
 
 ---
@@ -218,10 +218,9 @@ Edge 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 [
 
 +++
 
-+++ Journey Optimizer에서 대상 구성 또는 사용자 지정 업로드의 대상을 게시한 후 얼마나 빨리 사용할 수 있습니까?
++++ Journey Optimizer에서 대상 구성에서 대상을 게시한 후 얼마나 빨리 사용할 수 있습니까?
 
-* **대상 구성**&#x200B;의 대상은 매일 실행되므로 Journey Optimizer에서 사용하려면 최대 24시간을 기다려야 할 수 있습니다.
-* **사용자 지정 업로드**&#x200B;의 대상은 게시 후 약 2시간 후에 Journey Optimizer에서 사용할 수 있습니다.
+**대상 구성**&#x200B;의 대상은 매일 실행되므로 Journey Optimizer에서 사용하려면 최대 24시간을 기다려야 할 수 있습니다.
 
 +++
 
