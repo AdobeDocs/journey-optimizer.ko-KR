@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+exl-id: d2365e3f-fbef-43c2-bf2a-0a868cb93015
+source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 6%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
@@ -24,10 +25,6 @@ ht-degree: 6%
 * **사용자 지정 업로드**: CSV 파일을 사용하여 대상을 가져옵니다. Adobe Experience Platform [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}에서 대상을 가져오는 방법을 알아보세요.
 
 * **페더레이션 대상 구성**: 기존 데이터 웨어하우스에서 직접 데이터 세트를 페더레이션하여 하나의 시스템에 Adobe Experience Platform 대상 및 특성을 모두 빌드하고 보강합니다. [Federated Audience Composition](https://experienceleague.adobe.com/ko/docs/federated-audience-composition/using/home)에 대한 안내서를 읽어 보십시오.
-
-  >[!AVAILABILITY]
-  >
-  >페더레이션된 대상자 구성은 현재 조직 집합에만 사용할 수 있습니다(제한된 가용성). 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 Journey Optimizer에서 이러한 대상을 타기팅하거나 Adobe Experience Platform에서 지원하는 모든 대상으로 활성화할 수 있습니다
 

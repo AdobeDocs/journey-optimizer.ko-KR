@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
+source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
-source-wordcount: '2032'
+source-wordcount: '2011'
 ht-degree: 19%
 
 ---
@@ -41,10 +41,6 @@ ht-degree: 19%
 * **대상 구성**: 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만드는 구성 워크플로를 만듭니다. [대상자 구성 시작](get-started-audience-orchestration.md)
 
 * **페더레이션 대상 구성**: 기존 데이터 웨어하우스에서 직접 데이터 세트를 페더레이션하여 하나의 시스템에 Adobe Experience Platform 대상 및 특성을 모두 빌드하고 보강합니다. [Federated Audience Composition](https://experienceleague.adobe.com/ko/docs/federated-audience-composition/using/home)에 대한 안내서를 읽어 보십시오.
-
-  >[!AVAILABILITY]
-  >
-  >페더레이션된 대상자 구성은 현재 조직 집합에만 사용할 수 있습니다(제한된 가용성). 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 [!DNL Journey Optimizer]에서 사용자 지정 업로드 및 Federated Audience Composition 대상을 사용하는 방법에 대한 자세한 내용은 [이 섹션](custom-upload-fac.md)을 참조하세요.
 
