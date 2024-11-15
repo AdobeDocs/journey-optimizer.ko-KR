@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: 권한, 권한, 제한, 액세스, 샌드박스
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
+source-git-commit: c2f68054cb0c378b188797a2b3aa4fb2841b7384
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '149'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,10 @@ ht-degree: 3%
 
 ![](assets/do-not-localize/permissions_2.png)
 
-## 방법 비디오{#video}
+<!--
+## How-to video{#video}
 
-Adobe Journey Optimizer의 액세스 제어 시스템 및 사용자 지정 프로필에 대해 자세히 알아보십시오. 역할 및 권한을 관리하는 방법과 사용자를 추가하고 관리하는 방법을 알아봅니다.
+Learn more about access control system and custom proles in Adobe Journey Optimizer. Learn how to manage roles and permissions and how to add and manage users.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
+-->
