@@ -4,13 +4,13 @@ description: 여정에 대한 최대 가용량 규칙을 만드는 방법과 여
 role: User
 level: Beginner
 badge: label="제한 공개"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
-
 
 # 여정 캡핑 및 중재 {#journey-capping}
 
@@ -27,7 +27,7 @@ ht-degree: 18%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-## 여정 최대 가용량 규칙 만들기 {#create-rule}
+## 여정 캡핑 규칙 만들기 {#create-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
@@ -37,7 +37,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
 >title="규칙 유형"
->abstract="규칙의 최대 가용량 유형을 지정합니다. **[!UICONTROL 여정 시작 상한]**&#x200B;은(는) 프로필에 지정된 기간 동안 여정에 대한 항목 수를 제한하며, **[!UICONTROL 여정 동시성 상한]**&#x200B;은(는) 프로필을 동시에 등록할 수 있는 여정 수를 제한합니다."
+>abstract="규칙의 캡핑 유형을 지정합니다. **[!UICONTROL 여정 입력 캡]**&#x200B;은 프로필의 특정 기간 동안 여정에 대한 입력 횟수를 제한하는 반면, **[!UICONTROL 여정 동시성 캡]**&#x200B;은 프로필이 동시에 등록할 수 있는 여정의 수를 제한합니다."
 
 여정 최대 가용량 규칙을 만들려면 다음 단계를 수행합니다.
 
@@ -103,7 +103,7 @@ ht-degree: 18%
 
    ![](assets/journey-capping-activate-rule-set.png)
 
-## 여정에 최대 가용량 규칙 적용 {#apply-capping}
+## 여정에 캡핑 규칙 적용 {#apply-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"

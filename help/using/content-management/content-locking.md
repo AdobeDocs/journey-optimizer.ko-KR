@@ -6,7 +6,8 @@ description: 이메일 템플릿에서 콘텐츠를 잠그는 방법에 대해 �
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
+exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 32%
@@ -103,7 +104,7 @@ Journey Optimizer을 사용하면 전체 템플릿 또는 특정 구조 및 구�
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
 >title="콘텐츠 고정 구조"
->abstract="템플릿에서 구조를 잠그려면 **잠금 유형** 드롭다운에서 **잠김**&#x200B;을 선택합니다. 기본 설정에서, 사용자는 잠긴 구조를 삭제할 수 없습니다. **[!UICONTROL 삭제 허용]** 옵션을 활성화하여 이 제한을 대체하도록 할 수 있습니다."
+>abstract="템플릿에서 구조를 잠그려면 **잠금 유형** 드롭다운에서 **잠김**&#x200B;을 선택합니다. 기본 설정에서 사용자는 잠긴 구조를 삭제할 수 없습니다. **[!UICONTROL 삭제 허용]** 옵션을 활성화하여 이 제한을 대체하도록 할 수 있습니다."
 
 템플릿 내의 구조를 잠그려면 다음을 수행합니다.
 
@@ -115,7 +116,7 @@ Journey Optimizer을 사용하면 전체 템플릿 또는 특정 구조 및 구�
 
    >[!NOTE]
    >
-   >기본 설정에서, 사용자는 잠긴 구조를 삭제할 수 없습니다. **[!UICONTROL 삭제 허용]** 옵션을 활성화하여 이 제한을 대체하도록 할 수 있습니다.
+   >기본 설정에서 사용자는 잠긴 구조를 삭제할 수 없습니다. **[!UICONTROL 삭제 허용]** 옵션을 활성화하여 이 제한을 대체하도록 할 수 있습니다.
 
 구조를 잠근 후에는 추가적인 콘텐츠 구성 요소 또는 조각을 복제하거나 그 내부에 추가할 수 없습니다. 잠긴 구조 내의 모든 구성 요소도 기본적으로 잠깁니다. 잠긴 구조 내에서 구성 요소를 편집할 수 있게 하려면 다음 작업을 수행하십시오.
 

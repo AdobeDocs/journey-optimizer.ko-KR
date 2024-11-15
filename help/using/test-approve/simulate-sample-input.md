@@ -8,26 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta"
-source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
+exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
-
 
 # 샘플 입력 데이터를 사용하여 콘텐츠 테스트(Beta) {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="샘플 입력을 사용하여 시뮬레이션"
->abstract="이 화면에서는 CSV 또는 JSON 템플릿을 통해 개인화 필드에 대한 값을 제공하거나 값을 수동으로 입력하여 다른 콘텐츠 변형을 테스트할 수 있습니다."
+>abstract="이 화면에서는 CSV 또는 JSON 템플릿을 통해 개인화 필드에 값을 제공하거나 수동으로 값을 입력하여 콘텐츠의 다양한 변형을 테스트할 수 있습니다."
 
 >[!AVAILABILITY]
 >
 >이 기능은 현재 모든 고객이 공개 베타로 사용할 수 있습니다.
 
-여정 최적기를 사용하면 CSV 또는 JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형을 테스트할 수 있습니다. 개인화를 위한 콘텐츠에 사용되는 모든 프로필 속성은 시스템에서 자동으로 감지되며 테스트에 사용하여 여러 변형을 만들 수 있습니다.
+여정 최적기를 사용하면 CSV 또는 JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형을 테스트할 수 있습니다. 콘텐츠에서 개인화를 위해 사용되는 모든 프로필 속성은 시스템에서 자동으로 감지되며, 이를 테스트에 사용하여 여러 변형을 만들 수 있습니다.
 
 >[!NOTE]
 >

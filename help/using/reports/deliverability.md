@@ -11,7 +11,7 @@ exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -87,7 +87,7 @@ ISP에는 일반적으로 수신된 메시지를 스팸으로 보고하는 눈�
 
 [DMARC 레코드에 대한 자세한 내용](../configuration/dmarc-record.md)
 
-## 피드백 루프에 대해 알아보기 {#feedback-loops}
+## 피드백 루프에 대한 정보 {#feedback-loops}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"

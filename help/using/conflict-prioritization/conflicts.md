@@ -4,13 +4,13 @@ description: 여정 및 캠페인에서 발생할 수 있는 충돌을 식별하
 role: User
 level: Beginner
 badge: label="제한 공개"
-source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
+exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
-
 
 # 여정 및 캠페인에서 발생할 수 있는 충돌 감지 {#conflict}
 
@@ -44,17 +44,17 @@ ht-degree: 7%
 * **캠페인**: 모든 캠페인이 대상을 타겟팅하고 있으며 여정 개념이 없으므로 모든 캠페인은 대상 읽기 활동으로 시작하여 세그먼트에서 트리거된 이벤트와 잠재적으로 충돌합니다.
 * **실시간/예약된 캠페인**: 실시간 캠페인과 예약된 캠페인이 겹칠 수 있으므로 서로 충돌할 수 있습니다. 지정된 캠페인의 경우 모든 라이브 또는 예약된 캠페인이 충돌 뷰어에 나열됩니다.
 
-## 주어진 여정 또는 캠페인에 대해 식별된 충돌 보기 {#view}
+## 특정 여정 또는 캠페인에 대해 확인된 충돌 보기 {#view}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="잠재적 충돌 보기"
->abstract="다른 캠페인과 겹칠 수 있을 때마다 확인하십시오. 충돌은 실시간 및 예약된 캠페인에 대해서만 표시됩니다. **[!UICONTROL 시작/종료 날짜]**, **[!UICONTROL 대상자]**, **[!UICONTROL 채널]**, **[!UICONTROL 채널 구성]** 및 **[!UICONTROL 규칙 집합]** 설정을 할당하면 바로 단추를 사용할 수 있습니다."
+>abstract="다른 캠페인과 중복될 가능성이 있을 때마다 확인합니다. 충돌은 라이브 및 예약된 캠페인에만 표시됩니다. 다음 설정 중 하나를 할당하면 바로 버튼을 사용할 수 있습니다. **[!UICONTROL 시작/종료 날짜]**, **[!UICONTROL 대상자]**, **[!UICONTROL 채널]**, **[!UICONTROL 채널 구성]** 및 **[!UICONTROL 규칙 세트]**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="잠재적 충돌 보기"
->abstract="다른 여정과 겹칠 가능성이 있으면 언제든지 확인하십시오. 충돌은 라이브 및 예약된 여정에 대해서만 표시됩니다. **[!UICONTROL 시작/종료 날짜]**, **[!UICONTROL 대상자]**, **[!UICONTROL 채널]**, **[!UICONTROL 채널 구성]** 및 **[!UICONTROL 규칙 집합]** 설정을 할당하면 바로 단추를 사용할 수 있습니다."
+>abstract="다른 여정과 중복될 가능성이 있을 때마다 확인합니다. 충돌은 라이브 및 예약된 여정에만 표시됩니다. 다음 설정 중 하나를 할당하면 바로 버튼을 사용할 수 있습니다. **[!UICONTROL 시작/종료 날짜]**, **[!UICONTROL 대상자]**, **[!UICONTROL 채널]**, **[!UICONTROL 채널 구성]** 및 **[!UICONTROL 규칙 세트]**."
 
 Journey Optimizer을 사용하면 여정 또는 캠페인을 작성할 때 다른 여정 또는 캠페인과 겹칠 가능성이 있을 때마다 확인할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
 
