@@ -5,22 +5,22 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 3fb9e6cd61e73e9ddf1971f6aa8e15c8b82b8445
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '342'
 ht-degree: 6%
 
 ---
 
 # 의사 결정 사용 사례 {#experience-decisioning-uc}
 
-이 사용 사례에서는 타겟 대상자에게 가장 성과가 좋은 결정 정책을 측정하기 위해 각각 다른 결정 정책을 포함하는 두 개의 게재 처리를 정의합니다.
+이 사용 사례에서는 타겟 대상자에게 가장 적합한 성과를 측정하기 위해 각각 다른 결정 정책이 포함된 두 개의 게재 처리를 정의하는 캠페인을 만듭니다.
 
-## 항목 및 전략 만들기
+## 의사 결정 항목 및 선택 전략 만들기
 
 먼저 항목을 만들고, 컬렉션에서 함께 그룹화하고, 규칙과 등급 지정 방법을 설정해야 합니다. 이러한 요소를 사용하여 선택 전략을 작성할 수 있습니다.
 
-1. **[!UICONTROL Decisioning]** > **[!UICONTROL 카탈로그]**(으)로 이동하여 여러 오퍼 항목을 만듭니다. 대상자 또는 규칙을 사용하여 제한을 설정하여 각 항목을 특정 프로필로만 제한합니다. [자세히 알아보기](items.md)
+1. **[!UICONTROL Decisioning]** > **[!UICONTROL 카탈로그]**(으)로 이동하여 여러 결정 항목을 만듭니다. 대상자 또는 규칙을 사용하여 제한을 설정하여 각 항목을 특정 프로필로만 제한합니다. [자세히 알아보기](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
@@ -37,11 +37,11 @@ ht-degree: 6%
 
 웹 사이트 또는 모바일 앱에서 방문자에게 최고의 동적 오퍼 및 경험을 제공하려면 코드 기반 캠페인에 의사 결정 정책을 추가하십시오.
 
-각각 다른 결정 정책이 포함된 두 가지 게재 처리를 정의합니다.
+<!--Define two delivery treatments each containing a different decision policy.-->
 
 1. 캠페인을 만들고 **[!UICONTROL 코드 기반 경험]** 작업을 선택하십시오. [자세히 알아보기](../code-based/create-code-based.md)
 
-1. 캠페인 요약 페이지에서 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하여 콘텐츠 실험 구성을 시작합니다. [자세히 알아보기](../content-management/content-experiment.md)
+1. **[!UICONTROL 콘텐츠 편집]** 창에서 치료 A 개인화를 시작하십시오.
 
 1. **[!UICONTROL 결정]** 아이콘을 선택하고 **[!UICONTROL 결정 만들기]**&#x200B;를 클릭한 다음 결정 세부 정보를 입력하십시오. [자세히 알아보기](create-decision.md)
 
@@ -61,7 +61,9 @@ ht-degree: 6%
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. 처리 B를 작성하고 위의 단계를 반복하여 다른 결정을 만듭니다.
+1. 캠페인 요약 페이지에서 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하여 콘텐츠 실험 구성을 시작합니다. [자세히 알아보기](../content-management/content-experiment.md)
+
+1. **[!UICONTROL 콘텐츠 편집]** 창에서 치료 B를 선택하여 콘텐츠를 변경하고 위의 단계를 반복하여 다른 결정을 만듭니다.
 
 1. 콘텐츠를 저장합니다.
 
