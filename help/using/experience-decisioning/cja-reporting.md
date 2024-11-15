@@ -1,20 +1,31 @@
 ---
-title: Customer Journey Analytics에서 보고
-description: Customer Journey Analytics에서 보고를 수행하는 방법 알아보기
+title: 의사 결정 보고서
+description: 의사 결정에 대해 보고하는 방법을 알아봅니다.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="제한 공개"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 7%
+source-wordcount: '221'
+ht-degree: 3%
 
 ---
 
-# Customer Journey Analytics에서 보고 {#cja}
+
+# 의사 결정 보고서 {#decisioning-report}
+
+## 코드 기반 캠페인 보고 {#campaigns}
+
+코드 기반 환경이 구현되면 전용 보고서에 액세스하여 주요 성과 지표(KPI)를 모두 포괄하는 대시보드로 모니터링하여 캠페인과 관련된 필수 지표에 대한 분석을 제공할 수 있습니다.
+
+이는 의사 결정 항목 성과와 관련된 세부사항 및 사용자가 이들 성과와 어떻게 상호 작용했는지를 포괄한다. [코드 기반 경험 보고서로 작업하는 방법을 알아봅니다](../reports/campaign-global-report-cja-code.md)
+
+![](../reports/assets/cja-decisioning-item-performance.png)
+
+## Customer Journey Analytics에서 보고 {#cja}
 
 Decisioning을 사용하여 작업하는 경우 Decisioning을 활용하는 코드 기반 Customer Journey Analytics에 대한 사용자 지정 보고 대시보드를 만들 수 있습니다.
 
