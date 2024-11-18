@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9c5dd4a8de32ccc037d6c8d57667ce3a5f455535
+source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
 workflow-type: tm+mt
-source-wordcount: '5724'
+source-wordcount: '5736'
 ht-degree: 99%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 99%
 * 여정 또는 캠페인의 콘텐츠를 시뮬레이션할 때 디바이스에서 미리 보기 옵션을 사용하여 브라우저 또는 모바일 디바이스에서 코드 기반의 개인화된 경험을 편리하게 미리 보는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../code-based/create-code-based.md#preview-on-device)
 * 의사 결정에 사용자 정의 업로드 대상자를 활용하는 방법에 대한 새 페이지를 추가했습니다. [자세히 보기](../offers/custom-upload-decisioning.md)
 * Journey Optimizer에서 사용할 수 있는 의사 결정 기능을 소개하는 새 페이지가 추가되었습니다. [자세히 보기](../experience-decisioning/gs-decision.md)
+* Decisioning 설명서에 보호 기능 및 제한 사항이 추가되었습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## 2024년 9월 {#sept-2024}
 
