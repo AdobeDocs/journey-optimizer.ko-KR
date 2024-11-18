@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
+source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 100%
 
 ---
 
-# 의사 결정 관리 정보 {#about-decision-management}
+# 의사 결정 관리 시작 {#about-decision-management}
 
 [!DNL Journey Optimizer]을(를) 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 오퍼 및 경험을 제공하십시오. 디자인한 후에는 개인화된 오퍼를 통해 대상자를 타기팅하십시오.
 
