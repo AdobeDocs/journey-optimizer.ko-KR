@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
@@ -449,7 +449,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Stock 및 Adobe Journey Optimizer 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선싱 및 저장할 수 있습니다. </br> 새로운 <b>유사한 스톡 사진 찾기</b> 옵션으로도 이미지의 내용, 색상 및 컴포지션과 일치하는 스톡 사진을 찾을 수 있습니다. </p>
-<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>자세한 내용은 <a href="../content-management/stock.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -466,7 +465,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 이메일 BCC(숨은 참조) 기능을 사용하여 Adobe Journey Optimizer에서 보낸 이메일을 저장할 수 있습니다. 이메일 사전 설정에서 이 옵션을 활성화하여 전송된 모든 이메일이 BCC 주소로 블라인드(bcc)로 복사됩니다.</p>
-<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>자세한 내용은 <a href="../configuration/archiving-support.md#bcc-email">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -547,7 +545,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 채널  비즈니스 규칙을 설정할 수 있습니다.</p>
-<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>자세한 내용은 <a href="../configuration/frequency-rules.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -564,7 +561,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 의사 결정 관리에서 련된 모델 시스템을 사용할 수 있습니다. 이 새 기능은 주어진 프로필에 대해 표시할 오퍼에 등급을 지정합니다.</p>
-<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>자세한 내용은 <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -598,7 +594,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 Adobe Journey Optimizer 리소스에서 사용자가 수행한 작업을 모니터링할 수 있습니다.</p>
-<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>자세한 내용은 <a href="../privacy/audit-logs.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
