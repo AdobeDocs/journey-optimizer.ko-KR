@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -46,4 +46,8 @@ Decisioning에서 카탈로그는 의사 결정 항목을 구성하는 중앙 �
 
    Adobe Experience Platform 스키마를 사용하는 방법에 대한 자세한 내용은 [XDM 시스템 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko)를 참조하세요.
 
-1. 원하는 사용자 지정 속성이 추가되면 스키마를 저장합니다. 이제 **[!UICONTROL 사용자 지정 특성]** 섹션 내의 항목 결정 만들기 화면에서 새 필드를 사용할 수 있습니다.
+1. 원하는 사용자 지정 속성이 추가되면 스키마를 저장합니다. 이제 **[!UICONTROL 사용자 지정 특성]** 섹션 내의 결정 항목 만들기 화면에서 새 필드를 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>의사 결정 항목에는 최대 100개의 사용자 지정 특성을 포함할 수 있습니다. [의사 결정 보호 및 제한에 대해 자세히 알아보기](gs-experience-decisioning.md#guardrails)

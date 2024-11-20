@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 24%
+source-wordcount: '448'
+ht-degree: 20%
 
 ---
 
@@ -58,3 +58,6 @@ ht-degree: 24%
 
 1. 결정 규칙이 준비되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 생성된 규칙은 목록에 표시되며 의사 결정 항목 및 선택 전략에서 사용하여 프로필에 대한 의사 결정 항목 표시를 제어할 수 있습니다.
 
+   >[!NOTE]
+   >
+   >자격 규칙의 중첩 깊이는 30개 수준으로 제한됩니다. 이는 PQL 문자열에서 `)` 닫는 괄호를 계산하여 측정됩니다. 규칙 문자열의 크기는 UTF-8 인코딩 문자의 경우 최대 15KB까지 가능합니다. 이는 15,000개의 ASCII 문자(각각 1바이트) 또는 3,750-7,500개의 비 ASCII 문자(각각 2-4바이트)에 해당합니다. [의사 결정 보호 및 제한에 대해 자세히 알아보기](gs-experience-decisioning.md#guardrails)

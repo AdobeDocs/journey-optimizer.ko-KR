@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 50%
+source-wordcount: '384'
+ht-degree: 48%
 
 ---
 
@@ -50,3 +50,7 @@ ht-degree: 50%
    ![](assets/collection-create.png)
 
 1. 컬렉션 규칙이 정의되면 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 이제 컬렉션이 목록에 표시됩니다.
+
+>[!NOTE]
+>
+>각 항목 컬렉션에는 최대 500개의 오퍼 항목이 포함될 수 있습니다. [의사 결정 보호 및 제한에 대해 자세히 알아보기](gs-experience-decisioning.md#guardrails)

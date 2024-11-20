@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1791'
 ht-degree: 14%
 
 ---
@@ -88,9 +88,9 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >하나 이상의 의사 결정 항목 또는 전략이 필요합니다. 10개 이상의 전략을 추가할 수 없습니다.
+   >의사 결정 정책은 선택 전략과 의사 결정 항목을 합하여 최대 10개까지 지원한다. [의사 결정 보호 및 제한에 대해 자세히 알아보기](gs-experience-decisioning.md#guardrails)
 
-1. 여러 개의 의사 결정 항목 및/또는 전략을 추가할 때 특정 순서로 평가된다. 시퀀스에 추가된 첫 번째 객체가 먼저 평가됩니다.     기본 시퀀스를 변경하려면 개체 및/또는 그룹을 드래그 앤 드롭하여 원하는 대로 순서를 변경할 수 있습니다. [의사 결정 정책 평가 순서에 대해 자세히 알아보기](#evaluation-order)
+1. 여러 개의 의사 결정 항목 및/또는 전략을 추가할 때 특정 순서로 평가된다. 시퀀스에 추가된 첫 번째 객체가 먼저 평가됩니다. 기본 시퀀스를 변경하려면 개체 및/또는 그룹을 드래그 앤 드롭하여 원하는 대로 순서를 변경할 수 있습니다. [의사 결정 정책 평가 순서에 대해 자세히 알아보기](#evaluation-order)
 
 ### 의사 결정 정책에서 평가 순서 관리 {#evaluation-order}
 

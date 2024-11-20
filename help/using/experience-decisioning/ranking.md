@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 15%
+source-wordcount: '639'
+ht-degree: 13%
 
 ---
 
@@ -44,6 +44,12 @@ ht-degree: 15%
 
    * [등급 공식](../offers/ranking/create-ranking-formulas.md)
    * [AI 모델](../offers/ranking/ai-models.md)
+
+   >[!NOTE]
+   >
+   >순위 수식의 중첩 깊이는 30개 수준으로 제한됩니다. 이는 PQL 문자열에서 `)` 닫는 괄호를 계산하여 측정됩니다. 규칙 문자열의 크기는 UTF-8 인코딩 문자의 경우 최대 8KB까지 가능합니다. 이는 8,000개의 ASCII 문자(각각 1바이트) 또는 2,000-4,000개의 비 ASCII 문자(각각 2-4바이트)에 해당합니다. [의사 결정 보호 및 제한에 대해 자세히 알아보기](gs-experience-decisioning.md#guardrails)
+
+의사 결정 정책은 선택 전략과 의사 결정 항목을 합하여 최대 10개까지 지원한다. [의사 결정 보호 및 제한에 대해 자세히 알아보기](gs-experience-decisioning.md#guardrails)
 
 +++ 사용자 지정 [!DNL Customer Journey Analytics] 지표에 대한 모델 최적화 중
 
