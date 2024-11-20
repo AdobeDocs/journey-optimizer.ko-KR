@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2628'
 ht-degree: 11%
 
 ---
@@ -103,7 +103,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >이 섹션은 편집할 수 없습니다.
 
-1. 필요한 경우 **[!UICONTROL 바꾸기]** 단추를 사용하여 캠페인을 바꿀 수 있습니다. **[!UICONTROL 지우기]** 단추를 사용하여 선택한 캠페인을 **[!UICONTROL 지우기]**&#x200B;할 수도 있습니다. 이 작업을 수행하면 캠페인뿐만 아니라 도메인 그룹 제외, 캠페인, 여정 제외 등과 같은 기타 단계 수준 속성이 지워집니다. 지운 후 즉시 또는 나중에 새 캠페인을 선택할 수 있습니다.
+1. 필요한 경우 **[!UICONTROL 바꾸기]** 단추를 사용하여 캠페인을 바꿀 수 있습니다. **[!UICONTROL 지우기]** 단추를 사용하여 선택한 캠페인을 **[!UICONTROL 지우기]**&#x200B;할 수도 있습니다. 이 작업을 수행하면 캠페인뿐만 아니라 다른 단계 수준 속성(도메인 그룹 제외, 캠페인, 여정 제외 등)도 지워집니다. 지운 후 즉시 또는 나중에 새 캠페인을 선택할 수 있습니다.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -187,6 +187,12 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. 해당 실행에 대해 대상을 평가한 후 정규화된 프로필이 타겟팅된 프로필보다 적은 경우 실행을 취소하려면 **[!UICONTROL 오류가 발생한 경우 활성화된 실행 취소]** 옵션을 선택하십시오. 이 경우 실행은 **[!UICONTROL 실패]** 상태를 사용합니다.
 
    ![](assets/ip-warmup-plan-pause.png)
+
+   적격 프로필의 수가 타겟팅된 프로필의 수와 일치하지 않는 경우(예: 1500개의 Gmail 주소가 실행에서 타겟팅되지만 700개의 Gmail 프로필만 적격):
+
+   * 이 옵션을 활성화하면 실행이 실패합니다. 그런 다음 다음 다음 실행에서 더 적은 프로필을 타겟팅하도록 선택하거나 [실행을 새 단계로 분할](#split-phase)하고 새 단계에 대한 새 캠페인을 선택하여 동일한 프로필을 다시 타겟팅할 수 있습니다.
+
+   * 이 옵션을 활성화하지 않으면 실행이 실행되지만, 사용 가능한 프로필 수만 타겟팅됩니다.
 
 1. 실행을 **[!UICONTROL 활성화]**&#x200B;합니다. [자세히 알아보기](#activate-run)
 

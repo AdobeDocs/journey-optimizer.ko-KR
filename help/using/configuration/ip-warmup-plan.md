@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1760'
+ht-degree: 6%
 
 ---
 
@@ -92,108 +92,108 @@ IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP �
 
 ![](assets/ip-warmup-sample-file.png)
 
-### IP 준비 계획 탭 {#ip-warmup-plan-tab}
+### 준비 계획 탭 {#ip-warmup-plan-tab}
 
-* 이 예제에서는 백만 프로필이 넘는 대상 볼륨에 도달하기 위해 17일 동안 계획이 준비되었습니다(&#39;**실행**&#39;이라고 함).
+IP 준비 계획을 만들려면 첫 번째 탭에 계획을 제공하는 데 필요한 데이터를 채우십시오.
+
+* 위의 예에서는 17일 이상(&#39;**실행**&#39;이라고 함)에 걸쳐 100만 개 이상의 프로필이 있는 대상 볼륨에 도달하도록 계획을 준비했습니다.
 
 * 이 계획은 여섯 개의 **단계**&#x200B;를 통해 실행되며, 각 단계에는 하나 이상의 실행이 포함됩니다.
 
 * 최대 6개의 열이 있을 수 있습니다(도메인 그룹의 경우 4개 열, **기타** 열 및 **참여 일수** 열의 경우 1개). 이 예에서 플랜은 6개의 열로 나뉩니다.
 
-   * 이 중 3개는 플랜에서 사용할 **기본 제공 도메인 그룹**&#x200B;에 해당합니다(Gmail, Microsoft 및 주황색).
-   * 하나는 사용자 지정 도메인 그룹([사용자 지정 도메인 그룹](#custom-domain-group-tab) 탭을 사용하여 추가해야 함)에 해당합니다.
+   * 이 중 3개가 플랜에서 사용할 **기본 제공 도메인 그룹**&#x200B;에 해당합니다(Gmail, Yahoo 및 Microsoft). 기본 도메인 그룹은 [OOTB 도메인 그룹](#ootb-domain-groups-tab) 탭에 모두 나열됩니다.
+   * 하나의 열이 사용자 정의 도메인 그룹에 해당합니다([사용자 정의 도메인 그룹](#custom-domain-group-tab) 탭을 사용하여 추가해야 함).
    * 다섯 번째 열인 **기타**&#x200B;에는 계획에 명시적으로 포함되지 않은 다른 도메인의 나머지 주소가 모두 포함되어 있습니다. 이 열은 선택 사항입니다. 생략하면 이메일이 지정된 도메인으로만 이동합니다.
    * 마지막 열인 **참여 일**&#x200B;을(를) 사용하면 참여를 추적하거나 평가할 일수를 지정할 수 있습니다.
 
 이 아이디어는 각 실행에서 타깃팅된 주소의 수를 점진적으로 늘리면서 각 단계에 대한 실행 수를 줄이는 것입니다.
 
-플랜에 추가할 수 있는 기본 도메인 그룹은 다음과 같습니다.
+### 사용자 정의 도메인 그룹 탭 {#custom-domain-group-tab}
 
-<!--
-* Gmail
-* Adobe
-* WP
-* Comcast
-* Yahoo
-* Bigpond
-* Orange
-* Softbank
-* Docomo
-* United Internet
-* Microsoft
-* KDDI
-* Italia Online
-* La Poste
-* Apple
--->
+사용자 정의 도메인 그룹을 포함하여 플랜에 열을 더 추가할 수도 있습니다.
+
+**[!UICONTROL 사용자 지정 도메인 그룹]** 탭을 사용하여 새 도메인 그룹을 정의합니다. 각 도메인에 대해 포함되는 모든 하위 도메인을 추가할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>각 도메인이 해당 도메인 그룹에 고유하고 다른 도메인 그룹 또는 [기본 도메인 그룹](#ootb-domain-groups-tab)과 겹치지 않는지 확인하십시오.
+
+예를 들어, 사용자 정의 도메인 Roadrunner를 추가하는 경우 아래 예와 같이 roadrunner.com, nc.rr.com, tampabay.rr.com, rochester.rr.com 등의 하위 도메인을 포함하려고 합니다.
+
+![](assets/ip-warmup-sample-file-custom.png)
+
+>[!NOTE]
+>
+>사용자 정의 도메인이 필요하지 않으면 **[!UICONTROL 사용자 정의 도메인 그룹]** 탭을 비워 둡니다.
+
+### OOTB 도메인 그룹 탭 {#ootb-domain-groups-tab}
+
+IP 준비 계획 템플릿의 **OOTB 도메인 그룹** 탭에는 계획에 추가할 수 있는 기본 도메인 그룹이 모두 포함되어 있습니다.
+
+![](assets/ip-warmup-sample-file-ootb.png)
+
+>[!NOTE]
+>
+>도메인 그룹이 이 탭에 나열되지 않으면 해당 탭에서 사용자 정의 도메인 그룹을 만들어야 합니다. [자세히 알아보기](#custom-domain-group-tab)
+
+기본 제공 기본 도메인 그룹은 다음과 같습니다.
 
 +++ Gmail
 gmail.com;google.com;googlemail.com;googlemail.co.uk
-+++
-
-+++WP
-wp.pl;o2.pl
-+++
-
-+++컴캐스트
-comcast.net
-+++
-
-+++야후
-aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoo.cn;yahoogroups.com.sg;yahoogroups.com.au;aol.pl;aolpoland.pl;aolnorge.no;yahoo.com.au;yahoo.fi;yahoo.com.vn;aol.co.nz;yahoo.com.br;yahoo.hr;aol.cz;yahoo.ee;aol.be;aoolcom.tr;yahoo.si;yahoo.ne.jp;aol.it;ymail.com;yahoo.es;yahoo.dk;yahoohoogroups.ca;netscape.com;aol.kr;aol.jp;yahoo.com.pe;yaol.lt;yahoo.co.id;aol.nl;yahoo.bg;citlink.net;aol.se;필수 구성;wmconnect.com;aol.cl;yahoo.com.jp;yahoo.no;yahoo.com.hk;aol.com.br;yahoo.cz;yahoo.co.kr;yahoo.sk;yahoo.com.ar;yahoogroups.de;yahoo.gr;ygm.com;yahoo.ro;yahoo.co.nz;aol.com;yahoo.at;goowy.com;rocketmail.com;aol.fr;aol.de;frontiernet.net;aim.com;yahoogroups.co.in;netscape.net;luckymail.com;yahoo.co.jp;yahoo.com.kr;yahoo.se;myaol.jp;yahoo.co.za;yahoo.pt;verizon.net;aol.com.ve;aol.com.ar;yahoogrupper.dk;yahoo.fr;aol.com.co;eoph.pl;wild4music.com;eol.ch;yahoo.it;yahoogroups.com.cn;yahoo.com.co;wow.com;저장소;yahoogruppi.it;yahoo.cl;yahoo.com;ehoo.be ol.tw;yahooxtra.co.nz;yahoo.com.mx;yahoo.com.ph;sky.com;aol.com.mx;aol.com.au;aolchina.com;yahoo.com.net;yahoo.com.tw;talk21.com;aol.ru;compuserve.com;yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
-+++
-
-+++비그폰드
-bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
-+++
-
-+++주황색
-voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
-+++
-
-+++소프트뱅크
-c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp;jp-n.ne.jp;;;;;;;;;;;;;;;
-+++
-
-+++도코모
-docomo.ne.jp
-+++
-
-+++유나이티드 인터넷
-gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
 +++Microsoft
 hotmail.com.tr;live.de;live.ru;live.nl;windowslive.com;live.jp;mts.net;xbox.com;hotmail.fr;hotmail.cl;hotmail.jp;live.cl;live.at;live.com.au;hotmail.co.th;live.hk;hotmail.com.au;hotmail.com;live.com.my;hotmail.co.kr;live.ie;outlook.com.br;hotmail.dk;hotmail.co.il;live.co.kr;live.co.uk;outlook.ie;live.cn;live.com.mx;hotmail.co.uk;hotmail.es;live.fr;live.no;live.dk;hotmail.it;live.com.sg;live.be;msn.com;hotmail.co.jp;live.in;hotmail.se;live.co.za;hotmail.ch;live.com.pt;outlook.com;hotmail.gr;live.it;live.com;live.com.ar;hotmail.com.br hotmail.com.ar;live.ca;live.ca;hotmail.de
 +++
 
-+++KDI
-au.com;ezweb.ne.jp;uqmobile.jp
-+++
-
-+++이탈리아 온라인
-inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
-+++
-
-+++라 포스트
-laposte.net
++++야후
+aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoo.cn;yahoogroups.com.sg;yahoogroups.com.au;aol.pl;aolpoland.pl;aolnorge.no;yahoo.com.au;yahoo.fi;yahoo.com.vn;aol.co.nz;yahoo.com.br;yahoo.hr;aol.cz;yahoo.ee;aol.be;aoolcom.tr;yahoo.si;yahoo.ne.jp;aol.it;ymail.com;yahoo.es;yahoo.dk;yahoohoogroups.ca;netscape.com;aol.kr;aol.jp;yahoo.com.pe;yaol.lt;yahoo.co.id;aol.nl;yahoo.bg;citlink.net;aol.se;필수 구성;wmconnect.com;aol.cl;yahoo.com.jp;yahoo.no;yahoo.com.hk;aol.com.br;yahoo.cz;yahoo.co.kr;yahoo.sk;yahoo.com.ar;yahoogroups.de;yahoo.gr;ygm.com;yahoo.ro;yahoo.co.nz;aol.com;yahoo.at;goowy.com;rocketmail.com;aol.fr;aol.de;frontiernet.net;aim.com;yahoogroups.co.in;netscape.net;luckymail.com;yahoo.co.jp;yahoo.com.kr;yahoo.se;myaol.jp;yahoo.co.za;yahoo.pt;verizon.net;aol.com.ve;aol.com.ar;yahoogrupper.dk;yahoo.fr;aol.com.co;eoph.pl;wild4music.com;eol.ch;yahoo.it;yahoogroups.com.cn;yahoo.com.co;wow.com;저장소;yahoogruppi.it;yahoo.cl;yahoo.com;ehoo.be ol.tw;yahooxtra.co.nz;yahoo.com.mx;yahoo.com.ph;sky.com;aol.com.mx;aol.com.au;aolchina.com;yahoo.com.net;yahoo.com.tw;talk21.com;aol.ru;compuserve.com;yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
 +++
 
 +++Apple
 mac.com;icloud.com;apple.com;me.com
 +++
 
-### 사용자 정의 도메인 그룹 탭 {#custom-domain-group-tab}
++++컴캐스트
+comcast.net
++++
 
-사용자 정의 도메인 그룹을 포함하여 플랜에 열을 더 추가할 수도 있습니다.
++++주황색
+voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
++++
 
-**[!UICONTROL 사용자 지정 도메인 그룹]** 탭을 사용하여 새 도메인 그룹을 정의합니다. 각 도메인에 대해 포함되는 모든 하위 도메인을 추가할 수 있습니다.<!--TBC-->
++++라 포스트
+laposte.net
++++
 
-해당 플랜에 사용된 도메인 그룹의 경우 각 도메인이 해당 도메인 그룹에 고유하고 다른 도메인 그룹과 겹치지 않는지 확인하십시오. 전역 도메인 그룹은 자동으로 정의되므로 사용자는 사용자 정의 도메인 그룹을 만들 때 이를 고려해야 합니다.
++++이탈리아 온라인
+inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
++++
 
-예를 들어 사용자 정의 도메인 Luma를 추가하는 경우 luma.com, luma.co.uk, luma.it, luma.fr, luma.de 등의 하위 도메인을 포함하려고 합니다.
++++WP
+wp.pl;o2.pl
++++
 
-![](assets/ip-warmup-sample-file-custom.png)
++++유나이티드 인터넷
+gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
++++
+
++++비그폰드
+bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
++++
+
++++도코모
+docomo.ne.jp
++++
+
++++소프트뱅크
+c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp;jp-n.ne.jp;;;;;;;;;;;;;;;
++++
+
++++KDI
+au.com;ezweb.ne.jp;uqmobile.jp
++++
 
 ### 예 {#example}
 
@@ -208,13 +208,13 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 
 1. 동일한 행에 모든 Hotmail 도메인을 추가합니다.
 
-   [IP 준비 계획 탭](#ip-warmup-plan-tab) 섹션에 나열된 모든 Hotmail 도메인을 [복사 및 붙여넣기](#copy-paste)할 수 있습니다.
+   [OOTB 도메인 그룹 탭](#ootb-domain-groups-tab) 섹션에 나열된 모든 Hotmail 도메인을 [복사 및 붙여넣기](#copy-paste)할 수 있습니다.
 
 1. 다른 행을 추가합니다.
 
 1. **Microsoft_X** 도메인 그룹을 만듭니다.
 
-1. Hotmail이 아닌 모든 Microsoft 도메인을 같은 행에 추가합니다. 마찬가지로 위의 목록에서 복사하여 붙여넣을 수 있습니다. [자세히 알아보기](#copy-paste)
+1. Hotmail이 아닌 모든 Microsoft 도메인을 같은 행에 추가합니다. 마찬가지로 위의 목록에서 [복사하여 붙여넣기](#copy-paste)할 수 있습니다.
 
 1. **[!UICONTROL IP 준비 계획]** 탭으로 돌아갑니다.
 
@@ -226,7 +226,7 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 
 ### 기본 도메인 복사-붙여넣기 {#copy-paste}
 
-예를 들어 모든 Hotmail 도메인을 포함하는 사용자 지정 도메인 그룹을 만들려면 제공된 기본 목록 [위](#ip-warmup-plan-tab)에서 도메인을 복사하여 붙여 넣을 수 있습니다.
+예를 들어 모든 Hotmail 도메인을 포함하는 사용자 정의 도메인 그룹을 만들려면 [IP 준비 계획 템플릿](assets/IPWarmupPlan-Template.xlsx)의 **OOTB 도메인 그룹** 탭이나 [위](#ip-warmup-plan-tab)에 제공된 목록에서 도메인을 복사하여 붙여 넣을 수 있습니다.
 
 그런 다음 Excel 변환 도구를 사용하여 텍스트를 열로 변환합니다.
 
