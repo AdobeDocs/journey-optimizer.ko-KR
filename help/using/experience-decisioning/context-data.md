@@ -1,12 +1,12 @@
 ---
 title: 의사 결정에 컨텍스트 데이터 활용
 description: 의사 결정에서 컨텍스트 데이터를 활용하는 방법 알아보기
-feature: Experience Decisioning
+feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%

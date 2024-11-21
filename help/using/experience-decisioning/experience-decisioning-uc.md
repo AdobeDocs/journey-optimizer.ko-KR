@@ -1,11 +1,11 @@
 ---
 title: 의사 결정 사용 사례
 description: 코드 기반 채널을 사용한 실험을 사용하여 의사 결정을 만드는 방법에 대해 알아봅니다
-feature: Experience Decisioning
+feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 3fb9e6cd61e73e9ddf1971f6aa8e15c8b82b8445
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 6%
