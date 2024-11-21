@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 48%
@@ -38,7 +38,7 @@ ht-degree: 48%
 
 컬렉션을 만들려면 다음 단계를 수행하십시오.
 
-1. **[!UICONTROL 개의 카탈로그]** > **[!UICONTROL 컬렉션]**(으)로 이동한 다음 **[!UICONTROL 컬렉션 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 카탈로그]** > **[!UICONTROL 컬렉션]**(으)로 이동한 다음 **[!UICONTROL 컬렉션 만들기]**&#x200B;를 클릭합니다.
 1. 컬렉션에 사용할 이름과 설명을 입력합니다.
 1. 하나 이상의 규칙을 추가하여 컬렉션에 포함할 항목을 결정합니다. 방법은 다음과 같습니다.
 

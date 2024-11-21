@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 17%
+source-wordcount: '609'
+ht-degree: 15%
 
 ---
 
@@ -69,14 +69,28 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 1. **사용자 지정 특성을 구성합니다**: 사용자 지정 특성을 카탈로그의 스키마로 설정하여 항목 카탈로그를 특정 요구 사항에 맞게 조정하십시오.
 
+   ➡️[항목 카탈로그를 구성하는 방법에 대해 알아봅니다](catalogs.md)
+
 1. 타깃팅된 대상자에게 표시할 **결정 항목을 만듭니다**.
+
+   ➡️[의사 결정 항목을 만드는 방법을 알아봅니다](items.md)([API 설명서](api-reference/decisions-items/create.md))
 
 1. **컬렉션으로 구성**: 컬렉션을 사용하여 특성 기반 규칙에 따라 결정 항목을 분류합니다. 컬렉션을 선택 전략에 통합하여 고려해야 하는 결정 항목의 컬렉션을 결정합니다.
 
+   ➡️[항목 컬렉션을 관리하는 방법 알아보기](collections.md)([API 설명서](api-reference/items-collections/create.md))
+
 1. **의사 결정 규칙 만들기**: 의사 결정 규칙은 의사 결정 항목 및/또는 선택 전략에서 의사 결정 항목을 표시할 대상을 결정하는 데 사용됩니다.
+
+   ➡️[의사 결정 규칙을 만드는 방법을 알아봅니다](rules.md)
 
 1. **순위 방법 구현**: 순위 방법을 만들고 의사 결정 전략 내에서 적용하여 의사 결정 항목을 선택하는 우선 순위를 결정합니다.
 
+   ➡️[순위 메서드를 만드는 방법을 알아봅니다](ranking.md)
+
 1. **선택 전략 만들기**: 컬렉션, 의사 결정 규칙 및 등급 방법을 활용하여 프로필에 표시하는 데 적합한 의사 결정 항목을 식별하는 선택 전략을 만듭니다.
 
-1. **의사 결정 정책을 코드 기반 캠페인에 포함**: 의사 결정 정책은 여러 선택 전략을 결합하여 의도한 대상자에게 표시할 적합한 의사 결정 항목을 결정합니다.
+   ➡️[선택 전략을 만드는 방법을 알아봅니다](selection-strategies.md)([API 설명서](api-reference/selection-strategies/create.md))
+
+1. **의사 결정 정책을 만들어 코드 기반 캠페인에 임베드합니다**: 의사 결정 정책은 여러 선택 전략을 결합하여 의도한 대상자에게 표시할 적합한 의사 결정 항목을 결정합니다.
+
+   ➡️[의사 결정 정책 사용 방법 알아보기](create-decision.md)
