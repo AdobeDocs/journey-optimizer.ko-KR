@@ -9,23 +9,18 @@ role: User
 level: Beginner
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: d39d46ad5376bb8418331f788e4287e21e4322a4
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 18%
+source-wordcount: '1221'
+ht-degree: 17%
 
 ---
 
 # 캠페인 만들기 {#create-campaign}
 
-새 캠페인을 만들려면 **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭하십시오. 기존 라이브 캠페인을 복제하여 새 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate)
+새 캠페인을 만들려면 왼쪽 레일에서 **[!UICONTROL 캠페인]** 메뉴로 이동한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다. 기존 라이브 캠페인을 복제하여 새 캠페인을 만들 수도 있습니다. [방법을 알아보세요](modify-stop-campaign.md#duplicate).
 
->[!NOTE]
->
->새 캠페인을 만들기 전에 채널 구성(즉, 메시지 표면)과 Adobe Experience Platform 대상을 사용할 준비가 되어 있는지 확인하십시오. 다음 섹션에서 자세히 알아보기:
->
->* [채널 구성 만들기](../configuration/channel-surfaces.md)
->* [대상자 시작](../audience/about-audiences.md)
+시작하기 전에 [이 페이지](get-started-with-campaigns.md#before-starting-campaign-prerequisites)에서 캠페인 필수 구성 요소를 읽어 보세요.
 
 ## 캠페인 유형 선택 {#campaigntype}
 
@@ -82,10 +77,9 @@ ht-degree: 18%
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 
+## 채널 선택 {#channel}
 
-## 메시지 만들기 및 추적 구성 {#content}
-
-이제 메시지 콘텐츠를 정의할 수 있습니다. 아래의 단계를 수행하십시오.
+이제 채널과 해당 구성을 선택할 수 있습니다. 아래의 단계를 수행하십시오.
 
 1. **[!UICONTROL 작업]** 섹션에서 통신 채널을 선택합니다.
 
@@ -103,42 +97,40 @@ ht-degree: 18%
    >
    >푸시 알림 캠페인을 만드는 경우 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 Journey Optimizer 추가 기능인 **[!UICONTROL 빠른 전송 모드]**&#x200B;를 사용하도록 설정할 수 있습니다. [자세히 알아보기](../push/create-push.md#rapid-delivery)
 
-1. 메시지를 만들고 디자인하려면 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하세요. 다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
+## 콘텐츠 편집 {#content}
 
-   <table style="table-layout:fixed">
-    <tr style="border: 0;">
-    <td>
-    <a href="../email/create-email.md">
-    <img alt="리드" src="../assets/do-not-localize/email.jpg">
-    </a>
-    <div><a href="../email/create-email.md"><strong>이메일 작성</strong>
-    </div>
-    <p>
-    </td>
-    <td>
-    <a href="../push/create-push.md">
-      <img alt="드물게" src="../assets/do-not-localize/push.jpg">
-    </a>
-    <div>
-    <a href="../push/create-push.md"><strong>푸시 알림 만들기</strong></a>
-    </div>
-    <p>
-    </td>
-    <td>
-    <a href="../sms/create-sms.md">
-      <img alt="유효성 검사" src="../assets/do-not-localize/sms.jpg">
-    </a>
-    <div>
-    <a href="../sms/create-sms.md"><strong>SMS 메시지 만들기</strong></a>
-    </div>
-    <p>
-    </td>
-    </tr>
-    </table>
+이제 **[!UICONTROL 콘텐츠 편집]** 단추에서 메시지의 콘텐츠를 정의할 수 있습니다. 콘텐츠 만들기 프로세스는 선택한 채널에 따라 다릅니다.
 
-   콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 테스트 프로필로 콘텐츠를 미리 보고 테스트하십시오. [자세히 알아보기](../content-management/preview-test.md) 캠페인 생성 화면으로 돌아가려면 왼쪽 화살표를 클릭합니다.
+다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
 
-   ![](assets/create-campaign-design.png)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/create-email.md"><img alt="이메일" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/create-email.md"><strong>이메일</strong></a></div></td>
+<td><a href="../sms/create-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/create-sms.md"><strong>SMS</strong></a></div></td>
+<td><a href="../push/create-push.md"><img alt="푸시" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/create-push.md"><strong>푸시 알림</strong></a></div></td>
+<td><a href="../direct-mail/create-direct-mail.md"><img alt="다이렉트 메일" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/create-direct-mail.md"><strong>다이렉트 메일</strong></a></div></td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/create-in-app.md"><img alt="인앱" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/create-in-app.md"><strong>인앱</strong></a></div></td>
+<td><a href="../web/create-web.md"><img alt="웹" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/create-web.md"><strong>웹</strong></a></div></td>
+<td><a href="../code-based/create-code-based.md"><img alt="코드 기반 경험" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/create-code-based.md"><strong>코드 기반 경험</strong></a></div></td>
+<td><a href="../content-card/create-content-card.md"><img alt="콘텐츠 카드" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/create-content-card.md"><strong>콘텐츠 카드</strong></a></div></td>
+</tr></table>
+
+콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 테스트 프로필로 콘텐츠를 미리 보고 테스트하십시오. [자세히 알아보기](../content-management/preview-test.md) 캠페인 생성 화면으로 돌아가려면 왼쪽 화살표를 클릭합니다.
+
+![](assets/create-campaign-design.png)
+
+메시지 콘텐츠 자체 외에도 다음 설정을 구성할 수 있습니다.
 
 1. (선택 사항) **[!UICONTROL 콘텐츠 실험]** 섹션에서 **[!UICONTROL 실험 만들기]** 단추를 사용하여 더 잘 작동하는 콘텐츠를 테스트할 수 있습니다. 콘텐츠 실험 기능은 [이 섹션](../content-management/content-experiment.md)에 자세히 설명되어 있습니다.
 
