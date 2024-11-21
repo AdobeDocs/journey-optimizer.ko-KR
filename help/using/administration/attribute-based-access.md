@@ -9,16 +9,16 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, 속성, 권한, 데이터, 액세스, 중요, 에셋
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
 
 # 속성 기반 액세스 제어 {#attribute-based-access}
 
-속성 기반 액세스 제어(ABAC)를 사용하면 특정 팀이나 사용자 그룹에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다. 그 목적은 개인 데이터를 더 이상 보호할 수 있도록 권한이 없는 사용자로부터 민감한 디지털 자산을 보호하는 것입니다.
+속성 기반 액세스 제어(ABAC) 기능을 사용하면 특정 팀이나 사용자 그룹에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다. 그 목적은 개인 데이터를 더 이상 보호할 수 있도록 권한이 없는 사용자로부터 민감한 디지털 자산을 보호하는 것입니다.
 
 Adobe Journey Optimizer에서 ABAC를 사용하면 데이터를 보호하고 XDM(경험 데이터 모델) 스키마, 프로필 속성 및 대상을 포함한 특정 필드 요소에 특정 액세스 권한을 부여할 수 있습니다.
 
