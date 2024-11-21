@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 82%
 
 ---
 
@@ -52,12 +52,13 @@ Adobe Journey Optimizer 인터페이스의 모든 곳에서 상단 표시줄의 
 >title="태그"
 >abstract="이 필드로 Adobe Experience Platform 통합 태그를 캠페인에 할당할 수 있습니다. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다."
 
-Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=ko)를 사용하면 Journey Optimizer의 여정과 캠페인을 쉽게 분류하여 목록에서 보다 편하게 검색할 수 있습니다.
+Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=ko)를 사용하면 Journey Optimizer 개체를 쉽게 분류하여 목록에서 검색을 개선할 수 있습니다.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
+Journey Optimizer의 대상에 의미 있는 태그를 추가하면 나중에 필터링하고 검색하여 대상을 더 쉽게 찾을 수 있습니다. 태그를 추가로 사용하여 연관성 있고 검색 가능한 폴더에서 대상을 구성하고, 개인화된 오퍼 및 경험을 만들고, 경험 의사 결정 규칙에서 사용할 수 있습니다.
 
-### 개체에 태그 추가
+### 개체에 태그 추가 {#add-tags}
 
 다음 **[!UICONTROL 태그]** 필드에서는 오브젝트에 대한 태그를 정의할 수 있습니다. 태그는 다음 오브젝트에 사용할 수 있습니다.
 
@@ -79,7 +80,7 @@ Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/doc
    >
    > 태그는 대/소문자를 구분하지 않습니다.
 
-1. 검색 중인 태그를 사용할 수 없는 경우 **[!UICONTROL 만들기 &quot;&quot;]**&#x200B;를 클릭하여 새로운 태그를 정의하면 현재 오브젝트에 자동으로 추가되고 다른 모든 오브젝트에서 사용할 수 있게 됩니다.
+1. 검색 중인 태그를 사용할 수 없는 경우 **[!UICONTROL 만들기 &quot;]**&#x200B;를 클릭하여 새 태그를 정의합니다. 이 태그는 현재 개체에 자동으로 추가되고 다른 모든 개체에 사용할 수 있게 됩니다.
 
    ![](assets/tags4.png)
 
@@ -89,7 +90,7 @@ Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/doc
 > 
 > 오브젝트를 복제하거나 새 버전을 만들 때는 태그가 유지됩니다.
 
-### 태그로 필터링
+### 태그로 필터링 {#filter-on-tags}
 
 각 오브젝트 목록에는 태그를 쉽게 시각화할 수 있도록 전용 열이 표시됩니다.
 
@@ -101,7 +102,7 @@ Adobe Experience Platform [통합 태그](https://experienceleague.adobe.com/doc
 
 ![](assets/tags3.png)
 
-### 태그 관리
+### 태그 관리 {#manage-tags}
 
 관리자는 **[!UICONTROL 관리]** 아래의 **[!UICONTROL 태그]** 메뉴를 사용하여 태그를 삭제하고 카테고리별로 정리할 수 있습니다. 태그 관리에 대한 자세한 내용은 [통합 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=ko)를 참조하십시오.
 

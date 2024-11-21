@@ -9,14 +9,16 @@ role: User
 level: Beginner
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 27%
+source-wordcount: '995'
+ht-degree: 19%
 
 ---
 
 # 캠페인 만들기 {#create-campaign}
+
+새 캠페인을 만들려면 **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭하십시오. 기존 라이브 캠페인을 복제하여 새 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate)
 
 >[!NOTE]
 >
@@ -24,8 +26,6 @@ ht-degree: 27%
 >
 >* [채널 구성 만들기](../configuration/channel-surfaces.md)
 >* [대상자 시작](../audience/about-audiences.md)
-
-새 캠페인을 만들려면 **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭하십시오. 기존 라이브 캠페인을 복제하여 새 캠페인을 만들 수도 있습니다. [자세히 알아보기](modify-stop-campaign.md#duplicate)
 
 ## 캠페인 유형 선택 {#campaigntype}
 
@@ -46,37 +46,44 @@ ht-degree: 27%
 
 ## 캠페인 속성 정의 {#create}
 
-1. **[!UICONTROL 속성]** 섹션에서 캠페인의 이름과 설명을 지정하십시오.
+1. **[!UICONTROL 속성]** 섹션에서 캠페인의 이름과 설명을 입력하십시오.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. **태그** 필드를 사용하면 Adobe Experience Platform 통합 태그를 캠페인에 할당할 수 있습니다. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
+1. **태그** 필드를 사용하여 Adobe Experience Platform 통합 태그를 캠페인에 지정하십시오. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [태그를 사용하여 작업하는 방법을 알아봅니다](../start/search-filter-categorize.md#tags).
 
-1. 사용자 지정 또는 핵심 데이터 사용 레이블을 캠페인에 할당하려면 **[!UICONTROL 액세스 관리]** 단추를 클릭하세요. [OLA(개체 수준 액세스 제어)에 대해 자세히 알아보기](../administration/object-based-access.md)
+1. 액세스 레이블에 따라 이 캠페인에 대한 액세스를 제한할 수 있습니다. 액세스 제한을 추가하려면 이 페이지 상단의 **[!UICONTROL 액세스 관리]** 단추를 찾아보십시오. 사용 권한이 있는 레이블만 선택해야 합니다. [개체 수준 액세스 제어에 대한 자세한 정보](../administration/object-based-access.md).
 
 ## 캠페인 대상자 정의 {#audience}
 
-캠페인으로 타겟팅된 모집단을 정의하고 다음 단계를 수행합니다.
+대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 집합입니다. 캠페인으로 타겟팅된 모집단을 정의하려면 다음 단계를 수행합니다.
 
->[!IMPORTANT]
->
->[대상 구성](../audience/get-started-audience-orchestration.md)의 대상 및 특성을 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
->
->API 트리거 캠페인의 경우, API 호출을 통해 대상자를 설정해야 합니다.
+1. **대상** 섹션에서 **[!UICONTROL 대상 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 대상 목록을 표시합니다. [이 섹션](../audience/about-audiences.md)에서 대상자에 대해 자세히 알아보세요.
 
-1. **대상** 섹션에서 **[!UICONTROL 대상 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 대상 목록을 표시합니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)
+1. **[!UICONTROL ID 유형]** 필드에서 선택한 대상에서 개인을 식별하는 데 사용할 키 유형을 선택합니다. 기존 ID 유형을 사용하거나 Adobe Experience Platform ID 서비스를 사용하여 새 ID 유형을 만들 수 있습니다. 표준 ID 네임스페이스는 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}에 나열됩니다.
 
-1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 세그먼트에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다.
-
-   다른 ID 중 선택한 ID(네임스페이스)가 없는 세그먼트에 속하는 개인은 캠페인에서 타깃팅되지 않습니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace)
+   캠페인당 하나의 ID 유형만 허용됩니다. 다른 ID 중에서 선택한 ID 유형이 없는 세그먼트에 속하는 개인은 캠페인에서 타깃팅할 수 없습니다.
 
    ![](assets/create-campaign-namespace.png)
 
+   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR){target="_blank"}에서 ID 유형 및 네임스페이스에 대해 자세히 알아보세요.
+
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
+>[!IMPORTANT]
+>
+>* [대상 구성](../audience/get-started-audience-orchestration.md)의 대상 및 특성을 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
+>
+>* API 트리거 캠페인의 경우, API 호출을 통해 대상자를 설정해야 합니다.
+
 
 ## 메시지 만들기 및 추적 구성 {#content}
 
-1. **[!UICONTROL 작업]** 섹션에서 새 구성을 선택하거나 만듭니다.
+1. **[!UICONTROL 작업]** 섹션에서 채널을 선택합니다.
+
+   사용 가능한 채널 목록은 라이선스 모델에 따라 다릅니다. API 트리거 트랜잭션 캠페인의 경우 이메일, SMS 및 푸시 알림 채널만 사용할 수 있습니다.
+
+1. 채널 구성을 선택합니다.
 
    [시스템 관리자](../start/path/administrator.md)에 의해 구성이 정의되었습니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md).
 
@@ -121,11 +128,11 @@ ht-degree: 27%
     </tr>
     </table>
 
-1. 콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 테스트 프로필로 콘텐츠를 미리 보고 테스트하십시오. [자세히 알아보기](../content-management/preview-test.md).
-
-1. 화살표를 클릭하여 캠페인 만들기 화면으로 돌아갑니다.
+   콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 테스트 프로필로 콘텐츠를 미리 보고 테스트하십시오. [자세히 알아보기](../content-management/preview-test.md) 캠페인 생성 화면으로 돌아가려면 왼쪽 화살표를 클릭합니다.
 
    ![](assets/create-campaign-design.png)
+
+1. **[!UICONTROL 콘텐츠 실험]** 섹션에서 **[!UICONTROL 실험 만들기]** 단추를 사용하여 더 잘 작동하는 콘텐츠를 테스트할 수 있습니다. 콘텐츠 실험 기능은 [이 섹션](../content-management/content-experiment.md)에 자세히 설명되어 있습니다.
 
 1. **[!UICONTROL 작업 추적]** 섹션에서 수신자가 게재에 반응하는 방식을 추적할지 여부를 지정합니다. 클릭 및/또는 열기를 추적할 수 있습니다.
 
@@ -136,7 +143,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="캠페인 일정"
->abstract="기본적으로 캠페인은 수동 활성화 시 시작되고 메시지가 전송된 후에 즉시 종료됩니다. 그러나 메시지를 보낼 특정 날짜와 시간을 유연하게 설정할 수 있습니다. 또한 반복 캠페인이나 API 트리거 캠페인의 종료 날짜를 지정할 수 있습니다. 액션 트리거에서 환경 설정에 맞게 메시지 전송 빈도를 구성할 수도 있습니다."
+>abstract="기본적으로 캠페인은 수동 활성화 시 시작되며 메시지가 한 번 전송된 직후 종료됩니다. 메시지를 보낼 특정 날짜 및 시간을 유연하게 설정할 수 있습니다. 또한 반복 캠페인이나 API 트리거 캠페인의 종료 날짜를 지정할 수 있습니다. 액션 트리거에서 환경 설정에 맞게 메시지 전송 빈도를 구성할 수도 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -161,4 +168,4 @@ ht-degree: 27%
 
 ![](assets/create-campaign-schedule.png)
 
-캠페인이 준비되면 검토하고 게시할 수 있습니다. [자세히 알아보기](review-activate-campaign.md)
+캠페인이 준비되면 검토하고 활성화할 수 있습니다. [자세히 알아보기](review-activate-campaign.md)

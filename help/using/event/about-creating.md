@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 12%
+source-wordcount: '1638'
+ht-degree: 10%
 
 ---
 
@@ -73,9 +73,9 @@ ht-degree: 12%
    >
    >이벤트를 만든 후 새 열거형 값으로 스키마를 수정하는 경우, 다음 단계에 따라 변경 사항을 기존 이벤트에 적용해야 합니다. 이벤트 필드에서 열거형 필드를 선택 취소하고, 선택을 확인한 다음 열거형 필드를 다시 선택합니다. 이제 새 열거형 값이 표시됩니다.
 
-1. 네임스페이스를 추가합니다. 이 단계는 원하는 경우에만 수행하면 되지만, 네임스페이스를 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있습니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. [이 섹션](../event/about-creating.md#select-the-namespace)을 참조하십시오.
+1. ID 유형을 추가합니다. 이 단계는 선택 사항이지만 ID 유형을 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있으므로 권장됩니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. 자세한 내용은 [이 섹션](../event/about-creating.md#select-the-namespace)을 참조하십시오.
 
-1. 프로필 식별자 정의: 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 식별합니다. 이 키는 네임스페이스를 선택하면 자동으로 설정되지만 편집할 수 있습니다. 네임스페이스에 해당하는 키는 여정이 직접 선택합니다. 예를 들어 이메일 네임스페이스를 선택하면 이메일 키가 선택됩니다. [이 섹션](../event/about-creating.md#define-the-event-key)을 참조하십시오.
+1. 프로필 식별자 정의: 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 식별합니다. ID 유형을 선택하면 이 키가 자동으로 설정되지만 편집할 수 있습니다. 실제로 여정은 ID 유형에 해당해야 하는 키를 선택합니다(예를 들어 이메일 ID 유형을 선택하면 이메일 키가 선택됨). 자세한 내용은 [이 섹션](../event/about-creating.md#define-the-event-key)을 참조하십시오.
 
    ![](assets/jo-event7.png)
 
@@ -111,32 +111,32 @@ ht-degree: 12%
 
    ![](assets/journey12.png)
 
-## 네임스페이스 선택 {#select-the-namespace}
+## ID 유형 선택 {#select-the-namespace}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
->title="ID 네임스페이스"
+>title="ID 유형"
 >abstract="이벤트와 연결된 고객 프로필을 식별하는 키를 선택합니다."
 
-네임스페이스를 통해 이벤트와 연계된 사용자를 식별하는 데 사용되는 키 유형을 정의할 수 있습니다. 구성은 선택 사항입니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에서 가져온 추가 정보를 여정에서 검색하려면 필요합니다. 사용자 지정 데이터 소스를 통해 서드파티 시스템에서 오는 데이터만 사용하는 경우에는 네임스페이스 정의가 필요하지 않습니다.
+ID 유형(이전의 &#39;네임스페이스&#39;)을 사용하면 이벤트와 관련된 사용자를 식별하는 데 사용되는 키 유형을 정의할 수 있습니다. 구성은 선택 사항입니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에서 가져온 추가 정보를 여정에서 검색하려면 필요합니다. 사용자 지정 데이터 소스를 통해 서드파티 시스템에서 오는 데이터만 사용하는 경우에는 ID 유형 정의가 필요하지 않습니다.
 
-미리 정의된 네임스페이스 서비스 중 하나를 사용하거나 ID 네임스페이스 서비스를 사용하여 새 프로필을 만들 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR){target="_blank"}를 참조하세요.
+기존 ID 유형을 사용하거나 Adobe Experience Platform ID 서비스를 사용하여 새 ID 유형을 만들 수 있습니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
-기본 ID가 있는 스키마를 선택하면 **[!UICONTROL 프로파일러 식별자]** 및 **[!UICONTROL 네임스페이스]** 필드가 미리 채워집니다. ID가 정의되지 않은 경우 _identityMap > id_&#x200B;을(를) 기본 키로 선택합니다. 그러면 네임스페이스를 선택해야 하며 _identityMap > id_&#x200B;을(를) 사용하여 **[!UICONTROL 네임스페이스]** 필드 아래에서 키가 미리 채워집니다.
+기본 ID가 있는 스키마를 선택하면 **[!UICONTROL 프로파일러 식별자]** 및 **[!UICONTROL ID 유형]** 필드가 미리 채워집니다. ID가 정의되지 않은 경우 _identityMap > id_&#x200B;을(를) 기본 키로 선택합니다. 그런 다음 ID 유형을 선택해야 하며, _identityMap > id_&#x200B;을(를) 사용하여 키가 **[!UICONTROL ID 유형]** 필드 아래에 미리 채워집니다.
 
 필드를 선택하면 기본 ID 필드에 태그가 지정됩니다.
 
 ![](assets/primary-identity.png)
 
-드롭다운 목록에서 네임스페이스를 선택합니다.
+드롭다운 목록에서 ID 유형을 선택합니다.
 
 ![](assets/journey17.png)
 
-네임스페이스는 여정 당 하나만 허용됩니다. 동일한 여정에서 여러 이벤트를 사용하는 경우 동일한 네임스페이스를 사용해야 합니다. [이 페이지](../building-journeys/journey.md)를 참조하십시오.
+여정 당 하나의 ID 유형만 허용됩니다. 동일한 여정에서 여러 이벤트를 사용하는 경우 동일한 ID 유형을 사용해야 합니다. [이 페이지](../building-journeys/journey.md)를 참조하십시오.
 
 >[!NOTE]
 >
->사용자 기반 ID 네임스페이스만 선택할 수 있습니다. 조회 테이블에 대한 네임스페이스를 정의한 경우(예: 제품 조회에 대한 ProductID 네임스페이스) **네임스페이스** 드롭다운 목록에서 사용할 수 없습니다.
+>사용자 기반 ID 유형만 선택할 수 있습니다. 조회 테이블에 대한 ID 유형을 정의한 경우(예: 제품 조회에 대한 ProductID ID 유형) **ID 유형** 드롭다운 목록에서 사용할 수 없습니다.
 
 ## 프로필 식별자 정의 {#define-the-event-key}
 
@@ -144,7 +144,7 @@ ht-degree: 12%
 
 Adobe 실시간 고객 프로필 데이터베이스에 저장된 데이터를 사용하려면 이벤트 키가 [실시간 고객 프로필 서비스](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에서 프로필 ID로 정의한 정보여야 합니다.
 
-프로필 식별자를 통해 시스템은 이벤트와 개인의 프로필 간의 조정을 수행할 수 있습니다. 기본 ID가 있는 스키마를 선택하면 **[!UICONTROL 프로필 식별자]** 및 **[!UICONTROL 네임스페이스]** 필드가 미리 채워집니다. ID가 정의되지 않은 경우 _identityMap > id_&#x200B;이(가) 기본 키입니다. 네임스페이스를 선택해야 하며 _identityMap > id_&#x200B;을(를) 사용하여 키가 자동으로 미리 채워집니다.
+프로필 식별자를 통해 시스템은 이벤트와 개인의 프로필 간의 조정을 수행할 수 있습니다. 기본 ID가 있는 스키마를 선택하면 **[!UICONTROL 프로필 식별자]** 및 **[!UICONTROL ID 유형]** 필드가 미리 채워집니다. ID가 정의되지 않은 경우 _identityMap > id_&#x200B;이(가) 기본 키입니다. 그런 다음 ID 유형을 선택해야 하며, _identityMap > id_&#x200B;을 사용하여 키가 자동으로 미리 채워집니다.
 
 필드를 선택하면 기본 ID 필드에 태그가 지정됩니다.
 
@@ -158,7 +158,7 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 
 1. 페이로드 필드 목록에서 키로 선택한 필드를 선택합니다.
 
-이벤트가 수신될 때, 키의 값은 시스템이 이벤트와 연관된 사람을 식별할 수 있게 한다. 네임스페이스와 연결되어([이 섹션](../event/about-creating.md#select-the-namespace) 참조), 키를 사용하여 Adobe Experience Platform에서 쿼리를 수행할 수 있습니다. [이 페이지](../building-journeys/about-journey-activities.md#orchestration-activities)를 참조하세요.
+이벤트가 수신될 때, 키의 값은 시스템이 이벤트와 연관된 사람을 식별할 수 있게 한다. [ID 형식](../event/about-creating.md#select-the-namespace)과(와) 연결된 키를 사용하여 Adobe Experience Platform에서 쿼리를 수행할 수 있습니다. [이 페이지](../building-journeys/about-journey-activities.md#orchestration-activities)를 참조하세요.
 또한 이 키는 개인이 여정 내에 있는지 확인하는 데도 사용됩니다. 실제로, 한 사람은 같은 여정에서 두 개의 다른 장소에 있을 수 없다. 따라서 시스템은 동일한 키(예: 키 CRMID=3224)가 동일한 여정의 다른 위치에 있는 것을 허용하지 않습니다.
 
 ## 고급 표현식 편집기 {#adv-exp-editor}
