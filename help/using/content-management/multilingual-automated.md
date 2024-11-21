@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 40f46fd815a567934f886dd086102d830dea5ade
+source-git-commit: 1b48cb825eb1f3110a27389d1e780cb1d7e80fad
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 19%
+source-wordcount: '2041'
+ht-degree: 20%
 
 ---
 
@@ -31,11 +31,6 @@ ht-degree: 19%
 >[!IMPORTANT]
 >
 >자동 흐름의 경우 사용자는 **[!UICONTROL 번역 서비스]** 기능과 관련된 권한이 필요합니다. [권한에 대해 자세히 알아보기](../administration/permissions.md)
-
->[!AVAILABILITY]
->
-> EMEA 지역의 사용자는 자동화된 흐름을 일시적으로 사용할 수 없습니다.
-
 
 자동화된 흐름을 사용하여 대상 언어 및 언어 공급자를 선택하면 됩니다. 그러면 콘텐츠가 번역으로 바로 전송되어 완료 시 최종 검토를 위해 준비됩니다.
 
