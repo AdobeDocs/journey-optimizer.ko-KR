@@ -5,17 +5,15 @@ title: ' [!DNL Adobe Journey Optimizer]에서 통신 채널 시작'
 description: ' [!DNL Adobe Journey Optimizer] 소통 채널을 사용하여 작업하는 방법을 알아봅니다.'
 role: User
 level: Beginner
-source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
+exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
+source-git-commit: ac71350cd344845582e09fa039fb796e9408b048
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
 
-
 # [!DNL Adobe Journey Optimizer]개의 통신 채널 시작 {#get-started-email}
-
-## [!DNL Adobe Journey Optimizer]개 채널 {#overview}
 
 오늘날의 역동적인 마케팅 환경에서 다양한 플랫폼에서 대상자에게 효과적으로 다가가는 것은 지속적인 관계를 구축하고 참여를 유도하기 위해 필수적입니다. 이 섹션에서는 [!DNL Adobe Journey Optimizer] 내에서 사용할 수 있는 통신 채널에 대한 포괄적인 개요를 제공하며 마케팅 전략에서 각 채널을 효과적으로 활용하는 방법을 이해하는 데 도움이 됩니다.
 
