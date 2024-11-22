@@ -21,7 +21,7 @@ ht-degree: 99%
 
 ## 2024년 10월 {#oct-2024}
 
-* [!DNL Journey Optimizer] 2024년 10월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
+* [!DNL Journey Optimizer] 2024년 10월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에 자세히 나와 있습니다. [자세히 보기](release-notes.md)
 * [!DNL Journey Optimizer]에서 사용할 수 있는 모든 통신 채널이 이제 설명서의 전용 섹션에 그룹화되었습니다. [자세히 보기](../channels/gs-channels.md)
 * 프로세스를 보다 명확하게 설명하도록 **코드 기반 경험 구성** 페이지를 개선했습니다. 표면 URI의 정의를 설명하는 섹션이 포함됩니다. [자세히 보기](../code-based/code-based-configuration.md)
 * **웹 채널 구성 만들기** 페이지에서 페이지 일치 규칙을 만드는 단계를 명확하게 설명하도록 업데이트했습니다. 이는 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
@@ -183,7 +183,7 @@ ht-degree: 99%
 * Offer Decisioning **데이터 세트 내보내기**&#x200B;가 이제 기본적으로 활성화되어 있습니다. 이전 동작에 대한 메모는 제거했습니다.  [자세히 보기](../offers/export-catalog/get-started-export.md)
 * 라이브 및 글로벌 보고서 모두에서 다양한 **캠페인 보고서 지표**&#x200B;의 이름이 변경되었습니다. [자세히 보기](../reports/campaign-live-report.md)
 * 웹 채널의 콘텐츠 실험 전제 조건에 새 섹션이 추가되었습니다. [자세히 보기](../web/web-prerequisites.md#experiment-prerequisites)
-* **콘텐츠 템플릿으로 작업하기** 페이지에 이메일 콘텐츠 템플릿을 테스트할 때 현재 추적이 지원되지 않음을 나타내는 경고가 추가되었습니다. 추적을 테스트하려면 이메일의 콘텐츠 템플릿을 사용하고 증명을 보내야 합니다. [자세히 보기](../content-management/content-templates.md#test-template)
+* **콘텐츠 템플릿으로 작업하기** 페이지에 이메일 콘텐츠 템플릿을 테스트할 때 현재 추적이 지원되지 않음을 나타내는 경고가 추가되었습니다. 추적을 테스트하려면 이메일의 콘텐츠 템플릿을 사용하고 교정쇄를 보내야 합니다. [자세히 보기](../content-management/content-templates.md#test-template)
 * **랜딩 페이지 만들기 및 게시** 섹션에 몇 가지 경고가 추가되었습니다. 페이지가 게시되었더라도 페이지를 만들 때 정의된 URL을 웹 브라우저에 단순히 복사하여 붙여넣으면 랜딩 페이지에 액세스할 수 없음을 명시하고 있습니다. 대신 미리보기 기능을 사용하여 테스트할 수 있습니다. [자세히 보기](../landing-pages/create-lp.md)
 * 다이렉트 메일 채널에서의 **동의 관리** 방법에 대한 새로운 섹션을 추가했습니다. [자세히 보기](../direct-mail/test-send-direct-mail.md)
 

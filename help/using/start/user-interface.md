@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -254,7 +254,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_attribute"
 >title="카탈로그에서 결정 속성 선택"
->abstract="결정 속성은 카탈로그의 스키마에 저장됩니다. 선택한 카탈로그에서 사용하려는 속성을 선택하십시오."
+>abstract="결정 속성은 카탈로그의 스키마에 저장됩니다. 선택한 카탈로그에서 여기에서 사용할 속성을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_policy"

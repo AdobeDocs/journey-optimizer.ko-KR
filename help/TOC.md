@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
 source-wordcount: '2168'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -185,7 +185,7 @@ ht-degree: 97%
       + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
       + [테스트 프로필 선택](using/content-management/test-profiles.md)
       + [콘텐츠 미리 보기](using/content-management/preview.md)
-      + [이메일 증명 보내기](using/content-management/proofs.md)
+      + [이메일 교정쇄 보내기](using/content-management/proofs.md)
       + [이메일 렌더링 테스트](using/content-management/rendering.md)
       + [샘플 입력 데이터를 사용하여 콘텐츠 테스트(Beta)](using/test-approve/simulate-sample-input.md)
       + [이메일 스팸 보고서](using/content-management/spam-report.md)
@@ -326,7 +326,7 @@ ht-degree: 97%
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
       + [개인화 구문](using/personalization/personalization-syntax.md)
-      + [개인화에 Adobe Experience Platform 데이터 사용(Beta)](using/personalization/lookup-aep-data.md)
+      + [개인화(Beta)에 Adobe Experience Platform 데이터 사용](using/personalization/lookup-aep-data.md)
       + 개인화 편집기 작업 {#expression-editor}
          + [개인화 편집기 정보](using/personalization/personalization-build-expressions.md)
          + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
@@ -368,7 +368,7 @@ ht-degree: 97%
 + 대상자, 프로필, 신원{#audiences-profiles-identities}
    + 대상자 {#audiences}
       + [대상자 시작](using/audience/about-audiences.md)
-      + [사용자 지정 업로드(CSV) 및 페더레이션 대상 구성](using/audience/custom-upload-fac.md)
+      + [사용자 정의 업로드(CSV) 및 페더레이션된 대상자 구성](using/audience/custom-upload-fac.md)
       + [세그먼트 정의 작성](using/audience/creating-a-segment-definition.md)
       + 대상자 구성 {#audience-orchestration}
          + [대상자 구성 시작](using/audience/get-started-audience-orchestration.md)
@@ -451,7 +451,7 @@ ht-degree: 97%
 + 결정 기능 {#decisioning}
    + [의사 결정 기능 시작](using/experience-decisioning/gs-decision.md)
    + 의사 결정 {#experience-decisioning}
-      + [Decisioning 시작하기](using/experience-decisioning/gs-experience-decisioning.md)
+      + [결정 시작](using/experience-decisioning/gs-experience-decisioning.md)
       + API 참조{#api-reference}
          + 결정 항목{#decision-items}
             + [결정 항목 만들기](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -659,7 +659,7 @@ ht-degree: 97%
    + [아카이브 지원](using/configuration/archiving-support.md)
    + [실행 주소 변경](using/configuration/primary-email-addresses.md)
    + [비즈니스 규칙 구성](using/configuration/frequency-rules.md)
-   + [규칙 세트(LA) 작업](using/configuration/rule-sets.md)
+   + [규칙 세트 작업(LA)](using/configuration/rule-sets.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
       + 외부 시스템과 통합 {#external-systems}
