@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 94%
 
 * [개인화 편집기](create-code-based.md#edit-code)를 사용하여 콘텐츠를 편집합니다.
 * 코드 기반 경험에서는 구현에 대해 기존 개발 작업이 필요합니다. 이는 애플리케이션이 [!DNL Journey Optimizer]에서 해당 위치에 대해 Edge로 게시된 콘텐츠를 해석 및 게재할 수 있게 하기 위해서입니다. [자세히 알아보기](code-based-configuration.md#surface-definition)
-* 더 많은 계획이 필요하고 개발자가 지정하는 사항만 변경할 수 있습니다. 따라서 개인화 또는 테스트를 위해 수정해야 하는 애플리케이션의 구성 요소(홈 배너, 영웅 이미지, 메뉴 막대 등)를 식별하고 개발 팀과 협력하여 이러한 변경 사항을 처리하는 데 필요한 구현을 빌드해야 합니다.
+* 더 많은 계획이 필요하고 개발자가 지정하는 사항만 변경할 수 있습니다. 따라서 개인화 또는 테스트를 위해 수정해야 하는 애플리케이션의 구성 요소(홈 배너, 히어로 이미지, 메뉴 표시줄 등)를 식별하고 개발 팀과 협력하여 이러한 변경 사항을 처리하는 데 필요한 구현을 구축하는 것이 중요합니다.
 * JSON 코드 콘텐츠를 사용할 수 있습니다.
 * 개발자에 초점을 맞춥니다.
 

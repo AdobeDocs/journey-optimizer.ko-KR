@@ -7,9 +7,9 @@ topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2103'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 78%
 
 ### 새로운 기능 {#24-10-features}
 
-이번 릴리스에는 아래에 자세히 설명된 새로운 기능이 제공됩니다.
+이번 릴리스에는 아래에 있는 새로운 기능이 제공됩니다.
 
 <table>
 <thead>
@@ -42,7 +42,7 @@ ht-degree: 78%
 <p>이제 Journey Optimizer에서 이메일 템플릿의 콘텐츠를 잠글 수 있습니다. 템플릿 전체를 잠그거나 특정 구조 및 구성 요소를 잠그는 것이 가능합니다. 이를 통해 의도하지 않은 편집 또는 삭제를 방지할 수 있으므로 템플릿의 사용자 정의 기능을 더욱 강력하게 제어하고 이메일 캠페인의 효율성과 안정성을 향상시킬 수 있습니다.</p>
 <p>자세한 내용은 <a href="../content-management/content-locking.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/gif-content-locking.gif">
-<p>2024년 10월 24일 이후 제공</p>
+<p>2024년 10월 24일 이후 사용 가능</p>
 </td>
 </tr>
 </tbody>
@@ -119,14 +119,14 @@ ht-degree: 78%
 <td>
 <p>이제 Movable Ink Da Vinci와 Adobe Journey Optimizer를 통합할 수 있습니다. 이 새로운 통합을 통해 다음과 같은 작업을 수행할 수 있습니다. </p>
 <p><ul><li>Movable Ink의 Da Vinci 제품에 포함된 강력한 기능을 활용하여 배치 캠페인에 사용할 이메일 변형을 조합하고 개인화</li>
-<li>작성을 위해 Da Vinci를 사용하고 최적화 및 전달을 위해 Adobe Journey Optimizer을 사용하는 Journey Optimizer 고객을 위한 실용적인 워크플로 가속화</li>
+<li>작성에는 Da Vinci를, 최적화 및 게재에는 Adobe Journey Optimizer를 사용하여 Journey Optimizer 고객의 실무 워크플로 가속화</li>
 <li>Adobe 데이터로 Da Vinci 모델 최적화</li></ul></p>
-<p>자세한 내용은 <a href="https://movableink.com/adobe-and-movable-ink">Movable Ink Da Vinci 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="https://movableink.com/adobe-and-movable-ink">Movable Ink Da Vinci 설명서</a>를 참조하십시오.</p>
 </tr>
 </tbody>
 </table>
 
-이전에는 조직 집합(LA)에서 사용할 수 있었지만, 이제 모든 사용자(GA)가 다음 기능을 사용할 수 있습니다.
+이전에는 일부 조직에서만 사용할 수 있었던(LA) 아래 기능을 이제 모든 사용자가 사용할 수 있습니다(GA).
 
 <table>
 <thead>
@@ -227,10 +227,10 @@ ht-degree: 78%
 <tr>
 <td>
 <p>Journey Optimizer의 보고 기능이 이제 일반 가용성(GA)으로 공개되었습니다. 이 기능은 Customer Journey Analytics 기능의 개선된 상호 운용성과 함께 제공되어 양 플랫폼의 보고를 표준화하고 데이터의 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 확실한 정보에 근거한 결정을 내릴 수 있습니다.</p>
-<p>일반 공급 기능에는 간단한 지표 만들기, 대상자 만들기 및 게시, Insight Builder를 사용하여 임시 질문하기, 주요 수신자에게 자동으로 이메일로 전송할 보고서 예약 등의 네 가지 새로운 기능이 도입되었습니다.</p>
+<p>일반 가용성 전환과 더불어 네 가지 새로운 기능이 도입되었습니다. 이제 간단한 지표 만들기, 대상자 만들기 및 게시, Insight Builder를 사용한 임시 질문 사용, 주요 수신자에게 이메일로 자동 전송할 보고서 예약이 가능합니다.</p>
 <p>자세한 내용은 <a href="../reports/report-cja-manage.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>중요: 현재 보고 경험은 2025년 1월부터 종료됩니다. 이 날짜 이후에는 새로운 보고 경험이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다. <a href="../reports/report-gs-cja.md">Journey Optimizer의 새로운 보고 인터페이스를 시작하는 방법 알아보기</a></p>
+<p>중요: 현재 보고 경험은 2025년 1월부로 사용이 종료됩니다. 이 날짜 이후에는 새로운 보고 경험이 표준이 됩니다. 원활한 전환을 위해 새로운 기능을 숙지하는 것이 좋습니다. <a href="../reports/report-gs-cja.md">Journey Optimizer의 새로운 보고 인터페이스를 시작하는 방법 알아보기</a></p>
 <p>2024년 10월 16일 이후 사용 가능</p>
 </tr>
 </tbody>
@@ -247,8 +247,8 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>이제 여정 최적기를 사용하여 미리 보고 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 전자 메일 증명을 전송하여 콘텐츠의 다양한 변형을 테스트할 수 있습니다. 콘텐츠에서 개인화를 위해 사용되는 모든 프로필 속성은 시스템에서 자동으로 감지되며, 이를 테스트에 사용하여 여러 변형을 만들 수 있습니다.</p>
-<p>이 기능은 현재 모든 고객이 이메일, SMS 및 푸시 알림 채널에 공개 베타 버전으로 사용할 수 있습니다.</p>
+<p>이제 Journey Optimizer에서 콘텐츠의 다양한 변형을 테스트하기 위해 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 변형을 미리 보고 이메일 증명을 전송할 수 있습니다. 콘텐츠에서 개인화를 위해 사용되는 모든 프로필 속성은 시스템에서 자동 감지되며, 이를 테스트에 사용하여 여러 변형을 만들 수 있습니다.</p>
+<p>이 기능은 현재 모든 고객이 이메일, SMS 및 푸시 알림 채널에 공개 Beta 버전으로 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../test-approve/simulate-sample-input.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/gif-simulate.gif">
 </td>
@@ -260,14 +260,14 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>개인화에 Adobe Experience Platform 데이터 사용(Beta)</strong><br/></th>
+<th><strong>개인화(Beta)에 Adobe Experience Platform 데이터 사용</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 콘텐츠를 개인화할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer](으)로 개인화할 수 있습니다.</p>
-<p>이 기능은 모든 고객이 Public Beta로 사용할 수 있습니다.</p>
+<p>이 기능은 모든 고객이 공개 Beta로 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../personalization/lookup-aep-data.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -282,13 +282,13 @@ ht-degree: 78%
 
 * 이제 SMS API 채널 구성을 편집하거나 삭제할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md)
 
-* Infobip 및 Sinch를 통해 SMS 메시지 기능을 개선하기 위해 다음과 같은 개선 사항이 도입되었습니다.
+* Infobip 및 Sinch를 통한 SMS 메시지 기능 강화를 위해 다음 같은 개선 사항이 도입되었습니다.
 
    * SMS 캠페인 및 여정에 대한 고유 키워드를 정의하고 관리하여 보다 개인화되고 효율적인 커뮤니케이션을 가능하게 할 수 있습니다.
 
    * 키워드가 인식되지 않을 때 사용할 기본 SMS 메시지를 만들고 전송할 수 있습니다.
 
-  [Infoip](../sms/sms-configuration-infobip.md) 및 [Sinch](../sms/sms-configuration-sinch.md)에 대한 SMS 구성 설명서에서 이러한 개선 사항에 대해 자세히 알아보세요.
+  [Infoip](../sms/sms-configuration-infobip.md) 및 [Sinch](../sms/sms-configuration-sinch.md)에 대한 SMS 구성 설명서에서 이러한 개선 사항에 대해 자세히 알아보십시오.
 
 
 <!--**Journeys**-->
@@ -299,7 +299,7 @@ ht-degree: 78%
 
 **웹 채널**
 
-* **웹 디자이너의 비시각적 편집 모드** - 이제 Journey Optimizer 웹 디자이너의 대체 요소로서 비시각적 편집기를 사용하여 웹 사이트에 수정 사항을 추가할 수 있습니다. 이 옵션을 사용하면 시각적 편집기에서 페이지를 열지 않고도 변경 사항을 수동으로 입력할 수 있습니다. 이 비시각적 편집 모드는 웹 디자이너에서 페이지를 로드하는 데 필요한 Adobe Experience Cloud Visual Helper와 같은 브라우저 확장 기능을 설치할 수 없는 경우에 유용합니다. [자세히 알아보기](../web/web-non-visual-editor.md)
+* **웹 디자이너용 비시각적 편집 모드** - 이제 Journey Optimizer 웹 디자이너 대신 비시각적 편집기를 사용하여 웹 사이트에 수정 사항을 추가할 수 있습니다. 이 모드를 사용하면 페이지를 시각적 편집기에서 열지 않고도 변경 사항을 수동으로 입력할 수 있습니다. 이 비시각적 편집 모드는 웹 디자이너에서 페이지를 로드하는 데 필요한 Adobe Experience Cloud Visual Helper와 같은 브라우저 확장 프로그램을 설치할 수 없는 경우에 유용합니다. [자세히 알아보기](../web/web-non-visual-editor.md)
 
 
 **데이터 세트**
@@ -313,15 +313,15 @@ ht-degree: 78%
 
   이 변경 사항은 차후 기존 고객 샌드박스에 대해서도 롤아웃됩니다. [자세히 알아보기](../data/datasets-ttl.md#ttl)
 
-* **사용자 지정 작업의 매개 변수** - 사용 가능한 날짜: 2024년 10월 3일 - 이제 사용자 지정 작업에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **사용자 정의 액션의 매개 변수**(사용 가능한 날짜: 2024년 10월 3일) - 이제 사용자 정의 액션에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **보고**
 
-* 이제 **Decisioning 보고**&#x200B;를 사용할 수 있으므로 방문자가 경험과 상호 작용하는 방식에 대한 필수 통찰력을 제공합니다. [자세히 알아보기](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
+* 이제 **결정 보고**&#x200B;를 사용할 수 있습니다. 이 기능은 방문자가 경험과 상호 작용하는 방식에 대해 기본적인 인사이트를 제공합니다. [자세히 알아보기](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **데이터 거버넌스 및 동의 정책** - 사용 가능한 날짜: 2024년 10월 7일
 
-* **데이터 거버넌스 정책** 시행이 이제 Journey Optimizer의 모든 채널에 적용됩니다. Adobe Experience Platform에서 정책을 만든 고객의 경우 이는 채널 구성 설정의 일부로 마케팅 작업에 적용됩니다. 구성을 사용하여 콘텐츠를 만들 때 시스템은 모든 개인화 필드를 확인하여 데이터 거버넌스 위반 여부를 찾습니다. 위반이 발견되면 여정 또는 캠페인을 게시할 수 없습니다. [자세히 알아보기](../action/action-privacy.md)
+* **데이터 거버넌스 정책** 시행이 이제 Journey Optimizer의 모든 채널에 적용됩니다. Adobe Experience Platform에서 정책을 만든 고객의 경우 이 정책은 채널 구성 설정의 일부로 마케팅 액션에 적용됩니다. 구성을 사용하여 콘텐츠를 만들 때 시스템은 모든 개인화 필드를 확인하여 데이터 거버넌스 위반 여부를 찾습니다. 위반이 발견되면 여정 또는 캠페인을 게시할 수 없습니다. [자세히 알아보기](../action/action-privacy.md)
 
 * 이제 **사용자 정의 동의 정책**&#x200B;이 모든 Journey Optimizer 채널에 적용됩니다. 메시지가 전송되거나 인바운드 경험이 게재되기 전에 적용 시 시스템은 사용자가 수신할 콘텐츠의 개인화 필드 사용에 동의했는지 확인합니다. 동의를 하지 않은 경우 해당 경험이 표시되지 않습니다. [자세히 알아보기](../action/consent.md)
 
@@ -341,10 +341,10 @@ ht-degree: 78%
 
 **코드 기반 채널**
 
-* 이제 콘텐츠 템플릿을 사용할 수 있습니다. 개발자가 작성한 콘텐츠 템플릿에서 시작하여 코드 기반 경험을 빠르게 작성할 수 있습니다. 마케터는 컨텐츠 템플릿을 사용하면 전체 HTML 또는 JSON 컨텐츠 페이로드를 작성하는 대신 일부 값 또는 필드를 수정할 수 있습니다. [자세히 알아보기](../content-management/content-templates.md)
+* 이제 콘텐츠 템플릿을 사용할 수 있습니다. 개발자가 작성한 콘텐츠 템플릿에서 시작하여 코드 기반 경험을 빠르게 작성할 수 있습니다. 콘텐츠 템플릿을 사용하면 마케터가 전체 HTML 또는 JSON 콘텐츠 페이로드를 작성할 필요 없이 일부 값 또는 필드만 수정할 수 있습니다. [자세히 알아보기](../content-management/content-templates.md)
 
 **의사 결정**
 
-* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko) 사용자는 이제 의사 결정(이전 이름: 경험 결정)에서 AI 모델을 설정할 때 최적화할 사용자 정의 모델을 선택할 수 있습니다. 예를 들어 클릭스루 비율과 같은 정의된 제약 조건이 아닌 사용자 정의 &quot;구매&quot; 테이블에서 최적화할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking.md)
+* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko) 사용자는 이제 의사 결정(이전 이름: 경험 결정)에서 AI 모델을 설정할 때 최적화할 사용자 정의 모델을 선택할 수 있습니다. 예를 들어 클릭스루 비율과 같은 정의된 제한 대신 사용자 정의 &quot;구매&quot; 테이블을 기반으로 최적화할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking.md)
 
-* 이제 Decisioning을 사용하여 코드 기반 캠페인에 의사 결정 정책을 추가할 때 선택 전략과 함께 단일 의사 결정 항목을 수동으로 선택할 수 있습니다. 또한 이제 두 개 이상의 대체 오퍼를 선택하는 것도 가능합니다. 이 방법으로 일정 수의 결정 항목이 반환되도록 보장할 수 있습니다. [자세히 알아보기](../experience-decisioning/create-decision.md)
+* 이제 의사 결정을 사용하여 코드 기반 캠페인에 결정 정책을 추가할 때 선택 전략에 더해 단일 결정 항목을 수동으로 선택할 수 있습니다. 또한 이제 두 개 이상의 대체 오퍼를 선택하는 것도 가능합니다. 이 방법으로 일정 수의 결정 항목이 반환되도록 보장할 수 있습니다. [자세히 알아보기](../experience-decisioning/create-decision.md)

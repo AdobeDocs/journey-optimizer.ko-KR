@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 61447b6400b65e29a9187790e74be47b09764c4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1967'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 이메일 콘텐츠의 다양한 변형을 테스트하기 위해 CSV 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 변형을 미리 보고 증명을 전송할 수 있습니다. 콘텐츠에서 개인화를 위해 사용되는 모든 프로필 속성은 시스템에서 자동으로 감지되며, 이를 테스트에 사용하여 여러 변형을 만들 수 있습니다.</p>
+<p>이제 Journey Optimizer에서 이메일 콘텐츠의 다양한 변형을 테스트하기 위해 CSV 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 변형을 미리 보고 증명을 전송할 수 있습니다. 콘텐츠에서 개인화를 위해 사용되는 모든 프로필 속성은 시스템에서 자동 감지되며, 이를 테스트에 사용하여 여러 변형을 만들 수 있습니다.</p>
 <p>이 기능은 현재 Beta로 사용할 수 있습니다.</p>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
@@ -292,7 +292,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->다음 개선 사항은 Sinch 및 Infobip 공급자에서만 사용할 수 있습니다.
+>다음 개선 사항은 Sinch 및 Infobip 공급자만 사용할 수 있습니다.
 
 메시징 기능을 개선하기 위해 다음과 같은 SMS 개선 사항이 도입되었습니다.
 
@@ -323,7 +323,7 @@ ht-degree: 98%
 
 **보고**
 
-* 이제 **Decisioning 보고**&#x200B;를 사용할 수 있으므로 방문자가 경험과 상호 작용하는 방식에 대한 필수 통찰력을 제공합니다.
+* 이제 **결정 보고**&#x200B;를 사용할 수 있습니다. 이 기능은 방문자가 경험과 상호 작용하는 방식에 대해 기본적인 인사이트를 제공합니다.
 
 **데이터 거버넌스 및 동의 정책** - 사용 가능한 날짜: 2024년 10월 7일
 

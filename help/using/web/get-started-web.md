@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 81%
 
 이메일이나 SMS 또는 푸시 알림 등 아웃바운드 채널을 이미 사용하고 있다면, 이제 인바운드 웹 채널을 활용하여 어떤 채널에서나 제대로 개인화된 경험을 제공할 수 있습니다.
 
-여정 또는 캠페인을 만든 후에는 **웹**&#x200B;을(를) 작업으로 선택하고 기본 설정을 정의합니다. 여정/캠페인을 구성하는 방법에 대한 자세한 내용은 이 [페이지](create-web.md#create-web-experience)를 참조하세요.
+여정 혹은 캠페인을 만든 후 작업으로 **웹**&#x200B;을 선택하고 기본 설정을 정의합니다. 여정/캠페인을 구성하는 자세한 방법은 이 [페이지](create-web.md#create-web-experience)를 참조하십시오.
 
 >[!NOTE]
 >

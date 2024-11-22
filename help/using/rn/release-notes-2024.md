@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4776'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>메시지를 만들고 개인화한 후에는 Journey Optimizer의 AI Assistant Content Accelerator를 사용하여 콘텐츠를 한 차원 높입니다. 이제 AI Assistant를 사용하여 다양한 주요 제목 및 이미지를 실험하여 메시지의 영향을 최적화할 수 있습니다. 각 변형 버전이 고유한 처리 항목으로 관리되어 어떤 제목이 더 많은 클릭으로 이어지는지 측정하고 비교할 수 있습니다.</p>
+<p>메시지를 만들고 개인화한 뒤 Journey Optimizer의 AI 어시스턴트 콘텐츠 가속기로 콘텐츠를 한 단계 더 발전시켜 보십시오. 이제 Al 어시스턴트를 사용하여 다양한 주요 제목과 이미지를 실험해 보며 메시지의 영향을 최적화할 수 있습니다. 각 변형 버전이 고유한 처리 항목으로 관리되어 어떤 제목이 더 많은 클릭으로 이어지는지 측정하고 비교할 수 있습니다.</p>
 <p>기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 <a href="https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator">라이브 기능 미리 보기</a>를 통해 실습 경험에 몰입하세요.</a>.</p>
 <p>자세한 내용은 <a href="../content-management/gs-generative.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -690,7 +690,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **mTLS 지원** - 이제 사용자 정의 작업에 mTLS 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 보기](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **이벤트의 조회 테이블** - 이제 개체 배열 내의 속성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값을 여정(조건, 사용자 정의 작업 등) 및 메시지 개인화에 사용할 수 있습니다. [자세히 보기](../event/experience-event-schema.md#relationships_limitations)
+* **이벤트의 조회 테이블** - 이제 개체 배열 내의 속성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값을 여정(조건, 사용자 정의 작업 등) 및 메시지 개인화에서 사용할 수 있습니다. [자세히 보기](../event/experience-event-schema.md#relationships_limitations)
 * **이벤트 구성의 고급 표현식 편집기**(LA) - 이제 이벤트를 구성할 때 고급 표현식 편집기를 활용하여 이벤트 ID 조건에 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../event/about-creating.md#adv-exp-editor)
 * **병합 정책**(LA) - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../building-journeys/journey-properties.md#merge-policies)
 
