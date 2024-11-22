@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 6%
+source-wordcount: '216'
+ht-degree: 5%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->현재 추적은 이메일 콘텐츠 템플릿을 테스트할 때 지원되지 않습니다. 즉, 이벤트, UTM 매개 변수 및 랜딩 페이지 링크를 추적하는 것은 템플릿에서 전송되는 증명에서 효과적이지 않습니다. 추적을 테스트하려면 전자 메일에서 [콘텐츠 템플릿을 사용](../email/use-email-templates.md)하고 [증명 보내기](../content-management/preview-test.md#send-proofs)하십시오.
+>현재 추적은 이메일 콘텐츠 템플릿을 테스트할 때 지원되지 않습니다. 즉, 이벤트, UTM 매개 변수 및 랜딩 페이지 링크를 추적하는 것은 템플릿에서 전송되는 증명에서 효과적이지 않습니다. 추적을 테스트하려면 전자 메일에서 [콘텐츠 템플릿을 사용](../email/use-email-templates.md)하고 테스트 프로필 또는 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 증명을 보냅니다. [콘텐츠를 미리 보고 테스트하는 방법에 대해 알아보세요](../content-management/preview-test.md)

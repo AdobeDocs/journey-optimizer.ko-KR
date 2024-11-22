@@ -1,22 +1,26 @@
 ---
-title: 이메일 증명 보내기
+title: 이메일 교정쇄 보내기
 description: 이메일 증명을 보내는 방법을 알아봅니다.
 feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 5%
+source-wordcount: '282'
+ht-degree: 17%
 
 ---
 
-# 이메일 증명 보내기 {#send-proofs}
+# 이메일 교정쇄 보내기 {#send-proofs}
 
-증명은 메시지를 주요 대상에게 보내기 전에 테스트할 수 있는 특정 메시지입니다. 증명 수신자는 메시지 승인(렌더링, 콘텐츠, 개인화 설정, 구성)을 담당합니다.
+증명은 메시지를 주 대상자에게 보내기 전에 테스트하기 위해 사용할 수 있는 전용 메시지입니다. 증명의 수신자는 메시지의 렌더링, 내용, 개인화 설정, 구성 등 요소를 승인해야 합니다.
 
-[테스트 프로필](test-profiles.md)을 선택하면 증명을 보낼 수 있습니다.
+>[!NOTE]
+>
+>[!DNL Journey optimizer]을(를) 사용하면 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형을 테스트할 수도 있습니다. [샘플 입력 데이터를 사용하여 콘텐츠를 테스트하는 방법을 알아보세요](../test-approve/simulate-sample-input.md)
+
+[테스트 프로필](test-profiles.md)을 선택한 후 전자 메일 증명을 보내려면 다음 단계를 따르십시오.
 
 1. **[!UICONTROL 시뮬레이션]** 화면에서 **[!UICONTROL 증명 보내기]** 단추를 클릭합니다.
 

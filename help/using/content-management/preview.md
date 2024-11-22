@@ -5,18 +5,24 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 6%
+source-wordcount: '261'
+ht-degree: 3%
 
 ---
 
-# 콘텐츠 확인 {#preview}
+# 테스트 프로필을 사용하여 콘텐츠 미리보기 {#preview}
 
 <!--## Preview your content {#preview-content}-->
 
-[테스트 프로필](test-profiles.md)이 정의되면 콘텐츠를 미리 볼 수 있습니다. 아래의 단계를 수행하십시오.
+[테스트 프로필](test-profiles.md)이 정의되면 콘텐츠를 미리 볼 수 있습니다.
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer]을(를) 사용하면 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형을 테스트할 수도 있습니다. [샘플 입력 데이터를 사용하여 콘텐츠를 테스트하는 방법을 알아보세요](../test-approve/simulate-sample-input.md)
+
+테스트 프로필을 사용하여 콘텐츠를 미리 보려면 다음 단계를 수행합니다.
 
 1. 메시지의 콘텐츠 편집 화면 또는 이메일 Designer에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 

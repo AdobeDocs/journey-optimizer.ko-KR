@@ -9,16 +9,20 @@ role: User, Data Engineer
 level: Intermediate
 keywords: 테스트 프로필, 테스트, 테스트, 여정
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 3%
+source-wordcount: '1367'
+ht-degree: 2%
 
 ---
 
 # 테스트 프로필 만들기 {#create-test-profiles}
 
 여정에서 [테스트 모드](../building-journeys/testing-the-journey.md)를 사용할 때, [콘텐츠를 미리 보고 테스트하려면](../content-management/preview-test.md) 테스트 프로필이 필요합니다.
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer]을(를) 사용하면 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형을 테스트할 수도 있습니다. [샘플 입력 데이터를 사용하여 콘텐츠를 테스트하는 방법을 알아보세요](../test-approve/simulate-sample-input.md)
 
 테스트 프로필을 만드는 방법에는 몇 가지가 있습니다. 이 페이지에서 자세한 내용을 찾아 다음과 같은 작업을 수행할 수 있습니다.
 

@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 16%
+source-wordcount: '274'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 16%
 >abstract="테스트 프로필을 사용하여 콘텐츠를 미리 보고 테스트합니다. 개인화된 필드를 추가한 경우 테스트 프로필 데이터를 사용하여 해당 필드가 표시되는 방식을 확인할 수 있습니다."
 
 콘텐츠를 미리 보거나 테스트하기 전에 먼저 정의된 타겟팅 기준과 일치하지 않는 추가 수신자인 테스트 프로필을 선택해야 합니다. [테스트 프로필을 만드는 방법을 알아봅니다](../audience/creating-test-profiles.md)
+
+>[!NOTE]
+>
+>테스트 프로필 외에도 [!DNL Journey optimizer]을(를) 사용하면 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형의 콘텐츠를 테스트할 수도 있습니다. [샘플 입력 데이터를 사용하여 콘텐츠를 테스트하는 방법을 알아보세요](../test-approve/simulate-sample-input.md)
 
 테스트 프로필을 선택하려면 다음 단계를 수행합니다.
 

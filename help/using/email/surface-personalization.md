@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 7%
+source-wordcount: '1112'
+ht-degree: 6%
 
 ---
 
@@ -161,7 +161,13 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## 구성 확인 {#check-configuration}
 
-캠페인 또는 여정에서 개인화된 구성을 사용할 때 이메일 콘텐츠를 미리 보고 정의한 동적 설정으로 잠재적인 오류가 있는지 확인할 수 있습니다. 아래 단계를 수행합니다.
+캠페인 또는 여정에서 개인화된 구성을 사용할 때 테스트 프로필을 사용하여 이메일 콘텐츠를 미리 보고 정의한 동적 설정으로 잠재적인 오류를 확인할 수 있습니다. 아래 단계를 수행합니다.
+
+>[!NOTE]
+>
+>테스트 프로필 외에도 [!DNL Journey optimizer]을(를) 사용하면 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형의 콘텐츠를 테스트할 수도 있습니다. [샘플 입력 데이터를 사용하여 콘텐츠를 테스트하는 방법을 알아보세요](../test-approve/simulate-sample-input.md)
+
+테스트 프로필을 사용하여 콘텐츠를 미리 보려면 다음 단계를 수행합니다.
 
 1. 메시지의 콘텐츠 편집 화면 또는 이메일 Designer에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다. [자세히 알아보기](../content-management/preview.md)
 

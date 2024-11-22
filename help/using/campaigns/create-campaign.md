@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: becd2d8bdb93abbe21a24c3767179b4e90c01523
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1235'
 ht-degree: 17%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 17%
 <div align="center"><a href="../content-card/create-content-card.md"><strong>콘텐츠 카드</strong></a></div></td>
 </tr></table>
 
-콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 테스트 프로필로 콘텐츠를 미리 보고 테스트하십시오. [자세히 알아보기](../content-management/preview-test.md) 캠페인 생성 화면으로 돌아가려면 왼쪽 화살표를 클릭합니다.
+콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 테스트 프로필 또는 샘플 입력 데이터로 콘텐츠를 미리 보고 테스트합니다. [자세히 알아보기](../content-management/preview-test.md) 캠페인 생성 화면으로 돌아가려면 왼쪽 화살표를 클릭합니다.
 
 ![](assets/create-campaign-design.png)
 
