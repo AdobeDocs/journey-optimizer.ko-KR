@@ -266,7 +266,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 콘텐츠를 개인화할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer](으)로 개인화할 수 있습니다.</p>
+<p>개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 콘텐츠를 개인화할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer] (으)로 개인화할 수 있습니다.</p>
 <p>이 기능은 모든 고객이 공개 Beta로 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../personalization/lookup-aep-data.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
