@@ -20,7 +20,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
->title="공급업체 추가"
+>title="제공자 추가"
 >abstract="필요에 따라 번역 제공자와 로케일을 추가합니다. 이렇게 하면 프로젝트에 참여 중인 제공자와 로케일을 관리할 수 있어 현재 요구 사항과 프로젝트 범위에 따라 유연하게 리소스를 조정하고 대상자를 타기팅할 수 있습니다."
 
 >[!CONTEXTUALHELP]
