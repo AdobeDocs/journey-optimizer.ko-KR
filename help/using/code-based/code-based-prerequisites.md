@@ -6,20 +6,24 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '640'
 ht-degree: 2%
 
 ---
 
-# 가드레일 및 사전 지식 {#web-prerequisites}
+# 가드레일 및 사전 지식 {#code-based-prerequisites}
 
 [!DNL Journey Optimizer]에서 코드 기반 경험 작업을 사용하고 응용 프로그램에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 아래 전제 조건을 따르십시오.
 
 * 응용 프로그램에 수정 사항을 추가하려면 특정 구현이 있어야 합니다. [자세히 알아보기](#implementation-prerequisites)
 
 * 코드 기반 경험이 올바르게 배달되도록 하려면 [여기](#delivery-prerequisites)에서 자세히 설명하는 Adobe Experience Platform 설정을 정의해야 합니다.
+
+* 코드 기반 경험 보고서에 데이터를 표시할 수 있도록 하려면 다음 [보고 사전 요구 사항](#reporting-prerequisites)을 따라야 합니다.
+
+* [코드 기반 경험 채널 구성](code-based-configuration.md)을 만들 때 자체 구현에서 선언된 것과 일치하는 문자열/경로 또는 표면 URI를 입력해야 합니다. 이렇게 하면 콘텐츠가 지정된 앱 또는 페이지 내에서 원하는 위치에 전달됩니다. 그렇지 않으면 변경 사항을 전달할 수 없습니다. [자세히 보기](code-based-surface.md)
 
 ## 구현 사전 요구 사항 {#implementation-prerequisites}
 
@@ -55,7 +59,7 @@ ht-degree: 2%
 
   [Edge Delivery 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/view/edge-delivery)
 
-## 보고 사전 요구 사항 {#experiment-prerequisites}
+## 보고 사전 요구 사항 {#reporting-prerequisites}
 
 코드 기반 채널에 대한 보고를 사용하려면 앱 구현 [데이터 스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}에 사용된 [데이터 세트](../data/get-started-datasets.md)도 보고 구성에 포함되어 있는지 확인해야 합니다.
 

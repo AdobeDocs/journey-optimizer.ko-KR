@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '5736'
 ht-degree: 99%
@@ -26,7 +26,7 @@ ht-degree: 99%
 * 프로세스를 보다 명확하게 설명하도록 **코드 기반 경험 구성** 페이지를 개선했습니다. 표면 URI의 정의를 설명하는 섹션이 포함됩니다. [자세히 보기](../code-based/code-based-configuration.md)
 * **웹 채널 구성 만들기** 페이지에서 페이지 일치 규칙을 만드는 단계를 명확하게 설명하도록 업데이트했습니다. 이는 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
 * 시스템 생성 데이터 세트에 적용될 예정인 TTL(Time-to-Live) 가드레일에 대한 메모를 추가했습니다. [자세히 보기](../data/get-started-datasets.md)
-* 여정 또는 캠페인의 콘텐츠를 시뮬레이션할 때 디바이스에서 미리 보기 옵션을 사용하여 브라우저 또는 모바일 디바이스에서 코드 기반의 개인화된 경험을 편리하게 미리 보는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../code-based/create-code-based.md#preview-on-device)
+* 여정 또는 캠페인의 콘텐츠를 시뮬레이션할 때 디바이스에서 미리 보기 옵션을 사용하여 브라우저 또는 모바일 디바이스에서 코드 기반의 개인화된 경험을 편리하게 미리 보는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../code-based/test-code-based.md#preview-on-device)
 * 의사 결정에 사용자 정의 업로드 대상자를 활용하는 방법에 대한 새 페이지를 추가했습니다. [자세히 보기](../offers/custom-upload-decisioning.md)
 * Journey Optimizer에서 사용할 수 있는 의사 결정 기능을 소개하는 새 페이지가 추가되었습니다. [자세히 보기](../experience-decisioning/gs-decision.md)
 * Decisioning 설명서에 보호 기능 및 제한 사항이 추가되었습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md#guardrails)

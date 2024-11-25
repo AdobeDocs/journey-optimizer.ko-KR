@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 99%
+source-wordcount: '2185'
+ht-degree: 98%
 
 ---
 
@@ -273,10 +273,15 @@ ht-degree: 99%
          + [단일 페이지 애플리케이션 작성](using/web/web-spa.md)
    + 코드 기반 경험 {#code-based-experience}
       + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)
-      + [가드레일 및 사전 지식](using/code-based/code-based-prerequisites.md)
-      + [코드 기반 경험 구성 만들기](using/code-based/code-based-configuration.md)
-      + [구현 방법 샘플](using/code-based/code-based-implementation-samples.md)
-      + [코드 기반 경험 만들기](using/code-based/create-code-based.md)
+      + 코드 기반 채널 {#configure-code-based-channel} 구성
+         + [가드레일 및 사전 지식](using/code-based/code-based-prerequisites.md)
+         + [코드 기반 경험 표면](using/code-based/code-based-surface.md)
+         + [구현 방법 샘플](using/code-based/code-based-implementation-samples.md)
+         + [코드 기반 경험 구성 만들기](using/code-based/code-based-configuration.md)
+      + 코드 기반 경험 만들기 {#create-code-based-experiences}
+         + [코드 기반 경험 구축 및 구성](using/code-based/create-code-based.md)
+         + [코드 기반 경험 테스트](using/code-based/test-code-based.md)
+         + [코드 기반 경험 관리](using/code-based/publish-code-based.md)
    + 콘텐츠 카드{#content-card}
       + [콘텐츠 카드 시작](using/content-card/get-started-content-card.md)
       + 콘텐츠 카드 채널 구성 {#configure}

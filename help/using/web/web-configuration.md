@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 10%
@@ -67,7 +67,11 @@ ht-degree: 10%
 
 1. [웹](#web-configuration) 또는 [코드 기반 경험](../code-based/code-based-configuration.md)을 구성할 때 **[!UICONTROL 페이지 일치 규칙]**&#x200B;을 선택하세요.
 
-1. **[!UICONTROL 도메인]** 및 **[!UICONTROL 페이지]** 필드에 대한 조건을 정의합니다. [이 섹션](#available-operators)에서 사용 가능한 연산자를 확인하십시오.
+1. **[!UICONTROL 도메인]** 및 **[!UICONTROL 페이지]** 필드에 대한 조건을 정의합니다.
+
+   >[!NOTE]
+   >
+   >[이 섹션](#available-operators)에서 사용 가능한 연산자를 확인하십시오.
 
    예를 들어 Luma 웹 사이트의 모든 여성 제품 페이지에 표시되는 요소를 편집하려면 **[!UICONTROL 도메인]** > **[!UICONTROL 다음으로 시작]** > `luma` 및 **[!UICONTROL 페이지]** > **[!UICONTROL 포함]** > `women`을(를) 선택합니다.
 

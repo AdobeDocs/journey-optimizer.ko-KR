@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+workflow-type: tm+mt
+source-wordcount: '767'
+ht-degree: 66%
 
 ---
 
@@ -47,6 +47,15 @@ ht-degree: 100%
 <p>
 </td>
 <td>
+<a href="code-based-configuration.md">
+<img alt="유효성 검사" src="../assets/do-not-localize/web-design.jpg">
+</a>
+<div>
+<a href="code-based-implementation-samples.md"><strong>코드 기반 채널 구성</strong></a>
+</div>
+<p>
+</td>
+<td>
 <a href="create-code-based.md#create-code-based-campaign">
 <img alt="드물게" src="../assets/do-not-localize/web-create.jpg">
 </a>
@@ -54,15 +63,6 @@ ht-degree: 100%
 <a href="create-code-based.md#create-code-based-campaign"><strong>코드 기반 경험 만들기</strong></a>
 </div>
 <p></td>
-<td>
-<a href="code-based-implementation-samples.md">
-<img alt="유효성 검사" src="../assets/do-not-localize/web-design.jpg">
-</a>
-<div>
-<a href="code-based-implementation-samples.md"><strong>구현 샘플</strong></a>
-</div>
-<p>
-</td>
 </tr></table>
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
@@ -75,18 +75,21 @@ ht-degree: 100%
 
 * 웹 브라우저나 모바일 앱을 통해 디지털 속성에 액세스하지 않는 경우 언제든지 코드 기반 경험 사용을 고려할 수 있습니다. 이 경우 [!DNL Journey Optimizer] [웹 채널](../web/get-started-web.md){target="_blank"}또는 [!DNL Journey Optimizer] [인앱 메시징](../in-app/get-started-in-app.md){target="_blank"} 채널을 사용하는 것이 더 좋을 수 있습니다.
 
-* 웹 사이트를 [웹 디자이너](../web/web-visual-editor.md){target="_blank"} 비주얼 편집기에 로드할 수 없거나 웹 채널의 시각적 작성을 지원하는 [브라우저 확장](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}을 사용할 수 없는 경우 [!DNL Journey Optimizer] 웹 채널 대신 코드 기반 채널을 사용할 수 있습니다.
+<!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
-* API 기반, 헤드리스 또는 서버 측 구현이 있는 경우 [!DNL Journey Optimizer] 웹 또는 인앱 채널 대신 코드 기반 채널을 사용할 수도 있습니다.
+* API 기반, Headless 또는 서버측 구현이 있는 경우 [!DNL Journey Optimizer] 웹 또는 인앱 채널 대신 코드 기반 채널을 사용할 수 있습니다.
+
+* 모달, 팝업 또는 오버레이를 표시하지 않고 기본 앱 내의 콘텐츠를 수정하려는 경우 기본 모바일 애플리케이션의 코드 기반 채널을 인앱 채널 대신 활용할 수도 있습니다.
 
 ### 코드 기반 채널과 웹 채널 비교 {#code-based-vs-web}
 
-웹 사용 사례를 실행하기 위해 웹 채널이나 코드 기반 경험을 사용할 수 있지만, 상황에 따라 하나가 다른 것보다 더 적합할 수 있습니다. 주요 차이점은 아래에 나열되어 있으므로 언제 무엇을 사용할지에 대한 올바른 결정을 내릴 수 있습니다.
+웹 사용 사례를 실행하기 위해 웹 채널이나 코드 기반 경험을 사용할 수 있지만, 상황에 따라 하나가 다른 것보다 더 적합할 수 있습니다. 주요 차이점은 아래에 나열되어 있으므로 사용 방법과 시기에 대해 정보에 입각한 결정을 내릴 수 있습니다.
 
 **웹**
 
-* [웹 디자이너](../web/web-visual-editor.md){target="_blank"} 시각적 편집기를 사용하여 콘텐츠를 편집합니다.
-* 웹 브라우저에 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} 구현과 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 확장 프로그램이 설치되어 있어야 합니다. [자세히 알아보기](../web/web-prerequisites.md){target="_blank"}
+* [웹 디자이너](../web/web-visual-editor.md){target="_blank"} 비주얼 편집기 또는 웹 [비비주얼 편집기](../web/web-non-visual-editor.md)를 사용하여 콘텐츠를 편집합니다.
+* 클라이언트측 구현인 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}가 필요합니다.
+  <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * 웹 채널에서는 페이지의 모든 내용을 수정할 수 있으며 변경할 수 있는 사전 정의된 작업 목록이 있습니다. [자세히 알아보기](../web/web-visual-editor.md){target="_blank"}
 * 쉽게 설정하고 빠르게 진행할 수 있습니다.
 * 마케팅 담당자 중심입니다.
@@ -94,7 +97,8 @@ ht-degree: 100%
 **코드 기반 경험**
 
 * [개인화 편집기](create-code-based.md#edit-code)를 사용하여 콘텐츠를 편집합니다.
-* 코드 기반 경험에서는 구현에 대해 기존 개발 작업이 필요합니다. 이는 애플리케이션이 [!DNL Journey Optimizer]에서 해당 위치에 대해 Edge로 게시된 콘텐츠를 해석 및 게재할 수 있게 하기 위해서입니다. [자세히 알아보기](code-based-configuration.md#surface-definition)
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} - 클라이언트측 구현 또는 [AEP Edge Network 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} - 서버측 구현이 필요합니다.
+* 코드 기반 경험에서는 구현에 대해 기존 개발 작업이 필요합니다. 이는 애플리케이션이 [!DNL Journey Optimizer]에서 해당 위치에 대해 Edge로 게시된 콘텐츠를 해석 및 게재할 수 있게 하기 위해서입니다. [자세히 알아보기](code-based-surface.md)
 * 더 많은 계획이 필요하고 개발자가 지정하는 사항만 변경할 수 있습니다. 따라서 개인화 또는 테스트를 위해 수정해야 하는 애플리케이션의 구성 요소(홈 배너, 히어로 이미지, 메뉴 표시줄 등)를 식별하고 개발 팀과 협력하여 이러한 변경 사항을 처리하는 데 필요한 구현을 구축하는 것이 중요합니다.
 * JSON 코드 콘텐츠를 사용할 수 있습니다.
 * 개발자에 초점을 맞춥니다.
@@ -105,18 +109,33 @@ ht-degree: 100%
 >
 >이 기능은 개발자 및/또는 숙련된 사용자를 위한 것입니다. 개발 팀에서 채널 구성과 초기 설정을 처리하면 약간의 코드 작성 기술을 갖춘 마케팅 담당자가 이 기능을 사용할 수 있습니다.
 
-[!DNL Journey Optimizer] 코드 기반 경험 기능을 사용하여 콘텐츠를 편집하려면 페이지 또는 앱을 계측해야 합니다. 이렇게 하려면 콘텐츠를 삽입하거나 바꾸려는 특정 개별 위치(&quot;[표면](code-based-configuration.md#surface-definition)&quot;이라고 함)를 미리 선언해야 합니다.
+[!DNL Journey Optimizer] 코드 기반 경험 기능을 사용하여 콘텐츠를 편집하려면 페이지 또는 앱을 계측해야 합니다. 이렇게 하려면 콘텐츠를 삽입하거나 바꾸려는 특정 개별 위치(&quot;[표면](code-based-surface.md)&quot;이라고 함)를 미리 선언해야 합니다.
 
 >[!NOTE]
 >
 >현재 구성과 연결된 콘텐츠는 HTML 또는 JSON으로만 설정할 수 있습니다. 
 
-코드 기반 캠페인을 구현하는 주요 단계는 다음과 같습니다.
+코드 기반 경험을 만들고 제공하는 주요 단계는 다음과 같습니다.
 
-1. 애플리케이션 구현에서 코드 기반 경험을 추가할 위치인 [표면](code-based-configuration.md#surface-definition)을 정의한 다음 해당 위치를 참조하는 코드 기반 경험 채널 구성을 만듭니다. [방법 알아보기](code-based-configuration.md#create-code-based-configuration)
+1. 채널별 사전 요구 사항을 준수해야 합니다. [자세히 알아보기](code-based-prerequisites.md)
+
+1. 응용 프로그램 구현에서 기본적으로 환경을 추가하려는 위치인 [표면](code-based-surface.md#surface-definition)을(를) 정의합니다.
+
+1. 해당 위치를 참조하는 코드 기반 채널 구성을 만듭니다. [방법 알아보기](code-based-configuration.md#create-code-based-configuration)
 
 1. [!DNL Journey Optimizer]에서 이 구성을 사용하여 여정 또는 캠페인을 만듭니다. [방법 알아보기](create-code-based.md#create-code-based-campaign)
 
 1. [!DNL Journey Optimizer] 개인화 편집기로 선택한 구성에 대한 콘텐츠를 지정하여 경험을 만듭니다. [방법 알아보기](create-code-based.md#edit-code)
 
-1. 앱 구현 팀은 “배너 텍스트” 또는 “권장 사항 트레이 1”과 같은 이름이 지정된 표면에 대한 콘텐츠나 “검색 알고리즘 매개변수”와 같은 애플리케이션의 비UI 관련 결정 지점에 대한 콘텐츠를 가져오기 위해 명시적 API 또는 SDK 호출을 수행합니다. 이 경우 구현 팀은 반환된 콘텐츠를 렌더링하거나 다른 방식으로 해석하고 그에 따라 조치를 취할 책임이 있습니다. [자세히 알아보기](code-based-implementation-samples.md)
+1. 코드 기반 경험을 테스트합니다. [방법 알아보기](test-code-based.md)
+
+1. Publish. [방법 알아보기](publish-code-based.md)
+
+1. 코드 기반 경험 여정 또는 캠페인이 라이브되면 콘텐츠를 검색하고 표시하려면 표면에 콘텐츠를 요청하는 앱 또는 페이지 구현이 있어야 합니다.
+
+   >[!INFO]
+   >
+   >이를 위해 앱 구현 팀은 코드 기반 구성에 정의된 표면(예: &quot;배너 텍스트&quot; 또는 &quot;Recommendations 트레이 1&quot;)에 대한 콘텐츠 또는 애플리케이션의 비 UI 관련 의사 결정 지점(예: &quot;검색 알고리즘 매개 변수&quot;)을 가져오기 위해 명시적 API 또는 SDK 호출을 수행합니다. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [자세히 알아보기](code-based-implementation-samples.md)
+
+
+

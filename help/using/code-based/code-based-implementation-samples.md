@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 2%
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}이(가) 페이지에 포함되어 있습니다.
 
-1. 개인화 콘텐츠를 가져오려면 `sendEvent` 명령을 사용하고 [표면 URI](code-based-configuration.md#surface-definition)<!--( or location/path)-->를 지정해야 합니다.
+1. 개인화 콘텐츠를 가져오려면 `sendEvent` 명령을 사용하고 [표면 URI](code-based-surface.md)<!--( or location/path)-->를 지정해야 합니다.
 
    ```javascript
    alloy("sendEvent", {

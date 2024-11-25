@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 40%
+source-wordcount: '1073'
+ht-degree: 23%
 
 ---
 
@@ -104,11 +104,15 @@ ht-degree: 40%
 1. 다음은 미리보기 URL에 적용됩니다.
 
    * 단일 페이지 URL을 입력하면 해당 URL이 미리보기에 사용되며 다른 URL을 입력할 필요가 없습니다.
-   * [페이지와 일치하는 규칙](../web/web-configuration.md#web-page-matching-rule)을(를) 선택한 경우 브라우저에서 환경을 미리 보는 데 사용할 **[!UICONTROL 기본 작성 및 미리 보기 URL]**&#x200B;을(를) 입력해야 합니다. [자세히 알아보기](../code-based/create-code-based.md#preview-on-device)
+   * [페이지와 일치하는 규칙](../web/web-configuration.md#web-page-matching-rule)을(를) 선택한 경우 브라우저에서 환경을 미리 보는 데 사용할 **[!UICONTROL 기본 작성 및 미리 보기 URL]**&#x200B;을(를) 입력해야 합니다. [자세히 알아보기](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
 1. **[!UICONTROL 페이지의 위치]** 필드는 사용자가 액세스하려는 페이지 내의 정확한 대상을 지정합니다. &#39;히어로-배너&#39; 또는 &#39;제품-레일&#39;과 같은 사이트의 탐색 구조 내에 있는 페이지의 특정 섹션일 수 있습니다.
+
+   >[!CAUTION]
+   >
+   >이 필드에 입력한 문자열 또는 경로는 앱 또는 페이지 구현에서 선언한 문자열 또는 경로와 일치해야 합니다. 이렇게 하면 콘텐츠가 지정된 앱 또는 페이지 내에서 원하는 위치에 전달됩니다. [자세히 알아보기](code-based-surface.md#uri-composition)
 
    ![](assets/code_config_location_on_page.png)
 
@@ -132,7 +136,7 @@ ht-degree: 40%
 
    ![](assets/code_config_3.png)
 
-1. **[!UICONTROL 미리 보기 URL]** 필드를 입력하여 온디바이스 미리 보기를 사용하도록 설정합니다. 이 URL은 장치에서 미리보기를 트리거할 때 사용할 특정 URL을 미리보기 서비스에 알립니다. [자세히 알아보기](../code-based/create-code-based.md#preview-on-device)
+1. **[!UICONTROL 미리 보기 URL]** 필드를 입력하여 온디바이스 미리 보기를 사용하도록 설정합니다. 이 URL은 장치에서 미리보기를 트리거할 때 사용할 특정 URL을 미리보기 서비스에 알립니다. [자세히 알아보기](test-code-based.md#preview-on-device)
 
    미리보기 URL은 앱 내의 앱 개발자가 구성한 딥링크입니다. 이렇게 하면 딥링크 체계와 일치하는 모든 URL이 모바일 웹 브라우저가 아닌 앱 내에서 열립니다. 앱에 대해 구성된 딥링크 체계를 얻으려면 앱 개발자에게 문의하십시오.
 
@@ -160,73 +164,16 @@ ht-degree: 40%
 
 1. 구현이 Web, iOS 또는 Android용이 아니거나 특정 URI를 대상으로 해야 하는 경우 플랫폼으로 **[!UICONTROL 기타]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 표면 URI]**&#x200B;를 입력하십시오. 표면 URI는 경험을 전달하려는 엔티티에 해당하는 고유 식별자입니다. [자세히 알아보기](#surface-definition)
+1. **[!UICONTROL 표면 URI]**&#x200B;를 입력하십시오. 표면 URI는 경험을 전달하려는 엔티티에 해당하는 고유 식별자입니다. [자세히 알아보기](code-based-surface.md#surface-uri)
 
    ![](assets/code_config_5.png)
 
    >[!CAUTION]
    >
-   >자체 구현에 사용된 것과 일치하는 표면 URI를 입력해야 합니다. 그렇지 않으면 변경 사항을 전달할 수 없습니다.
+   >자체 구현에 사용된 것과 일치하는 표면 URI를 입력해야 합니다. 그렇지 않으면 변경 사항을 전달할 수 없습니다. [자세히 알아보기](code-based-surface.md#uri-composition)
 
 1. 필요한 경우 **[!UICONTROL 다른 표면 URI를 추가]**&#x200B;하십시오. 최대 10개의 URI를 추가할 수 있습니다.
 
    >[!NOTE]
    >
    >여러 URI를 추가하면 콘텐츠가 나열된 모든 구성 요소에 전달됩니다.
-
-## 표면이란 무엇입니까? {#surface-definition}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_surface_uri"
->title="구성 요소에 대한 표면 URI 추가"
->abstract="구현이 웹, iOS 또는 Android용이 아니거나 특정 URI를 타기팅해야 하는 경우, 경험을 게재하려는 엔티티를 가리키는 고유 식별자인 표면 URI를 입력하십시오. 자체 구현에 사용된 것과 일치하는 표면 URI를 입력해야 합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="다른 플랫폼을 위한 코드 기반 경험 구성 만들기"
-
-코드 기반 경험 **surface**&#x200B;은(는) 사용자 또는 시스템 상호 작용을 위해 디자인된 모든 엔터티이며 **URI**&#x200B;에 의해 고유하게 식별됩니다. 표면은 애플리케이션 구현에 지정되며 코드 기반 경험 채널 구성에서 참조되는 표면과 일치해야 합니다.
-
-표면은 존재하는 엔티티(터치포인트)가 있는 모든 계층 구조 수준에서 컨테이너로 볼 수 있습니다.
-
-* 웹 페이지, 모바일 앱, 데스크탑 앱, 더 큰 엔티티 내의 특정 콘텐츠 위치(예: `div`) 또는 비표준 표시 패턴(예: 키오스크 또는 데스크탑 앱 배너)일 수 있습니다.<!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
-
-* 또한 비표시 또는 추상화된 표시 목적을 위해 특정 콘텐츠 컨테이너 조각으로 확장할 수도 있습니다(예: 서비스로 제공되는 JSON Blob).
-
-* 또한 다양한 클라이언트 표면 정의와 일치하는 와일드카드 표면일 수도 있습니다. 예를 들어 웹 사이트의 모든 페이지에 있는 히어로 이미지 위치는 web://mydomain.com/*#hero_image 와 같은 표면 URI로 변환될 수 있습니다.
-
-코드 기반 경험 채널 구성을 만들 때 선택한 플랫폼에 따라 표면을 지정할 수 있는 두 가지 방법이 있습니다.
-
-* **[!UICONTROL Web]**, **[!UICONTROL iOS]** 및 **[!UICONTROL Android]** 플랫폼의 경우 표면을 작성하려면 **위치 또는 경로**&#x200B;를 입력해야 합니다.
-
-* 플랫폼이 **[!UICONTROL 기타]**&#x200B;인 경우 아래 예와 같이 전체 **표면 URI**&#x200B;를 입력해야 합니다.
-
-표면 URI는 애플리케이션 내의 개별 사용자 인터페이스 요소 또는 구성 요소로 이동하는 정밀한 식별자 역할을 합니다. 기본적으로 서피스 URI는 여러 섹션으로 구성됩니다.
-
-1. **유형**: 웹, 모바일 앱, atm, 키오스크, tvcd, 서비스 등
-1. **속성**: 페이지 URL 또는 앱 번들
-1. **컨테이너**: 페이지/앱 활동의 위치
-
-아래 표에는 다양한 디바이스의 표면 URI 정의 예시가 일부 나와 있습니다.
-
-**웹 및 모바일**
-
-| 유형 | URI | 설명 |
-| --------- | ----------- | ------- | 
-| 웹 | `web://domain.com/path/page.html#element` | 특정 도메인의 특정 페이지 내 개별 요소를 나타냅니다. 여기서 요소는 hero_banner, top_nav, menu, footer 등의 예시와 같은 레이블이 될 수 있습니다. |
-| iOS 앱 | `mobileapp://com.vendor.bundle/activity#element` | 기본 앱 활동 내의 특정 요소(예: 버튼 또는 기타 보기 요소)를 나타냅니다. |
-| Android 앱 | `mobileapp://com.vendor.bundle/#element` | 기본 앱 내의 특정 요소를 나타냅니다. |
-
-**기타 디바이스 유형**
-
-| 유형 | URI | 설명 |
-| --------- | ----------- | ------- | 
-| 데스크탑 | `desktop://com.vendor.bundle/#element` | 버튼, 메뉴, 히어로 배너 등과 같은 애플리케이션 내의 특정 요소를 나타냅니다. |
-| TV 앱 | `tvcd://com.vendor.bundle/#element` | 스마트 TV 또는 TV 연결 디바이스 앱 내 특정 요소, 번들 ID를 나타냅니다. |
-| 서비스 | `service://servicename/#element` | 서버측 프로세스 또는 기타 수동 엔티티를 나타냅니다. |
-| 키오스크 | `kiosk://location/screen#element` | 쉽게 추가할 수 있는 잠재적인 추가 표면 유형의 예. |
-| ATM | `atm://location/screen#element` | 쉽게 추가할 수 있는 잠재적인 추가 표면 유형의 예. |
-
-**와일드카드 표면**
-
-| 유형 | URI | 설명 |
-| --------- | ----------- | ------- | 
-| 와일드카드 웹 | `wildcard:web://domain.com/*#element` | 와일드카드 표면 - 특정 도메인 아래의 각 페이지에 있는 개별 요소를 나타냅니다. |
-| 와일드카드 웹 | `wildcard:web://*domain.com/*#element` | 와일드카드 표면 - &quot;domain.com&quot;으로 끝나는 모든 도메인 아래의 각 페이지에 있는 개별 요소를 나타냅니다. |

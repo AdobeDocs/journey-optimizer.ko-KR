@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 3%
@@ -50,5 +50,5 @@ ht-degree: 3%
 >
 >구성 세부 정보에서 오류가 발견되면 **[!UICONTROL 구성 세부 정보 보기]** 단추를 클릭하십시오. [자세히 알아보기](../email/surface-personalization.md#check-configuration)
 
-코드 기반 경험을 만들 때, 실제 시뮬레이션을 위해 브라우저 또는 모바일 장치에서 개인화된 콘텐츠를 바로 미리 볼 수 있습니다. [자세히 알아보기](../code-based/create-code-based.md#preview-on-device)
+코드 기반 경험을 만들 때, 실제 시뮬레이션을 위해 브라우저 또는 모바일 장치에서 개인화된 콘텐츠를 바로 미리 볼 수 있습니다. [자세히 알아보기](../code-based/test-code-based.md#preview-on-device)
 
