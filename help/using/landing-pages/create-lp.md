@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 21%
+source-wordcount: '1729'
+ht-degree: 20%
 
 ---
 
@@ -30,29 +30,33 @@ ht-degree: 21%
 
 ## 랜딩 페이지 액세스 {#access-landing-pages}
 
-랜딩 페이지 목록에 액세스하려면 왼쪽 메뉴에서 **[!UICONTROL 여정 관리]** > **[!UICONTROL 랜딩 페이지]**&#x200B;를 선택하십시오.
+랜딩 페이지 목록에 액세스하려면 왼쪽 메뉴에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 랜딩 페이지]**&#x200B;를 선택하십시오.
 
 ![](assets/lp_access-list.png)
 
-**[!UICONTROL 랜딩 페이지]** 목록에 생성된 모든 항목이 표시됩니다. 상태 또는 수정 날짜에 따라 필터링할 수 있습니다.
+**[!UICONTROL 랜딩 페이지]** 목록에 생성된 모든 항목이 표시됩니다. 상태, 수정 날짜 또는 태그를 기준으로 필터링할 수 있습니다.
 
 ![](assets/lp_access-list-filter.png)
 
-이 목록에서 게시된 항목의 [랜딩 페이지 라이브 보고서](../reports/lp-report-live.md) 또는 [랜딩 페이지 보고서](../reports/lp-report-global-cja.md)에 액세스할 수 있습니다.
-
-랜딩 페이지를 삭제, 복제 및 게시 취소할 수도 있습니다.
-
->[!CAUTION]
->
->메시지에서 참조되는 랜딩 페이지의 게시를 취소하면 랜딩 페이지에 대한 링크가 끊어지고 오류 페이지가 표시됩니다.
-
-랜딩 페이지 옆에 있는 세 점을 클릭하여 원하는 작업을 선택합니다.
+이 목록에서 여러 작업에 액세스할 수 있습니다. 랜딩 페이지 옆에 있는 세 점을 클릭하여 원하는 작업을 선택합니다.
 
 ![](assets/lp_access-list-actions.png)
 
->[!NOTE]
->
->[게시된](#publish-landing-page) 랜딩 페이지를 삭제할 수 없습니다. 삭제하려면 먼저 게시를 취소해야 합니다.
+* 게시된 항목의 경우 [랜딩 페이지 보고서](../reports/lp-report-global-cja.md) 또는 [최근 24시간 라이브 보고서](../reports/lp-report-live.md)에 액세스할 수 있습니다.
+
+* 랜딩 페이지를 삭제하거나 복제할 수 있습니다.
+
+  >[!NOTE]
+  >
+  >[게시된](#publish-landing-page) 랜딩 페이지를 삭제할 수 없습니다. 삭제하려면 먼저 게시를 취소해야 합니다.
+
+* 게시된 랜딩 페이지의 게시를 취소할 수 있습니다.
+
+  >[!CAUTION]
+  >
+  >메시지에서 참조되는 랜딩 페이지의 게시를 취소하면 랜딩 페이지에 대한 링크가 끊어지고 오류 페이지가 표시됩니다.
+
+* 랜딩 페이지의 연결된 [태그](../start/search-filter-categorize.md#tags)을(를) 편집할 수도 있습니다.
 
 ## 랜딩 페이지 만들기 {#create-landing-page}
 
@@ -279,11 +283,6 @@ ht-degree: 21%
 
 **Errors**:
 
-* 
-
->[!CAUTION]
->
-> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## 랜딩 페이지 게시 {#publish-landing-page}
