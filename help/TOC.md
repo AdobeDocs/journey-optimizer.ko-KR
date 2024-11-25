@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2188'
 ht-degree: 98%
 
 ---
@@ -487,6 +487,7 @@ ht-degree: 98%
       + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
       + [결정 정책 만들기](using/experience-decisioning/create-decision.md)
       + [의사 결정 보고서](using/experience-decisioning/cja-reporting.md)
+      + [의사 결정 사용 사례](using/experience-decisioning/experience-decisioning-uc.md)
    + 의사 결정 관리 {#offer-decisioning}
       + 의사 결정 관리 시작 {#get-started-decision}
          + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
