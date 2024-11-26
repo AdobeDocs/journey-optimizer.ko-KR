@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -766,7 +766,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **보고**
 
 * 이제 상태에 따라 게재를 필터링할 수 있습니다.
-   * 이제 메시지 실행 목록에서 증명을 게재 목록에서 제외할 수 있습니다.
+   * 이제 메시지 실행 목록에서 게재 목록에 있는 교정쇄를 제외할 수 있습니다.
    * 라이브/전역 보고서에서 테스트 이벤트를 제외하도록 선택할 수 있습니다.
 
 * 이제 메시지를 즉시 보낸 사람 수 및 1시간 최적화, 2시간 최적화 등을 통해 메시지를 보낸 사람 수 등 전송 시간 최적화 데이터에 대한 보고서에 액세스할 수 있습니다.
