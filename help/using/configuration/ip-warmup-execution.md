@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2589'
 ht-degree: 11%
 
 ---
@@ -184,13 +184,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >실행에 참여 기간을 적용하지 않으려면 **[!UICONTROL 마지막 참여]** 필드에 0을 입력합니다.
 
-1. 해당 실행에 대해 대상을 평가한 후 정규화된 프로필이 타겟팅된 프로필보다 적은 경우 실행을 취소하려면 **[!UICONTROL 오류가 발생한 경우 활성화된 실행 취소]** 옵션을 선택하십시오. 이 경우 실행은 **[!UICONTROL 실패]** 상태를 사용합니다.
+1. 해당 실행에 대해 대상을 평가한 후 정규화된 프로필이 타겟팅된 프로필보다 적은 경우 실행을 취소하려면 **[!UICONTROL 오류가 발생한 경우 활성화된 실행 취소]** 옵션을 선택하십시오.
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   적격 프로필의 수가 타겟팅된 프로필의 수와 일치하지 않는 경우(예: 1500개의 Gmail 주소가 실행에서 타겟팅되지만 700개의 Gmail 프로필만 적격):
+   적격 프로필의 수가 타겟팅된 프로필의 수와 일치하지 않는 경우(예: 1500개의 Gmail 주소가 실행에서 타겟팅되지만 700개의 Gmail 적격 프로필만 있음):
 
-   * 이 옵션을 활성화하면 실행이 실패합니다. 그런 다음 다음 다음 실행에서 더 적은 프로필을 타겟팅하도록 선택하거나 [실행을 새 단계로 분할](#split-phase)하고 새 단계에 대한 새 캠페인을 선택하여 동일한 프로필을 다시 타겟팅할 수 있습니다.
+   * 이 옵션을 사용하면 실행이 실패하고 **[!UICONTROL 실패]** 상태가 됩니다. <!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
 
    * 이 옵션을 활성화하지 않으면 실행이 실행되지만, 사용 가능한 프로필 수만 타겟팅됩니다.
 
