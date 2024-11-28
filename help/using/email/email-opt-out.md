@@ -41,7 +41,7 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="이메일 헤더의 구독 취소 URL 추가"
+>title="이메일 헤더에 구독 취소 URL 추가"
 >abstract="목록 구독 취소 헤더를 활성화하여 이메일 헤더에 구독 취소 URL을 추가합니다. 구독 취소 URL을 설정하려면 원클릭 옵트아웃 링크를 이메일 콘텐츠에 삽입합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko#one-click-opt-out" text="원클릭 옵트아웃"
 

@@ -7,7 +7,7 @@ feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 채널, 표면, 기술, 매개변수, 최적기
+keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
 workflow-type: tm+mt
@@ -26,7 +26,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
 >title="마케팅 액션"
->abstract="마케팅 액션을 선택하여 이 설정을 사용하여 메시지에 동의 정책을 링크합니다. 마케팅 액션과 관련된 모든 동의 정책은 고객의 선호도를 구하는 데 사용됩니다."
+>abstract="마케팅 액션을 선택하여 이 설정을 사용하여 메시지에 동의 정책을 링크합니다. 마케팅 액션과 관련된 모든 동의 정책은 고객의 선호도를 존중하기 위해 활용됩니다."
 
 [!DNL Journey Optimizer]을(를) 사용하면 메시지에 필요한 모든 기술 매개 변수(이메일 유형, 보낸 사람 전자 메일 및 이름, 모바일 앱, SMS 구성 등)를 정의하는 채널 구성(즉, 메시지 사전 설정)을 설정할 수 있습니다.
 
@@ -147,7 +147,7 @@ ht-degree: 12%
 
 * **SPF 유효성 검사 실패**: SPF(Sender Policy Framework)는 지정된 하위 도메인에서 전자 메일을 보낼 수 있는 승인된 IP를 지정할 수 있는 전자 메일 인증 프로토콜입니다. SPF 유효성 검사 실패는 SPF 레코드의 IP 주소가 사서함 공급자에게 전자 메일을 보내는 데 사용되는 IP 주소와 일치하지 않음을 의미합니다.
 
-* **DKIM 유효성 검사 실패**: DKIM(DomainKeys Identified Mail)을 사용하면 받는 사람 서버에서 받은 메시지를 연결된 도메인의 실제 보낸 사람이 보냈는지 확인할 수 있으며 원본 메시지의 내용이 변경되지 않았는지 확인할 수 있습니다. DKIM 유효성 검사 실패는 수신 메일 서버에서 메시지 콘텐츠의 신뢰성 및 전송 도메인과의 연결을 확인할 수 없음을 의미합니다.
+* **DKIM 유효성 검사 실패**: DKIM(DomainKeys Identified Mail)을 사용하면 받는 사람 서버에서 받은 메시지를 연결된 도메인의 실제 보낸 사람이 보냈는지 확인할 수 있으며 원본 메시지의 내용이 변경되지 않았는지 확인할 수 있습니다. DKIM 유효성 검사 실패는 수신 메일 서버가 메시지 콘텐츠의 신뢰성 및 전송 도메인과의 연결을 확인할 수 없음을 의미합니다.
 
 * **MX 레코드 유효성 검사 실패**: MX(Mail eXchange) 레코드 유효성 검사 실패는 지정된 하위 도메인을 대신하여 인바운드 전자 메일을 수락하는 메일 서버가 올바르게 구성되지 않았음을 의미합니다.
 
