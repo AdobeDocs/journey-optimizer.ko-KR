@@ -1,20 +1,20 @@
 ---
 title: 컨텐츠 카드 보고서
 description: 콘텐츠 카드 보고서에서 데이터를 사용하는 방법을 알아봅니다
-feature: Reporting
+feature: Reporting, Content Cards
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# 컨텐츠 카드 보고서 {#content-card-report}
+# 콘텐츠 카드 보고서 {#content-card-report}
 
 >[!BEGINSHADEBOX]
 
@@ -22,8 +22,8 @@ ht-degree: 1%
 
 * [콘텐츠 카드 시작](get-started-content-card.md)
 * [콘텐츠 카드 사전 요구 사항](content-card-configuration-prereq.md)
-* [Journey Optimizer에서 컨텐츠 카드 채널 구성](content-card-configuration.md)
-* [콘텐츠 카드 만들기](create-content-card.md)
+* [Journey Optimizer에서 콘텐츠 카드 채널 구성](content-card-configuration.md)
+* [콘텐츠 템플릿 만들기](create-content-card.md)
 * [콘텐츠 카드 디자인](design-content-card.md)
 * **콘텐츠 카드 보고서**
 
