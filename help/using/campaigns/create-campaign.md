@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '1235'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 17%
 
 1. (선택 사항) **태그** 필드를 사용하여 Adobe Experience Platform 통합 태그를 캠페인에 할당합니다. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [태그를 사용하여 작업하는 방법을 알아봅니다](../start/search-filter-categorize.md#tags).
 
-1. (선택 사항) 액세스 레이블에 따라 이 캠페인에 대한 액세스를 제한할 수 있습니다. 액세스 제한을 추가하려면 이 페이지 상단의 **[!UICONTROL 액세스 관리]** 단추를 찾아보십시오. 사용 권한이 있는 레이블만 선택해야 합니다. [개체 수준 액세스 제어에 대한 자세한 정보](../administration/object-based-access.md).
+1. (선택 사항) 액세스 레이블에 따라 이 캠페인에 대한 액세스를 제한할 수 있습니다. 액세스 제한을 추가하려면 이 페이지 상단의 **[!UICONTROL 액세스 관리]** 버튼을 찾습니다. 사용 권한이 있는 레이블만 선택해야 합니다. [개체 수준 액세스 제어에 대한 자세한 정보](../administration/object-based-access.md).
 
 ## 캠페인 대상자 정의 {#audience}
 
@@ -60,7 +60,6 @@ ht-degree: 17%
 >* [대상 구성](../audience/get-started-audience-orchestration.md)의 대상 및 특성을 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
 >
 >* API 트리거 캠페인의 경우, 대상자는 API 호출을 통해 설정되어야 합니다.
-
 
 예약된 마케팅 캠페인에 의해 타겟팅된 모집단을 정의하려면 다음 단계를 따르십시오.
 
@@ -143,7 +142,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="캠페인 일정"
->abstract="기본적으로 캠페인은 수동 활성화 시 시작되며 메시지가 한 번 전송된 직후 종료됩니다. 메시지를 보낼 특정 날짜 및 시간을 유연하게 설정할 수 있습니다. 또한 반복 캠페인이나 API 트리거 캠페인의 종료 날짜를 지정할 수 있습니다. 액션 트리거에서 환경 설정에 맞게 메시지 전송 빈도를 구성할 수도 있습니다."
+>abstract="기본적으로 캠페인은 수동 활성화 시 시작되고 메시지가 전송된 후에 즉시 종료됩니다. 메시지를 보낼 특정 날짜와 시간을 유연하게 설정할 수 있습니다. 또한 반복 캠페인이나 API 트리거 캠페인의 종료 날짜를 지정할 수 있습니다. 액션 트리거에서 환경 설정에 맞게 메시지 전송 빈도를 구성할 수도 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

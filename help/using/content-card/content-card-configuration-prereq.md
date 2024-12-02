@@ -1,11 +1,12 @@
 ---
 title: 콘텐츠 카드 구성
 description: 콘텐츠 카드 채널 사전 요구 사항
-feature: Channel Configuration
+feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+exl-id: df92e319-1e42-486f-b688-595964a762c9
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 5%
@@ -39,7 +40,7 @@ Adobe Journey Optimizer에서 컨텐츠 카드를 올바르게 표시하려면 �
 
 * **문제 해결**
 
-  모바일 경험의 문제를 해결하려면 **Edge Delivery 보증** 내의 **Adobe Experience Platform** 보기를 사용하십시오. 요청을 검사하고, Edge 호출을 확인하고, 프로필 데이터를 검사할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/view/edge-delivery)
+  모바일 경험 문제를 해결하려면 **Edge Delivery** 내의 **Adobe Experience Platform Assurance** 보기를 사용하십시오. 요청을 검사하고, Edge 호출을 확인하고, 프로필 데이터를 검사할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/view/edge-delivery)
 
 * **콘텐츠 실험**
 

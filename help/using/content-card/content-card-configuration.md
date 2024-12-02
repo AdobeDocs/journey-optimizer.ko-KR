@@ -1,11 +1,12 @@
 ---
 title: 콘텐츠 카드 구성
 description: 콘텐츠 카드 채널 구성
-feature: Channel Configuration
+feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 47%
@@ -96,4 +97,3 @@ ht-degree: 47%
 1. 변경 사항을 제출합니다.
 
 이제 콘텐츠 카드 경험을 만들 때 구성을 선택할 수 있습니다.
-
