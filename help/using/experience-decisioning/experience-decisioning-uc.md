@@ -7,16 +7,25 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+exl-id: 09770df2-c514-4217-a71b-e31c248df543
+source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 6%
+source-wordcount: '393'
+ht-degree: 5%
 
 ---
 
 # 의사 결정 사용 사례 {#experience-decisioning-uc}
 
+특정 등급 공식이 사전 할당된 오퍼 우선 순위보다 더 나은 성과를 낼지 확신할 수 없습니다.
+
 이 사용 사례에서는 타겟 대상자에게 가장 적합한 성과를 측정하기 위해 각각 다른 결정 정책이 포함된 두 개의 게재 처리를 정의하는 캠페인을 만듭니다.
+
+다음과 같이 실험을 설정합니다.
+
+* 첫 번째 처리는 순위 지정 방법으로 우선순위를 갖는 하나의 선택 전략을 포함한다.
+* 두 번째 처리는 공식이 순위 방법인 다른 선택 전략을 포함한다.
+
 
 ## 의사 결정 항목 및 선택 전략 만들기
 
@@ -68,5 +77,3 @@ ht-degree: 6%
 1. **[!UICONTROL 콘텐츠 편집]** 창에서 치료 B를 선택하여 콘텐츠를 변경하고 위의 단계를 반복하여 다른 결정을 만듭니다.
 
 1. 콘텐츠를 저장합니다.
-
-
