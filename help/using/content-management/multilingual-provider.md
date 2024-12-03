@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
+source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '186'
+ht-degree: 2%
 
 ---
 
@@ -33,6 +34,10 @@ Adobe Journey Optimizer은 Adobe Journey Optimizer과 별도로 기계 번역 �
 
 1. **[!UICONTROL 공급자]** 드롭다운 목록에서 원하는 공급자를 선택합니다.
 
+   >[!NOTE]
+   >
+   >목록에 공급자를 추가하려면 공급자에게 [이 문서](https://developer.adobe.com/gcs/partner/)에 설명된 지침에 따라 온보딩 프로세스를 완료하도록 요청할 수 있습니다.
+
    ![](assets/provider_2.png)
 
 1. Microsoft Translator를 공급자로 사용하는 경우 **[!UICONTROL 구독 키]** 및 **[!UICONTROL 끝점 URL]**&#x200B;을 입력하십시오.
@@ -44,4 +49,3 @@ Adobe Journey Optimizer은 Adobe Journey Optimizer과 별도로 기계 번역 �
    ![](assets/provider_4.png)
 
 1. 구성을 완료한 후 **[!UICONTROL 저장]**&#x200B;을 클릭하여 설정을 완료합니다.
-
