@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 마케터를 위한 Journey Optimizer 시작하기
+title: 마케터를 위한 Journey Optimizer 시작
 description: 여정 실무자로서 Journey Optimizer를 사용하여 작업하는 방법에 대해 자세히 알아보십시오
 level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 89%
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **테스트 및 유효성 검사**. 콘텐츠가 정의되면 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 테스트 프로필 또는 샘플 입력 데이터를 사용하여 콘텐츠를 미리 볼 수 있습니다.
+1. **테스트 및 유효성 검사**. 콘텐츠가 정의되면 테스트 프로필, 또는 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 볼 수 있습니다.
 
-   [개인 맞춤화된 콘텐츠](../../personalization/personalize.md)를 삽입하면 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다. 또한 **Litmus** 계정을 [!DNL Journey Optimizer]에 활용하면 인기 있는 이메일 클라이언트에서 **이메일 렌더링**&#x200B;을 즉시 미리 볼 수 있습니다. 그런 다음 모든 받은 편지함에서 이메일 콘텐츠가 제대로 표시되고 제대로 작동하는지 확인할 수 있습니다. 메시지 테스트 및 유효성 검사 방법에 대한 자세한 내용은 [이 섹션](../../content-management/preview-test.md)을 참조하세요.
+   [개인화 콘텐츠](../../personalization/personalize.md)를 삽입한 경우 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다. 또한 **Litmus** 계정을 [!DNL Journey Optimizer]에 활용하면 인기 있는 이메일 클라이언트에서 **이메일 렌더링**&#x200B;을 즉시 미리 볼 수 있습니다. 그런 다음 모든 받은 편지함에서 이메일 콘텐츠가 제대로 표시되고 제대로 작동하는지 확인할 수 있습니다. 메시지 테스트 및 유효성 검사 방법에 대한 자세한 내용은 [이 섹션](../../content-management/preview-test.md)을 참조하세요.
 
 1. **고객 여정 설계**&#x200B;를 통해 개인화된 컨텍스트 기반의 경험을 제공할 수 있습니다. [!DNL Journey Optimizer]을(를) 사용하면 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 구축할 수 있습니다. 다음 기능을 통해 여러 단계로 구성된 고급 시나리오를 설계할 수 있습니다.
 

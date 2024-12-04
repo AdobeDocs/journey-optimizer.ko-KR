@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2188'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -273,7 +273,7 @@ ht-degree: 98%
          + [단일 페이지 애플리케이션 작성](using/web/web-spa.md)
    + 코드 기반 경험 {#code-based-experience}
       + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)
-      + 코드 기반 채널 {#configure-code-based-channel} 구성
+      + 코드 기반 채널 구성 {#configure-code-based-channel}
          + [가드레일 및 사전 지식](using/code-based/code-based-prerequisites.md)
          + [코드 기반 경험 표면](using/code-based/code-based-surface.md)
          + [구현 방법 샘플](using/code-based/code-based-implementation-samples.md)
@@ -454,7 +454,7 @@ ht-degree: 98%
    + [경고](using/reports/alerts.md)
    + [제외 이유](using/reports/exclusion-list.md)
 + 결정 기능 {#decisioning}
-   + [의사 결정 기능 시작](using/experience-decisioning/gs-decision.md)
+   + [결정 기능 시작](using/experience-decisioning/gs-decision.md)
    + 의사 결정 {#experience-decisioning}
       + [결정 시작](using/experience-decisioning/gs-experience-decisioning.md)
       + API 참조{#api-reference}
@@ -486,8 +486,8 @@ ht-degree: 98%
          + [컨텍스트 데이터 ](using/experience-decisioning/context-data.md)
       + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
       + [결정 정책 만들기](using/experience-decisioning/create-decision.md)
-      + [의사 결정 보고서](using/experience-decisioning/cja-reporting.md)
-      + [의사 결정 사용 사례](using/experience-decisioning/experience-decisioning-uc.md)
+      + [결정 보고서](using/experience-decisioning/cja-reporting.md)
+      + [결정 사용 사례](using/experience-decisioning/experience-decisioning-uc.md)
    + 의사 결정 관리 {#offer-decisioning}
       + 의사 결정 관리 시작 {#get-started-decision}
          + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)

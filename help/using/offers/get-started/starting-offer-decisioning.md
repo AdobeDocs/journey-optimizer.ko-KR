@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c9efdf634831822e670257f6ee738310081a96fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 96%
 
 ## 반드시 알아야 할 사항 {#must-read}
 
-* 현재 의사 결정 관리에서는 개체 수준 액세스 제어, 필드 수준 액세스 제어 및 동의 정책 시행 서비스라는 기능을 지원하지 않습니다. 이러한 기능을 사용하려면 Journey Optimizer [Decisioning](../../experience-decisioning/gs-experience-decisioning.md) 기능을 사용하는 것이 좋습니다.
+* 현재 의사 결정 관리에서는 오브젝트 수준 액세스 제어, 필드 수준 액세스 제어, 동의 정책 시행 서비스 기능을 지원하지 않습니다. 이러한 기능을 사용하려면 Journey Optimizer [결정](../../experience-decisioning/gs-experience-decisioning.md) 기능을 사용하는 것을 고려해 보십시오.
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target="_blank"} 사용자가 **Offer Decisioning** 애플리케이션 서비스를 활용하면 이 섹션에서 설명하는 [의사 결정 관리] 기능을 모두 사용할 수 있습니다.
 

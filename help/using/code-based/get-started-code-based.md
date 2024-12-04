@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -77,18 +77,18 @@ ht-degree: 66%
 
 <!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
-* API 기반, Headless 또는 서버측 구현이 있는 경우 [!DNL Journey Optimizer] 웹 또는 인앱 채널 대신 코드 기반 채널을 사용할 수 있습니다.
+* API 기반, 헤드리스 또는 서버측 구현이 있는 경우 [!DNL Journey Optimizer] 웹 또는 인앱 채널 대신 코드 기반 채널을 사용할 수 있습니다.
 
 * 모달, 팝업 또는 오버레이를 표시하지 않고 기본 앱 내의 콘텐츠를 수정하려는 경우 기본 모바일 애플리케이션의 코드 기반 채널을 인앱 채널 대신 활용할 수도 있습니다.
 
 ### 코드 기반 채널과 웹 채널 비교 {#code-based-vs-web}
 
-웹 사용 사례를 실행하기 위해 웹 채널이나 코드 기반 경험을 사용할 수 있지만, 상황에 따라 하나가 다른 것보다 더 적합할 수 있습니다. 주요 차이점은 아래에 나열되어 있으므로 사용 방법과 시기에 대해 정보에 입각한 결정을 내릴 수 있습니다.
+웹 사용 사례를 실행하기 위해 웹 채널이나 코드 기반 경험을 사용할 수 있지만, 상황에 따라 하나가 다른 것보다 더 적합할 수 있습니다. 언제 무엇을 사용할지 결정하는 데 필요한 정보를 확인할 수 있도록 주요 차이점이 아래에 나열되어 있습니다.
 
 **웹**
 
-* [웹 디자이너](../web/web-visual-editor.md){target="_blank"} 비주얼 편집기 또는 웹 [비비주얼 편집기](../web/web-non-visual-editor.md)를 사용하여 콘텐츠를 편집합니다.
-* 클라이언트측 구현인 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}가 필요합니다.
+* [웹 디자이너](../web/web-visual-editor.md){target="_blank"} 시각적 편집기 또는 웹 [비시각적 편집기](../web/web-non-visual-editor.md)를 사용하여 콘텐츠를 편집합니다.
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}(클라이언트측 구현)가 필요합니다.
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * 웹 채널에서는 페이지의 모든 내용을 수정할 수 있으며 변경할 수 있는 사전 정의된 작업 목록이 있습니다. [자세히 알아보기](../web/web-visual-editor.md){target="_blank"}
 * 쉽게 설정하고 빠르게 진행할 수 있습니다.
@@ -97,7 +97,7 @@ ht-degree: 66%
 **코드 기반 경험**
 
 * [개인화 편집기](create-code-based.md#edit-code)를 사용하여 콘텐츠를 편집합니다.
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} - 클라이언트측 구현 또는 [AEP Edge Network 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} - 서버측 구현이 필요합니다.
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}(클라이언트측 구현) 또는 [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR){target="_blank"}(서버측 구현)가 필요합니다.
 * 코드 기반 경험에서는 구현에 대해 기존 개발 작업이 필요합니다. 이는 애플리케이션이 [!DNL Journey Optimizer]에서 해당 위치에 대해 Edge로 게시된 콘텐츠를 해석 및 게재할 수 있게 하기 위해서입니다. [자세히 알아보기](code-based-surface.md)
 * 더 많은 계획이 필요하고 개발자가 지정하는 사항만 변경할 수 있습니다. 따라서 개인화 또는 테스트를 위해 수정해야 하는 애플리케이션의 구성 요소(홈 배너, 히어로 이미지, 메뉴 표시줄 등)를 식별하고 개발 팀과 협력하여 이러한 변경 사항을 처리하는 데 필요한 구현을 구축하는 것이 중요합니다.
 * JSON 코드 콘텐츠를 사용할 수 있습니다.
@@ -115,11 +115,11 @@ ht-degree: 66%
 >
 >현재 구성과 연결된 콘텐츠는 HTML 또는 JSON으로만 설정할 수 있습니다. 
 
-코드 기반 경험을 만들고 제공하는 주요 단계는 다음과 같습니다.
+코드 기반 경험을 만들고 게재하는 주요 단계는 다음과 같습니다.
 
 1. 채널별 사전 요구 사항을 준수해야 합니다. [자세히 알아보기](code-based-prerequisites.md)
 
-1. 응용 프로그램 구현에서 기본적으로 환경을 추가하려는 위치인 [표면](code-based-surface.md#surface-definition)을(를) 정의합니다.
+1. 애플리케이션 구현에서 [표면](code-based-surface.md#surface-definition)을 정의합니다. 표면이란 환경을 추가할 위치입니다.
 
 1. 해당 위치를 참조하는 코드 기반 채널 구성을 만듭니다. [방법 알아보기](code-based-configuration.md#create-code-based-configuration)
 
@@ -129,13 +129,13 @@ ht-degree: 66%
 
 1. 코드 기반 경험을 테스트합니다. [방법 알아보기](test-code-based.md)
 
-1. Publish. [방법 알아보기](publish-code-based.md)
+1. 게시합니다. [방법 알아보기](publish-code-based.md)
 
-1. 코드 기반 경험 여정 또는 캠페인이 라이브되면 콘텐츠를 검색하고 표시하려면 표면에 콘텐츠를 요청하는 앱 또는 페이지 구현이 있어야 합니다.
+1. 코드 기반 경험 여정 또는 캠페인이 시작된 후 콘텐츠를 검색하고 표시하려면 표면에 표시할 콘텐츠를 요청하는 앱 또는 페이지 구현이 있어야 합니다.
 
    >[!INFO]
    >
-   >이를 위해 앱 구현 팀은 코드 기반 구성에 정의된 표면(예: &quot;배너 텍스트&quot; 또는 &quot;Recommendations 트레이 1&quot;)에 대한 콘텐츠 또는 애플리케이션의 비 UI 관련 의사 결정 지점(예: &quot;검색 알고리즘 매개 변수&quot;)을 가져오기 위해 명시적 API 또는 SDK 호출을 수행합니다. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [자세히 알아보기](code-based-implementation-samples.md)
+   >이를 위해 앱 구현 팀은 “배너 텍스트” 또는 “권장 사항 트레이 1”과 같이 코드 기반 구성에서 정의된 표면에 사용할 콘텐츠나, “검색 알고리즘 매개변수”와 같이 애플리케이션의 UI 관련이 아닌 결정 지점에 사용할 콘텐츠를 가져오기 위해 명시적 API 또는 SDK 호출을 수행합니다. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [자세히 알아보기](code-based-implementation-samples.md)
 
 
 

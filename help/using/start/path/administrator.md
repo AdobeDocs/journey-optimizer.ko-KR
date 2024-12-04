@@ -8,42 +8,42 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 13cbb0877326b772c3750bd3339e21eee5c3f323
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # 시스템 관리자용 시작하기 {#get-started-sys-admins}
 
-[!DNL Adobe Journey Optimizer]을(를) 시작하기 전에 환경을 준비하는 데 필요한 몇 가지 단계가 있습니다.  [데이터 엔지니어](data-engineer.md) 및 [여정 실무자](marketer.md)가 [!DNL Adobe Journey Optimizer](으)로 작업을 시작할 수 있도록 다음 단계를 수행해야 합니다.
+[!DNL Adobe Journey Optimizer]을(를) 시작하기 전에 환경을 준비하는 데 필요한 몇 가지 단계가 있습니다.  [데이터 엔지니어](data-engineer.md) 및 [여정 실무자](marketer.md)가 [!DNL Adobe Journey Optimizer]&#x200B;(으)로 작업할 수 있도록 이 단계를 수행해야 합니다.
 
-**시스템 관리자**&#x200B;로서 샌드박스 관리 및 채널 구성을 위해 **역할을 이해하고 권한을 할당**&#x200B;해야 합니다. 또한 사용 가능한 역할에 대해 샌드박스를 설정하고 관리해야 합니다. 그러면 팀원을 역할에 할당할 수 있습니다.
+**시스템 관리자**&#x200B;는 샌드박스 관리 및 채널 구성을 위해 **역할을 이해하고 권한을 할당**&#x200B;해야 합니다. 또한 사용 가능한 역할에 대해 샌드박스를 설정하고 관리해야 합니다. 그러면 팀원을 역할에 할당할 수 있습니다.
 
-권한 제품에 액세스할 수 있는 **[!UICONTROL 제품 관리자]**&#x200B;가 이러한 기능을 관리할 수 있습니다. [권한에 대해 자세히 알아보세요](../../administration/permissions.md){target="_blank"}.
+이 기능은 Permissions 제품에 액세스할 수 있는 **[!UICONTROL 제품 관리자]**&#x200B;가 관리할 수 있습니다. [Permissions에 대해 자세히 알아보십시오](../../administration/permissions.md){target="_blank"}.
 
-다음 페이지에서 액세스 관리에 대해 알아보세요.
+다음 페이지에서 액세스 관리에 대해 알아보십시오.
 
-1. **샌드박스를 생성**&#x200B;하여 인스턴스를 별도의 격리된 가상 환경으로 분할합니다. **샌드박스**&#x200B;는 [!DNL Journey Optimizer]에서 생성됩니다. [샌드박스](../../administration/sandboxes.md) 섹션에서 자세히 알아보세요.
+1. **샌드박스를 생성**&#x200B;하여 인스턴스를 별도의 격리된 가상 환경으로 분할합니다. **샌드박스**&#x200B;는 [!DNL Journey Optimizer]에서 생성됩니다. [샌드박스](../../administration/sandboxes.md) 섹션에서 자세히 알아보십시오.
 
    >[!NOTE]
-   >**시스템 관리자**&#x200B;로서 [!DNL Journey Optimizer]에 **[!UICONTROL 샌드박스]** 메뉴가 표시되지 않으면 사용 권한을 업데이트해야 합니다. [이 페이지](../../administration/permissions.md#edit-product-profile)에서 역할을 업데이트하는 방법을 알아보세요.
+   >**시스템 관리자**&#x200B;인데 [!DNL Journey Optimizer]에 **[!UICONTROL 샌드박스]** 메뉴가 표시되지 않는 경우 사용 권한을 업데이트해야 합니다. [이 페이지](../../administration/permissions.md#edit-product-profile)에서 역할을 업데이트하는 방법을 알아보십시오.
 
-1. **역할 이해**. 역할은 사용자가 인터페이스의 특정 기능이나 개체에 액세스할 수 있도록 하는 통합된 권한 세트입니다. [기본 역할](../../administration/ootb-product-profiles.md) 섹션에서 자세히 알아보세요.
+1. **역할 이해**. 역할은 사용자가 인터페이스의 특정 기능이나 개체에 액세스할 수 있도록 하는 통합된 권한 세트입니다. 자세한 내용은 [기본 제공 역할](../../administration/ootb-product-profiles.md) 섹션을 참조하십시오.
 
-1. **샌드박스**&#x200B;를 포함하여 역할에 대해 **권한을 설정**&#x200B;하고 팀원을 다른 역할에 할당하여 액세스 권한을 부여합니다. 권한은 **[!UICONTROL Role]**&#x200B;에 할당된 권한을 정의할 수 있는 단일 권한입니다. 각 권한은 [!DNL Journey Optimizer]의 다양한 기능 또는 개체를 나타내는 기능(예: 여정 또는 오퍼) 아래에 수집됩니다. 자세한 내용은 [권한 수준](../../administration/high-low-permissions.md) 섹션을 참조하세요.
+1. 역할에 **샌드박스**&#x200B;를 포함한 **권한을 설정**&#x200B;하고 팀원을 다른 역할에 할당하여 액세스 권한을 부여합니다. 권한은 **[!UICONTROL 역할]**&#x200B;에 할당된 사용 권한을 정의할 수 있는 단일 직권입니다. 각 권한은 [!DNL Journey Optimizer]의 다양한 기능 또는 개체를 나타내는 기능(예: 여정 또는 오퍼) 아래에 수집됩니다. 자세한 내용은 [권한 수준](../../administration/high-low-permissions.md) 섹션을 참조하십시오.
 
-또한 Assets Essentials에 액세스해야 하는 사용자를 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 역할에 추가해야 합니다. [Assets Essentials 설명서에서 자세히 읽어 보세요](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"}.
+또한 Assets Essentials에 액세스해야 하는 사용자를 **Assets Essentials 소비자 사용자**&#x200B;나 **Assets Essentials 사용자** 역할 또는 둘 다에 추가해야 합니다. [Assets Essentials 설명서에서 자세히 읽어 보십시오](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"}.
 
 >[!NOTE]
->2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"} 섹션에서 자세히 알아보세요.
+>2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"} 섹션에서 자세히 알아보십시오.
 
 [!DNL Journey Optimizer]에 처음 액세스하면 프로덕션 샌드박스가 프로비저닝되고 계약에 따라 특정 수의 IP가 할당됩니다.
 
 여정을 만들고 메시지를 보내려면 **관리** 메뉴에 액세스합니다. **[!UICONTROL 채널]** 메뉴를 탐색하여 메시지와 채널 구성(예: 메시지 사전 설정)을 구성합니다.
 
 >[!NOTE]
->**시스템 관리자**&#x200B;로서 [!DNL Journey Optimizer]에 **[!UICONTROL 채널]** 메뉴가 표시되지 않으면 [권한](../../administration/permissions.md){target="_blank"} 제품에서 사용 권한을 업데이트하세요.
+>**시스템 관리자**&#x200B;인데 [!DNL Journey Optimizer]에서 **[!UICONTROL 채널]** 메뉴를 확인할 수 없는 경우 [Permissions](../../administration/permissions.md){target="_blank"} 제품에서 권한을 업데이트합니다.
 >
 
 아래 단계를 따릅니다.
@@ -52,7 +52,7 @@ ht-degree: 68%
 
    * [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch] 모두에서 **푸시 알림 설정**&#x200B;을 정의합니다. [자세히 알아보기](../../push/push-gs.md)
 
-   * 이메일, SMS, 푸시 알림에 필요한 모든 기술 매개 변수를 구성하려면 **채널 구성**(즉, 메시지 사전 설정)을 만듭니다. [자세히 알아보기](../../configuration/channel-surfaces.md)
+   * 이메일, SMS, 푸시 알림에 필요한 모든 기술 매개 변수를 구성하려면 **채널 구성**&#x200B;(즉, 메시지 사전 설정)을 만듭니다. [자세히 알아보기](../../configuration/channel-surfaces.md)
 
    * SMS에 필요한 모든 기술 매개 변수를 구성하려면 **SMS 채널**&#x200B;을 구성합니다. [자세히 알아보기](../../sms/sms-configuration.md)
 
