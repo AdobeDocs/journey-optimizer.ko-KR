@@ -37,7 +37,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
 >title="규칙 유형"
->abstract="규칙의 캡핑 유형을 지정합니다. **[!UICONTROL 여정 입력 캡]**&#x200B;은 프로필의 특정 기간 동안 여정에 대한 입력 횟수를 제한하는 반면, **[!UICONTROL 여정 동시성 캡]**&#x200B;은 프로필이 동시에 등록할 수 있는 여정의 수를 제한합니다."
+>abstract="규칙의 캡핑 유형을 지정합니다. **[!UICONTROL 여정 입력 캡]**&#x200B;은 프로필의 특정 기간 동안 여정에 대한 입력 횟수를 제한하는 반면 **[!UICONTROL 여정 동시성 캡]**&#x200B;은 프로필이 동시에 등록할 수 있는 여정의 수를 제한합니다."
 
 여정 최대 가용량 규칙을 만들려면 다음 단계를 수행합니다.
 
@@ -122,6 +122,6 @@ ht-degree: 23%
 
 ![](assets/journey-report.png)
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

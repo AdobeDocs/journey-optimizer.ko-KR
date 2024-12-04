@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 6%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="액세스 관리 레이블"
->abstract="액세스 레이블에 따라 이 캠페인에 대한 액세스를 제한할 수 있습니다. 액세스 제한을 추가하려면 이 페이지 상단의 **액세스 관리** 단추를 찾아보십시오. 사용 권한이 있는 레이블만 선택해야 합니다."
+>abstract="액세스 레이블에 따라 이 캠페인에 대한 액세스를 제한할 수 있습니다. 액세스 제한을 추가하려면 이 페이지 상단의 **액세스 관리** 버튼을 찾습니다. 권한이 있는 레이블만 선택해야 합니다."
 
 OLAC(객체 수준 액세스 제어) 기능을 사용하면 다양한 객체에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다.
 

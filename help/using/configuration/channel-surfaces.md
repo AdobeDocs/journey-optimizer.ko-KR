@@ -272,7 +272,7 @@ ht-degree: 12%
 ![](assets/preset-activate.png)
 
 
-## 방법 비디오{#video-presets}
+## 사용 방법 비디오{#video-presets}
 
 채널 구성의 정의와 Adobe Journey Optimizer에서 이를 사용하는 방법을 알아봅니다.
 

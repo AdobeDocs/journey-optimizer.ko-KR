@@ -5,10 +5,11 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: e9181c333fb9188cdfcee3fd96c1d3bb94b8dd75
+exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
+source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 52%
 >id="ajo_admin_surface_uri"
 >title="구성 요소에 대한 표면 URI 추가"
 >abstract="구현이 웹, iOS 또는 Android용이 아니거나 특정 URI를 타기팅해야 하는 경우, 경험을 게재하려는 엔티티를 가리키는 고유 식별자인 표면 URI를 입력하십시오. 자체 구현에 사용된 것과 일치하는 표면 URI를 입력해야 합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="다른 플랫폼을 위한 코드 기반 경험 구성 만들기"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="다른 플랫폼을 위한 코드 기반 경험 구성 만들기"
 
 코드 기반 경험 **surface**&#x200B;은(는) 사용자 또는 시스템 상호 작용을 위해 디자인된 모든 엔터티이며 [URI](#surface-uri)로 고유하게 식별됩니다. 표면은 [응용 프로그램 구현](code-based-prerequisites.md#implementation-prerequisites)에 지정되어 있으며 [코드 기반 경험 채널 구성](code-based-configuration.md)에서 참조된 표면과 일치해야 합니다.
 
@@ -72,7 +73,7 @@ ht-degree: 52%
 [!DNL Journey Optimizer]에서 코드 기반 경험 채널은 두 가지 유형의 고객 구현을 지원합니다.
 
 * 웹 사이트용 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} 또는 모바일 앱용 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}를 기반으로 합니다.
-* [AEP Edge Network 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"}를 사용하는 서버측 또는 하이브리드.
+* [AEP Edge Network 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR){target="_blank"}를 사용하는 서버측 또는 하이브리드.
 
 >[!NOTE]
 >
