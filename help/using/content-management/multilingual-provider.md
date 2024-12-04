@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
+source-git-commit: 424ebfb3670396d91c4b15b670eda26dc999699b
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Adobe Journey Optimizer은 Adobe Journey Optimizer과 별도로 기계 번역 �
 
    >[!NOTE]
    >
-   >목록에 공급자를 추가하려면 공급자에게 [이 문서](https://developer.adobe.com/gcs/partner/)에 설명된 지침에 따라 온보딩 프로세스를 완료하도록 요청할 수 있습니다.
+   >목록에 새 **공급자**&#x200B;를 추가하려면 **공급자**&#x200B;에게 [이 문서](https://developer.adobe.com/gcs/partner/)에 설명된 지침에 따라 온보딩 프로세스를 완료하도록 요청할 수 있습니다.
 
    ![](assets/provider_2.png)
 
