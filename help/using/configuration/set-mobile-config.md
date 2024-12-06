@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
+source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 
 +++
 
-* 기존 구성 옵션을 사용 중인 경우 다음 Adobe Experience Platform Mobile SDK 확장 버전을 사용 중인지 확인해야 합니다. 필요한 종속성 및 초기화 코드를 포함한 SDK 설정에 대한 자세한 내용은 [다음 설명서](https://experienceleague.adobe.com/ko/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=ko)를 참조하십시오.
+* 기존 구성 옵션을 사용 중인 경우 다음 Adobe Experience Platform Mobile SDK 확장 버전을 사용 중인지 확인해야 합니다. 필요한 종속성 및 초기화 코드를 포함한 SDK 설정에 대한 자세한 내용은 [다음 설명서](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)를 참조하십시오.
 
   Android용
 
