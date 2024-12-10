@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 개인화에 Adobe Experience Platform 데이터 사용(Beta)
+title: 개인화(Beta)에 Adobe Experience Platform 데이터 사용
 description: 개인화에 Adobe Experience Platform 데이터를 사용하는 방법을 알아봅니다.
 feature: Personalization, Rules
 topic: Personalization
@@ -9,14 +9,14 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: cb7842209e03c579904979480304e543a6b50f50
+source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 0%
+source-wordcount: '1044'
+ht-degree: 2%
 
 ---
 
-# 개인화에 Adobe Experience Platform 데이터 사용(Beta) {#aep-data}
+# 개인화(Beta)에 Adobe Experience Platform 데이터 사용 {#aep-data}
 
 >[!AVAILABILITY]
 >
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >이 기능을 사용하려면 먼저 개인화 편집기에서 새 &quot;datasetLookup&quot; 도우미 함수를 추가할 때 표시되는 조직의 Beta 용어를 수락해야 합니다.
 
-Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 [콘텐츠를 개인 맞춤화](../personalization/personalize.md)할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 아래 설명된 대로 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer](으)로 개인화할 수 있습니다.
+Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 [콘텐츠를 개인 맞춤화](../personalization/personalize.md)할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 아래 설명된 대로 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer]&#x200B;(으)로 개인화할 수 있습니다.
 
 ## Beta 제한 사항 및 지침 {#guidelines}
 
@@ -40,7 +40,7 @@ Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Pla
 
 ### [!DNL Adobe Experience Platform] 데이터를 사용하는 Personalization {#perso}
 
-* **지원되는 채널**: 현재 이 기능은 전자 메일, SMS, 푸시 및 DM 채널 내에서만 사용할 수 있습니다.
+* **지원되는 채널**: 현재 이 기능은 전자 메일, SMS 및 DM 채널 내에서만 사용할 수 있습니다.
 * **데이터 사용 레이블 지정 및 적용**&#x200B;은 현재 조회를 위해 활성화된 데이터 세트에 대해 적용되지 않습니다.
 * **식 조각**: 지금은 식 조각 내에 데이터 집합 조회 개인화를 배치할 수 없습니다.
 
@@ -73,6 +73,17 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 * **API 키**&#x200B;는 개발자 콘솔에서 검색할 수 있습니다.
 * **IMS 조직 ID**&#x200B;은(는) Adobe IMS 조직입니다.
 * **샌드박스 이름**&#x200B;은(는) 데이터 세트가 있는 샌드박스 이름입니다(예: prod, dev 등).
+
+>[!NOTE]
+>
+>데이터 세트를 활성화하기 위해 API 호출을 시도할 때 아래 오류가 발생하는 경우 개발자 콘솔 프로젝트에서 Adobe Journey Optimizer API를 제거한 다음 다시 추가해 보십시오.
+>
+>```
+>
+>"error_code": "403003", 
+>"message": "Api Key is invalid"
+>
+>```
 
 ## 개인화를 위한 데이터 세트 활용 {#leverage}
 
