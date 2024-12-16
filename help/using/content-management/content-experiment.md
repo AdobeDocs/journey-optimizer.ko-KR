@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 84cb51a3fdb01fab0b23289993bbcdd30c68cd01
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '729'
 ht-degree: 12%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="콘텐츠 실험"
->abstract="여러 처리를 정의하고 대상자에게 가장 적합한 조합을 결정하기 위해 메시지 콘텐츠, 제목 또는 보낸 사람을 변경하도록 선택할 수 있습니다."
+>abstract="메시지 콘텐츠, 제목 또는 보낸 사람을 다양하게 선택하여 여러 가지 처리 방식을 정의하고 대상자에게 가장 적합한 조합을 결정할 수 있습니다."
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 
 ## 콘텐츠 만들기 {#campaign-experiment}
 
-1. 요구 사항에 따라 이메일, SMS 또는 푸시 알림 [campaign](../campaigns/create-campaign.md) 또는 [여정](../building-journeys/journeys-message.md)을(를) 만들고 구성하는 것부터 시작합니다.
+1. 먼저 요구 사항에 따라 [campaign](../campaigns/create-campaign.md) 또는 [여정](../building-journeys/journeys-message.md)을(를) 만들고 구성합니다.
 
 1. **[!UICONTROL 콘텐츠 편집]** 창에서 치료 A 개인화를 시작하십시오.
 
