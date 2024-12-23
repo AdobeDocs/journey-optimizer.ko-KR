@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cb7e2e209872176c67020add47242f95a7304c6c
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 28%
+source-wordcount: '1312'
+ht-degree: 26%
 
 ---
 
@@ -97,16 +97,15 @@ Adobe Journey Optimizer을 사용하면 이메일 헤더에 자동 생성된 원
 
    링크를 개인화할 수 있습니다. [이 섹션](../personalization/personalization-syntax.md)에서 URL 개인화에 대해 자세히 알아보십시오.
 
-1. 채널, 신원 또는 구독 등 어느 수준에 옵트아웃을 적용할지 선택합니다.
+1. 채널, ID 또는 구독 등 어느 수준에 옵트아웃을 적용할지 선택합니다.
 
    ![](assets/message-tracking-opt-out-level.png)
 
    * **[!UICONTROL 채널]**: 옵트아웃은 현재 채널의 프로필 대상(즉, 이메일 주소)으로 전송된 이후 메시지에 적용됩니다. 여러 대상이 프로필과 연결되어 있는 경우 옵트아웃은 해당 채널에 대한 프로필의 모든 타겟(즉, 이메일 주소)에 적용됩니다.
    * **[!UICONTROL ID]**: 옵트아웃은 현재 메시지에 사용 중인 특정 대상(즉, 이메일 주소)에 전송된 이후 메시지에 적용됩니다.
-   * **[!UICONTROL 구독]**: 옵트아웃은 특정 구독 목록과 연관된 이후 메시지에 적용됩니다. 이 옵션은 현재 메시지가 구독 목록과 연결된 경우에만 선택할 수 있습니다.
+     <!--* **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.-->
 
 1. 변경 내용을 저장합니다.
-
 
 
 ## 2단계 옵트아웃 {#opt-out-external-lp}
