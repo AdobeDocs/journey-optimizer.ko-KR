@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2193'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -304,7 +304,7 @@ ht-degree: 99%
       + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
 + 콘텐츠 관리 {#content-management}
-   + [Adobe Experience Manager 컨텐츠 조각](using/content-management/aem-fragments.md)
+   + [Adobe Experience Manager 콘텐츠 조각](using/content-management/aem-fragments.md)
    + AI 어시스턴트 작업{#ai-assistant}
       + [AI 어시스턴트 콘텐츠 가속기 시작](using/content-management/gs-generative.md)
       + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)

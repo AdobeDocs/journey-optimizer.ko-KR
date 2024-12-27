@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 ## 2024년 12월 {#nov-2024}
 
-* Adobe Experience Platform 데이터를 사용하여 개인화할 데이터 세트를 활성화하기 위해 API를 호출할 때 발생할 수 있는 오류 메시지를 해결하는 데 도움이 되는 메모가 추가되었습니다. [자세히 보기](../personalization/lookup-aep-data.md)
+* Adobe Experience Platform 데이터를 사용하여 개인화할 데이터 세트를 활성화하기 위한 API 호출 수행 시 발생할 수 있는 오류 메시지를 해결하는 데 도움이 되는 메모가 추가되었습니다. [자세히 보기](../personalization/lookup-aep-data.md)
 
 ## 2024년 10월 {#oct-2024}
 
@@ -370,7 +370,7 @@ ht-degree: 99%
 
 * [!DNL Journey Optimizer] 2022년 3월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
 * AI 모델을 시작하는 방법에 대한 새 페이지를 **Offer Decisioning** 섹션에 추가했습니다. AI 모델이 사용하는 알고리즘인 [자동 최적화 모델](../offers/ranking/auto-optimization-model.md)에 대한 자세한 설명과 보다 기술적인 세부 정보도 제공합니다. [자세히 보기](../offers/ranking/ai-models.md)
-* 테스트 프로필 만들기 페이지를 **대상자, 프로필, 신원** 섹션으로 옮겼습니다. [자세히 보기](../audience/creating-test-profiles.md)
+* 테스트 프로필 만들기 페이지를 **대상자, 프로필, ID** 섹션으로 옮겼습니다. [자세히 보기](../audience/creating-test-profiles.md)
 * 표현식 편집기에서 표현식을 기본값으로 추가하는 방법에 대한 예를 추가했습니다. [자세히 보기](../building-journeys/expression/field-references.md#default-value)
 * 읽기 쉽도록 **개인화된 오퍼 만들기** 섹션을 재구성했습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md)
 * 오퍼의 시작 및/또는 종료 날짜를 변경할 경우 이 오퍼의 게재 빈도 설정에 발생할 수 있는 영향을 설명하는 새 섹션이 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping-change-date)
