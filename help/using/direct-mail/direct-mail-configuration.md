@@ -41,7 +41,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="파일 라우팅 구성 정의"
->abstract="DM 공급자가 사용하려는 파일을 내보낼 위치를 정의해야 합니다."
+>abstract="DM 제공자가 사용할 파일을 내보낼 위치를 정의해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"

@@ -141,7 +141,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="상한 설정 사용"
->abstract="고객에게 과도하게 요청하지 않으려면 상한 설정을 사용하여 오퍼를 제시할 수 있는 최대 횟수를 정의합니다. 특정 오퍼에 대해 최대 10개의 상한 규칙을 만들 수 있습니다."
+>abstract="고객에게 과도하게 요청하지 않으려면 상한 설정을 사용하여 오퍼를 제시할 수 있는 최대 횟수를 정의합니다. 특정 오퍼에 대해 최대 10개의 상한 설정 규칙을 만들 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="날짜 변경은 상한 설정에 영향을 미칠 수 있음"
 
 한도는 오퍼를 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다. 사용자가 특정 오퍼를 받는 횟수를 제한하면 고객에게 과다 청탁을 하지 않고 최상의 오퍼로 각 접점을 최적화할 수 있습니다.
@@ -241,12 +241,12 @@ ht-degree: 16%
 
 예를 들어, 체크아웃 수를 고려하는 사용자 정의 캡핑 이벤트를 정의했습니다. **[!UICONTROL 최대 개수 제한]** 필드에 10을 입력하면 10회 체크아웃 후에는 더 이상 오퍼가 전송되지 않습니다.
 
-### 빈도 설정 {#frequency-capping}
+### 빈도 상한 설정 {#frequency-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="상한 빈도 설정"
->abstract="오퍼 상한 설정 카운터를 매일, 매주 또는 매월 재설정하도록 선택할 수 있습니다. 빈도 설정이 활성화된 오퍼를 게시한 후에는 이미 정의된 빈도를 변경할 수 없다는 점을 참고합니다."
+>title="상한 설정 빈도 설정"
+>abstract="오퍼 상한 설정 카운터를 매일, 매주 또는 매월 재설정하도록 선택할 수 있습니다. 빈도 상한 설정이 활성화된 오퍼를 게시한 후에는 이미 정의된 빈도를 변경할 수 없다는 점을 참고합니다."
 
 **[!UICONTROL 최대 가용량 재설정]** 필드를 사용하면 최대 가용량 횟수가 재설정되는 빈도를 정의할 수 있습니다. 이렇게 하려면 계산 기간(일별, 주별 또는 월별)을 정의하고 선택한 일/주/개월을 입력합니다. 예를 들어 2주마다 최대 가용량 수를 재설정하려면 해당 드롭다운 목록에서 **[!UICONTROL 주별]**&#x200B;을 선택하고 다른 필드에 **2**&#x200B;을(를) 입력하십시오.
 

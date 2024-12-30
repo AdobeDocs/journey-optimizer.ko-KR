@@ -27,7 +27,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
 >title="하위 도메인 위임"
->abstract="이메일 전송을 시작하려면 하위 도메인을 Adobe에 위임해야 합니다. 이 과정이 완료되면 DNS 레코드, 받은 편지함, 발신자, 주소 회신과 바운스 주소가 구성됩니다."
+>abstract="이메일 전송을 시작하려면 하위 도메인을 Adobe에 위임해야 합니다. 이 과정이 완료되면 DNS 레코드, 받은 편지함, 발신자, 회신 주소와 바운스 주소가 구성됩니다."
 
 도메인 이름 위임은 도메인 이름(기술적으로 DNS 영역)의 소유자가 그 하위 분할(기술적으로 하위 영역이라고 할 수 있는 하위 DNS 영역)을 다른 엔티티에 위임할 수 있는 방법입니다. 기본적으로 고객은 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다. [하위 도메인 위임](about-subdomain-delegation.md)에 대해 자세히 알아보기
 
@@ -225,7 +225,7 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 1. **PTR 레코드 만들기**: 이메일을 스팸으로 표시하지 않도록 ISP에서 PTR 레코드(역방향 DNS 레코드라고도 함)가 필요합니다. 또한 Gmail에서는 각 IP에 대해 PTR 레코드를 사용할 것을 권장합니다. Adobe은 각 IP에 대해 하나씩, 하위 도메인을 가리키는 모든 IP에 대해 처음으로 하위 도메인을 위임할 때만 PTR 레코드를 생성합니다. 예를 들어 IP가 *192.1.2.1*&#x200B;이고 하위 도메인이 *email.example.com*&#x200B;인 경우 PTR 레코드는 *192.1.2.1 PTR r1.email.example.com*&#x200B;이 됩니다. 이후 PTR 레코드를 업데이트하여 새 위임된 도메인을 가리킬 수 있습니다. [PTR 레코드에 대한 자세한 정보](ptr-records.md)
 
-## 방법 비디오{#video}
+## 사용 방법 비디오{#video}
 
 CNAME을 사용하여 Adobe 관련 레코드를 가리키도록 하위 도메인을 만드는 방법을 알아봅니다.
 
