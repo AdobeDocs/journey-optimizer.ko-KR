@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 기본, 실행, 이메일, 타겟, 프로필, 최적화 도구
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 18%
+source-wordcount: '484'
+ht-degree: 16%
 
 ---
 
@@ -66,7 +66,15 @@ ht-degree: 18%
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## 여정 매개 변수에서 값 재정의 {#journey-parameters}
+## 기본값 재정의 {#override-default-execution-address}
+
+### 이메일 구성에서
+
+이메일 채널 구성을 정의할 때 샌드박스 수준에서 설정된 기본 실행 필드를 변경할 수 있습니다. [자세히 알아보기](../email/email-settings.md#execution-address)
+
+실행 주소가 구성 수준에서 정의된 경우 기본 주소로 사용되며 샌드박스 수준의 일반 설정을 무시합니다.
+
+### 여정 매개 변수에서 {#journey-parameters}
 
 특정 사용 사례의 경우에만 전역적으로 설정된 실행 필드를 재정의하고 여정 수준(특히 이메일 채널)에서 다른 값을 정의할 수 있습니다.
 
@@ -84,3 +92,4 @@ ht-degree: 18%
 
 * 이메일을 테스트합니다. 자신의 이메일 주소를 추가할 수 있습니다. 여정을 게시하면 이메일이 전송됩니다.
 * 목록의 구독자에게 이메일을 보냅니다. [사용 사례](../building-journeys/message-to-subscribers-uc.md)를 자세히 알아보십시오.
+

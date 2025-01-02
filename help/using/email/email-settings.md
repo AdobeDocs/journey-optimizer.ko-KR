@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 10%
+source-wordcount: '2687'
+ht-degree: 11%
 
 ---
 
@@ -340,3 +340,26 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL 이름]** 및 **[!UICO
 >[!NOTE]
 >
 >이메일 콘텐츠에 있는 링크에 동적 개인화된 추적 매개 변수를 추가할 수도 있지만, 구성 수준에서는 가능하지 않습니다. 이메일 디자이너를 사용하여 메시지를 작성할 때 이 작업을 수행해야 합니다. [자세히 알아보기](message-tracking.md#url-tracking)
+
+## 실행 주소 {#execution-address}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="사용할 주소 정의"
+>abstract="데이터베이스에서 여러 이메일 주소 또는 전화번호를 사용하는 경우(개인용, 업무용 등) 전송의 우선순위를 지정할 수 있는 항목을 선택할 수 있습니다."
+
+프로필을 타겟팅하면 데이터베이스에서 여러 이메일 주소(전문 이메일 주소, 개인 이메일 주소 등)를 사용할 수 있습니다.
+
+이 경우 [!DNL Journey Optimizer]은(는) 샌드박스 수준의 **[!UICONTROL 실행 필드]**&#x200B;에 지정된 주소를 사용하여 우선 순위의 프로필 서비스에서 사용할 전자 메일 주소를 결정합니다. [자세히 알아보기](../configuration/primary-email-addresses.md)
+
+>[!NOTE]
+>
+>현재 기본적으로 사용되는 필드를 확인하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 실행 필드]** 메뉴에 액세스합니다.
+
+하지만 이메일 채널 구성 수준에서 이 기본 실행 필드를 변경할 수 있습니다.
+
+이렇게 하려면 **[!UICONTROL 배달 주소]** 필드를 편집하고 사용 가능한 전자 메일 유형 XDM 필드 목록에서 항목을 선택하십시오.
+
+![](assets/email-config-delivery-address.png)
+
+실행 필드가 업데이트되고 기본 주소로 사용됩니다. 샌드박스 수준의 일반 설정보다 우선합니다.
