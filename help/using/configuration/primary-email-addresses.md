@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 기본, 실행, 이메일, 타겟, 프로필, 최적화 도구
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '483'
 ht-degree: 16%
 
 ---
@@ -66,17 +66,17 @@ ht-degree: 16%
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## 기본값 재정의 {#override-default-execution-address}
+## 기본 실행 필드 재정의 {#override-default-execution-address}
+
+특정 사용 사례의 경우 전역적으로 설정된 실행 필드를 재정의하고 이메일 구성 수준 또는 여정 수준에서 다른 값을 정의할 수 있습니다.
 
 ### 이메일 구성에서
 
-이메일 채널 구성을 정의할 때 샌드박스 수준에서 설정된 기본 실행 필드를 변경할 수 있습니다. [자세히 알아보기](../email/email-settings.md#execution-address)
+전자 메일 채널 구성을 정의할 때 [일반 설정](#admin-settings)에서 설정된 기본 실행 필드를 변경할 수 있습니다. [자세히 알아보기](../email/email-settings.md#execution-address)
 
-실행 주소가 구성 수준에서 정의된 경우 기본 주소로 사용되며 샌드박스 수준의 일반 설정을 무시합니다.
+전자 메일 구성에 실행 주소가 정의된 경우 이 주소는 기본 주소로 사용되며 샌드박스 수준의 일반 설정을 무시합니다.
 
 ### 여정 매개 변수에서 {#journey-parameters}
-
-특정 사용 사례의 경우에만 전역적으로 설정된 실행 필드를 재정의하고 여정 수준(특히 이메일 채널)에서 다른 값을 정의할 수 있습니다.
 
 [여정](../email/create-email.md#create-email-journey-campaign)에 **[!UICONTROL 전자 메일]** 작업을 추가하면 기본 전자 메일 주소가 여정 고급 매개 변수 아래에 표시됩니다.
 
