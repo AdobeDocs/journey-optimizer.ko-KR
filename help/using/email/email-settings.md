@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2724'
 ht-degree: 10%
 
 ---
@@ -63,9 +63,7 @@ ht-degree: 10%
 
 도메인의 평판을 유지하려면 IP 준비 프로세스를 가속화하고 게재 능력을 향상시키려면 보내는 하위 도메인을 Adobe에 위임하십시오. [자세히 알아보기](../configuration/about-subdomain-delegation.md)
 
-
 ## IP 풀 세부 정보 {#ip-pools}
-
 
 구성과 연결할 IP 풀을 선택하십시오. [자세히 알아보기](../configuration/ip-pools.md)
 
@@ -83,10 +81,9 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 >
 >PTR 기록이 구성되지 않은 경우 Adobe 담당자에게 문의하십시오.
 
-## 목록 구독 취소 헤더{#list-unsubscribe}
+## 목록 구독 취소{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
-
 
 목록에서 [하위 도메인](#subdomains-and-ip-pools)을 선택하면 **[!UICONTROL 목록 구독 취소 사용]** 옵션이 표시됩니다.
 
@@ -94,20 +91,23 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-이 옵션을 비활성화하면 원클릭 구독 취소 URL이 이메일 헤더에 표시되지 않습니다.
+>[!NOTE]
+>
+>이 옵션을 비활성화하면 원클릭 구독 취소 URL이 이메일 헤더에 표시되지 않습니다.
 
 **[!UICONTROL 동의 수준]** 드롭다운 목록에서 동의 수준을 선택할 수 있습니다. 채널 또는 프로필 ID에만 해당될 수 있습니다. 이 설정을 기반으로 사용자가 이메일 헤더에 있는 구독 취소 URL 목록을 사용하여 구독을 취소하면 Adobe Journey Optimizer에서 채널 수준 또는 ID 수준에서 동의가 업데이트됩니다.
 
-목록 구독 취소 헤더에는 두 개의 기능(Mailto 및 아래 설명된 대로 원클릭 구독 취소 URL)이 포함되어 있으며, 이 기능은 한 개 또는 두 개의 기능을 모두 선택 취소하지 않는 한 기본적으로 활성화됩니다.
+목록 구독 취소 헤더에는 두 가지 기능이 있는데, 이 두 기능 중 하나 또는 둘 다를 선택 취소하지 않는 한 이 기능은 기본적으로 활성화됩니다.
+
+![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
+
+<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
 
 * 자동 처리를 위해 구독 취소 요청이 라우팅되는 대상 주소인 **Mailto(구독 취소)** 주소입니다.
 
   Journey Optimizer에서 구독 취소 이메일 주소는 [선택한 하위 도메인](#subdomains-and-ip-pools)을(를) 기반으로 채널 구성에 표시되는 기본 **Mailto(구독 취소)** 주소입니다.
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
-
-
-* **한 번의 클릭으로 구독 취소 URL**. 기본적으로 한 번의 클릭으로 URL을 생성하고 채널 구성 설정에서 설정하고 구성한 하위 도메인을 기반으로 목록 구독 취소 헤더를 선택합니다.
+* **한 번의 클릭으로 구독 취소 URL**&#x200B;을(를) 설정합니다. 이 URL은 기본적으로 사용자가 설정하고 채널 구성 설정에서 구성한 하위 도메인을 기반으로 한 한 번의 클릭으로 옵트아웃 URL이 생성한 목록 구독 취소 헤더입니다.
 
 <!--
     >[!AVAILABILITY]
@@ -116,15 +116,19 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
     >
 -->
 
-**[!UICONTROL Mailto(구독 취소)]** 기능과 **[!UICONTROL 한 번 클릭으로 구독 취소 URL]** 기능은 선택 사항입니다. 생성된 기본 원클릭 구독 취소 URL을 사용하지 않으려면 이 기능을 선택 취소할 수 있습니다. **[!UICONTROL 옵트아웃 구성]** 옵션이 전환되고 **[!UICONTROL 한 번 클릭 구독 취소 URL]** 기능이 선택 취소되는 시나리오에서 이 구성을 사용하여 만든 메시지에 [한 번 클릭 옵트아웃 링크](../privacy/opt-out.md#one-click-opt-out)를 추가하면 구독 취소 헤더 목록에서 이메일 본문에 삽입한 한 한 한 번 클릭 옵트아웃 링크를 선택하여 한 번 클릭 구독 취소 URL 값으로 사용합니다.
+**[!UICONTROL Mailto(구독 취소)]** 기능 및 **[!UICONTROL 한 번의 클릭으로 구독 취소 URL]** 기능은 선택 사항입니다.
+
+생성된 기본 원클릭 구독 취소 URL을 사용하지 않으려면 이 기능을 선택 취소할 수 있습니다. **[!UICONTROL 목록 구독 취소 사용]** 옵션이 전환되고 **[!UICONTROL 한 번 클릭 구독 취소 URL]** 기능이 선택 취소되는 시나리오에서 이 구성을 사용하여 만든 메시지에 [한 번 클릭 옵트아웃 링크](../privacy/opt-out.md#one-click-opt-out)를 추가하면 목록 구독 취소 헤더에서 전자 메일 본문에 삽입한 한 한 한 번 클릭 옵트아웃 링크를 선택하고 이를 한 번 클릭 구독 취소 URL 값으로 사용합니다.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 원클릭 구독 취소 URL이 선택 취소된 경우 URL이 목록 구독 취소 헤더의 일부로 이메일 헤더에 전달되지 않습니다.
+>메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 원클릭 구독 취소 URL이 선택 해제된 경우 URL이 목록 구독 취소 헤더의 일부로 이메일 헤더에 전달되지 않습니다.
 
 [이 섹션](../email/email-opt-out.md#unsubscribe-header)에서 메시지의 구독 취소 기능을 관리하는 방법에 대해 자세히 알아보세요.
+
+<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
 
 ## 헤더 매개 변수 {#email-header}
 
@@ -146,7 +150,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 >
 >**[!UICONTROL 보낸 사람 전자 메일]** 및 **[!UICONTROL 오류 전자 메일]** 주소는 현재 선택한 [위임된 하위 도메인](../configuration/about-subdomain-delegation.md)을(를) 사용해야 합니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*&#x200B;인 경우 *contact@marketing.luma.com* 및 *error@marketing.luma.com*&#x200B;을(를) 사용할 수 있습니다.
 
-![](assets/preset-header.png)
+![](assets/preset-header.png){width="80%"}
 
 >[!NOTE]
 >
@@ -255,7 +259,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 **[!UICONTROL 시드 목록]** 섹션에서 사용자와 관련된 목록을 선택하십시오. [이 섹션](../configuration/seed-lists.md#create-seed-list)에서 시드 목록을 만드는 방법을 알아봅니다.
 
-![](../configuration/assets/seed-list-surface.png)
+![](../configuration/assets/seed-list-surface.png){width="80%"}
 
 >[!NOTE]
 >
@@ -305,7 +309,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 **[!UICONTROL 새 매개 변수 추가]** 단추를 사용하여 최대 10개의 추적 매개 변수를 추가할 수 있습니다.
 
-![](assets/preset-url-tracking.png)
+![](assets/preset-url-tracking.png){width="80%"}
 
 URL 추적 매개 변수를 구성하려면 **[!UICONTROL 이름]** 및 **[!UICONTROL 값]** 필드에 원하는 값을 직접 입력할 수 있습니다.
 
