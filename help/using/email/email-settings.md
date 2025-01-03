@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
+source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
 workflow-type: tm+mt
-source-wordcount: '2716'
-ht-degree: 11%
+source-wordcount: '2737'
+ht-degree: 10%
 
 ---
 
@@ -351,8 +351,8 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL 이름]** 및 **[!UICO
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
->title="사용할 주소 정의"
->abstract="데이터베이스에서 여러 이메일 주소 또는 전화번호를 사용하는 경우(개인용, 업무용 등) 전송의 우선순위를 지정할 수 있는 항목을 선택할 수 있습니다."
+>title="사용할 기본 실행 주소 재정의"
+>abstract="데이터베이스에서 여러 개의 이메일 주소(개인, 전문가 등)를 사용할 수 있는 경우, 우선 순위를 지정할 이메일 주소를 선택할 수 있습니다. 기본 주소는 샌드박스 수준에서 정의되지만, 여기에서 이 특정 이메일 구성에 대한 기본 설정을 재정의할 수 있습니다."
 
 프로필을 타겟팅하면 데이터베이스에서 여러 이메일 주소(전문 이메일 주소, 개인 이메일 주소 등)를 사용할 수 있습니다.
 
