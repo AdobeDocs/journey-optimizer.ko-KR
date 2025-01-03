@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2716'
 ht-degree: 11%
 
 ---
@@ -57,9 +57,11 @@ ht-degree: 11%
 
 이메일을 보내는 데 사용할 하위 도메인을 선택합니다.
 
-도메인의 평판을 유지하려면 IP 준비 프로세스를 가속화하고 게재 능력을 향상시키려면 보내는 하위 도메인을 Adobe에 위임하십시오. [자세히 알아보기](../configuration/about-subdomain-delegation.md)
+>[!NOTE]
+>
+>이메일 설정에 대한 제어를 강화하기 위해 동적 하위 도메인을 정의할 수 있습니다. [자세히 알아보기](../email/surface-personalization.md#dynamic-subdomains)
 
-<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+도메인의 평판을 유지하려면 IP 준비 프로세스를 가속화하고 게재 능력을 향상시키려면 보내는 하위 도메인을 Adobe에 위임하십시오. [자세히 알아보기](../configuration/about-subdomain-delegation.md)
 
 
 ## IP 풀 세부 정보 {#ip-pools}
@@ -127,6 +129,10 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 ## 헤더 매개 변수 {#email-header}
 
 **[!UICONTROL 헤더 매개 변수]** 섹션에서 해당 구성을 사용하여 보낸 전자 메일 형식과 관련된 보낸 사람 이름 및 전자 메일 주소를 입력합니다.
+
+>[!NOTE]
+>
+>이메일 설정에 대한 제어를 강화하려면 헤더 매개 변수를 개인화할 수 있습니다. [자세히 알아보기](../email/surface-personalization.md#personalize-header)
 
 * **[!UICONTROL 보낸 사람 이름]**: 브랜드 이름과 같은 보낸 사람의 이름입니다.
 * **[!UICONTROL 보낸 사람 전자 메일]**: 통신에 사용할 전자 메일 주소입니다.
