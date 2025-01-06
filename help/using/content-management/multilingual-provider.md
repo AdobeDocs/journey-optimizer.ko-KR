@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: e2b35cfb2cdaf0dac002ff74a11b2fe98206cd6f
+source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '194'
 ht-degree: 2%
 
 ---
@@ -41,6 +41,8 @@ Adobe Journey Optimizer은 Adobe Journey Optimizer과 별도로 기계 번역 �
    ![](assets/provider_2.png)
 
 1. Microsoft Translator를 공급자로 사용하는 경우 **[!UICONTROL 구독 키]** 및 **[!UICONTROL 끝점 URL]**&#x200B;을 입력하십시오.
+
+   연결을 테스트하려면 **[!UICONTROL 자격 증명 유효성 검사]**&#x200B;를 클릭하십시오.
 
    ![](assets/provider_3.png)
 
