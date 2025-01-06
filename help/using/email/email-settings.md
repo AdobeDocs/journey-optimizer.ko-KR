@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
+source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2735'
 ht-degree: 10%
 
 ---
@@ -366,7 +366,7 @@ URL 추적 매개 변수를 구성하려면 **[!UICONTROL 이름]** 및 **[!UICO
 >
 >현재 기본적으로 사용되는 필드를 확인하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 실행 필드]** 메뉴에 액세스합니다.
 
-하지만 이메일 채널 구성 수준에서 이 기본 실행 필드를 변경할 수 있습니다.
+하지만 이메일 채널 구성 수준에서 이 기본 실행 필드를 변경할 수 있습니다. 그런 다음 특정 캠페인이나 여정에 이 설정을 적용할 수 있습니다.
 
 이렇게 하려면 **[!UICONTROL 배달 주소]** 필드를 편집하고 사용 가능한 전자 메일 유형 XDM 필드 목록에서 항목을 선택하십시오.
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 6%
+source-wordcount: '1069'
+ht-degree: 7%
 
 ---
 
@@ -113,11 +113,11 @@ ht-degree: 6%
    >
    >**[!UICONTROL 프로필 특성]** 및 **[!UICONTROL 도우미 함수]**&#x200B;만 선택할 수 있습니다.
 
-   판매 도우미를 대신하여 전송된 다이내믹한 이메일을 처리하고 싶은데, 여기서 판매 도우미는 이벤트 또는 캠페인 컨텍스트 매개 변수에서 검색됩니다. 예:
+   예를 들어 모든 고객이 관계 관리자에 연결되도록 해당 세부 사항이 고객 프로필에 저장되는 관계 관리자를 대신하여 동적으로 전송된 이메일을 처리하려고 합니다. [여정](../building-journeys/journey-gs.md)에서 프로필 특성에서 가져온 관계 관리자의 매개 변수로 전자 메일 머리글(보낸 사람 이름, 보낸 사람 전자 메일, 회신 주소)을 개인화할 수 있습니다.
 
-   * [여정](../building-journeys/journey-gs.md)에서 구매 이벤트가 특정 매장의 영업 도우미에 연결된 경우 이벤트 특성에서 가져온 영업 도우미 매개 변수를 사용하여 전자 메일 머리글(보낸 사람 이름, 보낸 사람 전자 메일, 회신 주소)을 개인화할 수 있습니다.
-
-   * 판매 도우미가 외부에서 시작한 [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md)에서, 캠페인 컨텍스트 매개 변수에서 가져온 판매 도우미와 헤더 개인화 값을 대신하여 트리거된 이메일을 보낼 수 있습니다.
+   <!--The examples below use event parameters, which are currently not available.
+    
+    Let's say you want to handle dynamically emails sent on behalf of a sales assistant, where the sales assistant is retrieved from an event or campaign contextual parameters. For example: In a [journey](../building-journeys/journey-gs.md), when a purchase event is linked to the sales assistant of a specific shop, the email header (sender name, sender email, reply to address) can be personalized with the sales assistant parameters, taken from the event attributes. In an [API-triggered campaign](../campaigns/api-triggered-campaigns.md), initiated externally by a sales assistant, the triggered email can be sent on behalf of the sales assistant and the header personalization values taken from campaign contextual parameters.-->
 
 1. 개인화를 추가할 각 매개 변수에 대해 위의 단계를 반복합니다.
 
