@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 1a3e09c87b3edeedd1b7558314cf413ea0b2c9d9
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 2%
@@ -59,12 +59,12 @@ FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
 AND
-  (_experience.journeyOrchestration.stepEvents.actionExecutionError not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchError not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode  not NULL
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
   )
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
@@ -237,7 +237,7 @@ WHERE
 
 **serviceEvent의 세부 정보를 확인하는 방법**
 
-여정 단계 이벤트 데이터 세트에는 모든 stepEvents 및 serviceEvents가 포함되어 있습니다. stepEvents는 활동(이벤트, 작업 등)과 관련하여 보고에 사용됩니다. 여정 내 프로필 개수 serviceEvents는 동일한 데이터 세트에 저장되며 디버깅 목적을 위한 추가 정보(예: 경험 이벤트가 삭제되는 이유)를 나타냅니다.
+여정 단계 이벤트 데이터 세트에는 모든 stepEvents 및 serviceEvents가 포함되어 있습니다. stepEvents는 여정 프로필의 활동(이벤트, 작업 등)과 관련하여 보고에 사용됩니다. serviceEvents는 동일한 데이터 세트에 저장되며 디버깅 목적을 위한 추가 정보(예: 경험 이벤트가 삭제되는 이유)를 나타냅니다.
 
 다음은 serviceEvent의 세부 사항을 확인하는 쿼리의 예입니다.
 
