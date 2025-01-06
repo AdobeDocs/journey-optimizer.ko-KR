@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
+source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%
@@ -168,7 +168,7 @@ ht-degree: 20%
 
    1. **[!UICONTROL 규칙]** 메뉴에 액세스하고 새 규칙을 만듭니다. 규칙을 만드는 방법에 대한 자세한 내용은 [!DNL Adobe Experience Platform] [데이터 수집 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}를 참조하세요.
 
-   2. 규칙의 **[!UICONTROL IF]** 섹션에서 아래와 같이 구성된 이벤트를 추가합니다.
+   1. 규칙의 **[!UICONTROL IF]** 섹션에서 아래와 같이 구성된 이벤트를 추가합니다.
 
       ![](assets/multilingual-experience-events-rule-if.png)
 
@@ -177,7 +177,7 @@ ht-degree: 20%
       * 오른쪽 창에서 &quot;XDM 이벤트 유형이 personalization.request와 같음&quot;을 선택합니다.
       * 확인하려면 **[!UICONTROL 변경 내용 유지]** 단추를 클릭하세요.
 
-   3. 규칙의 **[!UICONTROL THEN]** 섹션에서 아래와 같이 구성된 작업을 추가합니다.
+   1. 규칙의 **[!UICONTROL THEN]** 섹션에서 아래와 같이 구성된 작업을 추가합니다.
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
