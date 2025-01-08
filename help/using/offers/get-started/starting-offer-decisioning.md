@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: c9efdf634831822e670257f6ee738310081a96fb
-workflow-type: ht
-source-wordcount: '933'
+source-git-commit: 2acb883b66e5da9c06ba1551f708bb8ab47ce343
+workflow-type: tm+mt
+source-wordcount: '896'
 ht-degree: 100%
 
 ---
@@ -34,11 +34,9 @@ ht-degree: 100%
 
 ➡️ [이 비디오에서 의사 결정 관리에 대해 자세히 알아보세요.](#video)
 
-## 반드시 알아야 할 사항 {#must-read}
-
-* 현재 의사 결정 관리에서는 오브젝트 수준 액세스 제어, 필드 수준 액세스 제어, 동의 정책 시행 서비스 기능을 지원하지 않습니다. 이러한 기능을 사용하려면 Journey Optimizer [결정](../../experience-decisioning/gs-experience-decisioning.md) 기능을 사용하는 것을 고려해 보십시오.
-
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target="_blank"} 사용자가 **Offer Decisioning** 애플리케이션 서비스를 활용하면 이 섹션에서 설명하는 [의사 결정 관리] 기능을 모두 사용할 수 있습니다.
+>[!NOTE]
+>
+>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target="_blank"} 사용자가 **Offer Decisioning** 애플리케이션 서비스를 활용하면 이 섹션에서 설명하는 [의사 결정 관리] 기능을 모두 사용할 수 있습니다.
 
 ## 오퍼 및 의사 결정 정보 {#about-offers-and-decisions}
 
@@ -102,7 +100,7 @@ ht-degree: 100%
 
 * **배치**: 배치는 최종 사용자에게 나타나는 오퍼의 위치 및 컨텍스트입니다.
 
-* **우선 순위**: 우선 순위는 자격, 일정 및 상한 등과 같은 모든 제약 조건을 충족하는 오퍼의 등급을 지정하는 데 사용됩니다.
+* **우선 순위**: 우선 순위는 자격, 일정 및 상한 설정 등과 같은 모든 제약 조건을 충족하는 오퍼의 등급을 지정하는 데 사용됩니다.
 
 * **표시**: 표시는 오퍼를 표시하는 데 사용되는 위치 또는 언어와 같은 채널에서 사용하는 정보입니다.
 
