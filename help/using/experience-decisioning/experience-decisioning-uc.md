@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 7da07ebb5fd2ded0f86ee1ca8fc355e422f01502
+source-git-commit: ff17e7609eb6504632d35671a4bd2aa11a613372
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '640'
 ht-degree: 5%
 
 ---
@@ -19,16 +19,12 @@ ht-degree: 5%
 
 이 사용 사례에서는 [!DNL Journey Optimizer] 코드 기반 채널에서 Decisioning을 사용하는 데 필요한 모든 단계를 제공합니다.
 
-<!--In this use case, you create a campaign where you define two delivery treatments - each containing a different decision policy in order to measure which one performs best for your target audience.-->
-
-이 사용 사례에서는 특정 순위 공식이 사전 할당된 오퍼 우선 순위보다 더 나은 성과를 낼지 확실하지 않습니다.
+이 예에서는 특정 순위 공식이 사전 할당된 오퍼 우선 순위보다 더 나은 성과를 낼지 확신할 수 없습니다.
 
 대상 대상에 가장 적합한 성과를 측정하려면 두 개의 게재 처리를 정의하는 [콘텐츠 실험](../content-management/content-experiment.md)을 사용하여 캠페인을 만드십시오.
 
-<!--Set up the experiment such that:-->
-
-* 첫 번째 처리는 순위 지정 방법으로 우선순위를 갖는 하나의 선택 전략을 포함한다.
-* 두 번째 처리는 공식이 순위 방법인 다른 선택 전략을 포함한다.
+* 첫 번째 처리에서는 우선 순위를 순위 방법으로 사용합니다.
+* 두 번째 처리에서는 순위 방법을 사용합니다.
 
 ## 선택 전략 만들기
 
@@ -36,7 +32,7 @@ ht-degree: 5%
 
 ### 첫 번째 선택 전략 만들기
 
-첫 번째 선택 전략에서 우선 순위를 순위 방법으로 선택합니다. 아래 단계를 수행합니다.
+우선 순위를 순위 방법으로 사용하여 첫 번째 선택 전략을 작성하려면 아래 단계를 수행합니다.
 
 1. 의사 결정 항목을 만듭니다. [방법 알아보기](items.md)
 
@@ -60,19 +56,17 @@ ht-degree: 5%
 
 1. [선택 전략](selection-strategies.md#create-selection-strategy)을(를) 만들고 고려할 오퍼가 포함된 [컬렉션](collections.md)을(를) 선택하십시오.
 
-1. 각 프로필에 가장 적합한 오퍼를 선택하는 데 사용할 [등급 메서드를 선택](#select-ranking-method)합니다.
-
-   이 경우 **[!UICONTROL 오퍼 우선 순위]**&#x200B;를 선택하십시오. 여러 오퍼가 이 전략에 적합한 경우 Decisioning 엔진은 오퍼에서 **[!UICONTROL 우선 순위]**(으)로 설정된 값을 사용합니다. [자세히 알아보기](selection-strategies.md#offer-priority)
+1. 각 프로필에 가장 적합한 오퍼를 선택하는 데 사용할 [등급 메서드를 선택](#select-ranking-method)합니다. 이 경우 **[!UICONTROL 오퍼 우선 순위]**&#x200B;를 선택하십시오. 여러 오퍼가 이 전략에 적합한 경우 Decisioning 엔진은 오퍼에서 **[!UICONTROL 우선 순위]**(으)로 설정된 값을 사용합니다. [자세히 알아보기](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png)
 
 ### 두 번째 선택 전략 만들기
 
-두 번째 선택 전략에서 순위 방법으로 공식을 선택합니다. 아래 단계를 수행합니다.
+순위 방법으로 공식을 선택하여 두 번째 선택 전략을 작성하려면 아래 단계를 수행합니다.
 
 1. 의사 결정 항목을 만듭니다. [방법 알아보기](items.md)
 
-<!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
+   <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
 
 1. 결정 항목의 적격성을 설정합니다.
 
@@ -86,9 +80,7 @@ ht-degree: 5%
 
 1. [선택 전략](selection-strategies.md#create-selection-strategy)을(를) 만들고 고려할 오퍼가 포함된 [컬렉션](collections.md)을(를) 선택하십시오.
 
-1. [각 프로필에 가장 적합한 오퍼를 선택하는 데 사용할 순위 방법을 선택하십시오](#select-ranking-method).
-
-   이 경우 **[!UICONTROL 수식]**&#x200B;을 선택하여 특정 계산된 점수를 사용하여 게재할 적격 오퍼를 선택하십시오. [자세히 알아보기](selection-strategies.md#ranking-formula)
+1. [각 프로필에 가장 적합한 오퍼를 선택하는 데 사용할 순위 방법을 선택하십시오](#select-ranking-method). 이 경우 **[!UICONTROL 공식]**&#x200B;을 선택하여 게재할 적격 오퍼를 결정할 특정 계산된 점수를 사용하십시오. [자세히 알아보기](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png)
 
@@ -106,7 +98,9 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-create-experiment.png)
 
-1. **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭합니다.
+1. 캠페인 요약 페이지에서 코드 기반 구성을 선택하거나 만든 다음 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭합니다.
+
+   ![](assets/exd-uc-edit-cbe-content.png)
 
 <!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
 
