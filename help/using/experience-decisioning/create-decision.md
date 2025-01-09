@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: 3abaa58fa4fa3baae5c7072bdc112de4a5e9119a
 workflow-type: tm+mt
-source-wordcount: '1791'
-ht-degree: 14%
+source-wordcount: '1647'
+ht-degree: 15%
 
 ---
 
@@ -60,9 +60,15 @@ ht-degree: 14%
 
 1. 캠페인을 만들고 **[!UICONTROL 코드 기반 경험]** 작업을 선택하십시오. [자세히 알아보기](../code-based/create-code-based.md)
 
-1. [코드 편집기](../code-based/create-code-based.md#edit-code)에서 **[!UICONTROL 결정 정책]** 아이콘을 선택하고 **[!UICONTROL 결정 정책 추가]**&#x200B;를 클릭합니다.
+1. [코드 편집기](../code-based/create-code-based.md#edit-code)에서 **[!UICONTROL 결정 정책]**&#x200B;을 선택하고 **[!UICONTROL 결정 정책 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/decision-code-based-create.png)
+
+1. 기본적으로 새 정책을 만듭니다.
+
+   >[!NOTE]
+   >
+   >기존 정책을 선택할 수도 있습니다.
 
 1. 결정 정책에 대한 세부 정보를 입력합니다. 이름을 추가하고 카탈로그를 선택합니다.
 
@@ -78,9 +84,11 @@ ht-degree: 14%
 
 **[!UICONTROL 전략 시퀀스]** 섹션에서 결정 정책과 함께 제공할 결정 항목 및 선택 전략을 선택할 수 있습니다.
 
-1. **[!UICONTROL 추가]** 단추를 클릭한 다음 정책에 포함할 개체 유형을 선택하십시오.
+1. **[!UICONTROL 추가]** 단추를 클릭합니다.
 
-   * **[!UICONTROL 선택 전략]**: 하나 이상의 선택 전략을 추가합니다. 의사 결정 전략은 자격 제한 및 등급 방법과 관련된 컬렉션을 활용하여 표시할 항목을 결정합니다. 기존 선택 전략을 선택하거나 **[!UICONTROL 선택 전략 만들기]** 단추를 사용하여 새 선택 전략을 만들 수 있습니다.[선택 전략을 만드는 방법을 알아봅니다](selection-strategies.md)
+1. 정책에 포함할 개체 유형을 선택합니다.
+
+   * **[!UICONTROL 선택 전략]**: 하나 이상의 선택 전략을 추가합니다. 의사 결정 전략은 자격 제한 및 등급 방법과 관련된 컬렉션을 활용하여 표시할 항목을 결정합니다. 기존 선택 전략을 선택하거나 **[!UICONTROL 선택 전략 만들기]** 단추를 사용하여 새 선택 전략을 만들 수 있습니다. [선택 전략을 만드는 방법을 알아봅니다](selection-strategies.md)
 
    * **[!UICONTROL 결정 항목]**: 선택 전략을 실행하지 않고도 표시할 단일 결정 항목을 추가하십시오. 한 번에 하나의 결정 항목만 선택할 수 있습니다. 품목에 대해 설정된 모든 자격 제한이 적용됩니다.
 
@@ -90,7 +98,9 @@ ht-degree: 14%
    >
    >의사 결정 정책은 선택 전략과 의사 결정 항목을 합하여 최대 10개까지 지원한다. [의사 결정 보호 및 제한에 대해 자세히 알아보기](gs-experience-decisioning.md#guardrails)
 
-1. 여러 개의 의사 결정 항목 및/또는 전략을 추가할 때 특정 순서로 평가된다. 시퀀스에 추가된 첫 번째 객체가 먼저 평가됩니다. 기본 시퀀스를 변경하려면 개체 및/또는 그룹을 드래그 앤 드롭하여 원하는 대로 순서를 변경할 수 있습니다. [의사 결정 정책 평가 순서에 대해 자세히 알아보기](#evaluation-order)
+1. 여러 개의 의사 결정 항목 및/또는 전략을 추가할 때 특정 순서로 평가된다. 시퀀스에 추가된 첫 번째 객체가 먼저 평가됩니다.
+
+   기본 시퀀스를 변경하려면 개체 및/또는 그룹을 드래그하여 놓아 원하는 대로 순서를 변경할 수 있습니다. [자세히 알아보기](#evaluation-order)
 
 ### 의사 결정 정책에서 평가 순서 관리 {#evaluation-order}
 
@@ -211,14 +221,3 @@ ht-degree: 14%
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Customer Journey Analytics에서 보고 {#cja}
-
-Decisioning을 사용하여 작업하는 경우 Decisioning을 활용하는 코드 기반 Customer Journey Analytics에 대한 사용자 지정 보고 대시보드를 만들 수 있습니다.
-
-주요 단계는 아래에 나와 있습니다. Customer Journey Analytics 작업 방법에 대한 자세한 내용은 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}를 참조하세요.
-
-1. Customer Journey Analytics에서 **연결**&#x200B;을 만들고 구성하십시오. 이렇게 하면 보고서를 보낼 데이터 세트에 연결할 수 있습니다. [연결을 만드는 방법을 알아보세요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
-
-1. **데이터 보기**&#x200B;를 만들어 이전에 만든 연결에 연결합니다. **[!UICONTROL 구성 요소]** 탭에서 보고에 표시할 관련 스키마 필드를 선택합니다. Decisioning의 경우 **propositioninteract** 및 **propositiondisplay** 필드를 포함해야 합니다. [데이터 보기를 만들고 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
-
-1. **작업 영역 프로젝트**&#x200B;에서 데이터 구성 요소, 테이블 및 시각화를 결합하여 코드 기반 캠페인에 대한 보고서를 만들고 공유할 수 있습니다.[작업 영역 프로젝트를 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
