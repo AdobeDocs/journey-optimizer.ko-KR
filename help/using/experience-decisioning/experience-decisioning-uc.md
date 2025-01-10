@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
+source-git-commit: aa0791b7ca3eb4c39f700fbe23937b5529f44376
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '739'
 ht-degree: 5%
 
 ---
@@ -19,12 +19,10 @@ ht-degree: 5%
 
 이 사용 사례에서는 [!DNL Journey Optimizer] 코드 기반 채널에서 Decisioning을 사용하는 데 필요한 모든 단계를 제공합니다.
 
-이 예에서는 특정 순위 공식이 사전 할당된 오퍼 우선 순위보다 더 나은 성과를 낼지 확신할 수 없습니다.
-
-대상 대상에 가장 적합한 성과를 측정하려면 두 개의 게재 처리를 정의하는 [콘텐츠 실험](../content-management/content-experiment.md)을 사용하여 캠페인을 만드십시오.
+이 예에서는 특정 순위 공식이 사전 할당된 오퍼 우선 순위보다 더 나은 성과를 낼지 확신할 수 없습니다. 대상 대상에 가장 적합한 성과를 측정하려면 두 가지 게재 처리를 정의하는 [콘텐츠 실험](../content-management/content-experiment.md)을 사용하여 캠페인을 만듭니다.
 
 * 첫 번째 처리에서는 우선 순위를 순위 방법으로 사용합니다.
-* 두 번째 처리에서는 순위 방법을 사용합니다.
+* 두 번째 처리에서는 순위 방법으로 공식을 사용합니다.
 
 ## 선택 전략 만들기
 
@@ -34,7 +32,7 @@ ht-degree: 5%
 >
 >선택 전략을 실행하지 않고도 단일 결정 항목을 만들 수도 있습니다. 각 항목에 대해 설정된 우선 순위가 적용됩니다.
 
-### 첫 번째 선택 전략 만들기
+### 우선 순위를 사용하여 전략 만들기
 
 우선 순위를 순위 방법으로 사용하여 첫 번째 선택 전략을 작성하려면 아래 단계를 수행합니다.
 
@@ -64,7 +62,7 @@ ht-degree: 5%
 
    ![](assets/exd-uc-strategy-priority.png){width="80%"}
 
-### 두 번째 선택 전략 만들기
+### 공식을 사용하여 다른 전략 만들기
 
 순위 방법으로 공식을 선택하여 두 번째 선택 전략을 작성하려면 아래 단계를 수행합니다.
 
