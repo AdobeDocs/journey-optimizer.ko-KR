@@ -1,5 +1,5 @@
 ---
-title: 의사 결정 보고서
+title: 결정 보고서
 description: 의사 결정에 대해 보고하는 방법을 알아봅니다.
 feature: Decisioning
 topic: Integrations
@@ -7,15 +7,15 @@ role: User
 level: Experienced
 badge: label="제한 공개"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# 의사 결정 보고서 {#decisioning-report}
+# 결정 보고서 {#decisioning-report}
 
 ## 코드 기반 캠페인 보고 {#campaigns}
 
@@ -35,4 +35,4 @@ Decisioning을 사용하여 작업하는 경우 Decisioning을 활용하는 코�
 
 1. **데이터 보기**&#x200B;를 만들어 이전에 만든 연결에 연결합니다. **[!UICONTROL 구성 요소]** 탭에서 보고에 표시할 관련 스키마 필드를 선택합니다. Decisioning의 경우 **propositioninteract** 및 **propositiondisplay** 필드를 포함해야 합니다. [데이터 보기를 만들고 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-1. **작업 영역 프로젝트**&#x200B;에서 데이터 구성 요소, 테이블 및 시각화를 결합하여 코드 기반 캠페인에 대한 보고서를 만들고 공유할 수 있습니다.[작업 영역 프로젝트를 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
+1. **작업 영역 프로젝트**&#x200B;에서 데이터 구성 요소, 테이블 및 시각화를 결합하여 코드 기반 캠페인에 대한 보고서를 만들고 공유할 수 있습니다. [작업 영역 프로젝트를 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
