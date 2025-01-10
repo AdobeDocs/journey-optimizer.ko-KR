@@ -128,12 +128,12 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL 다시 시도]**: 다시 시도 큐에 있는 전자 메일 수입니다.
 +++
 
-### 이메일 - 바운스 범주 및 이유 {#bounce-categories}
+### 이메일 - 바운스 카테고리 및 이유 {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_categories"
->title="이메일 - 바운스 범주"
->abstract="이메일 - 바운스 범주 그래프와 테이블은 지난 24시간 동안의 일시적 오류와 영구적 오류에 대한 데이터를 제공합니다."
+>title="이메일 - 바운스 카테고리"
+>abstract="이메일 - 바운스 카테고리 그래프와 테이블은 지난 24시간 동안의 일시적 오류와 영구적 오류에 대한 데이터를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_reasons"

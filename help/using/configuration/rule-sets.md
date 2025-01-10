@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 규칙 세트(LA) 작업
+title: 규칙 세트 작업(LA)
 description: 규칙 세트를 만들고 적용하는 방법 알아보기
 feature: Rules
 topic: Content Management
@@ -88,8 +88,8 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_category"
->title="메시지 규칙 범주 선택"
->abstract="활성화되어 메시지에 적용되면 선택한 범주와 일치하는 모든 빈도 규칙은 이 메시지에 자동으로 적용됩니다. 현재 마케팅 범주만 사용할 수 있습니다."
+>title="메시지 규칙 카테고리 선택"
+>abstract="활성화되어 메시지에 적용되면 선택한 카테고리와 일치하는 모든 빈도 규칙은 이 메시지에 자동으로 적용됩니다. 현재 마케팅 카테고리만 사용할 수 있습니다."
 
 <!--NOT USED?
 [!CONTEXTUALHELP]
@@ -104,8 +104,8 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
->title="메시지 규칙 범주 선택"
->abstract="활성화되어 메시지에 적용되면 선택한 범주와 일치하는 모든 빈도 규칙은 이 메시지에 자동으로 적용됩니다. 현재 마케팅 범주만 사용할 수 있습니다."
+>title="메시지 규칙 카테고리 선택"
+>abstract="활성화되어 메시지에 적용되면 선택한 카테고리와 일치하는 모든 빈도 규칙은 이 메시지에 자동으로 적용됩니다. 현재 마케팅 카테고리만 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
@@ -316,6 +316,6 @@ In this scenario, an individual profile:
 
 +++
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -157,12 +157,12 @@ ht-degree: 27%
 
 +++
 
-### 이메일 - 바운스 범주 및 이유 {#bounce-categories}
+### 이메일 - 바운스 카테고리 및 이유 {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
->title="바운스 범주"
->abstract="바운스 범주 그래프와 테이블은 일시적 오류와 영구적 오류 모두에 대한 데이터를 제공합니다."
+>title="바운스 카테고리"
+>abstract="바운스 카테고리 그래프와 테이블은 일시적 오류와 영구적 오류 모두에 대한 데이터를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons"

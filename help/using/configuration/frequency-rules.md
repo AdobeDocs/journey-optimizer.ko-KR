@@ -55,8 +55,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
->title="메시지 규칙 범주 선택"
->abstract="활성화되어 메시지에 적용되면 선택한 범주와 일치하는 모든 비즈니스 규칙은 이 메시지에 자동으로 적용됩니다. 현재 마케팅 범주만 사용할 수 있습니다."
+>title="메시지 규칙 카테고리 선택"
+>abstract="활성화되어 메시지에 적용되면 선택한 카테고리와 일치하는 모든 비즈니스 규칙은 이 메시지에 자동으로 적용됩니다. 현재 마케팅 카테고리만 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
@@ -231,7 +231,7 @@ Create a direct mail and select the **[!UICONTROL Marketing]** category for that
 >
 >비즈니스 규칙을 테스트할 때는 새로 만든 [테스트 프로필](../audience/creating-test-profiles.md)을 사용하는 것이 좋습니다. 프로필의 빈도 상한에 도달하면 다음 달까지 카운터를 재설정할 방법이 없기 때문입니다. 규칙을 비활성화하면 캡핑된 프로필에서 메시지를 받을 수 있지만 카운터 증분은 제거되거나 삭제되지 않습니다.
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 비즈니스 규칙을 만들고, 활성화하고, 테스트하고, 보고하는 방법을 알아봅니다.
 

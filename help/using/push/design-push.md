@@ -71,7 +71,7 @@ Android 버전에서는 이미지 아이콘과 확장된 알림에 대한 이미
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="사용자가 푸시 알림과 상호 작용할 수 있는 버튼을 추가합니다."
->abstract="이 섹션에서는 메시지에 클릭 유도 버튼을 추가할 수 있습니다. iOS의 경우, 알림 범주 식별자를 지정합니다. Android의 경우, 각 버튼에 대해 사용자 정의 텍스트 및 대상을 포함할 수 있습니다."
+>abstract="이 섹션에서는 메시지에 클릭 유도 버튼을 추가할 수 있습니다. iOS의 경우, 알림 카테고리 식별자를 지정합니다. Android의 경우, 각 버튼에 대해 사용자 정의 텍스트 및 대상을 포함할 수 있습니다."
 
 푸시 콘텐츠에 버튼을 추가하여 실행 가능한 알림을 만듭니다.
 
@@ -126,7 +126,7 @@ iOS 버전에서는 알림 범주 식별자가 지정됩니다. 표시할 버튼
 | **[!UICONTROL 알림 그룹]**(iOS 전용) | 푸시 알림에 알림 그룹을 연결합니다.<br/>iOS 12부터 알림 그룹을 사용하면 메시지 스레드와 알림 주제를 스레드 ID로 통합할 수 있습니다. 예를 들어 브랜드는 하나 이상의 다른 ID에 더 많은 운영 유형 알림을 유지하면서 하나의 그룹 ID로 마케팅 알림을 전송할 수 있습니다.<br/>이를 설명하기 위해 groupID: 123 &quot;새 봄 스웨터 컬렉션 확인&quot; 및 groupID: 456 &quot;패키지가 배달되었습니다&quot; 알림 그룹을 사용할 수 있습니다. 이 예에서 모든 게재 알림은 그룹 ID: 456 아래에 번들로 제공됩니다. |
 | **[!UICONTROL 알림 채널]**(Android 전용) | 푸시 알림에 알림 채널을 연결합니다.<br/>Android 8.0(API 레벨 26)부터 모든 알림을 채널에 할당해야 표시됩니다. 자세한 내용은 [Android 개발자 설명서](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)를 참조하세요. |
 | **[!UICONTROL 콘텐츠 가용성 플래그 추가]**(iOS 전용) | 푸시 알림을 받는 즉시 앱이 깨어날 수 있도록 푸시 페이로드에 사용 가능한 콘텐츠 플래그를 보내 앱이 페이로드 데이터에 액세스할 수 있도록 합니다.<br/> 앱이 백그라운드에서 실행 중이고 사용자 상호 작용(예: 푸시 알림을 누르는 경우)이 필요 없는 경우에도 작동합니다. 하지만 앱이 실행되고 있지 않으면 적용되지 않습니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)를 참조하십시오. |
-| **[!UICONTROL 변경 가능한 콘텐츠 플래그 추가]**(iOS 전용) | 푸시 페이로드에서 변경 가능한 콘텐츠 플래그를 보내고 iOS SDK에서 제공하는 알림 서비스 애플리케이션 확장에 의해 푸시 알림 콘텐츠를 수정할 수 있습니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)를 참조하십시오.<br/>그런 다음 모바일 앱 확장을 활용하여 [!DNL Journey Optimizer]에서 보낸 푸시 알림의 내용 또는 프레젠테이션을 추가로 수정할 수 있습니다. 예를 들어 사용자는 이 옵션을 사용하여 데이터의 암호를 해독하고, 알림의 본문이나 제목 텍스트를 변경하고, 알림에 스레드 식별자를 추가할 수 있습니다. |
+| **[!UICONTROL 변경 가능한 콘텐츠 플래그 추가]**(iOS 전용) | 푸시 페이로드에서 변경 가능한 콘텐츠 플래그를 보내고 iOS SDK에 제공된 알림 서비스 애플리케이션 확장에 의해 푸시 알림 콘텐츠가 수정되도록 합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)를 참조하십시오.<br/>그런 다음 모바일 앱 확장을 활용하여 [!DNL Journey Optimizer]에서 보낸 푸시 알림의 내용 또는 프레젠테이션을 추가로 수정할 수 있습니다. 예를 들어 사용자는 이 옵션을 사용하여 데이터의 암호를 해독하고, 알림의 본문이나 제목 텍스트를 변경하고, 알림에 스레드 식별자를 추가할 수 있습니다. |
 | **[!UICONTROL 알림 가시성]**(Android 전용) | 푸시 알림의 가시성을 정의합니다. <br/><b>개인</b>은(는) 모든 잠금 화면에 알림을 표시하지만 보안 잠금 화면에 중요한 정보나 개인 정보를 숨깁니다. <br/><b>공개</b>는 모든 잠금 화면에서 알림을 모두 표시합니다. <br/><b>암호</b>은(는) 보안 잠금 화면에서 알림의 일부를 표시하지 않습니다. <br/>자세한 내용은 [Android 개발자 설명서](https://developer.android.com/reference/android/app/Notification)를 참조하세요. |
 | **[!UICONTROL 알림 우선 순위]**(Android 전용) | 푸시 알림의 중요도를 낮음에서 최대로 정의합니다. 푸시 알림이 전달될 때 푸시 알림이 얼마나 &quot;간섭&quot;되는지를 결정합니다. 자세한 내용은 [Android 개발자 설명서](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance)를 참조하세요. |
 | **[!UICONTROL 배달 우선 순위]**(Android만 해당) | 푸시 알림에 대해 높은 우선 순위 또는 일반적인 우선 순위를 설정합니다. 메시지 우선 순위에 대한 자세한 내용은 [Google 개발자 설명서](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)를 참조하십시오. |

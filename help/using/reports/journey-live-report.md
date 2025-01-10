@@ -265,11 +265,11 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 +++
 
-### 이메일 - 바운스 범주 및 이유 {#email-bounce-categories}
+### 이메일 - 바운스 카테고리 및 이유 {#email-bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_live"
->title="이메일 - 바운스 범주 및 이유"
+>title="이메일 - 바운스 카테고리 및 이유"
 >abstract="XX"
 
 ![](assets/journey_live_email_bounce.png)

@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '4457'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -268,12 +268,12 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 +++
 
-### 이메일 - 바운스 범주 및 이유 {#email-bounce-categories}
+### 이메일 - 바운스 카테고리 및 이유 {#email-bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
->title="이메일 - 바운스 범주 및 이유"
->abstract="이메일 - 바운스 범주 및 이유 위젯은 바운스된 메시지와 관련 데이터를 집계하여 이메일 바운스의 원인이 되는 특정 이유와 범주에 대한 심층적인 인사이트를 제공합니다."
+>title="이메일 - 바운스 카테고리 및 이유"
+>abstract="이메일 - 바운스 카테고리 및 이유 위젯은 바운스된 메시지와 관련 데이터를 집계하여 이메일 바운스의 원인이 되는 특정 이유와 카테고리에 대한 심층적인 인사이트를 제공합니다."
 
 ![](assets/journey_email_bounce_categories.png)
 

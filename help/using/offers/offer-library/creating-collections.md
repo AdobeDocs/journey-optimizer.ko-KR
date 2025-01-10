@@ -18,7 +18,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
 >title="오퍼 컬렉션 정보"
->abstract="오퍼 컬렉션을 사용하면 선택한 범주로 다시 그룹화하여 오퍼를 구성할 수 있습니다."
+>abstract="오퍼 컬렉션을 사용하면 선택한 카테고리로 다시 그룹화하여 오퍼를 구성할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic"
@@ -86,7 +86,7 @@ ht-degree: 31%
 
    ![](../assets/collection_created.png)
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 

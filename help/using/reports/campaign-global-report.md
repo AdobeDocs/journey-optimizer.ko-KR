@@ -222,12 +222,12 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 
 +++
 
-### 이메일 - 바운스 이유 및 범주 {#bounces-email}
+### 이메일 - 바운스 이유 및 카테고리 {#bounces-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_categories"
->title="이메일 - 바운스 범주"
->abstract="이메일 - 바운스 범주 그래프와 테이블은 일시적 오류와 영구적 오류 모두에 대한 데이터를 제공합니다."
+>title="이메일 - 바운스 카테고리"
+>abstract="이메일 - 바운스 카테고리 그래프와 테이블은 일시적 오류와 영구적 오류 모두에 대한 데이터를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_reasons"
