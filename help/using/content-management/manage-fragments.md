@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 25%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 25%
 
    >[!NOTE]
    >
-   >표현식 조각을 편집할 때 개인화 필드를 제거할 수 있지만 조각 콘텐츠에 새 개인화 필드를 추가할 수 없습니다. 개인화 필드를 추가하려면 조각을 복제하여 새 조각을 만드십시오.
+   >조각을 편집할 때 개인화 필드를 제거할 수 있지만 조각 콘텐츠에 새 개인화 필드를 추가할 수는 없습니다. 개인화 필드를 추가하려면 조각을 복제하여 새 조각을 만드십시오.
 
    **탐색기 참조** 옵션을 선택하여 현재 조각이 사용 중인 여정, 캠페인 및 콘텐츠 템플릿 목록을 확인할 수도 있습니다. [자세히 알아보기](#explore-references)
 
