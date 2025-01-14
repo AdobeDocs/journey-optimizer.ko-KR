@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 84cb51a3fdb01fab0b23289993bbcdd30c68cd01
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 12%
@@ -76,7 +76,7 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 
    ![](assets/content_experiment_11.png)
 
-1. 인앱 또는 웹 채널을 사용하여 실험을 설정하고 **[!UICONTROL 인바운드 클릭수]**, **[!UICONTROL 고유 인바운드 클릭수]**, **[!UICONTROL 페이지 보기 수]** 또는 **[!UICONTROL 고유 페이지 보기 수 지표]** 및 **[!UICONTROL 클릭 동작]** 드롭다운을 사용하면 특정 페이지에서 클릭수 및 보기를 정확하게 추적하고 모니터링할 수 있습니다.
+1. 인앱 또는 웹 채널을 사용하여 실험을 설정하고 **[!UICONTROL 인바운드 클릭수]**, **[!UICONTROL 고유 인바운드 클릭수]**, **[!UICONTROL 페이지 보기 수]** 또는 **[!UICONTROL 고유 페이지 보기 수 지표]**&#x200B;를 선택할 때 **[!UICONTROL 클릭 동작]** 드롭다운을 사용하면 특정 페이지에서 클릭수 및 보기를 정확하게 추적하고 모니터링할 수 있습니다.
 
    ![](assets/content_experiment_20.png)
 

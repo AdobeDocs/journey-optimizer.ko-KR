@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '789'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 캠페인을 만들고 **[!UICONTROL 코드 기반 경험]** 작업을 선택하십시오. [자세히 알아보기](../code-based/create-code-based.md)
 
-1. 캠페인 요약 페이지에서 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하여 콘텐츠 실험 구성을 시작합니다. [자세히 알아보기](../content-management/content-experiment.md)
+1. 캠페인 요약 페이지에서 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하여 콘텐츠 실험을 구성합니다. [방법 알아보기](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 
@@ -140,4 +140,6 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 변경 내용을 저장하고 [코드 기반 경험 캠페인을 게시](../code-based/publish-code-based.md)합니다.
 
-[실험 캠페인 보고서](../reports/campaign-global-report-cja-experimentation.md) 및 [의사 결정에 대한 보고서](cja-reporting.md)(으)로 캠페인의 성과를 추적할 수 있습니다. <!--TBC how to check which treatment performs best-->
+경험을 실행한 후 [실험 캠페인 보고서](../reports/campaign-global-report-cja-experimentation.md)를 사용하여 캠페인 처리가 어떻게 수행되는지 추적합니다.<!-- and [report on decisioning](cja-reporting.md).--> 그런 다음 실험 결과를 해석할 수 있습니다. [방법 알아보기](../content-management/get-started-experiment.md#interpret-results)
+
+실험의 결과가 결정적이라면 모든 고객에게 최상의 성과 순위로 처리를 푸시할 수 있습니다. 또는 가장 성과가 좋은 순위 방법이 복제되는 선택 전략을 사용하여 새 캠페인을 만들 수 있습니다.
