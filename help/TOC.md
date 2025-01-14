@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
-workflow-type: ht
-source-wordcount: '2193'
-ht-degree: 100%
+source-git-commit: a9efa676242b1e3453033c77f1f5afb9da931a3d
+workflow-type: tm+mt
+source-wordcount: '2154'
+ht-degree: 99%
 
 ---
 
@@ -396,8 +396,8 @@ ht-degree: 100%
       + [캠페인 실시간 보고서](using/reports/campaign-live-report.md)
       + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
       + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
-   + 업데이트된 보고 경험{#channel-report}
-      + [업데이트된 보고 경험 시작](using/reports/report-gs-cja.md)
+   + 모든 시간 보고서{#channel-report}
+      + [모든 시간 보고서 시작](using/reports/report-gs-cja.md)
       + [Customer Journey Analytics 수동 구성](using/reports/cja-ajo.md)
       + [보고서 관리](using/reports/report-cja-manage.md)
       + [보고 및 실험 전제 조건](using/reports/reporting-configuration.md)
@@ -425,18 +425,6 @@ ht-degree: 100%
       + [개요 보고서](using/reports/channel-report-cja.md)
       + [랜딩 페이지 보고서](using/reports/lp-report-global-cja.md)
       + [구독 목록 보고서](using/reports/subscription-report-global-cja.md)
-   + 이전 보고 경험 {#reports}
-      + 글로벌 보고서 {#global-report}
-         + [글로벌 보고서 시작](using/reports/global-report.md)
-         + [구성 요소 목록](using/reports/global-report-components.md)
-         + [여정 글로벌 보고서](using/reports/journey-global-report.md)
-         + [캠페인 글로벌 보고서](using/reports/campaign-global-report.md)
-         + [목표 보고서](using/reports/objective-report.md)
-         + [랜딩 페이지 글로벌 보고서](using/reports/lp-report-global.md)
-         + [구독 목록 글로벌 보고서](using/reports/subscription-report-global.md)
-      + 채널 보고서 {#channel-report}
-         + [동적 보고서 시작](using/reports/channel-report-gs.md)
-         + [채널 보고서](using/reports/channel-report.md)
    + 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
