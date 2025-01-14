@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 업데이트된 보고 환경
-description: 업데이트된 보고 경험 시작
+description: 모든 시간 보고서 시작
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
+source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '358'
 ht-degree: 15%
 
 ---
 
-# 업데이트된 보고 경험 시작 {#channel-report-gs-cja}
+# 모든 시간 보고서 시작 {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 
 * **Adobe Journey Optimizer에서 기본 데이터 보기로 설정** 설정을 사용하여 Customer Journey Analytics 데이터 보기를 구성해야 합니다. [데이터 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
-## 방법 비디오{#video}
+## 사용 방법 비디오{#video}
 
 아래 비디오에서는 Customer Journey Analytics과 함께 향상된 Journey Optimizer 보고를 사용하는 방법을 보여 줍니다.
 
