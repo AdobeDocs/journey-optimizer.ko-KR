@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: b3d1d02605ff5e759c665847efad2d78bef6a1cf
+source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1353'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 1%
 # 보고서 관리 {#channel-cja-manage}
 
 ## Customer Journey Analytics에서 분석 {#analyze}
+
+>[!AVAILABILITY]
+>
+> **CJA에서 분석** 기능은 [!DNL Customer Journey Analytics] 라이선스가 있는 사용자만 사용할 수 있습니다.
 
 ![](assets/cja-analyze.png)
 
@@ -211,3 +215,47 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 이제 여정 또는 캠페인으로 새로 생성된 대상자를 계속 사용할 수 있습니다.
 
+## 템플릿 관리 {#cja-template}
+
+>[!AVAILABILITY]
+>
+> **템플릿** 기능은 단계적으로 배포되며 1월 말까지 전체 일반 가용성이 계획되고 [!DNL Customer Journey Analytics] 라이선스를 가진 사용자만 사용할 수 있습니다.
+
+이제 Customer Journey Analytics 템플릿을 활용하여 Journey Optimizer 보고서를 향상시킬 수 있는 옵션이 제공됩니다. [Customer Journey Analytics 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+
+보고서에 액세스할 때 **[!UICONTROL 템플릿 선택]** 드롭다운에서 두 가지 템플릿 유형 중 하나를 선택할 수 있습니다.
+
+* Adobe 제공 기본 템플릿
+* 고객 생성 템플릿
+
+![](assets/cja_template_5.png)
+
+템플릿이 만들어지지 않은 경우 **[!UICONTROL 템플릿 선택]** 드롭다운이 보고 인터페이스에 표시되지 않습니다.
+
+템플릿을 만들려면 아래 단계를 수행하십시오.
+
+1. [!DNL Customer Journey Analytics]에서 **[!UICONTROL Workspace]** 메뉴로 이동한 다음 **[!UICONTROL Adobe 템플릿]**&#x200B;을 선택합니다. [사용 가능한 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+
+1. 미리 빌드된 사용 가능한 템플릿을 찾은 다음 **[!UICONTROL 템플릿 사용]**&#x200B;을 클릭하여 선택합니다.
+
+   ![](assets/cja_template_1.png)
+
+1. 필요에 맞게 보고서를 조정하십시오. [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+
+1. 사용자 지정 템플릿이 완성되면 **[!UICONTROL 프로젝트]** 메뉴에 액세스하고 **[!UICONTROL 템플릿으로 저장]**&#x200B;을(를) 선택하십시오.
+
+   ![](assets/cja_template_2.png)
+
+1. 템플릿에 필요한 세부 정보를 입력합니다. 자세한 내용은 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template)를 참조하세요.
+
+   >[!IMPORTANT]
+   >
+   > **[!UICONTROL 사용 사례]**&#x200B;에서 **Journey Optimizer**&#x200B;을(를) 선택하고 해당 **Journey Optimizer 활동 유형** 및 **활동**&#x200B;을(를) 지정하십시오. 이렇게 하면 보고서가 Journey Optimizer에 표시됩니다.
+
+   ![](assets/cja_template_3.png)
+
+1. [!DNL Journey Optimizer]의 보고서에서 보고서에 액세스하고 **[!UICONTROL 템플릿 선택]** 드롭다운에서 이전에 만든 템플릿을 선택합니다.
+
+   ![](assets/cja_template_4.png)
+
+여정 최적화 도구 보고서에서 템플릿을 직접 만들려면 캠페인 또는 여정 보고서에 액세스하여 **[!UICONTROL CJA에서 분석]**&#x200B;을 선택하고 위에 설명된 단계에 따라 기본 템플릿을 사용자 지정합니다.
