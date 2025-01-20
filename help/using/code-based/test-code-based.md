@@ -5,10 +5,11 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
+source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 26%
+source-wordcount: '707'
+ht-degree: 24%
 
 ---
 
@@ -95,6 +96,14 @@ ht-degree: 26%
      >
      >**Adobe Experience Platform Assurance**&#x200B;은(는) 모바일 앱에서 데이터를 수집하거나 경험을 제공하는 방법을 검사, 증명, 시뮬레이션 및 확인하는 데 도움이 되는 Adobe Experience Cloud의 제품입니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/home){target="_blank"}
 
+1. 코드 기반 구성에서 [다른 플랫폼](code-based-configuration.md#other)을 사용하는 경우 드롭다운 목록에서 미리 보려는 [표면 URI](code-based-surface.md#surface-uri)을(를) 선택하십시오.
+
+   ![](assets/preview-on-device-other.png)
+
+   * **[!UICONTROL 링크 복사]** 단추를 선택하여 링크를 브라우저 탭에 붙여넣거나 팀 및 관련자와 링크를 공유합니다.
+
+   * 구성에 URI를 여러 개 추가한 경우(최대 10개) 미리 볼 URI를 선택할 수 있습니다.
+
 1. 선택한 테스트 프로필에 대한 미리 보기 링크가 생성되며, 여정 또는 캠페인에서 [콘텐츠 실험](../content-management/content-experiment.md)을(를) 사용하는 경우 선택한 처리에 대해 미리 보기 링크가 생성됩니다.
 
    <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
@@ -103,7 +112,4 @@ ht-degree: 26%
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   >[!TIP]
-   >
-   >콘텐츠를 업데이트하거나 다른 테스트 프로필 또는 처리를 선택하면 미리 보기 링크가 자동으로 새로 고쳐집니다. 링크를 다른 브라우저 탭에 복사하고 경험을 비교할 수 있습니다.
-
+   콘텐츠를 업데이트하거나 다른 테스트 프로필 또는 처리를 선택하면 미리 보기 링크가 자동으로 새로 고쳐집니다. 링크를 다른 브라우저 탭에 복사하고 경험을 비교할 수 있습니다.
