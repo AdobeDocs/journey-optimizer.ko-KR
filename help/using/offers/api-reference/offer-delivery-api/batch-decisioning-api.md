@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
+source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '744'
 ht-degree: 3%
 
 ---
@@ -102,13 +102,14 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | 속성 | 설명 | 예 |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | 값은 대상자의 고유 식별자를 포함하는 배열입니다. 하나의 값만 포함할 수 있습니다. | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:activityId` | 결정에 대한 고유 식별자. |
 | `xdm:dataSetId` | 결정 이벤트를 쓸 수 있는 출력 데이터 집합입니다. | `6196b4a1a63bd118dafe093c` |
-| `xdm:propositionRequests` | `placementId` 및 `activityId`이(가) 포함된 래퍼입니다. |  |
-| `xdm:activityId` | 결정에 대한 고유 식별자. | `xcore:offer-activity:1410cdcda196707b` |
-| `xdm:placementId` | 고유 배치 식별자. | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:itemCount` | 결정 범위에 대해 요청된 옵션과 같은 항목의 수를 표시하는 선택적 필드입니다. 기본적으로 API는 범위당 하나의 옵션을 반환하지만 이 필드를 지정하여 추가 옵션을 명시적으로 요청할 수 있습니다. 범위당 최소 1개에서 최대 30개의 옵션을 요청할 수 있습니다. | `1` |
+| `xdm:enrichedAudience` | CSV 대상자를 타깃팅하는 경우 이 매개 변수를 추가하고 &quot;true&quot;로 설정합니다. | `true` |
 | `xdm:includeContent` | 선택적 필드이며 기본적으로 `false`입니다. `true`이면 오퍼 콘텐츠가 데이터 집합의 결정 이벤트에 포함됩니다. | `false` |
+| `xdm:itemCount` | 결정 범위에 대해 요청된 옵션과 같은 항목의 수를 표시하는 선택적 필드입니다. 기본적으로 API는 범위당 하나의 옵션을 반환하지만 이 필드를 지정하여 추가 옵션을 명시적으로 요청할 수 있습니다. 범위당 최소 1개에서 최대 30개의 옵션을 요청할 수 있습니다. | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:placementId` | 고유 배치 식별자. | `xcore:offer-placement:1410c4117306488a` |
+| `xdm:propositionRequests` | `placementId` 및 `activityId`이(가) 포함된 래퍼입니다. |
+| `xdm:segmentIds` | 값은 대상자의 고유 식별자를 포함하는 배열입니다. 하나의 값만 포함할 수 있습니다. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 주요 개념 및 속성에 대한 개요는 [의사 결정 관리 설명서](../../get-started/starting-offer-decisioning.md)를 참조하세요.
 
