@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: d9b64dd5bc1553583da23a24aadf4d15d0b6874f
+source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '817'
 ht-degree: 5%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 5%
 
 이 사용 사례에서는 [!DNL Journey Optimizer] 코드 기반 채널에서 Decisioning을 사용하는 데 필요한 모든 단계를 제공합니다.
 
-이 예에서는 특정 순위 공식이 사전 할당된 오퍼 우선 순위보다 더 나은 성과를 낼지 확신할 수 없습니다. 대상 대상에 가장 적합한 성과를 측정하려면 두 가지 게재 처리를 정의하는 [콘텐츠 실험](../content-management/content-experiment.md)을 사용하여 캠페인을 만듭니다.
+이 예에서는 특정 순위 공식이 사전 할당된 오퍼 우선 순위보다 더 나은 성과를 낼지 확신할 수 없습니다. 대상 대상에 대해 성과가 가장 좋은 경험을 측정하려면 두 개의 게재 처리를 정의하는 [콘텐츠 실험](../content-management/content-experiment.md)을 사용하여 캠페인을 만듭니다.
 
-* 첫 번째 처리에서는 우선 순위를 순위 방법으로 사용합니다.
-* 두 번째 처리에서는 순위 방법으로 공식을 사용합니다.
+* 첫 번째 처리에서는 순위 메서드로 **우선 순위**&#x200B;를 사용합니다.
+* 두 번째 처리에서는 **a 수식**&#x200B;을 순위 메서드로 사용합니다.
 
 ## 선택 전략 만들기
 
@@ -120,7 +120,7 @@ Define two delivery treatments each containing a different decision policy.-->
    >
    >선택 전략을 실행하지 않고도 **[!UICONTROL 결정 항목]**&#x200B;을 선택하여 단일 항목을 추가할 수도 있습니다. 각 항목에 대해 설정된 우선 순위가 적용됩니다.
 
-1. 생성한 첫 번째 전략을 선택합니다.
+1. 생성한 첫 번째 전략(우선 순위가 있는 전략)을 순위 방법으로 선택합니다.
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
@@ -136,10 +136,17 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
-1. 위의 단계를 반복하여 다른 결정 정책을 만들고 만든 두 번째 선택 전략을 선택합니다. <!--Do you need to create exactly the same content to compare only the ranking method?-->
+1. 위의 5단계와 6단계를 반복하여 다른 의사 결정 정책을 만들고 생성한 두 번째 선택 전략(공식이 있는 전략)을 순위 지정 방법으로 선택합니다. <!--Do you need to create exactly the same content to compare only the ranking method?-->
+
+   ![](assets/exd-uc-experiment-strategy-formula.png){width="90%"}
+
+1. 의사 결정 정책을 원하는 대로 편집합니다(위의 8단계 및 9단계 참조).
 
 1. 변경 내용을 저장하고 [코드 기반 경험 캠페인을 게시](../code-based/publish-code-based.md)합니다.
 
 실험을 실행한 후 [실험 캠페인 보고서](../reports/campaign-global-report-cja-experimentation.md)를 사용하여 캠페인 처리가 어떻게 수행되는지 추적합니다.<!-- and [report on decisioning](cja-reporting.md).--> 그런 다음 실험 결과를 해석할 수 있습니다. [방법 알아보기](../content-management/get-started-experiment.md#interpret-results)
 
-결과가 확정적인 경우 모든 고객에게 최상의 성과 등급으로 처리를 푸시할 수 있습니다. 또는 가장 성과가 좋은 순위 방법이 복제되는 선택 전략을 사용하여 새 캠페인을 만들 수 있습니다.
+결과가 확정적인 경우:
+
+* 모든 고객에게 최상의 성과 등급으로 처리를 푸시할 수 있습니다.
+* 또는 가장 성과가 좋은 순위 방법이 복제되는 선택 전략을 사용하여 새 캠페인을 만들 수 있습니다.
