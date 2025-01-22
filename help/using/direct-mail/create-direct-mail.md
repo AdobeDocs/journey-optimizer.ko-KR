@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 16%
+source-wordcount: '747'
+ht-degree: 18%
 
 ---
 
@@ -75,23 +75,17 @@ DM 캠페인을 만들려면 다음 단계를 수행합니다.
 >title="추출 파일 서식"
 >abstract="각 필드에 대해 개인화 편집기를 사용하여 표시할 레이블과 정보를 지정합니다. <br/><br/><b>정렬 기준</b> 옵션을 사용하면 선택한 필드를 통해 추출 파일의 열을 정렬할 수 있습니다."
 
-1. 추출 파일에 표시할 열과 정보를 구성합니다.
-
-   1. 새 열을 만들려면 **[!UICONTROL 추가]** 단추를 클릭하십시오.
-
-   1. 선택한 열을 설정할 수 있는 **[!UICONTROL 서식]** 창이 오른쪽에 표시됩니다. 열에 대해 **[!UICONTROL Label]**&#x200B;을(를) 지정하십시오.
-
-   1. **[!UICONTROL 데이터]** 필드에서 [개인화 편집기](../personalization/personalization-build-expressions.md)를 사용하여 표시할 프로필 특성을 선택합니다.
-
-   1. 열을 사용하여 추출 파일을 정렬하려면 열을 선택하고 **[!UICONTROL 정렬 기준]** 옵션을 켜십시오. **[!UICONTROL 데이터 필드]** 섹션에서 열 레이블 옆에 **[!UICONTROL 정렬 기준]** 아이콘이 표시됩니다.
-
 DM 공급자가 고객에게 메일을 보낼 때 추출 파일이 필요합니다. 추출 파일 구성을 정의하려면 다음 단계를 수행합니다.
 
 1. 캠페인 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 추출 파일 콘텐츠를 구성합니다.
 
 1. 추출 파일 속성을 조정합니다.
 
-   1. 추출 파일에 대해 원하는 **[!UICONTROL 파일 이름]**&#x200B;을 지정하십시오.
+   1. **[!UICONTROL 파일 이름]** 필드에 추출 파일의 이름을 지정하십시오.
+
+      >[!NOTE]
+      >
+      >기본적으로 파일은 루트 디렉토리에 기록됩니다. **[!UICONTROL 파일 이름]** 필드는 &quot;/your/path/here/Filename.csv&quot; 형식을 허용합니다. 여기서 지정된 경로는 선택한 서버의 대상 디렉터리입니다. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. 필요한 경우 지정된 파일 이름에 자동 타임스탬프를 추가하려면 **[!UICONTROL 타임스탬프를 파일 이름에 추가]** 옵션을 활성화합니다.
 
@@ -116,3 +110,4 @@ DM 공급자가 고객에게 메일을 보낼 때 추출 파일이 필요합니�
       열의 위치를 변경하려면 열을 **[!UICONTROL 데이터 필드]** 섹션의 원하는 위치로 끌어서 놓습니다. 열을 삭제하려면 열을 선택하고 **[!UICONTROL 서식]** 창에서 **[!UICONTROL 제거]** 단추를 클릭합니다.
 
 이제 DM 메시지를 테스트하여 대상자에게 보낼 수 있습니다. [DM 메시지를 테스트하고 보내는 방법 알아보기](test-send-direct-mail.md)
+
