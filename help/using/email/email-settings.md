@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
+source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
 workflow-type: tm+mt
-source-wordcount: '2735'
+source-wordcount: '2804'
 ht-degree: 11%
 
 ---
@@ -84,6 +84,11 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 ## 목록 구독 취소{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_unsubscribe_custom"
+>title="이메일 헤더에 구독 취소 URL 추가"
+>abstract="Adobe 외부에서 동의를 관리하는 경우 **고객 관리** 옵션을 선택하여 사용자 지정 구독 취소 이메일 주소와 원클릭 구독 취소 URL을 입력합니다. 이 경우 Adobe은 구독 취소 정보를 저장하지 않습니다. 귀하의 고객 동의 정보 소유자는 자신의 동의 데이터를 관리하고 이를 Journey Optimizer에 다시 푸시할 책임이 있습니다."
 
 목록에서 [하위 도메인](#subdomains-and-ip-pools)을 선택하면 **[!UICONTROL 목록 구독 취소 사용]** 옵션이 표시됩니다.
 
