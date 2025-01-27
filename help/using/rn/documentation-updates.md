@@ -8,16 +8,28 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
-workflow-type: ht
-source-wordcount: '5767'
-ht-degree: 100%
+source-git-commit: 1365e84642d08d2e196f350530a39eaf93cdcb5f
+workflow-type: tm+mt
+source-wordcount: '5888'
+ht-degree: 97%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer] 설명서 최신 업데이트 내용이 모두 포함되어 있습니다.
+
+## 2025년 1월 {#jan-2025}
+
+* 전자 메일 구성의 **[!UICONTROL 실행 주소]** 옵션에 대한 새 섹션이 추가되었습니다. 기본 주소는 샌드박스 수준에서 정의되지만 특정 이메일 구성에 대해 기본 설정을 무시할 수 있습니다. [자세히 보기](../email/email-settings.md#execution-address)
+
+* **게재 기능 시작** 페이지가 업데이트되어 사용자 인터페이스에서 직접 IP 준비 워크플로를 만들 수 있습니다. [자세히 보기](../reports/deliverability.md#reputation)
+
+* **헤더 매개 변수** 섹션이 사용자 인터페이스의 새 레이블 및 변경 사항을 반영하도록 업데이트되었습니다. [자세히 보기](../email/email-settings.md#email-header)
+
+* **전자 메일 전달** 섹션이 **전자 메일 보낸 사람** 주소로 보낸 모든 전자 메일을 전달 전자 메일 주소로 전달하도록 업데이트되었습니다. 전달 이메일을 지정하지 않으면 이러한 이메일이 무시됩니다. [자세히 보기](../email/email-settings.md##forward-email)
+
+<!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
 ## 2024년 12월 {#nov-2024}
 
@@ -30,7 +42,7 @@ ht-degree: 100%
 * 프로세스를 보다 명확하게 설명하도록 **코드 기반 경험 구성** 페이지를 개선했습니다. 표면 URI의 정의를 설명하는 섹션이 포함됩니다. [자세히 보기](../code-based/code-based-configuration.md)
 * **웹 채널 구성 만들기** 페이지에서 페이지 일치 규칙을 만드는 단계를 명확하게 설명하도록 업데이트했습니다. 이는 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
 * 시스템 생성 데이터 세트에 적용될 예정인 TTL(Time-to-Live) 가드레일에 대한 메모를 추가했습니다. [자세히 보기](../data/get-started-datasets.md)
-* 여정 또는 캠페인의 콘텐츠를 시뮬레이션할 때 디바이스에서 미리 보기 옵션을 사용하여 브라우저 또는 모바일 디바이스에서 코드 기반의 개인화된 경험을 편리하게 미리 보는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../code-based/test-code-based.md#preview-on-device)
+* 여정 또는 캠페인에서 콘텐츠를 시뮬레이션할 때 **장치에서 미리 보기** 옵션을 사용하여 브라우저 또는 모바일 장치에서 코드 기반의 개인화된 경험을 바로 미리 보는 방법을 설명하는 새 섹션이 추가되었습니다. [자세히 보기](../code-based/test-code-based.md#preview-on-device)
 * 의사 결정에 사용자 정의 업로드 대상자를 활용하는 방법에 대한 새 페이지를 추가했습니다. [자세히 보기](../offers/custom-upload-decisioning.md)
 * Journey Optimizer에서 사용할 수 있는 결정 기능을 소개하는 새 페이지가 추가되었습니다. [자세히 보기](../experience-decisioning/gs-decision.md)
 * 결정 설명서에 가드레일 및 제한 사항이 추가되었습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md#guardrails)
@@ -77,7 +89,7 @@ ht-degree: 100%
 * 2023년 4월 릴리스의 새로운 기능과 개선 사항에 [!DNL Journey Optimizer]대한 자세한 내용은 설명서에 있습니다. [자세히 보기](release-notes.md#apr-2024)
 * 인앱 메시지를 구성하는 단계가 자세히 설명되어 있습니다. [자세히 보기](../in-app/inapp-configuration.md)
 * [Offer Decisioning API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 및 [Batch decisioning API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 설명서가 업데이트되었습니다.
-* Edge Decisioning API로 빈도 제한을 사용할 때 에지 및 허브 영역 관리에 대한 정보가 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
+* Edge Decisioning API로 빈도 상한 설정을 사용할 때 에지 및 허브 영역 관리에 대한 정보가 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
 * API 트리거 캠페인을 사용할 때 사용자 지정 네임스페이스로 ID를 만드는 방법에 대한 정보를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md)
 * 향상된 여정 캔버스를 반영하도록 스크린샷이 업데이트되었습니다.
 * 다음 페이지에서 이름 지정 제한이 업데이트되었습니다. [단일 이벤트 구성](../event/about-creating.md), [비즈니스 이벤트 구성](../event/about-creating-business.md#gs-business-events), [사용자 정의 작업 구성](../action/about-custom-action-configuration.md#configuration-steps), [외부 데이터 소스](../datasource/external-data-sources.md)
@@ -96,7 +108,7 @@ ht-degree: 100%
    * E: 이벤트 기반 여정에서 이벤트를 트리거하는 데 사용되는 단축키.
    * P: 한 번에 한 프로필 옵션이 켜진 대상자 기반 여정의 이벤트를 트리거하는 단축키.
    * L: 테스트 로그를 표시하도록 지정된 단축키.
-* 메시지 빈도 규칙 페이지가 일별 빈도 상한에 대한 새 하위 섹션으로 업데이트되었습니다(주별 또는 월별 한도 외에도 필요에 따라 사용할 수 있음). [자세히 보기](../configuration/frequency-rules.md#daily-frequency-cap)
+* 메시지 빈도 규칙 페이지가 일별 빈도 상한에 대한 새 하위 섹션으로 업데이트되었습니다(주별 또는 월별 상한 설정 외에도 필요에 따라 사용할 수 있음). [자세히 보기](../configuration/frequency-rules.md#daily-frequency-cap)
 * 동의 정책 사용 페이지를 개선하고 Experience Platform 설명서에 대한 유용한 링크로 업데이트했습니다. [자세히 보기](../action/consent.md)
 * 그리드 보기 모드(제한된 가용성)에서 HTML 이메일 콘텐츠 템플릿을 썸네일로 표시할 수 있다는 사실을 반영한 새 섹션을 추가했습니다. [자세히 보기](../content-management/content-templates.md#template-thumbnails)
 * 전달성 페이지에 피드백 루프가 무엇이며 어떻게 활용할 수 있는지 설명하는 새 섹션을 추가했습니다. [자세히 보기](../reports/deliverability.md#feedback-loops)
@@ -143,7 +155,7 @@ ht-degree: 100%
 
 ## 2023년 11월 {#nov-2023}
 
-* 모든 사용자 정의 작업을 제한하는 가드레일이 30초 동안 호출 150,000회에서 1분 동안 호출 300,000회로 변경되었습니다. 또한 기본 빈도 설정이 더 이상 각 엔드포인트에 적용되지 않습니다. 이제 호스트 및 샌드박스별로 수행됩니다. 예를 들어 한 샌드박스에서 동일한 호스트를 사용하는 두 개의 엔드포인트가 있는 경우(예: `https://www.adobe.com/endpoint1` 및 `https://www.adobe.com/endpoint2`) 빈도 설정은 adobe.com 호스트 아래의 모든 엔드포인트에 대해 적용됩니다. “endpoint1”과 “endpoint2”가 동일한 빈도 설정 구성을 공유하며 한 엔드포인트에서 한도에 도달하면 다른 엔드포인트에도 영향을 줍니다. [자세히 보기](../action/about-custom-action-configuration.md)
+* 모든 사용자 정의 작업을 제한하는 가드레일이 30초 동안 호출 150,000회에서 1분 동안 호출 300,000회로 변경되었습니다. 또한 기본 상한 설정이 더 이상 각 엔드포인트에 적용되지 않습니다. 이제 호스트 및 샌드박스별로 수행됩니다. 예를 들어 한 샌드박스에서 동일한 호스트를 사용하는 두 개의 엔드포인트가 있는 경우(예: `https://www.adobe.com/endpoint1` 및 `https://www.adobe.com/endpoint2`) 상한 설정은 adobe.com 호스트 아래의 모든 엔드포인트에 대해 적용됩니다. “endpoint1”과 “endpoint2”가 동일한 상한 설정 구성을 공유하며 한 엔드포인트에서 한도에 도달하면 다른 엔드포인트에도 영향을 줍니다. [자세히 보기](../action/about-custom-action-configuration.md)
 * 이메일 캠페인의 새로운 상태가 캠페인 상태 목록에 추가되었습니다. [자세히 보기](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
 * Adobe Experience Platform 대상자 시작 섹션에 사용 가능한 대상자 평가 및 선택 방법을 반영하여 업데이트했습니다. [자세히 보기](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
 * 스트리밍 세분화 평가 방법을 사용하는 경우 대상자를 작성할 때 피해야 할 이벤트를 명시한 새 하위 섹션을 추가했습니다. [자세히 보기](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
@@ -172,7 +184,7 @@ ht-degree: 100%
   <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
 * 전송 시간 최적화를 위해 FAQ 섹션이 추가되었습니다. [자세히 보기](../building-journeys/journeys-message.md#faq-send-time)
-* 대상자 자격 활동에 대한 메모가 추가되었습니다. 활성화되어 대상자에 들어오거나 나가는 프로필을 듣는 데 최대 10분이 걸릴 수 있습니다. [자세히 보기](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
+* 대상자 선별 활동에 대한 메모가 추가되었습니다. 활성화되어 대상자에 들어오거나 나가는 프로필을 듣는 데 최대 10분이 걸릴 수 있습니다. [자세히 보기](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * 결정 규칙을 만들 때 알아야 할 제한 사항 목록이 의사 결정 관리 설명서에 추가되었습니다. [자세히 보기](../offers/offer-library/creating-decision-rules.md)
 * 액세스 제어 설명서에 대한 링크가 업데이트되었습니다. [자세히 보기](../administration/permissions.md)
 * Adobe Experience Platform 데이터 수집 세부 사항으로 인앱 채널 사전 요구 사항이 업데이트되었습니다. [자세히 보기](../in-app/inapp-configuration.md)
@@ -217,7 +229,7 @@ ht-degree: 100%
 * 자신의 프로필 데이터를 개인화에 사용하지 않도록 옵트아웃한 고객의 선택에 맞추어 작업하는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../privacy/opt-out.md#opt-out-personalization)
 * 이메일 콘텐츠에 포함된 URL에 특수 국제 문자를 사용하는 방법에 대한 메모를 추가했습니다. [자세히 보기](../email/message-tracking.md#insert-links)
 * 랜딩 페이지를 테스트하고 게시하는 데 필요한 권한을 추가했습니다. [자세히 보기](../landing-pages/create-lp.md)
-* 의사 결정 관리 빈도 설정에서 사용자 정의 이벤트를 고려하려면 필요한 Adobe Experience Platform 엔드포인트에 대한 메모를 추가했습니다. [자세히 보기](../offers/data-collection/schema-requirement.md#track-custom-events)
+* 의사 결정 관리 빈도 상한 설정에서 사용자 정의 이벤트를 고려하려면 필요한 Adobe Experience Platform 엔드포인트에 대한 메모를 추가했습니다. [자세히 보기](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023년 4월 {#apr-2023}
 
@@ -228,7 +240,7 @@ ht-degree: 100%
 * 다중 솔루션 통합 페이지에 Adobe Experience Manager Assets Essentials 및 Adobe Stock을 추가했습니다. [자세히 보기](../start/ajo-integrations.md)
 * 여러 수준의 이메일 하위 도메인을 허용하지 않는다는 경고를 제거했습니다. 이제 여러 수준의 하위 도메인 사용도 지원됩니다. [자세히 보기](../configuration/delegate-subdomain.md)
 * 여정의 메시지에 사용하고 있는 오퍼 의사 결정을 변경하는 경우 여정의 게시를 취소하고 다시 게시해야 한다는 점을 설명하는 메모를 추가했습니다. [자세히 보기](../building-journeys/publishing-the-journey.md)
-* 한도 설정 카운터에서 이벤트를 올바르게 계산하도록 설정하는 방법에 대해 의사 결정 관리 **이벤트 한도 설정** 섹션에 명확하게 설명했습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping-event)
+* 상한 설정 카운터에서 이벤트를 올바르게 계산하도록 설정하는 방법에 대해 의사 결정 관리 **이벤트 상한 설정** 섹션에 명확하게 설명했습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping-event)
 * **실행 주소 변경** 페이지에 새로운 섹션을 추가했습니다. 여정 고급 매개 변수에서 전역적으로 설정된 실행 필드를 무시할 수 있지만 이메일 주소 무시는 특정 사용 사례에만 사용해야 한다는 점을 설명하는 섹션입니다. 대부분의 경우 **실행 필드**&#x200B;에서 기본 주소로 정의된 값을 사용해야 합니다. [자세히 알아보기](../configuration/primary-email-addresses.md#journey-parameters)
 * 이제 **URL 추적** 섹션에서 이메일 채널 구성의 URL 추적에 대해 설정할 수 있는 상황별 속성 전체의 목록과 설명을 확인할 수 있습니다. [자세히 보기](../email/email-settings.md#url-tracking)
 
@@ -255,15 +267,15 @@ ht-degree: 100%
 ## 2023년 1월 {#jan-2023}
 
 * [!DNL Journey Optimizer] 2023년 1월 릴리스의 모든 새로운 기능 및 향상된 기능은 설명서에 자세히 설명되어 있습니다. [자세히 보기](release-notes.md)
-* 한도 설정 설명서에서 사용자 정의 인증 끝점에 대한 정보를 추가했습니다. [자세히 보기](../configuration/external-systems.md)
+* 상한 설정 설명서에서 사용자 정의 인증 끝점에 대한 정보를 추가했습니다. [자세히 보기](../configuration/external-systems.md)
 * 외부 데이터 소스 섹션에 새로운 사용자 정의 인증 예가 추가되었습니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-mode)
 * 이벤트가 트리거된 여정에 대한 데이터 수집 핵심 서비스(DCCS)에 대한 메모가 추가되었습니다. [자세히 보기](../start/guardrails.md#events-g)
-* ID 네임스페이스 검색에 대한 메모가 [대상자 읽기](../building-journeys/read-audience.md), [대상자 자격 조건](../building-journeys/audience-qualification-events.md) 및 [이벤트 만들기](../event/about-creating.md) 섹션에 추가되었습니다.
+* ID 네임스페이스 검색에 대한 메모가 [대상자 읽기](../building-journeys/read-audience.md), [대상자 선별](../building-journeys/audience-qualification-events.md) 및 [이벤트 만들기](../event/about-creating.md) 섹션에 추가되었습니다.
 * [!DNL Journey Optimizer]의 접근성 기능은 이제 전용 페이지에 취합되어 있습니다. [자세히 보기](../start/accessibility.md)
 * 고급 표현식 편집기 설명서의 연산자 섹션에서 예가 업데이트되었습니다. [자세히 보기](../building-journeys/expression/operators.md)
 * 오브젝트 배열을 사용한 조회 제한에 대한 메모가 추가되었습니다. [자세히 보기](../event/experience-event-schema.md#relationships_limitations)
 * [!DNL Journey Optimizer]에 데이터 관리에 대한 새 페이지를 추가했습니다. [자세히 보기](../data/gs-data.md)
-* Decisioning API를 사용하여 오퍼를 전달할 때 응답에서 반환할 수 있는 모든 코드를 나열하는 표를 추가했습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+* Decisioning API를 사용하여 오퍼를 전달할 때 응답에서 반환할 수 있는 모든 코드를 나열하는 테이블을 추가했습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 +++
 
@@ -346,7 +358,7 @@ ht-degree: 100%
 ## 2022년 5월 {#may-2022}
 
 * [!DNL Journey Optimizer] 2022년 5월 릴리스의 모든 새로운 기능 및 개선 사항에 대한 자세한 설명은 설명서에서 확인할 수 있습니다. [자세히 보기](release-notes.md)
-* [대상자 자격 조건](../reports/query-examples.md#segment-qualification-queries)과 [이벤트](../reports/query-examples.md#event-based-queries) 관련 쿼리 예시를 새로 추가했습니다.
+* [대상자 선별](../reports/query-examples.md#segment-qualification-queries)과 [이벤트](../reports/query-examples.md#event-based-queries) 관련 쿼리 예시를 새로 추가했습니다.
 * 이제 이메일 디자인 섹션에 콘텐츠를 시작할 수 있는 새로운 기본 제공 템플릿이 설명되어 있습니다. 관련 스크린샷이 업데이트되었습니다. [자세히 보기](../email/get-started-email-design.md)
 * 주요 리소스에 대한 링크가 Journey Optimizer 설명서 홈페이지에 업데이트되었습니다.
 * 랜딩 페이지 및 구독 보고에 대한 스크린샷이 업데이트되었습니다. [자세히 보기](../reports/live-report.md)
@@ -373,7 +385,7 @@ ht-degree: 100%
 * 테스트 프로필 만들기 페이지를 **대상자, 프로필, ID** 섹션으로 옮겼습니다. [자세히 보기](../audience/creating-test-profiles.md)
 * 표현식 편집기에서 표현식을 기본값으로 추가하는 방법에 대한 예를 추가했습니다. [자세히 보기](../building-journeys/expression/field-references.md#default-value)
 * 읽기 쉽도록 **개인화된 오퍼 만들기** 섹션을 재구성했습니다. [자세히 보기](../offers/offer-library/creating-personalized-offers.md)
-* 오퍼의 시작 및/또는 종료 날짜를 변경할 경우 이 오퍼의 게재 빈도 설정에 발생할 수 있는 영향을 설명하는 새 섹션이 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping-change-date)
+* 오퍼의 시작 및/또는 종료 날짜를 변경할 경우 이 오퍼의 게재 빈도 상한 설정에 발생할 수 있는 영향을 설명하는 새 섹션이 추가되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping-change-date)
 * **기본 이메일 주소 변경** 섹션이 사용자 인터페이스 변경 사항을 반영하도록 업데이트되었습니다. [자세히 보기](../configuration/primary-email-addresses.md)
 
 ## 2022년 2월 {#feb-2022}
