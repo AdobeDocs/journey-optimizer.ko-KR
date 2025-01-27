@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
+source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2801'
 ht-degree: 11%
 
 ---
@@ -83,12 +83,12 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 ## 목록 구독 취소{#list-unsubscribe}
 
-<!--Do not modify - Legal Review Done -->
-
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="이메일 헤더에 구독 취소 URL 추가"
+>title="사용자 지정 목록 구독 취소 끝점 입력"
 >abstract="Adobe 외부에서 동의를 관리하는 경우 **고객 관리** 옵션을 선택하여 사용자 지정 구독 취소 이메일 주소와 원클릭 구독 취소 URL을 입력합니다. 이 경우 Adobe은 구독 취소 정보를 저장하지 않습니다. 귀하의 고객 동의 정보 소유자는 자신의 동의 데이터를 관리하고 이를 Journey Optimizer에 다시 푸시할 책임이 있습니다."
+
+<!--Do not modify - Legal Review Done -->
 
 목록에서 [하위 도메인](#subdomains-and-ip-pools)을 선택하면 **[!UICONTROL 목록 구독 취소 사용]** 옵션이 표시됩니다.
 
@@ -123,13 +123,13 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 **[!UICONTROL Mailto(구독 취소)]** 기능 및 **[!UICONTROL 한 번의 클릭으로 구독 취소 URL]** 기능은 선택 사항입니다.
 
-생성된 기본 원클릭 구독 취소 URL을 사용하지 않으려면 이 기능을 선택 취소할 수 있습니다. **[!UICONTROL 목록 구독 취소 사용]** 옵션이 전환되고 **[!UICONTROL 한 번 클릭 구독 취소 URL]** 기능이 선택 취소되는 시나리오에서 이 구성을 사용하여 만든 메시지에 [한 번 클릭 옵트아웃 링크](../privacy/opt-out.md#one-click-opt-out)를 추가하면 목록 구독 취소 헤더에서 전자 메일 본문에 삽입한 한 한 한 번 클릭 옵트아웃 링크를 선택하고 이를 한 번 클릭 구독 취소 URL 값으로 사용합니다.
+생성된 기본 원클릭 구독 취소 URL을 사용하지 않으려면 이 기능을 선택 취소할 수 있습니다. **[!UICONTROL 목록 구독 취소 사용]** 옵션이 전환되고 **[!UICONTROL 한 번 클릭 구독 취소 URL]** 기능이 선택 취소되는 시나리오에서 이 구성을 사용하여 만든 메시지에 [한 번 클릭 옵트아웃 링크](../email/email-opt-out.md#one-click-opt-out)를 추가하면 목록 구독 취소 헤더에서 전자 메일 본문에 삽입한 한 한 한 번 클릭 옵트아웃 링크를 선택하고 이를 한 번 클릭 구독 취소 URL 값으로 사용합니다.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 원클릭 구독 취소 URL이 선택 해제된 경우 URL이 목록 구독 취소 헤더의 일부로 이메일 헤더에 전달되지 않습니다.
+>메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;을(를) 선택 취소한 경우 목록 구독 취소 헤더의 일부로 이메일 헤더에 URL이 전달되지 않습니다.
 
 [이 섹션](../email/email-opt-out.md#unsubscribe-header)에서 메시지의 구독 취소 기능을 관리하는 방법에 대해 자세히 알아보세요.
 
