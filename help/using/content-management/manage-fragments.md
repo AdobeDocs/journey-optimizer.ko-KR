@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 25%
+source-wordcount: '1062'
+ht-degree: 11%
 
 ---
 
@@ -35,10 +35,12 @@ ht-degree: 25%
 
 각 조각 옆에 있는 **[!UICONTROL 추가 작업]** 단추에서 다음을 수행할 수 있습니다.
 
+<!--* Add to package
+* Open draft version-->
 * 조각을 복제합니다.
 * **[!UICONTROL 참조 탐색]** 옵션을 사용하여 여정, 캠페인 또는 템플릿이 사용되는 위치를 확인하십시오. [자세히 알아보기](#explore-references)
-* 조각 보관 [자세히 알아보기](#archive-fragments)
-* 조각의 태그를 편집합니다. [통합 태그를 사용하여 작업하는 방법을 알아봅니다.](../start/search-filter-categorize.md#tags).
+* 조각을 보관합니다. [자세히 알아보기](#archive-fragments)
+* 조각의 태그를 편집합니다. [통합 태그를 사용하여 작업하는 방법을 알아봅니다](../start/search-filter-categorize.md#tags)
 
 ![](assets/fragment-list-more-actions.png)
 
@@ -47,7 +49,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="새로운 조각 상태"
->abstract="**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 “초안” 상태입니다. 이러한 조각을 변경할 경우 해당 조각을 게시하여 “라이브”로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. <br/>게시하려면 <a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">조각 게시</a> 사용자 권한이 필요합니다."
+>abstract="**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스와 함께 도입되었으므로 이 릴리스 전에 만들어진 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 이러한 조각을 변경하는 경우 해당 조각을 게시하여 **Live**&#x200B;로 설정하고 변경 내용을 관련 캠페인 및 여정에 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. <br/>게시하려면 <a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">조각 게시</a> 사용자 권한이 필요합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="콘텐츠 조각 권한에 대해 자세히 알아보기"
 
 조각에는 여러 상태가 있을 수 있습니다.
@@ -63,7 +65,7 @@ ht-degree: 25%
 
 >[!CAUTION]
 >
->**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 “초안” 상태입니다. 이러한 조각을 변경할 경우 해당 조각을 게시하여 “라이브”로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 [Publish 조각](../administration/ootb-product-profiles.md#content-library-manager) 사용자 권한이 필요합니다.
+>**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스와 함께 도입되었으므로 이 릴리스 전에 만들어진 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 이러한 조각을 변경하는 경우 해당 조각을 게시하여 **Live**&#x200B;로 설정하고 변경 내용을 관련 캠페인 및 여정에 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 [Publish 조각](../administration/ootb-product-profiles.md#content-library-manager) 사용자 권한이 필요합니다.
 
 ## 조각 편집 {#edit-fragments}
 
@@ -83,21 +85,47 @@ ht-degree: 25%
 
 1. 조각 속성이 콘텐츠 미리보기와 함께 열립니다.
 
-1. 편집 중인 조각의 상태가 **Live**&#x200B;인 경우 **수정** 단추를 클릭하여 조각의 초안 버전을 만드십시오. 조각의 현재 버전은 초안 버전을 게시하기 전까지 계속 활성 상태가 됩니다.
-
-1. 원하는 대로 조각을 변경합니다. 콘텐츠를 편집하려면 **편집** 단추를 클릭한 다음 조각을 처음부터 만들 때와 같이 콘텐츠를 편집하십시오. [조각을 만드는 방법을 알아봅니다](#create-from-scratch)
+1. 편집 중인 조각의 상태가 **[!UICONTROL Live]**&#x200B;인 경우 **[!UICONTROL 수정]** 단추를 클릭하여 조각의 초안 버전을 만드십시오.
 
    >[!NOTE]
    >
-   >조각을 편집할 때 개인화 필드를 제거할 수 있지만 조각 콘텐츠에 새 개인화 필드를 추가할 수는 없습니다. 개인화 필드를 추가하려면 조각을 복제하여 새 조각을 만드십시오.
+   >조각의 현재 버전은 초안 버전을 게시하기 전까지 계속 활성 상태가 됩니다.
 
-   **탐색기 참조** 옵션을 선택하여 현재 조각이 사용 중인 여정, 캠페인 및 콘텐츠 템플릿 목록을 확인할 수도 있습니다. [자세히 알아보기](#explore-references)
+1. 원하는 대로 조각을 변경합니다. 콘텐츠를 편집하려면 **[!UICONTROL 편집]** 단추를 클릭하고 처음부터 조각을 만들 때와 마찬가지로 콘텐츠를 업데이트하십시오. [조각을 만드는 방법을 알아봅니다](#create-from-scratch)
+
+   >[!NOTE]
+   >
+   >게시된 조각을 편집할 때 개인화 필드를 제거할 수 있지만 조각 콘텐츠에 새 개인화 필드를 추가할 수는 없습니다. 개인화된 속성을 추가하려면 조각을 복제해야 합니다. [자세히 알아보기](#adding-new-attributes)
+
+1. **탐색기 참조** 옵션을 선택하여 현재 조각이 사용 중인 여정, 캠페인 및 콘텐츠 템플릿 목록을 확인할 수도 있습니다. [자세히 알아보기](#explore-references)
 
    ![](assets/fragment-edit.png)
 
 1. 변경 사항이 준비되면 **Publish** 단추를 클릭하여 수정 사항을 실시간으로 적용합니다.
 
-조각을 편집하면 원본 조각의 상속을 중단한 콘텐츠를 제외하고 라이브 여정 및 캠페인을 포함하여 해당 조각을 사용하는 모든 콘텐츠에 변경 사항이 자동으로 전파됩니다. [전자 메일에 시각적 조각 추가](../email/use-visual-fragments.md#break-inheritance) 및 [식 조각 활용](../personalization/use-expression-fragments.md#break-inheritance) 섹션에서 상속을 중단하는 방법을 알아봅니다.
+조각을 편집하면 원래 조각의 상속을 중단한 콘텐츠를 제외하고, 라이브 여정 및 캠페인을 포함하여 해당 조각을 사용하는 모든 콘텐츠에 변경 사항이 자동으로 전파됩니다.
+
+>[!NOTE]
+>
+>[전자 메일에 시각적 조각 추가](../email/use-visual-fragments.md#break-inheritance) 및 [식 조각 활용](../personalization/use-expression-fragments.md#break-inheritance) 섹션에서 상속을 중단하는 방법을 알아봅니다.
+
+## 라이브 조각에 새 속성 추가 {#adding-new-attributes}
+
+>[!WARNING]
+>
+>라이브 조각에 새 특성을 추가할 수 없습니다.
+
+조각이 게시되면 해당 조각을 참조하는 모든 캠페인 및 여정에 대해 개인화된 또는 상황별 속성 세트가 잠깁니다.
+
+라이브 조각에 추가 속성을 통합하려면 아래 단계를 따르십시오.
+
+1. 기존 조각을 복제합니다.
+
+1. 필요한 속성을 복제된 초안 버전에 추가합니다.
+
+1. 새 버전을 Publish 합니다.
+
+1. 캠페인 또는 여정을 업데이트하여 새 속성이 추가된 업데이트된 조각을 참조합니다.
 
 ## 참조 탐색 {#explore-references}
 

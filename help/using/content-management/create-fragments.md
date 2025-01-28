@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 14%
 
   ![](assets/fragment-expression-editor.png)
 
-콘텐츠가 준비되면 **저장** 단추를 클릭합니다. 조각이 만들어지고 **초안** 상태의 조각 목록에 추가됩니다. 이를 미리 보고 게시하여 여정 및 캠페인에서 사용할 수 있도록 할 수 있습니다.
+콘텐츠가 준비되면 **[!UICONTROL 저장]** 단추를 클릭합니다. 조각이 만들어지고 **[!UICONTROL 초안]** 상태의 조각 목록에 추가됩니다. 이를 미리 보고 게시하여 여정 및 캠페인에서 사용할 수 있도록 할 수 있습니다.
 
 ## 조각 미리보기 및 게시 {#publish}
 
@@ -79,23 +79,23 @@ ht-degree: 14%
 >
 >조각을 게시하려면 [Publish 조각](../administration/ootb-product-profiles.md#content-library-manager) 사용자 권한이 있어야 합니다.
 
-조각의 실행이 준비되면 미리 보고 게시하여 여정 및 캠페인에서 사용할 수 있도록 할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
+조각의 실행이 준비되면 미리 보고 게시하여 여정 및 캠페인에서 사용할 수 있도록 할 수 있습니다. 그 방법은 다음과 같습니다.
 
 1. 콘텐츠를 디자인한 후 조각 만들기 화면으로 돌아가거나 조각 목록에서 엽니다.
 
-1. **태그** 필드에서 조각 미리 보기를 사용하여 렌더링을 확인할 수 있습니다. 변경해야 하는 경우 화면 상단의 **편집** 단추를 클릭하여 조각 유형에 따라 전자 메일 Designer 또는 개인화 편집기를 엽니다.
+1. **[!UICONTROL 태그]** 필드에서 조각 미리 보기를 사용하여 렌더링을 확인할 수 있습니다. 변경해야 하는 경우 화면 상단의 **[!UICONTROL 편집]** 단추를 클릭하여 조각 유형에 따라 전자 메일 Designer 또는 개인화 편집기를 엽니다.
 
    ![](assets/fragment-preview.png)
 
-1. 조각을 게시하려면 오른쪽 상단의 **Publish** 단추를 클릭하십시오.
+1. 조각을 게시하려면 오른쪽 상단의 **[!UICONTROL Publish]** 단추를 클릭하십시오.
 
-   조각이 라이브 여정 또는 캠페인에서 사용 중인 경우 알려주는 메시지가 열립니다. 참조되는 여정 및/또는 캠페인 목록에 액세스하려면 **자세히 보기** 링크를 클릭하십시오. [조각의 참조를 탐색하는 방법 알아보기](../content-management/manage-fragments.md#explore-references)
-
-   조각을 게시하고 이를 사용하는 실시간 여정/캠페인에서 업데이트하려면 **확인**&#x200B;을 클릭합니다.
+1. 조각이 라이브 여정 또는 캠페인에서 사용 중인 경우 알려주는 메시지가 열립니다. 참조되는 여정 및/또는 캠페인 목록에 액세스하려면 **[!UICONTROL 자세히 보기]** 링크를 클릭하십시오. [조각의 참조를 탐색하는 방법 알아보기](../content-management/manage-fragments.md#explore-references)
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-이제 조각은 **Live**&#x200B;이며 [!DNL Journey Optimizer] 전자 메일 Designer 또는 개인화 편집기 내에서 콘텐츠를 빌드할 때 사용할 수 있습니다.
+   조각을 게시하고 이를 사용하는 실시간 여정/캠페인에서 업데이트하려면 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+
+이제 조각은 **[!UICONTROL Live]**&#x200B;이며 [!DNL Journey Optimizer] 전자 메일 Designer 또는 개인화 편집기 내에서 콘텐츠를 빌드할 때 사용할 수 있습니다.
 
 * [시각적 조각 사용 방법 알아보기](../email/use-visual-fragments.md)
 * [표현식 조각 사용 방법 알아보기](../personalization/use-expression-fragments.md)
