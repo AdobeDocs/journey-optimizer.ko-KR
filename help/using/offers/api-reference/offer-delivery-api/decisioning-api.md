@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 8c7fca7789931fbae6ac5d4821bc051ff9eb0923
+source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 2%
@@ -65,8 +65,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 -d '{
     "xdm:propositionRequests": [
         {
-            "xdm:activityId": "xcore:offer-activity:15ded04b1786ea27",
-            "xdm:placementId": "xcore:offer-placement:15d9bc01d35e1238"
+            "xdm:activityId": "dps:offer-activity:15ded04b1786ea27",
+            "xdm:placementId": "dps:offer-placement:15d9bc01d35e1238"
         }
     ],
     "xdm:profiles": [
@@ -105,8 +105,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | 속성 | 설명 | 예 |
 | -------- | ----------- | ------- |
 | `xdm:propositionRequests` | 이 개체에는 배치 및 의사 결정 식별자가 포함되어 있습니다. |
-| `xdm:propositionRequests.xdm:placementId` | 고유 배치 식별자. | `"xdm:placementId": "xcore:offer-placement:ffed0456"` |
-| `xdm:propositionRequests.xdm:activityId` | 고유 의사 결정 식별자. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
+| `xdm:propositionRequests.xdm:placementId` | 고유 배치 식별자. | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
+| `xdm:propositionRequests.xdm:activityId` | 고유 의사 결정 식별자. | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 반환할 오퍼 수입니다. 최대 숫자는 30입니다. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | 이 개체에는 결정이 요청된 프로필에 대한 정보가 들어 있습니다. API 요청의 경우 하나의 프로필이 포함됩니다. |
 | `xdm:profiles.xdm:identityMap` | 이 개체에는 ID의 네임스페이스 통합 코드를 기반으로 하는 최종 사용자 ID 세트가 들어 있습니다. ID 맵에는 각 네임스페이스의 ID가 두 개 이상 포함될 수 있습니다. 네임스페이스에 대한 자세한 내용은 [이 페이지](../../../audience/get-started-identity.md)를 참조하세요. | `Email: [{"xdm:id": "123@abc.com"}]` |
@@ -132,22 +132,22 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
   "xdm:propositions": [
     {
       "xdm:activity": {
-        "xdm:id": "xcore:activity:ffed0123",
+        "xdm:id": "dps:activity:ffed0123",
         "repo:etag": 4
       },
       "xdm:placement": {
-        "xdm:id": "xcore:placement:ffed0456",
+        "xdm:id": "dps:placement:ffed0456",
         "repo:etag": 1
       },
       "xdm:options": [
         {
-          "xdm:id": "xcore:personalized-option:ccc0111",
+          "xdm:id": "dps:personalized-option:ccc0111",
           "repo:etag": 3,
           "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
           "xdm:content": "<html>some html</html>"
         },
         {
-          "xdm:id": "xcore:personalized-option:ccc0222",
+          "xdm:id": "dps:personalized-option:ccc0222",
           "repo:etag": 5,
           "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
           "xdm:content": "<html>hello, world</html>",
@@ -157,15 +157,15 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
     },
     {
       "xdm:activity": {
-        "xdm:id": "xcore:activity:ffed0123",
+        "xdm:id": "dps:activity:ffed0123",
         "repo:etag": 4
       },
       "xdm:placement": {
-        "xdm:id": "xcore:placement:ffed0789",
+        "xdm:id": "dps:placement:ffed0789",
         "repo:etag": 2
       },
       "xdm:fallback": {
-        "xdm:id": "xcore:fallback:ccc0222",
+        "xdm:id": "dps:fallback:ccc0222",
         "repo:etag": 5,
         "@type": "https://ns.adobe.com/experience/decisioning/content-component-imagelink",
         "dc:format": "image/png",
@@ -182,13 +182,13 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | XDM DecisionEvent와 연계된 제안 엔티티에 대한 고유 식별자. | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
 | `xdm:propositions` | 이 대상은 단일 결정 제안을 포함합니다. 결정을 위해 여러 옵션이 반환될 수 있습니다. 옵션을 찾을 수 없으면 의사 결정의 대체 오퍼가 반환됩니다. 단일 결정 제안에 항상 `options` 속성 또는 `fallback` 속성이 포함됩니다. 존재하는 경우 `options` 속성은 비워 둘 수 없습니다. |
-| `xdm:propositions.xdm:activity` | 이 개체에는 의사 결정에 대한 고유 식별자가 들어 있습니다. | `"xdm:id": "xcore:activity:ffed0123"` |
-| `xdm:propositions.xdm:placement` | 이 개체에는 오퍼 배치에 대한 고유 식별자가 들어 있습니다. | `"xdm:id": "xcore:placement:ffed0456"` |
-| `xdm:propositions.xdm:options` | 이 개체에는 고유 식별자를 포함한 단일 옵션이 있습니다. 존재하는 경우 해당 객체는 비워둘 수 없습니다. | `xdm:id": "xcore:personalized-option:ccc0111` |
+| `xdm:propositions.xdm:activity` | 이 개체에는 의사 결정에 대한 고유 식별자가 들어 있습니다. | `"xdm:id": "dps:activity:ffed0123"` |
+| `xdm:propositions.xdm:placement` | 이 개체에는 오퍼 배치에 대한 고유 식별자가 들어 있습니다. | `"xdm:id": "dps:placement:ffed0456"` |
+| `xdm:propositions.xdm:options` | 이 개체에는 고유 식별자를 포함한 단일 옵션이 있습니다. 존재하는 경우 해당 객체는 비워둘 수 없습니다. | `xdm:id": "dps:personalized-option:ccc0111` |
 | `xdm:propositions.xdm:options.@type` | 구성 요소의 유형을 정의합니다. `@type`은(는) 클라이언트의 처리 계약 역할을 합니다. 경험이 어셈블되면 작성기는 특정 유형의 구성 요소를 찾습니다. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
 | `xdm:propositions.xdm:content` | 응답 콘텐츠의 형식입니다. | 응답 콘텐츠는 `text`, `html block` 또는 `image link`일 수 있습니다. |
 | `xdm:score` | 옵션 또는 결정과 연관된 순위 함수의 결과로 계산되는 옵션에 대한 점수입니다. 순위 지정 중에 오퍼의 점수를 결정하는 데 순위 지정 기능이 관련된 경우 API에서 이 필드를 반환합니다. | `"xdm:score": 45.65` |
-| `xdm:propositions.xdm:fallback` | 이 개체에는 고유 식별자를 포함한 단일 대체 오퍼가 포함되어 있습니다. | `"xdm:id": "xcore:fallback:ccc0222"` |
+| `xdm:propositions.xdm:fallback` | 이 개체에는 고유 식별자를 포함한 단일 대체 오퍼가 포함되어 있습니다. | `"xdm:id": "dps:fallback:ccc0222"` |
 | `xdm:propositions.xdm:fallback.dc:format` | 리소스의 물리적 또는 디지털 표현입니다. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 포맷은 리소스를 표시하거나 운영하기 위해 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정하는 데 사용될 수 있다. 컴퓨터 미디어 형식을 정의하는 [인터넷 미디어 유형](https://www.iana.org/assignments/media-types/) 목록과 같은 통제 어휘에서 값을 선택하는 것이 좋습니다. | `"dc:format": "image/png"` 또는 `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | 컨텐츠 전달 네트워크 또는 서비스 끝점에서 자산을 읽는 선택적 URL입니다. 이 URL은 사용자 에이전트에서 공개적으로 자산에 액세스하는 데 사용됩니다. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 의사 결정 응답 메시지를 만든 시간입니다. 이는 획기적인 시간으로 표현됩니다. | `"ode:createDate": 1566497582038` |
