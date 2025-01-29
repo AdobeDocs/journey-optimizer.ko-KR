@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
+source-git-commit: f415209a7a62c8b7936abdb474b1b5b70c788973
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 2%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 2%
 [!DNL Decisioning] API에 POST 요청을 하여 오퍼를 만들고 게재할 수 있습니다.
 
 이 자습서에서는 특히 의사 결정 관리에 대해 API를 이해하고 있어야 합니다. 자세한 내용은 [의사 결정 관리 API 개발자 안내서](../getting-started.md)를 참조하십시오. 또한 이 자습서에서는 고유한 배치 ID와 의사 결정 ID 값을 사용할 수 있어야 합니다. 이 값을 획득하지 않은 경우 [배치 만들기](../offers-api/placements/create.md) 및 [의사 결정 만들기](../activities-api/activities/create.md)에 대한 튜토리얼을 참조하십시오.
-
-➡️0}비디오에서 이 기능 살펴보기](#video)[
 
 ## 필수 헤더 {#required-headers}
 
