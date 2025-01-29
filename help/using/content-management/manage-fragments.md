@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
+source-git-commit: abbc5c77545f30ac2d70d718f605acd30f7e7830
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 11%
+source-wordcount: '1075'
+ht-degree: 12%
 
 ---
 
@@ -81,27 +81,31 @@ ht-degree: 11%
 
 조각을 편집하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 조각]** 목록에서 원하는 조각을 클릭합니다.
+1. **[!UICONTROL 조각]** 목록에서 원하는 조각을 클릭합니다. 조각 속성 화면이 열리고 콘텐츠 미리보기가 표시됩니다.
 
-1. 조각 속성이 콘텐츠 미리보기와 함께 열립니다.
+1. **[!UICONTROL 참조 탐색]** 옵션을 선택하여 현재 조각이 사용 중인 여정, 캠페인 및 콘텐츠 템플릿 목록을 확인할 수 있습니다. [자세히 알아보기](#explore-references)
+
+   ![](assets/fragment-edit-references.png)
 
 1. 편집 중인 조각의 상태가 **[!UICONTROL Live]**&#x200B;인 경우 **[!UICONTROL 수정]** 단추를 클릭하여 조각의 초안 버전을 만드십시오.
 
+   <!--![](assets/fragment-live-modify.png)-->
+
    >[!NOTE]
    >
-   >조각의 현재 버전은 초안 버전을 게시하기 전까지 계속 활성 상태가 됩니다.
+   >조각의 현재 버전은 새로 업데이트된 버전을 게시하기 전까지 계속 활성 상태가 됩니다.
 
-1. 원하는 대로 조각을 변경합니다. 콘텐츠를 편집하려면 **[!UICONTROL 편집]** 단추를 클릭하고 처음부터 조각을 만들 때와 마찬가지로 콘텐츠를 업데이트하십시오. [조각을 만드는 방법을 알아봅니다](#create-from-scratch)
+1. 원하는 대로 조각을 변경합니다.
+
+1. 콘텐츠를 수정하려면 **[!UICONTROL 편집]** 단추를 클릭하고 조각을 처음부터 만들 때와 마찬가지로 콘텐츠를 업데이트하십시오. [조각을 만드는 방법을 알아봅니다](#create-from-scratch)
+
+   ![](assets/fragment-edit.png)
 
    >[!NOTE]
    >
    >게시된 조각을 편집할 때 개인화 필드를 제거할 수 있지만 조각 콘텐츠에 새 개인화 필드를 추가할 수는 없습니다. 개인화된 속성을 추가하려면 조각을 복제해야 합니다. [자세히 알아보기](#adding-new-attributes)
 
-1. **탐색기 참조** 옵션을 선택하여 현재 조각이 사용 중인 여정, 캠페인 및 콘텐츠 템플릿 목록을 확인할 수도 있습니다. [자세히 알아보기](#explore-references)
-
-   ![](assets/fragment-edit.png)
-
-1. 변경 사항이 준비되면 **Publish** 단추를 클릭하여 수정 사항을 실시간으로 적용합니다.
+1. 변경 사항이 준비되면 변경 사항을 저장하고 **Publish** 단추를 클릭하여 수정 사항을 실시간으로 적용합니다.
 
 조각을 편집하면 원래 조각의 상속을 중단한 콘텐츠를 제외하고, 라이브 여정 및 캠페인을 포함하여 해당 조각을 사용하는 모든 콘텐츠에 변경 사항이 자동으로 전파됩니다.
 
@@ -113,17 +117,19 @@ ht-degree: 11%
 
 >[!WARNING]
 >
->라이브 조각에 새 특성을 추가할 수 없습니다.
+>라이브 조각에 새 [개인화된 특성](../personalization/personalization-build-expressions.md)을(를) 추가할 수 없습니다.
 
 조각이 게시되면 해당 조각을 참조하는 모든 캠페인 및 여정에 대해 개인화된 또는 상황별 속성 세트가 잠깁니다.
 
 라이브 조각에 추가 속성을 통합하려면 아래 단계를 따르십시오.
 
-1. 기존 조각을 복제합니다.
+1. **[!UICONTROL 추가 작업]** 단추를 사용하여 기존 조각을 복제합니다.
 
-1. 필요한 속성을 복제된 초안 버전에 추가합니다.
+   ![](assets/fragment-list-more-actions.png)
 
-1. 새 버전을 Publish 합니다.
+1. [새 원하는 특성을 복제 초안 버전에 추가](../personalization/personalization-build-expressions.md#add)합니다.
+
+1. 새 버전을 Publish 합니다. [방법 알아보기](create-fragments.md#publish)
 
 1. 캠페인 또는 여정을 업데이트하여 새 속성이 추가된 업데이트된 조각을 참조합니다.
 
