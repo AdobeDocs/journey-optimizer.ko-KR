@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 5951428b9317af9c1e40fac64f0d18c6c80c15b0
+source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 13%
+source-wordcount: '626'
+ht-degree: 14%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 1. 개선된 검색을 위해 조각을 분류하려면 **[!UICONTROL 태그]** 필드에서 Adobe Experience Platform 태그를 선택하거나 만드십시오. [통합 태그를 사용하여 작업하는 방법을 알아봅니다](../start/search-filter-categorize.md#tags)
 
-1. 조각 유형을 선택하십시오. **시각적 조각** 또는 **표현식 조각**. [시각적 및 식 조각에 대해 자세히 알아보기](../content-management/fragments.md#visual-expression)
+1. 조각 유형을 선택하십시오. **시각적 조각** 또는 **표현식 조각**. [자세히 알아보기](../content-management/fragments.md#visual-expression)
 
    >[!NOTE]
    >
