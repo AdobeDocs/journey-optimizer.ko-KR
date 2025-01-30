@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
 workflow-type: tm+mt
 source-wordcount: '2854'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -86,7 +86,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
 >title="사용자 지정 목록 구독 취소 끝점 입력"
->abstract="Adobe 외부에서 동의를 관리하는 경우 **고객 관리** 옵션을 선택하여 사용자 지정 구독 취소 이메일 주소와 원클릭 구독 취소 URL을 입력합니다. 이 경우 Adobe은 구독 취소 정보를 저장하지 않습니다. 귀하의 고객 동의 정보 소유자는 자신의 동의 데이터를 관리하고 이를 Journey Optimizer에 다시 푸시할 책임이 있습니다."
+>abstract="Adobe 외부에서 동의를 관리하는 경우, **고객 관리** 옵션을 선택하여 사용자 지정 구독 취소 이메일 주소와 자체 원클릭 구독 취소 URL을 입력합니다. 이 경우 Adobe에서 구독 취소 정보를 저장하지 않습니다. 고객 동의 정보 소유자는 동의 데이터를 관리하고 이를 Journey Optimizer로 다시 푸시할 책임이 있습니다."
 
 <!--Do not modify - Legal Review Done -->
 
