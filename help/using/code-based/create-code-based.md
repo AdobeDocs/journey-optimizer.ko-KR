@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: ab4ee37d09ba8f91d886d54d5fbbe1b631690dda
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 10%
+source-wordcount: '715'
+ht-degree: 9%
 
 ---
 
@@ -95,7 +95,8 @@ ht-degree: 10%
 >id="ajo_code_based_experience"
 >title="개인화 편집기 사용"
 >abstract="이 코드 기반 경험 액션의 일부로 게재하려는 코드를 삽입하고 편집합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=ko" text="개인화 편집기 시작하기"
+
+&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html&quot; text=&quot;개인화 편집기 시작&quot;—>
 
 1. 여정 활동 또는 캠페인 버전 화면에서 **[!UICONTROL 코드 편집]**&#x200B;을 선택합니다.
 
@@ -123,9 +124,9 @@ ht-degree: 10%
 
 1. 변경 내용을 확인하려면 **[!UICONTROL 저장 후 닫기]**&#x200B;를 클릭하십시오.
 
-이제 개발자가 채널 구성에 정의된 표면에 대한 콘텐츠를 가져오기 위해 API 또는 SDK를 호출하는 즉시 변경 사항이 웹 페이지 또는 앱에 적용됩니다.
+이제 개발자가 채널 구성에 정의된 표면에 대한 콘텐츠를 가져오기 위해 API 또는 SDK을 호출하면 변경 사항이 웹 페이지 또는 앱에 적용됩니다.
 
-## 방법 비디오{#video}
+## 사용 방법 비디오{#video}
 
 아래 비디오에서는 코드 기반 경험 캠페인을 만들고, 속성을 구성하고, 테스트하고, 게시하는 방법을 보여 줍니다.
 
