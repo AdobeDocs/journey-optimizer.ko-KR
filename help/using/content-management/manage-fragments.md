@@ -8,14 +8,16 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
+source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1146'
 ht-degree: 11%
 
 ---
 
 # 조각 관리 {#manage-fragments}
+
+## 조각 액세스 {#access-fragments}
 
 조각을 관리하려면 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴에서 조각 목록에 액세스하십시오.
 
@@ -111,7 +113,7 @@ ht-degree: 11%
 >
 >[전자 메일에 시각적 조각 추가](../email/use-visual-fragments.md#break-inheritance) 및 [식 조각 활용](../personalization/use-expression-fragments.md#break-inheritance) 섹션에서 상속을 중단하는 방법을 알아봅니다.
 
-## 라이브 조각에 새 속성 추가 {#adding-new-attributes}
+### 라이브 조각에 새 속성 추가 {#adding-new-attributes}
 
 >[!WARNING]
 >
