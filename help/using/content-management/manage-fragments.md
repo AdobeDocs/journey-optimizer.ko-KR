@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1148'
 ht-degree: 11%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 11%
 각 조각 옆에 있는 **[!UICONTROL 추가 작업]** 단추에서 다음을 수행할 수 있습니다.
 
 * 내보낼 패키지에 추가합니다. [자세히 알아보기](#export)
-* 조각이 라이브인 경우 초안 버전을 열어 편집합니다. [자세히 알아보기](#edit-fragments)
+* 라이브 조각을 편집하는 경우 이 조각의 초안 버전을 엽니다. [자세히 알아보기](#edit-fragments)
 * 조각을 복제합니다.
 * **[!UICONTROL 참조 탐색]** 옵션을 사용하여 여정, 캠페인 또는 템플릿이 사용되는 위치를 확인하십시오. [자세히 알아보기](#explore-references)
 * 조각을 보관합니다. [자세히 알아보기](#archive-fragments)

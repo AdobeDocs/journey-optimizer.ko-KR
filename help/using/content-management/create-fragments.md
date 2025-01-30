@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 15%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 15%
 
 1. 콘텐츠를 디자인한 후 조각 만들기 화면으로 돌아가거나 조각 목록에서 엽니다.
 
-1. **[!UICONTROL 태그]** 필드에서 조각 미리 보기를 사용하여 렌더링을 확인할 수 있습니다. 변경해야 하는 경우 화면 상단의 **[!UICONTROL 편집]** 단추를 클릭하여 조각 유형에 따라 전자 메일 Designer 또는 개인화 편집기를 엽니다.
+1. **[!UICONTROL 태그]** 필드에서 조각 미리 보기를 사용하여 렌더링을 확인할 수 있습니다. 변경해야 하는 경우 화면 상단의 **[!UICONTROL 편집]** 단추를 클릭하여 조각 유형에 따라 전자 메일 Designer 또는 개인화 편집기를 엽니다. [자세히 알아보기](manage-fragments.md#edit-fragments)
 
    ![](assets/fragment-preview.png)
 
