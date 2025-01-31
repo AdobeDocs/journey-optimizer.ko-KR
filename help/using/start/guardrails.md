@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer 보호 및 제한 사항
+title: 'Journey Optimizer 보호 및 제한 사항 '
 description: Journey Optimizer 보호 기능에 대해 자세히 알아보기
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
-workflow-type: ht
+source-git-commit: 35dde8b905cf4c37c0c1b5f6b8a84f41821eb240
+workflow-type: tm+mt
 source-wordcount: '2361'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 자격, 제품 제한 사항, 성능 가드레일 목록은 [Adobe Journey Optimizer 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에서 확인하실 수 있습니다.
 
-[시작하기 전에 실시간 고객 프로필 데이터 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}에 대해서도 알고 있어야 합니다.
+시작하기 전에 실시간 고객 프로필 데이터에 대한 [보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}을 알고 있어야 합니다.
 
 [!DNL Adobe Journey Optimizer] 사용 시 다음과 같은 추가 보호 기능 및 제한 사항이 있습니다.
 
@@ -68,7 +68,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 한 여정에 넣을 수 있는 활동 수는 50개로 제한됩니다. 활동 수는 여정 캔버스의 왼쪽 위 섹션에 표시됩니다. 이는 가독성과 QA, 문제 해결에 도움이 됩니다.
 * 여정을 게시하면 처리량과 안정성을 최대화하기 위해 자동으로 규모를 조절합니다. 한 번에 100개의 실시간 여정을 실행하는 마일스톤에 가까워지면 100개를 달성할 예정이라는 알림이 UI에 표시됩니다. 이 알림을 받았는데 실시간 여정을 100개 넘게 실행하도록 현재 여정의 수를 확장해야 하는 경우, 고객 지원 센터에 보내는 티켓을 개설해 주시면 Adobe가 목표 달성을 도와 드리겠습니다.
   <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
-* 여정에서 대상자 자격을 사용할 때 해당 대상자 자격 활동이 활성화되고 대상자에 들어오거나 나가는 프로필을 듣는 데 최대 10분이 걸릴 수 있습니다.
+* 여정에서 대상자 선별을 사용할 때 해당 대상자 선별 활동이 활성화되고 대상자에 들어오거나 나가는 프로필을 확인하는 데 최대 10분이 걸릴 수 있습니다.
 * 한 프로필의 여정 인스턴스 최대 크기는 1MB입니다. 여정 실행의 일환으로 수집한 모든 데이터는 해당 여정 인스턴스에 저장됩니다. 따라서 수신 이벤트의 데이터, Adobe Experience Platform에서 검색한 프로필 정보, 사용자 정의 작업 응답 등은 해당 여정 인스턴스에 저장되어 여정 크기에 영향을 줍니다. 여정이 이벤트로 시작하는 경우 여정 실행 시 몇 가지 활동 후에 위의 제한에 도달하지 않도록 해당 이벤트 페이로드의 최대 크기를 제한(예: 800KB 미만)하는 것이 좋습니다. 제한에 도달하면 프로필이 오류 상태가 되어 여정에서 제외됩니다.
 * 여정 활동에 사용되는 시간 초과 외에 인터페이스에 표시되지 않고 변경할 수 없는 전체 여정 시간 초과도 있습니다. 이 전역 시간 제한은 개인 사용자가 여정에 들어간 후 91일이 지나면 진행을 중지합니다. [자세히 보기](../building-journeys/journey-properties.md#global_timeout)
 
@@ -82,16 +82,16 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 여정 버전 {#journey-versions-g}
 
-* v1에서 이벤트 활동으로 시작하는 여정은 이후 버전에서 이벤트 이외의 다른 것으로 시작할 수 없습니다. **대상자 자격 조건** 이벤트로 여정을 시작할 수 없습니다.
-* v1에서 **대상자 자격 조건** 활동으로 시작하는 여정은 이후 버전에서도 항상 **대상자 자격 조건**&#x200B;으로 시작해야 합니다.
-* **대상자 자격 조건**(첫 번째 노드)에서 선택한 대상자 및 네임스페이스는 새 버전에서 변경할 수 없습니다.
+* v1에서 이벤트 활동으로 시작하는 여정은 이후 버전에서 이벤트 이외의 다른 것으로 시작할 수 없습니다. **대상자 선별** 이벤트로 여정을 시작할 수 없습니다.
+* v1에서 **대상자 선별** 활동으로 시작하는 여정은 이후 버전에서도 항상 **대상자 선별**&#x200B;로 시작해야 합니다.
+* **대상자 선별**(첫 번째 노드)에서 선택한 대상자 및 네임스페이스는 새 버전에서 변경할 수 없습니다.
 * 재진입 규칙은 모든 여정 버전에서 동일해야 합니다.
 * **대상자 읽기**&#x200B;로 시작하는 여정은 다음 버전에서 다른 이벤트로 시작할 수 없습니다.
 * 증분 읽기가 있는 대상자 읽기 여정에 대해서는 새 버전을 만들 수 없습니다. 여정을 복제해야 합니다.
 
 ### 사용자 정의 액션 {#custom-actions-g}
 
-* 모든 사용자 정의 작업의 호스트 및 샌드박스당 1분간 300,000개의 호출 빈도 제한이 정의됩니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 대상자 기반 여정에서 이를 고려하여 적절한 읽기 속도(사용자 정의 작업 사용 시 프로필 5,000개/초)를 정의해야 합니다. 필요한 경우 Capping/Throttling API를 통해 빈도 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
+* 모든 사용자 정의 작업의 호스트 및 샌드박스당 1분간 300,000개의 호출 상한 설정이 정의됩니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 대상자 기반 여정에서 이를 고려하여 적절한 읽기 속도(사용자 정의 작업 사용 시 프로필 5,000개/초)를 정의해야 합니다. 필요한 경우 Capping/Throttling API를 통해 상한 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
 * 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다. 
 * POST, PUT 및 GET 호출 메서드가 지원됩니다.
 * 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;로 시작해서는 안 됩니다.
@@ -107,9 +107,9 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 ### 이벤트 {#events-g}
 
 * 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Optimizer 내에서 구성해야 합니다.. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다. 
-* 비즈니스 이벤트는 단일 이벤트 또는 대상자 자격 조건 활동과 함께 사용할 수 없습니다. 
-* 단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하는 가드레일이 포함됩니다. 프로필 재진입은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03에 도착하는 경우(동일한 이벤트이든 동일한 여정을 트리거하는 다른 이벤트이든) 해당 여정은 이 프로필에 대해 다시 시작되지 않습니다.
-* Journey Optimizer에서 여정을 트리거하기 위해서는 이벤트를 Data Collection Core Service(DCCS)로 스트리밍해야 합니다. 배치로 수집된 이벤트 또는 내부 Journey Optimizer 데이터 세트(메시지 피드백, 이메일 추적 등) 이벤트는 여정을 트리거하는 데 사용할 수 없습니다. 스트리밍 이벤트를 가져올 수 없는 사용 사례의 경우에는 대신 이 이벤트를 기반으로 대상자를 작성하고 **대상자 읽기** 활동을 사용해야 합니다. 대상자 선별의 경우 기술적으로는 사용할 수 있지만, 사용하는 액션에 따라 다운스트림 문제가 발생할 수 있어 권장하지 않습니다.
+* 비즈니스 이벤트는 단일 이벤트 또는 대상자 선별 활동과 함께 사용할 수 없습니다. 
+* 단일 여정(이벤트 또는 대상자 선별로 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하는 가드레일이 포함됩니다. 프로필 재진입은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03에 도착하는 경우(동일한 이벤트이든 동일한 여정을 트리거하는 다른 이벤트이든) 해당 여정은 이 프로필에 대해 다시 시작되지 않습니다.
+* Journey Optimizer에서 여정을 트리거하기 위해서는 이벤트를 Data Collection Core Service(DCCS)로 스트리밍해야 합니다. 배치로 수집된 이벤트 또는 내부 Journey Optimizer 데이터 세트의 이벤트(메시지 피드백, 이메일 추적 등)는 여정을 트리거하는 데 사용할 수 없습니다. 스트리밍 이벤트를 가져올 수 없는 사용 사례의 경우에는 대신 이 이벤트를 기반으로 대상자를 작성하고 **대상자 읽기** 활동을 사용해야 합니다. 대상자 선별의 경우 기술적으로는 사용할 수 있지만, 사용하는 액션에 따라 다운스트림 문제가 발생할 수 있어 권장하지 않습니다.
 
 
 ### 데이터 소스  {#data-sources-g}
@@ -151,16 +151,16 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 * 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에서 기본적으로 다시 시도가 적용됩니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다.
 
 
-### 대상자 자격 조건 {#audience-qualif-g}
+### 대상자 선별 {#audience-qualif-g}
 
-**[!UICONTROL 대상자 자격 조건]** 활동에 다음 가드레일이 적용됩니다.
+**[!UICONTROL 대상자 선별]** 활동에 다음 가드레일이 적용됩니다.
 
-* 대상자 자격 조건 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
+* 대상자 선별 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
 
 
 ### 표현식 편집기  {#expression-editor}
 
-* 경험 이벤트 필드 그룹은 대상자 읽기, 대상자 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다. 새 대상자를 만들고 여정에서 대상자 내 조건을 사용해야 합니다.
+* 경험 이벤트 필드 그룹은 대상자 읽기, 대상자 선별 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다. 새 대상자를 만들고 여정에서 대상자 내 조건을 사용해야 합니다.
 
 
 ### 인앱 활동 {#in-app-activity-limitations}
@@ -202,7 +202,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 ### 성능 가드레일 {#performance-guardrails}
 
-게재 처리량은 정해진 시간 내에 의사 결정 관리 앱 서비스에서 게재할 수 있는 결정 응답 수에 해당합니다. 초당 결정 수는 아래 표에서 확인할 수 있습니다.
+게재 처리량은 정해진 시간 내에 의사 결정 관리 앱 서비스에서 게재할 수 있는 결정 응답 수에 해당합니다. 초당 결정 수는 아래 테이블에서 확인할 수 있습니다.
 
 | API | 초당 결정 수 |
 |---------|----------|
