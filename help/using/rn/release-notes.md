@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: ht
-source-wordcount: '2172'
-ht-degree: 100%
+source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+workflow-type: tm+mt
+source-wordcount: '2196'
+ht-degree: 99%
 
 ---
 
@@ -40,6 +40,14 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
+
+### 개선 사항 {#25-01-improvements}
+
+이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
+
+**의사 결정**
+
+* 이제 Decisioning에서 항목 카탈로그의 스키마를 편집할 때 개체 데이터 유형을 지원합니다. [자세히 보기](../experience-decisioning/catalogs.md)
 
 ## 2024년 10월 릴리스 {#24-10-rn}
 
