@@ -8,14 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
+source-git-commit: 098fbf3bdc13cb916804c30a77b72944f0902046
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 2%
 
 ---
 
-# Adobe Experience Manager 컨텐츠 조각 {#aem-fragments}
+# Adobe Experience Manager 콘텐츠 조각 {#aem-fragments}
 
 이제 Adobe Experience Manager을 Adobe Journey Optimizer과 통합하여 AEM 콘텐츠 조각을 Journey Optimizer 이메일 콘텐츠에 원활하게 통합할 수 있습니다. 이렇게 간소화된 연결을 통해 AEM 콘텐츠에 액세스하고 활용하는 프로세스를 간소화하여 개인화되고 동적인 캠페인 및 여정을 만들 수 있습니다.
 
@@ -66,16 +67,9 @@ AEM 콘텐츠 조각에 대한 자세한 내용은 [Experience Manager 설명서
 
 1. 사용 가능한 목록에서 **[!UICONTROL 콘텐츠 조각]**&#x200B;을(를) 선택하여 Journey Optimizer 콘텐츠로 가져옵니다.
 
-   >[!IMPORTANT]
-   >
-   >게시된 **[!UICONTROL 콘텐츠 조각]**&#x200B;만 사용할 수 있습니다.
-
 1. 콘텐츠 조각 목록을 미세 조정하려면 **[!UICONTROL 필터 표시]**&#x200B;를 클릭하십시오.
 
-   콘텐츠 조각 선택기에는 사전 구성된 필터가 포함됩니다.
-
-   * **[!UICONTROL 상태]**: 게시됨, 수정됨
-   * **[!UICONTROL 태그]**: Journey Optimizer 환경(조직 ID 및 샌드박스)을 기반으로 자동으로 정의됨
+   기본적으로 콘텐츠 조각 필터는 승인된 콘텐츠만 표시하도록 사전 설정되어 있습니다.
 
    ![](assets/aem_campaign_4.png)
 
@@ -83,11 +77,12 @@ AEM 콘텐츠 조각에 대한 자세한 내용은 [Experience Manager 설명서
 
    ![](assets/aem_campaign_5.png)
 
-1. **[!UICONTROL 콘텐츠 조각]**&#x200B;에서 원하는 필드를 선택하여 콘텐츠에 추가하십시오.
+1. **[!UICONTROL 콘텐츠 조각]**&#x200B;에서 원하는 필드를 선택하여 콘텐츠에 추가하십시오. 콘텐츠를 추가하거나 해당 값을 복사할 수 있습니다.
+
+   값을 복사하도록 선택하면 **[!UICONTROL 콘텐츠 조각]**&#x200B;에 대한 향후 업데이트가 캠페인이나 여정에 반영되지 않습니다.
 
    ![](assets/aem_campaign_6.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리 보기에서 메시지를 확인합니다. 이제 [이 섹션](preview.md)에 자세히 설명된 대로 메시지 콘텐츠를 테스트하고 확인할 수 있습니다.
 
 테스트를 수행하고 콘텐츠의 유효성을 검사하면 [Campaign](../campaigns/review-activate-campaign.md) 또는 [여정](../building-journeys/publishing-the-journey.md)을(를) 통해 대상자에게 이메일을 보낼 수 있습니다.
-
