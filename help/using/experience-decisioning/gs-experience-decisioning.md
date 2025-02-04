@@ -1,19 +1,24 @@
 ---
-title: Decisioning 시작하기
+title: 결정 시작
 description: Decisioning에 대한 자세한 내용
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 15%
+source-wordcount: '642'
+ht-degree: 16%
 
 ---
 
-# Decisioning 시작하기 {#get-started-experience-decisioning}
+# 결정 시작 {#get-started-experience-decisioning}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_enable_experience_decisioning"
+>title="의사 결정이란 무엇입니까?"
+>abstract="의사 결정은 의사 결정 엔진에서 최상의 항목을 선택하여 각 개인에게 전달하는 의사 결정 관리 이외의 새로운 도구입니다. 이를 사용하려면 추가 설정이 필요합니다."
 
 ## Decisioning 소개 {#about}
 
