@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 962366b6e7eb959d24411a5b383678a5a183ad75
+source-git-commit: 8faeaea48e2f6e32cb3d66d0bd1fe53c33b08e65
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 41%
+source-wordcount: '1595'
+ht-degree: 40%
 
 ---
 
@@ -102,21 +102,19 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 * **[!UICONTROL 응답 페이로드]**: **[!UICONTROL 페이로드]** 필드 내부를 클릭하고 호출에서 반환된 페이로드의 예제를 붙여 넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 현재 전달된 페이로드를 변경하려는 경우 **[!UICONTROL 새 페이로드 붙여넣기]**&#x200B;를 클릭할 수 있습니다.
 * **[!UICONTROL 페이로드 전송됨]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
 
-  매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL 동적 값]** 필드에 매개 변수를 입력하면 호출 끝에 매개 변수가 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
+매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL 동적 값]** 필드에 매개 변수를 입력하면 호출 끝에 매개 변수가 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
 
-   * 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL 동적 값]** 필드에 포함합니다. 아래 예제에서는 매개 변수가 &quot;identifier&quot;입니다.
-   * 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수의 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
+* 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL 동적 값]** 필드에 포함합니다. 아래 예제에서는 매개 변수가 &quot;identifier&quot;입니다.
+* 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수의 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
 
-     ```json
-     {"id":{"param":"identifier"}}
-     ```
+  ```json
+  {"id":{"param":"identifier"}}
+  ```
 
-     ![](assets/journey29.png)
+  ![](assets/journey29.png)
 
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-이제 데이터 소스가 구성되었으며 여정에서 사용할 수 있는 상태가 되었습니다. 예를 들어 조건이나 이메일 개인화 등에 데이터 소스를 사용할 수 있습니다. 가령 기온이 섭씨 30도를 넘으면 특정 메시지를 보내도록 지정할 수 있습니다.
+변경 사항이 저장되면 데이터 소스가 구성되며, 예를 들어 조건이나 이메일 개인화 등에 여정에서 사용할 수 있도록 준비됩니다. 가령 기온이 섭씨 30도를 넘으면 특정 메시지를 보내도록 지정할 수 있습니다.
 
 ## 사용자 정의 인증 모드 {#custom-authentication-mode}
 
