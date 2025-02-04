@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '1872'
-ht-degree: 22%
+source-wordcount: '2390'
+ht-degree: 27%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 22%
         <td><a href="aggregation.md#average">평균</a></td><td>이 함수는 배열에서 선택한 모든 값의 산술 평균을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">횟수</a></td><td>이 함수는 특정 배열에서 요소의 수를 반환합니다.</td>
+        <td><a href="aggregation.md#count">계수</a></td><td>이 함수는 특정 배열에서 요소의 수를 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-only-null">null만 계산</a></td><td>이 함수는 목록의 null 값 숫자를 계산합니다.</td>
@@ -102,7 +102,37 @@ ht-degree: 22%
 
 <table>
     <tr>
+        <td><a href="dates.md#add-days">일 추가</a></td><td>이 함수는 양수 값을 사용하여 증가 값을 하고 음수 값을 사용하여 지정된 일 수만큼 지정된 날짜를 조정합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-hours">시간 추가</a></td><td>이 함수는 양수 값을 사용하여 증분 및 음수 값을 사용하여 지정된 시간 수만큼 지정된 날짜를 조정합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-minutes">분 추가</a></td><td>이 함수는 양수 값을 사용하여 증분 및 음수 값을 사용하여 지정된 분 단위로 지정된 날짜를 조정합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-months">월 추가</a></td><td>이 함수는 양수 값을 사용하여 증가 값을 하고 음수 값을 사용하여 지정된 개월 수만큼 지정된 날짜를 조정합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-seconds">초 추가</a></td><td>이 함수는 양수 값을 사용하여 증분 및 음수 값을 사용하여 지정된 시간(초)만큼 지정된 날짜를 조정합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-years">년 추가</a></td><td>이 함수는 양수 값을 사용하여 증가 값을 하고 음수 값을 사용하여 지정된 연도 수만큼 지정된 날짜를 조정합니다.</td>
+    </tr>
+    <tr>
         <td><a href="dates.md#age">처리 시간</a></td><td>이 함수는 특정 날짜의 연령을 검색합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age-days">나이 (일 기준)</a></td><td>이 함수는 특정 일자의 기간(예: 특정 일자와 현재 일자 사이에 경과된 일 수)을 계산합니다. 이 수치는 미래 일자의 경우 음수이고, 과거 일자의 경우 양수입니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age-months">나이 (월 기준)</a></td><td>이 함수는 특정 날짜의 기간(예: 특정 날짜와 현재 날짜 사이에 경과된 개월 수)을 월 단위로 계산합니다. 이 수는 미래 날짜의 경우 음수이고, 과거 날짜의 경우 양수입니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#compare-dates">날짜 비교</a></td><td>이 함수는 첫 번째 입력 날짜를 다른 날짜와 비교합니다. date1이 date2와 같으면 0을 반환하고, date1이 date2보다 앞에 오면 -1을 반환하고, date1이 date2보다 뒤에 오면 1을 반환합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#convert-zoned-date-time">ZonedDateTime 변환</a></td><td>이 함수는 날짜-시간을 지정된 시간대로 변환합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#current">현재 시간(밀리초)</a></td><td>이 함수는 현재 시간을 에포크 밀리초 단위로 검색합니다.</td>
@@ -111,16 +141,46 @@ ht-degree: 22%
         <td><a href="dates.md#date-diff">날짜 차이</a></td><td>이 함수는 일 수로 두 날짜 간의 차이를 검색합니다.</td>
     </tr>
     <tr>
+        <td><a href="dates.md#day-month">월일</a></td><td>이 함수는 해당 월의 일자를 나타내는 숫자를 반환합니다.</td>
+    </tr>
+    <tr>
         <td><a href="dates.md#day-week">요일</a></td><td>이 함수는 요일을 검색합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#day-year">연간 일자</a></td><td>이 함수는 연간 일자를 검색합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">날짜 포맷</a></td><td>이 함수는 날짜/시간 값의 형식을 지정합니다.</td>
+        <td><a href="dates.md#diff-seconds">초 단위 차이</a></td><td>이 함수는 초 단위로 두 날짜의 차이를 반환합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-hours">시간 추출</a></td><td>이 함수는 주어진 타임스탬프에서 시간 구성 요소를 추출합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-minutes">분 추출</a></td><td>이 함수는 주어진 타임스탬프에서 분 구성 요소를 추출합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-months">월 추출</a></td><td>이 함수는 주어진 타임스탬프에서 월 구성 요소를 추출합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-seconds">초 추출</a></td><td>이 함수는 주어진 타임스탬프에서 초 구성 요소를 추출합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">날짜 포맷</a></td><td>이 함수는 날짜 시간 값의 형식을 지정합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date-locale">로케일 지원을 사용하여 날짜 형식 지정</a></td><td>이 함수는 날짜 시간 값의 형식을 해당 언어 구분 표시, 즉 원하는 로케일로 지정합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#get-current-zoned-date-time">CurrentZonedDateTime 가져오기</a></td><td>이 함수는 표준 시간대 정보와 함께 현재 날짜와 시간을 반환합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#hours-difference">시간 차이</a></td><td>이 함수는 시간 측면에서 두 날짜 간의 차이를 반환합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-minutes">분 차이</a></td><td>이 함수는 분 단위로 두 날짜 간의 차이를 반환합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#months-difference">월 차이</a></td><td>이 함수는 월 단위로 두 날짜 간의 차이를 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#set-days">요일 설정</a></td><td>이 함수는 특정 날짜-시간에 대한 월 중 특정 일을 설정합니다.</td>
@@ -129,10 +189,29 @@ ht-degree: 22%
         <td><a href="dates.md#set-hours">시간 설정</a></td><td>이 함수는 날짜-시간의 시간을 설정합니다.</td>
     </tr>
     <tr>
+        <td><a href="dates.md#to-date-time">날짜로 변환</a></td><td>이 함수는 문자열을 날짜로 변환합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.</td>
+    </tr>
+    <tr>
         <td><a href="dates.md#to-utc">UTC로 변환</a></td><td>이 함수는 날짜/시간을 UTC로 변환합니다.</td>
     </tr>
     <tr>
+        <td><a href="dates.md#truncate-day">일의 시작으로 잘라내기</a></td><td>이 함수는 주어진 날짜-시간을 하루의 시작 시간으로 설정하고 시간을 00:00으로 설정합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-quarter">truncateToStartOfQuarter</a></td><td>이 함수는 00:00에 분기 첫째 날(예: 1월 1일, 4월 1일, 7월 1일, 10월 1일)까지 날짜-시간을 자릅니다.
+</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-week">truncateToStartOfWeek</a></td><td>이 함수는 주어진 날짜-시간을 주 시작(월요일 00:00)으로 설정하여 수정합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-year">truncateToStartOfYear</a></td><td>이 함수는 주어진 날짜-시간을 해당 연도의 첫날(1월 1일) 00:00으로 잘라 수정합니다.</td>
+    </tr>
+    <tr>
         <td><a href="dates.md#week-of-year">연간 주</a></td><td>이 함수는 연간 주를 반환합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-years">연도 차이</a></td><td>이 함수는 연도 단위로 두 날짜 간의 차이를 반환합니다.</td>
     </tr>
 </table>
 </table>
@@ -358,7 +437,7 @@ ht-degree: 22%
         <td><a href="helpers.md#each">Each</a></td><td>이 함수는 배열을 반복하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#if-function">If</a></td><td>이 함수는 조건부 블록을 정의하는 데 사용합니다. 식 계산이 true를 반환하면 블록이 렌더링됩니다.</td>
+        <td><a href="helpers.md#if-function">조건</a></td><td>이 함수는 조건부 블록을 정의하는 데 사용합니다. 식 계산이 true를 반환하면 블록이 렌더링됩니다.</td>
     </tr>
     <tr>
         <td><a href="helpers.md#let">Let</a></td><td>이 함수를 사용하면 표현식을 나중에 쿼리에서 사용할 변수로 저장할 수 있습니다</td>
@@ -402,7 +481,7 @@ ht-degree: 22%
 
 <table>
     <tr>
-        <td><a href="operators.md#and">및</a></td><td>이 연산자는 논리 결합을 생성합니다.</td>
+        <td><a href="operators.md#and">And</a></td><td>이 연산자는 논리 결합을 생성합니다.</td>
     </tr>
     <tr>
         <td><a href="operators.md#or">또는</a></td><td>이 연산자는 논리합을 생성합니다.</td>
@@ -432,7 +511,7 @@ ht-degree: 22%
     </tr>
 </table>
 
-## 방법 비디오{#video}
+## 사용 방법 비디오{#video}
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
