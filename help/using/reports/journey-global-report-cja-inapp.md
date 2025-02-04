@@ -7,14 +7,21 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
+source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '563'
 ht-degree: 2%
 
 ---
 
 # 인앱 여정 보고서 {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+사용자가 한 번에 두 개 이상의 여정에 참여할 수 있으므로 여정 보고서에는 여러 여정의 정보가 동시에 표시될 수 있습니다. 따라서 동시 활성 여정에 참여하는 사용자에 대해 트리거된 경우, 인바운드 통신(인앱, 웹 및 코드 기반)이 여러 여정에 표시될 수 있으며, 이로 인해 데이터가 겹칠 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 ## 노출 및 클릭 트렌드 {#impression-click-trend}
 
