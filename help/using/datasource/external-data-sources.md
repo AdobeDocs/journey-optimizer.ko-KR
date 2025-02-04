@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 49%
+source-wordcount: '1593'
+ht-degree: 41%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 49%
 >title="외부 데이터 소스"
 >abstract="외부 데이터 소스를 사용하면 서드파티 시스템에 대한 연결을 정의할 수 있습니다. 호텔 예약 시스템을 사용하여 특정인의 객실 투숙 여부를 확인하는 경우를 예로 들 수 있습니다. 기본 제공 Adobe Experience Platform 데이터 소스와는 달리 외부 데이터 소스는 필요한 수만큼 만들 수 있습니다."
 
+## 외부 데이터 소스 작업 {#gs-ext-data-sources}
+
 외부 데이터 소스를 사용하면 서드파티 시스템에 대한 연결을 정의할 수 있습니다. 호텔 예약 시스템을 사용하여 특정인의 객실 투숙 여부를 확인하는 경우를 예로 들 수 있습니다. 기본 제공 Adobe Experience Platform 데이터 소스와는 달리 외부 데이터 소스는 필요한 수만큼 만들 수 있습니다.
 
 >[!NOTE]
 >
->외부 시스템에서 작업할 때 보호 기능이 [이 페이지](../configuration/external-systems.md)에 나열됩니다.
-
->[!NOTE]
+>* 외부 시스템에서 작업할 때 보호 기능이 [이 페이지](../configuration/external-systems.md)에 나열됩니다.
 >
->이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다. 응답에 대한 자세한 내용은 이 [섹션](../action/action-response.md)을 참조하세요.
+>* 이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다. 응답에 대한 자세한 내용은 이 [섹션](../action/action-response.md)을 참조하세요.
 
 POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다. 그리고 API 키와 기본/사용자 지정 인증 모드가 지원됩니다.
 
@@ -44,7 +44,10 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 이 호출에는 기본 URL(_https://api.adobeweather.org/weather_), 매개 변수 세트 2개(도시에 해당하는 &quot;city&quot;와 위도/경도에 해당하는 &quot;lat/long&quot;), 그리고 API 키(appid)가 포함되어 있습니다.
 
-새 외부 데이터 소스를 만들고 구성하는 주요 단계는 다음과 같습니다.
+
+## 외부 데이터 소스 만들기 및 구성 {#create-ext-data-sources}
+
+다음은 새 외부 데이터 소스를 만들고 구성하는 주요 단계입니다.
 
 1. 데이터 원본 목록에서 **[!UICONTROL 데이터 Source 만들기]**&#x200B;를 클릭하여 새 외부 데이터 원본을 만듭니다.
 
@@ -75,9 +78,12 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
    >[!NOTE]
    >
-   >인증 호출이 수행되면 base64로 인코딩된 `<username>:<password>` 문자열이 Authentication 헤더에 추가됩니다.
+   >* 인증 호출이 수행되면 base64로 인코딩된 `<username>:<password>` 문자열이 Authentication 헤더에 추가됩니다.
+   >
+   >* Adobe Journey Optimizer은 사용자 지정 작업에 정의된 암호를 자동으로 암호화합니다. 각 조직의 암호화 키는 해당 조직에 연결된 전용 보관소에서 안전하게 관리됩니다. 인터페이스에 자격 증명이 표시되면 실수로 노출되지 않도록 기본적으로 마스킹됩니다.
 
-   사용자 지정 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오. 이 예제에서는 API 키 인증 모드를 선택합니다.
+
+   사용자 지정 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하세요. 이 예제에서는 다음과 같이 API 키 인증 모드를 선택합니다.
 
    * **[!UICONTROL 유형]**: &quot;API 키&quot;
    * **[!UICONTROL 이름]**: &quot;appid&quot;(API 키 매개 변수 이름)
@@ -108,28 +114,28 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 ![](assets/journey29.png)
 
-**[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 이제 데이터 소스가 구성되었으며 여정에서 사용할 수 있는 상태가 되었습니다. 예를 들어 조건이나 이메일 개인화 등에 데이터 소스를 사용할 수 있습니다. 가령 기온이 섭씨 30도를 넘으면 특정 메시지를 보내도록 지정할 수 있습니다.
 
-## 사용자 정의 인증 모드{#custom-authentication-mode}
+## 사용자 정의 인증 모드 {#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="사용자 정의 인증"
 >abstract="사용자 정의 인증 모드는 OAuth2 등의 API 래핑 프로토콜을 호출하는 복잡한 인증에 사용됩니다. 작업은 두 단계로 실행됩니다. 첫 단계에서는 엔드포인트 호출을 수행하여 액세스 토큰을 생성합니다. 두 번째 단계에서는 작업의 HTTP 요청에 액세스 토큰을 삽입합니다."
 
-이 인증 모드는 작업의 실제 HTTP 요청에 삽입할 액세스 토큰을 검색하기 위한 복잡한 인증(대개 OAuth2 등의 API 래핑 프로토콜을 호출하는 데 사용됨)에 사용됩니다.
+사용자 지정 인증 모드는 작업의 실제 HTTP 요청에 삽입할 액세스 토큰을 검색하기 위해 복잡한 인증에 사용되며, 종종 OAuth2와 같은 API 래핑 프로토콜을 호출하는 데 사용됩니다.
 
-사용자 지정 인증을 구성할 때는 아래 버튼을 클릭하여 사용자 지정 인증 페이로드가 올바르게 구성되어 있는지 확인할 수 있습니다.
+사용자 지정 인증을 구성할 때는 **[!UICONTROL 인증을 확인하려면]** 단추를 사용하여 사용자 지정 인증 페이로드가 올바르게 구성되었는지 확인하세요.
 
 ![](assets/journey29-bis.png)
 
-테스트가 정상적으로 완료되면 버튼이 녹색으로 바뀝니다.
+테스트가 성공하면 버튼이 녹색으로 바뀝니다.
 
 ![](assets/journey29-ter.png)
 
-이 인증을 사용할 때는 작업이 다음의 두 단계로 실행됩니다.
+이 인증 모드에서는 작업이 다음의 두 단계로 실행됩니다.
 
 1. 끝점을 호출하여 액세스 토큰을 생성합니다.
 1. 올바른 방식으로 액세스 토큰을 삽입하여 REST API를 호출합니다.
