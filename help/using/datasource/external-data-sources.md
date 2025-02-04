@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
+source-git-commit: 962366b6e7eb959d24411a5b383678a5a183ad75
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 41%
@@ -90,7 +90,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
    * **[!UICONTROL 값]**: &quot;1234&quot;(API 키의 값)
    * **[!UICONTROL 위치]**: &quot;쿼리 매개 변수&quot;(API 키가 URL에 있음)
 
-   ![](assets/journey28.png)
+     ![](assets/journey28.png)
 
 1. **[!UICONTROL 새 필드 그룹 추가]**&#x200B;를 클릭하여 각 API 매개 변수 집합에 대한 새 필드 그룹을 추가합니다. 필드 그룹 이름에는 영숫자와 밑줄만 허용됩니다. 최대 길이는 30자입니다. 이 예제에서는 각 매개 변수 세트(city, long/lat)용으로 하나씩 두 개의 필드 그룹을 만들어야 합니다.
 
@@ -100,19 +100,19 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 * **[!UICONTROL 메서드]**: POST 또는 GET 메서드를 선택합니다. 여기서는 GET 메서드를 선택합니다.
 * **[!UICONTROL 동적 값]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [자세히 알아보기](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL 응답 페이로드]**: **[!UICONTROL 페이로드]** 필드 내부를 클릭하고 호출에서 반환된 페이로드의 예제를 붙여 넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 현재 전달된 페이로드를 변경하려는 경우 **[!UICONTROL 새 페이로드 붙여넣기]**&#x200B;를 클릭할 수 있습니다.
-
 * **[!UICONTROL 페이로드 전송됨]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
 
-매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL 동적 값]** 필드에 매개 변수를 입력하면 호출 끝에 매개 변수가 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
+  매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL 동적 값]** 필드에 매개 변수를 입력하면 호출 끝에 매개 변수가 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
 
-* 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL 동적 값]** 필드에 포함합니다. 아래 예제에서는 매개 변수가 &quot;identifier&quot;입니다.
-* 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수의 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
+   * 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL 동적 값]** 필드에 포함합니다. 아래 예제에서는 매개 변수가 &quot;identifier&quot;입니다.
+   * 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수의 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
 
-  ```json
-  {"id":{"param":"identifier"}}
-  ```
+     ```json
+     {"id":{"param":"identifier"}}
+     ```
 
-![](assets/journey29.png)
+     ![](assets/journey29.png)
+
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
