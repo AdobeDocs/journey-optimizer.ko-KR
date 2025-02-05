@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2258a305f1d3b477b728ce50b882ac226f3e4342
+source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
 workflow-type: tm+mt
-source-wordcount: '5888'
+source-wordcount: '5907'
 ht-degree: 97%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 97%
 * **헤더 매개 변수** 섹션이 사용자 인터페이스의 새 레이블 및 변경 사항을 반영하도록 업데이트되었습니다. [자세히 보기](../email/email-settings.md#email-header)
 
 * **전자 메일 전달** 섹션이 **전자 메일 보낸 사람** 주소로 보낸 모든 전자 메일을 전달 전자 메일 주소로 전달하도록 업데이트되었습니다. 전달 이메일을 지정하지 않으면 이러한 이메일이 무시됩니다. [자세히 보기](../email/email-settings.md#forward-email)
+
+* API가 트리거된 캠페인 요청에 전달되는 컨텍스트 속성의 최대 크기가 200kb로 업데이트되었습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 

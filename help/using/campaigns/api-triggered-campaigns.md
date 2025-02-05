@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -110,7 +110,7 @@ API 트리거 캠페인을 사용하면 API 페이로드에서 추가 데이터�
 
 >[!IMPORTANT]
 >
->요청에 전달된 컨텍스트 속성은 50kb를 초과할 수 없으며 항상 유형 문자열을 고려합니다.
+>요청에 전달된 컨텍스트 속성은 200kb를 초과할 수 없으며 항상 유형 문자열을 고려합니다.
 >
 >`context.system` 구문은 Adobe 내부 사용으로만 제한되며 컨텍스트 특성을 전달하는 데 사용해서는 안 됩니다.
 
@@ -134,7 +134,7 @@ API 트리거 캠페인을 사용하면 API 페이로드에서 추가 데이터�
 >
 >**AJO 대화형 메시징 프로필 데이터 집합** 데이터 집합에서 각 아웃바운드 채널(이메일, SMS 및 푸시)에 대해 각각 세 개의 기본 네임스페이스(이메일, 전화 및 ECID)에 알 수 없는 프로필이 만들어집니다. 그러나 사용자 지정 네임스페이스를 사용하는 경우 동일한 사용자 지정 네임스페이스로 ID가 만들어집니다.
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 대화형 메시지 실행 REST API를 사용하여 사용자 상호 작용을 기반으로 외부 시스템에서 캠페인을 만들고 트리거하는 방법에 대해 알아봅니다.
 
