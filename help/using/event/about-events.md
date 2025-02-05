@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 52%
@@ -40,7 +40,7 @@ ht-degree: 52%
 >
 >초안 또는 라이브 여정에서 사용되는 이벤트를 편집할 때는 이름, 설명 또는 페이로드 필드만 변경할 수 있습니다. 여정 손상 방지를 위해 초안 또는 라이브 여정 편집은 엄격히 제한됩니다.
 
-단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하는 가드레일이 포함됩니다. 프로필 재진입은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03에 도착하는 경우(동일한 이벤트이든 동일한 여정을 트리거하는 다른 이벤트이든) 해당 여정은 이 프로필에 대해 다시 시작되지 않습니다.
+단일 여정(이벤트 또는 대상자 선별로 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하는 가드레일이 포함됩니다. 프로필 재진입은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03에 도착하는 경우(동일한 이벤트이든 동일한 여정을 트리거하는 다른 이벤트이든) 해당 여정은 이 프로필에 대해 다시 시작되지 않습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -54,7 +54,7 @@ ht-degree: 52%
 
   >[!CAUTION]
   >
-  >최대 가용량 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 특정 조직에 대해 처리할 수 있는 적격 이벤트 수를 초당 5000개로 제한합니다. Journey Optimizer SLA에 해당합니다. Journey Optimizer 라이선스 및 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)을 참조하세요.
+  >상한 설정 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 처리할 수 있는 적격 이벤트 수를 주어진 조직에 대해 초당 5,000개로 제한합니다. Journey Optimizer SLA에 해당합니다. Journey Optimizer 라이선스 및 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)을 참조하세요.
 
 * **시스템 생성** 이벤트: 이러한 이벤트에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다.
 

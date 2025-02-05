@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '699'
 ht-degree: 5%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 * **대상 자격** 여정: 이 여정은 대상 자격 이벤트로 시작합니다. 이러한 여정은 대상자의 프로필 출입구를 수신합니다. 이런 경우 관련 프로필이 여정에 들어갑니다. [자세히 보기](#entry-unitary)
 
-모든 여정 유형에서 프로필은 동일한 여정에 동시에 여러 번 나타날 수 없습니다. 개인이 여정에 있는지 확인하기 위해 프로필 ID가 키로 사용됩니다. 시스템에서는 동일한 키(예: 키 CRMID=3224)가 동일한 여정의 다른 위치에 있는 것을 허용하지 않습니다.
+모든 여정 유형에서 프로필은 동일한 여정에 동시에 여러 번 나타날 수 없습니다. 개인이 여정에 있는지 확인하기 위해 프로필 ID가 키로 사용됩니다. 시스템에서 동일한 키(예: 키 `CRMID=3224`)가 동일한 여정의 다른 위치에 있도록 허용하지 않습니다.
 
 ## 단일 이벤트 및 대상 자격 여정{#entry-unitary}
 

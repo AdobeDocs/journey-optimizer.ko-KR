@@ -8,7 +8,7 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: 여정, 데이터 소스, 제한, 처리량, 사용자 지정, 작업
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Adobe Journey Optimizer을 사용하면 전문가가 사용자 지정 작업 및
 >
 >이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다. 응답에 대한 자세한 내용은 이 [섹션](../action/action-response.md)을 참조하세요.
 
-외부 데이터 소스 또는 사용자 지정 작업으로 작업하는 경우 여정 처리량을 제한하여 외부 시스템을 보호할 수 있습니다(단일 여정의 경우 최대 5000개 인스턴스/초, 대상자에서 트리거된 인스턴스의 경우 최대 20000개 인스턴스/초).
+외부 데이터 소스 또는 사용자 지정 작업으로 작업하는 경우 여정 처리량을 제한하여 외부 시스템을 보호할 수 있습니다(단일 여정의 경우 최대 5,000개 인스턴스/초, 대상자에서 트리거된 인스턴스의 경우 최대 20000개 인스턴스/초).
 
 사용자 지정 작업의 경우 제품 수준에서 제한 기능을 사용할 수 있습니다. 이 [페이지](../configuration/external-systems.md#capping)를 참조하세요.
 

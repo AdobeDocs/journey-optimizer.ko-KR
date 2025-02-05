@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 35dde8b905cf4c37c0c1b5f6b8a84f41821eb240
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '2361'
 ht-degree: 98%
@@ -207,8 +207,8 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 | API | 초당 결정 수 |
 |---------|----------|
 | Decisioning API 요청 | 500/초 |
-| Edge 세분화를 사용한 Edge Decisioning API 요청 | 초당 1500 |
-| Edge 세분화를 사용하지 않는 Edge Decisioning API 요청 | 5,000/초 |
+| Edge 세분화를 사용한 Edge Decisioning API 요청 | 초당 1,500 |
+| Edge 세분화를 사용하지 않는 Edge Decisioning API 요청 | 초당 5,000 |
 
 ### 제한 사항 {#offers-limitations}
 
