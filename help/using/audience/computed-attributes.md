@@ -7,7 +7,7 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 12449430f48153ebe3fbb30b782f51de4b11d4ef
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -32,7 +32,7 @@ ht-degree: 4%
 
 계산된 특성을 만들려면 왼쪽에 있는 **[!UICONTROL 프로필]** 메뉴의 **[!UICONTROL 계산된 특성]** 탭으로 이동합니다.
 
-이 화면에서 이벤트 속성, 집계 함수 및 지정된 전환 확인 기간을 결합하는 규칙을 작성하여 계산된 속성을 구성할 수 있습니다. 예를 들어, 지난 3개월 동안의 구매 합계를 계산하거나, 지난 주에 구매하지 않은 프로필에서 본 가장 최근 항목을 식별하거나, 각 프로필별로 누적된 총 보상 포인트를 계산할 수 있습니다.
+이 화면에서 이벤트 속성, 집계 함수를 지정된 전환 확인 기간과 함께 결합하는 규칙을 작성하여 계산된 속성을 구성할 수 있습니다. 예를 들어, 지난 3개월 동안의 구매 합계를 계산하거나, 지난 주에 구매하지 않은 프로필에서 본 가장 최근 항목을 식별하거나, 각 프로필별로 누적된 총 보상 포인트를 계산할 수 있습니다.
 
 ![](assets/computed-attributes.png)
 
