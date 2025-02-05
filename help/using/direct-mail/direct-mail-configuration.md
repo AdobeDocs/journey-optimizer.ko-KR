@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
+source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 21%
+source-wordcount: '1405'
+ht-degree: 19%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="파일의 서버 유형을 선택합니다."
->abstract="DM 파일 내보내기에 사용할 서버 유형을 선택합니다. 현재 Journey Optimizer는 Amazon S3 및 SFTP만 지원합니다."
+>abstract="DM 파일을 내보내는 데 사용할 서버 유형(Amazon S3, SFTP 또는 Azure)을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
