@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b4075b722ba07f003b9658b5f399896ce0e85b9a
+source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
-source-wordcount: '5938'
+source-wordcount: '5954'
 ht-degree: 96%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 96%
 * API가 트리거된 캠페인 요청에 전달되는 컨텍스트 속성의 최대 크기가 200kb로 업데이트되었습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
 
 * 라이브 조각에 새 특성을 추가하는 방법을 설명하기 위해 새 섹션이 **조각 관리** 페이지에 추가되었습니다. 전체 페이지도 개선되었습니다. [자세히 보기](../content-management/manage-fragments.md#adding-new-attributes)
+
+* 충돌 관리 및 우선 순위 지정 도구 설명서에 &quot;보호 및 제한 사항&quot; 섹션이 추가되었습니다. [자세히 보기](../conflict-prioritization/gs-conflict-prioritization.md)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
