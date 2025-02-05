@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1043'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 * **Action**&#x200B;을(를) 사용하거나 사용하지 않도록 설정합니다.
 * 개발자 콘솔에서 **액세스 토큰**&#x200B;을(를) 검색할 수 있습니다.
 * **API 키**&#x200B;는 개발자 콘솔에서 검색할 수 있습니다.
-* **IMS 조직 ID**&#x200B;은(는) Adobe IMS 조직입니다.
+* **IMS 조직 ID**&#x200B;이(가) Adobe 조직입니다.
 * **샌드박스 이름**&#x200B;은(는) 데이터 세트가 있는 샌드박스 이름입니다(예: prod, dev 등).
 
 >[!NOTE]

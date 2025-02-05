@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 98%
+source-wordcount: '2278'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,22 @@ ht-degree: 98%
 </p>
 <p>자세한 내용은 <a href="../reports/report-cja-manage.md#cja-template">세부 설명서</a>를 참조하십시오.</p>
 <p> <b>템플릿</b> 기능은 단계적으로 롤아웃되며 전체 일반 가용성은 1월 말까지 제공될 예정입니다</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>유연한 대상 평가(제한된 가용성)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>유연한 대상 평가를 통해 선택한 대상에 대해 온디맨드로 세분화 작업을 실행할 수 있으므로 Journey Optimizer 여정 및 캠페인으로 대상자를 타기팅하기 전에 항상 최신 대상 데이터를 보유하도록 합니다.</p>
+<p>자세한 내용은 <a href="../audience/about-audiences.md#flexible">세부 설명서</a>를 참조하십시오.</p>
+<p> 유연한 대상 평가는 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 </tr>
 </tbody>
 </table>

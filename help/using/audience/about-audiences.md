@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 19%
+source-wordcount: '2162'
+ht-degree: 18%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 19%
 
 * 여정에 **조건** 활동을 사용하면 대상자 멤버십을 기반으로 조건을 작성할 수 있습니다. [조건에서 대상자를 사용하는 방법을 알아봅니다](../building-journeys/condition-activity.md#using-a-segment).
 
-* 여정에서 **대상 자격** 이벤트 활동을 사용하여 개인이 Adobe Experience Platform 대상 출입구를 기준으로 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다. 예를 들면 모든 신규 실버 고객이 여정에 입장하도록 하여 이들에게 메시지를 보낼 수 있습니다. 이 활동을 사용하는 자세한 방법은 [대상자 자격 조건 활동을 구성하는 방법 알아보기](../building-journeys/audience-qualification-events.md)를 참조하세요.
+* 여정에서 **대상 자격** 이벤트 활동을 사용하여 개인이 Adobe Experience Platform 대상 출입구를 기준으로 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다. 예를 들면 모든 신규 실버 고객이 여정에 입장하도록 하여 이들에게 메시지를 보낼 수 있습니다. 이 활동을 사용하는 자세한 방법은 [대상자 선별 활동을 구성하는 방법 알아보기](../building-journeys/audience-qualification-events.md)를 참조하세요.
 
   >[!NOTE]
   >
@@ -152,9 +152,26 @@ Edge 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 [
 
 이전 데이터를 사용하여 대상자를 다시 채우는 데 최대 24시간이 걸릴 수 있습니다. 대상자를 다시 채운 후 대상자는 계속 최신 상태로 유지되며 언제든 타겟팅할 수 있습니다.
 
+### [!BADGE 제한된 가용성]{type=Informative} 유연한 대상 평가(제한된 가용성) {#flexible}
+
+>[!AVAILABILITY]
+>
+유연한 대상 평가는 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+Adobe Experience Platform 대상 포털을 사용하면 선택한 대상에 대해 온디맨드로 세분화 작업을 실행할 수 있으므로 Journey Optimizer 여정 및 캠페인에 타겟팅하기 전에 항상 최신 대상 데이터를 보유하게 됩니다.
+
+유연한 대상 평가를 통해 다음과 같은 작업을 수행할 수 있습니다.
+
+1. 최신 데이터를 기반으로 새 세그먼트를 만듭니다.
+1. 실시간으로 대상자를 평가하여 정확성을 보장합니다. 특정 기준(예: 사람 기반, 세그먼테이션 서비스 원본)을 충족하는 경우, 평가하려는 대상을 선택하고 &quot;대상 평가&quot;를 선택합니다.
+1. Adobe Journey Optimizer에서 평가된 대상 사용
+정확한 타겟팅을 위한 캠페인 또는 여정.
+
+한 번에 최대 20개의 대상을 평가할 수 있으며 부적격 대상은 자동으로 제외됩니다. 자세한 내용은 [Audience Portal 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)를 참조하십시오.
+
 ### 스트리밍 세분화를 통한 이벤트 사용 {#streaming-segmentation-events-guardrails}
 
-스트리밍 세분화는 가치가 높은 사용 사례를 사용하는 실시간 개인화에 유용합니다. 그러나 세분화 기준으로 사용할 올바른 [이벤트](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}를 선택하는 것이 중요합니다.
+스트리밍 세분화는 가치가 높은 사용 사례를 사용하는 실시간 개인화에 유용합니다. 그러나 올바른 [이벤트](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events)를 선택하는 것이 중요합니다{target="_blank"}
 
 따라서 스트리밍 세분화 최적 성능을 위해 다음 이벤트를 사용하지 마십시오.
 
@@ -247,7 +264,7 @@ Edge 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 [
 
 +++
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 Journey Optimizer의 통합 고객 프로필 및 대상자에 대해 알아봅니다.
 
