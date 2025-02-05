@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
+source-git-commit: 34ecb4b7f30741d88fa69007e1c236eb731dc06c
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 19%
+source-wordcount: '1324'
+ht-degree: 18%
 
 ---
 
@@ -150,11 +150,14 @@ ht-degree: 19%
 >title="전송된 시간 최적화 정보"
 >abstract="Adobe의 AI 서비스에서 제공하는 Adobe Journey Optimizer의 전송 시간 최적화 기능은 기록 열기와 클릭률을 기반으로 이메일 또는 푸시 메시지를 전송하는 최적의 시간을 예측하여 참여도를 극대화할 수 있습니다."
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->이 기능은 기본적으로 활성화되어 있지 않습니다. Adobe 담당자에게 연락하여 활성화할 수 있습니다.
+>* 전송 시간 최적화는 기본적으로 활성화되어 있지 않습니다. Adobe 담당자에게 연락하여 활성화할 수 있습니다.
 >
->전송 시간 최적화 기능은 이메일 및 푸시 채널에만 적용됩니다.
+>* 초기 전송 시간 최적화 교육 및 점수에는 최근 메시징 데이터가 있는 최소 1,000개의 프로필이 권장됩니다.
+>
+>* 전송 시간 최적화는 **이메일** 및 **푸시 알림** 채널에만 적용됩니다.
+
 
 ### 전송 시간 최적화 정보 {#about-send-time}
 
