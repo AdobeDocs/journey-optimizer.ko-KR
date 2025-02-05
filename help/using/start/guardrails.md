@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
-source-wordcount: '2421'
-ht-degree: 95%
+source-wordcount: '2476'
+ht-degree: 94%
 
 ---
 
@@ -38,6 +38,15 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * [!DNL Journey Optimizer]에서는 이메일에 첨부 파일을 추가할 수 없습니다.
 * 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.
 
+## 데이터 세트 보호 {#datasets-guardrails}
+
+2025년 2월부터 TTL(Time-to-Live) 가드레일이 다음과 같이 **새 샌드박스 및 새 조직**&#x200B;에서 Journey Optimizer 시스템 생성 데이터 세트로 배포됩니다.
+
+* 프로필 스토어의 데이터에 대해 90일
+* 데이터 레이크의 데이터에 대해 13개월
+
+이러한 보호 기능에 대한 자세한 내용은 [자주 묻는 질문 섹션](../data/datasets-ttl.md#ttl)을 살펴보십시오.
+
 ## 랜딩 페이지 보호 {#lp-guardrails}
 
 * 하나의 기본 페이지에서 하나의 **양식** 구성 요소만 사용할 수 있습니다.
@@ -54,7 +63,6 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 ### 웹 채널 가드레일 {#web-guardrails}
 
 [!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타기팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로, 사용자가 계약 시 구입한 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 각 패키지별 라이선스 지표 목록은 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에서 확인할 수 있습니다.
-
 
 ## 하위 도메인 가드레일 {#subdomain-guardrails}
 

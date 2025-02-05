@@ -7,19 +7,19 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+exl-id: 08633a79-5601-4e36-b8cf-080234956d99
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
-
 
 # TTL(Time-to-Live) 및 스트리밍 세분화 변경 사항 {#ttl-guardrail}
 
 ## 스트리밍 세분화 업데이트 {#segmentation-update}
 
-2024년 11월 1일부터 스트리밍 세분화는 더 이상 Journey Optimizer 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트 사용을 지원하지 않습니다. 이 변경 사항은 모든 고객 샌드박스 및 조직에 적용됩니다. 이 연습이 이전에 권장되지 않은 이유에 대한 정보는 [여기](../audience/about-audiences.md#streaming-segmentation-events-guardrails)에서 확인할 수 있습니다.
+2024년 11월 1일부터 스트리밍 세분화에서는 더 이상 Journey Optimizer 추적 및 피드백 데이터 세트의 이벤트 전송 및 열기를 지원하지 않습니다. 이 변경 사항은 모든 고객 샌드박스 및 조직에 적용됩니다. 이 연습이 이전에 권장되지 않은 이유에 대한 정보는 [여기](../audience/about-audiences.md#streaming-segmentation-events-guardrails)에서 확인할 수 있습니다.
 
 **자주 묻는 질문**
 
@@ -41,13 +41,11 @@ ht-degree: 5%
 
 +++
 
-
 +++ 반응 이벤트가 이 변경의 영향을 받습니까?
 
 여정의 반응 이벤트는 이 변경의 영향을 받지 않습니다.
 
 +++
-
 
 +++ 이 변경 사항은 프로덕션 샌드박스에만 적용됩니까, 아니면 개발 샌드박스에도 적용됩니까?
 
