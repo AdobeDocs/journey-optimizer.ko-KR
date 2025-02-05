@@ -8,20 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 98%
+source-wordcount: '2421'
+ht-degree: 95%
 
 ---
 
 # 보호 및 제한 사항 {#limitations}
 
+[!DNL Adobe Journey Optimizer] 사용 시 다음과 같은 추가 보호 기능 및 제한 사항이 있습니다.
+
 자격, 제품 제한 사항, 성능 가드레일 목록은 [Adobe Journey Optimizer 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에서 확인하실 수 있습니다.
 
 시작하기 전에 실시간 고객 프로필 데이터에 대한 [보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}을 알고 있어야 합니다.
 
-[!DNL Adobe Journey Optimizer] 사용 시 다음과 같은 추가 보호 기능 및 제한 사항이 있습니다.
+
+>[!NOTE]
+>
+>드문 경우지만 특정 지역에서 일시적으로 중단하면 유효한 프로필이 여정에서 제외되거나 메일이 바운스로 잘못 표시될 수 있습니다. 서비스가 복원되면 여정 로그를 다시 확인하고 동의 프로필 필드를 확인한 다음 필요한 경우 여정을 다시 게시하십시오. ISP 중단 시 [이 섹션](../configuration/manage-suppression-list.md#remove-from-suppression-list)의 제외 목록에서 프로필을 제거하는 방법을 알아보세요.
+>
 
 ## 지원되는 브라우저 {#browsers}
 

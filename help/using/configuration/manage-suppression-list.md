@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 제외, 목록, 바운스, 이메일, 최적화 도구, 격리
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 21%
@@ -207,7 +207,7 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
-## 제외 목록에서 주소 제거{#remove-from-suppression-list}
+## 제외 목록에서 주소 제거 {#remove-from-suppression-list}
 
 제외 목록을 수동으로 업데이트할 수 있습니다. 격리에서 이메일 주소를 제거하는 것은 중요한 작업이며 IP 신뢰도 및 전달률에 영향을 줄 수 있습니다. 주의해서 진행하도록 하세요.
 
