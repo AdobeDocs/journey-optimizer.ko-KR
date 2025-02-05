@@ -1,17 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여정 Publish
+title: 여정 게시
 description: 여정에 대해 보고하는 방법 알아보기
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
+source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 0%
+source-wordcount: '312'
+ht-degree: 1%
 
 ---
 
@@ -29,8 +30,8 @@ ht-degree: 0%
 
 라이브 여정의 경우 다음에 액세스할 수 있습니다.
 
-* **[!UICONTROL 입력한 프로필]**: 여정을 종료한 총 개인 수(오류 포함).
-* **[!UICONTROL 프로파일링된 종료됨]**: 종료 조건으로 인해 해당 활동에서 여정을 종료한 총 개인 수.
+* **[!UICONTROL 입력한 프로필]**: 여정에 입력한 총 개인 수.
+* **[!UICONTROL 종료된 프로필]**: 여정을 종료한 총 개인 수(오류 포함).
 * **[!UICONTROL 오류가 있는 프로필]**: 여정 중에 오류가 발생한 개인의 총 수입니다.
 * **[!UICONTROL 삭제된 프로필]**: 다음 이유 중 하나로 여정에서 삭제된 총 개인 수:
 
