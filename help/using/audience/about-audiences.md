@@ -7,11 +7,10 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: a48fe20dcd06771c41164ecb1ea6df9d83a9a96c
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2160'
 ht-degree: 18%
 
 ---
@@ -152,7 +151,7 @@ Edge 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 [
 
 이전 데이터를 사용하여 대상자를 다시 채우는 데 최대 24시간이 걸릴 수 있습니다. 대상자를 다시 채운 후 대상자는 계속 최신 상태로 유지되며 언제든 타겟팅할 수 있습니다.
 
-### [!BADGE 제한된 가용성]{type=Informative} 유연한 대상 평가(제한된 가용성) {#flexible}
+### [!BADGE 제한 공개]{type=Informative} 유연한 대상자 평가 {#flexible}
 
 >[!AVAILABILITY]
 >
