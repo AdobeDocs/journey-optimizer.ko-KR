@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
 workflow-type: tm+mt
 source-wordcount: '1312'
-ht-degree: 23%
+ht-degree: 27%
 
 ---
 
@@ -39,14 +39,14 @@ ht-degree: 23%
 
 수신자가 원클릭 옵트아웃 링크를 클릭하면 수신자의 구독 취소 요청이 그에 따라 처리됩니다.
 
-### 이메일 헤더의 구독 취소 URL {#unsubscribe-header}
+### 이메일 헤더의 원클릭 구독 취소 URL {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="이메일에 구독 취소 URL 추가"
->abstract="목록 구독 취소 를 활성화하여 이메일 헤더에 구독 취소 URL을 자동으로 추가합니다. 이메일 콘텐츠에 원클릭 옵트아웃 링크를 삽입하여 메시지에 구독 취소 URL을 설정할 수도 있습니다."
+>abstract="[목록 구독 취소]를 활성화하여 이메일 헤더에 구독 취소 URL을 자동으로 추가합니다. 원클릭 옵트아웃 링크를 이메일 콘텐츠에 삽입하여 메시지에서 구독 취소 URL을 설정할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="이메일 콘텐츠의 원클릭 옵트아웃"
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="이메일 구성에서 목록 구독 취소 활성화"
 
