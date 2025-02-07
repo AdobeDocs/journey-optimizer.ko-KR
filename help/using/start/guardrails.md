@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 5b16e3a89a9a39723a2443345c4e8180a490112e
 workflow-type: tm+mt
 source-wordcount: '2476'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 자격, 제품 제한 사항, 성능 가드레일 목록은 [Adobe Journey Optimizer 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에서 확인하실 수 있습니다.
 
-시작하기 전에 실시간 고객 프로필 데이터에 대한 [보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}을 알고 있어야 합니다.
+시작 전 [실시간 고객 프로필 데이터 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}에 대해 알고 있어야 합니다.
 
 
 >[!NOTE]

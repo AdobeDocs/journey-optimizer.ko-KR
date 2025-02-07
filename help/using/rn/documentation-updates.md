@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
 source-wordcount: '5954'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 96%
 
 ## 2025년 1월 {#jan-2025}
 
-* 전자 메일 구성의 **[!UICONTROL 실행 주소]** 옵션에 대한 새 섹션이 추가되었습니다. 기본 주소는 샌드박스 수준에서 정의되지만 특정 이메일 구성에 대해 기본 설정을 무시할 수 있습니다. [자세히 보기](../email/email-settings.md#execution-address)
+* 이메일 구성의 **[!UICONTROL 실행 주소]** 옵션에 대한 새로운 섹션을 추가했습니다. 기본 주소는 샌드박스 수준에서 정의되지만, 특정 이메일 구성에 대해 기본 설정을 재정의할 수 있습니다. [자세히 보기](../email/email-settings.md#execution-address)
 
-* **게재 기능 시작** 페이지가 업데이트되어 사용자 인터페이스에서 직접 IP 준비 워크플로를 만들 수 있습니다. [자세히 보기](../reports/deliverability.md#reputation)
+* **전달성 시작** 페이지에 사용자 인터페이스에서 직접 IP 워밍업 워크플로를 만들 수 있다는 내용을 추가하여 업데이트했습니다. [자세히 보기](../reports/deliverability.md#reputation)
 
-* **헤더 매개 변수** 섹션이 사용자 인터페이스의 새 레이블 및 변경 사항을 반영하도록 업데이트되었습니다. [자세히 보기](../email/email-settings.md#email-header)
+* **헤더 매개 변수** 섹션에 사용자 인터페이스의 새로운 레이블 및 변경 사항을 반영하여 업데이트했습니다. [자세히 보기](../email/email-settings.md#email-header)
 
-* **전자 메일 전달** 섹션이 **전자 메일 보낸 사람** 주소로 보낸 모든 전자 메일을 전달 전자 메일 주소로 전달하도록 업데이트되었습니다. 전달 이메일을 지정하지 않으면 이러한 이메일이 무시됩니다. [자세히 보기](../email/email-settings.md#forward-email)
+* **이메일 전달** 섹션에 **발신자 이메일** 주소로 보낸 이메일은 모두 전달 이메일 주소로 전달한다는 점을 명시하여 업데이트했습니다. 전달 이메일을 지정하지 않은 경우 해당 이메일은 삭제됩니다. [자세히 보기](../email/email-settings.md#forward-email)
 
 * API가 트리거된 캠페인 요청에 전달되는 컨텍스트 속성의 최대 크기가 200kb로 업데이트되었습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 * 프로세스를 보다 명확하게 설명하도록 **코드 기반 경험 구성** 페이지를 개선했습니다. 표면 URI의 정의를 설명하는 섹션이 포함됩니다. [자세히 보기](../code-based/code-based-configuration.md)
 * **웹 채널 구성 만들기** 페이지에서 페이지 일치 규칙을 만드는 단계를 명확하게 설명하도록 업데이트했습니다. 이는 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
 * 시스템 생성 데이터 세트에 적용될 예정인 TTL(Time-to-Live) 가드레일에 대한 메모를 추가했습니다. [자세히 보기](../data/get-started-datasets.md)
-* 여정 또는 캠페인에서 콘텐츠를 시뮬레이션할 때 **장치에서 미리 보기** 옵션을 사용하여 브라우저 또는 모바일 장치에서 코드 기반의 개인화된 경험을 바로 미리 보는 방법을 설명하는 새 섹션이 추가되었습니다. [자세히 보기](../code-based/test-code-based.md#preview-on-device)
+* 여정 또는 캠페인의 콘텐츠를 시뮬레이션할 때 **디바이스에서 미리 보기** 옵션을 사용하여 브라우저 또는 모바일 디바이스에서 바로 코드 기반의 개인화된 경험을 미리 보는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../code-based/test-code-based.md#preview-on-device)
 * 의사 결정에 사용자 정의 업로드 대상자를 활용하는 방법에 대한 새 페이지를 추가했습니다. [자세히 보기](../offers/custom-upload-decisioning.md)
 * Journey Optimizer에서 사용할 수 있는 결정 기능을 소개하는 새 페이지가 추가되었습니다. [자세히 보기](../experience-decisioning/gs-decision.md)
 * 결정 설명서에 가드레일 및 제한 사항이 추가되었습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md#guardrails)
