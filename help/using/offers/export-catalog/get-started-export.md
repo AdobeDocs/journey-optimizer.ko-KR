@@ -7,9 +7,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Journey Optimizer의 오퍼 카탈로그를 자동으로 Adobe Experience Platfo
 
 >[!NOTE]
 >
->이 기능은 기본적으로 활성화되어 있습니다. 추가적인 활성화 단계 없이 사용을 시작할 수 있습니다. 활성화되면 내보내기 작업이 자동화되며 사용자의 작업이 필요 없습니다.
+>이 기능은 기본적으로 활성화되어 있습니다. 추가 활성화 단계 없이 사용할 수 있습니다. 활성화하면 별도 조치 없이도 내보내기 작업이 자동화됩니다.
 
 <!--
 >[!NOTE]

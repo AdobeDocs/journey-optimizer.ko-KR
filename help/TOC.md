@@ -6,7 +6,7 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
 ht-degree: 100%
 
@@ -370,7 +370,7 @@ ht-degree: 100%
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
-   + [Adobe Experience Manager 콘텐츠 조각](using/content-management/aem-fragments.md)
+   + [Adobe Experience Manager Content 조각](using/content-management/aem-fragments.md)
 + 대상자, 프로필, ID{#audiences-profiles-identities}
    + 대상자 {#audiences}
       + [대상자 시작](using/audience/about-audiences.md)
