@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: a0e9800c5909369845f2a243e8967f7037c808d8
+source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 96%
@@ -67,7 +67,7 @@ ht-degree: 96%
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️0}이 섹션](experience-decisioning-uc.md)에 콘텐츠 실험을 사용하여 의사 결정을 코드 기반 경험 채널과 비교하는 방법을 보여주는 엔드 투 엔드 사용 사례가 나와 있습니다.[
+➡️0}이 섹션](../experience-decisioning/experience-decisioning-uc.md)에 콘텐츠 실험을 사용하여 의사 결정을 코드 기반 경험 채널과 비교하는 방법을 보여주는 엔드 투 엔드 사용 사례가 나와 있습니다.[
 
 ## 코드 기반 채널과 기타 채널을 사용할 경우 비교 {#code-based-vs-other-channels}
 
