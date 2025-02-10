@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: dbe312f332031391c49a973f323994f860e354e3
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '5954'
+source-wordcount: '5981'
 ht-degree: 98%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 * 충돌 관리 및 우선 순위 지정 도구 설명서에 &quot;보호 및 제한 사항&quot; 섹션이 추가되었습니다. [자세히 보기](../conflict-prioritization/gs-conflict-prioritization.md)
 
-<!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
+* [!DNL Journey Optimizer] 코드 기반 경험 채널을 사용하는 콘텐츠 실험에서 Decisioning을 사용하는 데 필요한 모든 단계를 제공하는 새로운 엔드 투 엔드 사용 사례를 추가했습니다. [자세히 보기](../experience-decisioning/experience-decisioning-uc.md)
 
 ## 2024년 12월 {#nov-2024}
 

@@ -1,21 +1,19 @@
 ---
 title: 결정 사용 사례
-description: 코드 기반 채널을 사용한 실험을 사용하여 의사 결정을 만드는 방법에 대해 알아봅니다
+description: 코드 기반 경험 채널을 사용하여 의사 결정을 만들고 콘텐츠 실험에 사용하는 방법을 알아봅니다
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 5%
+source-wordcount: '828'
+ht-degree: 4%
 
 ---
 
-# 결정 사용 사례 {#experience-decisioning-uc}
+# 콘텐츠 실험을 통한 코드 기반 경험에서 Decisioning 사용 {#experience-decisioning-uc}
 
 이 사용 사례에서는 [!DNL Journey Optimizer] 코드 기반 채널에서 Decisioning을 사용하는 데 필요한 모든 단계를 제공합니다.
 
