@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 12%
@@ -42,7 +42,7 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 
 ![](assets/content_experiment.png)
 
-➡️콘텐츠 실험을 사용하여 [이 사용 사례](experience-decisioning-uc.md)에서 코드 기반 경험 채널과 결정을 비교하는 방법에 대해 알아봅니다.
+➡️콘텐츠 실험을 사용하여 [이 사용 사례](../experience-decisioning/experience-decisioning-uc.md)에서 코드 기반 경험 채널과 결정을 비교하는 방법에 대해 알아봅니다.
 
 ## 콘텐츠 만들기 {#campaign-experiment}
 
