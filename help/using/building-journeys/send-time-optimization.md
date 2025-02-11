@@ -9,19 +9,14 @@ role: User
 level: Intermediate
 keywords: 전송 시간, 전송, 메시지, 최적화, 여정, AI, 지능형
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: b9ec336abbe329c33098880b16aaeabd8ec0c310
+source-git-commit: a0ace8232d6851b7cd41ba4d8a06a2a42bb799e6
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 10%
+source-wordcount: '1505'
+ht-degree: 8%
 
 ---
 
 # 전송 시간 최적화{#send-time-optimization}
-
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_disabled"
->title="전송된 시간 최적화 정보"
->abstract="Adobe의 AI 서비스에서 제공하는 Adobe Journey Optimizer의 전송 시간 최적화 기능은 기록 열기와 클릭률을 기반으로 이메일 또는 푸시 메시지를 전송하는 최적의 시간을 예측하여 참여도를 극대화할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
