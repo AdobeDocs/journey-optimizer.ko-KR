@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
-source-wordcount: '5981'
+source-wordcount: '6014'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 98%
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer] 설명서 최신 업데이트 내용이 모두 포함되어 있습니다.
+
+
+## 2025년 2월 {#feb-2025}
+
+* **[!UICONTROL 전송 시간 최적화]** 및 관련 FAQ에 대한 설명서를 업데이트 및 개선하고 새 전용 페이지로 이동했습니다. [자세히 보기](../building-journeys/send-time-optimization.md)
+* 여정 이벤트에 대한 새 보호 기능이 추가되었습니다. [자세히 보기](../start/guardrails.md#events-g)
 
 ## 2025년 1월 {#jan-2025}
 
@@ -99,7 +105,7 @@ ht-degree: 98%
 * API 트리거 캠페인을 사용할 때 사용자 지정 네임스페이스로 ID를 만드는 방법에 대한 정보를 추가했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md)
 * 향상된 여정 캔버스를 반영하도록 스크린샷이 업데이트되었습니다.
 * 다음 페이지에서 이름 지정 제한이 업데이트되었습니다. [단일 이벤트 구성](../event/about-creating.md), [비즈니스 이벤트 구성](../event/about-creating-business.md#gs-business-events), [사용자 정의 작업 구성](../action/about-custom-action-configuration.md#configuration-steps), [외부 데이터 소스](../datasource/external-data-sources.md)
-* 전송 시간 최적화 가용성에 대한 메모를 추가했습니다. [자세히 보기](../building-journeys/journeys-message.md#send-time-optimization)
+* 전송 시간 최적화 가용성에 대한 메모를 추가했습니다. [자세히 보기](../building-journeys/send-time-optimization.md)
 * Experience Platform에 데이터를 보내기 위한 사용자 정의 작업을 만드는 방법에 대한 새로운 기술 사용 사례가 추가되었습니다. [자세히 보기](../building-journeys/custom-action-aep.md)
 
 ## 2024년 3월 {#march-2024}
@@ -358,7 +364,7 @@ ht-degree: 98%
 * 허용 목록 페이지가 구성 섹션으로 이동되었습니다. [자세히 보기](../configuration/allow-list.md)
 * 금지 목록 페이지가 32-126 사이의 모든 ASCII 문자가 제외 필드에 허용된다는 사실 등 일부 정보를 명확하게 하도록 업데이트되었습니다. [자세히 보기](../configuration/manage-suppression-list.md)
 * 결정 관리에 대한 보호 및 정적 제한에 대한 링크가 추가되었습니다. [자세히 보기](../start/guardrails.md)
-* 이제 모든 고객이 전송 시간 최적화를 사용할 수 있습니다. 베타 표시를 제거했습니다. [자세히 보기](../building-journeys/journeys-message.md#send-time-optimization)
+* 이제 모든 고객이 전송 시간 최적화를 사용할 수 있습니다. 베타 표시를 제거했습니다. [자세히 보기](../building-journeys/send-time-optimization.md)
 * 일괄 의사 결정 API가 개인화된 오퍼 게재를 위해 사용 가능한 API 목록에 추가되었습니다. [자세히 보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022년 5월 {#may-2022}

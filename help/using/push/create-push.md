@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 9%
@@ -40,7 +40,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >여정에서 푸시 알림을 보내는 경우 Adobe Journey Optimizer의 전송 시간 최적화 기능을 활용하여 메시지를 보내는 최적의 시간을 예측하여 과거 열기 및 클릭률을 기반으로 참여를 극대화할 수 있습니다. [전송 시간 최적화를 사용하여 작업하는 방법을 알아봅니다](../building-journeys/journeys-message.md#send-time-optimization)
+   >여정에서 푸시 알림을 보내는 경우 Adobe Journey Optimizer의 전송 시간 최적화 기능을 활용하여 메시지를 보내는 최적의 시간을 예측하여 과거 열기 및 클릭률을 기반으로 참여를 극대화할 수 있습니다. [전송 시간 최적화를 사용하여 작업하는 방법을 알아봅니다](../building-journeys/send-time-optimization.md)
 
    여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
 

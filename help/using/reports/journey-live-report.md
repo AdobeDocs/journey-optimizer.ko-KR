@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '3705'
 ht-degree: 30%
@@ -357,7 +357,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 >[!NOTE]
 >
->**[!UICONTROL 전송 시간 최적화]** 및 **[!UICONTROL 최적화 대 비최적화]** 위젯은 게재에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 [이 페이지](../building-journeys/journeys-message.md#send-time-optimization)를 참조하세요.
+>**[!UICONTROL 전송 시간 최적화]** 및 **[!UICONTROL 최적화 대 비최적화]** 위젯은 게재에 대해 전송 시간 최적화 옵션이 활성화된 경우에만 사용할 수 있습니다. 전송 시간 최적화에 대한 자세한 내용은 [이 페이지](../building-journeys/send-time-optimization.md)를 참조하세요.
 
 **[!UICONTROL 전송 시간 최적화]** 및 **[!UICONTROL 최적화 대 비최적화]** 위젯은 전송 방법에 따라 전자 메일의 성공 여부를 자세히 설명합니다(최적화 또는 일반).
 

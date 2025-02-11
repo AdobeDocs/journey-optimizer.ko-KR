@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 9%
@@ -43,7 +43,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->전송 시간 최적화 옵션을 사용하여 메시지를 보내는 가장 적합한 시간을 예측하여 기록 열기 및 클릭률에 따라 참여를 극대화할 수 있습니다. [전송 시간 최적화를 사용하여 작업하는 방법을 알아봅니다](../building-journeys/journeys-message.md#send-time-optimization)
+>전송 시간 최적화 옵션을 사용하여 메시지를 보내는 가장 적합한 시간을 예측하여 기록 열기 및 클릭률에 따라 참여를 극대화할 수 있습니다. [전송 시간 최적화를 사용하여 작업하는 방법을 알아봅니다](../building-journeys/send-time-optimization.md)
 
 여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
 
@@ -94,7 +94,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. 캠페인에 있는 경우 **[!UICONTROL 코드 편집기]** 단추를 클릭하여 표시되는 팝업 창을 사용하여 일반 HTML에서 자신의 콘텐츠를 코딩할 수도 있습니다.
+1. 캠페인에 있는 경우 표시되는 팝업 창을 사용하여 **[!UICONTROL 코드 편집기]** 단추를 클릭하여 일반 HTML에서 자신의 콘텐츠를 코딩할 수도 있습니다.
 
    ![](assets/email_designer_edit_code_editor.png)
 
@@ -124,7 +124,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
      >
      >마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 구성](email-settings.md#email-type) 수준에서 [여정 또는 캠페인에서 메시지를 만드는](#create-email-journey-campaign)때 정의됩니다.
 
-   * **[!UICONTROL 텍스트 버전의 HTML이 비어 있음]**: HTML 내용을 표시할 수 없을 때 사용할 텍스트 버전의 전자 메일 본문을 정의하는 것을 잊지 마십시오. [이 섹션](text-version-email.md)에서 텍스트 버전을 만드는 방법을 알아봅니다.
+   * **[!UICONTROL HTML의 텍스트 버전이 비어 있음]**: 이메일 본문의 텍스트 버전은 HTML 콘텐츠를 표시할 수 없을 때 사용되므로 정의하는 것을 잊지 마십시오. [이 섹션](text-version-email.md)에서 텍스트 버전을 만드는 방법을 알아봅니다.
 
    * **[!UICONTROL 전자 메일 본문에 빈 링크가 있습니다]**: 전자 메일의 모든 링크가 올바른지 확인하세요. [이 섹션](content-from-scratch.md)에서 콘텐츠 및 링크를 관리하는 방법을 알아보세요.
 

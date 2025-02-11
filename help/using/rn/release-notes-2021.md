@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -186,7 +186,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Journey Optimizer를 사용하여 모든 고객에게 최적의 시간에 푸시 또는 이메일을 자동으로 보냅니다. Adobe의 AI 서비스를 기반으로 하는 [전송 시간 최적화]는 기존의 오픈 및 클릭률 기록을 기반으로 참여를 극대화하기 위해 이메일 또는 푸시 메시지를 보내기 가장 적합한 시간을 예측합니다.</p>
 <p>이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.</p>
-<p>자세한 내용은 <a href="../building-journeys/journeys-message.md#send-time-optimization">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../building-journeys/send-time-optimization.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -343,16 +343,16 @@ ht-degree: 100%
 
 * 동일한 샌드박스에서 동시에 실행하는 모든 대상자 읽기의 전체 스로틀링 수는 초당 17,000개의 메시지로 제한됩니다. [자세히 보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * **캐시 기간** 필드가 데이터 소스 구성 창에서 제거되었습니다. [자세히 보기](../datasource/about-data-sources.md)
-* 이제 외부 데이터 소스의 경우 초당 최대 15회 호출할 수 있는 가용량 규칙이 자동으로 정의됩니다. [자세히 보기](../configuration/external-systems.md#capping)
+* 이제 외부 데이터 소스의 경우 초당 최대 15회 호출할 수 있는 상한 설정 규칙이 자동으로 정의됩니다. [자세히 보기](../configuration/external-systems.md#capping)
 * 이제 실시간 여정의 여정 속성 화면에 게시 날짜와 여정을 게시한 사용자의 이름이 표시됩니다. [자세히 보기](../building-journeys/journey-gs.md#change-properties)
 * 여정 목록 화면에 여정 유형 필터를 추가했습니다. [자세히 보기](../start/user-interface.md#filter-lists)
 * [대상자 읽기] 활동에 **[!UICONTROL 스로틀링 수]** 매개변수를 추가했습니다. [자세히 보기](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **미리 보기 및 테스트**
 
-* 이제 신원과 네임스페이스가 **[!UICONTROL 미리보기]** 화면에 표시됩니다. [자세히 보기](../content-management/preview-test.md#preview-your-messages)
+* 이제 ID와 네임스페이스가 **[!UICONTROL 미리보기]** 화면에 표시됩니다. [자세히 보기](../content-management/preview-test.md#preview-your-messages)
 * 이제 교정용 테스트 이메일 수가 10개로 제한됩니다.
-* 교정을 보낼 때 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](../content-management/preview-test.md#send-proofs)
+* 교정쇄 내 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](../content-management/preview-test.md#send-proofs)
 
 **개인화 표현식 편집기**
 
