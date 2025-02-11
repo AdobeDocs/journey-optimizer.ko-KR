@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c17f1ef543948f74e95efab66dfeabf97af4519
+source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2270'
 ht-degree: 96%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 96%
 <p>이제 Customer Journey Analytics 템플릿을 활용하여 Journey Optimizer 보고서를 향상시킬 수 있는 옵션이 제공됩니다. 이 새로운 기능을 사용하면 분석 요구 사항에 맞게 미리 디자인된 템플릿을 사용하여 보고 프로세스를 간소화할 수 있습니다.
 </p>
 <p>자세한 내용은 <a href="../reports/report-cja-manage.md#cja-template">세부 설명서</a>를 참조하십시오.</p>
-<p> <b>템플릿</b> 기능은 단계적으로 롤아웃되며 전체 일반 가용성은 1월 말까지 제공될 예정입니다</p>
+<p>사용 가능한 날짜: 2025년 1월 15일부터 시작</p>
 </tr>
 </tbody>
 </table>
@@ -54,6 +54,7 @@ ht-degree: 96%
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>자세한 내용은 <a href="../audience/about-audiences.md#flexible">세부 설명서</a>를 참조하십시오.</p>
 <p> 유연한 대상 평가는 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>사용 가능한 날짜: 2025년 1월 28일</p>
 </tr>
 </tbody>
 </table>
