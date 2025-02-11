@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 전송 시간, 전송, 메시지, 최적화, 여정, AI, 지능형
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: b9ec336abbe329c33098880b16aaeabd8ec0c310
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 11%
+source-wordcount: '1542'
+ht-degree: 10%
 
 ---
 
@@ -43,6 +43,11 @@ Adobe Journey Optimizer의 여정 AI 서비스를 기반으로 하는 Adobe의 �
 
 전송 시간 최적화는 Journey Optimizer의 기본 제공 이메일 및 푸시 작업 유형에만 사용할 수 있으며, 현재 사용자 지정 작업을 통해 전송된 메시지 또는 다른 작업 유형에는 사용할 수 없습니다. 전송 시간 최적화는 여정 내의 이메일 및 푸시 작업에만 사용할 수 있으며 현재 캠페인을 통해 전송된 메시지에는 사용할 수 없습니다.
 
+>[!AVAILABILITY]
+>
+>* 초기 전송 시간 최적화 교육 및 점수에는 최근 메시징 데이터가 있는 최소 1,000개의 프로필이 권장됩니다.
+>
+>* 전송 시간 최적화는 **이메일** 및 **푸시 알림** 채널에만 적용됩니다.
 
 ## 전송 시간 최적화 활성화{#enable-send-time-optimization}
 
