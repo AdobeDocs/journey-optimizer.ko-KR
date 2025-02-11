@@ -33,7 +33,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static_select"
 >title="정적 컬렉션 미리보기"
->abstract="정적 컬렉션은 컬렉션에 포함할 개별 오퍼를 수동으로 선택하여 구축됩니다. 컬렉션은 수동으로 더 많은 오퍼를 추가해야만 업데이트할 수 있습니다."
+>abstract="정적 컬렉션은 컬렉션에 포함할 개별 오퍼를 수동으로 선택하여 빌드됩니다. 컬렉션은 수동으로 더 많은 오퍼를 추가해야만 업데이트할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic_select"

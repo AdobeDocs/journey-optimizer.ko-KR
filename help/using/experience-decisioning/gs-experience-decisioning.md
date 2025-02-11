@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="의사 결정이란 무엇입니까?"
->abstract="의사 결정은 의사 결정 엔진에서 최상의 항목을 선택하여 각 개인에게 전달하는 의사 결정 관리 이외의 새로운 도구입니다. 이를 사용하려면 추가 설정이 필요합니다."
+>title="결정은 무엇입니까?"
+>abstract="결정은 결정 엔진에서 가장 적합한 항목을 골라 각 개인에게 전달하는 의사 결정 관리 외의 새로운 도구입니다. 이를 사용하려면 추가적인 설정이 필요합니다."
 
 ## Decisioning 소개 {#about}
 

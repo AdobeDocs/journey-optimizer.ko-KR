@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
 workflow-type: tm+mt
 source-wordcount: '2834'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,8 +85,8 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="구독 취소 데이터를 관리하는 방법 정의"
->abstract="**Adobe 관리**: 동의 데이터는 Adobe 시스템 내에서 사용자가 관리합니다.<br>**고객 관리**: 동의 데이터는 외부 시스템에서 사용자가 관리하며 사용자가 시작하지 않는 한 Adobe 시스템에서 동의 데이터의 동기화가 업데이트되지 않습니다."
+>title="구독 취소 데이터 관리 방법 정의"
+>abstract="**Adobe 관리**: 동의 데이터는 Adobe 시스템 내에서 관리합니다.<br>**고객 관리**: 동의 데이터는 외부 시스템에서 사용자가 관리하며, 사용자가 시작하지 않는 한 Adobe 시스템에서 동의 데이터의 동기화가 업데이트되지 않습니다."
 
 <!--Do not modify - Legal Review Done -->
 

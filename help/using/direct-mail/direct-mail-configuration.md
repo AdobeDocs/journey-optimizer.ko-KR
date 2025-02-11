@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="파일의 서버 유형을 선택합니다."
->abstract="DM 파일을 내보내는 데 사용할 서버 유형(Amazon S3, SFTP 또는 Azure)을 선택합니다."
+>abstract="DM 파일 내보내기에 사용할 서버 유형(예: Amazon S3, SFTP 또는 Azure)을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
@@ -197,7 +197,7 @@ DM 구성에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 �
 
    >[!NOTE]
    >
-   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-`자를 사용할 수도 있습니다.
+   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점 `.`, 하이픈 `-`도 사용할 수 있습니다.
 
 1. 구성에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택할 수 있습니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요](../administration/object-based-access.md).
 
