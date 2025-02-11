@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5b16e3a89a9a39723a2443345c4e8180a490112e
+source-git-commit: 3860916a899b3f1bc0f7563f776cdf8356aee0a9
 workflow-type: tm+mt
-source-wordcount: '2476'
-ht-degree: 96%
+source-wordcount: '2505'
+ht-degree: 94%
 
 ---
 
@@ -80,6 +80,8 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 ### 일반 여정 가드레일 {#journeys-guardrails-journeys}
 
 * 한 여정에 넣을 수 있는 활동 수는 50개로 제한됩니다. 활동 수는 여정 캔버스의 왼쪽 위 섹션에 표시됩니다. 이는 가독성과 QA, 문제 해결에 도움이 됩니다.
+* Journey Optimizer은 초당 5,000개의 인바운드 여정 이벤트의 최대 볼륨을 지원합니다.
+* 여정 여정에서 첫 번째 작업을 처리하는 데 최대 5분이 걸릴 수 있습니다.
 * 여정을 게시하면 처리량과 안정성을 최대화하기 위해 자동으로 규모를 조절합니다. 한 번에 100개의 실시간 여정을 실행하는 마일스톤에 가까워지면 100개를 달성할 예정이라는 알림이 UI에 표시됩니다. 이 알림을 받았는데 실시간 여정을 100개 넘게 실행하도록 현재 여정의 수를 확장해야 하는 경우, 고객 지원 센터에 보내는 티켓을 개설해 주시면 Adobe가 목표 달성을 도와 드리겠습니다.
   <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * 여정에서 대상자 선별을 사용할 때 해당 대상자 선별 활동이 활성화되고 대상자에 들어오거나 나가는 프로필을 확인하는 데 최대 10분이 걸릴 수 있습니다.
