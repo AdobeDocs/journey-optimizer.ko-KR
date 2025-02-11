@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1056'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 >
 >[!DNL Journey Optimizer]에서 작성한 채널에서 사용하는 결정 범위는 소속된 여정이나 캠페인의 이 요건을 충족합니다.
 
-1. [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko){target="_blank"}를 사용하여 [Adobe Experience Platform 대상자](../audience/access-audiences.md)를 만들고 **[!UICONTROL 콘텐츠 개인화 = 예(옵트인)]** 같은 프로필 속성을 사용하여 개인화에 동의한 사용자를 타겟팅합니다.
+1. [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko){target="_blank"}를 사용하여 [Adobe Experience Platform 대상자](../audience/about-audiences.md)를 만들고 **[!UICONTROL 콘텐츠 개인화 = 예(옵트인)]** 같은 프로필 속성을 사용하여 개인화에 동의한 사용자를 타겟팅합니다.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -121,7 +121,7 @@ ht-degree: 100%
 
 세그먼트 규칙 빌더를 사용하여 옵트아웃한 프로필이 포함된 대상자를 만들 수 있습니다.
 
-1. [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko){target="_blank"}를 사용하여 [Adobe Experience Platform 대상자](../audience/access-audiences.md)를 만듭니다.
+1. [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko){target="_blank"}를 사용하여 [Adobe Experience Platform 대상자](../audience/about-audiences.md)를 만듭니다.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -137,13 +137,13 @@ ht-degree: 100%
 
 또한 구성 워크플로에 분할 활동을 추가하여 대상자에 대한 개인화 동의 검사를 추가할 수 있습니다.
 
-1. **[!UICONTROL 대상자 구성]** 옵션을 사용하여 대상자를 만듭니다. [구성 워크플로 만들기에 대해 자세히 알아보기](../audience/create-compositions.md)
+1. **[!UICONTROL 대상자 구성]** 옵션을 사용하여 대상자를 만듭니다. [구성 워크플로 만들기에 대해 자세히 알아보기](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
 1. 오른쪽의 전용 버튼을 사용하여 시작할 대상자를 추가합니다.
 
-1. **+** 아이콘을 클릭하고 **[!UICONTROL 분할]** 활동을 선택하여 분할 대상자를 만듭니다. [분할 활동에 대해 자세히 알아보기](../audience/composition-canvas.md#split)
+1. **+** 아이콘을 클릭하고 **[!UICONTROL 분할]** 활동을 선택하여 분할 대상을 만듭니다.
 
    ![](assets/perso-consent-audience-split.png)
 

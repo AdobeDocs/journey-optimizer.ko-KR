@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
-workflow-type: ht
-source-wordcount: '2154'
-ht-degree: 100%
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+workflow-type: tm+mt
+source-wordcount: '2143'
+ht-degree: 99%
 
 ---
 
@@ -374,14 +374,13 @@ ht-degree: 100%
 + 대상자, 프로필, ID{#audiences-profiles-identities}
    + 대상자 {#audiences}
       + [대상자 시작](using/audience/about-audiences.md)
-      + [사용자 정의 업로드(CSV) 및 페더레이션된 대상자 구성](using/audience/custom-upload-fac.md)
-      + [세그먼트 정의 작성](using/audience/creating-a-segment-definition.md)
-      + 대상자 구성 {#audience-orchestration}
-         + [대상자 구성 시작](using/audience/get-started-audience-orchestration.md)
-         + [컴포지션 워크플로 만들기](using/audience/create-compositions.md)
-         + [컴포지션 캔버스 작업](using/audience/composition-canvas.md)
-         + [대상자 액세스 및 관리](using/audience/access-audiences.md)
-      + [페더레이션된 대상자 구성](https://experienceleague.adobe.com/ko/docs/federated-audience-composition/using/home)
+      + 대상자 만들기 {#create}
+         + [세그먼트 정의](using/audience/creating-a-segment-definition.md)
+         + [대상자 구성](using/audience/get-started-audience-orchestration.md)
+         + [사용자 정의 업로드](using/audience/custom-upload.md)
+         + [Federated Audience 구성(제한된 가용성)](using/audience/federated-audience-composition.md)
+      + [캠페인 및 여정에서의 대상자 활성화](using/audience/target-audiences.md)
+      + [데이터 보강 속성 활용](using/audience/enrichment-attributes.md)
    + 프로필{#profiles}
       + [프로필 시작](using/audience/get-started-profiles.md)
       + [테스트 프로필 만들기](using/audience/creating-test-profiles.md)
