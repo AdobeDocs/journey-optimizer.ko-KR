@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 3860916a899b3f1bc0f7563f776cdf8356aee0a9
+source-git-commit: 2bc4dba1353b1d19b1bae0b7718fbbc9e9f37147
 workflow-type: tm+mt
 source-wordcount: '2505'
 ht-degree: 94%
@@ -80,8 +80,6 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 ### 일반 여정 가드레일 {#journeys-guardrails-journeys}
 
 * 한 여정에 넣을 수 있는 활동 수는 50개로 제한됩니다. 활동 수는 여정 캔버스의 왼쪽 위 섹션에 표시됩니다. 이는 가독성과 QA, 문제 해결에 도움이 됩니다.
-* Journey Optimizer은 초당 5,000개의 인바운드 여정 이벤트의 최대 볼륨을 지원합니다.
-* 여정 여정에서 첫 번째 작업을 처리하는 데 최대 5분이 걸릴 수 있습니다.
 * 여정을 게시하면 처리량과 안정성을 최대화하기 위해 자동으로 규모를 조절합니다. 한 번에 100개의 실시간 여정을 실행하는 마일스톤에 가까워지면 100개를 달성할 예정이라는 알림이 UI에 표시됩니다. 이 알림을 받았는데 실시간 여정을 100개 넘게 실행하도록 현재 여정의 수를 확장해야 하는 경우, 고객 지원 센터에 보내는 티켓을 개설해 주시면 Adobe가 목표 달성을 도와 드리겠습니다.
   <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * 여정에서 대상자 선별을 사용할 때 해당 대상자 선별 활동이 활성화되고 대상자에 들어오거나 나가는 프로필을 확인하는 데 최대 10분이 걸릴 수 있습니다.
@@ -122,6 +120,8 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 이벤트 {#events-g}
 
+* Journey Optimizer은 초당 5,000개의 인바운드 여정 이벤트의 최대 볼륨을 지원합니다.
+* 여정 여정에서 첫 번째 작업을 처리하는 데 최대 5분이 걸릴 수 있습니다.
 * 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Optimizer 내에서 구성해야 합니다.. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다. 
 * 비즈니스 이벤트는 단일 이벤트 또는 대상자 선별 활동과 함께 사용할 수 없습니다. 
 * 단일 여정(이벤트 또는 대상자 선별로 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하는 가드레일이 포함됩니다. 프로필 재진입은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03에 도착하는 경우(동일한 이벤트이든 동일한 여정을 트리거하는 다른 이벤트이든) 해당 여정은 이 프로필에 대해 다시 시작되지 않습니다.
