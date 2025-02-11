@@ -2,27 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 속성 기반 액세스 제어
-description: 속성 기반 액세스 제어(ABAC)를 사용하면 특정 팀이나 사용자 그룹에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다.
+description: 속성 기반 액세스 제어를 사용하면 특정 팀이나 사용자 그룹에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다.
 feature: Access Management
 topic: Administration
 role: Admin,Leader
 level: Intermediate
 keywords: abac, 속성, 권한, 데이터, 액세스, 중요, 에셋
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
 # 속성 기반 액세스 제어 {#attribute-based-access}
 
-속성 기반 액세스 제어(ABAC) 기능을 사용하면 특정 팀이나 사용자 그룹에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다. 그 목적은 개인 데이터를 더 이상 보호할 수 있도록 권한이 없는 사용자로부터 민감한 디지털 자산을 보호하는 것입니다.
+속성 기반 액세스 제어 기능을 사용하면 특정 팀이나 사용자 그룹에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다. 그 목적은 개인 데이터를 더 이상 보호할 수 있도록 권한이 없는 사용자로부터 민감한 디지털 자산을 보호하는 것입니다.
 
-Adobe Journey Optimizer에서 ABAC를 사용하면 데이터를 보호하고 XDM(경험 데이터 모델) 스키마, 프로필 속성 및 대상을 포함한 특정 필드 요소에 특정 액세스 권한을 부여할 수 있습니다.
+Adobe Journey Optimizer의 속성 기반 액세스 제어를 사용하여 데이터를 보호하고 XDM(Experience Data Model) 스키마, 프로필 속성 및 대상을 비롯한 특정 필드 요소에 특정 액세스 권한을 부여합니다.
 
-ABAC에 사용되는 용어의 자세한 목록은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=ko)를 참조하세요.
+특성 기반 액세스 제어에 사용되는 용어의 자세한 목록을 보려면 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=ko){target="_blank"}를 참조하세요.
 
 이 예제에서는 **Nationality** 스키마 필드에 레이블을 추가하여 권한이 없는 사용자의 사용을 제한하려고 합니다. 이를 수행하려면 다음 단계를 수행해야 합니다.
 
@@ -32,13 +32,13 @@ ABAC에 사용되는 용어의 자세한 목록은 [Adobe Experience Platform �
 
 1. Adobe Journey Optimizer의 **[!UICONTROL 스키마 필드]**&#x200B;을(를) 사용합니다.
 
-특성 기반 액세스 제어 API를 통해 **[!UICONTROL 역할]**, **[!UICONTROL 정책]** 및 **[!UICONTROL 제품]**&#x200B;에 액세스할 수도 있습니다. 자세한 정보는 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html)를 참조하세요.
+특성 기반 액세스 제어 API를 통해 **[!UICONTROL 역할]**, **[!UICONTROL 정책]** 및 **[!UICONTROL 제품]**&#x200B;에 액세스할 수도 있습니다. 자세한 정보는 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}를 참조하세요.
 
 ## 역할 만들기 및 레이블 할당 {#assign-role}
 
 >[!IMPORTANT]
 >
->역할에 대한 권한을 관리하려면 먼저 정책을 만들어야 합니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=ko)를 참조하세요.
+>역할에 대한 권한을 관리하려면 먼저 정책을 만들어야 합니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html){target="_blank"}를 참조하세요.
 
 **[!UICONTROL 역할]**&#x200B;은(는) 조직 내에서 동일한 권한, 레이블 및 샌드박스를 공유하는 사용자 집합입니다. **[!UICONTROL 역할]**에 속하는 각 사용자는 제품에 포함된 Adobe 앱 및 서비스에 대한 권한이 있습니다.
 인터페이스의 특정 기능이나 개체에 대한 사용자 액세스를 미세 조정하려면 **[!UICONTROL 역할]**&#x200B;을(를) 직접 만들 수도 있습니다.
@@ -59,7 +59,7 @@ ABAC에 사용되는 용어의 자세한 목록은 [Adobe Experience Platform �
 
    ![](assets/role_3.png)
 
-1. 드롭다운에서 선택한 기능(예: **[!UICONTROL 여정 보기]** 또는 **[!UICONTROL Publish 여정]**)에 연결된 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
+1. 드롭다운에서 선택한 기능(예: **[!UICONTROL 여정 보기]** 또는 **[!UICONTROL 여정 게시]**)에 연결된 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
 
    ![](assets/role_6.png)
 
@@ -92,7 +92,7 @@ ABAC에 사용되는 용어의 자세한 목록은 [Adobe Experience Platform �
 
 **[!UICONTROL 스키마]**, **[!UICONTROL 데이터 세트]** 및 **[!UICONTROL 대상]**&#x200B;에 **[!UICONTROL 레이블]**&#x200B;을(를) 추가할 수도 있습니다.
 
-1. **[!UICONTROL 스키마]**&#x200B;를 만듭니다. 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR)를 참조하세요.
+1. **[!UICONTROL 스키마]**&#x200B;를 만듭니다. 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
    ![](assets/label_1.png)
 
@@ -104,11 +104,11 @@ ABAC에 사용되는 용어의 자세한 목록은 [Adobe Experience Platform �
 
    ![](assets/label_3.png)
 
-1. 해당 **[!UICONTROL 레이블]**&#x200B;을(를) 선택하십시오. 이 경우 C2 - 데이터를 서드파티로 내보낼 수 없습니다. 사용 가능한 레이블의 자세한 목록을 보려면 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels)를 참조하세요.
+1. 해당 **[!UICONTROL 레이블]**&#x200B;을(를) 선택하십시오. 이 경우 C2 - 데이터를 서드파티로 내보낼 수 없습니다. 사용 가능한 레이블의 자세한 목록을 보려면 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}를 참조하세요.
 
    ![](assets/label_4.png)
 
-1. 필요한 경우 스키마를 추가로 개인화한 다음 활성화합니다. 스키마를 활성화하는 방법에 대한 자세한 단계는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile)를 참조하십시오.
+1. 필요한 경우 스키마를 추가로 개인화한 다음 활성화합니다. 스키마를 활성화하는 방법에 대한 자세한 단계는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}를 참조하십시오.
 
 이제 스키마의 필드만 표시되며 C2 레이블이 있는 역할 세트의 일부인 사용자만 사용할 수 있습니다.
 **[!UICONTROL 필드 이름]**&#x200B;에 **[!UICONTROL 레이블]**&#x200B;을(를) 적용하면 **[!UICONTROL 레이블]**&#x200B;이(가) 만들어진 모든 스키마의 **국적** 필드에 자동으로 적용됩니다.
