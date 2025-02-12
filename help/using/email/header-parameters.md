@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 93%
@@ -44,7 +44,7 @@ ht-degree: 93%
 >
 >주소는 문자(A-Z)로 시작해야 하며 영문자와 숫자만 포함할 수 있습니다. 밑줄 `_`, 점 `.`, 하이픈 `-`도 사용할 수 있습니다.
 
-### 회신 대상 이메일 {#reply-to-email}
+## 회신 대상 이메일 {#reply-to-email}
 
 **[!UICONTROL 회신 대상 이메일]** 주소를 정의할 때는 어떤 이메일 주소든 유효한 주소이고 올바른 형식이며 오타가 없기만 하면 지정할 수 있습니다.
 
@@ -66,7 +66,7 @@ ht-degree: 93%
 >
 >입력한 주소의 하위 도메인이 Adobe에 [완전히 위임된](../configuration/delegate-subdomain.md#full-subdomain-delegation) 도메인인 경우 Adobe 계정 담당자에게 문의하십시오.
 
-### 이메일 전달 {#forward-email}
+## 이메일 전달 {#forward-email}
 
 위임된 하위 도메인에 대해 [!DNL Journey Optimizer]에서 수신한 모든 이메일을 특정 이메일 주소로 전달하려면 Adobe 고객 지원 센터에 문의하십시오.
 
