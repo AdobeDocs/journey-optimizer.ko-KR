@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 6b75f1f1916a20c1ad66f5b89ec706e5b8b6844b
 workflow-type: tm+mt
-source-wordcount: '6014'
-ht-degree: 98%
+source-wordcount: '6024'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 98%
 
 * **[!UICONTROL 전송 시간 최적화]** 및 관련 FAQ에 대한 설명서를 업데이트 및 개선하고 새 전용 페이지로 이동했습니다. [자세히 보기](../building-journeys/send-time-optimization.md)
 * 여정 이벤트에 대한 새 보호 기능이 추가되었습니다. [자세히 보기](../start/guardrails.md#events-g)
+* 기본 제공 채널 작업 페이지가 재구성되었습니다. [자세히 보기](../building-journeys/journeys-message.md)
 
 ## 2025년 1월 {#jan-2025}
 
