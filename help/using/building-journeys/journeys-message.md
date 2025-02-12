@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '444'
 ht-degree: 27%
 
 ---
@@ -72,6 +72,10 @@ ht-degree: 27%
       </tr>
       </table>
 
+     >[!NOTE]
+     >
+     >이메일 및 푸시 알림의 경우 전송 시간 최적화를 활성화할 수 있습니다. [자세히 알아보기](send-time-optimization.md)
+
    * 인바운드 작업을 생성하는 자세한 단계를 다음과 같이 알아보십시오.
 
      <table style="table-layout:fixed">
@@ -114,20 +118,10 @@ ht-degree: 27%
 
      >[!NOTE]
      >
-     >각 인바운드 메시지 활동은 3일 **대기** 활동과 함께 제공됩니다. [자세히 알아보기](../building-journeys/wait-activity.md#auto-wait-node)
+     >각 인바운드 메시지 활동은 3일 **대기** 활동과 함께 제공됩니다. [자세히 알아보기](wait-activity.md#auto-wait-node)
 
-## 권장 사항 {#recommendation}
 
-[!DNL Journey Optimizer]에는 기본 메시지 기능이 포함되어 있습니다. 그러나 사용자 지정 작업을 사용하면 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다.
-
-* 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../action/action.md)
-
-* Campaign과 Journey Optimizer을 함께 사용하는 경우 다음 섹션을 참조하십시오.
-
-   * [[!DNL Journey Optimizer] 및 Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] 및 Campaign Standard](../action/acs-action.md)
-
-## 라이브 콘텐츠 업데이트{#update-live-content}
+## 라이브 콘텐츠 업데이트 {#update-live-content}
 
 라이브 여정에서 기본 제공 채널 작업의 콘텐츠를 업데이트할 수 있습니다.
 
@@ -137,8 +131,19 @@ ht-degree: 27%
 
 그러나 프로필 속성이든 컨텍스트 데이터(이벤트 또는 여정 속성)이든 간에 개인화에 사용되는 속성은 변경할 수 없습니다.
 
-컨텍스트 데이터를 수정하면 다음 오류 메시지가 표시됩니다. ERR_AUTHORING_JOURNEYVERSION_201
+컨텍스트 데이터를 수정하면 다음 오류 메시지가 표시됩니다. `ERR_AUTHORING_JOURNEYVERSION_201`
 
-프로필 속성을 수정하면 다음 오류 메시지가 표시됩니다. ERR_AUTHORING_JOURNEYVERSION_202
+프로필 속성을 수정하면 다음 오류 메시지가 표시됩니다. `ERR_AUTHORING_JOURNEYVERSION_202`
 
 인앱 활동의 경우 여정이 라이브되는 동안 컨텐츠를 변경할 수 있지만 인앱 트리거는 수정할 수 없습니다.
+
+## 사용자 지정 작업으로 보내기 {#recommendation}
+
+기본 제공 메시지 기능을 사용하는 대신 사용자 지정 작업을 사용하여 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다.
+
+* 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../action/action.md)
+
+* Adobe Campaign을 사용하여 작업하는 경우 다음 섹션을 참조하십시오.
+
+   * [[!DNL Journey Optimizer] 및 Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] 및 Campaign Standard](../action/acs-action.md)
