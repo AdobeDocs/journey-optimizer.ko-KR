@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 96%
+source-wordcount: '2346'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,25 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하십시오.
 
-## 2025년 1월 업데이트 {#25-01-rn}
+## 2025년 최신 업데이트 {#25-01-rn}
+
+### 2월 개선 사항 {#25-02-improvements}
+
+아래의 개선 사항은 2월 업데이트와 함께 제공됩니다.
+
+**전자 메일 구성** - 사용 가능한 날짜: 2025년 2월 10일
+
+* Adobe 외부의 동의를 관리하는 경우 이제 사용자 지정 구독 취소 이메일 주소와 사용자 지정 원클릭 구독 취소 URL을 이메일 채널 구성 설정의 일부로 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >이 기능은 소규모 고객을 위해 LA(Limited Availability)에서 출시됩니다.
+
+### 새로운 기능 {#25-01-features}
+
+1월에 릴리스된 새로운 기능은 아래에 자세히 설명되어 있습니다.
 
 <table>
 <thead>
@@ -59,9 +77,9 @@ ht-degree: 96%
 </tbody>
 </table>
 
-### 개선 사항 {#25-01-improvements}
+### 1월 개선 사항 {#25-01-improvements}
 
-이 릴리스는 아래 목록에 있는 개선 사항과 함께 제공됩니다.
+1월에 발표된 개선 사항은 아래에 나열되어 있습니다.
 
 **의사 결정**
 

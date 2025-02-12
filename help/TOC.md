@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2148'
 ht-degree: 99%
 
 ---
@@ -225,6 +225,7 @@ ht-degree: 99%
          + [이메일 구성 시작](using/email/get-started-email-config.md)
          + [이메일 구성 설정 구성](using/email/email-settings.md)
          + [이메일 구성 개인화](using/email/surface-personalization.md)
+         + [목록 구독 취소 활성화](using/email/list-unsubscribe.md)
    + 인앱 채널{#in-app}
       + [인앱 채널 시작하기](using/in-app/get-started-in-app.md)
       + [인앱 채널 사전 요구 사항](using/in-app/inapp-configuration.md)

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 27%
+source-wordcount: '1313'
+ht-degree: 26%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 27%
 
 ![](../email/assets/surface-list-unsubscribe-mailto.png){width="80%"}
 
-두 경우 모두 수신자에 대한 해당 프로필이 즉시 옵트아웃되고 이 선택이 Experience Platform에서 업데이트됩니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
+두 경우 모두 수신자에 대한 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 Experience Platform에서 업데이트됩니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
 
 [전자 메일 구성 설정](email-settings.md#list-unsubscribe)에서 **[!UICONTROL 목록 구독 취소 사용]** 옵션을 전환한 경우 **Mailto(구독 취소)** 및 **한 번의 클릭으로 구독 취소 URL** 메서드를 모두 사용하는 것이 좋습니다. 모든 이메일 클라이언트가 HTTP 메서드를 지원하는 것은 아닙니다. 대체 항목을 선택할 수 있도록 제공되는 Mailto 목록 구독 취소 기능을 사용하면 보낸 사람의 신뢰도를 보다 잘 보호할 수 있으며 모든 받는 사람이 구독 취소 기능을 사용할 수 있습니다. [자세히 알아보기](email-settings.md#list-unsubscribe)
 
@@ -145,7 +145,7 @@ Adobe Journey Optimizer에서 랜딩 페이지를 만들어 [이 페이지](../l
 * **params**: 암호화된 페이로드 포함
 * **pid**: 암호화된 프로필 ID
 
-이 세 매개 변수는 수신자에게 전송된 타사 랜딩 페이지 URL에 포함됩니다.
+이 두 매개 변수는 수신자에게 전송된 타사 랜딩 페이지 URL에 포함됩니다.
 
 ![](assets/opt-out-parameters.png)
 

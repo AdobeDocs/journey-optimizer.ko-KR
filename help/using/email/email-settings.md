@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2834'
-ht-degree: 100%
+source-wordcount: '2484'
+ht-degree: 98%
 
 ---
 
@@ -81,59 +81,11 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 >
 >PTR 기록이 구성되지 않은 경우 Adobe 담당자에게 문의하십시오.
 
-## 목록 구독 취소{#list-unsubscribe}
+## 목록 구독 취소 {#list-unsubscribe}
 
->[!CONTEXTUALHELP]
->id="ajo_email_config_unsubscribe_custom"
->title="구독 취소 데이터 관리 방법 정의"
->abstract="**Adobe 관리**: 동의 데이터는 Adobe 시스템 내에서 관리합니다.<br>**고객 관리**: 동의 데이터는 외부 시스템에서 사용자가 관리하며, 사용자가 시작하지 않는 한 Adobe 시스템에서 동의 데이터의 동기화가 업데이트되지 않습니다."
+목록에서 하위 도메인을 선택하면 **[!UICONTROL 목록 구독 취소 사용]** 옵션이 표시됩니다. 기본적으로 활성화되어 있습니다.
 
-<!--Do not modify - Legal Review Done -->
-
-목록에서 [하위 도메인을 선택](#subdomains-and-ip-pools)하면 **[!UICONTROL 목록 구독 취소 활성화]** 옵션이 표시됩니다.
-
-이 옵션은 기본적으로 활성화되어 있으며, 이메일 헤더에 다음과 같은 원클릭 구독 취소 URL을 포함합니다.
-
-![](assets/preset-list-unsubscribe-header.png)
-
->[!NOTE]
->
->이 옵션을 비활성화하면 원클릭 구독 취소 URL이 이메일 헤더에 표시되지 않습니다.
-
-**[!UICONTROL 동의 수준]** 드롭다운 목록에서 동의 수준을 선택할 수 있습니다. 이는 채널 또는 프로필 ID에 적용되도록 설정할 수 있습니다. 이 설정에 따라서, 사용자가 이메일 헤더에 있는 구독 취소 URL 목록을 사용하여 구독을 취소했을 때 Adobe Journey Optimizer에서 채널 수준 또는 ID 수준에서 동의 여부가 업데이트됩니다.
-
-목록 구독 취소 헤더에는 두 가지 기능이 있는데, 둘 중 하나 또는 두 가지 모두의 선택을 취소하지 않는 한 기본적으로 활성화됩니다.
-
-![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
-
-<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
-
-* 구독 취소 요청이 자동 처리를 위해 전달되는 대상 주소인 **Mailto(구독 취소)** 주소입니다.
-
-  Journey Optimizer에서 구독 취소 이메일 주소는 [선택한 하위 도메인](#subdomains-and-ip-pools)에 따라 채널 구성에 표시되는 기본 **Mailto(구독 취소)** 주소입니다.
-
-* **원클릭 구독 취소 URL**&#x200B;입니다. 이것은 기본적으로 원클릭 옵트아웃 URL에서 생성한 목록 구독 취소 헤더로, 사용자가 채널 구성 설정에서 설정 및 구성한 하위 도메인에 따라 설정됩니다.
-
-<!--
-    >[!AVAILABILITY]
-    >
-    >One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
-    >
--->
-
-**[!UICONTROL Mailto(구독 취소)]** 기능 및 **[!UICONTROL 원클릭 구독 취소 URL]** 기능은 선택 사항입니다.
-
-기본적으로 생성된 원클릭 구독 취소 URL을 사용하지 않으려면 이 기능의 선택을 해제할 수 있습니다. **[!UICONTROL 목록 구독 취소 활성화]** 옵션이 켜져 있고 **[!UICONTROL 원클릭 구독 취소 URL]** 기능의 선택이 해제된 시나리오에서 이 구성을 사용하여 만든 메시지에 [원클릭 옵트아웃 링크](../email/email-opt-out.md#one-click-opt-out)를 추가하는 경우, 목록 구독 취소 헤더에는 이메일 본문에 삽입한 원클릭 옵트아웃 링크가 적용되고 이를 원클릭 구독 취소 URL 값으로 사용합니다.
-
-![](assets/preset-list-unsubscribe-opt-out-url.png)
-
->[!NOTE]
->
->메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;의 선택을 해제한 경우 이메일 헤더에 목록 구독 취소 헤더의 일부로 URL이 전달되지 않습니다.
-
-[이 섹션](../email/email-opt-out.md#unsubscribe-header)에서는 메시지의 구독 취소 기능을 관리하는 방법에 대해 자세히 알아봅니다.
-
-<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
+원클릭 구독 취소 URL을 이메일 헤더에 포함할 수 있습니다. [자세히 알아보기](list-unsubscribe.md)
 
 ## 헤더 매개변수 {#email-header}
 
