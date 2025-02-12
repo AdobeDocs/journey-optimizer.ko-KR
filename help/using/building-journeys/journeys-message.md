@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
+source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '493'
 ht-degree: 18%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 18%
 
 ## 여정에 메시지 추가  {#add-msg-in-journey}
 
-기본 제공 채널 작업으로 아웃바운드 또는 인바운드 메시지를 구성할 수 있습니다. 지원되는 인바운드 채널은 이메일, 문자 메시지(SMS/MMS), 푸시 알림입니다. 지원되는 아웃바운드 채널은 인앱, 웹, 코드 기반 경험, 콘텐츠 카드입니다.
+기본 제공 채널 작업으로 아웃바운드 또는 인바운드 메시지를 구성할 수 있습니다. 지원되는 인바운드 채널은 이메일, 문자 메시지(SMS/MMS) 및 푸시 알림입니다. 지원되는 아웃바운드 채널은 인앱, 웹, 코드 기반 경험 및 콘텐츠 카드입니다.
 
 여정에 기본 제공 채널 작업을 추가하려면 아래 단계를 수행합니다.
 
@@ -79,10 +79,6 @@ ht-degree: 18%
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >이메일 및 푸시 알림의 경우 전송 시간 최적화를 활성화할 수 있습니다. [자세히 알아보기](send-time-optimization.md)
-
    * 인바운드 작업을 생성하는 자세한 단계를 다음과 같이 알아보십시오.
 
      <table style="table-layout:fixed">
@@ -123,9 +119,12 @@ ht-degree: 18%
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >각 인바운드 메시지 활동은 3일 **대기** 활동과 함께 제공됩니다. [자세히 알아보기](wait-activity.md#auto-wait-node)
+>[!NOTE]
+>
+>* 각 인바운드 메시지 활동은 3일 **대기** 활동과 함께 제공됩니다. [자세히 알아보기](wait-activity.md#auto-wait-node)
+>
+>* 이메일 및 푸시 알림의 경우 전송 시간 최적화를 활성화할 수 있습니다. [자세히 알아보기](send-time-optimization.md)
+
 
 
 ## 라이브 콘텐츠 업데이트 {#update-live-content}
