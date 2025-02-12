@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 38%
@@ -76,7 +76,7 @@ Adobe 외부에서 동의를 관리하는 경우 **[!UICONTROL 고객 관리]** 
 >
 >**[!UICONTROL 고객 관리]** 옵션을 사용하는 경우 Adobe에서 구독 취소 또는 동의 데이터를 저장하지 않습니다. **[!UICONTROL 고객 관리]** 옵션을 사용하여 조직은 외부 시스템을 사용하도록 선택하고 있으며 이러한 외부 시스템에서 동의 데이터를 관리할 책임이 있습니다. 외부 시스템과 [!DNL Journey Optimizer] 사이에 동의 데이터의 자동 동기화가 없습니다. [!DNL Journey Optimizer]에서 사용자 동의 데이터를 업데이트하기 위해 외부 시스템에서 가져온 동의 데이터의 모든 동기화는 동의 데이터를 [!DNL Journey Optimizer](으)로 다시 푸시하기 위한 데이터 전송으로 조직에서 시작해야 합니다.
 
-## 해독 API 구성 {#configure-decrypt-api}
+### 해독 API 구성 {#configure-decrypt-api}
 
 **[!UICONTROL 고객 관리]** 옵션을 선택한 상태에서 사용자 지정 끝점을 입력하여 캠페인이나 여정에서 사용하는 경우 [!DNL Journey Optimizer]은(는) 수신자가 구독 취소 링크를 클릭할 때 일부 기본 프로필 관련 매개 변수를 동의 업데이트 이벤트 <!--sent to the custom endpoint -->에 추가합니다.
 
