@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
+source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 18%
 
 ---
@@ -49,7 +49,7 @@ DM 캠페인을 만들려면 다음 단계를 수행합니다.
 
    >[!IMPORTANT]
    >
-   >현재 대상자 선택은 300만 프로필로 제한됩니다. 이 제한은 Adobe 담당자에게 요청하면 완화될 수 있습니다.
+   >현재 대상자 선택은 300만 프로필로 제한됩니다. 이 제한은 Adobe 담당자에게 요청하면 해제할 수 있습니다.
 
 1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상 내의 개인을 식별할 적절한 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
@@ -85,7 +85,7 @@ DM 공급자가 고객에게 메일을 보낼 때 추출 파일이 필요합니�
 
       >[!NOTE]
       >
-      >기본적으로 파일은 루트 디렉토리에 기록됩니다. **[!UICONTROL 파일 이름]** 필드는 &quot;/your/path/here/Filename.csv&quot; 형식을 허용합니다. 여기서 지정된 경로는 선택한 서버의 대상 디렉터리입니다. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
+      >기본적으로 파일은 서버의 루트 디렉터리에 기록됩니다. **[!UICONTROL 파일 이름]** 필드에도 &quot;/your/path/here/Filename.csv&quot; 형식을 사용할 수 있습니다. 여기서 지정된 경로는 선택한 서버의 대상 디렉터리입니다. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. 필요한 경우 지정된 파일 이름에 자동 타임스탬프를 추가하려면 **[!UICONTROL 타임스탬프를 파일 이름에 추가]** 옵션을 활성화합니다.
 
