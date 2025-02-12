@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 9538c8c19b242036ce58799b51ef25b8204bf6ec
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 93%
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 아래의 개선 사항은 2월 업데이트와 함께 제공됩니다.
 
-**전자 메일 구성** - 사용 가능한 날짜: 2025년 2월 10일
+**전자 메일 구성** - 사용 가능한 날짜: 2025년 2월 12일
 
 * Adobe 외부의 동의를 관리하는 경우 이제 사용자 지정 구독 취소 이메일 주소와 사용자 지정 원클릭 구독 취소 URL을 이메일 채널 구성 설정의 일부로 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)
 
