@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -212,7 +212,7 @@ ht-degree: 100%
 **여정**
 
 * **엔티티 데이터 세트**&#x200B;를 Adobe Journey Optimizer에서 바로 사용할 수 있는 데이터 세트로 이제 사용할 수 있습니다. 이 조회 데이터 세트에는 추적 및 피드백 데이터 세트 정보를 보강하는 메타 데이터가 포함되어 있습니다. 이렇게 하면 보다 이해하기 쉬운 데이터로 보고서 및 쿼리를 향상시킬 수 있습니다. [자세히 보기](../data/datasets-query-examples.md#entity-dataset)
-* 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하기 위해 단일 여정(이벤트 또는 대상자 자격 조건 시작)에 새로운 가드레일을 추가했습니다. 프로필 재진입은 이제 기본 5분 동안 일시적으로 차단됩니다. [자세히 알아보기](../start/guardrails.md#events-g)
+* 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하기 위해 단일 여정(이벤트 또는 대상자 선별 시작)에 새로운 가드레일을 추가했습니다. 프로필 재진입은 이제 기본 5분 동안 일시적으로 차단됩니다. [자세히 알아보기](../start/guardrails.md#events-g)
 
 **관리**
 
@@ -240,7 +240,7 @@ ht-degree: 100%
 ### 기타 변경 사항{#sept-2022-other}
 
 * 여정 버스트 모드가 캠페인 신속 전달 모드로 대체되었습니다. [자세히 보기](../push/create-push.md#rapid-delivery)
-* 성능을 개선하기 위해 대상자 읽기, 대상자 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 더 이상 경험 이벤트 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. [자세히 보기](../start/guardrails.md#expression-editor)
+* 성능을 개선하기 위해 대상자 읽기, 대상자 선별 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 더 이상 경험 이벤트 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. [자세히 보기](../start/guardrails.md#expression-editor)
 * 예약된 대상자 읽기 여정의 1시간 제한이 제거되었습니다. 이제 이러한 여정을 지연 없이 실행할 수 있습니다.
 
 
@@ -449,7 +449,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Stock 및 Adobe Journey Optimizer 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선싱 및 저장할 수 있습니다. </br> 새로운 <b>유사한 스톡 사진 찾기</b> 옵션으로도 이미지의 내용, 색상 및 컴포지션과 일치하는 스톡 사진을 찾을 수 있습니다. </p>
-<p>자세한 내용은 <a href="../content-management/stock.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../integrations/stock.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -672,7 +672,7 @@ ht-degree: 100%
 
 **의사 결정 관리**
 
-* 이제 오퍼 한도 설정이 모든 사용자 간에 적용되는지, 아니면 하나의 특정 프로필, 모든 배치 또는 배치마다 적용되는지를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
+* 이제 오퍼 상한 설정이 모든 사용자 간에 적용되는지, 아니면 하나의 특정 프로필, 모든 배치 또는 배치마다 적용되는지를 지정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 * Batch Decisioning API를 사용하면 한 번의 호출로 주어진 대상자 내 모든 프로필에 의사 결정 관리 기능을 사용할 수 있습니다. 대상자 내 각 프로필의 오퍼 콘텐츠가 AEP 데이터 세트에 배치되어 사용자 정의 일괄 처리 워크플로에 사용할 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **관리**
@@ -761,7 +761,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **여정**
 
 * 성능을 최적화하기 위해 1주일 동안 트리거되지 않은 테스트 모드의 모든 여정이 이제 초안 상태로 다시 전환합니다. [자세히 보기](../building-journeys/testing-the-journey.md#important_notes)
-* 성능을 개선하기 위해 Journey Optimizer와 Adobe Campaign v7/v8 간 통합을 최적화했습니다. 빈도 설정 기본 구성이 호출 4,000회/5분으로 변경되었습니다. [자세히 보기](../action/acc-action.md#important-notes)
+* 성능을 개선하기 위해 Journey Optimizer와 Adobe Campaign v7/v8 간 통합을 최적화했습니다. 상한 설정 기본 구성이 호출 4,000회/5분으로 변경되었습니다. [자세히 보기](../action/acc-action.md#important-notes)
 
 **보고**
 

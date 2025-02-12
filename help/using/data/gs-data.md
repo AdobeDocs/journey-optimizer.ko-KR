@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 데이터, 관리, 플랫폼
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 1ed007d5921573dce30df6faa625bb0bce5d6616
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ht-degree: 100%
     <div><img alt="대상" src="assets/do-not-localize/dest.png" /> 
     <br>다른 대상에서 사용 가능 - [!DNL Adobe Journey Optimizer]에서는 데이터를 시너지화하고 통합하여 초개인화된 고객 경험을 도모하는데, 사용자는 이 데이터를 사용자의 전체 기술 환경에 있는 다른 시스템에 통합하는 한편 이 데이터를 활용할 다른 방법을 모색하려 할 수 있습니다.
     <div>
-     <a href="../start/ajo-integrations.md">자세히 알아보기</a></div>
+     <a href="../integrations/ajo-integrations.md">자세히 알아보기</a></div>
     </div>
     <br>
   </td>
@@ -70,14 +70,14 @@ ht-degree: 100%
   단, 여정 또는 캠페인에 사용된 콘텐츠는 위에서 언급한 API 또는 대상 메서드를 통해 추출할 수 없습니다.
 
 <!--
-* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
+* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
   Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->
 
 * **제거 및 보관 메커니즘**: [!DNL Adobe Journey Optimizer]에서 데이터 삭제 및 보관 작업을 자유롭게 정의하고 자동화하여 데이터 보존 정책을 자동화할 수 있습니다. 다양한 데이터 엔터티에 대해 서로 다른 에이징 전략을 정의할 수 있습니다. 내보내기 메커니즘을 정의하여 오래된 데이터를 삭제하거나 보관 처리하기 전에 자동으로 내보낼 수도 있습니다.
 
-  데이터 위생 작업 영역에서는 소비자 신원 삭제와 데이터 세트 만료 일정 예약 등 다양한 데이터 위생 작업을 만들고 모니터링할 수 있습니다. 이 작업 영역은 Security &amp; Privacy Shield 및 Healthcare Shield를 통해 사용할 수 있습니다. [이 페이지](../privacy/data-hygiene.md)에서 자세히 알아보십시오.
+  데이터 위생 작업 영역에서는 소비자 ID 삭제와 데이터 세트 만료 일정 예약 등 다양한 데이터 위생 작업을 만들고 모니터링할 수 있습니다. 이 작업 영역은 Security &amp; Privacy Shield 및 Healthcare Shield를 통해 사용할 수 있습니다. [이 페이지](../privacy/data-hygiene.md)에서 자세히 알아보십시오.
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

@@ -7,8 +7,8 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
    ![](../assets/perso_ee2.png)
 
-1. **자산 만들고 관리하기**. [!DNL Adobe Experience Manager Assets]은(는) 메시지를 채우는 데 사용할 수 있는 자산의 단일 중앙 집중식 저장소입니다. 자세한 내용은 [이 섹션](../../content-management/assets.md)을 참조하세요.
+1. **자산 만들고 관리하기**. [!DNL Adobe Experience Manager Assets]은(는) 메시지를 채우는 데 사용할 수 있는 자산의 단일 중앙 집중식 저장소입니다. 자세한 내용은 [이 섹션](../../integrations/assets.md)을 참조하세요.
 
 1. **오퍼 추가**. [!DNL Journey Optimizer]을(를) 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 오퍼 및 경험을 제공하십시오. 디자인한 후에는 개인화된 오퍼를 통해 대상자를 타기팅하십시오. Decisioning 관리에 대한 자세한 내용은 [이 섹션](../../offers/get-started/starting-offer-decisioning.md)을 참조하세요.
 

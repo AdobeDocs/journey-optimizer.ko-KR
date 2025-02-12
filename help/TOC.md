@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
-source-wordcount: '2148'
-ht-degree: 99%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 99%
    + [접근성](using/start/accessibility.md)
    + [사용 사례 플레이북](using/start/playbooks.md)
    + [AI 어시스턴트 작업](using/start/ai-assistant.md)
-   + [통합](using/start/ajo-integrations.md)
    + [가드레일](using/start/guardrails.md)
    + [모범 사례](using/start/best-practices.md)
 + 여정 {#orchestrate-journeys}
@@ -219,7 +218,6 @@ ht-degree: 99%
             + [배경 설정 편집](using/email/backgrounds.md)
             + [세로 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
             + [인라인 스타일 속성 추가](using/email/inline-styling.md)
-      + [Experience Manager 템플릿 사용](using/email/aem-templates.md)
       + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
       + 이메일 채널 구성 {#configure-email}
          + [이메일 구성 시작](using/email/get-started-email-config.md)
@@ -326,9 +324,6 @@ ht-degree: 99%
       + 기술 노트 {#technotes}
          + [통계 계산 이해](using/content-management/experiment-calculations.md)
          + [실험 보고서의 통계 계산 이해](using/content-management/experiment-report-calculations.md)
-   + 에셋/이미지 {#assets-images}
-      + [Experience Manager Assets 작업](using/content-management/assets.md)
-      + [Adobe Stock 작업](using/content-management/stock.md)
    + 개인화 {#personalization}
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
@@ -372,7 +367,6 @@ ht-degree: 99%
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
-   + [Adobe Experience Manager Content 조각](using/content-management/aem-fragments.md)
 + 대상자, 프로필, ID{#audiences-profiles-identities}
    + 대상자 {#audiences}
       + [대상자 시작](using/audience/about-audiences.md)
@@ -389,6 +383,13 @@ ht-degree: 99%
       + [계산된 속성 관련 작업](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [라이선스 사용](using/audience/license-usage.md)
++ 통합{#assets-images}
+   + [다른 솔루션과 통합](using/integrations/ajo-integrations.md)
+   + [Experience Manager Assets 작업](using/integrations/assets.md)
+   + [Adobe Stock 작업](using/integrations/stock.md)
+   + [Experience Manager 템플릿 작업](using/integrations/aem-templates.md)
+   + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
+   + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)

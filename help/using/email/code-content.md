@@ -9,7 +9,7 @@ role: User
 level: Intermediate, Experienced
 keywords: 코드, HTML, 편집기
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 68%
@@ -24,7 +24,7 @@ ht-degree: 68%
 
 >[!CAUTION]
 >
-> 이 메서드를 사용할 때는 [Adobe Experience Manager Assets](../content-management/assets.md)의 이미지를 참조할 수 없습니다. HTML 코드에서 참조하는 이미지는 공개 위치에 저장해야 합니다.
+> 이 메서드를 사용할 때는 [Adobe Experience Manager Assets](../integrations/assets.md)의 이미지를 참조할 수 없습니다. HTML 코드에서 참조하는 이미지는 공개 위치에 저장해야 합니다.
 
 1. 이메일 Designer 홈 페이지에서 **[!UICONTROL 직접 코드 작성]**&#x200B;을 선택합니다.
 

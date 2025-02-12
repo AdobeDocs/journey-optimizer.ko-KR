@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 디자인, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 13%
@@ -24,9 +24,9 @@ ht-degree: 13%
 
 여기에서 다음을 수행할 수 있습니다.
 
-* **콘텐츠 디자이너의 인터페이스를 통해 랜딩 페이지를 처음부터 디자인**&#x200B;하고 [Adobe Experience Manager Assets](../content-management/assets.md)의 이미지를 활용하십시오. 콘텐츠 디자인 방법 알아보기 <!--or use built-in templates--> [이 섹션](../email/content-from-scratch.md)에 있습니다.
+* **콘텐츠 디자이너의 인터페이스를 통해 랜딩 페이지를 처음부터 디자인**&#x200B;하고 [Adobe Experience Manager Assets](../integrations/assets.md)의 이미지를 활용하십시오. 콘텐츠 디자인 방법 알아보기 <!--or use built-in templates--> [이 섹션](../email/content-from-scratch.md)에 있습니다.
 
-* **원시 HTML을 코딩하거나**&#x200B;콘텐츠 디자이너에 바로 붙여 넣으십시오. 이 섹션](../email/code-content.md)에서 자신의 콘텐츠 [을(를) 코딩하는 방법을 알아보세요.
+* **원시 HTML을 콘텐츠 디자이너에 직접 코딩하거나 붙여 넣으십시오**. 이 섹션](../email/code-content.md)에서 자신의 콘텐츠 [을(를) 코딩하는 방법을 알아보세요.
 
 * 파일이나 .zip 폴더의 **기존 HTML 콘텐츠를 가져옵니다**. 이 섹션](../email/existing-content.md)에서 [ 콘텐츠를 가져오는 방법을 알아보세요.
 

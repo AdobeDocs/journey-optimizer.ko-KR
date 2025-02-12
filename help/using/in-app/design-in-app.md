@@ -1,5 +1,5 @@
 ---
-title: 인앱 콘텐츠 디자인
+title: '인앱 콘텐츠 디자인 '
 description: Journey Optimizer에서 인앱 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: In App
 topic: Content Management
@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 28%
@@ -64,7 +64,7 @@ ht-degree: 28%
 
      왼쪽 창을 사용하여 Journey Optimizer 개인화 기능을 활용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../personalization/personalize.md)을 참조하십시오.
 
-   * HTML 내용이 포함된 HTML 또는 .zip 파일을 가져오려면 **[!UICONTROL 가져오기]**&#x200B;를 선택하십시오.
+   * HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 가져오려면 **[!UICONTROL 가져오기]**&#x200B;를 선택하십시오.
 
 ## 컨텐츠 탭 {#content-tab}
 
@@ -104,7 +104,7 @@ ht-degree: 28%
 
 ![](assets/in_app_web_design_3.png)
 
-미디어 URL을 입력하거나 **[!UICONTROL Assets 선택]** 아이콘을 클릭하여 Assets 라이브러리에 저장된 자산을 인앱 메시지에 직접 추가합니다. [자산 관리에 대해 자세히 알아보세요](../content-management/assets.md).
+미디어 URL을 입력하거나 **[!UICONTROL Assets 선택]** 아이콘을 클릭하여 Assets 라이브러리에 저장된 자산을 인앱 메시지에 직접 추가합니다. [자산 관리에 대해 자세히 알아보세요](../integrations/assets.md).
 화면 읽기 응용 프로그램에 **[!UICONTROL 대체 텍스트]**&#x200B;를 추가할 수도 있습니다.
 
 +++고급 서식이 있는 추가 옵션
@@ -246,7 +246,7 @@ ht-degree: 28%
 * [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)
 
-## 방법 비디오{#video}
+## 사용 방법 비디오{#video}
 
 아래 비디오에서는 인앱 메시지를 작성하고 테스트하는 방법을 보여 줍니다.
 

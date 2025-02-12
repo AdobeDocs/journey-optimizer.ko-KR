@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 구성 요소, 이메일 디자이너, 편집기, 이메일
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 52%
+ht-degree: 50%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 52%
 
 ## 텍스트 {#text}
 
-**[!UICONTROL 텍스트]** 구성 요소를 사용하여 이메일에 텍스트를 삽입하고 **[!UICONTROL 스타일]** 탭을 사용합니다.
+**[!UICONTROL 텍스트]** 구성 요소를 사용하여 전자 메일에 텍스트를 삽입하고 **[!UICONTROL 스타일]** 탭을 사용하여 스타일(테두리, 크기, 패딩 등)을 조정합니다.
 
 ![](assets/email_designer_text_component.png)
 
@@ -121,7 +121,7 @@ ht-degree: 52%
    * **글꼴 크기**: 텍스트의 글꼴 크기를 픽셀 단위로 선택합니다.
    * **[!UICONTROL 글꼴 색 변경]**: 글꼴 색을 선택합니다.
    * **[!UICONTROL 링크 삽입]**: 콘텐츠에 모든 유형의 링크를 추가합니다.
-   * **[!UICONTROL 이미지 편집]**: 텍스트 구성 요소에 이미지 또는 자산을 추가합니다. [자산 관리에 대해 자세히 알아보기](../content-management/assets.md)
+   * **[!UICONTROL 이미지 편집]**: 텍스트 구성 요소에 이미지 또는 자산을 추가합니다. [자산 관리에 대해 자세히 알아보기](../integrations/assets.md)
    * **[!UICONTROL 글꼴 색 변경]**: 글꼴 색을 선택합니다.
    * **[!UICONTROL 개인화 추가]**: 프로필 데이터에서 콘텐츠를 사용자 지정할 개인화 필드를 추가합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
    * **[!UICONTROL 소스 코드 표시]**: 텍스트의 소스 코드를 표시합니다. 소스 코드는 수정할 수 없습니다.
@@ -184,7 +184,7 @@ ht-degree: 52%
 
    ![](assets/email_designer_10.png)
 
-1. **[!UICONTROL 유사한 스톡 사진 찾기]**&#x200B;를 선택할 수도 있습니다. [자세히 알아보기](../content-management/stock.md)
+1. **[!UICONTROL 유사한 스톡 사진 찾기]**&#x200B;를 선택할 수도 있습니다. [자세히 알아보기](../integrations/stock.md)
 
 1. **[!UICONTROL 스타일]** 탭에서 여백, 테두리 등의 다른 스타일 특성을 조정합니다. 대상자를 다른 콘텐츠로 리디렉션하도록 링크를 추가할 수 있습니다.****
 

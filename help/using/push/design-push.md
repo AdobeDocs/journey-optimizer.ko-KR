@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 3dd2db31a239ec5a81bfd677355aca862602e030
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 17%
@@ -60,7 +60,7 @@ Android 버전에서는 이미지 아이콘과 확장된 알림에 대한 이미
 
 * **[!UICONTROL 미디어 추가]** 단추를 사용하여 **[!DNL Adobe Experience Manager Assets]**&#x200B;의 자산을 선택하십시오.
 
-  [이 페이지](../content-management/assets.md)에서 **[!DNL Adobe Experience Manager Assets]**&#x200B;을(를) 사용하는 방법을 알아보세요.
+  [이 페이지](../integrations/assets.md)에서 **[!DNL Adobe Experience Manager Assets]**&#x200B;을(를) 사용하는 방법을 알아보세요.
 
 * 또는 **[!UICONTROL 미디어 추가]** 필드에 미디어 URL을 입력하십시오. 이 경우 URL에 개인화를 추가할 수 있습니다.
 
@@ -107,7 +107,7 @@ iOS 버전에서는 알림 범주 식별자가 지정됩니다. 표시할 버튼
 >title="푸시 알림에 대한 사용자 정의 데이터를 구성합니다."
 >abstract="모바일 애플리케이션 구성에 따라 페이로드에 사용자 정의 변수를 추가합니다."
 
-모바일 애플리케이션 구성에 따라 **[!UICONTROL 사용자 지정 데이터]** 섹션에서 페이로드에 사용자 지정 변수를 추가할 수 있습니다. Adobe Experience Platform Adobe 및 Launch에서 푸시 알림을 설정하는 방법에 대한 자세한 내용은 [이 섹션](push-gs.md)을 참조하세요.
+모바일 애플리케이션 구성에 따라 **[!UICONTROL 사용자 지정 데이터]** 섹션에서 페이로드에 사용자 지정 변수를 추가할 수 있습니다. Adobe Experience Platform 및 Adobe Launch에서 푸시 알림을 설정하는 방법에 대한 자세한 내용은 [이 섹션](push-gs.md)을 참조하세요.
 
 ## 고급 옵션 {#advanced-options-push}
 

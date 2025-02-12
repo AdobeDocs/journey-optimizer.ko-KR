@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: 웹, 하위 도메인, 구성
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 24%
@@ -32,7 +32,7 @@ ht-degree: 24%
 >title="웹 하위 도메인 설정"
 >abstract="Adobe에 위임된 하위 도메인 목록에서 하위 도메인을 선택합니다. 이 웹 하위 도메인을 기본 하위 도메인으로 설정할 수 있지만 기본 하위 도메인은 한 번에 하나만 사용할 수 있습니다."
 
-웹 경험을 작성할 때 [Adobe Experience Manager Assets](../content-management/assets.md) 라이브러리에서 얻은 콘텐츠를 추가하는 경우 이 콘텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다.
+웹 경험을 작성할 때 [Adobe Experience Manager Assets](../integrations/assets.md) 라이브러리에서 얻은 콘텐츠를 추가하는 경우 이 콘텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다.
 
 이미 Adobe에 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다. [이 섹션](../configuration/delegate-subdomain.md)에서 하위 도메인을 Adobe으로 위임하는 방법에 대해 자세히 알아보세요.
 
@@ -66,7 +66,7 @@ ht-degree: 24%
 
 ## 기존 하위 도메인 사용 {#web-use-existing-subdomain}
 
-이미 Adobe에게 위임된 하위 도메인을 사용하려면 아래 단계를 따르십시오.
+이미 Adobe에 위임된 하위 도메인을 사용하려면 아래 단계를 따르십시오.
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스한 다음 **[!UICONTROL 웹 설정]** > **[!UICONTROL 웹 하위 도메인]**&#x200B;을 선택합니다.
 
@@ -125,7 +125,7 @@ ht-degree: 24%
 
    ![](assets/web-add-your-own-domain.png)
 
-   잘못된 하위 도메인을 Adobe으로 위임할 수 없습니다. marketing.yourcompany.com과 같이 조직에서 소유한 올바른 하위 도메인을 입력해야 합니다.
+   잘못된 하위 도메인을 Adobe에 위임할 수 없습니다. marketing.yourcompany.com과 같이 조직에서 소유한 올바른 하위 도메인을 입력해야 합니다.
 
    >[!NOTE]
    >
@@ -151,7 +151,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >해당 하위 도메인을 사용하여 웹 메시지를 보내려면 먼저 Adobe이 필요한 검사를 수행할 때까지 기다려야 하며 최대 4시간이 걸릴 수 있습니다.
+   >해당 하위 도메인을 사용하여 웹 메시지를 전송하려면 Adobe에서 필요한 검사를 수행할 때까지 기다려야 하며 최대 4시간이 걸릴 수 있습니다.
 
 1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. 웹 채널 구성을 만드는 데 사용할 준비가 되었습니다.
 

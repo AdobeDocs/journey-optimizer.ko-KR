@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -227,7 +227,7 @@ ht-degree: 100%
 
 **에셋**
 
-* 에셋에 대한 새 옵션을 사용하면 Journey Optimizer에서 에셋 저장소를 선택할 수 있습니다. 이 솔루션을 소유하고 있는 경우 Assets Essentials 저장소 또는 Assets as a Cloud Service 저장소를 선택할 수 있습니다. [자세히 알아보기](../content-management/assets.md)
+* 에셋에 대한 새 옵션을 사용하면 Journey Optimizer에서 에셋 저장소를 선택할 수 있습니다. 이 솔루션을 소유하고 있는 경우 Assets Essentials 저장소 또는 Assets as a Cloud Service 저장소를 선택할 수 있습니다. [자세히 알아보기](../integrations/assets.md)
 
 <!--**Decision management**
 
@@ -637,7 +637,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **의사 결정 관리**
 
-* 이제 오퍼가 **[!UICONTROL 초안]** 상태이고 빈도 설정을 활성화한 상태로 게시한 적이 없는 경우 빈도 설정을 편집할 수 있습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
+* 이제 오퍼가 **[!UICONTROL 초안]** 상태이고 빈도 상한 설정을 활성화한 상태로 게시한 적이 없는 경우 빈도 상한 설정을 편집할 수 있습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **개인화**
 
@@ -809,9 +809,9 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   의사 결정 관리 사용자 인터페이스에서는 “태그”라는 단어를 더 이상 사용하지 않지만 API와 데이터 세트 등 백엔드 서비스에서는 계속 사용한다는 점에 유의해 주시기 바랍니다.
 
-* 이제 일별, 주별 또는 월별 기준으로 오퍼 한도 카운터를 재설정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
+* 이제 일별, 주별 또는 월별 기준으로 오퍼 상한 설정 카운터를 재설정할 수 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
-* Offer Decisioning 한도 적용 시 확인할 Adobe Experience Platform 이벤트를 선택할 수도 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
+* Offer Decisioning 상한 설정 적용 시 확인할 Adobe Experience Platform 이벤트를 선택할 수도 있습니다. [자세히 알아보기](../offers/offer-library/add-constraints.md#capping)
 
 * 배치 만들기 화면에 매개 변수를 새로 추가했습니다. 새 매개 변수로 여러 배치에 걸쳐 오퍼를 복제할 수 있는지 여부와, 오퍼의 콘텐츠와 메타데이터를 API 응답에 포함해야 하는지 여부를 정할 수 있습니다. [자세히 알아보기](../offers/offer-library/creating-placements.md)
 
@@ -921,7 +921,7 @@ Note that each widget can be resized and deleted as needed.
 
 **여정**
 
-* 여정 속성에 **재진입 대기 기간** 필드가 추가되었습니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 자격 조건으로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. [자세히 알아보기](../building-journeys/journey-properties.md#entrance)
+* 여정 속성에 **재진입 대기 기간** 필드가 추가되었습니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 선별로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. [자세히 알아보기](../building-journeys/journey-properties.md#entrance)
 
 * **여정 시작 및 종료 일자**&#x200B;를 개선했습니다. 이제 시작 일자를 지정하지 않은 경우 게시할 때 자동으로 추가됩니다. 이제 **대상자 읽기** 여정에 종료 일자를 추가할 수 있습니다. 이렇게 하면 해당 일자가 되었을 때 프로필이 자동으로 종료됩니다. [자세히 알아보기](../building-journeys/journey-gs.md#dates)
 
@@ -997,7 +997,7 @@ Note that each widget can be resized and deleted as needed.
 
 **여정**
 
-* 이제 여정에 **대상자 자격 조건**&#x200B;이나 **대상자 읽기**&#x200B;를 추가할 때 마지막으로 사용한 네임스페이스를 사용하여 네임스페이스를 미리 채웁니다. [대상자 자격 조건](../building-journeys/audience-qualification-events.md#about-segment-qualification) 및 [대상자 읽기](../building-journeys/read-audience.md#configuring-segment-trigger-activity) 섹션을 참조하세요.
+* 이제 여정에 **대상자 선별**&#x200B;이나 **대상자 읽기**&#x200B;를 추가할 때 마지막으로 사용한 네임스페이스를 사용하여 네임스페이스를 미리 채웁니다. [대상자 선별](../building-journeys/audience-qualification-events.md#about-segment-qualification) 및 [대상자 읽기](../building-journeys/read-audience.md#configuring-segment-trigger-activity) 섹션을 참조하세요.
 
 * 여정 캔버스에서 도구 모음의 새 버튼을 통해 여정의 스크린샷을 다운로드할 수 있습니다.
 

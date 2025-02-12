@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -34,13 +34,13 @@ ht-degree: 3%
 
 웹 속성에서 웹 채널 캠페인을 작성 및 게재할 수 있도록 두 가지 유형의 구현이 지원됩니다.
 
-* 클라이언트측 전용 - 웹 사이트에 수정 사항을 추가하려면 웹 사이트에서 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}를 구현해야 합니다.
+* 클라이언트측 전용 - 웹 사이트에 수정 사항을 추가하려면 웹 사이트에서 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}을 구현해야 합니다.
 
   >[!NOTE]
   >
-  >[Adobe Experience Platform 웹 SDK 버전](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"}이(가) 2.16 이상인지 확인하십시오.
+  >[Adobe Experience Platform Web SDK 버전](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"}이 2.16 이상인지 확인하십시오.
 
-* 하이브리드 모드 - [AEP Edge Network 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"}를 사용하여 개인화 서버측을 요청할 수 있습니다. 수정 사항을 클라이언트측에서 렌더링하도록 Adobe Experience Platform Web SDK에 응답이 제공됩니다. 자세한 내용은 Adobe Experience Platform [Edge Network 서버 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}를 참조하세요. 하이브리드 모드에 대한 자세한 정보를 확인하고 [이 블로그 게시물](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}에서 일부 구현 샘플을 확인할 수 있습니다.
+* 하이브리드 모드 - [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR){target="_blank"}를 사용하여 개인화 서버측을 요청할 수 있습니다. 수정 사항을 클라이언트측에서 렌더링하도록 Adobe Experience Platform Web SDK에 응답이 제공됩니다. 자세한 내용은 Adobe Experience Platform [Edge Network Server API 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}를 참조하세요. 하이브리드 모드에 대한 자세한 정보를 확인하고 [이 블로그 게시물](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}에서 일부 구현 샘플을 확인할 수 있습니다.
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Visual Editing Helper 브라우저 확장 기능을 다운로드하여 설치하
 
 ### 웹 사이트 로드 문제 해결 {#troubleshooting}
 
-Adobe [!DNL Journey Optimizer] 웹 디자이너를 사용할 때 로드하지 못하는 웹 사이트를 로드하려고 하면 [Visual Editing Helper 브라우저 확장 기능](#install-visual-editing-helper)을 설치하라는 메시지가 표시됩니다.
+Adobe [!DNL Journey Optimizer] 웹 디자이너를 사용할 때 로드에 실패한 웹 사이트를 로드하려고 하면 [Visual Editing Helper 브라우저 확장 기능](#install-visual-editing-helper)을 설치하라는 메시지가 표시됩니다.
 
 1. Visual Editing Helper 브라우저 확장 기능이 올바르게 설치되어 있는지 확인합니다.
 
@@ -104,7 +104,7 @@ Adobe [!DNL Journey Optimizer] 웹 디자이너를 사용할 때 로드하지 �
 
 1. 먼저 새 브라우저 탭에 로그인하고 원하는 페이지로 이동한 다음 URL을 복사하고 [!DNL Journey Optimizer] 웹 디자이너에서 열어 보십시오.
 
-2. 여전히 [!DNL Journey Optimizer] 웹 디자이너에서 웹 사이트를 로드할 수 없는 경우 Adobe 고객 지원 센터에 문의하여 문제를 보고하고 실패한 URL을 지정하십시오.
+2. 여전히 [!DNL Journey Optimizer] 웹 디자이너에서 웹 사이트를 로드할 수 없는 경우 Adobe 고객 지원 센터에 문의하여 문제를 보고하여 실패한 URL을 지정하십시오.
 
 ## 게재 사전 요구 사항 {#delivery-prerequisites}
 
@@ -150,4 +150,4 @@ Adobe [!DNL Journey Optimizer] 웹 디자이너를 사용할 때 로드하지 �
 
 ## 에셋용 브랜드 도메인 {#branded-domains-for-assets}
 
-웹 경험을 작성할 때 [Adobe Experience Manager Assets](../content-management/assets.md) 라이브러리에서 얻은 콘텐츠를 추가하는 경우 이 콘텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다. [자세히 알아보기](web-delegated-subdomains.md)
+웹 경험을 작성할 때 [Adobe Experience Manager Assets](../integrations/assets.md) 라이브러리에서 얻은 콘텐츠를 추가하는 경우 이 콘텐츠를 게시하는 데 사용할 하위 도메인을 설정해야 합니다. [자세히 알아보기](web-delegated-subdomains.md)

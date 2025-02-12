@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6b75f1f1916a20c1ad66f5b89ec706e5b8b6844b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '6024'
 ht-degree: 97%
@@ -130,7 +130,7 @@ ht-degree: 97%
 ## 2024년 2월 {#feb-2024}
 
 * [!DNL Journey Optimizer] 2024년 2월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md#feb-2024)
-* Journey Optimizer + Workfront 통합이 통합 페이지에 추가되었습니다. [자세히 보기](../start/ajo-integrations.md)
+* Journey Optimizer + Workfront 통합이 통합 페이지에 추가되었습니다. [자세히 보기](../integrations/ajo-integrations.md)
 * 컨텍스트 데이터를 기반으로 오퍼의 표현을 개인화하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../offers/offer-library/add-representations.md#context-data)
 * 보호 페이지에 요청 또는 응답 페이로드를 사용할 때만 JSON 형식을 지원하는 사용자 정의 작업에 대한 메모를 업데이트했습니다. [자세히 보기](../start/guardrails.md#custom-actions-g)
 * 외부 데이터 소스의 기본 인증 유형에 대한 정보를 추가했습니다. [자세히 보기](../datasource/external-data-sources.md)
@@ -250,7 +250,7 @@ ht-degree: 97%
 * 기본 제공 작업을 제거할 수 없다는 메모가 추가되었습니다. [자세히 보기](../start/guardrails.md#custom-actions-g)
 * serviceEvent의 세부 사항을 확인하기 위한 쿼리 예시 및 serviceEvents에 대한 정보를 추가했습니다. [자세히 보기](../reports/query-examples.md#common-queries)
 * 시계열에 대한 쿼리를 수행할 수 없다는 메모가 추가되었습니다. [자세히 보기](../building-journeys/condition-activity.md)
-* 다중 솔루션 통합 페이지에 Adobe Experience Manager Assets Essentials 및 Adobe Stock을 추가했습니다. [자세히 보기](../start/ajo-integrations.md)
+* 다중 솔루션 통합 페이지에 Adobe Experience Manager Assets Essentials 및 Adobe Stock을 추가했습니다. [자세히 보기](../integrations/ajo-integrations.md)
 * 여러 수준의 이메일 하위 도메인을 허용하지 않는다는 경고를 제거했습니다. 이제 여러 수준의 하위 도메인 사용도 지원됩니다. [자세히 보기](../configuration/delegate-subdomain.md)
 * 여정의 메시지에 사용하고 있는 오퍼 의사 결정을 변경하는 경우 여정의 게시를 취소하고 다시 게시해야 한다는 점을 설명하는 메모를 추가했습니다. [자세히 보기](../building-journeys/publishing-the-journey.md)
 * 상한 설정 카운터에서 이벤트를 올바르게 계산하도록 설정하는 방법에 대해 의사 결정 관리 **이벤트 상한 설정** 섹션에 명확하게 설명했습니다. [자세히 보기](../offers/offer-library/add-constraints.md#capping-event)
@@ -306,7 +306,7 @@ ht-degree: 97%
 
 ## 2022년 11월 {#november-2022}
 
-* Journey Optimizer 통합에 대한 새 페이지가 추가되었습니다. [자세히 보기](../start/ajo-integrations.md)
+* Journey Optimizer 통합에 대한 새 페이지가 추가되었습니다. [자세히 보기](../integrations/ajo-integrations.md)
 * 미러 페이지 URL 길이에 대한 권장 사항이 추가되었습니다. [자세히 보기](../email/message-tracking.md)
 * 올바른 회신 관리를 위한 권장 사항이 포함된 이메일 설정 구성의 새로운 하위 섹션이 이메일 주소에 대한 회신에 추가되었습니다. [자세히 보기](../email/email-settings.md#reply-to-email)
 * 라이브 여정에서 메시지 콘텐츠를 수정하는 방법에 대한 섹션을 추가했습니다. [자세히 보기](../building-journeys/journeys-message.md#update-live-content)

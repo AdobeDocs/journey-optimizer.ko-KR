@@ -5,8 +5,8 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>콘텐츠 관리</strong><br/><a href="using/content-management/assets.md">에셋/이미지</a> - <a href="using/personalization/personalize.md">개인화</a> - <a href="using/content-management/content-templates.md">재사용 가능</a> 및 <a href="using/personalization/dynamic-content.md">동적</a> 콘텐츠 - <a href="using/content-management/preview-test.md">콘텐츠 테스트 및 미리 보기</a>
+      <strong>콘텐츠 관리</strong><br/><a href="using/integrations/assets.md">에셋/이미지</a> - <a href="using/personalization/personalize.md">개인화</a> - <a href="using/content-management/content-templates.md">재사용 가능</a> 및 <a href="using/personalization/dynamic-content.md">동적</a> 콘텐츠 - <a href="using/content-management/preview-test.md">콘텐츠 테스트 및 미리 보기</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>

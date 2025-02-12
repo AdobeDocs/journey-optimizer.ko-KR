@@ -6,7 +6,7 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 7e5dbd6106b8a5ffd9bee8b1364a7bf5b995668c
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 4%
@@ -61,7 +61,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ![](assets/content-card-design-3.png)
 
-미디어를 포함하려면 사용할 미디어의 URL을 입력하거나 **[!UICONTROL Assets 선택]** 아이콘을 클릭하여 Assets 라이브러리에 저장된 에셋 중에서 선택합니다. [자산 관리에 대해 자세히 알아보세요](../content-management/assets.md).
+미디어를 포함하려면 사용할 미디어의 URL을 입력하거나 **[!UICONTROL Assets 선택]** 아이콘을 클릭하여 Assets 라이브러리에 저장된 에셋 중에서 선택합니다. [자산 관리에 대해 자세히 알아보세요](../integrations/assets.md).
 
 <!--
 +++More options with advanced formatting
