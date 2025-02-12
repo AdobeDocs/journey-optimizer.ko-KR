@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '6024'
+source-wordcount: '6051'
 ht-degree: 97%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 97%
 * 충돌 관리 및 우선 순위 지정 도구 설명서에 &quot;보호 및 제한 사항&quot; 섹션이 추가되었습니다. [자세히 보기](../conflict-prioritization/gs-conflict-prioritization.md)
 
 * [!DNL Journey Optimizer] 코드 기반 경험 채널을 사용하는 콘텐츠 실험에서 Decisioning을 사용하는 데 필요한 모든 단계를 제공하는 새로운 엔드 투 엔드 사용 사례를 추가했습니다. [자세히 보기](../experience-decisioning/experience-decisioning-uc.md)
+
+* **전자 메일 설정 구성** 페이지는 가독성을 개선하기 위해 [구독 취소 목록](../email/list-unsubscribe.md), [헤더 매개 변수](../email/header-parameters.md) 및 [URL 추적](../email/url-tracking.md)을 위한 새로운 독립 실행형 페이지를 포함하여 여러 하위 페이지로 나누어졌습니다.
 
 ## 2024년 12월 {#nov-2024}
 
