@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
+source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 18%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->사용자 지정 작업을 설정하여 메시지를 보낼 수도 있습니다. [자세히 알아보기](#recommendation)
+>사용자 지정 작업을 설정하여 [!DNL Journey Optimizer]에서 메시지를 보낼 수도 있습니다. [자세히 알아보기](#recommendation)
 
 ## 여정에 메시지 추가  {#add-msg-in-journey}
 
