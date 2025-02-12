@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, 하위 도메인, 구성
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 24%
+source-wordcount: '743'
+ht-degree: 23%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 24%
 >id="ajo_admin_subdomain_sms"
 >title="SMS/MMS 하위 도메인 위임"
 >abstract="문자 메시지에 사용할 하위 도메인을 구성해야 하는데, 이는 SMS 구성을 만들기 위해 이 하위 도메인이 필요하기 때문입니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 표면 만들기"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 구성 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="SMS/MMS 하위 도메인 선택"
 >abstract="SMS 구성을 만들려면 하위 도메인 이름 목록에서 선택할 SMS 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 표면 만들기"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 구성 만들기"
 
 SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 구성을 만들 때](sms-configuration.md#message-preset-sms)선택할 하위 도메인을 설정해야 합니다.
 
@@ -47,7 +47,7 @@ SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 구성을 만들 �
 
 ## 기존 하위 도메인 사용 {#sms-use-existing-subdomain}
 
-이미 Adobe에게 위임된 하위 도메인을 사용하려면 아래 단계를 따르십시오.
+이미 Adobe에 위임된 하위 도메인을 사용하려면 아래 단계를 따르십시오.
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴로 이동한 다음 **[!UICONTROL SMS 설정]** > **[!UICONTROL SMS 하위 도메인]**&#x200B;을 선택합니다.
 
@@ -79,7 +79,7 @@ SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 구성을 만들 �
 
    >[!CAUTION]
    >
-   >[CNAME 메서드](../configuration/delegate-subdomain.md#cname-subdomain-delegation)를 사용하여 Adobe으로 위임된 도메인을 선택하는 경우 호스팅 플랫폼에서 DNS 레코드를 만들어야 합니다. DNS 레코드를 생성하려면 새 SMS 하위 도메인을 구성할 때와 프로세스가 동일합니다. [이 섹션](#sms-configure-new-subdomain)에서 방법을 알아보세요.
+   >[CNAME 메서드](../configuration/delegate-subdomain.md#cname-subdomain-delegation)를 사용하여 Adobe에 위임된 도메인을 선택하는 경우 호스팅 플랫폼에서 DNS 레코드를 만들어야 합니다. DNS 레코드를 생성하려면 새 SMS 하위 도메인을 구성할 때와 프로세스가 동일합니다. [이 섹션](#sms-configure-new-subdomain)에서 방법을 알아보세요.
 
 1. **[!UICONTROL 제출을 클릭합니다]**.
 
@@ -118,7 +118,7 @@ SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 구성을 만들 �
    >
    >* 하위 도메인에서는 대문자가 허용되지 않습니다.
 
-   잘못된 하위 도메인을 Adobe으로 위임할 수 없습니다. marketing.yourcompany.com과 같이 조직에서 소유한 올바른 하위 도메인을 입력해야 합니다.
+   잘못된 하위 도메인을 Adobe에 위임할 수 없습니다. marketing.yourcompany.com과 같이 조직에서 소유한 올바른 하위 도메인을 입력해야 합니다.
 
    >[!NOTE]
    >
@@ -136,6 +136,6 @@ SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 구성을 만들 �
 
 1. 하위 도메인 위임이 제출되면 하위 도메인이 목록에 **[!UICONTROL 처리]** 상태로 표시됩니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->을 참조하세요.
 
-하위 도메인을 사용하여 SMS 메시지를 보내기 전에 Adobe에서 필요한 검사를 수행할 때까지 기다려야 하며 최대 4시간이 걸릴 수 있습니다.<!--Learn more in [this section](#subdomain-validation).--> 검사가 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. SMS 채널 구성을 만드는 데 사용할 준비가 되었습니다.
+하위 도메인을 사용하여 SMS 메시지를 전송하려면 먼저 Adobe에서 필요한 검사를 수행할 때까지 기다려야 하며 최대 4시간이 걸릴 수 있습니다.<!--Learn more in [this section](#subdomain-validation).--> 검사가 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. SMS 채널 구성을 만드는 데 사용할 준비가 되었습니다.
 
 호스팅 솔루션에서 유효성 검사 레코드를 만들지 못하면 하위 도메인이 **[!UICONTROL 실패]**(으)로 표시됩니다.

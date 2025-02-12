@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 채널 구성 설정
 description: 채널 구성 구성 및 모니터링 방법 알아보기
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-`자를 사용할 수도 있습니다.
+   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점 `.`, 하이픈 `-`도 사용할 수 있습니다.
 
 1. 구성에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택할 수 있습니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요](../administration/object-based-access.md).
 
@@ -143,7 +143,7 @@ ht-degree: 12%
 
 채널 구성 만들기에 실패한 경우 각 가능한 실패 이유에 대한 자세한 내용은 아래에 설명되어 있습니다.
 
-이러한 오류 중 하나가 발생하면 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}에 연락하여 지원을 받으십시오.
+이러한 오류 중 하나가 발생하면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}에 연락하여 도움을 받으십시오.
 
 * **SPF 유효성 검사 실패**: SPF(Sender Policy Framework)는 지정된 하위 도메인에서 전자 메일을 보낼 수 있는 승인된 IP를 지정할 수 있는 전자 메일 인증 프로토콜입니다. SPF 유효성 검사 실패는 SPF 레코드의 IP 주소가 사서함 공급자에게 전자 메일을 보내는 데 사용되는 IP 주소와 일치하지 않음을 의미합니다.
 

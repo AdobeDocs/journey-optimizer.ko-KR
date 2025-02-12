@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 37%
@@ -43,7 +43,7 @@ SMS 또는 MMS를 보내기 전에 Adobe Journey Optimizer 환경을 구성해�
    * [Sinch 포함](sms-configuration-sinch.md)
    * [Infobip 사용](sms-configuration-infobip.md)
    * [사용자 정의 공급자 사용](sms-configuration-custom.md)
-1. [SMS 표면 만들기](sms-configuration-surface.md)
+1. [SMS 구성 만들기](sms-configuration-surface.md)
 
 이 단계는 Adobe Journey Optimizer [시스템 관리자](../start/path/administrator.md)가 수행해야 합니다.
 
@@ -53,7 +53,7 @@ Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 텍
 
 SMS 채널을 구성하기 전에 이러한 공급자 중 하나로 계정을 만들어 **API 토큰** 및 **서비스 ID**&#x200B;를 받아야 합니다. 이 ID는 Adobe Journey Optimizer과 해당 공급자 간의 연결을 구성해야 합니다.
 
-문자 메시지 및 MMS 서비스의 사용은 해당 공급자의 추가 약관을 따릅니다. 타사 솔루션인 Sinch, Twilio 및 Infobip은 통합을 통해 Adobe Journey Optimizer 사용자에게 제공됩니다. Adobe은 서드파티 제품을 제어하지 않으며 책임지지 않습니다. 문자 메시지 서비스(SMS/MMS)와 관련된 문제 또는 지원 요청은 공급자에게 문의하십시오.
+문자 메시지 및 MMS 서비스의 사용은 해당 공급자의 추가 약관을 따릅니다. 타사 솔루션인 Sinch, Twilio 및 Infobip은 통합을 통해 Adobe Journey Optimizer 사용자에게 제공됩니다. Adobe은 서드파티 제품을 제어하지 않으며 이에 대해 책임을 지지 않습니다. 문자 메시지 서비스(SMS/MMS)와 관련된 문제 또는 지원 요청은 공급자에게 문의하십시오.
 
 >[!CAUTION]
 >

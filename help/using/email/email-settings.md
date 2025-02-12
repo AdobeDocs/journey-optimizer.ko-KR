@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 이메일 설정 구성
 description: 채널 구성 수준에서 이메일 설정을 구성하는 방법 알아보기
-feature: Email, Surface
+feature: Email, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 307655ebfb161ab5023430be801c46b378326ccd
 workflow-type: tm+mt
-source-wordcount: '2484'
-ht-degree: 98%
+source-wordcount: '1514'
+ht-degree: 96%
 
 ---
 
@@ -89,81 +89,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 ## 헤더 매개변수 {#email-header}
 
-**[!UICONTROL 헤더 매개변수]** 섹션에서 해당 구성을 사용하여 보내는 이메일 유형과 연결된 발신자 이름 및 이메일 주소를 입력합니다.
-
->[!NOTE]
->
->이메일 설정에 대한 제어를 강화하려면 헤더 매개변수를 개인화할 수 있습니다. [자세히 알아보기](../email/surface-personalization.md#personalize-header)
-
-* **[!UICONTROL 발신자 이름]**: 보내는 사람의 이름입니다. 브랜드 이름 등을 사용할 수 있습니다.
-* **[!UICONTROL 발신자 이메일 접두사]**: 커뮤니케이션에 사용할 이메일 주소입니다.
-* **[!UICONTROL 회신 대상 이름]**: 수신자가 이메일 클라이언트 소프트웨어에서 **회신** 버튼을 클릭했을 때 사용할 이름입니다.
-* **[!UICONTROL 회신 대상 이메일]**: 수신자가 이메일 클라이언트 소프트웨어에서 **회신** 버튼을 클릭했을 때 사용할 이메일 주소입니다. [자세히 알아보기](#reply-to-email)
-* **[!UICONTROL 오류 이메일 접두사]**: 메일 전달 후 며칠 간 ISP에서 생성한 오류(비동기 바운스)는 모두 이 주소로 수신됩니다. 부재 중 알림 및 문제 응답도 이 주소로 수신됩니다.
-
-  Adobe에 위임되지 않은 특정 이메일 주소에 대한 부재 중 알림 및 문제 응답을 받으려면 [전달 프로세스](#forward-email)를 설정해야 합니다. 이 경우 해당 받은 편지함에 도착하는 이메일을 처리할 수동 또는 자동화된 솔루션이 있는지 확인합니다.
-
->[!NOTE]
->
->**[!UICONTROL 발신자 이메일 접두사]** 및 **[!UICONTROL 오류 이메일 접두사]** 주소는 현재 선택한 [위임된 하위 도메인](../configuration/about-subdomain-delegation.md)을 사용하여 이메일을 보냅니다. 예를 들어 위임된 하위 도메인이 *marketing.luma.com*&#x200B;인 경우를 가정해 보겠습니다.
->* *contact*&#x200B;를 **[!UICONTROL 발신자 이메일 접두사]**&#x200B;로 입력하면 발신자 이메일은 *contact@marketing.luma.com*&#x200B;입니다.
->* *error*&#x200B;를 **[!UICONTROL 오류 이메일 접두사]**&#x200B;로 입력하면 오류 주소는 *error@marketing.luma.com*&#x200B;입니다.
-
-
-![](assets/preset-header.png){width="80%"}
-
->[!NOTE]
->
->주소는 문자(A-Z)로 시작해야 하며 영문자와 숫자만 포함할 수 있습니다. 밑줄 `_`, 점 `.`, 하이픈 `-`도 사용할 수 있습니다.
-
-### 회신 대상 이메일 {#reply-to-email}
-
-**[!UICONTROL 회신 대상 이메일]** 주소를 정의할 때는 어떤 이메일 주소든 유효한 주소이고 올바른 형식이며 오타가 없기만 하면 지정할 수 있습니다.
-
-부재 중 알림 및 문제 응답을 제외한 모든 회신 이메일은 회신에 사용되는 받은 편지함에서 받게 되며, 부재 중 알림과 문제 응답은 **오류 이메일** 주소로 수신됩니다.
-
-올바른 회신 관리를 위해서는 아래 추천 사항을 따라야 합니다.
-
-* 전용 받은 편지함의 수신 용량이 이메일 구성을 사용하여 보내는 모든 회신 이메일을 받기에 충분한지 확인합니다. 받은 편지함에서 바운스를 반환하면 고객 회신이 수신되지 않을 수 있습니다.
-
-* 답장에는 PII(개인 식별 정보)가 포함될 수 있으므로 개인 정보 및 준수 의무를 고려하여 처리해야 합니다.
-
-* 회신 받은 편지함에서는 메시지를 스팸으로 표시하지 마십시오. 이 주소로 전송된 다른 모든 답장에 영향을 줍니다.
-
-또한 **[!UICONTROL 회신 대상 이메일]** 주소를 정의할 때 유효한 MX 레코드 구성이 있는 하위 도메인을 사용해야 합니다. 그렇지 않으면 이메일 구성 처리가 실패합니다.
-
-이메일 구성 제출 시 오류가 발생하면 입력한 주소의 하위 도메인에 대해 MX 레코드가 구성되지 않은 것입니다. 관리자에게 문의하여 해당 MX 레코드를 구성하거나, 유효한 MX 레코드 구성이 있는 다른 주소를 사용하십시오.
-
->[!NOTE]
->
->입력한 주소의 하위 도메인이 Adobe에 [완전히 위임된](../configuration/delegate-subdomain.md#full-subdomain-delegation) 도메인인 경우 Adobe 계정 담당자에게 문의하십시오.
-
-### 이메일 전달 {#forward-email}
-
-위임된 하위 도메인에 대해 [!DNL Journey Optimizer]에서 수신한 모든 이메일을 특정 이메일 주소로 전달하려면 Adobe 고객 지원 센터에 문의하십시오.
-
->[!NOTE]
->
->**[!UICONTROL 회신 대상 이메일]** 주소에 사용되는 하위 도메인이 Adobe에 위임되지 않은 경우 이 주소에 대해 전달이 작동하지 않습니다.
-
-다음 사항을 입력해야 합니다.
-
-* 원하는 전달 이메일 주소. 전달 이메일 주소 도메인은 Adobe에 위임된 하위 도메인과 일치할 수 없습니다.
-* 사용자의 샌드박스 이름.
-* 전달 이메일 주소를 사용할 구성 이름 또는 하위 도메인.
-  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel configuration level.-->
-
->[!NOTE]
->
->하위 도메인당 하나의 전달 이메일 주소만 설정할 수 있습니다. 따라서 여러 구성에서 동일한 하위 도메인을 사용하는 경우 모든 구성에 대해 동일한 전달 이메일 주소를 사용해야 합니다.
-
-전달 이메일 주소는 Adobe에 의해 설정됩니다. 3~4일 정도 소요될 수 있습니다.
-
-완료되면 **[!UICONTROL 회신 대상 이메일]** 및 **오류 이메일** 주소에서 받은 모든 메시지와 **발신자 이메일** 주소로 보낸 모든 이메일이 사용자가 입력한 특정 이메일 주소로 전달됩니다.
-
->[!NOTE]
->
->기본적으로 전달을 활성화하지 않은 경우 **발신자 이메일** 주소로 직접 보낸 이메일은 삭제됩니다.
+**[!UICONTROL 헤더 매개 변수]** 섹션에서 해당 구성을 사용하여 보낸 전자 메일 형식과 관련된 보낸 사람 이름 및 전자 메일 주소를 입력합니다. [자세히 알아보기](header-parameters.md)
 
 ## BCC 이메일 {#bcc-email}
 
@@ -267,53 +193,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 >title="URL 추적 매개변수 미리보기"
 >abstract="추적 매개변수를 이메일 콘텐츠에 있는 URL에 추가하는 방법을 확인합니다."
 
-**[!UICONTROL URL 추적 매개변수]**&#x200B;를 사용하여 채널 전반의 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 선택 사항입니다.
-
-이 섹션에서 정의하는 매개변수는 이메일 메시지 콘텐츠에 포함되는 URL의 끝에 추가됩니다. 그런 다음 Adobe Analytics나 Google Analytics 등 웹 분석 도구에서 이 매개변수를 캡처하여 다양한 성과 보고서를 만들 수 있습니다.
-
-**[!UICONTROL 새 매개변수 추가]** 버튼을 사용하여 최대 10개의 추적 매개변수를 추가할 수 있습니다.
-
-![](assets/preset-url-tracking.png){width="80%"}
-
-URL 추적 매개변수를 구성하기 위해 **[!UICONTROL 이름]** 및 **[!UICONTROL 값]** 필드에 원하는 값을 직접 입력할 수 있습니다.
-
-[개인화 편집기](../personalization/personalization-build-expressions.md)를 사용하여 각 **[!UICONTROL 값]** 필드를 편집할 수도 있습니다. 편집 아이콘을 클릭하여 편집기를 엽니다. 여기에서는 사용 가능한 상황별 속성을 선택하거나 텍스트를 직접 편집할 수 있습니다.
-
-![](assets/preset-url-tracking-editor.png)
-
-개인화 편집기를 통해 다음과 같은 사전 정의된 값을 사용할 수 있습니다.
-
-* **소스 액션 ID**: 여정 또는 캠페인에 추가된 이메일 액션의 ID입니다.
-
-* **소스 액션 이름**: 여정 또는 캠페인에 추가된 이메일 액션의 이름입니다.
-
-* **소스 ID**: 이메일을 보낸 여정 또는 캠페인의 ID입니다.
-
-* **소스 이름**: 이메일을 보낸 여정 또는 캠페인의 이름입니다.
-
-* **소스 버전 ID**: 이메일을 보낸 여정 또는 캠페인 버전의 ID입니다.
-
-* **오퍼 ID**: 이메일에 사용된 오퍼의 ID입니다.
-
->[!NOTE]
->
->개인화 편집기의 상황별 속성 사용과 텍스트 값 입력을 결합하여 사용할 수 있습니다. 각 **[!UICONTROL 값]** 필드에는 최대 5KB까지 여러 문자를 사용할 수 있습니다.
-
-<!--You can drag and drop the parameters to reorder them.-->
-
-다음은 Adobe Analytics 및 Google Analytics 호환 URL의 예입니다.
-
-* Adobe Analytics 호환 URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
-
-* Google Analytics 호환 URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
-
-결과 추적 URL을 동적으로 미리 볼 수 있습니다. 매개변수를 추가, 편집 또는 제거할 때마다 미리보기가 자동으로 업데이트됩니다.
-
-![](assets/preset-url-tracking-preview.png)
-
->[!NOTE]
->
->이메일 콘텐츠에 있는 링크에 동적 개인화 추적 매개변수를 추가할 수도 있지만, 구성 수준에서는 가능하지 않습니다. 이 작업은 이메일 디자이너를 사용하여 메시지를 작성할 때 수행해야 합니다. [자세히 알아보기](message-tracking.md#url-tracking)
+**[!UICONTROL URL 추적 매개변수]**&#x200B;를 사용하여 채널 전반의 마케팅 활동의 효과를 측정할 수 있습니다. [자세히 알아보기](url-tracking.md)
 
 ## 실행 주소 {#execution-address}
 

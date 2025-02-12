@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 이메일 구성 설정 개인화
 description: 이메일 채널 구성 수준에서 설정에 대한 개인화된 값을 정의하는 방법을 알아봅니다
-feature: Surface, Subdomains
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 7%
