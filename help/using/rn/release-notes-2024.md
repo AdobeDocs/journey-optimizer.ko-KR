@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
-workflow-type: ht
-source-wordcount: '4776'
-ht-degree: 100%
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+workflow-type: tm+mt
+source-wordcount: '4772'
+ht-degree: 99%
 
 ---
 
@@ -106,13 +106,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>AI 어시스턴트 콘텐츠 가속기 </strong><br/></th>
+<th><strong>AI 어시스턴트</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>메시지를 만들고 개인화한 뒤 Journey Optimizer의 AI 어시스턴트 콘텐츠 가속기로 콘텐츠를 한 단계 더 발전시켜 보십시오. 이제 Al 어시스턴트를 사용하여 다양한 주요 제목과 이미지를 실험해 보며 메시지의 영향을 최적화할 수 있습니다. 각 변형 버전이 고유한 처리 항목으로 관리되어 어떤 제목이 더 많은 클릭으로 이어지는지 측정하고 비교할 수 있습니다.</p>
+<p>메시지를 만들고 개인화한 후에는 Journey Optimizer의 AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다. 이제 Al 어시스턴트를 사용하여 다양한 주요 제목과 이미지를 실험해 보며 메시지의 영향을 최적화할 수 있습니다. 각 변형 버전이 고유한 처리 항목으로 관리되어 어떤 제목이 더 많은 클릭으로 이어지는지 측정하고 비교할 수 있습니다.</p>
 <p>기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 <a href="https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator">라이브 기능 미리 보기</a>를 통해 실습 경험에 몰입하세요.</a>.</p>
 <p>자세한 내용은 <a href="../content-management/gs-generative.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -173,7 +173,7 @@ ht-degree: 100%
 
 **API**
 
-* **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 증명 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 이 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 교정 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 이 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 * (사용 가능한 날짜: 9월 10일) [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}가 대화형으로 변경되었습니다. 설명서 페이지에서 직접 API 엔드포인트를 탐색하여 즉각적인 피드백을 얻고 기술 구현 속도를 높일 수 있습니다. 
 
@@ -924,7 +924,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 * **여정 필터링** - 이제 기존의 사전 정의된 날짜 필터 외에도 **사용자 정의 날짜를 사용하여 여정** 인벤토리를 필터링할 수 있습니다. 이렇게 하면 특정 날짜, 특정 달 내, 전체 연도 또는 지정된 시간 범위에 작성되었거나 게시된 여정을 표시하여 목록을 세분화할 수 있습니다. [자세히 보기](../building-journeys/journey-gs.md#filter)
 * **사용자 정의 작업** - 이제 **content-type** 헤더를 업데이트할 수 있습니다. 이 새로운 **content-type**&#x200B;은 JSON 콘텐츠를 참조해야 합니다. [자세히 보기](../action/about-custom-action-configuration.md#url-configuration)
-* **구성** - stepEvents의 identityMap 속성이 이제 미리 채워져 있습니다. 기본 신원은 “primary = true”로 정의됩니다. [자세히 보기](../reports/sharing-field-list.md)
+* **구성** - stepEvents의 identityMap 속성이 이제 미리 채워져 있습니다. 기본 ID는 “primary = true”로 정의됩니다. [자세히 보기](../reports/sharing-field-list.md)
 * **사용자 인터페이스** - 여정 화면의 상단 표시줄이 향상된 경험을 위해 재구성되었습니다. 여러 업데이트 중 여정 속성에 액세스할 수 있는 &#39;연필&#39; 아이콘이 이제 여정 이름 옆의 상단 표시줄 왼쪽에 표시됩니다. [자세히 보기](../building-journeys/journey-properties.md)
 
 **SMS 채널**
@@ -1021,4 +1021,4 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 **의사 결정 관리**
 
-* **Edge 빈도 설정** - 이제 빈도 제한 카운터가 업데이트되어 Edge Decisioning API 결정에서 3초 이내에 사용할 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+* **Edge 빈도 상한 설정** - 이제 빈도 상한 설정 카운터가 업데이트되어 Edge Decisioning API 결정에서 3초 이내에 사용할 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)

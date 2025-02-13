@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!TAB AI 어시스턴트]
 
-✨ 기능을 직접 탐색하며 완전히 이해할 수 있도록 설계된 [AI 어시스턴트 콘텐츠 가속기](../help/using/content-management/gs-generative.md) 라이브 기능 미리 보기를 통해 몰입형 실습 경험을 제공합니다.
+✨ 기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [AI Assistant](../help/using/content-management/gs-generative.md) 라이브 기능 미리 보기를 통해 실습 경험에 몰입하십시오.
 
 [![자세히 알아보기](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer Content Accelerator의 AI Assistant를 사용한 콘텐츠 실험
-description: Journey Optimizer의 AI Assistant Content Accelerator로 콘텐츠 실험
+title: Journey Optimizer의 AI Assistant를 사용한 콘텐츠 실험
+description: Journey Optimizer의 AI Assistant를 사용한 콘텐츠 실험
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 8%
+source-wordcount: '255'
+ht-degree: 11%
 
 ---
 
-# AI Assistant Content Accelerator로 콘텐츠 실험 {#generative-experimentation}
+# AI 어시스턴트로 콘텐츠 실험{#generative-experimentation}
 
 >[!IMPORTANT]
 >
 >이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
 ></br>
 >
->Journey Optimizer에서 AI Assistant Content Accelerator를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-메시지를 만들고 개인화한 후에는 콘텐츠 실험 기능이 포함된 Adobe Journey Optimizer의 AI Assistant Content Accelerator를 사용하여 콘텐츠를 높일 수 있습니다. 이 도구를 사용하면 다양한 콘텐츠에서 여러 게재 처리를 정의하여 타겟 대상의 성능을 측정할 수 있습니다.
+메시지를 만들고 개인화한 후에는 콘텐츠 실험 기능이 포함된 Adobe Journey Optimizer의 AI Assistant를 사용하여 콘텐츠를 향상시킵니다. 이 도구를 사용하면 다양한 콘텐츠에서 여러 게재 처리를 정의하여 타겟 대상의 성능을 측정할 수 있습니다.
 
-1. 캠페인을 만들고 AI Assistant Content Accelerator를 사용하여 변형을 생성합니다.
+1. 캠페인을 만들고 AI Assistant를 사용하여 변형을 생성합니다.
 
    이 예에서는 프로모션 코드가 포함된 구독 확인 이메일을 생성했습니다.
 
