@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6d072ed9b0312ee06efa9fdfaafd0fff913e6276
+source-git-commit: e1192f6540ee3317a0e03100dedb7780708f7bec
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '625'
 ht-degree: 26%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 26%
 
 **아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 날짜의 [릴리스 정보](release-notes.md)에 게시됩니다.
 
-## 2025년 2월 조기 릴리스 {#25-02-rn}
+## 2025년 2월 초기 릴리스 정보 {#25-02-rn}
 
 ### 새로운 기능 {#25-02-features}
 
