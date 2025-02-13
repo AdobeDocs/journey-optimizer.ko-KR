@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e1192f6540ee3317a0e03100dedb7780708f7bec
+source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 26%
+source-wordcount: '676'
+ht-degree: 25%
 
 ---
 
@@ -104,6 +104,8 @@ ht-degree: 26%
 
 아래의 개선 사항은 2월 업데이트와 함께 제공됩니다.
 
+* **여정** - 이제 관리 사용자 인터페이스에서 API 호출을 전송하여 여정 사용자 지정 작업을 테스트할 수 있습니다. 이 새로운 기능은 사용자 지정 작업 문제를 해결하는 데 도움이 됩니다.
+
 * **TTL(Time-to-Live)** - 이번 달부터 TTL(Time-to-Live) 가드레일이 다음과 같이 새 샌드박스 및 새 조직의 Journey Optimizer 시스템 생성 데이터 세트로 롤아웃됩니다.
 
    * 프로필 스토어의 데이터에 대해 90일
@@ -114,6 +116,12 @@ ht-degree: 26%
 * **플레이북** - 이제 Journey Optimizer에서 나만의 사용 사례 플레이북을 만들고 게시할 수 있습니다.
 
 * **DM** - 이제 DM 구성에서 파일 라우팅에 대한 서버 유형으로 DLZ(DAta 랜딩 영역)가 지원됩니다.
+
+**개인화**
+
+* 개인화 편집기가 자동 완성, 검색 및 필터링 옵션과 같은 새로운 기능으로 개선되었습니다. 더 이상 사용되지 않는 특성을 표시하거나 숨길 수도 있습니다.
+
+* 사용 가능한 날짜: 2025년 1월 29일 - 새로운 날짜/시간 도우미 기능을 개인화 편집기에서 사용할 수 있습니다. [자세히 보기](../personalization/functions/dates.md)
 
 **전자 메일 구성** - 사용 가능한 날짜: 2025년 2월 12일
 
@@ -128,7 +136,3 @@ ht-degree: 26%
 **Decisioning** - 사용 가능한 날짜: 2025년 1월 28일
 
 * 이제 Decisioning에서 항목 카탈로그의 스키마를 편집할 때 개체 데이터 유형을 지원합니다. [자세히 보기](../experience-decisioning/catalogs.md)
-
-**Personalization** - 사용 가능한 날짜: 2025년 1월 29일
-
-* 새로운 날짜/시간 도우미 기능은 개인화 편집기에서 사용할 수 있습니다. [자세히 보기](../personalization/functions/dates.md)
