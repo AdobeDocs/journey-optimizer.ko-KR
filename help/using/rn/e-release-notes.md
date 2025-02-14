@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 39e52d7e552859137c9e179f48319ed508caabb5
+source-git-commit: f371f2181b5a4b302e3cb1f47c85d470a58b9f90
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 25%
+source-wordcount: '637'
+ht-degree: 26%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 25%
 
   이 변경 사항은 후속 단계에서 기존 고객 샌드박스로 롤아웃됩니다.
 
-* **플레이북** - 이제 Journey Optimizer에서 나만의 사용 사례 플레이북을 만들고 게시할 수 있습니다.
+<!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
 * **DM** - 이제 DM 구성에서 파일 라우팅에 대한 서버 유형으로 DLZ(DAta 랜딩 영역)가 지원됩니다.
 
