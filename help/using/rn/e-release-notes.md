@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c1712985598b927d26da0b0d0562cd3fe60aa962
+source-git-commit: 1ac5f7362cd0184b7207b0f175d83c5c60921e7e
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '634'
 ht-degree: 24%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 24%
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **DM** - 이제 DM 구성에서 파일 라우팅에 대한 서버 유형으로 DLZ(DAta 랜딩 영역)가 지원됩니다.
+* **DM** - 이제 DM 채널 구성에서 파일 라우팅에 대해 새로운 서버 유형인 데이터 랜딩 영역이 지원됩니다.
 
 **개인화**
 
