@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ac5f7362cd0184b7207b0f175d83c5c60921e7e
+source-git-commit: 4e405fe395c8432ed22d64887631b222df83a3e9
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 24%
+source-wordcount: '711'
+ht-degree: 21%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 24%
 <table>
 <thead>
 <tr>
-<th><strong>비즈니스 규칙</strong><br/></th>
+<th><strong>비즈니스 규칙 만들기 및 관리</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -62,24 +62,41 @@ ht-degree: 24%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Customer Journey Analytics 템플릿</strong><br/></th>
+<th><strong>AI Assistant를 사용하여 랜딩 페이지 생성</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Customer Journey Analytics 템플릿을 활용하여 Journey Optimizer 보고서를 향상시킬 수 있는 옵션이 제공됩니다. 이 새로운 기능을 사용하면 분석 요구 사항에 맞게 미리 디자인된 템플릿을 사용하여 보고 프로세스를 간소화할 수 있습니다.
-</p>
-<img src="assets/do-not-localize/cja-templates.gif">
-<p>자세한 내용은 <a href="../reports/report-cja-manage.md#cja-template">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 1월 15일부터 시작</p>
+<p>이제 랜딩 페이지 게재에서 AI Assistant를 사용하여 텍스트, 이미지 또는 전체 페이지 레이아웃을 생성할 수 있습니다.</p>
+<!--img src="assets/do-not-localize/ai-lp.gif">
+<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+</td>
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>브랜드 지침(베타)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 고유한 Brand 지침을 설정하여 브랜드의 시각적 및 언어적 정체성을 정의할 수 있습니다. 브랜드 기능은 비공개 베타로 출시되며 모든 고객은 향후 릴리스에서 점진적으로 사용할 수 있습니다.</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 <table>
 <thead>
@@ -100,11 +117,33 @@ ht-degree: 24%
 </table>
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Customer Journey Analytics 템플릿</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Customer Journey Analytics 템플릿을 활용하여 Journey Optimizer 보고서를 향상시킬 수 있는 옵션이 제공됩니다. 이 새로운 기능을 사용하면 분석 요구 사항에 맞게 미리 디자인된 템플릿을 사용하여 보고 프로세스를 간소화할 수 있습니다.
+</p>
+<img src="assets/do-not-localize/cja-templates.gif">
+<p>자세한 내용은 <a href="../reports/report-cja-manage.md#cja-template">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 1월 15일부터 시작</p>
+</tr>
+</tbody>
+</table>
+
+
+
+
 ### 개선 사항 {#25-02-improvements}
 
 아래의 개선 사항은 2월 업데이트와 함께 제공됩니다.
 
-* **여정** - 이제 관리 사용자 인터페이스에서 API 호출을 전송하여 여정 사용자 지정 작업을 테스트할 수 있습니다. 이 새로운 기능은 사용자 지정 작업 문제를 해결하는 데 도움이 됩니다.
+* **여정** - 이제 관리 섹션에서 API 호출을 전송하여 사용자 지정 작업을 테스트할 수 있습니다. 이 새로운 기능을 사용하면 여정에서 사용자 지정 작업을 사용하기 전에 먼저 문제를 해결할 수 있습니다.
 
 * **TTL(Time-to-Live)** - 이번 달부터 TTL(Time-to-Live) 가드레일이 다음과 같이 새 샌드박스 및 새 조직의 Journey Optimizer 시스템 생성 데이터 세트로 롤아웃됩니다.
 
