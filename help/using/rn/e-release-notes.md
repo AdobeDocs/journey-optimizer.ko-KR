@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 382327f7816340696d8645f04e5079eb56fe07a3
+source-git-commit: c226e8458aecdd32ed14c3529d19d845cf9d946b
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '714'
 ht-degree: 21%
 
 ---
@@ -49,22 +49,6 @@ ht-degree: 21%
 <table>
 <thead>
 <tr>
-<th><strong>SMS에 대한 다중 지역 지원</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 게재, 피드백, 인바운드 및 콜백 URL을 재정의하여 다중 지역 끝점의 SMS 메시지 게재를 관리할 수 있습니다. 이를 지원하기 위해 새 필드 Override URL이 API Credentials 구성에 추가되었습니다. 이 변경 사항은 Sinch 공급자에서만 사용할 수 있습니다.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>AI Assistant를 사용하여 랜딩 페이지 생성</strong><br/></th>
 </tr>
 </thead>
@@ -72,8 +56,8 @@ ht-degree: 21%
 <tr>
 <td>
 <p>이제 AI 어시스턴트의 도움을 받아 전체 페이지 디자인, 개인화된 텍스트, 맞춤화된 시각 자료 등 랜딩 페이지에 사용할 매력적인 콘텐츠를 제작할 수 있습니다.</p>
-<!--img src="assets/do-not-localize/ai-lp.gif">
-<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/ai-lp.gif">
+<!--p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -90,7 +74,7 @@ ht-degree: 21%
 <tr>
 <td>
 <p>이제 고유한 Brand 지침을 설정하여 브랜드의 시각적 및 언어적 정체성을 정의할 수 있습니다. 브랜드 기능은 비공개 베타로 출시되며 모든 고객은 향후 릴리스에서 점진적으로 사용할 수 있습니다.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<!--p>For more information, refer to the <a href="../content-management/brands.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -158,6 +142,8 @@ ht-degree: 21%
 
 * **DM** - 이제 DM 채널 구성에서 파일 라우팅에 대해 새로운 서버 유형인 데이터 랜딩 영역이 지원됩니다.
 
+**SMS** - 이제 게재, 피드백, 인바운드 및 콜백 URL을 재정의하여 다중 지역 끝점의 SMS 메시지 게재를 관리할 수 있습니다. 이를 지원하기 위해 새 필드 Override URL이 API Credentials 구성에 추가되었습니다. 이 변경 사항은 Sinch 공급자에서만 사용할 수 있습니다. [자세히 보기](../sms/sms-configuration-sinch.md)
+
 **개인화**
 
 <!--
@@ -174,3 +160,4 @@ ht-degree: 21%
 **Decisioning** - 사용 가능한 날짜: 2025년 1월 28일
 
 * 이제 Decisioning에서 항목 카탈로그의 스키마를 편집할 때 개체 데이터 유형을 지원합니다. [자세히 보기](../experience-decisioning/catalogs.md)
+
