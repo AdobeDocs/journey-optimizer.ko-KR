@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2bc4dba1353b1d19b1bae0b7718fbbc9e9f37147
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '2505'
-ht-degree: 94%
+source-wordcount: '2513'
+ht-degree: 93%
 
 ---
 
@@ -40,12 +40,12 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ## 데이터 세트 보호 {#datasets-guardrails}
 
-2025년 2월부터 TTL(Time-to-Live) 가드레일이 다음과 같이 **새 샌드박스 및 새 조직**&#x200B;에서 Journey Optimizer 시스템 생성 데이터 세트로 배포됩니다.
+2025년 2월부터 TTL(time-to-live) 가드레일이 다음과 같이 **새 샌드박스 및 새 조직**&#x200B;에서 Journey Optimizer 시스템 생성 데이터 세트로 배포됩니다.
 
-* 프로필 스토어의 데이터에 대해 90일
-* 데이터 레이크의 데이터에 대해 13개월
+* 프로필 스토어의 데이터에 대해 90일,
+* 데이터 레이크의 데이터에 대해서는 13개월입니다.
 
-이러한 보호 기능에 대한 자세한 내용은 [자주 묻는 질문 섹션](../data/datasets-ttl.md#ttl)을 살펴보십시오.
+이 변경 사항은 후속 단계에서 **기존 고객 샌드박스**&#x200B;로 롤아웃됩니다. [데이터 세트 TTL(Time-To-Leave) 보호 기능에 대해 자세히 알아보기](../data/datasets-ttl.md)
 
 ## 랜딩 페이지 보호 {#lp-guardrails}
 

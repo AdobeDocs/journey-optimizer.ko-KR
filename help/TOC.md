@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2157'
 ht-degree: 97%
 
 ---
@@ -626,7 +626,7 @@ ht-degree: 97%
    + [스키마 작업](using/data/get-started-schemas.md)
    + Journey Optimizer 데이터셋 {#datasets}
       + [데이트 세트 시작](using/data/get-started-datasets.md)
-      + [Time-to-Live 및 스트리밍 세분화 업데이트](using/data/datasets-ttl.md)
+      + [데이터 세트 TTL(Time-to-Live) 보호](using/data/datasets-ttl.md)
       + [Journey Optimizer 데이터 세트 내보내기](using/data/export-datasets.md)
       + [쿼리 예](using/data/datasets-query-examples.md)
       + [기본 스키마 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
