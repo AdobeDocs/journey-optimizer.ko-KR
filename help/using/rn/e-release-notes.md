@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f371f2181b5a4b302e3cb1f47c85d470a58b9f90
+source-git-commit: c1712985598b927d26da0b0d0562cd3fe60aa962
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 26%
+source-wordcount: '632'
+ht-degree: 24%
 
 ---
 
@@ -113,6 +113,8 @@ ht-degree: 26%
 
   이 변경 사항은 후속 단계에서 기존 고객 샌드박스로 롤아웃됩니다.
 
+  [이 전용 FAQ](../data/datasets-ttl.md#frequently-asked-questions)에서 이 업데이트에 대해 자세히 알아보세요.
+
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
 * **DM** - 이제 DM 구성에서 파일 라우팅에 대한 서버 유형으로 DLZ(DAta 랜딩 영역)가 지원됩니다.
@@ -129,10 +131,6 @@ ht-degree: 26%
 * Adobe 외부의 동의를 관리하는 경우 이제 사용자 지정 구독 취소 이메일 주소와 사용자 지정 원클릭 구독 취소 URL을 이메일 채널 구성 설정의 일부로 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
-
-  >[!AVAILABILITY]
-  >
-  >이 기능은 소규모 고객을 위해 LA(Limited Availability)에서 출시됩니다.
 
 **Decisioning** - 사용 가능한 날짜: 2025년 1월 28일
 
