@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4e405fe395c8432ed22d64887631b222df83a3e9
+source-git-commit: 382327f7816340696d8645f04e5079eb56fe07a3
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '715'
 ht-degree: 21%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>이제 랜딩 페이지 게재에서 AI Assistant를 사용하여 텍스트, 이미지 또는 전체 페이지 레이아웃을 생성할 수 있습니다.</p>
+<p>이제 AI 어시스턴트의 도움을 받아 전체 페이지 디자인, 개인화된 텍스트, 맞춤화된 시각 자료 등 랜딩 페이지에 사용할 매력적인 콘텐츠를 제작할 수 있습니다.</p>
 <!--img src="assets/do-not-localize/ai-lp.gif">
 <p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
 </td>
