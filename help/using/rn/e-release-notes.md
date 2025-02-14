@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
+source-git-commit: 39e52d7e552859137c9e179f48319ed508caabb5
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '652'
 ht-degree: 25%
 
 ---
@@ -119,7 +119,8 @@ ht-degree: 25%
 
 **개인화**
 
-* 개인화 편집기가 자동 완성, 검색 및 필터링 옵션과 같은 새로운 기능으로 개선되었습니다. 더 이상 사용되지 않는 특성을 표시하거나 숨길 수도 있습니다.
+<!--
+* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 * 사용 가능한 날짜: 2025년 1월 29일 - 새로운 날짜/시간 도우미 기능을 개인화 편집기에서 사용할 수 있습니다. [자세히 보기](../personalization/functions/dates.md)
 
