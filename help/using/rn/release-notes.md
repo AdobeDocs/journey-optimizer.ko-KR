@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8c9e69e35ee2c56215f7fe3f4a1f5f9759a2f9b8
+source-git-commit: befad89c8f50c92751e5e0995e73df8427a193b3
 workflow-type: tm+mt
-source-wordcount: '2346'
-ht-degree: 93%
+source-wordcount: '2807'
+ht-degree: 78%
 
 ---
 
@@ -22,25 +22,68 @@ ht-degree: 93%
 
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하십시오.
 
-## 2025년 최신 업데이트 {#25-01-rn}
+## 2025년 2월 릴리스 {#25-02-rn}
 
-### 2월 개선 사항 {#25-02-improvements}
+**릴리스 날짜**: 2025년 2월 18~19일
 
-아래의 개선 사항은 2월 업데이트와 함께 제공됩니다.
 
-**전자 메일 구성** - 사용 가능한 날짜: 2025년 2월 12일
+### 새로운 기능 {#25-02-features}
 
-* Adobe 외부의 동의를 관리하는 경우 이제 사용자 지정 구독 취소 이메일 주소와 사용자 지정 원클릭 구독 취소 URL을 이메일 채널 구성 설정의 일부로 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)
+이번 릴리스의 새로운 기능은 아래에 자세히 설명되어 있습니다.
 
-  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+<table>
+<thead>
+<tr>
+<th><strong>비즈니스 규칙 만들기 및 관리</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 규칙 세트를 사용하여 비즈니스 규칙을 만들 수 있습니다. 규칙 세트는 캠페인 내의 보낸 메시지 및 채널 간 여정 작업을 제한하고 여정에 대한 프로필 항목을 제어하는 데 도움이 되는 규칙 그룹입니다.<p>
+<p><ul><li>채널 규칙 세트를 만들어 하나 또는 여러 채널에서 전송되는 메시지 수를 제한합니다. 캠페인 또는 여정 작업에 적용하여 규칙 세트에 정의된 규칙을 적용합니다. 채널 규칙 세트를 사용하면 통신 유형에 따라 최대 가용량 규칙을 적용할 수 있습니다. 예를 들어 "프로모션 메시지"와 "뉴스레터"에 대한 다른 메시지를 제한하도록 규칙 세트를 설정합니다. 보내는 커뮤니케이션 유형에 따라 캠페인 또는 여정 작업에 적절한 규칙 세트를 적용합니다.</li>
+<li> 프로필 항목을 여정으로 제어하려면 여정 규칙 세트를 만듭니다. 프로필이 지정된 기간 내에 여정을 입력할 수 있는 빈도 또는 프로필을 동시에 등록할 수 있는 여정 수를 제한합니다. 여정 수준에서 이를 적용하여 적절한 항목 관리를 보장합니다.</li></p>
+<p>이전에는 조직 집합(LA)에서 사용할 수 있었으나, 이제 모든 사용자(GA)가 비즈니스 규칙을 사용할 수 있습니다.</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-  >[!AVAILABILITY]
-  >
-  >이 기능은 소규모 고객을 위해 LA(Limited Availability)에서 출시됩니다.
+<table>
+<thead>
+<tr>
+<th><strong>AI Assistant를 사용하여 랜딩 페이지 생성</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 AI 어시스턴트의 도움을 받아 전체 페이지 디자인, 개인화된 텍스트, 맞춤화된 시각 자료 등 랜딩 페이지에 사용할 매력적인 콘텐츠를 제작할 수 있습니다.</p>
+<img src="assets/do-not-localize/ai-lp.gif">
+<!--p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-### 새로운 기능 {#25-01-features}
 
-1월에 릴리스된 새로운 기능은 아래에 자세히 설명되어 있습니다.
+<table>
+<thead>
+<tr>
+<th><strong>브랜드 지침(베타)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 고유한 Brand 지침을 설정하여 브랜드의 시각적 및 언어적 정체성을 정의할 수 있습니다. 브랜드 기능은 제한된 고객 집합에 대한 비공개 베타로 출시됩니다. 향후 릴리스에서 모든 고객에게 점진적으로 제공될 예정입니다.</p>
+<!--p>For more information, refer to the <a href="../content-management/brands.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -77,18 +120,56 @@ ht-degree: 93%
 </tr>
 </tbody>
 </table>
+</table>
 
-### 1월 개선 사항 {#25-01-improvements}
 
-1월에 발표된 개선 사항은 아래에 나열되어 있습니다.
+### 개선 사항 {#25-02-improvements}
 
-**의사 결정**
+아래의 개선 사항은 2월 업데이트와 함께 제공됩니다.
 
-* 이제 Decisioning에서 항목 카탈로그의 스키마를 편집할 때 개체 데이터 유형을 지원합니다. [자세히 보기](../experience-decisioning/catalogs.md)
+* **여정** - 이제 관리 섹션에서 API 호출을 전송하여 사용자 지정 작업을 테스트할 수 있습니다. 이 새로운 기능을 사용하면 여정에서 사용자 지정 작업을 사용하기 전에 먼저 문제를 해결할 수 있습니다.
+
+* **TTL(Time-to-Live)** - 이번 달부터 TTL(Time-to-Live) 가드레일이 다음과 같이 새 샌드박스 및 새 조직의 Journey Optimizer 시스템 생성 데이터 세트로 롤아웃됩니다.
+
+   * 프로필 스토어의 데이터에 대해 90일
+   * 데이터 레이크의 데이터에 대해 13개월
+
+  이 변경 사항은 후속 단계에서 기존 고객 샌드박스로 롤아웃됩니다.
+
+  [이 전용 FAQ](../data/datasets-ttl.md#frequently-asked-questions)에서 이 업데이트에 대해 자세히 알아보세요.
+
+<!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
+
+* **DM** - 이제 DM 채널 구성에서 파일 라우팅에 대해 새로운 서버 유형인 데이터 랜딩 영역이 지원됩니다.
+
+**SMS** - 이제 게재, 피드백, 인바운드 및 콜백 URL을 재정의하여 다중 지역 끝점의 SMS 메시지 게재를 관리할 수 있습니다. 이를 지원하기 위해 새 필드 Override URL이 API Credentials 구성에 추가되었습니다. 이 변경 사항은 Sinch 공급자에서만 사용할 수 있습니다. [자세히 보기](../sms/sms-configuration-sinch.md)
 
 **개인화**
 
-* 새로운 날짜/시간 도우미 기능은 개인화 편집기에서 사용할 수 있습니다. [자세히 보기](../personalization/functions/dates.md)
+<!--
+* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
+
+* 사용 가능한 날짜: 2025년 1월 29일 - 새로운 날짜/시간 도우미 기능을 개인화 편집기에서 사용할 수 있습니다. [자세히 보기](../personalization/functions/dates.md)
+
+
+**전자 메일 구성** - 사용 가능한 날짜: 2025년 2월 12일
+
+* Adobe 외부의 동의를 관리하는 경우 이제 사용자 지정 구독 취소 이메일 주소와 사용자 지정 원클릭 구독 취소 URL을 이메일 채널 구성 설정의 일부로 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >이 기능은 소수의 고객을 위해 LA(Limited Availability)에서 출시됩니다.
+
+* Adobe 외부의 동의를 관리하는 경우 이제 사용자 지정 구독 취소 이메일 주소와 사용자 지정 원클릭 구독 취소 URL을 이메일 채널 구성 설정의 일부로 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+**Decisioning** - 사용 가능한 날짜: 2025년 1월 28일
+
+* 이제 Decisioning에서 항목 카탈로그의 스키마를 편집할 때 개체 데이터 유형을 지원합니다. [자세히 보기](../experience-decisioning/catalogs.md)
+
 
 ## 2024년 10월 릴리스 {#24-10-rn}
 
