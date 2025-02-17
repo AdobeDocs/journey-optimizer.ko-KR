@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: befad89c8f50c92751e5e0995e73df8427a193b3
+source-git-commit: 9b7e7a908f7f38570d35d8727a42cbcc216a1387
 workflow-type: tm+mt
-source-wordcount: '2807'
-ht-degree: 78%
+source-wordcount: '2795'
+ht-degree: 77%
 
 ---
 
@@ -127,48 +127,41 @@ ht-degree: 78%
 
 아래의 개선 사항은 2월 업데이트와 함께 제공됩니다.
 
-* **여정** - 이제 관리 섹션에서 API 호출을 전송하여 사용자 지정 작업을 테스트할 수 있습니다. 이 새로운 기능을 사용하면 여정에서 사용자 지정 작업을 사용하기 전에 먼저 문제를 해결할 수 있습니다.
+**여정** - 이제 관리 섹션에서 API 호출을 전송하여 사용자 지정 작업을 테스트할 수 있습니다. 이 새로운 기능은 여정에서 사용자 지정 작업을 사용하기 전이나 후에 문제를 해결하는 데 도움이 됩니다.
 
-* **TTL(Time-to-Live)** - 이번 달부터 TTL(Time-to-Live) 가드레일이 다음과 같이 새 샌드박스 및 새 조직의 Journey Optimizer 시스템 생성 데이터 세트로 롤아웃됩니다.
+**TTL(Time-to-Live)** - 이번 달부터 TTL(Time-to-Live) 가드레일이 다음과 같이 새 샌드박스 및 새 조직의 Journey Optimizer 시스템 생성 데이터 세트로 롤아웃됩니다.
 
-   * 프로필 스토어의 데이터에 대해 90일
-   * 데이터 레이크의 데이터에 대해 13개월
-
-  이 변경 사항은 후속 단계에서 기존 고객 샌드박스로 롤아웃됩니다.
-
-  [이 전용 FAQ](../data/datasets-ttl.md#frequently-asked-questions)에서 이 업데이트에 대해 자세히 알아보세요.
+    * 프로필 저장소의 데이터에 대해 90일
+    * 데이터 레이크의 데이터에 대해 13개월
+    
+    이 변경 사항은 후속 단계에서 기존 고객 샌드박스로 롤아웃됩니다.
+    
+    이 업데이트에 대한 자세한 내용은 [이 전용 FAQ](../data/datasets-ttl.md#frequently-asked-questions)를 참조하세요.
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **DM** - 이제 DM 채널 구성에서 파일 라우팅에 대해 새로운 서버 유형인 데이터 랜딩 영역이 지원됩니다.
+**DM** - 이제 DM 채널 구성에서 파일 라우팅에 대해 새로운 서버 유형인 데이터 랜딩 영역이 지원됩니다.
 
 **SMS** - 이제 게재, 피드백, 인바운드 및 콜백 URL을 재정의하여 다중 지역 끝점의 SMS 메시지 게재를 관리할 수 있습니다. 이를 지원하기 위해 새 필드 Override URL이 API Credentials 구성에 추가되었습니다. 이 변경 사항은 Sinch 공급자에서만 사용할 수 있습니다. [자세히 보기](../sms/sms-configuration-sinch.md)
 
-**개인화**
+**Personalization**(사용 가능한 날짜: 2025년 1월 29일) - 새 날짜/시간 도우미 함수를 개인화 편집기에서 사용할 수 있습니다. [자세히 보기](../personalization/functions/dates.md)
+
 
 <!--
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
-* 사용 가능한 날짜: 2025년 1월 29일 - 새로운 날짜/시간 도우미 기능을 개인화 편집기에서 사용할 수 있습니다. [자세히 보기](../personalization/functions/dates.md)
 
-
-**전자 메일 구성** - 사용 가능한 날짜: 2025년 2월 12일
+**전자 메일 구성**(사용 가능한 날짜: 2025년 2월 12일)
 
 * Adobe 외부의 동의를 관리하는 경우 이제 사용자 지정 구독 취소 이메일 주소와 사용자 지정 원클릭 구독 취소 URL을 이메일 채널 구성 설정의 일부로 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-  >[!AVAILABILITY]
-  >
-  >이 기능은 소수의 고객을 위해 LA(Limited Availability)에서 출시됩니다.
-
 * Adobe 외부의 동의를 관리하는 경우 이제 사용자 지정 구독 취소 이메일 주소와 사용자 지정 원클릭 구독 취소 URL을 이메일 채널 구성 설정의 일부로 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-**Decisioning** - 사용 가능한 날짜: 2025년 1월 28일
-
-* 이제 Decisioning에서 항목 카탈로그의 스키마를 편집할 때 개체 데이터 유형을 지원합니다. [자세히 보기](../experience-decisioning/catalogs.md)
+**Decisioning**(사용 가능한 날짜: 2025년 1월 28일) - 이제 Decisioning에서 항목 카탈로그의 스키마를 편집할 때 개체 데이터 형식을 지원합니다. [자세히 보기](../experience-decisioning/catalogs.md)
 
 
 ## 2024년 10월 릴리스 {#24-10-rn}
