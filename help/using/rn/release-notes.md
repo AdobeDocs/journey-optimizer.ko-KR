@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ce2c5e26ae4d17898f50f890c146ccfafc93a7c2
+source-git-commit: 501a0ad799b91c41785da44d37cc8bd5d9976740
 workflow-type: tm+mt
-source-wordcount: '2760'
+source-wordcount: '2755'
 ht-degree: 79%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 79%
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-* **이메일 구성**(사용 가능 날짜: 2025년 2월 12일) - 이제 Adobe 외부에서 동의를 관리하는 경우 이메일 채널 구성 설정의 일부로 사용자 지정 구독 취소 이메일 주소와 사용자 지정 원클릭 구독 취소 URL을 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)
+* **이메일 구성** - Adobe 외부에서 동의를 관리하는 경우 이제 사용자 지정 구독 취소 이메일 주소와 사용자 지정 원클릭 구독 취소 URL을 이메일 채널 구성 설정의 일부로 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
