@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 77a3980b2c18f14d6b7cf0461541d0b9721dab84
+source-git-commit: f25fb5ef7eb8febbe9f94f67aa16b0d8e725bbf9
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '764'
 ht-degree: 22%
 
 ---
@@ -74,13 +74,13 @@ ht-degree: 22%
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant(Beta)를 사용한 브랜드 지침</strong><br/></th>
+<th><strong>AI Assistant를 사용하는 브랜드(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 고유한 Brand 지침을 설정하여 브랜드의 시각적 및 언어적 정체성을 정의할 수 있습니다. </p>
+<p>이제 고유한 브랜드 를 설정하여 브랜드의 시각적 및 언어적 정체성을 정의할 수 있습니다. </p>
 <p>이 기능은 제한된 고객 집합에 대한 비공개 베타로 출시됩니다. 향후 릴리스에서 모든 고객에게 점진적으로 제공될 예정입니다.</p>
 <p>자세한 내용은 <a href="../content-management/brands.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
