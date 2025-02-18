@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
+source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1532'
 ht-degree: 19%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->현재 [!DNL Journey Optimizer]에서 Amazon S3, SFTP 및 Azure가 지원됩니다.
+>현재 [!DNL Journey Optimizer]에서 Amazon S3, SFTP, Azure 및 데이터 랜딩 영역이 지원됩니다.
 
 DM 메시지를 배달하기 위해 [!DNL Journey Optimizer]에서는 대상 데이터가 포함된 파일을 생성하여 서버로 내보냅니다.
 
