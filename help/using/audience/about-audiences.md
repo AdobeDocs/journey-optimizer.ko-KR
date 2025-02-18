@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 22%
@@ -30,14 +30,16 @@ ht-degree: 22%
 
 대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 컬렉션입니다. Adobe Experience Platform 세분화 서비스를 사용하여 Adobe Experience Platform에서 중앙 집중식으로 구성 및 유지 관리되며 Journey Optimizer 내에서 쉽게 액세스하여 여정 및 캠페인에서 활성화할 수 있습니다.
 
-Adobe Journey Optimizer은 대상을 만들고, 관리하고, 보강하여 마케팅 활동을 강화할 수 있는 강력한 도구를 제공합니다. Adobe Real-time Customer Data Platform과 결합하면 Journey Optimizer을 사용하여 보다 복잡한 세분화를 위해 대상에 레이어를 배치하고 다른 Adobe Experience Cloud 솔루션과 대상을 양방향으로 공유할 수 있습니다.
+Adobe Journey Optimizer은 대상을 만들고, 관리하고, 보강하여 마케팅 활동을 강화할 수 있는 강력한 도구를 제공합니다. Adobe Real-Time Customer Data Platform과 결합하면 Journey Optimizer을 사용하여 보다 복잡한 세분화를 위해 대상에 레이어를 배치하고 다른 Adobe Experience Cloud 솔루션과 대상을 양방향으로 공유할 수 있습니다.
 
 실시간 데이터 스트림 또는 일괄 업로드되면 데이터 세트가 업데이트되고 Journey Optimizer이 실시간으로 개인 사용자를 대상 및 여정으로 동적으로 이동합니다.
 
 >[!BEGINSHADEBOX]
 
 이 설명서는 [!DNL Adobe Journey Optimizer] 내의 대상자를 사용하여 작업하는 방법에 대한 정보를 제공합니다. 대상자 포털 및 대상자에 대한 자세한 내용은 Adobe Experience Platform 세그멘테이션 서비스 설명서에서 확인할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
+
 * [세그먼테이션 서비스 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+
 * [세분화 서비스 - 자주 묻는 질문](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]

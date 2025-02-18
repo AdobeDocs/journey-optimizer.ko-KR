@@ -1,18 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 규칙 세트 작업(LA)
+title: 규칙 집합 작업
 description: 규칙 세트를 만들고 적용하는 방법 알아보기
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
-badge: label="제한 공개"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1933'
 ht-degree: 12%
 
 ---
@@ -23,10 +22,6 @@ ht-degree: 12%
 >id="ajo_business_rules_rule_sets"
 >title="규칙 세트"
 >abstract="규칙 세트를 사용하여 다양한 유형의 마케팅 커뮤니케이션에 빈도 상한 설정을 적용합니다. 빈도 캡핑 설정 규칙에 따라 대상자의 일부로 향하는 여정을 제외하는 규칙 세트를 만들 수도 있습니다."
-
->[!AVAILABILITY]
->
->규칙 세트는 현재 선택한 고객 그룹에 대해 제한된 가용성으로 사용할 수 있습니다. 이 기능은 앞으로 더 많은 사용자에게 점진적으로 배포될 예정입니다. 대기자 명단에 추가하려면 계정 팀에 문의하십시오.
 
 ## 규칙 세트 시작 {#gs}
 
@@ -68,7 +63,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->최대 3개의 사용자 지정 규칙 세트를 만들 수 있습니다.
+>채널 도메인의 로컬 규칙 세트는 최대 3개까지 만들고 여정 도메인의 로컬 규칙 세트는 최대 5개까지 만들 수 있습니다.
 
 1. **[!UICONTROL 규칙 집합]** 목록에 액세스한 다음 **[!UICONTROL 규칙 집합 만들기]**&#x200B;를 클릭합니다.
 
@@ -127,6 +122,10 @@ ht-degree: 12%
 1. **[!UICONTROL 기간]** 드롭다운 목록에서 캡핑을 월별, 주별 또는 일별로 적용하려면 선택하십시오. 빈도 상한은 선택한 달력 기간을 기반으로 합니다. 해당 시간대의 시작 부분에서 재설정됩니다.
 
    ![](assets/rule-set-capping-duration.png)
+
+   >[!AVAILABILITY]
+   >
+   >&quot;일별&quot; 기간은 온디맨드만 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
    기간별 사용기간 종료일은 다음 각 호와 같다.
 
@@ -193,7 +192,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->규칙 또는 규칙 세트가 완전히 활성화되려면 최대 10분이 걸릴 수 있습니다. 규칙을 적용하려면 메시지를 수정하거나 여정을 다시 게시할 필요가 없습니다.
+>규칙 또는 규칙 세트가 완전히 활성화되려면 최대 20분이 걸릴 수 있습니다. 규칙을 적용하려면 메시지를 수정하거나 여정을 다시 게시할 필요가 없습니다.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -265,7 +264,7 @@ Learn more about permissions in [this section](../administration/high-low-permis
 
    ![](assets/rule-set-schedule-campaign.png)
 
-1. [Customer Journey Analytics 보고서](../reports/report-gs-cja.md)와 [실시간 보고서](../reports/live-report.md)에서 배달에서 제외된 프로필 수를 볼 수 있습니다. 이 경우 사용자가 배달에서 제외되는 가능한 이유로 빈도 규칙이 나열됩니다.
+1. [Customer Journey Analytics 보고서](../reports/report-gs-cja.md)와 [실시간 보고서](../reports/live-report.md)에서 배달에서 제외된 프로필 수를 볼 수 있습니다. 여기서 사용자가 배달에서 제외되는 가능한 이유로 빈도 규칙이 나열됩니다.
 
 >[!NOTE]
 >

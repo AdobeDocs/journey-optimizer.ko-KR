@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
+source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 21%
+source-wordcount: '1529'
+ht-degree: 19%
 
 ---
 
@@ -142,7 +142,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 1. 구성의 이름을 설정합니다.
 
-1. DM 파일을 내보내는 데 사용할 Azure **[!UICONTROL 서버 유형]**&#x200B;을(를) 선택하십시오.
+1. DM 파일을 내보내는 데 사용할 **[!UICONTROL 서버 형식]**(으)로 Azure를 선택하십시오.
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
@@ -163,6 +163,28 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 1. **[!UICONTROL 제출]**&#x200B;을 선택합니다. 파일 라우팅 구성이 **[!UICONTROL 활성]** 상태로 만들어졌습니다. 이제 [DM 구성](#direct-mail-surface)에서 사용할 준비가 되었습니다.
 
    **[!UICONTROL 초안으로 저장]**&#x200B;을 선택하여 파일 라우팅 구성을 만들 수도 있지만 **[!UICONTROL 활성]**&#x200B;이 될 때까지 구성에서 선택할 수 없습니다.
+
+>[!TAB 데이터 랜딩 영역]
+
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL DM 설정]** > **[!UICONTROL 파일 라우팅]** 메뉴에 액세스한 다음 **[!UICONTROL 라우팅 구성 만들기]**&#x200B;를 클릭합니다.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. 구성의 이름을 설정합니다.
+
+1. DM 파일을 내보내는 데 사용할 **[!UICONTROL 서버 형식]**(으)로 데이터 랜딩 영역을 선택하십시오.
+
+   ![](assets/file-routing-config-type-dlz.png){width="800" align="center"}
+
+1. 파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오. <!--To find it, ...-->
+
+   ![](assets/file-routing-config-dlz-detail.png)
+
+1. **[!UICONTROL 제출]**&#x200B;을 선택합니다. 파일 라우팅 구성이 **[!UICONTROL 활성]** 상태로 만들어졌습니다. 이제 [DM 구성](#direct-mail-surface)에서 사용할 준비가 되었습니다.
+
+   **[!UICONTROL 초안으로 저장]**&#x200B;을 선택하여 파일 라우팅 구성을 만들 수도 있지만 **[!UICONTROL 활성]**&#x200B;이 될 때까지 구성에서 선택할 수 없습니다.
+
+[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
 
 >[!ENDTABS]
 

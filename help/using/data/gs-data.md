@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer의 데이터 시작
+title: Journey Optimizer에서 데이터 관리 시작
 description: Journey Optimizer의 데이터 작업 방법 알아보기
 feature: Journeys
 topic: Content Management
@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: 데이터, 관리, 플랫폼
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# [!DNL Journey Optimizer]의 데이터 관리 시작 {#about-data}
+# 데이터 관리 시작 {#about-data}
 
 최종 고객 데이터의 풍부성과 적용 범위야말로 모든 고객 경험 솔루션의 강력함과 성공을 결정하는 요소입니다. 이 데이터는 불가침의 영역이며, 어떤 고객에게든 최고의 가치를 가지고 있습니다. 이제 기술 선택에 처음부터 데이터 관리 기능에 대한 엄격한 평가가 기본적으로 제공됩니다.
 

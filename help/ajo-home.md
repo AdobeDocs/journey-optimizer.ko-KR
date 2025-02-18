@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 8b0dc1ba58c856cc3a0864e408415c87e10801cf
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 92%
+source-wordcount: '348'
+ht-degree: 87%
 
 ---
 
@@ -20,9 +20,9 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB 2024년 10월 릴리스]
+>[!TAB 25년 2월 릴리스]
 
-이메일 콘텐츠 잠금, Movable Ink와의 통합, 코드 기반 및 여정의 웹 경험을 포함한 10월 릴리스가 공개되었습니다. 이전에는 LA(제한된 가용성)로 제공되었던 이메일 구성 개인화, 승인 정책, 콘텐츠 실험, 향상된 보고 환경, 다국어 콘텐츠 등의 기능을 이제 모든 사용자가 사용할 수 있습니다.
+2월 릴리스가 공개되었습니다! 릴리스 정보에서 새로운 기능 및 개선 사항을 확인하십시오.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 

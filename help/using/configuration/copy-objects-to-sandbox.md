@@ -8,17 +8,17 @@ topic: Content Management
 role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1070'
 ht-degree: 4%
 
 ---
 
+# 다른 샌드박스로 개체 내보내기 {#copy-to-sandbox}
 
-# 다른 샌드박스로 Journey Optimizer 개체 복사 {#copy-to-sandbox}
-
-샌드박스 도구 를 사용하면 패키지 내보내기 및 가져오기를 활용하여 여러 샌드박스 간에 여정, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
+패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
 
 이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)를 참조하세요.
 
@@ -88,13 +88,13 @@ Journey Optimizer을 사용하면 여정, 콘텐츠 템플릿 및 조각을 다�
 >
 >여정 내보내기의 경우 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 스키마, 이벤트 및 작업)도 복사합니다. 여정 내보내기에 대한 자세한 내용은 [이 섹션](../building-journeys/copy-to-sandbox.md)을 참조하세요.
 
-## 내보낼 패키지 Publish {#publish}
+## 내보낼 패키지 게시 {#publish}
 
 패키지를 내보낼 준비가 되면 다음 단계에 따라 게시합니다.
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 샌드박스]** 메뉴로 이동하여 **패키지** 탭을 선택합니다.
 
-1. 내보낼 패키지를 열고 내보낼 개체를 선택한 다음 **Publish**&#x200B;을(를) 클릭합니다.
+1. 내보낼 패키지를 열고 내보낼 개체를 선택한 다음 **게시**&#x200B;를 클릭합니다.
 
    이 예제에서는 여정, 콘텐츠 템플릿 및 조각을 내보내려고 합니다.
 

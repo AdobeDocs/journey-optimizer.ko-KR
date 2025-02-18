@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 비즈니스 규칙
-description: 빈도 규칙을 정의하는 방법 알아보기
+title: 비즈니스 규칙 구성
+description: 비즈니스 빈도 규칙을 정의하는 방법 알아보기
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1267'
 ht-degree: 14%
 
 ---
 
-# 비즈니스 규칙 {#frequency-rules}
+# 비즈니스 규칙 구성 {#frequency-rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"

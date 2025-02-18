@@ -3,20 +3,21 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 개인화(Beta)에 Adobe Experience Platform 데이터 사용
 description: 개인화에 Adobe Experience Platform 데이터를 사용하는 방법을 알아봅니다.
+badge: label="Beta" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 2%
 
 ---
 
-# 개인화(Beta)에 Adobe Experience Platform 데이터 사용 {#aep-data}
+# 개인화에 Adobe Experience Platform 데이터 사용{#aep-data}
 
 >[!AVAILABILITY]
 >
@@ -71,7 +72,7 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 * **Action**&#x200B;을(를) 사용하거나 사용하지 않도록 설정합니다.
 * 개발자 콘솔에서 **액세스 토큰**&#x200B;을(를) 검색할 수 있습니다.
 * **API 키**&#x200B;는 개발자 콘솔에서 검색할 수 있습니다.
-* **IMS 조직 ID**&#x200B;이(가) Adobe 조직입니다.
+* **IMS 조직 ID**&#x200B;은(는) Adobe 조직입니다.
 * **샌드박스 이름**&#x200B;은(는) 데이터 세트가 있는 샌드박스 이름입니다(예: prod, dev 등).
 
 >[!NOTE]
@@ -87,7 +88,7 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
 ## 개인화를 위한 데이터 세트 활용 {#leverage}
 
-API 호출을 사용하여 조회 개인화에 대한 데이터 집합을 활성화하면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer](으)로 개인화할 수 있습니다.
+API 호출을 사용하여 조회 개인화에 대한 데이터 집합을 활성화하면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer]&#x200B;(으)로 개인화할 수 있습니다.
 
 1. 메시지와 같은 개인화를 정의할 수 있는 모든 컨텍스트에서 사용할 수 있는 개인화 편집기를 엽니다. [개인화 편집기로 작업하는 방법을 알아보세요](../personalization/personalization-build-expressions.md)
 

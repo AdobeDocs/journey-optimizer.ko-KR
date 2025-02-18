@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2167'
 ht-degree: 97%
 
 ---
@@ -313,7 +313,9 @@ ht-degree: 97%
       + [AI를 사용한 SMS 생성](using/content-management/generative-sms.md)
       + [AI를 사용한 웹 생성](using/content-management/generative-web.md)
       + [AI를 사용한 콘텐츠 실험](using/content-management/generative-experimentation.md)
+      + [AI가 있는 랜딩 페이지](using/content-management/generative-lp.md)
       + [AI 어시스턴트 사용 사례](using/content-management/generative-uc.md)
+      + [브랜드 생성 및 관리(Beta)](using/content-management/brands.md)
    + 다국어 콘텐츠 작업{#content-multilingual}
       + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
       + [로케일 만들기](using/content-management/multilingual-locale.md)
@@ -376,7 +378,7 @@ ht-degree: 97%
          + [세그먼트 정의](using/audience/creating-a-segment-definition.md)
          + [대상자 구성](using/audience/get-started-audience-orchestration.md)
          + [사용자 정의 업로드](using/audience/custom-upload.md)
-         + [Federated Audience 구성(제한된 가용성)](using/audience/federated-audience-composition.md)
+         + [페더레이션된 대상자 구성](using/audience/federated-audience-composition.md)
       + [캠페인 및 여정에서의 대상자 활성화](using/audience/target-audiences.md)
       + [데이터 보강 속성 활용](using/audience/enrichment-attributes.md)
    + 프로필{#profiles}
@@ -658,7 +660,7 @@ ht-degree: 97%
    + [아카이브 지원](using/configuration/archiving-support.md)
    + [실행 주소 변경](using/configuration/primary-email-addresses.md)
    + [비즈니스 규칙 구성](using/configuration/frequency-rules.md)
-   + [규칙 세트 작업(LA)](using/configuration/rule-sets.md)
+   + [규칙 집합 작업](using/configuration/rule-sets.md)
    + 여정 구성 {#configure-journeys}
       + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
       + 외부 시스템과 통합 {#external-systems}
@@ -681,6 +683,7 @@ ht-degree: 97%
       + 작업 구성 {#action-journeys}
          + [작업 정보](using/action/action.md)
          + [작업 구성](using/action/about-custom-action-configuration.md)
+         + [사용자 지정 작업 문제 해결](using/action/troubleshoot-custom-action.md)
          + [Adobe Campaign Standard 통합](using/action/acs-action.md)
          + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
          + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)

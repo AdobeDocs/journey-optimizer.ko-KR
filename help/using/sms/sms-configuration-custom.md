@@ -4,17 +4,18 @@ product: journey optimizer
 title: 사용자 정의 공급자 구성
 description: 사용자 지정 공급자를 통해 Journey Optimizer에서 텍스트 메시지를 보내도록 환경을 구성하는 방법에 대해 알아봅니다
 feature: SMS, Channel Configuration
+badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
-# 사용자 정의 공급자 구성(Beta) {#sms-configuration-custom}
+# 사용자 정의 공급자 구성 {#sms-configuration-custom}
 
 >[!AVAILABILITY]
 >
@@ -22,7 +23,7 @@ ht-degree: 3%
 >
 >이 Beta은 옵트인/옵트아웃 동의 관리 및 게재 보고에 대한 인바운드 메시지를 지원하지 않습니다.
 
-Adobe으로 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, Infobip, Twilio)를 사용하여 Journey Optimizer에서 메시지를 보내려면 다음 단계를 수행합니다.
+Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, Infobip, Twilio)를 사용하여 Journey Optimizer에서 메시지를 보내려면 다음 단계를 수행합니다.
 
 1. 왼쪽 레일에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]**(으)로 이동한 다음 **[!UICONTROL API 자격 증명]** 메뉴를 선택합니다.
 
@@ -60,6 +61,6 @@ API 자격 증명을 만들고 구성한 후에는 SMS 메시지에 대한 채�
 
 구성하고 나면 메시지 작성, 개인화, 링크 추적 및 보고와 같은 기본 제공 채널 기능을 모두 활용할 수 있습니다.
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431625)

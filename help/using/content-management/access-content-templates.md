@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 5%
 
 ---
@@ -48,19 +48,19 @@ ht-degree: 5%
 >
 >템플릿을 편집하거나 삭제할 때 이 템플릿을 사용하여 만든 콘텐츠가 포함된 캠페인 또는 여정은 영향을 받지 않습니다.
 
-## 템플릿을 썸네일로 표시 {#template-thumbnails}
+## [!BADGE 제한된 가용성]{type=Informative} 템플릿을 썸네일로 표시 {#template-thumbnails}
 
 각 템플릿을 썸네일로 표시하려면 **[!UICONTROL 표 보기]** 모드를 선택하십시오.
 
 >[!AVAILABILITY]
 >
->이 기능은 소규모 고객을 위해 LA(Limited Availability)에서 출시됩니다.
+이 기능은 소수의 고객을 위해 LA(Limited Availability)에서 출시됩니다.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
->현재 HTML 유형 이메일 콘텐츠 템플릿에 대해서만 적절한 썸네일을 생성할 수 있습니다.
+현재 HTML 유형에 대해서만 적절한 썸네일을 생성할 수 있습니다. email 콘텐츠 템플릿.
 
 콘텐츠를 업데이트할 때 변경 사항이 썸네일에 반영되기 전에 몇 초 정도 기다려야 할 수 있습니다.
 

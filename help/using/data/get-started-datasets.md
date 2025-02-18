@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 데이트 세트 시작
+title: 데이터 세트 시작
 description: Adobe Journey Optimizer에서 Adobe Experience Platform 데이터 세트를 사용하는 방법 알아보기
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
-# 데이트 세트 시작 {#datasets-gs}
+# 데이터 세트 시작 {#datasets-gs}
 
 Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다. 
 
@@ -37,7 +37,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 >[!NOTE]
 >
->2024년 11월 1일부터 스트리밍 세분화는 더 이상 Journey Optimizer 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트 사용을 지원하지 않습니다. 또한 2025년 2월부터 TTL(Time-to-Live) 가드레일이 Journey Optimizer 시스템 생성 데이터 세트로 배포됩니다. [자세히 알아보기](datasets-ttl.md)
+>2024년 11월 1일부터 스트리밍 세분화에서는 더 이상 Journey Optimizer 추적 및 피드백 데이터 세트의 이벤트 전송 및 열기를 지원하지 않습니다. 또한 2025년 2월부터 TTL(Time-to-Live) 가드레일이 Journey Optimizer 시스템 생성 데이터 세트에 배포됩니다. [자세히 알아보기](datasets-ttl.md)
 
 데이터 세트의 이름을 선택하여 [데이터 세트] 활동 화면에 액세스하고 선택한 데이터 세트의 세부 정보를 확인합니다. 활동 탭에는 메시지 사용률을 시각화한 그래프와 성공/실패한 일괄 처리 집합 목록이 있습니다.
 

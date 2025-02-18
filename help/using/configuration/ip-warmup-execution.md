@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
+source-git-commit: 0c128feac32baff14f1b71aed688e3bde4c67d35
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2634'
 ht-degree: 11%
 
 ---
@@ -79,6 +79,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >[!NOTE]
       >
       >[IP 준비 계획 템플릿](ip-warmup-plan.md#prepare-file)에 추가된 사용자 지정 도메인 그룹만 제외할 수 있습니다. 그렇지 않으면 제외하려는 사용자 지정 도메인 그룹으로 템플릿을 업데이트한 다음 [계획을 다시 업로드](#re-upload-plan)합니다.
+
+      >[!CAUTION]
+      >
+      >IP 웜업 플랜이 실행되면 IP 웜업 캠페인에 사용된 전자 메일 채널 [구성](channel-surfaces.md)에서 [실행 주소](../email/email-settings.md#execution-address)을(를) 업데이트하면 도메인 제외가 실패할 수 있습니다. IP 준비 계획이 시작된 후에는 이메일 채널 구성을 편집하지 마십시오.
 
    1. **[!UICONTROL 프로필 제외를 위한 캠페인]** 섹션에서 현재 단계에서 제외할 대상자를 위한 캠페인을 선택합니다.
 

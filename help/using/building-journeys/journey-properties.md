@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
+source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2261'
 ht-degree: 18%
 
 ---
@@ -285,8 +285,8 @@ ht-degree: 18%
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. **레이블**&#x200B;을(를) 입력하고 종료 기준이 **이벤트** 또는 **대상자**&#x200B;를 기반으로 하는지 선택합니다.
 
-이벤트를 기반으로 한 종료 기준의 경우 단일 이벤트만 선택합니다.
-대상을 기반으로 한 종료 기준에 대해 대상을 선택합니다. 참고: 대상을 사용하여 종료 기준을 적용하려면 최대 10분이 걸릴 수 있습니다.
+* 예를 들어 앱 다운로드 또는 장바구니에 제품 추가와 같은 이벤트를 기반으로 한 종료 기준의 경우 단일 이벤트만 선택합니다.
+* 예를 들어 고객이 지난 24시간 동안 구매했는지 확인하는 대상과 같은 대상을 기반으로 한 종료 기준의 경우 대상을 선택합니다. 참고: 대상을 사용하여 종료 기준을 적용하려면 최대 10분이 걸릴 수 있습니다.
 
 여러 종료 기준을 추가할 수 있습니다.
 

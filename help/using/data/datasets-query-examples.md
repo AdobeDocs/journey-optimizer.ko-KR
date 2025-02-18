@@ -9,24 +9,24 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 데이터 세트, 최적화 도구, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
 
-# 데이터 세트 사용 사례 {#tracking-datasets}
+# 쿼리 예 {#query-examples}
 
 이 페이지에서는 Adobe Journey Optimizer 데이터 세트 목록 및 관련 사용 사례를 확인할 수 있습니다.
 
-[전자 메일 추적 경험 이벤트 데이터 세트](#email-tracking-experience-event-dataset)
-[메시지 피드백 이벤트 데이터 세트](#message-feedback-event-dataset)
-[푸시 추적 경험 이벤트 데이터 세트](#push-tracking-experience-event-dataset)
-[여정 단계 이벤트](#journey-step-event)
-[이벤트 데이터 세트 결정](#ode-decisionevents)
-[BCC 피드백 이벤트 데이터 세트](#bcc-feedback-event-dataset)
-[엔티티 데이터 세트](#entity-dataset)
+* [이메일 추적 경험 이벤트 데이터 세트](#email-tracking-experience-event-dataset)
+* [메시지 피드백 이벤트 데이터 세트](#message-feedback-event-dataset)
+* [푸시 추적 경험 이벤트 데이터 세트](#push-tracking-experience-event-dataset)
+* [여정 단계 이벤트](#journey-step-event)
+* [의사 결정 이벤트 데이터 세트](#ode-decisionevents)
+* [BCC 피드백 이벤트 데이터 세트](#bcc-feedback-event-dataset)
+* [엔티티 데이터 세트](#entity-dataset)
 
 각 스키마의 전체 필드와 속성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko){target="_blank"}을 찾아봅니다.
 

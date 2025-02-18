@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, 풀, 전달성
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 84cbaebc9c274f620ee707cb0d9320673ae24b71
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 12%
+source-wordcount: '427'
+ht-degree: 11%
 
 ---
 
@@ -31,9 +31,9 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
    전달성 컨설턴트와 함께 사용할 도메인 및 IP를 식별합니다. [이 섹션](../email/email-settings.md#subdomains-and-ip-pools)에서 전자 메일 구성에서 선택하는 방법을 알아보세요.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >IP 준비 캠페인의 경우 이메일 구성에서 [실행 주소](../email/email-settings.md#execution-address)를 변경하더라도 샌드박스 수준에서 설정된 기본 필드가 계속 사용됩니다. [자세히 알아보기](primary-email-addresses.md)
+   >IP 준비 계획이 [시작](ip-warmup-execution.md)된 후에는 전자 메일 채널 구성을 편집하지 마십시오.
 
 1. 예약된 마케팅 [캠페인](../campaigns/create-campaign.md)을(를) 만들고 [이메일](../email/create-email.md#create-email-journey-campaign) 작업을 선택합니다.
 

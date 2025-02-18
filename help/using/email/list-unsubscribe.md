@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '765'
 ht-degree: 97%
 
 ---
@@ -64,10 +64,6 @@ ht-degree: 97%
 >id="ajo_email_config_unsubscribe_custom"
 >title="구독 취소 데이터 관리 방법 정의"
 >abstract="**Adobe 관리**: 동의 데이터는 Adobe 시스템 내에서 관리합니다.<br>**고객 관리**: 동의 데이터는 외부 시스템에서 사용자가 관리하며, 사용자가 시작하지 않는 한 Adobe 시스템에서 동의 데이터의 동기화가 업데이트되지 않습니다."
-
->[!AVAILABILITY]
->
->이 기능은 소수의 고객을 위해 LA(Limited Availability)에서 출시됩니다.
 
 Adobe 외부에서 동의를 관리하는 경우 **[!UICONTROL 고객 관리]** 옵션을 선택하여 사용자 정의 구독 취소 이메일 주소와 고유한 원클릭 구독 취소 URL을 입력합니다.
 

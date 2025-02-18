@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="제한 공개"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '920'
 ht-degree: 23%
 
 ---
@@ -71,6 +71,10 @@ ht-degree: 23%
       1. **[!UICONTROL 최대]** 필드에서 프로필이 입력할 수 있는 최대 여정 수를 설정합니다.
       1. **[!UICONTROL 기간]** 필드에서 고려할 기간을 정의합니다. 기간은 UTC 시간대를 기반으로 합니다. 예를 들어 일별 상한은 자정(UTC)에 재설정됩니다.
 
+     >[!AVAILABILITY]
+     >
+     >&quot;일별&quot; 기간은 온디맨드만 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+
      이 예제에서는 프로필이 한 달에 &quot;5&quot;개가 넘는 여정을 입력할 수 없도록 제한하려고 합니다.
 
      ![](assets/journey-capping-entry-example.png)
@@ -108,7 +112,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="여정에 규칙 세트 적용"
->abstract="규칙 세트를 적용하여 빈도 설정 규칙에 따라 대상자의 일부에서 이 여정을 제외합니다."
+>abstract="규칙 세트를 적용하여 빈도 상한 설정 규칙에 따라 대상자의 일부에서 이 여정을 제외합니다."
 
 여정에 최대 가용량 규칙을 적용하려면 여정에 액세스하여 해당 속성을 엽니다. **[!UICONTROL 최대 가용량 규칙]** 드롭다운에서 관련 규칙 집합을 선택합니다. 규칙이 활성화되면 여정 세트에 정의된 최대 가용량 규칙이 적용됩니다.
 
