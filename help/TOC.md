@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2174'
 ht-degree: 97%
 
 ---
@@ -452,6 +452,7 @@ ht-degree: 97%
    + [결정 기능 시작](using/experience-decisioning/gs-decision.md)
    + 의사 결정 {#experience-decisioning}
       + [결정 시작](using/experience-decisioning/gs-experience-decisioning.md)
+      + [보호 및 제한 사항 결정](using/experience-decisioning/decisioning-guardrails.md)
       + API 참조{#api-reference}
          + 결정 항목{#decision-items}
             + [결정 항목 만들기](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -486,6 +487,7 @@ ht-degree: 97%
    + 의사 결정 관리 {#offer-decisioning}
       + 의사 결정 관리 시작 {#get-started-decision}
          + [의사 결정 관리 정보](using/offers/get-started/starting-offer-decisioning.md)
+         + [관리 보호 및 제한 사항 결정](using/offers/decision-management-guardrails.md)
          + [사용자 인터페이스](using/offers/get-started/user-interface.md)
          + [오퍼를 만들고 관리하는 주요 단계](using/offers/offer-library/key-steps.md)
          + [의사 결정에 사용자 정의 업로드 대상자 활용](using/offers/custom-upload-decisioning.md)

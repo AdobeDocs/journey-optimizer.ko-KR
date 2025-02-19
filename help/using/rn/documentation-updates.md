@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '6045'
+source-wordcount: '6064'
 ht-degree: 96%
 
 ---
@@ -25,6 +25,9 @@ ht-degree: 96%
 * **[!UICONTROL 전송 시간 최적화]** 및 관련 FAQ에 대한 설명서를 업데이트 및 개선하고 새 전용 페이지로 이동했습니다. [자세히 보기](../building-journeys/send-time-optimization.md)
 * 여정 이벤트에 대한 새 보호 기능이 추가되었습니다. [자세히 보기](../start/guardrails.md#events-g)
 * 기본 제공 채널 작업 페이지가 재구성되었습니다. [자세히 보기](../building-journeys/journeys-message.md)
+* 의사 결정 및 의사 결정 관리 섹션에 보호 및 제한 사항이 추가되었습니다.
+   * [보호 및 제한 사항 결정](../experience-decisioning/decisioning-guardrails.md)
+   * [의사 결정 관리 보호 및 제한 사항](../offers/decision-management-guardrails.md)
 
 ## 2025년 1월 {#jan-2025}
 
