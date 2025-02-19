@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: e798d413a4962bb037ff3cae595bcd87f4121e4f
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 3%
@@ -140,7 +140,7 @@ ID 네임스페이스를 선택하고 위의 형식을 기반으로 CSV 파일�
 1. **[!UICONTROL 프로필 업데이트]** 작업 활동을 추가합니다.
 1. 스키마, **testProfiles** 필드, 데이터 세트를 선택하고 값을 **True**(으)로 설정하십시오. 이렇게 하려면 **[!UICONTROL VALUE]** 필드에서 오른쪽의 **Pen** 아이콘을 클릭하고 **[!UICONTROL 고급 모드]**&#x200B;를 선택한 다음 **true**을(를) 입력합니다.
    ![](assets/test-profiles-26.png)
-1. **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 대상]** 섹션에서 프로필이 올바르게 업데이트되었는지 확인합니다.
    ![](assets/test-profiles-28.png)
 
@@ -174,9 +174,12 @@ Adobe Experience Platform에서는 다른 프로필 필드가 포함된 csv 파�
    ![](assets/test-profiles-21.png)
 
 테스트 프로필이 추가되었으며 이제 여정 테스트 시 사용할 수 있습니다. [이 섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
+
+
 >[!NOTE]
 >
 > csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}를 참조하세요.
+
 
 ## API 호출을 사용하여 테스트 프로필 만들기{#create-test-profiles-api}
 
@@ -231,7 +234,7 @@ curl -X POST \
 }'
 ```
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 테스트 프로필을 만드는 방법을 알아봅니다.
 
