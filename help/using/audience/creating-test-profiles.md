@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: e798d413a4962bb037ff3cae595bcd87f4121e4f
+source-git-commit: 05a882d3dec6b6f62eac432d14bb9ac9ad48257d
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 3%
@@ -178,7 +178,8 @@ Adobe Experience Platform에서는 다른 프로필 필드가 포함된 csv 파�
 
 >[!NOTE]
 >
-> csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}를 참조하세요.
+>csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}를 참조하세요.
+>
 
 
 ## API 호출을 사용하여 테스트 프로필 만들기{#create-test-profiles-api}
