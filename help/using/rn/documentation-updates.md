@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '6064'
-ht-degree: 96%
+source-wordcount: '6117'
+ht-degree: 95%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 96%
 * 의사 결정 및 의사 결정 관리 섹션에 보호 및 제한 사항이 추가되었습니다.
    * [보호 및 제한 사항 결정](../experience-decisioning/decisioning-guardrails.md)
    * [의사 결정 관리 보호 및 제한 사항](../offers/decision-management-guardrails.md)
+* 의사 결정 관리 설명서에 컨텍스트 데이터에 대한 새 섹션이 추가되었습니다. 의사 결정 엔진에서 컨텍스트 데이터를 활용하는 방법에 대한 정보를 제공합니다. 예를 들어 의사 결정 요청이 이루어질 때 현재 날씨가 ≥80도여야 하는 의사 결정 규칙을 디자인하는 데 도움이 됩니다. [자세히 보기](../offers/context-data.md)
 
 ## 2025년 1월 {#jan-2025}
 

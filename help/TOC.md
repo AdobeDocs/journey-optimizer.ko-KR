@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '2174'
-ht-degree: 97%
+source-wordcount: '2191'
+ht-degree: 96%
 
 ---
 
@@ -521,6 +521,10 @@ ht-degree: 97%
          + [데이터 수집 시작하기](using/offers/data-collection/data-collection.md)
          + [이벤트를 수집할 데이터 세트 만들기](using/offers/data-collection/create-dataset.md)
          + [이벤트 캡처 구성](using/offers/data-collection/schema-requirement.md)
+      + 컨텍스트 데이터 {#context-data} 활용
+         + [컨텍스트 데이터 시작](using/offers/context-data.md)
+         + [컨텍스트 데이터 및 Edge Decisioning 요청](using/offers/context-data-edge.md)
+         + [컨텍스트 데이터 및 의사 결정 요청](using/offers/context-data-decisioning.md)
       + 의사 결정 관리 보고서 만들기 {#create-reports}
          + [의사 결정 관리 이벤트 작업](using/offers/reports/get-started-events.md)
          + [이벤트 XDM 필드 액세스](using/offers/reports/xdm-fields.md)

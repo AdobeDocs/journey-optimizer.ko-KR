@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '767'
 ht-degree: 7%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
-> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}과(와) 함께 작업하려면 조직에 대해 [!DNL Assets Essentials]을(를) 배포하고 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 포함되어 있는지 확인해야 합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}에 대해 자세히 알아보세요.
+> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}을(를) 사용하여 작업하려면 조직에 대해 [!DNL Assets Essentials]을(를) 배포하고 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 속하는지 확인해야 합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL 자산 라이브러리]** 옵션을 선택하십시오.
 
@@ -88,11 +88,11 @@ ht-degree: 7%
 
 ### HTML 또는 JSON 파일 추가 {#html-json}
 
-선택한 배치가 HTML 유형인 경우 [Adobe Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}에서 제공되는 HTML 또는 JSON 콘텐츠를 추가할 수도 있습니다.
+선택한 배치가 HTML 유형인 경우 [Adobe Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}에서 제공되는 HTML 또는 JSON 컨텐츠를 추가할 수도 있습니다.
 
-예를 들어, [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}에서 HTML 전자 메일 템플릿을 만들었고, 해당 파일을 오퍼 콘텐츠에 사용하려고 합니다. 새 파일을 만드는 대신 템플릿을 **자산 라이브러리**&#x200B;에 업로드하여 오퍼의 표시에서 다시 사용할 수 있습니다.
+예를 들어, [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}에서 HTML 이메일 템플릿을 만들었고, 이 파일을 오퍼 콘텐츠에 사용하려고 합니다. 새 파일을 만드는 대신 템플릿을 **자산 라이브러리**&#x200B;에 업로드하여 오퍼의 표시에서 다시 사용할 수 있습니다.
 
-표시에서 콘텐츠를 다시 사용하려면 [이 섹션](#images)에 설명된 대로 **자산 라이브러리**&#x200B;를 찾은 다음 선택한 HTML 또는 JSON 파일을 선택하십시오.
+표현에서 콘텐츠를 다시 사용하려면 [이 섹션](#images)에 설명된 대로 **자산 라이브러리**&#x200B;를 찾은 다음 선택한 HTML 또는 JSON 파일을 선택하십시오.
 
 ![](../assets/offer-browse-asset-library-json.png)
 
@@ -140,7 +140,7 @@ ht-degree: 7%
 
 컨텍스트 데이터가 [Edge decisioning](../api-reference/offer-delivery-api/edge-decisioning-api.md) 호출에서 전달되면 이러한 데이터를 활용하여 표현을 동적으로 개인화할 수 있습니다. 예를 들어 결정이 내려지는 시점의 현재 날씨 상태와 같은 실시간 요인을 기반으로 오퍼 표시를 조정할 수 있습니다.
 
-이렇게 하려면 `profile.timeSeriesEvents.` 네임스페이스를 사용하여 컨텍스트 데이터 변수를 표현 콘텐츠 내에 직접 통합합니다.
+오퍼 표현에 컨텍스트 데이터를 사용하려면 `profile.timeSeriesEvents.` 네임스페이스를 사용하여 컨텍스트 데이터 변수를 표현 컨텐츠 내에 직접 통합하십시오.
 
 다음은 사용자의 운영 체제를 기반으로 오퍼의 표시를 개인화하는 데 사용되는 구문 예입니다.
 

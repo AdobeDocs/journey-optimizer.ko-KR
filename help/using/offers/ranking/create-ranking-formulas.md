@@ -5,11 +5,12 @@ feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: baf76d3c571c62105c1f0a59e07ca70e61a83cc6
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 3%
+source-wordcount: '595'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +38,7 @@ ht-degree: 3%
 
 1. 공식 이름, 설명 및 공식을 지정합니다.
 
-   이 예에서는 실제 날씨가 더운 경우 &quot;hot&quot; 속성을 가진 모든 오퍼의 우선 순위를 높이려고 합니다. 이를 위해 **contextData.weather=hot**&#x200B;이(가) 의사 결정 호출에서 전달되었습니다.
+   이 예에서는 실제 날씨가 더운 경우 &quot;hot&quot; 속성을 가진 모든 오퍼의 우선 순위를 높이려고 합니다. 이를 위해 **contextData.weather=hot**&#x200B;이(가) 의사 결정 호출에서 전달되었습니다. [컨텍스트 데이터로 작업하는 방법을 알아봅니다](../context-data.md)
 
    ![](../assets/ranking-syntax.png)
 
@@ -105,42 +106,6 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### 컨텍스트 데이터를 기반으로 특정 오퍼 속성으로 오퍼 증폭
-
-의사 결정 호출에서 전달되는 컨텍스트 데이터를 기반으로 특정 오퍼를 증폭합니다. 예를 들어 결정 호출에서 `contextData.weather=hot`이(가) 전달되면 `attribute=hot`을(를) 사용하는 모든 오퍼의 우선 순위를 높여야 합니다.
-
-**순위 수식:**
-
-```
-if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
-```
-
-Decisioning API를 사용할 때 컨텍스트 데이터가 아래 예와 같이 요청 본문의 프로필 요소에 추가됩니다.
-
-**요청 본문의 코드 조각:**
-
-```
-"xdm:profiles": [
-{
-    "xdm:identityMap": {
-        "crmid": [
-            {
-            "xdm:id": "CRMID1"
-            }
-        ]
-    },
-    "xdm:contextData": [
-        {
-            "@type":"_xdm.context.additionalParameters;version=1",
-            "xdm:data":{
-                "xdm:weather":"hot"
-            }
-        }
-    ]
- }],
-```
-
 ### 제공 중인 제품을 구매하려는 고객 성향을 기반으로 오퍼를 증폭
 
 고객 성향 점수를 기반으로 오퍼에 대한 점수를 높일 수 있습니다.
@@ -169,14 +134,100 @@ Decisioning API를 사용할 때 컨텍스트 데이터가 아래 예와 같이 
 }
 ```
 
-오퍼에는 점수의 범주와 일치하는 *propensityType*&#x200B;에 대한 특성이 포함됩니다.
+### 컨텍스트 데이터를 기반으로 오퍼 증폭 {#context-data}
 
-![](../assets/ranking-example-propensityType.png)
+[!DNL Journey Optimizer]을(를) 사용하면 호출에서 전달되는 컨텍스트 데이터를 기반으로 특정 오퍼를 늘릴 수 있습니다. 예를 들어 `contextData.weather=hot`이(가) 전달되면 `attribute=hot`이(가) 있는 모든 오퍼의 우선 순위를 높여야 합니다. **Edge Decisioning** 및 **Decisioning** API를 사용하여 컨텍스트 데이터를 전달하는 방법에 대한 자세한 내용은 [이 섹션](../context-data.md)을 참조하세요.
 
-그러면 순위 공식에서 각 오퍼의 우선 순위를 해당 *성향 유형*&#x200B;에 대한 고객 *성향 점수*&#x200B;와 동일하게 설정할 수 있습니다. 점수가 없으면 오퍼에 설정된 정적 우선 순위를 사용하십시오.
+**Decisioning** API를 사용하는 경우 아래 예와 같이 컨텍스트 데이터가 요청 본문의 프로필 요소에 추가됩니다.
 
 ```
-let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
-             where _Individual_Scoring1.core.category.equals(offer.characteristics.get("propensityType"), false)).head().core.propensityScore
-in if(score.isNotNull(), score, offer.rank.priority)
+"xdm:profiles": [
+{
+    "xdm:identityMap": {
+        "crmid": [
+            {
+            "xdm:id": "CRMID1"
+            }
+        ]
+    },
+    "xdm:contextData": [
+        {
+            "@type":"_xdm.context.additionalParameters;version=1",
+            "xdm:data":{
+                "xdm:weather":"hot"
+            }
+        }
+    ]
+    
+}],
 ```
+
+다음은 오퍼의 우선 순위를 높이기 위해 등급 수식에서 컨텍스트 데이터를 사용하는 방법을 보여 주는 예입니다. 각 섹션을 확장하여 순위 공식의 구문에 대한 세부 정보를 가져옵니다.
+
+>[!NOTE]
+>
+>Edge Decisioning API 예제에서 `<OrgID>`을(를) 조직 테넌트 ID로 바꾸십시오.
+
++++컨텍스트 데이터의 채널이 고객의 선호 채널과 일치하는 경우 오퍼 우선 순위를 10까지 높입니다.
+
+>[!BEGINTABS]
+
+>[!TAB Decisioning API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.channel.isNotNull() and @{_xdm.context.additionalParameters;version=1}.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.channel.isNotNull() and xEvent.<OrgID>.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++호출에서 &quot;contextData.weather=hot&quot;가 전달된 경우 &quot;attribute=hot&quot;를 사용하여 모든 오퍼의 우선 순위를 높입니다.
+
+>[!BEGINTABS]
+
+>[!TAB Decisioning API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.get("weather")=xEvent.<OrgID>.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++컨텐츠 원본 증폭
+
+>[!BEGINTABS]
+
+>[!TAB Decisioning API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.contentorigin.isNotNull() and offer.characteristics.contentorigin=@{_xdm.context.additionalParameters;version=1}.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.contentorigin.isNotNull() and offer.characteristics.contentorigin=xEvent.<OrgID>.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++날씨 증가
+
+>[!BEGINTABS]
+
+>[!TAB Decisioning API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.weather=xEvent.<OrgID>.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
