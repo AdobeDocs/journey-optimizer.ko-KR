@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 850b78afc8f833e503b6ebe2ca5e8b47a0e8ff7a
+source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 20%
+source-wordcount: '1311'
+ht-degree: 21%
 
 ---
 
@@ -84,79 +84,67 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 >[!TAB Amazon S3]
 
-**[!UICONTROL Amazon S3]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택한 경우:
+**[!UICONTROL Amazon S3]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택한 경우 서버에 대한 세부 정보와 자격 증명을 입력하십시오.
 
-1. 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
+* **AWS 버킷 이름**:AWS 버킷 이름을 찾을 수 있는 위치를 알려면 [이 페이지](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)를 참조하세요.
 
-   * **AWS 버킷 이름**:AWS 버킷 이름을 찾을 수 있는 위치를 알려면 [이 페이지](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)를 참조하세요.
+* **AWS 액세스 키**: AWS 액세스 키 ID를 찾을 수 있는 위치를 알려면 [이 페이지](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)를 참조하세요.
 
-   * **AWS 액세스 키**: AWS 액세스 키 ID를 찾을 수 있는 위치를 알려면 [이 페이지](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)를 참조하세요.
+* **AWS 비밀 키**: AWS 비밀 키를 찾을 수 있는 위치를 알려면 [이 페이지](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)를 참조하세요.
 
-   * **AWS 비밀 키**: AWS 비밀 키를 찾을 수 있는 위치를 알려면 [이 페이지](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)를 참조하세요.
+* **AWS 지역**: 서버 인프라가 위치할 **[!UICONTROL AWS 지역]**&#x200B;을 선택하십시오. AWS 지역은 AWS이 클라우드 인프라를 호스팅하는 데 사용하는 지리적 영역입니다. 일반적으로 DM 공급자 위치와 가장 가까운 지역을 선택하는 것이 좋습니다.
 
-   * **AWS 지역**: 서버 인프라가 위치할 **[!UICONTROL AWS 지역]**&#x200B;을 선택하십시오. AWS 지역은 AWS이 클라우드 인프라를 호스팅하는 데 사용하는 지리적 영역입니다. 일반적으로 DM 공급자 위치와 가장 가까운 지역을 선택하는 것이 좋습니다.
-
-   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
-
-1. 파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
+![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
 >[!TAB SFTP]
 
-**[!UICONTROL SFTP]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택한 경우:
+**[!UICONTROL SFTP]**&#x200B;을(를) **[!UICONTROL 서버 유형]**(으)로 선택한 경우 서버에 대한 세부 정보와 자격 증명을 입력하십시오.
 
-1. 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
+* **계정**: SFTP 서버에 연결하는 데 사용되는 계정 이름입니다.
 
-   * **계정**: SFTP 서버에 연결하는 데 사용되는 계정 이름입니다.
+* **서버 주소**: &#x200B; SFTP 서버의 URL.
 
-   * **서버 주소**: &#x200B; SFTP 서버의 URL.
+* **포트**: FTP 연결 포트 번호입니다.
 
-   * **포트**: FTP 연결 포트 번호입니다.
+* **암호**: &#x200B; SFTP 서버에 연결하는 데 사용되는 암호입니다.
 
-   * **암호**: &#x200B; SFTP 서버에 연결하는 데 사용되는 암호입니다.
+![](assets/file-routing-config-sftp-detail.png)
 
-   ![](assets/file-routing-config-sftp-detail.png)
-
-   >[!NOTE]
-   >
-   >파일을 저장할 서버의 경로를 지정하려면 DM 캠페인의 **[!UICONTROL 파일 이름]** 필드를 업데이트하여 원하는 경로를 포함하십시오. [자세히 알아보기](create-direct-mail.md#extraction-file)
-
-1. 파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
+>[!NOTE]
+>
+>파일을 저장할 서버의 경로를 지정하려면 DM 캠페인의 **[!UICONTROL 파일 이름]** 필드를 업데이트하여 원하는 경로를 포함하십시오. [자세히 알아보기](create-direct-mail.md#extraction-file)
 
 >[!TAB Azure]
 
-**[!UICONTROL Azure]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택한 경우:
+**[!UICONTROL Azure]**&#x200B;을(를) **[!UICONTROL 서버 유형]**(으)로 선택한 경우 서버에 대한 세부 정보 및 자격 증명을 채우십시오.
 
-1. 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
+* **Azure 연결 문자열**: **Azure 연결 문자열**&#x200B;을 찾으려면 [이 페이지](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)를 참조하세요.
 
-   * **Azure 연결 문자열**: **Azure 연결 문자열**&#x200B;을 찾으려면 [이 페이지](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)를 참조하세요.
+  **Azure 연결 문자열**&#x200B;은(는) 아래 형식을 따라야 합니다.
 
-     **Azure 연결 문자열**&#x200B;은(는) 아래 형식을 따라야 합니다.
+  `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+* **컨테이너 이름**: **컨테이너 이름**&#x200B;을 찾으려면 [이 페이지](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal)를 참조하세요.
 
-   * **컨테이너 이름**: **컨테이너 이름**&#x200B;을 찾으려면 [이 페이지](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal)를 참조하세요.
+  **컨테이너 이름**&#x200B;에는 슬래시 없이 컨테이너 이름만 포함되어야 합니다.
 
-     **컨테이너 이름**&#x200B;에는 슬래시 없이 컨테이너 이름만 포함되어야 합니다.
+  >[!NOTE]
+  >
+  >파일을 저장할 컨테이너 내의 경로를 지정하려면 DM 캠페인의 **[!UICONTROL 파일 이름]** 필드를 업데이트하여 원하는 경로를 포함하십시오. [자세히 알아보기](create-direct-mail.md#extraction-file)
 
-     >[!NOTE]
-     >
-     >파일을 저장할 컨테이너 내의 경로를 지정하려면 DM 캠페인의 **[!UICONTROL 파일 이름]** 필드를 업데이트하여 원하는 경로를 포함하십시오. [자세히 알아보기](create-direct-mail.md#extraction-file)
-
-     ![](assets/file-routing-config-azure-detail.png)
-
-1. 파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
+  ![](assets/file-routing-config-azure-detail.png)
 
 >[!TAB 데이터 랜딩 영역]
 
 **[!UICONTROL 데이터 랜딩 영역]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택한 경우 특정 세부 정보가 필요하지 않습니다.
-
-파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
 
 ![](assets/file-routing-config-dlz-detail.png)
 
 [!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
 
 >[!ENDTABS]
+
+파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
 
 서버 유형에 대한 세부 정보를 입력한 후 **[!UICONTROL 제출]**&#x200B;을 선택합니다. 파일 라우팅 구성이 **[!UICONTROL 활성]** 상태로 만들어졌습니다. 이제 [DM 구성](#direct-mail-surface)에서 사용할 준비가 되었습니다.
 
