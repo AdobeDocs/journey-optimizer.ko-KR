@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
-source-git-commit: 51882b5f664e335c472afd790494f86b300e0e56
+source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ Journey Optimizer 사용자 인터페이스의 관리 섹션에서 API 호출을
 
 사용자 지정 작업을 테스트하려면 다음 단계를 수행합니다.
 
-1. **사용자 지정 작업** 구성 화면으로 이동하여 사용자 지정 작업을 선택합니다.
+1. **작업** 구성 화면으로 이동하여 사용자 지정 작업을 선택합니다.
 1. 작업 구성 화면 하단의 **[!UICONTROL 테스트 요청 보내기]** 단추를 클릭합니다.
    ![작업 구성 패널의 테스트 요청 보내기 단추](assets/test-request.png){width="70%" align="left"}
 1. 팝업 창에서 요청 매개 변수를 지정할 수 있습니다.
