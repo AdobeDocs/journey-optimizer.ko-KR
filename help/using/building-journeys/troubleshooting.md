@@ -9,16 +9,18 @@ role: User
 level: Intermediate
 keywords: 문제 해결, 문제 해결, 여정, 확인, 오류
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 53%
+source-wordcount: '989'
+ht-degree: 52%
 
 ---
 
 # 여정 문제 해결 {#troubleshooting}
 
-이 섹션에서는 테스트 또는 게시 전에 여정 문제를 해결하는 방법에 대해 알아봅니다. 아래 나열된 모든 검사는 여정이 테스트 모드에 있거나 여정이 라이브 상태일 때 수행할 수 있습니다. 테스트 모드에서 아래의 모든 검사를 수행한 후에 게시를 진행하는 것이 좋습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오.
+이 섹션에서는 테스트 또는 게시 전에 여정 문제를 해결하는 방법에 대해 알아봅니다. 아래 나열된 모든 검사는 여정이 테스트 모드에 있거나 여정이 라이브 상태일 때 수행할 수 있습니다. 테스트 모드에서 아래의 모든 검사를 수행한 후에 게시를 진행하는 것이 좋습니다. [이 페이지](../building-journeys/testing-the-journey.md)에서 테스트 모드에 대해 자세히 알아보세요.
+
+관리자는 사용자 인터페이스에서 직접 실제 API 호출을 수행하여 사용자 지정 작업 구성을 테스트할 수도 있습니다. [이 페이지](../action/troubleshoot-custom-action.md)에서 자세히 알아보십시오.
 
 ## 테스트하기 전에 오류 확인 {#checking-for-errors-before-testing}
 
