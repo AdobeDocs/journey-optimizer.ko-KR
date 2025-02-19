@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 324e477ca334e2d614265b3ea25428bea089ac69
+source-git-commit: 8f296109555edcfdc9e66fae312e6100e98ed78e
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 21%
+source-wordcount: '1356'
+ht-degree: 20%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 21%
 
 이 파일을 생성하려면 먼저 다음을 생성해야 합니다.
 
-1. 파일을 내보낼 서버를 지정하고 필요한 경우 파일을 암호화하는 [파일 라우팅 구성](#file-routing-configuration)입니다.
+1. [파일을 내보낼 서버를 지정하고 필요한 경우 파일을 암호화하는 파일 라우팅 구성](#file-routing-configuration)입니다.
 
    >[!CAUTION]
    >
-   >파일 라우팅 구성을 만들려면 **[!DNL Manage file routing]** 기본 제공 권한이 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager).
+   >파일 라우팅 구성을 만들려면 **[!DNL Manage file routing]** 기본 제공 권한이 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
 1. 파일 라우팅 구성을 참조할 [DM 구성](#direct-mail-configuration)입니다. 파일 라우팅 옵션을 구성하지 않은 경우 DM 구성을 만들 수 없습니다.
 
@@ -68,97 +68,99 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 파일 라우팅을 구성하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL DM 설정]** > **[!UICONTROL 파일 라우팅]** 메뉴에 액세스한 다음 **[!UICONTROL 라우팅 구성 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL DM 설정]** > **[!UICONTROL 파일 라우팅]** 메뉴에 액세스한 다음 **[!UICONTROL 파일 라우팅 구성 만들기]**&#x200B;를 클릭합니다.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. 구성의 이름을 설정합니다.
 
-1. DM 파일을 내보내는 데 사용할 서버 유형(Amazon S3, SFTP, Azure 또는 데이터 랜딩 영역)을 선택합니다. 각 서버 유형에 해당하는 필드는 아래 탭에 자세히 설명되어 있습니다.
+1. DM 파일을 내보내는 데 사용할 서버 유형(Amazon S3, SFTP, Azure 또는 데이터 랜딩 영역)을 선택합니다.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-1. **[!UICONTROL 제출]**&#x200B;을 선택합니다. 파일 라우팅 구성이 **[!UICONTROL 활성]** 상태로 만들어졌습니다. 이제 [DM 구성](#direct-mail-surface)에서 사용할 준비가 되었습니다.
+1. 아래 탭에 자세히 설명된 대로 각 서버 유형에 해당하는 필드를 입력합니다.
 
-   **[!UICONTROL 초안으로 저장]**&#x200B;을 선택하여 파일 라우팅 구성을 만들 수도 있지만 **[!UICONTROL 활성]**&#x200B;이 될 때까지 구성에서 선택할 수 없습니다.
+   >[!BEGINTABS]
 
->[!BEGINTABS]
+   >[!TAB Amazon S3]
 
->[!TAB Amazon S3]
+   **[!UICONTROL Amazon S3]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택한 경우:
 
-1. **[!UICONTROL Amazon S3]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택합니다.
+   1. 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
 
-1. 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
+      * **AWS 버킷 이름**:AWS 버킷 이름을 찾을 수 있는 위치를 알려면 [이 페이지](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)를 참조하세요.
 
-   * **AWS 버킷 이름**:AWS 버킷 이름을 찾을 수 있는 위치를 알려면 [이 페이지](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)를 참조하세요.
+      * **AWS 액세스 키**: AWS 액세스 키 ID를 찾을 수 있는 위치를 알려면 [이 페이지](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)를 참조하세요.
 
-   * **AWS 액세스 키**: AWS 액세스 키 ID를 찾을 수 있는 위치를 알려면 [이 페이지](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)를 참조하세요.
+      * **AWS 비밀 키**: AWS 비밀 키를 찾을 수 있는 위치를 알려면 [이 페이지](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)를 참조하세요.
 
-   * **AWS 비밀 키**: AWS 비밀 키를 찾을 수 있는 위치를 알려면 [이 페이지](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)를 참조하세요.
+      * **AWS 지역**: 서버 인프라가 위치할 **[!UICONTROL AWS 지역]**&#x200B;을 선택하십시오. AWS 지역은 AWS이 클라우드 인프라를 호스팅하는 데 사용하는 지리적 영역입니다. 일반적으로 DM 공급자 위치와 가장 가까운 지역을 선택하는 것이 좋습니다.
 
-   * **AWS 지역**: 서버 인프라가 위치할 **[!UICONTROL AWS 지역]**&#x200B;을 선택하십시오. AWS 지역은 AWS이 클라우드 인프라를 호스팅하는 데 사용하는 지리적 영역입니다. 일반적으로 DM 공급자 위치와 가장 가까운 지역을 선택하는 것이 좋습니다.
+      ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
-   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+   1. 파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
 
-1. 파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
+   >[!TAB SFTP]
 
->[!TAB SFTP]
+   **[!UICONTROL SFTP]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택한 경우:
 
-1. **[!UICONTROL SFTP]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택합니다.
+   1. 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
 
-1. 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
+      * **계정**: SFTP 서버에 연결하는 데 사용되는 계정 이름입니다.
 
-   * **계정**: SFTP 서버에 연결하는 데 사용되는 계정 이름입니다.
+      * **서버 주소**: &#x200B; SFTP 서버의 URL.
 
-   * **서버 주소**: &#x200B; SFTP 서버의 URL.
+      * **포트**: FTP 연결 포트 번호입니다.
 
-   * **포트**: FTP 연결 포트 번호입니다.
+      * **암호**: &#x200B; SFTP 서버에 연결하는 데 사용되는 암호입니다.
 
-   * **암호**: &#x200B; SFTP 서버에 연결하는 데 사용되는 암호입니다.
+      ![](assets/file-routing-config-sftp-detail.png)
 
-   ![](assets/file-routing-config-sftp-detail.png)
+      >[!NOTE]
+      >
+      >파일을 저장할 서버의 경로를 지정하려면 DM 캠페인의 **[!UICONTROL 파일 이름]** 필드를 업데이트하여 원하는 경로를 포함하십시오. [자세히 알아보기](create-direct-mail.md#extraction-file)
 
-   >[!NOTE]
-   >
-   >파일을 저장할 서버의 경로를 지정하려면 DM 캠페인의 **[!UICONTROL 파일 이름]** 필드를 업데이트하여 원하는 경로를 포함하십시오. [자세히 알아보기](create-direct-mail.md#extraction-file)
+   1. 파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
 
-1. 파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
+   >[!TAB Azure]
 
->[!TAB Azure]
+   **[!UICONTROL Azure]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택한 경우:
 
-1. **[!UICONTROL Azure]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택합니다.
+   1. 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
 
-1. 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
+      * **Azure 연결 문자열**: **Azure 연결 문자열**&#x200B;을 찾으려면 [이 페이지](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)를 참조하세요.
 
-   * **Azure 연결 문자열**: **Azure 연결 문자열**&#x200B;을 찾으려면 [이 페이지](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)를 참조하세요.
+        **Azure 연결 문자열**&#x200B;은(는) 아래 형식을 따라야 합니다.
 
-     **Azure 연결 문자열**&#x200B;은(는) 아래 형식을 따라야 합니다.
+        `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+      * **컨테이너 이름**: **컨테이너 이름**&#x200B;을 찾으려면 [이 페이지](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal)를 참조하세요.
 
-   * **컨테이너 이름**: **컨테이너 이름**&#x200B;을 찾으려면 [이 페이지](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal)를 참조하세요.
+        **컨테이너 이름**&#x200B;에는 슬래시 없이 컨테이너 이름만 포함되어야 합니다.
 
-     **컨테이너 이름**&#x200B;에는 슬래시 없이 컨테이너 이름만 포함되어야 합니다.
+        >[!NOTE]
+        >
+        >파일을 저장할 컨테이너 내의 경로를 지정하려면 DM 캠페인의 **[!UICONTROL 파일 이름]** 필드를 업데이트하여 원하는 경로를 포함하십시오. [자세히 알아보기](create-direct-mail.md#extraction-file)
 
-     >[!NOTE]
-     >
-     >파일을 저장할 컨테이너 내의 경로를 지정하려면 DM 캠페인의 **[!UICONTROL 파일 이름]** 필드를 업데이트하여 원하는 경로를 포함하십시오. [자세히 알아보기](create-direct-mail.md#extraction-file)
+        ![](assets/file-routing-config-azure-detail.png)
 
-     ![](assets/file-routing-config-azure-detail.png)
+   1. 파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
 
-1. 파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
+   >[!TAB 데이터 랜딩 영역]
 
->[!TAB 데이터 랜딩 영역]
+   **[!UICONTROL 데이터 랜딩 영역]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택한 경우 특정 세부 정보가 필요하지 않습니다.
 
-1. **[!UICONTROL 데이터 랜딩 영역]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택합니다.
-
-1. 파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
+   파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
 
    ![](assets/file-routing-config-dlz-detail.png)
 
-[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
+   [!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
 
->[!ENDTABS]
+   >[!ENDTABS]
+
+1. 서버 유형에 대한 세부 정보를 입력한 후 **[!UICONTROL 제출]**&#x200B;을 선택합니다. 파일 라우팅 구성이 **[!UICONTROL 활성]** 상태로 만들어졌습니다. 이제 [DM 구성](#direct-mail-surface)에서 사용할 준비가 되었습니다.
+
+   **[!UICONTROL 초안으로 저장]**&#x200B;을 선택하여 파일 라우팅 구성을 만들 수도 있지만 **[!UICONTROL 활성]**&#x200B;이 될 때까지 구성에서 선택할 수 없습니다.
 
 ## DM 구성 만들기 {#direct-mail-surface}
 
