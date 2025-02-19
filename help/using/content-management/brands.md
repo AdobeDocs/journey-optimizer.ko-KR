@@ -7,14 +7,14 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
+source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 22%
+source-wordcount: '389'
+ht-degree: 24%
 
 ---
 
-# 브랜드 제작 및 관리 {#brands}
+# 브랜드 생성 및 관리 {#brands}
 
 >[!AVAILABILITY]
 >
@@ -22,7 +22,9 @@ ht-degree: 22%
 
 브랜드 지침은 브랜드의 시각적 및 언어적 정체성을 확립하는 상세한 규칙 및 표준 세트입니다. 모든 마케팅 및 커뮤니케이션 플랫폼에서 일관된 브랜드 표현을 유지하는 참조 역할을 합니다.
 
-이제 [!DNL Journey Optimizer]에서 브랜드 세부 정보를 수동으로 입력 및 구성하거나 자동 정보 추출을 위해 브랜드 지침 문서를 업로드할 수 있습니다.
+<!--Upload feature currently behind feature flag--
+
+In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
 
 ## 브랜드 액세스 {#generative-access}
 
@@ -36,7 +38,7 @@ ht-degree: 22%
 
 1. **AI Assistant** 리소스를 추가한 다음 드롭다운 메뉴에서 **관리 브랜드 키트** 또는 **[!UICONTROL Ai Assistant 사용]**&#x200B;을 선택합니다.
 
-   **[!UICONTROL Ai Assistant 사용]** 권한은 브랜드 메뉴에 대한 읽기 전용 액세스를 제공합니다.
+   **[!UICONTROL Ai Assistant 사용]** 권한은 **[!UICONTROL 브랜드]** 메뉴에 대한 읽기 전용 액세스를 제공합니다.
 
    ![](assets/brands-permission.png){zoomable="yes"}
 
@@ -54,7 +56,11 @@ ht-degree: 22%
 
 ## 브랜드 만들기 {#create-brand-kit}
 
-Brand Guidelines를 만들고 관리하기 위해 직접 세부 정보를 입력하거나 브랜드 지침 문서를 업로드하여 정보를 자동으로 추출할 수 있습니다.
+브랜드 지침을 만들고 관리하려면 아래 단계를 따르십시오.
+
+<!--Upload feature currently behind feature flag--
+
+To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:-->
 
 1. **[!UICONTROL 브랜드]** 메뉴에서 **[!UICONTROL 브랜드 만들기]**&#x200B;를 클릭합니다.
 
@@ -64,9 +70,7 @@ Brand Guidelines를 만들고 관리하기 위해 직접 세부 정보를 입력
 
    ![](assets/brands-2-temp.png)
 
-<!--
-
-[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
+<!--Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)--
 
 1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
@@ -78,19 +82,23 @@ Brand Guidelines를 만들고 관리하기 위해 직접 세부 정보를 입력
 
 -->
 
-1. **[!UICONTROL 작성 스타일]** 탭에서 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 지침 또는 제외를 추가합니다. 예를 추가할 수도 있습니다.
+1. **[!UICONTROL 작성 스타일]** 탭에서 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 예제를 포함한 지침 또는 제외를 추가합니다.
 
    ![](assets/brands-3.png)
 
 1. **[!UICONTROL 시각적 콘텐츠]** 탭에서 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 다른 지침이나 제외를 추가합니다.
 
-1. 이미지 예제를 추가하려면 **[!UICONTROL 이미지 선택]**&#x200B;을 클릭하세요. 제외 예로서 잘못된 사용을 보여주는 이미지를 추가할 수도 있습니다.
+1. 올바른 사용을 표시하는 이미지를 추가하려면 **[!UICONTROL 예제]**&#x200B;를 선택하고 **[!UICONTROL 이미지 선택]**&#x200B;을 클릭합니다. 제외 예로서 잘못된 사용을 보여주는 이미지를 추가할 수도 있습니다.
 
    ![](assets/brands-4.png)
 
-1. 구성하고 나면 **[!UICONTROL 저장]**&#x200B;을 클릭한 다음 **[!UICONTROL 게시]**&#x200B;을 클릭하여 브랜드 지침을 AI 도우미에서 사용할 수 있도록 만드십시오.
+1. 구성이 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭한 다음 **[!UICONTROL 게시]**&#x200B;을 클릭하여 브랜드 지침을 AI 도우미에서 사용할 수 있도록 합니다.
 
-1. 게시된 브랜드를 수정하려면 **[!UICONTROL 브랜드 편집]**&#x200B;을 클릭하세요. 이렇게 하면 편집 모드에 임시 복사본이 만들어지고 게시 후 라이브 버전이 대체됩니다.
+1. 게시된 브랜드를 수정하려면 **[!UICONTROL 브랜드 편집]**&#x200B;을 클릭하세요.
+
+   >[!NOTE]
+   >
+   >이렇게 하면 편집 모드에 임시 복사본이 만들어지고 게시 후 라이브 버전이 대체됩니다.
 
    ![](assets/brands-8.png)
 
@@ -105,6 +113,6 @@ Brand Guidelines를 만들고 관리하기 위해 직접 세부 정보를 입력
 
    ![](assets/brands-6.png)
 
-이제 AI 비서 메뉴의 브랜드 드롭다운에서 브랜드 지침에 액세스할 수 있으므로 사양에 맞게 콘텐츠 및 에셋을 생성할 수 있습니다. [AI Assistant에 대해 자세히 알아보기](gs-generative.md)
+이제 AI 도우미 메뉴의 **[!UICONTROL Brand]** 드롭다운에서 브랜드 지침에 액세스할 수 있으므로 사양에 맞게 콘텐츠 및 에셋을 생성할 수 있습니다. [AI Assistant에 대해 자세히 알아보기](gs-generative.md)
 
 ![](assets/brands-7.png)
