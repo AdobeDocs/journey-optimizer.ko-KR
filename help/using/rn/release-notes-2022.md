@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
@@ -545,7 +545,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 채널  비즈니스 규칙을 설정할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../configuration/frequency-rules.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../configuration/rule-sets.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

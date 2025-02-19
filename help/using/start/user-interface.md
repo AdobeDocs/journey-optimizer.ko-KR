@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 100%
@@ -128,7 +128,7 @@ ht-degree: 100%
 
   **보고** 섹션에 액세스하여 캠페인 실험 및 웹/모바일에 대한 보고를 구성할 수도 있습니다. [자세히 알아보기](../reports/reporting-configuration.md)
 
-* **[!UICONTROL 비즈니스 규칙]** - 이 섹션에서는 크로스 채널 비즈니스 규칙을 만들어 사용자가 메시지를 받거나 여정에 입장하는 빈도를 제어합니다. [자세히 보기](../configuration/frequency-rules.md)
+* **[!UICONTROL 비즈니스 규칙]** - 이 섹션에서는 크로스 채널 비즈니스 규칙을 만들어 사용자가 메시지를 받거나 여정에 입장하는 빈도를 제어합니다. [자세히 보기](../configuration/rule-sets.md)
 
 * **[!UICONTROL 경고]** - 사용자 인터페이스를 사용하면 Adobe Experience Platform Observability Insights에서 공개한 지표를 기반으로 받은 경고 내역을 볼 수 있습니다. 또한 UI에서 사용 가능한 경고 규칙을 보고, 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](../reports/alerts.md)
 

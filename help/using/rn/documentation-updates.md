@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
-source-wordcount: '6051'
-ht-degree: 97%
+source-wordcount: '6045'
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 97%
    * E: 이벤트 기반 여정에서 이벤트를 트리거하는 데 사용되는 단축키.
    * P: 한 번에 한 프로필 옵션이 켜진 대상자 기반 여정의 이벤트를 트리거하는 단축키.
    * L: 테스트 로그를 표시하도록 지정된 단축키.
-* 메시지 빈도 규칙 페이지가 일별 빈도 상한에 대한 새 하위 섹션으로 업데이트되었습니다(주별 또는 월별 상한 설정 외에도 필요에 따라 사용할 수 있음). [자세히 보기](../configuration/frequency-rules.md#daily-frequency-cap)
+* 메시지 빈도 규칙 페이지가 일별 빈도 상한에 대한 새 하위 섹션으로 업데이트되었습니다(주별 또는 월별 한도 외에도 필요에 따라 사용할 수 있음).
 * 동의 정책 사용 페이지를 개선하고 Experience Platform 설명서에 대한 유용한 링크로 업데이트했습니다. [자세히 보기](../action/consent.md)
 * 그리드 보기 모드(제한된 가용성)에서 HTML 이메일 콘텐츠 템플릿을 썸네일로 표시할 수 있다는 사실을 반영한 새 섹션을 추가했습니다. [자세히 보기](../content-management/content-templates.md#template-thumbnails)
 * 전달성 페이지에 피드백 루프가 무엇이며 어떻게 활용할 수 있는지 설명하는 새 섹션을 추가했습니다. [자세히 보기](../reports/deliverability.md#feedback-loops)
@@ -140,7 +140,7 @@ ht-degree: 97%
 * 고급 표현식 편집기에서 사용할 수 있는 함수 목록이 업데이트되었습니다. [자세히 보기](../building-journeys/expression/functions.md)
 * 분할 함수의 페이지가 업데이트되었습니다. [자세히 보기](../building-journeys/functions/functioninaudience.md)
 * 푸시 알림의 옵트인 또는 옵트아웃이 인앱 메시지에 미치는 영향에 대한 정보를 추가했습니다. [자세히 보기](../in-app/create-in-app.md)
-* 사용자 인터페이스에서 사용 가능한 기간 옵션(주별 또는 월별)을 반영하도록 메시지 빈도 규칙 페이지가 업데이트되었습니다. [자세히 보기](../configuration/frequency-rules.md)
+* 사용자 인터페이스에서 사용 가능한 기간 옵션(주별 또는 월별)을 반영하도록 메시지 빈도 규칙 페이지가 업데이트되었습니다.
 * PTR 기록을 수동으로 만들 수 없으며 새 하위 도메인을 할당하기 위해 PTR 기록을 편집해야 한다는 사실을 명확히 설명하도록 PTR 기록 편집 섹션이 업데이트되었습니다. [자세히 보기](../configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024년 1월 {#jan-2024}
@@ -160,7 +160,7 @@ ht-degree: 97%
 * 사용자 정의 작업을 사용하여 타깃팅할 엔드포인트를 선택할 때 모범 사례가 추가되었습니다. [자세히 보기](../action/about-custom-action-configuration.md)
 * API를 사용하여 외부 시스템에서 이벤트를 실행할 수 없음을 사용자에게 알리는 메모가 추가되었습니다. [자세히 보기](../building-journeys/testing-the-journey.md#important-notes)
 * **currentActionField** 함수에 대한 정보가 [컬렉션 관리 기능](../building-journeys/expression/collection-management-functions.md) 목록에 추가되었습니다. 함수를 활용하는 표현식 샘플이 [사용자 정의 작업에서 API 호출 응답 사용](../action/action-response.md) 페이지에 업데이트되었습니다.
-* 캐시 기간과 관련한 사용자 정의 인증 문서를 업데이트합니다. [자세히 보기](../datasource/external-data-sources.md)
+* 캐시 기간과 관련한 사용자 정의 인증 문서를 업데이트합니다. [자세히 보기]&#x200B;(../datasource/external-data-sources.md)
 * 여러 함수에서 `<listObject>` 지원이 수정되었습니다.
 * `toString` 함수에서 **기간** 매개 변수를 업데이트합니다. [자세히 보기](../building-journeys/functions/functiontostring.md)
 * 일부 외부 데이터 소스 사용 사례의 경우 사용자 정의 작업 사용이 권장됩니다.
@@ -338,7 +338,7 @@ ht-degree: 97%
 ## 2022년 8월 {#august-2022}
 
 * [!DNL Journey Optimizer] 2022년 8월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
-* 새 인라인 메시징 흐름을 반영하도록 빈도 규칙 섹션이 업데이트되었습니다. [자세히 보기](../configuration/frequency-rules.md#apply-frequency-rule)
+* 새 인라인 메시징 흐름을 반영하도록 빈도 규칙 섹션이 업데이트되었습니다.
 * 구독을 구성하고 랜딩 페이지를 만드는 방법을 보여주는 비디오가 이제 랜딩 페이지 시작 섹션에서 참조됩니다. [자세히 보기](../landing-pages/get-started-lp.md#video)
 * 대상자 읽기 활동을 사용하는 여정에 대한 제한 사항을 추가했습니다. [자세히 보기](../building-journeys/read-audience.md)
 * 표현식 편집기 연산자 페이지를 개선했습니다. [자세히 보기](../building-journeys/expression/operators.md)
