@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 0510811c2777fc8483b4220cc5a9f023dd5bf2c6
+source-git-commit: 850b78afc8f833e503b6ebe2ca5e8b47a0e8ff7a
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 20%
@@ -158,9 +158,9 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 >[!ENDTABS]
 
-5. 서버 유형에 대한 세부 정보를 입력한 후 **[!UICONTROL 제출]**&#x200B;을 선택합니다. 파일 라우팅 구성이 **[!UICONTROL 활성]** 상태로 만들어졌습니다. 이제 [DM 구성](#direct-mail-surface)에서 사용할 준비가 되었습니다.
+서버 유형에 대한 세부 정보를 입력한 후 **[!UICONTROL 제출]**&#x200B;을 선택합니다. 파일 라우팅 구성이 **[!UICONTROL 활성]** 상태로 만들어졌습니다. 이제 [DM 구성](#direct-mail-surface)에서 사용할 준비가 되었습니다.
 
-   **[!UICONTROL 초안으로 저장]**&#x200B;을 선택하여 파일 라우팅 구성을 만들 수도 있지만 **[!UICONTROL 활성]**&#x200B;이 될 때까지 구성에서 선택할 수 없습니다.
+**[!UICONTROL 초안으로 저장]**&#x200B;을 선택하여 파일 라우팅 구성을 만들 수도 있지만 **[!UICONTROL 활성]**&#x200B;이 될 때까지 구성에서 선택할 수 없습니다.
 
 ## DM 구성 만들기 {#direct-mail-surface}
 
