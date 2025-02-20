@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
+source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 53%
+source-wordcount: '1030'
+ht-degree: 52%
 
 ---
 
@@ -95,14 +95,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
 >title="기타 프로필"
->abstract="이 옵션을 설정하여 다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만듭니다."
-
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="대상자 게시"
->abstract="구성을 게시하여 최종 대상자를 Adobe Experience Platform에 저장합니다."
->
-[!BEGINSHADEBOX]
+>abstract="이 옵션을 토글하여 다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만듭니다."
 
 이 설명서에서는 Adobe Journey Optimizer 내에서 대상자 구성을 사용하는 방법에 대해 자세한 정보를 제공합니다. 실시간 고객 프로필 전용 고객이고 Adobe Journey Optimizer를 사용하지 않는 경우 [여기를 클릭하십시오](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko){target="_blank"}.
 
@@ -172,11 +165,6 @@ ht-degree: 53%
 >**대상 구성**&#x200B;의 대상은 매일 실행되므로 Journey Optimizer에서 사용하려면 최대 24시간을 기다려야 할 수 있습니다. 대상 구성 대상의 풍부한 속성은 마지막 구성 실행만큼 신선하며 과거에는 최대 24시간까지 소요될 수 있습니다.
 
 ## 컴포지션 액세스 {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="대상자 게시"
->abstract="구성을 게시하여 최종 대상자를 Adobe Experience Platform에 저장합니다."
 
 **[!UICONTROL 구성]** 탭에서 만든 모든 구성에 액세스할 수 있습니다. 목록의 줄임표 버튼을 사용하여 언제든지 기존 컴포지션을 복제하거나 삭제할 수 있습니다.
 
