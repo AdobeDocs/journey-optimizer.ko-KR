@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '6117'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 95%
 ## 2025년 2월 {#feb-2025}
 
 * **[!UICONTROL 전송 시간 최적화]** 및 관련 FAQ에 대한 설명서를 업데이트 및 개선하고 새 전용 페이지로 이동했습니다. [자세히 보기](../building-journeys/send-time-optimization.md)
-* 여정 이벤트에 대한 새 보호 기능이 추가되었습니다. [자세히 보기](../start/guardrails.md#events-g)
-* 기본 제공 채널 작업 페이지가 재구성되었습니다. [자세히 보기](../building-journeys/journeys-message.md)
+* 여정 이벤트에 대한 새 가드레일을 추가했습니다. [자세히 보기](../start/guardrails.md#events-g)
+* 기본 제공 채널 액션 페이지를 재구성했습니다. [자세히 보기](../building-journeys/journeys-message.md)
 * 의사 결정 및 의사 결정 관리 섹션에 보호 및 제한 사항이 추가되었습니다.
    * [보호 및 제한 사항 결정](../experience-decisioning/decisioning-guardrails.md)
    * [의사 결정 관리 보호 및 제한 사항](../offers/decision-management-guardrails.md)
@@ -40,15 +40,15 @@ ht-degree: 95%
 
 * **이메일 전달** 섹션에 **발신자 이메일** 주소로 보낸 이메일은 모두 전달 이메일 주소로 전달한다는 점을 명시하여 업데이트했습니다. 전달 이메일을 지정하지 않은 경우 해당 이메일은 삭제됩니다. [자세히 보기](../email/email-settings.md#forward-email)
 
-* API가 트리거된 캠페인 요청에 전달되는 컨텍스트 속성의 최대 크기가 200kb로 업데이트되었습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
+* API 트리거 캠페인 요청에 전달되는 상황별 속성의 최대 크기를 200kb로 업데이트했습니다. [자세히 보기](../campaigns/api-triggered-campaigns.md#contextual)
 
-* 라이브 조각에 새 특성을 추가하는 방법을 설명하기 위해 새 섹션이 **조각 관리** 페이지에 추가되었습니다. 전체 페이지도 개선되었습니다. [자세히 보기](../content-management/manage-fragments.md#adding-new-attributes)
+* 라이브 조각에 새 속성을 추가하는 방법을 설명하기 위해 **조각 관리** 페이지에 새로운 섹션을 추가했습니다. 전체적인 페이지도 개선했습니다. [자세히 보기](../content-management/manage-fragments.md#adding-new-attributes)
 
-* 충돌 관리 및 우선 순위 지정 도구 설명서에 &quot;보호 및 제한 사항&quot; 섹션이 추가되었습니다. [자세히 보기](../conflict-prioritization/gs-conflict-prioritization.md)
+* 충돌 관리 및 우선 순위 지정 도구 설명서에 &quot;가드레일 및 제한 사항&quot; 섹션을 추가했습니다. [자세히 보기](../conflict-prioritization/gs-conflict-prioritization.md)
 
-* [!DNL Journey Optimizer] 코드 기반 경험 채널을 사용하는 콘텐츠 실험에서 Decisioning을 사용하는 데 필요한 모든 단계를 제공하는 새로운 엔드 투 엔드 사용 사례를 추가했습니다. [자세히 보기](../experience-decisioning/experience-decisioning-uc.md)
+* [!DNL Journey Optimizer] 코드 기반 경험 채널을 사용하는 콘텐츠 실험에서 Decisioning을 사용하는 데 필요한 모든 단계를 제공하는 새로운 엔드투엔드 사용 사례를 추가했습니다. [자세히 보기](../experience-decisioning/experience-decisioning-uc.md)
 
-* **전자 메일 설정 구성** 페이지는 가독성을 개선하기 위해 [구독 취소 목록](../email/list-unsubscribe.md), [헤더 매개 변수](../email/header-parameters.md) 및 [URL 추적](../email/url-tracking.md)을 위한 새로운 독립 실행형 페이지를 포함하여 여러 하위 페이지로 나누어졌습니다.
+* **이메일 설정 구성** 페이지의 가독성을 개선하기 위해 여러 하위 페이지로 나누고 [구독 취소 목록](../email/list-unsubscribe.md), [헤더 매개변수](../email/header-parameters.md), [URL 추적](../email/url-tracking.md)에 대한 새로운 독립형 페이지를 추가했습니다.
 
 ## 2024년 12월 {#nov-2024}
 

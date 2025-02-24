@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 목록 구독 취소 구성
-description: 채널 구성을 설정할 때 한 번의 클릭으로 이메일 헤더에 구독 취소 URL을 포함하는 방법을 알아봅니다
+description: 채널 구성을 설정할 때 이메일 헤더에 원클릭 구독 취소 URL을 포함하는 방법 알아보기
 feature: Email, Surface
 topic: Administration
 role: Admin
@@ -11,8 +11,8 @@ keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

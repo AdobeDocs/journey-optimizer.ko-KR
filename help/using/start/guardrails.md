@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 'Journey Optimizer 보호 및 제한 사항 '
-description: Journey Optimizer 보호 기능에 대해 자세히 알아보기
+title: 'Journey Optimizer 가드레일 및 제한 사항 '
+description: Journey Optimizer 가드레일에 대해 자세히 알아보기
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,13 +11,13 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
 source-wordcount: '2305'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
-# 보호 및 제한 사항 {#limitations}
+# 가드레일 및 제한 사항 {#limitations}
 
-[!DNL Adobe Journey Optimizer] 사용 시 다음과 같은 추가 보호 기능 및 제한 사항이 있습니다.
+[!DNL Adobe Journey Optimizer] 사용 시 다음과 같은 추가 가드레일 및 제한 사항이 있습니다.
 
 자격, 제품 제한 사항, 성능 가드레일 목록은 [Adobe Journey Optimizer 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에서 확인하실 수 있습니다.
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->드문 경우지만 특정 지역에서 일시적으로 중단하면 유효한 프로필이 여정에서 제외되거나 메일이 바운스로 잘못 표시될 수 있습니다. 서비스가 복원되면 여정 로그를 다시 확인하고 동의 프로필 필드를 확인한 다음 필요한 경우 여정을 다시 게시하십시오. ISP 중단 시 [이 섹션](../configuration/manage-suppression-list.md#remove-from-suppression-list)의 제외 목록에서 프로필을 제거하는 방법을 알아보세요.
+>드문 경우지만 특정 지역에서 일시적으로 서비스가 중단되면 유효한 프로필이 여정에서 제외되거나 메일이 바운스로 잘못 표시될 수 있습니다. 서비스가 복원되면 여정 로그를 재점검하고 동의 프로필 필드를 확인한 다음 필요한 경우 여정을 다시 게시합니다. ISP 중단 시 금지 목록에서 프로필을 제거하는 방법은 [이 섹션](../configuration/manage-suppression-list.md#remove-from-suppression-list)에서 확인할 수 있습니다.
 >
 
 ## 지원되는 브라우저 {#browsers}
@@ -38,7 +38,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * [!DNL Journey Optimizer]에서는 이메일에 첨부 파일을 추가할 수 없습니다.
 * 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.
 
-## 데이터 세트 보호 {#datasets-guardrails}
+## 데이터 세트 가드레일 {#datasets-guardrails}
 
 2025년 2월부터 TTL(time-to-live) 가드레일이 다음과 같이 **새 샌드박스 및 새 조직**&#x200B;에서 Journey Optimizer 시스템 생성 데이터 세트로 배포됩니다.
 
@@ -115,7 +115,7 @@ Decisioning 또는 Decisioning Management 작업 시 기억해야 할 보호 사
 
 ### 사용자 정의 액션 {#custom-actions-g}
 
-* 모든 사용자 정의 작업의 호스트 및 샌드박스당 1분간 300,000개의 호출 상한 설정이 정의됩니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 대상자 기반 여정에서 이를 고려하여 적절한 읽기 속도(사용자 정의 작업 사용 시 프로필 5,000개/초)를 정의해야 합니다. 필요한 경우 Capping/Throttling API를 통해 상한 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
+* 모든 사용자 정의 작업의 호스트 및 샌드박스당 1분간 300,000개의 호출 상한 설정이 정의됩니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 이는 적절한 읽기 속도(사용자 정의 작업 사용 시 프로필 5,000개/초)를 정의함으로써 대상자 기반 여정에서 고려되어야 합니다. 필요한 경우 Capping/Throttling API를 통해 상한 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
 * 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다. 
 * POST, PUT 및 GET 호출 메서드가 지원됩니다.
 * 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;로 시작해서는 안 됩니다.
@@ -130,8 +130,8 @@ Decisioning 또는 Decisioning Management 작업 시 기억해야 할 보호 사
 
 ### 이벤트 {#events-g}
 
-* Journey Optimizer은 초당 5,000개의 인바운드 여정 이벤트의 최대 볼륨을 지원합니다.
-* 여정 여정에서 첫 번째 작업을 처리하는 데 최대 5분이 걸릴 수 있습니다.
+* Journey Optimizer가 지원하는 인바운드 여정 이벤트의 최대 볼륨은 초당 5,000개입니다.
+* 이벤트 트리거 여정의 첫 번째 액션을 처리하는 데에는 최대 5분이 걸릴 수 있습니다.
 * 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Optimizer 내에서 구성해야 합니다.. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다. 
 * 비즈니스 이벤트는 단일 이벤트 또는 대상자 선별 활동과 함께 사용할 수 없습니다. 
 * 단일 여정(이벤트 또는 대상자 선별로 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하는 가드레일이 포함됩니다. 프로필 재진입은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03에 도착하는 경우(동일한 이벤트이든 동일한 여정을 트리거하는 다른 이벤트이든) 해당 여정은 이 프로필에 대해 다시 시작되지 않습니다.

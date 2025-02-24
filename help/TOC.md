@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '2191'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -379,8 +379,8 @@ ht-degree: 96%
          + [대상자 구성](using/audience/get-started-audience-orchestration.md)
          + [사용자 정의 업로드](using/audience/custom-upload.md)
          + [페더레이션된 대상자 구성](using/audience/federated-audience-composition.md)
-      + [캠페인 및 여정에서의 대상자 활성화](using/audience/target-audiences.md)
-      + [데이터 보강 속성 활용](using/audience/enrichment-attributes.md)
+      + [캠페인 및 여정에서 대상자 활성화](using/audience/target-audiences.md)
+      + [보강 속성 활용](using/audience/enrichment-attributes.md)
    + 프로필{#profiles}
       + [프로필 시작](using/audience/get-started-profiles.md)
       + [테스트 프로필 만들기](using/audience/creating-test-profiles.md)
