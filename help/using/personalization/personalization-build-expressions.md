@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: bc4ce563fe9af30373ba11279d886b598e1fcdcd
+source-git-commit: 962dbbb070bbfe944e174bc330659599a1101ebe
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 10%
@@ -26,8 +26,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="자동 완성"
->abstract="이 옵션을 전환하면 표현식을 입력하는 동안 시스템에서 코드를 자동으로 완료하고 제안을 할 수 있습니다. 이 옵션은 HTML 및 텍스트 형식에만 사용할 수 있습니다.
-"
+>abstract="이 옵션을 전환하면 표현식을 입력하는 동안 시스템에서 코드를 자동으로 완료하고 제안을 할 수 있습니다. 이 옵션은 HTML 및 텍스트 형식에만 사용할 수 있습니다."
 
 개인화 편집기는 [!DNL Journey Optimizer]에서 개인화의 중심입니다. 이메일, 푸시 및 오퍼와 같은 개인화를 정의해야 하는 모든 컨텍스트에서 사용할 수 있습니다.
 
