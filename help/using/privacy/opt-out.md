@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1056'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -143,7 +143,7 @@ ht-degree: 98%
 
 1. 오른쪽의 전용 버튼을 사용하여 시작할 대상자를 추가합니다.
 
-1. **+** 아이콘을 클릭하고 **[!UICONTROL 분할]** 활동을 선택하여 분할 대상을 만듭니다.
+1. **+** 아이콘을 클릭하고 **[!UICONTROL 분할]** 활동을 선택하여 분할 대상자를 만듭니다. 
 
    ![](assets/perso-consent-audience-split.png)
 

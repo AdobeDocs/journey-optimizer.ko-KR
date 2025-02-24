@@ -10,9 +10,9 @@ level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -83,13 +83,13 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 
 ## 목록 구독 취소 {#list-unsubscribe}
 
-목록에서 하위 도메인을 선택하면 **[!UICONTROL 목록 구독 취소 사용]** 옵션이 표시됩니다. 기본적으로 활성화되어 있습니다.
+목록에서 하위 도메인을 선택하면 **[!UICONTROL 목록 구독 취소 활성화]** 옵션이 표시됩니다. 이 옵션은 기본적으로 활성화되어 있습니다.
 
-원클릭 구독 취소 URL을 이메일 헤더에 포함할 수 있습니다. [자세히 알아보기](list-unsubscribe.md)
+이 옵션을 사용하면 원클릭 구독 취소 URL을 이메일 헤더에 포함할 수 있습니다. [자세히 알아보기](list-unsubscribe.md)
 
 ## 헤더 매개변수 {#email-header}
 
-**[!UICONTROL 헤더 매개 변수]** 섹션에서 해당 구성을 사용하여 보낸 전자 메일 형식과 관련된 보낸 사람 이름 및 전자 메일 주소를 입력합니다. [자세히 알아보기](header-parameters.md)
+**[!UICONTROL 헤더 매개변수]** 섹션에서 해당 구성을 사용하여 보내는 이메일 유형과 연결된 발신자 이름 및 이메일 주소를 입력합니다. [자세히 알아보기](header-parameters.md)
 
 ## BCC 이메일 {#bcc-email}
 
