@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: ca296c9aa3705985a1fafcb64ec0f3fbe2fe84fa
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '921'
 ht-degree: 9%
 
 ---
@@ -46,13 +46,14 @@ ht-degree: 9%
 
   ![](assets/inapp_config_8.png)
 
-* Journey Optimizer 모바일 경험의 배달 문제를 해결하려면 **Adobe Experience Platform Assurance** 내에서 **Edge Delivery** 보기를 사용할 수 있습니다. 이 플러그인을 사용하면 요청 호출을 자세히 검사하고, 예상 Edge 호출이 예상대로 발생하는지 확인하고, ID 맵, 세그먼트 멤버십 및 동의 설정을 포함한 프로필 데이터를 검사할 수 있습니다. 또한 요청이 자격을 부여한 활동을 검토하고 자격이 없는 활동을 식별할 수 있습니다.
+* Journey Optimizer 모바일 경험의 배달 문제를 해결하려면 **Adobe Experience Platform Assurance**&#x200B;에서 **Edge Delivery** 보기를 사용할 수 있습니다. 이 플러그인을 사용하면 요청 호출을 자세히 검사하고, 예상 Edge 호출이 예상대로 발생하는지 확인하고, ID 맵, 세그먼트 멤버십 및 동의 설정을 포함한 프로필 데이터를 검사할 수 있습니다. 또한 요청이 자격을 부여한 활동을 검토하고 자격이 없는 활동을 식별할 수 있습니다.
 
   **Edge Delivery** 플러그인을 사용하면 인바운드 구현을 효과적으로 이해하고 문제를 해결하는 데 필요한 인사이트를 얻을 수 있습니다.
 
   [Edge Delivery 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/view/edge-delivery)
 
 ## 인앱 구성 만들기 {#channel-prerequisites}
+
 
 1. **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 채널 구성]** 메뉴에 액세스한 다음 **[!UICONTROL 채널 구성 만들기]**&#x200B;를 클릭하십시오.
 
@@ -62,7 +63,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-`자를 사용할 수도 있습니다.
+   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점 `.`, 하이픈 `-`도 사용할 수 있습니다.
 
 1. 구성에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택할 수 있습니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요](../administration/object-based-access.md).
 
@@ -72,7 +73,11 @@ ht-degree: 9%
 
    ![](assets/inapp_config_9.png)
 
-1. 인앱 메시지를 적용할 플랫폼을 선택합니다.
+1. 설정을 정의할 플랫폼을 선택합니다. 이를 통해 각 플랫폼에 대한 대상 앱을 지정할 수 있으며, 여러 플랫폼에서 일관적으로 콘텐츠를 게재할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >iOS 및 Android 플랫폼의 경우 게재는 앱 ID만을 기반으로 합니다. 두 앱이 동일한 앱 ID를 공유하는 경우 **[!UICONTROL 채널 구성]**&#x200B;에서 선택한 플랫폼에 관계없이 콘텐츠가 두 앱 ID 모두에 전달됩니다.
 
    ![](assets/inapp_config_10.png)
 
