@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1091'
+ht-degree: 10%
 
 ---
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 * 대상 읽기, 대상 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 경험 이벤트 필드 그룹을 사용할 수 없습니다.
 
-* 여정에서 대상자 자격을 사용할 때 해당 대상자 자격 활동이 활성화되고 대상자에 들어오거나 나가는 프로필을 듣는 데 최대 10분이 걸릴 수 있습니다.
+* 여정에서 대상자 선별을 사용할 때 해당 대상자 선별 활동이 활성화되고 대상자에 들어오거나 나가는 프로필을 확인하는 데 최대 10분이 걸릴 수 있습니다.
 
-### 활동 구성{#cnfigure-segment-qualification}
+### 활동 구성 {#configure-segment-qualification}
 
 **[!UICONTROL 대상 자격]** 활동을 구성하려면 다음 단계를 수행합니다.
 
@@ -136,8 +136,8 @@ ht-degree: 0%
 
 ![](assets/segment-overload.png)
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
-대상자 자격 조건 여정의 사용 사례를 살펴봅니다. 대상자 자격 조건을 사용하여 여정을 작성하는 방법과 상황에 따라 적용할 모범 사례를 알아봅니다.
+대상자 선별 여정의 사용 사례를 살펴봅니다. 대상자 선별을 사용하여 여정을 작성하는 방법과 상황에 따라 적용할 모범 사례를 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

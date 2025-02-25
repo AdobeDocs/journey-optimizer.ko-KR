@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 29%
+source-wordcount: '1124'
+ht-degree: 26%
 
 ---
 
@@ -64,11 +64,19 @@ ht-degree: 29%
 
 ## 여정 유형 {#journey-types}
 
-형식은 **[!UICONTROL 단일 이벤트]**, **[!UICONTROL 대상 자격]**, **[!UICONTROL 대상 읽기]** 또는 **[!UICONTROL 비즈니스 이벤트]**&#x200B;일 수 있습니다.
+여정 유형은 해당 여정에 사용된 활동에 따라 다릅니다. 다음과 같을 수 있습니다.
+
+* **[!UICONTROL 단일 이벤트]** - 단일 이벤트 여정이 특정 프로필에 연결되어 있습니다. 이벤트는 한 사람의 행동 또는 한 사람과 관련하여 발생하는 일에 관한 것입니다(예: 한 사람이 충성도 점수 10,000점에 도달함). [자세히 알아보기](../event/about-events.md).
+* **[!UICONTROL 비즈니스 이벤트]**. 비즈니스 이벤트 여정은 프로필과 관련되지 않은 이벤트로 시작합니다. 이벤트 구성은 기술 사용자가 수행하므로 편집할 수 없습니다. [자세히 알아보기](../event/about-events.md).
+* **[!UICONTROL 대상 자격]** - 대상 자격 여정은 개인이 여정에 들어오거나 앞으로 이동하도록 하기 위해 Adobe Experience Platform 대상의 프로필 시작 및 종료를 수신합니다. [자세히 알아보기](audience-qualification-events.md).
+* **[!UICONTROL 대상 읽기]** - 대상 여정 읽기에서 대상에 있는 모든 개인이 여정을 입력하고 여정에 포함된 메시지를 받습니다.  [자세히 알아보기](read-audience.md).
+
+
+[이 페이지](entry-management.md)에서 여정 유형 및 관련 항목 관리에 대해 자세히 알아보세요.
 
 ## 여정 상태 {#journey-statuses}
 
-여정 상태는 다음과 같을 수 있습니다.
+여정 상태는 라이프사이클에 따라 다릅니다. 다음과 같을 수 있습니다.
 
 * **닫힘**: **새 출입구에 닫기** 단추를 사용하여 여정을 닫았습니다. 이 여정은 새로운 개인이 여정에 입력하는 것을 중단합니다. 이미 여정에 있는 사람은 여정을 정상적으로 완료할 수 있습니다.
 * **초안**: 여정이 첫 번째 단계에 있습니다. 아직 게시되지 않았습니다.
