@@ -4,15 +4,27 @@ description: 승인 정책을 만들고 관리하는 방법을 알아봅니다.
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
+source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 3%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
-
 # 승인 정책 만들기 및 관리 {#approval-policies}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="승인 요청"
+>abstract="승인 요청"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="변경 요청"
+>abstract="변경 요청"
+
 
 >[!NOTE]
 >
@@ -21,6 +33,13 @@ ht-degree: 3%
 승인 정책을 사용하면 관리자가 여정 및 캠페인에 대한 유효성 검사 프로세스를 설정할 수 있습니다. 이 시스템은 여정 또는 캠페인에 승인이 필요한지 여부를 결정하는 특정 조건을 간략하게 설명합니다. 이러한 정책은 단순히 모든 캠페인을 특정 사용자 또는 팀이 검토하도록 하는 것에서부터 캠페인을 만든 사람을 기준으로 기준을 설정하는 것까지 복잡성에 따라 달라질 수 있습니다.
 
 ## 승인 정책 만들기 {#create-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="새 승인 정책"
+>abstract="이 화면에서 이름을 입력하고 승인 정책에 대한 컨텍스트를 선택한 다음 조건을 작성하여 승인 요청을 시작할 수 있는 사용자와 승인 요청을 검증할 수 있는 사용자를 결정합니다."
+
+승인 정책을 만들려면 다음 단계를 수행합니다.
 
 1. Journey Optimizer의 **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 권한]** 및 **[!UICONTROL 정책]**&#x200B;에 액세스합니다.
 
@@ -34,9 +53,11 @@ ht-degree: 3%
 
    ![](assets/policy_create_2.png)
 
-이제 조건을 세분화하여 승인 요청을 시작할 사용자와 승인 요청을 검증할 사용자를 지정할 수 있습니다.
+이제 조건을 세분화하여 승인 요청을 시작할 수 있는 사용자와 승인 요청을 검증할 수 있는 사용자를 지정할 수 있습니다.
 
 ## 승인 정책 조건 설정 {#conditions}
+
+승인 정책과 연관된 조건을 정의하려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL 승인 정책]**&#x200B;에 액세스합니다.
 
@@ -133,4 +154,3 @@ ht-degree: 3%
 1. **[!UICONTROL 정책]** 메뉴에서 필요에 따라 정책을 **[!UICONTROL 편집]**, **[!UICONTROL 비활성화]** 또는 **[!UICONTROL 복제]**&#x200B;하는 고급 옵션을 엽니다.
 
    ![](assets/policy_activate_2.png)
-
