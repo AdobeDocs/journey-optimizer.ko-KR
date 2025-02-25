@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '761'
 ht-degree: 26%
 
 ---
@@ -112,4 +112,6 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 이 [섹션](../reports/live-report.md)에서 여정 보고서에 대해 자세히 알아보세요.
 
-기존 여정을 복제하거나 여정의 새 버전을 만들 수 있습니다. [이 페이지](journey-ui.md)에서 방법 알아보기
+>[!NOTE]
+>
+>**live** 여정으로 수정해야 하는 경우 여정의 [새 버전을 만들고](journey-ui.md#journey-versions).
