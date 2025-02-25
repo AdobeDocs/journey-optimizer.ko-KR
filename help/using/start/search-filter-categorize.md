@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 87%
 
 ---
 
 # 검색, 필터, 정리 {#search-filter-organize}
 
-## 검색{#unified-search}
+## 검색 {#unified-search}
 
-Adobe Journey Optimizer 인터페이스의 모든 곳에서 상단 표시줄의 중앙에 있는 통합 Adobe Experience Cloud 검색 기능을 사용하여 샌드박스 전반의 에셋, 여정, 데이터세트 등을 찾을 수 있습니다.
+Adobe Journey Optimizer 인터페이스에서 상단 표시줄의 중앙에 있는 통합 Adobe Experience Cloud 검색 기능을 사용하여 샌드박스 전반의 에셋, 여정, 데이터 세트 등을 찾을 수 있습니다.
 
 상위 결과를 표시할 컨텐츠 입력을 시작합니다. 입력한 키워드에 대한 도움말 문서도 결과에 표시됩니다.
 
@@ -29,11 +29,11 @@ Adobe Journey Optimizer 인터페이스의 모든 곳에서 상단 표시줄의 
 
 ![](assets/search-and-filter.png)
 
-## 목록 필터링{#filter-lists}
+## 목록 필터링 {#filter-lists}
 
 대부분의 목록에서 검색 표시줄을 사용하여 특정 항목을 찾고 필터링 기준을 정의합니다.
 
-목록 왼쪽 위의 필터 아이콘을 클릭하여 필터에 액세스할 수 있습니다. 필터 메뉴에서는 표시할 요소를 다양한 기준에 따라 필터링할 수 있습니다. 예를 들어 특정 유형이나 상태인 요소, 사용자가 직접 만든 요소, 또는 지난 30일 내에 수정한 요소만 표시할 수 있습니다. 선택 사항은 컨텍스트에 따라 다릅니다.
+목록 왼쪽 위의 필터 아이콘을 클릭하여 필터에 액세스할 수 있습니다. 필터 메뉴에서는 표시된 요소를 다양한 조건에 따라 필터링할 수 있습니다. 특정 유형이나 상태의 요소, 직접 만든 요소 또는 지난 30일 동안 수정한 요소만 표시하도록 선택할 수 있습니다. 선택 사항은 컨텍스트에 따라 다릅니다.
 
 또한 [통합 태그]를 사용하여 개체에 할당된 태그를 기준으로 목록을 필터링할 수 있습니다. 현재는 여정과 캠페인에 태그를 사용할 수 있습니다. [태그 작업 방법 알아보기](#tags)
 
