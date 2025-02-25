@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 디자인, 캔버스, 여정, 인터페이스, 드래그, 놓기
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -59,13 +59,15 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 ![](assets/journey59bis.png)
 
-여정의 상태에 따라 오른쪽 상단 모서리에서 사용할 수 있는 단추를 사용하여 여정에서 다른 작업을 수행할 수 있습니다. **[!UICONTROL Publish]**, **[!UICONTROL 복제]**, **[!UICONTROL 삭제]**, **[!UICONTROL 테스트 모드]**, **[!UICONTROL 액세스 관리]**, **[!UICONTROL 경고]**. 이 단추는 활동을 선택하지 않은 경우에 나타납니다. 일부 단추가 컨텍스트에 따라 나타납니다. 테스트 모드가 활성화되면 테스트 모드 로그 버튼이 표시됩니다.
+여정의 상태에 따라 오른쪽 상단 모서리에서 사용할 수 있는 단추를 사용하여 여정에서 다른 작업을 수행할 수 있습니다. **[!UICONTROL 게시]**, **[!UICONTROL 복제]**, **[!UICONTROL 삭제]**, **[!UICONTROL 테스트 모드]**, **[!UICONTROL 액세스 관리]**, **[!UICONTROL 경고]**. 이 단추는 활동을 선택하지 않은 경우에 나타납니다. 일부 단추가 컨텍스트에 따라 나타납니다. 테스트 모드가 활성화되면 테스트 모드 로그 버튼이 표시됩니다.
 
 ![](assets/journey41.png)
 
 ## 여정 시작 {#start-your-journey}
 
-여정을 디자인할 때, 가장 먼저 질문할 질문은 프로필이 여정을 어떻게 입력하느냐입니다. 다음 두 가지 가능성이 있습니다.
+여정을 디자인할 때, 가장 먼저 질문할 질문은 프로필이 여정을 어떻게 입력하느냐입니다.
+
+다음 두 가지 가능성이 있습니다.
 
 1. **이벤트로 시작**: 여정이 이벤트를 수신하도록 설정되면 개인은 실시간으로 여정 **일괄**&#x200B;을(를) 입력합니다. 여정에 포함된 메시지는 현재 여정에 유입되고 있는 사용자에게 전송됩니다. [이벤트에 대해 자세히 알아보기](../event/about-events.md)
 

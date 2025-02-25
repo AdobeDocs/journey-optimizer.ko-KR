@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
 
@@ -24,6 +24,11 @@ ht-degree: 100%
 [!DNL Adobe Journey Optimizer]은(는) 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 개인화 및 최적화를 위한 통합 실시간 고객 프로필, API 우선 오픈 프레임워크, 중앙 집중식 Offer Decisioning 및 AI(인공 지능) 및 ML(머신 러닝)을 결합합니다. Journey Optimizer를 사용하면 전체 고객 여정에서 규모, 속도 및 유연성과 함께 차세대 상호 작용을 지능적으로 결정할 수 있습니다. [!DNL Adobe Journey Optimizer]를 사용하면 회사는 동일한 애플리케이션 내에서 예약된 마케팅 캠페인(예: 소매점의 주별 홍보)과 개인화된 개별 커뮤니케이션(예: 충성도 앱 고객이 이전에 재고 부족 상태인 항목을 검토했을 수 있는 항목에 대한 푸시 알림)을 모두 만들고 게재할 수 있습니다.
 
 ➡️ [Journey Optimizer 살펴보기](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ko){target="_blank"}(비디오)
+
+
+<!-- Use [!DNL Adobe Journey Optimizer] to build multi-step customer journeys that initiate a sequence of interactions, offers, and messages across channels in real time. This approach ensures customers are engaged at the optimal moments based on their actions and relevant business signals. Learn how to build journeys in [this section](../building-journeys/journey-gs.md).
+
+You can also create audience-based campaigns to send messages.-->
 
 
 ## 사용 사례 {#use-cases}
@@ -66,4 +71,4 @@ ht-degree: 100%
 >* [시작하는 주요 단계](quick-start.md)
 >* [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md)
 >* [라이브 보고서](../reports/live-report.md)
->* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)(PDF)
+>* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)&#x200B;(PDF)

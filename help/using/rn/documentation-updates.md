@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '6117'
+source-wordcount: '6152'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 97%
 
 ## 2025년 2월 {#feb-2025}
 
+* 첫 번째 여정을 만드는 단계가 자세히 설명되어 있으며 설명서 섹션에 대한 링크가 추가되었습니다. [자세히 보기](../building-journeys/journey-gs.md)
+* 이제 새 페이지에서 여정 관리 사용자 인터페이스 여정을 자세히 확인할 수 있습니다. [자세히 보기](../building-journeys/journey-ui.md)
 * **[!UICONTROL 전송 시간 최적화]** 및 관련 FAQ에 대한 설명서를 업데이트 및 개선하고 새 전용 페이지로 이동했습니다. [자세히 보기](../building-journeys/send-time-optimization.md)
 * 여정 이벤트에 대한 새 가드레일을 추가했습니다. [자세히 보기](../start/guardrails.md#events-g)
 * 기본 제공 채널 액션 페이지를 재구성했습니다. [자세히 보기](../building-journeys/journeys-message.md)
