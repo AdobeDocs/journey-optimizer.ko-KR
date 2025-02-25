@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 766530a2f443a2795d61161c9d08de299a5363d6
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 22%
+source-wordcount: '604'
+ht-degree: 32%
 
 ---
 
@@ -22,11 +22,6 @@ ht-degree: 22%
 >id="ajo_multi_translation_homepage"
 >title="번역"
 >abstract="다국어 기능을 사용하면 단일 캠페인 또는 여정 내에 여러 언어로 된 콘텐츠를 손쉽게 만들 수 있습니다. 번역 페이지를 통해 프로젝트를 설정하거나 번역 제공자를 선택하거나 로케일별 사전을 관리할 수 있습니다."
-
->[!IMPORTANT]
->
->다국어 콘텐츠 만들기를 시작하려면 사용자에게 **[!UICONTROL 언어 설정 관리]** 권한이 부여되어야 합니다.
->자동 흐름의 경우 사용자는 **[!UICONTROL 번역 서비스]** 기능과 관련된 권한도 필요합니다. [권한에 대해 자세히 알아보기](../administration/permissions.md)
 
 다국어 기능을 사용하면 단일 캠페인 또는 여정 내에서 손쉽게 여러 언어로 콘텐츠를 만들 수 있습니다. 이 기능을 사용하면 캠페인을 편집할 때 언어 간에 전환할 수 있으므로 전체 편집 프로세스를 간소화하고 다국어 콘텐츠를 효율적으로 관리할 수 있습니다.
 
@@ -55,27 +50,53 @@ Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서
 
 번역과 관련된 문제 또는 지원 요청은 해당 번역 공급업체에 문의하십시오.
 
-Journey Optimizer에서 번역 기능을 사용하려면 해당 역할에 API를 할당해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+다국어 콘텐츠의 경우 다음 설정을 정의해야 합니다.
 
-번역 페이지에 액세스할 수 없는 경우 번역 기능을 활성화하고 **[!UICONTROL 번역 서비스]** 관련 권한을 부여해야 합니다. [자세히 알아보기](../administration/ootb-permissions.md)
+* Journey Optimizer에서 번역 기능을 사용하려면 해당 역할에 API를 할당해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
-+++ 번역 기능 활성화 방법 알아보기
+* 다국어 콘텐츠 만들기를 시작하려면 사용자에게 **[!UICONTROL 언어 설정 관리]** 권한이 부여되어야 합니다. 자동 흐름의 경우 사용자는 **[!UICONTROL 번역 서비스]** 기능과 관련된 권한도 필요합니다. [권한에 대해 자세히 알아보기](../administration/permissions.md)
 
-1. 다음 오류 페이지가 표시되면 **[!UICONTROL 번역]** 기능이 아직 활성화되지 않았음을 나타냅니다. 조직 및 샌드박스 관리자에게 문의하십시오. 액세스 권한 요청.
++++ 다국어 관련 권한을 할당하는 방법 알아보기
 
-   ![](assets/multi-troubleshoot.png)
+   1. **권한** 제품에서 **역할** 탭으로 이동하여 원하는 **역할**&#x200B;을 선택하십시오.
 
-1. 관리자가 왼쪽 사이드바의 **[!UICONTROL 번역]** 메뉴로 이동해야 합니다.
+   1. 권한을 수정하려면 **편집**&#x200B;을 클릭하십시오.
 
-   번역 기능이 자동으로 활성화됩니다.
+   1. **번역 서비스** 리소스를 추가한 다음 드롭다운 메뉴에서 적절한 다국어 권한을 선택합니다.
 
-1. 기능을 활성화하면 **[!UICONTROL 프로젝트]**, **[!UICONTROL 공급자]** 및 **[!UICONTROL 로케일]** 탭과 함께 **[!UICONTROL 번역]** 페이지에 액세스할 수 있습니다.
+      ![](assets/multilingual-permission.png){zoomable="yes"}
 
-1. 이 절차가 실패해도 동일한 오류 페이지가 표시됩니다. 이 경우 추가 지원이 필요한 경우 Adobe 담당자에게 문의하십시오.
+   1. 변경 내용을 적용하려면 **저장**&#x200B;을 클릭하십시오.
+
+      이 역할에 이미 할당된 모든 사용자의 권한은 자동으로 업데이트됩니다.
+
+   1. 새 사용자에게 이 역할을 할당하려면 **역할** 대시보드의 **사용자** 탭으로 이동하여 **사용자 추가**&#x200B;를 클릭하십시오.
+
+   1. 사용자 이름, 이메일 주소를 입력하거나 목록에서 선택한 다음 **저장**&#x200B;을 클릭합니다.
+
+   1. 이전에 사용자를 생성하지 않은 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하십시오.
 
 +++
 
-## 방법 비디오 {#video}
+* 번역 페이지에 액세스할 수 없는 경우 번역 기능을 활성화하고 **[!UICONTROL 번역 서비스]** 관련 권한을 부여해야 합니다. [자세히 알아보기](../administration/ootb-permissions.md)
+
++++ 번역 기능 활성화 방법 알아보기
+
+   1. 다음 오류 페이지가 표시되면 **[!UICONTROL 번역]** 기능이 아직 활성화되지 않았음을 나타냅니다. 액세스를 요청하려면 조직 및 샌드박스 관리자에게 문의하십시오.
+
+  ![](assets/multi-troubleshoot.png)
+
+   1. 관리자가 왼쪽 사이드바의 **[!UICONTROL 번역]** 메뉴로 이동해야 합니다.
+
+      번역 기능이 자동으로 활성화됩니다.
+
+   1. 기능을 활성화하면 **[!UICONTROL 프로젝트]**, **[!UICONTROL 공급자]** 및 **[!UICONTROL 로케일]** 탭과 함께 **[!UICONTROL 번역]** 페이지에 액세스할 수 있습니다.
+
+   1. 이 절차가 실패해도 동일한 오류 페이지가 표시됩니다. 이 경우 추가 지원이 필요한 경우 Adobe 담당자에게 문의하십시오.
+
++++
+
+## 사용 방법 비디오 {#video}
 
 단일 캠페인 또는 여정 내에서 여러 언어로 콘텐츠를 만드는 방법을 알아봅니다.
 
