@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 keywords: 수직 정렬, 이메일 편집기, 패딩
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 17%
+source-wordcount: '147'
+ht-degree: 14%
 
 ---
 
-# 세로 정렬 및 패딩 조정 {#alignment-and-padding}
+# 수직 정렬 및 패딩 조정 {#alignment-and-padding}
 
 이 예제에서는 3개의 열로 구성된 구조 구성 요소 내부의 패딩 및 수직 정렬을 조정합니다.
 

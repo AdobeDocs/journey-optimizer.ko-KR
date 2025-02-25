@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 97%
+source-wordcount: '2168'
+ht-degree: 92%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 97%
       + 기술 사용 사례 {#technical-use-cases} 
          + [사용자 정의 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
          + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
+         + [외부 데이터 소스 및 사용자 지정 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
          + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 캠페인{#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
@@ -182,8 +182,8 @@ ht-degree: 97%
    + [우선 순위 점수 할당](using/conflict-prioritization/priority-scores.md)
    + [여정 캡핑 및 중재](using/conflict-prioritization/journey-capping.md)
 + 테스트 및 승인 {#test}
-   + 콘텐츠 미리 보기 및 테스트 {#preview-test}
-      + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
+   + {#preview-test} 콘텐츠 미리 보기 및 테스트
+      + [미리보기 및 테스트 시작](using/content-management/preview-test.md)
       + [테스트 프로필 선택](using/content-management/test-profiles.md)
       + [콘텐츠 미리 보기](using/content-management/preview.md)
       + [이메일 교정쇄 보내기](using/content-management/proofs.md)
@@ -217,7 +217,7 @@ ht-degree: 97%
          + 스타일 편집 {#edit-style}
             + [이메일 스타일 시작](using/email/get-started-email-style.md)
             + [배경 설정 편집](using/email/backgrounds.md)
-            + [세로 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
+            + [수직 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
             + [인라인 스타일 속성 추가](using/email/inline-styling.md)
       + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
       + 이메일 채널 구성 {#configure-email}
@@ -233,12 +233,12 @@ ht-degree: 97%
       + [모바일 인앱 메시지 만들기](using/in-app/create-in-app.md)
       + [웹 인앱 메시지 만들기](using/in-app/create-in-app-web.md)
       + [인앱 콘텐츠 디자인 ](using/in-app/design-in-app.md)
-      + [인앱 알림 확인하고 보내기](using/in-app/send-in-app.md)
+      + [인앱 알림 확인 및 보내기](using/in-app/send-in-app.md)
    + 푸시 알림 채널{#push}
       + [푸시 알림 시작](using/push/get-started-push.md)
       + [푸시 알림 만들기](using/push/create-push.md)
       + [푸시 알림 디자인](using/push/design-push.md)
-      + [푸시 알림 확인하고 보내기](using/push/send-push.md)
+      + [푸시 알림 확인 및 보내기](using/push/send-push.md)
       + 푸시 알림 구성{#push-config}
          + [푸시 알림 흐름](using/push/push-gs.md)
          + [푸시 알림 채널 구성](using/push/push-configuration.md)
@@ -246,7 +246,7 @@ ht-degree: 97%
    + SMS / MMS 채널{#sms}
       + [텍스트 메시지 시작](using/sms/get-started-sms.md)
       + [문자 메시지(SMS/MMS) 만들기](using/sms/create-sms.md)
-      + [텍스트 메시지 확인하고 보내기](using/sms/send-sms.md)
+      + [문자 메시지 확인 및 보내기](using/sms/send-sms.md)
       + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
       + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
       + SMS / MMS 채널 구성{#configure-sms}
@@ -259,7 +259,7 @@ ht-degree: 97%
    + 다이렉트 메일 {#direct-mail}
       + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)
       + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)
-      + [다이렉트 메일 메시지 확인하고 보내기](using/direct-mail/test-send-direct-mail.md)
+      + [DM 메시지 확인 및 보내기](using/direct-mail/test-send-direct-mail.md)
       + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
    + 웹 채널 {#web}
       + [웹 채널 시작하기](using/web/get-started-web.md)
@@ -277,7 +277,7 @@ ht-degree: 97%
    + 코드 기반 경험 {#code-based-experience}
       + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)
       + 코드 기반 채널 구성 {#configure-code-based-channel}
-         + [가드레일 및 사전 지식](using/code-based/code-based-prerequisites.md)
+         + [보호 및 사전 요구 사항](using/code-based/code-based-prerequisites.md)
          + [코드 기반 경험 표면](using/code-based/code-based-surface.md)
          + [구현 방법 샘플](using/code-based/code-based-implementation-samples.md)
          + [코드 기반 경험 구성 만들기](using/code-based/code-based-configuration.md)
@@ -372,7 +372,7 @@ ht-degree: 97%
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
-+ 대상자, 프로필, ID{#audiences-profiles-identities}
++ 대상, 프로필 및 ID{#audiences-profiles-identities}
    + 대상자 {#audiences}
       + [대상자 시작](using/audience/about-audiences.md)
       + 대상자 만들기 {#create}
@@ -395,7 +395,7 @@ ht-degree: 97%
    + [Experience Manager 템플릿 작업](using/integrations/aem-templates.md)
    + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
    + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
-+ 추적 및 모니터링 {#reporting}
++ {#reporting} 추적 및 모니터링
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)
       + [구성 요소 목록](using/reports/live-report-components.md)
@@ -407,7 +407,7 @@ ht-degree: 97%
       + [전체 기간 보고서 시작](using/reports/report-gs-cja.md)
       + [Customer Journey Analytics 수동 구성](using/reports/cja-ajo.md)
       + [보고서 관리](using/reports/report-cja-manage.md)
-      + [보고 및 실험 전제 조건](using/reports/reporting-configuration.md)
+      + [보고 및 실험 사전 요구 사항](using/reports/reporting-configuration.md)
       + 캠페인 보고서{#reporting}
          + [캠페인 보고서](using/reports/campaign-global-report-cja.md)
          + [코드 기반 캠페인 보고서](using/reports/campaign-global-report-cja-code.md)
@@ -506,14 +506,14 @@ ht-degree: 97%
             + [자동 최적화 모델](using/offers/ranking/auto-optimization-model.md)
             + [개인화된 최적화 모델](using/offers/ranking/personalized-optimization-model.md)
             + [AI 모델 만들기](using/offers/ranking/create-ranking-strategies.md)
-      + 오퍼 만들기 및 관리 {#managing-offers-in-the-offer-library}
+      + 오퍼 {#managing-offers-in-the-offer-library} 만들기 및 관리
          + 오퍼 구성 {#configure-offers}
             + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
             + [표시 추가](using/offers/offer-library/add-representations.md)
             + [제한 추가](using/offers/offer-library/add-constraints.md)
          + [대체 오퍼 만들기](using/offers/offer-library/creating-fallback-offers.md)
          + [컬렉션 만들기](using/offers/offer-library/creating-collections.md)
-      + 의사 결정을 만들고 관리하기 {#create-manage-activities}
+      + 결정 {#create-manage-activities} 만들기 및 관리
          + [의사 결정 만들기](using/offers/offer-activities/create-offer-activities.md)
          + [의사 결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
          + [시뮬레이션 만들기](using/offers/offer-activities/simulation.md)
@@ -538,7 +538,7 @@ ht-degree: 97%
          + [대체 데이터 세트](using/offers/export-catalog/export-fallback.md)
       + API 참조 {#api-reference}
          + [시작](using/offers/api-reference/getting-started.md)
-         + API를 사용하여 오퍼를 만들고 관리 {#offers-api}
+         + API {#offers-api}을(를) 사용하여 오퍼 만들기 및 관리
             + 배치 {#placements}
                + [배치 나열](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [배치 조회](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -669,7 +669,7 @@ ht-degree: 97%
    + [비즈니스 규칙 구성](using/configuration/frequency-rules.md)
    + [규칙 집합 작업](using/configuration/rule-sets.md)
    + 여정 구성 {#configure-journeys}
-      + [데이터 소스, 이벤트 및 작업 정보](using/configuration/about-data-sources-events-actions.md)
+      + [데이터 소스, 이벤트 및 작업 구성](using/configuration/about-data-sources-events-actions.md)
       + 외부 시스템과 통합 {#external-systems}
          + [여정을 외부 시스템과 통합하기](using/configuration/external-systems.md)
          + [Capping API](using/configuration/capping.md)
@@ -716,4 +716,4 @@ ht-degree: 97%
       + [옵트아웃 관리](using/privacy/opt-out.md)
       + [동의 정책 사용](using/action/consent.md)
    + [데이터 거버넌스](using/action/action-privacy.md)
-   + [고객 관리형 키 설정 및 관리](using/privacy/cmk.md)
+   + [고객 관리 키 설정 및 관리](using/privacy/cmk.md)

@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: 구성, 여정, 대시보드, 데이터 소스, 이벤트, 작업
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 65%
+source-wordcount: '408'
+ht-degree: 62%
 
 ---
 
-# 여정 구성 {#configure-journeys}
+# 데이터 소스, 이벤트 및 작업 구성 {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
@@ -35,7 +35,7 @@ Data Source 구성을 사용하면 여정에서 사용할 추가 정보를 검�
 
 이벤트를 사용하면 여정을 통합적으로 트리거하여 여정에 참여하는 개인에게 실시간으로 메시지를 보낼 수 있습니다.
 
-이벤트 구성에서 여정에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe 경험 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다. [자세히 알아보기](../../using/event/about-events.md)
+이벤트 구성에서 여정에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe Experience 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다. [자세히 알아보기](../../using/event/about-events.md)
 
 ## 작업 {#actions}
 
@@ -45,7 +45,7 @@ Journey Optimizer 메시지 기능 기본 제공: 여정에 채널 작업 활동
 
 [이벤트 페이로드](../event/about-creating.md#define-the-payload-fields)와 [필드 그룹 페이로드](../datasource/configure-data-sources.md#define-field-groups)를 정의하고 [표현식 편집기](../building-journeys/expression/expressionadvanced.md)에서 필드를 선택할 때는 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
 
-스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 입력하면 사용자에게 친숙한 이름이 표시 이름 대신 표시됩니다. &quot;eVars&quot; 및 일반 필드로 작업할 때 특히 유용합니다. API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko){target="_blank"}를 참조하십시오.
+스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 입력하면 사용자에게 친숙한 이름이 표시 이름 대신 표시됩니다. 이 변수는 &quot;eVar&quot; 및 일반 필드로 작업할 때 특히 유용합니다. API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ![](assets/xdm-from-descriptors.png)
 

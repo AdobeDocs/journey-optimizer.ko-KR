@@ -9,14 +9,14 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, PTR, 레코드, DNS, 도메인, 메일
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '842'
 ht-degree: 9%
 
 ---
 
-# PTR 기록 {#ptr-records}
+# PTR 레코드 만들기 및 편집 {#ptr-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
@@ -36,7 +36,7 @@ PTR 기록을 사용하여 수신 메일 서버는 해당 IP 주소가 서버가
 
 ## 하위 도메인의 PTR 레코드 액세스 {#access-ptr-records}
 
-[!DNL Journey Optimizer]에서 Adobe에 첫 번째 하위 도메인을 [위임](delegate-subdomain.md)하면 IP에 대한 PTR 레코드가 자동으로 만들어집니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL PTR 레코드]** 메뉴에서 액세스할 수 있습니다.
+[!DNL Journey Optimizer]에서 첫 번째 하위 도메인을 Adobe에 [위임](delegate-subdomain.md)하면 IP에 대한 PTR 레코드가 자동으로 만들어집니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL PTR 레코드]** 메뉴에서 액세스할 수 있습니다.
 
 ![](assets/ptr-records.png)
 
@@ -50,7 +50,7 @@ PTR 기록을 사용하여 수신 메일 서버는 해당 IP 주소가 서버가
 
 ## PTR 기록 편집 {#edit-ptr-record}
 
-[!DNL Journey Optimizer]에서 PTR 레코드를 수동으로 만들 수 없습니다. 대신, 첫 번째 하위 도메인을 Adobe에 [위임](delegate-subdomain.md)하면 IP에 대한 PTR 레코드가 자동으로 만들어집니다.
+[!DNL Journey Optimizer]에서 PTR 레코드를 수동으로 만들 수 없습니다. 대신 첫 번째 하위 도메인을 Adobe에 [위임](delegate-subdomain.md)하면 IP에 대한 PTR 레코드가 자동으로 만들어집니다.
 
 각 IP는 단일 PTR 레코드를 수신합니다. 모든 PTR 레코드의 형식은 &#39;rxx.subdomain&#39;입니다. 여기서 &#39;subdomain&#39;은 [!DNL Journey Optimizer]에서 위임한 첫 번째 하위 도메인입니다.
 
@@ -64,13 +64,13 @@ PTR 기록을 사용하여 수신 메일 서버는 해당 IP 주소가 서버가
 
 ### 완전히 위임된 하위 도메인 {#fully-delegated-subdomains}
 
-Adobe에 [완전히 위임됨](delegate-subdomain.md#full-subdomain-delegation)인 하위 도메인으로 PTR 레코드를 편집하려면 아래 단계를 따르십시오.
+Adobe에 [완전히 위임](delegate-subdomain.md#full-subdomain-delegation)된 하위 도메인으로 PTR 레코드를 편집하려면 아래 단계를 따르십시오.
 
 1. 목록에서 PTR 레코드 이름을 클릭하여 엽니다.
 
    ![](assets/ptr-record-select.png)
 
-1. 목록에서 Adobe에 대한 하위 도메인 [완전히 위임됨](delegate-subdomain.md#full-subdomain-delegation)을(를) 선택하십시오.
+1. 목록에서 Adobe에 [완전히 위임됨](delegate-subdomain.md#full-subdomain-delegation) 하위 도메인을 선택하십시오.
 
    ![](assets/ptr-record-subdomain.png)
 

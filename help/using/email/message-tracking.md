@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 35%
+source-wordcount: '1054'
+ht-degree: 34%
 
 ---
 
@@ -160,7 +160,7 @@ ht-degree: 35%
    * **[!UICONTROL 미러 페이지]**: 이 URL을 미러 페이지 URL로 간주합니다.
    * **[!UICONTROL 사용 안 함]**: 이 URL의 추적을 활성화하지 않습니다.
 
-열기 및 클릭에 대한 보고는 [실시간 보고서](../reports/live-report.md) 및 [Customer Journey Analytics 보고서](../reports/report-gs-cja.md)에서 사용할 수 있습니다.
+열기 및 클릭에 대한 보고는 [라이브 보고서](../reports/live-report.md) 및 [Customer Journey Analytics 보고서](../reports/report-gs-cja.md)에서 사용할 수 있습니다.
 
 ## URL 추적 개인화 {#url-tracking}
 

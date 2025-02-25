@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2305'
-ht-degree: 95%
+source-wordcount: '2333'
+ht-degree: 94%
 
 ---
 
@@ -64,6 +64,10 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 [!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타기팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로, 사용자가 계약 시 구입한 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 각 패키지별 라이선스 지표 목록은 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에서 확인할 수 있습니다.
 
+### 코드 기반 채널 보호 {#code-based-guardrails}
+
+[!DNL Journey Optimizer]에서 코드 기반 경험 작업을 사용하고 응용 프로그램에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에 설명된 필수 구성 요소를 따르십시오.
+
 ## 하위 도메인 가드레일 {#subdomain-guardrails}
 
 기본적으로,[!DNL Journey Optimizer] 총 10개까지 하위 도메인을 위임할 수 있습니다(이메일 및 웹 채널 모두 포함).
@@ -85,6 +89,7 @@ Decisioning 또는 Decisioning Management 작업 시 기억해야 할 보호 사
 
 * [보호 및 제한 사항 결정](../experience-decisioning/decisioning-guardrails.md)
 * [의사 결정 관리 보호 및 제한 사항](../offers/decision-management-guardrails.md)
+
 
 ## 여정 보호  {#journeys-guardrails}
 

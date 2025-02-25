@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 제품, 프로필, 샌드박스
-source-git-commit: be372f8f80d304067748d539fb8e210df6280721
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 7%
+source-wordcount: '739'
+ht-degree: 6%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 7%
 
 1. **[!UICONTROL 리소스]** 메뉴에 **[!UICONTROL Experience Cloud - 플랫폼 기반 응용 프로그램]** 제품에 적용되는 리소스 목록이 표시됩니다. 리소스를 드래그 앤 드롭하여 권한을 할당합니다.
 
-   **[!UICONTROL 여정]** 리소스 드롭다운에서 여기에서 Publish 여정 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
+   **[!UICONTROL 여정]** 리소스 드롭다운에서 게시 여정 **[!UICONTROL 권한]**&#x200B;을 선택합니다.
 
    ![](assets/do-not-localize/access_control_14.png)
 
@@ -125,4 +125,4 @@ ht-degree: 7%
 
 이제 **[!UICONTROL 역할]**&#x200B;이 만들어지고 구성되었습니다. 이제 사용자에게 할당합니다.
 
-역할 만들기 및 관리에 대한 자세한 내용은 [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=ko)를 참조하세요.
+역할 만들기 및 관리에 대한 자세한 내용은 [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html)를 참조하세요.
