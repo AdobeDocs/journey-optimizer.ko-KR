@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 33%
+source-wordcount: '765'
+ht-degree: 26%
 
 ---
 
@@ -28,18 +28,15 @@ ht-degree: 33%
 >title="여정"
 >abstract="고객 여정 설계를 통해 개인화된 상황별 경험을 제공할 수 있습니다. Journey Optimizer를 사용하면 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다. **개요** 탭에는 여정과 관련된 주요 지표가 포함된 대시보드가 &#x200B;&#x200B;표시됩니다. **찾아보기** 탭에는 기존 여정의 목록이 표시됩니다."
 
+채널 간에 실시간으로 상호 작용, 오퍼 및 메시지를 시작하는 여러 단계로 구성된 고객 여정을 구축할 수 있습니다. 이 접근 방식은 고객이 자신의 행동과 관련 비즈니스 신호를 기반으로 최적의 순간에 참여할 수 있도록 합니다.
 
-Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조화롭게 조정할 수 있는 옴니채널 오케스트레이션 캔버스가 포함되어 있습니다. 사용자 인터페이스를 사용하면 팔레트에서 캔버스로 활동을 쉽게 드래그 앤 드롭하여 여정을 작성할 수 있습니다.
+![여정 캔버스 샘플](assets/journey38.png)
 
-![](assets/journey38.png)
+Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조화롭게 조정할 수 있는 옴니채널 오케스트레이션 캔버스가 포함되어 있습니다. 사용자 인터페이스를 사용하면 팔레트에서 캔버스로 활동을 쉽게 끌어다 놓아 여정을 빌드할 수 있습니다. 여정 사용자 인터페이스는 [이 페이지](journey-ui.md)에 자세히 설명되어 있습니다.
 
-캠페인을 만드는 주요 단계는 다음과 같습니다.
+여정을 만드는 주요 단계는 이 페이지에 자세히 설명되어 있습니다. 다음과 같이 간소화됩니다.
 
-![](assets/journey-creation-process.png)
-
-➡️ [비디오에서 이 기능 살펴보기](#video)
-
-여정 사용자 인터페이스는 [이 페이지](journey-ui.md)에 자세히 설명되어 있습니다.
+![여정 만들기 단계: 만들기, 디자인, 테스트 및 게시](assets/journey-creation-process.png)
 
 
 ## 전제 조건 {#start-prerequisites}

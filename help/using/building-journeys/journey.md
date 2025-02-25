@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 38%
 
 ---
@@ -31,6 +31,8 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 여러
 * **여정 디자이너**&#x200B;를 사용하면 여러 단계로 이루어진 사용 사례를 구축할 수 있습니다. 간단하게 시작 이벤트나 대상자 읽기 활동을 끌어다 놓고 조건을 추가하며 개인화된 메시지를 보내세요.
 
 [이 여정](journey-gs.md)에서 첫 번째 페이지를 만들고 디자인하는 방법을 알아보세요.
+
+➡️0}비디오에서 Journey Optimizer 검색](#video)[
 
 ## 사용 사례{#uc-journey}
 
