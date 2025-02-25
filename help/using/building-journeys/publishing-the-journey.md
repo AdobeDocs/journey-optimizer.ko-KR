@@ -9,22 +9,25 @@ role: User
 level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '305'
 ht-degree: 5%
 
 ---
 
 # 여정 게시 {#publishing-the-journey}
 
-여정을 활성화하려면 게시를 하고 새 프로필에서 입력할 수 있도록 해야 합니다. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다. [이 페이지](testing-the-journey.md)에서 여정을 테스트하는 방법을 알아보세요.
+여정을 활성화하려면 게시를 하고 새 프로필에서 입력할 수 있도록 해야 합니다. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
 여정 게시 단계는 아래에 자세히 설명되어 있습니다.
 
-1. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다. [이 섹션](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)에서 여정 문제를 해결하는 방법을 알아보세요.
+1. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다.
+
+   * [이 페이지](testing-the-journey.md)에서 여정을 테스트하는 방법을 알아보세요.
+   * [이 섹션](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)에서 여정 오류를 해결하는 방법을 알아봅니다.
 
 1. 여정을 게시하려면 오른쪽 상단 드롭다운 메뉴에 있는 **[!UICONTROL 게시]** 옵션을 클릭합니다.
 
