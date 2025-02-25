@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 27c448948b4bcee97f8bbba1a7144bfef796905f
+source-git-commit: 9cab78c89d0885b6da6b43a444754e9ad1e17ae0
 workflow-type: tm+mt
-source-wordcount: '2333'
+source-wordcount: '2335'
 ht-degree: 93%
 
 ---
@@ -33,11 +33,6 @@ ht-degree: 93%
 
 Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome에서 최적으로 작동되도록 디자인되었습니다. 이전 버전 또는 기타 브라우저에서 특정 기능을 사용하는 데 문제가 있을 수 있습니다.
 
-## 메시지 보호 {#message-guardrails}
-
-* [!DNL Journey Optimizer]에서는 이메일에 첨부 파일을 추가할 수 없습니다.
-* 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.
-
 ## 데이터 세트 가드레일 {#datasets-guardrails}
 
 2025년 2월부터 TTL(time-to-live) 가드레일이 다음과 같이 **새 샌드박스 및 새 조직**&#x200B;에서 Journey Optimizer 시스템 생성 데이터 세트로 배포됩니다.
@@ -47,28 +42,35 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 이 변경 사항은 후속 단계에서 **기존 고객 샌드박스**&#x200B;로 롤아웃됩니다. [데이터 세트 TTL(Time-To-Leave) 보호 기능에 대해 자세히 알아보기](../data/datasets-ttl.md)
 
+## 채널 보호 {#channel-guardrails}
+
+### 이메일 보호 기능 {#message-guardrails}
+
+* [!DNL Journey Optimizer]에서는 이메일에 첨부 파일을 추가할 수 없습니다.
+* 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.
+
+### SMS 가드레일 {#sms-guardrails}
+
+* 지원 URL을 통해 MMS에 넣을 미디어 파일을 포함할 수 있습니다. 미디어 파일이 별도로 업로드되는지 확인해야 합니다.
+* 현재 MMS에는 메시지 피드백 동기화를 사용할 수 없습니다.
+* MMS에 대한 동의 관리는 SMS 채널 수준에서 작동합니다.
+
+### 웹 채널 가드레일 {#web-guardrails}
+
+[!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타기팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로 구입한 계약 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다.
+
+각 패키지별 라이선스 지표 목록은 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에서 확인할 수 있습니다.
+
+### 코드 기반 채널 보호 {#code-based-guardrails}
+
+[!DNL Journey Optimizer]에서 코드 기반 경험 작업을 사용하고 응용 프로그램에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에 설명된 필수 구성 요소를 따르십시오.
+
 ## 랜딩 페이지 보호 {#lp-guardrails}
 
 * 하나의 기본 페이지에서 하나의 **양식** 구성 요소만 사용할 수 있습니다.
 * **양식** 구성 요소는 하위 페이지에서 사용할 수 없습니다.
 * 랜딩 페이지에 사전 헤더를 추가할 수 없습니다. 
 * 방문 기본 페이지를 디자인할 때 **자신만의 코드 작성** 옵션을 선택할 수 없습니다.
-
-## SMS 가드레일 {#sms-guardrails}
-
-* 지원 URL을 통해 MMS에 넣을 미디어 파일을 포함할 수 있습니다. 미디어 파일이 별도로 업로드되는지 확인해야 합니다.
-* 현재 MMS에는 메시지 피드백 동기화를 사용할 수 없습니다.
-* MMS에 대한 동의 관리는 SMS 채널 수준에서 작동합니다.
-
-## 웹 채널 가드레일 {#web-guardrails}
-
-[!DNL Journey Optimizer] 웹 캠페인은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타기팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로 구입한 계약 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다.
-
-각 패키지별 라이선스 지표 목록은 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에서 확인할 수 있습니다.
-
-## 코드 기반 채널 보호 {#code-based-guardrails}
-
-[!DNL Journey Optimizer]에서 코드 기반 경험 작업을 사용하고 응용 프로그램에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에 설명된 필수 구성 요소를 따르십시오.
 
 ## 하위 도메인 가드레일 {#subdomain-guardrails}
 
@@ -85,7 +87,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 주어진 샌드박스 하나에 최대 10개의 대상자 구성을 게시할 수 있습니다. 이 임계값에 도달한 경우 구성을 삭제하여 공간을 확보하고 새 구성을 게시해야 합니다.
 
-## 의사 결정 및 의사 결정 관리 보호 {#decisioning}
+## 의사 결정 및 의사 결정 관리 보호 {#decisioning-guardrails}
 
 Decisioning 또는 Decisioning Management 작업 시 기억해야 할 보호 사항 및 제한 사항은 Decisioning &amp; Decisioning 관리 섹션에 자세히 설명되어 있습니다.
 
