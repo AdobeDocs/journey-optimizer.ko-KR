@@ -5,7 +5,7 @@ role: User
 level: Beginner
 badge: label="제한 공개"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 23%
@@ -120,7 +120,7 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->여정이 즉시 활성화되면 시스템이 고객 억제를 시작하는 데 최대 15분이 걸릴 수 있습니다. 이러한 가능성을 방지하기 위해 적어도 15분 후에 여정을 시작하도록 예약할 수 있습니다.
+>여정이 즉시 활성화되면 시스템에서 고객 억제를 시작하는 데 최대 20분이 걸릴 수 있습니다. 이러한 가능성을 방지하기 위해 적어도 20분 후에 여정을 시작하도록 예약할 수 있습니다.
 
 여정이 라이브되면 여정 보고서에서 **[!UICONTROL 여정 제외]** 테이블의 여정 집합에서 제외된 항목이 있는지 확인할 수 있습니다. [여정 보고서 작업 방법 알아보기](../reports/journey-global-report-cja.md)
 

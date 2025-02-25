@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 12%
@@ -311,7 +311,7 @@ In this scenario, an individual profile:
 
 >[!IMPORTANT]
 >
->여정이 즉시 활성화되면 시스템이 고객 억제를 시작하는 데 최대 15분이 걸릴 수 있습니다. 이러한 가능성을 방지하기 위해 적어도 15분 후에 여정을 시작하도록 예약할 수 있습니다.
+>여정이 즉시 활성화되면 시스템에서 고객 억제를 시작하는 데 최대 20분이 걸릴 수 있습니다. 이러한 가능성을 방지하기 위해 적어도 20분 후에 여정을 시작하도록 예약할 수 있습니다.
 
 +++
 
