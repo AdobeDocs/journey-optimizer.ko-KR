@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '676'
+ht-degree: 95%
 
 ---
 
@@ -53,6 +53,12 @@ You can also create audience-based campaigns to send messages.-->
 
 * **지능형 의사 결정 및 개인화** - 브랜드는 고객 경험 전반에 대한 구성 예측 인사이트에 중앙 집중식 의사 결정을 적용하고 인텔리전스 및 머신 러닝을 통합하여 의사 결정을 보다 쉽게 자동화하고 경험을 규모에 맞게 최적화할 수 있습니다. Decisioning은 [!DNL Adobe Journey Optimizer]를 통해 대규모로 채널 전반에서 중앙 집중식 오퍼를 구동합니다.
 
+
+>[!NOTE]
+>
+> 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe Customer Success Manager 또는 Adobe 담당자에게 문의하십시오.
+
+
 ## 아키텍처 {#architecture}
 
 아래 다이어그램에서 [!DNL Adobe Journey Optimizer]의 기본 아키텍처, 통합 지점, [!DNL Journey Optimizer]와(과) [!DNL Experience Platform] 사이의 관계를 이해합니다.
@@ -63,7 +69,7 @@ You can also create audience-based campaigns to send messages.-->
 >[!NOTE]
 >
 > Adobe Experience Cloud 일반 개인 정보 보호 지침 및 절차는 [!DNL Journey Optimizer]에 적용됩니다. [Adobe Experience Cloud 개인 정보에 대한 자세한 내용을 살펴보십시오](https://www.adobe.com/kr/privacy/experience-cloud.html).
-> [시작 전 실시간 고객 프로필 데이터 가드 레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)에 대해 알고 있어야 합니다.
+>
 
 
 >[!MORELIKETHIS]
