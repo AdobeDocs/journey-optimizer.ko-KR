@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: da27bb78de305c0d80737aaf7423cd62962732da
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 12%
@@ -55,7 +55,7 @@ ht-degree: 12%
 
       | 패키지 | 트리거 | 정의 |
       |---|---|---|
-      | 플랫폼으로 데이터 보내기 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 API는 AEP Edge 확장에서 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)를 호출합니다. |
+      | 플랫폼으로 데이터 보내기 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 AEP Edge 확장에서 API 호출 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)을(를) 사용합니다. |
       | 코어 추적 | 작업 추적 | 모바일 코드 API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
       | 코어 추적 | 상태 추적 | 모바일 코드 API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
       | 코어 추적 | PII 수집 | 모바일 코드 API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
@@ -157,7 +157,7 @@ ht-degree: 12%
 
       | 패키지 | 트리거 | 정의 |
       |---|---|---|
-      | 플랫폼으로 데이터 보내기 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 API는 AEP Edge 확장에서 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)를 호출합니다. |
+      | 플랫폼으로 데이터 보내기 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 AEP Edge 확장에서 API 호출 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)을(를) 사용합니다. |
       | 코어 추적 | 작업 추적 | 모바일 코드 API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
       | 코어 추적 | 상태 추적 | 모바일 코드 API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
       | 코어 추적 | PII 수집 | 모바일 코드 API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
@@ -211,7 +211,7 @@ ht-degree: 12%
 
    * **[!UICONTROL 항상]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 발생하면 항상 메시지를 표시합니다.
    * **[!UICONTROL 한 번]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 처음 발생할 때만 이 메시지를 표시합니다.
-   * **[!UICONTROL 클릭할 때까지]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 SDK에서 &quot;클릭함&quot; 동작을 사용하여 상호 작용 이벤트를 보낼 때까지 발생할 때 이 메시지를 표시합니다.
+   * **[!UICONTROL 클릭할 때까지]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 &quot;클릭함&quot; 동작을 사용하여 SDK에서 상호 작용 이벤트를 보낼 때까지 발생할 때 이 메시지를 표시합니다.
    * **[!UICONTROL X회]**: 이 메시지를 X회 표시합니다.
 
 1. 필요한 경우 인앱 메시지를 표시할 **[!UICONTROL 요일]** 또는 **[!UICONTROL 시간]**&#x200B;을(를) 선택하십시오.
@@ -240,7 +240,7 @@ ht-degree: 12%
 
   +++비디오 참조
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
 +++
 
@@ -248,7 +248,7 @@ ht-degree: 12%
 
   +++비디오 참조
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
 +++
 
