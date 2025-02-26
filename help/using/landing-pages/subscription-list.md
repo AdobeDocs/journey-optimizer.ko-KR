@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 목록, 구독, 서비스
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 0000d5e4a11c316340382ea9b68f8252f109cb61
+source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '673'
 ht-degree: 7%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 7%
 
 ## 구독 목록 모니터링 {#monitor-subscription-lists}
 
-전용 보고서를 통해 구독 목록이 미치는 영향을 모니터링할 수 있습니다. 다음에 액세스할 수 있습니다.
+전용 보고서를 통해 구독 목록이 미치는 영향을 모니터링할 수 있습니다. 다음 두 가지 유형의 보고서에 액세스할 수 있습니다.
 
 * 구독 목록 실시간 보고서
 
