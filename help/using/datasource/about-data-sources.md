@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 데이터 소스 정보
-description: 데이터 소스 구성 방법 알아보기
+title: 데이터 소스 시작
+description: 데이터 소스를 시작하는 방법 알아보기
 feature: Journeys, Data Sources
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 데이터, 소스, 여정, 플랫폼
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 57%
+source-wordcount: '344'
+ht-degree: 52%
 
 ---
 
-# 데이터 소스 정보 {#about-data-sources}
+# 데이터 소스 시작 {#about-data-sources}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"

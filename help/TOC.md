@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 05dc60a4eb33be91ba9cc7b4897fa1f28b5557b6
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2175'
 ht-degree: 92%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 92%
          + [사용자 정의 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
          + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
          + [외부 데이터 소스 및 사용자 지정 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
-         + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
+         + [사용자 지정 작업을 사용하여 Experience Platform에서 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 캠페인{#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)
@@ -683,17 +683,17 @@ ht-degree: 92%
          + [비즈니스 이벤트 구성](using/event/about-creating-business.md)
          + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey.md)
       + 데이터 소스 구성{#data-source-journeys}
-         + [데이터 소스 정보](using/datasource/about-data-sources.md)
+         + [데이터 소스 시작](using/datasource/about-data-sources.md)
          + [데이터 소스 구성](using/datasource/configure-data-sources.md)
          + [Adobe Experience Platform 데이터 소스](using/datasource/adobe-experience-platform-data-source.md)
          + [외부 데이터 소스](using/datasource/external-data-sources.md)
       + 작업 구성 {#action-journeys}
-         + [작업 정보](using/action/action.md)
-         + [작업 구성](using/action/about-custom-action-configuration.md)
+         + [사용자 지정 작업 시작](using/action/action.md)
+         + [사용자 정의 액션 구성](using/action/about-custom-action-configuration.md)
          + [사용자 지정 작업 문제 해결](using/action/troubleshoot-custom-action.md)
+         + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
          + [Adobe Campaign Standard 통합](using/action/acs-action.md)
          + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
-         + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
          + [Marketo Engage와 통합](using/action/marketo-engage.md)
    + [소스](using/start/get-started-sources.md)
    + [다른 샌드박스로 개체 내보내기](using/configuration/copy-objects-to-sandbox.md)
