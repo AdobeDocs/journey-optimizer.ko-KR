@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 데이터, 소스, 여정, 플랫폼
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 66%
+ht-degree: 57%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 66%
 
 데이터 소스에는 다음의 두 가지 유형이 있습니다.
 
-* 실시간 고객 프로필 서비스에 대한 연결을 정의하는 사전 구성된 Adobe Experience Platform 데이터 소스(기본 데이터 소스). [이 페이지](../datasource/adobe-experience-platform-data-source.md)를 참조하십시오.
-* 외부 시스템에 대한 연결을 정의할 수 있는 외부 데이터 소스. 이러한 소스는 직접 만들 수 있습니다. [이 페이지](../datasource/external-data-sources.md)를 참조하십시오.
+* 실시간 고객 프로필 서비스에 대한 연결을 정의하는 **사전 구성된** Adobe Experience Platform 데이터 원본입니다. 데이터 소스(기본 데이터 소스). [이 페이지](../datasource/adobe-experience-platform-data-source.md)를 참조하십시오.
+* 외부 시스템에 대한 연결을 정의할 수 있는 **external** 데이터 원본입니다. 이러한 소스는 직접 만들 수 있습니다. [이 페이지](../datasource/external-data-sources.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ ht-degree: 66%
 
 Adobe Experience Platform Data Source 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법에 대한 자세한 내용을 보려면 이 [자습서 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}를 시청하십시오.
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 데이터 소스의 정의를 이해하고 Experience Platform 및 외부 데이터 소스를 구성하는 방법에 대해 알아봅니다.
 
