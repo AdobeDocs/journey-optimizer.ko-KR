@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: 작업, 사용자 지정, API, 여정, 구성, 서비스
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 26%
+source-wordcount: '412'
+ht-degree: 20%
 
 ---
 
@@ -23,7 +23,11 @@ ht-degree: 26%
 >title="사용자 정의 액션"
 >abstract="사용자 정의 액션에서는 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다. JSON 형식 페이로드를 사용하여 REST API를 통해 호출할 수 있는 모든 공급자의 어떤 서비스로든 작업을 구성할 수 있습니다."
 
-사용자 정의 액션에서는 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다. JSON 형식 페이로드를 사용하여 REST API를 통해 호출할 수 있는 모든 공급자의 어떤 서비스로든 작업을 구성할 수 있습니다.
+사용자 지정 작업을 사용하여 메시지 또는 API 호출을 전송할 서드파티 시스템에 대한 연결을 활성화합니다. JSON 형식 페이로드를 사용하여 REST API를 통해 호출할 수 있는 모든 공급자의 어떤 서비스로든 작업을 구성할 수 있습니다.
+
+[이 섹션](../action/action.md)에서 사용자 지정 작업에 대해 자세히 알아보세요.
+
+[이 페이지](../action/about-custom-action-configuration.md)에서 사용자 지정 작업을 만들고 구성하는 방법에 대해 알아봅니다.
 
 ## 동의 및 데이터 거버넌스 {#privacy}
 
@@ -67,6 +71,3 @@ URL에 동적 경로가 포함된 경우 **[!UICONTROL 경로]** 필드에 경�
 
 **[!UICONTROL 작업 매개 변수]** 섹션에서 _&quot;변수&quot;_(으)로 정의된 메시지 매개 변수를 볼 수 있습니다. 이러한 매개 변수의 경우 이 정보를 가져올 위치(예: 이벤트, 데이터 소스)를 정의하거나, 값을 수동으로 전달하거나, 고급 사용 사례에 고급 표현식 편집기를 사용할 수 있습니다. 고급 사용 사례는 데이터 조작 및 기타 함수 사용일 수 있습니다. 이 [페이지](expression/expressionadvanced.md)를 참조하세요.
 
-**관련 항목**
-
-[작업 구성](../action/about-custom-action-configuration.md)
