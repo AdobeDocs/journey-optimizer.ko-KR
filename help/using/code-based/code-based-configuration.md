@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: 890d3925a418c117451864558be92030a3a0f87f
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 23%
@@ -46,7 +46,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-`자를 사용할 수도 있습니다.
+   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점 `.`, 하이픈 `-`도 사용할 수 있습니다.
 
 1. 구성에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택할 수 있습니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../administration/object-based-access.md)
 
@@ -66,7 +66,7 @@ ht-degree: 23%
    >
    >여러 플랫폼을 선택할 수 있습니다. 여러 플랫폼을 선택하면 컨텐츠가 선택한 모든 페이지 또는 앱에 전달됩니다.
 
-1. 이 특정 위치에 대해 애플리케이션에서 예상하는 형식을 선택합니다. 이 템플릿은 캠페인 및 여정에서 코드 기반 경험을 작성할 때 사용됩니다.
+1. 이 특정 위치에 대해 애플리케이션에서 예상하는 형식을 선택합니다. 캠페인 및 여정에서 코드 기반 경험을 작성할 때 사용됩니다.
 
    ![](assets/code_config_4.png)
 
