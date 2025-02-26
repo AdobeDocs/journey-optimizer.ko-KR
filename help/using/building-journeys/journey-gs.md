@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 25%
@@ -42,19 +42,19 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 * 이벤트가 수신될 때 여정을 통합적으로 트리거하려면 **이벤트를 구성**&#x200B;해야 합니다. 예상 정보와 처리 방법을 정의합니다. [자세히 보기](../event/about-events.md).
 
-  ![](assets/jo-event7bis.png)
+<!--   ![](assets/jo-event7bis.png)  -->
 
 * 또한 여정은 지정된 프로필 세트로 메시지를 일괄적으로 보내기 위해 Adobe Experience Platform 대상을 수신할 수 있습니다. 이를 위해서는 **대상자를 만들기**&#x200B;해야 합니다. [자세히 보기](../audience/about-audiences.md).
 
-  ![](assets/segment2.png)
+<!--   ![](assets/segment2.png)  -->
 
 * 시스템에 대한 연결을 정의하여 여정에서 사용할 조건 등의 추가 정보를 검색할 수 있습니다. 이 연결은 **데이터 원본**&#x200B;을 사용합니다. [자세히 보기](../datasource/about-data-sources.md)
 
-  ![](assets/jo-datasource.png)
+<!--   ![](assets/jo-datasource.png)  -->
 
 * Journey Optimizer에는 [기본 메시지](../building-journeys/journeys-message.md) 기능이 포함되어 있습니다. 서드파티 시스템을 사용하여 메시지를 보내는 경우 **사용자 지정 작업을 만들 수 있습니다**. 이 [섹션](../action/action.md)에서 자세히 알아보세요.
 
-  ![](assets/custom2.png)
+<!--    ![](assets/custom2.png)  -->
 
 
 데이터 엔지니어로서 데이터 소스, 이벤트 및 작업을 포함하여 여정을 구성하는 단계는 [이 섹션](../configuration/about-data-sources-events-actions.md)에 자세히 설명되어 있습니다.
