@@ -7,14 +7,14 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 51b60b3e0f4026bce0d57eb1e2949e816828135b
+source-git-commit: 66dbaf6b8856b1ce70bccfa504a63f22bf293daf
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '213'
 ht-degree: 9%
 
 ---
 
-# [!DNL Adobe Journey Optimizer]개의 통신 채널 시작 {#get-started-email}
+# [!DNL Adobe Journey Optimizer]에서 통신 채널 시작
 
 오늘날의 역동적인 마케팅 환경에서 다양한 플랫폼에서 대상자에게 효과적으로 다가가는 것은 지속적인 관계를 구축하고 참여를 유도하기 위해 필수적입니다. 이 섹션에서는 [!DNL Adobe Journey Optimizer] 내에서 사용할 수 있는 통신 채널에 대한 포괄적인 개요를 제공하며 마케팅 전략에서 각 채널을 효과적으로 활용하는 방법을 이해하는 데 도움이 됩니다.
 
