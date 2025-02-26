@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 8%
@@ -94,7 +94,7 @@ ht-degree: 8%
 
    이 제한은 **결정 규칙** 또는 하나 이상의 **Adobe Experience Platform 대상**&#x200B;을 사용하여 적용할 수 있습니다. 둘 다 [이 섹션](../offer-library/add-constraints.md#segments-vs-decision-rules)에 자세히 설명되어 있습니다.
 
-   * Experience Platform 대상자의 구성원으로 오퍼 선택을 제한하려면 **[!UICONTROL 대상자]**&#x200B;를 선택한 다음 **[!UICONTROL 대상자 추가]**&#x200B;를 클릭합니다.
+   * 오퍼 선택을 Experience Platform 대상자의 구성원으로 제한하려면 **[!UICONTROL 대상자]**&#x200B;를 선택한 다음 **[!UICONTROL 대상자 추가]**&#x200B;를 클릭합니다.
 
      ![](../assets/activity_constraint_segment.png)
 
@@ -220,7 +220,7 @@ ht-degree: 8%
 
 **복제가 해제된 경우**
 
-의사 결정에 여러 의사 결정 범위를 추가할 때 배치 전체에서 복제가 허용되지 않는 경우 요청에 있는 의사 결정 범위 순서대로 적격 오퍼가 순차적으로 선택됩니다.
+결정에 여러 결정 범위를 추가할 때 배치 전체에서 복제가 허용되지 않는 경우 요청에 있는 결정 범위 순서대로 적격 오퍼가 순차적으로 선택됩니다.
 
 >[!NOTE]
 >
@@ -264,7 +264,7 @@ ht-degree: 8%
 
 **중복이 있는 경우**
 
-모든 배치에 걸쳐 중복이 허용되면 서로 다른 배치에서 동일한 오퍼를 여러 번 제안할 수 있습니다. 활성화되면 시스템은 여러 배치에 대해 동일한 오퍼를 고려합니다. [복제 매개 변수에 대해 자세히 알아보기](../offer-library/creating-placements.md)
+모든 배치에서 복제가 허용되는 경우 다른 배치에서 동일한 오퍼를 여러 번 제안할 수 있습니다. 활성화되면 시스템은 여러 배치에 대해 동일한 오퍼를 고려합니다. [복제 매개 변수에 대해 자세히 알아보기](../offer-library/creating-placements.md)
 
 다음과 같은 두 가지 결정 범위를 추가한 위와 동일한 예를 살펴보겠습니다.
 
@@ -396,7 +396,7 @@ ht-degree: 8%
 
 ![](../assets/decision_information.png)
 
-## 방법 비디오{#video}
+## 사용 방법 비디오{#video}
 
 의사 결정 관리에서 오퍼 활동을 만드는 방법을 알아봅니다.
 

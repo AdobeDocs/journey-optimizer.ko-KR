@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: e213261a1c2cb3421d59ba6c44c832a5f5929cd1
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 12%
@@ -132,7 +132,7 @@ ht-degree: 12%
 
    ![](../assets/offers_simulation-settings.png)
 
-1. **[!UICONTROL 중복 제거]** 섹션에서 결정 및/또는 배치 전반에 걸쳐 중복 오퍼를 허용하도록 선택할 수 있습니다. 즉, 여러 개의 결정/배치에 동일한 오퍼가 할당될 수 있습니다.
+1. **[!UICONTROL 중복 제거]** 섹션에서 결정 및/또는 배치에 중복 오퍼를 허용하도록 선택할 수 있습니다. 즉, 여러 개의 결정/배치에 동일한 오퍼가 할당될 수 있습니다.
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 

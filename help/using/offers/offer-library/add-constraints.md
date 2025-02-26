@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2636'
 ht-degree: 16%
@@ -217,7 +217,7 @@ ht-degree: 16%
 
 ### 캡핑 유형 {#capping-type}
 
-캡핑을 모든 사용자 간에 적용할지 또는 하나의 특정 프로필에 적용할지를 지정할 수 있습니다.
+모든 사용자 또는 하나의 특정 프로필에 캡핑을 적용할지 여부를 지정할 수 있습니다.
 
 ![](../assets/offer-capping-total.png)
 
@@ -269,7 +269,7 @@ ht-degree: 16%
 
 예를 들어 조직의 허브 영역을 *NLD2*(으)로 간주하고 유럽(*IRL1* Edge 영역)에서 의사 결정 요청을 보내려고 합니다. 이 시나리오에서는 (아일랜드) *IRL1* 지역에서 규칙을 사용할 수 있으므로 의사 결정 요청은 프로필의 카운터를 증가시킵니다. 그러나 결정 요청이 (네덜란드) *NLD2* 허브 영역에 연결된 에지 영역이 아닌 일본(*JPN3*)과 같은 지역에서 비롯된 경우 카운터가 생성되지 않으며 빈도 제한 규칙이 적용되지 않습니다.
 
-귀사와 관련된 허브 및 에지 영역에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
+조직과 연계된 허브 및 에지 영역에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 +++
 
