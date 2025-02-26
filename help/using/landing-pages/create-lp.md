@@ -9,24 +9,20 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: 4a9034c0c875cd504e25c8eb22a2715004416ea1
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 20%
+source-wordcount: '1712'
+ht-degree: 21%
 
 ---
 
 # 랜딩 페이지 만들기 및 게시 {#create-lp}
 
->[!CAUTION]
->
->랜딩 페이지를 테스트하고 게시하려면 **[!UICONTROL Publish 메시지]** 권한이 있어야 합니다.
-
 고객이 특정 링크를 클릭할 때 표시할 정의된 웹 페이지로 안내하려면 [!DNL Journey Optimizer]에 랜딩 페이지를 만들고 기본 페이지와 하위 페이지를 구성하고 테스트하여 게시합니다.
 
->[!CAUTION]
->
->[페이지를 만들 때](#create-landing-page)에 정의된 URL을 복사하여 웹 브라우저에 붙여 넣으면 랜딩 페이지에 액세스할 수 없습니다. 대신 [이 섹션](#test-landing-page)에 설명된 대로 미리 보기 함수를 사용하여 테스트할 수 있습니다.
+랜딩 페이지를 만드는 주요 단계는 다음과 같습니다.
+
+![](assets/lp-creation-process.png)
 
 ## 랜딩 페이지 액세스 {#access-landing-pages}
 
@@ -71,9 +67,11 @@ ht-degree: 20%
 >abstract="민감한 디지털 자산을 보호하기 위해 레이블을 사용하여 랜딩 페이지에 대한 데이터 액세스를 관리하는 권한을 정의할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=ko" text="오브젝트 수준 액세스 제어"
 
-랜딩 페이지를 만드는 주요 단계는 다음과 같습니다.
 
-![](assets/lp-creation-process.png)
+랜딩 페이지를 만들려면 사전 설정을 선택한 다음 기본 페이지와 하위 페이지를 구성하고 페이지를 게시하기 전에 마지막으로 테스트해야 합니다. 이러한 단계는 아래에 자세히 설명되어 있습니다.
+
+
+1. 왼쪽 메뉴에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 랜딩 페이지]**&#x200B;로 이동합니다.
 
 1. 랜딩 페이지 목록에서 **[!UICONTROL 랜딩 페이지 만들기]**&#x200B;를 클릭합니다.
 
@@ -223,7 +221,7 @@ ht-degree: 20%
 
 >[!CAUTION]
 >
->랜딩 페이지를 테스트하려면 **[!UICONTROL Publish 메시지]** 권한이 있어야 합니다.
+>랜딩 페이지를 테스트하려면 **[!UICONTROL 메시지 게시]** 권한이 있어야 합니다.
 >
 >메시지를 미리 보고 증명을 보내려면 테스트 프로필을 사용할 수 있어야 합니다. [테스트 프로필을 만드는](../audience/creating-test-profiles.md) 방법을 알아봅니다.
 
@@ -289,7 +287,8 @@ ht-degree: 20%
 
 >[!CAUTION]
 >
->랜딩 페이지를 게시하려면 **[!UICONTROL Publish 메시지]** 권한이 있어야 합니다.
+>랜딩 페이지를 게시하려면 사용자에게 **[!UICONTROL 메시지 게시]** 권한이 있어야 합니다.
+
 
 랜딩 페이지가 준비되면 이를 게시하여 메시지에 사용할 수 있도록 할 수 있습니다.
 
