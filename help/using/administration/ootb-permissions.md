@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
+source-git-commit: 5c84bc726d50df555b9a156233c70f08f3febaba
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '934'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 2%
 | Journey Optimizer 라이브러리 | **[!DNL Manage Library Items]**: [!DNL Journey Optimizer] 라이브러리에 저장된 식을 추가하고 삭제합니다.</br>**[!DNL Simulate content]**: 미리 보기 및 증명을 위해 콘텐츠 시뮬레이션 옵션에 액세스합니다.</br>**[!DNL Publish fragments]**: 콘텐츠 조각을 게시합니다. |
 | Journey Optimizer 규칙 | **[!DNL Manage frequency rules]**: 메시지 빈도 규칙에 액세스, 만들기, 편집 또는 삭제합니다.</br>**[!DNL View frequency rules]**: 규칙에 대한 읽기 전용 액세스 권한. |
 | 여정 | **[!DNL Approve & publish Journeys]**: 정책이 적용될 때 여정을 승인하고 게시할 수 있는 권한. </br> **[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제 여정에 액세스하고 관리하려면 이 권한을 **[!DNL View journeys events, data sources and actions]**&#x200B;과(와) 결합하십시오.</br>**[!DNL Manage journeys events, data sources and actions]**: 이벤트, 소스 또는 작업을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Publish journeys]**: 여정 게시.</br>**[!DNL View journeys]**: 여정에 대한 읽기 전용 액세스 권한.</br>**[!DNL View journeys events, data sources and actions]**: 여정 이벤트, 여정 지정 작업 및 여정 데이터 소스에 대한 읽기 전용 액세스 권한.</br>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</br> |
+| 메시지 | **[!DNL Manage messages]**: 메시지를 읽고 만들고 편집하고 삭제합니다. </br>**[!DNL Manage messages preview and test]**: 정책이 적용될 때 메시지를 승인하고 게시할 수 있는 권한.</br>**[!DNL Publish messages]**: 메시지를 게시할 수 있는 권한.</br>**[!DNL View messages]**: 메시지에 대한 읽기 전용 액세스 권한.</br>**[!DNL View messages report]**: 메시지 보고서를 읽고 편집합니다. |
 | 프로필 관리 | **[!DNL Evaluate a segment to an audience]**: 세그먼트 정의를 평가하여 대상에 대한 프로필을 생성합니다.</br>**[!DNL Export audience segments]**: 평가된 대상 세그먼트를 데이터 세트로 내보냅니다.</br>**[!DNL Manage merge policies]**: 병합 정책을 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage profiles]**: 고객 프로필에 사용되는 데이터 세트를 읽고, 만들고, 편집하고, 삭제합니다. 사용 가능한 프로필에 대한 읽기 전용 액세스 권한.</br>**[!DNL View merge policies]**: 사용 가능한 병합 정책에 대한 읽기 전용 액세스입니다.</br>**[!DNL View profiles]**: 사용 가능한 프로필에 대한 읽기 전용 액세스 권한.</br>**[!DNL View segments]**: 사용 가능한 대상에 대한 읽기 전용 액세스 권한. |
 | 쿼리 서비스 | **[!DNL Manage queries]**: Platform 데이터에 대한 구조화된 SQL 쿼리를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage query service integration]**: 쿼리 서비스 액세스에 대한 만료되지 않는 자격 증명을 만들고, 업데이트하고, 삭제합니다. |
 | 보고서 | **[!DNL View channel reports]**: 채널 보고서를 읽고 편집합니다. |
