@@ -9,13 +9,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
-source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
+exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
+source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '580'
 ht-degree: 2%
 
 ---
-
 
 # 사용자 지정 작업 문제 해결 {#troubleshoot-a-custom-action}
 
@@ -71,7 +71,7 @@ Journey Optimizer 사용자 인터페이스의 관리 섹션에서 API 호출을
 
 * **기본 인증:** 사용자가 *암호*&#x200B;를 제공해야 합니다.
 * **API 키 인증:** 사용자가 API 키 *값*&#x200B;을(를) 입력해야 합니다.
-* **사용자 지정 인증:** 사용자는 요청 *bodyParam*&#x200B;에 인증 매개 변수를 제공해야 합니다. 이 경우 완료할 두 개의 섹션이 추가됩니다. **인증 요청** 및 **인증 응답**.
+* **사용자 지정 인증:** 사용자는 요청 *bodyParam*&#x200B;에 인증 매개 변수를 제공해야 합니다. 이 경우 **인증 요청** 및 **인증 응답** 섹션이 추가됩니다.
 
 ## 주요 이점 {#troubleshoot-custom-action-benefits}
 
@@ -94,4 +94,3 @@ Journey Optimizer 관리자는 외부 도구(예: Postman)를 사용하여 사�
 * 요청 메서드(GET 및 POST) 및 해당 페이로드.
 * 사용자 지정 작업에 정의된 API 끝점 및 헤더입니다.
 * 응답 데이터를 사용하여 잠재적인 구성 오류를 식별합니다.
-
