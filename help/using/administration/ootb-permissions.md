@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 | 대시보드 | **[!DNL View license usage dashboards]**: [라이선스 사용 대시보드](../audience/license-usage.md)에 대한 읽기 전용 액세스 권한입니다. </br>**[!DNL Manage custom dashboards]**: 새 대시보드를 만들거나 기존 대시보드를 편집할 수 있습니다.</br>**[!DNL Manage standard dashboards]**: 위젯 라이브러리를 통해 사용자 정의 위젯을 만들고 위젯 스키마를 편집할 수 있습니다.</br>**[!DNL View custom dashboards]**: 사용자 정의 대시보드에 대한 읽기 전용 액세스 권한.</br>**[!DNL View standard dashboards]**: 프로필, 대상 및 대상 대시보드에 대한 읽기 전용 액세스 권한. |
 | 데이터 수집 | **[!DNL Manage datastream]**: 데이터 스트림을 읽고 만들고 편집합니다.</br>**[!DNL View datastream]**: 데이터스트림에 대한 읽기 전용 액세스입니다. |
 | 데이터 거버넌스 | **[!DNL Manage usage labels]**: 레이블을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage data usage policies]**: 데이터 사용 정책을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View data usage policies]**: 조직에 속한 데이터 사용 정책에 대한 읽기 전용 액세스입니다.</br>**[!DNL View user activity log]**: 플랫폼 활동의 기록된 감사 로그를 보기 위한 읽기 전용 액세스입니다. |
-| 데이터 위생 | **[!DNL Manage data hygiene]**: 데이터 위생 상태를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL View data hygiene]**: 데이터 위생을 위한 읽기 전용 액세스입니다. |
+| 데이터 라이프사이클 | **[!DNL Manage data lifecycle]**: 데이터 라이프사이클을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View data lifecycle]**: 데이터 수명 주기에 대한 읽기 전용 액세스입니다. |
 | 데이터 수집 | **[!DNL Manage sources]**: 소스를 읽고 만들고 편집하고 사용하지 않도록 설정합니다.</br>**[!DNL View sources]**: [카탈로그] 탭의 사용 가능한 소스와 [찾아보기] 탭의 인증된 소스에 대한 읽기 전용 액세스 권한 |
 | 데이터 관리 | **[!DNL Data monitoring]**: 데이터 세트 및 스트림 모니터링에 대한 읽기 전용 액세스 권한.</br>**[!DNL Manage datasets]**: 데이터 세트를 읽고, 만들고, 편집하고, 삭제합니다. 스키마에 대한 읽기 전용 액세스 권한.</br>**[!DNL View datasets]**: 데이터 세트 및 스키마에 대한 읽기 전용 액세스입니다. |
 | 데이터 모델링 | **[!DNL Manage identity metadata]**: 스키마에 대한 id 메타데이터를 읽고, 만들고, 편집하고, 삭제합니다.</br> **[!DNL Manage relationships]**: 스키마 관계를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage schemas]**: XDM(경험 데이터 모델) 스키마를 읽고 만들고 편집합니다.</br>**[!DNL View schemas]**: 스키마에 대한 읽기 전용 액세스 권한. |
