@@ -1,19 +1,19 @@
 ---
-title: 코드 기반 경험 보호 및 사전 요구 사항
+title: 코드 기반 경험 사전 요구 사항
 description: Journey Optimizer 코드 기반 기능을 사용하여 앱 및 웹 페이지를 편집하려면 이 페이지의 사전 요구 사항을 따르십시오
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '638'
 ht-degree: 2%
 
 ---
 
-# 보호 및 사전 요구 사항 {#code-based-prerequisites}
+# 코드 기반 경험 사전 요구 사항 {#code-based-prerequisites}
 
 [!DNL Journey Optimizer]에서 코드 기반 경험 작업을 사용하고 응용 프로그램에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 아래 전제 조건을 따르십시오.
 
