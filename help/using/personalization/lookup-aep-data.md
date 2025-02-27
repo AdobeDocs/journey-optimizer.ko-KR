@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1044'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Pla
 
 * **지원되는 채널**: 현재 이 기능은 전자 메일, SMS 및 DM 채널 내에서만 사용할 수 있습니다.
 * **데이터 사용 레이블 지정 및 적용**&#x200B;은 현재 조회를 위해 활성화된 데이터 세트에 대해 적용되지 않습니다.
-* **식 조각**: 지금은 식 조각 내에 데이터 집합 조회 개인화를 배치할 수 없습니다.
+* **조각**: 지금은 식 또는 시각적 조각 내에 데이터 집합 조회 개인 설정을 배치할 수 없습니다.
 
 ## 데이터 조회를 위해 데이터 세트 활성화 {#enable}
 
