@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1042'
 ht-degree: 4%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 4%
 
 1. 소스 샌드박스에서 패키지로 내보낼 개체를 추가합니다.
 1. 패키지를 대상 샌드박스로 내보냅니다.
-
-또한 Journey Optimizer **개체 복사 서비스 REST API**&#x200B;를 활용하여 샌드박스의 개체를 관리할 수 있습니다. [개체 복사 서비스 REST API를 사용하여 작업하는 방법을 알아봅니다](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## 내보낸 오브젝트 및 모범 사례 {#objects}
 
