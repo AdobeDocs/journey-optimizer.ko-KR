@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 24e6d2baf3470df402550a031d26ba33887f4fb9
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 26%
+source-wordcount: '621'
+ht-degree: 25%
 
 ---
 
@@ -153,6 +153,10 @@ forceDelete 매개 변수를 사용하면 API 호출 단 한 번에 구성의 �
 1. delete, with forceDelete param
 
 사용 사례 n°5: **이미 배포된 최대 가용량 구성 업데이트**
+
+>[!NOTE]
+>
+>이미 배포된 구성을 업데이트하는 경우 다시 배포해야 합니다.
 
 1. list
 1. get
