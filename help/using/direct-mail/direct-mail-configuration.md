@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="파일의 서버 유형을 선택합니다."
->abstract="DM 파일을 내보내는 데 사용할 서버 유형(Amazon S3, SFTP, Azure 또는 데이터 랜딩 영역)을 선택합니다."
+>abstract="DM 파일 내보내기에 사용할 서버 유형(예: Amazon S3, SFTP, Azure 또는 Data Landing Zone)을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
