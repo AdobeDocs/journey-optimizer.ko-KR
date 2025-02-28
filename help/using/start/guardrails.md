@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
+source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 93%
+source-wordcount: '2346'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 프로필 스토어의 데이터에 대해 90일,
 * 데이터 레이크의 데이터에 대해서는 13개월입니다.
 
-이 변경 사항은 후속 단계에서 **기존 고객 샌드박스**&#x200B;로 롤아웃됩니다. [데이터 세트 TTL(Time-To-Leave) 보호 기능에 대해 자세히 알아보기](../data/datasets-ttl.md)
+이 변경 사항은 후속 단계에서 **기존 고객 샌드박스**&#x200B;로 롤아웃됩니다. [TTL(Time-To-Live) 보호 기능에 대해 자세히 알아보세요](../data/datasets-ttl.md)
 
 ## 채널 보호 {#channel-guardrails}
 
@@ -220,4 +220,4 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 **[!UICONTROL Campaign v7/v8]** 및 **[!UICONTROL Campaign Standard]** 활동에는 다음 가드레일이 적용됩니다.
 
 * Adobe Campaign 활동은 [대상자 읽기] 또는 [대상자 선별] 활동과 함께 사용할 수 없습니다.
-* 이 활동은 [인앱] 활동과 함께 사용할 수 없습니다.
+* 캠페인 활동은 다른 채널 활동(카드, 코드 기반 경험, 이메일, 푸시, SMS, 인앱 메시지, 웹)과 함께 사용할 수 없습니다.
