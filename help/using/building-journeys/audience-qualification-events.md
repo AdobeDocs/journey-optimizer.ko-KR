@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 대상 자격 이벤트
-description: 대상 자격 이벤트에 대해 알아보기
+description: 대상 자격 이벤트를 사용하고 구성하는 방법 알아보기
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 10%
+source-wordcount: '1212'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,11 @@ ht-degree: 10%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-### 중요 정보{#important-notes-segment-qualification}
+### 중요 정보 {#important-notes-segment-qualification}
+
+* 대상 자격 여정은 주로 스트리밍 대상으로 작동하도록 설계되었습니다. 이 조합은 더 나은 실시간 경험을 보장합니다. 대상 자격 활동에는 **스트리밍 대상**&#x200B;만 사용하는 것이 좋습니다.
+
+  그러나 스트리밍 대상의 일괄 처리 수집 기반 특성 또는 대상 자격 여정의 일괄 처리 대상을 사용하려면 대상 평가/활성화 시간을 고려하십시오. 일괄 처리 수집된 특성을 사용하는 일괄 처리 대상 또는 스트리밍 대상은 세분화 작업이 완료된 후 **2시간**&#x200B;에 **대상 자격** 활동에서 사용할 준비가 되어 있어야 합니다(이 작업은 Adobe 조직 관리자가 정의한 시간에 매일 한 번 실행됨).
 
 * Adobe Experience Platform 대상은 하루에 한 번(**일괄 처리**&#x200B;개 대상) 또는 실시간으로 계산됩니다(**스트리밍**&#x200B;개 대상의 경우 Adobe Experience Platform의 고주파 대상 옵션 사용).
 
@@ -46,9 +50,12 @@ ht-degree: 10%
   >
   >작성 워크플로 및 사용자 지정 업로드를 사용하여 생성된 대상자의 배치 특성으로 인해 &quot;대상자 자격&quot; 활동에서 이러한 대상자를 타깃팅할 수 없습니다. 세그먼트 정의를 사용하여 생성된 대상만 이 활동에서 활용할 수 있습니다.
 
-* 대상 읽기, 대상 자격 조건 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 경험 이벤트 필드 그룹을 사용할 수 없습니다.
+* **대상자 읽기**, **대상자 자격 요건** 또는 **비즈니스 이벤트** 활동으로 시작하는 여정에서 경험 이벤트 필드 그룹을 사용할 수 없습니다.
 
-* 여정에서 대상자 선별을 사용할 때 해당 대상자 선별 활동이 활성화되고 대상자에 들어오거나 나가는 프로필을 확인하는 데 최대 10분이 걸릴 수 있습니다.
+* 여정에서 **대상 자격** 활동을 사용하는 경우 해당 활동이 활성 상태가 되는 데 최대 10분이 소요될 수 있으며 대상에 들어오거나 나가는 프로필을 수신합니다.
+
+
+아래의 [대상 자격 모범 사례](#best-practices-segments)도 참조하세요.
 
 ### 활동 구성 {#configure-segment-qualification}
 
@@ -100,7 +107,7 @@ ht-degree: 10%
 
 ![](assets/segment8.png)
 
-대상 자격 이벤트를 포함하는 새 여정은 게시한 후 10분 후에 작동합니다. 이 시간 간격은 전용 서비스의 캐시 새로 고침 간격에 해당합니다. 따라서 이 여정을 사용하기 전에 10분 정도 기다려야 합니다.
+**대상 자격** 이벤트를 포함하는 새 여정은 게시한 후 10분 후에 작동합니다. 이 시간 간격은 전용 서비스의 캐시 새로 고침 간격에 해당합니다. 따라서 이 여정을 사용하기 전에 10분 정도 기다려야 합니다.
 
 ## 모범 사례 {#best-practices-segments}
 
@@ -108,21 +115,21 @@ ht-degree: 10%
 
 이 정보는 수신 속도가 빠르다. 측정된 속도는 초당 수신된 10,000개의 이벤트의 속도를 보여준다. 그 결과, 가장 높은 수준의 출입이 발생할 수 있는 상황, 이러한 입구를 피하는 방법 및 이러한 입구를 위한 여정을 준비하는 방법을 이해해야 합니다.
 
-### 대상자 일괄 처리{#batch-speed-segment-qualification}
+### 대상자 일괄 처리 {#batch-speed-segment-qualification}
 
-일괄 처리 대상에 대해 대상 자격을 사용할 때 일일 계산 시 최대 시작이 발생합니다. 정점의 크기는 매일 관객에게 입장하는(또는 퇴장하는) 개인의 수에 따라 달라질 것이다.
+일괄 처리 대상에 대해 대상 자격을 사용할 때 일일 계산 시 가장 높은 수준의 시작이 발생합니다. 정점의 크기는 매일 관객에게 입장하는(또는 퇴장하는) 개인의 수에 따라 달라질 것이다.
 
 또한 일괄 처리 대상을 새로 만들어 여정에서 즉시 사용하는 경우 첫 번째 일괄 처리 계산을 통해 매우 많은 수의 개인이 여정에 들어갈 수 있습니다.
 
-### 스트리밍된 대상자{#streamed-speed-segment-qualification}
+### 스트리밍된 대상자 {#streamed-speed-segment-qualification}
 
-스트리밍된 관객에 대해 관객자격을 이용할 경우, 관객에 대한 지속적인 평가로 인해 출입구의 큰 정점을 맞이할 위험이 적다. 하지만 대상 정의가 많은 수의 고객이 동시에 자격을 얻도록 유도하는 경우 최고점이 발생할 수도 있습니다.
+스트리밍된 대상에 대해 대상 자격을 사용할 때 대상의 지속적 평가로 인해 큰 정점이 출입할 위험이 적다. 하지만 대상 정의가 많은 수의 고객이 동시에 자격을 얻도록 유도하는 경우 최고점이 발생할 수도 있습니다.
 
 스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트를 보내는 대신 비즈니스 규칙을 사용합니다. [자세히 알아보기](../audience/about-audiences.md#open-and-send-event-guardrails)
 
 스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)를 참조하세요.
 
-### 오버로드를 방지하는 방법{#overloads-speed-segment-qualification}
+### 오버로드를 방지하는 방법 {#overloads-speed-segment-qualification}
 
 다음은 여정에서 활용하는 시스템(데이터 소스, 사용자 지정 작업, 채널 작업 활동)을 오버로드할 수 없도록 하는 몇 가지 모범 사례입니다.
 
@@ -138,6 +145,6 @@ ht-degree: 10%
 
 ## 사용 방법 비디오 {#video}
 
-대상자 선별 여정의 사용 사례를 살펴봅니다. 대상자 선별을 사용하여 여정을 작성하는 방법과 상황에 따라 적용할 모범 사례를 알아봅니다.
+이 비디오에서 대상 자격 여정에 적용할 수 있는 사용 사례를 이해합니다. 대상 검증을 사용하여 여정을 구축하는 방법 및 적용할 모범 사례를 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

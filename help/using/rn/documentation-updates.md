@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c5873b9ec8cf8302e3af0598245facf571513925
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
-source-wordcount: '6164'
-ht-degree: 97%
+source-wordcount: '6180'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,9 @@ ht-degree: 97%
 
 이 페이지에는 [!DNL Journey Optimizer] 설명서 최신 업데이트 내용이 모두 포함되어 있습니다.
 
+## 2025년 3월 {#mar-2025}
+
+* 대상 자격 이벤트에 대한 페이지가 새로운 권장 사항으로 업데이트되었습니다. [자세히 보기](../building-journeys/audience-qualification-events.md)
 
 ## 2025년 2월 {#feb-2025}
 
