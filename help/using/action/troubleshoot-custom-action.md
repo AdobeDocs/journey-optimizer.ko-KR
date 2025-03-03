@@ -3,26 +3,20 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 사용자 지정 작업 문제 해결
 description: 사용자 지정 작업 문제를 해결하는 방법 알아보기
-badge: label="제한 공개"
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
+source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 2%
+source-wordcount: '559'
+ht-degree: 0%
 
 ---
 
 # 사용자 지정 작업 문제 해결 {#troubleshoot-a-custom-action}
-
->[!AVAILABILITY]
->
->이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
->
 
 Journey Optimizer 사용자 인터페이스의 관리 섹션에서 API 호출을 전송하여 사용자 지정 작업을 테스트할 수 있습니다. 이 기능은 여정에서 사용자 지정 작업을 사용하기 전이나 후에 문제를 해결하는 데 도움이 됩니다.
 
