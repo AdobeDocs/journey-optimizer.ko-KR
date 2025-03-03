@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 88d15684f13b234bcb00227bd609ca387070952a
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 24%
+source-wordcount: '445'
+ht-degree: 21%
 
 ---
 
 # 브랜드 생성 및 관리 {#brands}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_overview"
+>title="브랜드"
+>abstract="고유한 시각적 및 언어적 정체성을 정의하면서 브랜드의 스타일과 음성에 일치하는 콘텐츠를 더 쉽게 생성할 수 있도록 자체 브랜드를 만들고 사용자 지정합니다."
 
 >[!AVAILABILITY]
 >
@@ -56,6 +61,11 @@ In [!DNL Journey Optimizer], you now have the option to manually input and organ
 +++
 
 ## 브랜드 만들기 {#create-brand-kit}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_create"
+>title="브랜드 만들기"
+>abstract="브랜드 이름을 입력하고 브랜드 지침 파일을 업로드하십시오. 이 도구는 주요 세부 정보를 자동으로 추출하므로 브랜드 정체성을 쉽게 유지할 수 있습니다."
 
 브랜드 지침을 만들고 관리하려면 아래 단계를 따르십시오.
 
