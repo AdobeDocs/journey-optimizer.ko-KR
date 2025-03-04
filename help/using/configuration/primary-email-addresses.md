@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 기본, 실행, 이메일, 타겟, 프로필, 최적화 도구
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -70,6 +70,11 @@ ht-degree: 16%
 
 특정 사용 사례의 경우 전역적으로 설정된 실행 필드를 재정의하고 이메일 구성 수준 또는 여정 수준에서 다른 값을 정의할 수 있습니다.
 
+이 값을 재정의하는 것은 다음과 같은 경우에 유용합니다.
+
+* 이메일을 테스트합니다. 자신의 이메일 주소를 추가할 수 있습니다. 여정을 게시하면 이메일이 전송됩니다.
+* 목록의 구독자에게 이메일을 보냅니다. [사용 사례](../building-journeys/message-to-subscribers-uc.md)를 자세히 알아보십시오.
+
 ### 이메일 구성에서
 
 전자 메일 채널 구성을 정의할 때 [일반 설정](#admin-settings)에서 설정된 기본 실행 필드를 변경할 수 있습니다. [자세히 알아보기](../email/email-settings.md#execution-address)
@@ -88,8 +93,4 @@ ht-degree: 16%
 >
 >이메일 주소 재정의는 특정 사용 사례에만 사용해야 합니다. 대부분의 경우 **[!UICONTROL 실행 필드]**&#x200B;에서 기본 주소로 정의된 값을 사용해야 하므로 전자 메일 주소를 변경할 필요가 없습니다.
 
-이 값을 재정의하는 것은 다음과 같은 경우에 유용합니다.
-
-* 이메일을 테스트합니다. 자신의 이메일 주소를 추가할 수 있습니다. 여정을 게시하면 이메일이 전송됩니다.
-* 목록의 구독자에게 이메일을 보냅니다. [사용 사례](../building-journeys/message-to-subscribers-uc.md)를 자세히 알아보십시오.
 
