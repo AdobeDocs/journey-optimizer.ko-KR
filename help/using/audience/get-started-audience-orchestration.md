@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
+source-git-commit: 1ff33c3da5236cb4a89a893f83476867a2ecddd3
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 52%
@@ -96,6 +96,8 @@ ht-degree: 52%
 >id="ajo_ao_split_otherprofiles_text"
 >title="기타 프로필"
 >abstract="이 옵션을 토글하여 다른 경로에 지정된 조건과 일치하지 않는 나머지 프로필로 추가 경로를 만듭니다."
+
+>[!BEGINSHADEBOX]
 
 이 설명서에서는 Adobe Journey Optimizer 내에서 대상자 구성을 사용하는 방법에 대해 자세한 정보를 제공합니다. 실시간 고객 프로필 전용 고객이고 Adobe Journey Optimizer를 사용하지 않는 경우 [여기를 클릭하십시오](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko){target="_blank"}.
 
