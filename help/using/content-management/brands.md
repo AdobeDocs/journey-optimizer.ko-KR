@@ -8,19 +8,30 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 88d15684f13b234bcb00227bd609ca387070952a
+source-git-commit: 7e354b5235aa6a6378ebc3d13a2c99017064379f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 21%
+source-wordcount: '497'
+ht-degree: 19%
 
 ---
 
 # 브랜드 생성 및 관리 {#brands}
 
 >[!CONTEXTUALHELP]
->id="ajo_brands_overview"
->title="브랜드"
->abstract="고유한 시각적 및 언어적 정체성을 정의하면서 브랜드의 스타일과 음성에 일치하는 콘텐츠를 더 쉽게 생성할 수 있도록 자체 브랜드를 만들고 사용자 지정합니다."
+>id="ajo_brand_overview"
+>title="브랜드 시작"
+>abstract="자체 브랜드를 만들고 사용자 정의하여 고유한 시각적 및 언어적 정체성을 정의하는 동시에 브랜드의 스타일 및 목소리와 일치하는 콘텐츠를 더 쉽게 생성할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_ai_menu"
+>title="브랜드 선택"
+>abstract="모든 AI 생성 콘텐츠가 브랜드 사양 및 지침에 맞게 맞춤화되도록 하려면 브랜드를 선택하십시오."
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_score"
+>title="브랜드 정렬 점수"
+>abstract="브랜드 정렬 점수는 AI 생성 콘텐츠가 브랜드 지침을 얼마나 잘 준수하는지 측정하여 색상, 글꼴, 로고, 이미지 및 작성 스타일의 일관성을 보장합니다."
+
 
 >[!AVAILABILITY]
 >
