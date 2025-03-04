@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -121,7 +121,7 @@ Edge 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 [
 
 >[!AVAILABILITY]
 >
-유연한 대상 평가는 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+유연한 대상자 평가는 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 Adobe Experience Platform 대상 포털을 사용하면 선택한 대상에 대해 온디맨드로 세분화 작업을 실행할 수 있으므로 Journey Optimizer 여정 및 캠페인에 타겟팅하기 전에 항상 최신 대상 데이터를 보유하게 됩니다.
 
@@ -129,8 +129,7 @@ Adobe Experience Platform 대상 포털을 사용하면 선택한 대상에 대�
 
 1. 최신 데이터를 기반으로 새 세그먼트를 만듭니다.
 1. 실시간으로 대상자를 평가하여 정확성을 보장합니다. 특정 기준(예: 사람 기반, 세그먼테이션 서비스 원본)을 충족하는 경우, 평가하려는 대상을 선택하고 &quot;대상 평가&quot;를 선택합니다.
-1. Adobe Journey Optimizer에서 평가된 대상 사용
-정확한 타겟팅을 위한 캠페인 또는 여정.
+1. 정확한 타겟팅을 위해 Adobe Journey Optimizer 캠페인 또는 여정에서 평가된 대상자를 사용합니다.
 
 한 번에 최대 20개의 대상을 평가할 수 있으며 부적격 대상은 자동으로 제외됩니다. 자세한 내용은 [Audience Portal 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)를 참조하십시오.
 
