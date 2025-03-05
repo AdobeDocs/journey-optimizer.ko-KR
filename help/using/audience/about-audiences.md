@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 22%
+source-wordcount: '546'
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,13 @@ Adobe Journey Optimizer은 대상을 만들고, 관리하고, 보강하여 마�
 
 다음과 같은 다양한 방법을 사용하여 대상을 생성할 수 있습니다.
 
-* **세그먼트 정의**: Adobe Experience Platform 세분화 서비스를 사용하여 새 대상 정의를 만듭니다. [세그먼트 정의를 만드는 방법을 알아봅니다](creating-a-segment-definition.md)
+* **세그먼트 정의**: Adobe Experience Platform 세분화 서비스를 사용하여 새 대상 정의를 만듭니다. 대상은 세그먼트 정의에서 생성되며 평가 유형에 따라 다른 시간에 새로 고쳐집니다.
+
+   * 스트리밍 세분화: 새로운 데이터가 유입되면 대상이 실시간으로 업데이트되므로 사용자 활동을 기반으로 지속적인 관련성이 보장됩니다.
+   * 배치 세그멘테이션: 대상자가 24시간마다 새로 고쳐지며, 고정된 간격으로 프로필 스냅샷을 캡처합니다.
+   * Edge 세그멘테이션: 대상자가 에지에서 즉시 평가되어 실시간 개인화가 가능합니다.
+
+[세그먼트 정의를 만드는 방법을 알아봅니다](creating-a-segment-definition.md)
 
 * **사용자 지정 업로드**: CSV 파일을 사용하여 대상을 가져옵니다. [사용자 지정 업로드 대상자를 만드는 방법을 알아봅니다](custom-upload.md)
 

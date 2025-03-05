@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 963bf0ae62664a3aa47639b27f0b39b849d51055
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1041'
 ht-degree: 19%
 
 ---
@@ -93,7 +93,9 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 
 대상자에 대한 프로필 목록은 24시간마다 평가됩니다.
 
-일괄 처리 세분화는 스트리밍 세분화 대신 사용할 수 있는 방법으로, 세그먼트 정의를 통해 모든 프로필 데이터를 한꺼번에 처리합니다. 이를 통해 대상자의 스냅샷을 만드는데, 이를 저장하거나 내보내서 사용할 수 있습니다. 하지만 스트리밍 세분화와 달리 배치 세분화는 실시간으로 대상 목록을 지속적으로 업데이트하지 않으며, 배치 프로세스 후에 들어오는 새 데이터는 다음 배치 프로세스가 진행될 때까지 대상에 반영되지 않습니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}를 참조하세요.
+일괄 처리 세분화는 스트리밍 세분화 대신 사용할 수 있는 방법으로, 세그먼트 정의를 통해 모든 프로필 데이터를 한꺼번에 처리합니다. 이를 통해 대상자의 스냅샷을 만드는데, 이를 저장하거나 내보내서 사용할 수 있습니다. 하지만 스트리밍 세분화와 달리 배치 세분화는 실시간으로 대상 목록을 지속적으로 업데이트하지 않으며, 배치 프로세스 후에 들어오는 새 데이터는 다음 배치 프로세스가 진행될 때까지 대상에 반영되지 않습니다. 즉각적인 업데이트를 시도해도 일일 사이클이 재정의되지 않습니다. 즉각적인 증분 업데이트의 경우 스트리밍 또는 온디맨드 세분화 옵션을 사용하는 것이 좋습니다.
+
+자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}를 참조하세요.
 
 +++
 
