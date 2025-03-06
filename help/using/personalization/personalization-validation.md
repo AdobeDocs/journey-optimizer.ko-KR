@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 유효성 검사, 오류, 개인화
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -24,13 +24,11 @@ ht-degree: 2%
 
 >[!NOTE]
 > 편집기 창을 닫으려면 **추가** 단추를 클릭하면 유효성 검사가 자동으로 실행됩니다.
->
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > 개인화 구문이 유효하지 않은 경우 개인화 편집기 창을 닫을 수 없습니다.
->
 
 ## 일반적인 오류 {#common-errors}
 
