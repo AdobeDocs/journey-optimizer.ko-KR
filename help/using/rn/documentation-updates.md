@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '6193'
+source-wordcount: '6222'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 96%
 
 ## 2025년 2월 {#feb-2025}
 
+* 여정 시 하나의 활동만 사용할 수 있고 한 명의 대상만 타깃팅할 수 있도록 &quot;대상 읽기&quot; 활동 가드레일이 업데이트되었습니다. [자세히 보기](../building-journeys/read-audience.md)
 * Campaign 활동 사용 시 여정 보호 기능이 업데이트되었습니다. [자세히 보기](../start/guardrails.md#ac-g)
 * 첫 번째 여정을 만드는 단계가 자세히 설명되어 있으며 설명서 섹션에 대한 링크가 추가되었습니다. [자세히 보기](../building-journeys/journey-gs.md)
 * 이제 새 페이지에서 여정 대시보드 및 필터링 사용자 인터페이스를 자세히 확인할 수 있습니다. [자세히 보기](../building-journeys/journey-ui.md)
