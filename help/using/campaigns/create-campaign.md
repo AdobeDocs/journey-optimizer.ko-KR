@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: c1ca6175e504dff5e89aaddc2105d150992a8b28
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1277'
 ht-degree: 21%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 21%
 
 1. (선택 사항) **태그** 필드를 사용하여 Adobe Experience Platform 통합 태그를 캠페인에 할당합니다. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [태그를 사용하여 작업하는 방법을 알아봅니다](../start/search-filter-categorize.md#tags).
 
-1. (선택 사항) 액세스 레이블에 따라 이 캠페인에 대한 액세스를 제한할 수 있습니다. 액세스 제한을 추가하려면 이 페이지 상단의 **[!UICONTROL 액세스 관리]** 버튼을 찾습니다. 사용 권한이 있는 레이블만 선택해야 합니다. [개체 수준 액세스 제어에 대한 자세한 정보](../administration/object-based-access.md).
+1. (선택 사항) 액세스 레이블에 따라 이 캠페인에 대한 액세스를 제한할 수 있습니다. 액세스 제한을 추가하려면 이 페이지 상단의 **[!UICONTROL 액세스 관리]** 버튼을 찾아보십시오. 사용 권한이 있는 레이블만 선택해야 합니다. [개체 수준 액세스 제어에 대한 자세한 정보](../administration/object-based-access.md).
 
 ## 캠페인 대상자 정의 {#audience}
 
@@ -86,7 +86,7 @@ ht-degree: 21%
 
 1. 채널 구성을 선택합니다.
 
-   [시스템 관리자](../start/path/administrator.md)에 의해 구성이 정의되었습니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md).
+   [시스템 관리자](../start/path/administrator.md)에 의해 구성이 정의되었습니다. 여기에는 헤더 매개변수, 하위 도메인, 모바일 앱 등 메시지 전송을 위한 모든 기술적 매개변수가 포함되어 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md).
 
    마케팅 캠페인 유형과 호환되는 채널 구성만 드롭다운 목록에 나열됩니다.
 
@@ -166,6 +166,10 @@ ht-degree: 21%
 ![](assets/create-campaign-schedule.png)
 
 이메일, SMS 및 푸시 알림 캠페인의 경우 캠페인 메시지를 전송해야 하는 빈도를 정의할 수 있습니다. 이렇게 하려면 캠페인 만들기 화면에서 **[!UICONTROL 작업 트리거]** 옵션을 사용하여 캠페인을 매일, 매주 또는 매월 실행할지 여부를 지정합니다.
+
+>[!NOTE]
+>
+>[!DNL Adobe Journey Optimizer]에서 캠페인을 예약할 때 시작 날짜/시간이 원하는 첫 번째 게재에 맞춰졌는지 확인하십시오. 반복 캠페인의 경우 초기 예약 시간이 이미 경과한 경우 캠페인은 반복 규칙에 따라 다음 사용 가능한 시간 슬롯으로 롤오버됩니다.
 
 ## 기타 설정 {#settings}
 
