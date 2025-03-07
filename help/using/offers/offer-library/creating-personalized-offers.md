@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: f30b7c72e98d3676be0885162101c1e9a5eedeaf
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
->title="오퍼 세부 사항"
->abstract="오퍼의 이름과 시작 및 종료 날짜를 입력합니다. 이 날짜 이외에는 Decisioning 엔진에서 오퍼를 선택하지 않습니다."
+>title="오퍼 세부 정보"
+>abstract="오퍼의 이름, 시작 날짜 및 종료 날짜를 입력합니다. 이 날짜 외에는 의사 결정 엔진에서 해당 오퍼가 선택되지 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
@@ -60,7 +60,7 @@ ht-degree: 14%
 
    ![](../assets/create_offer.png)
 
-1. 오퍼의 이름과 시작 및 종료 날짜 및 시간을 지정합니다. 이 날짜 이외에는 Decisioning 엔진에서 오퍼를 선택하지 않습니다.
+1. 오퍼의 이름과 시작 및 종료 날짜 및 시간을 지정합니다. 이 날짜 외에는 의사 결정 엔진에서 해당 오퍼가 선택되지 않습니다.
 
    >[!NOTE]
    >

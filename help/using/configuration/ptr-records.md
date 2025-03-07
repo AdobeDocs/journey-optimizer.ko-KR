@@ -16,7 +16,7 @@ ht-degree: 9%
 
 ---
 
-# PTR 레코드 만들기 및 편집 {#ptr-records}
+# PTR 기록 만들기 및 편집 {#ptr-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"

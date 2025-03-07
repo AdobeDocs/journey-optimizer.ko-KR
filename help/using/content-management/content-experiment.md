@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="콘텐츠 실험"
->abstract="여러 처리를 정의하고 대상에 가장 적합한 조합을 결정하기 위해 메시지 콘텐츠 또는 주제를 변경하도록 선택할 수 있습니다."
+>abstract="메시지 콘텐츠 또는 제목을 다양하게 선택하여 여러 가지 처리 방식을 정의하고 대상자에게 가장 적합한 조합을 결정할 수 있습니다."
 
 >[!NOTE]
 >

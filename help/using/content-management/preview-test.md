@@ -8,11 +8,11 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
-# 콘텐츠 미리보기 및 테스트 {#preview-test}
+# 콘텐츠 미리 보기 및 테스트 {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"

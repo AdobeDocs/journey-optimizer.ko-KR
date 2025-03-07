@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_permissions_approval_policy"
 >title="새 승인 정책"
->abstract="이 화면에서 이름을 입력하고 승인 정책에 대한 컨텍스트를 선택한 다음 조건을 작성하여 승인 요청을 시작할 수 있는 사용자와 승인 요청을 검증할 수 있는 사용자를 결정합니다."
+>abstract="이 화면에서 승인 정책의 이름을 입력하고 컨텍스트를 선택한 다음 승인 요청을 시작할 수 있는 사람과 이를 검증할 수 있는 사람을 식별하기 위한 조건을 작성합니다."
 
 승인 정책을 만들려면 다음 단계를 수행합니다.
 

@@ -12,18 +12,18 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 28%
+ht-degree: 51%
 
 ---
 
-# 사용자 지정 작업 시작 {#about_actions}
+# 사용자 정의 액션 시작하기 {#about_actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="사용자 정의 액션"
->abstract="작업은 푸시 알림, 이메일 또는 비즈니스에서 사용하는 기타 디지털 참여 방법 등 개인화된 실시간 경험을 고객에게 제공하는 데 사용되는 연결입니다."
+>abstract="액션은 푸시 알림, 이메일 또는 회사에서 사용하는 기타 디지털 참여 방법 등의 개인화된 실시간 경험을 고객에게 제공하는 데 사용되는 연결입니다."
 
-작업은 푸시 알림, 이메일 또는 비즈니스에서 사용하는 기타 디지털 참여 방법 등 개인화된 실시간 경험을 고객에게 제공하는 데 사용되는 연결입니다.
+액션은 푸시 알림, 이메일 또는 회사에서 사용하는 기타 디지털 참여 방법 등의 개인화된 실시간 경험을 고객에게 제공하는 데 사용되는 연결입니다.
 
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)

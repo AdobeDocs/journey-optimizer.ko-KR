@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
 source-wordcount: '986'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="여정 이벤트"
->abstract="특정 사용자에게 연결되는 이벤트는 이는 사람의 행동(예: 제품 구매, 매장 방문, 웹 사이트 종료 등) 또는 사람과 관련된 일(예: 로열티 포인트 10,000점 도달)과 관련이 있습니다. Journey Optimizer은 여정의 단일 이벤트를 수신하여 최적의 다음 작업을 조율합니다."
+>abstract="특정 사용자에게 연결되는 이벤트는 이는 사람의 행동(예: 제품 구매, 매장 방문, 웹 사이트 종료 등) 또는 사람과 관련된 일(예: 로열티 포인트 10,000점 도달)과 관련이 있습니다. Journey Optimizer는 여정에서 단일 이벤트를 수신하여 다음 액션을 조율합니다."
 
 이벤트 구성을 통해 [!DNL Journey Optimizer]이(가) 이벤트로 받는 정보를 정의할 수 있습니다. 여정의 여러 단계에서 여러 이벤트를 사용할 수 있으며, 여러 여정에서 동일한 이벤트를 사용할 수 있습니다.
 

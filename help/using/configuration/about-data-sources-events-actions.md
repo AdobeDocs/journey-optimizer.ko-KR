@@ -12,11 +12,11 @@ exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
-# 데이터 소스, 이벤트 및 작업 구성 {#configure-journeys}
+# 데이터 소스, 이벤트 및 액션 구성 {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
