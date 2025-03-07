@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3646c67dd23bb786cf2486c5c43748197ba04f85
+source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 16%
+source-wordcount: '618'
+ht-degree: 15%
 
 ---
 
@@ -28,9 +28,14 @@ ht-degree: 16%
 >abstract="모든 AI 생성 콘텐츠가 브랜드 사양 및 지침에 맞게 맞춤화되도록 하려면 브랜드를 선택하십시오."
 
 >[!CONTEXTUALHELP]
+>id="ajo_brand_score_overview"
+>title="브랜드 선택"
+>abstract="일관성과 브랜드 무결성을 유지하면서 특정 지침, 표준 및 정체성에 맞게 콘텐츠를 제작하려면 브랜드를 선택하십시오."
+
+>[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="브랜드 정렬 점수"
->abstract="브랜드 정렬 점수는 AI 생성 콘텐츠가 브랜드 지침을 얼마나 잘 준수하는지 측정하여 색상, 글꼴, 로고, 이미지 및 작성 스타일의 일관성을 보장합니다."
+>abstract="브랜드 정렬 점수는 색상, 글꼴, 로고, 이미지 및 쓰기 스타일의 일관성을 보장하면서 콘텐츠가 브랜드의 지침을 얼마나 잘 준수하는지 측정합니다."
 
 
 >[!AVAILABILITY]
