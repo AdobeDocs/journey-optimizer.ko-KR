@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 7e354b5235aa6a6378ebc3d13a2c99017064379f
+source-git-commit: 3646c67dd23bb786cf2486c5c43748197ba04f85
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 19%
+source-wordcount: '592'
+ht-degree: 16%
 
 ---
 
@@ -39,9 +39,7 @@ ht-degree: 19%
 
 브랜드 지침은 브랜드의 시각적 및 언어적 정체성을 확립하는 상세한 규칙 및 표준 세트입니다. 모든 마케팅 및 커뮤니케이션 플랫폼에서 일관된 브랜드 표현을 유지하는 참조 역할을 합니다.
 
-<!--Upload feature currently behind feature flag--
-
-In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
+이제 [!DNL Journey Optimizer]에서 브랜드 세부 정보를 수동으로 입력 및 구성하거나 자동 정보 추출을 위해 브랜드 지침 문서를 업로드할 수 있습니다.
 
 ## 브랜드 액세스 {#generative-access}
 
@@ -78,31 +76,21 @@ In [!DNL Journey Optimizer], you now have the option to manually input and organ
 >title="브랜드 만들기"
 >abstract="브랜드 이름을 입력하고 브랜드 지침 파일을 업로드하십시오. 이 도구는 주요 세부 정보를 자동으로 추출하므로 브랜드 정체성을 쉽게 유지할 수 있습니다."
 
-브랜드 지침을 만들고 관리하려면 아래 단계를 따르십시오.
-
-<!--Upload feature currently behind feature flag--
-
-To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:-->
+브랜드 지침을 만들고 관리하기 위해 직접 세부 정보를 입력하거나 브랜드 지침 문서를 업로드하여 정보를 자동으로 추출할 수 있습니다.
 
 1. **[!UICONTROL 브랜드]** 메뉴에서 **[!UICONTROL 브랜드 만들기]**&#x200B;를 클릭합니다.
 
    ![](assets/brands-1.png)
 
-1. 브랜드의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오<!--and a **[!UICONTROL Description]** to your brand guideline-->.
+1. 브랜드의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오.
 
-   ![](assets/brands-2-temp.png)
+1. 파일을 드래그 앤 드롭하거나 선택하여 브랜드 지침을 업로드하고 자동으로 관련 브랜드 정보를 추출합니다. **[!UICONTROL 브랜드 만들기]**&#x200B;를 클릭합니다.
 
-<!--Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)--
+   이제 정보 추출 프로세스가 시작됩니다. 완료하는 데 몇 분 정도 걸릴 수 있습니다.
 
-1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
+   ![](assets/brands-2.png)
 
-    The information extraction process now begins. Note that it may take several minutes to complete.
-
-    ![](assets/brands-2.png)
-
-1. Your Content and visual creation standards are now automatically populated. Browse through the different tabs to adapt the information as needed.
-
--->
+1. 이제 콘텐츠 및 시각적 만들기 표준이 자동으로 채워집니다. 다양한 탭을 탐색하여 필요에 따라 정보를 조정합니다.
 
 1. **[!UICONTROL 작성 스타일]** 탭에서 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 예제를 포함한 지침 또는 제외를 추가합니다.
 
