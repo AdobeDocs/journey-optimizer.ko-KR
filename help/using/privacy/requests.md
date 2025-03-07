@@ -7,9 +7,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 95d02900fb9686466fa6b20c90e1c425567db145
+source-git-commit: b400b48d6f0429b05be523d4c2f520c383eef514
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 45%
 
 ---
@@ -69,7 +69,7 @@ Adobe Journey Optimizer에 데이터 액세스 및 삭제를 요청하려면 다
 
 >[!IMPORTANT]
 >
->개인 정보 보호 요청을 제출할 때는 대상 제품 이름으로 &#39;[!DNL '**Adobe Journey Optimizer**]&#39;을(를) 지정하고 액세스하거나 제거해야 하는 프로필 데이터와 연결된 **모든 ID 네임스페이스**(예: &#39;이메일&#39; &#39;ECID&#39; 또는 &#39;충성도 ID&#39;)를 지정해야 합니다. 특히 Delete 요청의 경우 제품 이름과 적용 가능한 모든 네임스페이스를 명시적으로 포함하지 않으면 데이터가 [!DNL Adobe Journey Optimizer]에 유지됩니다.
+>개인 정보 보호 요청을 제출할 때는 대상 제품 이름으로 &#39;[!DNL '**Adobe Journey Optimizer**]&#39;을(를) 지정하고 액세스하거나 제거해야 하는 프로필 데이터와 연결된 **모든 ID 네임스페이스**(예: &#39;이메일&#39; &#39;ECID&#39; 또는 &#39;충성도 ID&#39;)를 지정해야 합니다. 특히 Delete 요청의 경우 제품 이름과 적용 가능한 모든 네임스페이스를 명시적으로 포함하지 않으면 [!DNL Adobe Journey Optimizer]에서 데이터가 제거되지 않습니다.
 
 ### API 요청에 대한 Journey Optimizer의 필수 필드 값
 
