@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 890d3925a418c117451864558be92030a3a0f87f
+source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 23%
@@ -22,7 +22,7 @@ ht-degree: 23%
 
 [환경을 구축](create-code-based.md)하기 전에 응용 프로그램 내에서 콘텐츠가 전달되고 소비될 위치를 정의하는 코드 기반 경험 구성을 만들어야 합니다.
 
-코드 기반 경험 구성은 기본적으로 변경 사항을 렌더링할 위치인 표면을 참조해야 합니다. 선택한 플랫폼에 따라 위치/경로 또는 전체 표면 URI를 입력해야 합니다. [자세히 알아보기](#surface-definition)
+코드 기반 경험 구성은 기본적으로 변경 사항을 렌더링할 위치인 표면을 참조해야 합니다. 선택한 플랫폼에 따라 위치/경로 또는 전체 표면 URI를 입력해야 합니다. [자세히 알아보기](code-based-surface.md)
 
 ## 코드 기반 경험 구성 만들기 {#create-code-based-configuration}
 
