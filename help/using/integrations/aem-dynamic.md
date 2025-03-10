@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 8d477f724b9bddcfd05df62ea236ebbaa25bc549
+source-git-commit: a6a601477e29e558bf4f4e9416187b2db3e15942
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 Adobe Experience Manager as a Cloud Service의 Dynamic Media에 대한 자세한 내용은 [Experience Manager 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)를 참조하세요.
 
-## Dynamic Media 추가 및 관리
+## Dynamic Media 추가 및 관리 {#dynamic-media}
 
 Adobe Experience Manager as a Cloud Service의 Dynamic Media를 Journey Optimizer 콘텐츠에 직접 삽입하여 화면 또는 브라우저에 맞게 콘텐츠를 개선하고 최적화합니다.  그런 다음 필요에 따라 크기를 조정하고, 자르고, 강화하고, 기타 조정할 수 있습니다.
 
@@ -55,7 +55,7 @@ Adobe Experience Manager as a Cloud Service의 Dynamic Media를 Journey Optimize
 
 이제 콘텐츠에 Dynamic Media가 포함됩니다. Experience Manager에서 수행하는 모든 업데이트는 Journey Optimizer에 자동으로 표시됩니다.
 
-## 텍스트 오버레이 개인화
+## 텍스트 오버레이 개인화 {#text-overlay}
 
 기존 텍스트 오버레이를 원하는 새 텍스트로 대체하여 모든 다이내믹 미디어를 손쉽게 맞춤화할 수 있으므로 원활한 업데이트 및 개인화가 가능합니다.
 
@@ -96,13 +96,13 @@ Adobe Experience Manager as a Cloud Service의 Dynamic Media를 Journey Optimize
 
 ![](assets/dynamic-media-layout-3.png)
 
-## Dynamic Media 템플릿 추가 및 관리
+## Dynamic Media 템플릿 추가 및 관리 {#dynamic-media-template}
 
 Journey Optimizer에서 Dynamic Media 템플릿을 쉽게 추가하고 필요할 때마다 미디어 콘텐츠를 업데이트합니다. 이제 개인화 필드를 미디어에 통합하여 Journey Optimizer 내에서 보다 맞춤화되고 매력적인 콘텐츠를 만들 수 있습니다.
 
 [다이내믹 미디어 템플릿](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)에 대해 자세히 알아보세요.
 
-### 이미지 구성 요소 사용
+### 이미지 구성 요소 사용 {#image-component}
 
 이미지 구성 요소를 사용하여 다이내믹 템플릿을 콘텐츠에 직접 삽입할 수 있습니다.
 
@@ -136,7 +136,7 @@ Journey Optimizer에서 Dynamic Media 템플릿을 쉽게 추가하고 필요할
 
 테스트를 수행하고 콘텐츠의 유효성을 검사하면 대상자에게 메시지를 보낼 수 있습니다.
 
-### HTML 구성 요소 사용
+### HTML 구성 요소 사용 {#html-component}
 
 HTML 구성 요소를 사용하여 다이내믹 템플릿을 콘텐츠에 직접 삽입할 수 있습니다.
 
