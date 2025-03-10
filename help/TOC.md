@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfc0774468710a7b8791c9b2a6c70397a90443fa
+source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 91%
+source-wordcount: '2251'
+ht-degree: 90%
 
 ---
 
@@ -170,7 +170,35 @@ ht-degree: 91%
          + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
          + [외부 데이터 소스 및 사용자 지정 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
          + [사용자 지정 작업을 사용하여 Experience Platform에서 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
-+ 캠페인{#campaigns}
++ 여러 단계 캠페인 {#ms-campaigns}
+   + [여러 단계 캠페인 시작](using/ms/gs-ms-campaigns.md)
+   + 첫 번째 다중 단계 캠페인 {#create-ms-campaign} 만들기
+      + [주요 원칙](using/ms/gs-campaign-creation.md)
+      + [가드레일 및 제한 사항](using/ms/guardrails.md)
+      + [캠페인 만들기](using/ms/create-ms-campaign.md)
+      + [활동 조율](using/ms/orchestrate-activities.md)
+      + [캠페인 설정 구성](using/ms/ms-campaign-settings.md)
+      + [캠페인 시작 및 모니터링](using/ms/start-monitor-campaigns.md)
+      + [여러 단계 캠페인의 이벤트 변수](using/ms/event-variables.md)
+   + 여러 단계 캠페인 활동 {#design-campaigns}
+      + [여러 단계 캠페인 활동 기본 정보](using/ms/activities/about-activities.md)
+      + [AND-가입](using/ms/activities/and-join.md)
+      + [대상자 빌드](using/ms/activities/build-audience.md)
+      + [차원 변경](using/ms/activities/change-dimension.md)
+      + [결합](using/ms/activities/combine.md)
+      + [중복 제거](using/ms/activities/deduplication.md)
+      + [채널 작업](using/ms/activities/channels.md)
+      + [보강](using/ms/activities/enrichment.md)
+      + [포크](using/ms/activities/fork.md)
+      + [파일 로드](using/ms/activities/load-file.md)
+      + [조정](using/ms/activities/reconciliation.md)
+      + [대상자 저장](using/ms/activities/save-audience.md)
+      + [스케줄러](using/ms/activities/scheduler.md)
+      + [분할](using/ms/activities/split.md)
+      + [테스트](using/ms/activities/test.md)
+      + [데이터 업데이트](using/ms/activities/update-data.md)
+      + [대기](using/ms/activities/wait.md)
++ 캠페인 {#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)
    + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
@@ -671,7 +699,7 @@ ht-degree: 91%
    + [비즈니스 규칙 구성](using/configuration/frequency-rules.md)
    + [규칙 집합 작업](using/configuration/rule-sets.md)
    + 여정 구성 {#configure-journeys}
-      + [데이터 소스, 이벤트 및 작업 구성](using/configuration/about-data-sources-events-actions.md)
+      + [데이터 소스, 이벤트 및 액션 구성](using/configuration/about-data-sources-events-actions.md)
       + 외부 시스템과 통합 {#external-systems}
          + [여정을 외부 시스템과 통합하기](using/configuration/external-systems.md)
          + [Capping API](using/configuration/capping.md)
@@ -690,7 +718,7 @@ ht-degree: 91%
          + [Adobe Experience Platform 데이터 소스](using/datasource/adobe-experience-platform-data-source.md)
          + [외부 데이터 소스](using/datasource/external-data-sources.md)
       + 작업 구성 {#action-journeys}
-         + [사용자 지정 작업 시작](using/action/action.md)
+         + [사용자 정의 액션 시작하기](using/action/action.md)
          + [사용자 정의 액션 구성](using/action/about-custom-action-configuration.md)
          + [사용자 지정 작업 문제 해결](using/action/troubleshoot-custom-action.md)
          + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
