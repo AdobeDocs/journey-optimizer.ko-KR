@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
 source-wordcount: '6222'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -27,16 +27,16 @@ ht-degree: 96%
 ## 2025년 2월 {#feb-2025}
 
 * 여정 시 하나의 활동만 사용할 수 있고 한 명의 대상만 타깃팅할 수 있도록 &quot;대상 읽기&quot; 활동 가드레일이 업데이트되었습니다. [자세히 보기](../building-journeys/read-audience.md)
-* Campaign 활동 사용 시 여정 보호 기능이 업데이트되었습니다. [자세히 보기](../start/guardrails.md#ac-g)
+* 캠페인 활동 사용 시 여정 가드레일이 업데이트되었습니다. [자세히 보기](../start/guardrails.md#ac-g)
 * 첫 번째 여정을 만드는 단계가 자세히 설명되어 있으며 설명서 섹션에 대한 링크가 추가되었습니다. [자세히 보기](../building-journeys/journey-gs.md)
 * 이제 새 페이지에서 여정 대시보드 및 필터링 사용자 인터페이스를 자세히 확인할 수 있습니다. [자세히 보기](../building-journeys/journey-ui.md)
 * **[!UICONTROL 전송 시간 최적화]** 및 관련 FAQ에 대한 설명서를 업데이트 및 개선하고 새 전용 페이지로 이동했습니다. [자세히 보기](../building-journeys/send-time-optimization.md)
 * 여정 이벤트에 대한 새 가드레일을 추가했습니다. [자세히 보기](../start/guardrails.md#events-g)
 * 기본 제공 채널 액션 페이지를 재구성했습니다. [자세히 보기](../building-journeys/journeys-message.md)
-* 의사 결정 및 의사 결정 관리 섹션에 보호 및 제한 사항이 추가되었습니다.
-   * [보호 및 제한 사항 결정](../experience-decisioning/decisioning-guardrails.md)
-   * [의사 결정 관리 보호 및 제한 사항](../offers/decision-management-guardrails.md)
-* 의사 결정 관리 설명서에 컨텍스트 데이터에 대한 새 섹션이 추가되었습니다. 의사 결정 엔진에서 컨텍스트 데이터를 활용하는 방법에 대한 정보를 제공합니다. 예를 들어 의사 결정 요청이 이루어질 때 현재 날씨가 ≥80도여야 하는 의사 결정 규칙을 디자인하는 데 도움이 됩니다. [자세히 보기](../offers/context-data.md)
+* 의사 결정 및 의사 결정 관리 섹션에 가드레일과 제한 사항이 추가되었습니다.
+   * [의사 결정 가드레일 및 제한 사항](../experience-decisioning/decisioning-guardrails.md)
+   * [의사 결정 관리 가드레일 및 제한 사항](../offers/decision-management-guardrails.md)
+* 의사 결정 관리 설명서에 컨텍스트 데이터에 대한 새 섹션이 추가되었습니다. 해당 섹션에서는 의사 결정 엔진에서 컨텍스트 데이터를 활용하는 방법에 대한 정보를 제공합니다. 예를 들어 의사 결정 요청이 이루어질 때 현재 날씨가 80도 이상이어야 하는 결정 규칙을 디자인하는 데 도움이 됩니다. [자세히 보기](../offers/context-data.md)
 
 ## 2025년 1월 {#jan-2025}
 
@@ -135,7 +135,7 @@ ht-degree: 96%
    * E: 이벤트 기반 여정에서 이벤트를 트리거하는 데 사용되는 단축키.
    * P: 한 번에 한 프로필 옵션이 켜진 대상자 기반 여정의 이벤트를 트리거하는 단축키.
    * L: 테스트 로그를 표시하도록 지정된 단축키.
-* 메시지 빈도 규칙 페이지가 일별 빈도 상한에 대한 새 하위 섹션으로 업데이트되었습니다(주별 또는 월별 한도 외에도 필요에 따라 사용할 수 있음).
+* 메시지 빈도 규칙 페이지가 일별 빈도 상한에 대한 새 하위 섹션으로 업데이트되었습니다(주별 또는 월별 상한 설정 외에 추가로 필요에 따라 사용할 수 있음).
 * 동의 정책 사용 페이지를 개선하고 Experience Platform 설명서에 대한 유용한 링크로 업데이트했습니다. [자세히 보기](../action/consent.md)
 * 그리드 보기 모드(제한된 가용성)에서 HTML 이메일 콘텐츠 템플릿을 썸네일로 표시할 수 있다는 사실을 반영한 새 섹션을 추가했습니다. [자세히 보기](../content-management/content-templates.md#template-thumbnails)
 * 전달성 페이지에 피드백 루프가 무엇이며 어떻게 활용할 수 있는지 설명하는 새 섹션을 추가했습니다. [자세히 보기](../reports/deliverability.md#feedback-loops)
@@ -152,7 +152,7 @@ ht-degree: 96%
 * 고급 표현식 편집기에서 사용할 수 있는 함수 목록이 업데이트되었습니다. [자세히 보기](../building-journeys/expression/functions.md)
 * 분할 함수의 페이지가 업데이트되었습니다. [자세히 보기](../building-journeys/functions/functioninaudience.md)
 * 푸시 알림의 옵트인 또는 옵트아웃이 인앱 메시지에 미치는 영향에 대한 정보를 추가했습니다. [자세히 보기](../in-app/create-in-app.md)
-* 사용자 인터페이스에서 사용 가능한 기간 옵션(주별 또는 월별)을 반영하도록 메시지 빈도 규칙 페이지가 업데이트되었습니다.
+* 사용자 인터페이스에서 사용 가능한 기간 옵션(주별 또는 월별)을 반영하도록 메시지 빈도 규칙 페이지가 업데이트되었습니다. 
 * PTR 기록을 수동으로 만들 수 없으며 새 하위 도메인을 할당하기 위해 PTR 기록을 편집해야 한다는 사실을 명확히 설명하도록 PTR 기록 편집 섹션이 업데이트되었습니다. [자세히 보기](../configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024년 1월 {#jan-2024}
@@ -350,7 +350,7 @@ ht-degree: 96%
 ## 2022년 8월 {#august-2022}
 
 * [!DNL Journey Optimizer] 2022년 8월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
-* 새 인라인 메시징 흐름을 반영하도록 빈도 규칙 섹션이 업데이트되었습니다.
+* 새 인라인 메시징 흐름을 반영하도록 빈도 규칙 섹션이 업데이트되었습니다. 
 * 구독을 구성하고 랜딩 페이지를 만드는 방법을 보여주는 비디오가 이제 랜딩 페이지 시작 섹션에서 참조됩니다. [자세히 보기](../landing-pages/get-started-lp.md#video)
 * 대상자 읽기 활동을 사용하는 여정에 대한 제한 사항을 추가했습니다. [자세히 보기](../building-journeys/read-audience.md)
 * 표현식 편집기 연산자 페이지를 개선했습니다. [자세히 보기](../building-journeys/expression/operators.md)

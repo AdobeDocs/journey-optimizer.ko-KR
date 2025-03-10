@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->* 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe Customer Success Manager 또는 Adobe 담당자에게 문의하십시오.
+>* 환경에서 사용할 수 있는 구성 요소와 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
 >
 >* 이 설명서는 사용자 인터페이스 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 하지만 어떤 스크린샷은 실제 사용자 인터페이스와 약간 다를 수 있습니다.
 >
@@ -122,7 +122,7 @@ ht-degree: 95%
 
 * **[!UICONTROL 감사]** - 이 섹션으로 이동하면 활동 로그를 확인할 수 있습니다. [자세히 알아보기](../privacy/audit-logs.md)
 
-* **[!UICONTROL 데이터 수명 주기]** - 이 섹션에서 데이터 수명 주기 작업을 구성하고 예약하여 레코드가 올바르게 관리되도록 할 수 있습니다. [자세히 보기](../privacy/data-hygiene.md)
+* **[!UICONTROL 데이터 수명 주기]** - 이 섹션에서는 데이터 수명 주기 작업을 구성하고 예약함으로써 기록을 적절하게 유지 관리할 수 있습니다. [자세히 보기](../privacy/data-hygiene.md)
 
 ### [!UICONTROL 관리] {#left-nav-admin}
 
