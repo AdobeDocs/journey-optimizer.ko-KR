@@ -5,9 +5,9 @@ title: 여러 단계 캠페인 시작
 description: 여러 단계 캠페인으로 시작하는 방법 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
+source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '419'
 ht-degree: 25%
 
 ---
@@ -21,17 +21,12 @@ ht-degree: 25%
 
 **목차**
 
-* 여러 단계 캠페인 시작
-* [주요 원칙](gs-campaign-creation.md)
-* [가드레일 및 제한 사항](guardrails.md)
-* [캠페인 만들기](create-ms-campaign.md)
-* [활동 조율](orchestrate-activities.md)
-* [캠페인 설정 구성](ms-campaign-settings.md)
+* [주요 원칙](gs-campaign-creation.md) - [보호 기능 및 제한 사항](guardrails.md)
+* [캠페인 만들기](create-ms-campaign.md) - [캠페인 설정 구성](ms-campaign-settings.md)
 * [캠페인 시작 및 모니터링](start-monitor-campaigns.md)
-* [여러 단계 캠페인의 이벤트 변수](event-variables.md)
-* 여러 단계 캠페인 활동 작업
-   * [활동 시작](activities/about-activities.md)
-   * 활동 목록: [및 가입](activities/and-join.md) - [대상 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [채널 작업](activities/channels.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [파일 로드](activities/load-file.md) - [조정](activities/reconciliation.md) - [대상 저장](activities/save-audience.md) - [스케줄러](activities/scheduler.md) - [분할](activities/split.md) - [테스트](activities/test.md) - [데이터 업데이트](activities/update-data.md) - [대기](activities/wait.md)
+* [이벤트 변수](event-variables.md)
+* [활동 시작](activities/about-activities.md) - [활동 오케스트레이션](orchestrate-activities.md)
+* 활동 목록: [및 가입](activities/and-join.md) - [대상 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [채널 작업](activities/channels.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [파일 로드](activities/load-file.md) - [조정](activities/reconciliation.md) - [대상 저장](activities/save-audience.md) - [스케줄러](activities/scheduler.md) - [분할](activities/split.md) - [테스트](activities/test.md) - [데이터 업데이트](activities/update-data.md) - [대기](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
