@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 데이터, 관리, 플랫폼
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 95%
 
 [!DNL Journey Optimizer]의 데이터 유연성을 활용하여 데이터 보존, 보관 또는 삭제와 관련된 특정 요구 사항을 충족할 수 있습니다.
 
-* **데이터 추출/내보내기**: 언제든지 데이터 액세스 API를 통해 페널티나 시간 지연 없이 소스 데이터 추출을 시작할 수 있습니다. [데이터 액세스 API](https://experienceleague.adobe.com/ko/docs/experience-platform/data-access/api){target="_blank"}는 사용자에게 [!DNL Adobe Experience Platform] 내에서 수집된 데이터 세트의 검색 및 액세스 용이성에 중점을 둔 RESTful 인터페이스를 제공합니다. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **데이터 추출/내보내기**: 언제든지 데이터 액세스 API를 통해 페널티나 시간 지연 없이 소스 데이터 추출을 시작할 수 있습니다. [데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=ko){target="_blank"}는 사용자에게 [!DNL Adobe Experience Platform] 내에서 수집된 데이터 세트의 검색 및 액세스 용이성에 중점을 둔 RESTful 인터페이스를 제공합니다. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   단, 여정 또는 캠페인에 사용된 콘텐츠는 위에서 언급한 API 또는 대상 메서드를 통해 추출할 수 없습니다.
 
@@ -77,7 +77,7 @@ ht-degree: 95%
 
 * **제거 및 보관 메커니즘**: [!DNL Adobe Journey Optimizer]에서 데이터 삭제 및 보관 작업을 자유롭게 정의하고 자동화하여 데이터 보존 정책을 자동화할 수 있습니다. 다양한 데이터 엔터티에 대해 서로 다른 에이징 전략을 정의할 수 있습니다. 내보내기 메커니즘을 정의하여 오래된 데이터를 삭제하거나 보관 처리하기 전에 자동으로 내보낼 수도 있습니다.
 
-  데이터 라이프사이클 작업 영역을 사용하면 소비자 ID 삭제 및 데이터 세트 만료 일정 예약 등 다양한 데이터 라이프사이클 작업을 만들고 모니터링할 수 있습니다. 이 작업 영역은 Security &amp; Privacy Shield 및 Healthcare Shield를 통해 사용할 수 있습니다. [이 페이지](../privacy/data-hygiene.md)에서 자세히 알아보십시오.
+  데이터 수명주기 작업 영역에서는 소비자 ID 삭제와 데이터 세트 만료 일정 예약 등 다양한 데이터 수명주기 작업을 만들고 모니터링할 수 있습니다. 이 작업 영역은 Security &amp; Privacy Shield 및 Healthcare Shield를 통해 사용할 수 있습니다. [이 페이지](../privacy/data-hygiene.md)에서 자세히 알아보십시오.
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

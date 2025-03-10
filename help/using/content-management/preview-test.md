@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
 
   ➡️ [이메일 렌더링 확인](rendering.md)
 
-  ➡️0}이메일 미리 보기 및 증명(비디오)](#video-preview)[
+  ➡️ [이메일 미리 보기 및 증명(비디오)](#video-preview)
 
 * **샘플 입력 데이터**
 

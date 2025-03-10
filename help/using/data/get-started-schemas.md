@@ -9,9 +9,9 @@ level: Experienced
 keywords: 스키마, 플랫폼, 데이터, 구조
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 78%
 
 스키마는 데이터의 구조와 형식을 나타내고 유효성을 검사하는 규칙 세트입니다. 스키마는 높은 수준에서 실제 개체(예: 사람)에 대한 추상적인 정의를 제공하고, 해당 개체의 각 인스턴스에 포함되어야 하는 데이터(예: 이름, 성, 생일 등)에 대한 개요를 제공합니다.
 
-[이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko){target="_blank"}에서 스키마를 만드는 방법을 알아보세요.
+스키마를 작성하는 방법은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko){target="_blank"}를 참조하세요.
 
 [!DNL Adobe Journey Optimizer] 사용자 인터페이스의 **스키마** 작업 영역에서는 스키마와 클래스, 스키마 필드 그룹, 데이터 유형 등 XDM(Experience Data Model) 리소스를 관리할 수 있습니다. Adobe에서 제공하는 핵심 리소스를 보고 탐색하며 조직의 사용자 정의 리소스와 스키마를 만들 수 있습니다.
 
@@ -31,7 +31,7 @@ ht-degree: 78%
 
 [스키마] 사용자 인터페이스를 사용하는 방법은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko){target="_blank"}를 참조하십시오.
 
-스키마 편집기를 사용하여 스키마를 만드는 단계별 설명서는 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko){target="_blank"}에 있습니다.
+스키마 편집기를 사용하여 스키마를 만드는 단계별 설명서는 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko){target="_blank"}에서 확인할 수 있습니다.
 
 각 스키마에 대한 필드 및 특성의 전체 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko){target="_blank"}을 참조하세요.
 

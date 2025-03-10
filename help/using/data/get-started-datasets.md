@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 데이터 세트 시작
+title: 데이트 세트 시작
 description: Adobe Journey Optimizer에서 Adobe Experience Platform 데이터 세트를 사용하는 방법 알아보기
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
@@ -9,13 +9,13 @@ level: Experienced
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# 데이터 세트 시작 {#datasets-gs}
+# 데이트 세트 시작 {#datasets-gs}
 
 Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다. 
 
