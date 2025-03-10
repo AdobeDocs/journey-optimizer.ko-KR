@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
+source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1198'
 ht-degree: 31%
 
 ---
@@ -120,7 +120,7 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 
 1. 링크가 삽입된 **[!UICONTROL 텍스트]** 구성 요소에서 링크를 선택합니다.
 
-1. **[!UICONTROL 설정]** 탭에서 **[!UICONTROL Target]** 드롭다운에서 링크가 열리는 위치를 선택합니다.
+1. **[!UICONTROL 설정]** 탭에서 **[!UICONTROL Target]** 드롭다운에서 링크가 열리는 위치를 선택합니다. 가능한 값은 다음과 같습니다.
 
    * **[!UICONTROL None]**: 링크를 클릭한 프레임과 동일한 프레임에서 링크를 엽니다(기본값).
    * **[!UICONTROL Blank]**: 새 창이나 탭에서 링크를 엽니다.
