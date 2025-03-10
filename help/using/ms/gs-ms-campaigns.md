@@ -5,56 +5,40 @@ title: 여러 단계 캠페인 시작
 description: 여러 단계 캠페인으로 시작하는 방법 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 32%
+source-wordcount: '434'
+ht-degree: 25%
 
 ---
 
 
 # 여러 단계 캠페인 시작 {#ms-camp}
 
+여러 단계 캠페인은 강력한 브랜드에서 시작한 일괄 캠페인 기능을 도입하여 Adobe Journey Optimizer을 향상하므로 고급 세분화 전략을 사용하여 크로스 채널 캠페인을 계획 및 오케스트레이션할 수 있습니다.
 
 >[!BEGINSHADEBOX]
 
-**이 섹션에서**
+**목차**
 
-* 첫 번째 다중 단계 캠페인 만들기 및 실행
-   * [주요 원칙](gs-campaign-creation.md)
-   * [가드레일 및 제한 사항](guardrails.md)
-   * [캠페인 만들기](create-ms-campaign.md)
-   * [활동 조율](orchestrate-activities.md)
-   * [캠페인 설정 구성](ms-campaign-settings.md)
-   * [캠페인 시작 및 모니터링](start-monitor-campaigns.md)
-   * [여러 단계 캠페인의 이벤트 변수](event-variables.md)
+* 여러 단계 캠페인 시작
+* [주요 원칙](gs-campaign-creation.md)
+* [가드레일 및 제한 사항](guardrails.md)
+* [캠페인 만들기](create-ms-campaign.md)
+* [활동 조율](orchestrate-activities.md)
+* [캠페인 설정 구성](ms-campaign-settings.md)
+* [캠페인 시작 및 모니터링](start-monitor-campaigns.md)
+* [여러 단계 캠페인의 이벤트 변수](event-variables.md)
 * 여러 단계 캠페인 활동 작업
-   * [여러 단계 캠페인 활동 기본 정보](activities/about-activities.md)
-   * [AND-가입](activities/and-join.md)
-   * [대상자 빌드](activities/build-audience.md)
-   * [차원 변경](activities/change-dimension.md)
-   * [결합](activities/combine.md)
-   * [중복 제거](activities/deduplication.md)
-   * [채널 작업](activities/channels.md)
-   * [보강](activities/enrichment.md)
-   * [포크](activities/fork.md)
-   * [파일 로드](activities/load-file.md)
-   * [조정](activities/reconciliation.md)
-   * [대상자 저장](activities/save-audience.md)
-   * [스케줄러](activities/scheduler.md)
-   * [분할](activities/split.md)
-   * [테스트](activities/test.md)
-   * [데이터 업데이트](activities/update-data.md)
-   * [대기](activities/wait.md)
+   * [활동 시작](activities/about-activities.md)
+   * 활동 목록: [및 가입](activities/and-join.md) - [대상 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [채널 작업](activities/channels.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [파일 로드](activities/load-file.md) - [조정](activities/reconciliation.md) - [대상 저장](activities/save-audience.md) - [스케줄러](activities/scheduler.md) - [분할](activities/split.md) - [테스트](activities/test.md) - [데이터 업데이트](activities/update-data.md) - [대기](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
 
 ## 여러 단계 캠페인이란 무엇입니까?
 
-크로스 채널 마케팅은 고객에게 효과적으로 다가가고자 하는 모든 비즈니스에 필수적입니다. Adobe Journey Optimizer은 마케팅 캠페인을 쉽게 관리하는 데 도움이 되는 복잡한 프로세스를 디자인할 수 있는 포괄적인 그래픽 환경을 제공합니다.
-
-여러 단계 캠페인을 사용하면 전체 프로세스 및 작업을 오케스트레이션하고, 세그먼트 만들기, 메시지 준비에서 게재에 이르기까지 마케팅 캠페인의 모든 측면에 대한 속도와 규모를 향상시킬 수 있습니다. 또한 캠페인 오케스트레이션을 위해 사용하기 쉬운 단일 인터페이스로 채널을 동기화할 수 있습니다.
+크로스 채널 마케팅은 고객에게 효과적으로 다가가고자 하는 모든 비즈니스에 필수적입니다. Adobe Journey Optimizer은 마케팅 캠페인을 쉽게 관리하는 데 도움이 되는 복잡한 프로세스를 디자인할 수 있는 포괄적인 그래픽 환경을 제공합니다. 여러 단계 캠페인을 사용하면 전체 프로세스 및 작업을 오케스트레이션하고, 세그먼트 만들기, 메시지 준비에서 게재에 이르기까지 마케팅 캠페인의 모든 측면에 대한 속도와 규모를 향상시킬 수 있습니다. 또한 캠페인 오케스트레이션을 위해 사용하기 쉬운 단일 인터페이스로 채널을 동기화할 수 있습니다.
 
 여러 단계 캠페인의 가장 중요한 장점 중 하나는 모든 채널에서 고객에게 개인화된 콘텐츠를 간단하게 전달할 수 있다는 것입니다. 고객이 이메일을 통해 메시지를 수신하든 아니면 모바일을 통해 메시지를 수신하든 Adobe Journey Optimizer을 통해 모든 채널에서 일관되고 상황에 맞는 경험을 제공할 수 있으므로 모든 고객의 여정을 고유한 경험으로 변환할 수 있습니다.
 
