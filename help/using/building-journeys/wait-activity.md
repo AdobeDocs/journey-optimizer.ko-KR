@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 18%
@@ -35,7 +35,7 @@ ht-degree: 18%
 * [Fixed date](#fixed_date) 
 -->
 
-## 권장 사항 {#wait-recommendations}
+## 추천 {#wait-recommendations}
 
 ### 여러 대기 활동 {#multiple-wait-activities}
 
@@ -87,26 +87,6 @@ Select the date for the execution of the next activity.
 
 
 대기 활동이 예상대로 작동하는지 확인하려면 단계 이벤트를 사용할 수 있습니다. [자세히 알아보기](../reports/query-examples.md#common-queries).
-
-<!--## Email send time optimization{#email_send_time_optimization}
-
-This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you'll be notified that the default time applies.
-
->[!NOTE]
->
->The first event of your journey must have a namespace.
->
->This capability is only available after an **[!UICONTROL Email]** activity. You need to have Adobe Campaign Standard.
-
-1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
-1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
-1. In the **[!UICONTROL Default time]** field, define the default time to wait if the predictive send time score is not available.
-
-    >[!NOTE]
-    >
-    >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
-
-![](assets/journey57bis.png)-->
 
 ## 자동 대기 노드  {#auto-wait-node}
 
