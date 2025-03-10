@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 27%
@@ -16,8 +16,6 @@ ht-degree: 27%
 # 도우미 함수 시작{#functions}
 
 [!DNL Journey Optimizer] 템플릿 언어를 사용하여 계산, 데이터 형식 지정 또는 전환, 조건 등 데이터에 대한 작업을 수행하고, 개인화의 컨텍스트에서 이를 조작합니다. [이 페이지](../personalization-syntax.md)에서 개인화 구문 지침을 알아보세요.
-
-
 
 ➡️[이 비디오에서 도우미 함수를 사용하는 방법을 알아보세요](#video)
 

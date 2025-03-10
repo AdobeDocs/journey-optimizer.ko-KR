@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ff31c69255e6d4e0762a57430f112c92f34191c3
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 96%
+source-wordcount: '2266'
+ht-degree: 95%
 
 ---
 
@@ -359,15 +359,11 @@ ht-degree: 96%
          + [실험 보고서의 통계 계산 이해](using/content-management/experiment-report-calculations.md)
    + 개인화 {#personalization}
       + [개인화 시작](using/personalization/personalize.md)
-      + [개인화 컨텍스트](using/personalization/personalization-contexts.md)
+      + [개인화 추가](using/personalization/personalization-build-expressions.md)
       + [개인화 구문](using/personalization/personalization-syntax.md)
-      + [개인화(Beta)에 Adobe Experience Platform 데이터 사용](using/personalization/lookup-aep-data.md)
-      + 개인화 편집기 작업 {#expression-editor}
-         + [개인화 편집기 정보](using/personalization/personalization-build-expressions.md)
-         + [즐겨찾기에 속성 추가](using/personalization/personalization-favorites.md)
-         + [표현식 조각 사용](using/personalization/use-expression-fragments.md)
-         + [개인화 유효성 검사](using/personalization/personalization-validation.md)
-      + 도우미 함수{#functions}
+      + [식 조각 재사용](using/personalization/use-expression-fragments.md)
+      + [개인화에 Adobe Experience Platform 데이터 사용(Beta)](using/personalization/lookup-aep-data.md)
+      + 도우미 함수 목록 {#functions}
          + [도우미 함수 시작](using/personalization/functions/functions.md)
          + [집계 함수](using/personalization/functions/aggregation.md)
          + [산술 함수](using/personalization/functions/arithmetic-functions.md)

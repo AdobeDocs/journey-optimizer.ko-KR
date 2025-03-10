@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 99%
+source-wordcount: '863'
+ht-degree: 86%
 
 ---
 
@@ -22,6 +22,20 @@ ht-degree: 99%
 
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
+## 2025년 3월 업데이트 {#25-03-rn}
+
+**Personalization 편집기 개선 사항**
+
+Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로 업데이트되었습니다.
+* **코드 편집기 디자인을 업데이트했습니다** - 개선된 유용성과 포커스를 위한 깔끔하고 현대적인 인터페이스입니다.
+* **검색 및 바꾸기** - 편집기 내에서 콘텐츠를 빠르게 찾고 바꿀 수 있는 기능이 추가되었습니다.
+* **실행 취소 및 다시 실행** - 변경 내용을 쉽게 되돌리거나 다시 적용할 수 있습니다.
+* **사용자 지정 가능한 글꼴 크기** - 편집기의 글꼴 크기를 조정하여 가독성을 높일 수 있습니다.
+* **인라인 JSON 유효성 검사** - JSON 콘텐츠에 대한 실시간 클라이언트측 유효성 검사를 제공하여 오류 감지 속도를 높입니다.
+* **프로필 및 컨텍스트 특성에 대한 자동 완성** - 콘텐츠 작성을 간소화하는 스마트 제안을 제공합니다.
+* **향상된 구문 강조 표시** - 코드 구조를 보다 시각적으로 구분하여 가독성을 향상시킵니다.
+
+자세한 내용은 [세부 설명서](../personalization/personalization-build-expressions.md)를 참조하십시오.
 
 ## 2025년 2월 릴리스 정보 {#25-02-rn}
 

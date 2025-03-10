@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 다이내믹, 콘텐츠
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '563'
 ht-degree: 10%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 10%
 
 Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 규칙을 활용하여 다이내믹 콘텐츠를 메시지에 추가할 수 있습니다.
 
-다이내믹 콘텐츠는 개인화 편집기를 사용하여 개인화를 추가할 수 있는 모든 필드에 만들 수 있습니다. 제목란, 링크, 푸시 알림 콘텐츠 또는 텍스트 유형 오퍼 표현이 여기에 포함됩니다. [개인화 컨텍스트에 대해 자세히 알아보기](personalization-contexts.md)
+다이내믹 콘텐츠는 개인화 편집기를 사용하여 개인화를 추가할 수 있는 모든 필드에 만들 수 있습니다. 제목란, 링크, 푸시 알림 콘텐츠 또는 텍스트 유형 오퍼 표현이 여기에 포함됩니다. [개인화에 대해 자세히 알아보기](personalize.md)
 
 또한 이메일 Designer에 조건부 규칙을 사용하여 콘텐츠 구성 요소의 여러 변형을 만들 수 있습니다.
 
