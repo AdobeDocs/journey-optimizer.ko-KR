@@ -5,13 +5,13 @@ title: 여러 단계 캠페인 시작
 description: 여러 단계 캠페인으로 시작하는 방법 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
+exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
+source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 25%
 
 ---
-
 
 # 여러 단계 캠페인 시작 {#ms-camp}
 
@@ -31,7 +31,7 @@ ht-degree: 25%
 >[!ENDSHADEBOX]
 
 
-## 여러 단계 캠페인이란 무엇입니까?
+## 다단계 캠페인이란 무엇입니까?
 
 크로스 채널 마케팅은 고객에게 효과적으로 다가가고자 하는 모든 비즈니스에 필수적입니다. Adobe Journey Optimizer은 마케팅 캠페인을 쉽게 관리하는 데 도움이 되는 복잡한 프로세스를 디자인할 수 있는 포괄적인 그래픽 환경을 제공합니다. 여러 단계 캠페인을 사용하면 전체 프로세스 및 작업을 오케스트레이션하고, 세그먼트 만들기, 메시지 준비에서 게재에 이르기까지 마케팅 캠페인의 모든 측면에 대한 속도와 규모를 향상시킬 수 있습니다. 또한 캠페인 오케스트레이션을 위해 사용하기 쉬운 단일 인터페이스로 채널을 동기화할 수 있습니다.
 
