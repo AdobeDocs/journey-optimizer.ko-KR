@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
+source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 96%
+source-wordcount: '1366'
+ht-degree: 95%
 
 ---
 
@@ -248,3 +248,8 @@ ht-degree: 96%
 >id="ajo_exd_placements"
 >title="배치"
 >abstract="배치는 결정 엔진에서 반환된 항목이 메시지에 나타나는 위치를 결정합니다. 보고에서 다양한 배치에 대한 성과를 추적할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_express_menu"
+>title="Adobe Express 통합"
+>abstract="Adobe 익스프레스"
