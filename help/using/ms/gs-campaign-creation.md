@@ -6,20 +6,21 @@ description: Adobe Journey Optimizer을 사용한 다단계 캠페인의 주요 
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 27%
+source-wordcount: '464'
+ht-degree: 24%
 
 ---
 
 # 오케스트레이션된 캠페인의 주요 원칙 {#ms-campaign-creation}
 
+>[!CONTEXTUALHELP]
+>id="ajo_targeting_workflow_list"
+>title="여러 단계 캠페인"
+>abstract="이 화면에서는 여러 단계 캠페인의 전체 목록에 액세스하고, 현재 상태, 마지막/다음 실행 날짜를 확인하고, 새 여러 단계 캠페인을 만들 수 있습니다."
+
 Adobe Journey Optimizer을 사용하면 여러 단계 캠페인을 시각적 캔버스로 빌드하여 세그멘테이션, 캠페인 실행 및 파일 처리와 같은 크로스 채널 프로세스를 디자인할 수 있습니다.
-
-## 쿼리 작성
-
-## Personalization 지침
 
 ## 여러 단계로 진행되는 캠페인의 내부는 무엇입니까? {#gs-ms-campaign-inside}
 
@@ -43,7 +44,23 @@ Adobe Journey Optimizer을 사용하면 여러 단계 캠페인을 시각적 캔
 
 ![](assets/workflow-creation-process.png){zoomable="yes"}
 
-## 상태 및 라이프사이클
+## 여러 단계 캠페인 액세스
+
+**[!UICONTROL 캠페인]** 메뉴에서 여러 단계 탭으로 이동하여 여러 단계 캠페인의 전체 목록에 액세스합니다.
+
+목록의 각 여러 단계 캠페인에는 현재 [상태](#status), 마지막으로 실행되거나 수정된 시간, 다음에 예약된 실행 날짜 및 시간에 대한 정보가 표시됩니다.
+
+목록의 오른쪽 상단에 있는 **[!UICONTROL 사용자 정의 레이아웃에 대한 열 구성]** 아이콘을 클릭하여 표시된 열을 사용자 정의할 수 있습니다. 이렇게 하면 각 다중 단계 캠페인에 대해 오류가 발생한 마지막 활동이나 적용된 타겟팅 차원과 같은 추가 정보를 목록에 추가할 수 있습니다.
+
+또한 목록에서 쉽게 검색할 수 있도록 검색 창과 필터를 사용할 수 있습니다. 예를 들어, 캠페인에 속하는 캠페인이나 특정 날짜 범위 동안 처리된 캠페인만 표시하도록 여러 단계 캠페인을 필터링할 수 있습니다.
+
+여러 단계 캠페인을 복제하거나 삭제하려면 줄임표 버튼을 클릭한 다음 **[!UICONTROL 복제]** 또는 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
+
+>[!NOTE]
+>
+>진행 중인 여러 단계 캠페인이 있는 경우 복제할 수 있지만 삭제할 수는 없습니다.
+
+## 상태 및 라이프사이클 {#status}
 
 캠페인은 여러 상태를 가질 수 있습니다.
 
@@ -53,3 +70,7 @@ Adobe Journey Optimizer을 사용하면 여러 단계 캠페인을 시각적 캔
 * **[!UICONTROL 일시 중지됨]**: 여러 단계 캠페인이 일시 중지되었습니다.
 * **[!UICONTROL 오류]**: 여러 단계 캠페인에 오류가 발생했습니다. 여러 단계 캠페인을 열고 로그 및 작업에 액세스하여 오류를 식별하고 해결합니다.
 
+
+## 쿼리 작성
+
+## Personalization 지침

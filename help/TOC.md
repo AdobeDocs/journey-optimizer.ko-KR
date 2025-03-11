@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2267'
 ht-degree: 95%
 
 ---
@@ -173,7 +173,6 @@ ht-degree: 95%
 + 여러 단계 캠페인 {#ms-campaigns}
    + [여러 단계 캠페인 시작](using/ms/gs-ms-campaigns.md)
    + [주요 원칙](using/ms/gs-campaign-creation.md)
-   + [가드레일 및 제한 사항](using/ms/guardrails.md)
    + 구성 {#ms-config}
       + [스키마](using/ms/ms-schemas.md)
       + [이벤트 변수 작업](using/ms/event-variables.md)

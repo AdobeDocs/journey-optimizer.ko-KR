@@ -6,9 +6,9 @@ description: 여러 단계 캠페인으로 시작하는 방법 알아보기
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 18%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 18%
 **목차**
 
 * 여러 단계 캠페인 시작
-* [주요 원칙](gs-campaign-creation.md) - [보호 기능 및 제한 사항](guardrails.md)
+* [주요 원칙](gs-campaign-creation.md)
 * 구성: [스키마 작업](ms-schemas.md) - [이벤트 변수 작업](event-variables.md)
 * 시작하기: [오케스트레이션된 캠페인 만들기](create-ms-campaign.md) - [캠페인 설정 구성](ms-campaign-settings.md) - [캠페인 시작 및 모니터링](start-monitor-campaigns.md) - [활동 시작](activities/about-activities.md) - [활동 오케스트레이션](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * 활동 목록: [및 가입](activities/and-join.md) - [대상 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [채널 작업](activities/channels.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [파일 로드](activities/load-file.md) - [조정](activities/reconciliation.md) - [대상 저장](activities/save-audience.md) - [스케줄러](activities/scheduler.md) - [분할](activities/split.md) - [테스트](activities/test.md) - [데이터 업데이트](activities/update-data.md) - [대기](activities/wait.md)
@@ -43,6 +43,8 @@ ht-degree: 18%
 ## 여정 편성 및 캠페인 편성
 
 여정과 캠페인 비교 - 차이점, 사용 사례 및 모범 사례 설명
+
+
 
 ## 더 자세히 알아보기
 
