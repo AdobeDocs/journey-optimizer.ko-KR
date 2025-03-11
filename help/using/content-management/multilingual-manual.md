@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 2%
@@ -30,9 +30,9 @@ ht-degree: 2%
 
 1. [로케일 추가(선택 사항)](multilingual-locale.md)
 
-1. [언어 설정 만들기](#create-language-settings)
+1. [언어 설정 만들기](#language-settings)
 
-1. [다국어 콘텐츠 만들기](#create-a-multilingual-campaign)
+1. [다국어 콘텐츠 만들기](#create-multilingual-campaign)
 
 ## 언어 설정 만들기 {#language-settings}
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 1. 이 설정에 연결된 **[!UICONTROL 로케일]**&#x200B;을(를) 선택하십시오. 최대 50개의 로케일을 추가할 수 있습니다.
 
-   **[!UICONTROL 로케일]**&#x200B;이(가) 누락된 경우 **[!UICONTROL 번역]** 메뉴에서 또는 API별로 미리 수동으로 만들 수 있습니다. [새 로케일 만들기](#create-locale)를 참조하세요.
+   **[!UICONTROL 로케일]**&#x200B;이(가) 누락된 경우 **[!UICONTROL 번역]** 메뉴에서 또는 API별로 미리 수동으로 만들 수 있습니다. [새 로케일 만들기](multilingual-locale.md)를 참조하세요.
 
    ![](assets/multilingual-settings-2.png)
 
@@ -155,7 +155,7 @@ ht-degree: 2%
 
    ![](assets/multilingual-campaign-2.png)
 
-1. **[!UICONTROL 언어 추가]**&#x200B;를 클릭하고 이전에 만든 **[!UICONTROL 언어 설정]**&#x200B;을 선택합니다. [자세히 알아보기](#create-language-settings)
+1. **[!UICONTROL 언어 추가]**&#x200B;를 클릭하고 이전에 만든 **[!UICONTROL 언어 설정]**&#x200B;을 선택합니다. [자세히 알아보기](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
