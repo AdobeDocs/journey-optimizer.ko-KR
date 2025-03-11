@@ -1,18 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여러 단계 캠페인 이벤트 변수
+title: 여러 단계 캠페인에서 이벤트 변수 작업
 description: 여러 단계 캠페인에서 이벤트 변수를 활용하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: f86dd262-0209-42f6-a180-736f1de98d78
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# 여러 단계 캠페인 이벤트 변수 {#event-variables}
+# 이벤트 변수 작업 {#event-variables}
 
 일부 여러 단계 캠페인 활동을 사용하면 표현식 편집기에서 스크립트를 편집하여 이전 활동에서 얻은 데이터 검색, 조건 작성 또는 이벤트 변수를 기반으로 파일 이름 계산과 같은 특정 작업을 수행할 수 있습니다.
 

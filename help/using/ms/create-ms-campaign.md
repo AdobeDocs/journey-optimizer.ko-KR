@@ -1,25 +1,35 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer으로 여러 단계 캠페인 만들기
+title: Journey Optimizer을 사용하여 여러 단계 캠페인 만들기
 description: Adobe Journey Optimizer으로 여러 단계 캠페인을 만드는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 0%
+source-wordcount: '706'
+ht-degree: 1%
 
 ---
 
-
-# 여러 단계 캠페인 만들기 {#create-first-campaign}
+# 오케스트레이션된 캠페인 만들기 {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="여러 단계 캠페인 목록"
 >abstract="**여러 단계** 탭에는 모든 여러 단계 캠페인이 나열됩니다. 여러 단계 캠페인의 이름을 클릭하여 편집합니다. **여러 단계 캠페인 만들기** 단추를 사용하여 새 여러 단계 캠페인을 추가하십시오."
 
+## 전제 조건
+
+### 권한
+
+### 설정
+
+새 관리 설정 개요> 스키마, 실행 필드, 병합 정책. [자세히 알아보기](ms-schemas.md)
+
+
+## 만들기 단계
 
 여러 단계 캠페인을 만들려면 다음 단계를 수행합니다.
 

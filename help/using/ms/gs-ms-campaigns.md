@@ -6,30 +6,28 @@ description: 여러 단계 캠페인으로 시작하는 방법 알아보기
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 25%
+source-wordcount: '404'
+ht-degree: 18%
 
 ---
 
 # 여러 단계 캠페인 시작 {#ms-camp}
 
-여러 단계 캠페인은 강력한 브랜드에서 시작한 일괄 캠페인 기능을 도입하여 Adobe Journey Optimizer을 향상하므로 고급 세분화 전략을 사용하여 크로스 채널 캠페인을 계획 및 오케스트레이션할 수 있습니다.
-
 >[!BEGINSHADEBOX]
 
 **목차**
 
+* 여러 단계 캠페인 시작
 * [주요 원칙](gs-campaign-creation.md) - [보호 기능 및 제한 사항](guardrails.md)
-* [캠페인 만들기](create-ms-campaign.md) - [캠페인 설정 구성](ms-campaign-settings.md)
-* [캠페인 시작 및 모니터링](start-monitor-campaigns.md)
-* [이벤트 변수](event-variables.md)
-* [활동 시작](activities/about-activities.md) - [활동 오케스트레이션](orchestrate-activities.md)
+* 구성: [스키마 작업](ms-schemas.md) - [이벤트 변수 작업](event-variables.md)
+* 시작하기: [오케스트레이션된 캠페인 만들기](create-ms-campaign.md) - [캠페인 설정 구성](ms-campaign-settings.md) - [캠페인 시작 및 모니터링](start-monitor-campaigns.md) - [활동 시작](activities/about-activities.md) - [활동 오케스트레이션](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * 활동 목록: [및 가입](activities/and-join.md) - [대상 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [채널 작업](activities/channels.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [파일 로드](activities/load-file.md) - [조정](activities/reconciliation.md) - [대상 저장](activities/save-audience.md) - [스케줄러](activities/scheduler.md) - [분할](activities/split.md) - [테스트](activities/test.md) - [데이터 업데이트](activities/update-data.md) - [대기](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
+여러 단계 캠페인은 강력한 브랜드에서 시작한 일괄 캠페인 기능을 도입하여 Adobe Journey Optimizer을 향상하므로 고급 세분화 전략을 사용하여 크로스 채널 캠페인을 계획 및 오케스트레이션할 수 있습니다.
 
 ## 다단계 캠페인이란 무엇입니까?
 
@@ -41,12 +39,10 @@ ht-degree: 25%
 
 포괄적인 그래픽 환경을 통해 세분화, 캠페인 실행, 파일 처리 등의 프로세스를 디자인할 수 있습니다. 여러 단계 캠페인에는 작업을 할당하거나 사용자가 수행된 작업을 승인하도록 하여 사용자가 참여할 수도 있으므로, 팀의 작업을 보다 쉽게 관리하고 모든 작업이 올바르게 수행되도록 할 수 있습니다.
 
-다음은 Adobe Journey Optimizer 내에서 여러 단계 캠페인을 사용하는 방법의 몇 가지 예입니다.
 
-* 비활성 고객을 위해 추가 캠페인을 시작하고,
-* 서비스의 모든 신규 구독자에게 시작 이메일을 보내고,
-* 고객의 충성도 프로그램 상태나 관심 영역에 따라 크로스 채널 게재를 개인화합니다.
+## 여정 편성 및 캠페인 편성
 
+여정과 캠페인 비교 - 차이점, 사용 사례 및 모범 사례 설명
 
 ## 더 자세히 알아보기
 

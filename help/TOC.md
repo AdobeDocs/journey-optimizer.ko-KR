@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2270'
 ht-degree: 95%
 
 ---
@@ -172,14 +172,17 @@ ht-degree: 95%
          + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 여러 단계 캠페인 {#ms-campaigns}
    + [여러 단계 캠페인 시작](using/ms/gs-ms-campaigns.md)
+   + [주요 원칙](using/ms/gs-campaign-creation.md)
+   + [가드레일 및 제한 사항](using/ms/guardrails.md)
+   + 구성 {#ms-config}
+      + [스키마](using/ms/ms-schemas.md)
+      + [이벤트 변수 작업](using/ms/event-variables.md)
    + 첫 번째 다중 단계 캠페인 {#create-ms-campaign} 만들기
-      + [주요 원칙](using/ms/gs-campaign-creation.md)
-      + [가드레일 및 제한 사항](using/ms/guardrails.md)
-      + [캠페인 만들기](using/ms/create-ms-campaign.md)
+      + [오케스트레이션된 캠페인 만들기](using/ms/create-ms-campaign.md)
       + [활동 조율](using/ms/orchestrate-activities.md)
       + [캠페인 설정 구성](using/ms/ms-campaign-settings.md)
       + [캠페인 시작 및 모니터링](using/ms/start-monitor-campaigns.md)
-      + [여러 단계 캠페인의 이벤트 변수](using/ms/event-variables.md)
+      + [개인화 관리](using/ms/ms-personalization.md)
    + 여러 단계 캠페인 활동 {#design-campaigns}
       + [여러 단계 캠페인 활동 기본 정보](using/ms/activities/about-activities.md)
       + [AND-가입](using/ms/activities/and-join.md)

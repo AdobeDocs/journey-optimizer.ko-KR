@@ -5,21 +5,25 @@ title: 여러 단계 캠페인 생성의 주요 원칙
 description: Adobe Journey Optimizer을 사용한 다단계 캠페인의 주요 원칙 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 36%
+source-wordcount: '266'
+ht-degree: 27%
 
 ---
 
-
-# 여러 단계 캠페인 생성의 주요 원칙 {#ms-campaign-creation}
+# 오케스트레이션된 캠페인의 주요 원칙 {#ms-campaign-creation}
 
 Adobe Journey Optimizer을 사용하면 여러 단계 캠페인을 시각적 캔버스로 빌드하여 세그멘테이션, 캠페인 실행 및 파일 처리와 같은 크로스 채널 프로세스를 디자인할 수 있습니다.
 
+## 쿼리 작성
+
+## Personalization 지침
+
 ## 여러 단계로 진행되는 캠페인의 내부는 무엇입니까? {#gs-ms-campaign-inside}
 
-여러 단계 캠페인 다이어그램은 발생할 내용을 보여 줍니다. 앞으로 수행할 다양한 작업과 이러한 작업이 어떻게 서로 연결되어 있는지 설명합니다.
+여러 단계 캠페인 캔버스는 발생해야 하는 작업을 나타냅니다. 앞으로 수행할 다양한 작업과 이러한 작업이 어떻게 서로 연결되어 있는지 설명합니다.
 
 ![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
 
@@ -38,4 +42,14 @@ Adobe Journey Optimizer을 사용하면 여러 단계 캠페인을 시각적 캔
 여러 단계 캠페인을 만드는 주요 단계는 다음과 같습니다.
 
 ![](assets/workflow-creation-process.png){zoomable="yes"}
+
+## 상태 및 라이프사이클
+
+캠페인은 여러 상태를 가질 수 있습니다.
+
+* **[!UICONTROL 초안]**: 여러 단계 캠페인을 만들고 저장했습니다.
+* **[!UICONTROL 진행 중]**: 다중 단계 캠페인이 현재 실행 중입니다.
+* **[!UICONTROL 완료됨]**: 여러 단계 캠페인 실행이 완료되었습니다.
+* **[!UICONTROL 일시 중지됨]**: 여러 단계 캠페인이 일시 중지되었습니다.
+* **[!UICONTROL 오류]**: 여러 단계 캠페인에 오류가 발생했습니다. 여러 단계 캠페인을 열고 로그 및 작업에 액세스하여 오류를 식별하고 해결합니다.
 

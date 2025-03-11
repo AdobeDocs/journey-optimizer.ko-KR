@@ -5,10 +5,11 @@ title: Journey Optimizer을 사용하여 여러 단계 캠페인 만들기
 description: Journey Optimizer을 사용하여 여러 단계 캠페인을 구축하는 방법 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8c80010f-e432-48ea-87cf-af635932d26b
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 12%
+source-wordcount: '265'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 12%
 >title="여러 단계 캠페인"
 >abstract="이 화면에서는 여러 단계 캠페인의 전체 목록에 액세스하고, 현재 상태, 마지막/다음 실행 날짜를 확인하고, 새 여러 단계 캠페인을 만들 수 있습니다."
 
-**[!UICONTROL 캠페인]** 메뉴를 통해 여러 단계 탭을 클릭하면 여러 단계 캠페인의 전체 목록에 액세스할 수 있습니다.
+**[!UICONTROL 캠페인]** 메뉴에서 여러 단계 탭으로 이동하여 여러 단계 캠페인의 전체 목록에 액세스합니다.
 
 
 목록의 각 여러 단계 캠페인에는 현재 [상태](#status), 마지막으로 실행되거나 수정된 시간, 다음에 예약된 실행 날짜 및 시간에 대한 정보가 표시됩니다.
@@ -33,16 +34,6 @@ ht-degree: 12%
 >[!NOTE]
 >
 >진행 중인 여러 단계 캠페인을 복제할 수는 있지만 삭제할 수는 없습니다.
-
-## 워크플로 상태 {#status}
-
-워크플로의 상태는 여러 가지가 될 수 있습니다.
-
-* **[!UICONTROL 초안]**: 여러 단계 캠페인을 만들고 저장했습니다.
-* **[!UICONTROL 진행 중]**: 다중 단계 캠페인이 현재 실행 중입니다.
-* **[!UICONTROL 완료됨]**: 여러 단계 캠페인 실행이 완료되었습니다.
-* **[!UICONTROL 일시 중지됨]**: 여러 단계 캠페인이 일시 중지되었습니다.
-* **[!UICONTROL 오류]**: 여러 단계 캠페인에 오류가 발생했습니다. 여러 단계 캠페인을 열고 로그 및 작업에 액세스하여 오류를 식별하고 해결합니다.
 
 
 ## 여러 단계 캠페인 템플릿 {#templates}
