@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
+source-git-commit: 62d8da17a806713b1e77d8e7e494106dbb825c8b
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 95%
@@ -419,7 +419,7 @@ ht-degree: 95%
    + [Experience Manager Assets 작업](using/integrations/assets.md)
    + [Adobe Stock 작업](using/integrations/stock.md)
    + [Experience Manager 템플릿 작업](using/integrations/aem-templates.md)
-   + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
+   + [Experience Manager 콘텐츠 조각을 사용하여 작업](using/integrations/aem-fragments.md)
    + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
