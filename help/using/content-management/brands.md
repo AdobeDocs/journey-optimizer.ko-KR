@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
+source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 15%
+source-wordcount: '640'
+ht-degree: 16%
 
 ---
 
@@ -37,10 +37,34 @@ ht-degree: 15%
 >title="브랜드 정렬 점수"
 >abstract="브랜드 정렬 점수는 색상, 글꼴, 로고, 이미지 및 쓰기 스타일의 일관성을 보장하면서 콘텐츠가 브랜드의 지침을 얼마나 잘 준수하는지 측정합니다."
 
+>[!CONTEXTUALHELP]
+>id="ajo_brand_colors"
+>title="색상 점수"
+>abstract="색상 점수"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_fonts"
+>title="글꼴 점수"
+>abstract="글꼴 점수"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_logos"
+>title="로고 점수"
+>abstract="로고 점수"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_imagery"
+>title="이미지 점수"
+>abstract="이미지 점수"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_writing_style"
+>title="쓰기 스타일 점수"
+>abstract="쓰기 스타일 점수"
 
 >[!AVAILABILITY]
 >
->이 기능은 비공개 베타로 출시됩니다. 향후 릴리스에서 모든 고객에게 점진적으로 제공될 예정입니다.
+>이 기능은 비공개 베타로 출시됩니다. 향후 릴리스에서 점진적으로 사용 범위를 확대하여 모든 고객에게 제공할 예정입니다.
 
 브랜드 지침은 브랜드의 시각적 및 언어적 정체성을 확립하는 상세한 규칙 및 표준 세트입니다. 모든 마케팅 및 커뮤니케이션 플랫폼에서 일관된 브랜드 표현을 유지하는 참조 역할을 합니다.
 

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 62d8da17a806713b1e77d8e7e494106dbb825c8b
+source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2269'
 ht-degree: 95%
 
 ---
@@ -440,6 +440,7 @@ ht-degree: 95%
          + [콘텐츠 카드 캠페인 보고서](using/reports/campaign-global-report-cja-content.md)
          + [다이렉트 메일 캠페인 보고서](using/reports/campaign-global-report-cja-direct.md)
          + [이메일 캠페인 보고서](using/reports/campaign-global-report-cja-email.md)
+         + [목표 보고서](using/reports/objective-report.md)
          + [실험 캠페인 보고서](using/reports/campaign-global-report-cja-experimentation.md)
          + [인앱 캠페인 보고서](using/reports/campaign-global-report-cja-inapp.md)
          + [푸시 알림 캠페인 보고서](using/reports/campaign-global-report-cja-push.md)
