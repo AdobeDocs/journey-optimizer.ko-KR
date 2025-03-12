@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13bf2bca3997ff85aca619c8b610aaa0be9142f8
+source-git-commit: a0e657842ba67b8e96996bcb95e2170da6fcbb97
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 86%
+source-wordcount: '853'
+ht-degree: 81%
 
 ---
 
@@ -114,7 +114,7 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer에서 직접 실제 API 호출을 수행하여 사용자 정의 작업 구성의 유효성을 검사할 수 있습니다. </p>
+<p>이제 Adobe Journey Optimizer에서 직접 실제 API를 호출하여 사용자 지정 작업 구성의 유효성을 검사할 수 있습니다. 이 새로운 기능은 여정에서 사용자 지정 작업을 사용하기 전이나 후에 문제를 해결하는 데 도움이 됩니다. </p>
 <p>자세한 내용은 <a href="../action/troubleshoot-custom-action.md">세부 설명서</a>를 참조하십시오.</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -145,8 +145,6 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 ### 개선 사항 {#25-02-improvements}
 
 2월 업데이트에서는 아래의 개선 사항이 제공됩니다.
-
-* **여정** - 이제 관리 섹션에서 API 호출을 전송하여 사용자 정의 작업을 테스트할 수 있습니다. 이 새로운 기능은 여정에서 사용자 정의 작업을 사용하기 전이나 후에 문제를 해결하는 데 도움이 됩니다. [자세히 보기](../action/troubleshoot-custom-action.md)
 
 * **데이터 세트 TTL(Time-to-Live)** - 이번 달부터 새로운 샌드박스와 새로운 조직에서 Journey Optimizer 시스템 생성 데이터 세트에 TTL(Time-to-Live) 가드레일이 다음과 같이 롤아웃됩니다.
 
