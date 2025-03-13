@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 9ff7a378fb18c72e7fdcff3c6052dcc428f240c9
+source-git-commit: 163a4cc533b5c24e762b2be95a1f2c7dea0eea96
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 7%
@@ -24,7 +24,7 @@ Adobe Journey Optimizer에서 컨텐츠 카드를 가져와 모바일 애플리�
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/displaying-content-cards/">
-<img alt="가져오기" src="../assets/do-not-localize/fetch.jpeg">
+<img alt="가져오기" src="assets/do-not-localize/fetch.jpeg">
 </a>
 <div><a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/displaying-content-cards/"><strong>콘텐츠 카드 가져오기 및 표시</strong>
 </div>
@@ -32,7 +32,7 @@ Adobe Journey Optimizer에서 컨텐츠 카드를 가져와 모바일 애플리�
 </td>
 <td>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/customizing-content-card-templates/">
-<img alt="사용자 지정" src="../assets/do-not-localize/sms-create.jpeg">
+<img alt="사용자 지정" src="assets/do-not-localize/customize.jpeg">
 </a>
 <div>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/customizing-content-card-templates/"><strong>콘텐츠 카드 사용자 지정</strong></a>
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 컨텐츠 카드를 가져와 모바일 애플리�
 <p></td>
 <td>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/listening-content-card-events/">
-<img alt="잘 들어" src="../assets/do-not-localize/customize.jpeg">
+<img alt="잘 들어" src="assets/do-not-localize/listen.jpeg">
 </a>
 <div>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/listening-content-card-events/"><strong>콘텐츠 카드 이벤트 수신</strong></a>
