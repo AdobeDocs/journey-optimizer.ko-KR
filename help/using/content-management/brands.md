@@ -11,31 +11,31 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 16%
+ht-degree: 38%
 
 ---
 
-# 브랜드 생성 및 관리 {#brands}
+# 브랜드 만들기 및 관리 {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
->title="브랜드 시작"
->abstract="자체 브랜드를 만들고 사용자 정의하여 고유한 시각적 및 언어적 정체성을 정의하는 동시에 브랜드의 스타일 및 목소리와 일치하는 콘텐츠를 더 쉽게 생성할 수 있습니다."
+>title="브랜드 시작하기"
+>abstract="고유한 시각적 및 언어적 정체성을 정의하고, 브랜드 스타일과 표현에 맞는 콘텐츠를 손쉽게 생성할 수 있도록 자체 브랜드를 만들고 맞춤화합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_ai_menu"
 >title="브랜드 선택"
->abstract="모든 AI 생성 콘텐츠가 브랜드 사양 및 지침에 맞게 맞춤화되도록 하려면 브랜드를 선택하십시오."
+>abstract="브랜드를 선택하여 모든 AI 생성 콘텐츠가 브랜드의 사양과 지침에 맞게 조정되도록 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score_overview"
 >title="브랜드 선택"
->abstract="일관성과 브랜드 무결성을 유지하면서 특정 지침, 표준 및 정체성에 맞게 콘텐츠를 제작하려면 브랜드를 선택하십시오."
+>abstract="브랜드를 선택하여 콘텐츠가 브랜드의 특정 지침, 기준 및 정체성에 맞게 제작되도록 하여 일관성과 브랜드 무결성을 유지합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="브랜드 정렬 점수"
->abstract="브랜드 정렬 점수는 색상, 글꼴, 로고, 이미지 및 쓰기 스타일의 일관성을 보장하면서 콘텐츠가 브랜드의 지침을 얼마나 잘 준수하는지 측정합니다."
+>abstract="브랜드 정렬 점수는 콘텐츠가 브랜드의 지침을 얼마나 잘 준수하는지 측정하여 색상, 글꼴, 로고, 이미지 및 작성 스타일에서의 일관성을 보장합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -103,7 +103,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
 >title="브랜드 만들기"
->abstract="브랜드 이름을 입력하고 브랜드 지침 파일을 업로드하십시오. 이 도구는 주요 세부 정보를 자동으로 추출하므로 브랜드 정체성을 쉽게 유지할 수 있습니다."
+>abstract="브랜드 이름을 입력하고 브랜드 지침 파일을 업로드합니다. 이 도구는 주요 세부 정보를 자동으로 추출하여 브랜드의 정체성을 유지하기 쉽게 만듭니다."
 
 브랜드 지침을 만들고 관리하기 위해 직접 세부 정보를 입력하거나 브랜드 지침 문서를 업로드하여 정보를 자동으로 추출할 수 있습니다.
 
