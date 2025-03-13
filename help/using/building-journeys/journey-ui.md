@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1134'
 ht-degree: 26%
 
 ---
@@ -20,8 +20,12 @@ ht-degree: 26%
 
 ## 여정 대시보드 {#dashboard-jo}
 
-여정 관리 메뉴 섹션에서 **[!UICONTROL 여정]**&#x200B;을(를) 클릭합니다. 두 가지 탭을 사용할 수 있습니다. **[!UICONTROL 개요]** 및 **[!UICONTROL 찾아보기]**.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_view"
+>title="여정 테이블 및 타임라인 보기"
+>abstract="여정 테이블 및 타임라인 보기"
 
+여정 관리 메뉴 섹션에서 **[!UICONTROL 여정]**&#x200B;을(를) 클릭합니다. 두 가지 탭을 사용할 수 있습니다. **[!UICONTROL 개요]** 및 **[!UICONTROL 찾아보기]**.
 
 * **[!UICONTROL 개요]** 탭에는 여정과 관련된 주요 지표가 있는 대시보드가 표시됩니다.
 
@@ -35,7 +39,6 @@ ht-degree: 26%
   >[!NOTE]
   >
   >이 대시보드는 지난 24시간 동안 트래픽이 있는 여정을 고려합니다. 액세스 권한이 있는 여정만 표시됩니다. 지표는 30분마다 새로 고침되며 새로운 데이터를 사용할 수 있는 경우에만 새로 고침됩니다.
-
 
 * **[!UICONTROL 찾아보기]** 탭에는 기존 여정 목록이 표시됩니다. 여정을 검색하고 필터를 사용하며 각 요소에 대한 기본 작업을 수행할 수 있습니다. 예를 들어 항목을 복제하거나 삭제할 수 있습니다.
 

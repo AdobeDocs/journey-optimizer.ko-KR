@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '598'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,11 @@ ht-degree: 1%
 또한 라이브 캠페인(한 번 또는 반복 실행으로 실행)을 복제하여 새 캠페인을 만들고, 완료되거나 중지된 캠페인을 보관할 수 있습니다.
 
 ## 캠페인 액세스 {#access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="CAmpaign 테이블 및 타임라인 보기"
+>abstract="캠페인 테이블 및 타임라인 보기"
 
 캠페인은 **[!UICONTROL 캠페인]** 메뉴에서 액세스할 수 있습니다.
 
