@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e8ab0c9aab8186b1336eee9260ac424bf22500b9
+source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
 workflow-type: tm+mt
-source-wordcount: '2274'
-ht-degree: 95%
+source-wordcount: '2279'
+ht-degree: 94%
 
 ---
 
@@ -482,36 +482,37 @@ ht-degree: 95%
       + [결정 시작](using/experience-decisioning/gs-experience-decisioning.md)
       + [의사 결정 가드레일 및 제한 사항](using/experience-decisioning/decisioning-guardrails.md)
       + API 참조{#api-reference}
-         + 결정 항목{#decision-items}
-            + [결정 항목 만들기](using/experience-decisioning/api-reference/decisions-items/create.md)
-            + [결정 항목 목록](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-            + [결정 항목 삭제](using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [결정 항목 조회](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [결정 항목 업데이트](using/experience-decisioning/api-reference/decisions-items/update.md)
-         + 항목 컬렉션{#items-collections}
-            + [항목 컬렉션 만들기](using/experience-decisioning/api-reference/items-collections/create.md)
-            + [항목 컬렉션 삭제](using/experience-decisioning/api-reference/items-collections/delete.md)
-            + [항목 컬렉션 목록](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [항목 컬렉션 조회](using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [항목 컬렉션 업데이트](using/experience-decisioning/api-reference/items-collections/update.md)
-         + 선택 전략{#selection-strategies}
-            + [선택 전략 만들기](using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [선택 전략 삭제](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [선택 전략 조회](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-            + [선택 전략 목록](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [선택 전략 업데이트](using/experience-decisioning/api-reference/selection-strategies/update.md)
-         + 등급 수식{#ranking-formulas}
-            + [순위 공식 만들기](using/experience-decisioning/api-reference/ranking-formulas/create.md)
-            + [등급 수식 삭제](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-            + [조회 등급 공식](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-            + [선택 등급 수식](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
-            + [등급 수식 업데이트](using/experience-decisioning/api-reference/ranking-formulas/update.md)
-         + 자격 규칙{#eligibility-rules}
-            + [자격 규칙 만들기](using/experience-decisioning/api-reference/eligibility-rules/create.md)
-            + [자격 규칙 삭제](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
-            + [조회 적격성 규칙](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
-            + [자격 규칙 목록](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
-            + [자격 규칙 업데이트](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+         + 오퍼 항목 {#create-manage} 만들기 및 관리
+            + 결정 항목{#decision-items}
+               + [결정 항목 만들기](using/experience-decisioning/api-reference/decisions-items/create.md)
+               + [결정 항목 목록](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+               + [결정 항목 삭제](using/experience-decisioning/api-reference/decisions-items/delete.md)
+               + [결정 항목 조회](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+               + [결정 항목 업데이트](using/experience-decisioning/api-reference/decisions-items/update.md)
+            + 항목 컬렉션{#items-collections}
+               + [항목 컬렉션 만들기](using/experience-decisioning/api-reference/items-collections/create.md)
+               + [항목 컬렉션 삭제](using/experience-decisioning/api-reference/items-collections/delete.md)
+               + [항목 컬렉션 목록](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+               + [항목 컬렉션 조회](using/experience-decisioning/api-reference/items-collections/lookup.md)
+               + [항목 컬렉션 업데이트](using/experience-decisioning/api-reference/items-collections/update.md)
+            + 선택 전략{#selection-strategies}
+               + [선택 전략 만들기](using/experience-decisioning/api-reference/selection-strategies/create.md)
+               + [선택 전략 삭제](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+               + [선택 전략 조회](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+               + [선택 전략 목록](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+               + [선택 전략 업데이트](using/experience-decisioning/api-reference/selection-strategies/update.md)
+            + 등급 수식{#ranking-formulas}
+               + [순위 공식 만들기](using/experience-decisioning/api-reference/ranking-formulas/create.md)
+               + [등급 수식 삭제](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
+               + [조회 등급 공식](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+               + [선택 등급 수식](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+               + [등급 수식 업데이트](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+            + 자격 규칙{#eligibility-rules}
+               + [자격 규칙 만들기](using/experience-decisioning/api-reference/eligibility-rules/create.md)
+               + [자격 규칙 삭제](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+               + [조회 적격성 규칙](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+               + [자격 규칙 목록](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
+               + [자격 규칙 업데이트](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [코드 기반 경험 채널을 사용하여 오퍼 게재](using/experience-decisioning/api-reference/deliver.md)
       + 결정 항목 관리 {#decision-items}
          + [항목 카탈로그 구성](using/experience-decisioning/catalogs.md)
