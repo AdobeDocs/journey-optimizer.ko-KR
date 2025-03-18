@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2346'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 프로필 스토어의 데이터에 대해 90일
 * 데이터 레이크의 데이터에 대해 13개월
 
-이 변경 사항은 차후 **기존 고객 샌드박스**&#x200B;에 대해서도 롤아웃됩니다. [TTL(Time-To-Live) 보호 기능에 대해 자세히 알아보세요](../data/datasets-ttl.md)
+이 변경 사항은 차후 **기존 고객 샌드박스**&#x200B;에 대해서도 롤아웃됩니다. [데이터 세트 TTL(Time-To-Leave) 가드레일에 대해 자세히 알아보기](../data/datasets-ttl.md)
 
 ## 채널 가드레일 {#channel-guardrails}
 

@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->코드 기반 경험에 대한 특정 권장 사항은 [이 페이지](code-based-prerequisites.md)에 자세히 설명되어 있습니다.
+>코드 기반 경험에 적용되는 권장 사항은 [이 페이지](code-based-prerequisites.md)에서 자세히 설명합니다.
 
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->

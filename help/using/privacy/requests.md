@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: b400b48d6f0429b05be523d4c2f520c383eef514
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -22,41 +22,41 @@ Adobe Experience Platform **Privacy Service**&#x200B;는 고객 데이터 요청
 
 ![](assets/requests.png)
 
-Privacy Service에 대한 자세한 내용 및 개인 정보 요청을 만들고 관리하는 방법은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko){target="_blank"}를 참조하세요.
+Privacy Service 및 개인 정보 보호 요청을 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko){target="_blank"}를 참조하십시오.
 
 <!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
 * [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)-->
 
-## Adobe Journey Optimizer에 보낼 수 있는 개별 데이터 개인 정보 보호 요청 관리 {#data-privacy-requests}
+## Adobe Journey Optimizer에 보낼 수 있는 개별 데이터 개인 정보 요청 관리 {#data-privacy-requests}
 
 Adobe Journey Optimizer에서 소비자 데이터에 액세스하고 이를 삭제하기 위한 개별 요청은 다음 두 가지 방법으로 제출할 수 있습니다.
 
 * **Privacy Service UI**&#x200B;를 통한 방법. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko){target="_blank"}
-* **Privacy Service API**&#x200B;를 통한 방법. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
+* **Privacy Service API**&#x200B;를 통한 방법. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/overview){target="_blank"}
   <!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
 
-Privacy Service에서는 **데이터 액세스** 및 **데이터 삭제** 요청의 두 가지 유형을 지원합니다.
+Privacy Service는 **데이터 액세스**&#x200B;와 **데이터 삭제**&#x200B;라는 두 가지 유형의 요청을 지원합니다.
 
-**액세스 요청**&#x200B;의 경우 UI에서 &quot;**Adobe Journey Optimizer**&quot;(또는 API에서 제품 코드로 &quot;**CJM**&quot;)을 지정하십시오.
+**액세스 요청** 시 UI에서 “**Adobe Journey Optimizer**”를 지정합니다(또는 API에서 “**CJM**”을 제품 코드로 지정).
 
-**삭제 요청**&#x200B;의 경우 &quot;**Adobe Journey Optimizer**&quot; 요청 외에 삭제 요청도 **3개의 업스트림 서비스**&#x200B;에 제출하여 Journey Optimizer에서 삭제된 데이터를 다시 거부하지 않도록 해야 합니다. 이 업스트림 서비스를 지정하지 않으면 “Adobe Journey Optimizer” 요청은 해당 업스트림 서비스에 대한 삭제 요청이 만들어질 때까지 “처리 중” 상태로 유지됩니다.
+**삭제 요청** 시에는 “**Adobe Journey Optimizer**” 요청 외에도 Journey Optimizer가 삭제된 데이터를 다시 주입하지 않도록 **3개의 업스트림 서비스**&#x200B;에 삭제 요청을 제출해야 합니다. 이 업스트림 서비스를 지정하지 않으면 “Adobe Journey Optimizer” 요청은 해당 업스트림 서비스에 대한 삭제 요청이 만들어질 때까지 “처리 중” 상태로 유지됩니다.
 
 이 세 가지 업스트림 서비스는 다음과 같습니다.
 
 * 프로필(제품 코드: “profileService”)
 * AEP 데이터 레이크(제품 코드: “AdobeCloudPlatform”)
-* 신원(제품 코드: “identity”)
+* ID(제품 코드: “identity”)
 
 >[!NOTE]
 >
->이 안내서에서는 [!UICONTROL Adobe Journey Optimizer]에 대한 개인 정보 보호 요청을 하는 방법만 다룹니다.
+>이 안내서에서는 [!UICONTROL Adobe Journey Optimizer]에 개인 정보 요청을 보내는 방법만 다룹니다. 
 >
->* Platform 데이터 레이크에 대한 개인 정보 보호 요청도 수행할 계획이라면 이 자습서와 함께 이 [안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/privacy)를 참조하십시오.
+>* Platform 데이터 레이크에도 개인 정보 요청을 보내려면 이 튜토리얼 외에 이 [안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/privacy)도 참조하십시오.
 >
->* 실시간 고객 프로필은 이 [안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/privacy)를 참조하십시오.
->* ID 서비스에 대해서는 이 [안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/privacy)를 참조하세요.
+>* 실시간 고객 프로필에 대해서는 이 [안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/privacy)를 참조하십시오.
+>* ID 서비스에 대해서는 이 [안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/privacy)를 참조하십시오.
 >
->삭제 및 액세스 요청의 경우 이러한 개별 시스템을 호출하여 요청이 각 시스템에 의해 처리되는지 확인해야 합니다. [!DNL Adobe Journey Optimizer]에 개인 정보 보호 요청을 해도 이러한 모든 시스템에서 데이터가 제거되지 않습니다.
+>삭제 및 액세스 요청을 할 때는 이 개별 시스템을 호출하여 각 시스템에서 요청을 처리하도록 해야 합니다. [!DNL Adobe Journey Optimizer]에 개인 정보 요청을 보낸다고 해서 이 시스템 전체의 데이터가 제거되지는 않습니다.
 
 ## 액세스 및 삭제 요청 만들기
 
@@ -69,9 +69,9 @@ Adobe Journey Optimizer에 데이터 액세스 및 삭제를 요청하려면 다
 
 >[!IMPORTANT]
 >
->개인 정보 보호 요청을 제출할 때는 대상 제품 이름으로 &#39;[!DNL '**Adobe Journey Optimizer**]&#39;을(를) 지정하고 액세스하거나 제거해야 하는 프로필 데이터와 연결된 **모든 ID 네임스페이스**(예: &#39;이메일&#39; &#39;ECID&#39; 또는 &#39;충성도 ID&#39;)를 지정해야 합니다. 특히 Delete 요청의 경우 제품 이름과 적용 가능한 모든 네임스페이스를 명시적으로 포함하지 않으면 [!DNL Adobe Journey Optimizer]에서 데이터가 제거되지 않습니다.
+>개인 정보 보호 요청을 제출할 때는 대상 제품 이름으로 ‘[!DNL '**Adobe Journey Optimizer**]’를 지정하고 액세스하거나 제거해야 하는 프로필 데이터와 연결된 **모든 ID 네임스페이스**(예: ‘이메일’ ‘ECID’ 또는 ‘충성도 ID’)를 지정해야 합니다. 특히 삭제 요청의 경우 제품 이름과 해당하는 모든 네임스페이스를 명시적으로 포함하지 않으면 [!DNL Adobe Journey Optimizer]에서 데이터가 제거되지 않습니다.
 
-### API 요청에 대한 Journey Optimizer의 필수 필드 값
+### API 요청 시 Journey Optimizer에 필수 입력해야 하는 필드 값
 
 ```json
 "companyContexts":
@@ -97,7 +97,7 @@ Adobe Journey Optimizer에 데이터 액세스 및 삭제를 요청하려면 다
 ```
 
 
-### GDPR 액세스 요청 예:
+### GDPR 액세스 요청 예시:
 
 UI에서 요청:
 
@@ -177,7 +177,7 @@ API를 통한 요청:
 }
 ```
 
-### GDPR 삭제 요청 예:
+### GDPR 삭제 요청 예시:
 
 UI에서 요청:
 
