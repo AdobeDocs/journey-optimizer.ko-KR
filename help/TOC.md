@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
 workflow-type: tm+mt
 source-wordcount: '2279'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -172,18 +172,18 @@ ht-degree: 94%
          + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 여러 단계 캠페인 {#ms-campaigns}
    + [여러 단계 캠페인 시작](using/ms/gs-ms-campaigns.md)
-   + [주요 원칙](using/ms/gs-campaign-creation.md)
+   + [핵심 원칙](using/ms/gs-campaign-creation.md)
    + 구성 {#ms-config}
       + [스키마](using/ms/ms-schemas.md)
       + [이벤트 변수 작업](using/ms/event-variables.md)
-   + 첫 번째 다중 단계 캠페인 {#create-ms-campaign} 만들기
+   + 첫 여러 단계 캠페인 만들기 {#create-ms-campaign}
       + [오케스트레이션된 캠페인 만들기](using/ms/create-ms-campaign.md)
-      + [활동 조율](using/ms/orchestrate-activities.md)
+      + [활동 오케스트레이션](using/ms/orchestrate-activities.md)
       + [캠페인 설정 구성](using/ms/ms-campaign-settings.md)
       + [캠페인 시작 및 모니터링](using/ms/start-monitor-campaigns.md)
       + [개인화 관리](using/ms/ms-personalization.md)
    + 여러 단계 캠페인 활동 {#design-campaigns}
-      + [여러 단계 캠페인 활동 기본 정보](using/ms/activities/about-activities.md)
+      + [여러 단계 캠페인 활동 정보](using/ms/activities/about-activities.md)
       + [AND-가입](using/ms/activities/and-join.md)
       + [대상자 빌드](using/ms/activities/build-audience.md)
       + [차원 변경](using/ms/activities/change-dimension.md)
@@ -338,7 +338,7 @@ ht-degree: 94%
       + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
 + 콘텐츠 관리 {#content-management}
-   + 콘텐츠 생성을 위한 AI 도우미{#ai-assistant}
+   + 콘텐츠 생성용 AI 어시스턴트{#ai-assistant}
       + [AI 어시스턴트 시작](using/content-management/gs-generative.md)
       + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
       + [AI를 사용한 푸시 생성](using/content-management/generative-push.md)
@@ -364,7 +364,7 @@ ht-degree: 94%
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 추가](using/personalization/personalization-build-expressions.md)
       + [개인화 구문](using/personalization/personalization-syntax.md)
-      + [식 조각 재사용](using/personalization/use-expression-fragments.md)
+      + [표현식 조각 다시 사용](using/personalization/use-expression-fragments.md)
       + [개인화에 Adobe Experience Platform 데이터 사용(Beta)](using/personalization/lookup-aep-data.md)
       + 도우미 함수 목록 {#functions}
          + [도우미 함수 시작](using/personalization/functions/functions.md)
@@ -501,16 +501,16 @@ ht-degree: 94%
                + [선택 전략 조회](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
                + [선택 전략 목록](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
                + [선택 전략 업데이트](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + 등급 수식{#ranking-formulas}
+            + 순위 공식{#ranking-formulas}
                + [순위 공식 만들기](using/experience-decisioning/api-reference/ranking-formulas/create.md)
-               + [등급 수식 삭제](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-               + [조회 등급 공식](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-               + [선택 등급 수식](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
-               + [등급 수식 업데이트](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+               + [순위 공식 삭제](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
+               + [순위 공식 조회](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+               + [선택 항목 순위 공식](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+               + [순위 공식 업데이트](using/experience-decisioning/api-reference/ranking-formulas/update.md)
             + 자격 규칙{#eligibility-rules}
                + [자격 규칙 만들기](using/experience-decisioning/api-reference/eligibility-rules/create.md)
                + [자격 규칙 삭제](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
-               + [조회 적격성 규칙](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+               + [자격 규칙 조회](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [자격 규칙 목록](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [자격 규칙 업데이트](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [코드 기반 경험 채널을 사용하여 오퍼 게재](using/experience-decisioning/api-reference/deliver.md)
