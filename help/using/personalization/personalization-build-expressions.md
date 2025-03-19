@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 47b8308030ca73b3383938a4be025e332265540e
+source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1406'
 ht-degree: 5%
 
 ---
@@ -32,9 +32,9 @@ ht-degree: 5%
 
 ## 개인화를 추가할 수 있는 위치
 
-![개인화 추가 아이콘](assets/do-not-localize/add-perso-icon.svg) 아이콘을 사용하여 모든 필드의 **[!DNL Journey Optimizer]**&#x200B;에 개인화를 추가할 수 있습니다.
+![개인화 추가 아이콘](assets/do-not-localize/add-perso-icon.svg) 아이콘을 사용하여 모든 필드의 **[!DNL Journey Optimizer]**&#x200B;에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
-### 메시지
++++메시지
 
 메시지의 경우 **[!UICONTROL 제목 줄]** 필드와 같이 메시지의 다른 위치에 개인화를 추가할 수 있습니다.
 
@@ -42,28 +42,32 @@ ht-degree: 5%
 
 콘텐츠의 다른 섹션에도 추가할 수 있습니다. 예를 들어 [푸시 알림](../push/push-gs.md)의 경우 **제목**, **본문**, **사용자 지정 소리**, **배지** 및 **사용자 지정 데이터** 필드에 개인화를 추가할 수 있습니다.
 
-### 이메일 디자이너
++++
+
++++이메일 Designer
 
 [전자 메일 Designer](../email/get-started-email-design.md)에서 전자 메일 콘텐츠를 편집할 때 상황별 도구 모음의 아이콘을 사용하여 텍스트 블록 및 URL에 개인화를 추가할 수 있습니다.
 
 ![](assets/perso_insert.png)
 
-### 오퍼
++++
+
++++오퍼
 
 **오퍼 표시**&#x200B;에서 텍스트 유형 콘텐츠를 사용할 때 개인화를 추가할 수 있습니다. [개인화된 오퍼를 만드는 방법을 알아봅니다](../offers/offer-library/creating-personalized-offers.md)
 
-### URL
++++
+
++++URL
 
 Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인화할 수도 있습니다.  개인화된 URL은 프로필 속성에 따라 수신자를 웹사이트의 특정 페이지 또는 개인화된 마이크로사이트로 이동합니다. URL 개인화는 **외부 링크**, **구독 취소 링크** 및 **옵트아웃** 유형의 링크에서 사용할 수 있습니다.
 
-+++샘플 개인화된 URL 참조
+샘플 개인화된 URL:
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
 * `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
 * `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
-
-+++
 
 ![](assets/perso-url.png){width="50%"}
 
@@ -73,9 +77,11 @@ Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인
 >
 >URL 내에서 사용되는 개인화 토큰에는 공백이 지원되지 않습니다.
 
++++
+
 ## Personalization 소스 {#sources}
 
-화면의 왼쪽 부분에는 개인화할 소스를 선택할 수 있는 도메인 선택기가 표시됩니다. 사용 가능한 소스는 다음과 같습니다.
+탐색 창에서는 개인화를 위한 소스를 선택할 수 있습니다. 사용 가능한 소스는 다음과 같습니다.
 
 * **[!UICONTROL 프로필 특성]** : [XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}에 설명된 프로필 스키마와 관련된 모든 참조를 나열합니다.
 * **[!UICONTROL 대상]** : Adobe Experience Platform 세분화 서비스에서 만든 모든 대상을 나열합니다. 사용 가능한 세분화에 대한 자세한 정보는 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 참조하세요.
@@ -93,9 +99,9 @@ Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인
 >title="자동 완성"
 >abstract="이 옵션을 토글하면 입력할 때 시스템이 코드를 자동으로 제안하고 완료할 수 있습니다. 이 기능은 HTML 및 텍스트 형식에만 사용할 수 있으며 프로필 및 컨텍스트 속성을 지원합니다. 토글을 통해 비활성화된 경우 편집기는 대신 기본 HTML 코드 자동 완성을 제공합니다."
 
-중앙 작업 영역은 개인화 구문을 작성하는 위치입니다. 특성을 사용하여 메시지를 개인화하려면 왼쪽 탐색 창에서 특성을 찾은 다음 `+` 단추를 클릭하여 식에 추가하십시오.
+중앙 작업 영역은 개인화 구문을 작성하는 위치입니다. 특성을 사용하여 메시지를 개인화하려면 탐색 창에서 해당 특성을 찾은 다음 `+` 단추를 클릭하여 해당 특성을 식에 추가합니다.
 
-`+` 아이콘 옆에 있는 줄임표 메뉴를 사용하면 각 속성에 대한 자세한 내용을 확인하고 자주 사용하는 특성을 즐겨찾기에 추가할 수 있습니다. 즐겨찾기에 추가된 특성은 왼쪽 탐색 창의 **[!UICONTROL 즐겨찾기]** 메뉴에서 액세스할 수 있습니다.
+`+` 아이콘 옆에 있는 줄임표 메뉴를 사용하면 각 속성에 대한 자세한 내용을 확인하고 자주 사용하는 특성을 즐겨찾기에 추가할 수 있습니다. 즐겨찾기에 추가된 특성은 탐색 창의 **[!UICONTROL 즐겨찾기]** 메뉴에서 액세스할 수 있습니다.
 
 또한 문자열 유형 프로필 속성이 비어 있는 경우 표시될 기본 대체 텍스트를 정의할 수 있습니다. 이렇게 하려면 특성 옆에 있는 줄임표 버튼을 클릭하고 **[!UICONTROL 대체 텍스트로 삽입]**&#x200B;을 선택합니다. 프로필에 대한 특성 값이 비어 있는 경우 기본적으로 표시되는 텍스트를 작성한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
