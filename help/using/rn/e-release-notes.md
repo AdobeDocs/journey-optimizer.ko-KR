@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1badd589ee3722b28e9a404a9ffbe53eb0ae7c69
+source-git-commit: 636c1f6e03017f166da70707d03835feceab1a00
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 57%
+source-wordcount: '659'
+ht-degree: 40%
 
 ---
 
@@ -50,6 +50,48 @@ ht-degree: 57%
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 (제한된 가용성)에 대한 캘린더 보기</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 달력 보기를 사용하여 모든 여정 활성화를 시각화할 수 있습니다. 이 기능은 일부 고객 그룹에 대해 제한된 가용성으로 제공됩니다.<p>
+<p>이 변경 사항은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Dynamic Media와 통합(제한된 가용성)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer에서 Dynamic Media 에셋을 바로 사용할 수 있고 액세스할 수 있습니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
+<ul>
+<li>실시간 업데이트를 통해 자산을 중앙에서 관리</li>
+<li>너비 및 높이와 같은 에셋 설정을 즉시 수정합니다</li>
+<li>텍스트 오버레이가 있는 이미지를 사용하여 콘텐츠 개인화</li>
+<li>콘텐츠를 업데이트하고 개인화 필드를 추가하여 Dynamic Media 템플릿 맞춤화</li>
+</ul>
+<p>
+<p>이 통합은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 
 <table>
@@ -103,3 +145,25 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 ![Personalization 편집기의 새로운 기능을 보여 주는 비디오](assets/do-not-localize/personalization-editor.gif)
 
 자세한 내용은 [세부 설명서](../personalization/personalization-build-expressions.md)를 참조하십시오.
+
+
+**캠페인**
+
+* 이제 캠페인 목록에서 캠페인을 선택하면 세부 정보가 표시되는 창이 열립니다.
+* 이제 샌드박스에서 다른 샌드박스로 캠페인을 복사할 수 있습니다.
+
+**개인화**
+
+개인화 편집기에 새로운 &quot;알약&quot; 버튼이 추가되었습니다. 활성화되면 프로필 및 컨텍스트 속성이 알약으로 표시되므로 코드의 가독성이 향상됩니다.
+
+**승인**
+
+이제 승인 정책에 대한 조건을 정의할 때 태그 및/또는 오브젝트 카테고리별로 필터링할 수 있는 옵션이 제공됩니다.
+
+**채널 구성**
+
+이제 Adobe Experience Platform 통합 태그를 채널 구성에 할당할 수 있습니다. 이렇게 하면 해당 항목을 쉽게 분류하고, 모든 목록에서 검색과 탐색을 개선할 수 있습니다.
+
+**게재 가능성**
+
+이제 상위 측에서 관리 중인 DMARC을 사용하여 하위 도메인을 위임할 수 있습니다.
