@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b3fed5a48480647010f59fa471c505b4031b8701
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 7%
+source-wordcount: '283'
+ht-degree: 6%
 
 ---
 
@@ -123,6 +123,76 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personali
         "self": {
             "href": "/offers?offer-type=personalized&href={SELF_HREF}",
             "type": "application/json"
+        }
+    }
+}
+```
+
+개인화된 오퍼가 응답에서 여러 개 누락된 경우 페이지 매김을 수행합니다.
+
+**응답**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {
+        "href": "/offers?orderby=-modified&limit=2&offer-type=PERSONALIZED",
+        "type": "application/json"
+        },
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+    }
+```
+
+| 지표 | 설명 |
+|---------|-------------|
+| `total` | 개인화된 오퍼의 수입니다. |
+| `count` | 이 응답에서 반환된 오퍼의 수입니다. |
+
+`/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED`과(와) 같은 `_links.next.href`에서 끝점을 검색하고 API에 추가합니다.
+
+**API 형식**
+
+```http
+GET /{ENDPOINT_PATH}/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED
+```
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+}
+```
+
+마찬가지로 첫 페이지에 있지 않고 개인화된 오퍼의 이전 페이지를 검색해야 하는 경우 `_links.prev`의 `href` 값을 사용하십시오. 아래 예에 표시된 대로 이전 결과 세트를 가져오도록 URL에 요청합니다.
+
+**응답**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {...},
+        "prev": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
         }
     }
 }
