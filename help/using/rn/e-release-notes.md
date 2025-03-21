@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d2039ce0efdefaa0708a790135599d2ce97e48f1
+source-git-commit: c4961af2653e8135c72dd57997131c56f54b24a5
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 40%
+source-wordcount: '713'
+ht-degree: 37%
 
 ---
 
@@ -167,3 +167,7 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 **게재 가능성**
 
 이제 상위 측에서 관리 중인 DMARC을 사용하여 하위 도메인을 위임할 수 있습니다.
+
+**비즈니스 규칙**
+
+이제 일괄 세분화를 통해 여정 및 캠페인에서 일일 빈도 제한을 사용할 수 있습니다. 일별 빈도 제한 규칙의 정확도를 보장하려면 캠페인이나 여정을 작성하는 동안 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보세요.
