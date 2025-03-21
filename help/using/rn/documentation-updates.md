@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: ht
-source-wordcount: '6222'
-ht-degree: 100%
+source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
+workflow-type: tm+mt
+source-wordcount: '6333'
+ht-degree: 97%
 
 ---
 
@@ -23,11 +23,19 @@ ht-degree: 100%
 
 * 대상자 선별 이벤트에 대한 페이지에 새로운 권장 사항을 업데이트했습니다. [자세히 보기](../building-journeys/audience-qualification-events.md)
 * 이제 사용자 정의 작업 문제 해결 기능을 모든 고객이 사용할 수 있습니다(GA). [자세히 보기](../action/troubleshoot-custom-action.md)
+* 이제 데이터 위생은 제품 사용자 인터페이스에서 데이터 라이프사이클입니다. 이 변경 사항을 반영하도록 설명서가 업데이트되었습니다. [자세히 보기](../privacy/data-hygiene.md)
+* 누락된 랜딩 페이지 기본 제공 권한이 설명서에 추가되었습니다. [자세히 보기](../administration/ootb-permissions.md)
+* 반복 캠페인 예약에 대한 메모가 추가되었습니다. [자세히 보기](../campaigns/create-campaign.md)
+* 이메일 메시지에 링크 삽입 및 추적 활성화에 대한 섹션을 업데이트 및 재구성했습니다. [자세히 보기](../email/message-tracking.md)
+* Adobe Journey Optimizer의 개인화 기능에 대한 섹션을 재구성하고 개선했습니다. [자세히 보기](../personalization/personalize.md)
+* 개인화된 오퍼를 나열하는 의사 결정 관리 API가 응답에서 여러 개인화된 오퍼가 누락된 경우 페이지 매김을 수행하는 샘플로 업데이트되었습니다. [자세히 보기](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+
+
 
 ## 2025년 2월 {#feb-2025}
 
-* “대상자 읽기” 활동 가드레일에 한 여정에서 하나의 활동만 사용할 수 있고 대상자 한 명만 타기팅할 수 있다는 점을 명시하여 업데이트했습니다. [자세히 보기](../building-journeys/read-audience.md)
-* 캠페인 활동 사용 시 여정 가드레일이 업데이트되었습니다. [자세히 보기](../start/guardrails.md#ac-g)
+* 대상 읽기 활동 가드레일이 업데이트되어 한 여정에서 하나의 활동만 사용할 수 있고 한 대상만 타깃팅할 수 있습니다. [자세히 보기](../building-journeys/read-audience.md)
+* Adobe Campaign 활동 사용 시 여정 보호 기능이 업데이트되었습니다. [자세히 보기](../start/guardrails.md#ac-g)
 * 첫 번째 여정을 만드는 단계가 자세히 설명되어 있으며 설명서 섹션에 대한 링크가 추가되었습니다. [자세히 보기](../building-journeys/journey-gs.md)
 * 이제 새 페이지에서 여정 대시보드 및 필터링 사용자 인터페이스를 자세히 확인할 수 있습니다. [자세히 보기](../building-journeys/journey-ui.md)
 * **[!UICONTROL 전송 시간 최적화]** 및 관련 FAQ에 대한 설명서를 업데이트 및 개선하고 새 전용 페이지로 이동했습니다. [자세히 보기](../building-journeys/send-time-optimization.md)
