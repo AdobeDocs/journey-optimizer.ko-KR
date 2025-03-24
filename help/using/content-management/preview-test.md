@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 90%
@@ -30,17 +30,19 @@ ht-degree: 90%
 
 또한 테스트 및 유효성 검사를 위해 특정 수신자 또는 구독자에게 이메일 메시지 테스트 게재를 보내고, 널리 쓰이는 데스크탑, 모바일, 웹 기반 클라이언트에서 해당 렌더링을 확인할 수 있습니다.
 
+이 모든 작업은 메시지의 콘텐츠 편집 화면이나, 이메일 및 웹 채널의 경우 이메일 및 웹 디자이너에서 액세스할 수 있는 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 수행할 수 있습니다.
+
+![](../email/assets/email-preview-button.png)
+
+단, **[!DNL Content Library Manager]** 제품 프로필에 **[!DNL Manage Simulate Content]** 권한이 포함되어 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager).
+
+
 >[!CAUTION]
 >
 >* 메시지를 미리 보거나 증명을 보낼 때에는 프로필 개인화 데이터만 표시됩니다. 이벤트 정보와 같이 컨텍스트 데이터를 기반으로 하는 개인화는 여정 컨텍스트에서만 테스트할 수 있습니다. [이 사용 사례](../personalization/personalization-use-case.md)에서 개인화를 테스트하는 방법을 알아보십시오.
 >
 >* 여러 조건부 변형이 포함된 이메일에 대한 증명을 시뮬레이트하거나 렌더링할 때 Journey Optimizer에 처리 시간이 더 필요할 수 있습니다. 시간 초과 또는 오류 메시지가 표시되는 경우 총 변형 수를 줄이거나 조건부 규칙을 단순화하는 것이 좋습니다. [이 페이지](../personalization/dynamic-content.md)에서 조건부 콘텐츠에 대해 자세히 알아보세요.
 
-이 모든 작업은 메시지의 콘텐츠 편집 화면이나, 이메일 및 웹 채널의 경우 이메일 및 웹 디자이너에서 액세스할 수 있는 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 수행할 수 있습니다.
-
-![](../email/assets/email-preview-button.png)
-
-단, **[!DNL Content Library Manager]** 제품 프로필에 **[!DNL Manage Simulate Content]** 권한이 포함되어 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## 테스트 프로필 또는 샘플 입력 데이터를 사용한 테스트 {#methods}
 
