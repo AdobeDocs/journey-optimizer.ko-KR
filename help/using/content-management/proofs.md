@@ -5,24 +5,25 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
+source-git-commit: 80935cc31ef88a322c2dd555fc8998935c6e5621
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 16%
+source-wordcount: '325'
+ht-degree: 15%
 
 ---
 
 # 이메일 교정쇄 보내기 {#send-proofs}
 
->[!PREREQUISITES]
->
->증명을 보내려면 전자 메일과 연결된 특정 리소스, 캠페인 또는 여정에 대해 **승인 및 게시** 권한이 있어야 합니다. [권한에 대해 자세히 알아보기](../administration/ootb-permissions.md)
-
 증명은 메시지를 주 대상자에게 보내기 전에 테스트하기 위해 사용할 수 있는 전용 메시지입니다. 증명의 수신자는 메시지의 렌더링, 내용, 개인화 설정, 구성 등 요소를 승인해야 합니다.
 
 [!DNL Journey optimizer]을(를) 사용하면 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형의 콘텐츠를 테스트할 수도 있습니다. [샘플 입력 데이터를 사용하여 콘텐츠를 테스트하는 방법을 알아보세요](../test-approve/simulate-sample-input.md)
 
-[테스트 프로필](test-profiles.md)을 선택한 후 전자 메일 증명을 보내려면 다음 단계를 따르십시오.
+>[!PREREQUISITES]
+>
+>증명을 보내려면 이메일과 연결된 특정 리소스(캠페인 또는 여정)에 대해 **승인 및 게시** 권한이 있어야 합니다. 또한 여정에서 증명을 보내려면 **여정 게시** 권한도 필요합니다. [권한에 대해 자세히 알아보세요](../administration/ootb-permissions.md).
+
+
+전자 메일 증명을 보내려면 먼저 [테스트 프로필](test-profiles.md)을 선택해야 합니다. 그런 다음 다음 다음 단계를 수행합니다.
 
 1. **[!UICONTROL 시뮬레이션]** 화면에서 **[!UICONTROL 증명 보내기]** 단추를 클릭합니다.
 
