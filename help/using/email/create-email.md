@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '969'
 ht-degree: 9%
 
 ---
@@ -89,6 +89,12 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
    ![](assets/email_designer_edit_content_header.png)
 
 1. 메시지의 제목 줄을 추가합니다. 개인화 편집기로 제목 줄을 구성하고 개인화하려면 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘을 클릭합니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
+
+   >[!NOTE]
+   >
+   >* 제목란은 필수입니다.
+   >
+   >* 제목 줄에는 줄바꿈을 포함하지 않아야 합니다.
 
 1. **[!UICONTROL 전자 메일 본문 편집]** 단추를 클릭하여 전자 메일 Designer에 액세스하고 콘텐츠 빌드를 시작합니다. [자세히 알아보기](get-started-email-design.md)
 
