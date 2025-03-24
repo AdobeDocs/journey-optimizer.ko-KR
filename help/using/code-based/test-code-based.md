@@ -48,12 +48,12 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
 >title="디바이스에서 코드 기반 웹 경험 미리보기"
->abstract="디바이스에서 미리 보려면 QR 코드를 스캔하거나 링크를 복사합니다."
+>abstract="QR 코드를 스캔하거나 링크를 복사하여 디바이스에서 미리 보세요."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
 >title="디바이스에서 코드 기반 모바일 경험 미리보기"
->abstract="디바이스에서 미리 보려면 QR 코드를 스캔하거나 링크를 복사합니다. 연결되면 디바이스에 PIN을 입력합니다. 미리보기 링크를 업데이트할 때마다 변경 사항을 확인하려면 앱을 다시 시작해야 할 수도 있습니다."
+>abstract="QR 코드를 스캔하거나 링크를 복사하여 디바이스에서 미리 보세요. 디바이스에 연결되면 PIN을 입력하세요. 미리보기 링크를 업데이트할 때마다 변경 사항을 확인하려면 앱을 다시 시작해야 할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
