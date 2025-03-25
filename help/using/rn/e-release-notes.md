@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 80376fda31f1e24ed3443e6ae1c5bde7ca700311
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 35%
@@ -186,7 +186,7 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 
 **비즈니스 규칙**
 
-이제 일괄 세분화를 통해 여정 및 캠페인에서 일일 빈도 제한을 사용할 수 있습니다. 일별 빈도 제한 규칙의 정확도를 보장하려면 캠페인이나 여정을 작성하는 동안 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보세요.
+이제 **일괄 처리** 세분화를 통해 여정 및 캠페인에서 일일 빈도 제한을 사용할 수 있습니다. 일별 빈도 제한 규칙의 정확도를 보장하려면 캠페인이나 여정을 작성하는 동안 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보세요.
 
 **콘텐츠 관리**
 

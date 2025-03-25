@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="제한 공개"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '941'
 ht-degree: 23%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 23%
 
 두 가지 유형의 여정 제한 모두 우선 순위 점수를 활용하여 항목을 중재합니다.
 
+>[!AVAILABILITY]
+>
+>**여정** 도메인 규칙 집합은 제한된 사용자 집합에만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 여정 캡핑 규칙 만들기 {#create-rule}
@@ -41,7 +45,7 @@ ht-degree: 23%
 
 여정 최대 가용량 규칙을 만들려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL 비즈니스 규칙(Beta)]** 메뉴로 이동하여 규칙 집합 인벤토리에 액세스합니다.
+1. **[!UICONTROL 비즈니스 규칙]** 메뉴로 이동하여 규칙 집합 인벤토리에 액세스합니다.
 
 1. 최대 가용량 규칙을 추가할 규칙 세트를 선택하거나 새 규칙 세트를 만듭니다.
 

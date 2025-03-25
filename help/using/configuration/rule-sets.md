@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 규칙 집합 작업
+title: 규칙 세트 작업
 description: 규칙 세트를 만들고 적용하는 방법 알아보기
 feature: Rules
 topic: Content Management
@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '2013'
 ht-degree: 12%
 
 ---
 
-# 규칙 집합 작업 {#rule-sets}
+# 규칙 세트 작업 {#rule-sets}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
@@ -35,7 +35,7 @@ ht-degree: 12%
 
 ### 글로벌 및 사용자 지정 규칙 세트 {#global-custom}
 
-**[!UICONTROL 관리]** > **[!UICONTROL 비즈니스 규칙(Beta)]** 메뉴에서 처음으로 규칙 집합에 액세스할 때 기본 규칙 집합이 미리 만들어지고 활성 상태입니다. **전역 기본 규칙 집합**.
+**[!UICONTROL 관리]** > **[!UICONTROL 비즈니스 규칙]** 메뉴에서 처음으로 규칙 집합에 액세스할 때 기본 규칙 집합이 미리 만들어지고 활성 상태입니다. **전역 기본 규칙 집합**.
 
 이 규칙 세트에는 현재 비즈니스 규칙이 작동하는 방식과 유사하게 사용자가 하나 또는 여러 채널에서 메시지를 받는 빈도를 제어하기 위해 적용할 수 있는 전역 규칙이 포함되어 있습니다. 이 규칙 세트에 정의된 모든 규칙은 커뮤니케이션이 여정에서 전송되는지 아니면 캠페인에서 전송되는지 여부에 관계없이 선택한 모든 채널에 적용됩니다. [비즈니스 규칙을 사용하여 작업하는 방법을 알아봅니다](../configuration/rule-sets.md)
 
@@ -55,6 +55,10 @@ ht-degree: 12%
 * **채널** 도메인: 통신 채널의 최대 가용량 규칙을 적용합니다. 예를 들어 하루에 1개 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 마십시오.
 * **여정** 여정: 시작 및 동시성 제한 규칙을 도메인에 적용합니다. 예를 들어 두 개 이상의 여정에 동시에 프로필을 입력하지 마십시오.
 
+>[!AVAILABILITY]
+>
+>**여정** 도메인 규칙 집합은 모든 사용자가 사용할 수 있지만 **채널** 도메인 규칙 집합은 제한된 사용자 집합(제한된 가용성)만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
 ## 첫 번째 사용자 지정 규칙 세트 만들기 {#create-rule-set}
 
 ### 규칙 세트를 만들고 해당 도메인 선택 {#create}
@@ -62,6 +66,8 @@ ht-degree: 12%
 규칙 세트를 만들려면 아래 단계를 수행합니다.
 
 >[!NOTE]
+>
+>규칙 집합을 만들려면 `Manage Messages Presets` 권한이 있어야 합니다. [사용자 관리에 대해 자세히 알아보기](../administration/permissions-overview.md)
 >
 >채널 도메인의 로컬 규칙 세트는 최대 3개까지 만들고 여정 도메인의 로컬 규칙 세트는 최대 5개까지 만들 수 있습니다.
 
@@ -74,6 +80,10 @@ ht-degree: 12%
 1. 규칙 세트의 도메인을 선택합니다. 여정을 사용하면 규칙 세트에 통신 채널 또는 도메인에 관련된 최대 가용량 규칙이 포함되는지 여부를 지정할 수 있습니다. [채널 및 여정 제한 규칙에 대해 자세히 알아보기](#domain)
 
    ![](assets/rule-sets-create.png)
+
+   >[!AVAILABILITY]
+   >
+   >**여정** 도메인 규칙 집합은 모든 사용자가 사용할 수 있지만 **채널** 도메인 규칙 집합은 제한된 사용자 집합(제한된 가용성)만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -208,7 +218,7 @@ ht-degree: 12%
 
 ## 규칙 집합 액세스 및 관리 {#access-rule-sets}
 
-만든 모든 규칙 집합은 **[!UICONTROL 관리]** > **[!UICONTROL 비즈니스 규칙(Beta)]** 메뉴에 표시됩니다. 마지막 수정 날짜별로 정렬됩니다.
+만든 모든 규칙 집합은 **[!UICONTROL 관리]** > **[!UICONTROL 비즈니스 규칙]** 메뉴에 표시됩니다. 마지막 수정 날짜별로 정렬됩니다.
 
 ![](assets/rule-sets-list.png)
 
