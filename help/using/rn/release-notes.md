@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
+source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 62%
+source-wordcount: '1441'
+ht-degree: 61%
 
 ---
 
@@ -160,13 +160,11 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 
 이제 승인 정책에 대한 조건을 정의할 때 태그 및/또는 오브젝트 카테고리별로 필터링할 수 있는 옵션이 제공됩니다.
 
-**채널 구성**
+**구성**
 
-이제 Adobe Experience Platform 통합 태그를 채널 구성에 할당할 수 있습니다. 이렇게 하면 해당 항목을 쉽게 분류하고, 모든 목록에서 검색과 탐색을 개선할 수 있습니다.
+* 이제 Adobe Experience Platform 통합 태그를 채널 구성에 할당할 수 있습니다. 이렇게 하면 해당 항목을 쉽게 분류하고, 모든 목록에서 검색과 탐색을 개선할 수 있습니다.
 
-**게재 가능성**
-
-이제 상위 측에서 관리 중인 DMARC을 사용하여 하위 도메인을 위임할 수 있습니다.
+* 이제 Journey Optimizer에서 이메일 하위 도메인을 설정하거나 편집할 때 상위 도메인에서 사용 가능한 경우 연결된 DMARC 레코드를 직접 관리하도록 선택할 수 있습니다.
 
 **비즈니스 규칙**
 
