@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: d023eaba1205ea8bfb402b195bfd341dae4f59d3
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1410'
 ht-degree: 64%
 
 ---
@@ -82,7 +82,6 @@ ht-degree: 64%
 <ul>
 <li>실시간 업데이트를 통해 자산을 중앙에서 관리</li>
 <li>너비 및 높이와 같은 에셋 설정을 즉시 수정합니다</li>
-<li>텍스트 오버레이가 있는 이미지를 사용하여 콘텐츠 개인화</li>
 <li>콘텐츠를 업데이트하고 개인화 필드를 추가하여 Dynamic Media 템플릿 맞춤화</li>
 </ul>
 <p>
@@ -135,6 +134,7 @@ ht-degree: 64%
 **Personalization 편집기**(사용 가능한 날짜: 3월 12일)
 
 Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로 업데이트되었습니다.
+
 * **코드 편집기 디자인 업데이트** - 유용성과 집중도 개선을 위한 깔끔하고 현대적인 인터페이스를 적용했습니다.
 * **검색 및 바꾸기** - 편집기 내에서 콘텐츠를 빠르게 찾고 바꿀 수 있는 기능이 추가되었습니다.
 * **실행 취소 및 다시 실행 지원** - 변경 내용을 쉽게 되돌리거나 다시 적용할 수 있습니다.
@@ -174,7 +174,7 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 
 **콘텐츠 관리**
 
-이제 폴더를 사용하여 조각 및 콘텐츠 템플릿을 구조화된 계층으로 보다 효과적으로 구성할 수 있습니다.
+이제 폴더를 사용하여 조각 및 콘텐츠 템플릿을 구조화된 계층으로 보다 효과적으로 구성할 수 있습니다. 이 개선 사항은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 
 ## 2025년 2월 릴리스 정보 {#25-02-rn}
