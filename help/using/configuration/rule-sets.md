@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 74bb16aa01c442ad9d427cdd2c79c9e8b7b8a394
 workflow-type: tm+mt
-source-wordcount: '2013'
-ht-degree: 12%
+source-wordcount: '2030'
+ht-degree: 13%
 
 ---
 
@@ -32,6 +32,15 @@ ht-degree: 12%
 예를 들어 고객에게 전송되는 **프로모션 커뮤니케이션**&#x200B;의 수를 제한하는 규칙 세트와 고객에게 전송되는 **뉴스레터**&#x200B;의 수를 제한하는 규칙 세트를 만들 수 있습니다. 생성 중인 캠페인 유형에 따라 프로모션 커뮤니케이션 또는 뉴스레터 규칙 세트를 적용하도록 선택할 수 있습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
+
+### 권한 {#permissions-frequency-rules}
+
+비즈니스 규칙을 사용하여 작업하려면 다음 권한이 필요합니다.
+
+* **[!UICONTROL 빈도 규칙 보기]**: 비즈니스 규칙에 액세스하고 봅니다.
+* **[!UICONTROL 빈도 규칙 관리]**: 비즈니스 규칙을 만들거나 편집하거나 삭제합니다.
+
+[이 섹션](../administration/high-low-permissions.md)에서 권한에 대해 자세히 알아보십시오.
 
 ### 글로벌 및 사용자 지정 규칙 세트 {#global-custom}
 
@@ -66,8 +75,6 @@ ht-degree: 12%
 규칙 세트를 만들려면 아래 단계를 수행합니다.
 
 >[!NOTE]
->
->규칙 집합을 만들려면 `Manage Messages Presets` 권한이 있어야 합니다. [사용자 관리에 대해 자세히 알아보기](../administration/permissions-overview.md)
 >
 >채널 도메인의 로컬 규칙 세트는 최대 3개까지 만들고 여정 도메인의 로컬 규칙 세트는 최대 5개까지 만들 수 있습니다.
 
@@ -135,13 +142,13 @@ ht-degree: 12%
 
    >[!AVAILABILITY]
    >
-   >&quot;일별&quot; 기간은 온디맨드만 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+   >&quot;일별&quot; 기간은 온디맨드만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
    기간별 사용기간 종료일은 다음 각 호와 같다.
 
    * **[!UICONTROL 월별]**: 빈도 상한은 23:59:59 UTC로 해당 월의 마지막 날까지 유효합니다. 예를 들어 1월의 월별 만료일은 01~31 23:59:59 UTC입니다.
 
-   * **[!UICONTROL 주별]**: 일정 주가 일요일에 시작되기 때문에 빈도 상한은 해당 주의 토요일 23:59:59 UTC까지 유효합니다. 만료는 규칙 생성과 무관합니다. 예를 들어, 규칙이 목요일에 만들어지면 이 규칙은 토요일 23:59:59까지 유효합니다.
+   * **[!UICONTROL 주별]**: 일정 주가 일요일에 시작되기 때문에 빈도 상한은 해당 주의 토요일 23:59:59 UTC까지 유효합니다. 만료 날짜는 규칙이 만들어진 시기에 관계없이 적용됩니다. 예를 들어, 규칙이 목요일에 만들어지면 이 규칙은 토요일 23:59:59까지 유효합니다.
 
    * **[!UICONTROL 일별]**: 일별 빈도 상한은 23:59:59 UTC까지 해당 일에 대해 유효하며 다음 날 시작 시 0으로 재설정됩니다.
 
@@ -151,7 +158,7 @@ ht-degree: 12%
 
    통신이 전달되면 프로필 카운터 값이 업데이트됩니다. 대량의 통신을 전송하는 경우 처리량으로 인해 수신자는 통신을 시작한 후 몇 분 또는 몇 시간 만에 이메일을 받을 수 있으므로(수백만 개의 통신을 동시에 전송하는 경우) 이 사실을 알고 있어야 합니다.
 
-   이는 수신자가 두 개의 커뮤니케이션을 밀접하게 함께 받는 경우에 중요합니다. 수신자가 통신을 수신할 충분한 시간을 주고 그에 따라 카운터 값을 업데이트할 수 있는 경우 최소 2시간 간격으로 통신을 구분하는 것이 좋습니다.
+   이는 수신자가 두 개의 커뮤니케이션을 밀접하게 함께 받는 경우에 중요합니다. 수신자가 통신을 수신할 충분한 시간을 주고 그에 따라 카운터 값을 업데이트할 수 있는 경우, 최소 2시간 간격으로 통신을 구분하는 것이 좋습니다.
 
 1. 규칙의 상한을 설정합니다. 즉, 위의 선택에 따라 매월, 주 또는 일별로 개별 사용자 프로필에 보낼 수 있는 최대 메시지 수를 의미합니다.
 
@@ -237,16 +244,6 @@ ht-degree: 12%
 * 규칙 삭제
 
 ![](assets/rule-set-example-rules.png)
-
-<!--### Permissions{#permissions-frequency-rules}
-
-To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
-
-Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
-
-![](assets/message-rules-access.png)
-
-Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
 ## 메시지 또는 여정에 규칙 세트 적용 {#apply-frequency-rule}
 
