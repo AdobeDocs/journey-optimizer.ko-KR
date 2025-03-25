@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: 80376fda31f1e24ed3443e6ae1c5bde7ca700311
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 36%
+source-wordcount: '768'
+ht-degree: 35%
 
 ---
 
@@ -45,6 +45,22 @@ ht-degree: 36%
 <tr>
 <td>
 <p>Adobe Journey Optimizer의 Adobe Express 통합을 사용하면 컨텐츠를 만드는 동안 바로 Adobe Express의 편집 도구를 사용할 수 있으므로 에셋의 크기를 조정하고, 배경을 제거하고, 자르고, JPEG 또는 PNG로 변환할 수 있습니다.<p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 지표</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>여정 지표를 사용하면 비즈니스에 가장 중요한 지표에서 활동이 미치는 영향을 측정하고 성능에 대한 보다 명확한 통찰력을 제공할 수 있습니다.</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
