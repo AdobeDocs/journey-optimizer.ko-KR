@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 74bb16aa01c442ad9d427cdd2c79c9e8b7b8a394
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2036'
 ht-degree: 13%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 13%
 
    >[!AVAILABILITY]
    >
-   >&quot;일별&quot; 기간은 온디맨드만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+   >일별 기간은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
    기간별 사용기간 종료일은 다음 각 호와 같다.
 

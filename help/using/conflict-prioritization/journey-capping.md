@@ -5,10 +5,10 @@ role: User
 level: Beginner
 badge: label="제한 공개"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 23%
+source-wordcount: '944'
+ht-degree: 24%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 23%
 
      >[!AVAILABILITY]
      >
-     >&quot;일별&quot; 기간은 온디맨드만 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+     >일별 기간은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
      이 예제에서는 프로필이 한 달에 &quot;5&quot;개가 넘는 여정을 입력할 수 없도록 제한하려고 합니다.
 
