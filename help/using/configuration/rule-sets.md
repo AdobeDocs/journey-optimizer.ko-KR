@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
+source-git-commit: 173d73996a676be4ebcad471f396b5f5256b80a5
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 12%
+source-wordcount: '2045'
+ht-degree: 13%
 
 ---
 
@@ -153,10 +153,8 @@ ht-degree: 12%
    * **[!UICONTROL 일별]**: 일별 빈도 상한은 23:59:59 UTC까지 해당 일에 대해 유효하며 다음 날 시작 시 0으로 재설정됩니다.
 
      >[!CAUTION]
-     >
-     >일일 빈도 제한 규칙의 정확도를 보장하려면 [스트리밍 세분화](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}를 사용해야 합니다. [이 섹션](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)에서 대상 평가 방법에 대해 자세히 알아보세요.
-     >
-     >또한 캠페인이나 여정을 작성하는 동안 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보세요.
+     > 
+     >일별 빈도 제한 규칙의 정확도를 보장하려면 캠페인이나 여정을 작성하는 동안 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보세요.
 
    통신이 전달되면 프로필 카운터 값이 업데이트됩니다. 대량의 통신을 전송하는 경우 처리량으로 인해 수신자는 통신을 시작한 후 몇 분 또는 몇 시간 만에 이메일을 받을 수 있으므로(수백만 개의 통신을 동시에 전송하는 경우) 이 사실을 알고 있어야 합니다.
 
