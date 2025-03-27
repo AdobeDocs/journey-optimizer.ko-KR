@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: WhatsApp 채널 구성
 description: Journey Optimizer에서 WhatsApp 메시지를 보내도록 환경을 구성하는 방법에 대해 알아봅니다
-feature: WhatsApp, Channel Configuration
+feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 4%
