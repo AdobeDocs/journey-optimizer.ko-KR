@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e29586f24f6ef84869a277ae6121d83f962405f7
+source-git-commit: 20d41af0829946300cffb5ff8585923b99a12a4b
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1336'
 ht-degree: 64%
 
 ---
@@ -166,6 +166,8 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 **승인**
 
 이제 승인 정책에 대한 조건을 정의할 때 태그 및/또는 오브젝트 카테고리별로 필터링할 수 있는 옵션이 제공됩니다.
+
+자세한 내용은 [세부 설명서](../test-approve/approval-policies.md)를 참조하십시오.
 
 **구성**
 
