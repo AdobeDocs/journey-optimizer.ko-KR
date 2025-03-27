@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
+source-git-commit: e10ffbbe553495b1f9d7a2aeafc3d10e54561389
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 61%
+source-wordcount: '1389'
+ht-degree: 63%
 
 ---
 
@@ -146,15 +146,6 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 ![Personalization 편집기의 새로운 기능을 보여 주는 비디오](assets/do-not-localize/personalization-editor.gif)
 
 자세한 내용은 [세부 설명서](../personalization/personalization-build-expressions.md)를 참조하십시오.
-
-**캠페인**
-
-* 이제 캠페인 목록에서 캠페인을 선택하면 세부 정보가 표시되는 창이 열립니다.
-* 이제 샌드박스에서 다른 샌드박스로 캠페인을 복사할 수 있습니다.
-
-**개인화**
-
-개인화 편집기에 새로운 &quot;알약&quot; 버튼이 추가되었습니다. 활성화되면 프로필 및 컨텍스트 속성이 알약으로 표시되므로 코드의 가독성이 향상됩니다.
 
 **승인**
 
