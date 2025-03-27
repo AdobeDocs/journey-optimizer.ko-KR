@@ -5,10 +5,11 @@ title: 분할 활동 사용
 description: 여러 단계 캠페인에서 분할 활동을 사용하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 76%
+ht-degree: 79%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="분할 활동용 세그먼트"
->abstract="수신 집단을 세그먼트로 나누려면 원하는 만큼 하위 집합을 추가합니다.<br/></br>**분할** 활동이 실행되면 집단이 활동에 추가된 순서대로 여러 하위 집합에 걸쳐 세그먼트로 나뉩니다. 여러 단계 캠페인을 시작하기 전에 화살표 단추를 사용하여 하위 세트를 사용자의 요구에 맞는 순서로 정렬했는지 확인하십시오."
+>abstract="수신 집단을 세그먼트로 나누려면 원하는 만큼 하위 집합을 추가합니다.<br/></br>**분할** 활동이 실행되면 집단이 활동에 추가된 순서대로 여러 하위 집합에 걸쳐 세그먼트로 나뉩니다. 다단계 캠페인을 시작하기 전에 화살표 버튼을 사용하여 필요에 맞게 하위 집합의 순서를 지정했는지 확인해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"

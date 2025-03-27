@@ -9,7 +9,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3ecb1691cc8a1c429d9bd9919b06ddc5a316eff7
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
->title="여러 단계 캠페인"
->abstract="이 화면에서는 여러 단계 캠페인의 전체 목록에 액세스하고, 현재 상태, 마지막/다음 실행 날짜를 확인하고, 새 여러 단계 캠페인을 만들 수 있습니다."
+>title="다단계 캠페인"
+>abstract="이 화면에서 다단계 캠페인의 전체 목록에 액세스하고 현재 상태, 마지막/다음 실행 일자를 확인하고 새 다단계 캠페인을 만들 수 있습니다."
 
 Adobe Journey Optimizer을 사용하면 여러 단계 캠페인을 시각적 캔버스로 빌드하여 세그멘테이션, 캠페인 실행 및 파일 처리와 같은 크로스 채널 프로세스를 디자인할 수 있습니다.
 

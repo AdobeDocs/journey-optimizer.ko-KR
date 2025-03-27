@@ -5,10 +5,11 @@ title: 조정 활동 사용
 description: 여러 단계 캠페인에서 조정 활동을 사용하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 36%
+ht-degree: 39%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation"
 >title="조정 활동"
->abstract="**조정** 활동은 작업 테이블의 데이터와 Adobe Journey Optimizer 간의 링크를 정의할 수 있는 **타깃팅** 활동입니다."
+>abstract="**조정** 활동은 Adobe Journey Optimizer와 작업 테이블의 데이터 간 링크를 정의할 수 있는 **타기팅** 활동입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_field"
@@ -121,4 +122,3 @@ ht-degree: 36%
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
 * 이러한 업데이트를 기반으로 새 대상을 만들 수 있는 [대상 저장](save-audience.md) 활동. 특정 대상을 만들거나 업데이트할 필요가 없는 경우 **대상 저장** 활동을 **끝** 활동으로 바꿀 수도 있습니다. 수신자 프로필은 여러 단계 캠페인을 실행할 때 업데이트됩니다.
-

@@ -11,7 +11,7 @@ exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 15%
 >id="ajo_create_expression_fragment"
 >title="표현식 유형 선택"
 >abstract="여러 여정과 캠페인 전반에서 콘텐츠를 재사용할 수 있도록 독립 실행형 표현식 조각을 만듭니다. 개인화 편집기를 사용하면 현재 샌드박스에서 생성된 모든 표현식 조각을 활용할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="개인화 편집기 작업"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="개인화 편집기 작업"
 
 **[!UICONTROL 조각]** 왼쪽 메뉴에서 조각을 처음부터 만들 수 있습니다. 또한 콘텐츠를 디자인할 때 기존 콘텐츠의 일부를 조각으로 저장할 수도 있습니다. [방법 알아보기](#save-as-fragment)
 

@@ -5,10 +5,11 @@ title: 대상자 저장 활동 사용
 description: 여러 단계 캠페인에서 포크 활동을 사용하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 84e34d21-dca1-4203-8539-f2b20e461936
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="대상자 저장"
->abstract="이 활동을 사용하여 여러 단계 캠페인에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만듭니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
+>abstract="이 활동을 사용하여 다단계 캠페인에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_saveaudience_outbound"

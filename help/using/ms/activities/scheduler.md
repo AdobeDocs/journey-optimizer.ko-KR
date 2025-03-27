@@ -5,10 +5,11 @@ title: 스케줄러 활동 사용
 description: 여러 단계 캠페인에서 스케줄러 활동을 사용하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: da77a0bf-7b17-40fc-b2cb-2f0940152e64
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 20%
+ht-degree: 27%
 
 ---
 
@@ -18,10 +19,10 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="스케줄러 활동"
->abstract="**스케줄러** 활동을 통해 여러 단계 캠페인을 시작할 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 여러 단계 캠페인의 첫 번째 활동으로만 사용할 수 있습니다."
+>abstract="**스케줄러** 활동을 사용하면 다단계 캠페인이 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 다단계 캠페인의 첫 번째 활동으로만 사용할 수 있습니다."
 
 
-**스케줄러** 활동은 **흐름 제어** 활동입니다. 다중 단계 캠페인이 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 여러 단계 캠페인의 첫 번째 활동으로만 사용할 수 있습니다.
+**스케줄러** 활동은 **흐름 제어** 활동입니다. 다중 단계 캠페인이 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 다단계 캠페인의 첫 번째 활동으로만 사용할 수 있습니다.
 
 ## 모범 사례{#scheduler-best-practices}
 

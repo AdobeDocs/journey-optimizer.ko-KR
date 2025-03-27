@@ -5,10 +5,11 @@ title: AND-join 활동 사용
 description: 여러 단계 캠페인에서 AND-join 활동을 사용하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 65%
+ht-degree: 77%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="AND-결합 활동"
->abstract="**And-join** 활동을 사용하면 여러 단계 캠페인의 여러 실행 분기를 동기화할 수 있습니다. 이전 활동이 모두 완료되면 트리거됩니다. 이렇게 하면 여러 단계 캠페인을 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다."
+>abstract="**AND-결합** 활동을 사용하면 다단계 캠페인의 여러 실행 분기를 동기화할 수 있습니다. 이전 활동이 모두 완료되면 트리거됩니다. 이로써 다단계 캠페인을 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다."
 
 **AND-결합** 활동은 **흐름 제어** 활동입니다. 여러 단계 캠페인의 여러 실행 분기를 동기화할 수 있습니다.
 

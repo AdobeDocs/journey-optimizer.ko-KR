@@ -5,10 +5,11 @@ title: 파일 로드 활동 사용
 description: 여러 단계 캠페인에서 파일 로드 활동을 사용하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -105,7 +106,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_targetdb"
 >title="Target 데이터베이스"
->abstract="이미 설정된 **[!UICONTROL 파일 로드]** 활동에 액세스하는 경우 파일을 외부 데이터베이스에 업로드하도록 활동을 구성한 경우 추가 **[!UICONTROL Target 데이터베이스]** 섹션을 사용할 수 있습니다."
+>abstract="이미 설정된 **[!UICONTROL 파일 로드]** 활동에 액세스할 때 추가 **[!UICONTROL 대상 데이터베이스]** 섹션은 파일을 외부 데이터베이스에 업로드하도록 활동을 구성한 경우에 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_command"

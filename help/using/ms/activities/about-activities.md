@@ -5,15 +5,15 @@ title: 여러 단계 캠페인 활동 작업
 description: 여러 단계 캠페인 활동 방법 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: 658d82820d3f307481c44a142c38727f777fd879
+exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 23%
+ht-degree: 27%
 
 ---
 
-
-# 여러 단계 캠페인 활동 기본 정보 {#ms-campaign-activities}
+# 여러 단계 캠페인 활동 정보 {#ms-campaign-activities}
 
 여러 단계의 캠페인 활동은 세 가지 카테고리로 그룹화됩니다. 컨텍스트에 따라 사용 가능한 활동이 다를 수 있습니다.
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizer을 사용하면 여러 채널에서 마케팅 캠페인�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="종료 활동"
->abstract="**End** 활동을 통해 여러 단계 캠페인의 끝을 그래픽으로 표시할 수 있습니다. 이 활동은 기능에 영향을 미치지 않으므로 선택 사항입니다."
+>abstract="**종료** 활동을 사용하여 다단계 캠페인의 끝을 그래픽으로 표시할 수 있습니다. 이 활동은 기능에 영향을 미치지 않으므로 선택 사항입니다."
 
 다음 활동은 여러 단계의 캠페인을 구성하고 실행하는 데 한정됩니다. 주요 작업은 다음과 같은 다른 활동을 조정하는 것입니다.
 

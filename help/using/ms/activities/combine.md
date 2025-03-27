@@ -5,7 +5,8 @@ title: 결합 활동 사용
 description: Combine 활동을 사용하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 86%
@@ -27,24 +28,24 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 * **합집합** 기능을 사용하면 여러 활동의 결과를 하나의 타깃으로 다시 그룹화할 수 있습니다.
 * **교집합** 기능을 사용하면 활동에서 다른 인바운드 집단에 공통되는 요소만 유지할 수 있습니다.
-* **제외** 기능을 사용하면 특정 기준에 따라 한 집단에서 요소를 제외할 수 있습니다.
+* **제외** 기능을 사용하면 특정 기준에 따라 하나의 모집단에서 요소를 제외할 수 있습니다.
 
 ## 결합 활동 구성 {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_intersection_merging_options"
 >title="교차 병합 옵션"
->abstract="교집합 기능을 사용하면 활동에서 다른 인바운드 집단에 공통되는 요소만 유지할 수 있습니다. 참여 설정 섹션에서 참여하려는 모든 이전 활동을 선택합니다."
+>abstract="교집합 기능을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다. 참여 설정 섹션에서 참여하려는 모든 이전 활동을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_exclusion_merging_options"
 >title="제외 병합 옵션"
->abstract="제외 기능을 사용하면 특정 기준에 따라 한 집단에서 요소를 제외할 수 있습니다. 참여 설정 섹션에서 참여하려는 모든 이전 활동을 선택합니다."
+>abstract="제외 기능을 사용하면 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다. 참여 설정 섹션에서 참여하려는 모든 이전 활동을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_combine_options"
 >title="세분화 유형 선택"
->abstract="대상자 결합 방법을 선택합니다. **합집합** 기능을 사용하면 여러 활동의 결과를 하나의 타깃으로 다시 그룹화할 수 있습니다. **교집합** 기능을 사용하면 활동에서 다른 인바운드 집단에 공통되는 요소만 유지할 수 있습니다. **제외** 기능을 사용하면 특정 기준에 따라 한 집단에서 요소를 제외할 수 있습니다. "
+>abstract="대상자 결합 방법을 선택합니다. **합집합** 기능을 사용하면 여러 활동의 결과를 하나의 타깃으로 다시 그룹화할 수 있습니다. **교집합** 기능을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다. **제외** 기능을 사용하면 특정 기준에 따라 하나의 모집단에서 요소를 제외할 수 있습니다. "
 
 **결합** 활동 구성을 시작하려면 다음과 같은 일반적인 단계를 따르십시오.
 

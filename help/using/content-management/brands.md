@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
@@ -59,8 +59,8 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="쓰기 스타일 점수"
->abstract="쓰기 스타일 점수"
+>title="작성 스타일 점수"
+>abstract="작성 스타일 점수"
 
 >[!AVAILABILITY]
 >
