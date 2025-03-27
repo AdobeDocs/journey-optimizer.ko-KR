@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,7 @@ SMS/MMS 채널이 구성되면 **[!DNL Journey Optimizer]**&#x200B;에서 SMS �
 
    >[!NOTE]
    >
-   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-`자를 사용할 수도 있습니다.
+   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점 `.`, 하이픈 `-`도 사용할 수 있습니다.
 
 1. **SMS 설정**&#x200B;을(를) 정의합니다.
 
@@ -51,7 +51,7 @@ SMS/MMS 채널이 구성되면 **[!DNL Journey Optimizer]**&#x200B;에서 SMS �
 
    >[!CAUTION]
    >
-   >마케팅 커뮤니케이션의 구독을 취소한 프로필에 **트랜잭션** 메시지를 보낼 수 있습니다. 이러한 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
+   >마케팅 커뮤니케이션의 구독을 취소한 프로필에 **트랜잭션** 메시지를 보낼 수 있습니다. 이 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
 
 1. 구성과 연결할 **[!UICONTROL SMS 구성]**&#x200B;을(를) 선택하십시오.
 
@@ -75,7 +75,7 @@ SMS/MMS 채널이 구성되면 **[!DNL Journey Optimizer]**&#x200B;에서 SMS �
 
    >[!NOTE]
    >
-   >검사에 실패한 경우 [이 섹션](#monitor-channel-surfaces)에서 가능한 실패 이유에 대해 자세히 알아보세요.
+   >검사에 실패한 경우 [이 섹션](../configuration/channel-surfaces.md)에서 가능한 실패 이유에 대해 자세히 알아보세요.
 
 1. 검사가 성공하면 채널 구성이 **[!UICONTROL 활성]** 상태가 됩니다. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 

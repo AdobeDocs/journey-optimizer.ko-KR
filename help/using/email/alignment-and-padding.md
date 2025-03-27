@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 keywords: 수직 정렬, 이메일 편집기, 패딩
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 14%
+source-wordcount: '199'
+ht-degree: 12%
 
 ---
 
-# 수직 정렬 및 패딩 조정 {#alignment-and-padding}
+# 세로 정렬 및 패딩 조정 {#alignment-and-padding}
 
 이 예제에서는 3개의 열로 구성된 구조 구성 요소 내부의 패딩 및 수직 정렬을 조정합니다.
 
@@ -41,3 +41,7 @@ ht-degree: 14%
 1. 다른 열의 정렬 및 패딩을 조정하려면 이와 유사하게 진행합니다.
 
 1. 변경 내용을 저장합니다.
+
+>[!TIP]
+>
+>Android 장치에서 Gmail용 이메일 콘텐츠를 디자인할 때 이미지와 분할자가 크고 고정된 여백이 아닌 열 패딩을 사용하는지 확인하십시오. Android의 Gmail은 종종 크기가 큰 이미지와 여백을 잘못 렌더링하여 레이아웃 오버플로 또는 구분선 축소를 초래합니다. 일관된 표시를 위해 더 작은 이미지 폭을 사용하거나 열 기반 패딩을 사용하십시오.

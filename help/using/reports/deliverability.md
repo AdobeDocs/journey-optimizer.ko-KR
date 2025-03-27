@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 8%
+source-wordcount: '1138'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->Healthcare Shield를 허가한 고객의 경우 Adobe이 TLS(Transport Layer Security) 1.2를 사용하여 사용자 시스템(수신자)과 Journey Optimizer(발신자) 간의 데이터 교환을 보호합니다. 수신 메일 서버가 TLS 1.2를 지원하지 않는 경우 고객은 보낸 사람에게 이메일 반송 등 전달성 문제를 겪게 됩니다.
+>Healthcare Shield를 허가한 고객의 경우 Adobe이 TLS(전송 계층 보안) 1.2를 사용하여 사용자 시스템(수신자)과 Journey Optimizer(발신자) 간의 데이터 교환을 보호합니다. 수신 메일 서버가 TLS 1.2를 지원하지 않는 경우 고객은 보낸 사람에게 이메일 반송 등 전달성 문제를 겪게 됩니다.
 
 **전자 메일 전달성**&#x200B;은(는) 개인 전자 메일 주소를 통해, 짧은 시간 내에, 그리고 콘텐츠와 형식 측면에서 예상되는 품질로 메시지를 대상에 도달시킬 수 있는 기능을 결정하는 일련의 특성을 나타냅니다. 이러한 특성은 데이터 품질, 메시지 및 콘텐츠, 전송 인프라, 평판의 네 가지 주요 범주로 나뉩니다. 이 두 솔루션은 성공적인 이메일 전달성 프로그램의 기반을 형성합니다.
 
@@ -90,7 +90,7 @@ Adobe Journey Optimizer는 최적의 전달성을 위한 모범 사례에 따라
 
 ## DMARC 구현 {#dmarc}
 
-[!DNL Journey Optimizer]을(를) 사용하면 합법적인 이메일이 스팸 또는 거부로 표시될 위험을 완화하고 게재 가능성 문제를 방지할 수 있습니다. 이를 통해 Adobe에 위임하는 모든 하위 도메인에 대해 DMARC 레코드를 설정할 수 있습니다.
+[!DNL Journey Optimizer]을(를) 사용하면 합법적인 이메일이 스팸 또는 거부로 표시될 위험을 완화하고 게재 가능성 문제를 방지할 수 있습니다. 이를 통해 Adobe에 위임하는 모든 하위 도메인에 대한 DMARC 레코드를 설정할 수 있습니다.
 
 도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 악의적인 행위자의 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다.
 
@@ -106,7 +106,7 @@ Adobe Journey Optimizer는 최적의 전달성을 위한 모범 사례에 따라
 
 FBL(피드백 루프)은 일부 ISP에서 제공하는 서비스로, 이메일을 받은 사용자가 이메일을 스팸으로 표시하도록 선택하면 이메일 발신자에게 자동으로 알림을 보낼 수 있습니다(&quot;컴플레인&quot;이라고도 함).
 
-최종 사용자가 ISP에서 Adobe에게 다시 보내는 컴플레인을 생성하면 전자 메일 주소가 자동으로 [제외 목록](../reports/suppression-list.md)에 추가되고 이후 게재에서 제외됩니다. 실제로 스팸으로 표시된 사용자에게 이메일을 보내면 보낸 사람의 신뢰도에 부정적인 영향을 미쳐 게재 가능성 문제가 발생할 수 있습니다. [스팸 불만 사항에 대해 자세히 알아보기](../reports/suppression-list.md#spam-complaints)
+최종 사용자가 ISP에서 Adobe으로 다시 보내는 컴플레인을 생성하면 전자 메일 주소가 자동으로 [제외 목록](../reports/suppression-list.md)에 추가되고 이후 게재에서 제외됩니다. 실제로 스팸으로 표시된 사용자에게 이메일을 보내면 보낸 사람의 신뢰도에 부정적인 영향을 미쳐 게재 가능성 문제가 발생할 수 있습니다. [스팸 불만 사항에 대해 자세히 알아보기](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >
@@ -171,3 +171,13 @@ FBL(피드백 루프)은 일부 ISP에서 제공하는 서비스로, 이메일�
 * 직고
 
 Adobe은 이러한 FBL을 정기적으로 감사하여 사용 가능한 최신 FBL이 추가되었는지 확인합니다.
+
+## SMTP 릴레이 사용 {#smtp-relay}
+
+[!DNL Journey Optimizer]은(는) Adobe 소유 MTA(메일 전송 에이전트)와 IP를 사용하여 인터넷 서비스 공급자(ISP)에게 전자 메일을 전달합니다. 그러나 경우에 따라 수신자에게 보내기 전에 고유한 MTA 및 IP를 통해 최종 이메일 게재를 라우팅하거나 이메일에 대한 최종 유효성 검사를 수행할 수 있습니다.
+
+이 경우 이메일을 Journey Optimizer에서 ISP로 직접 전송하는 대신 조직에서 호스팅하는 SMTP 서버에 중계하도록 선택할 수 있습니다.
+
+>[!AVAILABILITY]
+>
+>SMTP 릴레이 용량은 요청 시 사용할 수 있습니다. Adobe 담당자에게 문의하십시오.

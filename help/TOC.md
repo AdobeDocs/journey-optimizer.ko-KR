@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 99%
+source-wordcount: '2314'
+ht-degree: 97%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 99%
    + 여정 만들기{#create-journey}
       + [첫 여정 만들기](using/building-journeys/journey-gs.md)
       + [여정 속성 정의](using/building-journeys/journey-properties.md)
+      + [여정 지표 구성 및 추적](using/building-journeys/success-metrics.md)
       + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 시뮬레이션](using/building-journeys/journey-simulation.md)
@@ -324,6 +325,11 @@ ht-degree: 99%
          + [Web SDK에서 콘텐츠 카드 지원 구성](using/content-card/content-card-configuration-sdk.md)
       + [콘텐츠 템플릿 만들기](using/content-card/create-content-card.md)
       + [콘텐츠 카드 디자인](using/content-card/design-content-card.md)
+   + WhatsApp{#whatsapp}
+      + [WhatsApp 메시지 시작](using/whatsapp/get-started-whatsapp.md)
+      + [Journey Optimizer에서 WhatsApp 채널 구성](using/whatsapp/whatsapp-configuration.md)
+      + [WhatsApp 메시지 만들기](using/whatsapp/create-whatsapp.md)
+      + [WhatsApp 메시지 확인 및 보내기](using/whatsapp/send-whatsapp.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
@@ -419,9 +425,11 @@ ht-degree: 99%
    + [다른 솔루션과 통합](using/integrations/ajo-integrations.md)
    + [Experience Manager Assets 작업](using/integrations/assets.md)
    + [Adobe Stock 작업](using/integrations/stock.md)
+   + [Adobe Express 작업](using/integrations/express.md)
    + [Experience Manager 템플릿 작업](using/integrations/aem-templates.md)
    + [Experience Manager 콘텐츠 조각을 사용하여 작업](using/integrations/aem-fragments.md)
    + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
+   + [GenStudio 작업](using/integrations/genstudio.md)
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)

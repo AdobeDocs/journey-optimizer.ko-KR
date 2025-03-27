@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 1ff33c3da5236cb4a89a893f83476867a2ecddd3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 52%
@@ -110,9 +110,9 @@ ht-degree: 52%
 
 >[!IMPORTANT]
 >
->대상자 작성의 대상자 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
+>* 대상자 작성의 대상자 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
 >
->데이터 보강 속성은 아직 정책 시행 서비스와 통합되지 않았습니다. 따라서 데이터 보강 속성에 적용하는 데이터 사용 레이블은 Journey Optimizer 캠페인 또는 여정에 적용되지 않습니다.
+>* 데이터 보강 속성은 아직 정책 시행 서비스와 통합되지 않았습니다. 따라서 데이터 보강 속성에 적용하는 데이터 사용 레이블은 Journey Optimizer 캠페인 또는 여정에 적용되지 않습니다.
 
 대상자 구성 기능은 Adobe Journey Optimizer의 **[!UICONTROL 대상자]** 메뉴에서 액세스할 수 있습니다.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 65aed24e1df7bf2cfa2d8afbddbadb14a353da38
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 84%
+source-wordcount: '916'
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 84%
 * 이메일 메시지에 링크 삽입 및 추적 활성화에 대한 섹션을 업데이트 및 재구성했습니다. [자세히 보기](../email/message-tracking.md)
 * Adobe Journey Optimizer의 개인화 기능에 대한 섹션을 재구성하고 개선했습니다. [자세히 보기](../personalization/personalize.md)
 * 개인화된 오퍼를 나열하는 의사 결정 관리 API가 응답에서 여러 개인화된 오퍼가 누락된 경우 페이지 매김을 수행하는 샘플로 업데이트되었습니다. [자세히 보기](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-
+* 목록 구독 취소 기능에 대한 모든 정보를 수집하는 새 페이지가 작성되어 명확성이 향상되었습니다. [자세히 보기](../email/list-unsubscribe.md)
 
 
 ## 2025년 2월 {#feb-2025}

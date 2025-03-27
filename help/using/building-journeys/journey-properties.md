@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2259'
+source-wordcount: '2298'
 ht-degree: 18%
 
 ---
@@ -243,16 +243,19 @@ ht-degree: 18%
 
 ## 병합 정책 {#merge-policies}
 
-여정은 Adobe Experience Platform에서 프로필 데이터를 검색하는 동안 병합 정책을 사용합니다. 여정 유형에 따라 서로 다른 병합 정책이 사용됩니다.
+Adobe Journey Optimizer은 Adobe Experience Platform에서 프로필 데이터를 검색하는 동안 병합 정책을 사용합니다. 여정 유형에 따라 서로 다른 병합 정책이 사용됩니다.
 
 * 대상자 읽기 또는 대상자 자격 여정: 대상자의 병합 정책이 사용됩니다
 * 단일 이벤트 여정에서: 기본 병합 정책이 사용됩니다
 * 비즈니스 이벤트 여정: 다음 대상 읽기 활동에서 타깃팅된 대상의 병합 정책이 사용됩니다
 
-여정은 전체 여정 동안 사용된 병합 정책을 적용합니다. 따라서 한 여정에 여러 대상이 사용되는 경우(예: &quot;inAudience&quot; 함수에서) 여정이 사용한 병합 정책과 일치하지 않으면 오류가 발생하고 게시가 차단됩니다. 하지만 메시지 개인화에 일관되지 않은 대상이 사용되면 불일치에도 불구하고 경고가 발생하지 않습니다. 이러한 이유로, 메시지 개인화에 이 대상자를 사용할 때에는 대상자와 연결된 병합 정책을 확인하는 것이 좋습니다.
+Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합니다. 따라서 한 여정에 여러 대상이 사용되는 경우(예: &quot;inAudience&quot; 함수에서) 여정이 사용한 병합 정책과 일치하지 않으면 오류가 발생하고 게시가 차단됩니다. 하지만 메시지 개인화에 일관되지 않은 대상이 사용되면 불일치에도 불구하고 경고가 발생하지 않습니다. 이러한 이유로, 메시지 개인화에 이 대상자를 사용할 때에는 대상자와 연결된 병합 정책을 확인하는 것이 좋습니다.
 
 병합 정책에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}를 참조하세요.
 
+>[!NOTE]
+>
+>대상 병합 정책이 업데이트되면 해당 대상을 참조하는 모든 활성 여정을 다시 게시(또는 복제)해야 합니다. 병합 정책을 변경하면 진행 중인 여정이 액세스할 수 없는 &#39;새로운&#39; 대상자가 효과적으로 생성되어 데이터 일관성이 보장됩니다.
 
 ## 종료 기준 {#exit-criteria}
 

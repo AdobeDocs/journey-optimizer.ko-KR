@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 99%
 
 ---
 
@@ -69,6 +69,7 @@ Journey Optimizer의 대상자에게 의미 있는 태그를 추가하면 나중
 * [랜딩 페이지](../landing-pages/create-lp.md)
 * [구독 목록](../landing-pages/subscription-list.md)
 * [템플릿](../content-management/content-templates.md)
+* [채널 구성](../configuration/channel-surfaces.md#channel-config-tags)
 
 기존 태그를 선택하거나 새 태그를 만들 수 있습니다. 그 방법은 다음과 같습니다.
 

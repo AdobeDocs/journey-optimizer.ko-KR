@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1737'
-ht-degree: 13%
+source-wordcount: '1800'
+ht-degree: 12%
 
 ---
 
@@ -271,6 +271,19 @@ ht-degree: 13%
 
 ![](assets/preset-activate.png)
 
+## 채널 구성에 태그 추가 {#channel-config-tags}
+
+1. 채널 구성 목록에 액세스합니다.
+
+1. 선택한 활성 구성을 보려면 **[!UICONTROL 추가 작업]** 단추를 클릭하십시오.
+
+1. **[!UICONTROL 태그 편집]**&#x200B;을 클릭합니다.
+
+1. 목록에서 Adobe Experience Platform 태그를 선택하여 검색 개선을 위해 채널 구성을 범주화합니다. [통합 태그를 사용하여 작업하는 방법을 알아봅니다](../start/search-filter-categorize.md#tags)
+
+   ![](assets/config-edit-tags.png)
+
+1. 채널 구성에 태그를 할당하면 태그에서 태그를 [필터링](../start/search-filter-categorize.md#filter-on-tags)할 수 있습니다.
 
 ## 사용 방법 비디오{#video-presets}
 
