@@ -7,10 +7,11 @@ feature: Content Assistant, Integrations
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
-source-git-commit: b24e50f698567e1f45318d942dff87febba179c9
+exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
+source-git-commit: e5edb719c4ff30385242700217c9c4c07ff28373
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 1%
+source-wordcount: '622'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 1%
 >
 >[!DNL Adobe Journey Optimizer]의 GenStudio 통합은 현재 **Healthcare Shield** 또는 **Privacy and Security Shield** 추가 기능 오퍼링에서 사용할 수 없습니다.
 >
->GenStudio 통합은 이메일 채널에만 사용할 수 있습니다.
+>이 기능은 이메일 채널에서만 사용할 수 있습니다.
 
 [Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"}은(는) 마케팅 팀이 고유한 광고 및 이메일을 만들어 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력이 크고 개인화된 마케팅 캠페인을 유도할 수 있는 생성 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용함으로써 크리에이티브가 혁신에 집중할 수 있도록 콘텐츠 생성 및 관리의 복잡성을 간소화하는 포괄적인 도구 모음을 제공합니다.
 
