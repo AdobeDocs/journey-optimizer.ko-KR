@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 21%
+source-wordcount: '733'
+ht-degree: 20%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 21%
 
    ![](assets/strategy-create-eligibility.png)
 
-   * Experience Platform 대상의 구성원으로 오퍼 선택을 제한하려면 **[!UICONTROL 대상]**&#x200B;을(를) 선택하고 목록에서 대상을 선택하십시오. [대상자를 사용한 작업 방법 알아보기](../audience/about-audiences.md)
+   * 오퍼 선택을 Experience Platform 대상의 구성원으로 제한하려면 **[!UICONTROL 대상]**&#x200B;을(를) 선택하고 목록에서 대상을 선택하십시오. [대상자를 사용한 작업 방법 알아보기](../audience/about-audiences.md)
 
    * 결정 규칙과 함께 선택 제한을 추가하려면 **[!UICONTROL 결정 규칙]** 옵션을 사용하고 선택한 규칙을 선택하십시오. [규칙을 만드는 방법 알아보기](rules.md)
 
@@ -114,6 +114,11 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 수식**&#x20
 
 ### AI 등급 {#ai-ranking}
 
-AI 모델을 선택하여 주어진 프로필에 대해 표시할 오퍼에 자동으로 등급을 지정하는 교육된 모델 시스템을 사용할 수도 있습니다. [이 섹션](ranking.md)에서 AI 모델을 만드는 방법을 알아봅니다.
+AI 모델을 선택하여 주어진 프로필에 대해 표시할 오퍼에 자동으로 등급을 지정하는 교육된 모델 시스템을 사용할 수도 있습니다. [이 섹션](../offers/ranking/ai-models.md)에서 AI 모델을 만드는 방법을 알아봅니다.
 
 AI 모델이 만들어지면 선택 전략에 사용할 수 있습니다. 여러 오퍼가 적합한 경우 교육된 모델 시스템은 이 선택 전략에 대해 먼저 제시해야 하는 오퍼를 결정합니다.
+
+>[!NOTE]
+>
+>현재 [상승도 측정](../offers/ranking/auto-optimization-model.md#lift) 보고서는 [개인화된 최적화](../offers/ranking/personalized-optimization-model.md) AI 모델에만 사용할 수 있습니다.
+

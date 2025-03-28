@@ -6,13 +6,13 @@ description: Edge Decisioning 요청에서 컨텍스트 데이터를 전달하�
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # 컨텍스트 데이터 및 Edge Decisioning 요청 {#edge}
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 이 사용 사례에는 다음과 같은 몇 가지 주요 단계가 포함됩니다.
 
 1. [필수 구성 요소를 설정](#prerequisites): 요청에 컨텍스트 데이터를 전달하는 데 필요한 모든 단계를 완료했는지 확인하십시오.
-1. [자격 규칙에 컨텍스트 데이터 사용](#rule): 사용자의 장치 유형에 따라 표시할 오퍼를 결정하는 규칙을 만듭니다.
+1. [자격 규칙에 컨텍스트 데이터 사용](#rules): 사용자의 장치 유형에 따라 표시할 오퍼를 결정하는 규칙을 만듭니다.
 1. [장치별 오퍼 디자인](#offers): 각 장치 유형에 맞는 맞춤 오퍼를 만들고 해당 규칙에 연결합니다.
 1. [오퍼 컬렉션 만들기](#collection): 모든 오퍼를 정적 컬렉션으로 그룹화합니다.
 1. [의사 결정 구성](#decision) : 오퍼 의사 결정 엔진을 활용하여 장치 유형에 따라 사용자에게 제공할 최상의 오퍼를 선택하는 새 의사 결정을 만듭니다.
@@ -149,33 +149,33 @@ Decisioning API를 사용하여 컨텍스트를 다소 자유 형식으로 전�
 
 ```
 {
-	"events": [{
-		"xdm": {
-			"identityMap": {
-				"customerId": [{
-					"id": "0000158216",
-					"authenticatedState": "authenticated",
-					"primary": true
-				}]
-			},
-			"_experienceplatform": {
-				"identity": {
-					"core": {
-						"customerId": "0000158216"
-					}
-				},
+    "events": [{
+        "xdm": {
+            "identityMap": {
+                "customerId": [{
+                    "id": "0000158216",
+                    "authenticatedState": "authenticated",
+                    "primary": true
+                }]
+            },
+            "_experienceplatform": {
+                "identity": {
+                    "core": {
+                        "customerId": "0000158216"
+                    }
+                },
                 "offerContextData" : {
                     "language" : "NL",
                     "deviceType" : "iphone"
                 }
-			}
-		}
-	}],
-	"query": {
-		"personalization": {
-			"decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
-		}
-	}
+            }
+        }
+    }],
+    "query": {
+        "personalization": {
+            "decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
+        }
+    }
 }
 ```
 

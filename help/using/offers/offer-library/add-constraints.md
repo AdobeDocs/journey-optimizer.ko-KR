@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '2636'
-ht-degree: 16%
+source-wordcount: '2719'
+ht-degree: 15%
 
 ---
 
@@ -223,7 +223,7 @@ ht-degree: 16%
 
 * **[!UICONTROL 총]**&#x200B;을(를) 선택하여 결합된 타겟 대상자, 즉 모든 사용자에게 오퍼를 제안할 수 있는 횟수를 정의합니다.
 
-  예를 들어 &#39;TV 초보자용 거래&#39;를 하는 전자 제품 소매업자인 경우 모든 프로필에서 오퍼가 200배만 반환되기를 원할 수 있습니다.
+  예를 들어, 전자 제품 retailer에 &#39;TV 초보자용 거래&#39;가 있는 경우 모든 프로필에서 오퍼가 200배만 반환되기를 원합니다.
 
 * 동일한 사용자에게 오퍼를 제안할 수 있는 횟수를 정의하려면 **[!UICONTROL 프로필당]**&#x200B;을(를) 선택하십시오.
 
@@ -258,9 +258,9 @@ ht-degree: 16%
 >
 >오퍼를 게시한 후에는 빈도에 대해 선택한 기간(월별, 주별 또는 일별)을 변경할 수 없습니다. 오퍼가 **[!UICONTROL 초안]** 상태이고 이전에 게시되지 않았으며 빈도 설정이 활성화된 경우에도 빈도 설정을 편집할 수 있습니다.
 
-+++ **반드시 알아야 할 사항: 빈도 제한 및 Edge Decisioning API**
++++ **반드시 알아야 할 사항: 빈도 제한 및 결정 관리 API**
 
-빈도 제한 카운터는 업데이트되며 3초 이내에 Edge Decisioning API 의사 결정에서 사용할 수 있습니다.
+빈도 제한 카운터가 업데이트되어 3초 이내에 [Edge Decisioning API](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) 결정에서 사용할 수 있습니다.
 
 각각의 허브 영역은 하나 이상의 에지 영역들과 연관된다. 빈도 제한 규칙이 생성되고 각 허브 영역에서 연관된 에지 영역으로 내보내집니다. Edge Decisioning API를 사용하여 결정이 내려질 때마다 시스템은 동일한 에지 영역에서 사용할 수 있는 규칙을 적용합니다.
 
@@ -269,7 +269,17 @@ ht-degree: 16%
 
 예를 들어 조직의 허브 영역을 *NLD2*(으)로 간주하고 유럽(*IRL1* Edge 영역)에서 의사 결정 요청을 보내려고 합니다. 이 시나리오에서는 (아일랜드) *IRL1* 지역에서 규칙을 사용할 수 있으므로 의사 결정 요청은 프로필의 카운터를 증가시킵니다. 그러나 결정 요청이 (네덜란드) *NLD2* 허브 영역에 연결된 에지 영역이 아닌 일본(*JPN3*)과 같은 지역에서 비롯된 경우 카운터가 생성되지 않으며 빈도 제한 규칙이 적용되지 않습니다.
 
+>[!NOTE]
+>
+>카운터가 에지로부터 허브로 또는 허브로부터 에지 영역들로 전파될 때, 수 분의 지연이 적용될 수 있다.
+
 조직과 연계된 허브 및 에지 영역에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
+
+다른 API를 사용하면 빈도 제한 카운터가 다음과 같이 업데이트됩니다.
+
+* [Decisioning API](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning) 결정에서 빈도 제한 카운터는 트래픽에 따라 몇 분 정도 지연되어 업데이트될 수 있습니다.
+
+* [Batch Decisioning API](../api-reference/offer-delivery-api/batch-decisioning-api.md) 결정에서 빈도 제한 카운터가 고정된 위치에 스냅숏이 사용됩니다. 동일한 스냅샷을 사용하는 한 카운터는 변경되지 않습니다.
 
 +++
 
