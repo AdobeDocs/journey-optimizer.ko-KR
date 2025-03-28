@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b7e3edff9191d1dab15376c70839f6e2b5a318aa
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 83%
+source-wordcount: '947'
+ht-degree: 80%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 83%
 * Adobe Journey Optimizer의 개인화 기능에 대한 섹션을 재구성하고 개선했습니다. [자세히 보기](../personalization/personalize.md)
 * 개인화된 오퍼를 나열하는 의사 결정 관리 API가 응답에서 여러 개인화된 오퍼가 누락된 경우 페이지 매김을 수행하는 샘플로 업데이트되었습니다. [자세히 보기](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * 목록 구독 취소 기능에 대한 모든 정보를 수집하는 새 페이지가 작성되어 명확성이 향상되었습니다. [자세히 보기](../email/list-unsubscribe.md)
+* 빈도 설정 섹션은 Edge Decisioning API 외에도 Decisioning 및 Batch Decisioning API에 대한 빈도 설정 카운터가 어떻게 업데이트되는지에 대한 정보로 업데이트되었습니다.
 
 
 ## 2025년 2월 {#feb-2025}
