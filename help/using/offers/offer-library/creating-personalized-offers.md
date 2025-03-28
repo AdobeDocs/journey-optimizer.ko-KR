@@ -52,7 +52,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
 >title="대체 오퍼"
->abstract="대체 오퍼는 최종 사용자가 맞춤형 오퍼를 받을 자격이 없는 경우 표시되는 기본 오퍼입니다."
+>abstract="대체 제안은 최종 사용자가 맞춤형 오퍼를 받을 자격이 없는 경우 표시되는 기본 오퍼입니다."
 
 **오퍼**&#x200B;를 만들려면 다음 단계를 수행하십시오.
 
