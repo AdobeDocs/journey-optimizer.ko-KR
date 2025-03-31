@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 51%
+source-wordcount: '1371'
+ht-degree: 48%
 
 ---
 
@@ -43,11 +43,11 @@ ht-degree: 51%
 >
 >아래의 [이 섹션](#enable-list-unsubscribe)에서 구독 취소 설정을 관리하는 방법을 알아보세요.
 
-두 경우 모두 수신자에 대한 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}에서 업데이트됩니다.
+두 경우 모두 수신자가 옵트아웃 링크를 클릭하면 수신자의 구독 취소 요청이 그에 따라 처리됩니다. 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}에서 업데이트됩니다.
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}가 처리합니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"}에 나열된 가능한 값 중 하나로 온보딩하는 동안 이 기본값을 수정하거나 [동의 정책](../action/consent.md)을 사용하여 기본 논리를 재정의할 수 있습니다.
+>경우에 따라 다운스트림 데이터 처리로 인해 구독 취소 이벤트가 프로필 수준에 반영되는 데 시간이 더 오래 걸릴 수 있습니다. 시스템이 업데이트될 때까지 잠시 기다립니다.
 
 ## 목록 구독 취소 활성화 {#enable-list-unsubscribe}
 
@@ -89,7 +89,13 @@ ht-degree: 51%
 
    * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;의 선택을 해제한 경우 이메일 헤더에 목록 구독 취소 헤더의 일부로 URL이 전달되지 않습니다.
 
-[이 섹션](../email/email-opt-out.md#unsubscribe-header)에서는 메시지 내 구독 취소 기능을 관리하는 방법에 대해 자세히 알아봅니다.
+  >[!NOTE]
+  >
+  >[이 섹션](../email/email-opt-out.md#unsubscribe-header)에서는 메시지 내 구독 취소 기능을 관리하는 방법에 대해 자세히 알아봅니다.
+
+[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}가 처리합니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"}에 나열된 가능한 값 중 하나로 온보딩하는 동안 이 기본값을 수정하거나 [동의 정책](../action/consent.md)을 사용하여 기본 논리를 재정의할 수 있습니다.
+
+현재 [!DNL Journey Optimizer]은(는) 목록 구독 취소 기능에 의해 트리거된 구독 취소 이벤트에 특정 태그를 추가하지 않습니다. 목록 구독 취소 클릭을 다른 구독 취소 작업과 구별해야 하는 경우 외부에서 사용자 지정 태그 지정을 구현하거나 외부 랜딩 페이지를 활용하여 추적해야 합니다.
 
 ## 외부에서 구독 취소 데이터 관리 {#custom-managed}
 

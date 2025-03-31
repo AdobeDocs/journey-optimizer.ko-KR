@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 29%
+source-wordcount: '991'
+ht-degree: 24%
 
 ---
 
@@ -32,12 +32,19 @@ ht-degree: 29%
 
 * **랜딩 페이지 링크**&#x200B;를 삽입합니다. [옵트아웃 랜딩 페이지를 추가하는 방법 알아보기](#opt-out-external-lp)
 
+수신자가 옵트아웃 링크를 클릭하면 그에 따라 구독 취소 요청이 처리됩니다.
+
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). **[!UICONTROL 특성]** 탭에서 **[!UICONTROL 선택]**&#x200B;의 값이 **[!UICONTROL 아니요]**(으)로 변경되었음을 확인할 수 있습니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}를 참조하세요.
+
+![](assets/opt-out-profile-choice.png)
+
+>[!NOTE]
+>
+>경우에 따라 다운스트림 데이터 처리로 인해 구독 취소 이벤트가 프로필 수준에 반영되는 데 시간이 더 오래 걸릴 수 있습니다. 시스템이 업데이트될 때까지 잠시 기다립니다.
 
 ## 1단계 옵트아웃 {#opt-out-one-step}
 
 [!DNL Adobe Journey Optimizer]을(를) 사용하면 이메일 헤더에 자동 생성된 원클릭 구독 취소 URL 및 mailto 주소로 [이메일 구성 설정](email-settings.md#list-unsubscribe)을 구성하거나 이메일 본문에 원클릭 옵트아웃 URL을 포함할 수 있습니다.
-
-수신자가 원클릭 옵트아웃 링크를 클릭하면 수신자의 구독 취소 요청이 그에 따라 처리됩니다.
 
 ### 이메일 헤더의 원클릭 구독 취소 URL {#unsubscribe-header}
 
@@ -170,10 +177,4 @@ Adobe Journey Optimizer에서 랜딩 페이지를 만들어 [이 페이지](../l
    ![](assets/opt-out-confirmation-example.png)
 
    따라서 이 사용자는 다시 구독하지 않으면 브랜드에서 보내는 커뮤니케이션을 받지 않습니다.
-
-1. 해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
-
-   ![](assets/opt-out-profile-choice.png)
-
-   **[!UICONTROL 속성]** 탭에서 **[!UICONTROL 선택]** 값이 **[!UICONTROL 아니요]**&#x200B;로 변경되었음을 확인할 수 있습니다.
 
