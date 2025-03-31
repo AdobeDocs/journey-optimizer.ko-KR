@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 19%
@@ -81,6 +81,7 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 >[!IMPORTANT]
 >
 >2024년 11월 1일부터 스트리밍 세분화는 더 이상 Journey Optimizer 추적 및 피드백 데이터 세트에서 **send** 및 **open** 이벤트를 사용할 수 없습니다.
+>
 >* 이 변경 사항은 모든 고객 샌드박스 및 조직에 적용됩니다.
 >* 전송 및 열기 이벤트만 영향을 받습니다. 클릭 수 및 기타 추적 이벤트는 스트리밍 세분화에 계속 사용할 수 있습니다.
 >* 이 변경 사항은 스트리밍 세분화에만 적용됩니다. 보내기 및 열기 이벤트는 여전히 배치 세그먼트에서 사용할 수 있지만 스트리밍 세그먼트에 포함된 경우 배치 방식으로 평가됩니다. 또한 전송 이벤트로 인한 제외 이벤트 및 바운스/지연 이벤트도 이 변경의 영향을 받습니다.

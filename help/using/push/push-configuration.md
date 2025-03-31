@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 3%
+source-wordcount: '1839'
+ht-degree: 5%
 
 ---
 
@@ -20,22 +20,10 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->이제 새 **모바일 온보딩 빠른 시작 워크플로우**&#x200B;를 사용할 수 있습니다. 이 새로운 제품 기능을 사용하여 모바일 이벤트 데이터 수집 및 유효성 검사를 시작하고 모바일 푸시 알림을 전송할 Mobile SDK를 신속하게 구성할 수 있습니다. 이 기능은 데이터 수집 홈 페이지를 통해 공개 베타로 액세스할 수 있습니다. [자세히 알아보기](mobile-onboarding-wf.md)
+>이제 새 **모바일 온보딩 빠른 시작 워크플로우**&#x200B;를 사용할 수 있습니다. 이 새로운 제품 기능을 사용하여 모바일 이벤트 데이터 수집 및 유효성 검사를 시작하고 모바일 푸시 알림을 전송할 모바일 SDK을 신속하게 구성할 수 있습니다. 이 기능은 데이터 수집 홈 페이지를 통해 공개 베타로 액세스할 수 있습니다. [자세히 알아보기](mobile-onboarding-wf.md)
 >
 
-
-## 시작하기 전 {#before-starting}
-
-<!--
-### Check provisioning
-
-Your Adobe Experience Platform account must be provisioned to contain following schemas and datasets for push notification data flow to function correctly:
-
-| Schema <br>Dataset                                                                       | Group of fields                                                                                                                                                                         | Operation                                                |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| CJM Push Profile Schema <br>CJM Push Profile Dataset                                     | Push Notification Details<br>Adobe CJM ExperienceEvent - Message Profile Details<br>Adobe CJM ExperienceEvent - Message Execution Details<br>Application Details<br>Environment Details | Register Push Token                                      |
-| CJM Push Tracking Experience Event Schema<br>CJM Push Tracking Experience Event Dataset | Push Notification Tracking                                                                                                                                                              | Track interactions and provide data for the reporting UI |
--->
+## 시작하기 전 {#start-push}
 
 ### 권한 설정 {#setup-permissions}
 
@@ -71,9 +59,9 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    * **[!UICONTROL 개발]**
    * **[!UICONTROL 환경 관리]**
    * **[!UICONTROL 확장 관리]**
-   * **[!UICONTROL Publish]**
+   * **[!UICONTROL 게시]**
 
-   Adobe Journey Optimizer 확장을 설치 및 게시하고 Adobe Experience Platform Mobile SDK에 앱 속성을 게시하려면 이러한 권한이 필요합니다.
+   Adobe Experience Platform Mobile SDK에서 Adobe Journey Optimizer 확장을 설치 및 게시하고 앱 속성을 게시하려면 이러한 권한이 필요합니다.
 
 1. 그런 다음 왼쪽 메뉴에서 **[!UICONTROL 회사 권한]**&#x200B;을 선택합니다.
 
@@ -110,6 +98,25 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
    ![](assets/push_product_7.png)
 
+
+### 데이터 세트 확인 {#push-datasets}
+
+푸시 알림 채널에서는 다음 스키마 및 데이터 세트를 사용할 수 있습니다.
+
+| 스키마 <br>데이터 집합 | 필드 그룹 | 작업 |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| CJM 푸시 프로필 스키마 <br>CJM 푸시 프로필 데이터 세트 | 푸시 알림 세부 정보<br>Adobe CJM ExperienceEvent - 메시지 프로필 세부 정보<br>Adobe CJM ExperienceEvent - 메시지 실행 세부 정보<br>애플리케이션 세부 정보<br>환경 세부 정보 | 푸시 토큰 등록 |
+| CJM 푸시 추적 경험 이벤트 스키마<br>CJM 푸시 추적 경험 이벤트 데이터 세트 | 푸시 알림 추적 | 상호 작용 추적 및 보고 UI에 대한 데이터 제공 |
+
+
+>[!NOTE]
+>
+>푸시 추적 이벤트가 CJM 푸시 추적 경험 이벤트 데이터 세트에 수집되면 데이터가 부분적으로 성공적으로 수집되더라도 일부 오류가 발생할 수 있습니다. 이 문제는 매핑의 일부 필드가 수신 이벤트에 없는 경우 발생할 수 있습니다. 시스템에서 경고를 기록하지만 데이터의 유효한 부분에 대한 수집은 금지하지 않습니다. 이러한 경고는 일괄 처리 상태에서 &#39;실패&#39;로 표시되지만 부분 수집 성공을 반영합니다.
+>
+>각 스키마의 전체 필드와 속성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko){target="_blank"}을 찾아봅니다.
+
+
+
 ### 앱 구성 {#configure-app}
 
 기술 설정에는 앱 개발자와 비즈니스 관리자 간의 긴밀한 협업이 포함됩니다. [!DNL Journey Optimizer]을(를) 사용하여 푸시 알림 전송을 시작하기 전에 푸시 자격 증명, Adobe Journey Optimizer의 푸시 채널 구성을 만들고 모바일 앱을 Adobe Experience Platform Mobile SDK와 통합해야 합니다.
@@ -119,9 +126,9 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 * **Apple iOS**&#x200B;의 경우: [Apple 설명서](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}에서 APNs에 앱을 등록하는 방법에 대해 알아보세요.
 * **Google Android**&#x200B;의 경우: Android에서 Firebase Cloud Messaging 클라이언트 앱을 설정하는 방법은 [Google 설명서](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}를 참조하세요.
 
-### 모바일 앱을 Adobe Experience Platform SDK와 통합 {#integrate-mobile-app}
+### 모바일 앱을 Adobe Experience Platform SDK과 통합 {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다. 앱에서 Adobe Experience Platform Mobile SDK를 설정하려면 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}를 따르십시오.
+Adobe Experience Platform Mobile SDK은 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다. 앱에서 Adobe Experience Platform Mobile SDK를 설정하려면 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}를 따르십시오.
 
 이 작업이 끝날 때까지 [!DNL Adobe Experience Platform Data Collection]에서 모바일 속성도 만들고 구성해야 합니다. 일반적으로 관리하려는 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}에서 모바일 속성을 만들고 구성하는 방법에 대해 알아봅니다.
 
@@ -130,7 +137,7 @@ Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모
 
 올바른 사용자 권한을 부여한 후 이제 Journey Optimizer에서 모바일 애플리케이션 푸시 자격 증명을 추가해야 합니다.
 
-사용자를 대신하여 푸시 알림을 보낼 Adobe을 승인하려면 모바일 앱 푸시 자격 증명 등록이 필요합니다. 아래에 자세히 설명된 단계를 참조하십시오.
+Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려면 모바일 앱 푸시 자격 증명 등록이 필요합니다. 아래에 자세히 설명된 단계를 참조하십시오.
 
 1. **[!UICONTROL 채널]** > **[!UICONTROL 푸시 설정]** > **[!UICONTROL 푸시 자격 증명]** 메뉴에 액세스합니다.
 
@@ -199,7 +206,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
    >[!NOTE]
    >
-   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-`자를 사용할 수도 있습니다.
+   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점 `.`, 하이픈 `-`도 사용할 수 있습니다.
 
 
 1. 구성에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택할 수 있습니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요](../administration/object-based-access.md).
