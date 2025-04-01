@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '540'
 ht-degree: 2%
 
 ---
 
 # 인앱 캠페인 보고서 {#campaign-global-report-cja-inapp}
 
-## 노출 및 클릭 트렌드 {#impression-click-trend}
+## 표시 및 클릭 트렌드 {#impression-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
@@ -34,6 +34,8 @@ ht-degree: 2%
 
 ## 클릭수 {#clicks-inapp}
 
+![](assets/cja-campaign-inapp-clicks.png)
+
 **[!UICONTROL 클릭 수]** 그래프는 총 콘텐츠 클릭 수와 콘텐츠를 클릭한 고유 프로필 수를 모두 보여 주는 인앱 클릭 지표를 표시합니다.
 
 +++ 클릭 지표에 대해 자세히 알아보기
@@ -46,6 +48,8 @@ ht-degree: 2%
 
 ## 표시 {#display-inapp}
 
+![](assets/cja-campaign-inapp-displays.png)
+
 **[!UICONTROL 디스플레이]** 그래프를 사용하면 메시지의 전체 도달 범위와 메시지와 관련된 고유 프로필의 수를 모두 이해할 수 있습니다.
 
 +++ 디스플레이 지표에 대해 자세히 알아보기
@@ -57,6 +61,8 @@ ht-degree: 2%
 +++
 
 ## 추적 데이터 {#tracking-data-inapp}
+
+![](assets/cja-campaign-inapp-tracking-data.png)
 
 **[!UICONTROL 추적 데이터]** 테이블은 인앱 메시지에 연결된 프로필 활동에 대한 자세한 스냅숏을 제공하여 참여 및 인앱 메시지 효과에 대한 중요한 통찰력을 제공합니다.
 
@@ -78,11 +84,11 @@ ht-degree: 2%
 
 * **[!UICONTROL 전송]**: 인앱 메시지의 총 전송 수입니다.
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL 인바운드 트리거됨]**: 사용자 상호 작용 또는 사전 정의된 이벤트에 의해 인앱 메시지가 트리거된 횟수입니다.
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL 인바운드 해제]**: 사용자가 인앱 메시지와 상호 작용하지 않고 인앱 메시지를 해제한 횟수입니다.
+
+
 +++
 
 ## 추적된 링크 레이블 {#track-link-label-inapp}

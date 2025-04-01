@@ -7,9 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '495'
 ht-degree: 3%
 
 ---
@@ -24,15 +25,13 @@ ht-degree: 3%
 
 +++ 전송 통계 지표에 대해 자세히 알아보기
 
-* **[!UICONTROL 사람]**: 푸시 알림의 대상 프로필로 적합한 사용자 프로필 수입니다.
-
 * **[!UICONTROL 타깃팅]**: 분석 중에 처리된 총 푸시 알림 수입니다.
 
 * **[!UICONTROL 전송]**: 푸시 알림에 대한 총 전송 수입니다.
 
 * **[!UICONTROL 배달됨]**: 보낸 총 푸시 알림 수와 관련하여 푸시 알림 수를 보냈습니다.
 
-* **[!UICONTROL 아웃바운드 채널에 대한 바운스 수]**: 총 푸시 알림 수와 관련하여 전송 프로세스 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
+* **[!UICONTROL 고유 배달됨]**: 하나 이상의 푸시 알림을 성공적으로 받은 프로필 수입니다.
 
 * **[!UICONTROL 아웃바운드 오류]**: 프로필로 보낼 수 없는 발생한 총 오류 수입니다.
 
@@ -50,18 +49,15 @@ ht-degree: 3%
 
 * **[!UICONTROL 클릭스루 비율(CTR)]**: 푸시 알림과 상호 작용한 사용자의 비율입니다.
 
-* **[!UICONTROL CTOR(Click through open rate)]**: 푸시 알림을 연 횟수입니다.
-
 * **[!UICONTROL 클릭 수]**: 푸시 알림에서 콘텐츠를 클릭한 횟수입니다.
 
 * **[!UICONTROL 고유 클릭 수]**: 푸시 알림에서 콘텐츠를 클릭한 프로필 수입니다.
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL 푸시 사용자 지정 작업]**: 푸시 알림에 대한 응답으로 프로필에서 수행한 사용자 지정 작업 수입니다.
+
 +++
 
-## 추적된 링크 레이블 {#track-link-label-push}
+## 추적된 레이블 {#track-link-label-push}
 
 ![](assets/cja-campaign-push-link-labels.png)
 
@@ -97,7 +93,7 @@ ht-degree: 3%
 
 **[!UICONTROL 오류 원인]** 테이블을 사용하면 푸시 알림을 보내는 동안 발생한 특정 오류를 식별할 수 있으므로 발생한 문제를 철저히 분석할 수 있습니다.
 
-## 제외된 이유 {#exclude-reasons-push}
+## 제외 이유 {#exclude-reasons-push}
 
 ![](assets/cja-campaign-push-excluded.png)
 

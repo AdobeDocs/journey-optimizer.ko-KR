@@ -7,7 +7,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 3%
@@ -17,6 +18,8 @@ ht-degree: 3%
 # SMS 캠페인 보고서 {#campaign-global-report-cja-sms}
 
 ## 게재됨 및 클릭 트렌드 {#delivered-click-sms}
+
+![](assets/cja-campaign-sms-delivered.png)
 
 **[!UICONTROL 게재됨 및 클릭 트렌드]** 그래프는 프로필과 전자 메일의 참여를 자세히 분석하여 프로필이 콘텐츠와 상호 작용하는 방법에 대한 중요한 통찰력을 제공합니다.
 
@@ -29,6 +32,8 @@ ht-degree: 3%
 +++
 
 ## 게재 상태 {#delivery-status-sms}
+
+![](assets/cja-campaign-sms-status.png)
 
 **[!UICONTROL 게재 상태]** 표에는 SMS 캠페인과 관련된 프로필 활동에 대한 자세한 계정이 있습니다. 여기에는 게재된 지표, 클릭 수 및 기타 관련 참여 지표가 포함되며 프로필이 SMS 콘텐츠와 상호 작용하는 방식에 대한 포괄적인 보기를 제공합니다.
 

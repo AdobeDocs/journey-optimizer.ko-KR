@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -83,11 +83,10 @@ ht-degree: 2%
 
 * **[!UICONTROL 전송]**: 인앱 메시지의 총 전송 수입니다.
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL 인바운드 트리거됨]**: 사용자 상호 작용 또는 사전 정의된 이벤트에 의해 인앱 메시지가 트리거된 횟수입니다.
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL 인바운드 해제]**: 사용자가 인앱 메시지와 상호 작용하지 않고 인앱 메시지를 해제한 횟수입니다.
+
 +++
 
 ## 추적된 링크 레이블 {#track-link-label-inapp}
