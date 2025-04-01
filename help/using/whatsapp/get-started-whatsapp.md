@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
+source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 13%
@@ -70,7 +70,7 @@ WhatsApp을 Journey Optimizer과 통합하려면 다음 요구 사항이 있습�
 
 ## 사용 방법 비디오 {#video}
 
-아래 비디오에서는 Whatsapp 작업으로 여정을 만드는 방법을 보여 줍니다.
+아래 비디오에서는 WhatsApp 작업으로 여정을 만드는 방법을 보여 줍니다.
 
 +++ 비디오 보기
 

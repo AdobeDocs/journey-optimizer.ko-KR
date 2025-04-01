@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
+source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 3%
@@ -99,7 +99,7 @@ Journey Optimizer에서 WhatsApp 템플릿을 사용하기 전에 먼저 Meta에
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 WhatsApp 메시지 콘텐츠를 구성합니다.
 
 <!--
-1. Select **[!UICONTROL Template message]**.
+1. Select **[!UICONTROL Template message]**. 
 -->
 
 1. **템플릿 범주** 선택:
