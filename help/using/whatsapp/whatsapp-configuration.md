@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
+source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 4%
@@ -106,4 +106,3 @@ API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 
 1. 검사가 성공하면 채널 구성이 **[!UICONTROL 활성]** 상태가 됩니다. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
 이제 Journey Optimizer에서 WhatsApp 메시지를 보낼 준비가 되었습니다.
-
