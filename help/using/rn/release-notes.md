@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
+source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 41%
+source-wordcount: '564'
+ht-degree: 45%
 
 ---
 
@@ -30,24 +30,24 @@ ht-degree: 41%
 
 이번 릴리스의 새로운 기능을 아래에서 자세히 설명합니다.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Adobe Express과의 통합(제한된 가용성)</strong><br/></th>
+<th><strong>Integration with Adobe Express (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer의 Adobe Express 통합을 사용하면 컨텐츠를 만드는 동안 바로 Adobe Express의 편집 도구를 사용할 수 있으므로 에셋의 크기를 조정하고, 배경을 제거하고, 자르고, JPEG 또는 PNG로 변환할 수 있습니다.<p>
-<p>Adobe Journey Optimizer의 Adobe Express 통합은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. Healthcare Shield 또는 Privacy and Security Shield와 함께 사용하도록 배포할 수 없습니다.</p>
-<p>자세한 내용은 <a href="../integrations/express.md">세부 설명서</a>를 참조하십시오.</p>
+<p>The Adobe Express integration in Adobe Journey Optimizer lets you use Adobe Express's editing tools directly during content creation, enabling you to resize, remove backgrounds, crop, and convert assets to JPEG or PNG.<p>
+<p>Adobe Express integration in Adobe Journey Optimizer is currently only available for a set of organizations (Limited Availability). It cannot be deployed for use with Healthcare Shield or Privacy and Security Shield.</p>
+<p>For more information, refer to the <a href="../integrations/express.md">detailed documentation</a>.</p>
 </br>
 <img src="assets/do-not-localize/express_resize.gif"/>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <!--table>
