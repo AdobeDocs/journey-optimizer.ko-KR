@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 40%
+source-wordcount: '643'
+ht-degree: 41%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 40%
 >title="새로운 기능"
 >abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선, 버그 수정을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
 
-[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하십시오.
 
 
 ## 2025년 3월 릴리스 정보 {#25-3-rn}
@@ -50,22 +50,22 @@ ht-degree: 40%
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>여정 지표</strong><br/></th>
+<th><strong>Journey metrics</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 여정 지표를 사용할 수 있으므로 비즈니스의 주요 지표에서 활동이 미치는 영향을 측정하고 성능에 대한 보다 명확한 통찰력을 제공할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../building-journeys/success-metrics.md">세부 설명서</a>를 참조하십시오.</p>
+<p>Journey metrics are now available, allowing you to measure the impact of your activities across the key metrics of your business and to provide clearer insights into your performance.</p>
+<p>For more information, refer to the <a href="../building-journeys/success-metrics.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/success-metric.gif"/>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!-- table>
 <thead>
