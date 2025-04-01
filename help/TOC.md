@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2318'
 ht-degree: 97%
 
 ---
@@ -434,13 +434,14 @@ ht-degree: 97%
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)
-      + [구성 요소 목록](using/reports/live-report-components.md)
+      + [지표 목록](using/reports/live-report-components.md)
       + [여정 라이브 보고서](using/reports/journey-live-report.md)
       + [캠페인 실시간 보고서](using/reports/campaign-live-report.md)
       + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
       + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
    + 전체 기간 보고서{#channel-report}
       + [전체 기간 보고서 시작](using/reports/report-gs-cja.md)
+      + [지표 목록](using/reports/global-report-components-cja.md)
       + [Customer Journey Analytics 수동 구성](using/reports/cja-ajo.md)
       + [보고서 관리](using/reports/report-cja-manage.md)
       + [보고 및 실험 전제 조건](using/reports/reporting-configuration.md)

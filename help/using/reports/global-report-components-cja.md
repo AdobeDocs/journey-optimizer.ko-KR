@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 구성 요소 목록
-description: 글로벌 보고서의 데이터를 사용하는 방법을 알아봅니다
+description: 보고서에서 데이터를 사용하는 방법 알아보기
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
