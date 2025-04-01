@@ -9,9 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '461'
 ht-degree: 4%
 
 ---
@@ -42,7 +43,7 @@ WhatsApp 메시지를 보내기 전에 Adobe Journey Optimizer 환경을 구성�
 
 1. 아래에 자세히 설명된 대로 API 자격 증명을 구성합니다.
 
-   * **API 토큰**: https://developers.facebook.com/docs/facebook-login/guides/access-tokens/
+   * **API 토큰**: API 토큰을 입력하십시오. [메타 설명서](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)에서 자세히 알아보기
    * **비즈니스 계정 ID**: 비즈니스 포트폴리오와 관련된 고유 번호를 입력하십시오. 자세한 내용은 [메타 설명서](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)를 참조하세요.
 
    ![](assets/whatsapp-api.png)
@@ -88,7 +89,7 @@ API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 
 
 1. 이 구성을 사용하여 동의 정책을 메시지에 연결하려면 **[!UICONTROL 마케팅 액션]**&#x200B;을 선택하세요. 마케팅 액션과 관련된 모든 동의 정책은 고객의 선호도를 존중하기 위해 활용됩니다. 자세히 알아보기
 
-1. 이전에 만든 **[!UICONTROL WhatsApp 구성]**&#x200B;을(를) 선택하십시오.
+1. 이전에 만든 **[!UICONTROL WhatsApp API 구성]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/whatsapp-config-3.png)
 

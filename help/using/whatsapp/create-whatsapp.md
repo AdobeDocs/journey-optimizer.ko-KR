@@ -10,9 +10,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '613'
 ht-degree: 3%
 
 ---
@@ -31,8 +32,6 @@ ht-degree: 3%
 >[!ENDSHADEBOX]
 
 Adobe Journey Optimizer을 사용하면 WhatsApp에서 매력적인 메시지를 디자인하고 보낼 수 있습니다. 여정 또는 캠페인에 WhatsApp 작업을 추가하고 아래에 자세히 설명된 대로 메시지 콘텐츠를 만들면 됩니다. 또한 Adobe Journey Optimizer을 사용하면 WhatsApp 메시지를 보내기 전에 테스트하여 완벽한 렌더링, 정확한 개인화 및 모든 설정의 적절한 구성을 보장할 수 있습니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
 
 ## WhatsApp 메시지 추가 {#create-whatsapp-journey-campaign}
 
@@ -76,7 +75,7 @@ Adobe Journey Optimizer을 사용하면 WhatsApp에서 매력적인 메시지를
 
 1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. [이 섹션](../campaigns/create-campaign.md#schedule)에서 캠페인의 **[!UICONTROL 일정]**&#x200B;을 구성하는 방법을 알아보세요.
 
-1. **[!UICONTROL 작업 트리거]** 메뉴에서 SMS 메시지의 **[!UICONTROL 빈도]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 작업 트리거]** 메뉴에서 WhatsApp 메시지의 **[!UICONTROL 빈도]**&#x200B;를 선택합니다.
 
    * 한 번
    * 일별
@@ -89,9 +88,13 @@ Adobe Journey Optimizer을 사용하면 WhatsApp에서 매력적인 메시지를
 
 ## WhatsApp 콘텐츠 정의{#whatsapp-content}
 
->[!IMPORTANT]
->
->Journey Optimizer에서 WhatsApp 메시지를 디자인하기 전에 먼저 메타에서 템플릿을 만들어야 합니다. [자세히 알아보기](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+>[!BEGINSHADEBOX]
+
+Journey Optimizer에서 WhatsApp 메시지를 디자인하기 전에 먼저 메타에서 템플릿을 만들고 디자인해야 합니다. Journey Optimizer에서는 아웃바운드 메시지 요소만 지원됩니다. [자세히 알아보기](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+
+Journey Optimizer에서 WhatsApp 템플릿을 사용하기 전에 먼저 Meta에서 승인해야 합니다. 이 프로세스는 보통 몇 시간이 걸리지만 최대 24시간이 소요될 수 있습니다. [자세히 알아보기](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+
+>[!ENDSHADEBOX]
 
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 WhatsApp 메시지 콘텐츠를 구성합니다.
 

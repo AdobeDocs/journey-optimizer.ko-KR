@@ -10,10 +10,11 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 17%
+source-wordcount: '293'
+ht-degree: 13%
 
 ---
 
@@ -42,7 +43,22 @@ ht-degree: 17%
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
-## 제한 사항 {#limitations}
+## 전제 조건 {#prereq}
+
+WhatsApp을 Journey Optimizer과 통합하려면 다음 요구 사항이 있습니다.
+
+* 메타 비즈니스 관리자 계정
+* WhatsApp 비즈니스 계정
+* WhatsApp 전화 번호
+
+또한 통합을 진행하기 전에 다음 사항을 알고 있어야 합니다.
+
+* [WhatsApp 콘텐츠 규칙](https://www.whatsapp.com/legal/messaging-guidelines)
+* [메타 정책 준수](https://www.whatsapp.com/legal)
+* [24시간 대화 제한](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [승인된 메타 템플릿](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+
+## Beta 제한 사항 {#limitations}
 
 다음 기능은 이 베타 버전에 포함되지 않습니다.
 
@@ -51,3 +67,13 @@ ht-degree: 17%
 * **옵트인/옵트아웃 키워드**: 사용자는 이 단계에서 특정 키워드를 사용하여 구독하거나 구독을 취소할 수 없습니다.
 
 * **응답 메시지**: 자동 또는 사전 정의된 응답 메시지는 이 버전에서 지원되지 않습니다.
+
+## 사용 방법 비디오 {#video}
+
+아래 비디오에서는 Whatsapp 작업으로 여정을 만드는 방법을 보여 줍니다.
+
++++ 비디오 보기
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
+
++++
