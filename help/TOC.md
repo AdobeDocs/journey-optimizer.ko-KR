@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
 source-wordcount: '2318'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -322,7 +322,7 @@ ht-degree: 97%
       + 콘텐츠 카드 채널 구성 {#configure}
          + [콘텐츠 카드 사전 요구 사항](using/content-card/content-card-configuration-prereq.md)
          + [Journey Optimizer에서 콘텐츠 카드 채널 구성](using/content-card/content-card-configuration.md)
-         + [모바일 SDK에서 컨텐츠 카드 지원 구성](using/content-card/content-card-lp.md)
+         + [Mobile SDK에서 콘텐츠 카드 지원 구성](using/content-card/content-card-lp.md)
          + [Web SDK에서 콘텐츠 카드 지원 구성](using/content-card/content-card-configuration-sdk.md)
       + [콘텐츠 템플릿 만들기](using/content-card/create-content-card.md)
       + [콘텐츠 카드 디자인](using/content-card/design-content-card.md)
@@ -428,7 +428,7 @@ ht-degree: 97%
    + [Adobe Stock 작업](using/integrations/stock.md)
    + [Adobe Express 작업](using/integrations/express.md)
    + [Experience Manager 템플릿 작업](using/integrations/aem-templates.md)
-   + [Experience Manager 콘텐츠 조각을 사용하여 작업](using/integrations/aem-fragments.md)
+   + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
    + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
    + [GenStudio 작업](using/integrations/genstudio.md)
 + 추적 및 모니터링 {#reporting}
@@ -492,7 +492,7 @@ ht-degree: 97%
       + [결정 시작](using/experience-decisioning/gs-experience-decisioning.md)
       + [의사 결정 가드레일 및 제한 사항](using/experience-decisioning/decisioning-guardrails.md)
       + API 참조{#api-reference}
-         + 오퍼 항목 {#create-manage} 만들기 및 관리
+         + 오퍼 항목 만들기 및 관리 {#create-manage}
             + 결정 항목{#decision-items}
                + [결정 항목 만들기](using/experience-decisioning/api-reference/decisions-items/create.md)
                + [결정 항목 목록](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
