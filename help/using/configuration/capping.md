@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: fd89412703d015fa173f58fa117f65323b954fec
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 25%
+source-wordcount: '725'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 25%
 
 이 섹션에서는 API 작업 방법에 대한 전역 정보를 제공합니다. 자세한 API 설명은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/)에서 확인할 수 있습니다.
 
-## 최대 가용량 API 설명
+## 최대 가용량 API 설명 및 Postman 컬렉션 {#description}
+
+아래 표에는 최대 가용량 API에 사용할 수 있는 명령이 나열되어 있습니다. 요청 샘플, 매개 변수 및 응답 형식을 포함한 자세한 정보는 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)에서 확인할 수 있습니다.
 
 | 메서드 | 경로 | 설명 |
 |---|---|---|
@@ -36,6 +38,15 @@ ht-degree: 25%
 
 구성을 만들거나 업데이트할 때 페이로드의 구문 및 무결성을 보장하기 위해 자동으로 검사가 수행됩니다.
 일부 문제가 발생하면 작업을 수행할 때 경고 또는 오류가 반환되어 구성을 수정하는 데 도움이 됩니다.
+
+또한 테스트 구성에 도움이 되도록 [여기](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json)에서 Postman 컬렉션을 사용할 수 있습니다.
+
+이 컬렉션은 __[Postman 콘솔의 통합](https://console.adobe.io/integrations) > 사용해 보기 > Postman 다운로드__&#x200B;를 통해 생성된 Adobe I/O 변수 컬렉션을 공유하도록 설정되었습니다. 이 컬렉션은 선택한 통합 값으로 Postman 환경 파일을 생성합니다.
+
+다운로드하여 Postman에 업로드한 다음에는 `{JO_HOST}`, `{BASE_PATH}`, `{SANDBOX_NAME}` 세 가지 변수를 추가해야 합니다.
+* `{JO_HOST}` : [!DNL Journey Optimizer] 게이트웨이 URL.
+* `{BASE_PATH}` : API의 진입점입니다.
+* `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다.  자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)를 참조하십시오.
 
 ## 끝점 구성
 
@@ -66,7 +77,7 @@ ht-degree: 25%
 >
 >최대 가용량 구성이 배포될 때 &#39;maxHttpConnection&#39; 값이 제공되지 않으면 기본 &quot;maxHttpConnection = -1&quot;이 배포된 구성에 추가됩니다. 이는 Journey Optimizer이 기본 시스템 값을 사용함을 의미합니다.
 
-### 예:
+예:
 
 ```
 `{
@@ -112,55 +123,66 @@ ht-degree: 25%
 
 ## 사용 사례
 
-이 섹션에서는 [!DNL Journey Optimizer]에서 최대 가용량 구성을 관리하기 위해 수행할 수 있는 5가지 주요 사용 사례를 확인할 수 있습니다.
+이 섹션에는 [!DNL Journey Optimizer]에서 최대 가용량 구성을 관리하기 위한 주요 사용 사례와 사용 사례를 구현하는 데 필요한 관련 API 명령이 나열되어 있습니다.
 
-[여기](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json)에서 테스트 및 구성에 도움이 되는 Postman 컬렉션을 사용할 수 있습니다.
+각 API 명령에 대한 자세한 내용은 [API 설명 및 Postman 컬렉션](#description)에서 확인할 수 있습니다.
 
-이 Postman 컬렉션은 __[Adobe I/O Console의 통합](https://console.adobe.io/integrations) > 사용해 보기 > Postman용으로 다운로드__&#x200B;를 통해 생성된 Postman 변수 컬렉션을 공유하는 용도로 설정되었습니다. 이 옵션은 선택한 통합 값을 가진 Postman 환경 파일을 생성합니다.
++++새 최대 가용량 구성 만들기 및 배포
 
-다운로드하여 Postman에 업로드한 다음에는 `{JO_HOST}`, `{BASE_PATH}`, `{SANDBOX_NAME}` 세 가지 변수를 추가해야 합니다.
-* `{JO_HOST}`: [!DNL Journey Optimizer] 게이트웨이 URL입니다.
-* `{BASE_PATH}` : API의 진입점입니다.
-* `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다.  자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)를 참조하십시오.
+사용할 API 호출:
 
-다음 섹션에서는 사용 사례를 수행하기 위한 Rest API 호출 목록을 순서대로 확인할 수 있습니다.
+1. **`list`** - 기존 구성을 검색합니다.
+1. **`create`** - 새 구성을 만듭니다.
+1. **`candeploy`** - 구성을 배포할 수 있는지 확인합니다.
+1. **`deploy`** - 구성을 배포합니다.
 
-사용 사례 n°1: **새 최대 가용량 구성 만들기 및 배포**
++++
 
-1. list
-1. create
-1. candeploy
-1. deploy
++++최대 가용량 구성 업데이트 및 배포(아직 배포되지 않음)
 
-사용 사례 n°2: **아직 배포되지 않은 최대 가용량 구성 업데이트 및 배포**
+사용할 API 호출:
 
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
+1. **`list`** - 기존 구성을 검색합니다.
+1. **`get`** - 특정 구성의 세부 정보를 가져옵니다.
+1. **`update`** - 구성을 수정합니다.
+1. **`candeploy`** - 배포 적격성을 확인합니다.
+1. **`deploy`** - 구성을 배포합니다.
 
-사용 사례 n°3: **배포된 최대 가용량 구성 배포 취소 및 삭제**
++++
 
-1. list
-1. undeploy
-1. delete
++++배포된 최대 가용량 구성 배포 취소 및 삭제
 
-사용 사례 n°4: **배포된 최대 가용량 구성을 삭제합니다.**
+사용할 API 호출:
 
-forceDelete 매개 변수를 사용하면 API 호출 단 한 번에 구성의 배포를 취소하고 삭제할 수 있습니다.
-1. list
-1. delete, with forceDelete param
+1. **`list`** - 기존 구성을 검색합니다.
+1. **`undeploy`** - 구성을 배포 취소합니다.
+1. **`delete`** - 구성을 제거합니다.
 
-사용 사례 n°5: **이미 배포된 최대 가용량 구성 업데이트**
++++
+
++++한 단계에서 배포된 최대 가용량 구성 삭제
+
+하나의 API 호출에서만 `forceDelete` 매개 변수를 사용하여 구성을 배포 취소하고 삭제할 수 있습니다.
+
+사용할 API 호출:
+
+1. **`list`** - 기존 구성을 검색합니다.
+1. **`delete`(`forceDelete` 매개 변수 사용)** - 배포된 구성을 한 단계로 강제로 삭제합니다.
+
++++
+
++++이미 배포된 최대 가용량 구성 업데이트
 
 >[!NOTE]
 >
->이미 배포된 구성을 업데이트하는 경우 다시 배포해야 합니다.
+>이미 배포된 구성을 업데이트한 후 재배포가 필요합니다.
 
-1. list
-1. get
-1. update
-1. undeploy
-1. candeploy
-1. deploy
+사용할 API 호출:
+1. **`list`** - 기존 구성을 검색합니다.
+1. **`get`** - 특정 구성의 세부 정보를 가져옵니다.
+1. **`update`** - 구성을 수정합니다.
+1. **`undeploy`** - 변경 내용을 적용하기 전에 구성을 배포 취소합니다.
+1. **`candeploy`** - 배포 적격성을 확인합니다.
+1. **`deploy`** - 업데이트된 구성을 배포합니다.
+
++++

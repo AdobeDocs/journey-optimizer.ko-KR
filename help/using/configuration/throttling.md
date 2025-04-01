@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 91%
+source-wordcount: '880'
+ht-degree: 62%
 
 ---
 
@@ -29,7 +29,9 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 >
 >API에서 설정한 제한에 도달하면 이를 초과하는 이벤트는 최대 6시간 동안 큐에 보관됩니다. 이 값은 수정할 수 없습니다.
 
-## Throttling API 설명 {#description}
+## 제한 API 설명 및 Postman 컬렉션 {#description}
+
+아래 표에는 제한 API에 사용할 수 있는 명령이 나와 있습니다. 요청 샘플, 매개 변수 및 응답 형식을 포함한 자세한 정보는 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)에서 확인할 수 있습니다.
 
 | 메서드 | 경로 | 설명 |
 |---|---|---|
@@ -41,6 +43,15 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 | [!DNL PUT] | /throttlingConfigs/`{uid}` | 스로틀링 구성 업데이트 |
 | [!DNL GET] | /throttlingConfigs/`{uid}` | 스로틀링 구성 검색 |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | 스로틀링 구성 삭제 |
+
+또한 테스트 구성에 도움이 되도록 [여기](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json)에서 Postman 컬렉션을 사용할 수 있습니다.
+
+이 컬렉션은 __[Postman 콘솔의 통합](https://console.adobe.io/integrations) > 사용해 보기 > Postman 다운로드__&#x200B;를 통해 생성된 Adobe I/O 변수 컬렉션을 공유하도록 설정되었습니다. 이 컬렉션은 선택한 통합 값으로 Postman 환경 파일을 생성합니다.
+
+다운로드하여 Postman에 업로드한 다음에는 `{JO_HOST}`, `{BASE_PATH}`, `{SANDBOX_NAME}` 세 가지 변수를 추가해야 합니다.
+* `{JO_HOST}` : [!DNL Journey Optimizer] 게이트웨이 URL.
+* `{BASE_PATH}` : API의 진입점입니다.
+* `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다.  자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)를 참조하십시오.
 
 ## 스로틀링 구성 {#configuration}
 
@@ -134,57 +145,6 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
     "requestId": "A7ezT8JhOQT4WIAf1Fv7K2wCDA8281qM"
 }
 ```
-
-## 사용 사례 {#uc}
-
-[여기](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json)에서 테스트 및 구성에 도움이 되는 Postman 컬렉션을 사용할 수 있습니다.
-
-이 Postman 컬렉션은 __[Adobe I/O Console의 통합](https://console.adobe.io/integrations) > 사용해 보기 > Postman용으로 다운로드__&#x200B;를 통해 생성된 Postman 변수 컬렉션을 공유하는 용도로 설정되었습니다. 이 옵션은 선택한 통합 값을 가진 Postman 환경 파일을 생성합니다.
-
-다운로드하여 Postman에 업로드한 다음에는 `{JO_HOST}`, `{BASE_PATH}`, `{SANDBOX_NAME}` 세 가지 변수를 추가해야 합니다.
-* `{JO_HOST}`: [!DNL Journey Optimizer] 게이트웨이 URL입니다.
-* `{BASE_PATH}` : API의 진입점입니다.
-* `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다.  자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)를 참조하십시오.
-
-다음 섹션에서는 사용 사례를 수행하기 위한 Rest API 호출 목록을 순서대로 확인할 수 있습니다.
-
-사용 사례 1번: **새로운 스로틀링 구성을 만들고 배포하기**
-
-1. list
-1. create
-1. candeploy
-1. deploy
-
-사용 사례 2번: **아직 배포하지 않은 스로틀링 구성을 업데이트하여 배포하기**
-
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
-
-사용 사례 3번: **배포한 스로틀링 구성의 배포를 취소하고 삭제하기**
-
-1. list
-1. undeploy
-1. delete
-
-사용 사례 4번: **배포한 스로틀링 구성 삭제하기**
-
-forceDelete 매개 변수를 사용하면 API 호출 단 한 번에 구성의 배포를 취소하고 삭제할 수 있습니다.
-
-1. list
-1. delete, with forceDelete param
-
-사용 사례 5번: **이미 배포한 스로틀링 구성 업데이트하기**
-
->[!NOTE]
->
->업데이트하기 전에 구성의 배포를 취소할 필요는 없습니다.
-
-1. list
-1. get
-1. update
 
 ## 런타임 수준에서 본 구성의 수명 주기 {#config}
 
@@ -338,3 +298,67 @@ forceDelete 매개 변수를 사용하면 API 호출 단 한 번에 구성의 �
     }
 }
 ```
+
+## 사용 사례 {#uc}
+
+이 섹션에는 [!DNL Journey Optimizer]에서 제한 구성을 관리하기 위한 주요 사용 사례와 사용 사례를 구현하는 데 필요한 관련 API 명령이 나열되어 있습니다.
+
+각 API 명령에 대한 자세한 내용은 [API 설명 및 Postman 컬렉션](#description)에서 확인할 수 있습니다.
+
++++새 조절 구성 만들기 및 배포
+
+사용할 API 호출:
+
+1. **`list`** - 기존 구성을 검색합니다.
+1. **`create`** - 새 구성을 만듭니다.
+1. **`candeploy`** - 구성을 배포할 수 있는지 확인합니다.
+1. **`deploy`** - 구성을 배포합니다.
+
++++
+
++++조정 구성 업데이트 및 배포(아직 배포되지 않음)
+
+사용할 API 호출:
+
+1. **`list`** - 기존 구성을 검색합니다.
+1. **`get`** - 특정 구성의 세부 정보를 가져옵니다.
+1. **`update`** - 구성을 수정합니다.
+1. **`candeploy`** - 배포 적격성을 확인합니다.
+1. **`deploy`** - 구성을 배포합니다.
+
++++
+
++++배포된 제한 구성 배포 취소 및 삭제
+
+사용할 API 호출:
+
+1. **`list`** - 기존 구성을 검색합니다.
+1. **`undeploy`** - 구성을 배포 취소합니다.
+1. **`delete`** - 구성을 제거합니다.
+
++++
+
++++배포된 제한 구성 삭제
+
+하나의 API 호출에서만 `forceDelete` 매개 변수를 사용하여 구성을 배포 취소하고 삭제할 수 있습니다.
+
+사용할 API 호출:
+
+1. **`list`** - 기존 구성을 검색합니다.
+1. **`delete`(`forceDelete` 매개 변수 사용)** - 배포된 구성을 한 단계로 강제로 삭제합니다.
+
++++
+
++++이미 배포된 제한 구성 업데이트
+
+>[!NOTE]
+>
+>업데이트하기 전에 구성의 배포를 취소할 필요는 없습니다.
+
+사용할 API 호출:
+
+1. **`list`** - 기존 구성을 검색합니다.
+1. **`get`** - 특정 구성의 세부 정보를 가져옵니다.
+1. **`update`** - 구성을 수정합니다.
+
++++
