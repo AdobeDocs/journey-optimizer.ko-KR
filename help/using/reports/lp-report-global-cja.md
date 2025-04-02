@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '787'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![](assets/cja-lp.png)
 
-작업 영역 Customer Journey Analytics 및 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+Customer Journey Analytics 작업 영역에 대한 자세한 내용 및 데이터를 필터링하고 분석하는 방법은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
 
 ## 랜딩 페이지 전환율 {#lp-conversion}
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 랜딩 페이지 보기 수]**: 한 프로필의 여러 방문을 포함하여 여정 및 외부 소스에서 받은 랜딩 페이지에 대한 총 방문 수입니다.
 
-* **[!UICONTROL 랜딩 페이지 전환율]**: 총 방문 수와 관련하여 랜딩 페이지와 상호 작용한(예: 양식을 구독한) 사람의 수입니다.
+* **[!UICONTROL 랜딩 페이지 전환]**: 총 방문 수와 관련하여 랜딩 페이지와 상호 작용한(예: 양식을 구독한) 사람의 수입니다.
 
 ## 랜딩 페이지 성과 {#lp-performance}
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 고유한 랜딩 페이지 보기 수]**: 랜딩 페이지를 방문한 사람 수, 한 프로필에 대한 여러 방문 횟수는 고려되지 않습니다.
 
-* **[!UICONTROL 고유 랜딩 페이지 전환율]**: 랜딩 페이지와 상호 작용한 사람 수, 한 프로필의 여러 상호 작용을 고려하지 않습니다.
+* **[!UICONTROL 고유한 랜딩 페이지 전환]**: 랜딩 페이지와 상호 작용한 사람 수, 한 프로필의 여러 상호 작용을 고려하지 않습니다.
 
 * **[!UICONTROL 랜딩 페이지 보기 수]**: 한 프로필의 여러 방문을 포함하여 여정 및 외부 소스에서 받은 랜딩 페이지에 대한 총 방문 수입니다.
 
