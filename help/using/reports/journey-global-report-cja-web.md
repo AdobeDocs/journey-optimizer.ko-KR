@@ -8,18 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7591a07b-1680-4081-a745-192755d35371
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
 
 # 웹 여정 보고서 {#journey-global-report}
 
+>[!INFO]
+>
+>사용자가 한 번에 두 개 이상의 여정에 참여할 수 있으므로 여정 보고서에는 여러 여정의 정보가 동시에 표시될 수 있습니다. 따라서 동시 활성 여정에 참여하는 사용자에 대해 트리거된 경우, 인바운드 통신(인앱, 웹 및 코드 기반)이 여러 여정에 표시될 수 있으며, 이로 인해 데이터가 겹칠 수 있습니다.
+
 >[!BEGINSHADEBOX]
 
-사용자가 한 번에 두 개 이상의 여정에 참여할 수 있으므로 여정 보고서에는 여러 여정의 정보가 동시에 표시될 수 있습니다. 따라서 동시 활성 여정에 참여하는 사용자에 대해 트리거된 경우, 인바운드 통신(인앱, 웹 및 코드 기반)이 여러 여정에 표시될 수 있으며, 이로 인해 데이터가 겹칠 수 있습니다.
+여정 내의 **[!UICONTROL 보고서 보기]** 단추를 클릭하여 웹 여정 보고서에 액세스할 수 있습니다. [자세히 알아보기](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
 

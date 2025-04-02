@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3492'
 ht-degree: 27%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 27%
 
 [최근 24시간] 탭에서 액세스할 수 있는 라이브 보고서에는 지난 24시간 내에 발생한 이벤트를 표시하며 이벤트 발생에서 최소 2분 간격이 있습니다. 반면 Customer Journey Analytics 보고서는 최소 2시간 전에 발생한 이벤트에 중점을 두고 선택한 기간 동안의 이벤트를 다룹니다.
 
-**[!UICONTROL 실시간 보기]** 단추를 사용하면 캠페인에서 캠페인 실시간 보고서에 직접 액세스할 수 있습니다.
+**[!UICONTROL 보고서]** 버튼을 클릭한 다음 **[!UICONTROL 최근 24시간 보고서 보기]**&#x200B;를 선택하여 캠페인에서 직접 라이브 캠페인 보고서에 액세스할 수 있습니다.
 
 Campaign **[!UICONTROL 라이브 보고서]** 페이지가 다음 탭과 함께 표시됩니다.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '3705'
+source-wordcount: '3712'
 ht-degree: 30%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 30%
 
 [최근 24시간] 탭에서 액세스할 수 있는 라이브 보고서에는 지난 24시간 내에 발생한 이벤트를 표시하며 이벤트 발생에서 최소 2분 간격이 있습니다. 반면 Customer Journey Analytics 보고서는 최소 2시간 전에 발생한 이벤트에 중점을 두고 선택한 기간 동안의 이벤트를 다룹니다.
 
-여정 라이브 보고서는 **[!UICONTROL 보고서 보기]** 단추를 사용하여 여정에서 직접 액세스할 수 있습니다.
+여정의 [!UICONTROL 추가 작업] 메뉴를 열고 [!UICONTROL 최근 24시간 보고서 보기]를 선택하여 [!UICONTROL 여정] 메뉴에서 실시간 여정 보고서에 액세스합니다.
 
 ![](assets/report_journey.png)
 

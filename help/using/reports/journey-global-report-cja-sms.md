@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: cf50ce33-7934-4e37-a757-08cda14e97ac
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '660'
 ht-degree: 3%
 
 ---
 
 # SMS 여정 보고서{#sms}
+
+>[!BEGINSHADEBOX]
+
+여정 내의 **[!UICONTROL 보고서 보기]** 단추를 클릭하여 SMS 여정 보고서에 액세스할 수 있습니다. [자세히 알아보기](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## 게재됨 및 클릭 트렌드 {#delivered-click-sms}
 

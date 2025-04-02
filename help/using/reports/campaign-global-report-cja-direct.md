@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
 
 # 다이렉트 메일 캠페인 보고서 {#campaign-global-report-cja-direct}
+
+>[!BEGINSHADEBOX]
+
+캠페인에서 **[!UICONTROL 보고서]** 버튼을 클릭한 다음 **[!UICONTROL 항상 보고서 보기]**&#x200B;를 선택하여 DM 캠페인 보고서에 액세스할 수 있습니다. [자세히 알아보기](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 전송 통계 {#sending-statistics-directmail}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 * [캠페인](#campaign)
 * [채널](#channel)
 
-Workspace Customer Journey Analytics 및 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+Customer Journey Analytics Workspace에 대한 자세한 내용 및 데이터를 필터링하고 분석하는 방법은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
 
 ## 강조 표시 {#highlights}
 
@@ -87,7 +87,11 @@ Workspace Customer Journey Analytics 및 데이터를 필터링하고 분석하�
 
 * **[!UICONTROL 사람]**: 메시지 대상 프로필로 적합한 사용자 프로필 수입니다.
 
+* **[!UICONTROL 클릭스루 비율(CTR)]**: 메시지 클릭의 비율입니다.
+
 * **[!UICONTROL 전송]**: 각 캠페인에 대한 총 전송 수입니다.
+
+* **[!UICONTROL 배달됨]**: 성공적으로 보낸 메시지 수
 
 * **[!UICONTROL 표시]**: 메시지를 연 횟수입니다.
 
@@ -107,9 +111,9 @@ Workspace Customer Journey Analytics 및 데이터를 필터링하고 분석하�
 
 * **[!UICONTROL 사람]**: 메시지 대상 프로필로 적합한 사용자 프로필 수입니다.
 
-* **[!UICONTROL 클릭스루 비율]**: 메시지 클릭수의 비율입니다.
+* **[!UICONTROL 클릭스루 비율(CTR)]**: 메시지 클릭의 비율입니다.
 
-* **[!UICONTROL 전송]**: 각 캠페인에 대한 총 전송 수입니다.
+* **[!UICONTROL 배달됨]**: 성공적으로 보낸 메시지 수
 
 * **[!UICONTROL 표시]**: 메시지를 연 횟수입니다.
 

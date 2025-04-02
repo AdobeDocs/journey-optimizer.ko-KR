@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '542'
 ht-degree: 3%
 
 ---
 
 # 푸시 알림 여정 보고서 {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+여정 내의 **[!UICONTROL 보고서 보기]** 단추를 클릭하여 푸시 알림 여정 보고서에 액세스할 수 있습니다. [자세히 알아보기](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## 전송 통계 {#sending-statistics-push}
 
@@ -56,9 +65,7 @@ ht-degree: 3%
 
 * **[!UICONTROL 고유 클릭 수]**: 푸시 알림에서 콘텐츠를 클릭한 프로필 수입니다.
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL 푸시 사용자 지정 작업]**: 푸시 알림에 대한 응답으로 프로필에서 수행한 사용자 지정 작업 수입니다.
 +++
 
 ## 추적된 링크 레이블 {#track-link-label-push}

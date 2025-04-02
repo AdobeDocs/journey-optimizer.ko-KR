@@ -8,28 +8,34 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
 
 # 인앱 여정 보고서 {#journey-global-report}
 
+>[!INFO]
+>
+>사용자가 한 번에 두 개 이상의 여정에 참여할 수 있으므로 여정 보고서에는 여러 여정의 정보가 동시에 표시될 수 있습니다. 따라서 동시 활성 여정에 참여하는 사용자에 대해 트리거된 경우, 인바운드 통신(인앱, 웹 및 코드 기반)이 여러 여정에 표시될 수 있으며, 이로 인해 데이터가 겹칠 수 있습니다.
+
 >[!BEGINSHADEBOX]
 
-사용자가 한 번에 두 개 이상의 여정에 참여할 수 있으므로 여정 보고서에는 여러 여정의 정보가 동시에 표시될 수 있습니다. 따라서 동시 활성 여정에 참여하는 사용자에 대해 트리거된 경우, 인바운드 통신(인앱, 웹 및 코드 기반)이 여러 여정에 표시될 수 있으며, 이로 인해 데이터가 겹칠 수 있습니다.
+여정 내의 **[!UICONTROL 보고서]** 단추를 클릭하여 인앱 여정 보고서에 액세스할 수 있습니다. [자세히 알아보기](report-gs-cja.md)
+
+![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
 
-## 노출 및 클릭 트렌드 {#impression-click-trend}
+## 표시 및 클릭 트렌드 {#display-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
-**[!UICONTROL 노출 및 클릭 트렌드]** 그래프는 인앱 메시지에 대한 프로필의 참여를 자세히 분석하여 프로필이 콘텐츠와 상호 작용하는 방법에 대한 중요한 통찰력을 제공합니다.
+**[!UICONTROL 표시 및 클릭 트렌드]** 그래프는 프로필과 인앱 메시지의 참여를 자세히 분석하여 프로필이 콘텐츠와 상호 작용하는 방법에 대한 중요한 통찰력을 제공합니다.
 
-+++ 노출 및 클릭 트렌드 지표에 대해 자세히 알아보기
++++ 디스플레이 및 클릭 트렌드 지표에 대해 자세히 알아보기
 
 * **[!UICONTROL 클릭 수]**: 인앱 메시지에서 콘텐츠를 클릭한 횟수입니다.
 

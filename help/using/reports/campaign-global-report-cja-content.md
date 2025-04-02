@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 1603a696-33cc-42d8-a52a-623d85f61584
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 1%
+source-wordcount: '325'
+ht-degree: 3%
 
 ---
 
 # 콘텐츠 카드 캠페인 보고서 {#campaign-global-report-cja-content}
+
+>[!BEGINSHADEBOX]
+
+캠페인에서 **[!UICONTROL 보고서]** 버튼을 클릭한 다음 **[!UICONTROL 항상 보고서 보기]**&#x200B;를 선택하여 콘텐츠 카드 캠페인 보고서에 액세스할 수 있습니다. [자세히 알아보기](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 표시 및 클릭 트렌드 {#display-click}
 

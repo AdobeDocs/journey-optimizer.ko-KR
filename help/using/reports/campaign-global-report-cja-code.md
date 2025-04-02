@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 2fe9fb915e4aaf13458e46d5eeb177862416907d
+exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 1%
+source-wordcount: '870'
+ht-degree: 2%
 
 ---
 
 # 코드 기반 캠페인 보고서 {#campaign-global-report-cja-code}
+
+>[!BEGINSHADEBOX]
+
+캠페인에서 **[!UICONTROL 보고서]** 버튼을 클릭한 다음 **[!UICONTROL 항상 보고서 보기]**&#x200B;를 선택하여 코드 기반 캠페인 보고서에 액세스할 수 있습니다. [자세히 알아보기](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 표시 및 클릭 {#impressions-code}
 

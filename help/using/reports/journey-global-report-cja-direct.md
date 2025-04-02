@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 2%
+source-wordcount: '353'
+ht-degree: 4%
 
 ---
 
 # 다이렉트 메일 여정 보고서 {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+여정 내의 **[!UICONTROL 보고서 보기]** 단추를 클릭하여 DM 여정 보고서에 액세스할 수 있습니다. [자세히 알아보기](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## 전송 통계 {#sending-statistics-directmail}
 
