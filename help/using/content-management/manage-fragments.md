@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 22%
+source-wordcount: '1469'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 22%
 조각을 관리하려면 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴에서 조각 목록에 액세스하십시오.
 
 [조각으로 저장](#save-as-fragment) 옵션을 사용하여 **[!UICONTROL 조각]** 메뉴](#create-fragments)의 [현재 샌드박스에서 만든 모든 조각이 표시됩니다.
+
+왼쪽 창에서 조각을 폴더로 구성할 수 있습니다. 기본적으로 모든 조각이 표시됩니다. 폴더를 선택할 때는 선택한 폴더에 포함된 조각과 폴더만 표시됩니다. [자세히 알아보기](#folders)
+
+>[!NOTE]
+>
+>조각 폴더는 조직 집합(제한된 가용성)에만 사용할 수 있으며 더 많은 사용자에게 점진적으로 롤아웃됩니다.
+
+![](assets/fragment-list-folders.png)
+
+특정 항목을 찾으려면 검색 필드에 이름을 입력하십시오. [폴더](#folders)을(를) 선택하면 해당 폴더의 첫 번째 계층 구조 <!--(not nested items)-->에 있는 모든 조각이나 폴더에 검색이 적용됩니다.
 
 조각에서 조각을 필터링할 수 있습니다.
 
@@ -43,10 +53,54 @@ ht-degree: 22%
 * **[!UICONTROL 참조 탐색]** 옵션을 사용하여 여정, 캠페인 또는 템플릿이 사용되는 위치를 확인하십시오. [자세히 알아보기](#explore-references)
 * 조각을 보관합니다. [자세히 알아보기](#archive-fragments)
 * 조각의 태그를 편집합니다. [통합 태그를 사용하여 작업하는 방법을 알아봅니다](../start/search-filter-categorize.md#tags)
+* 조각을 폴더로 이동합니다. [자세히 알아보기](#folders)
 
-![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+![](assets/fragment-list-more-actions.png)
 
-## 조각 상태
+## 폴더를 사용하여 조각 관리 {#folders}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_folders"
+>title="조각을 폴더로 구성"
+>abstract="폴더를 사용하여 조직의 필요에 따라 조각을 분류하고 관리합니다."
+
+>[!AVAILABILITY]
+>
+>조각 폴더는 조직 집합(제한된 가용성)에만 사용할 수 있으며 더 많은 사용자에게 점진적으로 롤아웃됩니다.
+
+조각을 쉽게 탐색하기 위해 폴더를 사용하여 조각을 구조화된 계층으로 보다 효과적으로 구성할 수 있습니다. 이를 통해 조직의 요구 사항에 따라 항목을 분류하고 관리할 수 있습니다.
+
+![](assets/fragment-folders.png)
+
+1. **[!UICONTROL 모든 조각]** 단추를 클릭하여 폴더 그룹화 없이 이전에 만든 모든 항목을 표시합니다.
+
+1. 만든 모든 폴더를 표시하려면 **[!UICONTROL 루트]** 폴더를 클릭하십시오.
+
+   >[!NOTE]
+   >
+   >아직 폴더를 만들지 않은 경우 모든 조각이 표시됩니다.
+
+1. 콘텐츠를 표시하려면 **[!UICONTROL Root]** 폴더 내의 아무 폴더나 클릭합니다.
+
+1. **[!UICONTROL 루트]** 폴더 또는 다른 폴더를 클릭하면 **[!DNL Create folder]** 단추가 표시됩니다. 선택합니다.
+
+   ![](assets/fragment-create-folder.png)
+
+1. 새 폴더의 이름을 입력하고 **[!UICONTROL 저장]**&#x200B;을 클릭하세요. 새 폴더는 **[!UICONTROL Root]** 폴더 내의 조각 목록 맨 위나 현재 선택한 폴더 내에 표시됩니다.
+
+1. **[!UICONTROL 추가 작업]** 단추를 클릭하여 폴더 이름을 바꾸거나 삭제할 수 있습니다.
+
+   ![](assets/fragment-folder-more-actions.png)
+
+1. **[!UICONTROL 추가 작업]** 단추를 사용하여 다른 기존 폴더로 조각을 이동할 수도 있습니다.
+
+   ![](assets/fragment-folder-moved.png)
+
+1. 이제 방금 만든 폴더로 이동할 수 있습니다. 여기에서 [만들기](create-fragments.md)하는 각 새 조각은 현재 폴더에 저장됩니다.
+
+   ![](assets/fragment-folder-create.png)
+
+## 조각 상태 {#fragments-statuses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
@@ -67,7 +121,7 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 **초안** 상태입니다. 이 조각을 변경할 경우 해당 조각을 게시하여 **라이브**&#x200B;로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 [Publish 조각](../administration/ootb-product-profiles.md#content-library-manager) 사용자 권한이 필요합니다.
+>**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 **초안** 상태입니다. 이 조각을 변경할 경우 해당 조각을 게시하여 **라이브**&#x200B;로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 [조각 게시](../administration/ootb-product-profiles.md#content-library-manager) 사용자 권한이 필요합니다.
 
 ## 조각 편집 {#edit-fragments}
 
@@ -105,7 +159,7 @@ ht-degree: 22%
    >
    >게시된 조각을 편집할 때 개인화 필드를 제거할 수 있지만 조각 콘텐츠에 새 개인화 필드를 추가할 수는 없습니다. 개인화된 속성을 추가하려면 조각을 복제해야 합니다. [자세히 알아보기](#adding-new-attributes)
 
-1. 변경 사항이 준비되면 변경 사항을 저장하고 **[!UICONTROL Publish]** 단추를 클릭하여 수정 사항을 실시간으로 적용합니다. [자세히 알아보기](create-fragments.md#publish)
+1. 변경 사항이 준비되면 변경 사항을 저장하고 **[!UICONTROL 게시]** 단추를 클릭하여 수정 사항을 실시간으로 적용합니다. [자세히 알아보기](create-fragments.md#publish)
 
 조각을 편집하면 원래 조각의 상속을 중단한 콘텐츠를 제외하고, 라이브 여정 및 캠페인을 포함하여 해당 조각을 사용하는 모든 콘텐츠에 변경 사항이 자동으로 전파됩니다.
 

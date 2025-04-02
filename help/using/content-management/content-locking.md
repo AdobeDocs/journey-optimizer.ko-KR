@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1285'
 ht-degree: 32%
 
 ---
@@ -64,6 +64,8 @@ Journey Optimizer을 사용하면 전체 템플릿 또는 특정 구조 및 구�
 >[!AVAILABILITY]
 >
 >콘텐츠 템플릿을 만들 수 있는 권한이 있는 사용자가 콘텐츠 잠금을 활성화할 수 있습니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 이메일 템플릿 잠금 {#define}
 
@@ -190,3 +192,9 @@ Journey Optimizer을 사용하면 전체 템플릿 또는 특정 구조 및 구�
 | 삭제할 수 없는 잠긴 구조 | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
 | 스타일이 잠겨 있으며 삭제할 수 없는 구성 요소입니다. 사용자는 콘텐츠만 수정할 수 있습니다. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | 잠긴 구조 내에서 구성 요소를 편집할 수 있습니다. | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
+
+## 사용 방법 비디오 {#video}
+
+이메일 템플릿에서 콘텐츠를 잠그는 방법에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
