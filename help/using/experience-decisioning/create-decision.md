@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 3abaa58fa4fa3baae5c7072bdc112de4a5e9119a
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 15%
+source-wordcount: '1761'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 15%
 
 의사 결정 정책은 대상자에 따라 제공할 최상의 콘텐츠를 선택하기 위해 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
 
-결정 정책에는 결정 엔진이 최상의 콘텐츠를 선택하기 위한 모든 선택 논리가 포함되어 있습니다. 결정 정책은 캠페인별로 다릅니다. 목표는 각 프로필에 가장 적합한 제안을 선택하는 것이며, 캠페인 작성을 통해서는 메시지에 포함될 항목 속성을 포함하여 선택한 결정 항목이 표시될 방법을 지정할 수 있습니다.
+<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->이 프로필의 목표는 각 프로필에 가장 적합한 오퍼를 선택하는 것이며, 캠페인/여정 작성에서는 메시지에 포함할 항목 속성을 포함하여 선택한 결정 항목을 표시하는 방법을 나타낼 수 있습니다.
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ ht-degree: 15%
 
 의사 결정 정책을 코드 기반 캠페인에 활용하는 주요 단계는 다음과 같습니다.
 
-1. [코드 기반 캠페인에 의사 결정 정책 만들기](#add-decision)
-1. [코드 기반 캠페인에 의사 결정 정책 사용](#use-decision-policy)
-1. [사용자 지정 Customer Journey Analytics 보고 대시보드 만들기](#cja)
+1. [코드 기반 환경에 의사 결정 정책 추가](#add-decision)
+1. [의사 결정 정책 사용](#use-decision-policy)
+1. [사용자 지정 Customer Journey Analytics 보고 대시보드 만들기](cja-reporting.md)
 
-## 코드 기반 캠페인에 결정 정책 추가 {#add-decision}
+## 코드 기반 환경에 의사 결정 정책 추가 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -54,7 +54,7 @@ ht-degree: 15%
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="전략 만들기"
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="평가 순서"
 
-웹 사이트 또는 모바일 앱에서 방문자에게 최고의 동적 오퍼 및 경험을 제공하려면 코드 기반 캠페인에 의사 결정 정책을 추가하십시오. 그 방법은 다음과 같습니다.
+웹 사이트 또는 모바일 앱에서 방문자에게 최고의 동적 오퍼 및 경험을 제공하려면 코드 기반 캠페인 또는 여정에 의사 결정 정책을 추가하십시오. 그 방법은 다음과 같습니다.
 
 ### 의사 결정 정책 만들기 {#add}
 
@@ -221,3 +221,33 @@ ht-degree: 15%
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
+1. 변경 내용을 확인하려면 **[!UICONTROL 저장 후 닫기]**&#x200B;를 클릭하십시오.
+
+## 코드 기반 경험 테스트 및 게시 {#test-and-publish}
+
+아래 단계에 따라 코드 기반 경험을 완료하고 변경 사항을 라이브로 적용하십시오.
+
+1. 게시하기 전에 코드 기반 경험 미리보기를 표시하여 테스트하십시오.
+
+   >[!CAUTION]
+   >
+   >현재 [코드 기반 경험](../code-based/create-code-based.md) 캠페인이나 여정에서 의사 결정을 사용하여 사용자 인터페이스의 콘텐츠를 시뮬레이션할 수 없습니다.
+
+   의사 결정을 테스트하기 위해 클라이언트 구현의 XDM 이벤트 `data` 블록에 `dryRun` 플래그를 추가할 수 있습니다.
+
+   ```
+   {
+   "data": {
+       "__adobe": {
+       "ajo":
+   {         "dryRun": true       }
+       }
+   }
+   }
+   ```
+
+1. 코드 기반 경험 캠페인이나 여정을 검토하고 게시합니다. [방법 알아보기](../code-based/publish-code-based.md)
+
+   이제 개발자가 채널 구성에 정의된 표면에 대한 콘텐츠를 가져오기 위해 API 또는 SDK을 호출하면 변경 사항이 웹 페이지 또는 앱에 적용됩니다.
+
+1. 이제 사용자 지정 [Customer Journey Analytics 보고 대시보드](cja-reporting.md)를 만들어 의사 결정의 성과를 확인할 수 있습니다.
