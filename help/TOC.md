@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
+source-git-commit: 8675df765f2b45ac101d814777a5013e996db4c6
 workflow-type: tm+mt
 source-wordcount: '2318'
 ht-degree: 98%
@@ -422,7 +422,7 @@ ht-degree: 98%
       + [계산된 속성 관련 작업](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [라이선스 사용](using/audience/license-usage.md)
-+ 통합{#assets-images}
++ 통합{#integrations}
    + [다른 솔루션과 통합](using/integrations/ajo-integrations.md)
    + [Experience Manager Assets 작업](using/integrations/assets.md)
    + [Adobe Stock 작업](using/integrations/stock.md)
