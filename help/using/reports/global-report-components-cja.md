@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
+source-git-commit: ff722dd9f727a70fa3788f5e47a49e7a2fa7e952
 workflow-type: tm+mt
 source-wordcount: '1829'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# 구성 요소 목록 {#list-of-components-global}
+# 지표 목록 {#list-of-components-global}
 
 아래 표는 보고서에 사용된 지표 목록과 게재 유형에 따라 해당 정의를 제공합니다.
 
