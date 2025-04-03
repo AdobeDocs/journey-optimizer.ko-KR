@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 10%
@@ -107,7 +107,7 @@ Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인
 
 >[!NOTE]
 >
->기본적으로 속성 창에는 채워진 속성만 표시됩니다. 모든 특성을 표시하려면 검색 필드 위에 있는 ![](assets/do-not-localize/settings-icon.svg) 단추를 선택하고 **[!UICONTROL 채워진 특성만 표시]** 옵션을 전환합니다.
+>기본적으로 속성 창에는 채워진 속성만 표시됩니다. 모든 특성을 표시하려면 검색 필드 위에 있는 ![](assets/do-not-localize/settings-icon.svg) 단추를 선택하고 **[!UICONTROL 채워진 특성만 표시]** 옵션을 끄십시오.
 
 또한 문자열 유형 프로필 속성이 비어 있는 경우 표시될 기본 대체 텍스트를 정의할 수 있습니다. 이렇게 하려면 특성 옆에 있는 줄임표 버튼을 클릭하고 **[!UICONTROL 대체 텍스트로 삽입]**&#x200B;을 선택합니다. 프로필에 대한 특성 값이 비어 있는 경우 기본적으로 표시되는 텍스트를 작성한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 

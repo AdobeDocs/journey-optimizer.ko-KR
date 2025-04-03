@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 75%
+source-wordcount: '699'
+ht-degree: 70%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 75%
 ## 2025년 4월 업데이트
 
 ### 개선 사항 {#25-04-improv}
+
+**샌드박스 도구**
+
+이제 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스 간에 캠페인을 복사할 수 있습니다. 캠페인은 프로필, 대상자, 스키마, 인라인 메시지 및 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다. 의사 결정 항목, 데이터 사용 레이블 및 언어 설정과 같은 일부 항목은 복사되지 않습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
 
 **개인화**
 

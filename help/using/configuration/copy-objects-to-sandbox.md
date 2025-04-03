@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1101'
 ht-degree: 4%
 
 ---
@@ -50,6 +50,21 @@ Journey Optimizer을 사용하면 여정, 콘텐츠 템플릿 및 조각을 다�
 * Target 샌드박스에서 복사되는 객체는 고유하며, 기존 요소를 덮어쓸 위험이 없습니다. 여정과 여정 내의 모든 메시지는 초안 모드에서 가져옵니다. 이렇게 하면 Target 샌드박스에서 게시하기 전에 전체 유효성 검사를 수행할 수 있습니다.
 
 * 복사 프로세스는 여정 및 해당 여정의 객체에 대한 메타데이터에만 복사합니다. 이 프로세스의 일부로 프로필 또는 데이터 세트 데이터가 복사되지 않습니다.
+
+### 캠페인(#campaigns)
+
+캠페인은 프로필, 대상자, 스키마, 인라인 메시지 및 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다.
+
+그러나 다음 항목은 **복사되지 않습니다**.
+
+* 다국어 변형 및 언어 설정
+* 실험 변형
+* 의사 결정 정책 및 의사 결정 항목
+* 비즈니스 규칙
+* 태그
+* 데이터 사용 레이블 및 적용(DULE) 레이블
+
+캠페인이 복사되면 채널 구성을 수동으로 선택해야 합니다.
 
 ### 콘텐츠 템플릿 {#content-templates}
 
