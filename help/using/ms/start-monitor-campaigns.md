@@ -5,16 +5,25 @@ title: Adobe Journey Optimizer을 사용하여 여러 단계 캠페인 시작 �
 description: Adobe Journey Optimizer을 사용하여 여러 단계 캠페인을 시작 및 모니터링하는 방법 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
+source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 0%
+source-wordcount: '579'
+ht-degree: 1%
 
 ---
 
-# 여러 단계 캠페인 시작 및 모니터링 {#start-monitor}
+# 오케스트레이션된 캠페인 시작 및 모니터링 {#start-monitor}
 
-워크플로우를 만들고 캔버스에서 수행할 작업을 설계하면 워크플로우를 시작하고 실행 방법을 모니터링할 수 있습니다.
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">브라우저가 오디오 요소를 지원하지 않습니다.</audio>
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_publication"
+>title="오케스트레이션된 캠페인 게시"
+>abstract="캠페인을 시작하려면 게시해야 합니다. 게시하기 전에 모든 경고가 지워졌는지 확인하십시오."
+
+
+오케스트레이션된 작업을 만들고 캔버스에서 수행할 작업을 디자인했으면 이를 게시하고 실행 방법을 모니터링할 수 있습니다.
 
 ## 여러 단계 캠페인 시작 {#start}
 
