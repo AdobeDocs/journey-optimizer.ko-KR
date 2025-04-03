@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 24%
@@ -40,7 +40,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->현재 [Decisioning](../experience-decisioning/gs-experience-decisioning.md)을(를) 사용하여 코드 기반 경험 캠페인이나 여정에서 사용자 인터페이스의 콘텐츠를 시뮬레이션할 수 없습니다. [이 섹션](../experience-decisioning/create-decision.md)에서 해결 방법을 사용할 수 있습니다.
+>현재 [Decisioning](../experience-decisioning/gs-experience-decisioning.md)을(를) 사용하여 코드 기반 경험 캠페인이나 여정에서 사용자 인터페이스의 콘텐츠를 시뮬레이션할 수 없습니다. [이 섹션](../experience-decisioning/create-decision.md#test-and-publish)에서 해결 방법을 사용할 수 있습니다.
 
 
 ## 디바이스에서 미리보기 {#preview-on-device}
