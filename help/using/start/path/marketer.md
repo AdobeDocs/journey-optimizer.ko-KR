@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: ht
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 첫 번째 여정을 설정하고 오퍼 및 자산을 추가하고 메시지를 보내려면 다음 섹션을 참조하십시오:
 
-1. **대상자 만들기**. Journey Optimizer의 **대상자** 메뉴에서 직접 대상자 정의를 통해 대상자를 만들어 여정에 활용할 수 있습니다.  [이 페이지에서](../../audience/about-audiences.md) 대상자에 대해 자세히 알아보세요. [이 샘플에서](../../audience/creating-a-segment-definition.md) 세그먼트 정의를 만드는 방법을 살펴보세요.
+1. **대상자 만들기**. Journey Optimizer의 **대상자** 메뉴에서 직접 대상자 정의를 통해 대상자를 만들어 여정에 활용할 수 있습니다.  이 페이지의 [대상](../../audience/about-audiences.md)에 대해 자세히 알아보세요. [이 샘플에서](../../audience/creating-a-segment-definition.md) 세그먼트 정의를 만드는 방법을 살펴보세요.
 
 1. **개인화 및 다이내믹 콘텐츠 추가**. Journey Optimizer 개인화 및 다이내믹 콘텐츠 기능을 활용하여 메시지를 대상자에 맞게 조정하십시오. [개인화](../../personalization/personalize.md) 및 [다이내믹 콘텐츠](../../personalization/get-started-dynamic-content.md)에 대해 자세히 알아보십시오.
 

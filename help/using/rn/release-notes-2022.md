@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: ht
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+workflow-type: tm+mt
 source-wordcount: '3598'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -223,7 +223,7 @@ ht-degree: 100%
 
 **감사 제어**
 
-* Journey Optimizer를 사용하면 캠페인, 여정, 메시지, 랜딩 페이지 등과 같은 다양한 서비스 및 기능에 대해 시스템에서 사용자가 수행한 작업을 식별할 수 있습니다. 감사 로그 리소스에는 이제 다양한 다른 작업에 대한 변경 사항이 포함되어 있으며, 활동이 발생하면 자동으로 기록됩니다. [이 페이지](../privacy/audit-logs.md)에서 자세히 알아보십시오.
+* Journey Optimizer를 사용하면 캠페인, 여정, 메시지, 랜딩 페이지 등과 같은 다양한 서비스 및 기능에 대해 시스템에서 사용자가 수행한 작업을 식별할 수 있습니다. 감사 로그 리소스에는 이제 다양한 다른 작업에 대한 변경 사항이 포함되어 있으며, 활동이 발생하면 자동으로 기록됩니다. 자세한 내용은 [이 페이지에서](../privacy/audit-logs.md)을 참조하세요.
 
 **아카이브 지원**
 

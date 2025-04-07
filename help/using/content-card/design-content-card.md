@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 카드용 작성 구문은 마케터에게 개발자가 렌더링하는 데 사용할 수 있는 기본 입력을 제공하는 양식 기반 작성 경험을 제공합니다.
 
-콘텐츠를 정의하고 개인화하면 검토하고 활성화할 수 있습니다. 캠페인은 정해진 일정에 따라 전송됩니다. [이 페이지에서 자세히 알아보십시오](../campaigns/review-activate-campaign.md).
+콘텐츠를 정의하고 개인화하면 검토하고 활성화할 수 있습니다. 캠페인은 정해진 일정에 따라 전송됩니다. [이 페이지에서 자세히 알아보기](../campaigns/review-activate-campaign.md).
 
 ## 컨텐츠 탭 {#content-tab}
 
