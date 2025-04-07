@@ -11,10 +11,10 @@ keywords: 에셋, 통합
 hide: true
 hidefromtoc: true
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 10%
 
 Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는 동안 Adobe Express의 강력한 편집 도구에 쉽게 액세스할 수 있습니다. 이 통합을 통해 솔루션 간에 전환할 필요 없이 이미지 크기를 조정하고, 배경을 제거하고, 시각적 개체를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다.
 
-Adobe Express에 대한 자세한 내용은 [이 설명서](https://helpx.adobe.com/kr/express/user-guide.html)를 참조하십시오.
+Adobe Express에 대한 자세한 내용은 [이 설명서](https://helpx.adobe.com/kr/express/user-guide.html)를 참조하세요.
 
 **[!DNL Adobe Express]** 메뉴에 액세스하려면 전자 메일 디자이너에서 **이미지 설정**&#x200B;에 액세스한 다음 **[!UICONTROL Adobe Express에서 편집]**&#x200B;을 클릭하세요.
 

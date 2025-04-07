@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 * [캠페인](#campaign)
 * [채널](#channel)
 
-Customer Journey Analytics Workspace에 대한 자세한 내용 및 데이터를 필터링하고 분석하는 방법은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
 
 ## 강조 표시 {#highlights}
 

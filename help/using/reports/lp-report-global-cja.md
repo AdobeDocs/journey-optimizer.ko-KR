@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![](assets/cja-lp.png)
 
-Customer Journey Analytics 작업 영역에 대한 자세한 내용 및 데이터를 필터링하고 분석하는 방법은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+Customer Journey Analytics 작업 영역 및 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
 
 ## 랜딩 페이지 전환율 {#lp-conversion}
 

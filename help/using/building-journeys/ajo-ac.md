@@ -9,7 +9,7 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: 여정, 메시지, 캠페인, 통합
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 2%
@@ -51,7 +51,7 @@ Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십�
 
    ![](assets/accintegration-uc-3.png)
 
-1. 트랜잭션 템플릿을 Publish 합니다.
+1. 트랜잭션 템플릿을 게시합니다.
 
    ![](assets/accintegration-uc-4.png)
 
