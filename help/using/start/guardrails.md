@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2471'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 프로필 스토어의 데이터에 대해 90일
 * 데이터 레이크의 데이터에 대해 13개월
 
-이 변경 사항은 차후 **기존 고객 샌드박스**&#x200B;에 대해서도 롤아웃됩니다. [데이터 세트 TTL(Time-To-Leave) 가드레일에 대해 자세히 알아보기](../data/datasets-ttl.md)
+이 변경 사항은 차후 **기존 고객 샌드박스**&#x200B;에 대해서도 롤아웃됩니다. [TTL(Time-To-Live) 보호 기능에 대해 자세히 알아보세요](../data/datasets-ttl.md)
 
 ## 채널 가드레일 {#channel-guardrails}
 
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 코드 기반 채널 가드레일 {#code-based-guardrails}
 
-[!DNL Journey Optimizer]에서 코드 기반 경험 작업을 사용하고 응용 프로그램에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에 설명된 필수 구성 요소를 따르세요.
+[!DNL Journey Optimizer]에서 코드 기반 경험 작업을 사용하고 응용 프로그램에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에 설명된 필수 구성 요소를 따르십시오.
 
 ## 랜딩 페이지 보호 {#lp-guardrails}
 
@@ -122,7 +122,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 여정의 [작업](../building-journeys/about-journey-activities.md)에 다음과 같은 보호 기능이 적용됩니다.
 
 * 오류가 발생하면 시스템에서 세 번 다시 시도합니다. 수신된 오류 메시지에 따라 재시도 횟수를 조정할 수 없습니다. HTTP 401, 403, 404를 제외한 모든 HTTP 오류에 대해 다시 시도됩니다.
-* 기본으로 제공되는 **반응** 이벤트를 사용하면 즉시 사용 가능한 작업에 반응할 수 있습니다. [이 페이지](../building-journeys/reaction-events.md)에서 자세히 알아보십시오. 사용자 정의 액션을 통해 보낸 메시지에 반응하려면 전용 이벤트를 구성해야 합니다.
+* 기본으로 제공되는 **반응** 이벤트를 사용하면 즉시 사용 가능한 작업에 반응할 수 있습니다. [이 페이지](../building-journeys/reaction-events.md)에서 자세히 알아보세요. 사용자 정의 액션을 통해 보낸 메시지에 반응하려면 전용 이벤트를 구성해야 합니다.
 * 두 가지 작업을 병렬로 배치할 수 없으며 하나씩 추가해야 합니다.
 * 프로필은 동일한 여정에서 동시에 여러 번 나타날 수 없습니다. 재진입이 활성화된 경우 프로필은 여정에 다시 입장할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 다시 입장할 수 없습니다. [자세히 보기](../building-journeys/end-journey.md)
 
@@ -190,7 +190,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 ### 프로필 업데이트 {#update-profile-g}
 
-**[!UICONTROL 프로필 업데이트]** 활동에 특정 가드레일이 적용됩니다. [이 페이지](../building-journeys/update-profiles.md)에 나열되어 있습니다.
+**[!UICONTROL 프로필 업데이트]** 활동에 특정 가드레일이 적용됩니다. [이 페이지](../building-journeys/update-profiles.md)에 나열됩니다.
 
 ### 대상자 읽기 {#read-segment-g}
 
@@ -201,7 +201,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 * **대상자 읽기** 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
 * **대상자 읽기** 활동은 비즈니스 이벤트 활동 이후의 여정의 첫 번째 활동으로만 사용할 수 있습니다.
 * 여정은 하나의 **대상자 읽기** 활동만 가질 수 있습니다.
-* [이 페이지](../building-journeys/read-audience.md)에서 **대상자 읽기** 활동을 사용하는 방법에 대한 권장 사항도 참조하십시오.
+* [이 페이지](../building-journeys/read-audience.md)에서 **대상자 읽기** 활동을 사용하는 방법에 대한 권장 사항도 참조하세요.
 * 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에서 기본적으로 다시 시도가 적용됩니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다.
 
 ### 대상 자격 조건 {#audience-qualif-g}
@@ -238,7 +238,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 ### 이동 활동 {#jump-g}
 
-**[!UICONTROL 이동]** 활동에는 특정 가드레일이 적용됩니다. [이 페이지](../building-journeys/jump.md#jump-limitations)에서 목록을 확인할 수 있습니다.
+**[!UICONTROL 이동]** 활동에는 특정 가드레일이 적용됩니다. [이 페이지](../building-journeys/jump.md#jump-limitations)에 나열됩니다.
 
 ### Campaign 활동 {#ac-g}
 

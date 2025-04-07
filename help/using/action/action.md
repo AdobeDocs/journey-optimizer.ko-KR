@@ -9,14 +9,14 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 여정, 메시지, 보내기, 연결
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 51%
+ht-degree: 49%
 
 ---
 
-# 사용자 정의 액션 시작하기 {#about_actions}
+# 사용자 정의 작업 시작 {#about_actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
@@ -38,7 +38,7 @@ ht-degree: 51%
 >
 >사용자 지정 작업은 **기술 사용자**&#x200B;가 구성해야 합니다.
 
-사용자 지정 작업은 기술 사용자가 정의하고 마케터가 사용할 수 있는 추가 작업입니다. 구성되면 여정의 왼쪽 팔레트의 **[!UICONTROL 작업]** 카테고리에 표시됩니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)에서 자세히 알아보십시오.
+사용자 지정 작업은 기술 사용자가 정의하고 마케터가 사용할 수 있는 추가 작업입니다. 구성되면 여정의 왼쪽 팔레트의 **[!UICONTROL 작업]** 카테고리에 표시됩니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)에서 자세히 알아보세요.
 
 작업 목록을 보거나 새 작업을 구성하려면 관리 메뉴 섹션에서 **[!UICONTROL 구성]**&#x200B;을 선택합니다. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 관리]**&#x200B;를 클릭합니다. 그러면 작업 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../start/user-interface.md)를 참조하십시오.
 

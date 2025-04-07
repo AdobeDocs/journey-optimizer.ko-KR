@@ -1,5 +1,5 @@
 ---
-title: '인앱 콘텐츠 디자인 '
+title: 인앱 콘텐츠 디자인
 description: Journey Optimizer에서 인앱 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: In App
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
-# 인앱 콘텐츠 디자인  {#design-content}
+# 인앱 콘텐츠 디자인 {#design-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
@@ -33,7 +33,7 @@ ht-degree: 28%
 
 **[!UICONTROL 고급 서식 설정]** 전환은 환경을 사용자 지정하는 추가 옵션을 활성화합니다.
 
-인앱 메시지가 만들어지고 콘텐츠가 정의되고 개인화되면 이를 검토하고 활성화할 수 있습니다. 그러면 캠페인 일정에 따라 알림이 전송됩니다. [이 페이지](send-in-app.md)에서 자세히 알아보십시오.
+인앱 메시지가 만들어지고 콘텐츠가 정의되고 개인화되면 이를 검토하고 활성화할 수 있습니다. 그러면 캠페인 일정에 따라 알림이 전송됩니다. [이 페이지](send-in-app.md)에서 자세히 알아보세요.
 
 ## 메시지 레이아웃 {#message-layout}
 

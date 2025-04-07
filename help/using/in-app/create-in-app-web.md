@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 7%
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 웹 인앱 채널을 설정하려면 아래 단계를 따르십시오.
 
-* 웹 인앱 메시지를 지원하도록 웹 SDK 태그 확장을 설치합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
+* 웹 인앱 메시지를 지원하려면 웹 SDK 태그 확장 프로그램을 설치합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
 * 트리거를 사용자 지정합니다. 웹 인앱 메시지는 플랫폼으로 데이터를 전송하는 트리거와 수동 트리거의 두 가지 유형을 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 
       | 패키지 | 트리거 | 정의 |
       |---|---|---|
-      | 플랫폼 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 API는 AEP Edge 확장에서 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)를 호출합니다. |
+      | 플랫폼 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 AEP Edge 확장에서 API 호출 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)을(를) 사용합니다. |
       | 수동 | 수동 트리거 | 데이터 세트를 정의하는 상수인 키(예: 성별, 색상, 가격)와 세트에 속하는 변수인 값(예: 남성/여성, 녹색, 100)의 두 가지 연결된 데이터 요소입니다. |
 
 +++
@@ -92,7 +92,7 @@ ht-degree: 7%
 
    * **[!UICONTROL 항상]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 발생하면 항상 메시지를 표시합니다.
    * **[!UICONTROL 한 번]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 처음 발생할 때만 이 메시지를 표시합니다.
-   * **[!UICONTROL 클릭할 때까지]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 SDK에서 &quot;클릭함&quot; 동작을 사용하여 상호 작용 이벤트를 보낼 때까지 발생할 때 이 메시지를 표시합니다.
+   * **[!UICONTROL 클릭할 때까지]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 &quot;클릭함&quot; 동작을 사용하여 SDK에서 상호 작용 이벤트를 보낼 때까지 발생할 때 이 메시지를 표시합니다.
    * **[!UICONTROL X회]**: 이 메시지를 X회 표시합니다.
 
 1. 필요한 경우 인앱 메시지를 표시할 **[!UICONTROL 요일]** 또는 **[!UICONTROL 시간]**&#x200B;을(를) 선택하십시오.

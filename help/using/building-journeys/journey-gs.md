@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 >[!NOTE]
 >
->[이 페이지](../start/guardrails.md)에서 여정 가드레일 및 제한 사항을 자세히 확인할 수 있습니다.
+>여정 보호 기능 및 제한 사항에 대해서는 [이 페이지](../start/guardrails.md)에 자세히 설명되어 있습니다.
 
 ## 여정 만들기 {#jo-build}
 

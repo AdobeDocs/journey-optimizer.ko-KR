@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 37%
+ht-degree: 36%
 
 ---
 
@@ -57,6 +57,6 @@ SMS 채널을 구성하기 전에 이러한 공급자 중 하나로 계정을 �
 
 >[!CAUTION]
 >
->SMS 하위 도메인에 액세스하고 편집하려면 프로덕션 샌드박스에 대해 **[!UICONTROL SMS 하위 도메인 관리]** 권한이 있어야 합니다. 권한에 대한 자세한 내용은 [이 페이지](../administration/high-low-permissions.md#administration-permissions)를 참조하십시오.
+>SMS 하위 도메인에 액세스하고 편집하려면 프로덕션 샌드박스에 대해 **[!UICONTROL SMS 하위 도메인 관리]** 권한이 있어야 합니다. [이 페이지](../administration/high-low-permissions.md#administration-permissions)의 사용 권한에 대해 자세히 알아보세요.
 >
 

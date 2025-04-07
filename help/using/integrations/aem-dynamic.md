@@ -8,10 +8,10 @@ role: User
 level: Beginner
 badge: label="제한된 가용성" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->이 통합은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+>이 통합은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 이제 에셋 선택기가 Dynamic Media를 지원하므로 Journey Optimizer 내에서 승인된 Dynamic Media 렌디션을 원활하게 선택하고 사용할 수 있습니다. Adobe Experience Manager의 자산에 대한 변경 사항은 즉시 Journey Optimizer 콘텐츠에 반영되므로 수동으로 업데이트하지 않아도 최신 버전을 항상 사용할 수 있습니다.
 
@@ -126,7 +126,7 @@ Journey Optimizer에서 Dynamic Media 템플릿을 쉽게 추가하고 필요할
 
 1. 다른 필드를 채우고 개인화 편집기를 사용하여 개인화된 콘텐츠를 추가합니다. 프로필 이름, 도시 또는 기타 관련 세부 정보와 같은 모든 속성을 사용하여 보다 사용자 정의된 경험을 만들 수 있습니다.
 
-   [이 페이지](../personalization/personalize.md)에서 개인화에 대해 자세히 알아보세요.
+   [이 페이지](../personalization/personalize.md)의 개인화에 대해 자세히 알아보세요.
 
    ![](assets/do-not-localize/dynamic_media_template.gif)
 
@@ -209,7 +209,7 @@ Enable conditional content in your dynamic media to better target your audience 
 
 1. Choose your condition or create a new one if needed and click **[!UICONTROL Select]**.
 
-    [Learn more on conditions](../personalization/create-conditions.md)
+    [Learn more about conditions](../personalization/create-conditions.md)
 
 1. Select your **[!UICONTROL Component]** and access the **[!UICONTROL Settings]** menu.
 

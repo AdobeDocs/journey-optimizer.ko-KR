@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 >
 >* 메시지를 미리 보거나 증명을 보낼 때에는 프로필 개인화 데이터만 표시됩니다. 이벤트 정보와 같이 컨텍스트 데이터를 기반으로 하는 개인화는 여정 컨텍스트에서만 테스트할 수 있습니다. [이 사용 사례](../personalization/personalization-use-case.md)에서 개인화를 테스트하는 방법을 알아보십시오.
 >
->* 여러 조건부 변형이 포함된 이메일에 대한 증명을 시뮬레이션 또는 렌더링할 때는 Journey Optimizer에 처리 시간이 더 필요할 수 있습니다. 시간이 초과되거나 오류 메시지가 표시되는 경우 총 변형 수를 줄이거나 조건부 규칙을 단순화하는 것이 좋습니다. [이 페이지](../personalization/dynamic-content.md)에서는 조건부 콘텐츠에 대해 자세히 알아봅니다.
+>* 여러 조건부 변형이 포함된 이메일에 대한 증명을 시뮬레이션 또는 렌더링할 때는 Journey Optimizer에 처리 시간이 더 필요할 수 있습니다. 시간이 초과되거나 오류 메시지가 표시되는 경우 총 변형 수를 줄이거나 조건부 규칙을 단순화하는 것이 좋습니다. [이 페이지](../personalization/dynamic-content.md)에서 조건부 콘텐츠에 대해 자세히 알아보세요.
 
 
 ## 테스트 프로필 또는 샘플 입력 데이터를 사용한 테스트 {#methods}

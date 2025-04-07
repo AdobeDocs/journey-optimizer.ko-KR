@@ -8,7 +8,7 @@ level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 hide: true
 hidefromtoc: true
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 7%
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 **[!UICONTROL 고급 서식 설정]** 전환은 환경을 사용자 지정하는 추가 옵션을 활성화합니다.
 
-인앱 메시지가 만들어지고 콘텐츠가 정의되고 개인화되면 이를 검토하고 활성화할 수 있습니다. 그러면 캠페인 일정에 따라 알림이 전송됩니다. [이 페이지](send-in-app.md)에서 자세히 알아보십시오.
+인앱 메시지가 만들어지고 콘텐츠가 정의되고 개인화되면 이를 검토하고 활성화할 수 있습니다. 그러면 캠페인 일정에 따라 알림이 전송됩니다. [이 페이지](send-in-app.md)에서 자세히 알아보세요.
 
 ## 메시지 레이아웃 {#message-layout}
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 
      왼쪽 창을 사용하여 Journey Optimizer 개인화 기능을 활용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../personalization/personalize.md)을 참조하십시오.
 
-   * HTML 내용이 포함된 HTML 또는 .zip 파일을 가져오려면 **[!UICONTROL 가져오기]**&#x200B;를 선택하십시오.
+   * HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 가져오려면 **[!UICONTROL 가져오기]**&#x200B;를 선택하십시오.
 
 ## 컨텐츠 탭 {#content-tab}
 

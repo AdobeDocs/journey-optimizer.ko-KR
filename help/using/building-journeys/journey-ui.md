@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 27%
@@ -128,7 +128,7 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->특정 보호 기능 및 제한 사항은 여정 버전 관리에 적용됩니다. [이 페이지](../start/guardrails.md#journey-versions-journey-versions-g)에서 자세히 알아보십시오.
+>특정 보호 기능 및 제한 사항은 여정 버전 관리에 적용됩니다. [이 페이지](../start/guardrails.md#journey-versions-journey-versions-g)에서 자세히 알아보세요.
 
 ## 여정 복제 {#duplicate-a-journey}
 

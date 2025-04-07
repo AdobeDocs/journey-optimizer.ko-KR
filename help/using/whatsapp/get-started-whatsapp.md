@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 13%
+ht-degree: 7%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 13%
 
 이제 Journey Optimizer을 통해 WhatsApp 메시지를 직접 보낼 수 있습니다. 이 기능을 사용하면 WhatsApp을 여정 및 캠페인에 매끄럽게 통합하여 수신자와의 의사 소통 및 참여를 향상시킬 수 있습니다.
 
-* **여정**&#x200B;에서 만들기. 여정을 만들고 **WhatsApp** 활동을 추가하고 기본 설정을 정의한 다음 **[!UICONTROL 작업: WhatsApp]** 오른쪽 창으로 이동하여 WhatsApp 메시지의 콘텐츠를 만듭니다. [이 페이지](../building-journeys/journey-gs.md)에서 여정을 만드는 방법을 알아봅니다.
+* **여정**&#x200B;에서 만들기. 여정을 만들고 **WhatsApp** 활동을 추가하고 기본 설정을 정의한 다음 **[!UICONTROL 작업: WhatsApp]** 오른쪽 창으로 이동하여 WhatsApp 메시지의 콘텐츠를 만듭니다. [이 여정](../building-journeys/journey-gs.md)에서 페이지를 만드는 방법을 알아보세요.
 
-* **캠페인**&#x200B;에서 만들기. 캠페인을 만들고 **WhatsApp**&#x200B;을(를) 작업으로 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 보낼 WhatsApp 메시지를 정의합니다. [이 페이지](../campaigns/create-campaign.md#configure)에서 캠페인을 만드는 방법을 알아봅니다.
+* **캠페인**&#x200B;에서 만들기. 캠페인을 만들고 **WhatsApp**&#x200B;을(를) 작업으로 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 보낼 WhatsApp 메시지를 정의합니다. [이 페이지](../campaigns/create-campaign.md#configure)에서 캠페인을 만드는 방법을 알아보세요.
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 

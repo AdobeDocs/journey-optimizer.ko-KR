@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 여정 및 캠페인을 작성할 때 실행 또는 게시하기 전에 **경고** 단추를 사용하여 오류를 확인하고 해결하십시오. [이 페이지](../building-journeys/troubleshooting.md)에서 여정 문제를 해결하는 방법을 알아보세요. [이 페이지](../campaigns/review-activate-campaign.md)에서 캠페인을 검토하는 방법을 알아보세요.
 
-이 페이지에 설명된 대로 Adobe Journey Optimizer 시스템 경고를 구독할 수도 있습니다.
+이 페이지에 자세히 설명된 대로 Adobe Journey Optimizer 시스템 경고에 가입할 수도 있습니다.
 
 ## 경고 액세스 및 구독 {#alerting-capabilities}
 

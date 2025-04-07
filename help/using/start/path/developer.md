@@ -7,10 +7,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer]에서는 여정을 만들고 타겟팅한 대상자에게 메시지를 보낼 수 있습니다. [!DNL Journey Optimizer]로 푸시 알림을 보내기 시작하기 전에, 모바일 앱과 [!DNL Adobe Experience Platform] 및 [!DNL Adobe Experience Platform Launch]에서 구성과 통합을 제대로 준비했는지 확인해야 합니다. [!DNL Adobe Journey Optimizer]의 푸시 알림 데이터 흐름을 파악하려면 [이 페이지](../../push/push-gs.md)를 참조하십시오.
 
-푸시 알림 채널을 구성하고 모바일 앱 통합을 테스트하는 단계는 [이 페이지](../../push/push-configuration.md)에서 자세히 설명합니다.
+푸시 알림 채널을 구성하고 모바일 앱 통합을 테스트하는 단계는 [이 페이지](../../push/push-configuration.md)에 자세히 설명되어 있습니다.
 
 ## API 작업 {#work-apis}
 

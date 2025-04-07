@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 13cbb0877326b772c3750bd3339e21eee5c3f323
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 1. **샌드박스를 생성**&#x200B;하여 인스턴스를 별도의 격리된 가상 환경으로 분할합니다. **샌드박스**&#x200B;는 [!DNL Journey Optimizer]에서 생성됩니다. [샌드박스](../../administration/sandboxes.md) 섹션에서 자세히 알아보십시오.
 
    >[!NOTE]
-   >**시스템 관리자**&#x200B;인데 [!DNL Journey Optimizer]에 **[!UICONTROL 샌드박스]** 메뉴가 표시되지 않는 경우 사용 권한을 업데이트해야 합니다. [이 페이지](../../administration/permissions.md#edit-product-profile)에서 역할을 업데이트하는 방법을 알아보십시오.
+   >**시스템 관리자**&#x200B;인데 [!DNL Journey Optimizer]에 **[!UICONTROL 샌드박스]** 메뉴가 표시되지 않는 경우 사용 권한을 업데이트해야 합니다. [이 페이지](../../administration/permissions.md#edit-product-profile)에서 역할을 업데이트하는 방법을 알아보세요.
 
 1. **역할 이해**. 역할은 사용자가 인터페이스의 특정 기능이나 개체에 액세스할 수 있도록 하는 통합된 권한 세트입니다. 자세한 내용은 [기본 제공 역할](../../administration/ootb-product-profiles.md) 섹션을 참조하십시오.
 
@@ -74,4 +74,4 @@ ht-degree: 100%
 
    * [허용 목록](../../configuration/allow-list.md)을 사용하면 특정 샌드박스에서 보내는 이메일을 수신하도록 승인된 유일한 수신자 또는 도메인이 될 개별 이메일 주소 또는 도메인을 지정할 수 있습니다.. 이렇게 하면 테스트 환경에 있을 때 실수로 실제 고객 주소로 이메일을 보내는 것을 방지할 수 있습니다. [허용 목록을 활성화](../../configuration/allow-list.md)하는 방법을 알아보세요.
 
-   [이 페이지](../../reports/deliverability.md)의 [!DNL Adobe Journey Optimizer]에서 배달 가능성 관리에 대해 자세히 알아보세요.
+   [!DNL Adobe Journey Optimizer] [이 페이지의](../../reports/deliverability.md)에서 게재 가능성 관리에 대해 자세히 알아보세요.

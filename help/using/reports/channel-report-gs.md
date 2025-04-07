@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 채널 보고서는 완전히 맞춤화가 가능하므로 위젯의 크기를 조정하거나 제거하여 특정 요구 사항을 충족하는 대시보드를 만들 수 있습니다. 추가 분석을 위해 보고서 데이터를 PDF 또는 CSV 파일로 내보낼 수도 있습니다.
 
-이 [페이지](channel-report.md)에서 채널 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
+[이 페이지](channel-report.md)에서 채널 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보세요.
 
 ## 시작하기 전 {#manage-reports-prereq}
 
@@ -85,17 +85,17 @@ ht-degree: 4%
 
 ## 보고서 내보내기 {#export-reports}
 
-서로 다른 보고서를 PDF 또는 CSV 형식으로 쉽게 내보내 공유, 조작 또는 인쇄할 수 있습니다. 채널 보고서를 내보내는 자세한 단계는 다음 탭에서 확인할 수 있습니다.
+다양한 보고서를 PDF 또는 CSV 형식으로 쉽게 내보내 공유, 조작 또는 인쇄할 수 있습니다. 채널 보고서를 내보내는 자세한 단계는 다음 탭에서 확인할 수 있습니다.
 
 >[!BEGINTABS]
 
 >[!TAB 보고서를 PDF 파일로 내보내기]
 
-1. 보고서에서 **[!UICONTROL 내보내기]**&#x200B;를 클릭하고 **[!UICONTROL 파일 PDF]**&#x200B;을 선택합니다.
+1. 보고서에서 **[!UICONTROL 내보내기]**&#x200B;를 클릭하고 **[!UICONTROL PDF 파일]**&#x200B;을 선택합니다.
 
 1. 인쇄 창에서 필요에 따라 문서를 구성합니다. 선택 사항은 브라우저에 따라 다를 수 있습니다.
 
-1. 보고서를 PDF으로 인쇄 또는 저장하도록 선택합니다.
+1. 보고서를 PDF으로 인쇄하거나 저장하도록 선택합니다.
 
 1. 파일을 저장할 폴더를 찾아 필요한 경우 이름을 변경한 다음 [저장]을 클릭합니다.
 

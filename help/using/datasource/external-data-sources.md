@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1595'
 ht-degree: 40%
@@ -29,7 +29,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->* 외부 시스템에서 작업할 때 보호 기능이 [이 페이지](../configuration/external-systems.md)에 나열됩니다.
+>* 외부 시스템으로 작업할 때 보호 기능은 [이 페이지](../configuration/external-systems.md)에 나열됩니다.
 >
 >* 이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다. 응답에 대한 자세한 내용은 이 [섹션](../action/action-response.md)을 참조하세요.
 
@@ -148,7 +148,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 * `endpoint`: 끝점을 생성하는 데 사용할 URL
 * 끝점(`GET` 또는 `POST`)에 대한 HTTP 요청의 메서드
 * `headers`: 필요한 경우 이 호출에서 헤더로 삽입할 키-값 쌍입니다
-* `body`: 메서드가 POST 상태인 경우 호출의 본문을 설명합니다. bodyParams(키-값 쌍)에 정의된 제한된 본문 구조가 지원됩니다. bodyType은 호출 본문의 형식과 인코딩을 설명합니다.
+* `body`: 메서드가 POST인 경우 호출의 본문을 설명합니다. bodyParams(키-값 쌍)에 정의된 제한된 본문 구조가 지원됩니다. bodyType은 호출 본문의 형식과 인코딩을 설명합니다.
    * `form`: 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키-값 쌍이 그대로 일련화됩니다(예: key1=value1&amp;key2=value2&amp;...).
    * `json`: 콘텐츠 유형은 application/json(charset UTF-8)이며 키-값 쌍이 json 개체 그대로 일련화됩니다(예: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;...}_).
 

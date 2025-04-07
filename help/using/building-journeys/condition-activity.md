@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 14%
@@ -94,7 +94,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->* 시간대는 조건에 따라 달라지지 않으며 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)에서 자세히 알아보십시오.
+>* 시간대는 조건에 따라 달라지지 않으며 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)에서 자세히 알아보세요.
 >
 >* 기본적으로 **[!UICONTROL 시간 조건]**&#x200B;은(는) 00:00부터 12:00까지 시간 단위로 설정됩니다.
 

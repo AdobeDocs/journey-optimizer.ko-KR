@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 14%
@@ -41,7 +41,7 @@ Adobe Journey Optimizer에서는 다음 사용 사례에 액세스할 수 있습
 
 * 여정(Beta)의 **Operational insights**
 
-  Operational insight 질문은 조직의 샌드박스에 있는 여정 개체에 대해 설명합니다. 운영 통찰력 질문 또는 프롬프트의 몇 가지 예는 다음과 같습니다.
+  Operational insight 질문은 조직의 샌드박스에 있는 여정 개체에 대한 것입니다. 작동 중인 insight 질문 또는 프롬프트의 몇 가지 예는 다음과 같습니다.
 
    * Adobe Journey Optimizer에는 라이브 여정이 몇 개 있습니까?
    * 모든 예약된 여정 목록 제공

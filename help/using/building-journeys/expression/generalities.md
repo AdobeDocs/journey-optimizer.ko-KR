@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 구문, 편집기, 여정
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # 고급 표현식 편집기 구문 {#syntax}
 
-[고급 표현식 편집기](expressionadvanced.md)를 사용할 때의 구문 기본 사항은 아래에 나와 있습니다. 고급 표현식 편집기의 사용 샘플은 [이 페이지](advanced-editor-use-cases.md)에서 확인할 수 있습니다.
+[고급 표현식 편집기](expressionadvanced.md)를 사용할 때의 구문 기본 사항은 아래에 나와 있습니다. 고급 표현식 편집기의 사용 샘플은 [이 페이지](advanced-editor-use-cases.md)에서 사용할 수 있습니다.
 
 ## 괄호 및 표현식 우선 순위 {#parentheses-and-expression-priority}
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 다른 대소문자 구분 규칙은 다음과 같습니다.
 
-* 모든 연산자(및, 또는 등) 소문자로 작성해야 합니다. 예를 들어 _`<expression1>`및`<expression2>`_&#x200B;은(는) 올바른 식이지만 _`<expression1>`및`<expression2>`_ 식은 올바른 식이 아닙니다.
+* 모든 연산자(및, 또는 등)는 소문자로 작성해야 합니다. 예를 들어 _`<expression1>`및`<expression2>`_&#x200B;은(는) 올바른 식이지만 _`<expression1>`및`<expression2>`_ 식은 올바른 식이 아닙니다.
 * 모든 함수 이름은 대소문자를 구분합니다. 예를 들어 _inAudience()_&#x200B;은(는) 유효하지만 _INAUDIENCE()_ 함수는 유효하지 않습니다.
 * 필드 참조 및 상수 값은 대소문자를 구분합니다. 연산자 및 함수와 달리 언어의 기본 제공 요소가 아니며, 최종 사용자가 작성합니다.
 
