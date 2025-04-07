@@ -11,7 +11,7 @@ exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 2%
+ht-degree: 27%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
 >title="공급자 URL"
->abstract="연결하려는 외부 API의 URL을 지정하십시오. 이 URL은 API의 기능 및 기능에 액세스하기 위한 끝점 역할을 합니다."
+>abstract="외부 API에 연결할 URL을 지정하세요. 이 URL은 API의 기능과 기능에 접근하는 엔드포인트로 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
 >title="인증 유형"
->abstract="OAuth 또는 Bearer 토큰과 같이 API에 액세스하는 데 필요한 인증 방법을 지정합니다. 이를 통해 외부 서비스와의 안전하고 승인된 통신을 보장합니다."
+>abstract="API에 액세스하는 데 필요한 인증 방법(OAuth 또는 Bearer 토큰)을 지정합니다. 이를 통해 외부 서비스와의 안전하고 승인된 통신이 보장됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
 >title="헤더 매개변수"
->abstract="적절한 인증, 콘텐츠 형식 지정 및 효과적인 API 통신을 사용하도록 추가 헤더의 레이블, 유형 및 값을 지정합니다. "
+>abstract="적절한 인증, 콘텐츠 형식 지정 및 효과적인 API 통신을 위해 추가 헤더의 레이블, 유형 및 값을 지정합니다. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
 >title="공급자 페이로드"
->abstract="처리 및 응답 생성을 위해 올바른 데이터가 전송될 수 있도록 요청 페이로드를 제공합니다."
+>abstract="올바른 데이터가 처리 및 응답 생성에 사용될 수 있도록 요청 페이로드를 제공합니다."
 
 >[!AVAILABILITY]
 >

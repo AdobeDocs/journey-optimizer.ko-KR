@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 48%
+ht-degree: 51%
 
 ---
 
@@ -54,8 +54,8 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="이메일에 구독 취소 URL 추가"
->abstract="이 옵션을 활성화하면 이메일 헤더에 구독 취소 URL을 자동으로 추가할 수 있습니다. 원클릭 옵트아웃 링크를 이메일 콘텐츠에 삽입하여 메시지에서 구독 취소 URL을 설정할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="이메일 콘텐츠에서 원클릭 옵트아웃 설정"
+>abstract="이 옵션을 활성화하여 이메일 헤더에 구독 취소 URL을 자동으로 추가합니다. 원클릭 옵트아웃 링크를 이메일 콘텐츠에 삽입하여 메시지에서 구독 취소 URL을 설정할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="이메일 콘텐츠의 원클릭 옵트아웃 설정"
 
 **[!UICONTROL 목록 구독 취소 사용]** 옵션이 활성화된 경우 받는 사람의 전자 메일 클라이언트에서 지원하는 경우 전자 메일 헤더에 받는 사람이 메일 목록에서 구독을 취소하는 데 사용할 수 있는 mailto 및/또는 URL이 모두 포함됩니다.
 
@@ -106,8 +106,8 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom_url"
->title="원클릭 구독 취소 URL을 입력하십시오."
->abstract="**한 번의 클릭으로 구독 취소 URL**&#x200B;을(를) 수행하려면 POST 요청 메서드를 사용해야 합니다."
+>title="원클릭 구독 취소 URL을 입력합니다."
+>abstract="**원클릭 구독 취소 URL**&#x200B;은 POST 요청 방법을 사용해야 합니다."
 
 Adobe 외부에서 동의를 관리하는 경우 **[!UICONTROL 고객 관리]** 옵션을 선택하여 사용자 정의 구독 취소 이메일 주소와 고유한 원클릭 구독 취소 URL을 입력합니다.
 

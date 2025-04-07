@@ -11,16 +11,16 @@ exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: e5edb719c4ff30385242700217c9c4c07ff28373
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
-# GenStudio 통합 시작 {#gs-genstudio}
+# GenStudio 통합 시작하기 {#gs-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
->title="GenStudio으로 빌드된 템플릿 사용"
->abstract="Adobe GenStudio for Performance Marketing과의 원활한 통합 덕분에 Adobe AI 기술로 향상된 GenStudio 템플릿을 쉽게 가져올 수 있습니다."
+>title="GenStudio에서 제작된 템플릿 사용하기"
+>abstract="Adobe GenStudio for Performance Marketing과의 원활한 통합 덕분에 Adobe AI 기술로 향상된 GenStudio 템플릿을 손쉽게 가져올 수 있습니다."
 
 >[!AVAILABILITY]
 >
