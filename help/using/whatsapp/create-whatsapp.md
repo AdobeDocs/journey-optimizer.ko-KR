@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 6268989c14ccb0ae6fd5ac271a33efe4877dd903
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '809'
 ht-degree: 3%
 
 ---
@@ -32,6 +32,35 @@ ht-degree: 3%
 >[!ENDSHADEBOX]
 
 Adobe Journey Optimizer을 사용하면 WhatsApp에서 매력적인 메시지를 디자인하고 보낼 수 있습니다. 여정 또는 캠페인에 WhatsApp 작업을 추가하고 아래에 자세히 설명된 대로 메시지 콘텐츠를 만들면 됩니다. 또한 Adobe Journey Optimizer을 사용하면 WhatsApp 메시지를 보내기 전에 테스트하여 완벽한 렌더링, 정확한 개인화 및 모든 설정의 적절한 구성을 보장할 수 있습니다.
+
+Journey Optimizer에서는 아웃바운드 메시지 요소만 지원됩니다.
+
++++ 지원되는 메시지 요소 및 작업에 대한 호출에 대해 자세히 알아보기
+
+WhatsApp에서는 다음 메시지 유형이 지원됩니다.
+
+| 메시지 기능 | 설명 |
+|-|-|
+| 헤더 | 메시지 본문 위에 표시되는 선택적 텍스트입니다. |
+| 텍스트 | 매개 변수를 통해 다이내믹 콘텐츠를 지원합니다. |
+| 이미지(JPEG, PNG) | 8비트 RGB 또는 RGBA 형식이어야 하며 크기가 5MB 미만이어야 합니다. |
+| 비디오 | 16MB 이하의 3GPP 또는 MP4여야 하며 URL을 통해 호스팅되어야 합니다. |
+| 오디오 | 응답 메시지에만 사용할 수 있습니다. AAC, AMR, MP3, MP4 오디오 또는 OGG 형식이어야 하며 URL에서 호스팅되고 16MB 미만이어야 합니다. |
+| 문서 | URL에서 호스팅되는 100MB 미만이어야 하며 .txt, .xls/.xlsx, .doc/.docx, .ppt/.pptx 또는 .pdf 형식 중 하나여야 합니다. |
+| 본문 텍스트 | 매개 변수를 통해 다이내믹 콘텐츠를 지원합니다. |
+| 바닥글 텍스트 | 매개 변수를 통해 다이내믹 콘텐츠를 지원합니다. |
+
+WhatsApp 메시지에 다음과 같은 콜 투 액션 옵션을 사용할 수 있습니다.
+
+| 콜 투 액션 | 설명 |
+|-|-|
+| 전화 번호 | 메시지 템플릿에서만 사용할 수 있습니다. 버튼 하나로 제한됩니다. |
+| 사용자 정의 빠른 회신 단추 | 최대 3개의 버튼을 지원합니다. |
+| 마케팅 옵트아웃 단추 | 구독 상태를 자동으로 업데이트하지 않습니다. |
+| 쿠폰 코드 메시지 템플릿 | 메시지 템플릿에서만 사용할 수 있습니다. |
+| CTA 응답 메시지 | 반응 메시지에 콜 투 액션 버튼을 포함할 수 있습니다. |
+
++++
 
 ## WhatsApp 메시지 추가 {#create-whatsapp-journey-campaign}
 
@@ -90,7 +119,7 @@ Adobe Journey Optimizer을 사용하면 WhatsApp에서 매력적인 메시지를
 
 >[!BEGINSHADEBOX]
 
-Journey Optimizer에서 WhatsApp 메시지를 디자인하기 전에 먼저 메타에서 템플릿을 만들고 디자인해야 합니다. Journey Optimizer에서는 아웃바운드 메시지 요소만 지원됩니다. [자세히 알아보기](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+Journey Optimizer에서 WhatsApp 메시지를 디자인하기 전에 먼저 메타에서 템플릿을 만들고 디자인해야 합니다. [자세히 알아보기](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
 Journey Optimizer에서 WhatsApp 템플릿을 사용하기 전에 먼저 Meta에서 승인해야 합니다. 이 프로세스는 보통 몇 시간이 걸리지만 최대 24시간이 소요될 수 있습니다. [자세히 알아보기](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
