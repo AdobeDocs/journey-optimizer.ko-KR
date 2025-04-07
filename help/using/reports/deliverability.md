@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 7%
@@ -94,7 +94,7 @@ Adobe Journey Optimizer는 최적의 전달성을 위한 모범 사례에 따라
 
 도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 악의적인 행위자의 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다.
 
-[DMARC 레코드에 대한 자세한 내용](../configuration/dmarc-record.md)
+[DMARC 레코드에 대해 자세히 알아보기](../configuration/dmarc-record.md)
 
 ## 피드백 루프에 대한 정보 {#feedback-loops}
 

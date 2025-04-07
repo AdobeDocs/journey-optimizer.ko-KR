@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 51%
+ht-degree: 50%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 51%
 
   >[!NOTE]
   >
-  >[이 섹션](../email/email-opt-out.md#unsubscribe-header)에서는 메시지 내 구독 취소 기능을 관리하는 방법에 대해 자세히 알아봅니다.
+  >[이 섹션](../email/email-opt-out.md#unsubscribe-header)에서 메시지 내의 구독 취소 기능을 관리하는 방법에 대해 자세히 알아보세요.
 
 [!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}가 처리합니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"}에 나열된 가능한 값 중 하나로 온보딩하는 동안 이 기본값을 수정하거나 [동의 정책](../action/consent.md)을 사용하여 기본 논리를 재정의할 수 있습니다.
 

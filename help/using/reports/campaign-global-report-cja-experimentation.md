@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -50,7 +51,7 @@ ht-degree: 10%
 **[!UICONTROL 인바운드 클릭에 의한 변형]** 위젯은 각 변형의 성능을 자세히 설명합니다.
 이러한 결과와 이를 해석하는 방법에 대한 자세한 내용은 [이 페이지](../content-management/get-started-experiment.md#interpret-results)를 참조하세요.
 
-+++ 인바운드 클릭수로 인한 변형 지표에 대해 자세히 알아보기
++++ 인바운드 클릭수 지표에 의한 변형에 대해 자세히 알아보기
 
 * **[!UICONTROL 사람]**: 메시지 대상 프로필로 적합한 사용자 프로필 수입니다.
 

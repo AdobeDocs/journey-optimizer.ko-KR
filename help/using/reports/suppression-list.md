@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 11%
@@ -25,7 +25,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->Adobe은 참여 및 메일링 평판에 유해한 것으로 입증된 알려진 잘못된 주소의 업데이트된 목록을 보관하고 이메일이 게재되지 않도록 합니다. 이 목록은 모든 Adobe 고객에게 공통으로 적용되는 글로벌 금지 목록에서 관리됩니다. 글로벌 금지 목록에 포함된 주소와 도메인 이름은 숨겨집니다. 게재 보고서에는 제외된 수신자 수만 표시됩니다.
+>Adobe은 참여 및 메일링 평판에 유해한 것으로 입증된 알려진 잘못된 주소 목록을 업데이트하고 이메일이 게재되지 않도록 합니다. 이 목록은 모든 Adobe 고객에게 공통으로 적용되는 글로벌 금지 목록에서 관리됩니다. 글로벌 금지 목록에 포함된 주소와 도메인 이름은 숨겨집니다. 게재 보고서에는 제외된 수신자 수만 표시됩니다.
 
 또한 Journey Optimizer **Suppression REST API**&#x200B;를 활용하면 제외 및 허용 목록을 통해 보내는 메시지를 제어할 수 있습니다. [Suppression REST API 사용 방법 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
@@ -33,7 +33,7 @@ ht-degree: 11%
 
 받은 편지함 소유자가 받는 이메일 메시지를 제어하고 원하는 메시지만 받도록 보장하기 위해 인터넷 서비스 공급자(ISP) 및 상업용 스팸 필터는 사용 중인 IP 주소 및 전송 도메인을 기반으로 이메일 보낸 사람의 전체 평판을 추적하는 자체 독점 알고리즘을 갖습니다.
 
-피드백(스팸 불만, 바운스 등)을 받지 않는 경우 고려해보면, 그들은 당신의 평판을 떨어뜨릴 것이다. 제외 목록은 ISP의 피드백을 반영하는 데 도움이 됩니다.
+피드백(예: 스팸 불만, 바운스 등)을 고려하지 않으면 평판이 떨어집니다. 제외 목록은 ISP의 피드백을 반영하는 데 도움이 됩니다.
 
 이메일 주소가 억제된 수신자는 메시지 게재에서 자동으로 제외됩니다. 이를 통해 게재 속도를 높일 수 있습니다. 오류율은 게재 속도에 상당한 영향을 미치기 때문입니다.
 
@@ -53,7 +53,7 @@ ht-degree: 11%
 >
 >[!DNL Journey Optimizer]에서 전자 메일을 받지 않으므로 구독 취소된 사용자의 주소를 제외 목록으로 보낼 수 없습니다. 이러한 선택은 Experience Platform 수준에서 처리됩니다. [옵트아웃](../privacy/opt-out.md)에 대해 자세히 알아보세요.
 
-각 주소에 대해 제외되는 기본 이유와 제외 범주(소프트, 하드 등) 제외 목록에 표시됩니다. [이 섹션](../configuration/manage-suppression-list.md)에서 제외 목록에 액세스하고 관리하는 방법에 대해 자세히 알아보세요.
+각 주소에 대해 제외되는 기본 이유와 제외 범주(소프트, 하드 등)가 제외 목록에 표시됩니다. [이 섹션](../configuration/manage-suppression-list.md)에서 제외 목록에 액세스하고 관리하는 방법에 대해 자세히 알아보세요.
 
 >[!NOTE]
 >

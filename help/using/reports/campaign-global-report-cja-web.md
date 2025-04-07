@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 39441fe9-5cdc-4787-9267-798de80e3af2
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 **[!UICONTROL 클릭 수]** 그래프는 총 콘텐츠 클릭 수와 콘텐츠를 클릭한 고유 프로필 수를 모두 보여 주는 웹 페이지 클릭 지표를 표시합니다.
 
-+++ 클릭 지표에 대해 자세히 알아보기
++++ 클릭 수 지표에 대해 자세히 알아보기
 
 * **[!UICONTROL 고유 클릭 수]**: 웹 페이지에서 콘텐츠를 클릭한 프로필 수입니다.
 

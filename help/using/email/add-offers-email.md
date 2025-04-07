@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 오퍼, 결정, 이메일, 개인화, 결정
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 [이 섹션](#preview-your-messages)에서 메시지 미리 보기를 확인하는 자세한 단계에 대해 자세히 알아보세요.
 
-## 방법 비디오{#video-offers}
+## 사용 방법 비디오{#video-offers}
 
 [!DNL Journey Optimizer]의 메시지에 의사 결정 관리 구성 요소를 추가하는 방법을 알아봅니다.
 

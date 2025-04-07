@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 16%
@@ -61,7 +61,7 @@ ht-degree: 16%
 
    >[!CAUTION]
    >
-   >웹 페이지에는 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}가 포함되어야 합니다. [자세히 알아보기](web-prerequisites.md#implementation-prerequisites)
+   >웹 페이지에는 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}이 포함되어야 합니다. [자세히 알아보기](web-prerequisites.md#implementation-prerequisites)
 
 1. 작성을 시작하려면 **[!UICONTROL 웹 페이지 편집]**&#x200B;을 클릭하세요. 웹 디자이너가 표시됩니다.
 
@@ -89,7 +89,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->웹 콘텐츠 디자이너는 대부분 이메일 디자이너와 유사합니다. [콘텐츠를 디자인 [!DNL Journey Optimizer]](../email/get-started-email-design.md)에 대해 자세히 알아보세요.
+>웹 콘텐츠 디자이너는 대부분 이메일 디자이너와 유사합니다. [콘텐츠를 디자인 [!DNL Journey Optimizer]](../email/get-started-email-design.md)하는 방법에 대해 자세히 알아보세요.
 
 ## 구성 요소 사용 {#content-components}
 
@@ -180,7 +180,7 @@ ht-degree: 16%
 >
 >현재 [!DNL Journey Optimizer]은(는) 장치 크기별 페이지 변경을 지원하지 않습니다. 즉, 별도의 사이트 구조를 사용하는 별도의 모바일 웹 사이트가 있는 경우 다른 캠페인에서 모바일 사이트별로 변경해야 합니다.
 
-## 방법 비디오{#video}
+## 사용 방법 비디오{#video}
 
 아래 비디오에서는 [!DNL Journey Optimizer] 캠페인에서 웹 디자이너를 사용하여 웹 경험을 만드는 방법을 보여 줍니다.
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식, 구성 요소
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 9%
@@ -152,7 +152,7 @@ ht-degree: 9%
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용하여 마우스로 가리키면 단추 레이블 색상과 같은 일부 설정을 미리 볼 수 있습니다. 랜딩 페이지 테스트에 대한 자세한 내용은 [여기](create-lp.md#test-landing-page)를 참조하세요.
+   **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용하여 마우스로 가리키면 단추 레이블 색상과 같은 일부 설정을 미리 볼 수 있습니다. 랜딩 페이지 [여기](create-lp.md#test-landing-page)를 테스트하는 방법에 대해 자세히 알아보세요.
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 

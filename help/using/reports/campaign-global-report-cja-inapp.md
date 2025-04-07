@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 3%
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 **[!UICONTROL 클릭 수]** 그래프는 총 콘텐츠 클릭 수와 콘텐츠를 클릭한 고유 프로필 수를 모두 보여 주는 인앱 클릭 지표를 표시합니다.
 
-+++ 클릭 지표에 대해 자세히 알아보기
++++ 클릭 수 지표에 대해 자세히 알아보기
 
 * **[!UICONTROL 고유 클릭 수]**: 인앱 메시지의 콘텐츠를 클릭한 프로필 수
 

@@ -1,5 +1,5 @@
 ---
-title: DM 메시지 확인 및 보내기
+title: 다이렉트 메일 메시지 확인 및 보내기
 description: Journey Optimizer에서 DM 메시지를 확인하고 보내는 방법 알아보기
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# DM 메시지 확인 및 보내기 {#direct-mail-test-send}
+# 다이렉트 메일 메시지 확인 및 보내기 {#direct-mail-test-send}
 
 ## 추출 파일 미리 보기 {#preview-dm}
 
@@ -54,6 +54,6 @@ DM을 전송하면 캠페인 보고서 내에서 DM 캠페인의 영향을 측�
 
 다시 활성화하려면 프로필 특성을 `consents.marketing.postalMail.val`: `y`(으)로 다시 변경해야 합니다.
 
-프로필의 속성을 관리하려면 Experience Platform 로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
+프로필의 속성을 관리하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
 
 [이 섹션](../privacy/opt-out.md)에서 Journey Optimizer의 옵트아웃 관리에 대해 자세히 알아보세요.

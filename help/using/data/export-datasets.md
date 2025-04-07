@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 6%
@@ -67,7 +67,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
    >
    >실시간 고객 프로필과 함께 Adobe Journey Optimizer을 사용하는 경우 대상 카드에 **활성화** 단추가 표시되므로, 활성화한 권한에 따라 이 대상에 대한 데이터 세트를 내보내고 대상을 활성화할 수 있습니다.
 
-1. **선택한 대상으로 내보낼 데이터 세트를 선택**&#x200B;합니다. [내보낼 수 있는 Journey Optimizer 데이터 세트에 대해 자세히 알아보기](#datasets)
+1. **선택한 대상으로 내보낼 데이터 세트를 선택**&#x200B;합니다. [내보내기에 사용할 수 있는 Journey Optimizer 데이터 세트에 대해 자세히 알아보기](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 

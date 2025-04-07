@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: c7ecfdbc9c97c49c77f3c4fb8bcb1656e04819a8
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 15%
@@ -19,7 +19,7 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"
->title="자신만의 콘텐츠 템플릿 정의"
+>title="나만의 콘텐츠 템플릿 정의"
 >abstract="여러 여정과 캠페인 전반에서 콘텐츠를 재사용할 수 있도록 처음부터 독립형 사용자 정의 템플릿을 만듭니다."
 
 다음 두 가지 방법으로 콘텐츠 템플릿을 만들 수 있습니다.

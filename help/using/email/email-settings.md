@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 >
 >비프로덕션 환경의 경우, Adobe는 기본 제공 테스트 하위 도메인을 만들거나 공유 전송 IP 풀에 대한 액세스 권한을 부여하지 않습니다. [자신의 하위 도메인을 위임](../configuration/delegate-subdomain.md)하고 조직에 할당된 풀의 IP를 사용해야 합니다.
 
-IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소 위로 마우스를 가져가면 PTR 정보가 표시됩니다. [PTR 기록에 대해 자세히 알아보기](../configuration/ptr-records.md)
+IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소 위로 마우스를 가져가면 PTR 정보가 표시됩니다. [PTR 레코드에 대해 자세히 알아보기](../configuration/ptr-records.md)
 
 >[!NOTE]
 >
@@ -179,7 +179,7 @@ IP 풀을 선택한 후 IP 풀 드롭다운 목록 아래에 표시된 IP 주소
 * 트랜잭션 이메일의 경우 최소 재시도 시간은 10분입니다.
 * 두 이메일 유형 모두 최대 재시도 시간은 84시간(또는 5040분)입니다.
 
-[이 섹션](../configuration/retries.md)에서는 재시도에 대해 자세히 알아봅니다.
+[이 섹션](../configuration/retries.md)에서 다시 시도에 대해 자세히 알아보세요.
 
 ## URL 추적 {#url-tracking}
 

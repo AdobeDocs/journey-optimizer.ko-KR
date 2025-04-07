@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3492'
 ht-degree: 27%
@@ -101,7 +101,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 전자 메일로 지표 보내기]** 표에는 지난 24시간 동안의 데이터에 대한 포괄적인 요약이 제공됩니다. 타겟팅된 대상의 크기 및 성공적으로 게재된 이메일 수를 포함한 필수 지표를 간략하게 설명합니다. 이메일 캠페인의 효과와 도달 범위에 대한 중요한 통찰력을 제공합니다.
 
-+++ 이메일에 대한 자세한 내용 - 통계 지표
++++ 이메일에 대해 자세히 알아보기 - 통계 지표
 
 * **[!UICONTROL 실행 시간]**: 되풀이하는 전자 메일의 모든 실행 시작 시간입니다. 하나 이상의 반복 전자 메일만 대상으로 지정하려면 **[!UICONTROL 실행 시간]** 드롭다운에서 선택합니다.
 
@@ -146,7 +146,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 바운스에 대한 자세한 내용은 [제외 목록](../reports/suppression-list.md) 페이지를 참조하세요.
 
-+++ 이메일에서 자세히 알아보기 - 반송 범주 및 이유 지표
++++ 이메일에 대해 자세히 알아보기 - 반송 범주 및 원인 지표
 
 * **[!UICONTROL 하드 바운스]**: 잘못된 전자 메일 주소와 같은 총 영구 오류 수입니다. 여기에는 알 수 없는 사용자와 같이 주소가 유효하지 않다는 오류 메시지가 명시적으로 표시됩니다.
 
@@ -167,7 +167,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 이메일 - 날짜별 성능]** 위젯은 그래프를 통해 표시된 메시지와 관련된 주요 정보에 대한 자세한 개요를 제공하여 지난 24시간 동안의 성능 추세에 대한 통찰력을 제공합니다.
 
-+++ 이메일에 대한 자세한 내용 - 날짜 및 이유 지표별 성능
++++ 이메일에 대해 자세히 알아보기 - 날짜 및 이유 지표별 성능
 
 * **[!UICONTROL 전송됨]**: 총 전송 수입니다.
 
@@ -230,7 +230,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 오퍼 통계]** 및 **[!UICONTROL 시간 경과에 따른 오퍼 통계]** 위젯은 오퍼의 성공과 타깃팅된 대상자에 대한 영향을 측정합니다. KPI를 사용하여 메시지와 관련된 기본 정보를 자세히 설명합니다.
 
-+++ 이메일에 대한 자세한 내용 - 오퍼 지표
++++ 이메일에 대해 자세히 알아보기 - 오퍼 지표
 
 * **[!UICONTROL 전송된 오퍼]**: 오퍼에 대한 총 전송 수입니다.
 
@@ -323,7 +323,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 푸시 알림 - 통계]** 표에는 타깃팅된 메시지 수 및 배달된 메시지 수와 같은 주요 지표를 포함하여 지난 24시간 내에 푸시 알림과 관련된 필수 데이터에 대한 간결한 요약이 제공됩니다.
 
-+++ 푸시 알림에 대한 자세한 내용 - 통계 지표
++++ 푸시 알림 - 통계 지표에 대해 자세히 알아보기
 
 * **[!UICONTROL 실행 시간]**: 되풀이하는 푸시 알림의 모든 실행 시작 시간입니다. 하나 이상의 되풀이하는 푸시 알림만 대상으로 지정하려면 **[!UICONTROL 실행 시간]** 드롭다운에서 선택합니다.
 
@@ -457,7 +457,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 날짜별 SMS 성능]** 위젯은 그래프를 통해 표시된 메시지와 관련된 주요 정보에 대한 자세한 개요를 제공하여 지난 24시간 동안의 성능 추세에 대한 통찰력을 제공합니다.
 
-+++ SMS에 대한 자세한 내용 - 일자별 성능 지표
++++ SMS에 대해 자세히 알아보기 - 일자별 성능 지표
 
 * **[!UICONTROL 전송됨]**: 총 전송 수입니다.
 

@@ -6,7 +6,7 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 10%
@@ -43,7 +43,7 @@ ht-degree: 10%
 
       | 패키지 | 트리거 | 정의 |
       |---|---|---|
-      | 플랫폼으로 데이터 보내기 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 API는 AEP Edge 확장에서 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)를 호출합니다. |
+      | 플랫폼으로 데이터 보내기 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 AEP Edge 확장에서 API 호출 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)을(를) 사용합니다. |
       | 코어 추적 | 작업 추적 | 모바일 코드 API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
       | 코어 추적 | 상태 추적 | 모바일 코드 API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |
       | 코어 추적 | PII 수집 | 모바일 코드 API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)에서 제공되는 레거시 기능이 호출될 때 트리거됩니다. |

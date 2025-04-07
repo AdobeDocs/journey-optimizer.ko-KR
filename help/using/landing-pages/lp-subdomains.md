@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 하위 도메인, 구성
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 23%
@@ -48,7 +48,7 @@ ht-degree: 23%
 
 ## 기존 하위 도메인 사용 {#lp-use-existing-subdomain}
 
-이미 Adobe에게 위임된 하위 도메인을 사용하려면 아래 단계를 따르십시오.
+이미 Adobe에 위임된 하위 도메인을 사용하려면 아래 단계를 따르십시오.
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴에 액세스한 다음 **[!UICONTROL 랜딩 페이지 설정]** > **[!UICONTROL 랜딩 페이지 하위 도메인]**&#x200B;을 선택합니다.
 
@@ -80,7 +80,7 @@ ht-degree: 23%
 
    >[!CAUTION]
    >
-   >[CNAME 메서드](../configuration/delegate-subdomain.md#cname-subdomain-delegation)를 사용하여 Adobe으로 위임된 도메인을 선택하는 경우 호스팅 플랫폼에서 DNS 레코드를 만들어야 합니다. DNS 레코드를 생성하기 위한 프로세스는 새 랜딩 페이지 하위 도메인을 구성할 때와 동일합니다. [이 섹션](#lp-configure-new-subdomain)에서 방법을 알아보세요.
+   >[CNAME 메서드](../configuration/delegate-subdomain.md#cname-subdomain-delegation)를 사용하여 Adobe에 위임된 도메인을 선택하는 경우 호스팅 플랫폼에서 DNS 레코드를 만들어야 합니다. DNS 레코드를 생성하기 위한 프로세스는 새 랜딩 페이지 하위 도메인을 구성할 때와 동일합니다. [이 섹션](#lp-configure-new-subdomain)에서 방법을 알아보세요.
 
 1. **[!UICONTROL 제출을 클릭합니다]**.
 
@@ -119,7 +119,7 @@ ht-degree: 23%
    >
    >하위 도메인에서는 대문자가 허용되지 않습니다.
 
-   잘못된 하위 도메인을 Adobe으로 위임할 수 없습니다. marketing.yourcompany.com과 같이 조직에서 소유한 올바른 하위 도메인을 입력해야 합니다.
+   잘못된 하위 도메인을 Adobe에 위임할 수 없습니다. marketing.yourcompany.com과 같이 조직에서 소유한 올바른 하위 도메인을 입력해야 합니다.
 
    >[!NOTE]
    >

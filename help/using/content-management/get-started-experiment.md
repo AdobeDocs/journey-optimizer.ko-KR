@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2004'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 실험은 무작위화한 시험 회기 여러 개를 모아 놓은 것입니다. 온라인 테스팅 맥락에서는 무작위로 선택한 사용자 일부를 특정한 버전의 메시지에 노출하고, 무작위로 선택한 다른 사용자들을 또 다른 처리에 노출하는 것을 말합니다. 메시지를 보낸 후에는 궁금한 결과 지표(예: 이메일 오픈 수 또는 클릭 수)를 측정할 수 있습니다.
 
-➡️0}이 섹션](../experience-decisioning/experience-decisioning-uc.md)에 콘텐츠 실험을 사용하여 의사 결정을 코드 기반 경험 채널과 비교하는 방법을 보여주는 엔드 투 엔드 사용 사례가 나와 있습니다.[
+➡️ 콘텐츠 실험을 사용하여 의사 결정을 코드 기반 경험 채널과 비교하는 방법을 보여주는 엔드투엔드 사용 사례가 [이 섹션](../experience-decisioning/experience-decisioning-uc.md)에 나와 있습니다.
 
 ## 실험을 하는 이유는 무엇입니까?
 
@@ -58,7 +58,7 @@ Adobe Journey Optimizer의 콘텐츠 실험에서는 방문자 ID의 의사 무�
 * 직접 지표는 사용자가 처리에 직접 반응하는 경우를 말합니다(예: 이메일 열기, 링크 클릭).
 * 간접 또는 “깔때기 아래쪽” 지표는 사용자가 처리에 노출된 이후에 나타납니다.
 
-Adobe Journey Optimizer가 메시지를 추적하는 직접적 목표 지표의 경우에는 최종 사용자의 반응 이벤트에 캠페인과 처리 식별자가 자동으로 태그되므로 반응 지표를 처리와 직접 연결할 수 있습니다. [추적에 대해 자세히 알아보십시오](../email/message-tracking.md).
+Adobe Journey Optimizer가 메시지를 추적하는 직접적 목표 지표의 경우에는 최종 사용자의 반응 이벤트에 캠페인과 처리 식별자가 자동으로 태그되므로 반응 지표를 처리와 직접 연결할 수 있습니다. [추적에 대해 자세히 알아보세요](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 

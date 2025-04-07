@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 47%
+ht-degree: 49%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 47%
 1. **속성**: 페이지 URL 또는 앱 번들
 1. **컨테이너**: 페이지/앱 활동의 위치
 
-아래 표에는 다양한 디바이스의 표면 URI 정의 예시가 일부 나와 있습니다.
+아래 테이블에는 다양한 디바이스의 표면 URI 정의 예시가 일부 나와 있습니다.
 
 **웹 및 모바일**
 
@@ -70,7 +70,7 @@ ht-degree: 47%
 
    >[!NOTE]
    >
-   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-`자를 사용할 수도 있습니다.
+   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점 `.`, 하이픈 `-`도 사용할 수 있습니다.
 
 1. 구성에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택할 수 있습니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요](../administration/object-based-access.md).
 

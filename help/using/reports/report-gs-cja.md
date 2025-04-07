@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 업데이트된 보고 환경
-description: 모든 시간 보고서 시작
+description: 전체 기간 보고서 시작
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
-# 모든 시간 보고서 시작 {#channel-report-gs-cja}
+# 전체 기간 보고서 시작 {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 
 ## 전제 조건 {#prerequisites}
 
-* Customer Journey Analytics을 **not**&#x200B;하거나 소유하고 있지만 **not**&#x200B;하면 Customer Journey Analytics 제품 프로필에 액세스할 수 있습니다. 권한은 Journey Optimizer에서 관리됩니다. 이 경우 다음이 필요합니다.
+* Customer Journey Analytics을 **not** 소유하거나 소유하고 있지만 **not**&#x200B;에서 Customer Journey Analytics 제품 프로필에 액세스할 수 있는 경우 Journey Optimizer에서 권한이 관리됩니다. 이 경우 다음이 필요합니다.
 
    * **[!UICONTROL 채널 보고서 보기]** 권한 또는 관련 역할. [자세히 알아보기](../administration/permissions.md)
 
@@ -51,10 +51,10 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 
    * Adobe Journey Optimizer에 대한 **[!UICONTROL 프로필 관리]** 권한. [자세히 알아보기](../administration/permissions.md)
 
-* **Adobe Journey Optimizer에서 기본 데이터 보기로 설정** 설정을 사용하여 Customer Journey Analytics 데이터 보기를 구성해야 합니다. [데이터 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+* **Adobe Journey Optimizer에서 기본 데이터 보기로 설정**&#x200B;을 설정하여 Customer Journey Analytics 데이터 보기를 구성해야 합니다. [데이터 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## 사용 방법 비디오{#video}
 
-아래 비디오에서는 Customer Journey Analytics과 함께 향상된 Journey Optimizer 보고를 사용하는 방법을 보여 줍니다.
+아래 비디오에서는 Customer Journey Analytics에서 향상된 Journey Optimizer 보고를 사용하는 방법을 보여 줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430413)

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 최적화 도구, 위임
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 30%
@@ -44,7 +44,7 @@ ht-degree: 30%
 
 솔루션을 구현할 때 외부 구성 요소에 대한 요구 사항이 있습니다. 여기에는 추적할 링크 및 웹 페이지 설정, 미러 페이지 표시 등이 포함됩니다.
 
-이러한 요구 사항은 Adobe과 고객 모두가 호스팅하는 구성 요소를 통해 관리되지만, 이메일 수신자가 볼 수 있는 URL이 포함됩니다. 기본 기술 솔루션 또는 호스팅 공급자를 나타내는 URL이 없는 경우 이메일 수신자에게 투명하도록 하위 도메인을 설정할 수 있습니다.
+이러한 요구 사항은 Adobe과 고객 모두가 호스팅하는 구성 요소를 통해 관리되지만 이메일 수신자가 볼 수 있는 URL이 포함됩니다. 기본 기술 솔루션 또는 호스팅 공급자를 나타내는 URL이 없는 경우 이메일 수신자에게 투명하도록 하위 도메인을 설정할 수 있습니다.
 
 **자세히 알아보기**
 
@@ -56,7 +56,7 @@ ht-degree: 30%
 
 하위 도메인 구성을 사용하면 Adobe Campaign에서 사용할 도메인의 하위 섹션(기술적 명칭은 &quot;DNS 영역&quot;)을 구성할 수 있습니다. 사용 가능한 설정 방법은 다음과 같습니다.
 
-* **Adobe에 전체 하위 도메인 위임**(권장): 하위 도메인이 Adobe에 완전히 위임됩니다. Adobe은 메시지 전달, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리할 수 있습니다. [전체 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#full-subdomain-delegation)
+* **Adobe에 전체 하위 도메인 위임**(권장): 하위 도메인이 Adobe에 완전히 위임됩니다. Adobe은 메시지 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리할 수 있습니다. [전체 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#full-subdomain-delegation)
 
 * **CNAME 사용**: 하위 도메인을 만들고 CNAME을 사용하여 Adobe 관련 레코드를 가리킵니다. 이 설정을 사용하면 사용자와 Adobe이 DNS 유지 관리를 공동으로 수행합니다. [CNAME 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#cname-subdomain-delegation)
 
@@ -64,9 +64,9 @@ ht-degree: 30%
 >
 >* 전체 하위 도메인 위임이 기본 방법입니다.
 >
->* 조직의 정책이 전체 하위 도메인 위임 방법을 제한하는 경우 CNAME 방법을 사용하는 것이 좋습니다. 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지 및 관리해야 합니다. Adobe은 CNAME 메서드를 통해 구성된 하위 도메인의 DNS 변경, 유지 관리 또는 관리를 지원할 수 없습니다.
+>* 조직의 정책이 전체 하위 도메인 위임 방법을 제한하는 경우 CNAME 방법을 사용하는 것이 좋습니다. 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지 및 관리해야 합니다. Adobe은 CNAME 메서드를 통해 구성된 하위 도메인의 DNS를 변경, 유지 관리 또는 관리하는 것을 지원할 수 없습니다.
 
-아래 표에는 이러한 두 가지 방법의 작동 방식과 각 방법을 사용하는 경우의 작업량이 간략하게 요약되어 있습니다.
+아래 테이블에는 이러한 두 가지 방법의 작동 방식과 각 방법을 사용하는 경우의 작업량이 간략하게 요약되어 있습니다.
 
 | 구성 방법 | 작동 방식 | 작업량 |
 |---|---|---|
@@ -75,7 +75,7 @@ ht-degree: 30%
 
 도메인 구성에 대한 추가 정보는 [이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ko)에서 확인할 수 있습니다.
 
-하위 Adobe 구성 방법에 대한 질문이 있는 경우 도메인에 문의하거나 고객 지원 센터에 연락하여 게재 가능성 컨설팅을 요청하십시오.
+하위 도메인 구성 방법에 대한 질문이 있는 경우 Adobe에 문의하거나 고객 지원 센터에 연락하여 게재 가능성 컨설팅을 요청하십시오.
 
 ## 위임된 하위 도메인 액세스 {#access-delegated-subdomains}
 

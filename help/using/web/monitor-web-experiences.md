@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 3%
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 웹 여정이 라이브되면 [캠페인 보고서](../reports/journey-global-report-cja-web.md) 및 [캠페인 보고서](../reports/campaign-global-report-cja-web.md)의 **[!UICONTROL 웹]** 탭을 확인하여 노출 횟수, 클릭률 및 웹 페이지와의 참여 수와 같은 요소를 비교할 수 있습니다.
 
-<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
+<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more about the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 
 웹 경험 모니터링을 더욱 개선하기 위해 웹 사이트의 특정 요소에 대한 클릭 수를 추적할 수도 있습니다. 이렇게 하면 웹 보고서에서 해당 요소의 클릭 수를 표시할 수 있습니다. [방법 알아보기](#use-click-tracing)
 

@@ -5,13 +5,13 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 7cf58ae33c0b3e6d6b9ce19aa71ba105db40c602
+exl-id: 98e99978-8538-40b4-92ac-7184864017eb
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 8%
 
 ---
-
 
 # 웹 디자이너를 사용하여 작업 {#work-with-web-designer}
 
@@ -41,7 +41,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->[Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}를 웹 페이지에 포함해야 합니다. [자세히 알아보기](web-prerequisites.md#implementation-prerequisites)
+>[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}을(를) 웹 페이지에 포함해야 합니다. [자세히 알아보기](web-prerequisites.md#implementation-prerequisites)
 
 1. **[!UICONTROL 콘텐츠 편집]** 화면에서 **[!UICONTROL 웹 페이지 편집]**&#x200B;을 클릭하여 웹 디자이너를 엽니다.
 
@@ -73,7 +73,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->웹 콘텐츠 디자이너는 대부분 이메일 디자이너와 유사합니다. [콘텐츠를 디자인 [!DNL Journey Optimizer]](../email/get-started-email-design.md)에 대해 자세히 알아보세요.
+>웹 콘텐츠 디자이너는 대부분 이메일 디자이너와 유사합니다. [콘텐츠를 디자인 [!DNL Journey Optimizer]](../email/get-started-email-design.md)하는 방법에 대해 자세히 알아보세요.
 
 웹 콘텐츠를 편집한 후에는 수정 사항을 관리할 수 있습니다. [자세히 알아보기](manage-web-modifications.md)
 
@@ -166,7 +166,7 @@ ht-degree: 8%
 >
 >현재 [!DNL Journey Optimizer]은(는) 장치 크기별 페이지 변경을 지원하지 않습니다. 즉, 별도의 사이트 구조를 사용하는 별도의 모바일 웹 사이트가 있는 경우 다른 캠페인에서 모바일 사이트별로 변경해야 합니다.
 
-## 방법 비디오{#video}
+## 사용 방법 비디오{#video}
 
 아래 비디오에서는 [!DNL Journey Optimizer] 캠페인에서 웹 디자이너를 사용하여 웹 경험을 만드는 방법을 보여 줍니다.
 

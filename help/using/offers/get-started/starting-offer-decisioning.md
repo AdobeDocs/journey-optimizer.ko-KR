@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2acb883b66e5da9c06ba1551f708bb8ab47ce343
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 * 워크플로 개선: 마케팅 팀은 게재 또는 캠페인을 여러 개 만드는 대신 하나의 게재를 만들어 워크플로를 개선하고 템플릿의 여러 부분에서 오퍼에 변화를 줄 수 있습니다,
 * 캠페인 및 고객 측면에 표시될 오퍼 횟수를 제어합니다.
 
-➡️ [이 비디오에서 의사 결정 관리에 대해 자세히 알아보세요.](#video)
+➡️[이 비디오에서 의사 결정 관리에 대해 자세히 알아보세요](#video)
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 결정 기능 액세스 및 사용 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target="_blank"}을 통해 관리할 수 있습니다.
 
-의사 결정 관리 기능에 대한 액세스 권한을 부여하려면 **[!UICONTROL 제품 프로필]**&#x200B;을 만들고 사용자에게 해당 권한을 할당해야 합니다. [!DNL Journey Optimizer]의 사용자 및 권한 관리에 대한 자세한 정보는 [이 섹션](../../administration/permissions.md)을 참조하세요.
+의사 결정 관리 기능에 대한 액세스 권한을 부여하려면 **[!UICONTROL 제품 프로필]**&#x200B;을 만들고 사용자에게 해당 권한을 할당해야 합니다. [이 섹션](../../administration/permissions.md)에서 [!DNL Journey Optimizer]명의 사용자 및 권한 관리에 대해 자세히 알아보세요.
 
 [의사 결정 관리]에 대한 권한 목록은 [이 섹션](../../administration/high-low-permissions.md#decisions-permissions)에서 확인할 수 있습니다.
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 1. 설정 프로세스를 간소화하기 위해 시작하는 데 도움이 되는 필수 리소스가 자동으로 만들어집니다. 여기에는 새 **[!UICONTROL 모바일 태그 속성]**&#x200B;을 만들고 확장을 설치하는 작업이 포함됩니다.
 
-[자동 생성 리소스에 대해 자세히 알아보기](set-mobile-config.md#auto-create-resources)
+[자동 생성된 리소스에 대해 자세히 알아보기](set-mobile-config.md#auto-create-resources)
 
 1. 리소스 생성이 완료되면 사용자 인터페이스의 지침에 따라 SDK 및 채널을 설정하고 확인합니다.
 

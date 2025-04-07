@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 12%
@@ -138,7 +138,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >기본적으로 모든 중복 제거 플래그는 시뮬레이션에 대해 활성화되어 있습니다. 즉, 의사 결정 엔진이 중복을 허용하므로 여러 의사 결정/배치에서 동일한 제안을 할 수 있습니다. [이 섹션](../api-reference/offer-delivery-api/decisioning-api.md)의 [!DNL Decisioning] API 요청 속성에 대해 자세히 알아보세요.
+   >기본적으로 모든 중복 제거 플래그는 시뮬레이션에 대해 활성화되어 있습니다. 즉, 의사 결정 엔진이 중복을 허용하므로 여러 의사 결정/배치에서 동일한 제안을 할 수 있습니다. [이 섹션](../api-reference/offer-delivery-api/decisioning-api.md)에서 [!DNL Decisioning] API 요청 속성에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL 응답 형식]** 섹션에서 코드 보기에 메타데이터를 포함하도록 선택할 수 있습니다. 해당 옵션을 선택하고 선택한 메타데이터를 선택합니다. **[!UICONTROL 코드 보기]**&#x200B;를 선택하면 요청 및 응답 페이로드에 표시됩니다. 자세한 내용은 [시뮬레이션 결과 보기](#simulation-results) 섹션을 참조하세요.
 

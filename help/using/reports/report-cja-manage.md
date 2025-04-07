@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ## 보고서 내보내기 {#export-reports}
 
-서로 다른 보고서를 PDF 또는 CSV 형식으로 쉽게 내보내 공유하거나 인쇄할 수 있습니다. 보고서를 내보내는 단계는 아래 탭에 자세히 설명되어 있습니다.
+다양한 보고서를 PDF 또는 CSV 형식으로 쉽게 내보내 공유하거나 인쇄할 수 있습니다. 보고서를 내보내는 단계는 아래 탭에 자세히 설명되어 있습니다.
 
 >[!BEGINTABS]
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 >[!TAB 보고서를 PDF 파일로 내보내기]
 
-1. 보고서에서 **[!UICONTROL 공유]**&#x200B;를 클릭하고 **[!UICONTROL 다운로드 PDF]**&#x200B;을 선택합니다.
+1. 보고서에서 **[!UICONTROL 공유]**&#x200B;를 클릭하고 **[!UICONTROL PDF 다운로드]**&#x200B;를 선택합니다.
 
    ![](assets/export_cja_pdf.png)
 
@@ -157,7 +157,7 @@ ht-degree: 1%
 
 ## 탐색적 분석을 사용하여 데이터 탐색 {#exploratory}
 
-Exploratory Analysis 도구를 사용하여 선택한 **[!UICONTROL Dimension]** 및 **[!UICONTROL 지표]**&#x200B;에서 표와 시각화를 쉽게 만들 수 있습니다. 이 도구를 사용하면 데이터 탐색을 간소화하여 정보를 쉽게 자동으로 사용자 정의하고 분석할 수 있습니다. 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)를 참조하세요.
+Exploratory Analysis 도구를 사용하여 선택한 **[!UICONTROL 차원]** 및 **[!UICONTROL 지표]**&#x200B;에서 표와 시각화를 쉽게 만들 수 있습니다. 이 도구를 사용하면 데이터 탐색을 간소화하여 정보를 쉽게 자동으로 사용자 정의하고 분석할 수 있습니다. 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)를 참조하세요.
 
 1. Exploratory Analysis를 사용할 보고서에 액세스해 보십시오.
 
@@ -173,13 +173,13 @@ Exploratory Analysis 도구를 사용하여 선택한 **[!UICONTROL Dimension]**
 
 1. 추가 차원을 포함하려면 **[!UICONTROL 분류 추가]** 또는 **[!UICONTROL 지표 추가]** 옵션을 사용하여 보다 자세한 데이터 분류를 허용합니다.
 
-   최대 3개의 **[!UICONTROL Dimension]**, **[!UICONTROL 지표]** 및 **[!UICONTROL 세그먼트]**&#x200B;만 추가할 수 있습니다.
+   최대 3개의 **[!UICONTROL 차원]**, **[!UICONTROL 지표]** 및 **[!UICONTROL 세그먼트]**&#x200B;만 추가할 수 있습니다.
 
 이제 사용자 지정된 테이블 및 시각화 도구를 사용하여 데이터를 분석할 수 있습니다.
 
 <!--## Create a down-funnel metric {#down-funnel}
 
-1. Create a new journey or open an existing one. [Learn more on journey creation](../building-journeys/journey-gs.md)
+1. Create a new journey or open an existing one. [Learn more about journey creation](../building-journeys/journey-gs.md)
 
 1. On the canvas editor, select the option to "add a metric".
 

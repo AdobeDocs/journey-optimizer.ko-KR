@@ -1,18 +1,18 @@
 ---
-title: 의사 결정 관리 보호 및 제한 사항
+title: 의사 결정 관리 가드레일 및 제한 사항
 description: 의사 결정 관리 보호 및 제한 사항에 대해 자세히 알아보십시오.
 feature: Decisioning
 role: User
 level: Intermediate
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
-
-# 의사 결정 관리 보호 및 제한 사항 {#decision-management-guardrails}
+# 의사 결정 관리 가드레일 및 제한 사항 {#decision-management-guardrails}
 
 의사 결정 관리를 최적으로 사용하려면 다음 보호 기능 및 제한 사항을 염두에 두십시오.
 

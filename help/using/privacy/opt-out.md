@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->[이 섹션](../administration/object-based-access.md)에서는 OLAC(개체 수준 액세스 제어)에 대해 자세히 알아봅니다.
+>[이 섹션](../administration/object-based-access.md)에서 OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요.
 
 [!DNL Journey Optimizer] 캠페인에서 동의 정책은 다음과 같이 시행됩니다.
 
@@ -137,7 +137,7 @@ ht-degree: 97%
 
 또한 구성 워크플로에 분할 활동을 추가하여 대상자에 대한 개인화 동의 검사를 추가할 수 있습니다.
 
-1. **[!UICONTROL 대상자 구성]** 옵션을 사용하여 대상자를 만듭니다. [구성 워크플로 만들기에 대해 자세히 알아보기](../audience/get-started-audience-orchestration.md)
+1. **[!UICONTROL 대상자 구성]** 옵션을 사용하여 대상자를 만듭니다. [컴포지션 워크플로 만들기에 대해 자세히 알아보기](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 

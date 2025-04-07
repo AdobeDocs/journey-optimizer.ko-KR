@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 53%
@@ -41,7 +41,7 @@ ht-degree: 53%
 1. **속성**: 페이지 URL 또는 앱 번들
 1. **컨테이너**: 페이지/앱 활동의 위치
 
-아래 표에는 다양한 디바이스의 표면 URI 정의 예시가 일부 나와 있습니다.
+아래 테이블에는 다양한 디바이스의 표면 URI 정의 예시가 일부 나와 있습니다.
 
 **웹 및 모바일**
 
@@ -72,7 +72,7 @@ ht-degree: 53%
 
 [!DNL Journey Optimizer]에서 코드 기반 경험 채널은 두 가지 유형의 고객 구현을 지원합니다.
 
-* 웹 사이트용 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} 또는 모바일 앱용 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}를 기반으로 합니다.
+* 웹 사이트의 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} 또는 모바일 앱의 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}을 기반으로 합니다.
 * [AEP Edge Network 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR){target="_blank"}를 사용하는 서버측 또는 하이브리드.
 
 >[!NOTE]
@@ -83,7 +83,7 @@ ht-degree: 53%
 
 이러한 표면 URI는 구현 방법에 따라 구성되고 처리됩니다.
 
-* **웹/모바일 SDK**: 웹/모바일 SDK는 현재 URL/앱 ID와 위치 문자열을 기반으로 표면 URI를 자동으로 구성할 수 있으므로 웹/모바일 개발자는 이러한 세분화된 위치를 간단한 문자열로 정의해야 합니다.
+* **웹/모바일 SDK**: 웹/모바일 SDK은 현재 URL/앱 ID와 위치 문자열을 기반으로 표면 URI를 자동으로 구성할 수 있으므로 웹/모바일 개발자는 이러한 세분화된 위치를 간단한 문자열로 정의해야 합니다.
 
 * **Edge Network API**: 이 유형의 구현에는 전체 URI가 필요하므로 앱/페이지 개발자는 콘텐츠를 사용할 전체 경로와 위치를 포함하는 전체 표면 URI를 정의해야 합니다.
 
@@ -91,4 +91,4 @@ ht-degree: 53%
 
 * **[!UICONTROL Web]**, **[!UICONTROL iOS]** 및 **[!UICONTROL Android]** 플랫폼의 경우 **URL/앱 ID**&#x200B;와 **위치 또는 경로**&#x200B;를 입력하여 표면을 구성해야 합니다. [web](code-based-configuration.md#web) 및 [mobile](code-based-configuration.md#mobile) 플랫폼에 대한 코드 기반 경험 구성에 대해 자세히 알아보세요.
 
-* 플랫폼이 **[!UICONTROL 기타]**&#x200B;인 경우 [위](#surface-uri)의 예처럼 전체 **표면 URI**&#x200B;을 입력해야 합니다. [other](code-based-configuration.md#other) 플랫폼에 대한 코드 기반 경험 구성에 대해 자세히 알아보세요.
+* 플랫폼이 **[!UICONTROL 기타]**&#x200B;인 경우 [위](#surface-uri)의 예처럼 전체 **표면 URI**&#x200B;을 입력해야 합니다. [other](code-based-configuration.md#other) 플랫폼에 대한 코드 기반 경험을 구성하는 방법에 대해 자세히 알아보세요.

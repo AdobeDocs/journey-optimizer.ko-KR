@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2719'
 ht-degree: 15%
@@ -85,7 +85,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->[이 섹션](#segments-vs-decision-rules)에서 **대상** 대 **결정 규칙** 사용에 대해 자세히 알아보세요.
+>[이 섹션](#segments-vs-decision-rules)에서 **대상**&#x200B;과 **결정 규칙**&#x200B;을 사용하는 방법에 대해 자세히 알아보세요.
 
 * 기본적으로 **[!UICONTROL 모든 방문자]** 옵션이 선택됩니다. 즉, 모든 프로필에서 오퍼를 표시할 수 있습니다.
 
@@ -123,13 +123,13 @@ ht-degree: 15%
 
   한편으로는 대상자는 프로필 속성 및 경험 이벤트를 기반으로 특정 논리와 일치하는 Adobe Experience Platform 프로필 그룹입니다. 그러나 오퍼 관리에서는 대상을 다시 계산하지 않습니다. 오퍼를 표시할 때 최신이 아닐 수 있습니다.
 
-  [이 섹션](../../audience/about-audiences.md)의 대상자에 대해 자세히 알아보세요.
+  [이 섹션](../../audience/about-audiences.md)에서 대상자에 대해 자세히 알아보십시오.
 
 * **결정 규칙**
 
   반면, 의사 결정 규칙은 Adobe Experience Platform에서 사용 가능한 데이터를 기반으로 하며 오퍼를 표시할 수 있는 사용자를 결정합니다. 오퍼 또는 주어진 배치에 대한 의사 결정에서 선택되면 의사 결정이 내려질 때마다 규칙이 실행되어 각 프로필이 최신 오퍼와 최상의 오퍼를 얻도록 합니다.
 
-  [이 섹션](creating-decision-rules.md)에서 결정 규칙에 대해 자세히 알아보세요.
+  [이 섹션](creating-decision-rules.md)에서 의사 결정 규칙에 대해 자세히 알아보세요.
 
 ## 상한 설정 {#capping}
 

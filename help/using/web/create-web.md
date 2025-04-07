@@ -1,15 +1,15 @@
 ---
-title: 웹 경험 만들기
+title: '웹 경험 만들기 '
 description: Journey Optimizer에서 웹 페이지를 작성하고 콘텐츠를 편집하는 방법에 대해 알아봅니다
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1363'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -169,13 +169,13 @@ ht-degree: 17%
 >
 >여러 여정 또는 캠페인이 웹 사이트의 동일한 요소를 업데이트하는 경우, 우선 순위가 가장 높은 여정/캠페인이 우선합니다.
 
-### Publish a 웹 여정 {#activate-web-journey}
+### 웹 여정 게시 {#activate-web-journey}
 
 웹 경험을 여정에서 라이브로 만들려면 아래 단계를 따르십시오.
 
 1. 여정이 유효하고 오류가 없는지 확인합니다. [자세히 알아보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. 여정에서 오른쪽 상단 드롭다운 메뉴에 있는 **[!UICONTROL Publish]** 옵션을 선택합니다.
+1. 여정에서 오른쪽 상단 드롭다운 메뉴에 있는 **[!UICONTROL 게시]** 옵션을 선택합니다.
 
    ![](assets/web-journey-publish.png)
 
@@ -187,7 +187,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->**[!UICONTROL Publish]**&#x200B;을(를) 클릭하면 변경 내용을 웹 사이트에서 실시간으로 사용할 수 있게 되는 데 최대 15분이 걸릴 수 있습니다.
+>**[!UICONTROL 게시]**&#x200B;를 클릭하면 변경 내용을 웹 사이트에서 실시간으로 사용할 수 있게 되는 데 최대 15분이 걸릴 수 있습니다.
 
 ### 웹 캠페인 활성화 {#activate-web-campaign}
 
@@ -237,7 +237,7 @@ ht-degree: 17%
 >
 >웹 여정 또는 캠페인이 중지되면 다시 편집하거나 활성화할 수 없습니다. 복제하고 복제된 여정/캠페인만 활성화할 수 있습니다.
 
-## 방법 비디오{#video}
+## 사용 방법 비디오{#video}
 
 아래 비디오에서는 웹 캠페인을 만들고, 속성을 구성하고, 검토하고, 게시하는 방법을 보여 줍니다.
 

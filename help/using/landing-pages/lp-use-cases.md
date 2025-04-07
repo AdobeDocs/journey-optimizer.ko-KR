@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 12%
@@ -48,7 +48,7 @@ ht-degree: 12%
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. 랜딩 페이지를 [Publish](create-lp.md#publish).
+1. 랜딩 페이지를 [게시](create-lp.md#publish)합니다.
 
 1. [여정](../building-journeys/journey.md)에서 **이메일** 활동을 추가하여 등록 랜딩 페이지로 트래픽을 유도합니다.
 
@@ -94,7 +94,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->받는 사람의 동의 관리에 대한 자세한 내용 및 [이 섹션](../privacy/opt-out.md)에서 이 내용이 중요한 이유에 대해 자세히 알아보세요.
+>받는 사람의 동의 관리에 대해 자세히 알아보고 [이 섹션](../privacy/opt-out.md)에서 중요한 이유를 알아보세요.
 
 ### 옵트아웃 관리 {#opt-out-management}
 
@@ -141,7 +141,7 @@ ht-degree: 12%
    >
    >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션](create-lp.md#configure-primary-page)에서 만료 날짜 [을(를) 업데이트하는 방법을 알아보세요.
 
-1. Publish 를 실행하고 여정을 실행합니다. [자세히 알아보기](../building-journeys/journey.md).
+1. 여정을 게시하고 실행합니다. [자세히 알아보기](../building-journeys/journey.md).
 
 1. 메시지가 수신되면 수신자가 이메일의 구독 취소 링크를 클릭하면 랜딩 페이지가 표시됩니다.
 

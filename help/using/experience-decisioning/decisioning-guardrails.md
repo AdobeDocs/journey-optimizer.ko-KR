@@ -1,18 +1,18 @@
 ---
-title: 보호 및 제한 사항 결정
+title: 의사 결정 가드레일 및 제한 사항
 description: Decisioning 보호 및 제한 사항에 대해 자세히 알아봅니다.
 feature: Decisioning
 role: User
 level: Intermediate
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
-
-# 보호 및 제한 사항 결정 {#decisioning-guardrails}
+# 의사 결정 가드레일 및 제한 사항 {#decisioning-guardrails}
 
 Decisioning을 최적으로 사용하려면 다음 보호 기능 및 제한 사항을 염두에 두십시오.
 

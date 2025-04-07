@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Adobe Journey Optimizer을 사용하면 Adobe Experience Manager 사이트를 �
 
   Adobe Journey Optimizer에서 콘텐츠 템플릿을 만들고 편집하고 삭제하려면 **[!DNL Content Library Manager]** 제품 프로필에 **[!DNL Manage Library Items]** 권한이 포함되어 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
-## 보호 및 제한 사항{#aem-templates-limitations}
+## 가드레일 및 제한 사항{#aem-templates-limitations}
 
 Adobe Journey Optimizer과 함께 Adobe Experience Manager 사용을 더욱 최적화하려면 다음 추가 보호 기능 및 제한 사항에 유의해야 합니다.
 

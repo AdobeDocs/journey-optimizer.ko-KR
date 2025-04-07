@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 10%
@@ -145,7 +145,7 @@ Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인
 
 ![](assets/perso-features.png)
 
-* **[!UICONTROL 도우미 함수]** - 도우미 함수를 사용하면 계산, 데이터 서식 또는 전환, 조건 등 데이터에 대한 작업을 수행하고 개인 맞춤화의 컨텍스트에서 조작할 수 있습니다. [사용 가능한 도우미 함수에 대한 자세한 정보](functions/functions.md)
+* **[!UICONTROL 도우미 함수]** - 도우미 함수를 사용하면 계산, 데이터 서식 또는 전환, 조건 등 데이터에 대한 작업을 수행하고 개인 맞춤화의 컨텍스트에서 조작할 수 있습니다. [사용 가능한 도우미 기능에 대해 자세히 알아보기](functions/functions.md)
 
 * **[!UICONTROL 즐겨찾기]** - 즐겨찾기에 추가한 특성이 이 목록에 표시됩니다. 이를 통해 가장 자주 사용하는 항목에 빠르게 액세스할 수 있습니다. 즐겨찾기에 특성을 추가하려면 줄임표 메뉴를 클릭하고 **[!UICONTROL 즐겨찾기에 추가]**&#x200B;를 선택하십시오.
 

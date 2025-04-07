@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -105,7 +105,7 @@ Journey Optimizer의 대상자에게 의미 있는 태그를 추가하면 나중
 
 ### 태그 관리 {#manage-tags}
 
-관리자는 **[!UICONTROL 관리]** 아래의 **[!UICONTROL 태그]** 메뉴를 사용하여 태그를 삭제하고 카테고리별로 정리할 수 있습니다. 태그 관리에 대한 자세한 내용은 [통합 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=ko)를 참조하십시오.
+관리자는 **[!UICONTROL 관리]** 아래의 **[!UICONTROL 태그]** 메뉴를 사용하여 태그를 삭제하고 카테고리별로 정리할 수 있습니다. [통합 태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=ko)에서 태그 관리에 대해 자세히 알아보세요.
 
 >[!NOTE]
 >

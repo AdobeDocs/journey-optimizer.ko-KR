@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 ## 전제 조건 {#prerequisites}
 
-* **Adobe Experience Platform Web SDK** 확장에 최신 버전을 사용하고 있는지 확인하십시오.
+* **Adobe Experience Platform Web SDK** 확장 프로그램에 최신 버전을 사용하고 있는지 확인하십시오.
 
-* **태그 속성**&#x200B;에 **Adobe Experience Platform Web SDK** 확장을 설치하고 **Personalization 저장소** 옵션을 활성화하십시오.
+* **태그 속성**&#x200B;에 **Adobe Experience Platform Web SDK** 확장을 설치하고 **Personalization 저장소** 옵션을 사용하도록 설정합니다.
 
   이 구성은 클라이언트에서 이벤트 기록을 저장하는 데 필수적이며, 규칙 빌더에서 빈도 규칙을 구현하기 위한 전제 조건입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 1. **작업** 섹션에서 **추가**&#x200B;를 클릭하고 다음과 같이 구성하십시오.
 
-   * **확장**: Adobe Experience Platform 웹 SDK
+   * **확장**: Adobe Experience Platform Web SDK
 
    * **작업 유형**: 이벤트 보내기
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 
 1. **작업** 섹션에서 **추가**&#x200B;를 클릭하고 다음과 같이 구성하십시오.
 
-   * **확장**: Adobe Experience Platform 웹 SDK
+   * **확장**: Adobe Experience Platform Web SDK
 
    * **작업 유형**: 규칙 집합 평가
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-`자를 사용할 수도 있습니다.
+   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점 `.`, 하이픈 `-`도 사용할 수 있습니다.
 
 1. 구성에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택할 수 있습니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요](../administration/object-based-access.md).
 

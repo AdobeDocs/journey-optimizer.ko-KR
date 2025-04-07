@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 13%
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 랜딩 페이지 **[!UICONTROL 라이브 보고서]**&#x200B;는 게재의 성공 및 오류를 자세히 설명하는 여러 위젯으로 나뉩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 이 [섹션](live-report.md)을 참조하세요.
 
-+++랜딩 페이지 라이브 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
++++랜딩 페이지 라이브 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아봅니다.
 
 **[!UICONTROL 랜딩 페이지 성능]** 위젯은 KPI를 통해 지난 24시간 동안의 메시지와 관련된 기본 정보를 자세히 설명합니다.
 

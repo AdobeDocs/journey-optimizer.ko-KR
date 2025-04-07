@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 5%
@@ -19,8 +19,8 @@ Adobe Journey Optimizer에서 컨텐츠 카드를 올바르게 표시하려면 �
 
 * **Adobe Experience Platform 데이터 수집**
 
-  [데이터 스트림을 만들고](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) [Experience Platform 서비스를 추가](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep)합니다. **[!UICONTROL Edge 세그멘테이션]** 및 **[!UICONTROL Adobe Journey Optimizer]** 옵션을 사용하도록 설정하십시오. 이렇게 하면 Journey Optimizer 이벤트가 Adobe Experience Platform Edge Network에서 처리됩니다.
-보고서에 이 데이터를 포함하려면 데이터 집합에 **경험 이벤트 - 제안 상호 작용** 필드 그룹을 추가하십시오. [데이터스트림에 대한 자세한 정보](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+  [데이터 스트림을 만들고](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) [Experience Platform 서비스를 추가](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep). **[!UICONTROL Edge 세그멘테이션]** 및 **[!UICONTROL Adobe Journey Optimizer]** 옵션을 사용하도록 설정하십시오. 이렇게 하면 Journey Optimizer 이벤트가 Adobe Experience Platform Edge Network에서 처리됩니다.
+보고서에 이 데이터를 포함하려면 데이터 집합에 **경험 이벤트 - 제안 상호 작용** 필드 그룹을 추가하십시오. [데이터스트림에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer에서 컨텐츠 카드를 올바르게 표시하려면 �
 
 * **Adobe Experience Platform Mobile 또는 Platform Web SDK**
 
-  모바일 및 웹 애플리케이션의 경우 웹 페이지 또는 모바일 앱에 수정 사항을 추가하려면 웹 사이트에서 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/platform-learn/implement-web-sdk/overview) 또는 모바일 앱에서 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/)를 구현해야 합니다.
+  모바일 및 웹 응용 프로그램의 경우 웹 페이지 또는 모바일 앱에 수정 사항을 추가하려면 웹 사이트에서 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/platform-learn/implement-web-sdk/overview) 또는 모바일 앱에서 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/)을 구현해야 합니다.
 
 * **Journey Optimizer**
 
