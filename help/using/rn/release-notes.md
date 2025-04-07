@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b7148ebeedf8bfce8d244f676fe96172ea8904e0
+source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 69%
+source-wordcount: '758'
+ht-degree: 65%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 69%
 ## 2025년 4월 업데이트
 
 ### 개선 사항 {#25-04-improv}
+
+**이메일 디자이너**
+
+Journey Optimizer에서 액세스 가능성을 높이기 위해 이제 전자 메일 Designer에서 두 개의 새 필드를 사용할 수 있습니다. 두 필드는 전자 메일 콘텐츠의 `<html>` 요소에 있는 `<title>` 요소 및 `lang` 특성에 해당합니다. 전자 메일 **[!UICONTROL 본문]** 섹션에서 **[!UICONTROL Preheader]** 필드 외에 이러한 설정을 정의할 수 있습니다. [자세히 보기](../email/email-metadata.md)
 
 **샌드박스 도구** - 사용 가능한 날짜: 2025년 4월 3일
 
