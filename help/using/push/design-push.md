@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 1a4c452adeb6bca876d5c108065e0219353a2540
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1362'
 ht-degree: 17%
 
 ---
@@ -107,7 +107,7 @@ iOS 버전에서는 알림 범주 식별자가 지정됩니다. 표시할 버튼
 >title="푸시 알림에 대한 사용자 정의 데이터를 구성합니다."
 >abstract="모바일 애플리케이션 구성에 따라 페이로드에 사용자 정의 변수를 추가합니다."
 
-모바일 애플리케이션 구성에 따라 **[!UICONTROL 사용자 지정 데이터]** 섹션에서 페이로드에 사용자 지정 변수를 추가할 수 있습니다. Adobe Experience Platform 및 Adobe Launch에서 푸시 알림을 설정하는 방법에 대한 자세한 내용은 [이 섹션](push-gs.md)을 참조하세요.
+모바일 애플리케이션 구성에 따라 **[!UICONTROL 사용자 지정 데이터]** 섹션에서 페이로드에 사용자 지정 변수를 추가할 수 있습니다. Adobe Experience Platform에서 푸시 알림을 설정하는 방법에 대한 자세한 내용은 [이 섹션](push-gs.md)을 참조하세요.
 
 ## 고급 옵션 {#advanced-options-push}
 
