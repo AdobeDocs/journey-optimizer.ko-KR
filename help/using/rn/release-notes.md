@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: 88c938199412e38a08b4c94f283cb4d4e09ded2f
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '702'
 ht-degree: 70%
 
 ---
@@ -34,11 +34,9 @@ ht-degree: 70%
 
 이제 개인화 편집기의 속성 창에 기본적으로 채워진 속성만 표시됩니다. 모든 특성을 보려면 설정 단추를 사용하여 **[!UICONTROL 채워진 특성만 표시]** 옵션을 해제합니다. [자세히 보기](../personalization/personalization-build-expressions.md)
 
-**콘텐츠 관리**
+**콘텐츠 관리** - 사용 가능한 날짜: 2025년 4월 2일
 
-이제 폴더를 사용하여 콘텐츠 템플릿 및 조각을 구조화된 계층으로 보다 효과적으로 구성할 수 있습니다.
-
-[콘텐츠 템플릿](../content-management/access-content-templates.md#folders) 및 [조각](../content-management/manage-fragments.md#folders) 섹션에서 자세히 알아보세요.
+이제 폴더를 사용하여 콘텐츠 템플릿 및 조각을 구조화된 계층으로 보다 효과적으로 구성할 수 있습니다. [콘텐츠 템플릿](../content-management/access-content-templates.md#folders) 및 [조각](../content-management/manage-fragments.md#folders) 섹션에서 자세히 알아보세요.
 
 >[!AVAILABILITY]
 >
