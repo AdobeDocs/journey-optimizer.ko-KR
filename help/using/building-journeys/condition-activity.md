@@ -9,19 +9,25 @@ role: User
 level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 17%
+source-wordcount: '1541'
+ht-degree: 14%
 
 ---
 
-# 조건 활동{#condition-activity}
+# 조건 활동 {#condition-activity}
+
+## 조건 활동 추가 {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="조건 활동"
->abstract="이 활동을 사용하여 개인이 여정에 참여하는 방법을 정의할 수 있습니다. 다양한 기준에 따라 여러 경로가 만들어집니다. 시간이 초과되거나 오류가 발생한 경우 대체 경로를 만들 수도 있습니다."
+>abstract="**조건** 활동을 사용하면 특정 조건에 따라 여러 경로를 만들어 개인 사용자가 여정을 진행하는 방법을 정의할 수 있습니다. 시간 초과 또는 오류를 처리할 대체 경로를 구성하여 원활한 경험을 보장할 수도 있습니다."
+
+**조건** 활동을 사용하면 특정 조건에 따라 여러 경로를 만들어 개인 사용자가 여정을 진행하는 방법을 정의할 수 있습니다. 시간 초과 또는 오류를 처리할 대체 경로를 구성하여 원활한 경험을 보장할 수도 있습니다.
+
+![](assets/journey49.png)
 
 다음 유형의 조건을 사용할 수 있습니다.
 
@@ -31,9 +37,9 @@ ht-degree: 17%
 * [날짜 조건](#date_condition)
 * [프로필 상한](#profile_cap)
 
-![](assets/journey49.png)
+여정 조건에서 대상을 사용할 수도 있습니다. [자세히 알아보기](#using-a-segment)
 
-## 조건 활동 정보 {#about_condition}
+## 조건 경로 추가 및 관리 {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
@@ -48,7 +54,7 @@ ht-degree: 17%
 
 여정 디자인은 기능에 영향을 줍니다. 조건 후에 여러 개의 경로를 정의하면 첫 번째 적격 경로만 실행됩니다. 즉, 경로 우선순위를 서로 위나 아래에 배치하여 다르게 지정할 수 있습니다.
 
-예를 들어 첫 번째 경로의 조건인 &quot;사람은 VIP&quot;와 두 번째 경로의 조건인 &quot;사람은 남성&quot;을 예로 들어 보겠습니다. 두 조건을 모두 충족하는 사람(VIP인 남성)이 이 단계를 통과하면 첫 번째 경로가 &quot;위&quot;이기 때문에 이 사람도 두 번째 경로에 자격이 되더라도 첫 번째 경로가 선택됩니다. 이 우선 순위를 변경하려면 활동을 다른 세로 순서로 이동하십시오.
+첫 번째 경로의 조건인 &quot;사람은 VIP&quot;와 두 번째 경로의 조건인 &quot;사람은 남성&quot;의 예를 들어보자. 두 조건을 모두 충족하는 사람(VIP인 남성)이 이 단계를 통과하면 첫 번째 경로가 &quot;위&quot;이기 때문에 이 사람도 두 번째 경로에 자격이 되더라도 첫 번째 경로가 선택됩니다. 이 우선 순위를 변경하려면 활동을 다른 세로 순서로 이동하십시오.
 
 ![](assets/journey48.png)
 
@@ -102,7 +108,7 @@ ht-degree: 17%
 
 ## 비율 분할 {#percentage_split}
 
-이 옵션을 사용하면 대상을 임의로 분할하여 각 그룹에 대해 다른 작업을 정의할 수 있습니다. 각 경로에 대해 분할 수와 재분할 을 정의합니다. 시스템에서 이 여정 활동에서 유입되는 인원을 예상할 수 없으므로 분할 계산은 통계적입니다. 그 결과, 분할은 매우 낮은 오차 마진을 갖는다. 이 함수는 Java 임의 메커니즘을 기반으로 합니다([페이지](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html) 참조).
+이 옵션을 사용하면 대상을 임의로 분할하여 각 그룹에 대해 다른 작업을 정의할 수 있습니다. 각 경로에 대해 분할 수와 재분할 을 정의합니다. 시스템에서 이 여정 활동에서 유입되는 인원을 예상할 수 없으므로 분할 계산은 통계적입니다. 그 결과, 분할은 매우 낮은 오차 마진을 갖는다. 이 함수는 Java 임의 메커니즘을 기반으로 합니다([페이지](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"} 참조).
 
 테스트 모드에서는 분할에 도달할 때 항상 상단 분기가 선택됩니다. 검사에서 다른 경로를 선택하려는 경우 분할된 분기의 위치를 재구성할 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오
 
