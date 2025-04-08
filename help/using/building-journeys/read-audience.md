@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
 workflow-type: tm+mt
-source-wordcount: '1687'
-ht-degree: 11%
+source-wordcount: '1786'
+ht-degree: 10%
 
 ---
 
@@ -24,6 +24,41 @@ ht-degree: 11%
 >id="ajo_journey_read_segment"
 >title="대상자 읽기 활동"
 >abstract="대상자 읽기 활동을 사용하여 Adobe Experience Platform 대상자에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="시작 날짜/시간"
+>abstract="이 여정을 트리거할 날짜 및 시간을 정의합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="다음 시간까지 반복"
+>abstract="자동연장 종료일을 정의합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="반복 간격"
+>abstract="스케줄러 재작성 빈도를 정의합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="증분 읽기"
+>abstract="마지막으로 읽은 이후의 새 프로필만 여정에 들어가도록 허용합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="강제 재진입"
+>abstract="각 대상자가 읽기 전에 모든 여정 참가자를 드롭하십시오."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="대상자 내보내기와 여정 실행 동기화"
+>abstract="대상을 새로 내보낼 수 있게 되면 여정을 트리거하려면 이 옵션을 토글합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="대상자 내보내기와 여정 실행 동기화"
+>abstract="대상을 새로 내보낼 수 있도록 여정이 대기하는 기간을 지정합니다."
 
 **대상자 읽기** 활동을 사용하여 대상자의 모든 개인이 여정에 들어가도록 만듭니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 
