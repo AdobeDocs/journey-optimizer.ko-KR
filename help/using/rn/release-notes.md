@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 63%
+source-wordcount: '761'
+ht-degree: 61%
 
 ---
 
@@ -20,31 +20,33 @@ ht-degree: 63%
 >title="새로운 기능"
 >abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선, 버그 수정을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
 
-[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}에서 이러한 변경 사항에 대해 자세히 알아보세요.
 
 ## 2025년 4월 업데이트
 
 ### 개선 사항 {#25-04-improv}
 
-**이메일 디자이너**
 
-Journey Optimizer에서 액세스 가능성을 높이기 위해 이제 전자 메일 Designer에서 두 개의 새 필드를 사용할 수 있습니다. 두 필드는 전자 메일 콘텐츠의 `<html>` 요소에 있는 `<title>` 요소 및 `lang` 특성에 해당합니다. 전자 메일 **[!UICONTROL 본문]** 섹션에서 **[!UICONTROL Preheader]** 필드 외에 이러한 설정을 정의할 수 있습니다. [자세히 보기](../email/email-metadata.md)
+* **샌드박스 도구** - 사용 가능한 날짜: 2025년 4월 3일
 
-**샌드박스 도구** - 사용 가능한 날짜: 2025년 4월 3일
+  이제 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스 간에 캠페인을 복사할 수 있습니다. 캠페인은 프로필, 대상자, 스키마, 인라인 메시지 및 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다. 의사 결정 항목, 데이터 사용 레이블 및 언어 설정과 같은 일부 항목은 복사되지 않습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
 
-이제 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스 간에 캠페인을 복사할 수 있습니다. 캠페인은 프로필, 대상자, 스키마, 인라인 메시지 및 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다. 의사 결정 항목, 데이터 사용 레이블 및 언어 설정과 같은 일부 항목은 복사되지 않습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
+* **Personalization** - 사용 가능한 날짜: 2025년 4월 2일
 
-**Personalization** - 사용 가능한 날짜: 2025년 4월 2일
+  이제 개인화 편집기의 속성 창에 기본적으로 채워진 속성만 표시됩니다. 모든 특성을 보려면 설정 단추를 사용하여 **[!UICONTROL 채워진 특성만 표시]** 옵션을 해제합니다. [자세히 보기](../personalization/personalization-build-expressions.md)
 
-이제 개인화 편집기의 속성 창에 기본적으로 채워진 속성만 표시됩니다. 모든 특성을 보려면 설정 단추를 사용하여 **[!UICONTROL 채워진 특성만 표시]** 옵션을 해제합니다. [자세히 보기](../personalization/personalization-build-expressions.md)
+* **콘텐츠 관리** - 사용 가능한 날짜: 2025년 4월 2일
 
-**콘텐츠 관리** - 사용 가능한 날짜: 2025년 4월 2일
+  이제 폴더를 사용하여 콘텐츠 템플릿 및 조각을 구조화된 계층으로 보다 효과적으로 구성할 수 있습니다. [콘텐츠 템플릿](../content-management/access-content-templates.md#folders) 및 [조각](../content-management/manage-fragments.md#folders) 섹션에서 자세히 알아보세요.
 
-이제 폴더를 사용하여 콘텐츠 템플릿 및 조각을 구조화된 계층으로 보다 효과적으로 구성할 수 있습니다. [콘텐츠 템플릿](../content-management/access-content-templates.md#folders) 및 [조각](../content-management/manage-fragments.md#folders) 섹션에서 자세히 알아보세요.
+  >[!AVAILABILITY]
+  >
+  >이 개선 사항은 조직 집합(제한된 가용성)에만 사용할 수 있습니다.
 
->[!AVAILABILITY]
->
->이 개선 사항은 조직 집합(제한된 가용성)에만 사용할 수 있습니다.
+* **이메일 Designer** - 사용 가능한 날짜: 2025년 4월 1일
+
+  Journey Optimizer에서 액세스 가능성을 높이기 위해 이제 전자 메일 Designer에서 두 개의 새 필드를 사용할 수 있습니다. 두 필드는 전자 메일 콘텐츠의 `<html>` 요소에 있는 `<title>` 요소 및 `lang` 특성에 해당합니다. 전자 메일 **[!UICONTROL 본문]** 섹션에서 **[!UICONTROL Preheader]** 필드 외에 이러한 설정을 정의할 수 있습니다. [자세히 보기](../email/email-metadata.md)
+
 
 ## 2025년 3월 릴리스 정보 {#25-3-rn}
 
