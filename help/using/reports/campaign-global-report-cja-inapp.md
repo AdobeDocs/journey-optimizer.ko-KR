@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8a820441ccd8e36280eb001f7912860f7727b7b4
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '584'
 ht-degree: 3%
 
 ---
 
 # 인앱 캠페인 보고서 {#campaign-global-report-cja-inapp}
+
+>[!IMPORTANT]
+>
+>인앱 캠페인 및 여정에 대해 보고하려면 먼저 [이 페이지](../in-app/inapp-configuration.md#experiment-prerequisites)에 제공된 보고 사전 요구 사항을 따라야 합니다.
 
 >[!BEGINSHADEBOX]
 
