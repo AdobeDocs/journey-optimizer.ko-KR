@@ -20,7 +20,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
 >title="공급자 URL"
->abstract="외부 API에 연결할 URL을 지정하세요. 이 URL은 API의 기능과 기능에 접근하는 엔드포인트로 사용됩니다."
+>abstract="외부 API에 연결할 URL을 지정합니다. 이 URL은 API의 기능과 기능에 접근하는 엔드포인트로 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"

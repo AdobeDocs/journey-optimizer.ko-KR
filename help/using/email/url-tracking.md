@@ -21,7 +21,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
 >title="URL 추적 매개변수 정의"
->abstract="이 섹션을 사용하여 추적 매개변수를 이메일 콘텐츠에 있는 URL에 자동으로 추가합니다. 이 기능은 선택 사항입니다."
+>abstract="이 섹션을 사용하여 이메일 콘텐츠의 URL에 추적 매개변수를 자동으로 추가합니다. 이 기능은 선택 사항입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
