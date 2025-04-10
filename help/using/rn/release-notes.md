@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 61%
+ht-degree: 75%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 61%
 
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}에서 이러한 변경 사항에 대해 자세히 알아보세요.
 
-## 2025년 4월 업데이트
+## 25년 4월 업데이트
 
 ### 개선 사항 {#25-04-improv}
 
@@ -37,18 +37,18 @@ ht-degree: 61%
 
 * **콘텐츠 관리** - 사용 가능한 날짜: 2025년 4월 2일
 
-  이제 폴더를 사용하여 콘텐츠 템플릿 및 조각을 구조화된 계층으로 보다 효과적으로 구성할 수 있습니다. [콘텐츠 템플릿](../content-management/access-content-templates.md#folders) 및 [조각](../content-management/manage-fragments.md#folders) 섹션에서 자세히 알아보세요.
+  이제 폴더를 사용하여 콘텐츠 템플릿 및 조각을 구조화된 계층으로 보다 효과적으로 구성할 수 있습니다. [콘텐츠 템플릿](../content-management/access-content-templates.md#folders) 및 [조각](../content-management/manage-fragments.md#folders) 섹션에서 자세히 알아보십시오.
 
   >[!AVAILABILITY]
   >
-  >이 개선 사항은 조직 집합(제한된 가용성)에만 사용할 수 있습니다.
+  >이 개선 사항은 일부 조직에서만 사용할 수 있습니다(제한된 가용성).
 
 * **이메일 Designer** - 사용 가능한 날짜: 2025년 4월 1일
 
   Journey Optimizer에서 액세스 가능성을 높이기 위해 이제 전자 메일 Designer에서 두 개의 새 필드를 사용할 수 있습니다. 두 필드는 전자 메일 콘텐츠의 `<html>` 요소에 있는 `<title>` 요소 및 `lang` 특성에 해당합니다. 전자 메일 **[!UICONTROL 본문]** 섹션에서 **[!UICONTROL Preheader]** 필드 외에 이러한 설정을 정의할 수 있습니다. [자세히 보기](../email/email-metadata.md)
 
 
-## 2025년 3월 릴리스 정보 {#25-3-rn}
+## 25년 3월 릴리스 정보 {#25-3-rn}
 
 
 ### 새로운 기능 {#25-03-features}
@@ -196,17 +196,17 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 
 **구성**
 
-* 이제 채널 구성에 Adobe Experience Platform [통합 태그]를 할당할 수 있습니다. 이렇게 하면 쉽게 분류하고, 모든 목록에서 검색 및 탐색을 개선할 수 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md#channel-config-tags)
+* 이제 채널 구성에 Adobe Experience Platform 통합 태그를 할당할 수 있습니다. 이 방법으로 항목을 쉽게 분류하고, 모든 목록에서 검색과 탐색을 개선할 수 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md#channel-config-tags)
 
-* 이제 Journey Optimizer에서 이메일 하위 도메인을 설정하거나 편집할 때 상위 도메인에서 사용 가능한 경우 연결된 DMARC 레코드를 직접 관리하도록 선택할 수 있습니다. [자세히 알아보기](../configuration/dmarc-record.md#set-up-dmarc)
+* 이제 Journey Optimizer에서 이메일 하위 도메인을 설정하거나 편집할 때 연결된 DMARC 레코드를 상위 도메인에서 사용 가능한 경우 직접 관리하도록 선택할 수 있습니다. [자세히 알아보기](../configuration/dmarc-record.md#set-up-dmarc)
 
 **비즈니스 규칙**
 
 이제 배치 세분화를 통해 여정 및 캠페인에서 일일 캡핑을 사용할 수 있습니다. 일일 캡핑 규칙의 정확도를 보장하려면 캠페인이나 여정을 작성할 때 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보세요.
 
-다시 말해서, 규칙 세트의 일일 빈도 제한은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+다시 말씀드리지만, 규칙 세트의 일일 캡핑은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
-비즈니스 규칙에 대한 자세한 내용은 [자세한 설명서](../configuration/rule-sets.md)를 참조하세요.
+비즈니스 규칙에 대한 자세한 내용은 [세부 설명서](../configuration/rule-sets.md)를 참조하십시오.
 
 <!--**Deliverability**
 

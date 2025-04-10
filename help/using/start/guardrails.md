@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2471'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 91%
 
 [!DNL Adobe Journey Optimizer] 사용 시 다음과 같은 추가 가드레일 및 제한 사항이 있습니다.
 
-자격, 제품 제한 사항, 성능 가드레일 목록은 [Adobe Journey Optimizer 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에서 확인하실 수 있습니다.
+자격, 제품 제한 사항 및 성능 보호는 [Adobe Journey Optimizer 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)에 나와 있습니다.
 
-시작 전 [실시간 고객 프로필 데이터 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}에 대해 알고 있어야 합니다.
+시작하기 전에 실시간 고객 프로필 데이터에 대한 [보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko)을 알고 있어야 합니다.
 
 ## 지원되는 브라우저 {#browsers}
 
@@ -45,14 +45,14 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 이메일 가드레일 {#message-guardrails}
 
-[전자 메일 채널](../email/get-started-email.md)에 다음 보호 기능이 적용됩니다.
+[이메일 채널](../email/get-started-email.md)에 다음 가드레일이 적용됩니다.
 
 * [!DNL Journey Optimizer]에서는 이메일에 첨부 파일을 추가할 수 없습니다.
 * 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.
 
 ### SMS 가드레일 {#sms-guardrails}
 
-[SMS 채널](../sms/get-started-sms.md)에 다음과 같은 보호 기능이 적용됩니다.
+[SMS 채널](../sms/get-started-sms.md) 활동에 다음 가드레일이 적용됩니다.
 
 * 지원 URL을 통해 MMS에 넣을 미디어 파일을 포함할 수 있습니다. 미디어 파일이 별도로 업로드되는지 확인해야 합니다.
 * 현재 MMS에는 메시지 피드백 동기화를 사용할 수 없습니다.
@@ -60,9 +60,9 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 웹 채널 가드레일 {#web-guardrails}
 
-[!DNL Journey Optimizer] [웹 캠페인](../web/get-started-web.md)은(는) 다른 채널에서 이전에 참여하지 않은 새 프로필을 타겟팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로, 사용자가 계약 시 구입한 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 
+[!DNL Journey Optimizer] [웹 캠페인](../web/get-started-web.md)은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타기팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로, 사용자가 계약 시 구입한 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 
 
-각 패키지별 라이선스 지표 목록은 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에서 확인할 수 있습니다.
+각 패키지에 대한 라이선스 지표는 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html) 페이지에 나와 있습니다.
 
 ### 코드 기반 채널 가드레일 {#code-based-guardrails}
 
@@ -70,7 +70,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ## 랜딩 페이지 보호 {#lp-guardrails}
 
-다음 보호 기능이 [랜딩 페이지](../landing-pages/get-started-lp.md)에 적용됩니다.
+[랜딩 페이지](../landing-pages/get-started-lp.md)에 다음 가드레일이 적용됩니다.
 
 * 하나의 기본 페이지에서 하나의 **양식** 구성 요소만 사용할 수 있습니다.
 * **양식** 구성 요소는 하위 페이지에서 사용할 수 없습니다.
@@ -87,7 +87,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ## 조각 가드레일 {#fragments-guardrails}
 
-[조각](../content-management/fragments.md)에 다음 보호 기능이 적용됩니다.
+[조각](../content-management/fragments.md)에 다음 가드레일이 적용됩니다.
 
 * 시각적 조각은 이메일 채널에만 사용할 수 있습니다.
 * 인앱 채널에는 표현식 조각을 사용할 수 없습니다.
@@ -119,7 +119,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 일반 작업  {#general-actions-g}
 
-여정의 [작업](../building-journeys/about-journey-activities.md)에 다음과 같은 보호 기능이 적용됩니다.
+여정의 [작업](../building-journeys/about-journey-activities.md)에 다음 가드레일이 적용됩니다.
 
 * 오류가 발생하면 시스템에서 세 번 다시 시도합니다. 수신된 오류 메시지에 따라 재시도 횟수를 조정할 수 없습니다. HTTP 401, 403, 404를 제외한 모든 HTTP 오류에 대해 다시 시도됩니다.
 * 기본으로 제공되는 **반응** 이벤트를 사용하면 즉시 사용 가능한 작업에 반응할 수 있습니다. [이 페이지](../building-journeys/reaction-events.md)에서 자세히 알아보세요. 사용자 정의 액션을 통해 보낸 메시지에 반응하려면 전용 이벤트를 구성해야 합니다.
@@ -128,7 +128,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 여정 버전 {#journey-versions-g}
 
-[여정 버전](../start/user-interface.md)에는 다음 보호 기능이 적용됩니다.
+[여정 버전](../start/user-interface.md)에 다음 가드레일이 적용됩니다.
 
 * v1에서 이벤트 활동으로 시작하는 여정은 이후 버전에서 이벤트 이외의 다른 것으로 시작할 수 없습니다. **대상자 선별** 이벤트로 여정을 시작할 수 없습니다.
 * v1에서 **대상자 선별** 활동으로 시작하는 여정은 이후 버전에서도 항상 **대상자 선별**&#x200B;로 시작해야 합니다.
@@ -139,7 +139,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 사용자 정의 액션 {#custom-actions-g}
 
-여정의 [사용자 지정 작업](../action/action.md)에 다음과 같은 보호 기능이 적용됩니다.
+여정의 [사용자 정의 작업](../action/action.md)에 다음 가드레일이 적용됩니다.
 
 * 모든 사용자 정의 작업의 호스트 및 샌드박스당 1분간 300,000개의 호출 상한 설정이 정의됩니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 이는 적절한 읽기 속도(사용자 정의 작업 사용 시 프로필 5,000개/초)를 정의함으로써 대상자 기반 여정에서 고려되어야 합니다. 필요한 경우 Capping/Throttling API를 통해 상한 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
 * 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다. 
@@ -156,7 +156,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 이벤트 {#events-g}
 
-여정의 [이벤트](../event/about-events.md)에 다음 보호 기능이 적용됩니다.
+여정의 [이벤트](../event/about-events.md)에 다음 가드레일이 적용됩니다.
 
 * Journey Optimizer가 지원하는 인바운드 여정 이벤트의 최대 볼륨은 초당 5,000개입니다.
 * 이벤트 트리거 여정의 첫 번째 액션을 처리하는 데에는 최대 5분이 걸릴 수 있습니다.
@@ -167,7 +167,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 데이터 소스  {#data-sources-g}
 
-여정의 [데이터 원본](../datasource/about-data-sources.md)에 다음 보호 기능이 적용됩니다.
+여정의 [데이터 원본](../datasource/about-data-sources.md)에 다음 가드레일이 적용됩니다.
 
 * 고객 여정 내에서 외부 데이터 소스를 활용하여 실시간으로 외부 데이터를 조회할 수 있습니다. 이러한 소스는 REST API를 통해 사용할 수 있어야 하고 JSON을 지원하고 요청 볼륨을 처리할 수 있어야 합니다.
 * 내부 Adobe 주소(`.adobe.*`)는 URL 및 API에 사용할 수 없습니다.
@@ -194,7 +194,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 ### 대상자 읽기 {#read-segment-g}
 
-[대상자 읽기](../building-journeys/read-audience.md) 여정 활동에는 다음 보호 기능이 적용됩니다.
+[대상자 읽기](../building-journeys/read-audience.md) 여정 활동에 다음 가드레일이 적용됩니다.
 
 * 스트리밍 대상자는 항상 최신 상태이지만 일괄 처리 대상자는 검색하는 순간에 계산되지 않습니다. 일일 배치 평가 시간에만 매일 평가됩니다.
 * **대상자 읽기** 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 여정의 최대 개수가 정해져 있습니다. 시스템에서 재시도를 수행하기는 하지만, 정확히 같은 시간에 다섯 개가 넘는 여정(**대상자 읽기** 활동이 있거나 예약했거나 “최대한 빨리” 시작하는 여정)을 실행하는 것을 피하기 위해 5~10분 간격을 두는 등 시간을 분산하는 것이 좋습니다.
@@ -204,21 +204,21 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 * [이 페이지](../building-journeys/read-audience.md)에서 **대상자 읽기** 활동을 사용하는 방법에 대한 권장 사항도 참조하세요.
 * 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에서 기본적으로 다시 시도가 적용됩니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다.
 
-### 대상 자격 조건 {#audience-qualif-g}
+### 대상자 선별 {#audience-qualif-g}
 
-[대상 자격](../building-journeys/audience-qualification-events.md) 여정 활동에 다음 보호가 적용됩니다.
+[대상자 선별](../building-journeys/audience-qualification-events.md) 여정 활동에 다음 가드레일이 적용됩니다.
 
 * 대상자 선별 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
 
 ### 표현식 편집기  {#expression-editor}
 
-[여정 식 편집기](../building-journeys/expression/expressionadvanced.md)에 다음 보호가 적용됩니다.
+[여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md)에 다음 가드레일이 적용됩니다.
 
 * 경험 이벤트 필드 그룹은 대상자 읽기, 대상자 선별 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다. 새 대상자를 만들고 여정에서 대상자 내 조건을 사용해야 합니다.
 
 ### 인앱 활동 {#in-app-activity-limitations}
 
-**[!UICONTROL 인앱 메시지]** 작업에 다음 보호 기능이 적용됩니다. [이 페이지](../in-app/create-in-app.md)에서 인앱 메시지에 대해 자세히 알아보세요.
+**[!UICONTROL 인앱 메시지]** 작업에 다음 가드레일이 적용됩니다. [이 페이지](../in-app/create-in-app.md)에서 인앱 메시지에 대해 자세히 알아보세요.
 
 * 현재 Healthcare 고객에게는 이 기능이 제공되지 않습니다.
 

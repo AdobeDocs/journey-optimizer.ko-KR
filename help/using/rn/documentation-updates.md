@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 94%
 * 이메일 메시지에 링크를 삽입하고 추적을 활성화하는 작업에 대한 섹션을 업데이트 및 재구성했습니다. [자세히 보기](../email/message-tracking.md)
 * Adobe Journey Optimizer의 개인화 기능에 대한 섹션을 재구성하고 개선했습니다. [자세히 보기](../personalization/personalize.md)
 * 개인화된 오퍼를 나열하는 의사 결정 관리 API는 응답에서 여러 개인화된 오퍼가 누락된 경우 페이지 매김을 수행하는 샘플을 포함하도록 업데이트되었습니다. [자세히 보기](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-* 목록 구독 취소 기능에 대한 모든 정보를 수집하는 새 페이지가 작성되어 명확성이 향상되었습니다. [자세히 보기](../email/list-unsubscribe.md)
-* 빈도 설정 섹션은 Edge Decisioning API 외에도 Decisioning 및 Batch Decisioning API에 대한 빈도 설정 카운터가 어떻게 업데이트되는지에 대한 정보로 업데이트되었습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
+* 명료성을 개선하기 위해 [목록 구독 취소] 기능에 대한 모든 정보를 모은 새 페이지를 만들었습니다. [자세히 보기](../email/list-unsubscribe.md)
+* [빈도 캡핑] 섹션에서 Edge Decisioning API 외에도 Decisioning 및 Batch Decisioning API에 대한 빈도 캡핑 카운터가 어떻게 업데이트되는지에 대한 정보를 업데이트했습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## 2025년 2월 {#feb-2025}
 
