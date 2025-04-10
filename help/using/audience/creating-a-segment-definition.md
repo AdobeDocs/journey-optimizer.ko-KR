@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
+source-git-commit: 9fcf0e07edad27ab1eac3c29b26888fd99e26751
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 19%
+source-wordcount: '1017'
+ht-degree: 17%
 
 ---
 
@@ -120,11 +120,7 @@ Edge 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 [
 
 대상을 처음 정의한 후 자격이 주어지면 프로필이 대상에 추가됩니다. 이전 데이터를 사용하여 대상자를 다시 채우는 데 최대 24시간이 걸릴 수 있습니다. 대상자를 다시 채운 후 대상자는 계속 최신 상태로 유지되며 언제든 타겟팅할 수 있습니다.
 
-## [!BADGE 제한 공개]{type=Informative} 유연한 대상자 평가 {#flexible}
-
->[!AVAILABILITY]
->
-유연한 대상자 평가는 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+## 유연한 대상 평가 {#flexible}
 
 Adobe Experience Platform 대상 포털을 사용하면 선택한 대상에 대해 온디맨드로 세분화 작업을 실행할 수 있으므로 Journey Optimizer 여정 및 캠페인에 타겟팅하기 전에 항상 최신 대상 데이터를 보유하게 됩니다.
 
