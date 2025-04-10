@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aa5170ec5d195ec22684d748cd3520dfa8400fed
+source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 71%
+source-wordcount: '867'
+ht-degree: 69%
 
 ---
 
@@ -24,8 +24,28 @@ ht-degree: 71%
 
 ## 25년 4월 업데이트
 
-### 개선 사항 {#25-04-improv}
+### 새로운 기능 {#25-04-feature}
 
+<table>
+<thead>
+<tr>
+<th><strong>여정 지표</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정 지표를 사용할 수 있으므로 비즈니스의 주요 지표에서 활동이 미치는 영향을 측정하고 성능에 대한 보다 명확한 통찰력을 제공할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../building-journeys/success-metrics.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 4월 9일</p>
+</br>
+<img src="assets/do-not-localize/success-metric.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항 {#25-04-improv}
 
 * **샌드박스 도구** - 사용 가능한 날짜: 2025년 4월 3일
 

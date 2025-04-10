@@ -8,13 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
-hide: true
-hidefromtoc: true
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
