@@ -35,7 +35,7 @@ ht-degree: 7%
 
 [!DNL Journey Optimizer] 경험의 전달성을 최적화하려면 이 섹션에 나열된 모범 사례를 사용하는 것이 좋습니다. 전달성 문제는 일반적으로 인터넷 서비스 공급자(ISP) 및 메일 서버 관리자가 구현하는 스팸을 방지하는 것과 관련이 있습니다.
 
-전달성의 의미에 대해 자세히 알아보고 주요 전달성 용어, 개념 및 접근 방식에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target="_blank"}를 참조하세요.
+전달성의 의미에 대해 자세히 알아보고 주요 전달성 용어, 개념 및 접근 방식에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하세요.
 
 ## 고객 불만 신고율 감소 {#reduce-complaint-rate}
 
@@ -100,8 +100,8 @@ Adobe Journey Optimizer는 최적의 전달성을 위한 모범 사례에 따라
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="일부 하위 도메인은 사용하지 못할 수 있습니다."
->abstract="현재 피드백 루프 등록이 보류되어 특정 하위 도메인을 선택할 수 없습니다. 이 과정은 영업일 기준 최대 10일 정도 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다."
+>title="일부 하위 도메인 사용 불가"
+>abstract="일부 하위 도메인은 현재 피드백 루프 등록이 보류 중이므로 선택할 수 없습니다. 이 프로세스는 영업일 기준 최대 10일이 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="하위 도메인 위임 시작"
 
 FBL(피드백 루프)은 일부 ISP에서 제공하는 서비스로, 이메일을 받은 사용자가 이메일을 스팸으로 표시하도록 선택하면 이메일 발신자에게 자동으로 알림을 보낼 수 있습니다(&quot;컴플레인&quot;이라고도 함).
@@ -110,7 +110,7 @@ FBL(피드백 루프)은 일부 ISP에서 제공하는 서비스로, 이메일�
 
 >[!IMPORTANT]
 >
->모든 ISP가 Gmail과 같은 기존 FBL을 제공하는 것은 아닙니다. Gmail은 개별 수준 피드백을 제공하지 않으며, Google Postmaster 도구 내의 집계 수준 보고에 중점을 두고 개별 수신자에게 스팸 불만을 추적하는 데 사용할 수 없습니다. [자세히 알아보기](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
+>모든 ISP가 Gmail과 같은 기존 FBL을 제공하는 것은 아닙니다. Gmail은 개별 수준 피드백을 제공하지 않으며, Google Postmaster 도구 내의 집계 수준 보고에 중점을 두고 개별 수신자에게 스팸 불만을 추적하는 데 사용할 수 없습니다. [자세히 알아보기](https://support.google.com/a/answer/6254652?hl=en)
 
 모든 Adobe 고객은 자동으로 다음 ISP의 기존 FBL에 등록됩니다.
 
