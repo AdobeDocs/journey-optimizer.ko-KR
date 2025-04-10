@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 23%
+source-wordcount: '1344'
+ht-degree: 22%
 
 ---
 
@@ -24,11 +24,14 @@ ht-degree: 23%
 
 1. [파일을 내보낼 서버를 지정하고 필요한 경우 파일을 암호화하는 파일 라우팅 구성](#file-routing-configuration)입니다.
 
-   >[!CAUTION]
-   >
-   >파일 라우팅 구성을 만들려면 **[!DNL Manage file routing]** 기본 제공 권한이 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. 파일 라우팅 구성을 참조할 [DM 구성](#direct-mail-configuration)입니다. 파일 라우팅 옵션을 구성하지 않은 경우 DM 구성을 만들 수 없습니다.
+
+
+>[!CAUTION]
+>
+>* 파일 라우팅 구성을 만들려면 **[!DNL Manage file routing]** 기본 제공 권한이 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+>
+>* DM 파일은 내보내기 시에만 생성되며 시스템은 오래된 내보내기를 무한정 저장하지 않습니다. 더 길거나 영구적인 백업을 위해 파일 라우팅 옵션(SFTP 또는 클라우드 저장소)을 구성합니다.
 
 ## 파일 라우팅 구성 {#file-routing-configuration}
 

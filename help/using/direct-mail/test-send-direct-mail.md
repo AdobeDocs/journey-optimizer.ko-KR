@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ DM 캠페인을 활성화하기 전에 캠페인과 추출 파일이 제대로 �
 
 DM 캠페인이 준비되면 **[!UICONTROL 활성화]** 단추를 클릭하세요. 캠페인이 시작되면 추출 파일이 자동으로 생성되고 [파일 라우팅 구성](../direct-mail/direct-mail-configuration.md)에 지정된 서버로 내보내집니다.
 
-DM을 전송하면 캠페인 보고서 내에서 DM 캠페인의 영향을 측정할 수 있습니다. 보고에 대한 자세한 정보는 이 섹션 을 참조하십시오.
+DM을 전송하면 캠페인 보고서 내에서 DM 캠페인의 영향을 측정할 수 있습니다. DM 보고에 대한 자세한 내용은 [이 섹션](../reports/campaign-global-report-cja-direct.md)을 참조하세요.
 
 ## DM에 대한 동의 관리 {#dm-consent-management}
 
