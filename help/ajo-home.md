@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!TAB 25년 3월 릴리스]
 
-3월 릴리스가 공개되었습니다! 릴리스 정보에서 새로운 기능, 변경 사항 및 개선 사항을 확인하십시오.
+3월 릴리스가 공개되었습니다! 릴리스 정보에서 새로운 기능, 변경 사항, 개선 사항을 확인하십시오.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
