@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 18%
+source-wordcount: '568'
+ht-degree: 16%
 
 ---
 
@@ -43,6 +43,12 @@ Infobip을 사용할 때 전달 작업이 끌어오기 구성으로 설정되어
 키워드 응답 STOP, UNSTOP, START, QUIT, CANCEL, END 및 UNSUBSCRIBE가 자동으로 인식되므로, Adobe Journey Optimizer에서 SMS 옵트아웃 기능이 작동하는지 확인하는 데는 단계가 필요하지 않습니다. 프로필 옵트아웃 상태는 Adobe Journey Optimizer에서 실시간으로 업데이트됩니다.
 
 고객이 텍스트 메시지에 대해 STOP에 응답하면, 공급자는 트랜잭션 메시지를 포함하여 해당 특정 발신자 ID(짧은 코드 또는 긴 번호)에서 모든 후속 SMS를 차단합니다. 트랜잭션 SMS를 중단 없이 게재하려면 이전에 옵트아웃되지 않은 별도의 발신자 ID를 사용하십시오.
+
+
+>[!NOTE]
+>
+>양방향 SMS(STOP, QUIT 등으로 회신)를 사용할 계획이라면 먼저 하나 이상의 단방향 SMS를 전송하여 전화 번호를 프로필 매핑으로 설정해야 합니다. 공급자 자격 증명이 만료되거나 잘못 구성되면 인바운드 키워드가 사용자 프로필을 업데이트하지 못해 옵트아웃 레코드가 누락되거나 지연됩니다.
+
 
 ## 차단 목록 {#sms-blocklists}
 
