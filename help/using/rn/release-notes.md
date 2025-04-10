@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
+source-git-commit: aa5170ec5d195ec22684d748cd3520dfa8400fed
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 75%
+source-wordcount: '823'
+ht-degree: 71%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 75%
 >title="새로운 기능"
 >abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선, 버그 수정을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
 
-[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}에서 이러한 변경 사항에 대해 자세히 알아보세요.
+[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 25년 4월 업데이트
 
@@ -145,13 +145,29 @@ ht-degree: 75%
 <td>
 <p>이제 마케팅 효율을 높이고 브랜드 일관성을 유지하기 위해 GenStudio for Performance Marketing 경험을 Journey Optimizer와 원활하게 통합할 수 있습니다. 이를 통해 Journey Optimizer의 고급 오케스트레이션 기능과 함께 GenStudio의 AI 기반 콘텐츠 생성을 활용할 수 있습니다.<p>
 <p>Journey Optimizer의 GenStudio 통합은 현재 Healthcare Shield 또는 Privacy and Security Shield와 함께 사용할 수 없습니다(제한된 가용성).</p>
-<p>자세한 내용은 <a href="../integrations/genstudio.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../integrations/genstudio.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/genstudio.gif"/>
 </td>
 </tr>
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>유연한 대상 평가(GA)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이전에는 조직 집합(LA)에서 사용할 수 있었지만, 이제 모든 사용자(GA)가 유연한 대상 평가를 사용할 수 있습니다. 이 기능을 사용하면 선택한 대상에 대해 온디맨드로 세분화 작업을 실행할 수 있으므로 Journey Optimizer 여정 및 캠페인에 타겟팅하기 전에 항상 최신 대상 데이터를 유지할 수 있습니다.</p>
+<img src="assets/do-not-localize/flexible-audience.gif">
+<p>자세한 내용은 <a href="../audience/creating-a-segment-definition.md#flexible">자세한 설명서</a>를 참조하세요.</p>
+</tr>
+</tbody>
+</table>
+</table>
 
 <!--table>
 <thead>
