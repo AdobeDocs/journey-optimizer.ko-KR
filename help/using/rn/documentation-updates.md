@@ -8,16 +8,26 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+source-git-commit: e8e3b002bf614e49c6ef098b6f2475d65bb47112
+workflow-type: tm+mt
+source-wordcount: '1041'
+ht-degree: 92%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Journey Optimizer] 설명서 최신 업데이트 내용이 모두 포함되어 있습니다.
+
+
+## 2025년 4월 {#apr-2025}
+
+* DM 구성 페이지에 출력 파일의 임시 저장소에 대한 메모를 추가했습니다. [자세히 보기](../direct-mail/direct-mail-configuration.md)
+* 여정 고급 표현식 편집기 섹션에 조건 형식 지침에 대한 팁을 추가했습니다. [자세히 보기](../building-journeys/expression/expressionadvanced.md)
+* 대상 이름을 바꿀 때 미치는 영향 및 모범 사례에 대한 주의 메모를 `inAudience` 함수 섹션에 추가했습니다. [자세히 보기](../building-journeys/functions/functioninaudience.md)
+* 양방향 SMS 사용 시 기본 키워드 사용에 대한 권장 사항이 추가되었습니다. [자세히 보기](../sms/sms-opt-out.md)
+* 사용된 이벤트에 ID 네임스페이스를 포함할 필요성에 대한 메모로 여정 테스트 페이지를 업데이트했습니다. [자세히 보기](../building-journeys/testing-the-journey.md)
+
 
 ## 2025년 3월 {#mar-2025}
 
