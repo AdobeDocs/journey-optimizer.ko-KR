@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience, 함수, 표현식, 여정
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
+source-git-commit: 385e27fd4ea34f6a10b8da6b99a2c888edf9d57e
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '229'
 ht-degree: 5%
 
 ---
@@ -36,6 +36,11 @@ ht-degree: 5%
 `inAudience('audienceName') == true`은(는) 입력한 상태의 segmentMembership이 있음을 의미합니다.
 
 `inAudience('audienceName') == false`은(는) 종료한 상태의 segmentMembership이 있음을 의미합니다.
+
+
+>[!IMPORTANT]
+>
+>기존 대상자의 이름을 변경해도 여정 표현식에서 해당 대상자에 대한 참조가 자동으로 업데이트되지 않습니다. 조건 노드에서 `inAudience('oldAudienceName')`을(를) 사용하는 경우 새 이름을 사용하도록 식을 수동으로 편집해야 합니다. 이렇게 하지 않으면 여정 조건이 중단됩니다.
 
 ## 카테고리
 
@@ -65,7 +70,3 @@ Adobe Experience Platform
 
 이 함수는 여정 인스턴스 내의 개인이 &quot;50세 이상의 남성&quot;이라는 Adobe Experience Platform 대상의 일부인 경우 **[!UICONTROL true]**&#x200B;을 반환하고, 그렇지 않은 경우 **[!UICONTROL false]**&#x200B;을 반환합니다.
 
-
->[!CAUTION]
->
->기존 대상자의 이름을 변경해도 여정 표현식에서 해당 대상자에 대한 참조가 자동으로 업데이트되지 않습니다. 조건 노드가 inAudience(&#39;oldAudienceName&#39;)를 사용하는 경우 새 이름을 사용하도록 표현식을 수동으로 편집해야 합니다. 이렇게 하지 않으면 여정 조건이 중단됩니다.
