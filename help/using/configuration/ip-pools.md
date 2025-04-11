@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, 풀, 그룹, 하위 도메인, 전달성
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 10%
@@ -68,7 +68,7 @@ IP를 선택하면 목록에서 IP와 연결된 PTR 레코드를 볼 수 있습�
 
 >[!NOTE]
 >
->IP에 대해 구성된 PTR 레코드가 없는 경우 해당 IP를 선택할 수 없습니다. 해당 IP의 PTR 기록을 구성하려면 Adobe 담당자에게 문의하십시오.
+>IP에 대해 구성된 PTR 레코드가 없는 경우 해당 IP를 선택할 수 없습니다. 해당 IP의 PTR 레코드를 구성하려면 Adobe 담당자에게 문의하십시오.<!--Now this only happens when first subdomain delegated to Adobe is with CNAME method.-->
 
 IP 풀이 만들어지면 IP 풀 드롭다운 목록 아래에 표시된 IP 주소 위로 마우스를 가져가면 PTR 정보가 표시됩니다.
 

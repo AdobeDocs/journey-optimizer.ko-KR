@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 하위 도메인, 구성
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 23%
+source-wordcount: '968'
+ht-degree: 19%
 
 ---
 
@@ -144,3 +144,38 @@ ht-degree: 23%
 1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. 랜딩 페이지 사전 설정을 만드는 데 사용할 준비가 되었습니다.
 
    호스팅 솔루션에서 유효성 검사 레코드를 만들지 못하면 하위 도메인이 **[!UICONTROL 실패]**(으)로 표시됩니다.
+
+## 하위 도메인 위임 취소 {#undelegate-subdomain}
+
+랜딩 페이지 하위 도메인의 위임을 취소하려면 Adobe 담당자에게 문의하십시오.
+
+하지만 Adobe에 도달하기 전에 사용자 인터페이스에서 여러 단계를 수행해야 합니다.
+
+>[!NOTE]
+>
+>**[!UICONTROL 성공]** 상태의 하위 도메인만 위임해제할 수 있습니다. **[!UICONTROL 초안]** 및 **[!UICONTROL 실패]** 상태의 하위 도메인은 사용자 인터페이스에서 삭제할 수 있습니다.
+
+먼저 [!DNL Journey Optimizer]에서 다음 단계를 수행하십시오.
+
+1. 하위 도메인과 연관된 모든 랜딩 페이지의 게시를 취소합니다. [방법 알아보기](create-lp.md#access-landing-pages)
+
+1. 하위 도메인과 연관된 모든 채널 구성을 비활성화합니다. [방법 알아보기](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+<!--
+1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)
+
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
+-->
+
+완료되면 위임을 해제할 하위 도메인을 사용하여 Adobe 담당자에게 문의하십시오.
+
+요청이 Adobe에 의해 처리되면 위임되지 않은 도메인이 더 이상 하위 도메인 인벤토리 페이지에 표시되지 않습니다.
+
+>[!CAUTION]
+>
+>하위 도메인이 위임되지 않은 후:
+>
+>   * 해당 하위 도메인을 사용 중이던 채널 구성을 다시 활성화할 수 없습니다.
+>   * 사용자 인터페이스를 통해 정확한 하위 도메인을 다시 위임할 수 없습니다. 원하는 경우 Adobe 담당자에게 문의하십시오.

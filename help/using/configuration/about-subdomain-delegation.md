@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 최적화 도구, 위임
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 30%
@@ -104,3 +104,4 @@ ht-degree: 30%
 >[!CAUTION]
 >
 >하위 도메인 구성은 모든 환경에 공통됩니다. 따라서 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
+

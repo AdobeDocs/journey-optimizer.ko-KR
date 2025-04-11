@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e8e3b002bf614e49c6ef098b6f2475d65bb47112
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 92%
+source-wordcount: '1087'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 * 대상 이름을 바꿀 때 미치는 영향 및 모범 사례에 대한 주의 메모를 `inAudience` 함수 섹션에 추가했습니다. [자세히 보기](../building-journeys/functions/functioninaudience.md)
 * 양방향 SMS 사용 시 기본 키워드 사용에 대한 권장 사항이 추가되었습니다. [자세히 보기](../sms/sms-opt-out.md)
 * 사용된 이벤트에 ID 네임스페이스를 포함할 필요성에 대한 메모로 여정 테스트 페이지를 업데이트했습니다. [자세히 보기](../building-journeys/testing-the-journey.md)
-
+* 현재 [!UICONTROL Journey Optimizer] 사용자 인터페이스를 통해 하위 도메인을 위임해제할 수 없습니다. Adobe 담당자에게 연락해야 합니다. 이메일, 랜딩 페이지, SMS 및 웹 하위 도메인 섹션이 Adobe에 연락하기 전에 수행해야 하는 단계 및 이 정보로 업데이트되었습니다. [자세히 보기](../configuration/delegate-subdomain.md#undelegate-subdomain)
 
 ## 2025년 3월 {#mar-2025}
 

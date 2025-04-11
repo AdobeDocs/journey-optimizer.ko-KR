@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 23%
+source-wordcount: '2039'
+ht-degree: 20%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 23%
 >
 >하위 도메인 구성은 모든 환경에 공통됩니다. 따라서 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
 
-## 전체 하위 도메인 위임 {#full-subdomain-delegation}
+## 하위 도메인을 Adobe에 완전히 위임 {#full-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
@@ -113,7 +113,7 @@ Adobe을 사용하여 이메일 마케팅 전송 도메인에 대한 업계 표�
 >
 >하위 도메인의 병렬 실행은 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. 다른 하위 도메인이 **[!UICONTROL 처리 중]** 상태일 때 위임할 하위 도메인을 제출하려고 하면 오류 메시지가 표시됩니다.
 
-## CNAME 하위 도메인 설정 {#cname-subdomain-delegation}
+## CNAME을 사용하여 하위 도메인 설정 {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -224,6 +224,47 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 1. **순방향 DNS 만들기**: 위임하는 첫 번째 하위 도메인인 경우 Adobe은 PTR 레코드를 만드는 데 필요한 순방향 DNS를 만듭니다(각 IP에 대해 하나씩).
 
 1. **PTR 레코드 만들기**: 이메일을 스팸으로 표시하지 않도록 ISP에서 PTR 레코드(역방향 DNS 레코드라고도 함)가 필요합니다. 또한 Gmail에서는 각 IP에 대해 PTR 레코드를 사용할 것을 권장합니다. Adobe은 각 IP에 대해 하나씩, 하위 도메인을 가리키는 모든 IP에 대해 처음으로 하위 도메인을 위임할 때만 PTR 레코드를 생성합니다. 예를 들어 IP가 *192.1.2.1*&#x200B;이고 하위 도메인이 *email.example.com*&#x200B;인 경우 PTR 레코드는 *192.1.2.1PTR r1.email.example.com*&#x200B;이 됩니다. 이후 PTR 레코드를 업데이트하여 새 위임된 도메인을 가리킬 수 있습니다. [PTR 레코드에 대해 자세히 알아보기](ptr-records.md)
+
+## 하위 도메인 위임 취소 {#undelegate-subdomain}
+
+하위 도메인의 위임을 취소하려면 Adobe 담당자에게 문의하십시오.
+
+하지만 Adobe에 도달하기 전에 사용자 인터페이스에서 여러 단계를 수행해야 합니다.
+
+>[!NOTE]
+>
+>**[!UICONTROL 성공]** 상태의 하위 도메인만 위임해제할 수 있습니다. **[!UICONTROL 초안]** 및 **[!UICONTROL 실패]** 상태의 하위 도메인은 사용자 인터페이스에서 삭제할 수 있습니다.
+
+먼저 [!DNL Journey Optimizer]에서 다음 단계를 수행하십시오.
+
+1. 하위 도메인과 연관된 모든 채널 구성을 비활성화합니다. [방법 알아보기](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+1. 이 하위 도메인과 연결된 모든 랜딩 페이지 하위 도메인, SMS 하위 도메인 및 웹 하위 도메인의 위임을 취소합니다.
+
+   >[!NOTE]
+   >
+   >각 [랜딩 페이지](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) 또는 [웹 하위 도메인](../web/web-delegated-subdomains.md#undelegate-subdomain)에 대해 전용 요청을 제기해야 합니다.
+
+1. 하위 도메인과 연관된 활성 캠페인을 중지합니다. [방법 알아보기](../campaigns/modify-stop-campaign.md#stop)
+
+1. 하위 도메인과 연관된 활성 여정을 중지합니다. [방법 알아보기](../building-journeys/end-journey.md#stop-journey)
+
+1. 하위 도메인에 연결된 [PTR 레코드](ptr-records.md#edit-ptr-record)를 다른 하위 도메인으로 가리킵니다.
+
+   >[!NOTE]
+   >
+   >위임된 유일한 하위 도메인인 경우 이 단계를 건너뛸 수 있습니다.
+
+완료되면 위임을 해제할 하위 도메인을 사용하여 Adobe 담당자에게 문의하십시오.
+
+요청이 Adobe에 의해 처리되면 위임되지 않은 도메인이 더 이상 하위 도메인 인벤토리 페이지에 표시되지 않습니다.
+
+>[!CAUTION]
+>
+>하위 도메인이 위임되지 않은 후:
+>
+>   * 해당 하위 도메인을 사용 중이던 채널 구성을 다시 활성화할 수 없습니다.
+>   * 사용자 인터페이스를 통해 정확한 하위 도메인을 다시 위임할 수 없습니다. 원하는 경우 Adobe 담당자에게 문의하십시오.
 
 ## 사용 방법 비디오{#video}
 
