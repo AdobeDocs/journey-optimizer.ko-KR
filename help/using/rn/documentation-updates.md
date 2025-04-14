@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 88%
+source-wordcount: '1114'
+ht-degree: 86%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 88%
 * 양방향 SMS 사용 시 기본 키워드 사용에 대한 권장 사항이 추가되었습니다. [자세히 보기](../sms/sms-opt-out.md)
 * 사용된 이벤트에 ID 네임스페이스를 포함할 필요성에 대한 메모로 여정 테스트 페이지를 업데이트했습니다. [자세히 보기](../building-journeys/testing-the-journey.md)
 * 현재 [!UICONTROL Journey Optimizer] 사용자 인터페이스를 통해 하위 도메인을 위임해제할 수 없습니다. Adobe 담당자에게 연락해야 합니다. 이메일, 랜딩 페이지, SMS 및 웹 하위 도메인 섹션이 Adobe에 연락하기 전에 수행해야 하는 단계 및 이 정보로 업데이트되었습니다. [자세히 보기](../configuration/delegate-subdomain.md#undelegate-subdomain)
+* 동일한 끝점에 대한 제한 구성과 함께 이 매개 변수를 사용하는 방법에 대한 지침을 포함하여 여정 최대 가용량 API의 선택적 `maxHttpConnections` 매개 변수에 대한 설명을 추가했습니다. [자세히 보기](../configuration/throttling.md)
 
 ## 2025년 3월 {#mar-2025}
 

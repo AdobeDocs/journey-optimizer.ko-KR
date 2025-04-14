@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 62%
+source-wordcount: '1014'
+ht-degree: 49%
 
 ---
 
@@ -21,13 +21,14 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 이 섹션에서는 API 작업 방법에 대한 전역 정보를 제공합니다. 자세한 API 설명은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/)에서 확인할 수 있습니다.
 
->[!IMPORTANT]
->
->현재 조직당 하나의 구성만 허용됩니다. 구성은 프로덕션 샌드박스서 정의해야 합니다(헤더의 x-sandbox-name을 통해 지정).
->
->구성은 조직 수준에서 적용됩니다.
->
->API에서 설정한 제한에 도달하면 이를 초과하는 이벤트는 최대 6시간 동안 큐에 보관됩니다. 이 값은 수정할 수 없습니다.
+## 반드시 알아야 할 사항
+
+* **조직당 하나의 구성:** 현재 조직당 하나의 구성만 허용됩니다. 구성은 프로덕션 샌드박스(헤더에서 `x-sandbox-name`을(를) 통해 제공됨)에 정의되어야 합니다.
+* **조직 수준 응용 프로그램:** 구성이 조직 수준에서 적용됩니다.
+* **API 제한 처리:** API에 설정된 제한에 도달하면 추가 이벤트가 최대 6시간 동안 큐에 대기됩니다. 이 값은 수정할 수 없습니다.
+* **`maxHttpConnections`매개 변수:** &#39;maxHttpConnections&#39; 매개 변수는 최대 가용량 API에서만 사용할 수 있는 선택적 매개 변수이므로 Journey Optimizer에서 외부 시스템에 대해 여는 연결 수를 제한할 수 있습니다. [최대 가용량 API로 작업하는 방법을 알아봅니다](../configuration/capping.md)
+
+  연결 수를 제한하고 이러한 외부 호출을 조절하려는 경우 동일한 끝점에 대해 두 개의 구성(한 개의 조절 및 한 개의 제한)을 구성할 수 있습니다. 하나의 엔드포인트에 대해 두 구성이 공존할 수 있습니다. 제한 종단점에 대해 &#39;maxHttpConnections&#39;를 설정하려면 제한 API를 사용하여 제한 임계값을 설정하고 제한 API를 사용하여 &#39;maxHttpConnections&#39;를 설정하십시오. 최대 가용량 API를 호출할 때 최대 가용량 임계값을 제한 임계값보다 높게 설정할 수 있으므로 최대 가용량 규칙이 효과적으로 실행되지 않습니다.
 
 ## 제한 API 설명 및 Postman 컬렉션 {#description}
 
