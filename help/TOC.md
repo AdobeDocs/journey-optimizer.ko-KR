@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: a5057c3ce699a972c22cc125dd963d545a113b0b
 workflow-type: tm+mt
-source-wordcount: '2317'
-ht-degree: 99%
+source-wordcount: '2328'
+ht-degree: 90%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 99%
       + [2021](using/rn/release-notes-2021.md)
    + [설명서 업데이트](using/rn/documentation-updates.md)
    + [향상된 여정 캔버스](using/rn/new-canvas.md)
-+ 시작{#get-started}
++ 시작하기{#get-started}
    + [Journey Optimizer 소개](using/start/get-started.md)
-   + 빠른 시작{#quick-start}
+   + 퀵 스타트 가이드{#quick-start}
       + [개요](using/start/quick-start.md)
       + [마케터로 시작하기](using/start/path/marketer.md)
       + [데이터 엔지니어로 시작하기](using/start/path/data-engineer.md)
@@ -109,7 +109,7 @@ ht-degree: 99%
             + [toDuration](using/building-journeys/functions/functiontoduration.md)
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
-         + 날짜 {#date}
+         + 일자 {#date}
             + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
             + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
@@ -163,29 +163,29 @@ ht-degree: 99%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + 사용 사례 {#journey-use-cases}
-      + 비즈니스 사용 사례 {#business-use-cases} 
+      + 비즈니스 사용 사례 {#business-use-cases}
          + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
          + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/ajo-ac.md)
          + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
-      + 기술 사용 사례 {#technical-use-cases} 
+      + 기술 사용 사례 {#technical-use-cases}
          + [사용자 정의 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
          + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
          + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
          + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
-+ 여러 단계 캠페인 {#ms-campaigns}
-   + [여러 단계 캠페인 시작](using/ms/gs-ms-campaigns.md)
++ 오케스트레이션된 캠페인 {#ms-campaigns}
+   + [조직화된 캠페인 시작](using/ms/gs-ms-campaigns.md)
    + [핵심 원칙](using/ms/gs-campaign-creation.md)
    + 구성 {#ms-config}
       + [스키마](using/ms/ms-schemas.md)
       + [이벤트 변수 작업](using/ms/event-variables.md)
-   + 첫 여러 단계 캠페인 만들기 {#create-ms-campaign}
+   + 오케스트레이션된 첫 번째 캠페인 만들기 {#create-ms-campaign}
       + [오케스트레이션된 캠페인 만들기](using/ms/create-ms-campaign.md)
       + [활동 오케스트레이션](using/ms/orchestrate-activities.md)
       + [캠페인 설정 구성](using/ms/ms-campaign-settings.md)
       + [캠페인 시작 및 모니터링](using/ms/start-monitor-campaigns.md)
       + [개인화 관리](using/ms/ms-personalization.md)
-   + 여러 단계 캠페인 활동 {#design-campaigns}
-      + [여러 단계 캠페인 활동 정보](using/ms/activities/about-activities.md)
+   + 조정된 캠페인 활동 {#design-campaigns}
+      + [조정된 캠페인 활동](using/ms/activities/about-activities.md)
       + [AND-가입](using/ms/activities/and-join.md)
       + [대상자 빌드](using/ms/activities/build-audience.md)
       + [차원 변경](using/ms/activities/change-dimension.md)
@@ -214,7 +214,7 @@ ht-degree: 99%
    + [우선 순위 점수 할당](using/conflict-prioritization/priority-scores.md)
    + [여정 캡핑 및 중재](using/conflict-prioritization/journey-capping.md)
 + 테스트 및 승인 {#test}
-   + 콘텐츠 미리 보기 및 테스트 {#preview-test}
+   + 콘텐츠 미리보기 및 테스트 {#preview-test}
       + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
       + [테스트 프로필 선택](using/content-management/test-profiles.md)
       + [콘텐츠 미리 보기](using/content-management/preview.md)
@@ -227,19 +227,19 @@ ht-degree: 99%
       + [승인 정책 만들기 및 관리](using/test-approve/approval-policies.md)
       + [승인 요청](using/test-approve/request-approval.md)
       + [요청 승인](using/test-approve/review-approve-request.md)
-+ 소통 채널 {#channels}
++ 커뮤니케이션 채널 {#channels}
    + [소통 채널 시작](using/channels/gs-channels.md)
    + 이메일 채널 {#email}
       + [이메일 시작](using/email/get-started-email.md)
       + [이메일 만들기](using/email/create-email.md)
-      + 이메일 콘텐츠 디자인 {#design-email}
+      + 이메일 컨텐츠 디자인 {#design-email}
          + [이메일 디자인 시작](using/email/get-started-email-design.md)
-         + 콘텐츠 만들기 시작 {#start-creating-content}
+         + 컨텐츠 만들기 시작 {#start-creating-content}
             + [처음부터 컨텐츠 만들기](using/email/content-from-scratch.md)
             + [콘텐츠 가져오기](using/email/existing-content.md)
             + [나만의 콘텐츠 코딩](using/email/code-content.md)
             + [이메일 템플릿 사용](using/email/use-email-templates.md)
-         + 콘텐츠 디자인 {#add-content}
+         + 이메일 콘텐츠 디자인  {#add-content}
             + [콘텐츠 구성 요소 사용](using/email/content-components.md)
             + [시각적 조각 활용](using/email/use-visual-fragments.md)
             + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
@@ -281,7 +281,7 @@ ht-degree: 99%
       + [텍스트 메시지 확인 및 보내기](using/sms/send-sms.md)
       + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
       + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
-      + SMS / MMS 채널 구성{#configure-sms}
+      + SMS/MMS 채널 구성{#configure-sms}
          + [SMS 구성 시작](using/sms/sms-configuration.md)
          + [Sinch 공급자 구성](using/sms/sms-configuration-sinch.md)
          + [Infobip 공급자 구성](using/sms/sms-configuration-infobip.md)
@@ -300,7 +300,7 @@ ht-degree: 99%
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
       + [웹 경험 만들기 ](using/web/create-web.md)
-      + 웹 페이지 작성 {#author-web-pages}
+      + 웹 페이지 작성  {#author-web-pages}
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
          + [비시각적 편집기 사용](using/web/web-non-visual-editor.md)
          + [수정 사항 관리](using/web/manage-web-modifications.md)
@@ -319,7 +319,7 @@ ht-degree: 99%
          + [코드 기반 경험 관리](using/code-based/publish-code-based.md)
    + 콘텐츠 카드{#content-card}
       + [콘텐츠 카드 시작](using/content-card/get-started-content-card.md)
-      + 콘텐츠 카드 채널 구성 {#configure}
+      + 컨텐츠 카드 채널 구성 {#configure}
          + [콘텐츠 카드 사전 요구 사항](using/content-card/content-card-configuration-prereq.md)
          + [Journey Optimizer에서 콘텐츠 카드 채널 구성](using/content-card/content-card-configuration.md)
          + [Mobile SDK에서 콘텐츠 카드 지원 구성](using/content-card/content-card-lp.md)
@@ -344,7 +344,7 @@ ht-degree: 99%
    + 랜딩 페이지 구성 {#lp-configuration}
       + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
-+ 콘텐츠 관리 {#content-management}
++ 콘텐츠 관리  {#content-management}
    + 콘텐츠 생성용 AI 어시스턴트{#ai-assistant}
       + [AI 어시스턴트 시작](using/content-management/gs-generative.md)
       + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
@@ -355,7 +355,7 @@ ht-degree: 99%
       + [AI를 사용한 랜딩 페이지](using/content-management/generative-lp.md)
       + [AI 어시스턴트 사용 사례](using/content-management/generative-uc.md)
       + [브랜드 생성 및 관리(Beta)](using/content-management/brands.md)
-   + 다국어 콘텐츠 작업{#content-multilingual}
+   + 다국어 컨텐츠 작업{#content-multilingual}
       + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
       + [로케일 만들기](using/content-management/multilingual-locale.md)
       + [언어 공급자 만들기](using/content-management/multilingual-provider.md)
@@ -402,11 +402,11 @@ ht-degree: 99%
       + [기존 콘텐츠를 조각으로 저장](using/content-management/save-fragments.md)
       + [사용자 정의 가능한 조각](using/content-management/customizable-fragments.md)
       + [조각 관리](using/content-management/manage-fragments.md)
-   + 다이내믹 콘텐츠 {#dynamic}
+   + 동적 컨텐츠 {#dynamic}
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
-+ 대상자, 프로필, ID{#audiences-profiles-identities}
++ Audiences, profiles &amp; identity{#audiences-profiles-identities}
    + 대상자 {#audiences}
       + [대상자 시작](using/audience/about-audiences.md)
       + 대상자 만들기 {#create}
@@ -439,7 +439,7 @@ ht-degree: 99%
       + [캠페인 실시간 보고서](using/reports/campaign-live-report.md)
       + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
       + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
-   + 전체 기간 보고서{#channel-report}
+   + 전체 시간 보고서{#channel-report}
       + [전체 기간 보고서 시작](using/reports/report-gs-cja.md)
       + [지표 목록](using/reports/global-report-components-cja.md)
       + [Customer Journey Analytics 수동 구성](using/reports/cja-ajo.md)
@@ -472,7 +472,7 @@ ht-degree: 99%
    + 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
-      + 레거시 단계 이벤트 필드 {#legacy-step-event-fields}
+      + 이전 단계 이벤트 필드 {#legacy-step-event-fields}
          + [레거시 필드 정보](using/reports/sharing-legacy-fields.md)
          + [여정 필드](using/reports/sharing-journey-fields.md)
          + [공통 필드](using/reports/sharing-common-fields.md)
@@ -486,9 +486,9 @@ ht-degree: 99%
       + [새로운 DMARC 요구 사항](using/configuration/dmarc-record-update.md)
    + [경고](using/reports/alerts.md)
    + [제외 이유](using/reports/exclusion-list.md)
-+ 결정 기능 {#decisioning}
++ 의사결정 기능 {#decisioning}
    + [결정 기능 시작](using/experience-decisioning/gs-decision.md)
-   + 의사 결정 {#experience-decisioning}
+   + 결정 {#experience-decisioning}
       + [결정 시작](using/experience-decisioning/gs-experience-decisioning.md)
       + [의사 결정 가드레일 및 제한 사항](using/experience-decisioning/decisioning-guardrails.md)
       + API 참조{#api-reference}
@@ -511,7 +511,7 @@ ht-degree: 99%
                + [선택 전략 조회](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
                + [선택 전략 목록](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
                + [선택 전략 업데이트](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + 순위 공식{#ranking-formulas}
+            + 등급 공식{#ranking-formulas}
                + [순위 공식 만들기](using/experience-decisioning/api-reference/ranking-formulas/create.md)
                + [순위 공식 삭제](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
                + [순위 공식 조회](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
@@ -548,7 +548,7 @@ ht-degree: 99%
          + [배치 만들기](using/offers/offer-library/creating-placements.md)
          + [의사 결정 규칙 만들기](using/offers/offer-library/creating-decision-rules.md)
          + [컬렉션 수식어 만들기](using/offers/offer-library/creating-tags.md)
-      + {#rankings} 등급 만들기
+      + 순위 만들기 {#rankings}
          + [등급 시작](using/offers/ranking/get-started-rankings.md)
          + [등급 공식](using/offers/ranking/create-ranking-formulas.md)
          + AI 모델 {#ai-models}
@@ -573,7 +573,7 @@ ht-degree: 99%
          + [데이터 수집 시작하기](using/offers/data-collection/data-collection.md)
          + [이벤트를 수집할 데이터 세트 만들기](using/offers/data-collection/create-dataset.md)
          + [이벤트 캡처 구성](using/offers/data-collection/schema-requirement.md)
-      + 컨텍스트 데이터 활용 {#context-data}
+      + 컨텍스트 데이터  {#context-data}
          + [컨텍스트 데이터 시작](using/offers/context-data.md)
          + [컨텍스트 데이터 및 Edge Decisioning 요청](using/offers/context-data-edge.md)
          + [컨텍스트 데이터 및 의사 결정 요청](using/offers/context-data-decisioning.md)
@@ -588,7 +588,7 @@ ht-degree: 99%
          + [배치 데이터 세트](using/offers/export-catalog/export-placements.md)
          + [대체 데이터 세트](using/offers/export-catalog/export-fallback.md)
       + API 참조 {#api-reference}
-         + [시작](using/offers/api-reference/getting-started.md)
+         + [시작하기](using/offers/api-reference/getting-started.md)
          + API를 사용하여 오퍼 만들기 및 관리 {#offers-api}
             + 배치 {#placements}
                + [배치 나열](using/offers/api-reference/offers-api/placements/placements-list.md)
@@ -602,7 +602,7 @@ ht-degree: 99%
                + [의사 결정 규칙 만들기](using/offers/api-reference/offers-api/decision-rules/create.md)
                + [의사 결정 규칙 업데이트](using/offers/api-reference/offers-api/decision-rules/update.md)
                + [의사 결정 규칙 삭제](using/offers/api-reference/offers-api/decision-rules/delete.md)
-            + 컬렉션 수식어 {#tags}
+            + 컬렉션 한정자 {#tags}
                + [컬렉션 수식어 목록 만들기](using/offers/api-reference/offers-api/tags/tags-list.md)
                + [컬렉션 수식어 조회](using/offers/api-reference/offers-api/tags/lookup.md)
                + [컬렉션 수식어 만들기](using/offers/api-reference/offers-api/tags/create.md)
@@ -632,7 +632,7 @@ ht-degree: 99%
                + [의사 결정 만들기](using/offers/api-reference/activities-api/activities/create.md)
                + [의사 결정 업데이트](using/offers/api-reference/activities-api/activities/update.md)
                + [의사 결정 삭제](using/offers/api-reference/activities-api/activities/delete.md)
-            + 레거시 API {#legacy-api}
+            + 이전 API {#legacy-api}
                + [레거시 API 정보](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
                + 배치 {#placements}
                   + [배치 나열](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
@@ -646,7 +646,7 @@ ht-degree: 99%
                   + [의사 결정 규칙 만들기](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
                   + [의사 결정 규칙 업데이트](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
                   + [의사 결정 규칙 삭제](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
-               + 컬렉션 수식어 {#tags}
+               + 컬렉션 한정자 {#tags}
                   + [컬렉션 수식어 목록 만들기](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
                   + [컬렉션 수식어 조회](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
                   + [컬렉션 수식어 만들기](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
@@ -684,15 +684,15 @@ ht-degree: 99%
 + 데이터 관리 {#data-management}
    + [데이터 관리 시작](using/data/gs-data.md)
    + [스키마 작업](using/data/get-started-schemas.md)
-   + Journey Optimizer 데이터셋 {#datasets}
+   + Journey Optimizer 데이터 세트 {#datasets}
       + [데이트 세트 시작](using/data/get-started-datasets.md)
       + [데이터 세트 TTL(Time-to-Live) 가드레일](using/data/datasets-ttl.md)
       + [Journey Optimizer 데이터 세트 내보내기](using/data/export-datasets.md)
       + [쿼리 예](using/data/datasets-query-examples.md)
       + [기본 스키마 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
    + [쿼리](using/data/get-started-queries.md)
-+ 구성 {#configuration}
-   + [Journey Optimizer 구성 시작](using/configuration/get-started-configuration.md)
++ 채널 구성 {#configuration}
+   + [채널 구성](using/configuration/get-started-configuration.md)
    + [채널 구성 설정](using/configuration/channel-surfaces.md)
    + 안내형 채널 설정 {#guided-setup}
       + [안내형 채널 설정 시작](using/configuration/set-mobile-config.md)
@@ -719,35 +719,37 @@ ht-degree: 99%
    + [실행 주소 변경](using/configuration/primary-email-addresses.md)
    + [비즈니스 규칙 구성](using/configuration/frequency-rules.md)
    + [규칙 집합 작업](using/configuration/rule-sets.md)
-   + 여정 구성 {#configure-journeys}
-      + [데이터 소스, 이벤트 및 작업 구성](using/configuration/about-data-sources-events-actions.md)
-      + 외부 시스템과 통합 {#external-systems}
-         + [여정을 외부 시스템과 통합하기](using/configuration/external-systems.md)
-         + [Capping API](using/configuration/capping.md)
-         + [Throttling API](using/configuration/throttling.md)
-      + 이벤트 구성 {#events-journeys}
-         + [여정 이벤트 작업](using/event/about-events.md)
-         + 단일 이벤트 구성 {#unitary-events}
-            + [단일 이벤트 시작](using/event/about-creating.md)
-            + [ExperienceEvent 스키마 정보](using/event/experience-event-schema.md)
-            + [Adobe Analytics 작업](using/event/about-analytics.md)
-         + [비즈니스 이벤트 구성](using/event/about-creating-business.md)
-         + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey.md)
-      + 데이터 소스 구성{#data-source-journeys}
-         + [데이터 소스 시작](using/datasource/about-data-sources.md)
-         + [데이터 소스 구성](using/datasource/configure-data-sources.md)
-         + [Adobe Experience Platform 데이터 소스](using/datasource/adobe-experience-platform-data-source.md)
-         + [외부 데이터 소스](using/datasource/external-data-sources.md)
-      + 작업 구성 {#action-journeys}
-         + [사용자 정의 작업 시작](using/action/action.md)
-         + [사용자 정의 작업 구성](using/action/about-custom-action-configuration.md)
-         + [사용자 정의 작업 문제 해결](using/action/troubleshoot-custom-action.md)
-         + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
-         + [Adobe Campaign Standard 통합](using/action/acs-action.md)
-         + [Adobe Campaign v7/v8과 통합](using/action/acc-action.md)
-         + [Marketo Engage와 통합](using/action/marketo-engage.md)
-   + [소스](using/start/get-started-sources.md)
++ 여정 구성 {#configure-journeys}
+   + [데이터 소스, 이벤트 및 작업 구성](using/configuration/about-data-sources-events-actions.md)
+   + 이벤트 구성 {#events-journeys}
+      + [여정 이벤트 작업](using/event/about-events.md)
+      + [단일 이벤트 구성](using/event/about-creating.md)
+      + [ExperienceEvent 스키마 정보](using/event/experience-event-schema.md)
+      + [Adobe Analytics 데이터 작업](using/event/about-analytics.md)
+      + [비즈니스 이벤트 구성](using/event/about-creating-business.md)
+      + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey.md)
+   + 데이터 소스 구성{#data-source-journeys}
+      + [데이터 소스 시작](using/datasource/about-data-sources.md)
+      + [데이터 소스 구성](using/datasource/configure-data-sources.md)
+      + [Adobe Experience Platform 데이터 소스](using/datasource/adobe-experience-platform-data-source.md)
+      + [외부 데이터 소스](using/datasource/external-data-sources.md)
+   + 작업 구성 {#action-journeys}
+      + [사용자 정의 작업 시작](using/action/action.md)
+      + [사용자 정의 작업 구성](using/action/about-custom-action-configuration.md)
+      + [사용자 정의 작업 문제 해결](using/action/troubleshoot-custom-action.md)
+      + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
++ 시스템 연결 {#connect-systems}
+   + 외부 시스템과 통합 {#external-systems}
+      + [여정을 외부 시스템과 통합하기](using/configuration/external-systems.md)
+      + [Capping API](using/configuration/capping.md)
+      + [Throttling API](using/configuration/throttling.md)
+   + Adobe 솔루션으로 보내기 {#adobe-solutions}
+      + [Adobe Campaign Standard과 여정 통합](using/action/acs-action.md)
+      + [Adobe Campaign v7/v8과 여정 통합](using/action/acc-action.md)
+      + [Marketo Engage 와 Journeys 솔루션 통합](using/action/marketo-engage.md)
+   + [소스 커넥터 구성](using/start/get-started-sources.md)
    + [다른 샌드박스로 개체 내보내기](using/configuration/copy-objects-to-sandbox.md)
+   + [Journey Optimizer API 사용](using/configuration/ajo-apis.md)
 + 액세스 제어 {#access-control}
    + 액세스 제어 개요 {#privacy}
       + [사용자 관리 시작](using/administration/permissions-overview.md)
@@ -758,7 +760,7 @@ ht-degree: 99%
    + [속성 기반 액세스 제어](using/administration/attribute-based-access.md)
    + [오브젝트 수준 액세스 제어](using/administration/object-based-access.md)
    + [샌드박스 관리](using/administration/sandboxes.md)
-+ 개인정보 보호 {#privacy}
++ 개인 정보 보호 {#privacy}
    + [개인 정보 시작](using/privacy/get-started-privacy.md)
    + [개인 정보 보호 요청](using/privacy/requests.md)
    + [리소스에 대한 작업 감사](using/privacy/audit-logs.md)
