@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 384ec210fa5414966257b26d1d8b2b87ce962d76
+source-git-commit: f15962bf68c7ea5087e0def33888b06f52d580cd
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 95%
+source-wordcount: '1423'
+ht-degree: 94%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 95%
 
 [!DNL Adobe Journey Optimizer]에 액세스하려면 Adobe ID로 [Adobe Experience Cloud](https://experience.adobe.com)에 접속하고 [!DNL Journey Optimizer]를 선택합니다.
 
-사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 공통됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ko#adobe-experience-platform-ui-guide)를 참조하십시오.
+사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 공통됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ko#adobe-experience-platform-ui-guide){target="_blank"}를 참조하십시오.
 
 
 >[!NOTE]
 >
->* 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
+>* 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
 >
 >* 이 설명서는 사용자 인터페이스 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 하지만 어떤 스크린샷은 실제 사용자 인터페이스와 약간 다를 수 있습니다.
 >
@@ -90,7 +90,7 @@ ht-degree: 95%
 
 * **[!UICONTROL 쿼리]** - Adobe Experience Platform 쿼리 서비스를 사용하여 쿼리를 작성하여 실행하고, 이전에 실행한 쿼리를 보고, 조직 내에서 사용자가 저장한 쿼리에 액세스합니다. [자세히 보기](../data/get-started-queries.md)
 
-* **[!UICONTROL 모니터링]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko)에서 자세히 알아보기
+* **[!UICONTROL 모니터링]** - 이 메뉴를 사용하여 Adobe Experience Platform 사용자 인터페이스 내에서 데이터 수집을 모니터링합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ko){target="_blank"}에서 자세히 알아보기
 
 ### [!UICONTROL 연결] {#left-nav-connections}
 
@@ -255,3 +255,12 @@ ht-degree: 95%
 >id="ajo_journey_dry_run"
 >title="여정 시험 실행"
 >abstract="여정을 디자인한 후에는 드라이 실행을 실행하여 제대로 작동하는지 확인하고 단계가 올바른지 확인합니다. 이 게시 모드를 사용하면 프로필에 통신을 보내지 않고 여정을 흡연하여 테스트할 수 있습니다."
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_decision_policy"
+>title="의사 결정 정책 정의"
+>abstract="의사 결정 정책을 사용하면 의사 결정 엔진에서 최상의 항목을 선택하여 적합한 대상자에게 전달할 수 있습니다."
