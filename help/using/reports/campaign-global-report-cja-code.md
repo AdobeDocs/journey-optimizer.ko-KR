@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '852'
 ht-degree: 2%
 
 ---
@@ -145,7 +145,7 @@ ht-degree: 2%
 
 * **모델 기반**: 사용자는 관련성 및 참여에 최적화된 AI 모델로 등급이 지정된 콘텐츠를 받습니다.
 
-* **보류**: 사용자에게 콘텐츠의 일반 버전이 표시되어 AI 모델의 효과를 측정하는 컨트롤 그룹 역할을 합니다.
+* **보류 중**: 사용자는 모델의 탐색 단계에서 임의로 제공되는 콘텐츠를 받습니다.
 
 표시되는 주요 지표는 다음과 같습니다.
 
@@ -167,4 +167,4 @@ ht-degree: 2%
 
 * **모델 기반**: 사용자는 관련성 및 참여에 최적화된 AI 모델로 등급이 지정된 콘텐츠를 받습니다.
 
-* **보류**: 사용자에게 콘텐츠의 일반 버전이 표시되어 AI 모델의 효과를 측정하는 컨트롤 그룹 역할을 합니다.
+* **보류 중**: 사용자는 모델의 탐색 단계에서 임의로 제공되는 콘텐츠를 받습니다.
