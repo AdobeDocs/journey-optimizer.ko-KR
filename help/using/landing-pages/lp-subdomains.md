@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 하위 도메인, 구성
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '966'
 ht-degree: 19%
 
 ---
@@ -38,13 +38,11 @@ ht-degree: 19%
 
 이미 Adobe에 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다. [이 섹션](../configuration/delegate-subdomain.md)에서 하위 도메인을 Adobe으로 위임하는 방법에 대해 자세히 알아보세요.
 
->[!CAUTION]
->
->랜딩 페이지 하위 도메인 구성은 모든 환경에 공통입니다. 그 결과는 다음과 같습니다.
->
->* 랜딩 페이지 하위 도메인에 액세스하고 편집하려면 프로덕션 샌드박스에 대한 **[!UICONTROL 랜딩 페이지 하위 도메인 관리]** 권한이 있어야 합니다.
->
-> * 랜딩 페이지 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
+랜딩 페이지 하위 도메인 구성은 **모든 환경에 공통됩니다**. 그 결과는 다음과 같습니다.
+
+* 랜딩 페이지 하위 도메인에 액세스하고 편집하려면 프로덕션 샌드박스에 대한 **[!UICONTROL 랜딩 페이지 하위 도메인 관리]** 권한이 있어야 합니다.
+
+* 랜딩 페이지 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
 
 ## 기존 하위 도메인 사용 {#lp-use-existing-subdomain}
 
@@ -62,15 +60,11 @@ ht-degree: 19%
 
 1. 랜딩 페이지 URL에 표시할 접두사를 입력합니다.
 
-   >[!NOTE]
-   >
-   >영숫자와 하이픈만 사용할 수 있습니다.
+   영숫자와 하이픈만 사용할 수 있습니다.
 
 1. 목록에서 위임된 하위 도메인을 선택합니다.
 
-   >[!NOTE]
-   >
-   >이미 랜딩 페이지 하위 도메인으로 사용된 하위 도메인은 선택할 수 없습니다.
+   이미 랜딩 페이지 하위 도메인으로 사용된 하위 도메인은 선택할 수 없습니다.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -88,9 +82,7 @@ ht-degree: 19%
 
    ![](assets/lp_subdomain-processing.png)
 
-   >[!NOTE]
-   >
-   >해당 하위 도메인을 사용하여 메시지를 보내려면 Adobe에서 필요한 검사를 수행할 때까지 기다려야 하며 최대 4시간이 걸릴 수 있습니다.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   해당 하위 도메인을 사용하여 메시지를 보내려면 먼저 Adobe에서 필요한 검사를 수행할 때까지 기다려야 합니다(최대 **시간**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->).
 
 1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. 랜딩 페이지 사전 설정을 만드는 데 사용할 준비가 되었습니다.
 
@@ -115,15 +107,13 @@ ht-degree: 19%
 
    >[!CAUTION]
    >
-   >기존 랜딩 페이지 하위 도메인은 사용할 수 없습니다.
+   >* 기존 랜딩 페이지 하위 도메인은 사용할 수 없습니다.
    >
-   >하위 도메인에서는 대문자가 허용되지 않습니다.
+   >* 하위 도메인에서는 대문자가 허용되지 않습니다.
 
    잘못된 하위 도메인을 Adobe에 위임할 수 없습니다. marketing.yourcompany.com과 같이 조직에서 소유한 올바른 하위 도메인을 입력해야 합니다.
 
-   >[!NOTE]
-   >
-   >랜딩 페이지의 경우 다중 수준 하위 도메인이 지원됩니다. 예를 들어 &#39;email.marketing.yourcompany.com&#39;을 사용할 수 있습니다.
+   랜딩 페이지의 경우 다중 수준 하위 도메인이 지원됩니다. 예를 들어 &#39;email.marketing.yourcompany.com&#39;을 사용할 수 있습니다.
 
 1. DNS 서버에 배치할 레코드가 표시됩니다. 이 레코드를 복사하거나 CSV 파일을 다운로드한 다음 도메인 호스팅 솔루션으로 이동하여 일치하는 DNS 레코드를 생성합니다.
 
@@ -131,15 +121,11 @@ ht-degree: 19%
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
-   >[!NOTE]
-   >
-   >새 랜딩 페이지 하위 도메인을 구성할 때 항상 CNAME 레코드를 가리킵니다.
+   새 랜딩 페이지 하위 도메인을 구성할 때 항상 CNAME 레코드를 가리킵니다.
 
 1. 하위 도메인 위임이 제출되면 하위 도메인이 목록에 **[!UICONTROL 처리]** 상태로 표시됩니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->을 참조하세요.
 
-   >[!NOTE]
-   >
-   >랜딩 페이지에 해당 하위 도메인을 사용하려면 Adobe에서 필요한 검사를 수행할 때까지 기다려야 하며 최대 4시간이 걸릴 수 있습니다.<!--Learn more in [this section](#subdomain-validation).-->
+   랜딩 페이지에 해당 하위 도메인을 사용하려면 Adobe에서 필요한 검사를 수행할 때까지 기다려야 합니다. 필요한 검사는 **최대 4시간**.<!--Learn more in [this section](#subdomain-validation).--> 정도 소요될 수 있습니다.
 
 1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. 랜딩 페이지 사전 설정을 만드는 데 사용할 준비가 되었습니다.
 
@@ -178,4 +164,5 @@ ht-degree: 19%
 >하위 도메인이 위임되지 않은 후:
 >
 >   * 해당 하위 도메인을 사용 중이던 채널 구성을 다시 활성화할 수 없습니다.
+>
 >   * 사용자 인터페이스를 통해 정확한 하위 도메인을 다시 위임할 수 없습니다. 원하는 경우 Adobe 담당자에게 문의하십시오.

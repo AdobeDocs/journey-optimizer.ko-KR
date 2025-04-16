@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: '2003'
 ht-degree: 20%
 
 ---
@@ -31,17 +31,17 @@ ht-degree: 20%
 
 도메인 이름 위임은 도메인 이름(기술적으로 DNS 영역)의 소유자가 그 하위 분할(기술적으로 하위 영역이라고 할 수 있는 하위 DNS 영역)을 다른 엔티티에 위임할 수 있는 방법입니다. 기본적으로 고객은 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다. [하위 도메인 위임](about-subdomain-delegation.md)에 대해 자세히 알아보기
 
->[!NOTE]
->
->기본적으로 [!DNL Journey Optimizer]에서는 최대 10개의 하위 도메인을 위임할 수 있습니다. 그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 부여된 하위 도메인 수에 대해 자세히 알아보려면 Adobe 담당자에게 문의하십시오.
+기본적으로 [!DNL Journey Optimizer]에서는 **최대 10개의 하위 도메인**&#x200B;을 위임할 수 있습니다. 그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 부여된 하위 도메인 수에 대해 자세히 알아보려면 Adobe 담당자에게 문의하십시오.
 
 하위 도메인을 완전히 위임하거나 CNAME을 사용하여 하위 도메인을 만들어 Adobe 관련 레코드를 가리키도록 할 수 있습니다.
 
+전체 하위 도메인 위임은 권장되는 방법입니다. [하위 도메인 구성 메서드](about-subdomain-delegation.md#subdomain-delegation-methods) 간의 차이점에 대해 자세히 알아보세요.
+
+하위 도메인 구성은 **모든 환경에 공통됩니다**. 따라서 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
+
 >[!CAUTION]
 >
->전체 하위 도메인 위임은 권장되는 방법입니다. [하위 도메인 구성 메서드](about-subdomain-delegation.md#subdomain-delegation-methods) 간의 차이점에 대해 자세히 알아보세요.
->
->하위 도메인 구성은 모든 환경에 공통됩니다. 따라서 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
+>[!DNL Journey Optimizer]에서는 하위 도메인의 병렬 제출이 지원되지 않습니다. 다른 하위 도메인이 **[!UICONTROL 처리 중]** 상태일 때 위임할 하위 도메인을 제출하려고 하면 오류 메시지가 표시됩니다.
 
 ## 하위 도메인을 Adobe에 완전히 위임 {#full-subdomain-delegation}
 
@@ -87,9 +87,7 @@ Adobe을 사용하여 이메일 마케팅 전송 도메인에 대한 업계 표�
 
 1. **[!UICONTROL 제출을 클릭합니다]**.
 
-   >[!NOTE]
-   >
-   >나중에 **[!UICONTROL 초안으로 저장]** 단추를 사용하여 레코드를 만들고 하위 도메인 구성을 제출할 수 있습니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 하위 도메인 위임을 다시 시작할 수 있습니다.
+   나중에 **[!UICONTROL 초안으로 저장]** 단추를 사용하여 레코드를 만들고 하위 도메인 구성을 제출할 수 있습니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 하위 도메인 위임을 다시 시작할 수 있습니다.
 
 1. 하위 도메인이 목록에 **[!UICONTROL 처리 중]** 상태로 표시됩니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](about-subdomain-delegation.md#access-delegated-subdomains)을 참조하세요.
 
@@ -103,15 +101,10 @@ Adobe을 사용하여 이메일 마케팅 전송 도메인에 대한 업계 표�
 
 1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
-   >[!NOTE]
-   >
-   >호스팅 솔루션에서 유효성 검사 레코드를 만들지 못하면 하위 도메인이 **[!UICONTROL 실패]**(으)로 표시됩니다.
+   호스팅 솔루션에서 유효성 검사 레코드를 만들지 못하면 하위 도메인이 **[!UICONTROL 실패]**(으)로 표시됩니다.
 
 하위 도메인이 [!DNL Journey Optimizer]의 Adobe으로 위임되면 PTR 레코드가 자동으로 생성되고 이 하위 도메인과 연결됩니다. [자세히 알아보기](ptr-records.md)
 
->[!CAUTION]
->
->하위 도메인의 병렬 실행은 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. 다른 하위 도메인이 **[!UICONTROL 처리 중]** 상태일 때 위임할 하위 도메인을 제출하려고 하면 오류 메시지가 표시됩니다.
 
 ## CNAME을 사용하여 하위 도메인 설정 {#cname-subdomain-delegation}
 
@@ -147,7 +140,7 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
    >[!CAUTION]
    >
-   >잘못된 하위 도메인을 Adobe에 위임할 수 없습니다. marketing.yourcompany.com과 같이 조직에서 소유한 올바른 하위 도메인을 입력해야 합니다.
+   >잘못된 하위 도메인을 Adobe에 위임하면 안 됩니다. marketing.yourcompany.com과 같이 조직에서 **소유하고**&#x200B;하는 올바른 하위 도메인을 입력하십시오.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -163,9 +156,7 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 1. **[!UICONTROL 계속을 클릭합니다]**.
 
-   >[!NOTE]
-   >
-   >나중에 **[!UICONTROL 초안으로 저장]** 단추를 사용하여 레코드를 만들 수 있습니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 이 단계에서 하위 도메인 위임을 다시 시작할 수 있습니다.
+   나중에 **[!UICONTROL 초안으로 저장]** 단추를 사용하여 레코드를 만들 수 있습니다. 그런 다음 하위 도메인 목록에서 하위 도메인 위임을 열어 이 단계에서 하위 도메인 위임을 다시 시작할 수 있습니다.
 
 1. Adobe이 호스팅 솔루션에서 레코드가 오류 없이 생성되는지 확인할 때까지 기다립니다. 이 프로세스는 최대 2분 정도 소요될 수 있습니다.
 
@@ -185,23 +176,16 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 1. 검사가 성공하면<!--i.e Adobe validates the record you created and installs it--> 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. 메시지를 전달하는 데 사용할 준비가 되었습니다.
 
-   >[!NOTE]
-   >
-   >호스팅 솔루션에서 유효성 검사 레코드를 만들지 못하면 하위 도메인이 **[!UICONTROL 실패]**(으)로 표시됩니다.
+   호스팅 솔루션에서 유효성 검사 레코드를 만들지 못하면 하위 도메인이 **[!UICONTROL 실패]**(으)로 표시됩니다.
 
 레코드의 유효성을 확인하고 인증서를 설치하면 Adobe은 CNAME 하위 도메인에 대한 PTR 레코드를 자동으로 생성합니다. [자세히 알아보기](ptr-records.md)
 
->[!CAUTION]
->
->하위 도메인의 병렬 실행은 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. 다른 하위 도메인이 **[!UICONTROL 처리 중]** 상태일 때 위임할 하위 도메인을 제출하려고 하면 오류 메시지가 표시됩니다.
 
 ## 하위 도메인 유효성 검사 {#subdomain-validation}
 
-아래 확인 및 작업은 하위 도메인이 확인되고 메시지를 보내는 데 사용할 수 있을 때까지 수행됩니다.
+아래 확인 및 작업은 하위 도메인이 확인될 때까지 실행되며 메시지를 보내는 데 사용할 수 있습니다.
 
->[!NOTE]
->
->이러한 단계는 Adobe에서 수행되며 최대 3시간이 소요될 수 있습니다.
+이 단계는 Adobe에서 수행되며 **최대 3시간**&#x200B;이 걸릴 수 있습니다.
 
 1. **사전 유효성 검사**: Adobe은 하위 도메인이 Adobe DNS(NS 레코드, SOA 레코드, 영역 설정, 소유권 레코드)에 위임되었는지 확인합니다. 사전 유효성 검사 단계가 실패하면 해당 사유와 함께 오류가 반환되고 그렇지 않으면 Adobe이 다음 단계로 진행합니다.
 
@@ -241,9 +225,7 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 1. 이 하위 도메인과 연결된 모든 랜딩 페이지 하위 도메인, SMS 하위 도메인 및 웹 하위 도메인의 위임을 취소합니다.
 
-   >[!NOTE]
-   >
-   >각 [랜딩 페이지](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) 또는 [웹 하위 도메인](../web/web-delegated-subdomains.md#undelegate-subdomain)에 대해 전용 요청을 제기해야 합니다.
+   각 [랜딩 페이지](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) 또는 [웹 하위 도메인](../web/web-delegated-subdomains.md#undelegate-subdomain)에 대해 전용 요청을 제기해야 합니다.
 
 1. 하위 도메인과 연관된 활성 캠페인을 중지합니다. [방법 알아보기](../campaigns/modify-stop-campaign.md#stop)
 
@@ -251,9 +233,7 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 1. 하위 도메인에 연결된 [PTR 레코드](ptr-records.md#edit-ptr-record)를 다른 하위 도메인으로 가리킵니다.
 
-   >[!NOTE]
-   >
-   >위임된 유일한 하위 도메인인 경우 이 단계를 건너뛸 수 있습니다.
+   위임된 유일한 하위 도메인인 경우 이 단계를 건너뛸 수 있습니다.
 
 완료되면 위임을 해제할 하위 도메인을 사용하여 Adobe 담당자에게 문의하십시오.
 
