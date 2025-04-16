@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: 구성, 여정, 대시보드, 데이터 소스, 이벤트, 작업
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 63%
+source-wordcount: '457'
+ht-degree: 58%
 
 ---
 
-# 데이터 소스, 이벤트 및 액션 구성 {#configure-journeys}
+# 데이터 소스, 이벤트 및 작업 구성 {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
@@ -26,6 +26,8 @@ ht-degree: 63%
 여정이 있는 메시지를 보내려면 **[!UICONTROL 데이터 원본]**, **[!UICONTROL 이벤트]** 및 **[!UICONTROL 작업]**&#x200B;을 구성해야 합니다.
 
 ![](assets/admin-menu.png)
+
+사용자 지정 데이터 소스 및 사용자 지정 작업을 통해 외부 시스템에 대한 연결을 구성할 수도 있습니다. 예를 들어 외부 예약 시스템에서 가져온 데이터로 여정을 보강하거나 Epsilon 또는 Facebook과 같은 서드파티 시스템을 사용하여 메시지를 보낼 수 있습니다. [외부 시스템과 Journey Optimizer을 통합](external-systems.md)하는 방법에 대해 알아봅니다.
 
 ## 데이터 소스 {#data-sources}
 

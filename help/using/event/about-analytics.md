@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: analytics, 통합, 웹 sdk, 플랫폼
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 5%
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 # Adobe Analytics 데이터 작업 {#analytics-data}
 
-Adobe Analytics 또는 Web SDK를 통해 이미 캡처하고 있는 모든 웹 행동 이벤트 데이터를 활용하고 Adobe Experience Platform으로 스트리밍하여 고객을 위한 여정을 트리거하고 경험을 자동화할 수 있습니다.
+Adobe Analytics 또는 Web SDK을 통해 이미 캡처하고 Adobe Experience Platform으로 스트리밍하는 모든 웹 행동 이벤트 데이터를 활용하여 고객을 위한 여정을 트리거하고 경험을 자동화할 수 있습니다.
 
 Adobe Analytics에서 사용하려면 다음을 수행해야 합니다.
 
@@ -68,7 +68,7 @@ Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 가져온 데이�
 이 구성이 완료되면 Adobe에 문의하여 Journey Optimizer 환경에서 이 데이터 소스를 사용할 수 있도록 설정하십시오. 이 단계는 Adobe Analytics 데이터 소스에만 필요합니다. 다음을 수행하십시오.
 
 1. 데이터 소스 ID를 가져옵니다. 이 정보는 사용자 인터페이스에서 사용할 수 있습니다. **원본** 메뉴의 **데이터 흐름** 탭에서 만든 데이터 원본을 찾습니다. 이를 찾는 가장 쉬운 방법은 Adobe Analytics 소스를 필터링하는 것입니다.
-1. 다음 세부 정보를 사용하여 Adobe 고객 지원 센터에 문의하십시오.
+1. 다음 세부 정보는 Adobe 고객 지원 센터에 문의하십시오.
 
    * 제목: 여정에 대해 Adobe Analytics 이벤트 활성화
 
@@ -80,7 +80,7 @@ Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 가져온 데이�
 
 1. 환경이 준비되었다는 확인이 있으면 여정에서 Adobe Analytics 데이터를 사용할 수 있습니다.
 
-## Adobe Analytics 또는 Web SDK 데이터를 사용하여 이벤트로 여정 만들기 {#event-analytics}
+## Adobe Analytics 또는 Web SDK 데이터를 사용하여 이벤트가 있는 여정 만들기 {#event-analytics}
 
 이제 여정에서 사용할 Adobe Analytics 또는 Adobe Experience Platform Web SDK 데이터를 기반으로 이벤트를 만들 수 있습니다.
 
