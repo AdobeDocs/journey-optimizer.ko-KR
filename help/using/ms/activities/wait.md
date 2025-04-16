@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여러 단계 캠페인에서 대기 활동 사용
-description: 여러 단계 캠페인에서 대기 활동을 사용하는 방법을 알아봅니다
+title: 오케스트레이션된 캠페인에서 대기 활동 사용
+description: 오케스트레이션된 캠페인에서 대기 활동을 사용하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 77%
@@ -25,7 +26,7 @@ ht-degree: 77%
 
 **대기** 활동을 구성하려면 다음 단계를 따르십시오.
 
-1. **대기** 활동을 여러 단계 캠페인에 추가합니다.
+1. 오케스트레이션된 캠페인에 **대기** 활동을 추가합니다.
 
 1. 인바운드 전환과 아웃바운드 전환 사이의 대기 **기간**&#x200B;을 지정합니다.
 

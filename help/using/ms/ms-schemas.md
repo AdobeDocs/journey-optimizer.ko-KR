@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여러 단계 캠페인에서 스키마 작업
-description: 여러 단계 캠페인에서 스키마를 만들고 관리하는 방법을 알아봅니다
+title: 오케스트레이션된 캠페인에서 스키마 작업
+description: 오케스트레이션된 캠페인에서 스키마를 만들고 관리하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 5%
 
 ---
-
 
 # 스키마 작업 {#ms-schemas}
 

@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여러 단계 캠페인에서 데이터 업데이트 활동 사용
+title: 오케스트레이션된 캠페인에서 데이터 업데이트 활동 사용
 description: 데이터 업데이트 활동을 사용하는 방법 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 13%
@@ -32,7 +33,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## 데이터 업데이트 활동 구성{#update-data-configuration}
 
-**데이터 업데이트** 활동을 구성하려면 먼저 활동을 여러 단계 캠페인에 추가하고 레이블을 정의합니다.
+**데이터 업데이트** 활동을 구성하려면 먼저 오케스트레이션된 캠페인에 활동을 추가하고 레이블을 정의합니다.
 
 ![](../assets/workflow-update-data.png)
 
@@ -77,6 +78,6 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 마지막 두 옵션을 사용하면 특정 작업을 수행할 수 있습니다.
 
-* **아웃바운드 전환을 생성합니다**: 실행 종료 시 활성화될 아웃바운드 전환을 만듭니다. 업데이트는 일반적으로 타겟팅 다중 단계 캠페인의 종료 신호를 보내므로 옵션이 기본적으로 활성화되지 않습니다.
+* **아웃바운드 전환을 생성합니다**: 실행 종료 시 활성화될 아웃바운드 전환을 만듭니다. 업데이트는 일반적으로 타겟팅 오케스트레이션된 캠페인의 종료 신호를 보내므로 옵션이 기본적으로 활성화되지 않습니다.
 
-* **거부에 대한 아웃바운드 전환을 생성합니다**: 업데이트 후 올바르게 처리되지 않은 레코드가 들어 있는 아웃바운드 전환을 만듭니다(예: 중복된 경우). 업데이트는 일반적으로 타겟팅 다중 단계 캠페인의 끝을 표시하므로 옵션이 기본적으로 활성화되지 않습니다.
+* **거부에 대한 아웃바운드 전환을 생성합니다**: 업데이트 후 올바르게 처리되지 않은 레코드가 들어 있는 아웃바운드 전환을 만듭니다(예: 중복된 경우). 업데이트는 일반적으로 타겟팅이 오케스트레이션된 캠페인의 끝을 표시하므로 옵션이 기본적으로 활성화되지 않습니다.

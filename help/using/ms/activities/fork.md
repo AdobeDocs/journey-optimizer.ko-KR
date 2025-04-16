@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 포크 활동 사용
-description: 여러 단계 캠페인에서 포크 활동을 사용하는 방법을 알아봅니다
+description: 오케스트레이션된 캠페인에서 포크 활동을 사용하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 83%
@@ -33,7 +34,7 @@ ht-degree: 83%
 
 ![](../assets/workflow-fork.png)
 
-1. **포크** 활동을 여러 단계 캠페인에 추가합니다.
+1. 오케스트레이션된 캠페인에 **포크** 활동을 추가합니다.
 1. 새 아웃바운드 전환을 추가하려면 **전환 추가**&#x200B;를 클릭합니다. 기본적으로 두 개의 전환이 정의됩니다.
 1. 각 전환에 레이블을 추가합니다.
 
