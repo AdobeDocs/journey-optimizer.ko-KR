@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 대상자 작성 활동 사용
-description: 여러 단계 캠페인에서 대상자 작성 활동을 사용하는 방법을 알아봅니다
+description: 오케스트레이션된 캠페인에서 대상자 빌드 활동을 사용하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 64%
+ht-degree: 45%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="대상자 빌드 활동"
->abstract="**대상자 빌드** 활동을 통해 다단계 캠페인에 참여할 대상자를 정의할 수 있습니다. 다단계 캠페인 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다."
+>abstract="**대상자 작성** 활동을 통해 오케스트레이션된 캠페인을 시작할 대상자를 정의할 수 있습니다. 오케스트레이션된 캠페인의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 빌드** 활동에 정의됩니다."
 
-**대상자 빌드** 활동은 **타겟팅** 활동입니다. 이 활동을 통해 여러 단계 캠페인을 입력할 대상자를 정의할 수 있습니다. 다단계 캠페인 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다.
+**대상자 빌드** 활동은 **타겟팅** 활동입니다. 이 활동을 통해 오케스트레이션된 캠페인을 입력할 대상자를 정의할 수 있습니다. 오케스트레이션된 캠페인의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 빌드** 활동에 정의됩니다.
 
 대상자 모집단을 정의하기 위해 수행할 수 있는 작업은 다음과 같습니다.
 
@@ -74,6 +74,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ## 예시{#build-audience-examples}
 
-다음은 두 개의 **대상자 작성** 활동을 사용하는 여러 단계 캠페인의 예입니다. 첫 번째는 포커 플레이어 대상자를 대상으로 하며 이메일 게재로 이어집니다. 두 번째는 VIP 클라이언트 대상자를 대상으로 하며 SMS 게재로 이어집니다.
+다음은 두 개의 **대상자 작성** 활동으로 오케스트레이션된 캠페인의 예입니다. 첫 번째는 포커 플레이어 대상자를 대상으로 하며 이메일 게재로 이어집니다. 두 번째는 VIP 클라이언트 대상자를 대상으로 하며 SMS 게재로 이어집니다.
 
 ![](../assets/workflow-audience-example.png)
