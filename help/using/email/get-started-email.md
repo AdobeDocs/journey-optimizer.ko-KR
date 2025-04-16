@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 이메일, 시작, 만들기, 미리보기
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
+source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '190'
+ht-degree: 88%
 
 ---
 
@@ -68,6 +68,43 @@ ht-degree: 100%
 </a>
 <div>
 <a href="email-settings.md"><strong>이메일 채널 구성</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../content-management/generative-email.md">
+<img alt="AI 어시스턴트" src="../assets/do-not-localize/email-generate.jpg">
+</a>
+<div><a href="../content-management/generative-email.md"><strong>콘텐츠 생성을 위한 AI 도우미</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="../content-management/fragments.md">
+<img alt="콘텐츠 조각" src="../assets/do-not-localize/patterns.jpg">
+</a>
+<div>
+<a href="../content-management/fragments.md"><strong>전자 메일 콘텐츠 조각 사용</strong></a>
+</div>
+<p></td>
+<td>
+<a href="../personalization/personalize.md">
+<img alt="콘텐츠 개인화" src="../assets/do-not-localize/personalize.jpg">
+</a>
+<div>
+<a href="../personalization/personalize.md"><strong>전자 메일 콘텐츠 개인화</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../integrations/assets.md">
+<img alt="솔루션 결합" src="../assets/do-not-localize/colors.jpeg">
+</a>
+<div>
+<a href="../integrations/assets.md"><strong>Adobe 앱과 솔루션 결합</strong></a>
 </div>
 <p>
 </td>
