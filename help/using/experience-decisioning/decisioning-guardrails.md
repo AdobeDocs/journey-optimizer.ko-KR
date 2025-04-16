@@ -5,7 +5,7 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 17%
@@ -22,8 +22,8 @@ Decisioning을 최적으로 사용하려면 다음 보호 기능 및 제한 사�
 
 | 가드레일 | 제한 |
 | ------- | ------- |
-| Edge 세그멘테이션을 활용하는 의사 결정 정책을 사용한 코드 기반 경험 API 요청 | 1500 |
-| Edge 세그멘테이션을 활용하지 않는 의사 결정 정책이 있는 코드 기반 경험 API 요청 | 5000 |
+| Edge 세그먼테이션을 사용한 의사 결정 정책이 있는 코드 기반 경험 API 요청 | 1500 |
+| Edge 세그멘테이션을 사용하지 않는 의사 결정 정책이 있는 코드 기반 경험 API 요청 | 5000 |
 
 ## 항목 컬렉션
 

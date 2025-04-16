@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
-source-wordcount: '349'
-ht-degree: 100%
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](using/rn/release-notes.md)에서 자세히 확인할 수 있습니다.  설명서의 최근 변경 사항은 [설명서 업데이트 페이지](using/rn/documentation-updates.md)를 방문하여 확인할 수 있습니다.
+Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](using/rn/release-notes.md)에서 자세히 확인할 수 있습니다.  제품 설명서의 최신 변경 사항을 최신 상태로 유지하려면 [설명서 업데이트 페이지](using/rn/documentation-updates.md)를 방문하십시오.
 
 >[!BEGINTABS]
 

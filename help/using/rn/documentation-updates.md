@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 86%
+source-wordcount: '1162'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,9 @@ ht-degree: 86%
 
 ## 2025년 4월 {#apr-2025}
 
+* 구성 챕터는 이제 [채널 구성](../configuration/get-started-configuration.md), [여정 구성](../configuration/about-data-sources-events-actions.md) 및 [시스템 연결](../configuration/ajo-apis.md)의 세 개의 챕터로 분할됩니다.
+* 여정 표현식 및 조건에서 경험 이벤트 사용에 대한 주의 사항이 추가되었습니다. [자세히 보기](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
+* 이제 [전자 메일](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-a-subdomain-undelegate-subdomain), [웹 경험](../web/web-delegated-subdomains.md#undelegate-a-subdomain-undelegate-subdomain) 및 [랜딩 페이지](../landing-pages/lp-subdomains.md#undelegate-subdomain)에 대해 하위 도메인의 위임을 취소하는 단계가 자세히 설명되어 있습니다.
 * DM 구성 페이지에 출력 파일의 임시 저장소에 대한 메모를 추가했습니다. [자세히 보기](../direct-mail/direct-mail-configuration.md)
 * 여정 고급 표현식 편집기 섹션에 조건 형식 지침에 대한 팁을 추가했습니다. [자세히 보기](../building-journeys/expression/expressionadvanced.md)
 * 대상 이름을 바꿀 때 미치는 영향 및 모범 사례에 대한 주의 메모를 `inAudience` 함수 섹션에 추가했습니다. [자세히 보기](../building-journeys/functions/functioninaudience.md)

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 통합, standard, campaign, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -53,7 +53,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 기본 제공 작업 �
 
 >[!NOTE]
 >
->이메일에 프로필의 트랜잭션 템플릿을 사용하면 구독 취소 메커니즘이 Adobe Campaign Standard에서 자동으로 처리됩니다. 이를 구현하려면 [트랜잭션 전자 메일 템플릿](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)에 **[!UICONTROL 구독 취소 링크]** 콘텐츠 블록을 쉽게 포함할 수 있습니다. 그러나 이벤트 기반 템플릿(rtEvent)을 사용하는 경우 수신자의 이메일을 URL 매개 변수로 전달하고 구독 취소 랜딩 페이지로 안내하는 링크를 메시지에 통합해야 합니다. 이 랜딩 페이지를 만들고 수신자의 구독 취소 결정이 Adobe에 효과적으로 전달되도록 해야 합니다.
+>이메일에 프로필의 트랜잭션 템플릿을 사용하는 경우 구독 취소 메커니즘은 Adobe Campaign Standard에 의해 자동으로 처리됩니다. 이를 구현하려면 [트랜잭션 전자 메일 템플릿](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)에 **[!UICONTROL 구독 취소 링크]** 콘텐츠 블록을 쉽게 포함할 수 있습니다. 그러나 이벤트 기반 템플릿(rtEvent)을 사용하는 경우 수신자의 이메일을 URL 매개 변수로 전달하고 구독 취소 랜딩 페이지로 안내하는 링크를 메시지에 통합해야 합니다. 이 랜딩 페이지를 만들고 수신자의 구독 취소 결정이 Adobe에 효과적으로 전달되도록 해야 합니다.
 
 먼저 트랜잭션 메시지 템플릿을 선택해야 합니다.
 
