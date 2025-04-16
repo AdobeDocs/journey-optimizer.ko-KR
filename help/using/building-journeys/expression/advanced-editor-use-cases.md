@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 표현식, 조건, 사용 사례, 이벤트
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
@@ -19,13 +19,18 @@ ht-degree: 1%
 
 고급 표현식 편집기를 사용하여 여정에서 사용자를 필터링할 수 있는 조건을 만들 수 있습니다. 이러한 조건을 사용하면 여정에서 다시 타깃팅할 수 있도록 시간, 날짜, 위치, 기간 또는 장바구니 구매 또는 포기와 같은 작업을 타깃팅할 수 있습니다.
 
->[!NOTE]
+>[!CAUTION]
 >
->이벤트는 @으로 시작하며 데이터 소스는 #으로 시작합니다.
+>여정 표현식/조건에서 경험 이벤트를 활용하는 것이 지원되지만 권장되지는 않습니다. 사용 사례에서 경험 이벤트를 사용해야 하는 경우 [계산된 특성](../../audience/computed-attributes.md)과 같은 대체 메서드를 사용하거나 이벤트를 사용하여 세그먼트를 만들고 해당 세그먼트를 [`inAudience` 식에 통합](../../building-journeys/functions/functioninaudience.md)해 보십시오.
+
 
 ## 경험 이벤트에 대한 조건 구축
 
 고급 표현식 편집기는 구매 목록 또는 과거 메시지 클릭과 같은 시계열에 대한 쿼리를 수행해야 합니다. 이러한 쿼리는 단순 편집기를 사용하여 수행할 수 없습니다.
+
+>[!NOTE]
+>
+>이벤트는 @으로 시작하며 데이터 소스는 #으로 시작합니다.
 
 경험 이벤트는 Adobe Experience Platform에서 역시간 순서로 컬렉션으로 검색됩니다. 따라서 다음과 같습니다.
 
@@ -40,7 +45,7 @@ ht-degree: 1%
 
 <!--**This expression looks for a specified value in a string value:**
 
-`In (“addToCart”, #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`-->
 
 **이 식은 지난 7일 동안 지정한 이 사용자의 모든 이벤트를 찾습니다.**
 

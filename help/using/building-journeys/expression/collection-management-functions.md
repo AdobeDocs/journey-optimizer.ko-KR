@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 쿼리, 컬렉션, 함수, 페이로드, 여정
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,13 @@ ht-degree: 1%
 예를 들어 모든 앱 사용자 중에서 IOS 13(부울 표현식 &quot;IOS 13== 사용된 앱&quot;)을 사용하여 앱 사용자를 가져올 수 있습니다. 이 함수의 결과는 부울 표현식(예: 앱 사용자 1, 앱 사용자 34, 앱 사용자 432)과 일치하는 항목을 포함하는 필터링된 목록입니다.
 
 Data Source 조건 활동에서 **[!UICONTROL all]** 함수의 결과가 null인지 여부를 확인할 수 있습니다. 이 **[!UICONTROL all]** 함수를 **[!UICONTROL count]**&#x200B;와 같은 다른 함수와 결합할 수도 있습니다. 자세한 내용은 [데이터 Source 조건 활동](../condition-activity.md#data_source_condition)을 참조하세요.
+
+
+## 예시
+
+>[!CAUTION]
+>
+>여정 표현식/조건에서 경험 이벤트를 활용하는 것이 지원되지만 권장되지는 않습니다. 사용 사례에서 경험 이벤트를 사용해야 하는 경우 [계산된 특성](../../audience/computed-attributes.md)과 같은 대체 메서드를 사용하거나 이벤트를 사용하여 세그먼트를 만들고 해당 세그먼트를 [`inAudience` 식에 통합](../../building-journeys/functions/functioninaudience.md)해 보십시오.
 
 **예 1:**
 

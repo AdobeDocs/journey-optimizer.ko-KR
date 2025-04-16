@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 표현식 편집기, 데이터, 여정
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 60%
+source-wordcount: '734'
+ht-degree: 57%
 
 ---
 
@@ -69,6 +69,11 @@ ht-degree: 60%
 화면 왼쪽에 사용 가능한 필드와 함수가 표시됩니다.
 
 * **[!UICONTROL 이벤트]**: 인바운드 이벤트에서 받은 필드 중 하나를 선택하십시오. 상황에 맞는 이벤트 필드 목록이 표시되며, 이 목록은 여정에 추가된 이벤트에 따라 달라집니다. [자세히 보기](../../event/about-events.md)
+
+  >[!CAUTION]
+  >
+  >여정 표현식/조건에서 경험 이벤트를 활용하는 것이 지원되지만 권장되지는 않습니다. 사용 사례에서 경험 이벤트를 사용해야 하는 경우 [계산된 특성](../../audience/computed-attributes.md)과 같은 대체 메서드를 사용하거나 이벤트를 사용하여 세그먼트를 만들고 해당 세그먼트를 [`inAudience` 식에 통합](../../building-journeys/functions/functioninaudience.md)해 보십시오.
+
 * **[!UICONTROL 대상]**: **[!UICONTROL 대상 자격]** 이벤트를 삭제한 경우 표현식에 사용할 대상을 선택하십시오. [자세히 보기](../condition-activity.md#using-a-segment)
 * **[!UICONTROL 데이터 원본]**: 데이터 원본의 필드 그룹에서 사용 가능한 필드 목록에서 선택하십시오. [자세히 보기](../../datasource/about-data-sources.md)
 * **[!UICONTROL 여정 속성]**: 이 섹션에서는 지정된 프로필의 여정과 관련된 기술 필드를 다시 그룹화합니다. [자세히 보기](journey-properties.md)
