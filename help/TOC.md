@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 31e88f02ed2569357a31552db717225d7f37a1eb
+source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: '2330'
 ht-degree: 89%
 
 ---
@@ -739,14 +739,14 @@ ht-degree: 89%
       + [사용자 정의 작업 문제 해결](using/action/troubleshoot-custom-action.md)
       + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
 + 시스템 {#connect-systems} 연결&quot;
-   + [ADOBE JOURNEY OPTIMIZER API](using/configuration/ajo-apis.md)
-   + 여정 API 작업 {#external-systems}
-      + [여정을 외부 시스템과 통합하기](using/configuration/external-systems.md)
+   + [Journey Optimizer API 작업](using/configuration/ajo-apis.md)
+   + 외부 시스템과 여정 통합 {#external-systems}
+      + [외부 시스템과의 여정 통합](using/configuration/external-systems.md)
       + [Capping API](using/configuration/capping.md)
       + [Throttling API](using/configuration/throttling.md)
    + Adobe 솔루션으로 보내기 {#adobe-solutions}
-      + [Adobe Campaign Standard과 여정 통합](using/action/acs-action.md)
-      + [Adobe Campaign v7/v8과 여정 통합](using/action/acc-action.md)
+      + [Campaign Standard과 여정 통합](using/action/acs-action.md)
+      + [Campaign v7/v8과 여정 통합](using/action/acc-action.md)
       + [Marketo Engage과 여정 통합](using/action/marketo-engage.md)
    + [소스 커넥터 구성](using/start/get-started-sources.md)
    + [다른 샌드박스로 개체 내보내기](using/configuration/copy-objects-to-sandbox.md)
