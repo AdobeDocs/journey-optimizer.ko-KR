@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f15962bf68c7ea5087e0def33888b06f52d580cd
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 94%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 94%
 
 * **[!UICONTROL 경고]** - 사용자 인터페이스를 사용하면 Adobe Experience Platform Observability Insights에서 공개한 지표를 기반으로 받은 경고 내역을 볼 수 있습니다. 또한 UI에서 사용 가능한 경고 규칙을 보고, 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](../reports/alerts.md)
 
-* **[!UICONTROL 샌드박스]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. 이 섹션에서 샌드박스를 관리할 수 있습니다. [자세히 알아보기](../administration/sandboxes.md)
+* **[!UICONTROL 샌드박스]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. 또한 [!DNL Journey Optimizer]을(를) 사용하면 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. [자세히 알아보기](../administration/sandboxes.md)
 
 * **[!UICONTROL 채널]** - 이 섹션에서 하위 도메인, 구성, 전달성 설정 등을 지정하여 채널을 구성할 수 있습니다. [자세히 알아보기](../configuration/get-started-configuration.md)
 

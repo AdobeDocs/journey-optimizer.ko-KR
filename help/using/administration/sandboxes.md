@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 샌드박스 관리
+title: 샌드박스 사용 및 할당
 description: 샌드박스를 관리하는 방법 알아보기
 feature: Sandboxes
 topic: Administration
@@ -9,14 +9,14 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 샌드박스, 가상, 환경, 조직, 플랫폼
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 52%
+source-wordcount: '329'
+ht-degree: 50%
 
 ---
 
-# 샌드박스 관리 {#sandboxes}
+# 샌드박스 사용 및 할당 {#sandboxes}
 
 ## 샌드박스 사용 {#using-sandbox}
 
