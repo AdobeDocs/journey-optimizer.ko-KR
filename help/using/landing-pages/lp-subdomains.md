@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 하위 도메인, 구성
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '972'
 ht-degree: 19%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 19%
 >title="랜딩 페이지 사전 설정 만들기"
 >abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 랜딩 페이지 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+
+## 랜딩 페이지 하위 도메인 시작 {#gs-lp-subdomains}
 
 [랜딩 페이지 사전 설정을 만들기](lp-presets.md)하려면 랜딩 페이지에 사용할 하위 도메인을 설정해야 합니다.
 

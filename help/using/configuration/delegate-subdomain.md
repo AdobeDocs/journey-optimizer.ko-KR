@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2009'
 ht-degree: 20%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 20%
 >id="ajo_admin_subdomainname_header"
 >title="하위 도메인 위임"
 >abstract="이메일 전송을 시작하려면 하위 도메인을 Adobe에 위임해야 합니다. 이 과정이 완료되면 DNS 레코드, 받은 편지함, 발신자, 회신 주소와 바운스 주소가 구성됩니다."
+
+## 이메일 하위 도메인 시작 {#gs-delegate-subdomain}
 
 도메인 이름 위임은 도메인 이름(기술적으로 DNS 영역)의 소유자가 그 하위 분할(기술적으로 하위 영역이라고 할 수 있는 하위 DNS 영역)을 다른 엔티티에 위임할 수 있는 방법입니다. 기본적으로 고객은 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다. [하위 도메인 위임](about-subdomain-delegation.md)에 대해 자세히 알아보기
 
