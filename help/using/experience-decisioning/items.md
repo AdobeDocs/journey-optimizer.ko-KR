@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1752'
 ht-degree: 15%
 
 ---
@@ -163,6 +163,10 @@ If a marketer wants to determine how many times a specific customer has been sho
 
   >[!IMPORTANT]
   >
-  >삭제하면 결정 항목과 해당 콘텐츠에 더 이상 액세스할 수 없습니다. 이 작업은 취소할 수 없습니다. 결정 항목이 컬렉션이나 결정에 사용되는 경우 삭제할 수 없습니다. 먼저 오브젝트에서 결정 항목을 제거해야 합니다.
+  >삭제하면 결정 항목과 해당 콘텐츠에 더 이상 액세스할 수 없습니다. 이 작업은 취소할 수 없습니다.
+
+  승인된 오퍼 항목은 컬렉션이나 의사 결정에 사용되는 경우 삭제할 수 없습니다. 삭제하려면 상태를 &quot;초안&quot;으로 변경하십시오. 이렇게 하려면 줄임표 버튼을 클릭하고 **[!UICONTROL 승인 취소]**&#x200B;를 선택하십시오.
+
+  ![](assets/item-undo.png)
 
 * **[!UICONTROL 보관]**: 결정 항목 상태를 **[!UICONTROL 보관]**(으)로 설정합니다. 결정 항목은 여전히 목록에서 사용할 수 있지만 상태를 **[!UICONTROL 초안]** 또는 **[!UICONTROL 승인됨]**(으)로 다시 설정할 수 없습니다. 복제하거나 삭제할 수만 있습니다.
