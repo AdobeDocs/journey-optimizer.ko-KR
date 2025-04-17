@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 83%
+source-wordcount: '1202'
+ht-degree: 80%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 83%
 * 사용된 이벤트에 ID 네임스페이스를 포함할 필요성에 대한 메모로 여정 테스트 페이지를 업데이트했습니다. [자세히 보기](../building-journeys/testing-the-journey.md)
 * 현재 [!UICONTROL Journey Optimizer] 사용자 인터페이스를 통해 하위 도메인을 위임해제할 수 없습니다. Adobe 담당자에게 연락해야 합니다. 이메일, 랜딩 페이지, SMS 및 웹 하위 도메인 섹션이 Adobe에 연락하기 전에 수행해야 하는 단계 및 이 정보로 업데이트되었습니다. [자세히 보기](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * 동일한 끝점에 대한 제한 구성과 함께 이 매개 변수를 사용하는 방법에 대한 지침을 포함하여 여정 최대 가용량 API의 선택적 `maxHttpConnections` 매개 변수에 대한 설명을 추가했습니다. [자세히 보기](../configuration/throttling.md)
+* Experience Decisioning 섹션에서 승인된 오퍼 항목은 컬렉션이나 결정에 사용할 경우 삭제할 수 없다는 설명을 추가했습니다. **[!UICONTROL 승인 실행 취소]** 옵션을 사용하여 상태를 &quot;초안&quot;으로 변경하는 단계가 포함되었습니다. [자세히 보기](../experience-decisioning/items.md#manage)
 
 ## 2025년 3월 {#mar-2025}
 
