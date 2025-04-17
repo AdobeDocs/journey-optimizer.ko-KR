@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1756'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 10%
 
 의사 결정 정책을 코드 기반 캠페인에 활용하는 주요 단계는 다음과 같습니다.
 
-1. [코드 기반 환경에 의사 결정 정책 추가](#add-decision)
+1. [코드 기반 경험에 결정 정책 추가](#add-decision)
 1. [의사 결정 정책 사용](#use-decision-policy)
 1. [사용자 지정 Customer Journey Analytics 보고 대시보드 만들기](cja-reporting.md)
 
-## 코드 기반 환경에 의사 결정 정책 추가 {#add-decision}
+## 코드 기반 경험에 결정 정책 추가 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"

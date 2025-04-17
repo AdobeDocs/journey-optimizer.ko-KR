@@ -12,11 +12,11 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 53%
+ht-degree: 55%
 
 ---
 
-# 이메일 Designer을 사용하여 처음부터 콘텐츠 디자인 {#content-from-scratch}
+# 이메일 디자이너를 사용하여 처음부터 콘텐츠 디자인 {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

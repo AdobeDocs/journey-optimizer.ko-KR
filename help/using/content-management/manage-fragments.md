@@ -11,7 +11,7 @@ exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1469'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -61,8 +61,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_folders"
->title="조각을 폴더로 구성"
->abstract="폴더를 사용하여 조직의 필요에 따라 조각을 분류하고 관리합니다."
+>title="조각을 폴더로 정리"
+>abstract="조직의 필요에 따라 폴더를 사용하여 조각을 분류하고 관리합니다."
 
 >[!AVAILABILITY]
 >

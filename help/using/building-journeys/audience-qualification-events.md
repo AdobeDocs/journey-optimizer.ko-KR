@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 대상 자격 이벤트
+title: 대상자 선별 이벤트
 description: 대상 자격 이벤트를 사용하고 구성하는 방법 알아보기
 feature: Journeys, Activities, Audiences
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 ---
 
-# 대상 자격 이벤트 {#segment-qualification}
+# 대상자 선별 이벤트 {#segment-qualification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
