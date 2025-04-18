@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ## 여정 유형 {#types-of-journeys}
 
-Adobe Journey Optimizer에서는 다음 유형의 여정을 사용할 수 있습니다.
+Adobe Journey Optimizer을 사용하여 다음 유형의 여정을 만들 수 있습니다.
 
 * **단일 이벤트** 여정: 이러한 여정은 단일 이벤트로 시작합니다. 이벤트가 수신되면 관련 프로필이 여정에 들어갑니다. [자세히 보기](#entry-unitary)
 

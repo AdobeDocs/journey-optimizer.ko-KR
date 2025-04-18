@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 7%
@@ -29,13 +29,13 @@ ht-degree: 7%
 
 * 제한적인 스팸 고객 불만
 * 낮은 하드 바운스 비율
-* 타겟팅된 주소 품질
+* 타겟팅된 주소의 품질
 * 메시지 콘텐츠
 * 보낸 사람의 신뢰도
 
 [!DNL Journey Optimizer] 경험의 전달성을 최적화하려면 이 섹션에 나열된 모범 사례를 사용하는 것이 좋습니다. 전달성 문제는 일반적으로 인터넷 서비스 공급자(ISP) 및 메일 서버 관리자가 구현하는 스팸을 방지하는 것과 관련이 있습니다.
 
-전달성의 의미에 대해 자세히 알아보고 주요 전달성 용어, 개념 및 접근 방식에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하세요.
+전달성의 의미에 대해 자세히 알아보고 주요 전달성 용어, 개념 및 접근 방식에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 고객 불만 신고율 감소 {#reduce-complaint-rate}
 
@@ -110,7 +110,7 @@ FBL(피드백 루프)은 일부 ISP에서 제공하는 서비스로, 이메일�
 
 >[!IMPORTANT]
 >
->모든 ISP가 Gmail과 같은 기존 FBL을 제공하는 것은 아닙니다. Gmail은 개별 수준 피드백을 제공하지 않으며, Google Postmaster 도구 내의 집계 수준 보고에 중점을 두고 개별 수신자에게 스팸 불만을 추적하는 데 사용할 수 없습니다. [자세히 알아보기](https://support.google.com/a/answer/6254652?hl=en)
+>모든 ISP가 Gmail과 같은 기존 FBL을 제공하는 것은 아닙니다. Gmail은 개별 수준 피드백을 제공하지 않으며, Google Postmaster 도구 내의 집계 수준 보고에 중점을 두고 개별 수신자에게 스팸 불만을 추적하는 데 사용할 수 없습니다. [자세히 알아보기](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
 
 모든 Adobe 고객은 자동으로 다음 ISP의 기존 FBL에 등록됩니다.
 
