@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 15%
 
 ---
 
@@ -47,9 +47,13 @@ ht-degree: 16%
 
 **대기** 활동을 사용하여 다시 시작을 차단하지 않는 것이 좋습니다. 대신 여정 속성 수준에서 **재입력 허용** 옵션을 사용하십시오. [이 페이지](../building-journeys/journey-properties.md#entrance)에서 자세히 알아보세요.
 
-### 대기 및 테스트 모드 {#wait-test-modd}
+### 대기 및 테스트 모드 {#wait-test-mode}
 
 테스트 모드에서 **[!UICONTROL 테스트의 대기 시간]** 매개 변수를 사용하면 각 **대기** 활동이 지속되는 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)에서 자세히 알아보세요.
+
+### 대기 및 모바일 채널 {#wait-mobile-channels}
+
+[푸시 알림](../push/get-started-push.md)을 보낸 직후 [인앱 메시지](../in-app/create-in-app.md)를 표시하려면 **대기** 활동을 사용하여 인앱 메시지 페이로드 시간을 전파하도록 허용하십시오. 일반적으로 5~15분 정도 기다리는 것이 좋지만 정확한 시간은 페이로드 복잡성과 개인화 요구 사항에 따라 달라질 수 있습니다.
 
 ## 구성 {#wait-configuration}
 

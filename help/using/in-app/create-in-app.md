@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2056'
 ht-degree: 12%
 
 ---
@@ -118,6 +118,10 @@ ht-degree: 12%
 1. 인앱 메시지가 준비되면 구성을 완료하고 여정을 게시하여 활성화합니다.
 
 여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
+
+>[!NOTE]
+>
+>푸시 알림을 보낸 직후에 인앱 메시지를 표시하려면 **대기** 활동을 사용하여 인앱 메시지 페이로드 시간을 전파하도록 허용하십시오. 일반적으로 5~15분 정도 기다리는 것이 좋지만 정확한 시간은 페이로드 복잡성과 개인화 요구 사항에 따라 달라질 수 있습니다.
 
 >[!TAB 인앱 메시지를 캠페인에 추가]
 
