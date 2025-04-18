@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 22%
+source-wordcount: '288'
+ht-degree: 26%
 
 ---
 
@@ -28,11 +28,12 @@ ht-degree: 22%
 
 **차원 변경** 활동은 **타깃팅** 활동입니다. 이 활동을 사용하면 오케스트레이션된 캠페인을 구축할 때 타겟팅 차원을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축을 이동합니다.
 
-예를 들어 오케스트레이션된 캠페인의 타겟팅 차원을 &quot;수신자&quot;에서 &quot;구독자 애플리케이션&quot;으로 전환하여 타겟팅된 수신자에게 푸시 알림을 전송할 수 있습니다.
+예를 들어 오케스트레이션된 캠페인의 타겟팅 차원을 &quot;프로필&quot;에서 &quot;계약&quot;으로 전환하여 타겟팅된 계약 소유자에게 메시지를 보낼 수 있습니다.
 
+<!--
 >[!IMPORTANT]
 >
->**[!UICONTROL 차원 변경]** 및 **[!UICONTROL 데이터 원본 변경]** 활동은 한 행에 추가해서는 안 됩니다. 두 활동을 연속해서 사용해야 하는 경우 두 활동 사이에 **[!UICONTROL 강화]** 활동을 포함해야 합니다. 이렇게 하면 적절한 실행이 보장되며 잠재적인 충돌 또는 오류가 방지됩니다.
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.-->
 
 ## 차원 변경 활동 구성 {#configure}
 
@@ -40,9 +41,9 @@ ht-degree: 22%
 
 1. 오케스트레이션된 캠페인에 **차원 변경** 활동을 추가합니다.
 
-   ![](../assets/workflow-change-dimension.png)
+   ![](assets/change-dimension.png)
 
-1. **새 대상 차원**&#x200B;을(를) 정의합니다. 차원 변경 중에는 모든 레코드가 유지됩니다. 다른 옵션은 아직 사용할 수 없습니다.
+1. **새 대상 차원**&#x200B;을(를) 정의합니다. 차원 변경 중에는 모든 레코드가 유지됩니다.
 
 1. 오케스트레이션된 캠페인을 실행하여 결과를 확인합니다. 차원 변경 활동 전후의 테이블에서 데이터를 비교하고 오케스트레이션된 캠페인 테이블의 구조를 비교합니다.
 
@@ -52,4 +53,4 @@ ht-degree: 22%
 
 그런 다음 **[!UICONTROL 차원 변경]** 활동을 사용하여 오케스트레이션된 캠페인 타기팅 차원을 &quot;수신자&quot;로 전환합니다. 이를 통해 쿼리와 일치하는 수신자를 타겟팅할 수 있습니다.
 
-![](../assets/workflow-change-dimension-example.png)
+![](assets/change-dimension-example.png)
