@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: ht
-source-wordcount: '848'
-ht-degree: 100%
+source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+workflow-type: tm+mt
+source-wordcount: '847'
+ht-degree: 87%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 >[!NOTE]
 >
->2024년 11월 1일부터 스트리밍 세분화에서는 더 이상 Journey Optimizer 추적 및 피드백 데이터 세트의 이벤트 전송 및 열기를 지원하지 않습니다. 또한 2025년 2월부터 TTL(Time-to-Live) 가드레일이 Journey Optimizer 시스템 생성 데이터 세트에 배포됩니다. [자세히 알아보기](datasets-ttl.md)
+>2024년 11월 1일부터 스트리밍 세분화는 더 이상 Journey Optimizer 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트 사용을 지원하지 않습니다. 또한 2025년 2월부터 TTL(Time-to-Live) 가드레일이 Journey Optimizer 시스템 생성 데이터 세트로 배포되고 있습니다. [자세히 알아보기](datasets-ttl.md)
 
 데이터 세트의 이름을 선택하여 [데이터 세트] 활동 화면에 액세스하고 선택한 데이터 세트의 세부 정보를 확인합니다. 활동 탭에는 메시지 사용률을 시각화한 그래프와 성공/실패한 일괄 처리 집합 목록이 있습니다.
 
@@ -64,7 +64,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 * _보내는 시간 최적화 점수/참여 점수_: [고객 여정 AI]의 결과 점수입니다.
 
-각 스키마의 전체 필드와 속성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko){target="_blank"}을 찾아봅니다.
+각 스키마에 대한 전체 필드 및 특성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko){target="_blank"}을 참조하세요.
 
 ## 데이터 세트 미리 보기{#preview-datasets}
 
@@ -78,8 +78,8 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 다음을 수행할 수 있습니다.
 
-* 스키마에서 데이터 세트 만들기. [이 문서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#schema){target="_blank"}
-* CSV 파일에서 데이터 세트를 만듭니다. [이 문서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko-KR){target="_blank"}
+* 스키마에서 데이터 세트 만들기. [이 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#schema){target="_blank"}
+* CSV 파일에서 데이터 세트를 만듭니다. [이 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko-KR){target="_blank"}
 
 이 비디오에서는 데이터 세트를 만들고 이를 스키마에 매핑하며, 세트에 데이터를 추가하고 데이터가 수집되었는지 확인하는 방법을 알아봅니다.
 
@@ -93,19 +93,19 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 [!DNL Adobe Experience Platform Data Governance]로 고객 데이터를 관리하고 데이터 사용에 적용되는 규정과 제한, 정책을 준수할 수 있습니다. 이 기능은 Experience Platform 내 카탈로그 작성, 데이터 계통 확인, 데이터 사용 라벨링, 데이터 사용 정책, 마케팅 작업을 위한 데이터 사용 제어 등 다양한 수준에서 주요 역할을 합니다.
 
-[데이터 거버넌스]와 데이터 사용 레이블에 대한 자세한 내용은 [데이터 거버넌스 설명서](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=ko){target="_blank"}를 참조하십시오.
+[데이터 거버넌스 설명서](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=ko){target="_blank"}에서 데이터 거버넌스 및 데이터 사용 레이블에 대해 자세히 알아보세요.
 
 ## 샘플 및 사용 사례{#uc-datasets}
 
 [이 자세한 샘플](../audience/creating-test-profiles.md)에서는 Adobe Journey Optimizer에서 스키마와 데이터 세트를 만들고 데이터를 수집하여 [테스트 프로필]을 추가하는 방법을 알아봅니다.
 
-데이터 세트 만들기에 대한 자세한 정보는 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko){target="_blank"}를 참조하십시오.
+[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko){target="_blank"}에서 데이터 세트 만들기에 대해 자세히 알아보세요.
 
-[데이터 세트] UI를 사용하는 방법은 [데이터 수집 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}를 참조하십시오.
+[데이터 수집 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}에서 데이터 세트 UI를 사용하는 방법을 알아보세요.
 
 사용 사례 목록과 쿼리 예제는 [여기](../data/datasets-query-examples.md)에서 확인할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
 >* [스트리밍 수집 개요](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko){target="_blank"}
->* [데이터를 Adobe Experience Platform으로 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ko){target="_blank"}
+>* [Adobe Experience Platform에 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ko){target="_blank"}
