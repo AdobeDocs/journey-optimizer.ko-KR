@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 23%
+source-wordcount: '445'
+ht-degree: 24%
 
 ---
 
@@ -62,6 +62,5 @@ Adobe Journey Optimizer을 사용하면 여러 채널에서 마케팅 캠페인�
 * [And-join](and-join.md): 오케스트레이션된 캠페인의 여러 실행 분기를 동기화합니다.
 * **끝**: 오케스트레이션된 캠페인의 끝을 그래픽으로 표시합니다. 이 활동은 기능에 영향을 주지 않으므로 선택 사항입니다
 * [포크](fork.md): 동시에 여러 활동을 시작하는 아웃바운드 전환을 만듭니다.
-* [스케줄러](scheduler.md): 오케스트레이션된 캠페인이 시작되는 시기를 예약합니다.
 * [테스트](test.md): 지정된 조건을 기반으로 전환을 사용합니다.
 * [대기](wait.md): 오케스트레이션된 캠페인의 일부 실행을 잠시 중단합니다.
