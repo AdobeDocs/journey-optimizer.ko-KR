@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 오케스트레이션된 캠페인에 대한 관계형 스키마 만들기
 description: 오케스트레이션된 캠페인에 대한 관계형 스키마를 만들고 관리하는 방법을 알아봅니다
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: c26cf974525ac6f7de0b93a5e50e85a111b2a475
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '73'
 ht-degree: 61%
 
 ---

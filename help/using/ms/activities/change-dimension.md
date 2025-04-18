@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 차원 변경 활동 사용
 description: 차원 변경 활동을 사용하는 방법 알아보기
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 22%
 
 ---

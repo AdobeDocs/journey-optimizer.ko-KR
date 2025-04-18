@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer을 사용하여 오케스트레이션된 캠페인 만들기
 description: Adobe Journey Optimizer으로 오케스트레이션된 캠페인을 만드는 방법을 알아봅니다
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '707'
 ht-degree: 2%
 
 ---

@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 오케스트레이션된 캠페인에서 데이터 업데이트 활동 사용
 description: 데이터 업데이트 활동을 사용하는 방법 알아보기
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '504'
 ht-degree: 13%
 
 ---

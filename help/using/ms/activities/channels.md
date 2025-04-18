@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 다중 단계 캠페인에 채널 활동 추가
 description: 여러 단계로 구성된 캠페인에서 채널 활동을 추가하는 방법 알아보기
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '900'
 ht-degree: 48%
 
 ---
@@ -63,7 +64,7 @@ Adobe Journey Optimizer을 사용하면 인바운드 및 아웃바운드 채널�
 1. **게재 유형**(단일 또는 반복)을 선택하십시오.
 
    * **단일 게재**&#x200B;는 일회성 게재로, 블랙 프라이데이 이메일과 같이 한 번만 전송됩니다.
-   * **반복 게재**&#x200B;은(는) [스케줄러 활동](scheduler.md)에 정의된 실행 빈도에 따라 여러 번 전송됩니다. Each time the orchestrated campaign runs, the audience is re-calculated and the delivery is sent to the updated audience, with the updated content. 예를 들어 주간 뉴스레터 또는 반복 생일 이메일일 수 있습니다.
+   * **반복 게재**&#x200B;은(는) [스케줄러 활동](scheduler.md)에 정의된 실행 빈도에 따라 여러 번 전송됩니다. 오케스트레이션된 캠페인이 실행될 때마다 대상자가 다시 계산되고, 업데이트된 콘텐츠와 함께 업데이트된 대상자에게 게재가 전송됩니다. 예를 들어 주간 뉴스레터 또는 반복 생일 이메일일 수 있습니다.
 
 1. 게재 **템플릿** 구성을 선택합니다. 템플릿은 채널별로 미리 구성된 게재 설정입니다. 기본 제공 템플릿은 각 채널에 대해 사용할 수 있으며 기본적으로 미리 채워져 있습니다.
 
@@ -77,7 +78,7 @@ Adobe Journey Optimizer을 사용하면 인바운드 및 아웃바운드 채널�
 
 1. 오케스트레이션된 캠페인을 시작하려면 **시작**&#x200B;을 클릭하세요.
 
-   By default, starting an orchestrated campaign triggers the message preparation stage, without immediately sending the message.
+   기본적으로 오케스트레이션된 캠페인을 시작하면 메시지를 즉시 보내지 않고 메시지 준비 단계가 트리거됩니다.
 
 1. 채널 활동을 열어 **검토 및 보내기** 단추에서 전송을 확인합니다.
 
@@ -85,7 +86,7 @@ Adobe Journey Optimizer을 사용하면 인바운드 및 아웃바운드 채널�
 
 ## 예시 {#cross-channel-workflow-sample}
 
-Here is a cross-channel orchestrated campaign example with a segmentation and two deliveries. 이번 캠페인은 파리에 살면서 커피 자판기에 관심이 있는 모든 고객을 대상으로 한다. 이 모집단 중 일반 고객에게는 이메일이 전송되고 VIP 클라이언트에게는 SMS가 전송됩니다.
+다음은 세그먼테이션과 두 개의 게재가 있는 크로스 채널 오케스트레이션 캠페인 예입니다. 이번 캠페인은 파리에 살면서 커피 자판기에 관심이 있는 모든 고객을 대상으로 한다. 이 모집단 중 일반 고객에게는 이메일이 전송되고 VIP 클라이언트에게는 SMS가 전송됩니다.
 
 ![](../assets/workflow-channel-example.png)
 

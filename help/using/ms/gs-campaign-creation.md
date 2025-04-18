@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 오케스트레이션된 캠페인 생성의 주요 원칙
 description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인의 주요 원칙 알아보기
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '462'
 ht-degree: 25%
 
 ---

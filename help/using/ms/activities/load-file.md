@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 파일 로드 활동 사용
 description: 오케스트레이션된 캠페인에서 파일 로드 활동을 사용하는 방법을 알아봅니다
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1179'
 ht-degree: 41%
 
 ---

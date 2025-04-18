@@ -3,14 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 오케스트레이션된 캠페인 구성
 description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인의 구성 단계 알아보기
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
+exl-id: 4465a69e-5b35-4580-a19d-af66f49f269f
+source-git-commit: 9832bcac3e628d43c252dadf529962137bd3dc72
 workflow-type: tm+mt
-source-wordcount: '18'
-ht-degree: 0%
+source-wordcount: '19'
+ht-degree: 5%
 
 ---
 
 # 오케스트레이션된 캠페인 구성 {#ms-campaign-config}
-

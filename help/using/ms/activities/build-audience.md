@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 대상자 작성 활동 사용
 description: 오케스트레이션된 캠페인에서 대상자 빌드 활동을 사용하는 방법을 알아봅니다
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 45%
+source-wordcount: '369'
+ht-degree: 46%
 
 ---
 

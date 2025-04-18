@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 오케스트레이션된 캠페인에서 대기 활동 사용
 description: 오케스트레이션된 캠페인에서 대기 활동을 사용하는 방법을 알아봅니다
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 77%
+source-wordcount: '169'
+ht-degree: 78%
 
 ---
 

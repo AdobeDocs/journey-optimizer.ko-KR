@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 대상자 저장 활동 사용
 description: 오케스트레이션된 캠페인에서 포크 활동을 사용하는 방법을 알아봅니다
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 84e34d21-dca1-4203-8539-f2b20e461936
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '452'
 ht-degree: 10%
 
 ---

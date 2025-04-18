@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4d7cab6b6841c2122d901f55c3162f0549ad5ff
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2337'
 ht-degree: 89%
 
 ---
@@ -174,12 +174,11 @@ ht-degree: 89%
          + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
    + [오케스트레이션된 캠페인 시작](using/ms/gs-ms-campaigns.md)
-   + [핵심 원칙](using/ms/gs-campaign-creation.md)
    + 구성 {#ms-config}
       + [구성 단계](using/ms/gs-campaign-config.md)
       + [관계형 스키마 만들기](using/ms/ms-schemas.md)
-      + [이벤트 변수 작업](using/ms/event-variables.md)
    + 오케스트레이션된 첫 번째 캠페인 만들기 {#create-ms-campaign}
+      + [핵심 원칙](using/ms/gs-campaign-creation.md)
       + [오케스트레이션된 캠페인 만들기](using/ms/create-ms-campaign.md)
       + [활동 오케스트레이션](using/ms/orchestrate-activities.md)
       + [캠페인 설정 구성](using/ms/ms-campaign-settings.md)
@@ -199,7 +198,6 @@ ht-degree: 89%
       + [파일 로드](using/ms/activities/load-file.md)
       + [조정](using/ms/activities/reconciliation.md)
       + [대상자 저장](using/ms/activities/save-audience.md)
-      + [스케줄러](using/ms/activities/scheduler.md)
       + [분할](using/ms/activities/split.md)
       + [테스트](using/ms/activities/test.md)
       + [데이터 업데이트](using/ms/activities/update-data.md)
