@@ -6,10 +6,10 @@ description: 오케스트레이션된 캠페인으로 시작하는 방법 알아
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: '527'
+ht-degree: 14%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 18%
 **목차**
 
 * 오케스트레이션된 캠페인 시작 - [주요 원칙](gs-campaign-creation.md)
-* 구성: [스키마 작업](ms-schemas.md) - [이벤트 변수 작업](event-variables.md)
-* 시작하기: [오케스트레이션된 캠페인 만들기](create-ms-campaign.md) - [캠페인 설정 구성](ms-campaign-settings.md) - [캠페인 시작 및 모니터링](start-monitor-campaigns.md) - [활동 시작](activities/about-activities.md) - [활동 오케스트레이션](orchestrate-activities.md) - [Personalization](ms-personalization.md)
+* 구성: [오케스트레이션된 캠페인 구성](gs-campaign-config.md) - [스키마 작업](ms-schemas.md) - [이벤트 변수 작업](event-variables.md)
+* 시작하기: [오케스트레이션된 캠페인 만들기](create-ms-campaign.md) - [캠페인 설정 구성](ms-campaign-settings.md) - [캠페인 예약 및 시작](start-monitor-campaigns.md) - [활동 시작](activities/about-activities.md) - [활동 오케스트레이션](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * 활동 목록: [및 가입](activities/and-join.md) - [대상 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [채널 작업](activities/channels.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [파일 로드](activities/load-file.md) - [조정](activities/reconciliation.md) - [대상 저장](activities/save-audience.md) - [스케줄러](activities/scheduler.md) - [분할](activities/split.md) - [테스트](activities/test.md) - [데이터 업데이트](activities/update-data.md) - [대기](activities/wait.md)
 
 >[!ENDSHADEBOX]
@@ -41,8 +41,11 @@ ht-degree: 18%
 
 ## 여정 편성 및 캠페인 편성
 
-여정과 캠페인 비교 - 차이점, 사용 사례 및 모범 사례 설명
+Campaign Orchestration은 대규모로 브랜드 커뮤니케이션을 디자인, 전송 및 추적하는 선도적인 모듈입니다. 프로필 및 비프로필 엔티티를 결합하여 효과적인 개인화를 위해 기존 데이터 세그먼트를 활용하여 타겟팅된 대상자에게 마케팅 메시지를 자동으로 배포할 수 있습니다. 캠페인 중심 활동에 적합한 Campaign Orchestration은 일관되고 효율적인 메시지 전달(종종 미리 예약됨)을 보장하여 고객 참여를 유도하고 주요 마케팅 목표를 지원합니다.
 
+Campaign Orchestration은 다중 엔터티를 Adobe Journey Optimizer으로 활성화하여 대상 세분화를 재정의하고 특정 상태, 이벤트, 계약 또는 예약 등에 따라 타겟팅된 메시징을 용이하게 합니다. 프로필 이외의 엔티티에 커뮤니케이션을 보내거나 엔티티에 대한 쿼리를 만들 수 있으므로 전체 보기를 가지고 광범위한 통찰력을 캡처하여 대상을 구축할 수 있습니다.
+
+Campaign Orchestration은 데이터 중심의 의사 결정을 가능하게 하며, 동적 강화 데이터 세트에 대해 여러 소스를 활용합니다.
 
 
 ## 더 자세히 알아보기
@@ -55,7 +58,7 @@ ht-degree: 18%
 <img alt="워크플로 액세스 및 관리" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="gs-campaign-creation.md"><strong>키 원칙</strong></a>
+<a href="gs-campaign-creation.md"><strong>구성 단계</strong></a>
 </div>
 <p>
 </td>
@@ -63,7 +66,7 @@ ht-degree: 18%
 <a href="create-ms-campaign.md">
 <img alt="리드" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-ms-campaign.md"><strong>여러 단계 캠페인 만들기</strong>
+<div><a href="create-ms-campaign.md"><strong>오케스트레이션된 캠페인 만들기</strong>
 </div>
 <p>
 </td>

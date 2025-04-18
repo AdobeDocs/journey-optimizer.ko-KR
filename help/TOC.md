@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2339'
 ht-degree: 89%
 
 ---
@@ -172,10 +172,12 @@ ht-degree: 89%
          + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
          + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
          + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
-+ 오케스트레이션된 캠페인 {#ms-campaigns}
++ 오케스트레이션된 캠페인 {#orchestrated-campaigns}
    + [오케스트레이션된 캠페인 시작](using/ms/gs-ms-campaigns.md)
+   + [구성 단계](using/ms/gs-campaign-config.md)
    + [핵심 원칙](using/ms/gs-campaign-creation.md)
    + 구성 {#ms-config}
+      + [구성 단계](using/ms/gs-campaign-config.md)
       + [스키마](using/ms/ms-schemas.md)
       + [이벤트 변수 작업](using/ms/event-variables.md)
    + 오케스트레이션된 첫 번째 캠페인 만들기 {#create-ms-campaign}
