@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1124'
 ht-degree: 9%
 
 ---
@@ -127,9 +127,15 @@ ht-degree: 9%
 
 ## 로그 및 작업 모니터링 {#logs-tasks}
 
-워크플로우 로그 및 작업 모니터링은 오케스트레이션된 캠페인을 분석하고 제대로 실행되고 있는지 확인하는 중요한 단계입니다. 작업 도구 모음 및 각 활동의 속성 창에서 사용할 수 있는 **[!UICONTROL 로그]** 아이콘을 통해 액세스할 수 있습니다.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_logs"
+>title="로그 및 작업"
+>abstract="**로그 및 작업** 화면에서 모든 사용자 작업을 기록하고 오류가 발생한 오케스트레이션된 캠페인 실행 기록을 제공합니다."
+
+로그 및 작업 모니터링은 오케스트레이션된 캠페인을 분석하고 제대로 실행되고 있는지 확인하는 중요한 단계입니다. 작업 도구 모음 및 각 활동의 속성 창에서 사용할 수 있는 **[!UICONTROL 로그]** 아이콘을 통해 액세스할 수 있습니다.
 
 **[!UICONTROL 로그 및 작업]** 메뉴에서는 모든 사용자 작업을 기록하고 오류가 발생한 오케스트레이션된 캠페인 실행 기록을 제공합니다.
+
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 다음 두 가지 유형의 정보를 사용할 수 있습니다.
