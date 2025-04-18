@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
+source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 16%
@@ -30,7 +30,7 @@ ht-degree: 16%
    * [캠페인 설정 구성](ms-campaign-settings.md)
    * [활동 시작](activities/about-activities.md)
    * [활동 오케스트레이션](orchestrate-activities.md)
-* [메시지 개인화](ms-personalization.md)*
+* [메시지 개인화](ms-personalization.md)
 * [쿼리 작성](ms-query-modeler.md)
 * [메시지 테스트 및 유효성 검사](ms-proofs.md)
 * [캠페인 예약 및 시작](start-monitor-campaigns.md)
