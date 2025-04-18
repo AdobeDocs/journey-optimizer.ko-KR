@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8998e4c6c1eca4e0cd6c0336df781eb6628b118d
+source-git-commit: d4d7cab6b6841c2122d901f55c3162f0549ad5ff
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2342'
 ht-degree: 89%
 
 ---
@@ -177,13 +177,14 @@ ht-degree: 89%
    + [핵심 원칙](using/ms/gs-campaign-creation.md)
    + 구성 {#ms-config}
       + [구성 단계](using/ms/gs-campaign-config.md)
-      + [스키마](using/ms/ms-schemas.md)
+      + [관계형 스키마 만들기](using/ms/ms-schemas.md)
       + [이벤트 변수 작업](using/ms/event-variables.md)
    + 오케스트레이션된 첫 번째 캠페인 만들기 {#create-ms-campaign}
       + [오케스트레이션된 캠페인 만들기](using/ms/create-ms-campaign.md)
       + [활동 오케스트레이션](using/ms/orchestrate-activities.md)
       + [캠페인 설정 구성](using/ms/ms-campaign-settings.md)
-      + [캠페인 시작 및 모니터링](using/ms/start-monitor-campaigns.md)
+      + [캠페인 예약 및 시작](using/ms/start-monitor-campaigns.md)
+      + [오케스트레이션된 캠페인 보고](using/ms/reporting-campaigns.md)
       + [개인화 관리](using/ms/ms-personalization.md)
    + 오케스트레이션된 캠페인 활동 {#design-campaigns}
       + [오케스트레이션된 캠페인 활동 기본 정보](using/ms/activities/about-activities.md)
