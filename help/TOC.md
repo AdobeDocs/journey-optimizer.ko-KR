@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '2337'
-ht-degree: 89%
+source-wordcount: '2342'
+ht-degree: 88%
 
 ---
 
@@ -182,6 +182,7 @@ ht-degree: 89%
       + [오케스트레이션된 캠페인 만들기](using/ms/create-ms-campaign.md)
       + [활동 오케스트레이션](using/ms/orchestrate-activities.md)
       + [캠페인 설정 구성](using/ms/ms-campaign-settings.md)
+      + [메시지 테스트 및 유효성 검사](using/ms/ms-proofs.md)
       + [캠페인 예약 및 시작](using/ms/start-monitor-campaigns.md)
       + [오케스트레이션된 캠페인 보고](using/ms/reporting-campaigns.md)
       + [개인화 관리](using/ms/ms-personalization.md)
