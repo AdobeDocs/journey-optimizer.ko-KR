@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 40%
+source-wordcount: '1626'
+ht-degree: 39%
 
 ---
 
@@ -44,6 +44,9 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 이 호출에는 기본 URL(_https://api.adobeweather.org/weather_), 매개 변수 세트 2개(도시에 해당하는 &quot;city&quot;와 위도/경도에 해당하는 &quot;lat/long&quot;), 그리고 API 키(appid)가 포함되어 있습니다.
 
+>[!TIP]
+>
+>만료 불일치 및 401 오류를 방지하려면 특히 작업 로드가 많은 경우 외부 API의 토큰 만료 기간과 Journey Optimizer [`cacheDuration` 설정](#custom-authentication-access-token) 사이에 최소 1분 이상의 버퍼를 두는 것이 좋습니다.
 
 ## 외부 데이터 소스 만들기 및 구성 {#create-ext-data-sources}
 
@@ -59,9 +62,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 1. 데이터 소스의 이름을 입력합니다.
 
-   >[!NOTE]
-   >
-   >영숫자와 밑줄만 허용됩니다. 최대 길이는 30자입니다.
+영숫자와 밑줄만 허용됩니다. 최대 길이는 30자입니다.
 
 1. 원하는 경우 데이터 소스에 이벤트에 설명을 추가합니다.
 1. 외부 서비스의 URL을 추가합니다. 이 예제에서는 _https://api.adobeweather.org/weather_&#x200B;를 추가합니다.
