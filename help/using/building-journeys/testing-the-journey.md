@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1768'
 ht-degree: 8%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 8%
 * 성능을 최적화하고 오래된 리소스의 사용을 방지하기 위해 1주일 동안 트리거되지 않은 테스트 모드의 모든 여정이 **초안** 상태로 다시 전환됩니다.
 * 테스트 모드에 의해 트리거된 이벤트는 전용 데이터 세트에 저장됩니다. 이러한 데이터 세트에는 `JOtestmode - <schema of your event>` 레이블이 지정됩니다.
 * 여러 이벤트를 포함하는 여정을 테스트할 때에는 각 이벤트를 순서대로 트리거해야 합니다. 이벤트를 너무 일찍(첫 번째 대기 노드가 완료되기 전에) 또는 너무 늦게(구성된 시간 제한 후) 보내면 이벤트가 삭제되고 프로필이 시간 제한 경로로 전송됩니다. 정의된 창 내에서 페이로드를 전송하여 이벤트 페이로드 필드에 대한 참조가 모두 유효한지 항상 확인하십시오.
-
+* 테스트 모드를 시작할 때 여정이 구성한 [시작 및 종료 날짜/시간 선택](journey-properties.md#dates) 창에 현재 시간이 포함되어 있는지 확인하십시오. 그렇지 않으면 트리거된 테스트 이벤트가 자동으로 삭제됩니다.
 
 <!--
 * Fields from related entities are hidden from the test mode.
