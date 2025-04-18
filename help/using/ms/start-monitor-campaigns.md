@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인 시작 및 모니터링
-description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인을 시작 및 모니터링하는 방법 알아보기
+title: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인 예약 및 시작
+description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인을 예약하고 시작하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
-# 오케스트레이션된 캠페인 시작 및 모니터링 {#start-monitor}
+# 오케스트레이션된 캠페인 예약 및 시작 {#start-monitor}
 
 <!--
 <audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
@@ -22,7 +22,6 @@ ht-degree: 4%
 >id="ajo_campaign_publication"
 >title="오케스트레이션된 캠페인 게시"
 >abstract="캠페인을 시작하려면 먼저 캠페인을 게시해야 합니다. 게시하기 전에 모든 경고가 해제되었는지 확인하십시오."
-
 
 오케스트레이션된 작업을 만들고 캔버스에서 수행할 작업을 디자인했으면 이를 게시하고 실행 방법을 모니터링할 수 있습니다.
 
