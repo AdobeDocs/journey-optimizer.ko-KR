@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1040'
 ht-degree: 7%
 
 ---
@@ -104,6 +104,4 @@ ht-degree: 7%
 
 * **[!UICONTROL 연속 오류]**: **[!UICONTROL 오류의 경우]** 필드에서 **[!UICONTROL 무시]** 값을 선택하면 이 필드를 사용할 수 있습니다. 프로세스가 중지되기 전에 무시할 수 있는 오류 수를 지정할 수 있습니다. 이 수에 도달하면 오케스트레이션된 캠페인 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 이 필드의 값이 0이면 오류 수에 관계없이 오케스트레이션된 캠페인은 중지되지 않습니다.
 
-## 초기화 스크립트 {#initialization-script}
 
-**초기화 스크립트**&#x200B;를 사용하여 변수를 초기화하거나 활동 속성을 수정할 수 있습니다. **코드 편집** 단추를 클릭하고 실행할 코드 조각을 입력하십시오. 오케스트레이션된 캠페인이 실행되면 스크립트가 호출됩니다. [이벤트 변수](event-variables.md)와 관련된 섹션을 참조하세요.

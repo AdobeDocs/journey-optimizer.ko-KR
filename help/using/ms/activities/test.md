@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '376'
 ht-degree: 16%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 16%
 
 1. 기본적으로 **[!UICONTROL Test]** 활동은 간단한 부울 테스트를 제공합니다. &quot;True&quot; 전환에 정의된 조건이 충족되면 이 전환이 활성화됩니다. 그렇지 않으면 기본 &quot;False&quot; 전환이 활성화됩니다.
 
-1. 전환과 연결된 조건을 구성하려면 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘을 클릭합니다. 표현식 편집기를 사용하여 이 전환을 활성화하는 데 필요한 규칙을 정의합니다. 이벤트 변수, 조건 및 날짜/시간 함수를 활용할 수도 있습니다. [이벤트 변수 및 식 편집기로 작업하는 방법을 알아봅니다](../event-variables.md)
+1. 전환과 연결된 조건을 구성하려면 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘을 클릭합니다. 표현식 편집기를 사용하여 이 전환을 활성화하는 데 필요한 규칙을 정의합니다. 이벤트 변수, 조건 및 날짜/시간 함수를 활용할 수도 있습니다.
 
    또한 **[!UICONTROL 레이블]** 필드를 수정하여 오케스트레이션된 캠페인 캔버스에서 전환 이름을 개인화할 수 있습니다.
 
