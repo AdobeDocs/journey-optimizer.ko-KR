@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
+source-git-commit: b620d479548791df97912b143e7dbe7557ab4acc
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '389'
 ht-degree: 27%
 
 ---
@@ -53,11 +53,12 @@ Adobe Journey Optimizer을 사용하면 여러 채널에서 마케팅 캠페인�
 
 ![흐름 제어 활동 목록](../assets/flow-control-activities.png){width="30%" align="left"}
 
-
 다음 활동은 오케스트레이션된 캠페인을 구성하고 실행하는 데 특정적입니다. 주요 작업은 다음과 같은 다른 활동을 조정하는 것입니다.
 
 * [And-join](and-join.md): 오케스트레이션된 캠페인의 여러 실행 분기를 동기화합니다.
-* **끝**: 오케스트레이션된 캠페인의 끝을 그래픽으로 표시합니다. 이 활동은 기능에 영향을 주지 않으므로 선택 사항입니다
 * [포크](fork.md): 동시에 여러 활동을 시작하는 아웃바운드 전환을 만듭니다.
-* [테스트](test.md): 지정된 조건을 기반으로 전환을 사용합니다.
+  <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 * [대기](wait.md): 오케스트레이션된 캠페인의 일부 실행을 잠시 중단합니다.
+
+>[!NOTE]
+>**End** 활동은 오케스트레이션된 캠페인의 끝을 그래픽으로 표시합니다. 이 활동은 기능에 영향을 주지 않으므로 선택 사항입니다
