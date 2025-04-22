@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 27%
@@ -24,13 +24,13 @@ ht-degree: 27%
 * [채널 활동](#channel)
 * [흐름 제어 활동](#flow-control)
 
-![캔버스에서 사용 가능한 활동 목록](../assets/workflow-activities.png){width="70%" align="left"}
+![캔버스에서 사용 가능한 활동 목록](../assets/workflow-activities.png){width="80%" align="left"}
 
 ## 타겟팅 활동 {#targeting}
 
 이러한 활동은 타겟팅에만 해당됩니다. 이를 통해 대상자를 정의하고 교차, 합집합 또는 제외 작업을 사용하여 이러한 대상자를 분할 또는 결합하여 하나 이상의 대상을 빌드할 수 있습니다.
 
-![타깃팅 활동 목록](../assets/targeting-activities.png){width="50%" align="left"}
+![타깃팅 활동 목록](../assets/targeting-activities.png){width="40%" align="left"}
 
 * [대상 작성](build-audience.md): 대상 모집단을 정의합니다. 기존 대상자를 선택하거나 쿼리 모델러를 사용하여 자체 쿼리를 정의할 수 있습니다.
 * [차원 변경](change-dimension.md): 오케스트레이션된 캠페인을 빌드할 때 타깃팅 차원을 변경합니다.
@@ -51,7 +51,7 @@ Adobe Journey Optimizer을 사용하면 여러 채널에서 마케팅 캠페인�
 >title="종료 활동"
 >abstract="**End** 활동을 통해 오케스트레이션된 캠페인의 끝을 그래픽으로 표시할 수 있습니다. 이 활동은 기능에 영향을 미치지 않으므로 선택 사항입니다."
 
-![흐름 제어 활동 목록](../assets/flow-control-activities.png){width="50%" align="left"}
+![흐름 제어 활동 목록](../assets/flow-control-activities.png){width="30%" align="left"}
 
 
 다음 활동은 오케스트레이션된 캠페인을 구성하고 실행하는 데 특정적입니다. 주요 작업은 다음과 같은 다른 활동을 조정하는 것입니다.
