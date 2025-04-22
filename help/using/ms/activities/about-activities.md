@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 24%
+source-wordcount: '426'
+ht-degree: 25%
 
 ---
 
@@ -44,7 +44,6 @@ ht-degree: 24%
 이러한 활동은 모집단 데이터를 조작하고 보강하는 데 특정적입니다.
 
 * [파일 로드](load-file.md): 외부 파일에 저장된 프로필 및 데이터를 사용하여 작업합니다.
-* [데이터 업데이트](update-data.md): 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다. 몇 가지 옵션을 사용하여 데이터 업데이트를 개인화할 수 있습니다.
 
 ## 채널 활동 {#channel}
 
