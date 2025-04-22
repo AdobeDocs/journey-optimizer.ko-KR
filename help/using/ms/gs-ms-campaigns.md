@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 17%
+source-wordcount: '524'
+ht-degree: 16%
 
 ---
 
@@ -20,22 +20,19 @@ ht-degree: 17%
 
 **목차**
 
-* 오케스트레이션된 캠페인 시작
-* 구성
-   * [오케스트레이션된 캠페인 구성](gs-campaign-config.md)
-   * [관계형 스키마 만들기](ms-schemas.md)
-* 오케스트레이션된 첫 번째 캠페인 만들기
-   * [주요 원칙](gs-campaign-creation.md)
-   * [오케스트레이션된 캠페인 만들기](create-ms-campaign.md)
-   * [캠페인 설정 구성](ms-campaign-settings.md)
-   * [활동 시작](activities/about-activities.md)
-   * [활동 오케스트레이션](orchestrate-activities.md)
+* 구성: [오케스트레이션된 캠페인 구성](gs-campaign-config.md)
+* 구성: [관계형 스키마 만들기](ms-schemas.md)
+* 오케스트레이션된 첫 번째 캠페인 만들기: [주요 원칙](gs-campaign-creation.md)
+* [오케스트레이션된 캠페인 만들기](create-ms-campaign.md)
+* [캠페인 설정 구성](ms-campaign-settings.md)
 * [메시지 개인화](ms-personalization.md)
 * [쿼리 작성](ms-query-modeler.md)
 * [메시지 테스트 및 유효성 검사](ms-proofs.md)
 * [캠페인 예약 및 시작](start-monitor-campaigns.md)
-* 활동 목록: [및 연결](activities/and-join.md) - [대상 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [채널 작업](activities/channels.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [분할](activities/split.md) - [테스트](activities/test.md) - [대기](activities/wait.md)
-* [보고](reporting-campaigns.md)
+* 활동: [활동 시작](activities/about-activities.md)
+* [활동 오케스트레이션](orchestrate-activities.md)
+* [및 연결](activities/and-join.md) - [대상 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [채널 작업](activities/channels.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [분할](activities/split.md) - &lt;!—[테스트](activities/test.md) —> [대기](activities/wait.md)
+* 모니터링: [보고](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 
