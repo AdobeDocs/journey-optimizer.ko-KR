@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
+source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
-source-wordcount: '1786'
-ht-degree: 15%
+source-wordcount: '1783'
+ht-degree: 13%
 
 ---
 
@@ -52,13 +52,13 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="대상자 내보내기와 여정 실행 동기화"
->abstract="새로운 대상자 내보내기가 준비되었을 때 여정을 시작하려면 이 옵션을 토글합니다."
+>title="일괄 대상자 평가 후 트리거"
+>abstract="일괄 처리 대상을 새로 평가한 후 여정 실행을 트리거하려면 이 옵션을 토글합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="대상자 내보내기와 여정 실행 동기화"
->abstract="새로운 대상자 내보내기가 준비될 때까지 여정이 대기할 기간을 지정합니다."
+>title="새로운 대상 평가를 위한 대기 시간"
+>abstract="일괄 처리 대상이 새로 평가될 때까지 여정이 대기할 시간을 지정합니다."
 
 **대상자 읽기** 활동을 사용하여 대상자의 모든 개인이 여정에 들어가도록 만듭니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 
