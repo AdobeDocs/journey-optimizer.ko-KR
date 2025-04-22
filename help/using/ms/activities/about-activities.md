@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 25%
+source-wordcount: '401'
+ht-degree: 26%
 
 ---
 
@@ -38,12 +38,6 @@ ht-degree: 25%
 * [조정](reconciliation.md): Journey Optimizer 데이터의 데이터와 작업 테이블의 데이터(예: 외부 파일에서 로드된 데이터) 간의 링크를 정의합니다.
 * [대상자 저장](save-audience.md): 오케스트레이션된 캠페인에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만듭니다.
 * [분할](split.md): 들어오는 모집단을 여러 하위 집합으로 분할합니다.
-
-## 데이터 관리 활동 {#data}
-
-이러한 활동은 모집단 데이터를 조작하고 보강하는 데 특정적입니다.
-
-* [파일 로드](load-file.md): 외부 파일에 저장된 프로필 및 데이터를 사용하여 작업합니다.
 
 ## 채널 활동 {#channel}
 

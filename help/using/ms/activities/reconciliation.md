@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 39%
+source-wordcount: '560'
+ht-degree: 44%
 
 ---
 
@@ -93,33 +93,3 @@ ht-degree: 39%
 1. **필터 만들기** 단추를 사용하여 조정할 데이터를 필터링할 수 있습니다. 이렇게 하면 쿼리 모델러를 사용하여 사용자 지정 조건을 만들 수 있습니다.
 
 기본적으로, 조정되지 않은 데이터는 아웃바운드 전환에 유지되고 나중에 사용할 수 있도록 작업 테이블에서 사용할 수 있습니다. 조정되지 않은 데이터를 제거하려면 **조정되지 않은 데이터 유지** 옵션을 비활성화합니다.
-
-## 예 {#reconciliation-example}
-
-다음 예제에서는 새 클라이언트를 포함하는 가져온 파일에서 직접 프로필 대상을 만드는 오케스트레이션된 캠페인을 보여 줍니다. 워크플로우는 다음 활동으로 구성됩니다.
-
-오케스트레이션된 캠페인은 다음과 같이 디자인됩니다.
-
-![](../assets/workflow-reconciliation-sample-1.0.png)
-
-
-이 템플릿은 다음 활동을 통해 빌드됩니다.
-
-* [파일 로드](load-file.md) 활동으로 외부 도구에서 추출한 프로필 데이터가 포함된 파일을 업로드합니다.
-
-  예:
-
-  ```
-  lastname;firstname;email;birthdate;
-  JACKMAN;Megan;megan.jackman@testmail.com;07/08/1975;
-  PHILLIPS;Edward;phillips@testmail.com;09/03/1986;
-  WEAVER;Justin;justin_w@testmail.com;11/15/1990;
-  MARTIN;Babe;babeth_martin@testmail.net;11/25/1964;
-  REESE;Richard;rreese@testmail.com;02/08/1987;
-  ```
-
-* **전자 메일** 및 **생년월일** 필드를 조정 기준으로 사용하여 들어오는 데이터를 프로필로 식별하는 **조정** 활동입니다.
-
-  ![](../assets/workflow-reconciliation-sample-1.1.png)
-
-* 이러한 업데이트를 기반으로 새 대상을 만들 수 있는 [대상 저장](save-audience.md) 활동. 특정 대상을 만들거나 업데이트할 필요가 없는 경우 **대상 저장** 활동을 **끝** 활동으로 바꿀 수도 있습니다. 오케스트레이션된 캠페인을 실행할 때 수신자 프로필이 업데이트됩니다.
