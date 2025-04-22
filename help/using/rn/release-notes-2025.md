@@ -7,10 +7,11 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 86%
+source-wordcount: '674'
+ht-degree: 91%
 
 ---
 
@@ -39,7 +40,7 @@ ht-degree: 86%
 <p>이제 규칙 세트를 사용하여 비즈니스 규칙을 만들 수 있습니다. 규칙 세트는 캠페인 내에서 보내는 메시지와 채널 간 여정 작업을 제한하고 프로필의 여정 진입을 제어하는 데 도움이 되는 규칙 그룹입니다.<p>
 <p><ul><li>채널 규칙 세트를 만들어 한 채널 또는 여러 채널에서 전송되는 메시지 수를 제한합니다. 캠페인 또는 여정 작업에 적용하여 규칙 세트에 정의된 규칙을 시행합니다. 채널 규칙 세트를 사용하면 커뮤니케이션 유형에 따른 캡핑 규칙을 적용할 수 있습니다. 예를 들어 "프로모션 메시지"를 제한하는 규칙 세트를 설정하고 "뉴스레터"에 대해 또 다른 규칙 세트를 설정할 수 있습니다. 보내는 커뮤니케이션 유형에 따라 캠페인 또는 여정 작업에 적절한 규칙 세트를 적용합니다.</li>
 <li> 프로필의 여정 진입을 제어하려면 여정 규칙 세트를 만듭니다. 프로필이 지정된 기간 내에 여정에 진입할 수 있는 빈도 또는 프로필을 동시에 등록할 수 있는 여정 수를 제한합니다. 여정 수준에서 이를 적용하여 적절한 진입 관리를 보장합니다.</li></ul></p>
-<p>이전에는 조직 집합(LA)에서 사용할 수 있었으나, 이제 모든 사용자(GA)가 비즈니스 규칙을 사용할 수 있습니다. 여정 도메인 비즈니스 규칙은 제한된 LA(조직 세트)에만 계속 사용할 수 있습니다.</p>
+<p>이전에는 일부 조직에서만 사용할 수 있던(LA) 비즈니스 규칙을 이제 모든 사용자가 사용할 수 있습니다(GA). 여정 도메인 비즈니스 규칙은 여전히 제한된 일부 조직에서만 사용할 수 있습니다(LA).</p>
 <p>자세한 내용은 <a href="../configuration/rule-sets.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -49,13 +50,13 @@ ht-degree: 86%
 <table>
 <thead>
 <tr>
-<th><strong>AI 어시스턴트로 랜딩 페이지 생성</strong><br/></th>
+<th><strong>AI Assistant를 사용하여 랜딩 페이지 생성</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 AI 어시스턴트의 도움을 받아 전체 페이지 디자인, 개인화된 텍스트, 사용자 정의 시각 자료 등 랜딩 페이지에 사용할 매력적인 콘텐츠를 제작할 수 있습니다.</p>
+<p>이제 AI Assistant를 사용하여 전체 페이지 디자인, 개인화된 텍스트 및 맞춤화된 시각 자료 등 랜딩 페이지에 대한 매력적인 콘텐츠를 제작할 수 있습니다.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>자세한 내용은 <a href="../content-management/generative-lp.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -67,7 +68,7 @@ ht-degree: 86%
 <table>
 <thead>
 <tr>
-<th><strong>AI 어시스턴트를 통한 브랜드 작업(Beta)</strong><br/></th>
+<th><strong>AI Assistant가 있는 브랜드(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -90,7 +91,7 @@ ht-degree: 86%
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer에서 직접 실제 API를 호출하여 사용자 지정 작업 구성의 유효성을 검사할 수 있습니다. 이 새로운 기능은 여정에서 사용자 지정 작업을 사용하기 전이나 후에 문제를 해결하는 데 도움이 됩니다. </p>
+<p>이제 Adobe Journey Optimizer에서 직접 실제 API 호출을 수행하여 사용자 정의 액션 구성의 유효성을 검사할 수 있습니다. 이 새로운 기능은 여정에서 사용자 정의 작업을 사용하기 전이나 후에 문제를 해결하는 데 도움이 됩니다. </p>
 <p>자세한 내용은 <a href="../action/troubleshoot-custom-action.md">세부 설명서</a>를 참조하십시오.</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -149,4 +150,3 @@ ht-degree: 86%
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
 * **의사 결정**(사용 가능한 날짜: 2025년 1월 28일) - 이제 의사 결정에서 항목 카탈로그의 스키마를 편집할 때 오브젝트 데이터 형식을 지원합니다. [자세히 보기](../experience-decisioning/catalogs.md)
-

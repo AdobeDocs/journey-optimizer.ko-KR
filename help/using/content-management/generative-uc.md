@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 3%
+source-wordcount: '523'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL AI 길잡이]** 섹션을 엽니다.
 
-1. AI Assistant 내에서 **[!UICONTROL 원본 콘텐츠 사용]** 기능을 켜서 캠페인 이름 및 타깃팅된 대상을 포함한 캠페인 세부 사항에 따라 새 콘텐츠를 사용자 지정할 수 있습니다.
+1. AI Assistant 내의 **[!UICONTROL 원본 콘텐츠 사용]** 기능을 켜서 캠페인 이름 및 타깃팅된 대상을 포함한 캠페인 세부 사항에 따라 새 콘텐츠를 사용자 지정할 수 있습니다.
 
 1. **[!UICONTROL Prompt]** 상자에서 요청을 지정하여 콘텐츠를 조정하고 필요에 따라 설정을 사용자 지정합니다.
 
@@ -95,11 +95,11 @@ ht-degree: 3%
 
 1. 전자 메일 캠페인을 설정하고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
-1. AI Assistant를 사용하여 수정할 에셋을 선택합니다.
+1. AI Assistant를 사용하여 수정할 자산을 선택합니다.
 
 1. 오른쪽 창 메뉴에서 **[!UICONTROL AI Assistant]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 참조 스타일]** 옵션을 켜면 AI 도우미가 참조 자료를 사용하여 새 콘텐츠를 생성할 수 있습니다.
+1. **[!UICONTROL 참조 스타일]** 옵션을 켜면 AI Assistant가 참조 자료를 사용하여 새 콘텐츠를 생성할 수 있습니다.
 
 1. 변형에 컨텍스트를 추가하는 이미지를 포함하려면 **[!UICONTROL 이미지 업로드]**&#x200B;를 클릭하십시오.
 

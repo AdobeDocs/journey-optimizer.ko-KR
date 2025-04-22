@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '6785'
+source-wordcount: '6783'
 ht-degree: 99%
 
 ---
@@ -441,7 +441,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>메시지를 만들고 개인화한 후 Journey Optimizer의 AI 어시스턴트로 콘텐츠를 한 단계 더 발전시켜 보세요. 이제 Al 어시스턴트를 사용하여 다양한 주요 제목과 이미지를 실험해 보며 메시지의 영향을 최적화할 수 있습니다. 각 변형 버전이 고유한 처리 항목으로 관리되어 어떤 제목이 더 많은 클릭으로 이어지는지 측정하고 비교할 수 있습니다.</p>
+<p>메시지를 만들고 개인화한 후에는 Journey Optimizer의 AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다. 이제 AI Assistant를 사용하여 다양한 주요 제목 및 이미지를 실험하여 메시지의 영향을 최적화할 수 있습니다. 각 변형 버전이 고유한 처리 항목으로 관리되어 어떤 제목이 더 많은 클릭으로 이어지는지 측정하고 비교할 수 있습니다.</p>
 <p>기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 <a href="https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator">라이브 기능 미리 보기</a>를 통해 실습 경험에 몰입하세요.</a>.</p>
 <p>자세한 내용은 <a href="../content-management/gs-generative.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -504,10 +504,10 @@ ht-degree: 99%
 
 * **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 교정 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 이 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* (사용 가능한 날짜: 9월 10일) [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}가 대화형으로 변경되었습니다. 설명서 페이지에서 직접 API 엔드포인트를 탐색하여 즉각적인 피드백을 얻고 기술 구현 속도를 높일 수 있습니다. 
+* (사용 가능한 날짜: 9월 10일) [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}가 이제 대화형입니다. 설명서 페이지에서 직접 API 엔드포인트를 탐색하여 즉각적인 피드백을 얻고 기술 구현 속도를 높일 수 있습니다. 
 
 
-  이제 모든 API 참조 페이지에는 설명서 웹 사이트 페이지에서 직접 API 호출을 테스트하는 데 사용할 수 있는 **사용해 보기** 기능이 있습니다. [필요한 인증 자격 증명을 획득](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}하면 이 기능을 사용하여 API 엔드포인트 탐색을 시작할 수 있습니다.
+  이제 모든 API 참조 페이지에는 설명서 웹 사이트 페이지에서 직접 API 호출을 테스트하는 데 사용할 수 있는 **사용해 보기** 기능이 있습니다. [필요한 인증 자격 증명을 얻고](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} 이 기능을 사용하여 API 엔드포인트를 탐색하기 시작합니다.
 
   이 새로운 기능을 사용하여 API 엔드포인트에 대한 요청과 응답을 살펴보고 즉각적인 피드백을 받고 기술 구현 속도를 높일 수 있습니다.
 
@@ -870,7 +870,7 @@ ht-degree: 99%
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* 이제 Edge Delivery 플러그인을 사용하여 인바운드 구현을 이해하고 문제를 해결하는 데 필요한 정보를 얻을 수 있습니다. [Edge Delivery 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* 이제 Edge Delivery 플러그인을 사용하여 인바운드 구현을 이해하고 문제를 해결하는 데 필요한 정보를 얻을 수 있습니다. [Edge Delivery 보기에 대해 자세히 알아보세요](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 #### DM 채널
@@ -1081,7 +1081,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 <tbody>
 <tr>
 <td>
-<p>Once you have created and personalized your message, take your content to the next level with the AI Assistant. You can now use the AI Assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>Once you have created and personalized your message, take your content to the next level with AI Assistant. You can now use AI Assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
 </td>
 </tr>
 </tbody>

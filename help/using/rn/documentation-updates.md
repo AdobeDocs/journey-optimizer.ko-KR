@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 77%
+source-wordcount: '1249'
+ht-degree: 75%
 
 ---
 
@@ -103,8 +103,8 @@ ht-degree: 77%
 * [!DNL Journey Optimizer] 24년 9월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
 * 여정 다시 시도 관리에 대한 섹션을 추가했습니다. [자세히 보기](../building-journeys/read-audience.md#read-audience-retry)
 * 사용자 정의 액션의 캡핑/스로틀링 규칙에 대한 FAQ에서 기본 캡핑 규칙을 언급하도록 업데이트했습니다. [자세히 보기](../configuration/external-systems.md#faq)
-* 액세스 제어 섹션에 AI 어시스턴트 콘텐츠 생성기와 관련된 권한에 대한 정보를 업데이트했습니다. [자세히 보기](../administration/high-low-permissions.md#ai-permission)
-* 이메일 생성을 위한 AI 어시스턴트 콘텐츠 생성기에 대한 비디오를 추가했습니다. [자세히 보기](../content-management/generative-email.md#video)
+* 제어 액세스 섹션이 AI 어시스턴트 콘텐츠 생성기와 관련된 권한으로 업데이트되었습니다. [자세히 보기](../administration/high-low-permissions.md#ai-permission)
+* 이메일 생성을 위한 AI 도우미 콘텐츠 생성기에 대한 비디오가 추가되었습니다. [자세히 보기](../content-management/generative-email.md#video)
 
 <!--
 

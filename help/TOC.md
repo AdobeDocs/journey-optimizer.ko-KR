@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2340'
 ht-degree: 88%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 88%
    + [검색, 필터, 분류](using/start/search-filter-categorize.md)
    + [접근성](using/start/accessibility.md)
    + [사용 사례 플레이북](using/start/playbooks.md)
-   + [AI 어시스턴트 작업](using/start/ai-assistant.md)
+   + [AI Assistant 작업](using/start/ai-assistant.md)
    + [가드레일](using/start/guardrails.md)
    + [모범 사례](using/start/best-practices.md)
 + 여정 {#orchestrate-journeys}
@@ -347,7 +347,7 @@ ht-degree: 88%
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
 + 콘텐츠 관리  {#content-management}
    + 콘텐츠 생성용 AI 어시스턴트{#ai-assistant}
-      + [AI 어시스턴트 시작](using/content-management/gs-generative.md)
+      + [AI Assistant 시작](using/content-management/gs-generative.md)
       + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
       + [AI를 사용한 푸시 생성](using/content-management/generative-push.md)
       + [AI를 사용한 SMS 생성](using/content-management/generative-sms.md)
