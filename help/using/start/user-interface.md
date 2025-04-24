@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -254,7 +254,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="여정 시험 실행"
->abstract="여정을 디자인한 후에는 드라이 실행을 실행하여 제대로 작동하는지 확인하고 단계가 올바른지 확인합니다. 이 게시 모드를 사용하면 프로필에 통신을 보내지 않고 여정을 흡연하여 테스트할 수 있습니다."
+>abstract="여정을 디자인한 후에는 시험 실행을 수행하여 여정이 제대로 작동하는지 확인하고 단계가 올바르게 구성되도록 합니다. 이 게시 모드를 사용하면 프로필에 커뮤니케이션을 보내지 않고 여정을 미리 테스트할 수 있습니다."
 
 
 
@@ -262,5 +262,5 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
->title="의사 결정 정책 정의"
->abstract="의사 결정 정책을 사용하면 의사 결정 엔진에서 최상의 항목을 선택하여 적합한 대상자에게 전달할 수 있습니다."
+>title="결정 정책 정의"
+>abstract="결정 정책을 사용하면 결정 엔진에서 최상의 항목을 선택하여 올바른 대상자에게 전달할 수 있습니다."

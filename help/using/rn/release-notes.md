@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 66%
+ht-degree: 94%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 66%
 <tbody>
 <tr>
 <td>
-<p>이제 여정 지표를 사용할 수 있으므로 비즈니스의 주요 지표에서 활동이 미치는 영향을 측정하고 성능에 대한 보다 명확한 통찰력을 제공할 수 있습니다.</p>
+<p>이제 여정 지표를 사용하면 비즈니스의 주요 지표 전반에 걸쳐 활동이 미치는 영향을 측정하고 성과에 대해 보다 명확한 인사이트를 제공할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../building-journeys/success-metrics.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 4월 9일</p>
+<p>가용성 일자: 2025년 4월 9일</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
 </td>
@@ -47,25 +47,25 @@ ht-degree: 66%
 
 ### 개선 사항 {#25-04-improv}
 
-* **샌드박스 도구** - 사용 가능한 날짜: 2025년 4월 3일
+* **샌드박스 도구** - 가용성 일자: 2025년 4월 3일
 
-  이제 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스 간에 캠페인을 복사할 수 있습니다. 캠페인은 프로필, 대상자, 스키마, 인라인 메시지 및 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다. 의사 결정 항목, 데이터 사용 레이블 및 언어 설정과 같은 일부 항목은 복사되지 않습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
+  이제 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스 간에 캠페인을 복사할 수 있습니다. 캠페인은 프로필, 대상자, 스키마, 인라인 메시지, 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다. 결정 항목, 데이터 사용 레이블, 언어 설정과 같은 일부 항목은 복사되지 않습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
 
-* **Personalization** - 사용 가능한 날짜: 2025년 4월 2일
+* **개인화** - 가용성 일자: 2025년 4월 2일
 
-  이제 개인화 편집기의 속성 창에 기본적으로 채워진 속성만 표시됩니다. 모든 특성을 보려면 설정 단추를 사용하여 **[!UICONTROL 채워진 특성만 표시]** 옵션을 해제합니다. [자세히 보기](../personalization/personalization-build-expressions.md)
+  이제 개인화 편집기의 속성 창에 기본적으로 채워진 속성만 표시됩니다. 모든 속성을 보려면 설정 버튼을 사용하여 **[!UICONTROL 채워진 속성만 표시]** 옵션을 끕니다. [자세히 보기](../personalization/personalization-build-expressions.md)
 
-* **콘텐츠 관리** - 사용 가능한 날짜: 2025년 4월 2일
+* **콘텐츠 관리** - 가용성 일자: 2025년 4월 2일
 
-  이제 폴더를 사용하여 콘텐츠 템플릿 및 조각을 구조화된 계층으로 보다 효과적으로 구성할 수 있습니다. [콘텐츠 템플릿](../content-management/access-content-templates.md#folders) 및 [조각](../content-management/manage-fragments.md#folders) 섹션에서 자세히 알아보십시오.
+  이제 콘텐츠 템플릿과 조각을 쉽게 관리하기 위해 폴더를 사용하여 구조화된 계층 구조로 보다 효과적으로 구성할 수 있습니다. [콘텐츠 템플릿](../content-management/access-content-templates.md#folders) 및 [조각](../content-management/manage-fragments.md#folders) 섹션에서 자세히 알아보십시오.
 
   >[!AVAILABILITY]
   >
   >이 개선 사항은 일부 조직에서만 사용할 수 있습니다(제한된 가용성).
 
-* **이메일 Designer** - 사용 가능한 날짜: 2025년 4월 1일
+* **이메일 디자이너** - 가용성 일자: 2025년 4월 1일
 
-  Journey Optimizer에서 액세스 가능성을 높이기 위해 이제 전자 메일 Designer에서 두 개의 새 필드를 사용할 수 있습니다. 두 필드는 전자 메일 콘텐츠의 `<html>` 요소에 있는 `<title>` 요소 및 `lang` 특성에 해당합니다. 전자 메일 **[!UICONTROL 본문]** 섹션에서 **[!UICONTROL Preheader]** 필드 외에 이러한 설정을 정의할 수 있습니다. [자세히 보기](../email/email-metadata.md)
+  Journey Optimizer의 접근성을 높이기 위해 이제 이메일 디자이너에서 새 필드 두 가지를 사용할 수 있습니다. 이 두 필드는 이메일 콘텐츠의 `<title>` 요소와, `<html>` 요소의 `lang` 속성에 해당합니다. 이메일 **[!UICONTROL 본문]** 섹션에서 **[!UICONTROL 프리헤더]** 필드에 더해 이 설정을 정의할 수 있습니다. [자세히 보기](../email/email-metadata.md)
 
 
 ## 25년 3월 릴리스 정보 {#25-3-rn}
@@ -175,13 +175,13 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>유연한 대상 평가(GA)</strong><br/></th>
+<th><strong>유연한 대상자 평가(GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이전에는 조직 집합(LA)에서 사용할 수 있었지만, 이제 모든 사용자(GA)가 유연한 대상 평가를 사용할 수 있습니다. 이 기능을 사용하면 선택한 대상에 대해 온디맨드로 세분화 작업을 실행할 수 있으므로 Journey Optimizer 여정 및 캠페인에 타겟팅하기 전에 항상 최신 대상 데이터를 유지할 수 있습니다.</p>
+<p>이전에는 일부 조직에서만 사용할 수 있던(LA) 유연한 대상자 평가를 이제 모든 사용자가 사용할 수 있습니다(GA). 이 기능을 사용하면 선택한 대상자에 대해 온디맨드로 세분화 작업을 실행할 수 있어 대상자를 Journey Optimizer 여정 및 캠페인으로 타기팅하기 전에 항상 최신 대상자 데이터를 보유할 수 있습니다.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>자세한 내용은 <a href="../audience/creating-a-segment-definition.md#flexible">자세한 설명서</a>를 참조하세요.</p>
 </tr>

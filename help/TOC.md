@@ -18,7 +18,7 @@ ht-degree: 88%
 + 새로운 기능 {#whats-new}
    + [초기 릴리스 정보](using/rn/e-release-notes.md)
    + [최신 릴리스 정보](using/rn/release-notes.md)
-   + 이전 릴리스 정보 {#previous-rn-new}
+   + 이전 릴리스 정보  {#previous-rn-new}
       + [2025](using/rn/release-notes-2025.md)
       + [2024](using/rn/release-notes-2024.md)
       + [2023](using/rn/release-notes-2023.md)
@@ -762,7 +762,7 @@ ht-degree: 88%
    + [오브젝트 수준 액세스 제어](using/administration/object-based-access.md)
 + 개인 정보 보호 {#privacy}
    + [개인 정보 시작](using/privacy/get-started-privacy.md)
-   + [개인 정보 보호 요청](using/privacy/requests.md)
+   + [개인 정보 요청](using/privacy/requests.md)
    + [리소스에 대한 작업 감사](using/privacy/audit-logs.md)
    + [데이터 수명주기 작업 수행](using/privacy/data-hygiene.md)
    + 동의 관리 {#consent}
