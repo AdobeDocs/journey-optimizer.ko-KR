@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 15%
+source-wordcount: '633'
+ht-degree: 16%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 15%
 
 ## 처음부터 템플릿 만들기 {#create-template-from-scratch}
 
+>[!NOTE]
+>
+>2025년 3월부터 HTML 유형 콘텐츠 템플릿은 이제 더 이상 사용되지 않습니다. [!DNL Journey Optimizer]에서 이전에 만든 기존 HTML 콘텐츠 템플릿을 계속 사용할 수 있습니다.
+
 처음부터 콘텐츠 템플릿을 만들려면 아래 단계를 수행하십시오.
 
 1. **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 콘텐츠 템플릿]** 왼쪽 메뉴를 통해 콘텐츠 템플릿 목록에 액세스합니다.
@@ -51,14 +55,6 @@ ht-degree: 15%
    >[!NOTE]
    >
    >현재 웹을 제외한 모든 채널을 사용할 수 있습니다.
-
-1. 선택한 채널에 대해 **[!UICONTROL 유형]**&#x200B;을(를) 선택하십시오.
-
-   ![](assets/content-template-type.png)
-
-   * **[!UICONTROL 전자 메일]**&#x200B;의 경우 **[!UICONTROL 콘텐츠]**&#x200B;를 선택하면 [제목 줄](../email/create-email.md#define-email-content)을 템플릿의 일부로 정의할 수 있습니다. **[!UICONTROL HTML]**&#x200B;을(를) 선택하면 전자 메일 본문의 콘텐츠만 정의할 수 있습니다.
-
-   * **[!UICONTROL SMS]**, **[!UICONTROL 푸시]**, **[!UICONTROL 인앱]** 및 **[!UICONTROL DM]**&#x200B;의 경우 현재 채널에 대해 기본 유형만 사용할 수 있습니다. 그래도 선택해야 합니다.
 
 1. **[!UICONTROL 태그]** 필드에서 Adobe Experience Platform 태그를 선택하거나 만들어 검색 개선을 위해 템플릿을 분류합니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
 
@@ -75,7 +71,7 @@ ht-degree: 15%
    * [DM 콘텐츠 정의](../direct-mail/create-direct-mail.md)
    * [인앱 콘텐츠 정의](../in-app/design-in-app.md)
 
-1. **[!UICONTROL HTML]** 유형의 **[!UICONTROL 전자 메일]** 템플릿을 만드는 경우 콘텐츠를 테스트할 수 있습니다. [방법 알아보기](#test-template)
+1. 콘텐츠를 테스트할 수 있습니다. [방법 알아보기](#test-template)
 
 1. 템플릿이 준비되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -110,7 +106,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >현재 채널 및 유형은 자동으로 채워지며 편집할 수 없습니다. [전자 메일 Designer](../email/get-started-email-design.md)에서 만든 전자 메일 템플릿의 경우 **[!UICONTROL HTML]** 유형이 자동으로 선택됩니다.
+   >현재 채널은 자동으로 채워지며 편집할 수 없습니다.
 
 1. **태그** 필드에서 Adobe Experience Platform 태그를 선택하거나 만들어 템플릿을 분류합니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
 

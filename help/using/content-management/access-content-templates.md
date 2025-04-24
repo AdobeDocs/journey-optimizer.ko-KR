@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '647'
 ht-degree: 3%
 
 ---
@@ -43,6 +43,10 @@ ht-degree: 3%
 직접 만들거나 수정한 항목만 표시하도록 선택할 수도 있습니다.
 
 ![](assets/content-template-list-filters.png)
+
+>[!NOTE]
+>
+>2025년 3월부터 HTML 유형 콘텐츠 템플릿은 이제 더 이상 사용되지 않습니다. [!DNL Journey Optimizer]에서 이전에 만든 기존 HTML 콘텐츠 템플릿에 계속 액세스할 수 있습니다.
 
 ## 폴더를 사용하여 콘텐츠 템플릿 관리 {#folders}
 
@@ -102,13 +106,13 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
-이 기능은 소수의 고객을 위해 LA(Limited Availability)에서 출시됩니다.
+>이 기능은 소수의 고객을 위해 LA(Limited Availability)에서 출시됩니다.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
-현재 HTML 유형에 대해서만 적절한 썸네일을 생성할 수 있습니다. email 콘텐츠 템플릿.
+>현재 HTML 유형의 이메일 콘텐츠 템플릿에 대해서만 적절한 썸네일을 생성할 수 있습니다.
 
 콘텐츠를 업데이트할 때 변경 사항이 썸네일에 반영되기 전에 몇 초 정도 기다려야 할 수 있습니다.
 
