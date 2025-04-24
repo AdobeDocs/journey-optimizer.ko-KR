@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 30%
+source-wordcount: '489'
+ht-degree: 26%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 **개인화 편집기**&#x200B;를 사용하면 모든 데이터를 선택하고, 정렬하고, 사용자 지정하고, 유효성을 검사하여 콘텐츠에 맞는 사용자 지정 개인화를 만들 수 있으며, 도우미 함수나 미리 정의된 표현식 등 다양한 도구를 활용하여 메시지를 효과적으로 사용자 지정할 수 있습니다.
 
-Journey Optimizer에서는 중괄호 **{{}}**&#x200B;로 묶은 내용을 포함하는 식을 만들 수 있는 Handlebars를 기반으로 한 인라인 개인화 구문을 사용합니다.
+Journey Optimizer에서는 중괄호 **{{}}{{}}**&#x200B;로 묶은 내용을 포함하는 식을 만들 수 있는 Handlebars를 기반으로 한 인라인 개인화 구문을 사용합니다.
 
 메시지를 처리할 때 Journey Optimizer은 표현식을 Experience Platform 데이터 세트에 포함된 데이터로 대체합니다. 예를 들어 `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`은(는) 동적으로 `Hello John Doe`이(가) 됩니다.
 
@@ -37,11 +37,21 @@ Journey Optimizer에서는 중괄호 **{{}}**&#x200B;로 묶은 내용을 포함
 
 ## 개인화에 사용되는 데이터
 
-Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필** 스키마에서 관리하는 프로필 데이터를 기반으로 합니다. **XDM 개인 프로필** 스키마는 [!DNL Journey Optimizer]에서 콘텐츠를 개인화하는 데 사용할 수 있는 유일한 스키마입니다. 자세한 내용은 [XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko){target="_blank"}를 참조하세요.
+Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필** 스키마에서 관리하는 프로필 데이터를 기반으로 합니다. **XDM 개인 프로필** 스키마는 [!DNL Journey Optimizer]에서 콘텐츠를 개인화하는 데 사용할 수 있는 유일한 스키마입니다. 자세한 내용은 [XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
 **계산된 특성**&#x200B;을 활용하여 콘텐츠를 개인화할 수도 있습니다. 계산된 속성을 사용하면 개별 행동 이벤트를 Adobe Experience Platform에서 사용할 수 있는 계산된 프로필 속성으로 요약할 수 있습니다. [계산된 특성으로 작업하는 방법을 알아봅니다](../audience/computed-attributes.md)
 
 또한 [!DNL Journey Optimizer]을(를) 사용하면 개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 콘텐츠를 개인화할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 Journey Optimizer에 개인화할 수 있습니다. 이 기능은 현재 Beta에서 사용할 수 있습니다. [자세히 알아보기](../personalization/lookup-aep-data.md)
+
+## 개인화 학습 및 실험 {#playground}
+
+**[!DNL Adobe Journey Optimizer]**&#x200B;에는 개인화 기능을 학습하고 실험하는 데 도움이 되도록 설계된 대화형 도구가 포함되어 있습니다.
+
+이 플레이스에서는 라이브 데이터 세트가 없어도 샘플 데이터를 사용하여 개인화 코드를 작성하고 테스트할 수 있는 시뮬레이션된 환경을 제공합니다. 사전 정의된 코드 샘플을 활용하고, 더미 프로필 페이로드를 편집하고, 개인화 코드의 출력을 실시간으로 미리 볼 수 있습니다.
+
+![개인화 플레이그라운드](assets/playground.png)
+
+➡️0}개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}[
 
 ## 더 자세히 알아보기
 
