@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 개인 정보 시작
-description: Adobe Journey Optimizer 및 Adobe Experience Platform의 개인 정보 보호에 대해 자세히 알아보십시오.
+description: Adobe Journey Optimizer 및 Adobe Experience Platform의 개인 정보에 대해 자세히 알아보십시오.
 feature: Privacy, Consent Management
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

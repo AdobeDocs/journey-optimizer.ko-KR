@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체 채널에서 여러 단계로 구성된 1:1 여정을 조정하는 데 필요한 모든 것을 제공합니다. 여기에는 여정의 각 단계를 조정하고, 타깃 대상자를 정의하며, 행동과 상황별 데이터 및 비즈니스 이벤트를 기반으로 타깃 대상자 구성원이 보게 될 채널 전반의 메시지, 오퍼 및 콘텐츠를 포함하는 직관적인 드래그 앤 드롭 캔버스가 포함됩니다.
 
-[이 여정](journey-gs.md)에서 첫 번째 페이지를 만들고 디자인하는 방법을 알아보세요.
+[이 페이지](journey-gs.md)에서 첫 번째 여정을 만들고 디자인하는 방법을 알아보십시오.
 
 ➡️ [Journey Optimizer 살펴보기(비디오)](#video)
 
@@ -50,7 +50,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 
 >[!NOTE]
 >
->여정 보호 기능 및 제한 사항에 대해서는 [이 페이지](../start/guardrails.md)에 자세히 설명되어 있습니다.
+>여정 가드레일 및 제한 사항은 [이 페이지](../start/guardrails.md)에서 자세히 확인할 수 있습니다.
 
 ## 방법 비디오 {#video}
 

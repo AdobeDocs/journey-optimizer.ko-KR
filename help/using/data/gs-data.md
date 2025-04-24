@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 데이터, 관리, 플랫폼
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 99%
 
 * **제거 및 보관 메커니즘**: [!DNL Adobe Journey Optimizer]에서 데이터 삭제 및 보관 작업을 자유롭게 정의하고 자동화하여 데이터 보존 정책을 자동화할 수 있습니다. 다양한 데이터 엔터티에 대해 서로 다른 에이징 전략을 정의할 수 있습니다. 내보내기 메커니즘을 정의하여 오래된 데이터를 삭제하거나 보관 처리하기 전에 자동으로 내보낼 수도 있습니다.
 
-  데이터 수명주기 작업 영역에서는 소비자 ID 삭제와 데이터 세트 만료 일정 예약 등 다양한 데이터 수명주기 작업을 만들고 모니터링할 수 있습니다. 이 작업 영역은 Security &amp; Privacy Shield 및 Healthcare Shield를 통해 사용할 수 있습니다. [이 페이지](../privacy/data-hygiene.md)에서 자세히 알아보세요.
+  데이터 수명주기 작업 영역에서는 소비자 ID 삭제와 데이터 세트 만료 일정 예약 등 다양한 데이터 수명주기 작업을 만들고 모니터링할 수 있습니다. 이 작업 영역은 Security &amp; Privacy Shield 및 Healthcare Shield를 통해 사용할 수 있습니다. [이 페이지](../privacy/data-hygiene.md)에서 자세히 알아보십시오.
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

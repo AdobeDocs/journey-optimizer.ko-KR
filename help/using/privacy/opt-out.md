@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1065'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 수신자에게 브랜드의 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하고, 이러한 선택을 존중하는 것은 법률에 명시된 사항입니다. 이 규정을 준수하지 않으면 브랜드에 법적 규제가 적용될 위험이 있습니다. 이렇게 하면 스팸으로 표시되고 명성을 손상시킬 수 있는 원하지 않는 커뮤니케이션을 수신자에게 보내지 않도록 합니다.
 
-[Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko#regulations){target="_blank"}에서 해당 법률에 대해 자세히 알아보십시오.
+적용되는 법률에 대한 자세한 내용은[Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko#regulations){target="_blank"}를 참조하세요.
 
 ## 여정 및 캠페인에서의 구독 취소 관리 {#opt-out-ajo}
 
@@ -55,7 +55,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}에 의해 처리됩니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"}에 나열된 가능한 값 중 하나로 온보딩하는 동안 이 기본값을 수정하거나 [동의 정책](../action/consent.md)을 사용하여 기본 논리를 재정의할 수 있습니다.
+>[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}가 처리합니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다. 온보딩하는 동안 이 기본값을 [여기](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"}에 나열된 가능한 값 중 하나로 수정하거나 [동의 정책](../action/consent.md)을 사용하여 기본 논리를 재정의할 수 있습니다.
 
 ## 개인화 동의 구현 {#opt-out-personalization}
 
@@ -69,7 +69,7 @@ ht-degree: 90%
 >
 >[!DNL Journey Optimizer]에서 작성한 채널에서 사용하는 결정 범위는 소속된 여정이나 캠페인의 이 요건을 충족합니다.
 
-1. [세그먼테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko){target="_blank"}를 사용하여 [Adobe Experience Platform 대상](../audience/about-audiences.md)을(를) 만들고 **[!UICONTROL 콘텐츠 개인화 = 예(옵트인)]**&#x200B;와(과) 같은 프로필 특성을 사용하여 개인화에 동의한 사용자를 대상으로 합니다.
+1. [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko){target="_blank"}를 사용하여 [Adobe Experience Platform 대상자](../audience/about-audiences.md)를 만들고 **[!UICONTROL 콘텐츠 개인화 = 예(옵트인)]** 같은 프로필 속성을 사용하여 개인화에 동의한 사용자를 타겟팅합니다.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -103,7 +103,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->[이 섹션](../administration/object-based-access.md)에서 OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요.
+>[이 섹션](../administration/object-based-access.md)에서는 OLAC(오브젝트 수준 액세스 제어)에 대해 자세히 알아봅니다.
 
 [!DNL Journey Optimizer] 캠페인에서 동의 정책은 다음과 같이 시행됩니다.
 
@@ -121,7 +121,7 @@ ht-degree: 90%
 
 세그먼트 규칙 빌더를 사용하여 옵트아웃한 프로필이 포함된 대상자를 만들 수 있습니다.
 
-1. [세그먼테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko){target="_blank"}를 사용하여 [Adobe Experience Platform 대상](../audience/about-audiences.md)을 만듭니다.
+1. [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko){target="_blank"}를 사용하여 [Adobe Experience Platform 대상자](../audience/about-audiences.md)를 만듭니다.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -137,7 +137,7 @@ ht-degree: 90%
 
 또한 구성 워크플로에 분할 활동을 추가하여 대상자에 대한 개인화 동의 검사를 추가할 수 있습니다.
 
-1. **[!UICONTROL 대상자 구성]** 옵션을 사용하여 대상자를 만듭니다. [컴포지션 워크플로 만들기에 대해 자세히 알아보기](../audience/get-started-audience-orchestration.md)
+1. **[!UICONTROL 대상자 구성]** 옵션을 사용하여 대상자를 만듭니다. [구성 워크플로 만들기에 대해 자세히 알아보기](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
@@ -159,7 +159,7 @@ ht-degree: 90%
 
 1. **[!UICONTROL 경로 1]**&#x200B;은 개인화하지 않을 대상자입니다. 관련 레이블을 선택합니다.
 
-1. 이 [목록](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"}에서 적절한 값을 선택하세요.
+1. 이 [목록](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"}에서 적절한 값을 선택합니다.
 
    이 사례에서는 `n`를 사용하여 사용자가 개인화를 위해 자신의 데이터를 사용하는 데에 동의하지 않음을 나타냅니다.
 

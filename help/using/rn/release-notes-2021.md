@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2035'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 <td>
 <p>이제 Adobe Journey Optimizer에서 CNAME을 지원합니다. CNAME 또는 Canonical Name 레코드는 IP 주소가 아닌 다른 도메인 주소를 가리키는 레코드입니다. CNAME 하위 도메인을 위임하면 하위 도메인을 만들고 CNAME을 사용하여 Adobe 특정 레코드를 가리키도록 설정할 수 있습니다. 이 구성을 사용하면 사용자와 Adobe가 이메일을 보내고 렌더링 및 추적하기 위한 환경을 설정하기 위한 DNS 유지 관리를 공동으로 수행합니다.</p>
 <p>조직의 정책이 전체 하위 도메인 위임 방법을 제한하는 경우 이 방법을 사용하는 것이 좋습니다.</p>
-<p><a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">자세한 설명서</a>에서 CNAME 하위 도메인 위임에 대해 자세히 알아보세요.</p>
+<p><a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">자세한 설명서</a>에서 CNAME 하위 도메인 위임에 대해 자세히 알아보십시오.</p>
 </td>
 </tr>
 </tbody>
