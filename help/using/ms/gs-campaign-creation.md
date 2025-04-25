@@ -10,7 +10,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 25%
+ht-degree: 30%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="오케스트레이션된 캠페인"
->abstract="이 화면에서 오케스트레이션된 캠페인의 전체 목록에 액세스하고, 현재 상태, 마지막/다음 실행 날짜를 확인하고, 새 오케스트레이션된 캠페인을 만들 수 있습니다."
+>abstract="이 화면에서 오케스트레이션된 캠페인의 전체 목록에 액세스하고 현재 상태, 마지막/다음 실행 일자를 확인하고 오케스트레이션된 새 캠페인을 만들 수 있습니다."
 
 Adobe Journey Optimizer을 사용하면 오케스트레이션된 캠페인을 시각적 캔버스로 빌드하여 세그멘테이션, 캠페인 실행 및 파일 처리와 같은 크로스 채널 프로세스를 디자인할 수 있습니다.
 

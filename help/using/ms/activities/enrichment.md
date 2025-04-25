@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '2050'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="보강 활동"
->abstract="데이터 보강 데이터가 오케스트레이션된 캠페인에 추가되면 데이터 보강 활동 뒤에 추가된 활동에 사용하여 고객의 동작, 환경 설정 및 요구 사항을 기반으로 개별 그룹으로 고객을 세그먼트화하거나 타겟 대상자와 공감할 가능성이 높은 개인화된 마케팅 메시지 및 캠페인을 만들 수 있습니다."
+>abstract="보강 데이터를 오케스트레이션된 캠페인에 추가한 다음에는 이를 보강 활동 다음에 추가된 활동에서 사용하여 고객을 행동, 선호도 및 요구 사항에 따라 고유한 그룹으로 세분화하거나, 타깃 대상자의 마음을 움직일 수 있는 개인화된 마케팅 메시지 및 캠페인을 만들 수 있습니다."
 
 1. **데이터 보강 추가**&#x200B;를 클릭하고 데이터를 보강하는 데 사용할 특성을 선택하십시오.
 

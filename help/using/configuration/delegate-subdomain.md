@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
 source-wordcount: '2009'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -108,7 +108,7 @@ Adobe을 사용하여 이메일 마케팅 전송 도메인에 대한 업계 표�
 하위 도메인이 [!DNL Journey Optimizer]의 Adobe으로 위임되면 PTR 레코드가 자동으로 생성되고 이 하위 도메인과 연결됩니다. [자세히 알아보기](ptr-records.md)
 
 
-## CNAME을 사용하여 하위 도메인 설정 {#cname-subdomain-delegation}
+## 하위 도메인을 CNAME으로 설정 {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -209,7 +209,7 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 1. **순방향 DNS 만들기**: 위임하는 첫 번째 하위 도메인인 경우 Adobe은 PTR 레코드를 만드는 데 필요한 순방향 DNS를 만듭니다(각 IP에 대해 하나씩).
 
-1. **PTR 레코드 만들기**: 이메일을 스팸으로 표시하지 않도록 ISP에서 PTR 레코드(역방향 DNS 레코드라고도 함)가 필요합니다. 또한 Gmail에서는 각 IP에 대해 PTR 레코드를 사용할 것을 권장합니다. Adobe은 각 IP에 대해 하나씩, 하위 도메인을 가리키는 모든 IP에 대해 처음으로 하위 도메인을 위임할 때만 PTR 레코드를 생성합니다. 예를 들어 IP가 *192.1.2.1*&#x200B;이고 하위 도메인이 *email.example.com*&#x200B;인 경우 PTR 레코드는 *192.1.2.1PTR r1.email.example.com*&#x200B;이 됩니다. 이후 PTR 레코드를 업데이트하여 새 위임된 도메인을 가리킬 수 있습니다. [PTR 레코드에 대해 자세히 알아보기](ptr-records.md)
+1. **PTR 레코드 만들기**: 이메일을 스팸으로 표시하지 않도록 ISP에서 PTR 레코드(역방향 DNS 레코드라고도 함)가 필요합니다. 또한 Gmail에서는 각 IP에 대해 PTR 레코드를 사용할 것을 권장합니다. Adobe은 각 IP에 대해 하나씩, 하위 도메인을 가리키는 모든 IP에 대해 처음으로 하위 도메인을 위임할 때만 PTR 레코드를 생성합니다. 예를 들어 IP가 *192.1.2.1*&#x200B;이고 하위 도메인이 *email.example.com*&#x200B;인 경우 PTR 레코드는 *192.1.2.1PTR r1.email.example.com*&#x200B;이 됩니다. 이후 PTR 레코드를 업데이트하여 새 위임된 도메인을 가리킬 수 있습니다. [PTR 기록에 대해 자세히 알아보기](ptr-records.md)
 
 ## 하위 도메인 위임 취소 {#undelegate-subdomain}
 

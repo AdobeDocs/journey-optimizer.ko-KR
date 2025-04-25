@@ -10,7 +10,7 @@ exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 source-git-commit: b620d479548791df97912b143e7dbe7557ab4acc
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Journey Optimizer을 사용하면 여러 채널에서 마케팅 캠페인�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="종료 활동"
->abstract="**End** 활동을 통해 오케스트레이션된 캠페인의 끝을 그래픽으로 표시할 수 있습니다. 이 활동은 기능에 영향을 미치지 않으므로 선택 사항입니다."
+>abstract="**종료** 활동을 사용하여 오케스트레이션된 캠페인의 끝을 그래픽으로 표시할 수 있습니다. 이 활동은 기능에 영향을 미치지 않으므로 선택 사항입니다."
 
 ![흐름 제어 활동 목록](../assets/flow-control-activities.png){width="30%" align="left"}
 
