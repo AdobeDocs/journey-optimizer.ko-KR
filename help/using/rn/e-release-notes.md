@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+source-git-commit: b79ab63dfefde9df1b4991ed3a81f1d61bc4bb96
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 12%
 
 ---
 
@@ -22,30 +22,28 @@ ht-degree: 100%
 **아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 날짜의 [릴리스 정보](release-notes.md)에 게시됩니다.
 
 
-## 25년 3월 초기 릴리스 정보 {#25-3-rn}
+## 2025년 4월 초기 릴리스 정보 {#25-4-rn}
 
 
 **아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
 
-**릴리스 날짜**: 2025년 3월 26~27일
+**릴리스 날짜**: 2025년 4월 29~30일
 
 
-### 새로운 기능 {#25-03-features}
+### 새로운 기능 {#25-04-features}
 
 이번 릴리스의 새로운 기능을 아래에서 자세히 설명합니다.
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express 통합</strong><br/></th>
+<th><strong>Adobe Express 통합(LA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer의 Adobe Express 통합을 사용하면 콘텐츠를 만드는 동안 바로 Adobe Express의 편집 도구를 사용하여 자산의 크기를 조정하고, 배경을 제거하고, 자르고, JPEG 또는 PNG로 변환할 수 있습니다.<p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>이제 Adobe Journey Optimizer이 Adobe Express과 통합되어 사용자가 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다. 이러한 통합은 캠페인 간에 개인화된 콘텐츠를 디자인하고 배포하는 프로세스를 간소화합니다. 이 기능은 현재 제한된 가용성입니다.</p>
 </td>
 </tr>
 </tbody>
@@ -54,14 +52,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>여정 지표</strong><br/></th>
+<th><strong>Campaign 및 여정 인벤토리(LA)에 대한 캘린더 보기</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>여정 지표를 사용하면 비즈니스에 가장 중요한 지표 전반에 걸쳐 활동이 미치는 영향을 측정하고 성과에 대해 보다 명확한 인사이트를 제공할 수 있습니다.</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>이제 캠페인 및 여정 활성화에 새 캘린더 보기를 사용할 수 있습니다. 이 기능은 예약된 활동을 시각적으로 표시하므로 사용자가 캠페인 및 여정을 보다 효과적으로 보고 관리할 수 있습니다. 달력 항목을 선택하면 오른쪽 레일에 세부 정보가 표시됩니다. 이 기능은 현재 제한된 가용성입니다.</p>
 </td>
 </tr>
 </tbody>
@@ -70,15 +67,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>여정 캘린더 보기(제한된 가용성)</strong><br/></th>
+<th><strong>Adobe Experience Manager as a Cloud Service 통합(GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 캘린더 보기를 사용하여 모든 여정 활성화를 시각화할 수 있습니다. 이 기능은 특정 고객 그룹에 제한된 가용성으로 출시됩니다. <p>
-<p>이 변경은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Adobe Journey Optimizer과 Adobe Experience Manager as a Cloud Service 간 통합의 일반 가용성. 이러한 통합을 통해 개인화된 고객 여정을 위한 원활한 컨텐츠 소싱 및 관리를 수행할 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
@@ -87,107 +82,220 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>Dynamic Media 통합(제한된 가용성)</strong><br/></th>
+<th><strong>Experience League의 Personalization 플레이그라운드</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 Dynamic Media 자산을 바로 사용 및 액세스할 수 있습니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
+<p>이제 Experience League에서 대화형 Personalization Playground를 제공합니다. 이 기능을 통해 사용자는 Adobe Journey Optimizer 내에서 개인화 기능을 탐색하고 연습할 수 있습니다. 사용자는 개인화 코드를 작성하고 샘플 페이로드로 테스트하고 실제 시나리오를 시뮬레이션하여 학습 경험을 향상시킬 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>LA(Batch Audience Evaluation) 이후 여정 실행 트리거</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 사용자는 대상자 읽기 노드에서 배치 대상의 새로운 평가를 기다리는 시간 창을 지정할 수 있습니다. 평가가 창 내에서 완료되면 여정이 트리거되고, 그렇지 않으면 건너뜁니다. 이 기능은 배치 세분화 작업의 지연을 해결하며 현재 제한된 가용성에 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>차세대 증명(GA)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 차세대 증명 기능을 일반적으로 사용할 수 있습니다. 이 향상된 기능은 컨텍스트 속성, 다국어 콘텐츠, 실험 및 콘텐츠 템플릿을 지원하여 보다 강력하고 유연한 증명 경험을 제공합니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>자체 SMS 공급자(GA) 가져오기</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer은 사용자 정의 SMS 공급자를 지원하므로 사용자가 선호하는 SMS 서비스를 통합하여 향상된 통신 유연성을 제공할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Integration with Adobe Express</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Adobe Express integration in Adobe Journey Optimizer lets you use Adobe Express's editing tools directly during content creation, enabling you to resize, remove backgrounds, crop, and convert assets to JPEG or PNG.<p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Calendar view for journeys (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A calendar view is now allows you to visualize all journeys activations. This capability is released as a Limited Availability to a select group of customers.<p>
+<p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Integration with Dynamic Media (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dynamic media assets are now directly available and accessible in Journey Optimizer. This integration enables you to:
 <ul>
-<li>자산을 중앙에서 관리하며 실시간 업데이트 확인</li>
-<li>너비 및 높이와 같은 자산 설정을 즉시 수정</li>
-<li>텍스트 오버레이가 있는 이미지를 사용하여 콘텐츠 개인화</li>
-<li>Dynamic Media 템플릿의 콘텐츠를 업데이트하고 개인화 필드를 추가하여 사용자 정의</li>
+<li>Centrally manage assets with real-time updates</li>
+<li>Modify your assets settings such as width and height instantly</li>
+<li>Personalize your content using images with text overlays</li>
+<li>Customize Dynamic Media templates by updating your content and adding personalization fields</li>
 </ul>
 <p>
-<p>이 통합은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>This integration is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 
 <table>
 <thead>
 <tr>
-<th><strong>Adobe GenStudio 통합(제한된 가용성)</strong><br/></th>
+<th><strong>LINE channel (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 마케팅 효율을 높이고 브랜드 일관성을 유지하기 위해 GenStudio for Performance Marketing 경험을 Journey Optimizer와 원활하게 통합할 수 있습니다. 이를 통해 Journey Optimizer의 고급 오케스트레이션 기능과 함께 GenStudio의 AI 기반 콘텐츠 생성을 활용할 수 있습니다.<p>
-<p>Journey Optimizer의 GenStudio 통합은 현재 Healthcare Shield 또는 Privacy and Security Shield와 함께 사용할 수 없습니다(제한된 가용성).</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
-<thead>
-<tr>
-<th><strong>LINE 채널(제한된 가용성)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer는 LINE 채널에 대한 지원을 포함하도록 크로스 채널 기능을 확장했습니다. 이 향상된 기능을 통해 LINE 경험을 만들고 편집하고 미리 볼 수 있으므로 보다 개인화되고 매력적인 상호 작용을 제공할 수 있습니다. LINE을 사용하여 더 많은 고객과 소통하고 관련 콘텐츠를 전송하며 참여도를 개선할 수 있습니다.<p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
+### 개선 사항 {#25-04-improv}
 
-### 개선 사항 {#25-03-improv}
+**대상자**
 
-**개인화 편집기**(사용 가능한 날짜: 3월 12일)
+- **데이터 보강 특성에 대한 제한 제거**
 
-Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로 업데이트되었습니다.
+  의료 및 개인 정보 보호 쉴드가 있는 고객은 이제 Adobe Journey Optimizer 채널에서 대상 구성 강화 속성을 사용할 수 있으므로 데이터 사용 기능을 향상시킬 수 있습니다.
 
-* **코드 편집기 디자인 업데이트** - 유용성과 집중도 개선을 위한 깔끔하고 현대적인 인터페이스를 적용했습니다.
-* **검색 및 바꾸기** - 편집기 내에서 콘텐츠를 빠르게 찾고 바꿀 수 있는 기능이 추가되었습니다.
-* **실행 취소 및 다시 실행 지원** - 변경 내용을 쉽게 되돌리거나 다시 적용할 수 있습니다.
-* **사용자 정의 가능한 글꼴 크기** - 편집기의 글꼴 크기를 조정하여 가독성을 높일 수 있습니다.
-* **인라인 JSON 유효성 검사** - JSON 콘텐츠에 대한 실시간 클라이언트측 유효성 검사를 제공하여 오류 감지 속도를 높입니다.
-* **프로필 및 컨텍스트 속성 자동 완성** - 콘텐츠 작성을 간소화하는 스마트 제안을 제공합니다.
-* **향상된 구문 강조 표시** - 코드 구조를 보다 시각적으로 구분하기 쉽게 하여 가독성을 개선합니다.
+**전자 메일 채널**
 
-![개인화 편집기의 새로운 기능을 보여 주는 비디오](assets/do-not-localize/personalization-editor.gif)
+- **접근성을 지원하는 추가 필드**
 
-자세한 내용은 [세부 설명서](../personalization/personalization-build-expressions.md)를 참조하십시오.
+  접근성을 지원하기 위해 전자 메일 편집기에 두 개의 새 필드, 즉 문서 제목에 대한 `<title>` 요소와 `<html>` 태그의 언어 사양에 대한 `lang` 특성이 추가되었습니다.
+
+- **이메일 표면 Personalization 개선 사항 - URL 추적**
+
+  이메일 개인화의 URL 추적이 향상되어 더 세분화된 추적 및 보고를 수행할 수 있습니다. 업데이트에는 개인화된 이메일 설정에 대한 향상된 구성 옵션이 포함됩니다.
 
 
-**캠페인**
+- 테마를 사용한 **[Beta] 전자 메일 편집기 개선 사항**
 
-* 이제 캠페인 목록에서 캠페인을 선택하면 세부 정보가 표시되는 창이 열립니다.
-* 이제 샌드박스에서 다른 샌드박스로 캠페인을 복사할 수 있습니다.
+  새로운 Beta 기능은 이메일 편집기에 테마를 도입하여 마케터는 재사용 가능한 스타일을 정의하고 사전 구성된 모듈을 사용하여 이메일을 더 빠르게 작성할 수 있습니다.
+
+**샌드박스 도구**
+
+- **샌드박스 복사본 결정**
+
+  이제 의사 결정 개체를 샌드박스 간에 복사할 수 있으므로 테스트 및 배포 워크플로를 간소화할 수 있습니다. Decisioning 개체에 대한 전용 하위 섹션이 설명서에 추가됩니다.
+
+- **사용자 지정 작업에 대한 샌드박스 도구**
+
+  이제 사용자 지정 작업이 샌드박스 도구 기능을 사용하여 복사할 수 있는 Adobe Journey Optimizer 개체 목록에 포함되어 테스트 및 배포를 간소화합니다.
+
+- **캠페인을 위한 샌드박스 도구**
+
+  이제 샌드박스 도구 기능을 사용하여 캠페인을 복사할 수 있으므로 환경 간에 캠페인 개체의 마이그레이션을 단순화할 수 있습니다.
 
 **개인화**
 
-개인화 편집기에 새로운 &quot;알약&quot; 버튼이 추가되었습니다. 활성화되면 프로필 및 상황별 속성이 알약 형태로 표시되어 코드의 가독성이 향상됩니다.
+- **Personalization 편집기 - 알약 활성화**
 
-**승인**
+  개인화 편집기의 새 버튼을 통해 사용자는 알약을 켜거나 끌 수 있습니다. 이 기능을 사용하면 편집기가 비활성화되고 Dynamic Media 이미지 매개 변수 및 프로필 속성을 보다 쉽게 편집할 수 있습니다.
 
-이제 승인 정책에 대한 조건을 정의할 때 [태그] 및/또는 [오브젝트 카테고리]별로 필터링할 수 있는 옵션이 제공됩니다.
+- **Personalization - 관찰할 수 있는 스키마**
 
-**채널 구성**
+  관찰할 수 있는 스키마 지원이 개인화 편집기에 추가되어 스키마 기반 속성에 대한 동적 업데이트가 가능해졌습니다.
 
-이제 채널 구성에 Adobe Experience Platform [통합 태그]를 할당할 수 있습니다. 이렇게 하면 해당 항목을 쉽게 분류하고, 모든 목록에서 검색과 탐색을 개선할 수 있습니다.
+- **새 시스템 컨텍스트 변수**
+
+  타겟팅된 프로필에 전송된 각 메시지를 고유하게 식별하는 새로운 시스템 컨텍스트 변수가 도입되었습니다. 이 변수는 추적 및 개인화 목적으로 사용할 수 있습니다.
+
+
+
+**Decisioning**
+
+- **AI 모델 - 순위 통합 - 새 공식 빌더**
+
+  이제 마케터는 새로운 공식 빌더를 사용하여 Adobe Decisioning AI 모델의 실시간 점수를 조정할 수 있습니다. 이 기능은 우선 순위 및 모델 점수에 대한 순위 조정을 중앙 집중화합니다.
+
+**탐색**
+
+- **폴더 - 랜딩 페이지**
+
+  UI 변경 사항, 흐름 및 API 업데이트를 포함하여 Adobe Journey Optimizer의 랜딩 페이지에 대한 폴더 관리를 개선했습니다.
+
+- **폴더 - 템플릿 및 조각**
+
+  템플릿 및 조각의 폴더에 대해 제한된 가용성 언급이 제거되어 이제 이 기능을 일반적으로 사용할 수 있음을 나타냅니다.
+
+- **캠페인 목록의 오른쪽 레일**
+
+  캠페인을 선택할 때 자세한 정보를 제공하는 오른쪽 레일이 캠페인 목록에 추가되었습니다.
+
+
 
 **전달성**
 
-이제 상위 측에서 관리 중인 DMARC를 사용하여 하위 도메인을 위임할 수 있습니다.
+- **추가 IP 및 위임된 하위 도메인 제거를 위한 워크플로우 개선**
 
-**비즈니스 규칙**
+  추가 IP 및 위임된 하위 도메인을 관리하는 워크플로우가 개선되어 사용자가 프로세스를 간소화할 수 있습니다.
 
-이제 **배치** 세분화를 통해 여정 및 캠페인에서 일일 캡핑 설정을 사용할 수 있습니다. 일일 캡핑 규칙의 정확도를 보장하려면 캠페인이나 여정을 작성할 때 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보십시오.
+**플레이북**
 
-**콘텐츠 관리**
+- **[Beta] 나만의 플레이북 만들기**
 
-이제 폴더를 사용하여 조각 및 콘텐츠 템플릿을 보다 효과적으로 구조화된 계층으로 구성할 수 있습니다.
+  이제 사용자는 Adobe Journey Optimizer에서 자체 플레이북을 만들 수 있으므로 여정 계획에 더 큰 맞춤화와 유연성을 사용할 수 있습니다.
