@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
+source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 16%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>Campaign 및 여정 인벤토리에 대한 달력 보기(제한된 가용성)</strong><br/></th>
+<th><strong>캠페인 및 여정 인벤토리에 대한 달력 보기(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -217,7 +217,7 @@ ht-degree: 16%
 
 **대상자**
 
-- **데이터 보강 특성에 대한 제한 제거**
+- **대상 구성 강화 특성에 대한 제한 제거**
 
   이제 Healthcare Shield 또는 Privacy and Security Shield에서 대상 및 대상 구성의 특성을 사용할 수 있습니다.
 
@@ -247,11 +247,11 @@ ht-degree: 16%
 
 **개인화**
 
-- **Personalization 편집기 - 알약 활성화**
+- **알약 활성화**
 
   개인화 편집기에 새로운 &quot;알약&quot; 버튼이 추가되었습니다. 활성화되면 프로필 및 상황별 속성이 알약 형태로 표시되어 코드의 가독성이 향상됩니다.
 
-- **Personalization - 관찰할 수 있는 스키마**
+- **특성 창에서 채워진 특성**
 
   이제 개인화 편집기의 속성 창에 기본적으로 채워진 속성만 표시됩니다. 모든 속성을 보려면 설정 단추를 사용하여 채워진 속성만 표시 옵션을 해제합니다.
 
