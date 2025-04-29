@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 프리 헤더, 편집기, 요약, 이메일
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="프리헤더 추가"
+>title="프리 헤더 정의"
 >abstract="프리헤더는 이메일 클라이언트에서 이메일을 표시할 때 제목 줄 뒤에 나오는 짧은 요약 텍스트입니다. 대부분의 경우 프리헤더는 이메일에 대한 간략한 요약을 제공하고 일반적으로 한 문장으로 구성됩니다."
 
 이메일을 디자인할 때 가독성을 높이고 접근성을 개선하기 위해 콘텐츠에 대한 추가 메타 속성을 정의할 수 있습니다. [!DNL Journey Optimizer] [전자 메일 Designer](get-started-email-design.md)을(를) 사용하면 다음 요소를 지정할 수 있습니다.

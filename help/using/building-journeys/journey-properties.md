@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 18%
+source-wordcount: '2344'
+ht-degree: 17%
 
 ---
 
@@ -73,7 +73,6 @@ ht-degree: 18%
 
 **재입력 허용** 옵션이 활성화되면 **재입력 대기 기간** 필드가 표시됩니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 선별로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 90일입니다.
 
-
 ## 액세스 관리 {#manage-access}
 
 여정에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]** 단추를 클릭하십시오. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../administration/object-based-access.md)
@@ -130,7 +129,6 @@ ht-degree: 18%
 91일 여정 시간 제한으로 인해 여정 재입력이 허용되지 않으면 재입력 차단이 91일 이상 작동하도록 할 수 없습니다. 실제로 해당 여정에 입장한 후 91일이 지난 사람에 대한 정보를 모두 삭제하기 때문에 91일 이상 전에 입력한 사람을 알 수 없습니다.
 
 개인은 91일 여정 시간 제한 전에 대기 기간을 완료할 수 있는 충분한 시간이 여정에 남아 있는 경우에만 대기 활동을 입력할 수 있습니다. [이 페이지](../building-journeys/wait-activity.md)를 참조하십시오.
-
 
 #### TTL(Time-to-Live) 및 데이터 유지 FAQ {#timeout-faq}
 
@@ -301,6 +299,10 @@ Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합
 
 * 종료 기준은 초안 상태에서만 정의됩니다
 * 이벤트와 이벤트 기반 종료 기준 간의 네임스페이스 일관성 여정
+
+## 여정 일정 {#schedule}
+
+**[!UICONTROL 일정]** 섹션은 **[!UICONTROL 대상자 읽기]** 활동이 캔버스에서 삭제된 경우에만 사용할 수 있습니다. 이를 통해 여정을 실행해야 하는 특정 날짜/시간 및 빈도를 정의할 수 있습니다. [대상자 읽기 여정을 예약하는 방법 알아보기](../building-journeys/read-audience.md)
 
 ## 충돌 관리 {#conflict}
 

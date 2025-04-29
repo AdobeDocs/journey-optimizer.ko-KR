@@ -9,16 +9,16 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1212'
 ht-degree: 4%
 
 ---
 
 # 다른 샌드박스로 개체 내보내기 {#copy-to-sandbox}
 
-패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
+패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 사용자 지정 작업, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
 
 이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)를 참조하세요.
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 내보낸 오브젝트 및 모범 사례 {#objects}
 
-Journey Optimizer을 사용하면 여정, 콘텐츠 템플릿 및 조각을 다른 샌드박스로 내보낼 수 있습니다. 다음 섹션에서는 각 객체 유형에 대한 정보와 모범 사례를 제공합니다.
+Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템플릿 및 조각을 다른 샌드박스로 내보낼 수 있습니다. 다음 섹션에서는 각 객체 유형에 대한 정보와 모범 사례를 제공합니다.
 
 ### 일반 모범 사례 {#global}
 
@@ -43,13 +43,21 @@ Journey Optimizer을 사용하면 여정, 콘텐츠 템플릿 및 조각을 다�
 
 ### 여정 {#journeys}
 
-* 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 이 [섹션](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)을(를) 참조하세요.
+* 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 이 [섹션](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)을(를) 참조하세요.
 
 * 연결된 모든 요소가 대상 샌드박스에 복사된다고 보장하지는 않습니다. 예를 들어 여정을 게시하기 전에 철저한 검사를 수행하는 것이 좋습니다. 이를 통해 잠재적인 누락된 오브젝트를 식별할 수 있습니다.
 
 * Target 샌드박스에서 복사되는 객체는 고유하며, 기존 요소를 덮어쓸 위험이 없습니다. 여정과 여정 내의 모든 메시지는 초안 모드에서 가져옵니다. 이렇게 하면 Target 샌드박스에서 게시하기 전에 전체 유효성 검사를 수행할 수 있습니다.
 
 * 복사 프로세스는 여정 및 해당 여정의 객체에 대한 메타데이터에만 복사합니다. 이 프로세스의 일부로 프로필 또는 데이터 세트 데이터가 복사되지 않습니다.
+
+### 사용자 정의 액션 {#custom-actions}
+
+* 사용자 지정 작업을 내보낼 때 URL 구성 및 페이로드 매개 변수가 복사됩니다. 그러나 보안상의 이유로 인증 매개 변수는 복사되지 않고 대신 &quot;INSERT SECRET HERE&quot;로 대체됩니다. 상수 요청 헤더 및 쿼리 매개 변수 값도 &quot;INSERT SECRET HERE&quot;로 대체됩니다.
+
+  특수 목적의 사용자 지정 작업([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage])이 여기에 포함됩니다.
+
+* 여정을 다른 샌드박스에 복사할 때 가져오기 프로세스 중에 사용자 지정 작업에 대해 &quot;기존 사용&quot;을 선택하는 경우 선택하는 기존 사용자 지정 작업은 소스 사용자 지정 작업과 동일해야 합니다(예: 동일한 구성, 매개 변수 등). 그렇지 않으면 새 여정 사본에 캔버스에서 해결할 수 없는 오류가 발생합니다.
 
 ### 캠페인 {#campaigns}
 

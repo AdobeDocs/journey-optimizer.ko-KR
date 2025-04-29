@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 13%
+source-wordcount: '2195'
+ht-degree: 11%
 
 ---
 
 # 여정에서 대상자 사용 {#segment-trigger-activity}
 
-## 대상자 읽기 활동 추가 {#about-segment-trigger-actvitiy}
+## 대상자 읽기 활동 정보 {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
@@ -38,7 +38,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="모두 반복"
->abstract="반복 스케줄러의 빈도를 정의합니다."
+>abstract="반복 스케줄러 빈도를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -58,7 +58,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="새로운 대상 평가를 위한 대기 시간"
->abstract="일괄 처리 대상이 새로 평가될 때까지 여정이 대기할 시간을 지정합니다."
+>abstract="일괄 처리 대상이 새로 평가될 때까지 여정이 대기할 시간을 지정합니다. 대기 기간은 정수 값으로 제한되며 분 또는 시간 단위로 지정할 수 있으며 1시간에서 6시간 사이여야 합니다."
 
 **대상자 읽기** 활동을 사용하여 대상자의 모든 개인이 여정에 들어가도록 만듭니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 
@@ -80,13 +80,13 @@ ht-degree: 13%
 
 * CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
 
-
 **대상자 읽기** 활동과 관련된 보호 기능은 [이 페이지](../start/guardrails.md#read-segment-g)에 나열되어 있습니다.
-
 
 ## 활동 구성 {#configuring-segment-trigger-activity}
 
 대상 읽기 활동을 구성하는 단계는 다음과 같습니다.
+
+### 대상자 읽기 활동을 추가하고 대상자를 선택합니다
 
 1. **[!UICONTROL Orchestration]** 범주를 펼친 후 **[!UICONTROL 대상자 읽기]** 활동을 캔버스에 넣으십시오.
 
@@ -120,33 +120,78 @@ ht-degree: 13%
    >
    >서로 다른 ID 중에서 선택한 ID(네임스페이스)가 없는 대상에 속하는 개인은 여정에 들어갈 수 없습니다. 사용자 기반 ID 네임스페이스만 선택할 수 있습니다. 조회 테이블에 대한 네임스페이스를 정의한 경우(예: 제품 조회에 대한 ProductID 네임스페이스) **네임스페이스** 드롭다운 목록에서 사용할 수 없습니다.
 
-1. **[!UICONTROL 읽기 속도]**&#x200B;를 설정합니다. 초당 여정을 입력할 수 있는 최대 프로필 수입니다. 이 비율은 이 활동에만 적용되며 여정의 다른 활동에는 적용되지 않습니다. 예를 들어 사용자 지정 작업에 대한 전송률 조절 속도를 정의하려면 전송률 조절 API를 사용해야 합니다. 이 [페이지](../configuration/throttling.md)를 참조하세요.
+### 여정의 프로필 항목 관리
 
-   이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 초당 5,000개의 프로필입니다. 이 값은 초당 500개에서 20,000개의 프로필로 수정할 수 있습니다.
+**[!UICONTROL 읽기 속도]**&#x200B;를 설정합니다. 초당 여정을 입력할 수 있는 최대 프로필 수입니다. 이 비율은 이 활동에만 적용되며 여정의 다른 활동에는 적용되지 않습니다. 예를 들어 사용자 지정 작업에 대한 전송률 조절 속도를 정의하려면 전송률 조절 API를 사용해야 합니다. 이 [페이지](../configuration/throttling.md)를 참조하세요.
 
-   >[!NOTE]
-   >
-   >샌드박스당 전체 읽기 속도는 초당 20,000개의 프로필로 설정됩니다. 따라서 동일한 샌드박스에서 동시에 실행되는 모든 읽기 대상의 읽기 속도는 초당 최대 20,000개의 프로필을 추가합니다. 이 캡은 수정할 수 없습니다.
+이 값은 여정 버전 페이로드에 저장됩니다. 기본값은 초당 5,000개의 프로필입니다. 이 값은 초당 500개에서 20,000개의 프로필로 수정할 수 있습니다.
 
-1. **[!UICONTROL 대상자 읽기]** 활동을 통해 대상자가 여정을 입력하는 시간을 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL 여정 일정 편집]** 링크를 클릭하여 여정 속성에 액세스한 다음 **[!UICONTROL 스케줄러 유형]** 필드를 구성합니다.
+>[!NOTE]
+>
+>샌드박스당 전체 읽기 속도는 초당 20,000개의 프로필로 설정됩니다. 따라서 동일한 샌드박스에서 동시에 실행되는 모든 읽기 대상의 읽기 속도는 초당 최대 20,000개의 프로필을 추가합니다. 이 캡은 수정할 수 없습니다.
+
+### 여정 예약 {#schedule}
+
+기본적으로 여정은 한 번 실행되도록 구성됩니다. 여정을 실행할 특정 날짜/시간 및 빈도를 정의하려면 아래 단계를 따르십시오.
+
+>[!NOTE]
+>
+>일회성 읽기 대상 여정은 여정 실행 후 91일([여정 글로벌 시간 초과](journey-properties.md#global_timeout)) 후에 **완료됨** 상태로 이동합니다. 예약된 읽기 대상의 경우 마지막 항목이 실행된 후 91일이 경과해야 합니다.
+
+1. **[!UICONTROL 대상자 읽기]** 활동 속성에서 pa, **[!UICONTROL 여정 일정 편집]**&#x200B;을 선택합니다.
 
    ![](assets/read-segment-schedule.png)
 
-   기본적으로 대상은 **[!UICONTROL 가능한 한 빨리]** 여정을 입력합니다. 대상자가 특정 날짜/시간 또는 반복적으로 여정을 입력하도록 하려면 목록에서 원하는 값을 선택합니다.
-
-   >[!NOTE]
-   >
-   >**[!UICONTROL 일정]** 섹션은 **[!UICONTROL 대상자 읽기]** 활동이 캔버스에서 삭제된 경우에만 사용할 수 있습니다.
+1. 여정 속성이 표시됩니다. **[!UICONTROL 스케줄러 유형]** 드롭다운 목록에서 여정을 실행할 빈도를 선택합니다.
 
    ![](assets/read-segment-schedule-list.png)
 
-   **증분 읽기** 옵션: 반복 **대상자 읽기**&#x200B;를 사용하는 여정이 처음 실행되면 대상자의 모든 프로필이 여정에 들어갑니다. 이 옵션을 사용하면 여정의 마지막 실행 이후 대상에 들어온 개인만 첫 번째 발생 후 타깃팅할 수 있습니다.
+반복 여정의 경우 여정에 대한 프로필 입력을 관리하는 데 도움이 되는 특정 옵션을 사용할 수 있습니다. 각 옵션에 대한 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
-       >[!NOTE]
-       >
-       >여정에서 [사용자 지정 여정 대상](../audience/about-audiences.md#segments-in-user-optimizer)을 대상으로 하는 경우 이러한 대상이 수정되므로 반복 여정에서 이 옵션이 활성화된 경우 첫 번째 반복에서만 프로필을 검색합니다.
-   
-   **반복 시 강제 재입력**: 이 옵션을 사용하면 여정에 여전히 있는 모든 프로필이 다음 실행 시 자동으로 종료되도록 할 수 있습니다. 예를 들어 일별 반복 여정에서 2일 대기하는 경우 이 옵션을 활성화하면 프로필이 다음 실행 대상에 있는지 여부에 관계없이 항상 다음 여정 실행 시(즉, 다음 날) 이동됩니다. 이 여정에서 프로필의 수명이 반복 빈도보다 길 수 있는 경우 프로필이 여정을 완료할 수 있도록 이 옵션을 활성화하지 마십시오.
+![](assets/read-audience-options.png)
+
++++**[!UICONTROL 증분 읽기]**
+
+되풀이하는 **대상자 읽기**&#x200B;를 사용하는 여정이 처음 실행되면 대상자의 모든 프로필이 여정에 들어갑니다.
+
+이 옵션을 사용하면 여정의 마지막 실행 이후 대상에 들어온 개인만 첫 번째 발생 후 타깃팅할 수 있습니다.
+
+>[!NOTE]
+>
+>여정에서 [사용자 지정 업로드 대상](../audience/about-audiences.md#segments-in-journey-optimizer)을(를) 대상으로 하는 경우, 이러한 대상이 수정되므로 반복 여정에서 이 옵션이 활성화된 경우 프로필은 첫 번째 반복에서만 검색됩니다.
+
++++
+
++++**[!UICONTROL 반복 시 강제 재입력]**
+
+이 옵션을 사용하면 여정에 여전히 존재하는 모든 프로필이 다음 실행 시 자동으로 종료되도록 할 수 있습니다.
+
+예를 들어 일별 반복 여정에서 2일 대기하는 경우 이 옵션을 활성화하면 프로필이 다음 실행 대상에 있는지 여부에 관계없이 항상 다음 여정 실행 시(즉, 다음 날) 이동됩니다.
+
+이 여정에서 프로필의 수명이 반복 빈도보다 길 수 있는 경우 프로필이 여정을 완료할 수 있도록 이 옵션을 활성화하지 마십시오.
+
++++
+
++++**[!UICONTROL 일괄 대상 평가 후 트리거]**(제한된 가용성)
+
+>[!AVAILABILITY]
+>
+>**[!UICONTROL 일괄 대상 평가 후 트리거]** 옵션은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+매일 예약된 여정 및 타깃팅 배치 대상의 경우, 여정이 배치 세분화 작업에서 새 대상 데이터를 대기할 최대 6시간의 시간 창을 정의할 수 있습니다. 시간 창 내에 세분화 작업이 완료되면 여정이 트리거됩니다. 그렇지 않으면 다음 상황이 발생할 때까지 여정을 건너뜁니다. 이 옵션을 사용하면 정확한 최신 대상 데이터로 여정을 실행할 수 있습니다.
+
+예를 들어 여정이 매일 오후 6시로 예약된 경우 여정이 실행되기 전에 대기할 분 또는 시간을 지정할 수 있습니다. 여정이 오후 6시에 일어나면 새 대상을 확인합니다. 즉, 이전 여정 실행에 사용된 대상보다 새로운 대상을 의미합니다. 지정된 기간 동안 새 대상을 감지하면 여정이 즉시 실행됩니다. 그러나 새 대상이 감지되지 않으면 해당 날짜의 여정 실행을 건너뜁니다.
+
+**증분 읽기 여정에 대한 전환 확인 기간**
+
+**[!UICONTROL 일괄 대상 평가 후 트리거]**&#x200B;를 선택하면 [!DNL Journey Optimizer]에서 새 대상 평가를 찾습니다. 전환 확인 기간의 시작점에 대해 시스템은 24시간 이상 전에 발생한 경우에도 마지막으로 성공한 여정 실행 시간을 사용합니다. 이는 일반적으로 24시간 전환 확인 기간이 있는 증분 읽기 여정에 중요합니다.
+
+일별 증분 읽기 여정 예:
+
+* &quot;일괄 처리 대상 평가 후 트리거&quot;가 활성화된 경우: 증분 프로필이 여정에 들어간 이후 3일이 지난 경우 증분 프로필을 찾을 때 전환 확인 기간이 3일 지연됩니다.
+* &quot;일괄 처리 대상 평가 후 트리거&quot;가 활성화되지 않은 경우: 증분 프로필이 여정에 들어간 이후 3일이 지난 경우 증분 프로필을 찾을 때 전환 기간이 24시간 이전으로만 표시됩니다.
+
++++
 
 <!--
 
@@ -166,10 +211,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 **Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
 
 -->
-
->[!NOTE]
->
->일회성 읽기 대상 여정은 여정 실행 후 91일([여정 글로벌 시간 초과](journey-properties.md#global_timeout)) 후에 **완료됨** 상태로 이동합니다. 예약된 읽기 대상의 경우 마지막 항목이 실행된 후 91일이 경과해야 합니다.
 
 ## 여정 테스트 및 게시 {#testing-publishing}
 
@@ -213,6 +254,12 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ![](assets/read-segment-audience1.png)
 
+>[!NOTE]
+>
+>**[!UICONTROL 대상자 읽기]** 활동과 함께 &quot;일별&quot; 스케줄러 유형을 사용할 때 여정이 새로운 대상자 데이터를 기다리는 기간을 정의할 수 있습니다. 이를 통해 정확한 타기팅을 보장하고 일괄 처리 세분화 작업의 지연으로 인해 발생하는 문제를 방지할 수 있습니다. [여정 예약 방법 알아보기](#schedule)
+>
+>**[!UICONTROL 일괄 대상 평가 후 트리거]** 옵션은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
 **예외**
 
 세분화에 사용된 동일한 **조건** 활동(위 참조)을 사용하면 모집단의 일부를 제외할 수도 있습니다. 예를 들어 VIP 사용자를 바로 뒤 종료 단계가 있는 분기로 흘러가게 하여 제외할 수 있습니다.
@@ -223,16 +270,11 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 **결합**
 
-여정을 사용하면 N개의 분기를 만들고 세그멘테이션 후 서로 연결할 수 있습니다.
+여정을 사용하면 N개의 분기를 만들고 세그멘테이션 후 서로 연결할 수 있습니다. 따라서 두 대상이 공통 경험으로 돌아오도록 할 수 있습니다.
 
-따라서 두 대상이 공통 경험으로 돌아오도록 할 수 있습니다.
-
-예를 들어 여정에서 10일 동안 다른 경험을 팔로우한 후 VIP 및 VIP이 아닌 고객은 동일한 경로로 돌아갈 수 있습니다.
-
-결합 후 세분화 또는 제외를 수행하여 대상을 다시 분할할 수 있습니다.
+예를 들어 여정에서 10일 동안 다른 경험을 팔로우한 후 VIP 및 VIP이 아닌 고객은 동일한 경로로 돌아갈 수 있습니다. 결합 후 세분화 또는 제외를 수행하여 대상을 다시 분할할 수 있습니다.
 
 ![](assets/read-segment-audience3.png)
-
 
 ## 다시 시도 {#read-audience-retry}
 

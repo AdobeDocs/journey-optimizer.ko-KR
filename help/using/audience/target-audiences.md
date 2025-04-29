@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 25%
+source-wordcount: '660'
+ht-degree: 22%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 25%
 ## 대상자 활성화 지연 {#activation}
 
 대상자는 수집이 완료된 후 바로 Journey Optimizer에서 사용할 준비가 되었습니다. 일반적으로 1시간 이내이지만 약간의 변동성이 있습니다. 컴포지션으로 인한 대상자는 게시 후 24시간 후에 사용할 수 있어야 합니다.
+
+일괄 처리 세분화 작업으로 인해 발생한 대상자의 경우 일괄 처리 수집 가변성으로 인해 활성화가 지연될 수 있습니다. 매일 예약된 읽기 대상 여정의 경우 여정 실행 전에 새 대상 데이터를 사용할 수 있도록 여정 속성에서 시간 창을 정의할 수 있습니다. 정의된 기간 내에 세분화 작업이 완료되지 않으면 다음 작업이 발생할 때까지 여정을 건너뜁니다. [대상자 읽기 여정을 예약하는 방법 알아보기](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>**[!UICONTROL 일괄 대상 평가 후 트리거]** 옵션은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 ## 사용자 지정 업로드 및 페더레이션 대상 구성
 

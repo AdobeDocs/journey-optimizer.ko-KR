@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 94%
+source-wordcount: '335'
+ht-degree: 85%
 
 ---
 
@@ -20,11 +20,17 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB 25년 3월 릴리스]
+>[!TAB 25년 4월 릴리스]
 
-3월 릴리스가 공개되었습니다! 릴리스 정보에서 새로운 기능, 변경 사항, 개선 사항을 확인하십시오.
+4월 릴리스가 공개되었습니다! 릴리스 정보에서 새로운 기능, 변경 사항, 개선 사항을 확인하십시오.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Adobe Express 통합]
+
+이제 Adobe Journey Optimizer이 Adobe Express과 통합되어 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다.
+
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB AI 어시스턴트]
 
@@ -38,11 +44,6 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB 여정의 웹 경험]
-
-웹 채널을 사용하면 Adobe Journey Optimizer에서 인바운드 웹 채널을 통해 고객에게 제공하는 웹 경험을 개인화할 수 있습니다. 이제 여정 캔버스에서 웹 채널을 사용할 수 있습니다.
-
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 
