@@ -38,7 +38,7 @@ ht-degree: 87%
    + [검색, 필터, 분류](using/start/search-filter-categorize.md)
    + [접근성](using/start/accessibility.md)
    + [사용 사례 플레이북](using/start/playbooks.md)
-   + [AI Assistant 작업](using/start/ai-assistant.md)
+   + [AI 어시스턴트로 작업하기](using/start/ai-assistant.md)
    + [가드레일](using/start/guardrails.md)
    + [모범 사례](using/start/best-practices.md)
 + 여정 {#orchestrate-journeys}
