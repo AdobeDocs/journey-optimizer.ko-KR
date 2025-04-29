@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: d5ddf00b1a39c66b29ffb967389fb069a9648e83
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 52%
@@ -240,11 +240,11 @@ ht-degree: 52%
 
   Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
-- **사용자 지정 작업에 대한 샌드박스 도구**
+* **사용자 지정 작업에 대한 샌드박스 도구**
 
   이제 사용자 지정 작업이 샌드박스 도구 기능을 사용하여 복사할 수 있는 Adobe Journey Optimizer 개체 목록에 포함되어 테스트 및 배포를 간소화합니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
 
-- **캠페인을 위한 샌드박스 도구** - 사용 가능한 날짜: 2025년 4월 3일
+* **캠페인을 위한 샌드박스 도구** - 사용 가능한 날짜: 2025년 4월 3일
 
   이제 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스 간에 캠페인을 복사할 수 있습니다. 캠페인은 프로필, 대상자, 스키마, 인라인 메시지, 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다. 결정 항목, 데이터 사용 레이블, 언어 설정과 같은 일부 항목은 복사되지 않습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -254,12 +254,12 @@ ht-degree: 52%
 
   A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
-- **특성 창의 채워진 특성** - 사용 가능한 날짜: 2025년 4월 2일
+* **특성 창의 채워진 특성** - 사용 가능한 날짜: 2025년 4월 2일
 
   이제 개인화 편집기의 속성 창에 기본적으로 채워진 속성만 표시됩니다. 모든 속성을 보려면 설정 버튼을 사용하여 **[!UICONTROL 채워진 속성만 표시]** 옵션을 끕니다. [자세히 보기](../personalization/personalization-build-expressions.md)
 
 
-- **새 컨텍스트 특성**
+* **새 컨텍스트 특성**
 
   이제 개인화 편집기에서 새 컨텍스트 특성 **메시지 프로필 ID**&#x200B;을(를) 선택할 수 있습니다. 게재 시 각 타겟팅된 프로필로 전송된 각 메시지를 고유하게 식별하는 메시지 지향 속성입니다. 이 고유 식별자는 예를 들어 수신자가 열거나 클릭한 각 링크를 구별하기 위한 URL 추적 매개 변수로 사용할 수 있습니다.
 
