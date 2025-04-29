@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
 workflow-type: tm+mt
-source-wordcount: '2336'
-ht-degree: 88%
+source-wordcount: '2358'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 88%
 + 새로운 기능 {#whats-new}
    + [초기 릴리스 정보](using/rn/e-release-notes.md)
    + [최신 릴리스 정보](using/rn/release-notes.md)
-   + 이전 릴리스 정보  {#previous-rn-new}
+   + 이전 릴리스 정보 {#previous-rn-new}
       + [2025](using/rn/release-notes-2025.md)
       + [2024](using/rn/release-notes-2024.md)
       + [2023](using/rn/release-notes-2023.md)
@@ -330,6 +330,11 @@ ht-degree: 88%
       + [Journey Optimizer에서 WhatsApp 채널 구성](using/whatsapp/whatsapp-configuration.md)
       + [WhatsApp 메시지 만들기](using/whatsapp/create-whatsapp.md)
       + [WhatsApp 메시지 확인 및 보내기](using/whatsapp/send-whatsapp.md)
+   + LINE {#line}
+      + [LINE 채널 시작](using/line/get-started-line.md)
+      + [Journey Optimizer에서 LINE 채널 구성](using/line/line-configuration.md)
+      + [LINE 메시지 만들기](using/line/create-line.md)
+      + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
@@ -488,7 +493,7 @@ ht-degree: 88%
 + 의사 결정 기능 {#decisioning}
    + [결정 기능 시작](using/experience-decisioning/gs-decision.md)
    + 결정 {#experience-decisioning}
-      + [결정 시작](using/experience-decisioning/gs-experience-decisioning.md)
+      + [의사 결정 시작](using/experience-decisioning/gs-experience-decisioning.md)
       + [의사 결정 가드레일 및 제한 사항](using/experience-decisioning/decisioning-guardrails.md)
       + API 참조{#api-reference}
          + 오퍼 항목 만들기 및 관리 {#create-manage}
