@@ -1,5 +1,5 @@
 ---
-title: 결정 시작
+title: 의사 결정 시작
 description: Decisioning에 대해 자세히 알아보기
 feature: Decisioning
 topic: Integrations
@@ -13,12 +13,12 @@ ht-degree: 25%
 
 ---
 
-# 결정 시작 {#get-started-experience-decisioning}
+# 의사 결정 시작 {#get-started-experience-decisioning}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="결정은 무엇입니까?"
->abstract="결정은 결정 엔진에서 가장 적합한 항목을 골라 각 개인에게 전달하는 의사 결정 관리 외의 새로운 도구입니다. 이를 사용하려면 추가적인 설정이 필요합니다."
+>title="의사 결정은 무엇입니까?"
+>abstract="의사 결정은 결정 엔진에서 가장 적합한 항목을 골라 각 개인에게 전달하는 의사 결정 관리 외의 새로운 도구입니다. 이를 사용하려면 추가적인 설정이 필요합니다."
 
 ## Decisioning 소개 {#about}
 
