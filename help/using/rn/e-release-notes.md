@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
+source-git-commit: 00aa5d5283bae43949df133a48700aa91b3a8c7f
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '972'
 ht-degree: 16%
 
 ---
@@ -119,6 +119,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>이전에 Beta에서 사용 가능했던 콘텐츠 변형 시뮬레이션은 이제 GA(일반적으로 콘텐츠 변형)에서 사용할 수 있습니다. CSV 또는 JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 다양한 콘텐츠 변형을 미리 볼 수 있습니다. 개인화를 위해 콘텐츠에 사용된 모든 속성은 시스템에서 자동으로 감지되며 테스트에 사용하여 여러 변형을 만들 수 있습니다.</p>
+<p>GA 릴리스에서는 다국어 콘텐츠 및 콘텐츠 실험을 지원하는 기능이 추가되어 다양한 언어 및 처리에서 변형을 테스트할 수 있습니다. 또한 이제 프로필 속성 외에도 컨텍스트 속성을 지원하므로 보다 역동적이고 상황에 맞는 콘텐츠 테스트가 가능합니다.</p>
 </td>
 </tr>
 </tbody>
@@ -215,11 +216,11 @@ ht-degree: 16%
 
 ### 개선 사항 {#25-04-improv}
 
-**대상자**
+<!--**Audiences**
 
-- **대상 구성 강화 특성에 대한 제한 제거**
+- **Remove limitation for Audience Composition enrichment attributes** 
 
-  이제 Healthcare Shield 또는 Privacy and Security Shield에서 대상 및 대상 구성의 특성을 사용할 수 있습니다.
+  The use of audiences and attributes from audience composition is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **이메일 채널**
 
