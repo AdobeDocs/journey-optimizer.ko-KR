@@ -1,12 +1,11 @@
 ---
 title: 브랜드 정렬
 description: 브랜드 점수를 사용하여 브랜드 내 콘텐츠를 만들고, 검증하고, 관리하는 방법에 대해 알아봅니다.
-feature: Content Management
 badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 5a30f898dda1297b7d754af431d9d1803c0b48b8
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 11%
