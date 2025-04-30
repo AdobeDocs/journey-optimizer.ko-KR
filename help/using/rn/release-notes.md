@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d87dde2cbc172affa17610b28e092a0da0d7d38f
+source-git-commit: 50fb18210bd589f551efdaf161844251b5bef758
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 54%
+source-wordcount: '824'
+ht-degree: 52%
 
 ---
 
@@ -25,62 +25,11 @@ ht-degree: 54%
 
 ## 2025년 4월 릴리스 정보 {#25-4-rn}
 
-
 **릴리스 날짜**: 2025년 4월 29~30일
-
 
 ### 새로운 기능 {#25-04-features}
 
-이번 릴리스의 새로운 기능을 아래에서 자세히 설명합니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Express 통합(제한된 가용성)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Adobe Journey Optimizer이 Adobe Express과 통합되어 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다. 이러한 통합은 캠페인 간에 개인화된 콘텐츠를 디자인하고 배포하는 프로세스를 간소화합니다. </p>
-<p>이 기능은 현재 제한된 가용성입니다.</p>
-<img src="assets/do-not-localize/express_resize.gif">
-<p>자세한 내용은 <a href="../integrations/express.md">세부 설명서</a>를 참조하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--<table>
-<thead>
-<tr>
-<th><strong>Calendar view for campaign and journey inventory (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new calendar view is now available for campaigns and journey activations. This feature provides a visual representation of scheduled activities, allowing you to view and manage your campaigns and journeys more effectively. Selecting a calendar item opens a right rail with detailed information. This feature is currently in Limited Availability.</p>
-<img src="assets/do-not-localize/calendar.gif">
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Manager as a Cloud Service 통합(일반 공급)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer과 Adobe Experience Manager as a Cloud Service 간 통합의 일반 가용성. 이러한 통합을 통해 개인화된 고객 여정을 위한 원활한 컨텐츠 소싱 및 관리를 수행할 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
+이 릴리스와 함께 제공되는 새로운 기능은 아래에 나와 있습니다.
 
 <table>
 <thead>
@@ -100,19 +49,17 @@ ht-degree: 54%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>일괄 처리 세분화 완료 후 일일 여정 실행 트리거(제한된 가용성)</strong><br/></th>
+<th><strong>Adobe Experience Manager as a Cloud Service 통합</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>일별 예약 여정의 경우 새 옵션을 사용하면 일괄 처리 세분화 작업에서 대상 데이터를 기다리는 최대 6시간의 시간 창을 정의하여 여정이 최신 데이터로 실행되거나 준비되지 않은 경우 건너뛸 수 있습니다. 일괄 처리 후 트리거 대상 평가 옵션은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../building-journeys/read-audience.md#schedule">세부 설명서</a>를 참조하십시오.</p>
-<img src="assets/do-not-localize/trigger-journeys.gif">
+<p>Adobe Journey Optimizer과 Adobe Experience Manager as a Cloud Service 간의 통합은 이제 GA(General Availability)로 출시되었습니다. 이러한 통합을 통해 개인화된 고객 여정을 위한 원활한 컨텐츠 소싱 및 관리를 수행할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../integrations/aem-templates.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -134,22 +81,6 @@ ht-degree: 54%
 </tr>
 </tbody>
 </table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>브랜드 정렬 점수(Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>브랜드 정렬 점수 기능은 이메일 디자이너에서 직접 명확한 피드백을 제공하여 콘텐츠가 브랜드의 색조, 스타일 및 지침에 맞는지 여부를 확인하는 데 도움이 됩니다.</p>
-<p>자세한 내용은 <a href="../content-management/brands-score.md">세부 설명서</a>를 참조하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -194,10 +125,95 @@ ht-degree: 54%
 <tr>
 <td>
 <p>이제 여정 지표를 사용하면 비즈니스의 주요 지표 전반에 걸쳐 활동이 미치는 영향을 측정하고 성과에 대해 보다 명확한 인사이트를 제공할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../building-journeys/success-metrics.md">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2025년 4월 9일</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
+<p>자세한 내용은 <a href="../building-journeys/success-metrics.md">세부 설명서</a>를 참조하십시오.</p>
+<p>가용성 일자: 2025년 4월 9일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>Calendar view for campaign and journey inventory (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A new calendar view is now available for campaigns and journey activations. This feature provides a visual representation of scheduled activities, allowing you to view and manage your campaigns and journeys more effectively. Selecting a calendar item opens a right rail with detailed information. This feature is currently in Limited Availability.</p>
+<img src="assets/do-not-localize/calendar.gif">
+</td>
+</tr>
+</tbody>
+</table>-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Express 통합(제한된 가용성)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer이 Adobe Express과 통합되어 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다. 이러한 통합은 캠페인 간에 개인화된 콘텐츠를 디자인하고 배포하는 프로세스를 간소화합니다. </p>
+<p>이 통합은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스하려면 Adobe 담당자에게 문의하십시오</p>
+<img src="assets/do-not-localize/express_resize.gif">
+<p>자세한 내용은 <a href="../integrations/express.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>일괄 처리 세분화 완료 후 일일 여정 실행 트리거(제한된 가용성)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>일별 예약 여정의 경우 새 옵션을 사용하면 일괄 처리 세분화 작업에서 대상 데이터를 기다리는 최대 6시간의 시간 창을 정의하여 여정이 최신 데이터로 실행되거나 준비되지 않은 경우 건너뛸 수 있습니다. 일괄 처리 후 트리거 대상 평가 옵션은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/read-audience.md#schedule">세부 설명서</a>를 참조하십시오.</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Themes in the Email Designer (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams.</p>
+<p>For more information, refer to the <a href="../content-management/brands-score.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>브랜드 정렬 점수(Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>브랜드 정렬 점수 기능은 이메일 디자이너에서 직접 명확한 피드백을 제공하여 콘텐츠가 브랜드의 색조, 스타일 및 지침에 맞는지 여부를 확인하는 데 도움이 됩니다. 이 기능은 Beta에서 사용할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../content-management/brands-score.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -222,19 +238,6 @@ ht-degree: 54%
 
 ### 개선 사항 {#25-04-improv}
 
-**이메일 채널**
-
-<!--* **Personalized URL tracking**
-
-  For increased flexibility and control over your email settings, you can now personalize all your URL tracking parameters at once at the email channel configuration level, instead of doing it in the Email designer for each link in your content. -->
-
-* **이메일 디자이너** - 가용성 일자: 2025년 4월 1일
-
-  Journey Optimizer의 접근성을 높이기 위해 이제 이메일 디자이너에서 새 필드 두 가지를 사용할 수 있습니다. 이 두 필드는 이메일 콘텐츠의 `<title>` 요소와, `<html>` 요소의 `lang` 속성에 해당합니다. 이메일 **[!UICONTROL 본문]** 섹션에서 **[!UICONTROL 프리헤더]** 필드에 더해 이 설정을 정의할 수 있습니다. [자세히 보기](../email/email-metadata.md)
-
-<!--- **Email designer themes** (Beta) - Availability date: May 5, 2025
-
-  You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams. -->
 
 **샌드박스 도구**
 
@@ -256,14 +259,25 @@ ht-degree: 54%
 
   A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
+* **새 컨텍스트 특성**
+
+  이제 개인화 편집기에서 새 컨텍스트 특성 **메시지 프로필 ID**&#x200B;을(를) 선택할 수 있습니다. 게재 시 각 타겟팅된 프로필로 전송된 각 메시지를 고유하게 식별하는 메시지 지향 속성입니다. 이 고유 식별자는 예를 들어 수신자가 열거나 클릭한 각 링크를 구별하기 위한 URL 추적 매개 변수로 사용할 수 있습니다.
+
 * **특성 창의 채워진 특성** - 사용 가능한 날짜: 2025년 4월 2일
 
   이제 개인화 편집기의 속성 창에 기본적으로 채워진 속성만 표시됩니다. 모든 속성을 보려면 설정 버튼을 사용하여 **[!UICONTROL 채워진 속성만 표시]** 옵션을 끕니다. [자세히 보기](../personalization/personalization-build-expressions.md)
 
+**이메일 채널**
 
-* **새 컨텍스트 특성**
+<!--* **Personalized URL tracking**
 
-  이제 개인화 편집기에서 새 컨텍스트 특성 **메시지 프로필 ID**&#x200B;을(를) 선택할 수 있습니다. 게재 시 각 타겟팅된 프로필로 전송된 각 메시지를 고유하게 식별하는 메시지 지향 속성입니다. 이 고유 식별자는 예를 들어 수신자가 열거나 클릭한 각 링크를 구별하기 위한 URL 추적 매개 변수로 사용할 수 있습니다.
+  For increased flexibility and control over your email settings, you can now personalize all your URL tracking parameters at once at the email channel configuration level, instead of doing it in the Email designer for each link in your content. -->
+
+* **이메일 디자이너** - 가용성 일자: 2025년 4월 1일
+
+  Journey Optimizer의 접근성을 높이기 위해 이제 이메일 디자이너에서 새 필드 두 가지를 사용할 수 있습니다. 이 두 필드는 이메일 콘텐츠의 `<title>` 요소와, `<html>` 요소의 `lang` 속성에 해당합니다. 이메일 **[!UICONTROL 본문]** 섹션에서 **[!UICONTROL 프리헤더]** 필드에 더해 이 설정을 정의할 수 있습니다. [자세히 보기](../email/email-metadata.md)
+
+
 
 **탐색**
 
