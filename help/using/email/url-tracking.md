@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 83%
+source-wordcount: '380'
+ht-degree: 78%
 
 ---
 
@@ -74,4 +74,4 @@ URL 추적 매개변수를 구성하기 위해 **[!UICONTROL 이름]** 및 **[!U
 
 >[!NOTE]
 >
->이메일 콘텐츠에 있는 링크에 동적 개인화 추적 매개변수를 추가할 수도 있지만, 구성 수준에서는 가능하지 않습니다. 이 작업은 이메일 디자이너를 사용하여 메시지를 작성할 때 수행해야 합니다. [자세히 알아보기](message-tracking.md#url-tracking)
+>You can also add dynamic personalized tracking parameters to the links present in your email content. [자세히 알아보기](surface-personalization.md#personalize-url-tracking)

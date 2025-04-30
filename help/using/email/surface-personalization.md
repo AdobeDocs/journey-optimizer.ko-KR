@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 7%
+source-wordcount: '1170'
+ht-degree: 6%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >보류 중인 [피드백 루프](../reports/deliverability.md#feedback-loops) 등록으로 인해 특정 하위 도메인을 선택할 수 없습니다. 이 과정은 영업일 기준 최대 10일 정도 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >보류 중인 [피드백 루프](../reports/deliverability.md#feedback-loops) 등록으로 인해 특정 하위 도메인을 선택할 수 없습니다. 이 프로세스는 영업일 기준 최대 10일이 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -98,7 +98,6 @@ ht-degree: 7%
 >
 >**[!UICONTROL 오류 이메일 접두사]** 필드를 제외한 모든 **[!UICONTROL 헤더 매개 변수]** 필드를 개인화할 수 있습니다.
 
-
 1. 일반적인 방법으로 헤더 매개 변수를 정의합니다. [방법 알아보기](email-settings.md#email-header)
 
 1. 각 필드에 대해 편집 아이콘을 선택합니다.
@@ -125,17 +124,19 @@ ht-degree: 7%
 >
 >구성에 동적 하위 도메인을 하나 이상 추가한 경우 **전자 메일에서** 및 **오류 전자 메일** 접미사는 해결된 [동적 하위 도메인](#dynamic-subdomains)을 기반으로 채워집니다.
 
-<!--
-## Use personalized URL tracking {#personalize-url-tracking}
+## 개인화된 URL 추적 사용 {#personalize-url-tracking}
 
-To use personalized URL tracking prameters, follow the steps below.
+개인화된 URL 추적 매개 변수를 사용하려면 아래 단계를 따르십시오.
 
-1. Select the profile attribute of your choice from the personalization editor.
+1. 전자 메일 채널 구성의 **[!UICONTROL URL 추적 매개 변수]** 섹션으로 이동합니다.
 
-1. Repeat the steps above for each tracking parameter you want to personalize.
+1. 각 필드 옆에 있는 편집 아이콘을 클릭합니다. 컨텍스트 속성 외에도 프로필 속성을 선택할 수 있습니다.
 
-Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
--->
+1. [개인화 편집기](../personalization/personalization-build-expressions.md)에서 선택한 프로필 특성을 선택합니다.
+
+1. 개인화할 각 추적 매개변수에 대해 위의 단계를 반복합니다.
+
+이제 이메일이 발송되면 개인화된 매개 변수가 URL 끝에 자동으로 추가됩니다. 그런 다음 웹 분석 도구 또는 성능 보고서에서 이 매개 변수를 캡처할 수 있습니다.
 
 ## 구성 세부 정보 보기 {#view-surface-details}
 
