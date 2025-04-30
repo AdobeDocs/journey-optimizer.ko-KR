@@ -7,10 +7,10 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
+source-git-commit: fe10df5e855c627fb4beaf2a56403b5845cb84c4
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 15%
 
 [!DNL Journey Optimizer]을(를) 사용하여 LINE 앱에서 고객에게 LINE 메시지를 보냅니다. LINE 편집기에서 메시지를 만들고, 개인화하고, 미리 볼 수 있습니다.
 
-[!AVAILABILITY]
->>
-Adobe Journey Optimizer 고객은 요청 시 LINE 채널을 사용할 수 있습니다. 조직에 대한 기능을 활성화하려면 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.
+>[!AVAILABILITY]
 >
+>Adobe Journey Optimizer 고객은 요청 시 LINE 채널을 사용할 수 있습니다. 조직에 대한 기능을 활성화하려면 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.
+
 LINE 메시지는 여정 또는 캠페인에서 만들고 보낼 수 있습니다.
 
 * **여정**&#x200B;에서 만들기. 여정을 만들고, LINE 활동을 추가하고, 기본 설정을 정의한 다음 **[!UICONTROL 작업: LINE]** 오른쪽 창으로 이동하여 LINE 메시지의 콘텐츠를 만듭니다. [이 페이지](../building-journeys/journey-gs.md)에서 여정을 만드는 방법을 알아봅니다.
