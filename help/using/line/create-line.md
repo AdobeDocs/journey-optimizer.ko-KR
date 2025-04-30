@@ -6,10 +6,9 @@ description: Journey Optimizer에서 LINE 메시지를 만드는 방법 알아�
 feature: Line
 topic: Content Management
 role: User
-hide: true
-hidefromtoc: true
 level: Beginner
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
+source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 4%
@@ -94,4 +93,3 @@ LINE 콘텐츠를 구성하려면 아래 단계를 수행합니다.
 테스트를 수행하고 콘텐츠의 유효성을 검사하면 대상자에게 LINE 메시지를 보낼 수 있습니다. 이러한 단계는 [이 페이지](send-line.md)에 자세히 설명되어 있습니다
 
 전송되면 캠페인 또는 여정 보고서 내에서 LINE의 영향을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../reports/campaign-global-report-cja.md)을 참조하십시오.
-
