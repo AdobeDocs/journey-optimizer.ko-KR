@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50fb18210bd589f551efdaf161844251b5bef758
+source-git-commit: 2816b5aefaa184949471c6b0d2ee1c6ec6de0ed0
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 52%
+source-wordcount: '872'
+ht-degree: 49%
 
 ---
 
@@ -269,9 +269,9 @@ ht-degree: 52%
 
 **이메일 채널**
 
-<!--* **Personalized URL tracking**
+* **Personalized URL tracking** Availability date: April 30, 2025
 
-  For increased flexibility and control over your email settings, you can now personalize all your URL tracking parameters at once at the email channel configuration level, instead of doing it in the Email designer for each link in your content. -->
+  이제 콘텐츠의 각 링크에 대해 이메일 디자이너에서 수행하는 대신, 이메일 채널 구성 수준에서 모든 URL 추적 매개 변수를 한 번에 개인화하여 유연성을 높이고 이메일 설정을 제어할 수 있습니다. [자세히 보기](../email/surface-personalization.md#personalize-url-tracking)
 
 * **이메일 디자이너** - 가용성 일자: 2025년 4월 1일
 
