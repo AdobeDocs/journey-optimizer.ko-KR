@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2816b5aefaa184949471c6b0d2ee1c6ec6de0ed0
+source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 49%
+source-wordcount: '906'
+ht-degree: 47%
 
 ---
 
@@ -269,7 +269,7 @@ ht-degree: 49%
 
 **이메일 채널**
 
-* **Personalized URL tracking** Availability date: April 30, 2025
+* **개인화된 URL 추적** 사용 가능한 날짜: 2025년 4월 30일
 
   이제 콘텐츠의 각 링크에 대해 이메일 디자이너에서 수행하는 대신, 이메일 채널 구성 수준에서 모든 URL 추적 매개 변수를 한 번에 개인화하여 유연성을 높이고 이메일 설정을 제어할 수 있습니다. [자세히 보기](../email/surface-personalization.md#personalize-url-tracking)
 
@@ -277,7 +277,9 @@ ht-degree: 49%
 
   Journey Optimizer의 접근성을 높이기 위해 이제 이메일 디자이너에서 새 필드 두 가지를 사용할 수 있습니다. 이 두 필드는 이메일 콘텐츠의 `<title>` 요소와, `<html>` 요소의 `lang` 속성에 해당합니다. 이메일 **[!UICONTROL 본문]** 섹션에서 **[!UICONTROL 프리헤더]** 필드에 더해 이 설정을 정의할 수 있습니다. [자세히 보기](../email/email-metadata.md)
 
+**사용 사례 플레이북**
 
+* **플레이북 작성 및 공유(Beta)** - 이제 나만의 사용 사례 플레이북을 만들고, 관리하고, 공유할 수 있습니다. 이 기능은 현재 모든 고객이 공개 베타로 사용할 수 있습니다. [자세히 보기](../start/playbooks.md)
 
 **탐색**
 
