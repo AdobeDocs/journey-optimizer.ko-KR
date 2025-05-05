@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1458'
 ht-degree: 10%
 
 ---
@@ -76,6 +76,12 @@ Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인
 >개인화 편집기에서 개인화된 URL을 편집할 때 보안상의 이유로 도우미 함수와 대상자 멤버십이 비활성화됩니다.
 >
 >URL 내에서 사용되는 개인화 토큰에는 공백이 지원되지 않습니다.
+
++++
+
++++이메일 구성
+
+이메일 채널 구성을 만들 때 하위 도메인, 헤더 및 URL 추적 매개 변수에 대해 개인화된 값을 정의할 수 있습니다. [자세히 알아보기](../email/surface-personalization.md)
 
 +++
 
@@ -187,7 +193,7 @@ Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인
 {{/each}}
 ```
 
-* **잘못된 Handlebars 구문입니다.`‘[XYZ}}’`**&#x200B;을(를) 찾음
+* **잘못된 Handlebars 구문입니다.`'[XYZ}}'`**&#x200B;을(를) 찾음
 
 잘못된 Handlebars 구문이 사용되는 경우.
 

@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1174'
 ht-degree: 6%
 
 ---
 
 # 이메일 구성 설정 개인화 {#surface-personalization}
 
-유연성을 높이고 이메일 설정을 제어할 수 있도록 [!DNL Journey Optimizer]을(를) 사용하면 이메일 구성을 만들 때 하위 도메인 및 헤더에 대해 개인화된 값을 정의<!--and URL tracking parameters-->할 수 있습니다.
+[!DNL Journey Optimizer]을(를) 사용하면 전자 메일 구성을 만들 때 하위 도메인 및 머리글과 URL 추적 매개 변수에 대해 개인화된 값을 정의하여 전자 메일 설정을 보다 유연하게 제어하고 제어할 수 있습니다.
 
 ## 동적 하위 도메인 추가 {#dynamic-subdomains}
 
