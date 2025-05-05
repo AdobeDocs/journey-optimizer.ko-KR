@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="스케줄러 활동"
->abstract="**스케줄러** 캠페인을 사용하면 오케스트레이션된 캠페인을 시작할 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 오케스트레이션된 캠페인의 첫 번째 활동으로만 사용할 수 있습니다."
+>abstract="**스케줄러** 활동을 사용하면 오케스트레이션된 캠페인이 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 오케스트레이션된 캠페인의 첫 번째 활동으로만 사용할 수 있습니다."
 
 캠페인 관리자는 특정 시간에 자동으로 실행되도록 캠페인을 예약할 수 있으므로 마케팅 커뮤니케이션에 대한 정확한 타이밍과 정확한 타겟팅 데이터를 사용할 수 있습니다.
 
@@ -39,7 +39,7 @@ ht-degree: 10%
 * 오케스트레이션된 캠페인에서 일회성 메시지를 보내려면 **Once**&#x200B;를 실행하도록 설정할 수 있습니다.
 * 오케스트레이션된 캠페인에서 반복 메시지를 보내려면 **예약** 옵션을 사용하고 실행 빈도를 설정해야 합니다. 반복 게재 활동에서는 일정을 정의할 수 없습니다.
 
-### 캠페인 일정 구성 {#scheduler-configuration}
+### 캠페인 예약 구성 {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
