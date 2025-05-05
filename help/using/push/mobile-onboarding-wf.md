@@ -34,7 +34,7 @@ ht-degree: 9%
 
 * 간편한 4단계 워크플로우 및 사용자 인터페이스.
 * [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}를 통해 모바일 이벤트 데이터 수집을 시작하는 기본 설정을 몇 분 만에 제공합니다.
-* [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}을(를) 활용하여 기본 모바일 푸시 이벤트를 테스트하고 확인하는 기능.
+* [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=ko){target="_blank"}을(를) 활용하여 기본 모바일 푸시 이벤트를 테스트하고 확인하는 기능.
 * 자동은 필요한 모든 데이터 수집 및 Journey Optimizer 에셋을 자동으로 만들고 구성합니다.
 * 제품 지침 및 툴팁에 있습니다.
 * 필요한 경우 고급 구현을 위한 자연스러운 전환을 제공합니다.

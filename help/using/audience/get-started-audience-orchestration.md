@@ -145,7 +145,7 @@ ht-degree: 51%
 
    ![](assets/audiences-properties.png)
 
-1. 대상&#x200B;&rbrack;**활동과**&#x200B;[!UICONTROL &#x200B;저장&#x200B;]&#x200B;**활동 사이에 필요한 만큼 활동을 추가하여 컴포지션을**&#x200B;[[!UICONTROL &#x200B;구성합니다. 컴포지션을 만드는 방법에 대한 자세한 내용은 대상 컴포지션 설명서를]](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition) 참조하십시오&lbrack;.
+1. 대상&#x200B;&rbrack;**활동과**&#x200B;[!UICONTROL &#x200B;저장&#x200B;]&#x200B;**활동 사이에 필요한 만큼 활동을 추가하여 컴포지션을**&#x200B;[[!UICONTROL &#x200B;구성합니다. 컴포지션을 만드는 방법에 대한 자세한 내용은 대상 컴포지션 설명서를]](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-composition) 참조하십시오&lbrack;.
 
    ![](assets/audiences-publish.png)
 
@@ -178,4 +178,4 @@ ht-degree: 51%
 
 >[!NOTE]
 >
->대상 구성은 현재 샌드박스 재설정 기능과 통합되지 않았습니다. 샌드박스 재설정을 시작하기 전에 컴포지션을 수동으로 삭제하여 연결된 대상자 데이터가 제대로 정리되도록 해야 합니다. 자세한 내용은 Adobe Experience Platform [샌드박스 설명서에서 확인할 수 있습니다.](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
+>대상 구성은 현재 샌드박스 재설정 기능과 통합되지 않았습니다. 샌드박스 재설정을 시작하기 전에 컴포지션을 수동으로 삭제하여 연결된 대상자 데이터가 제대로 정리되도록 해야 합니다. 자세한 내용은 Adobe Experience Platform [샌드박스 설명서에서 확인할 수 있습니다.](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko#delete-audience-compositions)

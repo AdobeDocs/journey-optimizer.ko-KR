@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ### 작동 방법 - 웹 SDK {#client-side-how}
 
-1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}이(가) 페이지에 포함되어 있습니다.
+1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"}이(가) 페이지에 포함되어 있습니다.
 
 1. 개인화 콘텐츠를 가져오려면 `sendEvent` 명령을 사용하고 [표면 URI](code-based-surface.md)<!--( or location/path)-->를 지정해야 합니다.
 
@@ -145,7 +145,7 @@ ht-degree: 2%
 ### 작동 방식
 
 1. 웹 페이지가 요청되고 브라우저에서 이전에 저장한 쿠키(`kndctr_` 접두사)가 포함됩니다.
-1. 앱 서버에서 페이지를 요청하면 [대화형 데이터 수집 끝점](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html)으로 이벤트를 전송하여 개인화 콘텐츠를 가져옵니다. 이 샘플 앱은 몇 가지 도우미 메서드를 사용하여 API에 대한 요청 빌드 및 전송을 단순화합니다([aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"} 참조). 하지만 이 요청은 이벤트 및 쿼리가 포함된 페이로드가 있는 `POST`입니다. 이전 단계의 쿠키(사용 가능한 경우)는 `meta>state>entries` 배열의 요청에 포함됩니다.
+1. 앱 서버에서 페이지를 요청하면 [대화형 데이터 수집 끝점](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko)으로 이벤트를 전송하여 개인화 콘텐츠를 가져옵니다. 이 샘플 앱은 몇 가지 도우미 메서드를 사용하여 API에 대한 요청 빌드 및 전송을 단순화합니다([aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"} 참조). 하지만 이 요청은 이벤트 및 쿼리가 포함된 페이로드가 있는 `POST`입니다. 이전 단계의 쿠키(사용 가능한 경우)는 `meta>state>entries` 배열의 요청에 포함됩니다.
 
    ```javascript
    fetch(
@@ -306,4 +306,4 @@ ht-degree: 2%
 하이브리드 구현이 있는 경우 아래 링크를 확인하십시오.
 
 * Adobe 기술 블로그: [Adobe Experience Platform Web SDK의 하이브리드 Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK 설명서: [Web SDK 및 Edge Network 서버 API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* SDK 설명서: [Web SDK 및 Edge Network 서버 API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ko){target="_blank"}

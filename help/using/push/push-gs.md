@@ -56,7 +56,7 @@ ht-degree: 1%
 
 * Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공하는 **Adobe Experience Platform Mobile SDK**. SDK는 푸시 메시지에 대한 다양한 API를 노출하고 푸시 토큰을 등록하거나 푸시 추적 이벤트 또는 기타 사용자 지정 경험 이벤트를 Adobe Experience Platform에 전송하는 것과 같은 데이터 흐름을 사용하는 [!DNL Adobe Journey Optimizer] 확장을 제공합니다. SDK는 타사 파트너 기능뿐만 아니라 다른 Adobe Experience Cloud을 사용할 수 있도록 하는 기타 다양한 확장도 제공합니다.
 
-  SDK 통합에는 다음과 같은 Adobe Experience Platform [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"} 서비스 설정도 필요합니다.
+  SDK 통합에는 다음과 같은 Adobe Experience Platform [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko){target="_blank"} 서비스 설정도 필요합니다.
 
    * 데이터 스트림을 만들어 Adobe Experience Platform으로 유입되는 데이터가 포함된 프로필 및 경험 이벤트 데이터 세트를 구성합니다.
    * 클라이언트측 모바일 속성을 만들고 확장을 추가합니다. SDK는 이러한 확장과 긴밀하게 통합되어 원활한 데이터 수집 경험을 제공합니다.

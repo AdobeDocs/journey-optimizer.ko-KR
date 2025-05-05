@@ -27,7 +27,7 @@ Decisioning을 사용하면 Adobe Experience Platform에서 사용할 수 있는
 
 Adobe Experience Platform 데이터를 사용하여 Decisioning에 데이터를 제공하는 단계는 다음과 같습니다.
 
-1. Adobe Experience Platform 및 관련 **데이터 세트**&#x200B;에서 **경험 이벤트 스키마**&#x200B;를 만듭니다. [스키마를 만드는 방법 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Adobe Experience Platform 및 관련 **데이터 세트**&#x200B;에서 **경험 이벤트 스키마**&#x200B;를 만듭니다. [스키마를 만드는 방법 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. 새 Adobe Experience Platform 데이터스트림 만들기:
 
@@ -45,6 +45,6 @@ Adobe Experience Platform 데이터를 사용하여 Decisioning에 데이터를 
 
 Adobe Experience Platform을 사용하여 작업하는 방법에 대한 추가 지침을 보려면 다음 리소스를 살펴보십시오.
 
-* [XDM(경험 데이터 모델) 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [데이터스트림](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
+* [XDM(경험 데이터 모델) 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [데이터스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview){target="_blank"}

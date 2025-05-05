@@ -42,7 +42,7 @@ ht-degree: 17%
 
 1. 왼쪽 창에서 중앙 작업 영역으로 원하는 필드를 드래그하여 놓은 다음 필요에 따라 구성합니다.
 
-   세그먼트 정의의 기본 구성 요소는 **특성** 및 **이벤트**&#x200B;입니다. 또한 기존 대상자에 포함된 속성 및 이벤트를 새 정의의 구성 요소로 사용할 수 있습니다. [세분화 서비스 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
+   세그먼트 정의의 기본 구성 요소는 **특성** 및 **이벤트**&#x200B;입니다. 또한 기존 대상자에 포함된 속성 및 이벤트를 새 정의의 구성 요소로 사용할 수 있습니다. [세분화 서비스 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 
 대상에 대한 프로필 목록은 새 데이터가 시스템으로 유입될 때 실시간으로 최신 상태로 유지됩니다.
 
-스트리밍 세분화는 사용자 활동에 대응하여 대상자를 업데이트하는 진행형 데이터 선택 프로세스입니다. 세그먼트 정의를 작성하고 결과 대상자를 저장한 다음부터는 Journey Optimizer로 들어오는 데이터에 세그먼트 정의가 적용됩니다. 즉, 프로필 데이터가 변경될 때 개인이 대상에서 추가되거나 제거되어 대상 대상이 항상 관련성이 있게 됩니다. [Adobe Expe에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
+스트리밍 세분화는 사용자 활동에 대응하여 대상자를 업데이트하는 진행형 데이터 선택 프로세스입니다. 세그먼트 정의를 작성하고 결과 대상자를 저장한 다음부터는 Journey Optimizer로 들어오는 데이터에 세그먼트 정의가 적용됩니다. 즉, 프로필 데이터가 변경될 때 개인이 대상에서 추가되거나 제거되어 대상 대상이 항상 관련성이 있게 됩니다. [Adobe Expe에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ko){target="_blank"}
 
 >[!IMPORTANT]
 >
@@ -96,17 +96,17 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 
 일괄 처리 세분화는 스트리밍 세분화 대신 사용할 수 있는 방법으로, 세그먼트 정의를 통해 모든 프로필 데이터를 한꺼번에 처리합니다. 이를 통해 대상자의 스냅샷을 만드는데, 이를 저장하거나 내보내서 사용할 수 있습니다. 하지만 스트리밍 세분화와 달리 배치 세분화는 실시간으로 대상 목록을 지속적으로 업데이트하지 않으며, 배치 프로세스 후에 들어오는 새 데이터는 다음 배치 프로세스가 진행될 때까지 대상에 반영되지 않습니다. 즉각적인 업데이트를 시도해도 일일 사이클이 재정의되지 않습니다. 즉각적인 증분 업데이트의 경우 스트리밍 또는 온디맨드 세분화 옵션을 사용하는 것이 좋습니다.
 
-자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}를 참조하세요.
+자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko#batch){target="_blank"}를 참조하세요.
 
 +++
 
 +++ 에지 세분화
 
-Edge 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 [edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}에서 평가하는 기능으로, 동일한 페이지 및 다음 페이지 개인화 사용 사례를 가능하게 합니다. 현재 선택한 쿼리 유형만 가장자리 세분화를 통해 평가할 수 있습니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}를 참조하세요.
+Edge 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 [edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"}에서 평가하는 기능으로, 동일한 페이지 및 다음 페이지 개인화 사용 사례를 가능하게 합니다. 현재 선택한 쿼리 유형만 가장자리 세분화를 통해 평가할 수 있습니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=ko#query-types){target="_blank"}를 참조하세요.
 
 +++
 
-사용할 평가 방법을 알고 있는 경우 드롭다운 목록을 사용하여 선택합니다. 돋보기로 찾아보기 아이콘 폴더 아이콘을 클릭하여 사용 가능한 세그먼트 정의 평가 방법 목록을 볼 수도 있습니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}를 참조하세요.
+사용할 평가 방법을 알고 있는 경우 드롭다운 목록을 사용하여 선택합니다. 돋보기로 찾아보기 아이콘 폴더 아이콘을 클릭하여 사용 가능한 세그먼트 정의 평가 방법 목록을 볼 수도 있습니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko#segment-properties){target="_blank"}를 참조하세요.
 
 ![](assets/evaluation-methods.png)
 
@@ -130,7 +130,7 @@ Adobe Experience Platform 대상 포털을 사용하면 선택한 대상에 대�
 1. 실시간으로 대상자를 평가하여 정확성을 보장합니다. 특정 기준(예: 사람 기반, 세그먼테이션 서비스 원본)을 충족하는 경우, 평가하려는 대상을 선택하고 &quot;대상 평가&quot;를 선택합니다.
 1. 정확한 타겟팅을 위해 Adobe Journey Optimizer 캠페인 또는 여정에서 평가된 대상자를 사용합니다.
 
-한 번에 최대 20개의 대상을 평가할 수 있으며 부적격 대상은 자동으로 제외됩니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)를 참조하세요.
+한 번에 최대 20개의 대상을 평가할 수 있으며 부적격 대상은 자동으로 제외됩니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)를 참조하세요.
 
 ## 사용 방법 비디오{#video-segment}
 

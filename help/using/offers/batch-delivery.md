@@ -28,7 +28,7 @@ API를 사용하여 일괄 게재를 수행할 수도 있습니다. 자세한 �
 
 * Adobe Experience Platform의 **데이터 세트**. 이 데이터 세트는 &quot;ODE DecisionEvents&quot; 스키마를 사용하여 결정 결과를 저장하는 데 사용됩니다. 자세한 내용은 [데이터 세트 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko)를 참조하세요.
 
-* Adobe Experience Platform의 **대상자** 대상자를 평가한 다음 업데이트해야 합니다. [세분화 서비스 설명서](https://www.adobe.com/go/segmentation-overview-en)에서 대상 멤버십 평가를 업데이트하는 방법을 알아보세요
+* Adobe Experience Platform의 **대상자** 대상자를 평가한 다음 업데이트해야 합니다. [세분화 서비스 설명서](https://www.adobe.com/go/segmentation-overview-en_kr)에서 대상 멤버십 평가를 업데이트하는 방법을 알아보세요
 
   >[!NOTE]
   >

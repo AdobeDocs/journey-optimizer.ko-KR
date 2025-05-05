@@ -143,7 +143,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-의 [!DNL Adobe Experience Platform] 모든 고객에게는 샌드박스당 하나의 Data Landing Zone 컨테이너가 프로비저닝됩니다. Adobe Experience Platform 설명서[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 존에 대해 자세히 알아보십시오.
+의 [!DNL Adobe Experience Platform] 모든 고객에게는 샌드박스당 하나의 Data Landing Zone 컨테이너가 프로비저닝됩니다. Adobe Experience Platform 설명서[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 존에 대해 자세히 알아보십시오.
 
 >[!ENDTABS]
 

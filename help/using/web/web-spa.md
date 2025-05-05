@@ -35,7 +35,7 @@ Adobe Experience Platform Web SDK 구현에서 보기를 정의하려면 일회�
 
 [!DNL Journey Optimizer] Adobe에서 XDM 보기를 활용하여 마케터가 웹 비주얼 편집기를 통해 SPA에서 웹 개인화 및 실험 캠페인을 실행할 수 있도록 할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko){target="_blank"}
 
-[!DNL Journey Optimizer] 사용자 인터페이스에서 보기에 액세스하고 보기를 작성하려면 [이 섹션](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}에 나열된 단계를 따라야 합니다.
+[!DNL Journey Optimizer] 사용자 인터페이스에서 보기에 액세스하고 보기를 작성하려면 [이 섹션](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko#implement-xdm-views){target="_blank"}에 나열된 단계를 따라야 합니다.
 
 ## 웹 디자이너에서 보기 살펴보기 {#discover-views}
 

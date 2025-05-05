@@ -67,11 +67,11 @@ ht-degree: 31%
 
    * **[!UICONTROL 콘텐츠 포함]** / **[!UICONTROL 메타데이터 포함]**: 오퍼의 콘텐츠 및 메타데이터를 API 응답에서 반환할지 여부를 지정합니다. 모든 메타데이터 또는 특정 필드만 포함할 수 있습니다. 기본적으로 메타데이터 포함 값은 true로 설정됩니다.
 
-   이러한 매개 변수는 [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html)을(를) 사용하여 작업하는 경우 API 요청에 직접 설정할 수도 있습니다. 그러나 사용자 인터페이스에서 이를 구성하면 각 API 요청에서 전달할 필요가 없으므로 시간을 절약할 수 있습니다. 사용자 인터페이스와 API 요청 모두에서 매개 변수를 구성하는 경우 API 요청의 값이 인터페이스의 값보다 우선합니다.
+   이러한 매개 변수는 [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=ko)을(를) 사용하여 작업하는 경우 API 요청에 직접 설정할 수도 있습니다. 그러나 사용자 인터페이스에서 이를 구성하면 각 API 요청에서 전달할 필요가 없으므로 시간을 절약할 수 있습니다. 사용자 인터페이스와 API 요청 모두에서 매개 변수를 구성하는 경우 API 요청의 값이 인터페이스의 값보다 우선합니다.
 
    >[!NOTE]
    >
-   >[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?)로 작업하는 경우 이러한 매개 변수를 요청에 설정할 수 없습니다. 이 화면에서 정의해야 합니다.
+   >[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=ko&)로 작업하는 경우 이러한 매개 변수를 요청에 설정할 수 없습니다. 이 화면에서 정의해야 합니다.
    >
    >[Batch Decisioning API](../api-reference/offer-delivery-api/batch-decisioning-api.md)로 작업하는 경우 이 화면 또는 API 요청에서 이러한 매개 변수를 설정할 수 있습니다. 화면과 APi 요청 사이에 매개 변수 값이 일치하지 않으면 요청 값이 사용됩니다.
 

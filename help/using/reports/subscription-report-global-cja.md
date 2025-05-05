@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ![](assets/cja-sub-access.png)
 
-Customer Journey Analytics 작업 영역 및 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+Customer Journey Analytics 작업 영역 및 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
 
 ## 구독 목록 추가
 

@@ -20,7 +20,7 @@ ht-degree: 2%
 
 이제 Adobe Experience Manager을 Adobe Journey Optimizer과 통합하여 AEM 콘텐츠 조각을 Journey Optimizer 이메일 콘텐츠에 원활하게 통합할 수 있습니다. 이렇게 간소화된 연결을 통해 AEM 콘텐츠에 액세스하고 활용하는 프로세스를 간소화하여 개인화되고 동적인 캠페인 및 여정을 만들 수 있습니다.
 
-AEM 콘텐츠 조각에 대한 자세한 내용은 [Experience Manager 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments)를 참조하세요.
+AEM 콘텐츠 조각에 대한 자세한 내용은 [Experience Manager 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments)를 참조하세요.
 
 ## 제한 사항 {#limitations}
 
@@ -53,7 +53,7 @@ AEM 콘텐츠 조각에 대한 자세한 내용은 [Experience Manager 설명서
 
 ## AEM 컨텐츠 조각 추가 {#aem-add}
 
-이제 [AEM 콘텐츠 조각](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments)을 만들고 개인화한 후 여정 최적화 도구 캠페인이나 여정으로 가져올 수 있습니다.
+이제 [AEM 콘텐츠 조각](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments)을 만들고 개인화한 후 여정 최적화 도구 캠페인이나 여정으로 가져올 수 있습니다.
 
 1. 이메일 작업으로 [여정](../email/create-email.md) 또는 [캠페인](../email/create-email.md)을 만든 후 이메일 디자이너에 액세스하여 이메일 콘텐츠를 구성하십시오. [자세히 알아보기](../email/get-started-email-design.md)
 

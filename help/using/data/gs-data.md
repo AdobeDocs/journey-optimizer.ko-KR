@@ -72,7 +72,7 @@ ht-degree: 100%
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
-  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
+  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=ko){target="_blank"}.
 -->
 
 * **제거 및 보관 메커니즘**: [!DNL Adobe Journey Optimizer]에서 데이터 삭제 및 보관 작업을 자유롭게 정의하고 자동화하여 데이터 보존 정책을 자동화할 수 있습니다. 다양한 데이터 엔터티에 대해 서로 다른 에이징 전략을 정의할 수 있습니다. 내보내기 메커니즘을 정의하여 오래된 데이터를 삭제하거나 보관 처리하기 전에 자동으로 내보낼 수도 있습니다.

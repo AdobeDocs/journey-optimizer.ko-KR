@@ -22,7 +22,7 @@ ht-degree: 13%
 
 [!DNL Adobe Stock] 및 [!DNL Adobe Journey Optimizer] 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선싱, 저장할 수 있습니다.
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"}에서는 고품질로 큐레이팅된 로열티가 없는 수백만 장의 사진, 비디오, 일러스트레이션 및 벡터 그래픽에 액세스할 수 있습니다. 자산의 라이센스를 부여할 신용 팩을 구매하거나 필요한 자산에 대해 하나의 표준 또는 확장 라이센스만 구매하도록 선택할 수 있습니다. Adobe Stock은 또한 에셋의 무료 컬렉션을 제공합니다.
+[Adobe Stock](https://helpx.adobe.com/kr/stock/get-started.html){target="_blank"}에서는 고품질로 큐레이팅된 로열티가 없는 수백만 장의 사진, 비디오, 일러스트레이션 및 벡터 그래픽에 액세스할 수 있습니다. 자산의 라이센스를 부여할 신용 팩을 구매하거나 필요한 자산에 대해 하나의 표준 또는 확장 라이센스만 구매하도록 선택할 수 있습니다. Adobe Stock은 또한 에셋의 무료 컬렉션을 제공합니다.
 
 [!DNL Adobe Journey Optimizer]의 **[!UICONTROL Adobe Stock 사진 찾기]** 옵션을 사용하면 [!DNL Adobe Stock]에서 이메일로 이미지를 바로 업로드하고 **[!UICONTROL Assets]** 폴더에 추가할 수 있습니다. 또한 **[!UICONTROL 유사한 Stock 사진 찾기]** 옵션은 게재에 사용하는 자산과 콘텐츠, 색상, 컴포지션이 비슷한 이미지를 찾는 데 도움이 됩니다.
 
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 AEM Assets Essentials 제품 프로필에 액세스하는 사용자는 **[!UICONTROL Adobe Stock 사진 찾기]** 및 **[!UICONTROL 유사한 이미지 찾기]** 옵션을 사용할 수 있습니다.
 
-자세한 내용은 [Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}를 참조하세요.
+자세한 내용은 [Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ko#add-users-to-essentials){target="_blank"}를 참조하세요.
 
 ## [!DNL Adobe Stock]의 이미지 삽입 {#add-stock-image}
 
@@ -102,5 +102,5 @@ AEM Assets Essentials 제품 프로필에 액세스하는 사용자는 **[!UICON
 
 * [Journey Optimizer의 이메일 디자인](../email/get-started-email-design.md)
 * [이메일 디자인을 위한 구성 요소 설정](../email/content-components.md)
-* [Adobe Stock 시작](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
+* [Adobe Stock 시작](https://helpx.adobe.com/kr/stock/get-started.html){target="_blank"}.
 

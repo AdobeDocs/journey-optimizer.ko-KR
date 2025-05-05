@@ -61,4 +61,4 @@ ht-degree: 69%
 
 AI 지원 또는 수동 입력을 사용하여 메타데이터를 정의하고 스키마, 세그먼트와 같은 기술 자산을 연결하며 다양한 IMS 조직 간에 플레이북을 공유할 수 있습니다.
 
-플레이북을 만들고 공유하는 방법에 대한 자세한 내용은 사용 사례 플레이북 설명서를 참조하세요. [AI Assistant를 사용하여 플레이북을 만들고 공유](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}.
+플레이북을 만들고 공유하는 방법에 대한 자세한 내용은 사용 사례 플레이북 설명서를 참조하세요. [AI Assistant를 사용하여 플레이북을 만들고 공유](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=ko#sharing-playbooks-sandboxes){target="_blank"}.

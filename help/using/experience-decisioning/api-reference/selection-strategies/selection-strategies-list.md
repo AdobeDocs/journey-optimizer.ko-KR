@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 목록 선택 전략 {#list-selection-strategies}
 
-선택 전략은 자격 제한 사항과 관련된 컬렉션과 [의사 결정 정책](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision)에서 선택할 때 표시할 오퍼를 결정하는 순위 메서드로 구성됩니다.
+선택 전략은 자격 제한 사항과 관련된 컬렉션과 [의사 결정 정책](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision)에서 선택할 때 표시할 오퍼를 결정하는 순위 메서드로 구성됩니다.
 
 오퍼 라이브러리 API에 대한 단일 GET 요청을 수행하여 모든 선택 전략 목록을 볼 수 있습니다.
 

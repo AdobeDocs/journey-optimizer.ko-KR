@@ -33,7 +33,7 @@ ht-degree: 11%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="도메인 그룹 제외"
 >abstract="현재 단계에서 제외하려는 도메인을 선택합니다. 도메인 제외에는 미실행 단계가 필요하므로 제외를 추가하려면 실행 단계를 분할해야 할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="단계 분할"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=ko#split-phase" text="단계 분할"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -162,7 +162,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 선택적으로 [대상 평가](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}가 지연되는 경우 IP 준비 캠페인을 실행할 수 있는 기간을 정의할 수 있습니다. 이렇게 하려면 플랜 이름 옆에 있는 왼쪽 상단의 속성 아이콘을 클릭하고 **[!UICONTROL 실행 시간 다시 시도]** 드롭다운 목록을 사용하여 최대 240분(4시간)의 기간을 선택합니다.
+1. 선택적으로 [대상 평가](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko#how-segmentation-works){target="_blank"}가 지연되는 경우 IP 준비 캠페인을 실행할 수 있는 기간을 정의할 수 있습니다. 이렇게 하려면 플랜 이름 옆에 있는 왼쪽 상단의 속성 아이콘을 클릭하고 **[!UICONTROL 실행 시간 다시 시도]** 드롭다운 목록을 사용하여 최대 240분(4시간)의 기간을 선택합니다.
 
    >[!NOTE]
    >
@@ -220,7 +220,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 여러 IP 준비 계획을 동시에 실행할 때 모두 동일한 IP 풀 및 도메인을 대상으로 하므로 잠재적 결과를 예상하는 것이 중요합니다. 예를 들어 ISP에서 하루에 100개의 이메일 제한을 적용하는 경우 동일한 도메인을 대상으로 여러 플랜을 실행하면 이 임계값을 초과할 수 있습니다.
 
-[대상 평가](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}를 실행할 수 있도록 충분한 시간을 예약했는지 확인하십시오.
+[대상 평가](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko#how-segmentation-works){target="_blank"}를 실행할 수 있도록 충분한 시간을 예약했는지 확인하십시오.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -232,7 +232,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 단계의 첫 번째 실행을 활성화하는 경우:
 
-   * 다음 명명 규칙을 사용하여 제외된 캠페인 대상에 대해 [대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"}이(가) 만들어집니다. `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
+   * 다음 명명 규칙을 사용하여 제외된 캠페인 대상에 대해 [대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko){target="_blank"}이(가) 만들어집니다. `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
 
    * 제외된 도메인 그룹(있는 경우)에 대해 다음 명명 규칙을 사용하여 대상을 만듭니다. `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 

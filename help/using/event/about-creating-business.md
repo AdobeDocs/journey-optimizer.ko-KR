@@ -31,7 +31,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->비즈니스 이벤트 사용 사례 [자습서](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html)를 볼 수도 있습니다. 프로필에 대해 스키마를 활성화할 필요가 없습니다.
+>비즈니스 이벤트 사용 사례 [자습서](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=ko)를 볼 수도 있습니다. 프로필에 대해 스키마를 활성화할 필요가 없습니다.
 
 ## 중요 정보 {#important-notes}
 

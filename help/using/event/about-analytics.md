@@ -61,7 +61,7 @@ Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 가져온 데이�
 
 ![](assets/ajo-aa_4.png)
 
-[Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} 및 [자습서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}에서 Adobe Experience Platform 소스 커넥터에 대해 자세히 알아보세요.
+[Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko){target="_blank"} 및 [자습서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko){target="_blank"}에서 Adobe Experience Platform 소스 커넥터에 대해 자세히 알아보세요.
 
 ## 이 구성 활성화 {#activate-analytics-data}
 

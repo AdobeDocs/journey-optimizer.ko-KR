@@ -156,7 +156,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >환경을 미리 보는 동안 문제가 발생하는 경우 [이 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)를 참조하세요.
+   >환경을 미리 보는 동안 문제가 발생하는 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)를 참조하세요.
 
 ### 기타 플랫폼 {#other}
 

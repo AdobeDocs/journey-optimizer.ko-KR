@@ -34,7 +34,7 @@ ht-degree: 23%
 
 수신자가 옵트아웃 링크를 클릭하면 그에 따라 구독 취소 요청이 처리됩니다.
 
-해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). **[!UICONTROL 특성]** 탭에서 **[!UICONTROL 선택]**&#x200B;의 값이 **[!UICONTROL 아니요]**(으)로 변경되었음을 확인할 수 있습니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}를 참조하세요.
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#attributes-tab). **[!UICONTROL 특성]** 탭에서 **[!UICONTROL 선택]**&#x200B;의 값이 **[!UICONTROL 아니요]**(으)로 변경되었음을 확인할 수 있습니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}를 참조하세요.
 
 ![](assets/opt-out-profile-choice.png)
 

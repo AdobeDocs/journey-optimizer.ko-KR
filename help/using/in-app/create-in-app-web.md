@@ -20,9 +20,9 @@ ht-degree: 7%
 
 웹 인앱 채널을 설정하려면 아래 단계를 따르십시오.
 
-* 웹 인앱 메시지를 지원하려면 웹 SDK 태그 확장 프로그램을 설치합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
+* 웹 인앱 메시지를 지원하려면 웹 SDK 태그 확장 프로그램을 설치합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ko)
 
-* 트리거를 사용자 지정합니다. 웹 인앱 메시지는 플랫폼으로 데이터를 전송하는 트리거와 수동 트리거의 두 가지 유형을 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
+* 트리거를 사용자 지정합니다. 웹 인앱 메시지는 플랫폼으로 데이터를 전송하는 트리거와 수동 트리거의 두 가지 유형을 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=ko)
 
 * 웹 인앱 구성을 만듭니다. [자세히 알아보기](inapp-configuration.md)
 

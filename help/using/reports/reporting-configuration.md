@@ -40,7 +40,7 @@ ht-degree: 29%
 
 ## 전제 조건
 
-보고 구성에 데이터 세트를 추가하려면 먼저 해당 데이터 세트를 만들어야 합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}에서 방법을 알아보세요.
+보고 구성에 데이터 세트를 추가하려면 먼저 해당 데이터 세트를 만들어야 합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#create){target="_blank"}에서 방법을 알아보세요.
 
 * 이벤트 유형 데이터 세트만 추가할 수 있습니다.
 

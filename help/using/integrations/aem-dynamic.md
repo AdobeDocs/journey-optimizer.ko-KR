@@ -25,7 +25,7 @@ ht-degree: 4%
 
 이 통합은 Dynamic Media Manager as a Cloud Service을 사용하는 고객에게만 제공됩니다.
 
-Adobe Experience Manager as a Cloud Service의 Dynamic Media에 대한 자세한 내용은 [Experience Manager 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}를 참조하세요.
+Adobe Experience Manager as a Cloud Service의 Dynamic Media에 대한 자세한 내용은 [Experience Manager 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}를 참조하세요.
 
 ## Dynamic Media 추가 및 관리 {#dynamic-media}
 
@@ -47,7 +47,7 @@ Adobe Experience Manager as a Cloud Service의 Dynamic Media를 Journey Optimize
 
 1. 에셋 요구 사항에 맞게 필요에 따라 이미지 매개 변수(예: 높이, 너비, 회전, 뒤집기, 밝기, 색조 등)를 조정합니다.
 
-   URL에 추가할 수 있는 이미지 매개 변수의 전체 목록을 보려면 [Experience Manager 설명서](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference)를 참조하세요.
+   URL에 추가할 수 있는 이미지 매개 변수의 전체 목록을 보려면 [Experience Manager 설명서](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference)를 참조하세요.
 
    ![](assets/dynamic-media-3.png)
 
@@ -100,7 +100,7 @@ Adobe Experience Manager as a Cloud Service의 Dynamic Media를 Journey Optimize
 
 Journey Optimizer에서 Dynamic Media 템플릿을 쉽게 추가하고 필요할 때마다 미디어 콘텐츠를 업데이트합니다. 이제 개인화 필드를 미디어에 통합하여 Journey Optimizer 내에서 보다 맞춤화되고 매력적인 콘텐츠를 만들 수 있습니다.
 
-[다이내믹 미디어 템플릿](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)에 대해 자세히 알아보세요.
+[다이내믹 미디어 템플릿](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)에 대해 자세히 알아보세요.
 
 ### 이미지 구성 요소 사용 {#image-component}
 
@@ -120,7 +120,7 @@ Journey Optimizer에서 Dynamic Media 템플릿을 쉽게 추가하고 필요할
 
 1. **이미지 설정**&#x200B;에서 Dynamic Media 템플릿의 매개 변수에 액세스하도록 이동합니다.
 
-   사용 가능한 필드는 Adobe Experience Manager에서 [템플릿 만들기](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) 중에 추가된 매개 변수에 따라 다릅니다.
+   사용 가능한 필드는 Adobe Experience Manager에서 [템플릿 만들기](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) 중에 추가된 매개 변수에 따라 다릅니다.
 
    ![](assets/dynamic-media-template-3.png)
 

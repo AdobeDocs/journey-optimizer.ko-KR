@@ -63,7 +63,7 @@ ht-degree: 13%
 
 기본적으로 개인화된 최적화 모델은 **오퍼 클릭 수**&#x200B;를 최적화 지표로 사용합니다. [!DNL Customer Journey Analytics]을(를) 사용하여 작업하는 경우 [!DNL Decisioning]을(를) 사용하면 사용자 지정 지표를 활용하여 모델을 최적화할 수 있습니다.
 
-이렇게 하려면 개인화된 AI 모델 만들기 화면에 액세스하고 **[!UICONTROL 전환 이벤트]** 드롭다운을 확장합니다. 기본 [!DNL Customer Journey Analytics] [데이터 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}의 모든 지표가 목록에 표시됩니다. 모델을 최적화할 지표를 선택한 다음 평소대로 AI 모델 생성을 완료합니다.
+이렇게 하려면 개인화된 AI 모델 만들기 화면에 액세스하고 **[!UICONTROL 전환 이벤트]** 드롭다운을 확장합니다. 기본 [!DNL Customer Journey Analytics] [데이터 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}의 모든 지표가 목록에 표시됩니다. 모델을 최적화할 지표를 선택한 다음 평소대로 AI 모델 생성을 완료합니다.
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -73,7 +73,7 @@ ht-degree: 13%
 >
 >속성 모델을 수정할 수 있지만 모든 속성 모델이 AI 모델 최적화에 이상적이지는 않습니다. 모델의 정확도와 성능을 보장하기 위해 최적화 목표에 맞는 속성 모델을 신중하게 선택하는 것이 좋습니다.
 >
->사용 가능한 속성 모델 및 사용 지침에 대한 자세한 내용은 [[!DNL Customer Journey Analytics] 설명서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}를 참조하세요.
+>사용 가능한 속성 모델 및 사용 지침에 대한 자세한 내용은 [[!DNL Customer Journey Analytics] 설명서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}를 참조하세요.
 
 +++
 

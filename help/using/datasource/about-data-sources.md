@@ -49,7 +49,7 @@ ht-degree: 52%
 >
 >데이터 소스에 대해서는 스키마 관계가 지원되지 않습니다.
 
-Adobe Experience Platform Data Source 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법에 대한 자세한 내용을 보려면 이 [자습서 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}를 시청하십시오.
+Adobe Experience Platform Data Source 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법에 대한 자세한 내용을 보려면 이 [자습서 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=ko){target="_blank"}를 시청하십시오.
 
 ## 사용 방법 비디오 {#video}
 

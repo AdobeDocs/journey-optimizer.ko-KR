@@ -82,7 +82,7 @@ Adobe Campaign Standard과 통합하여 여정에서 메시지를 보내도록 �
 
 Adobe Workfront의 Adobe Journey Optimizer 모듈을 사용하여 레코드를 생성하고 읽거나 업데이트 또는 삭제하거나 Adobe Journey Optimizer API에 대한 사용자 정의 API 호출을 수행할 수 있습니다.
 
-이 통합의 주요 단계에 대한 개요를 이 블로그 게시물에서 [사용할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+이 통합의 주요 단계에 대한 개요를 이 블로그 게시물에서 [사용할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=ko){target="_blank"}.
 
 Journey Optimizer + Adobe Workfront에 대해 자세히 알아보기 [Adobe Workfront 설명서](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=ko){target="_blank"}.
 

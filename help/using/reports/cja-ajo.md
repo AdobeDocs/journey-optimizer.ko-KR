@@ -25,7 +25,7 @@ ht-degree: 6%
 
 [!DNL Journey Optimizer]에서 여정을 만든 후 고객 데이터를 [!DNL Customer Journey Analytics] (으)로 가져와서 보고를 시작하고 고객이 여정과 갖는 모든 상호 작용의 영향을 이해할 수 있습니다.
 
-➡️0&rbrace;검색 Customer Journey Analytics[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
+➡️0&rbrace;검색 Customer Journey Analytics[&#128279;](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
 
 >[!NOTE]
 >
@@ -35,16 +35,16 @@ ht-degree: 6%
 
 여정에 [!DNL Customer Journey Analytics]을(를) 사용하기 전에 먼저 이 통합을 구성해야 합니다.
 
-1. Adobe Experience Platform으로 보낼 **[!UICONTROL 데이터 세트]**&#x200B;를 사용하여 [연결을 만듭니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html).[!DNL Customer Journey Analytics]
+1. Adobe Experience Platform으로 보낼 **[!UICONTROL 데이터 세트]**&#x200B;를 사용하여 [연결을 만듭니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko).[!DNL Customer Journey Analytics]
 
    다음 [!DNL Journey Optimizer]을(를) 구성할 수 있습니다.
    * [여정 단계 이벤트](../data/datasets-query-examples.md#journey-step-event): 여정에 입장한 사람과 입장한 거리를 볼 수 있습니다.
    * [메시지 피드백/추적 데이터 세트](../data/datasets-query-examples.md#message-feedback-event-dataset): [!DNL Journey Optimizer]을(를) 통해 보낸 메시지에 대한 게재 정보를 볼 수 있습니다.
    * [엔터티 및 여정 데이터 세트](../data/datasets-query-examples.md#entity-dataset): 알기 쉬운 이름을 검색하고 보고에 사용할 수 있습니다.
 
-1. 보고서에 사용할 차원 및 지표를 구성하려면 [데이터 보기를 만듭니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html).
+1. 보고서에 사용할 차원 및 지표를 구성하려면 [데이터 보기를 만듭니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko).
 
-   Journey Optimizer 관련 지표를 만들어 여정 데이터를 더 잘 반영할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
+   Journey Optimizer 관련 지표를 만들어 여정 데이터를 더 잘 반영할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=ko#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
 
 [!DNL Journey Optimizer]을(를) [!DNL Customer Journey Analytics]과(와) 함께 사용하면 다음 원인으로 인해 데이터 보고에 불일치가 발생할 수 있습니다.
 

@@ -72,7 +72,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
-> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}을(를) 사용하여 작업하려면 조직에 대해 [!DNL Assets Essentials]을(를) 배포하고 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 속하는지 확인해야 합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}에 대해 자세히 알아보세요.
+> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}을(를) 사용하여 작업하려면 조직에 대해 [!DNL Assets Essentials]을(를) 배포하고 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 속하는지 확인해야 합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL 자산 라이브러리]** 옵션을 선택하십시오.
 
@@ -88,9 +88,9 @@ ht-degree: 7%
 
 ### HTML 또는 JSON 파일 추가 {#html-json}
 
-선택한 배치가 HTML 유형인 경우 [Adobe Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}에서 제공되는 HTML 또는 JSON 컨텐츠를 추가할 수도 있습니다.
+선택한 배치가 HTML 유형인 경우 [Adobe Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}에서 제공되는 HTML 또는 JSON 컨텐츠를 추가할 수도 있습니다.
 
-예를 들어, [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}에서 HTML 이메일 템플릿을 만들었고, 이 파일을 오퍼 콘텐츠에 사용하려고 합니다. 새 파일을 만드는 대신 템플릿을 **자산 라이브러리**&#x200B;에 업로드하여 오퍼의 표시에서 다시 사용할 수 있습니다.
+예를 들어, [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=ko){target="_blank"}에서 HTML 이메일 템플릿을 만들었고, 이 파일을 오퍼 콘텐츠에 사용하려고 합니다. 새 파일을 만드는 대신 템플릿을 **자산 라이브러리**&#x200B;에 업로드하여 오퍼의 표시에서 다시 사용할 수 있습니다.
 
 표현에서 콘텐츠를 다시 사용하려면 [이 섹션](#images)에 설명된 대로 **자산 라이브러리**&#x200B;를 찾은 다음 선택한 HTML 또는 JSON 파일을 선택하십시오.
 
@@ -106,7 +106,7 @@ ht-degree: 7%
 
 예를 들어 오퍼로 표시되는 이미지를 개인화하려고 합니다. 뉴욕시의 스카이라인을 보기 위해 도시 휴가를 선호하는 이용자들과 하와이 북해안을 보기 위해 해변 휴가를 선호하는 이용자들을 원한다는 것이다.
 
-개인화 편집기를 사용하여 유니온 스키마를 사용하여 Adobe Experience Platform에 저장된 프로필 속성을 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+개인화 편집기를 사용하여 유니온 스키마를 사용하여 Adobe Experience Platform에 저장된 프로필 속성을 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=ko){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
