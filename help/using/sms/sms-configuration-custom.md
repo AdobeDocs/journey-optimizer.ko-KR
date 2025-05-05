@@ -83,4 +83,4 @@ API 자격 증명을 만들고 구성한 후에는 SMS 메시지에 대한 채�
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443613?captions=kor)

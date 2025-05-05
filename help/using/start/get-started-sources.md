@@ -22,6 +22,6 @@ Adobe Journey Optimzer를 사용하면 외부 소스에서 데이터를 수집�
 
 이 비디오에서는 소스 커넥터의 정의와 Journey Optimizer에서 소스 커넥터를 구성하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3422585?quality=12&captions=kor)
 
 소스 커넥터를 사용하여 외부 소스에서 데이터를 수집하는 자세한 방법은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko){target="_blank"}에서 확인하실 수 있습니다.

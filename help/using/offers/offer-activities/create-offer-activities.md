@@ -400,6 +400,6 @@ ht-degree: 8%
 
 의사 결정 관리에서 오퍼 활동을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346696?quality=12&captions=kor)
 
 

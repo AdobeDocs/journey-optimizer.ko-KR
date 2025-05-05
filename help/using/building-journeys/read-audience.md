@@ -286,4 +286,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 대상자 읽기 활동으로 트리거되는 여정에 적용할 수 있는 사용 사례를 이해합니다. 일괄 처리 단위 기반 여정을 작성하는 방법과 상황에 따라 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430365?quality=12&captions=kor)

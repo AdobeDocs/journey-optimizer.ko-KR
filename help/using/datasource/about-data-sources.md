@@ -55,5 +55,5 @@ Adobe Experience Platform Data Source 및 외부 데이터 소스를 구성하�
 
 데이터 소스의 정의를 이해하고 Experience Platform 및 외부 데이터 소스를 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416636?quality=12&captions=kor)
 

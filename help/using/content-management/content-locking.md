@@ -197,4 +197,4 @@ Journey Optimizer을 사용하면 전체 템플릿 또는 특정 구조 및 구�
 
 이메일 템플릿에서 콘텐츠를 잠그는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451614?quality=12&captions=kor)

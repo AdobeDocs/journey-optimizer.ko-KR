@@ -62,4 +62,4 @@ ht-degree: 13%
 
 [!DNL Journey Optimizer]에서 **표현식 조각**&#x200B;을(를) 관리, 작성 및 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3438924/?quality=12&captions=kor)

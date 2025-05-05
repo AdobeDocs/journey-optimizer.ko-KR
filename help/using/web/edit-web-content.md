@@ -184,4 +184,4 @@ ht-degree: 16%
 
 아래 비디오에서는 [!DNL Journey Optimizer] 캠페인에서 웹 디자이너를 사용하여 웹 경험을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452642/?quality=12&learn=on&captions=kor)

@@ -241,4 +241,4 @@ ht-degree: 18%
 
 아래 비디오에서는 웹 캠페인을 만들고, 속성을 구성하고, 검토하고, 게시하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449988/?quality=12&learn=on&captions=kor)

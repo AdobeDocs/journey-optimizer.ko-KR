@@ -239,4 +239,4 @@ Create a direct mail and select the **[!UICONTROL Marketing]** category for that
 
 비즈니스 규칙을 만들고, 활성화하고, 테스트하고, 보고하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3411125?quality=12&captions=kor)

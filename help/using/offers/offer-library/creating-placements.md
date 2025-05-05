@@ -85,5 +85,5 @@ ht-degree: 31%
 
 의사 결정 관리에서 배치를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341390?quality=12&captions=kor)
 

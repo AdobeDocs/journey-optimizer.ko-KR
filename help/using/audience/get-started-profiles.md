@@ -54,4 +54,4 @@ ht-degree: 33%
 
 Adobe Experience Platform에서 실시간 고객 프로필을 조합하고 업데이트하는 방법과 이러한 프로필에 액세스하여 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31709?quality=12&captions=kor)

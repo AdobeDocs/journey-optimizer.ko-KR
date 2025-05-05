@@ -97,9 +97,9 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 여정에서 얻은 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448143?quality=12&captions=kor)
 
 메시지에 프로필 기반 개인 맞춤화를 추가하는 방법과 개인 맞춤화 블록의 전제 조건으로 대상자 멤버십을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416272?quality=12&captions=kor)
 

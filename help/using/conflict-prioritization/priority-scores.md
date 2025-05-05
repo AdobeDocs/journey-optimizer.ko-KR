@@ -46,4 +46,4 @@ Journey Optimizer을 사용하면 여정 또는 캠페인에 우선 순위 점�
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445008?quality=12&captions=kor)

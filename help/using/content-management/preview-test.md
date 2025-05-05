@@ -78,4 +78,4 @@ ht-degree: 100%
 
 테스트 프로필을 사용하여 받은 편지함 간에 이메일 렌더링을 테스트하고, 테스트 프로필로 개인화된 이메일을 미리 보고, 증명을 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430340?quality=12&captions=kor)

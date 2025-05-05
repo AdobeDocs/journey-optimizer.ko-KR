@@ -513,4 +513,4 @@ ht-degree: 27%
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416646?quality=12&captions=kor)

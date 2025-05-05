@@ -71,6 +71,6 @@ Adobe Journey Optimizer에서 옵트아웃 상태(Twilio, Infoip 또는 Sinch와
 
 +++ 비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3440286/?learn=on&captions=kor)
 
 +++

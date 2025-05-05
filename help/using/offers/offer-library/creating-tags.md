@@ -44,4 +44,4 @@ ht-degree: 23%
 
 ## 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341374?quality=12&captions=kor)

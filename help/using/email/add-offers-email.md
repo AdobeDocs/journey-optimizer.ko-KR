@@ -103,4 +103,4 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer]의 메시지에 의사 결정 관리 구성 요소를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3415690?quality=12&captions=kor)

@@ -48,4 +48,4 @@ ht-degree: 6%
 
 [!DNL Journey Optimizer]에서 콘텐츠 템플릿을 만들고 편집하고 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3418588/?quality=12&captions=kor)

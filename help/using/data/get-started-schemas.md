@@ -40,7 +40,7 @@ ht-degree: 100%
 
 스키마를 만들고, 필드 그룹을 추가하고, 사용자 지정 필드 그룹을 만들고 구성하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416872?quality=12&captions=kor)
 
 >[!MORELIKETHIS]
 >
