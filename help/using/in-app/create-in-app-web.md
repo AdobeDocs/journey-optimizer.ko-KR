@@ -65,7 +65,7 @@ ht-degree: 7%
       | 플랫폼 | 플랫폼으로 데이터 전송됨 | 모바일 앱이 Adobe Experience Platform에 데이터를 보내기 위해 Edge Experience 이벤트를 발행할 때 트리거됩니다. 일반적으로 AEP Edge 확장에서 API 호출 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)을(를) 사용합니다. |
       | 수동 | 수동 트리거 | 데이터 세트를 정의하는 상수인 키(예: 성별, 색상, 가격)와 세트에 속하는 변수인 값(예: 남성/여성, 녹색, 100)의 두 가지 연결된 데이터 요소입니다. |
 
-+++
+      +++
 
    1. 트리거에서 여러 이벤트 또는 조건을 고려하려면 **[!UICONTROL 조건 추가]**&#x200B;를 클릭하십시오.
 
@@ -82,7 +82,7 @@ ht-degree: 7%
       | 플랫폼 | XDM 이벤트 유형 | 지정된 이벤트 유형이 충족되면 트리거됩니다. |
       | 플랫폼 | XDM 값 | 지정된 XDM 값이 충족되면 트리거됩니다. |
 
-+++
+      +++
 
       ![](assets/in_app_web_surface_9.png)
 

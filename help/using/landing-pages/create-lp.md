@@ -94,7 +94,7 @@ ht-degree: 21%
 
    ![](assets/lp_primary-page.png)
 
-1. + 아이콘을 클릭하여 하위 페이지를 추가합니다. 하위 페이지 설정 [여기](#configure-subpages)를 구성하는 방법을 알아보세요.
+1. &#x200B;+ 아이콘을 클릭하여 하위 페이지를 추가합니다. 하위 페이지 설정 [여기](#configure-subpages)를 구성하는 방법을 알아보세요.
 
    ![](assets/lp_add-subpage.png)
 

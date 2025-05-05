@@ -39,21 +39,21 @@ ht-degree: 3%
 >
 >작성 워크플로우를 사용하여 만든 대상의 보강 속성을 사용하려면 &quot;ExperiencePlatform&quot; 데이터 Source 내의 필드 그룹에 추가되었는지 확인하십시오.
 >
-+++ 필드 그룹에 데이터 보강 속성을 추가하는 방법 알아보기>
+>+++ 필드 그룹에 데이터 보강 속성을 추가하는 방법 알아보기>
 >
-1. &quot;관리&quot; > &quot;구성&quot; > &quot;데이터 소스&quot;로 이동합니다.
-1. &quot;Experience Platform&quot;를 선택하고 필드 그룹을 만들거나 편집합니다.
-1. 스키마 선택기에서 적절한 스키마를 선택합니다. 스키마 이름은 &#39;Schema for audienceId:&#39; + 대상 ID 형식으로 이루어집니다. 대상자 인벤토리의 대상자 세부 사항 화면에서 대상자 ID를 찾을 수 있습니다.
-1. 필드 선택기를 열고 추가할 데이터 보강 속성을 찾은 다음 해당 속성 옆의 확인란을 선택합니다.
-1. 변경 내용을 저장합니다.
-1. 데이터 보강 속성이 필드 그룹에 추가되면 위에 나열된 위치의 Journey Optimizer에서 이를 활용할 수 있습니다.
+>1. &quot;관리&quot; > &quot;구성&quot; > &quot;데이터 소스&quot;로 이동합니다.
+>1. &quot;Experience Platform&quot;를 선택하고 필드 그룹을 만들거나 편집합니다.
+>1. 스키마 선택기에서 적절한 스키마를 선택합니다. 스키마 이름은 &#39;Schema for audienceId:&#39; + 대상 ID 형식으로 이루어집니다. 대상자 인벤토리의 대상자 세부 사항 화면에서 대상자 ID를 찾을 수 있습니다.
+>1. 필드 선택기를 열고 추가할 데이터 보강 속성을 찾은 다음 해당 속성 옆의 확인란을 선택합니다.
+>1. 변경 내용을 저장합니다.
+>1. 데이터 보강 속성이 필드 그룹에 추가되면 위에 나열된 위치의 Journey Optimizer에서 이를 활용할 수 있습니다.
 >
-데이터 소스에 대한 자세한 내용은 다음 섹션에서 확인할 수 있습니다.
+>데이터 소스에 대한 자세한 내용은 다음 섹션에서 확인할 수 있습니다.
 >
-* [Adobe Experience Platform 데이터 원본으로 작업](../datasource/adobe-experience-platform-data-source.md)
-* [데이터 원본 구성](../datasource/configure-data-sources.md)
+>* [Adobe Experience Platform 데이터 원본으로 작업](../datasource/adobe-experience-platform-data-source.md)
+>* [데이터 원본 구성](../datasource/configure-data-sources.md)
 >
-+++
+>+++
 
 
 

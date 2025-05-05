@@ -72,7 +72,7 @@ DMARC을 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 * [!DNL Journey Optimizer]에서 DMARC에 **이미 위임한 모든 하위 도메인**&#x200B;에 대해 **Adobe 레코드**&#x200B;를 설정해야 합니다. [방법 알아보기](#check-subdomains-for-dmarc)
 
-* **새 하위 도메인을 Adobe에 위임**&#x200B;할 때 [!DNL Journey Optimizer] 관리 인터페이스에서 **DMARC을 직접 설정**&#x200B;할 수 있습니다&#x200B;****. [방법 알아보기](#implement-dmarc)
+* **새 하위 도메인을 Adobe에 위임**&#x200B;할 때 [!DNL Journey Optimizer] 관리 인터페이스에서 **DMARC을 직접 설정**&#x200B;할 수 있습니다&#x200B;**&#x200B;**. [방법 알아보기](#implement-dmarc)
 
 ## [!DNL Journey Optimizer]에서 DMARC 구현 {#implement-dmarc}
 

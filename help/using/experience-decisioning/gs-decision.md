@@ -38,7 +38,7 @@ ht-degree: 20%
 
 현재 Experience Decisioning은 코드 기반 경험 채널에서 지원됩니다.
 
-➡️0}의사 결정 시작](../experience-decisioning/gs-experience-decisioning.md)[
+➡️0&rbrace;의사 결정 시작[&#128279;](../experience-decisioning/gs-experience-decisioning.md)
 
 ## 의사 결정 관리 {#decision-management}
 
@@ -48,4 +48,4 @@ Journey Optimizer에서 확립된 기능인 의사 결정 관리는 마케팅 �
 
 의사 결정 관리는 현재 이메일, 인앱 메시지, 푸시 알림 및 SMS의 네 가지 채널을 지원합니다.
 
-➡️0}의사 결정 관리 시작](../offers/get-started/starting-offer-decisioning.md)[
+➡️0&rbrace;의사 결정 관리 시작[&#128279;](../offers/get-started/starting-offer-decisioning.md)

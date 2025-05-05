@@ -81,7 +81,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >이 예제에서는 **Email** 네임스페이스를 사용합니다. 이 섹션](../audience/get-started-identity.md)에서 Adobe Experience Platform ID 네임스페이스 [에 대해 자세히 알아보세요.
+      >이 예제에서는 **Email** 네임스페이스를 사용합니다. 이 섹션[&#128279;](../audience/get-started-identity.md)에서 Adobe Experience Platform ID 네임스페이스 에 대해 자세히 알아보세요.
 
    1. **[!UICONTROL ID 값]** 필드에 테스트 프로필을 식별할 값을 입력하십시오. 이 예에서는 테스트 프로필의 이메일 주소를 입력합니다.
 

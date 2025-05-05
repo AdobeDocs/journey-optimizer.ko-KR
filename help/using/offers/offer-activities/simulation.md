@@ -65,7 +65,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. 이 섹션](../../audience/get-started-identity.md){target="_blank"}에서 Adobe Experience Platform ID 네임스페이스 [에 대해 자세히 알아보세요.
+   >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. 이 섹션[&#128279;](../../audience/get-started-identity.md){target="_blank"}에서 Adobe Experience Platform ID 네임스페이스 에 대해 자세히 알아보세요.
 
 1. ID 값을 입력하고 **[!UICONTROL 보기]**&#x200B;를 클릭하여 사용 가능한 프로필을 나열합니다.
 

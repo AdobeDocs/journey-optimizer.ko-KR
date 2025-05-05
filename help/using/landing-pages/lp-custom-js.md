@@ -24,13 +24,13 @@ ht-degree: 2%
 
 사용자 지정 JavaScript을 랜딩 페이지 콘텐츠에 삽입하려면 다음 중 하나를 수행할 수 있습니다.
 
-* 콘텐츠 만들기를 시작할 때 기존 HTML 콘텐츠를 가져온 다음 사용자 지정 JavaScript 코드가 포함된 파일을 선택합니다. 이 섹션](../email/existing-content.md)에서 [ 콘텐츠를 가져오는 방법을 알아보세요.
+* 콘텐츠 만들기를 시작할 때 기존 HTML 콘텐츠를 가져온 다음 사용자 지정 JavaScript 코드가 포함된 파일을 선택합니다. 이 섹션[&#128279;](../email/existing-content.md)에서  콘텐츠를 가져오는 방법을 알아보세요.
 
 * 랜딩 페이지를 처음부터 디자인하거나 저장된 템플릿에서 디자인할 수 있습니다. **[!UICONTROL HTML]** 콘텐츠 구성 요소를 캔버스로 드래그 앤 드롭하고 소스 코드를 표시하여 JavaScript을 구성 요소에 추가하십시오. [이 섹션](../email/content-components.md#HTML)에서 HTML 구성 요소를 사용하는 방법을 알아봅니다. <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* 콘텐츠 디자이너에 바로 JavaScript 코드를 입력하거나 붙여 넣습니다. 이 섹션](../email/code-content.md)에서 자신의 콘텐츠 [을(를) 코딩하는 방법을 알아보세요.
+* 콘텐츠 디자이너에 바로 JavaScript 코드를 입력하거나 붙여 넣습니다. 이 섹션[&#128279;](../email/code-content.md)에서 자신의 콘텐츠 을(를) 코딩하는 방법을 알아보세요.
 
 >[!NOTE]
 >

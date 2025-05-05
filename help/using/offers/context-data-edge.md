@@ -145,7 +145,7 @@ Decisioning API를 사용하여 컨텍스트를 다소 자유 형식으로 전�
 
   ![](assets/context-edge-copy-scope.png)
 
-+++
+  +++
 
 ```
 {

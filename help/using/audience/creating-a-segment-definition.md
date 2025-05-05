@@ -26,7 +26,7 @@ ht-degree: 17%
 
 이 예에서는 Atlanta, San Francisco 또는 Seattle에 거주하며 1980년 이후 출생한 모든 고객을 타깃팅하는 대상을 구성합니다. 이 모든 고객은 지난 7일 이내에 구매해야 합니다.
 
-➡️0}이 비디오에서 대상자를 만드는 방법을 알아보세요](#video-segment)[
+➡️0&rbrace;이 비디오에서 대상자를 만드는 방법을 알아보세요[&#128279;](#video-segment)
 
 1. **[!UICONTROL 대상]** 메뉴에서 **[!UICONTROL 대상 만들기]** 단추를 클릭하고 **[!UICONTROL 규칙 빌드]**&#x200B;를 선택합니다.
 

@@ -28,7 +28,7 @@ ht-degree: 15%
 
 예를 들어 실수가 발생할 수 있는 비프로덕션 인스턴스 목록에서 허용 목록은 원치 않는 메시지를 실제 고객 주소로 보낼 위험이 없도록 하므로 테스트 목적으로 안전한 환경을 제공합니다.
 
-또한 허용 목록이 활성 상태이지만 비어 있으면 메일이 발송되지 않습니다. 따라서 중요한 문제가 발생하면 이 기능을 사용하여 문제 해결할 때까지 모든 발신 통신 [!DNL Journey Optimizer] 을 중지할 수 있습니다. 허용 목록 논리](#logic)에 [대해 자세히 알아보세요.
+또한 허용 목록이 활성 상태이지만 비어 있으면 메일이 발송되지 않습니다. 따라서 중요한 문제가 발생하면 이 기능을 사용하여 문제 해결할 때까지 모든 발신 통신 [!DNL Journey Optimizer] 을 중지할 수 있습니다. 허용 목록 논리[&#128279;](#logic)에 대해 자세히 알아보세요.
 
 또한 Journey Optimizer **Suppression REST API**&#x200B;를 활용하면 제외 및 허용 목록을 통해 보내는 메시지를 제어할 수 있습니다. [Suppression REST API 사용 방법 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
@@ -42,7 +42,7 @@ ht-degree: 15%
 >
 >허용 목록을 보고 내보내고 관리할 수 있는 권한이 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator)(으)로 제한됩니다. [이 섹션](../administration/permissions-overview.md)에서 [!DNL Journey Optimizer] 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 
-허용 목록을 CSV 파일로 내보내려면 CSV ]**다운로드 버튼을 선택합니다**[!UICONTROL .
+허용 목록을 CSV 파일로 내보내려면 CSV **다운로드 버튼을 선택합니다**.
 
 **[!UICONTROL 항목을 영구적으로 제거하려면 삭제]** 버튼을 사용합니다.
 
@@ -78,13 +78,13 @@ ht-degree: 15%
 
 허용 목록을 비활성화하려면 아래 단계를 팔로우 하십시오.
 
-1. 이메일 구성> 채널&#x200B;]**>**[!UICONTROL &#x200B;허용 목록&#x200B;]**메뉴에**[!UICONTROL &#x200B;액세스합니다. ****
+1. 이메일 구성> 채널&#x200B;**>**&#x200B;[!UICONTROL &#x200B;허용 목록&#x200B;]&#x200B;**메뉴에**&#x200B;액세스합니다. **&#x200B;**
 
 1. 토글 버튼 선택
 
    ![](assets/allow-list-edit-active.png)
 
-1. 허용 목록&#x200B;]**비활성화를 선택합니다**[!UICONTROL . 허용 목록이 더 이상 활성화되지 않습니다.
+1. 허용 목록&#x200B;**비활성화를 선택합니다**. 허용 목록이 더 이상 활성화되지 않습니다.
 
    ![](assets/allow-list-deactivate.png)
 
@@ -96,7 +96,7 @@ ht-degree: 15%
 
 ## 허용 목록에 엔터티 추가 {#add-entities}
 
-특정 샌드박스의 허용 목록에 새 이메일 주소 또는 도메인을 추가하려면 목록을](#manually-populate-list) 수동으로 채우거나 API 호출](#api-call-allowed-list)을 [사용할 수 있습니다[.
+특정 샌드박스의 허용 목록에 새 이메일 주소 또는 도메인을 추가하려면 목록을[&#128279;](#manually-populate-list) 수동으로 채우거나 API 호출[&#128279;](#api-call-allowed-list)을 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -193,7 +193,7 @@ ht-degree: 15%
 
 * 허용 목록이 **empty**&#x200B;이면 전자 메일이 전송되지 않습니다.
 
-* 엔터티가 **허용 목록**&#x200B;에 있고 비표시 목록에 없는 경우 해당 받는 사람에게 전자 메일이 전송됩니다. 그러나 엔터티가 금지 목록](../reports/suppression-list.md)에도 있는 [경우 해당 수신자는 이메일을 받지 못하며, 그 이유는 Suppressed ]**입니다**[!UICONTROL .
+* 엔터티가 **허용 목록**&#x200B;에 있고 비표시 목록에 없는 경우 해당 받는 사람에게 전자 메일이 전송됩니다. 그러나 엔터티가 금지 목록(../reports/suppression-list.md)에도 있는 [경우 해당 수신자는 이메일을 받지 못하며, 그 이유는 Suppressed ]&#x200B;**입니다**.
 
 * 엔터티 **가 허용 목록에** 없는 경우(및 금지 목록에 없는 경우) 해당 수신자는 이메일을 받지 못하며, 그 이유는 **[!UICONTROL 허용되지]** 않습니다.
 

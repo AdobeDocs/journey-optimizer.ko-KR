@@ -127,9 +127,9 @@ ht-degree: 51%
 
 컴포지션 작업 과정 을 만들려면 다음 단계를 팔로우 수행하십시오.
 
-1. [Audiences ]**] 메뉴에**[!UICONTROL &#x200B;액세스하고 [대상&#x200B;]**자만들기 선택합니다**[!UICONTROL .
+1. [Audiences ] **&#x200B; 메뉴에**&#x200B;액세스하고 [대상&#x200B;]&#x200B;**자만들기 선택합니다**.
 
-1. 대상자&#x200B;]**작성을 선택합니다**[!UICONTROL .
+1. 대상자&#x200B;**작성을 선택합니다**.
 
    ![](assets/audiences-create.png)
 
@@ -145,11 +145,11 @@ ht-degree: 51%
 
    ![](assets/audiences-properties.png)
 
-1. 대상&#x200B;]**활동과**[!UICONTROL &#x200B;저장&#x200B;]**활동 사이에 필요한 만큼 활동을 추가하여 컴포지션을**[!UICONTROL &#x200B;구성합니다. 컴포지션을 만드는 방법에 대한 자세한 내용은 대상 컴포지션 설명서를](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition) 참조하십시오[.
+1. 대상&#x200B;&rbrack;**활동과**&#x200B;[!UICONTROL &#x200B;저장&#x200B;]&#x200B;**활동 사이에 필요한 만큼 활동을 추가하여 컴포지션을**&#x200B;[[!UICONTROL &#x200B;구성합니다. 컴포지션을 만드는 방법에 대한 자세한 내용은 대상 컴포지션 설명서를]](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition) 참조하십시오&lbrack;.
 
    ![](assets/audiences-publish.png)
 
-1. 컴포지션이 준비되면 Publish ]**버튼 클릭하여**[!UICONTROL &#x200B;컴포지션을 게시하고 결과 잠재고객을 Adobe Experience Platform에 저장합니다.
+1. 컴포지션이 준비되면 Publish **버튼 클릭하여**&#x200B;컴포지션을 게시하고 결과 잠재고객을 Adobe Experience Platform에 저장합니다.
 
    >[!IMPORTANT]
    >
@@ -167,7 +167,7 @@ ht-degree: 51%
 
 ## 컴포지션 액세스 {#access}
 
-만들어진 모든 컴포지션은 컴포지션&#x200B;]**탭 에서**[!UICONTROL &#x200B;액세스할 수 있습니다. 목록의 줄임표 버튼 을 사용하여 언제든지 기존 컴포지션을 복제하거나 삭제할 수 있습니다.
+만들어진 모든 컴포지션은 컴포지션&#x200B;**탭 에서**&#x200B;액세스할 수 있습니다. 목록의 줄임표 버튼 을 사용하여 언제든지 기존 컴포지션을 복제하거나 삭제할 수 있습니다.
 
 구성에는 여러 가지 상태가 있을 수 있습니다.
 

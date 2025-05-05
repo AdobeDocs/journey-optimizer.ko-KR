@@ -28,7 +28,7 @@ ht-degree: 50%
 
 ![](assets/sandbox_5.png)
 
-➡️0}이 비디오에서 샌드박스에 대해 자세히 알아보기](#video)[
+➡️0&rbrace;이 비디오에서 샌드박스에 대해 자세히 알아보기[&#128279;](#video)
 
 ## 샌드박스 할당 {#assign-sandboxes}
 

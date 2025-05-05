@@ -28,8 +28,9 @@ Journey Optimizer을 사용하면 Adobe Experience Platform으로의 사용자 �
 ## 반드시 알아야 할 사항 {#must-read}
 
 * 이 기능은 Decisioning(이전의 &quot;Experience Decisioning&quot;)이 아닌 **의사 결정 관리**&#x200B;에서만 지원됩니다.
-* **Decisioning API(허브)** 요청을 통해서만 사용할 수 있으며 **Edge Decisioning API** 또는 **batch decisioning**에서 지원하지 않습니다.
+* **Decisioning API(허브)** 요청을 통해서만 사용할 수 있으며 **Edge Decisioning API** 또는 **batch decisioning**&#x200B;에서 지원하지 않습니다.
  
+
 ## 사용자 정의 업로드 대상자를 자격 기준으로 사용 {#eligibilty}
 
 사용자 지정 업로드 대상을 오퍼 또는 의사 결정 수준 모두에서 자격 기준으로 사용할 수 있습니다. 이 기준을 추가하면 해당 기준에서 오퍼 또는 오퍼 컬렉션을 적격성에서 제외할 수 있습니다. 다음은 사용자 지정 업로드 대상을 활용하여 오퍼 및 결정 자격을 세분화할 수 있는 다양한 위치입니다.

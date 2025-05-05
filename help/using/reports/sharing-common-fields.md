@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 섹션](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에서 여정 속성 특성 [에 대해 자세히 알아보세요.
+>이 섹션[&#128279;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에서 여정 속성 특성 에 대해 자세히 알아보세요.
 
 
 ## 입구 {#entrance-field}

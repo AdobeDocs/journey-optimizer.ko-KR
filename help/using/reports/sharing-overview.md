@@ -71,4 +71,4 @@ Adobe Experience Platform에 전달된 XDM 필드 목록은 여기에 자세히 
 * 연결된 &quot;Journey Orchestration에 대한 여정 단계 이벤트 스키마&quot;의 **profileID** 필드가 ID 필드로 정의되어 있습니다. 그런 다음 [!DNL Customer Journey Analytics]에서 이 데이터 세트를 개인 기반 식별자와 동일한 값을 가진 다른 데이터 세트에 연결할 수 있습니다.
 * [!DNL Customer Journey Analytics]에서 이 데이터 세트를 사용하려면 크로스 채널 여정 분석을 위해 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}를 참조하세요.
 
-➡️0}Customer Journey Analytics 작업](cja-ajo.md){target="_blank"}[
+➡️0&rbrace;Customer Journey Analytics 작업[&#128279;](cja-ajo.md){target="_blank"}

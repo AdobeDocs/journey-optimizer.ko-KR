@@ -36,7 +36,7 @@ ht-degree: 3%
 
 테스트 프로필을 만드는 것은 Adobe Experience Platform에서 일반 프로필을 만드는 것과 비슷합니다. 자세한 내용은 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}를 참조하세요.
 
-➡️0}이 비디오에서 테스트 프로필을 만드는 방법을 알아봅니다](#video)[
+➡️0&rbrace;이 비디오에서 테스트 프로필을 만드는 방법을 알아봅니다[&#128279;](#video)
 
 ## 전제 조건 {#test-profile-prerequisites}
 
@@ -44,15 +44,15 @@ ht-degree: 3%
 
 **스키마를 만들려면** 다음 단계를 수행하십시오.
 
-1. 데이터 관리 메뉴 섹션에서 **[!UICONTROL 스키마]**를 클릭합니다.
+1. 데이터 관리 메뉴 섹션에서 **[!UICONTROL 스키마]**&#x200B;를 클릭합니다.
    ![](assets/test-profiles-0.png)
-1. 오른쪽 상단에서 **[!UICONTROL 스키마 만들기]**&#x200B;를 클릭하고 스키마 유형(예: **개인 프로필**)을 선택한 후 **다음**을 클릭합니다.
+1. 오른쪽 상단에서 **[!UICONTROL 스키마 만들기]**&#x200B;를 클릭하고 스키마 유형(예: **개인 프로필**)을 선택한 후 **다음**&#x200B;을 클릭합니다.
    ![](assets/test-profiles-1.png)
-1. 스키마 이름을 입력하고 **마침**을 클릭합니다.
+1. 스키마 이름을 입력하고 **마침**&#x200B;을 클릭합니다.
    ![](assets/test-profiles-1-bis.png)
 1. **필드 그룹** 섹션에서 왼쪽의 **추가**&#x200B;를 클릭하고 적절한 필드 그룹을 선택합니다. **프로필 테스트 세부 정보** 필드 그룹을 추가해야 합니다.
    ![](assets/test-profiles-1-ter.png)
-완료되면 **[!UICONTROL 필드 그룹 추가]**를 클릭합니다. 필드 그룹 목록이 스키마 개요 화면에 표시됩니다.
+완료되면 **[!UICONTROL 필드 그룹 추가]**&#x200B;를 클릭합니다. 필드 그룹 목록이 스키마 개요 화면에 표시됩니다.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -61,7 +61,7 @@ ht-degree: 3%
 
 1. 필드 목록에서 기본 ID로 정의할 필드를 클릭합니다.
    ![](assets/test-profiles-3.png)
-1. **[!UICONTROL 필드 속성]** 오른쪽 창에서 **[!UICONTROL ID]** 및 **[!UICONTROL 기본 ID]** 옵션을 확인하고 네임스페이스를 선택하십시오. 기본 ID를 전자 메일 주소로 설정하려면 **[!UICONTROL 전자 메일]** 네임스페이스를 선택하세요. **[!UICONTROL 적용]**을 클릭합니다.
+1. **[!UICONTROL 필드 속성]** 오른쪽 창에서 **[!UICONTROL ID]** 및 **[!UICONTROL 기본 ID]** 옵션을 확인하고 네임스페이스를 선택하십시오. 기본 ID를 전자 메일 주소로 설정하려면 **[!UICONTROL 전자 메일]** 네임스페이스를 선택하세요. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
    ![](assets/test-profiles-4bis.png)
 1. 스키마를 선택하고 **[!UICONTROL 스키마 속성]** 창에서 **[!UICONTROL 프로필]** 옵션을 활성화하십시오.
    ![](assets/test-profiles-5.png)
@@ -73,13 +73,13 @@ ht-degree: 3%
 
 프로필을 가져올 데이터 집합을 **만들어야** 합니다. 다음 단계를 수행하십시오.
 
-1. **[!UICONTROL 데이터 세트]**(으)로 이동한 다음 **[!UICONTROL 데이터 세트 만들기]**를 클릭합니다.
+1. **[!UICONTROL 데이터 세트]**(으)로 이동한 다음 **[!UICONTROL 데이터 세트 만들기]**&#x200B;를 클릭합니다.
    ![](assets/test-profiles-6.png)
-1. **[!UICONTROL 스키마에서 데이터 집합 만들기]**를 선택합니다.
+1. **[!UICONTROL 스키마에서 데이터 집합 만들기]**&#x200B;를 선택합니다.
    ![](assets/test-profiles-7.png)
-1. 이전에 만든 스키마를 선택한 다음 **[!UICONTROL 다음]**을 클릭합니다.
+1. 이전에 만든 스키마를 선택한 다음 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
    ![](assets/test-profiles-8.png)
-1. 이름을 선택한 다음 **[!UICONTROL 마침]**을 클릭하세요.
+1. 이름을 선택한 다음 **[!UICONTROL 마침]**&#x200B;을 클릭하세요.
    ![](assets/test-profiles-9.png)
 1. **[!UICONTROL 프로필]** 옵션을 사용하도록 설정합니다.
    ![](assets/test-profiles-10.png)
@@ -128,11 +128,11 @@ ID 네임스페이스를 선택하고 위의 형식을 기반으로 CSV 파일�
 >
 > **testProfile** 필드를 업데이트하게 되므로 선택한 프로필에 이 필드가 포함되어야 합니다. 관련 스키마에 **프로필 테스트 정보** 필드 그룹이 있어야 합니다. [이 섹션](../audience/creating-test-profiles.md#test-profiles-prerequisites)을 참조하십시오.
 
-1. 오른쪽 상단에서 **대상**&#x200B;을 찾은 다음 **대상 만들기**를 찾습니다.
+1. 오른쪽 상단에서 **대상**&#x200B;을 찾은 다음 **대상 만들기**&#x200B;를 찾습니다.
    ![](assets/test-profiles-22.png)
 1. 대상자의 이름을 정의하고 대상자를 구성합니다. 원하는 프로필을 타겟팅할 필드 및 값을 선택합니다.
    ![](assets/test-profiles-23.png)
-1. **저장**을 클릭하고 대상자에 의해 프로필이 올바르게 타겟팅되었는지 확인하십시오.
+1. **저장**&#x200B;을 클릭하고 대상자에 의해 프로필이 올바르게 타겟팅되었는지 확인하십시오.
    ![](assets/test-profiles-24.png)
 
    >[!NOTE]
@@ -143,7 +143,7 @@ ID 네임스페이스를 선택하고 위의 형식을 기반으로 CSV 파일�
 1. 이전에 만든 대상자와 프로필에서 사용하는 네임스페이스를 선택합니다.
    ![](assets/test-profiles-25.png)
 1. **[!UICONTROL 프로필 업데이트]** 작업 활동을 추가합니다.
-1. 스키마, **testProfiles** 필드, 데이터 세트를 선택하고 값을 **True**(으)로 설정하십시오. 이렇게 하려면 **[!UICONTROL VALUE]** 필드에서 오른쪽의 **Pen** 아이콘을 클릭하고 **[!UICONTROL 고급 모드]**&#x200B;를 선택한 다음 **true**을(를) 입력합니다.
+1. 스키마, **testProfiles** 필드, 데이터 세트를 선택하고 값을 **True**(으)로 설정하십시오. 이렇게 하려면 **[!UICONTROL VALUE]** 필드에서 오른쪽의 **Pen** 아이콘을 클릭하고 **[!UICONTROL 고급 모드]**&#x200B;를 선택한 다음 **true**&#x200B;을(를) 입력합니다.
    ![](assets/test-profiles-26.png)
 1. **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 대상]** 섹션에서 프로필이 올바르게 업데이트되었는지 확인합니다.
@@ -165,15 +165,15 @@ Adobe Experience Platform에서는 다른 프로필 필드가 포함된 csv 파�
 1. 스프레드시트를 csv 파일로 저장합니다. 쉼표를 구분 기호로 사용해야 합니다.
 1. Adobe Experience Platform **워크플로**(으)로 이동합니다.
    ![](assets/test-profiles-14.png)
-1. **XDM 스키마에 CSV 매핑**&#x200B;을 선택한 다음 **시작**을 클릭합니다.
+1. **XDM 스키마에 CSV 매핑**&#x200B;을 선택한 다음 **시작**&#x200B;을 클릭합니다.
    ![](assets/test-profiles-16.png)
-1. 프로필을 가져올 데이터 세트를 선택합니다. **다음**을 클릭합니다.
+1. 프로필을 가져올 데이터 세트를 선택합니다. **다음**&#x200B;을 클릭합니다.
    ![](assets/test-profiles-17.png)
-1. **파일 선택**&#x200B;을 클릭하고 csv 파일을 선택하십시오. 파일이 업로드되면 **다음**을(를) 클릭합니다.
+1. **파일 선택**&#x200B;을 클릭하고 csv 파일을 선택하십시오. 파일이 업로드되면 **다음**&#x200B;을(를) 클릭합니다.
    ![](assets/test-profiles-18.png)
-1. 소스 csv 필드를 스키마 필드에 매핑한 다음 **마침**을 클릭합니다.
+1. 소스 csv 필드를 스키마 필드에 매핑한 다음 **마침**&#x200B;을 클릭합니다.
    ![](assets/test-profiles-19.png)
-1. 데이터 가져오기가 시작됩니다. 상태가 **처리 중**&#x200B;에서 **성공**(으)로 이동합니다. 오른쪽 상단에서 **데이터 집합 미리 보기**를 클릭합니다.
+1. 데이터 가져오기가 시작됩니다. 상태가 **처리 중**&#x200B;에서 **성공**(으)로 이동합니다. 오른쪽 상단에서 **데이터 집합 미리 보기**&#x200B;를 클릭합니다.
    ![](assets/test-profiles-20.png)
 1. 테스트 프로필이 올바르게 추가되었는지 확인합니다.
    ![](assets/test-profiles-21.png)

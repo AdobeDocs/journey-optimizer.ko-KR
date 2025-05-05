@@ -102,7 +102,7 @@ Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 가져온 데이�
    * **[!UICONTROL 이름]**: **[!UICONTROL 이벤트]**&#x200B;의 이름을 개인화합니다.
    * **[!UICONTROL 유형]**: **[!UICONTROL 단일]** 유형을 선택합니다. [자세히 알아보기](../event/about-events.md)
    * **[!UICONTROL 이벤트 ID 유형]**: **[!UICONTROL 규칙 기반]** 이벤트 ID 유형을 선택합니다. [자세히 알아보기](../event/about-events.md#event-id-type)
-   * **[!UICONTROL 스키마]**: ](#leverage-analytics-data) 전에 만든 Analytics 또는 WebSDK 스키마 [을(를) 선택하십시오.
+   * **[!UICONTROL 스키마]**: [&#128279;](#leverage-analytics-data) 전에 만든 Analytics 또는 WebSDK 스키마 을(를) 선택하십시오.
    * **[!UICONTROL 필드]**: 페이로드 필드를 선택합니다. [자세히 알아보기](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL 여정 ID 조건]**: 이벤트를 트리거할 이벤트를 식별하는 조건을 정의합니다.
 

@@ -114,7 +114,7 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   > [!DNL Journey Optimizer] 템플릿](#export-from-ajo-to-genstudio)에서 만든 GenStudio 경험 [을(를) 이메일 Designer으로 직접 가져옵니다. [!DNL Journey Optimizer] 템플릿 없이 만든 GenStudio 경험을 [호환성 모드](../email/existing-content.md)(으)로 가져옵니다.
+   > [!DNL Journey Optimizer] 템플릿[&#128279;](#export-from-ajo-to-genstudio)에서 만든 GenStudio 경험 을(를) 이메일 Designer으로 직접 가져옵니다. [!DNL Journey Optimizer] 템플릿 없이 만든 GenStudio 경험을 [호환성 모드](../email/existing-content.md)(으)로 가져옵니다.
 
    [전자 메일 콘텐츠 편집 도구](../email/content-from-scratch.md) 및 [개인화 필드](../personalization/personalize.md)를 사용하여 전자 메일을 원하는 대로 편집하세요. 콘텐츠를 저장합니다.
 

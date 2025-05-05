@@ -176,7 +176,7 @@ true 반환
 
 >[!NOTE]
 >
-&lt;expression1> 및 &lt;expression2>에 대한 데이터 형식 컨트롤이 없습니다.
+>&lt;expression1> 및 &lt;expression2>에 대한 데이터 형식 컨트롤이 없습니다.
 
 결과는 부울입니다.
 

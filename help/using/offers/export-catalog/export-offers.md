@@ -122,6 +122,7 @@ ht-degree: 0%
      **예:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **언어**
+
      **필드:** 언어
      **제목:** 언어
      **설명:** 리소스의 언어입니다. \n언어는 XDM의 다른 곳에서 사용되는 BCP 47의 일부인 [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)에 정의된 대로 언어 코드에 지정됩니다.

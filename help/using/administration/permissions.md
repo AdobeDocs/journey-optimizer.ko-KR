@@ -42,7 +42,7 @@ ht-degree: 6%
 
    ![](assets/do-not-localize/access_control_2.png)
 
-1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/do-not-localize/access_control_3.png)
 
@@ -68,7 +68,7 @@ ht-degree: 6%
 
 기본 제공 또는 사용자 지정 **[!UICONTROL 역할]**&#x200B;을(를) 수정하는 경우 이 **[!UICONTROL 역할]**&#x200B;에 할당된 모든 사용자에게 영향을 줍니다.
 
-1. [!DNL Permissions] 제품에서 사용자에게 역할을 할당하려면 **[!UICONTROL 역할]** 탭으로 이동하여 원하는 역할을 선택합니다. 여정 뷰어 **[!UICONTROL 역할]**에 있습니다.
+1. [!DNL Permissions] 제품에서 사용자에게 역할을 할당하려면 **[!UICONTROL 역할]** 탭으로 이동하여 원하는 역할을 선택합니다. 여정 뷰어 **[!UICONTROL 역할]**&#x200B;에 있습니다.
    ![](assets/do-not-localize/access_control_5.png)
 
 1. **[!UICONTROL 역할]** 대시보드에서 **[!UICONTROL 편집]**&#x200B;을(를) 클릭합니다.
@@ -93,7 +93,7 @@ ht-degree: 6%
 
 샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
-이 예제에서는 여정 기능에 읽기 전용 권한을 부여하는 **여정 읽기 전용** 역할을 만듭니다. 사용자는 여정에 액세스하고 볼 수만 있으며 [!DNL Journey Optimizer]의 **[!DNL  Decision management]**&#x200B;과(와) 같은 다른 기능에는 액세스할 수 없습니다.
+이 예제에서는 여정 기능에 읽기 전용 권한을 부여하는 **여정 읽기 전용** 역할을 만듭니다. 사용자는 여정에 액세스하고 볼 수만 있으며 [!DNL Journey Optimizer]의 **[!DNL &#x200B; Decision management]**&#x200B;과(와) 같은 다른 기능에는 액세스할 수 없습니다.
 
 **여정 읽기 전용** **[!UICONTROL 역할]**&#x200B;을(를) 만들려면:
 

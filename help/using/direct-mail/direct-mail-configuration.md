@@ -18,7 +18,7 @@ ht-degree: 22%
 
 [!DNL Journey Optimizer]을(를) 사용하면 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 파일을 개인화하고 생성할 수 있습니다.
 
-DM 메시지를](../direct-mail/create-direct-mail.md) 만들 때 [선택한 연락처 정보(예: 우편 주소)를 포함하여 타깃팅된 대상자 데이터를 정의합니다. 그러면 이 데이터가 포함된 파일이 자동으로 생성되어 서버로 내보내지며 DM 제공업체가 파일을 검색하고 실제 전송을 처리할 수 있습니다.
+DM 메시지를[&#128279;](../direct-mail/create-direct-mail.md) 만들 때 선택한 연락처 정보(예: 우편 주소)를 포함하여 타깃팅된 대상자 데이터를 정의합니다. 그러면 이 데이터가 포함된 파일이 자동으로 생성되어 서버로 내보내지며 DM 제공업체가 파일을 검색하고 실제 전송을 처리할 수 있습니다.
 
 이 파일을 생성하려면 먼저 다음을 생성해야 합니다.
 
@@ -87,9 +87,9 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 >[!TAB Amazon S3]
 
-서버 유형&#x200B;]**으로**[!UICONTROL  Amazon S3 ]**를 선택한**[!UICONTROL &#x200B;경우 서버에 대한 세부 정보와 자격 증명을 입력합니다.
+서버 유형&#x200B;**으로**&#x200B;[!UICONTROL &#x200B; Amazon S3 &#x200B;]&#x200B;**를 선택한**&#x200B;경우 서버에 대한 세부 정보와 자격 증명을 입력합니다.
 
-* **AWS 버킷 이름**: AWS 버킷 이름을 찾을 수 있는 위치를 알아보려면 이 페이지 페이지를](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html) 참조하십시오[.
+* **AWS 버킷 이름**: AWS 버킷 이름을 찾을 수 있는 위치를 알아보려면 이 페이지 페이지를[&#128279;](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html) 참조하십시오.
 
 * **AWS 액세스 키**: AWS 액세스 키 ID를 찾을 수 있는 위치를 알려면 [이 페이지](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)를 참조하세요.
 
@@ -101,7 +101,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 >[!TAB SFTP]
 
-서버 유형&#x200B;]**으로**[!UICONTROL  SFTP ]**를 선택한**[!UICONTROL &#x200B;경우 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
+서버 유형&#x200B;**으로**&#x200B;[!UICONTROL &#x200B; SFTP &#x200B;]&#x200B;**를 선택한**&#x200B;경우 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
 
 * **계정**: SFTP 서버에 연결하는 데 사용되는 계정 이름입니다.
 
@@ -119,15 +119,15 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 >[!TAB 하늘빛]
 
-서버 유형&#x200B;]**으로 Azure]**&#x200B;를 **[!UICONTROL 선택한**[!UICONTROL &#x200B;경우 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
+서버 유형&#x200B;**으로 Azure**&#x200B;를 **선택한**&#x200B;경우 서버에 대한 세부 정보 및 자격 증명을 입력합니다.
 
-* **Azure 연결 문자열**: Azure 연결 문자열&#x200B;**을**&#x200B;찾으려면 이 페이지](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account) 를 참조하세요[.
+* **Azure 연결 문자열**: Azure 연결 문자열&#x200B;**을**&#x200B;찾으려면 이 페이지[&#128279;](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account) 를 참조하세요.
 
   Azure 연결 문자열&#x200B;**은**&#x200B;아래 포맷 을 팔로우 하 고 있습니다.
 
   `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-* **컨테이너 이름**: 컨테이너 이름을&#x200B;**찾으**&#x200B;려면 이 페이지](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal) 를 참조하십시오[.
+* **컨테이너 이름**: 컨테이너 이름을&#x200B;**찾으**&#x200B;려면 이 페이지[&#128279;](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal) 를 참조하십시오.
 
   **컨테이너 이름**&#x200B;에는 슬래시 없이 컨테이너 이름만 포함되어야 합니다.
 
@@ -143,7 +143,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-의 [!DNL Adobe Experience Platform] 모든 고객에게는 샌드박스당 하나의 Data Landing Zone 컨테이너가 프로비저닝됩니다. Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 존에 [대해 자세히 알아보십시오.
+의 [!DNL Adobe Experience Platform] 모든 고객에게는 샌드박스당 하나의 Data Landing Zone 컨테이너가 프로비저닝됩니다. Adobe Experience Platform 설명서[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 존에 대해 자세히 알아보십시오.
 
 >[!ENDTABS]
 
@@ -176,7 +176,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 DM 구성에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 구성도 포함되어야 합니다.
 
-1. 왼쪽 레일에서 관리 > 채널로 이동&#x200B;**[!UICONTROL 하고 일반 설정]** > **[!UICONTROL 채널 구성을]** 선택합니다&#x200B;**[!UICONTROL .]** **** **[!UICONTROL 채널 구성]** 만들기 버튼 을 클릭합니다. [자세히 알아보기](../configuration/channel-surfaces.md)
+1. 왼쪽 레일에서 관리 > 채널로 이동&#x200B;**[!UICONTROL 하고 일반 설정]** > **[!UICONTROL 채널 구성을]** 선택합니다&#x200B;**[!UICONTROL .]** **&#x200B;**&#x200B;**[!UICONTROL 채널 구성]** 만들기 버튼 을 클릭합니다. [자세히 알아보기](../configuration/channel-surfaces.md)
 
    ![](assets/direct-mail-config-1.png)
 
@@ -186,7 +186,7 @@ DM 구성에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 �
    >
    > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점 `.`, 하이픈 `-`도 사용할 수 있습니다.
 
-1. 구성에 사용자 지정 또는 핵심 데이터 사용량 레이블을 할당하려면 액세스&#x200B;]**관리를 선택할**[!UICONTROL &#x200B;수 있습니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요](../administration/object-based-access.md).
+1. 구성에 사용자 지정 또는 핵심 데이터 사용량 레이블을 할당하려면 액세스&#x200B;**관리를 선택할**&#x200B;수 있습니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요](../administration/object-based-access.md).
 
 1. **[!UICONTROL DM]** 채널을 선택합니다.
 
