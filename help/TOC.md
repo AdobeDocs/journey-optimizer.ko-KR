@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
 source-wordcount: '2364'
 ht-degree: 87%
@@ -350,7 +350,7 @@ ht-degree: 87%
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
 + 콘텐츠 관리  {#content-management}
    + 콘텐츠 생성용 AI 어시스턴트{#ai-assistant}
-      + [AI Assistant 시작](using/content-management/gs-generative.md)
+      + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
       + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
       + [AI를 사용한 푸시 생성](using/content-management/generative-push.md)
       + [AI를 사용한 SMS 생성](using/content-management/generative-sms.md)
@@ -695,7 +695,7 @@ ht-degree: 87%
       + [데이터 세트 TTL(Time-to-Live) 가드레일](using/data/datasets-ttl.md)
       + [Journey Optimizer 데이터 세트 내보내기](using/data/export-datasets.md)
       + [쿼리 예](using/data/datasets-query-examples.md)
-      + [기본 스키마 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
+      + [기본 제공 스키마 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
    + [쿼리](using/data/get-started-queries.md)
 + 채널 구성 {#configuration}
    + [채널 구성](using/configuration/get-started-configuration.md)
@@ -761,8 +761,8 @@ ht-degree: 87%
 + 액세스 제어 {#access-control}
    + 액세스 제어 개요 {#privacy}
       + [사용자 관리 시작](using/administration/permissions-overview.md)
-      + [기본 역할](using/administration/ootb-product-profiles.md)
-      + [기본 권한](using/administration/ootb-permissions.md)
+      + [기본 제공 역할](using/administration/ootb-product-profiles.md)
+      + [기본 제공 권한](using/administration/ootb-permissions.md)
       + [권한 수준](using/administration/high-low-permissions.md)
    + [사용자 및 역할 관리](using/administration/permissions.md)
    + [속성 기반 액세스 제어](using/administration/attribute-based-access.md)

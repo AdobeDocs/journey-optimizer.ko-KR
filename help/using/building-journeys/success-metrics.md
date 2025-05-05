@@ -2,24 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정 게시
-description: 선택한 여정 지표에 대해 보고하는 방법을 알아봅니다
+description: 여정 지표에 대해 보고하는 방법 알아보기
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 7%
+source-wordcount: '495'
+ht-degree: 5%
 
 ---
 
 # 여정 지표 구성 및 추적 {#success-metrics}
 
-여정 지표를 사용하면 사전 정의된 지표에 대한 성과를 추적하여 활동의 영향을 효과적으로 측정할 수 있습니다.
-이러한 지표를 추적하면 여정의 성과를 확인하고 개선할 영역을 식별하며 고객 참여를 향상시키기 위해 정보에 입각한 결정을 내릴 수 있습니다.
+여정 지표를 통해 고객 여정의 효과를 명확하게 파악할 수 있습니다. 이 기능을 사용하면 정의된 KPI에 대해 성과를 추적하고 작동 중인 항목에 대한 통찰력을 확보하고 최적화할 영역을 식별할 수 있습니다. 실시간으로 영향을 측정함으로써 지속적인 개선을 유도하고 데이터 정보에 기반한 의사 결정을 내려 고객 참여를 높일 수 있습니다.
 
 ## 전제 조건 {#prerequisites}
 
@@ -72,7 +71,7 @@ Customer Journey Analytics 라이선스를 사용하면 사용자 지정 성공 
 
 ## 여정 지표 할당 {#assign}
 
-여정 지표 추적을 시작하려면 아래에 설명된 단계를 따르십시오.
+여정 지표 추적을 시작하려면 아래에 설명된 단계를 수행합니다.
 
 1. **[!UICONTROL 여정]** 메뉴에서 **[!UICONTROL 여정 만들기]**&#x200B;를 클릭합니다.
 
@@ -92,6 +91,6 @@ Customer Journey Analytics 라이선스를 사용하면 사용자 지정 성공 
 
 1. 여정 보고서를 열어 지정된 성공 지표의 성과를 추적합니다.
 
-   선택한 지표가 보고서의 KPI 및 여정 상태 테이블에 표시됩니다.
+   선택한 지표는 보고서의 KPI 및 여정 상태 테이블에 표시됩니다.
 
    ![](assets/success_metric_2.png)
