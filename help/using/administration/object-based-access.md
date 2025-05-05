@@ -92,7 +92,7 @@ Journey Optimizer 개체에 사용자 지정 또는 핵심 데이터 사용 레�
 
 1. 이 레이블 제한을 적용하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하십시오.
 
-이 개체에 액세스하려면 사용자가 **[!UICONTROL 역할]**&#x200B;에 특정 **[!UICONTROL 레이블]**을(를) 포함해야 합니다.
+이 개체에 액세스하려면 사용자가 **[!UICONTROL 역할]**&#x200B;에 특정 **[!UICONTROL 레이블]**&#x200B;을(를) 포함해야 합니다.
 예를 들어 C1 레이블이 있는 사용자는 레이블이 지정되거나 레이블이 지정되지 않은 C1에만 액세스할 수 있습니다.
 
 **[!UICONTROL 역할]**&#x200B;에 **[!UICONTROL Label]**&#x200B;을(를) 할당하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}를 참조하세요.
