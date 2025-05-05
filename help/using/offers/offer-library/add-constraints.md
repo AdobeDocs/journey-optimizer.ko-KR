@@ -74,7 +74,7 @@ ht-degree: 15%
 >id="od_offer_eligibility"
 >title="오퍼 적격성 정보"
 >abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
->additional-url="https://video.tv.adobe.com/v/329373" text="데모 비디오 보기"
+>additional-url="https://video.tv.adobe.com/v/341375?captions=kor" text="데모 비디오 보기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
