@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
 workflow-type: tm+mt
 source-wordcount: '2195'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -24,41 +24,6 @@ ht-degree: 11%
 >id="ajo_journey_read_segment"
 >title="대상자 읽기 활동"
 >abstract="대상자 읽기 활동을 사용하여 Adobe Experience Platform 대상자에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_start_date"
->title="시작 날짜/시간"
->abstract="이 여정을 트리거할 날짜 및 시간을 정의합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_until"
->title="다음 시간까지 반복"
->abstract="반복의 종료 일자를 정의합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_every"
->title="모두 반복"
->abstract="반복 스케줄러 빈도를 정의합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_incremental_read"
->title="증분 읽기"
->abstract="마지막으로 읽은 이후의 새 프로필만 여정에 진입하도록 허용합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="강제 재진입"
->abstract="각 대상자를 읽기 전에 모든 여정 참가자를 드롭합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="일괄 대상자 평가 후 트리거"
->abstract="일괄 처리 대상을 새로 평가한 후 여정 실행을 트리거하려면 이 옵션을 토글합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="새로운 대상 평가를 위한 대기 시간"
->abstract="일괄 처리 대상이 새로 평가될 때까지 여정이 대기할 시간을 지정합니다. 대기 기간은 정수 값으로 제한되며 분 또는 시간 단위로 지정할 수 있으며 1시간에서 6시간 사이여야 합니다."
 
 **대상자 읽기** 활동을 사용하여 대상자의 모든 개인이 여정에 들어가도록 만듭니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 
@@ -131,6 +96,41 @@ ht-degree: 11%
 >샌드박스당 전체 읽기 속도는 초당 20,000개의 프로필로 설정됩니다. 따라서 동일한 샌드박스에서 동시에 실행되는 모든 읽기 대상의 읽기 속도는 초당 최대 20,000개의 프로필을 추가합니다. 이 캡은 수정할 수 없습니다.
 
 ### 여정 예약 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="시작 날짜/시간"
+>abstract="이 여정을 트리거할 날짜 및 시간을 정의합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="다음 시간까지 반복"
+>abstract="반복의 종료 일자를 정의합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="모두 반복"
+>abstract="반복 스케줄러 빈도를 정의합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="증분 읽기"
+>abstract="마지막으로 읽은 이후의 새 프로필만 여정에 진입하도록 허용합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="강제 재진입"
+>abstract="각 대상자를 읽기 전에 모든 여정 참가자를 드롭합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="배치 대상자 평가 후 트리거"
+>abstract="새로운 배치 대상자 평가의 내보내기가 준비되었을 때 트리거 여정을 실행하려면 이 옵션을 토글합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="새 대상자 평가에 대한 대기 시간"
+>abstract="일괄 처리 대상이 새로 평가될 때까지 여정이 대기할 시간을 지정합니다. 대기 기간은 정수 값으로 제한되며 분 또는 시간 단위로 지정할 수 있으며 1시간에서 6시간 사이여야 합니다."
 
 기본적으로 여정은 한 번 실행되도록 구성됩니다. 여정을 실행할 특정 날짜/시간 및 빈도를 정의하려면 아래 단계를 따르십시오.
 
