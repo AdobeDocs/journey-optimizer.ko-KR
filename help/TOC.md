@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: c6553c3012b1be39d8ade96444e3c1b9ded63fa5
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2360'
 ht-degree: 87%
 
 ---
@@ -335,44 +335,20 @@ ht-degree: 87%
       + [Journey Optimizer에서 LINE 채널 구성](using/line/line-configuration.md)
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
-+ 랜딩 페이지 {#landing-pages}
-   + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
-   + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
-   + 콘텐츠 디자인 {#landing-pages-design}
-      + [랜딩 페이지 디자인 정보](using/landing-pages/design-lp.md)
-      + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
-      + [템플릿 만들기](using/landing-pages/lp-templates.md)
-      + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
-   + [구독 목록 만들기](using/landing-pages/subscription-list.md)
-   + [사용 사례를 통해 알아보기](using/landing-pages/lp-use-cases.md)
-   + 랜딩 페이지 구성 {#lp-configuration}
++ 콘텐츠 관리  {#content-management}
+   + 랜딩 페이지 {#landing-pages}
+      + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
+      + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
+      + 콘텐츠 디자인 {#landing-pages-design}
+         + [랜딩 페이지 디자인 정보](using/landing-pages/design-lp.md)
+         + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
+         + [템플릿 만들기](using/landing-pages/lp-templates.md)
+         + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
+      + [구독 목록 만들기](using/landing-pages/subscription-list.md)
+      + [사용 사례를 통해 알아보기](using/landing-pages/lp-use-cases.md)
+      + 랜딩 페이지 구성 {#lp-configuration}
       + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
       + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
-+ 콘텐츠 관리  {#content-management}
-   + 콘텐츠 생성용 AI 어시스턴트{#ai-assistant}
-      + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
-      + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
-      + [AI를 사용한 푸시 생성](using/content-management/generative-push.md)
-      + [AI를 사용한 SMS 생성](using/content-management/generative-sms.md)
-      + [AI를 사용한 웹 생성](using/content-management/generative-web.md)
-      + [AI를 사용한 콘텐츠 실험](using/content-management/generative-experimentation.md)
-      + [AI를 사용한 랜딩 페이지](using/content-management/generative-lp.md)
-      + [AI 어시스턴트 사용 사례](using/content-management/generative-uc.md)
-      + 브랜드(베타){#brands}
-         + [브랜드 생성 및 관리](using/content-management/brands.md)
-         + [브랜드 정렬 점수 평가](using/content-management/brands-score.md)
-   + 다국어 콘텐츠 작업{#content-multilingual}
-      + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
-      + [로케일 만들기](using/content-management/multilingual-locale.md)
-      + [언어 공급자 만들기](using/content-management/multilingual-provider.md)
-      + [수동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-manual.md)
-      + [자동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-automated.md)
-   + 콘텐츠 실험 작업 {#content-experiment}
-      + [콘텐츠 실험 시작](using/content-management/get-started-experiment.md)
-      + [콘텐츠 실험 만들기](using/content-management/content-experiment.md)
-      + 기술 노트 {#technotes}
-         + [통계 계산 이해](using/content-management/experiment-calculations.md)
-         + [실험 보고서의 통계 계산 이해](using/content-management/experiment-report-calculations.md)
    + 개인화 {#personalization}
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 추가](using/personalization/personalization-build-expressions.md)
@@ -412,14 +388,38 @@ ht-degree: 87%
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
+   + 콘텐츠 생성용 AI 어시스턴트{#ai-assistant}
+      + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
+      + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
+      + [AI를 사용한 푸시 생성](using/content-management/generative-push.md)
+      + [AI를 사용한 SMS 생성](using/content-management/generative-sms.md)
+      + [AI를 사용한 웹 생성](using/content-management/generative-web.md)
+      + [AI를 사용한 콘텐츠 실험](using/content-management/generative-experimentation.md)
+      + [AI를 사용한 랜딩 페이지](using/content-management/generative-lp.md)
+      + [AI 어시스턴트 사용 사례](using/content-management/generative-uc.md)
+      + 브랜드(베타){#brands}
+         + [브랜드 생성 및 관리](using/content-management/brands.md)
+         + [브랜드 정렬 점수 평가](using/content-management/brands-score.md)
+   + 다국어 콘텐츠{#content-multilingual}
+      + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
+      + [로케일 만들기](using/content-management/multilingual-locale.md)
+      + [언어 공급자 만들기](using/content-management/multilingual-provider.md)
+      + [수동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-manual.md)
+      + [자동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-automated.md)
+   + 콘텐츠 실험 {#content-experiment}
+      + [콘텐츠 실험 시작](using/content-management/get-started-experiment.md)
+      + [콘텐츠 실험 만들기](using/content-management/content-experiment.md)
+      + 기술 노트 {#technotes}
+         + [통계 계산 이해](using/content-management/experiment-calculations.md)
+         + [실험 보고서의 통계 계산 이해](using/content-management/experiment-report-calculations.md)
 + 대상자, 프로필 및 신원{#audiences-profiles-identities}
    + 대상자 {#audiences}
       + [대상자 시작](using/audience/about-audiences.md)
       + 대상자 만들기 {#create}
          + [세그먼트 정의](using/audience/creating-a-segment-definition.md)
-         + [대상자 구성](using/audience/get-started-audience-orchestration.md)
+         + [대상자 컴포지션](using/audience/get-started-audience-orchestration.md)
          + [사용자 정의 업로드](using/audience/custom-upload.md)
-         + [페더레이션된 대상자 구성](using/audience/federated-audience-composition.md)
+         + [페더레이션된 대상자 컴포지션](using/audience/federated-audience-composition.md)
       + [캠페인 및 여정에서 대상자 활성화](using/audience/target-audiences.md)
       + [보강 속성 활용](using/audience/enrichment-attributes.md)
    + 프로필{#profiles}
