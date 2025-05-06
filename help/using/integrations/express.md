@@ -45,12 +45,12 @@ Enterprise 라이센스를 통해 사용자는 Adobe Express 편집기에 대한
 
 +++사용자를 위한 사용 사례 및 Adobe Express용 엔터프라이즈 라이선스
 
-* [배경 제거](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
-* [개체 제거](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [지우기](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
-* [개체 삽입](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [자르기](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [효과](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+* [배경 제거](https://helpx.adobe.com/kr/express/create-and-edit-images/edit-images/remove-background.html)
+* [개체 제거](https://helpx.adobe.com/kr/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [지우기](https://helpx.adobe.com/kr/express/create-and-edit-images/edit-images/eraser.html)
+* [개체 삽입](https://helpx.adobe.com/kr/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [자르기](https://helpx.adobe.com/kr/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [효과](https://helpx.adobe.com/kr/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
 +++
 
