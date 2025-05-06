@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
+source-git-commit: 5287b117a4fdba9912eb2bc7a1a2bfedcbda0b51
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 46%
+source-wordcount: '977'
+ht-degree: 45%
 
 ---
 
@@ -253,6 +253,9 @@ ht-degree: 46%
 
 ### 개선 사항 {#25-04-improv}
 
+**캠페인 미리 보기 API**
+
+기존 증명 전송 기능 외에 새로운 API를 사용하여 캠페인을 미리 볼 수 있습니다. [자세히 보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
 
 **샌드박스 도구**
 
