@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 55717a2063a61c3eda62d0e09a0c67656c3e3bb1
+source-git-commit: 5873d3dfde3ff7e7e2ac94c7d9b62aa1245c707b
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 46%
@@ -226,6 +226,7 @@ ht-degree: 46%
 <td>
 <p>브랜드 정렬 점수 기능은 이메일 디자이너에서 직접 명확한 피드백을 제공하여 콘텐츠가 브랜드의 색조, 스타일 및 지침에 맞는지 여부를 확인하는 데 도움이 됩니다. 이 기능은 Beta에서 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../content-management/brands-score.md">자세한 설명서</a>를 참조하세요.</p>
+<img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
 </tbody>
