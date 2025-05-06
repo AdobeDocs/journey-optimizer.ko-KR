@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6b7ec8d97a9b8156c615adf19774dab70d2b7451
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 47%
+source-wordcount: '958'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 47%
 
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
+## 2025년 5월 업데이트 {#25-5-rn}
+
+* **개인화를 위한 알약 활성화** - 사용 가능한 날짜: 2025년 5월 5일
+
+  개인화 편집기에 새로운 &quot;알약&quot; 버튼이 추가되었습니다. 활성화되면 프로필 및 컨텍스트 속성이 알약으로 표시되므로 코드의 가독성이 향상됩니다. [자세히 보기](../personalization/personalization-build-expressions.md#options)
+
+  >[!AVAILABILITY]
+  >
+  >이 기능은 향후 30일 동안 모든 환경에 점진적으로 제공될 예정입니다.
 
 ## 2025년 4월 릴리스 정보 {#25-4-rn}
 
@@ -260,10 +269,6 @@ ht-degree: 47%
   이제 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스 간에 캠페인을 복사할 수 있습니다. 캠페인은 프로필, 대상자, 스키마, 인라인 메시지, 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다. 결정 항목, 데이터 사용 레이블, 언어 설정과 같은 일부 항목은 복사되지 않습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
 **개인화**
-
-<!--- **Pills activation**  
-
-  A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
 * **새 컨텍스트 특성**
 
