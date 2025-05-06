@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 에셋, 통합
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 8%
+source-wordcount: '517'
+ht-degree: 7%
 
 ---
 
@@ -34,6 +34,25 @@ Adobe Express에 대한 자세한 내용은 [이 설명서](https://helpx.adobe.
 **[!DNL Adobe Express]** 메뉴에 액세스하려면 전자 메일 디자이너에서 **이미지 설정**&#x200B;에 액세스한 다음 **[!UICONTROL Adobe Express에서 편집]**&#x200B;을 클릭하세요.
 
 ![](assets/express_1.png)
+
+## Adobe Express Enterprise 라이선스 {#licence}
+
+아래 섹션에 설명된 기능은 Adobe Express Enterprise 라이센스가 없는 사용자가 액세스할 수 있습니다.
+
+Enterprise 라이센스를 통해 사용자는 Adobe Express 편집기에 대한 전체 액세스 권한을 얻으므로 색상, 밝기, 선명도, 대비, 치수 및 추가 설정을 조정하여 이미지를 수정할 수 있습니다.
+
+![](assets/express-licence.png)
+
++++사용자를 위한 사용 사례 및 Adobe Express용 엔터프라이즈 라이선스
+
+* [배경 제거](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [개체 제거](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [지우기](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [개체 삽입](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [자르기](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [효과](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+
++++
 
 ## 이미지 크기 조정 {#resize}
 
