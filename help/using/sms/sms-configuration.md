@@ -19,17 +19,17 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Journey Optimizer로 SMS 공급자 구성"
->abstract="Adobe Journey Optimizer는 SMS 서비스 공급자를 통해 문자 메시지를 보냅니다. 공급자를 선택하고 API 자격 증명을 입력합니다."
+>abstract="Adobe Journey Optimizer는 SMS 서비스 제공자를 통해 문자 메시지를 보냅니다. 제공자를 선택하고 API 자격 증명을 입력하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
 >title="Journey Optimizer로 MMS 공급자 구성"
->abstract="Adobe Journey Optimizer는 MMS 서비스 공급자를 통해 미디어 콘텐츠를 보냅니다. 공급자를 선택하고 API 자격 증명을 입력합니다."
+>abstract="Adobe Journey Optimizer는 MMS 서비스 공급자를 통해 미디어 콘텐츠를 보냅니다. 제공자를 선택하고 API 자격 증명을 입력하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Journey Optimizer로 SMS/MMS 공급자 구성"
->abstract="문자 메시지(SMS/MMS)를 보내기 전에 공급자 설정을 Journey Optimizer와 통합해야 합니다. 완료되면 SMS/MMS 구성을 만들어야 합니다. 이 단계는 Adobe Journey Optimizer 시스템 관리자가 수행해야 합니다."
+>title="Journey Optimizer로 SMS/MMS 제공자 구성"
+>abstract="문자 메시지(SMS/MMS)를 전송하기 전에 공급자 설정을 Journey Optimizer와 통합해야 합니다. 이 작업이 완료되면 SMS/MMS 구성을 만들어야 합니다. 이 단계는 Adobe Journey Optimizer 시스템 관리자가 수행해야 합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 채널 구성 만들기"
 
 >[!CONTEXTUALHELP]

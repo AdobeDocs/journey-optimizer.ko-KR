@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
 >title="공급자 URL"
->abstract="외부 API에 연결할 URL을 지정합니다. 이 URL은 API의 기능과 기능에 접근하는 엔드포인트로 사용됩니다."
+>abstract="외부 API에 연결할 URL을 지정합니다. 이 URL은 API의 특징과 기능에 액세스하기 위한 엔드포인트 역할을 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
@@ -66,7 +66,7 @@ Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, I
 
    * **[!UICONTROL 공급자 URL]**: SMS 공급자의 URL을 입력하십시오.
 
-   * **인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.**
+   * **[!UICONTROL 인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.]**
 
      ![](assets/sms-byop.png)
 
@@ -162,4 +162,4 @@ API 자격 증명이 생성되면 JWT 인증에 필요한 필드를 작성합니
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443613?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)
