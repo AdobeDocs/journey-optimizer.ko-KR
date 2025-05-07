@@ -68,4 +68,4 @@ Journey Optimizer에서 캠페인을 처음으로 만들 때는 먼저 다음 �
 
 캠페인을 처음으로 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412406?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
