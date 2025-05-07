@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 ## 새로운 기능
 
-Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](using/rn/release-notes.md)에서 자세히 확인할 수 있습니다.  제품 설명서의 최신 변경 사항을 최신 상태로 유지하려면 [설명서 업데이트 페이지](using/rn/documentation-updates.md)를 방문하십시오.
+Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](using/rn/release-notes.md)에서 자세히 확인할 수 있습니다.  제품 설명서의 최신 변경 사항을 확인하려면 [설명서 업데이트 페이지](using/rn/documentation-updates.md)를 방문하십시오.
 
 >[!BEGINTABS]
 
@@ -28,7 +28,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!TAB Adobe Express 통합]
 
-이제 Adobe Journey Optimizer이 Adobe Express과 통합되어 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다.
+이제 Adobe Journey Optimizer가 Adobe Express와 통합되어 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 

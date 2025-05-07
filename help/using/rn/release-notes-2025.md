@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 2025년 릴리스 정보
-description: Journey Optimizer 2025 릴리스 노트
+description: Journey Optimizer 2025년 릴리스 정보
 feature: Release Notes
 topic: Content Management
 role: User
@@ -11,13 +11,13 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 2025년 릴리스 정보 {#release-notes-2025}
 
-이 페이지에는 2025년에 릴리스된 [!DNL Journey Optimizer]의 모든 기능과 개선 사항이 나와 있습니다.
+이 페이지에서는 2025년에 릴리스된 [!DNL Journey Optimizer]의 모든 기능 및 개선 사항 목록을 확인할 수 있습니다.
 
 ## 25년 3월 릴리스 정보 {#25-3-rn}
 
@@ -188,7 +188,7 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 
 **비즈니스 규칙**
 
-이제 배치 세분화를 통해 여정 및 캠페인에서 일일 캡핑을 사용할 수 있습니다. 일일 캡핑 규칙의 정확도를 보장하려면 캠페인이나 여정을 작성할 때 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보세요.
+이제 배치 세분화를 통해 여정 및 캠페인에서 일일 캡핑을 사용할 수 있습니다. 일일 캡핑 규칙의 정확도를 보장하려면 캠페인이나 여정을 작성할 때 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보십시오.
 
 다시 말씀드리지만, 규칙 세트의 일일 캡핑은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
@@ -196,7 +196,7 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 
 **콘텐츠 템플릿**
 
-HTML 유형 콘텐츠 템플릿은 이제 더 이상 사용되지 않습니다. [!DNL Journey Optimizer]에서 이전에 만든 기존 HTML 콘텐츠 템플릿을 계속 사용할 수 있습니다. [콘텐츠 템플릿에 대해 자세히 알아보기](../content-management/content-templates.md)
+HTML 유형 콘텐츠 템플릿은 이제 사용되지 않습니다. [!DNL Journey Optimizer]에서 이전에 만든 기존 HTML 콘텐츠 템플릿을 계속 사용할 수 있습니다. [콘텐츠 템플릿에 대해 자세히 알아보기](../content-management/content-templates.md)
 
 
 <!--**Deliverability**
@@ -237,13 +237,13 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant를 사용하여 랜딩 페이지 생성</strong><br/></th>
+<th><strong>AI 어시스턴트로 랜딩 페이지 생성</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 AI Assistant를 사용하여 전체 페이지 디자인, 개인화된 텍스트 및 맞춤화된 시각 자료 등 랜딩 페이지에 대한 매력적인 콘텐츠를 제작할 수 있습니다.</p>
+<p>이제 AI 어시스턴트의 도움을 받아 전체 페이지 디자인, 개인화된 텍스트, 사용자 정의 시각 자료 등 랜딩 페이지에 사용할 매력적인 콘텐츠를 제작할 수 있습니다.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>자세한 내용은 <a href="../content-management/generative-lp.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -255,7 +255,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant가 있는 브랜드(Beta)</strong><br/></th>
+<th><strong>AI 어시스턴트를 통한 브랜드 작업(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
