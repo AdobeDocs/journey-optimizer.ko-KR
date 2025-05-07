@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1440'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 96%
 
 * **[!UICONTROL 경고]** - 사용자 인터페이스를 사용하면 Adobe Experience Platform Observability Insights에서 공개한 지표를 기반으로 받은 경고 내역을 볼 수 있습니다. 또한 UI에서 사용 가능한 경고 규칙을 보고, 활성화 및 비활성화할 수 있습니다. [자세히 알아보기](../reports/alerts.md)
 
-* **[!UICONTROL 샌드박스]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. 또한 [!DNL Journey Optimizer]을(를) 사용하면 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. [자세히 알아보기](../administration/sandboxes.md)
+* **[!UICONTROL 샌드박스]** - Adobe Experience Platform은 디지털 경험 애플리케이션을 개발하고 발전시키는 데 도움이 되는 단일 플랫폼 인스턴스를 별도의 가상 환경으로 분할하는 샌드박스를 제공합니다. 또한 [!DNL Journey Optimizer]에서는 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스 간에 여정, 콘텐츠 템플릿 또는 조각과 같은 오브젝트를 복사할 수 있습니다. [자세히 알아보기](../administration/sandboxes.md)
 
 * **[!UICONTROL 채널]** - 이 섹션에서 하위 도메인, 구성, 전달성 설정 등을 지정하여 채널을 구성할 수 있습니다. [자세히 알아보기](../configuration/get-started-configuration.md)
 
@@ -190,10 +190,10 @@ ht-degree: 96%
 
 언어를 변경하는 방법:
 
-* 오른쪽 상단의 아바타에서 **환경 설정**&#x200B;을 클릭합니다.
+* 오른쪽 상단의 아바타에서 **환경 설정**을 클릭합니다.
   ![](assets/preferences.png)
 * 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
-* 기본 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+* 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
   ![](assets/select-language.png)
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->

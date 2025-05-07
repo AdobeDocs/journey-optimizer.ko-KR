@@ -10,9 +10,9 @@ level: Beginner
 keywords: 이메일, 시작, 만들기, 미리보기
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 88%
 <a href="../content-management/generative-email.md">
 <img alt="AI 어시스턴트" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-email.md"><strong>콘텐츠 생성을 위한 AI 도우미</strong>
+<div><a href="../content-management/generative-email.md"><strong>콘텐츠 생성용 AI 어시스턴트</strong>
 </div>
 <p>
 </td>
@@ -87,7 +87,7 @@ ht-degree: 88%
 <img alt="콘텐츠 조각" src="../assets/do-not-localize/patterns.jpg">
 </a>
 <div>
-<a href="../content-management/fragments.md"><strong>전자 메일 콘텐츠 조각 사용</strong></a>
+<a href="../content-management/fragments.md"><strong>이메일 콘텐츠 조각 사용</strong></a>
 </div>
 <p></td>
 <td>
@@ -95,7 +95,7 @@ ht-degree: 88%
 <img alt="콘텐츠 개인화" src="../assets/do-not-localize/personalize.jpg">
 </a>
 <div>
-<a href="../personalization/personalize.md"><strong>전자 메일 콘텐츠 개인화</strong></a>
+<a href="../personalization/personalize.md"><strong>이메일 콘텐츠 개인화</strong></a>
 </div>
 <p>
 </td>
