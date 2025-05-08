@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 877a4d148966bf7d872f762ac78e5c725676a54f
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 21%
+source-wordcount: '1524'
+ht-degree: 23%
 
 ---
 
@@ -23,35 +23,6 @@ ht-degree: 21%
 랜딩 페이지를 만드는 주요 단계는 다음과 같습니다.
 
 ![](assets/lp-creation-process.png)
-
-## 랜딩 페이지 액세스 {#access-landing-pages}
-
-랜딩 페이지 목록에 액세스하려면 왼쪽 메뉴에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 랜딩 페이지]**&#x200B;를 선택하십시오.
-
-![](assets/lp_access-list.png)
-
-**[!UICONTROL 랜딩 페이지]** 목록에 기존의 모든 랜딩 페이지가 표시됩니다. 상태, 수정 날짜 또는 태그를 기준으로 필터링할 수 있습니다.
-
-![](assets/lp_access-list-filter.png)
-
-이 목록에서 랜딩 페이지를 복제, 삭제, 게시 취소하거나 랜딩 페이지 보고서에 액세스할 수도 있습니다. 이를 위해 랜딩 페이지 옆에 있는 세 점을 클릭하고 원하는 작업을 선택합니다.
-
-![](assets/lp_access-list-actions.png)
-
-
-다음과 같은 작업을 수행할 수 있습니다.
-
-* 게시된 랜딩 페이지의 **보고서**&#x200B;에 액세스합니다. [랜딩 페이지 보고서](../reports/lp-report-global-cja.md) 및 [지난 24시간 라이브 보고서](../reports/lp-report-live.md).
-
-* 랜딩 페이지를 **삭제** 또는 **복제**&#x200B;합니다. [게시된](#publish-landing-page) 랜딩 페이지를 삭제할 수 없습니다. 삭제하려면 먼저 **게시 취소**&#x200B;해야 합니다.
-
-* 랜딩 페이지 **게시 취소**&#x200B;합니다.
-
-  >[!CAUTION]
-  >
-  >메시지에서 참조되는 랜딩 페이지의 게시를 취소하면 랜딩 페이지에 대한 링크가 끊어지고 사용자가 액세스하려고 하면 오류 페이지가 표시됩니다.
-
-* 랜딩 페이지의 연결된 [태그](../start/search-filter-categorize.md#tags)을(를) 편집합니다.
 
 ## 랜딩 페이지 만들기 {#create-landing-page}
 
@@ -94,7 +65,7 @@ ht-degree: 21%
 
    ![](assets/lp_primary-page.png)
 
-1. &#x200B;+ 아이콘을 클릭하여 하위 페이지를 추가합니다. 하위 페이지 설정 [여기](#configure-subpages)를 구성하는 방법을 알아보세요.
+1. + 아이콘을 클릭하여 하위 페이지를 추가합니다. 하위 페이지 설정 [여기](#configure-subpages)를 구성하는 방법을 알아보세요.
 
    ![](assets/lp_add-subpage.png)
 
@@ -117,7 +88,7 @@ ht-degree: 21%
 >title="랜딩 페이지 URL 정의"
 >abstract="이 섹션에서는 고유 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 이전에 설정해야 합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains" text="랜딩 페이지 하위 도메인 구성"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=ko#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 기본 페이지는 이메일이나 웹 사이트 등과 같이 사용자가 랜딩 페이지에 대한 링크를 클릭한 후 즉시 표시되는 페이지입니다.
 
@@ -184,7 +155,7 @@ ht-degree: 21%
 >title="랜딩 페이지 URL 정의"
 >abstract="이 섹션에서는 고유 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 이전에 설정해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=ko" text="랜딩 페이지 하위 도메인 구성"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=ko#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 최대 2개의 하위 페이지를 추가할 수 있습니다. 예를 들어 사용자가 양식을 제출하면 표시되는 “감사” 페이지를 만들고, 랜딩 페이지에 문제가 발생하는 경우 호출되는 오류 페이지를 정의할 수 있습니다.
 

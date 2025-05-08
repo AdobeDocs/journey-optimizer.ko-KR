@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: ce76c1b7c60ad3a3ffba7350fd61cf80eb6dad49
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2369'
 ht-degree: 99%
 
 ---
@@ -339,6 +339,7 @@ ht-degree: 99%
    + 랜딩 페이지 {#landing-pages}
       + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
       + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
+      + [랜딩 페이지 관리](using/landing-pages/manage-lp.md)
       + 콘텐츠 디자인 {#landing-pages-design}
          + [랜딩 페이지 디자인 정보](using/landing-pages/design-lp.md)
          + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
@@ -347,8 +348,8 @@ ht-degree: 99%
       + [구독 목록 만들기](using/landing-pages/subscription-list.md)
       + [사용 사례를 통해 알아보기](using/landing-pages/lp-use-cases.md)
       + 랜딩 페이지 구성 {#lp-configuration}
-      + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
-      + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
+         + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
+         + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
    + 개인화 {#personalization}
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 추가](using/personalization/personalization-build-expressions.md)
