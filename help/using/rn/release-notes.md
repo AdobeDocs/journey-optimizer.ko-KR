@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 72553cb3570b375b5bdf9cdebbfbf17e52c805da
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 46%
+source-wordcount: '985'
+ht-degree: 74%
 
 ---
 
@@ -24,6 +24,15 @@ ht-degree: 46%
 
 ## 2025년 5월 업데이트 {#25-5-rn}
 
+* **의사 결정 - 새 AI 수식 빌더** - 사용 가능한 날짜: 2025년 5월 7일
+
+  이제 개선된 새 인터페이스에서 기준을 정의하고 결합하여 구체적인 결정 순위 공식을 만들 수 있습니다. 순위 공식을 사용하면 우선 순위 점수를 고려하지 않고 먼저 표시할 결정 항목을 정하는 규칙을 정의할 수 있습니다.
+
+  자세한 내용은 [자세한 설명서](../experience-decisioning/exd-ranking-formulas.md)를 참조하세요.
+
+  ![](assets/do-not-localize/formula-builder.gif)
+
+
 * **개인화를 위한 알약 활성화** - 사용 가능한 날짜: 2025년 5월 5일
 
   개인화 편집기에 새로운 &quot;알약&quot; 버튼이 추가되었습니다. 활성화되면 프로필 및 컨텍스트 속성이 알약으로 표시되므로 코드의 가독성이 향상됩니다. [자세히 보기](../personalization/personalization-build-expressions.md#options)
@@ -32,7 +41,7 @@ ht-degree: 46%
   >
   >이 기능은 향후 30일 동안 모든 환경에 점진적으로 제공될 예정입니다.
 
-## 2025년 4월 릴리스 정보 {#25-4-rn}
+## 25년 4월 릴리스 정보 {#25-4-rn}
 
 **릴리스 날짜**: 2025년 4월 29~30일
 
@@ -43,13 +52,13 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
-<th><strong>Personalization 편집기 - 학습 방법</strong><br/></th>
+<th><strong>개인화 편집기 - 직접 해보기</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 개인화 표현식을 실험할 수 있는 개인화 플레이그라운드를 사용할 수 있습니다. 이를 통해 샘플 템플릿 및 페이로드를 탐색하여 자신만의 개인화 표현식을 시작하고 시도할 수 있습니다.</p>
+<p>이제 개인화 표현식을 실험할 수 있는 공간인 개인화 플레이그라운드를 사용할 수 있습니다. 이 공간에서 샘플 템플릿과 페이로드를 탐색하며 자신만의 개인화 표현식을 시작하고 시도해 볼 수 있습니다.</p>
 <p>자세한 내용은 <a href="../personalization/personalize.md#playground">세부 설명서</a>를 참조하십시오.</p>
 <p>가용성 일자: 2025년 4월 24일 금요일</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
@@ -164,13 +173,13 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express 통합(제한된 가용성)</strong><br/></th>
+<th><strong>Adobe Express 통합(제한 공개)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer이 Adobe Express과 통합되어 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다. 이러한 통합은 캠페인 간에 개인화된 콘텐츠를 디자인하고 배포하는 프로세스를 간소화합니다. </p>
+<p>이제 Adobe Journey Optimizer가 Adobe Express와 통합되어 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다. 이 통합으로 개인화된 콘텐츠를 디자인하고 여러 캠페인에 걸쳐 배포하는 프로세스가 간소화됩니다. </p>
 <p>이 통합은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>자세한 내용은 <a href="../integrations/express.md">세부 설명서</a>를 참조하십시오.</p>
@@ -182,13 +191,13 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
-<th><strong>일괄 처리 세분화 완료 후 일일 여정 실행 트리거(제한된 가용성)</strong><br/></th>
+<th><strong>배치 세분화 완료 후 일일 여정 실행 트리거(제한 공개)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>일별 예약 여정의 경우 새 옵션을 사용하면 일괄 처리 세분화 작업에서 대상 데이터를 기다리는 최대 6시간의 시간 창을 정의하여 여정이 최신 데이터로 실행되거나 준비되지 않은 경우 건너뛸 수 있습니다. 일괄 처리 후 트리거 대상 평가 옵션은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>일별 예약 여정의 새 옵션을 사용하여 배치 세분화 작업에서 대상자 데이터를 기다리는 최대 6시간의 기간을 정의하면 여정을 최신 데이터로 실행하거나 준비되지 않은 경우 건너뛸 수 있습니다. 배치 대상자 평가 후 트리거 옵션은 현재 일부 조직에서만 사용할 수 있습니다(제한 공개). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="../building-journeys/read-audience.md#schedule">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -264,21 +273,21 @@ ht-degree: 46%
 
   Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
-* **사용자 지정 작업에 대한 샌드박스 도구**
+* **사용자 정의 작업에 샌드박스 도구 적용**
 
-  이제 사용자 지정 작업이 샌드박스 도구 기능을 사용하여 복사할 수 있는 Adobe Journey Optimizer 개체 목록에 포함되어 테스트 및 배포를 간소화합니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
+  이제 샌드박스 도구 기능을 사용하여 복사할 수 있는 Adobe Journey Optimizer 오브젝트 목록에 사용자 정의 작업이 포함되어 테스트 및 배포가 간소화됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
 
-* **캠페인을 위한 샌드박스 도구** - 사용 가능한 날짜: 2025년 4월 3일
+* **캠페인에 샌드박스 도구 적용** - 가용성 일자: 2025년 4월 3일
 
   이제 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스 간에 캠페인을 복사할 수 있습니다. 캠페인은 프로필, 대상자, 스키마, 인라인 메시지, 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다. 결정 항목, 데이터 사용 레이블, 언어 설정과 같은 일부 항목은 복사되지 않습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
 **개인화**
 
-* **새 컨텍스트 특성**
+* **새로운 상황별 속성**
 
-  이제 개인화 편집기에서 새 컨텍스트 특성 **메시지 프로필 ID**&#x200B;을(를) 선택할 수 있습니다. 게재 시 각 타겟팅된 프로필로 전송된 각 메시지를 고유하게 식별하는 메시지 지향 속성입니다. 이 고유 식별자는 예를 들어 수신자가 열거나 클릭한 각 링크를 구별하기 위한 URL 추적 매개 변수로 사용할 수 있습니다.
+  이제 개인화 편집기에서 **메시지 프로필 ID**&#x200B;라는 새 상황별 속성을 선택할 수 있습니다. 이 속성은 게재에서 각 타기팅 프로필로 전송되는 각 메시지를 고유하게 식별하는 메시지 지향 속성입니다. 이 고유 식별자는 예를 들어 수신자가 열거나 클릭한 각 링크를 구별하기 위한 URL 추적 매개 변수로 사용할 수 있습니다.
 
-* **특성 창의 채워진 특성** - 사용 가능한 날짜: 2025년 4월 2일
+* **속성 창의 채워진 속성** - 가용성 일자: 2025년 4월 2일
 
   이제 개인화 편집기의 속성 창에 기본적으로 채워진 속성만 표시됩니다. 모든 속성을 보려면 설정 버튼을 사용하여 **[!UICONTROL 채워진 속성만 표시]** 옵션을 끕니다. [자세히 보기](../personalization/personalization-build-expressions.md)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,9 @@ ht-degree: 2%
 
 +++
 
-## 의사 결정 KPI {#decisioning-kpis}
+## 의사 결정 보고 {#decisioning-reporting}
+
+### 의사 결정 KPI {#decisioning-kpis}
 
 ![](assets/cja-decisioning-kpis.png)
 
@@ -95,7 +97,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 대체 비율]**: 선택 전략이 정규화되지 않아 일반 또는 덜 특정한 옵션이 표시되는 인스턴스의 비율입니다.
 
-## 참여 단계 {#engagement-funnel}
+### 참여 단계 {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
@@ -105,7 +107,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 클릭 수]**: 사용자에게 표시된 개인화된 경험을 사용자가 클릭한 총 횟수입니다.
 
-## 클릭스루 비율별 상위 결정 항목 {#top-decision}
+### 클릭스루 비율별 상위 결정 항목 {#top-decision}
 
 ![](assets/cja-top-decisions-ctr.png)
 
@@ -113,7 +115,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 클릭스루 비율(CTR)]**: 링크, 광고 또는 권장 사항을 클릭하는 사용자의 백분율로, 표시된 횟수와 비교됩니다.
 
-## 선택 전략별 참여 단계 {#engagement-funnel-selection}
+### 선택 전략별 참여 단계 {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
@@ -123,7 +125,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 클릭 수]**: 사용자에게 표시된 개인화된 경험을 사용자가 클릭한 총 횟수입니다.
 
-## 의사 결정 항목 성과 {#decision-items-performance}
+### 의사 결정 항목 성과 {#decision-items-performance}
 
 ![](assets/cja-decisioning-item-performance.png)
 
@@ -133,7 +135,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 클릭 수]**: 사용자에게 표시된 개인화된 경험을 사용자가 클릭한 총 횟수입니다.
 
-## 등급 전략 {#ranking-strategy}
+### 등급 전략 {#ranking-strategy}
 
 >[!NOTE]
 >
@@ -155,7 +157,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 전환율]**: 사용자 작업(예: 클릭 수)을 발생시킨 디스플레이 백분율로, 사용자 참여를 위한 모델의 성공을 나타냅니다.
 
-## 홀드아웃 및 모델 제어 트래픽에 대한 전환율 {#conversion-rate}
+### 홀드아웃 및 모델 제어 트래픽에 대한 전환율 {#conversion-rate}
 
 >[!NOTE]
 >
@@ -168,3 +170,7 @@ ht-degree: 2%
 * **모델 기반**: 사용자는 관련성 및 참여에 최적화된 AI 모델로 등급이 지정된 콘텐츠를 받습니다.
 
 * **보류 중**: 사용자는 모델의 탐색 단계에서 임의로 제공되는 콘텐츠를 받습니다.
+
+>[!CAUTION]
+>
+>[순위 수식](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)에 통합된 AI 모델을 사용할 때 데이터가 전환율 보고서에 반영되지 않습니다.
