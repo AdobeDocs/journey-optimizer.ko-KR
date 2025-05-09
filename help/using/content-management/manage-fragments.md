@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 19%
@@ -21,7 +21,7 @@ ht-degree: 19%
 
 조각을 관리하려면 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴에서 조각 목록에 액세스하십시오.
 
-[조각으로 저장](#save-as-fragment) 옵션을 사용하여 **[!UICONTROL 조각]** 메뉴[&#128279;](#create-fragments)의 현재 샌드박스에서 만든 모든 조각이 표시됩니다.
+[조각으로 저장](#save-as-fragment) 옵션을 사용하여 **[!UICONTROL 조각]** 메뉴](#create-fragments)의 [현재 샌드박스에서 만든 모든 조각이 표시됩니다.
 
 왼쪽 창에서 조각을 폴더로 구성할 수 있습니다. 기본적으로 모든 조각이 표시됩니다. 폴더를 선택할 때는 선택한 폴더에 포함된 조각과 폴더만 표시됩니다. [자세히 알아보기](#folders)
 
@@ -94,7 +94,7 @@ ht-degree: 19%
 
 1. **[!UICONTROL 추가 작업]** 단추를 사용하여 다른 기존 폴더로 조각을 이동할 수도 있습니다.
 
-   ![](assets/fragment-folder-moved.png)
+   <!--![](assets/fragment-folder-moved.png)-->
 
 1. 이제 방금 만든 폴더로 이동할 수 있습니다. 여기에서 [만들기](create-fragments.md)하는 각 새 조각은 현재 폴더에 저장됩니다.
 
