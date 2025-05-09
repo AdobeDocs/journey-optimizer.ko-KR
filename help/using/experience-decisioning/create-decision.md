@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1777'
 ht-degree: 11%
 
 ---
@@ -246,6 +246,10 @@ ht-degree: 11%
        }
    }
    ```
+
+   >[!CAUTION]
+   >
+   >`dryRun` 플래그를 요청에 추가하면 보고용 피드백이 캡처되지 않고 빈도 카운터가 추가되지 않습니다.
 
 1. 이제 사용자 지정 [Customer Journey Analytics 보고 대시보드](cja-reporting.md)를 만들어 의사 결정의 성과를 확인할 수 있습니다.
 
