@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8c08461b82aea5680c3fa9631f5361b78daafe6
+source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 73%
+source-wordcount: '1022'
+ht-degree: 70%
 
 ---
 
@@ -20,22 +20,21 @@ ht-degree: 73%
 >title="새로운 기능"
 >abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선, 버그 수정을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
 
-[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}를 참조하십시오.
 
 ## 2025년 5월 업데이트 {#25-5-rn}
 
+* **랜딩 페이지용 폴더** - 가용성 일자: 2025년 5월 9일 토요일
+
+  이제 랜딩 페이지를 쉽게 관리하기 위해 폴더를 사용하여 간소화된 계층 구조로 보다 효과적으로 구성할 수 있습니다.  [자세히 보기](../landing-pages/manage-lp.md)
+
 * **의사 결정 - 새 AI 수식 빌더** - 사용 가능한 날짜: 2025년 5월 7일
 
-  이제 개선된 새 인터페이스에서 기준을 정의하고 결합하여 구체적인 결정 순위 공식을 만들 수 있습니다. 순위 공식을 사용하면 우선 순위 점수를 고려하지 않고 먼저 표시할 결정 항목을 정하는 규칙을 정의할 수 있습니다.
+  이제 개선된 새 인터페이스에서 기준을 정의하고 결합하여 구체적인 결정 순위 공식을 만들 수 있습니다. 정적 오퍼 우선 순위에만 의존하는 대신 안내가 있는 인터페이스를 통해 AI 모델 점수, 오퍼 우선 순위, 프로필 속성, 오퍼 속성 및 컨텍스트 신호를 결합하는 사용자 지정 등급 공식을 정의할 수 있습니다.
 
   자세한 내용은 [자세한 설명서](../experience-decisioning/exd-ranking-formulas.md)를 참조하세요.
 
   ![](assets/do-not-localize/formula-builder.gif)
-
-
-* **랜딩 페이지용 폴더** - 가용성 일자: 2025년 5월 7일 목요일
-
-  이제 랜딩 페이지를 쉽게 관리하기 위해 폴더를 사용하여 보다 효율적으로 간소화된 계층 구조로 구성할 수도 있습니다.  [자세히 보기](../landing-pages/manage-lp.md)
 
 * **개인화를 위한 알약 활성화** - 사용 가능한 날짜: 2025년 5월 5일
 
@@ -238,7 +237,7 @@ ht-degree: 73%
 <tr>
 <td>
 <p>브랜드 정렬 점수 기능은 이메일 디자이너에서 직접 명확한 피드백을 제공하여 콘텐츠가 브랜드의 색조, 스타일 및 지침에 맞는지 여부를 확인하는 데 도움이 됩니다. 이 기능은 Beta에서 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../content-management/brands-score.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../content-management/brands-score.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
