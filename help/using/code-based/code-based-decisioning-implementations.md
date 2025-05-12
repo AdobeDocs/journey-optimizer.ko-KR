@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
+source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 코드 기반 경험에서 Decisioning을 사용할 때 아래에 설명된 경우 클라이언트 구현에 다음 플래그를 추가하는 것이 좋습니다.
 
-## 의사 결정을 사용하여 코드 기반 경험 테스트
+## 의사 결정을 사용하여 코드 기반 경험 테스트 {#code-based-test-decisions}
 
 현재 [코드 기반 경험](create-code-based.md) 캠페인이나 여정에서 의사 결정을 사용하여 사용자 인터페이스의 콘텐츠를 시뮬레이션할 수 없습니다.
 
 해결 방법으로, 클라이언트 구현의 XDM 이벤트 `data` 블록에 `dryRun` 플래그를 추가하여 캠페인을 게시한 후 의사 결정을 테스트할 수 있습니다.
 
     &quot;
-    &lbrace;
-    &quot;data&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;data&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
+    }
     
     
     
