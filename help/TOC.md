@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ce76c1b7c60ad3a3ffba7350fd61cf80eb6dad49
+source-git-commit: fe909a37c67030e59c665a80292feb8d289ddd35
 workflow-type: tm+mt
-source-wordcount: '2369'
+source-wordcount: '2374'
 ht-degree: 99%
 
 ---
@@ -311,6 +311,7 @@ ht-degree: 99%
          + [가드레일 및 사전 요구 사항](using/code-based/code-based-prerequisites.md)
          + [코드 기반 경험 표면](using/code-based/code-based-surface.md)
          + [구현 방법 샘플](using/code-based/code-based-implementation-samples.md)
+         + [코드 기반 구현에서 데이터 중복 제거 의사 결정](using/code-based/code-based-decisioning-deduplication.md)
          + [코드 기반 경험 구성 만들기](using/code-based/code-based-configuration.md)
       + 코드 기반 경험 만들기 {#create-code-based-experiences}
          + [코드 기반 경험 구축 및 구성](using/code-based/create-code-based.md)
