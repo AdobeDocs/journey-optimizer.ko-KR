@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
+source-git-commit: 85fc6bdc6386f52374172d50667edeea5344011f
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 26%
+source-wordcount: '506'
+ht-degree: 25%
 
 ---
 
@@ -51,7 +51,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 ![개인화 플레이그라운드](assets/playground.png)
 
-➡️0&rbrace;개인화 플레이그라운드에 액세스[&#128279;](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️0}개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}[
 
 ## 더 자세히 알아보기
 
@@ -77,7 +77,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 </td>
 <td>
 <a href="../personalization/functions/functions.md">
-<img alt="드물게" src="assets/do-not-localize/functions.png">
+<img alt="저빈도" src="assets/do-not-localize/functions.png">
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>도우미 함수 목록</strong></a>
@@ -85,7 +85,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 <p></td>
 <td>
 <a href="../personalization/personalization-use-case.md">
-<img alt="드물게" src="assets/do-not-localize/uc.png">
+<img alt="저빈도" src="assets/do-not-localize/uc.png">
 </a>
 <div>
 <a href="../personalization/personalization-use-case.md"><strong>Personalization 사용 사례</strong></a>
@@ -97,9 +97,12 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 여정에서 얻은 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448143?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 메시지에 프로필 기반 개인 맞춤화를 추가하는 방법과 개인 맞춤화 블록의 전제 조건으로 대상자 멤버십을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416272?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
+개인화 편집기 플레이그라운드를 활용하여 샘플 데이터를 사용하여 개인화 코드를 작성하고 테스트하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
