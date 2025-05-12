@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
+source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 11%
+source-wordcount: '1718'
+ht-degree: 12%
 
 ---
 
@@ -223,34 +223,14 @@ ht-degree: 11%
 
 1. 변경 내용을 확인하려면 **[!UICONTROL 저장 후 닫기]**&#x200B;를 클릭하십시오.
 
-## 코드 기반 경험 테스트 및 게시 {#test-and-publish}
-
-아래 단계에 따라 코드 기반 경험을 완료하고 변경 사항을 라이브로 적용하십시오.
-
 1. 코드 기반 경험 캠페인이나 여정을 검토하고 게시합니다. [방법 알아보기](../code-based/publish-code-based.md)
 
    이제 개발자가 채널 구성에 정의된 표면에 대한 콘텐츠를 가져오기 위해 API 또는 SDK을 호출하면 변경 사항이 웹 페이지 또는 앱에 적용됩니다.
 
-1. 현재 [코드 기반 경험](../code-based/create-code-based.md) 캠페인이나 여정에서 의사 결정을 사용하여 사용자 인터페이스의 콘텐츠를 시뮬레이션할 수 없습니다.
-
-   해결 방법으로, 클라이언트 구현의 XDM 이벤트 `data` 블록에 `dryRun` 플래그를 추가하여 캠페인을 게시한 후 의사 결정을 테스트할 수 있습니다.
-
-   ```
-   {
-       "data": {
-           "__adobe": {
-               "ajo": {
-                   "dryRun": true
-               }
-           }
-       }
-   }
-   ```
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >`dryRun` 플래그를 요청에 추가하면 보고용 피드백이 캡처되지 않고 빈도 카운터가 추가되지 않습니다.
+   >현재 [코드 기반 경험](../code-based/create-code-based.md) 캠페인이나 여정에서 의사 결정을 사용하여 사용자 인터페이스의 콘텐츠를 시뮬레이션할 수 없습니다. [이 섹션](../code-based/code-based-decisioning-implementations.md)에서 해결 방법을 사용할 수 있습니다.
 
-1. 이제 사용자 지정 [Customer Journey Analytics 보고 대시보드](cja-reporting.md)를 만들어 의사 결정의 성과를 확인할 수 있습니다.
+1. 의사 결정의 성과를 확인하려면 사용자 지정 [Customer Journey Analytics 보고 대시보드](cja-reporting.md)를 만들 수 있습니다.
 
 
