@@ -26,12 +26,12 @@ ht-degree: 0%
 해결 방법으로, 클라이언트 구현의 XDM 이벤트 `data` 블록에 `dryRun` 플래그를 추가하여 캠페인을 게시한 후 의사 결정을 테스트할 수 있습니다.
 
     &quot;
-    {
-    &quot;data&quot;: {
-    &quot;__adobe&quot;: {
-    &quot;ajo&quot;: {
+    &lbrace;
+    &quot;data&quot;: &lbrace;
+    &quot;__adobe&quot;: &lbrace;
+    &quot;ajo&quot;: &lbrace;
     &quot;dryRun&quot;: true
-    }
+    &rbrace;
     
     
     
