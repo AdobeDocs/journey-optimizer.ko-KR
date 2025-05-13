@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: c403769a872ac6b4720ec6aaae9eda5d68da96c5
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1679'
 ht-degree: 10%
 
 ---
@@ -22,6 +22,11 @@ ht-degree: 10%
 >id="ajo_journey_event_unitary"
 >title="단일 이벤트"
 >abstract="이벤트 구성에서는 Journey Optimizer가 이벤트로 수신할 정보를 정의할 수 있습니다. 여정의 각 단계에서 여러 이벤트를 사용할 수 있으며 여러 여정에서 같은 이벤트를 사용할 수도 있습니다. 단일 이벤트는 특정 프로필에 연결됩니다. 단일 이벤트는 규칙 기반이거나 시스템 생성일 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_parameters_supplemental_identifier"
+>title="보조 식별자 사용"
+>abstract="보조 식별자는 여정 실행에 대한 추가 컨텍스트를 제공하는 보조 식별자입니다. 이를 정의하려면 보조 식별자로 사용할 필드를 선택하고 연결할 네임스페이스를 선택합니다."
 
 단일 이벤트는 특정 프로필에 연결됩니다. 규칙 기반 또는 시스템 생성 방식일 수 있습니다.  단일 이벤트 [이 섹션](../event/about-events.md)에 대해 자세히 알아보세요.
 
