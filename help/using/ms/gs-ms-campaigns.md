@@ -1,44 +1,65 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 오케스트레이션된 캠페인 시작
+title: 오케스트레이션 캠페인 시작
 description: 오케스트레이션된 캠페인으로 시작하는 방법 알아보기
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 16%
+source-wordcount: '529'
+ht-degree: 21%
 
 ---
 
-# 오케스트레이션된 캠페인 시작 {#ms-camp}
+# 오케스트레이션 캠페인 시작 {#ms-camp}
 
->[!BEGINSHADEBOX]
 
-**목차**
++++목차
 
-* 구성: [오케스트레이션된 캠페인 구성](gs-campaign-config.md)
-* 구성: [관계형 스키마 만들기](ms-schemas.md)
-* 오케스트레이션된 첫 번째 캠페인 만들기: [주요 원칙](gs-campaign-creation.md)
+환영합니다.
+
+* 오케스트레이션 캠페인 시작
+* [주요 원칙](gs-campaign-creation.md)
+* [오케스트레이션된 캠페인을 만드는 단계](gs-campaign-steps.md)
+
+
+구성 단계
+
+* [관계적 스키마 만들기](ms-schemas.md)
+
+만들기 단계
+
 * [오케스트레이션된 캠페인 만들기](create-ms-campaign.md)
 * [캠페인 설정 구성](ms-campaign-settings.md)
-* [메시지 개인화](ms-personalization.md)
-* [쿼리 작성](ms-query-modeler.md)
-* [메시지 테스트 및 유효성 검사](ms-proofs.md)
 * [캠페인 예약 및 시작](start-monitor-campaigns.md)
-* 활동: [활동 시작](activities/about-activities.md)
+* [쿼리 작성](ms-query-modeler.md)
+
+활동
+
+* [활동 시작](activities/about-activities.md)
 * [활동 오케스트레이션](orchestrate-activities.md)
-* [및 연결](activities/and-join.md) - [대상 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [채널 작업](activities/channels.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [분할](activities/split.md) - &lt;!—[테스트](activities/test.md) —> [대기](activities/wait.md)
-* 모니터링: [보고](reporting-campaigns.md)
+* [및 연결](activities/and-join.md) - [대상 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [분할](activities/split.md) - <!--[Test](activities/test.md) --> [대기](activities/wait.md)
 
->[!ENDSHADEBOX]
 
-오케스트레이션된 캠페인은 강력한 브랜드가 시작한 일괄 캠페인 기능을 도입하여 Adobe Journey Optimizer을 향상하므로 고급 세분화 전략을 사용하여 크로스 채널 캠페인을 계획하고 오케스트레이션할 수 있습니다.
+메시지
+
+* [채널 작업](activities/channels.md)
+* [메시지 개인화](ms-personalization.md)
+* [메시지 테스트 및 유효성 검사](ms-proofs.md)
+
+보고 및 모니터링
+
+* [보고](reporting-campaigns.md)
+
++++
+
 
 ## 오케스트레이션된 캠페인이란?
+
+오케스트레이션된 캠페인은 강력한 브랜드가 시작한 일괄 캠페인 기능을 도입하여 Adobe Journey Optimizer을 향상하므로 고급 세분화 전략을 사용하여 크로스 채널 캠페인을 계획하고 오케스트레이션할 수 있습니다.
 
 크로스 채널 마케팅은 고객에게 효과적으로 다가가고자 하는 모든 비즈니스에 필수적입니다. Adobe Journey Optimizer은 마케팅 캠페인을 쉽게 관리하는 데 도움이 되는 복잡한 프로세스를 디자인할 수 있는 포괄적인 그래픽 환경을 제공합니다. 오케스트레이션된 캠페인을 통해 프로세스 및 작업의 전체 범위를 오케스트레이션하고, 세그먼트 만들기, 메시지 준비에서 게재에 이르기까지 마케팅 캠페인의 모든 측면에 대한 속도와 규모를 개선할 수 있습니다. 또한 캠페인 오케스트레이션을 위해 사용하기 쉬운 단일 인터페이스로 채널을 동기화할 수 있습니다.
 
@@ -82,7 +103,7 @@ Campaign Orchestration은 데이터 중심의 의사 결정을 가능하게 하�
 </td>
 <td>
 <a href="activities/about-activities.md">
-<img alt="드물게" src="assets/do-not-localize/workflow-activities.jpeg">
+<img alt="저빈도" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
 <a href="activities/about-activities.md"><strong>활동 작업</strong></a>

@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 86%
 
 ---
 
@@ -28,13 +28,13 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!TAB Adobe Express 통합]
 
-이제 Adobe Journey Optimizer가 Adobe Express와 통합되어 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다.
+이제 Adobe Journey Optimizer이 Adobe Express과 통합되어 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB AI 어시스턴트]
 
-✨ 기능을 직접 탐색하며 완전히 이해할 수 있도록 설계된 [AI 어시스턴트](../help/using/content-management/gs-generative.md) 라이브 기능 미리 보기를 통해 몰입형 실습 경험을 제공합니다.
+✨ 기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 디자인된 [AI Assistant](../help/using/content-management/gs-generative.md) 실시간 기능 미리 보기를 통해 실습 경험에 몰입하십시오.
 
 [![자세히 알아보기](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
