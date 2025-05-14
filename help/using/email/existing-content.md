@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 이메일, 가져오기, 콘텐츠, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -37,11 +37,11 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십
 
    ![](assets/html-imported_2.png)
 
-1. HTML 콘텐츠를 업로드하면 콘텐츠가 **[!UICONTROL 호환성 모드]**&#x200B;에 있게 됩니다.
+1. HTML 콘텐츠가 업로드되면 콘텐츠가 **[!UICONTROL 호환성 모드]**&#x200B;가 됩니다.
 
    이 모드에서는 텍스트를 개인화하거나, 링크를 추가하거나, 콘텐츠에 에셋을 포함할 수 있습니다.
 
-1. 이메일 Designer 콘텐츠 구성 요소를 활용하려면 **[!UICONTROL HTML 변환기]** 탭에 액세스하여 **[!UICONTROL 변환]**&#x200B;을(를) 클릭합니다.
+1. 이메일 Designer 콘텐츠 구성 요소를 활용하려면 **[!UICONTROL HTML 변환기]** 탭에 액세스하여 **[!UICONTROL 변환]**&#x200B;을 클릭합니다.
 
    ![](assets/html-imported.png)
 
@@ -49,10 +49,10 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십
    >
    > `<table>` 태그를 HTML 파일의 첫 번째 레이어로 사용하면 맨 위 레이어 태그의 배경 및 너비 설정을 포함하여 스타일이 손실될 수 있습니다.
 
-1. 이제 필요에 따라 가져온 파일을 전자 메일 Designer 기능 [자세히 알아보기](content-from-scratch.md)을 통해 개인화할 수 있습니다.
+1. 이제 이메일 Designer 기능을 통해 필요에 따라 가져온 파일을 개인화할 수 있습니다. [자세히 알아보기](content-from-scratch.md)
 
 ## 방법 비디오 {#video}
 
 기존 HTML 콘텐츠를 가져오고, 디자인을 수정하고, 미러 페이지와 구독 취소 링크를 추가하고, 콘텐츠를 코딩하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421913?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

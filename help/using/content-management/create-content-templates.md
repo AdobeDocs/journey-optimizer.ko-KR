@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '661'
 ht-degree: 16%
 
 ---
@@ -80,6 +80,10 @@ ht-degree: 16%
    ![](assets/content-template-back.png)
 
 이제 [!DNL Journey Optimizer] 내에서 콘텐츠를 작성할 때 이 템플릿을 사용할 준비가 되었습니다. [방법 알아보기](#use-content-templates)
+
+>[!NOTE]
+>
+>이메일 콘텐츠 템플릿을 만들 때 브랜드와 디자인에 맞는 특정 스타일을 빠르게 적용하려면 콘텐츠에 테마를 적용할 수 있습니다. [자세히 알아보기](../email/apply-email-themes.md)
 
 ## 콘텐츠를 콘텐츠 템플릿으로 저장 {#save-as-template}
 

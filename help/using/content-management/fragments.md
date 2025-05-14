@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 13%
 
 ---
@@ -27,16 +27,16 @@ ht-degree: 13%
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
-➡️[이 비디오에서 조각을 관리, 작성 및 사용하는 방법을 알아봅니다](#video-fragments)
+➡️ [이 비디오에서 조각을 관리, 작성 및 사용하는 방법을 알아봅니다.](#video-fragments)
 
 조각을 최대한 활용하려면 다음을 수행하십시오.
 
-* **나만의 조각 만들기**: 처음부터 만들거나 콘텐츠를 조각으로 저장하여 시각적 또는 표현식 조각을 만듭니다. [조각을 만드는 방법을 알아보세요](#create-fragments). 또한 Journey Optimizer **콘텐츠 REST API**&#x200B;를 활용하여 콘텐츠 조각을 관리할 수 있습니다. 자세한 내용은 [Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}를 참조하세요.
+* **나만의 조각 만들기**: 처음부터 만들거나 콘텐츠를 조각으로 저장하여 시각적 또는 표현식 조각을 만듭니다. [조각을 만드는 방법을 알아보세요](create-fragments.md). 또한 Journey Optimizer **콘텐츠 REST API**&#x200B;를 활용하여 콘텐츠 조각을 관리할 수 있습니다. 자세한 내용은 [Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}를 참조하세요.
 * **조각 재사용:** 콘텐츠에 필요한 만큼 조각을 사용합니다. [시각적 조각 추가](../email/use-visual-fragments.md) 및 [식 조각 활용](../personalization/use-expression-fragments.md)을 참조하십시오.
 
 ## 시작하기 전 {#fragment-prerequisites}
 
-조각을 만들고, 편집하고, 보관하고, 게시하려면 **[!DNL Content Library Manager]** 제품 프로필에 포함된 **[!DNL Manage library items]** 및 **[Publish 조각]** 권한이 필요합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+조각을 만들고, 편집하고, 보관하고, 게시하려면 **[!DNL Content Library Manager]** 제품 프로필에 포함된 **[!DNL Manage library items]** 및 **[조각 게시]** 권한이 필요합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
 이 버전에서는 다음 제한 사항이 적용됩니다.
 
@@ -62,4 +62,4 @@ ht-degree: 13%
 
 [!DNL Journey Optimizer]에서 **표현식 조각**&#x200B;을(를) 관리, 작성 및 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3438924/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

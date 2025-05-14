@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 16%
+source-wordcount: '700'
+ht-degree: 14%
 
 ---
 
@@ -66,6 +66,14 @@ ht-degree: 16%
 * 시각적 조각의 경우 여정 또는 캠페인 내의 이메일에 대해 수행하는 것과 동일한 방식으로 콘텐츠를 필요에 따라 편집합니다. [자세히 알아보기](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
+
+  브랜드와 디자인에 맞는 특정 스타일을 빠르게 적용하려면 조각에 [테마](../email/apply-email-themes.md)를 적용하세요.
+
+  ![](assets/fragment-themes.png)
+
+  >[!CAUTION]
+  >
+  >조각은 테마와 클래식 모드 간에 상호 호환되지 않습니다. 테마를 적용할 콘텐츠에서 조각을 사용할 수 있으려면 테마 모드에서 이 조각을 만들어야 합니다. [테마에 대해 자세히 알아보기](../email/apply-email-themes.md)
 
 * 표현식 조각의 경우 [!DNL Journey Optimizer] 개인화 편집기와 모든 개인화 및 작성 기능을 활용하여 조각 콘텐츠를 작성합니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
