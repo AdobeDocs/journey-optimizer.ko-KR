@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 18%
+source-wordcount: '496'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="기본 제공 채널 작업"
->abstract="Journey Optimizer에는 채널 작업 기능이 빌트인되어 있습니다. 여정에 아웃바운드(이메일, 문자 메시지(SMS/MMS), 푸시) 또는 인바운드(인앱, 웹, 코드 기반 경험, 콘텐츠 카드) 활동을 간단히 추가하고 설정과 콘텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
+>abstract="Journey Optimizer는 채널 작업 기능을 기본 제공합니다. 메시지(이메일, 문자 메시지(SMS/MMS), 푸시) 또는 인바운드 경험(인앱, 웹, 코드 기반 경험, 컨텐츠 카드) 활동을 여정에 추가하고 설정 및 컨텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
 
 [!DNL Journey Optimizer]에는 메시지를 보내는 데 사용되는 기본 제공 채널 작업 기능이 포함되어 있습니다. 프로필이 이 활동에 들어가면 메시지를 보냅니다.
 
@@ -60,7 +60,7 @@ ht-degree: 18%
       </td>
       <td>
       <a href="../push/create-push.md">
-      <img alt="드물게" src="../assets/do-not-localize/push.jpg">
+      <img alt="저빈도" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
       <a href="../push/create-push.md"><strong>푸시 알림 만들기<strong></a>
@@ -109,7 +109,7 @@ ht-degree: 18%
       </td>
       <td>
       <a href="../code-based/create-code-based.md">
-      <img alt="드물게" src="../assets/do-not-localize/web-design.jpg">
+      <img alt="저빈도" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
       <a href="../code-based/create-code-based.md"><strong>코드 기반 경험 만들기<strong></a>
@@ -121,7 +121,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->* 각 인바운드 메시지 활동은 3일 **대기** 활동과 함께 제공됩니다. [자세히 알아보기](wait-activity.md#auto-wait-node)
+>* 각 인바운드 경험 활동에는 3일 **대기** 활동이 제공됩니다. [자세히 알아보기](wait-activity.md#auto-wait-node)
 >
 >* 이메일 및 푸시 알림의 경우 전송 시간 최적화를 활성화할 수 있습니다. [자세히 알아보기](send-time-optimization.md)
 
