@@ -19,14 +19,14 @@ ht-degree: 20%
 >id="ajo_exd_config_strategies"
 >title="선택 전략 정의"
 >abstract="선택 전략은 재사용 가능하며, 결정 정책에서 선택 시 표시할 제안을 결정하기 위한 자격 조건 및 순위 지정 방법과 관련된 컬렉션으로 구성됩니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="결정 정책 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=ko" text="결정 정책 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="적격 프로필 제한"
 >abstract="이 선택 전략에 대한 오퍼 선택을 제한할 수 있습니다. 기본적으로 모든 프로필이 적격하지만 대상자 또는 규칙을 사용하여 특정 프로필로만 오퍼 선택을 제한할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="대상자 사용"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="의사 결정 규칙 사용"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=ko" text="대상자 사용"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=ko" text="의사 결정 규칙 사용"
 
 선택 전략은 다시 사용할 수 있으며, [의사 결정 정책](create-decision.md)에서 선택할 때 표시할 오퍼를 결정하는 자격 제한 및 순위 방법과 관련된 컬렉션으로 구성됩니다.
 
@@ -88,7 +88,7 @@ ht-degree: 20%
 >id="ajo_exd_strategy_ranking"
 >title="오퍼 순위 지정하는 방법에 대한 정의"
 >abstract="특정 선택 전략에 여러 오퍼가 적합한 경우 선택 전략을 만들 때 각 프로필에 가장 적합한 오퍼를 선택하는 방법(우선순위 또는 순위 공식)을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="결정 정책 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=ko" text="결정 정책 만들기"
 
 여러 오퍼가 주어진 선택 전략에 적합한 경우 선택 전략을 생성할 때 각 프로필에 가장 적합한 오퍼를 선택하는 방법을 선택할 수 있습니다. 오퍼의 순위를 지정할 수 있는 기준:
 
