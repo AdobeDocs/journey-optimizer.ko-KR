@@ -5,10 +5,8 @@ feature: Ranking, Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: ec5baea16b5dcd0f3ab9713020c918aa414ea46b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
@@ -18,8 +16,6 @@ ht-degree: 0%
 # AI 수식 빌더 사용 {#create-ranking-formulas}
 
 **등급 수식**&#x200B;을 사용하면 우선 순위 점수를 고려하지 않고 먼저 제시해야 할 오퍼를 결정하는 규칙을 정의할 수 있습니다.
-
-<!--In today's world, relevance demands more than static priorities.The new formula builder in **[!UICONTROL Adobe Journey Optimizer]** empowers marketers to dynamically rank offers by blending AI-driven model scores with business priorities, offer attributes, and contextual signals — no coding required.-->
 
 이러한 규칙을 만들기 위해 **[!UICONTROL Adobe Journey Optimizer]**&#x200B;의 AI 수식 빌더는 오퍼의 등급을 매기는 방법을 보다 유연하게 제어하고 제어할 수 있습니다. 이제 정적 오퍼 우선 순위에만 의존하는 대신 안내가 있는 인터페이스를 통해 AI 모델 점수, 오퍼 우선 순위, 프로필 속성, 오퍼 속성 및 컨텍스트 신호를 결합하는 사용자 지정 등급 공식을 정의할 수 있습니다.
 
@@ -84,8 +80,6 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
    ![](assets/ranking-formula-criterion-1.png){width="70%"}
 
-   <!--You can refer to [offer attributes](items.md#attributes), profile attributes, or [context data](context-data.md).-->
-
 1. 선택적으로 추가 요소를 지정하여 기준이 true가 되도록 일치하는 조건을 구체화할 수 있습니다.
 
    ![](assets/ranking-formula-addtional-conditions.png){width="80%"}
@@ -118,7 +112,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
 ### 순위 공식 예
 
-아래 예제를 생각해 보십시오. <!--To be checked by PM-->
+아래 예를 생각해 보십시오.
 
 ![](assets/ranking-formula-example.png){width="80%"}
 
