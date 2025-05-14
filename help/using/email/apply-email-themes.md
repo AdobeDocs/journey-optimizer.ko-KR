@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 향상된 이메일 작성 환경
 description: 재사용 가능한 테마 및 모듈로 이메일 생성을 간소화하여 캠페인에서 디자인 일관성과 효율성을 보장하는 방법을 알아봅니다.
-feature: Email Theme Management, Modules
-topic: Email Design
-role: Marketer
-level: Intermediate
+feature: Email Design
+topic: Content Management
+role: User
+level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: d550765b378bfa2fdf0638da01c297792e0876ef
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 3%
