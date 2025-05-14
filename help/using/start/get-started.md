@@ -8,22 +8,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 86%
 
 ---
 
 # Journey Optimizer 시작 {#cjm-gs}
 
-## [!DNL Adobe Journey Optimizer] (이)란? {#about-cjm}
+## [!DNL Adobe Journey Optimizer] (이)란?{#about-cjm}
 
-[!DNL Adobe Journey Optimizer]는 기업이 고객에게 연관성 있고 상황에 맞는 개인화된 경험을 제공할 수 있도록 해줍니다. 고객 여정은 고객이 브랜드와 상호 작용하는 전체 프로세스로, 첫 접촉 순간부터 고객이 떠나는 시점까지 이어집니다. 브랜드에 대해 알아보고 높이고 참여를 유도하는 인지도 단계로 시작합니다. 고객은 해당 브랜드와 보다 효과적으로 상호 작용하고, 온라인 및 물리적 사이트를 방문하며, 구매, 메시지 전송 또는 게시물 검토를 수행합니다.
+[!DNL Adobe Journey Optimizer]는 기업이 고객에게 연관성 있고 상황에 맞는 개인화된 경험을 제공할 수 있도록 해 줍니다. 고객 여정은 고객이 브랜드와 상호 작용하는 전체 프로세스로, 첫 접촉 순간부터 고객이 떠나는 시점까지 이어집니다. 브랜드에 대해 알아보고 높이고 참여를 유도하는 인지도 단계로 시작합니다. 고객은 해당 브랜드와 보다 효과적으로 상호 작용하고, 온라인 및 물리적 사이트를 방문하며, 구매, 메시지 전송 또는 게시물 검토를 수행합니다.
 
 [!DNL Adobe Journey Optimizer]은(는) 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 개인화 및 최적화를 위한 통합 실시간 고객 프로필, API 우선 오픈 프레임워크, 중앙 집중식 Offer Decisioning 및 AI(인공 지능) 및 ML(머신 러닝)을 결합합니다. Journey Optimizer를 사용하면 전체 고객 여정에서 규모, 속도 및 유연성과 함께 차세대 상호 작용을 지능적으로 결정할 수 있습니다. [!DNL Adobe Journey Optimizer]를 사용하면 회사는 동일한 애플리케이션 내에서 예약된 마케팅 캠페인(예: 소매점의 주별 홍보)과 개인화된 개별 커뮤니케이션(예: 충성도 앱 고객이 이전에 재고 부족 상태인 항목을 검토했을 수 있는 항목에 대한 푸시 알림)을 모두 만들고 게재할 수 있습니다.
 
-➡️ [Journey Optimizer 살펴보기](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ko){target="_blank"}(비디오)
+➡️ [Journey Optimizer 검색](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ko){target="_blank"}(비디오)
 
 
 <!-- Use [!DNL Adobe Journey Optimizer] to build multi-step customer journeys that initiate a sequence of interactions, offers, and messages across channels in real time. This approach ensures customers are engaged at the optimal moments based on their actions and relevant business signals. Learn how to build journeys in [this section](../building-journeys/journey-gs.md).
@@ -56,20 +56,27 @@ You can also create audience-based campaigns to send messages.-->
 
 >[!NOTE]
 >
-> 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
+>* 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
+>
+>* Adobe Experience Cloud 일반 개인 정보 보호 지침 및 절차는 [!DNL Journey Optimizer]에 적용됩니다. [Adobe Experience Cloud 개인 정보에 대한 자세한 내용을 살펴보십시오](https://www.adobe.com/kr/privacy/experience-cloud.html){target="_blank"}.
+
+
 
 
 ## 아키텍처 {#architecture}
 
 아래 다이어그램에서 [!DNL Adobe Journey Optimizer]의 기본 아키텍처, 통합 지점, [!DNL Journey Optimizer]와(과) [!DNL Experience Platform] 사이의 관계를 이해합니다.
 
-![](assets/ajo-architecture.png)
+Adobe Experience Platform은 데이터를 수집, 표준화, 관리, 적용 및 통합하여 사려 깊고 관련 있는 디지털 고객 경험을 제공하는 강력하고 유연한 개방형 중앙 집중식 데이터 기반입니다.
 
+![](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
 
->[!NOTE]
->
-> Adobe Experience Cloud 일반 개인 정보 보호 지침 및 절차는 [!DNL Journey Optimizer]에 적용됩니다. [Adobe Experience Cloud 개인 정보에 대한 자세한 내용을 살펴보십시오](https://www.adobe.com/kr/privacy/experience-cloud.html).
->
+Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics, Adobe Mix Modeler 등 4개의 애플리케이션이 Experience Platform에 기본적으로 구축되어 있습니다.
+
+Journey Optimizer의 핵심 기능 및 서비스는 실시간 고객 프로필을 포함하는 Adobe Experience Platform의 기본 구성 요소에서 작동합니다. Journey Optimizer은 원활하게 작동하며 Real-Time CDP 및 Customer Journey Analytics과 상호 운용이 가능하지만 독립 실행형 애플리케이션으로도 독립적으로 작동할 수 있습니다.
+
+![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
+
 
 
 >[!MORELIKETHIS]
