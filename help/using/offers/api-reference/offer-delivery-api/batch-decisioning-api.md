@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * 데이터 세트를 메시지 게재 공급업체 API로 내보냅니다.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=ko) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
