@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '729'
 ht-degree: 3%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 3%
 
 * 두 개의 요청이 포함된 [!DNL Batch Decisioning] API 실행:
 
-   1. 오퍼 선택 항목을 일괄 처리하는 작업을 시작하는 **일괄 POST 요청**.
+   1. 오퍼 선택을 일괄 처리하는 작업 로드를 시작하는 **일괄 POST 요청**.
 
-   2. 일괄 처리 작업 상태를 가져오기 위한 **일괄 처리 GET 요청**.
+   2. 일괄 처리 작업 로드 상태를 가져오기 위한 **일괄 처리 GET 요청**.
 
 * 데이터 세트를 메시지 게재 공급업체 API로 내보냅니다.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=ko) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -51,13 +51,13 @@ ht-degree: 3%
 
 모든 [!DNL Batch Decisioning] 요청에는 [의사 결정 관리 API 개발자 안내서](../getting-started.md)에서 참조한 헤더 외에 다음 헤더가 필요합니다.
 
-* `Content-Type`: `application/json`
+* `Content-Type`:`application/json`
 * `x-request-id`: 요청을 식별하는 고유한 문자열입니다.
 * `x-sandbox-name`: 샌드박스 이름입니다.
 
 ## 일괄 처리 시작 {#start-a-batch-process}
 
-일괄 처리 결정에 대한 작업 로드를 시작하려면 `/workloads/decisions` 끝점에 POST 요청을 합니다.
+일괄 처리 결정에 대한 작업 로드를 시작하려면 `/workloads/decisions` 끝점에 대한 POST 요청을 만듭니다.
 
 >[!NOTE]
 >
@@ -104,7 +104,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:activityId` | 결정에 대한 고유 식별자. |
 | `xdm:dataSetId` | 결정 이벤트를 쓸 수 있는 출력 데이터 집합입니다. | `6196b4a1a63bd118dafe093c` |
-| `xdm:enrichedAudience` | CSV 대상자를 타깃팅하는 경우 이 매개 변수를 추가하고 &quot;true&quot;로 설정합니다. | `true` |
 | `xdm:includeContent` | 선택적 필드이며 기본적으로 `false`입니다. `true`이면 오퍼 콘텐츠가 데이터 집합의 결정 이벤트에 포함됩니다. | `false` |
 | `xdm:itemCount` | 결정 범위에 대해 요청된 옵션과 같은 항목의 수를 표시하는 선택적 필드입니다. 기본적으로 API는 범위당 하나의 옵션을 반환하지만 이 필드를 지정하여 추가 옵션을 명시적으로 요청할 수 있습니다. 범위당 최소 1개에서 최대 30개의 옵션을 요청할 수 있습니다. | `1` | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | 고유 배치 식별자. | `xcore:offer-placement:1410c4117306488a` |
@@ -133,7 +132,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 ## 일괄 처리 결정에 대한 정보 검색 {#retrieve-information-on-a-batch-decision}
 
-특정 결정에 대한 정보를 검색하려면 결정에 해당하는 작업 로드 ID 값을 제공하는 동안 `/workloads/decisions` 끝점에 GET 요청을 하십시오.
+특정 결정에 대한 정보를 검색하려면 결정에 해당하는 작업 로드 ID 값을 제공하는 동안 `/workloads/decisions` 엔드포인트에 GET 요청을 수행하십시오.
 
 **API 형식**
 

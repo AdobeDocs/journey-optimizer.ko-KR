@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 10%
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 맞춤형 오퍼는 자격 규칙 및 제한에 따라 사용자 정의 가능한 마케팅 메시지입니다.
 
-[!DNL Offer Library] API에 대한 POST 요청을 통해 개인화된 오퍼를 만들 수 있습니다.
+[!DNL Offer Library] API에 대한 POST 요청을 수행하여 개인화된 오퍼를 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 **API 형식**
 
 ```http
-POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
+POST /{ENDPOINT_PATH}/offers/offers?offer-type=personalized
 ```
 
 | 매개변수 | 설명 | 예 |

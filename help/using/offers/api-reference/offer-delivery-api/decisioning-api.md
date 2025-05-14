@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: f415209a7a62c8b7936abdb474b1b5b70c788973
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 의사 결정 관리를 사용하면 비즈니스 논리 및 의사 결정 규칙을 사용하여 채널 및 애플리케이션 전반에 개인화된 오퍼 경험을 제작하여 제공할 수 있습니다. 오퍼는 오퍼를 볼 자격이 있는 사람을 지정하는 규칙과 관련된 마케팅 메시지입니다.
 
-[!DNL Decisioning] API에 POST 요청을 하여 오퍼를 만들고 게재할 수 있습니다.
+[!DNL Decisioning] API에 대한 POST 요청을 통해 오퍼를 만들고 게재할 수 있습니다.
 
 이 자습서에서는 특히 의사 결정 관리에 대해 API를 이해하고 있어야 합니다. 자세한 내용은 [의사 결정 관리 API 개발자 안내서](../getting-started.md)를 참조하십시오. 또한 이 자습서에서는 고유한 배치 ID와 의사 결정 ID 값을 사용할 수 있어야 합니다. 이 값을 획득하지 않은 경우 [배치 만들기](../offers-api/placements/create.md) 및 [의사 결정 만들기](../activities-api/activities/create.md)에 대한 튜토리얼을 참조하십시오.
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 | x-sandbox-name | `{SANDBOX_NAME}` |
 | x-api-key | `{API_KEY}` |
 
-* 페이로드(POST, PUT, PATCH)가 포함된 모든 요청에는 content-type 헤더가 필요합니다
+* 페이로드(POST, PUT, PATCH)가 포함된 모든 요청에는 콘텐츠 유형 헤더가 필요합니다
 
 ## API 요청 {#request}
 
@@ -112,6 +112,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:allowDuplicatePropositions` | 이 객체는 데이터 중복 제거 규칙의 제어 구조를 의미합니다. 이는 특정 차원에 대해 동일한 옵션을 제안할 수 있는지 여부를 나타내는 일련의 플래그로 구성됩니다. true로 설정된 플래그는 복제가 허용되고 플래그가 지정한 범주 내에서 제거되어서는 안 됨을 의미합니다. false로 설정된 플래그는 의사 결정 엔진이 차원에서 동일한 제안을 하지 않고 대신 하위 의사 결정 중 하나에 대해 다음 최적 옵션을 선택해야 함을 의미합니다. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | true로 설정하면 여러 개의 결정에 동일한 옵션이 할당될 수 있습니다. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | true로 설정하면 여러 배치에 동일한 옵션이 할당될 수 있습니다. | `"xdm:acrossPlacements": true` |
+| `xdm:enrichedAudience` | CSV 대상자를 타깃팅하는 경우 이 매개 변수를 추가하고 &quot;true&quot;로 설정합니다. | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | 프로필 액세스 서비스에서 반환한 데이터를 제어하는 병합 정책을 식별합니다. 요청에 ID가 지정되지 않은 경우 의사 결정 관리 는 프로필 액세스 서비스를 전달하지 않고 호출자가 제공한 ID를 전달합니다. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | 응답 콘텐츠의 형식을 지정하는 플래그 세트입니다. |
 | `xdm:responseFormat.xdm:includeContent` | `true`(으)로 설정된 경우 응답에 콘텐츠를 포함하는 부울 값. | `"xdm:includeContent": true` |
@@ -213,7 +214,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342832/?quality=12&captions=kor) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 다음 단계 {#next-steps}
 

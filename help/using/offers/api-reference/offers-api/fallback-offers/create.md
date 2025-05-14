@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 14%
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 # 대체 오퍼 만들기 {#create-fallback-offer}
 
-[!DNL Offer Library] API에 대한 POST 요청을 통해 대체 오퍼를 만들 수 있습니다.
+[!DNL Offer Library] API에 대한 POST 요청을 수행하여 대체 오퍼를 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 
@@ -28,7 +28,7 @@ ht-degree: 14%
 **API 형식**
 
 ```http
-POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
+POST /{ENDPOINT_PATH}/offers/offers?offer-type=fallback
 ```
 
 | 매개변수 | 설명 | 예 |
