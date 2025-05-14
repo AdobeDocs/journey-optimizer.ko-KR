@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c403769a872ac6b4720ec6aaae9eda5d68da96c5
+source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 10%
+source-wordcount: '1733'
+ht-degree: 9%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 10%
 >id="ajo_journey_event_unitary"
 >title="단일 이벤트"
 >abstract="이벤트 구성에서는 Journey Optimizer가 이벤트로 수신할 정보를 정의할 수 있습니다. 여정의 각 단계에서 여러 이벤트를 사용할 수 있으며 여러 여정에서 같은 이벤트를 사용할 수도 있습니다. 단일 이벤트는 특정 프로필에 연결됩니다. 단일 이벤트는 규칙 기반이거나 시스템 생성일 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_parameters"
+>title="매개 변수"
+>abstract="스키마 및 페이로드 필드와 같은 이벤트 매개 변수를 정의합니다. 여정 기반 이벤트의 경우 **[!UICONTROL 이벤트 ID 조건]** 필드를 사용하여 시스템에서 규칙을 트리거할 이벤트를 식별하는 데 사용할 조건을 정의합니다. 이벤트에 사용할 ID 유형 및 프로필 식별자를 추가합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
