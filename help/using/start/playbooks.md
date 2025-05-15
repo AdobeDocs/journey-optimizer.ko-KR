@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '499'
 ht-degree: 69%
 
 ---
@@ -51,14 +51,14 @@ ht-degree: 69%
 
 또한 플레이북 자산을 다른 샌드박스로 가져올 수 있습니다. 이렇게 하면 이미 고유한 스키마, 필드 및 필드 그룹을 설정한 경우 생성된 자산을 기존 자산에 맞추고 데이터와 호환되는지 확인할 수 있습니다. 다음 단계는 사용 사례 플레이북 설명서에 자세히 설명되어 있습니다. [플레이북에서 생성한 에셋을 다른 샌드박스에 게시](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=ko){target="_blank"}.
 
-## 나만의 플레이북 만들기(Beta) {#create}
+## 나만의 플레이북 만들기(비공개 베타) {#create}
 
 >[!AVAILABILITY]
 >
->사용 사례 플레이북 생성은 현재 모든 고객이 공개 베타로 사용할 수 있습니다.
+>사용 사례 플레이북 만들기는 현재 조직 집합에 대해서만 개인 베타로 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 사전 정의된 플레이북을 활용하는 것 외에도 Adobe Experience Platform 내에서 나만의 플레이북을 만들고 공유할 수 있습니다.
 
 AI 지원 또는 수동 입력을 사용하여 메타데이터를 정의하고 스키마, 세그먼트와 같은 기술 자산을 연결하며 다양한 IMS 조직 간에 플레이북을 공유할 수 있습니다.
 
-플레이북을 만들고 공유하는 방법에 대한 자세한 내용은 사용 사례 플레이북 설명서를 참조하세요. [AI Assistant를 사용하여 플레이북을 만들고 공유](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=ko#sharing-playbooks-sandboxes){target="_blank"}.
+플레이북을 만들고 공유하는 방법에 대한 자세한 내용은 사용 사례 플레이북 설명서를 참조하세요. [AI Assistant를 사용하여 플레이북을 만들고 공유](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}.
