@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 4%
+source-wordcount: '1284'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 사용자 지정 작업, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
 
-이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko)를 참조하세요.
+이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)를 참조하세요.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
 
 ### 여정 {#journeys}
 
-* 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 이 [섹션](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko#abobe-journey-optimizer-objects)을(를) 참조하세요.
+* 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 이 [섹션](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)을(를) 참조하세요.
 
 * 연결된 모든 요소가 대상 샌드박스에 복사된다고 보장하지는 않습니다. 예를 들어 여정을 게시하기 전에 철저한 검사를 수행하는 것이 좋습니다. 이를 통해 잠재적인 누락된 오브젝트를 식별할 수 있습니다.
 
@@ -61,18 +61,18 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
 
 ### 캠페인 {#campaigns}
 
-캠페인은 프로필, 대상자, 스키마, 인라인 메시지 및 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다.
+캠페인은 프로필, 대상자, 스키마, 인라인 메시지, 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다. 그러나 다음 항목은 **복사되지 않습니다**.
 
-그러나 다음 항목은 **복사되지 않습니다**.
+* 다국어 변형 및 언어 설정,
+* 비즈니스 규칙,
+* 태그,
+* 데이터 사용 레이블 및 적용 (DULE) 레이블.
 
-* 다국어 변형 및 언어 설정
-* 실험 변형
-* 의사 결정 정책 및 의사 결정 항목
-* 비즈니스 규칙
-* 태그
-* 데이터 사용 레이블 및 적용(DULE) 레이블
+캠페인을 복사할 때에는 아래 나열된 객체가 Target 샌드박스에서 유효한지 확인하여 잘못된 구성을 방지하십시오.
 
-캠페인이 복사되면 채널 구성을 수동으로 선택해야 합니다.
+* **채널 구성**: 채널 구성이 캠페인과 함께 복사됩니다. 캠페인이 복사되면 타겟 샌드박스에서 채널 구성을 수동으로 선택해야 합니다.
+* **실험 변형 및 설정**: 실험 변형 및 설정이 캠페인 복사 프로세스에 포함됩니다. 가져오기 후 Target 샌드박스에서 이러한 설정의 유효성을 검사합니다.
+* **통합 의사 결정**: 의사 결정 정책 및 의사 결정 항목이 내보내기와 가져오기에 지원됩니다. 대상 샌드박스에서 의사 결정 관련 종속성이 올바르게 매핑되었는지 확인합니다.
 
 ### 콘텐츠 템플릿 {#content-templates}
 
