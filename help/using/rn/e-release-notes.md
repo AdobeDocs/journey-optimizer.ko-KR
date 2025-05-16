@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
+source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 22%
+source-wordcount: '1513'
+ht-degree: 23%
 
 ---
 
@@ -292,9 +292,6 @@ ht-degree: 22%
 
 * **하위 도메인 - &#39;위임 없음&#39; 메서드**\
   이제 전체 위임과 CNAME 방법 외에도 메시지 전달, 렌더링 및 추적에 필요한 DNS의 모든 측면을 완벽하게 제어하고 유지할 수 있는 새로운 하위 도메인 구성 방법인 위임 없음 방법을 사용할 수 있습니다.
-
-* **Personalization에서 사용자 지정 데이터 원본 지원**\
-  이제 쿼리를 작성하고 외부 소스(즉, Adobe Experience Platform에 저장되지 않음)의 데이터를 가져와서 개인화 및 여정 오케스트레이션을 위해 Journey Optimizer 인바운드 및 아웃바운드 표면에 사용할 수 있습니다.
 
 * **DM - SSH 지원**\
   이제 암호 인증 유형이 있는 기존 SFTP 외에도 SSH 키 인증이 있는 SFTP 서버로 DM 파일을 내보낼 수 있습니다.
