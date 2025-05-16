@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
+source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1375'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 사용자 지정 작업, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
 
-이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko)를 참조하세요.
+이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)를 참조하세요.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
 
 ### 여정 {#journeys}
 
-* 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 이 [섹션](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko#abobe-journey-optimizer-objects)을(를) 참조하세요.
+* 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 이 [섹션](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)을(를) 참조하세요.
 
 * 연결된 모든 요소가 대상 샌드박스에 복사된다고 보장하지는 않습니다. 예를 들어 여정을 게시하기 전에 철저한 검사를 수행하는 것이 좋습니다. 이를 통해 잠재적인 누락된 오브젝트를 식별할 수 있습니다.
 
@@ -81,6 +81,18 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
 * 콘텐츠 템플릿을 내보내면 경우에 따라 조각이 중복될 수 있습니다. 예를 들어 두 템플릿이 동일한 조각을 공유하고 별도의 패키지에 복사된 경우 두 템플릿 모두 대상 샌드박스에서 동일한 조각을 재사용해야 합니다. 중복을 방지하려면 가져오기 프로세스 중에 &quot;기존 사용&quot; 옵션을 선택합니다. [패키지 가져오기 방법 알아보기](#import)
 
 * 중복을 방지하려면 컨텐츠 템플릿을 단일 패키지로 내보내는 것이 좋습니다. 이를 통해 시스템에서 중복 제거를 효율적으로 관리할 수 있습니다.
+
+### 결정 {#decisioning}
+
+* 아래 오브젝트는 Decisioning 오브젝트를 복사하기 전에 대상 샌드박스에 있어야 합니다.
+
+   * Decisioning 객체 전체에 사용된 프로필 속성
+   * 사용자 정의 오퍼 속성의 필드 그룹,
+   * 규칙, 등급 또는 캡핑에 대한 컨텍스트 속성에 사용되는 데이터 스트림의 스키마.
+
+* AI 모델이 있는 등급 수식의 샌드박스 사본은 현재 지원되지 않습니다.
+
+* 결정 엔터티를 복사할 때는 결정 항목을 **이전**&#x200B;에 복사해야 합니다. 예를 들어, 먼저 컬렉션을 복사하고 새 샌드박스에 오퍼가 없다면 해당 새 컬렉션은 비어 있는 상태로 유지됩니다.
 
 ### 조각 {#fragments}
 
