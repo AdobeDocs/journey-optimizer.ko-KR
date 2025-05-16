@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
+source-git-commit: 7347adf8b40942408042c8b09572beed67425899
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1485'
 ht-degree: 23%
 
 ---
@@ -216,22 +216,6 @@ ht-degree: 23%
 <table>
 <thead>
 <tr>
-<th><strong>여정의 컨텐츠 결정</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 여정 캔버스에서 전용 의사 결정 작업을 통해 여정에 오퍼를 추가하고 사용자 지정 작업에 사용할 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
 <th><strong>이벤트 트리거 여정에 대한 보조 ID</strong><br/></th>
 </tr>
 </thead>
@@ -290,8 +274,8 @@ ht-degree: 23%
   이제 의사 결정 항목 속성을 활용하여 의사 결정 규칙을 만들 수 있습니다.
 
 
-* **하위 도메인 - &#39;위임 없음&#39; 메서드**\
-  이제 전체 위임과 CNAME 방법 외에도 메시지 전달, 렌더링 및 추적에 필요한 DNS의 모든 측면을 완벽하게 제어하고 유지할 수 있는 새로운 하위 도메인 구성 방법인 위임 없음 방법을 사용할 수 있습니다.
+* **하위 도메인 - &#39;사용자 지정 위임&#39; 메서드**\
+  이제 전체 위임과 CNAME 메서드 외에 새로운 하위 도메인 구성 방법인 사용자 정의 위임 메서드를 사용할 수 있습니다. 이 방법을 사용하면 메시지 전달, 렌더링 및 추적에 필요한 DNS의 모든 측면을 완벽하게 제어하고 유지 관리할 수 있습니다.
 
 * **DM - SSH 지원**\
   이제 암호 인증 유형이 있는 기존 SFTP 외에도 SSH 키 인증이 있는 SFTP 서버로 DM 파일을 내보낼 수 있습니다.
