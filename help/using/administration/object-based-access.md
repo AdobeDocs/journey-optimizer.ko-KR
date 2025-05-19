@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 8%
+ht-degree: 19%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="액세스 관리 레이블"
->abstract="액세스 레이블에 따라 객체에 대한 액세스를 제한할 수 있습니다. 그 목적은 개인 데이터를 더 이상 보호할 수 있도록 권한이 없는 사용자로부터 민감한 디지털 자산을 보호하는 것입니다. **사용 권한이 있는 레이블만 선택하십시오.**"
+>abstract="액세스 레이블에 따라 이 오브젝트에 대한 액세스를 제한할 수 있습니다. 이는 민감한 디지털 자산을 무단 사용자로부터 보호하여 개인 데이터에 대한 보호 수준을 더욱 강화하기 위한 목적입니다. **권한이 있는 레이블만 선택해야 합니다.**"
 
-액세스 레이블에 따라 객체에 대한 액세스를 제한할 수 있습니다. 그 목적은 개인 데이터를 더 이상 보호할 수 있도록 권한이 없는 사용자로부터 민감한 디지털 자산을 보호하는 것입니다.
+액세스 레이블에 따라 이 오브젝트에 대한 액세스를 제한할 수 있습니다. 그 목적은 개인 데이터를 더 이상 보호할 수 있도록 권한이 없는 사용자로부터 민감한 디지털 자산을 보호하는 것입니다.
 
 OLAC(객체 수준 액세스 제어) 기능을 사용하면 다양한 객체에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다.
 
@@ -53,7 +53,7 @@ OLAC(객체 수준 액세스 제어) 기능을 사용하면 다양한 객체에 
 
 레이블을 사용하여 사용자에게 액세스 권한을 제공하고 데이터 거버넌스 및 동의 정책을 적용합니다. 이러한 거버넌스 레이블은 다운스트림 소비에 영향을 줄 수 있습니다.
 
-[!DNL Permissions] 제품에서 레이블을 만들 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Permissions] 제품에서 레이블을 만들 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}를 참조하십시오.
 
 Journey Optimizer에서 직접 **[!UICONTROL 레이블]**&#x200B;을 만들 수도 있습니다. 레이블을 만들려면 다음 단계를 수행합니다.
 
@@ -86,13 +86,13 @@ Journey Optimizer 개체에 사용자 지정 또는 핵심 데이터 사용 레�
 
 1. **[!UICONTROL 액세스 관리]** 창에서 이 개체에 대한 액세스를 관리할 사용자 지정 또는 핵심 데이터 사용 레이블을 선택합니다.
 
-   핵심 데이터 사용 레이블에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ko){target="_blank"}를 참조하세요.
+   핵심 데이터 사용 레이블에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html){target="_blank"}를 참조하세요.
 
    ![](assets/olac_4.png)
 
 1. 이 레이블 제한을 적용하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하십시오.
 
-이 개체에 액세스하려면 사용자가 **[!UICONTROL 역할]**&#x200B;에 특정 **[!UICONTROL 레이블]**&#x200B;을(를) 포함해야 합니다.
+이 개체에 액세스하려면 사용자가 **[!UICONTROL 역할]**&#x200B;에 특정 **[!UICONTROL 레이블]**을(를) 포함해야 합니다.
 예를 들어 C1 레이블이 있는 사용자는 레이블이 지정되거나 레이블이 지정되지 않은 C1에만 액세스할 수 있습니다.
 
-**[!UICONTROL 역할]**&#x200B;에 **[!UICONTROL Label]**&#x200B;을(를) 할당하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=ko#manage-labels-for-a-role){target="_blank"}를 참조하세요.
+**[!UICONTROL 역할]**&#x200B;에 **[!UICONTROL Label]**&#x200B;을(를) 할당하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}를 참조하세요.

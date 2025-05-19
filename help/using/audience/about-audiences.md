@@ -26,7 +26,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="캠페인 대상자 선택"
->abstract="이 목록에는 사용 가능한 모든 Adobe Experience Platform 대상자가 표시됩니다. 캠페인으로 타기팅할 대상자를 선택합니다. 캠페인에 구성된 메시지는 선택한 대상자에 속한 모든 개인 사용자에게 전송됩니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)"
+>abstract="이 목록에는 사용 가능한 모든 Adobe Experience Platform 대상자가 표시됩니다. 캠페인으로 타기팅할 대상자를 선택하십시오. 캠페인에 구성된 메시지는 선택한 대상자에 속한 모든 개인 사용자에게 전송됩니다. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)"
 
 대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 컬렉션입니다. Adobe Experience Platform 세분화 서비스를 사용하여 Adobe Experience Platform에서 중앙 집중식으로 구성 및 유지 관리되며 Journey Optimizer 내에서 쉽게 액세스하여 여정 및 캠페인에서 활성화할 수 있습니다.
 
@@ -38,7 +38,7 @@ Adobe Journey Optimizer은 대상을 만들고, 관리하고, 보강하여 마�
 
 이 설명서는 [!DNL Adobe Journey Optimizer] 내의 대상자를 사용하여 작업하는 방법에 대한 정보를 제공합니다. 대상자 포털 및 대상자에 대한 자세한 내용은 Adobe Experience Platform 세그멘테이션 서비스 설명서에서 확인할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
 
-* [세그먼테이션 서비스 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [세그먼테이션 서비스 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [세분화 서비스 - 자주 묻는 질문](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq){target="_blank"}
 

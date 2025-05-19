@@ -61,7 +61,7 @@ ht-degree: 16%
 
    >[!CAUTION]
    >
-   >웹 페이지에는 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}이 포함되어야 합니다. [자세히 알아보기](web-prerequisites.md#implementation-prerequisites)
+   >웹 페이지에는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}이 포함되어야 합니다. [자세히 알아보기](web-prerequisites.md#implementation-prerequisites)
 
 1. 작성을 시작하려면 **[!UICONTROL 웹 페이지 편집]**&#x200B;을 클릭하세요. 웹 디자이너가 표시됩니다.
 
@@ -184,4 +184,4 @@ ht-degree: 16%
 
 아래 비디오에서는 [!DNL Journey Optimizer] 캠페인에서 웹 디자이너를 사용하여 웹 경험을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452642/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

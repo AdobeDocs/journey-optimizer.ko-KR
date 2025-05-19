@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지
-source-git-commit: 38ed45222aad458bb581e714a9a2a0e5ed088c3f
+exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
+source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -58,7 +59,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_folders"
 >title="랜딩 페이지를 폴더로 구성"
->abstract="폴더를 사용하여 조직의 요구 사항에 따라 랜딩 페이지를 분류하고 관리합니다."
+>abstract="조직의 필요에 따라 폴더를 사용하여 랜딩 페이지를 분류하고 관리할 수 있습니다."
 
 랜딩 페이지를 쉽게 탐색하기 위해 폴더를 사용하여 구조화된 계층으로 더 효과적으로 구성할 수 있습니다. 이를 통해 조직의 요구 사항에 따라 항목을 분류하고 관리할 수 있습니다.
 

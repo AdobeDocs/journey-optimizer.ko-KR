@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
 source-wordcount: '2395'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -95,12 +95,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="시작 날짜"
->abstract="프로필이 여정 입력을 시작할 수 있는 날짜를 선택합니다. 시작 날짜가 설정되지 않은 경우 여정의 게시 날짜로 기본 설정됩니다."
+>abstract="프로필이 여정 진입을 시작할 수 있는 날짜를 선택하십시오. 시작 일자를 설정하지 않으면 여정의 게시 일자가 기본으로 설정됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="종료 날짜"
->abstract="여정 종료 날짜를 설정합니다. 이 날짜에 활성 프로필이 자동으로 여정을 종료하며 새로운 항목은 허용되지 않습니다."
+>abstract="여정이 끝나는 날짜를 설정하십시오. 활성화된 프로필은 이 날짜에 자동으로 여정에서 종료되며 새로 진입할 수 없습니다."
 
 기본적으로 프로필은 게시되는 즉시 여정을 입력할 수 있으며 [전역 여정 시간 제한](#global_timeout)에 도달할 때까지 유지될 수 있습니다. 유일한 예외는 **되풀이 시 강제 재입력**&#x200B;이 활성화된 되풀이 대상 여정 읽기이며, 다음 발생의 시작 날짜에 끝납니다.
 
@@ -108,16 +108,16 @@ ht-degree: 13%
 
 ## 시간 초과 {#timeout}
 
-### 여정 활동의 시간 제한 {#timeout_and_error}
+### 여정 활동의 시간 초과 {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="시간 초과 또는 오류"
->abstract="시간 초과로 처리하기 전에 여정이 작업을 수행하거나 조건을 평가해야 하는 시간을 지정합니다. 권장 값은 1초에서 30초 사이입니다."
+>abstract="여정이 시간 초과로 간주되기 전에 액션을 수행하거나 조건을 평가하는 데 소요되는 시간을 지정합니다. 권장되는 값은 1~30초입니다."
 
 작업 또는 조건 활동을 편집할 때 오류 또는 시간 초과가 발생하는 경우 대체 경로를 정의할 수 있습니다. 서드파티 시스템에 문의하는 활동 처리가 여정 속성의 **[!UICONTROL 시간 초과 또는 오류]** 필드에 정의된 시간 초과 기간을 초과하는 경우 잠재적인 대체 작업을 수행하도록 두 번째 경로가 선택됩니다.
 
-권장 값은 1초에서 30초 사이입니다.
+권장되는 값은 1~30초입니다.
 
 여정이 시간에 민감한 경우(예: 사람의 실시간 위치에 반응) 몇 초 이상 작업을 지연할 수 없으므로 매우 짧은 **[!UICONTROL 시간 초과 또는 오류]** 값을 정의하는 것이 좋습니다. 여정에서 시간에 덜 민감한 경우, 더 긴 값을 사용하여 유효한 응답을 보내기 위해 호출된 시스템에 더 많은 시간을 제공할 수 있습니다.
 
@@ -252,7 +252,7 @@ Adobe Journey Optimizer은 Adobe Experience Platform에서 프로필 데이터�
 
 Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합니다. 따라서 한 여정에서 여러 대상을 사용하는 경우(예: [`inAudience`개의 함수](functions/functioninaudience.md)에서 사용) 여정에서 사용하는 병합 정책과 일치하지 않으면 오류가 발생하고 게시가 차단됩니다. 하지만 메시지 개인화에 일관되지 않은 대상이 사용되면 불일치에도 불구하고 경고가 발생하지 않습니다. 이러한 이유로, 메시지 개인화에 이 대상자를 사용할 때에는 대상자와 연결된 병합 정책을 확인하는 것이 좋습니다.
 
-병합 정책에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview){target="_blank"}를 참조하세요.
+병합 정책에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
@@ -311,7 +311,7 @@ Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합
 
 여정 속성의 **[!UICONTROL 충돌 관리]** 섹션에서 충돌을 모니터링하고 여정의 우선 순위를 지정할 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
 
-* 최대 가용량 규칙에 따라 이 여정을 대상의 일부에 제외하려면 **규칙 집합**&#x200B;을 적용하세요. [규칙 집합 작업 방법 알아보기](../configuration/rule-sets.md)
+* 최대 가용량 규칙에 따라 이 여정을 대상의 일부에 제외하려면 **규칙 집합**&#x200B;을 적용하세요. [규칙 세트 작업 방법 알아보기](../configuration/rule-sets.md)
 
 * 여정에 0에서 100 사이의 **우선 순위 점수**&#x200B;를 지정하십시오. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 여기에 삽입된 우선 순위 값은 이 여정에 포함된 모든 인바운드 액션(예: 인앱)에 상속됩니다. [우선 순위 점수를 사용하여 작업하는 방법을 알아봅니다](../conflict-prioritization/priority-scores.md)
 

@@ -9,7 +9,7 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 0%
 
 순위 수식을 만들면 [선택 전략](selection-strategies.md)에 할당할 수 있습니다. 이 선택 전략을 사용할 때 여러 오퍼를 표시할 수 있는 경우, 의사 결정 엔진은 선택한 공식을 사용하여 먼저 게재할 오퍼를 계산합니다.
 
-## 등급 수식 만들기 {#create-ranking-formula}
+## 순위 공식 만들기 {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="순위 공식 만들기"
->abstract="공식을 사용하면 항목의 우선 순위 점수를 고려하지 않고 먼저 제시해야 하는 결정 항목을 결정하는 규칙을 정의할 수 있습니다. 등급 공식이 생성되면 이를 선택 전략에 지정할 수 있습니다."
+>abstract="공식을 사용하면 우선순위 점수를 고려하지 않고 먼저 표시할 결정 항목을 정하는 규칙을 정의할 수 있습니다. 순위 공식이 만들어지면 이를 선택 전략에 할당할 수 있습니다."
 
 순위 공식을 만들려면 아래 단계를 수행합니다.
 
