@@ -162,4 +162,4 @@ API 자격 증명이 생성되면 JWT 인증에 필요한 필드를 작성합니
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443613?captions=kor)

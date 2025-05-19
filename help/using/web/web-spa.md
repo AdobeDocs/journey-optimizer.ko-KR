@@ -90,4 +90,4 @@ Adobe Experience Platform Web SDK 구현에서 SPA 설정이 완료되면 수정
 * 여러 보기 또는 검색된 모든 보기에 웹 사이트 수정 사항 적용
 * 수정 시 일괄 작업 수행
 
->[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446892/?quality=12&learn=on&captions=kor)
