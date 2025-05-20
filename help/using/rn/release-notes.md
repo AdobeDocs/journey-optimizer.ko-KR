@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ef93f92e717815a89e03e4ba85331aac6a041ee8
+source-git-commit: 75005ffc9fbef9d1dfd1219c2eee7d11f8bc63b5
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 25%
+source-wordcount: '1268'
+ht-degree: 26%
 
 ---
 
@@ -189,20 +189,20 @@ ht-degree: 25%
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>실험 승자 비율 조정</strong><br/></th>
+<th><strong>Scale your Experimentation winner</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>우승자 비율 조정 을 사용하면 실험의 우승 변형을 전체 대상자에게 자동 또는 수동으로 롤아웃할 수 있습니다. 이 기능은 일단 최고의 수행자가 식별되면 지속적인 수동 감독 없이 도달 범위와 효과를 극대화할 수 있도록 합니다.</p>
+<p>Scale the Winner enables you to automatically or manually roll out the winning variation of an experiment to your full audience. This feature ensures that, once a top performer is identified, you can maximize its reach and effectiveness without constant manual oversight.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
