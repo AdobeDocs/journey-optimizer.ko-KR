@@ -9,22 +9,24 @@ role: User
 level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '613'
 ht-degree: 41%
 
 ---
 
 # 여정 게시 {#publishing-the-journey}
 
-여정을 활성화하려면 게시를 하고 새 프로필에서 입력할 수 있도록 해야 합니다. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다.
+여정을 활성화하고 새 프로필이 들어가도록 하려면 게시해야 합니다. 게시를 통해 여정을 실시간으로 사용할 수 있습니다. 게시하기 전에 여정이 완전하고 유효한지 확인하고 오류가 있으면 여정을 게시할 수 없으므로 모든 오류를 해결해야 합니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
+## 게시 프로세스 {#journey-publication}
+
 여정 게시 단계는 아래에 자세히 설명되어 있습니다.
 
-1. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다.
+1. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 여정에 오류가 있으면 게시할 수 없습니다.
 
    * [이 페이지](testing-the-journey.md)에서 여정을 테스트하는 방법을 알아보세요.
    * [이 섹션](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)에서 여정 오류를 해결하는 방법을 알아봅니다.
@@ -33,7 +35,7 @@ ht-degree: 41%
 
    >[!NOTE]
    >
-   > 여정이 승인 정책의 적용을 받는 경우 여정을 게시하려면 승인을 요청해야 합니다. [자세히 알아보기](../test-approve/gs-approval.md)
+   > 여정이 승인 정책의 적용을 받는 경우 게시하기 전에 승인을 요청해야 합니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
@@ -88,4 +90,4 @@ ht-degree: 41%
 
 이 비디오에서 여정을 게시하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427937?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
