@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '935'
 ht-degree: 12%
 
 ---
@@ -52,9 +52,9 @@ ht-degree: 12%
 
 여정 목록에서 다양한 필터를 사용하여 여정 목록을 구체화할 수 있습니다.
 
-![](assets/filter-journeys.png)
+![두 가지 여정 유형을 선택한 여정 필터링 샘플을 보여 주는 화면](assets/filter-journeys.png)
 
-**[!UICONTROL 상태 및 버전 필터]**&#x200B;에서 [상태](#journey-statuses), [유형](#journey-types), [버전](#journey-versions) 및 할당된 [여정](../start/search-filter-categorize.md#tags)에 따라 태그를 필터링할 수 있습니다.
+**[!UICONTROL 상태 및 버전 필터]**&#x200B;에서 [상태](#journey-statuses), [유형](#journey-types), [버전](publishing-the-journey.md#journey-versions-journey-versions) 및 할당된 [여정](../start/search-filter-categorize.md#tags)에 따라 태그를 필터링할 수 있습니다.
 
 **[!UICONTROL 만들기 필터]**&#x200B;를 사용하여 만든 날짜 또는 만든 사용자에 따라 여정을 필터링합니다.
 

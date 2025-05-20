@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 97%
+source-wordcount: '2504'
+ht-degree: 95%
 
 ---
 
@@ -212,9 +212,11 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 ### 표현식 편집기  {#expression-editor}
 
-[여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md)에 다음 가드레일이 적용됩니다.
+[여정 식 편집기](../building-journeys/expression/expressionadvanced.md)에 다음 보호 기능이 적용됩니다.
 
 * 경험 이벤트 필드 그룹은 대상자 읽기, 대상자 선별 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다. 새 대상자를 만들고 여정에서 대상자 내 조건을 사용해야 합니다.
+* 식 편집기에서 `timeSeriesEvents` 특성을 사용할 수 없습니다. 프로필 수준에서 경험 이벤트에 액세스하려면 `XDM ExperienceEvent` 스키마를 기반으로 새 필드 그룹을 만드십시오.
+
 
 ### 인앱 활동 {#in-app-activity-limitations}
 

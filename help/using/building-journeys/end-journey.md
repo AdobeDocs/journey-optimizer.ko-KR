@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: e435a4bf9d284845f27021b3d36c555def749fbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* [닫힘](#close-journey) 또는 [중지됨](#stop-journey) 여정을 다시 시작하거나 삭제할 수 없습니다. 새 버전을 만들거나 복제할 수 있습니다.
+>* [닫힘](#close-journey) 또는 [중지됨](#stop-journey) 여정을 다시 시작하거나 삭제할 수 없습니다. [새 버전을 만들거나](publishing-the-journey.md#journey-versions-journey-versions) [복제](journey-ui.md#duplicate-a-journey-duplicate-a-journey)할 수 있습니다.
 >
 >* 완료된 여정만 삭제할 수 있습니다.
 

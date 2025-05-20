@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
+source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '460'
 ht-degree: 5%
 
 ---
@@ -44,16 +44,21 @@ DM 캠페인을 활성화하기 전에 캠페인과 추출 파일이 제대로 �
 
 DM 캠페인이 준비되면 **[!UICONTROL 활성화]** 단추를 클릭하세요. 캠페인이 시작되면 추출 파일이 자동으로 생성되고 [파일 라우팅 구성](../direct-mail/direct-mail-configuration.md)에 지정된 서버로 내보내집니다.
 
+>[!NOTE]
+>
+>기본적으로 내보낸 파일은 새 줄로 끝납니다. 이렇게 하면 표준 데이터 처리 도구와의 호환성을 유지할 수 있습니다.
+
+
 DM을 전송하면 캠페인 보고서 내에서 DM 캠페인의 영향을 측정할 수 있습니다. DM 보고에 대한 자세한 내용은 [이 섹션](../reports/campaign-global-report-cja-direct.md)을 참조하세요.
 
 ## DM에 대한 동의 관리 {#dm-consent-management}
 
-[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}가 처리합니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다.
+[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}에 의해 처리됩니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다.
 
 프로필이 DM 수신을 옵트아웃한 경우 해당 Experience Platform 프로필 특성에서 `consents.marketing.postalMail.val`의 값은 `n`이(가) 되며 해당 프로필은 후속 게재에서 제외됩니다.
 
 다시 활성화하려면 프로필 특성을 `consents.marketing.postalMail.val`: `y`(으)로 다시 변경해야 합니다.
 
-프로필의 속성을 관리하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
+프로필의 속성을 관리하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}에서 자세한 내용을 알아보십시오.
 
 [이 섹션](../privacy/opt-out.md)에서 Journey Optimizer의 옵트아웃 관리에 대해 자세히 알아보세요.
