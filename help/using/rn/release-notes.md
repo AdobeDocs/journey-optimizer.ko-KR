@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 08b8fe41c09ee2d2580bebd5d21472576a7c62a6
+source-git-commit: ef93f92e717815a89e03e4ba85331aac6a041ee8
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 26%
+source-wordcount: '1314'
+ht-degree: 25%
 
 ---
 
@@ -110,23 +110,23 @@ ht-degree: 26%
 </tbody>
 </table>
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>Campaign 및 여정 인벤토리에 대한 캘린더 보기</strong><br/></th>
+<th><strong>Calendar View for Campaign and Journey inventory</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 여정 및 캠페인 목록에서 달력 보기를 사용할 수 있습니다. 이를 통해 각 목록에서 모든 여정 및 캠페인 활성화를 시각화할 수 있습니다.</p>
-<p>이 변경은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>A calendar view is now available in the journeys and campaigns lists. It allows you to visualize all journeys and campaigns activations in the respective lists.</p>
+<p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 <img src="assets/do-not-localize/calendar.gif">
-<!--<p>For more information, refer to these sections: <a href="../building-journeys/journey-ui.md">Browse & filter your journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Access campaigns</a>.</p>-->
+<p>For more information, refer to these sections: <a href="../building-journeys/journey-ui.md">Browse & filter your journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Access campaigns</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <table>
 <thead>
@@ -288,9 +288,9 @@ ht-degree: 26%
 
   이제 Journey Optimizer 웹 채널을 통해 시각적 편집기에서 새로운 변형을 작성하는 대신 방문자를 다른 기존 URL로 리디렉션할 수 있습니다. 이 기능은 페이지 내의 몇 가지 요소만 변경하는 대신, 완전히 다른 두 페이지를 비교하는 실험을 실행하는 데 사용할 수 있습니다.
 
-* **캠페인 목록의 오른쪽 레일**
+<!--* **Right rail in campaigns list**
 
-  이제 캠페인 목록에서 캠페인을 선택하면 세부 정보가 표시되는 창이 열립니다.
+  In the campaign list, selecting a campaign now opens a pane displaying its details.-->
 
 * **코드 기반 경험 콘텐츠의 양식 필드**
 
