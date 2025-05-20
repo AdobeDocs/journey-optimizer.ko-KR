@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+source-git-commit: 1c2537d576b9ccb4fc3731d558a5447e89eb824a
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 50%
+source-wordcount: '1088'
+ht-degree: 49%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 50%
 이벤트를 사용하면 여정을 개별적으로 트리거하여 여정에 들어갈 때 각 사용자에게 실시간 메시지를 전달할 수 있습니다.
 
 이벤트 구성에서 여정에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe Experience 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다. 여정의 여러 단계에서 여러 이벤트를 사용할 수 있으며, 여러 여정에서 동일한 이벤트를 사용할 수 있습니다.
+
+이벤트 구성은 **필수**&#x200B;이며 데이터 엔지니어가 수행해야 합니다.
 
 두 가지 유형의 이벤트를 구성할 수 있습니다. **단일 이벤트** 및 **비즈니스 이벤트**.
 
@@ -42,11 +44,6 @@ ht-degree: 50%
 
 **Business** 이벤트가 특정 프로필에 연결되어 있지 않습니다. 예를 들어 뉴스 경고, 스포츠 업데이트, 비행 변경 또는 취소, 인벤토리 업데이트, 날씨 이벤트 등이 될 수 있습니다. 이러한 이벤트는 프로필에만 국한되지 않지만 특정 뉴스 주제를 구독하는 개인, 항공편 승객, 재고 부족 제품에 관심이 있는 쇼핑객 등 다양한 프로필에 관심을 가질 수 있습니다. 비즈니스 이벤트는 항상 규칙을 기반으로 합니다. 여정에서 비즈니스 이벤트를 끌어 놓으면 바로 **대상자 읽기** 활동이 자동으로 추가됩니다.비즈니스 이벤트를 만드는 방법 알아보기 [이 페이지에서](../event/about-creating-business.md).
 
-## 추천
-
-이벤트 구성은 **필수**&#x200B;이며 데이터 엔지니어가 수행해야 합니다.
-
-기존 여정이 손상되지 않도록 하려면 초안 또는 라이브 여정에 사용된 이벤트를 편집할 때 이름, 설명 또는 페이로드 필드만 변경할 수 있습니다.
 
 ## 이벤트 ID 유형 {#event-id-type}
 
@@ -70,18 +67,24 @@ ht-degree: 50%
 
 POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 Adobe Experience Platform으로 전송됩니다. 트랜잭션 메시지 API를 통해 전송되는 이벤트의 URL 대상을 &quot;인렛&quot;이라고 합니다. 이벤트의 페이로드는 XDM 형식을 따릅니다.
 
-페이로드의 헤더에는 스트리밍 수집 API의 작동에 필요한 정보가, 본문에는 [!DNL Journey Optimizer]의 작동에 필요한 정보와 여정에 사용할 정보(예: 쇼핑을 중단한 카트의 금액)가 포함되어 있습니다. 스트리밍 수집에는 인증/미인증의 두 가지 모드가 있습니다. 스트리밍 수집 API에 대한 자세한 내용은 [이 링크](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko){target="_blank"}를 참조하세요.
+페이로드의 헤더에는 스트리밍 수집 API의 작동에 필요한 정보가, 본문에는 [!DNL Journey Optimizer]의 작동에 필요한 정보와 여정에 사용할 정보(예: 쇼핑을 중단한 카트의 금액)가 포함되어 있습니다. 스트리밍 수집에는 인증/미인증의 두 가지 모드가 있습니다. 스트리밍 수집 API에 대한 자세한 내용은 [이 링크](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko){target="_blank"}를 참조하십시오.
 
 스트리밍 수집 API를 통과하여 대상에 도착한 이벤트는 파이프라인이라는 내부 서비스로 이동한 다음 Adobe Experience Platform으로 이동합니다. 이벤트 스키마에 실시간 고객 프로필 서비스 플래그가 설정되어 있고, 역시 실시간 고객 프로필 태그가 설정된 데이터 세트 ID도 포함되어 있으면 이벤트는 실시간 고객 프로필 서비스로 이동합니다.
 
 시스템 생성 이벤트의 경우 파이프라인은 [!DNL Journey Optimizer]에서 제공하고 이벤트 페이로드에 포함된 [!DNL Journey Optimizer]개의 eventID(아래 이벤트 만들기 프로세스 참조)가 포함된 페이로드가 있는 이벤트를 필터링합니다. 규칙 기반 이벤트의 경우 시스템은 eventID 조건을 사용하여 이벤트를 식별합니다. [!DNL Journey Optimizer]에서 이러한 이벤트를 수신하면 해당하는 경로가 트리거됩니다.
 
+## 이벤트 업데이트 및 삭제
+
+기존 여정이 손상되지 않도록 하기 위해 초안, 라이브 또는 마감된 여정에 사용된 이벤트를 편집할 때는 이름, 설명 또는 페이로드 필드만 변경할 수 있습니다.
+
+라이브, 초안 또는 마감된 여정에 사용된 모든 이벤트는 삭제할 수 없습니다. 사용된 이벤트를 삭제하려면 해당 이벤트를 사용하는 여정을 중지하거나 해당 이벤트가 사용되는 초안 여정에서 해당 이벤트를 제거해야 합니다. **[!UICONTROL 사용 위치]** 필드를 확인할 수 있습니다. 특정 이벤트를 사용하는 여정 수가 표시됩니다. **[!UICONTROL 여정 보기]** 버튼을 클릭하여 해당 여정의 목록을 표시할 수 있습니다.
+
 ## 방법 비디오 {#video}
 
 이벤트를 구성하고 이벤트에 대한 스트리밍 엔드포인트 및 페이로드를 지정하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431519?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 비즈니스 이벤트의 사용 사례를 이해합니다. 비즈니스 이벤트를 사용하여 여정을 작성하는 방법과 상황에 따라 적합한 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416327?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
