@@ -23,8 +23,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->이메일 구성을 만들기 전에 이메일 전송에 사용할 하위 도메인을 설정하여 신뢰도를 유지하고 전달성을 향상시킬 수 있습니다. 
-[자세히 알아보기](../configuration/about-subdomain-delegation.md)
+>이메일 구성을 만들기 전에 이메일 전송에 사용할 하위 도메인을 설정하여 신뢰도를 유지하고 전달성을 향상시킬 수 있습니다. [자세히 알아보기](../configuration/about-subdomain-delegation.md)
 
 이메일 설정은 아래 설명과 같이 채널 구성의 전용 섹션에서 정의합니다.
 
