@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -261,7 +261,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 대상자에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행되도록 디자인됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/3412406?captions=kor">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
+<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/346680">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
 </td>
 </tr>
 </tbody>
@@ -382,7 +382,7 @@ ht-degree: 100%
 <p>이제 의사 결정 관리에 개인화된 최적화 모델 시스템을 사용할 수 있습니다. 이 새로운 유형의 모델을 사용하면 대상자와 오퍼의 성과를 기반으로 오퍼를 최적화하고 개인화할 수 있습니다.</p>
 <p>개인화된 최적화 AI 모델의 사용은 현재 선택한 사용자로만 제한되며 향후 릴리스의 모든 환경에 배포됩니다.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>자세한 내용은 <a href="../offers/ranking/personalized-optimization-model.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../offers/ranking/personalized-optimization-model.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -499,7 +499,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 Journey Optimizer 샌드박스에서 다른 샌드박스(예: 비프로덕션 샌드박스에서 프로덕션 샌드박스로)로 경험을 다시 만들 수 있습니다. 이 새 기능은 여정이 올바르게 실행하기 위해 사용하는 개체 등 전체 여정을 특정 환경에서 다른 환경으로 복사합니다. 여정 외에도 오퍼, 메시지, 스키마, 데이터 세트, 데이터 소스, 이벤트, 작업과 같은 다른 구성 요소를 복사할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../building-journeys/copy-to-sandbox.md">자세한 설명서</a>를 참조하세요.
+<p>자세한 내용은 <a href="../building-journeys/copy-to-sandbox.md">세부 설명서</a>를 참조하십시오.
 </td>
 </tr>
 </tbody>
@@ -545,7 +545,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 채널  비즈니스 규칙을 설정할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../configuration/rule-sets.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../conflict-prioritization/rule-sets.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -594,7 +594,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 Adobe Journey Optimizer 리소스에서 사용자가 수행한 작업을 모니터링할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../privacy/audit-logs.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../privacy/audit-logs.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -750,7 +750,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>이제 Journey Optimizer 메시지 콘텐츠에서 링크에 UTM 매개 변수를 추가할 수 있습니다. 이 링크를 통해 해당 링크에 대한 추가 데이터를 제공할 수 있으며, 사용자가 링크를 클릭한 위치와 이유를 파악할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../configuration/channel-surfaces.md#configure-email-settings">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../configuration/channel-surfaces.md#configure-email-settings">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -807,7 +807,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>반복 <strong>대상자 읽기</strong> 활동에 <strong>증분 읽기</strong> 옵션을 추가했습니다. 이 옵션을 사용하면 여정의 마지막 실행 이후 대상자에 포함된 개인만 타겟팅할 수 있습니다. 첫 번째 실행 시에는 항상 모든 대상자 구성원을 타겟팅합니다.</p>
-<p>자세한 내용은 <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">자세한 설명서</a>를 참조하세요.
+<p>자세한 내용은 <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">세부 설명서</a>를 참조하십시오.
 </td>
 </tr>
 </tbody>

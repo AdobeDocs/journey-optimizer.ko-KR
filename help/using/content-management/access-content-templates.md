@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '603'
 ht-degree: 3%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 3%
 **[!UICONTROL 콘텐츠 템플릿]** 메뉴에서 **[!UICONTROL 템플릿으로 저장]** 옵션을 사용하는 여정 또는 캠페인에서 만든 모든 템플릿이 표시됩니다. [템플릿을 만드는 방법을 알아봅니다](#create-content-templates)
 
 왼쪽 창에서 콘텐츠 템플릿을 폴더로 구성할 수 있습니다. 기본적으로 모든 템플릿이 표시됩니다. 폴더를 선택할 때는 선택한 폴더에 포함된 템플릿과 폴더만 표시됩니다. [자세히 알아보기](#folders)
-
->[!NOTE]
->
->콘텐츠 템플릿 폴더는 조직 집합(제한된 가용성)에만 사용할 수 있으며 더 많은 사용자에게 점진적으로 배포될 예정입니다.
 
 ![](assets/content-template-list-folders.png)
 
@@ -49,10 +45,6 @@ ht-degree: 3%
 >2025년 3월부터 HTML 유형 콘텐츠 템플릿은 이제 더 이상 사용되지 않습니다. [!DNL Journey Optimizer]에서 이전에 만든 기존 HTML 콘텐츠 템플릿에 계속 액세스할 수 있습니다.
 
 ## 폴더를 사용하여 콘텐츠 템플릿 관리 {#folders}
-
->[!AVAILABILITY]
->
->콘텐츠 템플릿 폴더는 조직 집합(제한된 가용성)에만 사용할 수 있으며 더 많은 사용자에게 점진적으로 배포될 예정입니다.
 
 콘텐츠 템플릿을 간편하게 탐색하려면 폴더를 사용하여 구조화된 계층에 더 효과적으로 구성할 수 있습니다. 이를 통해 조직의 요구 사항에 따라 항목을 분류하고 관리할 수 있습니다.
 

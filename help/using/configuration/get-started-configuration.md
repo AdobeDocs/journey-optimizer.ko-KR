@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 구성, 구성하기, 메시지, 채널, 샌드박스, optimizer
-source-git-commit: e052cf9bcd42cecbaaeb9047990ed603dd0730a0
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 48%
+ht-degree: 54%
 
 ---
 
@@ -60,6 +60,6 @@ ht-degree: 48%
 
    * 개인 사용자에게 보내는 메시지의 사본을 보관하려면 **BBC 이메일 옵션**&#x200B;을 활성화합니다. [자세히 알아보기](archiving-support.md#enable-bcc)
 
-   * 받는 사람을 너무 많이 사용하지 않도록 **비즈니스 규칙**&#x200B;을 구성하세요. [자세히 알아보기](../configuration/rule-sets.md)
+   * 받는 사람을 너무 많이 사용하지 않도록 **비즈니스 규칙**&#x200B;을 구성하세요. [자세히 알아보기](../conflict-prioritization/rule-sets.md)
 
    * Adobe Experience Platform에서 수신자의 주소/전화번호를 여러 개 사용할 수 있는 경우 어느 주소/전화번호를 우선으로 사용할지 정합니다. [자세히 알아보기](primary-email-addresses.md)

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4363928c54b42cff259df63b24636b48c3bd1433
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 26%
+source-wordcount: '815'
+ht-degree: 28%
 
 ---
 
@@ -22,14 +22,9 @@ ht-degree: 26%
 
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
-
-## 2025년 5월 초기 릴리스 정보 {#25-5-rn}
-
-
-**아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
+## 2025년 5월 릴리스 정보 {#25-5-rn}
 
 **릴리스 날짜**: 2025년 5월 20~21일
-
 
 ### 새로운 기능 {#25-05-features}
 
@@ -72,43 +67,44 @@ ht-degree: 26%
 </tbody>
 </table>
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>배치 세분화 작업과 대상자 읽기 일정 동기화</strong><br/></th>
+<th><strong>Synchronize read audience schedule with batch segmentation job</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 배치 세분화가 완료된 후 일별 여정 실행을 트리거할 수 있습니다. 이제 모든 고객이 일별로 예약된 여정에서 이 옵션을 사용할 수 있습니다. 배치 세분화 작업에서 대상 데이터를 기다리는 시간을 최대 6시간으로 정의할 수 있으므로, 여정이 최신 데이터로 실행되거나 준비되지 않은 경우 건너뛸 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>You can now trigger daily journey runs after batch segmentation completion. This option is now available in daily-scheduled journeys to all customers. It allows you to define for a time window of up to 6 hours to wait for audience data from batch segmentation jobs, ensuring journeys run with the most up-to-date data or are skipped if not ready.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
-<!--<p>For more information, refer to the <a href="../building-journeys/read-audience.md#schedule">detailed documentation</a>.</p>-->
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#schedule">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager 컨텐츠 조각 통합</strong><br/></th>
+<th><strong>Adobe Experience Manager Content fragment integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Manager과 Adobe Journey Optimizer의 통합을 통해 이제 Journey Optimizer 콘텐츠 내에서 Adobe Experience Manager 콘텐츠 조각을 손쉽게 사용할 수 있습니다. 이러한 원활한 연결을 통해 Journey Optimizer에서 직접 AEM 콘텐츠에 손쉽게 액세스하고 사용할 수 있습니다.</p>
-<p>이전에는 제한된 조직(LA)에서 사용할 수 있었지만, 이제 다음과 같은 향상된 기능을 통해 GA됩니다.</p>
+<p>With the integration of Adobe Experience Manager and Adobe Journey Optimizer, you can now effortlessly use Adobe Experience Manager Content Fragments within your Journey Optimizer content. This seamless connection makes it easier to access and use your AEM content directly in Journey Optimizer.</p>
+<p>Previously available for a limited set of organizations (LA), this capability is now GA with the following enhancements:</p>
 <ul>
-<li>AEM 콘텐츠 조각을 직접 선택하여 오퍼를 만듭니다.</li>
-<li>편집기 모드를 사용하여 조각 서명 내에서 자리 표시자를 정의하고 개인화 값을 매핑합니다.</li>
+<li>Create offers by directly selecting an AEM Content Fragment.</li>
+<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li>
 </ul>
+<img src="assets/do-not-localize/content-fragment.gif">
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--<table>
 <thead>
@@ -128,26 +124,27 @@ ht-degree: 26%
 </tbody>
 </table>-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager Dynamic Media 통합</strong><br/></th>
+<th><strong>Adobe Experience Manager Dynamic media integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 Dynamic Media 자산을 바로 사용 및 액세스할 수 있습니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.</p>
+<p>Dynamic media assets are now directly available and accessible in Journey Optimizer. This integration enables you to:</p>
 <ul>
-<li>실시간 업데이트를 통해 자산을 중앙에서 관리합니다.</li>
-<li>너비 및 높이와 같은 에셋 설정을 즉시 수정합니다.</li>
-<li>콘텐츠를 업데이트하고 개인화 필드를 추가하여 Dynamic Media 템플릿을 사용자 지정합니다.</li>
+<li>Centrally manage assets with real-time updates.</li>
+<li>Modify your assets settings such as width and height instantly.</li>
+<li>Customize Dynamic Media templates by updating your content and adding personalization fields.</li>
 </ul>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<img src="assets/do-not-localize/dynamic_media_template_html.gif">
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -165,29 +162,29 @@ ht-degree: 26%
 <li>향상된 문제 해결: 이제 쿼리 서비스에서 두 개의 새로운 단계 이벤트 필드를 사용할 수 있으므로 여정 또는 캠페인에서 프로필이 거부된 이유를 분석할 수 있습니다.</li>
 <li>향상된 보고: 이제 보고서는 여정 또는 캠페인에서 프로필을 제외하는 특정 규칙을 나타내므로 투명성이 향상되고 실행 가능한 통찰력을 얻을 수 있습니다.</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
-<!--<p>For more information, refer to the <a href="../conflict-prioritization/gs-conflict-prioritization.md">detailed documentation</a>.</p>-->
+<p>자세한 내용은 <a href="../conflict-prioritization/gs-conflict-prioritization.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>콘텐츠 변형 시뮬레이션</strong><br/></th>
+<th><strong>Simulate content variations</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이전에 Beta에서 사용 가능했던 콘텐츠 변형 시뮬레이션이 이제 일반 공개되었습니다(GA). CSV 또는 JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠의 다양한 변형을 미리 볼 수 있습니다. 콘텐츠에서 개인화를 위해 사용되는 모든 속성은 시스템에서 자동으로 감지되며, 이를 테스트에 사용하여 여러 변형을 만들 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다. 이번 GA 릴리스에서는 다국어 콘텐츠 및 콘텐츠 실험을 지원하는 기능이 추가되어 다양한 언어 및 처리에서 변형을 테스트할 수 있습니다. 또한 이제 프로필 속성 외에도 컨텍스트 속성을 지원하므로 보다 동적이고 상황에 맞는 콘텐츠 테스트가 가능합니다.</p>
+<p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments. With this General Availability release, the feature now includes support for multilingual content and content experiments, enabling you to test variations across different languages and treatments. Additionally, it now supports contextual attributes (in addition to profile attributes), allowing for even more dynamic and situational content testing.</p>
 <img src="assets/do-not-localize/variants.gif">
-<!--<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>-->
+<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <!--table>
 <thead>
@@ -239,8 +236,6 @@ ht-degree: 26%
 </table>
 -->
 
-
-
 ### 개선 사항 {#25-05-improv}
 
 이번 릴리스의 개선 사항 목록은 다음과 같습니다.
@@ -272,35 +267,36 @@ ht-degree: 26%
   >
   >이 기능은 향후 30일 동안 모든 환경에 점진적으로 제공될 예정입니다.
 
-* **전자 메일 템플릿의 클릭 추적**
+* **&#39;URL로 리디렉션&#39; 웹 채널**
 
-  이제 Journey Optimizer에서 이메일 템플릿의 이미지 맵 내에 있는 `<area>` 요소에 대한 클릭 추적이 기본적으로 지원됩니다. 이는 이미지 맵 영역이 표준 하이퍼링크와 동일한 추적 줄바꿈, 추적 데이터 및 추가된 매개 변수를 받도록 하기 위한 것입니다.
-
-* **Decisioning - Adobe Experience Platform 데이터 세트 활용**
-
-  이제 Journey Optimizer을 통해 자격 규칙, 등급 수식 및 최대 가용량 규칙과 같은 Decisioning 개체에서 Adobe Experience Platform 데이터 세트를 활용할 수 있습니다.
+  이제 Journey Optimizer 웹 채널을 통해 시각적 편집기에서 새로운 변형을 작성하는 대신 방문자를 다른 기존 URL로 리디렉션할 수 있습니다. 이 기능은 페이지 내의 몇 가지 요소만 변경하는 대신, 완전히 다른 두 페이지를 비교하는 실험을 실행하는 데 사용할 수 있습니다. [자세히 보기](../web/create-web.md#web-redirect-to-url)
 
 * 템플릿 및 조각용 **폴더**
 
-  폴더를 사용하면 콘텐츠 템플릿 및 조각을 구조화된 계층으로 보다 쉽고 효과적으로 구성할 수 있습니다. 이전에는 조직 집합(LA)에서 사용할 수 있었으나, 이제 모든 사용자(GA)가 콘텐츠 템플릿 및 조각을 관리하는 데 폴더를 사용할 수 있습니다.
+  폴더를 사용하면 객체를 보다 쉽고 효과적으로 구조화된 계층으로 구성할 수 있습니다. 이전에는 일부 조직에서만 사용할 수 있던(LA) 폴더 기능을 이제 모든 사용자가 사용하여(GA) 콘텐츠 템플릿과 조각을 관리할 수 있습니다. [콘텐츠 템플릿](../content-management/access-content-templates.md#folders) 및 [조각](../content-management/manage-fragments.md#folders) 섹션에서 자세히 알아보세요.
 
-* **&#39;URL로 리디렉션&#39; 웹 채널**
+* **전자 메일 템플릿의 클릭 추적**
 
-  이제 Journey Optimizer 웹 채널을 통해 시각적 편집기에서 새로운 변형을 작성하는 대신 방문자를 다른 기존 URL로 리디렉션할 수 있습니다. 이 기능은 페이지 내의 몇 가지 요소만 변경하는 대신, 완전히 다른 두 페이지를 비교하는 실험을 실행하는 데 사용할 수 있습니다.
-
-<!--* **Right rail in campaigns list**
-
-  In the campaign list, selecting a campaign now opens a pane displaying its details.-->
-
-* **코드 기반 경험 콘텐츠의 양식 필드**
-
-  이제 콘텐츠 템플릿에서 특정 JSON 또는 HTML 필드를 정의하여 기술 전문가가 아닌 사용자도 코드를 조작하지 않고도 코드 기반 경험에서 콘텐츠를 쉽게 편집할 수 있습니다.
-
-* **의사 결정 규칙에 대한 의사 결정 항목 특성 지원**
-
-  이제 의사 결정 항목 속성을 활용하여 의사 결정 규칙을 만들 수 있습니다.
+  전자 메일 콘텐츠의 이미지 맵 내에 있는 `<area>` 요소에 대한 클릭 추적이 이제 [!DNL Journey Optimizer]에서 기본적으로 지원됩니다. 이는 이미지 맵 영역이 표준 하이퍼링크와 동일한 추적 줄바꿈, 추적 데이터 및 추가된 매개 변수를 받도록 하기 위한 것입니다. [메시지 추적에 대해 자세히 알아보기](../email/message-tracking.md#manage-tracking)
 
 <!--
+* **Decisioning - Leverage Adobe Experience Platform datasets** 
+  
+  Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.
+
+* **Right rail in campaigns list**
+
+  In the campaign list, selecting a campaign now opens a pane displaying its details.
+
+* **Form fields in code-based experience content**
+
+  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.
+
+* **Decision item attribute support for decisioning rules**
+  
+  You can now leverage decision item attributes to create decisioning rules.
+
 * **Subdomains - 'Custom delegation' method**  
-  In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering, and tracking messages.-->
+  In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering, and tracking messages.
+  -->
 

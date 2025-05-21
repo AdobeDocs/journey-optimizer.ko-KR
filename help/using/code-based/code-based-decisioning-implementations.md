@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,28 @@ ht-degree: 0%
 
 ## 의사 결정을 사용하여 코드 기반 경험 테스트 {#code-based-test-decisions}
 
-현재 [코드 기반 경험](create-code-based.md) 캠페인이나 여정에서 의사 결정을 사용하여 사용자 인터페이스의 콘텐츠를 시뮬레이션할 수 없습니다.
+<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
-해결 방법으로, 클라이언트 구현의 XDM 이벤트 `data` 블록에 `dryRun` 플래그를 추가하여 캠페인을 게시한 후 의사 결정을 테스트할 수 있습니다.
+Decisioning을 사용하여 [코드 기반 경험](create-code-based.md)을(를) 테스트할 때 `dryRun` 플래그를 사용하여 보고 및 최대 가용량 카운터 모두에 대한 피드백 이벤트를 억제할 수 있습니다.
+
+캠페인을 게시한 후 클라이언트 구현의 XDM 이벤트 `data` 블록에 `dryRun` 플래그를 추가하십시오.
 
     &quot;
-    &lbrace;
-    &quot;data&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;data&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
+    }
     
     
     
     &quot;
 
+<!--
 >[!CAUTION]
 >
->`dryRun` 플래그를 요청에 추가하면 보고용 피드백이 캡처되지 않고 빈도 카운터가 추가되지 않습니다.
+>Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.-->
 
 ## 코드 기반 구현에서 의사 결정 항목 중복 제거 {#code-based-decisioning-deduplication}
 
@@ -61,7 +64,7 @@ ht-degree: 0%
 
 ### 요청에 중복 제거 적용 {#deduplication-in-request}
 
-기본적으로 중복 제거 플래그는 `true`(전달되지 않음)으로 설정되어 있습니다.
+기본적으로 중복 제거 플래그는 `true`(으)로 설정됩니다.
 
 Konductor 요청에서 응답에 고유한 요소를 원하는 경우 중복 제거 플래그를 전달할 수 있습니다. 이 경우 `false`(으)로 설정합니다.
 

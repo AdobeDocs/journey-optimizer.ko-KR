@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 시드 목록, 시드 목록, 시드, 구성
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 17%
@@ -83,7 +83,7 @@ ht-degree: 17%
 >id="ajo_seed_list_details"
 >title="시드 목록 정의"
 >abstract="보증 목적으로 특정 내부 주소를 게재 대상자에게 자동으로 추가하려면 시드 목록을 사용합니다. 시드 목록을 사용하면 발송된 메시지 사본을 모니터링하여 모든 표시 요소가 올바른지 확인하고 메일링 목록을 보호할 수 있습니다. 현재 이 기능은 이메일 채널에만 적용됩니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=ko#use-seed-list" text="시드 목록이란 무엇입니까?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="시드 목록이란 무엇입니까?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
@@ -96,7 +96,7 @@ ht-degree: 17%
 
 1. **[!UICONTROL 시드 목록 만들기]** 단추를 선택하십시오.
 
-   ![](assets/seed-list-create-button.png)
+   <!--![](assets/seed-list-create-button.png)-->
 
 1. 세부 사항을 입력합니다. 이름을 추가하여 시작합니다.
 
@@ -120,7 +120,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >두 옵션을 모두 결합할 수 있지만 시드 목록의 총 주소 수는 50개를 초과할 수 없습니다.
+   >두 옵션을 모두 결합할 수 있지만 시드 목록의 총 주소 수는 300개를 초과할 수 없습니다.
 
 1. 확인하려면 **[!UICONTROL 만들기]**&#x200B;를 클릭하세요. 새로 만든 시드 목록이 [시드 목록 화면](#access-seed-lists)에 표시됩니다.
 

@@ -7,14 +7,26 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 4%
+source-wordcount: '528'
+ht-degree: 3%
 
 ---
 
 # Infobip 공급자 구성 {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+옵트인 또는 옵트아웃 키워드가 제공되지 않으면 표준 동의 메시지가 사용자 개인 정보를 보장하는 데 사용됩니다. 사용자 지정 키워드를 추가하면 기본값이 자동으로 재정의됩니다.
+
+**기본 키워드:**
+
+* **옵트인**: 구독, 예, 중지 취소, 시작, 계속, 다시 시작, 시작
+* **옵트아웃**: 중지, 종료, 취소, 종료, 구독 취소, 아니요
+* **도움말**: 도움말
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer을 사용하여 Infobip을 구성하려면 다음 단계를 수행합니다.
 

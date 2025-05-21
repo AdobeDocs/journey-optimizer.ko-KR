@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '2045'
+source-wordcount: '1960'
 ht-degree: 14%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 14%
 
 **[!UICONTROL 관리]** > **[!UICONTROL 비즈니스 규칙]** 메뉴에서 처음으로 규칙 집합에 액세스할 때 기본 규칙 집합이 미리 만들어지고 활성 상태입니다. **전역 기본 규칙 집합**.
 
-이 규칙 세트에는 현재 비즈니스 규칙이 작동하는 방식과 유사하게 사용자가 하나 또는 여러 채널에서 메시지를 받는 빈도를 제어하기 위해 적용할 수 있는 전역 규칙이 포함되어 있습니다. 이 규칙 세트에 정의된 모든 규칙은 커뮤니케이션이 여정에서 전송되는지 아니면 캠페인에서 전송되는지 여부에 관계없이 선택한 모든 채널에 적용됩니다. [비즈니스 규칙을 사용하여 작업하는 방법을 알아봅니다](../configuration/rule-sets.md)
+이 규칙 세트에는 현재 비즈니스 규칙이 작동하는 방식과 유사하게 사용자가 하나 또는 여러 채널에서 메시지를 받는 빈도를 제어하기 위해 적용할 수 있는 전역 규칙이 포함되어 있습니다. 이 규칙 세트에 정의된 모든 규칙은 커뮤니케이션이 여정에서 전송되는지 아니면 캠페인에서 전송되는지 여부에 관계없이 선택한 모든 채널에 적용됩니다. [비즈니스 규칙을 사용하여 작업하는 방법을 알아봅니다](../conflict-prioritization/rule-sets.md)
 
 이 &quot;전역 기본 규칙 집합&quot; 규칙 집합 외에, 모든 캠페인에 적용하여 해당 캠페인 내에서 전송되는 메시지 수를 제한할 수 있는 **사용자 지정 규칙 집합**&#x200B;을 만들 수 있습니다. [사용자 지정 규칙 집합을 만드는 방법을 알아봅니다](#create)
 
@@ -63,10 +63,6 @@ ht-degree: 14%
 
 * **채널** 도메인: 통신 채널의 최대 가용량 규칙을 적용합니다. 예를 들어 하루에 1개 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 마십시오.
 * **여정** 여정: 시작 및 동시성 제한 규칙을 도메인에 적용합니다. 예를 들어 두 개 이상의 여정에 동시에 프로필을 입력하지 마십시오.
-
->[!AVAILABILITY]
->
->**여정** 도메인 규칙 집합은 모든 사용자가 사용할 수 있지만 **채널** 도메인 규칙 집합은 제한된 사용자 집합(제한된 가용성)만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 ## 첫 번째 사용자 지정 규칙 세트 만들기 {#create-rule-set}
 
@@ -87,10 +83,6 @@ ht-degree: 14%
 1. 규칙 세트의 도메인을 선택합니다. 여정을 사용하면 규칙 세트에 통신 채널 또는 도메인에 관련된 최대 가용량 규칙이 포함되는지 여부를 지정할 수 있습니다. [채널 및 여정 제한 규칙에 대해 자세히 알아보기](#domain)
 
    ![](assets/rule-sets-create.png)
-
-   >[!AVAILABILITY]
-   >
-   >**여정** 도메인 규칙 집합은 모든 사용자가 사용할 수 있지만 **채널** 도메인 규칙 집합은 제한된 사용자 집합(제한된 가용성)만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -140,10 +132,6 @@ ht-degree: 14%
 
    ![](assets/rule-set-capping-duration.png)
 
-   >[!AVAILABILITY]
-   >
-   >일별 기간은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
-
    기간별 사용기간 종료일은 다음 각 호와 같다.
 
    * **[!UICONTROL 월별]**: 빈도 상한은 23:59:59 UTC로 해당 월의 마지막 날까지 유효합니다. 예를 들어 1월의 월별 만료일은 01~31 23:59:59 UTC입니다.
@@ -154,7 +142,7 @@ ht-degree: 14%
 
      >[!CAUTION]
      > 
-     >일일 캡핑 규칙의 정확도를 보장하려면 캠페인이나 여정을 작성할 때 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보세요.
+     >일일 캡핑 규칙의 정확도를 보장하려면 캠페인이나 여정을 작성할 때 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보십시오.
 
    통신이 전달되면 프로필 카운터 값이 업데이트됩니다. 대량의 통신을 전송하는 경우 처리량으로 인해 수신자는 통신을 시작한 후 몇 분 또는 몇 시간 만에 이메일을 받을 수 있으므로(수백만 개의 통신을 동시에 전송하는 경우) 이 사실을 알고 있어야 합니다.
 
@@ -324,4 +312,4 @@ In this scenario, an individual profile:
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

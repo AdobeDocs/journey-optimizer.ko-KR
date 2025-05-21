@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 7946af7c1d0908fb6a9dad18e7685fa4993ee4c4
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 90%
 <tbody>
 <tr>
 <td>
-<p>브랜드 정렬 점수 기능은 이메일 디자이너에서 직접 명확한 피드백을 제공하여 콘텐츠가 브랜드의 색조, 스타일 및 지침에 맞는지 여부를 확인하는 데 도움이 됩니다. 이 기능은 Beta에서 사용할 수 있습니다.</p>
+<p>브랜드 정렬 점수 기능은 이메일 디자이너에서 직접 명확한 피드백을 제공하여 내 콘텐츠가 브랜드의 톤, 스타일 및 가이드라인에 부합하는지 확인하는 데 도움을 줍니다. 이 기능은 Beta 버전으로 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../content-management/brands-score.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -362,7 +362,7 @@ ht-degree: 90%
 <td>
 <p>A calendar view is now available in Journey Optimizer to visualize all journeys activations. From this view, you can browse your journeys and check details and properties.<p>
 <p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -439,7 +439,7 @@ ht-degree: 90%
 <td>
 <p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
 <p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -481,7 +481,7 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 
 다시 말씀드리지만, 규칙 세트의 일일 캡핑은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
-비즈니스 규칙에 대한 자세한 내용은 [세부 설명서](../configuration/rule-sets.md)를 참조하십시오.
+비즈니스 규칙에 대한 자세한 내용은 [세부 설명서](../conflict-prioritization/rule-sets.md)를 참조하십시오.
 
 **콘텐츠 템플릿**
 
@@ -517,7 +517,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <p><ul><li>채널 규칙 세트를 만들어 한 채널 또는 여러 채널에서 전송되는 메시지 수를 제한합니다. 캠페인 또는 여정 작업에 적용하여 규칙 세트에 정의된 규칙을 시행합니다. 채널 규칙 세트를 사용하면 커뮤니케이션 유형에 따른 캡핑 규칙을 적용할 수 있습니다. 예를 들어 "프로모션 메시지"를 제한하는 규칙 세트를 설정하고 "뉴스레터"에 대해 또 다른 규칙 세트를 설정할 수 있습니다. 보내는 커뮤니케이션 유형에 따라 캠페인 또는 여정 작업에 적절한 규칙 세트를 적용합니다.</li>
 <li> 프로필의 여정 진입을 제어하려면 여정 규칙 세트를 만듭니다. 프로필이 지정된 기간 내에 여정에 진입할 수 있는 빈도 또는 프로필을 동시에 등록할 수 있는 여정 수를 제한합니다. 여정 수준에서 이를 적용하여 적절한 진입 관리를 보장합니다.</li></ul></p>
 <p>이전에는 일부 조직에서만 사용할 수 있던(LA) 비즈니스 규칙을 이제 모든 사용자가 사용할 수 있습니다(GA). 여정 도메인 비즈니스 규칙은 여전히 제한된 일부 조직에서만 사용할 수 있습니다(LA).</p>
-<p>자세한 내용은 <a href="../configuration/rule-sets.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../conflict-prioritization/rule-sets.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>

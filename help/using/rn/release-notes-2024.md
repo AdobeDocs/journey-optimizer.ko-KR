@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -265,7 +265,7 @@ ht-degree: 100%
 <td>
 <p>개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 콘텐츠를 개인화할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer]​(으)로 개인화할 수 있습니다.</p>
 <p>이 기능은 모든 고객이 공개 Beta로 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../personalization/lookup-aep-data.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../personalization/lookup-aep-data.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -680,14 +680,14 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>페더레이션된 대상자 구성(제한된 가용성)</strong><br/></th>
+<th><strong>페더레이션된 대상자 컴포지션(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer에서 [페더레이션된 대상자 구성]을 사용할 수 있습니다. 이 기능으로 기업이 다양한 사용 사례에서 데이터를 더 잘 활용할 수 있습니다. 이 새로운 접근 방식을 사용하면 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer 사용자로서 기존 데이터 웨어하우스에서 직접 데이터 세트를 페더레이션하여 Adobe Experience Platform 대상자와 속성을 모두 하나의 시스템에 작성하고 강화할 수 있습니다.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/federated-audience-composition/using/home"  target="_blank">자세한 설명서</a>를 참조하세요.</p>
+<p>이제 Adobe Journey Optimizer에서 [페더레이션된 대상자 컴포지션]을 사용할 수 있습니다. 이 기능으로 기업이 다양한 사용 사례에서 데이터를 더 잘 활용할 수 있습니다. 이 새로운 접근 방식을 사용하면 Adobe Real-Time Customer Data Platform 및/또는 Adobe Journey Optimizer 사용자로서 기존 데이터 웨어하우스에서 직접 데이터 세트를 페더레이션하여 Adobe Experience Platform 대상자와 속성을 모두 하나의 시스템에 작성하고 강화할 수 있습니다.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/federated-audience-composition/using/home"  target="_blank">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -1066,7 +1066,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 <p>향상된 여정 캔버스 디자인과 함께 지난 24시간 보고 지표를 여정 캔버스에서 직접 볼 수 있는 기능을 도입했습니다. </p>
 <img src="assets/new-canvas6bis.png"/>
 <p><strong>참고</strong>: 이러한 변경 사항은 4월 릴리스부터 모든 환경으로 점진적으로 롤아웃됩니다.</p>
-<p>자세한 내용은 <a href="new-canvas.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="new-canvas.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -1159,7 +1159,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 <ul><li> 범용 개인화: 개인화된 경험을 모든 접점으로 확장하여 통합적이고 맞춤화된 사용자 여정을 보장합니다.</li>
 <li>세분화된 편집 정밀도: 앱 또는 웹 페이지 내의 개별 위치에서 있는 특정 콘텐츠를 편집할 수 있습니다.</li>
 <li>다목적 구현: 개발 환경과 원활하게 통합할 수 있도록 서버측, API 기반 또는 SDK 기반 구현 방법을 지원합니다.</li></ul></p>
-<p>자세한 내용은 <a href="../code-based/get-started-code-based.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../code-based/get-started-code-based.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/code-based.gif"> 
 </tr>
 </tbody>
@@ -1223,7 +1223,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 <tr>
 <td>
 <p>이제 이메일 외에도 푸시, 인앱, SMS 및 DM 채널에 콘텐츠 템플릿을 사용할 수 있습니다. 각 채널에는 전용 템플릿 유형이 있습니다. 이메일의 경우 이제 제목 줄을 이메일 템플릿의 일부로 저장할 수 있는 콘텐츠 유형을 선택할 수 있습니다. <br/><br/></p>
-<p>자세한 내용은 <a href="../content-management/content-templates.md">자세한 설명서</a>를 참조하세요.<br></br></p>
+<p>자세한 내용은 <a href="../content-management/content-templates.md">세부 설명서</a>를 참조하십시오.<br></br></p>
 <img src="assets/do-not-localize/multi-chan-templates.gif"> 
 </tr>
 </tbody>
@@ -1240,13 +1240,13 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 이전에 Beta로 제공되었던 향상된 기능은 이제 모든 사용자가 사용할 수 있습니다.
 
-* 이제 **대상자 구성을 통해 생성된** 대상자를 타겟팅하고 여정에서 데이터 보강 속성을 활용할 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md)
+* 이제 **대상자 컴포지션을 통해 생성된** 대상자를 타기팅하고 여정에서 데이터 보강 속성을 활용할 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md)
 
 * 이제 여정과 캠페인에 **CSV 파일에서 업로드된 대상자**&#x200B;를 타겟팅할 수 있습니다. [자세히 알아보기](../audience/about-audiences.md#segments-in-journey-optimizer)
 
   >[!AVAILABILITY]
   >
-  >* 대상자 구성 및 사용자 정의 업로드(CSV 파일)의 대상자 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
+  >* 대상자 컴포지션 및 사용자 정의 업로드(CSV 파일)의 대상자 및 속성은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
   >* **CSV 파일의 대상자 업로드** 개선 사항은 초기 릴리스 이후 며칠 동안 점진적으로 롤아웃됩니다. 일부 사용자는 즉시 액세스할 수 있지만 다른 사용자는 자신의 환경에서 사용할 수 있게 되기까지 지연이 발생할 수 있습니다.
 
 **여정**
@@ -1266,7 +1266,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 **빈도 규칙**
 
-* 이제 이메일 및 푸시 외에도 SMS 및 DM 채널에 대한 빈도 규칙을 만들 수 있습니다. 빈도 규칙은 빈도 상한에 도달하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외합니다. [자세히 보기](../configuration/rule-sets.md)
+* 이제 이메일 및 푸시 외에도 SMS 및 DM 채널에 대한 빈도 규칙을 만들 수 있습니다. 빈도 규칙은 빈도 상한에 도달하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외합니다. [자세히 보기](../conflict-prioritization/rule-sets.md)
 
 <!--**Decision management**
 
@@ -1308,7 +1308,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 <tr>
 <td>
 <p>Real-Time CDP 및 Journey Optimizer의 산업별 사용 사례 플레이북 카탈로그를 활용하여 Adobe Experience Platform 및 Adobe Journey Optimizer를 사용하여 수행할 수 있는 일반적인 사용 사례를 해결합니다.</p><p>요구 사항에 가장 적합한 플레이북을 선택하면 여정, 메시지, 스키마 또는 세그먼트와 같은 사용 사례를 지원하는 데 필요한 자산을 생성하고, 가치 창출 시간을 단축하기 위해 스키마에 맞게 사용자 지정할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../start/playbooks.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../start/playbooks.md">세부 설명서</a>를 참조하십시오.</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
 </tbody>
@@ -1342,7 +1342,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 **빈도 규칙**
 
-* **주별 빈도 상한** - 이제 월별 외에 일주일 단위로 고객 프로필에 전송되는 최대 메시지 수를 지정할 수 있습니다. 빈도 캡은 선택된 캘린더 기간에 기반하고 대응하는 시간대가 시작될 때 재설정됩니다. [자세히 알아보기](../configuration/rule-sets.md)
+* **주별 빈도 상한** - 이제 월별 외에 일주일 단위로 고객 프로필에 전송되는 최대 메시지 수를 지정할 수 있습니다. 빈도 캡은 선택된 캘린더 기간에 기반하고 대응하는 시간대가 시작될 때 재설정됩니다. [자세히 알아보기](../conflict-prioritization/rule-sets.md)
 
   >[!NOTE]
   >

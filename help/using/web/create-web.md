@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 18%
+source-wordcount: '1543'
+ht-degree: 16%
 
 ---
 
@@ -153,6 +153,31 @@ ht-degree: 18%
 
 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 관리](../content-management/preview-test.md) 섹션에서 확인할 수 있습니다.
 
+## URL로 리디렉션 {#web-redirect-to-url}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_redirect"
+>title="다른 URL로 리디렉션"
+>abstract="페이지 방문자를 리디렉션할 기존 URL을 입력합니다."
+
+웹 경험을 만들 때 웹 디자이너에서 새로운 변형을 작성하는 대신 방문자를 다른 기존 URL로 리디렉션할 수 있습니다.
+
+이 용량을 사용하면 페이지 내의 몇 가지 요소만 변경하는 대신 서로 다른 두 경험을 비교하는 [콘텐츠 실험](../content-management/content-experiment.md)을 실행할 수 있습니다.
+
+예를 들어 다음 두 가지 처리를 사용하여 웹 캠페인을 만듭니다.
+
+* **처리 A**&#x200B;에서 대상 모집단의 절반에 대해 웹 디자이너를 사용하여 웹 경험을 작성하십시오.
+
+* **처리 B**&#x200B;에서 대상 모집단의 나머지 절반에 대해 **[!UICONTROL URL로 리디렉션]** 옵션을 선택하십시오. [!DNL Journey Optimizer] 외부에서 만든 대체 디자인을 사용하여 페이지의 URL을 입력하십시오.
+
+  ![](assets/web-campaign-redirect-to-url.png)
+
+  >[!NOTE]
+  >
+  >웹 사이트 미리 보기가 더 이상 표시되지 않으며 **[!UICONTROL 시각적 편집기]** 전환 단추가 비활성화되어 있습니다.
+
+웹 캠페인이 실행되면 [!DNL Journey Optimizer]에서 작성한 웹 경험이 외부 랜딩 페이지로 리디렉션된 사용자를 기준으로 페이지 방문자에게 어떻게 작동하는지 추적할 수 있습니다. [실험 캠페인 보고서](../reports/campaign-global-report-cja-experimentation.md)를 사용하는 방법을 알아보세요.
+
 ## 웹 경험을 라이브로 만들기 {#web-experience-live}
 
 >[!IMPORTANT]
@@ -241,4 +266,4 @@ ht-degree: 18%
 
 아래 비디오에서는 웹 캠페인을 만들고, 속성을 구성하고, 검토하고, 게시하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449988/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
