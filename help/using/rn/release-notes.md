@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8a4ae82271a2bcac14e7c6ac8c3b0265b4fe760b
+source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 31%
+source-wordcount: '757'
+ht-degree: 28%
 
 ---
 
@@ -67,23 +67,23 @@ ht-degree: 31%
 </tbody>
 </table>
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Synchronize read audience schedule with batch segmentation job</strong><br/></th>
+<th><strong>배치 세분화 작업과 대상자 읽기 일정 동기화</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now trigger daily journey runs after batch segmentation completion. This option is now available in daily-scheduled journeys to all customers. It allows you to define for a time window of up to 6 hours to wait for audience data from batch segmentation jobs, ensuring journeys run with the most up-to-date data or are skipped if not ready.</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p>이제 배치 세분화가 완료된 후 일별 여정 실행을 트리거할 수 있습니다. 이제 모든 고객이 일별로 예약된 여정에서 이 옵션을 사용할 수 있습니다. 배치 세분화 작업에서 대상 데이터를 기다리는 시간을 최대 6시간으로 정의할 수 있으므로, 여정이 최신 데이터로 실행되거나 준비되지 않은 경우 건너뛸 수 있습니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
-<p>For more information, refer to the <a href="../building-journeys/read-audience.md#schedule">detailed documentation</a>.</p>
+<p>자세한 내용은 <a href="../building-journeys/read-audience.md#schedule">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <!--table>
 <thead>
