@@ -29,7 +29,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에서 여정 속성 특성 [에 대해 자세히 알아보세요.
+>문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[&#128279;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에서 여정 속성 특성 에 대해 자세히 알아보세요.
 
 ## 기본 사용 사례/일반 쿼리 {#common-queries}
 
