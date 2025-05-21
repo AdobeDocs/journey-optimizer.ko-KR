@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: e6cbe48b102d1ac0259bb7fac96c3c8331e5a643
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 28%
+source-wordcount: '817'
+ht-degree: 29%
 
 ---
 
@@ -257,7 +257,7 @@ ht-degree: 28%
 
 * **DM: SFTP 연결에 대한 SSH 키 지원** - 사용 가능한 날짜: 2025년 5월 5일
 
-  이제 DM 파일 라우팅 구성에서 암호 인증 유형이 있는 기존 SFTP 외에 SSH 키 인증이 있는 SFTP 서버로 DM 파일을 내보낼 수 있습니다.
+  이제 DM 파일 라우팅 구성에서 암호 인증 유형이 있는 기존 SFTP 외에 SSH 키 인증이 있는 SFTP 서버로 DM 파일을 내보낼 수 있습니다. [자세히 보기](../direct-mail/direct-mail-configuration.md)
 
 * **개인화를 위한 알약 활성화** - 사용 가능한 날짜: 2025년 5월 5일
 
