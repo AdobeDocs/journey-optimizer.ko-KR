@@ -11,7 +11,7 @@ exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
 source-git-commit: c59dc9e8ef33f861106276e91513a078404713fa
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 18%
+ht-degree: 26%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="cja_connections_enable_cja"
 >title="Customer Journey Analytics 활성화"
->abstract="Customer Journey Analytics에서 이 보고서를 분석하려면 관리자에게 문의하여 조직에서 Customer Journey Analytics을 구매했는지 그리고 통합이 제대로 구성되었는지 확인하십시오."
+>abstract="Customer Journey Analytics에서 이 보고서를 분석하려면 관리자에게 문의하여 조직에서 Customer Journey Analytics를 구매했으며 통합이 올바르게 구성되어 있는지 확인하십시오."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Customer Journey Analytics"
 
 >[!IMPORTANT]
@@ -53,14 +53,14 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 
 * Customer Journey Analytics을 **소유**&#x200B;하고 Customer Journey Analytics 제품 프로필에 액세스할 수 있는 경우 다음이 필요합니다.
 
-   * Customer Journey Analytics에 대한 **[!UICONTROL 대상 만들기]** 및 **[!UICONTROL 대상 보기]** 권한. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control)
+   * Customer Journey Analytics에 대한 **[!UICONTROL 대상 만들기]** 및 **[!UICONTROL 대상 보기]** 권한. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
 
    * Adobe Journey Optimizer에 대한 **[!UICONTROL 프로필 관리]** 권한. [자세히 알아보기](../administration/permissions.md)
 
-* **Adobe Journey Optimizer에서 기본 데이터 보기로 설정**&#x200B;을 설정하여 Customer Journey Analytics 데이터 보기를 구성해야 합니다. [데이터 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview)
+* **Adobe Journey Optimizer에서 기본 데이터 보기로 설정**&#x200B;을 설정하여 Customer Journey Analytics 데이터 보기를 구성해야 합니다. [데이터 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## 사용 방법 비디오{#video}
 
 아래 비디오에서는 Customer Journey Analytics에서 향상된 Journey Optimizer 보고를 사용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443158?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)

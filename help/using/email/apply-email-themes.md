@@ -12,7 +12,7 @@ exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_theme"
->title="전자 메일에 테마 적용"
->abstract="브랜드와 디자인에 맞는 특정 스타일을 빠르게 적용하려면 이메일에 대한 테마를 선택하십시오."
+>title="이메일에 테마 적용"
+>abstract="이메일 테마를 선택하여 브랜드와 디자인에 맞는 특정 스타일을 빠르게 적용할 수 있습니다."
 
 <!--This documentation provides a comprehensive guide to using themes to streamline your email creation process. With the ability to define reusable themes and leverage pre-designed modules, marketers can create professional, brand-aligned emails faster and with less effort.-->
 

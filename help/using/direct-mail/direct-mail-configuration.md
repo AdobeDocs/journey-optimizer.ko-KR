@@ -38,7 +38,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="파일 라우팅 구성 정의"
->abstract="DM 메시지를 만든 후에는 타기팅된 대상자 데이터가 포함된 파일을 생성하여 서버로 내보냅니다. DM 공급자가 DM 게재를 위해 해당 파일에 액세스하여 사용할 수 있도록 서버 세부 사항을 지정해야 합니다."
+>abstract="DM 메시지를 만든 후에는 타기팅된 대상자 데이터가 포함된 파일이 생성되어 서버로 전송됩니다. DM 제공자가 해당 파일에 액세스하고 DM 메일을 게재하기 위해 사용할 수 있도록 서버 세부 사항을 지정해야 합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="다이렉트 메일 메시지 만들기"
 
 >[!CONTEXTUALHELP]
@@ -145,7 +145,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
+[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
 
 >[!ENDTABS]
 
