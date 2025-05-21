@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '2395'
 ht-degree: 18%
@@ -252,7 +252,7 @@ Adobe Journey Optimizer은 Adobe Experience Platform에서 프로필 데이터�
 
 Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합니다. 따라서 한 여정에서 여러 대상을 사용하는 경우(예: [`inAudience`개의 함수](functions/functioninaudience.md)에서 사용) 여정에서 사용하는 병합 정책과 일치하지 않으면 오류가 발생하고 게시가 차단됩니다. 하지만 메시지 개인화에 일관되지 않은 대상이 사용되면 불일치에도 불구하고 경고가 발생하지 않습니다. 이러한 이유로, 메시지 개인화에 이 대상자를 사용할 때에는 대상자와 연결된 병합 정책을 확인하는 것이 좋습니다.
 
-병합 정책에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview){target="_blank"}를 참조하세요.
+병합 정책에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
@@ -311,7 +311,7 @@ Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합
 
 여정 속성의 **[!UICONTROL 충돌 관리]** 섹션에서 충돌을 모니터링하고 여정의 우선 순위를 지정할 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
 
-* 최대 가용량 규칙에 따라 이 여정을 대상의 일부에 제외하려면 **규칙 집합**&#x200B;을 적용하세요. [규칙 세트 작업 방법 알아보기](../conflict-prioritization/rule-sets.md)
+* 최대 가용량 규칙에 따라 이 여정을 대상의 일부에 제외하려면 **규칙 집합**&#x200B;을 적용하세요. [규칙 세트 작업 방법 알아보기](../configuration/rule-sets.md)
 
 * 여정에 0에서 100 사이의 **우선 순위 점수**&#x200B;를 지정하십시오. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 여기에 삽입된 우선 순위 값은 이 여정에 포함된 모든 인바운드 액션(예: 인앱)에 상속됩니다. [우선 순위 점수를 사용하여 작업하는 방법을 알아봅니다](../conflict-prioritization/priority-scores.md)
 

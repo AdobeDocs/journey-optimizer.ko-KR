@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2378'
 ht-degree: 97%
 
 ---
@@ -213,10 +213,7 @@ ht-degree: 97%
    + [충돌 관리 및 우선 순위 지정 시작](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [잠재적 충돌 확인](using/conflict-prioritization/conflicts.md)
    + [우선 순위 점수 할당](using/conflict-prioritization/priority-scores.md)
-메시지 및 여정 제한 규칙 설정 {#capping-rules}
-      + [규칙 세트 작업](using/conflict-prioritization/rule-sets.md)
-      + [여정 캡핑 및 중재](using/conflict-prioritization/journey-capping.md)
-      + [채널 및 통신 유형별 주파수 제한](using/conflict-prioritization/channel-capping.md)
+   + [여정 캡핑 및 중재](using/conflict-prioritization/journey-capping.md)
 + 테스트 및 승인 {#test}
    + 콘텐츠 미리 보기 및 테스트 {#preview-test}
       + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
@@ -733,6 +730,7 @@ ht-degree: 97%
    + [아카이브 지원](using/configuration/archiving-support.md)
    + [실행 주소 변경](using/configuration/primary-email-addresses.md)
    + [비즈니스 규칙 구성](using/configuration/frequency-rules.md)
+   + [규칙 집합 작업](using/configuration/rule-sets.md)
 + 여정 구성 {#configure-journeys}
    + [데이터 소스, 이벤트 및 작업 구성](using/configuration/about-data-sources-events-actions.md)
    + 이벤트 구성 {#events-journeys}
