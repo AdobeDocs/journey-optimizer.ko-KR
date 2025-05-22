@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '736'
 ht-degree: 6%
 
 ---
@@ -95,6 +95,10 @@ ht-degree: 6%
   }
 }
 ```
+
+>[!IMPORTANT]
+>
+>**deploy** 끝점을 호출한 후에만 구성이 활성화됩니다.
 
 ## 경고 및 오류
 
