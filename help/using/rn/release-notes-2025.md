@@ -10,14 +10,14 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 2025년 릴리스 정보 {#release-notes-2025}
 
-이 페이지에서는 2025년에 릴리스된 [!DNL Journey Optimizer]의 모든 기능 및 개선 사항 목록을 확인할 수 있습니다.
+이 페이지에서는 2025년에 릴리스된 [!DNL Journey Optimizer]의 모든 기능과 개선 사항 목록을 확인할 수 있습니다.
 
 
 ## 25년 4월 릴리스 정보 {#25-4-rn}
@@ -26,20 +26,20 @@ ht-degree: 92%
 
 ### 새로운 기능 {#25-04-features}
 
-이 릴리스와 함께 제공되는 새로운 기능은 아래에 나와 있습니다.
+다음은 이번 릴리스의 새로운 기능 목록입니다.
 
 <table>
 <thead>
 <tr>
-<th><strong>개인화 편집기 - 직접 해보기</strong><br/></th>
+<th><strong>개인화 편집기 - 실습 기능</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 개인화 표현식을 실험할 수 있는 공간인 개인화 플레이그라운드를 사용할 수 있습니다. 이 공간에서 샘플 템플릿과 페이로드를 탐색하며 자신만의 개인화 표현식을 시작하고 시도해 볼 수 있습니다.</p>
+<p>이제 개인화 표현식을 실험할 수 있는 공간인 개인화 플레이그라운드를 사용할 수 있습니다. 샘플 템플릿 및 페이로드를 탐색하여 자신만의 개인화 표현식을 시작하고 사용해 볼 수 있습니다.</p>
 <p>자세한 내용은 <a href="../personalization/personalize.md#playground">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2025년 4월 24일 금요일</p>
+<p>가용성 일자: 2025년 4월 24일</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
 </td>
 </tr>
@@ -89,7 +89,7 @@ ht-degree: 92%
 <tr>
 <td>
 <p>Adobe Journey Optimizer는 LINE 채널에 대한 지원을 포함하도록 크로스 채널 기능을 확장했습니다. 이 향상된 기능을 통해 LINE 경험을 만들고 편집하고 미리 볼 수 있으므로 보다 개인화되고 매력적인 상호 작용을 제공할 수 있습니다. LINE을 사용하여 더 많은 고객과 소통하고 관련 콘텐츠를 전송하며 참여도를 개선할 수 있습니다.</p>
-<p>Adobe Journey Optimizer 고객은 요청 시 LINE 채널을 사용할 수 있습니다. 조직에 대한 기능을 활성화하려면 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.</p>
+<p>Adobe Journey Optimizer 고객은 요청 시 LINE 채널을 활성화할 수 있습니다. 조직에서 해당 기능을 활성화하려면 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="../line/get-started-line.md">세부 설명서</a>를 참조하십시오.</p></td>
 </tr>
 </tbody>
@@ -152,7 +152,7 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express 통합(제한 공개)</strong><br/></th>
+<th><strong>Adobe Express 통합(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -170,13 +170,13 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>배치 세분화 완료 후 일일 여정 실행 트리거(제한 공개)</strong><br/></th>
+<th><strong>배치 세분화 완료 후 일일 여정 실행 트리거(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>일별 예약 여정의 새 옵션을 사용하여 배치 세분화 작업에서 대상자 데이터를 기다리는 최대 6시간의 기간을 정의하면 여정을 최신 데이터로 실행하거나 준비되지 않은 경우 건너뛸 수 있습니다. 배치 대상자 평가 후 트리거 옵션은 현재 일부 조직에서만 사용할 수 있습니다(제한 공개). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>일일 예약 여정의 경우, 새로운 옵션을 사용하면 배치 세분화 작업에서 대상자 데이터를 기다리는 최대 6시간의 시간대를 정의하여 여정을 최신 데이터로 실행하고, 준비되지 않은 경우 건너뛰도록 할 수 있습니다. 배치 대상자 평가 후 트리거 옵션은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="../building-journeys/read-audience.md#schedule">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -212,7 +212,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>브랜드 정렬 점수 기능은 이메일 디자이너에서 직접 명확한 피드백을 제공하여 내 콘텐츠가 브랜드의 톤, 스타일 및 가이드라인에 부합하는지 확인하는 데 도움을 줍니다. 이 기능은 Beta 버전으로 사용할 수 있습니다.</p>
+<p>[브랜드 정렬 점수] 기능은 이메일 디자이너에서 직접 명확한 피드백을 제공하여 콘텐츠가 브랜드의 톤, 스타일, 지침에 맞는지 여부를 확인하는 데 도움이 됩니다. 이 기능은 Beta로 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../content-management/brands-score.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -248,9 +248,9 @@ ht-degree: 92%
 
 **샌드박스 도구**
 
-* **사용자 정의 작업에 샌드박스 도구 적용**
+* **사용자 정의 액션에 샌드박스 도구 적용**
 
-  이제 샌드박스 도구 기능을 사용하여 복사할 수 있는 Adobe Journey Optimizer 오브젝트 목록에 사용자 정의 작업이 포함되어 테스트 및 배포가 간소화됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
+  이제 사용자 정의 액션이 샌드박스 도구 기능을 사용하여 복사할 수 있는 Adobe Journey Optimizer 오브젝트 목록에 포함되어 테스트 및 배포가 간소화됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
 
 * **캠페인에 샌드박스 도구 적용** - 가용성 일자: 2025년 4월 3일
 
@@ -260,7 +260,7 @@ ht-degree: 92%
 
 * **새로운 상황별 속성**
 
-  이제 개인화 편집기에서 **메시지 프로필 ID**&#x200B;라는 새 상황별 속성을 선택할 수 있습니다. 이 속성은 게재에서 각 타기팅 프로필로 전송되는 각 메시지를 고유하게 식별하는 메시지 지향 속성입니다. 이 고유 식별자는 예를 들어 수신자가 열거나 클릭한 각 링크를 구별하기 위한 URL 추적 매개 변수로 사용할 수 있습니다.
+  이제 개인화 편집기에서 새로운 상황별 속성인 **메시지 프로필 ID**&#x200B;를 선택할 수 있습니다. 이 속성은 게재 시 각 타기팅된 프로필로 전송된 각 메시지를 고유하게 식별하는 메시지 지향 속성입니다. 이 고유 식별자는 예를 들어 수신자가 열거나 클릭한 각 링크를 구별하기 위한 URL 추적 매개 변수로 사용할 수 있습니다.
 
 * **속성 창의 채워진 속성** - 가용성 일자: 2025년 4월 2일
 
@@ -268,9 +268,9 @@ ht-degree: 92%
 
 **이메일 채널**
 
-* **개인화된 URL 추적** - 사용 가능한 날짜: 2025년 4월 30일
+* **개인화된 URL 추적** - 가용성 일자: 2025년 4월 30일
 
-  이제 콘텐츠의 각 링크에 대해 이메일 디자이너에서 수행하는 대신, 이메일 채널 구성 수준에서 모든 URL 추적 매개 변수를 한 번에 개인화하여 유연성을 높이고 이메일 설정을 제어할 수 있습니다. [자세히 보기](../email/surface-personalization.md#personalize-url-tracking)
+  이메일 설정을 보다 유연하게 관리하고 세밀하게 제어하기 위해 이제 콘텐츠의 각 링크에 대해 [이메일 디자이너]에서 하나하나 작업을 수행할 필요 없이 이메일 채널 구성 수준에서 모든 URL 추적 매개 변수를 한 번에 개인화할 수 있습니다. [자세히 보기](../email/surface-personalization.md#personalize-url-tracking)
 
 * **이메일 디자이너** - 가용성 일자: 2025년 4월 1일
 
@@ -477,15 +477,15 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 
 **비즈니스 규칙**
 
-이제 배치 세분화를 통해 여정 및 캠페인에서 일일 캡핑을 사용할 수 있습니다. 일일 캡핑 규칙의 정확도를 보장하려면 캠페인이나 여정을 작성할 때 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보십시오.
+이제 배치 세분화를 통해 여정 및 캠페인에서 일일 빈도 상한 설정을 사용할 수 있습니다. 일일 빈도 상한 설정 규칙의 정확도를 보장하려면 캠페인이나 여정을 작성할 때 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보십시오.
 
-다시 말씀드리지만, 규칙 세트의 일일 캡핑은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+다시 말씀드리지만, 규칙 세트의 일일 빈도 상한 설정은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 비즈니스 규칙에 대한 자세한 내용은 [세부 설명서](../configuration/rule-sets.md)를 참조하십시오.
 
 **콘텐츠 템플릿**
 
-HTML 유형 콘텐츠 템플릿은 이제 사용되지 않습니다. [!DNL Journey Optimizer]에서 이전에 만든 기존 HTML 콘텐츠 템플릿을 계속 사용할 수 있습니다. [콘텐츠 템플릿에 대해 자세히 알아보기](../content-management/content-templates.md)
+HTML 유형 콘텐츠 템플릿은 이제 사용되지 않습니다. [!DNL Journey Optimizer]에서 이전에 만든 기존 HTML 콘텐츠 템플릿은 계속 사용할 수 있습니다. [콘텐츠 템플릿에 대해 자세히 알아보기](../content-management/content-templates.md)
 
 
 <!--**Deliverability**

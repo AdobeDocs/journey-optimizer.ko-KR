@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 7f09e78c153955fb481b94701e55a0f9e77e7dd6
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
       + [2021](using/rn/release-notes-2021.md)
    + [설명서 업데이트](using/rn/documentation-updates.md)
    + [향상된 여정 캔버스](using/rn/new-canvas.md)
-+ 시작하기{#get-started}
++ 시작{#get-started}
    + [Journey Optimizer 소개](using/start/get-started.md)
    + 빠른 시작 안내서{#quick-start}
       + [개요](using/start/quick-start.md)
@@ -38,7 +38,7 @@ ht-degree: 97%
    + [검색, 필터, 분류](using/start/search-filter-categorize.md)
    + [접근성](using/start/accessibility.md)
    + [사용 사례 플레이북](using/start/playbooks.md)
-   + [AI 어시스턴트로 작업하기](using/start/ai-assistant.md)
+   + [AI 어시스턴트로 작업](using/start/ai-assistant.md)
    + [가드레일](using/start/guardrails.md)
    + [모범 사례](using/start/best-practices.md)
 + 여정 {#orchestrate-journeys}
@@ -173,11 +173,11 @@ ht-degree: 97%
          + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
          + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
-   + [오케스트레이션 캠페인 시작](using/ms/gs-ms-campaigns.md)
+   + [오케스트레이션된 캠페인 시작](using/ms/gs-ms-campaigns.md)
    + [핵심 원칙](using/ms/gs-campaign-creation.md)
    + [오케스트레이션된 캠페인을 만드는 단계](using/ms/gs-campaign-steps.md)
    + 구성 단계 {#ms-config}
-      + [관계적 스키마 만들기](using/ms/ms-schemas.md)
+      + [관계 스키마 만들기](using/ms/ms-schemas.md)
    + 만들기 단계{#create-ms-campaign}
       + [오케스트레이션된 캠페인 만들기](using/ms/create-ms-campaign.md)
       + [캠페인 설정 구성](using/ms/ms-campaign-settings.md)
@@ -394,7 +394,7 @@ ht-degree: 97%
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
    + 콘텐츠 생성용 AI 어시스턴트{#ai-assistant}
-      + [AI 어시스턴트 시작](using/content-management/gs-generative.md)
+      + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
       + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
       + [AI를 사용한 푸시 생성](using/content-management/generative-push.md)
       + [AI를 사용한 SMS 생성](using/content-management/generative-sms.md)
@@ -500,7 +500,7 @@ ht-degree: 97%
 + 결정 기능 {#decisioning}
    + [결정 기능 시작](using/experience-decisioning/gs-decision.md)
    + 결정 {#experience-decisioning}
-      + [결정 시작](using/experience-decisioning/gs-experience-decisioning.md)
+      + [의사 결정 시작](using/experience-decisioning/gs-experience-decisioning.md)
       + [의사 결정 가드레일 및 제한 사항](using/experience-decisioning/decisioning-guardrails.md)
       + API 참조{#api-reference}
          + 오퍼 항목 만들기 및 관리 {#create-manage}
@@ -600,8 +600,8 @@ ht-degree: 97%
          + [배치 데이터 세트](using/offers/export-catalog/export-placements.md)
          + [대체 데이터 세트](using/offers/export-catalog/export-fallback.md)
       + API 참조 {#api-reference}
-         + [시작하기](using/offers/api-reference/getting-started.md)
-         + API를 사용한 오퍼 만들기 및 관리 {#offers-api}
+         + [시작](using/offers/api-reference/getting-started.md)
+         + API를 사용하여 오퍼 만들기 및 관리 {#offers-api}
             + 배치 {#placements}
                + [배치 나열](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [배치 조회](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -732,7 +732,7 @@ ht-degree: 97%
    + [비즈니스 규칙 구성](using/configuration/frequency-rules.md)
    + [규칙 집합 작업](using/configuration/rule-sets.md)
 + 여정 구성 {#configure-journeys}
-   + [데이터 소스, 이벤트 및 작업 구성](using/configuration/about-data-sources-events-actions.md)
+   + [데이터 소스, 이벤트, 작업 구성](using/configuration/about-data-sources-events-actions.md)
    + 이벤트 구성 {#events-journeys}
       + [여정 이벤트 작업](using/event/about-events.md)
       + [단일 이벤트 구성](using/event/about-creating.md)
@@ -745,15 +745,15 @@ ht-degree: 97%
       + [데이터 소스 구성](using/datasource/configure-data-sources.md)
       + [Adobe Experience Platform 데이터 소스](using/datasource/adobe-experience-platform-data-source.md)
       + [외부 데이터 소스](using/datasource/external-data-sources.md)
-   + 작업 구성 {#action-journeys}
+   + 액션 구성 {#action-journeys}
       + [사용자 정의 작업 시작](using/action/action.md)
       + [사용자 정의 작업 구성](using/action/about-custom-action-configuration.md)
       + [사용자 정의 작업 문제 해결](using/action/troubleshoot-custom-action.md)
       + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
-+ 시스템과 환경 연결 {#connect-systems}
++ 시스템 및 환경 연결 {#connect-systems}
    + [Journey Optimizer API 작업](using/configuration/ajo-apis.md)
    + 외부 시스템과 여정 통합 {#external-systems}
-      + [외부 시스템과 여정 통합](using/configuration/external-systems.md)
+      + [외부 시스템과의 여정 통합](using/configuration/external-systems.md)
       + [Capping API](using/configuration/capping.md)
       + [Throttling API](using/configuration/throttling.md)
    + Adobe 솔루션으로 보내기 {#adobe-solutions}

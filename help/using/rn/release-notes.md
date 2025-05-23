@@ -8,8 +8,8 @@ description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 28%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -261,11 +261,11 @@ ht-degree: 28%
 
 * **개인화를 위한 알약 활성화** - 사용 가능한 날짜: 2025년 5월 5일
 
-  개인화 편집기에 새로운 &quot;알약&quot; 버튼이 추가되었습니다. 활성화되면 프로필 및 컨텍스트 속성이 알약으로 표시되므로 코드의 가독성이 향상됩니다. [자세히 보기](../personalization/personalization-build-expressions.md#options)
+  개인화 편집기에 새로운 &quot;필&quot; 버튼이 추가되었습니다. 활성화하면 프로필 및 상황별 속성이 필 형태로 표시되어 코드의 가독성이 향상됩니다. [자세히 보기](../personalization/personalization-build-expressions.md#options)
 
   >[!AVAILABILITY]
   >
-  >이 기능은 향후 30일 동안 모든 환경에 점진적으로 제공될 예정입니다.
+  >이 기능은 향후 30일 동안 모든 환경에 점진적으로 적용될 예정입니다.
 
 * **&#39;URL로 리디렉션&#39; 웹 채널**
 
