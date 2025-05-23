@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 37313ca8a9527c934d8aeaf265e9674219726636
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1014'
 ht-degree: 9%
 
 ---
@@ -62,7 +62,7 @@ Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, I
 
    * **[!UICONTROL 공급자 URL]**: SMS 공급자의 URL을 입력하십시오.
 
-   * **인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.**
+   * **[!UICONTROL 인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.]**
 
      ![](assets/sms-byop.png)
 
@@ -198,4 +198,8 @@ API 자격 증명이 정상적으로 생성되면 다음 단계는 웹후크를 
 Webhook에 대한 인바운드 설정을 만들고 구성한 후 SMS 메시지에 대해 [채널 구성](sms-configuration-surface.md)을 만들어야 합니다.
 
 구성하고 나면 메시지 작성, 개인화, 링크 추적 및 보고와 같은 기본 제공 채널 기능을 모두 활용할 수 있습니다.
+
+## 사용 방법 비디오 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)
 
