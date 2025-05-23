@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7f09e78c153955fb481b94701e55a0f9e77e7dd6
+source-git-commit: 81de8502ce061ee2d0bb97e4a35c3f76c4425a08
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2377'
+ht-degree: 97%
 
 ---
 
@@ -218,10 +218,10 @@ ht-degree: 0%
    + 콘텐츠 미리 보기 및 테스트 {#preview-test}
       + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
       + [테스트 프로필 선택](using/content-management/test-profiles.md)
-      + [콘텐츠 미리 보기](using/content-management/preview.md)
-      + [이메일 교정쇄 보내기](using/content-management/proofs.md)
+      + [테스트 프로필을 사용하여 미리 보기](using/content-management/preview.md)
+      + [테스트 프로필 데이터를 사용하여 증명 보내기](using/content-management/proofs.md)
       + [이메일 렌더링 테스트](using/content-management/rendering.md)
-      + [샘플 입력 데이터를 사용하여 콘텐츠 테스트(Beta)](using/test-approve/simulate-sample-input.md)
+      + [콘텐츠 변형 시뮬레이션](using/test-approve/simulate-sample-input.md)
       + [이메일 스팸 보고서](using/content-management/spam-report.md)
    + 여정 및 캠페인 승인 {#approve}
       + [승인 시작](using/test-approve/gs-approval.md)
