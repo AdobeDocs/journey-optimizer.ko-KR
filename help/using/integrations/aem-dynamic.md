@@ -6,12 +6,11 @@ description: Journey Optimizer에서 Dynamic Media 사용
 topic: Content Management
 role: User
 level: Beginner
-badge: label="제한된 가용성" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 4%
+source-wordcount: '877'
+ht-degree: 1%
 
 ---
 
@@ -19,17 +18,19 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->이 통합은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+> 의료 고객의 경우 Journey Optimizer Healthcare Shield 및 Adobe Experience Manager Enhanced Security 추가 기능 서비스의 라이선스가 있을 때만 통합이 활성화됩니다.
 
 이제 에셋 선택기가 Dynamic Media를 지원하므로 Journey Optimizer 내에서 승인된 Dynamic Media 렌디션을 원활하게 선택하고 사용할 수 있습니다. Adobe Experience Manager의 자산에 대한 변경 사항은 즉시 Journey Optimizer 콘텐츠에 반영되므로 수동으로 업데이트하지 않아도 최신 버전을 항상 사용할 수 있습니다.
 
 이 통합은 Dynamic Media Manager as a Cloud Service을 사용하는 고객에게만 제공됩니다.
 
-Adobe Experience Manager as a Cloud Service의 Dynamic Media에 대한 자세한 내용은 [Experience Manager 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}를 참조하세요.
+Adobe Experience Manager as a Cloud Service의 Dynamic Media에 대한 자세한 내용은 [Experience Manager 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}를 참조하세요.
 
 ## Dynamic Media 추가 및 관리 {#dynamic-media}
 
 Adobe Experience Manager as a Cloud Service의 Dynamic Media를 Journey Optimizer 콘텐츠에 직접 삽입하여 화면 또는 브라우저에 맞게 콘텐츠를 개선하고 최적화합니다.  그런 다음 필요에 따라 크기를 조정하고, 자르고, 강화하고, 기타 조정할 수 있습니다.
+
+Dynamic Media는 Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7) 및 [OpenAPI를 통해](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)에 모두 사용할 수 있습니다.
 
 1. **[!UICONTROL HTML 구성 요소]**&#x200B;를 콘텐츠로 끌어서 놓습니다.
 
@@ -47,7 +48,7 @@ Adobe Experience Manager as a Cloud Service의 Dynamic Media를 Journey Optimize
 
 1. 에셋 요구 사항에 맞게 필요에 따라 이미지 매개 변수(예: 높이, 너비, 회전, 뒤집기, 밝기, 색조 등)를 조정합니다.
 
-   URL에 추가할 수 있는 이미지 매개 변수의 전체 목록을 보려면 [Experience Manager 설명서](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference)를 참조하세요.
+   URL에 추가할 수 있는 이미지 매개 변수의 전체 목록을 보려면 [Experience Manager 설명서](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference)를 참조하세요.
 
    ![](assets/dynamic-media-3.png)
 
@@ -62,6 +63,8 @@ Adobe Experience Manager as a Cloud Service의 Dynamic Media를 Journey Optimize
 예를 들어 실험 기능을 사용하면 각 처리에 대해 다른 텍스트로 대체하여 기존 텍스트 오버레이를 업데이트하여 메시지를 열 때 각 프로필에 대해 사용자 지정되도록 할 수 있습니다.
 
 ![](assets/dynamic-media-layout-1.png)
+
+**텍스트 오버레이 개인화**&#x200B;는 Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7)에서만 사용할 수 있습니다. 의료 고객은 Scene7 모드에 액세스할 수 없으므로 콘텐츠는 이미지의 Journey Optimizer 바이너리 사본을 사용하여 렌더링됩니다. 예외는 Experience Manager 지원 센터에 문의하십시오.
 
 1. **[!UICONTROL HTML 구성 요소]**&#x200B;를 콘텐츠로 끌어서 놓습니다.
 
@@ -100,7 +103,9 @@ Adobe Experience Manager as a Cloud Service의 Dynamic Media를 Journey Optimize
 
 Journey Optimizer에서 Dynamic Media 템플릿을 쉽게 추가하고 필요할 때마다 미디어 콘텐츠를 업데이트합니다. 이제 개인화 필드를 미디어에 통합하여 Journey Optimizer 내에서 보다 맞춤화되고 매력적인 콘텐츠를 만들 수 있습니다.
 
-[다이내믹 미디어 템플릿](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)에 대해 자세히 알아보세요.
+**Dynamic Media 템플릿**&#x200B;은(는) Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7)에서만 사용할 수 있습니다. 의료 서비스 고객은 Scene7 모드에 액세스할 수 없으므로 콘텐츠가 렌더링되지 않습니다. 예외는 Experience Manager 지원 센터에 문의하십시오.
+
+[다이내믹 미디어 템플릿](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)에 대해 자세히 알아보세요.
 
 ### 이미지 구성 요소 사용 {#image-component}
 
@@ -120,7 +125,7 @@ Journey Optimizer에서 Dynamic Media 템플릿을 쉽게 추가하고 필요할
 
 1. **이미지 설정**&#x200B;에서 Dynamic Media 템플릿의 매개 변수에 액세스하도록 이동합니다.
 
-   사용 가능한 필드는 Adobe Experience Manager에서 [템플릿 만들기](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) 중에 추가된 매개 변수에 따라 다릅니다.
+   사용 가능한 필드는 Adobe Experience Manager에서 [템플릿 만들기](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) 중에 추가된 매개 변수에 따라 다릅니다.
 
    ![](assets/dynamic-media-template-3.png)
 
@@ -216,3 +221,9 @@ Enable conditional content in your dynamic media to better target your audience 
 1. In the **[!UICONTROL Custom Attributes]** menu, populate the Dynamic Media text and personalization fields to customize the content for your audience.
 
 -->
+
+## 사용 방법 비디오 {#video}
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
+
