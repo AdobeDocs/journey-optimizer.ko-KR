@@ -244,4 +244,4 @@ curl -X POST \
 
 테스트 프로필을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416333?quality=12&captions=kor)
