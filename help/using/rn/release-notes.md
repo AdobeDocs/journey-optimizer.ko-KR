@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ca20bf61a4bd6dc8fa066323291cc804cb09571
+source-git-commit: 6628f1a9700f126e23c8e6c21b24973f239805c0
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1061'
 ht-degree: 36%
 
 ---
@@ -45,11 +45,10 @@ ht-degree: 36%
 <!--li>Create offers by directly selecting an AEM Content Fragment.</li-->
 <li>편집기 모드를 사용하여 조각 서명 내에서 자리 표시자를 정의하고 개인화 값을 매핑합니다.</li>
 </ul>
-
-<p>자세한 내용은 <a href="../integrations/aem-fragments.md">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2025년 5월 23일 토요일</p>
 </br>
 <img src="assets/do-not-localize/content-fragment.gif">
+<p>자세한 내용은 <a href="../integrations/aem-fragments.md">세부 설명서</a>를 참조하십시오.</p>
+<p>가용성 일자: 2025년 5월 23일 토요일</p>
 </td>
 </tr>
 </tbody>
@@ -70,11 +69,11 @@ ht-degree: 36%
 <li>너비 및 높이와 같은 에셋 설정을 즉시 수정합니다.</li>
 <li>콘텐츠를 업데이트하고 개인화 필드를 추가하여 Dynamic Media 템플릿을 사용자 지정합니다.</li>
 </ul>
+</br>
+<img src="assets/do-not-localize/dynamic_media_template_html.gif">
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../integrations/aem-dynamic.md">세부 설명서</a>를 참조하십시오.</p>
 <p>가용성 일자: 2025년 5월 23일 토요일</p>
-</br>
-<img src="assets/do-not-localize/dynamic_media_template_html.gif">
 </td>
 </tr>
 </tbody>
@@ -90,8 +89,8 @@ ht-degree: 36%
 <tr>
 <td>
 <p>이제 사전 승인된 테마를 빠르게 적용하여 모든 이메일에 대한 브랜드 일관성을 보장하고, 캠페인 생성 프로세스를 가속화하고, 디자인 팀에 대한 의존도를 줄이면서 고품질 이메일을 독립적으로 생성할 수 있습니다.</p>
-<img src="assets/do-not-localize/themes.gif">
 <p>이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.</p>
+<img src="assets/do-not-localize/themes.gif">
 <p>자세한 내용은 <a href="../email/apply-email-themes.md">세부 설명서</a>를 참조하십시오.</p>
 <p>가용성 일자: 2025년 5월 14일 목요일</p>
 </td>
@@ -188,6 +187,7 @@ ht-degree: 36%
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다. 이번 GA 릴리스에서는 다국어 콘텐츠 및 콘텐츠 실험을 지원하는 기능이 추가되어 다양한 언어 및 처리에서 변형을 테스트할 수 있습니다. 또한 이제 프로필 속성 외에도 컨텍스트 속성을 지원하므로 보다 동적이고 상황에 맞는 콘텐츠 테스트가 가능합니다.</p>
 <img src="assets/do-not-localize/variants.gif">
 <p>자세한 내용은 <a href="../test-approve/simulate-sample-input.md">세부 설명서</a>를 참조하십시오.</p>
+<p>가용성 일자: 2025년 5월 23일 토요일</p>
 </td>
 </tr>
 </tbody>
