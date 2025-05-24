@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b086b442be958108d66f7fff37a676f3a1c15ab3
+source-git-commit: 261f93625def59b787894f38877ee1cf5c543748
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1154'
 ht-degree: 36%
 
 ---
@@ -237,6 +237,7 @@ ht-degree: 36%
 <p>이제 여정 ID, 구독 ID 또는 처방 ID와 같은 다른 식별자와 함께 프로필 ID를 사용하여 주문을 트리거하여 동일한 프로필이 한 번에 여러 번 동일한 여정에 있도록 할 수 있습니다. 이를 통해 각 인스턴스가 여정을 통해 자체 경로를 따르면서 여러 주문 또는 구독을 동시에 관리하는 등의 시나리오를 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../building-journeys/supplemental-identifier.md">세부 설명서</a>를 참조하십시오.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>가용성 일자: 2025년 5월 23일 토요일</p>
 </td>
 </tr>
 </tbody>
