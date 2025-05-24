@@ -2,9 +2,9 @@
 title: 이벤트가 트리거된 여정의 보조 식별자
 description: 이벤트가 트리거된 여정에서 보조 식별자를 사용하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: bfff5bfe0a87d65c453018c4f1af01e9b1456052
+source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 >
 >이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
-기본적으로 이벤트가 트리거된 여정은 **프로필 ID**&#x200B;의 컨텍스트에서 실행됩니다. 즉, 프로필이 주어진 여정에서 활성 상태인 한 다른 여정으로 다시 들어갈 수 없습니다. 이를 방지하기 위해 Journey Optimizer에서는 프로필 ID 외에 주문 ID, 구독 ID, 처방 ID와 같은 이벤트에서 **보조 식별자**&#x200B;를 캡처할 수 있습니다.
+기본적으로 이벤트가 트리거된 여정은 **프로필 ID**&#x200B;의 컨텍스트에서 실행됩니다. 즉, 프로필이 주어진 여정에서 활성 상태인 한 다른 여정으로 다시 들어갈 수 없습니다. 이를 방지하기 위해 Journey Optimizer에서는 프로필 ID 외에 주문 ID, 구독 ID, 처방 ID와 같은 이벤트에서 **보조 식별자**를 캡처할 수 있습니다.
 이 예에서는 예약 ID를 보조 식별자로 추가했습니다.
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 +++ 예제 참조
 
-   보조 ID가 &quot;bookingNum&quot;이고 &quot;bookingCountry&quot;라는 동일한 수준의 특성이 있는 개체 배열에서 여정은 bookingNum을 기반으로 배열 개체를 반복하고 각 개체에 대한 여정 인스턴스를 만듭니다.
+   보조 ID가 `bookingNum`이고 같은 수준의 특성이 `bookingCountry`인 개체 배열에서 여정은 bookingNum을 기반으로 배열 개체를 반복하고 각 개체에 대한 여정 인스턴스를 만듭니다.
 
    * 조건 활동의 다음 식은 개체 배열을 반복하고 `bookingCountry`의 값이 &quot;FR&quot;과 같은지 확인합니다.
 
@@ -112,7 +112,7 @@ ht-degree: 3%
      @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
      ```
 
-   * 이메일 개인화 편집기의 다음 표현식은 오브젝트 배열을 반복하고 현재 여정 인스턴스에 적용할 수 있는 &#39;bookingCountry&#39;를 가져와서 콘텐츠에 표시합니다.
+   * 전자 메일 개인화 편집기의 다음 식은 개체 배열을 반복하고 현재 여정 인스턴스에 적용할 수 있는 `bookingCountry`을(를) 가져와서 콘텐츠에 표시합니다.
 
      ```
      {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
