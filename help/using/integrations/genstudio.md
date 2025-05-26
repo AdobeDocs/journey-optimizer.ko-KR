@@ -140,4 +140,4 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 Journey Optimizer에서 GenStudio for Performance Marketing으로 이메일 템플릿을 내보내고, GenStudio에서 템플릿을 사용하여 브랜드 양식을 준수하는 이메일을 작성하고, 이를 Journey Optimizer로 원활하게 다시 가져오는 과정을 살펴봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456056/?quality=12&captions=kor)
