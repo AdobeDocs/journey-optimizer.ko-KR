@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 에셋, 통합
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 7%
+source-wordcount: '538'
+ht-degree: 10%
 
 ---
 
@@ -35,6 +35,8 @@ Adobe Express에 대한 자세한 내용은 [이 설명서](https://helpx.adobe.
 
 ![](assets/express_1.png)
 
+➡️ [비디오에서 이 기능 살펴보기](#video)
+
 ## Adobe Express Enterprise 라이선스 {#licence}
 
 아래 섹션에 설명된 기능은 Adobe Express Enterprise 라이센스가 없는 사용자가 액세스할 수 있습니다.
@@ -45,12 +47,12 @@ Enterprise 라이센스를 통해 사용자는 Adobe Express 편집기에 대한
 
 +++사용자를 위한 사용 사례 및 Adobe Express용 엔터프라이즈 라이선스
 
-* [배경 제거](https://helpx.adobe.com/kr/express/create-and-edit-images/edit-images/remove-background.html)
-* [개체 제거](https://helpx.adobe.com/kr/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [지우기](https://helpx.adobe.com/kr/express/create-and-edit-images/edit-images/eraser.html)
-* [개체 삽입](https://helpx.adobe.com/kr/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [자르기](https://helpx.adobe.com/kr/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [효과](https://helpx.adobe.com/kr/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+* [배경 제거](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [개체 제거](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [지우기](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [개체 삽입](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [자르기](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [효과](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
 +++
 
@@ -137,3 +139,13 @@ Enterprise 라이센스를 통해 사용자는 Adobe Express 편집기에 대한
    그런 다음 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다.
 
 이제 이미지를 콘텐츠에서 사용할 준비가 되었습니다.
+
+
+## 사용 방법 비디오 {#video}
+
+Adobe Express 도구를 사용하여 Adobe Journey Optimizer에서 자산을 편집하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+
+
+

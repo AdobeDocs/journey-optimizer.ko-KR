@@ -11,23 +11,26 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '741'
 ht-degree: 2%
 
 ---
 
 # Adobe Experience Manager 템플릿 작업 {#aem-templates}
 
->[!AVAILABILITY]
->
->Adobe Experience Manager과의 통합은 현재 사용자를 선택하는 베타 버전으로만 사용할 수 있습니다.
-> 베타 사용자인 경우 [이 양식](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}을(를) 사용하여 피드백을 공유하십시오.
+## Adobe Experience Manager 템플릿 시작 {#gs-aem-templates}
 
 Adobe Journey Optimizer을 사용하면 Adobe Experience Manager 사이트를 통해 사용자 지정 메시지를 만들 수 있습니다. Adobe Experience Manager의 콘텐츠 소스를 사용하여 템플릿을 디자인한 다음 Adobe Journey Optimizer으로 전송합니다. 이렇게 공유된 템플릿은 Adobe Journey Optimizer의 이메일 디자이너에서 액세스할 수 있으므로, 원하는 대상자에게 메시지를 만들고 보내는 프로세스를 단순화할 수 있습니다.
 
-## 전제 조건 {#prerequisites}
+>[!AVAILABILITY]
+>
+>Adobe Experience Manager과의 통합은 현재 사용자를 선택하는 베타 버전으로만 사용할 수 있습니다.
+>베타 사용자인 경우 [이 양식](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}을(를) 사용하여 피드백을 공유하십시오.
+
+
+### 전제 조건 {#prerequisites}
 
 이 기능의 사용을 시작하기 전에 다음 요구 사항에 맞는지 확인하십시오.
 
@@ -41,7 +44,7 @@ Adobe Journey Optimizer을 사용하면 Adobe Experience Manager 사이트를 �
 
   Adobe Journey Optimizer에서 콘텐츠 템플릿을 만들고 편집하고 삭제하려면 **[!DNL Content Library Manager]** 제품 프로필에 **[!DNL Manage Library Items]** 권한이 포함되어 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
-## 가드레일 및 제한 사항{#aem-templates-limitations}
+### 가드레일 및 제한 사항{#aem-templates-limitations}
 
 Adobe Journey Optimizer과 함께 Adobe Experience Manager 사용을 더욱 최적화하려면 다음 추가 보호 기능 및 제한 사항에 유의해야 합니다.
 
@@ -59,7 +62,7 @@ Adobe Experience Manager 템플릿을 Adobe Journey Optimizer으로 내보내려
 
    ![](assets/aem-outbound-menu.png)
 
-1. 콘텐츠 라이브러리에서 이전에 구성한 템플릿을 사용하거나 처음부터 새로 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=ko#creating-a-new-page)
+1. 콘텐츠 라이브러리에서 이전에 구성한 템플릿을 사용하거나 처음부터 새로 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Journey Optimizer 개인화 구문을 템플릿에 통합하여 맞춤화 기능을 향상시킬 수 있습니다. [자세히 알아보기](../personalization/personalization-syntax.md)
 

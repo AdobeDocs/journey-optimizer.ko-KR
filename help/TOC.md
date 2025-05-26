@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 33ebde5ef42519137c3ef057e6c95a71f1c45a6c
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '2382'
-ht-degree: 97%
+source-wordcount: '2393'
+ht-degree: 96%
 
 ---
 
@@ -394,6 +394,15 @@ ht-degree: 97%
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
+   + 솔루션 간 사용 사례 {#combine}
+      + [솔루션을 결합하여 콘텐츠 관리](using/integrations/content-integrations.md)
+      + [Experience Manager Assets 작업](using/integrations/assets.md)
+      + [Adobe Stock 작업](using/integrations/stock.md)
+      + [Adobe Express 작업](using/integrations/express.md)
+      + [Experience Manager 템플릿 작업](using/integrations/aem-templates.md)
+      + [Experience Manager 컨텐츠 조각을 사용한 작업](using/integrations/aem-fragments.md)
+      + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
+      + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
    + 콘텐츠 생성용 AI 어시스턴트{#ai-assistant}
       + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
       + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
@@ -434,15 +443,6 @@ ht-degree: 97%
       + [계산된 속성 관련 작업](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [라이선스 사용](using/audience/license-usage.md)
-+ 통합{#integrations}
-   + [다른 솔루션과 통합](using/integrations/ajo-integrations.md)
-   + [Experience Manager Assets 작업](using/integrations/assets.md)
-   + [Adobe Stock 작업](using/integrations/stock.md)
-   + [Adobe Express 작업](using/integrations/express.md)
-   + [Experience Manager 템플릿 작업](using/integrations/aem-templates.md)
-   + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
-   + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
-   + [GenStudio 작업](using/integrations/genstudio.md)
 + 추적 및 모니터링 {#reporting}
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)
@@ -752,6 +752,7 @@ ht-degree: 97%
       + [사용자 정의 작업 문제 해결](using/action/troubleshoot-custom-action.md)
       + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
 + 시스템 및 환경 연결 {#connect-systems}
+   + [다른 솔루션과 통합](using/integrations/ajo-integrations.md)
    + [Journey Optimizer API 작업](using/configuration/ajo-apis.md)
    + 외부 시스템과 여정 통합 {#external-systems}
       + [외부 시스템과의 여정 통합](using/configuration/external-systems.md)

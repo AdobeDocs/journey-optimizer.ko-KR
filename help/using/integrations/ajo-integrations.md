@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 87%
+source-wordcount: '1021'
+ht-degree: 59%
 
 ---
 
@@ -39,23 +39,59 @@ Journey Optimizer에서 여정을 만든 후 Customer Journey Analytics는 플�
 
 [Journey Optimizer + Analytics](../event/about-analytics.md)에 대해 자세히 알아보세요.
 
+## Adobe Experience Manager {#integration-aem}
 
-## Adobe Experience Manager Assets {#integration-assets}
+Adobe Experience Manager 사용자는 워크플로를 Adobe Journey Optimizer과 결합할 수 있습니다. 사용 가능한 사용 사례는 다음과 같습니다.
 
-[!DNL Adobe Experience Manager Assets] 통합은 마케팅 워크플로와 크리에이티브 워크플로를 결합해 줍니다. [!DNL Adobe Journey Optimizer]에 기본적으로 통합된 [!DNL Adobe Experience Manager Assets]에 액세스하여 디지털 자산을 저장하고 관리하고 찾아내며 배포할 수 있습니다. 이 통합은 메시지의 내용을 채우는 데 사용할 수 있는 단일 중앙 집중식 자산 저장소 역할을 합니다.
 
-[!DNL Adobe Journey Optimizer]에서 왼쪽 메뉴의 **[!UICONTROL Assets]** 섹션을 통해 [!DNL Adobe Experience Manager Assets]에 바로 액세스할 수 있습니다.
+>[!BEGINTABS]
 
-[Journey Optimizer + Adobe Experience Manager Assets](../integrations/assets.md)에 대해 자세히 알아봅니다.
+>[!TAB AEM Assets]
+
+**[!DNL Adobe Experience Manager Assets]** 통합은 마케팅 워크플로와 크리에이티브 워크플로를 결합해 줍니다. 기본적으로 **[!DNL Adobe Journey Optimizer]**&#x200B;과(와) 통합되어 디지털 자산을 저장, 관리, 검색 및 배포하려면 **[!DNL Assets Essentials]** 또는 **[!DNL Assets as a Cloud Service]**&#x200B;에 액세스하십시오. 이 통합은 메시지의 내용을 채우는 데 사용할 수 있는 단일 중앙 집중식 자산 저장소 역할을 합니다.
+
+[![자세히 알아보기](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
+
+>[!TAB AEM 템플릿]
+
+Adobe Journey Optimizer을 사용하면 Adobe Experience Manager 사이트를 통해 사용자 지정 메시지를 만들 수 있습니다. Adobe Experience Manager의 콘텐츠 소스를 사용하여 템플릿을 디자인한 다음 Adobe Journey Optimizer으로 전송합니다. 이렇게 공유된 템플릿은 Adobe Journey Optimizer의 이메일 디자이너에서 액세스할 수 있으므로, 원하는 대상자에게 메시지를 만들고 보내는 프로세스를 단순화할 수 있습니다.
+
+[![자세히 알아보기](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+
+>[!TAB AEM 조각]
+
+이제 Adobe Experience Manager을 Adobe Journey Optimizer과 통합하여 AEM 콘텐츠 조각을 Journey Optimizer 이메일 콘텐츠에 원활하게 통합할 수 있습니다. 이렇게 간소화된 연결을 통해 AEM 콘텐츠에 액세스하고 활용하는 프로세스를 간소화하여 개인화되고 동적인 캠페인 및 여정을 만들 수 있습니다.
+
+[![자세히 알아보기](../assets/do-not-localize/try-it-button.svg)](../integrations/aem-fragments.md)
+
+>[!TAB Dynamic Media]
+
+Journey Optimizer Asset 선택기를 사용하여 Journey Optimizer 내에서 승인된 Dynamic Media 렌디션을 선택하고 사용합니다. Adobe Experience Manager의 자산에 대한 변경 사항은 즉시 Journey Optimizer 콘텐츠에 반영되므로 수동으로 업데이트하지 않아도 최신 버전을 항상 사용할 수 있습니다.
+
+[![자세히 알아보기](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-dynamic.md)
+
+
+>[!ENDTABS]
+
 
 
 ## Adobe Stock {#integration-stock}
 
 [!DNL Adobe Stock] 및 [!DNL Adobe Journey Optimizer] 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선싱, 저장할 수 있습니다.
 
-[!DNL Adobe Journey Optimizer]의 **[!UICONTROL Adobe Stock 사진 찾기]** 옵션을 사용하면 [!DNL Adobe Stock]에서 이메일로 이미지를 바로 업로드하고 **[!UICONTROL Assets]** 폴더에 추가할 수 있습니다. 또한 **[!UICONTROL 유사한 Stock 사진 찾기]** 옵션은 게재에 사용하는 자산과 콘텐츠, 색상, 컴포지션이 비슷한 이미지를 찾는 데 도움이 됩니다.
-
 [Journey Optimizer + Stock](../integrations/stock.md)에 대해 자세히 알아보십시오.
+
+## Adobe Express {#express}
+
+Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는 동안 Adobe Express의 강력한 편집 도구에 쉽게 액세스할 수 있습니다. 이 통합을 통해 솔루션 간에 전환할 필요 없이 이미지 크기를 조정하고, 배경을 제거하고, 시각적 개체를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다.
+
+[Journey Optimizer + Adobe Express](../integrations/express.md)에 대해 자세히 알아보세요.
+
+## GenStudio for Performance Marketing
+
+Adobe GenStudio for Performance Marketing은 마케팅 팀이 자체 광고 및 이메일을 만들어 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력이 큰 개인화된 마케팅 캠페인을 유도할 수 있는 생성 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용함으로써 크리에이티브가 혁신에 집중할 수 있도록 콘텐츠 생성 및 관리의 복잡성을 간소화하는 포괄적인 도구 모음을 제공합니다.
+
+[Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md)에 대해 자세히 알아보세요.
 
 
 ## Adobe Intelligent Services {#integration-intelligent-service}
@@ -64,7 +100,7 @@ Journey Optimizer에서 여정을 만든 후 Customer Journey Analytics는 플�
 
 고객 AI는 브랜드가 Adobe Experience Platform에서 프로필 속성으로 사용할 수 있고 여정을 개인화하는 데 사용할 수 있는 회전 또는 변환 머신 러닝 기반 점수를 만들 수 있도록 합니다.
 
-[자세히 알아보기](../building-journeys/ai-services-overview.md).
+[Journey Optimizer + Adobe Intelligent Services](../building-journeys/ai-services-overview.md)에 대해 자세히 알아보세요.
 
 
 ## Adobe Campaign {#integration-ac}
@@ -82,7 +118,7 @@ Adobe Campaign Standard과 통합하여 여정에서 메시지를 보내도록 �
 
 Adobe Workfront의 Adobe Journey Optimizer 모듈을 사용하여 레코드를 생성하고 읽거나 업데이트 또는 삭제하거나 Adobe Journey Optimizer API에 대한 사용자 정의 API 호출을 수행할 수 있습니다.
 
-이 통합의 주요 단계에 대한 개요를 이 블로그 게시물에서 [사용할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=ko){target="_blank"}.
+이 통합의 주요 단계에 대한 개요를 이 블로그 게시물에서 [사용할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Journey Optimizer + Adobe Workfront에 대해 자세히 알아보기 [Adobe Workfront 설명서](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=ko){target="_blank"}.
 
