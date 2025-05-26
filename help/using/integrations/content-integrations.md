@@ -8,10 +8,10 @@ topic: Content Management, Integrations
 role: User
 level: Beginner
 keywords: 에셋, 통합
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 16%
+source-wordcount: '693'
+ht-degree: 18%
 
 ---
 
@@ -36,11 +36,12 @@ Assets Essentials는 Adobe Creative Cloud에서 Adobe Express 및 Adobe Photosho
 
 [Journey Optimizer + Adobe Experience Manager Assets](../integrations/assets.md)에 대해 자세히 알아봅니다.
 
-### 템플릿
+<!--
+### Templates
 
-Adobe Journey Optimizer을 사용하면 Adobe Experience Manager 사이트를 통해 사용자 지정 메시지를 만들 수 있습니다. Adobe Experience Manager의 콘텐츠 소스를 사용하여 템플릿을 디자인한 다음 Adobe Journey Optimizer으로 전송합니다. 이렇게 공유된 템플릿은 Adobe Journey Optimizer의 이메일 디자이너에서 액세스할 수 있으므로, 원하는 대상자에게 메시지를 만들고 보내는 프로세스를 단순화할 수 있습니다.
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-[Journey Optimizer + Adobe Experience Manager 템플릿](../integrations/aem-templates.md)에 대해 자세히 알아보세요.
+Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
 
 ### 조각
 
