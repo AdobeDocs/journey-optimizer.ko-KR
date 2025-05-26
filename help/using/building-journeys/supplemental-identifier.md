@@ -2,21 +2,26 @@
 title: 이벤트가 트리거된 여정의 보조 식별자
 description: 이벤트가 트리거된 여정에서 보조 식별자를 사용하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
+exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
+source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 3%
+source-wordcount: '844'
+ht-degree: 7%
 
 ---
 
-
 # 이벤트가 트리거된 여정의 보조 식별자
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_parameters_supplemental_identifier"
+>title="추가 식별자 사용"
+>abstract="추가 식별자는 여정 실행에 대한 추가적인 맥락을 제공하는 보조 식별자입니다. 이를 정의하려면 추가 식별자로 사용할 필드를 선택하고 이와 연결할 네임스페이스를 선택합니다."
 
 >[!AVAILABILITY]
 >
 >이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
-기본적으로 이벤트가 트리거된 여정은 **프로필 ID**&#x200B;의 컨텍스트에서 실행됩니다. 즉, 프로필이 주어진 여정에서 활성 상태인 한 다른 여정으로 다시 들어갈 수 없습니다. 이를 방지하기 위해 Journey Optimizer에서는 프로필 ID 외에 주문 ID, 구독 ID, 처방 ID와 같은 이벤트에서 **보조 식별자**&#x200B;를 캡처할 수 있습니다.
+기본적으로 이벤트가 트리거된 여정은 **프로필 ID**&#x200B;의 컨텍스트에서 실행됩니다. 즉, 프로필이 주어진 여정에서 활성 상태인 한 다른 여정으로 다시 들어갈 수 없습니다. 이를 방지하기 위해 Journey Optimizer에서는 프로필 ID 외에 주문 ID, 구독 ID, 처방 ID와 같은 이벤트에서 **보조 식별자**를 캡처할 수 있습니다.
 이 예에서는 예약 ID를 보조 식별자로 추가했습니다.
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}

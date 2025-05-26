@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
+source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 15%
+source-wordcount: '1692'
+ht-degree: 13%
 
 ---
 
@@ -27,11 +27,6 @@ ht-degree: 15%
 >id="ajo_journey_event_parameters"
 >title="매개변수"
 >abstract="스키마 및 페이로드 필드와 같은 이벤트 매개변수를 정의합니다. 규칙 기반 이벤트의 경우 **[!UICONTROL 이벤트 ID 조건]** 필드를 사용하여 시스템에서 여정을 트리거하는 이벤트를 식별하는 데 사용할 조건을 정의합니다. 이벤트에 사용할 ID 유형과 프로필 식별자를 추가합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_parameters_supplemental_identifier"
->title="추가 식별자 사용"
->abstract="추가 식별자는 여정 실행에 대한 추가적인 맥락을 제공하는 보조 식별자입니다. 이를 정의하려면 추가 식별자로 사용할 필드를 선택하고 이와 연결할 네임스페이스를 선택합니다."
 
 단일 이벤트는 특정 프로필에 연결됩니다. 규칙 기반 또는 시스템 생성 방식일 수 있습니다.  단일 이벤트 [이 섹션](../event/about-events.md)에 대해 자세히 알아보세요.
 
