@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: 캠페인, 표준, 통합, 최대 가용량, 작업
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 3%
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 # Adobe Campaign Standard 통합 {#using_adobe_campaign_standard}
 
-Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
-
 Adobe Campaign Standard이 있는 경우 Adobe Campaign Standard에 연결할 수 있는 기본 제공 작업을 사용할 수 있습니다.
+
+Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
 
 Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지와 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지는 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지 않습니다. 메시지가 게시되었지만 연결된 이벤트가 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지만 사용할 수 없습니다.
 

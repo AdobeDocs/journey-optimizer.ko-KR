@@ -9,14 +9,16 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo, marketo engage 통합
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 4%
+source-wordcount: '266'
+ht-degree: 3%
 
 ---
 
 # Marketo Engage와 통합 {#integrating-with-marketo-engage}
+
+Adobe Journey Optimizer과 Marketo Engage을 통합하는 여정에서 특정 사용자 지정 작업을 사용할 수 있습니다.
 
 Marketo Engage과의 원활한 데이터 통합 여정을 시작하십시오. Journey Optimizer의 이 특정 사용자 지정 작업은 두 가지 주요 데이터 유형 수집을 지원합니다.
 
@@ -26,7 +28,7 @@ Marketo Engage과의 원활한 데이터 통합 여정을 시작하십시오. Jo
 ## 전제 조건 {#prerequisites}
 
 * Marketo Engage의 고객 인스턴스는 IMS를 사용할 수 있어야 합니다.
-* Marketo Engage 인스턴스와 Adobe Experience Platform/Journey Optimizer 인스턴스가 동일한 조직에 있어야 합니다.
+* Marketo Engage 인스턴스 및 Adobe Experience Platform/Journey Optimizer 인스턴스는 동일한 조직에 있어야 합니다.
 * 고객은 **MktoSync: 수집 서비스 액세스**(으)로 프로비저닝되어야 합니다.
 
 ## 작업 구성 {#configure-marketo-action}
@@ -42,7 +44,7 @@ Marketo Engage과의 원활한 데이터 통합 여정을 시작하십시오. Jo
 
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
-* Inspect 및 페이로드 값 구성
+* 페이로드 값 검사 및 구성
 참고: 값을 동적으로 전달하려면 각 필드에 대해 **상수**&#x200B;를 **변수**(으)로 변경하십시오.
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}

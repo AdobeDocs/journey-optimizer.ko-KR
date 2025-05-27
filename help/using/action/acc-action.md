@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, 통합
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 18%
+source-wordcount: '559'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 18%
 >id="ajo_journey_action_acc"
 >title="Adobe Campaign v7/v8 작업"
 >abstract="이러한 통합은 Adobe Campaign v7 및 v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다. Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다."
+
+Adobe Journey Optimizer과 Adobe Campaign v7/v8을 통합하는 특정 사용자 지정 작업은 여정에서 사용할 수 있습니다.
 
 이 통합은 7.1 릴리스부터 Adobe Campaign v7/v8 및 Adobe Campaign v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다.
 
@@ -58,7 +60,7 @@ Adobe Campaign에서:
 
 ## 전제 조건 {#prerequisites}
 
-Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=ko#transactional-messaging){target="_blank"}를 참조하세요.
+Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}를 참조하세요.
 
 아래 패턴에 따라 각 메시지에 해당하는 JSON 페이로드를 빌드할 수 있습니다. 그런 다음 Journey Optimizer에서 작업을 구성할 때 이 페이로드를 붙여 넣습니다(아래 참조).
 
