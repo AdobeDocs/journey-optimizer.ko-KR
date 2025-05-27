@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, 통합
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
+source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 14%
+source-wordcount: '545'
+ht-degree: 13%
 
 ---
 
@@ -36,16 +36,13 @@ Adobe Campaign Classic v7 또는 Campaign v8이 있는 경우 여정에서 Adobe
 >[!TAB Adobe Journey Optimizer용]
 
 * 조직 ID (Adobe OrgID)
-
 * 샌드박스 이름
 
 >[!TAB Adobe Campaign용]
 
 * Campaign 서버 URL
-
 * 실시간 서버 URL
-
-* Campaign 버전
+* Adobe Campaign 버전
 
 >[!ENDTABS]
 
@@ -64,7 +61,7 @@ Adobe Campaign Classic v7 또는 Campaign v8이 있는 경우 여정에서 Adobe
 
 ## 전제 조건 {#prerequisites}
 
-Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}를 참조하세요.
+Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}를 참조하세요.
 
 아래 패턴에 따라 각 메시지에 해당하는 JSON 페이로드를 빌드할 수 있습니다. 그런 다음 Journey Optimizer에서 작업을 구성할 때 이 페이로드를 붙여 넣습니다(아래 참조).
 
