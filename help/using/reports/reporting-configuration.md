@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 구성, 실험, 보고, 최적화 도구
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 29%
+source-wordcount: '585'
+ht-degree: 28%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 29%
 
 ## 전제 조건
 
-보고 구성에 데이터 세트를 추가하려면 먼저 해당 데이터 세트를 만들어야 합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#create){target="_blank"}에서 방법을 알아보세요.
+보고 구성에 데이터 세트를 추가하려면 먼저 해당 데이터 세트를 만들어야 합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}에서 방법을 알아보세요.
 
 * 이벤트 유형 데이터 세트만 추가할 수 있습니다.
 
@@ -100,7 +100,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    >[!CAUTION]
    >
-   >지원되는 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"} 중 하나 이상을 포함해야 하는 이벤트 유형 데이터 세트만 선택할 수 있습니다. **응용 프로그램 세부 정보**, **Commerce 세부 정보**, **웹 세부 정보**. 해당 기준과 일치하지 않는 데이터 세트를 선택하면 변경 사항을 저장할 수 없습니다.
+   >지원되는 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"} 중 하나 이상을 포함해야 하는 이벤트 유형 데이터 집합만 선택할 수 있습니다. **응용 프로그램 세부 정보**, **Commerce 세부 정보**, **웹 세부 정보**. 해당 기준과 일치하지 않는 데이터 세트를 선택하면 변경 사항을 저장할 수 없습니다.
 
    ![](assets/reporting-config-datasets.png)
 
