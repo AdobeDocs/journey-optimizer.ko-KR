@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8418b0c9251e090575671acb65f83bee911cd039
+source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1135'
 ht-degree: 36%
 
 ---
@@ -249,15 +249,13 @@ ht-degree: 36%
 이번 릴리스의 개선 사항 목록은 다음과 같습니다.
 
 
-* **샌드박스 복사본에 대한 새 개체 지원**
+* **샌드박스 복사본에 대한 새 캠페인 개체 지원** - 사용 가능한 날짜: 2025년 5월 15일
 
-   * **캠페인** - 사용 가능한 날짜: 2025년 5월 15일
+  이제 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 캠페인을 복사할 때 채널 구성, 실험 변형 및 설정, 의사 결정 정책 및 항목 등의 종속성도 복사됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
 
-     이제 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 캠페인을 복사할 때 채널 구성, 실험 변형 및 설정, 의사 결정 정책 및 항목 등의 종속성도 복사됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
+  <!--* **Decisioning** - Availability date: May 16, 2025
 
-   * **Decisioning** - 사용 가능한 날짜: 2025년 5월 16일
-
-     이제 의사 결정 개체를 샌드박스 간에 복사할 수 있으므로 테스트 및 배포 워크플로를 간소화할 수 있습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#decisioning)
+    Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows. [Read more](../configuration/copy-objects-to-sandbox.md#decisioning)-->
 
 * **랜딩 페이지용 폴더** - 사용 가능한 날짜: 2025년 5월 9일
 
