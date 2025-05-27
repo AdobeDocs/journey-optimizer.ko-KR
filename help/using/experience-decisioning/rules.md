@@ -1,19 +1,19 @@
 ---
-title: 의사 결정 규칙
+title: 결정 규칙
 description: 의사 결정 규칙 작업 방법 알아보기
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8418b0c9251e090575671acb65f83bee911cd039
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 20%
 
 ---
 
-# 의사 결정 규칙 {#rules}
+# 결정 규칙 {#rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
