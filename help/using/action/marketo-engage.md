@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo, marketo engage 통합
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -27,8 +27,8 @@ Marketo Engage과의 원활한 데이터 통합 여정을 시작하십시오. Ad
 
 이 통합에는 다음 사전 요구 사항이 적용됩니다.
 
-* Marketo Engage의 고객 인스턴스는 IMS를 사용할 수 있어야 합니다.
-* Marketo Engage 인스턴스 및 Adobe Experience Platform/Journey Optimizer 인스턴스는 동일한 조직에 있어야 합니다.
+* Marketo Engage의 고객 인스턴스는 IMS를 사용할 수 있어야 합니다
+* Marketo Engage 인스턴스 및 Adobe Experience Platform/Journey Optimizer 인스턴스는 동일한 조직에 있어야 합니다
 * 고객은 **MktoSync: 수집 서비스 액세스**(으)로 프로비저닝되어야 합니다.
 
 ## 작업 구성 {#configure-marketo-action}

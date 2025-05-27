@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, 통합
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bf4044bc23b0e7c0ef74e5b612d93cb45ec20242
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 13%
+source-wordcount: '543'
+ht-degree: 14%
 
 ---
 
@@ -50,13 +50,13 @@ Adobe Campaign Classic v7 또는 Campaign v8이 있는 경우 여정에서 Adobe
 >[!ENDTABS]
 
 
-## 중요 정보 {#important-notes}
+## 가드레일 및 제한 사항 {#important-notes}
 
-* 메시지 제한이 없습니다. 시스템은 현재 Campaign SLA을 기준으로 5분당 4000개 이상 전송할 수 있는 메시지 수를 제한합니다. 이러한 이유로 Journey Optimizer은 단일 사용 사례(대상이 아닌 개별 이벤트)에서만 사용해야 합니다.
+* 메시지 제한이 없습니다. 시스템은 현재 Campaign SLA을 기준으로 5분당 4,000개 이상으로 보낼 수 있는 메시지 수를 제한합니다. 이러한 이유로 Journey Optimizer은 단일 사용 사례(대상이 아닌 개별 이벤트)에서만 사용해야 합니다.
 
-* 사용하려는 템플릿당 캔버스에서 하나의 작업을 구성해야 합니다. Adobe Campaign에서 사용하려는 각 템플릿에 대해 Journey Optimizer에서 하나의 작업을 구성해야 합니다.
+* 사용할 템플릿당 캔버스에 대해 하나의 작업을 구성해야 합니다. Adobe Campaign에서 사용하려는 각 템플릿에 대해 Journey Optimizer에서 하나의 작업을 구성해야 합니다.
 
-* 진행 중인 다른 Campaign 작업에 영향을 주지 않도록 이 통합을 위해 호스팅되는 전용 메시지 센터 인스턴스를 사용하는 것이 좋습니다. 마케팅 서버는 호스팅되거나 온프레미스가 될 수 있습니다. 필요한 빌드는 21.1 릴리스 후보 이상입니다.
+* 진행 중인 다른 Campaign 작업에 영향을 주지 않도록 이 통합을 위해 호스팅된 전용 메시지 센터 또는 Managed Services 인스턴스를 사용하는 것이 좋습니다. 마케팅 서버는 호스팅되거나 온-프레미스일 수 있습니다.<!--The build required is 21.1 Release Candidate or greater. -->
 
 * 페이로드 또는 캠페인 메시지가 올바른지 확인할 수 없습니다.
 
@@ -64,13 +64,13 @@ Adobe Campaign Classic v7 또는 Campaign v8이 있는 경우 여정에서 Adobe
 
 ## 전제 조건 {#prerequisites}
 
-Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}를 참조하세요.
+Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}를 참조하세요.
 
 아래 패턴에 따라 각 메시지에 해당하는 JSON 페이로드를 빌드할 수 있습니다. 그런 다음 Journey Optimizer에서 작업을 구성할 때 이 페이로드를 붙여 넣습니다(아래 참조).
 
 다음은 한 예입니다.
 
-```JSON
+```json
 {
     "channel": "email",
     "eventType": "welcome",

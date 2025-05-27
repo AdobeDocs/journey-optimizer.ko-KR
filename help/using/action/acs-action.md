@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: 캠페인, 표준, 통합, 최대 가용량, 작업
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 3%
 
 ---
@@ -22,19 +22,21 @@ Adobe Campaign Standard이 있는 경우 Adobe Campaign Standard에 연결할 �
 
 Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지와 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지는 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지 않습니다. 메시지가 게시되었지만 연결된 이벤트가 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지만 사용할 수 없습니다.
 
-## 중요 정보 {#important-notes}
+## 가드레일 및 제한 사항 {#important-notes}
 
-* Adobe Campaign Standard 작업에 대해 5분당 4000회의 최대 가용량 규칙이 자동으로 정의됩니다. 이는 Adobe Campaign Standard 트랜잭션 메시지의 공식 규모에 해당합니다. [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html){target="_blank"}에서 트랜잭션 메시지 SLA에 대해 자세히 알아보세요.
+* Adobe Campaign Standard 작업에 대해 5분당 4,000회의 최대 가용량 규칙이 자동으로 정의됩니다. [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html){target="_blank"}에서 트랜잭션 메시지 SLA에 대해 자세히 알아보세요.
 
 * Adobe Campaign Standard 통합은 작업 목록에서 전용 기본 제공 작업을 통해 설정됩니다. 각 샌드박스에 대해 구성해야 합니다.
 
 * 대상 자격 또는 대상 읽기 활동과 함께 Campaign Standard 작업을 사용할 수 없습니다.
 
-* 여정은 메시지와 Campaign Standard 작업을 모두 사용할 수 없습니다.
+* 여정은 [기본 제공 채널 작업](../building-journeys/journeys-message.md)과 [Campaign Standard 작업](../building-journeys/using-adobe-campaign-standard.md)을 모두 사용할 수 없습니다.
 
 ## 작업 구성 {#configure-action}
 
-Journey Optimizer에서는 트랜잭션 메시지당 하나의 작업을 구성해야 합니다. 다음 단계를 수행하십시오.
+Journey Optimizer에서는 트랜잭션 메시지당 하나의 작업을 구성해야 합니다.
+
+Campaign Standard 작업을 구성하려면 다음 단계를 수행합니다.
 
 1. 관리 메뉴 섹션에서 **[!UICONTROL 구성]**&#x200B;을(를) 선택합니다.
 
