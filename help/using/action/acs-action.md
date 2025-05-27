@@ -9,18 +9,16 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: 캠페인, 표준, 통합, 최대 가용량, 작업
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 3%
 
 ---
 
 # Adobe Campaign Standard 통합 {#using_adobe_campaign_standard}
 
-Adobe Campaign Standard이 있는 경우 Adobe Campaign Standard에 연결할 수 있는 기본 제공 작업을 사용할 수 있습니다.
-
-Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
+Adobe Campaign Standard이 있는 경우 Adobe Campaign Standard에 연결할 수 있는 기본 제공 작업을 사용할 수 있습니다. Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
 
 Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지와 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지는 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지 않습니다. 메시지가 게시되었지만 연결된 이벤트가 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지만 사용할 수 없습니다.
 
@@ -36,9 +34,11 @@ Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지
 
 ## 작업 구성 {#configure-action}
 
-이를 구성하는 단계는 다음과 같습니다.
+Journey Optimizer에서는 트랜잭션 메시지당 하나의 작업을 구성해야 합니다. 다음 단계를 수행하십시오.
 
-1. 관리 메뉴 섹션에서 **[!UICONTROL 구성]**&#x200B;을(를) 선택합니다. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 관리]**&#x200B;를 클릭합니다. 작업 목록이 표시됩니다.
+1. 관리 메뉴 섹션에서 **[!UICONTROL 구성]**&#x200B;을(를) 선택합니다.
+
+1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 관리]**&#x200B;를 클릭합니다. 작업 목록이 표시됩니다.
 
 1. 기본 제공 **[!UICONTROL AdobeCampaignStandard]** 액션을 선택하십시오. 작업 구성 창이 화면 오른쪽에 열립니다.
 
@@ -52,16 +52,22 @@ Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지
    >
    >이 테스트는 다음을 확인합니다.
    >
-   >호스트는 &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot;, &quot;.campaign-demo.adobe.com&quot;, &quot;.ats.adobe.com&quot; 또는 &quot;.adls.adobe.com&quot;입니다.
+   >* 호스트는 &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot;, &quot;.campaign-demo.adobe.com&quot;, &quot;.ats.adobe.com&quot; 또는 &quot;.adls.adobe.com&quot;입니다.
    >
-   >URL은 https로 시작합니다.
+   >* URL은 https로 시작합니다
    >
-   >이 Adobe Campaign Standard의 인스턴스와 연결된 조직이 Journey Optimizer 조직과 동일합니다.
+   >* 이 Adobe Campaign Standard 인스턴스와 연결된 조직은 Journey Optimizer 조직 RG와 동일합니다
 
-여정을 디자인할 때 **[!UICONTROL 작업]** 범주에서 다음 세 가지 작업을 사용할 수 있습니다. **[!UICONTROL 전자 메일]**, **[!UICONTROL 푸시]**, **[!UICONTROL SMS]**([Adobe Campaign 작업 사용](../building-journeys/using-adobe-campaign-standard.md) 참조).
+이 구성이 완료되면 여정을 디자인할 때 **[!UICONTROL Action]** 범주에서 다음 세 가지 작업을 사용할 수 있습니다. **[!UICONTROL 이메일]**, **[!UICONTROL 푸시]**, **[!UICONTROL SMS]**. [사용 방법을 알아보세요](../building-journeys/using-adobe-campaign-standard.md).
 
 ![](assets/journey58.png)
 
-**반응** 이벤트를 사용하여 동일한 여정 내에서 보낸 Campaign Standard 메시지와 관련된 추적 데이터에 반응할 수 있습니다. 푸시 알림의 경우 클릭, 전송 또는 실패한 메시지에 반응할 수 있습니다. SMS 메시지의 경우, 전송 또는 실패한 메시지에 반응할 수 있습니다. 이메일의 경우 클릭, 전송, 열림 또는 실패한 메시지에 반응할 수 있습니다. [반응 이벤트](../building-journeys/reaction-events.md)를 참조하세요.
+**반응** 이벤트를 사용하여 동일한 여정 내에서 전송된 Campaign Standard 메시지와 관련된 추적 데이터에 반응합니다.
 
-서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 추가하고 구성해야 합니다. [사용자 지정 작업 구성 정보](../action/about-custom-action-configuration.md)를 참조하세요.
+* 푸시 알림의 경우 여정은 클릭, 전송 또는 실패한 메시지에 반응할 수 있습니다.
+
+* SMS 메시지의 경우, 여정은 보낸 메시지나 실패한 메시지에 반응할 수 있습니다.
+
+* 이메일의 경우 여정은 클릭, 전송, 열림 또는 실패한 메시지에 반응할 수 있습니다. [반응 이벤트에 대해 자세히 알아보기](../building-journeys/reaction-events.md).
+
+서드파티 시스템을 사용하여 메시지를 보낼 때 사용자 지정 작업을 추가하고 구성해야 합니다. [사용자 지정 작업 구성에 대해 자세히 알아보세요](../action/about-custom-action-configuration.md).

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2393'
 ht-degree: 96%
 
 ---
@@ -759,9 +759,9 @@ ht-degree: 96%
       + [Capping API](using/configuration/capping.md)
       + [Throttling API](using/configuration/throttling.md)
    + Adobe 솔루션으로 보내기 {#adobe-solutions}
-      + [여정의 Campaign Standard](using/action/acs-action.md)
-      + [여정의 Campaign v7/v8](using/action/acc-action.md)
-      + [여정의 Marketo Engage](using/action/marketo-engage.md)
+      + [여정의 Campaign Standard 작업](using/action/acs-action.md)
+      + [여정의 Campaign v7/v8 작업](using/action/acc-action.md)
+      + [여정의 Marketo Engage 작업](using/action/marketo-engage.md)
    + 샌드박스 관리 {#sandbox}
       + [샌드박스 사용 및 할당](using/administration/sandboxes.md)
       + [다른 샌드박스로 개체 내보내기](using/configuration/copy-objects-to-sandbox.md)

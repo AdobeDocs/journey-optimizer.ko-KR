@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, 통합
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 17%
+source-wordcount: '553'
+ht-degree: 13%
 
 ---
 
@@ -23,28 +23,29 @@ ht-degree: 17%
 >title="Adobe Campaign v7/v8 작업"
 >abstract="이러한 통합은 Adobe Campaign v7 및 v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다. Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다."
 
-Adobe Journey Optimizer과 Adobe Campaign v7/v8을 통합하는 특정 사용자 지정 작업은 여정에서 사용할 수 있습니다.
+Adobe Campaign Classic v7 또는 Campaign v8이 있는 경우 여정에서 Adobe Journey Optimizer과 Adobe Campaign을 통합하는 특정 사용자 지정 작업을 사용할 수 있습니다. 이 통합을 통해 Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다. 이 [전체 사용 사례](../building-journeys/ajo-ac.md)에서 자세히 알아보세요.
 
-이 통합은 7.1 릴리스부터 Adobe Campaign v7/v8 및 Adobe Campaign v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다.
+구성된 각 작업에 대해 여정 디자이너 팔레트에서 [캠페인 작업 활동](../building-journeys/using-adobe-campaign-v7-v8.md)을 사용할 수 있습니다.
 
-이 [섹션](../building-journeys/ajo-ac.md)에 엔드 투 엔드 사용 사례가 표시됩니다.
+## 활성화 {#access}
 
-구성된 각 작업에 대해 여정 디자이너 팔레트에서 작업 활동을 사용할 수 있습니다. 이 [섹션](../building-journeys/using-adobe-campaign-v7-v8.md)을 참조하십시오.
+요청되면, Journey Optimizer과 Adobe Campaign 환경 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다. 프로비저닝 시 연결을 요청하지 않은 경우 Adobe Journey Optimizer 지원에 문의하여 활성화를 요청하십시오. 다음 세부 정보를 제공해야 합니다.
 
-## 액세스 {#access}
+>[!BEGINTABS]
 
-Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 필요한 경우 프로비저닝 시 Adobe에 의해 설정됩니다. 프로비저닝 시 연결을 요청하지 않은 경우 Adobe Journey Optimizer 지원에 문의하고 다음 세부 정보를 제공하여 활성화를 요청하십시오.
-
-Adobe Journey Optimizer에서:
+>[!TAB Adobe Journey Optimizer용]
 
 * 조직 ID (Adobe OrgID)
-* 샌드박스
+* 샌드박스 이름
 
-Adobe Campaign에서:
+>[!TAB Adobe Campaign용]
 
-* 캠페인 URL
-* RT URL
+* Campaign 서버 URL
+* 실시간 서버 URL
 * Campaign 버전
+
+>[!ENDTABS]
+
 
 ## 중요 정보 {#important-notes}
 
@@ -60,13 +61,13 @@ Adobe Campaign에서:
 
 ## 전제 조건 {#prerequisites}
 
-Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=ko#transactional-messaging){target="_blank"}를 참조하세요.
+Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}를 참조하세요.
 
 아래 패턴에 따라 각 메시지에 해당하는 JSON 페이로드를 빌드할 수 있습니다. 그런 다음 Journey Optimizer에서 작업을 구성할 때 이 페이로드를 붙여 넣습니다(아래 참조).
 
 다음은 한 예입니다.
 
-```
+```JSON
 {
     "channel": "email",
     "eventType": "welcome",
@@ -85,7 +86,7 @@ Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시
 
 Journey Optimizer에서는 트랜잭션 메시지당 하나의 작업을 구성해야 합니다. 다음 단계를 수행하십시오.
 
-1. 새 작업을 만듭니다. 이 [섹션](../action/action.md)을 참조하십시오.
+1. 새 작업을 만듭니다. [사용자 지정 작업에 대해 자세히 알아보세요](../action/action.md).
 1. 이름과 설명을 입력합니다.
 1. **작업 유형** 필드에서 **Adobe Campaign Classic**&#x200B;을(를) 선택합니다.
 1. **페이로드** 필드를 클릭하고 캠페인 메시지에 해당하는 JSON 페이로드의 예제를 붙여 넣습니다. 이 페이로드를 가져오려면 Adobe에 문의하십시오.
