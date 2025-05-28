@@ -3,9 +3,9 @@ title: 이벤트가 트리거된 여정의 보조 식별자
 description: 이벤트가 트리거된 여정에서 보조 식별자를 사용하는 방법을 알아봅니다.
 badge: label="제한된 가용성" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 3ed75f1193b1a580183d8ee148792ec136d281cd
+source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '861'
 ht-degree: 7%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 7%
 >
 >이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
-기본적으로 이벤트가 트리거된 여정은 **프로필 ID**&#x200B;의 컨텍스트에서 실행됩니다. 즉, 프로필이 주어진 여정에서 활성 상태인 한 다른 여정으로 다시 들어갈 수 없습니다. 이를 방지하기 위해 Journey Optimizer에서는 프로필 ID 외에 주문 ID, 구독 ID, 처방 ID와 같은 이벤트에서 **보조 식별자**&#x200B;를 캡처할 수 있습니다.
+기본적으로 이벤트가 트리거된 여정은 **프로필 ID**&#x200B;의 컨텍스트에서 실행됩니다. 즉, 프로필이 주어진 여정에서 활성 상태인 한 다른 여정으로 다시 들어갈 수 없습니다. 이를 방지하기 위해 Journey Optimizer에서는 프로필 ID 외에 주문 ID, 구독 ID, 처방 ID와 같은 이벤트에서 **보조 식별자**를 캡처할 수 있습니다.
 이 예에서는 예약 ID를 보조 식별자로 추가했습니다.
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
@@ -164,11 +164,11 @@ ht-degree: 7%
 
 ### **구독 관리**
 
-* **시나리오**: 구독 서비스가 고객 프로필에 연결된 각 구독에 대해 맞춤 메시지를 보냅니다.
+* **시나리오**: 구독에 대해 이벤트가 트리거될 때 구독 서비스에서 각 구독에 대해 맞춤 메시지를 보냅니다.
 * **실행**:
    * 프로필: &quot;Jane&quot;.
-   * 보조 ID: `"Luma Yoga Program ", "Luma Fitness PlPrograman"`.
-   * 여정은 개인화된 갱신 오퍼와 함께 각 구독에 대해 개별적으로 실행됩니다.
+   * 보조 ID: `"Luma Yoga Program ", "Luma Fitness Program"`.
+   * 각 이벤트에는 구독 ID와 해당 구독에 대한 세부 정보가 포함됩니다. 여정은 각 이벤트/구독에 대해 별도로 실행되므로 구독당 개인화된 갱신 오퍼를 허용할 수 있습니다.
 
 ### **제품 추천**
 
