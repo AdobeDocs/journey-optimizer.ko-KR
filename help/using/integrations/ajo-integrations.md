@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
+source-git-commit: 25eba9f5e738f669edbef8725328dba958b555b6
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 62%
@@ -65,7 +65,7 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 이제 Adobe Experience Manager을 Adobe Journey Optimizer과 통합하여 AEM 콘텐츠 조각을 Journey Optimizer 이메일 콘텐츠에 원활하게 통합할 수 있습니다. 이렇게 간소화된 연결을 통해 AEM 콘텐츠에 액세스하고 활용하는 프로세스를 간소화하여 개인화되고 동적인 캠페인 및 여정을 만들 수 있습니다.
 
-[![자세히 알아보기](../assets/do-not-localize/try-it-button.svg)](../integrations/aem-fragments.md)
+[![자세히 알아보기](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-fragments.md)
 
 >[!TAB Dynamic Media]
 
@@ -121,7 +121,7 @@ Adobe Campaign Standard과 통합하여 여정에서 메시지를 보내도록 �
 
 Adobe Workfront의 Adobe Journey Optimizer 모듈을 사용하여 레코드를 생성하고 읽거나 업데이트 또는 삭제하거나 Adobe Journey Optimizer API에 대한 사용자 정의 API 호출을 수행할 수 있습니다.
 
-이 통합의 주요 단계에 대한 개요를 이 블로그 게시물에서 [사용할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=ko){target="_blank"}.
+이 통합의 주요 단계에 대한 개요를 이 블로그 게시물에서 [사용할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Journey Optimizer + Adobe Workfront에 대해 자세히 알아보기 [Adobe Workfront 설명서](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=ko){target="_blank"}.
 
