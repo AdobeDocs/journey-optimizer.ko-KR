@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 48%
@@ -101,7 +101,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 스로틀링 구성을 만들거나 삭제 또는 배포할 때 다음 오류가 발생할 수 있습니다.
 
 * **ERR_THROTTLING_CONFIG_100**: 스로틀링 구성: `<mandatory attribute>` 필수
-* **ERR_THROTTLING_CONFIG_101**: 스로틀링 구성: maxThroughput은 필수 입력 사항이며 200~5000 사이여야 합니다.
+* **ERR_THROTTLING_CONFIG_101**: 스로틀링 구성: maxThroughput은 필수 입력 사항이며 200~5,000 사이여야 합니다.
 * **ERR_THROTTLING_CONFIG_104**: 스로틀링 구성: 잘못된 URL 패턴
 * **ERR_THROTTLING_CONFIG_105**: 스로틀링 구성: URL 패턴의 호스트 부분에는 와일드카드를 사용할 수 없습니다.
 * **ERR_THROTTLING_CONFIG_106**: 스로틀링 구성: 잘못된 페이로드

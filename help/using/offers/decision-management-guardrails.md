@@ -5,7 +5,7 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 17%
@@ -25,8 +25,8 @@ ht-degree: 17%
 | 가드레일 | 제한 |
 | ------- | ------- |
 | 초당 API 요청 의사 결정 | 500 |
-| Edge Decisioning API 요청/초, Edge 세그멘테이션 사용 | 1500 |
-| Edge 세그멘테이션 없이 Edge Decisioning API 요청 초당 | 5000 |
+| Edge Decisioning API 요청/초, Edge 세그멘테이션 사용 | 1,500 |
+| Edge 세그멘테이션 없이 Edge Decisioning API 요청 초당 | 5,000 |
 | 응답당 반환된 오퍼 | 결정 범위당 최대 30개 또는 총 100개 |
 | 요청당 관련된 최대 오퍼 규칙 수 | 10 |
 
@@ -46,12 +46,12 @@ ht-degree: 17%
 | 컬렉션 | 10K |
 | 결정당 컬렉션 | 30 |
 
-## 컬렉션 한정자
+## 컬렉션 수식어
 
 | 가드레일 | 제한 |
 | ------- | ------- |
 | 오퍼 또는 컬렉션별 컬렉션 한정자 | 20 |
-| 총 컬렉션 한정자 | 1000 |
+| 총 컬렉션 한정자 | 1,000 |
 
 ## 오퍼
 
@@ -72,7 +72,7 @@ ht-degree: 17%
 | PQL 규칙의 최대 크기 | 15K(UTF-8) |
 | 최대 중첩 수준 수 | 30 |
 
-## 등급 공식
+## 순위 공식
 
 | 가드레일 | 제한 |
 | ------- | ------- |

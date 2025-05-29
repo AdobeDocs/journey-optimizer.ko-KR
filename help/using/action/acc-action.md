@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, 통합
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 13%
+source-wordcount: '546'
+ht-degree: 12%
 
 ---
 
@@ -61,11 +61,11 @@ Adobe Campaign Classic v7 또는 Campaign v8이 있는 경우 여정에서 Adobe
 
 ## 전제 조건 {#prerequisites}
 
-Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}를 참조하세요.
+Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}를 참조하세요.
 
 아래 패턴에 따라 각 메시지에 해당하는 JSON 페이로드를 빌드할 수 있습니다. 그런 다음 Journey Optimizer에서 작업을 구성할 때 이 페이로드를 붙여 넣습니다(아래 참조).
 
-다음은 한 예입니다.
++++ 예
 
 ```json
 {
@@ -82,15 +82,19 @@ Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 
 * **eventType**: Campaign 이벤트의 내부 이름
 * **ctx**: 메시지에 있는 개인화를 기반으로 하는 변수입니다.
 
++++
+
 ## 작업 구성 {#configure-action}
 
-Journey Optimizer에서는 트랜잭션 메시지당 하나의 작업을 구성해야 합니다. 다음 단계를 수행하십시오.
+Journey Optimizer에서는 트랜잭션 메시지당 하나의 작업을 구성해야 합니다.
 
-1. 새 작업을 만듭니다. [사용자 지정 작업에 대해 자세히 알아보세요](../action/action.md).
+Campaign 작업을 만들려면 다음 단계를 수행합니다.
+
+1. 새 작업을 만듭니다. [사용자 지정 작업을 만드는 방법을 알아봅니다](../action/action.md).
 1. 이름과 설명을 입력합니다.
-1. **작업 유형** 필드에서 **Adobe Campaign Classic**&#x200B;을(를) 선택합니다.
+1. **작업 유형** 필드에서 **Adobe Campaign Classic**을(를) 선택합니다.
+   ![](assets/accintegration1.png)
 1. **페이로드** 필드를 클릭하고 캠페인 메시지에 해당하는 JSON 페이로드의 예제를 붙여 넣습니다. 이 페이로드를 가져오려면 Adobe에 문의하십시오.
-1. 여정 캔버스에서 매핑할지 여부에 따라 다양한 필드를 정적 또는 변수로 조정합니다. 이메일 주소에 대한 채널 매개 변수 및 개인화 필드(ctx)와 같은 특정 필드는 여정 컨텍스트에서 매핑하기 위한 변수로 정의할 수 있습니다.
+1. 여정 캔버스에서 매핑할지 여부를 기준으로 각 필드를 정적 또는 변수로 설정합니다. 예를 들어 전자 메일 채널 매개 변수 및 개인화 필드(`ctx`)와 같은 필드는 일반적으로 여정 내에서 동적으로 조정할 수 있도록 변수로 설정해야 합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
-![](assets/accintegration1.png)

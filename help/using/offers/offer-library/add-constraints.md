@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: e63a21b5dcc8f227d56c696c8fd0825c75684189
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '2715'
 ht-degree: 15%
@@ -75,7 +75,7 @@ ht-degree: 15%
 >title="오퍼 적격성 정보"
 >abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
 
-<!--additional-url="https://video.tv.adobe.com/v/341375?captions=kor" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -104,7 +104,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
+  >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
 
 대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 데이터를 업데이트하려면 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하세요.
 
@@ -143,7 +143,7 @@ ht-degree: 15%
 >id="ajo_decisioning_capping"
 >title="상한 설정 사용"
 >abstract="고객에게 과도하게 요청하지 않으려면 상한 설정을 사용하여 오퍼를 제시할 수 있는 최대 횟수를 정의합니다. 특정 오퍼에 대해 최대 10개의 상한 설정 규칙을 만들 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="날짜 변경은 상한 설정에 영향을 미칠 수 있음"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="날짜 변경은 상한 설정에 영향을 미칠 수 있음"
 
 한도는 오퍼를 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다. 사용자가 특정 오퍼를 받는 횟수를 제한하면 고객에게 과다 청탁을 하지 않고 최상의 오퍼로 각 접점을 최적화할 수 있습니다.
 
@@ -192,9 +192,9 @@ ht-degree: 15%
   >
   >**인바운드 채널**&#x200B;에서만 노출을 최대 가용량 이벤트로 사용할 수 있습니다.
 
-* **[!UICONTROL 사용자 지정 이벤트]**: 전송된 오퍼 수를 제한하는 데 사용할 사용자 지정 이벤트를 정의할 수 있습니다. 예를 들어 환매가 10000 때까지 또는 주어진 프로필이 1회 환매될 때까지 환매 수를 제한할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"} 스키마를 사용하여 사용자 지정 이벤트 규칙을 만듭니다.
+* **[!UICONTROL 사용자 지정 이벤트]**: 전송된 오퍼 수를 제한하는 데 사용할 사용자 지정 이벤트를 정의할 수 있습니다. 예를 들어, 10,000이 될 때까지 또는 지정된 프로필이 1번 상환될 때까지 상환 횟수를 제한할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"} 스키마를 사용하여 사용자 지정 이벤트 규칙을 만듭니다.
 
-  <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
+  <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10,000. You can only select XDM ExperienceEvents. -->
 
   아래 예제에서는 체크아웃 수를 제한하려고 합니다.
 
