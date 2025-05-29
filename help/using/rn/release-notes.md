@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3cc1cf6818cf361c19497a478435c4f1db02cf8f
+source-git-commit: 3343f4f525db4b8bc5b5f6e12f9c6f5f0290b034
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 35%
+source-wordcount: '1176'
+ht-degree: 32%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>이전에 Beta에서 사용 가능했던 콘텐츠 변형 시뮬레이션이 이제 일반 공개되었습니다(GA). CSV 또는 JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠의 다양한 변형을 미리 볼 수 있습니다. 콘텐츠에서 개인화를 위해 사용되는 모든 속성은 시스템에서 자동으로 감지되며, 이를 테스트에 사용하여 여러 변형을 만들 수 있습니다.</p>
+<!--p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p-->
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다. 이번 GA 릴리스에서는 다국어 콘텐츠 및 콘텐츠 실험을 지원하는 기능이 추가되어 다양한 언어 및 처리에서 변형을 테스트할 수 있습니다. 또한 이제 프로필 속성 외에도 컨텍스트 속성을 지원하므로 보다 동적이고 상황에 맞는 콘텐츠 테스트가 가능합니다.</p>
 <img src="assets/do-not-localize/variants.gif">
 <p>자세한 내용은 <a href="../test-approve/simulate-sample-input.md">세부 설명서</a>를 참조하십시오.</p>
