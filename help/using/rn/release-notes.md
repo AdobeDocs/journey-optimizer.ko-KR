@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 951056d22975a34af50faa450859d635b542f90f
+source-git-commit: 3cc1cf6818cf361c19497a478435c4f1db02cf8f
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1238'
 ht-degree: 35%
 
 ---
@@ -59,10 +59,10 @@ ht-degree: 35%
 <tr>
 <td>
 <p>Adobe Experience Manager과 Adobe Journey Optimizer의 통합을 통해 이제 Journey Optimizer 콘텐츠 내에서 Adobe Experience Manager 콘텐츠 조각을 손쉽게 사용할 수 있습니다. 이러한 원활한 연결을 통해 Journey Optimizer에서 직접 AEM 콘텐츠에 손쉽게 액세스하고 사용할 수 있습니다.</p>
-<p>이전에는 제한된 조직 집합(LA)에서 사용할 수 있었지만, 이제 다음과 같은 기능이 개선되어 GA됩니다.</p>
+<p>이전에는 제한된 조직 세트(LA)에서 사용할 수 있었지만, 이제 다음과 같은 향상된 기능을 통해 GA됩니다. 이제 편집기 모드를 사용하여 조각 서명 내에서 자리 표시자를 정의하고 개인화 값을 매핑할 수 있습니다.</p>
 <ul>
-<!--li>Create offers by directly selecting an AEM Content Fragment.</li-->
-<li>편집기 모드를 사용하여 조각 서명 내에서 자리 표시자를 정의하고 개인화 값을 매핑합니다.</li>
+<!--li>Create offers by directly selecting an AEM Content Fragment.</li>
+<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li-->
 </ul>
 </br>
 <img src="assets/do-not-localize/content-fragment.gif">
