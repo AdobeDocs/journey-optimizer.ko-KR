@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 23%
+source-wordcount: '1118'
+ht-degree: 22%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 23%
 [환경을 구축](create-code-based.md)하기 전에 응용 프로그램 내에서 콘텐츠가 전달되고 소비될 위치를 정의하는 코드 기반 경험 구성을 만들어야 합니다.
 
 코드 기반 경험 구성은 기본적으로 변경 사항을 렌더링할 위치인 표면을 참조해야 합니다. 선택한 플랫폼에 따라 위치/경로 또는 전체 표면 URI를 입력해야 합니다. [자세히 알아보기](code-based-surface.md)
+
+>[!NOTE]
+>
+>동일한 채널 구성을 사용하여 여러 코드 기반 경험 작업이 있는 경우(따라서 동일한 표면에서 실행 중인 경우) 캠페인이나 여정의 **[!UICONTROL 우선 순위 점수]**&#x200B;는 최종 사용자가 두 개 이상의 작업에 적합한 경우 최종 사용자에게 전달되는 항목을 결정합니다. [우선 순위 점수에 대해 자세히 알아보기](../conflict-prioritization/priority-scores.md)
 
 ## 코드 기반 경험 구성 만들기 {#create-code-based-configuration}
 
@@ -156,7 +160,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >환경을 미리 보는 동안 문제가 발생하는 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)를 참조하세요.
+   >환경을 미리 보는 동안 문제가 발생하는 경우 [이 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)를 참조하세요.
 
 ### 기타 플랫폼 {#other}
 

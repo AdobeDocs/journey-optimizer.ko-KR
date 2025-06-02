@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 0b7f76ca43ef8dda3861abf2c3b058cef725e967
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1735'
 ht-degree: 11%
 
 ---
@@ -215,6 +215,10 @@ ht-degree: 11%
 1. 각 폴더를 클릭하여 확장합니다. 원하는 위치에 마우스 커서를 놓고 추가하려는 속성 옆에 있는 + 아이콘을 클릭합니다. 코드에 원하는 수만큼 속성을 추가할 수 있습니다.
 
    ![](assets/decision-code-based-add-decision-attributes.png)
+
+1. 대괄호 `[ ]` 쌍 안에 `#each` 루프를 래핑하고 닫는 `/each` 바로 앞에 쉼표를 추가해야 합니다.
+
+   ![](assets/decision-code-based-wrap-code.png)
 
 1. 프로필 속성과 같이 개인화 편집기에서 사용할 수 있는 다른 속성을 추가할 수도 있습니다.
 

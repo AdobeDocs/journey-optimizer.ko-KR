@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 10%
+source-wordcount: '698'
+ht-degree: 9%
 
 ---
 
@@ -41,9 +41,13 @@ ht-degree: 10%
 
 1. 메시지에 대해 **[!UICONTROL 레이블]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 
-1. 사용할 [코드 기반 경험 구성](code-based-configuration.md)을 선택하거나 만드십시오.
+1. 사용할 코드 기반 경험 구성을 선택하거나 만듭니다. [자세히 알아보기](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
+
+   >[!NOTE]
+   >
+   >동일한 채널 구성을 사용하는 코드 기반 경험 작업이 여러 개 있는 경우 여정의 **[!UICONTROL 우선 순위 점수]**&#x200B;는 최종 사용자가 두 개 이상의 작업에 대한 자격이 있는 경우 최종 사용자에게 전달되는 항목을 결정합니다. [우선 순위 점수에 대해 자세히 알아보기](../conflict-prioritization/priority-scores.md)
 
 1. **[!UICONTROL 콘텐츠 편집]** 단추를 선택하고 개인화 편집기를 사용하여 원하는 대로 콘텐츠를 편집하십시오. [자세히 알아보기](#edit-code)
 
@@ -67,9 +71,13 @@ ht-degree: 10%
 
 1. **[!UICONTROL 코드 기반 경험]** 작업을 선택하십시오.
 
-1. 코드 기반 경험 구성을 선택하거나 만듭니다. [자세히 알아보기](code-based-configuration.md)
+1. 사용할 코드 기반 경험 구성을 선택하거나 만듭니다. [자세히 알아보기](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
+
+   >[!NOTE]
+   >
+   >동일한 채널 구성을 사용하는 코드 기반 경험 작업이 여러 개 있는 경우, 캠페인의 **[!UICONTROL 우선 순위 점수]**&#x200B;는 최종 사용자가 두 개 이상의 작업에 적합한 경우 전달할 항목을 결정합니다. [우선 순위 점수에 대해 자세히 알아보기](../conflict-prioritization/priority-scores.md)
 
 1. 개인화 편집기를 사용하여 원하는 대로 콘텐츠를 편집합니다. [자세히 알아보기](#edit-code)
 
@@ -123,4 +131,4 @@ ht-degree: 10%
 
 아래 비디오에서는 코드 기반 경험 캠페인을 만들고, 속성을 구성하고, 테스트하고, 게시하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449460/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

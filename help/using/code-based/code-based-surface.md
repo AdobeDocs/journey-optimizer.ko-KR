@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 53%
+source-wordcount: '766'
+ht-degree: 50%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 53%
 * 또한 비표시 또는 추상화된 표시 목적을 위해 특정 콘텐츠 컨테이너 조각으로 확장할 수도 있습니다(예: 서비스로 제공되는 JSON Blob).
 
 * 또한 다양한 클라이언트 표면 정의와 일치하는 와일드카드 표면일 수도 있습니다. 예를 들어 웹 사이트의 모든 페이지에 있는 히어로 이미지 위치는 web://mydomain.com/*#hero_image 와 같은 표면 URI로 변환될 수 있습니다.
+
+>[!NOTE]
+>
+>동일한 표면에서 여러 코드 기반 경험 작업이 실행 중인 경우 캠페인 또는 여정의 **[!UICONTROL 우선 순위 점수]**&#x200B;는 최종 사용자가 두 개 이상의 작업에 적합한 경우 최종 사용자에게 전달되는 항목을 결정합니다. [우선 순위 점수에 대해 자세히 알아보기](../conflict-prioritization/priority-scores.md)
 
 ## 표면 식별자 {#surface-uri}
 
@@ -73,7 +77,7 @@ ht-degree: 53%
 [!DNL Journey Optimizer]에서 코드 기반 경험 채널은 두 가지 유형의 고객 구현을 지원합니다.
 
 * 웹 사이트의 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} 또는 모바일 앱의 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}을 기반으로 합니다.
-* [AEP Edge Network 서버 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR){target="_blank"}를 사용하는 서버측 또는 하이브리드.
+* [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR){target="_blank"}를 사용하는 서버측 또는 하이브리드.
 
 >[!NOTE]
 >
