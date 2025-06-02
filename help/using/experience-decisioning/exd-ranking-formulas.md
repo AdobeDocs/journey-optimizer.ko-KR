@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1182'
 ht-degree: 4%
 
 ---
@@ -42,11 +42,17 @@ ht-degree: 4%
 
    ![](assets/create-formula.png){width="80%"}
 
-1. 선택적으로 **[!UICONTROL AI 모델 선택]**&#x200B;을 클릭하여 순위 공식을 만드는 데 참조로 사용할 모델을 설정합니다. 아래 공식을 정의할 때 모델 점수를 참조할 때마다 선택한 AI 모델이 사용됩니다.
+1. 선택적으로 **[!UICONTROL AI 모델 선택]**&#x200B;을 클릭하여 순위 공식을 만드는 데 참조로 사용할 모델을 설정합니다.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >순위 공식에 통합된 AI 모델을 사용할 때 데이터는 [홀드아웃 및 모델 기반 트래픽에 대한 전환율](../reports/campaign-global-report-cja-code.md#conversion-rate) 보고서에 반영되지 않습니다.
+   >연속 지표를 사용하는 [개인화된 최적화 모델](../offers/ranking/personalized-optimization-model.md)은(는) AI 수식 빌더에서 지원되지 않습니다.
+
+아래 공식을 정의할 때 모델 점수를 참조할 때마다 선택한 AI 모델이 사용됩니다.
+
+    >[!CAUTION]
+    >
+    >순위 수식에 통합된 AI 모델을 사용할 때 [보류 및 모델 기반 트래픽에 대한 전환율](../reports/campaign-global-report-cja-code.md#conversion-rate) 보고서에 데이터가 반영되지 않습니다.
 
 1. 일치하는 결정 항목에 대한 순위 점수를 결정할 조건을 정의합니다. 다음을 수행할 수 있습니다.
 

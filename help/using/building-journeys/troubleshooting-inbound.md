@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 인바운드 작업, 문제 해결, 여정, 디버그, 자가 도움말, 확인, 오류
-source-git-commit: e3780d52960b7fbe5ada33cf4de65d22b15e7d1d
+source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 문제 해결을 시작하기 전에 다음을 확인하십시오.
 
-1. **Assurance** 세션을 설정합니다. [Adobe Experience Platform Assurance 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}에서 방법을 알아보세요.
+1. **Assurance** 세션을 설정합니다. [Adobe Experience Platform Assurance 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}에서 방법을 알아보세요.
 
 1. 여정 이름과 버전 ID를 검색하려면 인바운드 작업이 포함된 여정으로 이동합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    ![](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. 프로필 네임스페이스 및 ID를 가져와서 문제가 발생하는 프로필을 식별합니다. 구성에 따라 네임스페이스는 ECID, 이메일 또는 고객 ID 등이 될 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}에서 프로필을 찾는 방법에 대해 알아보세요.
+1. 프로필 네임스페이스 및 ID를 가져와서 문제가 발생하는 프로필을 식별합니다. 구성에 따라 네임스페이스는 ECID, 이메일 또는 고객 ID 등이 될 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}에서 프로필을 찾는 방법에 대해 알아보세요.
 
 ## 시나리오 1: 사용자가 인바운드 콘텐츠를 받지 못했습니다. {#scenario-1}
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 2. **&#39;joai&#39; id가 플랫폼 id에 정의됨**
 
-   인바운드 작업에서는 `segmentMembership` 프로필의 **&#39;joai&#39;** 네임스페이스를 사용하여 인바운드 단계에 대한 프로필을 활성화합니다. 샌드박스의 Platform ID에서 정의되었는지 확인합니다. [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home){target="_blank"}에 대해 자세히 알아보기
+   인바운드 작업에서는 `segmentMembership` 프로필의 **&#39;joai&#39;** 네임스페이스를 사용하여 인바운드 단계에 대한 프로필을 활성화합니다. 샌드박스의 Platform ID에서 정의되었는지 확인합니다. [Experience Platform ID 서비스](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}에 대해 자세히 알아보기
 
 ### 디버깅 단계 {#debugging-steps}
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 >[!TAB 인앱 채널]
 
-1. [Assurance](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션으로 이동하여 왼쪽 패널에서 **[!UICONTROL 인앱 메시지]** 섹션을 선택합니다.
+1. [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션으로 이동하여 왼쪽 패널에서 **[!UICONTROL 인앱 메시지]** 섹션을 선택합니다.
 
 1. **[!UICONTROL 장치의 메시지]** 탭에서 **[!UICONTROL 메시지]** 드롭다운 목록을 클릭하고 여정 이름 다음에 &#39;- 앱 내 메시지&#39;가 오는 메시지를 확인합니다. 존재하는 경우 인앱 메시지가 장치/클라이언트에 있으며 문제는 인앱 트리거와 관련될 수 있음을 의미합니다.
 
@@ -91,11 +91,11 @@ ht-degree: 0%
 
 >[!TAB 웹 채널]
 
-페이지를 방문하여 네트워킹 탭을 검사하거나 [Assurance](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션의 **[!UICONTROL Edge Delivery]** 섹션에서 Edge 응답 페이로드를 확인하십시오.
+페이지를 방문하여 네트워킹 탭을 검사하거나 [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션의 **[!UICONTROL Edge Delivery]** 섹션에서 Edge 응답 페이로드를 확인하십시오.
 
 >[!TAB 코드 기반 경험 채널]
 
-[Adobe의 API](https://developer.adobe.com/data-collection-apis/docs/api/)를 사용하여 CURL 요청을 수행하고 [Assurance](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션의 **[!UICONTROL Edge Delivery]** 섹션에서 Edge 응답 페이로드를 확인합니다.
+[Adobe의 API](https://developer.adobe.com/data-collection-apis/docs/api/)를 사용하여 CURL 요청을 수행하고 [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션의 **[!UICONTROL Edge Delivery]** 섹션에서 Edge 응답 페이로드를 확인합니다.
 
 >[!ENDTABS]
 
@@ -127,7 +127,7 @@ Edge Network 동작을 디버깅하려면 아래 단계를 수행합니다.
 
    프로필 섹션의 **segmentsMap** 요소를 열고 **joai** 세그먼트 ID가 있는지 확인하여 **joai** 세그먼트가 Edge Network 게재 서버의 프로필 보기에 있는지 다시 확인할 수 있습니다.
 
-1. Edge Network 게재 서버에서 프로필을 관련 **joai** 세그먼트에 있는 것으로 보지 않으면 다음 단계로 이동하십시오.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Edge Network 게재 서버에서 프로필을 관련 **joai** 세그먼트에 있는 것으로 보지 않으면 다음 단계로 이동하십시오.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 #### 3단계: joai 대상 멤버십이 Edge Network에 전파되었는지 확인 {#step-3}
 
@@ -158,7 +158,9 @@ Edge 프로필의 `segmentMembership` 특성에 **joai** 세그먼트가 있는�
 
    * Edge Network 게재 서버의 프로필 보기에 표시되지 않으면 게재 서버가 Edge 프로필을 로드하는 중 문제가 발생할 수 있습니다.
 
-1. **joai** 세그먼트 ID가 없거나 **[!UICONTROL 종료됨]** 상태인 경우 Edge에 전파되지 않았음을 의미합니다. `segmentMembership` 값이 허브에서 Edge으로 전파될 때까지 15~30분 정도 기다립니다.
+1. **joai** 세그먼트 ID가 없거나 **[!UICONTROL 종료됨]** 상태인 경우 Edge에 전파되지 않았음을 의미합니다.
+
+   `segmentMembership` 값이 허브에서 Edge으로 전파될 때까지 15~30분 정도 기다립니다. 아직 표시되지 않은 경우 다음 단계로 이동합니다.
 
 <!--The next step is to check whether the audience segment is present in the profile on the Hub.-->
 
@@ -174,8 +176,7 @@ Hub 프로필의 `segmentMembership` 특성에 **joai** 세그먼트가 있는�
 
 1. [!DNL Journey Optimizer] 왼쪽 탐색 창에서 **[!UICONTROL 고객]** > **[!UICONTROL 프로필]** 메뉴로 이동한 다음 네임스페이스와 ID를 사용하여 프로필을 찾습니다. [실시간 고객 프로필](../audience/get-started-profiles.md)에 대해 자세히 알아보기
 
-1. **[!UICONTROL 특성]** 탭을 선택하고 **[!UICONTROL 허브]** 보기를 선택하십시오.
-   <!--cannot see Hub/Edge wiews for the profile-->
+1. **[!UICONTROL 특성]** 탭을 선택하고 **[!UICONTROL 허브]** 보기를 선택하십시오. <!--cannot see Hub/Edge wiews for the profile-->
 
 1. **[!UICONTROL JSON 보기]**&#x200B;를 클릭하여 프로필에 대한 JSON 보기를 엽니다.
 
@@ -187,9 +188,7 @@ Hub 프로필의 `segmentMembership` 특성에 **joai** 세그먼트가 있는�
 
 1. **joai** 세그먼트 ID가 없거나 **[!UICONTROL 종료됨]** 상태인 경우, 해당 인바운드 여정 작업에 들어갈 때 프로필이 특수 **joai** 대상 세그먼트에 올바르게 인증되지 않았음을 의미합니다.
 
-   >[!NOTE]
-   >
-   >`segmentMembership` 값을 허브의 프로필에 수집하는 데 최대 15~30분이 걸릴 수 있습니다.
+   `segmentMembership` 값이 허브의 프로필에 수집될 때까지 15~30분 정도 기다립니다. 아직 표시되지 않은 경우 다음 단계로 이동합니다.
 
 #### 5단계: 클라이언트/장치가 여전히 예상 콘텐츠를 받지 못하는 경우 {#step-5}
 
@@ -223,9 +222,9 @@ Hub 프로필의 `segmentMembership` 특성에 **joai** 세그먼트가 있는�
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 ## Warnings and Notes {#warnings-and-notes}
 
