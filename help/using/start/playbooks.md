@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '499'
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 또한 플레이북 자산을 다른 샌드박스로 가져올 수 있습니다. 이렇게 하면 이미 고유한 스키마, 필드 및 필드 그룹을 설정한 경우 생성된 자산을 기존 자산에 맞추고 데이터와 호환되는지 확인할 수 있습니다. 이러한 단계는 사용 사례 플레이북 설명서 [플레이북에서 생성한 자산을 다른 샌드박스에 게시](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=ko){target="_blank"}에서 자세히 설명합니다.
 
-## 나만의 플레이북 만들기(비공개 베타) {#create}
+## 나만의 플레이북 만들기(Private beta) {#create}
 
 >[!AVAILABILITY]
 >
->사용 사례 플레이북 만들기는 현재 조직 집합에 대해서만 개인 베타로 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+>사용 사례 플레이북 만들기 기능은 현재 Private Beta로 일부 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 사전 정의된 플레이북을 활용하는 것 외에도 Adobe Experience Platform 내에서 나만의 플레이북을 만들고 공유할 수 있습니다.
 

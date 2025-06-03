@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2504'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 
 [!DNL Adobe Journey Optimizer] 사용 시 다음과 같은 추가 가드레일 및 제한 사항이 있습니다.
 
-자격, 제품 제한 사항 및 성능 보호는 [Adobe Journey Optimizer 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 나와 있습니다.
+자격, 제품 제한 사항, 성능 가드레일 목록은 [Adobe Journey Optimizer 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에서 확인하실 수 있습니다.
 
-시작하기 전에 실시간 고객 프로필 데이터에 대한 [보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}을 알고 있어야 합니다.
+시작 전 [실시간 고객 프로필 데이터 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}에 대해 알고 있어야 합니다.
 
 ## 지원되는 브라우저 {#browsers}
 
@@ -62,7 +62,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 [!DNL Journey Optimizer] [웹 캠페인](../web/get-started-web.md)은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타기팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로, 사용자가 계약 시 구입한 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 
 
-각 패키지에 대한 라이선스 지표는 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에 나와 있습니다.
+각 패키지별 라이선스 지표 목록은 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에서 확인할 수 있습니다.
 
 ### 코드 기반 채널 가드레일 {#code-based-guardrails}
 
@@ -124,7 +124,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 오류가 발생하면 시스템에서 세 번 다시 시도합니다. 수신된 오류 메시지에 따라 재시도 횟수를 조정할 수 없습니다. HTTP 401, 403, 404를 제외한 모든 HTTP 오류에 대해 다시 시도됩니다.
 * 기본으로 제공되는 **반응** 이벤트를 사용하면 즉시 사용 가능한 작업에 반응할 수 있습니다. [이 페이지](../building-journeys/reaction-events.md)에서 자세히 알아보십시오. 사용자 정의 액션을 통해 보낸 메시지에 반응하려면 전용 이벤트를 구성해야 합니다.
 * 두 가지 작업을 병렬로 배치할 수 없으며 하나씩 추가해야 합니다.
-* 프로필은 모든 활성 [ 버전의 여정](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)에 대해 동일한 여정에 동시에 여러 번 있을 수 없습니다. 재진입이 활성화된 경우 프로필은 여정에 다시 입장할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 다시 입장할 수 없습니다. [자세히 보기](../building-journeys/end-journey.md)
+* 프로필은 모든 활성 [버전의 여정](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)에 대해 동일한 여정에서 동시에 여러 번 나타날 수 없습니다. 재진입이 활성화된 경우 프로필은 여정에 다시 입장할 수 있지만 여정의 이전 인스턴스를 완전히 종료할 때까지는 다시 입장할 수 없습니다. [자세히 보기](../building-journeys/end-journey.md)
 
 ### 여정 버전 {#journey-versions-g}
 
@@ -212,10 +212,10 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 ### 표현식 편집기  {#expression-editor}
 
-[여정 식 편집기](../building-journeys/expression/expressionadvanced.md)에 다음 보호 기능이 적용됩니다.
+[여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md)에는 다음 가드레일이 적용됩니다.
 
 * 경험 이벤트 필드 그룹은 대상자 읽기, 대상자 선별 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다. 새 대상자를 만들고 여정에서 대상자 내 조건을 사용해야 합니다.
-* 식 편집기에서 `timeSeriesEvents` 특성을 사용할 수 없습니다. 프로필 수준에서 경험 이벤트에 액세스하려면 `XDM ExperienceEvent` 스키마를 기반으로 새 필드 그룹을 만드십시오.
+* `timeSeriesEvents` 속성은 표현식 편집기에서 사용할 수 없습니다. 프로필 수준에서 [경험 이벤트]에 액세스하려면 `XDM ExperienceEvent` 스키마를 기반으로 새 필드 그룹을 만드십시오.
 
 
 ### 인앱 활동 {#in-app-activity-limitations}

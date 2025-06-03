@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2031'
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 <tr>
 <td>
 <p>이제 Adobe Journey Optimizer가 Adobe Express와 통합되어 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다. 이 통합으로 개인화된 콘텐츠를 디자인하고 여러 캠페인에 걸쳐 배포하는 프로세스가 간소화됩니다. </p>
-<p>이 통합은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.</p>
+<p>이 통합은 현재 Healthcare Shield 또는 Privacy and Security Shield와 함께 사용할 수 없습니다.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>자세한 내용은 <a href="../integrations/express.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -278,7 +278,7 @@ ht-degree: 0%
 
 **사용 사례 플레이북**
 
-* **플레이북 작성 및 공유(비공개 베타)** - 이제 나만의 사용 사례 플레이북을 만들고, 관리하고, 공유할 수 있습니다. 이 기능은 현재 조직 집합에 대해서만 개인 베타로 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오. [자세히 보기](../start/playbooks.md)
+* **플레이북 작성 및 공유(Private Beta)** - 이제 나만의 사용 사례 플레이북을 만들고 관리하고 공유할 수 있습니다. 이 기능은 현재 Private Beta로 일부 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. [자세히 보기](../start/playbooks.md)
 
 **탐색**
 

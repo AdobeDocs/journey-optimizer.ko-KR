@@ -10,9 +10,9 @@ level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 94%
 >
 >아래의 [이 섹션](#enable-list-unsubscribe)에서 구독 취소 설정을 관리하는 방법을 알아봅니다.
 
-두 경우 모두 수신자가 옵트아웃 링크를 클릭하면 수신자의 구독 취소 요청이 그에 따라 처리됩니다. 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}에서 업데이트됩니다.
+두 경우 모두 수신자가 옵트아웃 링크를 클릭하면 수신자의 구독 취소 요청이 그에 따라 처리됩니다. 해당 프로필은 즉시 옵트아웃되고 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}에서 이 선택이 업데이트됩니다.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 94%
 
 * **[!UICONTROL 원구독 취소 URL]**&#x200B;은 기본적으로 [선택한 하위 도메인](email-settings.md#subdomains)에 따라 원클릭 구독 취소 URL에서 생성한 [목록 구독 취소] 헤더입니다. <!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
-해당 드롭다운 목록에서 **[!UICONTROL 동의 수준]**&#x200B;을 선택할 수 있습니다. 
+해당 드롭다운 목록에서 **[!UICONTROL 동의 수준]**을 선택할 수 있습니다. 
 채널 또는 프로필 ID별로 지정할 수 있습니다. 이 설정에 따라 사용자가 이메일 헤더에 있는 목록 구독 취소 URL을 사용하여 구독을 취소하는 경우[!DNL Adobe Journey Optimizer]에서 채널 수준 또는 ID 수준으로 동의 상태가 업데이트됩니다.
 
 ## 가드레일 및 추천 사항 {#list-unsubscribe-guardrails}
@@ -90,14 +90,14 @@ ht-degree: 94%
 
      ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;이 선택 해제되어 있는 경우, URL이 이메일 헤더에 목록 구독 취소 헤더의 일부로  포함되지 않습니다.
+   * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**이 선택 해제되어 있는 경우, URL이 이메일 헤더에 목록 구독 취소 헤더의 일부로  포함되지 않습니다.
 
 
   >[!NOTE]
   >
   >[이 섹션](../email/email-opt-out.md#unsubscribe-header)에서 메시지 내 구독 취소 기능을 관리하는 방법에 대해 자세히 알아보십시오.
 
-[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}에 의해 처리됩니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"}에 나열된 가능한 값 중 하나로 온보딩하는 동안 이 기본값을 수정하거나 [동의 정책](../action/consent.md)을 사용하여 기본 논리를 재정의할 수 있습니다.
+[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}가 처리합니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다. 온보딩하는 동안 이 기본값을 [여기](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ko#choice-values){target="_blank"}에 나열된 가능한 값 중 하나로 수정하거나 [동의 정책](../action/consent.md)을 사용하여 기본 논리를 재정의할 수 있습니다.
 
 현재 [!DNL Journey Optimizer]에서는 [목록 구독 취소] 기능에 의해 트리거된 구독 취소 이벤트에 특정 태그를 추가하지 않습니다. [목록 구독 취소] 클릭을 다른 구독 취소 작업과 구별해야 하는 경우 외부에서 사용자 정의 태그 지정을 구현하거나 외부 랜딩 페이지를 활용하여 추적해야 합니다.
 
@@ -122,14 +122,14 @@ Adobe 외부에서 동의를 관리하는 경우 **[!UICONTROL 고객 관리]** 
 >[!WARNING]
 >
 >**[!UICONTROL 고객 관리]**&#x200B;옵션을 사용하는 경우 Adobe는 구독 취소 또는 동의 데이터를 저장하지 않습니다. **[!UICONTROL 고객 관리]** 옵션을 사용하면 조직은 외부 시스템을 사용하기로 선택한 것으로, 해당 외부 시스템에서 동의 데이터를 관리할 책임이 있습니다.  외부 시스템과 [!DNL Journey Optimizer] 간에 동의 데이터의 자동 동기화는 이루어지지 않습니다.
->[!DNL Journey Optimizer]의 사용자 동의 데이터를 업데이트하기 위해 외부 시스템에서 가져온 동의 데이터를 동기화하려면, 조직이 동의 데이터를 [!DNL Journey Optimizer]로 다시 푸시하는 데이터 전송으로 시작해야 합니다.
+[!DNL Journey Optimizer]의 사용자 동의 데이터를 업데이트하기 위해 외부 시스템에서 가져온 동의 데이터를 동기화하려면, 조직이 동의 데이터를 [!DNL Journey Optimizer]로 다시 푸시하는 데이터 전송으로 시작해야 합니다.
 
 
 ### 암호 해독 API 구성 {#configure-decrypt-api}
 
 **[!UICONTROL 고객 관리]** 옵션을 선택한 상태에서 사용자 정의 엔드포인트를 입력하여 캠페인이나 여정에서 사용하는 경우 [!DNL Journey Optimizer]에서는 수신자가 구독 취소 링크를 클릭할 때 일부 기본 프로필별 매개 변수를 동의 업데이트 이벤트<!--sent to the custom endpoint -->에 추가합니다.
 
-이 매개 변수는 엔드포인트에 암호화된 형태로 전송됩니다. 따라서 외부 동의 시스템은 [Adobe Developer](https://developer.adobe.com){target="_blank"}을(를) 통해 특정 API를 구현하여 Adobe에서 보낸 매개 변수를 해독해야 합니다.
+이 매개 변수는 엔드포인트에 암호화된 형태로 전송됩니다. 따라서 외부 동의 시스템에서는 [Adobe Developer](https://developer.adobe.com){target="_blank"}를 통해 특정 API를 구현하여 Adobe에서 보낸 매개 변수를 해독해야 합니다.
 
 이 매개 변수를 검색하는 GET 호출은 사용하는 목록 구독 취소 옵션(**[!UICONTROL 원클릭 구독 취소 URL]** 또는 **[!UICONTROL Mailto(구독 취소)]**)에 따라 다릅니다.
 
