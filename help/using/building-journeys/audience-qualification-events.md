@@ -92,7 +92,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
+   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 
@@ -134,7 +134,7 @@ ht-degree: 5%
 
 스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트를 보내는 대신 비즈니스 규칙을 사용합니다. [자세히 알아보기](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
+스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
 
 ### 오버로드를 방지하는 방법 {#overloads-speed-segment-qualification}
 
