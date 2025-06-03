@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
+source-git-commit: 2f2caf8615af8e3526124e0d7ed91873ccb6edc3
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1179'
 ht-degree: 4%
 
 ---
 
-# AI 수식 빌더 사용 {#create-ranking-formulas}
+# AI 공식 빌더 사용 {#create-ranking-formulas}
 
 **등급 수식**&#x200B;을 사용하면 우선 순위 점수를 고려하지 않고 먼저 제시해야 할 오퍼를 결정하는 규칙을 정의할 수 있습니다.
 
@@ -48,11 +48,11 @@ ht-degree: 4%
    >
    >연속 지표를 사용하는 [개인화된 최적화 모델](../offers/ranking/personalized-optimization-model.md)은(는) AI 수식 빌더에서 지원되지 않습니다.
 
-아래 공식을 정의할 때 모델 점수를 참조할 때마다 선택한 AI 모델이 사용됩니다.
+   아래 공식을 정의할 때 모델 점수를 참조할 때마다 선택한 AI 모델이 사용됩니다.
 
-    >[!CAUTION]
-    >
-    >순위 수식에 통합된 AI 모델을 사용할 때 [보류 및 모델 기반 트래픽에 대한 전환율](../reports/campaign-global-report-cja-code.md#conversion-rate) 보고서에 데이터가 반영되지 않습니다.
+   >[!CAUTION]
+   >
+   >순위 공식에 통합된 AI 모델을 사용할 때 데이터는 [홀드아웃 및 모델 기반 트래픽에 대한 전환율](../reports/campaign-global-report-cja-code.md#conversion-rate) 보고서에 반영되지 않습니다.
 
 1. 일치하는 결정 항목에 대한 순위 점수를 결정할 조건을 정의합니다. 다음을 수행할 수 있습니다.
 
