@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1416'
 ht-degree: 89%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 89%
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 2025년 6월 업데이트 {#25-6-rn}
-
 
 <table>
 <thead>
@@ -41,7 +40,7 @@ ht-degree: 89%
 </tbody>
 </table>
 
-&lt;<table>
+<table>
 <thead>
 <tr>
 <th><strong>충돌 및 우선순위 지정</strong><br/></th>
@@ -63,6 +62,13 @@ ht-degree: 89%
 </tr>
 </tbody>
 </table>
+
+### 개선 사항
+
+* **Decisioning** - 사용 가능한 날짜: 2025년 6월 3일
+
+  이제 결정 오브젝트를 샌드박스 간에 복사할 수 있어 테스트 및 배포 워크플로가 간소화됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#decisioning)
+
 
 ## 25년 5월 릴리스 정보 {#25-5-rn}
 
@@ -260,10 +266,6 @@ ht-degree: 89%
 * **샌드박스 복사본에 대한 새 캠페인 개체 지원** - 사용 가능한 날짜: 2025년 5월 15일
 
   이제 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 캠페인을 복사할 때 채널 구성, 실험 변형 및 설정, 결정 정책 및 항목 종속성도 복사됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
-
-  <!--* **Decisioning** - Availability date: May 16, 2025
-
-    Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows. [Read more](../configuration/copy-objects-to-sandbox.md#decisioning)-->
 
 * **랜딩 페이지 폴더** - 사용 가능한 날짜: 2025년 5월 9일
 
