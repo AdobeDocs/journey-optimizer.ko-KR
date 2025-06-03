@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1191'
 ht-degree: 5%
 
 ---
@@ -38,20 +38,21 @@ ht-degree: 5%
 아래 보호 기능 및 권장 사항에 따라 대상 자격 여정을 작성하십시오. [대상 자격 모범 사례](#best-practices-segments)도 참조하세요.
 
 
-* 대상 자격 여정은 주로 스트리밍 대상으로 작동하도록 설계되었습니다. 이 조합은 더 나은 실시간 경험을 보장합니다. 대상 자격 활동에는 **스트리밍 대상**&#x200B;만 사용하는 것이 좋습니다.
+* 대상 자격 여정은 주로 스트리밍 대상으로 작동하도록 설계되었습니다. 이 조합은 더 나은 실시간 경험을 보장합니다. 대상 자격 활동에서 **스트리밍 대상**&#x200B;을 사용하는 것이 좋습니다.
 
-  그러나 스트리밍 대상의 일괄 처리 수집 기반 특성 또는 대상 자격 여정의 일괄 처리 대상을 사용하려면 대상 평가/활성화 시간을 고려하십시오. 일괄 처리 수집된 특성을 사용하는 일괄 처리 대상 또는 스트리밍 대상은 세분화 작업이 완료된 후 **2시간**&#x200B;에 **대상 자격** 활동에서 사용할 준비가 되어 있어야 합니다(이 작업은 Adobe 조직 관리자가 정의한 시간에 매일 한 번 실행됨).
+  그러나 스트리밍 대상 또는 대상 자격 여정에 일괄 처리 수집 기반 속성을 사용하려면 대상 평가/활성화에 대한 시간 범위를 고려하십시오. 일괄 수집된 특성을 사용하는 일괄 처리 대상자 또는 스트리밍 대상자는 세분화 작업이 완료된 후 약 **2시간**&#x200B;후에 **대상자 자격** 활동에서 사용할 수 있습니다. 이 작업은 Adobe 조직 관리자가 정의한 시간에 매일 한 번 실행됩니다.
 
-* Adobe Experience Platform 대상은 하루에 한 번(**일괄 처리**&#x200B;개 대상) 또는 실시간으로 계산됩니다(**스트리밍**&#x200B;개 대상의 경우 Adobe Experience Platform의 고주파 대상 옵션 사용).
+* Adobe Experience Platform 대상은 하루에 한 번(**일괄 처리**&#x200B;개 대상) 또는 실시간으로 계산됩니다(**스트리밍됨**&#x200B;개 대상의 경우 Adobe Experience Platform의 고주파 대상 옵션을 사용).
 
-   * 선택한 대상자가 스트리밍되는 경우 이 대상자에 속한 개인이 잠재적으로 실시간으로 여정에 입장할 수 있습니다.
+   * 선택한 대상자가 스트리밍되는 경우 이 대상자에 속하는 개인은 잠재적으로 실시간으로 여정에 입장할 수 있습니다.
    * 대상이 일괄 처리인 경우 Adobe Experience Platform에서 대상 계산이 실행될 때 이 대상에 대해 새로 자격을 얻은 사람이 여정에 들어올 수 있습니다.
 
-  따라서 **대상 자격** 활동에서는 스트리밍 대상자만 사용하는 것이 좋습니다. 일괄 사용 사례의 경우 **[대상자 읽기](read-audience.md)** 활동을 사용하십시오.
+  가장 좋은 방법은 **대상 자격** 활동에서 스트리밍 대상을 사용하는 것입니다. 일괄 사용 사례의 경우 **[대상자 읽기](read-audience.md)** 활동을 사용하십시오.
 
   >[!NOTE]
   >
-  >작성 워크플로 및 사용자 지정 업로드를 사용하여 생성된 대상자의 배치 특성으로 인해 &quot;대상자 자격&quot; 활동에서 이러한 대상자를 타깃팅할 수 없습니다. 세그먼트 정의를 사용하여 생성된 대상만 이 활동에서 활용할 수 있습니다.
+  >작성 워크플로우 및 사용자 지정 업로드를 사용하여 생성된 대상자의 배치 특성으로 인해 이러한 대상자를 &quot;대상자 자격&quot; 활동에서 타깃팅할 수 없습니다. 세그먼트 정의를 사용하여 생성된 대상만 이 활동에서 활용할 수 있습니다.
+
 
 * **대상자 읽기**, **대상자 자격 요건** 또는 **비즈니스 이벤트** 활동으로 시작하는 여정에서 경험 이벤트 필드 그룹을 사용할 수 없습니다.
 
@@ -78,7 +79,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >목록에 표시되는 열을 사용자 정의하고 정렬할 수 있습니다.
+   >목록에 표시되는 열을 사용자 지정하고 정렬할 수 있습니다.
 
    ![](assets/segment6.png)
 
@@ -92,7 +93,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 
@@ -118,40 +119,40 @@ ht-degree: 5%
 
 ## 모범 사례 {#best-practices-segments}
 
-**[!UICONTROL 대상 자격]** 활동을 통해 Adobe Experience Platform 대상에서 자격을 얻거나 자격을 박탈당한 개인 여정을 즉시 입력할 수 있습니다.
+**[!UICONTROL 대상 자격]** 활동을 통해 Adobe Experience Platform 대상에서 자격을 얻거나 자격을 박탈당한 개인 여정을 즉시 시작할 수 있습니다.
 
-이 정보는 수신 속도가 빠르다. 측정된 속도는 초당 수신된 10,000개의 이벤트의 속도를 보여준다. 그 결과, 가장 높은 수준의 출입이 발생할 수 있는 상황, 이러한 입구를 피하는 방법 및 이러한 입구를 위한 여정을 준비하는 방법을 이해해야 합니다.
+이 정보는 수신 속도가 빠르다. 측정 결과 초당 수신된 10,000개의 이벤트 속도가 측정되었습니다. 그 결과, 출입구 정점이 어떻게 발생할 수 있는지, 어떻게 방지해야 하는지, 여정을 준비해야 하는지 이해해야 합니다.
 
 ### 대상자 일괄 처리 {#batch-speed-segment-qualification}
 
-일괄 처리 대상에 대해 대상 자격을 사용할 때 일일 계산 시 가장 높은 수준의 시작이 발생합니다. 정점의 크기는 매일 관객에게 입장하는(또는 퇴장하는) 개인의 수에 따라 달라질 것이다.
+일괄 처리 대상에 대해 대상 자격을 사용할 때 일일 계산 시 가장 많이 발생합니다. 피크의 크기는 매일 관객에게 입장(또는 퇴장)하는 개인의 수에 따라 달라진다.
 
-또한 일괄 처리 대상을 새로 만들어 여정에서 즉시 사용하는 경우 첫 번째 일괄 처리 계산을 통해 매우 많은 수의 개인이 여정에 들어갈 수 있습니다.
+또한 배치 대상이 새로 만들어져 여정에서 즉시 사용되는 경우 첫 번째 계산 배치로 인해 매우 많은 수의 개인이 여정에 들어갈 수 있습니다.
 
 ### 스트리밍된 대상자 {#streamed-speed-segment-qualification}
 
-스트리밍된 대상에 대해 대상 자격을 사용할 때 대상의 지속적 평가로 인해 큰 정점이 출입할 위험이 적다. 하지만 대상 정의가 많은 수의 고객이 동시에 자격을 얻도록 유도하는 경우 최고점이 발생할 수도 있습니다.
+스트리밍된 대상자에 대해 대상 자격을 사용할 경우, 대상자에 대한 지속적인 평가로 인해 큰 정점의 출입이 발생할 위험이 적다. 그러나 대상 정의를 통해 동시에 자격을 부여하는 고객이 대량으로 발생하는 경우에는 여전히 정점이 발생할 수 있습니다.
 
 스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트를 보내는 대신 비즈니스 규칙을 사용합니다. [자세히 알아보기](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
+스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
 
 ### 오버로드를 방지하는 방법 {#overloads-speed-segment-qualification}
 
 다음은 여정에서 활용하는 시스템(데이터 소스, 사용자 지정 작업, 채널 작업 활동)을 오버로드할 수 없도록 하는 몇 가지 모범 사례입니다.
 
-**[!UICONTROL 대상 자격]** 활동에서 일괄 처리 대상을 만든 후 바로 사용하지 마십시오. 첫 번째 계산 피크가 나타나지 않습니다. 계산된 적이 없는 대상을 사용하려는 경우 여정 캔버스에 노란색 경고가 표시됩니다.
+* **[!UICONTROL 대상 자격]** 활동에서 일괄 처리 대상을 만든 후 바로 사용하지 마십시오. 이렇게 하면 첫 번째 계산 피크가 나타나지 않습니다. 계산된 적이 없는 대상을 사용하려는 경우 여정 캔버스에 노란색 경고가 표시됩니다.
 
-![](assets/segment-error.png)
+  ![](assets/segment-error.png)
 
-여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. [Journey Optimizer 최대 가용량 API](../configuration/capping.md)에 대해 자세히 알아보세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 조건 또는 작업에서 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용해야 합니다.
+* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
 
-여정에서 대상자를 사용하기 전에 항상 먼저 이 대상자에 대해 매일 자격을 부여하는 개인의 양을 평가하십시오. 이렇게 하려면 **[!UICONTROL 대상자]** 메뉴를 확인하고 대상자를 연 다음 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프를 보십시오.
+* 프로덕션 여정에서 대상을 사용하기 전에 매일 이 대상에 대해 자격이 있는 개인의 양을 평가하십시오. 이렇게 하려면 **[!UICONTROL 대상자]** 메뉴를 확인하고 대상자를 연 다음 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프를 보십시오.
 
-![](assets/segment-overload.png)
+  ![](assets/segment-overload.png)
 
 ## 사용 방법 비디오 {#video}
 
 이 비디오에서 대상 자격 여정에 적용할 수 있는 사용 사례를 이해합니다. 대상 검증을 사용하여 여정을 구축하는 방법 및 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446211?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
