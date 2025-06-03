@@ -9,18 +9,18 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
 
 # 권한 수준 {#high-low-permissions}
 
-![](assets/do-not-localize/permissions.png)
 
 각 역할은 사용자가 다양한 기능에 액세스할 수 있는 권한으로 구성됩니다.
+
 두 가지 유형으로 나눌 수 있습니다.
 
 * **높은 수준의 권한**: **[!DNL Publish journeys]** 및 **[!DNL Manage subdomains delegation]**&#x200B;과(와) 같이 **[!UICONTROL 역할]**&#x200B;에 할당할 수 있는 다양한 권한을 나타냅니다. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다. 높은 수준의 사용 권한이 [이 페이지](ootb-permissions.md)에 자세히 설명되어 있습니다.
@@ -29,11 +29,14 @@ ht-degree: 0%
 
 예를 들어 **[!DNL Journey administrator]** 역할에는 **[!DNL Manage journeys]** 권한이 할당됩니다. 이 권한으로 인해 여정 관리자가 여정을 작성, 읽기 및 삭제할 수 있는 낮은 수준의 권한이 생깁니다.
 
+![](assets/do-not-localize/permissions.png){width="70%"}
+
+
 ## 여정 리소스 {#journey-capability}
 
 * **[!DNL Manage journeys]** 높은 수준의 권한을 통해 사용자는 새 여정을 만들고 기존 여정을 편집/삭제할 수 있을 뿐만 아니라 여정 흐름을 만들기 위해 캔버스에 사용되는 개체에 액세스할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
 
@@ -53,7 +56,7 @@ ht-degree: 0%
 
 * **[!DNL Publish journeys]**&#x200B;개의 높은 수준의 권한으로 사용자가 여정을 게시할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
    * Journey Optimizer 관련:
       * journeys.publish
       * journeys.read
@@ -62,7 +65,7 @@ ht-degree: 0%
 
 * **[!DNL View journeys]** 높은 수준의 사용 권한을 통해 여정을 검색하고 볼 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * journeys.read
@@ -75,7 +78,7 @@ ht-degree: 0%
 
 * **[!DNL Manage journeys events, data sources and actions]** 높은 수준의 권한을 통해 사용자가 이벤트 및 데이터 구성을 구성할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * 여정_events.read
@@ -97,7 +100,7 @@ ht-degree: 0%
 
 * **[!DNL View journeys events, data sources and actions]** 높은 수준의 권한을 통해 사용자는 여정 흐름에서 이벤트와 데이터를 사용할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * 여정_events.read
@@ -113,7 +116,7 @@ ht-degree: 0%
 
 * **[!DNL View journeys report]** 높은 수준의 권한으로 사용자가 읽기 전용 여정 보고서를 사용할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * 여정_report.read
@@ -131,7 +134,7 @@ ht-degree: 0%
 
 * **[!DNL Manage frequency rules]** 높은 수준의 사용 권한을 통해 사용자가 빈도 규칙을 읽고, 만들고, 편집하고, 삭제하고, 활성화/비활성화할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * frequency_rules.read
@@ -142,7 +145,7 @@ ht-degree: 0%
 
 * **[!DNL View frequency rules]** 높은 수준의 사용 권한을 통해 사용자가 빈도 규칙을 볼 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * frequency_rules.read
@@ -166,7 +169,7 @@ ht-degree: 0%
 
 * **[!DNL Manage campaigns]** 높은 수준의 권한을 통해 사용자가 캠페인을 새로 만들고 편집/삭제할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
 
@@ -193,7 +196,7 @@ ht-degree: 0%
 
 * **[!DNL View campaigns report]** 높은 수준의 권한으로 사용자가 캠페인 보고서를 읽고 편집할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * campaign.read
@@ -207,7 +210,7 @@ ht-degree: 0%
 
 * **[!DNL Manage decisions]** 높은 수준의 권한을 통해 사용자는 새로운 항목을 만들고 기존 **[!DNL Activity entities]**&#x200B;을(를) 편집/삭제할 수 있을 뿐만 아니라 해당 활동에 사용된 개체를 관리하여 결정을 내릴 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * 의사 결정 관리 특정:
       * activities.read
@@ -233,7 +236,7 @@ ht-degree: 0%
 
 * **[!DNL View decisions]** 높은 수준의 권한을 통해 사용자는 기존 활동 및 관련 비즈니스 개체를 사용하여 결정을 내릴 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * 의사 결정 관리 특정:
       * activities.read
@@ -250,7 +253,7 @@ ht-degree: 0%
 
 * **[!DNL Manage offers]** 높은 수준의 권한을 통해 사용자는 모든 오퍼, 구성 요소를 만들고 편집하고 삭제할 수 있으며, 의사 결정 및 컬렉션을 읽을 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * 의사 결정 관리 특정:
       * offers_activity.read
@@ -272,7 +275,7 @@ ht-degree: 0%
 
 * **[!DNL Manage ranking strategies]** 높은 수준의 권한을 통해 사용자가 순위 전략을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * 의사 결정 관리 특정:
       * ranking_strategy.read
@@ -289,7 +292,7 @@ ht-degree: 0%
 <!--
 * **[!DNL Manage Experience decisions]** high-level permission allows users to read, create, edit, and delete Decisioning entities.
 
-  +++ It includes the following low-level permissions:  
+  +++ This role includes the following low-level permissions:  
 
   * Experience decisions specific:
     * ranking_strategy.read
@@ -310,7 +313,7 @@ ht-degree: 0%
 
 * **[!DNL Manage file routing]** 높은 수준의 사용 권한을 통해 사용자가 파일 라우팅 구성을 만들고 편집하고 삭제할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
    * Journey Optimizer 관련:
 
       * file_routing.read
@@ -321,7 +324,7 @@ ht-degree: 0%
 
 * **[!DNL Manage IP pools]** 높은 수준의 권한을 통해 사용자는 선호도 정의를 만들고 편집하고 삭제할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
    * Journey Optimizer 관련:
       * IP_pools.read
       * IP_pools.write
@@ -346,7 +349,7 @@ ht-degree: 0%
 
 * **[!DNL Manage messages general settings]** 높은 수준의 권한을 통해 사용자는 샌드박스 수준에서 전역 설정을 만들고 편집하고 삭제할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * messages_general_settings.read
@@ -409,7 +412,7 @@ ht-degree: 0%
 
 * **[!DNL Manage subdomains delegations]** 높은 수준의 권한을 통해 사용자는 하위 도메인 위임(IP 풀 포함)을 만들고 편집하고 삭제할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
    * Journey Optimizer 관련:
 
       * subdomains_delegation.read
@@ -420,7 +423,7 @@ ht-degree: 0%
 
 * **[!DNL Manage suppression]** 높은 수준의 사용 권한을 사용하면 비표시 목록에 이메일 주소를 추가하기 전에 반송 수를 정의하고 비표시 목록에 항목을 추가 및 삭제할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
    * Journey Optimizer 관련:
       * suppression_rules.read
       * suppression_rules.write
@@ -432,7 +435,7 @@ ht-degree: 0%
 
 * **[!DNL View file routing]** 높은 수준의 사용 권한을 통해 사용자가 파일 라우팅 구성을 볼 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
    * Journey Optimizer 관련:
 
       * file_routing.read
@@ -479,7 +482,7 @@ ht-degree: 0%
 ### [!DNL View channel configuration] permission {#view-channel-surface}
 
 The **[!DNL View channel configuration]** high-level permission allows users to view channel configurations in order to know which channel configurations to use. 
-  +++ It includes the following low-level permissions:  
+  +++ This role includes the following low-level permissions:  
 
 * messages_presets.read
 * subdomains_delegation.read
@@ -490,7 +493,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 * **[!DNL View suppression list]** 높은 수준의 사용 권한을 통해 사용자가 제외 목록 콘텐츠 및 설정을 볼 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 역할에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * suppression_list.view

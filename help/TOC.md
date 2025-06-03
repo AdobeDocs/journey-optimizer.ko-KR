@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 99%
+source-wordcount: '2394'
+ht-degree: 98%
 
 ---
 
@@ -768,14 +768,13 @@ ht-degree: 99%
       + [다른 샌드박스로 개체 내보내기](using/configuration/copy-objects-to-sandbox.md)
    + [소스 커넥터 구성](using/start/get-started-sources.md)
 + 액세스 제어 {#access-control}
-   + 액세스 제어 개요 {#privacy}
-      + [사용자 관리 시작](using/administration/permissions-overview.md)
-      + [기본 제공 역할](using/administration/ootb-product-profiles.md)
-      + [기본 제공 권한](using/administration/ootb-permissions.md)
-      + [권한 수준](using/administration/high-low-permissions.md)
+   + [액세스 제어 시작](using/administration/permissions-overview.md)
    + [사용자 및 역할 관리](using/administration/permissions.md)
+   + [기본 제공 역할](using/administration/ootb-product-profiles.md)
+   + [기본 제공 권한](using/administration/ootb-permissions.md)
+   + [권한 수준](using/administration/high-low-permissions.md)
    + [속성 기반 액세스 제어](using/administration/attribute-based-access.md)
-   + [오브젝트 수준 액세스 제어](using/administration/object-based-access.md)
+   + [객체 수준 액세스 제어](using/administration/object-based-access.md)
 + 개인 정보 보호 {#privacy}
    + [개인 정보 시작](using/privacy/get-started-privacy.md)
    + [개인 정보 요청](using/privacy/requests.md)
