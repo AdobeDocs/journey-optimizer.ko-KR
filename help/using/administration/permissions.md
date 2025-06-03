@@ -9,18 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 제품, 프로필, 샌드박스
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '710'
 ht-degree: 5%
 
 ---
 
 # 사용자 및 역할 관리 {#manage-permissions}
-
->[!IMPORTANT]
->
-> 아래에 설명된 각 절차는 **[!UICONTROL 제품]** 또는 **[!UICONTROL 시스템]** 관리자만 수행할 수 있습니다.
 
 **[!UICONTROL 역할]**&#x200B;은(는) 동일한 권한과 샌드박스를 공유하는 사용자 컬렉션을 참조합니다. 이러한 역할을 사용하면 조직 내의 다양한 사용자 그룹에 대한 액세스 및 권한을 쉽게 관리할 수 있습니다.
 
@@ -29,6 +25,12 @@ ht-degree: 5%
 사용자가 **[!UICONTROL 역할]**&#x200B;에 속해 있으면 제품에 포함된 Adobe 앱 및 서비스에 액세스할 수 있습니다.
 
 기존 역할이 조직의 특정 요구 사항에 맞지 않는 경우 사용자 지정 **[!UICONTROL 역할]**&#x200B;을 만들어 인터페이스의 특정 기능이나 개체에 대한 액세스를 미세 조정할 수도 있습니다. 이렇게 하면 각 사용자가 작업을 효율적으로 수행하는 데 필요한 리소스 및 도구에만 액세스할 수 있습니다.
+
+
+>[!IMPORTANT]
+>
+>아래에 설명된 단계 및 절차는 **[!UICONTROL 제품]** 또는 **[!UICONTROL 시스템]** 관리자만 수행할 수 있습니다.
+
 
 ## 역할 할당 {#assigning-role}
 
@@ -42,13 +44,13 @@ ht-degree: 5%
 
    ![](assets/do-not-localize/access_control_2.png)
 
-1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/do-not-localize/access_control_3.png)
 
 1. 사용자 이름 또는 전자 메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   사용자가 이전에 [!DNL Admin Console]에서 만들어지지 않은 경우 [사용자 추가 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=ko){target="_blank"}를 참조하세요.
+   사용자가 이전에 [!DNL Admin Console]에서 만들어지지 않은 경우 [사용자 추가 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}를 참조하세요.
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -62,13 +64,15 @@ ht-degree: 5%
 
 ## 기존 역할 편집 {#edit-product-profile}
 
-기본 제공 또는 사용자 지정 **[!UICONTROL 역할]**&#x200B;의 경우 언제든지 권한을 추가하거나 삭제할 것인지 결정할 수 있습니다.
+기본 제공 또는 사용자 지정 **[!UICONTROL 역할]**&#x200B;의 경우 언제든지 권한을 추가하거나 삭제하도록 결정할 수 있습니다.
 
-이 예제에서는 여정 뷰어 **[!UICONTROL 여정]**&#x200B;에 할당된 사용자의 **[!UICONTROL 역할]** 리소스와 관련된 **[!UICONTROL 권한]**&#x200B;을 추가하려고 합니다. 그러면 사용자는 여정을 게시할 수 있습니다.
+아래 예제에서는 여정 뷰어 **[!UICONTROL 여정]**&#x200B;에 할당된 사용자의 **[!UICONTROL 역할]** 리소스와 관련된 **[!UICONTROL 권한]**&#x200B;을 추가하려고 합니다. 그러면 사용자는 여정을 게시할 수 있습니다.
 
-기본 제공 또는 사용자 지정 **[!UICONTROL 역할]**&#x200B;을(를) 수정하는 경우 이 **[!UICONTROL 역할]**&#x200B;에 할당된 모든 사용자에게 영향을 줍니다.
+>[!IMPORTANT]
+>
+>기본 제공 또는 사용자 지정 역할에 대한 변경 사항은 해당 역할에 할당된 모든 사용자에게 영향을 줍니다.
 
-1. [!DNL Permissions] 제품에서 사용자에게 역할을 할당하려면 **[!UICONTROL 역할]** 탭으로 이동하여 원하는 역할을 선택합니다. 여정 뷰어 **[!UICONTROL 역할]**&#x200B;에 있습니다.
+1. [!DNL Permissions] 제품에서 역할을 편집하려면 **[!UICONTROL 역할]** 탭으로 이동하여 원하는 역할을 선택하십시오. 여정 뷰어 **[!UICONTROL 역할]**에서 선택하십시오.
    ![](assets/do-not-localize/access_control_5.png)
 
 1. **[!UICONTROL 역할]** 대시보드에서 **[!UICONTROL 편집]**&#x200B;을(를) 클릭합니다.
@@ -85,7 +89,7 @@ ht-degree: 5%
 
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
-필요한 경우 특정 권한을 가진 새 역할을 만들 수도 있습니다. 자세한 내용은 [새 역할 만들기](#create-product-profile)를 참조하세요.
+필요한 경우 특정 권한을 가진 새 역할을 만들 수도 있습니다.
 
 ## 새 역할 만들기 {#create-product-profile}
 
@@ -125,4 +129,4 @@ ht-degree: 5%
 
 이제 **[!UICONTROL 역할]**&#x200B;이 만들어지고 구성되었습니다. 이제 사용자에게 할당합니다.
 
-역할 만들기 및 관리에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=ko){target="_blank"}를 참조하세요.
+역할 만들기 및 관리에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}를 참조하세요.
