@@ -100,8 +100,8 @@ ht-degree: 19%
 >abstract="**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 **초안** 상태입니다. 이 조각을 변경할 경우 해당 조각을 게시하여 **라이브**&#x200B;로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. "
 
 <!--
->abstract="Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. If you make any change to these fragments, you need to publish them to make them **Live** and propagate the changes to the associated campaigns and journeys. You also need to create a new journey/campaign version and publish it. <br/>Publishing requires the <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publish Fragment</a> user permission."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Learn more about content fragments permissions"-->
+>abstract="Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. If you make any change to these fragments, you need to publish them to make them **Live** and propagate the changes to the associated campaigns and journeys. You also need to create a new journey/campaign version and publish it. <br/>Publishing requires the <a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publish Fragment</a> user permission."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Learn more about content fragments permissions"-->
 
 조각에는 여러 상태가 있을 수 있습니다.
 
