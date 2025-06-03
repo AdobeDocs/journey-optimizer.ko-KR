@@ -26,12 +26,12 @@ Decisioning을 사용하여 [코드 기반 경험](create-code-based.md)을(를)
 캠페인을 게시한 후 클라이언트 구현의 XDM 이벤트 `data` 블록에 `dryRun` 플래그를 추가하십시오.
 
     &quot;
-    {
-    &quot;data&quot;: {
-    &quot;__adobe&quot;: {
-    &quot;ajo&quot;: {
+    &lbrace;
+    &quot;data&quot;: &lbrace;
+    &quot;__adobe&quot;: &lbrace;
+    &quot;ajo&quot;: &lbrace;
     &quot;dryRun&quot;: true
-    }
+    &rbrace;
     
     
     
