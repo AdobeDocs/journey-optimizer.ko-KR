@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1236'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,10 @@ ht-degree: 5%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-### 중요 정보 {#important-notes-segment-qualification}
+### 가드레일 및 추천 사항 {#important-notes-segment-qualification}
+
+아래 보호 기능 및 권장 사항에 따라 대상 자격 여정을 작성하십시오. [대상 자격 모범 사례](#best-practices-segments)도 참조하세요.
+
 
 * 대상 자격 여정은 주로 스트리밍 대상으로 작동하도록 설계되었습니다. 이 조합은 더 나은 실시간 경험을 보장합니다. 대상 자격 활동에는 **스트리밍 대상**&#x200B;만 사용하는 것이 좋습니다.
 
@@ -55,7 +58,11 @@ ht-degree: 5%
 * 여정에서 **대상 자격** 활동을 사용하는 경우 해당 활동이 활성 상태가 되는 데 최대 10분이 소요될 수 있으며 대상에 들어오거나 나가는 프로필을 수신합니다.
 
 
-아래의 [대상 자격 모범 사례](#best-practices-segments)도 참조하세요.
+>[!CAUTION]
+>
+>[실시간 고객 프로필 데이터 및 세분화에 대한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}이 Adobe Journey Optimizer에도 적용됩니다.
+
+
 
 ### 활동 구성 {#configure-segment-qualification}
 
@@ -85,7 +92,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 
@@ -127,7 +134,7 @@ ht-degree: 5%
 
 스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트를 보내는 대신 비즈니스 규칙을 사용합니다. [자세히 알아보기](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
+스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
 
 ### 오버로드를 방지하는 방법 {#overloads-speed-segment-qualification}
 
@@ -147,4 +154,4 @@ ht-degree: 5%
 
 이 비디오에서 대상 자격 여정에 적용할 수 있는 사용 사례를 이해합니다. 대상 검증을 사용하여 여정을 구축하는 방법 및 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446211?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
