@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
+source-git-commit: 3e106b971f5ce301584869e85efeaeb941237ac8
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ ht-degree: 0%
 
 * **[!DNL Export suppression list]** 높은 수준의 권한을 통해 사용자가 비표시 목록을 CSV 파일로 다운로드할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * suppression_list.export
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 * **[!DNL Publish campaigns]** 높은 수준의 권한으로 사용자가 캠페인을 게시할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
 
@@ -334,7 +334,7 @@ ht-degree: 0%
 
 * **[!DNL Manage landing page settings]** 높은 수준의 권한을 통해 사용자가 랜딩 페이지 하위 도메인 및 사전 설정 설정을 읽고, 만들고, 편집할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
 
@@ -363,7 +363,7 @@ ht-degree: 0%
 
 * **[!DNL Manage messages presets]** 높은 수준의 권한을 통해 사용자는 샌드박스 수준의 채널 전체에서 채널 구성을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * messages_presets.read
@@ -379,7 +379,7 @@ ht-degree: 0%
 
 * **[!DNL Manage PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 읽고 편집할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * PTR_records.read
@@ -390,7 +390,7 @@ ht-degree: 0%
 
 * **[!DNL Manage Seedlist]** 높은 수준의 사용 권한을 통해 사용자가 Seedlist를 읽고 만들고 편집하고 삭제할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * seedlist.read
@@ -401,7 +401,7 @@ ht-degree: 0%
 
 * **[!DNL Manage SMS subdomains]** 고급 권한으로 사용자는 SMS 하위 도메인을 읽고, 만들고, 편집하고, 삭제할 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * sms_subdomains.read
@@ -444,7 +444,7 @@ ht-degree: 0%
 
 * **[!DNL View messages general settings]** 높은 수준의 사용 권한을 통해 사용자는 실행 주소와 같은 일반 설정 메시지를 볼 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * messages_general_settings.read
@@ -456,7 +456,7 @@ ht-degree: 0%
 
 * **[!DNL View messages presets]**&#x200B;개의 높은 수준 권한으로 사용자는 메시지 사전 설정을 볼 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
    * Journey Optimizer 관련:
       * messages_presets.read
@@ -470,7 +470,7 @@ ht-degree: 0%
 
 * **[!DNL View PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 볼 수 있습니다.
 
-+++ 여기에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
    * Journey Optimizer 관련:
 
       * PTR_records.read
@@ -509,7 +509,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
 
-  +++ It includes the following low-level permissions: 
+  +++ This permission includes the following low-level permissions: 
 -->
 
 ## AI 지원 리소스 {#ai-permissions}
