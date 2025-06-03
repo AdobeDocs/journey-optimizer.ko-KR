@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
 source-wordcount: '2398'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -54,8 +54,8 @@ ht-degree: 95%
       + [여정의 라이브 보고서](using/building-journeys/report-journey.md)
    + 여정 관리{#manage-journey}
       + [여정 검색 및 필터링](using/building-journeys/journey-ui.md)
-      + [여정의 프로필 시작](using/building-journeys/entry-management.md)
-      + [이벤트가 트리거된 여정의 보조 식별자](using/building-journeys/supplemental-identifier.md)
+      + [프로필의 여정 진입](using/building-journeys/entry-management.md)
+      + [이벤트 트리거 여정에 대한 보조 식별자](using/building-journeys/supplemental-identifier.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
       + [전송 시간 최적화](using/building-journeys/send-time-optimization.md)
       + [여정 끝내기](using/building-journeys/end-journey.md)
@@ -220,10 +220,10 @@ ht-degree: 95%
    + 콘텐츠 미리 보기 및 테스트 {#preview-test}
       + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
       + [테스트 프로필 선택](using/content-management/test-profiles.md)
-      + [테스트 프로필을 사용하여 미리 보기](using/content-management/preview.md)
-      + [테스트 프로필 데이터를 사용하여 증명 보내기](using/content-management/proofs.md)
+      + [테스트 프로필을 사용한 미리 보기](using/content-management/preview.md)
+      + [테스트 프로필 데이터를 사용한 증명 전송](using/content-management/proofs.md)
       + [이메일 렌더링 테스트](using/content-management/rendering.md)
-      + [콘텐츠 변형 시뮬레이션](using/test-approve/simulate-sample-input.md)
+      + [콘텐츠 베리에이션 시뮬레이션](using/test-approve/simulate-sample-input.md)
       + [이메일 스팸 보고서](using/content-management/spam-report.md)
    + 여정 및 캠페인 승인 {#approve}
       + [승인 시작](using/test-approve/gs-approval.md)
@@ -316,7 +316,7 @@ ht-degree: 95%
          + [가드레일 및 사전 요구 사항](using/code-based/code-based-prerequisites.md)
          + [코드 기반 경험 표면](using/code-based/code-based-surface.md)
          + [구현 방법 샘플](using/code-based/code-based-implementation-samples.md)
-         + [코드 기반 경험 구현에서의 의사 결정](using/code-based/code-based-decisioning-implementations.md)
+         + [코드 기반 경험 구현에서의 결정](using/code-based/code-based-decisioning-implementations.md)
          + [코드 기반 경험 구성 만들기](using/code-based/code-based-configuration.md)
       + 코드 기반 경험 만들기 {#create-code-based-experiences}
          + [코드 기반 경험 구축 및 구성](using/code-based/create-code-based.md)
@@ -395,13 +395,13 @@ ht-degree: 95%
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
-   + 솔루션 간 사용 사례 {#combine}
+   + 교차 솔루션 사용 사례 {#combine}
       + [솔루션을 결합하여 콘텐츠 관리](using/integrations/content-integrations.md)
       + [Experience Manager Assets 작업](using/integrations/assets.md)
       + [Adobe Stock 작업](using/integrations/stock.md)
       + [Adobe Express 작업](using/integrations/express.md)
       + [Experience Manager 템플릿 작업](using/integrations/aem-templates.md)
-      + [Experience Manager 컨텐츠 조각을 사용한 작업](using/integrations/aem-fragments.md)
+      + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
       + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
    + 콘텐츠 생성용 AI 어시스턴트{#ai-assistant}
@@ -544,7 +544,7 @@ ht-degree: 95%
       + 항목 선택 구성 {#selection}
          + [의사 결정 규칙 만들기](using/experience-decisioning/rules.md)
          + [등급 메서드 만들기](using/experience-decisioning/ranking.md)
-         + [AI 수식 빌더 사용](using/experience-decisioning/exd-ranking-formulas.md)
+         + [AI 공식 빌더 사용](using/experience-decisioning/exd-ranking-formulas.md)
          + [컨텍스트 데이터 활용](using/experience-decisioning/context-data.md)
       + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
       + [결정 정책 만들기](using/experience-decisioning/create-decision.md)
