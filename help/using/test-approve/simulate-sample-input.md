@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 콘텐츠 변형 시뮬레이션
+title: 콘텐츠 베리에이션 시뮬레이션
 description: CSV 또는 JSON 파일의 샘플 입력 데이터를 사용하거나 수동으로 추가하여 콘텐츠를 미리 보고 이메일 증명을 보내는 방법에 대해 알아봅니다.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 ---
 
-# 콘텐츠 변형 시뮬레이션 {#custom-profiles}
+# 콘텐츠 베리에이션 시뮬레이션 {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"

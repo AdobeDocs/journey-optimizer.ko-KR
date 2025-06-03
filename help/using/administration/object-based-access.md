@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 객체, 레벨, 액세스, 제어, 레이블, olac, 인증
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 5f0fbd71d5dd49bb192774db653db35763507df9
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 13%
 
 ---
@@ -53,7 +53,7 @@ OLAC(객체 수준 액세스 제어) 기능을 사용하면 객체 선택에 대
 
 레이블을 사용하여 사용자에게 액세스 권한을 제공하고 데이터 거버넌스 및 동의 정책을 시행합니다. 이러한 거버넌스 레이블은 다운스트림 소비에 영향을 줄 수 있습니다.
 
-[!DNL Permissions] 제품에서 레이블을 만들 수 있습니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=ko){target="_blank"}를 참조하세요.
+[!DNL Permissions] 제품에서 레이블을 만들 수 있습니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}를 참조하세요.
 
 Journey Optimizer에서 직접 **[!UICONTROL 레이블]**&#x200B;을 만들 수도 있습니다. 레이블을 만들려면 다음 단계를 수행합니다.
 
@@ -87,7 +87,7 @@ Journey Optimizer 개체에 사용자 지정 또는 핵심 데이터 사용 레�
 
 1. **[!UICONTROL 액세스 관리]** 창에서 이 개체에 대한 액세스를 관리할 사용자 지정 또는 핵심 데이터 사용 레이블을 선택합니다.
 
-   핵심 데이터 사용 레이블에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ko){target="_blank"}를 참조하세요.
+   핵심 데이터 사용 레이블에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html){target="_blank"}를 참조하세요.
 
    ![](assets/olac_4.png)
 
@@ -95,4 +95,4 @@ Journey Optimizer 개체에 사용자 지정 또는 핵심 데이터 사용 레�
 
 이 개체에 액세스하려면 사용자의 **[!UICONTROL 역할]**&#x200B;에 특정 **[!UICONTROL 레이블]**&#x200B;이 포함되어 있어야 합니다. 예를 들어 C1 레이블이 있는 사용자는 C1 레이블이 있거나 레이블이 지정되지 않은 개체에만 액세스할 수 있습니다.
 
-**[!UICONTROL 역할]**&#x200B;에 **[!UICONTROL 레이블]**&#x200B;을(를) 할당하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=ko#manage-labels-for-a-role){target="_blank"}를 참조하세요.
+**[!UICONTROL 역할]**&#x200B;에 **[!UICONTROL 레이블]**&#x200B;을(를) 할당하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}를 참조하세요.
