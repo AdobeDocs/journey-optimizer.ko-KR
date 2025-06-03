@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
+source-wordcount: '6783'
 ht-degree: 100%
 
 ---
@@ -1004,7 +1004,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
   >[!AVAILABILITY]
   >
-  >이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.
+  >이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.
 
 <!--
 **Audiences**
@@ -1266,7 +1266,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 **빈도 규칙**
 
-* 이제 이메일 및 푸시 외에도 SMS 및 DM 채널에 대한 빈도 규칙을 만들 수 있습니다. 빈도 규칙은 빈도 상한에 도달하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외합니다. [자세히 보기](../configuration/rule-sets.md)
+* 이제 이메일 및 푸시 외에도 SMS 및 DM 채널에 대한 빈도 규칙을 만들 수 있습니다. 빈도 규칙은 빈도 상한에 도달하면 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외합니다. [자세히 보기](../conflict-prioritization/rule-sets.md)
 
 <!--**Decision management**
 
@@ -1342,7 +1342,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 **빈도 규칙**
 
-* **주별 빈도 상한** - 이제 월별 외에 일주일 단위로 고객 프로필에 전송되는 최대 메시지 수를 지정할 수 있습니다. 빈도 캡은 선택된 캘린더 기간에 기반하고 대응하는 시간대가 시작될 때 재설정됩니다. [자세히 알아보기](../configuration/rule-sets.md)
+* **주별 빈도 상한** - 이제 월별 외에 일주일 단위로 고객 프로필에 전송되는 최대 메시지 수를 지정할 수 있습니다. 빈도 캡은 선택된 캘린더 기간에 기반하고 대응하는 시간대가 시작될 때 재설정됩니다. [자세히 알아보기](../conflict-prioritization/rule-sets.md)
 
   >[!NOTE]
   >

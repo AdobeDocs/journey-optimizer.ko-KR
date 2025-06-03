@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 88%
+source-wordcount: '1394'
+ht-degree: 89%
 
 ---
 
@@ -41,6 +41,28 @@ ht-degree: 88%
 </tbody>
 </table>
 
+&lt;<table>
+<thead>
+<tr>
+<th><strong>충돌 및 우선순위 지정</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담 주는 상황을 피하려면 캠페인과 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer에서 충돌 관리 및 우선순위 지정을 위한 몇 가지 도구를 제공합니다. 이전에는 제한된 액세스(LA) 조직에서만 사용할 수 있었지만 현재는 일반 가용성(GA)으로 사용할 수 있습니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다. 이번 일반 가용성 릴리스에서는 다음과 같은 개선 사항이 도입되었습니다.</p>
+<ul>
+<li>지원 확대: 이제 충돌 관리 도구가 대상자 읽기 여정 외에도 단일 여정 및 대상자 선별 여정을 모두 지원합니다.</li>
+<li>문제 해결 개선: 이제 쿼리 서비스에서 두 개의 새로운 단계 이벤트 필드를 사용하여 여정 또는 캠페인에서 프로필이 거부된 이유를 분석할 수 있습니다.</li>
+<li>보고 기능 향상: 이제 보고서에 여정 또는 캠페인에서 특정 프로필을 제외한 규칙이 명시되어 투명도가 향상되고 실행 가능한 인사이트를 얻을 수 있습니다.</li></ul>
+<img src="assets/do-not-localize/gif-conflict.gif">
+<p>자세한 내용은 <a href="../conflict-prioritization/gs-conflict-prioritization.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 6월 3일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 25년 5월 릴리스 정보 {#25-5-rn}
 
@@ -229,30 +251,6 @@ ht-degree: 88%
 </tr>
 </tbody>
 </table>
-
-<!--<table>
-<thead>
-<tr>
-<th><strong>Conflict & prioritization</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>In Journey Optimizer, managing the volume and timing of campaigns and journeys is essential to avoid overwhelming customers with too many interactions. Journey Optimizer now offers several tools for conflict management and prioritization - previously available only to limited-access (LA) organizations - that are now generally available (GA).</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments. With this General Availability release, the following enhancements have been introduced:</p>
-<ul>
-<li>Expanded Support: Conflict management tools now support both Unitary Journeys and Audience Qualification Journeys, in addition to Read audience journeys.</li>
-<li>Improved Troubleshooting: Two new step event fields are now available in the Query Service, enabling you to analyze why a profile was rejected from a journey or campaign.</li>
-<li>Enhanced Reporting: Reports now indicate which specific rule excluded a profile from a journey or campaign, providing greater transparency and actionable insights.</li></ul>
-<img src="assets/do-not-localize/gif-conflict.gif">
-<p>For more information, refer to the <a href="../conflict-prioritization/gs-conflict-prioritization.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-
 
 ### 개선 사항 {#25-05-improv}
 

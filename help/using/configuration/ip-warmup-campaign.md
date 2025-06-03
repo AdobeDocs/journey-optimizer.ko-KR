@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, 풀, 전달성
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -57,7 +57,7 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
    >[!IMPORTANT]
    >
-   >IP 준비 캠페인에 허용된 대상은 [세그먼트 기반](../audience/creating-a-segment-definition.md)이어야 하며 [기본 병합 정책](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}을(를) 사용하여 만들어야 합니다.
+   >IP 준비 캠페인에 허용된 대상은 [세그먼트 기반](../audience/creating-a-segment-definition.md)이어야 하며 [기본 병합 정책](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}을(를) 사용하여 만들어야 합니다.
 
    캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
@@ -65,7 +65,7 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >[비즈니스 규칙](../configuration/rule-sets.md#apply-frequency-rule)은(는) IP 준비 계획에 사용할 수 없습니다. 이러한 규칙을 적용하면 캠페인에 대해 원하는 수의 타겟팅된 프로필에 도달하지 못할 수 있습니다.
+   >[비즈니스 규칙](../conflict-prioritization/rule-sets.md#apply-frequency-rule)은(는) IP 준비 계획에 사용할 수 없습니다. 이러한 규칙을 적용하면 캠페인에 대해 원하는 수의 타겟팅된 프로필에 도달하지 못할 수 있습니다.
 
    IP 준비 계획이 활성화된 라이브 캠페인의 경우 **[!UICONTROL 삭제]** 단추를 IP 준비 계획과 연결할 때까지 사용할 수 있습니다. 플랜에 사용된 후에는 캠페인을 더 이상 삭제할 수 없습니다.
 
