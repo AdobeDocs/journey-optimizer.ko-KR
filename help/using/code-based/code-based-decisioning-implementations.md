@@ -5,17 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
-# 코드 기반 경험 구현에서의 의사 결정
+# 코드 기반 경험 구현에서의 결정
 
 코드 기반 경험에서 Decisioning을 사용할 때 아래에 설명된 경우 클라이언트 구현에 다음 플래그를 추가하는 것이 좋습니다.
 
@@ -28,12 +26,12 @@ Decisioning을 사용하여 [코드 기반 경험](create-code-based.md)을(를)
 캠페인을 게시한 후 클라이언트 구현의 XDM 이벤트 `data` 블록에 `dryRun` 플래그를 추가하십시오.
 
     &quot;
-    &lbrace;
-    &quot;data&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;data&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
+    }
     
     
     
@@ -46,7 +44,7 @@ Decisioning을 사용하여 [코드 기반 경험](create-code-based.md)을(를)
 
 ## 코드 기반 구현에서 의사 결정 항목 중복 제거 {#code-based-decisioning-deduplication}
 
-코드 기반 환경에서 [의사 결정 정책](../experience-decisioning/create-decision.md)을 사용할 때 클라이언트 구현에서 의사 결정 요청에 중복 제거를 적용하는 방법을 알아봅니다.
+코드 기반 환경에서 [의사 결정 정책](../experience-decisioning/create-decision.md)을 사용할 때 클라이언트 구현에서 의사 결정 요청에 중복 제거를 적용할 수 있습니다.
 
 의사 결정 요청(콘덕터를 통해)은 중복 제거 플래그를 허용하며, 이 플래그는 여러 의사 결정 정책 또는 배치로 구성된 단일 요청에서 의사 결정 항목의 고유성을 처리합니다.
 
