@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 20%
 
 ---
 
-# [!DNL Journey Optimizer] 결정 기능 시작 {#gs-decision}
+# [!DNL Journey Optimizer]에서 의사 결정 기능 시작 {#gs-decision}
 
 [!DNL Journey Optimizer]의 의사 결정 기능을 통해 모든 접점에서 고객에게 최적의 오퍼와 개인화된 경험을 적시에 제공할 수 있습니다. 이러한 기능은 중앙 집중식 마케팅 오퍼 카탈로그 및 규칙 및 등급 기준을 사용하여 각 개인에게 가장 적합한 콘텐츠를 제공하는 고급 의사 결정 엔진을 통해 개인화를 간소화합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 20%
 
 현재 Experience Decisioning은 코드 기반 경험 채널에서 지원됩니다.
 
-➡️0&rbrace;의사 결정 시작[&#128279;](../experience-decisioning/gs-experience-decisioning.md)
+➡️ [의사 결정 시작](../experience-decisioning/gs-experience-decisioning.md)
 
 ## 의사 결정 관리 {#decision-management}
 
@@ -48,4 +48,4 @@ Journey Optimizer에서 확립된 기능인 의사 결정 관리는 마케팅 �
 
 의사 결정 관리는 현재 이메일, 인앱 메시지, 푸시 알림 및 SMS의 네 가지 채널을 지원합니다.
 
-➡️0&rbrace;의사 결정 관리 시작[&#128279;](../offers/get-started/starting-offer-decisioning.md)
+➡️ [의사 결정 관리 시작](../offers/get-started/starting-offer-decisioning.md)
