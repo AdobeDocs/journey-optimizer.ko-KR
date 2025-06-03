@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 * **높은 수준의 권한**: **[!DNL Publish journeys]** 및 **[!DNL Manage subdomains delegation]**&#x200B;과(와) 같이 **[!UICONTROL 역할]**&#x200B;에 할당할 수 있는 다양한 권한을 나타냅니다. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다. 높은 수준의 사용 권한이 [이 페이지](ootb-permissions.md)에 자세히 설명되어 있습니다.
 
-* **낮은 수준의 사용 권한**: 높은 수준의 사용 권한에서 가져온 다양한 사용 권한을 나타냅니다.
+* **낮은 수준의 권한**: 높은 수준의 권한에서 제공되는 다양한 권한을 나타냅니다.
 
 예를 들어 **[!DNL Journey administrator]** 역할에는 **[!DNL Manage journeys]** 권한이 할당됩니다. 이 권한으로 인해 여정 관리자가 여정을 작성, 읽기 및 삭제할 수 있는 낮은 수준의 권한이 생깁니다.
 
