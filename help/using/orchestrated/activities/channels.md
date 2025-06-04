@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 44%
@@ -26,7 +26,7 @@ ht-degree: 44%
 
 +++
 
-<br/><br/>
+<br/>
 
 Adobe Journey Optimizer을 사용하면 인바운드 및 아웃바운드 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터를 기반으로 작업을 트리거할 수 있는 크로스 채널 오케스트레이션된 캠페인을 만들 수 있습니다. 지원되는 채널은 [이 페이지](../../channels/gs-channels.md)에 나열됩니다.
 

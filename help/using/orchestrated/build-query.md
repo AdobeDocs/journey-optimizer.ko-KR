@@ -6,13 +6,13 @@ description: 오케스트레이션된 캠페인에 대한 쿼리를 만드는 �
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
 
 ---
-
 
 # 오케스트레이션된 캠페인에 대한 쿼리 만들기 {#orchestrated-create-queries}
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 +++
 
-<br/><br/>
+<br/>
 
 >[!BEGINSHADEBOX]
 

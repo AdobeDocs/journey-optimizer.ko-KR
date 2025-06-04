@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 +++
 
-<br/><br/>
+<br/>
 
 [오케스트레이션된 캠페인을 만들었다면](gs-campaign-creation.md) 오케스트레이션된 캠페인 메뉴에서 또는 캠페인 내에서 수행할 다양한 작업을 오케스트레이션할 수 있습니다. 이를 위해 오케스트레이션된 캠페인 다이어그램을 구성할 수 있는 시각적 캔버스가 제공됩니다. 이 다이어그램 내에서 다양한 활동을 추가하고 순차적 순서로 연결할 수 있습니다.
 

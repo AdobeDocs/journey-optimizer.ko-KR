@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 44%
@@ -31,7 +31,7 @@ ht-degree: 44%
 
 +++
 
-<br/><br/>
+<br/>
 
 마케터는 사용자 친화적인 인터페이스를 사용하여 복잡한 쿼리를 쉽게 만들 수 있으므로 광범위한 기준과 동작을 기반으로 대상을 세그먼트화하여 캠페인을 보다 효과적으로 조정할 수 있습니다.
 

@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 19%
@@ -36,7 +36,7 @@ ht-degree: 19%
 
 +++
 
-<br/><br/>
+<br/>
 
 마케터는 오케스트레이션된 캠페인 내에서 한 엔티티에서 다른 연결된 엔티티로 타겟팅 차원을 전환하고, 다른 데이터 세트를 기반으로 대상 타겟팅을 세분화할 수 있습니다(예: 프로필 사용자에서 특정 작업 또는 예약을 타겟팅하는 방식으로 이동).
 

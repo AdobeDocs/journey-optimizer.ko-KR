@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 75%
@@ -31,7 +31,7 @@ ht-degree: 75%
 
 +++
 
-<br/><br/>
+<br/>
 
 **분할** 활동은 필터링 규칙 또는 모집단 크기와 같은 다양한 선택 기준에 따라 수신 모집단을 여러 하위 집합으로 세그먼트화할 수 있는 **타겟팅** 활동입니다.
 
