@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: b240d815826cd87b40cf0ed7dde9c9a28822dcba
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -79,8 +79,6 @@ ht-degree: 1%
 * 활동의 **로그 및 작업**&#x200B;에 액세스합니다.
 
 **결합** 또는 **중복 제거**&#x200B;와 같은 여러 **타깃팅** 활동을 사용하면 나머지 모집단을 처리하고 추가 아웃바운드 전환에 포함할 수 있습니다. 예를 들어, **Split** 활동을 사용하는 경우, 보수는 이전에 정의된 하위 집합과 일치하지 않는 모집단으로 구성됩니다. 이 기능을 사용하려면 **보조 항목 생성** 옵션을 활성화하세요.
-
-![](assets/workflow-split-complement.png)
 
 ## 활동 이동 또는 복사 {#move-copy}
 
