@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 54d8b2fb-745d-459c-85d6-c224aa5e352e
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 4ba945e8213c9cc2e07ede8fe7f1b435cf942ff7
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 6%
@@ -33,4 +33,5 @@ ht-degree: 6%
 설명서 진행 중
 
 >[!ENDSHADEBOX]
->캠페인 관리자는 사전 정의된 내부 검토자 목록에 개인화된 메시지의 **증명 버전**&#x200B;을 전송하여 모든 콘텐츠, 개인화 및 링크가 본격적인 시작 전에 예상대로 작동하도록 할 수 있습니다.
+
+캠페인 관리자는 미리 정의된 내부 검토자 목록에 개인화된 메시지의 **증명 버전**&#x200B;을 전송하여 모든 콘텐츠, 개인화 및 링크가 본격적인 시작 전에 예상대로 작동하도록 할 수 있습니다.
