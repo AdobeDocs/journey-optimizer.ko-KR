@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: c46c202d68613f08e2d2b23ea882fb6561669b08
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 36%
@@ -25,7 +25,7 @@ ht-degree: 36%
 
 | 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
-| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](send-messages.md)<br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [쿼리 Modeler 작업](orchestrated-query-modeler.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[및 가입](activities/and-join.md) - [대상 작성](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
+| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](../configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](../gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](../send-messages.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [쿼리 Modeler 작업](../orchestrated-query-modeler.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[및 가입](and-join.md) - [대상 작성](build-audience.md) - [차원 변경](change-dimension.md) - [결합](combine.md) - [중복 제거](/deduplication.md) - [데이터 보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [분할](split.md) - [대기](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -184,7 +184,7 @@ ht-degree: 36%
 
 오케스트레이션된 캠페인 내에서, 게재에서 데이터 보강 활동에서 얻은 오퍼를 사용하려면 아래 단계를 따르십시오.
 
-1. 게재 활동을 열고 컨텐츠 에디션으로 이동합니다. **[!UICONTROL 오퍼 설정]** 단추를 클릭하고 드롭다운 목록에서 오퍼에 해당하는 **[!UICONTROL 오퍼 공간]**&#x200B;을 선택합니다.
+1. 게재 활동을 열고 컨텐츠 에디션으로 이동합니다. **[!UICONTROL 오퍼 설정]** 단추를 클릭하고 드롭다운 목록에서 오퍼에 해당하는 **[!UICONTROL 오퍼 공간]**을 선택합니다.
 데이터 보강 활동의 오퍼만 보려면 **[!UICONTROL 제안]**&#x200B;의 수를 0으로 설정하고 수정 사항을 저장하십시오.
 
    ![](../assets/offers-settings.png)
