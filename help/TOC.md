@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
 workflow-type: tm+mt
-source-wordcount: '2406'
-ht-degree: 98%
+source-wordcount: '2411'
+ht-degree: 96%
 
 ---
 
@@ -175,36 +175,33 @@ ht-degree: 98%
          + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
          + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
-   + [오케스트레이션된 캠페인 시작](using/ms/gs-ms-campaigns.md)
-   + [핵심 원칙](using/ms/gs-campaign-creation.md)
-   + [오케스트레이션된 캠페인을 만드는 단계](using/ms/gs-campaign-steps.md)
-   + 구성 단계 {#ms-config}
-      + [관계 스키마 만들기](using/ms/ms-schemas.md)
-   + 만들기 단계{#create-ms-campaign}
-      + [오케스트레이션된 캠페인 만들기](using/ms/create-ms-campaign.md)
-      + [캠페인 설정 구성](using/ms/ms-campaign-settings.md)
-      + [캠페인 예약 및 시작](using/ms/start-monitor-campaigns.md)
-      + [쿼리 작성](using/ms/ms-query-modeler.md)
-   + 활동 {#design-campaigns}
-      + [활동 시작](using/ms/activities/about-activities.md)
-      + [활동 오케스트레이션](using/ms/orchestrate-activities.md)
-      + [AND-가입](using/ms/activities/and-join.md)
-      + [대상자 빌드](using/ms/activities/build-audience.md)
-      + [차원 변경](using/ms/activities/change-dimension.md)
-      + [결합](using/ms/activities/combine.md)
-      + [중복 제거](using/ms/activities/deduplication.md)
-      + [보강](using/ms/activities/enrichment.md)
-      + [포크](using/ms/activities/fork.md)
-      + [조정](using/ms/activities/reconciliation.md)
-      + [분할](using/ms/activities/split.md)
-      + [테스트](using/ms/activities/test.md)
-      + [대기](using/ms/activities/wait.md)
-   + 메시지 {#messages}
-      + [채널 작업](using/ms/activities/channels.md)
-      + [콘텐츠 개인화](using/ms/ms-personalization.md)
-      + [메시지 테스트 및 유효성 검사](using/ms/ms-proofs.md)
-   + 보고 및 모니터링 {#report}
-      + [보고](using/ms/reporting-campaigns.md)
+   + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
+   + [구성 단계](using/orchestrated/configuration-steps.md)
+   + [오케스트레이션된 캠페인 생성을 위한 주요 단계](using/orchestrated/gs-campaign-creation.md)
+   + 오케스트레이션된 첫 번째 캠페인 시작{#launch}
+      + [오케스트레이션된 캠페인 만들기](using/orchestrated/create-orchestrated-campaign.md)
+      + [활동 오케스트레이션](using/orchestrated/orchestrate-activities.md)
+      + [오케스트레이션된 캠페인으로 메시지 보내기](using/orchestrated/send-messages.md)
+      + [캠페인 시작 및 모니터링](using/orchestrated/start-monitor-campaigns.md)
+      + [보고](using/orchestrated/reporting-campaigns.md)
+   + 데이터베이스 쿼리 {#query-database}
+      + [쿼리 Modeler 작업](using/orchestrated/orchestrated-query-modeler.md)
+      + [첫 번째 쿼리 작성](using/orchestrated/build-query.md)
+      + [표현식 편집](using/orchestrated/edit-expressions.md)
+   + 오케스트레이션된 캠페인 활동 {#design-campaigns}
+      + [활동 시작](using/orchestrated/activities/about-activities.md)
+      + [AND-가입](using/orchestrated/activities/and-join.md)
+      + [대상자 빌드](using/orchestrated/activities/build-audience.md)
+      + [차원 변경](using/orchestrated/activities/change-dimension.md)
+      + [결합](using/orchestrated/activities/combine.md)
+      + [중복 제거](using/orchestrated/activities/deduplication.md)
+      + [보강](using/orchestrated/activities/enrichment.md)
+      + [포크](using/orchestrated/activities/fork.md)
+      + [조정](using/orchestrated/activities/reconciliation.md)
+      + [분할](using/orchestrated/activities/split.md)
+      + [테스트](using/orchestrated/activities/test.md)
+      + [대기](using/orchestrated/activities/wait.md)
+      + [채널 활동](using/orchestrated/activities/channels.md)
 + 캠페인 {#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)

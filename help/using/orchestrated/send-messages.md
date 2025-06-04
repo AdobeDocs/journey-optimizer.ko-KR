@@ -1,0 +1,33 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: 오케스트레이션된 캠페인으로 메시지 보내기
+description: Adobe Journey Optimizer에서 오케스트레이션된 캠페인을 사용하여 메시지를 삭제하는 방법을 알아봅니다.
+badge: label="Alpha"
+hide: true
+hidefromtoc: true
+source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 3%
+
+---
+
+
+# 오케스트레이션된 캠페인으로 메시지 보내기 {#send-messages}
+
++++ 목차
+
+| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
+|---|---|---|---|
+| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](send-messages.md)<br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [쿼리 Modeler 작업](orchestrated-query-modeler.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[및 가입](activities/and-join.md) - [대상 작성](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
+
+{style="table-layout:fixed"}
+
++++
+
+*진행 중*
+
+<!--- done via channel activities:  link to the activities section
+- sub-sections for each capability related to messages : experimentation, personalization, simulation, multilingue, ... with links to AJO docs sections for detailed information-->
+
