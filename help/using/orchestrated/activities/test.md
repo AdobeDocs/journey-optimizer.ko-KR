@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 32%
+source-wordcount: '452'
+ht-degree: 27%
 
 ---
 
@@ -25,6 +25,18 @@ ht-degree: 32%
 >id="ajo_orchestration_test_conditions"
 >title="조건"
 >abstract="**테스트** 활동에는 여러 개의 출력 전환이 있을 수 있습니다. 오케스트레이션된 캠페인 실행 중에 각 조건은 조건 중 하나가 충족될 때까지 순차적으로 테스트됩니다. 어떤 조건도 충족되지 않으면 오케스트레이션된 캠페인은 **[!UICONTROL 기본 조건]** 경로를 따라 계속됩니다. 기본 조건이 활성화되어 있지 않으면 오케스트레이션된 캠페인은 이 지점에서 멈춥니다."
+
++++ 목차
+
+| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
+|---|---|---|---|
+| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](send-messages.md)<br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [쿼리 Modeler 작업](orchestrated-query-modeler.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[및 가입](activities/and-join.md) - [대상 작성](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
+
+{style="table-layout:fixed"}
+
++++
+
+<br/><br/>
 
 **테스트** 활동은 **플로우 제어** 활동입니다. 이를 통해 지정된 조건에 따라 전환을 활성화할 수 있습니다.
 

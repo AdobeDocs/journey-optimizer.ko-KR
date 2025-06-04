@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 17%
@@ -16,6 +16,11 @@ ht-degree: 17%
 
 
 # 오케스트레이션된 캠페인 만들기 {#create-first-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_creation_workflow"
+>title="오케스트레이션된 캠페인 목록"
+>abstract="**다단계** 탭에는 모든 오케스트레이션된 캠페인이 나열됩니다. 오케스트레이션된 캠페인의 이름을 클릭하여 편집할 수 있습니다. 오케스트레이션된 새 캠페인을 추가하려면 **오케스트레이션된 캠페인 만들기** 버튼을 사용합니다."
 
 +++ 목차
 
@@ -27,10 +32,7 @@ ht-degree: 17%
 
 +++
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_creation_workflow"
->title="오케스트레이션된 캠페인 목록"
->abstract="**다단계** 탭에는 모든 오케스트레이션된 캠페인이 나열됩니다. 오케스트레이션된 캠페인의 이름을 클릭하여 편집할 수 있습니다. 오케스트레이션된 새 캠페인을 추가하려면 **오케스트레이션된 캠페인 만들기** 버튼을 사용합니다."
+<br/><br/>
 
 ## 캠페인 만들기
 

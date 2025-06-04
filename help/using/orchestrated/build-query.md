@@ -6,10 +6,10 @@ description: 오케스트레이션된 캠페인에 대한 쿼리를 만드는 �
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 4%
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 4%
 
 +++
 
-*진행 중*
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+설명서 진행 중
+
+>[!ENDSHADEBOX]
 
 <!--rapatrier docs utiles de la doc Web UI -->

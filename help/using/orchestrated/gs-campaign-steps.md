@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4465a69e-5b35-4580-a19d-af66f49f269f
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 3%
@@ -25,6 +25,8 @@ ht-degree: 3%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 * 오케스트레이션된 캠페인에 액세스하고, 캠페인 목록을 탐색하고, 태그를 추가하고, 빠른 작업을 탐색합니다. 자세히 알아보기
 * 스키마 만들기/확장, 데이터 세트 설정, 데이터 수집 구성
