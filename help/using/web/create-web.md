@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '1543'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -158,7 +158,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
 >title="다른 URL로 리디렉션"
->abstract="페이지 방문자를 리디렉션할 기존 URL을 입력합니다."
+>abstract="페이지 방문자를 리디렉션할 기존 URL을 입력하십시오."
 
 웹 경험을 만들 때 웹 디자이너에서 새로운 변형을 작성하는 대신 방문자를 다른 기존 URL로 리디렉션할 수 있습니다.
 
@@ -266,4 +266,4 @@ ht-degree: 16%
 
 아래 비디오에서는 웹 캠페인을 만들고, 속성을 구성하고, 검토하고, 게시하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449988/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
