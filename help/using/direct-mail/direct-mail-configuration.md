@@ -54,7 +54,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="파일의 서버 유형 선택"
->abstract="DM 파일을 내보내기 위해 사용할 서버 유형(예: Amazon S3, SFTP, Azure, 또는 데이터 랜딩 구역)을 선택합니다."
+>abstract="DM 파일을 내보내기 위해 사용할 서버 유형(예: Amazon S3, SFTP, Azure 또는 데이터 랜딩 구역)을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
@@ -145,7 +145,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
+[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
 
 >[!ENDTABS]
 
