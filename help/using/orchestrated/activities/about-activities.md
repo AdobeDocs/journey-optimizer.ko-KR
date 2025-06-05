@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 457445e1c5f3e5819b484a26e9944f1295726d1e
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 27%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 27%
 
 | 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
-| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](../configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](../gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](../send-messages.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [쿼리 Modeler 작업](../orchestrated-query-modeler.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[및 가입](and-join.md) - [대상 작성](build-audience.md) - [차원 변경](change-dimension.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [데이터 보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [분할](split.md) - [대기](wait.md) |
+| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](../configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](../gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](../send-messages.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [쿼리 Modeler 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[및 가입](and-join.md) - [대상 작성](build-audience.md) - [차원 변경](change-dimension.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [데이터 보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [분할](split.md) - [대기](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -36,7 +36,7 @@ ht-degree: 27%
 * [채널 활동](#channel)
 * [흐름 제어 활동](#flow-control)
 
-![캔버스에서 사용 가능한 활동 목록](../assets/workflow-activities.png){width="80%" align="left"}
+![캔버스에서 사용 가능한 활동 목록](../assets/orchestrated-activities.png){width="80%" align="left"}
 
 ## 타겟팅 활동 {#targeting}
 
@@ -54,7 +54,7 @@ ht-degree: 27%
 
 ## 채널 활동 {#channel}
 
-Adobe Journey Optimizer을 사용하면 여러 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 캔버스에 결합하여 고객 행동에 따라 작업을 트리거할 수 있는 크로스 채널 오케스트레이션된 캠페인을 만들 수 있습니다. 전자 메일, SMS, Android 및 iOS 푸시 알림과 같은 **채널** 활동을 사용할 수 있습니다. [오케스트레이션된 캠페인의 컨텍스트에서 채널 작업을 만드는 방법을 알아봅니다](channels.md).
+Adobe Journey Optimizer을 사용하면 여러 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 캔버스에 결합하여 고객 행동에 따라 작업을 트리거할 수 있는 크로스 채널 오케스트레이션된 캠페인을 만들 수 있습니다. 다음 **채널** 활동을 사용할 수 있습니다. 전자 메일 및 SMS. [오케스트레이션된 캠페인의 컨텍스트에서 채널 작업을 만드는 방법을 알아봅니다](channels.md).
 
 ## 흐름 제어 활동 {#flow-control}
 
@@ -69,8 +69,8 @@ Adobe Journey Optimizer을 사용하면 여러 채널에서 마케팅 캠페인�
 
 * [And-join](and-join.md): 오케스트레이션된 캠페인의 여러 실행 분기를 동기화합니다.
 * [포크](fork.md): 동시에 여러 활동을 시작하는 아웃바운드 전환을 만듭니다.
-  <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 * [대기](wait.md): 오케스트레이션된 캠페인의 일부 실행을 잠시 중단합니다.
+  <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 
 >[!NOTE]
 >**End** 활동은 오케스트레이션된 캠페인의 끝을 그래픽으로 표시합니다. 이 활동은 기능에 영향을 주지 않으므로 선택 사항입니다

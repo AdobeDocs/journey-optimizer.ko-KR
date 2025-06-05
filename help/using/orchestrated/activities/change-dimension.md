@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 457445e1c5f3e5819b484a26e9944f1295726d1e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 19%
+source-wordcount: '397'
+ht-degree: 20%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 19%
 
 | 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
-| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](../configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](../gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](../send-messages.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [쿼리 Modeler 작업](../orchestrated-query-modeler.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[및 가입](and-join.md) - [대상 작성](build-audience.md) - [차원 변경](change-dimension.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [데이터 보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [분할](split.md) - [대기](wait.md) |
+| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](../configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](../gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](../send-messages.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [쿼리 Modeler 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[및 가입](and-join.md) - [대상 작성](build-audience.md) - [차원 변경](change-dimension.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [데이터 보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [분할](split.md) - [대기](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -38,11 +38,11 @@ ht-degree: 19%
 
 <br/>
 
-마케터는 오케스트레이션된 캠페인 내에서 한 엔티티에서 다른 연결된 엔티티로 타겟팅 차원을 전환하고, 다른 데이터 세트를 기반으로 대상 타겟팅을 세분화할 수 있습니다(예: 프로필 사용자에서 특정 작업 또는 예약을 타겟팅하는 방식으로 이동).
+마케터는 오케스트레이션된 캠페인 내에서 한 데이터 엔티티에서 다른 연결된 엔티티로 전환하여 대상 타깃팅을 세분화할 수 있습니다. 이를 통해 사용자 프로필 타기팅에서 구매, 예약 또는 기타 상호 작용과 같은 특정 작업에 집중하도록 이동할 수 있습니다.
 
-이 작업을 수행하려면 **차원 변경** 타깃팅 활동을 사용하십시오. 이 활동을 사용하면 오케스트레이션된 캠페인을 구축할 때 타겟팅 차원을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축을 이동합니다.
+이렇게 하려면 **[!UICONTROL 차원 변경]** 활동을 사용하십시오. 데이터 모델 및 입력 차원의 구조에 따라 오케스트레이션된 캠페인 동안 타깃팅 차원을 변경할 수 있습니다.
 
-예를 들어 오케스트레이션된 캠페인의 타겟팅 차원을 &quot;프로필&quot;에서 &quot;계약&quot;으로 전환하여 타겟팅된 계약 소유자에게 메시지를 보낼 수 있습니다.
+예를 들어 선택한 대상자와 연결된 계약 소유자에게 직접 메시지를 보내기 위해 타겟팅 차원을 **프로필**&#x200B;에서 **계약**(으)로 이동할 수 있습니다.
 
 <!--
 >[!IMPORTANT]
@@ -63,8 +63,10 @@ ht-degree: 19%
 
 ## 예 {#example}
 
-이 예제에서는 구매한 모든 프로필에 SMS 게재를 전송하려고 합니다. 이렇게 하려면 먼저 사용자 지정 &quot;구매&quot; 타겟팅 차원에 연결된 **[!UICONTROL 대상자 작성]** 활동을 사용하여 발생한 모든 구매를 타겟팅합니다.
+이 사용 사례에는 지난 달에 위시리스트를 만든 프로필에 SMS를 전송하는 작업이 포함됩니다.
 
-그런 다음 **[!UICONTROL 차원 변경]** 활동을 사용하여 오케스트레이션된 캠페인 타기팅 차원을 &quot;수신자&quot;로 전환합니다. 이를 통해 쿼리와 일치하는 수신자를 타겟팅할 수 있습니다.
+**위시리스트** 타겟팅 차원을 사용하여 **[!UICONTROL 대상자 빌드]** 활동으로 시작하여 관련된 모든 위시리스트를 선택하십시오.
+
+다음으로 **[!UICONTROL 차원 변경]** 활동을 삽입하여 **위시리스트**&#x200B;에서 **수신자**(으)로 타겟팅 차원을 전환합니다. 이렇게 하면 오케스트레이션된 캠페인에서 해당 위시리스트와 연결된 프로필에 SMS를 보낼 수 있습니다.
 
 ![](../assets/change-dimension-example.png)

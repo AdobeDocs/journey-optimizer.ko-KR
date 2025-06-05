@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
 workflow-type: tm+mt
 source-wordcount: '2411'
 ht-degree: 96%
@@ -185,7 +185,7 @@ ht-degree: 96%
       + [캠페인 시작 및 모니터링](using/orchestrated/start-monitor-campaigns.md)
       + [보고](using/orchestrated/reporting-campaigns.md)
    + 데이터베이스 쿼리 {#query-database}
-      + [쿼리 Modeler 작업](using/orchestrated/orchestrated-query-modeler.md)
+      + [규칙 빌더로 작업](using/orchestrated/orchestrated-rule-builder.md)
       + [첫 번째 쿼리 작성](using/orchestrated/build-query.md)
       + [표현식 편집](using/orchestrated/edit-expressions.md)
    + 오케스트레이션된 캠페인 활동 {#design-campaigns}
@@ -733,7 +733,7 @@ ht-degree: 96%
    + [실행 주소 변경](using/configuration/primary-email-addresses.md)
    + [비즈니스 규칙 구성](using/configuration/frequency-rules.md)
 + 여정 구성 {#configure-journeys}
-   + [데이터 소스, 이벤트, 작업 구성](using/configuration/about-data-sources-events-actions.md)
+   + [데이터 소스, 이벤트 및 액션 구성](using/configuration/about-data-sources-events-actions.md)
    + 이벤트 구성 {#events-journeys}
       + [여정 이벤트 작업](using/event/about-events.md)
       + [단일 이벤트 구성](using/event/about-creating.md)
@@ -747,7 +747,7 @@ ht-degree: 96%
       + [Adobe Experience Platform 데이터 소스](using/datasource/adobe-experience-platform-data-source.md)
       + [외부 데이터 소스](using/datasource/external-data-sources.md)
    + 액션 구성 {#action-journeys}
-      + [사용자 정의 작업 시작](using/action/action.md)
+      + [사용자 정의 액션 시작](using/action/action.md)
       + [사용자 정의 작업 구성](using/action/about-custom-action-configuration.md)
       + [사용자 정의 작업 문제 해결](using/action/troubleshoot-custom-action.md)
       + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
