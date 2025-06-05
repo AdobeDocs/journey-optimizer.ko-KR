@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 8418b0c9251e090575671acb65f83bee911cd039
+source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 20%
 
 ---
@@ -42,13 +42,16 @@ ht-degree: 20%
 
 1. 의사 결정 규칙 만들기 화면이 열립니다. 규칙에 이름을 지정하고 설명을 제공합니다.
 
-1. Adobe Experience Platform 세그먼트 빌더를 사용하여 필요에 따라 의사 결정 규칙을 만듭니다. 이렇게 하려면 프로필 속성, 대상 또는 Adobe Experience Platform에서 제공되는 컨텍스트 데이터와 같은 다양한 데이터 소스를 활용할 수 있습니다. [컨텍스트 데이터를 활용하는 방법 알아보기](#context-data)
+1. Adobe Experience Platform 세그먼트 빌더를 사용하여 필요에 따라 의사 결정 규칙을 만듭니다. 이렇게 하려면 다음과 같은 다양한 데이터 소스를 활용할 수 있습니다.
+   * 프로필 및 결정 항목 속성,
+   * 대상,
+   * Adobe Experience Platform에서 제공되는 컨텍스트 데이터. [컨텍스트 데이터를 활용하는 방법 알아보기](#context-data)
 
    ![](assets/decision-rules-build.png)
 
    >[!NOTE]
    >
-   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더는 Adobe Experience Platform 세그먼테이션 서비스와 함께 사용되는 세그먼트 빌더와 비교하여 몇 가지 특성을 제공합니다.  그러나 설명서에 설명된 전역 프로세스는 의사 결정 규칙을 작성하는 데 여전히 유효합니다. [세그먼트 정의를 만드는 방법을 알아봅니다](../audience/creating-a-segment-definition.md)
+   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더는 Adobe Experience Platform 세그먼테이션 서비스와 함께 사용되는 세그먼트 빌더와 비교하여 몇 가지 특성을 제공합니다. 그러나 설명서에 설명된 전역 프로세스는 의사 결정 규칙을 작성하는 데 여전히 유효합니다. [세그먼트 정의를 만드는 방법을 알아봅니다](../audience/creating-a-segment-definition.md)
 
 1. 작업 영역에서 새 필드를 추가하고 구성할 때 **[!UICONTROL 대상 속성]** 창에 대상에 속하는 예상 프로필에 대한 정보가 표시됩니다. 데이터를 업데이트하려면 **[!UICONTROL 예상 새로 고침]**&#x200B;을 클릭하세요.
 
