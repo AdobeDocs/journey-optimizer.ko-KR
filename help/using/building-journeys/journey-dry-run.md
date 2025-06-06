@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '743'
 ht-degree: 8%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 8%
 
 * 이메일, SMS 또는 푸시 알림이 있는 **채널 작업** 노드가 실행되지 않습니다.
 * **사용자 지정 작업**&#x200B;은(는) 시험 실행 중에 비활성화되며 해당 응답은 null로 설정됩니다.
-* **대기 노드**&#x200B;은(는) 시험 실행 중에 무시됩니다.
+* **대기 노드**은(는) 시험 실행 중에 무시됩니다.
   <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * **외부 데이터 원본**&#x200B;이(가) 기본적으로 실행됩니다.
 
@@ -90,7 +90,7 @@ ht-degree: 8%
 
 * **[!UICONTROL 입력됨]**: 이 활동에 입력한 총 개인 수입니다.
 * **[!UICONTROL 종료됨(종료 기준을 충족함)]**: 종료 기준으로 인해 해당 활동에서 여정을 종료한 총 개인 수.
-* **[!UICONTROL 종료됨(강제 종료)]**: 여정이 일시 중지되었을 때 종료한 총 개인 수
+* **[!UICONTROL 종료됨(강제 종료)]**: 여정이 일시 중지되었을 때 종료한 총 개인 수 이 지표는 시험 실행 모드의 여정에 대해 항상 0입니다.
 * **[!UICONTROL 오류]**: 해당 활동에 오류가 있는 개인의 총 수입니다.
 
 
