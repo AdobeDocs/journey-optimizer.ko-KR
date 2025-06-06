@@ -2,18 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정 일시 중지
-description: 여정 일시 중단/재개 방법 알아보기
+description: 라이브 여정을 일시 중지하고 다시 시작하는 방법 알아보기
 feature: Journeys
-topic: Content Management
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '704'
 ht-degree: 3%
 
 ---
