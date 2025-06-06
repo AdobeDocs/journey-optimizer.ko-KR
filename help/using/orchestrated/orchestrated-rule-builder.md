@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 72bceb03a3e94b0f3c13dddb22c8d3b4de0fcb44
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '303'
 ht-degree: 4%
 
 ---
@@ -45,17 +45,7 @@ ht-degree: 4%
 
 ![규칙 빌더 인터페이스를 표시하는 이미지](assets/rule-builder-interface.png)
 
-* **중앙 캔버스**&#x200B;에서 다른 구성 요소를 추가하고 결합하여 규칙을 만듭니다. 도구 모음은 규칙 구성 요소를 쉽게 조작할 수 있는 옵션을 제공합니다.
-
-  | 도구 모음 아이콘 | 설명 |
-  |--- |--- |
-  | ![위로 이동 선택 아이콘](assets/do-not-localize/rule-builder-icon-up.svg) | 구성 요소를 행 위로 이동합니다. |
-  | ![선택 영역 아래로 이동 아이콘](assets/do-not-localize/rule-builder-icon-down.svg) | 구성 요소를 한 행 아래로 이동합니다. |
-  | ![그룹 선택 아이콘](assets/do-not-localize/rule-builder-icon-group.svg) | 두 개의 구성 요소를 한 그룹에 넣습니다. |
-  | ![그룹 해제 선택 아이콘](assets/do-not-localize/rule-builder-icon-ungroup.svg) | 단일 그룹의 구성 요소를 구분합니다. |
-  | ![모든 아이콘 확장](assets/do-not-localize/rule-builder-icon-expand.svg) | 모든 그룹을 확장합니다. |
-  | ![모든 아이콘 축소](assets/do-not-localize/rule-builder-icon-collapse.svg) | 모든 그룹을 축소합니다. |
-  | ![모든 아이콘 제거](assets/do-not-localize/rule-builder-icon-delete.svg) | 모든 그룹 및 구성 요소를 제거합니다. |
+* **중앙 캔버스**&#x200B;에서 다른 구성 요소를 추가하고 결합하여 규칙을 만듭니다. [규칙을 만드는 방법을 알아봅니다](../orchestrated/build-query.md)
 
 * **[!UICONTROL 규칙 속성]** 창은 규칙에 대한 정보를 제공합니다. 다양한 작업을 수행하여 규칙을 확인하고 필요에 맞게 규칙을 확인할 수 있습니다.
 

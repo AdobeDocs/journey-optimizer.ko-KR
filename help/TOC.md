@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f68ad1357ec7bb658e664ea3b06b3db476fdbf4
+source-git-commit: 72bceb03a3e94b0f3c13dddb22c8d3b4de0fcb44
 workflow-type: tm+mt
 source-wordcount: '2414'
 ht-degree: 96%
@@ -187,7 +187,7 @@ ht-degree: 96%
       + [보고](using/orchestrated/reporting-campaigns.md)
    + 데이터베이스 쿼리 {#query-database}
       + [규칙 빌더로 작업](using/orchestrated/orchestrated-rule-builder.md)
-      + [첫 번째 쿼리 작성](using/orchestrated/build-query.md)
+      + [첫 번째 규칙 만들기](using/orchestrated/build-query.md)
       + [표현식 편집](using/orchestrated/edit-expressions.md)
    + 오케스트레이션된 캠페인 활동 {#design-campaigns}
       + [활동 시작](using/orchestrated/activities/about-activities.md)
