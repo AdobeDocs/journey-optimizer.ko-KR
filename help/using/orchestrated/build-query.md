@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 450f83eb53068df10a63d39d1a43483ad3c7e803
+source-git-commit: 04a21534d91e4fcfa550af50450ea241c9b1235c
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1798'
 ht-degree: 7%
 
 ---
@@ -44,6 +44,8 @@ ht-degree: 7%
 
    사전 정의된 필터를 사용하여 쿼리를 시작할 수도 있습니다. 이렇게 하려면 **[!UICONTROL 필터 선택 또는 저장]** 단추를 클릭하고 **[!UICONTROL 미리 정의된 필터 선택]**&#x200B;을 선택하십시오.
 
+   ![규칙 빌더를 표시하는 이미지](assets/rule-builder-add.png)
+
 1. 조건에 대한 기준으로 사용할 데이터베이스에서 속성을 식별합니다. 속성 옆에 있는 &quot;i&quot; 아이콘은 테이블이 저장된 테이블 및 해당 데이터 유형에 대한 정보를 제공합니다.
 
    ![특성 선택을 보여 주는 이미지](assets/rule-builder-select-attribute.png)
@@ -52,7 +54,7 @@ ht-degree: 7%
    >
    >**표현식 편집** 단추를 사용하면 표현식 편집기를 사용하여 데이터베이스 및 도우미 함수의 필드를 사용하여 표현식을 수동으로 정의할 수 있습니다. [표현식을 편집하는 방법을 알아봅니다](../orchestrated/edit-expressions.md)
 
-1. 다음 추가 옵션에 액세스하려면 특성 옆에 있는 추가 작업 단추![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 이미지를 클릭하십시오.
+1. 다음 추가 옵션에 액세스하려면 특성 옆에 있는 추가 작업 단추](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 ![이미지를 클릭하십시오.
 
 +++ 값 분포
 
@@ -80,9 +82,7 @@ ht-degree: 7%
 
    ![조건이 추가된 규칙 빌더를 보여 주는 이미지](assets/rule-builder-condition.png)
 
-1. 드롭다운 목록에서 적용할 **[!UICONTROL 연산자]**&#x200B;를 선택합니다.
-
-   다양한 연산자를 사용할 수 있습니다. 드롭다운 목록에서 사용할 수 있는 연산자는 속성의 데이터 유형에 따라 다릅니다.
+1. 드롭다운 목록에서 적용할 **[!UICONTROL 연산자]**&#x200B;를 선택합니다. 다양한 연산자를 사용할 수 있습니다. 드롭다운 목록에서 사용할 수 있는 연산자는 속성의 데이터 유형에 따라 다릅니다.
 
    +++사용 가능한 연산자 목록
 
@@ -105,7 +105,7 @@ ht-degree: 7%
    | 다음과 유사 | 포함 연산자와 유사하게 값에 % 와일드카드 문자를 삽입할 수 있습니다. | &#39;Jon%s&#39;과(와) 같은 성(@lastName) 와일드카드 문자는 &quot;Joker&quot;로 작동하여 &quot;Jones&quot;와 같은 이름을 찾습니다. |
    | 비슷하지 않음 | 포함 연산자와 유사하게 값에 % 와일드카드 문자를 삽입할 수 있습니다. | 성(@lastName)은 &#39;Smi%h&#39;와 다릅니다. 성이 &#39;Smith&#39;인 수신자는 반환되지 않습니다. |
 
-   +++
++++
 
 1. **값** 필드에서 예상 값을 정의합니다. 표현식 편집기를 사용하여 데이터베이스 및 도우미 함수의 필드를 사용하여 표현식을 수동으로 정의할 수도 있습니다. 이렇게 하려면 식 편집기 아이콘을 표시하는 ![이미지](assets/do-not-localize/rule-builder-icon-editor.svg) 아이콘을 클릭합니다. [표현식을 편집하는 방법을 알아봅니다](../orchestrated/edit-expressions.md)
 
@@ -115,7 +115,7 @@ ht-degree: 7%
 
    ![사전 설정 옵션을 표시하는 이미지](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### 연결된 테이블에 대한 사용자 지정 조건(1-1 및 1-N 링크){#links}
 
@@ -220,8 +220,10 @@ ht-degree: 7%
 * **계산**: 규칙에서 타겟팅한 레코드 수를 업데이트하고 표시합니다.
 * **필터 선택 또는 저장**: 캔버스에서 사용할 미리 정의된 기존 필터를 선택하거나 나중에 다시 사용할 수 있도록 쿼리를 미리 정의된 필터로 저장합니다.
 
-  >[!IMPORTANT]
-  >
-  >규칙 속성 창에서 사전 정의된 필터를 선택하면 캔버스에 내장된 규칙이 선택한 필터로 바뀝니다.
+<br/>
+
+    >[!IMPORTANT]
+    >
+    >규칙 속성 창에서 미리 정의된 필터를 선택하면 캔버스에 만들어진 규칙이 선택한 필터로 바뀝니다.
 
 규칙이 준비되면 의 **[!UICONTROL 확인]** 단추를 클릭하여 저장합니다.
