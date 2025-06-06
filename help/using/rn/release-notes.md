@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
+source-git-commit: 0abf2743f7b43b54df5305f47e3bd20d37df6f39
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 87%
+source-wordcount: '1470'
+ht-degree: 86%
 
 ---
 
@@ -72,6 +72,10 @@ ht-degree: 87%
 * **의사 결정 규칙에 대한 의사 결정 항목 특성 지원** - 사용 가능한 날짜: 2025년 6월 4일
 
   이제 의사 결정 항목 속성을 활용하여 의사 결정 규칙을 만들 수 있습니다. [자세히 보기](../experience-decisioning/rules.md#create)
+
+* **대화형 메시지 실행 API 업데이트** - 사용 가능한 날짜: 2025년 6월 6일
+
+  이제 대화형 메시지 실행 API를 사용하여 예정된 캠페인 실행 일정을 삭제할 수 있습니다. [자세히 보기](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
 
 ## 25년 5월 릴리스 정보 {#25-5-rn}
 
