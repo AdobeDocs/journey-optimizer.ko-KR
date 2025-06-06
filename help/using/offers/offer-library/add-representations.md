@@ -103,7 +103,7 @@ ht-degree: 7%
 개인화 편집기를 사용하여 URL을 개인화할 수 있습니다. [개인화](../../personalization/personalize.md#use-expression-editor)에 대해 자세히 알아보세요.
 
 
-**[!UICONTROL 콘텐츠 조각]**을 클릭하여 Adobe Experience Manager 콘텐츠 조각을 오퍼에 직접 삽입할 수도 있습니다. 오퍼의 콘텐츠 조각에 액세스하려면 선택한 배치가 JSON 유형이어야 합니다.
+**[!UICONTROL 콘텐츠 조각]**&#x200B;을 클릭하여 Adobe Experience Manager 콘텐츠 조각을 오퍼에 직접 삽입할 수도 있습니다. 오퍼의 콘텐츠 조각에 액세스하려면 선택한 배치가 JSON 유형이어야 합니다.
 [Journey Optimizer과 콘텐츠 조각 통합](../../integrations/aem-fragments.md)에 대해 자세히 알아보세요.
 
 ![](../assets/offer-content-url.png)
