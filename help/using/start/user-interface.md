@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1402'
 ht-degree: 100%
 
 ---
@@ -249,12 +249,7 @@ ht-degree: 100%
 >title="배치"
 >abstract="배치는 결정 엔진에서 반환된 항목이 메시지에 나타나는 위치를 결정합니다. 보고에서 다양한 배치에 대한 성과를 추적할 수 있습니다."
 
-<!-- Journey Dry Run - DOCAC-12459-->
 
->[!CONTEXTUALHELP]
->id="ajo_journey_dry_run"
->title="여정 시험 실행"
->abstract="여정을 디자인한 후에는 시험 실행을 수행하여 여정이 제대로 작동하는지 확인하고 단계가 올바르게 구성되도록 합니다. 이 게시 모드를 사용하면 프로필에 커뮤니케이션을 보내지 않고 여정을 미리 테스트할 수 있습니다."
 
 
 
