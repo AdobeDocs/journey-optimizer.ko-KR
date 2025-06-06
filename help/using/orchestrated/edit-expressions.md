@@ -7,12 +7,13 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
-source-git-commit: 450f83eb53068df10a63d39d1a43483ad3c7e803
+source-git-commit: 70cef55d438894a8279bb4f8f3e1d3e460c1c82e
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2142'
 ht-degree: 29%
 
 ---
+
 
 # 표현식 편집 {#edit-expressions}
 
@@ -27,8 +28,6 @@ ht-degree: 29%
 +++
 
 <br/>
-
-&#x200B;# 표현식 편집 {#expression}
 
 표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 만듭니다. 이 모드에서는 날짜, 문자열, 숫자 필드 및 정렬과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있는 고급 함수를 사용할 수 있습니다.
 
