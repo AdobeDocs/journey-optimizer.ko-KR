@@ -64,7 +64,7 @@ ht-degree: 7%
 
    * 이메일, SMS 또는 푸시 알림을 포함한 **채널 작업** 노드가 실행되지 않습니다.
    * **사용자 지정 작업**&#x200B;은(는) 시험 실행 중에 비활성화되며 해당 응답은 null로 설정됩니다.
-   * **대기 노드**은(는) 시험 실행 중에 무시됩니다.
+   * **대기 노드**&#x200B;은(는) 시험 실행 중에 무시됩니다.
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
    * 외부 데이터 원본을 포함한 **데이터 원본**&#x200B;은(는) 기본적으로 실행됩니다.
 
