@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
+source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '704'
 ht-degree: 3%
 
 ---
 
 # 여정 일시 중지 {#journey-pause}
 
-라이브 여정을 일시 중지하고 필요한 모든 변경 사항을 수행한 다음 언제든지 다시 시작할 수 있습니다. 최대 14일 동안 여정을 일시 중지할 수 있습니다. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 일시 중지 기간이 끝날 때 여정이 자동으로 다시 시작됩니다. [수동으로 다시 시작](#journey-resume-steps)할 수도 있습니다.
+라이브 여정을 일시 중지하고 필요한 모든 변경 사항을 수행한 다음 언제든지 다시 시작할 수 있습니다. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 일시 중지 기간이 끝날 때 여정이 자동으로 다시 시작됩니다. [수동으로 다시 시작](#journey-resume-steps)할 수도 있습니다.
 
 
 >[!AVAILABILITY]
@@ -74,13 +74,11 @@ ht-degree: 3%
 
 1. 확인하려면 **일시 중지** 단추를 클릭하세요.
 
-최대 14일 동안 여정을 일시 중지할 수 있습니다.
-
 ## 일시 중지된 여정을 다시 시작하는 방법 {#journey-resume-steps}
 
-일시 중지된 여정은 언제든지 수동으로 다시 시작할 수 있습니다.
+일시 중지된 여정은 최대 일시 중지 기간인 14일이 끝날 때 자동으로 다시 시작됩니다. 언제든지 수동으로 다시 시작할 수 있습니다.
 
-여정 일시 중지를 종료하고 여정 이벤트 수신을 다시 시작하려면 다음 단계를 수행합니다.
+일시 중지된 여정을 다시 시작하고 여정 이벤트를 다시 수신하려면 다음 단계를 수행하십시오.
 
 1. 다시 시작할 여정을 엽니다.
 1. 여정 캔버스의 오른쪽 상단에 있는 **...자세히** 단추를 클릭하고 **다시 시작**&#x200B;을 선택합니다.
