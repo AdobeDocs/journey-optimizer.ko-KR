@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 1c2537d576b9ccb4fc3731d558a5447e89eb824a
+source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1087'
 ht-degree: 49%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 49%
 >title="여정 이벤트"
 >abstract="특정 사용자에게 연결되는 이벤트는 이는 사람의 행동(예: 제품 구매, 매장 방문, 웹 사이트 종료 등) 또는 사람과 관련된 일(예: 로열티 포인트 10,000점 도달)과 관련이 있습니다. Journey Optimizer는 여정에서 단일 이벤트를 수신하여 다음 액션을 조율합니다."
 
-이벤트를 사용하면 여정을 개별적으로 트리거하여 여정에 들어갈 때 각 사용자에게 실시간 메시지를 전달할 수 있습니다.
+이벤트를 사용하여 여정을 개별적으로 트리거하여 여정에 들어갈 때 각 사용자에게 실시간 메시지를 전달합니다.
 
 이벤트 구성에서 여정에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe Experience 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다. 여정의 여러 단계에서 여러 이벤트를 사용할 수 있으며, 여러 여정에서 동일한 이벤트를 사용할 수 있습니다.
 
@@ -83,8 +83,8 @@ POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 A
 
 이벤트를 구성하고 이벤트에 대한 스트리밍 엔드포인트 및 페이로드를 지정하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431519?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 비즈니스 이벤트의 사용 사례를 이해합니다. 비즈니스 이벤트를 사용하여 여정을 작성하는 방법과 상황에 따라 적합한 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416327?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
