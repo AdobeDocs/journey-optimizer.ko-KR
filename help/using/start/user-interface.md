@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: a06872dd267b6fa63ea5be7fcc111015ff5e9d77
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 100%
+source-wordcount: '1451'
+ht-degree: 96%
 
 ---
 
@@ -58,6 +58,8 @@ ht-degree: 100%
 * **[!UICONTROL 캠페인]** - 다양한 채널을 사용하여 특정 대상자에게 보이는 일회성 콘텐츠를 게재하는 캠페인을 만들고 구성하고 오케스트레이션합니다. [자세히 알아보기](../campaigns/get-started-with-campaigns.md)
 
 * **[!UICONTROL 여정]** - 고객 여정을 만들고 구성하고 오케스트레이션합니다. 이벤트와 오케스트레이션, 작업 활동을 조합하여 여러 단계로 이루어진 크로스채널 시나리오를 작성합니다. [자세히 알아보기](../building-journeys/journey-gs.md#jo-build)
+
+* **[!UICONTROL 보고서]** - Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 있으므로 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. Journey Optimizer과 Customer Journey Analytics 간의 이러한 원활한 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으므로 사용자가 보다 정보에 입각한 결정을 내릴 수 있습니다. [자세히 보기](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL 의사 결정 관리] {#left-nav-decision}
