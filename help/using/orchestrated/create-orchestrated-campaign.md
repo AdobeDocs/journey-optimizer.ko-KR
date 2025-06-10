@@ -44,7 +44,7 @@ ht-degree: 13%
 
 오케스트레이션된 캠페인을 만들려면 다음 단계를 수행합니다.
 
-1. **[!UICONTRO 캠페인]** 메뉴로 이동하여 **[!UICONTROL 오케스트레이션]** 탭을 선택하고 **[!UICONTROL 캠페인 만들기]**&#x200B;를 선택합니다.
+1. **[ !UICONTRO 캠페인]** 메뉴로 이동하여 **[!UICONTROL 오케스트레이션]** 탭을 선택하고 **[!UICONTROL 캠페인 만들기]**&#x200B;를 선택합니다.
 
    ![](assets/inventory-create.png)
 
