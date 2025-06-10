@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 69952a74e20be756488dc29a411c8eb2fd6b68e1
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 76%
 
 ---
 
@@ -26,6 +26,12 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
+>[!TAB 충돌 및 우선 순위 지정]
+
+이제 Journey Optimizer은 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다. 이 도구는 캠페인 및 단일 이벤트, 대상자 선별, 대상자 여정 읽기에 사용할 수 있습니다.
+
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
+
 >[!TAB Adobe Express 통합]
 
 이제 Adobe Journey Optimizer가 Adobe Express와 통합되어 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다.
@@ -34,15 +40,15 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!TAB AI 어시스턴트]
 
-✨ 기능을 직접 탐색하며 완전히 이해할 수 있도록 설계된 [AI 어시스턴트](../help/using/content-management/gs-generative.md) 라이브 기능 미리 보기를 통해 몰입형 실습 경험을 제공합니다.
+기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [AI Assistant](../help/using/content-management/gs-generative.md) 라이브 기능 미리 보기를 통해 실습 경험에 몰입하십시오.
 
 [![자세히 알아보기](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB CJA를 사용한 보고]
+>[!TAB AEM 콘텐츠 조각 통합]
 
-Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개선된 상호 운용성과 함께 양 플랫폼의 보고를 표준화하고 데이터의 일관성과 안정성을 개선합니다. 
+이제 Adobe Experience Manager as a Cloud Service을 Adobe Journey Optimizer과 통합하여 AEM 콘텐츠 조각을 Journey Optimizer 콘텐츠에 원활하게 통합할 수 있습니다. 이렇게 간소화된 연결을 통해 AEM 콘텐츠에 액세스하고 활용하는 프로세스를 간소화하여 개인화되고 동적인 캠페인 및 여정을 만들 수 있습니다.
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
 
 
 >[!ENDTABS]
