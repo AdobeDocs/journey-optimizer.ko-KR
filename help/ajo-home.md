@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 69952a74e20be756488dc29a411c8eb2fd6b68e1
+source-git-commit: 660ac9c0f55158d89c7c1f83c0f9d2efd65ee663
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 76%
+source-wordcount: '385'
+ht-degree: 67%
 
 ---
 
@@ -28,21 +28,22 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!TAB 충돌 및 우선 순위 지정]
 
-이제 Journey Optimizer은 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다. 이 도구는 캠페인 및 단일 이벤트, 대상자 선별, 대상자 여정 읽기에 사용할 수 있습니다.
+이제 Journey Optimizer은 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다. 이러한 도구는 캠페인과 대상 자격, 대상자 읽기 및 단일 여정에 사용할 수 있습니다.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
 
 >[!TAB Adobe Express 통합]
 
-이제 Adobe Journey Optimizer가 Adobe Express와 통합되어 크리에이티브 자산을 여정 오케스트레이션과 원활하게 연결할 수 있습니다.
+Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는 동안 Adobe Express의 강력한 편집 도구에 쉽게 액세스할 수 있습니다. 이 통합을 통해 솔루션 간에 전환할 필요 없이 이미지 크기를 조정하고, 배경을 제거하고, 시각적 개체를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
->[!TAB AI 어시스턴트]
+<!--
+>[!TAB AI Assistant]
 
-기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [AI Assistant](../help/using/content-management/gs-generative.md) 라이브 기능 미리 보기를 통해 실습 경험에 몰입하십시오.
+Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![자세히 알아보기](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM 콘텐츠 조각 통합]
 
