@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 7%
@@ -66,7 +66,7 @@ ht-degree: 7%
 
    * 이메일, SMS 또는 푸시 알림을 포함한 **채널 작업** 노드가 실행되지 않습니다.
    * **사용자 지정 작업**&#x200B;은(는) 시험 실행 중에 비활성화되며 해당 응답은 null로 설정됩니다.
-   * **대기 노드**&#x200B;은(는) 시험 실행 중에 무시됩니다.
+   * **대기 노드**은(는) 시험 실행 중에 무시됩니다.
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
    * 외부 데이터 원본을 포함한 **데이터 원본**&#x200B;은(는) 기본적으로 실행됩니다.
 
@@ -81,7 +81,7 @@ ht-degree: 7%
 
    ![여정 시험 실행 시작](assets/dry-run-button.png)
 
-1. 게시 확인
+1. 게시를 확인합니다.
 
    전환이 진행되는 동안 **시험 실행 활성화** 상태 메시지가 나타납니다.
 
