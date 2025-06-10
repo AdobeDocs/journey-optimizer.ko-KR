@@ -7,20 +7,15 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 6574735581de0872e78e8e05efea5c6a50dc59b1
+source-git-commit: 935ab0399da88c792104b7dc14793b69713951fc
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 27%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 조정된 캠페인 만들기 단계 액세스 및 관리 {#orchestrated-campaign-creation}
-
->[!CONTEXTUALHELP]
->id="ajo_targeting_workflow_list"
->title="오케스트레이션된 캠페인"
->abstract="이 화면에서 오케스트레이션된 캠페인의 전체 목록에 액세스하고 현재 상태, 마지막/다음 실행 일자를 확인하고 오케스트레이션된 새 캠페인을 만들 수 있습니다."
+# 오케스트레이션된 캠페인 생성을 위한 주요 단계 {#orchestrated-campaign-creation}
 
 +++ 목차
 
