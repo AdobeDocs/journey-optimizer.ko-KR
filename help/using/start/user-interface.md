@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 100%
@@ -59,8 +59,6 @@ ht-degree: 100%
 
 * **[!UICONTROL 여정]** - 고객 여정을 만들고 구성하고 오케스트레이션합니다. 이벤트와 오케스트레이션, 작업 활동을 조합하여 여러 단계로 이루어진 크로스채널 시나리오를 작성합니다. [자세히 알아보기](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL 랜딩 페이지]** - 랜딩 페이지를 만들고 디자인하고 테스트 및 게시합니다. 사용자에게 커뮤니케이션 수신을 옵트인 또는 옵트아웃하거나 특정 서비스를 구독할 수 있는 온라인 양식으로 가는 링크를 보냅니다. [자세히 보기](../landing-pages/get-started-lp.md)
-
 
 ### [!UICONTROL 의사 결정 관리] {#left-nav-decision}
 
@@ -78,7 +76,10 @@ ht-degree: 100%
 
 * **[!UICONTROL 콘텐츠 템플릿]** - 보다 빠르고 품질 높은 디자인 프로세스를 위해 Journey Optimizer 캠페인 및 여정 전반에서 사용자 정의 콘텐츠를 쉽게 재사용할 수 있는 독립 실행형 템플릿을 만듭니다. [자세히 알아보기](../content-management/content-templates.md)
 
-* **[!UICONTROL 조각]** - 보다 원활한 이메일 디자인 프로세스를 위해 조각을 만들고 관리합니다. 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 사용자 정의 콘텐츠 블록을 미리 작성해 봅니다. [자세히 보기](../content-management/fragments.md)
+* **[!UICONTROL 조각]** - 보다 원활한 이메일 디자인 프로세스를 위해 조각을 만들고 관리합니다. 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 사용자 정의 콘텐츠 블록을 미리 작성해 봅니다. [자세히 알아보기](../content-management/fragments.md)
+
+* **[!UICONTROL 랜딩 페이지]** - 랜딩 페이지를 만들고 디자인하고 테스트 및 게시합니다. 사용자에게 커뮤니케이션 수신을 옵트인 또는 옵트아웃하거나 특정 서비스를 구독할 수 있는 온라인 양식으로 가는 링크를 보냅니다. [자세히 보기](../landing-pages/get-started-lp.md)
+
 
 ### [!UICONTROL 데이터 관리] {#left-nav-data}
 

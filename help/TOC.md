@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2432'
 ht-degree: 95%
 
 ---
@@ -447,7 +447,8 @@ ht-degree: 95%
       + [계산된 속성 관련 작업](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [라이선스 사용](using/audience/license-usage.md)
-+ 추적 및 모니터링 {#reporting}
++ 보고 및 모니터링 {#reporting}
+   + [보고 및 모니터링 시작](using/reports/gs-reports.md)
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)
       + [지표 목록](using/reports/live-report-components.md)
@@ -485,7 +486,7 @@ ht-degree: 95%
       + [개요 보고서](using/reports/channel-report-cja.md)
       + [랜딩 페이지 보고서](using/reports/lp-report-global-cja.md)
       + [구독 목록 보고서](using/reports/subscription-report-global-cja.md)
-   + 여정 보고서 {#reports}
+   + 사용자 지정 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
       + 레거시 단계 이벤트 필드 {#legacy-step-event-fields}

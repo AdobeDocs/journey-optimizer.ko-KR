@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 1%
@@ -17,8 +17,7 @@ ht-degree: 1%
 
 # 라이브 보고서 시작 {#live-report}
 
-**[!UICONTROL 라이브 보고서]**&#x200B;를 사용하여 기본 제공 대시보드에서 여정 및 메시지의 영향과 성능을 실시간으로 측정하고 시각화할 수 있습니다.
-게재를 보내거나 **[!UICONTROL 최근 24시간]** 탭에서 여정을 실행하는 즉시 **[!UICONTROL 실시간 보고서]**&#x200B;에서 데이터를 사용할 수 있습니다.
+**[!UICONTROL 라이브 보고서]**&#x200B;를 사용하여 기본 제공 대시보드에서 여정 및 메시지의 영향과 성능을 실시간으로 측정하고 시각화할 수 있습니다. 게재를 보내거나 **[!UICONTROL 최근 24시간]** 탭에서 여정을 실행하는 즉시 **[!UICONTROL 실시간 보고서]**&#x200B;에서 데이터를 사용할 수 있습니다.
 
 * 여정의 컨텍스트에서 여정을 타깃팅하려면 **[!UICONTROL 여정]** 메뉴에서 여정의 **[!UICONTROL 추가 작업]** 메뉴에 액세스하고 **[!UICONTROL 최근 24시간 보고서 보기]** 단추를 클릭하십시오.
 
@@ -64,19 +63,19 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ## 보고서 내보내기 {#export-reports}
 
-서로 다른 보고서를 PDF 또는 CSV 형식으로 쉽게 내보내 공유하거나 인쇄할 수 있습니다.
+다양한 보고서를 PDF 또는 CSV 형식으로 쉽게 내보내 공유하거나 인쇄할 수 있습니다.
 
 >[!BEGINTABS]
 
 >[!TAB 보고서를 PDF 파일로 내보내기]
 
-1. 보고서에서 **[!UICONTROL 내보내기]**&#x200B;를 클릭하고 **[!UICONTROL 파일 PDF]**&#x200B;을 선택합니다.
+1. 보고서에서 **[!UICONTROL 내보내기]**&#x200B;를 클릭하고 **[!UICONTROL PDF 파일]**&#x200B;을 선택합니다.
 
    ![](assets/export_6.png)
 
 1. 인쇄 창에서 필요에 따라 문서를 구성합니다. 선택 사항은 브라우저에 따라 다를 수 있습니다.
 
-1. 보고서를 PDF으로 인쇄 또는 저장하도록 선택합니다.
+1. 보고서를 PDF으로 인쇄하거나 저장하도록 선택합니다.
 
 1. 파일을 저장할 폴더를 찾아 필요한 경우 이름을 변경한 다음 [저장]을 클릭합니다.
 
