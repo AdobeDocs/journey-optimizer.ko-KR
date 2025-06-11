@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 재시도, 바운스, 소프트, 최적화 프로그램, 오류
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e422a62f49864c89bdaaab2d4b7622dc90163a71
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '572'
 ht-degree: 9%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 9%
 
 예:
 
-* 다시 시도 기간을 24시간으로 설정하여 월요일에 이메일을 보내게 됩니다. emma.jones@mail.com 주소를 배달할 수 없습니다. 이메일은 최대 3회까지 재시도되며 24시간 재시도 기간에 도달하면 재시도를 중지합니다.
+* 다시 시도 기간을 24시간으로 설정하여 월요일에 이메일을 보내게 됩니다. `emma.jones@mail.com` 주소를 배달하지 못했습니다. 이메일은 최대 3회까지 재시도되며 24시간 재시도 기간에 도달하면 재시도를 중지합니다.
 
-* 수요일에 다른 이메일을 보내세요. 이미 3개의 오류 카운트가 있는 emma.jones@mail.com도 타깃팅되며 다시 배달되지 않습니다(두 번). 두 개의 오류가 추가로 확인됩니다.
+* 수요일에 다른 이메일을 보내세요. 이미 3개의 오류 카운트가 있는 `emma.jones@mail.com`도 대상으로 지정되며 다시 배달되지 않습니다(두 번). 두 개의 오류가 추가로 확인됩니다.
 
-두 이메일 간에 다른 게재를 시도하지 않고 성공한 경우, 3 + 2 오류의 누적 영향을 고려할 때 emma.jones@mail.com 주소가 제외 목록에 추가됩니다.
+이 두 이메일 사이에 다른 게재를 시도하지 않고 성공한 경우, 누적된 3+2 오류로 인해 `emma.jones@mail.com` 주소가 제외 목록에 추가됩니다.
 
 ## 재시도 임계값 버전 {#edit-retry-threshold}
 
@@ -46,7 +46,7 @@ ht-degree: 9%
 >id="ajo_admin_suppression_list_bounces"
 >title="재시도 임계값 업데이트"
 >abstract="기본값이 사용자 요구에 맞지 않으면 허용되는 연속 소프트 바운스 수를 수정할 수 있습니다. 재시도 카운터가 특정 이메일 주소에 대한 오류 임계값에 도달하면 이 주소를 금지 목록에 추가합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=ko" text="금지 목록 이해하기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="금지 목록 이해하기"
 
 기본값 5가 사용자의 요구 사항에 맞지 않는 경우 아래 단계에 따라 오류 임계값을 수정할 수 있습니다.
 
@@ -72,7 +72,7 @@ ht-degree: 9%
 
 기본적으로 메시지가 전자 메일 큐에 추가된 시점부터 **3.5일**(또는 **84시간**) 동안 다시 시도합니다.
 
-그러나 더 이상 필요하지 않은 경우 다시 시도 시도가 더 이상 수행되지 않도록 전자 메일 채널에 적용되는 [채널 구성](channel-surfaces.md)(즉, 메시지 사전 설정)을 만들거나 편집할 때 필요에 따라 이 설정을 변경할 수 있습니다.
+그러나 더 이상 필요하지 않은 경우 다시 시도 시도가 더 이상 수행되지 않도록 전자 메일 채널에 적용되는 [채널 구성](channel-surfaces.md)을 만들거나 편집할 때 필요에 따라 이 설정을 변경할 수 있습니다.
 
 예를 들어 암호 재설정과 관련되고 하루 동안만 유효한 링크가 포함된 트랜잭션 이메일에 대해 다시 시도 기간을 24시간으로 설정할 수 있습니다. 마찬가지로 자정 세일의 경우 6시간의 재시도 기간을 정의할 수 있습니다.
 
