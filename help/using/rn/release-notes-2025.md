@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>[브랜드 정렬 점수] 기능은 이메일 디자이너에서 직접 명확한 피드백을 제공하여 콘텐츠가 브랜드의 톤, 스타일, 지침에 맞는지 여부를 확인하는 데 도움이 됩니다. 이 기능은 Beta로 사용할 수 있습니다.</p>
+<p>브랜드 정렬 점수 기능은 이메일 Designer에서 직접 명확한 피드백을 제공하여 콘텐츠가 브랜드의 색조, 스타일 및 지침에 맞게 조정되는지 여부를 확인하는 데 도움이 됩니다. 이 기능은 Beta로 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../content-management/brands-score.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -270,7 +270,7 @@ ht-degree: 100%
 
 * **개인화된 URL 추적** - 가용성 일자: 2025년 4월 30일
 
-  이메일 설정을 보다 유연하게 관리하고 세밀하게 제어하기 위해 이제 콘텐츠의 각 링크에 대해 [이메일 디자이너]에서 하나하나 작업을 수행할 필요 없이 이메일 채널 구성 수준에서 모든 URL 추적 매개 변수를 한 번에 개인화할 수 있습니다. [자세히 보기](../email/surface-personalization.md#personalize-url-tracking)
+  유연성과 이메일 설정 제어를 강화하기 위해 이제 콘텐츠의 각 링크에 대해 이메일 Designer에서 수행하는 대신 이메일 채널 구성 수준에서 모든 URL 추적 매개 변수를 한 번에 개인화할 수 있습니다. [자세히 보기](../email/surface-personalization.md#personalize-url-tracking)
 
 * **이메일 디자이너** - 가용성 일자: 2025년 4월 1일
 

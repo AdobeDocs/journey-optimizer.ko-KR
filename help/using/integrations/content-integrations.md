@@ -8,7 +8,8 @@ topic: Content Management, Integrations
 role: User
 level: Beginner
 keywords: 에셋, 통합
-source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
+exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 18%
@@ -39,7 +40,7 @@ Assets Essentials는 Adobe Creative Cloud에서 Adobe Express 및 Adobe Photosho
 <!--
 ### Templates
 
-With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's Email Designer, simplifying the process of crafting and sending messages to your desired audience.
 
 Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
 
@@ -70,7 +71,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는 동안 Adobe Express의 강력한 편집 도구에 쉽게 액세스할 수 있습니다. 이 통합을 통해 솔루션 간에 전환할 필요 없이 이미지 크기를 조정하고, 배경을 제거하고, 시각적 개체를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다.
 
-**[!DNL Adobe Express]** 메뉴에 액세스하려면 전자 메일 디자이너에서 **이미지 설정**&#x200B;에 액세스한 다음 **[!UICONTROL Adobe Express에서 편집]**&#x200B;을 클릭하세요.
+**[!DNL Adobe Express]** 메뉴에 액세스하려면 이메일 Designer에서 **이미지 설정**&#x200B;에 액세스한 다음 **[!UICONTROL Adobe Express에서 편집]**&#x200B;을 클릭하세요.
 
 Enterprise 라이선스를 사용하면 사용자가 Adobe Express 편집기에 대한 전체 액세스 권한을 얻으므로 색상, 밝기, 선명도, 대비, 치수 및 추가 설정을 조정하여 이미지를 수정할 수 있습니다.
 

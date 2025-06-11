@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 16%
@@ -89,7 +89,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->웹 콘텐츠 디자이너는 대부분 이메일 디자이너와 유사합니다. [콘텐츠를 디자인 [!DNL Journey Optimizer]](../email/get-started-email-design.md)하는 방법에 대해 자세히 알아보세요.
+>웹 콘텐츠 디자이너는 대부분 이메일 Designer과 유사합니다. [콘텐츠를 디자인 [!DNL Journey Optimizer]](../email/get-started-email-design.md)하는 방법에 대해 자세히 알아보세요.
 
 ## 구성 요소 사용 {#content-components}
 
@@ -103,8 +103,8 @@ ht-degree: 16%
    * [구분선](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [이미지](../email/content-components.md#image)
-   * 제목 - 이 구성 요소를 사용하는 것은 이메일 디자이너에서 **[!UICONTROL 텍스트]** 구성 요소를 사용하는 것과 비슷합니다. [자세히 알아보기](../email/content-components.md#text)
-   * 단락 - 이 구성 요소를 사용하는 것은 이메일 디자이너에서 **[!UICONTROL 텍스트]** 구성 요소를 사용하는 것과 비슷합니다. [자세히 알아보기](../email/content-components.md#text)
+   * 제목 - 이 구성 요소를 사용하는 것은 이메일 Designer에서 **[!UICONTROL 텍스트]** 구성 요소를 사용하는 것과 비슷합니다. [자세히 알아보기](../email/content-components.md#text)
+   * 단락 - 이 구성 요소를 사용하는 것은 이메일 Designer에서 **[!UICONTROL 텍스트]** 구성 요소를 사용하는 것과 비슷합니다. [자세히 알아보기](../email/content-components.md#text)
    * 링크
 
    ![](assets/web-designer-components.png)
@@ -184,4 +184,4 @@ ht-degree: 16%
 
 아래 비디오에서는 [!DNL Journey Optimizer] 캠페인에서 웹 디자이너를 사용하여 웹 경험을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452642/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

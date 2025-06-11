@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 이메일 디자이너 콘텐츠 구성 요소 사용
+title: 이메일 Designer 콘텐츠 구성 요소 사용
 description: 이메일에 콘텐츠 구성 요소를 사용하는 방법 알아보기
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: 구성 요소, 이메일 디자이너, 편집기, 이메일
+keywords: 구성 요소, 이메일 Designer, 편집기, 이메일
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 50%
@@ -98,7 +98,7 @@ ht-degree: 50%
 
    ![](assets/email_designer_button_link.png)
 
-1. [구성 요소 설정] 창에서 **[!UICONTROL 테두리]**, **[!UICONTROL 크기]**, **[!UICONTROL 여백]**&#x200B;과 같은 스타일 속성을 변경하여 다른 스타일 속성을 조정할 수 있습니다.**&#x200B;**
+1. [구성 요소 설정] 창에서 **[!UICONTROL 테두리]**, **[!UICONTROL 크기]**, **[!UICONTROL 여백]**&#x200B;과 같은 스타일 속성을 변경하여 다른 스타일 속성을 조정할 수 있습니다.****
 
 ## 텍스트 {#text}
 
@@ -169,7 +169,7 @@ ht-degree: 50%
 
 1. **[!UICONTROL 설정]** 탭에서 **[!UICONTROL 찾아보기]**&#x200B;를 클릭하여 에셋에서 이미지 파일을 선택하거나 **[!UICONTROL 미디어 가져오기]**&#x200B;를 클릭하여 에셋을 Adobe Experience Manager Assets에 업로드합니다.
 
-   [!DNL Adobe Experience Manager Assets]에 대한 자세한 내용은 [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}를 참조하세요.
+   [!DNL Adobe Experience Manager Assets]에 대한 자세한 내용은 [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}를 참조하세요.
 
    >[!NOTE]
    >
@@ -186,7 +186,7 @@ ht-degree: 50%
 
 1. **[!UICONTROL 유사한 스톡 사진 찾기]**&#x200B;를 선택할 수도 있습니다. [자세히 알아보기](../integrations/stock.md)
 
-1. **[!UICONTROL 스타일]** 탭에서 여백, 테두리 등의 다른 스타일 특성을 조정합니다. 대상자를 다른 콘텐츠로 리디렉션하도록 링크를 추가할 수 있습니다.**&#x200B;**
+1. **[!UICONTROL 스타일]** 탭에서 여백, 테두리 등의 다른 스타일 특성을 조정합니다. 대상자를 다른 콘텐츠로 리디렉션하도록 링크를 추가할 수 있습니다.****
 
 ## Social {#social}
 

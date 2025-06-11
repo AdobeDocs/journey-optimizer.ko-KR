@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '2035'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 </table>
 
 
-더 많은 변화에 대해 알아보려면 [Adobe Experience Platform 10월 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=ko){target="_blank"}도 참조하십시오.
+자세한 변경 사항은 [Adobe Experience Platform 10월 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=ko){target="_blank"}도 참조하세요.
 
 ### 개선 사항
 
@@ -111,8 +111,8 @@ ht-degree: 100%
 
 ### 문제 해결
 
-* 브라우저 언어가 영어가 아닐 때 [여정 목록], [메시지 목록] 및 [이메일 디자이너]가 표시되지 않는 문제를 해결했습니다.
-* [이메일 디자이너]에서 표현식을 사용하여 개인화를 추가할 때 발생하는, 문자가 잘못 이스케이프 처리되는 구문 오류를 수정했습니다.
+* 브라우저 언어가 영어가 아닐 때 여정 목록, 메시지 목록 및 이메일 Designer이 표시되지 않는 문제를 해결했습니다.
+* 이메일 Designer에서 표현식을 사용하여 개인화를 추가할 때 발생하는 구문 오류를 수정했습니다. 문자가 잘못 이스케이프되었습니다.
 * **관리** 메뉴를 탐색할 때 404 오류가 발생하는 문제를 해결했습니다.
 * 비즈니스 이벤트를 사용하여 여정을 테스트할 때 다른 라이브 여정을 트리거하는 문제를 해결했습니다.
 
@@ -294,7 +294,7 @@ ht-degree: 100%
 ### 문제 해결
 
 * 메시지 탭 탐색에서 접근성 문제를 해결했습니다.
-* 이메일 디자이너 레이블의 현지화 문제를 해결했습니다.
+* 이메일 Designer 레이블의 현지화 문제를 해결했습니다.
 * 여정에서 두 개 이상의 노드를 선택하고 속성 창에서 [삭제]를 클릭할 때 발생하는 문제를 해결했습니다.
 * 여정에 사용한 작업에 새 헤더를 추가할 수 없는 문제를 해결했습니다.
 * 이제 사용자 인터페이스에서 보다 명확한 경고를 통해 메시지 사전 설정을 만들지 못한 이유를 확인할 수 있습니다.
@@ -365,4 +365,4 @@ ht-degree: 100%
 * [PTR 레코드] 화면에서 IP 정보가 누락되는 문제를 해결했습니다.
 * 이제 [표현식 편집기] 내 오퍼 레일의 지역화가 구현되었습니다.
 * 정보 팝업의 간격이 잘못 설정된 문제를 해결했습니다.
-* [이메일 디자이너]에서 HTML 파일을 업로드할 때 `background-image` 속성이 있는 내부 스타일 시트를 지원하지 않는 문제를 해결했습니다.
+* `background-image` 속성이 있는 내부 스타일 시트를 지원하지 않는 HTML 파일을 업로드할 때 이메일 Designer에서 발생하는 문제를 해결했습니다.

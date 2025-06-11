@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 25eba9f5e738f669edbef8725328dba958b555b6
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 62%
@@ -55,7 +55,7 @@ Adobe Experience Manager 사용자는 워크플로를 Adobe Journey Optimizer과
 <!--
 >[!TAB AEM Templates]
 
-With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's Email Designer, simplifying the process of crafting and sending messages to your desired audience.
 
 [![learn more](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
 
@@ -121,7 +121,7 @@ Adobe Campaign Standard과 통합하여 여정에서 메시지를 보내도록 �
 
 Adobe Workfront의 Adobe Journey Optimizer 모듈을 사용하여 레코드를 생성하고 읽거나 업데이트 또는 삭제하거나 Adobe Journey Optimizer API에 대한 사용자 정의 API 호출을 수행할 수 있습니다.
 
-이 통합의 주요 단계에 대한 개요를 이 블로그 게시물에서 [사용할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=ko){target="_blank"}.
+이 통합의 주요 단계에 대한 개요를 이 블로그 게시물에서 [사용할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Journey Optimizer + Adobe Workfront에 대해 자세히 알아보기 [Adobe Workfront 설명서](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=ko){target="_blank"}.
 

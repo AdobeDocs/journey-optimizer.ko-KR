@@ -10,7 +10,7 @@ role: User
 level: Beginner
 keywords: 에셋, 통합
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 11%
@@ -35,7 +35,7 @@ Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는
 
 Adobe Express에 대한 자세한 내용은 [이 설명서](https://helpx.adobe.com/kr/express/user-guide.html)를 참조하세요.
 
-**[!DNL Adobe Express]** 메뉴에 액세스하려면 전자 메일 디자이너에서 **이미지 설정**&#x200B;에 액세스한 다음 **[!UICONTROL Adobe Express에서 편집]**&#x200B;을 클릭하세요.
+**[!DNL Adobe Express]** 메뉴에 액세스하려면 이메일 Designer에서 **이미지 설정**&#x200B;에 액세스한 다음 **[!UICONTROL Adobe Express에서 편집]**&#x200B;을 클릭하세요.
 
 ![](assets/express_1.png)
 
@@ -51,12 +51,12 @@ Enterprise 라이센스를 통해 사용자는 Adobe Express 편집기에 대한
 
 +++사용자를 위한 사용 사례 및 Adobe Express용 엔터프라이즈 라이선스
 
-* [배경 제거](https://helpx.adobe.com/kr/express/create-and-edit-images/edit-images/remove-background.html)
-* [개체 제거](https://helpx.adobe.com/kr/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [지우기](https://helpx.adobe.com/kr/express/create-and-edit-images/edit-images/eraser.html)
-* [개체 삽입](https://helpx.adobe.com/kr/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [배경 제거](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [개체 제거](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [지우기](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [개체 삽입](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
 * [자르기](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [효과](https://helpx.adobe.com/kr/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+* [효과](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
 +++
 
@@ -149,7 +149,7 @@ Enterprise 라이센스를 통해 사용자는 Adobe Express 편집기에 대한
 
 Adobe Express 도구를 사용하여 Adobe Journey Optimizer에서 자산을 편집하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455530/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

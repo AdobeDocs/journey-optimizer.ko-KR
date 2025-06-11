@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 30%
@@ -173,7 +173,7 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 
 [URL 추적](email-settings.md#url-tracking)은(는) 구성 수준에서 관리되며 메시지 콘텐츠에 포함된 모든 URL에 적용됩니다.
 
-전자 메일 디자이너에서 [개별 URL을 개인 설정](../personalization/personalization-syntax.md#perso-urls)할 수도 있습니다. 개인화된 URL 추적 매개 변수를 콘텐츠의 단일 링크에 추가하려면 아래 단계를 따르십시오.
+이메일 Designer에서 [개별 URL을 개인화](../personalization/personalization-syntax.md#perso-urls)할 수도 있습니다. 개인화된 URL 추적 매개 변수를 콘텐츠의 단일 링크에 추가하려면 아래 단계를 따르십시오.
 
 1. 링크를 선택하고 상황별 도구 모음에서 **[!UICONTROL 링크 삽입]**&#x200B;을 클릭합니다.
 

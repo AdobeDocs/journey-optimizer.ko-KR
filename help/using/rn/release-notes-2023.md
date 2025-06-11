@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '4377'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 <td>
 <p>이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 단, 이 기능은 현재 Sinch에서만 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>자세한 내용은 <a href="../sms/create-sms.md#mms-content">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../sms/create-sms.md#mms-content">세부 설명서</a>를 참조하십시오.</p>
 </tr>
 </tbody>
 </table>
@@ -66,7 +66,7 @@ ht-degree: 100%
 **대상자**
 
 * 이제 CSV 파일에서 여정 및 캠페인으로 업로드한 대상자를 타겟팅할 수 있습니다. [자세히 알아보기](../audience/about-audiences.md#segments-in-journey-optimizer)
-* 이제 대상자 구성을 통해 만든 대상자를 타겟팅하고 [여정]에서 데이터 보강 속성을 활용할 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md)
+* 이제 대상자 컴포지션을 통해 만든 대상자를 타겟팅하고 [여정]에서 데이터 보강 속성을 활용할 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -169,7 +169,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이 새로운 기능을 사용하면 푸시 자격 증명을 쉽게 관리하고 앱 표면의 전용 샌드박스와 연결할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../in-app/inapp-configuration.md#channel-prerequisites">세부 설명서</a>를 참고하십시오.</p>
+<p>자세한 내용은 <a href="../in-app/inapp-configuration.md#channel-prerequisites">세부 설명서</a>를 참조하십시오.</p>
 </tr>
 </tbody>
 </table>
@@ -267,7 +267,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>이제 Journey Optimizer에서 시드 목록을 만들고 관리할 수 있습니다. 시드 목록은 실제 대상자에 추가할 수 있는 내부 주소로 구성되며, 게재 실행 시 해당 목록의 주소는 타겟팅한 프로필과 정확히 동일한 메시지를 수신합니다. 이 기능을 사용하면 보내는 커뮤니케이션을 모니터링하여 모든 표시 형식, URL, 이미지, 링크가 올바른지 확인할 수 있습니다.</p>
 <img src="../configuration/assets/seed-list-details.png">
-<p>자세한 내용은 <a href="../configuration/seed-lists.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../configuration/seed-lists.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -328,16 +328,16 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>대상자 구성</strong><br/></th>
+<th><strong>대상자 컴포지션</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 구성 워크플로를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 강화...)을 활용하여 새 대상자를 만들 수 있습니다. 새로 만든 대상자는 기존 대상자와 함께 다시 Adobe Experience Platform에 저장되며, 이를 Journey Optimizer 캠페인에서 활용하여 고객을 타겟팅할 수 있습니다.</p>
+<p>이제 컴포지션 워크플로를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스에 모으고 다양한 활동(분할, 강화...)을 활용하여 새 대상자를 만들 수 있습니다. 새로 만든 대상자는 기존 대상자와 함께 다시 Adobe Experience Platform에 저장되며, 이를 Journey Optimizer 캠페인에서 활용하여 고객을 타겟팅할 수 있습니다.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>자세한 내용은 <a href="../audience/get-started-audience-orchestration.md">세부 설명서</a>를 참조하세요.</p>
-<p>대상자 구성은 대상자에게 중앙 포털 역할을 하는 새 Adobe Experience Platform "대상자" 메뉴와 완전히 통합됩니다. 이제 브라우저 페이지에서 새 대시보드를 사용할 수 있습니다. 새 대시보드에는 세그먼트 트렌드와 중복 사항이 표시되어 새로운 인사이트를 얻을 수 있고 폴더링과 태깅을 통해 조직 툴을 탐색할 수 있습니다. 여기에는 워크플로를 관리하기 위한 대상자 라이프사이클 관리 기능과 표준화된 대상자 레이블 지정을 위한 거버넌스 컨트롤이 포함되어 있습니다. 이 같은 새로운 관리 경험을 통해 한 곳에서 대상자를 쉽고 안전하게 관리할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko" target="_blank">Adobe Experience Platform 설명서</a>를 참고하세요.</p></p>
+<p>대상자 컴포지션은 대상자에게 중앙 포털 역할을 하는 새 Adobe Experience Platform "대상자" 메뉴와 완전히 통합됩니다. 이제 브라우저 페이지에서 새 대시보드를 사용할 수 있습니다. 새 대시보드에는 세그먼트 트렌드와 중복 사항이 표시되어 새로운 인사이트를 얻을 수 있고 폴더링과 태깅을 통해 조직 툴을 탐색할 수 있습니다. 여기에는 워크플로를 관리하기 위한 대상자 라이프사이클 관리 기능과 표준화된 대상자 레이블 지정을 위한 거버넌스 컨트롤이 임베드되어 있습니다. 이 같은 새로운 관리 경험을 통해 한 곳에서 대상자를 쉽고 안전하게 관리할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko" target="_blank">Adobe Experience Platform 설명서</a>를 참고하세요.</p></p>
 </td>
 </tr>
 </tbody>
@@ -356,7 +356,7 @@ A new option is available in the email surface settings to include email address
 <p>Journey Optimizer는 DM 게재 준비 시 타겟팅 프로필과 선택한 연락처 정보(예를 들면 우편 주소)가 있는 파일을 생성합니다. 그러면 이 파일을 DM 공급자에게 보내어 실제 전송을 처리하도록 할 수 있습니다.</p>
 <p>현재 Adobe Healthcare Shield 추가 기능 서비스를 구입한 조직에서는 다이렉트 메일 채널을 사용할 수 없습니다.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
-<p>자세한 내용은 <a href="../direct-mail/get-started-direct-mail.md">세부 설명서</a>를 참고하세요.</p>
+<p>자세한 내용은 <a href="../direct-mail/get-started-direct-mail.md">세부 설명서</a>를 참조하십시오.</p>
 </tr>
 </tbody>
 </table>
@@ -364,13 +364,13 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>이메일 디자이너를 위한 HTML 콘텐츠 변환</strong><br/></th>
+<th><strong>이메일 Designer에 대한 HTML 콘텐츠 변환</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer 이메일 편집기에서 HTML 콘텐츠를 가져오고 변환할 수 있습니다. 콘텐츠 블록은 자동으로 식별되며 이메일 디자이너에서 사용할 수 있습니다. 강력한 디자인 기능을 사용하여 업데이트하고 개인화해 보세요.</p>
+<p>이제 Journey Optimizer 이메일 편집기에서 HTML 콘텐츠를 가져오고 변환할 수 있습니다. 콘텐츠 블록은 자동으로 식별되며 이메일 Designer에서 사용할 수 있습니다. 강력한 디자인 기능을 사용하여 업데이트하고 개인화합니다.</p>
 <img src="assets/html-convert.png">
 <p>자세한 내용은 <a href="../email/existing-content.md">세부 설명서</a>를 참고하세요.</p>
 </td>
@@ -407,7 +407,7 @@ A new option is available in the email surface settings to include email address
 <tr>
 <td>
 <p>이제 전용 API를 사용하여 Adobe Journey Optimizer 콘텐츠 템플릿을 만들고 관리하여 기존 콘텐츠 시스템과 원활하게 통합할 수 있습니다.</p>
-<p>자세한 내용은 <a href="https://developer.adobe.com/journey-optimizer-apis/references/content/">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="https://developer.adobe.com/journey-optimizer-apis/references/content/">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -425,7 +425,7 @@ A new option is available in the email surface settings to include email address
 
 **대상자**
 
-대상자의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상자 선택기가 개선되었습니다. 대상자 구성 포털이 릴리스됨에 따라 Adobe Experience Platform 및 Adobe Journey Optimizer는 시스템 및 설명서 내에서 ‘대상자’ 및 ‘세그먼트’라는 용어의 사용을 업데이트했습니다.
+대상자의 원본 및 업데이트 빈도를 표시하는 새 열을 추가하여 여정 또는 캠페인의 대상자 선택기가 개선되었습니다. 대상자 컴포지션 포털이 릴리스됨에 따라 Adobe Experience Platform 및 Adobe Journey Optimizer는 시스템 및 설명서 내에서 ‘대상자’ 및 ‘세그먼트’라는 용어의 사용을 업데이트했습니다.
 
 * 대상자: 사람이나 계정, 가구 또는 기타 공통된 특성과 행동을 공유하는 엔티티의 집합입니다.
 * 세그먼트 정의: Adobe Experience Platform에서 타겟 대상자의 주요 특성 또는 행동을 설명하는 데 사용되는 규칙입니다. 전에는 이 용어를 그냥 “세그먼트”라고만 지칭했습니다.
@@ -586,7 +586,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>이제 의사 결정 관리에서 개인화된 최적화 AI 등급 모델을 정식으로 사용할 수 있습니다. 이 새로운 유형의 모델을 사용하면 대상자와 오퍼의 성과를 기반으로 오퍼를 최적화하고 개인화할 수 있습니다.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>자세한 내용은 <a href="../offers/ranking/personalized-optimization-model.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../offers/ranking/personalized-optimization-model.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -703,7 +703,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <li><strong>찾아보기</strong> 탭을 사용하면 모든 여정 목록에 액세스합니다.</li></ul>
 <p>이 기능은 모든 여정에서 공개 Beta로 액세스할 수 있습니다.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>자세한 내용은 <a href="../building-journeys/journey-gs.md#journey-access">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-gs.md#journey-access">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -776,7 +776,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tr>
 <td>
 <p>Journey Optimizer 사용자는 이제 태그를 사용하여 비즈니스 개체를 정리할 수 있습니다. 태그를 사용하면 개체를 빠르고 간단하게 분류하여 검색을 개선할 수 있습니다. 이 기능은 현재 beta 버전이며 여정에 대해서만 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../start/search-filter-categorize.md#tags">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../start/search-filter-categorize.md#tags">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -859,7 +859,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <p>이제 클라우드 스토리지 위치와 실시간 연결을 설정하여 데이터 세트의 콘텐츠를 내보낼 수 있습니다. 사용 가능한 대상은 Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP가 있습니다.</p>
 <p><strong>주의</strong> - 이 기능은 현재 beta 버전으로 모든 Adobe Journey Optimizer 사용자가 사용할 수 있습니다. 아직 액세스 권한이 없는 경우 Adobe 담당자에게 대상 액세스 권한 부여를 요청하십시오.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-<p>자세한 내용은 <a href="../data/export-datasets.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../data/export-datasets.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -986,7 +986,7 @@ Note that each widget can be resized and deleted as needed.
 <p>이제 빠른 재사용을 위해 여정과 캠페인에서 활용할 수 있는 독립 실행형 콘텐츠 템플릿을 만들 수 있습니다.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p><a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ko">이 비디오</a>에서 콘텐츠 템플릿을 작성, 편집, 사용하는 방법을 알아보십시오. 자세한 내용은 <a href="../content-management/content-templates.md">자세한 설명서</a>를 참조하세요.
+<p><a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ko">이 비디오</a>에서 콘텐츠 템플릿을 작성, 편집, 사용하는 방법을 알아보십시오. 자세한 내용은 <a href="../content-management/content-templates.md">세부 설명서</a>를 참조하십시오.
 </p>
 </td>
 </tr>

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2433'
 ht-degree: 95%
 
 ---
@@ -253,6 +253,7 @@ ht-degree: 95%
             + [개인화된 오퍼 삽입](using/email/add-offers-email.md)
             + [텍스트 버전 생성](using/email/text-version-email.md)
             + [메타데이터 추가](using/email/email-metadata.md)
+            + [사용자 지정 CSS 추가](using/email/custom-css.md)
          + 스타일 편집 {#edit-style}
             + [이메일 스타일 시작](using/email/get-started-email-style.md)
             + [배경 설정 편집](using/email/backgrounds.md)

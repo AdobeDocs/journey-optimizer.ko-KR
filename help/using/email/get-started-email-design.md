@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: ht
-source-wordcount: '608'
-ht-degree: 100%
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 | 권장 | 주의하여 사용 | 권장하지 않음 |
 |-|-|-|
-| <ul><li>구조화를 위한 <b>정적, 테이블 기반 레이아웃</b></li> <li>레이아웃 일관성을 위한 <b>HTML 테이블 및 중첩 테이블</b></li> <li>600px~800픽셀 사이의 <b>템플릿 너비</b> </li> <li>스타일 지정을 위한 <b>간단한 인라인 CSS</b> </li> <li>범용 호환성을 위한 <b>웹 지원 글꼴</b></li> | <ul><li><b>배경 이미지</b>의 경우 특정 이메일 플랫폼에서는 표시되지 않을 수 있습니다.</li><li><b>사용자 정의 웹 글꼴</b>은 범용으로 지원되지 않습니다.</li><li><b>넓은 레이아웃</b>의 경우 작은 화면에서는 제대로 표시되지 않을 수 있습니다.</li><li><b>이미지 맵</b>은 제한된 기능만 제공합니다.</li><li><b>포함된 CSS</b>는 이메일 게재 중에 제거되는 경우가 있습니다.</li> | <ul><li><b>JavaScript</b>는 일반적으로 이메일 환경에서 지원되지 않습니다.</li> <li> <b>`<iframe>`</b> 태그는 대부분의 플랫폼에서 차단되어 있습니다. </li> <li><b>Flash</b>는 오래되어 더 이상 지원되지 않습니다.</li> <li><b>포함된 오디오</b>는 재생되지 않는 경우가 많습니다.</li> <li><b>포함된 비디오</b>는 많은 이메일 플랫폼과 호환되지 않습니다.</li> <li> <b>Forms</b>는 이메일 내에서 작동하지 않습니다.</li> <li> `<div>` 계층화로 인해 렌더링 문제가 발생할 수 있습니다.</li> |
+| <ul><li>구조화를 위한 <b>정적, 테이블 기반 레이아웃</b></li> <li>레이아웃 일관성을 위한 <b>HTML 테이블 및 중첩 테이블</b></li> <li>600px~800픽셀 사이의 <b>템플릿 너비</b> </li> <li>스타일 지정을 위한 <b>간단한 인라인 CSS</b> </li> <li>범용 호환성을 위한 <b>웹 지원 글꼴</b></li> | <ul><li><b>배경 이미지</b>의 경우 특정 이메일 플랫폼에서는 표시되지 않을 수 있습니다.</li><li><b>사용자 정의 웹 글꼴</b>은 범용으로 지원되지 않습니다.</li><li><b>넓은 레이아웃</b>의 경우 작은 화면에서는 제대로 표시되지 않을 수 있습니다.</li><li><b>이미지 맵</b>은 제한된 기능만 제공합니다.</li><li><b>임베드된 CSS</b>는 이메일 게재 중에 제거되는 경우가 있습니다.</li> | <ul><li><b>JavaScript</b>는 일반적으로 이메일 환경에서 지원되지 않습니다.</li> <li> <b>`<iframe>`</b> 태그는 대부분의 플랫폼에서 차단되어 있습니다. </li> <li><b>Flash</b>는 오래되어 더 이상 지원되지 않습니다.</li> <li><b>임베드된 오디오</b>는 재생되지 않는 경우가 많습니다.</li> <li><b>임베드된 비디오</b>는 많은 이메일 플랫폼과 호환되지 않습니다.</li> <li> <b>Forms</b>는 이메일 내에서 작동하지 않습니다.</li> <li> `<div>` 계층화로 인해 렌더링 문제가 발생할 수 있습니다.</li> |
 
 ## 이메일 콘텐츠를 만드는 주요 단계 {#key-steps}
 
@@ -52,9 +52,9 @@ ht-degree: 100%
 
 1. [이메일 디자이너] 홈페이지에서 다음 옵션 중 이메일을 디자인할 방법을 선택합니다.
 
-   * 이메일 디자이너의 인터페이스를 통해 **이메일을 처음부터 디자인**&#x200B;하고 [Adobe Experience Manager Assets](../integrations/assets.md)의 이미지를 활용합니다. 이메일 콘텐츠를 디자인하는 방법은 [이 섹션](content-from-scratch.md)을 참조하십시오 .
+   * 이메일 Designer 인터페이스를 통해 **이메일을 처음부터 디자인하고** [Adobe Experience Manager Assets](../integrations/assets.md)의 이미지를 활용합니다. 이메일 콘텐츠를 디자인하는 방법은 [이 섹션](content-from-scratch.md)을 참조하십시오 .
 
-   * 이메일 디자이너에서 바로 **원시 HTML을 코딩하거나 붙여 넣습니다**. 콘텐츠를 직접 코딩하는 방법은 [이 섹션](code-content.md)을 참조하십시오.
+   * 이메일 Designer에서 직접 **원시 HTML을 코딩하거나 붙여넣기**. 콘텐츠를 직접 코딩하는 방법은 [이 섹션](code-content.md)을 참조하십시오.
 
      >[!NOTE]
      >
@@ -74,8 +74,8 @@ ht-degree: 100%
 
 메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416234?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B 테스트를 위한 콘텐츠 실험을 구성하여 비즈니스 목표 달성에 가장 도움이 되는 이메일 콘텐츠를 탐색하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447338?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
