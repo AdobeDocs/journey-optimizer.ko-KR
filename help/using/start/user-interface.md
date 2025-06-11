@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: a06872dd267b6fa63ea5be7fcc111015ff5e9d77
+source-git-commit: 476aaeb0d9d208eed3729b38c71a572daf0ec941
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 96%
+source-wordcount: '1643'
+ht-degree: 90%
 
 ---
 
@@ -174,6 +174,14 @@ ht-degree: 96%
 
 ![](assets/do-not-localize/Context-help.gif)
 
+## AI 어시스턴트 {#ai-assistant}
+
+AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 환경에 적절한 작업 인사이트를 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Journey Optimizer를 비롯한 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다.
+
+AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을 클릭하십시오. AI 어시스턴트는 화면 오른쪽에 표시됩니다.
+
+이 페이지](ai-assistant.md)에서 AI Assistant [에 액세스하고 사용하는 방법에 대해 알아봅니다.
+
 ## 언어 환경 설정 {#language-pref}
 
 사용자 인터페이스 제공 언어:
@@ -193,19 +201,66 @@ ht-degree: 96%
 
 언어를 변경하는 방법:
 
-* 오른쪽 상단의 아바타에서 **환경 설정**&#x200B;을 클릭합니다.
+* 오른쪽 상단의 아바타에서 **환경 설정**을 클릭합니다.
   ![](assets/preferences.png)
 * 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
-* 기본 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+* 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
   ![](assets/select-language.png)
+
+
+## 자세히 알아보기 {#more}
+
+[!DNL Journey Optimizer]를 처음 시작하나요? 구체적인 질문이 있는 숙련된 사용자이신가요? 일하시는 회사 인스턴스의 관리자이신가요? [목표를 더 빨리 달성하려면 각자의 길을 택하세요](quick-start.md)!
+
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 
 
-<!--CONTENT LOCKING-->
+<!--ORCHESTRATED CAMPAIGNS - Overview page-->
+
+<!--ORCHESTRATED CAMPAIGNS SKU only-->
 
 
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_1"
+>title="캠페인 오케스트레이션"
+>abstract="관계형 데이터 세트를 분할, 결합, 강화 및 조작하여 대상자를 정의합니다."
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_2"
+>title=Leverage multi-entity data"
+>abstract="오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위한 데이터를 강화하는 방법에 대해 알아봅니다"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_3"
+>title="임시 세분화 및 정확한 카운트"
+>abstract="정확한 카운트로 단계별 세그먼트 구축"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_4"
+>title="사용 가능한 채널"
+>abstract="이메일, SMS, 푸시 알림, DM"
+
+<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_1"
+>title="캠페인을 만들고 전송하기 위한 안내 UI"
+>abstract="채널을 사용하여 하나 이상의 작업을 설정하고, 대상을 선택하고, 콘텐츠를 설정하고, 일정을 정의하고, 전송할 준비가 되었습니다."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_2"
+>title="사용 가능한 채널"
+>abstract="이메일, SMS, 푸시 알림, 인앱, 웹, 코드 기반 경험"
 
 <!--APPROVAL POLICIES-->
 
