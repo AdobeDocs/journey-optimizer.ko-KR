@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 89%
+source-wordcount: '1694'
+ht-degree: 87%
 
 ---
 
@@ -184,7 +184,7 @@ AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 �
 
 AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을 클릭하십시오. AI 어시스턴트는 화면 오른쪽에 표시됩니다.
 
-이 페이지[&#128279;](ai-assistant.md)에서 AI Assistant 에 액세스하고 사용하는 방법에 대해 알아봅니다.
+이 페이지](ai-assistant.md)에서 AI Assistant [에 액세스하고 사용하는 방법에 대해 알아봅니다.
 
 ## 언어 환경 설정 {#language-pref}
 
@@ -207,10 +207,10 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 
 언어를 변경하려면 다음 단계를 수행합니다.
 
-1. 오른쪽 상단의 아바타에서 **환경 설정**&#x200B;을 클릭합니다.
+1. 오른쪽 상단의 아바타에서 **환경 설정**을 클릭합니다.
    ![](assets/preferences.png)
 1. 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
-1. 기본 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+1. 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
    ![](assets/select-language.png)
 
 +++
@@ -226,7 +226,8 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 
 <!--ORCHESTRATED CAMPAIGNS - Overview page-->
 
-<!--ORCHESTRATED CAMPAIGNS SKU only-->
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS SKU only-->
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +256,7 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 >title="사용 가능한 채널"
 >abstract="이메일, SMS, 푸시 알림, DM"
 
-<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
@@ -268,6 +269,30 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="사용 가능한 채널"
 >abstract="이메일, SMS, 푸시 알림, 인앱, 웹, 코드 기반 경험"
+
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_1"
+>title="트랜잭션 API 트리거 캠페인"
+>abstract="API 호출을 통해 실시간 메시지 트리거"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_2"
+>title="마케팅 메시지"
+>abstract="프로모션 콘텐츠(비즈니스 규칙에 따라 옵트인 필요)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_3"
+>title="트랜잭션 메시지"
+>abstract="서비스 관련 콘텐츠(확인, 경고, 마케팅 동의에 의하지 않음)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_4"
+>title="사용 가능한 채널"
+>abstract="이메일, SMS, 푸시 알림"
 
 <!--APPROVAL POLICIES-->
 
