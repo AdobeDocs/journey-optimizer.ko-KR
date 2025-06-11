@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 2%
@@ -86,7 +86,7 @@ ht-degree: 2%
 ## 일시 중지된 여정을 다시 시작하는 방법 {#journey-resume-steps}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_pause"
+>id="ajo_journey_resume"
 >title="여정 다시 시작"
 >abstract="일시 중지된 여정을 다시 시작하여 새 프로필을 다시 입력할 수 있습니다. 일시 중지 중에 프로필이 대기 중이었던 경우 여정을 계속합니다. 업데이트 또는 일시 중지 후 여정을 안전하게 다시 시작하는 데 이상적입니다."
 
