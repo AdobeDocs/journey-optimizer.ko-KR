@@ -26,9 +26,9 @@ ht-degree: 13%
 
 * **콘텐츠 디자이너의 인터페이스를 통해 랜딩 페이지를 처음부터 디자인**&#x200B;하고 [Adobe Experience Manager Assets](../integrations/assets.md)의 이미지를 활용하십시오. 콘텐츠 디자인 방법 알아보기 <!--or use built-in templates--> [이 섹션](../email/content-from-scratch.md)에 있습니다.
 
-* **원시 HTML을 콘텐츠 디자이너에 직접 코딩하거나 붙여 넣으십시오**. 이 섹션](../email/code-content.md)에서 자신의 콘텐츠 [을(를) 코딩하는 방법을 알아보세요.
+* **원시 HTML을 콘텐츠 디자이너에 직접 코딩하거나 붙여 넣으십시오**. 이 섹션[&#128279;](../email/code-content.md)에서 자신의 콘텐츠 을(를) 코딩하는 방법을 알아보세요.
 
-* 파일이나 .zip 폴더의 **기존 HTML 콘텐츠를 가져옵니다**. 이 섹션](../email/existing-content.md)에서 [ 콘텐츠를 가져오는 방법을 알아보세요.
+* 파일이나 .zip 폴더의 **기존 HTML 콘텐츠를 가져옵니다**. 이 섹션[&#128279;](../email/existing-content.md)에서  콘텐츠를 가져오는 방법을 알아보세요.
 
 * [!DNL Journey Optimizer]에서 만든 **저장된 랜딩 페이지 템플릿을 사용**&#x200B;합니다. [자세히 알아보기](lp-templates.md)
 
