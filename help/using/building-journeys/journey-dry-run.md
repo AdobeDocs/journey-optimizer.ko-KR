@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
+source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '914'
 ht-degree: 7%
 
 ---
@@ -22,8 +22,14 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="여정 시험 실행"
->abstract="여정을 디자인한 후에는 시험 실행을 수행하여 여정이 제대로 작동하는지 확인하고 단계가 올바르게 구성되도록 합니다. 이 게시 모드를 사용하면 프로필에 커뮤니케이션을 보내지 않고 여정을 미리 테스트할 수 있습니다."
+>title="시험 실행 모드"
+>abstract="이 여정은 시험 실행 중입니다. 여정 Dry Run은 여정 제공자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있는 Adobe Journey Optimizer의 특수 여정 게시 모드입니다.  이 기능은 여정 제공자가 라이브로 게시하기 전에 여정 디자인 및 대상 타깃팅에 대한 자신감을 갖도록 도와줍니다."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_dry_run_start"
+>title="시험 실행 모드로 여정 게시"
+>abstract="여정 시험 실행은 여정 실무자가 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있는 Adobe Journey Optimizer의 특수 여정 게시 모드입니다. 여정을 디자인한 후에는 시험 실행을 수행하여 여정이 제대로 작동하는지 확인하고 단계가 올바르게 구성되도록 합니다. 이 게시 모드를 사용하면 프로필에 커뮤니케이션을 보내지 않고 여정을 미리 테스트할 수 있습니다."
 
 여정 Dry Run은 여정 제공자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있는 Adobe Journey Optimizer의 특수 여정 게시 모드입니다.  이 기능은 여정 제공자가 라이브로 게시하기 전에 여정 디자인 및 대상 타깃팅에 대한 자신감을 갖도록 도와줍니다.
 
@@ -66,7 +72,7 @@ ht-degree: 7%
 
    * 이메일, SMS 또는 푸시 알림을 포함한 **채널 작업** 노드가 실행되지 않습니다.
    * **사용자 지정 작업**&#x200B;은(는) 시험 실행 중에 비활성화되며 해당 응답은 null로 설정됩니다.
-   * **대기 노드**&#x200B;은(는) 시험 실행 중에 무시됩니다.
+   * **대기 노드**은(는) 시험 실행 중에 무시됩니다.
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
    * 외부 데이터 원본을 포함한 **데이터 원본**&#x200B;은(는) 기본적으로 실행됩니다.
 

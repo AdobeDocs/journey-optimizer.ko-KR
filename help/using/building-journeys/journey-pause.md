@@ -10,14 +10,19 @@ hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1196'
 ht-degree: 2%
 
 ---
 
 # 여정 일시 중지 {#journey-pause}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_pause"
+>title="여정 일시 중지"
+>abstract="새 프로필이 입력되지 않도록 실시간 여정을 일시 중지합니다. 현재 여정에 있는 프로필을 삭제할지 또는 그대로 유지할지 선택합니다. 보존된 경우 여정이 다시 시작되면 다음 작업 활동에서 실행이 다시 시작됩니다. 진행률을 잃지 않고 업데이트 또는 긴급 중단에 적합합니다."
 
 라이브 여정을 일시 중지하고 필요한 모든 변경 사항을 수행한 다음 언제든지 다시 시작할 수 있습니다.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 일시 중지 중에 [전역 필터를 적용](#journey-global-filters)하여 특성을 기반으로 프로필을 제외할 수 있습니다. 여정은 일시 중지 기간이 끝나면 자동으로 다시 시작됩니다. [수동으로 다시 시작](#journey-resume-steps)할 수도 있습니다.
 
@@ -80,7 +85,12 @@ ht-degree: 2%
 
 ## 일시 중지된 여정을 다시 시작하는 방법 {#journey-resume-steps}
 
-일시 중지된 여정은 최대 일시 중지 기간인 14일이 끝날 때 자동으로 다시 시작됩니다. 언제든지 수동으로 다시 시작할 수 있습니다.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_pause"
+>title="여정 다시 시작"
+>abstract="일시 중지된 여정을 다시 시작하여 새 프로필을 다시 입력할 수 있습니다. 일시 중지 중에 프로필이 대기 중이었던 경우 여정을 계속합니다. 업데이트 또는 일시 중지 후 여정을 안전하게 다시 시작하는 데 이상적입니다."
+
+일시 중지된 여정은 최대 일시 중지 기간인 14일이 끝날 때 자동으로 다시 시작됩니다. 언제든지 수동으로 다시 시작할 수 있습니다. 일시 중지된 여정을 재개하면 새 프로필이 다시 들어갈 수 있습니다. 일시 중지 중에 프로필이 대기 중이었던 경우 여정을 계속합니다. 업데이트 또는 일시 중지 후 여정을 안전하게 다시 시작하는 데 이상적입니다.
 
 일시 중지된 여정을 다시 시작하고 여정 이벤트를 다시 수신하려면 다음 단계를 수행하십시오.
 
