@@ -12,7 +12,7 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="여정 목록 및 달력 보기"
->abstract="[!DNL Journey Optimizer]은(는) 여정 목록 외에도 여정의 일정을 시각적으로 명확하게 보여 주는 달력 보기를 제공합니다. 이 단추를 사용하여 언제든지 목록 보기와 달력 보기 간에 전환할 수 있습니다."
+>title="여정 목록 및 캘린더 보기"
+>abstract="여정 목록 외에도 [!DNL Journey Optimizer]는 여정에 대한 캘린더 보기를 제공하여 일정을 명확하게 시각적으로 보여 줍니다. 이들 버튼을 사용하여 언제든지 목록 보기와 캘린더 보기 사이를 전환할 수 있습니다."
 
 ## 여정 대시보드 {#dashboard-jo}
 

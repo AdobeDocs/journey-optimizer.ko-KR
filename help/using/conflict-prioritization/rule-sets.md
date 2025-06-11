@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 17%
+ht-degree: 22%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="규칙 캡핑"
->abstract="규칙의 캡핑을 설정합니다. 규칙 세트 도메인과 규칙 유형 필드의 선택 사항에 따라, 이 필드는 프로필로 보낼 수 있는 최대 메시지 수 또는 프로필이 동시에 입력하거나 등록할 수 있는 최대 여정 수를 정의할 수 있습니다."
+>abstract="규칙의 캡핑을 설정하십시오. 규칙 세트 도메인과 규칙 유형 필드에서의 선택에 따라 이 필드는 프로필로 보낼 수 있는 최대 메시지 수 또는 프로필이 동시에 입력되거나 등록될 수 있는 최대 여정 수를 정의할 수 있습니다."
 
 규칙 세트를 만들려면 아래 단계를 수행합니다.
 
@@ -164,4 +164,4 @@ ht-degree: 17%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -12,7 +12,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="캠페인 목록 및 달력 보기"
->abstract="[!DNL Journey Optimizer]은(는) 캠페인 목록 외에 캠페인의 일정 보기를 제공하여 일정에 대한 명확한 시각적 표현을 제공합니다. 이 단추를 사용하여 언제든지 목록 보기와 달력 보기 간에 전환할 수 있습니다."
+>title="캠페인 목록 및 캘린더 보기"
+>abstract="캠페인 목록 외에도 [!DNL Journey Optimizer]는 캠페인에 대한 캘린더 보기를 제공하여 일정을 명확하게 시각적으로 보여 줍니다. 이들 버튼을 사용하여 언제든지 목록 보기와 캘린더 보기 사이를 전환할 수 있습니다."
 
 캠페인은 **[!UICONTROL 캠페인]** 메뉴에서 액세스할 수 있습니다.
 

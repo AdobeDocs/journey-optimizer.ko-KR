@@ -26,7 +26,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
 >title="URL 추적 매개변수 미리보기"
->abstract="추적 매개변수를 이메일 콘텐츠에 있는 URL에 추가하는 방법을 확인합니다."
+>abstract="추적 매개변수를 이메일 콘텐츠에 있는 URL에 추가하는 방법을 확인하십시오."
 
 새 [전자 메일 채널 구성](email-settings.md)을 구성할 때 **[!UICONTROL URL 추적 매개 변수]**&#x200B;를 정의하여 채널 전반에서 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 활성화할 수 없습니다.
 
@@ -74,4 +74,4 @@ URL 추적 매개변수를 구성하기 위해 **[!UICONTROL 이름]** 및 **[!U
 
 >[!NOTE]
 >
->You can also add dynamic personalized tracking parameters to the links present in your email content. [자세히 알아보기](surface-personalization.md#personalize-url-tracking)
+>동적 개인화된 추적 매개 변수를 이메일 콘텐츠에 있는 링크에 추가할 수도 있습니다. [자세히 알아보기](surface-personalization.md#personalize-url-tracking)

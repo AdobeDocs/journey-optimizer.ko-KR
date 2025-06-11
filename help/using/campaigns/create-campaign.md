@@ -65,7 +65,7 @@ ht-degree: 22%
 
 1. **대상** 섹션에서 **[!UICONTROL 대상 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 대상 목록을 표시합니다. [이 섹션](../audience/about-audiences.md)에서 대상자에 대해 자세히 알아보세요.
 
-1. **[!UICONTROL ID 유형]** 필드에서 선택한 대상에서 개인을 식별하는 데 사용할 키 유형을 선택합니다. 기존 ID 유형을 사용하거나 Adobe Experience Platform ID 서비스를 사용하여 새 ID 유형을 만들 수 있습니다. 표준 ID 네임스페이스는 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}에 나열됩니다.
+1. **[!UICONTROL ID 유형]** 필드에서 선택한 대상에서 개인을 식별하는 데 사용할 키 유형을 선택합니다. 기존 ID 유형을 사용하거나 Adobe Experience Platform ID 서비스를 사용하여 새 ID 유형을 만들 수 있습니다. 표준 ID 네임스페이스는 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}에 나열됩니다.
 
    캠페인당 하나의 ID 유형만 허용됩니다. 다른 ID 중에서 선택한 ID 유형이 없는 세그먼트에 속하는 개인은 캠페인에서 타깃팅할 수 없습니다.
 
@@ -147,17 +147,17 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
 >title="캠페인 시작"
->abstract="메시지를 전송해야 하는 날짜와 시간을 지정합니다."
+>abstract="메시지를 전송해야 하는 날짜와 시간을 지정하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_end"
 >title="캠페인 종료"
->abstract="반복 캠페인 실행을 중지해야 하는 시점을 지정합니다."
+>abstract="반복 캠페인 실행을 중지해야 하는 시점을 지정하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
 >title="캠페인 액션 트리거"
->abstract="캠페인 메시지를 전송해야 하는 빈도를 정의합니다."
+>abstract="캠페인 메시지를 전송해야 하는 빈도를 정의하십시오."
 
 기본적으로 예약된 캠페인은 수동으로 활성화되면 시작되고 메시지가 한 번 전송되는 즉시 종료됩니다.
 
