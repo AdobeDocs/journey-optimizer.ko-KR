@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2514'
 ht-degree: 99%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 99%
 
 >[!CAUTION]
 >
->[실시간 고객 프로필 데이터 및 세분화에 대한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}이 Adobe Journey Optimizer에도 적용됩니다.
+>* [실시간 고객 프로필 데이터 및 세분화에 대한 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}이 Adobe Journey Optimizer에도 적용됩니다.
+>
+>* [실시간 고객 프로필에서 데이터 수집을 위한 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}도 참조하세요.
 
 
 ## 지원되는 브라우저 {#browsers}
