@@ -11,10 +11,10 @@ hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 7%
+source-wordcount: '917'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역으로 롤아웃될 예정입니다.
 
 
 ## 주요 이점 {#journey-dry-run-benefits}
@@ -72,7 +72,7 @@ ht-degree: 7%
 
    * 이메일, SMS 또는 푸시 알림을 포함한 **채널 작업** 노드가 실행되지 않습니다.
    * **사용자 지정 작업**&#x200B;은(는) 시험 실행 중에 비활성화되며 해당 응답은 null로 설정됩니다.
-   * **대기 노드**&#x200B;은(는) 시험 실행 중에 무시됩니다.
+   * **대기 노드**은(는) 시험 실행 중에 무시됩니다.
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
    * 외부 데이터 원본을 포함한 **데이터 원본**&#x200B;은(는) 기본적으로 실행됩니다.
 

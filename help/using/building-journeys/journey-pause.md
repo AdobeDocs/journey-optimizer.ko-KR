@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 2%
+source-wordcount: '1199'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역으로 롤아웃될 예정입니다.
 
 
 ## 주요 이점 {#journey-dry-run-benefits}
