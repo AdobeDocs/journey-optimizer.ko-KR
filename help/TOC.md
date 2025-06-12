@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '2433'
+source-wordcount: '2434'
 ht-degree: 95%
 
 ---
@@ -233,6 +233,7 @@ ht-degree: 95%
       + [승인 정책 만들기 및 관리](using/test-approve/approval-policies.md)
       + [승인 요청](using/test-approve/request-approval.md)
       + [요청 승인](using/test-approve/review-approve-request.md)
+   + [시스템 경고](using/reports/alerts.md)
 + 커뮤니케이션 채널 {#channels}
    + [소통 채널 시작](using/channels/gs-channels.md)
    + 이메일 채널 {#email}
@@ -267,6 +268,10 @@ ht-degree: 95%
          + [헤더 매개변수](using/email/header-parameters.md)
          + [URL 추적](using/email/url-tracking.md)
          + [이메일 구성 개인화](using/email/surface-personalization.md)
+      + 이메일 전달성 {#deliverability}
+      + [전달성 시작](using/reports/deliverability.md)
+      + [금지 목록 이해하기](using/reports/suppression-list.md)
+      + [새로운 DMARC 요구 사항](using/configuration/dmarc-record-update.md)
    + 인앱 채널{#in-app}
       + [인앱 채널 시작](using/in-app/get-started-in-app.md)
       + [인앱 채널 사전 요구 사항](using/in-app/inapp-configuration.md)
@@ -448,7 +453,7 @@ ht-degree: 95%
       + [계산된 속성 관련 작업](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [라이선스 사용](using/audience/license-usage.md)
-+ 보고 및 모니터링 {#reporting}
++ 보고 {#reporting}
    + [보고서 시작하기](using/reports/gs-reports.md)
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)
@@ -487,6 +492,7 @@ ht-degree: 95%
       + [개요 보고서](using/reports/channel-report-cja.md)
       + [랜딩 페이지 보고서](using/reports/lp-report-global-cja.md)
       + [구독 목록 보고서](using/reports/subscription-report-global-cja.md)
+      + [제외 이유](using/reports/exclusion-list.md)
    + 사용자 지정 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
@@ -498,12 +504,6 @@ ht-degree: 95%
          + [데이터 가져오기 필드](using/reports/sharing-fetch-fields.md)
          + [ID 필드](using/reports/sharing-identity-fields.md)
       + [쿼리 예제](using/reports/query-examples.md)
-   + 전달성 {#deliverability}
-      + [전달성 시작](using/reports/deliverability.md)
-      + [금지 목록 이해하기](using/reports/suppression-list.md)
-      + [새로운 DMARC 요구 사항](using/configuration/dmarc-record-update.md)
-   + [경고](using/reports/alerts.md)
-   + [제외 이유](using/reports/exclusion-list.md)
 + 결정 기능 {#decisioning}
    + [결정 기능 시작](using/experience-decisioning/gs-decision.md)
    + 결정 {#experience-decisioning}

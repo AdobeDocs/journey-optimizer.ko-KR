@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 경고
-description: 경고 관리 방법 알아보기
+title: 시스템 경고 액세스 및 구독
+description: 시스템 경고에 액세스하고 구독하는 방법을 알아봅니다
 feature: Journeys, Alerts
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# 경고 시작 {#alerts}
+# 시스템 경고 액세스 및 구독 {#alerts}
 
 여정 및 캠페인을 작성할 때 실행 또는 게시하기 전에 **경고** 단추를 사용하여 오류를 확인하고 해결하십시오. [이 페이지](../building-journeys/troubleshooting.md)에서 여정 문제를 해결하는 방법을 알아보세요. [이 페이지](../campaigns/review-activate-campaign.md)에서 캠페인을 검토하는 방법을 알아보세요.
 
@@ -37,9 +37,9 @@ ht-degree: 0%
 
 ![](assets/alert-subscribe.png)
 
-[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 알림을 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 아래에 자세히 설명되어 있습니다.
+[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 알림을 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 아래에 자세히 설명되어 있습니다.
 
-예기치 않은 동작이 발생하면 구독자에게 경고 알림이 전송됩니다. 사용자 환경 설정에 따라 경고는 이메일로 전송되거나 사용자 인터페이스의 오른쪽 상단 모서리에 있는 Journey Optimizer 알림 센터 내에서 직접 전송됩니다. 기본적으로 인앱 경고만 활성화됩니다. 전자 메일 알림을 사용하려면 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}를 참조하세요.
+예기치 않은 동작이 발생하면 구독자에게 경고 알림이 전송됩니다. 사용자 환경 설정에 따라 경고는 이메일로 전송되거나 사용자 인터페이스의 오른쪽 상단 모서리에 있는 Journey Optimizer 알림 센터 내에서 직접 전송됩니다. 기본적으로 인앱 경고만 활성화됩니다. 전자 메일 알림을 사용하려면 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}를 참조하세요.
 
 경고가 해결되면 구독자에게 &quot;해결됨&quot; 알림이 전송됩니다.
 

@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '422'
 ht-degree: 14%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 14%
 >id="ajo_admin_surface_sms_type"
 >title="메시지 카테고리 정의"
 >abstract="이 구성을 사용하는 문자 메시지 유형 선택: 사용자 동의가 필요한 프로모션 메시지를 위한 마케팅 또는 암호 재설정과 같은 비상업적 메시지를 위한 트랜잭션."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko#sms-opt-out-management" text="마케팅 문자 메시지 옵트아웃"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="마케팅 문자 메시지 옵트아웃"
 
-SMS/MMS 채널이 구성되면 **[!DNL Journey Optimizer]**&#x200B;에서 SMS 및 MMS 메시지를 보낼 수 있도록 채널 구성을 만들어야 합니다.
+SMS/MMS 채널이 구성되면 **[!DNL Journey Optimizer]**&#x200B;에서 SMS 및/또는 MMS 메시지를 보낼 수 있는 채널 구성을 만들어야 합니다.
 
 채널 구성을 만들려면 다음 단계를 수행하십시오.
 
@@ -51,7 +51,7 @@ SMS/MMS 채널이 구성되면 **[!DNL Journey Optimizer]**&#x200B;에서 SMS �
 
    >[!CAUTION]
    >
-   >마케팅 커뮤니케이션의 구독을 취소한 프로필에 **트랜잭션** 메시지를 보낼 수 있습니다. 이 메시지는 특정 컨텍스트에서만 보낼 수 있습니다.
+   >마케팅 커뮤니케이션의 구독을 취소한 프로필에 **트랜잭션** 메시지를 보낼 수 있습니다. 이러한 메시지는 특정 상황에서만 전송될 수 있습니다.
 
 1. 구성과 연결할 **[!UICONTROL SMS 구성]**&#x200B;을(를) 선택하십시오.
 
