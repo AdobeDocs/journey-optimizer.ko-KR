@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 95%
@@ -269,9 +269,9 @@ ht-degree: 95%
          + [URL 추적](using/email/url-tracking.md)
          + [이메일 구성 개인화](using/email/surface-personalization.md)
       + 이메일 전달성 {#deliverability}
-      + [전달성 시작](using/reports/deliverability.md)
-      + [금지 목록 이해하기](using/reports/suppression-list.md)
-      + [새로운 DMARC 요구 사항](using/configuration/dmarc-record-update.md)
+         + [전달성 시작](using/reports/deliverability.md)
+         + [금지 목록 이해하기](using/reports/suppression-list.md)
+         + [새로운 DMARC 요구 사항](using/configuration/dmarc-record-update.md)
    + 인앱 채널{#in-app}
       + [인앱 채널 시작](using/in-app/get-started-in-app.md)
       + [인앱 채널 사전 요구 사항](using/in-app/inapp-configuration.md)
@@ -468,6 +468,7 @@ ht-degree: 95%
       + [Customer Journey Analytics 수동 구성](using/reports/cja-ajo.md)
       + [보고서 관리](using/reports/report-cja-manage.md)
       + [보고 및 실험 전제 조건](using/reports/reporting-configuration.md)
+      + [제외 이유](using/reports/exclusion-list.md)
       + 캠페인 보고서{#reporting}
          + [캠페인 보고서](using/reports/campaign-global-report-cja.md)
          + [코드 기반 캠페인 보고서](using/reports/campaign-global-report-cja-code.md)
@@ -492,7 +493,6 @@ ht-degree: 95%
       + [개요 보고서](using/reports/channel-report-cja.md)
       + [랜딩 페이지 보고서](using/reports/lp-report-global-cja.md)
       + [구독 목록 보고서](using/reports/subscription-report-global-cja.md)
-      + [제외 이유](using/reports/exclusion-list.md)
    + 사용자 지정 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
