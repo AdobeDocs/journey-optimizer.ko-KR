@@ -141,7 +141,7 @@ Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 �
 
 Adobe Express 도구를 사용하여 Adobe Journey Optimizer에서 자산을 편집하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455530/?quality=12&captions=kor)
 
 
 
