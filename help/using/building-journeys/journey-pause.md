@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
+source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -123,13 +123,13 @@ ht-degree: 0%
 
 1. **종료 기준 및 전역 필터** 아이콘을 클릭합니다.
 
-   ![일시 중지된 여정에 전역 필터 추가](assets/add-global-filter.png){width="50%" align="left"}
+   ![일시 중지된 여정에 전역 필터 추가](assets/add-global-filter.png)
 
 1. **종료 조건 및 전역 필터** 설정에서 **전역 필터 추가**&#x200B;를 클릭하여 프로필 특성에 따라 필터를 정의합니다.
 
 1. 국가 속성이 프랑스와 같은 프로필을 제외하도록 표현식을 설정합니다.
 
-   ![일시 중지된 여정에 전역 필터 추가](assets/add-country-filter.png){width="50%" align="left"}
+   ![일시 중지된 여정에 전역 필터 추가](assets/add-country-filter.png)
 
 1. 필터를 저장하고 **여정 업데이트** 단추를 클릭하여 변경 내용을 적용합니다.
 
