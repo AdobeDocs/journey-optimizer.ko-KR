@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 101796a9221beeb1fa4950d806a91997ee6c9ae4
+source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 62%
+source-wordcount: '2164'
+ht-degree: 61%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 62%
 
 **릴리스 날짜**: 2025년 6월 17~18일
 
-[Adobe Experience Platform 시험판 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하세요.
+[Adobe Experience Platform 시험판 정보](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하세요.
 
 ### 새로운 기능 {#25-06-features}
 
@@ -201,6 +201,7 @@ ht-degree: 62%
    * **사용자 지정 CSS 지원** - 이제 Journey Optimizer에서 사용자 지정 CSS를 이메일 디자이너 내에서 바로 이메일 콘텐츠에 추가할 수 있습니다.
    * **다크 모드 지원** - 이제 Journey Optimizer 이메일 디자이너가 특정 설정을 정의할 수 있는 다크 모드로 전환하는 기능을 제공합니다.
 
+* **캠페인** - 액션 캠페인에 대한 새로운 탭 탐색. 이 새로운 탐색 패턴을 통해 콘텐츠 작성에 보다 빠르게 액세스하고 캠페인 간 설정을 더욱 확장할 수 있습니다.
 
 * **Decisioning** - 사용 가능한 날짜: 2025년 6월 3일
 
