@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0abf2743f7b43b54df5305f47e3bd20d37df6f39
+source-git-commit: 9845e8ca89943b7c2bb7d236cac5e30aa2b01e23
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 86%
+source-wordcount: '2129'
+ht-degree: 62%
 
 ---
 
@@ -20,9 +20,127 @@ ht-degree: 86%
 >title="새로운 기능"
 >abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선, 버그 수정을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
 
-[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하십시오.
 
-## 2025년 6월 업데이트 {#25-6-rn}
+
+
+## 2025년 6월 초기 릴리스 정보 {#25-6-rn}
+
+
+**아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
+
+**릴리스 날짜**: 2025년 6월 17~18일
+
+
+### 새로운 기능 {#25-06-features}
+
+이번 릴리스의 새로운 기능을 아래에서 자세히 설명합니다.
+
+
+<table>
+<thead>
+<tr>
+<th><strong>RCS 메시징</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer에서 RCS(Rich Communication Services) 메시징이 지원되므로 공급자 및 통신사 지원에서 다음과 같은 향상된 메시징 기능을 사용할 수 있습니다.</p>
+<ul>
+<li>브랜드 및 인증된 발신자 지원: 브랜드 요소(로고, 발신자 이름 등)가 있는 인증된 비즈니스 프로필을 사용하여 메시지를 보냅니다.</li>
+<li>메시지 게재 인사이트: 메시지 상태 업데이트(예: 보냄, 배달됨, 읽기)를 포함한 자세한 게재 보고서를 받습니다.</li>
+<li>링크 추적: 참여 분석을 위해 RCS 메시지 내에 URL을 임베드하고 추적합니다.</li>
+<li>SMS로 폴백: 프로필의 장치가 RCS를 지원하지 않거나 RCS를 통해 일시적으로 연결할 수 없는 경우 SMS로 자동 폴백합니다.</li>
+<li>기본 메시지 구성: 공급업체 지원에 따라 선택적 미디어 및 리치 요소와 함께 텍스트 기반 RCS 메시지를 전송합니다.</li>
+</ul>
+<!--p>For more information, refer to the <a href="../sms/sms-configuration.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>코드 기반 경험 콘텐츠의 양식 필드</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 JSON 또는 HTML 콘텐츠 템플릿에서 편집 가능한 특정 필드를 정의할 수 있습니다. 이렇게 하면 기술 전문가가 아닌 사용자도 코드를 조작하지 않고도 코드 기반 경험 채널 작성 내에서 양식 보기로 콘텐츠를 쉽게 편집할 수 있습니다. 그 외에도 코드 기반 경험 콘텐츠 템플릿을 정의할 때 이제 템플릿에 의사 결정 정책을 삽입할 수 있으므로 재사용성과 사용 편의성을 높일 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>하위 도메인을 위한 사용자 지정 위임 방법</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 전체 위임과 CNAME 메서드 외에도 새로운 하위 도메인 구성 방법인 사용자 정의 위임 메서드를 사용할 수 있습니다. 이 방법을 사용하면 메시지 전달, 렌더링 및 추적에 필요한 DNS의 모든 측면을 완벽하게 제어하고 유지 관리할 수 있습니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>여정의 Content Decisioning 활동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정 캔버스에서 전용 Content Decisioning 활동을 통해 개인화된 오퍼를 여정에 포함하고 조건 및 사용자 지정 작업을 포함한 여정 활동에서 사용할 수 있습니다.</p>
+<p>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역으로 롤아웃될 예정입니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 시험 실행</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>여정 Dry Run은 여정 제공자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있는 Adobe Journey Optimizer의 특수 여정 게시 모드입니다. 이 기능은 여정 제공자가 라이브로 게시하기 전에 여정 디자인 및 대상 타깃팅에 대한 자신감을 갖도록 도와줍니다.</p>
+<p>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역으로 롤아웃될 예정입니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>일시 중지 및 다시 시작 여정</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정을 일시 중지했다가 다시 시작할 수 있습니다. 이 기능을 사용하면 고객 경험을 중단하지 않고 라이브 여정을 일시적으로 중단할 수 있으므로 여정 실무자가 보다 강력하게 제어하고 유연화할 수 있습니다. 일시 중지되면 통신이 전송되지 않으며 프로필은 여정이 다시 시작될 때까지 일시 중지된 상태로 유지됩니다.</p>
+<p>하나의 여정만 일시 중지했다가 다시 시작할 수 있으며, 일괄 일시 중지 및 다시 시작 작업을 수행하여 여정 그룹에 대한 작업을 다시 시작할 수 있습니다.</p>
+<p>또한 일시 중지된 프로필에 전역 필터를 적용하여 여정의 속성에 따라 프로필을 제외할 수 있습니다.</p>
+<p>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역으로 롤아웃될 예정입니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -63,7 +181,26 @@ ht-degree: 86%
 </tbody>
 </table>
 
-### 개선 사항
+
+### 개선 사항 {#25-06-improv}
+
+다음은 이번 릴리스의 개선 사항 목록입니다.
+
+* **채널 규칙 집합**
+
+   * **시간 제한을 위한 사용자 지정 기간 창** - 이제 채널 규칙 집합 구성 화면에서 새 **반복 횟수** 필드를 사용할 수 있으므로 지정된 기간에 따라 여러 날, 주 또는 달에 걸쳐 빈도 제한 규칙을 적용할 수 있습니다.
+
+   * **시간별 기간** - 이제 채널 규칙 집합에 대해 시간별로 상한을 적용할 수 있습니다.
+
+* **코드 기반 경험**
+
+  이제 코드 기반 경험 콘텐츠 템플릿 및 코드 편집기 오른쪽 레일에서 의사 결정 정책을 사용할 수 있습니다.
+
+* **이메일 디자이너**
+
+   * **사용자 지정 CSS 지원** - 이제 Journey Optimizer에서 사용자 지정 CSS를 이메일 디자이너 내에서 바로 이메일 콘텐츠에 추가할 수 있습니다.
+   * **다크 모드 지원** - 이제 Journey Optimizer 이메일 디자이너가 특정 설정을 정의할 수 있는 다크 모드로 전환하는 기능을 제공합니다.
+
 
 * **Decisioning** - 사용 가능한 날짜: 2025년 6월 3일
 
