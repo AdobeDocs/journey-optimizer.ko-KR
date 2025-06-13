@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -167,7 +167,7 @@ ht-degree: 0%
 
 아래 여정의 예를 살펴보겠습니다.
 
-![여정 샘플](assets/pause-journey-sample.png){width="50%" align="left"}
+![여정 샘플](assets/pause-journey-sample.png)
 
 이 여정을 일시 중지할 때 프로필이 **삭제됨** 또는 **보류**&#x200B;인지 선택한 다음 프로필 관리가 다음과 같습니다.
 
