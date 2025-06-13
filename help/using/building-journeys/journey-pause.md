@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >* 여정을 일시 중지하고 다시 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [이 섹션](../administration/permissions-overview.md)에서 [!DNL Journey Optimizer] 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 >
->* 일시 중지/다시 시작 기능을 사용하기 전에 [보호 기능 및 제한 사항을 읽어보세요](journey-pause-guardrails).
+>* 일시 중지/다시 시작 기능을 사용하기 전에 [보호 기능 및 제한 사항을 읽어보세요] (journey-pause-guardrails).
 
 
 ## 여정 일시 중지 방법 {#journey-pause-steps}
