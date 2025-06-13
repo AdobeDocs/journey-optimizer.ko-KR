@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 35%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 RCS(Rich Communication Services) 메시징이 지원되므로 통신사 지원 시 다음과 같은 향상된 메시징 기능을 사용할 수 있습니다.</p>
+<p>이제 Journey Optimizer에서 RCS(Rich Communication Services) 메시징이 지원되므로 공급자 및 통신사 지원에서 다음과 같은 향상된 메시징 기능을 사용할 수 있습니다.</p>
 <ul>
 <li>브랜드 및 인증된 발신자 지원: 브랜드 요소(로고, 발신자 이름 등)가 있는 인증된 비즈니스 프로필을 사용하여 메시지를 보냅니다.</li>
 <li>메시지 게재 인사이트: 메시지 상태 업데이트(예: 보냄, 배달됨, 읽기)를 포함한 자세한 게재 보고서를 받습니다.</li>
