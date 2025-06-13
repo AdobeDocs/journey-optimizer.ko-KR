@@ -10,9 +10,9 @@ role: User
 level: Beginner
 keywords: 에셋, 통합
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '549'
 ht-degree: 11%
 
 ---
@@ -41,26 +41,19 @@ Adobe Express에 대한 자세한 내용은 [이 설명서](https://helpx.adobe.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-## Adobe Express Enterprise 라이선스 {#licence}
+## Enterprise 라이선스와 함께 Adobe Express 사용 {#licence}
 
 아래 섹션에 설명된 기능은 Adobe Express Enterprise 라이센스가 없는 사용자가 액세스할 수 있습니다.
 
-Enterprise 라이센스를 통해 사용자는 Adobe Express 편집기에 대한 전체 액세스 권한을 얻으므로 색상, 밝기, 선명도, 대비, 치수 및 추가 설정을 조정하여 이미지를 수정할 수 있습니다.
+Enterprise 라이선스를 사용하면 사용자가 Adobe Express 웹 편집기에 대한 전체 액세스 권한을 가지므로 에셋 설정을 조정하고, Firefly을 사용하여 콘텐츠를 생성하고, 텍스트를 추가하고, 추가 사용자 지정을 적용할 수 있습니다.
 
 ![](assets/express-licence.png)
 
-+++사용자를 위한 사용 사례 및 Adobe Express용 엔터프라이즈 라이선스
+Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 있는 사용 사례에 대한 자세한 내용은 [Adobe Express 웹 설명서](https://helpx.adobe.com/express/web.html)를 참조하세요.
 
-* [배경 제거](https://helpx.adobe.com/kr/express/create-and-edit-images/edit-images/remove-background.html)
-* [개체 제거](https://helpx.adobe.com/kr/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [지우기](https://helpx.adobe.com/kr/express/create-and-edit-images/edit-images/eraser.html)
-* [개체 삽입](https://helpx.adobe.com/kr/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [자르기](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [효과](https://helpx.adobe.com/kr/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+## Enterprise 라이선스 없이 Adobe Express 사용  {#edit}
 
-+++
-
-## 이미지 크기 조정 {#resize}
+### 이미지 크기 조정 {#resize}
 
 1. Adobe Express 메뉴에서 **[!UICONTROL 이미지 크기 조정]**&#x200B;을 선택합니다.
 
@@ -84,7 +77,7 @@ Enterprise 라이센스를 통해 사용자는 Adobe Express 편집기에 대한
 
 이제 이미지를 콘텐츠에서 사용할 준비가 되었습니다.
 
-## 배경 제거 {#background}
+### 배경 제거 {#background}
 
 1. Adobe Express 메뉴에서 **[!UICONTROL 배경 제거]**&#x200B;를 선택합니다.
 
@@ -104,7 +97,7 @@ Enterprise 라이센스를 통해 사용자는 Adobe Express 편집기에 대한
 
 이제 이미지를 콘텐츠에서 사용할 준비가 되었습니다.
 
-## 이미지 자르기 {#crop-image}
+### 이미지 자르기 {#crop-image}
 
 1. Adobe Express 메뉴에서 **[!UICONTROL 이미지 자르기]**&#x200B;를 선택합니다.
 
@@ -122,7 +115,7 @@ Enterprise 라이센스를 통해 사용자는 Adobe Express 편집기에 대한
 
 이제 이미지를 콘텐츠에서 사용할 준비가 되었습니다.
 
-## JPEG 또는 PNG로 변환 {#convert}
+### JPEG 또는 PNG로 변환 {#convert}
 
 1. Adobe Express 메뉴에서 이미지 원본 형식에 따라 **[!UICONTROL JPEG으로 변환]** 또는 **[!UICONTROL PNG로 변환]**&#x200B;을 선택합니다.
 
@@ -144,12 +137,11 @@ Enterprise 라이센스를 통해 사용자는 Adobe Express 편집기에 대한
 
 이제 이미지를 콘텐츠에서 사용할 준비가 되었습니다.
 
-
 ## 사용 방법 비디오 {#video}
 
 Adobe Express 도구를 사용하여 Adobe Journey Optimizer에서 자산을 편집하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455530/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
