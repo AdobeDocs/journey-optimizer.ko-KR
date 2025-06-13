@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
+source-git-commit: 8188749c47be0a3d91b9857d170bceb4747a3400
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 35%
+source-wordcount: '1017'
+ht-degree: 33%
 
 ---
 
@@ -83,8 +83,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>이제 JSON 또는 HTML 콘텐츠 템플릿에서 편집 가능한 특정 필드를 정의할 수 있으며, 이를 통해 기술 전문가가 아닌 사용자도 코드를 조작하지 않고도 코드 기반 경험에서 콘텐츠를 쉽게 편집할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이제 JSON 또는 HTML 콘텐츠 템플릿에서 편집 가능한 특정 필드를 정의할 수 있습니다. 이렇게 하면 기술 전문가가 아닌 사용자도 코드를 조작하지 않고도 코드 기반 경험 채널 작성 내에서 양식 보기로 콘텐츠를 쉽게 편집할 수 있습니다. 그 외에도 코드 기반 경험 콘텐츠 템플릿을 정의할 때 이제 템플릿에 의사 결정 정책을 삽입할 수 있으므로 재사용성과 사용 편의성을 높일 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
