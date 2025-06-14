@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '930'
 ht-degree: 5%
 
 ---
@@ -56,25 +56,10 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->시험 실행 시작 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. 시험 실행을 중지할 수 있는 권한은 **[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [이 섹션](../administration/permissions-overview.md)에서 [!DNL Journey Optimizer] 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>* 시험 실행 시작 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. 시험 실행을 중지할 수 있는 권한은 **[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [이 섹션](../administration/permissions-overview.md)에서 [!DNL Journey Optimizer] 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>
+>* 시험 실행 기능을 사용하기 전에 [보호 기능 및 제한 사항을 읽어보세요](#journey-dry-run-limitations).
 
-
-## 가드레일 및 제한 사항 {#journey-dry-run-limitations}
-
-* 반응 이벤트가 포함된 여정은 드라이 실행 모드를 사용할 수 없습니다.
-* 드라이 실행 모드의 프로필은 참여 가능한 프로필에 계산됩니다.
-* 시험 실행 여정은 비즈니스 규칙에 영향을 주지 않습니다.
-* 새 여정 버전을 만들 때 이전 여정 버전이 **Live**&#x200B;인 경우 새 버전에서는 시험 실행 활성화가 허용되지 않습니다.
-* 여정 드라이 실행은 stepEvents를 생성합니다. 이러한 stepEvents에는 특정 플래그와 드라이 실행 ID가 있습니다.
-   * `_experience.journeyOrchestration.stepEvents.inDryRun`은(는) 시험 실행이 활성화되면 `true`을(를) 반환하고 그렇지 않으면 `false`을(를) 반환합니다.
-   * `_experience.journeyOrchestration.stepEvents.dryRunID`에서 시험 실행 인스턴스의 ID를 반환합니다.
-* 드라이 실행 중에 여정은 다음 특성을 사용하여 실행됩니다.
-
-   * 이메일, SMS 또는 푸시 알림을 포함한 **채널 작업** 노드가 실행되지 않습니다.
-   * **사용자 지정 작업**&#x200B;은(는) 시험 실행 중에 비활성화되며 해당 응답은 null로 설정됩니다.
-   * **대기 노드**&#x200B;은(는) 시험 실행 중에 무시됩니다.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * 외부 데이터 원본을 포함한 **데이터 원본**&#x200B;은(는) 기본적으로 실행됩니다.
 
 ## 시험 실행 시작 {#journey-dry-run-start}
 
@@ -132,3 +117,20 @@ ht-degree: 5%
 **닫기** 단추를 클릭하여 테스트를 종료한 다음 **초안으로 돌아가기**&#x200B;를 클릭하여 확인합니다.
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+
+## 가드레일 및 제한 사항 {#journey-dry-run-limitations}
+
+* 반응 이벤트가 포함된 여정은 드라이 실행 모드를 사용할 수 없습니다.
+* 드라이 실행 모드의 프로필은 참여 가능한 프로필에 계산됩니다.
+* 시험 실행 여정은 비즈니스 규칙에 영향을 주지 않습니다.
+* 새 여정 버전을 만들 때 이전 여정 버전이 **Live**&#x200B;인 경우 새 버전에서는 시험 실행 활성화가 허용되지 않습니다.
+* 여정 드라이 실행은 stepEvents를 생성합니다. 이러한 stepEvents에는 특정 플래그와 드라이 실행 ID가 있습니다.
+   * `_experience.journeyOrchestration.stepEvents.inDryRun`은(는) 시험 실행이 활성화되면 `true`을(를) 반환하고 그렇지 않으면 `false`을(를) 반환합니다.
+   * `_experience.journeyOrchestration.stepEvents.dryRunID`에서 시험 실행 인스턴스의 ID를 반환합니다.
+* 드라이 실행 중에 여정은 다음 특성을 사용하여 실행됩니다.
+
+   * 이메일, SMS 또는 푸시 알림을 포함한 **채널 작업** 노드가 실행되지 않습니다.
+   * **사용자 지정 작업**&#x200B;은(는) 시험 실행 중에 비활성화되며 해당 응답은 null로 설정됩니다.
+   * **대기 노드**은(는) 시험 실행 중에 무시됩니다.
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * 외부 데이터 원본을 포함한 **데이터 원본**&#x200B;은(는) 기본적으로 실행됩니다.

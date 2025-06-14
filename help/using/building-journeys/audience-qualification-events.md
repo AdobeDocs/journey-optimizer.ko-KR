@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1202'
 ht-degree: 5%
 
 ---
@@ -33,39 +33,13 @@ ht-degree: 5%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-### 가드레일 및 추천 사항 {#important-notes-segment-qualification}
-
-아래 보호 기능 및 권장 사항에 따라 대상 자격 여정을 작성하십시오. [대상 자격 모범 사례](#best-practices-segments)도 참조하세요.
-
-
-* 대상 자격 여정은 주로 스트리밍 대상으로 작동하도록 설계되었습니다. 이 조합은 더 나은 실시간 경험을 보장합니다. 대상 자격 활동에서 **스트리밍 대상**&#x200B;을 사용하는 것이 좋습니다.
-
-  그러나 스트리밍 대상 또는 대상 자격 여정에 일괄 처리 수집 기반 속성을 사용하려면 대상 평가/활성화에 대한 시간 범위를 고려하십시오. 일괄 수집된 특성을 사용하는 일괄 처리 대상자 또는 스트리밍 대상자는 세분화 작업이 완료된 후 약 **2시간**&#x200B;후에 **대상자 자격** 활동에서 사용할 수 있습니다. 이 작업은 Adobe 조직 관리자가 정의한 시간에 매일 한 번 실행됩니다.
-
-* Adobe Experience Platform 대상은 하루에 한 번(**일괄 처리**&#x200B;개 대상) 또는 실시간으로 계산됩니다(**스트리밍됨**&#x200B;개 대상의 경우 Adobe Experience Platform의 고주파 대상 옵션을 사용).
-
-   * 선택한 대상자가 스트리밍되는 경우 이 대상자에 속하는 개인은 잠재적으로 실시간으로 여정에 입장할 수 있습니다.
-   * 대상이 일괄 처리인 경우 Adobe Experience Platform에서 대상 계산이 실행될 때 이 대상에 대해 새로 자격을 얻은 사람이 여정에 들어올 수 있습니다.
-
-  가장 좋은 방법은 **대상 자격** 활동에서 스트리밍 대상을 사용하는 것입니다. 일괄 사용 사례의 경우 **[대상자 읽기](read-audience.md)** 활동을 사용하십시오.
-
-  >[!NOTE]
-  >
-  >작성 워크플로우 및 사용자 지정 업로드를 사용하여 생성된 대상자의 배치 특성으로 인해 이러한 대상자를 &quot;대상자 자격&quot; 활동에서 타깃팅할 수 없습니다. 세그먼트 정의를 사용하여 생성된 대상만 이 활동에서 활용할 수 있습니다.
-
-
-* **대상자 읽기**, **대상자 자격 요건** 또는 **비즈니스 이벤트** 활동으로 시작하는 여정에서 경험 이벤트 필드 그룹을 사용할 수 없습니다.
-
-* 여정에서 **대상 자격** 활동을 사용하는 경우 해당 활동이 활성 상태가 되는 데 최대 10분이 소요될 수 있으며 대상에 들어오거나 나가는 프로필을 수신합니다.
-
 
 >[!CAUTION]
 >
->[실시간 고객 프로필 데이터 및 세분화에 대한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}이 Adobe Journey Optimizer에도 적용됩니다.
+>대상 자격 구성을 시작하기 전에 [보호 기능 및 제한 사항을 읽어보세요](#audience-qualification-guardrails).
 
 
-
-### 활동 구성 {#configure-segment-qualification}
+## 활동 구성 {#configure-segment-qualification}
 
 **[!UICONTROL 대상 자격]** 활동을 구성하려면 다음 단계를 수행합니다.
 
@@ -93,7 +67,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 
@@ -135,7 +109,7 @@ ht-degree: 5%
 
 스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트를 보내는 대신 비즈니스 규칙을 사용합니다. [자세히 알아보기](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
+스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
 
 ### 오버로드를 방지하는 방법 {#overloads-speed-segment-qualification}
 
@@ -145,14 +119,46 @@ ht-degree: 5%
 
   ![](assets/segment-error.png)
 
-* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ko){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
+* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
 
 * 프로덕션 여정에서 대상을 사용하기 전에 매일 이 대상에 대해 자격이 있는 개인의 양을 평가하십시오. 이렇게 하려면 **[!UICONTROL 대상자]** 메뉴를 확인하고 대상자를 연 다음 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프를 보십시오.
 
   ![](assets/segment-overload.png)
 
+## 가드레일 및 제한 사항 {#audience-qualification-guardrails}
+
+아래 보호 기능 및 권장 사항에 따라 대상 자격 여정을 작성하십시오. [대상 자격 모범 사례](#best-practices-segments)도 참조하세요.
+
+
+* 대상 자격 여정은 주로 스트리밍 대상으로 작동하도록 설계되었습니다. 이 조합은 더 나은 실시간 경험을 보장합니다. 대상 자격 활동에서 **스트리밍 대상**&#x200B;을 사용하는 것이 좋습니다.
+
+  그러나 스트리밍 대상 또는 대상 자격 여정에 일괄 처리 수집 기반 속성을 사용하려면 대상 평가/활성화에 대한 시간 범위를 고려하십시오. 일괄 수집된 특성을 사용하는 일괄 처리 대상자 또는 스트리밍 대상자는 세분화 작업이 완료된 후 약 **2시간**&#x200B;후에 **대상자 자격** 활동에서 사용할 수 있습니다. 이 작업은 Adobe 조직 관리자가 정의한 시간에 매일 한 번 실행됩니다.
+
+* Adobe Experience Platform 대상은 하루에 한 번(**일괄 처리**&#x200B;개 대상) 또는 실시간으로 계산됩니다(**스트리밍됨**&#x200B;개 대상의 경우 Adobe Experience Platform의 고주파 대상 옵션을 사용).
+
+   * 선택한 대상자가 스트리밍되는 경우 이 대상자에 속하는 개인은 잠재적으로 실시간으로 여정에 입장할 수 있습니다.
+   * 대상이 일괄 처리인 경우 Adobe Experience Platform에서 대상 계산이 실행될 때 이 대상에 대해 새로 자격을 얻은 사람이 여정에 들어올 수 있습니다.
+
+  가장 좋은 방법은 **대상 자격** 활동에서 스트리밍 대상을 사용하는 것입니다. 일괄 사용 사례의 경우 **[대상자 읽기](read-audience.md)** 활동을 사용하십시오.
+
+  >[!NOTE]
+  >
+  >작성 워크플로우 및 사용자 지정 업로드를 사용하여 생성된 대상자의 배치 특성으로 인해 이러한 대상자를 &quot;대상자 자격&quot; 활동에서 타깃팅할 수 없습니다. 세그먼트 정의를 사용하여 생성된 대상만 이 활동에서 활용할 수 있습니다.
+
+
+* **대상자 읽기**, **대상자 자격 요건** 또는 **비즈니스 이벤트** 활동으로 시작하는 여정에서 경험 이벤트 필드 그룹을 사용할 수 없습니다.
+
+* 여정에서 **대상 자격** 활동을 사용하는 경우 해당 활동이 활성 상태가 되는 데 최대 10분이 소요될 수 있으며 대상에 들어오거나 나가는 프로필을 수신합니다.
+
+
+>[!CAUTION]
+>
+>[실시간 고객 프로필 데이터 및 세분화에 대한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}이 Adobe Journey Optimizer에도 적용됩니다.
+
+
+
 ## 사용 방법 비디오 {#video}
 
 이 비디오에서 대상 자격 여정에 적용할 수 있는 사용 사례를 이해합니다. 대상 검증을 사용하여 여정을 구축하는 방법 및 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446211?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

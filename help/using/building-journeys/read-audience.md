@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2195'
 ht-degree: 14%
 
 ---
@@ -31,26 +31,9 @@ ht-degree: 14%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-## 가드레일 및 추천 사항 {#must-read}
-
-* 여정에서 **[!UICONTROL 대상자 읽기]** 활동은 하나만 사용할 수 있으며 캔버스에서 첫 번째 활동이어야 합니다.
-
-* **[!UICONTROL 대상자 읽기]** 활동은 한 대상자만 타깃팅할 수 있습니다. 여러 대상이 필요한 경우 사용하기 전에 이러한 대상을 하나의 대상으로 병합하는 것이 좋습니다. [컴포지션 워크플로를 사용하여 대상자를 결합하는 방법에 대해 알아보세요](../audience/get-started-audience-orchestration.md)
-
-* **대상자 읽기** 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 여정의 최대 개수가 정해져 있습니다. 다시 시도는 시스템에서 수행되지만 정확히 같은 시간에 시작하여 5개 이상의 여정(**대상자 읽기** 사용, 예약됨 또는 &quot;가능한 한 빨리&quot; 시작)가 시작되지 않도록 합니다. 가장 좋은 방법은 예를 들어 5분에서 10분 간격과 같이 시간이 지남에 따라 이를 분산시키는 것입니다.
-
-* **대상자 읽기** 활동, **[대상자 자격](audience-qualification-events.md)** 활동 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 경험 이벤트 필드 그룹을 사용할 수 없습니다.
-
-* 가장 좋은 방법은 **대상자 읽기** 활동에서만 일괄 대상자를 사용하는 것입니다. 이렇게 하면 여정에 사용된 대상자에 대해 안정적이고 일관된 카운트를 제공합니다. 대상자 읽기는 일괄 사용 사례용으로 설계되었습니다. 사용 사례에 실시간 데이터가 필요한 경우 **[대상 자격](audience-qualification-events.md)** 활동을 사용하십시오.
-
-* CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
-
-**대상자 읽기** 활동과 관련된 보호 기능은 [이 페이지](../start/guardrails.md#read-segment-g)에 나열되어 있습니다.
-
-
 >[!CAUTION]
 >
->[실시간 고객 프로필 데이터 및 세분화에 대한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}이 Adobe Journey Optimizer에도 적용됩니다.
+>* 대상자 읽기 활동을 사용하기 전에 [보호 기능 및 제한 사항을 읽어보세요](#must-read).
 
 ## 활동 구성 {#configuring-segment-trigger-activity}
 
@@ -68,7 +51,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >또한 [대상 구성](../audience/get-started-audience-orchestration.md) 또는 [CSV 파일에서 업로드한](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience){target="_blank"}을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다.
+   >또한 [대상 구성](../audience/get-started-audience-orchestration.md) 또는 [CSV 파일에서 업로드한](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다.
 
    목록에 표시되는 열을 사용자 정의하고 정렬할 수 있습니다.
 
@@ -82,13 +65,35 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >대상자 참가 상태가 **실현됨**&#x200B;인 개인만 여정에 들어갑니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참가 상태가 **실현됨**&#x200B;인 개인만 여정에 들어갑니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL 네임스페이스]** 필드에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
    >서로 다른 ID 중에서 선택한 ID(네임스페이스)가 없는 대상에 속하는 개인은 여정에 들어갈 수 없습니다. 사용자 기반 ID 네임스페이스만 선택할 수 있습니다. 조회 테이블에 대한 네임스페이스를 정의한 경우(예: 제품 조회에 대한 ProductID 네임스페이스) **네임스페이스** 드롭다운 목록에서 사용할 수 없습니다.
+
+### 가드레일 및 추천 사항 {#must-read}
+
+* 여정에서 **[!UICONTROL 대상자 읽기]** 활동은 하나만 사용할 수 있으며 캔버스에서 첫 번째 활동이어야 합니다.
+
+* **[!UICONTROL 대상자 읽기]** 활동은 한 대상자만 타깃팅할 수 있습니다. 여러 대상이 필요한 경우 사용하기 전에 이러한 대상을 하나의 대상으로 병합하는 것이 좋습니다. [컴포지션 워크플로를 사용하여 대상자를 결합하는 방법에 대해 알아보세요](../audience/get-started-audience-orchestration.md)
+
+* **대상자 읽기** 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 여정의 최대 개수가 정해져 있습니다. 다시 시도는 시스템에서 수행되지만 정확히 같은 시간에 시작하여 5개 이상의 여정(**대상자 읽기** 사용, 예약됨 또는 &quot;가능한 한 빨리&quot; 시작)가 시작되지 않도록 합니다. 가장 좋은 방법은 예를 들어 5분에서 10분 간격과 같이 시간이 지남에 따라 이를 분산시키는 것입니다.
+
+* **대상자 읽기** 활동, **[대상자 자격](audience-qualification-events.md)** 활동 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 경험 이벤트 필드 그룹을 사용할 수 없습니다.
+
+* 가장 좋은 방법은 **대상자 읽기** 활동에서만 일괄 대상자를 사용하는 것입니다. 이렇게 하면 여정에 사용된 대상자에 대해 안정적이고 일관된 카운트를 제공합니다. 대상자 읽기는 일괄 사용 사례용으로 설계되었습니다. 사용 사례에 실시간 데이터가 필요한 경우 **[대상 자격](audience-qualification-events.md)** 활동을 사용하십시오.
+
+* CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
+
+**대상자 읽기** 활동과 관련된 보호 기능은 [이 페이지](../start/guardrails.md#read-segment-g)에 나열되어 있습니다.
+
+
+>[!CAUTION]
+>
+>[실시간 고객 프로필 데이터 및 세분화에 대한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}이 Adobe Journey Optimizer에도 적용됩니다.
+
 
 ### 여정의 프로필 항목 관리
 
@@ -287,4 +292,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 대상자 읽기 활동으로 트리거되는 여정에 적용할 수 있는 사용 사례를 이해합니다. 일괄 처리 단위 기반 여정을 작성하는 방법과 상황에 따라 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430365?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
