@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 다이내믹, 콘텐츠
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 15%
+source-wordcount: '653'
+ht-degree: 14%
 
 ---
 
@@ -45,6 +45,11 @@ Adobe Journey Optimizer을 사용하면 라이브러리에서 만든 조건부 �
 1. 콘텐츠가 준비되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 다양한 변형을 미리 볼 수 있습니다. [메시지 테스트 및 미리 보기 방법 알아보기](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
+
+>[!CAUTION]
+>
+>조건부 블록을 추가한 후 이메일 Designer이 제대로 렌더링되지 않는 경우 각 새 조건의 구문이 올바르고 중복되거나 충돌하는 문이 없는지 확인합니다. 문제가 지속되면 새 템플릿에서 문제 섹션을 다시 빌드하고 각 조건부 블록을 점진적으로 테스트하십시오.
+
 
 ## 이메일에 동적 콘텐츠 추가 {#emails}
 
