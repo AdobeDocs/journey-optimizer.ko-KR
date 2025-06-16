@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 데이터 세트, 최적화 도구, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '894'
 ht-degree: 2%
 
 ---
@@ -167,6 +167,12 @@ ORDER BY timestamp DESC;
 여기서 날짜 형식은 `YYYY-MM-DD HH:MM:SS`입니다.
 
 식별되면 Journey Optimizer 제외 목록에서 해당 주소를 제거합니다. [자세히 알아보기](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+
+
+>[!NOTE]
+>
+>일부 여정에서 `messageID`은(는) 각 개별 게재에 대해 고유하지 않을 수 있습니다. 여정이 동일한 프로필에 동일한 작업을 다시 보내는 경우 동일한 `messageID`을(를) 다시 사용할 수 있습니다. 따라서 개별 전송 수준에서 이벤트를 정확하게 추적하거나 특성을 지정하려면 `journeyVersionID`, `journeyActionID`, `batchInstanceID`(일괄 처리 여정) 또는 `identityMap` 필드를 결합하여 더 정확한 고유성을 만듭니다.
+
 
 ## 푸시 추적 경험 이벤트 데이터 세트 {#push-tracking-experience-event-dataset}
 
