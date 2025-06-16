@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
+source-git-commit: 4aaef970b76002c72e3c28f55078d96fdc3cd882
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 5%
+source-wordcount: '1450'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 사용자 지정 작업, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
 
-이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko)를 참조하세요.
+이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)를 참조하세요.
 
 >[!NOTE]
 >
@@ -41,9 +41,12 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
 
 * 내보낸 오브젝트에 프로필 개인화가 포함된 경우 개인화 문제를 방지하기 위해 Target 샌드박스에 적절한 스키마가 존재하는지 확인하십시오.
 
+* 랜딩 페이지는 현재 샌드박스 간 마이그레이션에 지원되지 않습니다. 여정을 다른 샌드박스로 복사할 때 여정 또는 이메일 콘텐츠의 랜딩 페이지에 대한 참조는 여전히 원래(소스) 샌드박스 랜딩 페이지 ID를 가리킵니다. 마이그레이션 후에는 대상(대상) 샌드박스의 올바른 랜딩 페이지 ID를 사용하도록 여정 및 이메일 콘텐츠의 모든 랜딩 페이지 참조를 수동으로 업데이트해야 합니다. [랜딩 페이지 만들기 및 게시](../landing-pages/create-lp.md)를 참조하세요.
+
+
 ### 여정 {#journeys}
 
-* 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 이 [섹션](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko#abobe-journey-optimizer-objects)을(를) 참조하세요.
+* 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 이 [섹션](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)을(를) 참조하세요.
 
 * 연결된 모든 요소가 대상 샌드박스에 복사된다고 보장하지는 않습니다. 예를 들어 여정을 게시하기 전에 철저한 검사를 수행하는 것이 좋습니다. 이를 통해 잠재적인 누락된 오브젝트를 식별할 수 있습니다.
 
