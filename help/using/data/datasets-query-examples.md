@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 데이터 세트, 최적화 도구, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
+source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 2%
@@ -146,6 +146,11 @@ select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
+>[!NOTE]
+>
+>일부 여정에서 `messageID`은(는) 각 개별 게재에 대해 고유하지 않을 수 있습니다. 여정이 동일한 프로필에 동일한 작업을 다시 보내는 경우 동일한 `messageID`을(를) 다시 사용할 수 있습니다. 따라서 개별 전송 수준에서 이벤트를 정확하게 추적하거나 특성을 지정하려면 `journeyVersionID`, `journeyActionID`, `batchInstanceID`(일괄 처리 여정) 또는 `identityMap` 필드를 결합하여 더 정확한 고유성을 만듭니다.
+
+
 ### ISP 중단 후 격리된 주소 확인{#isp-outage-query}
 
 인터넷 서비스 공급자(ISP) 가동이 중단된 경우 일정 기간 동안 특정 도메인에 대한 바운스 수(격리됨)로 잘못 매핑된 이메일 주소를 식별해야 합니다. 이러한 주소를 얻으려면 다음 쿼리를 사용하십시오.
@@ -169,9 +174,6 @@ ORDER BY timestamp DESC;
 식별되면 Journey Optimizer 제외 목록에서 해당 주소를 제거합니다. [자세히 알아보기](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 
->[!NOTE]
->
->일부 여정에서 `messageID`은(는) 각 개별 게재에 대해 고유하지 않을 수 있습니다. 여정이 동일한 프로필에 동일한 작업을 다시 보내는 경우 동일한 `messageID`을(를) 다시 사용할 수 있습니다. 따라서 개별 전송 수준에서 이벤트를 정확하게 추적하거나 특성을 지정하려면 `journeyVersionID`, `journeyActionID`, `batchInstanceID`(일괄 처리 여정) 또는 `identityMap` 필드를 결합하여 더 정확한 고유성을 만듭니다.
 
 
 ## 푸시 추적 경험 이벤트 데이터 세트 {#push-tracking-experience-event-dataset}
