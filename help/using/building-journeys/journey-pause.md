@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: df9787d3a22d6fc615049fd738317c943e46ce8f
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 1. 일시 중지할 여정을 엽니다.
 1. 여정 캔버스의 오른쪽 상단에 있는 **...자세히** 단추를 클릭하고 **일시 중지**&#x200B;를 선택합니다.
 
-   ![여정 단추 일시 중지](assets/pause-journey-button.png){width="80%" align="left"}
+   ![여정 단추 일시 중지](assets/pause-journey-button.png)
 
 1. 현재 여정에 있는 프로필을 관리하는 방법을 선택합니다.
 
@@ -78,8 +78,8 @@ ht-degree: 0%
 
 | 여정 활동 | 프로필 관리 |
 |-------------------------|--------------------------------------------------|
-| [대상 자격](audience-qualification-events.md) | 첫 번째 노드에서: 삭제됨 <br> 다른 노드에서: 라이브 여정과 동일한 동작이지만 대상 자격이 <strong>Action</strong> 활동 후이고 사용자가 해당 작업에서 일시 중지된 경우 대상 자격이 삭제됩니다. |
-| [단일 이벤트](general-events.md) | 첫 번째 노드에서: 삭제됨 <br>다른 노드에서: 라이브 여정과 동일한 동작이지만 이벤트가 <strong>Action</strong> 활동 이후이고 사용자가 해당 작업에서 일시 중지된 경우에는 이벤트가 삭제됩니다. |
+| [대상 자격](audience-qualification-events.md) | <ul> <li>첫 번째 노드에서: 프로필이 삭제됩니다. </li><br><li>다른 노드: 라이브 여정과 동일한 동작이지만 대상 자격이 <strong>Action</strong> 활동 후이고 사용자가 해당 작업에서 일시 중지된 경우 대상 자격은 무시됩니다. </li></ul> |
+| [단일 이벤트](general-events.md) | - 첫 번째 노드에서: 프로필이 삭제되었습니다. <br>다른 노드에서는: 라이브 여정과 동일한 동작을 하지만, 이벤트가 <strong>Action</strong> 활동 이후이고 사용자가 해당 작업에서 일시 중지된 경우에는 이벤트가 무시됩니다. |
 | [대상자 읽기](read-audience.md) | 몇 가지 특성을 가진 라이브 여정과 같은 동작입니다. <br>1.  <strong>대상자 읽기</strong> 활동이 시작된 후 <strong>일시 중지</strong>를 누르면 여정에 들어간 프로필이 다음 <strong>작업</strong> 활동까지 계속됩니다. 여정이 특정 속도로 대상자를 읽을 때 전체 대상자를 아직 입력하지 않은 경우 대기열의 나머지 프로필은 무시됩니다.   <br>2. 단일 실행의 경우: 예약된 날짜가 다시 시작 날짜 이전인 경우 다시 시작 시간에 오류가 표시되지 않습니다. 해당 일정은 무시됩니다. <br>3. 증분 여정의 경우: <br>- 첫 번째 발생 전에 일시 중지가 발생하면 전체 대상이 재생됩니다. <br>- 예를 들어, 일별 반복 중 4일에 일시 중지가 발생하고 9일까지 여정이 일시 중지된 상태로 유지되면 4일부터 9일까지 입력한 모든 프로필이 다시 시작됩니다 |
 | [반응](reaction-events.md) | 라이브 여정과 동일한 동작이지만, 반응이 <strong>Action</strong> 활동 후이고 사용자가 해당 작업에서 일시 중지된 경우 이벤트가 무시됩니다. |
 | [대기](wait-activity.md) | 라이브 여정과 동일한 비헤이비어 |
