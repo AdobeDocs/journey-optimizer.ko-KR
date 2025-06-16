@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 8e5213cf51183c68e87c2cec9cb12984acf8151a
+source-git-commit: 437868d49f4bc4123e370b60d09ba0bf644e43d9
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 6%
@@ -185,5 +185,5 @@ ht-degree: 6%
 
 이 여정을 다시 시작할 때:
 
-1. 1분 이내에 새로운 여정 시작
+1. 새로운 여정 입구는 1분 이내에 시작됩니다.
 1. **작업** 활동의 여정에서 현재 대기 중인 프로필이 5k tps 속도로 다시 시작됩니다. 그러면 대기 중이던 **Action**&#x200B;을(를) 입력하고 여정을 계속할 수 있습니다.
