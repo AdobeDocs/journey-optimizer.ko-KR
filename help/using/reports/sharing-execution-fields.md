@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 190f757853f65b7434319047760c2efb43d2d702
+source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 4%
@@ -51,13 +51,11 @@ ht-degree: 4%
 
 유형: long
 
->[!NOTE]
->
-> `actionExecutionTime` 필드는 큐에 대기 중인 요청이 소요된 시간(제한이 구성되어 있고 속도 제한에 도달한 경우)과 실제 실행 시간(외부 끝점에 대한 네트워크 대기 시간 포함)을 포함하여 작업을 실행하는 데 소요되는 총 시간(밀리초)을 나타냅니다.
->
-> `Timestamp` 필드는 작업 실행의 종료 시간을 나타냅니다. 프로필이 사용자 지정 작업 노드에 언제 입력되었는지 확인하려면 `Timestamp`에서 `actionExecutionTime`을(를) 뺍니다.
->
->예를 들어 `Timestamp`이(가) &quot;2025-02-04 09:39:03 UTC&quot;이고 `actionExecutionTime`이(가) 1,813,227ms(~31분)인 경우 프로필이 약 &quot;2025-02-04 09:08:32 UTC&quot;에 노드에 입장했습니다.
+`actionExecutionTime` 필드는 큐에 대기 중인 요청이 소요된 시간(제한이 구성되어 있고 속도 제한에 도달한 경우)과 실제 실행 시간(외부 끝점에 대한 네트워크 대기 시간 포함)을 포함하여 작업을 실행하는 데 소요되는 총 시간(밀리초)을 나타냅니다.
+
+`Timestamp` 필드는 작업 실행의 종료 시간을 나타냅니다. 프로필이 사용자 지정 작업 노드에 언제 입력되었는지 확인하려면 `Timestamp`에서 `actionExecutionTime`을(를) 뺍니다.
+
+예를 들어 `Timestamp`이(가) &quot;2025-02-04 09:39:03 UTC&quot;이고 `actionExecutionTime`이(가) 1,813,227ms(~31분)인 경우 프로필이 약 &quot;2025-02-04 09:08:32 UTC&quot;에 노드에 입장했습니다.
 
 
 
