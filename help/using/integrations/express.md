@@ -10,10 +10,10 @@ role: User
 level: Beginner
 keywords: 에셋, 통합
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
+source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 11%
+source-wordcount: '576'
+ht-degree: 10%
 
 ---
 
@@ -52,6 +52,13 @@ Enterprise 라이선스를 사용하면 사용자가 Adobe Express 웹 편집기
 Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 있는 사용 사례에 대한 자세한 내용은 [Adobe Express 웹 설명서](https://helpx.adobe.com/express/web.html)를 참조하세요.
 
 ## Enterprise 라이선스 없이 Adobe Express 사용  {#edit}
+
+Enterprise 라이센스가 없는 사용자는 Adobe Express에서 사용할 수 있는 다음 사용 사례에 액세스할 수 있습니다.
+
+* [이미지 크기 조정](#resize)
+* [배경 제거](#background)
+* [이미지 자르기](#crop-image)
+* [JPEG 또는 PNG로 변환](#convert)
 
 ### 이미지 크기 조정 {#resize}
 
@@ -141,7 +148,7 @@ Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 �
 
 Adobe Express 도구를 사용하여 Adobe Journey Optimizer에서 자산을 편집하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455530/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
