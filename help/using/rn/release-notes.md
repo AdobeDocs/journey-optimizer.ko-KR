@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2143'
 ht-degree: 71%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 71%
 
 **릴리스 날짜**: 2025년 6월 17~18일
 
-[Adobe Experience Platform 시험판 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하세요.
+[Adobe Experience Platform 시험판 정보](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하세요.
 
 ### 새로운 기능 {#25-06-features}
 
@@ -69,7 +69,7 @@ ht-degree: 71%
 <tbody>
 <tr>
 <td>
-<p>이제 JSON 또는 HTML 콘텐츠 템플릿에서 편집 가능한 특정 필드를 정의할 수 있습니다. 이렇게 하면 기술 전문가가 아닌 사용자도 코드를 조작하지 않고도 코드 기반 경험 채널 작성 내에서 양식 보기로 콘텐츠를 쉽게 편집할 수 있습니다. 그 외에도 코드 기반 경험 콘텐츠 템플릿을 정의할 때 이제 템플릿에 의사 결정 정책을 삽입할 수 있으므로 재사용성과 사용 편의성을 높일 수 있습니다.</p>
+<p>이제 JSON 또는 HTML 콘텐츠 템플릿에서 편집 가능한 특정 필드를 정의할 수 있습니다. 이렇게 하면 기술 전문가가 아닌 사용자도 코드를 조작하지 않고도 코드 기반 경험 채널 작성 내에서 양식 보기로 콘텐츠를 쉽게 편집할 수 있습니다.<br />그 이상으로는 코드 기반 경험 콘텐츠 템플릿을 정의할 때 이제 템플릿에 의사 결정 정책을 삽입할 수 있으므로 재사용성과 사용 편의성을 높일 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
@@ -85,7 +85,6 @@ ht-degree: 71%
 <tr>
 <td>
 <p>이제 전체 위임과 CNAME 메서드 외에도 새로운 하위 도메인 구성 방법인 사용자 정의 위임 메서드를 사용할 수 있습니다. 이 방법을 사용하면 메시지 전달, 렌더링 및 추적에 필요한 DNS의 모든 측면을 완벽하게 제어하고 유지 관리할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 </td>
 </tr>
 </tbody>
@@ -194,14 +193,17 @@ ht-degree: 71%
 
 * **코드 기반 경험**
 
-  이제 코드 기반 경험 콘텐츠 템플릿 및 코드 편집기 오른쪽 레일에서 의사 결정 정책을 사용할 수 있습니다.
+   * 이제 코드 기반 경험 콘텐츠 템플릿에서 의사 결정 정책을 추가할 수 있습니다.
 
-* **이메일 디자이너**
+   * 이제 코드 기반 경험 여정 또는 캠페인 버전 화면에서 개인화 편집기를 열지 않고도 의사 결정 정책을 직접 추가할 수 있습니다.
 
-   * **사용자 지정 CSS 지원** - 이제 Journey Optimizer에서 사용자 지정 CSS를 이메일 디자이너 내에서 바로 이메일 콘텐츠에 추가할 수 있습니다.
-   * **다크 모드 지원** - 이제 Journey Optimizer 이메일 디자이너가 특정 설정을 정의할 수 있는 다크 모드로 전환하는 기능을 제공합니다.
+* **전자 메일 Designer에서 사용자 지정 CSS 지원**
 
-* **캠페인** - 액션 캠페인에 대한 새로운 탭 탐색. 이 새로운 탐색 패턴을 통해 콘텐츠 작성에 보다 빠르게 액세스하고 캠페인 간 설정을 더욱 확장할 수 있습니다.
+  이제 Journey Optimizer을 사용하여 이메일 Designer 내에서 바로 이메일 콘텐츠에 사용자 지정 CSS를 추가할 수 있습니다.
+
+* **캠페인을 위한 새로운 탭 탐색**
+
+  새로운 탐색 패턴을 통해 콘텐츠 작성에 보다 빠르게 액세스하고 캠페인 간 설정을 더욱 확장할 수 있습니다.
 
 * **결정** - 사용 가능한 날짜: 2025년 6월 3일
 
