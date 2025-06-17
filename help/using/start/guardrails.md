@@ -26,7 +26,7 @@ ht-degree: 99%
 >
 >* [실시간 고객 프로필 데이터 및 세분화에 대한 가드레일](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}이 Adobe Journey Optimizer에도 적용됩니다.
 >
->* [실시간 고객 프로필에서 데이터 수집을 위한 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}도 참조하세요.
+>* [실시간 고객 프로필에서 데이터 수집을 위한 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails){target="_blank"}도 참조하세요.
 
 
 ## 지원되는 브라우저 {#browsers}

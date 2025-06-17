@@ -30,7 +30,7 @@ ht-degree: 71%
 
 **릴리스 날짜**: 2025년 6월 17~18일
 
-[Adobe Experience Platform 시험판 정보](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하세요.
+[Adobe Experience Platform 시험판 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하세요.
 
 ### 새로운 기능 {#25-06-features}
 
