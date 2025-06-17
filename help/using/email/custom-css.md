@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 이메일 콘텐츠에 사용자 지정 CSS 추가
+title: 이메일 콘텐츠에 사용자 정의 CSS 추가
 description: Journey Optimizer의 이메일 Designer 내에서 직접 이메일 콘텐츠에 사용자 지정 CSS를 추가하는 방법을 알아봅니다
 feature: Email Design
 topic: Content Management
@@ -10,19 +10,19 @@ level: Intermediate
 keywords: css, 편집기, 요약, 이메일
 hide: true
 hidefromtoc: true
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bf9f1dbacba54e8b2c499d888ba1f4d66c78b7ee
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 1%
+source-wordcount: '690'
+ht-degree: 8%
 
 ---
 
-# 이메일 콘텐츠에 사용자 지정 CSS 추가 {#email-metadata}
+# 이메일 콘텐츠에 사용자 정의 CSS 추가 {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
->title="나만의 CSS 입력"
->abstract="콘텐츠의 모양을 보다 유연하게 제어하고, 이메일 Designer 내에 직접 사용자 지정 CSS를 추가하여 고급 및 특정 스타일을 적용할 수 있습니다."
+>title="자체 CSS 입력"
+>abstract="콘텐츠의 모양을 보다 유연하게 제어하려면 이메일 디자이너 내에서 사용자 정의 CSS를 직접 추가하여 고급 및 특정 스타일을 적용할 수 있습니다."
 
 전자 메일을 디자인할 때 [!DNL Journey Optimizer] [전자 메일 Designer](get-started-email-design.md) 내에서 직접 사용자 지정 CSS를 추가할 수 있습니다. 이 기능을 사용하면 고급 및 특정 스타일을 적용하여 보다 유연하게 콘텐츠를 표시하고 제어할 수 있습니다.
 
@@ -199,6 +199,12 @@ body {
 
 사용자 지정 CSS는 이메일 Designer의 **[!UICONTROL 설정]** 창에서 해석되거나 확인되지 않습니다. 완전히 독립적이며 **[!UICONTROL 사용자 지정 CSS 추가]** 옵션을 통해서만 수정할 수 있습니다.
 
+`global-custom` 스타일 태그에 `data-disabled` 특성이 `true`(으)로 설정된 경우 사용자 지정 CSS가 적용되지 않습니다. 예:
+
+```html
+<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+```
+
 ### 가져온 콘텐츠
 
 이메일 Designer으로 가져온 콘텐츠와 함께 사용자 지정 CSS를 사용하려면 다음을 고려하십시오.
@@ -216,7 +222,7 @@ body {
 
 * CSS가 올바르고 구문 오류(예: 중괄호 누락, 잘못된 속성 이름)가 없는지 확인합니다. [방법 알아보기](#use-valid-css)
 
-* CSS가 `data-name="global-custom"` 특성이 있는 `<style>` 태그에 추가되고 있는지 확인하십시오. [자세히 알아보기](#implementation)
+* CSS가 `data-name="global-custom"` 특성이 있는 `<style>` 태그에 추가되고 있으며 `data-disabled`이(가) `global-custom`에 적용되지 않았는지 확인하십시오. [자세히 알아보기](#implementation)
 
 * 콘텐츠에 적용된 [테마](apply-email-themes.md)를 포함한 다른 CSS 규칙으로 CSS가 재정의되지 않았는지 확인하십시오.
 
@@ -229,16 +235,3 @@ body {
        background: red !important;
      }
      ```
-
-<!--
-### Guardrails
--->
-
-
-
-
-
-
-
-
-
