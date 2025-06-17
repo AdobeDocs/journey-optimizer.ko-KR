@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '1694'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 87%
 
 * **[!UICONTROL 여정]** - 고객 여정을 만들고 구성하고 오케스트레이션합니다. 이벤트와 오케스트레이션, 작업 활동을 조합하여 여러 단계로 이루어진 크로스채널 시나리오를 작성합니다. [자세히 알아보기](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL 보고서]** - Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 있으므로 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. Journey Optimizer과 Customer Journey Analytics 간의 이러한 원활한 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으므로 사용자가 보다 정보에 입각한 결정을 내릴 수 있습니다. [자세히 보기](../reports/report-gs-cja.md)
+* **[!UICONTROL 보고서]** - Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능과 완전히 통합되어 양 플랫폼의 보고를 표준화하고 데이터의 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 더욱 정보에 근거한 결정을 내릴 수 있습니다. [자세히 보기](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL 의사 결정 관리] {#left-nav-decision}
@@ -184,7 +184,7 @@ AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 �
 
 AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을 클릭하십시오. AI 어시스턴트는 화면 오른쪽에 표시됩니다.
 
-이 페이지[&#128279;](ai-assistant.md)에서 AI Assistant 에 액세스하고 사용하는 방법에 대해 알아봅니다.
+](ai-assistant.md)이 페이지에서[ AI 어시스턴트에 액세스하고 사용하는 방법에 대해 알아봅니다.
 
 ## 언어 환경 설정 {#language-pref}
 
@@ -203,21 +203,21 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 
 기본 인터페이스 언어는 사용자 프로필에 지정된 기본 언어로 결정됩니다.
 
-+++ **언어 변경 방법**
++++ **언어를 변경하는 방법**
 
 언어를 변경하려면 다음 단계를 수행합니다.
 
-1. 오른쪽 상단의 아바타에서 **환경 설정**&#x200B;을 클릭합니다.
+1. 오른쪽 상단의 아바타에서 **환경 설정**을 클릭합니다.
    ![](assets/preferences.png)
 1. 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
-1. 기본 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+1. 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
    ![](assets/select-language.png)
 
 +++
 
 ## 자세히 알아보기 {#more}
 
-[!DNL Journey Optimizer]를 처음 시작하나요? 구체적인 질문이 있는 숙련된 사용자이신가요? 일하시는 회사 인스턴스의 관리자이신가요? [목표를 더 빨리 달성하려면 각자의 길을 택하세요](quick-start.md)!
+[!DNL Journey Optimizer]를 처음 시작하나요? 구체적인 질문이 있는 숙련된 사용자이신가요? 일하시는 회사 인스턴스의 관리자이신가요? [목표를 더 빨리 달성하기 위해 자신만의 길을 택하세요](quick-start.md)!
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
@@ -233,14 +233,14 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_1"
 >title="캠페인 오케스트레이션"
->abstract="관계형 데이터 세트를 분할, 결합, 강화 및 조작하여 대상자를 정의합니다."
+>abstract="관계형 데이터 세트를 분할, 결합, 강화, 조작하여 대상자를 정의합니다."
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
->title="다중 엔티티 데이터 활용"
->abstract="오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위한 데이터를 강화하는 방법에 대해 알아봅니다"
+>title="다중 엔터티 데이터 활용"
+>abstract="오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위해 데이터를 강화하는 방법에 대해 알아보기"
 
 
 
@@ -254,15 +254,15 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="사용 가능한 채널"
->abstract="이메일, SMS, 푸시 알림, DM"
+>abstract="이메일, SMS, 푸시 알림, 다이렉트 메일"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_1"
->title="캠페인을 만들고 전송하기 위한 안내 UI"
->abstract="채널을 사용하여 하나 이상의 작업을 설정하고, 대상을 선택하고, 콘텐츠를 설정하고, 일정을 정의하고, 전송할 준비가 되었습니다."
+>title="캠페인을 만들고 보내기 위한 안내식 UI"
+>abstract="채널을 사용하여 액션을 하나 또는 여러 개 설정하고, 대상자를 선택하고, 콘텐츠를 설정하고, 일정을 정의하면 전송할 준비가 완료됩니다."
 
 
 >[!CONTEXTUALHELP]

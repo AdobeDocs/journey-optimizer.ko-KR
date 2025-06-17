@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '2513'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->* [실시간 고객 프로필 데이터 및 세분화에 대한 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}이 Adobe Journey Optimizer에도 적용됩니다.
+>* [실시간 고객 프로필 데이터 및 세분화에 대한 가드레일](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}이 Adobe Journey Optimizer에도 적용됩니다.
 >
->* [실시간 고객 프로필에서 데이터 수집을 위한 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails){target="_blank"}도 참조하세요.
+>* [실시간 고객 프로필에서 데이터 수집을 위한 보호 기능](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}도 참조하세요.
 
 
 ## 지원되는 브라우저 {#browsers}

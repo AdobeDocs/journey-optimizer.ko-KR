@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1459'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 88%
 
 ## 2025년 5월 {#may-2025}
 
-* Journey Optimizer에서 사용할 수 있는 Adobe 통합이 이제 시스템 및 환경 연결 섹션에 나열됩니다. [자세히 보기](../integrations/ajo-integrations.md)
+* 이제 시스템 및 환경 연결 섹션에 Journey Optimizer에서 사용할 수 있는 Adobe 통합 목록이 표시됩니다. [자세히 보기](../integrations/ajo-integrations.md)
 
-* 이제 콘텐츠 통합이 콘텐츠 관리 섹션에 그룹화되었습니다. [자세히 보기](../integrations/content-integrations.md)
+* 이제 콘텐츠 통합이 콘텐츠 관리 섹션에 그룹화되어 있습니다. [자세히 보기](../integrations/content-integrations.md)
 
 * Adobe Experience Platform 및 Journey Optimizer에 대한 아키텍처 다이어그램이 업데이트되었습니다. [자세히 보기](../start/get-started.md#architecture-architecture)
 
@@ -31,17 +31,17 @@ ht-degree: 88%
 
 * 시드 리스트의 최대 주소 수를 50개에서 300개로 늘렸습니다. [자세히 보기](../configuration/seed-lists.md#create-seed-list)
 
-* 의사 결정 정책 만들기 페이지에 의사 결정 정책을 사용할 때 코드를 래핑하는 방법을 자세히 설명하는 새 단계를 추가했습니다. [자세히 보기](../experience-decisioning/create-decision.md#use-decision-policy)
+* 결정 정책 만들기 페이지에 결정 정책을 사용할 때 코드를 래핑하는 방법을 자세히 설명하는 새 단계를 추가했습니다. [자세히 보기](../experience-decisioning/create-decision.md#use-decision-policy)
 
-* 동일한 표면에서 여러 코드 기반 경험 작업이 실행될 때 캠페인이나 여정의 우선 순위 점수가 최종 사용자가 두 개 이상의 작업에 적합한 경우 최종 사용자에게 전달되는 것을 결정한다는 메모를 코드 기반 경험 설명서에 추가했습니다. [자세히 보기](../code-based/code-based-surface.md#surface-definition)
+* 코드 기반 경험 설명서에 동일한 표면에서 여러 코드 기반 경험 액션 실행 시 최종 사용자가 두 개 이상의 액션에 적합한 경우 캠페인이나 여정의 우선순위 점수로 최종 사용자에게 무엇을 전달할지 결정한다는 메모를 추가했습니다. [자세히 보기](../code-based/code-based-surface.md#surface-definition)
 
-* 여정의 인바운드 동작 문제 해결에 대한 새 페이지에서는 지원을 요청하기 전에 문제를 독립적으로 식별하고 해결하기 위한 단계별 안내서를 제공합니다. [자세히 보기](../building-journeys/troubleshooting-inbound.md)
+* 여정의 인바운드 액션 문제 해결에 대한 새 페이지에서는 지원을 요청하기 전에 문제를 독립적으로 식별하고 해결하기 위한 단계별 안내서를 제공합니다. [자세히 보기](../building-journeys/troubleshooting-inbound.md)
 
-* 코드 기반 환경에서 의사 결정을 사용할 때 클라이언트 구현에 다음 플래그를 추가하는 방법을 설명하기 위해 새 [page](../code-based/code-based-decisioning-implementations.md)이(가) 추가되었습니다.
+* 코드 기반 환경에서 결정을 사용할 때 클라이언트 구현에 다음 플래그를 추가하는 방법을 설명하는 새 [페이지](../code-based/code-based-decisioning-implementations.md)를 추가했습니다.
 
-   * 코드 기반 경험에서 의사 결정을 테스트하는 데 `dryRun` 플래그를 추가합니다. [자세히 보기](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
+   * 코드 기반 경험에서 결정을 테스트하기 위해 `dryRun` 플래그를 추가합니다. [자세히 보기](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
 
-   * 코드 기반 경험에서 의사 결정 요청에 중복 제거를 적용합니다. [자세히 보기](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
+   * 코드 기반 경험에서 결정 요청에 중복 제거를 적용합니다. [자세히 보기](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
 
 ## 2025년 4월 {#apr-2025}
 
@@ -212,7 +212,7 @@ ht-degree: 88%
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -242,7 +242,7 @@ ht-degree: 88%
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -317,7 +317,7 @@ ht-degree: 88%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -445,7 +445,7 @@ ht-degree: 88%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

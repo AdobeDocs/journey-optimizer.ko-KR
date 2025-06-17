@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 95%
       + [여정 시험 실행](using/building-journeys/journey-dry-run.md)
       + [여정 게시](using/building-journeys/publishing-the-journey.md)
       + [여정의 라이브 보고서](using/building-journeys/report-journey.md)
-      + [여정 일시 중지](using/building-journeys/journey-pause.md)
+      + [여정 일시 중단](using/building-journeys/journey-pause.md)
    + 여정 관리{#manage-journey}
       + [여정 검색 및 필터링](using/building-journeys/journey-ui.md)
       + [프로필의 여정 진입](using/building-journeys/entry-management.md)
@@ -63,7 +63,7 @@ ht-degree: 95%
       + [여정 끝내기](using/building-journeys/end-journey.md)
       + [다른 샌드박스로 여정 복사](using/building-journeys/copy-to-sandbox.md)
       + [여정 문제 해결](using/building-journeys/troubleshooting.md)
-      + [여정의 인바운드 동작 문제 해결](using/building-journeys/troubleshooting-inbound.md)
+      + [여정의 인바운드 액션 문제 해결](using/building-journeys/troubleshooting-inbound.md)
       + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
    + 활동 {#about-journey-building}
       + [여정 활동 시작](using/building-journeys/about-journey-activities.md)
@@ -180,7 +180,7 @@ ht-degree: 95%
    + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
    + [구성 단계](using/orchestrated/configuration-steps.md)
    + [오케스트레이션된 캠페인 액세스 및 관리](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + 오케스트레이션된 첫 번째 캠페인 시작{#launch}
+   + 첫 오케스트레이션된 캠페인 시작{#launch}
       + [오케스트레이션된 캠페인 생성을 위한 주요 단계](using/orchestrated/gs-campaign-creation.md)
       + [캠페인 만들기 및 예약](using/orchestrated/create-orchestrated-campaign.md)
       + [활동 오케스트레이션](using/orchestrated/orchestrate-activities.md)
@@ -188,8 +188,8 @@ ht-degree: 95%
       + [캠페인 시작 및 모니터링](using/orchestrated/start-monitor-campaigns.md)
       + [보고](using/orchestrated/reporting-campaigns.md)
    + 데이터베이스 쿼리 {#query-database}
-      + [규칙 빌더로 작업](using/orchestrated/orchestrated-rule-builder.md)
-      + [첫 번째 규칙 만들기](using/orchestrated/build-query.md)
+      + [규칙 빌더를 사용한 작업](using/orchestrated/orchestrated-rule-builder.md)
+      + [첫 번째 규칙 작성](using/orchestrated/build-query.md)
       + [표현식 편집](using/orchestrated/edit-expressions.md)
    + 오케스트레이션된 캠페인 활동 {#design-campaigns}
       + [활동 시작](using/orchestrated/activities/about-activities.md)
@@ -211,14 +211,14 @@ ht-degree: 95%
    + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
    + [캠페인 관리](using/campaigns/modify-stop-campaign.md)
    + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
-+ 충돌 관리 및 우선 순위 지정 {#conflict-prioritization}
++ 충돌 관리 및 우선순위 지정 {#conflict-prioritization}
    + [충돌 관리 및 우선 순위 지정 시작](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [잠재적 충돌 확인](using/conflict-prioritization/conflicts.md)
-   + [우선 순위 점수 할당](using/conflict-prioritization/priority-scores.md)
-메시지 및 여정 제한 규칙 설정 {#capping-rules}
+   + [우선순위 점수 할당](using/conflict-prioritization/priority-scores.md)
+메시지 및 여정 캡핑 규칙 설정 {#capping-rules}
       + [규칙 세트 작업](using/conflict-prioritization/rule-sets.md)
       + [여정 캡핑 및 중재](using/conflict-prioritization/journey-capping.md)
-      + [채널 및 통신 유형별 주파수 제한](using/conflict-prioritization/channel-capping.md)
+      + [채널 및 커뮤니케이션 유형별 빈도 캡핑](using/conflict-prioritization/channel-capping.md)
 + 테스트 및 승인 {#test}
    + 콘텐츠 미리 보기 및 테스트 {#preview-test}
       + [미리 보기 및 테스트 시작](using/content-management/preview-test.md)
@@ -454,7 +454,7 @@ ht-degree: 95%
    + [ID](using/audience/get-started-identity.md)
    + [라이선스 사용](using/audience/license-usage.md)
 + 보고 {#reporting}
-   + [보고서 시작하기](using/reports/gs-reports.md)
+   + [보고서 시작](using/reports/gs-reports.md)
    + 라이브 보고서 {#live-report}
       + [라이브 보고서 시작](using/reports/live-report.md)
       + [지표 목록](using/reports/live-report-components.md)
@@ -493,7 +493,7 @@ ht-degree: 95%
       + [개요 보고서](using/reports/channel-report-cja.md)
       + [랜딩 페이지 보고서](using/reports/lp-report-global-cja.md)
       + [구독 목록 보고서](using/reports/subscription-report-global-cja.md)
-   + 사용자 지정 여정 보고서 {#reports}
+   + 사용자 정의 여정 보고서 {#reports}
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
       + 레거시 단계 이벤트 필드 {#legacy-step-event-fields}
@@ -764,9 +764,9 @@ ht-degree: 95%
       + [Capping API](using/configuration/capping.md)
       + [Throttling API](using/configuration/throttling.md)
    + Adobe 솔루션으로 보내기 {#adobe-solutions}
-      + [여정의 Campaign Standard 작업](using/action/acs-action.md)
-      + [여정의 Campaign v7/v8 작업](using/action/acc-action.md)
-      + [여정의 Marketo Engage 작업](using/action/marketo-engage.md)
+      + [여정의 Campaign Standard 액션](using/action/acs-action.md)
+      + [여정의 Campaign v7/v8 액션](using/action/acc-action.md)
+      + [여정의 Marketo Engage 액션](using/action/marketo-engage.md)
    + 샌드박스 관리 {#sandbox}
       + [샌드박스 사용 및 할당](using/administration/sandboxes.md)
       + [다른 샌드박스로 개체 내보내기](using/configuration/copy-objects-to-sandbox.md)
@@ -778,7 +778,7 @@ ht-degree: 95%
    + [기본 제공 권한](using/administration/ootb-permissions.md)
    + [권한 수준](using/administration/high-low-permissions.md)
    + [속성 기반 액세스 제어](using/administration/attribute-based-access.md)
-   + [객체 수준 액세스 제어](using/administration/object-based-access.md)
+   + [오브젝트 수준 액세스 제어](using/administration/object-based-access.md)
 + 개인 정보 보호 {#privacy}
    + [개인 정보 시작](using/privacy/get-started-privacy.md)
    + [개인 정보 요청](using/privacy/requests.md)

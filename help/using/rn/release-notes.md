@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 61%
+ht-degree: 71%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 61%
 >title="새로운 기능"
 >abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선, 버그 수정을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
 
-[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR){target="_blank"}를 참조하십시오.
+[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
 
 ## 2025년 6월 초기 릴리스 정보 {#25-6-rn}
@@ -30,7 +30,7 @@ ht-degree: 61%
 
 **릴리스 날짜**: 2025년 6월 17~18일
 
-[Adobe Experience Platform 시험판 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하세요.
+[Adobe Experience Platform 시험판 정보](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하세요.
 
 ### 새로운 기능 {#25-06-features}
 
@@ -117,7 +117,7 @@ ht-degree: 61%
 <tbody>
 <tr>
 <td>
-<p>여정 Dry Run은 여정 제공자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있는 Adobe Journey Optimizer의 특수 여정 게시 모드입니다. 이 기능은 여정 제공자가 라이브로 게시하기 전에 여정 디자인 및 대상 타깃팅에 대한 자신감을 갖도록 도와줍니다.</p>
+<p>여정 Dry Run은 여정 제공자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있는 Adobe Journey Optimizer의 특수 여정 게시 모드입니다. 이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.</p>
 <p>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역으로 롤아웃될 예정입니다.</p>
 </td>
 </tr>
@@ -151,7 +151,7 @@ ht-degree: 61%
 <tbody>
 <tr>
 <td>
-<p>실험 승자의 크기를 조정하면 실험의 가장 성과가 좋은 변형을 전체 대상자에게 자동 또는 수동으로 롤아웃할 수 있습니다. 이 기능을 사용하면 우승자가 식별된 후 지속적인 수동 감독 없이 도달 범위와 효과를 극대화할 수 있습니다.</p>
+<p>[실험 우승자 적용 확대] 기능을 사용하면 실험에서 우승한 베리에이션을 전체 대상자에게 자동 또는 수동으로 롤아웃할 수 있습니다. 이 기능을 사용하면 우승자가 식별된 후 지속적인 수동 감독 없이 도달 범위와 효과를 극대화할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../content-management/content-experiment.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 6월 2일</p></td>
 </tr>
@@ -203,17 +203,17 @@ ht-degree: 61%
 
 * **캠페인** - 액션 캠페인에 대한 새로운 탭 탐색. 이 새로운 탐색 패턴을 통해 콘텐츠 작성에 보다 빠르게 액세스하고 캠페인 간 설정을 더욱 확장할 수 있습니다.
 
-* **Decisioning** - 사용 가능한 날짜: 2025년 6월 3일
+* **결정** - 사용 가능한 날짜: 2025년 6월 3일
 
   이제 결정 오브젝트를 샌드박스 간에 복사할 수 있어 테스트 및 배포 워크플로가 간소화됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **의사 결정 규칙에 대한 의사 결정 항목 특성 지원** - 사용 가능한 날짜: 2025년 6월 4일
+* **결정 항목 속성의 결정 규칙 지원** - 사용 가능한 날짜: 2025년 6월 4일
 
-  이제 의사 결정 항목 속성을 활용하여 의사 결정 규칙을 만들 수 있습니다. [자세히 보기](../experience-decisioning/rules.md#create)
+  이제 결정 항목 속성을 활용하여 결정 규칙을 만들 수 있습니다. [자세히 보기](../experience-decisioning/rules.md#create)
 
-* **대화형 메시지 실행 API 업데이트** - 사용 가능한 날짜: 2025년 6월 6일
+* **Interactive Message Execution API 업데이트** - 사용 가능한 날짜: 2025년 6월 6일
 
-  이제 대화형 메시지 실행 API를 사용하여 예정된 캠페인 실행 일정을 삭제할 수 있습니다. [자세히 보기](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  이제 Interactive Message Execution API를 사용하여 예정된 캠페인 실행 일정을 삭제할 수 있습니다. [자세히 보기](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
 
 ## 25년 5월 릴리스 정보 {#25-5-rn}
 
@@ -233,10 +233,10 @@ ht-degree: 61%
 <tr>
 <td>
 <p>이제 여정 및 캠페인 목록에서 캘린더 보기를 사용할 수 있습니다. 이를 통해 각 목록에 있는 모든 여정 및 캠페인의 활성화를 시각화할 수 있습니다.</p>
-<p>이 변경 사항은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 요청하려면 <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">이 양식</a>을 사용하세요.</p>
+<p>이 변경은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 요청하려면 <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">이 양식</a>을 사용하십시오.</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>자세한 내용은 다음 섹션을 참조하십시오. <a href="../building-journeys/journey-ui.md">여정 검색 및 필터링</a>, <a href="../campaigns/modify-stop-campaign.md">캠페인 액세스</a>.</p>
-<p>사용 가능한 날짜: 2025년 5월 28일 목요일</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-ui.md">여정 찾아보기 및 필터링</a>, <a href="../campaigns/modify-stop-campaign.md">캠페인 액세스</a> 섹션을 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 5월 28일</p>
 </td>
 </tr>
 </tbody>
@@ -252,7 +252,7 @@ ht-degree: 61%
 <tr>
 <td>
 <p>Adobe Experience Manager와 Adobe Journey Optimizer의 통합을 통해 이제 Journey Optimizer 콘텐츠 내에서 Adobe Experience Manager 콘텐츠 조각을 손쉽게 사용할 수 있습니다. 이 원활한 연결을 통해 Journey Optimizer에서 직접 AEM 콘텐츠에 손쉽게 액세스하고 사용할 수 있습니다.</p>
-<p>이전에는 제한된 조직 세트(LA)에서 사용할 수 있었지만, 이제 다음과 같은 향상된 기능을 통해 GA됩니다. 이제 편집기 모드를 사용하여 조각 서명 내에서 자리 표시자를 정의하고 개인화 값을 매핑할 수 있습니다.</p>
+<p>이전에는 제한된 일부 조직에서만 사용할 수 있었던(LA) 이 기능을 이제 다음 개선 사항과 더불어 GA로 사용할 수 있습니다. [편집기 모드]를 사용하여 조각 서명 내에서 자리 표시자를 정의하고 개인화 값을 매핑할 수 있습니다.</p>
 <ul>
 <!--li>Create offers by directly selecting an AEM Content Fragment.</li>
 <li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li-->
@@ -341,7 +341,7 @@ ht-degree: 61%
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>자세한 내용은 <a href="../building-journeys/read-audience.md#schedule">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 5월 20일 수요일</p>
+<p>사용 가능한 날짜: 2025년 5월 20일</p>
 </td>
 </tr>
 </tbody>
@@ -359,7 +359,7 @@ ht-degree: 61%
 <p>이제 Journey Optimizer에서 Sinch, Infobip, Twilio와 같은 기본 옵션 외에 추가 SMS 공급자를 구성할 수 있습니다. 사용자 정의 SMS 공급자 구성을 통해 서드파티 공급자를 직접 통합하고, 동적 메시지를 위한 고급 페이로드 사용자 정의를 활용하고, 동의 환경 설정(옵트인/옵트아웃)을 관리하여 규정 준수를 보장할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../sms/sms-configuration-custom.md">세부 설명서</a>를 참조하십시오.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p>사용 가능한 날짜: 2025년 5월 20일 수요일</p>
+<p>사용 가능한 날짜: 2025년 5월 20일</p>
 </td>
 </td>
 </tr>
@@ -408,7 +408,7 @@ ht-degree: 61%
 다음은 이번 릴리스의 개선 사항 목록입니다.
 
 
-* **샌드박스 복사본에 대한 새 캠페인 개체 지원** - 사용 가능한 날짜: 2025년 5월 15일
+* **샌드박스 복사본에 대한 새 캠페인 오브젝트 지원** - 사용 가능한 날짜: 2025년 5월 15일
 
   이제 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 캠페인을 복사할 때 채널 구성, 실험 변형 및 설정, 결정 정책 및 항목 종속성도 복사됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
 
@@ -428,7 +428,7 @@ ht-degree: 61%
   >
   >이 기능은 향후 30일 동안 모든 환경에 점진적으로 적용될 예정입니다.
 
-* 웹 채널에서 **&#39;URL로 리디렉션&#39; 지원** - 사용 가능한 날짜: 2025년 5월 20일
+* **웹 채널의 ‘URL로 리디렉션’ 지원** - 사용 가능한 날짜: 2025년 5월 20일
 
   이제 시각적 편집기에서 새로운 베리에이션을 작성하는 대신 Journey Optimizer 웹 채널을 통해 방문자를 다른 기존 URL로 리디렉션할 수 있습니다. 이 기능을 사용하면 페이지 내 몇 가지 요소만 변경하는 것이 아니라, 완전히 다른 두 페이지를 비교하는 실험을 할 수 있습니다. [자세히 보기](../web/create-web.md#web-redirect-to-url)
 
@@ -436,7 +436,7 @@ ht-degree: 61%
 
   폴더를 사용하면 오브젝트를 구조화된 계층으로 보다 쉽고 효과적으로 정리할 수 있습니다. 이전에는 일부 조직에서만 사용할 수 있던(LA) 폴더 기능을 이제 모든 사용자가 사용하여(GA) 콘텐츠 템플릿과 조각을 관리할 수 있습니다. [콘텐츠 템플릿](../content-management/access-content-templates.md#folders) 및 [조각](../content-management/manage-fragments.md#folders) 섹션에서 자세히 알아보십시오.
 
-* **전자 메일 템플릿의 클릭 추적** - 사용 가능한 날짜: 2025년 5월 20일
+* **이메일 템플릿의 클릭 추적** - 사용 가능한 날짜: 2025년 5월 20일
 
   이제 [!DNL Journey Optimizer]에서 이메일 콘텐츠의 이미지 맵 내에 있는 `<area>` 요소에 대한 클릭 추적이 기본적으로 지원됩니다. 이는 이미지 맵 영역이 표준 하이퍼링크와 동일한 추적 래핑, 추적 데이터, 추가 매개 변수를 받도록 하기 위한 것입니다. [메시지 추적에 대해 자세히 알아보기](../email/message-tracking.md#manage-tracking)
 
