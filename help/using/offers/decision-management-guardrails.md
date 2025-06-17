@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 70543fc2b70b388934c1b3f45e5405f02895a3af
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 17%
+source-wordcount: '295'
+ht-degree: 16%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 17%
 
 | 가드레일 | 제한 |
 | ------- | ------- |
-| 초당 API 요청 의사 결정 | 500 |
-| Edge Decisioning API 요청/초, Edge 세그멘테이션 사용 | 1,500 |
-| Edge 세그멘테이션 없이 Edge Decisioning API 요청 초당 | 5,000 |
+| 초당 API 요청 의사 결정 | 조직당 500 |
+| Edge Decisioning API 요청/초, Edge 세그멘테이션 사용 | 조직당 1,500 |
+| Edge 세그멘테이션 없이 Edge Decisioning API 요청 초당 | 조직당 5,000 |
 | 응답당 반환된 오퍼 | 결정 범위당 최대 30개 또는 총 100개 |
 | 요청당 관련된 최대 오퍼 규칙 수 | 10 |
 
