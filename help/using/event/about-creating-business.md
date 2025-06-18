@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 여정, 비즈니스, 구성
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 11%
+source-wordcount: '1127'
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->비즈니스 이벤트 사용 사례 [자습서](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=ko)를 볼 수도 있습니다. 프로필에 대해 스키마를 활성화할 필요가 없습니다.
+>비즈니스 이벤트 사용 사례 [자습서](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html)를 볼 수도 있습니다. 프로필에 대해 스키마를 활성화할 필요가 없습니다.
 
 ## 중요 정보 {#important-notes}
 
@@ -106,7 +106,7 @@ ht-degree: 11%
 
    ![](assets/journey7-business.png)
 
-   이제 이벤트가 구성되었으며 경로에 추가할 수 있는 상태가 되었습니다. 이벤트를 수신하려면 추가 구성 단계를 수행해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey.md)에서 자세히 알아보세요.
+   이제 이벤트가 구성되었으며 경로에 추가할 수 있는 상태가 되었습니다. 이벤트를 수신하려면 추가 구성 단계를 수행해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey.md)에서 자세히 알아보십시오.
 
 ## 페이로드 필드 정의 {#define-the-payload-fields}
 

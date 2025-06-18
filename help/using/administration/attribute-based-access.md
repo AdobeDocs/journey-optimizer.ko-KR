@@ -9,7 +9,7 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, 속성, 권한, 데이터, 액세스, 중요, 에셋
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 2%
@@ -32,13 +32,13 @@ Adobe Journey Optimizer의 속성 기반 액세스 제어를 사용하여 데이
 
 1. Adobe Journey Optimizer의 **[!UICONTROL 스키마 필드]**&#x200B;을(를) 사용합니다.
 
-특성 기반 액세스 제어 API를 사용하여 **[!UICONTROL 역할]**, **[!UICONTROL 정책]** 및 **[!UICONTROL 제품]**&#x200B;에 액세스할 수도 있습니다. 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=ko){target="_blank"}를 참조하세요.
+특성 기반 액세스 제어 API를 사용하여 **[!UICONTROL 역할]**, **[!UICONTROL 정책]** 및 **[!UICONTROL 제품]**&#x200B;에 액세스할 수도 있습니다. 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}를 참조하세요.
 
 ## 역할 만들기 및 레이블 할당 {#assign-role}
 
 >[!IMPORTANT]
 >
->&#x200B;>역할에 대한 권한을 관리하려면 먼저 정책을 만듭니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=ko){target="_blank"}를 참고하세요.
+>>역할에 대한 권한을 관리하려면 먼저 정책을 만듭니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html){target="_blank"}를 참고하세요.
 
 **[!UICONTROL 역할]**&#x200B;은(는) 조직 내에서 동일한 권한, 레이블 및 샌드박스를 공유하는 사용자 집합입니다. **[!UICONTROL 역할]**&#x200B;에 속하는 각 사용자는 제품에 포함된 Adobe 앱 및 서비스에 대한 권한이 있습니다. 자신만의 **[!UICONTROL 역할]**&#x200B;을 만들어 인터페이스의 특정 기능이나 개체에 대한 사용자 액세스를 세밀하게 조정할 수도 있습니다.
 
@@ -102,11 +102,11 @@ Adobe Journey Optimizer의 속성 기반 액세스 제어를 사용하여 데이
 
    ![필드에 대한 거버넌스 레이블 편집](assets/label_3.png)
 
-1. 해당 **[!UICONTROL 레이블]**&#x200B;을(를) 선택하십시오. 이 경우 C2 - 데이터를 서드파티로 내보낼 수 없습니다. 사용 가능한 레이블의 자세한 목록을 보려면 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ko#contract-labels){target="_blank"}를 참조하세요.
+1. 해당 **[!UICONTROL 레이블]**&#x200B;을(를) 선택하십시오. 이 경우 C2 - 데이터를 서드파티로 내보낼 수 없습니다. 사용 가능한 레이블의 자세한 목록을 보려면 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}를 참조하세요.
 
    ![](assets/label_4.png)
 
-1. 필요한 경우 스키마를 추가로 개인화한 다음 활성화합니다. 스키마를 활성화하는 방법에 대한 자세한 단계는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko#profile){target="_blank"}를 참조하십시오.
+1. 필요한 경우 스키마를 추가로 개인화한 다음 활성화합니다. 스키마를 활성화하는 방법에 대한 자세한 단계는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}를 참조하십시오.
 
 이제 C2 레이블이 있는 역할 세트의 일부인 사용자만 스키마의 필드를 볼 수 있고 사용할 수 있습니다. **[!UICONTROL 필드 이름]**&#x200B;에 **[!UICONTROL 레이블]**&#x200B;을(를) 적용하면 **[!UICONTROL 레이블]**&#x200B;이(가) 만들어진 모든 스키마의 **국적** 필드에 자동으로 적용됩니다.
 
@@ -155,7 +155,7 @@ Adobe Journey Optimizer의 속성 기반 액세스 제어를 사용하여 데이
 사용자 Y가 레이블 C2 오브젝트에 대한 액세스 권한이 없는 경우 제한된 필드로 이 여정에 액세스해야 합니다.
 
 * 제한된 필드 이름은 표시되지 않으므로 사용자 Y는 사용할 수 없습니다.
-* 사용자 Y는 고급 모드에서 제한된 필드 이름으로 표현식을 편집할 수 없습니다. 다음 오류가 표시됩니다. `The expression is invalid. Field is no longer available or you don't have enough permission to see it`.
+* 사용자 Y는 고급 모드에서 제한된 필드 이름으로 표현식을 편집할 수 없습니다. 다음 오류가 표시됩니다. `The expression is invalid. Field is no longer available or you do not have enough permission to see it`.
 * 사용자 Y는 표현식을 삭제할 수 있습니다.
 * 사용자 Y는 여정을 테스트할 수 없습니다.
 * 여정 Y는 사용자를 게시할 수 없습니다.

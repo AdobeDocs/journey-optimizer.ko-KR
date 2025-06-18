@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Decisioning에서 카탈로그는 의사 결정 항목을 구성하는 중앙 �
 
   최대 네 가지 수준의 중첩이 지원됩니다. 이미지가 마지막 수준에서 지원되지 않습니다.
 
-## 카탈로그의 스키마 액세스 및 편집
+## 카탈로그의 스키마 액세스 및 편집 {#access-catalog-schema}
 
 결정 항목 속성이 저장된 카탈로그의 스키마에 액세스하려면 다음 단계를 따르십시오.
 

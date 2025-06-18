@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2715'
+source-wordcount: '2717'
 ht-degree: 15%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 15%
 >title="오퍼 적격성 정보"
 >abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
 
-<!--additional-url="https://video.tv.adobe.com/v/341375?captions=kor" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -104,7 +104,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
+  >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
 
 대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 데이터를 업데이트하려면 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하세요.
 
@@ -228,7 +228,7 @@ ht-degree: 15%
 
 * 동일한 사용자에게 오퍼를 제안할 수 있는 횟수를 정의하려면 **[!UICONTROL 프로필당]**&#x200B;을(를) 선택하십시오.
 
-  예를 들어 &#39;플래티넘 신용카드&#39; 오퍼가 있는 은행인 경우 이 오퍼가 프로필당 5회 이상 표시되지 않도록 할 수 있습니다. 실제로, 사용자가 오퍼를 5번 보고 실행하지 않은 경우 다음 최상의 오퍼에 대해 조치를 취할 수 있는 기회가 더 높다고 판단합니다.
+  예를 들어 &#39;플래티넘 신용카드&#39; 오퍼가 있는 은행인 경우 이 오퍼가 프로필당 5회 이상 표시되지 않도록 하려는 경우 실제로, 사용자가 오퍼를 5번 보고 실행하지 않은 경우 다음 최상의 오퍼에 대해 조치를 취할 수 있는 기회가 더 높다고 판단합니다.
 
 ### 캡핑 수 {#capping-count}
 
@@ -268,7 +268,7 @@ ht-degree: 15%
 * 일치하는 규칙이 있으면 프로필의 빈도 제한 카운터가 증가합니다.
 * 그렇지 않으면 프로필에 대해 카운터가 만들어지지 않고 빈도 제한 규칙이 적용되지 않습니다. 따라서 최대 가용량 임계값이 초과되더라도 프로필은 개인화된 오퍼를 계속 수신하게 됩니다.
 
-예를 들어 조직의 허브 영역을 *NLD2*(으)로 간주하고 유럽(*IRL1* Edge 영역)에서 의사 결정 요청을 보내려고 합니다. 이 시나리오에서는 (아일랜드) *IRL1* 지역에서 규칙을 사용할 수 있으므로 의사 결정 요청은 프로필의 카운터를 증가시킵니다. 그러나 결정 요청이 (네덜란드) *NLD2* 허브 영역에 연결된 에지 영역이 아닌 일본(*JPN3*)과 같은 지역에서 비롯된 경우 카운터가 생성되지 않으며 빈도 제한 규칙이 적용되지 않습니다.
+예를 들어 조직의 허브 영역을 *NLD2*(으)로 간주하고 유럽(*IRL1* Edge region)에서 의사 결정 요청을 보내려고 합니다. 이 시나리오에서는 (아일랜드) *IRL1* 지역에서 규칙을 사용할 수 있으므로 의사 결정 요청은 프로필의 카운터를 증가시킵니다. 그러나 결정 요청이 (네덜란드) *NLD2* 허브 영역에 연결된 에지 영역이 아닌 일본(*JPN3*)과 같은 지역에서 비롯된 경우 카운터가 생성되지 않으며 빈도 제한 규칙이 적용되지 않습니다.
 
 >[!NOTE]
 >

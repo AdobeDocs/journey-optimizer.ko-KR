@@ -8,10 +8,11 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 데이터, 거버넌스, DULE, 레이블, 레이블 지정, 플랫폼, 정책
-source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 97%
+source-wordcount: '1291'
+ht-degree: 96%
 
 ---
 
@@ -24,9 +25,9 @@ ht-degree: 97%
 
 ## 데이터 거버넌스 정책 시작 {#gs}
 
-Adobe Experience Platform은 [DULE(데이터 사용 레이블 및 적용) 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko){target="_blank"} 프레임워크를 사용하여 **필드에 레이블을 지정하고** 각 채널에 대해 **마케팅 작업**&#x200B;을 만들어 채널 전반에서 데이터 거버넌스 정책을 관리하고 적용할 수 있습니다.
+Adobe Experience Platform은 [DULE(데이터 사용 레이블 및 적용) 거버넌스](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko){target="_blank"} 프레임워크를 사용하여 **필드에 레이블을 지정하고**&#x200B;각 채널에 대해 **마케팅 작업**&#x200B;을 만들어 채널 전반에서 데이터 거버넌스 정책을 관리하고 적용할 수 있습니다.
 
-레이블 및 마케팅 액션이 정의되면 이 두 요소를 연결하는 **데이터 거버넌스 정책**&#x200B;을 만들 수 있습니다. 예를 들어 &#39;ePHI&#39; 레이블을 &#39;이메일 타기팅&#39; 마케팅 액션과 연결하여 &#39;ePHI&#39;로 레이블이 지정된 필드가 이메일 메시지를 개인화하는 데 사용되지 않도록 하는 정책을 설정할 수 있습니다. [데이터 거버넌스 정책을 만드는 방법 알아보기](#governance-policies)
+레이블 및 마케팅 액션이 정의되면 이 두 요소를 연결하는 **데이터 거버넌스 정책**&#x200B;을 만들 수 있습니다. 예를 들어 &#39;ePHI&#39; 레이블을 &#39;이메일 타기팅&#39; 마케팅 액션과 연결하여 &#39;ePHI&#39;로 레이블이 지정된 필드가 이메일 메시지를 개인화하는 데 사용되지 않도록 하는 정책을 설정할 수 있습니다. [데이터 거버넌스 정책을 만드는 방법 알아보기](#policy)
 
 거버넌스 정책을 만든 후에는 마케팅 액션을 여정/캠페인 및 여정 사용자 정의 액션에 적용할 수 있습니다.
 [Journey Optimizer에서 마케팅 액션을 적용하는 방법 알아보기](#apply-marketing-actions)
@@ -133,4 +134,4 @@ Journey Optimizer에서 데이터 거버넌스 정책을 적용하려면 여정,
 
 이 대화 상자에는 현재 여정/캠페인 구성이 기존 데이터 거버넌스 정책을 위반한다는 메시지가 표시됩니다. 데이터 계보 다이어그램을 사용하여 여정이나 캠페인을 활성화하기 전에 어떤 다른 구성을 변경해야 하는지 이해할 수 있습니다.
 
-자세한 내용은 [데이터 사용 정책 위반 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}에서 확인할 수 있습니다.
+자세한 내용은 [데이터 사용 정책 위반 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}를 참조하세요.

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 12%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 12%
 
 ![](assets/lp_subscription-uc.png)
 
-예를 들어 다음 달에 이벤트를 구성하고 이벤트 등록 캠페인 <!--to keep your customers that are interested updated on that event-->을(를) 시작한다고 가정해 보겠습니다. 이렇게 하려면 수신자가 이 이벤트에 등록할 수 있도록 랜딩 페이지에 대한 링크가 포함된 이메일을 보내게 됩니다. 등록한 사용자는 이 목적을 위해 만든 구독 목록에 추가됩니다.
+예를 들어 다음 달에 이벤트를 구성하고 이벤트 등록 캠페인 <!--to keep your customers that are interested updated on that event-->을(를) 시작한다고 가정해 보겠습니다. 이렇게 하려면 수신자가 이 이벤트에 등록할 수 있도록 랜딩 페이지에 대한 링크가 포함된 이메일을 전송해야 합니다. 등록한 사용자는 이 목적을 위해 만든 구독 목록에 추가됩니다.
 
 ### 랜딩 페이지 설정 {#set-up-lp}
 
@@ -62,7 +62,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[&#128279;](create-lp.md#configure-primary-page)에서 만료 날짜 을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션](create-lp.md#configure-primary-page)에서 만료 날짜 [을(를) 업데이트하는 방법을 알아보세요.
 
    이메일을 수신하면 수신자가 랜딩 페이지 링크를 클릭하면 &#39;감사&#39; 페이지로 이동하며 구독 목록에 추가됩니다.
 
@@ -98,7 +98,7 @@ ht-degree: 12%
 
 ### 옵트아웃 관리 {#opt-out-management}
 
-수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하는 것은 법적 요구사항입니다. 적용되는 법률에 대한 자세한 내용은[Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko#regulations){target="_blank"}를 참조하세요.
+수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하는 것은 법적 요구사항입니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko#regulations){target="_blank"}에서 해당 법률에 대해 자세히 알아보십시오.
 
 따라서 수신자에게 보내는 모든 이메일에 항상 **구독 취소 링크**&#x200B;를 포함해야 합니다.
 
@@ -125,7 +125,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 양식]** 구성 요소에 있는 기본 페이지의 **[!UICONTROL 콜 투 액션]** 섹션에서 하위 페이지를 참조하는지 확인하십시오. [자세히 알아보기](design-lp.md)
+   >기본 페이지의 **[!UICONTROL Call to action]** 섹션에서 **[!UICONTROL 양식]** 구성 요소에 있는 하위 페이지를 참조하는지 확인하십시오. [자세히 알아보기](design-lp.md)
 
 1. 페이지의 콘텐츠를 구성하고 정의했으면 랜딩 페이지를 [게시](create-lp.md#publish)합니다.
 
@@ -139,7 +139,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[&#128279;](create-lp.md#configure-primary-page)에서 만료 날짜 을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션](create-lp.md#configure-primary-page)에서 만료 날짜 [을(를) 업데이트하는 방법을 알아보세요.
 
 1. 여정을 게시하고 실행합니다. [자세히 알아보기](../building-journeys/journey.md).
 
@@ -153,7 +153,7 @@ ht-degree: 12%
 
    * 프로필 데이터가 업데이트되며, 다시 구독하지 않는 한 브랜드로부터 커뮤니케이션을 받지 않습니다.
 
-해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}에서 자세한 내용을 알아보십시오.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -163,7 +163,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#dataset-precedence-profile){target="_blank"}
+>기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >이 데이터 세트에 일괄 처리가 추가되지 않았더라도 여전히 옵트인/옵트아웃 정보가 포함됩니다.
 

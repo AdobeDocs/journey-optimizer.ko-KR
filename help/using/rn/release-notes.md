@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 71%
+source-wordcount: '2050'
+ht-degree: 75%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 71%
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
 
-## 2025년 6월 초기 릴리스 정보 {#25-6-rn}
+## 2025년 6월 릴리스 정보 {#25-6-rn}
 
+<!--
+**Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
-**아래 초기 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
+**릴리스 일자**: 2025년 6월 18일 목요일
 
-**릴리스 날짜**: 2025년 6월 17~18일
-
-[Adobe Experience Platform 시험판 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하세요.
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#25-06-features}
 
@@ -70,26 +70,29 @@ ht-degree: 71%
 <tr>
 <td>
 <p>이제 JSON 또는 HTML 콘텐츠 템플릿에서 편집 가능한 특정 필드를 정의할 수 있습니다. 이렇게 하면 기술 전문가가 아닌 사용자도 코드를 조작하지 않고도 코드 기반 경험 채널 작성 내에서 양식 보기로 콘텐츠를 쉽게 편집할 수 있습니다.<br />그 이상으로는 코드 기반 경험 콘텐츠 템플릿을 정의할 때 이제 템플릿에 의사 결정 정책을 삽입할 수 있으므로 재사용성과 사용 편의성을 높일 수 있습니다.</p>
+<img src="assets/do-not-localize/form-fields.gif">
+<p>자세한 내용은 <a href="../code-based/code-based-form-fields.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>하위 도메인을 위한 사용자 지정 위임 방법</strong><br/></th>
+<th><strong>Custom delegation method for subdomains</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 전체 위임과 CNAME 메서드 외에도 새로운 하위 도메인 구성 방법인 사용자 정의 위임 메서드를 사용할 수 있습니다. 이 방법을 사용하면 메시지 전달, 렌더링 및 추적에 필요한 DNS의 모든 측면을 완벽하게 제어하고 유지 관리할 수 있습니다.</p>
+<p>In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking messages.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
+-->
 
 <table>
 <thead>
@@ -101,7 +104,9 @@ ht-degree: 71%
 <tr>
 <td>
 <p>이제 여정 캔버스에서 전용 Content Decisioning 활동을 통해 개인화된 오퍼를 여정에 포함하고 조건 및 사용자 지정 작업을 포함한 여정 활동에서 사용할 수 있습니다.</p>
+<img src="assets/do-not-localize/content-decision.gif">
 <p>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역으로 롤아웃될 예정입니다.</p>
+<p>자세한 내용은 <a href="../building-journeys/content-decision.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -117,7 +122,10 @@ ht-degree: 71%
 <tr>
 <td>
 <p>여정 Dry Run은 여정 제공자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있는 Adobe Journey Optimizer의 특수 여정 게시 모드입니다. 이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.</p>
+<img src="assets/do-not-localize/DryRun.gif">
 <p>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역으로 롤아웃될 예정입니다.</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-dry-run.md">세부 설명서</a>를 참조하십시오.</p>
+
 </td>
 </tr>
 </tbody>
@@ -135,7 +143,9 @@ ht-degree: 71%
 <p>이제 여정을 일시 중지했다가 다시 시작할 수 있습니다. 이 기능을 사용하면 고객 경험을 중단하지 않고 라이브 여정을 일시적으로 중단할 수 있으므로 여정 실무자가 보다 강력하게 제어하고 유연화할 수 있습니다. 일시 중지되면 통신이 전송되지 않으며 프로필은 여정이 다시 시작될 때까지 일시 중지된 상태로 유지됩니다.</p>
 <p>하나의 여정만 일시 중지했다가 다시 시작할 수 있으며, 일괄 일시 중지 및 다시 시작 작업을 수행하여 여정 그룹에 대한 작업을 다시 시작할 수 있습니다.</p>
 <p>또한 일시 중지된 프로필에 전역 필터를 적용하여 여정의 속성에 따라 프로필을 제외할 수 있습니다.</p>
+<img src="assets/do-not-localize/PauseResume.gif">
 <p>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역으로 롤아웃될 예정입니다.</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-pause.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -185,25 +195,25 @@ ht-degree: 71%
 
 다음은 이번 릴리스의 개선 사항 목록입니다.
 
-* **채널 규칙 집합**
+<!--* **Channel rule sets**
 
-   * **시간 제한을 위한 사용자 지정 기간 창** - 이제 채널 규칙 집합 구성 화면에서 새 **반복 횟수** 필드를 사용할 수 있으므로 지정된 기간에 따라 여러 날, 주 또는 달에 걸쳐 빈도 제한 규칙을 적용할 수 있습니다.
+  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
 
-   * **시간별 기간** - 이제 채널 규칙 집합에 대해 시간별로 상한을 적용할 수 있습니다.
+  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
 
 * **코드 기반 경험**
 
-   * 이제 코드 기반 경험 콘텐츠 템플릿에서 의사 결정 정책을 추가할 수 있습니다.
+   * 이제 코드 기반 경험 콘텐츠 템플릿에서 의사 결정 정책을 추가할 수 있습니다. 이 템플릿을 사용하여 편집 가능한 양식 필드의 오퍼를 활용할 수 있습니다. [자세히 보기](../code-based/code-based-form-fields.md)
 
-   * 이제 코드 기반 경험 여정 또는 캠페인 버전 화면에서 개인화 편집기를 열지 않고도 의사 결정 정책을 직접 추가할 수 있습니다.
+   * 이제 코드 기반 경험 여정 또는 캠페인 버전 화면에서 개인화 편집기를 열지 않고도 의사 결정 정책을 직접 추가할 수 있습니다. [자세히 보기](../code-based/create-code-based.md#edit-code)
 
 * **전자 메일 Designer에서 사용자 지정 CSS 지원**
 
-  이제 Journey Optimizer을 사용하여 이메일 Designer 내에서 바로 이메일 콘텐츠에 사용자 지정 CSS를 추가할 수 있습니다.
+  이제 Journey Optimizer을 사용하여 이메일 Designer 내에서 바로 이메일 콘텐츠에 사용자 지정 CSS를 추가할 수 있습니다. [자세히 보기](../email/custom-css.md)
 
 * **캠페인을 위한 새로운 탭 탐색**
 
-  새로운 탐색 패턴을 통해 콘텐츠 작성에 보다 빠르게 액세스하고 캠페인 간 설정을 더욱 확장할 수 있습니다.
+  새로운 탐색 패턴을 통해 콘텐츠 작성에 보다 빠르게 액세스하고 캠페인 간 설정을 더욱 확장할 수 있습니다. [자세히 보기](../campaigns/create-campaign.md)
 
 * **결정** - 사용 가능한 날짜: 2025년 6월 3일
 

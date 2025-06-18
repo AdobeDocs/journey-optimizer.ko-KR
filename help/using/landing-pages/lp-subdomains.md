@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 하위 도메인, 구성
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '971'
 ht-degree: 19%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 19%
 >id="ajo_admin_subdomain_lp"
 >title="랜딩 페이지 하위 도메인 위임"
 >abstract="랜딩 페이지 사전 설정을 만드는 데 이 하위 도메인이 필요하므로 랜딩 페이지에 사용할 하위 도메인을 구성해야 합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=ko#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="랜딩 페이지 사전 설정 만들기"
 >abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 랜딩 페이지 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=ko#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 ## 랜딩 페이지 하위 도메인 시작 {#gs-lp-subdomains}
 
@@ -63,6 +63,10 @@ ht-degree: 19%
 1. 랜딩 페이지 URL에 표시할 접두사를 입력합니다.
 
    영숫자와 하이픈만 사용할 수 있습니다.
+
+   >[!CAUTION]
+   >
+   >`cdn` 또는 `data` 접두사는 내부용으로 예약되었으므로 사용하지 마십시오. `dmarc` 또는 `spf`과(와) 같은 기타 제한되거나 예약된 접두사도 사용하지 않아야 합니다.
 
 1. 목록에서 위임된 하위 도메인을 선택합니다.
 
@@ -135,36 +139,16 @@ ht-degree: 19%
 
 ## 하위 도메인 위임 취소 {#undelegate-subdomain}
 
-랜딩 페이지 하위 도메인의 위임을 취소하려면 Adobe 담당자에게 문의하십시오.
+랜딩 페이지 하위 도메인의 위임을 취소하려면 아래 단계를 따르십시오.
 
-하지만 Adobe에 도달하기 전에 사용자 인터페이스에서 여러 단계를 수행해야 합니다.
+1. [!DNL Journey Optimizer]에서 하위 도메인과 연결된 모든 랜딩 페이지의 게시를 취소합니다. [방법 알아보기](create-lp.md#access-landing-pages)
 
->[!NOTE]
->
->**[!UICONTROL 성공]** 상태의 하위 도메인만 위임해제할 수 있습니다. **[!UICONTROL 초안]** 및 **[!UICONTROL 실패]** 상태의 하위 도메인은 사용자 인터페이스에서 삭제할 수 있습니다.
+1. 랜딩 페이지 하위 도메인이 CNAME 레코드를 가리키면 호스팅 솔루션에서 랜딩 페이지 하위 도메인용으로 만든 CNAME DNS 레코드를 삭제할 수 있습니다(원본 이메일 하위 도메인이 있는 경우 삭제하지 마십시오).
 
-먼저 [!DNL Journey Optimizer]에서 다음 단계를 수행하십시오.
+   >[!NOTE]
+   >
+   >랜딩 페이지 하위 도메인은 CNAME 레코드를 지정할 수 있습니다. 이는 [CNAME 메서드](../configuration/delegate-subdomain.md#cname-subdomain-delegation)을(를) 사용하여 Adobe에 위임된 [기존 하위 도메인](#lp-use-existing-subdomain) 또는 구성한 [새 랜딩 페이지 하위 도메인](#lp-configure-new-subdomain)이기 때문입니다.
 
-1. 하위 도메인과 연관된 모든 랜딩 페이지의 게시를 취소합니다. [방법 알아보기](create-lp.md#access-landing-pages)
-
-1. 하위 도메인과 연관된 모든 채널 구성을 비활성화합니다. [방법 알아보기](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)
-
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
-
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
--->
-
-완료되면 위임을 해제할 하위 도메인을 사용하여 Adobe 담당자에게 문의하십시오.
+1. 위임을 해제할 하위 도메인을 사용하여 Adobe 담당자에게 문의하십시오.
 
 요청이 Adobe에 의해 처리되면 위임되지 않은 도메인이 더 이상 하위 도메인 인벤토리 페이지에 표시되지 않습니다.
-
->[!CAUTION]
->
->하위 도메인이 위임되지 않은 후:
->
->   * 해당 하위 도메인을 사용 중이던 채널 구성을 다시 활성화할 수 없습니다.
->
->   * 사용자 인터페이스를 통해 정확한 하위 도메인을 다시 위임할 수 없습니다. 원하는 경우 Adobe 담당자에게 문의하십시오.

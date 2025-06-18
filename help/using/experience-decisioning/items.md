@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1753'
 ht-degree: 15%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 15%
 >id="ajo_exd_items"
 >title="결정 항목 관리"
 >abstract="Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼를 생성하여 중앙 집중식 카탈로그 및 컬렉션으로 구성할 수 있습니다. 현재 생성된 모든 결정 항목은 단일 “오퍼” 카탈로그 내에 통합되어 있습니다. 이 화면에서 **스키마 편집** 버튼을 사용하여 카탈로그의 스키마에 액세스하고 결정 항목에 대한 사용자 정의 속성을 생성할 수도 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=ko" text="항목 카탈로그 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="항목 카탈로그 구성"
 
 Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼를 생성하여 중앙 집중식 카탈로그 및 컬렉션으로 구성할 수 있습니다. 요구 사항에 맞게 정확하게 조정할 수 있도록 설계된 표준 및 사용자 지정 속성으로 구성됩니다. 또한 의사 결정 항목을 표시할 대상을 정의할 수 있는 프로필 제약 조건을 통합합니다.
 
@@ -38,7 +38,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >id="ajo_exd_item_custom_attributes"
 >title="사용자 정의 속성 정의"
 >abstract="사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 이는 결정 항목의 카탈로그 스키마에 생성됩니다. 이 섹션은 카탈로그 스키마에 하나 이상의 사용자 정의 속성을 추가한 경우에만 표시됩니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=ko" text="항목 카탈로그 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="항목 카탈로그 구성"
 
 먼저 의사 결정 항목의 표준 및 사용자 지정 속성 을 정의합니다.
 
@@ -64,8 +64,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >id="ajo_exd_item_constraints"
 >title="대상자 또는 의사 결정 규칙 추가"
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=ko" text="대상자 사용"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=ko" text="결정 규칙 사용"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="대상자 사용"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="결정 규칙 사용"
 
 기본적으로 모든 프로필은 의사 결정 항목을 받을 수 있지만, 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다. 두 솔루션은 서로 다른 사용법에 해당합니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
@@ -121,7 +121,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
    * **[!UICONTROL 총]**&#x200B;을(를) 선택하여 모든 사용자를 의미하는 결합된 대상 대상에서 항목을 제안할 수 있는 횟수를 정의합니다. 예를 들어, 전자 제품 retailer에 &#39;TV 초보자용 거래&#39;가 있는 경우 모든 프로필에서 오퍼가 200배만 반환되기를 원합니다.
 
-   * 동일한 사용자에게 오퍼를 제안할 수 있는 횟수를 정의하려면 **[!UICONTROL 프로필당]**&#x200B;을(를) 선택하십시오. 예를 들어 &#39;플래티넘 신용카드&#39; 오퍼가 있는 은행인 경우 이 오퍼가 프로필당 5회 이상 표시되지 않도록 할 수 있습니다. 실제로, 사용자가 오퍼를 5번 보고 실행하지 않은 경우 다음 최상의 오퍼에 대해 조치를 취할 수 있는 기회가 더 높다고 판단합니다.
+   * 동일한 사용자에게 오퍼를 제안할 수 있는 횟수를 정의하려면 **[!UICONTROL 프로필당]**&#x200B;을(를) 선택하십시오. 예를 들어 &#39;플래티넘 신용카드&#39; 오퍼가 있는 은행인 경우 이 오퍼가 프로필당 5회 이상 표시되지 않도록 하려는 경우 실제로, 사용자가 오퍼를 5번 보고 실행하지 않은 경우 다음 최상의 오퍼에 대해 조치를 취할 수 있는 기회가 더 높다고 판단합니다.
 
 1. **[!UICONTROL 최대 가용량 제한]** 필드에서 선택한 최대 가용량 유형에 따라 모든 사용자에게 또는 프로필별로 오퍼를 표시할 수 있는 횟수를 지정합니다. 숫자는 0보다 큰 정수여야 합니다.
 

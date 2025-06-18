@@ -6,10 +6,10 @@ description: 커뮤니케이션 채널로 [!DNL Adobe Journey Optimizer] 작업�
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 아웃바운드 메시지 게재 채널에는 사전 상호 작용 없이 고객에게 메시지를 보내는 작업이 포함됩니다. 예를 들어 기업이 먼저 대상자에게 연락하는 이메일 캠페인 및 푸시 알림이 있습니다. [!DNL Adobe Journey Optimizer]에서 지원되는 아웃바운드 채널은 다음과 같습니다.
 
 * **이메일**: 고객의 받은 편지함에 직접 개인화된 메시지를 게재합니다.
-* **SMS/MMS**: 사용자의 모바일 디바이스로 문자 메시지를 보냅니다.
+* **SMS/MMS/RCS**: 모바일 장치에서 사용자에게 문자 메시지를 보냅니다.
 * **푸시 알림**: 사용자의 디바이스에 즉시 알림을 보내는 방식으로 즉각적인 액션을 유도합니다.
 * **다이렉트 메일**: 실제 편지를 활용하여 대상자와 실체적 연결을 구축합니다.
 

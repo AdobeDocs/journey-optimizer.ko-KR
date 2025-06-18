@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1692'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 18%
 >title="사용자 정의 액션"
 >abstract="서드파티 시스템을 사용하여 메시지를 보내거나 서드파티 시스템으로 API 호출을 보내려는 경우, 사용자 정의 액션을 사용하여 여정에 대한 연결을 구성합니다."
 
-서드파티 시스템을 사용하여 메시지를 보내거나 서드파티 시스템으로 API 호출을 보내려는 경우, 사용자 정의 액션을 사용하여 여정에 대한 연결을 구성합니다. 예를 들어 사용자 지정 작업으로 Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase 등의 시스템에 연결할 수 있습니다.
+서드파티 시스템을 사용하여 메시지를 보내거나 서드파티 시스템으로 API 호출을 보내려는 경우, 사용자 정의 액션을 사용하여 여정에 대한 연결을 구성합니다. 예를 들어 사용자 정의 액션으로 Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase 등의 시스템에 연결할 수 있습니다.
 
-사용자 지정 작업은 기술 사용자가 정의하고 마케터가 사용할 수 있는 추가 작업입니다. 구성하고 나면 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 카테고리에 표시됩니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)에서 자세히 알아보세요.
+사용자 지정 작업은 기술 사용자가 정의하고 마케터가 사용할 수 있는 추가 작업입니다. 구성하고 나면 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 카테고리에 표시됩니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)에서 자세히 알아보십시오.
 
 ## 제한 사항{#custom-actions-limitations}
 
@@ -149,7 +149,7 @@ Adobe Journey Optimizer은 사용자 지정 작업에 대해 기본적으로 TLS
 
 mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용자 지정 작업에 대한 아웃바운드 연결에서 보안을 강화할 수 있습니다. mTLS는 상호 인증을 위한 종단간 보안 방법으로, 정보를 공유하는 양 당사자가 데이터를 공유하기 전에 자신이 주장하는 사람임을 보장합니다. mTLS에는 TLS와 비교하여 추가 단계가 포함되어 있으며, 이 단계에서 서버는 클라이언트의 인증서를 요청하고 마지막에 검증한다.
 
-사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## 페이로드 매개 변수 정의 {#define-the-message-parameters}
 

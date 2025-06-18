@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1542'
 ht-degree: 19%
 
 ---
@@ -74,6 +74,8 @@ ht-degree: 19%
 >
 >단순 편집기로 시계열에서는 쿼리(예: 구매 목록, 과거 메시지 클릭)를 수행할 수 없습니다. 이 경우 고급 편집기를 사용해야 합니다. [이 페이지](expression/expressionadvanced.md)를 참조하십시오.
 
+
+
 작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 확인란을 선택하여 계속하는 방법만 있습니다. [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 
 단순 편집기에서는 이벤트 및 데이터 소스 카테고리 아래에 여정 속성 카테고리도 있습니다. 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다. [자세히 알아보기](expression/journey-properties.md)
@@ -94,7 +96,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->* 시간대는 조건에 따라 달라지지 않으며 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)에서 자세히 알아보세요.
+>* 시간대는 조건에 따라 달라지지 않으며 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)에서 자세히 알아보십시오.
 >
 >* 기본적으로 **[!UICONTROL 시간 조건]**&#x200B;은(는) 00:00부터 12:00까지 시간 단위로 설정됩니다.
 
@@ -173,4 +175,4 @@ ht-degree: 19%
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.

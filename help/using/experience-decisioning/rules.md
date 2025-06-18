@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 20%
@@ -45,7 +45,7 @@ ht-degree: 20%
 1. Adobe Experience Platform 세그먼트 빌더를 사용하여 필요에 따라 의사 결정 규칙을 만듭니다. 이렇게 하려면 다음과 같은 다양한 데이터 소스를 활용할 수 있습니다.
    * 프로필 및 결정 항목 속성,
    * 대상,
-   * Adobe Experience Platform에서 제공되는 컨텍스트 데이터. [컨텍스트 데이터를 활용하는 방법 알아보기](#context-data)
+   * Adobe Experience Platform에서 제공되는 컨텍스트 데이터. [컨텍스트 데이터를 활용하는 방법 알아보기](context-data.md)
 
    ![](assets/decision-rules-build.png)
 

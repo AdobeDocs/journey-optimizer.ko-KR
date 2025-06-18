@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '464'
 ht-degree: 31%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >동적 컬렉션에는 OLAC를 사용할 수 없습니다. 오퍼 수준에서 관리되어야 합니다. 따라서 이러한 오퍼에 액세스할 수 없는 경우 동적 컬렉션에 오퍼가 표시되지 않을 수 있습니다.
+   >동적 컬렉션에는 OLAC를 사용할 수 없습니다. 오퍼 수준에서 관리되어야 합니다. 따라서 이러한 오퍼에 대한 액세스 권한이 없는 경우 동적 컬렉션에 오퍼가 표시되지 않을 수 있습니다.
 
 1. 컬렉션이 만들어지면 목록에 표시됩니다. 선택하여 편집하거나 삭제할 수 있습니다.
 
@@ -88,6 +88,6 @@ ht-degree: 31%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346690?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

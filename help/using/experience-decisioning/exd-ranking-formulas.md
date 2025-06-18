@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 2f2caf8615af8e3526124e0d7ed91873ccb6edc3
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 4%
@@ -73,7 +73,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
 ## 공식 빌더를 사용하여 기준 정의 {#ranking-select-criteria}
 
-직관적인 인터페이스를 통해 AI 점수(성향), 오퍼 가치(우선 순위), 컨텍스트 레버 및 외부 프로필 성향을 개별적으로 또는 조합하여 조정하여 의사 결정을 세밀하게 조정하여 모든 상호 작용을 최적화할 수 있습니다. <!--Whether you're maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
+직관적인 인터페이스를 통해 AI 점수(성향), 오퍼 가치(우선 순위), 컨텍스트 레버 및 외부 프로필 성향을 개별적으로 또는 조합하여 조정하여 의사 결정을 세밀하게 조정하여 모든 상호 작용을 최적화할 수 있습니다. <!--Whether you are maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
 
 인터페이스에서 직접 기준을 정의하려면 아래 단계를 따르십시오.
 

@@ -7,14 +7,16 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '408'
+ht-degree: 2%
 
 ---
 
 # Twilio 공급자 구성 {#sms-configuration-twilio}
+
+## SMS/MMS에 대한 API 자격 증명 구성
 
 Journey Optimizer으로 Twilio를 구성하려면 Twilio에 사용되는 새 API 자격 증명을 만들어야 합니다.
 
@@ -39,3 +41,30 @@ Journey Optimizer으로 Twilio를 구성하려면 Twilio에 사용되는 새 API
 1. 기존 자격 증명을 수정하려면 원하는 API 자격 증명을 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 변경을 수행합니다.
 
 API 자격 증명을 만들고 구성한 후에는 SMS 및 MMS 메시지에 대한 채널 구성을 만들어야 합니다. [자세히 알아보기](sms-configuration-surface.md)
+
+## RCS에 대한 API 자격 증명 구성
+
+RCS 메시지는 [사용자 지정 SMS 공급자](sms-configuration-custom.md) 기능을 사용하여 Twilio를 통해 Adobe Journey Optimizer에서 지원됩니다. 이를 통해 캐러셀, 버튼 및 멀티미디어 컨텐츠와 같은 요소를 통합하여 검증된 비즈니스 프로필을 통해 풍부한 대화형 메시지를 전달할 수 있습니다.
+
+Twilio에서 RCS 메시지를 사용하려면 사용자 지정 SMS 공급자를 통해 새 API 자격 증명을 구성해야 합니다. RCS에는 고유한 페이로드 형식이 필요하므로 기존 Twilio SMS 자격 증명은 호환되지 않습니다.
+
+1. **Twilio에서 RCS 메시지 등록**
+
+   먼저 Twilio 플랫폼에서 RCS 등록 프로세스를 완료합니다. 여기에는 비즈니스 프로필 설정 및 계정에 대한 RCS 기능 활성화가 포함됩니다.
+
+1. **SMS 웹후크 만들기**
+
+   [수신 RCS 메시지 응답 또는 게재 업데이트를 받을 수 있는 SMS Webhook 구성](sms-configuration-custom.md#webhook). 양방향 통신을 위해서는 이 웹후크가 Twilio 설정에 제대로 연결되어 있어야 합니다.
+
+1. **SMS 공급업체로 사용자 지정을 사용하여 API 자격 증명 만들기**
+
+   Journey Optimizer에서 &quot;사용자 지정&quot;을 SMS 공급업체로 사용하는 RCS에 대해 [새 API 자격 증명을 정의](sms-configuration-custom.md#api-credential)합니다. 적절한 RCS 끝점 인증 방법, 기본 URL 및 헤더를 사용합니다.
+
+API 자격 증명을 만들고 구성한 후에는 RCS 메시지에 대한 채널 구성을 만들어야 합니다. [자세히 알아보기](sms-configuration-surface.md)
+
+
+
+
+
+
+

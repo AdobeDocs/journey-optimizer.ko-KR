@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 문제 해결, 문제 해결, 여정, 확인, 오류
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 48%
+source-wordcount: '1059'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 48%
 
 이 섹션에서는 테스트 또는 게시 전에 여정 문제를 해결하는 방법에 대해 알아봅니다. 아래 나열된 모든 검사는 여정이 테스트 모드에 있거나 여정이 라이브 상태일 때 수행할 수 있습니다. 테스트 모드에서 아래의 모든 검사를 수행한 후에 게시를 진행하는 것이 좋습니다. [이 페이지](../building-journeys/testing-the-journey.md)의 테스트 모드에 대해 자세히 알아보세요.
 
-관리자는 사용자 인터페이스에서 직접 실제 API 호출을 수행하여 사용자 지정 작업 구성을 테스트할 수도 있습니다. [이 페이지](../action/troubleshoot-custom-action.md)에서 자세히 알아보세요.
+관리자는 사용자 인터페이스에서 직접 실제 API 호출을 수행하여 사용자 지정 작업 구성을 테스트할 수도 있습니다. [이 페이지](../action/troubleshoot-custom-action.md)에서 자세히 알아보십시오.
 
 ## 테스트하기 전에 오류 확인 {#checking-for-errors-before-testing}
 
@@ -64,7 +64,7 @@ ht-degree: 48%
 
 이러한 도구를 통해 보내는 API 호출이 올바르게 전송되었는지 여부를 확인할 수 있습니다. 오류가 반환되면 호출에 문제가 있는 것입니다. 페이로드, 헤더(특히 조직 ID) 및 대상 URL을 다시 확인하십시오. 올바른 URL이 무엇인지를 관리자에게 물어볼 수 있습니다.
 
-이벤트는 소스에서 여정으로 직접 푸시되지 않습니다. 실제로 여정은 Adobe Experience Platform의 수집 API 스트리밍에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko){target="_blank"}에서 수집 API 스트리밍 문제 해결을 참조할 수 있습니다.
+이벤트는 소스에서 여정으로 직접 푸시되지 않습니다. 실제로 여정은 Adobe Experience Platform의 수집 API 스트리밍에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}에서 수집 API 스트리밍 문제 해결을 참조할 수 있습니다.
 
 `ERR_MODEL_RULES_16` 오류로 인해 여정에서 테스트 모드를 사용하도록 설정하지 못하는 경우 채널 작업을 사용할 때 사용된 이벤트에 [ID 네임스페이스](../audience/get-started-identity.md)가 포함되어 있는지 확인하십시오.
 

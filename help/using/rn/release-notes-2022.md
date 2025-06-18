@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
-source-wordcount: '3598'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '3599'
+ht-degree: 99%
 
 ---
 
@@ -261,7 +261,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 대상자에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행되도록 디자인됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/3412406?captions=kor">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
+<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/346680">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
 </td>
 </tr>
 </tbody>
@@ -733,7 +733,7 @@ ht-degree: 100%
 <p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
-The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
+The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you do not send mails to customers from your development sandbox.</p>
 <p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>

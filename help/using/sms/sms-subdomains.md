@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, 하위 도메인, 구성
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '881'
 ht-degree: 20%
 
 ---
@@ -61,6 +61,10 @@ SMS 하위 도메인에 액세스하고 편집하려면 프로덕션 샌드박�
 1. SMS URL에 표시할 접두사를 입력합니다.
 
    영숫자와 하이픈만 사용할 수 있습니다.
+
+   >[!CAUTION]
+   >
+   >`cdn` 또는 `data` 접두사는 내부용으로 예약되었으므로 사용하지 마십시오. `dmarc` 또는 `spf`과(와) 같은 기타 제한되거나 예약된 접두사도 사용하지 않아야 합니다.
 
 1. 목록에서 위임된 하위 도메인을 선택합니다.
 
@@ -131,34 +135,17 @@ SMS 하위 도메인에 액세스하고 편집하려면 프로덕션 샌드박�
 
 ## 하위 도메인 위임 취소 {#undelegate-subdomain}
 
-SMS 하위 도메인의 위임을 해제하려면 Adobe 담당자에게 문의하십시오.
+SMS 하위 도메인을 위임해제하려면 위임해제할 하위 도메인을 사용하여 Adobe 담당자에게 문의하십시오.
 
-하지만 Adobe에 도달하기 전에 사용자 인터페이스에서 여러 단계를 수행해야 합니다.
+<!--
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
+
+SMS 하위 도메인이 CNAME 레코드를 가리키면 SMS 하위 도메인에 대해 만든 CNAME DNS 레코드를 호스팅 솔루션에서 삭제할 수 있습니다(원본 이메일 하위 도메인이 있는 경우 삭제하지 마십시오).
 
 >[!NOTE]
 >
->**[!UICONTROL 성공]** 상태의 하위 도메인만 위임해제할 수 있습니다. **[!UICONTROL 초안]** 및 **[!UICONTROL 실패]** 상태의 하위 도메인은 사용자 인터페이스에서 삭제할 수 있습니다.
-
-먼저 [!DNL Journey Optimizer]에서 다음 단계를 수행하십시오.
-
-1. 하위 도메인과 연관된 모든 채널 구성을 비활성화합니다. [방법 알아보기](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
-
-1. 하위 도메인과 연관된 활성 캠페인을 중지합니다. [방법 알아보기](../campaigns/modify-stop-campaign.md#stop)
-
-1. 하위 도메인과 연관된 활성 여정을 중지합니다. [방법 알아보기](../building-journeys/end-journey.md#stop-journey)
-
-1. SMS 하위 도메인이 [새 위임된 하위 도메인](#sms-configure-new-subdomain)인 경우 해당 하위 도메인과 연결된 DNS 항목을 제거하십시오.
-
-완료되면 위임을 해제할 하위 도메인을 사용하여 Adobe 담당자에게 문의하십시오.
+>SMS 하위 도메인은 CNAME 레코드를 지정할 수 있습니다. CNAME 레코드는 [CNAME 메서드](../configuration/delegate-subdomain.md#cname-subdomain-delegation)를 사용하여 Adobe에 위임된 [기존 하위 도메인](#sms-use-existing-subdomain)이거나, 사용자가 구성한 [새 SMS 하위 도메인](#sms-configure-new-subdomain)입니다.
 
 요청이 Adobe에 의해 처리되면 위임되지 않은 도메인이 더 이상 하위 도메인 인벤토리 페이지에 표시되지 않습니다.
-
->[!CAUTION]
->
->하위 도메인이 위임되지 않은 후:
->
->   * 해당 하위 도메인을 사용 중이던 채널 구성을 다시 활성화할 수 없습니다.
->   * 사용자 인터페이스를 통해 정확한 하위 도메인을 다시 위임할 수 없습니다. 원하는 경우 Adobe 담당자에게 문의하십시오.

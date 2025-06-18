@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 9%
+source-wordcount: '785'
+ht-degree: 8%
 
 ---
 
@@ -99,9 +99,15 @@ ht-degree: 9%
 >abstract="이 코드 기반 경험 액션의 일부로 게재하려는 코드를 삽입하고 편집합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="개인화 편집기 작업"
 
+코드 기반 경험의 콘텐츠를 편집하려면 아래 단계를 따르십시오.
+
 1. 여정 활동 또는 캠페인 버전 화면에서 **[!UICONTROL 코드 편집]**&#x200B;을 선택합니다.
 
    ![](assets/code-based-campaign-edit-code.png)
+
+   >[!NOTE]
+   >
+   >미리 정의된 편집 가능한 양식 필드가 있는 코드 기반 경험 콘텐츠 템플릿을 사용하는 경우 개인화 편집기를 열지 않고도 이러한 필드의 콘텐츠를 관리할 수 있습니다. [자세히 알아보기](code-based-form-fields.md)
 
 1. [개인화 편집기](../personalization/personalization-build-expressions.md)가 열립니다. 코드를 작성할 수 있는 비시각적 경험 만들기 인터페이스입니다.
 
@@ -119,9 +125,17 @@ ht-degree: 9%
 
    코드 콘텐츠의 일부를 조각으로 저장할 수도 있습니다. [방법 알아보기](../content-management/fragments.md#save-as-expression-fragment)
 
-1. 코드 기반 경험을 통해 의사 결정 기능을 사용할 수 있습니다. 왼쪽 막대에서 **[!UICONTROL 결정 정책]** 아이콘을 선택하고 **[!UICONTROL 결정 정책 추가]**&#x200B;를 클릭합니다. [자세히 알아보기](../experience-decisioning/create-decision.md)
+1. 코드 기반 경험을 통해 의사 결정 기능을 사용할 수 있습니다. 왼쪽 막대에서 **[!UICONTROL 결정 정책]** 아이콘을 선택하고 **[!UICONTROL 결정 정책 추가]**&#x200B;를 클릭합니다. [자세히 알아보기](../experience-decisioning/create-decision.md#add-decision)
 
    ![](assets/code-based-campaign-create-decision.png)
+
+   <!--![](../experience-decisioning/assets/decision-code-based-create.png)-->
+
+   여정 또는 캠페인 버전 화면에서 개인화 편집기를 열지 않고도 결정 정책을 직접 추가할 수도 있습니다. 오른쪽 레일의 전용 아이콘을 사용하여 **[!UICONTROL Decisioning]** 섹션을 표시합니다.
+
+   <!--![](assets/code-based-campaign-show-decisioning.png)-->
+
+   결정 정책을 만드는 자세한 단계는 [이 섹션](../experience-decisioning/create-decision.md#add-decision)에 나와 있습니다.
 
 1. 변경 내용을 확인하려면 **[!UICONTROL 저장 후 닫기]**&#x200B;를 클릭하십시오.
 
@@ -131,4 +145,4 @@ ht-degree: 9%
 
 아래 비디오에서는 코드 기반 경험 캠페인을 만들고, 속성을 구성하고, 테스트하고, 게시하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449460/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

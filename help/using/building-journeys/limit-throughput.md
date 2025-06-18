@@ -8,9 +8,9 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: 여정, 데이터 소스, 제한, 처리량, 사용자 지정, 작업
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '754'
 ht-degree: 3%
 
 ---

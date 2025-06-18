@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * 이벤트의 **컨텍스트 기반 데이터**, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용합니다.
 
-* **기본 제공 채널 작업**&#x200B;을 사용하여 [!DNL Journey Optimizer]에서 작성된 메시지를 보내거나, 서드파티 시스템을 사용하여 메시지를 전송하는 경우 **사용자 정의 작업**&#x200B;을 만듭니다.
+* **기본 제공 작업**&#x200B;을 사용하여 [!DNL Journey Optimizer]에서 디자인된 메시지를 보내거나 서드파티 시스템을 사용하여 메시지를 보내는 경우 **사용자 지정 작업**&#x200B;을 만드세요.
 
 * **여정 디자이너**&#x200B;를 사용하면 여러 단계로 이루어진 사용 사례를 구축할 수 있습니다. 간단하게 시작 이벤트나 대상자 읽기 활동을 끌어다 놓고 조건을 추가하며 개인화된 메시지를 보내세요.
 
@@ -32,7 +32,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 
 [이 페이지](journey-gs.md)에서 첫 번째 여정을 만들고 디자인하는 방법을 알아보십시오.
 
-➡️ [Journey Optimizer 살펴보기(비디오)](#video)
+➡️ [비디오에서 Journey Optimizer 검색](#video)
 
 ## 사용 사례{#uc-journey}
 
@@ -56,4 +56,4 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 
 여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성할 때의 기본을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

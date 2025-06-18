@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: a5bd1e92b3696a7de2c44522099d54bc6e1e00ab
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 6%
@@ -60,7 +60,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >보류 중인 [피드백 루프](../reports/deliverability.md#feedback-loops) 등록으로 인해 특정 하위 도메인을 선택할 수 없습니다. 이 프로세스는 영업일 기준 최대 10일이 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >보류 중인 [피드백 루프](../reports/deliverability.md#feedback-loops) 등록으로 인해 특정 하위 도메인을 선택할 수 없습니다. 이 프로세스는 영업일 기준 최대 10일이 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다. <!--where FL registration happens? is it when delegating a subdomain and you are awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 

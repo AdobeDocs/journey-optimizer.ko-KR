@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '934'
 ht-degree: 8%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 8%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 [!DNL Journey Optimizer]에서 시각적 웹 작성은 **Adobe Experience Cloud Visual Helper** Chrome 브라우저 확장 기능을 통해 제공됩니다. [자세히 알아보기](web-prerequisites.md#visual-authoring-prerequisites)
@@ -170,4 +170,4 @@ ht-degree: 8%
 
 아래 비디오에서는 [!DNL Journey Optimizer] 캠페인에서 웹 디자이너를 사용하여 웹 경험을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452642/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

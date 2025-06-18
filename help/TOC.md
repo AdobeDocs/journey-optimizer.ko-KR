@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 99%
+source-wordcount: '2448'
+ht-degree: 98%
 
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 99%
       + [대상자 읽기](using/building-journeys/read-audience.md)
       + [기본 제공 채널 액션](using/building-journeys/journeys-message.md)
       + [사용자 정의 액션](using/building-journeys/using-custom-actions.md)
+      + [콘텐츠 결정](using/building-journeys/content-decision.md)
       + [Adobe Campaign Standard 작업](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 작업](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [점프](using/building-journeys/jump.md)
@@ -288,19 +289,19 @@ ht-degree: 99%
          + [푸시 알림 흐름](using/push/push-gs.md)
          + [푸시 알림 채널 구성](using/push/push-configuration.md)
          + [모바일 온보딩 빠른 시작 워크플로](using/push/mobile-onboarding-wf.md)
-   + SMS / MMS 채널{#sms}
+   + SMS / MMS / RCS 채널{#sms}
       + [텍스트 메시지 시작](using/sms/get-started-sms.md)
-      + [문자 메시지(SMS/MMS) 만들기](using/sms/create-sms.md)
+      + [SMS/MMS/RCS 메시지 만들기](using/sms/create-sms.md)
       + [텍스트 메시지 확인 및 보내기](using/sms/send-sms.md)
       + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
       + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
-      + SMS / MMS 채널 구성{#configure-sms}
-         + [SMS 구성 시작](using/sms/sms-configuration.md)
+      + SMS/MMS/RCS 채널 구성{#configure-sms}
+         + [SMS/MMS/RCS 구성 시작](using/sms/sms-configuration.md)
          + [Sinch 공급자 구성](using/sms/sms-configuration-sinch.md)
          + [Infobip 공급자 구성](using/sms/sms-configuration-infobip.md)
          + [Twilio 공급자 구성](using/sms/sms-configuration-twilio.md)
          + [사용자 정의 공급자 구성](using/sms/sms-configuration-custom.md)
-         + [SMS 구성 만들기](using/sms/sms-configuration-surface.md)
+         + [SMS/MMS/RCS 구성 만들기](using/sms/sms-configuration-surface.md)
    + 다이렉트 메일 {#direct-mail}
       + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)
       + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)
@@ -329,6 +330,7 @@ ht-degree: 99%
          + [코드 기반 경험 구성 만들기](using/code-based/code-based-configuration.md)
       + 코드 기반 경험 만들기 {#create-code-based-experiences}
          + [코드 기반 경험 구축 및 구성](using/code-based/create-code-based.md)
+         + [코드 기반 경험에서 편집 가능한 필드 사용](using/code-based/code-based-form-fields.md)
          + [코드 기반 경험 테스트](using/code-based/test-code-based.md)
          + [코드 기반 경험 관리](using/code-based/publish-code-based.md)
    + 콘텐츠 카드{#content-card}
