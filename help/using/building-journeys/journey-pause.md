@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 6%
@@ -83,7 +83,7 @@ ht-degree: 6%
 | [반응](reaction-events.md) | 라이브 여정과 동일한 동작이지만, 반응이 <strong>Action</strong> 활동 후이고 사용자가 해당 작업에서 일시 중지된 경우 반응 이벤트가 무시됩니다. |
 | [대기](wait-activity.md) | 라이브 여정과 동일한 비헤이비어 |
 | [조건](condition-activity.md) | 라이브 여정과 동일한 비헤이비어 |
-| 콘텐츠 결정 | 프로필은 여정이 일시 중지되었을 때 사용자가 선택한 항목에 따라 파킹되거나 삭제됩니다 |
+| [콘텐츠 결정](content-decision.md) | 프로필은 여정이 일시 중지되었을 때 사용자가 선택한 항목에 따라 파킹되거나 삭제됩니다 |
 | [채널 작업](journeys-message.md) | 프로필은 여정이 일시 중지되었을 때 사용자가 선택한 항목에 따라 파킹되거나 삭제됩니다 |
 | [사용자 지정 작업](../action/action.md) | 프로필은 여정이 일시 중지되었을 때 사용자가 선택한 항목에 따라 파킹되거나 삭제됩니다 |
 | [프로필 업데이트](update-profiles.md) 및 [이동](jump.md) | 라이브 여정과 동일한 비헤이비어 |
