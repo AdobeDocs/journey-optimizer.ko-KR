@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d17cff4cbe661cb8f41ef09ef9850f6010fc21e5
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1043'
 ht-degree: 6%
 
 ---
 
-# 채널 및 통신 유형별 주파수 제한 {#rule-sets}
+# 채널 및 커뮤니케이션 유형별 빈도 캡핑 {#rule-sets}
 
 **채널** 규칙 집합은 최대 가용량 규칙을 통신 채널에 적용합니다. 예를 들어 하루에 1개 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 마십시오.
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->채널 도메인의 로컬 규칙 세트는 최대 3개까지 만들고 여정 도메인의 로컬 규칙 세트는 최대 5개까지 만들 수 있습니다.
+>채널 도메인 및 여정 도메인에 대해 최대 10개의 활성 로컬 규칙 세트를 만들 수 있습니다.
 
 1. **[!UICONTROL 규칙 집합]** 목록에 액세스한 다음 **[!UICONTROL 규칙 집합 만들기]**&#x200B;를 클릭합니다.
 
@@ -152,4 +152,4 @@ In this scenario, an individual profile:
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

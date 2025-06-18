@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 22%
+source-wordcount: '944'
+ht-degree: 29%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 22%
 
 ### 규칙 세트란 무엇입니까? {#what}
 
-규칙 집합을 사용하면 **여러 규칙을 규칙 집합으로 그룹화**&#x200B;하고 선택한 여정 및 캠페인에 적용할 수 있습니다. 이를 통해 특정 시간대 내에 고객이 입력할 수 있는 여정 수와 빈도를 제한하거나 통신 유형에 따라 사용자가 메시지를 수신하는 빈도를 제어할 수 있는 세부 기간을 개선할 수 있습니다.
+규칙 세트를 사용하면 **여러 규칙을 규칙 세트로 그룹화**&#x200B;하여 선택한 여정 및 캠페인에 적용할 수 있습니다. 이를 통해 특정 시간대 내에 고객이 입장할 수 있는 여정 수와 빈도를 제한하거나 커뮤니케이션 유형에 따라 사용자가 메시지를 수신하는 빈도를 제어할 때의 세밀함이 개선됩니다.
 
 다음 두 가지 유형의 규칙 세트를 만들 수 있습니다.
 
@@ -87,7 +87,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->채널 도메인의 로컬 규칙 세트는 최대 3개까지 만들고 여정 도메인의 로컬 규칙 세트는 최대 5개까지 만들 수 있습니다.
+>채널 도메인 및 여정 도메인에 대해 최대 10개의 활성 로컬 규칙 세트를 만들 수 있습니다.
 
 1. **[!UICONTROL 규칙 집합]** 목록에 액세스한 다음 **[!UICONTROL 규칙 집합 만들기]**&#x200B;를 클릭합니다.
 
@@ -109,7 +109,7 @@ ht-degree: 22%
    여정 및 채널 제한 규칙을 구성하는 방법에 대한 자세한 내용은 다음 섹션에서 확인할 수 있습니다.
 
    * [여정 한도](../conflict-prioritization/journey-capping.md)
-   * [채널 및 통신 유형별 주파수 제한](../conflict-prioritization/channel-capping.md)
+   * [채널 및 커뮤니케이션 유형별 빈도 캡핑](../conflict-prioritization/channel-capping.md)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 규칙 만들기를 확인합니다. 메시지가 **[!UICONTROL 초안]** 상태로 규칙 집합에 추가됩니다.
 
@@ -164,4 +164,4 @@ ht-degree: 22%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

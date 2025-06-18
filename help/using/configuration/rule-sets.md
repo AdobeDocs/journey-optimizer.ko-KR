@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1956'
 ht-degree: 14%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->채널 도메인의 로컬 규칙 세트는 최대 3개까지 만들고 여정 도메인의 로컬 규칙 세트는 최대 5개까지 만들 수 있습니다.
+>채널 도메인 및 여정 도메인에 대해 최대 10개의 활성 로컬 규칙 세트를 만들 수 있습니다.
 
 1. **[!UICONTROL 규칙 집합]** 목록에 액세스한 다음 **[!UICONTROL 규칙 집합 만들기]**&#x200B;를 클릭합니다.
 
@@ -312,4 +312,4 @@ In this scenario, an individual profile:
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
