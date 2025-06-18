@@ -88,6 +88,6 @@ ht-degree: 31%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346690?quality=12&captions=kor)
 
 
