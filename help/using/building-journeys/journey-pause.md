@@ -1,23 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여정 일시 중지
+title: 여정 일시 중단
 description: 라이브 여정을 일시 중지하고 다시 시작하는 방법 알아보기
 feature: Journeys
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
-source-git-commit: 437868d49f4bc4123e370b60d09ba0bf644e43d9
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 6%
 
 ---
 
-# 여정 일시 중지 {#journey-pause}
+# 여정 일시 중단 {#journey-pause}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"

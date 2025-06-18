@@ -8,21 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 9%
+source-wordcount: '1069'
+ht-degree: 3%
 
 ---
 
-# 문자 메시지(SMS/MMS) 만들기 {#create-sms}
+# SMS/MMS/RCS 메시지 만들기 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="텍스트 메시지 만들기"
->abstract="문자 메시지(SMS/MMS)를 만들려면 여정이나 캠페인에 SMS 작업을 추가하고 개인화 편집기로 개인화를 시작합니다."
+>abstract="문자 메시지(SMS/MMS/RCS)를 만들려면 여정 또는 캠페인에 SMS 작업을 추가하고 개인화 편집기로 개인화를 시작합니다."
 
-Adobe Journey Optimizer을 사용하여 텍스트(SMS) 및 멀티미디어(MMS) 메시지를 디자인하고 보낼 수 있습니다. 먼저 여정 또는 캠페인에 SMS 작업을 추가한 다음 아래에 설명된 대로 텍스트 메시지의 콘텐츠를 정의해야 합니다. Adobe Journey Optimizer은 전송 전에 텍스트 메시지를 테스트하여 렌더링, 개인화 속성 및 기타 모든 설정을 확인할 수 있는 기능도 제공합니다.
+Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 및 멀티미디어(MMS) 메시지를 디자인하고 보낼 수 있습니다. 먼저 여정 또는 캠페인에 SMS 작업을 추가한 다음 아래에 설명된 대로 텍스트 메시지의 콘텐츠를 정의해야 합니다. Adobe Journey Optimizer은 전송 전에 텍스트 메시지를 테스트하여 렌더링, 개인화 속성 및 기타 모든 설정을 확인할 수 있는 기능도 제공합니다.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Adobe Journey Optimizer을 사용하여 텍스트(SMS) 및 멀티미디어(MMS) 
 
 ## 문자 메시지 추가 {#create-sms-journey-campaign}
 
-아래 탭을 탐색하여 캠페인 또는 여정에서 문자 메시지(SMS/MMS)를 추가하는 방법을 알아봅니다.
+아래 탭을 탐색하여 캠페인 또는 여정에 문자 메시지(SMS/MMS/RCS)를 추가하는 방법을 알아봅니다.
 
 >[!BEGINTABS]
 
@@ -90,18 +90,20 @@ Adobe Journey Optimizer을 사용하여 텍스트(SMS) 및 멀티미디어(MMS) 
 
 >[!ENDTABS]
 
-## SMS 콘텐츠 정의{#sms-content}
+## SMS/RCS 콘텐츠 정의{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="SMS 콘텐츠 정의"
->abstract="개인화 편집기를 사용하여 콘텐츠를 정의하고 동적 요소를 통합하여 문자 메시지(SMS/MMS)를 사용자 정의하고 개인화합니다."
+>abstract="개인화 편집기를 사용하여 콘텐츠를 정의하고 동적 요소를 통합하여 텍스트 메시지(SMS/MMS/RCS)를 사용자 정의하고 개인화할 수 있습니다."
 
-SMS 콘텐츠를 구성하려면 아래 단계를 따르십시오. MMS 설정에 대한 자세한 내용은 [이 섹션](#mms-content)을 참조하세요.
+메시지 콘텐츠를 구성하려면 아래 단계를 따르십시오. MMS 설정에 대한 자세한 내용은 [이 섹션](#mms-content)을 참조하세요.
 
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 텍스트 메시지 콘텐츠를 구성합니다.
 
 1. 개인화 편집기를 열려면 **[!UICONTROL 메시지]** 필드를 클릭하십시오.
+
+   Infobip, Twilio 또는 기타 타사 공급자가 있는 RCS 메시지의 경우 필요한 JSON 페이로드를 [사용자 지정 SMS 구성](sms-configuration-custom.md#api-credential)에 붙여 넣으십시오.
 
    ![](assets/sms-content.png)
 

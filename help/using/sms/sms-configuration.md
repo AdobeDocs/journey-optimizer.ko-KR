@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 35%
+source-wordcount: '371'
+ht-degree: 32%
 
 ---
 
-# SMS 구성 시작 {#sms-configuration}
+# SMS/MMS/RCS 구성 시작 {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -37,7 +37,7 @@ ht-degree: 35%
 >title="SMS 공급업체 구성 선택"
 >abstract="SMS 공급업체에 맞게 구성된 API 자격 증명을 선택합니다."
 
-SMS 또는 MMS를 보내기 전에 Adobe Journey Optimizer 환경을 구성해야 합니다. 다음을 수행하십시오.
+SMS, MMS 또는 RCS를 보내기 전에 Adobe Journey Optimizer 환경을 구성해야 합니다. 다음을 수행하십시오.
 
 1. Journey Optimizer과 공급자 설정을 통합합니다.
 단계는 SMS 공급자에 따라 다릅니다. 자세한 설명서에 액세스하려면 아래 링크를 찾아보십시오.
@@ -51,7 +51,7 @@ SMS 또는 MMS를 보내기 전에 Adobe Journey Optimizer 환경을 구성해�
 
 ## 전제 조건{#sms-prerequisites}
 
-Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 텍스트 메시지 서비스를 제공하는 서드파티 공급자와 통합됩니다. 문자 메시지 및 MMS에 대해 지원되는 공급자는 **Sinch**, **Twilio** 및 **Infobip**&#x200B;입니다.
+Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 텍스트 메시지 서비스를 제공하는 서드파티 공급자와 통합됩니다. 문자 메시지 및 MMS에 대해 지원되는 공급자는 **Sinch**, **Twilio** 및 **Infobip**&#x200B;입니다. [사용자 지정 공급자 구성](sms-configuration-custom.md)을 사용하여 추가 메시징 공급자를 구성할 수 있습니다.
 
 SMS 채널을 구성하기 전에 이러한 공급자 중 하나로 계정을 만들어 **API 토큰** 및 **서비스 ID**&#x200B;를 받아야 합니다. 이 ID는 Adobe Journey Optimizer과 해당 공급자 간의 연결을 구성해야 합니다.
 

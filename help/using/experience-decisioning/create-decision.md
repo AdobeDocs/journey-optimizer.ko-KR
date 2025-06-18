@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1796'
 ht-degree: 11%
 
 ---
@@ -19,6 +19,12 @@ ht-degree: 11%
 >id="ajo_code_based_decision"
 >title="의사 결정은 무엇입니까?"
 >abstract="결정 정책에는 결정 엔진이 최상의 콘텐츠를 선택하기 위한 모든 선택 논리가 포함되어 있습니다. 결정 정책은 캠페인별로 다릅니다. 목표는 각 프로필에 가장 적합한 제안을 선택하는 것이며, 캠페인 작성을 통해서는 메시지에 포함될 항목 속성을 포함하여 선택한 결정 항목이 표시될 방법을 지정할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="결정 정보"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_decision_policy"
+>title="의사 결정 정책 정의"
+>abstract="의사 결정 정책을 사용하면 의사 결정 엔진에서 최상의 항목을 선택하여 적합한 대상자에게 전달할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="결정 정보"
 
 의사 결정 정책은 대상자에 따라 제공할 최상의 콘텐츠를 선택하기 위해 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
@@ -62,6 +68,10 @@ ht-degree: 11%
 1. [코드 편집기](../code-based/create-code-based.md#edit-code)에서 **[!UICONTROL 결정 정책]**&#x200B;을 선택하고 **[!UICONTROL 결정 정책 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/decision-code-based-create.png)
+
+   여정 또는 캠페인 버전 화면에서 개인화 편집기를 열지 않고도 결정 정책을 직접 추가할 수도 있습니다. 오른쪽 레일의 전용 아이콘을 사용하여 **[!UICONTROL Decisioning]** 섹션을 표시합니다.
+
+   ![](../code-based/assets/code-based-campaign-show-decisioning.png)
 
 1. 기본적으로 새 정책을 만듭니다.
 

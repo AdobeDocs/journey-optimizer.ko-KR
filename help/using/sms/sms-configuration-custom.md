@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 37313ca8a9527c934d8aeaf265e9674219726636
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1032'
 ht-degree: 9%
 
 ---
 
-# 사용자 정의 SMS 공급자 구성 {#sms-configuration-custom}
+# 사용자 정의 공급자 구성 {#sms-configuration-custom}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
@@ -31,11 +31,11 @@ ht-degree: 9%
 >title="공급자 페이로드"
 >abstract="올바른 데이터가 처리 및 응답 생성에 사용될 수 있도록 요청 페이로드를 제공합니다."
 
-이 기능을 사용하면 자체 SMS 공급자를 통합 및 구성할 수 있으므로 기본 공급자(Sinch, Twilio 및 Infobip) 이상의 유연성을 제공합니다. 이를 통해 SMS 작성, 전달, 보고 및 동의 관리를 원활하게 수행할 수 있습니다.
+이 기능을 사용하면 고유한 메시징 공급자를 통합 및 구성하여 기본 옵션(Sinch, Twilio 및 Infobip) 이상의 유연성을 제공할 수 있습니다. 이를 통해 SMS 및 RCS 메시지 모두에 대해 원활한 작성, 전달, 보고 및 동의 관리가 가능합니다.
 
-SMS에 대한 사용자 지정 공급자 구성을 통해 Journey Optimizer 내에서 직접 사용자 지정 SMS 공급자를 구성하고, 동적 메시지에 대한 고급 페이로드 사용자 지정을 사용하고, 규정 준수를 위해 동의 환경 설정(옵트인/옵트아웃)을 관리할 수 있습니다.
+사용자 정의 공급자 구성을 통해 Journey Optimizer 내에서 직접 서드파티 메시징 서비스에 연결하고, 다이내믹 컨텐츠에 대한 메시지 페이로드를 사용자 정의하고, 옵트인/옵트아웃 환경 설정을 관리하여 SMS와 RCS 채널 모두에서 규정 준수를 보장할 수 있습니다.
 
-사용자 지정 SMS 공급자를 구성하려면 아래 단계를 수행합니다.
+사용자 지정 공급자를 구성하려면 아래 단계를 수행하십시오.
 
 1. [API 자격 증명 만들기](#api-credential)
 1. [Webhook 만들기](#webhook)
@@ -44,7 +44,7 @@ SMS에 대한 사용자 지정 공급자 구성을 통해 Journey Optimizer 내�
 
 ## API 자격 증명 만들기 {#api-credential}
 
-Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, Infobip, Twilio)를 사용하여 Journey Optimizer에서 메시지를 보내려면 다음 단계를 수행합니다.
+Adobe에서 즉시 사용할 수 없는 사용자 정의 공급자(예: Sinch, Infobip, Twilio)를 사용하여 Journey Optimizer에서 SMS 및 RCS 메시지를 보내려면 다음 단계를 따르십시오.
 
 1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL SMS 설정]**&#x200B;에서 **[!UICONTROL API 자격 증명]** 메뉴를 선택한 다음 **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
 
@@ -62,7 +62,7 @@ Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, I
 
    * **[!UICONTROL 공급자 URL]**: SMS 공급자의 URL을 입력하십시오.
 
-   * **인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.**
+   * **[!UICONTROL 인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.]**
 
      ![](assets/sms-byop.png)
 
@@ -73,6 +73,8 @@ Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, I
    ![](assets/sms_byo_2.png)
 
 1. **[!UICONTROL 공급자 페이로드]**&#x200B;를 추가하여 요청 페이로드의 유효성을 검사하고 사용자 지정합니다.
+
+   RCS 메시지의 경우 이 페이로드는 나중에 [콘텐츠 디자인](create-sms.md#sms-content) 중에 사용됩니다.
 
 1. API 자격 증명 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
