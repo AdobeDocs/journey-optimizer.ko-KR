@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: css, 편집기, 요약, 이메일
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 8%
+source-wordcount: '730'
+ht-degree: 7%
 
 ---
 
@@ -38,6 +38,8 @@ ht-degree: 8%
    >
    >**[!UICONTROL CSS 스타일]** 섹션은 편집기에 콘텐츠가 이미 있는 경우에만 사용할 수 있습니다.
 
+1. **[!UICONTROL 사용자 지정 CSS 추가]** 단추를 클릭합니다.
+
 1. 표시되는 전용 텍스트 영역에 CSS 코드를 입력합니다. 사용자 지정 CSS가 올바르고 적절한 구문을 따르는지 확인하십시오. [자세히 알아보기](#use-valid-css)
 
    ![전용 텍스트 영역에 사용자 지정 CSS 입력](assets/email-body-custom-css.png){width="65%"}
@@ -45,6 +47,8 @@ ht-degree: 8%
    >[!NOTE]
    >
    >**[!UICONTROL 사용자 지정 CSS 추가]** 단추는 **[!UICONTROL 본문]**&#x200B;을 선택한 경우에만 사용할 수 있습니다. 하지만 사용자 지정 CSS 스타일을 콘텐츠 내의 모든 구성 요소에 적용할 수 있습니다.
+   >
+   >잠긴 콘텐츠](../content-management/content-locking.md#use)가 있는 [템플릿을 사용하는 경우 콘텐츠에 사용자 지정 CSS를 추가할 수 없습니다. 단추 레이블이 **[!UICONTROL 사용자 지정 CSS 보기]**(으)로 변경되고 콘텐츠에 이미 있는 사용자 지정 CSS는 읽기 전용입니다.
 
 1. 사용자 지정 CSS를 저장하고 사용자 지정 CSS가 콘텐츠에 올바르게 적용되었는지 확인합니다. 그렇지 않은 경우 [문제 해결](#troubleshooting) 섹션을 확인하십시오.
 
