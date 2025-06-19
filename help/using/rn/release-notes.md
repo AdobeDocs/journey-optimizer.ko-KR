@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 48%
+source-wordcount: '1070'
+ht-degree: 45%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 48%
 
 **릴리스 일자**: 2025년 6월 18일 목요일
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#25-06-features}
 
@@ -195,11 +195,13 @@ ht-degree: 48%
 
 다음은 이번 릴리스의 개선 사항 목록입니다.
 
-<!--* **Channel rule sets**
+* **채널 규칙 집합**
 
-  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
+   * **시간 제한을 위한 사용자 지정 기간 창** - 이제 채널 규칙 집합 구성 화면에서 새 **간격** 필드를 사용할 수 있으므로 지정된 기간에 따라 여러 날, 주 또는 달에 걸쳐 빈도 제한 규칙을 적용할 수 있습니다.
 
-  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
+   * **시간별 재설정 최대 가용량** - 이제 채널 규칙 집합에 시간별로 최대 가용량 설정을 적용할 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 고객 지원 센터에 문의하여 활성화하십시오.
+
+   * **일별 기간** - 이전에는 제한된 가용성에서 사용할 수 있었지만, 이제 채널 규칙 세트의 &quot;일별&quot; 빈도 제한을 모든 고객이 사용할 수 있습니다.
 
 * **코드 기반 경험**
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1957'
 ht-degree: 14%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->채널 도메인 및 여정 도메인에 대해 최대 10개의 활성 로컬 규칙 세트를 만들 수 있습니다.
+>각 채널 도메인 및 여정 도메인에 대해 최대 10개의 활성 로컬 규칙 세트를 만들 수 있습니다.
 
 1. **[!UICONTROL 규칙 집합]** 목록에 액세스한 다음 **[!UICONTROL 규칙 집합 만들기]**&#x200B;를 클릭합니다.
 
@@ -197,7 +197,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->규칙 또는 규칙 세트가 완전히 활성화되려면 최대 20분이 걸릴 수 있습니다. 규칙을 적용하려면 메시지를 수정하거나 여정을 다시 게시할 필요가 없습니다.
+>규칙 또는 규칙 세트가 완전히 활성화되려면 최대 10분이 걸릴 수 있습니다. 규칙을 적용하려면 메시지를 수정하거나 여정을 다시 게시할 필요가 없습니다.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -253,7 +253,7 @@ ht-degree: 14%
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. 캠페인을 활성화하기 전에 적어도 20분 후 실행을 예약하십시오.
+1. 캠페인을 활성화하기 전에 적어도 10분 후 실행을 예약하십시오.
 
    이렇게 하면 선택한 비즈니스 규칙에 대한 프로필의 카운터 값을 채울 수 있습니다. 캠페인을 즉시 활성화하면 규칙 세트 카운터 값이 수신자의 프로필에 채워지지 않고 메시지가 사용자 지정 규칙 세트의 빈도 제한 규칙에 계산되지 않습니다.
 
@@ -306,10 +306,10 @@ In this scenario, an individual profile:
 
 >[!IMPORTANT]
 >
->여정이 즉시 활성화되면 시스템에서 고객 억제를 시작하는 데 최대 20분이 걸릴 수 있습니다. 이러한 가능성을 방지하기 위해 적어도 20분 후에 여정을 시작하도록 예약할 수 있습니다.
+>여정이 즉시 활성화되면 시스템이 고객 억제를 시작하는 데 최대 10분이 걸릴 수 있습니다. 이러한 가능성을 방지하기 위해 적어도 10분 후에 여정이 시작되도록 예약할 수 있습니다.
 
 +++
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
