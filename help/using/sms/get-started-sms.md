@@ -72,7 +72,7 @@ Adobe Journey Optimizer는 SMS 서비스 공급자(또는 SMS 게이트웨이 �
 
   >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-+++
+  +++
 
 * 아래 비디오에서는 Adobe Journey Optimizer가 마케터에게 제공하는 모바일 기능을 더 잘 이해할 수 있도록 도와줍니다.
 
@@ -81,4 +81,4 @@ Adobe Journey Optimizer는 SMS 서비스 공급자(또는 SMS 게이트웨이 �
 
   >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-+++
+  +++
