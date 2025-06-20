@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 45%
@@ -30,7 +30,7 @@ ht-degree: 45%
 
 **릴리스 일자**: 2025년 6월 18일 목요일
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#25-06-features}
 
@@ -103,7 +103,7 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>이제 여정 캔버스에서 전용 Content Decisioning 활동을 통해 개인화된 오퍼를 여정에 포함하고 조건 및 사용자 지정 작업을 포함한 여정 활동에서 사용할 수 있습니다.</p>
+<p>이제 여정 캔버스에서 전용 콘텐츠 결정 활동을 통해 여정에 개인화된 오퍼를 포함하고 조건 및 사용자 지정 작업을 포함한 여정 활동에 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/content-decision.gif">
 <p>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역으로 롤아웃될 예정입니다.</p>
 <p>자세한 내용은 <a href="../building-journeys/content-decision.md">세부 설명서</a>를 참조하십시오.</p>
