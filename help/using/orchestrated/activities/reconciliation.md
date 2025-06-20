@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 34%
+source-wordcount: '622'
+ht-degree: 36%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 34%
 
 +++ 목차
 
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
+| 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
 | [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](../configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](../gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](../send-messages.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [쿼리 Modeler 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[및 가입](and-join.md) - [대상 작성](build-audience.md) - [차원 변경](change-dimension.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [데이터 보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [분할](split.md) - [대기](wait.md) |
 
@@ -50,9 +50,9 @@ ht-degree: 34%
 
 **조정** 활동은 **타깃팅** 활동으로, Adobe Journey Optimizer의 데이터와 작업 테이블의 데이터(예: 외부 파일에서 로드된 데이터) 간의 링크를 정의할 수 있습니다.
 
-데이터 보강 활동을 사용하면 오케스트레이션된 캠페인에 데이터를 추가할 수 있습니다. 예를 들어 여러 소스의 데이터를 결합하거나 임시 리소스에 연결할 수 있습니다. 반면 조정 활동은 미식별 또는 외부 데이터를 데이터베이스의 기존 리소스와 일치시키는 데 사용됩니다.
+**데이터 보강** 활동을 사용하면 오케스트레이션된 캠페인에 데이터를 추가할 수 있습니다. 예를 들어 여러 소스의 데이터를 결합하거나 임시 리소스에 연결할 수 있습니다. 반대로 **조정** 활동은 미확인 또는 외부 데이터와 데이터베이스의 기존 리소스를 일치시키는 데 사용됩니다.
 
-조정을 사용하려면 관련 레코드가 시스템에 이미 있어야 합니다. 예를 들어 제품, 타임스탬프 및 고객 정보가 나열된 구매 파일을 가져오는 경우 링크를 설정하려면 제품과 고객 모두 데이터베이스에 이미 있어야 합니다.
+**조정**&#x200B;을 사용하려면 관련 레코드가 시스템에 이미 있어야 합니다. 예를 들어 제품, 타임스탬프 및 고객 정보가 나열된 구매 파일을 가져오는 경우 링크를 설정하려면 제품과 고객 모두 데이터베이스에 이미 있어야 합니다.
 
 ## 조정 활동 구성 {#reconciliation-configuration}
 
@@ -71,7 +71,7 @@ ht-degree: 34%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="타기팅 차원 선택"
 >abstract="조정할 인바운드 데이터의 타기팅 차원을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=ko#targeting-dimensions" text="타기팅 차원"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="타기팅 차원"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
