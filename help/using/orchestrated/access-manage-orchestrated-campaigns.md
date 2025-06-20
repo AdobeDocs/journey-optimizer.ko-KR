@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 979b46eccf77db6e90cd47ceb7a40298bb481cc5
+source-git-commit: 919b462e869b8dd836fe45ee31441d3cc7ecf6b2
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '579'
 ht-degree: 24%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 24%
 >id="ajo_targeting_workflow_list"
 >title="오케스트레이션된 캠페인"
 >abstract="이 화면에서 오케스트레이션된 캠페인의 전체 목록에 액세스하고 현재 상태, 마지막/다음 실행 일자를 확인하고 오케스트레이션된 새 캠페인을 만들 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_campaign_action"
+>title="작업"
+>abstract="이 섹션에는 오케스트레이션된 캠페인 내에서 사용되는 모든 작업이 나열되어 있습니다."
 
 +++ 목차
 
