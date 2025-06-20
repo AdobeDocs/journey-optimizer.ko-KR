@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
+source-git-commit: 97a791329f35ba64a1dca9aef7802e0f4103dbe5
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1114'
 ht-degree: 2%
 
 ---
@@ -44,6 +44,21 @@ Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Pla
 * **지원되는 채널**: 현재 이 기능은 전자 메일, SMS 및 DM 채널 내에서만 사용할 수 있습니다.
 * **데이터 사용 레이블 지정 및 적용**&#x200B;은 현재 조회를 위해 활성화된 데이터 세트에 대해 적용되지 않습니다.
 * **조각**: 지금은 식 또는 시각적 조각 내에 데이터 집합 조회 개인 설정을 배치할 수 없습니다.
+
+### 결정 {#decisioning}
+
+Experience Decisioning 등급 수식 및 규칙에서 [!DNL Adobe Experience Platform] 데이터 세트를 활용하는 기능이 곧 제공될 예정입니다.
+
+그 동안 아래 설명된 현재 보호 기능을 검토해 주십시오.
+
+* 의사 결정 정책은 데이터 세트 3개로 제한됩니다.
+* 의사 결정 규칙은 3개의 데이터 세트를 사용할 수 있습니다.
+* 순위 공식은 3개의 데이터 세트를 사용할 수 있으며,
+* 의사 결정 정책은 1000개의 레코드 쿼리로 제한됩니다.
+
+>[!NOTE]
+>
+>이 기능에 액세스하려면 계정 담당자에게 문의하십시오
 
 ## 데이터 조회를 위해 데이터 세트 활성화 {#enable}
 
@@ -117,11 +132,11 @@ API 호출을 사용하여 조회 개인화에 대한 데이터 집합을 활성
 
    +++데이터 세트 ID를 검색할 위치
 
-   데이터 세트 ID는 Adobe Experience Platform 사용자 인터페이스에서 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}에서 데이터 세트로 작업하는 방법을 알아보세요.
+   데이터 세트 ID는 Adobe Experience Platform 사용자 인터페이스에서 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}에서 데이터 세트로 작업하는 방법을 알아보세요.
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. 필요에 맞게 구문을 조정하십시오. 이 예제에서는 승객의 비행과 관련된 데이터를 검색하려고 합니다. 구문은 다음과 같습니다.
 
@@ -148,11 +163,11 @@ API 호출을 사용하여 조회 개인화에 대한 데이터 집합을 활성
 
      +++필드 ID를 검색하는 위치
 
-     Adobe Experience Platform 사용자 인터페이스에서 데이터 세트를 미리 볼 때 필드 ID를 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}에서 데이터 세트를 미리 보는 방법에 대해 알아보세요.
+     Adobe Experience Platform 사용자 인터페이스에서 데이터 세트를 미리 볼 때 필드 ID를 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}에서 데이터 세트를 미리 보는 방법에 대해 알아보세요.
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    이 예제에서는 승객의 탑승 시간 및 탑승구와 관련된 정보를 사용하려고 합니다. 따라서 다음 두 행을 추가합니다.
 
