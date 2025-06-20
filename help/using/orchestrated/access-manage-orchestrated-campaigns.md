@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 919b462e869b8dd836fe45ee31441d3cc7ecf6b2
+source-git-commit: cd42bca1a36344f688b2d90e1c0b96a9ef2a53ce
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 24%
+source-wordcount: '610'
+ht-degree: 22%
 
 ---
 
@@ -72,14 +72,23 @@ ht-degree: 24%
 * **[!UICONTROL 게시]**: 오케스트레이션된 캠페인이 게시되고 있습니다.
 * **[!UICONTROL Live]**: 오케스트레이션된 캠페인이 게시되어 실행 중입니다.
 * **[!UICONTROL 예약됨]**: 오케스트레이션된 캠페인 실행이 예약되었습니다.
-* **[!UICONTROL 완료됨]**: 오케스트레이션된 캠페인 실행이 완료되었습니다.
-  <!--* **[!UICONTROL Closed]**: The orchestrated campaign xxxx-->
+* **[!UICONTROL 완료됨]**: 오케스트레이션된 캠페인 실행이 완료되었습니다. 완료 상태는 캠페인이 오류 없이 메시지 전송을 완료한 후 최대 3일까지 자동으로 할당됩니다.
+* **[!UICONTROL 닫힘]**: 이 상태는 반복 캠페인이 중지되면 표시됩니다.
+<!--Comment une campaign devient Closed?
+[CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
+= pas trouvé-->
 * **[!UICONTROL 보관됨]**: 오케스트레이션된 캠페인이 보관되었습니다. 보관된 모든 캠페인은 마지막 수정 날짜 후 30일 후에 정기 예약이 삭제됩니다. 필요한 경우 보관된 캠페인을 복제하여 계속 작업할 수 있습니다.
-* **[!UICONTROL 중지됨]**: 오케스트레이션된 캠페인 실행이 중지되었습니다. 캠페인을 시작하려면 이를 복제해야 합니다.
+<!--Comment une campaign devient Archived?
+[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...)
+= pas trouvé -->
+* **[!UICONTROL 중지됨]**: 오케스트레이션된 캠페인 실행이 중지되었습니다. 캠페인을 다시 시작하려면 복제해야 합니다.
 
 ## 오케스트레이션된 캠페인 복제 및 삭제 {#duplicate-delete}
 
 예를 들어 중지된 캠페인을 실행하거나 예약된 캠페인의 실행 빈도를 변경하기 위해 오케스트레이션된 캠페인을 복제해야 하는 경우가 있습니다. 이렇게 하려면 캠페인 인벤토리에서 [추가 작업] 단추를 표시하는 ![이미지](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 클릭한 다음 **[!UICONTROL 복제]**&#x200B;를 선택하십시오
+
+<!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
+[CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
 
 캠페인을 삭제하려면 ![추가 작업 단추를 표시하는 이미지](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 클릭한 다음 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
