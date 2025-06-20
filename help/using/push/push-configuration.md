@@ -86,7 +86,7 @@ ht-degree: 5%
 
 1. 이전에 구성한 **[!UICONTROL 제품 프로필]**&#x200B;을 선택하세요.
 
-1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/push_product_6.png)
 
@@ -306,11 +306,11 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 이 여정이 작동하려면 XDM 스키마를 만들어야 합니다. 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}를 참조하세요.
 
-1. 데이터 관리 메뉴 섹션에서 **[!UICONTROL 스키마]**를 클릭합니다.
+1. 데이터 관리 메뉴 섹션에서 **[!UICONTROL 스키마]**&#x200B;를 클릭합니다.
    ![](assets/test_push_1.png)
-1. **[!UICONTROL 스키마 만들기]**&#x200B;를 클릭하고 오른쪽 상단에서 **[!UICONTROL 경험 이벤트]**&#x200B;를 선택한 후 **다음**을 클릭합니다.
+1. **[!UICONTROL 스키마 만들기]**&#x200B;를 클릭하고 오른쪽 상단에서 **[!UICONTROL 경험 이벤트]**&#x200B;를 선택한 후 **다음**&#x200B;을 클릭합니다.
    ![](assets/test_push_2.png)
-1. 스키마의 이름과 설명을 입력하고 **마침**을 클릭합니다.
+1. 스키마의 이름과 설명을 입력하고 **마침**&#x200B;을 클릭합니다.
    ![](assets/test_push_3.png)
 1. **필드 그룹** 섹션에서 왼쪽의 **추가**&#x200B;를 클릭하고 **[!UICONTROL 새 필드 그룹 만들기]**&#x200B;를 선택합니다.
 
