@@ -9,9 +9,9 @@ role: Data Engineer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 85fc6bdc6386f52374172d50667edeea5344011f
+source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '505'
 ht-degree: 25%
 
 ---
@@ -41,7 +41,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 **계산된 특성**&#x200B;을 활용하여 콘텐츠를 개인화할 수도 있습니다. 계산된 속성을 사용하면 개별 행동 이벤트를 Adobe Experience Platform에서 사용할 수 있는 계산된 프로필 속성으로 요약할 수 있습니다. [계산된 특성으로 작업하는 방법을 알아봅니다](../audience/computed-attributes.md)
 
-또한 [!DNL Journey Optimizer]을(를) 사용하면 개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 콘텐츠를 개인화할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 Journey Optimizer에 개인화할 수 있습니다. 이 기능은 현재 Beta에서 사용할 수 있습니다. [자세히 알아보기](../personalization/lookup-aep-data.md)
+또한 [!DNL Journey Optimizer]을(를) 사용하면 개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 콘텐츠를 개인화할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 Journey Optimizer에 개인화할 수 있습니다. 이 기능은 현재 Beta 버전으로 제공됩니다. [자세히 알아보기](../personalization/lookup-aep-data.md)
 
 ## 개인화 학습 및 실험 {#playground}
 
@@ -51,7 +51,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 ![개인화 플레이그라운드](assets/playground.png)
 
-➡️0&rbrace;개인화 플레이그라운드에 액세스[&#128279;](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 더 자세히 알아보기
 
@@ -77,7 +77,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 </td>
 <td>
 <a href="../personalization/functions/functions.md">
-<img alt="저빈도" src="assets/do-not-localize/functions.png">
+<img alt="드물게" src="assets/do-not-localize/functions.png">
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>도우미 함수 목록</strong></a>
@@ -85,7 +85,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 <p></td>
 <td>
 <a href="../personalization/personalization-use-case.md">
-<img alt="저빈도" src="assets/do-not-localize/uc.png">
+<img alt="드물게" src="assets/do-not-localize/uc.png">
 </a>
 <div>
 <a href="../personalization/personalization-use-case.md"><strong>Personalization 사용 사례</strong></a>
@@ -97,11 +97,11 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 여정에서 얻은 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448143?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 메시지에 프로필 기반 개인 맞춤화를 추가하는 방법과 개인 맞춤화 블록의 전제 조건으로 대상자 멤버십을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416272?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 개인화 편집기 플레이그라운드를 활용하여 샘플 데이터를 사용하여 개인화 코드를 작성하고 테스트하는 방법을 알아봅니다.
 
