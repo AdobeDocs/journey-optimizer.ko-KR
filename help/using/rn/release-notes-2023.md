@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4377'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -364,13 +364,13 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>이메일 Designer에 대한 HTML 콘텐츠 변환</strong><br/></th>
+<th><strong>이메일 디자이너를 위한 HTML 콘텐츠 변환</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer 이메일 편집기에서 HTML 콘텐츠를 가져오고 변환할 수 있습니다. 콘텐츠 블록은 자동으로 식별되며 이메일 Designer에서 사용할 수 있습니다. 강력한 디자인 기능을 사용하여 업데이트하고 개인화합니다.</p>
+<p>이제 Journey Optimizer 이메일 편집기에서 HTML 콘텐츠를 가져오고 변환할 수 있습니다. 콘텐츠 블록은 자동으로 식별되며 [이메일 디자이너]에서 사용할 수 있습니다. 강력한 디자인 기능을 사용하여 업데이트하고 개인화할 수 있습니다.</p>
 <img src="assets/html-convert.png">
 <p>자세한 내용은 <a href="../email/existing-content.md">세부 설명서</a>를 참고하세요.</p>
 </td>
