@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1796'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
->title="의사 결정 정책 정의"
->abstract="의사 결정 정책을 사용하면 의사 결정 엔진에서 최상의 항목을 선택하여 적합한 대상자에게 전달할 수 있습니다."
+>title="결정 정책 정의"
+>abstract="결정 정책을 사용하면 결정 엔진에서 최상의 항목을 선택하여 올바른 대상자에게 전달할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="결정 정보"
 
 의사 결정 정책은 대상자에 따라 제공할 최상의 콘텐츠를 선택하기 위해 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.

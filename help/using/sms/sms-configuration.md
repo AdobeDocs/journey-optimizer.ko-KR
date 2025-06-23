@@ -10,11 +10,11 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 32%
+ht-degree: 34%
 
 ---
 
-# SMS/MMS/RCS 구성 시작 {#sms-configuration}
+# SMS / MMS / RCS 구성 시작 {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
