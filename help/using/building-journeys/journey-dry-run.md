@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 20%
+source-wordcount: '984'
+ht-degree: 21%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 20%
 
 >[!AVAILABILITY]
 >
->이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역으로 롤아웃될 예정입니다.
+>이 기능은 일부 조직에서만 사용할 수 있으며(제한된 가용성) 향후 릴리스에서 전체 사용자를 대상으로 공개될 예정입니다.
 
 
 ## 주요 이점 {#journey-dry-run-benefits}
@@ -51,6 +51,13 @@ ht-degree: 20%
 1. **대상 인사이트**: 여정 실무자는 옵트아웃, 제외 및 기타 조건을 포함하여 다양한 여정 노드에서 대상 도달 가능성을 예측할 수 있습니다.
 1. **실시간 피드백**: 실시간 보고와 유사하게 지표가 여정 캔버스에 직접 표시되므로 여정 실무자가 여정 디자인을 개선할 수 있습니다.
 
+드라이 실행 중에 여정은 다음 특성을 사용하여 실행됩니다.
+
+* 이메일, SMS 또는 푸시 알림을 포함한 **채널 작업** 노드가 실행되지 않습니다.
+* 시험 실행 중에 **사용자 지정 작업**&#x200B;이(가) 비활성화되며 해당 응답은 null로 설정됩니다.
+* **대기 노드**은(는) 시험 실행 중에 무시됩니다.
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+* 외부 데이터 원본을 포함한 **데이터 원본**&#x200B;은(는) 기본적으로 실행됩니다
 
 >[!CAUTION]
 >
@@ -86,7 +93,7 @@ ht-degree: 20%
 
 각 활동에 대해 다음을 확인할 수 있습니다.
 
-* **[!UICONTROL 입력됨]**: 이 활동에 입력한 총 개인 수입니다.
+* **[!UICONTROL 입력됨]**: 이 활동에 입력한 총 개인 수입니다. **Action** 활동의 경우, 시험 실행 모드에서 실행되지 않으므로 이 지표는 프로필이 통과함을 나타냅니다.
 * **[!UICONTROL 종료됨(종료 기준을 충족함)]**: 종료 기준으로 인해 해당 활동에서 여정을 종료한 총 개인 수.
 * **[!UICONTROL 종료됨(강제 종료)]**: 여정 실무자 구성으로 인해 일시 중지된 동안 여정을 종료한 총 개인 수 이 지표는 시험 실행 모드의 여정에 대해 항상 0입니다.
 * **[!UICONTROL 오류]**: 해당 활동에 오류가 있는 개인의 총 수입니다.
@@ -127,10 +134,4 @@ ht-degree: 20%
    * `_experience.journeyOrchestration.stepEvents.inDryRun`은(는) 시험 실행이 활성화되면 `true`을(를) 반환하고 그렇지 않으면 `false`을(를) 반환합니다.
    * `_experience.journeyOrchestration.stepEvents.dryRunID`에서 시험 실행 인스턴스의 ID를 반환합니다.
 
-* 드라이 실행 중에 여정은 다음 특성을 사용하여 실행됩니다.
-
-   * 이메일, SMS 또는 푸시 알림을 포함한 **채널 작업** 노드가 실행되지 않습니다.
-   * 시험 실행 중에 **사용자 지정 작업**&#x200B;이(가) 비활성화되며 해당 응답은 null로 설정됩니다.
-   * **대기 노드**&#x200B;은(는) 시험 실행 중에 무시됩니다.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * 외부 데이터 원본을 포함한 **데이터 원본**&#x200B;은(는) 기본적으로 실행됩니다
+* Adobe Experience Platform Query Service를 사용하여 여정 보고 지표를 분석할 때 드라이 실행 생성 단계 이벤트를 제외해야 합니다. 이 작업을 수행하려면 `inDryRun` 플래그를 `false`(으)로 설정하십시오.
