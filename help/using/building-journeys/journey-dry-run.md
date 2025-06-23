@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
+source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '996'
 ht-degree: 21%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 21%
 
 * 이메일, SMS 또는 푸시 알림을 포함한 **채널 작업** 노드가 실행되지 않습니다.
 * 시험 실행 중에 **사용자 지정 작업**&#x200B;이(가) 비활성화되며 해당 응답은 null로 설정됩니다.
-* **대기 노드**&#x200B;은(는) 시험 실행 중에 무시됩니다.
+* **대기 노드**은(는) 시험 실행 중에 무시됩니다.
   <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * 외부 데이터 원본을 포함한 **데이터 원본**&#x200B;은(는) 기본적으로 실행됩니다
 
@@ -91,7 +91,7 @@ ht-degree: 21%
 
 ![여정 시험 실행 모니터링](assets/dry-run-metrics.png)
 
-각 활동에 대해 다음을 확인할 수 있습니다.
+각 활동의 활동 상자에서 다음을 선택할 수 있습니다.
 
 * **[!UICONTROL 입력됨]**: 이 활동에 입력한 총 개인 수입니다. **Action** 활동의 경우, 시험 실행 모드에서 실행되지 않으므로 이 지표는 프로필이 통과함을 나타냅니다.
 * **[!UICONTROL 종료됨(종료 기준을 충족함)]**: 종료 기준으로 인해 해당 활동에서 여정을 종료한 총 개인 수.
@@ -99,7 +99,7 @@ ht-degree: 21%
 * **[!UICONTROL 오류]**: 해당 활동에 오류가 있는 개인의 총 수입니다.
 
 
-여정 수준에서 다음을 확인할 수 있습니다.
+캔버스의 왼쪽 상단 섹션에서 여정 수준에서 다음을 확인할 수 있습니다.
 
 * 총 **입력한 프로필 수**
 * **종료된 총 프로필 수**
