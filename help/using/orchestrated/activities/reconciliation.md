@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 36%
+source-wordcount: '621'
+ht-degree: 32%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 36%
 
 <br/>
 
-**조정** 활동은 **타깃팅** 활동으로, Adobe Journey Optimizer의 데이터와 작업 테이블의 데이터(예: 외부 파일에서 로드된 데이터) 간의 링크를 정의할 수 있습니다.
+**[!UICONTROL 조정]** 활동은 **[!UICONTROL 타깃팅]** 활동으로, Adobe Journey Optimizer의 데이터와 작업 테이블의 데이터(예: 외부 파일에서 로드된 데이터) 간의 링크를 정의할 수 있습니다.
 
-**데이터 보강** 활동을 사용하면 오케스트레이션된 캠페인에 데이터를 추가할 수 있습니다. 예를 들어 여러 소스의 데이터를 결합하거나 임시 리소스에 연결할 수 있습니다. 반대로 **조정** 활동은 미확인 또는 외부 데이터와 데이터베이스의 기존 리소스를 일치시키는 데 사용됩니다.
+**[!UICONTROL 데이터 보강]** 활동을 사용하면 오케스트레이션된 캠페인에 데이터를 추가할 수 있습니다. 예를 들어 여러 소스의 데이터를 결합하거나 임시 리소스에 연결할 수 있습니다. 반대로 **[!UICONTROL 조정]** 활동은 미확인 또는 외부 데이터와 데이터베이스의 기존 리소스를 일치시키는 데 사용됩니다.
 
-**조정**&#x200B;을 사용하려면 관련 레코드가 시스템에 이미 있어야 합니다. 예를 들어 제품, 타임스탬프 및 고객 정보가 나열된 구매 파일을 가져오는 경우 링크를 설정하려면 제품과 고객 모두 데이터베이스에 이미 있어야 합니다.
+**[!UICONTROL 조정]**&#x200B;을 사용하려면 관련 레코드가 시스템에 이미 있어야 합니다. 예를 들어 제품, 타임스탬프 및 고객 정보가 나열된 구매 파일을 가져오는 경우 링크를 설정하려면 제품과 고객 모두 데이터베이스에 이미 있어야 합니다.
 
 ## 조정 활동 구성 {#reconciliation-configuration}
 
@@ -71,7 +71,7 @@ ht-degree: 36%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="타기팅 차원 선택"
 >abstract="조정할 인바운드 데이터의 타기팅 차원을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=ko#targeting-dimensions" text="타기팅 차원"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="타기팅 차원"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
@@ -83,22 +83,36 @@ ht-degree: 36%
 >title="조정 속성"
 >abstract="데이터 조정에 사용할 속성을 선택하고 확인을 클릭합니다."
 
-**조정** 활동을 구성하려면 다음 단계를 따르십시오.
+**[!UICONTROL 조정]** 활동을 구성하려면 다음 단계를 따르십시오.
 
-1. 오케스트레이션된 캠페인에 **조정** 활동을 추가합니다.
+1. 워크플로우에 **[!UICONTROL 조정]** 활동을 추가합니다.
 
-1. 새로운 타기팅 차원을 선택합니다. 차원을 사용하면 타겟팅된 모집단(수신자, 앱 구독자, 연산자, 구독자 등)을 정의할 수 있습니다.
+1. 수신자나 구독자와 같이 타겟팅하는 사용자를 정의하려면 새 타겟팅 차원을 선택합니다.
 
-1. 조정에 사용할 필드를 선택합니다. 조정 기준을 하나 이상 사용할 수 있습니다.
+1. 들어오는 데이터를 기존 프로필과 일치시키는 데 사용할 필드를 설정합니다.
 
-   1. 특성을 사용하여 데이터를 조정하려면 **단순 특성** 옵션을 선택하십시오. **Source** 필드에는 조정할 입력 전환에서 사용할 수 있는 필드가 나열됩니다. **대상** 필드는 선택한 타겟팅 차원의 필드에 해당합니다. 소스와 대상이 같을 때 데이터가 조정됩니다. 예를 들어 **이메일** 필드를 선택하여 이메일 주소를 기반으로 프로필을 중복 제거합니다.
+1. 기본 필드를 사용하여 데이터를 일치시키려면 **[!UICONTROL 단순 특성]**&#x200B;을 선택하세요.
 
-      다른 조정 기준을 추가하려면 **규칙 추가** 단추를 클릭하십시오. 여러 조인 조건이 지정된 경우 데이터를 함께 연결할 수 있도록 모두 를 확인해야 합니다.
+1. 일치하는 필드 설정:
 
-      ![](../assets/workflow-reconciliation-criteria.png)
+   * **[!UICONTROL Source]**: 들어오는 데이터 필드를 나열합니다.
 
-   1. 다른 특성을 사용하여 데이터를 조정하려면 **고급 조정 조건** 옵션을 선택하십시오. 그런 다음 쿼리 모델러를 사용하여 자신의 조정 조건을 만들 수 있습니다.
+   * **[!UICONTROL 대상]**: 선택한 타겟팅 차원의 필드를 참조합니다.
 
-1. **필터 만들기** 단추를 사용하여 조정할 데이터를 필터링할 수 있습니다. 이렇게 하면 쿼리 모델러를 사용하여 사용자 지정 조건을 만들 수 있습니다.
+   두 값이 같은 경우 일치(예: 프로필을 식별하기 위해 **[!UICONTROL 이메일]**&#x200B;로 일치)가 발생합니다.
 
-기본적으로, 조정되지 않은 데이터는 아웃바운드 전환에 유지되고 나중에 사용할 수 있도록 작업 테이블에서 사용할 수 있습니다. 조정되지 않은 데이터를 제거하려면 **조정되지 않은 데이터 유지** 옵션을 비활성화합니다.
+   ![](../assets/workflow-reconciliation-criteria.png)
+
+1. 일치하는 규칙을 더 추가하려면 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭하세요. 일치가 발생하려면 모든 조건이 충족되어야 합니다.
+
+1. 더 복잡한 조건을 보려면 **[!UICONTROL 고급 조정 조건]**&#x200B;을 선택하세요. [쿼리 모델러](../orchestrated-rule-builder.md)를 사용하여 사용자 지정 논리를 정의합니다.
+
+1. 조정할 데이터를 필터링하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 쿼리 모델러에서 조건을 정의합니다.
+
+1. 기본적으로 일치하지 않는 레코드는 아웃바운드 전환에 유지되고 작업 테이블에 저장됩니다. 이를 제거하려면 **[!UICONTROL 조정되지 않은 데이터 유지]** 옵션을 사용하도록 설정하십시오.
+
+## 예 {#example-reconciliation}
+
+이 예제에서는 Adobe Journey Optimizer의 **[!UICONTROL 조정]** 활동을 사용하여 인식된 고객에게만 이메일을 보내도록 합니다. 데이터는 이전 주문이 있는 사용자를 타겟팅하는 **[!UICONTROL 대상자 읽기]** 활동을 통해 전송됩니다. 그런 다음 **[!UICONTROL 조정]** 활동은 전자 메일 필드를 사용하여 이 들어오는 데이터를 데이터베이스의 기존 프로필과 일치시킵니다.
+
+![](../assets/workflow-reconciliation-sample-1.0.png)

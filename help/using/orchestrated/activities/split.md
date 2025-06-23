@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 53%
 
 +++ 목차
 
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
+| 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
 | [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](../configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](../gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](../send-messages.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [쿼리 Modeler 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[및 가입](and-join.md) - [대상 작성](build-audience.md) - [차원 변경](change-dimension.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [데이터 보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [분할](split.md) - [대기](wait.md) |
 
@@ -33,7 +33,7 @@ ht-degree: 53%
 
 <br/>
 
-**Split** 활동은 필터링 규칙 또는 모집단 크기와 같은 정의된 선택 기준을 기반으로 들어오는 모집단을 여러 하위 집합으로 분할하는 **Targeting** 활동입니다.
+**[!UICONTROL Split]** 활동은 필터링 규칙 또는 모집단 크기와 같은 정의된 선택 기준을 기반으로 들어오는 모집단을 여러 하위 집합으로 분할하는 **[!UICONTROL Targeting]** 활동입니다.
 
 ## 분할 활동 구성 {#split-configuration}
 
@@ -77,11 +77,11 @@ ht-degree: 53%
 >title="출력 집단의 중복 활성화"
 >abstract=" **[!UICONTROL 출력 집단의 중복 활성화]** 옵션을 사용하면 여러 하위 집합에 속하는 집단을 관리할 수 있습니다. 확인란을 선택하지 않으면 분할 활동은 수신자가 여러 하위 집합의 기준을 충족하더라도 여러 출력 전환에 표시되지 않습니다. 기준이 일치하는 첫 번째 탭의 대상에 포함됩니다. 확인란을 선택하면 필터 조건을 충족하는 경우 여러 하위 집합에서 수신자를 찾을 수 있습니다."
 
-**분할** 활동을 구성하려면 다음 단계를 따르십시오.
+**[!UICONTROL 분할]** 활동을 구성하려면 다음 단계를 따르십시오.
 
-1. 오케스트레이션된 캠페인에 **분할** 활동을 추가합니다.
+1. 오케스트레이션된 캠페인에 **[!UICONTROL 분할]** 활동을 추가합니다.
 
-1. 활동 구성 창이 기본 하위 집합과 함께 열립니다. 수신 모집단을 세그먼트화하기 위해 원하는 만큼 하위 집합을 추가하려면 **세그먼트 추가** 버튼을 클릭합니다.
+1. 활동 구성 창이 기본 하위 집합과 함께 열립니다. 수신 모집단을 세그먼트화하기 위해 원하는 만큼 하위 집합을 추가하려면 **[!UICONTROL 세그먼트 추가]** 버튼을 클릭합니다.
 
    ![](../assets/orchestrated-split-1.png)
 

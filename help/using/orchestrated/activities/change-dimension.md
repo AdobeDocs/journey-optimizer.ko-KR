@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 457445e1c5f3e5819b484a26e9944f1295726d1e
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 20%
 
 +++ 목차
 
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
+| 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
 | [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](../configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](../gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](../send-messages.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [쿼리 Modeler 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[및 가입](and-join.md) - [대상 작성](build-audience.md) - [차원 변경](change-dimension.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [데이터 보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [분할](split.md) - [대기](wait.md) |
 
@@ -42,7 +42,7 @@ ht-degree: 20%
 
 이렇게 하려면 **[!UICONTROL 차원 변경]** 활동을 사용하십시오. 데이터 모델 및 입력 차원의 구조에 따라 오케스트레이션된 캠페인 동안 타깃팅 차원을 변경할 수 있습니다.
 
-예를 들어 선택한 대상자와 연결된 계약 소유자에게 직접 메시지를 보내기 위해 타겟팅 차원을 **프로필**&#x200B;에서 **계약**(으)로 이동할 수 있습니다.
+예를 들어 선택한 대상자와 연결된 계약 소유자에게 직접 메시지를 보내기 위해 타겟팅 차원을 ****[!UICONTROL 프로필]**&#x200B;에서 ****[!UICONTROL 계약]**(으)로 이동할 수 있습니다.
 
 <!--
 >[!IMPORTANT]
@@ -51,13 +51,13 @@ ht-degree: 20%
 
 ## 차원 변경 활동 구성 {#configure}
 
-**차원 변경** 활동을 구성하려면 다음 단계를 따르십시오.
+다음 단계에 따라 ****[!UICONTROL 차원 변경]** 활동을 구성하십시오.
 
-1. 오케스트레이션된 캠페인에 **차원 변경** 활동을 추가합니다.
+1. 오케스트레이션된 **에 **[!UICONTROL 차원 변경]** 활동을 추가합니다.
 
    ![](../assets/change-dimension.png)
 
-1. **새 대상 차원**&#x200B;을(를) 정의합니다. 차원 변경 중에는 모든 레코드가 유지됩니다.
+1. ****[!UICONTROL 새 대상 차원]을(를) **. 차원 변경 중에는 모든 레코드가 유지됩니다.
 
 1. 오케스트레이션된 캠페인을 실행하여 결과를 확인합니다. 차원 변경 활동 전후의 테이블에서 데이터를 비교하고 오케스트레이션된 캠페인 테이블의 구조를 비교합니다.
 
@@ -65,8 +65,8 @@ ht-degree: 20%
 
 이 사용 사례에는 지난 달에 위시리스트를 만든 프로필에 SMS를 전송하는 작업이 포함됩니다.
 
-**위시리스트** 타겟팅 차원을 사용하여 **[!UICONTROL 대상자 빌드]** 활동으로 시작하여 관련된 모든 위시리스트를 선택하십시오.
+****[!UICONTROL 위시리스트]** 타겟팅 차원을 사용하여 **[!UICONTROL 대상 작성]** 활동으로 시작하여 관련된 모든 위시리스트를 선택하십시오.
 
-다음으로 **[!UICONTROL 차원 변경]** 활동을 삽입하여 **위시리스트**&#x200B;에서 **수신자**(으)로 타겟팅 차원을 전환합니다. 이렇게 하면 오케스트레이션된 캠페인에서 해당 위시리스트와 연결된 프로필에 SMS를 보낼 수 있습니다.
+다음으로 **[!UICONTROL 차원 변경]** 활동을 삽입하여 ****[!UICONTROL 위시리스트&#x200B;]**에서 ****[!UICONTROL 수신자]**(으)로 타겟팅 차원을 전환합니다. 이렇게 하면 오케스트레이션된 캠페인에서 해당 위시리스트와 연결된 프로필에 SMS를 보낼 수 있습니다.
 
 ![](../assets/change-dimension-example.png)
