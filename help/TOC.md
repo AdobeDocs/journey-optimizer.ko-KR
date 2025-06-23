@@ -255,7 +255,7 @@ ht-degree: 98%
             + [개인화된 오퍼 삽입](using/email/add-offers-email.md)
             + [텍스트 버전 생성](using/email/text-version-email.md)
             + [메타데이터 추가](using/email/email-metadata.md)
-            + [사용자 지정 CSS 추가](using/email/custom-css.md)
+            + [사용자 정의 CSS 추가](using/email/custom-css.md)
          + 스타일 편집 {#edit-style}
             + [이메일 스타일 시작](using/email/get-started-email-style.md)
             + [배경 설정 편집](using/email/backgrounds.md)
@@ -296,7 +296,7 @@ ht-degree: 98%
       + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
       + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
       + SMS/MMS/RCS 채널 구성{#configure-sms}
-         + [SMS/MMS/RCS 구성 시작](using/sms/sms-configuration.md)
+         + [SMS / MMS / RCS 구성 시작](using/sms/sms-configuration.md)
          + [Sinch 공급자 구성](using/sms/sms-configuration-sinch.md)
          + [Infobip 공급자 구성](using/sms/sms-configuration-infobip.md)
          + [Twilio 공급자 구성](using/sms/sms-configuration-twilio.md)

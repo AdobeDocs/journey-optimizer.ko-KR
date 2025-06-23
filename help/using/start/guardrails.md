@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 598cffda92b27f89a752d6fb0ebc032f9017c43e
 workflow-type: tm+mt
 source-wordcount: '2541'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 >
 >* [실시간 고객 프로필 데이터 및 세분화에 대한 가드레일](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}이 Adobe Journey Optimizer에도 적용됩니다.
 >
->* [실시간 고객 프로필에서 데이터 수집을 위한 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails){target="_blank"}도 참조하세요.
+>* [실시간 고객 프로필에서 데이터 수집 가드레일](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/guardrails){target="_blank"}도 참조하십시오.
 
 
 ## 지원되는 브라우저 {#browsers}
@@ -220,7 +220,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 [여정 표현식 편집기](../building-journeys/expression/expressionadvanced.md)에는 다음 가드레일이 적용됩니다.
 
-* 경험 이벤트 필드 그룹은 대상자 읽기, 대상자 선별 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다. 새 대상을 만들고 여정에서 `inaudience` 조건을 사용해야 합니다.
+* 경험 이벤트 필드 그룹은 대상자 읽기, 대상자 선별 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다. 새 대상자를 만들고 여정에서 대상자 내 `inaudience` 조건을 사용해야 합니다.
 * `timeSeriesEvents` 속성은 표현식 편집기에서 사용할 수 없습니다. 프로필 수준에서 [경험 이벤트]에 액세스하려면 `XDM ExperienceEvent` 스키마를 기반으로 새 필드 그룹을 만드십시오.
 
 
