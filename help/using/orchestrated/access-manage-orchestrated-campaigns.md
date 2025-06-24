@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 21%
+source-wordcount: '697'
+ht-degree: 19%
 
 ---
 
@@ -48,11 +48,23 @@ ht-degree: 21%
 
 또한 목록에서 쉽게 검색할 수 있도록 검색 창과 필터를 사용할 수 있습니다. 예를 들어, 오케스트레이션된 캠페인을 필터링하여 지정된 채널 또는 태그와 연결된 캠페인 또는 특정 날짜 범위 동안 만들어진 캠페인만 표시할 수 있습니다.
 
+
+캠페인 인벤토리의 추가 작업 단추](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 ![이미지를 사용하면 아래에 설명된 다양한 작업을 수행할 수 있습니다.
+
+![캠페인 인벤토리 이미지](assets/inventory-actions.png)
+
+* **[!UICONTROL 모든 시간 보고서 보기]** -
+* **[!UICONTROL 최근 24시간 보고서 보기]** -
+* **[!UICONTROL 태그 편집]** - 캠페인에 연결된 태그를 편집합니다.
+* **[!UICONTROL 복제]** - 경우에 따라 오케스트레이션된 캠페인을 복제해야 합니다. 예를 들어 중지된 캠페인을 실행하거나 예약된 캠페인의 실행 빈도를 변경할 수 있습니다.
+* **[!UICONTROL 삭제]** - 캠페인을 삭제합니다. 이 작업은 **[!UICONTROL 초안]** 캠페인에서만 사용할 수 있습니다.
+* **[!UICONTROL 보관]** - 캠페인을 보관합니다. 보관된 모든 캠페인은 마지막 수정 날짜 후 30일 후에 정기 일정에 따라 삭제됩니다. 이 작업은 **[!UICONTROL 초안]** 캠페인을 제외한 모든 캠페인에 사용할 수 있습니다.
+
 ## 오케스트라 캠페인의 내부는 무엇입니까? {#gs-ms-campaign-inside}
 
 오케스트레이션된 캠페인 캔버스는 일어날 일을 표현한 것입니다. 앞으로 수행할 다양한 작업과 이러한 작업이 어떻게 서로 연결되어 있는지 설명합니다.
 
-![오케스트레이션된 캠페인 캔버스를 표시하는 이미지](assets/canvas-example.png){zoomable="yes"}{zoomable="yes"}
+![오케스트레이션된 캠페인 캔버스를 표시하는 이미지](assets/canvas-example.png)
 
 오케스트레이션된 각 캠페인에는 다음이 포함됩니다.
 
@@ -76,26 +88,6 @@ recurring starts à s&#39;executer , fait une query .click close: va continuer e
 * **[!UICONTROL Live]**: 오케스트레이션된 캠페인이 게시되어 실행 중입니다.
 * **[!UICONTROL 예약됨]**: 오케스트레이션된 캠페인 실행이 예약되었습니다.
 * **[!UICONTROL 완료됨]**: 오케스트레이션된 캠페인 실행이 완료되었습니다. 완료 상태는 캠페인이 오류 없이 메시지 전송을 완료한 후 최대 3일까지 자동으로 할당됩니다.
-* **[!UICONTROL 닫힘]**: 이 상태는 반복 캠페인이 중지되면 표시됩니다.
-<!--Comment une campaign devient Closed?
-[CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
-= pas trouvé--> cexui qsui sont déjà entrés ocnitnuent. on ferme les portes d'entrée.
-
+* **[!UICONTROL 닫힘]**: 이 상태는 반복 캠페인이 닫혔을 때 표시됩니다. 캠페인은 모든 활동이 완료될 때까지 실행을 계속하지만 더 이상 프로필이 캠페인을 입력할 수 없습니다.
 * **[!UICONTROL 보관됨]**: 오케스트레이션된 캠페인이 보관되었습니다. 보관된 모든 캠페인은 마지막 수정 날짜 후 30일 후에 정기 예약이 삭제됩니다. 필요한 경우 보관된 캠페인을 복제하여 계속 작업할 수 있습니다.
-<!--Comment une campaign devient Archived?
-[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...) bouton bientôt visible. possible pour tout sauf les draft.
-= pas trouvé -->
 * **[!UICONTROL 중지됨]**: 오케스트레이션된 캠페인 실행이 중지되었습니다. 캠페인을 다시 시작하려면 복제해야 합니다. 시에르외르레스테라아베크삼각형
-
-## 오케스트레이션된 캠페인 복제 및 삭제 {#duplicate-delete}
-
-예를 들어 중지된 캠페인을 실행하거나 예약된 캠페인의 실행 빈도를 변경하기 위해 오케스트레이션된 캠페인을 복제해야 하는 경우가 있습니다. 이렇게 하려면 캠페인 인벤토리에서 [추가 작업] 단추를 표시하는 ![이미지](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 클릭한 다음 **[!UICONTROL 복제]**&#x200B;를 선택하십시오
-
-<!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
-[CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
-
-캠페인을 삭제하려면 ![추가 작업 단추를 표시하는 이미지](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 클릭한 다음 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
-
->[!NOTE]
->
->**[!UICONTROL 초안]** 캠페인만 삭제할 수 있습니다.
