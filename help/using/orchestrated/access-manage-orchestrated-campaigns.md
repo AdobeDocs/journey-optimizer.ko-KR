@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: cd42bca1a36344f688b2d90e1c0b96a9ef2a53ce
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 22%
+source-wordcount: '637'
+ht-degree: 21%
 
 ---
 
@@ -68,6 +68,9 @@ ht-degree: 22%
 
 오케스트레이션된 캠페인은 여러 상태를 가질 수 있습니다.
 
+recurring starts à s&#39;executer , fait une query .click close: va continuer et se termienr quand elle sera allée jusqu&#39;au bout du diagram
+
+
 * **[!UICONTROL 초안]**: 오케스트레이션된 캠페인이 만들어졌습니다. 아직 게시되지 않았습니다.
 * **[!UICONTROL 게시]**: 오케스트레이션된 캠페인이 게시되고 있습니다.
 * **[!UICONTROL Live]**: 오케스트레이션된 캠페인이 게시되어 실행 중입니다.
@@ -76,12 +79,13 @@ ht-degree: 22%
 * **[!UICONTROL 닫힘]**: 이 상태는 반복 캠페인이 중지되면 표시됩니다.
 <!--Comment une campaign devient Closed?
 [CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
-= pas trouvé-->
+= pas trouvé--> cexui qsui sont déjà entrés ocnitnuent. on ferme les portes d'entrée.
+
 * **[!UICONTROL 보관됨]**: 오케스트레이션된 캠페인이 보관되었습니다. 보관된 모든 캠페인은 마지막 수정 날짜 후 30일 후에 정기 예약이 삭제됩니다. 필요한 경우 보관된 캠페인을 복제하여 계속 작업할 수 있습니다.
 <!--Comment une campaign devient Archived?
-[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...)
+[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...) bouton bientôt visible. possible pour tout sauf les draft.
 = pas trouvé -->
-* **[!UICONTROL 중지됨]**: 오케스트레이션된 캠페인 실행이 중지되었습니다. 캠페인을 다시 시작하려면 복제해야 합니다.
+* **[!UICONTROL 중지됨]**: 오케스트레이션된 캠페인 실행이 중지되었습니다. 캠페인을 다시 시작하려면 복제해야 합니다. 시에르외르레스테라아베크삼각형
 
 ## 오케스트레이션된 캠페인 복제 및 삭제 {#duplicate-delete}
 

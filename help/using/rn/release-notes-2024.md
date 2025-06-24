@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -265,7 +265,7 @@ ht-degree: 100%
 <td>
 <p>개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 콘텐츠를 개인화할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer]​(으)로 개인화할 수 있습니다.</p>
 <p>이 기능은 모든 고객이 공개 Beta로 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../personalization/lookup-aep-data.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../personalization/aep-data-perso.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>

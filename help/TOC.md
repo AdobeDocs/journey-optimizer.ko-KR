@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '2448'
+source-wordcount: '2462'
 ht-degree: 98%
 
 ---
@@ -372,7 +372,7 @@ ht-degree: 98%
       + [개인화 추가](using/personalization/personalization-build-expressions.md)
       + [개인화 구문](using/personalization/personalization-syntax.md)
       + [표현식 조각 다시 사용](using/personalization/use-expression-fragments.md)
-      + [개인화에 Adobe Experience Platform 데이터 사용(Beta)](using/personalization/lookup-aep-data.md)
+      + [개인화(Beta)에 Adobe Experience Platform 데이터 사용](using/personalization/aep-data-perso.md)
       + 도우미 함수 목록 {#functions}
          + [도우미 함수 시작](using/personalization/functions/functions.md)
          + [집계 함수](using/personalization/functions/aggregation.md)
@@ -553,6 +553,7 @@ ht-degree: 98%
          + [등급 메서드 만들기](using/experience-decisioning/ranking.md)
          + [AI 공식 빌더 사용](using/experience-decisioning/exd-ranking-formulas.md)
          + [컨텍스트 데이터 활용](using/experience-decisioning/context-data.md)
+         + [의사 결정에 Adobe Experience Platform 사용](using/experience-decisioning/aep-data-exd.md)
       + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
       + [결정 정책 만들기](using/experience-decisioning/create-decision.md)
       + [결정 보고서](using/experience-decisioning/cja-reporting.md)
@@ -705,6 +706,7 @@ ht-degree: 98%
 + 데이터 관리 {#data-management}
    + [데이터 관리 시작](using/data/gs-data.md)
    + [스키마 작업](using/data/get-started-schemas.md)
+   + [Journey Optimizer에서 Adobe Experience Platform 데이터 사용](using/data/lookup-aep-data.md)
    + Journey Optimizer 데이터 세트 {#datasets}
       + [데이트 세트 시작](using/data/get-started-datasets.md)
       + [데이터 세트 TTL(Time-to-Live) 가드레일](using/data/datasets-ttl.md)

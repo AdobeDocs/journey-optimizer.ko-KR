@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 80%
+source-wordcount: '1179'
+ht-degree: 72%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 80%
 
 **릴리스 일자**: 2025년 6월 18일
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#25-06-features}
 
@@ -191,6 +191,24 @@ ht-degree: 80%
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>decisioning의 Adobe Experience Platform 데이터 세트(베타)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이전에는 개인화에 사용할 수 있었지만, 이제 Adobe Experience Platform 데이터 세트를 의사 결정에 활용할 수 있습니다. 이렇게 하면 속성을 한 번에 하나씩 수동으로 업데이트할 필요 없이 주기적으로 변경되는 벌크 업데이트에 대해 의사 결정 속성의 정의를 데이터 세트의 추가 데이터로 확장할 수 있습니다. 예: 가용성, 대기 시간 등</p>
+<p>이 기능은 현재 모든 고객이 공개 Beta로 사용할 수 있습니다. 이 기능에 액세스하려면 계정 담당자에게 문의하십시오</p>
+<p>자세한 내용은 <a href="../experience-decisioning/aep-data-exd.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 6월 20일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 개선 사항 {#25-06-improv}
 
 다음은 이번 릴리스의 개선 사항 목록입니다.
@@ -219,13 +237,11 @@ ht-degree: 80%
 
   새로운 탐색 패턴을 통해 콘텐츠 작성에 보다 빠르게 액세스하고 캠페인 간 설정을 더욱 확장할 수 있습니다. [자세히 보기](../campaigns/create-campaign.md)
 
-* **결정** - 사용 가능한 날짜: 2025년 6월 3일
+* **결정**
 
-  이제 결정 오브젝트를 샌드박스 간에 복사할 수 있어 테스트 및 배포 워크플로가 간소화됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#decisioning)
+   * **샌드박스 복사 및 의사 결정**(사용 가능한 날짜: 2025년 6월 3일) - 이제 의사 결정 개체를 샌드박스 간에 복사할 수 있으므로 테스트 및 배포 워크플로를 간소화할 수 있습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **결정 항목 속성의 결정 규칙 지원** - 사용 가능한 날짜: 2025년 6월 4일
-
-  이제 결정 항목 속성을 활용하여 결정 규칙을 만들 수 있습니다. [자세히 보기](../experience-decisioning/rules.md#create)
+   * **의사 결정 규칙에 대한 의사 결정 항목 특성 지원**(사용 가능한 날짜: 2025년 6월 4일) - 이제 의사 결정 항목 특성을 활용하여 의사 결정 규칙을 만들 수 있습니다. [자세히 보기](../experience-decisioning/rules.md#create)
 
 * **Interactive Message Execution API 업데이트** - 사용 가능한 날짜: 2025년 6월 6일
 
