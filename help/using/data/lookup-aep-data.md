@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ' [!DNL Journey Optimizer] (Beta)에서 Adobe Experience Platform 데이터 사용'
+title: Adobe Experience Platform 데이터 사용(Beta)
 description: ' [!DNL Journey Optimizer] 의사 결정 및 개인화 기능에서 Adobe Experience Platform 데이터 세트를 사용하는 방법을 알아봅니다.'
 badge: label="Beta" type="Informative"
 feature: Personalization, Rules
@@ -9,14 +9,15 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
+source-git-commit: 4c78163cfc34937888cd323b461246f5955232bb
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 2%
 
 ---
 
-# [!DNL Journey Optimizer]에서 Adobe Experience Platform 데이터 사용 {#aep-data}
+# Adobe Experience Platform 데이터 사용 {#aep-data}
 
 >[!AVAILABILITY]
 >
