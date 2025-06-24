@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '515'
 ht-degree: 20%
 
 ---
@@ -39,6 +39,10 @@ ht-degree: 20%
 의사 결정 규칙을 만들려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL 전략 설정]** / **[!UICONTROL 의사 결정 규칙]**(으)로 이동한 다음 **[!UICONTROL 규칙 만들기]** 단추를 클릭합니다.
+
+   >[!NOTE]
+   >
+   >Adobe Experience Platform의 데이터를 사용하여 외부 데이터로 의사 결정 논리를 보강할 수도 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다. 이 기능은 현재 모든 고객이 공개 Beta로 사용할 수 있습니다. 액세스하려면 계정 담당자에게 문의하십시오. [의사 결정을 위해 Adobe Experience Platform 데이터를 사용하는 방법 알아보기](../experience-decisioning/aep-data-exd.md)
 
 1. 의사 결정 규칙 만들기 화면이 열립니다. 규칙에 이름을 지정하고 설명을 제공합니다.
 

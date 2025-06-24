@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 4%
+source-wordcount: '1246'
+ht-degree: 5%
 
 ---
 
@@ -58,6 +58,10 @@ ht-degree: 4%
 
    * [사용자 인터페이스](#ranking-select-criteria)에서 **[!UICONTROL 기준]** 섹션을 채우십시오.
    * 또는 [코드 편집기](#ranking-code-editor)(으)로 전환하십시오.
+
+   >[!NOTE]
+   >
+   >Adobe Experience Platform의 데이터를 사용하여 실제 조건을 반영하도록 순위 논리를 동적으로 조정할 수도 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다. 이 기능은 현재 모든 고객이 공개 Beta로 사용할 수 있습니다. 액세스하려면 계정 담당자에게 문의하십시오. [의사 결정을 위해 Adobe Experience Platform 데이터를 사용하는 방법 알아보기](../experience-decisioning/aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
