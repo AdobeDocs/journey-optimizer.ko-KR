@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 113940fe7c96eeeeedc743a51511bd09b9d2777e
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 98%
@@ -706,13 +706,13 @@ ht-degree: 98%
 + 데이터 관리 {#data-management}
    + [데이터 관리 시작](using/data/gs-data.md)
    + [스키마 작업](using/data/get-started-schemas.md)
-   + [Journey Optimizer에서 Adobe Experience Platform 데이터 사용](using/data/lookup-aep-data.md)
    + Journey Optimizer 데이터 세트 {#datasets}
       + [데이트 세트 시작](using/data/get-started-datasets.md)
       + [데이터 세트 TTL(Time-to-Live) 가드레일](using/data/datasets-ttl.md)
       + [Journey Optimizer 데이터 세트 내보내기](using/data/export-datasets.md)
       + [쿼리 예](using/data/datasets-query-examples.md)
       + [기본 제공 스키마 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
+   + [Journey Optimizer에서 Adobe Experience Platform 데이터 사용](using/data/lookup-aep-data.md)
    + [쿼리](using/data/get-started-queries.md)
 + 채널 구성 {#configuration}
    + [채널 구성 시작](using/configuration/get-started-configuration.md)
