@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
+source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '717'
 ht-degree: 19%
 
 ---
@@ -48,13 +48,11 @@ ht-degree: 19%
 
 또한 목록에서 쉽게 검색할 수 있도록 검색 창과 필터를 사용할 수 있습니다. 예를 들어, 오케스트레이션된 캠페인을 필터링하여 지정된 채널 또는 태그와 연결된 캠페인 또는 특정 날짜 범위 동안 만들어진 캠페인만 표시할 수 있습니다.
 
-
-캠페인 인벤토리의 추가 작업 단추![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 이미지를 사용하면 아래에 설명된 다양한 작업을 수행할 수 있습니다.
+캠페인 인벤토리의 추가 작업 단추](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 ![이미지를 사용하면 아래에 설명된 다양한 작업을 수행할 수 있습니다.
 
 ![캠페인 인벤토리 이미지](assets/inventory-actions.png)
 
-* **[!UICONTROL 모든 시간 보고서 보기]** -
-* **[!UICONTROL 최근 24시간 보고서 보기]** -
+* **[!UICONTROL 모든 시간 보고서 보기]** / **[!UICONTROL 최근 24시간 보고서 보기]** - 보고서에 액세스하여 오케스트레이션된 캠페인의 영향과 성능을 측정하고 시각화할 수 있습니다. [오케스트레이션된 캠페인 보고에 대한 자세한 정보](../orchestrated/reporting-campaigns.md)
 * **[!UICONTROL 태그 편집]** - 캠페인에 연결된 태그를 편집합니다.
 * **[!UICONTROL 복제]** - 경우에 따라 오케스트레이션된 캠페인을 복제해야 합니다. 예를 들어 중지된 캠페인을 실행하거나 예약된 캠페인의 실행 빈도를 변경할 수 있습니다.
 * **[!UICONTROL 삭제]** - 캠페인을 삭제합니다. 이 작업은 **[!UICONTROL 초안]** 캠페인에서만 사용할 수 있습니다.
