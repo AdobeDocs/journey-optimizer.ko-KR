@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 50386efbb639031bfc41a0aa67f4f3b49603f03a
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 14%
+source-wordcount: '1197'
+ht-degree: 12%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
->title="스케줄러 활동"
->abstract="**스케줄러** 활동을 사용하면 오케스트레이션된 캠페인이 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 오케스트레이션된 캠페인의 첫 번째 활동으로만 사용할 수 있습니다."
+>title="스케줄러"
+>abstract="캠페인 관리자는 특정 시간에 자동으로 실행되도록 캠페인을 예약할 수 있으므로 마케팅 커뮤니케이션에 대한 정확한 타이밍과 정확한 타겟팅 데이터를 사용할 수 있습니다."
 
 캠페인 관리자는 특정 시간에 자동으로 실행되도록 캠페인을 예약할 수 있으므로 마케팅 커뮤니케이션에 대한 정확한 타이밍과 정확한 타겟팅 데이터를 사용할 수 있습니다.
 
