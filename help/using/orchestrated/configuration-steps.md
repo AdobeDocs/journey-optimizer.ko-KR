@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 10333b4dab32abe87b1e8b4f3e4d7b1e72eafb50
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 16%
+source-wordcount: '1008'
+ht-degree: 3%
 
 ---
 
@@ -34,123 +34,164 @@ ht-degree: 16%
 
 >[!ENDSHADEBOX]
 
-<!--
+이 안내서에서는 관계형 스키마를 생성하고, 오케스트레이션된 캠페인에 대한 데이터 세트를 구성하고, S3 소스를 통해 데이터를 수집하고, 수집된 데이터를 AP 플랫폼에서 쿼리하는 프로세스를 안내합니다.
 
-This guide walks you through the process of creating a relational schema, configuring a dataset for orchestrated campaigns, ingesting data via an S3 source, and querying the ingested data in the AP platform. Each step is explained in detail with emphasis on why it is important.
+이 예제에서 설정에는 두 개의 주요 엔터티 **충성도 트랜잭션** 및 **충성도 보상**&#x200B;을(를) 통합하고 기존 핵심 엔터티 **수신자** 및 **브랜드**&#x200B;에 연결합니다.
 
+1. [DDL 파일 업로드](#upload-ddl)
 
-You have now:
+   필수 키 및 버전 관리 특성과 함께 **충성도 트랜잭션** 및 **충성도 보상** 엔터티를 포함하여 오케스트레이션된 캠페인에 대한 관계형 데이터 모델을 정의합니다.
 
-- Created a relational schema
-- Configured a CDC-enabled dataset
-- Ingested data via S3
-- Scheduled and monitored a data flow
-- Queried the ingested data
+1. [엔티티 선택](#entities)
 
-This setup is essential for running orchestrated AGO campaigns effectively and ensuring timely, accurate data synchronization.
+   스키마의 테이블 간에 의미 있는 관계를 설정하여 서로 연결되고 일관된 데이터 모델을 만들 수 있습니다.
 
-## Create a relational schema / (-) Upload DDL file 
+1. [링크 스키마](#link-schema)
 
-1. Log in to the AP Platform.
+   **충성도 트랜잭션** 엔터티를 **수신자**&#x200B;에 연결하고 **충성도 보상**&#x200B;을 **브랜드**&#x200B;에 연결하여 개인화된 고객 여정을 지원하는 연결된 데이터 모델을 구축합니다.
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [데이터 수집](#ingest)
 
-1. Click on **Create Schema**.
+   SFTP, 클라우드 스토리지 또는 데이터베이스와 같이 지원되는 소스에서 Adobe Experience Platform으로 데이터를 가져옵니다.
 
-1. You will be prompted to select between two schema types:
+## DDL 파일 업로드 {#upload-ddl}
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+이 섹션에서는 DDL(데이터 정의 언어) 파일을 업로드하여 Adobe Experience Platform 내에서 관계형 스키마를 생성하는 방법에 대한 단계별 지침을 제공합니다. DDL 파일을 사용하면 테이블, 속성, 키 및 관계를 포함하여 데이터 모델의 구조를 미리 정의할 수 있습니다.
 
-    ![](assets/admin_schema_1.png)
+1. AP 플랫폼에 로그인합니다.
 
-1. Select **Upload DDL file** to define an entity relationship diagram and create schemas.
+1. **데이터 관리** > **스키마**&#x200B;로 이동합니다.
 
-    The table structure must contain:
-    * At least one primary key
-    * A version identifier, such as a `lastmodified` field of type `datetime` or `number`.
+1. **스키마 만들기**&#x200B;를 클릭합니다.
 
-1. Drag and drop your DDL file and click **[!UICONTROL Next]**.
+1. 다음 두 스키마 유형 중에서 하나를 선택하라는 메시지가 표시됩니다.
 
-1. Set up each schema and its columns, ensuring that a primary key is specified. 
+   * **표준**
+   * 오케스트레이션된 캠페인에 특히 사용되는 **Relational**
 
-    One attribute, such as `lastmodified`, must be designated as a version descriptor. This attribute, typically of type `datetime`, `long`, or `int`, is essential for ingestion processes to ensure that the dataset is updated with the latest data version.
+   ![](assets/admin_schema_1.png)
 
-1. Type-in your **[!UICONTROL Schema name]** and click **[!UICONTROL Done]**.
+1. 엔터티 관계 다이어그램을 정의하고 스키마를 만들려면 **DDL 파일 업로드**&#x200B;를 선택하십시오.
 
-    ![](assets/admin_schema_2.png)
+   테이블 구조에는 다음이 포함되어야 합니다.
+   * 하나 이상의 기본 키
+   * `datetime` 또는 `number` 형식의 `lastmodified` 필드와 같은 버전 식별자입니다.
 
-Verify the table and field definitions within the canvas. [Learn more in the section below](#entities)
+1. DDL 파일을 끌어다 놓고 **[!UICONTROL 다음]**&#x200B;을(를) 클릭합니다.
 
-## Select entities {#entities}
+1. **[!UICONTROL 스키마 이름]**&#x200B;을(를) 입력하십시오.
 
-To create links between tables of your schema, follow these steps:
+1. 기본 키가 지정되도록 각 스키마와 해당 열을 설정합니다.
 
-1. Access the canvas view of your data model and choose the two tables you want to link
+   `lastmodified`과(와) 같은 특성 하나를 버전 설명자로 지정해야 합니다. 일반적으로 `datetime`, `long` 또는 `int` 유형의 이 특성은 데이터 집합이 최신 데이터 버전으로 업데이트되도록 수집 프로세스에 필수적입니다.
 
-1. Click the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
+   ![](assets/admin_schema_2.png)
 
-1. Fill in the given form to define the link and click **Apply** once configured.
+1. 완료되면 **[!UICONTROL 완료]**&#x200B;를 클릭하세요.
 
-    ![](assets/admin_schema_3.png)
+이제 캔버스 내에서 테이블 및 필드 정의를 확인할 수 있습니다. [아래 섹션에서 자세히 알아보기](#entities)
 
-    **Cardinality**:
+## 엔티티 선택 {#entities}
 
-     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+스키마 내의 테이블 간에 논리적 연결을 정의하려면 아래 단계를 따르십시오.
 
-    * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
+1. 데이터 모델의 캔버스 보기에 액세스하고 연결할 두 테이블을 선택합니다
 
-    * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+1. Source 조인 옆에 있는 ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) 단추를 클릭한 다음 화살표를 드래그하여 Target 조인 방향으로 안내하여 연결을 설정합니다.
 
-1. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
+   ![](assets/admin_schema_5.png)
 
-1. Use the toolbar to customize and adjust your canvas.
+1. 지정된 양식을 입력하여 링크를 정의하고 구성된 후 **적용**&#x200B;을 클릭합니다.
 
-    ![](assets/toolbar.png)
+   ![](assets/toolbar.png)
 
-    * **Zoom in**: Magnify the canvas to see details of your data model more clearly.
+   **카디널리티**:
 
-    * **Zoom out**: Reduce the canvas size for a broader view of your data model.
+   * **1-N**: 원본 테이블의 발생 항목 하나는 대상 테이블의 여러 발생 항목을 가질 수 있지만, 대상 테이블의 발생 항목 하나는 원본 테이블의 해당 발생 항목을 최대 한 개까지 가질 수 있습니다.
 
-    * **Fit view**: Adjust the zoom to fit all schemas within the visible area.
+   * **N-1**: 대상 테이블의 발생 항목 하나는 원본 테이블의 여러 발생 항목을 가질 수 있지만, 원본 테이블의 발생 항목 하나는 대상 테이블의 해당 발생 항목을 최대 한 개까지 가질 수 있습니다.
 
-    * **Filter**: Choose which schema to display within the canvas.
+   * **1-1**: 원본 테이블의 발생 항목 하나는 대상 테이블의 해당 발생 항목을 최대 한 개까지 가질 수 있습니다.
 
-    * **Force auto layout**: Automatically arrange schemas for better organization.
+1. 데이터 모델에 정의된 모든 링크는 캔버스 보기에서 화살표로 표시됩니다. 세부 정보를 보거나, 편집하거나, 필요에 따라 링크를 제거하려면 두 테이블 사이의 화살표를 클릭합니다.
 
-    * **Display map**: Toggle a minimap overlay to help navigate large or complex schema layouts more easily.
+   ![](assets/admin_schema_6.png)
 
-1. Click **Save** once done. This action creates the schemas and associated data sets, and enables the data set for use in Orchestrated Campaigns.
+1. 도구 모음을 사용하여 캔버스를 사용자 정의하고 조정합니다.
 
-1. Click **[!UICONTROL Open Jobs]** to monitor the progress of the creation job. This process may take couple minutes, depending on the number of tables defined in the DDL file. 
+   ![](assets/toolbar.png)
 
-    ![](assets/admin_schema_4.png)
+   * **확대**: 데이터 모델의 세부 정보를 더 명확하게 보려면 캔버스를 확대하십시오.
 
-Doc AEP: https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/tutorials/create-schema-ui
+   * **축소**: 데이터 모델을 더 넓게 보려면 캔버스 크기를 줄이십시오.
 
-## Add data
+   * **보기 맞춤**: 표시 영역 내의 모든 스키마에 맞게 확대/축소를 조정합니다.
 
-1. Set up
+   * **필터**: 캔버스 내에 표시할 스키마를 선택합니다.
 
-1. Connect existing or new account
+   * **자동 레이아웃 강제 적용**: 더 나은 조직을 위해 스키마를 자동으로 정렬합니다.
 
-1. Select dataset fields
+   * **맵 표시**: 미니맵 오버레이를 전환하여 크거나 복잡한 스키마 레이아웃을 보다 쉽게 탐색할 수 있도록 합니다.
 
-1. Map desired source fields to target dataset fields
+1. 완료되면 **저장**&#x200B;을 클릭하세요. 이 작업은 스키마 및 관련 데이터 세트를 만들고 오케스트레이션된 캠페인에서 사용할 데이터 세트를 활성화합니다.
 
-1. 
+1. **[!UICONTROL 작업 열기]**&#x200B;를 클릭하여 만들기 작업의 진행 상황을 모니터링합니다. 이 프로세스는 DDL 파일에 정의된 테이블 수에 따라 몇 분 정도 걸릴 수 있습니다.
 
-## Set up sources
+   ![](assets/admin_schema_4.png)
 
-Adobe Experience Platform allows data to be ingested from external sources while providing you with the ability to structure, label, and enhance incoming data using Experience Platform services. You can ingest data from a variety of sources such as Adobe applications, cloud-based storages, databases, and many others.
+## 링크 스키마 {#link-schema}
 
-6 sources compatible avec data relationel, tout ce qui est fichier (data storage), SFTP, azure blob, amazon S3, database cloud snowflake, 
+**충성도 트랜잭션** 스키마와 **수신자** 스키마 간의 관계를 설정하여 각 트랜잭션을 올바른 고객 레코드와 연결합니다.
 
+1. **[!UICONTROL 스키마]**(으)로 이동하여 이전에 만든 **충성도 트랜잭션**&#x200B;을(를) 엽니다.
 
-![](assets/admin_sources_1.png)
+1. 고객 **[!UICONTROL 필드 속성]**&#x200B;에서 **[!UICONTROL 관계 추가]**&#x200B;를 클릭합니다.
 
-https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
+   ![](assets/schema_1.png)
 
+1. **[!UICONTROL 다대일]**&#x200B;을(를) 관계 **[!UICONTROL 유형]**(으)로 선택합니다.
+
+1. 기존 **수신자** 스키마에 대한 링크입니다.
+
+   ![](assets/schema_2.png)
+
+1. **[!UICONTROL 현재 스키마의 관계 이름]** 및 **[!UICONTROL 참조 스키마의 관계 이름]**&#x200B;을 입력하십시오.
+
+1. 변경 내용을 저장하려면 **[!UICONTROL 적용]**&#x200B;을 클릭하세요.
+
+계속해서 **충성도 보상** 스키마와 **브랜드** 스키마 간의 관계를 만들어 각 보상 항목을 적절한 브랜드와 연결합니다.
+
+![](assets/schema_3.png)
+
+## 데이터 수집 {#ingest}
+
+Adobe Experience Platform을 사용하면 외부 소스에서 데이터를 수집할 수 있으며 Experience Platform 서비스를 사용하여 들어오는 데이터를 구조화하고, 레이블을 지정하고, 향상시킬 수 있습니다. Adobe 애플리케이션, 클라우드 기반 저장소, 데이터베이스 및 기타 여러 소스와 같은 다양한 소스에서 데이터를 수집할 수 있습니다.
+
+1. **[!UICONTROL 연결]** 메뉴에서 **[!UICONTROL 원본]** 메뉴에 액세스합니다.
+
+1. **[!UICONTROL 클라우드 저장소]** 범주를 선택한 다음 Amazon S3을 선택하고 **[!UICONTROL 데이터 추가]**&#x200B;를 클릭합니다.
+
+   ![](assets/admin_sources_1.png)
+
+1. S3 계정 연결:
+
+   * 기존 계정 사용
+
+   * 새 계정 사용
+
+   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+
+   ![](assets/admin_sources_2.png)
+
+1. 이전에 만든 두 개의 폴더(예: **충성도 보상** 및 **충성도 거래**)를 찾을 때까지 연결된 S3 원본을 탐색합니다.
+
+1. 폴더를 클릭합니다.
+
+   폴더를 선택하면 동일한 구조의 현재 및 향후 모든 파일이 자동으로 처리되지만 파일을 선택하려면 새로운 데이터 증가마다 수동으로 업데이트해야 합니다.
+
+   ![](assets/s3_config_1.png)
+
+1. 데이터 포맷을 선택하고 다음을 클릭합니다.
 
 <!--manual
 ## Create a relational schema manual
