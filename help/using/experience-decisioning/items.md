@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 15%
@@ -19,7 +19,7 @@ ht-degree: 15%
 >id="ajo_exd_items"
 >title="결정 항목 관리"
 >abstract="Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼를 생성하여 중앙 집중식 카탈로그 및 컬렉션으로 구성할 수 있습니다. 현재 생성된 모든 결정 항목은 단일 “오퍼” 카탈로그 내에 통합되어 있습니다. 이 화면에서 **스키마 편집** 버튼을 사용하여 카탈로그의 스키마에 액세스하고 결정 항목에 대한 사용자 정의 속성을 생성할 수도 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=ko" text="항목 카탈로그 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="항목 카탈로그 구성"
 
 Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼를 생성하여 중앙 집중식 카탈로그 및 컬렉션으로 구성할 수 있습니다. 요구 사항에 맞게 정확하게 조정할 수 있도록 설계된 표준 및 사용자 지정 속성으로 구성됩니다. 또한 의사 결정 항목을 표시할 대상을 정의할 수 있는 프로필 제약 조건을 통합합니다.
 
@@ -38,7 +38,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >id="ajo_exd_item_custom_attributes"
 >title="사용자 정의 속성 정의"
 >abstract="사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 이는 결정 항목의 카탈로그 스키마에 생성됩니다. 이 섹션은 카탈로그 스키마에 하나 이상의 사용자 정의 속성을 추가한 경우에만 표시됩니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=ko" text="항목 카탈로그 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="항목 카탈로그 구성"
 
 먼저 의사 결정 항목의 표준 및 사용자 지정 속성 을 정의합니다.
 
@@ -64,8 +64,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >id="ajo_exd_item_constraints"
 >title="대상자 또는 의사 결정 규칙 추가"
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=ko" text="대상자 사용"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=ko" text="결정 규칙 사용"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="대상자 사용"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="결정 규칙 사용"
 
 기본적으로 모든 프로필은 의사 결정 항목을 받을 수 있지만, 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다. 두 솔루션은 서로 다른 사용법에 해당합니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
@@ -79,9 +79,9 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
 +++
 
-* 하나 이상의 Adobe Experience Platform 대상의 구성원으로 결정 항목을 표시하려면 **[!UICONTROL 하나 이상의 대상에 속하는 방문자]** 옵션을 선택한 다음 왼쪽 창에서 하나 이상의 대상을 추가하고 **[!UICONTROL And]** / **[!UICONTROL Or]** 논리 연산자를 사용하여 대상을 결합하십시오. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md).
+* 하나 이상의 Adobe Experience Platform 대상의 구성원으로 결정 항목을 표시하려면 **[!UICONTROL 하나 이상의 대상에 속하는 방문자]** 옵션을 선택한 다음 왼쪽 창에서 하나 이상의 대상을 추가하고 **[!UICONTROL And]** / **[!UICONTROL Or]** 논리 연산자를 사용하여 대상을 결합하십시오. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)
 
-* 특정 결정 규칙을 결정 항목에 연결하려면 **[!UICONTROL 규칙별]**&#x200B;을 선택한 다음 왼쪽 창에서 원하는 규칙을 중앙 영역으로 끕니다. [의사 결정 규칙에 대해 자세히 알아보세요](rules.md).
+* 특정 결정 규칙을 결정 항목에 연결하려면 **[!UICONTROL 규칙별]**&#x200B;을 선택한 다음 왼쪽 창에서 원하는 규칙을 중앙 영역으로 끕니다. [의사 결정 규칙에 대해 자세히 알아보기](rules.md)
 
 ![](assets/item-constraints.png)
 
@@ -114,8 +114,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
    >[!NOTE]
    >
    >의사 결정 이벤트를 제외한 모든 최대 가용량 이벤트에 대해 의사 결정 관리 피드백이 자동으로 수집되지 않을 수 있으므로 최대 가용량 카운터가 올바르게 증가하지 않을 수 있습니다. 각 최대 가용량 이벤트가 최대 가용량 카운터에서 추적 및 처리되도록 하려면 경험 이벤트를 수집하는 데 사용되는 스키마에 해당 이벤트에 대한 올바른 필드 그룹이 포함되어 있는지 확인하십시오. 데이터 수집에 대한 자세한 내용은 Journey Optimizer 의사 결정 관리 설명서에서 확인할 수 있습니다.
-   >* [의사 결정 관리 데이터 수집](../offers/data-collection/data-collection.md)
-   >* [데이터 수집 구성](../offers/data-collection/schema-requirement.md)
+   >* [의사 결정 관리 데이터 수집](data-collection/data-collection.md)
+   >* [데이터 수집 구성](data-collection/schema-requirement.md)
 
 1. 한도 유형을 선택합니다.
 
