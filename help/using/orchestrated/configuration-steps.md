@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 10333b4dab32abe87b1e8b4f3e4d7b1e72eafb50
+source-git-commit: fad312d2951dc6d602fb27d24adad6de0192f650
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 3%
@@ -179,7 +179,7 @@ Adobe Experience Platform을 사용하면 외부 소스에서 데이터를 수�
 
    * 새 계정 사용
 
-   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -189,9 +189,11 @@ Adobe Experience Platform을 사용하면 외부 소스에서 데이터를 수�
 
    폴더를 선택하면 동일한 구조의 현재 및 향후 모든 파일이 자동으로 처리되지만 파일을 선택하려면 새로운 데이터 증가마다 수동으로 업데이트해야 합니다.
 
-   ![](assets/s3_config_1.png)
+   ![](assets/S3_config_1.png)
 
 1. 데이터 포맷을 선택하고 다음을 클릭합니다.
+
+
 
 <!--manual
 ## Create a relational schema manual
