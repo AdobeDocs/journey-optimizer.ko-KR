@@ -30,7 +30,7 @@ ht-degree: 7%
    >
    >[XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}에서 XDM 스키마 및 필드 그룹에 대해 자세히 알아보세요.
 
-1. 스키마의 이름과 설명을 입력하고 **마침**을 클릭합니다.
+1. 스키마의 이름과 설명을 입력하고 **마침**&#x200B;을 클릭합니다.
    ![](../../offers/assets/ai-ranking-xdm-event-2.png)
 
 1. 왼쪽의 **[!UICONTROL 필드 그룹]** 섹션에서 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
@@ -69,4 +69,4 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->이제 [AI 모델을 만들]() 때 이벤트 데이터를 수집하도록 이 데이터 세트를 선택할 수 있습니다.
+>이제 [AI 모델을 만들] () 때 이벤트 데이터를 수집하도록 이 데이터 세트를 선택할 수 있습니다.
