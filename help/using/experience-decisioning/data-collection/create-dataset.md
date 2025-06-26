@@ -51,7 +51,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->[스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}에서 스키마 빌드에 대해 자세히 알아보세요.
+>[스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko#understanding-schemas){target="_blank"}에서 스키마 빌드에 대해 자세히 알아보세요.
 
 이제 이 스키마를 사용하여 데이터 세트를 만들 준비가 되었습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
