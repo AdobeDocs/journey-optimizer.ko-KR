@@ -107,4 +107,4 @@ ht-degree: 1%
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}를 사용하는 경우 자동으로 연결됩니다.
+>[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"} 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ko){target="_blank"}를 사용하는 경우 자동으로 연결됩니다.
