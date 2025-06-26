@@ -7,7 +7,7 @@ feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
+source-git-commit: 9f77bb0bfae48e879335f72f07f106a2f0472f45
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 7%
@@ -30,7 +30,7 @@ ht-degree: 7%
    >
    >[XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}에서 XDM 스키마 및 필드 그룹에 대해 자세히 알아보세요.
 
-1. 스키마의 이름과 설명을 입력하고 **마침**&#x200B;을 클릭합니다.
+1. 스키마의 이름과 설명을 입력하고 **마침**을 클릭합니다.
    ![](../../offers/assets/ai-ranking-xdm-event-2.png)
 
 1. 왼쪽의 **[!UICONTROL 필드 그룹]** 섹션에서 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
@@ -51,7 +51,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->[스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko#understanding-schemas){target="_blank"}에서 스키마 빌드에 대해 자세히 알아보세요.
+>[스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}에서 스키마 빌드에 대해 자세히 알아보세요.
 
 이제 이 스키마를 사용하여 데이터 세트를 만들 준비가 되었습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
@@ -69,4 +69,4 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->이제 [AI 모델을 만들] () 때 이벤트 데이터를 수집하도록 이 데이터 세트를 선택할 수 있습니다.
+>이제 AI 모델<!--add link to Creat AI models section-->을(를) 만들 때 이벤트 데이터를 수집하도록 이 데이터 세트를 선택할 수 있습니다.
