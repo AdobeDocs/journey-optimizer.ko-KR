@@ -6,7 +6,9 @@ description: 이벤트를 수집할 데이터 세트를 만드는 방법 알아�
 feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
-source-git-commit: dd108b67ec252d391418d8af53de696bf9cd167d
+hide: true
+hidefromtoc: true
+source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 7%
@@ -29,7 +31,7 @@ ht-degree: 7%
    >
    >[XDM 시스템 개요 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}에서 XDM 스키마 및 필드 그룹에 대해 자세히 알아보세요.
 
-1. 스키마의 이름과 설명을 입력하고 **마침**&#x200B;을 클릭합니다.
+1. 스키마의 이름과 설명을 입력하고 **마침**을 클릭합니다.
    ![](../../offers/assets/ai-ranking-xdm-event-2.png)
 
 1. 왼쪽의 **[!UICONTROL 필드 그룹]** 섹션에서 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
@@ -50,7 +52,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->[스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko#understanding-schemas){target="_blank"}에서 스키마 빌드에 대해 자세히 알아보세요.
+>[스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}에서 스키마 빌드에 대해 자세히 알아보세요.
 
 이제 이 스키마를 사용하여 데이터 세트를 만들 준비가 되었습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
