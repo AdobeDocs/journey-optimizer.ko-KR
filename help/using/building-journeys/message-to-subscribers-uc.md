@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 여정, 사용 사례, 메시지, 구독자, 목록, 읽기
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 17%
@@ -46,7 +46,7 @@ ht-degree: 17%
 
       | 함수 | 설명 | 예 |
       | --- | --- | --- |
-      | `entry` | 선택한 네임스페이스에 따라 맵 요소를 참조하십시오. | 특정 구독 목록 참조 |
+      | `entry` | 선택한 네임스페이스에 따른 맵 요소를 참조합니다. | 특정 구독 목록 참조 |
       | `firstEntryKey` | 맵의 첫 번째 시작 키 검색 | 구독자의 첫 번째 이메일 주소 검색 |
 
       이 예제에서 구독 목록의 이름은 `daily-email`입니다. 이메일 주소는 `subscribers` 맵에서 구독 목록 맵에 연결된 키로 정의됩니다.

@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '995'
 ht-degree: 21%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 21%
 
 * 이메일, SMS 또는 푸시 알림을 포함한 **채널 작업** 노드가 실행되지 않습니다.
 * 시험 실행 중에 **사용자 지정 작업**&#x200B;이(가) 비활성화되며 해당 응답은 null로 설정됩니다.
-* **대기 노드**&#x200B;은(는) 시험 실행 중에 무시됩니다.
+* **대기 노드**은(는) 시험 실행 중에 무시됩니다.
   <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * 외부 데이터 원본을 포함한 **데이터 원본**&#x200B;은(는) 기본적으로 실행됩니다
 
@@ -73,7 +73,7 @@ ht-degree: 21%
 시험 실행을 활성화하려면 다음 단계를 수행합니다.
 
 1. 테스트할 여정을 엽니다.
-1. **시험 실행** 단추를 클릭합니다.
+1. **시험 실행** 단추를 선택하십시오.
 
    ![여정 시험 실행 시작](assets/dry-run-button.png)
 

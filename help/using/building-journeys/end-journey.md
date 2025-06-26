@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 다음 작업도 수행할 수 있습니다.
 
-1. **[!UICONTROL 여정]** 목록에서 닫으려는 여정을 클릭합니다.
+1. **[!UICONTROL 여정]** 목록에서 닫을 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
 
    ![](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}

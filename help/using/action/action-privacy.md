@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 데이터, 거버넌스, DULE, 레이블, 레이블 지정, 플랫폼, 정책
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 96%
+source-wordcount: '1290'
+ht-degree: 95%
 
 ---
 
@@ -128,7 +128,7 @@ Journey Optimizer에서 데이터 거버넌스 정책을 적용하려면 여정,
 
 시스템이 여정/캠페인 또는 사용자 정의 액션에서 제한된 필드를 확인하면 이를 게시하지 못하게 하는 오류가 표시됩니다.
 
-오류는 **[!UICONTROL 경고]** 버튼에서 확인할 수 있습니다. 발생한 데이터 거버넌스 정책 위반에 대한 자세한 정보를 표시하려면 오류를 클릭합니다.
+오류는 **[!UICONTROL 경고]** 버튼에서 확인할 수 있습니다. 발생한 데이터 거버넌스 정책 위반에 대한 자세한 정보를 표시하려면 오류를 선택합니다.
 
 ![](assets/action-privacy8.png)
 

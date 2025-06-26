@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 12%
+source-wordcount: '1175'
+ht-degree: 13%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 12%
 
 >[!AVAILABILITY]
 >
->달력 보기는 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 요청하려면 [이 양식](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}을 사용하세요.
+>달력 보기는 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 요청하려면 [이 양식](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"}을 사용하십시오.
 >
 >이 기능은 현재 개발 중입니다. 상단 메뉴의 **[!UICONTROL Beta 피드백]** 버튼을 사용하여 입력 및 요청을 환영합니다.
 
@@ -80,7 +80,7 @@ ht-degree: 12%
 
 ## 여정 필터링 {#journey-filter}
 
-여정 목록에서 다양한 필터를 사용하여 여정 목록을 구체화할 수 있습니다.
+여정 목록에서 다양한 필터를 사용하여 여정 목록을 구체화합니다.
 
 ![두 가지 여정 유형을 선택한 여정 필터링 샘플을 보여 주는 화면](assets/filter-journeys.png)
 
@@ -88,7 +88,7 @@ ht-degree: 12%
 
 **[!UICONTROL 만들기 필터]**&#x200B;를 사용하여 만든 날짜 또는 만든 사용자에 따라 여정을 필터링합니다.
 
-**[!UICONTROL 활동 필터]** 및 **[!UICONTROL 데이터 필터]**&#x200B;에서 특정 여정, 필드 그룹 또는 작업을 사용하는 그룹을 표시합니다.
+**[!UICONTROL 활동 필터]** 및 **[!UICONTROL 데이터 필터]**&#x200B;에서 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정을 표시합니다.
 
 **[!UICONTROL 게시 필터]**&#x200B;를 사용하여 게시 날짜 또는 사용자를 선택하십시오. 예를 들어 어제 게시된 라이브 여정의 최신 버전을 표시하도록 선택할 수 있습니다.
 
@@ -123,7 +123,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->* 또한 여정 작성 라이프사이클에는 &quot;게시&quot;(&quot;초안&quot;과 &quot;라이브&quot; 사이), &quot;테스트 모드 활성화&quot; 또는 &quot;테스트 모드 비활성화&quot;(&quot;초안&quot;과 &quot;초안(테스트)&quot; 사이), &quot;중지&quot;(&quot;라이브&quot;와 &quot;중지됨&quot; 사이)와 같은 필터링에 사용할 수 없는 중간 상태 집합이 포함됩니다. 여정이 중간 상태일 때는 읽기 전용입니다.
+>* 여정 작성 주기에는 &quot;게시&quot;(&quot;초안&quot;과 &quot;라이브&quot; 사이), &quot;테스트 모드 활성화&quot; 또는 &quot;테스트 모드 비활성화&quot;(&quot;초안&quot;과 &quot;초안(테스트)&quot; 사이), &quot;중지&quot;(&quot;라이브&quot;와 &quot;중지됨&quot; 사이) 등 필터링할 수 없는 중간 상태 집합도 포함됩니다. 여정이 중간 상태일 때는 읽기 전용입니다.
 >
 >* **live** 여정으로 수정해야 하는 경우 여정의 [새 버전을 만들고](#journey-versions).
 
