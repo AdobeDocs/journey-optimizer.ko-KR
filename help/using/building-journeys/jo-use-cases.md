@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 사용 사례, 다중 채널, 여정, 이벤트
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: f1d96aa3fb74c9aedefa026fc65a4dcc8a2b4109
+source-git-commit: a94d579086f8ab78e611b15d993bb8f12673ea36
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="경험 이벤트 조회 우수 사례" src="../assets/do-not-localize/icon_profile-audience.svg" /></a> 
+    <img alt="경험 이벤트 조회 우수 사례" src="../assets/do-not-localize/icon-configure.svg" /></a> 
     <br>Adobe Journey Optimizer의 경험 이벤트를 최대한 활용하는 데 도움이 되는 일반적인 패턴과 확장 가능한 접근 방식에 대해 알아봅니다. 이러한 사용 사례는 옵트아웃 관리, 메시지 빈도 제어, 사용자 행동을 기반으로 콘텐츠 개인화, 실시간 신호 반응과 같은 자주 발생하는 문제를 해결하는 데 도움이 되도록 설계되었습니다.
     </div>
       <div>
