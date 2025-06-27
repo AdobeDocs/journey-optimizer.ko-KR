@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 45%
+source-wordcount: '1079'
+ht-degree: 43%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->Journey Optimizer에서 여정을 트리거하기 위해서는 이벤트를 Data Collection Core Service(DCCS)로 스트리밍해야 합니다. 배치로 수집된 이벤트 또는 내부 Journey Optimizer 데이터 세트의 이벤트(메시지 피드백, 이메일 추적 등)는 여정을 트리거하는 데 사용할 수 없습니다. 스트리밍된 이벤트를 가져올 수 없는 사용 사례의 경우에는 대신 이 이벤트를 기반으로 대상자를 작성하고 **대상자 읽기** 활동을 사용합니다. 대상 자격은 기술적으로 사용할 수 있지만, 사용된 작업에 따라 다운스트림 문제를 발생시킬 수 있습니다. 이 데이터가 반드시 실시간 프로필로 이동할 필요는 없습니다. 별도의 여정에서 세그멘테이션 또는 조회에 이벤트를 사용하려면 프로필에 데이터 세트를 활성화하는 것이 좋습니다.
+>Journey Optimizer에서 여정을 트리거하기 위해서는 이벤트를 Data Collection Core Service(DCCS)로 스트리밍해야 합니다. 배치로 수집된 이벤트 또는 내부 Journey Optimizer 데이터 세트의 이벤트(메시지 피드백, 이메일 추적 등)는 여정을 트리거하는 데 사용할 수 없습니다. 스트리밍된 이벤트를 가져올 수 없는 사용 사례의 경우에는 대신 이 이벤트를 기반으로 대상자를 작성하고 **대상자 읽기** 활동을 사용합니다. 대상 자격은 기술적으로 사용할 수 있지만, 사용된 작업에 따라 다운스트림 문제를 발생시킬 수 있습니다. 이 데이터가 반드시 실시간 프로필로 이동할 필요는 없습니다. 세그멘테이션에 이벤트를 사용하려면 프로필에 데이터 세트를 활성화하는 것이 좋습니다.
 
 ## 데이터 주기 {#data-cycle}
 
@@ -83,8 +83,8 @@ POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 A
 
 이벤트를 구성하고 이벤트에 대한 스트리밍 엔드포인트 및 페이로드를 지정하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431519?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 비즈니스 이벤트의 사용 사례를 이해합니다. 비즈니스 이벤트를 사용하여 여정을 작성하는 방법과 상황에 따라 적합한 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416327?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

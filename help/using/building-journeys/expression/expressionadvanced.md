@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 표현식 편집기, 데이터, 여정
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: b69023669b6ca59ea5980b1a671a90c41eb665fb
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 57%
+source-wordcount: '711'
+ht-degree: 55%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 57%
 ![](../assets/journey65.png)
 
 
-고급 표현식 편집기는 값을 조작하고 필요에 맞는 표현식을 정의할 수 있는 기본 함수 및 연산자를 제공합니다. 고급 표현식 편집기를 사용하면 외부 데이터 소스 매개 변수의 값을 정의하고, 맵 필드와 컬렉션(예: 경험 이벤트)을 조작할 수도 있습니다.
+고급 표현식 편집기는 값을 조작하고 필요에 맞는 표현식을 정의할 수 있는 함수 및 연산자를 기본 제공합니다. 고급 표현식 편집기를 사용하면 외부 데이터 소스 매개 변수의 값을 정의하고, 맵 필드와 컬렉션을 조작할 수도 있습니다.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 57%
 
   >[!CAUTION]
   >
-  >여정 표현식/조건에서 경험 이벤트를 사용할 수 있지만 권장되지는 않습니다. 사용 사례에서 경험 이벤트를 사용해야 하는 경우 [계산된 특성](../../audience/computed-attributes.md)과 같은 대체 메서드를 사용하거나 이벤트를 사용하여 세그먼트를 만들고 해당 세그먼트를 [`inAudience` 식에 통합](../../building-journeys/functions/functioninaudience.md)해 보십시오.
+  >경험 이벤트를 사용하여 표현식을 만들 수 없습니다. 경험 이벤트를 사용하여 표현식/논리를 만드는 다른 방법 및 모범 사례가 [여기](../../building-journeys/exp-event-lookup.md)에서 참조됩니다.
 
 * **[!UICONTROL 대상]**: **[!UICONTROL 대상 자격]** 이벤트를 삭제한 경우 표현식에 사용할 대상을 선택하십시오. [자세히 보기](../condition-activity.md#using-a-segment)
 * **[!UICONTROL 데이터 원본]**: 데이터 원본의 필드 그룹에서 사용 가능한 필드 목록에서 선택하십시오. [자세히 보기](../../datasource/about-data-sources.md)

@@ -8,16 +8,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 구문, 편집기, 여정
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '249'
 ht-degree: 5%
 
 ---
 
 # 고급 표현식 편집기 구문 {#syntax}
 
-[고급 표현식 편집기](expressionadvanced.md)를 사용할 때의 구문 기본 사항은 아래에 나와 있습니다. 고급 표현식 편집기의 사용 샘플은 [이 페이지](advanced-editor-use-cases.md)에서 사용할 수 있습니다.
+[고급 표현식 편집기](expressionadvanced.md)를 사용할 때의 구문 기본 사항은 아래에 나와 있습니다. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## 괄호 및 표현식 우선 순위 {#parentheses-and-expression-priority}
 

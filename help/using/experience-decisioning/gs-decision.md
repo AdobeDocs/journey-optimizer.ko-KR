@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '285'
 ht-degree: 20%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 20%
 기존 Journey Optimizer 워크플로를 통합하고 추가 콘텐츠 카탈로그를 관리하기 위한 기반을 마련하기 위해 설계된 차세대 의사 결정 프레임워크입니다. 의사 결정 오퍼:
 
 * 스키마 기반 항목 카탈로그 관리: 사용자 지정된 메타데이터를 각 오퍼와 연결하여 유연성을 높입니다.
-* 유연한 컬렉션 규칙: 다양한 기준에 따라 향후 평가를 위해 오퍼를 쉽게 그룹화합니다.
-* 의사 결정 정책 및 선택 전략 구성 업데이트: 의사 결정 구성 요소를 재사용할 수 있습니다.
+* 유연한 컬렉션 규칙: 다양한 기준에 따라 향후 평가를 위해 오퍼를 쉽게 그룹화합니다
+* 의사 결정 정책 및 선택 전략 구성 업데이트: 의사 결정 구성 요소의 재사용 허용
 * 실험 기능: 다른 콘텐츠 구성 요소에 대해 의사 결정 논리를 테스트하여 성능을 측정합니다.
 
-현재 Experience Decisioning은 코드 기반 경험 채널에서 지원됩니다.
+경험 의사 결정은 코드 기반 경험 채널에서 지원됩니다.
 
 ➡️ [의사 결정 시작](../experience-decisioning/gs-experience-decisioning.md)
 

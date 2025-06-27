@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3282f2f5b6fa4eacafc4b017ea0ca713b90cab82
+source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 72%
+source-wordcount: '1278'
+ht-degree: 66%
 
 ---
 
@@ -23,6 +23,17 @@ ht-degree: 72%
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
 
+## 최신 업데이트 {#latest-updates}
+
+### 여정 조건 변경 {#ee-change@}
+
+7월 8일부터 새로운 고객 조직에서는 경험 이벤트를 사용하여 표현식을 만드는 것이 더 이상 여정 조건에 사용되는 표현식 편집기에서 지원되지 않습니다. 따라서 [Experience Platform 데이터 원본](../datasource/adobe-experience-platform-data-source.md)의 경험 이벤트는 식을 만드는 데 사용할 수 없습니다. 경험 이벤트를 사용하여 표현식/논리를 만드는 다른 방법 및 모범 사례가 [여기](../building-journeys/exp-event-lookup.md)에서 참조됩니다.
+
+단일 여정에서 여정 컨텍스트 이벤트 데이터에 액세스하는 방법에는 변경 사항이 없습니다. 표현식 및 개인화 편집기에서 사용자는 초기 여정 이벤트로 전달된 데이터에 계속 액세스할 수 있습니다.
+
+이 FAQ에서 [자세히 알아보기](../building-journeys/exp-event-lookup.md#faq-ee).
+
+
 ## 2025년 6월 릴리스 정보 {#25-6-rn}
 
 <!--
@@ -30,7 +41,7 @@ ht-degree: 72%
 
 **릴리스 일자**: 2025년 6월 18일
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#25-06-features}
 

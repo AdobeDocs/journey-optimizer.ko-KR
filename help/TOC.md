@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3078d9d95327e58e98366d9d8f0d0dfd1c571bec
+source-git-commit: e1cbaaf30f376c1bb32a16dcc8a09686e0b9e231
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2474'
 ht-degree: 98%
 
 ---
@@ -167,15 +167,15 @@ ht-degree: 98%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + 사용 사례 {#journey-use-cases}
-      + 비즈니스 사용 사례 {#business-use-cases}
-         + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
-         + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/ajo-ac.md)
-         + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
-      + 기술 사용 사례 {#technical-use-cases}
-         + [사용자 정의 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
-         + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
-         + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
+      + [사용 사례를 통해 알아보기](using/building-journeys/jo-use-cases.md)
+      + [경험 이벤트 조회](using/building-journeys/exp-event-lookup.md)
+      + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
+      + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/ajo-ac.md)
+      + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
+      + [사용자 정의 작업으로 컬렉션을 동적으로 보내기](using/building-journeys/collections.md)
+      + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
+      + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
+      + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
    + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
    + [구성 단계](using/orchestrated/configuration-steps.md)

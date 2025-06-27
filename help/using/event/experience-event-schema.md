@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 스키마, XDM, 플랫폼, 스트리밍, 수집, 여정
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 0%
 [!DNL Journey Optimizer] 이벤트는 스트리밍 수집을 통해 Adobe Experience Platform으로 전송되는 XDM 경험 이벤트입니다.
 
 따라서 [!DNL Journey Optimizer]에 대한 이벤트를 설정하기 위한 중요한 전제 조건은 Adobe Experience Platform의 XDM(Experience Data Model) 및 XDM 경험 이벤트 스키마를 구성하는 방법과 XDM 형식의 데이터를 Adobe Experience Platform으로 스트리밍하는 방법에 대해 잘 알고 있다는 것입니다.
+
+
+>[!CAUTION]
+>
+>여정 조건의 경험 이벤트 조회는 더 이상 지원되지 않습니다. 여기에서 대체 모범 사례를 확인하십시오. 여전히 경험 이벤트 조회가 필요하며 나열된 대체 항목을 통해 지원할 수 없는 이벤트 트리거 여정 사용 사례가 있는 경우 Adobe 담당자에게 문의하십시오. 목표에 도달할 수 있도록 도와드리겠습니다.
+>
+>여정의 시작 이벤트에서 컨텍스트에 액세스하는 것은 영향을 받지 않습니다.
 
 ## [!DNL Journey Optimizer] 이벤트에 대한 스키마 요구 사항  {#schema-requirements}
 
@@ -42,7 +49,7 @@ ht-degree: 0%
 
   ![](assets/schema4.png)
 
-* 나중에 여정에서 이 데이터를 조회에 사용하려면 스키마와 데이터 세트에 프로필을 표시하십시오.
+* 프로필에 이 데이터를 사용하려면 프로필에 대한 스키마와 데이터 세트를 표시하십시오. [자세히 알아보기](../data/lookup-aep-data.md)
 
   ![](assets/schema5.png)
 
@@ -54,81 +61,83 @@ ht-degree: 0%
 
   ![](assets/schema8.png)
 
-## 스키마 관계 활용{#leverage_schema_relationships}
+<!--
+## Leverage schema relationships{#leverage_schema_relationships}
 
-Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이터 세트에 대한 조회 테이블로 사용하기 위해 스키마 간의 관계를 정의할 수 있습니다.
+Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. 
 
-브랜드 데이터 모델에 구매를 캡처하는 스키마가 있다고 가정합니다. 제품 카탈로그에 대한 스키마도 있습니다. 구매 스키마에서 제품 ID를 캡처하고 관계를 사용하여 제품 카탈로그에서 더 완벽한 제품 세부 정보를 조회할 수 있습니다. 이를 통해 모든 랩탑 ID를 명시적으로 나열하거나 트랜잭션 시스템에서 모든 개별 제품 세부 사항을 캡처하지 않고도 노트북을 구매한 모든 고객을 위한 대상을 만들 수 있습니다.
+Let's say your brand data model has a schema capturing purchases. You also have a schema for the product catalog. You can capture the product ID in the purchase schema and use a relationship to look up more complete product details from the product catalog. This allows you to create an audience for all customers who bought a laptop, for example, without having to explicitly list out all laptop IDs or capture every single product details in transactional systems.
 
-관계를 정의하려면 소스 스키마에 전용 필드가 있어야 합니다. 이 경우 구매 스키마의 제품 ID 필드입니다. 이 필드는 대상 스키마의 제품 ID 필드를 참조해야 합니다. 소스 및 대상 테이블은 프로필에 대해 활성화되어야 하며 대상 스키마에는 기본 ID로 정의된 공통 필드가 있어야 합니다.
+To define a relationship, you need to have a dedicated field in the source schema, in this case the product ID field in the purchase schema. This field needs to reference the product ID field in the destination schema. The source and destination tables must be enabled for profiles and the destination schema must have that common field defined as its primary identity. 
 
-다음은 기본 ID로 정의된 제품 ID의 프로필에 대해 활성화된 제품 카탈로그 스키마입니다.
+Here is the product catalog schema enabled for profile with the product ID defined as the primary identity. 
 
 ![](assets/schema9.png)
 
-다음은 제품 ID 필드에 정의된 관계가 있는 구매 스키마입니다.
+Here is the purchase schema with the relationship defined on the product ID field.
 
 ![](assets/schema10.png)
 
 >[!NOTE]
 >
->[Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ko-KR)에서 스키마 관계에 대해 자세히 알아보세요.
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
-그런 다음 Journey Optimizer에서 연결된 테이블의 모든 필드를 활용할 수 있습니다.
+In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
-* 비즈니스 또는 단일 이벤트를 구성할 때 [자세한 내용](../event/experience-event-schema.md#unitary_event_configuration)
-* 여정에서 조건을 사용할 때 [자세한 내용](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* 메시지 개인화에서 [자세한 내용](../event/experience-event-schema.md#message_personalization)
-* 사용자 지정 작업 개인화에서 [자세한 내용](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* when configuring a business or unitary event, [Read more](../event/experience-event-schema.md#unitary_event_configuration) 
+* when using conditions in a journey, [Read more](../event/experience-event-schema.md#journey_conditions_using_event_context) 
+* in message personalization, [Read more](../event/experience-event-schema.md#message_personalization) 
+* in custom action personalization, [Read more](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context) 
 
-### 배열{#relationships_limitations}
+### Arrays{#relationships_limitations}
 
-제품 ID 목록과 같은 문자열 배열에 스키마 관계를 정의할 수 있습니다.
+You can define a schema relationship on an array of strings, for example, a list of product IDs.
 
 ![](assets/schema15.png)
 
-구매 정보(제품 ID, 제품 이름, 가격, 할인) 목록과 같은 개체 배열 내부의 속성과 스키마 관계를 정의할 수도 있습니다. 조회 값은 여정(조건, 사용자 지정 작업 등) 및 메시지 개인화에서 사용할 수 있습니다.
+You can also define a schema relationship with an attribute inside of an array of objects, for example a list of purchase information (product ID, product name, price, discount). The lookup values will be available in journeys (conditions, custom actions, etc.) and message personalization. 
 
 ![](assets/schema16.png)
 
-### 이벤트 구성{#unitary_event_configuration}
+### Event configuration{#unitary_event_configuration}
 
-연결된 스키마 필드는 단일 및 비즈니스 이벤트 구성에서 사용할 수 있습니다.
+The linked schema fields are available in unitary and business event configuration:
 
-* 이벤트 구성 화면에서 이벤트 스키마 필드를 검색할 때.
-* 시스템 생성 이벤트에 대한 조건을 정의할 때.
+* when browsing through the event schema fields in the event configuration screen.
+* when defining a condition for system-generated events.
 
 ![](assets/schema11.png)
 
-연결된 필드를 사용할 수 없습니다.
+The linked fields are not available:
 
-* 이벤트 키 공식
-* 이벤트 id 조건(규칙 기반 이벤트)
+* in the event key formula
+* in event id condition (rule-based events)
 
-단일 이벤트를 구성하는 방법에 대해 알아보려면 이 [페이지](../event/about-creating.md)를 참조하세요.
+To learn how to configure a unitary event, refer to this [page](../event/about-creating.md).
 
-### 이벤트 컨텍스트를 사용하여 조건 여정{#journey_conditions_using_event_context}
+### Journey conditions using event context{#journey_conditions_using_event_context}
 
-조건 작성(표현식 편집기)을 위해 여정에 사용된 이벤트에 연결된 조회 테이블의 데이터를 사용할 수 있습니다.
+You can use data from a lookup table linked to an event used in a journey for condition building (expression editor).
 
-여정에 조건을 추가하고 표현식을 편집한 후 표현식 편집기에서 이벤트 노드를 펼칩니다.
+Add a condition in a journey, edit the expression and unfold the event node in the expression editor. 
 
 ![](assets/schema12.png)
 
-여정 조건을 정의하는 방법을 알아보려면 이 [페이지](../building-journeys/condition-activity.md)를 참조하세요.
+To learn how to define journey conditions, refer to this [page](../building-journeys/condition-activity.md).
 
-### 메시지 개인화{#message_personalization}
+### Message personalization{#message_personalization}
 
-연결된 필드는 메시지를 개인화할 때 사용할 수 있습니다. 관련 필드는 여정에서 메시지로 전달된 컨텍스트에 표시됩니다.
+The linked fields are available when personalizing a message. The related fields are displayed in the context passed from the journey to the message.
 
 ![](assets/schema14.png)
 
-상황별 여정 정보를 사용하여 메시지를 개인화하는 방법에 대해 알아보려면 이 [페이지](../personalization/personalization-use-case.md)를 참조하세요.
+To learn how to personalize a message with contextual journey information, refer to this [page](../personalization/personalization-use-case.md).
 
-### 여정 이벤트 컨텍스트를 사용한 사용자 지정 작업 개인화{#custom_action_personalization_with_journey_event_context}
+### Custom action personalization with journey event context{#custom_action_personalization_with_journey_event_context}
 
-연결된 필드는 여정 사용자 지정 작업 활동의 작업 매개 변수를 구성할 때 사용할 수 있습니다.
+The linked fields are available when configuring the action parameters of a journey custom action activity. 
 
 ![](assets/schema13.png)
 
-사용자 지정 작업을 사용하는 방법에 대해 알아보려면 이 [페이지](../building-journeys/using-custom-actions.md)를 참조하세요.
+To learn how to use custom actions, refer to this [page](../building-journeys/using-custom-actions.md).
+-->

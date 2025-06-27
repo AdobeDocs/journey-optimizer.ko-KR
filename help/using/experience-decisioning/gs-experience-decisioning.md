@@ -1,19 +1,19 @@
 ---
-title: 결정 시작
+title: 의사 결정 시작
 description: Decisioning에 대해 자세히 알아보기
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 24%
+source-wordcount: '516'
+ht-degree: 25%
 
 ---
 
-# 결정 시작 {#get-started-experience-decisioning}
+# 의사 결정 시작 {#get-started-experience-decisioning}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
@@ -24,7 +24,7 @@ ht-degree: 24%
 
 의사 결정 기능은 &#39;의사 결정 항목&#39;이라는 중앙 집중식 마케팅 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.
 
-이러한 결정 항목은 [새 코드 기반 경험 채널](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/code-based-experience/get-started-code-based)을 통해 광범위한 인바운드 표면에 원활하게 통합되어 이제 Journey Optimizer 캠페인 내에서 액세스할 수 있습니다.
+이러한 결정 항목은 Journey Optimizer 캠페인 내에서 액세스할 수 있는 [새 코드 기반 경험 채널](../code-based/get-started-code-based.md)을 통해 광범위한 인바운드 표면에 원활하게 통합됩니다.
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
       ![](assets/decision_permission_1.png)
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
       ![](assets/decision_permission_2.png)
 
@@ -56,7 +56,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
    그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
 
-   +++
++++
 
 1. **사용자 지정 특성을 구성합니다**: 사용자 지정 특성을 카탈로그의 스키마로 설정하여 항목 카탈로그를 특정 요구 사항에 맞게 조정하십시오.
 
@@ -68,7 +68,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 1. **컬렉션으로 구성**: 컬렉션을 사용하여 특성 기반 규칙에 따라 결정 항목을 분류합니다. 컬렉션을 선택 전략에 통합하여 고려해야 하는 결정 항목의 컬렉션을 결정합니다.
 
-   ➡️ [&#128279;](collections.md)사용자 인터페이스 및 [API 설명서](api-reference/items-collections/create.md)에서 항목 컬렉션을 관리하는 방법을 알아봅니다
+   ➡️ [사용자 인터페이스 및 [API 설명서](api-reference/items-collections/create.md)에서 항목 컬렉션을 관리하는 방법을 알아봅니다](collections.md)
 
 1. **의사 결정 규칙 만들기**: 의사 결정 규칙은 의사 결정 항목 및/또는 선택 전략에서 의사 결정 항목을 표시할 대상을 결정하는 데 사용됩니다.
 
@@ -80,11 +80,10 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 1. **선택 전략 만들기**: 컬렉션, 의사 결정 규칙 및 등급 방법을 활용하여 프로필에 표시하는 데 적합한 의사 결정 항목을 식별하는 선택 전략을 만듭니다.
 
-   ➡️ [&#128279;](selection-strategies.md)사용자 인터페이스 및 [API 설명서](api-reference/selection-strategies/create.md)의 사용자 인터페이스에서 선택 전략을 만드는 방법을 알아봅니다
+   ➡️ [사용자 인터페이스 및 [API 설명서](api-reference/selection-strategies/create.md)의 사용자 인터페이스에서 선택 전략을 만드는 방법을 알아봅니다](selection-strategies.md)
 
 1. **의사 결정 정책을 만들어 코드 기반 캠페인에 임베드합니다**: 의사 결정 정책은 여러 선택 전략을 결합하여 의도한 대상자에게 표시할 적합한 의사 결정 항목을 결정합니다.
 
    ➡️ [의사 결정 정책 사용 방법 알아보기](create-decision.md)
 ➡️ 코드 기반 경험 채널을 통해 오퍼를 성공적으로 게재하려면 [이 섹션](../code-based/code-based-implementation-samples.md)의 구현 단계를 따르십시오.
 
-코드 기반 환경에서 의사 결정을 사용하는 방법을 보여 주는 전체 엔드 투 엔드 사용 사례는 [이 섹션](experience-decisioning-uc.md)에 나와 있습니다.

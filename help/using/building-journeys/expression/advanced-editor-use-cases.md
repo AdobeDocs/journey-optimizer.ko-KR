@@ -6,25 +6,36 @@ description: 고급 표현식을 작성하는 방법에 대해 알아보기
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
+hide: true
+hidefromtoc: true
 keywords: 표현식, 조건, 사용 사례, 이벤트
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
 
+
 # 고급 표현식 예{#advanced-expression-examples}
 
-고급 표현식 편집기를 사용하여 여정에서 사용자를 필터링할 수 있는 조건을 만들 수 있습니다. 이러한 조건을 사용하면 여정에서 다시 타깃팅할 수 있도록 시간, 날짜, 위치, 기간 또는 장바구니 구매 또는 포기와 같은 작업을 타깃팅할 수 있습니다.
+고급 표현식 편집기를 사용하여 여정에서 사용자를 필터링할 수 있는 조건을 만들 수 있습니다. 이러한 조건을 사용하면 시간, 날짜, 위치, 기간에 사용자를 타깃팅할 수 있으므로 여정에서 해당 사용자를 다시 타깃팅할 수 있습니다.
 
 >[!CAUTION]
 >
->여정 표현식/조건에서 경험 이벤트를 사용할 수 있지만 권장되지는 않습니다. 사용 사례에서 경험 이벤트를 사용해야 하는 경우 [계산된 특성](../../audience/computed-attributes.md)과 같은 대체 메서드를 사용하거나 이벤트를 사용하여 세그먼트를 만들고 해당 세그먼트를 [`inAudience` 식에 통합](../../building-journeys/functions/functioninaudience.md)해 보십시오.
+>여정 표현식/조건에서는 경험 이벤트를 사용할 수 없습니다. 사용 사례에서 경험 이벤트를 사용해야 하는 경우 대체 방법을 고려하십시오. [자세히 알아보기](../exp-event-lookup.md)
 
 
 ## 경험 이벤트에 대한 조건 구축
+
+
+>[!CAUTION]
+>
+>여정 표현식/조건에서는 경험 이벤트를 사용할 수 없습니다. 사용 사례에서 경험 이벤트를 사용해야 하는 경우 대체 방법을 고려하십시오. [자세히 알아보기](../exp-event-lookup.md)
+>
+
+
 
 고급 표현식 편집기는 구매 목록 또는 과거 메시지 클릭과 같은 시계열에 대한 쿼리를 수행해야 합니다. 이러한 쿼리는 단순 편집기를 사용하여 수행할 수 없습니다.
 
@@ -43,9 +54,9 @@ ht-degree: 1%
 
 우선 온라인 매장을 찾아보았지만 지난 7일 동안 주문이 확정되지 않은 고객을 대상으로 했다.
 
-<!--**This expression looks for a specified value in a string value:**
+**이 식은 문자열 값에서 지정된 값을 찾습니다.**
 
-`In ("addToCart", #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`
 
 **이 식은 지난 7일 동안 지정한 이 사용자의 모든 이벤트를 찾습니다.**
 
@@ -151,5 +162,6 @@ substr(
 ```
 
 설명: 이 예제에서는 `substr` 및 `lastIndexOf` 함수를 사용하여 모바일 앱 실행 이벤트와 함께 전달된 CRM ID를 둘러싸는 중괄호를 제거합니다.
+
 
 고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=ko-KR)를 시청하십시오.
