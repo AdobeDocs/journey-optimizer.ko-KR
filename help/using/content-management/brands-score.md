@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 24%
+source-wordcount: '286'
+ht-degree: 25%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 24%
 >[!AVAILABILITY]
 >
 >이 기능은 Private Beta로 출시됩니다. 향후 릴리스에서 점진적으로 사용 범위를 확대하여 모든 고객에게 제공할 예정입니다.
->&#x200B;>Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>>Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-브랜드 정렬 기능은 브랜드 지침에 따라 유지되는 콘텐츠를 만들고, 검토하고, 관리하는 데 도움이 되도록 빌드되었습니다. 이메일 캠페인 전반에 걸쳐 톤, 메시징 및 시각적 ID의 일관성을 보장하는 동시에 콘텐츠가 라이브로 전환되기 전에 품질을 확인하는 역할을 합니다.
+브랜드 정렬 기능은 브랜드 지침을 준수하는 콘텐츠를 만들고, 검토하고, 관리하는 데 도움이 됩니다. 이메일 캠페인 전반에 걸쳐 톤, 메시징 및 시각적 ID의 일관성을 보장하는 동시에 콘텐츠가 라이브로 전환되기 전에 품질을 확인하는 역할을 합니다.
 
 ## 브랜드 정렬을 사용하여 콘텐츠 유효성 검사 {#validate-content}
 
@@ -50,7 +50,7 @@ ht-degree: 24%
 
 1. 이메일 Designer에서 **[!UICONTROL 브랜드 정렬]** 메뉴를 엽니다.
 
-   기본 브랜드에 대해 콘텐츠가 자동으로 평가됩니다. [기본 브랜드를 할당하는 방법을 알아보세요](brands.md).
+   콘텐츠는 기본 브랜드에 대해 자동으로 평가됩니다. [기본 브랜드를 할당하는 방법을 알아보세요](brands.md).
 
    ![](assets/brand-score-1.png)
 
@@ -60,7 +60,7 @@ ht-degree: 24%
 
 1. **브랜드 정렬 점수**(높음, Medium, 낮음)를 살펴보고 자세한 피드백을 검토하십시오.
 
-1. 점수에 대한 더 많은 통찰력을 보려면 ![이미지 대체 텍스트 다운로드](assets/do-not-localize/Smock_FullScreen_18_N.svg "전체 화면") 아이콘을 클릭하십시오.
+1. 점수에 대한 자세한 인사이트를 보려면 ![전체 화면 아이콘을 클릭하세요](assets/do-not-localize/Smock_FullScreen_18_N.svg "전체 화면").
 
    ![](assets/brand-score-3.png)
 
