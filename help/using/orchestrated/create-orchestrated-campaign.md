@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
+source-git-commit: 3eeb84e57af655bef669be8e9fc9ae7a024b1ab0
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 9%
@@ -50,7 +50,7 @@ ht-degree: 9%
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-이제 오케스트레이션된 캠페인이 만들어지고 오케스트레이션된 캠페인 목록에 표시됩니다. 언제든지 캠페인 캔버스에서 ![캠페인 설정 아이콘](assets/do-not-localize/campaign-settings.svg) 아이콘을 클릭하여 이러한 속성을 변경할 수 있습니다.
+이제 오케스트레이션된 캠페인이 만들어지고 오케스트레이션된 캠페인 목록에 표시됩니다. 캠페인 캔버스에서 ![캠페인 설정 아이콘](assets/do-not-localize/campaign-settings.svg) 아이콘을 클릭하여 언제든지 이러한 속성을 업데이트할 수 있습니다.
 
 ## 캠페인 예약 {#schedule}
 
@@ -92,7 +92,7 @@ ht-degree: 9%
    * **[!UICONTROL 날짜]**: 캠페인을 실행할 날짜를 선택하십시오.
    * **[!UICONTROL 시간]**: 캠페인을 실행할 특정 시간을 선택하십시오.
 
-   +++
++++
 
    +++매일
 
@@ -106,7 +106,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 시작 시간]**: 매일 캠페인을 실행해야 하는 시간을 정의합니다.
 
-   +++
++++
 
    +++하루에 여러 번
 
@@ -115,7 +115,7 @@ ht-degree: 9%
    * **[!UICONTROL 선택한 시간]**: 캠페인이 실행되는 특정 시간을 선택하고 일일 반복을 구성합니다(매일 또는 특정 요일에 실행).
    * **[!UICONTROL 정기]**: n분 또는 시간마다 캠페인을 실행하도록 선택합니다. 실행이 허용된 날짜 내에서 시간 범위를 정의할 수도 있습니다.
 
-   +++
++++
 
    +++매주
 
@@ -126,7 +126,7 @@ ht-degree: 9%
    * **[!UICONTROL 매일 반복]**: 실행할 특정 요일(예: 매주 월요일 및 목요일)을 선택하십시오.
    * **[!UICONTROL 시작 시간]**: 선택한 날짜에 캠페인을 실행할 시간을 설정합니다.
 
-   +++
++++
 
    +++월별
 
@@ -142,7 +142,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 시작 시간]**: 캠페인을 실행할 시간을 설정합니다.
 
-   +++
++++
 
 1. **[!UICONTROL 유효 기간]** 설정을 사용하여 특정 시작 및 종료 날짜를 정의하고 제한된 기간 동안 캠페인 실행을 제한합니다.
 
