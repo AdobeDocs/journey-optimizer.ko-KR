@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 쿼리, 컬렉션, 함수, 페이로드, 여정
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: ca2e30ddb5e80783b57b9f3e0d07ff8d0bc0bbdb
+source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '481'
 ht-degree: 3%
 
 ---
@@ -148,15 +148,6 @@ _`<listExpression>.last(<condition>)`_
 ```
 
 결과는 `token_2`입니다.
-
->[!NOTE]
->
->경험 이벤트는 Adobe Experience Platform에서 역시간 순서로 컬렉션으로 검색되므로
->
->* **[!UICONTROL first]** 함수는 가장 최근 이벤트를 반환합니다.
->* **[!UICONTROL last]** 함수는 가장 오래된 함수를 반환합니다.
-
-
 
 ## at(`<index>`) 함수
 
