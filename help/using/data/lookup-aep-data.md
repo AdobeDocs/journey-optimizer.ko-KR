@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 4c78163cfc34937888cd323b461246f5955232bb
+source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '435'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,6 @@ Journey Optimizer을 사용하면 [!DNL Journey Optimizer]에서 Adobe Experienc
 * **레코드 수**&#x200B;은(는) 프로덕션 데이터 세트에서는 5백만 개, 개발 샌드박스 데이터 세트에서는 1백만 개로 제한됩니다.
 * **데이터 사용 레이블 지정 및 적용**&#x200B;은 현재 조회를 위해 활성화된 데이터 세트에 대해 적용되지 않습니다.
 * **조회를 사용하도록 설정되어 있고 개인화에 사용되는 데이터 세트는 삭제로부터 보호되지 않습니다**. 삭제되거나 제거되지 않도록 개인화에 사용되는 데이터 세트를 추적하는 것은 귀하의 책임입니다.
-* **데이터 사용 레이블 지정 및 적용**&#x200B;은 현재 조회를 위해 활성화된 데이터 세트에 대해 적용되지 않습니다.
 
 ## 데이터 조회를 위해 데이터 세트 활성화 {#enable}
 
