@@ -6,10 +6,10 @@ description: 커뮤니케이션 채널로 [!DNL Adobe Journey Optimizer] 작업�
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: f365a5819575990b92ca589557d37c3f274bd4d7
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 96%
+source-wordcount: '418'
+ht-degree: 79%
 
 ---
 
@@ -41,16 +41,16 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 <div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>다이렉트 메일</strong></a></div></td>
 </tr></table>
 
-## 인바운드 경험 {#inbound-channels}
+## 모바일 앱 및 웹 경험 {#inbound-channels}
 
-인바운드 경험을 통해 고객이 먼저 상호 작용을 시작할 수 있습니다. 예를 들면 인앱 메시지 및 웹 기반 경험이 있으며, 이를 통해 사용자가 자신의 조건에 따라 콘텐츠를 사용할 수 있습니다. [!DNL Adobe Journey Optimizer]에서 지원되는 인바운드 채널은 다음과 같습니다.
+모바일 앱 및 웹 인바운드 경험을 통해 고객은 상호 작용을 시작합니다. 예를 들면 사용자가 자신의 조건에 따라 콘텐츠를 이용하는 인앱 메시지 및 웹 기반 환경이 있습니다. [!DNL Adobe Journey Optimizer]에서 지원되는 인바운드 채널은 다음과 같습니다.
 
 * **인앱**: 모바일 또는 웹 애플리케이션 내에서 사용자와 커뮤니케이션하여 사용자 경험을 향상시킵니다.
 * **웹**: 웹 기반 메시지를 사용하여 사이트를 탐색하는 사용자와 상호 작용합니다.
 * **코드 기반 경험**: 고유한 참여 기회에 대한 코딩을 통해 사용자 정의 경험을 구현합니다.
 * **콘텐츠 카드**: 다이내믹 콘텐츠를 애플리케이션 또는 웹 사이트 내에 직접 공유하여 사용자에게 정보를 제공하고 참여를 유도합니다.
 
-원하는 채널을 선택하여 심층 검토하고 마케팅 전략에서 해당 채널을 효과적으로 활용하는 방법을 알아보십시오.
+채널을 선택하여 더 깊이 알아보고 마케팅 전략에서 이러한 채널을 효과적으로 활용하는 방법을 알아보십시오.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../in-app/get-started-in-app.md"><img alt="인앱" src="assets/do-not-localize/inapp.jpg"></a>
@@ -70,5 +70,4 @@ Adobe Journey Optimizer에서는 다음 두 가지 기본 컨텍스트에서 커
 
 * **여정**: 여러 접점에 걸쳐 원활한 고객 경험을 만듭니다. 사용자의 행동 및 선호에 따라 상호 작용을 자동화하여 사용자에게 브랜드와의 여정을 안내하는 커뮤니케이션을 적시에 적절하게 보내도록 합니다. [고객 여정을 만들고 실행하는 방법을 알아봅니다](../building-journeys/journey-gs.md).
 
-* **캠페인**: 타기팅된 목표를 달성하기 위해 지정된 채널을 활용하는 특정 마케팅 캠페인을 배포합니다. 새 제품을 홍보하는 것이든 시즌 매출을 촉진하는 것이든, 캠페인을 통해 대상자에게 맞춘 집중적 메시지 전략을 구축할 수 있습니다. [캠페인을 만들고 실행하는 방법에 대해 알아봅니다](../campaigns/get-started-with-campaigns.md).
-
+* **캠페인**: 타깃팅된 목표를 달성하기 위해 특정 채널을 활용하는 특정 마케팅 캠페인을 배포합니다. 새 제품을 홍보하는 것이든 시즌 매출을 촉진하는 것이든, 캠페인을 통해 대상자에게 맞춘 집중적 메시지 전략을 구축할 수 있습니다. [캠페인을 만들고 실행하는 방법에 대해 알아봅니다](../campaigns/get-started-with-campaigns.md).
