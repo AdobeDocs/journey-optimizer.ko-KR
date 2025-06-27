@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: ecb62dfc6a04754cb5d549615047cfb8e5e8f518
+source-git-commit: 2604fa59a8fa6393580180afa6da264319636e68
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 1%
@@ -93,7 +93,6 @@ ht-degree: 1%
 
 | 활동 하나 복사 | 여러 활동 복사 |
 |  ---  |  ---  |
-|  |
 | ![](assets/orchestrated-copy-1.png){width="200" align="center" zoomable="yes"} | ![](assets/orchestrated-copy-2.png){width="200" align="center" zoomable="yes"} |
 
 활동을 붙여넣으려면 전환에서 **+** 단추를 클릭하고 &quot;x 활동 붙여넣기&quot;를 선택합니다.
