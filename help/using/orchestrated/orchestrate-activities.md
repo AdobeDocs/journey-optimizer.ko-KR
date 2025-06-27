@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 185e4121a939f2b46b85865278a591c43ad01f27
+source-git-commit: 4d41920b9a0a1acadd97858718a2f80ee9ece8aa
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ![](assets/canvas-transition.png)
 
-## 캔버스 도구 모음 {#toolbar}
+### 캔버스 도구 모음 {#toolbar}
 
 캔버스 도구 모음에서는 활동을 쉽게 조작하고 캔버스에서 탐색할 수 있는 옵션을 제공합니다.
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ![캠페인 설정 아이콘](assets/do-not-localize/canvas-map.svg) 현재 위치를 보여 주는 캔버스의 스냅숏을 엽니다.
 
-## 활동 관리 {#manage}
+### 활동 관리 {#manage}
 
 활동을 추가할 때 속성 창에서 작업 버튼을 사용할 수 있으므로 여러 작업을 수행할 수 있습니다.
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 **결합** 또는 **중복 제거**&#x200B;와 같은 여러 **타깃팅** 활동을 사용하면 나머지 모집단을 처리하고 추가 아웃바운드 전환에 포함할 수 있습니다. 예를 들어, **Split** 활동을 사용하는 경우, 보수는 이전에 정의된 하위 집합과 일치하지 않는 모집단으로 구성됩니다. 이 기능을 사용하려면 **[!UICONTROL 보조 항목 생성]** 옵션을 활성화하세요.
 
-## 활동 복사/붙여넣기 {#copy}
+### 활동 복사/붙여넣기 {#copy}
 
 활동을 복사하여 오케스트레이션된 캠페인 캔버스에 붙여넣을 수 있습니다. 대상 캠페인은 다른 브라우저 탭에 있을 수 있습니다.
 
@@ -97,25 +97,25 @@ ht-degree: 1%
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-<!--## Example {#example}
+## 다이어그램 예 {#example}
 
-Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
+다음은 최소 100$의 구매를 한 모든 고객에게 이메일을 보내는 반면 충성도 점수가 50점 미만인 모든 고객은 제외하도록 설계된 오케스트레이션된 캠페인 예입니다.
 
-![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
+![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-To achieve this, activities below have been added:
+이를 위해 아래 활동이 추가되었습니다.
 
-* A **[!UICONTROL Fork]** activity that divides the orchestrated campaign into three paths (one for each set of customer),
-* **[!UICONTROL Build audience]** activities to target the three sets of customers:
+* **[!UICONTROL 포크]** 활동은 오케스트레이션된 캠페인을 세 개의 경로로 나눕니다.
+* **[!UICONTROL 대상자 만들기]** 활동은 세 고객 집합을 대상으로 합니다.
 
-    * Customers with an email,
-    * Customers belonging to the pre-existing "Interrested in Coffee Machine(s)" audience,
-    * Customers belonging to the pre-existing "VIP ro reward" audience.
+   * 이메일이 있는 고객,
+   * 최소 100$의 구매를 한 고객,
+   * 단골 포인트가 50개 미만인 고객
 
-* A **[!UICONTROL Combine]** activity that groups together customers with an email and those interested in coffee machines,
-* A **[!UICONTROL Combine]** activity that excludes VIP customers,
-* An **[!UICONTROL Email delivery]** activity that sends an email to the resulting customers. 
+* **[!UICONTROL Combine]** 활동 그룹은 이메일이 있는 고객과 최소 100$ 이상의 구매를 한 고객을 함께 그룹화합니다.
+* **[!UICONTROL 결합]** 활동은 충성도 점수가 50점 미만인 고객을 제외합니다.
+* **[!UICONTROL 이메일 게재]** 활동에서 결과 고객에게 이메일을 보냅니다.
 
-Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
+## 다음 단계 {#next}
 
-After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)-->
+오케스트레이션된 캠페인 다이어그램을 성공적으로 디자인한 후 오케스트레이션된 캠페인을 실행하고 다양한 작업의 진행 상황을 추적할 수 있습니다. [오케스트레이션된 캠페인을 시작하고 실행을 모니터링하는 방법을 알아보세요](start-monitor-campaigns.md)
