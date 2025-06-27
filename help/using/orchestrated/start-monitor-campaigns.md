@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
+source-git-commit: f8afef4729e50b7c9899bf7f2fe282347220dfac
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 9%
+source-wordcount: '780'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 9%
 
 | 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
-| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](configuration-steps.md)<br/>&lt;br/[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인 만들기에 대한 주요 단계](gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](send-messages.md)<br/><br/><b>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)</b><br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[및 가입](activities/and-join.md) - [대상 작성](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
+| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인 만들기에 대한 주요 단계](gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](send-messages.md)<br/><br/><b>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)</b><br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[및 가입](activities/and-join.md) - [대상 작성](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [데이터 보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -34,17 +34,27 @@ ht-degree: 9%
 
 오케스트레이션된 작업을 만들고 캔버스에서 수행할 작업을 디자인했으면 이를 게시하고 실행 방법을 모니터링할 수 있습니다.
 
-## 오케스트레이션된 캠페인 시작 {#start}
+테스트 모드에서 캠페인을 실행하여 실행 및 다른 활동의 결과를 확인할 수도 있습니다.
 
-오케스트레이션된 캠페인을 시작하려면 **[!UICONTROL 캠페인]** 메뉴의 **[!UICONTROL 오케스트레이션]** 탭으로 이동하여 시작할 캠페인을 선택한 다음 캔버스의 오른쪽 상단에 있는 **[!UICONTROL 재생]** 단추를 클릭하십시오.
+## 오케스트레이션된 캠페인 테스트 및 게시 {#test}
+
+Journey Optimizer을 사용하면 오케스트레이션된 캠페인을 게시하기 전에 테스트할 수 있습니다. 이렇게 하면 캠페인을 구성하는 다양한 작업의 실행 및 결과를 확인할 수 있으며 기능적인 영향을 미치지 않습니다. **[!UICONTROL 대상자 저장]** 및 채널 활동에 영향을 주는 활동을 제외하고 캔버스의 모든 활동이 실행됩니다.
+
+테스트 모드에서 오케스트레이션된 캠페인을 시작하려면 오케스트레이션된 캠페인을 연 다음 **[!UICONTROL 시작]** 단추를 클릭하세요.
+
+![](assets/campaign-start.png){zoomable="yes"}
 
 오케스트레이션된 캠페인이 실행되면, 캔버스의 각 활동은 오케스트레이션된 캠페인의 끝에 도달할 때까지 순차적 순서로 실행됩니다.
 
-시각적인 흐름을 사용하여 실시간으로 타겟팅된 프로필의 진행 상황을 추적할 수 있습니다. 이렇게 하면 각 활동의 상태와 활동 간에 전환되는 프로필 수를 빠르게 식별할 수 있습니다.
+캠페인을 실행할 준비가 되면 **[!UICONTROL 게시]** 단추를 클릭하십시오. 캔버스에서 시각적 흐름이 다시 시작되어 다이어그램으로의 프로필 진행률을 확인할 수 있습니다.
+
+## 오케스트레이션된 캠페인 시각적 플로우
+
+테스트 모드나 프로덕션에서 오케스트레이션된 캠페인이 실행 중인 경우 시각적 플로우를 사용하여 실시간으로 다양한 작업을 통해 타겟팅된 프로필의 진행 상황을 추적할 수 있습니다. 이렇게 하면 각 활동의 상태와 활동 간에 전환되는 프로필 수를 빠르게 식별할 수 있습니다.
 
 ![](assets/workflow-execution.png){zoomable="yes"}
 
-오케스트레이션된 캠페인에서 전환을 통해 한 활동에서 다른 활동으로 전송된 데이터는 임시 작업 표에 저장됩니다. 각 전환에 대해 이 데이터를 표시할 수 있습니다. 이렇게 하려면 전환을 선택하여 화면 오른쪽에서 속성을 엽니다.
+전환을 통해 한 활동에서 다른 활동으로 전송된 데이터는 임시 작업 표에 저장됩니다. 각 전환에 대해 이 데이터를 표시할 수 있습니다. 이렇게 하려면 전환을 선택하여 화면 오른쪽에서 속성을 엽니다.
 
 * 작업 테이블의 스키마를 표시하려면 **[!UICONTROL 스키마 미리 보기]**&#x200B;를 클릭하십시오.
 * 선택한 전환에서 전송된 데이터를 시각화하려면 **[!UICONTROL 결과 미리 보기]**&#x200B;를 클릭하십시오.
@@ -55,7 +65,7 @@ ht-degree: 9%
 
 ### 활동 실행 모니터링 {#activities}
 
-각 활동 상자의 오른쪽 위 모서리에 있는 시각적 표시기를 사용하여 실행을 확인할 수 있습니다.
+각 활동 상자의 시각적 표시기를 사용하여 실행을 확인할 수 있습니다.
 
 | 시각적 표시기 | 설명 |
 |-----|------------|
