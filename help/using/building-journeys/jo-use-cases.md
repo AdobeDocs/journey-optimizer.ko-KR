@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 사용 사례, 다중 채널, 여정, 이벤트
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
+source-git-commit: 938f0b0247cc4b9d3e05a234082db534acbbbac5
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="경험 이벤트 조회 우수 사례" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="경험 이벤트 조회 우수 사례" src="../assets/do-not-localize/icon-content.svg" /></a> 
     <br>Adobe Journey Optimizer의 경험 이벤트를 최대한 활용하는 데 도움이 되는 일반적인 패턴과 확장 가능한 접근 방식에 대해 알아봅니다. 이러한 사용 사례는 옵트아웃 관리, 메시지 빈도 제어, 사용자 행동을 기반으로 콘텐츠 개인화, 실시간 신호 반응과 같은 자주 발생하는 문제를 해결하는 데 도움이 되도록 설계되었습니다.
     </div>
       <div>
@@ -47,7 +47,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="쿼리 샘플" src="../assets/do-not-localize/icon-data.svg"/></a> 
+    <img alt="쿼리 샘플" src="../assets/do-not-localize/icon-configure.svg"/></a> 
     <br>사용 사례를 만들려면 추적 경험 이벤트를 수집하기 위한 시스템 데이터 세트, 여정에서 단계 이벤트를 수집하기 위한 데이터 세트, 사용자에게 오퍼 제안을 수집하기 위한 데이터 세트 등과 같은 Adobe Journey Optimizer 데이터 세트를 쿼리해야 합니다.
     </div>
       <div>
