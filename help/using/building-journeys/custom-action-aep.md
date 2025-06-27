@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 4%
 
 ---
 
-# 사용 사례: 사용자 지정 작업을 사용하여 Experience Platform에서 여정 이벤트 작성 {#custom-action-aep}
+# 사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성 {#custom-action-aep}
 
 이 사용 사례에서는 사용자 지정 작업 및 인증된 호출을 사용하여 여정에서 Adobe Experience Platform에 사용자 지정 이벤트를 작성하는 방법을 설명합니다.
 
-## IO 프로젝트 구성 {#custom-action-aep-IO}
+## 개발자 프로젝트 구성 {#custom-action-aep-IO}
 
 1. Adobe Developer Console에서 **프로젝트**&#x200B;를 클릭하고 IO 프로젝트를 엽니다.
 
@@ -39,9 +39,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Adobe Developer Console에서 프로젝트를 작성한 후 올바른 권한을 사용하여 개발자 및 API 액세스 제어를 부여해야 합니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}를 참조하세요
+>Adobe Developer Console에서 프로젝트를 작성한 후 올바른 권한을 사용하여 개발자 및 API 액세스 제어를 부여해야 합니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}를 참조하세요
 
-## HTTP API Inlet을 사용하여 Source 구성
+## HTTP API Inlet을 사용하여 소스 구성
 
 1. Adobe Experience Platform에서 엔드포인트를 만들어 여정에서 데이터를 기록합니다.
 

@@ -9,14 +9,14 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: 여정, 메시지, 캠페인, 통합
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
 
-# 사용 사례: Campaign v7/v8을 사용하여 메시지 보내기 {#campaign-v7-v8-use-case}
+# Campaign v7/v8에서 메시지 보내기 {#campaign-v7-v8-use-case}
 
 이 사용 사례에서는 Adobe Campaign v7 및 Adobe Campaign v8과의 통합을 사용하여 이메일을 보내는 데 필요한 모든 단계를 설명합니다.
 

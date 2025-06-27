@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 사용 사례, 다중 채널, 메시지, 여정, 채널, 이벤트, 푸시
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 0%
+source-wordcount: '723'
+ht-degree: 1%
 
 ---
 
-# 사용 사례: 멀티채널 메시지 보내기{#send-multi-channel-messages}
+# 다중 채널 메시지 보내기 {#send-multi-channel-messages}
 
 이 섹션에서는 대상자 읽기, 이벤트, 반응 이벤트 및 이메일/푸시 메시지를 결합하는 사용 사례를 제공합니다.
 

@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 여정, 사용 사례, 메시지, 구독자, 목록, 읽기
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '329'
 ht-degree: 17%
 
 ---
 
-# 사용 사례: 목록의 구독자에게 메시지 보내기{#send-a-message-to-the-subscribers-of-a-list}
+# 목록의 구독자에게 메시지 보내기 {#send-a-message-to-the-subscribers-of-a-list}
 
 이 사용 사례의 목적은 목록 구독자에게 메시지를 보내는 여정을 만드는 것입니다.
 

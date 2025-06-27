@@ -8,15 +8,15 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 6%
+source-wordcount: '428'
+ht-degree: 7%
 
 ---
 
 
-# 사용 사례: 사용자 지정 작업을 사용하여 컬렉션을 동적으로 보내기{#passing-collection}
+# 사용자 정의 작업으로 컬렉션을 동적으로 보내기{#passing-collection}
 
 런타임 시 동적으로 채워지는 사용자 지정 작업 매개 변수에서 컬렉션을 전달할 수 있습니다. 지원되는 컬렉션은 두 가지입니다.
 
