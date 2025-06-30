@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 2%
+source-wordcount: '869'
+ht-degree: 1%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->**[!UICONTROL 순위 전략]** 테이블은 AI 모델을 캠페인에 통합하는 경우에만 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking.md)
+>**[!UICONTROL 순위 전략]** 테이블은 [AI 모델](../experience-decisioning/ranking/ai-models.md)이(가) 캠페인에 통합된 경우에만 사용할 수 있습니다. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decision-ranking-strategy.png)
 
@@ -161,7 +161,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->AI 모델이 캠페인에 통합될 때만 **[!UICONTROL 홀드아웃 및 모델 기반 트래픽에 대한 전환율]** 그래프를 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking.md)
+>[AI 모델](../experience-decisioning/ranking/ai-models.md)이(가) 캠페인에 통합되는 경우에만 **[!UICONTROL 홀드아웃 및 모델 기반 트래픽에 대한 전환율]** 그래프를 사용할 수 있습니다. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 
@@ -173,4 +173,4 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->[순위 수식](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)에 통합된 AI 모델을 사용할 때 데이터가 전환율 보고서에 반영되지 않습니다.
+>[순위 수식](../experience-decisioning/ranking/ranking-formulas.md)에 통합된 AI 모델을 사용할 때 데이터가 전환율 보고서에 반영되지 않습니다.

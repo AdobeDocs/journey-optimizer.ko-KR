@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2490'
 ht-degree: 98%
 
 ---
@@ -548,10 +548,16 @@ ht-degree: 98%
          + [항목 카탈로그 구성](using/experience-decisioning/catalogs.md)
          + [결정 항목 만들기](using/experience-decisioning/items.md)
          + [항목 컬렉션 관리](using/experience-decisioning/collections.md)
-      + 항목 선택 구성 {#selection}
-         + [의사 결정 규칙 만들기](using/experience-decisioning/rules.md)
-         + [등급 메서드 만들기](using/experience-decisioning/ranking.md)
-         + [AI 공식 빌더 사용](using/experience-decisioning/exd-ranking-formulas.md)
+      + [의사 결정 규칙 만들기](using/experience-decisioning/rules.md)
+      + 순위 만들기 {#rankings}
+         + [등급 메서드 만들기](using/experience-decisioning/ranking/ranking.md)
+         + [AI 공식 빌더 사용](using/experience-decisioning/ranking/ranking-formulas.md)
+         + AI 모델 {#ai-models}
+            + [AI 모델 정보](using/experience-decisioning/ranking/ai-models.md)
+            + [자동 최적화 모델](using/experience-decisioning/ranking/auto-optimization-model.md)
+            + [개인화된 최적화 모델](using/experience-decisioning/ranking/personalized-optimization-model.md)
+            + [AI 모델 만들기](using/experience-decisioning/ranking/create-ai-models.md)
+      + Adobe Experience Platform 데이터 사용 {#aep-data}
          + [컨텍스트 데이터 활용](using/experience-decisioning/context-data.md)
          + [의사 결정에 Adobe Experience Platform 사용](using/experience-decisioning/aep-data-exd.md)
       + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
@@ -579,7 +585,6 @@ ht-degree: 98%
          + [순위 공식](using/offers/ranking/create-ranking-formulas.md)
          + AI 모델 {#ai-models}
             + [AI 모델 정보](using/offers/ranking/ai-models.md)
-            + AI 모델 유형 {#ai-model-types}
             + [자동 최적화 모델](using/offers/ranking/auto-optimization-model.md)
             + [개인화된 최적화 모델](using/offers/ranking/personalized-optimization-model.md)
             + [AI 모델 만들기](using/offers/ranking/create-ranking-strategies.md)

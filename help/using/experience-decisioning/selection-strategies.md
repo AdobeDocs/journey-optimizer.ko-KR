@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: e63a21b5dcc8f227d56c696c8fd0825c75684189
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '729'
 ht-degree: 20%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 20%
 >id="ajo_exd_strategy_ranking"
 >title="오퍼 순위 지정하는 방법에 대한 정의"
 >abstract="특정 선택 전략에 여러 오퍼가 적합한 경우 선택 전략을 만들 때 각 프로필에 가장 적합한 오퍼를 선택하는 방법(우선순위 또는 순위 공식)을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=ko" text="결정 정책 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="결정 정책 만들기"
 
 여러 오퍼가 주어진 선택 전략에 적합한 경우 선택 전략을 생성할 때 각 프로필에 가장 적합한 오퍼를 선택하는 방법을 선택할 수 있습니다. 오퍼의 순위를 지정할 수 있는 기준:
 
@@ -98,9 +98,9 @@ ht-degree: 20%
 
 ### 오퍼 우선 순위 {#offer-priority}
 
-기본적으로 의사 결정 정책에서 일부 오퍼가 지정된 배치에 적합한 경우 **우선 순위**&#x200B;가 가장 높은 항목이 먼저 고객에게 전달됩니다.
+기본적으로 의사 결정 정책에 여러 오퍼가 적격인 경우 **우선 순위**&#x200B;가 가장 높은 항목이 고객에게 먼저 전달됩니다.
 
-![](assets/item-priority.png)
+![](assets/item-priority.png){width=85%}
 
 [결정 항목](items.md)을 만들 때 오퍼의 우선 순위 점수가 할당됩니다.
 
@@ -108,17 +108,17 @@ ht-degree: 20%
 
 Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 수식**&#x200B;을 만들 수 있습니다. 오퍼의 우선 순위 점수를 고려하지 않고, 주어진 배치에 대해 먼저 제시해야 할 오퍼를 결정하는 수식입니다.
 
-예를 들어 종료 날짜가 지금부터 24시간 미만인 모든 오퍼의 우선순위를 늘리거나, 프로필의 관심 지점이 &quot;실행 중&quot;인 경우 &quot;실행 중&quot; 카테고리의 오퍼를 늘릴 수 있습니다. [이 섹션](exd-ranking-formulas.md)에서 순위 공식을 만드는 방법을 알아봅니다.
+예를 들어 종료 날짜가 지금부터 24시간 미만인 모든 오퍼의 우선순위를 늘리거나, 프로필의 관심 지점이 &quot;실행 중&quot;인 경우 &quot;실행 중&quot; 카테고리의 오퍼를 늘릴 수 있습니다. [이 섹션](ranking/ranking-formulas.md)에서 순위 공식을 만드는 방법을 알아봅니다.
 
 만든 후에는 이 공식을 선택 전략에 사용할 수 있습니다. 이 선택 전략을 사용할 때 여러 오퍼를 표시할 수 있는 경우, 의사 결정은 선택한 공식을 사용하여 먼저 게재할 오퍼를 계산합니다.
 
 ### AI 등급 {#ai-ranking}
 
-AI 모델을 선택하여 주어진 프로필에 대해 표시할 오퍼에 자동으로 등급을 지정하는 교육된 모델 시스템을 사용할 수도 있습니다. [이 섹션](../offers/ranking/ai-models.md)에서 AI 모델을 만드는 방법을 알아봅니다.
+AI 모델을 선택하여 주어진 프로필에 대해 표시할 오퍼에 자동으로 등급을 지정하는 교육된 모델 시스템을 사용할 수도 있습니다. [이 섹션](ranking/create-ai-models.md)에서 AI 모델을 만드는 방법을 알아봅니다.
 
 AI 모델이 만들어지면 선택 전략에 사용할 수 있습니다. 여러 오퍼가 적합한 경우 교육된 모델 시스템은 이 선택 전략에 대해 먼저 제시해야 하는 오퍼를 결정합니다.
 
 >[!NOTE]
 >
->현재 [상승도 측정](../offers/ranking/auto-optimization-model.md#lift) 보고서는 [개인화된 최적화](../offers/ranking/personalized-optimization-model.md) AI 모델에만 사용할 수 있습니다.
+>현재 [상승도 측정](ranking/auto-optimization-model.md#lift) 보고서는 [개인화된 최적화](ranking/personalized-optimization-model.md) AI 모델에만 사용할 수 있습니다.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '3117'
 ht-degree: 100%
@@ -201,7 +201,7 @@ ht-degree: 100%
 <td>
 <p>이제 개선된 새 인터페이스에서 기준을 정하고 결합하여 구체적인 결정 순위 공식을 만들 수 있습니다. 정적 오퍼 우선순위에만 의존하는 대신 안내형 인터페이스를 통해 AI 모델 점수, 오퍼 우선순위, 프로필 속성, 오퍼 속성, 상황별 신호를 결합하는 사용자 정의 순위 공식을 정의할 수 있습니다.</p>
 <img src="assets/do-not-localize/formula-builder.gif">
-<p>자세한 내용은 <a href="../experience-decisioning/exd-ranking-formulas.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../experience-decisioning/ranking/ranking-formulas.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 5월 14일</p>
 </td>
 </tr>

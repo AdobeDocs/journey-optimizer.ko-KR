@@ -10,14 +10,14 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 20%
+source-wordcount: '838'
+ht-degree: 18%
 
 ---
 
-# 결정을 위해 Adobe Experience Platform 데이터 사용 {#aep-data}
+# 의사 결정에 Adobe Experience Platform 데이터 사용 {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -48,13 +48,13 @@ ht-degree: 20%
 
 의사 결정을 위해 [!DNL Adobe Experience Platform] 데이터 세트의 데이터를 사용하려면 먼저 API 호출을 통해 조회에 사용하도록 설정해야 합니다. 자세한 지침은 [Journey Optimizer에서 Adobe Experience Platform 데이터 세트 활용](../data/lookup-aep-data.md) 섹션을 참조하세요.
 
-## 결정을 위해 Adobe Experience Platform 데이터 사용
+## Adobe Experience Platform 데이터 활용 {#leverage-aep-data}
 
 조회에 대해 데이터 세트를 활성화하면 해당 속성을 사용하여 외부 데이터로 의사 결정 논리를 보강할 수 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다.
 
 Adobe Experience Platform 데이터 세트의 속성은 의사 결정 논리의 두 부분에서 사용할 수 있습니다.
 
-* **의사 결정 규칙**: 의사 결정 항목을 표시할 수 있는지 여부를 정의합니다.
+* **결정 규칙**: 결정 항목을 표시할 수 있는지 여부를 정의합니다.
 * **등급 수식**: 외부 데이터를 기반으로 결정 항목의 우선 순위를 지정합니다.
 
 다음 섹션에서는 두 컨텍스트에서 Adobe Experience Platform 데이터를 사용하는 방법에 대해 설명합니다.
@@ -86,7 +86,7 @@ Adobe Experience Platform 데이터 세트의 속성은 의사 결정 논리의 
 
    ![](assets/exd-lookup-menu.png)
 
-### 순위 공식
+### 순위 공식 {#ranking-formulas}
 
 순위 공식은 결정 항목의 우선순위를 정의합니다. [!DNL Adobe Experience Platform] 데이터 세트 특성을 사용하면 실제 상황을 반영하도록 순위 논리를 동적으로 조정할 수 있습니다.
 
@@ -107,6 +107,6 @@ Adobe Experience Platform 데이터를 등급 공식에 사용하려면 다음 �
    >
    >등급 수식당 최대 3개의 매핑을 생성할 수 있습니다.
 
-1. 데이터 세트 필드를 사용하여 평소와 같이 등급 공식을 만듭니다. [순위 공식을 만드는 방법을 알아봅니다](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)
+1. 데이터 세트 필드를 사용하여 평소와 같이 등급 공식을 만듭니다. [순위 공식을 만드는 방법을 알아봅니다](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)

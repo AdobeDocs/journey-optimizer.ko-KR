@@ -7,7 +7,8 @@ role: User, Data Engineer, Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: 32e3a5b9-0633-48df-95b5-c03536be23a1
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -22,7 +23,7 @@ ht-degree: 1%
 
 * [의사 결정 보고서 작성](../cja-reporting.md);
 * [최대 가용량](../items.md#capping) 규칙 사용;
-* 순위 메서드로 사용할 수 있는 AI 모델 <!--add link-->을(를) 빌드하고 있습니다.
+* 순위 지정 메서드로 사용할 수 있는 [AI 모델](../ranking/ai-models.md)을(를) 빌드하고 있습니다.
 
 ## 이벤트 유형
 
@@ -46,9 +47,9 @@ Decisioning에서 결정을 내릴 때마다 해당 결정 이벤트와 관련�
 
 그러나 **대부분의 채널**&#x200B;에서는 노출 횟수 및 클릭 수를 **경험 이벤트**(으)로 Adobe Experience Platform에 전송해야 합니다. 여기에는 다음 항목이 포함되어 있습니다.
 
-* 오퍼를 렌더링하기 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"}을(를) 사용하는 웹 페이지
+* 오퍼를 렌더링하기 위해 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}을(를) 사용하는 웹 페이지
 
-* [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ko){target="_blank"}를 사용하여 오퍼를 렌더링하는 모바일 앱 - [자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}를 사용하여 오퍼를 렌더링하는 모바일 앱 - [자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * 키오스크
 * 서드파티 애플리케이션을 통해 전송된 메시지
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->

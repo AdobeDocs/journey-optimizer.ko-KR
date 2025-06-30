@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -342,7 +342,7 @@ ht-degree: 100%
 
 **의사 결정**
 
-* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko) 사용자는 이제 의사 결정(이전 이름: 경험 결정)에서 AI 모델을 설정할 때 최적화할 사용자 정의 모델을 선택할 수 있습니다. 예를 들어 클릭스루 비율과 같은 정의된 제한 대신 사용자 정의 &quot;구매&quot; 테이블을 기반으로 최적화할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking.md)
+* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko) 사용자는 이제 의사 결정(이전 이름: 경험 결정)에서 AI 모델을 설정할 때 최적화할 사용자 정의 모델을 선택할 수 있습니다. 예를 들어 클릭스루 비율과 같은 정의된 제한 대신 사용자 정의 &quot;구매&quot; 테이블을 기반으로 최적화할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking/ranking.md)
 
 * 이제 의사 결정을 사용하여 코드 기반 캠페인에 결정 정책을 추가할 때 선택 전략에 더해 단일 결정 항목을 수동으로 선택할 수 있습니다. 또한 이제 두 개 이상의 대체 오퍼를 선택하는 것도 가능합니다. 이 방법으로 일정 수의 결정 항목이 반환되도록 보장할 수 있습니다. [자세히 알아보기](../experience-decisioning/create-decision.md)
 

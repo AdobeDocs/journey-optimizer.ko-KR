@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 20%
@@ -36,7 +36,7 @@ ht-degree: 20%
 * 의사 결정 정책 및 선택 전략 구성 업데이트: 의사 결정 구성 요소의 재사용 허용
 * 실험 기능: 다른 콘텐츠 구성 요소에 대해 의사 결정 논리를 테스트하여 성능을 측정합니다.
 
-경험 의사 결정은 코드 기반 경험 채널에서 지원됩니다.
+의사 결정은 현재 코드 기반 경험 채널에서 지원됩니다.
 
 ➡️ [의사 결정 시작](../experience-decisioning/gs-experience-decisioning.md)
 

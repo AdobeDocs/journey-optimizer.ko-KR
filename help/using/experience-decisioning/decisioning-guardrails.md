@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -18,28 +18,28 @@ Decisioning을 최적으로 사용하려면 다음 보호 기능 및 제한 사�
 
 [!DNL Journey Optimizer] 보호 및 제한 사항의 전체 목록을 [이 섹션](../start/guardrails.md)에서 사용할 수 있습니다.
 
-## 결정 요청
+## 결정 요청 {#decision-requests}
 
 | 가드레일 | 제한 |
 | ------- | ------- |
 | Edge 세그먼테이션을 사용한 의사 결정 정책이 있는 코드 기반 경험 API 요청 | 1500 |
 | Edge 세그멘테이션을 사용하지 않는 의사 결정 정책이 있는 코드 기반 경험 API 요청 | 5000 |
 
-## 항목 컬렉션
+## 항목 컬렉션 {#item-collections}
 
 | 가드레일 | 제한 |
 | ------- | ------- |
 | 항목 컬렉션 | 10K |
 | 항목 컬렉션당 총 오퍼 항목 | 500 |
 
-## 결정 정책
+## 결정 정책 {#decision-policy}
 
 | 가드레일 | 제한 |
 | ------- | ------- |
 | 의사 결정 정책당 선택 전략 및 수동 항목 수 | 10 |
 | 결정 정책당 반환되는 최대 오퍼 항목 수 | 30 |
 
-## 자격 규칙
+## 자격 규칙 {#eligibility-rules}
 
 | 가드레일 | 제한 |
 | ------- | ------- |
@@ -49,7 +49,7 @@ Decisioning을 최적으로 사용하려면 다음 보호 기능 및 제한 사�
 | 최대 pql 규칙 크기 | 15K(UTF-8) |
 | 최대 중첩 수준 수 | 30 |
 
-## 등급 공식
+## 순위 공식 {#ranking-formulas}
 
 | 가드레일 | 제한 |
 | ------- | ------- |
@@ -58,7 +58,7 @@ Decisioning을 최적으로 사용하려면 다음 보호 기능 및 제한 사�
 | 최대 컨텍스트 데이터 속성 수 | 30 |
 | 최대 중첩 수준 수 | 30 |
 
-## 기타
+## 기타 {#others}
 
 | 가드레일 | 제한 |
 | ------- | ------- |
