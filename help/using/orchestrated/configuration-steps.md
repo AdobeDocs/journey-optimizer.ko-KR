@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
+source-git-commit: 4b4363bf89f80ee9203989f1ba66a8062dfd2719
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 3%
@@ -37,6 +37,8 @@ ht-degree: 3%
 이 안내서에서는 관계형 스키마를 생성하고, 오케스트레이션된 캠페인에 대한 데이터 세트를 구성하고, S3 소스를 통해 데이터를 수집하고, 수집된 데이터를 AP 플랫폼에서 쿼리하는 프로세스를 안내합니다.
 
 이 예제에서 설정에는 두 개의 주요 엔터티 **충성도 트랜잭션** 및 **충성도 보상**&#x200B;을(를) 통합하고 기존 핵심 엔터티 **수신자** 및 **브랜드**&#x200B;에 연결합니다.
+
+![](assets/do-not-localize/schema_admin.png)
 
 1. [DDL 파일 업로드](#upload-ddl)
 
@@ -179,7 +181,7 @@ Adobe Experience Platform을 사용하면 외부 소스에서 데이터를 수�
 
    * 새 계정 사용
 
-   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
