@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 02270bddf988e8a722e78d0b63fe157c74b586e4
+source-git-commit: 1c11521ab9f8df9a7147565ddd274f341c56cbdf
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '670'
 ht-degree: 6%
 
 ---
@@ -74,13 +74,6 @@ Journey Optimizer을 사용하면 시작하기 전에 오케스트레이션된 �
 테스트 또는 라이브 모드에서 실행되는 동안 시각적 흐름은 프로필이 실시간으로 여정을 통해 이동하는 방법을 보여 줍니다. 작업 간에 전환되는 프로필 수가 표시됩니다.
 
 ![](assets/workflow-execution.png){zoomable="yes"}
-
-1. 전환을 선택합니다.
-1. 오른쪽 패널:
-&#x200B;- 작업 테이블 스키마를 보려면 **[!UICONTROL 스키마 미리 보기]**&#x200B;를 클릭하십시오.
-&#x200B;- 전송된 데이터를 보려면 **[!UICONTROL 결과 미리 보기]**&#x200B;를 클릭하십시오.
-
-![](assets/transition.png){zoomable="yes"}
 
 전환을 통해 한 활동에서 다른 활동으로 전송된 데이터는 임시 작업 표에 저장됩니다. 각 전환에 대해 이 데이터를 표시할 수 있습니다. 활동 사이에 전달된 데이터를 검사하려면
 
