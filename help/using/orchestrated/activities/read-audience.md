@@ -6,7 +6,8 @@ description: 오케스트레이션된 캠페인에서 대상자 읽기 활동을
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 64f886e733c0bf6ff8fd258fc24310a04397ba55
+exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
+source-git-commit: 4c712fa19296733595d275fb1c883dd8ca0eb58d
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 10%
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_read_audience"
+>id="ajo_orchestration_read_audience"
 >title="대상자 빌드 활동"
 >abstract="**대상자 읽기** 활동을 통해 오케스트레이션된 캠페인을 시작할 대상자를 선택할 수 있습니다. 이 대상은 기존 Adobe Experience Platform 대상이거나 CSV 파일에서 가져온 대상일 수 있습니다. 오케스트레이션된 캠페인의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 읽기** 또는 **대상자 빌드** 활동에 정의됩니다."
 
@@ -31,5 +32,3 @@ ht-degree: 10%
 {style="table-layout:fixed"}
 
 +++
-
-
