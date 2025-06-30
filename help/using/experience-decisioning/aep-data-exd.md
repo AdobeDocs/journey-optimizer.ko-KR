@@ -13,21 +13,21 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
-# 의사 결정에 Adobe Experience Platform 데이터 사용 {#aep-data}
+# 결정을 위해 Adobe Experience Platform 데이터 사용 {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="데이터 세트 조회"
->abstract="의사 결정 규칙에서 Adobe Experience Platform 데이터를 사용하면 동적 외부 속성에 따라 자격 조건을 정의할 수 있으므로 의사 결정 항목이 관련성이 있을 때만 표시되도록 합니다. 매핑을 만들어 Adobe Experience Platform 데이터 집합이 [!DNL Journey Optimizer]의 데이터와 결합하는 방법을 정의합니다. 필요한 특성이 있는 데이터 세트를 선택하고 의사 결정 항목 특성과 데이터 세트 모두에 있는 조인 키를 선택합니다."
+>abstract="결정 규칙에서 Adobe Experience Platform 데이터를 사용하면 동적 외부 속성을 기반으로 적격성 기준을 정의하여 관련이 있는 경우에만 결정 항목이 표시되도록 할 수 있습니다. Adobe Experience Platform 데이터 세트가 [!DNL Journey Optimizer]의 데이터와 연결되는 방식을 정의하는 매핑을 만듭니다. 필요한 속성이 있는 데이터 세트를 선택하고 결정 항목 속성과 데이터 세트 모두에 존재하는 조인 키를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="데이터 세트 조회"
->abstract="등급 공식은 의사 결정 항목의 우선 순위를 정의합니다. [!DNL Adobe Experience Platform] 데이터 세트 특성을 사용하면 실제 상황을 반영하도록 순위 논리를 동적으로 조정할 수 있습니다. 매핑을 만들어 Adobe Experience Platform 데이터 집합이 [!DNL Journey Optimizer]의 데이터와 결합하는 방법을 정의합니다. 필요한 특성이 있는 데이터 세트를 선택하고 의사 결정 항목 특성과 데이터 세트 모두에 있는 조인 키를 선택합니다"
+>abstract="순위 공식은 결정 항목의 우선순위를 정의합니다. [!DNL Adobe Experience Platform] 데이터 세트 속성을 사용하면 실제 조건을 반영하도록 순위 논리를 동적으로 조정할 수 있습니다. Adobe Experience Platform 데이터 세트가 [!DNL Journey Optimizer]의 데이터와 연결되는 방식을 정의하는 매핑을 만듭니다. 필요한 속성이 있는 데이터 세트를 선택하고 결정 항목 속성과 데이터 세트 모두에 존재하는 조인 키를 선택합니다."
 
 >[!AVAILABILITY]
 >
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 의사 결정을 위해 [!DNL Adobe Experience Platform] 데이터 세트의 데이터를 사용하려면 먼저 API 호출을 통해 조회에 사용하도록 설정해야 합니다. 자세한 지침은 [Journey Optimizer에서 Adobe Experience Platform 데이터 세트 활용](../data/lookup-aep-data.md) 섹션을 참조하세요.
 
-## 의사 결정에 Adobe Experience Platform 데이터 사용
+## 결정을 위해 Adobe Experience Platform 데이터 사용
 
 조회에 대해 데이터 세트를 활성화하면 해당 속성을 사용하여 외부 데이터로 의사 결정 논리를 보강할 수 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다.
 
@@ -88,7 +88,7 @@ Adobe Experience Platform 데이터 세트의 속성은 의사 결정 논리의 
 
 ### 순위 공식
 
-등급 공식은 의사 결정 항목의 우선 순위를 정의합니다. [!DNL Adobe Experience Platform] 데이터 세트 특성을 사용하면 실제 상황을 반영하도록 순위 논리를 동적으로 조정할 수 있습니다.
+순위 공식은 결정 항목의 우선순위를 정의합니다. [!DNL Adobe Experience Platform] 데이터 세트 특성을 사용하면 실제 상황을 반영하도록 순위 논리를 동적으로 조정할 수 있습니다.
 
 예를 들어 항공사가 등급 공식을 사용하여 업그레이드 오퍼의 우선 순위를 정한다고 가정해 보겠습니다. 고객이 높은 충성도 계층을 가지고 있고 현재 시트 가용성이 낮은 경우(시간별로 업데이트된 데이터 세트 기반) 더 높은 우선 순위가 제공됩니다. 데이터 집합에 `flight_number`, `available_seats`, `loyalty_score` 등의 필드가 포함되어 있습니다.
 
