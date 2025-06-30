@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 45%
+source-wordcount: '899'
+ht-degree: 21%
 
 ---
 
@@ -47,27 +47,39 @@ Adobe Journey Optimizer을 사용하면 인바운드 및 아웃바운드 채널�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="이메일 활동"
->abstract="이메일 활동을 사용하면 다단계 캠페인 내에서 일회성 이메일과 반복 이메일을 모두 전송할 수 있습니다. 이는 동일한 다단계 캠페인 내에서 계산된 대상으로 이메일을 전송하는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 다단계 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
+>abstract="이메일 활동을 사용하면 1회 및 반복 메시지 모두에 대해 오케스트레이션된 캠페인 내에서 이메일을 보낼 수 있습니다. 동일한 오케스트레이션된 캠페인 내에서 계산된 타겟으로 이메일을 보내는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 다단계 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="SMS 활동"
->abstract="SMS 활동을 사용하면 다단계 캠페인 내에서 일회성 SMS와 반복 SMS를 모두 전송할 수 있습니다. 이는 동일한 다단계 캠페인 내에서 계산된 대상으로 SMS를 전송하는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 다단계 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
+>abstract="SMS 활동을 사용하면 오케스트레이션된 캠페인 내에서 일회성 메시지와 반복 메시지 모두에 대해 SMS를 보낼 수 있습니다. 동일한 오케스트레이션된 캠페인 내에서 계산된 타겟으로 SMS를 전송하는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 다단계 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_push"
+>title="푸시 활동"
+>abstract="푸시 활동을 사용하면 오케스트레이션된 캠페인의 일부로 푸시 알림을 전송할 수 있습니다. 이를 통해 일회성 및 반복 오케스트레이션된 캠페인을 모두 게재할 수 있으므로 동일한 오케스트레이션된 캠페인 내의 사전 정의된 타겟으로 푸시 알림 전송을 자동화할 수 있습니다. 채널 활동을 캠페인 캔버스에 결합하여 고객 행동 및 데이터를 기반으로 작업을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
+
+
+<!--
+UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
->title="푸시 iOS 활동"
->abstract="푸시 iOS 활동을 사용하면 다단계 캠페인의 일부로 iOS 푸시 알림을 전송할 수 있습니다. 일회성 메시지와 반복 다단계 캠페인 모두를 게재할 수 있으며 동일한 워크플로 내에서 사전 정의된 대상으로 iOS 푸시 알림을 전송하는 프로세스를 자동화합니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다."
+>title="Push iOS activity"
+>abstract="The Push iOS activity let you send iOS Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
->title="푸시 Android 활동"
->abstract="Android 푸시 활동을 사용하면 다단계 캠페인의 일부로 Android 푸시 알림을 전송할 수 있습니다. 일회성 메시지와 반복 메시지 모두를 게재할 수 있으며 동일한 다단계 캠페인 내에서 사전 정의된 대상으로 Android 푸시 알림을 전송하는 프로세스를 자동화합니다. 채널 활동을 다단계 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
+>title="Push Android activity"
+>abstract="The Push Android activity ket you send Android Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same orchestrated campaign. You can combine channel activities into the orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="다이렉트 메일 활동"
->abstract="다이렉트 메일 활동은 다단계 캠페인 내에서 다이렉트 메일 전송 과정을 원활하게 하며 일회성 메시지와 반복 메시지를 모두 전송할 수 있습니다. 이는 다이렉트 메일 제공업체에 필요한 추출 파일 생성 프로세스를 자동화하는 역할을 합니다. 채널 활동을 다단계 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
+>abstract="DM 활동은 일회성 메시지와 반복 메시지 모두에 대해 오케스트레이션된 캠페인 내에서 DM 전송을 용이하게 합니다. 이는 다이렉트 메일 제공업체에 필요한 추출 파일 생성 프로세스를 자동화하는 역할을 합니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터를 기반으로 작업을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
 
 오케스트레이션된 캠페인의 컨텍스트에서 게재를 설정하려면 아래 단계를 따르십시오.
 
@@ -86,7 +98,7 @@ Adobe Journey Optimizer을 사용하면 인바운드 및 아웃바운드 채널�
 
 1. **[!UICONTROL 게재 만들기]**&#x200B;를 클릭합니다. 그런 다음 독립형 게재를 만드는 것과 동일한 방법으로 메시지 설정 및 콘텐츠를 정의할 수 있습니다. 콘텐츠를 테스트하고 시뮬레이션할 수도 있습니다.
 
-1. 워크플로우로 다시 이동합니다. 워크플로우를 계속하려면 **[!UICONTROL 아웃바운드 전환 생성]** 옵션을 전환하여 채널 활동 후에 전환을 추가합니다.
+1. 오케스트레이션된 캠페인으로 돌아갑니다. 오케스트레이션된 캠페인을 계속하려면 **[!UICONTROL 아웃바운드 전환 생성]** 옵션을 전환하여 채널 활동 뒤에 전환을 추가하십시오.
 
 1. 오케스트레이션된 캠페인을 시작하려면 **[!UICONTROL 시작]**&#x200B;을 클릭하세요.
 
