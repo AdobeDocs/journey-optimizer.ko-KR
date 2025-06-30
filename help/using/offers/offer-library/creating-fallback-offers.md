@@ -1,12 +1,13 @@
 ---
 title: 대체 오퍼 만들기
 description: 오퍼에 적합하지 않은 고객을 위해 표시할 대체 오퍼를 만드는 방법을 알아봅니다
+badge: label="레거시" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 4%
@@ -57,5 +58,5 @@ ht-degree: 4%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341359?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

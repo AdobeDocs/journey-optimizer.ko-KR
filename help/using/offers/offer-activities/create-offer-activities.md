@@ -1,23 +1,24 @@
 ---
-title: 의사 결정 만들기
+title: 결정 만들기
 description: 의사 결정을 만드는 방법 알아보기
+badge: label="레거시" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 8%
 
 ---
 
-# 의사 결정 만들기 {#create-offer-activities}
+# 결정 만들기 {#create-offer-activities}
 
 의사 결정은 게재 대상에 따라 제공할 최상의 오퍼를 선택하기 위해 오퍼 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
 
-➡️[이 비디오에서 오퍼 활동을 만드는 방법을 알아봅니다](#video)
+➡️ [이 비디오에서 오퍼 활동을 만드는 방법을 알아봅니다](#video)
 
 결정 목록은 **[!UICONTROL 오퍼]** 메뉴 > **[!UICONTROL 결정]** 탭에서 액세스할 수 있습니다. 필터를 사용하여 상태 또는 시작 및 종료 날짜에 따라 결정을 검색할 수 있습니다.
 
@@ -400,6 +401,6 @@ ht-degree: 8%
 
 의사 결정 관리에서 오퍼 활동을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/346696?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

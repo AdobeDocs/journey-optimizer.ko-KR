@@ -1,12 +1,13 @@
 ---
 title: 배치 만들기
 description: 오퍼에 대한 배치를 만드는 방법을 알아봅니다
+badge: label="레거시" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 31%
@@ -32,9 +33,9 @@ ht-degree: 31%
 
 배치는 올바른 오퍼 콘텐츠가 메시지 내의 올바른 위치에 표시되도록 하는 데 도움이 됩니다. 오퍼에 컨텐츠를 추가할 때 해당 컨텐츠가 표시될 수 있는 배치를 선택하라는 메시지가 표시됩니다.
 
-➡️[이 비디오에서 배치를 만드는 방법을 알아봅니다](#video)
+➡️ [이 비디오에서 배치를 만드는 방법을 알아봅니다](#video)
 
-아래 예에는 세 개의 배치가 있으며, 서로 다른 유형의 콘텐츠(이미지, 텍스트, HTML)에 해당합니다.
+아래 예에는 세 개의 배치가 있으며 서로 다른 유형의 콘텐츠(이미지, 텍스트, HTML)에 해당합니다.
 
 ![](../assets/offers_placement_schema.png)
 
@@ -67,11 +68,11 @@ ht-degree: 31%
 
    * **[!UICONTROL 콘텐츠 포함]** / **[!UICONTROL 메타데이터 포함]**: 오퍼의 콘텐츠 및 메타데이터를 API 응답에서 반환할지 여부를 지정합니다. 모든 메타데이터 또는 특정 필드만 포함할 수 있습니다. 기본적으로 메타데이터 포함 값은 true로 설정됩니다.
 
-   이러한 매개 변수는 [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=ko)을(를) 사용하여 작업하는 경우 API 요청에 직접 설정할 수도 있습니다. 그러나 사용자 인터페이스에서 이를 구성하면 각 API 요청에서 전달할 필요가 없으므로 시간을 절약할 수 있습니다. 사용자 인터페이스와 API 요청 모두에서 매개 변수를 구성하는 경우 API 요청의 값이 인터페이스의 값보다 우선합니다.
+   이러한 매개 변수는 [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html)을(를) 사용하여 작업하는 경우 API 요청에 직접 설정할 수도 있습니다. 그러나 사용자 인터페이스에서 이를 구성하면 각 API 요청에서 전달할 필요가 없으므로 시간을 절약할 수 있습니다. 사용자 인터페이스와 API 요청 모두에서 매개 변수를 구성하는 경우 API 요청의 값이 인터페이스의 값보다 우선합니다.
 
    >[!NOTE]
    >
-   >[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=ko&)로 작업하는 경우 이러한 매개 변수를 요청에 설정할 수 없습니다. 이 화면에서 정의해야 합니다.
+   >[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?)로 작업하는 경우 이러한 매개 변수를 요청에 설정할 수 없습니다. 이 화면에서 정의해야 합니다.
    >
    >[Batch Decisioning API](../api-reference/offer-delivery-api/batch-decisioning-api.md)로 작업하는 경우 이 화면 또는 API 요청에서 이러한 매개 변수를 설정할 수 있습니다. 화면과 APi 요청 사이에 매개 변수 값이 일치하지 않으면 요청 값이 사용됩니다.
 
@@ -81,9 +82,9 @@ ht-degree: 31%
 
    ![](../assets/placement_created.png)
 
-## 방법 비디오{#video}
+## 사용 방법 비디오{#video}
 
 의사 결정 관리에서 배치를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/341390?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

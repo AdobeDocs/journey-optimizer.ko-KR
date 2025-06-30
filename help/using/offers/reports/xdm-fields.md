@@ -1,14 +1,15 @@
 ---
 title: 이벤트 XDM 필드 액세스
 description: DecisioningEvents XDM 스키마에 대해 자세히 알아봅니다.
+badge: label="레거시" type="Informative"
 feature: Decision Management, Datasets
 role: User, Data Engineer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 64%
+source-wordcount: '96'
+ht-degree: 63%
 
 ---
 

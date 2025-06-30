@@ -1,18 +1,19 @@
 ---
-title: 의사 결정을 위해 사용자 정의 업로드 대상 활용
+title: 의사 결정에 사용자 정의 업로드 대상자 활용
 description: 의사 결정을 위해 사용자 지정 업로드 대상자를 활용하는 방법을 알아봅니다.
+badge: label="레거시" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 0%
+source-wordcount: '533'
+ht-degree: 2%
 
 ---
 
-
-# 의사 결정을 위해 사용자 정의 업로드 대상 활용 {#custom-upload-decisioning}
+# 의사 결정에 사용자 정의 업로드 대상자 활용 {#custom-upload-decisioning}
 
 Journey Optimizer을 사용하면 Adobe Experience Platform으로의 사용자 지정 업로드(CSV 파일)를 사용하여 만든 대상의 데이터를 활용하여 의사 결정 관리 워크플로우를 지원할 수 있습니다. 이 기능은 프로필에 데이터가 필요하지 않지만 의사 결정 목적으로 여전히 필수인 경우에 특히 유용합니다.
 
@@ -23,14 +24,13 @@ Journey Optimizer을 사용하면 Adobe Experience Platform으로의 사용자 �
 
 사용자 지정 업로드 대상자에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 * [대상자 및 Journey Optimizer 시작](../audience/about-audiences.md)
-* [Adobe Experience Platform에서 대상 가져오기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Adobe Experience Platform에서 대상 가져오기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 반드시 알아야 할 사항 {#must-read}
 
 * 이 기능은 Decisioning(이전의 &quot;Experience Decisioning&quot;)이 아닌 **의사 결정 관리**&#x200B;에서만 지원됩니다.
-* **Decisioning API(허브)** 요청을 통해서만 사용할 수 있으며 **Edge Decisioning API** 또는 **batch decisioning**&#x200B;에서 지원하지 않습니다.
+* **Decisioning API(허브)** 요청을 통해서만 사용할 수 있으며 **Edge Decisioning API** 또는 **batch decisioning**에서 지원하지 않습니다.
  
-
 ## 사용자 정의 업로드 대상자를 자격 기준으로 사용 {#eligibilty}
 
 사용자 지정 업로드 대상을 오퍼 또는 의사 결정 수준 모두에서 자격 기준으로 사용할 수 있습니다. 이 기준을 추가하면 해당 기준에서 오퍼 또는 오퍼 컬렉션을 적격성에서 제외할 수 있습니다. 다음은 사용자 지정 업로드 대상을 활용하여 오퍼 및 결정 자격을 세분화할 수 있는 다양한 위치입니다.

@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: 개인화된 최적화 모델
 description: 개인화된 최적화 모델에 대해 자세히 알아보기
+badge: label="레거시" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 9188b144d1f98f57c585c3828420b9cd48d1d90a
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 1%
+source-wordcount: '807'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 1%
 
 ## 개요 {#overview}
 
-개인화된 최적화는 지도 머신 러닝 및 딥 러닝에서 최신 기술을 활용함으로써 비즈니스 사용자(마케터)는 비즈니스 목표를 정의하고 고객 데이터를 활용하여 비즈니스 지향 모델을 교육하여 개인화된 오퍼를 제공하고 KPI를 극대화할 수 있습니다.
+최첨단 관리 머신 러닝 및 딥 러닝 기술을 활용하여, 개인화된 최적화는 비즈니스 사용자(마케터)가 비즈니스 목표를 정의하고, 고객 데이터를 활용하여 비즈니스 지향적인 모델을 훈련시켜 맞춤형 오퍼를 제공하고 KPI를 극대화할 수 있도록 합니다.
 
 ![](../../rn/assets/do-not-localize/ai-ranking.gif)
 
@@ -39,9 +40,9 @@ ht-degree: 1%
 
 | 기능 유형 | 모델에 기능을 추가하는 방법 |
 |--------------|----------------------------|
-| 의사 결정 개체(placementID, activityID, decisionScopeID) | AEP로 전송된 의사 결정 관리 피드백 경험 이벤트의 일부 |
+| 의사 결정 개체(placementID, activityID, decisionScopeID) | AEP에 전송된 의사 결정 관리 피드백 경험 이벤트의 일부 |
 | 대상자 | 순위 AI 모델을 만들 때 0~50개의 대상을 기능으로 추가할 수 있습니다 |
-| 컨텍스트 데이터 | AEP로 전송된 의사 결정 피드백 경험 이벤트의 일부입니다. 스키마에 추가할 수 있는 컨텍스트 데이터: Commerce 세부 정보, 채널 세부 정보, 애플리케이션 세부 정보, 웹 세부 정보, 환경 세부 정보, 장치 세부 정보, placeContext |
+| 컨텍스트 데이터 | AEP에 전송된 의사 결정 피드백 경험 이벤트의 일부입니다. 스키마에 추가할 수 있는 컨텍스트 데이터: Commerce 세부 정보, 채널 세부 정보, 애플리케이션 세부 정보, 웹 세부 정보, 환경 세부 정보, 장치 세부 정보, placeContext |
 
 이 모델에는 다음 두 가지 단계가 있습니다.
 

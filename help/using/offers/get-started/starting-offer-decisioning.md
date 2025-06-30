@@ -1,19 +1,24 @@
 ---
 title: 의사 결정 관리 시작
 description: Adobe Journey Optimizer를 통해 고객에게 적합한 오퍼를 적시에 보낼 수 있는 방법 알아보기
+badge: label="레거시" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '896'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '911'
+ht-degree: 93%
 
 ---
 
 # 의사 결정 관리 시작 {#about-decision-management}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 의사 결정 기능을 이제 코드 기반 경험 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer]을(를) 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 오퍼 및 경험을 제공하십시오. 디자인한 후에는 개인화된 오퍼를 통해 대상자를 타기팅하십시오.
 
@@ -32,11 +37,11 @@ ht-degree: 100%
 * 워크플로 개선: 마케팅 팀은 게재 또는 캠페인을 여러 개 만드는 대신 하나의 게재를 만들어 워크플로를 개선하고 템플릿의 여러 부분에서 오퍼에 변화를 줄 수 있습니다,
 * 캠페인 및 고객 측면에 표시될 오퍼 횟수를 제어합니다.
 
-➡️ [이 비디오에서 의사 결정 관리에 대해 자세히 알아보십시오.](#video)
+➡️ [이 비디오에서 의사 결정 관리에 대해 자세히 알아보세요](#video)
 
 >[!NOTE]
 >
->[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target="_blank"} 사용자가 **Offer Decisioning** 애플리케이션 서비스를 활용하면 이 섹션에서 설명하는 [의사 결정 관리] 기능을 모두 사용할 수 있습니다.
+>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target="_blank"} 사용자가 **Offer Decisioning** 응용 프로그램을 사용하는 경우 이 섹션에서 설명하는 [의사 결정 관리] 기능도 모두 적용됩니다.
 
 ## 오퍼 및 의사 결정 정보 {#about-offers-and-decisions}
 
@@ -68,7 +73,7 @@ ht-degree: 100%
 
 ## 의사 결정 관리 액세스 권한 부여 {#granting-acess-to-decision-management}
 
-결정 기능 액세스 및 사용 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target="_blank"}을 통해 관리할 수 있습니다.
+액세스 및 사용 결정 기능에 대한 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target="_blank"}을 통해 관리됩니다.
 
 의사 결정 관리 기능에 대한 액세스 권한을 부여하려면 **[!UICONTROL 제품 프로필]**&#x200B;을 만들고 사용자에게 해당 권한을 할당해야 합니다. [!DNL Journey Optimizer]의 사용자 및 권한 관리에 대한 자세한 정보는 [이 섹션](../../administration/permissions.md)을 참조하십시오.
 
@@ -110,12 +115,12 @@ ht-degree: 100%
 
 아래 비디오에서는 의사 결정 관리의 주요 기능, 아키텍처 및 사용 사례에 대한 소개를 제공합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/340417?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### 오퍼 정의 및 관리 {#use-offer-decisioning}
 
 아래 비디오에서는 의사 결정 관리를 사용하여 오퍼를 정의 및 관리하고 실시간 고객 데이터를 활용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/340354?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

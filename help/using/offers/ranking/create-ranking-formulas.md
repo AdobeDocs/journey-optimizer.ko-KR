@@ -1,20 +1,21 @@
 ---
-title: 등급 공식
+title: 순위 공식
 description: 오퍼의 등급을 매기기 위해 수식을 만드는 방법을 알아봅니다
+badge: label="레거시" type="Informative"
 feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 2%
+source-wordcount: '596'
+ht-degree: 3%
 
 ---
 
-# 등급 공식 {#create-ranking-formulas}
+# 순위 공식 {#create-ranking-formulas}
 
 ## 등급 수식 기본 정보 {#about-ranking-formulas}
 
@@ -24,7 +25,7 @@ ht-degree: 2%
 
 등급 공식이 생성되면 의사 결정의 배치에 지정할 수 있습니다. 자세한 내용은 [결정의 오퍼 선택 구성](../offer-activities/configure-offer-selection.md)을 참조하십시오.
 
-## 등급 수식 만들기 {#create-ranking-formula}
+## 순위 공식 만들기 {#create-ranking-formula}
 
 순위 공식을 만들려면 아래 단계를 수행합니다.
 

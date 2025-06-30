@@ -1,19 +1,20 @@
 ---
-title: 의사 결정에서 오퍼 선택 구성
+title: 결정에서 오퍼 선택 구성
 description: 의사 결정에 대한 오퍼 선택을 관리하는 방법 알아보기
+badge: label="레거시" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '448'
 ht-degree: 6%
 
 ---
 
-# 의사 결정에서 오퍼 선택 구성 {#offers-selection-in-decisions}
+# 결정에서 오퍼 선택 구성 {#offers-selection-in-decisions}
 
 여러 오퍼가 주어진 배치에 적합한 경우 의사 결정을 구성할 때 각 프로필에 가장 적합한 오퍼를 선택하는 방법을 선택할 수 있습니다. 오퍼의 순위를 지정할 수 있는 기준:
 * 오퍼 우선 순위
@@ -60,7 +61,7 @@ Journey Optimizer에서는 오퍼 우선 순위 외에도 **등급 수식**&#x20
 
 ## AI 등급 {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
 AI 모델을 선택하여 주어진 프로필에 대해 표시할 오퍼에 자동으로 등급을 지정하는 교육된 모델 시스템을 사용할 수도 있습니다. [이 섹션](../ranking/create-ranking-strategies.md)에서 AI 모델을 만드는 방법을 알아봅니다.
 

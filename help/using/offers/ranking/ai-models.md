@@ -3,13 +3,14 @@ product: experience platform
 solution: Experience Platform
 title: AI 모델 시작
 description: 오퍼의 등급을 매길 수 있는 AI 모델에 대해 알아봅니다
+badge: label="레거시" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 9d84c3d85440fba42918ab98d836f9124b397dad
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '372'
 ht-degree: 14%
 
 ---

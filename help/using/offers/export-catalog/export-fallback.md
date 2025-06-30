@@ -1,14 +1,15 @@
 ---
 title: 대체 오퍼 데이터 세트
 description: 이 섹션에는 대체 오퍼에 대해 내보낸 데이터 세트에 사용된 모든 필드가 나열됩니다
+badge: label="레거시" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -94,7 +95,7 @@ ht-degree: 0%
 
      **필드:** 형식
      **제목:** 형식
-     **설명:** 리소스의 실제 또는 디지털 표시입니다. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 포맷을 사용하여 리소스를 표시하거나 운영하는 데 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정할 수 있습니다. 권장 모범 사례는 통제 어휘(예: 컴퓨터 미디어 형식을 정의하는 [인터넷 미디어 유형](https://www.iana.org/ assignments/media-types/) 목록)에서 값을 선택하는 것입니다.
+     **설명:** 리소스의 실제 또는 디지털 표시입니다. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 포맷을 사용하여 리소스를 표시하거나 운영하는 데 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정할 수 있습니다. 권장 모범 사례는 통제 어휘(예: 컴퓨터 미디어 형식을 정의하는 [인터넷 미디어 유형]&#x200B;(https://www.iana.org/ assignments/media-types/) 목록)에서 값을 선택하는 것입니다.
      **유형:** 문자열
      **예:** &quot;application/vnd.adobe.photoshop&quot;
 

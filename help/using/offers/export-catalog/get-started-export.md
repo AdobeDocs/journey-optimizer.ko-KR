@@ -1,15 +1,16 @@
 ---
 title: 오퍼 카탈로그 내보내기 시작
 description: 오퍼 카탈로그를 데이터 세트로 내보내는 방법 알아보기
+badge: label="레거시" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
-workflow-type: ht
-source-wordcount: '114'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 99%
 
 ---
 

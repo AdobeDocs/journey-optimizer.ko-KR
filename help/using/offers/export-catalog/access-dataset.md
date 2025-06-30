@@ -1,14 +1,15 @@
 ---
 title: 내보낸 오퍼 카탈로그에 액세스하기
 description: Adobe Experience Platform을 내보낸 후 오퍼 카탈로그에 액세스하는 방법에 대해 알아봅니다
+badge: label="레거시" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '87'
 ht-degree: 11%
 
 ---

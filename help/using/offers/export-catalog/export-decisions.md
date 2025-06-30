@@ -1,14 +1,15 @@
 ---
 title: 의사 결정 데이터 세트
 description: 이 섹션에는 의사 결정을 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다
+badge: label="레거시" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---

@@ -3,13 +3,14 @@ product: experience platform
 solution: Experience Platform
 title: 자동 최적화 모델
 description: 자동 최적화 모델에 대해 자세히 알아보기
+badge: label="레거시" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---

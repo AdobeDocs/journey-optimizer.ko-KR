@@ -1,14 +1,15 @@
 ---
 title: 개인화된 오퍼 데이터 세트
 description: 이 섹션에는 오퍼를 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다
+badge: label="레거시" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -122,7 +123,6 @@ ht-degree: 0%
      **예:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **언어**
-
      **필드:** 언어
      **제목:** 언어
      **설명:** 리소스의 언어입니다. \n언어는 XDM의 다른 곳에서 사용되는 BCP 47의 일부인 [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)에 정의된 대로 언어 코드에 지정됩니다.

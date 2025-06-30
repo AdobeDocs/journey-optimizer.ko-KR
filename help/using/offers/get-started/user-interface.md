@@ -1,14 +1,15 @@
 ---
 title: 오퍼 라이브러리 사용자 인터페이스
 description: 오퍼 라이브러리 사용자 인터페이스에 대해 자세히 알아보기
+badge: label="레거시" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 33%
 
 ---

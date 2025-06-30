@@ -1,12 +1,13 @@
 ---
 title: 개인화된 오퍼 만들기
 description: 오퍼를 만들고 구성하고 관리하는 방법을 알아봅니다
+badge: label="레거시" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 18%
@@ -171,4 +172,4 @@ ht-degree: 18%
 
 ## 튜토리얼 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341358?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
