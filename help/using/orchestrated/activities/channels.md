@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
+source-git-commit: d8128190a51cac665c9f25b5077185a496ad7849
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '896'
 ht-degree: 21%
 
 ---
@@ -83,7 +83,7 @@ UNUSED IDs in BJ
 
 오케스트레이션된 캠페인의 컨텍스트에서 게재를 설정하려면 아래 단계를 따르십시오.
 
-1. 채널 활동 추가: **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]**, **[!UICONTROL 푸시 알림(iOS)]** 또는 **[!UICONTROL 다이렉트 메일]**.
+1. 채널 활동을 추가합니다. 지원되는 채널은 **[!UICONTROL 이메일]**, **[!UICONTROL SMS]** 또는 **[!UICONTROL 푸시 알림]**&#x200B;입니다.
 
 1. **게재 유형**(단일 또는 반복)을 선택하십시오.
 
