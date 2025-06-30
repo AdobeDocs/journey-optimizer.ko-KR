@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 62f16b6f582e6bf5620b75df4a75d4c15441ca4a
+source-git-commit: 3f4652445bb52850d7480e844c77a4b67dc4db10
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 24%
+source-wordcount: '370'
+ht-degree: 27%
 
 ---
 
@@ -20,13 +20,6 @@ ht-degree: 24%
 >id="ajo_orchestration_build_audience"
 >title="대상자 빌드 활동"
 >abstract="**대상자 빌드** 활동을 통해 오케스트레이션된 캠페인에 참여할 대상자를 정의할 수 있습니다. 오케스트레이션된 캠페인의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 빌드** 활동에 정의됩니다."
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_read_audience"
->title="대상자 빌드 활동"
->abstract="**대상자 읽기** 활동을 사용하면 오케스트레이션된 캠페인을 시작할 기존 대상자를 선택할 수 있습니다. 오케스트레이션된 캠페인의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 읽기** 또는 **대상자 빌드** 활동에 정의됩니다."
-
 
 +++ 목차
 
