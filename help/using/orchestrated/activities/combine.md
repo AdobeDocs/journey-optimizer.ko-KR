@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: cb335fd5610d70d801ae1c32dfe4d3ca9d1160ab
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 78%
+source-wordcount: '1103'
+ht-degree: 69%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 78%
 
 <br/>
 
-**[!UICONTROL 결합]** 활동은 **[!UICONTROL 타깃팅]** 활동입니다. 이 활동을 통해 인바운드 모집단에 대한 세분화를 수행할 수 있습니다. 따라서 여러 모집단을 결합하거나, 일부를 제외하거나, 데이터를 여러 대상에 공통으로 유지할 수 있습니다. 사용 가능한 세분화 유형은 다음과 같습니다.
+**[!UICONTROL Combine]** 활동은 인바운드 모집단을 효과적으로 세그먼트화할 수 있는 **[!UICONTROL Targeting]** 활동 유형입니다. 여러 모집단을 병합하거나, 특정 세그먼트를 제외하거나, 여러 대상에 걸쳐 공유된 데이터만 유지할 수 있습니다.
 
-<!--
-The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
--->
+다음과 같은 세분화 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL 합집합]** 기능을 사용하면 여러 활동의 결과를 하나의 타깃으로 다시 그룹화할 수 있습니다.
-* **[!UICONTROL 교집합]** 기능을 사용하면 활동에서 다른 인바운드 집단에 공통되는 요소만 유지할 수 있습니다.
-* **[!UICONTROL 제외]** 기능을 사용하면 특정 기준에 따라 하나의 모집단에서 요소를 제외할 수 있습니다.
+* **[!UICONTROL 유니온]**: 여러 활동의 결과를 하나의 통합 대상으로 병합합니다.
+
+* **[!UICONTROL 교차]**: 모든 인바운드 모집단에서 공통되는 요소만 유지합니다.
+
+* **[!UICONTROL 제외]**: 지정한 조건을 기준으로 한 모집단에서 요소를 제거합니다.
 
 ## 결합 활동 구성 {#combine-configuration}
 
@@ -62,7 +62,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 **[!UICONTROL 결합]** 활동 구성을 시작하려면 다음과 같은 일반적인 단계를 따르십시오.
 
-![](../assets/workflow-combine.png)
+![](../assets/orchestrated-combine.png)
 
 1. **[!UICONTROL 대상자 빌드]** 활동과 같은 여러 활동을 추가하여 두 개 이상의 서로 다른 실행 분기를 구성합니다.
 1. 이전 분기에 **[!UICONTROL 결합]** 활동을 추가합니다.
@@ -82,6 +82,10 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **[!UICONTROL 키 전용]**: 기본 모드입니다. 다른 인바운드 전환의 요소가 동일한 키를 가지면 활동은 하나의 요소만 유지합니다. 이 옵션은 인바운드 모집단이 동질적일 경우에만 사용할 수 있습니다.
 * **[!UICONTROL 열 선택]**: 데이터 조정을 적용할 열 목록을 정의하려면 이 옵션을 선택하십시오. 기본 세트(소스 데이터가 있는 세트)를 먼저 선택한 다음 결합에 사용할 열을 선택해야 합니다.
 
+다음 예제에서는 **[!UICONTROL Combine]** 활동을 사용하고 **[!UICONTROL Union]**&#x200B;을(를) 추가하여 두 쿼리의 모든 프로필을 검색합니다. 충성도 멤버 및 구매자는 더 큰 대상을 형성합니다.
+
+![](../assets/orchestrated-union-example.png)
+
 ## 교집합 {#combine-intersection}
 
 >[!CONTEXTUALHELP]
@@ -93,6 +97,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 1. 중복 처리 방법을 정의하려면 **[!UICONTROL 조정 유형]**&#x200B;을 선택합니다. [합집합](#union) 섹션을 참조하십시오.
 1. 나머지 모집단을 처리하려면 **[!UICONTROL 완료 생성]** 옵션을 선택할 수 있습니다. 여집합에는 교차를 제외한 모든 인바운드 활동 결과의 합집합이 포함됩니다. 그런 다음 추가 아웃바운드 전환이 활동에 추가됩니다.
+
+다음 예제에서는 두 쿼리 활동 간의 **[!UICONTROL 교차]**&#x200B;를 보여 줍니다. 여기서 충성도 멤버십을 가지고 있고 마지막 구매가 1개월 미만인 프로필을 검색하는 데 사용됩니다.
+
+![](../assets/orchestrated-intersection-example.png)
+
 
 ## 제외 {#combine-exclusion}
 
@@ -122,16 +131,9 @@ The **Combine** activity can be placed after any other activity, but not at the 
 1. 필요한 경우 인바운드 테이블을 조작할 수 있습니다. 다른 차원에서 대상을 제외하려면 이 대상을 기본 대상과 동일한 타기팅 차원으로 반환해야 합니다. 이 작업을 수행하려면 **[!UICONTROL 제외 규칙]** 섹션에서 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭하고 차원 변경 조건을 지정합니다. 데이터 조정은 속성 또는 참여를 통해 수행됩니다.
 1. 나머지 모집단을 처리하려면 **[!UICONTROL 완료 생성]** 옵션을 선택할 수 있습니다. [교차](#intersection) 섹션을 참조하십시오.
 
-## 예시{#combine-examples}
+다음 **[!UICONTROL 제외]** 예제에서는 제품을 구매한 프로필을 필터링하도록 구성된 두 개의 쿼리를 보여 줍니다. 그러면 충성도 멤버십이 없는 프로필은 첫 번째 세트에서 제외됩니다.
 
-다음 예제에서는 **[!UICONTROL Combine]** 활동을 사용하고 **[!UICONTROL Union]**&#x200B;을(를) 추가하여 두 쿼리의 모든 프로필을 검색합니다. 18~27세 사용자 및 34~40세 사용자.
+이유: 충성도 캠페인을 실행 중이므로 비회원은 관련이 없습니다.
 
-![](../assets/workflow-union-example.png)
+![](../assets/orchestrated-exclusion-example.png)
 
-다음 예제에서는 두 쿼리 활동 간의 **[!UICONTROL 교차]**&#x200B;를 보여 줍니다. 여기에서 18세에서 27세 사이의 프로필과 이메일 주소가 제공된 프로필을 검색하는 데 사용됩니다.
-
-![](../assets/workflow-intersection-example.png)
-
-다음 **[!UICONTROL 제외]** 예제는 18세에서 27세 사이의 프로필로 필터링하도록 구성된 두 개의 쿼리와 Adobe 이메일 도메인을 보여 줍니다. Adobe 이메일 도메인이 있는 프로필은 첫 번째 집합에서 제외됩니다.
-
-![](../assets/workflow-exclusion-example.png)
