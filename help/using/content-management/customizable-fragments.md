@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 0%
+source-wordcount: '1478'
+ht-degree: 1%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 1. 조각을 이메일에 추가하면 사용자는 조각에 구성된 편집 가능한 모든 필드를 사용자 지정할 수 있습니다. [시각적 조각에서 편집 가능한 필드를 사용자 지정하는 방법에 대해 알아봅니다.](../email/use-visual-fragments.md#customize-fields)
 
-## HTML 구성 요소 및 표현식 조각에서 편집 가능한 필드 추가 {#expression}
+## HTML 구성 요소 및 표현식 조각에 편집 가능한 필드 추가 {#expression}
 
 HTML 구성 요소 또는 표현식 조각의 일부를 편집할 수 있도록 하려면 표현식 편집기에서 특정 구문을 사용해야 합니다. 여기에는 콘텐츠에 조각을 추가한 후 사용자가 재정의할 수 있는 기본값으로 **변수**&#x200B;을(를) 선언하는 작업이 포함됩니다.
 
@@ -70,8 +70,8 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
 아래 요소는 HTML 구성 요소에서 편집 가능한 필드가 될 수 있습니다.
 
 * 텍스트 일부
-* 링크 또는 이미지에 대한 전체 URL(URL의 일부와 함께 사용할 수 없음)
-* 전체 CSS 속성(부분 속성에서 작동하지 않음)
+* 링크 또는 이미지에 대한 전체 URL(URL의 일부와 작동하지 않음)
+* 전체 CSS 속성(partial 속성과 함께 작동하지 않음)
 
 예를 들어 아래 코드에서 빨간색으로 강조 표시된 각 요소는 속성이 될 수 있습니다.
 
@@ -81,9 +81,11 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
 
 변수를 선언하고 조각에서 사용하려면 다음 단계를 따르십시오.
 
-1. 표현식 조각을 연 다음 개인화 편집기에서 콘텐츠를 편집합니다. HTML 구성 요소의 경우 조각에서 구성 요소를 선택하고 **소스 코드 표시** 단추를 클릭합니다.
+1. 표현식 조각을 연 다음 개인화 편집기에서 콘텐츠를 편집합니다.
 
    ![](assets/fragment-html-edit.png)
+
+   HTML 구성 요소의 경우 조각에서 구성 요소를 선택하고 **소스 코드 표시** 단추를 클릭합니다.
 
 1. 사용자가 편집할 변수를 선언합니다. 왼쪽 탐색 창에서 **도우미 함수** 메뉴로 이동한 다음 **인라인** 도우미 함수를 추가합니다. 변수를 선언하고 호출하는 구문은 콘텐츠에 자동으로 추가됩니다.
 
@@ -135,3 +137,84 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
 1. 콘텐츠에 표현식 조각을 추가할 때 사용자는 표현식 편집기에서 직접 선택하여 변수 값을 변경할 수 있습니다. [식 조각에서 편집 가능한 필드를 사용자 지정하는 방법에 대해 알아봅니다.](../personalization/use-expression-fragments.md#customize-fields)
 
    ![](assets/fragment-expression-use.png)
+
+## 사용자 지정 가능한 조각에 서식 있는 텍스트 추가 {#rich-text}
+
+HTML 구성 요소를 사용하여 편집 가능한 조각에 줄 바꿈, 굵게, 기울임체 등과 같은 리치 텍스트를 추가할 수 있습니다. 그 방법은 다음과 같습니다.
+
+➡️ [이 비디오에서 편집 가능한 조각 내에서 HTML 구성 요소에 서식 있는 텍스트를 추가하고 사용하는 방법을 알아봅니다.](#video)
+
+### 리치 텍스트를 포함하는 조각 만들기 {#add-rich-text}
+
+1. 시각적 조각을 만들고 구성 요소 추가를 시작합니다.
+
+1. [HTML 구성 요소](../email/content-components.md#HTML)를 추가하고 HTML 편집기를 엽니다.
+
+1. 왼쪽 탐색 창에서 **[!UICONTROL 도우미 함수]** 메뉴로 이동한 다음 **인라인** 도우미 함수를 추가합니다.
+
+1. `"name"`을(를) 편집 가능한 콘텐츠에 사용할 ID로 바꾸십시오(예: &quot;EditableContent&quot;).
+
+1. `render_content`을(를) 원하는 기본 콘텐츠에 해당하는 HTML 코드로 바꾸십시오.
+
+   ![](assets/fragment-rich-editable-content.png)
+<!--
+    +++For example:
+
+    ```html
+
+    <h1>Main title</h1>
+
+    <h2>Subtitle One</h2>
+    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
+
+    <p class="bold">This text is bold.</p>
+    <p class="italic">This text is italic.</p>
+    <p class="bold-italic">This text is bold and italic.</p>
+
+    <ul>
+        <li>First bullet point</li>
+        <li>Second bullet point with more text</li>
+        <li>Third bullet point</li>
+    </ul>
+
+    <hr>
+
+    <h2>Subtitle Two</h2>
+    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
+
+    ```
+
+    +++
+-->
+
+1. 동일한 HTML 구성 요소 내에서 스타일 요소에 대한 다른 **inline** 도우미 함수를 추가하십시오.
+
+1. `"name"` 및 `render_content`을(를) 원하는 기본 스타일에 해당하는 ID 및 HTML 코드로 바꾸십시오.
+
+   ![](assets/fragment-rich-editable-styling.png)
+
+1. 콘텐츠를 저장합니다. 선택한 편집 가능한 필드가 오른쪽에 표시됩니다.
+
+   ![](assets/fragment-rich-editable-fields.png)
+
+1. 조각을 게시합니다.
+
+### 리치 텍스트 편집 가능한 조각 사용 {#use-rich-text}
+
+이제 이메일 콘텐츠에 조각을 추가할 때 사용자가 만든 서식 있는 텍스트 콘텐츠와 스타일을 편집할 수 있습니다. 마케터가 리치 텍스트 편집 가능한 조각을 사용하려면 아래 단계를 따르십시오.
+
+1. 캠페인 또는 여정에서 이메일을 만든 다음 만든 조각을 추가합니다.
+
+   오른쪽 창에 만든 편집 가능한 필드 2개를 볼 수 있습니다.
+
+   ![](assets/fragment-use-rich-editable-fields.png)
+
+1. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 편집 가능한 콘텐츠와 스타일이 렌더링되는 방식을 확인할 수 있습니다.
+
+1. 편집 가능한 필드 중 하나 옆에 있는 **[!UICONTROL 개인화 추가]** 아이콘을 선택하고 원하는 대로 CSS 스타일 및/또는 콘텐츠를 편집하십시오.
+
+## 사용 방법 비디오 {#video}
+
+이 비디오는 조각 내에서 HTML 구성 요소를 편집 가능하게 만들어 콘텐츠와 스타일 모두에 대한 동적 업데이트를 허용하는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)

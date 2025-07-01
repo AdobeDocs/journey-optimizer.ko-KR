@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '715'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 조각은 Journey Optimizer 캠페인, 여정 또는 콘텐츠 템플릿 간의 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능을 사용하면 마케팅 사용자가 향상된 디자인 프로세스에서 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다. [조각을 만들고 관리하는 방법을 알아보세요](../content-management/fragments.md).
 
-➡️[이 비디오에서 조각을 관리, 작성 및 사용하는 방법을 알아봅니다](../content-management/fragments.md#video-fragments)
+➡️ [이 비디오에서 조각을 관리, 작성 및 사용하는 방법을 알아봅니다.](../content-management/fragments.md#video-fragments)
 
 ## 조각 사용 {#use-fragment}
 
@@ -85,11 +85,13 @@ ht-degree: 2%
 
 조각에서 편집 가능한 필드를 사용자 정의하려면 다음 단계를 수행합니다.
 
-1. 콘텐츠에 조각을 추가하고 선택하여 오른쪽의 속성 창을 엽니다.
+1. 콘텐츠에 조각을 추가합니다.
 
-1. 조각에서 편집 가능한 모든 필드는 **조각** 섹션 아래의 **설정** 탭에 표시됩니다.
+1. 오른쪽의 속성 창을 열려면 이 옵션을 선택합니다.
 
-   편집 가능한 필드는 오른쪽 창에서 선택하면 미리 보기 창에 녹색으로 강조 표시되어 콘텐츠에서 해당 위치를 쉽게 식별할 수 있습니다.
+   조각에서 편집 가능한 모든 필드는 **조각** 섹션 아래의 **설정** 탭에 표시됩니다.
+
+1. 오른쪽 창에서 편집 가능한 필드를 선택하면 중앙 미리 보기 창에 녹색으로 강조 표시되어 콘텐츠에서 해당 위치를 쉽게 식별할 수 있습니다.
 
    아래 예제에서 **소스** 및 **대체 텍스트** 이미지와 &quot;여기를 클릭하세요&quot; 단추 **URL**&#x200B;을(를) 편집할 수 있습니다.
 
