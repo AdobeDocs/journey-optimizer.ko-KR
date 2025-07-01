@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
+source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 1%
@@ -159,35 +159,6 @@ HTML 구성 요소를 사용하여 편집 가능한 조각에 줄 바꿈, 굵게
 1. `render_content`을(를) 원하는 기본 리치 콘텐츠에 해당하는 HTML 코드로 바꾸십시오. 굵게, 기울임꼴, 줄 바꿈, 글머리 기호 목록 등을 추가할 수 있습니다.
 
    ![](assets/fragment-rich-editable-content.png)
-<!--
-    +++For example:
-
-    ```html
-
-    <h1>Main title</h1>
-
-    <h2>Subtitle One</h2>
-    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
-
-    <p class="bold">This text is bold.</p>
-    <p class="italic">This text is italic.</p>
-    <p class="bold-italic">This text is bold and italic.</p>
-
-    <ul>
-        <li>First bullet point</li>
-        <li>Second bullet point with more text</li>
-        <li>Third bullet point</li>
-    </ul>
-
-    <hr>
-
-    <h2>Subtitle Two</h2>
-    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
-
-    ```
-
-    +++
--->
 
 1. 동일한 HTML 구성 요소 내에서 스타일 요소에 대한 다른 **inline** 도우미 함수를 추가하십시오.
 
@@ -223,4 +194,4 @@ HTML 구성 요소를 사용하여 편집 가능한 조각에 줄 바꿈, 굵게
 
 이 비디오는 조각 내에서 HTML 구성 요소를 편집 가능하게 만들어 콘텐츠와 스타일 모두에 대한 동적 업데이트를 허용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464375/?learn=on&#x26;enablevpops&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
