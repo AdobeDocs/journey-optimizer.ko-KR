@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: e01715416659270ddf75eb9fdb8f0eb03063bd7b
+source-git-commit: d4cee2680dbe631d93f43d7d165d6874b9e41a47
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 10%
@@ -45,8 +45,8 @@ ht-degree: 10%
 
 | 보고서 유형 | 설명 |
 |-----|------------|
-| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | **[!UICONTROL 라이브 보고서]**&#x200B;를 사용하여 내장된 대시보드에서 오케스트레이션된 캠페인의 영향과 성과를 실시간으로 측정하고 시각화할 수 있습니다. 오케스트레이션된 캠페인이 **[!UICONTROL 최근 24시간 보고서 보기]** 메뉴에서 실행되는 즉시 **[!UICONTROL 실시간 보고서]**&#x200B;에서 데이터를 사용할 수 있습니다. 이 섹션[에서 실시간 보고서 ](live-report.md)에 대해 자세히 알아보세요. |
-| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | 조정된 캠페인 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 모두에서 보고를 표준화하고 데이터 일관성과 신뢰성을 향상시킵니다.  이 섹션[에서 모든 시간 보고서 ](report-gs-cja.md)에 대해 자세히 알아보세요. |
+| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | **[!UICONTROL 라이브 보고서]**&#x200B;를 사용하여 내장된 대시보드에서 오케스트레이션된 캠페인의 영향과 성과를 실시간으로 측정하고 시각화할 수 있습니다. 오케스트레이션된 캠페인이 **[!UICONTROL 최근 24시간 보고서 보기]** 메뉴에서 실행되는 즉시 **[!UICONTROL 실시간 보고서]**&#x200B;에서 데이터를 사용할 수 있습니다. 이 섹션[에서 실시간 보고서 ](../reports/live-report.md)에 대해 자세히 알아보세요. |
+| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | 조정된 캠페인 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 모두에서 보고를 표준화하고 데이터 일관성과 신뢰성을 향상시킵니다.  이 섹션[에서 모든 시간 보고서 ](../reports/report-gs-cja.md)에 대해 자세히 알아보세요. |
 
 
 
