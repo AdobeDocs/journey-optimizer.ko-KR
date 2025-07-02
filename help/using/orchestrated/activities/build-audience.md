@@ -10,7 +10,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 27%
+ht-degree: 34%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="대상자 빌드 활동"
->abstract="**대상자 빌드** 활동을 통해 오케스트레이션된 캠페인에 참여할 대상자를 정의할 수 있습니다. 오케스트레이션된 캠페인의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 빌드** 활동에 정의됩니다."
+>abstract="**대상자 빌드** 활동을 통해 오케스트레이션된 캠페인에 참여할 대상자를 정의할 수 있습니다. 오케스트레이션된 캠페인 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다."
 
 +++ 목차
 

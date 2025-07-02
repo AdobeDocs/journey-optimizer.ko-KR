@@ -10,7 +10,7 @@ exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 10%
+ht-degree: 50%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
 >title="대상자 빌드 활동"
->abstract="**대상자 읽기** 활동을 통해 오케스트레이션된 캠페인을 시작할 대상자를 선택할 수 있습니다. 이 대상은 기존 Adobe Experience Platform 대상이거나 CSV 파일에서 가져온 대상일 수 있습니다. 오케스트레이션된 캠페인의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 읽기** 또는 **대상자 빌드** 활동에 정의됩니다."
+>abstract="**대상자 읽기** 활동을 통해 오케스트레이션된 캠페인에 참여할 대상자를 선택할 수 있습니다. 이 대상자는 기존 Adobe Experience Platform 대상자이거나 CSV 파일에서 가져온 대상자일 수 있습니다. 오케스트레이션된 캠페인 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 읽기** 또는 **대상자 빌드** 활동에서 정의됩니다."
 
 
 +++ 목차

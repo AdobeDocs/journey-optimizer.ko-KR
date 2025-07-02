@@ -12,7 +12,7 @@ exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 21%
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform 데이터 소스"
->abstract="Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필에 대한 연결을 정의합니다. 이 기본 제공 데이터 소스는 미리 구성되어 삭제할 수 없습니다. 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정에 입력한 사람이 여성인지 확인)."
+>abstract="Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필에 대한 연결을 정의합니다. 이 기본 제공 데이터 소스는 미리 구성되어 삭제할 수 없습니다. 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 디자인되었습니다(예: 여정에 진입한 개인이 여성인지 확인)."
 
 Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필에 대한 연결을 정의합니다. 이 기본 제공 데이터 소스는 미리 구성되어 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정에 입력한 사람이 여성인지 확인). Adobe 실시간 고객 프로필에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}를 참조하세요.
 
