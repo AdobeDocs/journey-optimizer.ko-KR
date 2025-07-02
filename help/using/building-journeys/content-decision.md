@@ -7,11 +7,13 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
+badge: label="제한된 가용성" type="Informative"
 keywords: 활동, 의사 결정, 컨텐츠 결정, 의사 결정 정책, 캔버스, 여정
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
+source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 1%
+source-wordcount: '1030'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +21,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역으로 롤아웃될 예정입니다.
+>이 기능은 일부 조직에서만 사용할 수 있으며(제한된 가용성) 향후 릴리스에서 전체 사용자를 대상으로 공개될 예정입니다.
 
 [!DNL Journey Optimizer]을(를) 사용하면 여정 캔버스에서 전용 **콘텐츠 결정** 활동을 통해 여정에 오퍼를 포함할 수 있습니다. 그런 다음 여정에 다른 활동(예: [사용자 지정 작업](../action/about-custom-action-configuration.md))을 추가하여 이러한 개인화된 오퍼로 대상을 타깃팅할 수 있습니다.
 
@@ -139,7 +141,7 @@ ht-degree: 1%
    >
    >콘텐츠 결정 노드의 출력은 **[!UICONTROL 고급 모드]**&#x200B;에서만 사용할 수 있습니다.
 
-1. `items` 배열을 사용하여 [오퍼 카탈로그 스키마](../experience-decisioning/catalogs.md#access-catalog-schema)를 찾아봅니다. 예를 들어 검색된 첫 번째 오퍼의 `itemName`과(와) 검색된 두 번째 오퍼의 `itemName`을(를) 사용합니다.
+1. [ 배열을 사용하여 ](../experience-decisioning/catalogs.md#access-catalog-schema)오퍼 카탈로그 스키마`items`를 찾아봅니다. 예를 들어 검색된 첫 번째 오퍼의 `itemName`과(와) 검색된 두 번째 오퍼의 `itemName`을(를) 사용합니다.
 
    ![결정 정책을 포함하는 사용자 지정 작업의 요청 매개 변수](assets/journey-content-decision-custom-action-param-ex.png)
 
