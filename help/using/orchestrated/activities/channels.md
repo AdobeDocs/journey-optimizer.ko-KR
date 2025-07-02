@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 1a4cd7df44cb54aaf4d18409574f5ceb9537935c
+source-git-commit: 85d322e5855c6e658a3a93dc0f3d644ef79437b5
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 16%
+source-wordcount: '985'
+ht-degree: 17%
 
 ---
 
@@ -99,29 +99,13 @@ UNUSED IDs in BJ
 
    [시스템 관리자](../../start/path/administrator.md)에 의해 구성이 정의되었습니다. 여기에는 헤더 매개변수, 하위 도메인, 모바일 앱 등 메시지 전송을 위한 모든 기술적 매개변수가 포함되어 있습니다. [채널 구성을 설정하는 방법을 알아보세요](../../configuration/channel-surfaces.md).
 
-1. 채널에 따라 몇 가지 옵션을 사용할 수 있습니다. 자세한 내용은 아래 탭을 참조하십시오.
-
-   >[!BEGINTABS]
-
-   >[!TAB 이메일]
-
-   **[!UICONTROL 이메일 열기 추적]** 및 **[!UICONTROL 이메일의 링크 및 버튼 클릭 추적]** 옵션을 사용하여 수신자가 게재에 어떻게 반응하는지를 추적합니다.
+1. 이메일 및 SMS의 경우, 추적 옵션을 사용하여 수신자가 이메일 또는 SMS 게재에 어떻게 반응하는지 모니터링합니다.
 
    캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../reports/campaign-global-report-cja.md)
 
-   >[!TAB SMS]
+1. 푸시 알림의 경우 **[!UICONTROL 빠른 전송 모드]** 옵션을 사용하여 푸시 채널에서 30M 미만의 대상자에게 고속 메시지 전송을 수행합니다.
 
-   **[!UICONTROL SMS의 링크 클릭 추적]** 옵션을 사용하여 SMS의 링크 클릭을 추적합니다.
-
-   캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../reports/campaign-global-report-cja.md)
-
-   >[!TAB 푸시]
-
-   빠른 전송 모드는 매우 빠른 푸시 메시지를 대량으로 전송할 수 있는 **[!DNL Journey Optimizer]** 추가 기능입니다.
-
-   푸시 채널에서 30M 미만의 대상자에게 고속 메시지 전송을 수행하려면 **[!UICONTROL 빠른 전송 모드]** 옵션을 활성화하십시오. [자세히 알아보기](../push/create-push.md#rapid-delivery)
-
-   >[!ENDTABS]
+   빠른 전송 모드는 매우 빠른 푸시 메시지를 대량으로 전송할 수 있는 **[!DNL Journey Optimizer]** 추가 기능입니다. [자세히 알아보기](../push/create-push.md#rapid-delivery)
 
 1. **[!UICONTROL 콘텐츠 실험]** 섹션에서 대상 대상자에게 가장 적합한 성과를 측정하기 위해 여러 게재 처리를 정의할 수 있습니다.
 
