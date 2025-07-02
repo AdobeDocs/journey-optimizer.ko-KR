@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: d8128190a51cac665c9f25b5077185a496ad7849
+source-git-commit: 1a4cd7df44cb54aaf4d18409574f5ceb9537935c
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 21%
+source-wordcount: '1040'
+ht-degree: 16%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 21%
 
 | 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
-| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](../configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](../gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[오케스트레이션된 캠페인으로 메시지 보내기](../send-messages.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [쿼리 Modeler 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[및 가입](and-join.md) - [대상 작성](build-audience.md) - [차원 변경](change-dimension.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [데이터 보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [분할](split.md) - [대기](wait.md) |
+| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>[구성 단계](../configuration-steps.md)<br/><br/>[오케스트레이션된 캠페인 만들기에 대한 주요 단계](../gs-campaign-creation.md) | [오케스트레이션된 캠페인 만들기](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [쿼리 Modeler 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[및 가입](and-join.md) - [대상 작성](build-audience.md) - [차원 변경](change-dimension.md) - **[채널 활동](channels.md)** - [결합](combine.md) - [중복 제거](deduplication.md) - [데이터 보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [분할](split.md) - [대기](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -28,19 +28,19 @@ ht-degree: 21%
 
 <br/>
 
-Adobe Journey Optimizer을 사용하면 인바운드 및 아웃바운드 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터를 기반으로 작업을 트리거할 수 있는 크로스 채널 오케스트레이션된 캠페인을 만들 수 있습니다. 지원되는 채널은 [이 페이지](../../channels/gs-channels.md)에 나열됩니다.
+[!DNL Adobe Journey Optimizer]을(를) 사용하면 채널 전체에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터를 기반으로 작업을 트리거할 수 있는 크로스 채널 오케스트레이션된 캠페인을 만들 수 있습니다.
 
-예를 들어 이메일, SMS, 푸시 및 DM과 같은 다양한 채널에 걸친 일련의 메시지를 포함하는 환영 이메일 캠페인을 만들 수 있습니다. 고객이 구매를 완료하면 후속 이메일을 보내거나, SMS를 통해 고객에게 맞춤형 생일 메시지를 보낼 수도 있습니다.
+예를 들어 이메일, SMS 및 푸시 등 여러 채널에서 일련의 메시지를 포함하는 시작 이메일 캠페인을 만들 수 있습니다. 고객이 구매를 완료하면 후속 이메일을 보내거나, SMS를 통해 고객에게 맞춤형 생일 메시지를 보낼 수도 있습니다.
 
-채널 활동을 사용하여 여러 터치포인트에서 고객을 참여시키고 전환을 유도하는 포괄적인 맞춤형 캠페인을 만들 수 있습니다.
+채널 활동을 사용하면 여러 접점에서 고객을 참여시키고 전환을 유도하는 종합적이고 개인화된 캠페인을 만들 수 있습니다. 지원되는 채널은 이메일, SMS 및 푸시입니다.
 
 ## 전제 조건 {#channel-activity-prereq}
 
 관련 활동을 통해 오케스트레이션된 캠페인 구축을 시작합니다.
 
-* 채널 활동을 삽입하기 전에 대상자를 정의해야 합니다. 대상자는 게재의 주요 타겟인 메시지를 받는 프로필입니다.
+* 채널 활동을 삽입하기 전에 대상자를 정의해야 합니다. 대상자는 게재의 주요 타겟인 메시지를 받는 프로필입니다. [대상자 작성 활동을 사용하는 방법을 알아봅니다](build-audience.md)
 
-* 반복 게재를 보내려면 **[!UICONTROL 스케줄러]** 활동으로 오케스트레이션된 캠페인을 시작하십시오. 일회성 단일 게재에 대해 **[!UICONTROL 스케줄러]** 활동을 사용하여 해당 게재에 대한 연락 날짜를 설정할 수도 있습니다. 연락 날짜는 게재 설정에서 설정할 수도 있습니다.
+* 반복 게재를 보내려면 **[!UICONTROL 스케줄러]** 활동으로 오케스트레이션된 캠페인을 시작하십시오. 일회성 단일 게재에 대해 **[!UICONTROL 스케줄러]** 활동을 사용하여 해당 게재에 대한 연락 날짜를 설정할 수도 있습니다. 연락 날짜는 게재 설정에서 설정할 수도 있습니다. [오케스트레이션된 캠페인을 예약하는 방법](../create-orchestrated-campaign.md#schedule)
 
 ## 채널 활동 구성 {#create-a-delivery-in-a-workflow}
 
@@ -54,12 +54,10 @@ Adobe Journey Optimizer을 사용하면 인바운드 및 아웃바운드 채널�
 >title="SMS 활동"
 >abstract="SMS 활동을 사용하면 오케스트레이션된 캠페인 내에서 일회성 메시지와 반복 메시지 모두에 대해 SMS를 보낼 수 있습니다. 동일한 오케스트레이션된 캠페인 내에서 계산된 타겟으로 SMS를 전송하는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 다단계 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
 
-
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="푸시 활동"
 >abstract="푸시 활동을 사용하면 오케스트레이션된 캠페인의 일부로 푸시 알림을 전송할 수 있습니다. 이를 통해 일회성 및 반복 오케스트레이션된 캠페인을 모두 게재할 수 있으므로 동일한 오케스트레이션된 캠페인 내의 사전 정의된 타겟으로 푸시 알림 전송을 자동화할 수 있습니다. 채널 활동을 캠페인 캔버스에 결합하여 고객 행동 및 데이터를 기반으로 작업을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
-
 
 <!--
 UNUSED IDs in BJ
@@ -83,34 +81,85 @@ UNUSED IDs in BJ
 
 오케스트레이션된 캠페인의 컨텍스트에서 게재를 설정하려면 아래 단계를 따르십시오.
 
-1. 채널 활동을 추가합니다. 지원되는 채널은 **[!UICONTROL 이메일]**, **[!UICONTROL SMS]** 또는 **[!UICONTROL 푸시 알림]**&#x200B;입니다.
+### 채널 활동 추가 및 속성 정의 {#add}
 
-1. **게재 유형**(단일 또는 반복)을 선택하십시오.
+1. 캔버스에 채널 활동을 추가합니다. 사용 가능한 채널 활동은 **[!UICONTROL 이메일]**, **[!UICONTROL SMS]** 및 **[!UICONTROL 푸시]**&#x200B;입니다.
 
-   * **단일 게재**&#x200B;는 일회성 게재로, 블랙 프라이데이 이메일과 같이 한 번만 전송됩니다.
-   * **반복 게재**&#x200B;는 실행 빈도에 따라 여러 번 전송됩니다. 오케스트레이션된 캠페인이 실행될 때마다 대상자가 다시 계산되고, 업데이트된 콘텐츠와 함께 업데이트된 대상자에게 게재가 전송됩니다. 예를 들어 주간 뉴스레터 또는 반복 생일 이메일일 수 있습니다.
+   사용 가능한 활동이 있는 캔버스를 표시하는 ![이미지](../assets/channel-add.png)
 
-1. 게재 **[!UICONTROL 템플릿]** 구성을 선택합니다. 템플릿은 채널별로 미리 구성된 게재 설정입니다. 기본 제공 템플릿은 각 채널에 대해 사용할 수 있으며 기본적으로 미리 채워져 있습니다.
+1. 추가된 활동을 선택하고 선택한 채널에 따라 **[!UICONTROL 전자 메일 편집]**, **[!UICONTROL SMS 편집]** 또는 **[!UICONTROL 푸시 편집]** 단추를 클릭합니다.
 
-   ![](../assets/delivery-activity-in-wf.png)
+   ![전자 메일 활동이 있는 캔버스를 표시하는 이미지](../assets/channel-edit.png)
 
-   채널 활동 구성 왼쪽 창에서 템플릿을 선택할 수 있습니다. 이전에 선택한 대상자가 채널과 호환되지 않는 경우 템플릿을 선택할 수 없습니다. 이 문제를 해결하려면 **[!UICONTROL 대상자 작성]** 활동을 업데이트하여 올바른 대상 매핑이 있는 대상자를 선택하십시오.
+1. **[!UICONTROL 속성]** 탭에서 캠페인에 대한 설명을 입력합니다.
 
-1. **[!UICONTROL 게재 만들기]**&#x200B;를 클릭합니다. 그런 다음 독립형 게재를 만드는 것과 동일한 방법으로 메시지 설정 및 콘텐츠를 정의할 수 있습니다. 콘텐츠를 테스트하고 시뮬레이션할 수도 있습니다.
+### 채널 구성 및 설정 설정 {#configuration}
 
-1. 오케스트레이션된 캠페인으로 돌아갑니다. 오케스트레이션된 캠페인을 계속하려면 **[!UICONTROL 아웃바운드 전환 생성]** 옵션을 전환하여 채널 활동 뒤에 전환을 추가하십시오.
+1. **[!UICONTROL 작업]** 탭을 선택하고 메시지에 사용할 채널 구성을 선택하십시오.
 
-1. 오케스트레이션된 캠페인을 시작하려면 **[!UICONTROL 시작]**&#x200B;을 클릭하세요.
+   [시스템 관리자](../../start/path/administrator.md)에 의해 구성이 정의되었습니다. 여기에는 헤더 매개변수, 하위 도메인, 모바일 앱 등 메시지 전송을 위한 모든 기술적 매개변수가 포함되어 있습니다. [채널 구성을 설정하는 방법을 알아보세요](../../configuration/channel-surfaces.md).
 
-   기본적으로 오케스트레이션된 캠페인을 시작하면 메시지를 즉시 보내지 않고 메시지 준비 단계가 트리거됩니다.
+1. 채널에 따라 몇 가지 옵션을 사용할 수 있습니다. 자세한 내용은 아래 탭을 참조하십시오.
 
-1. 채널 활동을 열어 **[!UICONTROL 검토 및 보내기]** 단추에서 전송을 확인합니다.
+   >[!BEGINTABS]
 
-1. 게재 대시보드에서 **[!UICONTROL 전송]**&#x200B;을 클릭합니다.
+   >[!TAB 이메일]
 
-## 예시 {#cross-channel-workflow-sample}
+   **[!UICONTROL 이메일 열기 추적]** 및 **[!UICONTROL 이메일의 링크 및 버튼 클릭 추적]** 옵션을 사용하여 수신자가 게재에 어떻게 반응하는지를 추적합니다.
 
-다음은 세그먼테이션과 두 개의 게재가 있는 크로스 채널 오케스트레이션 캠페인 예입니다. 이번 캠페인은 파리에 살면서 커피 자판기에 관심이 있는 모든 고객을 대상으로 한다. 이 모집단 중 일반 고객에게는 이메일이 전송되고 VIP 클라이언트에게는 SMS가 전송됩니다.
+   캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../reports/campaign-global-report-cja.md)
+
+   >[!TAB SMS]
+
+   **[!UICONTROL SMS의 링크 클릭 추적]** 옵션을 사용하여 SMS의 링크 클릭을 추적합니다.
+
+   캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../reports/campaign-global-report-cja.md)
+
+   >[!TAB 푸시]
+
+   빠른 전송 모드는 매우 빠른 푸시 메시지를 대량으로 전송할 수 있는 **[!DNL Journey Optimizer]** 추가 기능입니다.
+
+   푸시 채널에서 30M 미만의 대상자에게 고속 메시지 전송을 수행하려면 **[!UICONTROL 빠른 전송 모드]** 옵션을 활성화하십시오. [자세히 알아보기](../push/create-push.md#rapid-delivery)
+
+   >[!ENDTABS]
+
+1. **[!UICONTROL 콘텐츠 실험]** 섹션에서 대상 대상자에게 가장 적합한 성과를 측정하기 위해 여러 게재 처리를 정의할 수 있습니다.
+
+   이렇게 하려면 **[!UICONTROL 실험 만들기]** 단추를 클릭한 다음 [콘텐츠 실험 실험 기능 만들기](../../content-management/content-experiment.md)에 설명된 단계를 수행합니다.
+
+1. **[!UICONTROL 언어]** 섹션을 사용하면 캠페인 내에서 여러 언어로 콘텐츠를 만들 수 있습니다.
+
+   이렇게 하려면 **[!UICONTROL 언어 추가]** 단추를 클릭하고 원하는 **[!UICONTROL 언어 설정]**&#x200B;을 선택합니다. 다국어 기능 설정 및 사용 방법에 대한 자세한 정보는 이 섹션에서 확인할 수 있습니다. [다국어 콘텐츠 시작](../../content-management/multilingual-gs.md)
+
+### 콘텐츠 정의 {#content}
+
+**[!UICONTROL 콘텐츠]** 탭을 선택하여 메시지의 콘텐츠를 정의합니다. 콘텐츠 만들기 프로세스는 선택한 채널에 따라 다릅니다.
+
+다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../../email/create-email.md"><img alt="이메일" src="../../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../../email/create-email.md"><strong>이메일</strong></a></div></td>
+<td><a href="../sms/../create-sms.md"><img alt="sms" src="../../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../../sms/create-sms.md"><strong>SMS</strong></a></div></td>
+<td><a href="../push/create-push.md"><img alt="푸시" src="../../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../../push/create-push.md"><strong>푸시 알림</strong></a></div></td>
+</tr></table>
+
+콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 테스트 프로필 또는 샘플 입력 데이터로 콘텐츠를 미리 보고 테스트합니다. [자세히 알아보기](../content-management/preview-test.md).
+
+## 다음 단계 {#next}
+
+**[!UICONTROL 뒤로]** 화살표를 사용하여 오케스트레이션된 캠페인으로 다시 이동합니다.
+
+![뒤로 단추를 표시하는 이미지](../assets/channel-back.png)
+
+이제 캔버스에서 활동 오케스트레이션을 완료하고 캠페인을 게시하여 메시지 전송을 시작할 수 있습니다. [오케스트레이션된 캠페인을 시작 및 모니터링하는 방법 알아보기](../start-monitor-campaigns.md)
+
+<!--
+## Examples {#cross-channel-workflow-sample}
+
+Here is a cross-channel orchestrated campaign example with a segmentation and two deliveries. The orchestrated campaign targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
 
 ![](../assets/workflow-channel-example.png)
 
@@ -124,9 +173,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-매월 1일 오후 8시에 파리에 거주하는 모든 고객에게 개인화된 SMS를 전송하는 오케스트레이션된 반복 캠페인을 만들 수도 있습니다.
+<!--You can also create a recurring orchestrated campaign to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
 
-![](../assets/workflow-channel-example2.png)
+![](../assets/workflow-channel-example2.png)-->
 
 <!-- Scheduled emails available?
 
