@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
+source-git-commit: cfb09467809a69516c34d52be3f41e7a1abdb7c3
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 17%
@@ -101,7 +101,7 @@ UNUSED IDs in BJ
 
 1. 이메일 및 SMS의 경우, 추적 옵션을 사용하여 수신자가 이메일 또는 SMS 게재에 어떻게 반응하는지 모니터링합니다.
 
-   캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../reports/campaign-global-report-cja.md)
+   캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../../reports/campaign-global-report-cja.md)
 
 1. 푸시 알림의 경우 **[!UICONTROL 빠른 전송 모드]** 옵션을 사용하여 푸시 채널에서 30M 미만의 대상자에게 고속 메시지 전송을 수행합니다.
 
