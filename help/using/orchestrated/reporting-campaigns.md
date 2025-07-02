@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 1a76d5349de807fe106535424940a8eca3922797
+source-git-commit: 5e4d64c4236898683a1ebb5ab2a19be4fcd15d79
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 10%
+source-wordcount: '262'
+ht-degree: 11%
 
 ---
 
@@ -30,6 +30,34 @@ ht-degree: 10%
 
 오케스트레이션된 캠페인은 강력한 보고 기능을 통해 실행 가능한 통찰력을 제공합니다. 이러한 통찰력을 통해 대상자 행동을 더 잘 이해하고, 고객 여정의 각 단계 성과를 측정하며, 데이터 중심의 결정을 내려 향후 캠페인을 최적화할 수 있습니다. 자세한 지표와 시각화를 통해 참여를 추적하고 타겟팅 전략을 세밀하게 조정하여 영향을 극대화할 수 있습니다.
 
+
+## 보고서 유형 {#reporting-types}
+
+<table style="table-layout:auto; width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr style="text-align: left">
+      <th>보고서 유형</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border: 0;">
+      <td><a href="../reports/live-report.md"><img alt="라이브 보고서" src="assets/last-24hours.png"></a></td>
+      <td>
+        <b>라이브 보고서</b>를 사용하여 내장된 대시보드에서 오케스트레이션된 캠페인의 영향과 성과를 실시간으로 측정하고 시각화할 수 있습니다. 오케스트레이션된 캠페인이 <b>최근 24시간 보고서 보기</b> 메뉴에서 실행되는 즉시 <b>실시간 보고서</b>에서 데이터를 사용할 수 있습니다. 이 섹션<a href="../reports/live-report.md">에서 실시간 보고서 </a>에 대해 자세히 알아보세요.
+      </td>
+    </tr>
+    <tr style="border: 0; background-color: #FFFFFF;">
+      <td><a href="../reports/report-gs-cja.md"><img alt="전체 기간 보고서" src="assets/all-time-report.png"></a></td>
+      <td>
+        조정된 캠페인 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 모두에서 보고를 표준화하고 데이터 일관성과 신뢰성을 향상시킵니다. <a href="../reports/report-gs-cja.md">모든 시간 보고서</a>에 대해 자세히 알아보세요.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## 채널 보고서 살펴보기
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="이메일" src="../channels/assets/do-not-localize/email.png">
 <div align="center"><p><a href="../reports/campaign-global-report-cja-email.md"><strong>이메일 채널</strong></a></p></div></td>
@@ -38,12 +66,3 @@ ht-degree: 10%
 <td><a href="../reports/campaign-global-report-cja-push.md"><img alt="푸시" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><p><a href="../reports/campaign-global-report-cja-push.md"><strong>푸시 채널</strong></p></a></div></td>
 </table>
-
-
-## 보고서 유형 {#reporting-types}
-
-
-| 보고서 유형 | 설명 |
-|-----|------------|
-| ![](assets/last-24hours.png){zoomable="yes"}{width="50%"} | **[!UICONTROL 라이브 보고서]**&#x200B;를 사용하여 내장된 대시보드에서 오케스트레이션된 캠페인의 영향과 성과를 실시간으로 측정하고 시각화할 수 있습니다. 오케스트레이션된 캠페인이 **[!UICONTROL 최근 24시간 보고서 보기]** 메뉴에서 실행되는 즉시 **[!UICONTROL 실시간 보고서]**&#x200B;에서 데이터를 사용할 수 있습니다. 이 섹션[에서 실시간 보고서 ](../reports/live-report.md)에 대해 자세히 알아보세요. |
-| ![](assets/all-time-report.png){zoomable="yes"}{width="50%"} | 조정된 캠페인 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 모두에서 보고를 표준화하고 데이터 일관성과 신뢰성을 향상시킵니다.  이 섹션[에서 모든 시간 보고서 ](../reports/report-gs-cja.md)에 대해 자세히 알아보세요. |
