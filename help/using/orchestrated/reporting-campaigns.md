@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: ef0d0e54e566d168a4845cd1af57900d54aec0b7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '262'
 ht-degree: 11%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 11%
 
 오케스트레이션된 캠페인은 강력한 보고 기능을 통해 실행 가능한 통찰력을 제공합니다. 이러한 통찰력을 통해 대상자 행동을 더 잘 이해하고, 고객 여정의 각 단계 성과를 측정하며, 데이터 중심의 결정을 내려 향후 캠페인을 최적화할 수 있습니다. 자세한 지표와 시각화를 통해 참여를 추적하고 타겟팅 전략을 세밀하게 조정하여 영향을 극대화할 수 있습니다.
 
+![](assets/report-orchestrated.png)
 
 ## 보고서 유형 {#reporting-types}
 
@@ -45,7 +46,7 @@ ht-degree: 11%
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="전체 기간 보고서" src="assets/all-time-report.png"></a></td>
       <td>
-        조정된 캠페인 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 모두에서 보고를 표준화하고 데이터 일관성과 신뢰성을 향상시킵니다. <a href="../reports/report-gs-cja.md">모든 시간 보고서</a>에 대해 자세히 알아보세요.
+        <b>모든 시간 보고서</b>는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. 이 섹션<a href="../reports/report-gs-cja.md">에서 모든 시간 보고서 </a>에 대해 자세히 알아보세요.
       </td>
     </tr>
   </tbody>
