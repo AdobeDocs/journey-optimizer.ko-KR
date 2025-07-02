@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
+source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 23%
@@ -65,6 +65,6 @@ ht-degree: 23%
 
 **[!UICONTROL 위시리스트]** 타겟팅 차원을 사용하여 **[!UICONTROL 대상자 빌드]** 활동으로 시작하여 관련된 모든 위시리스트를 선택하십시오.
 
-다음으로 **[!UICONTROL 차원 변경]** 활동을 삽입하여 타겟팅 차원을 **[!UICONTROL 위시리스트]**&#x200B;에서 **&#x200B;**&#x200B;[!UICONTROL 수신자]**로 전환합니다. 이렇게 하면 오케스트레이션된 캠페인에서 해당 위시리스트와 연결된 프로필에 SMS를 보낼 수 있습니다.
+다음으로 **[!UICONTROL 차원 변경]** 활동을 삽입하여 **[!UICONTROL 위시리스트]**&#x200B;에서 **[!UICONTROL 수신자]**(으)로 타겟팅 차원을 전환합니다. 이렇게 하면 오케스트레이션된 캠페인에서 해당 위시리스트와 연결된 프로필에 SMS를 보낼 수 있습니다.
 
-![](../assets/change-dimension-example.png)
+![](../assets/orchestrated-change-dimension-example.png)

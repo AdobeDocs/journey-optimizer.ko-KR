@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 5e4d64c4236898683a1ebb5ab2a19be4fcd15d79
+source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 11%
 
 ---
@@ -34,20 +34,15 @@ ht-degree: 11%
 ## 보고서 유형 {#reporting-types}
 
 <table style="table-layout:auto; width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr style="text-align: left">
-      <th>보고서 유형</th>
-      <th>설명</th>
-    </tr>
-  </thead>
   <tbody>
-    <tr style="border: 0;">
+    <tr>
       <td><a href="../reports/live-report.md"><img alt="라이브 보고서" src="assets/last-24hours.png"></a></td>
       <td>
         <b>라이브 보고서</b>를 사용하여 내장된 대시보드에서 오케스트레이션된 캠페인의 영향과 성과를 실시간으로 측정하고 시각화할 수 있습니다. 오케스트레이션된 캠페인이 <b>최근 24시간 보고서 보기</b> 메뉴에서 실행되는 즉시 <b>실시간 보고서</b>에서 데이터를 사용할 수 있습니다. 이 섹션<a href="../reports/live-report.md">에서 실시간 보고서 </a>에 대해 자세히 알아보세요.
       </td>
+        </br>
     </tr>
-    <tr style="border: 0; background-color: #FFFFFF;">
+    <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="전체 기간 보고서" src="assets/all-time-report.png"></a></td>
       <td>
         조정된 캠페인 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 모두에서 보고를 표준화하고 데이터 일관성과 신뢰성을 향상시킵니다. <a href="../reports/report-gs-cja.md">모든 시간 보고서</a>에 대해 자세히 알아보세요.
