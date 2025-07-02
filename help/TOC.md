@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 7a2c5c414dcb63d362f7decebb281d00b72e9ae7
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2485'
 ht-degree: 98%
 
 ---
@@ -184,7 +184,6 @@ ht-degree: 98%
       + [오케스트레이션된 캠페인 생성을 위한 주요 단계](using/orchestrated/gs-campaign-creation.md)
       + [캠페인 만들기 및 예약](using/orchestrated/create-orchestrated-campaign.md)
       + [활동 오케스트레이션](using/orchestrated/orchestrate-activities.md)
-      + [오케스트레이션된 캠페인으로 메시지 보내기](using/orchestrated/send-messages.md)
       + [캠페인 시작 및 모니터링](using/orchestrated/start-monitor-campaigns.md)
       + [보고](using/orchestrated/reporting-campaigns.md)
    + 데이터베이스 쿼리 {#query-database}
@@ -196,6 +195,7 @@ ht-degree: 98%
       + [AND-가입](using/orchestrated/activities/and-join.md)
       + [대상자 빌드](using/orchestrated/activities/build-audience.md)
       + [차원 변경](using/orchestrated/activities/change-dimension.md)
+      + [채널 활동](using/orchestrated/activities/channels.md)
       + [결합](using/orchestrated/activities/combine.md)
       + [중복 제거](using/orchestrated/activities/deduplication.md)
       + [보강](using/orchestrated/activities/enrichment.md)
@@ -205,7 +205,6 @@ ht-degree: 98%
       + [분할](using/orchestrated/activities/split.md)
       + [테스트](using/orchestrated/activities/test.md)
       + [대기](using/orchestrated/activities/wait.md)
-      + [채널 활동](using/orchestrated/activities/channels.md)
 + 캠페인 {#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 만들기](using/campaigns/create-campaign.md)
