@@ -190,7 +190,7 @@ ht-degree: 98%
       + [규칙 빌더를 사용한 작업](using/orchestrated/orchestrated-rule-builder.md)
       + [첫 번째 규칙 작성](using/orchestrated/build-query.md)
       + [표현식 편집](using/orchestrated/edit-expressions.md)
-      + [다시 타깃팅](using/orchestrated/retarget)
+      + [다시 타깃팅] (using/orchestrated/retarget)
    + 오케스트레이션된 캠페인 활동 {#design-campaigns}
       + [활동 시작](using/orchestrated/activities/about-activities.md)
       + [AND-가입](using/orchestrated/activities/and-join.md)
