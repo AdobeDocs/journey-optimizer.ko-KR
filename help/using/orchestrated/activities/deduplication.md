@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 28284b3d42a0e78add3470ef128dd740f9cc9dfd
+source-git-commit: de769ae29f933e3bfa520e67b9193666f3f2cef5
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 33%
@@ -59,7 +59,7 @@ ht-degree: 33%
 
 1. **[!UICONTROL 중복 요소 식별을 위한 필드]** 섹션에서 **[!UICONTROL 속성 추가]** 버튼을 클릭하여 이메일 주소, 이름, 성 등 동일한 값으로 중복 요소를 식별할 수 있는 필드를 지정합니다. 필드 순서에 따라 먼저 처리할 필드를 지정할 수 있습니다.
 
-![](../assets/deduplication-1.png)
+   ![](../assets/deduplication-1.png)
 
 1. **[!UICONTROL 중복 제거 설정]** 섹션에서 [중복을 사용하여 유지할 레코드 수] 필드를 선택합니다. 기본값은 1이며, 이 경우 중복 그룹당 하나의 레코드가 유지됩니다. 모든 중복을 유지하려면 0으로 설정합니다.
 
