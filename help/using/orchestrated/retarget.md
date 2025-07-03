@@ -1,20 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer을 사용하여 오케스트레이션된 캠페인에서 개인화 추가 및 관리
-description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인에 개인화를 추가하는 방법을 알아봅니다
-badge: label="Alpha"
+title: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인 시작 및 모니터링
+description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인을 시작 및 모니터링하는 방법을 알아봅니다.
 hide: true
 hidefromtoc: true
-exl-id: f148440d-1c45-408f-8c00-080c1700fc91
 source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 10%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 
-# 오케스트레이션된 캠페인에서 개인화 추가 및 관리 {#orchestrated-perso}
+# 리타기팅 {#retarget}
 
 +++ 목차
 
@@ -25,8 +23,6 @@ ht-degree: 10%
 {style="table-layout:fixed"}
 
 +++
-
-<br/>
 
 >[!BEGINSHADEBOX]
 

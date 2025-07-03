@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7a2c5c414dcb63d362f7decebb281d00b72e9ae7
+source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '2485'
+source-wordcount: '2488'
 ht-degree: 98%
 
 ---
@@ -190,6 +190,7 @@ ht-degree: 98%
       + [규칙 빌더를 사용한 작업](using/orchestrated/orchestrated-rule-builder.md)
       + [첫 번째 규칙 작성](using/orchestrated/build-query.md)
       + [표현식 편집](using/orchestrated/edit-expressions.md)
+      + [다시 타깃팅](using/orchestrated/retarget)
    + 오케스트레이션된 캠페인 활동 {#design-campaigns}
       + [활동 시작](using/orchestrated/activities/about-activities.md)
       + [AND-가입](using/orchestrated/activities/and-join.md)
@@ -202,6 +203,7 @@ ht-degree: 98%
       + [포크](using/orchestrated/activities/fork.md)
       + [대상자 읽기](using/orchestrated/activities/read-audience.md)
       + [조정](using/orchestrated/activities/reconciliation.md)
+      + [대상자 저장](using/orchestrated/activities/save-audience.md)
       + [분할](using/orchestrated/activities/split.md)
       + [테스트](using/orchestrated/activities/test.md)
       + [대기](using/orchestrated/activities/wait.md)
