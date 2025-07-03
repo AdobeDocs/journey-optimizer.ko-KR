@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: css, 편집기, 요약, 이메일
-source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
+exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
+source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '727'
 ht-degree: 7%
 
 ---
@@ -40,15 +41,17 @@ ht-degree: 7%
 
 1. **[!UICONTROL 사용자 지정 CSS 추가]** 단추를 클릭합니다.
 
+   >[!NOTE]
+   >
+   >**[!UICONTROL 사용자 지정 CSS 추가]** 단추는 **[!UICONTROL 본문]**&#x200B;을 선택한 경우에만 사용할 수 있습니다. 하지만 사용자 지정 CSS 스타일을 콘텐츠 내의 모든 구성 요소에 적용할 수 있습니다.
+
 1. 표시되는 전용 텍스트 영역에 CSS 코드를 입력합니다. 사용자 지정 CSS가 올바르고 적절한 구문을 따르는지 확인하십시오. [자세히 알아보기](#use-valid-css)
 
    ![전용 텍스트 영역에 사용자 지정 CSS 입력](assets/email-body-custom-css.png){width="65%"}
 
    >[!NOTE]
    >
-   >**[!UICONTROL 사용자 지정 CSS 추가]** 단추는 **[!UICONTROL 본문]**&#x200B;을 선택한 경우에만 사용할 수 있습니다. 하지만 사용자 지정 CSS 스타일을 콘텐츠 내의 모든 구성 요소에 적용할 수 있습니다.
-   >
-   >잠긴 콘텐츠[&#128279;](../content-management/content-locking.md#use)가 있는 템플릿을 사용하는 경우 콘텐츠에 사용자 지정 CSS를 추가할 수 없습니다. 단추 레이블이 **[!UICONTROL 사용자 지정 CSS 보기]**(으)로 변경되고 콘텐츠에 이미 있는 사용자 지정 CSS는 읽기 전용입니다.
+   >잠긴 콘텐츠[가 있는 ](../content-management/content-locking.md#use)템플릿을 사용하는 경우 콘텐츠에 사용자 지정 CSS를 추가할 수 없습니다. 단추 레이블이 **[!UICONTROL 사용자 지정 CSS 보기]**(으)로 변경되고 콘텐츠에 이미 있는 사용자 지정 CSS는 읽기 전용입니다.
 
 1. 사용자 지정 CSS를 저장하고 사용자 지정 CSS가 콘텐츠에 올바르게 적용되었는지 확인합니다. 그렇지 않은 경우 [문제 해결](#troubleshooting) 섹션을 확인하십시오.
 
@@ -164,7 +167,7 @@ body {
 
 ## 기술 구현 {#implementation}
 
-사용자 지정 CSS는 아래 예와 같이 `data-name="global-custom"` 특성이 있는 `<style>` 태그의 일부로 `<head>` 섹션의 끝에 추가됩니다. 이렇게 하면 사용자 지정 스타일이 콘텐츠에 전체적으로 적용됩니다.
+사용자 지정 CSS는 아래 예와 같이 `<head>` 특성이 있는 `<style>` 태그의 일부로 `data-name="global-custom"` 섹션의 끝에 추가됩니다. 이렇게 하면 사용자 지정 스타일이 콘텐츠에 전체적으로 적용됩니다.
 
 ```html
 <!DOCTYPE html>
@@ -201,12 +204,6 @@ body {
 
 사용자 지정 CSS는 이메일 Designer의 **[!UICONTROL 설정]** 창에서 해석되거나 확인되지 않습니다. 완전히 독립적이며 **[!UICONTROL 사용자 지정 CSS 추가]** 옵션을 통해서만 수정할 수 있습니다.
 
-`global-custom` 스타일 태그에 `data-disabled` 특성이 `true`(으)로 설정된 경우 사용자 지정 CSS가 적용되지 않습니다. 예:
-
-```html
-<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
-```
-
 ### 가져온 콘텐츠
 
 이메일 Designer으로 가져온 콘텐츠와 함께 사용자 지정 CSS를 사용하려면 다음을 고려하십시오.
@@ -224,7 +221,13 @@ body {
 
 * CSS가 올바르고 구문 오류(예: 중괄호 누락, 잘못된 속성 이름)가 없는지 확인합니다. [방법 알아보기](#use-valid-css)
 
-* CSS가 `data-name="global-custom"` 특성이 있는 `<style>` 태그에 추가되고 있으며 `data-disabled`이(가) `global-custom`에 적용되지 않았는지 확인하십시오. [자세히 알아보기](#implementation)
+* CSS가 `<style>` 특성이 있는 `data-name="global-custom"` 태그에 추가되고 있는지 확인하십시오.
+
+* `global-custom` 스타일 태그에 `data-disabled` 특성이 `true`(으)로 설정되어 있는지 확인하십시오. 이 경우 사용자 지정 CSS는 적용되지 않습니다. 예:
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
 
 * 콘텐츠에 적용된 [테마](apply-email-themes.md)를 포함한 다른 CSS 규칙으로 CSS가 재정의되지 않았는지 확인하십시오.
 
