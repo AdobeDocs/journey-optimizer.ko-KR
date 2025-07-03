@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 28284b3d42a0e78add3470ef128dd740f9cc9dfd
+source-git-commit: da292bdb81d322485a00cc60d995e04d30ad4e11
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '956'
 ht-degree: 15%
 
 ---
@@ -102,7 +102,7 @@ UNUSED IDs in BJ
 
    **[!UICONTROL 작업 추적]** 섹션을 사용하여 수신자가 이메일 또는 SMS 게재에 어떻게 반응하는지를 추적하세요. 캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../../reports/campaign-global-report-cja.md)
 
-1. 빠른 게재 모드(푸시용)를 활성화합니다.
+1. 빠른 전송 모드(푸시용)를 활성화합니다.
 
    빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림(예: 뉴스 채널 앱을 설치한 사용자에게 속보)을 전송하려는 경우 사용됩니다. 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)을 참조하세요.
 
@@ -129,6 +129,8 @@ UNUSED IDs in BJ
 </tr></table>
 
 콘텐츠가 만들어지면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 테스트 프로필 또는 CSV/JSON 파일에서 업로드한 샘플 입력 데이터로 콘텐츠를 미리 보고 테스트하거나 수동으로 추가합니다. [자세히 알아보기](../../content-management/preview-test.md)
+
+![콘텐츠 시뮬레이션 단추를 표시하는 이미지](../assets/channel-simulate.png)
 
 ## 다음 단계 {#next}
 
