@@ -8,10 +8,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 사용 사례, 다중 채널, 여정, 이벤트
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: ce4946047cefec759cf80e26f39f3f82c486c27e
+source-git-commit: e08bf74d2f6c5dcb338a5a1b9aa4b29d63e9e8db
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 14%
+source-wordcount: '358'
+ht-degree: 11%
 
 ---
 
@@ -106,7 +106,28 @@ ht-degree: 14%
 <a href="limit-throughput.md">
 <img alt="외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한" src="../assets/do-not-localize/icon-first-journey.svg">
 </a>
-<div><a href="limit-throughput.md"><strong>외부 데이터 원본 및 사용자 지정 작업으로 처리량 제한</strong>
+<div><a href="limit-throughput.md"><strong>외부 데이터 원본 및 사용자 지정 작업으로 처리량 제한</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+
+## 블로그 게시물
+
+다음 블로그 게시물을 탐색하여 여정 구축 시 더 많은 지침과 모범 사례를 찾아보십시오.
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<img alt="블로그 게시물" src="../assets/do-not-localize/community.jpeg">
+<div>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">사용 사례: Adobe Journey Optimizer에서 평일에만 이메일을 보내는 방법</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">사용 사례: 고급 승인 전략</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">사용 사례: 사용자 정의 업로드를 통한 빠른 외부 Audience Activation</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">사용 사례: 일별 빈도 제한</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">모범 사례: 대상 여정 읽기</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">사용 사례: 여정 테스트</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">사용 사례: 승인 워크플로</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">사용 사례: 여정 시작 및 종료 기준</a></p>
 </div>
 <p>
 </td>
