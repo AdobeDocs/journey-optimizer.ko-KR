@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 392bf9871ee39aa8a5279661814daff9482be0fd
 workflow-type: tm+mt
 source-wordcount: '1767'
 ht-degree: 8%
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->여정을 테스트하기 전에 모든 오류가 있는 경우 이를 해결해야 합니다. [이 섹션](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)에서 테스트하기 전에 오류를 확인하는 방법을 알아보세요.
+>여정을 테스트하기 전에 모든 오류가 있는 경우 이를 해결해야 합니다. [이 섹션](../building-journeys/troubleshooting.md)에서 테스트하기 전에 오류를 확인하는 방법을 알아보세요.
 
 테스트 모드를 사용하려면 다음 단계를 수행하십시오.
 
