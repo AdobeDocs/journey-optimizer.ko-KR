@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: css, 편집기, 요약, 이메일
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: edf82b966588a792c660430ced2cfe72c6b88216
+source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 7%
@@ -142,6 +142,7 @@ ht-degree: 7%
 
 +++
 
+
 +++ 잘못된 CSS 샘플
 
 잘못된 CSS를 입력하면 CSS를 저장할 수 없음을 나타내는 오류 메시지가 표시됩니다. 다음은 잘못된 CSS의 예입니다.
@@ -209,6 +210,7 @@ body {
 ```
 
 +++
+
 
 사용자 지정 CSS는 이메일 Designer의 **[!UICONTROL 설정]** 창에서 해석되거나 확인되지 않습니다. 완전히 독립적이며 **[!UICONTROL 사용자 지정 CSS 추가]** 옵션을 통해서만 수정할 수 있습니다.
 
