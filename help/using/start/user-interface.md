@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
-source-wordcount: '1716'
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: ht
+source-wordcount: '1670'
 ht-degree: 100%
 
 ---
@@ -340,7 +340,3 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 >abstract="배치는 결정 엔진에서 반환된 항목이 메시지에 나타나는 위치를 결정합니다. 보고에서 다양한 배치에 대한 성과를 추적할 수 있습니다."
 
 
->[!CONTEXTUALHELP]
->id="ajo_journey_simulation"
->title="여정 시뮬레이션"
->abstract="여정 시뮬레이션을 사용하면 여정을 검증하고 여정이 활성화되기 전에 어떤 방식으로 수행되는지 미리 확인할 수 있습니다. 이는 훈련된 모델의 데이터를 사용하여 전체 여정에 걸쳐 숫자를 제공하여 실제 시나리오에서 해당 여정이 어떻게 작동하는지 확인합니다."
