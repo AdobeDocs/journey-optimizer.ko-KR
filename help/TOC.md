@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9bbaad0c7d6bbbb7b35b8d3b72d8a5adc29f28db
+source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
 workflow-type: tm+mt
-source-wordcount: '2488'
-ht-degree: 98%
+source-wordcount: '2491'
+ht-degree: 97%
 
 ---
 
@@ -61,9 +61,11 @@ ht-degree: 98%
       + [전송 시간 최적화](using/building-journeys/send-time-optimization.md)
       + [여정 끝내기](using/building-journeys/end-journey.md)
       + [다른 샌드박스로 여정 복사](using/building-journeys/copy-to-sandbox.md)
-      + [여정 문제 해결](using/building-journeys/troubleshooting.md)
-      + [여정의 인바운드 액션 문제 해결](using/building-journeys/troubleshooting-inbound.md)
       + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
+   + 문제 해결 {#troubleshoot-journey}
+      + [여정 오류 문제 해결](using/building-journeys/troubleshooting.md)
+      + [여정 실행 문제 해결](using/building-journeys/troubleshooting-execution.md)
+      + [인바운드 동작 문제 해결](using/building-journeys/troubleshooting-inbound.md)
    + 활동 {#about-journey-building}
       + [여정 활동 시작](using/building-journeys/about-journey-activities.md)
       + [일반 이벤트](using/building-journeys/general-events.md)
