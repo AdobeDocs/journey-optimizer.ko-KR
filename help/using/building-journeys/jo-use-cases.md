@@ -8,10 +8,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 사용 사례, 다중 채널, 여정, 이벤트
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 06d25d9344588d668304bbf5d6d3c2e7cd6659ef
+source-git-commit: ce4946047cefec759cf80e26f39f3f82c486c27e
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 15%
+source-wordcount: '277'
+ht-degree: 14%
 
 ---
 
@@ -56,6 +56,9 @@ ht-degree: 15%
   </td>
 </tr>
 </table>
+
+여정 단계 이벤트를 쿼리하기 위해 일반적으로 사용되는 [예제](../reports/query-examples.md)를 참조하십시오.
+
 
 ## 비즈니스 사용 사례
 
