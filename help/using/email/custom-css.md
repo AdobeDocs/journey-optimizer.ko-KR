@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: css, 편집기, 요약, 이메일
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
+source-git-commit: c72e6c1ff9d1ce1510f8571d82e56ae21c63194d
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '733'
 ht-degree: 7%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 7%
 >
 >의도하지 않게 컨텐츠의 레이아웃 또는 기능을 손상시킬 수 있는 CSS를 사용하지 마십시오.
 
-### 유효한 CSS
++++ CSS 샘플
 
 다음은 유효한 CSS의 예입니다.
 
@@ -139,8 +139,9 @@ ht-degree: 7%
   }
 }
 ```
++++
 
-### 잘못된 CSS
++++ 잘못된 CSS 샘플
 
 잘못된 CSS를 입력하면 CSS를 저장할 수 없음을 나타내는 오류 메시지가 표시됩니다. 다음은 잘못된 CSS의 예입니다.
 
@@ -164,10 +165,13 @@ ht-degree: 7%
 body {
   background: red;
 ```
++++
 
 ## 기술 구현 {#implementation}
 
 사용자 지정 CSS는 아래 예와 같이 `<head>` 특성이 있는 `<style>` 태그의 일부로 `data-name="global-custom"` 섹션의 끝에 추가됩니다. 이렇게 하면 사용자 지정 스타일이 콘텐츠에 전체적으로 적용됩니다.
+
++++ 샘플 참조
 
 ```html
 <!DOCTYPE html>
@@ -201,10 +205,11 @@ body {
   </body>
 </html>
 ```
++++
 
 사용자 지정 CSS는 이메일 Designer의 **[!UICONTROL 설정]** 창에서 해석되거나 확인되지 않습니다. 완전히 독립적이며 **[!UICONTROL 사용자 지정 CSS 추가]** 옵션을 통해서만 수정할 수 있습니다.
 
-### 가져온 콘텐츠
+### 보호 기능 - 가져온 콘텐츠
 
 이메일 Designer으로 가져온 콘텐츠와 함께 사용자 지정 CSS를 사용하려면 다음을 고려하십시오.
 
@@ -223,20 +228,28 @@ body {
 
 * CSS가 `<style>` 특성이 있는 `data-name="global-custom"` 태그에 추가되고 있는지 확인하십시오.
 
-* `global-custom` 스타일 태그에 `data-disabled` 특성이 `true`(으)로 설정되어 있는지 확인하십시오. 이 경우 사용자 지정 CSS는 적용되지 않습니다. 예:
+* `global-custom` 스타일 태그에 `data-disabled` 특성이 `true`(으)로 설정되어 있는지 확인하십시오. 이 경우 사용자 지정 CSS는 적용되지 않습니다.
+
++++ 예:
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
++++
+
 * 콘텐츠에 적용된 [테마](apply-email-themes.md)를 포함한 다른 CSS 규칙으로 CSS가 재정의되지 않았는지 확인하십시오.
 
    * 브라우저 개발자 도구를 사용하여 콘텐츠를 검사하고 CSS가 올바른 선택기를 타깃팅하는지 확인하십시오.
 
-   * 선언이 우선하도록 선언에 `!important`을(를) 추가해 보십시오. 예:
+   * 선언이 우선하도록 선언에 `!important`을(를) 추가해 보십시오.
+
++++ 예:
 
      ```css
      .acr-Form {
        background: red !important;
      }
      ```
+
++++
