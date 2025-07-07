@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 36%
@@ -108,11 +108,11 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 * 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL 동적 값]** 필드에 포함합니다. 아래 예제에서는 매개 변수가 &quot;identifier&quot;입니다.
 * 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수의 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
 
-  ```json
-  {"id":{"param":"identifier"}}
-  ```
+```json
+{"id":{"param":"identifier"}}
+```
 
-  ![](assets/journey29.png)
+![](assets/journey29.png)
 
 
 변경 사항이 저장되면 데이터 소스가 구성되며, 예를 들어 조건이나 이메일 개인화 등에 여정에서 사용할 수 있도록 준비됩니다. 가령 기온이 섭씨 30도를 넘으면 특정 메시지를 보내도록 지정할 수 있습니다.
