@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 13%
+source-wordcount: '688'
+ht-degree: 15%
 
 ---
 
@@ -62,8 +62,6 @@ ht-degree: 13%
 
 이곳에는 사용 가능한 다양한 통신 채널의 활동이 표시됩니다. 이러한 세그먼트를 결합하여 크로스채널 시나리오를 만들 수 있습니다.
 
-<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
-
 메시지를 보내기 위한 특정 작업을 설정할 수도 있습니다.
 
 * 서드파티 시스템을 사용하여 메시지를 전송하는 경우 특정 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../action/action.md)
@@ -80,7 +78,7 @@ ht-degree: 13%
 
 대부분의 활동을 통해 **[!UICONTROL 레이블]**&#x200B;을(를) 정의할 수 있습니다. 캔버스에서 활동 아래에 표시되는 이름에 접미사를 추가합니다. 이 기능은 여정에서 동일한 활동을 여러 번 사용하고 이러한 활동을 보다 쉽게 식별하려는 경우 유용합니다. 또한 오류가 발생한 경우 디버깅을 더 쉽게 하고 보고서를 더 쉽게 읽을 수 있습니다. 선택적 **[!UICONTROL 설명]**&#x200B;을 추가할 수도 있습니다.
 
-![](assets/journey-action-label.png)
+![여정 활동 속성의 레이블 및 설명 필드](assets/journey-action-label.png)
 
 >[!NOTE]
 >
@@ -90,18 +88,24 @@ ht-degree: 13%
 
 대부분의 활동에는 수정할 수 없는 많은 고급 및/또는 기술 매개 변수가 표시됩니다.
 
-![](assets/journey-advanced-parameters.png)
+![여정 활동 속성의 고급 매개 변수 필드](assets/journey-advanced-parameters.png)
 
 가독성을 높이기 위해 **[!UICONTROL 읽기 전용 필드 숨기기]** 단추를 사용하여 이러한 매개 변수를 숨깁니다.
 
-![](assets/journey-hide-read-only-fields.png)
+![여정 활동 속성에서 읽기 전용 필드 아이콘 숨기기](assets/journey-hide-read-only-fields.png)
 
 일부 특정 컨텍스트에서는 특정 용도로 이러한 매개 변수의 값을 재정의할 수 있습니다. 값을 강제 적용하려면 필드의 오른쪽에 있는 **[!UICONTROL 매개 변수 무시 활성화]** 아이콘을 클릭합니다. [자세히 알아보기](../configuration/primary-email-addresses.md#journey-parameters)
 
-![](assets/journey-enable-parameter-override.png)
+![전자 메일 활동 속성에서 매개 변수 재정의 옵션을 사용하도록 설정](assets/journey-enable-parameter-override.png)
 
 ### 대체 경로 추가
 
 작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 확인란을 선택하여 계속하는 방법만 있습니다. [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 
-![](assets/journey42.png)
+![조건 활동 속성에 대체 경로 옵션 추가](assets/journey42.png)
+
+## 문제 해결 {#troubleshooting}
+
+여정을 테스트하고 게시하기 전에 모든 활동이 올바르게 구성되었는지 확인하십시오. 시스템에서 오류가 계속 감지되면 테스트나 게시를 수행할 수 없습니다.
+
+[ 여정의 활동 및 ](troubleshooting.md) 오류를 해결하는 방법에 대해 알아봅니다.
