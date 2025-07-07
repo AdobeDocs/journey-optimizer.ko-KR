@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: a214afd830b9a0f37268b7e298e742470004e2a0
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2492'
 ht-degree: 97%
 
 ---
@@ -62,10 +62,6 @@ ht-degree: 97%
       + [여정 끝내기](using/building-journeys/end-journey.md)
       + [다른 샌드박스로 여정 복사](using/building-journeys/copy-to-sandbox.md)
       + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
-   + 문제 해결 {#troubleshoot-journey}
-      + [여정 오류 문제 해결](using/building-journeys/troubleshooting.md)
-      + [여정 실행 문제 해결](using/building-journeys/troubleshooting-execution.md)
-      + [인바운드 동작 문제 해결](using/building-journeys/troubleshooting-inbound.md)
    + 활동 {#about-journey-building}
       + [여정 활동 시작](using/building-journeys/about-journey-activities.md)
       + [일반 이벤트](using/building-journeys/general-events.md)
@@ -178,12 +174,16 @@ ht-degree: 97%
       + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
       + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
       + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
+   + 문제 해결 {#troubleshoot-journey}
+      + [여정 오류 문제 해결](using/building-journeys/troubleshooting.md)
+      + [여정 실행 문제 해결](using/building-journeys/troubleshooting-execution.md)
+      + [인바운드 동작 문제 해결](using/building-journeys/troubleshooting-inbound.md)
 + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
    + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
    + [구성 단계](using/orchestrated/configuration-steps.md)
    + [오케스트레이션된 캠페인 액세스 및 관리](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + 첫 오케스트레이션된 캠페인 시작{#launch}
-      + [오케스트레이션된 캠페인 생성을 위한 주요 단계](using/orchestrated/gs-campaign-creation.md)
+      + [오케스트레이션된 캠페인을 만드는 주요 단계](using/orchestrated/gs-campaign-creation.md)
       + [캠페인 만들기 및 예약](using/orchestrated/create-orchestrated-campaign.md)
       + [활동 오케스트레이션](using/orchestrated/orchestrate-activities.md)
       + [캠페인 시작 및 모니터링](using/orchestrated/start-monitor-campaigns.md)
