@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 90%
+source-wordcount: '387'
+ht-degree: 87%
 
 ---
 
@@ -40,13 +40,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 
 [여정 디자이너](using-the-journey-designer.md)는 이메일, 푸시 알림 및 SMS/MMS와 같은 아웃바운드 메시지와 모바일 앱, 웹 사이트 및 Journey Optimizer 내에서 직접 빌드된 코드 기반 경험을 비롯한 인바운드 채널을 지원하는 [기본 제공 채널 작업](journeys-message.md)을 제공합니다. 또한 서드파티 시스템을 사용하여 이메일, 텍스트 또는 기타 채널을 통해 메시지를 보낼 수 있습니다. Journey Optimizer에는 [사용자 정의 작업](using-custom-actions.md)이 포함되어 있어 해당 시스템을 여정 디자이너에서 직접 여정에 통합할 수 있습니다.
 
-다음의 엔드투엔드 사용 사례에서 여정을 작성하는 방법을 알아봅니다.
-
-* [다중 채널 메시지 보내기](journeys-uc.md)
-* [Campaign v7/v8을 사용하여 메시지 보내기](ajo-ac.md)
-* [구독자에게 메시지 보내기](message-to-subscribers-uc.md)
-* [사용자 정의 작업으로 컬렉션을 동적으로 보내기](collections.md)
-* [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](limit-throughput.md)
+이러한 엔드 투 엔드 사용 사례[에서 여정 ](jo-use-cases.md)을(를) 만드는 방법을 알아봅니다.
 
 >[!NOTE]
 >
@@ -56,4 +50,4 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 
 여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성할 때의 기본을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
