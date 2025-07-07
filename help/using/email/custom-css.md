@@ -139,6 +139,7 @@ ht-degree: 7%
   }
 }
 ```
+
 +++
 
 +++ 잘못된 CSS 샘플
@@ -165,6 +166,7 @@ ht-degree: 7%
 body {
   background: red;
 ```
+
 +++
 
 ## 기술 구현 {#implementation}
@@ -205,6 +207,7 @@ body {
   </body>
 </html>
 ```
+
 +++
 
 사용자 지정 CSS는 이메일 Designer의 **[!UICONTROL 설정]** 창에서 해석되거나 확인되지 않습니다. 완전히 독립적이며 **[!UICONTROL 사용자 지정 CSS 추가]** 옵션을 통해서만 수정할 수 있습니다.
