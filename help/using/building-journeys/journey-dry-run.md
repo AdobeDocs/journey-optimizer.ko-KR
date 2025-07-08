@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 21%
+source-wordcount: '864'
+ht-degree: 24%
 
 ---
 
@@ -55,13 +55,13 @@ ht-degree: 21%
 
 * 이메일, SMS 또는 푸시 알림을 포함한 **채널 작업** 노드가 실행되지 않습니다.
 * 시험 실행 중에 **사용자 지정 작업**&#x200B;이(가) 비활성화되며 해당 응답은 null로 설정됩니다.
-* **대기 노드**&#x200B;은(는) 시험 실행 중에 무시됩니다.
+* **대기 노드**은(는) 시험 실행 중에 무시됩니다.
   <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * 외부 데이터 원본을 포함한 **데이터 원본**&#x200B;은(는) 기본적으로 실행됩니다
 
 >[!CAUTION]
 >
->* 시험 실행 시작 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. 시험 실행을 중지할 수 있는 권한은 **[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [이 섹션](../administration/permissions-overview.md)에서 [!DNL Journey Optimizer] 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>* 시험 실행 시작 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. 시험 실행을 중지할 수 있는 권한은 **[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 >
 >* 시험 실행 기능을 사용하기 전에 [보호 기능 및 제한 사항을 읽어보세요](#journey-dry-run-limitations).
 
@@ -87,24 +87,10 @@ ht-degree: 21%
 
 드라이 모드 게시가 실행되면 여정 실행과 여정 분기 및 노드를 통한 프로필 진행 방식을 시각화할 수 있습니다.
 
-지표는 여정 캔버스에 직접 표시됩니다.
+지표는 여정 캔버스에 직접 표시됩니다. 여정 라이브 보고 및 지표에 대해 자세히 알아보려면 여정 캔버스의 [라이브 보고서](report-journey.md)를 참조하세요.
 
 ![여정 시험 실행 모니터링](assets/dry-run-metrics.png)
 
-각 활동의 활동 상자에서 다음을 선택할 수 있습니다.
-
-* **[!UICONTROL 입력됨]**: 이 활동에 입력한 총 개인 수입니다. **Action** 활동의 경우, 시험 실행 모드에서 실행되지 않으므로 이 지표는 프로필이 통과함을 나타냅니다.
-* **[!UICONTROL 종료됨(종료 기준을 충족함)]**: 종료 기준으로 인해 해당 활동에서 여정을 종료한 총 개인 수.
-* **[!UICONTROL 종료됨(강제 종료)]**: 여정 실무자 구성으로 인해 일시 중지된 동안 여정을 종료한 총 개인 수 이 지표는 시험 실행 모드의 여정에 대해 항상 0입니다.
-* **[!UICONTROL 오류]**: 해당 활동에 오류가 있는 개인의 총 수입니다.
-
-
-캔버스의 왼쪽 상단 섹션에서 여정 수준에서 다음을 확인할 수 있습니다.
-
-* 총 **입력한 프로필 수**
-* **종료된 총 프로필 수**
-* 오류의 총 **프로필 수**
-* 여정의 총 **삭제된 프로필** 수
 
 시험 실행을 위해 **최근 24시간 보고서** 및 **모든 시간 보고서**&#x200B;에 액세스할 수도 있습니다. 이러한 보고서에 액세스하려면 여정 캔버스의 오른쪽 위 모서리에 있는 **보고서 보기** 단추를 클릭하십시오.
 
