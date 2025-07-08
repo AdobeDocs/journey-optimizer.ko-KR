@@ -5,19 +5,14 @@ title: 조정된 캠페인 보호 및 제한 사항
 description: 오케스트레이션된 캠페인 보호 및 제한 사항에 대해 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
+source-git-commit: d9fb9462c52eb8a79fd2c9bd6bdb5381d318453f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 11%
+source-wordcount: '260'
+ht-degree: 5%
 
 ---
 
 # 가드레일 및 제한 사항 {#guardrails}
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_publication"
->title="오케스트레이션된 캠페인 게시"
->abstract="캠페인을 시작하려면 먼저 캠페인을 게시해야 합니다. 게시하기 전에 모든 경고가 해제되었는지 확인하십시오."
 
 +++ 목차
 
