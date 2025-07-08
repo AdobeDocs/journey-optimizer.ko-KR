@@ -33,6 +33,6 @@ ht-degree: 3%
 * **[사용자 지정 작업 문제 해결](../action/troubleshoot-custom-action.md)**
 데이터 처리, 응답 오류 및 통합 실패를 포함한 사용자 지정 작업을 디버깅하고 확인하는 방법을 알아봅니다.
 
-또한 [일반적인 오류 코드](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}와 이를 효과적으로 해결하는 방법에 대해 자세히 설명하는 이 **Adobe 커뮤니티 블로그 게시물**&#x200B;을 확인하십시오.
+또한 [일반적인 오류 코드](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko){target="_blank"}와 이를 효과적으로 해결하는 방법에 대해 자세히 설명하는 이 **Adobe 커뮤니티 블로그 게시물**&#x200B;을 확인하십시오.
 
 이러한 리소스를 통해 문제를 신속하게 격리하고, 설정을 확인하고, 여정을 원활하게 다시 실행할 수 있습니다.
