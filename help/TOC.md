@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2494'
 ht-degree: 97%
 
 ---
@@ -175,9 +175,11 @@ ht-degree: 97%
       + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
       + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
    + 문제 해결 {#troubleshoot-journey}
+      + [여정 문제 해결](using/building-journeys/gs-troubleshooting.md)
       + [여정 오류 문제 해결](using/building-journeys/troubleshooting.md)
       + [여정 실행 문제 해결](using/building-journeys/troubleshooting-execution.md)
       + [인바운드 동작 문제 해결](using/building-journeys/troubleshooting-inbound.md)
+      + [사용자 정의 작업 문제 해결](using/action/troubleshoot-custom-action.md)
 + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
    + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
    + [구성 단계](using/orchestrated/configuration-steps.md)
@@ -770,7 +772,6 @@ ht-degree: 97%
    + 액션 구성 {#action-journeys}
       + [사용자 정의 액션 시작](using/action/action.md)
       + [사용자 정의 작업 구성](using/action/about-custom-action-configuration.md)
-      + [사용자 정의 작업 문제 해결](using/action/troubleshoot-custom-action.md)
       + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
 + 시스템 및 환경 연결 {#connect-systems}
    + [다른 솔루션과 통합](using/integrations/ajo-integrations.md)

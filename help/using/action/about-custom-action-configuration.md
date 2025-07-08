@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1704'
 ht-degree: 20%
 
 ---
@@ -149,7 +149,7 @@ Adobe Journey Optimizer은 사용자 지정 작업에 대해 기본적으로 TLS
 
 mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용자 지정 작업에 대한 아웃바운드 연결에서 보안을 강화할 수 있습니다. mTLS는 상호 인증을 위한 종단간 보안 방법으로, 정보를 공유하는 양 당사자가 데이터를 공유하기 전에 자신이 주장하는 사람임을 보장합니다. mTLS에는 TLS와 비교하여 추가 단계가 포함되어 있으며, 이 단계에서 서버는 클라이언트의 인증서를 요청하고 마지막에 검증한다.
 
-사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## 페이로드 매개 변수 정의 {#define-the-message-parameters}
 
@@ -186,3 +186,8 @@ mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용
 >
 >Null 값을 허용하면서 선택적 매개 변수를 구성하면 여정 실무자가 입력하지 않은 매개 변수가 Null로 전송됩니다.
 >
+
+
+## 문제 해결
+
+이 전용 페이지[에서 사용자 지정 작업 ](../action/troubleshoot-custom-action.md)의 문제를 해결하는 방법을 알아보세요.
