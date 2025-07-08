@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 문제 해결, 문제 해결, 여정, 확인, 오류
-source-git-commit: fa53fbe84a0d9c20a47e3d9f312b1673ab0611ca
+source-git-commit: 6ede06256038f781cfb8307bacc4e731b0323a8c
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
     <div><strong>여정 실행 문제 해결</strong><br/> 여정 이벤트의 문제 해결 방법, 프로필이 여정에 입력되었는지 여부, 프로필의 탐색 방법, 메시지가 전송되었는지 여부를 확인합니다.</div>
     </td>
     <td>
-    <a href="./building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
+    <a href="..building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
     <div><strong>인바운드 동작 문제 해결</strong><br/>여정에서 인바운드 동작과 관련된 문제를 디버깅하여 스스로 문제를 식별하고 해결하는 방법에 대해 알아봅니다.</div>
     </td>
     <td>
@@ -45,7 +45,7 @@ ht-degree: 2%
   <tr style="border: 0;">
     <td align="center"><a href="../building-journeys/troubleshooting.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="../building-journeys/troubleshooting-execution.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="./building-journeys/troubleshooting-inbound.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="../building-journeys/troubleshooting-inbound.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="../action/troubleshoot-custom-action.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
@@ -91,12 +91,12 @@ ht-degree: 2%
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="일반적인 오류 코드 이해" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br>또한 <strong>일반적인 오류 코드</strong>와 이를 효과적으로 해결하는 방법에 대해 자세히 설명하는 이 Adobe 커뮤니티 블로그 게시물을 확인하십시오.
     </div>
       <div>
-     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko" target="_blank">자세히 알아보기</a></div>
+     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">자세히 알아보기</a></div>
     </div>
   </td>
 </tr>
