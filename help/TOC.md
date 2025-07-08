@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
+source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 97%
@@ -356,20 +356,6 @@ ht-degree: 97%
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
 + 콘텐츠 관리  {#content-management}
-   + 랜딩 페이지 {#landing-pages}
-      + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
-      + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
-      + [랜딩 페이지 관리](using/landing-pages/manage-lp.md)
-      + 콘텐츠 디자인 {#landing-pages-design}
-         + [랜딩 페이지 디자인 정보](using/landing-pages/design-lp.md)
-         + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
-         + [템플릿 만들기](using/landing-pages/lp-templates.md)
-         + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
-      + [구독 목록 만들기](using/landing-pages/subscription-list.md)
-      + [사용 사례를 통해 알아보기](using/landing-pages/lp-use-cases.md)
-      + 랜딩 페이지 구성 {#lp-configuration}
-         + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
-         + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
    + 개인화 {#personalization}
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 추가](using/personalization/personalization-build-expressions.md)
@@ -392,6 +378,20 @@ ht-degree: 97%
          + [주문 상태 알림](using/personalization/personalization-use-case.md)
          + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
          + [건강 계획 처방 이메일](using/personalization/perso-uc-plan-prescriptions.md)
+   + 랜딩 페이지 {#landing-pages}
+      + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
+      + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
+      + [랜딩 페이지 관리](using/landing-pages/manage-lp.md)
+      + 콘텐츠 디자인 {#landing-pages-design}
+         + [랜딩 페이지 디자인 정보](using/landing-pages/design-lp.md)
+         + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
+         + [템플릿 만들기](using/landing-pages/lp-templates.md)
+         + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
+      + [구독 목록 만들기](using/landing-pages/subscription-list.md)
+      + [사용 사례를 통해 알아보기](using/landing-pages/lp-use-cases.md)
+      + 랜딩 페이지 구성 {#lp-configuration}
+         + [랜딩 페이지 하위 도메인 구성](using/landing-pages/lp-subdomains.md)
+         + [랜딩 페이지 사전 설정 정의](using/landing-pages/lp-presets.md)
    + 콘텐츠 템플릿 {#content-templates}
       + [콘텐츠 템플릿 시작](using/content-management/content-templates.md)
       + [템플릿 액세스 및 관리](using/content-management/access-content-templates.md)
