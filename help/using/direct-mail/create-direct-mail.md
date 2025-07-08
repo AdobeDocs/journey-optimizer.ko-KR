@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
+source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '749'
 ht-degree: 18%
 
 ---
@@ -55,11 +55,11 @@ DM 캠페인을 만들려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL DM]**&#x200B;을(를) 선택하세요.
 
-1. 사용할 **[!UICONTROL DM 구성]**&#x200B;을(를) 선택하거나 새 구성을 만드십시오. [DM 구성을 만드는 방법을 알아보세요](direct-mail-configuration.md#direct-mail-surface).
+1. 사용할 **[!UICONTROL DM 구성]**&#x200B;을(를) 선택하거나 만드십시오. [DM 구성을 만드는 방법을 알아보세요](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
-1. 특정 날짜에 대해 캠페인을 예약하거나 정기적으로 반복하도록 설정할 수 있습니다. [이 섹션](../campaigns/create-campaign.md#schedule)에서 캠페인의 **[!UICONTROL 일정]**&#x200B;을 구성하는 방법을 알아보세요.
+1. 특정 날짜에 대해 캠페인을 예약하거나 정기적으로 반복하도록 설정할 수 있습니다. **[!UICONTROL 이 섹션]**&#x200B;에서 캠페인의 [일정](../campaigns/create-campaign.md#schedule)을 구성하는 방법을 알아보세요.
 
 이제 DM 공급자에게 보낼 추출 파일 구성을 시작할 수 있습니다.
 
