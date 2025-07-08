@@ -56,9 +56,9 @@ ht-degree: 1%
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko">
     <img alt="일반적인 오류 코드 이해" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>또한 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">일반적인 오류 코드</a>와 이를 효과적으로 해결하는 방법에 대해 자세히 설명하는 <strong>이 Adobe 커뮤니티 블로그 게시물</strong>을 확인하십시오.
+    <br>또한 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko" target="_blank">일반적인 오류 코드</a>와 이를 효과적으로 해결하는 방법에 대해 자세히 설명하는 <strong>이 Adobe 커뮤니티 블로그 게시물</strong>을 확인하십시오.
     </div>
   </td>
 </tr>
