@@ -5,15 +5,16 @@ feature: Direct Mail
 topic: Content Management
 role: User
 level: Beginner
+badge: label="제한 공개" type="Informative"
 hidefromtoc: true
 hide: true
 robots: noindex
 googlebot: noindex
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: 44886355-ee3a-4323-899a-35d967487924
-source-git-commit: ca6e2834f92585094d3316e9259e3370cfad22fc
+source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '774'
 ht-degree: 19%
 
 ---
@@ -24,6 +25,10 @@ ht-degree: 19%
 >id="ajo_journey_direct_mail"
 >title="종료 활동"
 >abstract="다이렉트 메일은 서드파티 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다."
+
+>[!AVAILABILITY]
+>
+>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있습니다.
 
 다이렉트 메일은 서드파티 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.
 
