@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: e6944928e40b471a86085c126ff678002357e66c
+source-git-commit: 34788c05cdcdcbc0c261df3f931a5bc1786fff5f
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 7%
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 Campaign Orchestration은 다음 네 가지 주요 요소를 기반으로 구축됩니다.
 
-<table style="table-layout:fixed">
+<table>
 <tr style="border: 0;">
 <td><img alt="온디맨드 대상" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>온디맨드 대상</b><br/>데이터 집합 간에 즉시 쿼리하여 데이터 형식과 차원의 조합을 사용하여 대상 세그먼트를 만듭니다.</td></tr>
 <tr style="border: 0;">
