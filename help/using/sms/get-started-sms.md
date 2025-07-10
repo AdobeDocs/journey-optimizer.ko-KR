@@ -70,7 +70,7 @@ Adobe Journey Optimizer는 SMS 서비스 공급자(또는 SMS 게이트웨이 �
 
   +++비디오 참조
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3422697?learn=on&captions=kor)
 
 +++
 
@@ -79,6 +79,6 @@ Adobe Journey Optimizer는 SMS 서비스 공급자(또는 SMS 게이트웨이 �
 
   +++비디오 참조
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3430374?quality=12&learn=on&captions=kor)
 
 +++
