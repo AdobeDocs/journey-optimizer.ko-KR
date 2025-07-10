@@ -28,7 +28,7 @@ ht-degree: 6%
 
 <br/>
 
-# Campaign 오케스트레이션 시작 {#gs}
+&#x200B;# Campaign 오케스트레이션 시작 {#gs}
 
 [!DNL Adobe Journey Optimizer]의 Campaign Orchestration은 정교하고 브랜드에서 시작한 마케팅 캠페인을 채널 전체에 걸쳐 지원하므로 규모에 맞게 참여, 매출 및 고객 충성도를 높일 수 있습니다.
 
