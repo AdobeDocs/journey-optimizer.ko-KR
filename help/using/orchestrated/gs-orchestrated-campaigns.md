@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: a1af07fd8e95864ec758717b35e93555eada03f0
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 17%
+source-wordcount: '620'
+ht-degree: 15%
 
 ---
 
@@ -50,13 +50,11 @@ Campaign Orchestration은 데이터 중심의 의사 결정을 가능하게 하�
 
 ## 전제 조건
 
->[!BEGINSHADEBOX]
+오케스트레이션된 캠페인을 사용하기 전에 적절한 권한이 있는지 확인해야 합니다. 오케스트레이션된 캠페인에 대한 액세스는 오케스트레이션된 캠페인 관리자, 오케스트레이션된 캠페인 승인자, 오케스트레이션된 캠페인 관리자 또는 오케스트레이션된 캠페인 뷰어와 같은 관련 **[!UICONTROL 제품 프로필]**&#x200B;에 할당된 사용자로 제한됩니다.
 
-설명서 진행 중
+오케스트레이션된 캠페인 기능에 액세스할 수 없는 경우 관리자에게 연락하여 필요한 권한을 요청하십시오.
 
->[!ENDSHADEBOX]
-
-<!--prerequisites & permissions-->
+➡️[오케스트레이션된 캠페인과 관련된 제품 프로필에 대해 자세히 알아보세요](../administration/ootb-product-profiles.md)
 
 ## 더 자세히 알아보기
 
