@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '968'
 ht-degree: 1%
 
 ---
@@ -75,6 +75,8 @@ ht-degree: 1%
 ![아이콘 비활성화](assets/do-not-localize/activity-disable.svg) ![아이콘 활성화](assets/do-not-localize/activity-enable.svg) 활동을 비활성화/활성화합니다. 오케스트레이션된 캠페인이 실행되면 비활성화된 활동 및 동일한 경로의 다음 활동이 실행되지 않고 오케스트레이션된 캠페인이 중지됩니다.
 
 ![일시 중지 아이콘](assets/do-not-localize/activity-pause.svg) ![다시 시작 아이콘](assets/do-not-localize/activity-resume.svg) 활동을 일시 중지/다시 시작합니다. 오케스트레이션된 캠페인이 실행되면 일시 중지된 활동에서 일시 중지됩니다. 동일한 경로에서 해당 작업을 따르는 모든 작업은 실행되지 않습니다.
+
+    캔버스의 모든 활동을 중단점으로 사용하여 캠페인 실행을 일시 중지할 수 있습니다. 즉, 캠페인은 이 활동까지만 실행된 다음 실행을 일시 중지합니다. 실행을 일시 중지하는 동안 세분화 엔진은 사용자가 미리 볼 수 있도록 임시 데이터를 유지합니다. 일시 중지된 활동 바로 전에 인바운드 전환을 선택하여 전송된 데이터를 볼 수 있습니다. 이 섹션에 대해 자세히 알아보세요. [Visual flow monitoring](../orchestrated/start-monitor-campaigns.md#flow).
 
 ![복사 아이콘](assets/do-not-localize/activity-copy.svg) 활동을 복사합니다. [활동을 복사하여 붙여 넣는 방법 알아보기](#copy)
 

@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: e316c3dbbec028f7501990486506779656990c20
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 8%
+source-wordcount: '774'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="오케스트레이션된 캠페인 게시"
->abstract="캠페인을 시작하려면 먼저 캠페인을 게시해야 합니다. 게시하기 전에 모든 경고가 해제되었는지 확인하십시오."
+>abstract="캠페인을 시작하려면 먼저 캠페인을 게시해야 합니다. 게시하기 전에 모든 오류가 지워졌는지 확인하십시오."
 
 +++ 목차
 
@@ -71,9 +71,13 @@ ht-degree: 8%
 
 ![](assets/campaign-publish.png){zoomable="yes"}
 
+>[!NOTE]
+>
+>**[!UICONTROL 게시]** 단추가 비활성화되어 있으면(회색으로 표시됨) 작업 표시줄에서 로그에 액세스하고 오류 메시지를 확인하십시오. 캠페인을 게시하려면 먼저 모든 오류를 수정해야 합니다.
+
 시각적 흐름은 다시 시작되고, 실제 프로필은 실시간으로 여정을 통해 흐르기 시작합니다.
 
-게시 작업이 실패하는 경우(예: 메시지 콘텐츠 누락) 경고 메시지가 표시되며 문제를 해결한 후 다시 시도해야 합니다. 게시 성공 시 캠페인이 **초안**&#x200B;에서 **라이브** 상태로 이동하고 실행을 시작합니다(즉시 또는 일정에 따라).
+게시 작업이 실패하는 경우(예: 메시지 콘텐츠 누락) 경고 메시지가 표시되며 문제를 해결한 후 다시 시도해야 합니다. 게시 성공 시 캠페인은 즉시 또는 일정에 따라 실행을 시작하고 **초안**&#x200B;에서 **라이브** 상태로 이동하고 &quot;읽기 전용&quot;이 됩니다.
 
 ## 캠페인 실행 모니터링 {#monitor}
 
