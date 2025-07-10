@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
 source-wordcount: '2502'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 96%
       + [여정 문제 해결](using/building-journeys/gs-troubleshooting.md)
       + [여정 오류 문제 해결](using/building-journeys/troubleshooting.md)
       + [여정 실행 문제 해결](using/building-journeys/troubleshooting-execution.md)
-      + [인바운드 동작 문제 해결](using/building-journeys/troubleshooting-inbound.md)
+      + [인바운드 액션 문제 해결](using/building-journeys/troubleshooting-inbound.md)
       + [사용자 지정 작업 문제 해결](using/action/troubleshoot-custom-action.md)
 + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
    + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -195,7 +195,7 @@ ht-degree: 96%
       + [규칙 빌더를 사용한 작업](using/orchestrated/orchestrated-rule-builder.md)
       + [첫 번째 규칙 작성](using/orchestrated/build-query.md)
       + [표현식 편집](using/orchestrated/edit-expressions.md)
-      + [다시 타깃팅](using/orchestrated/retarget.md)
+      + [리타기팅](using/orchestrated/retarget.md)
    + 오케스트레이션된 캠페인 활동 {#design-campaigns}
       + [활동 시작](using/orchestrated/activities/about-activities.md)
       + [AND-가입](using/orchestrated/activities/and-join.md)
@@ -297,17 +297,17 @@ ht-degree: 96%
          + [모바일 온보딩 빠른 시작 워크플로](using/push/mobile-onboarding-wf.md)
    + SMS / MMS / RCS 채널{#sms}
       + [텍스트 메시지 시작](using/sms/get-started-sms.md)
-      + [SMS/MMS/RCS 메시지 만들기](using/sms/create-sms.md)
+      + [SMS / MMS / RCS 메시지 만들기](using/sms/create-sms.md)
       + [텍스트 메시지 확인 및 보내기](using/sms/send-sms.md)
       + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
       + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
-      + SMS/MMS/RCS 채널 구성{#configure-sms}
+      + SMS / MMS / RCS 채널 구성{#configure-sms}
          + [SMS / MMS / RCS 구성 시작](using/sms/sms-configuration.md)
          + [Sinch 공급자 구성](using/sms/sms-configuration-sinch.md)
          + [Infobip 공급자 구성](using/sms/sms-configuration-infobip.md)
          + [Twilio 공급자 구성](using/sms/sms-configuration-twilio.md)
          + [사용자 정의 공급자 구성](using/sms/sms-configuration-custom.md)
-         + [SMS/MMS/RCS 구성 만들기](using/sms/sms-configuration-surface.md)
+         + [SMS / MMS / RCS 구성 만들기](using/sms/sms-configuration-surface.md)
    + 다이렉트 메일 {#direct-mail}
       + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)
       + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)
@@ -337,7 +337,7 @@ ht-degree: 96%
          + [코드 기반 경험 구성 만들기](using/code-based/code-based-configuration.md)
       + 코드 기반 경험 만들기 {#create-code-based-experiences}
          + [코드 기반 경험 구축 및 구성](using/code-based/create-code-based.md)
-         + [코드 기반 경험에서 편집 가능한 필드 사용](using/code-based/code-based-form-fields.md)
+         + [코드 기반 경험에 편집 가능한 필드 사용](using/code-based/code-based-form-fields.md)
          + [코드 기반 경험 테스트](using/code-based/test-code-based.md)
          + [코드 기반 경험 관리](using/code-based/publish-code-based.md)
    + 콘텐츠 카드{#content-card}
@@ -365,7 +365,7 @@ ht-degree: 96%
       + [개인화 추가](using/personalization/personalization-build-expressions.md)
       + [개인화 구문](using/personalization/personalization-syntax.md)
       + [표현식 조각 다시 사용](using/personalization/use-expression-fragments.md)
-      + [개인화(Beta)에 Adobe Experience Platform 데이터 사용](using/personalization/aep-data-perso.md)
+      + [개인화에 Adobe Experience Platform 데이터 사용(Beta)](using/personalization/aep-data-perso.md)
       + 도우미 함수 목록 {#functions}
          + [도우미 함수 시작](using/personalization/functions/functions.md)
          + [집계 함수](using/personalization/functions/aggregation.md)
@@ -555,9 +555,9 @@ ht-degree: 96%
          + [항목 카탈로그 구성](using/experience-decisioning/catalogs.md)
          + [결정 항목 만들기](using/experience-decisioning/items.md)
          + [항목 컬렉션 관리](using/experience-decisioning/collections.md)
-      + [의사 결정 규칙 만들기](using/experience-decisioning/rules.md)
+      + [결정 규칙 만들기](using/experience-decisioning/rules.md)
       + 순위 만들기 {#rankings}
-         + [등급 메서드 만들기](using/experience-decisioning/ranking/ranking.md)
+         + [순위 방법 만들기](using/experience-decisioning/ranking/ranking.md)
          + [AI 공식 빌더 사용](using/experience-decisioning/ranking/ranking-formulas.md)
          + AI 모델 {#ai-models}
             + [AI 모델 정보](using/experience-decisioning/ranking/ai-models.md)
@@ -566,7 +566,7 @@ ht-degree: 96%
             + [AI 모델 만들기](using/experience-decisioning/ranking/create-ai-models.md)
       + Adobe Experience Platform 데이터 사용 {#aep-data}
          + [컨텍스트 데이터 활용](using/experience-decisioning/context-data.md)
-         + [의사 결정에 Adobe Experience Platform 사용](using/experience-decisioning/aep-data-exd.md)
+         + [결정에 Adobe Experience Platform 사용](using/experience-decisioning/aep-data-exd.md)
       + [선택 전략 만들기](using/experience-decisioning/selection-strategies.md)
       + [결정 정책 만들기](using/experience-decisioning/create-decision.md)
       + [결정 보고서](using/experience-decisioning/cja-reporting.md)
@@ -585,7 +585,7 @@ ht-degree: 96%
          + [사용 사례: 이메일에 오퍼 삽입](using/offers/offers-e2e.md)
       + 구성 요소 만들기 {#create-components}
          + [배치 만들기](using/offers/offer-library/creating-placements.md)
-         + [의사 결정 규칙 만들기](using/offers/offer-library/creating-decision-rules.md)
+         + [결정 규칙 만들기](using/offers/offer-library/creating-decision-rules.md)
          + [컬렉션 수식어 만들기](using/offers/offer-library/creating-tags.md)
       + 순위 만들기 {#rankings}
          + [순위 시작](using/offers/ranking/get-started-rankings.md)
