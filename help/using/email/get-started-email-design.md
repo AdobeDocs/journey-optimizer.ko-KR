@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 93%
 
 ## 이메일 디자인 모범 사례 {#best-practices}
 
-이메일 전송 시 수신자가 이메일을 전달할 수 있다는 것을 고려해야 합니다. 이로 인해 이메일 렌더링에 문제가 발생하는 경우도 있습니다. 특히 전달에 사용되는 이메일 공급자가 지원하지 않을 수 있는 CSS 클래스를 사용할 때 그러합니다. 예를 들어 &quot;is-desktop-hidden&quot; CSS 클래스를 사용하여 모바일 장치에서 이미지를 숨기는 경우 그러합니다.
+이메일 전송 시 수신자가 이메일을 전달할 수 있다는 것을 고려해야 합니다. 이로 인해 이메일 렌더링에 문제가 발생하는 경우도 있습니다. 이는 “is-desktop-hidden” CSS 클래스를 사용하여 모바일 디바이스에 이미지를 숨기는 경우와 같이, 특히 이메일 공급자가 지원할 수 없을 수도 있는 전달용 CSS 클래스를 사용하는 경우에 해당됩니다.
 
 이런 렌더링 문제를 최소화하기 위해 이메일 디자인 구조를 가능한 한 간단하게 유지하는 것이 좋습니다. 데스크톱과 모바일 디바이스 모두에 적합한 단일 디자인을 사용하고, 복잡한 CSS 클래스나 기타 모든 이메일 클라이언트가 완전히 지원하지 않을 가능성이 있는 디자인 요소는 사용하지 않는 것이 좋습니다. 이 모범 사례를 적용하면 수신자가 이메일을 보거나 전달하는 방식에 관계없이 이메일이 일관되게 렌더링되도록 할 수 있습니다.
 
@@ -74,8 +74,8 @@ ht-degree: 93%
 
 메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416234?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B 테스트를 위한 콘텐츠 실험을 구성하여 비즈니스 목표 달성에 가장 도움이 되는 이메일 콘텐츠를 탐색하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447338?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

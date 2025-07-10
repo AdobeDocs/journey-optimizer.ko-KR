@@ -7,9 +7,9 @@ topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1278'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 66%
 
 ### 여정 조건 변경 {#ee-change@}
 
-7월 8일부터 새로운 고객 조직에서는 경험 이벤트를 사용하여 표현식을 만드는 것이 더 이상 여정 조건에 사용되는 표현식 편집기에서 지원되지 않습니다. 따라서 [Experience Platform 데이터 원본](../datasource/adobe-experience-platform-data-source.md)의 경험 이벤트는 식을 만드는 데 사용할 수 없습니다. 경험 이벤트를 사용하여 표현식/논리를 만드는 다른 방법 및 모범 사례가 [여기](../building-journeys/exp-event-lookup.md)에서 참조됩니다.
+7월 8일부로 신규 고객 조직의 경우 여정 조건에 사용하는 표현식 편집기에서 경험 이벤트를 사용하여 표현식을 만드는 작업이 지원되지 않습니다. 따라서 표현식을 만드는 데 [Experience Platform 데이터 소스](../datasource/adobe-experience-platform-data-source.md)의 경험 이벤트를 사용할 수 없습니다. 경험 이벤트를 사용하여 표현식/논리를 만드는 다른 방법 및 모범 사례는 [여기](../building-journeys/exp-event-lookup.md)에서 참조할 수 있습니다.
 
-단일 여정에서 여정 컨텍스트 이벤트 데이터에 액세스하는 방법에는 변경 사항이 없습니다. 표현식 및 개인화 편집기에서 사용자는 초기 여정 이벤트로 전달된 데이터에 계속 액세스할 수 있습니다.
+단일 여정에서 여정 컨텍스트 이벤트 데이터에 액세스하는 방법에는 변화가 없습니다. 사용자는 계속 표현식 편집기 및 개인화 편집기에서 초기 여정 이벤트로 전달된 데이터에 액세스할 수 있습니다.
 
-이 FAQ에서 [자세히 알아보기](../building-journeys/exp-event-lookup.md#faq-ee).
+[이 FAQ](../building-journeys/exp-event-lookup.md#faq-ee)에서 자세히 알아보십시오.
 
 
-## 2025년 6월 릴리스 정보 {#25-6-rn}
+## 25년 6월 릴리스 정보 {#25-6-rn}
 
 <!--
 **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
 **릴리스 일자**: 2025년 6월 18일
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#25-06-features}
 
@@ -50,13 +50,13 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>decisioning의 Adobe Experience Platform 데이터 세트(베타)</strong><br/></th>
+<th><strong>결정에 Adobe Experience Platform 데이터 세트 사용(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이전에는 개인화에 사용할 수 있었지만, 이제 Adobe Experience Platform 데이터 세트를 의사 결정에 활용할 수 있습니다. 이렇게 하면 속성을 한 번에 하나씩 수동으로 업데이트할 필요 없이 주기적으로 변경되는 벌크 업데이트에 대해 의사 결정 속성의 정의를 데이터 세트의 추가 데이터로 확장할 수 있습니다. 예: 가용성, 대기 시간 등</p>
+<p>이전에 개인화에 사용할 수 있었던 Adobe Experience Platform 데이터 세트를 이제 결정에 활용할 수 있습니다. 그러면 주기적으로 변경되는 일괄 업데이트 시 속성을 일일이 수동으로 업데이트할 필요 없이 결정 속성의 정의를 데이터 세트의 추가 데이터로 확장할 수 있습니다. 예를 들면 가용성, 대기 시간 등이 있습니다.</p>
 <p>이 기능은 현재 모든 고객이 공개 Beta로 사용할 수 있습니다. 액세스하려면 계정 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="../experience-decisioning/aep-data-exd.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 6월 20일</p>
@@ -125,13 +125,13 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>여정의 컨텐츠 결정 활동</strong><br/></th>
+<th><strong>여정의 콘텐츠 결정 활동</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 여정 캔버스에서 전용 콘텐츠 결정 활동을 통해 여정에 개인화된 오퍼를 포함하고 조건 및 사용자 지정 작업을 포함한 여정 활동에 사용할 수 있습니다.</p>
+<p>이제 여정 캔버스에서 전용 [콘텐츠 결정] 활동을 통해 개인화된 오퍼를 여정에 포함하고 조건 및 사용자 정의 액션을 포함한 여정 활동에 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/content-decision.gif">
 <p>이 기능은 일부 조직에서만 사용할 수 있으며(제한된 가용성) 향후 릴리스에서 전체 사용자를 대상으로 공개될 예정입니다.</p>
 <p>자세한 내용은 <a href="../building-journeys/content-decision.md">세부 설명서</a>를 참조하십시오.</p>
@@ -224,33 +224,33 @@ ht-degree: 66%
 
 * **채널 규칙 세트**
 
-   * **시간 제한을 위한 사용자 지정 기간 창** - 이제 채널 규칙 집합 구성 화면에서 새 **간격** 필드를 사용할 수 있으므로 지정된 기간에 따라 여러 날, 주 또는 달에 걸쳐 빈도 제한 규칙을 적용할 수 있습니다.
+   * 캡핑의 **사용자 정의 기간** - 채널 규칙 세트 구성 화면에 새로 추가된 **모든**(반복 주기) 필드를 사용하여 지정된 기간에 따라 여러 날, 주 또는 달에 걸쳐 빈도 상한 규칙을 적용할 수 있습니다.
 
-   * **시간별 재설정 최대 가용량** - 이제 채널 규칙 집합에 시간별로 최대 가용량 설정을 적용할 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 고객 지원 센터에 문의하여 활성화하십시오.
+   * **시간 단위 캡핑 빈도 재설정** - 이제 채널 규칙 세트에 대해 시간 단위로 캡핑을 적용할 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 이 기능을 활성화하려면 고객 지원 센터에 문의하십시오.
 
-   * **일별 기간** - 이전에는 제한된 가용성에서 사용할 수 있었지만, 이제 채널 규칙 세트의 &quot;일별&quot; 빈도 제한을 모든 고객이 사용할 수 있습니다.
+   * **일별 기간** - 이전에는 제한된 가용성으로 사용할 수 있던 채널 규칙 세트의 “일별” 빈도 제한을 이제 모든 고객이 사용할 수 있습니다.
 
   자세한 내용은 [세부 설명서](../conflict-prioritization/channel-capping.md)를 참조하십시오.
 
 * **코드 기반 경험**
 
-   * 이제 코드 기반 경험 콘텐츠 템플릿에서 의사 결정 정책을 추가할 수 있습니다. 이 템플릿을 사용하여 편집 가능한 양식 필드의 오퍼를 활용할 수 있습니다. [자세히 보기](../code-based/code-based-form-fields.md)
+   * 이제 코드 기반 경험 콘텐츠 템플릿에 결정 정책을 추가할 수 있습니다. 템플릿에서 이 결정 정책으로 편집 가능한 양식 필드의 오퍼를 활용할 수 있습니다. [자세히 보기](../code-based/code-based-form-fields.md)
 
-   * 이제 코드 기반 경험 여정 또는 캠페인 버전 화면에서 개인화 편집기를 열지 않고도 의사 결정 정책을 직접 추가할 수 있습니다. [자세히 보기](../code-based/create-code-based.md#edit-code)
+   * 이제 코드 기반 경험 여정 또는 캠페인 편집 화면에서 개인화 편집기를 열지 않고도 결정 정책을 직접 추가할 수 있습니다. [자세히 보기](../code-based/create-code-based.md#edit-code)
 
 * **이메일 디자이너의 사용자 정의 CSS 지원**
 
-  이제 Journey Optimizer을 사용하여 이메일 Designer 내에서 바로 이메일 콘텐츠에 사용자 지정 CSS를 추가할 수 있습니다. [자세히 보기](../email/custom-css.md)
+  이제 Journey Optimizer의 [이메일 디자이너] 내에서 바로 이메일 콘텐츠에 사용자 정의 CSS를 추가할 수 있습니다. [자세히 보기](../email/custom-css.md)
 
 * **캠페인에 새로운 탭 탐색 적용**
 
-  새로운 탐색 패턴을 통해 콘텐츠 작성에 보다 빠르게 액세스하고 캠페인 간 설정을 더욱 확장할 수 있습니다. [자세히 보기](../campaigns/create-campaign.md)
+  새로운 탐색 패턴을 통해 콘텐츠 작성에 보다 빠르게 액세스하고 여러 캠페인 간에 설정을 더욱 확장할 수 있습니다. [자세히 보기](../campaigns/create-campaign.md)
 
-* **결정**
+* **의사 결정**
 
-   * **샌드박스 복사 및 의사 결정**(사용 가능한 날짜: 2025년 6월 3일) - 이제 의사 결정 개체를 샌드박스 간에 복사할 수 있으므로 테스트 및 배포 워크플로를 간소화할 수 있습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#decisioning)
+   * **샌드박스 복사 및 결정**(사용 가능한 날짜: 2025년 6월 3일) - 이제 결정 오브젝트를 샌드박스 간에 복사할 수 있으므로 테스트 워크플로및 배포 워크플로가 간소화됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **의사 결정 규칙에 대한 의사 결정 항목 특성 지원**(사용 가능한 날짜: 2025년 6월 4일) - 이제 의사 결정 항목 특성을 활용하여 의사 결정 규칙을 만들 수 있습니다. [자세히 보기](../experience-decisioning/rules.md#create)
+   * **결정 규칙에서 결정 항목 속성 지원**(사용 가능한 날짜: 2025년 6월 4일) - 이제 결정 항목 속성을 활용하여 결정 규칙을 만들 수 있습니다. [자세히 보기](../experience-decisioning/rules.md#create)
 
 * **Interactive Message Execution API 업데이트** - 사용 가능한 날짜: 2025년 6월 6일
 
