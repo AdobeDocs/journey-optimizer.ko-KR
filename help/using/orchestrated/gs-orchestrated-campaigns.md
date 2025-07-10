@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3bbbc09e05958579782e8e70974a241f1154d319
+source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '498'
 ht-degree: 6%
 
 ---
@@ -43,21 +43,16 @@ ht-degree: 6%
 
 Campaign Orchestration은 다음 네 가지 주요 요소를 기반으로 구축됩니다.
 
-1. **온디맨드 대상**
-
-   데이터 세트 간에 즉시 쿼리하여 데이터 유형과 차원의 모든 조합을 사용하여 대상 세그먼트를 만듭니다.
-
-1. **다중 엔터티 세분화 및 보내기**
-
-   사용자 기반 캠페인을 넘어 제품 카탈로그, 스토어 위치 또는 서비스 데이터와 같은 엔티티를 사용하여 정확하게 타겟팅할 수 있습니다.
-
-1. **미리 전송 가시성 및 정밀도**
-
-   실행 전에 정확한 세그먼테이션 수와 전체 캠페인 범위를 가져와 정확성과 신뢰도를 보장합니다.
-
-1. **여러 단계 캠페인 워크플로**
-
-   일별 메시지부터 계절별 프로모션 또는 주요 제품 출시와 같은 복잡한 캠페인에 이르기까지 여러 단계로 구성된 캠페인을 디자인할 수 있습니다.
+<table>
+<tr style="border: 0;">
+<td><img alt="온디맨드 대상" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>온디맨드 대상</b><br/>데이터 집합 간에 즉시 쿼리하여 데이터 형식과 차원의 조합을 사용하여 대상 세그먼트를 만듭니다.</td></tr>
+<tr style="border: 0;">
+<td><img alt="다중 엔티티 세그멘테이션 및 전송" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>다중 엔터티 세분화 및 전송</b><br/>개인 기반 캠페인을 넘어 제품 카탈로그, 스토어 위치 또는 서비스 데이터와 같은 엔터티를 사용하여 정확하게 타깃팅하십시오.</td></tr>
+<tr style="border: 0;">
+<td><img alt="사전 전송 가시성 및 정밀도" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>가시성과 정밀도를 미리 전송</b><br/>실행 전에 정확한 세분화 수와 전체 캠페인 범위를 가져와 정확성과 신뢰도를 보장합니다.</td></tr>
+<tr style="border: 0;">
+<td><img alt="여러 단계 캠페인 워크플로" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>여러 단계 캠페인 워크플로</b><br/>일일 메시지부터 계절별 판촉 행사 또는 주요 제품 출시와 같은 복잡한 캠페인에 이르기까지 여러 단계 캠페인을 디자인합니다.</td></tr>
+</table>
 
 ## 오케스트레이션된 캠페인 및 여정
 
