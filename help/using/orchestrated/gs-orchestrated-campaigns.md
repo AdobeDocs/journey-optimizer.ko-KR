@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
+source-git-commit: e6944928e40b471a86085c126ff678002357e66c
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 6%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
@@ -32,26 +32,19 @@ ht-degree: 6%
 
 크로스 채널 마케팅은 필수적이지만 오케스트레이션된 캠페인을 통해 원활하게 이루어집니다. 드래그하여 놓는 시각적 인터페이스를 통해 세그먼테이션에서 메시지 게재에 이르기까지 여러 채널에 걸쳐 복잡한 마케팅 워크플로우를 디자인하고 자동화할 수 있습니다. 속도, 제어 및 효율성을 위해 구축된 하나의 직관적인 환경에서 모든 작업이 수행됩니다.
 
-이 모듈은 **일괄 캠페인 오케스트레이션**&#x200B;을(를) [!DNL Journey Optimizer]&#x200B;(으)로 가져와서 다음을 수행할 수 있습니다.
-
-* **여러 단계 캠페인 구축 및 실행**(예: 계절별 프로모션, 새로운 제품 출시),
-* 모든 채널에서 **개인화되고 일관적인 메시징**&#x200B;을 제공합니다.
-* **세그먼테이션, 파일 처리 및 작업 관리**&#x200B;를 한 곳에서 조정하고,
-* 승인 및 작업 할당을 통해 공동 작업 권한 부여
-
 ## 핵심 기능
 
 Campaign Orchestration은 다음 네 가지 주요 요소를 기반으로 구축됩니다.
 
-<table>
+<table style="table-layout:fixed">
 <tr style="border: 0;">
-<td><img alt="온디맨드 대상" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>온디맨드 대상</b><br/>데이터 집합 간에 즉시 쿼리하여 데이터 형식과 차원의 조합을 사용하여 대상 세그먼트를 만듭니다.</td></tr>
+<td><img alt="온디맨드 대상" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>온디맨드 대상</b><br/>데이터 집합 간에 즉시 쿼리하여 데이터 형식과 차원의 조합을 사용하여 대상 세그먼트를 만듭니다.</td></tr>
 <tr style="border: 0;">
-<td><img alt="다중 엔티티 세그멘테이션 및 전송" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>다중 엔터티 세분화 및 전송</b><br/>개인 기반 캠페인을 넘어 제품 카탈로그, 스토어 위치 또는 서비스 데이터와 같은 엔터티를 사용하여 정확하게 타깃팅하십시오.</td></tr>
+<td><img alt="다중 엔티티 세그멘테이션 및 전송" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>다중 엔터티 세분화 및 전송</b><br/>개인 기반 캠페인을 넘어 제품 카탈로그, 스토어 위치 또는 서비스 데이터와 같은 엔터티를 사용하여 정확하게 타깃팅하십시오.</td></tr>
 <tr style="border: 0;">
-<td><img alt="사전 전송 가시성 및 정밀도" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>가시성과 정밀도를 미리 전송</b><br/>실행 전에 정확한 세분화 수와 전체 캠페인 범위를 가져와 정확성과 신뢰도를 보장합니다.</td></tr>
+<td><img alt="사전 전송 가시성 및 정밀도" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>가시성과 정밀도를 미리 전송</b><br/>실행 전에 정확한 세분화 수와 전체 캠페인 범위를 가져와 정확성과 신뢰도를 보장합니다.</td></tr>
 <tr style="border: 0;">
-<td><img alt="여러 단계 캠페인 워크플로" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>여러 단계 캠페인 워크플로</b><br/>일일 메시지부터 계절별 판촉 행사 또는 주요 제품 출시와 같은 복잡한 캠페인에 이르기까지 여러 단계 캠페인을 디자인합니다.</td></tr>
+<td><img alt="여러 단계 캠페인 워크플로" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>여러 단계 캠페인 워크플로</b><br/>일일 메시지부터 계절별 판촉 행사 또는 주요 제품 출시와 같은 복잡한 캠페인에 이르기까지 여러 단계 캠페인을 디자인합니다.</td></tr>
 </table>
 
 ## 오케스트레이션된 캠페인 및 여정
