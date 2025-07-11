@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 33%
 
 ---
@@ -33,6 +33,12 @@ ht-degree: 33%
 
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+설명서 진행 중
+
+>[!ENDSHADEBOX]
 
 마케터는 직관적인 인터페이스를 통해 복잡한 대상 세그먼트를 만들 수 있으므로 다양한 기준과 행동을 기반으로 사용자를 타겟팅하여 캠페인을 보다 효과적으로 조정할 수 있습니다.
 

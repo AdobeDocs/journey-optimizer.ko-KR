@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '349'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,13 @@ ht-degree: 4%
 
 +++
 
+<br/>
+
+>[!BEGINSHADEBOX]
+
+설명서 진행 중
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 대상자 저장]** 활동은 오케스트레이션된 캠페인에서 이전에 생성된 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있는 **[!UICONTROL 타깃팅]** 활동입니다. 이 대상자를 만들면 응용 프로그램 대상자 목록에 추가되며 **[!UICONTROL 대상자]** 메뉴에서 액세스할 수 있습니다.
 

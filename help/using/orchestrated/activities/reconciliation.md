@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '631'
 ht-degree: 32%
 
 ---
@@ -49,6 +49,12 @@ ht-degree: 32%
 
 <br/>
 
+>[!BEGINSHADEBOX]
+
+설명서 진행 중
+
+>[!ENDSHADEBOX]
+
 **[!UICONTROL 조정]** 활동은 **[!UICONTROL 타깃팅]** 활동으로, Adobe Journey Optimizer의 데이터와 작업 테이블의 데이터(예: 외부 파일에서 로드된 데이터) 간의 링크를 정의할 수 있습니다.
 
 **[!UICONTROL 데이터 보강]** 활동을 사용하면 오케스트레이션된 캠페인에 데이터를 추가할 수 있습니다. 예를 들어 여러 소스의 데이터를 결합하거나 임시 리소스에 연결할 수 있습니다. 반대로 **[!UICONTROL 조정]** 활동은 미확인 또는 외부 데이터와 데이터베이스의 기존 리소스를 일치시키는 데 사용됩니다.
@@ -72,7 +78,7 @@ ht-degree: 32%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="타기팅 차원 선택"
 >abstract="조정할 인바운드 데이터의 타기팅 차원을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=ko#targeting-dimensions" text="타기팅 차원"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="타기팅 차원"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"

@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1805'
 ht-degree: 8%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 8%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+설명서 진행 중
+
+>[!ENDSHADEBOX]
 
 오케스트레이션된 캠페인에 대한 규칙을 작성하는 주요 단계는 다음과 같습니다.
 
@@ -105,7 +111,7 @@ ht-degree: 8%
    | 다음과 유사 | 포함 연산자와 유사하게 값에 % 와일드카드 문자를 삽입할 수 있습니다. | &#39;Jon%s&#39;과(와) 같은 성(@lastName) 와일드카드 문자는 &quot;Joker&quot;로 작동하여 &quot;Jones&quot;와 같은 이름을 찾습니다. |
    | 비슷하지 않음 | 포함 연산자와 유사하게 값에 % 와일드카드 문자를 삽입할 수 있습니다. | 성(@lastName)은 &#39;Smi%h&#39;와 다릅니다. 성이 &#39;Smith&#39;인 수신자는 반환되지 않습니다. |
 
-   +++
++++
 
 1. **값** 필드에서 예상 값을 정의합니다. 표현식 편집기를 사용하여 데이터베이스 및 도우미 함수의 필드를 사용하여 표현식을 수동으로 정의할 수도 있습니다. 이렇게 하려면 식 편집기 아이콘을 표시하는 ![이미지](assets/do-not-localize/rule-builder-icon-editor.svg) 아이콘을 클릭합니다. [표현식을 편집하는 방법을 알아봅니다](../orchestrated/edit-expressions.md)
 
@@ -115,7 +121,7 @@ ht-degree: 8%
 
    ![사전 설정 옵션을 표시하는 이미지](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### 연결된 테이블에 대한 사용자 지정 조건(1-1 및 1-N 링크){#links}
 

@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '347'
 ht-degree: 25%
 
 ---
@@ -36,8 +36,13 @@ ht-degree: 25%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+설명서 진행 중
+
+>[!ENDSHADEBOX]
 
 마케터는 오케스트레이션된 캠페인 내에서 한 데이터 엔티티에서 관련 엔티티로 전환하여 대상 타깃팅을 향상시킬 수 있습니다. 이를 통해 사용자 프로필을 넘어 구매, 예약 또는 기타 상호 작용과 같은 특정 행동에 집중할 수 있습니다.
 
@@ -65,6 +70,6 @@ ht-degree: 25%
 
 **[!UICONTROL 대상자 빌드]** 활동으로 시작하여 **[!UICONTROL 위시리스트]** 타겟팅 차원을 사용하여 모든 관련 위시리스트를 식별합니다.
 
-그런 다음 **[!UICONTROL 차원 변경]** 활동을 추가하여 타겟팅 차원을 **[!UICONTROL 위시리스트]**&#x200B;에서 **[!UICONTROL 수신자] (으)로 전환합니다.** 이 단계에서는 오케스트레이션된 캠페인 타겟이 해당 위시리스트에 연결된 올바른 프로필을 사용하도록 하여 의도한 프로필로 SMS를 보낼 수 있도록 합니다.
+그런 다음 **[!UICONTROL 차원 변경]** 활동을 추가하여 타겟팅 차원을 **[!UICONTROL 위시리스트]**&#x200B;에서 **[!UICONTROL 수신자](으)로 전환합니다.** 이 단계에서는 오케스트레이션된 캠페인 타겟이 해당 위시리스트에 연결된 올바른 프로필을 사용하도록 하여 의도한 프로필로 SMS를 보낼 수 있도록 합니다.
 
 ![](../assets/orchestrated-change-dimension-example.png)

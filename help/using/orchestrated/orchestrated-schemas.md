@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '159'
 ht-degree: 37%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 37%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+설명서 진행 중
+
+>[!ENDSHADEBOX]
 
 스키마는 데이터의 구조와 형식을 나타내고 검증합니다. 실제 오브젝트(예: 사람)에 대한 추상적인 정의를 제공하고 해당 오브젝트의 각 인스턴스에 포함되어야 하는 데이터(예: 이름, 생일 등)를 간략하게 설명해 줍니다.
 

@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '283'
 ht-degree: 13%
 
 ---
@@ -32,8 +32,13 @@ ht-degree: 13%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+설명서 진행 중
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 대기]** 활동은 오케스트레이션된 캠페인에서 두 활동 간의 지연을 유도하는 데 사용되는 **[!UICONTROL 흐름 제어]** 구성 요소입니다. 이렇게 하면 후속 활동이 시간을 더 잘 맞추고 사용자 참여와 더 관련이 있는지 확인하는 데 도움이 됩니다.
 
