@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 34788c05cdcdcbc0c261df3f931a5bc1786fff5f
+source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '454'
 ht-degree: 7%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 7%
 [!DNL Adobe Journey Optimizer]의 Campaign Orchestration은 정교하고 브랜드에서 시작한 마케팅 캠페인을 채널 전체에 걸쳐 지원하므로 규모에 맞게 참여, 매출 및 고객 충성도를 높일 수 있습니다.
 
 크로스 채널 마케팅은 필수적이지만 오케스트레이션된 캠페인을 통해 원활하게 이루어집니다. 드래그하여 놓는 시각적 인터페이스를 통해 세그먼테이션에서 메시지 게재에 이르기까지 여러 채널에 걸쳐 복잡한 마케팅 워크플로우를 디자인하고 자동화할 수 있습니다. 속도, 제어 및 효율성을 위해 구축된 하나의 직관적인 환경에서 모든 작업이 수행됩니다.
+
+![](assets/canvas-example-diagram.png){zoomable="yes"}
 
 ## 핵심 기능
 
@@ -61,13 +63,13 @@ Campaign Orchestration은 다음 네 가지 주요 요소를 기반으로 구축
 
 오케스트레이션된 캠페인 기능에 액세스할 수 없는 경우 관리자에게 연락하여 필요한 권한을 요청하십시오.
 
-➡️[오케스트레이션된 캠페인과 관련된 제품 프로필에 대해 자세히 알아보세요](../administration/ootb-product-profiles.md)
+➡️ [오케스트레이션된 캠페인과 관련된 제품 프로필에 대해 자세히 알아보세요](../administration/ootb-product-profiles.md)
 
 ## 더 자세히 알아보기
 
 이제 오케스트레이션된 캠페인이 무엇인지 이해했으므로, 이 기능을 사용하기 시작하려면 이들 설명서 섹션을 자세히 살펴보십시오.
 
-<table style="table-layout:fixed"><tr style="border: 0;">
+&lt;table&quot;><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="워크플로 액세스 및 관리" src="assets/do-not-localize/workflow-access.jpeg">
