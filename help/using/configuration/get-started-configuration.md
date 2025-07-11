@@ -9,9 +9,9 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 구성, 구성하기, 메시지, 채널, 샌드박스, optimizer
-source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
+source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 45%
 
 ---
@@ -19,8 +19,12 @@ ht-degree: 45%
 
 # 채널 구성 시작 {#start-optimizer-configuration}
 
-[!DNL Journey Optimizer]에 처음 액세스하면 프로덕션 샌드박스가 프로비저닝되고 계약에 따라 특정 수의 IP가 할당됩니다.
+>[!CONTEXTUALHELP]
+>id="ajo_channels_rate_controls"
+>title="채널에 대한 비율 제어"
+>abstract="채널에 대한 비율 제어"
 
+[!DNL Journey Optimizer]에 처음 액세스하면 프로덕션 샌드박스가 프로비저닝되고 계약에 따라 특정 수의 IP가 할당됩니다.
 
 메시지를 보내려면 아래 나열된 구성 단계를 수행해야 합니다.
 
