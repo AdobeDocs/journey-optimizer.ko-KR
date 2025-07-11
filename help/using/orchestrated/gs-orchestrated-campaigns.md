@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
+source-git-commit: c39248867a5e9f21ef4c87122585226104f4a587
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '453'
 ht-degree: 7%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 7%
 
 Campaign Orchestration은 다음 네 가지 주요 요소를 기반으로 구축됩니다.
 
-<table>
+<table style="table-layout:auto">
 <tr style="border: 0;">
 <td><img alt="온디맨드 대상" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>온디맨드 대상</b><br/>데이터 집합 간에 즉시 쿼리하여 데이터 형식과 차원의 조합을 사용하여 대상 세그먼트를 만듭니다.</td></tr>
 <tr style="border: 0;">
@@ -69,7 +69,7 @@ Campaign Orchestration은 다음 네 가지 주요 요소를 기반으로 구축
 
 이제 오케스트레이션된 캠페인이 무엇인지 이해했으므로, 이 기능을 사용하기 시작하려면 이들 설명서 섹션을 자세히 살펴보십시오.
 
-&lt;table&quot;><tr style="border: 0; text-align: center;">
+<table><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="워크플로 액세스 및 관리" src="assets/do-not-localize/workflow-access.jpeg">
