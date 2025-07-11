@@ -10,7 +10,8 @@ level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 hide: true
 hidefromtoc: true
-source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
+exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
+source-git-commit: a1172d331aff538e867428b36ab913b4ae9c8f7e
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 2%
@@ -128,3 +129,4 @@ ht-degree: 2%
 * 업로드하기 전에 인증서가 모든 기술 요구 사항을 충족하는지 확인하십시오.
 
 * 인증서가 올바른 형식으로 업로드되었는지 확인하십시오.
+
