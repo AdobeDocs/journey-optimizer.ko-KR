@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: cc0ffd008052fcb0ce06f6cdff0f2adb5c040568
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 92%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer는 SMS 서비스 공급자(또는 SMS 게이트웨이 �
 
   +++비디오 참조
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422697?learn=on&captions=kor)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -79,6 +79,15 @@ Adobe Journey Optimizer는 SMS 서비스 공급자(또는 SMS 게이트웨이 �
 
   +++비디오 참조
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430374?quality=12&learn=on&captions=kor)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+
++++
+
+* 아래 비디오는 사용자 정의 SMS 공급자를 사용하여 Adobe Journey Optimizer에서 브랜드 대화형 RCS 메시지를 구성하고 전송하는 데 도움이 됩니다.
+
+
+  +++비디오 참조
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
