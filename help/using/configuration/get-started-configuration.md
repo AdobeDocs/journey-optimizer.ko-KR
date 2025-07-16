@@ -12,7 +12,7 @@ keywords: 구성, 구성하기, 메시지, 채널, 샌드박스, optimizer
 source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 45%
+ht-degree: 48%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_rate_controls"
->title="채널에 대한 비율 제어"
->abstract="채널에 대한 비율 제어"
+>title="채널에 대한 요율 제어"
+>abstract="채널에 대한 요율 제어"
 
 [!DNL Journey Optimizer]에 처음 액세스하면 프로덕션 샌드박스가 프로비저닝되고 계약에 따라 특정 수의 IP가 할당됩니다.
 

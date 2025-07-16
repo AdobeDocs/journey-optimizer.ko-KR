@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="오케스트레이션된 캠페인 게시"
->abstract="캠페인을 시작하려면 먼저 캠페인을 게시해야 합니다. 게시하기 전에 모든 오류가 지워졌는지 확인하십시오."
+>abstract="캠페인을 시작하려면 먼저 캠페인을 게시해야 합니다. 게시하기 전에 모든 오류가 해결되었는지 확인하십시오."
 
 +++ 목차
 

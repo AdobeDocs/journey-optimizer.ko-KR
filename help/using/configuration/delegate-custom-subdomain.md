@@ -14,7 +14,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: a1172d331aff538e867428b36ab913b4ae9c8f7e
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 2%
+ht-degree: 22%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_dns"
 >title="일치하는 DNS 레코드 생성"
->abstract="사용자 지정 하위 도메인을 Adobe에 위임하려면 Journey Optimizer 인터페이스에 표시된 이름 서버 정보를 도메인 호스팅 솔루션에 복사하여 붙여 넣어야 일치하는 DNS 레코드를 생성할 수 있습니다."
+>abstract="사용자 정의 하위 도메인을 Adobe에 위임하려면 Journey Optimizer 인터페이스에 표시된 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다."
 
 1. DNS 서버에 배치할 레코드 목록이 표시됩니다. 이러한 레코드를 하나씩 복사하거나 CSV 파일을 다운로드하여 복사합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom-ssl"
 >title="인증서 서명 요청 생성"
->abstract="새 사용자 정의 하위 도메인을 설정할 때 Journey Optimizer에 업로드해야 하는 SSL 인증서를 가져오려면 CSR(인증서 서명 요청)을 생성하고 입력한 다음 인증 기관으로 보내야 합니다."
+>abstract="새로운 사용자 정의 하위 도메인을 설정할 때 인증서 서명 요청(CSR)을 생성하고, 이를 작성한 후 인증 기관으로 보내 Journey Optimizer에 업로드하는 데 필요한 SSL 인증서를 받아야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
@@ -94,7 +94,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"
 >title="피드백 루프 단계 완료"
->abstract="Yahoo로 이동! Sender Hub에서 양식을 작성하여 도메인 소유권을 확인합니다. 아래 나열된 FBL 보고 이메일 주소를 입력하고 수신할 OTP를 사용하여 Yahoo!의 소유권을 확인합니다. 발신자 허브."
+>abstract="Yahoo!로 이동 Sender Hub에서 양식을 작성하여 도메인 소유권을 확인합니다. 아래 나열된 FBL 보고 이메일 주소를 입력하고, Yahoo!에서 소유권을 확인하기 위해 수신된 OTP를 사용합니다. Sender Hub."
 
 1. [Yahoo!로 이동 보낸 사람 허브 ](https://senders.yahooinc.com/) 웹 사이트에서 도메인 소유권을 확인하는 데 필요한 양식을 입력하십시오.
 
@@ -110,7 +110,7 @@ ht-degree: 2%
    >
    >OTP 요청은 평일에만 수행할 수 있습니다. 주말에는 지원이 없습니다. <!--Add times + timezone-->
 
-1. Yahoo!에서 OTP 입력 발신자 허브.
+1. Yahoo!에서 OTP 입력 Sender Hub.
 
 1. 피드백 루프 단계를 모두 완료했는지 확인합니다.
 
