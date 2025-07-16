@@ -6,7 +6,7 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: b1bee7a5ee05e0e535a982c31bafafdc760d21ae
+source-git-commit: 811a04c1ce74627b48143da4cd78d6cc644f4ba5
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -39,6 +39,8 @@ ht-degree: 1%
 
 * **[!UICONTROL 메시지 피드백]**: 게재 관련 이벤트(예: 보낸 메시지, 연 메시지, 반송된 메시지 등)를 캡처합니다.
 * **[!UICONTROL 전자 메일 추적]**: 사용자 작업(예: 클릭 및 열기)을 캡처합니다.
+
+![](assets/do-not-localize/retarget-schema.png)
 
 ## 피드백 기반 리타겟팅 규칙 만들기 {#feedback-retarget}
 
@@ -102,7 +104,7 @@ ht-degree: 1%
 
       캔버스에서 활동 옆에 있는 ![정보 아이콘](assets/do-not-localize/info-icon.svg)을 클릭하여 작업 이름을 찾을 수 있습니다.
 
-   ++
++++
 
 1. 또는 Campaign 속성에서 찾을 수 있는 **[!UICONTROL Campaign ID]**(UUID)별로 필터링할 수도 있습니다.
 
