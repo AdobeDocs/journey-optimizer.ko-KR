@@ -6,7 +6,7 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 175762a1d843f55dd9dcbb1cb0ac107a27a370b0
+source-git-commit: 5c23b4e41dcf426ca458f75057b3653175b2ade8
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 1%
@@ -40,7 +40,8 @@ ht-degree: 1%
 * **[!UICONTROL 메시지 피드백]**: 게재 관련 이벤트(예: 보낸 메시지, 연 메시지, 반송된 메시지 등)를 캡처합니다.
 * **[!UICONTROL 전자 메일 추적]**: 사용자 작업(예: 클릭 및 열기)을 캡처합니다.
 
-![](assets/do-not-localize/retarget-schema.png)
+![](assets/do-not-localize/retarget-schema.png){zoomable="yes"}
+
 
 ## 피드백 기반 리타겟팅 규칙 만들기 {#feedback-retarget}
 
@@ -54,7 +55,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 규칙 빌더]**&#x200B;에서 **[!UICONTROL 조건 추가]**&#x200B;를 클릭하고 **[!UICONTROL 특성 선택기]**&#x200B;에서 **[!UICONTROL 메시지 피드백]**&#x200B;을 선택합니다. **[!UICONTROL 확인]**&#x200B;을 클릭하여 **조건과 같은**&#x200B;메시지 피드백을 만듭니다.
 
-   ![](assets/retarget_1.png)
+   ![](assets/retarget_1.png){zoomable="yes"}
 
 1. 메시지 게재 이벤트를 대상으로 **[!UICONTROL 피드백 상태]** 특성을 선택하십시오.
 
@@ -64,11 +65,11 @@ ht-degree: 1%
 
    1. **[!UICONTROL 피드백 상태]** 특성을 검색하고 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
-      ![](assets/retarget_3.png)
+      ![](assets/retarget_3.png){zoomable="yes"}
 
    1. **[!UICONTROL 사용자 지정 조건]** 메뉴에서 **[!UICONTROL 값]** 드롭다운에서 추적할 게재 상태를 선택합니다.
 
-      ![](assets/retarget_4.png)
+      ![](assets/retarget_4.png){zoomable="yes"}
 
 +++
 
@@ -82,7 +83,7 @@ ht-degree: 1%
 
    1. **[!UICONTROL 오케스트레이션된 캠페인 이름]**&#x200B;을 선택하세요.
 
-      ![](assets/retarget_5.png)
+      ![](assets/retarget_5.png){zoomable="yes"}
 
    1. **[!UICONTROL 사용자 지정 조건]** 메뉴에서 **[!UICONTROL 값]** 필드에 캠페인 이름을 지정하십시오.
 
@@ -98,7 +99,7 @@ ht-degree: 1%
 
    1. **[!UICONTROL 오케스트레이션된 캠페인 작업 이름]**&#x200B;을 선택하십시오.
 
-      ![](assets/retarget_6.png)
+      ![](assets/retarget_6.png){zoomable="yes"}
 
    1. **[!UICONTROL 사용자 지정 조건]** 메뉴에서 **[!UICONTROL 값]** 필드에 캠페인 동작 이름을 지정하십시오.
 
@@ -110,7 +111,7 @@ ht-degree: 1%
 
 이제 피드백 기반 리타겟팅 규칙을 구성하여 전송, 열기, 반송 또는 스팸으로 표시된 것과 같은 이전 메시지의 게재 상태를 기반으로 수신자를 식별합니다. 이 대상자를 정의하면 [추적 기반 리타겟팅 규칙을 구성](#tracking-based)하여 사용자 상호 작용 데이터를 사용하여 후속 이메일을 추가하거나 타겟팅을 세분화할 수 있습니다.
 
-![](assets/retarget_9.png)
+![](assets/retarget_9.png){zoomable="yes"}
 
 
 ## 추적 기반 리타겟팅 규칙 만들기 {#tracking-based}
@@ -127,17 +128,17 @@ ht-degree: 1%
 
    **[!UICONTROL 확인]**&#x200B;을 클릭하여 **조건과 같은**&#x200B;전자 메일 추적을 만듭니다.
 
-   ![](assets/retarget_2.png)
+   ![](assets/retarget_2.png){zoomable="yes"}
 
 1. 수신자의 메시지 상호 작용을 타겟팅하려면 **[!UICONTROL 전자 메일 추적]** 특성에 연결된 다른 조건을 추가하고 **[!UICONTROL 상호 작용 유형]** 특성을 검색하십시오.
 
-   ![](assets/retarget_7.png)
+   ![](assets/retarget_7.png){zoomable="yes"}
 
 1. 사용자 지정 조건 옵션에서 연산자로 **[!UICONTROL 포함]**&#x200B;을 사용하고 사용 사례에 따라 하나 이상의 값을 선택합니다(예: **[!UICONTROL 열린 메시지]** 또는 **[!UICONTROL 클릭한 메시지 링크]**).
 
-   ![](assets/retarget_8.png)
+   ![](assets/retarget_8.png){zoomable="yes"}
 
 이제 **[!UICONTROL 전자 메일 추적]** 특성의 데이터를 사용하여 전자 메일 열기 또는 링크 클릭과 같은 이전 메시지와의 상호 작용을 기반으로 수신자를 타깃팅하는 추적 기반 재타깃팅 규칙을 구성했습니다. 이 대상자를 정의하면 [피드백 기반 리타겟팅 규칙](#feedback-retarget)과(와) 결합하여 전송, 반송 또는 스팸으로 표시된 메시지 결과를 포함하도록 후속 작업을 추가하거나 타겟팅을 세분화할 수 있습니다.
 
 
-![](assets/retarget_10.png)
+![](assets/retarget_10.png){zoomable="yes"}
