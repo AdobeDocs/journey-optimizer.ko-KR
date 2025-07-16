@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '422'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,11 @@ API 자격 증명을 만들고 구성한 후에는 SMS 및 MMS 메시지에 대�
 
 RCS 메시지는 [사용자 지정 SMS 공급자](sms-configuration-custom.md) 기능을 사용하여 Twilio를 통해 Adobe Journey Optimizer에서 지원됩니다. 이를 통해 캐러셀, 버튼 및 멀티미디어 컨텐츠와 같은 요소를 통합하여 검증된 비즈니스 프로필을 통해 풍부한 대화형 메시지를 전달할 수 있습니다.
 
+➡️ [Twilio가 Twilio 설명서에서 RCS를 지원하는 방법을 살펴봅니다](https://www.twilio.com/docs/rcs)
+
 Twilio에서 RCS 메시지를 사용하려면 사용자 지정 SMS 공급자를 통해 새 API 자격 증명을 구성해야 합니다. RCS에는 고유한 페이로드 형식이 필요하므로 기존 Twilio SMS 자격 증명은 호환되지 않습니다.
+
+Twilio로 RCS를 구성하려면:
 
 1. **Twilio에서 RCS 메시지 등록**
 

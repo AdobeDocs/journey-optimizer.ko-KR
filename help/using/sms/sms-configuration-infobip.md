@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '762'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Journey Optimizer을 사용하여 Infobip을 구성하려면 다음 단계를 �
    | 옵트아웃 메시지 | 옵트아웃 메시지로 자동 전송되는 사용자 지정 응답을 입력합니다. |
    | 도움말 키워드 | **도움말 메시지**&#x200B;를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력하십시오. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. |
    | 도움말 메시지 | **도움말 메시지**(으)로 자동으로 전송되는 사용자 지정 응답을 입력하십시오. |
-   | 이중 옵트인 키워드 | 이중 옵트인 프로세스를 트리거하는 키워드를 입력합니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. [SMS 이중 옵트인에 대해 자세히 알아보기](https://video.tv.adobe.com/v/3440286/?learn=on&captions=kor). |
+   | 이중 옵트인 키워드 | 이중 옵트인 프로세스를 트리거하는 키워드를 입력합니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. [SMS 이중 옵트인에 대해 자세히 알아보기](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | 이중 옵트인 메시지 | 이중 옵트인 확인에 대한 응답으로 자동으로 전송되는 사용자 지정 응답을 입력합니다. |
    | 주체 엔티티 ID | 할당된 DLT 주체 엔티티 ID를 입력합니다. |
    | 컨텐츠 템플릿 ID | 등록된 DLT 콘텐츠 템플릿 ID를 입력합니다. |
@@ -73,7 +73,11 @@ API 자격 증명을 만들고 구성한 후에는 SMS 및 MMS 메시지에 대�
 
 RCS 메시지는 [사용자 지정 SMS 공급자](sms-configuration-custom.md) 기능을 사용하여 Adobe Journey Optimizer에서 Infobip를 통해 지원됩니다. 이를 통해 캐러셀, 버튼 및 멀티미디어 컨텐츠와 같은 요소를 통합하여 검증된 비즈니스 프로필을 통해 풍부한 대화형 메시지를 전달할 수 있습니다.
 
+➡️ [Infobip이 Infobip 설명서에서 RCS를 지원하는 방법을 알아봅니다](https://www.infobip.com/docs/api/channels/rcs)
+
 Infobip을 사용하여 RCS 메시지를 활성화하려면 사용자 지정 SMS 공급자를 통해 새 API 자격 증명을 구성해야 합니다. RCS에는 고유한 페이로드 형식이 필요하므로 기존 Infobip SMS 자격 증명이 호환되지 않습니다.
+
+Infobip를 사용하여 RCS를 구성하려면:
 
 1. **Infobip를 통해 RCS에 대한 비즈니스 등록**
 
