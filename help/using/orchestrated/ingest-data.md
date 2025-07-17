@@ -6,9 +6,9 @@ description: SFTP, 클라우드 스토리지 또는 데이터베이스와 같이
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 25120dd71159d0233783ac4c189f528ff2c93ae3
+source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 7%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 7%
 </br>
 
 >[!BEGINSHADEBOX]
+
+</br>
+
+콘텐츠
 
 이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
 
@@ -57,7 +61,7 @@ Amazon S3 소스의 데이터를 Adobe Experience Platform으로 수집하도록
 
    * 새 계정 사용
 
-   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
