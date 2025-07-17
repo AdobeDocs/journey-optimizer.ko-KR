@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
+source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2523'
 ht-degree: 98%
 
 ---
@@ -182,7 +182,11 @@ ht-degree: 98%
       + [사용자 지정 작업 문제 해결](using/action/troubleshoot-custom-action.md)
 + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
    + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
-   + [구성 단계](using/orchestrated/configuration-steps.md)
+   + 관계형 스키마 및 데이터 세트 관리 {#schemas-datasets}
+      + [스키마 및 데이터 세트 시작](using/orchestrated/gs-schemas.md)
+      + [수동 스키마](using/orchestrated/manual-schema.md)
+      + [파일 업로드 스키마](using/orchestrated/file-upload-schema.md)
+      + [데이터 수집](using/orchestrated/ingest-data.md)
    + [오케스트레이션된 캠페인 액세스 및 관리](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + [가드레일 및 제한 사항](using/orchestrated/guardrails.md)
    + 첫 오케스트레이션된 캠페인 시작{#launch}
@@ -313,7 +317,7 @@ ht-degree: 98%
       + [다이렉트 메일 만들기](using/direct-mail/create-direct-mail.md)
       + [다이렉트 메일 메시지 확인 및 보내기](using/direct-mail/test-send-direct-mail.md)
       + [다이렉트 메일 구성](using/direct-mail/direct-mail-configuration.md)
-      + [여정과 DM 메시지 보내기](using/direct-mail/direct-mail-journeys.md)
+      + [여정을 통해 다이렉트 메일 메시지 보내기](using/direct-mail/direct-mail-journeys.md)
    + 웹 채널 {#web}
       + [웹 채널 시작](using/web/get-started-web.md)
       + 웹 채널 구성 {#configure-web-channel}
