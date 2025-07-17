@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: c5a0c6401add384685c9d7ab2c623076ea4bf793
+source-git-commit: aefc95b755074dfa043bad7dfd4acbd8dfb8e939
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 7%
@@ -53,8 +53,8 @@ ht-degree: 7%
 
 1. **스키마 이름**(예: `test_demo_ck001`)을 제공하십시오.
 1. **스키마 유형** 선택:
-   &#x200B;- **레코드 종류**(AGO 캠페인에 필요)
-   &#x200B;- **시계열**(여기에 해당되지 않음)
+   **레코드 종류**(AGO 캠페인에 필요)
+   **시계열**(여기에 해당되지 않음)
 1. 스키마 디자인 캔버스로 진행하려면 **마침**&#x200B;을 클릭하세요.
 
 ## 가져올 엔티티 및 필드 선택
