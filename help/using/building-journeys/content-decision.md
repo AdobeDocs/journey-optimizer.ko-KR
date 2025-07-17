@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 keywords: 활동, 의사 결정, 컨텐츠 결정, 의사 결정 정책, 캔버스, 여정
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
+source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1027'
 ht-degree: 3%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 3%
 
    여러 의사 결정 항목 및/또는 전략을 추가할 때 각 객체 또는 객체 그룹의 왼쪽에 숫자가 표시된 순차적 순서로 평가됩니다. 기본 시퀀스를 변경하려면 개체 및/또는 그룹을 드래그하여 놓아 원하는 대로 순서를 변경할 수 있습니다. [자세히 알아보기](../experience-decisioning/create-decision.md#evaluation-order)
 
-1. 선택적으로 대체 오퍼를 추가합니다. [자세히 알아보기](../experience-decisioning/create-decision.md#fallback)
+1. (선택 사항) 대체 오퍼를 추가합니다. [자세히 알아보기](../experience-decisioning/create-decision.md#fallback)
 
 1. 결정 정책을 검토하고 저장합니다.
 
@@ -85,7 +85,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL Orchestration]** 범주에서 **[!UICONTROL Condition]** 활동을 캔버스에 놓습니다. [자세히 알아보기](condition-activity.md#add-condition-activity)
 
-1. 필요한 경우 정의할 첫 번째 식에 해당하는 **[!UICONTROL Path1]**&#x200B;의 이름을 더 적절한 레이블로 변경합니다.
+1. (선택 사항) 정의한 첫 번째 식에 해당하는 **[!UICONTROL Path1]**&#x200B;의 이름을 더 적절한 레이블로 변경합니다.
 
 1. 이 첫 번째 경로에 대해 **[!UICONTROL 식]** 필드 내부를 클릭하거나 편집 아이콘을 사용하여 식을 추가하십시오.
 
@@ -103,7 +103,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >의사 결정 규칙에 사용되는 여정 경험 이벤트(컨텍스트 데이터) 또는 [오퍼 스키마](../experience-decisioning/catalogs.md#access-catalog-schema)에서 특성에 정의된 제한된 레이블은 DULE 또는 동의에 대한 정책을 위반하지 않습니다. [이 섹션](../action/action-privacy.md)에서 데이터 거버넌스 정책에 대해 자세히 알아보기
+   >의사 결정 규칙에 사용되는 여정 경험 이벤트(컨텍스트 데이터) 또는 [오퍼 스키마](../experience-decisioning/catalogs.md#access-catalog-schema)에서 특성에 정의된 모든 제한된 레이블은 DULE 또는 동의에 대한 정책을 위반합니다. [이 섹션](../action/action-privacy.md)에서 데이터 거버넌스 정책에 대해 자세히 알아보기
 
 1. 여정을 입력한 프로필에 대해 반환된 오퍼가 있는지 확인하려면 다음 구문과 함께 [listSize](functions/functionlistsize.md) 함수를 사용하십시오. `listSize(@decision{ContentdecisionName.items})>0`
 
