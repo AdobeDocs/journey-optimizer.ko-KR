@@ -6,10 +6,10 @@ description: DDL을 업로드하여 Adobe Experience Platform 내에서 관계�
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 5%
+source-wordcount: '172'
+ht-degree: 8%
 
 ---
 
@@ -31,30 +31,30 @@ ht-degree: 5%
 
 </br>
 
-콘텐츠
-
 이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
 
 >[!ENDSHADEBOX]
 
 이 안내서에서는 관계형 스키마를 생성하고, 오케스트레이션된 캠페인에 대한 데이터 세트를 구성하고, S3 소스를 통해 데이터를 수집하고, 수집된 데이터를 AP 플랫폼에서 쿼리하는 프로세스를 안내합니다.
 
-이 예제에서 설정에는 두 개의 주요 엔터티 **충성도 트랜잭션** 및 **충성도 보상**&#x200B;을(를) 통합하고 기존 핵심 엔터티 **수신자** 및 **브랜드**&#x200B;에 연결합니다.
+<!--
+In this example, the setup includes integrating two key entities, **Loyalty Transactions** and **Loyalty Rewards**, and link them to existing core entities **Recipients** and **Brands**. 
 
 ![](assets/do-not-localize/schema_admin.png)
 
-1. [관계형 스키마 및 관련 데이터 세트 만들기](#schema)
+1. [Create relational Schema and associated Dataset](#schema)
+    
+    Define the relational data model for orchestrated campaigns, including the **Loyalty Memberships**, **Loyalty Transactions** and **Loyalty Rewards** entities, along with required keys and versioning attributes.
 
-   필요한 키 및 버전 관리 특성과 함께 **충성도 멤버십**, **충성도 트랜잭션** 및 **충성도 보상** 엔터티를 포함하여 오케스트레이션된 캠페인에 대한 관계형 데이터 모델을 정의합니다.
+1. [Link schema](#link-schema)
 
-1. [링크 스키마](#link-schema)
+    Link the **Loyalty Transactions** entity to **Recipients**, and **Loyalty Rewards** to **Brands**, to build a connected data model that supports personalized customer journeys.
 
-   **충성도 트랜잭션** 엔터티를 **수신자**&#x200B;에 연결하고 **충성도 보상**&#x200B;을 **브랜드**&#x200B;에 연결하여 개인화된 고객 여정을 지원하는 연결된 데이터 모델을 구축합니다.
+1. [Ingest Data](#ingest)
 
-1. [데이터 수집](#ingest)
+    Bring data into Adobe Experience Platform from supported sources like SFTP, cloud storage, or databases.
 
-   SFTP, 클라우드 스토리지 또는 데이터베이스와 같이 지원되는 소스에서 Adobe Experience Platform으로 데이터를 가져옵니다.
-
+-->
 
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 

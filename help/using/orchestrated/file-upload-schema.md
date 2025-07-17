@@ -6,10 +6,10 @@ description: DDL을 업로드하여 Adobe Experience Platform 내에서 관계�
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: ea5ef4005be90973046d3f94ea4c2b92eb89ffb4
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 7%
 
 ---
 
@@ -37,119 +37,121 @@ ht-degree: 1%
 
 **충성도 멤버십**, **충성도 트랜잭션** 및 **충성도 보상**&#x200B;과 같은 스키마를 만들어 오케스트레이션된 캠페인에 필요한 관계형 데이터 모델을 정의합니다. 각 스키마에는 기본 키, 버전 관리 특성 및 **수신자** 또는 **브랜드**&#x200B;와 같은 참조 엔터티에 대한 적절한 관계가 포함되어야 합니다.
 
-스키마를 인터페이스를 통해 수동으로 생성하거나 DDL 파일을 사용하여 일괄로 가져올 수 있습니다.
+<!--
+Schemas can be created manually through the interface or imported in bulk using a DDL file.
 
-이 섹션에서는 DDL(데이터 정의 언어) 파일을 업로드하여 Adobe Experience Platform 내에서 관계형 스키마를 생성하는 방법에 대한 단계별 지침을 제공합니다. DDL 파일을 사용하면 테이블, 속성, 키 및 관계를 포함하여 데이터 모델의 구조를 미리 정의할 수 있습니다.
+This section provides step-by-step guidance on how to create a relational schema within Adobe Experience Platform by uploading a DDL (Data Definition Language) file. Using a DDL file allows you to define the structure of your data model in advance, including tables, attributes, keys, and relationships. 
 
-## DDL 파일 업로드{#ddl-upload}
+## Upload a DDL file{#ddl-upload}
 
-DDL 파일을 업로드하여 테이블, 속성, 키, 관계 등 데이터 모델의 구조를 미리 정의할 수 있습니다.
+By uploading a DDL file, you can define the structure of your data model in advance, including tables, attributes, keys, and relationships. 
 
-1. Adobe Experience Platform에 로그인.
+1. Log in to Adobe Experience Platform.
 
-1. **데이터 관리** > **스키마**&#x200B;로 이동합니다.
+1. Navigate to the **Data Management** > **Schema**.
 
-1. **스키마 만들기**&#x200B;를 클릭합니다.
+1. Click on **Create Schema**.
 
-1. 다음 두 스키마 유형 중에서 하나를 선택하라는 메시지가 표시됩니다.
+1. You will be prompted to select between two schema types:
 
-   * **표준**
-   * 오케스트레이션된 캠페인에 특히 사용되는 **Relational**
+    * **Standard**
+    * **Relational**, used specifically for orchestrated campaigns
 
-   ![](assets/admin_schema_1.png)
+    ![](assets/admin_schema_1.png)
 
-1. 엔터티 관계 다이어그램을 정의하고 스키마를 만들려면 **DDL 파일 업로드**&#x200B;를 선택하십시오.
+1. Select **Upload DDL file** to define an entity relationship diagram and create schemas.
 
-   테이블 구조에는 다음이 포함되어야 합니다.
-   * 하나 이상의 기본 키
-   * `lastmodified` 또는 `datetime` 형식의 `number` 필드와 같은 버전 식별자입니다.
+    The table structure must contain:
+    * At least one primary key
+    * A version identifier, such as a `lastmodified` field of type `datetime` or `number`.
 
-1. DDL 파일을 끌어다 놓고 **[!UICONTROL 다음]**&#x200B;을(를) 클릭합니다.
+1. Drag and drop your DDL file and click **[!UICONTROL Next]**.
 
-1. **[!UICONTROL 스키마 이름]**&#x200B;을(를) 입력하십시오.
+1. Type-in your **[!UICONTROL Schema name]**.
 
-1. 기본 키가 지정되도록 각 스키마와 해당 열을 설정합니다.
+1. Set up each schema and its columns, ensuring that a primary key is specified. 
 
-   `lastmodified`과(와) 같은 특성 하나를 버전 설명자로 지정해야 합니다. 일반적으로 `datetime`, `long` 또는 `int` 유형의 이 특성은 데이터 집합이 최신 데이터 버전으로 업데이트되도록 수집 프로세스에 필수적입니다.
+    One attribute, such as `lastmodified`, must be designated as a version descriptor. This attribute, typically of type `datetime`, `long`, or `int`, is essential for ingestion processes to ensure that the dataset is updated with the latest data version.
 
-   ![](assets/admin_schema_2.png)
+    ![](assets/admin_schema_2.png)
 
-1. 완료되면 **[!UICONTROL 완료]**&#x200B;를 클릭하세요.
+1. Click **[!UICONTROL Done]** once done.
 
-이제 캔버스 내에서 테이블 및 필드 정의를 확인할 수 있습니다. [아래 섹션에서 자세히 알아보기](#entities)
+You can now verify the table and field definitions within the canvas. [Learn more in the section below](#entities)
 
-## 관계 정의 {#relationships}
+## Define relationships {#relationships}
 
-스키마 내의 테이블 간에 논리적 연결을 정의하려면 아래 단계를 따르십시오.
+To define logical connections between tables within your schema, follow the steps below.
 
-1. 데이터 모델의 캔버스 보기에 액세스하고 연결할 두 테이블을 선택합니다
+1. Access the canvas view of your data model and choose the two tables you want to link
 
-1. Source 조인 옆에 있는 ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) 단추를 클릭한 다음 화살표를 드래그하여 Target 조인 방향으로 안내하여 연결을 설정합니다.
+1. Click the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
 
-   ![](assets/admin_schema_5.png)
+    ![](assets/admin_schema_5.png)
 
-1. 지정된 양식을 입력하여 링크를 정의하고 구성된 후 **적용**&#x200B;을 클릭합니다.
+1. Fill in the given form to define the link and click **Apply** once configured.
 
-   ![](assets/admin_schema_3.png)
+    ![](assets/admin_schema_3.png)
 
-   **카디널리티**:
+    **Cardinality**:
 
-   * **1-N**: 원본 테이블의 발생 항목 하나는 대상 테이블의 여러 발생 항목을 가질 수 있지만, 대상 테이블의 발생 항목 하나는 원본 테이블의 해당 발생 항목을 최대 한 개까지 가질 수 있습니다.
+     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
 
-   * **N-1**: 대상 테이블의 발생 항목 하나는 원본 테이블의 여러 발생 항목을 가질 수 있지만, 원본 테이블의 발생 항목 하나는 대상 테이블의 해당 발생 항목을 최대 한 개까지 가질 수 있습니다.
+    * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
 
-   * **1-1**: 원본 테이블의 발생 항목 하나는 대상 테이블의 해당 발생 항목을 최대 한 개까지 가질 수 있습니다.
+    * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
 
-1. 데이터 모델에 정의된 모든 링크는 캔버스 보기에서 화살표로 표시됩니다. 세부 정보를 보거나, 편집하거나, 필요에 따라 링크를 제거하려면 두 테이블 사이의 화살표를 클릭합니다.
+1. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
 
-   ![](assets/admin_schema_6.png)
+    ![](assets/admin_schema_6.png)
 
-1. 도구 모음을 사용하여 캔버스를 사용자 정의하고 조정합니다.
+1. Use the toolbar to customize and adjust your canvas.
 
-   ![](assets/toolbar.png)
+    ![](assets/toolbar.png)
 
-   * **확대**: 데이터 모델의 세부 정보를 더 명확하게 보려면 캔버스를 확대하십시오.
+    * **Zoom in**: Magnify the canvas to see details of your data model more clearly.
 
-   * **축소**: 데이터 모델을 더 넓게 보려면 캔버스 크기를 줄이십시오.
+    * **Zoom out**: Reduce the canvas size for a broader view of your data model.
 
-   * **보기 맞춤**: 표시 영역 내의 모든 스키마에 맞게 확대/축소를 조정합니다.
+    * **Fit view**: Adjust the zoom to fit all schemas within the visible area.
 
-   * **필터**: 캔버스 내에 표시할 스키마를 선택합니다.
+    * **Filter**: Choose which schema to display within the canvas.
 
-   * **자동 레이아웃 강제 적용**: 더 나은 조직을 위해 스키마를 자동으로 정렬합니다.
+    * **Force auto layout**: Automatically arrange schemas for better organization.
 
-   * **맵 표시**: 미니맵 오버레이를 전환하여 크거나 복잡한 스키마 레이아웃을 보다 쉽게 탐색할 수 있도록 합니다.
+    * **Display map**: Toggle a minimap overlay to help navigate large or complex schema layouts more easily.
 
-1. 완료되면 **저장**&#x200B;을 클릭하세요. 이 작업은 스키마 및 관련 데이터 세트를 만들고 오케스트레이션된 캠페인에서 사용할 데이터 세트를 활성화합니다.
+1. Click **Save** once done. This action creates the schemas and associated data sets and enables the data set for use in Orchestrated Campaigns.
 
-1. **[!UICONTROL 작업 열기]**&#x200B;를 클릭하여 만들기 작업의 진행 상황을 모니터링합니다. 이 프로세스는 DDL 파일에 정의된 테이블 수에 따라 몇 분 정도 걸릴 수 있습니다.
+1. Click **[!UICONTROL Open Jobs]** to monitor the progress of the creation job. This process may take couple minutes, depending on the number of tables defined in the DDL file. 
 
-   ![](assets/admin_schema_4.png)
+    ![](assets/admin_schema_4.png)
 
-## 링크 스키마 {#link-schema}
+## Link schema {#link-schema}
 
-**충성도 트랜잭션** 스키마와 **수신자** 스키마 간의 관계를 설정하여 각 트랜잭션을 올바른 고객 레코드와 연결합니다.
+Establish a relationship between the **loyalty transactions** schema and the **Recipients** schema to associate each transaction with the correct customer record.
 
-1. **[!UICONTROL 스키마]**(으)로 이동하여 이전에 만든 **충성도 트랜잭션**&#x200B;을(를) 엽니다.
+1. Navigate to **[!UICONTROL Schemas]** and open your previously create **loyalty transactions**.
 
-1. 고객 **[!UICONTROL 필드 속성]**&#x200B;에서 **[!UICONTROL 관계 추가]**&#x200B;를 클릭합니다.
+1. Click **[!UICONTROL Add Relationship]** from the Customer **[!UICONTROL Field properties]**.
 
-   ![](assets/schema_1.png)
+    ![](assets/schema_1.png)
 
-1. **[!UICONTROL 다대일]**&#x200B;을(를) 관계 **[!UICONTROL 유형]**(으)로 선택합니다.
+1. Select **[!UICONTROL Many-to-One]** as the relationship **[!UICONTROL Type]**.
 
-1. 기존 **수신자** 스키마에 대한 링크입니다.
+1. Link to the existing **Recipients** schema.
 
-   ![](assets/schema_2.png)
+    ![](assets/schema_2.png)
 
-1. **[!UICONTROL 현재 스키마의 관계 이름]** 및 **[!UICONTROL 참조 스키마의 관계 이름]**&#x200B;을 입력하십시오.
+1. Enter a **[!UICONTROL Relationship name from current schema]** and **[!UICONTROL Relationship name from reference schema]**.
 
-1. 변경 내용을 저장하려면 **[!UICONTROL 적용]**&#x200B;을 클릭하세요.
+1. Click **[!UICONTROL Apply]** to save your changes.
 
-계속해서 **충성도 보상** 스키마와 **브랜드** 스키마 간의 관계를 만들어 각 보상 항목을 적절한 브랜드와 연결합니다.
+Continue by creating a relationship between the **loyalty rewards** schema and the **Brands** schema to associate each reward entry with the appropriate brand.
 
 ![](assets/schema_3.png)
 
+-->
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
 If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: ea5ef4005be90973046d3f94ea4c2b92eb89ffb4
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 7%
+source-wordcount: '152'
+ht-degree: 9%
 
 ---
 
@@ -38,40 +38,41 @@ ht-degree: 7%
 
 사용자 인터페이스를 통해 직접 관계형 스키마를 생성할 수 있으므로 속성, 기본 키, 버전 관리 필드 및 관계를 세부적으로 구성할 수 있습니다.
 
-다음 예제에서는 오케스트레이션된 캠페인에 필요한 구조를 보여 주기 위해 충성도 멤버십 스키마를 수동으로 정의합니다.
+<!--
+The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
 
-1. Adobe Experience Platform에 로그인.
+1. Log in to Adobe Experience Platform.
 
-1. **데이터 관리** > **스키마**&#x200B;로 이동합니다.
+1. Navigate to the **Data Management** > **Schema**.
 
-1. **스키마 만들기**&#x200B;를 클릭합니다.
+1. Click on **Create Schema**.
 
-1. 다음 두 스키마 유형 중에서 하나를 선택하라는 메시지가 표시됩니다.
+1. You will be prompted to select between two schema types:
 
-   * **표준**
-   * 오케스트레이션된 캠페인에 특히 사용되는 **Relational**
+    * **Standard**
+    * **Relational**, used specifically for orchestrated campaigns
 
-   ![](assets/admin_schema_1.png)
+    ![](assets/admin_schema_1.png)
 
-1. **스키마 이름**(예: `test_demo_ck001`)을 제공하십시오.
-1. **스키마 유형** 선택:
-   **레코드 종류**(AGO 캠페인에 필요)
-   **시계열**(여기에 해당되지 않음)
-1. 스키마 디자인 캔버스로 진행하려면 **마침**&#x200B;을 클릭하세요.
+1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
+1. Choose **Schema Type**:
+    **Record Type** (required for AGO campaigns)
+    **Time Series** (not applicable here)
+1. Click **Finish** to proceed to the schema design canvas.
 
-## 가져올 엔티티 및 필드 선택
+## Select entities and fields to import
 
-1. 캔버스에서 스키마에 속성(필드)을 추가합니다.
-1. **기본 키**(필수)를 추가합니다.
-1. **버전 설명자** 특성 추가(CDC 지원용):
-**DateTime** 또는 **Numeric**(정수, Long, Short, 바이트) 형식이어야 합니다.
-일반적인 예: `last_modified`
+1. In the canvas, add attributes (fields) to your schema.
+1. Add a **Primary Key** (mandatory).
+1. Add a **Version Descriptor** attribute (for CDC support):
+     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
+     Common example: `last_modified`
 
-> **이유** **기본 키**&#x200B;는 각 레코드를 고유하게 식별하며, **버전 설명자**&#x200B;는 변경 내용을 추적하여 CDC(데이터 캡처 변경) 및 데이터 미러링을 지원합니다.
+> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
 
-1. 해당 필드를 **기본 키** 및 **버전 설명자**(으)로 표시하십시오.
-1. **저장**&#x200B;을 클릭합니다.
-
+1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
+1. Click **Save**.
+-->
 
 <!--
 
