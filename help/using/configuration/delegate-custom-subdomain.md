@@ -11,7 +11,7 @@ keywords: 하위 도메인, 위임, 도메인, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 6d2342b262ea10942f94c82f7d1539a2f6c7c82e
+source-git-commit: 64ff860167439e1b098918cd913f2361f7365a50
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 20%
@@ -127,6 +127,7 @@ ht-degree: 20%
    Adobe은 SSL CDN URL 유효성 검사 레코드를 생성합니다. 이 유효성 검사 레코드를 호스팅 플랫폼에 복사합니다. 호스팅 솔루션에서 이 레코드를 올바르게 만든 경우 &quot;확인...&quot; 상자를 선택합니다.
 
 1. Adobe에서 필요한 검사를 수행하도록 하려면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다. [자세히 알아보기](#submit-subdomain)
+
 
 ## 문제 해결 확인 목록 {#check-list}
 
