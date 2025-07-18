@@ -7,14 +7,14 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 9%
+source-wordcount: '735'
+ht-degree: 3%
 
 ---
 
-# 수동 스키마 {#manual-schema}
+# 수동 관계형 스키마 설정 {#manual-schema}
 
 +++ 목차
 
@@ -38,146 +38,123 @@ ht-degree: 9%
 
 사용자 인터페이스를 통해 직접 관계형 스키마를 생성할 수 있으므로 속성, 기본 키, 버전 관리 필드 및 관계를 세부적으로 구성할 수 있습니다.
 
-<!--
-The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
+다음 예제에서는 오케스트레이션된 캠페인에 필요한 구조를 보여 주기 위해 **충성도 멤버십** 스키마를 수동으로 정의합니다.
 
-1. Log in to Adobe Experience Platform.
+1. Adobe Experience Platform 인터페이스를 사용하여 [관계형 스키마를 수동으로 만들기](#schema).
 
-1. Navigate to the **Data Management** > **Schema**.
+1. 고객 ID, 멤버십 수준 및 상태 필드와 같은 특성을 [추가](#schema-attributes)합니다.
 
-1. Click on **Create Schema**.
+1. 캠페인 타깃팅을 위해 수신자 등의 기본 제공 스키마에 [스키마를 연결](#link-schema)합니다.
 
-1. You will be prompted to select between two schema types:
+1. [스키마를 기반으로 데이터 집합을 만들고](#dataset) 오케스트레이션된 캠페인에서 사용하도록 설정합니다.
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+1. [지원되는 소스에서 데이터 집합에 데이터 수집](ingest-data.md).
 
-    ![](assets/admin_schema_1.png)
+## 스키마 만들기 {#schema}
 
-1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
-1. Choose **Schema Type**:
-    **Record Type** (required for AGO campaigns)
-    **Time Series** (not applicable here)
-1. Click **Finish** to proceed to the schema design canvas.
+Adobe Experience Platform에서 수동으로 새 관계형 스키마를 생성하여 시작하십시오. 이 프로세스를 사용하면 이름 및 동작을 포함하여 스키마 구조를 처음부터 정의할 수 있습니다.
 
-## Select entities and fields to import
+1. Adobe Experience Platform에 로그인.
 
-1. In the canvas, add attributes (fields) to your schema.
-1. Add a **Primary Key** (mandatory).
-1. Add a **Version Descriptor** attribute (for CDC support):
-     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
-     Common example: `last_modified`
+1. **[!UICONTROL 데이터 관리]** > **[!UICONTROL 스키마]** 메뉴로 이동합니다.
 
-> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
+1. **[!UICONTROL 스키마 만들기]**&#x200B;를 클릭합니다.
 
-1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
-1. Click **Save**.
--->
+1. **[!UICONTROL 관계형]**&#x200B;을(를) **스키마 형식**(으)로 선택합니다.
 
-<!--
+   ![](assets/admin_schema_1.png){zoomable="yes"}
 
-## 5. Creating a Dataset
+1. 필드를 수동으로 추가하여 스키마를 작성하려면 **[!UICONTROL 수동으로 만들기]**&#x200B;를 선택하십시오.
 
-1. Navigate to **Datasets**.
-1. Click on **Create Dataset**.
-1. Select the schema you just created.
-1. Assign a **Dataset Name** (same as schema is fine).
-1. Optionally, add tags (e.g., `AGO_campaigns`).
-6. Ensure the checkbox **"Relational Schema"** is checked.
-7. Click **Finish**.
+1. **[!UICONTROL 스키마 표시 이름]**&#x200B;을 입력하십시오.
 
-> **Note:** Only one dataset can be created per relational schema.
+1. **[!UICONTROL 레코드]**&#x200B;을(를) **[!UICONTROL 스키마 동작]**(으)로 선택하십시오.
 
+   ![](assets/schema_manual_8.png){zoomable="yes"}
 
-## 6. Enabling the Dataset
+1. 스키마 만들기를 진행하려면 **마침**&#x200B;을 클릭하세요.
 
-1. Click **Enable** for the dataset.
-1. Wait a few moments for the status to show **Enabled**.
+이제 스키마에 속성을 추가하여 구조를 정의할 수 있습니다.
 
-> **Why?** Without enabling, the dataset cannot be used in orchestrated campaigns or ingest data.
+## 스키마에 속성 추가 {#schema-attributes}
 
-## 7. Creating a Data Source (S3)
+그런 다음 속성을 추가하여 스키마의 구조를 정의합니다. 이러한 필드는 고객 식별자, 멤버십 세부 정보 및 활동 날짜와 같이 오케스트레이션된 캠페인에 사용되는 주요 데이터 포인트를 나타냅니다. 이를 정확하게 정의하면 신뢰할 수 있는 개인화, 세분화 및 추적이 보장됩니다.
 
-1. Navigate to **Sources**.
-1. Click **Create Source**.
-1. Choose the source type (e.g., **S3 Bucket**).
-1. Provide connection details:
-    - Bucket Path (optionally include subfolder path)
-1. Save the source.
+1. 캔버스에서 ![](assets/do-not-localize/Smock_AddCircle_18_N.svg)스키마 이름&#x200B;**옆에 있는**&#x200B;을(를) 클릭하여 특성 추가를 시작합니다.
 
-## 8. Preparing and Uploading Data
+   ![](assets/schema_manual_1.png){zoomable="yes"}
 
-1. Prepare your CSV file with:
-    - Column headers matching your schema attributes
-    - `last_modified` column
-    - `change_type` column (`U`/`DU` for upsert, `D` for delete)
+1. 특성 **[!UICONTROL 필드 이름]**, **[!UICONTROL 표시 이름]** 및 **[!UICONTROL 유형]**&#x200B;을 입력하십시오.
 
-> **Important:** `change_type` is required but does not need to be defined in the schema.
+   이 예제에서는 아래 표에 설명된 특성을 **충성도 멤버십** 스키마에 추가했습니다.
 
-1. Save the file as `.csv`.
++++ 속성 예
 
-1. Upload the file to the specified folder in your S3 bucket.
+   | 속성 이름 | 데이터 유형 | 추가 속성 |
+   |-|-|-|
+   | 고객 | 문자열 | 기본 키 |
+   | membership_level | 문자열 | 필수 여부 |
+   | points_balance | 정수 | 필수 여부 |
+   | enrollment_date | 날짜 | 필수 여부 |
+   | last_status_change | 날짜 | 필수 여부 |
+   | expiration_date | 날짜 | - |
+   | is_active | 부울 | 필수 여부 |
+   | 마지막으로 수정됨 | 날짜/시간 | 필수 여부 |
 
++++
 
-## 9. Ingesting Data from S3
+1. 적절한 필드를 **[!UICONTROL 기본 키]** 및 **[!UICONTROL 버전 설명자]**(으)로 할당하십시오.
 
-1. Go to **Sources** and find your S3 source.
-1. Click **Add Data**.
-1. Select the uploaded file.
-1. Specify the file format as **CSV** and any compression type if applicable.
-1. Review the data preview (ensure `change_type`, `last_modified`, and primary key are visible).
-1. Click **Next**.
+   **[!UICONTROL 기본 키]**&#x200B;는 각 레코드가 고유하게 식별되도록 하는 반면 **[!UICONTROL 버전 설명자]**&#x200B;은(는) 시간에 따른 업데이트를 캡처하여 변경 데이터 캡처를 활성화하고 데이터 미러링을 지원합니다.
 
-### Enable Change Data Capture (CDC)
+   ![](assets/schema_manual_2.png){zoomable="yes"}
 
-- Check **Enable Change Data Capture**.
-- Select the dataset enabled for AGO campaigns.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-### Field Mapping
+특성이 만들어지면 새로 만든 스키마를 내장 스키마와 연결해야 합니다.
 
-- Fields are auto-mapped (note that `change_type` is not mapped and that's expected).
-- Click **Next**.
+## 스키마 연결 {#link-schema}
 
-### Scheduling
+두 스키마 간의 관계를 만들면 기본 프로필 스키마 외부에 저장된 데이터로 오케스트레이션된 캠페인을 보강할 수 있습니다.
 
-- Schedule ingestion frequency (minute, hour, day, week).
-- Set start time (immediate or future).
-- Click **Finish** to create the data flow.
+1. 새로 만든 스키마에서 링크로 사용할 특성을 선택하고 **[!UICONTROL 관계 추가]**&#x200B;를 클릭합니다.
 
-## 10. Monitoring Data Flow
+   ![](assets/schema_manual_3.png){zoomable="yes"}
 
-1. Navigate back to **Sources > Data Flows**.
-1. Wait 4–5 minutes for the first run (initial overhead).
-1. Monitor:
-    - Status (Started, Completed)
-    - Number of records ingested
-    - Errors (if any)
+1. **[!UICONTROL 참조 스키마]** 및 **[!UICONTROL 참조 필드]**&#x200B;을(를) 선택하여 관계를 설정하십시오.
 
-> **Tip:** Ingested data first lands in the **Data Lake**.
+   이 예제에서는 `customer` 특성이 `recipients` 스키마에 연결되어 있습니다.
 
-## 11. Data Replication to Data Store
+   ![](assets/schema_manual_4.png){zoomable="yes"}
 
-The **Data Store** is updated:
+1. 현재 스키마와 참조 스키마의 관계 이름을 입력합니다.
 
-- Every **15 minutes**, or
+1. 구성하고 나면 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
-- If **Data Lake size exceeds 5MB**
+관계가 설정되면 스키마를 기반으로 데이터 세트를 만들어야 합니다.
 
-This is a background replication process.
+## 스키마에 대한 데이터 세트 만들기 {#dataset}
 
+스키마를 정의한 후 다음 단계는 이를 기반으로 데이터 세트를 만드는 것입니다. 이 데이터 세트는 수집된 데이터를 저장하며, Adobe Journey Optimizer에서 액세스할 수 있도록 오케스트레이션된 캠페인에 대해 활성화해야 합니다. 이 옵션을 활성화하면 데이터 세트가 실시간 오케스트레이션 및 개인화 워크플로우에서 인식됩니다.
 
-## 12. Querying the Dataset
+1. **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 세트]** 메뉴로 이동한 다음 **[!UICONTROL 데이터 세트 만들기]**&#x200B;를 클릭합니다.
 
-1. Navigate to **Query Services**.
-1. Click **Create Query**.
-1. Example query:
+   ![](assets/schema_manual_5.png){zoomable="yes"}
 
-   ```sql
-   SELECT * FROM test_demo_ck001;
-   ```
+1. **[!UICONTROL 스키마에서 데이터 집합 만들기]**&#x200B;를 선택합니다.
 
-1. Run the query.
+1. 앞에서 만든 스키마를 선택하세요. 여기서는 **충성도 멤버십**&#x200B;을 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭하세요.
 
-> **Note:** If ingestion is incomplete, query will return an error. Check data flow status.
+   ![](assets/schema_manual_6.png){zoomable="yes"}
 
--->
+1. **[!UICONTROL 데이터 세트]**&#x200B;의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하고 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
+
+1. **오케스트레이션된 캠페인** 옵션을 활성화하여 AJO 캠페인에서 데이터 세트를 사용할 수 있도록 합니다.
+
+   활성화에는 몇 분 정도 걸릴 수 있습니다. 옵션이 완전히 활성화된 후에만 데이터 수집이 가능합니다.
+
+   ![](assets/schema_manual_7.png){zoomable="yes"}
+
+이제 선택한 소스를 사용하여 스키마로 데이터 수집을 시작할 수 있습니다.
+
+➡️ [데이터 수집 방법 알아보기](ingest-data.md)

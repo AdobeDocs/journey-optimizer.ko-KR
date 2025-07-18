@@ -6,10 +6,11 @@ description: SFTP, 클라우드 스토리지 또는 데이터베이스와 같이
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 17%
+source-wordcount: '480'
+ht-degree: 6%
 
 ---
 
@@ -37,68 +38,65 @@ ht-degree: 17%
 
 Adobe Experience Platform을 사용하면 외부 소스에서 데이터를 수집할 수 있으며 Experience Platform 서비스를 사용하여 들어오는 데이터를 구조화하고, 레이블을 지정하고, 향상시킬 수 있습니다. Adobe 애플리케이션, 클라우드 기반 저장소, 데이터베이스 및 기타 여러 소스와 같은 다양한 소스에서 데이터를 수집할 수 있습니다.
 
-<!--
-## With Cloud storage {#ingest}
+## 클라우드 스토리지 사용 {#ingest}
 
 
 >[!IMPORTANT]
 >
->Each dataset in Adobe Experience Platform supports only one active dataflow at a time. For detailed setup guidance on how to switch data sources, refer to this [section](#cdc-ingestion).
+>Adobe Experience Platform의 각 데이터 세트는 한 번에 하나의 활성 데이터 흐름만 지원합니다. 데이터 원본을 전환하는 방법에 대한 자세한 설정 지침은 이 [섹션](#cdc-ingestion)을 참조하세요.
 
 
-You can configure a data flow to ingest data from an Amazon S3 source into Adobe Experience Platform. Once configured, the data flow enables automated, scheduled ingestion of structured data and supports real-time updates.
+Amazon S3 소스의 데이터를 Adobe Experience Platform으로 수집하도록 데이터 흐름을 구성할 수 있습니다. 데이터 흐름이 구성되면 구조화된 데이터를 자동으로 예약된 수집으로 사용할 수 있으며 실시간 업데이트를 지원합니다.
 
-1. From the **[!UICONTROL Connections]** menu, access the **[!UICONTROL Sources]** menu.
+1. **[!UICONTROL 연결]** 메뉴에서 **[!UICONTROL 원본]** 메뉴에 액세스합니다.
 
-1. Select the **[!UICONTROL Cloud storage]** category then Amazon S3 and click **[!UICONTROL Add Data]**.
+1. **[!UICONTROL 클라우드 저장소]** 범주를 선택한 다음 Amazon S3을 선택하고 **[!UICONTROL 데이터 추가]**&#x200B;를 클릭합니다.
 
-    ![](assets/admin_sources_1.png)
+   ![](assets/admin_sources_1.png)
 
-1. Connect your S3 Account:
+1. S3 계정 연결:
 
-    * With an existing account
+   * 기존 계정 사용
 
-    * With a new account
+   * 새 계정 사용
 
-    [Learn more in Adobe Experience Platform documentation](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
-    ![](assets/admin_sources_2.png)
+   ![](assets/admin_sources_2.png)
 
-1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**.
+1. **[!UICONTROL 데이터 형식]**, **[!UICONTROL 구분 기호]** 및 **[!UICONTROL 압축 형식]** 폴더를 선택하세요.
 
-1. Navigate through the connected S3 source until you locate the two folders created earlier i.e. **loyalty rewards** and **loyalty transactions**.
+1. 원하는 폴더(예: **충성도 보상** 및 **충성도 거래**)를 찾을 때까지 연결된 S3 원본을 탐색합니다.
 
-1. Select the folder that contains your data.
-    
-    Selecting a folder ensures that all current and future files with the same structure are automatically processed. Selecting a single file, however, requires manually uploading each new data increment.
+1. 데이터가 포함된 폴더를 선택합니다.
 
-    ![](assets/S3_config_2.png)
+   폴더를 선택하면 동일한 구조의 현재 및 향후 파일이 모두 자동으로 처리됩니다. 그러나 단일 파일을 선택하려면 각 새 데이터 증가분을 수동으로 업로드해야 합니다.
 
-1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**. Review your sample data for accuracy, then click **[!UICONTROL Next]**.
+   ![](assets/S3_config_2.png)
 
-    ![](assets/S3_config_1.png)
+1. **[!UICONTROL 데이터 형식]**, **[!UICONTROL 구분 기호]** 및 **[!UICONTROL 압축 형식]** 폴더를 선택하세요. 샘플 데이터의 정확성을 확인한 후 **[!UICONTROL 다음]**&#x200B;을 클릭하세요.
 
-1. Check **[!UICONTROL Enable Change data capture]** to select from datasets that are mapped to relational schemas and have both a primary key and a version descriptor defined.
+   ![](assets/S3_config_1.png)
 
-1. Select your [previously created Dataset](#entities) and click **[!UICONTROL Next]**.
+1. 관계형 스키마에 매핑되고 기본 키와 버전 설명자가 모두 정의된 데이터 세트에서 선택하려면 **[!UICONTROL 변경 데이터 캡처 사용]**&#x200B;을 선택하십시오.
 
-    ![](assets/S3_config_3.png)
+1. [이전에 만든 데이터 세트](#entities)를 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
-1. In the **[!UICONTROL Mapping]** window, verify that each source file attribute is correctly mapped with the corresponding fields in the target schema.
+   ![](assets/S3_config_3.png)
 
-    Click **[!UICONTROL Next]** once done.
+1. **[!UICONTROL 매핑]** 창에서 각 원본 파일 특성이 대상 스키마의 해당 필드와 올바르게 매핑되었는지 확인하십시오.
 
-    ![](assets/S3_config_4.png)
+   완료되면 **[!UICONTROL 다음]**&#x200B;을 클릭하세요.
 
-1. Configure the data flow **[!UICONTROL Schedule]** based on your desired frequency.
+   ![](assets/S3_config_4.png)
 
-1. Click **[!UICONTROL Finish]** to create the data flow. It will execute automatically according to the defined schedule.
+1. 원하는 빈도에 따라 데이터 흐름 **[!UICONTROL 일정]**&#x200B;을(를) 구성하십시오.
 
-1. From the **[!UICONTROL Connections]** menu, select **[!UICONTROL Sources]** and access the **[!UICONTROL Data Flows]** tab to track flow execution, review ingested records, and troubleshoot any errors.
+1. 데이터 흐름을 만들려면 **[!UICONTROL 마침]**&#x200B;을 클릭합니다. 정의된 일정에 따라 자동으로 실행됩니다.
 
-    ![](assets/S3_config_5.png)
+1. **[!UICONTROL 연결]** 메뉴에서 **[!UICONTROL 원본]**&#x200B;을(를) 선택하고 **[!UICONTROL 데이터 흐름]** 탭에 액세스하여 흐름 실행을 추적하고 수집된 레코드를 검토하고 오류를 해결합니다.
 
--->
+   ![](assets/S3_config_5.png)
 
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
