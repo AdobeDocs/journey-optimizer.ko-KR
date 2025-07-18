@@ -11,10 +11,10 @@ keywords: 하위 도메인, 위임, 도메인, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: a1172d331aff538e867428b36ab913b4ae9c8f7e
+source-git-commit: 6d2342b262ea10942f94c82f7d1539a2f6c7c82e
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 22%
+source-wordcount: '742'
+ht-degree: 20%
 
 ---
 
@@ -118,7 +118,15 @@ ht-degree: 22%
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
-1. Adobe에서 필요한 검사를 수행하도록 하려면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 계속]**&#x200B;을 클릭하고 Adobe에서 호스팅 솔루션에 오류 없이 레코드가 생성되는지 확인할 때까지 기다립니다. 이 프로세스는 최대 2분 정도 소요될 수 있습니다.
+
+   >[!NOTE]
+   >
+   >누락된 모든 레코드, 즉 호스팅 솔루션에서 아직 만들어지지 않은 레코드가 나열됩니다.
+
+   Adobe은 SSL CDN URL 유효성 검사 레코드를 생성합니다. 이 유효성 검사 레코드를 호스팅 플랫폼에 복사합니다. 호스팅 솔루션에서 이 레코드를 올바르게 만든 경우 &quot;확인...&quot; 상자를 선택합니다.
+
+1. Adobe에서 필요한 검사를 수행하도록 하려면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다. [자세히 알아보기](#submit-subdomain)
 
 ## 문제 해결 확인 목록 {#check-list}
 
