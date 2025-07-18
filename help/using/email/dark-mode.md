@@ -10,14 +10,15 @@ level: Beginner, Intermediate
 keywords: 다크 모드, 이메일, 색상, 편집기
 hide: true
 hidefromtoc: true
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
+source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1701'
 ht-degree: 1%
 
 ---
 
-# 다크 모드 콘텐츠 정의 {#dark-mode}
+# 다크 모드 콘텐츠 관리 {#dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
@@ -144,13 +145,19 @@ Here you can see that we have applied a different background, defined another im
 
    <!--![](assets/dark-mode-custom.png)-->
 
-1. 다크 모드가 모두 변경되면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭합니다.
+1. 언제든지 **[!UICONTROL 실시간 보기로 전환]**&#x200B;하여 다양한 장치 크기에서 콘텐츠가 어떻게 렌더링되는지 확인할 수 있습니다. 이 보기에서 화면 상단의 어두운 모드 토글을 선택하여 다른 장치에서 콘텐츠의 어두운 모드 버전을 미리 봅니다.
+
+   ![](assets/dark-mode-live-view.png){width="80%" align="center"}
+
+   >[!CAUTION]
+   >
+   >라이브 보기는 다양한 장치 크기에서 렌더링이 어떻게 표시될 수 있는지 비교하도록 설계된 일반 미리 보기입니다. 최종 렌더링은 수신자의 이메일 클라이언트에 따라 달라질 수 있습니다.
+
+1. 다크 모드 변경 사항에 만족하면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하세요.
 
    ![](assets/dark-mode-simulate.png)
 
-1. **[!UICONTROL 전자 메일 렌더링]**&#x200B;을 선택하고 Litmus 계정에 연결합니다. 다양한 이메일 클라이언트에 대한 최종 다크 모드 렌더링을 볼 수 있습니다.
-
-   ![](assets/dark-mode-email-rendering.png){width="80%"}
+1. **[!UICONTROL 전자 메일 렌더링]**&#x200B;을 선택하고 Litmus 계정에 연결합니다. 다양한 이메일 클라이언트에 대한 최종 다크 모드 렌더링을 볼 수 있습니다. [전자 메일 렌더링](../content-management/rendering.md)에 대해 자세히 알아보세요.
 
    >[!WARNING]
    >
