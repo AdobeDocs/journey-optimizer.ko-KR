@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 98%
+source-wordcount: '2581'
+ht-degree: 95%
 
 ---
 
@@ -218,10 +218,24 @@ ht-degree: 98%
       + [대기](using/orchestrated/activities/wait.md)
 + 캠페인 {#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
-   + [캠페인 만들기](using/campaigns/create-campaign.md)
-   + [캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
-   + [캠페인 관리](using/campaigns/modify-stop-campaign.md)
-   + [API를 사용하여 캠페인 트리거](using/campaigns/api-triggered-campaigns.md)
+   + [캠페인 액세스 및 관리](using/campaigns/modify-stop-campaign.md)
+   + 액션 캠페인 {#action-campaigns}
+      + [작업 캠페인 작업](using/campaigns/create-campaign.md)
+      + [캠페인 속성 정의](using/campaigns/campaign-properties.md)
+      + [캠페인 작업 구성](using/campaigns/campaign-action.md)
+      + [캠페인 콘텐츠 편집](using/campaigns/campaign-content.md)
+      + [캠페인 대상자 정의](using/campaigns/campaign-audience.md)
+      + [캠페인 예약](using/campaigns/campaign-schedule.md)
+      + [액션 캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
+   + API 트리거 캠페인 {#api-triggered-campaigns}
+      + [API 트리거 캠페인 작업](using/campaigns/api-triggered-campaigns.md)
+      + [캠페인 속성 정의](using/campaigns/api-triggered-campaign-properties.md)
+      + [캠페인 작업 구성](using/campaigns/api-triggered-campaign-action.md)
+      + [캠페인 콘텐츠 편집](using/campaigns/api-triggered-campaign-content.md)
+      + [캠페인 대상자 정의](using/campaigns/api-triggered-campaign-audience.md)
+      + [캠페인 예약](using/campaigns/api-triggered-campaign-schedule.md)
+      + [캠페인 검토 및 활성화](using/campaigns/review-activate-api-triggered-campaign.md)
+      + [캠페인 실행 트리거](using/campaigns/trigger-campaigns.md)
 + 충돌 관리 및 우선순위 지정 {#conflict-prioritization}
    + [충돌 관리 및 우선 순위 지정 시작](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [잠재적 충돌 확인](using/conflict-prioritization/conflicts.md)
