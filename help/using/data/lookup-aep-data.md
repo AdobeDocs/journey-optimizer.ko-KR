@@ -10,14 +10,19 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
+source-git-commit: bd1274a5547f4ea835fc258f280c1efc667b6780
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 2%
+source-wordcount: '441'
+ht-degree: 6%
 
 ---
 
 # Adobe Experience Platform 데이터 사용 {#aep-data}
+
+>[!CONTEXTUALHELP]
+>id="lookup-aep-data"
+>title="조회를 위해 활성화"
+>abstract="조회를 위해 활성화"
 
 >[!AVAILABILITY]
 >
@@ -81,4 +86,4 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 API 호출을 사용하여 데이터 집합을 조회에 사용하도록 설정하면 해당 데이터를 [!DNL Journey Optimizer] 개인화 및 의사 결정 기능과 함께 사용할 수 있습니다.
 
 * [개인화에 Adobe Experience Platform 데이터 사용](../personalization/aep-data-perso.md)
-* [의사 결정에 Adobe Experience Platform 데이터 사용](../experience-decisioning/aep-data-exd.md)
+* [결정을 위해 Adobe Experience Platform 데이터 사용](../experience-decisioning/aep-data-exd.md)
