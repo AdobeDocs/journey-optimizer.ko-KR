@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 40%
+source-wordcount: '417'
+ht-degree: 19%
 
 ---
 
@@ -43,3 +43,36 @@ ht-degree: 40%
 
 >[!ENDSHADEBOX]
 
+**[!UICONTROL 대상자 읽기]** 활동을 사용하면 이전에 저장했거나 가져온 기존 대상자를 검색하고 오케스트레이션된 캠페인 내에서 재사용할 수 있습니다. 이 활동은 새로운 세분화 프로세스를 실행할 필요 없이 사전 정의된 프로필 세트를 타겟팅하는 데 특히 유용합니다.
+
+대상자가 로드되면 선택적으로 고유한 ID 필드를 선택하고 타겟팅, 개인화 또는 보고 목적으로 추가 프로필 속성으로 대상자를 보강하여 세분화할 수 있습니다.
+
+## 대상자 읽기 활동 구성 {#read-audience-configuration}
+
+**[!UICONTROL 대상자 읽기]** 활동을 구성하려면 다음 단계를 따르십시오.
+
+1. 오케스트레이션된 캠페인에 **[!UICONTROL 대상자 읽기]** 활동을 추가합니다.
+
+   ![](../assets/read-audience-1.png)
+
+1. 활동에 **[!UICONTROL 레이블]**&#x200B;을(를) 입력하십시오.
+
+1. 오케스트레이션된 캠페인에 대해 타깃팅할 대상을 선택하려면 ![폴더 검색 아이콘](../assets/do-not-localize/folder-search.svg)을 클릭하세요.
+
+   ![](../assets/read-audience-2.png)
+
+1. 대상의 프로필을 고유하게 식별하는 데 사용되는 **[!UICONTROL 엔터티]**&#x200B;를 선택하십시오.
+
+   ![](../assets/read-audience-3.png)
+
+1. **[!UICONTROL 프로필 특성 추가]**&#x200B;를 선택하여 선택한 대상자를 추가 데이터로 보강합니다. 결과 대상자에는 각각 선택한 프로필 속성으로 보강된 수신자 목록이 포함됩니다.
+
+1. 대상자에 추가할 **[!UICONTROL 특성]**&#x200B;을(를) 선택하십시오.
+
+   ![](../assets/read-audience-4.png)
+
+## 예
+
+아래 예제에서는 **[!UICONTROL 대상자 읽기]** 활동을 사용하여 뉴스레터를 구독한 프로필의 이전에 만들고 저장한 대상자를 검색합니다. 그러면 대상자가 **충성도 멤버십** 특성으로 보강되어 충성도 프로그램의 등록된 멤버인 사용자를 타깃팅할 수 있습니다.
+
+![](../assets/read-audience-5.png)

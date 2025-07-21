@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -60,7 +60,7 @@ Amazon S3 소스의 데이터를 Adobe Experience Platform으로 수집하도록
 
    * 새 계정 사용
 
-   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -80,7 +80,7 @@ Amazon S3 소스의 데이터를 Adobe Experience Platform으로 수집하도록
 
 1. 관계형 스키마에 매핑되고 기본 키와 버전 설명자가 모두 정의된 데이터 세트에서 선택하려면 **[!UICONTROL 변경 데이터 캡처 사용]**&#x200B;을 선택하십시오.
 
-1. [이전에 만든 데이터 세트](#entities)를 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. [이전에 만든 데이터 세트](file-upload-schema.md)를 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
    ![](assets/S3_config_3.png)
 
