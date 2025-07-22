@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: a4337df949d25740f75204fe4530837dda1af3dd
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '508'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,9 @@ Adobe Experience Platform을 사용하면 외부 소스에서 데이터를 수�
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform의 각 데이터 세트는 한 번에 하나의 활성 데이터 흐름만 지원합니다. 데이터 원본을 전환하는 방법에 대한 자세한 설정 지침은 이 [섹션](#cdc-ingestion)을 참조하세요.
+>데이터 세트의 데이터 소스를 변경하려면 동일한 데이터 세트 및 새 소스를 참조하는 새 데이터 플로우를 생성하기 전에 먼저 기존 데이터 흐름을 삭제해야 합니다.
+>
+>Adobe Experience Platform에서는 데이터 흐름과 데이터 세트 간에 엄격한 일대일 관계를 적용합니다. 따라서 정확한 증분 수집을 위해 소스와 데이터 세트 간의 동기화를 유지할 수 있습니다.
 
 
 Amazon S3 소스의 데이터를 Adobe Experience Platform으로 수집하도록 데이터 흐름을 구성할 수 있습니다. 데이터 흐름이 구성되면 구조화된 데이터를 자동으로 예약된 수집으로 사용할 수 있으며 실시간 업데이트를 지원합니다.
@@ -60,7 +62,7 @@ Amazon S3 소스의 데이터를 Adobe Experience Platform으로 수집하도록
 
    * 새 계정 사용
 
-   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -78,9 +80,11 @@ Amazon S3 소스의 데이터를 Adobe Experience Platform으로 수집하도록
 
    ![](assets/S3_config_1.png)
 
-1. 관계형 스키마에 매핑되고 기본 키와 버전 설명자가 모두 정의된 데이터 세트에서 선택하려면 **[!UICONTROL 변경 데이터 캡처 사용]**&#x200B;을 선택하십시오.
+1. 관계형 스키마에 매핑되고 기본 키와 버전 설명자가 모두 포함된 데이터 세트만 표시하려면 **[!UICONTROL 변경 데이터 캡처 사용]**&#x200B;을 선택하십시오.
 
-1. [이전에 만든 데이터 세트](file-upload-schema.md)를 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+   ![](assets/S3_config_6.png)
+
+1. 이전에 만든 데이터 집합을 선택하고 **[!UICONTROL 다음]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/S3_config_3.png)
 
@@ -98,26 +102,3 @@ Amazon S3 소스의 데이터를 Adobe Experience Platform으로 수집하도록
 
    ![](assets/S3_config_5.png)
 
-<!--### Setting Up Change data capture ingestion {#cdc-ingestion}
-
-If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
-
-When using Change Data Capture (CDC), it is essential that the source and dataset remain in sync to ensure accurate incremental updates. Follow the steps below:
-
-1. **Schema Requirements**
-   - Your schema must include:
-     - A **primary key** (e.g., `transaction_id`)
-     - A **versioning field** (e.g., `lastmodified` or an incrementing `version_id`)
-   - Enable the dataset for **Orchestrated Campaigns** if needed.
-
-2. **CDC Dataflow Setup**
-   - During dataflow creation, after choosing your source and files:
-     - **Enable the CDC option**
-     - Select your CDC-ready dataset
-     - Confirm field mappings (especially version field)
-
-3. **Keep Source and Target in Sync**
-   - The source system must consistently update the version field so the platform can detect changes accurately.
-
-Once set up, the platform will automatically ingest **only changed or new records** each time the flow runs.
--->
