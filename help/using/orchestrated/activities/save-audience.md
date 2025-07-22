@@ -7,14 +7,20 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: b575f2363059a24e7192f436fac62001f79a3dbc
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '431'
 ht-degree: 3%
 
 ---
 
 # 대상자 저장 {#save-audience}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_save_audience"
+>title="대상자 활동 저장"
+>abstract="**대상자 저장** 활동은 오케스트레이션된 캠페인에서 이전에 생성된 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있는 **타깃팅** 활동입니다. 이 대상자를 만들면 응용 프로그램 대상자 목록에 추가되며 **대상자** 메뉴에서 액세스할 수 있습니다."
+
 
 +++ 목차
 
