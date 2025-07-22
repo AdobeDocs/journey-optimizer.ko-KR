@@ -95,7 +95,7 @@ ht-degree: 1%
 
 매개 변수 이름:
 
-* 헤더 매개 변수: `header.<parameter-name>
+* 헤더 매개 변수: &grave;header.&lt;parameter-name>
 * 쿼리 매개 변수: `query.<parameter-name>`
 * 페이로드 매개 변수: `payload.<parameter-name>`
 * 경로 매개 변수: `dynamic_path.<parameter-name>`
