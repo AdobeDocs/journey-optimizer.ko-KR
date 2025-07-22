@@ -197,10 +197,10 @@ AJO은 AEP Edge Network에 대해 짧은 지연 시간, 높은 처리량 성능 
 
 매개 변수 이름:
 
-헤더 매개 변수: header.<parameter-name>
-쿼리 매개 변수: query.<parameter-name>
-페이로드 매개변수: 페이로드.<parameter-name>
-경로 매개 변수: dynamic_path.<parameter-name>
+헤더 매개 변수: header.&lt;parameter-name>
+쿼리 매개 변수: query.&lt;parameter-name>
+페이로드 매개변수: 페이로드.&lt;parameter-name>
+경로 매개 변수: dynamic_path.&lt;parameter-name>
 예:
 
 {{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}
