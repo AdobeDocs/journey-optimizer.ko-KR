@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b731dfbf00557b96585dc4133f246bfb101bee98
+source-git-commit: f5d1bc27afadbf875fe4dd3149ce090a8773e0f9
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2591'
 ht-degree: 95%
 
 ---
@@ -387,6 +387,7 @@ ht-degree: 95%
       + [개인화에 Adobe Experience Platform 데이터 사용(Beta)](using/personalization/aep-data-perso.md)
       + 도우미 함수 목록 {#functions}
          + [도우미 함수 시작](using/personalization/functions/functions.md)
+         + [외부 데이터 조회 도우미](using/personalization/external-data-lookup.md)
          + [집계 함수](using/personalization/functions/aggregation.md)
          + [산술 함수](using/personalization/functions/arithmetic-functions.md)
          + [배열 및 목록 함수](using/personalization/functions/arrays-list.md)
@@ -748,6 +749,7 @@ ht-degree: 95%
       + [쿼리 예](using/data/datasets-query-examples.md)
       + [기본 제공 스키마 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
    + [Adobe Experience Platform 데이터 사용](using/data/lookup-aep-data.md)
+   + [외부 엔드포인트를 사용하여 콘텐츠 개인화](using/data/external-endpoint-data.md)
    + [쿼리](using/data/get-started-queries.md)
 + 채널 구성 {#configuration}
    + [채널 구성 시작](using/configuration/get-started-configuration.md)
