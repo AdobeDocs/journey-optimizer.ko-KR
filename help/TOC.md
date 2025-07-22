@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: b731dfbf00557b96585dc4133f246bfb101bee98
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 95%
@@ -180,42 +180,6 @@ ht-degree: 95%
       + [여정 실행 문제 해결](using/building-journeys/troubleshooting-execution.md)
       + [인바운드 액션 문제 해결](using/building-journeys/troubleshooting-inbound.md)
       + [사용자 지정 작업 문제 해결](using/action/troubleshoot-custom-action.md)
-+ 오케스트레이션된 캠페인 {#orchestrated-campaigns}
-   + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
-   + 관계형 스키마 및 데이터 세트 관리 {#schemas-datasets}
-      + [스키마 및 데이터 세트 시작](using/orchestrated/gs-schemas.md)
-      + [수동 스키마](using/orchestrated/manual-schema.md)
-      + [파일 업로드 스키마](using/orchestrated/file-upload-schema.md)
-      + [데이터 수집](using/orchestrated/ingest-data.md)
-   + [오케스트레이션된 캠페인 액세스 및 관리](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + [가드레일 및 제한 사항](using/orchestrated/guardrails.md)
-   + 첫 오케스트레이션된 캠페인 시작{#launch}
-      + [오케스트레이션된 캠페인을 만드는 주요 단계](using/orchestrated/gs-campaign-creation.md)
-      + [캠페인 만들기 및 예약](using/orchestrated/create-orchestrated-campaign.md)
-      + [활동 오케스트레이션](using/orchestrated/orchestrate-activities.md)
-      + [캠페인 시작 및 모니터링](using/orchestrated/start-monitor-campaigns.md)
-      + [보고](using/orchestrated/reporting-campaigns.md)
-   + 데이터베이스 쿼리 {#query-database}
-      + [규칙 빌더를 사용한 작업](using/orchestrated/orchestrated-rule-builder.md)
-      + [첫 번째 규칙 작성](using/orchestrated/build-query.md)
-      + [표현식 편집](using/orchestrated/edit-expressions.md)
-      + [리타기팅](using/orchestrated/retarget.md)
-   + 오케스트레이션된 캠페인 활동 {#design-campaigns}
-      + [활동 시작](using/orchestrated/activities/about-activities.md)
-      + [AND-가입](using/orchestrated/activities/and-join.md)
-      + [대상자 빌드](using/orchestrated/activities/build-audience.md)
-      + [차원 변경](using/orchestrated/activities/change-dimension.md)
-      + [채널 활동](using/orchestrated/activities/channels.md)
-      + [결합](using/orchestrated/activities/combine.md)
-      + [중복 제거](using/orchestrated/activities/deduplication.md)
-      + [보강](using/orchestrated/activities/enrichment.md)
-      + [포크](using/orchestrated/activities/fork.md)
-      + [대상자 읽기](using/orchestrated/activities/read-audience.md)
-      + [조정](using/orchestrated/activities/reconciliation.md)
-      + [대상자 저장](using/orchestrated/activities/save-audience.md)
-      + [분할](using/orchestrated/activities/split.md)
-      + [테스트](using/orchestrated/activities/test.md)
-      + [대기](using/orchestrated/activities/wait.md)
 + 캠페인 {#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 액세스 및 관리](using/campaigns/modify-stop-campaign.md)
@@ -236,6 +200,42 @@ ht-degree: 95%
       + [캠페인 예약](using/campaigns/api-triggered-campaign-schedule.md)
       + [캠페인 검토 및 활성화](using/campaigns/review-activate-api-triggered-campaign.md)
       + [캠페인 실행 트리거](using/campaigns/trigger-campaigns.md)
+   + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
+      + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
+      + 관계형 스키마 및 데이터 세트 관리 {#schemas-datasets}
+         + [스키마 및 데이터 세트 시작](using/orchestrated/gs-schemas.md)
+         + [수동 스키마](using/orchestrated/manual-schema.md)
+         + [파일 업로드 스키마](using/orchestrated/file-upload-schema.md)
+         + [데이터 수집](using/orchestrated/ingest-data.md)
+      + [오케스트레이션된 캠페인 액세스 및 관리](using/orchestrated/access-manage-orchestrated-campaigns.md)
+      + [가드레일 및 제한 사항](using/orchestrated/guardrails.md)
+      + 첫 오케스트레이션된 캠페인 시작{#launch}
+         + [오케스트레이션된 캠페인을 만드는 주요 단계](using/orchestrated/gs-campaign-creation.md)
+         + [캠페인 만들기 및 예약](using/orchestrated/create-orchestrated-campaign.md)
+         + [활동 오케스트레이션](using/orchestrated/orchestrate-activities.md)
+         + [캠페인 시작 및 모니터링](using/orchestrated/start-monitor-campaigns.md)
+         + [보고](using/orchestrated/reporting-campaigns.md)
+      + 데이터베이스 쿼리 {#query-database}
+         + [규칙 빌더를 사용한 작업](using/orchestrated/orchestrated-rule-builder.md)
+         + [첫 번째 규칙 작성](using/orchestrated/build-query.md)
+         + [표현식 편집](using/orchestrated/edit-expressions.md)
+         + [리타기팅](using/orchestrated/retarget.md)
+      + 오케스트레이션된 캠페인 활동 {#design-campaigns}
+         + [활동 시작](using/orchestrated/activities/about-activities.md)
+         + [AND-가입](using/orchestrated/activities/and-join.md)
+         + [대상자 빌드](using/orchestrated/activities/build-audience.md)
+         + [차원 변경](using/orchestrated/activities/change-dimension.md)
+         + [채널 활동](using/orchestrated/activities/channels.md)
+         + [결합](using/orchestrated/activities/combine.md)
+         + [중복 제거](using/orchestrated/activities/deduplication.md)
+         + [보강](using/orchestrated/activities/enrichment.md)
+         + [포크](using/orchestrated/activities/fork.md)
+         + [대상자 읽기](using/orchestrated/activities/read-audience.md)
+         + [조정](using/orchestrated/activities/reconciliation.md)
+         + [대상자 저장](using/orchestrated/activities/save-audience.md)
+         + [분할](using/orchestrated/activities/split.md)
+         + [테스트](using/orchestrated/activities/test.md)
+         + [대기](using/orchestrated/activities/wait.md)
 + 충돌 관리 및 우선순위 지정 {#conflict-prioritization}
    + [충돌 관리 및 우선 순위 지정 시작](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [잠재적 충돌 확인](using/conflict-prioritization/conflicts.md)
