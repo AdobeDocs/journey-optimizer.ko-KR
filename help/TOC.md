@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f5d1bc27afadbf875fe4dd3149ce090a8773e0f9
+source-git-commit: b317400b083f70cce05a7d4823f52a8cd35a3b96
 workflow-type: tm+mt
-source-wordcount: '2591'
+source-wordcount: '2585'
 ht-degree: 95%
 
 ---
@@ -749,7 +749,6 @@ ht-degree: 95%
       + [쿼리 예](using/data/datasets-query-examples.md)
       + [기본 제공 스키마 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
    + [Adobe Experience Platform 데이터 사용](using/data/lookup-aep-data.md)
-   + [외부 엔드포인트를 사용하여 콘텐츠 개인화](using/data/external-endpoint-data.md)
    + [쿼리](using/data/get-started-queries.md)
 + 채널 구성 {#configuration}
    + [채널 구성 시작](using/configuration/get-started-configuration.md)
