@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: cf29013bd7578f6b04543d04e85c714ce7728f36
+source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1184'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 매개 변수 이름:
 
-* 헤더 매개 변수: &grave;header.&lt;parameter-name>
+* 헤더 매개 변수: `header.<parameter-name>`
 * 쿼리 매개 변수: `query.<parameter-name>`
 * 페이로드 매개 변수: `payload.<parameter-name>`
 * 경로 매개 변수: `dynamic_path.<parameter-name>`
