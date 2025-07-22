@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: ea541231b16947908197748202e62227c5752966
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1152'
 ht-degree: 11%
 
 ---
@@ -47,17 +47,23 @@ ht-degree: 11%
 
 오케스트레이션된 캠페인을 만들려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL 캠페인]** 메뉴로 이동하여 **[!UICONTROL 오케스트레이션]** 탭을 선택하고 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 캠페인]** 메뉴로 이동한 다음 **[!UICONTROL 오케스트레이션]** 탭을 선택합니다.
+
+1. **[!UICONTROL 캠페인 만들기]** 단추를 클릭하고 **[!UICONTROL 오케스트레이션 - 마케팅]** 캠페인 유형을 선택합니다.
+
+   ![](assets/create-modal.png)
+
+1. 캠페인 속성을 정의합니다. 이렇게 하려면 캠페인 이름 옆에 있는 ![캠페인 설정 아이콘](assets/do-not-localize/campaign-settings.svg) 단추를 클릭합니다.
 
    ![](assets/inventory-create.png)
 
 1. 캠페인의 이름과 설명을 입력합니다.
 
-1. *(선택 사항)* **[!UICONTROL 태그]** 필드를 사용하여 Adobe Experience Platform 통합 태그를 캠페인에 지정하십시오. 이를 통해 오케스트레이션된 캠페인 목록에서 쉽게 분류하고 검색을 개선할 수 있습니다. [태그를 사용하여 작업하는 방법을 알아봅니다](../start/search-filter-categorize.md#tags).
+<!--1. Merge policy-->
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 태그]** 필드를 사용하여 Adobe Experience Platform 통합 태그를 캠페인에 지정하십시오. 이를 통해 오케스트레이션된 캠페인 목록에서 쉽게 분류하고 검색을 개선할 수 있습니다. [태그를 사용하여 작업하는 방법을 알아봅니다](../start/search-filter-categorize.md#tags).
 
-이제 오케스트레이션된 캠페인이 만들어지고 오케스트레이션된 캠페인 목록에 표시됩니다. 캠페인 캔버스에서 ![캠페인 설정 아이콘](assets/do-not-localize/campaign-settings.svg) 아이콘을 클릭하여 언제든지 이러한 속성을 업데이트할 수 있습니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 캠페인 예약 {#schedule}
 
@@ -99,7 +105,7 @@ ht-degree: 11%
    * **[!UICONTROL 날짜]**: 캠페인을 실행할 날짜를 선택하십시오.
    * **[!UICONTROL 시간]**: 캠페인을 실행할 특정 시간을 선택하십시오.
 
-   +++
++++
 
    +++매일
 
@@ -113,7 +119,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 시작 시간]**: 매일 캠페인을 실행해야 하는 시간을 정의합니다.
 
-   +++
++++
 
    +++하루에 여러 번
 
@@ -122,7 +128,7 @@ ht-degree: 11%
    * **[!UICONTROL 선택한 시간]**: 캠페인이 실행되는 특정 시간을 선택하고 일일 반복을 구성합니다(매일 또는 특정 요일에 실행).
    * **[!UICONTROL 정기]**: n분 또는 시간마다 캠페인을 실행하도록 선택합니다. 실행이 허용된 날짜 내에서 시간 범위를 정의할 수도 있습니다.
 
-   +++
++++
 
    +++매주
 
@@ -133,7 +139,7 @@ ht-degree: 11%
    * **[!UICONTROL 매일 반복]**: 실행할 특정 요일(예: 매주 월요일 및 목요일)을 선택하십시오.
    * **[!UICONTROL 시작 시간]**: 선택한 날짜에 캠페인을 실행할 시간을 설정합니다.
 
-   +++
++++
 
    +++월별
 
@@ -149,7 +155,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 시작 시간]**: 캠페인을 실행할 시간을 설정합니다.
 
-   +++
++++
 
 1. **[!UICONTROL 유효 기간]** 설정을 사용하여 특정 시작 및 종료 날짜를 정의하고 제한된 기간 동안 캠페인 실행을 제한합니다.
 
