@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 5%
@@ -44,11 +44,11 @@ ht-degree: 5%
 
    테이블, 속성 및 관계를 포함한 데이터 모델의 구조를 정의합니다. 빠른 설정을 위해 사용자 인터페이스에서 스키마를 수동으로 작성하거나 DDL 파일을 업로드하도록 선택하십시오.
 
-1. [링크 스키마](#link-schema)
+1. [링크 스키마](file-upload-md)
 
    스키마 간의 관계를 설정하여 데이터 일관성을 보장하고 엔티티 간 쿼리를 활성화합니다. 예를 들어 충성도 거래를 수신자에게 연결하거나 브랜드를 대상으로 보상을 연결할 수 있습니다.
 
-1. [데이터 수집](#ingest)
+1. [데이터 수집](ingest-data.md)
 
    SFTP, 클라우드 스토리지 또는 데이터베이스와 같이 지원되는 소스에서 Adobe Experience Platform으로 데이터를 가져옵니다.
 
