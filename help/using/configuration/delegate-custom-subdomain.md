@@ -11,9 +11,9 @@ keywords: 하위 도메인, 위임, 도메인, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 64ff860167439e1b098918cd913f2361f7365a50
+source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '736'
 ht-degree: 20%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >누락된 모든 레코드, 즉 호스팅 솔루션에서 아직 만들어지지 않은 레코드가 나열됩니다.
+   >계속하기 전에 모든 레코드가 올바르게 생성되었는지 확인하십시오.
 
    Adobe은 SSL CDN URL 유효성 검사 레코드를 생성합니다. 이 유효성 검사 레코드를 호스팅 플랫폼에 복사합니다. 호스팅 솔루션에서 이 레코드를 올바르게 만든 경우 &quot;확인...&quot; 상자를 선택합니다.
 
