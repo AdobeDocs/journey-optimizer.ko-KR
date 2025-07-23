@@ -39,4 +39,4 @@ ht-degree: 7%
 
 작업 캠페인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3412406?quality=12&captions=kor)
