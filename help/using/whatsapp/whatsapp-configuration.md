@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: acb87d0c7c3b8b1bde033f9483ecdeca5cee3325
+source-git-commit: 50a16d70fbf0c64fed64b037a5bcd14c21442c89
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '654'
 ht-degree: 5%
 
 ---
@@ -112,7 +112,7 @@ API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 
 >
 >지정된 옵트인 또는 옵트아웃 키워드가 없으면 표준 동의 메시지가 활성화되지 않습니다.
 
-WhatsApp API 자격 증명이 성공적으로 생성되면 다음 단계에서 웹후크를 만들고 인바운드 설정을 구성합니다.
+WhatsApp API 자격 증명과 [메타 웹후크](https://developers.facebook.com/docs/whatsapp/webhooks/)가 만들어지면 다음 단계에서 웹후크를 만들고 인바운드 설정을 구성합니다.
 
 1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL WhatsApp 설정]**&#x200B;에서 **[!UICONTROL WhatsApp Webhooks]** 메뉴를 선택한 다음 **[!UICONTROL Webhook 만들기]** 단추를 클릭합니다.
 
@@ -143,6 +143,8 @@ WhatsApp API 자격 증명이 성공적으로 생성되면 다음 단계에서 �
 1. **[!UICONTROL Webhooks]** 메뉴에서 ![bin 아이콘](assets/do-not-localize/Smock_Delete_18_N.svg)을 클릭하여 WhatsApp Webhook를 삭제합니다.
 
 1. 기존 구성을 수정하려면 원하는 웹후크를 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 내용을 변경합니다.
+
+1. 이전에 제출한 **[!UICONTROL WhatsApp Webhook]**&#x200B;에서 새 **[!UICONTROL Webhook URL]**&#x200B;에 액세스하여 복사합니다.
 
 구성하고 나면 메시지 작성, 개인화, 링크 추적 및 보고와 같은 기본 제공 채널 기능을 모두 활용할 수 있습니다.
 
