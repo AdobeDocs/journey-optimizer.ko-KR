@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 데이터 보강 활동 사용
-description: 데이터 보강 활동을 사용하는 방법 알아보기
+title: 보강 활동 사용
+description: 보강 활동을 사용하는 방법 알아보기
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 31%
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 31%
 
 | 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
-| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](../gs-schemas.md)</li><li>[수동 스키마](../manual-schema.md)</li><li>[파일 업로드 스키마](../file-upload-schema.md)</li><li>[데이터 수집](../ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](../access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인을 만드는 주요 단계](../gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [규칙 빌더로 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 빌드](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md)<br/><br/>[재타겟팅](../retarget.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[및 가입](and-join.md) - [대상 작성](build-audience.md) - [차원 변경](change-dimension.md) - [채널 활동](channels.md) - [결합](combine.md) - [중복 제거](deduplication.md) - <b>[데이터 보강](enrichment.md)</b> - [포크](fork.md) - [조정](reconciliation.md) - [대상 저장](save-audience.md) - [분할](split.md) - [대기](wait.md) |
+| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](../gs-schemas.md)</li><li>[수동 스키마](../manual-schema.md)</li><li>[파일 업로드 스키마](../file-upload-schema.md)</li><li>[데이터 수집](../ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](../access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인을 만드는 주요 단계](../gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [규칙 빌더로 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md)<br/><br/>[리타기팅](../retarget.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[And 조인](and-join.md) - [대상자 빌드](build-audience.md) - [차원 변경](change-dimension.md) - [채널 활동](channels.md) - [결합](combine.md) - [중복 제거](deduplication.md) - <b>[보강](enrichment.md)</b> - [포크](fork.md) - [조정](reconciliation.md) - [대상자 저장](save-audience.md) - [분할](split.md) - [대기](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -42,9 +42,9 @@ ht-degree: 31%
 
 >[!ENDSHADEBOX]
 
-**[!UICONTROL 데이터 보강]** 활동은 추가 특성으로 대상 데이터를 개선할 수 있는 **[!UICONTROL 타깃팅]** 활동입니다.
+**[!UICONTROL 보강]** 활동은 추가 속성을 사용하여 대상자 데이터를 강화할 수 있는 **[!UICONTROL 타겟팅]** 활동입니다.
 
-이 정보를 활용하여 행동, 환경 설정 또는 요구 사항에 따라 대상자를 보다 정확하게 세그먼트화하고, 각 프로필과 더 잘 연결할 수 있는 개인화된 메시지를 만들 수 있습니다.
+이 정보를 활용하여 행동, 환경 설정 또는 요구에 따라 대상자를 더욱 정확하게 세분화하고, 각 프로필과 더 잘 연결하는 개인화된 메시지를 만들 수 있습니다.
 
 ## 보강 활동 추가 {#enrichment-configuration}
 
@@ -58,30 +58,30 @@ ht-degree: 31%
 >title="보강 활동"
 >abstract="보강 데이터를 오케스트레이션된 캠페인에 추가한 다음에는 이를 보강 활동 다음에 추가된 활동에서 사용하여 고객을 행동, 선호도 및 요구 사항에 따라 고유한 그룹으로 세분화하거나, 타깃 대상자의 마음을 움직일 수 있는 개인화된 마케팅 메시지 및 캠페인을 만들 수 있습니다."
 
-**보강** 활동을 구성하려면 다음 단계를 따르십시오.
+**보강** 활동을 구성하려면 다음 단계를 따릅니다.
 
 1. **보강** 활동을 추가합니다.
 
-1. **데이터 보강 추가**&#x200B;를 클릭하고 데이터를 보강하는 데 사용할 특성을 선택하십시오.
+1. **보강 데이터 추가**&#x200B;를 클릭하고 데이터를 보강하는 데 사용할 속성을 선택합니다.
 
-   데이터 보강 데이터의 두 가지 유형인 대상 차원의 단일 보강 속성이나 컬렉션 링크를 선택할 수 있습니다. 이러한 각 유형은 아래 예제에 자세히 설명되어 있습니다.
+   두 가지 유형의 보강 데이터(대상 차원의 단일 보강 속성 또는 컬렉션 링크)를 선택할 수 있습니다. 이러한 각 유형은 아래 예에 자세히 설명되어 있습니다.
 
    * [단일 보강 속성](#single-attribute)
    * [컬렉션 링크](#collection-link)
 
    ![](../assets/enrichment-1.png)
 
-## 예시 {#example}
+## 예 {#example}
 
 ### 단일 보강 속성 {#single-attribute}
 
-이 예에서는 현재 타겟팅 차원에서 생년월일과 같은 단일 속성으로 대상자를 보강합니다.
+이 예에서는 현재 대상 차원에서 생년월일과 같은 단일 속성을 사용하여 대상자를 보강합니다.
 
 방법은 다음과 같습니다.
 
 1. **[!UICONTROL 보강 데이터 추가]**&#x200B;를 클릭합니다.
 
-1. 현재 차원에서 **[!UICONTROL 생년월일]**&#x200B;과 같은 간단한 필드를 선택하십시오.
+1. 현재 차원에서 **[!UICONTROL 생년월일]**&#x200B;과 같은 간단한 필드를 선택합니다.
 
    ![](../assets/enrichment-2.png)
 
@@ -89,15 +89,15 @@ ht-degree: 31%
 
 ### 컬렉션 링크 {#collection-link}
 
-이 사용 사례는 연결된 테이블의 데이터로 대상자를 강화합니다. 예를 들어 $100 미만의 최근 구매 3개를 검색하려는 경우,
+이 사용 사례는 연결된 테이블의 데이터로 대상자를 보강합니다. 예를 들어 $100 미만의 최근 구매 3건을 검색하려는 경우,
 
-이를 위해 다음과 같이 데이터 보강 기능을 구성합니다.
+다음과 같이 데이터 보강 기능을 구성합니다.
 
-* **데이터 보강 특성**: **[!UICONTROL 가격]**
+* **보강 속성**: **[!UICONTROL 가격]**
 
 * **검색할 레코드 수**: 3
 
-* **필터**: **[!UICONTROL 가격]**&#x200B;이 $100보다 작은 구매만 포함
+* **필터**: **[!UICONTROL 가격]**&#x200B;이 $100 미만인 구매만 포함
 
 #### 속성 추가 {#add-attribute}
 
@@ -119,23 +119,23 @@ ht-degree: 31%
 
 1. **[!UICONTROL 검색할 줄(만들 열)]** 필드에 `3`을(를) 입력합니다.
 
-1. 집계(예: 평균 구매 금액)를 수행하려면 **[!UICONTROL 집계된 데이터]**&#x200B;을 선택한 다음 **[!UICONTROL 집계 함수]** 드롭다운에서 **[!UICONTROL 평균]**&#x200B;을 선택하십시오.
+1. 집계(예: 평균 구매 금액)를 수행하려면 **[!UICONTROL 집계된 데이터]**&#x200B;를 선택한 다음 **[!UICONTROL 집계 함수]** 드롭다운에서 **[!UICONTROL Average]**&#x200B;를 선택합니다.
 
    ![](../assets/enrichment-5.png)
 
-1. **[!UICONTROL Label]** 및 **[!UICONTROL Alias]** 필드를 사용하여 보강된 특성을 후속 활동에서 더 쉽게 식별할 수 있도록 하십시오.
+1. **[!UICONTROL 레이블]** 및 **[!UICONTROL 별칭]** 필드를 사용하여 보강된 속성을 후속 활동에서 더 쉽게 식별할 수 있도록 합니다.
 
 #### 필터 정의{#collection-filters}
 
-마지막으로 필터를 적용하여 관련 레코드만 포함되도록 합니다.
+마지막으로, 필터를 적용하여 관련 레코드만 포함되도록 합니다.
 
 1. **[!UICONTROL 필터 만들기]**&#x200B;를 클릭합니다.
 
 1. 다음 두 조건을 추가합니다.
 
-   * **[!UICONTROL 가격]**&#x200B;이(가) 있음(NULL 제외)
+   * **[!UICONTROL Price]** exists(NULL을 제외하기 위해)
 
-   * **[!UICONTROL 가격]**&#x200B;이(가) 100보다 작음
+   * **[!UICONTROL Price]** is less than 100
 
    ![](../assets/enrichment-6.png)
 

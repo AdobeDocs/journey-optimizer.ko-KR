@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 분할 활동 사용
-description: 오케스트레이션된 캠페인에서 분할 활동을 사용하는 방법을 알아봅니다
+description: 오케스트레이션된 캠페인에서 분할 활동을 사용하는 방법 알아보기
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 52%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 52%
 
 | 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
-| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](../gs-schemas.md)</li><li>[수동 스키마](../manual-schema.md)</li><li>[파일 업로드 스키마](../file-upload-schema.md)</li><li>[데이터 수집](../ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](../access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인을 만드는 주요 단계](../gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [규칙 빌더로 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 빌드](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md)<br/><br/>[재타겟팅](../retarget.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[및 가입](and-join.md) - [대상 작성](build-audience.md) - [차원 변경](change-dimension.md) - [채널 활동](channels.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [데이터 보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [대상 저장](save-audience.md) - <b>[분할](split.md)</b> - [대기](wait.md) |
+| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](../gs-schemas.md)</li><li>[수동 스키마](../manual-schema.md)</li><li>[파일 업로드 스키마](../file-upload-schema.md)</li><li>[데이터 수집](../ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](../access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인을 만드는 주요 단계](../gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [규칙 빌더로 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md)<br/><br/>[리타기팅](../retarget.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[And 조인](and-join.md) - [대상자 빌드](build-audience.md) - [차원 변경](change-dimension.md) - [채널 활동](channels.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [대상자 저장](save-audience.md) - <b>[분할](split.md)</b> - [대기](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -43,7 +43,7 @@ ht-degree: 52%
 
 >[!ENDSHADEBOX]
 
-**[!UICONTROL Split]** 활동은 필터링 규칙 또는 모집단 크기와 같은 정의된 선택 기준을 기반으로 들어오는 모집단을 여러 하위 집합으로 분할하는 **[!UICONTROL Targeting]** 활동입니다.
+**[!UICONTROL 분할]** 활동은 필터링 규칙 또는 집단 크기와 같은 다양한 선택 기준에 따라 들어오는 집단을 여러 하위 집합으로 세분화할 수 있는 **[!UICONTROL 타기팅]** 활동입니다.
 
 ## 분할 활동 구성 {#split-configuration}
 
@@ -87,7 +87,7 @@ ht-degree: 52%
 >title="출력 집단의 중복 활성화"
 >abstract=" **[!UICONTROL 출력 집단의 중복 활성화]** 옵션을 사용하면 여러 하위 집합에 속하는 집단을 관리할 수 있습니다. 확인란을 선택하지 않으면 분할 활동은 수신자가 여러 하위 집합의 기준을 충족하더라도 여러 출력 전환에 표시되지 않습니다. 기준이 일치하는 첫 번째 탭의 대상에 포함됩니다. 확인란을 선택하면 필터 조건을 충족하는 경우 여러 하위 집합에서 수신자를 찾을 수 있습니다."
 
-**[!UICONTROL 분할]** 활동을 구성하려면 다음 단계를 따르십시오.
+**[!UICONTROL 분할]** 활동을 구성하려면 다음 단계를 따릅니다.
 
 1. 오케스트레이션된 캠페인에 **[!UICONTROL 분할]** 활동을 추가합니다.
 
@@ -97,46 +97,46 @@ ht-degree: 52%
 
    >[!IMPORTANT]
    >
-   >**Split** 활동은 추가된 순서대로 하위 집합을 처리합니다. 예를 들어 첫 번째 하위 집합이 모집단의 70%를 캡처하면 그 다음 하위 집합은 나머지 30%에 기준을 적용합니다.
+   >**분할** 활동은 하위 집합을 추가된 순서대로 처리합니다. 예를 들어 첫 번째 하위 집합이 집단의 70%를 포함하면 그 다음 하위 집합은 나머지 30%에 기준을 적용합니다.
    >
-   >오케스트레이션된 캠페인을 실행하기 전에 하위 집합의 순서가 의도한 대로 지정되어 있는지 확인하십시오. 화살표 단추를 사용하여 해당 위치를 조정합니다.
+   >오케스트레이션된 캠페인을 실행하기 전에는 하위 집합의 순서가 의도한 대로 지정되어 있는지 확인합니다. 화살표 버튼을 사용하여 하위 집합의 위치를 조정합니다.
 
-1. 하위 집합이 추가되면 해당 활동은 하위 집합만큼이 출력 전환을 표시합니다. 오케스트레이션된 캠페인 캔버스에서 각 하위 집합을 쉽게 식별하려면 각 하위 집합의 레이블을 변경하는 것이 좋습니다.
+1. 하위 집합이 추가되면 해당 활동은 하위 집합만큼이 출력 전환을 표시합니다. 오케스트레이션된 캠페인 캔버스에서 쉽게 식별할 수 있도록 각 하위 집합의 레이블을 변경하는 것이 좋습니다.
 
 1. 각 하위 집합에 대한 필터 구성:
 
-   1. 하위 집합을 클릭하여 해당 설정을 엽니다.
+   1. 하위 집합을 클릭하여 설정을 엽니다.
 
-   1. 쿼리 모델러를 사용하여 필터링 규칙을 정의하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하십시오. 예를 들어 올바른 전자 메일 주소를 가진 프로필을 선택합니다.
+   1. 쿼리 모델러를 사용하여 필터링 규칙을 정의하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭합니다. 예를 들어 유효한 이메일 주소를 가진 프로필을 선택하기 위해 필터링할 수 있습니다.
 
       ![](../assets/orchestrated-split-1.png)
 
-   1. 선택한 프로필 수를 제한하려면 **[!UICONTROL 제한 사용]**&#x200B;을(를) 활성화하고 숫자나 백분율을 지정하십시오.
+   1. 선택하는 프로필의 수를 제한하려면 **[!UICONTROL 제한 활성화]**&#x200B;를 사용하도록 설정하고 숫자나 백분율을 지정합니다.
 
-   1. 하위 집합이 비어 있을 때 전환을 건너뛰려면 **[!UICONTROL 빈 전환 건너뛰기].**&#x200B;를 사용하도록 설정하십시오.
+   1. 하위 집합이 비어 있을 때 전환을 건너뛰려면 **[!UICONTROL 빈 전환 건너뛰기]를 활성화합니다.**
 
-1. 하위 집합에서 일치하지 않는 프로필을 포함하려면 **[!UICONTROL 보조 항목 생성]**&#x200B;을 사용하도록 설정하십시오. 이렇게 하면 나머지 모집단에 대한 추가 아웃바운드 전환이 만들어집니다.
+1. 어떤 하위 집합과도 일치하지 않는 프로필을 포함하려면 **[!UICONTROL 여집합 생성]**&#x200B;을 활성화합니다. 이렇게 하면 나머지 집단에 대한 추가 아웃바운드 전환이 만들어집니다.
 
    >[!NOTE]
    >
-   >**[!UICONTROL 동일한 테이블의 모든 하위 집합을 생성]**&#x200B;하여 모든 하위 집합을 단일 전환으로 그룹화합니다.
+   >**[!UICONTROL 모든 하위 집합을 동일한 테이블에 생성]**&#x200B;을 활성화하면 모든 하위 집합을 단일 전환으로 그룹화합니다.
 
-1. 프로필이 여러 하위 집합에 표시되도록 하려면 **[!UICONTROL 출력 모집단의 겹침 사용]**&#x200B;을 사용하십시오.
+1. 프로필이 여러 하위 집합에 표시되도록 하려면 **[!UICONTROL 결과 집단 오버랩 활성화]**&#x200B;를 사용합니다.
 
-   * **선택하지 않으면** 각 프로필은 하나의 하위 집합에만 할당되며, 다른 하위 집합에 적합하더라도 해당 기준이 일치하는 첫 번째 하위 집합에만 할당됩니다.
+   * **선택하지 않는 경우** 각 프로필은 하나의 하위 집합에만 할당되며, 다른 하위 집합에 들어갈 수 있더라도 기준이 일치하는 첫 번째 하위 집합에만 할당됩니다.
 
-   * **선택한 경우**&#x200B;프로필이 각 하위 집합에 대한 조건을 충족하면 여러 하위 집합에 포함할 수 있습니다.
+   * **선택하는 경우** 프로필이 각 하위 집합에 대한 조건을 충족하기만 하면 여러 하위 집합에 포함시킬 수 있습니다.
 
-이제 활동이 구성되었습니다. 오케스트레이션된 캠페인 실행에서, 모집단은 활동에 추가된 순서로 다른 하위 집합으로 분할됩니다.
+이제 활동이 구성되었습니다. 오케스트레이션된 캠페인 실행 시 집단은 활동에 추가된 순서대로 여러 하위 집합으로 세분화됩니다.
 
 ## 예{#split-example}
 
 다음 예에서는 **[!UICONTROL 분할]** 활동을 통해 사용하려는 커뮤니케이션 채널을 기반으로 대상자를 별개의 하위 집합으로 세그먼트화합니다.
 
-* **하위 집합 1 &quot;전자 메일&quot;**: 전화 번호를 제공한 프로필을 포함합니다.
+* **하위 집합 1 “이메일”**: 전화번호를 입력한 프로필을 포함합니다.
 
-* **하위 집합 2 &quot;sms&quot;**: 데이터베이스에 휴대폰 번호가 저장된 프로필을 대상으로 합니다.
+* **하위 집합 2 “sms”**: 데이터베이스에 휴대폰 번호가 저장된 프로필을 타기팅합니다.
 
-* **보완 전환**: 하위 집합 기준을 충족하지 않는 나머지 프로필을 캡처합니다.
+* **여집합 전환**: 하위 집합 기준을 충족하지 않는 나머지 프로필을 캡처합니다.
 
 ![](../assets/orchestrated-split-3.png)
