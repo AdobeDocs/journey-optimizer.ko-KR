@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 50a16d70fbf0c64fed64b037a5bcd14c21442c89
+source-git-commit: 2e1f77da8354d793a2d3465790f5e4574eb27a14
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '667'
 ht-degree: 5%
 
 ---
@@ -32,9 +32,8 @@ ht-degree: 5%
 WhatsApp 메시지를 보내기 전에 Adobe Journey Optimizer 환경을 구성하고 WhatsApp 계정과 연결해야 합니다. 다음을 수행하십시오.
 
 1. [WhatsApp API 자격 증명 만들기](#WhatsApp-credentials)
-1. [WhatsApp 구성 만들기](#WhatsApp-configuration)
 1. [WhatsApp 웹후크 만들기](#WhatsApp-webhook)
-
+1. [WhatsApp 구성 만들기](#WhatsApp-configuration)
 
 이 단계는 Adobe Journey Optimizer [시스템 관리자](../start/path/administrator.md)가 수행해야 합니다.
 
@@ -49,7 +48,7 @@ WhatsApp 메시지를 보내기 전에 Adobe Journey Optimizer 환경을 구성�
 
    ![](assets/whatsapp-api.png)
 
-1. **[!UICONTROL 계속을 클릭합니다]**.
+1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
 1. WhatsApp API 자격 증명에 연결할 **비즈니스 계정**&#x200B;을(를) 선택하십시오.
 
@@ -71,6 +70,48 @@ WhatsApp 메시지를 보내기 전에 Adobe Journey Optimizer 환경을 구성�
 1. API 자격 증명 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
 API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 채널 구성을 만들어야 합니다. [자세히 알아보기](#whatsapp-configuration)
+
+## Webhook 만들기 {#WhatsApp-webhook}
+
+>[!NOTE]
+>
+>지정된 옵트인 또는 옵트아웃 키워드가 없으면 표준 동의 메시지가 활성화되지 않습니다.
+
+WhatsApp API 자격 증명과 [메타 웹후크](https://developers.facebook.com/docs/whatsapp/webhooks/)가 만들어지면 다음 단계에서 웹후크를 만들고 인바운드 설정을 구성합니다.
+
+1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL WhatsApp 설정]**&#x200B;에서 **[!UICONTROL WhatsApp Webhooks]** 메뉴를 선택한 다음 **[!UICONTROL Webhook 만들기]** 단추를 클릭합니다.
+
+1. Webhook의 [!UICONTROL 이름]을(를) 입력하십시오.
+
+1. 드롭다운에서 이전에 만든 [API 자격 증명](#whatsapp-credentials)을 선택합니다.
+
+1. ![추가](assets/do-not-localize/Smock_AddCircle_18_N.svg)를 클릭하여 다음과 같은 **[!UICONTROL 인바운드 키워드 범주]** 구성을 시작합니다.
+
+   * **[!UICONTROL 옵트인 키워드]**
+   * **[!UICONTROL 옵트아웃 키워드]**
+   * **[!UICONTROL 도움말 키워드]**
+
+1. **[!UICONTROL 키워드]**&#x200B;을(를) 입력하십시오.
+
+   여러 키워드를 추가하려면 ![추가](assets/do-not-localize/Smock_AddCircle_18_N.svg)를 클릭하세요.
+
+1. 구성된 키워드를 받을 때 보낼 **[!UICONTROL 회신 메시지]**&#x200B;를 지정하십시오.
+
+<!--
+1. Click **[!UICONTROL View payload editor]** to validate and customize your request payloads. 
+    
+    You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
+-->
+
+1. WhatsApp Webhook 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+
+1. **[!UICONTROL Webhooks]** 메뉴에서 ![bin 아이콘](assets/do-not-localize/Smock_Delete_18_N.svg)을 클릭하여 WhatsApp Webhook를 삭제합니다.
+
+1. 기존 구성을 수정하려면 원하는 웹후크를 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 내용을 변경합니다.
+
+1. 이전에 제출한 **[!UICONTROL WhatsApp Webhook]**&#x200B;에서 새 **[!UICONTROL Webhook URL]**&#x200B;에 액세스하여 복사합니다.
+
+이제 Webhook이 구성되었으므로 WhatsApp 구성을 만들 수 있습니다.
 
 ## WhatsApp 구성 만들기 {#whatsapp-configuration}
 
@@ -105,46 +146,6 @@ API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 
    >검사에 실패한 경우 [이 섹션](../configuration/channel-surfaces.md)에서 가능한 실패 이유에 대해 자세히 알아보세요.
 
 1. 검사가 성공하면 채널 구성이 **[!UICONTROL 활성]** 상태가 됩니다. 메시지를 전달하는 데 사용할 준비가 되었습니다.
-
-## Webhook 만들기 {#WhatsApp-webhook}
-
->[!NOTE]
->
->지정된 옵트인 또는 옵트아웃 키워드가 없으면 표준 동의 메시지가 활성화되지 않습니다.
-
-WhatsApp API 자격 증명과 [메타 웹후크](https://developers.facebook.com/docs/whatsapp/webhooks/)가 만들어지면 다음 단계에서 웹후크를 만들고 인바운드 설정을 구성합니다.
-
-1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL WhatsApp 설정]**&#x200B;에서 **[!UICONTROL WhatsApp Webhooks]** 메뉴를 선택한 다음 **[!UICONTROL Webhook 만들기]** 단추를 클릭합니다.
-
-1. Webhook의 [!UICONTROL 이름]을(를) 입력하십시오.
-
-1. 드롭다운에서 이전에 만든 [구성](#whatsapp-configuration)을 선택합니다.
-
-1. ![추가](assets/do-not-localize/Smock_AddCircle_18_N.svg)를 클릭하여 다음과 같은 **[!UICONTROL 인바운드 키워드 범주]** 구성을 시작합니다.
-
-   * **[!UICONTROL 옵트인 키워드]**
-   * **[!UICONTROL 옵트아웃 키워드]**
-   * **[!UICONTROL 도움말 키워드]**
-
-1. **[!UICONTROL 키워드]**&#x200B;을(를) 입력하십시오.
-
-   여러 키워드를 추가하려면 ![추가](assets/do-not-localize/Smock_AddCircle_18_N.svg)를 클릭하세요.
-
-1. 구성된 키워드를 받을 때 보낼 **[!UICONTROL 회신 메시지]**&#x200B;를 지정하십시오.
-
-<!--
-1. Click **[!UICONTROL View payload editor]** to validate and customize your request payloads. 
-    
-    You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
--->
-
-1. WhatsApp Webhook 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
-
-1. **[!UICONTROL Webhooks]** 메뉴에서 ![bin 아이콘](assets/do-not-localize/Smock_Delete_18_N.svg)을 클릭하여 WhatsApp Webhook를 삭제합니다.
-
-1. 기존 구성을 수정하려면 원하는 웹후크를 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 내용을 변경합니다.
-
-1. 이전에 제출한 **[!UICONTROL WhatsApp Webhook]**&#x200B;에서 새 **[!UICONTROL Webhook URL]**&#x200B;에 액세스하여 복사합니다.
 
 구성하고 나면 메시지 작성, 개인화, 링크 추적 및 보고와 같은 기본 제공 채널 기능을 모두 활용할 수 있습니다.
 
