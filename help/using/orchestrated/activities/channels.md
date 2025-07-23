@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 30e22bc1a2ab95dbbef1fb35a01cd2f5d5b02423
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 32%
+source-wordcount: '1166'
+ht-degree: 28%
 
 ---
 
@@ -136,6 +136,28 @@ UNUSED IDs in BJ
 <td><a href="../../sms/create-sms.md"><img alt="sms" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>SMS 만들기</strong></a></td>
 <td><a href="../../push/create-push.md"><img alt="푸시" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>푸시 알림 만들기</strong></a></td>
 </tr></table>
+
+## 개인화 추가
+
+오케스트레이션된 캠페인의 Personalization은 다른 **[!UICONTROL Journey Optimizer]** 캠페인 또는 여정과 비슷하게 작동하지만 오케스트레이션된 캔버스와 관련된 몇 가지 주요 차이점이 있습니다.
+
+오케스트레이션된 캠페인에서 개인화 편집기에 액세스하면 두 개의 기본 폴더에 아래에 설명된 개인화에 사용할 수 있는 속성이 포함됩니다.
+
+* **[!UICONTROL 프로필 속성]**
+
+  이 폴더에는 [!DNL Adobe Experience Platform]의 모든 프로필 관련 데이터가 포함되어 있습니다. 이름, 이메일 주소, 위치 또는 사용자 프로필에 캡처된 기타 트레이트와 같은 표준 속성입니다.
+
+* **[!UICONTROL Target 특성]**(오케스트레이션된 캠페인에만 해당)
+
+  이 폴더는 오케스트레이션된 캠페인에만 사용할 수 있습니다. 여기에는 캠페인 캔버스 내에서 직접 계산된 속성이 포함됩니다. 여기에는 두 개의 하위 폴더가 있습니다.
+
+   * **`<Targeting dimension>`**(예: &quot;수신자&quot;, &quot;구매&quot;): 캠페인에서 타겟팅한 차원과 관련된 모든 특성을 포함합니다.
+
+   * **`Enrichment`**: 캔버스에 **[!UICONTROL 데이터 보강]** 활동을 통해 추가된 데이터를 포함합니다. 이렇게 하면 오케스트레이션 중에 통합된 외부 데이터 세트 또는 추가 논리를 기반으로 메시지를 개인화할 수 있습니다. [데이터 보강 활동을 사용하는 방법을 알아보세요](../activities/enrichment.md)
+
+개인화 편집기 사용 방법에 대한 자세한 개요는 [개인화 시작](../../personalization/personalize.md)을 참조하세요.
+
+## 콘텐츠 확인 및 테스트
 
 콘텐츠가 만들어지면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 테스트 프로필 또는 CSV/JSON 파일에서 업로드한 샘플 입력 데이터로 콘텐츠를 미리 보고 테스트하거나 수동으로 추가합니다. [자세히 알아보기](../../content-management/preview-test.md)
 
