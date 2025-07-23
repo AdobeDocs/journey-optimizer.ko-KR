@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: acb87d0c7c3b8b1bde033f9483ecdeca5cee3325
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 5%
@@ -115,8 +115,6 @@ API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 
 WhatsApp API 자격 증명이 성공적으로 생성되면 다음 단계에서 웹후크를 만들고 인바운드 설정을 구성합니다.
 
 1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL WhatsApp 설정]**&#x200B;에서 **[!UICONTROL WhatsApp Webhooks]** 메뉴를 선택한 다음 **[!UICONTROL Webhook 만들기]** 단추를 클릭합니다.
-
-   ![](assets/sms_byo_5.png)
 
 1. Webhook의 [!UICONTROL 이름]을(를) 입력하십시오.
 
