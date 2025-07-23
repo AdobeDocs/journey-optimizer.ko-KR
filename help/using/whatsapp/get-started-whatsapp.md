@@ -9,12 +9,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 55%
 
 ---
 
@@ -31,11 +30,7 @@ ht-degree: 100%
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->
->이 기능은 Private Beta로 출시됩니다. 향후 릴리스에서 점진적으로 사용 범위를 확대하여 모든 고객에게 제공할 예정입니다.
-
-이제 Journey Optimizer를 통해 직접 WhatsApp 메시지를 보낼 수 있습니다. 이 기능을 사용하면 WhatsApp을 여정 및 캠페인에 원활하게 통합하여 수신자와의 소통과 교류를 향상시킬 수 있습니다.
+이제 메타의 [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/)를 통해 Journey Optimizer을 통해 직접 WhatsApp 메시지를 보낼 수 있습니다. 이 기능을 통해 WhatsApp을 여정 및 캠페인에 매끄럽게 통합하여 수신자와의 소통 및 참여를 강화할 수 있습니다.
 
 * **여정**&#x200B;에서 만들기. 여정을 만들고, **WhatsApp** 활동을 추가하고, 기본 설정을 정의한 다음 **[!UICONTROL 작업: WhatsApp]** 오른쪽 창으로 이동하여 WhatsApp 메시지의 콘텐츠를 만들 수 있습니다. [이 페이지](../building-journeys/journey-gs.md)에서 여정을 만드는 방법을 알아보십시오.
 
@@ -50,23 +45,28 @@ WhatsApp을 Journey Optimizer와 통합하려면 다음 항목이 필요합니�
 * Meta Business Manager 계정
 * WhatsApp Business 계정
 * WhatsApp 전화번호
+* [적절한 권한이 있는 사용자 인증 토큰](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+* [승인된 Meta 템플릿](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [메타 웹후크 구성](https://developers.facebook.com/docs/whatsapp/webhooks/)
+
 
 또한 통합을 진행하기 전에 다음 사항을 알고 있어야 합니다.
 
 * [WhatsApp 콘텐츠 규칙](https://www.whatsapp.com/legal/messaging-guidelines)
 * [Meta 정책 준수](https://www.whatsapp.com/legal)
 * [24시간 대화 제한](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
-* [승인된 Meta 템플릿](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
-## Beta 제한 사항 {#limitations}
+## 제한 사항 {#limitations}
 
-다음 기능은 이 Beta 버전에 포함되지 않습니다.
+WhatsApp 채널에는 다음 제한 사항이 적용됩니다.
 
-* **보고**: 이 릴리스에서는 보고서를 생성하고 보는 기능을 사용할 수 없습니다.
+* Adobe Journey Optimizer의 WhatsApp 채널은 HIPAA에 대비되지만 서드파티 공급업체는 Adobe의 BAA에 포함되지 않습니다. 고객은 자체 규정 준수 및 공급업체 유효성 검사에 대한 책임이 있습니다.
 
-* **옵트인/옵트아웃 키워드**: 지금 단계에서는 사용자가 특정 키워드를 사용하여 구독하거나 구독을 취소하는 기능이 없습니다.
+* 자동화된 응답 메시지나 사전 정의된 응답 메시지는 지원되지 않습니다.
 
-* **응답 메시지**: 이 버전에서는 자동 또는 사전 정의된 응답 메시지가 지원되지 않습니다.
+* 2025년 4월부터 미국 전화 번호(미국 지역 코드 및 +1 전화 코드로 구성된 번호)가 있는 WhatsApp 사용자에게 모든 마케팅 템플릿 메시지 배달이 일시적으로 중단되었습니다. [메타 설명서에서 자세히 알아보기](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
+
+* 기본 통합 기능은 타사 비즈니스 서비스 공급자(BSP)와의 통합을 허용하지 않습니다.
 
 ## 사용 방법 비디오 {#video}
 
