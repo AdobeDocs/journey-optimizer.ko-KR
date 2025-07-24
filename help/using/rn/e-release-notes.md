@@ -2,26 +2,26 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer에 대한 사전 릴리스 노트
-description: Journey Optimizer 사전 릴리스 노트
+description: Adobe Journey Optimizer 사전 릴리스 노트
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
+source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 19%
+source-wordcount: '933'
+ht-degree: 17%
 
 ---
 
-# 사전 릴리스 정보 {#e-release-notes}
+# 프리릴리스 정보 {#e-release-notes}
 
 [!DNL Adobe Journey Optimizer]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매월 말 [릴리스 정보](release-notes.md)에 통합됩니다.
 
 **아래의 사전 릴리스 노트는 릴리스 사용 가능 날짜까지 사전 공지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 날짜의 [릴리스 정보](release-notes.md)에 게시됩니다.
 
 
-## 2025년 7월 초기 릴리스 정보 {#25-7-rn}
+## 2025년 7월 사전 릴리스 정보 {#25-7-rn}
 
 
 **아래의 사전 릴리스 노트는 릴리스 사용 가능 날짜까지 사전 공지 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
@@ -118,6 +118,12 @@ ht-degree: 19%
 <tr>
 <td>
 <p>이제 Journey Optimizer은 캠페인 대상에 개인화되고 최적화된 콘텐츠를 전달할 수 있는 도구를 제공함으로써 콘텐츠 실험을 실행하고, 규칙 기반 타기팅을 만들고, 두 방법의 고급 조합을 사용하여 캠페인의 효과를 극대화할 수 있습니다.</p>
+<p>최적화를 통해 다음과 같은 작업을 수행할 수 있습니다.</p>
+<ul>
+<li>콘텐츠 실험 실행</li>
+<li>타깃팅 규칙 활용</li>
+<li>단일 캠페인 내에서 실험과 타겟팅의 고급 조합 사용</li></ul>
+<P>캠페인이 라이브되면 정의된 기준에 따라 프로필이 평가되고, 일치하는 기준을 기반으로 캠페인의 적절한 경험 또는 콘텐츠와 함께 전달됩니다.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,7 +164,6 @@ ht-degree: 19%
 <li>시작 및 종료 날짜를 설정한 경우 초안 캠페인을 볼 수 있는 기능</li>
 <li>오래 실행되는 일정 항목을 숨기고 표시하는 새로운 설정입니다.</li>
 </ul>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
