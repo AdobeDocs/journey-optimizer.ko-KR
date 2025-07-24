@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
+source-git-commit: 085a86b0869a10536300329acc27914f12be6d7b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '924'
 ht-degree: 17%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>이제 이메일 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다.</p>
-<p>이 기능은 조직 집합에만 사용할 수 있습니다. 현재 Healthcare Shield 및 Privacy and Security Shield(제한된 가용성)에서는 사용할 수 없습니다.</p>
+<p>이 기능은 현재 Healthcare Shield 및 Privacy and Security Shield(제한된 가용성)에서 사용할 수 없습니다.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
