@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
+source-git-commit: 516eb24a1f089d2fba1585e6b03e1d912b110d3c
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 19%
@@ -19,9 +19,9 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="오케스트레이션된 캠페인"
->abstract="**Campaign 오케스트레이션**<br/>&#x200B;관계형 데이터 세트를 분할, 결합, 강화 및 조작하여 대상자를 정의<br/><br/>"
+>abstract="<b>Campaign 오케스트레이션</b><br/>관계형 데이터 세트를 분할, 결합, 강화 및 조작하여 대상자를 정의<br/><br/>
 
-**여러 엔터티 데이터 활용**<br/>&#x200B;오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위한 데이터를 보강하는 방법에 대해 알아봅니다.<br/><br/>**임시 세분화 및 정확한 카운트**<br/>&#x200B;정확한 카운트로 단계별 세그먼트 구축&#x200B;<br/><br/>**사용 가능한 채널**<br/>&#x200B;이메일, SMS, 푸시 알림, DM&quot;
+<b>여러 엔터티 데이터 활용</b><br/>오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위한 데이터를 보강하는 방법에 대해 알아봅니다.<br/><br/><b>임시 세분화 및 정확한 카운트</b><br/>정확한 카운트로 단계별 세그먼트 구축<br/><br/><b>사용 가능한 채널</b><br/>이메일, SMS, 푸시 알림, DM&quot;
 
 +++ 목차
 
