@@ -10,15 +10,20 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 7%
+source-wordcount: '139'
+ht-degree: 5%
 
 ---
 
 
 # 작업 캠페인 작업 {#gs-action-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_action"
+>title="액션 캠페인"
+>abstract="**캠페인을 만들고 전송할 수 있는 안내 UI**<br/>&#x200B;채널을 통해 하나 이상의 작업을 설정하고, 대상을 선택하고, 콘텐츠를 설정하고, 일정을 정의하고, 전송할 준비가 되었습니다.<br/><br/>**사용 가능한 채널**<br/>&#x200B;이메일, SMS, 푸시 알림, 인앱, 웹, 코드 기반 환경"
 
 ## 작업 캠페인 기본 정보 {#about}
 
@@ -39,4 +44,4 @@ ht-degree: 7%
 
 작업 캠페인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412406?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

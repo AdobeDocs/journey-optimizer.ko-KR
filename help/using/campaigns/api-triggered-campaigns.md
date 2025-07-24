@@ -9,15 +9,20 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 5%
+source-wordcount: '233'
+ht-degree: 4%
 
 ---
 
 
 # API 트리거 캠페인 작업 {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_api_triggered"
+>title="API 트리거 캠페인"
+>abstract="**트랜잭션 API 트리거 캠페인**<br/> API 호출을 통해 실시간 메시지 트리거&#x200B;<br/><br/>**마케팅 메시지**<br/>&#x200B;프로모션 콘텐츠(비즈니스 규칙에 따라 옵트인 필요)<br/><br/>**트랜잭션 메시지**<br/>&#x200B;서비스 관련 콘텐츠(확인, 알림, 마케팅 동의에 따라 적용되지 않음)<br/><br/>**사용 가능한 채널**<br/>&#x200B;이메일, SMS, 푸시 알림"
 
 ## API 트리거 캠페인 기본 정보 {#about}
 
@@ -43,4 +48,4 @@ API 트리거 캠페인에 사용할 수 있는 채널은 이메일, SMS 및 푸
 
 대화형 메시지 실행 REST API를 사용하여 사용자 상호 작용을 기반으로 외부 시스템에서 캠페인을 만들고 트리거하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452732?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
