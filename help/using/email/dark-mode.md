@@ -11,10 +11,10 @@ keywords: 다크 모드, 이메일, 색상, 편집기
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
+source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 1%
+source-wordcount: '1674'
+ht-degree: 9%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="다크 모드로 전환"
->abstract="렌더링 방법을 미리 보고 특정 사용자 지정 설정을 정의할 수 있는 다크 모드로 전환합니다. <br>주의 : 최종 렌더링은 받는 사람의 전자 메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트가 사용자 지정 다크 모드를 지원하는 것은 아닙니다."
+>abstract="다크 모드로 전환하면 어떻게 렌더링되는지 미리 보고 특정 사용자 정의 설정을 정의할 수 있습니다. <br>주의: 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트가 사용자 정의 다크 모드를 지원하지는 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
->title="다크 모드로 특정 이미지 사용"
->abstract="다크 모드가 켜져 있을 때 표시할 다른 이미지를 선택할 수 있습니다. <br>주의: 다크 모드에 대한 특정 이미지를 추가한다고 해서 모든 이메일 클라이언트에서 올바르게 렌더링되는 것은 아닙니다. 모든 이메일 클라이언트가 사용자 지정 다크 모드를 지원하는 것은 아닙니다."
+>title="다크 모드용 이미지 사용"
+>abstract="다크 모드가 켜져 있을 때 표시될 다른 이미지를 선택할 수 있습니다. <br>주의: 다크 모드용 이미지를 추가할 경우 모든 이메일 클라이언트에서의 올바른 렌더링을 보장하지는 않습니다. 모든 이메일 클라이언트가 사용자 정의 다크 모드를 지원하지는 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="다크 모드로 전환"
->abstract="지원 이메일 클라이언트에서 렌더링할 방법을 미리 보려면 다크 모드로 전환하십시오. <br>주의 : 최종 렌더링은 받는 사람의 전자 메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트가 사용자 지정 다크 모드를 지원하는 것은 아닙니다."
+>abstract="다크 모드로 전환하여 지원되는 이메일 클라이언트에서 어떻게 렌더링되는지 미리 확인합니다. <br>주의: 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트가 사용자 정의 다크 모드를 지원하지는 않습니다."
 
 전자 메일을 디자인할 때 [!DNL Journey Optimizer] [전자 메일 Designer](get-started-email-design.md)를 사용하면 특정 사용자 지정 설정을 정의할 수 있는 **[!UICONTROL 어두운 모드]**(으)로 전환할 수 있습니다. 다크 모드가 설정되어 있으면 지원하는 이메일 클라이언트에 이 모드에 대해 정의한 설정이 표시됩니다.
 
@@ -209,13 +209,13 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## 다크 모드를 지원하는 이메일 클라이언트 {#supporting-email-clients}
 
-다음은 다크 모드를 지원하는 기본 이메일 클라이언트 목록입니다. 나열된 이메일 클라이언트의 일부 버전은 다크 모드를 지원하지 않지만, 명확성과 정확성을 위해 이 표에도 나와 있습니다.
+다음은 다크 모드를 지원하는 기본 이메일 클라이언트 목록입니다.
 
->[!WARNING]
+>[!NOTE]
 >
->다크 모드 최종 렌더링은 각 이메일 클라이언트에 따라 다르므로 결과가 서로 다를 수 있습니다. 각 전자 메일 클라이언트에 대한 최종 결과에 최대한 가까운 시뮬레이션을 보려면 [전자 메일 렌더링](../content-management/rendering.md) 옵션을 사용하십시오.
+>이러한 이메일 클라이언트의 일부 버전은 다크 모드를 지원하지 않으므로 명확성을 위해 이 표에도 표시됩니다.
 
-| 다크 모드를 지원하는 이메일 클라이언트 | 호환 버전 | 지원되지 않는 버전 |
+| 다크 모드를 지원하는 이메일 클라이언트 | 호환 버전 | *지원되지 않는 버전* |
 |---------|----------|---------|
 | Apple 메일 macOS | 12.4, 16.0 | *10.3* |
 | Apple 메일 iOS | 13.0, 16.1 | *12.2* |
@@ -236,6 +236,10 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 | 1&amp;1(데스크탑 웹 메일 및 Android) | 2022-06 | NA |
 | WEB.DE (iOs 및 Android) | 2022-06 | NA |
 | Free.fr | 2022-12 | NA |
+
+>[!WARNING]
+>
+>다크 모드 최종 렌더링은 각 이메일 클라이언트에 따라 다르므로 결과가 서로 다를 수 있습니다.
 
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
