@@ -8,17 +8,17 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
+exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
+source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1198'
 ht-degree: 1%
 
 ---
 
-
 # 외부 데이터 조회 도우미
 
-`externalDataLookup` 개인화 편집기의 [!DNL Journey Optmizer] 도우미는 코드 기반 경험, 웹 및 인앱 메시지 채널과 같은 인바운드 채널에 대한 콘텐츠를 생성하는 데 사용할 외부 끝점에서 데이터를 동적으로 가져오는 데 사용할 수 있습니다.
+`externalDataLookup` 개인화 편집기의 [!DNL Journey Optimizer] 도우미는 코드 기반 경험, 웹 및 인앱 메시지 채널과 같은 인바운드 채널에 대한 콘텐츠를 생성하는 데 사용할 외부 끝점에서 데이터를 동적으로 가져오는 데 사용할 수 있습니다.
 
 >[!AVAILABILITY]
 >
@@ -35,14 +35,14 @@ ht-degree: 1%
 
 [!DNL Journey Optimizer] 인바운드 채널 캠페인 및 여정의 사용자 지정 #GuardrailsandGuidelines을 참조하십시오.
 
-* 기본적으로 [!DNL Journey Optimizer]은(는) 외부 끝점을 호출할 때 300ms의 시간 제한을 사용합니다. 끝점에 대한 이 시간 제한을 늘리려면 [!DNL Journey Optimizer] Engineering에 문의하십시오.
-* Personalization 편집기에서 [!DNL Journey Optimizer]은(는) 표현식을 삽입할 때 끝점 응답의 스키마를 찾을 수 없으며 표현식에 사용된 응답에서 JSON 특성에 대한 참조의 유효성을 검사하지 않습니다.
-* externalDataLookup 도우미를 통해 대체할 페이로드 변수 매개 변수에 대해 지원되는 데이터 유형은 String, Integer, Decimal, Boolean, listString, listInt, listInteger, listDecimal입니다.
-* 작업 구성 변경 사항은 라이브 캠페인 및 여정의 해당 externalDataLookup 호출에 반영되지 않습니다. 변경 사항을 반영하려면 externalDataLookup 도우미에서 작업을 사용하는 모든 라이브 캠페인 또는 여정을 복사하거나 수정해야 합니다.
-* 아직 외부 데이터 조회 도우미 매개 변수 내에서는 변수 사용이 지원되지 않습니다.
-* 동적 URL 경로는 현재 지원되지 않습니다.  - 인바운드 사용자 지정 작업 개선 사항#DynamicPathSegments.
-* 다중 패스 렌더링이 지원됩니다.
-* 현재 externalDataLookup 도우미에서 작업 구성의 인증 옵션을 지원하지 않습니다. 그동안 API 키 기반 인증 또는 기타 일반 텍스트 인증 키의 경우 작업 구성에서 헤더 필드로 지정할 수 있습니다.
+* **기본 시간 제한** - 기본적으로 [!DNL Journey Optimizer]은(는) 외부 끝점을 호출할 때 300ms의 시간 제한을 사용합니다. 끝점에 대한 이 시간 제한을 늘리려면 Adobe 담당자에게 문의하십시오.
+* **응답 스키마 찾아보기 및 식 유효성 검사** - 개인화 편집기에서 식을 삽입할 때 끝점 응답의 스키마를 찾아볼 수 없습니다. [!DNL Journey Optimizer]은(는) 식에 사용된 응답에서 JSON 특성에 대한 참조를 확인하지 않습니다.
+* **매개 변수에 지원되는 데이터 형식** - externalDataLookup 도우미를 통해 대체할 페이로드 변수 매개 변수에 지원되는 데이터 형식은 `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger`, `listDecimal`입니다.
+* **업데이트된 작업에 대한 자동 새로 고침** - 작업 구성에 대한 변경 내용은 실시간 캠페인 및 여정의 해당 externalDataLookup 호출에 반영되지 않습니다. 변경 사항을 반영하려면 externalDataLookup 도우미에서 작업을 사용하는 모든 라이브 캠페인 또는 여정을 복사하거나 수정해야 합니다.
+* **변수 대체** - 지금은 externalDataLookup 도우미 매개 변수 내에서 변수 사용이 지원되지 않습니다.
+* **동적 경로** - 지금은 동적 URL 경로가 지원되지 않습니다.
+* **다중 패스 렌더링** - 다중 패스 렌더링이 지원됩니다.
+* **인증** - 지금은 externalDataLookup 도우미에서 작업 구성의 인증 옵션을 지원하지 않습니다. 그동안 API 키 기반 인증 또는 기타 일반 텍스트 인증 키의 경우 작업 구성에서 헤더 필드로 지정할 수 있습니다.
 
 ## 작업 구성 및 도우미 사용
 
@@ -102,15 +102,21 @@ ht-degree: 1%
 
 예:
 
-`{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
+{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
 
 매개 변수 값은 고정 값일 수 있으며, 프로필 필드 또는 기타 컨텍스트 속성을 참조하여 개인화할 수 있습니다. 예:
 
-`{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}`
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}
+```
 
 페이로드 매개 변수는 다음과 같이 중첩된 JSON 속성을 참조하는 점 표기법을 사용하여 제공할 수 있습니다.
 
-`{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}`
+```
+{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}
+```
 
 ### 결과 액세스
 
@@ -174,7 +180,9 @@ First video description: <b>result.videos[0].description</b>
 
 예를 들어 다음과 같이 단일 속성에 대한 대체 값을 표시할 수 있습니다.
 
-`First video description: {%=result.videos[0].description ?: "none found" %}`
+```
+First video description: {%=result.videos[0].description ?: "none found" %}
+```
 
 또는 다음과 같이 컨텐츠 전체 블록을 조건부로 렌더링할 수 있습니다.
 
@@ -196,7 +204,7 @@ First video description: <b>result.videos[0].description</b>
 
 실행 세부 정보의 일부로서 보증 추적의 Edge Delivery 섹션 아래에 아래 내용과 유사한 요청 및 응답 세부 정보와 함께 새 customActions 블록이 추가되었습니다. 오류 섹션은 사용자 지정 작업을 실행하는 동안 문제가 있는 경우 디버깅에 도움이 됩니다
 
-![](assets/external-data-troubleshoot.png)
+![](assets/external-data-troubleshoot.png "너비=50%")
 
 ## FAQ
 
@@ -204,7 +212,9 @@ First video description: <b>result.videos[0].description</b>
 
   컨텍스트 속성 > 데이터스트림 > 이벤트 메뉴를 사용하여 사용 중인 경험 이벤트 스키마를 검색하고 관련 속성을 다음과 같은 매개 변수 값으로 삽입합니다.
 
-  `{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}`
+  ```
+  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+  ```
 
 * [!DNL Journey Optimizer]이(가) 외부 끝점 응답을 캐싱합니까?
 
