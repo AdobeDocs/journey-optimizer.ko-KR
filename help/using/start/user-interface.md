@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
-source-wordcount: '1716'
+source-git-commit: 1b402e8c8a5dbff84dbd362181d6168fe85de6b5
+workflow-type: tm+mt
+source-wordcount: '1671'
 ht-degree: 100%
 
 ---
@@ -328,17 +328,6 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 >id="ajo_exd_decision_attribute"
 >title="카탈로그에서 결정 속성 선택"
 >abstract="결정 속성은 카탈로그의 스키마에 저장됩니다. 선택한 카탈로그에서 여기에서 사용할 속성을 선택합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_exd_decision_policy"
->title="결정 정책"
->abstract="결정 정책을 사용하면 결정 엔진에서 최상의 항목을 선택하여 각 대상자에게 전달할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo_exd_placements"
->title="배치"
->abstract="배치는 결정 엔진에서 반환된 항목이 메시지에 나타나는 위치를 결정합니다. 보고에서 다양한 배치에 대한 성과를 추적할 수 있습니다."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_simulation"
