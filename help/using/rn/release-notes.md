@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a750a64105cc3939d8d6e2c96e109d6a39e21a9e
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '2246'
-ht-degree: 66%
+source-wordcount: '2316'
+ht-degree: 63%
 
 ---
 
@@ -94,25 +94,6 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>여정의 콘텐츠 결정 활동</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 여정 캔버스에서 전용 [콘텐츠 결정] 활동을 통해 개인화된 오퍼를 여정에 포함하고 조건 및 사용자 정의 액션을 포함한 여정 활동에 사용할 수 있습니다.</p>
-<img src="assets/do-not-localize/content-decision.gif">
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>캠페인의 최적화</strong><br/></th>
 </tr>
 </thead>
@@ -126,6 +107,29 @@ ht-degree: 66%
 <li>타깃팅 규칙 활용</li>
 <li>단일 캠페인 내에서 실험과 타겟팅의 고급 조합 사용</li></ul>
 <P>캠페인이 라이브되면 정의된 기준에 따라 프로필이 평가되고, 일치하는 기준을 기반으로 캠페인의 적절한 경험 또는 콘텐츠와 함께 전달됩니다.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 Designer의 다크 모드</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer 이메일 Designer에서 어두운 모드 보기로 전환할 수 있는 기능을 제공합니다. 이 기능에서는 어두운 모드에서 전자 메일을 읽는 수신자에게만 표시되는 특정 사용자 지정 설정을 추가로 정의할 수 있습니다.</p>
+<p>다음을 참고하십시오.</p>
+<ul>
+<li>다크 모드 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다를 수 있습니다.</li>
+<li>모든 이메일 클라이언트가 사용자 지정 다크 모드를 지원하는 것은 아닙니다. 또한 일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자신의 기본 다크 모드만 적용합니다. 두 경우 모두 이메일 Designer에서 정의한 사용자 지정 설정을 렌더링할 수 없습니다.</li>
+</ul>
+<P>이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -205,10 +209,6 @@ ht-degree: 66%
 
 다음은 이번 릴리스의 개선 사항 목록입니다.
 
-- **이메일 디자이너**
-   - 이제 Journey Optimizer 이메일 Designer에서 특정 사용자 지정 설정을 추가로 정의할 수 있는 다크 모드 보기로 전환하는 기능을 제공합니다. 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다릅니다. 또한 모든 이메일 클라이언트가 다크 모드를 지원하는 것은 아닙니다.
-  <!-- [Read more](../FILE.md) -->
-
 - **캠페인**
    - **규칙 기반 캠페인 결격** - 콘텐츠 카드에서 추가 게재 규칙을 편집할 때 이전 게재 규칙 옵션이 세 가지 서로 다른 규칙 유형으로 대체되어 메시지 타이밍 및 가시성을 더 잘 제어할 수 있습니다.
       - 다음과 같은 경우 메시지 표시: 컨텐츠 카드가 표시되는 시기를 결정하는 조건입니다.
@@ -237,6 +237,9 @@ ht-degree: 66%
    - **인앱 키/값 쌍** - 인앱 메시지를 사용하여 메시지 페이로드에 사용자 지정 변수를 포함하도록 키 및 값 쌍을 정의할 수 있습니다. 이러한 키-값 쌍을 사용하면 특정 구성 및 사용 사례에 따라 추가 데이터를 전달할 수 있습니다.
   <!-- [Read more](../FILE.md) -->
 
+- **의사 결정**
+   - **마이그레이션 도구 API** - Journey Optimizer 팀은 현재 의사 결정 관리 엔터티를 Decisioning으로 마이그레이션하기 위한 마이그레이션 도구 API를 작업 중입니다. 이 도구를 사용하면 종속성 해결 및 롤백 기능을 통해 샌드박스 간에 원활하게 마이그레이션할 수 있습니다. 관심이 있는 경우 Adobe 담당자에게 문의하십시오.
+
 
 ## 25년 6월 릴리스 정보 {#25-6-rn}
 
@@ -245,7 +248,7 @@ ht-degree: 66%
 
 **릴리스 일자**: 2025년 6월 18일
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#25-06-features}
 

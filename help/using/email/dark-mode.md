@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 다크 모드로 전환
 description: 이메일 Designer에서 다크 모드를 사용하는 방법에 대해 알아봅니다.
+badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -11,10 +12,10 @@ keywords: 다크 모드, 이메일, 색상, 편집기
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 9%
+source-wordcount: '1677'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +35,10 @@ ht-degree: 9%
 >id="ac_edition_darkmode_preview"
 >title="다크 모드로 전환"
 >abstract="다크 모드로 전환하여 지원되는 이메일 클라이언트에서 어떻게 렌더링되는지 미리 확인합니다. <br>주의: 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트가 사용자 정의 다크 모드를 지원하지는 않습니다."
+
+>[!AVAILABILITY]
+>
+>이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.
 
 전자 메일을 디자인할 때 [!DNL Journey Optimizer] [전자 메일 Designer](get-started-email-design.md)를 사용하면 특정 사용자 지정 설정을 정의할 수 있는 **[!UICONTROL 어두운 모드]**(으)로 전환할 수 있습니다. 다크 모드가 설정되어 있으면 지원하는 이메일 클라이언트에 이 모드에 대해 정의한 설정이 표시됩니다.
 
@@ -91,9 +96,10 @@ ht-degree: 9%
 
 1. 이메일 Designer 홈 페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다. [자세히 알아보기](content-from-scratch.md)
 
-   >[!NOTE]
-   >
-   >[전자 메일 템플릿](use-email-templates.md)을 선택하거나 [테마](apply-email-themes.md)를 적용하는 경우 현재 다크 모드로 전환하지 못할 수 있습니다.
+<!--Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
+    >[!NOTE]
+    >
+    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
 
 1. 콘텐츠에 [구조체](content-from-scratch.md) 및 [콘텐츠 구성 요소](content-components.md)를 추가하십시오.
 
@@ -104,12 +110,8 @@ ht-degree: 9%
 1. 기본 어두운 모드 미리보기가 표시됩니다.
 
    ![](assets/dark-mode-default.png)
-<!--
-    >[!NOTE]
-    >
-    >Dark mode applies to all elements, except images and icons.-->
 
-기본적으로 이메일 Designer 어두운 모드 미리 보기는 이미지와 아이콘을 제외한 모든 요소에 &#39;전체 색상 반전&#39; 색상 스키마를 적용합니다. <!--It fully inverts all colors for all the elements (texts, buttons, etc.)-->
+기본적으로 이메일 Designer 어두운 모드 미리 보기는 이미지와 아이콘을 제외한 모든 요소에 &#39;전체 색상 반전&#39; 색상 스키마를 적용합니다.
 
 밝고 어두운 요소를 가진 영역을 탐지하고 반전시켜 밝은 배경은 어둡게, 어두운 텍스트는 밝게, 어두운 배경은 밝게, 밝은 텍스트는 어두워지게 하는 것을 의미한다.
 
@@ -135,7 +137,7 @@ Here you can see that we have applied a different background, defined another im
 
 사용자 지정 어두운 모드 설정을 정의하려면 아래 단계를 따르십시오.
 
-1. 이메일 Designer에서 **[!UICONTROL 어두운 모드]**&#x200B;가 활성화되어 있는지 확인하십시오. [방법 알아보기](#preview-dark-mode)
+1. 이메일 Designer에서 **[!UICONTROL 어두운 모드]** 미리 보기로 전환하세요. [방법 알아보기](#preview-dark-mode)
 
 1. 텍스트, 배경, 단추 등의 모든 스타일 색상 속성을 편집합니다.
 
