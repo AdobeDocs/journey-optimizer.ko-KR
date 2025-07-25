@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 52%
+source-wordcount: '480'
+ht-degree: 45%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 52%
 
 1. 저장된 대상자를 식별하는 **[!UICONTROL 대상자 레이블]**&#x200B;을 입력합니다.
 
-1. 캠페인 타깃팅 차원에서 **[!UICONTROL 프로필 매핑 &#x200B; 필드]**&#x200B;을(를) 선택하십시오.
+1. 캠페인 타깃팅 차원에서 **[!UICONTROL 프로필 매핑 필드&#x200B;]**&#x200B;을(를) 선택하십시오.
 
    ➡️ [이 페이지에 설명된 단계에 따라 캠페인 타깃팅 차원을 만드십시오](../target-dimension.md)
 
@@ -66,7 +66,10 @@ ht-degree: 52%
 
 1. 오케스트레이션된 캠페인을 저장하고 게시하여 설정을 완료합니다. 이렇게 하면 대상자가 생성되고 저장됩니다.
 
-**[!UICONTROL 대상자]** 메뉴를 통해 액세스할 수 있는 대상자 세부 사항 보기에서 저장한 대상자의 콘텐츠를 확인할 수 있습니다.
+저장한 대상자의 콘텐츠는 대상자의 세부 사항 보기에서 사용할 수 있습니다. 이 뷰는 **[!UICONTROL 대상자]** 메뉴에서 액세스하거나 대상자를 타깃팅할 때 선택할 수 있습니다(예: **[!UICONTROL 대상자 읽기]** 활동).
+
+![](../assets/save-audience-4.png)
+
 
 ## 예 {#save-audience-example}
 

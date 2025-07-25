@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 38%
+source-wordcount: '426'
+ht-degree: 37%
 
 ---
 
@@ -61,11 +61,13 @@ ht-degree: 38%
 
    ![](../assets/read-audience-2.png)
 
-1. 대상의 프로필을 고유하게 식별하는 데 사용되는 **[!UICONTROL 엔터티]**&#x200B;를 선택하십시오.
+1. 캠페인 타깃팅 차원에서 **[!UICONTROL &#x200B;엔터티]**&#x200B;를 선택하십시오.
+
+   ➡️ [이 페이지에 설명된 단계에 따라 캠페인 타깃팅 차원을 만드십시오](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 
-1. **[!UICONTROL 프로필 특성 추가]**&#x200B;를 선택하여 선택한 대상자를 추가 데이터로 보강합니다. 결과 대상자에는 각각 선택한 프로필 속성으로 보강된 수신자 목록이 포함됩니다.
+1. **[!UICONTROL 특성 추가]**&#x200B;를 선택하여 선택한 대상자를 추가 데이터로 보강합니다. 결과 대상자에는 각각 선택한 프로필 속성으로 보강된 수신자 목록이 포함됩니다.
 
 1. 대상자에 추가할 **[!UICONTROL 특성]**&#x200B;을(를) 선택하십시오.
 
