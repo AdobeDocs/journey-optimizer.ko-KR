@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
+source-git-commit: ddb0a03461f37c7217486cc7fb8f28df83a90e59
 workflow-type: tm+mt
-source-wordcount: '1841'
-ht-degree: 15%
+source-wordcount: '1865'
+ht-degree: 16%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 15%
 >id="ajo_exd_placements"
 >title="배치"
 >abstract="배치는 결정 엔진에서 반환된 항목이 메시지에 나타나는 위치를 결정합니다. 보고에서 다양한 배치에 대한 성과를 추적할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_attribute"
+>title="카탈로그에서 결정 속성 선택"
+>abstract="결정 속성은 카탈로그의 스키마에 저장됩니다. 선택한 카탈로그에서 여기에서 사용할 속성을 선택합니다."
 
 의사 결정 정책은 대상자에 따라 제공할 최상의 콘텐츠를 선택하기 위해 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
 
