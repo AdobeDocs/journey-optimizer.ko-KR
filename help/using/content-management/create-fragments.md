@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 14%
+source-wordcount: '755'
+ht-degree: 13%
 
 ---
 
@@ -78,6 +78,10 @@ ht-degree: 14%
 * 표현식 조각의 경우 [!DNL Journey Optimizer] 개인화 편집기와 모든 개인화 및 작성 기능을 활용하여 조각 콘텐츠를 작성합니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
+
+>[!NOTE]
+>
+>여정 또는 캠페인에서 추적이 활성화되면 조각에 링크를 추가하고 이 조각을 이메일에 사용하는 경우 메시지에 포함된 다른 모든 링크와 같이 이러한 링크가 추적됩니다. [링크 및 추적에 대해 자세히 알아보기](../email/message-tracking.md)
 
 콘텐츠가 준비되면 **[!UICONTROL 저장]** 단추를 클릭합니다.
 

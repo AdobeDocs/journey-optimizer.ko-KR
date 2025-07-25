@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 12%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->여정 또는 캠페인에서 추적이 활성화되면 조각에 링크를 추가하고 이 조각을 이메일에 사용하는 경우 메시지에 포함된 다른 모든 링크와 같이 이러한 링크가 추적됩니다. [링크 및 추적에 대해 자세히 알아보기](../email/message-tracking.md)
+>여정 또는 캠페인에서 추적이 활성화된 경우, 링크가 저장된 조각에 있고 이 조각을 이메일에 사용하는 경우 해당 링크는 메시지에 포함된 다른 모든 링크와 같이 추적됩니다. [링크 및 추적에 대해 자세히 알아보기](../email/message-tracking.md)
 
 ## 시각적 조각으로 저장 {#save-as-visual-fragment}
 
