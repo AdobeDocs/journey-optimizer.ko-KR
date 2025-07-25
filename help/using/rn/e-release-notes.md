@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 085a86b0869a10536300329acc27914f12be6d7b
+source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 17%
+source-wordcount: '948'
+ht-degree: 16%
 
 ---
 
@@ -45,9 +45,9 @@ ht-degree: 17%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 직접 WhatsApp 메시지를 지원하여 여정 및 캠페인에 원활하게 통합하여 수신자 커뮤니케이션 및 참여를 개선할 수 있습니다.</p>
+<p>이제 Journey Optimizer에서 직접 WhatsApp 메시지를 지원하여 여정 및 캠페인에 원활하게 통합하여 수신자 커뮤니케이션 및 참여를 개선할 수 있습니다. 이 기본 채널은 WhatsApp 템플릿 통합, 메시지 미리 보기, 개인화, 게재 보고, 웹후크, 옵트인 및 옵트아웃 동의 관리 등을 즉시 제공합니다.</p>
 <p>이전에 Beta에서 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
