@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 12%
+source-wordcount: '1841'
+ht-degree: 15%
 
 ---
 
@@ -26,6 +26,16 @@ ht-degree: 12%
 >title="결정 정책 정의"
 >abstract="결정 정책을 사용하면 결정 엔진에서 최상의 항목을 선택하여 올바른 대상자에게 전달할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="결정 정보"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="결정 정책"
+>abstract="결정 정책을 사용하면 결정 엔진에서 최상의 항목을 선택하여 각 대상자에게 전달할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="배치"
+>abstract="배치는 결정 엔진에서 반환된 항목이 메시지에 나타나는 위치를 결정합니다. 보고에서 다양한 배치에 대한 성과를 추적할 수 있습니다."
 
 의사 결정 정책은 대상자에 따라 제공할 최상의 콘텐츠를 선택하기 위해 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
 
@@ -226,7 +236,7 @@ ht-degree: 12%
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. 대괄호 `[ ]` 쌍 안에 `#each` 루프를 래핑하고 닫는 `/each` 바로 앞에 쉼표를 추가해야 합니다.
+1. 대괄호 `#each` 쌍 안에 `[ ]` 루프를 래핑하고 닫는 `/each` 바로 앞에 쉼표를 추가해야 합니다.
 
    ![](assets/decision-code-based-wrap-code.png)
 
