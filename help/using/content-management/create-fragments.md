@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '710'
 ht-degree: 14%
 
 ---
@@ -79,7 +79,13 @@ ht-degree: 14%
 
   ![](assets/fragment-expression-editor.png)
 
-콘텐츠가 준비되면 **[!UICONTROL 저장]** 단추를 클릭합니다. 조각이 만들어지고 **[!UICONTROL 초안]** 상태의 조각 목록에 추가됩니다. 이를 미리 보고 게시하여 여정 및 캠페인에서 사용할 수 있도록 할 수 있습니다.
+콘텐츠가 준비되면 **[!UICONTROL 저장]** 단추를 클릭합니다.
+
+>[!NOTE]
+>
+>시각적 조각은 100KB를 초과할 수 없습니다. 표현식 조각은 200KB를 초과할 수 없습니다.
+
+조각이 만들어지고 **[!UICONTROL 초안]** 상태의 조각 목록에 추가됩니다. 이를 미리 보고 게시하여 여정 및 캠페인에서 사용할 수 있도록 할 수 있습니다.
 
 ## 조각 미리보기 및 게시 {#publish}
 

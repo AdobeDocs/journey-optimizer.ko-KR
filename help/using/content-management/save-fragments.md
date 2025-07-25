@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 13%
+source-wordcount: '510'
+ht-degree: 12%
 
 ---
 
 # 콘텐츠를 조각으로 저장 {#save-as-fragment}
 
 [!DNL Journey Optimizer]에서 콘텐츠를 편집할 때 나중에 다시 사용할 수 있도록 콘텐츠의 전부 또는 일부를 조각으로 저장할 수 있습니다. 콘텐츠를 [이메일 Designer에서](#save-as-visual-fragment) 또는 [식 편집기에서](#save-as-expression-fragment) 조각으로 저장할 수 있습니다.
+
+>[!NOTE]
+>
+>여정 또는 캠페인에서 추적이 활성화되면 조각에 링크를 추가하고 이 조각을 이메일에 사용하는 경우 메시지에 포함된 다른 모든 링크와 같이 이러한 링크가 추적됩니다. [링크 및 추적에 대해 자세히 알아보기](../email/message-tracking.md)
 
 ## 시각적 조각으로 저장 {#save-as-visual-fragment}
 
@@ -28,6 +32,10 @@ ht-degree: 13%
 1. 드롭다운 메뉴에서 **[!UICONTROL 조각으로 저장]**&#x200B;을(를) 선택합니다.
 
    ![](assets/fragment-save-as.png)
+
+   >[!NOTE]
+   >
+   >시각적 조각은 100KB를 초과할 수 없습니다.
 
 1. **[!UICONTROL 조각으로 저장]** 화면이 표시됩니다. 여기에서 개인화 필드 및 다이내믹 콘텐츠를 포함하여 조각에 포함할 요소를 선택합니다. 컨텍스트 속성은 조각에서 지원되지 않습니다.
 
@@ -43,7 +51,7 @@ ht-degree: 13%
 
 1. **태그** 필드에서 Adobe Experience Platform 태그를 선택하거나 만들어 검색 개선을 위해 템플릿을 분류합니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
 
-1. Click **[!UICONTROL Create]**. 조각이 **초안** 상태의 [조각 목록](#access-manage-fragments)에 추가됩니다. 해당 목록에서 다른 시각적 조각으로 사용할 수 있는 독립 실행형 조각이 됩니다.
+1. Click **[!UICONTROL Create]**. 조각이 [초안](#access-manage-fragments) 상태의 **조각 목록**&#x200B;에 추가됩니다. 해당 목록에서 다른 시각적 조각으로 사용할 수 있는 독립 실행형 조각이 됩니다.
 
    >[!NOTE]
    >
@@ -76,6 +84,6 @@ ht-degree: 13%
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. 조각이 **초안** 상태의 [조각 목록](#access-manage-fragments)에 추가됩니다. 해당 목록에서 다른 표현식 조각으로 사용할 수 있는 독립형 조각이 됩니다.
+1. 조각이 [초안](#access-manage-fragments) 상태의 **조각 목록**&#x200B;에 추가됩니다. 해당 목록에서 다른 표현식 조각으로 사용할 수 있는 독립형 조각이 됩니다.
 
 1. 여정 및 캠페인에서 조각을 사용하려면 해당 조각을 라이브로 만들어야 합니다. [조각을 미리 보고 게시하는 방법을 알아봅니다](../content-management/create-fragments.md#publish)

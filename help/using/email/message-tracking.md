@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1214'
 ht-degree: 30%
 
 ---
@@ -49,6 +49,10 @@ ht-degree: 30%
 
 [추적을 사용하도록 설정](#enable-tracking)하면 메시지 콘텐츠에 포함된 모든 링크가 추적됩니다.
 
+>[!NOTE]
+>
+>이메일에 사용된 조각의 링크도 추적됩니다. [조각에 대해 자세히 알아보기](../content-management/fragments.md)
+
 이메일 콘텐츠에 링크를 삽입하려면 다음 단계를 따르십시오.
 
 1. 요소(텍스트 또는 이미지)를 선택하고 상황별 도구 모음에서 **[!UICONTROL 링크 삽입]**&#x200B;을 클릭합니다.
@@ -85,7 +89,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-management)가 포함되어야 합니다. 이는 트랜잭션 메시지에는 필요하지 않습니다. 메시지를 만들 때 [채널 구성](../configuration/channel-surfaces.md#email-type)에 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)가 정의되어 있습니다.
+>마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-management)가 포함되어야 합니다. 이는 트랜잭션 메시지에는 필요하지 않습니다. 메시지를 만들 때 **[!UICONTROL 채널 구성]**&#x200B;에 메시지 범주(**[!UICONTROL 마케팅]** 또는 [트랜잭션](../configuration/channel-surfaces.md#email-type))가 정의되어 있습니다.
 
 
 ## 미러 페이지 링크 {#mirror-page}

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1171'
 ht-degree: 6%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 6%
 
 개인화된 URL 추적 매개 변수를 사용하려면 아래 단계를 따르십시오.
 
-1. 전자 메일 채널 구성의 **[!UICONTROL URL 추적 매개 변수]** 섹션으로 이동합니다.
+1. 전자 메일 채널 구성의 **[!UICONTROL URL 추적 매개 변수]** 섹션으로 이동합니다. [자세히 알아보기](url-tracking.md)
 
 1. 각 필드 옆에 있는 편집 아이콘을 클릭합니다. 컨텍스트 속성 외에도 프로필 속성을 선택할 수 있습니다.
 
