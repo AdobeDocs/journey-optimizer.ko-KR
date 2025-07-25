@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 4461d3fdf6e61b7d2593027250dce65bba5fbd77
+source-git-commit: f1c86dd54e46e813b3b813c539df08d4a5ce5fa9
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 84%
@@ -107,7 +107,7 @@ ht-degree: 84%
    * **[!UICONTROL 날짜]**: 캠페인을 실행할 날짜를 선택합니다.
    * **[!UICONTROL 시간]**: 캠페인을 실행할 특정 시간을 선택합니다.
 
-   +++
++++
 
    +++일별
 
@@ -121,7 +121,7 @@ ht-degree: 84%
 
    * **[!UICONTROL 시작 시간]**: 매일 캠페인을 실행할 시간을 정의합니다.
 
-   +++
++++
 
    +++일별 몇 회
 
@@ -130,7 +130,7 @@ ht-degree: 84%
    * **[!UICONTROL 선택한 시간]**: 캠페인을 실행할 특정 시간을 선택하고 일별 반복을 구성합니다(매일 또는 특정 요일에 실행).
    * **[!UICONTROL 주기별]**: 매 n분 또는 시간마다 캠페인을 실행하도록 선택합니다. 실행이 허용된 날짜 내에서 시간 범위를 정의할 수도 있습니다.
 
-   +++
++++
 
    +++주별
 
@@ -141,7 +141,7 @@ ht-degree: 84%
    * **[!UICONTROL 매일 반복]**: 실행할 특정 요일(예: 매주 월요일 및 목요일)을 선택합니다.
    * **[!UICONTROL 시작 시간]**: 선택한 날짜에 캠페인을 실행할 시간을 설정합니다.
 
-   +++
++++
 
    +++월별
 
@@ -157,7 +157,7 @@ ht-degree: 84%
 
    * **[!UICONTROL 시작 시간]**: 캠페인을 실행할 시간을 설정합니다.
 
-   +++
++++
 
 1. 특정 시작 및 종료 날짜를 정의하고 한정된 기간 동안 캠페인 실행을 제한하려면 **[!UICONTROL 유효 기간]** 설정을 사용합니다.
 
