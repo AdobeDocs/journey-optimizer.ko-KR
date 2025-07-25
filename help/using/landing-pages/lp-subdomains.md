@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 하위 도메인, 구성
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 19%
@@ -26,13 +26,13 @@ ht-degree: 19%
 >id="ajo_admin_subdomain_lp"
 >title="랜딩 페이지 하위 도메인 위임"
 >abstract="랜딩 페이지 사전 설정을 만드는 데 이 하위 도메인이 필요하므로 랜딩 페이지에 사용할 하위 도메인을 구성해야 합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=ko#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="랜딩 페이지 사전 설정 만들기"
 >abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 랜딩 페이지 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=ko#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 ## 랜딩 페이지 하위 도메인 시작 {#gs-lp-subdomains}
 
@@ -80,11 +80,11 @@ ht-degree: 19%
 
    >[!CAUTION]
    >
-   >[CNAME 메서드](../configuration/delegate-subdomain.md#cname-subdomain-delegation)를 사용하여 Adobe에 위임된 도메인을 선택하는 경우 호스팅 플랫폼에서 DNS 레코드를 만들어야 합니다. DNS 레코드를 생성하기 위한 프로세스는 새 랜딩 페이지 하위 도메인을 구성할 때와 동일합니다. [이 섹션](#lp-configure-new-subdomain)에서 방법을 알아보세요.
+   >[CNAME 메서드](../configuration/delegate-subdomain.md#cname-subdomain-setup)를 사용하여 Adobe에 위임된 도메인을 선택하는 경우 호스팅 플랫폼에서 DNS 레코드를 만들어야 합니다. DNS 레코드를 생성하기 위한 프로세스는 새 랜딩 페이지 하위 도메인을 구성할 때와 동일합니다. [이 섹션](#lp-configure-new-subdomain)에서 방법을 알아보세요.
 
 1. **[!UICONTROL 제출을 클릭합니다]**.
 
-1. 제출되면 하위 도메인이 목록에 **[!UICONTROL 처리 중]** 상태로 표시됩니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->을 참조하세요.
+1. 제출되면 하위 도메인이 목록에 **[!UICONTROL 처리 중]** 상태로 표시됩니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->을 참조하세요.
 
    ![](assets/lp_subdomain-processing.png)
 
@@ -129,7 +129,7 @@ ht-degree: 19%
 
    새 랜딩 페이지 하위 도메인을 구성할 때 항상 CNAME 레코드를 가리킵니다.
 
-1. 하위 도메인 위임이 제출되면 하위 도메인이 목록에 **[!UICONTROL 처리]** 상태로 표시됩니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->을 참조하세요.
+1. 하위 도메인 위임이 제출되면 하위 도메인이 목록에 **[!UICONTROL 처리]** 상태로 표시됩니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->을 참조하세요.
 
    랜딩 페이지에 해당 하위 도메인을 사용하려면 Adobe에서 필요한 검사를 수행할 때까지 기다려야 합니다. 필요한 검사는 **최대 4시간**.<!--Learn more in [this section](#subdomain-validation).--> 정도 소요될 수 있습니다.
 
@@ -147,7 +147,7 @@ ht-degree: 19%
 
    >[!NOTE]
    >
-   >랜딩 페이지 하위 도메인은 CNAME 레코드를 지정할 수 있습니다. 이는 [CNAME 메서드](../configuration/delegate-subdomain.md#cname-subdomain-delegation)을(를) 사용하여 Adobe에 위임된 [기존 하위 도메인](#lp-use-existing-subdomain) 또는 구성한 [새 랜딩 페이지 하위 도메인](#lp-configure-new-subdomain)이기 때문입니다.
+   >랜딩 페이지 하위 도메인은 CNAME 레코드를 지정할 수 있습니다. 이는 [CNAME 메서드](#lp-use-existing-subdomain)을(를) 사용하여 Adobe에 위임된 [기존 하위 도메인](../configuration/delegate-subdomain.md#cname-subdomain-setup) 또는 구성한 [새 랜딩 페이지 하위 도메인](#lp-configure-new-subdomain)이기 때문입니다.
 
 1. 위임을 해제할 하위 도메인을 사용하여 Adobe 담당자에게 문의하십시오.
 

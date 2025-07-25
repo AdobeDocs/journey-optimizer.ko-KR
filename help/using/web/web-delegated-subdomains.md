@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: 웹, 하위 도메인, 구성
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 22%
@@ -137,7 +137,7 @@ ht-degree: 22%
 
    새 웹 하위 도메인을 구성할 때 항상 CNAME 레코드를 가리킵니다.
 
-1. 하위 도메인 위임이 제출되면 하위 도메인이 목록에 **[!UICONTROL 처리]** 상태로 표시됩니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->을 참조하세요.
+1. 하위 도메인 위임이 제출되면 하위 도메인이 목록에 **[!UICONTROL 처리]** 상태로 표시됩니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->을 참조하세요.
 
    해당 하위 도메인을 사용하여 웹 메시지를 보내려면 먼저 Adobe에서 필요한 검사를 수행할 때까지 기다려야 합니다. 필요한 검사는 **최대 4시간**&#x200B;이 소요될 수 있습니다.
 

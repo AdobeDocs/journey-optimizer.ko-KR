@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, PTR, 레코드, DNS, 도메인, 메일
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 9%
@@ -36,7 +36,7 @@ PTR 기록을 사용하여 수신 메일 서버는 해당 IP 주소가 서버가
 
 ## 하위 도메인의 PTR 레코드 액세스 {#access-ptr-records}
 
-[!DNL Journey Optimizer]에서 첫 번째 하위 도메인을 Adobe에 [위임](delegate-subdomain.md)하면 IP에 대한 PTR 레코드가 자동으로 만들어집니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL PTR 레코드]** 메뉴에서 액세스할 수 있습니다.
+[에서 첫 번째 하위 도메인을 Adobe에 ](delegate-subdomain.md)위임[!DNL Journey Optimizer]하면 IP에 대한 PTR 레코드가 자동으로 만들어집니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL PTR 레코드]** 메뉴에서 액세스할 수 있습니다.
 
 ![](assets/ptr-records.png)
 
@@ -82,13 +82,13 @@ Adobe에 [완전히 위임](delegate-subdomain.md#full-subdomain-delegation)된 
 
 ### CNAME 메서드를 사용하는 위임된 하위 도메인 {#edit-ptr-subdomains-cname}
 
-[CNAME 메서드](delegate-subdomain.md#cname-subdomain-delegation)를 사용하여 Adobe에 위임된 하위 도메인으로 PTR 레코드를 편집하려면 아래 단계를 따르십시오.
+[CNAME 메서드](delegate-subdomain.md#cname-subdomain-setup)를 사용하여 Adobe에 위임된 하위 도메인으로 PTR 레코드를 편집하려면 아래 단계를 따르십시오.
 
 1. 목록에서 PTR 레코드 이름을 클릭하여 엽니다.
 
    ![](assets/ptr-record-select.png)
 
-1. 목록에서 [CNAME 메서드](delegate-subdomain.md#cname-subdomain-delegation)를 사용하여 Adobe으로 위임된 하위 도메인을 선택하십시오.
+1. 목록에서 [CNAME 메서드](delegate-subdomain.md#cname-subdomain-setup)를 사용하여 Adobe으로 위임된 하위 도메인을 선택하십시오.
 
    ![](assets/ptr-record-subdomain-cname.png)
 
