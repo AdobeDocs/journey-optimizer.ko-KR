@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b317400b083f70cce05a7d4823f52a8cd35a3b96
+source-git-commit: 19f843590796e84b050b32d0c379577234c1efbc
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2589'
 ht-degree: 95%
 
 ---
@@ -208,6 +208,7 @@ ht-degree: 95%
          + [파일 업로드 스키마](using/orchestrated/file-upload-schema.md)
          + [데이터 수집](using/orchestrated/ingest-data.md)
       + [오케스트레이션된 캠페인 액세스 및 관리](using/orchestrated/access-manage-orchestrated-campaigns.md)
+      + [타겟팅 차원 만들기](using/orchestrated/target-dimension.md)
       + [가드레일 및 제한 사항](using/orchestrated/guardrails.md)
       + 첫 오케스트레이션된 캠페인 시작{#launch}
          + [오케스트레이션된 캠페인을 만드는 주요 단계](using/orchestrated/gs-campaign-creation.md)
