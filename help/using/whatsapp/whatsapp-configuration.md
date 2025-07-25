@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 2e1f77da8354d793a2d3465790f5e4574eb27a14
+source-git-commit: d71dfb4f791c48997e448147b414fede49023b91
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '748'
 ht-degree: 5%
 
 ---
@@ -72,6 +72,26 @@ WhatsApp 메시지를 보내기 전에 Adobe Journey Optimizer 환경을 구성�
 API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 채널 구성을 만들어야 합니다. [자세히 알아보기](#whatsapp-configuration)
 
 ## Webhook 만들기 {#WhatsApp-webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
+>title="인바운드 키워드 범주"
+>abstract="<br/><b>옵트인</b>: 사용자가 구독하면 정의된 자동 응답을 보냅니다. <br/><b>옵트아웃</b>: 사용자가 가입 해지하면 정의된 자동 응답을 보냅니다. <br/><b>도움말</b>: 사용자가 도움말이나 지원을 요청하면 정의된 자동 응답을 보냅니다. <br/><b>기본값</b>: 일치하는 키워드가 없을 때 대체 자동 응답을 보냅니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_inbound_keyword"
+>title="키워드 입력"
+>abstract= "You can define keywords to trigger specific auto-responses, such as for Opt-In, Opt-Out, Help, or Default, based on what users text. Keywords are not case-sensitive, e.g., "stop" and "STOP" are treated the same."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_webhook_url"
+>title=" 콜백 URL"
+>abstract="이 개체에 대한 유효성 검사 요청 및 웹후크 알림이 지정된 URL로 전송됩니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_verify_token"
+>title="토큰 확인"
+>abstract="확인 프로세스 중에 콜백 URL을 확인 및 확인하기 위해 Meta가 다시 에코하는 토큰입니다."
 
 >[!NOTE]
 >
