@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: c0f5ba3a8d5a361cdae3dd432ddbe54c5b79fe36
+source-git-commit: 68d47250c3239c0da1609367e5ab14f992a8898b
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 90%
+source-wordcount: '1232'
+ht-degree: 84%
 
 ---
 
@@ -57,9 +57,11 @@ ht-degree: 90%
 
    ![](assets/inventory-create.png)
 
-   1. 캠페인의 이름과 설명을 입력합니다.
+   1. 캠페인에 대한 **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 
-      <!--1. Merge policy-->
+   1. 캠페인에 대한 **[!UICONTROL 병합 정책]**&#x200B;을(를) 선택하십시오.
+
+      [!DNL Adobe Experience Platform]에서 각 대상자는 프로필 정보를 결합하여 병합된 프로필을 형성하는 방법을 정의하는 특정 병합 정책에 연결됩니다. 대상 읽기 활동에서 병합 정책을 선택하면 동일한 병합 정책을 기반으로 하는 대상만 사용할 수 있습니다. 기본적으로 시스템은 기본 병합 정책을 사용하지만 필요한 경우 변경할 수 있습니다. 병합 정책에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview){target="_blank"}를 참조하세요.
 
    1. **[!UICONTROL 태그]** 필드를 사용하여 Adobe Experience Platform 통합 태그를 캠페인에 지정하십시오. 태그를 할당하면 캠페인을 간단히 분류하고 오케스트레이션된 캠페인 목록에서 편하게 검색할 수 있습니다. [태그 작업 방법에 대해 알아보십시오](../start/search-filter-categorize.md#tags).
 
@@ -105,7 +107,7 @@ ht-degree: 90%
    * **[!UICONTROL 날짜]**: 캠페인을 실행할 날짜를 선택합니다.
    * **[!UICONTROL 시간]**: 캠페인을 실행할 특정 시간을 선택합니다.
 
-   +++
++++
 
    +++일별
 
@@ -119,7 +121,7 @@ ht-degree: 90%
 
    * **[!UICONTROL 시작 시간]**: 매일 캠페인을 실행할 시간을 정의합니다.
 
-   +++
++++
 
    +++일별 몇 회
 
@@ -128,7 +130,7 @@ ht-degree: 90%
    * **[!UICONTROL 선택한 시간]**: 캠페인을 실행할 특정 시간을 선택하고 일별 반복을 구성합니다(매일 또는 특정 요일에 실행).
    * **[!UICONTROL 주기별]**: 매 n분 또는 시간마다 캠페인을 실행하도록 선택합니다. 실행이 허용된 날짜 내에서 시간 범위를 정의할 수도 있습니다.
 
-   +++
++++
 
    +++주별
 
@@ -139,7 +141,7 @@ ht-degree: 90%
    * **[!UICONTROL 매일 반복]**: 실행할 특정 요일(예: 매주 월요일 및 목요일)을 선택합니다.
    * **[!UICONTROL 시작 시간]**: 선택한 날짜에 캠페인을 실행할 시간을 설정합니다.
 
-   +++
++++
 
    +++월별
 
@@ -155,7 +157,7 @@ ht-degree: 90%
 
    * **[!UICONTROL 시작 시간]**: 캠페인을 실행할 시간을 설정합니다.
 
-   +++
++++
 
 1. 특정 시작 및 종료 날짜를 정의하고 한정된 기간 동안 캠페인 실행을 제한하려면 **[!UICONTROL 유효 기간]** 설정을 사용합니다.
 

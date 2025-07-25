@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 2201cc8b9c0c7813c13156937e1cf319660c1039
+source-git-commit: 3c3ef1555c587b3e50e3b70596fbac98e87d414e
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 82%
+source-wordcount: '1213'
+ht-degree: 77%
 
 ---
 
@@ -101,25 +101,29 @@ UNUSED IDs in BJ
 
 **[!UICONTROL 액션]** 탭을 사용하여 메시지의 채널 구성을 선택하고 추적, 콘텐츠 실험 또는 다국어 콘텐츠와 같은 추가 설정을 구성합니다.
 
-1. 채널 구성을 선택합니다.
+1. **채널 구성 선택**
 
    구성은 [시스템 관리자](../../start/path/administrator.md)가 정의합니다. 여기에는 헤더 매개변수, 하위 도메인, 모바일 앱 등 메시지 전송을 위한 모든 기술적 매개변수가 포함되어 있습니다. [채널 구성을 설정하는 방법을 알아봅니다](../../configuration/channel-surfaces.md).
 
    ![액션 섹션을 보여 주는 이미지](../assets/channel-actions.png)
 
-1. 참여를 추적합니다(이메일 및 SMS용).
+1. **최대 가용량 규칙 적용**
+
+   **[!UICONTROL 규칙 집합]** 드롭다운 목록에서 최대 가용량 규칙을 캠페인에 적용할 채널 규칙 집합을 선택하십시오. 채널 규칙 세트를 활용하면 통신 유형별로 빈도 상한을 설정하여 유사한 메시지가 있는 고객을 오버로드할 수 있습니다. [규칙 세트 작업 방법 알아보기](../conflict-prioritization/rule-sets.md)
+
+1. **참여 추적**(전자 메일 및 SMS)
 
    **[!UICONTROL 액션 추적]** 섹션을 사용하여 수신자가 이메일 또는 SMS 게재에 어떻게 반응하는지 추적할 수 있습니다. 캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../../reports/campaign-global-report-cja.md)
 
-1. 빠른 전송 모드를 활성화합니다(푸시용).
+1. **빠른 전송 모드 사용**(푸시)
 
    빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠르게 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림을 전송하려는 경우(예: 뉴스 채널 앱을 설치한 사용자에게 속보 전달) 사용됩니다. 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)을 참조하십시오.
 
-1. 콘텐츠 실험을 만듭니다.
+1. **콘텐츠 실험 만들기**
 
    **[!UICONTROL 콘텐츠 실험]** 섹션을 사용하여 여러 가지 게재 방식을 정의하고, 어떤 방식이 타깃 대상자에게 가장 효과적인지 측정합니다. **[!UICONTROL 실험 만들기]** 버튼을 클릭한 다음 [콘텐츠 실험 만들기](../../content-management/content-experiment.md) 섹션에 자세히 설명된 단계를 따릅니다.
 
-1. 다국어 콘텐츠를 추가합니다.
+1. **다국어 콘텐츠 추가**
 
    **[!UICONTROL 언어]** 섹션을 사용하여 캠페인 내에서 여러 언어로 콘텐츠를 만듭니다. 이렇게 하려면 **[!UICONTROL 언어 추가]** 버튼을 클릭하고 원하는 **[!UICONTROL 언어 설정]**&#x200B;을 선택합니다. 다국어 기능 설정 및 사용 방법에 대한 자세한 정보는 [다국어 콘텐츠 시작](../../content-management/multilingual-gs.md) 섹션에서 확인할 수 있습니다.
 
