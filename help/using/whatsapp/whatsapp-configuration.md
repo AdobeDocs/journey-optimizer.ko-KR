@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: fa65d30fd55fa7f9392623352ff3c77192cc77dc
+source-git-commit: 9af09d694f58d169dcf4448562129ed0b37f35df
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '773'
 ht-degree: 4%
 
 ---
@@ -81,11 +81,11 @@ API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="키워드 입력"
->abstract="사용자가 텍스트를 기준으로 옵트인, 옵트아웃, 도움말 또는 기본과 같은 특정 자동 응답을 트리거하는 키워드를 정의할 수 있습니다. 키워드는 대/소문자를 구분하지 않습니다. 예를 들어 stop 및 STOP은 동일하게 처리됩니다."
+>abstract="사용자가 텍스트를 입력한 내용에 따라 특정 자동 응답을 트리거하기 위한 키워드를 정의할 수 있습니다. 키워드는 대/소문자를 구분하지 않습니다. 예를 들어 stop 및 STOP은 동일하게 처리됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
->title=" 콜백 URL"
+>title="콜백 URL"
 >abstract="이 개체에 대한 유효성 검사 요청 및 웹후크 알림이 지정된 URL로 전송됩니다."
 
 >[!CONTEXTUALHELP]
