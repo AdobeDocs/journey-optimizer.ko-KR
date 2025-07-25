@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: d71dfb4f791c48997e448147b414fede49023b91
+source-git-commit: 78da5e017b5e3f39be1b613713f131d35260992b
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 5%
@@ -76,7 +76,7 @@ API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="인바운드 키워드 범주"
->abstract="<br/><b>옵트인</b>: 사용자가 구독하면 정의된 자동 응답을 보냅니다. <br/><b>옵트아웃</b>: 사용자가 가입 해지하면 정의된 자동 응답을 보냅니다. <br/><b>도움말</b>: 사용자가 도움말이나 지원을 요청하면 정의된 자동 응답을 보냅니다. <br/><b>기본값</b>: 일치하는 키워드가 없을 때 대체 자동 응답을 보냅니다."
+>abstract="<b>옵트인</b>: 사용자가 구독하면 정의된 자동 응답을 보냅니다. <br/><b>옵트아웃</b>: 사용자가 가입 해지하면 정의된 자동 응답을 보냅니다. <br/><b>도움말</b>: 사용자가 도움말이나 지원을 요청하면 정의된 자동 응답을 보냅니다. <br/><b>기본값</b>: 일치하는 키워드가 없을 때 대체 자동 응답을 보냅니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
