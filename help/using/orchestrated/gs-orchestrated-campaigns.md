@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: c1013cd39dc1d85448e78e5406706a06fbc00de9
+source-git-commit: 0d6e3c082032b11b38f7d4b67da1e38756b5f101
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 18%
+source-wordcount: '628'
+ht-degree: 16%
 
 ---
 
@@ -55,7 +55,8 @@ Campaign Orchestration은 다음 네 가지 주요 요소를 기반으로 구축
 <tr style="border: 0;">
 <td><img alt="온디맨드 대상" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>온디맨드 대상</b><br/>데이터 집합 간에 즉시 쿼리하여 데이터 형식과 차원의 조합을 사용하여 대상 세그먼트를 만듭니다.</td></tr>
 <tr style="border: 0;">
-<td><img alt="다중 엔티티 세그멘테이션 및 전송" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>다중 엔터티 세분화 및 전송</b><br/>개인 기반 캠페인을 넘어 제품 카탈로그, 스토어 위치 또는 서비스 데이터와 같은 엔터티를 사용하여 정확하게 타깃팅하십시오.</td></tr>
+<td><img alt="다중 엔티티 세그멘테이션 및 전송" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>다중 엔터티 세분화 및 전송</b><br/>개인 기반 캠페인을 넘어 제품 카탈로그, 스토어 위치 또는 서비스 데이터와 같은 엔터티를 사용하여 정확하게 타깃팅하십시오.<br/><br/>
+프로필 및 연결된 보조 엔티티당 하나의 메시지가 전송되는 다중 레벨 전송을 지원합니다. 이러한 2차 엔티티는 연락처 주소, 예약, 구독, 계약 또는 기타 연결된 데이터를 포함할 수 있습니다. 예를 들어, 이를 통해 프로필의 알려진 모든 주소 또는 해당 프로필과 연결된 각 예약에 대해 캠페인을 전송할 수 있습니다.</td></tr>
 <tr style="border: 0;">
 <td><img alt="사전 전송 가시성 및 정밀도" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>가시성과 정밀도를 미리 전송</b><br/>실행 전에 정확한 세분화 수와 전체 캠페인 범위를 가져와 정확성과 신뢰도를 보장합니다.</td></tr>
 <tr style="border: 0;">
@@ -69,6 +70,8 @@ Campaign Orchestration은 다음 네 가지 주요 요소를 기반으로 구축
 * **여정** - 각 프로필이 각자의 속도로 다른 단계를 진행하는 1에서 1까지의 캔버스입니다. 각 고객의 상태는 해당 컨텍스트 내에서 유지되어 실시간 작업을 트리거합니다.
 
 * **오케스트레이션된 캠페인** - 여정과 달리 오케스트레이션된 캠페인은 세그먼트를 계산하는 일괄 처리 캔버스를 사용하여 작동합니다. 모든 프로필이 동시에 처리됩니다.
+
+두 캔버스 모두 각각의 사용 사례에 최적화되어 있습니다. 여정 캔버스는 더 긴 기간 동안 작동하는 경향이 있는 여정을 게시하는 반면, 캠페인 캔버스는 배치 캠페인의 반복적 및 증분 실행을 위해 설계되었습니다.
 
 ## 전제 조건
 
