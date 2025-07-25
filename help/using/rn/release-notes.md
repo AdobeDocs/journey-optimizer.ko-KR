@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
+source-git-commit: ffa407c225324b88fae5b8e6fba53343eb629785
 workflow-type: tm+mt
 source-wordcount: '2160'
 ht-degree: 63%
@@ -242,7 +242,7 @@ ht-degree: 63%
 
 **릴리스 일자**: 2025년 6월 18일
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#25-06-features}
 
@@ -423,36 +423,36 @@ ht-degree: 63%
 
 다음은 이번 릴리스의 개선 사항 목록입니다.
 
-&#x200B;* **채널 규칙 세트**
+- **채널 규칙 세트**
 
-   &#x200B;* 캡핑의 **사용자 정의 기간** - 채널 규칙 세트 구성 화면에 새로 추가된 **모든**(반복 주기) 필드를 사용하여 지정된 기간에 따라 여러 날, 주 또는 달에 걸쳐 빈도 상한 규칙을 적용할 수 있습니다.
+   - 캡핑의 **사용자 정의 기간** - 채널 규칙 세트 구성 화면에 새로 추가된 **모든**(반복 주기) 필드를 사용하여 지정된 기간에 따라 여러 날, 주 또는 달에 걸쳐 빈도 상한 규칙을 적용할 수 있습니다.
 
-   &#x200B;* **시간 단위 캡핑 빈도 재설정** - 이제 채널 규칙 세트에 대해 시간 단위로 캡핑을 적용할 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 이 기능을 활성화하려면 고객 지원 센터에 문의하십시오.
+   - **시간 단위 캡핑 빈도 재설정** - 이제 채널 규칙 세트에 대해 시간 단위로 캡핑을 적용할 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 이 기능을 활성화하려면 고객 지원 센터에 문의하십시오.
 
-   &#x200B;* **일별 기간** - 이전에는 제한된 가용성으로 사용할 수 있던 채널 규칙 세트의 “일별” 빈도 제한을 이제 모든 고객이 사용할 수 있습니다.
+   - **일별 기간** - 이전에는 제한된 가용성으로 사용할 수 있던 채널 규칙 세트의 “일별” 빈도 제한을 이제 모든 고객이 사용할 수 있습니다.
 
   자세한 내용은 [세부 설명서](../conflict-prioritization/channel-capping.md)를 참조하십시오.
 
-&#x200B;* **코드 기반 경험**
+- **코드 기반 경험**
 
-   &#x200B;* 이제 코드 기반 경험 콘텐츠 템플릿에 결정 정책을 추가할 수 있습니다. 템플릿에서 이 결정 정책으로 편집 가능한 양식 필드의 오퍼를 활용할 수 있습니다. [자세히 보기](../code-based/code-based-form-fields.md)
+   - 이제 코드 기반 경험 콘텐츠 템플릿에 결정 정책을 추가할 수 있습니다. 템플릿에서 이 결정 정책으로 편집 가능한 양식 필드의 오퍼를 활용할 수 있습니다. [자세히 보기](../code-based/code-based-form-fields.md)
 
-   &#x200B;* 이제 코드 기반 경험 여정 또는 캠페인 편집 화면에서 개인화 편집기를 열지 않고도 결정 정책을 직접 추가할 수 있습니다. [자세히 보기](../code-based/create-code-based.md#edit-code)
+   - 이제 코드 기반 경험 여정 또는 캠페인 편집 화면에서 개인화 편집기를 열지 않고도 결정 정책을 직접 추가할 수 있습니다. [자세히 보기](../code-based/create-code-based.md#edit-code)
 
-&#x200B;* **이메일 디자이너의 사용자 정의 CSS 지원**
+- **이메일 디자이너의 사용자 정의 CSS 지원**
 
   이제 Journey Optimizer의 [이메일 디자이너] 내에서 바로 이메일 콘텐츠에 사용자 정의 CSS를 추가할 수 있습니다. [자세히 보기](../email/custom-css.md)
 
-&#x200B;* **캠페인에 새로운 탭 탐색 적용**
+- **캠페인에 새로운 탭 탐색 적용**
 
   새로운 탐색 패턴을 통해 콘텐츠 작성에 보다 빠르게 액세스하고 여러 캠페인 간에 설정을 더욱 확장할 수 있습니다. [자세히 보기](../campaigns/create-campaign.md)
 
-&#x200B;* **의사 결정**
+- **의사 결정**
 
-   &#x200B;* **샌드박스 복사 및 결정**(사용 가능한 날짜: 2025년 6월 3일) - 이제 결정 오브젝트를 샌드박스 간에 복사할 수 있으므로 테스트 워크플로및 배포 워크플로가 간소화됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#decisioning)
+   - **샌드박스 복사 및 결정**(사용 가능한 날짜: 2025년 6월 3일) - 이제 결정 오브젝트를 샌드박스 간에 복사할 수 있으므로 테스트 워크플로및 배포 워크플로가 간소화됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   &#x200B;* **결정 규칙에서 결정 항목 속성 지원**(사용 가능한 날짜: 2025년 6월 4일) - 이제 결정 항목 속성을 활용하여 결정 규칙을 만들 수 있습니다. [자세히 보기](../experience-decisioning/rules.md#create)
+   - **결정 규칙에서 결정 항목 속성 지원**(사용 가능한 날짜: 2025년 6월 4일) - 이제 결정 항목 속성을 활용하여 결정 규칙을 만들 수 있습니다. [자세히 보기](../experience-decisioning/rules.md#create)
 
-&#x200B;* **Interactive Message Execution API 업데이트** - 사용 가능한 날짜: 2025년 6월 6일
+- **Interactive Message Execution API 업데이트** - 사용 가능한 날짜: 2025년 6월 6일
 
   이제 Interactive Message Execution API를 사용하여 예정된 캠페인 실행 일정을 삭제할 수 있습니다. [자세히 보기](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
