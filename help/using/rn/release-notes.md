@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: 1e9aaceb48335beb0c9a8ef037f758818c700dfa
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 63%
+source-wordcount: '2342'
+ht-degree: 62%
 
 ---
 
@@ -103,9 +103,12 @@ ht-degree: 63%
 <p>이제 Journey Optimizer은 캠페인 대상에 개인화되고 최적화된 콘텐츠를 전달할 수 있는 도구를 제공함으로써 콘텐츠 실험을 실행하고, 규칙 기반 타기팅을 만들고, 두 방법의 고급 조합을 사용하여 캠페인의 효과를 극대화할 수 있습니다.</p>
 <p>최적화를 통해 다음과 같은 작업을 수행할 수 있습니다.</p>
 <ul>
-<li>콘텐츠 실험 실행</li>
-<li>타깃팅 규칙 활용</li>
-<li>단일 캠페인 내에서 실험과 타겟팅의 고급 조합 사용</li></ul>
+<li>여러 콘텐츠 변형을 테스트하여 가장 효과적인 메시징을 식별합니다.</li>
+<li>사용자 특성 및 컨텍스트 데이터를 기반으로 개인화된 콘텐츠를 제공합니다.</li>
+<li>고급 캠페인 전략에 대한 타겟팅과 실험을 결합합니다.</li>
+<li>변형 기준과 일치하지 않는 사용자를 필터링합니다.</li>
+<li>사용자 참여를 유지하기 위한 대체 메커니즘을 확인하십시오.</li>
+</ul>
 <P>캠페인이 라이브되면 정의된 기준에 따라 프로필이 평가되고, 일치하는 기준을 기반으로 캠페인의 적절한 경험 또는 콘텐츠와 함께 전달됩니다.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -248,7 +251,7 @@ ht-degree: 63%
 
 **릴리스 일자**: 2025년 6월 18일
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#25-06-features}
 
