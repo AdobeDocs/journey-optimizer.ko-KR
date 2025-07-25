@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 67%
+source-wordcount: '466'
+ht-degree: 52%
 
 ---
 
@@ -54,11 +54,13 @@ ht-degree: 67%
 
 1. 저장된 대상자를 식별하는 **[!UICONTROL 대상자 레이블]**&#x200B;을 입력합니다.
 
-1. **[!UICONTROL 대상자 속성 추가]**&#x200B;를 클릭하여 대상자 데이터를 구성하고 나중에 재사용할 수 있도록 저장하는 방법을 정의합니다.
+1. 캠페인 타깃팅 차원에서 **[!UICONTROL 프로필 매핑 &#x200B; 필드]**&#x200B;을(를) 선택하십시오.
+
+   ➡️ [이 페이지에 설명된 단계에 따라 캠페인 타깃팅 차원을 만드십시오](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. 그런 다음 정확한 프로필 확인을 위해 적절한 **[!UICONTROL 기본 ID 필드]**&#x200B;와 **[!UICONTROL ID 네임스페이스]**&#x200B;를 선택합니다.
+1. 저장된 대상을 추가 ID 필드와 연결하려면 **[!UICONTROL 대상 매핑 추가]**&#x200B;를 클릭하십시오.
 
    ![](../assets/save-audience-2.png)
 
@@ -66,10 +68,8 @@ ht-degree: 67%
 
 **[!UICONTROL 대상자]** 메뉴를 통해 액세스할 수 있는 대상자 세부 사항 보기에서 저장한 대상자의 콘텐츠를 확인할 수 있습니다.
 
-![](../assets/save-audience-3.png)
-
 ## 예 {#save-audience-example}
 
-다음 예에서는 타겟팅을 사용하여 간단한 대상자를 만드는 방법을 보여 줍니다. 쿼리는 지난 30일 이내에 구매한 모든 프로필을 식별합니다. 그런 다음 **[!UICONTROL 대상자 저장]** 활동은 이러한 프로필을 캡처하여 최근 구매자의 재사용 가능한 대상자를 만듭니다.
+다음 예에서는 타겟팅을 사용하여 간단한 대상자를 만드는 방법을 보여 줍니다. 쿼리는 오케스트레이션된 캠페인 내에서 이 모집단을 필터링하여 지난 30일 동안 여행을 예약한 모든 수신자를 식별합니다. **타깃팅 차원**(으)로 **수신자 - CRMID**&#x200B;를 선택하면 대상자가 전체 수신자가 아닌 각 개별 예약 이벤트를 타깃팅합니다. 그런 다음 **[!UICONTROL 대상자 저장]** 활동은 이러한 프로필을 캡처하여 최근 구매자의 재사용 가능한 대상자를 만듭니다.
 
-![](../assets/save-audience-4.png)
+![](../assets/save-audience-3.png)
