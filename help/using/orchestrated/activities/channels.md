@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3c3ef1555c587b3e50e3b70596fbac98e87d414e
+source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 77%
@@ -109,7 +109,7 @@ UNUSED IDs in BJ
 
 1. **최대 가용량 규칙 적용**
 
-   **[!UICONTROL 규칙 집합]** 드롭다운 목록에서 최대 가용량 규칙을 캠페인에 적용할 채널 규칙 집합을 선택하십시오. 채널 규칙 세트를 활용하면 통신 유형별로 빈도 상한을 설정하여 유사한 메시지가 있는 고객을 오버로드할 수 있습니다. [규칙 세트 작업 방법 알아보기](../conflict-prioritization/rule-sets.md)
+   **[!UICONTROL 규칙 집합]** 드롭다운 목록에서 최대 가용량 규칙을 캠페인에 적용할 채널 규칙 집합을 선택하십시오. 채널 규칙 세트를 활용하면 통신 유형별로 빈도 상한을 설정하여 유사한 메시지가 있는 고객을 오버로드할 수 있습니다. [규칙 세트 작업 방법 알아보기](../../conflict-prioritization/rule-sets.md)
 
 1. **참여 추적**(전자 메일 및 SMS)
 
