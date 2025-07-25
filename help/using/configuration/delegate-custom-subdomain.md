@@ -11,7 +11,7 @@ keywords: 하위 도메인, 위임, 도메인, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 20%
@@ -124,10 +124,9 @@ ht-degree: 20%
    >
    >계속하기 전에 모든 레코드가 올바르게 생성되었는지 확인하십시오.
 
-   Adobe은 SSL CDN URL 유효성 검사 레코드를 생성합니다. 이 유효성 검사 레코드를 호스팅 플랫폼에 복사합니다. 호스팅 솔루션에서 이 레코드를 올바르게 만든 경우 &quot;확인...&quot; 상자를 선택합니다.
+1. Adobe은 SSL CDN URL 유효성 검사 레코드를 생성합니다. 이 유효성 검사 레코드를 호스팅 플랫폼에 복사합니다. 호스팅 솔루션에서 이 레코드를 올바르게 만든 경우 &quot;확인...&quot; 상자를 선택합니다.
 
-1. Adobe에서 필요한 검사를 수행하도록 하려면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다. [자세히 알아보기](#submit-subdomain)
-
+1. Adobe에서 필요한 검사를 수행하도록 하려면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다. [자세히 알아보기](delegate-subdomain.md#submit-subdomain)
 
 ## 문제 해결 확인 목록 {#check-list}
 
@@ -138,4 +137,3 @@ ht-degree: 20%
 * 업로드하기 전에 인증서가 모든 기술 요구 사항을 충족하는지 확인하십시오.
 
 * 인증서가 올바른 형식으로 업로드되었는지 확인하십시오.
-

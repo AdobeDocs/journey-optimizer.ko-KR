@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 최적화 도구, 위임
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 30%
+source-wordcount: '859'
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 30%
 
 도메인을 공유하면 차단되거나 차단 목록에 추가되면 회사 메일 게재에 영향을 줄 수 있습니다. 그러나 이메일 마케팅 커뮤니케이션과 관련된 도메인의 신뢰도 문제 또는 차단은 그러한 이메일 흐름에 영향을 줍니다. 메인 도메인을 발신자로 사용하거나 여러 메일 스트림의 &#39;보낸 사람&#39; 주소로 사용하면 이메일 인증이 손상되어 메시지가 차단되거나 스팸 폴더에 보관될 수 있습니다.
 
->[!NOTE]
+>[!CAUTION]
 >
 >동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.
 
@@ -54,54 +54,56 @@ ht-degree: 30%
 
 ## 하위 도메인 구성 메서드 {#subdomain-delegation-methods}
 
-하위 도메인 구성을 사용하면 Adobe Campaign에서 사용할 도메인의 하위 섹션(기술적 명칭은 &quot;DNS 영역&quot;)을 구성할 수 있습니다. 사용 가능한 설정 방법은 다음과 같습니다.
+하위 도메인 구성을 사용하면 Adobe Campaign에서 사용할 도메인의 하위 섹션(기술적 명칭은 &quot;DNS 영역&quot;)을 구성할 수 있습니다.
 
-* **Adobe에 전체 하위 도메인 위임**(권장): 하위 도메인이 Adobe에 완전히 위임됩니다. Adobe은 메시지 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리할 수 있습니다. [전체 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#full-subdomain-delegation)
+사용 가능한 설정 방법은 다음과 같습니다.
 
-* **CNAME 사용**: 하위 도메인을 만들고 CNAME을 사용하여 Adobe 관련 레코드를 가리킵니다. 이 설정을 사용하면 사용자와 Adobe이 DNS 유지 관리를 공동으로 수행합니다. [CNAME 하위 도메인 위임에 대해 자세히 알아보기](delegate-subdomain.md#cname-subdomain-delegation)
+### 하위 도메인을 Adobe에 완전히 위임(권장) {#full-subdomain-delegation}
+
+[!DNL Journey Optimizer]을(를) 사용하면 제품 인터페이스에서 직접 하위 도메인을 Adobe에 완전히 위임할 수 있습니다. 이렇게 하면 Adobe은 이메일 캠페인 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리함으로써 메시지를 관리 서비스로 전달할 수 있습니다.
+
+<!--The subdomain is fully delegated to Adobe. Adobe is able to control and maintain all aspects of DNS that are required for delivering, rendering and tracking messages.-->
+
+Adobe을 사용하여 이메일 마케팅 전송 도메인에 대한 업계 표준 전달성 요구 사항을 충족하는 데 필요한 DNS 인프라를 유지 관리하는 동시에 내부 이메일 도메인에 대한 DNS를 계속 유지 및 제어할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>전체 하위 도메인 위임이 기본 방법입니다.
+
+[이 섹션](delegate-subdomain.md#set-up-subdomain)에서 하위 도메인을 Adobe에 완전히 위임하는 방법을 알아봅니다.
+
+### 하위 도메인을 CNAME으로 설정 {#cname-subdomain-setup}
+
+도메인별 제한 정책이 있고 Adobe에서 DNS에 대한 부분적인 제어만 허용하려면 사용자 측에서 모든 DNS 관련 활동을 수행하도록 선택할 수 있습니다.
+
+CNAME 하위 도메인 설정을 사용하면 하위 도메인을 만들고 CNAME을 사용하여 Adobe 관련 레코드를 지정할 수 있습니다. 이 구성을 사용하면 사용자와 Adobe가 이메일을 보내고 렌더링 및 추적하기 위한 환경을 설정하기 위한 DNS 유지 관리를 공동으로 수행합니다.
 
 >[!CAUTION]
 >
->* 전체 하위 도메인 위임이 기본 방법입니다.
+>조직의 정책이 전체 하위 도메인 위임 방법을 제한하는 경우 CNAME 방법을 사용하는 것이 좋습니다. 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지 및 관리해야 합니다.
 >
->* 조직의 정책이 전체 하위 도메인 위임 방법을 제한하는 경우 CNAME 방법을 사용하는 것이 좋습니다. 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지 및 관리해야 합니다. Adobe은 CNAME 메서드를 통해 구성된 하위 도메인의 DNS를 변경, 유지 관리 또는 관리하는 것을 지원할 수 없습니다.
+>Adobe은 CNAME 메서드를 통해 구성된 하위 도메인의 DNS를 변경, 유지 관리 또는 관리하는 것을 지원할 수 없습니다.
+
+CNAME을 사용하여 [이 섹션](delegate-subdomain.md#cname-subdomain-setup)의 Adobe 관련 레코드를 가리키도록 하위 도메인을 만드는 방법을 알아봅니다.
+
+## 구성 메서드 비교
 
 아래 테이블에는 이러한 두 가지 방법의 작동 방식과 각 방법을 사용하는 경우의 작업량이 간략하게 요약되어 있습니다.
 
 | 구성 방법 | 작동 방식 | 작업량 |
 |---|---|---|
 | **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 Adobe Campaign에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서는 Adobe가 하위 도메인 및 모든 DNS 레코드를 관리를 전적으로 책임집니다. | 낮음 |
-| **CNAME, 사용자 지정 방법** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 DNS 서버에 배치할 레코드를 제공하고 Adobe Campaign DNS 서버에서 해당 값을 구성합니다.<br/><br/>이 설정에서는 사용자와 Adobe가 DNS 유지 관리를 공동으로 수행합니다. | 높음 |
+| **CNAME 메서드** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 DNS 서버에 배치할 레코드를 제공하고 Adobe Campaign DNS 서버에서 해당 값을 구성합니다.<br/><br/>이 설정에서는 사용자와 Adobe가 DNS 유지 관리를 공동으로 수행합니다. | 높음 |
 
-도메인 구성에 대한 추가 정보는 [이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ko)에서 확인할 수 있습니다.
+<!--
+| Configuration method | How it works | Level of effort |
+|---|---|---|
+| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
+| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |
+| **Custom delegation method** |  Create the subdomain and namespace record - Adobe will then provide the records to be placed in your DNS servers. Upload the SSL Certificate obtained from the Certificate Authority and complete the Feedback Loop steps by verifying domain ownership and reporting email address.<br/><br/>In this setup, you have full responsibility for maintaining DNS. | Very high |-->
+
+도메인 구성에 대한 추가 정보는 [이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ko){target="_blank"}에서 확인할 수 있습니다.
 
 하위 도메인 구성 방법에 대한 질문이 있는 경우 Adobe에 문의하거나 고객 지원 센터에 연락하여 게재 가능성 컨설팅을 요청하십시오.
 
-## 위임된 하위 도메인 액세스 {#access-delegated-subdomains}
-
-위임된 모든 하위 도메인은 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 하위 도메인]** 메뉴에 표시됩니다. 필터를 사용하여 목록(위임 날짜, 사용자 또는 상태)을 구체화할 수 있습니다.
-
-![](assets/subdomain-list.png)
-
-**[!UICONTROL Status]** 열은 하위 도메인 위임 프로세스에 대한 정보를 제공합니다.
-
-* **[!UICONTROL 초안]**: 하위 도메인 위임이 초안으로 저장되었습니다. 위임 프로세스를 재개하려면 하위 도메인 이름을 클릭하십시오.
-* **[!UICONTROL 처리 중]**: 하위 도메인을 사용하기 전에 여러 가지 구성 검사를 수행하고 있습니다.
-* **[!UICONTROL 성공]**: 하위 도메인이 검사를 완료했으며 메시지를 전달하는 데 사용할 수 있습니다.
-* **[!UICONTROL 실패]**: 하위 도메인 위임을 제출한 후 하나 이상의 검사가 실패했습니다.
-
-**[!UICONTROL 성공]** 상태의 하위 도메인에 대한 자세한 정보에 액세스하려면 목록에서 해당 하위 도메인을 여십시오.
-
-![](assets/subdomain-delegated.png)
-
-다음과 같은 작업을 수행할 수 있습니다.
-
-* 위임 프로세스 중에 구성된 하위 도메인 이름(읽기 전용)과 생성된 URL(리소스, 미러 페이지, 추적 URL) 검색
-
-* 하위 도메인에 Google 사이트 확인 TXT 레코드를 추가하여 확인합니다([하위 도메인에 Google TXT 레코드 추가](google-txt.md) 참조).
-
-
->[!CAUTION]
->
->하위 도메인 구성은 모든 환경에 공통됩니다. 따라서 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
 
