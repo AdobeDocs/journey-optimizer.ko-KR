@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
+source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 16%
+source-wordcount: '941'
+ht-degree: 17%
 
 ---
 
@@ -216,9 +216,8 @@ ht-degree: 16%
 
 - **여정**
    - **여정 샌드박스 도구 개선 사항** - 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정을 복사할 때 이제 다음 기능도 사용할 수 있습니다.
-      - 대상에서 기존 이벤트 선택
       - 여정과 독립적으로 이벤트 복사
-      - 필드 그룹/데이터 소스 관계 감지, 대상(있는 경우)에서 연결, 없는 경우 생성.
+      - 이벤트, 필드 그룹 및 데이터 소스를 감지하고 있는 경우 대상에서 연결하고, 없는 경우 생성합니다.
   <!-- [Read more](../FILE.md) -->
 
 - **채널 - 인앱**
