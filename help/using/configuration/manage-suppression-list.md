@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 제외, 목록, 바운스, 이메일, 최적화 도구, 격리
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1adf4db1e76645b2c369b39d54ef97aff5be963d
+source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1600'
 ht-degree: 21%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 21%
 
 | 이유 | 설명 | 카테고리 |
 | --- | --- | --- |
-| **[!UICONTROL 잘못된 받는 사람]** | 수신자가 잘못되었거나 존재하지 않습니다. | 하드 |
+| **[!UICONTROL 잘못된 받는 사람]** | 받는 사람의 주소가 잘못되었거나 없습니다. | 하드 |
 | **[!UICONTROL 소프트 바운스]** | ISP에서 권장하는 허용 속도를 초과하여 전송하는 경우와 같이 이 표에 나열된 소프트 오류가 아닌 이유로 메시지가 소프트 바운스되었습니다. | 소프트 |
 | **[!UICONTROL DNS 실패]** | DNS 오류로 인해 메시지가 반송되었습니다. | 소프트 |
 | **[!UICONTROL 사서함 가득 참]** | 받는 사람의 사서함이 가득 차서 더 이상의 메시지를 받을 수 없어 메시지가 반송되었습니다. | 소프트 |
