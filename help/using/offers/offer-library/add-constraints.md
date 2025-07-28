@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
 workflow-type: tm+mt
-source-wordcount: '2718'
+source-wordcount: '2752'
 ht-degree: 15%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 15%
 >title="오퍼 적격성 정보"
 >abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
 
-<!--additional-url="https://video.tv.adobe.com/v/341375?captions=kor" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -87,7 +87,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->[이 섹션](#segments-vs-decision-rules)에서 **대상**&#x200B;과 **결정 규칙**&#x200B;을 사용하는 방법에 대해 자세히 알아보세요.
+>**이 섹션**&#x200B;에서 **대상**&#x200B;과 [결정 규칙](#segments-vs-decision-rules)을 사용하는 방법에 대해 자세히 알아보세요.
 
 * 기본적으로 **[!UICONTROL 모든 방문자]** 옵션이 선택됩니다. 즉, 모든 프로필에서 오퍼를 표시할 수 있습니다.
 
@@ -105,7 +105,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
+  >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
 
 대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 데이터를 업데이트하려면 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하세요.
 
@@ -254,11 +254,11 @@ ht-degree: 15%
 
 ![](../assets/offer-capping-frequency.png)
 
->[!NOTE]
->
->빈도 제한 카운터 재설정은 **오전 12시(UTC**)에, 정의한 날이나 해당되는 경우 주/월의 첫 날에 수행됩니다. 주 시작일은 **일요일**&#x200B;입니다. 선택한 기간은 **2년**(즉, 해당 개월, 주 또는 일 수)을 초과할 수 없습니다.
->
->오퍼를 게시한 후에는 빈도에 대해 선택한 기간(월별, 주별 또는 일별)을 변경할 수 없습니다. 오퍼가 **[!UICONTROL 초안]** 상태이고 이전에 게시되지 않았으며 빈도 설정이 활성화된 경우에도 빈도 설정을 편집할 수 있습니다.
+* 빈도 제한 카운터 재설정은 **오전 12시(UTC**)에, 정의한 날이나 해당되는 경우 주/월의 첫 날에 수행됩니다. 주 시작일은 **일요일**&#x200B;입니다. 선택한 기간은 **2년**(즉, 해당 개월, 주 또는 일 수)을 초과할 수 없습니다.
+
+* 오퍼를 게시한 후에는 빈도에 대해 선택한 기간(월별, 주별 또는 일별)을 변경할 수 없습니다. 오퍼가 **[!UICONTROL 초안]** 상태이고 이전에 게시되지 않았으며 빈도 설정이 활성화된 경우에도 빈도 설정을 편집할 수 있습니다.
+
+* 오퍼가 승인되거나 캡핑이 만들어지는 경우 중 가장 늦게 발생하는 이벤트를 빈도 제한 조건에 대해 카운트하기 전에 최대 15분의 버퍼 시간이 있을 수 있습니다.
 
 +++ **반드시 알아야 할 사항: 빈도 제한 및 결정 관리 API**
 

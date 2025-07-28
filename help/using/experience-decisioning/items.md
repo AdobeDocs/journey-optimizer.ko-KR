@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 66e5d12e6d262014db5c7eb7603f678296591301
+source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1788'
 ht-degree: 15%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 15%
 >id="ajo_exd_items"
 >title="결정 항목 관리"
 >abstract="Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼를 생성하여 중앙 집중식 카탈로그 및 컬렉션으로 구성할 수 있습니다. 현재 생성된 모든 결정 항목은 단일 “오퍼” 카탈로그 내에 통합되어 있습니다. 이 화면에서 **스키마 편집** 버튼을 사용하여 카탈로그의 스키마에 액세스하고 결정 항목에 대한 사용자 정의 속성을 생성할 수도 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=ko" text="항목 카탈로그 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="항목 카탈로그 구성"
 
 Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼를 생성하여 중앙 집중식 카탈로그 및 컬렉션으로 구성할 수 있습니다. 요구 사항에 맞게 정확하게 조정할 수 있도록 설계된 표준 및 사용자 지정 속성으로 구성됩니다. 또한 의사 결정 항목을 표시할 대상을 정의할 수 있는 프로필 제약 조건을 통합합니다.
 
@@ -38,7 +38,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >id="ajo_exd_item_custom_attributes"
 >title="사용자 정의 속성 정의"
 >abstract="사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 이는 결정 항목의 카탈로그 스키마에 생성됩니다. 이 섹션은 카탈로그 스키마에 하나 이상의 사용자 정의 속성을 추가한 경우에만 표시됩니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=ko" text="항목 카탈로그 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="항목 카탈로그 구성"
 
 먼저 의사 결정 항목의 표준 및 사용자 지정 속성 을 정의합니다.
 
@@ -129,11 +129,11 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
 1. **[!UICONTROL 최대 가용량 다시 설정]** 드롭다운 목록에서 최대 가용량 카운터가 다시 설정되는 빈도를 설정하십시오. 이렇게 하려면 계산 기간(일별, 주별 또는 월별)을 정의하고 선택한 일/주/개월을 입력합니다. 예를 들어 2주마다 최대 가용량 수를 재설정하려면 해당 드롭다운 목록에서 **[!UICONTROL 주별]**&#x200B;을 선택하고 다른 필드에 **2**&#x200B;을(를) 입력하십시오.
 
-   >[!NOTE]
-   >
-   >빈도 제한 카운터 재설정은 **오전 12시(UTC**)에, 정의한 날이나 해당되는 경우 주/월의 첫 날에 수행됩니다. 주 시작일은 **일요일**&#x200B;입니다. 선택한 기간은 **2년**(즉, 해당 개월, 주 또는 일 수)을 초과할 수 없습니다.
-   >
-   >결정 항목을 게시한 후에는 빈도에 대해 선택한 기간(월별, 주별 또는 일별)을 변경할 수 없습니다. 항목이 **[!UICONTROL 초안]** 상태이고 이전에 게시되지 않았으며 빈도 설정이 활성화된 경우에도 빈도 설정을 편집할 수 있습니다.
+   * 빈도 제한 카운터 재설정은 **오전 12시(UTC**)에, 정의한 날이나 해당되는 경우 주/월의 첫 날에 수행됩니다. 주 시작일은 **일요일**&#x200B;입니다. 선택한 기간은 **2년**(즉, 해당 개월, 주 또는 일 수)을 초과할 수 없습니다.
+
+   * 결정 항목을 게시한 후에는 빈도에 대해 선택한 기간(월별, 주별 또는 일별)을 변경할 수 없습니다. 항목이 **[!UICONTROL 초안]** 상태이고 이전에 게시되지 않았으며 빈도 설정이 활성화된 경우에도 빈도 설정을 편집할 수 있습니다.
+
+   * 결정 항목이 승인되거나 캡핑이 만들어지는 경우 중 가장 늦게 발생하는 이벤트가 빈도 제한 조건에 따라 계산되기 전에 최대 15분의 버퍼 시간이 있을 수 있습니다.
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭하여 최대 가용량 규칙 만들기를 확인합니다. 단일 결정 항목에 대해 최대 10개의 규칙을 만들 수 있습니다. 이렇게 하려면 **[!UICONTROL 최대 가용량 만들기]** 단추를 클릭하고 위의 단계를 반복합니다.
 
