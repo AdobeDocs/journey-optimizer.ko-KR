@@ -10,7 +10,7 @@ level: Experienced
 keywords: 다시 시도, 바운스, 소프트, 무시됨, 하드, 최적화 프로그램, 오류
 hide: true
 hidefromtoc: true
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 10%
@@ -18,7 +18,7 @@ ht-degree: 10%
 ---
 
 
-# 이메일 오류 유형
+# 이메일 오류 유형 {#email-error-types}
 
 게재 실패의 가능한 원인은 여러 가지입니다. 아래 표에는 [!DNL Journey Optimizer]과(와) 함께 전자 메일 게재를 보낼 때 발생할 수 있는 모든 오류와 설명 및 오류 유형이 자세히 나와 있습니다.
 
