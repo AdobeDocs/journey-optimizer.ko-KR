@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizer로 오케스트레이션된 캠페인 만들기
-description: Adobe Journey Optimizer로 오케스트레이션된 캠페인을 만드는 방법 알아보기
+title: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인 만들기
+description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인을 구축하는 방법 알아보기
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 86%
+ht-degree: 55%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 
 +++ 목차
 
-| 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
+| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
 | [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](gs-schemas.md)</li><li>[수동 스키마](manual-schema.md)</li><li>[파일 업로드 스키마](file-upload-schema.md)</li><li>[데이터 수집](ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md)<br/><br/>[오케스트레이션된 캠페인을 만드는 주요 단계](gs-campaign-creation.md) | [캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/><b>[활동 오케스트레이션](orchestrate-activities.md)</b><br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md)<br/><br/>[리타기팅](retarget.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[And 조인](activities/and-join.md) - [대상자 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [채널 활동](activities/channels.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [대상자 저장](activities/save-audience.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
 
@@ -36,13 +36,13 @@ ht-degree: 86%
 
 >[!ENDSHADEBOX]
 
-[오케스트레이션된 캠페인을 만들었다면](gs-campaign-creation.md), 캠페인에서 수행할 다양한 작업을 오케스트레이션할 수 있습니다. 이를 위해 오케스트레이션된 캠페인 다이어그램을 구성할 수 있는 시각적 캔버스가 제공됩니다. 이 다이어그램에서 다양한 활동을 추가하고 순서대로 연결할 수 있습니다.
+[오케스트레이션된 캠페인을 생성](gs-campaign-creation.md)한 후에는 수행할 다양한 작업의 오케스트레이션을 시작할 수 있습니다. 이를 위해 오케스트레이션된 캠페인 다이어그램을 구성할 수 있는 시각적 캔버스가 제공됩니다. 이 다이어그램에서 다양한 활동을 추가하고 순서대로 연결할 수 있습니다.
 
 ## 활동 추가 {#add}
 
 이 구성 단계에서 다이어그램은 오케스트레이션된 캠페인의 시작을 나타내는 시작 아이콘과 함께 표시됩니다. 첫 번째 활동을 추가하려면 시작 아이콘에 연결된 **+** 버튼을 클릭합니다.
 
-다이어그램에 추가할 수 있는 활동 목록이 나타납니다. 사용 가능한 활동은 오케스트레이션된 캠페인 다이어그램 내에서 지금 있는 위치에 따라 다릅니다. 예를 들어, 첫 번째 활동을 추가할 때는 오케스트레이션된 캠페인을 시작하기 위해 대상자를 타기팅하거나, 오케스트레이션된 캠페인 경로를 분할하거나, **대기** 활동을 설정하여 오케스트레이션된 캠페인 실행을 지연시킬 수 있습니다. 반면에, **대상자 작성** 활동 후에는 타기팅 활동을 통해 타깃을 세분화하거나, 채널 활동을 통해 대상자에게 게재를 보내거나, 흐름 제어 활동을 통해 오케스트레이션된 캠페인 프로세스를 정리할 수 있습니다.
+다이어그램에 추가할 수 있는 활동 목록이 나타납니다. 사용 가능한 활동은 오케스트레이션된 캠페인 다이어그램 내의 위치에 따라 다릅니다. 예를 들어 첫 번째 활동을 추가할 때 대상을 타겟팅하거나, 오케스트레이션된 캠페인 경로를 분할하거나, **대기** 활동을 설정하여 오케스트레이션된 캠페인 실행을 지연시킬 수 있습니다. 한편, **대상자 작성** 활동 후에는 타깃팅 활동을 통해 대상을 세분화하고, 채널 활동을 통해 대상자에게 게재를 보내거나, 흐름 제어 활동을 통해 오케스트레이션된 캠페인 프로세스를 구성할 수 있습니다.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
@@ -80,9 +80,9 @@ ht-degree: 86%
 
 ![삭제 아이콘](assets/do-not-localize/activity-delete.svg) 캔버스에서 활동을 삭제합니다.
 
-![비활성화 아이콘](assets/do-not-localize/activity-disable.svg) ![활성화 아이콘](assets/do-not-localize/activity-enable.svg) 활동을 비활성화/활성화합니다. 오케스트레이션된 캠페인을 실행할 때 비활성화된 활동 및 동일한 경로의 다음 활동은 실행되지 않고 오케스트레이션된 캠페인이 중지됩니다.
+![비활성화 아이콘](assets/do-not-localize/activity-disable.svg) ![활성화 아이콘](assets/do-not-localize/activity-enable.svg) 활동을 비활성화/활성화합니다. 오케스트레이션된 캠페인이 실행되면 비활성화된 활동 및 동일한 경로의 다음 활동이 실행되지 않고 오케스트레이션된 캠페인이 중지됩니다.
 
-![일시 중지 아이콘](assets/do-not-localize/activity-pause.svg) ![다시 시작 아이콘](assets/do-not-localize/activity-resume.svg) 활동을 일시 중지/다시 시작합니다. 오케스트레이션된 캠페인을 실행하면 일시 중지된 활동 지점에서 캠페인이 일시 중지됩니다. 여기에 해당하는 작업과 동일한 경로에서 해당 작업에 따라오는 모든 작업은 실행되지 않습니다.
+![일시 중지 아이콘](assets/do-not-localize/activity-pause.svg) ![다시 시작 아이콘](assets/do-not-localize/activity-resume.svg) 활동을 일시 중지/다시 시작합니다. 오케스트레이션된 캠페인이 실행되면 일시 중지된 활동에서 일시 중지됩니다. 여기에 해당하는 작업과 동일한 경로에서 해당 작업에 따라오는 모든 작업은 실행되지 않습니다.
 
 캔버스의 모든 활동을 중단점으로 사용하여 캠페인 실행을 일시 중지할 수 있습니다. 즉, 캠페인은 이 활동까지만 실행된 다음 실행을 일시 중지합니다. 실행을 일시 중지하는 동안 세분화 엔진은 사용자가 미리 볼 수 있도록 임시 데이터를 유지합니다. 일시 중지된 활동 바로 전에 인바운드 전환을 선택하여 전송된 데이터를 볼 수 있습니다. 이 섹션에 대해 자세히 알아보세요. [시각적 흐름 모니터링](../orchestrated/start-monitor-campaigns.md#flow).
 
@@ -94,7 +94,7 @@ ht-degree: 86%
 
 ### 활동 복사하여 붙여 넣기 {#copy}
 
-활동을 복사하여 원하는 오케스트레이션된 캠페인 캔버스에 붙여 넣을 수 있습니다. 대상 캠페인이 다른 브라우저 탭에 있어도 됩니다.
+활동을 복사하여 오케스트레이션된 캠페인 캔버스에 붙여넣을 수 있습니다. 대상 캠페인이 다른 브라우저 탭에 있어도 됩니다.
 
 * 활동 하나를 복사하려면 활동 속성 창에서 ![복사 아이콘](assets/do-not-localize/activity-copy.svg) 버튼을 클릭합니다.
 * 여러 활동을 복사하려면 캔버스 도구 모음에서 ![다중 선택 모드 아이콘](assets/do-not-localize/canvas-multiple.svg) 아이콘을 클릭합니다.
@@ -109,7 +109,7 @@ ht-degree: 86%
 
 ## 다이어그램 예 {#example}
 
-다음은 최소 100달러 이상 구매한 모든 고객에게 이메일을 보내되, 충성도 포인트가 50점 미만인 고객은 모두 제외하도록 고안된 오케스트레이션된 캠페인 예입니다.
+다음은 최소 100$의 구매를 한 모든 고객에게 이메일을 보내는 반면 충성도 점수가 50점 미만인 모든 고객은 제외하도록 설계된 오케스트레이션된 캠페인 예입니다.
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
@@ -128,4 +128,4 @@ ht-degree: 86%
 
 ## 다음 단계 {#next}
 
-오케스트레이션된 캠페인 다이어그램을 성공적으로 디자인한 후 오케스트레이션된 캠페인을 실행하고 다양한 작업의 진행 상황을 추적할 수 있습니다. [오케스트레이션된 캠페인을 시작하고 해당 캠페인 실행을 모니터링하는 방법 알아보기](start-monitor-campaigns.md)
+오케스트레이션된 캠페인 다이어그램을 성공적으로 디자인한 후 오케스트레이션된 캠페인을 실행하고 다양한 작업의 진행 상황을 추적할 수 있습니다. [오케스트레이션된 캠페인을 시작하고 실행을 모니터링하는 방법을 알아보세요](start-monitor-campaigns.md)

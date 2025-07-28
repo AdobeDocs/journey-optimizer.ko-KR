@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '1168'
-ht-degree: 77%
+ht-degree: 57%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="이메일 활동"
->abstract="이메일 활동을 사용하면 오케스트레이션된 캠페인 내에서 일회성 이메일과 반복 이메일을 모두 전송할 수 있습니다. 이는 동일한 오케스트레이션된 캠페인 내에서 계산된 대상으로 이메일을 전송하는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 다단계 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
+>abstract="이메일 활동을 사용하면 일회성 메시지와 반복 메시지 모두에 대해 오케스트레이션된 캠페인 내에서 이메일을 보낼 수 있습니다. 동일한 오케스트레이션된 캠페인 내에서 계산된 타겟으로 이메일을 보내는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 다단계 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="SMS 활동"
->abstract="SMS 활동을 사용하면 오케스트레이션된 캠페인 내에서 일회성 SMS와 반복 SMS를 모두 전송할 수 있습니다. 이는 동일한 오케스트레이션된 캠페인 내에서 계산된 대상으로 SMS를 전송하는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 다단계 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
+>abstract="SMS 활동을 사용하면 오케스트레이션된 캠페인 내에서 일회성 메시지와 반복 메시지 모두에 대해 SMS를 보낼 수 있습니다. 동일한 오케스트레이션된 캠페인 내에서 계산된 타겟으로 SMS를 전송하는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 다단계 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="푸시 활동"
->abstract="푸시 활동을 사용하면 오케스트레이션된 캠페인의 일부로 푸시 알림을 전송할 수 있습니다. 일회성 메시지와 반복 오케스트레이션된 캠페인 모두를 게재할 수 있으며, 동일한 오케스트레이션된 캠페인 내에서 사전 정의된 대상으로 푸시 알림을 전송하는 프로세스를 자동화합니다. 채널 활동을 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
+>abstract="푸시 활동을 사용하면 오케스트레이션된 캠페인의 일부로 푸시 알림을 전송할 수 있습니다. 이를 통해 일회성 및 반복 오케스트레이션된 캠페인을 모두 게재할 수 있으므로 동일한 오케스트레이션된 캠페인 내의 사전 정의된 타겟으로 푸시 알림 전송을 자동화할 수 있습니다. 채널 활동을 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
 
 <!--
 UNUSED IDs in BJ
@@ -37,24 +37,24 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
 >title="Push iOS activity"
->abstract="The Push iOS activity let you send iOS Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push iOS activity let you send iOS Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring Orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Push Android activity"
->abstract="The Push Android activity ket you send Android Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same orchestrated campaign. You can combine channel activities into the orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push Android activity ket you send Android Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same Orchestrated campaign. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="다이렉트 메일 활동"
->abstract="다이렉트 메일 활동은 오케스트레이션된 캠페인 내에서 다이렉트 메일 전송 과정을 원활하게 하며 일회성 메시지와 반복 메시지를 모두 전송할 수 있습니다. 이는 다이렉트 메일 제공업체에 필요한 추출 파일 생성 프로세스를 자동화하는 역할을 합니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
+>abstract="DM 활동은 일회성 메시지와 반복 메시지 모두에 대해 오케스트레이션된 캠페인 내에서 DM을 쉽게 보낼 수 있습니다. 이는 다이렉트 메일 제공업체에 필요한 추출 파일 생성 프로세스를 자동화하는 역할을 합니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터를 기반으로 작업을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
 
 
 +++ 목차
 
-| 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
+| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
 | [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](../gs-schemas.md)</li><li>[수동 스키마](../manual-schema.md)</li><li>[파일 업로드 스키마](../file-upload-schema.md)</li><li>[데이터 수집](../ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](../access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인을 만드는 주요 단계](../gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [규칙 빌더로 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md)<br/><br/>[리타기팅](../retarget.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[And 조인](and-join.md) - [대상자 빌드](build-audience.md) - [차원 변경](change-dimension.md) - <b>[채널 활동](channels.md)</b> - [결합](combine.md) - [중복 제거](deduplication.md) - [보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [대상자 저장](save-audience.md) - [분할](split.md) - [대기](wait.md) |
 
@@ -72,7 +72,7 @@ UNUSED IDs in BJ
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Journey Optimizer]을(를) 사용하면 여러 채널(이메일, SMS, 푸시 알림)에 걸쳐 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 오케스트레이션된 캠페인을 만들 수 있습니다.
+[!DNL Adobe Journey Optimizer]을(를) 사용하면 여러 채널(이메일, SMS, 푸시 알림)에 걸쳐 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 이러한 채널 활동을 캠페인 캔버스에 결합하여 고객 행동 및 데이터를 기반으로 작업을 트리거할 수 있는 크로스 채널 오케스트레이션된 캠페인을 만들 수 있습니다.
 
 예:
 * 이메일, SMS, 푸시를 통해 환영 인사 시리즈를 보냅니다.
@@ -151,9 +151,9 @@ UNUSED IDs in BJ
 
   이 폴더에는 [!DNL Adobe Experience Platform]의 모든 프로필 관련 데이터가 포함되어 있습니다. 이름, 이메일 주소, 위치 또는 사용자 프로필에 캡처된 기타 트레이트와 같은 표준 속성입니다.
 
-* **[!UICONTROL Target 특성]**(오케스트레이션된 캠페인에만 해당)
+* **[!UICONTROL Target 특성]**(오케스트레이션된 캠페인에 해당)
 
-  이 폴더는 오케스트레이션된 캠페인에만 사용할 수 있습니다. 여기에는 캠페인 캔버스 내에서 직접 계산된 속성이 포함됩니다. 여기에는 두 개의 하위 폴더가 있습니다.
+  이 폴더는 오케스트레이션된 캠페인에 고유합니다. 여기에는 캠페인 캔버스 내에서 직접 계산된 속성이 포함됩니다. 여기에는 두 개의 하위 폴더가 있습니다.
 
    * **`<Targeting dimension>`**(예: &quot;수신자&quot;, &quot;구매&quot;): 캠페인에서 타겟팅한 차원과 관련된 모든 특성을 포함합니다.
 
@@ -173,14 +173,14 @@ Once the content is created, use the **[!UICONTROL Simulate Content]** button to
 
 ## 다음 단계 {#next}
 
-메시지 콘텐츠가 준비되면 **[!UICONTROL 뒤로]** 화살표를 사용하여 오케스트레이션된 캠페인으로 다시 이동합니다. 그런 다음 캔버스에서 활동 오케스트레이션을 완료하고 캠페인을 게시하여 메시지 전송을 시작할 수 있습니다. [오케스트레이션된 캠페인을 시작하고 모니터링하는 방법 알아보기](../start-monitor-campaigns.md)
+메시지 콘텐츠가 준비되면 **[!UICONTROL 뒤로]** 화살표를 사용하여 오케스트레이션된 캠페인으로 다시 이동합니다. 그런 다음 캔버스에서 활동 오케스트레이션을 완료하고 캠페인을 게시하여 메시지 전송을 시작할 수 있습니다. [오케스트레이션된 캠페인을 시작 및 모니터링하는 방법 알아보기](../start-monitor-campaigns.md)
 
 ![뒤로 버튼을 표시하는 이미지](../assets/channel-back.png)
 
 <!--
 ## Examples {#cross-channel-workflow-sample}
 
-Here is a cross-channel orchestrated campaign example with a segmentation and two deliveries. The orchestrated campaign targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
+Here is a cross-channel Orchestrated campaign example with a segmentation and two deliveries. The Orchestrated campaign targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
 
 ![](../assets/workflow-channel-example.png)
 
@@ -194,7 +194,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-<!--You can also create a recurring orchestrated campaign to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
+<!--You can also create a recurring Orchestrated campaign to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
 
 ![](../assets/workflow-channel-example2.png)-->
 

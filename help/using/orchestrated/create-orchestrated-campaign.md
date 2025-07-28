@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer로 오케스트레이션된 캠페인 만들기 및 예약
-description: Adobe Journey Optimizer로 오케스트레이션된 캠페인을 만들고 예약하는 방법 알아보기
+title: Journey Optimizer을 사용하여 오케스트레이션된 캠페인 만들기 및 예약
+description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인을 만들고 예약하는 방법을 알아봅니다
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 8738499dc20f8617d7b4f6d9cf456f1c9e31bd0f
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 82%
+ht-degree: 62%
 
 ---
 
 
-# 오케스트레이션된 캠페인 생성 및 예약 {#create-first-campaign}
+# 오케스트레이션된 캠페인 만들기 및 예약 {#create-first-campaign}
 
 +++ 목차
 
-| 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
+| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
 | [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](gs-schemas.md)</li><li>[수동 스키마](manual-schema.md)</li><li>[파일 업로드 스키마](file-upload-schema.md)</li><li>[데이터 수집](ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md)<br/><br/>[오케스트레이션된 캠페인을 만드는 주요 단계](gs-campaign-creation.md) | <b>[캠페인 만들기 및 예약](create-orchestrated-campaign.md)</b><br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md)<br/><br/>[리타기팅](retarget.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[And 조인](activities/and-join.md) - [대상자 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [채널 활동](activities/channels.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [대상자 저장](activities/save-audience.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
 
@@ -43,7 +43,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="오케스트레이션된 캠페인 목록"
->abstract="**오케스트레이션** 탭에는 모든 오케스트레이션된 캠페인이 나열됩니다. 오케스트레이션된 캠페인의 이름을 클릭하여 편집할 수 있습니다. 오케스트레이션된 새 캠페인을 추가하려면 **오케스트레이션된 캠페인 만들기** 버튼을 사용합니다."
+>abstract="**오케스트레이션** 탭에 오케스트레이션된 모든 캠페인이 나열됩니다. 오케스트레이션된 캠페인의 이름을 클릭하여 편집합니다. **오케스트레이션된 캠페인 만들기** 단추를 사용하여 새 오케스트레이션된 캠페인을 추가합니다."
 
 오케스트레이션된 캠페인을 만들려면 다음 단계를 수행합니다.
 
@@ -63,7 +63,7 @@ ht-degree: 82%
 
       [!DNL Adobe Experience Platform]에서 각 대상자는 프로필 정보를 결합하여 병합된 프로필을 형성하는 방법을 정의하는 특정 병합 정책에 연결됩니다. 대상 읽기 활동에서 병합 정책을 선택하면 동일한 병합 정책을 기반으로 하는 대상만 사용할 수 있습니다. 기본적으로 시스템은 기본 병합 정책을 사용하지만 필요한 경우 변경할 수 있습니다. 병합 정책에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview){target="_blank"}를 참조하세요.
 
-   1. **[!UICONTROL 태그]** 필드를 사용하여 Adobe Experience Platform 통합 태그를 캠페인에 지정하십시오. 태그를 할당하면 캠페인을 간단히 분류하고 오케스트레이션된 캠페인 목록에서 편하게 검색할 수 있습니다. [태그 작업 방법에 대해 알아보십시오](../start/search-filter-categorize.md#tags).
+   1. **[!UICONTROL 태그]** 필드를 사용하여 Adobe Experience Platform 통합 태그를 캠페인에 지정하십시오. 이를 통해 오케스트레이션된 캠페인 목록에서 쉽게 분류하고 검색을 개선할 수 있습니다. [태그 작업 방법에 대해 알아보십시오](../start/search-filter-categorize.md#tags).
 
    1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -84,13 +84,13 @@ ht-degree: 82%
 >title="스케줄러 옵션"
 >abstract="스케줄러의 빈도를 정의합니다. 특정 순간, 하루에 한 번 또는 여러 번, 일주일 또는 한 달로 실행할 수 있습니다."
 
-기본적으로 오케스트레이션된 캠페인은 수동으로 활성화될 때 시작하고 관련 활동의 실행이 완료되면 종료됩니다. 실행을 지연하거나 반복적으로 캠페인을 실행하려는 경우 캠페인에 대한 일정을 정의할 수 있습니다.
+기본적으로 오케스트레이션된 캠페인은 수동으로 활성화될 때 시작되고 관련 활동이 실행되면 종료됩니다. 실행을 지연하거나 반복적으로 캠페인을 실행하려는 경우 캠페인에 대한 일정을 정의할 수 있습니다.
 
-오케스트레이션된 캠페인을 예약할 때는 최적의 성능을 발휘하고 동작이 예상대로 작동하도록 하기 위해 다음 모범 사례를 고려하십시오.
+최적의 성능과 예상 동작을 보장하기 위해 오케스트레이션된 캠페인을 예약할 때 다음 모범 사례를 고려하십시오.
 
-* 오케스트레이션된 캠페인을 15분에 한 번을 초과하여 실행하도록 예약하지 마십시오. 전체 시스템 성능이 떨어지고 데이터베이스에 블록이 생길 수 있습니다.
-* 오케스트레이션된 캠페인에서 일회성 메시지를 보내려면 **한 번** 실행하도록 설정할 수 있습니다.
-* 오케스트레이션된 캠페인에서 반복 메시지를 보내려면 **일정 조정** 옵션을 사용하고 실행 빈도를 설정해야 합니다. 반복 게재 활동에서는 일정을 정의할 수 없습니다.
+* 오케스트레이션된 캠페인이 전체 시스템 성능을 저해하고 데이터베이스에 블록을 생성할 수 있으므로 15분 간격으로 실행되도록 예약하지 마십시오.
+* 오케스트레이션된 캠페인에서 일회성 메시지를 보내려면 **한 번**&#x200B;을 실행하도록 설정할 수 있습니다.
+* 오케스트레이션된 캠페인에서 반복 메시지를 보내려면 **예약** 옵션을 사용하고 실행 빈도를 설정해야 합니다. 반복 게재 활동에서는 일정을 정의할 수 없습니다.
 
 캠페인 일정을 구성하려면 다음 단계를 수행합니다.
 
@@ -107,7 +107,7 @@ ht-degree: 82%
    * **[!UICONTROL 날짜]**: 캠페인을 실행할 날짜를 선택합니다.
    * **[!UICONTROL 시간]**: 캠페인을 실행할 특정 시간을 선택합니다.
 
-   +++
++++
 
    +++일별
 
@@ -121,7 +121,7 @@ ht-degree: 82%
 
    * **[!UICONTROL 시작 시간]**: 매일 캠페인을 실행할 시간을 정의합니다.
 
-   +++
++++
 
    +++일별 몇 회
 
@@ -130,7 +130,7 @@ ht-degree: 82%
    * **[!UICONTROL 선택한 시간]**: 캠페인을 실행할 특정 시간을 선택하고 일별 반복을 구성합니다(매일 또는 특정 요일에 실행).
    * **[!UICONTROL 주기별]**: 매 n분 또는 시간마다 캠페인을 실행하도록 선택합니다. 실행이 허용된 날짜 내에서 시간 범위를 정의할 수도 있습니다.
 
-   +++
++++
 
    +++주별
 
@@ -141,7 +141,7 @@ ht-degree: 82%
    * **[!UICONTROL 매일 반복]**: 실행할 특정 요일(예: 매주 월요일 및 목요일)을 선택합니다.
    * **[!UICONTROL 시작 시간]**: 선택한 날짜에 캠페인을 실행할 시간을 설정합니다.
 
-   +++
++++
 
    +++월별
 
@@ -157,7 +157,7 @@ ht-degree: 82%
 
    * **[!UICONTROL 시작 시간]**: 캠페인을 실행할 시간을 설정합니다.
 
-   +++
++++
 
 1. 특정 시작 및 종료 날짜를 정의하고 한정된 기간 동안 캠페인 실행을 제한하려면 **[!UICONTROL 유효 기간]** 설정을 사용합니다.
 
@@ -167,7 +167,7 @@ ht-degree: 82%
 >
 >[!DNL Adobe Journey Optimizer]에서 캠페인을 예약할 때는 시작 날짜/시간이 원하는 첫 번째 게재에 맞춰졌는지 확인합니다. 반복 캠페인의 경우 초기 예약 시간이 이미 경과했을 때는 캠페인이 반복 규칙에 따라 다음 사용 가능한 시간 슬롯으로 넘어갑니다.
 
-다음 예제에서는 오케스트레이션된 캠페인이 2025년 10월 1일부터 2026년 1월 1일까지 매일 두 번, 오전 9시와 12시에 실행되도록 활동을 구성합니다.
+다음 예에서는 오케스트레이션된 캠페인이 2025년 10월 1일부터 2026년 1월 1일까지 매주 오전 9시와 12시에 하루에 두 번 실행되도록 활동이 구성됩니다.
 
 ![하루에 두 번, 오전 9시와 12시에 캠페인을 실행하도록 구성된 스케줄러](assets/scheduler-sample.png){width="50%" align="left"}
 

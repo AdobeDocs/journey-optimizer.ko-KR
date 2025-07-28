@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 조정 활동 사용
-description: 오케스트레이션된 캠페인에서 조정 활동을 사용하는 방법 알아보기
+description: 오케스트레이션된 캠페인에서 조정 활동을 사용하는 방법을 알아봅니다
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 93%
+ht-degree: 83%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 93%
 
 +++ 목차
 
-| 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
+| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
 | [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](../gs-schemas.md)</li><li>[수동 스키마](../manual-schema.md)</li><li>[파일 업로드 스키마](../file-upload-schema.md)</li><li>[데이터 수집](../ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](../access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인을 만드는 주요 단계](../gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [규칙 빌더로 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md)<br/><br/>[리타기팅](../retarget.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[And 조인](and-join.md) - [대상자 빌드](build-audience.md) - [차원 변경](change-dimension.md) - [채널 활동](channels.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [보강](enrichment.md) - [포크](fork.md) - <b>[조정](reconciliation.md)</b> - [대상자 저장](save-audience.md) - [분할](split.md) - [대기](wait.md) |
 
@@ -59,7 +59,7 @@ ht-degree: 93%
 
 **[!UICONTROL 조정]** 활동은 Adobe Journey Optimizer의 데이터와 작업 테이블의 데이터(예: 외부 파일에서 로드된 데이터) 간 링크를 정의할 수 있는 **[!UICONTROL 타기팅]** 활동입니다. 
 
-**[!UICONTROL 보강]** 활동을 사용하면 오케스트레이션된 캠페인에 데이터를 추가할 수 있습니다. 예를 들어 여러 소스의 데이터를 결합하거나 임시 리소스에 연결할 수 있습니다. 반대로 **[!UICONTROL 조정]** 활동은 미확인 또는 외부 데이터를 데이터베이스의 기존 리소스와 맞추는 데 사용됩니다.
+**[!UICONTROL 데이터 보강]** 활동을 사용하면 여러 소스의 데이터를 결합하거나 임시 리소스에 연결하는 등의 방법으로 오케스트레이션된 캠페인에 데이터를 추가할 수 있습니다. 반대로 **[!UICONTROL 조정]** 활동은 미확인 또는 외부 데이터를 데이터베이스의 기존 리소스와 맞추는 데 사용됩니다.
 
 **[!UICONTROL 조정]**&#x200B;을 사용하려면 관련 레코드가 시스템에 이미 있어야 합니다. 예를 들어 제품, 타임스탬프, 고객 정보 목록이 있는 구매 파일을 가져오는 경우 링크를 설정하려면 제품과 고객 모두 데이터베이스에 이미 있어야 합니다.
 
@@ -80,7 +80,7 @@ ht-degree: 93%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="타기팅 차원 선택"
 >abstract="조정할 인바운드 데이터의 타기팅 차원을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=ko#targeting-dimensions" text="타기팅 차원"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="타기팅 차원"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"

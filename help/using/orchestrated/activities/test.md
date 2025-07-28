@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 91%
+ht-degree: 62%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="조건"
->abstract="**테스트** 활동에는 여러 개의 출력 전환이 있을 수 있습니다. 오케스트레이션된 캠페인 실행 중에 각 조건은 조건 중 하나가 충족될 때까지 순차적으로 테스트됩니다. 어떤 조건도 충족되지 않으면 오케스트레이션된 캠페인은 **[!UICONTROL 기본 조건]** 경로를 따라 계속됩니다. 기본 조건이 활성화되어 있지 않으면 오케스트레이션된 캠페인은 이 지점에서 멈춥니다."
+>abstract="**테스트** 활동에는 여러 개의 출력 전환이 있을 수 있습니다. 오케스트레이션된 캠페인 실행 중에 각 조건은 둘 중 하나가 충족될 때까지 순차적으로 테스트됩니다. 조건이 충족되지 않으면 오케스트레이션된 캠페인이 **[!UICONTROL 기본 조건]**&#x200B;의 경로를 따라 계속됩니다. 활성화된 기본 조건이 없으면 이 시점에서 오케스트레이션된 캠페인이 중지됩니다."
 
 +++ 목차
 
-| 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
+| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
 | [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](../gs-schemas.md)</li><li>[수동 스키마](../manual-schema.md)</li><li>[파일 업로드 스키마](../file-upload-schema.md)</li><li>[데이터 수집](../ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](../access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인을 만드는 주요 단계](../gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [규칙 빌더로 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md)<br/><br/>[리타기팅](../retarget.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[And 조인](and-join.md) - [대상자 빌드](build-audience.md) - [차원 변경](change-dimension.md) - [채널 활동](channels.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [대상자 저장](save-audience.md) - [분할](split.md) - [대기](wait.md) |
 
@@ -52,7 +52,7 @@ ht-degree: 91%
 
 **[!UICONTROL 테스트]** 활동을 구성하려면 다음 단계를 따릅니다.
 
-1. 오케스트레이션된 캠페인에 **[!UICONTROL 테스트]** 활동을 추가합니다.
+1. 오케스트레이션된 캠페인에 **[!UICONTROL Test]** 활동을 추가합니다.
 
 1. 기본적으로 **[!UICONTROL 테스트]** 활동은 간단한 부울 테스트를 제공합니다. “True” 전환에 정의된 조건이 충족되면 이 전환이 활성화됩니다. 그렇지 않으면 기본 “False” 전환이 활성화됩니다.
 
@@ -64,7 +64,7 @@ ht-degree: 91%
 
 1. **[!UICONTROL 테스트]** 활동에 여러 출력 전환을 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL 조건 추가]** 버튼을 클릭하고 각 전환에 대한 레이블과 관련 조건을 구성합니다.
 v
-1. 오케스트레이션된 캠페인 실행 중에 각 조건은 조건 중 하나가 충족될 때까지 순차적으로 테스트됩니다. 어떤 조건도 충족되지 않으면 오케스트레이션된 캠페인은 **[!UICONTROL 기본 조건]** 경로를 따라 계속 진행됩니다. 기본 조건이 활성화되어 있지 않으면 워크플로는 이 지점에서 멈춥니다.
+1. 오케스트레이션된 캠페인 실행 중에 각 조건은 둘 중 하나가 충족될 때까지 순차적으로 테스트됩니다. 조건이 충족되지 않으면 오케스트레이션된 캠페인이 **[!UICONTROL 기본 조건]**&#x200B;의 경로를 따라 계속됩니다. 기본 조건이 활성화되어 있지 않으면 워크플로는 이 지점에서 멈춥니다.
 
 ## 예 {#example}
 

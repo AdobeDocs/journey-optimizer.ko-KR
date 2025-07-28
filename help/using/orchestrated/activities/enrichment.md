@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 92%
+ht-degree: 77%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 
 +++ 목차
 
-| 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
+| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
 | [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](../gs-schemas.md)</li><li>[수동 스키마](../manual-schema.md)</li><li>[파일 업로드 스키마](../file-upload-schema.md)</li><li>[데이터 수집](../ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](../access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인을 만드는 주요 단계](../gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [규칙 빌더로 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md)<br/><br/>[리타기팅](../retarget.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[And 조인](and-join.md) - [대상자 빌드](build-audience.md) - [차원 변경](change-dimension.md) - [채널 활동](channels.md) - [결합](combine.md) - [중복 제거](deduplication.md) - <b>[보강](enrichment.md)</b> - [포크](fork.md) - [조정](reconciliation.md) - [대상자 저장](save-audience.md) - [분할](split.md) - [대기](wait.md) |
 
@@ -56,7 +56,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="보강 활동"
->abstract="보강 데이터를 오케스트레이션된 캠페인에 추가한 다음에는 이를 보강 활동 다음에 추가된 활동에서 사용하여 고객을 행동, 선호도 및 요구 사항에 따라 고유한 그룹으로 세분화하거나, 타깃 대상자의 마음을 움직일 수 있는 개인화된 마케팅 메시지 및 캠페인을 만들 수 있습니다."
+>abstract="데이터 보강 데이터가 오케스트레이션된 캠페인에 추가되면 데이터 보강 활동 뒤에 추가된 활동에 사용하여 고객의 동작, 환경 설정 및 요구 사항을 기반으로 개별 그룹으로 고객을 세그먼트화하거나 타겟 대상자와 공감할 가능성이 높은 개인화된 마케팅 메시지 및 캠페인을 만들 수 있습니다."
 
 **보강** 활동을 구성하려면 다음 단계를 따릅니다.
 
@@ -173,7 +173,7 @@ Follow the steps to configure an **Enrichment** activity with a reconciliation l
 1. Identify the data you want to create a reconciliation link with.
 
     * To create a reconciliation link with data from the Campaign database, select **Database schema** and choose the schema where the target is stored. 
-    * To create a reconciliation link with data coming from the input transition, select **Temporary schema** and choose the orchestrated campaign transition where the target data is stored. 
+    * To create a reconciliation link with data coming from the input transition, select **Temporary schema** and choose the Orchestrated campaign transition where the target data is stored. 
 
 1. The **Label** and **Name** fields are automatically populated based on the selected target schema. You can change their values if necessary.
 
@@ -187,13 +187,13 @@ Follow the steps to configure an **Enrichment** activity with a reconciliation l
 
     * **Advanced join**: Use the query modeler to configure the reconciliation criteria. To do this, click the **Create condition** button then define your reconciliation criteria by building your own rule using AND and OR operations.
 
-The example below shows an orchestrated campaign configured to create a link between Journey Optimizer profiles table and a temporary table generated a **Load file** activity. In this example, the **Enrichment** activity reconciliates both tables using the email address as reconciliation criteria.
+The example below shows an Orchestrated campaign configured to create a link between Journey Optimizer profiles table and a temporary table generated a **Load file** activity. In this example, the **Enrichment** activity reconciliates both tables using the email address as reconciliation criteria.
 
 ![](../assets/enrichment-reconciliation.png)
 
 ### Enrichment with linked data {#link-example}
 
-The example below shows an orchestrated campaign configured to create a link between two transitions. The first transitions targets profile data using a **Query** activity, while the second transition includes purchase data stored into a file loaded through a Load file activity.
+The example below shows an Orchestrated campaign configured to create a link between two transitions. The first transitions targets profile data using a **Query** activity, while the second transition includes purchase data stored into a file loaded through a Load file activity.
 
 ![](../assets/enrichment-uc-link.png)
 
@@ -201,7 +201,7 @@ The example below shows an orchestrated campaign configured to create a link bet
 
     ![](../assets/enrichment-uc-link-purchases.png)
 
-* A second **Enrichment** activity is added in order to enrich data from the orchestrated campaign table with the purchase data coming from the **Load file** activity. This allows us to use those data in further activities, for example, to personalize messages sent to the customers with information on their purchase.
+* A second **Enrichment** activity is added in order to enrich data from the Orchestrated campaign table with the purchase data coming from the **Load file** activity. This allows us to use those data in further activities, for example, to personalize messages sent to the customers with information on their purchase.
 
     ![](../assets/enrichment-uc-link-data.png)
 
@@ -274,7 +274,7 @@ You can now use the offer in the delivery activity.
 
 ### Using the offers from Enrichment activity
 
-Within an orchestrated campaign, if you want to use the offers you get from an enrichment activity in your delivery, follow the steps below:
+Within an Orchestrated campaign, if you want to use the offers you get from an enrichment activity in your delivery, follow the steps below:
 
 1. Open the delivery activity and go in the content edition. Click on **[!UICONTROL Offers settings]** button and select in the drop-down list the **[!UICONTROL Offers space]** corresponding to your offer. 
 If you want to to view only offers from the enrichment activity, set the number of **[!UICONTROL Propositions]** to 0, and save the modifications.

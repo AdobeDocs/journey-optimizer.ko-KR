@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -76,7 +76,7 @@ Journey Optimizer에서 다양한 유형의 캠페인을 만들 수 있습니다
 
     Campaign Orchestration in Adobe Journey Optimizer powers sophisticated, brand-initiated marketing campaigns across channels, helping you drive engagement, revenue, and customer loyalty at scale.
 
-    While cross-channel marketing is essential, orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
+    While cross-channel marketing is essential, Orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
 
 ## 시작하기 전 {#campaign-prerequisites}
 
@@ -88,7 +88,7 @@ Journey Optimizer에서 다양한 유형의 캠페인을 만들 수 있습니다
 
    1. [!DNL Permissions] 제품에서 사용자에게 역할을 할당하려면 **[!UICONTROL 역할]** 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]**, wmr 캠페인 관리자(administrator), 캠페인 승인자, 캠페인 관리자(manager) 또는 캠페인 뷰어 중 하나를 선택하십시오.
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
    1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;합니다.
 
@@ -96,11 +96,11 @@ Journey Optimizer에서 다양한 유형의 캠페인을 만들 수 있습니다
 
    그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
 
-   +++
++++
 
 1. **대상자가 필요합니다**. 캠페인을 만들기 전에 대상자를 사용할 수 있어야 합니다. [대상자 시작](../audience/about-audiences.md).
 
-1. **채널 구성이 필요합니다**. 채널을 선택하려면 해당 채널 구성(즉, 사전 설정)을 만들고 사용할 수 있는 상태로 설정해야 합니다. [채널 구성을 설정하는 방법을 알아보세요](../configuration/channel-surfaces.md).
+1. **채널 구성이 필요합니다**. 채널을 선택하려면 해당 채널 구성(즉, 사전 설정)을 만들고 사용할 수 있는 상태로 설정해야 합니다. [채널 구성을 설정하는 방법을 알아봅니다](../configuration/channel-surfaces.md).
 
 ## 더 자세히 알아보기
 

@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizer로 오케스트레이션된 캠페인 시작 및 모니터링
-description: Adobe Journey Optimizer를 사용하여 오케스트레이션된 캠페인을 시작하고 모니터링하는 방법을 알아봅니다.
+title: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인 시작 및 모니터링
+description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인을 시작 및 모니터링하는 방법을 알아봅니다.
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 68%
+ht-degree: 56%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 68%
 
 +++ 목차
 
-| 오케스트레이션된 캠페인 시작 | 첫 오케스트레이션된 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
+| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
 | [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](gs-schemas.md)</li><li>[수동 스키마](manual-schema.md)</li><li>[파일 업로드 스키마](file-upload-schema.md)</li><li>[데이터 수집](ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md)<br/><br/>[오케스트레이션된 캠페인을 만드는 주요 단계](gs-campaign-creation.md) | [캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/><b>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)</b><br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md)<br/><br/>[리타기팅](retarget.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[And 조인](activities/and-join.md) - [대상자 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [채널 활동](activities/channels.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [대상자 저장](activities/save-audience.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
 
@@ -118,7 +118,7 @@ If you have added channel activities in the canvas, you can preview and test the
 |-----|------------|
 | ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | 활동이 현재 실행 중입니다. |
 | ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 이 활동에는 주의가 필요합니다. 이 주의에는 게재 전송을 확인하거나 필요한 조치를 취하는 작업이 포함될 수 있습니다. |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 활동에서 오류가 발생했습니다. 문제를 해결하려면 오케스트레이션된 캠페인 로그를 열어 자세한 내용을 확인합니다. |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 활동에서 오류가 발생했습니다. 이 문제를 해결하려면 오케스트레이션된 캠페인 로그에서 자세한 내용을 확인하십시오. |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 활동이 성공적으로 실행되었습니다. |
 
 ### 로그 및 작업 {#logs-tasks}
@@ -126,9 +126,9 @@ If you have added channel activities in the canvas, you can preview and test the
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="로그 및 작업"
->abstract="**로그 및 작업** 화면은 모든 사용자 액션과 발생한 오류를 기록하며 오케스트레이션된 캠페인 실행의 기록을 제공합니다."
+>abstract="**로그 및 작업** 화면에서 모든 사용자 작업을 기록하고 오류가 발생한 오케스트레이션된 캠페인 실행 기록을 제공합니다."
 
-로그 및 작업 모니터링은 오케스트레이션된 캠페인을 분석하여 제대로 실행되고 있는지 확인하기 위해 중요한 단계입니다. 캔버스 도구 모음의 테스트 및 라이브 모드 모두, 또는 각 활동의 속성 창에서 사용할 수 있는 **[!UICONTROL 로그]** 버튼을 통해 로그 및 작업에 액세스할 수 있습니다.
+로그 및 작업 모니터링은 오케스트레이션된 캠페인을 분석하고 제대로 실행되고 있는지 확인하는 중요한 단계입니다. 캔버스 도구 모음의 테스트 및 라이브 모드 모두, 또는 각 활동의 속성 창에서 사용할 수 있는 **[!UICONTROL 로그]** 버튼을 통해 로그 및 작업에 액세스할 수 있습니다.
 
 **[!UICONTROL 로그 및 작업]** 화면은 모든 사용자 액션과 발생한 오류를 기록하여 캠페인 실행에 대한 완전한 기록을 제공합니다.
 
