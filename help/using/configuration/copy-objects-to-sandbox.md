@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 4aaef970b76002c72e3c28f55078d96fdc3cd882
+source-git-commit: c90189d4b064e00bd2f2bdde67230aeb84dd97f6
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1595'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 사용자 지정 작업, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
 
-이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko)를 참조하세요.
+이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
 
 >[!NOTE]
 >
@@ -28,12 +28,13 @@ ht-degree: 4%
 
 복사 프로세스는 소스 샌드박스와 대상 샌드박스 간에 패키지 내보내기 및 가져오기를 통해 수행됩니다. 다음은 한 샌드박스에서 다른 샌드박스로 여정을 복사하는 일반적인 단계입니다.
 
-1. 소스 샌드박스에서 패키지로 내보낼 개체를 추가합니다.
-1. 패키지를 대상 샌드박스로 내보냅니다.
+1. [원본 샌드박스에서 패키지로 내보낼 개체를 추가합니다](#export)
+1. [패키지 게시](#publish)
+1. [Target 샌드박스에서 패키지 가져오기](#import)
 
 ## 내보낸 오브젝트 및 모범 사례 {#objects}
 
-Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템플릿 및 조각을 다른 샌드박스로 내보낼 수 있습니다. 다음 섹션에서는 각 객체 유형에 대한 정보와 모범 사례를 제공합니다.
+Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템플릿, 조각 및 기타 개체를 다른 샌드박스로 내보낼 수 있습니다. 다음 섹션에서는 각 객체 유형에 대한 정보와 모범 사례를 제공합니다.
 
 ### 일반 모범 사례 {#global}
 
@@ -43,26 +44,34 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
 
 * 랜딩 페이지는 현재 샌드박스 간 마이그레이션에 지원되지 않습니다. 여정을 다른 샌드박스로 복사할 때 여정 또는 이메일 콘텐츠의 랜딩 페이지에 대한 참조는 여전히 원래(소스) 샌드박스 랜딩 페이지 ID를 가리킵니다. 마이그레이션 후에는 대상(대상) 샌드박스의 올바른 랜딩 페이지 ID를 사용하도록 여정 및 이메일 콘텐츠의 모든 랜딩 페이지 참조를 수동으로 업데이트해야 합니다. [랜딩 페이지 만들기 및 게시](../landing-pages/create-lp.md)를 참조하세요.
 
++++ 여정
 
-### 여정 {#journeys}
+* **복사된 종속성** - 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
 
-* 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 이 [섹션](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko#abobe-journey-optimizer-objects)을(를) 참조하세요.
+* **수동 유효성 검사 권장** - 연결된 모든 요소가 대상 샌드박스에 복사되지 않습니다. 예를 들어 여정을 게시하기 전에 철저한 검사를 수행하는 것이 좋습니다. 이를 통해 잠재적인 누락된 오브젝트를 식별할 수 있습니다.
 
-* 연결된 모든 요소가 대상 샌드박스에 복사된다고 보장하지는 않습니다. 예를 들어 여정을 게시하기 전에 철저한 검사를 수행하는 것이 좋습니다. 이를 통해 잠재적인 누락된 오브젝트를 식별할 수 있습니다.
+* **초안 모드 및 고유성** - 대상 샌드박스의 복사된 개체가 고유하며, 기존 요소를 덮어쓸 위험이 없습니다. 여정과 여정 내의 모든 메시지는 초안 모드에서 가져옵니다. 이렇게 하면 Target 샌드박스에서 게시하기 전에 전체 유효성 검사를 수행할 수 있습니다.
 
-* Target 샌드박스에서 복사되는 객체는 고유하며, 기존 요소를 덮어쓸 위험이 없습니다. 여정과 여정 내의 모든 메시지는 초안 모드에서 가져옵니다. 이렇게 하면 Target 샌드박스에서 게시하기 전에 전체 유효성 검사를 수행할 수 있습니다.
+* **메타데이터** - 복사 프로세스는 여정 및 해당 여정의 개체에 대한 메타데이터만 복사합니다. 이 프로세스의 일부로 프로필 또는 데이터 세트 데이터가 복사되지 않습니다.
 
-* 복사 프로세스는 여정 및 해당 여정의 객체에 대한 메타데이터에만 복사합니다. 이 프로세스의 일부로 프로필 또는 데이터 세트 데이터가 복사되지 않습니다.
+* **사용자 지정 작업**
 
-### 사용자 정의 액션 {#custom-actions}
+   * 사용자 지정 작업을 내보낼 때 URL 구성 및 페이로드 매개 변수가 복사됩니다. 그러나 보안상의 이유로 인증 매개 변수는 복사되지 않고 대신 &quot;INSERT SECRET HERE&quot;로 대체됩니다. 상수 요청 헤더 및 쿼리 매개 변수 값도 &quot;INSERT SECRET HERE&quot;로 대체됩니다.
 
-* 사용자 지정 작업을 내보낼 때 URL 구성 및 페이로드 매개 변수가 복사됩니다. 그러나 보안상의 이유로 인증 매개 변수는 복사되지 않고 대신 &quot;INSERT SECRET HERE&quot;로 대체됩니다. 상수 요청 헤더 및 쿼리 매개 변수 값도 &quot;INSERT SECRET HERE&quot;로 대체됩니다.
+     특수 목적의 사용자 지정 작업([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage])이 여기에 포함됩니다.
 
-  특수 목적의 사용자 지정 작업([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage])이 여기에 포함됩니다.
+   * 여정을 다른 샌드박스에 복사할 때 가져오기 프로세스 중에 사용자 지정 작업에 대해 &quot;기존 사용&quot;을 선택하는 경우 선택하는 기존 사용자 지정 작업은 소스 사용자 지정 작업과 동일해야 합니다(예: 동일한 구성, 매개 변수 등). 그렇지 않으면 새 여정 사본에 캔버스에서 해결할 수 없는 오류가 발생합니다.
 
-* 여정을 다른 샌드박스에 복사할 때 가져오기 프로세스 중에 사용자 지정 작업에 대해 &quot;기존 사용&quot;을 선택하는 경우 선택하는 기존 사용자 지정 작업은 소스 사용자 지정 작업과 동일해야 합니다(예: 동일한 구성, 매개 변수 등). 그렇지 않으면 새 여정 사본에 캔버스에서 해결할 수 없는 오류가 발생합니다.
+<!--* **Data sources, field groups and events** - When copying a journey that uses events, data sources, or field groups, the import process automatically checks whether components with the same name and type already exist in the target sandbox.
 
-### 캠페인 {#campaigns}
+   * If a match is found, the existing components in the target sandbox are reused by the imported journey.
+   * If no match is found, the system creates new components.
+
+   This ensures that journeys relying on these elements remain functional after import, with minimal manual adjustment.
+-->
++++
+
++++ 캠페인
 
 캠페인은 프로필, 대상자, 스키마, 인라인 메시지, 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다. 그러나 다음 항목은 **복사되지 않습니다**.
 
@@ -77,15 +86,9 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
 * **실험 변형 및 설정**: 실험 변형 및 설정이 캠페인 복사 프로세스에 포함됩니다. 가져오기 후 Target 샌드박스에서 이러한 설정의 유효성을 검사합니다.
 * **통합 의사 결정**: 의사 결정 정책 및 의사 결정 항목이 내보내기와 가져오기에 지원됩니다. 대상 샌드박스에서 의사 결정 관련 종속성이 올바르게 매핑되었는지 확인합니다.
 
-### 콘텐츠 템플릿 {#content-templates}
++++
 
-* 콘텐츠 템플릿을 내보낼 때 중첩된 조각도 모두 함께 복사됩니다.
-
-* 콘텐츠 템플릿을 내보내면 경우에 따라 조각이 중복될 수 있습니다. 예를 들어 두 템플릿이 동일한 조각을 공유하고 별도의 패키지에 복사된 경우 두 템플릿 모두 대상 샌드박스에서 동일한 조각을 재사용해야 합니다. 중복을 방지하려면 가져오기 프로세스 중에 &quot;기존 사용&quot; 옵션을 선택합니다. [패키지 가져오기 방법 알아보기](#import)
-
-* 중복을 방지하려면 컨텐츠 템플릿을 단일 패키지로 내보내는 것이 좋습니다. 이를 통해 시스템에서 중복 제거를 효율적으로 관리할 수 있습니다.
-
-### 결정 {#decisioning}
++++ 결정
 
 * 아래 오브젝트는 Decisioning 오브젝트를 복사하기 전에 대상 샌드박스에 있어야 합니다.
 
@@ -95,15 +98,41 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
 
 * AI 모델이 있는 등급 수식의 샌드박스 사본은 현재 지원되지 않습니다.
 
+* 캠페인을 복사할 때 결정 항목(오퍼 항목)은 자동으로 복사되지 않습니다. &quot;패키지에 추가&quot; 옵션을 사용하여 개별적으로 복사해야 합니다.
+
+* 의사 결정 정책에 선택 전략이 있는 경우 의사 결정 항목을 별도로 추가해야 합니다. 수동/대체 결정 항목이 있는 경우 자동으로 직접 종속성으로 추가됩니다.
+
 * 결정 엔터티를 복사할 때는 결정 항목을 **이전**&#x200B;에 복사해야 합니다. 예를 들어, 먼저 컬렉션을 복사하고 새 샌드박스에 오퍼가 없다면 해당 새 컬렉션은 비어 있는 상태로 유지됩니다.
 
-### 조각 {#fragments}
+* 종속성(예: 스키마, 세그먼트)이 있는 엔티티를 복사할 때 엔티티에 대해 &quot;새로 만들기&quot;를 클릭하여 선택을 취소하고 종속 객체에 대해 &quot;기존 사용&quot; 옵션을 표시합니다. 추가적인 종속성을 사용하려면 계층 구조에서 이 단계를 더 반복해야 할 수 있습니다.
+
+  예: 캠페인을 가져올 때 규칙에 데이터스트림 스키마를 재사용하려면 DECISIONING_STRATEGY에 대해 &quot;새로 만들기&quot;를 클릭한 다음 DECISIONING_RULES에서 다시 &quot;새로 만들기&quot;를 클릭하여 데이터스트림 스키마에 대한 &quot;기존 사용&quot; 옵션을 표시합니다.
+
+* 데이터스트림 컨텍스트 스키마에 종속된 엔티티의 경우 데이터스트림이 미리 생성되었는지 확인하고 해당 데이터스트림에 대한 기존 스키마를 선택합니다.
+
+* 가져오는 동안 &quot;마침&quot;을 직접 클릭하면 모든 종속성이 새로 만들어집니다.
+
++++
+
++++ 콘텐츠 템플릿
+
+* 콘텐츠 템플릿을 내보낼 때 중첩된 조각도 모두 함께 복사됩니다.
+
+* 콘텐츠 템플릿을 내보내면 경우에 따라 조각이 중복될 수 있습니다. 예를 들어 두 템플릿이 동일한 조각을 공유하고 별도의 패키지에 복사된 경우 두 템플릿 모두 대상 샌드박스에서 동일한 조각을 재사용해야 합니다. 중복을 방지하려면 가져오기 프로세스 중에 &quot;기존 사용&quot; 옵션을 선택합니다. [패키지 가져오기 방법 알아보기](#import)
+
+* 중복을 방지하려면 컨텐츠 템플릿을 단일 패키지로 내보내는 것이 좋습니다. 이를 통해 시스템에서 중복 제거를 효율적으로 관리할 수 있습니다.
+
++++
+
++++ 조각
 
 * 조각에는 라이브, 초안 및 진행 중인 초안과 함께 라이브 등 여러 상태가 있을 수 있습니다. 조각을 내보낼 때 최신 초안 상태가 대상 샌드박스에 복사됩니다.
 
 * 조각을 내보낼 때 중첩된 조각도 모두 함께 복사됩니다.
 
-## 개체를 패키지로 추가{#export}
++++
+
+## 개체를 패키지로 추가 {#export}
 
 오브젝트를 다른 샌드박스로 복사하려면 먼저 소스 샌드박스에서 오브젝트를 패키지로 추가해야 합니다. 다음 단계를 수행하십시오.
 
@@ -119,10 +148,6 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
    * **새 패키지를 만듭니다**: 패키지 이름을 입력하십시오. 설명을 추가할 수도 있습니다.
 
 1. 이 단계를 반복하여 패키지와 함께 내보낼 모든 개체를 추가합니다.
-
->[!NOTE]
->
->여정 내보내기의 경우 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 스키마, 이벤트 및 작업)도 복사합니다. 여정 내보내기에 대한 자세한 내용은 [이 섹션](../building-journeys/copy-to-sandbox.md)을 참조하세요.
 
 ## 내보낼 패키지 게시 {#publish}
 
