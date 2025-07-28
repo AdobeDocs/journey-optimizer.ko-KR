@@ -113,7 +113,7 @@ ht-degree: 95%
    | 다음과 유사 | Contains 연산자와 유사하게 값에 % 와일드카드 문자를 삽입할 수 있습니다. | Last name (@lastName) like &#39;Jon%s&#39;. 와일드카드 문자가 “joker”로 작동하여 “Jones”와 같은 이름을 찾습니다. |
    | Not like | Contains 연산자와 유사하게 값에 % 와일드카드 문자를 삽입할 수 있습니다. | Last name (@lastName) not like &#39;Smi%h&#39;. 성이 ‘Smith’인 수신자는 반환되지 않습니다. |
 
-+++
+   +++
 
 1. **Value** 필드에서 예상 값을 정의합니다. 표현식 편집기를 통해 데이터베이스 및 도우미 함수의 필드를 사용하여 표현식을 수동으로 정의할 수도 있습니다. 이렇게 하려면 ![표현식 편집기 아이콘을 보여 주는 이미지](assets/do-not-localize/rule-builder-icon-editor.svg) 아이콘을 클릭합니다. [표현식을 편집하는 방법 알아보기](../orchestrated/edit-expressions.md)
 
@@ -123,7 +123,7 @@ ht-degree: 95%
 
    ![사전 설정 옵션을 보여 주는 이미지](assets/rule-builder-attribute-preset.png)
 
-+++
+   +++
 
 ### 연결된 테이블에 대한 사용자 정의 조건(1-1 및 1-N 링크){#links}
 
