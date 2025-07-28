@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e74b600a12413883ee6796a9df2583c1adbdf94c
+source-git-commit: c0b72e046720a667841b83752fe8bba63e572e95
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 62%
@@ -133,7 +133,7 @@ ht-degree: 62%
 <li>모든 이메일 클라이언트가 사용자 지정 다크 모드를 지원하는 것은 아닙니다. 또한 일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자신의 기본 다크 모드만 적용합니다. 두 경우 모두 이메일 Designer에서 정의한 사용자 지정 설정을 렌더링할 수 없습니다.</li>
 </ul>
 <P>이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -251,7 +251,7 @@ ht-degree: 62%
 
 **릴리스 일자**: 2025년 6월 18일
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#25-06-features}
 
