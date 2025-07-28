@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 87%
+source-wordcount: '998'
+ht-degree: 86%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 87%
 
 이 프로세스를 반복하여 오케스트레이션된 캠페인에서 수행하려는 작업에 따라 원하는 만큼 활동을 추가합니다. 두 활동 사이에 새 활동을 삽입할 수도 있습니다. 이렇게 하려면 활동 간 전환에서 **+** 버튼을 클릭하고 원하는 활동을 선택한 다음 오른쪽 창에서 구성합니다.
 
-각 활동 사이 전환의 이름을 개인화할 수 있습니다. 이렇게 하려면 전환을 선택하고 오른쪽 창에서 전환의 레이블을 변경합니다.
+각 활동 간에 전환 이름을 사용자 지정하는 옵션이 있습니다. 이렇게 하려면 전환을 선택하고 오른쪽 창에서 전환의 레이블을 변경합니다.
 
 ![](assets/canvas-transition.png)
 
@@ -84,7 +84,7 @@ ht-degree: 87%
 
 ![일시 중지 아이콘](assets/do-not-localize/activity-pause.svg) ![다시 시작 아이콘](assets/do-not-localize/activity-resume.svg) 활동을 일시 중지/다시 시작합니다. 오케스트레이션된 캠페인을 실행하면 일시 중지된 활동 지점에서 캠페인이 일시 중지됩니다. 여기에 해당하는 작업과 동일한 경로에서 해당 작업에 따라오는 모든 작업은 실행되지 않습니다.
 
-    캔버스의 모든 활동을 중단점으로 사용하여 캠페인 실행을 일시 중지할 수 있습니다. 즉, 캠페인은 이 활동까지만 실행된 다음 실행을 일시 중지합니다. 실행을 일시 중지하는 동안 세분화 엔진은 사용자가 미리 볼 수 있도록 임시 데이터를 유지합니다. 일시 중지된 활동 바로 전에 인바운드 전환을 선택하여 전송된 데이터를 볼 수 있습니다. 이 섹션에 대해 자세히 알아보세요. [Visual flow monitoring](../orchestrated/start-monitor-campaigns.md#flow).
+캔버스의 모든 활동을 중단점으로 사용하여 캠페인 실행을 일시 중지할 수 있습니다. 즉, 캠페인은 이 활동까지만 실행된 다음 실행을 일시 중지합니다. 실행을 일시 중지하는 동안 세분화 엔진은 사용자가 미리 볼 수 있도록 임시 데이터를 유지합니다. 일시 중지된 활동 바로 전에 인바운드 전환을 선택하여 전송된 데이터를 볼 수 있습니다. 이 섹션에 대해 자세히 알아보세요. [시각적 흐름 모니터링](../orchestrated/start-monitor-campaigns.md#flow).
 
 ![복사 아이콘](assets/do-not-localize/activity-copy.svg) 활동을 복사합니다. [활동을 복사하여 붙여 넣는 방법 알아보기](#copy)
 

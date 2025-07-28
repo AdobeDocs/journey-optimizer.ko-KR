@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1168'
 ht-degree: 77%
 
 ---
@@ -161,11 +161,15 @@ UNUSED IDs in BJ
 
 개인화 편집기 사용 방법에 대한 자세한 개요는 [개인화 시작](../../personalization/personalize.md)을 참조하세요.
 
-## 콘텐츠 확인 및 테스트
+<!--WAITING FOR PM's TEST TO UNHIDE
 
-콘텐츠가 생성되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 테스트 프로필이나 샘플 입력 데이터로 콘텐츠를 미리 보고 테스트합니다. [자세히 알아보기](../../content-management/preview-test.md)
+## Check and test your content
 
-![콘텐츠 시뮬레이션 버튼을 표시하는 이미지](../assets/channel-simulate.png)
+Once the content is created, use the **[!UICONTROL Simulate Content]** button to preview and test your content with test profiles or sample input data uploaded from a CSV / JSON file, or added manually. [Learn more](../../content-management/preview-test.md)
+
+![image showing the Simulate Content button](../assets/channel-simulate.png)
+
+-->
 
 ## 다음 단계 {#next}
 
