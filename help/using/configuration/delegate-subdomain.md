@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1906'
 ht-degree: 16%
 
 ---
@@ -29,9 +29,11 @@ ht-degree: 16%
 >title="하위 도메인 위임"
 >abstract="이메일 전송을 시작하려면 하위 도메인을 Adobe에 위임해야 합니다. 이 과정이 완료되면 DNS 레코드, 받은 편지함, 발신자, 회신 주소와 바운스 주소가 구성됩니다."
 
-도메인 이름 위임은 도메인 이름(기술적으로 DNS 영역)의 소유자가 그 하위 분할(기술적으로 하위 영역이라고 할 수 있는 하위 DNS 영역)을 다른 엔티티에 위임할 수 있는 방법입니다. 기본적으로 고객은 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다. [하위 도메인 위임](about-subdomain-delegation.md)에 대해 자세히 알아보기
+도메인 이름 위임은 도메인 이름(기술적으로 DNS 영역)의 소유자가 그 하위 분할(기술적으로 하위 영역이라고 할 수 있는 하위 DNS 영역)을 다른 엔티티에 위임할 수 있는 방법입니다. 기본적으로 고객은 &quot;example.com&quot; 영역을 처리하는 경우 하위 영역 &quot;marketing.example.com&quot;을 Adobe에 위임할 수 있습니다.
 
-기본적으로 [!DNL Journey Optimizer]에서는 **최대 10개의 하위 도메인**&#x200B;을 위임할 수 있습니다. 그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 부여된 하위 도메인 수에 대해 자세히 알아보려면 Adobe 담당자에게 문의하십시오.
+>[!NOTE]
+>
+>[!DNL Journey Optimizer]이 섹션[에서 ](about-subdomain-delegation.md)에서 사용할 수 있는 하위 도메인 위임 및 다른 메서드에 대해 자세히 알아보세요.
 
 다음 중 하나를 수행할 수 있습니다.
 
@@ -40,9 +42,19 @@ ht-degree: 16%
 
 **전체 하위 도메인 위임**&#x200B;이 권장되는 방법입니다. [이 섹션](about-subdomain-delegation.md#subdomain-delegation-methods)에서 서로 다른 하위 도메인 구성 메서드의 차이점에 대해 자세히 알아보세요.
 
->[!CAUTION]
->
->[!DNL Journey Optimizer]에서는 하위 도메인의 병렬 제출이 지원되지 않습니다. 다른 하위 도메인이 **[!UICONTROL 처리 중]** 상태일 때 위임할 하위 도메인을 제출하려고 하면 오류 메시지가 표시됩니다.
+## 가드레일 {#guardrails}
+
+[!DNL Journey Optimizer]에서 하위 도메인을 설정할 때는 아래에 설명된 보호 기능 및 권장 사항을 따르십시오.
+
+* 기본적으로 [!DNL Journey Optimizer]에서는 **최대 10개의 하위 도메인**&#x200B;을 위임할 수 있습니다. 그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 부여된 하위 도메인 수에 대해 자세히 알아보려면 Adobe 담당자에게 문의하십시오.
+
+* [!DNL Journey Optimizer]에서는 하위 도메인의 병렬 제출이 지원되지 않습니다. 다른 하위 도메인이 **[!UICONTROL 처리 중]** 상태일 때 위임할 하위 도메인을 제출하려고 하면 오류 메시지가 표시됩니다.
+
+* 잘못된 하위 도메인을 Adobe에 위임할 수 없습니다. marketing.yourcompany.com과 같이 조직에서 소유한 올바른 하위 도메인을 입력해야 합니다.
+
+* 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.
+
+* 상위 도메인과 하위 도메인은 모두 위임할 수 없습니다. 예를 들어 subdomain.domain.com을 위임한 경우 email.subdomain.domain.com을 위임할 수 없습니다. 마찬가지로 email.subdomain.domain.com을 위임한 경우 subdomain.domain.com을 위임할 수 없습니다.
 
 ## 위임된 하위 도메인 액세스 {#access-delegated-subdomains}
 
@@ -69,7 +81,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->하위 도메인 구성은 모든 환경에 공통됩니다. 따라서 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
+>하위 도메인 구성은 **모든 환경에 공통됩니다**. 따라서 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
 
 ## Journey Optimizer에서 하위 도메인 설정 {#set-up-subdomain}
 
@@ -79,19 +91,14 @@ ht-degree: 16%
 >abstract="새 하위 도메인을 Adobe에 완전히 위임하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. CNAME을 사용하여 하위 도메인을 위임하려면 SSL CDN URL 인증 레코드도 복사하여 붙여넣어야 합니다. 확인이 완료되면 메시지 게재에 하위 도메인을 사용할 준비가 되었습니다."
 
 [!DNL Journey Optimizer]에서 새 하위 도메인을 설정하려면 아래 단계를 따르십시오.
-
+<!--
 >[!NOTE]
 >
->이 섹션에서는 전체 위임 또는 CNAME 메서드를 사용하여 하위 도메인을 설정하는 방법을 설명합니다. 사용자 지정 위임 방법은 [이 섹션](#setup-custom-subdomain)에 자세히 설명되어 있습니다.
-
+>This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).-->
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL 하위 도메인]** 메뉴에 액세스한 다음 **[!UICONTROL 하위 도메인 설정]**&#x200B;을 클릭하세요.
 
    <!--![](assets/subdomain-delegate.png)-->
-
-   >[!CAUTION]
-   >
-   >하위 도메인 구성은 **모든 환경에 공통됩니다**. 따라서 하위 도메인을 수정하면 프로덕션 샌드박스에도 영향을 줍니다.
 
 1. **[!UICONTROL 메서드 설정]** 섹션에서 다음 중 하나를 선택합니다.
 
@@ -105,14 +112,14 @@ ht-degree: 16%
 1. 위임할 하위 도메인의 이름을 지정합니다.
 
    ![](assets/subdomain-name.png)
+<!--
+    >[!CAUTION]
+    >
+    >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
+    >
+    >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
-   >[!CAUTION]
-   >
-   >잘못된 하위 도메인을 Adobe에 위임할 수 없습니다. marketing.yourcompany.com과 같이 조직에서 소유한 올바른 하위 도메인을 입력해야 합니다.
-   >
-   >동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.
-
-   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+    Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. 전용 섹션에서 **[!UICONTROL DMARC 레코드]**&#x200B;을(를) 설정합니다. 하위 도메인에 기존 [DMARC 레코드](dmarc-record.md)이 있고 [!DNL Journey Optimizer]에서 가져오는 경우 동일한 값을 사용하거나 필요에 따라 변경할 수 있습니다. 값을 추가하지 않으면 기본값이 사용됩니다. [DMARC 레코드를 관리하는 방법 알아보기](dmarc-record.md#set-up-dmarc)
 
@@ -266,4 +273,4 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 CNAME을 사용하여 Adobe 관련 레코드를 가리키도록 하위 도메인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342238?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

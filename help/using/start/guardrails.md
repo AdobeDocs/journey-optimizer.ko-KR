@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 598cffda92b27f89a752d6fb0ebc032f9017c43e
-workflow-type: ht
-source-wordcount: '2541'
-ht-degree: 100%
+source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
+workflow-type: tm+mt
+source-wordcount: '2497'
+ht-degree: 97%
 
 ---
 
@@ -85,11 +85,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ## 하위 도메인 가드레일 {#subdomain-guardrails}
 
-기본적으로,[!DNL Journey Optimizer] 총 10개까지 하위 도메인을 위임할 수 있습니다(이메일 및 웹 채널 모두 포함).
-
-그러나 라이선스 계약에 따라 최대 100개의 하위 도메인을 위임할 수 있습니다. 부여된 하위 도메인 수에 대해 자세히 알아보려면 Adobe 담당자에게 문의하십시오.
-
-[이 페이지](../configuration/delegate-subdomain.md)에서 도메인 위임에 대해 자세히 알아보십시오.
+Journey Optimizer의 하위 도메인 위임에 적용되는 보호 기능 및 제한 사항에 대해서는 [이 페이지](../configuration/delegate-subdomain.md#guardrails)에 자세히 설명되어 있습니다.
 
 ## 조각 가드레일 {#fragments-guardrails}
 
