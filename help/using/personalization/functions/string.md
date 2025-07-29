@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1859'
 ht-degree: 9%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 9%
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
-## 다음 포함 {#contains}
+## 다음을 포함 {#contains}
 
 `contains` 함수는 문자열에 지정된 하위 문자열이 포함되어 있는지 확인하는 데 사용합니다.
 
@@ -101,7 +101,7 @@ ht-degree: 9%
   {%= contains(profile.person.emailAddress,"2010@gm") %}
   ```
 
-## 포함하지 않음{#doesNotContain}
+## 다음을 포함하지 않음{#doesNotContain}
 
 `doesNotContain` 함수는 문자열에 지정된 하위 문자열이 포함되어 있지 않은지 확인하는 데 사용합니다.
 
@@ -209,7 +209,7 @@ doesNotEndWith(person.emailAddress,".com")
 ```
 
 
-## 같음{#equals}
+## 다음과 같음{#equals}
 
 `equals` 함수는 문자열이 지정된 문자열과 같은지 대/소문자를 구분합니다.
 
@@ -455,7 +455,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= length(profile.homeAddress.city) %}
 ```
 
-## 좋아요{#like}
+## 다음과 유사{#like}
 
 `like` 함수는 문자열이 지정된 패턴과 일치하는지 확인하는 데 사용합니다.
 
@@ -665,13 +665,34 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 오른쪽 트림 {#rightTrim}
 
-`rightTrim` 함수를 사용하면 문자열 끝에서 공백이 제거됩니다.
+`rightTrim` 함수는 문자열 끝에서 공백을 제거합니다.
 
 **구문**
 
 ```sql
 {%= rightTrim(string) %}
 ```
+
+## SHA256 {#sha256}
+
+`SHA256` 함수는 문자열의 sha256 해시를 계산하고 반환합니다.
+
+**구문**
+
+```sql
+{{
+
+{%= sha256(string) %}
+: string}}
+```
+
+**예**
+
+```sql
+{%= sha256("Eliechxh")%}
+```
+
+반환: `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
 
 ## 분할 {#split}
 

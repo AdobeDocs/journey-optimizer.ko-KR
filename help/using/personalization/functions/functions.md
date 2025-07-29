@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2399'
 ht-degree: 27%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 27%
 
 [!DNL Journey Optimizer] 템플릿 언어를 사용하여 계산, 데이터 형식 지정 또는 전환, 조건 등 데이터에 대한 작업을 수행하고, 개인화의 컨텍스트에서 이를 조작합니다. [이 페이지](../personalization-syntax.md)에서 개인화 구문 지침을 알아보세요.
 
-➡️[이 비디오에서 도우미 함수를 사용하는 방법을 알아보세요](#video)
+➡️ [이 비디오에서 도우미 함수를 사용하는 방법에 대해 알아보세요](#video)
 
 템플릿 언어는 아래와 같이 개인화 편집기의 개인화 드롭다운 목록에서 사용할 수 있는 도우미 함수에서 활용됩니다.
 
@@ -44,7 +44,7 @@ ht-degree: 27%
         <td><a href="aggregation.md#average">평균</a></td><td>이 함수는 배열에서 선택한 모든 값의 산술 평균을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">계수</a></td><td>이 함수는 특정 배열에서 요소의 수를 반환합니다.</td>
+        <td><a href="aggregation.md#count">Count</a></td><td>이 함수는 특정 배열에서 요소의 수를 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-only-null">null만 계산</a></td><td>이 함수는 목록의 null 값 숫자를 계산합니다.</td>
@@ -83,13 +83,13 @@ ht-degree: 27%
         <td><a href="aggregation.md#min">최소</a></td><td>이 함수는 배열에서 선택한 모든 값 중 가장 작은 값을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">안에 없음</a></td><td>이 함수는 항목이 배열의 멤버인지 또는 목록의 멤버가 아닌지 확인합니다.</td>
+        <td><a href="arrays-list.md#notin">다음에 없음</a></td><td>이 함수는 항목이 배열의 멤버인지 또는 목록의 멤버가 아닌지 확인합니다.</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#subset">하위 집합</a></td><td>이 함수는 특정 배열(배열 A)이 다른 배열(배열 B)의 하위 집합인지 여부, 즉 배열 A의 모든 요소가 배열 B의 요소인지 여부를 결정합니다</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#sum">합계</a></td><td>이 함수는 배열에서 선택한 모든 값의 합계를 반환합니다.</td>
+        <td><a href="aggregation.md#sum">Sum</a></td><td>이 함수는 배열에서 선택한 모든 값의 합계를 반환합니다.</td>
     </tr>
     <tr>
     <td><a href="arrays-list.md#superset">상위 집합</a></td><td>이 함수는 특정 배열(배열 A)이 다른 배열(배열 B)의 상위 집합인지, 즉 배열 A에 배열 B의 모든 요소가 포함되어 있는지 확인합니다</td>
@@ -287,10 +287,10 @@ ht-degree: 27%
         <td><a href="string.md#concat">Concat</a></td><td>이 함수는 2개의 문자열을 하나로 결합하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#contains">다음 포함</a></td><td>이 함수는 문자열에 지정된 하위 문자열이 포함되어 있는지 확인하는 데 사용합니다.</td>
+        <td><a href="string.md#contains">다음을 포함</a></td><td>이 함수는 문자열에 지정된 하위 문자열이 포함되어 있는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotContain">포함하지 않음</a></td><td>이 함수는 문자열에 지정된 하위 문자열이 포함되어 있지 않은지 확인하는 데 사용합니다.</td>
+        <td><a href="string.md#doesNotContain">다음을 포함하지 않음</a></td><td>이 함수는 문자열에 지정된 하위 문자열이 포함되어 있지 않은지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotEndWith">다음으로 끝나지 않음</a></td><td>이 함수는 문자열이 지정된 하위 문자열로 끝나지 않은지 확인하는 데 사용합니다.</td>
@@ -306,7 +306,7 @@ ht-degree: 27%
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">같음</a></td><td>이 함수는 대/소문자 구분을 통해 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.</td>
+        <td><a href="string.md#equals">다음과 같음</a></td><td>이 함수는 대/소문자 구분을 통해 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#equalsIgnoreCase">대/소문자 무시와 같음</a></td><td>이 함수는 대/소문자를 구분하지 않고 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.</td>
@@ -345,7 +345,7 @@ ht-degree: 27%
         <td><a href="string.md#length">길이</a></td><td>이 함수는 문자열 또는 표현식의 문자 수를 가져오는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">좋아요</a></td><td>이 함수는 문자열이 지정된 패턴과 일치하는지 확인하는 데 사용합니다.</td>
+        <td><a href="string.md#like">다음과 유사</a></td><td>이 함수는 문자열이 지정된 패턴과 일치하는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#lower">소문자</a></td><td>이 함수는 문자열을 소문자로 변환합니다.</td>
@@ -376,6 +376,9 @@ ht-degree: 27%
     </tr>
     <tr>
         <td><a href="string.md#rightTrim">오른쪽 트림</a></td><td>이 함수는 문자열의 끝에서 공백을 제거합니다. </td>
+    </tr>
+    <tr>
+        <td><a href="string.md#sha256">SHA256</a></td><td>이 함수는 문자열의 sha256 해시를 계산하고 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#split">분할</a></td><td>이 함수는 특정 문자로 문자열을 분할하는 데 사용합니다.</td>
@@ -493,10 +496,10 @@ ht-degree: 27%
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">같음</a></td><td>이 작업은 값이 같은지 확인합니다.</td>
+        <td><a href="operators.md#equals">다음과 같음</a></td><td>이 작업은 값이 같은지 확인합니다.</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">보다 큼</a></td><td>이 연산자는 첫 번째 값이 두 번째 값보다 큰지 확인합니다</td>
+        <td><a href="operators.md#greaterthan">다음보다 큼</a></td><td>이 연산자는 첫 번째 값이 두 번째 값보다 큰지 확인합니다</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthanorequal">크거나 같음</a></td><td>이 연산자는 첫 번째 값이 두 번째 값보다 크거나 같은지 확인합니다</td>
@@ -513,4 +516,4 @@ ht-degree: 27%
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

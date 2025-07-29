@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 17%
+source-wordcount: '968'
+ht-degree: 16%
 
 ---
 
@@ -222,4 +222,8 @@ ht-degree: 17%
 
 - **채널 - 인앱**
    - **인앱 키/값 쌍** - 인앱 메시지를 사용하여 메시지 페이로드에 사용자 지정 변수를 포함하도록 키 및 값 쌍을 정의할 수 있습니다. 이러한 키-값 쌍을 사용하면 특정 구성 및 사용 사례에 따라 추가 데이터를 전달할 수 있습니다.
+  <!-- [Read more](../FILE.md) -->
+
+- **개인화**
+   - 새로운 도우미 함수인 &quot;SHA256&quot;이 개인화 편집기에 추가되었습니다. 이 함수는 문자열의 sha256 해시를 계산하고 반환하는 데 사용합니다.
   <!-- [Read more](../FILE.md) -->
