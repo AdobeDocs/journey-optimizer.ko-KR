@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5c4d3f0b143313ecf761a93914150352e8a9f981
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 19%
+source-wordcount: '1428'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 19%
 
 조각을 관리하려면 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴에서 조각 목록에 액세스하십시오.
 
-[조각으로 저장](#save-as-fragment) 옵션을 사용하여 **[!UICONTROL 조각]** 메뉴[&#128279;](#create-fragments)의 현재 샌드박스에서 만든 모든 조각이 표시됩니다.
+[조각으로 저장&#x200B;**[!UICONTROL 옵션을 사용하여]**&#x200B;조각](#create-fragments) 메뉴[의 ](#save-as-fragment)현재 샌드박스에서 만든 모든 조각이 표시됩니다.
 
 왼쪽 창에서 조각을 폴더로 구성할 수 있습니다. 기본적으로 모든 조각이 표시됩니다. 폴더를 선택할 때는 선택한 폴더에 포함된 조각과 폴더만 표시됩니다. [자세히 알아보기](#folders)
 
@@ -113,7 +113,7 @@ ht-degree: 19%
 
 >[!CAUTION]
 >
->**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 **초안** 상태입니다. 이 조각을 변경할 경우 해당 조각을 게시하여 **라이브**&#x200B;로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 [조각 게시](../administration/ootb-product-profiles.md#content-library-manager) 사용자 권한이 필요합니다.
+>**초안** 및 **라이브** 상태가 2024년 6월 Journey Optimizer 릴리스와 함께 도입되었으므로 이 릴리스 전에 만들어진 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 이 조각을 변경할 경우 해당 조각을 게시하여 **라이브**&#x200B;로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 [조각 게시](../administration/ootb-product-profiles.md#content-library-manager) 사용자 권한이 필요합니다.
 
 ## 조각 편집 {#edit-fragments}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 12%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 12%
 [!DNL Journey Optimizer]에서 콘텐츠를 편집할 때 나중에 다시 사용할 수 있도록 콘텐츠의 전부 또는 일부를 조각으로 저장할 수 있습니다. 콘텐츠를 [이메일 Designer에서](#save-as-visual-fragment) 또는 [식 편집기에서](#save-as-expression-fragment) 조각으로 저장할 수 있습니다.
 
 >[!NOTE]
+>
+>[컨텍스트 특성](../personalization/personalization-build-expressions.md)은(는) 조각에서 지원되지 않습니다.
 >
 >여정 또는 캠페인에서 추적이 활성화된 경우, 링크가 저장된 조각에 있고 이 조각을 메시지에 사용하는 경우 이러한 링크는 메시지에 포함된 다른 모든 링크와 같이 추적됩니다. [링크 및 추적에 대해 자세히 알아보기](../email/message-tracking.md)
 
@@ -37,7 +39,7 @@ ht-degree: 12%
    >
    >시각적 조각은 100KB를 초과할 수 없습니다.
 
-1. **[!UICONTROL 조각으로 저장]** 화면이 표시됩니다. 여기에서 개인화 필드 및 다이내믹 콘텐츠를 포함하여 조각에 포함할 요소를 선택합니다. 컨텍스트 속성은 조각에서 지원되지 않습니다.
+1. **[!UICONTROL 조각으로 저장]** 화면이 표시됩니다. 여기에서 개인화 필드 및 다이내믹 콘텐츠를 포함하여 조각에 포함할 요소를 선택합니다.
 
    ![](assets/fragment-save-as-screen.png)
 

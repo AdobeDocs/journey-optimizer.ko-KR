@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 조각은 [!DNL Journey Optimizer] 캠페인 및 여정에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능을 사용하면 마케팅 사용자가 개선된 디자인 프로세스에서 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다. [조각을 만들고 관리하는 방법을 알아보세요](../content-management/fragments.md).
 
-➡️[이 비디오에서 조각을 관리, 작성 및 사용하는 방법을 알아봅니다](../content-management/fragments.md#video-fragments)
+➡️ [이 비디오에서 조각을 관리, 작성 및 사용하는 방법을 알아봅니다.](../content-management/fragments.md#video-fragments)
 
 ## 표현식 조각 사용 {#use-expression-fragment}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >콘텐츠에 **초안** 또는 **라이브** 조각을 추가할 수 있습니다. 하지만 초안 상태의 조각을 사용 중인 경우에는 여정 또는 캠페인을 활성화할 수 없습니다. 여정 또는 캠페인 게시 시 초안 조각에 오류가 표시되며 이를 승인해야 게시할 수 있습니다.
+   >콘텐츠에 **초안** 또는 **라이브** 조각을 추가할 수 있습니다. 그러나 **초안** 상태의 조각을 사용 중인 경우에는 여정 또는 캠페인을 활성화할 수 없습니다. 여정 또는 캠페인 게시 시 초안 조각에 오류가 표시되며 이를 승인해야 게시할 수 있습니다.
 
 1. 조각 ID가 추가되면 해당 식 조각을 열고 인터페이스에서 [편집](../content-management/fragments.md#edit-fragments)하면 변경 내용이 동기화됩니다. 해당 조각 ID를 포함하는 모든 초안 또는 라이브 여정/캠페인에 자동으로 전파됩니다.
 

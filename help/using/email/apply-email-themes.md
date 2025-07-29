@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 7%
+source-wordcount: '832'
+ht-degree: 6%
 
 ---
 
@@ -53,19 +53,19 @@ Key Benefits:
 
 * 처음부터 이메일을 만들 때는 테마를 사용하여 콘텐츠 작성을 시작하도록 선택하여 내 브랜드 및 디자인에 맞는 특정 스타일을 빠르게 적용할 수 있습니다.
 
-  클래식 모드를 선택하면 이메일을 다시 설정하지 않는 한 테마를 적용할 수 없습니다.
+  수동 스타일 모드를 선택하면 이메일을 다시 설정하지 않는 한 테마를 적용할 수 없습니다.
 
-* [조각](../content-management/fragments.md)은(는) 테마와 클래식 모드 간에 상호 호환되지 않습니다.
+* [조각](../content-management/fragments.md)은(는) 테마 사용 모드와 수동 스타일 지정 모드 간에 서로 호환되지 않습니다.
 
-  테마가 적용되는 콘텐츠에서 조각을 사용할 수 있으려면 이 조각을 테마 모드에서 만들어야 합니다.
+  테마가 적용되는 콘텐츠에서 조각을 사용할 수 있으려면 테마 사용 모드에서 이 조각을 만들어야 합니다.
 
 * HTML에서 만든 콘텐츠를 사용하는 경우 [호환성 모드](existing-content.md)가 되며 이 콘텐츠에 테마를 적용할 수 없습니다.
 
-  테마를 포함하여 이메일 Designer의 모든 기능을 완전히 활용하려면 테마 모드에서 새 콘텐츠를 만들거나 가져온 HTML 콘텐츠를 변환해야 합니다. [자세히 알아보기](existing-content.md)
+  테마를 포함하여 이메일 Designer의 모든 기능을 완전히 활용하려면 테마 사용 모드에서 새 콘텐츠를 만들거나 가져온 HTML 콘텐츠를 변환해야 합니다. [자세히 알아보기](existing-content.md)
 
-<!--If using a content created in Classic mode or HTML, you cannot apply themes to this content. You must create a new content in Theme mode.
+<!--If using a content created in Manual Styling mode or HTML, you cannot apply themes to this content. You must create a new content in Use Themes mode.
 
-If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Classic mode, the rendering may not be optimal.-->
+If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Manual Styling mode, the rendering may not be optimal.-->
 
 ## 테마 만들기 {#create-and-edit-themes}
 
@@ -127,15 +127,15 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    * 기본 제공 [전자 메일 템플릿](use-email-templates.md)을(를) 선택하여 전자 메일 Designer을 엽니다. 각 템플릿에 해당하는 기본 테마는 자동으로 적용됩니다.
 
-   * [새로운 콘텐츠를 처음부터 디자인하고](content-from-scratch.md) **[!UICONTROL 테마]**&#x200B;를 선택하여 미리 정의된 스타일 테마로 시작합니다.
+   * [새로운 콘텐츠를 처음부터 디자인하고](content-from-scratch.md) **[!UICONTROL 테마 사용]을 선택하여 미리 정의된 스타일 테마로 시작합니다.**
 
      ![](assets/theme-from-scratch.png)
 
      >[!CAUTION]
      >
-     >클래식 모드를 선택하면 이메일을 다시 설정하지 않는 한 테마를 적용할 수 없습니다.
+     >수동 스타일 모드를 선택하면 이메일을 다시 설정하지 않는 한 테마를 적용할 수 없습니다.
      >
-     >테마 모드에서 [조각](../content-management/fragments.md)을(를) 사용하려면 이 조각은 테마 모드를 사용하여 직접 만들었어야 합니다.
+     >테마 사용 모드에서 [조각](../content-management/fragments.md)을(를) 사용하려면 이 조각은 테마 사용 모드를 사용하여 직접 만들었어야 합니다.
 
 1. 이메일 Designer에서 오른쪽 레일의 **[!UICONTROL 테마]** 단추를 클릭합니다. 기본 테마 또는 템플릿의 테마가 표시됩니다. 이 테마의 두 색상 변형 간을 전환할 수 있습니다.
 

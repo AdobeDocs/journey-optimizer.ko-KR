@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '765'
 ht-degree: 13%
 
 ---
@@ -63,6 +63,12 @@ ht-degree: 13%
 
 조각의 속성을 구성하면 생성 중인 조각 유형에 따라 이메일 Designer 또는 개인화 편집기가 열립니다.
 
+>[!NOTE]
+>
+>[컨텍스트 특성](../personalization/personalization-build-expressions.md)은(는) 조각 내에서 지원되지 않습니다.
+>
+>여정 또는 캠페인에서 추적이 활성화되면 조각에 링크를 추가하고 이 조각을 메시지에 사용하는 경우 메시지에 포함된 다른 모든 링크와 같이 이러한 링크가 추적됩니다. [링크 및 추적에 대해 자세히 알아보기](../email/message-tracking.md)
+
 * 시각적 조각의 경우 여정 또는 캠페인 내의 이메일에 대해 수행하는 것과 동일한 방식으로 콘텐츠를 필요에 따라 편집합니다. [자세히 알아보기](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
@@ -73,15 +79,11 @@ ht-degree: 13%
 
   >[!CAUTION]
   >
-  >조각은 테마와 클래식 모드 간에 상호 호환되지 않습니다. 테마를 적용할 콘텐츠에서 조각을 사용할 수 있으려면 테마 모드에서 이 조각을 만들어야 합니다. [테마에 대해 자세히 알아보기](../email/apply-email-themes.md)
+  >테마 사용 과 수동 스타일 모드 간에는 조각이 상호 호환되지 않습니다. 테마를 적용할 콘텐츠에서 조각을 사용할 수 있으려면 테마 사용 모드에서 이 조각을 만들어야 합니다. [테마에 대해 자세히 알아보기](../email/apply-email-themes.md)
 
 * 표현식 조각의 경우 [!DNL Journey Optimizer] 개인화 편집기와 모든 개인화 및 작성 기능을 활용하여 조각 콘텐츠를 작성합니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
-
->[!NOTE]
->
->여정 또는 캠페인에서 추적이 활성화되면 조각에 링크를 추가하고 이 조각을 메시지에 사용하는 경우 메시지에 포함된 다른 모든 링크와 같이 이러한 링크가 추적됩니다. [링크 및 추적에 대해 자세히 알아보기](../email/message-tracking.md)
 
 콘텐츠가 준비되면 **[!UICONTROL 저장]** 단추를 클릭합니다.
 
