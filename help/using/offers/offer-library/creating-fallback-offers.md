@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '337'
 ht-degree: 4%
 
 ---
@@ -44,6 +44,10 @@ ht-degree: 4%
 
    ![](../assets/fallback_content.png)
 
+   >[!CAUTION]
+   >
+   >대체 오퍼에는 [결정](../offer-activities/create-offer-activities.md) 내에서 사용된 모든 표현이 포함되어야 합니다. 예를 들어 의사 결정에 5개의 오퍼가 있고 각 오퍼에 다른 표현이 있는 경우 대체 오퍼에 5개의 표현이 포함되어야 합니다.
+
 1. 대체 오퍼의 표시가 추가되면 요약이 표시됩니다. 모든 것이 올바르게 구성되어 있고 대체 오퍼를 고객에게 제공할 준비가 되었으면 **[!UICONTROL 마침]**&#x200B;을 클릭한 다음 **[!UICONTROL 저장 및 승인]**&#x200B;을 선택하십시오.
 
    대체 오퍼를 초안으로 저장하여 나중에 편집하고 승인할 수도 있습니다.
@@ -58,5 +62,5 @@ ht-degree: 4%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341359?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

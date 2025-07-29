@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
-source-wordcount: '2511'
-ht-degree: 8%
+source-wordcount: '2549'
+ht-degree: 7%
 
 ---
 
@@ -312,15 +312,19 @@ ht-degree: 8%
 >title="대체 제안 추가"
 >abstract="결정 범위를 정의한 후에는 오퍼 자격 규칙 및 제약 조건을 충족하지 못하는 고객에게 최후의 수단으로 제공되는 대체 제안을 정의합니다."
 
-결정 범위를 정의한 후에는 오퍼 자격 규칙 및 제약 조건을 충족하지 못하는 고객에게 최후의 수단으로 제공되는 대체 제안을 정의합니다.
+결정 범위를 정의한 후 오퍼 자격 규칙 및 제약 조건과 일치하지 않는 고객에게 마지막 수단으로 제공할 [대체 오퍼](../offer-library/creating-fallback-offers.md)를 정의합니다.
 
-이렇게 하려면 결정에 정의된 배치에 사용할 수 있는 대체 오퍼 목록에서 선택한 후 **[!UICONTROL 다음]**&#x200B;을(를) 클릭합니다.
+이렇게 하려면 결정에 정의된 배치에 사용할 수 있는 대체 오퍼 목록에서 선택합니다.
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->**[!UICONTROL 오퍼 라이브러리 열기]** 링크를 클릭하여 새 탭에 오퍼 목록을 표시할 수 있습니다.
+>대체 오퍼에는 의사 결정 내에서 사용되는 모든 표현이 포함되어야 합니다. 예를 들어 의사 결정에 5개의 오퍼가 있고 각 오퍼에 다른 표현이 있는 경우 대체 오퍼에 5개의 표현이 포함되어야 합니다.
+
+선택한 후 **[!UICONTROL 다음]**&#x200B;을 클릭하세요.
+
+**[!UICONTROL 오퍼 라이브러리 열기]** 링크를 클릭하여 새 탭에 오퍼 목록을 표시할 수 있습니다.
 
 ## 결정 검토 및 저장 {#review}
 
@@ -401,6 +405,6 @@ ht-degree: 8%
 
 의사 결정 관리에서 오퍼 활동을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/346696?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 
