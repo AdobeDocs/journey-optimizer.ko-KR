@@ -180,6 +180,6 @@ WhatsApp API 자격 증명이 성공적으로 생성되면 다음 단계에서 �
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470275/?learn=on&captions=kor)
 
 +++
