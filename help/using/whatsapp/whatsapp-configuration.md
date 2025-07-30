@@ -6,28 +6,15 @@ description: Journey Optimizer에서 WhatsApp 메시지를 보내도록 환경�
 feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 9af09d694f58d169dcf4448562129ed0b37f35df
+source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 4%
+source-wordcount: '823'
+ht-degree: 13%
 
 ---
 
 # WhatsApp 구성 시작 {#whatsapp-config}
-
->[!BEGINSHADEBOX]
-
-**목차**
-
-* [WhatsApp 메시지 시작](get-started-whatsapp.md)
-* **[WhatsApp 구성 시작](whatsapp-configuration.md)**
-* [WhatsApp 메시지 만들기](create-whatsapp.md)
-* [WhatsApp 메시지 확인 및 보내기](send-whatsapp.md)
-
->[!ENDSHADEBOX]
 
 WhatsApp 메시지를 보내기 전에 Adobe Journey Optimizer 환경을 구성하고 WhatsApp 계정과 연결해야 합니다. 다음을 수행하십시오.
 
@@ -43,14 +30,14 @@ WhatsApp 메시지를 보내기 전에 Adobe Journey Optimizer 환경을 구성�
 
 1. 아래에 자세히 설명된 대로 API 자격 증명을 구성합니다.
 
-   * **API 토큰**: API 토큰을 입력하십시오. [메타 설명서](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)에서 자세히 알아보기
+   * **API 토큰**: API 토큰을 입력하십시오. [메타 설명서](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)에서 자세히 알아보기
    * **비즈니스 계정 ID**: 비즈니스 포트폴리오와 관련된 고유 번호를 입력하십시오. 자세한 내용은 [메타 설명서](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)를 참조하세요.
 
    ![](assets/whatsapp-api.png)
 
 1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
-1. WhatsApp API 자격 증명에 연결할 **비즈니스 계정**&#x200B;을(를) 선택하십시오.
+1. WhatsApp API 자격 증명에 연결할 **WhatsApp 비즈니스 계정**&#x200B;을(를) 선택하십시오.
 
    ![](assets/whatsapp-api-2.png)
 
@@ -69,67 +56,82 @@ WhatsApp 메시지를 보내기 전에 Adobe Journey Optimizer 환경을 구성�
 
 1. API 자격 증명 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
-API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 채널 구성을 만들어야 합니다. [자세히 알아보기](#whatsapp-configuration)
+API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 웹후크를 만들어야 합니다. [자세히 알아보기](#whatsapp-webhook)
 
-## Webhook 만들기 {#WhatsApp-webhook}
+## 웹후크 만들기 {#WhatsApp-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
->title="인바운드 키워드 범주"
->abstract="<b>옵트인</b>: 사용자가 구독하면 정의된 자동 응답을 보냅니다. <br/><b>옵트아웃</b>: 사용자가 가입 해지하면 정의된 자동 응답을 보냅니다. <br/><b>도움말</b>: 사용자가 도움말이나 지원을 요청하면 정의된 자동 응답을 보냅니다. <br/><b>기본값</b>: 일치하는 키워드가 없을 때 대체 자동 응답을 보냅니다."
+>title="인바운드 키워드 카테고리"
+>abstract="<b>옵트인</b>: 사용자가 구독하면 정의된 자동 응답이 전송됩니다. <br/><b>옵트아웃</b>: 사용자가 구독을 취소하면 정의된 자동 응답이 전송됩니다. <br/><b>도움말</b>: 사용자가 도움이나 지원을 요청하면 정의된 자동 응답을 보냅니다. <br/><b>기본값</b>: 키워드와 일치하는 항목이 없을 때 대체 자동 응답을 보냅니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
->title="키워드 입력"
+>title="키워드를 입력하십시오."
 >abstract="사용자가 텍스트를 입력한 내용에 따라 특정 자동 응답을 트리거하기 위한 키워드를 정의할 수 있습니다. 키워드는 대/소문자를 구분하지 않습니다. 예를 들어 stop 및 STOP은 동일하게 처리됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
 >title="콜백 URL"
->abstract="이 개체에 대한 유효성 검사 요청 및 웹후크 알림이 지정된 URL로 전송됩니다."
+>abstract="이 개체에 대한 유효성 검사 요청과 웹후크 알림은 지정된 URL로 전송됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_verify_token"
 >title="토큰 확인"
->abstract="확인 프로세스 중에 콜백 URL을 확인 및 확인하기 위해 Meta가 다시 에코하는 토큰입니다."
+>abstract="검증 과정에서 콜백 URL을 확인하고 검증하기 위해 Meta가 다시 반향하는 토큰입니다."
 
 >[!NOTE]
 >
 >지정된 옵트인 또는 옵트아웃 키워드가 없으면 표준 동의 메시지가 활성화되지 않습니다.
 
-WhatsApp API 자격 증명과 [메타 웹후크](https://developers.facebook.com/docs/whatsapp/webhooks/)가 만들어지면 다음 단계에서 웹후크를 만들고 인바운드 설정을 구성합니다.
+WhatsApp API 자격 증명이 성공적으로 생성되면 다음 단계에서 웹후크를 만들고 인바운드 설정을 구성합니다.
 
 1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL WhatsApp 설정]**&#x200B;에서 **[!UICONTROL WhatsApp Webhooks]** 메뉴를 선택한 다음 **[!UICONTROL Webhook 만들기]** 단추를 클릭합니다.
 
-1. Webhook의 [!UICONTROL 이름]을(를) 입력하십시오.
+   ![](assets/webhook-1.png)
 
-1. 드롭다운에서 이전에 만든 [API 자격 증명](#whatsapp-credentials)을 선택합니다.
+1. Webhook의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오.
 
-1. ![추가](assets/do-not-localize/Smock_AddCircle_18_N.svg)를 클릭하여 다음과 같은 **[!UICONTROL 인바운드 키워드 범주]** 구성을 시작합니다.
+1. **[!UICONTROL 구성 선택]** 드롭다운에서 이전에 만든 [API 자격 증명](#whatsapp-credentials)을 선택합니다.
+
+   ![](assets/webhook-2.png)
+
+1. 다음과 같은 **[!UICONTROL 인바운드 키워드 범주]**&#x200B;을 선택합니다.
 
    * **[!UICONTROL 옵트인 키워드]**
    * **[!UICONTROL 옵트아웃 키워드]**
    * **[!UICONTROL 도움말 키워드]**
 
-1. **[!UICONTROL 키워드]**&#x200B;을(를) 입력하십시오.
+1. **[!UICONTROL 키워드]**&#x200B;를 입력하고 ![추가](assets/do-not-localize/Smock_AddCircle_18_N.svg)를 클릭하세요.
 
-   여러 키워드를 추가하려면 ![추가](assets/do-not-localize/Smock_AddCircle_18_N.svg)를 클릭하세요.
+   ![](assets/webhook-3.png)
 
-1. 구성된 키워드를 받을 때 보낼 **[!UICONTROL 회신 메시지]**&#x200B;를 지정하십시오.
+1. **[!UICONTROL 회신 메시지]** 필드에서 구성된 키워드를 받을 때 보낸 메시지를 입력하거나 드롭다운 메뉴에서 미리 정의된 옵션을 선택합니다.
+
+   ![](assets/webhook-4.png)
 
 <!--
 1. Click **[!UICONTROL View payload editor]** to validate and customize your request payloads. 
     
     You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
 -->
+1. ![인바운드 키워드](assets/do-not-localize/Smock_AddCircle_18_N.svg)을(를) 추가하려면 **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
 
 1. WhatsApp Webhook 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
 1. **[!UICONTROL Webhooks]** 메뉴에서 ![bin 아이콘](assets/do-not-localize/Smock_Delete_18_N.svg)을 클릭하여 WhatsApp Webhook를 삭제합니다.
 
-1. 기존 구성을 수정하려면 원하는 웹후크를 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 내용을 변경합니다.
+   ![](assets/webhook-5.png)
+
+1. 기존 구성을 수정하고 **[!UICONTROL Webhook URL]** 또는 **[!UICONTROL Webhook Verify toker]**&#x200B;에 액세스하려면 원하는 Webhook을 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 내용을 변경하십시오.
+
+1. 여기에 생성된 **[!UICONTROL Webhook Verify toker]**&#x200B;를 복사한 다음 Webhook 설정의 일부로 Meta 인터페이스에 붙여넣습니다.
+
+   이 인증 토큰을 추가하는 방법과 위치에 대한 자세한 지침은 [메타 설명서](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product)를 참조하세요.
 
 1. 이전에 제출한 **[!UICONTROL WhatsApp Webhook]**&#x200B;에서 새 **[!UICONTROL Webhook URL]**&#x200B;에 액세스하여 복사합니다.
+
+   ![](assets/webhook-6.png)
 
 이제 Webhook이 구성되었으므로 WhatsApp 구성을 만들 수 있습니다.
 
@@ -155,7 +157,7 @@ WhatsApp API 자격 증명과 [메타 웹후크](https://developers.facebook.com
 
    ![](assets/whatsapp-config-3.png)
 
-1. 통신에 사용할 **[!UICONTROL 발신자 번호]**&#x200B;을(를) 입력하십시오.
+1. 통신에 사용할 **[!UICONTROL 발신자 이름]**&#x200B;을(를) 입력하십시오.
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]**&#x200B;을 클릭하여 확인합니다. 채널 구성을 초안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 
@@ -170,3 +172,14 @@ WhatsApp API 자격 증명과 [메타 웹후크](https://developers.facebook.com
 구성하고 나면 메시지 작성, 개인화, 링크 추적 및 보고와 같은 기본 제공 채널 기능을 모두 활용할 수 있습니다.
 
 이제 Journey Optimizer에서 WhatsApp 메시지를 보낼 준비가 되었습니다.
+
+
+## 사용 방법 비디오 {#video}
+
+아래 비디오에서는 Adobe Journey Optimizer에서 WhatsApp 채널을 설정하는 방법을 보여 줍니다.
+
++++ 비디오 보기
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
+
++++
