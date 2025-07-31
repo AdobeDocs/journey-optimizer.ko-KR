@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 62%
 
 1. **[!UICONTROL 테스트]** 활동에 여러 출력 전환을 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL 조건 추가]** 버튼을 클릭하고 각 전환에 대한 레이블과 관련 조건을 구성합니다.
 v
-1. 오케스트레이션된 캠페인 실행 중에 각 조건은 둘 중 하나가 충족될 때까지 순차적으로 테스트됩니다. 조건이 충족되지 않으면 오케스트레이션된 캠페인이 **[!UICONTROL 기본 조건]**&#x200B;의 경로를 따라 계속됩니다. 기본 조건이 활성화되어 있지 않으면 워크플로는 이 지점에서 멈춥니다.
+1. 오케스트레이션된 캠페인 실행 중에 각 조건은 둘 중 하나가 충족될 때까지 순차적으로 테스트됩니다. 조건이 충족되지 않으면 오케스트레이션된 캠페인이 **[!UICONTROL 기본 조건]**&#x200B;의 경로를 따라 계속됩니다. 활성화된 기본 조건이 없으면 이 시점에서 캠페인이 중지됩니다.
 
 ## 예 {#example}
 

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 83%
+source-wordcount: '654'
+ht-degree: 75%
 
 ---
 
@@ -73,14 +73,13 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="조정 규칙"
->abstract="중복 제거에 사용할 조정 규칙을 선택합니다. 속성을 사용하려면 **단순 속성** 옵션을 선택하고 소스 및 대상 필드를 선택합니다. 쿼리 모델러를 사용하여 자체 조정 조건을 만들려면 **고급 조정 조건** 옵션을 선택합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
+>abstract="중복 제거에 사용할 조정 규칙을 선택합니다. 속성을 사용하려면 **단순 속성** 옵션을 선택하고 소스 및 대상 필드를 선택합니다. 규칙 빌더를 사용하여 나만의 조정 조건을 만들려면 **고급 조정 조건** 옵션을 선택하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="타기팅 차원 선택"
 >abstract="조정할 인바운드 데이터의 타기팅 차원을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=ko#targeting-dimensions" text="타기팅 차원"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="타기팅 차원"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
@@ -94,7 +93,7 @@ ht-degree: 83%
 
 **[!UICONTROL 보강]** 활동을 구성하려면 다음 단계를 따릅니다.
 
-1. **[!UICONTROL 조정]** 활동을 워크플로에 추가합니다.
+1. 캔버스에 **[!UICONTROL 조정]** 활동을 추가합니다.
 
 1. 수신자나 구독자와 같이 타기팅할 사용자를 정의하기 위해 새 타기팅 차원을 선택합니다.
 
@@ -114,9 +113,9 @@ ht-degree: 83%
 
 1. 일치 규칙을 더 추가하려면 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다. 일치가 발생하려면 모든 조건이 충족되어야 합니다.
 
-1. 더 복잡한 조건을 사용하려면 **[!UICONTROL 고급 조정 조건]**&#x200B;을 선택합니다. [쿼리 모델러](../orchestrated-rule-builder.md)를 사용하여 사용자 정의 논리를 정의합니다.
+1. 더 복잡한 조건을 사용하려면 **[!UICONTROL 고급 조정 조건]**&#x200B;을 선택합니다. [규칙 빌더](../orchestrated-rule-builder.md)를 사용하여 사용자 지정 논리를 정의합니다.
 
-1. 조정할 데이터를 필터링하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 쿼리 모델러에서 조건을 정의합니다.
+1. 조정할 데이터를 필터링하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 규칙 빌더에서 조건을 정의합니다.
 
 1. 기본적으로 일치하지 않는 레코드는 아웃바운드 전환에 보관되며, 작업 테이블에 저장됩니다. 조정되지 않은 데이터를 제거하려면 **[!UICONTROL 조정되지 않은 데이터 유지]** 옵션을 활성화합니다.
 

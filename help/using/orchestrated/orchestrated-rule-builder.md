@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 77%
+ht-degree: 68%
 
 ---
 
@@ -43,13 +43,13 @@ ht-degree: 77%
 
 ## 규칙 빌더 액세스
 
-쿼리 모델러는 데이터를 필터링하기 위한 규칙을 정의해야 하는 모든 상황에서 사용할 수 있습니다.
+규칙을 정의하여 데이터를 필터링해야 하는 모든 컨텍스트에서 규칙 빌더를 사용할 수 있습니다.
 
 | 사용 | 예 |
 |  ---  |  ---  |
 | **대상자 빌드**: **[!UICONTROL 대상자 빌드]** 활동을 사용하여 오케스트레이션된 캠페인에서 타깃팅할 모집단을 지정하고 필요에 맞게 새 대상자를 쉽게 만들 수 있습니다. [대상자를 작성하는 방법 알아보기](../orchestrated/activities/build-audience.md) | ![대상자 작성 인터페이스에 액세스하는 방법을 보여 주는 이미지](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
 | **캠페인 캔버스에 조건 만들기**: **[!UICONTROL 분할]** 활동을 사용하여 캠페인 캔버스 내에 규칙을 적용하여 특정 요구 사항에 맞춥니다. [분할 활동을 사용하는 방법을 알아봅니다.](../orchestrated/activities/split.md) | ![워크플로 사용자 정의 옵션에 액세스하는 방법을 보여 주는 이미지](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
-| **고급 필터 만들기**: 워크플로 로그 또는 타겟팅 차원과 같은 목록에 표시된 데이터를 필터링하는 규칙을 만듭니다. | ![목록 필터를 사용자 정의하는 방법을 보여 주는 이미지](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
+| **고급 필터 만들기**: 캠페인 로그 또는 타겟팅 차원과 같은 목록에 표시된 데이터를 필터링하는 규칙을 빌드합니다. | ![목록 필터를 사용자 정의하는 방법을 보여 주는 이미지](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## 규칙 빌더 인터페이스 {#interface}
 
