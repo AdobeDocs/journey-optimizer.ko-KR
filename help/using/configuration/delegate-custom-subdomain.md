@@ -11,9 +11,9 @@ keywords: 하위 도메인, 위임, 도메인, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '748'
 ht-degree: 20%
 
 ---
@@ -88,6 +88,10 @@ ht-degree: 20%
 1. **[!UICONTROL CSR 다운로드]**&#x200B;를 클릭하고 양식을 로컬 컴퓨터에 저장합니다. SSL 인증서를 받으려면 인증 기관에 전송합니다.
 
 1. 검색된 후에는 **[!UICONTROL SSL 인증서 업로드]**&#x200B;를 클릭하고 .pem 형식으로 인증서를 [!DNL Journey Optimizer]에 업로드하십시오.
+
+   >[!CAUTION]
+   >
+   >데이터와 CDN 하위 도메인은 동일한 인증서에 포함되어야 합니다.
 
 ## 피드백 루프 단계 완료 {#feedback-loop-steps}
 
