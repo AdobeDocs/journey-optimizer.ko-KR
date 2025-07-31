@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2594'
 ht-degree: 95%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 95%
    + [모범 사례](using/start/best-practices.md)
 + 여정 {#orchestrate-journeys}
    + [여정 시작](using/building-journeys/journey.md)
-   + 여정 만들기{#create-journey}
+   + 여정 만들기 {#create-journey}
       + [첫 여정 만들기](using/building-journeys/journey-gs.md)
       + [여정 속성 정의](using/building-journeys/journey-properties.md)
       + [여정 지표 구성 및 추적](using/building-journeys/success-metrics.md)
@@ -53,7 +53,7 @@ ht-degree: 95%
       + [여정 게시](using/building-journeys/publishing-the-journey.md)
       + [여정 일시 중단](using/building-journeys/journey-pause.md)
       + [여정의 라이브 보고서](using/building-journeys/report-journey.md)
-   + 여정 관리{#manage-journey}
+   + 여정 관리 {#manage-journey}
       + [여정 검색 및 필터링](using/building-journeys/journey-ui.md)
       + [프로필의 여정 진입](using/building-journeys/entry-management.md)
       + [이벤트가 트리거된 여정의 추가 식별자](using/building-journeys/supplemental-identifier.md)
@@ -184,7 +184,7 @@ ht-degree: 95%
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 액세스 및 관리](using/campaigns/modify-stop-campaign.md)
    + 액션 캠페인 {#action-campaigns}
-      + [작업 캠페인 작업](using/campaigns/create-campaign.md)
+      + [액션 캠페인을 작업하십시오.](using/campaigns/create-campaign.md)
       + [캠페인 속성 정의](using/campaigns/campaign-properties.md)
       + [캠페인 작업 구성](using/campaigns/campaign-action.md)
       + [캠페인 콘텐츠 편집](using/campaigns/campaign-content.md)
@@ -192,7 +192,7 @@ ht-degree: 95%
       + [캠페인 예약](using/campaigns/campaign-schedule.md)
       + [액션 캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
    + API 트리거 캠페인 {#api-triggered-campaigns}
-      + [API 트리거 캠페인 작업](using/campaigns/api-triggered-campaigns.md)
+      + [API 트리거 캠페인을 작업하십시오](using/campaigns/api-triggered-campaigns.md)
       + [캠페인 속성 정의](using/campaigns/api-triggered-campaign-properties.md)
       + [캠페인 작업 구성](using/campaigns/api-triggered-campaign-action.md)
       + [캠페인 콘텐츠 편집](using/campaigns/api-triggered-campaign-content.md)
@@ -452,7 +452,7 @@ ht-degree: 95%
       + [AI를 사용한 콘텐츠 실험](using/content-management/generative-experimentation.md)
       + [AI를 사용한 랜딩 페이지](using/content-management/generative-lp.md)
       + [AI 어시스턴트 사용 사례](using/content-management/generative-uc.md)
-      + 브랜드(Beta){#brands}
+      + 브랜드 {#brands}
          + [브랜드 만들기 및 관리](using/content-management/brands.md)
          + [브랜드 정렬 점수 평가](using/content-management/brands-score.md)
    + 다국어 콘텐츠{#content-multilingual}
@@ -585,6 +585,7 @@ ht-degree: 95%
             + [자동 최적화 모델](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [개인화된 최적화 모델](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [AI 모델 만들기](using/experience-decisioning/ranking/create-ai-models.md)
+      + [배치를 사용한 작업](using/experience-decisioning/placements.md)
       + Adobe Experience Platform 데이터 사용 {#aep-data}
          + [컨텍스트 데이터 활용](using/experience-decisioning/context-data.md)
          + [결정에 Adobe Experience Platform 사용](using/experience-decisioning/aep-data-exd.md)

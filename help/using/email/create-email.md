@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 9%
+source-wordcount: '1033'
+ht-degree: 8%
 
 ---
 
@@ -84,7 +84,17 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-   **[!UICONTROL 콘텐츠 편집]** 화면의 **[!UICONTROL 헤더]** 섹션에서 **[!UICONTROL 보낸 사람 이름]**, **[!UICONTROL 보낸 사람 전자 메일]** 및 **[!UICONTROL 숨은 참조]** 필드가 선택한 전자 메일 구성에 구성되어 있습니다. [자세히 알아보기](email-settings.md) <!--check if same for journey-->
+1. 전자 메일에 결정 정책을 추가하려면 **[!UICONTROL 결정 사용]**&#x200B;을 전환합니다.
+
+   의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다. [전자 메일에 결정 정책을 추가하는 방법을 알아보세요](../experience-decisioning/create-decision.md#add)
+
+   ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
+
+   >[!AVAILABILITY]
+   >
+   >현재 Adobe Healthcare Shield 또는 Privacy and Security Shield 추가 기능 서비스를 구입한 조직에서는 이메일의 의사 결정 정책을 만들 수 없습니다.
+
+1. **[!UICONTROL 헤더]** 섹션에서 **[!UICONTROL 이름에서]**, **[!UICONTROL 전자 메일에서]** 및 **[!UICONTROL BCC]** 필드를 확인하십시오. 선택한 이메일 구성에서 구성됩니다. [자세히 알아보기](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -92,9 +102,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    >[!NOTE]
    >
-   >* 제목란은 필수입니다.
-   >
-   >* 제목 줄에는 줄바꿈을 포함하지 않아야 합니다.
+   >제목란은 필수입니다. 줄 바꿈을 포함하지 않아야 합니다.
 
 1. **[!UICONTROL 전자 메일 본문 편집]** 단추를 클릭하여 전자 메일 Designer에 액세스하고 콘텐츠 빌드를 시작합니다. [자세히 알아보기](get-started-email-design.md)
 
