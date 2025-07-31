@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 19%
+source-wordcount: '836'
+ht-degree: 25%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 19%
 >
 >이 기능은 현재 모든 고객이 공개 Beta로 사용할 수 있습니다. 액세스하려면 계정 담당자에게 문의하십시오.
 
-[!DNL Journey Optimizer]을(를) 사용하면 의사 결정을 위해 [!DNL Adobe Experience Platform]의 데이터를 활용할 수 있습니다. 이렇게 하면 속성을 한 번에 하나씩 수동으로 업데이트할 필요 없이 주기적으로 변경되는 벌크 업데이트에 대해 의사 결정 속성의 정의를 데이터 세트의 추가 데이터로 확장할 수 있습니다. 예: 가용성, 대기 시간 등
+[!DNL Journey Optimizer]을(를) 사용하면 의사 결정을 위해 [!DNL Adobe Experience Platform]의 데이터를 활용할 수 있습니다. 그러면 주기적으로 변경되는 일괄 업데이트 시 속성을 일일이 수동으로 업데이트할 필요 없이 결정 속성의 정의를 데이터 세트의 추가 데이터로 확장할 수 있습니다. 예를 들면 가용성, 대기 시간 등이 있습니다.
 
-## Beta 제한 사항 및 지침 {#guidelines}
+## 가드레일 및 제한 사항 {#guidelines}
 
 시작하기 전에 다음 제한 사항 및 지침에 유의하십시오.
 
