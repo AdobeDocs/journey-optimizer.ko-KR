@@ -44,7 +44,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
       ![](assets/decision_permission_1.png)
 
-   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
       ![](assets/decision_permission_2.png)
 
@@ -56,7 +56,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
    그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
 
-+++
+   +++
 
 1. **사용자 지정 특성을 구성합니다**: 사용자 지정 특성을 카탈로그의 스키마로 설정하여 항목 카탈로그를 특정 요구 사항에 맞게 조정하십시오.
 
