@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: c90189d4b064e00bd2f2bdde67230aeb84dd97f6
+source-git-commit: f8134fd1e030fb969747a37acd657f62fd398c75
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1701'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 사용자 지정 작업, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
 
-이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
+이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
 
 +++ 여정
 
-* **복사된 종속성** - 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
+* **복사된 종속성** - 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
 
 * **수동 유효성 검사 권장** - 연결된 모든 요소가 대상 샌드박스에 복사되지 않습니다. 예를 들어 여정을 게시하기 전에 철저한 검사를 수행하는 것이 좋습니다. 이를 통해 잠재적인 누락된 오브젝트를 식별할 수 있습니다.
 
@@ -62,13 +62,8 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
 
    * 여정을 다른 샌드박스에 복사할 때 가져오기 프로세스 중에 사용자 지정 작업에 대해 &quot;기존 사용&quot;을 선택하는 경우 선택하는 기존 사용자 지정 작업은 소스 사용자 지정 작업과 동일해야 합니다(예: 동일한 구성, 매개 변수 등). 그렇지 않으면 새 여정 사본에 캔버스에서 해결할 수 없는 오류가 발생합니다.
 
-<!--* **Data sources, field groups and events** - When copying a journey that uses events, data sources, or field groups, the import process automatically checks whether components with the same name and type already exist in the target sandbox.
+* **데이터 원본, 필드 그룹 및 이벤트** - 이벤트, 데이터 원본 또는 필드 그룹을 사용하는 여정을 복사할 때 가져오기 프로세스는 이름과 형식이 같은 구성 요소가 대상 샌드박스에 이미 있는지 여부를 자동으로 확인합니다. 예를 들어 단일 이벤트는 대상 샌드박스에서 동일한 이름의 단일 이벤트로 대체됩니다. 여정에 사용되는 비즈니스 이벤트, 사용자 지정 데이터 소스, API 기반 및 스키마 기반 필드 그룹 모두에 적용됩니다. 소스 샌드박스의 단일 이벤트가 비즈니스 이벤트 대상 샌드박스와 동일한 이름을 가진 경우 복사되거나 생성되지 않습니다. 다른 모든 구성 요소에도 적용됩니다.
 
-   * If a match is found, the existing components in the target sandbox are reused by the imported journey.
-   * If no match is found, the system creates new components.
-
-   This ensures that journeys relying on these elements remain functional after import, with minimal manual adjustment.
--->
 +++
 
 +++ 캠페인
