@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '247'
 ht-degree: 9%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!IMPORTANT]
 >
 >이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
-></br>
+>></br>
 >
 >Journey Optimizer에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
@@ -44,9 +44,7 @@ ht-degree: 9%
 
    ![](assets/experiment-genai-3.png)
 
-1. 콘텐츠 실험 창에서 **[!UICONTROL 실험 설정]** 단추에 액세스하여 실험을 구성합니다. [콘텐츠 실험에 대해 자세히 알아보기](../content-management/content-experiment.md)
-
-   ![](assets/experiment-genai-4.png)
+1. 이제 콘텐츠 실험에서 콘텐츠 실험 구성을 시작할 수 있습니다. [콘텐츠 실험에 대해 자세히 알아보기](../content-management/content-experiment.md)
 
 1. 콘텐츠 실험이 준비되면 캠페인 요약 페이지에서 **[!UICONTROL 활성화 검토]**&#x200B;를 클릭하여 캠페인 요약을 표시할 수 있습니다. 매개 변수가 잘못되거나 누락된 경우 경고가 표시됩니다. [자세히 알아보기](../content-management/content-experiment.md#treatment-experiment)
 

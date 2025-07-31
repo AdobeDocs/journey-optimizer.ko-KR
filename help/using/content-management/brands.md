@@ -3,14 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 브랜드 관리
 description: 브랜드 지침을 만들고 관리하는 방법 알아보기
-badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1451'
 ht-degree: 22%
 
 ---
@@ -34,8 +33,6 @@ ht-degree: 22%
 
 >[!AVAILABILITY]
 >
->이 기능은 개인 베타로 사용할 수 있습니다. 향후 릴리스에서 점진적으로 사용 범위를 확대하여 모든 고객에게 제공할 예정입니다.
->
 >Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 브랜드 지침은 브랜드의 시각적 및 언어적 정체성을 확립하는 상세한 규칙 및 표준 세트입니다. 모든 마케팅 및 커뮤니케이션 플랫폼에서 일관된 브랜드 표현을 유지하는 참조 역할을 합니다.
@@ -44,7 +41,7 @@ ht-degree: 22%
 
 ## 브랜드 액세스 {#generative-access}
 
-[!DNL Adobe Journey Optimizer]에서 **[!UICONTROL 브랜드]** 메뉴에 액세스하려면 사용자에게 **[!UICONTROL 브랜드 키트 관리]** 또는 **[!UICONTROL AI 지원 사용]** 권한을 부여해야 합니다. [자세히 알아보기](../administration/permissions.md)
+**[!UICONTROL 에서]**&#x200B;브랜드[!DNL Adobe Journey Optimizer] 메뉴에 액세스하려면 사용자에게 **[!UICONTROL 브랜드 키트 관리]** 또는 **[!UICONTROL AI 지원 사용]** 권한을 부여해야 합니다. [자세히 알아보기](../administration/permissions.md)
 
 +++  브랜드 관련 권한을 할당하는 방법을 알아봅니다.
 

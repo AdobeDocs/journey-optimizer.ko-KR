@@ -7,9 +7,9 @@ topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 오퍼가 수정될 때마다 대체 오퍼에 대해 자동 생성된 데이터 세트가 업데이트됩니다.
 
-![](../assets/dataset-fallback.png)
-
 데이터 세트에서 가장 최근에 성공한 일괄 처리가 오른쪽에 표시됩니다. 데이터 세트에 대한 스키마의 계층 구조 보기가 왼쪽 창에 표시됩니다.
+
+![](../assets/dataset-fallback.png)
 
 >[!NOTE]
 >
->[이 섹션](../export-catalog/access-dataset.md)에서 오퍼 라이브러리의 각 개체에 대해 내보낸 데이터 세트에 액세스하는 방법에 대해 알아봅니다.
+>삭제된 대체 오퍼는 데이터 세트에 보관된 것으로 표시됩니다.
 
 다음은 **[!UICONTROL 의사 결정 개체 저장소 - 대체 오퍼]** 데이터 집합에서 사용할 수 있는 모든 필드 목록입니다.
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 +++_경험 > 의사 결정 > 콘텐츠 > 구성 요소
 
 **필드:** 구성 요소
-**설명:** 모든 언어 변형을 포함하여 결정 옵션을 나타내는 콘텐츠의 구성 요소입니다. 특정 구성 요소는 &quot;dx:format&quot;, &quot;dc:subject&quot; 및 &quot;dc:language&quot; 또는 이들의 조합으로 제공됩니다. 이 메타데이터는 오퍼와 연결된 콘텐츠를 찾거나 나타내고 배치 계약에 따라 통합하는 데 사용됩니다.
+**설명:** 모든 언어 변형을 포함하여 결정 옵션을 나타내는 콘텐츠의 구성 요소입니다. 특정 구성 요소는 &#39;dx:format&#39;, &#39;dc:subject&#39; 및 &#39;dc:language&#39; 또는 이들의 조합으로 찾을 수 있습니다. 이 메타데이터는 오퍼와 연결된 콘텐츠를 찾거나 나타내고 배치 계약에 따라 통합하는 데 사용됩니다.
 **유형:** 배열
 **필수:** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
@@ -115,20 +115,20 @@ ht-degree: 0%
    * **id**
 
      **필드:** ID
-     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을 사용하여 에셋을 검색할 수 있습니다.
+     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을(를) 사용하여 에셋을 검색할 수 있습니다.
      **유형:** 문자열
      **예:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **이름**
 
      **필드:** 이름
-     **설명:** \&quot;repo:id\&quot;로 외부 자산을 저장하는 저장소를 찾을 위치에 대한 힌트입니다.
+     **설명:** \&quot;repo:id\&quot;에 의해 외부 자산을 저장하는 저장소를 찾을 위치에 대한 힌트입니다.
      **유형:** 문자열
 
    * **repositoryID**
 
      **필드:** 저장소 ID
-     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을 사용하여 에셋을 검색할 수 있습니다.
+     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을(를) 사용하여 에셋을 검색할 수 있습니다.
      **유형:** 문자열
      **예:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 

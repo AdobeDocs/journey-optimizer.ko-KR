@@ -6,13 +6,12 @@ description: 시험 실행 모드에서 여정을 게시하는 방법 알아보�
 feature: Journeys
 role: User
 level: Intermediate
-badge: label="제한된 가용성" type="Informative"
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
+source-git-commit: 8c8fb70baf66d2b48c81c6344717be18993141f8
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 24%
+source-wordcount: '1106'
+ht-degree: 16%
 
 ---
 
@@ -32,11 +31,6 @@ ht-degree: 24%
 여정 시험 실행은 Adobe Journey Optimizer에서 제공되는 특별한 여정 게시 모드로, 여정 실무자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용해 여정을 테스트할 수 있도록 합니다.  이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.
 
 
->[!AVAILABILITY]
->
->이 기능은 일부 조직에서만 사용할 수 있으며(제한된 가용성) 향후 릴리스에서 전체 사용자를 대상으로 공개될 예정입니다.
-
-
 ## 주요 이점 {#journey-dry-run-benefits}
 
 여정 Dry run을 사용하면 고객에게 연락하거나 프로필 정보를 변경할 필요 없이 실제 프로덕션 데이터를 사용하여 고객 여정을 안전하게 데이터 기반으로 테스트할 수 있으므로 전문가의 신뢰성과 여정 성공을 향상시킬 수 있습니다. 이 기능을 통해 여정 실무자는 실행 전 대상 도달 및 분기 로직을 확인할 수 있으므로 여정이 의도한 비즈니스 목표에 부합하는지 확인할 수 있습니다.
@@ -48,23 +42,31 @@ ht-degree: 24%
 여정 드라이 실행은 다음과 같은 기능을 제공합니다.
 
 1. **안전한 테스트 환경**: 시험 실행 모드의 프로필은 연결되지 않으므로 통신을 보내거나 라이브 데이터에 영향을 줄 위험이 없습니다.
-1. **대상 인사이트**: 여정 실무자는 옵트아웃, 제외 및 기타 조건을 포함하여 다양한 여정 노드에서 대상 도달 가능성을 예측할 수 있습니다.
+1. **대상 인사이트**: 여정 제공자는 여정 조건에 따른 옵트아웃 및 제외를 포함하여 다양한 여정 노드에서 대상 도달 가능성을 예측할 수 있습니다.
 1. **실시간 피드백**: 실시간 보고와 유사하게 지표가 여정 캔버스에 직접 표시되므로 여정 실무자가 여정 디자인을 개선할 수 있습니다.
 
-드라이 실행 중에 여정은 다음 특성을 사용하여 실행됩니다.
+## 시험 실행 논리 {#journey-dry-run-exec}
+
+시험 실행 중에 여정은 시뮬레이션 모드에서 실행되며, 실제 작업을 트리거하지 않고 각 여정 활동에 다음과 같은 특정 동작을 적용합니다.
 
 * 이메일, SMS 또는 푸시 알림을 포함한 **채널 작업** 노드가 실행되지 않습니다.
-* 시험 실행 중에 **사용자 지정 작업**&#x200B;이(가) 비활성화되며 해당 응답은 null로 설정됩니다.
-* **대기 노드**&#x200B;은(는) 시험 실행 중에 무시됩니다.
-  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-* 외부 데이터 원본을 포함한 **데이터 원본**&#x200B;은(는) 기본적으로 실행됩니다
+* **사용자 지정 작업**&#x200B;은(는) 시험 실행 중에 비활성화되며 해당 응답은 null로 설정됩니다.
+
+  가독성을 높이기 위해 사용자 지정 작업 및 채널 활동은 시험 실행 중에 회색으로 표시됩니다.
+
+  ![시험 실행 여정의 작업 활동이 회색으로 표시됨](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+
+* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화[할 때 이 동작을 ](#journey-dry-run-start)변경할 수 있습니다.
+
+* **반응** 노드가 실행되지 않습니다. 입력한 모든 프로필이 성공하면 종료됩니다. 하지만 다음 우선순위 규칙이 적용됩니다.
+   * **Reaction** 노드를 하나 또는 여러 **단일 이벤트** 노드와 병렬로 사용하면 프로필은 항상 반응 이벤트를 통과합니다.
+   * **반응** 노드를 하나 이상의 **반응 이벤트** 노드와 병렬로 사용하는 경우 프로필은 항상 캔버스의 첫 번째 노드(맨 위에 있는 노드)를 통과합니다.
 
 >[!CAUTION]
 >
->* 시험 실행 시작 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. 시험 실행을 중지할 수 있는 권한은 **[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>* 시험 실행을 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. 기본 실행을 중지할 수 있는 권한은 **[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 >
 >* 시험 실행 기능을 사용하기 전에 [보호 기능 및 제한 사항을 읽어보세요](#journey-dry-run-limitations).
-
 
 ## 시험 실행 시작 {#journey-dry-run-start}
 
@@ -77,11 +79,14 @@ ht-degree: 24%
 
    ![여정 시험 실행 시작](assets/dry-run-button.png)
 
-1. 게시를 확인합니다.
+1. **대기** 활동 및 **외부 데이터 원본** 호출을 활성화하거나 비활성화하려면 을(를) 선택하고 시험 실행 게시를 확인합니다.
+
+   ![여정 시험 실행 게시 확인](assets/dry-run-publish.png){width="50%" align="left"}
 
    전환이 진행되는 동안 **시험 실행 활성화** 상태 메시지가 나타납니다.
 
 1. 활성화하면 여정이 **시험 실행** 모드로 들어갑니다.
+
 
 ## 시험 실행 모니터링 {#journey-dry-monitor}
 
@@ -90,7 +95,6 @@ ht-degree: 24%
 지표는 여정 캔버스에 직접 표시됩니다. 여정 라이브 보고 및 지표에 대해 자세히 알아보려면 여정 캔버스의 [라이브 보고서](report-journey.md)를 참조하세요.
 
 ![여정 시험 실행 모니터링](assets/dry-run-metrics.png)
-
 
 시험 실행을 위해 **최근 24시간 보고서** 및 **모든 시간 보고서**&#x200B;에 액세스할 수도 있습니다. 이러한 보고서에 액세스하려면 여정 캔버스의 오른쪽 위 모서리에 있는 **보고서 보기** 단추를 클릭하십시오.
 
@@ -103,21 +107,39 @@ ht-degree: 24%
 
 ## 시험 실행 중지 {#journey-dry-run-stop}
 
-시험 실행 여정 **must**&#x200B;을(를) 수동으로 중지해야 합니다.
+14일 후 시험 실행 여정은 자동으로 **초안** 상태로 전환됩니다.
 
-**닫기** 단추를 클릭하여 테스트를 종료한 다음 **초안으로 돌아가기**&#x200B;를 클릭하여 확인합니다.
+시험 실행 여정은 수동으로 중지할 수도 있습니다. 시험 실행 모드를 비활성화하려면 다음 단계를 따르십시오.
 
-<!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+1. 중지할 시험 실행 여정을 엽니다.
+1. **닫기** 단추를 선택하여 테스트를 종료합니다.
+지난 24시간 및 모든 시간 보고서에 대한 링크는 확인 화면에서 사용할 수 있습니다.
+
+   ![여정 시험 실행 중지](assets/dry-run-stop.png){width="50%" align="left"}
+
+1. **초안으로 돌아가기**&#x200B;를 클릭하여 확인합니다.
+
 
 ## 가드레일 및 제한 사항 {#journey-dry-run-limitations}
 
-* 반응 이벤트가 포함된 여정은 드라이 실행 모드를 사용할 수 없습니다
 * 드라이 실행 모드의 프로필은 참여 가능한 프로필에 계산됩니다
 * 시험 실행 모드의 여정은 라이브 여정 할당량에 계산됩니다
 * 시험 실행 여정은 비즈니스 규칙에 영향을 주지 않음
-* 새 여정 버전을 만들 때 이전 여정 버전이 **Live**&#x200B;인 경우 새 버전에서는 시험 실행 활성화가 허용되지 않습니다.
-* 여정 드라이 실행은 stepEvents를 생성합니다. 이러한 stepEvents에는 특정 플래그와 드라이 실행 ID가 있습니다.
-   * `_experience.journeyOrchestration.stepEvents.inDryRun`은(는) 시험 실행이 활성화되면 `true`을(를) 반환하고 그렇지 않으면 `false`을(를) 반환합니다.
-   * `_experience.journeyOrchestration.stepEvents.dryRunID`에서 시험 실행 인스턴스의 ID를 반환합니다.
+  <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
+* **이동** 작업은 시험 실행 시 사용할 수 없습니다.
+소스 여정이 대상 이벤트로의 **Jump** 이벤트를 트리거하면 해당 점프 이벤트는 시험 실행 여정 버전에 적용할 수 없습니다. 예를 들어, 최신 버전의 여정이 시험 실행 중이고 이전 버전이 **Live**&#x200B;인 경우 점프 이벤트는 시험 실행 버전을 무시하고 **Live** 버전에만 적용할 수 있습니다.
 
-* Adobe Experience Platform Query Service를 사용하여 여정 보고 지표를 분석할 때 드라이 실행 생성 단계 이벤트를 제외해야 합니다. 이 작업을 수행하려면 `inDryRun` 플래그를 `false`(으)로 설정하십시오.
+## 여정 단계 이벤트 및 시험 실행 {#journey-step-events}
+
+여정 시험 실행은 **stepEvents**&#x200B;를 생성합니다. stepEvents에는 특정 플래그 및 시험 실행 ID가 있습니다. `inDryRun` 및 `dryRunID`.
+
+![여정 시험 실행 스키마 특성](assets/dry-run-attributes.png)
+
+* `_experience.journeyOrchestration.stepEvents.inDryRun`은(는) 시험 실행이 활성화되면 `true`을(를) 반환하고 그렇지 않으면 `false`을(를) 반환합니다.
+* `_experience.journeyOrchestration.stepEvents.dryRunID`에서 시험 실행 인스턴스의 ID를 반환합니다.
+
+
+stepEvent 데이터를 **외부 시스템**(으)로 내보내는 경우 `inDryRun` 플래그를 사용하여 드라이 실행 실행을 필터링할 수 있습니다.
+
+Adobe Experience Platform 쿼리 서비스를 사용하여 **여정 보고 지표**&#x200B;를 분석할 때 시험 실행 생성 단계 이벤트를 제외해야 합니다. 이 작업을 수행하려면 `inDryRun` 플래그를 `false`(으)로 설정하십시오.
+

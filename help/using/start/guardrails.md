@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 1a7ffacba9b90e2c018dde91814c7e321ba21135
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2621'
 ht-degree: 92%
 
 ---
@@ -149,7 +149,7 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 보호 기능 및 �
 
 여정의 [사용자 정의 작업](../action/action.md)에 다음 가드레일이 적용됩니다.
 
-* 모든 사용자 정의 작업의 호스트 및 샌드박스당 1분간 300,000개의 호출 상한 설정이 정의됩니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 이는 적절한 읽기 속도(사용자 정의 작업 사용 시 프로필 5,000개/초)를 정의함으로써 대상자 기반 여정에서 고려되어야 합니다. 필요한 경우 Capping/Throttling API를 통해 상한 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
+* 모든 사용자 정의 작업의 호스트 및 샌드박스당 1분간 300,000개의 호출 상한 설정이 정의됩니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 필요한 경우 Capping/Throttling API를 통해 상한 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. [이 페이지](../configuration/external-systems.md)를 참조하십시오.
 * 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다. 
 * POST, PUT 및 GET 호출 메서드가 지원됩니다.
 * 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;로 시작해서는 안 됩니다.
@@ -211,6 +211,9 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 * 여정은 하나의 **대상자 읽기** 활동만 가질 수 있습니다.
 * [이 페이지](../building-journeys/read-audience.md)의 **대상자 읽기** 활동을 사용하는 방법에 대한 권장 사항도 참조하십시오.
 * 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에서 기본적으로 다시 시도가 적용됩니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다.
+
+
+[이 페이지](../building-journeys/read-audience.md#must-read)도 참조하세요.
 
 ### 대상자 선별 {#audience-qualif-g}
 

@@ -7,28 +7,15 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 9%
+source-wordcount: '242'
+ht-degree: 3%
 
 ---
 
 # WhatsApp 메시지 확인 및 보내기 {#send-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**목차**
-
-* [WhatsApp 메시지 시작](get-started-whatsapp.md)
-* [WhatsApp 구성 시작](whatsapp-configuration.md)
-* [WhatsApp 메시지 만들기](create-whatsapp.md)
-* **[WhatsApp 메시지 확인 및 보내기](send-whatsapp.md)**
-
->[!ENDSHADEBOX]
 
 ## WhatsApp 메시지 미리 보기 {#preview-whatsapp}
 
