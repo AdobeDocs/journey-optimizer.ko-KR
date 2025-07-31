@@ -9,16 +9,20 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 30%
+source-wordcount: '1274'
+ht-degree: 28%
 
 ---
 
 # 링크 추가 및 메시지 추적 {#tracking}
 
 [!DNL Journey Optimizer]을(를) 사용하여 콘텐츠에 링크를 추가하고 보낸 메시지를 추적하여 받는 사람의 동작을 모니터링합니다.
+
+>[!NOTE]
+>
+>콘텐츠에 링크가 포함된 경우 메시지를 보낸 후 **25개월**&#x200B;이 만료됩니다. 단, 미러 페이지에 대한 링크는 **90일** 후에 만료됩니다. 해당 지연이 경과하면 링크를 더 이상 사용할 수 없습니다.
 
 ## 추적 활성화 {#enable-tracking}
 
@@ -79,7 +83,7 @@ ht-degree: 30%
    >
    >URL을 해석하기 위해 [!DNL Journey Optimizer]은(는) URL에 일부 특수 국제 문자를 사용하지 않도록 설정하는 URI 구문([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"})을 준수합니다. 증명 또는 이메일을 전송하려고 할 때 콘텐츠에 추가된 URL과 관련된 오류가 반환되면 URL로 문자열을 인코딩할 수 있습니다.
 
-1. 링크를 개인화할 수 있습니다. [자세히 알아보기](../personalization/personalization-syntax.md#perso-urls)
+1. 링크를 개인화할 수 있습니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
 1. 변경 내용을 저장합니다.
 
@@ -91,6 +95,7 @@ ht-degree: 30%
 >
 >마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-management)가 포함되어야 합니다. 이는 트랜잭션 메시지에는 필요하지 않습니다. 메시지를 만들 때 **[!UICONTROL 채널 구성]**&#x200B;에 메시지 범주(**[!UICONTROL 마케팅]** 또는 [트랜잭션](../configuration/channel-surfaces.md#email-type))가 정의되어 있습니다.
 
+메시지를 보낸 후 링크의 유지 기간은 **25개월**&#x200B;입니다. 해당 지연 후에는 링크를 더 이상 사용할 수 없습니다.
 
 ## 미러 페이지 링크 {#mirror-page}
 
@@ -104,7 +109,7 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 
 미러 페이지가 자동으로 생성됩니다. 이메일이 전송된 후 수신자가 미러 페이지 링크를 클릭하면 이메일 콘텐츠가 기본 웹 브라우저에 표시됩니다.
 
-미러 페이지의 보존 기간은 **60일**&#x200B;입니다. 해당 기간 이후에는 미러 페이지를 더 이상 사용할 수 없습니다.
+미러 페이지의 보존 기간은 **90일**&#x200B;입니다. 해당 기간 이후에는 미러 페이지를 더 이상 사용할 수 없습니다.
 
 >[!CAUTION]
 >
@@ -177,7 +182,7 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 
 [URL 추적](email-settings.md#url-tracking)은(는) 구성 수준에서 관리되며 메시지 콘텐츠에 포함된 모든 URL에 적용됩니다.
 
-이메일 Designer에서 [개별 URL을 개인화](../personalization/personalization-syntax.md#perso-urls)할 수도 있습니다. 개인화된 URL 추적 매개 변수를 콘텐츠의 단일 링크에 추가하려면 아래 단계를 따르십시오.
+이메일 Designer에서 개별 URL을 개인화할 수도 있습니다. 개인화된 URL 추적 매개 변수를 콘텐츠의 단일 링크에 추가하려면 아래 단계를 따르십시오.
 
 1. 링크를 선택하고 상황별 도구 모음에서 **[!UICONTROL 링크 삽입]**&#x200B;을 클릭합니다.
 
@@ -185,7 +190,7 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. URL 추적 매개 변수를 추가하고 개인화 편집기에서 선택한 프로필 속성을 선택합니다.
+1. URL 추적 매개 변수를 추가하고 [개인화 편집기](../personalization/personalization-build-expressions.md)에서 선택한 프로필 특성을 선택합니다.
 
    ![](assets/message-tracking-perso-parameter.png)
 
