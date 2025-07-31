@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5eac1f0ce80d979766428d661addbeeb887cfac1
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 70%
+source-wordcount: '2053'
+ht-degree: 69%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 70%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **릴리스 일자**: 2025년 7월 29일 수요일
 
@@ -185,24 +185,23 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </table>
 -->
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Supplemental ID for journeys</strong><br/></th>
+<th><strong>여정에 대한 보조 ID</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
-<p>Previously released in Limited Availability, the use of supplemental IDs in journeys is now available to all environments. With this General Availability release, the feature now includes support for Read audience journeys.</p>
+<p>이제 주문 ID, 구독 ID 또는 처방전 ID와 같은 다른 식별자와 함께 프로필 ID를 사용하여 여정을 트리거함으로써 동일한 프로필이 한 번에 여러 차례 동일한 여정에 있도록 할 수 있습니다. 이를 통해 각 인스턴스가 자체 여정 경로를 따르면서 여러 주문 또는 구독을 동시에 관리할 수도 있습니다.</p>
+<p>이전에 [제한된 가용성]에서 릴리스된 이후에는 이제 여정에서 보조 ID를 사용할 수 있습니다. 이번 GA 릴리스에서는 이제 대상자 읽기 여정에 대한 지원이 기능에 포함됩니다.</p>
 <p><img src="assets/do-not-localize/gif-supplemental.gif"/></p>
-<p>For more information, refer to the <a href="../building-journeys/supplemental-identifier.md">detailed documentation</a></p>
+<p>자세한 내용은 <a href="../building-journeys/supplemental-identifier.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 ### 여정 조건 변경 {#ee-change@}
 
@@ -265,7 +264,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 **릴리스 일자**: 2025년 6월 18일
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#25-06-features}
 
