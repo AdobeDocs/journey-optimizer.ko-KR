@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 시드 목록, 시드 목록, 시드, 구성
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 17%
+source-wordcount: '985'
+ht-degree: 16%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 17%
 >id="ajo_seed_list_details"
 >title="시드 목록 정의"
 >abstract="보증 목적으로 특정 내부 주소를 게재 대상자에게 자동으로 추가하려면 시드 목록을 사용합니다. 시드 목록을 사용하면 발송된 메시지 사본을 모니터링하여 모든 표시 요소가 올바른지 확인하고 메일링 목록을 보호할 수 있습니다. 현재 이 기능은 이메일 채널에만 적용됩니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=ko#use-seed-list" text="시드 목록이란 무엇입니까?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="시드 목록이란 무엇입니까?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
@@ -155,5 +155,7 @@ ht-degree: 17%
 이제 해당 캠페인이나 여정을 통해 고객에게 이메일 메시지를 보낼 때마다 선택한 시드 목록의 이메일 주소도 타겟팅된 수신자와 동일한 조건으로 동시에 동일한 콘텐츠로 수신됩니다.
 
 >[!NOTE]
+>
+>[테스트 모드](../building-journeys/testing-the-journey.md) 여정이 시드 목록으로 전자 메일을 보내지 않습니다. 메일 콘텐츠를 확인하려면 메시지를 보내기 전에 [미리 보기 및 테스트](../content-management/preview-test.md) 기능을 사용하세요.
 >
 >반복 여정의 경우 하나 이상의 프로필이 이메일 노드에 도달하면 여정 실행 시 시드 주소로 이메일 게재가 전송됩니다.
