@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1a7ffacba9b90e2c018dde91814c7e321ba21135
+source-git-commit: bb3b07dc5dbb5ef50470caf52da2e10fcaf21a5e
 workflow-type: tm+mt
-source-wordcount: '2621'
-ht-degree: 92%
+source-wordcount: '2624'
+ht-degree: 91%
 
 ---
 
@@ -166,7 +166,7 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 보호 기능 및 �
 
 여정의 [이벤트](../event/about-events.md)에 다음 가드레일이 적용됩니다.
 
-* Journey Optimizer가 지원하는 인바운드 여정 이벤트의 최대 볼륨은 초당 5,000개입니다.
+* 각 조직에 대해 Journey Optimizer은 초당 최대 5,000개의 인바운드 여정 이벤트를 지원합니다.
 * 이벤트 트리거 여정의 첫 번째 액션을 처리하는 데에는 최대 5분이 걸릴 수 있습니다.
 * 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Optimizer 내에서 구성해야 합니다.. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다. 
 * 비즈니스 이벤트는 단일 이벤트 또는 대상자 선별 활동과 함께 사용할 수 없습니다. 
