@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '2053'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 69%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **릴리스 일자**: 2025년 7월 29일 수요일
 
@@ -205,7 +205,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 여정 조건 변경 {#ee-change@}
 
-7월 8일부터 새로운 고객 조직에서는 경험 이벤트를 사용하여 표현식을 만드는 것이 여정 조건에 사용되는 표현식 편집기에서 더 이상 지원되지 않습니다. 따라서 표현식을 만드는 데 [Experience Platform 데이터 소스](../datasource/adobe-experience-platform-data-source.md)의 경험 이벤트를 사용할 수 없습니다. 경험 이벤트를 사용하여 표현식/논리를 만드는 다른 방법 및 모범 사례는 [여기](../building-journeys/exp-event-lookup.md)에서 참조할 수 있습니다.
+7월 8일부로 신규 고객 조직의 경우 여정 조건에 사용하는 표현식 편집기에서 경험 이벤트를 사용하여 표현식을 만드는 작업이 지원되지 않습니다. 따라서 표현식을 만드는 데 [Experience Platform 데이터 소스](../datasource/adobe-experience-platform-data-source.md)의 경험 이벤트를 사용할 수 없습니다. 경험 이벤트를 사용하여 표현식/논리를 만드는 다른 방법 및 모범 사례는 [여기](../building-journeys/exp-event-lookup.md)에서 참조할 수 있습니다.
 
 단일 여정에서 여정 컨텍스트 이벤트 데이터에 액세스하는 방법에는 변화가 없습니다. 사용자는 계속 표현식 편집기 및 개인화 편집기에서 초기 여정 이벤트로 전달된 데이터에 액세스할 수 있습니다.
 
@@ -264,7 +264,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 **릴리스 일자**: 2025년 6월 18일
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#25-06-features}
 

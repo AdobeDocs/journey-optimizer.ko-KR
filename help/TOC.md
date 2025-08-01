@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '2594'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -179,22 +179,22 @@ ht-degree: 95%
       + [여정 오류 문제 해결](using/building-journeys/troubleshooting.md)
       + [여정 실행 문제 해결](using/building-journeys/troubleshooting-execution.md)
       + [인바운드 액션 문제 해결](using/building-journeys/troubleshooting-inbound.md)
-      + [사용자 지정 작업 문제 해결](using/action/troubleshoot-custom-action.md)
+      + [사용자 정의 액션 문제 해결](using/action/troubleshoot-custom-action.md)
 + 캠페인 {#campaigns}
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 액세스 및 관리](using/campaigns/modify-stop-campaign.md)
    + 액션 캠페인 {#action-campaigns}
-      + [액션 캠페인을 작업하십시오.](using/campaigns/create-campaign.md)
+      + [액션 캠페인 작업](using/campaigns/create-campaign.md)
       + [캠페인 속성 정의](using/campaigns/campaign-properties.md)
-      + [캠페인 작업 구성](using/campaigns/campaign-action.md)
+      + [캠페인 액션 구성](using/campaigns/campaign-action.md)
       + [캠페인 콘텐츠 편집](using/campaigns/campaign-content.md)
       + [캠페인 대상자 정의](using/campaigns/campaign-audience.md)
       + [캠페인 예약](using/campaigns/campaign-schedule.md)
       + [액션 캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
    + API 트리거 캠페인 {#api-triggered-campaigns}
-      + [API 트리거 캠페인을 작업하십시오](using/campaigns/api-triggered-campaigns.md)
+      + [API 트리거 캠페인 작업](using/campaigns/api-triggered-campaigns.md)
       + [캠페인 속성 정의](using/campaigns/api-triggered-campaign-properties.md)
-      + [캠페인 작업 구성](using/campaigns/api-triggered-campaign-action.md)
+      + [캠페인 액션 구성](using/campaigns/api-triggered-campaign-action.md)
       + [캠페인 콘텐츠 편집](using/campaigns/api-triggered-campaign-content.md)
       + [캠페인 대상자 정의](using/campaigns/api-triggered-campaign-audience.md)
       + [캠페인 예약](using/campaigns/api-triggered-campaign-schedule.md)

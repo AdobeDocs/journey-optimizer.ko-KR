@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="캠페인 일정"
->abstract="기본적으로 캠페인은 수동 활성화 시 시작되고 메시지가 전송된 후에 즉시 종료됩니다. 메시지를 보낼 특정 날짜와 시간을 유연하게 설정할 수 있습니다. 또한 반복적인 액션 캠페인의 종료 날짜를 지정할 수 있습니다. 액션 트리거에서 환경 설정에 맞게 메시지 전송 빈도를 구성할 수도 있습니다."
+>abstract="기본적으로 캠페인은 수동 활성화 시 시작되고 메시지가 전송된 후에 즉시 종료됩니다. 메시지를 보낼 특정 날짜와 시간을 유연하게 설정할 수 있습니다. 또한 되풀이 액션 캠페인의 종료 날짜를 지정할 수 있습니다. 액션 트리거에서 환경 설정에 맞게 메시지 전송 빈도를 구성할 수도 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -64,13 +64,13 @@ Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 대상
 
 Journey Optimizer에서 다양한 유형의 캠페인을 만들 수 있습니다.
 
-* **작업 캠페인**
+* **액션 캠페인**
 
-  작업 캠페인(또는 예약된 캠페인)을 사용하면 프로모션 오퍼, 참여 캠페인, 공지, 법적 고지 사항 또는 정책 업데이트와 같은 마케팅 사용 사례에 대한 간단한 애드혹 일괄 커뮤니케이션을 수행할 수 있습니다.
+  액션 캠페인(또는 예약 캠페인)을 사용하면 프로모션 제안, 참여 캠페인, 공지, 법적 고지 또는 정책 업데이트와 같은 마케팅 사용 사례에 대한 간단한 임시 일괄 커뮤니케이션을 수행할 수 있습니다.
 
 * **API 트리거 캠페인**
 
-  API 트리거 캠페인을 사용하면 마케팅 커뮤니케이션이 적시에 대상자에게 연락하거나, 암호 재설정과 같은 개인에 대한 트랜잭션/운영 메시지를 보낼 수 있습니다. 여기에서는 프로필 속성뿐만 아니라 REST API 페이로드인 트리거에서 실시간 컨텍스트 데이터를 사용하여 개인화가 필요할 수 있습니다.
+  API 트리거 캠페인을 사용하면 적시에 마케팅 커뮤니케이션을 대상자에게 보내거나 암호 재설정 등 개인에 대한 트랜잭션/운영 메시지를 보낼 수 있습니다. 이 경우 프로필 속성뿐만 아니라 실시간 상황 데이터, 즉 REST API 페이로드를 사용한 개인화가 필요할 수 있습니다.
 
 <!--* **Orchestrated campaigns**
 
@@ -80,15 +80,15 @@ Journey Optimizer에서 다양한 유형의 캠페인을 만들 수 있습니다
 
 ## 시작하기 전 {#campaign-prerequisites}
 
-[!DNL Journey Optimizer]에서 첫 번째 캠페인 만들기를 시작하기 전에 다음 사전 요구 사항을 확인하십시오.
+[!DNL Journey Optimizer]에서 캠페인을 처음으로 만들 때는 먼저 다음 전제 조건을 확인해야 합니다.
 
-1. **적절한 권한이 필요합니다**. 캠페인은 캠페인 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 뷰어와 같은 캠페인 관련 **[!UICONTROL 제품 프로필]**&#x200B;에 액세스할 수 있는 사용자만 사용할 수 있습니다. 캠페인에 액세스할 수 없는 경우 권한을 확장해야 합니다.
+1. **적절한 권한이 필요합니다**. 캠페인은 캠페인 전체 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 확인자 등 캠페인 관련 **[!UICONTROL 제품 프로필]**&#x200B;에 대한 액세스 권한이 있는 사용자만 사용할 수 있습니다. 캠페인에 액세스할 수 없는 경우 권한을 확장해야 합니다. 
 
    +++캠페인 관련 역할 할당하는 방법 알아보기
 
    1. [!DNL Permissions] 제품에서 사용자에게 역할을 할당하려면 **[!UICONTROL 역할]** 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]**, wmr 캠페인 관리자(administrator), 캠페인 승인자, 캠페인 관리자(manager) 또는 캠페인 뷰어 중 하나를 선택하십시오.
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
    1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;합니다.
 
@@ -96,18 +96,18 @@ Journey Optimizer에서 다양한 유형의 캠페인을 만들 수 있습니다
 
    그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
 
-   +++
++++
 
-1. **대상자가 필요합니다**. 캠페인을 만들기 전에 대상자를 사용할 수 있어야 합니다. [대상자 시작](../audience/about-audiences.md).
+1. **대상자가 필요합니다**. 캠페인을 만들기 전에 대상자를 사용할 수 있어야 합니다. [대상자 시작하기](../audience/about-audiences.md).
 
 1. **채널 구성이 필요합니다**. 채널을 선택하려면 해당 채널 구성(즉, 사전 설정)을 만들고 사용할 수 있는 상태로 설정해야 합니다. [채널 구성을 설정하는 방법을 알아봅니다](../configuration/channel-surfaces.md).
 
 ## 더 자세히 알아보기
 
-[!DNL Journey Optimizer]의 캠페인에 대해 이해했으므로 이 설명서 섹션을 자세히 살펴보고 첫 번째 캠페인을 만들어야 합니다.
+[!DNL Journey Optimizer]의 캠페인에 대해 이해했다면 이 설명서 섹션을 자세히 살펴보고 첫 번째 캠페인을 만들 차례입니다.
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="작업 캠페인" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">액션 캠페인</a></td>
+<td><a href="create-campaign.md"><img alt="액션 캠페인" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">액션 캠페인</a></td>
 <td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">API 트리거 캠페인</a></td>
 </tr></table>
 
