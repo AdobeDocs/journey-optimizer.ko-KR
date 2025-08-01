@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 25%
+source-wordcount: '521'
+ht-degree: 24%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.
+>의사 결정 정책 은 코드 기반 경험 및 이메일 캠페인에서만 사용할 수 있습니다.
 
 ➡️ 의사 결정을 만들고 코드 기반 경험 채널을 사용한 콘텐츠 실험에 사용하는 방법을 보여 주는 전체적인 사용 사례가 [이 섹션](experience-decisioning-uc.md)에 나와 있습니다.
 
@@ -44,7 +44,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
       ![](assets/decision_permission_1.png)
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
       ![](assets/decision_permission_2.png)
 
@@ -56,7 +56,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
    그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
 
-   +++
++++
 
 1. **사용자 지정 특성을 구성합니다**: 사용자 지정 특성을 카탈로그의 스키마로 설정하여 항목 카탈로그를 특정 요구 사항에 맞게 조정하십시오.
 
