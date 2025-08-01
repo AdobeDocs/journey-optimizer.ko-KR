@@ -37,7 +37,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 >[!NOTE]
 >
->2024년 11월 1일부로 스트리밍 세분화는 더 이상 [!DNL Journey Optimizer] 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트를 지원하지 않습니다. 빈도 캡핑 또는 피로도 관리를 구현하려면 해당 이벤트 대신 비즈니스 규칙을 사용하십시오. [이 섹션](../conflict-prioritization/rule-sets.md)에서 자세한 내용을 확인할 수 있으며, [여기](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}에는 일별 캡핑 사용 사례 설명이 있습니다.
+>2024년 11월 1일부로 스트리밍 세분화는 더 이상 [!DNL Journey Optimizer] 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트를 지원하지 않습니다. 빈도 캡핑 또는 피로도 관리를 구현하려면 해당 이벤트 대신 비즈니스 규칙을 사용하십시오. [이 섹션](../conflict-prioritization/rule-sets.md)에서 자세한 내용을 확인할 수 있으며, [여기](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ko){target="_blank"}에는 일별 캡핑 사용 사례 설명이 있습니다.
 >
 >또한 2025년 2월부로 TTL(Time-to-Live) 가드레일이 Journey Optimizer 시스템 생성 데이터 세트에 배포됩니다. [자세히 알아보기](datasets-ttl.md)
 
