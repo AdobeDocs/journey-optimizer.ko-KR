@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 81%
+ht-degree: 77%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="분할 활동 필터"
->abstract="하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 쿼리 모델러를 사용하여 원하는 필터링 조건을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 집단의 프로필을 포함합니다."
+>abstract="하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 규칙 빌더를 사용하여 원하는 필터링 규칙을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 집단의 프로필을 포함합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"
@@ -107,7 +107,7 @@ ht-degree: 81%
 
    1. 하위 집합을 클릭하여 설정을 엽니다.
 
-   1. 쿼리 모델러를 사용하여 필터링 규칙을 정의하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭합니다. 예를 들어 유효한 이메일 주소를 가진 프로필을 선택하기 위해 필터링할 수 있습니다.
+   1. **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하여 규칙 빌더를 사용하여 필터링 규칙을 정의합니다. 예를 들어 올바른 전자 메일 주소가 있는 프로필을 선택합니다.
 
       ![](../assets/orchestrated-split-1.png)
 
