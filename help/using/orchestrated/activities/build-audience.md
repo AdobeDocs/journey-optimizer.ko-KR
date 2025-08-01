@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 57%
+ht-degree: 53%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 57%
 
 1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
-1. 쿼리 모델러를 사용하여 쿼리를 정의합니다. [이 섹션에서 쿼리 모델러에 대해 자세히 알아보기](../orchestrated-rule-builder.md)
+1. 규칙 빌더를 사용하여 쿼리를 정의합니다. [이 섹션에서 규칙 빌더에 대해 자세히 알아보기](../orchestrated-rule-builder.md)
 
 1. 대상자가 비어 있을 때 아웃바운드 전환을 생성할지 여부를 지정합니다.
 

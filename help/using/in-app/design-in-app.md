@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 27%
+source-wordcount: '1222'
+ht-degree: 26%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 27%
 
 **[!UICONTROL 고급 서식 설정]** 전환은 환경을 사용자 지정하는 추가 옵션을 활성화합니다.
 
-인앱 메시지가 만들어지고 콘텐츠가 정의되고 개인화되면 이를 검토하고 활성화할 수 있습니다. 그러면 캠페인 일정에 따라 알림이 전송됩니다. [이 페이지](send-in-app.md)에서 자세히 알아보세요.
+인앱 메시지가 만들어지고 콘텐츠가 정의되고 개인화되면 이를 검토하고 활성화할 수 있습니다. 그러면 캠페인 일정에 따라 알림이 전송됩니다. [이 페이지](send-in-app.md)에서 자세히 알아보십시오.
 
 ## 메시지 레이아웃 {#message-layout}
 
@@ -240,6 +240,22 @@ ht-degree: 27%
 
 +++
 
+## 데이터 탭 {#data-tab}
+
+**데이터** 탭에서 페이로드에 사용자 지정 변수를 포함하도록 **[!UICONTROL 키]** &#x200B; 및 **[!UICONTROL 값]**&#x200B;을 정의할 수 있습니다. 이러한 키/값 쌍을 사용하면 특정 구성에 따라 추가 데이터를 전달할 수 있습니다.
+
+자세한 내용은 [개발자 설명서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/)를 참조하세요.
+
+1. **[!UICONTROL 데이터]** 탭에서 **[!UICONTROL 키/값 쌍 추가]**&#x200B;를 선택합니다.
+
+   ![](assets/in-app-data-menu.png)
+
+1. **[!UICONTROL Key]** 및 **[!UICONTROL Value&#x200B;]** 필드를 채웁니다.
+
+   ![](assets/in-app-data-menu-1.png)
+
+1. 필요한 쌍을 삭제하려면 ![](assets/do-not-localize/Smock_Delete_18_N.svg)을(를) 클릭하십시오.
+
 **관련 항목:**
 
 * [인앱 메시지 만들기](create-in-app.md)
@@ -250,4 +266,4 @@ ht-degree: 27%
 
 아래 비디오에서는 인앱 메시지를 작성하고 테스트하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422079?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

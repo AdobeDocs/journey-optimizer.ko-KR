@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 5e52573689ab06084441390299b01e112e699244
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 56%
+source-wordcount: '841'
+ht-degree: 54%
 
 ---
 
@@ -73,11 +73,7 @@ ht-degree: 56%
 
 각 활동에 직접 표시되는 [시각적 상태 표시기](#activities)를 사용하여 실패한 활동을 빠르게 식별할 수도 있습니다. 자세한 문제 해결 방법이 필요한 경우 오류와 오류 발생 컨텍스트에 대해 상세한 정보를 제공하는 [캠페인의 로그](#logs-tasks)를 엽니다.
 
-<!--WAITING FOR PM's TEST TO UNHIDE
-
-If you have added channel activities in the canvas, you can preview and test the content of your messages using the **[!UICONTROL Simulate Content]** button. [Learn how to work with channel activities](activities/channels.md)
-
--->
+캔버스에 채널 활동을 추가한 경우 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용하여 메시지 콘텐츠를 미리 보고 테스트할 수 있습니다. [채널 활동을 사용하여 작업하는 방법을 알아봅니다](activities/channels.md)
 
 유효성을 검사하면 캠페인을 게시할 수 있습니다.
 

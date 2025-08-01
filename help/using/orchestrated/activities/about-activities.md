@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 59%
@@ -53,7 +53,7 @@ ht-degree: 59%
 
 ![타기팅 활동 목록](../assets/targeting-activities.png){width="40%" align="left"}
 
-* [대상자 작성](build-audience.md): 대상 집단을 정의합니다. 기존 대상자를 선택하거나 쿼리 모델러를 사용하여 자체 쿼리를 정의할 수 있습니다.
+* [대상자 작성](build-audience.md): 대상 집단을 정의합니다. 기존 대상자를 선택하거나 규칙 빌더를 사용하여 자체 쿼리를 정의할 수 있습니다.
 * [차원 변경](change-dimension.md): 오케스트레이션된 캠페인을 빌드할 때 타깃팅 차원을 변경합니다.
 * [결합](combine.md): 인바운드 집단에 세분화를 수행합니다. 합집합, 교차 또는 제외를 사용할 수 있습니다.
 * [중복 제거](deduplication.md): 인바운드 활동의 결과에서 중복 항목을 삭제합니다.

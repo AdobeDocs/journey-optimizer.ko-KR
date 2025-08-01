@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
-source-git-commit: 8f0b53a4a07feffda4d28bb9e321596503293b03
-workflow-type: ht
-source-wordcount: '182'
+source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+workflow-type: tm+mt
+source-wordcount: '159'
 ht-degree: 100%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 100%
 # LINE 시작 {#get-started-line}
 
 [!DNL Journey Optimizer]에서 고객의 LINE 앱으로 LINE 메시지를 보냅니다. LINE 편집기에서 메시지를 만들고 개인화하고 미리 볼 수 있습니다.
-
->[!AVAILABILITY]
->
->Adobe Journey Optimizer 고객은 요청 시 LINE 채널을 활성화할 수 있습니다. 조직에서 해당 기능을 활성화하려면 Adobe 담당자에게 문의하십시오.
 
 LINE 메시지는 여정 또는 캠페인에서 만들고 보낼 수 있습니다. 
 
