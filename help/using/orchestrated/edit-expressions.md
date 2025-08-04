@@ -10,7 +10,7 @@ exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '2150'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 | 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
 |---|---|---|---|
-| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](gs-schemas.md)</li><li>[수동 스키마](manual-schema.md)</li><li>[파일 업로드 스키마](file-upload-schema.md)</li><li>[데이터 수집](ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md)<br/><br/>[오케스트레이션된 캠페인을 만드는 주요 단계](gs-campaign-creation.md) | [캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/><b>[표현식 편집](edit-expressions.md)</b><br/><br/>[리타기팅](retarget.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[And 조인](activities/and-join.md) - [대상자 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [채널 활동](activities/channels.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [대상자 저장](activities/save-audience.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
+| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](gs-schemas.md)</li><li>[수동 스키마](manual-schema.md)</li><li>[파일 업로드 스키마 ](file-upload-schema.md)</li><li>[데이터 수집](ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md)<br/><br/>[오케스트레이션된 캠페인을 만드는 주요 단계](gs-campaign-creation.md) | [캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/><b>[표현식 편집](edit-expressions.md)</b><br/><br/>[리타기팅](retarget.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[And 조인](activities/and-join.md) - [대상자 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [채널 활동](activities/channels.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [대상자 저장](activities/save-audience.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
+이 페이지의 콘텐츠는 최종본이 아니며 변경될 수 있습니다.
 
 >[!ENDSHADEBOX]
 
@@ -223,7 +223,7 @@ ht-degree: 97%
 <td>HoursDiff(&lt;종료 일자&gt;, &lt;시작 일자&gt;)</td>
 </tr>
 <tr>
-<td><strong>분</strong></td>
+<td><strong>Minute</strong></td>
 <td>날짜의 분을 반환합니다</td>
 <td>Minute(&lt;날짜&gt;)</td>
 </tr>
@@ -315,7 +315,7 @@ ht-degree: 97%
 <tr>
 <td><strong>ToTimeZone</strong></td>
 <td>날짜 + 시간을 시간대로 변환합니다</td>
-<td>ToTimeZone(&lt;날짜&gt;, &lt;time zone&gt;)</td>
+<td>ToTimeZone(&lt;날짜&gt;, &lt;시간대&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncDate</strong></td>
@@ -325,7 +325,7 @@ ht-degree: 97%
 <tr>
 <td><strong>TruncDateTZ</strong></td>
 <td>날짜 + 시간을 초 단위로 표시된 지정된 정밀도로 반올림합니다</td>
-<td>TruncDateTZ(&lt;날짜&gt;, &lt;초 수&gt;, &lt;time zone&gt;)</td>
+<td>TruncDateTZ(&lt;날짜&gt;, &lt;초 수&gt;, &lt;시간대&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncQuarter</strong></td>
@@ -353,7 +353,7 @@ ht-degree: 97%
 <td>WeekDay(&lt;날짜&gt;)</td>
 </tr>
 <tr>
-<td><strong>연도</strong></td>
+<td><strong>Year</strong></td>
 <td>날짜의 연도를 나타내는 숫자를 반환합니다</td>
 <td>Year(&lt;날짜&gt;)</td>
 </tr>
