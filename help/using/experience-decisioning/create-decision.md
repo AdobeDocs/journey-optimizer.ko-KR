@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2495'
 ht-degree: 11%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 11%
 * **추적 및 링크 유형** - 의사 결정에 의해 생성된 링크를 추적하려면 스키마에서 &quot;Decisioning Assets&quot;로 정의하십시오. 속성 기반 링크는 추적할 수 없습니다.
 * **전자 메일에 의사 결정 정책 중첩** - 이미 연결된 의사 결정 정책이 있는 상위 전자 메일 구성 요소에 여러 의사 결정 정책을 중첩할 수 없습니다.
 * **의사 결정 기능이 있는 중복된 여정/캠페인** - 의사 결정 정책이 포함된 여정 또는 캠페인을 복제하는 경우 복제된 버전이 원본 전자 메일 또는 코드 기반 경험을 참조하므로 오류가 발생합니다. 항상 복제 후 결정 정책을 재구성합니다.
-* **동의 정책** - 동의 정책 업데이트는 적용되는 데 최대 24시간이 걸릴 수 있습니다. 의사 결정 정책이 최근에 업데이트된 동의 정책에 연결된 속성을 참조하는 경우 변경 사항이 즉시 적용되지 않습니다.
+* **동의 정책** - 동의 정책 업데이트는 적용되는 데 최대 48시간이 걸립니다. 의사 결정 정책이 최근에 업데이트된 동의 정책에 연결된 속성을 참조하는 경우 변경 사항이 즉시 적용되지 않습니다.
 
   마찬가지로 동의 정책의 대상인 새 프로필 속성이 의사 결정 정책에 추가되면 사용할 수 있지만 지연이 경과할 때까지 연결된 동의 정책이 적용되지 않습니다.
 
@@ -118,7 +118,7 @@ ht-degree: 11%
 
       ![](assets/decision-code-based-create.png)
 
-   +++
++++
 
    +++이메일 Designer **[!UICONTROL 의사 결정]** 메뉴
 
@@ -128,7 +128,7 @@ ht-degree: 11%
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. 이름을 입력하고 카탈로그를 선택하십시오(현재 기본 **[!UICONTROL 오퍼]** 카탈로그로 제한됨).
 
@@ -236,7 +236,7 @@ ht-degree: 11%
 
      이제 등급 오퍼는 다음과 같습니다. 오퍼 5 , 오퍼 3, 오퍼 4, 오퍼 2, 오퍼 1, 오퍼 6.
 
-   +++
++++
 
 1. **[!UICONTROL 다음]** 클릭
 
@@ -291,13 +291,13 @@ ht-degree: 11%
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
    +++코드 기반 환경에 의사 결정 정책 코드 삽입
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ ht-degree: 11%
 >[!NOTE]
 >
 >결정 정책 항목 추적의 경우 결정 정책 콘텐츠에 대해 `trackingToken` 특성을 다음과 같이 추가해야 합니다.
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 각 폴더를 클릭하여 확장합니다. 원하는 위치에 마우스 커서를 놓고 추가하려는 속성 옆에 있는 + 아이콘을 클릭합니다. 코드에 원하는 수만큼 속성을 추가할 수 있습니다.
 
