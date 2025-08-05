@@ -6,10 +6,11 @@ description: Journey Optimizer을 사용하여 LINE 메시지를 전송하도록
 feature: Line, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
+exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
+source-git-commit: bc734ed1249b1ec186eb5f479d605bafee8a1d06
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 4%
+source-wordcount: '351'
+ht-degree: 6%
 
 ---
 
@@ -51,3 +52,56 @@ ht-degree: 4%
 1. 변경 사항을 제출합니다.
 
 이제 LINE 메시지를 만들 때 구성을 선택할 수 있습니다.
+
+## LINE 채널 설정 API 구성 {#line-api}
+
+이 API는 LINE 메시징 API에 연결하는 데 필요한 권한 부여 및 구성 세부 정보를 저장하는 채널 설정을 설정합니다. 이러한 설정을 통해 Adobe Journey Optimizer은 제공된 자격 증명을 사용하여 LINE을 통해 메시지를 인증하고 보낼 수 있습니다.
+
+**끝점**
+
+```
+POST https://platform.adobe.io/journey/imp/config/channel-settings
+```
+
+| 헤더 이름 | 설명 |
+|-|-|
+| Authorization | 기술 계정의 사용자 토큰 |
+| x-api-key | Adobe Developer Console의 클라이언트 ID |
+| x-gw-ims-org-id | IMS 조직 ID |
+| x-sandbox-name | 샌드박스 이름(예: prod) |
+| Content-Type | application/json이어야 합니다. |
+
+
+**요청 본문**
+
+```json
+{
+    "name": "your_defined_name",
+    "channelRegistryId": "line",
+    "channel": "line",
+    "channelSettings": {
+        "channelId": "your_line_channel_id",
+        "channelSecret": "your_line_channel_secret"
+    }
+}
+```
+
+**채널 설정 응답**
+
+```json
+{
+"id": "3603ed66-ae86-42b8-8a90-d4b4e54e7c3b",
+"name": "your_defined_name",
+"channelRegistryId": "line",
+"channel": "line",
+"channelSettings": {
+    "channelId": "your_line_channel_id",
+    "channelSecret": "your_line_channel_secret"
+    },
+    "channelPublicationId": "v1_line",
+    "createdAt": "2025-07-30T12:00:00.000Z",
+    "modifiedAt": "2025-07-30T12:00:00.000Z",
+    "isFromLatestVersion": true,
+    "_etag": "\"eab98d24-18af-48ae-90f9-e59d4f8cfb2b\""
+}
+```
