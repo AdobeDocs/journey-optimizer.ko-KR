@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 구성 단계
 description: 사용자 인터페이스를 통해 직접 관계형 스키마를 만드는 방법을 알아봅니다.
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 9%
+source-wordcount: '832'
+ht-degree: 3%
 
 ---
 
+
 # 수동 관계형 스키마 설정 {#manual-schema}
-
-+++ 목차
-
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
-|---|---|---|---|
-| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br><ul><li>[스키마 및 데이터 세트 시작](gs-schemas.md)</li><li>[수동 스키마](manual-schema.md)</li><li>[파일 업로드 스키마](file-upload-schema.md)</li><li>[데이터 수집](ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md)<br/><br/>[오케스트레이션된 캠페인을 만드는 주요 단계](gs-campaign-creation.md) | [캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md)<br/><br/>[리타기팅](retarget.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[And 조인](activities/and-join.md) - [대상자 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [채널 활동](activities/channels.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [대상자 저장](activities/save-audience.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-</br>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
-
->[!ENDSHADEBOX]
 
 사용자 인터페이스를 통해 직접 관계형 스키마를 생성할 수 있으므로 속성, 기본 키, 버전 관리 필드 및 관계를 세부적으로 구성할 수 있습니다.
 
@@ -67,8 +45,6 @@ Adobe Experience Platform에서 수동으로 새 관계형 스키마를 생성�
 1. 필드를 수동으로 추가하여 스키마를 작성하려면 **[!UICONTROL 수동으로 만들기]**&#x200B;를 선택하십시오.
 
 1. **[!UICONTROL 스키마 표시 이름]**&#x200B;을 입력하십시오.
-
-1. **[!UICONTROL 레코드]**&#x200B;을(를) **[!UICONTROL 스키마 동작]**(으)로 선택하십시오.
 
    ![](assets/schema_manual_8.png){zoomable="yes"}
 

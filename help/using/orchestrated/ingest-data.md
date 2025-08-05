@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 구성 단계
 description: SFTP, 클라우드 스토리지 또는 데이터베이스와 같이 지원되는 소스에서 Adobe Experience Platform으로 데이터를 가져오는 방법을 알아봅니다.
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 36%
+source-wordcount: '656'
+ht-degree: 22%
 
 ---
 
+
 # 데이터 수집 {#ingest-data}
-
-+++ 목차
-
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
-|---|---|---|---|
-| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리</br> <ul><li>[스키마 및 데이터 세트 시작](gs-schemas.md)</li><li>[수동 스키마](manual-schema.md)</li><li>[파일 업로드 스키마](file-upload-schema.md)</li><li>[데이터 수집](ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md)<br/><br/>[오케스트레이션된 캠페인을 만드는 주요 단계](gs-campaign-creation.md) | [캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md)<br/><br/>[리타기팅](retarget.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[And 조인](activities/and-join.md) - [대상자 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [채널 활동](activities/channels.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [대상자 저장](activities/save-audience.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-</br>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
-
->[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -58,33 +36,53 @@ Adobe Experience Platform을 사용하면 외부 소스에서 데이터를 수�
   <tbody>
     <tr>
       <td rowspan="3">클라우드 스토리지</td>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google 클라우드 스토리지</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google 클라우드 스토리지</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">클라우드 데이터 웨어하우스</td>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">데이터 랜딩 구역<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">데이터 랜딩 구역<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">파일 기반 업로드</td>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">로컬 파일 업로드<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">로컬 파일 업로드<a></td>
     </tr>
 
 </tbody>
 </table>
+
+## 관계형 스키마 데이터 위생 지침 {#cdc}
+
+**[!UICONTROL 데이터 캡처 변경]**&#x200B;을 통해 활성화된 데이터 세트의 경우 삭제를 포함한 모든 데이터 변경 내용이 소스 시스템에서 Adobe Experience Platform으로 자동으로 미러링됩니다.
+
+Adobe Journey Optimizer Campaign에서 **[!UICONTROL 데이터 캡처 변경]**&#x200B;을 통해 온보딩된 모든 데이터 세트를 활성화해야 하므로 소스에서 삭제를 관리하는 것은 고객의 책임입니다. 소스 시스템에서 삭제된 모든 레코드는 Adobe Experience Platform의 해당 데이터 세트에서 자동으로 제거됩니다.
+
+파일 기반 수집을 통해 레코드를 삭제하려면 고객의 데이터 파일에서 `D` 필드의 `Change Request Type` 값을 사용하여 레코드를 표시해야 합니다. 이는 소스 시스템을 미러링하여 Adobe Experience Platform에서 레코드를 삭제해야 함을 나타냅니다.
+
+고객이 원래 소스 데이터에 영향을 주지 않고 Adobe Experience Platform에서만 레코드를 삭제하려는 경우 다음 옵션을 사용할 수 있습니다.
+
+* **변경 데이터 캡처 복제를 위한 프록시 또는 정리된 테이블**
+
+  고객은 프록시 또는 정리된 소스 테이블을 만들어 Adobe Experience Platform에 복제되는 레코드를 제어할 수 있습니다. 그런 다음 이 중간 테이블에서 삭제를 선택적으로 관리할 수 있습니다.
+
+* **Data Distiller을 통한 삭제**
+
+  라이선스가 부여된 경우 **Data Distiller**&#x200B;을(를) 사용하여 소스 시스템과 관계없이 Adobe Experience Platform 내에서 직접 삭제 작업을 지원할 수 있습니다.
+
+  [데이터 Distiller에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## 데이터 흐름 구성
 
@@ -105,6 +103,8 @@ Adobe Experience Platform을 사용하면 외부 소스에서 데이터를 수�
    ![](assets/S3_config_1.png)
 
 1. **[!UICONTROL 데이터 세트 세부 정보]** 페이지에서 **[!UICONTROL 데이터 캡처 변경 사용]**&#x200B;을 선택하여 관계형 스키마에 매핑되고 기본 키와 버전 설명자가 모두 포함된 데이터 세트만 표시합니다.
+
+[관계형 스키마 데이터 위생 지침에 대해 자세히 알아보십시오](#cdc)
 
    >[!IMPORTANT]
    >
@@ -133,4 +133,5 @@ Adobe Experience Platform을 사용하면 외부 소스에서 데이터를 수�
 1. **[!UICONTROL 연결]** 메뉴에서 **[!UICONTROL 소스]**&#x200B;를 선택하고 **[!UICONTROL 데이터 흐름]** 탭에 액세스하여 흐름 실행을 추적하고 수집된 레코드를 검토하며 오류 문제를 해결합니다.
 
    ![](assets/S3_config_5.png)
+
 

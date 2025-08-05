@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1451'
 ht-degree: 22%
@@ -31,13 +31,15 @@ ht-degree: 22%
 >title="브랜드 선택"
 >abstract="브랜드를 선택하여 콘텐츠가 브랜드의 특정 지침, 기준 및 정체성에 맞게 제작되도록 하여 일관성과 브랜드 무결성을 유지합니다."
 
->[!AVAILABILITY]
->
->Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 브랜드 지침은 브랜드의 시각적 및 언어적 정체성을 확립하는 상세한 규칙 및 표준 세트입니다. 모든 마케팅 및 커뮤니케이션 플랫폼에서 일관된 브랜드 표현을 유지하는 참조 역할을 합니다.
 
 이제 [!DNL Journey Optimizer]에서 브랜드 세부 정보를 수동으로 입력 및 구성하거나 자동 정보 추출을 위해 브랜드 지침 문서를 업로드할 수 있습니다.
+
+>[!AVAILABILITY]
+>
+>Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+
 
 ## 브랜드 액세스 {#generative-access}
 

@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 대상자 저장 활동 사용
 description: 오케스트레이션된 캠페인에서 대상자 저장 활동을 사용하는 방법을 알아봅니다
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 27%
+source-wordcount: '520'
+ht-degree: 17%
 
 ---
+
 
 # 대상자 저장 {#save-audience}
 
@@ -21,31 +19,10 @@ ht-degree: 27%
 >title="대상자 저장 활동"
 >abstract="**대상자 저장** 활동은 오케스트레이션된 캠페인에서 이전에 생성된 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있는 **타깃팅** 활동입니다. 이 대상자를 만들면 애플리케이션 대상자 목록에 추가되며 **대상자** 메뉴에서 액세스할 수 있습니다."
 
-
-+++ 목차
-
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
-|---|---|---|---|
-| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](../gs-schemas.md)</li><li>[수동 스키마](../manual-schema.md)</li><li>[파일 업로드 스키마](../file-upload-schema.md)</li><li>[데이터 수집](../ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](../access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인을 만드는 주요 단계](../gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [규칙 빌더로 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md)<br/><br/>[리타기팅](../retarget.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[And 조인](and-join.md) - [대상자 빌드](build-audience.md) - [차원 변경](change-dimension.md) - [채널 활동](channels.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - <b>[대상자 저장](save-audience.md)</b> - [분할](split.md) - [대기](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
-
->[!ENDSHADEBOX]
-
 **[!UICONTROL 대상자 저장]** 활동은 오케스트레이션된 캠페인에서 이전에 생성된 모집단을 기반으로 새 대상자를 만들거나 기존 대상자를 업데이트하는 데 사용되는 **[!UICONTROL 타깃팅]** 활동입니다. 저장하면 응용 프로그램 대상자 목록에 대상자가 추가되고 **[!UICONTROL 대상자]** 메뉴에서 액세스할 수 있습니다.
 
-일반적으로 동일한 캠페인 내에 구축된 대상 세그먼트를 캡처하여 향후 캠페인에서 재사용할 수 있도록 하는 데 사용됩니다. 일반적으로 최종 타깃팅된 모집단을 저장하기 위해 **[!UICONTROL 대상 만들기]** 또는 **[!UICONTROL 결합]**&#x200B;과 같은 다른 타깃팅 활동과 연결됩니다.
+일반적으로 동일한 캠페인 워크플로우 내에 구축된 대상 세그먼트를 캡처하여 향후 캠페인에서 재사용할 수 있도록 하는 데 사용됩니다. 일반적으로 최종 타깃팅된 모집단을 저장하기 위해 **[!UICONTROL 대상 만들기]** 또는 **[!UICONTROL 결합]**과 같은 다른 타깃팅 활동과 연결됩니다.
+**[!UICONTROL 대상자 저장]** 활동을 사용하면 기존 대상자를 업데이트할 수 없습니다. 새 대상자를 만들거나 기존 대상자를 새 정의로 덮어쓸 수만 있습니다.
 
 ## 대상자 저장 활동 구성 {#save-audience-configuration}
 
@@ -55,17 +32,27 @@ ht-degree: 27%
 
 1. 저장된 대상자를 식별하는 **[!UICONTROL 대상자 레이블]**&#x200B;을 입력합니다.
 
-1. 캠페인 타깃팅 차원에서 **[!UICONTROL 프로필 매핑 필드&#x200B;]**&#x200B;을(를) 선택하십시오.
+   >[!NOTE]
+   >
+   >대상 **[!UICONTROL 레이블]**&#x200B;은(는) 모든 캠페인에서 고유해야 합니다. 다른 캠페인의 **[!UICONTROL 대상자 저장]** 활동에서 이미 사용된 대상자 이름은 다시 사용할 수 없습니다.
+
+1. 캠페인 타깃팅 차원에서 **[!UICONTROL 프로필 매핑 필드&#x200B;]**&#x200B;을(를) 선택하십시오. 이 매핑은 실행 중에 **저장된 대상자**&#x200B;의 프로필이 캠페인의 대상 차원에 연결되는 방식을 정의합니다.
+
+   현재 대상 차원, 즉 들어오는 전환에서 가져온 차원과 호환되는 매핑만 드롭다운 목록에서 사용하여 대상과 캠페인 컨텍스트 간에 적절한 조정을 수행할 수 있습니다.
 
    ➡️ [이 페이지에 설명된 단계에 따라 캠페인 타깃팅 차원을 만드십시오](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. 저장된 대상을 추가 ID 필드와 연결하려면 **[!UICONTROL 대상 매핑 추가]**&#x200B;를 클릭하십시오.
+1. **[!UICONTROL 대상 매핑 추가]**&#x200B;를 클릭하여 **[!UICONTROL 대상 차원]**&#x200B;의 특성 또는 보강된 **[!UICONTROL 프로필 특성]**&#x200B;의 추가 데이터를 포함하십시오.
+
+   이를 통해 기본 프로필 매핑 외에 더 많은 정보를 **[!UICONTROL 저장된 대상자]** 활동과 연결하여 타깃팅 및 개인화 옵션을 향상시킬 수 있습니다.
 
    ![](../assets/save-audience-2.png)
 
 1. 오케스트레이션된 캠페인을 저장하고 게시하여 설정을 완료합니다. 이렇게 하면 대상자가 생성되고 저장됩니다.
+
+1. 캠페인이 **[!UICONTROL 초안 모드]**&#x200B;에 있는 동안 **[!UICONTROL 대상자 저장]** 활동이 실행되지 않으므로 대상을 만들거나 바꿀 캠페인을 게시하십시오.
 
 저장한 대상자의 콘텐츠는 대상자의 세부 사항 보기에서 사용할 수 있습니다. 이 뷰는 **[!UICONTROL 대상자]** 메뉴에서 액세스하거나 대상자를 타깃팅할 때 선택할 수 있습니다(예: **[!UICONTROL 대상자 읽기]** 활동).
 

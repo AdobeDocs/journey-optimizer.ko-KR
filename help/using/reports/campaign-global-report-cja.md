@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 ![](assets/cja-email-kpis.png)
 
-**[!UICONTROL Campaign]** KPI(주요 성과 지표)는 모든 것을 아우르는 대시보드로 작동하여 캠페인과 관련된 필수 지표에 대한 분석을 제공합니다. 여기에는 클릭 수 및 게재된 메시지 수와 같은 세부 정보가 포함되어 있어 캠페인의 효율성과 참여 수준에 대한 포괄적인 통찰력을 제공합니다.
+**[!UICONTROL Campaign]** KPI(주요 성과 지표)는 모든 것을 아우르는 대시보드로 작동하여 캠페인과 관련된 필수 지표에 대한 분석을 제공합니다. 여기에는 클릭 수 및 게재된 메시지 수와 같은 세부 정보가 포함되며, 이를 통해 캠페인의 효율성 및 참여 수준에 대한 포괄적인 insight을 제공합니다.
 
 KPI는 캠페인에 사용된 채널에 따라 달라집니다.
 
@@ -44,6 +44,9 @@ KPI는 캠페인에 사용된 채널에 따라 달라집니다.
 * **[!UICONTROL 표시]**: 메시지를 연 횟수입니다.
 
 +++
+
+>[!AVAILABILITY]
+>오케스트레이션된 캠페인은 SMS, 이메일 및 푸시 채널만 지원합니다. 다른 채널(인앱, 웹, DM 등)은 오케스트레이션된 캠페인에서 사용할 수 없으며 보고에 표시되지 않습니다.
 
 ### 캠페인 개요 {#delivery-global}
 

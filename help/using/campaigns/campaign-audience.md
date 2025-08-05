@@ -9,13 +9,13 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: 5635ef04-c69d-4397-9762-7a6f1265d453
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 4%
 
 ---
-
 
 # 액션 캠페인 대상자 정의 {#action-campaign-audience}
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 1. **ID 유형 선택**
 
-   **[!UICONTROL ID 유형]** 필드에서 선택한 대상에서 개인을 식별하는 데 사용할 키 유형을 선택합니다. 기존 ID 유형을 사용하거나 Adobe Experience Platform ID 서비스를 사용하여 새 ID 유형을 만들 수 있습니다. 표준 ID 네임스페이스는 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}에 나열됩니다.
+   **[!UICONTROL ID 유형]** 필드에서 선택한 대상에서 개인을 식별하는 데 사용할 키 유형을 선택합니다. 기존 ID 유형을 사용하거나 Adobe Experience Platform ID 서비스를 사용하여 새 ID 유형을 만들 수 있습니다. 표준 ID 네임스페이스는 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}에 나열됩니다.
 
    캠페인당 하나의 ID 유형만 허용됩니다. 다른 ID 중에서 선택한 ID 유형이 없는 세그먼트에 속하는 개인은 캠페인에서 타깃팅할 수 없습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR){target="_blank"}에서 ID 유형 및 네임스페이스에 대해 자세히 알아보세요.
 

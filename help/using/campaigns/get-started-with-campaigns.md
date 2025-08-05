@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '708'
+ht-degree: 74%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="캠페인 일정"
->abstract="기본적으로 캠페인은 수동 활성화 시 시작되고 메시지가 전송된 후에 즉시 종료됩니다. 메시지를 보낼 특정 날짜와 시간을 유연하게 설정할 수 있습니다. 또한 되풀이 액션 캠페인의 종료 날짜를 지정할 수 있습니다. 액션 트리거에서 환경 설정에 맞게 메시지 전송 빈도를 구성할 수도 있습니다."
+>abstract="기본적으로 캠페인은 수동 활성화 시 시작되고 메시지가 전송된 후에 즉시 종료됩니다. 메시지를 보낼 특정 날짜와 시간을 유연하게 설정할 수 있습니다. 또한 반복 작업 캠페인의 종료 날짜를 지정할 수 있습니다. 액션 트리거에서 환경 설정에 맞게 메시지 전송 빈도를 구성할 수도 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -72,48 +72,75 @@ Journey Optimizer에서 다양한 유형의 캠페인을 만들 수 있습니다
 
   API 트리거 캠페인을 사용하면 적시에 마케팅 커뮤니케이션을 대상자에게 보내거나 암호 재설정 등 개인에 대한 트랜잭션/운영 메시지를 보낼 수 있습니다. 이 경우 프로필 속성뿐만 아니라 실시간 상황 데이터, 즉 REST API 페이로드를 사용한 개인화가 필요할 수 있습니다.
 
-<!--* **Orchestrated campaigns**
+* **오케스트레이션된 캠페인**
 
-    Campaign Orchestration in Adobe Journey Optimizer powers sophisticated, brand-initiated marketing campaigns across channels, helping you drive engagement, revenue, and customer loyalty at scale.
+  Adobe Journey Optimizer의 Campaign Orchestration은 채널 전반에서 정교한 브랜드 주도 마케팅 캠페인을 강화하여 규모에 맞게 참여, 매출 및 고객 충성도를 높일 수 있습니다.
 
-    While cross-channel marketing is essential, Orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
+  크로스 채널 마케팅은 필수적이지만 오케스트레이션된 캠페인을 통해 원활하게 이루어집니다. 드래그하여 놓는 시각적 인터페이스를 통해 세그먼테이션에서 메시지 게재에 이르기까지 여러 채널에 걸쳐 복잡한 마케팅 워크플로우를 디자인하고 자동화할 수 있습니다. 속도, 제어 및 효율성을 위해 구축된 하나의 직관적인 환경에서 모든 작업이 수행됩니다.
 
-## 시작하기 전 {#campaign-prerequisites}
+## 전제 조건 {#prerequisites}
 
-[!DNL Journey Optimizer]에서 캠페인을 처음으로 만들 때는 먼저 다음 전제 조건을 확인해야 합니다.
+캠페인을 만들기 전에 아래의 사전 요구 사항을 검토했는지 확인하십시오.
 
-1. **적절한 권한이 필요합니다**. 캠페인은 캠페인 전체 관리자, 캠페인 승인자, 캠페인 관리자 및/또는 캠페인 확인자 등 캠페인 관련 **[!UICONTROL 제품 프로필]**&#x200B;에 대한 액세스 권한이 있는 사용자만 사용할 수 있습니다. 캠페인에 액세스할 수 없는 경우 권한을 확장해야 합니다. 
+### 권한
 
-   +++캠페인 관련 역할 할당하는 방법 알아보기
+캠페인은 아래 나열된 적절한 권한이 있는 사용자만 사용할 수 있습니다. [Journey Optimizer 기본 제공 역할에 대해 자세히 알아보기](../administration/ootb-product-profiles.md)
 
-   1. [!DNL Permissions] 제품에서 사용자에게 역할을 할당하려면 **[!UICONTROL 역할]** 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]**, wmr 캠페인 관리자(administrator), 캠페인 승인자, 캠페인 관리자(manager) 또는 캠페인 뷰어 중 하나를 선택하십시오.
+>[!BEGINTABS]
 
-   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+>[!TAB 액션 캠페인]
 
-   1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;합니다.
+캠페인 관리자
+캠페인 승인자
+캠페인 관리자
+캠페인 뷰어
 
-      이전에 사용자를 생성하지 않은 경우 [사용자 설명서 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users)를 참조하십시오.
+>[!TAB API 트리거 캠페인]
 
-   그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
+캠페인 관리자
+캠페인 승인자
+캠페인 관리자
+캠페인 뷰어
+
+>[!TAB 오케스트레이션된 캠페인]
+
+오케스트레이션된 캠페인 관리자
+조정된 캠페인 승인자
+오케스트레이션된 캠페인 관리자
+오케스트레이션된 캠페인 뷰어
+
+>[!ENDTABS]
+
+캠페인 기능에 액세스할 수 없는 경우 관리자에게 연락하여 필요한 권한을 요청하십시오.
+
++++캠페인 관련 역할 할당하는 방법 알아보기
+
+1. [!DNL Permissions] 제품의 사용자에게 역할을 할당하려면 **[!UICONTROL 역할]** 탭으로 이동하여 위에 자세히 설명된 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
+
+1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+
+1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;합니다.
+
+   이전에 사용자를 생성하지 않은 경우 [사용자 설명서 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users)를 참조하십시오.
+
+그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
 
 +++
 
-1. **대상자가 필요합니다**. 캠페인을 만들기 전에 대상자를 사용할 수 있어야 합니다. [대상자 시작하기](../audience/about-audiences.md).
+### 대상자
 
-1. **채널 구성이 필요합니다**. 채널을 선택하려면 해당 채널 구성(즉, 사전 설정)을 만들고 사용할 수 있는 상태로 설정해야 합니다. [채널 구성을 설정하는 방법을 알아봅니다](../configuration/channel-surfaces.md).
+캠페인을 만들기 전에 대상자를 사용할 수 있어야 합니다. [대상자 시작하기](../audience/about-audiences.md).
+
+### 채널 구성
+
+채널을 선택하려면 해당 채널 구성(즉, 사전 설정)을 만들고 사용할 수 있는 상태로 설정해야 합니다. [채널 구성을 설정하는 방법을 알아봅니다](../configuration/channel-surfaces.md).
 
 ## 더 자세히 알아보기
 
 [!DNL Journey Optimizer]의 캠페인에 대해 이해했다면 이 설명서 섹션을 자세히 살펴보고 첫 번째 캠페인을 만들 차례입니다.
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="액션 캠페인" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">액션 캠페인</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">API 트리거 캠페인</a></td>
+<td><a href="create-campaign.md"><img width="70%" alt="액션 캠페인" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">액션 캠페인</a></td>
+<td><a href="api-triggered-campaigns.md"><img width="70%" alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API 트리거 캠페인</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="푸시" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">오케스트레이션된 캠페인</a></td>
 </tr></table>
-
-<!--
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="action campaigns" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Action campaigns</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API triggered campaigns</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Orchestrated campaigns</a></td>
-</tr></table>-->

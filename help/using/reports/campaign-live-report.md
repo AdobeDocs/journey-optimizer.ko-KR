@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '3492'
-ht-degree: 27%
+source-wordcount: '3521'
+ht-degree: 26%
 
 ---
 
@@ -35,6 +35,9 @@ Campaign **[!UICONTROL 라이브 보고서]** 페이지가 다음 탭과 함께 
 * [SMS](#sms-live)
 * [웹](#web-tab)
 * [다이렉트 메일](#direct-mail-tab)
+
+>[!AVAILABILITY]
+>오케스트레이션된 캠페인은 SMS, 이메일 및 푸시 채널만 지원합니다. 다른 채널(인앱, 웹, DM 등)은 오케스트레이션된 캠페인에서 사용할 수 없으며 보고에 표시되지 않습니다.
 
 Campaign **[!UICONTROL 라이브 보고서]**&#x200B;는 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 이 [섹션](../reports/live-report.md#modify-dashboard)을 참조하세요.
 
@@ -196,7 +199,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ![](assets/campaign_email_live_error.png)
 
-**[!UICONTROL 오류 원인]** 그래프 및 표를 통해 지난 24시간 동안 전송 프로세스 중에 발생한 특정 오류에 대한 정보를 확인할 수 있습니다. 이 정보는 오류의 본질과 빈도를 이해하는 데 유용합니다.
+**[!UICONTROL 오류 원인]** 그래프 및 표는 지난 24시간 동안 보내는 동안 발생한 특정 오류에 대한 insight을 제공합니다. 이 정보는 오류의 본질과 빈도를 이해하는 데 유용합니다.
 
 ### 제외된 이유 {#email-exclude-reasons}
 

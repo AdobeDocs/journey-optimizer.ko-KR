@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: e20db7c39e751bf720cd0ae75b4e8f031de18eef
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '987'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 2%
 | Journey Optimizer 규칙 | **[!DNL Manage frequency rules]**: 메시지 빈도 규칙에 액세스, 만들기, 편집 또는 삭제합니다.</br>**[!DNL View frequency rules]**: 규칙에 대한 읽기 전용 액세스 권한. |
 | 여정 | **[!DNL Approve & publish Journeys]**: 정책이 적용될 때 여정을 승인하고 게시할 수 있는 권한. </br> **[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집 및 삭제 여정에 액세스하고 관리하려면 이 권한을 **[!DNL View journeys events, data sources and actions]**&#x200B;과(와) 결합하십시오.</br>**[!DNL Manage journeys events, data sources and actions]**: 이벤트, 소스 또는 작업을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Publish journeys]**: 여정 게시.</br>**[!DNL View journeys]**: 여정에 대한 읽기 전용 액세스 권한.</br>**[!DNL View journeys events, data sources and actions]**: 여정 이벤트, 여정 지정 작업 및 여정 데이터 소스에 대한 읽기 전용 액세스 권한.</br>**[!DNL View journeys report]**: 여정 보고서를 읽고 편집합니다.</br> |
 | 메시지 | **[!DNL Manage messages]**: 메시지를 읽고 만들고 편집하고 삭제합니다. </br>**[!DNL Manage messages preview and test]**: 정책이 적용될 때 메시지를 승인하고 게시할 수 있는 권한.</br>**[!DNL Publish messages]**: 메시지를 게시할 수 있는 권한.</br>**[!DNL View messages]**: 메시지에 대한 읽기 전용 액세스 권한.</br>**[!DNL View messages report]**: 메시지 보고서를 읽고 편집합니다. |
+| 오케스트레이션된 캠페인 | **[!DNL Manage orchestrated campaigns]**: 오케스트레이션된 캠페인을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage orchestrated campaigns admin]**: Adobe Experience Platform 프로필과 관계형 저장소 엔터티 간의 링크 및 조정을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Publish orchestrated campaigns]**: 오케스트레이션된 캠페인을 게시합니다. </br>**[!DNL View orchestrated campaigns admin]**: Adobe Experience Platform 프로필과 관계형 저장소 엔터티 간의 링크 및 조정을 읽고 편집합니다.</br>**[!DNL View orchestrated campaigns]**: 오케스트레이션된 캠페인을 읽고 편집합니다.</br>**[!DNL View orchestrated campaigns report]**: 오케스트레이션된 캠페인 보고서를 읽고 편집합니다. |
 | 프로필 관리 | **[!DNL Evaluate a segment to an audience]**: 세그먼트 정의를 평가하여 대상에 대한 프로필을 생성합니다.</br>**[!DNL Export audience segments]**: 평가된 대상 세그먼트를 데이터 세트로 내보냅니다.</br>**[!DNL Manage merge policies]**: 병합 정책을 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage profiles]**: 고객 프로필에 사용되는 데이터 세트를 읽고, 만들고, 편집하고, 삭제합니다. 사용 가능한 프로필에 대한 읽기 전용 액세스 권한.</br>**[!DNL View merge policies]**: 사용 가능한 병합 정책에 대한 읽기 전용 액세스입니다.</br>**[!DNL View profiles]**: 사용 가능한 프로필에 대한 읽기 전용 액세스 권한.</br>**[!DNL View segments]**: 사용 가능한 대상에 대한 읽기 전용 액세스 권한. |
 | 쿼리 서비스 | **[!DNL Manage queries]**: Platform 데이터에 대한 구조화된 SQL 쿼리를 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage query service integration]**: 쿼리 서비스 액세스에 대한 만료되지 않는 자격 증명을 만들고, 업데이트하고, 삭제합니다. |
 | 보고서 | **[!DNL View channel reports]**: 채널 보고서를 읽고 편집합니다. |
@@ -49,5 +50,3 @@ ht-degree: 2%
 
 {style="table-layout:fixed"}
 
-<!--
-|Orchestrated campaigns|**[!DNL Manage orchestrated campaigns]**: read, create, edit, and delete orchestrated campaigns.</br>**[!DNL Publish orchestrated campaigns]**: publish orchestrated campaigns. </br>**[!DNL View orchestrated campaigns admin]**: XX. </br>**[!DNL Manage orchestrated campaigns admin]**: XX. </br>**[!DNL View orchestrated campaigns]**: read and edit orchestrated campaigns.</br>**[!DNL View orchestrated campaigns report]**: read and edit orchestrated campaigns report.|-->

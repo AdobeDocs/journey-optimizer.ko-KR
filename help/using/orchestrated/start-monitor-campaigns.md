@@ -3,15 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인 시작 및 모니터링
 description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인을 시작 및 모니터링하는 방법을 알아봅니다.
-hide: true
-hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 5e52573689ab06084441390299b01e112e699244
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 54%
+source-wordcount: '761'
+ht-degree: 51%
 
 ---
+
 
 # 오케스트레이션된 캠페인 시작 및 모니터링 {#start-monitor}
 
@@ -19,26 +18,6 @@ ht-degree: 54%
 >id="ajo_campaign_publication"
 >title="오케스트레이션된 캠페인 게시"
 >abstract="캠페인을 시작하려면 먼저 캠페인을 게시해야 합니다. 게시하기 전에 모든 오류가 해결되었는지 확인하십시오."
-
-+++ 목차
-
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
-|---|---|---|---|
-| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](gs-schemas.md)</li><li>[수동 스키마](manual-schema.md)</li><li>[파일 업로드 스키마](file-upload-schema.md)</li><li>[데이터 수집](ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md)<br/><br/>[오케스트레이션된 캠페인을 만드는 주요 단계](gs-campaign-creation.md) | [캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/><b>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)</b><br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md)<br/><br/>[리타기팅](retarget.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[And 조인](activities/and-join.md) - [대상자 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [채널 활동](activities/channels.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [대상자 저장](activities/save-audience.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
-
->[!ENDSHADEBOX]
 
 오케스트레이션된 캠페인을 만들고 캔버스에서 수행할 작업을 디자인하면 캠페인을 게시하고 실행이 어떻게 이루어지는지 모니터링할 수 있습니다.
 
@@ -50,18 +29,13 @@ ht-degree: 54%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 대상자 저장]** 활동 및 채널 활동을 제외한 캔버스의 모든 활동이 실행됩니다. 데이터나 대상자에 대한 기능적 영향은 없습니다.**
+>**[!UICONTROL 대상자 저장]** 활동 및 채널 활동을 제외한 캔버스의 모든 활동이 실행됩니다. 데이터나 대상자에게는 기능적인 영향을 주지 않습니다.
 
-캠페인을 테스트하는 방법:
-
-1. 오케스트레이션된 캠페인을 엽니다.
-2. **[!UICONTROL 시작]**&#x200B;을 클릭합니다.
+오케스트레이션된 캠페인을 테스트하려면 캠페인을 열고 **[!UICONTROL 시작]**&#x200B;을 선택하세요.
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-캠페인의 각 활동은 다이어그램의 끝에 도달할 때까지 순차적으로 실행됩니다.
-
-테스트 중에 캔버스에서 작업 표시줄을 사용하여 캠페인 실행을 제어할 수 있습니다. 여기에서는 다음을 수행할 수 있습니다.
+다이어그램의 끝에 도달할 때까지 캠페인의 각 활동이 순차적으로 실행됩니다. 테스트 중에 캔버스에서 작업 표시줄을 사용하여 캠페인 실행을 제어할 수 있습니다. 여기에서는 다음을 수행할 수 있습니다.
 
 * 언제든지 실행을 **중지**&#x200B;합니다.
 * 실행을 다시 **시작**&#x200B;합니다.
@@ -104,7 +78,7 @@ ht-degree: 54%
 1. 전환을 선택합니다.
 1. 작업 테이블 스키마를 보려면 속성 창에서 **[!UICONTROL 스키마 미리 보기]**&#x200B;를 클릭합니다. 전송된 데이터를 보려면 **[!UICONTROL 결과 미리 보기]**&#x200B;를 선택합니다.
 
-![](assets/transition.png){zoomable="yes"}
+   ![](assets/transition.png){zoomable="yes"}
 
 ### 활동 실행 표시기 {#activities}
 
@@ -124,7 +98,9 @@ ht-degree: 54%
 >title="로그 및 작업"
 >abstract="**로그 및 작업** 화면에서 모든 사용자 작업을 기록하고 오류가 발생한 오케스트레이션된 캠페인 실행 기록을 제공합니다."
 
-로그 및 작업 모니터링은 오케스트레이션된 캠페인을 분석하고 제대로 실행되고 있는지 확인하는 중요한 단계입니다. 캔버스 도구 모음의 테스트 및 라이브 모드 모두, 또는 각 활동의 속성 창에서 사용할 수 있는 **[!UICONTROL 로그]** 버튼을 통해 로그 및 작업에 액세스할 수 있습니다.
+로그 및 작업 모니터링은 오케스트레이션된 캠페인을 분석하고 제대로 실행되고 있는지 확인하는 중요한 단계입니다. 캔버스 도구 모음의 테스트 및 라이브 모드 모두에서 사용할 수 있는 **[!UICONTROL 로그]** 단추에서 로그 및 작업에 액세스할 수 있습니다.
+
+![](assets/logs-button.png){zoomable="yes"}
 
 **[!UICONTROL 로그 및 작업]** 화면은 모든 사용자 액션과 발생한 오류를 기록하여 캠페인 실행에 대한 완전한 기록을 제공합니다.
 
@@ -136,3 +112,7 @@ ht-degree: 54%
 * **[!UICONTROL 작업]** 탭에서는 활동의 단계별 실행 시퀀스를 자세히 설명합니다.
 
 두 탭 모두에서 표시된 열과 그 순서를 선택하고 필터를 적용하고 검색 필드를 사용하여 원하는 정보를 빠르게 찾을 수 있습니다.
+
+## 다음 단계 {#next}
+
+오케스트레이션된 캠페인 다이어그램을 시작한 후 Journey Optimizer 보고 기능을 사용하여 대상자 행동을 이해하고, 고객 여정의 각 단계에 대한 성과를 측정하는 등의 통찰력을 얻을 수 있습니다. [오케스트레이션된 캠페인 보고에 대한 자세한 정보](../orchestrated/reporting-campaigns.md)

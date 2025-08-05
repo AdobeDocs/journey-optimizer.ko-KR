@@ -9,13 +9,13 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: b183eeb8-606f-444d-9302-274f159c3847
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 1%
+ht-degree: 16%
 
 ---
-
 
 # 작업 캠페인 예약 {#action-campaign-schedule}
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->[!DNL Adobe Journey Optimizer]에서 캠페인을 예약할 때 시작 날짜/시간이 원하는 첫 번째 게재에 맞춰졌는지 확인하십시오. 반복 캠페인의 경우 초기 예약 시간이 이미 경과한 경우 캠페인은 반복 규칙에 따라 다음 사용 가능한 시간 슬롯으로 롤오버됩니다.
+>[!DNL Adobe Journey Optimizer]에서 캠페인을 예약할 때는 시작 날짜/시간이 원하는 첫 번째 게재에 맞춰졌는지 확인합니다. 반복 캠페인의 경우 초기 예약 시간이 이미 경과했을 때는 캠페인이 반복 규칙에 따라 다음 사용 가능한 시간 슬롯으로 넘어갑니다.
 
 캠페인 채널을 기반으로 추가 예약 옵션을 사용할 수 있습니다.
 

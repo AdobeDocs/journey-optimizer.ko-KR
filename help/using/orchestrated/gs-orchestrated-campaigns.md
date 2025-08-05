@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 오케스트레이션된 캠페인 시작
 description: 오케스트레이션된 캠페인으로 시작하는 방법 알아보기
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 12%
+source-wordcount: '579'
+ht-degree: 16%
 
 ---
+
 
 # 오케스트레이션된 캠페인 시작 {#orchestrated-camp}
 
@@ -20,26 +18,6 @@ ht-degree: 12%
 >id="campaigns_overview_orchestrated"
 >title="오케스트레이션된 캠페인 개요"
 >abstract="<b>Campaign 오케스트레이션</b><br/>관계형 데이터 세트를 분할, 결합, 강화, 조작하여 대상자를 정의합니다<br/><br/> <b>여러 엔터티 데이터 활용</b><br/>오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위한 데이터를 보강하는 방법에 대해 알아봅니다.<br/><br/><b>임시 세분화 및 정확한 카운트</b><br/>정확한 카운트로 단계별 세그먼트 구축<br/><br/><b>사용 가능한 채널</b><br/>이메일, SMS, 푸시 알림, DM"
-
-+++ 목차
-
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
-|---|---|---|---|
-| <b>[오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)</b><br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](gs-schemas.md)</li><li>[수동 스키마](manual-schema.md)</li><li>[파일 업로드 스키마](file-upload-schema.md)</li><li>[데이터 수집](ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md)<br/><br/>[오케스트레이션된 캠페인을 만드는 주요 단계](gs-campaign-creation.md) | [캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md)<br/><br/>[리타기팅](retarget.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[And 조인](activities/and-join.md) - [대상자 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [채널 활동](activities/channels.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [대상자 저장](activities/save-audience.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
-
->[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]의 Campaign Orchestration은 정교하고 브랜드에서 시작한 마케팅 캠페인을 채널 전체에 걸쳐 지원하므로 규모에 맞게 참여, 매출 및 고객 충성도를 높일 수 있습니다.
 
@@ -53,14 +31,14 @@ Campaign Orchestration은 다음 네 가지 주요 요소를 기반으로 구축
 
 <table style="table-layout:auto">
 <tr style="border: 0;">
-<td><img alt="온디맨드 대상" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>온디맨드 대상</b><br/>데이터 집합 간에 즉시 쿼리하여 데이터 형식과 차원의 조합을 사용하여 대상 세그먼트를 만듭니다.</td></tr>
+<td><img alt="온디맨드 대상" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>온디맨드 대상</b><br/>데이터 집합 간에 즉시 쿼리하여 데이터 형식과 차원의 조합을 사용하여 대상 세그먼트를 만듭니다.</td></tr>
 <tr style="border: 0;">
-<td><img alt="다중 엔티티 세그멘테이션 및 전송" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>다중 엔터티 세분화 및 전송</b><br/>개인 기반 캠페인을 넘어 제품 카탈로그, 스토어 위치 또는 서비스 데이터와 같은 엔터티를 사용하여 정확하게 타깃팅하십시오.<br/><br/>
+<td><img alt="다중 엔티티 세그멘테이션 및 전송" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>다중 엔터티 세분화 및 전송</b><br/>개인 기반 캠페인을 넘어 제품 카탈로그, 스토어 위치 또는 서비스 데이터와 같은 엔터티를 사용하여 정확하게 타깃팅하십시오.<br/><br/>
 프로필 및 연결된 보조 엔티티당 하나의 메시지가 전송되는 다중 레벨 전송을 지원합니다. 이러한 2차 엔티티는 연락처 주소, 예약, 구독, 계약 또는 기타 연결된 데이터를 포함할 수 있습니다. 예를 들어, 이를 통해 프로필의 알려진 모든 주소 또는 해당 프로필과 연결된 각 예약에 대해 캠페인을 전송할 수 있습니다.</td></tr>
 <tr style="border: 0;">
-<td><img alt="사전 전송 가시성 및 정밀도" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>가시성과 정밀도를 미리 전송</b><br/>실행 전에 정확한 세분화 수와 전체 캠페인 범위를 가져와 정확성과 신뢰도를 보장합니다.</td></tr>
+<td><img alt="사전 전송 가시성 및 정밀도" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>가시성과 정밀도를 미리 전송</b><br/>실행 전에 정확한 세분화 수와 전체 캠페인 범위를 가져와 정확성과 신뢰도를 보장합니다.</td></tr>
 <tr style="border: 0;">
-<td><img alt="여러 단계 캠페인 워크플로" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>여러 단계 캠페인 워크플로</b><br/>일일 메시지부터 계절별 판촉 행사 또는 주요 제품 출시와 같은 복잡한 캠페인에 이르기까지 여러 단계 캠페인을 디자인합니다.</td></tr>
+<td><img alt="여러 단계 캠페인 워크플로" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>여러 단계 캠페인 워크플로</b><br/>일일 메시지부터 계절별 판촉 행사 또는 주요 제품 출시와 같은 복잡한 캠페인에 이르기까지 여러 단계 캠페인을 디자인합니다.</td></tr>
 </table>
 
 ## 오케스트레이션된 캠페인 및 여정
@@ -69,17 +47,25 @@ Campaign Orchestration은 다음 네 가지 주요 요소를 기반으로 구축
 
 * **여정** - 각 프로필이 각자의 속도로 다른 단계를 진행하는 1에서 1까지의 캔버스입니다. 각 고객의 상태는 해당 컨텍스트 내에서 유지되어 실시간 작업을 트리거합니다.
 
-* **오케스트레이션된 캠페인** - 여정과 달리 오케스트레이션된 캠페인은 세그먼트를 계산하는 일괄 처리 캔버스를 사용하여 작동합니다. 모든 프로필이 동시에 처리됩니다.
+* **오케스트레이션된 캠페인** - 여정과 달리, 오케스트레이션된 캠페인은 세그먼트를 계산하는 일괄 처리 캔버스를 사용하여 작동합니다. 모든 프로필이 동시에 처리됩니다.
 
 두 캔버스 모두 각각의 사용 사례에 최적화되어 있습니다. 여정 캔버스는 더 긴 기간 동안 작동하는 경향이 있는 여정을 게시하는 반면, 캠페인 캔버스는 배치 캠페인의 반복적 및 증분 실행을 위해 설계되었습니다.
 
-## 전제 조건
+## 오케스트레이션된 캠페인의 내부는 무엇입니까? {#gs-ms-campaign-inside}
 
-오케스트레이션된 캠페인을 사용하기 전에 적절한 권한이 있는지 확인해야 합니다. 오케스트레이션된 캠페인에 대한 액세스는 오케스트레이션된 캠페인 관리자, 오케스트레이션된 캠페인 승인자, 오케스트레이션된 캠페인 관리자 또는 오케스트레이션된 캠페인 뷰어와 같은 관련 **[!UICONTROL 제품 프로필]**&#x200B;에 할당된 사용자로 제한됩니다.
+오케스트레이션된 캠페인 캔버스는 일어날 일을 나타냅니다. 앞으로 수행할 다양한 작업과 이러한 작업이 어떻게 서로 연결되어 있는지 설명합니다.
 
-오케스트레이션된 캠페인 기능에 액세스할 수 없는 경우 관리자에게 연락하여 필요한 권한을 요청하십시오.
+![오케스트레이션된 캠페인 캔버스를 표시하는 이미지](assets/canvas-example.png)
 
-➡️ [오케스트레이션된 캠페인과 관련된 제품 프로필에 대해 자세히 알아보세요](../administration/ootb-product-profiles.md)
+오케스트레이션된 각 캠페인에는 다음이 포함됩니다.
+
+* **활동**: 활동은 수행할 작업입니다. 다양한 활동이 다이어그램에 아이콘으로 표시됩니다. 각 활동에는 특정 속성과 모든 활동에 공통되는 다른 속성이 있습니다.
+
+  오케스트레이션된 캠페인 다이어그램에서 특정 활동은 여러 작업, 특히 루프 또는 반복 작업이 있는 경우 여러 작업을 생성할 수 있습니다.
+
+* **전환**: 전환은 원본 활동을 대상 활동에 연결하고 해당 시퀀스를 정의합니다.
+
+* **작업 테이블**: 작업 테이블에는 전환에 의해 전달되는 모든 정보가 포함됩니다. 오케스트레이션된 각 캠페인에서는 몇 개의 작업 테이블을 사용합니다. 이러한 표에 전달된 데이터는 오케스트레이션된 캠페인의 수명 주기 전체에서 사용할 수 있습니다.
 
 ## 더 자세히 알아보기
 

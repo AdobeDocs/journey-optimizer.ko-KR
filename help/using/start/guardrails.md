@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bb3b07dc5dbb5ef50470caf52da2e10fcaf21a5e
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 91%
+source-wordcount: '2648'
+ht-degree: 90%
 
 ---
 
@@ -112,7 +113,6 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 보호 기능 및 �
 
 * [의사 결정 가드레일 및 제한 사항](../experience-decisioning/decisioning-guardrails.md)
 * [의사 결정 관리 가드레일 및 제한 사항](../offers/decision-management-guardrails.md)
-
 
 ## 여정 보호  {#journeys-guardrails}
 
@@ -259,3 +259,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 * Adobe Campaign 활동은 [대상자 읽기] 또는 [대상자 선별] 활동과 함께 사용할 수 없습니다.
 * 캠페인 활동은 다른 채널 활동(카드, 코드 기반 경험, 이메일, 푸시, SMS, 인앱 메시지, 웹)과 함께 사용할 수 없습니다.
+
+## 캠페인 오케스트레이션 보호 기능 {#orchestration-guardrails}
+
+Campaign Orchestration을 사용할 때 염두에 두어야 할 보호 기능 및 제한 사항은 이 섹션에 자세히 설명되어 있습니다. [의사 결정 관리 보호 기능 및 제한 사항](../orchestrated/guardrails.md).

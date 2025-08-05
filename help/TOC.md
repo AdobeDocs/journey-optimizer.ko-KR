@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2591'
 ht-degree: 98%
 
 ---
@@ -184,7 +184,7 @@ ht-degree: 98%
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 액세스 및 관리](using/campaigns/modify-stop-campaign.md)
    + 액션 캠페인 {#action-campaigns}
-      + [액션 캠페인 작업](using/campaigns/create-campaign.md)
+      + [작업 캠페인 작업](using/campaigns/create-campaign.md)
       + [캠페인 속성 정의](using/campaigns/campaign-properties.md)
       + [캠페인 액션 구성](using/campaigns/campaign-action.md)
       + [캠페인 콘텐츠 편집](using/campaigns/campaign-content.md)
@@ -202,14 +202,14 @@ ht-degree: 98%
       + [캠페인 실행 트리거](using/campaigns/trigger-campaigns.md)
    + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
       + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
-      + 관계형 스키마 및 데이터 세트 관리 {#schemas-datasets}
-         + [스키마 및 데이터 세트 시작](using/orchestrated/gs-schemas.md)
-         + [수동 스키마](using/orchestrated/manual-schema.md)
-         + [파일 업로드 스키마](using/orchestrated/file-upload-schema.md)
-         + [데이터 수집](using/orchestrated/ingest-data.md)
-      + [오케스트레이션된 캠페인 액세스 및 관리](using/orchestrated/access-manage-orchestrated-campaigns.md)
-      + [타겟팅 차원 만들기](using/orchestrated/target-dimension.md)
       + [가드레일 및 제한 사항](using/orchestrated/guardrails.md)
+      + 데이터 구성 {#configuration}
+         + 관계형 스키마 및 데이터 세트 관리 {#schemas-datasets}
+            + [스키마 및 데이터 세트 시작](using/orchestrated/gs-schemas.md)
+            + [수동 스키마](using/orchestrated/manual-schema.md)
+            + [파일 업로드 스키마](using/orchestrated/file-upload-schema.md)
+            + [데이터 수집](using/orchestrated/ingest-data.md)
+         + [타겟팅 차원 만들기](using/orchestrated/target-dimension.md)
       + 오케스트레이션된 첫 번째 캠페인 시작{#launch}
          + [오케스트레이션된 캠페인을 만드는 주요 단계](using/orchestrated/gs-campaign-creation.md)
          + [캠페인 만들기 및 예약](using/orchestrated/create-orchestrated-campaign.md)

@@ -3,39 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 오케스트레이션된 캠페인을 만드는 주요 단계
 description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인 만들기의 주요 원칙에 대해 알아봅니다.
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 60%
+source-wordcount: '296'
+ht-degree: 62%
 
 ---
 
 
 # 오케스트레이션된 캠페인을 만드는 주요 단계 {#orchestrated-campaign-creation}
-
-+++ 목차
-
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
-|---|---|---|---|
-| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](gs-schemas.md)</li><li>[수동 스키마](manual-schema.md)</li><li>[파일 업로드 스키마](file-upload-schema.md)</li><li>[데이터 수집](ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md)<br/><br/><b>[오케스트레이션된 캠페인을 만드는 주요 단계](gs-campaign-creation.md)</b> | [캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md)<br/><br/>[리타기팅](retarget.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[And 조인](activities/and-join.md) - [대상자 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [채널 활동](activities/channels.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [대상자 저장](activities/save-audience.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
-
->[!ENDSHADEBOX]
 
 이 페이지에서는 설정 및 디자인에서 모니터링 및 보고에 이르기까지 오케스트레이션된 캠페인을 구축하고 실행하는 필수 단계를 안내합니다.
 
@@ -47,7 +24,9 @@ ht-degree: 60%
 <td><a href="#report"><img alt="Analyze & report on results" src="../../channels/assets/do-not-localize/push.png"></a><a href="#report"><strong>Analyze & report on results</strong></a></td>
 </tr></table>-->
 
-
+>[!IMPORTANT]
+>
+>캠페인을 만들기 전에 일반적인 [캠페인 필수 구성 요소](../campaigns/get-started-with-campaigns.md#prerequisites)를 검토했는지 확인하세요.
 
 ## 1단계: 캠페인 만들기 및 예약 {#create}
 

@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 대상자 작성 활동 사용
 description: 오케스트레이션된 캠페인에서 대상자 빌드 활동을 사용하는 방법을 알아봅니다
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 53%
+source-wordcount: '293'
+ht-degree: 60%
 
 ---
+
 
 # 대상자 작성 {#build-audience}
 
@@ -20,27 +18,6 @@ ht-degree: 53%
 >id="ajo_orchestration_build_audience"
 >title="대상자 빌드 활동"
 >abstract="**대상자 작성** 활동을 통해 오케스트레이션된 캠페인을 시작할 대상자를 정의할 수 있습니다. 오케스트레이션된 캠페인의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 빌드** 활동에 정의됩니다."
-
-+++ 목차
-
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
-|---|---|---|---|
-| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](../gs-schemas.md)</li><li>[수동 스키마](../manual-schema.md)</li><li>[파일 업로드 스키마](../file-upload-schema.md)</li><li>[데이터 수집](../ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](../access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인을 만드는 주요 단계](../gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [규칙 빌더로 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md)<br/><br/>[리타기팅](../retarget.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[And 조인](and-join.md) - <b>[대상자 빌드](build-audience.md)</b> - [차원 변경](change-dimension.md) - [채널 활동](channels.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [대상자 저장](save-audience.md) - [분할](split.md) - [대기](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
-
->[!ENDSHADEBOX]
 
 마케터는 직관적인 인터페이스를 통해 복잡한 대상자 세그먼트를 만들 수 있으므로 다양한 기준과 행동을 기반으로 사용자를 타겟팅하여 캠페인을 더욱 효과적으로 조정할 수 있습니다.
 

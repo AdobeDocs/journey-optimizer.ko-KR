@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 16%
+source-wordcount: '591'
+ht-degree: 38%
 
 ---
 
@@ -21,92 +21,88 @@ ht-degree: 16%
 **아래의 사전 릴리스 노트는 릴리스 사용 가능 날짜까지 사전 공지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 날짜의 [릴리스 정보](release-notes.md)에 게시됩니다.
 
 
-## 2025년 7월 사전 릴리스 정보 {#25-7-rn}
-
+## 2025년 8월 프리릴리스 정보 {#25-7-rn}
 
 **아래의 사전 릴리스 노트는 릴리스 사용 가능 날짜까지 사전 공지 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
 
-**릴리스 일자**: 2025년 7월 29일 수요일
+[Adobe Experience Platform 시험판 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하세요.
+
+**릴리스 일자**: 2025년 8월 19일 수요일
 
 
-### 새로운 기능 {#25-7-features}
+### 새로운 기능 {#Aug-25-8-features}
 
 이번 릴리스의 새로운 기능을 아래에서 자세히 설명합니다.
 
-#### 기능 업데이트
-
-
 <table>
 <thead>
 <tr>
-<th><strong>WhatsApp 채널</strong><br/></th>
+<th><strong>여정 일시 중단 및 다시 시작</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 직접 WhatsApp 메시지를 지원하여 여정 및 캠페인에 원활하게 통합하여 수신자 커뮤니케이션 및 참여를 개선할 수 있습니다. 이 기본 채널은 WhatsApp 템플릿 통합, 메시지 미리 보기, 개인화, 게재 보고, 웹후크, 옵트인 및 옵트아웃 동의 관리 등을 즉시 제공합니다.</p>
-<p>이전에 Beta에서 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>이제 여정을 일시 중단했다가 다시 시작할 수 있습니다. 이 기능을 사용하면 고객 경험을 중단하지 않고 라이브 여정을 일시적으로 중단할 수 있으므로 여정 실무자가 여정을 보다 자유롭게 제어하고 유연하게 조정할 수 있습니다. 일시 중단하면 커뮤니케이션이 전송되지 않으며 프로필은 여정이 다시 시작될 때까지 보류 상태로 유지됩니다.</p>
+<p>하나의 여정만 일시 중단했다가 다시 시작하거나, 여정 그룹에 일괄 일시 중단 및 다시 시작 작업을 수행할 수 있습니다.</p>
+<p>또한 일시 중단된 프로필에 전역 필터를 적용하여 속성에 따라 프로필을 제외할 수 있습니다.</p>
+<img src="assets/do-not-localize/PauseResume.gif">
+<p>이전에는 제한된 고객 집합(제한된 가용성)에서 사용할 수 있었지만, 이제 모든 환경에서 이 기능을 사용할 수 있게 되었습니다(일반 가용성).</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-pause.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
+
 <table>
 <thead>
 <tr>
-<th><strong>브랜드</strong><br/></th>
+<th><strong>달력 보기</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 고유한 브랜드를 만들고 사용자 정의하여 커뮤니케이션 전반에서 시각적 및 언어적 정체성을 명확하게 정의할 수 있습니다. 브랜드 정렬 점수를 사용하면 콘텐츠가 브랜드의 색조, 스타일 및 지침을 얼마나 잘 반영하는지에 대한 실시간 피드백을 받을 수 있으므로 보내는 모든 메시지를 통해 지속적으로 브랜드에 대한 피드백을 유지할 수 있습니다.</p>
-<p>이전에 Beta에서 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>이제 여정 및 캠페인 목록에서 캘린더 보기를 사용할 수 있습니다. 이를 통해 각 목록에 있는 모든 여정 및 캠페인의 활성화를 시각화할 수 있습니다.</p>
+<p>이전에는 제한된 가용성에서 사용할 수 있었지만 이제 이 기능을 모든 환경에서 사용할 수 있습니다. 이번 GA 릴리스에서는 다음과 같은 기능이 제공됩니다.</p>
+<ul>
+<li>날짜 내 탐색을 위한 디자인 개선 사항</li>
+<li>시작 및 종료 날짜를 설정한 경우 초안 캠페인을 볼 수 있는 기능</li>
+<li>오래 실행되는 일정 항목을 숨기고 표시하는 새로운 설정입니다.</li>
+</ul>
+<img src="assets/do-not-localize/calendar.gif">
+<p>자세한 내용은 <a href="../building-journeys/journey-ui.md#journeys-calendar">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>이메일 채널에서 Experience Decisioning 사용</strong><br/></th>
+<th><strong>이메일 Designer의 다크 모드</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 이메일 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다.</p>
-<p>이 기능은 현재 Healthcare Shield 및 Privacy and Security Shield(제한된 가용성)에서 사용할 수 없습니다.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>이제 Journey Optimizer 이메일 Designer에서 어두운 모드 보기로 전환할 수 있는 기능을 제공합니다. 이 기능에서는 어두운 모드에서 전자 메일을 읽는 수신자에게만 표시되는 특정 사용자 지정 설정을 추가로 정의할 수 있습니다.</p>
+<p>다음을 참고하십시오.</p>
+<ul>
+<li>다크 모드 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다를 수 있습니다.</li>
+<li>모든 이메일 클라이언트가 사용자 지정 다크 모드를 지원하는 것은 아닙니다. 또한 일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자신의 기본 다크 모드만 적용합니다. 두 경우 모두 이메일 Designer에서 정의한 사용자 지정 설정을 렌더링할 수 없습니다.</li>
+</ul>
+<P>이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.</p>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
+<p>자세한 내용은 <a href="../email/dark-mode.md">세부 설명서</a>를 참조하십시오. </p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>콘텐츠 결정 활동</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 여정 캔버스에서 전용 콘텐츠 결정 활동을 통해 여정에 개인화된 오퍼를 포함하고 조건 및 사용자 지정 작업을 포함한 여정 활동에 사용할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -120,110 +116,20 @@ ht-degree: 16%
 <p>이제 Journey Optimizer은 캠페인 대상에 개인화되고 최적화된 콘텐츠를 전달할 수 있는 도구를 제공함으로써 콘텐츠 실험을 실행하고, 규칙 기반 타기팅을 만들고, 두 방법의 고급 조합을 사용하여 캠페인의 효과를 극대화할 수 있습니다.</p>
 <p>최적화를 통해 다음과 같은 작업을 수행할 수 있습니다.</p>
 <ul>
-<li>콘텐츠 실험 실행</li>
-<li>타깃팅 규칙 활용</li>
-<li>단일 캠페인 내에서 실험과 타겟팅의 고급 조합 사용</li></ul>
-<P>캠페인이 라이브되면 정의된 기준에 따라 프로필이 평가되고, 일치하는 기준을 기반으로 캠페인의 적절한 경험 또는 콘텐츠와 함께 전달됩니다.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 시험 실행</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>여정 시험 실행은 Adobe Journey Optimizer에서 제공되는 특별한 여정 게시 모드로, 여정 실무자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용해 여정을 테스트할 수 있도록 합니다. 이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>달력 보기</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이전에는 제한된 가용성에서 사용할 수 있었지만 이제 이 기능을 모든 환경에서 사용할 수 있습니다. 이번 GA 릴리스에서는 다음과 같은 기능이 제공됩니다.</p>
-<ul>
-<li>날짜 내 탐색을 위한 디자인 개선 사항</li>
-<li>시작 및 종료 날짜를 설정한 경우 초안 캠페인을 볼 수 있는 기능</li>
-<li>오래 실행되는 일정 항목을 숨기고 표시하는 새로운 설정입니다.</li>
+<li>여러 콘텐츠 변형을 테스트하여 가장 효과적인 메시징을 식별합니다.</li>
+<li>사용자 특성 및 컨텍스트 데이터를 기반으로 개인화된 콘텐츠를 제공합니다.</li>
+<li>고급 캠페인 전략에 대한 타겟팅과 실험을 결합합니다.</li>
+<li>변형 기준과 일치하지 않는 사용자를 필터링합니다.</li>
+<li>사용자 참여를 유지하기 위한 대체 메커니즘을 확인하십시오.</li>
 </ul>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<P>캠페인이 라이브되면 정의된 기준에 따라 프로필이 평가되고, 일치하는 기준을 기반으로 캠페인의 적절한 경험 또는 콘텐츠와 함께 전달됩니다.</p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
+<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>여정의 보조 ID</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이전에 [제한된 가용성]에서 릴리스된 이후에는 이제 여정에서 보조 ID를 사용할 수 있습니다. 이번 GA 릴리스에서는 이제 대상자 읽기 여정에 대한 지원이 기능에 포함됩니다.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-### 개선 사항 {#25-7-improv}
+### 개선 사항 {#Aug-25-8-improv}
 
 다음은 이번 릴리스의 개선 사항 목록입니다.
-
-- **이메일 디자이너**
-   - 이제 Journey Optimizer 이메일 Designer에서 특정 사용자 지정 설정을 추가로 정의할 수 있는 다크 모드 보기로 전환하는 기능을 제공합니다. 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다릅니다. 또한 모든 이메일 클라이언트가 다크 모드를 지원하는 것은 아닙니다.
-  <!-- [Read more](../FILE.md) -->
-
-- **캠페인**
-   - **규칙 기반 캠페인 결격** - 콘텐츠 카드에서 추가 게재 규칙을 편집할 때 이전 게재 규칙 옵션이 세 가지 서로 다른 규칙 유형으로 대체되어 메시지 타이밍 및 가시성을 더 잘 제어할 수 있습니다.
-      - 다음과 같은 경우 메시지 표시: 컨텐츠 카드가 표시되는 시기를 결정하는 조건입니다.
-      - 다음과 같은 경우 메시지 닫기: 컨텐츠 카드를 일시적으로 숨기는 조건. 표시 조건이 다시 충족되는 경우 다시 나타날 수 있습니다.
-      - 메시지 부적격: 컨텐츠 카드가 다시 표시되지 않도록 영구적으로 차단하는 조건.
-  <!-- [Read more](../FILE.md) -->
-
-   - **캠페인의 여러 인바운드 작업** - 이제 캠페인 오케스트레이션을 단순화하기 위해 단일 캠페인에서 여러 인바운드 작업을 정의할 수 있습니다. 이 기능을 사용하면 여러 코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 작업을 동시에 다른 위치에 전달할 수 있으며, 각 작업에는 특정 콘텐츠가 포함됩니다.
-  <!-- [Read more](../FILE.md) -->
-
-   - **캠페인 인벤토리 재구성** - 이제 예약된 캠페인 및 API 트리거 캠페인이 더 쉬운 탐색 및 관리를 위해 캠페인 인벤토리에서 별도의 탭으로 분할됩니다.
-  <!-- [Read more](../FILE.md) -->
-
-- **데이터 관리**
-   - **의사 결정 관리 시스템 데이터 세트 업데이트** - 이제 삭제된 개인화된 오퍼 및 대체 오퍼가 &quot;decision_object_repository_personalized_offers&quot; 및 &quot;decision_object_repository_fallback_offers&quot; 데이터 세트에 보관된 것으로 표시됩니다. 데이터 세트의 기존 레코드는 변경되지 않습니다.
-  <!-- [Read more](../FILE.md) -->
-
-- **여정**
-   - **여정 샌드박스 도구 개선 사항** - 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정을 복사할 때 이제 다음 기능도 사용할 수 있습니다.
-      - 여정과 독립적으로 이벤트 복사
-      - 이벤트, 필드 그룹 및 데이터 소스를 감지하고 있는 경우 대상에서 연결하고, 없는 경우 생성합니다.
-  <!-- [Read more](../FILE.md) -->
-
-- **채널 - 인앱**
-   - **인앱 키/값 쌍** - 인앱 메시지를 사용하여 메시지 페이로드에 사용자 지정 변수를 포함하도록 키 및 값 쌍을 정의할 수 있습니다. 이러한 키-값 쌍을 사용하면 특정 구성 및 사용 사례에 따라 추가 데이터를 전달할 수 있습니다.
-  <!-- [Read more](../FILE.md) -->
-
-- **개인화**
-   - 새로운 도우미 함수인 &quot;SHA256&quot;이 개인화 편집기에 추가되었습니다. 이 함수는 문자열의 sha256 해시를 계산하고 반환하는 데 사용합니다.
-  <!-- [Read more](../FILE.md) -->

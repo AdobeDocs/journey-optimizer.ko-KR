@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 오케스트레이션된 캠페인에서 테스트 활동 사용
 description: 테스트 활동을 사용하는 방법을 알아봅니다.
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 59%
+source-wordcount: '375'
+ht-degree: 66%
 
 ---
+
 
 # 테스트 {#test}
 
@@ -25,26 +23,6 @@ ht-degree: 59%
 >id="ajo_orchestration_test_conditions"
 >title="조건"
 >abstract="**테스트** 활동에는 여러 개의 출력 전환이 있을 수 있습니다. 오케스트레이션된 캠페인 실행 중에 각 조건은 둘 중 하나가 충족될 때까지 순차적으로 테스트됩니다. 조건이 충족되지 않으면 오케스트레이션된 캠페인이 **[!UICONTROL 기본 조건]**&#x200B;의 경로를 따라 계속됩니다. 활성화된 기본 조건이 없으면 이 시점에서 오케스트레이션된 캠페인이 중지됩니다."
-
-+++ 목차
-
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
-|---|---|---|---|
-| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](../gs-schemas.md)</li><li>[수동 스키마](../manual-schema.md)</li><li>[파일 업로드 스키마](../file-upload-schema.md)</li><li>[데이터 수집](../ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](../access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인을 만드는 주요 단계](../gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [규칙 빌더로 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md)<br/><br/>[리타기팅](../retarget.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[And 조인](and-join.md) - [대상자 빌드](build-audience.md) - [차원 변경](change-dimension.md) - [채널 활동](channels.md) - [결합](combine.md) - [중복 제거](deduplication.md) - [보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [대상자 저장](save-audience.md) - [분할](split.md) - [대기](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
-
->[!ENDSHADEBOX]
 
 **[!UICONTROL 테스트]** 활동은 **[!UICONTROL 플로우 제어]** 활동입니다. 이를 통해 지정된 조건에 따라 전환을 활성화할 수 있습니다.
 

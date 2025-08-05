@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: e20db7c39e751bf720cd0ae75b4e8f031de18eef
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -523,32 +523,30 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-<!--
-## Orchestrated campaign resource {#ai-orchestrated-campaign} 
+## 조정된 캠페인 리소스 {#ai-orchestrated-campaign}
 
-* **[!DNL Manage orchestrated campaigns]** high-level permission allows users to create new and edit/delete orchestrated campaigns.
+* **[!DNL Manage orchestrated campaigns]** 높은 수준의 권한을 통해 사용자가 오케스트레이션된 캠페인을 새로 만들고 편집/삭제할 수 있습니다.
 
-  +++ This permission includes the following low-level permissions:  
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-    * Journey Optimizer specific:
+   * Journey Optimizer 관련:
 
-      * orchestrated_campaigns.read  
-      * orchestrated_campaigns.write  
-      * orchestrated_campaigns.delete  
-      * cjm-web-subdomain.read  
-      * cjm-message.read  
-      * cjm-message.write  
-      * cjm-message.delete  
-      * cjm-library-item.read  
-      * cjm-message-general-setting.read  
-      * cjm-message-preset.read  
-      * cjm-message-preview-test.write  
-      * experiment.read  
-      * experiment.write  
-      * experiment.delete  
-      * experiment.activate
+      * orchestrated_campaigns.read
+      * orchestrated_campaigns.write
+      * orchestrated_campaigns.delete
+      * cjm-web-subdomain.read
+      * cjm-message.read
+      * cjm-message.write
+      * cjm-message.delete
+      * cjm-library-item.read
+      * cjm-message-general-setting.read
+      * cjm-message-preset.read
+      * cjm-message-preview-test.write
+      * experiment.read
+      * experiment.write
+      * experiment.delete
 
-    * Adobe Experience Platform specific:
+   * Adobe Experience Platform 관련:
 
       * identity-graph.read
       * segments.read
@@ -557,65 +555,91 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * schemas.read
       * sandboxes.view
 
-  +++
++++
 
-* **[!DNL Manage orchestrated campaigns admin]** high-level permission allows users to create new and edit/delete 
+* **[!DNL Manage orchestrated campaigns admin]** 높은 수준의 권한을 통해 사용자는 Adobe Experience Platform 프로필과 관계형 저장소 엔터티 간에 새로운 링크 및 조정을 만들고 편집/삭제할 수 있습니다.
 
-  +++ This permission includes the following low-level permissions:  
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-    * Journey Optimizer specific:
+   * Journey Optimizer 관련:
 
+      * cjm-orchestrated-campaign-admin.read
+      * cjm-orchestrated-campaign-admin.write
+      * cjm-orchestrated-campaign-admin.delete
 
++++
 
-  +++
+* **[!DNL Publish orchestrated campaigns]** 높은 수준의 권한을 통해 사용자가 오케스트레이션된 캠페인을 게시할 수 있습니다.
 
-* **[!DNL Publish orchestrated campaigns]** high-level permission allows users to publish orchestrated campaigns.
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-  +++ This permission includes the following low-level permissions:
+   * Journey Optimizer 관련:
 
-    * Journey Optimizer specific:
+      * cjm-orchestrated-campaign.read
+      * cjm-orchestrated-campaign.publish
+      * cjm-web-subdomain.read
+      * cjm-message.read
+      * cjm-message.publish
+      * cjm-library-item.read
 
-      * orchestrated_campaigns.publish
-      * orchestrated_campaigns.read
+   * Adobe Experience Platform 관련:
 
+      * sandboxes.view
 
-  +++
++++
 
-* **[!DNL View orchestrated campaigns]** high-level permission allows users to 
+* **[!DNL View orchestrated campaigns]** 높은 수준의 권한을 통해 사용자가 오케스트레이션된 캠페인과 해당 콘텐츠를 볼 수 있습니다.
 
-  +++ This permission includes the following low-level permissions:  
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-    * Journey Optimizer specific:
+   * Journey Optimizer 관련:
 
-      * orchestrated_campaigns.read
+      * cjm-orchestrated-campaign.read
+      * cjm-message.read
+      * cjm-library-item.read
+      * cjm-message-general-setting.read
+      * cjm-message-preset.read
+      * experiment.read
 
-    * Adobe Experience Platform specific:
+   * Adobe Experience Platform 관련:
 
+      * sandboxes.view
       * segments.read
       * profiles.read
 
-  +++
++++
 
-* **[!DNL View orchestrated campaigns admin]** high-level permission allows users to 
+* **[!DNL View orchestrated campaigns admin]** 높은 수준의 권한으로 사용자는 관리자 설정을 볼 수 있지만 설정을 편집할 수는 없습니다.
 
-  +++ This permission includes the following low-level permissions:  
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
+   * Journey Optimizer 관련:
 
-  +++
+      * cjm-orchestrated-campaign-admin.read
 
-* **[!DNL View orchestrated campaigns report]** high-level permission allows users to read and edit orchestrated campaigns report.
++++
 
-  +++ This permission includes the following low-level permissions:  
+* **[!DNL View orchestrated campaigns report]** 높은 수준의 권한을 통해 사용자는 실시간 보고서와 비즈니스 보고서 모두에서 오케스트레이션된 캠페인 성과를 볼 수 있습니다.
 
-    * Journey Optimizer specific:
-      * orchestrated_campaigns_report.read
-      * messages_report.read
++++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-    * Adobe Experience Platform specific:
+   * Journey Optimizer 관련:
 
+      * cjm-orchestrated-campaign-reports.read
+      * cjm-message-report.read
+      * cjm-channel-report.read
+      * cjm-orchestrated-campaign.read
+      * cjm-message.read
+      * cjm-library-item.read
+      * experiment.read
+      * experiment-report.read
+
+   * Adobe Experience Platform 관련:
+
+      * sandboxes.view
       * datasets.read
       * queries.read
       * queries.write
       * queries.delete
-  +++
--->
+
++++

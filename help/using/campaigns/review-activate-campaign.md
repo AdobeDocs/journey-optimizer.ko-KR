@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 액션 캠페인 검토 및 활성화
-description: ' [!DNL Journey Optimizer]에서 액션 캠페인을 검토하고 활성화하는 방법에 대해 알아봅니다.'
+description: ' [!DNL Journey Optimizer]에서 작업 캠페인을 검토하고 활성화하는 방법에 대해 알아봅니다.'
 feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 캠페인, 검토, 유효성 검사, 활성화, 활성화, 최적화
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 3%

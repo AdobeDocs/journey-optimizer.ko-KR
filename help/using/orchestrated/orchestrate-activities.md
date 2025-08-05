@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인 만들기
 description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인을 구축하는 방법 알아보기
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 55%
+source-wordcount: '882'
+ht-degree: 56%
 
 ---
 
+
 # 오케스트레이션된 캠페인 활동 {#orchestrate}
-
-+++ 목차
-
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
-|---|---|---|---|
-| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](gs-schemas.md)</li><li>[수동 스키마](manual-schema.md)</li><li>[파일 업로드 스키마](file-upload-schema.md)</li><li>[데이터 수집](ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md)<br/><br/>[오케스트레이션된 캠페인을 만드는 주요 단계](gs-campaign-creation.md) | [캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/><b>[활동 오케스트레이션](orchestrate-activities.md)</b><br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md)<br/><br/>[리타기팅](retarget.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[And 조인](activities/and-join.md) - [대상자 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [채널 활동](activities/channels.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [대상자 저장](activities/save-audience.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
-
->[!ENDSHADEBOX]
 
 [오케스트레이션된 캠페인을 생성](gs-campaign-creation.md)한 후에는 수행할 다양한 작업의 오케스트레이션을 시작할 수 있습니다. 이를 위해 오케스트레이션된 캠페인 다이어그램을 구성할 수 있는 시각적 캔버스가 제공됩니다. 이 다이어그램에서 다양한 활동을 추가하고 순서대로 연결할 수 있습니다.
 
@@ -84,7 +62,7 @@ ht-degree: 55%
 
 ![일시 중지 아이콘](assets/do-not-localize/activity-pause.svg) ![다시 시작 아이콘](assets/do-not-localize/activity-resume.svg) 활동을 일시 중지/다시 시작합니다. 오케스트레이션된 캠페인이 실행되면 일시 중지된 활동에서 일시 중지됩니다. 여기에 해당하는 작업과 동일한 경로에서 해당 작업에 따라오는 모든 작업은 실행되지 않습니다.
 
-캔버스의 모든 활동을 중단점으로 사용하여 캠페인 실행을 일시 중지할 수 있습니다. 즉, 캠페인은 이 활동까지만 실행된 다음 실행을 일시 중지합니다. 실행을 일시 중지하는 동안 세분화 엔진은 사용자가 미리 볼 수 있도록 임시 데이터를 유지합니다. 일시 중지된 활동 바로 전에 인바운드 전환을 선택하여 전송된 데이터를 볼 수 있습니다. 이 섹션에 대해 자세히 알아보세요. [시각적 흐름 모니터링](../orchestrated/start-monitor-campaigns.md#flow).
+캔버스의 모든 활동을 중단점으로 사용하여 캠페인 실행을 일시 중지할 수 있습니다. 즉, 캠페인은 이 활동까지만 실행된 다음 실행을 일시 중지합니다. 실행을 일시 중지하는 동안 세분화 엔진은 사용자가 미리 볼 수 있도록 임시 데이터를 유지합니다. 일시 중지된 활동 바로 전에 인바운드 전환을 선택하여 전송된 데이터를 볼 수 있습니다. 이 섹션에 대해 자세히 알아보기: [시각적 흐름 모니터링](../orchestrated/start-monitor-campaigns.md#flow)
 
 ![복사 아이콘](assets/do-not-localize/activity-copy.svg) 활동을 복사합니다. [활동을 복사하여 붙여 넣는 방법 알아보기](#copy)
 

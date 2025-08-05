@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 여러 단계로 구성된 캠페인에 채널 활동 추가
 description: 여러 단계로 구성된 캠페인에 채널 활동을 추가하는 방법 알아보기
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 5e52573689ab06084441390299b01e112e699244
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 58%
+source-wordcount: '1097'
+ht-degree: 60%
 
 ---
+
 
 # 채널 활동 {#channel}
 
@@ -50,27 +48,6 @@ UNUSED IDs in BJ
 >id="ajo_orchestration_directmail"
 >title="다이렉트 메일 활동"
 >abstract="DM 활동은 일회성 메시지와 반복 메시지 모두에 대해 오케스트레이션된 캠페인 내에서 DM을 쉽게 보낼 수 있습니다. 이는 다이렉트 메일 제공업체에 필요한 추출 파일 생성 프로세스를 자동화하는 역할을 합니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터를 기반으로 작업을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다."
-
-
-+++ 목차
-
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
-|---|---|---|---|
-| [오케스트레이션된 캠페인 시작](../gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](../gs-schemas.md)</li><li>[수동 스키마](../manual-schema.md)</li><li>[파일 업로드 스키마](../file-upload-schema.md)</li><li>[데이터 수집](../ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](../access-manage-orchestrated-campaigns.md) | [오케스트레이션된 캠페인을 만드는 주요 단계](../gs-campaign-creation.md)<br/><br/>[캠페인 만들기 및 예약](../create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](../orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](../start-monitor-campaigns.md)<br/><br/>[보고](../reporting-campaigns.md) | [규칙 빌더로 작업](../orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](../build-query.md)<br/><br/>[표현식 편집](../edit-expressions.md)<br/><br/>[리타기팅](../retarget.md) | [활동 시작](about-activities.md)<br/><br/>활동:<br/>[And 조인](and-join.md) - [대상자 빌드](build-audience.md) - [차원 변경](change-dimension.md) - <b>[채널 활동](channels.md)</b> - [결합](combine.md) - [중복 제거](deduplication.md) - [보강](enrichment.md) - [포크](fork.md) - [조정](reconciliation.md) - [대상자 저장](save-audience.md) - [분할](split.md) - [대기](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
-
->[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]을(를) 사용하면 여러 채널(이메일, SMS, 푸시 알림)에 걸쳐 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 이러한 채널 활동을 캠페인 캔버스에 결합하여 고객 행동 및 데이터를 기반으로 작업을 트리거할 수 있는 크로스 채널 오케스트레이션된 캠페인을 만들 수 있습니다.
 

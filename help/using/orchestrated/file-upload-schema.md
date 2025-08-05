@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 구성 단계
 description: DDL을 업로드하여 Adobe Experience Platform 내에서 관계형 스키마를 만드는 방법을 알아봅니다
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 57%
+source-wordcount: '985'
+ht-degree: 58%
 
 ---
 
+
 # DDL 파일을 사용하여 관계형 스키마 생성 {#file-upload-schema}
-
-+++ 목차
-
-| 오케스트레이션된 캠페인 시작 | 오케스트레이션된 첫 번째 캠페인 시작 | 데이터베이스 쿼리 | 오케스트레이션된 캠페인 활동 |
-|---|---|---|---|
-| [오케스트레이션된 캠페인 시작](gs-orchestrated-campaigns.md)<br/><br/>관계형 스키마 및 데이터 세트 만들기 및 관리:</br> <ul><li>[스키마 및 데이터 세트 시작](gs-schemas.md)</li><li>[수동 스키마](manual-schema.md)</li><li>[파일 업로드 스키마](file-upload-schema.md)</li><li>[데이터 수집](ingest-data.md)</li></ul>[오케스트레이션된 캠페인 액세스 및 관리](access-manage-orchestrated-campaigns.md)<br/><br/>[오케스트레이션된 캠페인을 만드는 주요 단계](gs-campaign-creation.md) | [캠페인 만들기 및 예약](create-orchestrated-campaign.md)<br/><br/>[활동 오케스트레이션](orchestrate-activities.md)<br/><br/>[캠페인 시작 및 모니터링](start-monitor-campaigns.md)<br/><br/>[보고](reporting-campaigns.md) | [규칙 빌더로 작업](orchestrated-rule-builder.md)<br/><br/>[첫 번째 쿼리 작성](build-query.md)<br/><br/>[표현식 편집](edit-expressions.md)<br/><br/>[리타기팅](retarget.md) | [활동 시작](activities/about-activities.md)<br/><br/>활동:<br/>[And 조인](activities/and-join.md) - [대상자 빌드](activities/build-audience.md) - [차원 변경](activities/change-dimension.md) - [채널 활동](activities/channels.md) - [결합](activities/combine.md) - [중복 제거](activities/deduplication.md) - [보강](activities/enrichment.md) - [포크](activities/fork.md) - [조정](activities/reconciliation.md) - [대상자 저장](activities/save-audience.md) - [분할](activities/split.md) - [대기](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-</br>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-이 페이지의 컨텐츠는 최종본이 아니며, 변경될 수 있습니다.
-
->[!ENDSHADEBOX]
 
 **충성도 멤버십**, **충성도 트랜잭션** 및 **충성도 보상**&#x200B;과 같은 스키마를 만들어 오케스트레이션된 캠페인에 필요한 관계형 데이터 모델을 정의합니다. 각 스키마에는 기본 키, 버전 관리 특성 및 **수신자** 또는 **브랜드**&#x200B;와 같은 참조 엔터티에 대한 적절한 관계가 포함되어야 합니다.
 
@@ -185,28 +163,3 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 계속해서 **충성도 보상** 스키마와 **브랜드** 스키마 간의 관계를 만들어 각 보상 항목을 적절한 브랜드와 연결합니다.
 
 ![](assets/schema_3.png)
-
-
-<!--### Setting Up Change data capture ingestion {#cdc-ingestion}
-
-If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
-
-When using Change Data Capture (CDC), it is essential that the source and dataset remain in sync to ensure accurate incremental updates. Follow the steps below:
-
-1. **Schema Requirements**
-   - Your schema must include:
-     - A **primary key** (e.g., `transaction_id`)
-     - A **versioning field** (e.g., `lastmodified` or an incrementing `version_id`)
-   - Enable the dataset for **Orchestrated Campaigns** if needed.
-
-2. **CDC Dataflow Setup**
-   - During dataflow creation, after choosing your source and files:
-     - **Enable the CDC option**
-     - Select your CDC-ready dataset
-     - Confirm field mappings (especially version field)
-
-3. **Keep Source and Target in Sync**
-   - The source system must consistently update the version field so the platform can detect changes accurately.
-
-Once set up, the platform will automatically ingest **only changed or new records** each time the flow runs.
--->

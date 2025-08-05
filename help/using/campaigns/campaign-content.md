@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 작업 캠페인 컨텐츠 편집
+title: 액션 캠페인 콘텐츠 편집
 description: 작업 캠페인 콘텐츠를 편집하는 방법을 알아봅니다.
 feature: Campaigns
 topic: Content Management
@@ -9,15 +9,15 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 16%
 
 ---
 
-
-# 작업 캠페인 컨텐츠 편집 {#action-campaign-content}
+# 액션 캠페인 콘텐츠 편집 {#action-campaign-content}
 
 메시지 콘텐츠를 구성하려면 **[!UICONTROL 콘텐츠]** 탭으로 이동하거나 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
 
@@ -59,4 +59,4 @@ ht-degree: 16%
 
 ## 다음 단계 {#next}
 
-작업 캠페인의 콘텐츠가 준비되면 캠페인 대상자를 정의할 수 있습니다. [자세히 알아보기](campaign-audience.md)
+액션 캠페인의 콘텐츠가 준비되면 캠페인 대상자를 정의할 수 있습니다. [자세히 알아보기](campaign-audience.md)
