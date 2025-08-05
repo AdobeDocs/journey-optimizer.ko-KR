@@ -73,7 +73,7 @@ API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
 >title="콜백 URL"
->abstract="이 개체에 대한 유효성 검사 요청과 웹후크 알림은 지정된 URL로 전송됩니다."
+>abstract="이 오브젝트에 대한 유효성 검사 요청과 웹후크 알림은 지정된 URL로 전송됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_verify_token"
@@ -180,6 +180,6 @@ WhatsApp API 자격 증명이 성공적으로 생성되면 다음 단계에서 �
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470275/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
