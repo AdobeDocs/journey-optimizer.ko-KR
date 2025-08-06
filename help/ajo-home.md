@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 78742ecf7253cdf750e48505e964d1d2504ef874
+source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 99%
+source-wordcount: '394'
+ht-degree: 88%
 
 ---
 
@@ -20,17 +20,17 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
->[!TAB 25년 7월 릴리스]
+>[!TAB 2025년 7월 릴리스]
 
-6월 릴리스가 공개되었습니다! 릴리스 정보에서 새로운 기능, 변경 사항, 개선 사항을 확인하십시오.
+7월 릴리스가 공개되었습니다! 릴리스 정보에서 새로운 기능, 변경 사항, 개선 사항을 확인하십시오.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 충돌 및 우선순위 지정]
+>[!TAB Campaign 오케스트레이션]
 
-이제 Journey Optimizer에서 충돌 관리 및 우선순위 지정을 위한 여러 도구를 제공합니다. 이 도구는 캠페인과 대상자 선별, 대상자 읽기, 단일 여정에 사용할 수 있습니다.
+이제 Journey Optimizer에 브랜드 시작 일괄 캠페인을 위해 특별히 빌드된 새로운 기능인 **Campaign Orchestration**&#x200B;이(가) 포함되어 있습니다. 이 릴리스에서는 캠페인 오케스트레이션 캔버스 및 향상된 데이터 모델링을 도입하여 마케터가 개인화된 크로스 채널 캠페인을 계획, 타깃팅 및 제공할 수 있도록 함께 작업합니다.
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB Adobe Express]
 
@@ -43,7 +43,7 @@ Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM 콘텐츠 조각]
 

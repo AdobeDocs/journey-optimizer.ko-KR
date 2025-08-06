@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 99%
+source-wordcount: '1681'
+ht-degree: 95%
 
 ---
 
@@ -178,13 +178,26 @@ ht-degree: 99%
 
 ![](assets/do-not-localize/Context-help.gif)
 
+
+## 제품 내 경고
+
+Journey Optimizer 제품 릴리스에 대한 **이메일 및 제품 내 경고**&#x200B;를 구독할 수 있습니다.
+
+구독하려면:
+
+1. **Adobe Experience Cloud 환경 설정**(으)로 이동
+1. **알림**&#x200B;에서 **Journey Optimizer 새 릴리스**&#x200B;를 찾습니다.
+1. 인앱 및 이메일 알림 활성화
+
+![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+
 ## AI 어시스턴트 {#ai-assistant}
 
-AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 환경에 적절한 작업 인사이트를 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Journey Optimizer를 비롯한 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다.
+AI Assistant는 Adobe 개념을 탐색 및 이해하고 특정 환경에 대한 운영 통찰력을 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Journey Optimizer를 비롯한 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다.
 
 AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을 클릭하십시오. AI 어시스턴트는 화면 오른쪽에 표시됩니다.
 
-[&#128279;](ai-assistant.md)이 페이지에서 AI 어시스턴트에 액세스하고 사용하는 방법에 대해 알아봅니다.
+](ai-assistant.md)이 페이지에서[ AI 어시스턴트에 액세스하고 사용하는 방법에 대해 알아봅니다.
 
 ## 언어 환경 설정 {#language-pref}
 
@@ -207,10 +220,10 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 
 언어를 변경하려면 다음 단계를 수행합니다.
 
-1. 오른쪽 상단의 아바타에서 **환경 설정**&#x200B;을 클릭합니다.
+1. 오른쪽 상단의 아바타에서 **환경 설정**을 클릭합니다.
    ![](assets/preferences.png)
 1. 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
-1. 기본 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+1. 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
    ![](assets/select-language.png)
 
 +++
