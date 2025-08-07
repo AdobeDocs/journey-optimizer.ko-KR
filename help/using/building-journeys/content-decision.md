@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 keywords: 활동, 의사 결정, 컨텐츠 결정, 의사 결정 정책, 캔버스, 여정
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
+source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1120'
 ht-degree: 3%
 
 ---
@@ -72,6 +72,16 @@ ht-degree: 3%
    ![결정 정책 요약](assets/journey-content-decision-policy.png){width=70%}<!--reshoot or change screen-->
 
 이제 여정에서 이 콘텐츠 결정 활동의 결과를 활용할 준비가 되었습니다.
+
+## 가드레일 및 제한 사항 {#guardrails}
+
+**동의 정책**
+
+동의 정책에 대한 업데이트는 적용되는 데 최대 48시간이 걸립니다. 의사 결정 정책이 최근에 업데이트된 동의 정책에 연결된 속성을 참조하는 경우 변경 사항이 즉시 적용되지 않습니다.
+
+마찬가지로 동의 정책의 대상인 새 프로필 속성이 의사 결정 정책에 추가되면 사용할 수 있지만 지연이 경과할 때까지 연결된 동의 정책이 적용되지 않습니다.
+
+동의 정책은 Adobe Healthcare Shield 또는 Privacy and Security Shield 추가 기능이 있는 조직만 사용할 수 있습니다.
 
 ## 콘텐츠 결정 활동의 출력 사용 {#use-content-decision-output}
 
