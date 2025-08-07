@@ -76,6 +76,6 @@ ht-degree: 18%
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470553/?learn=on&captions=kor)
 
 +++
