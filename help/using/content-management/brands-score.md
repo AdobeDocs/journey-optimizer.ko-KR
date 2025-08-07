@@ -5,10 +5,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 19%
+source-wordcount: '292'
+ht-degree: 18%
 
 ---
 
@@ -69,3 +69,13 @@ ht-degree: 19%
 1. 권장 사항을 기반으로 콘텐츠를 편집하여 브랜드 정렬을 개선합니다.
 
 1. 정렬 점수를 새로 고치기 위해 변경 후 콘텐츠를 수동으로 다시 평가합니다.
+
+## 사용 방법 비디오 {#video}
+
+아래 비디오에서는 고유한 브랜드를 만들고 사용자 정의하여 커뮤니케이션 전반에 걸쳐 시각적 및 언어적 정체성을 명확하게 정의하는 방법을 보여줍니다.
+
++++ 비디오 보기
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+
++++
