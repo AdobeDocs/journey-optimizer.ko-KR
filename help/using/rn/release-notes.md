@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a53e94f0199cda211d32be55c8e9a52303dc3d25
 workflow-type: tm+mt
 source-wordcount: '1361'
 ht-degree: 35%
@@ -65,7 +65,7 @@ ht-degree: 35%
 
 ### 관계형 스키마 및 데이터 세트 {#oc-relational}
 
-이제 Adobe Experience Platform은 사용자 기반 프로필에 연결된 관계형 엔티티(예: 제품, 스토어, 예약, 계약)를 지원합니다. 이를 통해 다차원 데이터 구조 간에 세분화 및 개인화를 수행할 수 있으므로 다음과 같은 사용 사례가 가능합니다.
+이제 Adobe Journey Optimizer은 사용자 기반 프로필에 연결된 관계형 엔티티(예: 제품, 스토어, 예약, 계약)를 지원합니다. 이를 통해 다차원 데이터 구조 간에 세분화 및 개인화를 수행할 수 있으므로 다음과 같은 사용 사례가 가능합니다.
 
 * 예약, 구독 또는 계약당 하나의 메시지
 
@@ -86,7 +86,7 @@ ht-degree: 35%
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
