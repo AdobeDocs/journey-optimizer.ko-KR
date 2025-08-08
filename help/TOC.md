@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 879837d8dd1a36ab7d6ad180cb77a2b186c07eb5
 workflow-type: tm+mt
-source-wordcount: '2591'
+source-wordcount: '2592'
 ht-degree: 98%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 98%
    + 여정 관리 {#manage-journey}
       + [여정 검색 및 필터링](using/building-journeys/journey-ui.md)
       + [프로필의 여정 진입](using/building-journeys/entry-management.md)
-      + [여정에서 보조 식별자 사용](using/building-journeys/supplemental-identifier.md)
+      + [여정에 보충 식별자를 사용하십시오](using/building-journeys/supplemental-identifier.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
       + [전송 시간 최적화](using/building-journeys/send-time-optimization.md)
       + [여정 끝내기](using/building-journeys/end-journey.md)
@@ -203,6 +203,7 @@ ht-degree: 98%
    + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
       + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
       + [가드레일 및 제한 사항](using/orchestrated/guardrails.md)
+      + [FAQ](using/orchestrated/orchestrated-campaigns-faq.md)
       + 데이터 구성 {#configuration}
          + 관계형 스키마 및 데이터 세트 관리 {#schemas-datasets}
             + [스키마 및 데이터 세트 시작](using/orchestrated/gs-schemas.md)
@@ -223,7 +224,7 @@ ht-degree: 98%
          + [리타기팅](using/orchestrated/retarget.md)
       + 오케스트레이션된 캠페인 활동 {#design-campaigns}
          + [활동 시작](using/orchestrated/activities/about-activities.md)
-         + [AND-가입](using/orchestrated/activities/and-join.md)
+         + [AND-결합](using/orchestrated/activities/and-join.md)
          + [대상자 빌드](using/orchestrated/activities/build-audience.md)
          + [차원 변경](using/orchestrated/activities/change-dimension.md)
          + [채널 활동](using/orchestrated/activities/channels.md)
