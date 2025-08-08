@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 캠페인 작업 구성
+title: 캠페인 액션 구성
 description: Campaign 작업을 구성하는 방법을 알아봅니다.
 feature: Campaigns
 topic: Content Management
@@ -9,17 +9,17 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 10%
+source-wordcount: '809'
+ht-degree: 28%
 
 ---
 
+# 캠페인 액션 구성 {#action-campaign-action}
 
-# 캠페인 작업 구성 {#action-campaign-action}
-
-**[!UICONTROL 작업]** 탭을 사용하여 메시지에 대한 채널 구성을 선택하고 추적, 콘텐츠 실험 또는 다국어 콘텐츠와 같은 추가 설정을 구성합니다.
+**[!UICONTROL 액션]** 탭을 사용하여 메시지의 채널 구성을 선택하고 추적, 콘텐츠 실험 또는 다국어 콘텐츠와 같은 추가 설정을 구성합니다.
 
 1. **채널 선택**
 
@@ -31,19 +31,25 @@ ht-degree: 10%
    >
    >사용 가능한 채널은 라이선스 모델 및 추가 기능에 따라 다릅니다.
 
+   인바운드 채널(코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 작업)을 선택하는 경우 단일 캠페인에서 최대 10개의 작업에 대해 더 많은 인바운드 작업을 추가할 수 있습니다. [방법 알아보기](#multi-action)
+
 1. **채널 구성 선택**
 
-   [시스템 관리자](../start/path/administrator.md)에 의해 구성이 정의되었습니다. 여기에는 헤더 매개변수, 하위 도메인, 모바일 앱 등 메시지 전송을 위한 모든 기술적 매개변수가 포함되어 있습니다. [채널 구성을 설정하는 방법 알아보기](../configuration/channel-surfaces.md)
+   구성은 [시스템 관리자](../start/path/administrator.md)가 정의합니다. 여기에는 헤더 매개변수, 하위 도메인, 모바일 앱 등 메시지 전송을 위한 모든 기술적 매개변수가 포함되어 있습니다. [채널 구성을 설정하는 방법 알아보기](../configuration/channel-surfaces.md)
 
    ![](assets/create-campaign-action.png)
 
-1. **콘텐츠 실험 만들기**
+1. **최적화 활용**
 
-   대상 대상자에게 가장 적합한 성과를 측정하기 위해 **[!UICONTROL 콘텐츠 실험]** 섹션을 사용하여 여러 게재 처리를 정의합니다. **[!UICONTROL 실험 만들기]** 단추를 클릭한 다음 이 섹션에 설명된 단계를 따릅니다. [콘텐츠 실험 만들기](../content-management/content-experiment.md).
+   **[!UICONTROL 메시지 최적화]** 섹션을 사용하여 콘텐츠 실험을 실행하거나, 타깃팅 규칙을 활용하거나, 실험과 타깃팅을 모두 사용하는 고급 조합을 사용할 수 있습니다. 이러한 다양한 옵션과 따라야 할 단계는 이 섹션에 자세히 설명되어 있습니다. [캠페인의 최적화](campaigns-message-optimization.md).
+<!--
+1. **Create a content experiment**
+
+    Use the **[!UICONTROL Content experiment]** section to define multiple delivery treatments in order to measure which one performs best for your target audience. Click the **[!UICONTROL Create experiment]** button then follow the steps detailed in this section: [Create a content experiment](../content-management/content-experiment.md).-->
 
 1. **다국어 콘텐츠 추가**
 
-   **[!UICONTROL 언어]** 섹션을 사용하여 캠페인 내에서 여러 언어로 콘텐츠를 만드십시오. 이렇게 하려면 **[!UICONTROL 언어 추가]** 단추를 클릭하고 원하는 **[!UICONTROL 언어 설정]**&#x200B;을 선택합니다. 다국어 기능 설정 및 사용 방법에 대한 자세한 정보는 이 섹션에서 확인할 수 있습니다. [다국어 콘텐츠 시작](../content-management/multilingual-gs.md)
+   **[!UICONTROL 언어]** 섹션을 사용하여 캠페인 내에서 여러 언어로 콘텐츠를 만듭니다. 이렇게 하려면 **[!UICONTROL 언어 추가]** 버튼을 클릭하고 원하는 **[!UICONTROL 언어 설정]**&#x200B;을 선택합니다. 다국어 기능 설정 및 사용 방법에 대한 자세한 정보는 이 섹션에서 확인할 수 있습니다. [다국어 콘텐츠 시작](../content-management/multilingual-gs.md).
 
 선택한 통신 채널에 따라 추가 설정을 사용할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
@@ -55,13 +61,13 @@ ht-degree: 10%
 
 +++**참여 추적**(전자 메일, SMS).
 
-**[!UICONTROL 작업 추적]** 섹션을 사용하여 수신자가 이메일 또는 SMS 게재에 어떻게 반응하는지를 추적하세요. 캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../reports/campaign-global-report-cja.md)
+**[!UICONTROL 액션 추적]** 섹션을 사용하여 수신자가 이메일 또는 SMS 게재에 어떻게 반응하는지 추적할 수 있습니다. 캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../reports/campaign-global-report-cja.md)
 
 +++
 
 +++**빠른 전송 모드를 사용**(푸시)합니다.
 
-빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림(예: 뉴스 채널 앱을 설치한 사용자에게 속보)을 전송하려는 경우 사용됩니다. 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)을 참조하세요.
+빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠르게 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림을 전송하려는 경우(예: 뉴스 채널 앱을 설치한 사용자에게 속보 전달) 사용됩니다. 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)을 참조하십시오.
 
 +++
 
@@ -82,6 +88,37 @@ ht-degree: 10%
 인앱 메시지의 경우 **[!UICONTROL 트리거 편집]** 단추를 사용하여 메시지를 트리거하는 이벤트 및 기준을 선택할 수 있습니다. [인앱 메시지를 만드는 방법을 알아봅니다](../in-app/create-in-app.md)
 
 +++
+
+## 여러 인바운드 작업 추가 {#multi-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_action"
+>title="여러 인바운드 작업 추가"
+>abstract="단일 캠페인 내에서 여러 인바운드 작업을 선택할 수 있습니다. 이 기능을 사용하면 여러 코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 작업을 동시에 다른 위치에 전달할 수 있으며, 각 작업에는 특정 콘텐츠가 포함됩니다."
+
+캠페인 오케스트레이션을 단순화하기 위해 단일 캠페인 내에서 여러 인바운드 작업을 정의할 수 있습니다. 각 작업에는 특정 콘텐츠가 포함됩니다.
+
+>[!NOTE]
+>
+>이 용량은 인바운드 채널에만 사용할 수 있습니다. 현재 이메일 등의 아웃바운드 채널은 지원되지 않습니다.
+
+이 용량을 사용하면 여러 캠페인을 만들 필요 없이 다양한 코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 작업을 동시에 다른 위치에 전달할 수 있습니다. 이렇게 하면 모든 데이터를 하나의 캠페인으로 통합하여 캠페인을 보다 쉽게 배포할 수 있고 보고를 보다 원활하게 수행할 수 있습니다.
+
+예를 들어 콘텐츠가 약간 다른 여러 끝점에 코드 기반 경험을 보낼 수 있습니다. 이렇게 하려면 동일한 캠페인 내에서 각각 다른 끝점 구성을 갖는 여러 코드 기반 작업을 만듭니다.
+
+캠페인에서 여러 인바운드 작업을 정의하려면 아래 단계를 따르십시오.
+
+1. **작업** 섹션에서 인바운드 작업(**코드 기반 경험**, **인앱 메시지**, **콘텐츠 카드** 또는 **[!UICONTROL 웹]**)을 선택하십시오.
+
+1. 채널 구성을 선택하고 해당 작업에 대한 특정 콘텐츠를 정의합니다.
+
+1. **[!UICONTROL 작업 추가]** 단추를 사용하여 드롭다운 목록에서 다른 인바운드 작업을 선택합니다.
+
+   ![](assets/create-campaign-multi-action.png){width="80%"}
+
+1. 작업을 추가하려면 유사하게 진행합니다. 캠페인에 최대 10개의 인바운드 작업을 추가할 수 있습니다.
+
+캠페인이 [live](review-activate-campaign.md)이면 모든 작업이 동시에 활성화됩니다.
 
 ## 다음 단계 {#next}
 

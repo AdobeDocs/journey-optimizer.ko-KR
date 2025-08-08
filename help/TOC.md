@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 879837d8dd1a36ab7d6ad180cb77a2b186c07eb5
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2598'
 ht-degree: 98%
 
 ---
@@ -187,6 +187,7 @@ ht-degree: 98%
       + [작업 캠페인 작업](using/campaigns/create-campaign.md)
       + [캠페인 속성 정의](using/campaigns/campaign-properties.md)
       + [캠페인 액션 구성](using/campaigns/campaign-action.md)
+      + [캠페인에서 메시지 최적화 활용](using/campaigns/campaigns-message-optimization.md)
       + [캠페인 콘텐츠 편집](using/campaigns/campaign-content.md)
       + [캠페인 대상자 정의](using/campaigns/campaign-audience.md)
       + [캠페인 예약](using/campaigns/campaign-schedule.md)
