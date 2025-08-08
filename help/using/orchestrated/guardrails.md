@@ -4,9 +4,9 @@ product: journey optimizer
 title: 조정된 캠페인 보호 및 제한 사항
 description: 오케스트레이션된 캠페인 보호 및 제한 사항에 대해 알아봅니다
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
@@ -83,3 +83,7 @@ ht-degree: 1%
 * **저장된 대상자 활동은 정적입니다**. 이 활동은 캠페인 실행 시 사용 가능한 데이터를 반영합니다.
 
 * **저장된 대상자 활동에 추가할 수 없습니다**. 모든 수정 사항을 적용하려면 대상을 완전히 덮어써야 합니다.
+
+## 채널 제한 사항
+
+오케스트레이션된 캠페인에서는 SMS, 푸시 및 이메일 채널만 지원됩니다.
