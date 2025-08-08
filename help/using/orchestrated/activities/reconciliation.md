@@ -7,7 +7,7 @@ exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="조정 규칙"
->abstract="중복 제거에 사용할 조정 규칙을 선택합니다. 속성을 사용하려면 **단순 속성** 옵션을 선택하고 소스 및 대상 필드를 선택합니다. 규칙 빌더를 사용하여 나만의 조정 조건을 만들려면 **고급 조정 조건** 옵션을 선택하십시오."
+>abstract="중복 제거에 사용할 조정 규칙을 선택합니다. 속성을 사용하려면 **단순 속성** 옵션을 선택하고 소스 및 대상 필드를 선택합니다. 규칙 빌더를 사용하여 자체 조정 조건을 만들려면 **고급 조정 조건** 옵션을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="타기팅 차원 선택"
 >abstract="조정할 인바운드 데이터의 타기팅 차원을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=ko#targeting-dimensions" text="타기팅 차원"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="타기팅 차원"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"

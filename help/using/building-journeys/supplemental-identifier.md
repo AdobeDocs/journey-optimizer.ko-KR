@@ -1,22 +1,22 @@
 ---
-title: 여정에서 보조 식별자 사용
+title: 여정에 보충 식별자를 사용하십시오
 description: 여정에서 보조 식별자를 사용하는 방법을 알아봅니다.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# 여정에서 보조 식별자 사용 {#supplemental-id}
+# 여정에 보충 식별자를 사용하십시오 {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="추가 식별자 사용"
 >abstract="추가 식별자는 여정 실행을 위한 추가 컨텍스트를 제공하는 보조 식별자입니다. 이를 정의하려면 추가 식별자로 사용할 필드를 선택하고 이와 연결할 네임스페이스를 선택하십시오."
 
-기본적으로 여정은 **프로필 ID**&#x200B;의 컨텍스트에서 실행됩니다. 즉, 프로필이 주어진 여정에서 활성 상태인 한 다른 여정으로 다시 들어갈 수 없습니다. 이를 방지하기 위해 [!DNL Journey Optimizer]에서는 프로필 ID 외에 주문 ID, 구독 ID, 처방 ID와 같은 **보조 식별자**&#x200B;를 캡처할 수 있습니다.
+기본적으로 여정은 **프로필 ID**&#x200B;의 컨텍스트에서 실행됩니다. 즉, 프로필이 주어진 여정에서 활성 상태인 한 다른 여정으로 다시 들어갈 수 없습니다. 이를 방지하기 위해 [!DNL Journey Optimizer]에서는 프로필 ID 외에 주문 ID, 구독 ID, 처방 ID와 같은 **보조 식별자**를 캡처할 수 있습니다.
 이 예에서는 예약 ID를 보조 식별자로 추가했습니다.
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
@@ -244,4 +244,4 @@ ht-degree: 4%
 
 [!DNL Adobe Journey Optimizer]에서 보조 식별자를 활성화하고 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464799?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

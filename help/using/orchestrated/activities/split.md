@@ -7,7 +7,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="분할 활동용 세그먼트"
->abstract="수신 집단을 세그먼트로 나누려면 원하는 만큼 하위 집합을 추가합니다.<br/></br>**분할** 활동이 실행되면 집단이 활동에 추가된 순서대로 여러 하위 집합에 걸쳐 세그먼트로 나뉩니다. 오케스트레이션된 캠페인을 시작하기 전에 화살표 버튼을 사용하여 필요에 맞는 순서로 하위 세트를 정렬했는지 확인하십시오."
+>abstract="수신 집단을 세그먼트로 나누려면 원하는 만큼 하위 집합을 추가합니다.<br/></br>**분할** 활동이 실행되면 집단이 활동에 추가된 순서대로 여러 하위 집합에 걸쳐 세그먼트로 나뉩니다. 오케스트레이션된 캠페인을 시작하기 전에 화살표 버튼을 사용하여 필요에 맞는 순서대로 하위 집합을 정렬했는지 확인하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"

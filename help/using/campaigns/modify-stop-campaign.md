@@ -13,7 +13,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1475'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="조정된 캠페인 인벤토리"
->abstract="이 화면에서 오케스트레이션된 캠페인의 전체 목록에 액세스하고, 현재 상태, 마지막/다음 실행 날짜를 확인하고, 새 오케스트레이션된 캠페인을 만들 수 있습니다."
+>abstract="이 화면에서 오케스트레이션된 캠페인의 전체 목록에 액세스하고 현재 상태, 마지막/다음 실행 일자를 확인하고 오케스트레이션된 새 캠페인을 만들 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_campaign_action"
 >title="작업"
->abstract="이 섹션에는 오케스트레이션된 캠페인 내에서 사용되는 모든 작업이 나열되어 있습니다."
+>abstract="이 섹션에는 오케스트레이션된 캠페인 내부에서 사용되는 모든 액션이 나열됩니다."
 
 캠페인은 **[!UICONTROL 캠페인]** 메뉴에서 액세스할 수 있습니다.
 
@@ -68,7 +68,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 또한 목록에서 쉽게 검색할 수 있도록 검색 창과 필터를 사용할 수 있습니다. 예를 들어 지정된 채널 또는 태그와 연결된 캠페인 또는 특정 날짜 범위 동안 만들어진 캠페인만 표시하도록 캠페인을 필터링할 수 있습니다.
 
-캠페인 인벤토리의 ![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)액션 더 보기 버튼을 표시하는 이미지 버튼을 사용하면 아래에서 설명하는 다양한 작업을 수행할 수 있습니다.
+캠페인 인벤토리의 ](assets/do-not-localize/rule-builder-icon-more.svg)액션 더 보기 버튼을 표시하는 이미지![ 버튼을 사용하면 아래에서 설명하는 다양한 작업을 수행할 수 있습니다.
 
 ![캠페인 인벤토리를 표시하는 이미지](assets/inventory-actions.png)
 

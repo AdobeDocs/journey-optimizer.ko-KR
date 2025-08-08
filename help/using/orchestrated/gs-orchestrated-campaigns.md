@@ -7,7 +7,7 @@ exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 16%
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="오케스트레이션된 캠페인 개요"
->abstract="<b>Campaign 오케스트레이션</b><br/>관계형 데이터 세트를 분할, 결합, 강화, 조작하여 대상자를 정의합니다<br/><br/> <b>여러 엔터티 데이터 활용</b><br/>오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위한 데이터를 보강하는 방법에 대해 알아봅니다.<br/><br/><b>임시 세분화 및 정확한 카운트</b><br/>정확한 카운트로 단계별 세그먼트 구축<br/><br/><b>사용 가능한 채널</b><br/>이메일, SMS, 푸시 알림, DM"
+>abstract="<b>Campaign 오케스트레이션</b><br/>관계형 데이터 세트를 분할, 결합, 강화, 조작하여 대상자를 정의합니다<br/><br/> <b>다중 엔티티 데이터 활용</b><br/>오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위한 데이터를 확장하는 방법 알아보기<br/><br/><b>애드혹 세분화 및 정확한 카운트</b><br/>정확한 카운트를 기반으로 단계별로 세그먼트 빌드<br/><br/><b>사용 가능한 채널</b><br/>이메일, SMS, 푸시 알림, 다이렉트 메일"
 
 [!DNL Adobe Journey Optimizer]의 Campaign Orchestration은 정교하고 브랜드에서 시작한 마케팅 캠페인을 채널 전체에 걸쳐 지원하므로 규모에 맞게 참여, 매출 및 고객 충성도를 높일 수 있습니다.
 

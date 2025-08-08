@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
 source-wordcount: '1906'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="하위 도메인 위임"
->abstract="Journey Optimizer를 통해 하위 도메인을 Adobe에 위임할 수 있습니다. 하위 도메인을 Adobe에 완전히 위임할 수 있으며 이는 권장 메서드입니다. </br>CNAME을 사용하여 Adobe 관련 레코드를 가리키도록 하위 도메인을 만들 수도 있지만, 이 방법을 사용하려면 DNS 레코드를 직접 유지 관리하고 관리해야 합니다."
+>abstract="Journey Optimizer를 통해 하위 도메인을 Adobe에 위임할 수 있습니다. 하위 도메인을 Adobe에 완전히 위임할 수 있으며 이는 권장 메서드입니다. </br>Adobe의 특정 레코드를 가리키도록 CNAME을 사용하여 하위 도메인을 만들 수도 있지만 이 접근 방식을 사용하려면 DNS 레코드를 직접 유지하고 관리해야 합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="하위 도메인 구성 메서드"
 
 >[!CONTEXTUALHELP]
@@ -273,4 +273,4 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 CNAME을 사용하여 Adobe 관련 레코드를 가리키도록 하위 도메인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342238?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

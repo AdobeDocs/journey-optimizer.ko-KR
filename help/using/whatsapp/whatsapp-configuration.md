@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -68,7 +68,7 @@ API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="키워드를 입력하십시오."
->abstract="사용자가 텍스트를 입력한 내용에 따라 특정 자동 응답을 트리거하기 위한 키워드를 정의할 수 있습니다. 키워드는 대/소문자를 구분하지 않습니다. 예를 들어 stop 및 STOP은 동일하게 처리됩니다."
+>abstract="사용자가 입력한 텍스트를 기반으로 특정 자동 응답을 트리거하는 키워드를 정의할 수 있습니다. 키워드는 대소문자를 구분하지 않습니다. 예를 들어, stop과 STOP은 동일하게 처리됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
