@@ -3,12 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 메시지 최적화
 description: 메시지 최적화를 활용하여 개인화되고 최적화된 마케팅 캠페인을 만들 수 있습니다.
-feature: Message optimization
-topic: Experimentation
 role: User
 level: Intermediate
 keywords: 캠페인 최적화, 실험, 타겟팅, A/B 테스트
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 0%
