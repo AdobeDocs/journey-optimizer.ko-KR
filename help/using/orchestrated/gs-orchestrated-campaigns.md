@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 오케스트레이션된 캠페인 시작
 description: 오케스트레이션된 캠페인으로 시작하는 방법 알아보기
+short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 사례를 살펴보십시오.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 86bd6a100644a0f50aa9e18fd7023dec11c05bfe
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 25%
+source-wordcount: '587'
+ht-degree: 24%
 
 ---
 
