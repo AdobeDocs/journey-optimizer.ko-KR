@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '1428'
-ht-degree: 33%
+ht-degree: 98%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 33%
 
 **사용 가능한 날짜**: 2025년 8월 4일
 
-이제 Journey Optimizer에 브랜드 시작 일괄 캠페인을 위해 특별히 빌드된 새로운 기능인 **Campaign Orchestration**&#x200B;이(가) 포함되어 있습니다. 이 릴리스에서는 캠페인 오케스트레이션 캔버스 및 향상된 데이터 모델링을 도입하여 마케터가 개인화된 크로스 채널 캠페인을 계획, 타깃팅 및 제공할 수 있도록 함께 작업합니다.
+이제 Journey Optimizer에 브랜드 주도 일괄 캠페인을 위해 특별히 설계된 새로운 기능인 **캠페인 오케스트레이션**&#x200B;이 포함됩니다. 이 릴리스에서는 캠페인 오케스트레이션 캔버스 및 향상된 데이터 모델링을 도입하여 마케터가 개인화된 크로스 채널 캠페인을 계획하고, 타깃팅하고, 제공할 수 있도록 함께 작업합니다.
 
-![Campaign Orchestration GIF](assets/do-not-localize/release.gif)
+![캠페인 오케스트레이션 GIF](assets/do-not-localize/release.gif)
 
-여기에는 [관계형 스키마 및 데이터 세트](#oc-relational) 및 [Campaign 캔버스](#oc-canvas)가 포함됩니다. 이러한 두 가지 혁신적인 기능을 통해 Journey Optimizer에서 일괄 캠페인을 오케스트레이션하기 위한 새로운 표준을 마련할 수 있습니다. 주요 기능은 아래에 나와 있습니다.
+여기에는 [관계형 스키마 및 데이터 세트](#oc-relational) 및 [Campaign 캔버스](#oc-canvas)가 포함됩니다. 이러한 두 가지 혁신적인 기능을 통해 Journey Optimizer에서 일괄 캠페인을 오케스트레이션하기 위한 새로운 기준을 마련할 수 있습니다. 주요 기능은 아래에 나와 있습니다.
 
 ### 주요 기능 {#oc-capabilities}
 
@@ -39,21 +39,21 @@ ht-degree: 33%
 
   특별히 제작된 새로운 캠페인 오케스트레이션 캔버스를 통해 정교한 멀티채널 일괄 캠페인을 수행할 수 있습니다.
 
-* **온디맨드 대상**
+* **온디맨드 대상자**
 
   즉각적인 활성화를 위해 온디맨드로 대상자를 세그먼트화합니다.
 
 * **다중 엔터티 세분화**
 
-  제품, 스토어, 갱신, 예약 등과 같은 비즈니스 컨텍스트(비사용자 차원)를 사용하여 대상을 작성합니다.
+  제품, 스토어, 갱신, 예약 등과 같은 비즈니스 컨텍스트(비사용자 차원)를 사용하여 대상자를 작성합니다.
 
-* **미리 전송 가시성**
+* **사전 전송 가시성**
 
   캠페인 실행 전과 실행 중에 대상자 및 캠페인을 검토, 세분화 및 최적화합니다.
 
 ### 캠페인 캔버스 {#oc-canvas}
 
-일괄 캠페인을 위해 특별히 빌드된 새로운 시각적 오케스트레이션 인터페이스입니다. 이 캔버스를 통해 다음과 같은 작업을 수행할 수 있습니다.
+일괄 캠페인을 위해 특별히 빌드된 새로운 시각적 오케스트레이션 인터페이스입니다. 이 캔버스를 통해 다음을 할 수 있습니다.
 
 * 여러 단계, 다중 채널 캠페인 흐름의 시각적 계획
 
@@ -73,20 +73,20 @@ ht-degree: 33%
 
 * 향상된 주소 지정(예: 엔티티에 연결된 알려진 모든 연락처로 전송)
 
-### 중요한 이유
+### 이것이 중요한 이유
 
 이 릴리스를 통해 마케터는 유연한 데이터 모델링과 특별히 빌드된 오케스트레이션 경험을 결합하여 브랜드 주도, 대상 기반 일괄 마케팅을 완벽하게 제어할 수 있습니다. 이는 고급 개인화 및 확장성을 제공하면서도 실시간 여정의 일괄 캠페인 오케스트레이션을 위해 특별히 설계되었습니다.
 
 ### 자세히 알아보기
 
-자세한 내용은 [Campaign 오케스트레이션 설명서](../orchestrated/gs-orchestrated-campaigns.md)를 참조하세요.
+[캠페인 오케스트레이션](../orchestrated/gs-orchestrated-campaigns.md)에서 자세히 알아보십시오.
 
 <!--
 ## August '25 pre release notes {#25-7-rn}
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
@@ -111,8 +111,8 @@ Improvements coming with this release are listed below.
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer은 캠페인 대상에 개인화되고 최적화된 콘텐츠를 전달할 수 있는 도구를 제공함으로써 콘텐츠 실험을 실행하고, 규칙 기반 타기팅을 만들고, 두 방법의 고급 조합을 사용하여 캠페인의 효과를 극대화할 수 있습니다.</p>
-<p>최적화를 통해 다음과 같은 작업을 수행할 수 있습니다.</p>
+<p>이제 Journey Optimizer는 캠페인 대상에 개인화되고 최적화된 콘텐츠를 전달할 수 있는 도구를 제공함으로써 콘텐츠 실험을 실행하고, 규칙 기반 타기팅을 만들고, 두 방법의 고급 조합을 사용하여 캠페인의 효과를 극대화할 수 있습니다.</p>
+<p>최적화를 사용하면 다음을 할 수 있습니다.</p>
 <ul>
 <li>여러 콘텐츠 변형을 테스트하여 가장 효과적인 메시징을 식별합니다.</li>
 <li>사용자 특성 및 컨텍스트 데이터를 기반으로 개인화된 콘텐츠를 제공합니다.</li>
@@ -123,7 +123,7 @@ Improvements coming with this release are listed below.
 <P>캠페인이 라이브되면 정의된 기준에 따라 프로필이 평가되고, 일치하는 기준을 기반으로 캠페인의 적절한 경험 또는 콘텐츠와 함께 전달됩니다.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
 <p>릴리스 날짜: 2025년 8월 8일</p>
-<p>자세한 내용은 <a href="../campaigns/campaigns-message-optimization.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../campaigns/campaigns-message-optimization.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -133,7 +133,7 @@ Improvements coming with this release are listed below.
 
 ## 2025년 7월 릴리스 정보 {#25-7-rn}
 
-**릴리스 일자**: 2025년 7월 29일 수요일
+**릴리스 일자**: 2025년 7월 29일
 
 ### 새로운 기능 {#features-25-7}
 
@@ -151,7 +151,7 @@ Improvements coming with this release are listed below.
 <tr>
 <td>
 <p>이제 커뮤니케이션 전반에 걸쳐 시각적, 언어적 정체성을 명확하게 정의하기 위해 자체 브랜드를 만들고 사용자 정의할 수 있습니다. 브랜드 정렬 점수를 사용하면 콘텐츠가 브랜드의 톤, 스타일, 가이드라인을 얼마나 잘 반영하는지에 대한 실시간 피드백을 받을 수 있으므로 보내는 모든 메시지에서 일관되게 브랜드에 맞는 내용을 전달하는 데 도움이 됩니다.</p>
-<p>이전에 Beta에서 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이전에 Beta로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
 <p>자세한 내용은 <a href="../content-management/brands.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -162,15 +162,15 @@ Improvements coming with this release are listed below.
 <table>
 <thead>
 <tr>
-<th><strong>이메일 채널에서 Decisioning 사용</strong><br/></th>
+<th><strong>이메일 채널에서 의사 결정 사용</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>이제 이메일 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다.</p>
-<p>이 기능은 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-자세한 내용은 <a href="../experience-decisioning/create-decision.md">자세한 설명서</a>를 참조하세요.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+자세한 내용은 <a href="../experience-decisioning/create-decision.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -186,7 +186,7 @@ Improvements coming with this release are listed below.
 <tr>
 <td>
 <p>Adobe Journey Optimizer는 LINE 채널에 대한 지원을 포함하도록 크로스 채널 기능을 확장했습니다. 이 향상된 기능을 통해 LINE 경험을 만들고 편집하고 미리 볼 수 있으므로 보다 개인화되고 매력적인 상호 작용을 제공할 수 있습니다. LINE을 사용하여 더 많은 고객과 소통하고 관련 콘텐츠를 전송하며 참여도를 개선할 수 있습니다.</p>
-<p>이전에는 요청만 사용할 수 있었지만 이제 모든 사용자가 LINE 채널을 사용할 수 있게 되었습니다(일반 공급).</p>
+<p>이전에는 요청만 사용할 수 있었지만 이제 모든 사용자가 LINE 채널을 사용할 수 있게 되었습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../line/get-started-line.md">세부 설명서</a>를 참조하십시오.</p></td>
 </tr>
 </tbody>
@@ -204,7 +204,7 @@ Improvements coming with this release are listed below.
 <p>여정 시험 실행은 Adobe Journey Optimizer에서 제공되는 특별한 여정 게시 모드로, 여정 실무자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용해 여정을 테스트할 수 있도록 합니다. 이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p>자세한 내용은 <a href="../building-journeys/journey-dry-run.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-dry-run.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -214,16 +214,16 @@ Improvements coming with this release are listed below.
 <table>
 <thead>
 <tr>
-<th><strong>여정에 대한 보조 ID</strong><br/></th>
+<th><strong>여정용 보조 ID</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>이제 주문 ID, 구독 ID 또는 처방전 ID와 같은 다른 식별자와 함께 프로필 ID를 사용하여 여정을 트리거함으로써 동일한 프로필이 한 번에 여러 차례 동일한 여정에 있도록 할 수 있습니다. 이를 통해 각 인스턴스가 자체 여정 경로를 따르면서 여러 주문 또는 구독을 동시에 관리할 수도 있습니다.</p>
-<p>이전에 [제한된 가용성]에서 릴리스된 이후에는 이제 여정에서 보조 ID를 사용할 수 있습니다. 이번 GA 릴리스에서는 이제 대상자 읽기 여정에 대한 지원이 기능에 포함됩니다.</p>
+<p>이전에 제한된 가용성에서 릴리스되었던 여정에서의 보조 ID 사용 기능이 이제 모든 환경에서 사용할 수 있게 되었습니다. 이번 GA 릴리스에서는 이제 대상자 읽기 여정에 대한 지원이 기능에 포함됩니다.</p>
 <p><img src="assets/do-not-localize/gif-supplemental.gif"/></p>
-<p>자세한 내용은 <a href="../building-journeys/supplemental-identifier.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../building-journeys/supplemental-identifier.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -233,9 +233,9 @@ Improvements coming with this release are listed below.
 
 이제 Journey Optimizer 제품 릴리스에 대한 **이메일 및 제품 내 경고**&#x200B;를 구독할 수 있습니다.
 
-구독하려면:
+구독하려면
 
-* **Adobe Experience Cloud 환경 설정**(으)로 이동
+* **Adobe Experience Cloud 환경 설정**&#x200B;으로 이동하십시오.
 * **알림**&#x200B;에서 **Journey Optimizer 새 릴리스**&#x200B;를 찾습니다.
 * 인앱 및 이메일 알림 활성화
 
@@ -261,12 +261,12 @@ Improvements coming with this release are listed below.
 
    * **캠페인 인벤토리 재구성** - 이제 예약된 캠페인 및 API 트리거 캠페인이 더 쉬운 탐색 및 관리를 위해 캠페인 인벤토리에서 별도의 탭으로 분할됩니다.
 
-[자세히 표시](../campaigns/modify-stop-campaign.md)
+[자세히 보기](../campaigns/modify-stop-campaign.md)
 
 * **데이터 관리**
-   * **의사 결정 관리 시스템 데이터 세트 업데이트** - 이제 삭제된 개인화된 오퍼 및 대체 오퍼가 &quot;decision_object_repository_personalized_offers&quot; 및 &quot;decision_object_repository_fallback_offers&quot; 데이터 세트에 보관된 것으로 표시됩니다. 데이터 세트의 기존 레코드는 변경되지 않습니다.
+   * **의사 결정 관리 시스템 데이터 세트 업데이트** - 이제 삭제된 개인화된 오퍼 및 대체 오퍼가 “decision_object_repository_personalized_offers” 및 “decision_object_repository_fallback_offers” 데이터 세트에 보관된 것으로 표시됩니다. 데이터 세트의 기존 레코드는 변경되지 않습니다.
 
-[자세히 표시](../offers/export-catalog/access-dataset.md)
+[자세히 보기](../offers/export-catalog/access-dataset.md)
 
 * **여정**
    * **여정 샌드박스 도구 개선 사항** - 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정을 복사할 때 이제 다음 기능도 사용할 수 있습니다.
@@ -274,7 +274,7 @@ Improvements coming with this release are listed below.
       * 여정과 독립적으로 이벤트 복사
       * 필드 그룹/데이터 소스 관계 감지, 대상(있는 경우)에서 연결, 없는 경우 생성.
 
-[자세히 표시](../configuration/copy-objects-to-sandbox.md)
+[자세히 보기](../configuration/copy-objects-to-sandbox.md)
 
 * **채널 - 인앱**
    * **인앱 키/값 쌍** - 인앱 메시지를 사용하여 메시지 페이로드에 사용자 지정 변수를 포함하도록 키 및 값 쌍을 정의할 수 있습니다. 이러한 키-값 쌍을 사용하면 특정 구성 및 사용 사례에 따라 추가 데이터를 전달할 수 있습니다. [자세히 보기](../in-app/design-in-app.md)
@@ -282,16 +282,16 @@ Improvements coming with this release are listed below.
 * **채널 - 콘텐츠 카드**
 
    * **규칙 기반 캠페인 결격** - 추가 게재 규칙을 편집할 때 이전 게재 규칙 옵션이 세 가지 개별 규칙 유형으로 대체되어 메시지 타이밍 및 가시성을 더 잘 제어할 수 있습니다.
-      * 다음과 같은 경우 메시지 표시: 컨텐츠 카드가 표시되는 시기를 결정하는 조건입니다.
+      * 다음과 같은 경우 메시지 표시: 컨텐츠 카드가 표시되는 시기를 결정하는 조건.
       * 다음과 같은 경우 메시지 닫기: 컨텐츠 카드를 일시적으로 숨기는 조건. 표시 조건이 다시 충족되는 경우 다시 나타날 수 있습니다.
       * 메시지 부적격: 컨텐츠 카드가 다시 표시되지 않도록 영구적으로 차단하는 조건.
 
-[자세히 표시](../content-card/design-content-card.md)
+[자세히 보기](../content-card/design-content-card.md)
 
 * **의사 결정**
    * **마이그레이션 도구 API** - Journey Optimizer 팀은 현재 의사 결정 관리 엔터티를 Decisioning으로 마이그레이션하기 위한 마이그레이션 도구 API를 작업 중입니다. 이 도구를 사용하면 종속성 해결 및 롤백 기능을 통해 샌드박스 간에 원활하게 마이그레이션할 수 있습니다. 관심이 있는 경우 Adobe 담당자에게 문의하십시오.
 
 * **개인화**
-   * 새로운 도우미 함수인 &quot;SHA256&quot;이 개인화 편집기에 추가되었습니다. 이 함수는 문자열의 sha256 해시를 계산하고 반환하는 데 사용합니다.
+   * 개인화 편집기에 새로운 헬퍼 함수 “SHA256”이 추가되었습니다. 이 함수는 문자열의 sha256 해시를 계산하고 반환하는 데 사용합니다.
 
-[자세히 표시](../personalization/functions/string.md#sha256)
+[자세히 보기](../personalization/functions/string.md#sha256)

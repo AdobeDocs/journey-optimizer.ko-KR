@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '2598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
    + 여정 관리 {#manage-journey}
       + [여정 검색 및 필터링](using/building-journeys/journey-ui.md)
       + [프로필의 여정 진입](using/building-journeys/entry-management.md)
-      + [여정에 보충 식별자를 사용하십시오](using/building-journeys/supplemental-identifier.md)
+      + [여정에서 보조 식별자 사용](using/building-journeys/supplemental-identifier.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
       + [전송 시간 최적화](using/building-journeys/send-time-optimization.md)
       + [여정 끝내기](using/building-journeys/end-journey.md)
@@ -184,7 +184,7 @@ ht-degree: 98%
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 액세스 및 관리](using/campaigns/modify-stop-campaign.md)
    + 액션 캠페인 {#action-campaigns}
-      + [작업 캠페인 작업](using/campaigns/create-campaign.md)
+      + [액션 캠페인 작업](using/campaigns/create-campaign.md)
       + [캠페인 속성 정의](using/campaigns/campaign-properties.md)
       + [캠페인 액션 구성](using/campaigns/campaign-action.md)
       + [캠페인에서 메시지 최적화 활용](using/campaigns/campaigns-message-optimization.md)
@@ -211,8 +211,8 @@ ht-degree: 98%
             + [수동 스키마](using/orchestrated/manual-schema.md)
             + [파일 업로드 스키마](using/orchestrated/file-upload-schema.md)
             + [데이터 수집](using/orchestrated/ingest-data.md)
-         + [타겟팅 차원 만들기](using/orchestrated/target-dimension.md)
-      + 오케스트레이션된 첫 번째 캠페인 시작{#launch}
+         + [타기팅 차원 만들기](using/orchestrated/target-dimension.md)
+      + 첫 오케스트레이션된 캠페인 시작{#launch}
          + [오케스트레이션된 캠페인을 만드는 주요 단계](using/orchestrated/gs-campaign-creation.md)
          + [캠페인 만들기 및 예약](using/orchestrated/create-orchestrated-campaign.md)
          + [활동 오케스트레이션](using/orchestrated/orchestrate-activities.md)
@@ -587,7 +587,7 @@ ht-degree: 98%
             + [자동 최적화 모델](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [개인화된 최적화 모델](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [AI 모델 만들기](using/experience-decisioning/ranking/create-ai-models.md)
-      + [배치를 사용한 작업](using/experience-decisioning/placements.md)
+      + [배치 작업](using/experience-decisioning/placements.md)
       + Adobe Experience Platform 데이터 사용 {#aep-data}
          + [컨텍스트 데이터 활용](using/experience-decisioning/context-data.md)
          + [결정에 Adobe Experience Platform 사용](using/experience-decisioning/aep-data-exd.md)
