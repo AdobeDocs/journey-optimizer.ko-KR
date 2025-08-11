@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: f26083c222efa71176ce5c78f5f35f2c208240e6
+source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 데이터 세트가 구성되지 않은 경우 다음 지표만 사용할 수 있습니다. **[!UICONTROL 클릭]**, **[!UICONTROL 고유 클릭]**, **[!UICONTROL 클릭스루 비율]** 및 **[!UICONTROL 열기 비율]**.
 
-Customer Journey Analytics 라이선스를 사용하면 사용자 지정 성공 지표를 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Customer Journey Analytics 라이선스를 사용하면 사용자 지정 성공 지표를 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | 지표 | 관련 필드 그룹 |
@@ -69,7 +69,7 @@ Customer Journey Analytics 라이선스를 사용하면 사용자 지정 성공 
 
   Journey Optimizer 및 Customer Journey Analytics 라이선스를 모두 사용하여 특정 속성 설정으로 사용자 지정 지표를 만들거나 기본 제공 지표의 속성을 변경할 수 있습니다.
 
-  [속성 모델](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)에 대해 자세히 알아보기
+  [속성 모델](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)에 대해 자세히 알아보기
 
 ## 여정 지표 할당 {#assign}
 
