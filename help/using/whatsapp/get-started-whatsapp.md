@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ WhatsApp 채널에는 다음 제한 사항이 적용됩니다.
 
 * Adobe Journey Optimizer의 WhatsApp 채널은 HIPAA 준수를 대비한 채널이지만 제3자 공급업체는 Adobe의 BAA에 포함되지 않습니다. 자체 규정 준수 및 공급업체 유효성 검사에 대한 책임은 고객에게 있습니다.
 
-* 자동화된 응답 메시지나 사전 정의된 응답 메시지는 아직 지원되지 않습니다.
+* 자동 또는 사전 준비된 응답 메시지는 아직 지원되지 않습니다.
 
 * 2025년 4월부터 미국 전화번호(+1 국가 코드와 미국 지역 번호로 구성된 번호)가 있는 WhatsApp 사용자에 대한 모든 마케팅 템플릿 메시지 게재가 일시적으로 중단되었습니다. [Meta 설명서에서 자세히 알아보기](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
 
@@ -58,7 +58,7 @@ WhatsApp 채널에는 다음 제한 사항이 적용됩니다.
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470251?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

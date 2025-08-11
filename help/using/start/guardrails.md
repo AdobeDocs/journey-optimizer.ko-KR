@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2648'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,18 +86,18 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ## 하위 도메인 가드레일 {#subdomain-guardrails}
 
-Journey Optimizer의 하위 도메인 위임에 적용되는 보호 기능 및 제한 사항에 대해서는 [이 페이지](../configuration/delegate-subdomain.md#guardrails)에 자세히 설명되어 있습니다.
+Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 제한 사항에 대해서는 [이 페이지](../configuration/delegate-subdomain.md#guardrails)에 자세히 설명되어 있습니다.
 
 ## 조각 가드레일 {#fragments-guardrails}
 
 [조각](../content-management/fragments.md)에 다음 가드레일이 적용됩니다.
 
-* 조각을 만들고, 편집하고, 보관하고, 게시하려면 **[!DNL Manage library items]** 제품 프로필에 포함된 **[및]**&#x200B;조각 게시&#x200B;**[!DNL Content Library Manager]** 권한이 필요합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+* 조각을 만들고, 편집하고, 보관하고, 게시하려면 **[!DNL Content Library Manager]** 제품 프로필에 포함된 **[!DNL Manage library items]** 및 **[조각 게시]** 권한이 필요합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 * 시각적 조각은 이메일 채널에만 사용할 수 있습니다.
 * 인앱 채널에는 표현식 조각을 사용할 수 없습니다.
 * 시각적 조각은 100KB를 초과할 수 없습니다. 표현식 조각은 200KB를 초과할 수 없습니다.
-* 여정 또는 캠페인에서 조각을 사용하려면 **Live** 상태여야 합니다.
-* [컨텍스트 특성](../personalization/personalization-build-expressions.md)은(는) 조각 내에서 지원되지 않습니다.
+* 이제 여정 또는 캠페인에서 조각을 사용하려면 해당 조각이 **라이브** 상태여야 합니다.
+* [컨텍스트 특성](../personalization/personalization-build-expressions.md)은 조각 내에서 지원되지 않습니다.
 * 테마 사용 모드와 수동 스타일 모드 간에는 시각적 조각이 상호 호환되지 않습니다. 테마를 적용할 콘텐츠에서 조각을 사용할 수 있으려면 테마 사용 모드에서 이 조각을 만들어야 합니다. [테마에 대해 자세히 알아보기](../email/apply-email-themes.md)
 * 여정 또는 캠페인에서 추적이 활성화되면 조각에 링크를 추가하고 이 조각을 메시지에 사용하는 경우 메시지에 포함된 다른 모든 링크와 같이 이러한 링크가 추적됩니다. [링크 및 추적에 대해 자세히 알아보기](../email/message-tracking.md)
 
@@ -166,7 +166,7 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 보호 기능 및 �
 
 여정의 [이벤트](../event/about-events.md)에 다음 가드레일이 적용됩니다.
 
-* 각 조직에 대해 Journey Optimizer은 초당 최대 5,000개의 인바운드 여정 이벤트를 지원합니다.
+* 조직당 Journey Optimizer가 지원하는 인바운드 여정 이벤트의 최대 볼륨은 초당 5,000개입니다.
 * 이벤트 트리거 여정의 첫 번째 액션을 처리하는 데에는 최대 5분이 걸릴 수 있습니다.
 * 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Optimizer 내에서 구성해야 합니다.. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다. 
 * 비즈니스 이벤트는 단일 이벤트 또는 대상자 선별 활동과 함께 사용할 수 없습니다. 
@@ -213,7 +213,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 * 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에서 기본적으로 다시 시도가 적용됩니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다.
 
 
-[이 페이지](../building-journeys/read-audience.md#must-read)도 참조하세요.
+[이 페이지](../building-journeys/read-audience.md#must-read)도 참조하십시오.
 
 ### 대상자 선별 {#audience-qualif-g}
 
@@ -260,6 +260,6 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 * Adobe Campaign 활동은 [대상자 읽기] 또는 [대상자 선별] 활동과 함께 사용할 수 없습니다.
 * 캠페인 활동은 다른 채널 활동(카드, 코드 기반 경험, 이메일, 푸시, SMS, 인앱 메시지, 웹)과 함께 사용할 수 없습니다.
 
-## 캠페인 오케스트레이션 보호 기능 {#orchestration-guardrails}
+## 캠페인 오케스트레이션 가드레일 {#orchestration-guardrails}
 
-Campaign Orchestration을 사용할 때 염두에 두어야 할 보호 기능 및 제한 사항은 이 섹션에 자세히 설명되어 있습니다. [의사 결정 관리 보호 기능 및 제한 사항](../orchestrated/guardrails.md).
+캠페인 오케스트레이션을 사용할 때 염두에 두어야 할 가드레일 및 제한 사항은 [의사 결정 관리 가드레일 및 제한 사항](../orchestrated/guardrails.md) 섹션에 자세히 설명되어 있습니다.
