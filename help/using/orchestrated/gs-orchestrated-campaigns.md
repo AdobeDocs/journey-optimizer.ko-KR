@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 오케스트레이션된 캠페인 시작
+title: 오케스트레이션된 캠페인 시작하기
 description: 오케스트레이션된 캠페인으로 시작하는 방법 알아보기
 short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 사례를 살펴보십시오.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
@@ -13,7 +13,7 @@ ht-degree: 30%
 ---
 
 
-# 오케스트레이션된 캠페인 시작 {#orchestrated-camp}
+# 오케스트레이션된 캠페인 시작하기 {#orchestrated-camp}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"

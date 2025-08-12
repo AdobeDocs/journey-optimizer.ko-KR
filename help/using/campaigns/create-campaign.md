@@ -13,12 +13,12 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 52%
+ht-degree: 55%
 
 ---
 
 
-# 작업 캠페인 작업 {#gs-action-campaigns}
+# 액션 캠페인 작업 {#gs-action-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"
@@ -48,4 +48,4 @@ ht-degree: 52%
 
 액션 캠페인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412406?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

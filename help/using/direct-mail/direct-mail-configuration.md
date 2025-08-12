@@ -9,7 +9,7 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1364'
 ht-degree: 22%
 
 ---
@@ -89,7 +89,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 **[!UICONTROL Amazon S3]**&#x200B;을(를) **[!UICONTROL 서버 형식]**(으)로 선택한 경우 서버에 대한 세부 정보와 자격 증명을 입력하십시오.
 
-* **AWS 버킷 이름**:AWS 버킷 이름을 찾을 수 있는 위치를 알려면 [이 페이지](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)를 참조하세요.
+* **AWS 버킷 이름**:To AWS 버킷 이름을 찾을 수 있는 위치를 알아보세요. [이 페이지](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)를 참조하세요.
 
 * **AWS 액세스 키**: AWS 액세스 키 ID를 찾을 수 있는 위치를 알려면 [이 페이지](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)를 참조하세요.
 
@@ -145,7 +145,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
+[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
 
 >[!ENDTABS]
 
