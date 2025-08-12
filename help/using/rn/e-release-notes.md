@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1f53a578e91cd26e0e062c20b371a344ad709a8f
+source-git-commit: 1be17ef27ca3ed7ff98d9df47cfa9066a89625f3
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1046'
 ht-degree: 47%
 
 ---
@@ -140,14 +140,13 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>랜딩 페이지 사용자 정의 양식</strong><br/></th>
+<th><strong>여정 경로 최적화</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer을 사용하여 사용자 정의 양식을 만들고 랜딩 페이지에서 이를 활용하여 프로필 속성을 각 양식에 대해 정의된 데이터 세트에 캡처할 수 있습니다.</p>
-<p>이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.</p>
+<p>이제 Journey Optimizer은 AI 및 실험 프레임워크를 활용하여 여정을 최적화할 수 있는 도구를 제공하는 동시에 조건 및 최적화 기능 간의 원활한 유용성과 차별화를 보장합니다.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,13 +157,32 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>여정 최적화</strong><br/></th>
+<th><strong>여정의 작업 활동</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer은 AI 및 실험 프레임워크를 활용하여 여정을 최적화할 수 있는 도구를 제공하는 동시에 조건 및 최적화 기능 간의 원활한 유용성과 차별화를 보장합니다.</p>
+<p>Journey Optimizer은 단일 작업과 다중 채널 아웃바운드 작업을 모두 구성할 수 있는 새로운 일반 작업 활동을 지원하므로 여정 캔버스 내에서 작업 구성을 간소화할 수 있습니다. 또한 이 새로운 활동을 통해 타기팅 최적화, 실험 및 다국어 언어 변형을 모든 기본 제공 채널 작업에 추가할 수 있습니다.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>랜딩 페이지 사용자 정의 양식</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer을 사용하여 사용자 정의 양식을 만들고 랜딩 페이지에서 이를 활용하여 프로필 속성을 각 양식에 대해 정의된 데이터 세트에 캡처할 수 있습니다.</p>
+<p>이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -197,5 +215,4 @@ ht-degree: 47%
      이제 원클릭 구독 취소 링크를 개인화하기 위해 동의 이벤트에 추가할 사용자 지정 속성을 정의할 수 있습니다.
 
 - **여정**
-   - **여정의 작업 활동** - Journey Optimizer에서는 단일 및 다중 채널 아웃바운드 작업을 모두 구성할 수 있는 새로운 일반 작업 활동을 지원하므로 여정 캔버스 내에서 작업 구성을 간소화할 수 있습니다. 또한 이 새로운 활동을 통해 타기팅 최적화, 실험 및 다국어 언어 변형을 모든 기본 제공 채널 작업에 추가할 수 있습니다.
    - **대량 작업 여정** - 이제 여정 목록에서 여러 항목을 선택할 수 있습니다. 선택하면 한 번에 최대 10개의 여정을 일시 중지하거나 다시 시작할 수 있습니다.
