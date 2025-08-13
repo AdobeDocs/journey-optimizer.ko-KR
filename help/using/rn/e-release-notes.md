@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8e0dff6082f5fec6768d1bf284936468fd19208d
+source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1010'
 ht-degree: 32%
 
 ---
@@ -147,6 +147,7 @@ ht-degree: 32%
 <tr>
 <td>
 <p>이제 Journey Optimizer은 AI 및 실험 프레임워크를 활용하여 여정을 최적화할 수 있는 도구를 제공하는 동시에 조건 및 최적화 기능 간의 원활한 유용성과 차별화를 보장합니다.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -231,6 +232,10 @@ ht-degree: 32%
    * **한 번 클릭 구독 취소 URL로 사용자 지정 특성 지원** - Journey Optimizer에서 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 한 번 클릭 구독 취소 링크를 정의하여 외부 사용자 지정 끝점을 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer이 일부 기본 프로필별 매개 변수를 동의 업데이트 이벤트에 추가합니다.
 
      이제 원클릭 구독 취소 링크를 개인화하기 위해 동의 이벤트에 추가할 사용자 지정 속성을 정의할 수 있습니다.
+
+* **의사 결정**
+
+   * **의사 결정 항목에 조각 첨부** - 이제 Journey Optimizer에서 의사 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있는 의사 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다.
 
 * **여정**
 
