@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1be17ef27ca3ed7ff98d9df47cfa9066a89625f3
+source-git-commit: 7f9828c1781468155702d9f8fd475736a7656188
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 47%
@@ -216,3 +216,4 @@ ht-degree: 47%
 
 - **여정**
    - **대량 작업 여정** - 이제 여정 목록에서 여러 항목을 선택할 수 있습니다. 선택하면 한 번에 최대 10개의 여정을 일시 중지하거나 다시 시작할 수 있습니다.
+
