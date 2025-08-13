@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: c9b8ee427b2a7366a01e34f6d83439e0ea2f7653
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 31%
@@ -40,7 +40,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
 >title="퍼지 옵트아웃"
->abstract="&quot;활성화되면 퍼지 옵트아웃은 정의된 옵트아웃 키워드(예: &#39;CANCIL&#39;)와 거의 유사한 인바운드 메시지를 감지하고 사용자의 구독 취소 의도를 확인하기 위해 확인 응답을 자동으로 전송합니다. 사용자가 정의된 프롬프트를 통해 확인하는 경우 가입을 취소합니다."
+>abstract="활성화되면 퍼지 옵트아웃은 정의된 옵트아웃 키워드(예: &#39;CANCIL&#39;)와 거의 유사한 인바운드 메시지를 감지하고 사용자의 구독 취소 의도를 확인하기 위해 확인 응답을 자동으로 전송합니다. 사용자가 정의된 프롬프트를 통해 확인하는 경우 가입을 취소합니다."
 
 SMS, MMS 또는 RCS를 보내기 전에 Adobe Journey Optimizer 환경을 구성해야 합니다. 다음을 수행하십시오.
 
