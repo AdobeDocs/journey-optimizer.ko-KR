@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: b0901a86eaa1d9a0482caf689043a1029313f6c5
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 35%
+source-wordcount: '929'
+ht-degree: 34%
 
 ---
 
@@ -205,6 +205,8 @@ ht-degree: 35%
    * **아웃바운드 캠페인의 비율 제어** - 이제 아웃바운드 캠페인(이메일, SMS, 푸시 알림)에 대한 전송률 제어를 활성화하여 랜딩 페이지나 고객 지원 플랫폼과 같은 다운스트림 시스템에서 오버로드를 방지할 수 있습니다.
 
    * **작업 캠페인 예약** - 세부 기간을 개선하기 위해 일일, 주별 및 월별 캠페인 스케줄러가 업데이트되었습니다. 예를 들어 이제 일정 간의 주/개월 수를 설정하고, 실행할 날짜를 정의하고, 특정 발생 횟수 이후 또는 특정 날짜에 중단하기로 결정할 수 있습니다.
+
+   * **예약된 트랜잭션 작업 캠페인** - 이제 예약된 트랜잭션 작업 캠페인을 사용하여 전자 메일, SMS 및 푸시 채널을 통해 일괄 처리, 대상 기반 트랜잭션 메시지를 보낼 수 있습니다.
 
 * **채널 - 푸시**
 
